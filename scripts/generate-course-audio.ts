@@ -16,8 +16,8 @@ import {
   getUsageInfo,
 } from '../src/lib/text-to-speech';
 import { ALL_MODULES } from '../src/lib/course-data-b2';
-import { B2_NEG_MODULES } from '../src/lib/course-data-b2-neg';
 import { TOEFL_COURSES } from '../src/lib/toefl-units';
+import { B1_COURSE } from '../src/lib/course/b1';
 import type { Module, Lesson, Exercise } from '../src/lib/exercise-types';
 import { UnitData, PremiumInteraction, PremiumBlock } from '../src/types/premium-course';
 import * as path from 'path';
@@ -87,7 +87,7 @@ function collectAudiosToGenerate(): AudioToGenerate[] {
   const audios: AudioToGenerate[] = [];
   
   // 1. Process Legacy/Standard Courses
-  const allAvailableModules = [...(ALL_MODULES as any[]), ...(B2_NEG_MODULES as any[])];
+  const allAvailableModules = [...(ALL_MODULES as any[])];
 
   allAvailableModules.forEach((module: any) => {
     const lessons = module.lessons || module.units || [];
@@ -138,6 +138,30 @@ function collectAudiosToGenerate(): AudioToGenerate[] {
           }
         }
       });
+    });
+  });
+
+  // 1.5 Process B1 Course
+  B1_COURSE.units.forEach((unit: any) => {
+    unit.exercises.forEach((exercise: any) => {
+      if (exercise.transcript && exercise.audioUrl) {
+        const outputPath = path.join(process.cwd(), 'public', exercise.audioUrl);
+        
+        // Ensure directory exists
+        const dir = path.dirname(outputPath);
+        if (!fs.existsSync(dir)) {
+          fs.mkdirSync(dir, { recursive: true });
+        }
+
+        audios.push({
+          lessonId: `b1-u${unit.id}`,
+          exerciseId: exercise.id,
+          text: exercise.transcript,
+          voiceId: VOICE_IDS.british_female, // Default for B1
+          outputPath,
+          type: 'listening',
+        });
+      }
     });
   });
 
@@ -326,19 +350,63 @@ async function generateTestAudio() {
   }
 }
 
+/**
+ * Genera audios para una unidad específica
+ */
+async function generateUnitAudios(unitId: string) {
+  console.log(`🎙️  GENERADOR DE AUDIOS - UNIDAD ${unitId}`);
+  console.log('=====================================\n');
+
+  // Recopilar todos los audios
+  const allAudios = collectAudiosToGenerate();
+  
+  // Filtrar por unidad
+  const audios = allAudios.filter(a => a.lessonId === unitId || a.lessonId === `b1-u${unitId}`);
+  
+  if (audios.length === 0) {
+    console.log(`⚠️ No se encontraron audios para la unidad ${unitId}`);
+    return;
+  }
+
+  console.log(`📝 Total de audios a generar para la unidad ${unitId}: ${audios.length}\n`);
+
+  let successCount = 0;
+  let errorCount = 0;
+
+  for (let i = 0; i < audios.length; i++) {
+    const audio = audios[i];
+    console.log(`\n[${i + 1}/${audios.length}] Generando: ${audio.exerciseId}`);
+    
+    try {
+      const success = await generateWithFallback(audio);
+      if (success) successCount++;
+      else errorCount++;
+    } catch (e) {
+      errorCount++;
+      console.error(`   ❌ Error: ${e}`);
+    }
+  }
+
+  console.log(`\n✅ Completado: ${successCount} exitosos, ${errorCount} errores.`);
+}
+
 // Ejecutar según el argumento
 const command = process.argv[2];
+const arg2 = process.argv[3];
 
 if (command === 'test') {
   generateTestAudio();
 } else if (command === 'all') {
   generateAllAudios();
+} else if (command === 'unit' && arg2) {
+  generateUnitAudios(arg2);
 } else {
   console.log('🎙️  GENERADOR DE AUDIOS - CURSO B2');
   console.log('=====================================\n');
   console.log('Uso:');
-  console.log('  npm run generate-audio test  - Generar audio de prueba');
-  console.log('  npm run generate-audio all   - Generar todos los audios\n');
+  console.log('  npm run generate-audio test     - Generar audio de prueba');
+  console.log('  npm run generate-audio all      - Generar todos los audios');
+  console.log('  npm run generate-audio unit 1   - Generar audios para la unidad 1\n');
   console.log('Antes de ejecutar:');
   console.log('  1. Configura ELEVENLABS_API_KEY en .env');
   console.log('  2. Asegúrate de tener créditos en tu cuenta de ElevenLabs\n');

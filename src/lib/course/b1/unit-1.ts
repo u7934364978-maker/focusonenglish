@@ -1,2008 +1,1091 @@
+
 import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_1_EXERCISES: Exercise[] = [
-  // --- FLASHCARDS: Identity & Life Stages (1-10) ---
-  {
-    id: 'b1-u1-e1',
-    type: 'flashcard',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      items: [
-        {
-          front: 'Identity',
-          back: 'Identidad',
-          example: 'Music is an important part of my identity.',
-          pronunciation: '/aɪˈden.tɪ.ti/',
-          explanation: 'Who a person is, or the qualities of a person or group that make them different from others.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e2',
-    type: 'flashcard',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      items: [
-        {
-          front: 'Milestone',
-          back: 'Hito / Momento clave',
-          example: 'Graduating from university was a major milestone in my life.',
-          pronunciation: '/ˈmaɪl.stəʊn/',
-          explanation: 'Un evento muy importante en el desarrollo o historia de algo o alguien.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e3',
-    type: 'flashcard',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      items: [
-        {
-          front: 'To settle down',
-          back: 'Establecerse',
-          example: 'They decided to settle down in a small town after years of traveling.',
-          pronunciation: '/tuː ˈset.əl daʊn/',
-          explanation: 'Empezar a vivir una vida tranquila en un lugar fijo, a menudo casándose.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e4',
-    type: 'flashcard',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      items: [
-        {
-          front: 'Upbringing',
-          back: 'Crianza',
-          example: 'Her strict upbringing influenced her professional discipline.',
-          pronunciation: '/ˈʌpˌbrɪŋ.ɪŋ/',
-          explanation: 'La forma en que alguien fue educado y cuidado durante su infancia.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e5',
-    type: 'flashcard',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      items: [
-        {
-          front: 'To look up to someone',
-          back: 'Admirar a alguien',
-          example: 'I have always looked up to my older sister.',
-          pronunciation: '/tuː lʊk ʌp tuː/',
-          explanation: 'Sentir un gran respeto y admiración por una persona.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e6',
-    type: 'flashcard',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      items: [
-        {
-          front: 'Current',
-          back: 'Actual',
-          example: 'What is your current role at the company?',
-          pronunciation: '/ˈkʌr.ənt/',
-          explanation: 'Ojo: no significa "común". Significa lo que está ocurriendo ahora.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e7',
-    type: 'flashcard',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      items: [
-        {
-          front: 'To be used to',
-          back: 'Estar acostumbrado a',
-          example: 'I am used to working in multicultural environments.',
-          pronunciation: '/tuː biː juːzd tuː/',
-          explanation: 'Indica que algo ya no es nuevo o extraño para ti.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e8',
-    type: 'flashcard',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      items: [
-        {
-          front: 'Values',
-          back: 'Valores',
-          example: 'Integrity and honesty are core values in this organization.',
-          pronunciation: '/ˈvæl.juːz/',
-          explanation: 'Principios o estándares de comportamiento que uno considera importantes.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e9',
-    type: 'flashcard',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      items: [
-        {
-          front: 'Achievement',
-          back: 'Logro / Éxito',
-          example: 'Winning the award was her greatest achievement.',
-          pronunciation: '/əˈtʃiːv.mənt/',
-          explanation: 'Algo muy bueno y difícil que has logrado con esfuerzo.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e10',
-    type: 'flashcard',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      items: [
-        {
-          front: 'To stay in touch',
-          back: 'Mantener el contacto',
-          example: 'We promised to stay in touch after the summer camp ended.',
-          pronunciation: '/tuː steɪ ɪn tʌtʃ/',
-          explanation: 'Mantener la comunicación con alguien a pesar de la distancia o el tiempo.'
-        }
-      ]
-    } as any
-  },
-
-  // --- MULTIPLE CHOICE: Grammar Focus (11-20) ---
-  {
-    id: 'b1-u1-e11',
-    type: 'multiple-choice',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'Action vs. State',
-      instructions: 'Choose the correct form.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'I ___ what you mean, but I don\'t agree.',
-          options: ['see', 'am see', 'sees', 'am seeing'],
-          correctAnswer: 0,
-          explanation: '"See" es un state verb cuando significa "entender", por lo que no suele ir en -ing.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e12',
-    type: 'multiple-choice',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'Current Trends',
-      instructions: 'Select the best option for a changing situation.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'The number of people working from home ___ every year.',
-          options: ['is increase', 'is increasing', 'increases', 'increase'],
-          correctAnswer: 1,
-          explanation: 'Usamos el Present Continuous para tendencias y situaciones que están cambiando.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e13',
-    type: 'multiple-choice',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'Habits vs. Temporary Actions',
-      instructions: 'Choose the correct tense.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'I usually drive to work, but this week I ___ the train.',
-          options: ['take', 'am taking', 'takes', 'am take'],
-          correctAnswer: 1,
-          explanation: 'Present Simple para el hábito ("usually drive") y Continuous para lo temporal ("this week").'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e14',
-    type: 'multiple-choice',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'State Verbs: Think',
-      instructions: 'Choose based on the meaning.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'Wait a minute, I ___ about what you said.',
-          options: ['thinks', 'am thinking', 'think', 'am think'],
-          correctAnswer: 1,
-          explanation: 'Cuando "think" se refiere al proceso mental activo, podemos usar -ing.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e15',
-    type: 'multiple-choice',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'State Verbs: Opinion',
-      instructions: 'Choose based on the meaning.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'I ___ that this is the best solution for us.',
-          options: ['am think', 'think', 'thinks', 'am thinking'],
-          correctAnswer: 1,
-          explanation: 'Cuando "think" significa "tener una opinión", es un state verb (no -ing).'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e16',
-    type: 'multiple-choice',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'Frequency Adverbs',
-      instructions: 'Identify the correct position.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'Which sentence is grammatically correct?',
-          options: ['Always I am meeting new people in my job.', 'I am always meeting new people in my job.', 'I always am meeting new people in my job.', 'I am meeting always new people in my job.'],
-          correctAnswer: 1,
-          explanation: 'El adverbio va después del verbo "to be". El Present Continuous con "always" a veces indica una frecuencia sorprendente o molesta.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e17',
-    type: 'multiple-choice',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'State Verbs: Have',
-      instructions: 'Choose based on the meaning.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'Shh! She ___ a very important phone call right now.',
-          options: ['has', 'is having', 'have', 'is have'],
-          correctAnswer: 1,
-          explanation: '"Have" puede ir en -ing cuando forma parte de una expresión de acción (have a call, have lunch).'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e18',
-    type: 'multiple-choice',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'State Verbs: Possession',
-      instructions: 'Choose based on the meaning.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'They ___ a beautiful house in the countryside.',
-          options: ['are have', 'has', 'are having', 'have'],
-          correctAnswer: 3,
-          explanation: 'Cuando "have" significa posesión, es un state verb (no -ing).'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e19',
-    type: 'multiple-choice',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'Future Arrangements',
-      instructions: 'Present Continuous for the future.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'I ___ my mentor tomorrow at 10 AM.',
-          options: ['meets', 'am meeting', 'meet', 'am meet'],
-          correctAnswer: 1,
-          explanation: 'Usamos el Present Continuous para planes fijos y citas en el futuro.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e20',
-    type: 'multiple-choice',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'General Truths',
-      instructions: 'Present Simple for permanent states.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'My family ___ from a small village in the north.',
-          options: ['come', 'is coming', 'are coming', 'comes'],
-          correctAnswer: 3,
-          explanation: 'Usamos el Present Simple para estados permanentes u orígenes.'
-        }
-      ]
-    } as any
-  },
-
-  // --- MATCHING: Vocabulary & Definitions (21-27) ---
-  {
-    id: 'b1-u1-e21',
-    type: 'matching',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      title: 'Life Events',
-      instructions: 'Match the phrase with its definition.',
-      pairs: [
-        { id: '1', left: 'To graduate', right: 'To successfully complete a course of study' },
-        { id: '2', left: 'To get promoted', right: 'To be given a more important job' },
-        { id: '3', left: 'To take up', right: 'To start a new hobby or activity' },
-        { id: '4', left: 'To grow up', right: 'To spend your childhood in a place' }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e22',
-    type: 'matching',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      title: 'Character Traits',
-      instructions: 'Match the adjective with its description.',
-      pairs: [
-        { id: '1', left: 'Ambitious', right: 'Determined to be successful' },
-        { id: '2', left: 'Reliable', right: 'Can be trusted to do something well' },
-        { id: '3', left: 'Outgoing', right: 'Friendly and energetic with others' },
-        { id: '4', left: 'Sensible', right: 'Acting with good judgment' }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e23',
-    type: 'matching',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      title: 'Work Collocations',
-      instructions: 'Match the verb with the noun.',
-      pairs: [
-        { id: '1', left: 'Pursue', right: 'A career' },
-        { id: '2', left: 'Earn', right: 'A living' },
-        { id: '3', left: 'Meet', right: 'A deadline' },
-        { id: '4', left: 'Gain', right: 'Experience' }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e24',
-    type: 'matching',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      title: 'Identity Terms',
-      instructions: 'Match the English term with its Spanish equivalent.',
-      pairs: [
-        { id: '1', left: 'Role model', right: 'Modelo a seguir' },
-        { id: '2', left: 'Self-esteem', right: 'Autoestima' },
-        { id: '3', left: 'Belonging', right: 'Pertenencia' },
-        { id: '4', left: 'Heritage', right: 'Herencia / Legado' }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e25',
-    type: 'matching',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      title: 'Phrasal Verbs (Relationships)',
-      instructions: 'Match the verb with its meaning.',
-      pairs: [
-        { id: '1', left: 'Get on with', right: 'Have a good relationship' },
-        { id: '2', left: 'Look back on', right: 'Think about the past' },
-        { id: '3', left: 'Fall out with', right: 'Argue and stop being friends' },
-        { id: '4', left: 'Keep in touch', right: 'Maintain contact' }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e26',
-    type: 'matching',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      title: 'Time Expressions',
-      instructions: 'Match the phrase with its use.',
-      pairs: [
-        { id: '1', left: 'Currently', right: 'For actions happening now' },
-        { id: '2', left: 'These days', right: 'For modern trends' },
-        { id: '3', left: 'On Tuesdays', right: 'For habitual routines' },
-        { id: '4', left: 'At the moment', right: 'Right now' }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e27',
-    type: 'matching',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      title: 'Synonyms',
-      instructions: 'Match the words with similar meanings.',
-      pairs: [
-        { id: '1', left: 'Vivid', right: 'Clear and detailed' },
-        { id: '2', left: 'Tough', right: 'Difficult' },
-        { id: '3', left: 'Essential', right: 'Extremely important' },
-        { id: '4', left: 'Significant', right: 'Meaningful' }
-      ]
-    } as any
-  },
-
-  // --- FILL-BLANK: Contextual Grammar (28-37) ---
-  {
-    id: 'b1-u1-e28',
-    type: 'fill-blank',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'Describing Your Life',
-      instructions: 'Fill in the correct form: Present Simple or Continuous.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'At the moment, I ___ in London while I finish my studies. (live)',
-          correctAnswer: 2,
-          explanation: 'Situación temporal: Continuous.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e29',
-    type: 'fill-blank',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'State Verbs Check',
-      instructions: 'Complete with the correct form of the verb in brackets.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Do you ___ why identity is so important? (understand)',
-          correctAnswer: 2,
-          explanation: '"Understand" es un state verb.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e30',
-    type: 'fill-blank',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'Work Routine',
-      instructions: 'Fill in the blank with the negative form.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'My manager ___ usually attend the morning meetings. (not)',
-          correctAnswer: "doesn't",
-          explanation: 'Present Simple negativo para hábitos (3ª persona).'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e31',
-    type: 'fill-blank',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'Changing Habits',
-      instructions: 'Complete the sentence with the correct form.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'I ___ to learn a new language this year. (try)',
-          correctAnswer: 2,
-          explanation: 'Proceso en curso durante un periodo de tiempo.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e32',
-    type: 'fill-blank',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'Belonging',
-      instructions: 'Complete with the correct form.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'This old photograph ___ to my grandmother. (belong)',
-          correctAnswer: 2,
-          explanation: '"Belong" indica posesión/estado: Present Simple.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e33',
-    type: 'fill-blank',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'State Verbs: Want',
-      instructions: 'Complete the sentence.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'I ___ to travel more in the future. (want)',
-          correctAnswer: 2,
-          explanation: '"Want" es un state verb (deseo).'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e34',
-    type: 'fill-blank',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'State Verbs: Seem',
-      instructions: 'Complete the sentence.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'You ___ a bit tired today. Is everything okay? (seem)',
-          correctAnswer: 2,
-          explanation: '"Seem" es un state verb (apariencia).'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e35',
-    type: 'fill-blank',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'Modern Trends',
-      instructions: 'Complete with the verb "get".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'The weather ___ colder and colder. (get)',
-          correctAnswer: 2,
-          explanation: 'Situación en cambio progresivo: Continuous.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e36',
-    type: 'fill-blank',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'Preferences',
-      instructions: 'Complete with the correct form.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'I ___ coffee to tea in the morning. (prefer)',
-          correctAnswer: 2,
-          explanation: '"Prefer" es un state verb (gusto).'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e37',
-    type: 'fill-blank',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'Sense Verbs',
-      instructions: 'Complete with the correct form.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'This soup ___ delicious! What is the secret? (taste)',
-          correctAnswer: 2,
-          explanation: 'Cuando describe una cualidad, "taste" es un state verb.'
-        }
-      ]
-    } as any
-  },
-
-  // --- SENTENCE BUILDING: Syntax & Order (38-45) ---
-  {
-    id: 'b1-u1-e38',
-    type: 'sentence-building',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'Identity Question',
-      instructions: 'Order the words to form a question.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['do', 'How', 'yourself', 'define', 'you', '?'],
-          correctSentence: 'How do you define yourself?',
-          translation: '¿Cómo te defines a ti mismo?',
-          points: 5
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e39',
-    type: 'sentence-building',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'Current Project',
-      instructions: 'Order the words to describe a current action.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['working', 'I', 'am', 'on', 'a', 'big', 'project', '.'],
-          correctSentence: 'I am working on a big project.',
-          translation: 'Estoy trabajando en un proyecto grande.',
-          points: 5
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e40',
-    type: 'sentence-building',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'Habitual Action',
-      instructions: 'Order the words.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['They', 'often', 'go', 'to', 'the', 'gym', 'together', '.'],
-          correctSentence: 'They often go to the gym together.',
-          translation: 'Ellos a menudo van al gimnasio juntos.',
-          points: 5
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e41',
-    type: 'sentence-building',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'State Verb Sentence',
-      instructions: 'Order the words.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['believe', 'I', 'that', 'honesty', 'is', 'essential', '.'],
-          correctSentence: 'I believe that honesty is essential.',
-          translation: 'Creo que la honestidad es esencial.',
-          points: 5
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e42',
-    type: 'sentence-building',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'Frequency and To Be',
-      instructions: 'Order the words.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['She', 'is', 'always', 'available', 'to', 'help', '.'],
-          correctSentence: 'She is always available to help.',
-          translation: 'Ella siempre está disponible para ayudar.',
-          points: 5
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e43',
-    type: 'sentence-building',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'Temporary Situation',
-      instructions: 'Order the words.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['We', 'staying', 'are', 'with', 'friends', 'this', 'week', '.'],
-          correctSentence: 'We are staying with friends this week.',
-          translation: 'Nos estamos quedando con amigos esta semana.',
-          points: 5
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e44',
-    type: 'sentence-building',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'Changing Situation',
-      instructions: 'Order the words.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['English', 'skills', 'My', 'getting', 'are', 'better', '.'],
-          correctSentence: 'My English skills are getting better.',
-          translation: 'Mis habilidades de inglés están mejorando.',
-          points: 5
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e45',
-    type: 'sentence-building',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'Future Arrangement',
-      instructions: 'Order the words.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['am', 'I', 'dinner', 'having', 'with', 'Mark', 'tonight', '.'],
-          correctSentence: 'I am having dinner with Mark tonight.',
-          translation: 'Voy a cenar con Mark esta noche.',
-          points: 5
-        }
-      ]
-    } as any
-  },
-
-  // --- SPEAKING ANALYSIS: Pronunciation & Fluency (46-50) ---
-  {
-    id: 'b1-u1-e46',
-    type: 'speaking-analysis',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Production',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciation: Achievement',
-      instructions: 'Say the word "Achievement" clearly.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Achievement',
-          correctAnswer: 2,
-          explanation: 'Presta atención a la /tʃ/ central y a la /v/ final.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e47',
-    type: 'speaking-analysis',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Production',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciation: Background',
-      instructions: 'Say the word "Background".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Background',
-          correctAnswer: 2,
-          explanation: 'La vocal de "back" es abierta /æ/, y "ground" termina en /nd/.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e48',
-    type: 'speaking-analysis',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Production',
-    difficulty: 'medium',
-    content: {
-      title: 'Short Intro',
-      instructions: 'Read this sentence out loud.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'I am currently working on my personal brand.',
-          correctAnswer: 2,
-          explanation: 'Mantén el ritmo y une "working on".'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e49',
-    type: 'speaking-analysis',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Production',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciation: Milestone',
-      instructions: 'Say the word "Milestone".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Milestone',
-          correctAnswer: 2,
-          explanation: 'Dos sílabas claras: /ˈmaɪl.stəʊn/.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e50',
-    type: 'speaking-analysis',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Production',
-    difficulty: 'medium',
-    content: {
-      title: 'Habit Description',
-      instructions: 'Read this sentence out loud.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'I usually wake up early to exercise.',
-          correctAnswer: 2,
-          explanation: 'Pronuncia bien "usually" /ˈjuː.ʒu.ə.li/.'
-        }
-      ]
-    } as any
-  },
-
-  // --- FLASHCARDS: Advanced Vocabulary (51-60) ---
-  {
-    id: 'b1-u1-e51',
-    type: 'flashcard',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      items: [
-        {
-          front: 'To end up',
-          back: 'Terminar / Acabar (en una situación)',
-          example: 'I always dreamed of living in Japan, and now I do!',
-          pronunciation: '/tuː end ʌp/',
-          explanation: 'Llegar a una situación o lugar que no habías planeado originalmente.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e52',
-    type: 'flashcard',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      items: [
-        {
-          front: 'To turn out',
-          back: 'Resultar / Resultar ser',
-          example: 'The interview turned out to be much easier than I expected.',
-          pronunciation: '/tuː tɜːn aʊt/',
-          explanation: 'Tener un resultado final, especialmente uno inesperado.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e53',
-    type: 'flashcard',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      items: [
-        {
-          front: 'Turning point',
-          back: 'Punto de inflexión',
-          example: 'Meeting my mentor was a major turning point in my career.',
-          pronunciation: '/ˈtɜː.nɪŋ pɔɪnt/',
-          explanation: 'Un momento en el que ocurre un cambio muy importante en una situación.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e54',
-    type: 'flashcard',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      items: [
-        {
-          front: 'To make up one\'s mind',
-          back: 'Decidirse',
-          example: 'I haven\'t made up my mind about the job offer yet.',
-          pronunciation: '/tuː meɪk ʌp wʌnz maɪnd/',
-          explanation: 'Llegar a una decisión final después de pensarlo.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e55',
-    type: 'flashcard',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      items: [
-        {
-          front: 'To look forward to',
-          back: 'Tener ganas de / Esperar con ansia',
-          example: 'I am looking forward to starting my new project.',
-          pronunciation: '/tuː lʊk ˈfɔː.wəd tuː/',
-          explanation: 'Sentirse emocionado por algo que va a ocurrir en el futuro.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e56',
-    type: 'flashcard',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      items: [
-        {
-          front: 'Outcome',
-          back: 'Resultado',
-          example: 'We are still waiting for the final outcome of the meeting.',
-          pronunciation: '/ˈaʊt.kʌm/',
-          explanation: 'El resultado o efecto de una acción o evento.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e57',
-    type: 'flashcard',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      items: [
-        {
-          front: 'To face a challenge',
-          back: 'Enfrentar un desafío',
-          example: 'She had to face many challenges before becoming successful.',
-          pronunciation: '/tuː feɪs ə ˈtʃæl.ɪndʒ/',
-          explanation: 'Afrontar una situación difícil que requiere esfuerzo.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e58',
-    type: 'flashcard',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      items: [
-        {
-          front: 'To take a chance',
-          back: 'Arriesgarse',
-          example: 'You have to take a chance if you want to change your life.',
-          pronunciation: '/tuː teɪk ə tʃɑːns/',
-          explanation: 'Hacer algo a pesar de que el resultado sea incierto o arriesgado.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e59',
-    type: 'flashcard',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      items: [
-        {
-          front: 'In the long run',
-          back: 'A largo plazo',
-          example: 'Working hard now will benefit you in the long run.',
-          pronunciation: '/ɪn ðə lɒŋ rʌn/',
-          explanation: 'En un periodo de tiempo lejano en el futuro.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e60',
-    type: 'flashcard',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      items: [
-        {
-          front: 'To bear in mind',
-          back: 'Tener en cuenta',
-          example: 'Please bear in mind that the deadline is tomorrow.',
-          pronunciation: '/tuː beər ɪn maɪnd/',
-          explanation: 'Recordar o considerar algo importante al tomar una decisión.'
-        }
-      ]
-    } as any
-  },
-
-  // --- MULTIPLE CHOICE: Advanced Grammar (61-70) ---
-  {
-    id: 'b1-u1-e61',
-    type: 'multiple-choice',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'hard',
-    content: {
-      title: 'State Verbs in Action',
-      instructions: 'Choose the correct form based on the context.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'I ___ a great time at the conference this week.',
-          options: ['am have', 'has', 'am having', 'have'],
-          correctAnswer: 2,
-          explanation: 'Aquí "have" indica una experiencia temporal, por lo que usamos -ing.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e62',
-    type: 'multiple-choice',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'hard',
-    content: {
-      title: 'Sensory Verbs',
-      instructions: 'Choose the correct form.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'The chef ___ the sauce to see if it needs more salt.',
-          options: ['is taste', 'taste', 'is tasting', 'tastes'],
-          correctAnswer: 2,
-          explanation: 'Aquí es una acción física y voluntaria, por lo que usamos el continuous.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e63',
-    type: 'multiple-choice',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'Frequency and Stative Verbs',
-      instructions: 'Identify the correct sentence.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'Which one is correct?',
-          options: ['I knowing him for years.', 'I am knowing him for years.', 'I know him for years.', 'I have known him for years.'],
-          correctAnswer: 3,
-          explanation: 'Para estados que empezaron en el pasado y continúan, usamos el Present Perfect Simple, no el Continuous.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e64',
-    type: 'multiple-choice',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'Nuance: Feel',
-      instructions: 'Choose the best option.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'How ___ today? You look much better.',
-          options: ['feel you', 'Both are correct', 'are you feeling', 'do you feel'],
-          correctAnswer: 1,
-          explanation: 'Con "feel" y "ache", el Present Simple y Continuous se pueden usar indistintamente para estados de salud.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e65',
-    type: 'multiple-choice',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'hard',
-    content: {
-      title: 'Annoying Habits',
-      instructions: 'Choose the structure for annoyance.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'My brother ___ his things everywhere! It\'s so annoying.',
-          options: ['is always leaving', 'leaves always', 'always is leaving', 'always leaves'],
-          correctAnswer: 0,
-          explanation: 'Present Continuous con "always" para hábitos que nos resultan sorprendentes o molestos.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e66',
-    type: 'multiple-choice',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'Mental States',
-      instructions: 'Choose the correct form.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'I ___ what you mean, but I don\'t agree with your logic.',
-          options: ['understand', 'understands', 'am understanding', 'am understand'],
-          correctAnswer: 0,
-          explanation: '"Understand" es puramente mental y no admite -ing.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e67',
-    type: 'multiple-choice',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'hard',
-    content: {
-      title: 'Current Projects vs Habits',
-      instructions: 'Choose the correct combination.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'Normally I ___ at 9:00, but today I ___ until 11:00.',
-          options: ['am starting / am working', 'start / work', 'am starting / work', 'start / am working'],
-          correctAnswer: 3,
-          explanation: 'Hábito (Simple) vs Acción temporal hoy (Continuous).'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e68',
-    type: 'multiple-choice',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'Changing States',
-      instructions: 'Select the correct progress verb.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'The world economy ___ very fast lately.',
-          options: ['is changing', 'changes', 'change', 'is change'],
-          correctAnswer: 0,
-          explanation: 'Usamos el continuous para procesos de cambio en curso.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e69',
-    type: 'multiple-choice',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'hard',
-    content: {
-      title: 'States with "Be"',
-      instructions: 'Choose based on permanent vs temporary behavior.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'Stop it! You ___ very selfish right now.',
-          options: ['are', 'be', 'are being', 'is being'],
-          correctAnswer: 2,
-          explanation: '"Are being" indica que la persona se está comportando así solo en este momento, no que sea su personalidad.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e70',
-    type: 'multiple-choice',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'Future Arrangements',
-      instructions: 'Identify the fixed plan.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'What ___ this evening? Would you like to go out?',
-          options: ['do you do', 'you doing', 'are you doing', 'does you do'],
-          correctAnswer: 2,
-          explanation: 'Preguntamos por planes futuros cercanos usando Present Continuous.'
-        }
-      ]
-    } as any
-  },
-
-  // --- MATCHING: Collocations & Idioms (71-80) ---
-  {
-    id: 'b1-u1-e71',
-    type: 'matching',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      title: 'Life Phrasals',
-      instructions: 'Match the phrasal verb with its context.',
-      pairs: [
-        { id: '1', left: 'Pick up', right: 'A new skill easily' },
-        { id: '2', left: 'Get by', right: 'With enough money to live' },
-        { id: '3', left: 'Look into', right: 'Investigate an opportunity' },
-        { id: '4', left: 'Set up', right: 'Start a new business' }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e72',
-    type: 'matching',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      title: 'Success Idioms',
-      instructions: 'Match the idiom with its meaning.',
-      pairs: [
-        { id: '1', left: 'A piece of cake', right: 'Something very easy' },
-        { id: '2', left: 'In the spotlight', right: 'Receiving a lot of attention' },
-        { id: '3', left: 'Call it a day', right: 'Stop working for now' },
-        { id: '4', left: 'Under the weather', right: 'Feeling slightly ill' }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e73',
-    type: 'matching',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      title: 'Professional Nouns',
-      instructions: 'Match the word with its synonym.',
-      pairs: [
-        { id: '1', left: 'Vocation', right: 'Calling' },
-        { id: '2', left: 'Expertise', right: 'Skill' },
-        { id: '3', left: 'Resilience', right: 'Durability' },
-        { id: '4', left: 'Initiative', right: 'Resourcefulness' }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e74',
-    type: 'matching',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      title: 'Identity Adjectives',
-      instructions: 'Match the opposite meanings.',
-      pairs: [
-        { id: '1', left: 'Authentic', right: 'Fake' },
-        { id: '2', left: 'Humble', right: 'Arrogant' },
-        { id: '3', left: 'Optimistic', right: 'Pessimistic' },
-        { id: '4', left: 'Generous', right: 'Stingy' }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e75',
-    type: 'matching',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      title: 'Time & Frequency',
-      instructions: 'Match the expression with its meaning.',
-      pairs: [
-        { id: '1', left: 'Once in a blue moon', right: 'Very rarely' },
-        { id: '2', left: 'Round the clock', right: '24 hours a day' },
-        { id: '3', left: 'From time to time', right: 'Occasionally' },
-        { id: '4', left: 'Sooner or later', right: 'Eventually' }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e76',
-    type: 'matching',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      title: 'Career Paths',
-      instructions: 'Match the verb with its noun.',
-      pairs: [
-        { id: '1', left: 'Climb', right: 'The ladder' },
-        { id: '2', left: 'Reach', right: 'A goal' },
-        { id: '3', left: 'Face', right: 'Rejection' },
-        { id: '4', left: 'Overcome', right: 'An obstacle' }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e77',
-    type: 'matching',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      title: 'Character Descriptions',
-      instructions: 'Match the description with the adjective.',
-      pairs: [
-        { id: '1', left: 'Knows what they want', right: 'Goal-oriented' },
-        { id: '2', left: 'Always tells the truth', right: 'Trustworthy' },
-        { id: '3', left: 'Has new ideas', right: 'Innovative' },
-        { id: '4', left: 'Works well with others', right: 'Cooperative' }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e78',
-    type: 'matching',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      title: 'Spanish to English',
-      instructions: 'Match the translation.',
-      pairs: [
-        { id: '1', left: 'A pesar de', right: 'Despite' },
-        { id: '2', left: 'Por otro lado', right: 'On the other hand' },
-        { id: '3', left: 'En cambio', right: 'Instead' },
-        { id: '4', left: 'Debido a', right: 'Due to' }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e79',
-    type: 'matching',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      title: 'Mental Verbs',
-      instructions: 'Match synonyms.',
-      pairs: [
-        { id: '1', left: 'Recall', right: 'Remember' },
-        { id: '2', left: 'Suppose', right: 'Assume' },
-        { id: '3', left: 'Realize', right: 'Understand' },
-        { id: '4', left: 'Recognize', right: 'Identify' }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e80',
-    type: 'matching',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      title: 'Life stages Phrasals',
-      instructions: 'Match meanings.',
-      pairs: [
-        { id: '1', left: 'Move in', right: 'Start living in a new house' },
-        { id: '2', left: 'Pass away', right: 'To die' },
-        { id: '3', left: 'Bring up', right: 'Raise a child' },
-        { id: '4', left: 'Go through', right: 'Experience a difficult time' }
-      ]
-    } as any
-  },
-
-  // --- FILL-BLANK: Story-based Grammar (81-90) ---
-  {
-    id: 'b1-u1-e81',
-    type: 'fill-blank',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'hard',
-    content: {
-      title: 'The Freelancer\'s Life',
-      instructions: 'Complete with the correct form of the verbs in brackets.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'I usually ___ (work) as a designer, but lately I ___ (work) on a book.',
-          correctAnswer: 'work / am working',
-          explanation: 'Hábito permanente vs proyecto temporal reciente.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e82',
-    type: 'fill-blank',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'Believing in yourself',
-      instructions: 'Fill in the correct form of the verb in brackets.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'She ___ (believe) that she is ready for the promotion.',
-          correctAnswer: 'believes',
-          explanation: 'Mental state verb: no continuous.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e83',
-    type: 'fill-blank',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'hard',
-    content: {
-      title: 'Developing a brand',
-      instructions: 'Complete with the correct form of the verb in brackets.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'My business ___ (grow) very fast this month.',
-          correctAnswer: 'is growing',
-          explanation: 'Proceso de cambio o desarrollo en curso.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e84',
-    type: 'fill-blank',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'Meeting plans',
-      instructions: 'Complete the arrangement.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'We ___ (meet) the new client tomorrow morning.',
-          correctAnswer: 'are meeting',
-          explanation: 'Cita programada en el futuro.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e85',
-    type: 'fill-blank',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'hard',
-    content: {
-      title: 'Stative vs Dynamic',
-      instructions: 'Complete with the correct form of "think".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'I ___ (think) of quitting my job. What do you ___ (think) about it?',
-          correctAnswer: 'am thinking / think',
-          explanation: 'Proceso de considerar vs Tener una opinión.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e86',
-    type: 'fill-blank',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'Annoying behavior',
-      instructions: 'Use the correct structure for a repeated annoyance.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'He ___ (always / take) my phone without asking!',
-          correctAnswer: 'is always taking',
-          explanation: 'Hábito molesto con Present Continuous.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e87',
-    type: 'fill-blank',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'Possession',
-      instructions: 'Fill in with the correct form of the verb "own".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'They ___ (own) a large company in Germany.',
-          correctAnswer: 'own',
-          explanation: 'Posesión es un estado: Present Simple.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e88',
-    type: 'fill-blank',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'Temporary Travel',
-      instructions: 'Fill in the correct form of the verb in brackets.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'She ___ (stay) at a hotel until she finds an apartment.',
-          correctAnswer: 'is staying',
-          explanation: 'Situación temporal.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e89',
-    type: 'fill-blank',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'State: Appear',
-      instructions: 'Fill in the blank with the correct form.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'The situation ___ (appear) to be under control.',
-          correctAnswer: 'appears',
-          explanation: '"Appear" como "parecer" es un state verb.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e90',
-    type: 'fill-blank',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'hard',
-    content: {
-      title: 'The Chef\'s Action',
-      instructions: 'Complete the sentence with "smell" in the correct form.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Why ___ (be) the waiter ___ (smell) the wine?',
-          correctAnswer: 'is / smelling',
-          explanation: 'Acción voluntaria de oler: Present Continuous.'
-        }
-      ]
-    } as any
-  },
-
-  // --- SENTENCE BUILDING: Complex Structures (91-97) ---
-  {
-    id: 'b1-u1-e91',
-    type: 'sentence-building',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'hard',
-    content: {
-      title: 'Contrastive Sentence',
-      instructions: 'Order the words.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['Although', 'I', 'love', 'traveling', 'staying', 'I', 'prefer', 'home', '.'],
-          correctSentence: 'Although I love traveling, I prefer staying home.',
-          translation: 'Aunque amo viajar, prefiero quedarme en casa.',
-          points: 10
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e92',
-    type: 'sentence-building',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'hard',
-    content: {
-      title: 'Developing Skills',
-      instructions: 'Order the words.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['becoming', 'Her', 'are', 'English', 'more', 'skills', 'fluent', '.'],
-          correctSentence: 'Her English skills are becoming more fluent.',
-          translation: 'Sus habilidades de inglés se están volviendo más fluidas.',
-          points: 10
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e93',
-    type: 'sentence-building',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'Future Arrangement Question',
-      instructions: 'Order the words.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['Are', 'you', 'next', 'joining', 'us', 'for', 'lunch', 'week', '?'],
-          correctSentence: 'Are you joining us for lunch next week?',
-          translation: '¿Te unirás a nosotros para almorzar la próxima semana?',
-          points: 8
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e94',
-    type: 'sentence-building',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'hard',
-    content: {
-      title: 'Opinion and Reason',
-      instructions: 'Order the words.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['I', 'think', 'because', 'he', 'is', 'a', 'it', 'works', 'hard', 'genius', '.'],
-          correctSentence: 'I think it works because he is a hard genius.',
-          translation: 'Creo que funciona porque él es un genio trabajador.',
-          points: 10
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e95',
-    type: 'sentence-building',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'Annoying Habit Order',
-      instructions: 'Order the words.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['is', 'He', 'forgetting', 'always', 'to', 'the', 'door', 'lock', '.'],
-          correctSentence: 'He is always forgetting to lock the door.',
-          translation: 'Él siempre se está olvidando de cerrar la puerta.',
-          points: 8
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e96',
-    type: 'sentence-building',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'medium',
-    content: {
-      title: 'Stative Question',
-      instructions: 'Order the words.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['Do', 'you', 'feel', 'like', 'you', 'belong', 'here', '?'],
-          correctSentence: 'Do you feel like you belong here?',
-          translation: '¿Sientes que perteneces aquí?',
-          points: 8
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e97',
-    type: 'sentence-building',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Grammar',
-    difficulty: 'hard',
-    content: {
-      title: 'State vs Dynamic Question',
-      instructions: 'Order the words.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['Why', 'is', 'tasting', 'the', 'she', 'right', 'soup', 'now', '?'],
-          correctSentence: 'Why is she tasting the soup right now?',
-          translation: '¿Por qué está ella probando la sopa justo ahora?',
-          points: 10
-        }
-      ]
-    } as any
-  },
-
-  // --- SPEAKING ANALYSIS: Fluency (98-100) ---
-  {
-    id: 'b1-u1-e98',
-    type: 'speaking-analysis',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Production',
-    difficulty: 'hard',
-    content: {
-      title: 'Self-Introduction',
-      instructions: 'Record yourself saying this fluently.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'I am looking forward to exploring new career opportunities.',
-          correctAnswer: 'I am looking forward to exploring new career opportunities',
-          explanation: 'Conecta "looking forward to" y pronuncia "opportunities" /ˌɒp.əˈtjuː.nə.tiz/.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e99',
-    type: 'speaking-analysis',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Production',
-    difficulty: 'hard',
-    content: {
-      title: 'Expressing Opinion',
-      instructions: 'Say this sentence with natural intonation.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'I believe that persistence is the key to success in the long run.',
-          correctAnswer: 'I believe that persistence is the key to success in the long run',
-          explanation: 'Enfatiza "persistence" y "long run".'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'b1-u1-e100',
-    type: 'speaking-analysis',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Production',
-    difficulty: 'hard',
-    content: {
-      title: 'Final Summary',
-      instructions: 'Read out loud to finish the unit.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Everyone has a unique story that defines who they are today.',
-          correctAnswer: 'Everyone has a unique story that defines who they are today',
-          explanation: 'Fluidez y claridad en "unique" /juːˈniːk/.'
-        }
-      ]
-    } as any
-  },
+  {
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "What time does she usually wake up during weekdays?",
+    "audioUrl": "audio/b1/unit-1/e1.mp3",
+    "content": {
+      "prompt": "[[What|Qué]] [[time|hora]] [[does|hace]] [[she|ella]] [[usually|generalmente]] [[wake|despierta]] [[up|arriba]] [[during|durante]] [[weekdays|días laborales]]?",
+      "options": [
+        "[[She|Ella]] [[wakes|despierta]] [[up|arriba]] [[at|a las]] [[7|siete]] [[a.m.|a. m.]]",
+        "[[She|Ella]] [[wakes|despierta]] [[up|arriba]] [[at|a las]] [[10|diez]] [[a.m.|a. m.]]"
+      ],
+      "answerIndex": 0,
+      "explanation": "[[In|En]] [[Spanish|español]], [[the|el]] [[question|pregunta]] [[asks|pregunta]] [[for|para]] [[her|su]] [[weekday|día laborable]] [[morning|mañana]] [[routine|rutina]]. [[The|El]] [[correct|correcto]] [[time|hora]] [[is|es]] 7 [[a.m.|a. m.]]"
+    },
+    "id": "b1-u1-e1",
+    "topicName": "Vocabulary"
+  },
+  {
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "How often does your sister go jogging in the park?",
+    "audioUrl": "audio/b1/unit-1/e2.mp3",
+    "content": {
+      "prompt": "[[How|Cómo]] [[often|frecuente]] [[does|hace]] [[your|tu]] [[sister|hermana]] [[go|va]] [[jogging|correr]] [[in|en]] [[the|el]] [[park|parque]]?",
+      "options": [
+        "[[Every|Cada]] [[Saturday|sábado]]",
+        "[[Once|Una vez]] [[a|cada]] [[year|año]]"
+      ],
+      "answerIndex": 0,
+      "explanation": "[[In|En]] [[Spanish|español]], [[the|la]] [[phrase|frase]] [[in|en]] [[the|el]] [[exercise|ejercicio]] [[references|hace referencia]] [[to|a]] [[regular|regularmente]] [[weekly|semanalmente]] [[activity|actividad]]."
+    },
+    "id": "b1-u1-e2",
+    "topicName": "Vocabulary"
+  },
+  {
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "What is your mother doing right now in the kitchen?",
+    "audioUrl": "audio/b1/unit-1/e3.mp3",
+    "content": {
+      "prompt": "[[What|Qué]] [[is|está]] [[your|tu]] [[mother|madre]] [[doing|haciendo]] [[right|ahora]] [[now|mismo]] [[in|en]] [[the|la]] [[kitchen|cocina]]?",
+      "options": [
+        "[[She|Ella]] [[is|está]] [[cooking|cocinando]]",
+        "[[She|Ella]] [[is|está]] [[reading|leyendo]]"
+      ],
+      "answerIndex": 0,
+      "explanation": "[[In|En]] [[Spanish|español]], [[the|la]] [[question|pregunta]] [[is|es]] [[about|sobre]] [[the|la]] [[activity|actividad]] [[happening|sucediendo]] [[in|en]] [[the|la]] [[kitchen|cocina]] [[at|en]] [[this|este]] [[moment|momento]]."
+    },
+    "id": "b1-u1-e3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "Why does Tom visit the library every Tuesday?",
+    "audioUrl": "audio/b1/unit-1/e4.mp3",
+    "content": {
+      "prompt": "[[Why|Por qué]] [[does|hace]] [[Tom|Tom]] [[visit|visita]] [[the|la]] [[library|biblioteca]] [[every|cada]] [[Tuesday|martes]]?",
+      "options": [
+        "[[To|Para]] [[study|estudiar]] [[with|con]] [[friends|amigos]]",
+        "[[To|Para]] [[watch|ver]] [[movies|películas]]"
+      ],
+      "answerIndex": 0,
+      "explanation": "[[In|En]] [[Spanish|español]], [[the|la]] [[question|pregunta]] [[is|es]] [[about|sobre]] [[the|la]] [[reason|razón]] [[for|para]] [[his|su]] [[regular|regular]] [[visit|visita]] [[to|a]] [[the|la]] [[library|biblioteca]]."
+    },
+    "id": "b1-u1-e4",
+    "topicName": "Vocabulary"
+  },
+  {
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "When do they usually have dinner on weekends?",
+    "audioUrl": "audio/b1/unit-1/e5.mp3",
+    "content": {
+      "prompt": "[[When|Cuándo]] [[do|hacen]] [[they|ellos]] [[usually|generalmente]] [[have|tienen]] [[dinner|cena]] [[on|en]] [[weekends|fines de semana]]?",
+      "options": [
+        "[[At|A las]] [[6:30|seis y media]] [[p.m.|p. m.]]",
+        "[[At|A las]] [[9:00|nueve]] [[p.m.|p. m.]]"
+      ],
+      "answerIndex": 1,
+      "explanation": "[[According|Según]] [[to|al]] [[the|el]] [[context|contexto]], [[the|la]] [[correct|correcta]] [[answer|respuesta]] [[indicates|indica]] [[a|un]] [[typical|típico]] [[dinner|cena]] [[time|horario]] [[on|en]] [[weekends|fines de semana]]."
+    },
+    "id": "b1-u1-e5",
+    "topicName": "Vocabulary"
+  },
+  {
+    "type": "fill-blank",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "I usually wake up at seven and have breakfast before I go to work.",
+    "audioUrl": "audio/b1/unit-1/e6.mp3",
+    "content": {
+      "prompt": "[[I|Yo]] [[usually|normalmente]] [[wake|despierto]] [[up|arriba]] [[at|a]] [[seven|siete]] [[and|y]] [[have|tener]] [[breakfast|desayuno]] [[before|antes]] [[I|yo]] [[go|voy]] [[to|a]] [[work|trabajo]].",
+      "options": [
+        "[[wake|despierto]]",
+        "[[have|tener]]"
+      ],
+      "answerIndex": 0,
+      "explanation": "In Spanish, 'wake' is used here to indicate the action of getting out of bed, which is 'despierto'."
+    },
+    "id": "b1-u1-e6",
+    "topicName": "Vocabulary"
+  },
+  {
+    "type": "fill-blank",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "She is reading a book while having her breakfast.",
+    "audioUrl": "audio/b1/unit-1/e7.mp3",
+    "content": {
+      "prompt": "[[She|Ella]] [[is|está]] [[reading|leyendo]] [[a|un]] [[book|libro]] [[while|mientras]] [[having|toma]] [[her|su]] [[breakfast|desayuno]].",
+      "options": [
+        "[[reading|leyendo]]",
+        "[[having|toma]]"
+      ],
+      "answerIndex": 0,
+      "explanation": "In Spanish, 'reading' corresponds to 'leyendo', which fits in this sentence about an activity done quietly."
+    },
+    "id": "b1-u1-e7",
+    "topicName": "Vocabulary"
+  },
+  {
+    "type": "fill-blank",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "They are watching television after dinner.",
+    "audioUrl": "audio/b1/unit-1/e8.mp3",
+    "content": {
+      "prompt": "[[They|Ellos]] [[are|están]] [[watching|viendo]] [[television|televisión]] [[after|después]] [[dinner|cena]].",
+      "options": [
+        "[[watching|viendo]]",
+        "[[after|después]]"
+      ],
+      "answerIndex": 0,
+      "explanation": "In Spanish, 'watching' translates to 'viendo', which describes what they do with the television."
+    },
+    "id": "b1-u1-e8",
+    "topicName": "Vocabulary"
+  },
+  {
+    "type": "fill-blank",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "He checks his emails every morning before leaving for work.",
+    "audioUrl": "audio/b1/unit-1/e9.mp3",
+    "content": {
+      "prompt": "[[He|Él]] [[checks|revisa]] [[his|sus]] [[emails|correos]] [[every|cada]] [[morning|mañana]] [[before|antes]] [[leaving|salir]] [[for|para]] [[work|trabajo]].",
+      "options": [
+        "[[emails|correos]]",
+        "[[leaving|salir]]"
+      ],
+      "answerIndex": 0,
+      "explanation": "In Spanish, 'emails' is 'correos', referring to messages checked in the morning."
+    },
+    "id": "b1-u1-e9",
+    "topicName": "Vocabulary"
+  },
+  {
+    "type": "fill-blank",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "We go jogging in the park every weekend.",
+    "audioUrl": "audio/b1/unit-1/e10.mp3",
+    "content": {
+      "prompt": "[[We|Nosotros]] [[go|vamos]] [[jogging|a correr]] [[in|en]] [[the|el]] [[park|parque]] [[every|cada]] [[weekend|fin de semana]].",
+      "options": [
+        "[[jogging|a correr]]",
+        "[[park|parque]]"
+      ],
+      "answerIndex": 0,
+      "explanation": "In Spanish, 'jogging' is translated to 'a correr', which indicates the physical activity done in the park."
+    },
+    "id": "b1-u1-e10",
+    "topicName": "Vocabulary"
+  },
+  {
+    "type": "sentence-building",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "I usually brush my teeth in the morning.",
+    "audioUrl": "audio/b1/unit-1/e11.mp3",
+    "content": {
+      "words": [
+        "[[I|Yo]]",
+        "[[usually|normalmente]]",
+        "[[brush|cepillo]]",
+        "[[my|mis]]",
+        "[[teeth|dientes]]",
+        "[[in|en]]",
+        "[[the|la]]",
+        "[[morning|mañana]]"
+      ],
+      "correctOrder": [
+        "I",
+        "usually",
+        "brush",
+        "my",
+        "teeth",
+        "in",
+        "the",
+        "morning"
+      ]
+    },
+    "id": "b1-u1-e11",
+    "topicName": "Vocabulary"
+  },
+  {
+    "type": "sentence-building",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "She is reading a book right now.",
+    "audioUrl": "audio/b1/unit-1/e12.mp3",
+    "content": {
+      "words": [
+        "[[She|Ella]]",
+        "[[is|está]]",
+        "[[reading|leyendo]]",
+        "[[a|un]]",
+        "[[book|libro]]",
+        "[[right|ahora]]",
+        "[[now|mismo]]"
+      ],
+      "correctOrder": [
+        "She",
+        "is",
+        "reading",
+        "a",
+        "book",
+        "right",
+        "now"
+      ]
+    },
+    "id": "b1-u1-e12",
+    "topicName": "Vocabulary"
+  },
+  {
+    "type": "sentence-building",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "They do not like to wake up early.",
+    "audioUrl": "audio/b1/unit-1/e13.mp3",
+    "content": {
+      "words": [
+        "[[They|Ellos]]",
+        "[[do|no]]",
+        "[[not|les]]",
+        "[[like|gusta]]",
+        "[[to|despertarse]]",
+        "[[wake|temprano]]",
+        "[[up|subir]]",
+        "[[early|pronto]]"
+      ],
+      "correctOrder": [
+        "They",
+        "do",
+        "not",
+        "like",
+        "to",
+        "wake",
+        "up",
+        "early"
+      ]
+    },
+    "id": "b1-u1-e13",
+    "topicName": "Vocabulary"
+  },
+  {
+    "type": "sentence-building",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "We are having dinner at six o'clock.",
+    "audioUrl": "audio/b1/unit-1/e14.mp3",
+    "content": {
+      "words": [
+        "[[We|Nosotros]]",
+        "[[are|estamos]]",
+        "[[having|teniendo]]",
+        "[[dinner|cena]]",
+        "[[at|a]]",
+        "[[six|las seis]]",
+        "[[o'clock|en punto]]"
+      ],
+      "correctOrder": [
+        "We",
+        "are",
+        "having",
+        "dinner",
+        "at",
+        "six",
+        "o'clock"
+      ]
+    },
+    "id": "b1-u1-e14",
+    "topicName": "Vocabulary"
+  },
+  {
+    "type": "sentence-building",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "Do you go to the gym on weekends?",
+    "audioUrl": "audio/b1/unit-1/e15.mp3",
+    "content": {
+      "words": [
+        "[[Do|Haces]]",
+        "[[you|tú]]",
+        "[[go|ir]]",
+        "[[to|al]]",
+        "[[the|el]]",
+        "[[gym|gimnasio]]",
+        "[[on|los]]",
+        "[[weekends|fines de semana]]"
+      ],
+      "correctOrder": [
+        "Do",
+        "you",
+        "go",
+        "to",
+        "the",
+        "gym",
+        "on",
+        "weekends"
+      ]
+    },
+    "id": "b1-u1-e15",
+    "topicName": "Vocabulary"
+  },
+  {
+    "type": "flashcard",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "What time do you wake up?",
+    "audioUrl": "audio/b1/unit-1/e16.mp3",
+    "content": {
+      "items": [
+        {
+          "front": "[[What|Qué]] [[time|hora]] [[do|haces]] [[you|tú]] [[wake|despiertas]] [[up|arriba]]?",
+          "back": "¿A qué hora te despiertas?",
+          "example": "[[Example|Ejemplo]]: [[I|Yo]] [[wake|despierto]] [[up|arriba]] [[at|a]] [[7|siete]] [[AM|a.m.]].",
+          "pronunciation": "hwɒt taɪm duː juː weɪk ʌp",
+          "explanation": "This [[sentence|frase]] [[is|es]] [[asking|preguntando]] [[about|sobre]] [[what|qué]] [[time|hora]] [[you|tú]] [[normally|normalmente]] [[wake|despiertas]] [[up|arriba]]."
+        }
+      ]
+    },
+    "id": "b1-u1-e16",
+    "topicName": "Vocabulary"
+  },
+  {
+    "type": "flashcard",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "He is eating breakfast.",
+    "audioUrl": "audio/b1/unit-1/e17.mp3",
+    "content": {
+      "items": [
+        {
+          "front": "[[He|Él]] [[is|está]] [[eating|comiendo]] [[breakfast|desayuno]].",
+          "back": "Él está desayunando.",
+          "example": "[[Example|Ejemplo]]: [[Right|Justo]] [[now|ahora]], [[he|él]] [[is|está]] [[eating|comiendo]] [[his|su]] [[breakfast|desayuno]].",
+          "pronunciation": "hi ɪz ˈiːtɪŋ ˈbrekfəst",
+          "explanation": "This [[sentence|frase]] [[uses|utiliza]] [[the|el]] [[present|presente]] [[continuous|continuo]] [[to|para]] [[describe|describir]] [[an|una]] [[ongoing|en curso]] [[activity|actividad]]."
+        }
+      ]
+    },
+    "id": "b1-u1-e17",
+    "topicName": "Vocabulary"
+  },
+  {
+    "type": "flashcard",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "Do they often travel by bus?",
+    "audioUrl": "audio/b1/unit-1/e18.mp3",
+    "content": {
+      "items": [
+        {
+          "front": "[[Do|Hacen]] [[they|ellos]] [[often|a menudo]] [[travel|viajan]] [[by|en]] [[bus|autobús]]?",
+          "back": "¿Viajan a menudo en autobús?",
+          "example": "[[Example|Ejemplo]]: [[They|Ellos]] [[often|a menudo]] [[travel|viajan]] [[this|este]] [[way|camino]].",
+          "pronunciation": "duː ðeɪ ˈɒfn ˈtrævl baɪ bʌs",
+          "explanation": "This [[is|es]] [[a|una]] [[question|pregunta]] [[asking|preguntando]] [[about|sobre]] [[routine|rutina]]."
+        }
+      ]
+    },
+    "id": "b1-u1-e18",
+    "topicName": "Vocabulary"
+  },
+  {
+    "type": "flashcard",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "She likes to read before bed.",
+    "audioUrl": "audio/b1/unit-1/e19.mp3",
+    "content": {
+      "items": [
+        {
+          "front": "[[She|Ella]] [[likes|gusta]] [[to|de]] [[read|leer]] [[before|antes]] [[bed|cama]].",
+          "back": "A ella le gusta leer antes de dormir.",
+          "example": "[[Example|Ejemplo]]: [[She|Ella]] [[reads|lee]] [[every|cada]] [[night|noche]].",
+          "pronunciation": "ʃi laɪks tu riːd bɪˈfɔːr bɛd",
+          "explanation": "This [[sentence|frase]] [[describes|describe]] [[a|una]] [[habit|hábito]]."
+        }
+      ]
+    },
+    "id": "b1-u1-e19",
+    "topicName": "Vocabulary"
+  },
+  {
+    "type": "flashcard",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "We are working on a new project.",
+    "audioUrl": "audio/b1/unit-1/e20.mp3",
+    "content": {
+      "items": [
+        {
+          "front": "[[We|Nosotros]] [[are|estamos]] [[working|trabajando]] [[on|en]] [[a|un]] [[new|nuevo]] [[project|proyecto]].",
+          "back": "Estamos trabajando en un nuevo proyecto.",
+          "example": "[[Example|Ejemplo]]: [[Currently|Actualmente]], [[we|nosotros]] [[are|estamos]] [[working|trabajando]] [[on|en]] [[it|ello]].",
+          "pronunciation": "wiː ɑː ˈwɜːrkɪŋ ɒn ə njuː ˈprɒdʒɛkt",
+          "explanation": "This [[sentence|frase]] [[uses|utiliza]] [[the|el]] [[present|presente]] [[continuous|continuo]]."
+        }
+      ]
+    },
+    "id": "b1-u1-e20",
+    "topicName": "Vocabulary"
+  },
+  {
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "What does she usually do in the morning?",
+    "audioUrl": "audio/b1/unit-1/e21.mp3",
+    "content": {
+      "prompt": "[[What|Qué]] [[does|hace]] [[she|ella]] [[usually|usualmente]] [[do|hace]] [[in|en]] [[the|la]] [[morning|mañana]]?",
+      "options": [
+        "[[She|Ella]] [[wakes|despierta]] [[up|levantarse]] [[at|a]] [[8|8]] [[AM|AM]].",
+        "[[She|Ella]] [[goes|va]] [[to|a]] [[bed|dormir]] [[at|a]] [[8|8]] [[AM|AM]]."
+      ],
+      "answerIndex": 0,
+      "explanation": "En español, \"¿Qué hace usualmente ella por la mañana?\" La opción correcta es \"Ella se despierta a las 8 AM\"."
+    },
+    "id": "b1-u1-e21",
+    "topicName": "Vocabulary"
+  },
+  {
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "How often does he exercise?",
+    "audioUrl": "audio/b1/unit-1/e22.mp3",
+    "content": {
+      "prompt": "[[How|Con qué]] [[often|frecuencia]] [[does|hace]] [[he|él]] [[exercise|ejercitarse]]?",
+      "options": [
+        "[[He|Él]] [[exercises|hace ejercicio]] [[every|cada]] [[day|día]].",
+        "[[He|Él]] [[never|nunca]] [[exercises|hace ejercicio]]."
+      ],
+      "answerIndex": 0,
+      "explanation": "En español, \"¿Con qué frecuencia él se ejercita?\" La opción correcta es \"Él se ejercita cada día\"."
+    },
+    "id": "b1-u1-e22",
+    "topicName": "Vocabulary"
+  },
+  {
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "What are they doing right now?",
+    "audioUrl": "audio/b1/unit-1/e23.mp3",
+    "content": {
+      "prompt": "[[What|Qué]] [[are|están]] [[they|ellos]] [[doing|haciendo]] [[right|ahora mismo|ahora]] [[now|mismo]]?",
+      "options": [
+        "[[They|Ellos]] [[are|están]] [[reading|leyendo]] [[a|un]] [[book|libro]].",
+        "[[They|Ellos]] [[sleep|duermen]]] [[now|ahora]]."
+      ],
+      "answerIndex": 0,
+      "explanation": "En español, \"¿Qué están haciendo ellos ahora mismo?\" La opción correcta es \"Ellos están leyendo un libro\"."
+    },
+    "id": "b1-u1-e23",
+    "topicName": "Vocabulary"
+  },
+  {
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "Where does she work during the week?",
+    "audioUrl": "audio/b1/unit-1/e24.mp3",
+    "content": {
+      "prompt": "[[Where|Dónde]] [[does|trabaja]] [[she|ella]] [[work|durante]] [[during the|la semana|el]] [[week|semana]]?",
+      "options": [
+        "[[She|Ella]] [[works|trabaja]] [[in|en]] [[an|una]] [[office|oficina]].",
+        "[[She|Ella]] [[works|trabaja]] [[at|en]] [[home|casa]]."
+      ],
+      "answerIndex": 0,
+      "explanation": "En español, \"¿Dónde trabaja ella durante la semana?\" La opción correcta es \"Ella trabaja en una oficina\"."
+    },
+    "id": "b1-u1-e24",
+    "topicName": "Vocabulary"
+  },
+  {
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "Why doesn't he watch TV in the evening?",
+    "audioUrl": "audio/b1/unit-1/e25.mp3",
+    "content": {
+      "prompt": "[[Why|Por qué]] [[doesn't|no]] [[he|él]] [[watch|mira]] [[TV|televisión]] [[in|en]] [[the|la]] [[evening|noche]]?",
+      "options": [
+        "[[He|Él]] [[is|está]] [[busy|ocupado]] [[reading|leyendo]].",
+        "[[He|Él]] [[but|pero]] [[tired|cansado]]]."
+      ],
+      "answerIndex": 0,
+      "explanation": "En español, \"¿Por qué él no ve televisión en la noche?\" La opción correcta es \"Él está ocupado leyendo\"."
+    },
+    "id": "b1-u1-e25",
+    "topicName": "Vocabulary"
+  },
+  {
+    "type": "fill-blank",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "I wake up at 7 AM every morning.",
+    "audioUrl": "audio/b1/unit-1/e26.mp3",
+    "content": {
+      "prompt": "[[I|Yo]] [[wake|despierto]] [[up|arriba]] [[at|a]] _____ [[every|cada]] [[morning|mañana]].",
+      "options": [
+        "[[7|7]] [[AM|AM]]",
+        "[[8|8]] [[AM|AM]]"
+      ],
+      "answerIndex": 0,
+      "explanation": "En [[español|Spanish]], [[wake|despierto]] [[up|arriba]] [[at|a]] [[7|7]] [[AM|AM]] [[se|se]] [[traduce|translates]] a [[me|yo]] [[despierto|wake]] [[a|a]] [[las|the]] [[7|7]]."
+    },
+    "id": "b1-u1-e26",
+    "topicName": "Grammar"
+  },
+  {
+    "type": "fill-blank",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "She is reading a book in the living room.",
+    "audioUrl": "audio/b1/unit-1/e27.mp3",
+    "content": {
+      "prompt": "[[She|Ella]] [[is|está]] _____ [[a|un]] [[book|libro]] [[in|en]] [[the|el]] [[living|sala]] [[room|de]].",
+      "options": [
+        "[[reading|leyendo]]",
+        "[[writing|escribiendo]]"
+      ],
+      "answerIndex": 0,
+      "explanation": "En español, [[is|está]] [[reading|leyendo]] [[a|un]] [[book|libro]] [[se|se]] [[traduce|translates]] a [[ella|ella]] [[está|is]] [[leyendo|reading]]."
+    },
+    "id": "b1-u1-e27",
+    "topicName": "Grammar"
+  },
+  {
+    "type": "fill-blank",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "We usually have dinner at 7 PM.",
+    "audioUrl": "audio/b1/unit-1/e28.mp3",
+    "content": {
+      "prompt": "[[We|Nosotros]] [[usually|normalmente]] [[have|tenemos]] [[dinner|cena]] _____ [[at|a]] [[7|7]] [[PM|PM]].",
+      "options": [
+        "[[at|a]]",
+        "[[around|alrededor]]"
+      ],
+      "answerIndex": 0,
+      "explanation": "En español, [[have|tenemos]] [[dinner|cena]] [[at|a]] [[7|7]] [[se|se]] [[traduce|translates]] a [[tenemos|tenemos]] [[la|la]] [[cena|cena]] [[a|a]] [[las|las]] [[7|7]]."
+    },
+    "id": "b1-u1-e28",
+    "topicName": "Grammar"
+  },
+  {
+    "type": "fill-blank",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "They are studying for the exam in the library.",
+    "audioUrl": "audio/b1/unit-1/e29.mp3",
+    "content": {
+      "prompt": "[[They|Ellos]] [[are|están]] _____ [[for|para]] [[the|el]] [[exam|examen]] [[in|en]] [[the|la]] [[library|biblioteca]].",
+      "options": [
+        "[[studying|estudiando]]",
+        "[[playing|jugando]]"
+      ],
+      "answerIndex": 0,
+      "explanation": "En español, [[they|ellos]] [[are|están]] [[studying|estudiando]] [[se|se]] [[traduce|translates]] como [[ellos|ellos]] [[están|están]] [[estudiando|studying]]."
+    },
+    "id": "b1-u1-e29",
+    "topicName": "Grammar"
+  },
+  {
+    "type": "fill-blank",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "I exercise at the gym three times a week.",
+    "audioUrl": "audio/b1/unit-1/e30.mp3",
+    "content": {
+      "prompt": "[[I|Yo]] [[exercise|ejercito]] _____ [[the|el]] [[gym|gimnasio]] [[three|tres]] [[times|veces]] [[a|por]] [[week|semana]].",
+      "options": [
+        "[[at|en]]",
+        "[[of|de]]"
+      ],
+      "answerIndex": 0,
+      "explanation": "En español, [[exercise|ejercito]] [[at|en]] [[the|el]] [[gym|gimnasio]] [[se|se]] [[traduce|translates]] como [[yo|yo]] [[me|me]] [[ejercito|ejercito]] [[en|en]] [[el|el]] [[gimnasio|gimnasio]]."
+    },
+    "id": "b1-u1-e30",
+    "topicName": "Grammar"
+  },
+  {
+    "type": "sentence-building",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "I usually wake up at seven o'clock.",
+    "audioUrl": "audio/b1/unit-1/e31.mp3",
+    "content": {
+      "words": [
+        "[[usually|normalmente]]",
+        "[[I|yo]]",
+        "[[wake|despierto]]",
+        "[[up|arriba]]",
+        "[[at|a]]",
+        "[[seven|siete]]",
+        "[[o'clock|en punto]]"
+      ],
+      "correctOrder": [
+        "I",
+        "usually",
+        "wake",
+        "up",
+        "at",
+        "seven",
+        "o'clock"
+      ]
+    },
+    "id": "b1-u1-e31",
+    "topicName": "Grammar"
+  },
+  {
+    "type": "sentence-building",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "She is making breakfast for the family.",
+    "audioUrl": "audio/b1/unit-1/e32.mp3",
+    "content": {
+      "words": [
+        "[[is|está]]",
+        "[[making|haciendo]]",
+        "[[breakfast|desayuno]]",
+        "[[for|para]]",
+        "[[the|la]]",
+        "[[family|familia]]",
+        "[[she|ella]]"
+      ],
+      "correctOrder": [
+        "She",
+        "is",
+        "making",
+        "breakfast",
+        "for",
+        "the",
+        "family"
+      ]
+    },
+    "id": "b1-u1-e32",
+    "topicName": "Grammar"
+  },
+  {
+    "type": "sentence-building",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "We have lunch together every day.",
+    "audioUrl": "audio/b1/unit-1/e33.mp3",
+    "content": {
+      "words": [
+        "[[have|tenemos]]",
+        "[[together|juntos]]",
+        "[[day|día]]",
+        "[[every|cada]]",
+        "[[we|nosotros]]",
+        "[[lunch|almuerzo]]"
+      ],
+      "correctOrder": [
+        "We",
+        "have",
+        "lunch",
+        "together",
+        "every",
+        "day"
+      ]
+    },
+    "id": "b1-u1-e33",
+    "topicName": "Grammar"
+  },
+  {
+    "type": "sentence-building",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "They are watching a movie in the evening.",
+    "audioUrl": "audio/b1/unit-1/e34.mp3",
+    "content": {
+      "words": [
+        "[[a|una]]",
+        "[[movie|película]]",
+        "[[watching|viendo]]",
+        "[[are|están]]",
+        "[[the|la]]",
+        "[[in|en]]",
+        "[[evening|noche]]",
+        "[[they|ellos]]"
+      ],
+      "correctOrder": [
+        "They",
+        "are",
+        "watching",
+        "a",
+        "movie",
+        "in",
+        "the",
+        "evening"
+      ]
+    },
+    "id": "b1-u1-e34",
+    "topicName": "Grammar"
+  },
+  {
+    "type": "sentence-building",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "He goes to the gym after work.",
+    "audioUrl": "audio/b1/unit-1/e35.mp3",
+    "content": {
+      "words": [
+        "[[gym|gimnasio]]",
+        "[[to|a]]",
+        "[[after|después]]",
+        "[[he|él]]",
+        "[[goes|va]]",
+        "[[the|el]]",
+        "[[work|trabajo]]"
+      ],
+      "correctOrder": [
+        "He",
+        "goes",
+        "to",
+        "the",
+        "gym",
+        "after",
+        "work"
+      ]
+    },
+    "id": "b1-u1-e35",
+    "topicName": "Grammar"
+  },
+  {
+    "type": "flashcard",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "I wake up at seven in the morning.",
+    "audioUrl": "audio/b1/unit-1/e36.mp3",
+    "content": {
+      "items": [
+        {
+          "front": "[[I|Yo]] [[wake|despierto]] [[up|arriba]] [[at|a]] [[seven|siete]] [[in|en]] [[the|la]] [[morning|mañana]].",
+          "back": "Me despierto a las siete de la mañana.",
+          "example": "[[Example|Ejemplo]]: [[I|Yo]] [[wake|despierto]] [[up|arriba]] [[at|a]] [[seven|siete]] [[every|cada]] [[day|día]].",
+          "pronunciation": "ai weɪk ʌp æt ˈsɛv.ən ɪn ðə ˈmɔːr.nɪŋ",
+          "explanation": "This [[sentence|frase]] [[describes|describe]] [[the|la]] [[action|acción]] [[of|de]] [[waking|despertar]] [[up|arriba]] [[at|a]] [[specific|específico]] [[time|hora]]."
+        }
+      ]
+    },
+    "id": "b1-u1-e36",
+    "topicName": "Grammar"
+  },
+  {
+    "type": "flashcard",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "She is having breakfast now.",
+    "audioUrl": "audio/b1/unit-1/e37.mp3",
+    "content": {
+      "items": [
+        {
+          "front": "[[She|Ella]] [[is|está]] [[having|teniendo]] [[breakfast|desayuno]] [[now|ahora]].",
+          "back": "Ella está desayunando ahora.",
+          "example": "[[Example|Ejemplo]]: [[She|Ella]] [[is|está]] [[having|teniendo]] [[breakfast|desayuno]] [[in|en]] [[the|el]] [[kitchen|cocina]].",
+          "pronunciation": "ʃi ɪz ˈhæv.ɪŋ ˈbrek.fəst naʊ",
+          "explanation": "This [[sentence|frase]] [[uses|usa]] [[present|presente]] [[continuous|continuo]] [[to|para]] [[show|mostrar]] [[an|una]] [[activity|actividad]] [[in|en]] [[progress|progreso]]."
+        }
+      ]
+    },
+    "id": "b1-u1-e37",
+    "topicName": "Grammar"
+  },
+  {
+    "type": "flashcard",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "We usually go to work by bus.",
+    "audioUrl": "audio/b1/unit-1/e38.mp3",
+    "content": {
+      "items": [
+        {
+          "front": "[[We|Nosotros]] [[usually|usualmente]] [[go|vamos]] [[to|a]] [[work|trabajar]] [[by|por]] [[bus|autobús]].",
+          "back": "Usualmente vamos a trabajar en autobús.",
+          "example": "[[Example|Ejemplo]]: [[We|Nosotros]] [[usually|usualmente]] [[go|vamos]] [[to|a]] [[the|el]] [[office|oficina]] [[by|por]] [[bus|autobús]].",
+          "pronunciation": "wi ˈjuː.ʒu.ə.li ɡoʊ tuː wɜːrk baɪ bʌs",
+          "explanation": "This [[sentence|frase]] [[expresses|expresa]] [[a|una]] [[habitual|habitual]] [[action|acción]] [[using|usando]] [[present|presente]] [[simple|simple]]."
+        }
+      ]
+    },
+    "id": "b1-u1-e38",
+    "topicName": "Grammar"
+  },
+  {
+    "type": "flashcard",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "They are playing football after school.",
+    "audioUrl": "audio/b1/unit-1/e39.mp3",
+    "content": {
+      "items": [
+        {
+          "front": "[[They|Ellos]] [[are|están]] [[playing|jugando]] [[football|fútbol]] [[after|después]] [[school|escuela]].",
+          "back": "Ellos están jugando fútbol después de la escuela.",
+          "example": "[[Example|Ejemplo]]: [[They|Ellos]] [[are|están]] [[playing|jugando]] [[football|fútbol]] [[in|en]] [[the|el]] [[park|parque]].",
+          "pronunciation": "ðeɪ ɑːr ˈpleɪ.ɪŋ ˈfʊt.bɔːl ˈæf.tər skuːl",
+          "explanation": "This [[sentence|frase]] [[describes|describe]] [[an|una]] [[ongoing|continua]] [[activity|actividad]] [[after|después]] [[school|escuela]]."
+        }
+      ]
+    },
+    "id": "b1-u1-e39",
+    "topicName": "Grammar"
+  },
+  {
+    "type": "flashcard",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "He reads the newspaper every evening.",
+    "audioUrl": "audio/b1/unit-1/e40.mp3",
+    "content": {
+      "items": [
+        {
+          "front": "[[He|Él]] [[reads|lee]] [[the|el]] [[newspaper|periódico]] [[every|cada]] [[evening|noche]].",
+          "back": "Él lee el periódico cada noche.",
+          "example": "[[Example|Ejemplo]]: [[He|Él]] [[reads|lee]] [[the|el]] [[news|noticias]] [[before|antes]] [[dinner|cena]].",
+          "pronunciation": "hi rɛdz ðə ˈnjuːzˌpeɪ.pər ˈɛv.ri ˈiː.vn̩ɪŋ",
+          "explanation": "This [[sentence|frase]] [[shows|muestra]] [[a|una]] [[regular|regular]] [[habit|hábito]] [[using|usando]] [[present|presente]] [[simple|simple]]."
+        }
+      ]
+    },
+    "id": "b1-u1-e40",
+    "topicName": "Grammar"
+  },
+  {
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "What do you usually do in the morning?",
+    "audioUrl": "audio/b1/unit-1/e41.mp3",
+    "content": {
+      "prompt": "[[What|Qué]] [[do|haces]] [[you|tú]] [[usually|usualmente]] [[do|hacer]] [[in|en]] [[the|la]] [[morning|mañana]]?",
+      "options": [
+        "[[I|Yo]] [[usually|usualmente]] [[have|tengo]] [[coffee|café]].",
+        "[[I|Yo]] [[will|voy]] [[go|a ir]] [[to|a]] [[the|la]] [[gym|gimnasio]]."
+      ],
+      "answerIndex": 0,
+      "explanation": "In Spanish, 'What do you usually do in the morning?' translates to '¿Qué haces usualmente por la mañana?'. The correct response is 'Yo usualmente tengo café.'"
+    },
+    "id": "b1-u1-e41",
+    "topicName": "Grammar"
+  },
+  {
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "She is currently reading a book.",
+    "audioUrl": "audio/b1/unit-1/e42.mp3",
+    "content": {
+      "prompt": "[[She|Ella]] [[is|está]] [[currently|actualmente]] [[reading|leyendo]] [[a|un]] [[book|libro]].",
+      "options": [
+        "[[She|Ella]] [[reads|lee]] [[books|libros]].",
+        "[[She|Ella]] [[is|está]] [[reading|leyendo]]."
+      ],
+      "answerIndex": 1,
+      "explanation": "In Spanish, 'currently' translates to 'actualmente', indicating an action happening now, which is 'Ella está leyendo'."
+    },
+    "id": "b1-u1-e42",
+    "topicName": "Grammar"
+  },
+  {
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "Do they walk to work every day?",
+    "audioUrl": "audio/b1/unit-1/e43.mp3",
+    "content": {
+      "prompt": "[[Do|Ellos]] [[they|caminar]] [[walk|al]] [[to|trabajo]] [[work|cada]] [[every|día]] [[day|?]]",
+      "options": [
+        "[[Yes|Sí]], [[they|ellos]] [[do|sí]]",
+        "[[No|No]], [[they|ellos]] [[drive|conducen]]"
+      ],
+      "answerIndex": 0,
+      "explanation": "In this question, you need to confirm if they walk to work daily. 'Sí, ellos sí' means 'Yes, they do' in Spanish."
+    },
+    "id": "b1-u1-e43",
+    "topicName": "Grammar"
+  },
+  {
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "Are you studying for the test?",
+    "audioUrl": "audio/b1/unit-1/e44.mp3",
+    "content": {
+      "prompt": "[[Are|Estás]] [[you|tú]] [[studying|estudiando]] [[for|para]] [[the|el]] [[test|examen]]?",
+      "options": [
+        "[[Yes|Sí]], [[I|yo]] [[am|estoy]].",
+        "[[I|Yo]] [[study|estudio]] [[every|cada]] [[day|día]]."
+      ],
+      "answerIndex": 0,
+      "explanation": "'Estás estudiando para el examen?' translates to 'Are you studying for the test?'. The correct present continuous response is 'Sí, yo estoy'."
+    },
+    "id": "b1-u1-e44",
+    "topicName": "Grammar"
+  },
+  {
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "He works from home on Fridays.",
+    "audioUrl": "audio/b1/unit-1/e45.mp3",
+    "content": {
+      "prompt": "[[He|Él]] [[works|trabaja]] [[from|desde]] [[home|casa]] [[on|los]] [[Fridays|viernes]].",
+      "options": [
+        "[[He|Él]] [[works|trabaja]] [[every|cada]] [[day|día]].",
+        "[[He|Él]] [[doesn't|no]] [[go|va]] [[to|a]] [[the|la]] [[office|oficina]] [[on|los]] [[Fridays|viernes]]."
+      ],
+      "answerIndex": 1,
+      "explanation": "The statement 'Él trabaja desde casa los viernes' implies he does not go to the office on Fridays. Hence, the correct option is 'Él no va a la oficina los viernes'."
+    },
+    "id": "b1-u1-e45",
+    "topicName": "Grammar"
+  },
+  {
+    "type": "fill-blank",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "I usually wake up at six o'clock in the morning.",
+    "audioUrl": "audio/b1/unit-1/e46.mp3",
+    "content": {
+      "prompt": "[[I|Yo]] [[usually|generalmente]] [[wake|despierto]] [[up|arriba]] [[at|a]] [[six|seis]] [[o'clock|en punto]] [[in|en]] [[the|el]] [[morning|mañana]].",
+      "options": [
+        "wake",
+        "sleep"
+      ],
+      "answerIndex": 0,
+      "explanation": "In Spanish, the translation is: Yo generalmente me despierto a las seis en punto en la mañana."
+    },
+    "id": "b1-u1-e46",
+    "topicName": "Grammar"
+  },
+  {
+    "type": "fill-blank",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "She is studying English at the moment.",
+    "audioUrl": "audio/b1/unit-1/e47.mp3",
+    "content": {
+      "prompt": "[[She|Ella]] [[is|está]] [[studying|estudiando]] [[English|Inglés]] [[at|en]] [[the|el]] [[moment|momento]].",
+      "options": [
+        "studying",
+        "playing"
+      ],
+      "answerIndex": 0,
+      "explanation": "In Spanish, the translation is: Ella está estudiando Inglés en este momento."
+    },
+    "id": "b1-u1-e47",
+    "topicName": "Grammar"
+  },
+  {
+    "type": "fill-blank",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "They usually have lunch at noon.",
+    "audioUrl": "audio/b1/unit-1/e48.mp3",
+    "content": {
+      "prompt": "[[They|Ellos]] [[usually|generalmente]] [[have|tienen]] [[lunch|almuerzo]] [[at|a]] [[noon|mediodía]].",
+      "options": [
+        "lunch",
+        "dinner"
+      ],
+      "answerIndex": 0,
+      "explanation": "In Spanish, the translation is: Ellos generalmente almuerzan al mediodía."
+    },
+    "id": "b1-u1-e48",
+    "topicName": "Grammar"
+  },
+  {
+    "type": "fill-blank",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "Do you read every night before bed?",
+    "audioUrl": "audio/b1/unit-1/e49.mp3",
+    "content": {
+      "prompt": "[[Do|Haces]] [[you|tú]] [[read|lees]] [[every|cada]] [[night|noche]] [[before|antes]] [[bed|cama]]?",
+      "options": [
+        "read",
+        "sleep"
+      ],
+      "answerIndex": 0,
+      "explanation": "In Spanish, the translation is: ¿Lees cada noche antes de ir a la cama?"
+    },
+    "id": "b1-u1-e49",
+    "topicName": "Grammar"
+  },
+  {
+    "type": "fill-blank",
+    "level": "B1",
+    "topic": "Daily Routine & Life",
+    "difficulty": "medium",
+    "transcript": "We are planning our weekend activities now.",
+    "audioUrl": "audio/b1/unit-1/e50.mp3",
+    "content": {
+      "prompt": "[[We|Nosotros]] [[are|estamos]] [[planning|planificando]] [[our|nuestros]] [[weekend|fin de semana]] [[activities|actividades]] [[now|ahora]].",
+      "options": [
+        "planning",
+        "watching"
+      ],
+      "answerIndex": 0,
+      "explanation": "In Spanish, the translation is: Nosotros estamos planificando nuestras actividades de fin de semana ahora."
+    },
+    "id": "b1-u1-e50",
+    "topicName": "Grammar"
+  }
 ];
