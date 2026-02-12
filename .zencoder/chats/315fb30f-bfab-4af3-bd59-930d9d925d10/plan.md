@@ -33,11 +33,18 @@ Implement Unit 8 "Food & Cooking" and Unit 9 "Education & Learning" for the B1 c
     - Sub-topic 9: Phrasal Verbs related to Education (81-90)
     - Sub-topic 10: Review & Narratives (91-100)
 - [x] **Task 9: Implement Exercises 1-50 for Unit 9: Education & Learning**
-- [ ] **Task 10: Implement Exercises 51-100 for Unit 9: Education & Learning**
+- [x] **Task 10: Implement Exercises 51-100 for Unit 9: Education & Learning**
 
 ### Phase 6: Verification & Deployment (Unit 9)
-- [ ] **Task 11: Verify Unit 9 in Browser**
-- [ ] **Task 12: Commit and push changes for Unit 9**
+- [x] **Task 11: Verify Unit 9 in Browser**
+- [x] **Task 12: Commit and push changes for Unit 9**
+
+### Phase 7: Quality Audit
+- [x] **Task 13: Audit Multiple-Choice Exercises**
+    - [x] Check all units (1-30) for `correctAnswer` distribution.
+    - [x] Randomize or shift answers if they are consistently at index 0.
+    - [x] Verify changes in browser.
+    - [x] Commit and push changes.
 
 ## Test Plan
 - **Framework**: Playwright (E2E)

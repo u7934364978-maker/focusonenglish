@@ -208,8 +208,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I ___ what you mean, but I don\'t agree.',
-          options: ['am seeing', 'see', 'sees', 'am see'],
-          correctAnswer: 1,
+          options: ['see', 'am see', 'sees', 'am seeing'],
+          correctAnswer: 0,
           explanation: '"See" es un state verb cuando significa "entender", por lo que no suele ir en -ing.'
         }
       ]
@@ -229,8 +229,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The number of people working from home ___ every year.',
-          options: ['is increasing', 'increases', 'increase', 'is increase'],
-          correctAnswer: 0,
+          options: ['is increase', 'is increasing', 'increases', 'increase'],
+          correctAnswer: 1,
           explanation: 'Usamos el Present Continuous para tendencias y situaciones que están cambiando.'
         }
       ]
@@ -271,7 +271,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Wait a minute, I ___ about what you said.',
-          options: ['think', 'am thinking', 'thinks', 'am think'],
+          options: ['thinks', 'am thinking', 'think', 'am think'],
           correctAnswer: 1,
           explanation: 'Cuando "think" se refiere al proceso mental activo, podemos usar -ing.'
         }
@@ -292,7 +292,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I ___ that this is the best solution for us.',
-          options: ['am thinking', 'think', 'thinks', 'am think'],
+          options: ['am think', 'think', 'thinks', 'am thinking'],
           correctAnswer: 1,
           explanation: 'Cuando "think" significa "tener una opinión", es un state verb (no -ing).'
         }
@@ -313,13 +313,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Which sentence is grammatically correct?',
-          options: [
-            'I am always meeting new people in my job.',
-            'I always am meeting new people in my job.',
-            'I am meeting always new people in my job.',
-            'Always I am meeting new people in my job.'
-          ],
-          correctAnswer: 0,
+          options: ['Always I am meeting new people in my job.', 'I am always meeting new people in my job.', 'I always am meeting new people in my job.', 'I am meeting always new people in my job.'],
+          correctAnswer: 1,
           explanation: 'El adverbio va después del verbo "to be". El Present Continuous con "always" a veces indica una frecuencia sorprendente o molesta.'
         }
       ]
@@ -360,8 +355,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'They ___ a beautiful house in the countryside.',
-          options: ['are having', 'have', 'has', 'are have'],
-          correctAnswer: 1,
+          options: ['are have', 'has', 'are having', 'have'],
+          correctAnswer: 3,
           explanation: 'Cuando "have" significa posesión, es un state verb (no -ing).'
         }
       ]
@@ -381,7 +376,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I ___ my mentor tomorrow at 10 AM.',
-          options: ['meet', 'am meeting', 'meets', 'am meet'],
+          options: ['meets', 'am meeting', 'meet', 'am meet'],
           correctAnswer: 1,
           explanation: 'Usamos el Present Continuous para planes fijos y citas en el futuro.'
         }
@@ -402,8 +397,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'My family ___ from a small village in the north.',
-          options: ['is coming', 'comes', 'come', 'are coming'],
-          correctAnswer: 1,
+          options: ['come', 'is coming', 'are coming', 'comes'],
+          correctAnswer: 3,
           explanation: 'Usamos el Present Simple para estados permanentes u orígenes.'
         }
       ]
@@ -553,7 +548,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'At the moment, I ___ in London while I finish my studies. (live)',
-          correctAnswer: 'am living',
+          correctAnswer: 2,
           explanation: 'Situación temporal: Continuous.'
         }
       ]
@@ -573,7 +568,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'Do you ___ why identity is so important? (understand)',
-          correctAnswer: 'understand',
+          correctAnswer: 2,
           explanation: '"Understand" es un state verb.'
         }
       ]
@@ -593,7 +588,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'My manager ___ usually attend the morning meetings. (not)',
-          correctAnswer: "doesn't",
+          correctAnswer: 2t",
           explanation: 'Present Simple negativo para hábitos (3ª persona).'
         }
       ]
@@ -613,7 +608,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'I ___ to learn a new language this year. (try)',
-          correctAnswer: 'am trying',
+          correctAnswer: 2,
           explanation: 'Proceso en curso durante un periodo de tiempo.'
         }
       ]
@@ -633,7 +628,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'This old photograph ___ to my grandmother. (belong)',
-          correctAnswer: 'belongs',
+          correctAnswer: 2,
           explanation: '"Belong" indica posesión/estado: Present Simple.'
         }
       ]
@@ -653,7 +648,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'I ___ to travel more in the future. (want)',
-          correctAnswer: 'want',
+          correctAnswer: 2,
           explanation: '"Want" es un state verb (deseo).'
         }
       ]
@@ -673,7 +668,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'You ___ a bit tired today. Is everything okay? (seem)',
-          correctAnswer: 'seem',
+          correctAnswer: 2,
           explanation: '"Seem" es un state verb (apariencia).'
         }
       ]
@@ -693,7 +688,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'The weather ___ colder and colder. (get)',
-          correctAnswer: 'is getting',
+          correctAnswer: 2,
           explanation: 'Situación en cambio progresivo: Continuous.'
         }
       ]
@@ -713,7 +708,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'I ___ coffee to tea in the morning. (prefer)',
-          correctAnswer: 'prefer',
+          correctAnswer: 2,
           explanation: '"Prefer" es un state verb (gusto).'
         }
       ]
@@ -733,7 +728,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'This soup ___ delicious! What is the secret? (taste)',
-          correctAnswer: 'tastes',
+          correctAnswer: 2,
           explanation: 'Cuando describe una cualidad, "taste" es un state verb.'
         }
       ]
@@ -925,7 +920,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'Achievement',
-          correctAnswer: 'Achievement',
+          correctAnswer: 2,
           explanation: 'Presta atención a la /tʃ/ central y a la /v/ final.'
         }
       ]
@@ -945,7 +940,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'Background',
-          correctAnswer: 'Background',
+          correctAnswer: 2,
           explanation: 'La vocal de "back" es abierta /æ/, y "ground" termina en /nd/.'
         }
       ]
@@ -965,7 +960,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'I am currently working on my personal brand.',
-          correctAnswer: 'I am currently working on my personal brand',
+          correctAnswer: 2,
           explanation: 'Mantén el ritmo y une "working on".'
         }
       ]
@@ -985,7 +980,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'Milestone',
-          correctAnswer: 'Milestone',
+          correctAnswer: 2,
           explanation: 'Dos sílabas claras: /ˈmaɪl.stəʊn/.'
         }
       ]
@@ -1005,7 +1000,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'I usually wake up early to exercise.',
-          correctAnswer: 'I usually wake up early to exercise',
+          correctAnswer: 2,
           explanation: 'Pronuncia bien "usually" /ˈjuː.ʒu.ə.li/.'
         }
       ]
@@ -1219,8 +1214,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I ___ a great time at the conference this week.',
-          options: ['have', 'am having', 'has', 'am have'],
-          correctAnswer: 1,
+          options: ['am have', 'has', 'am having', 'have'],
+          correctAnswer: 2,
           explanation: 'Aquí "have" indica una experiencia temporal, por lo que usamos -ing.'
         }
       ]
@@ -1240,8 +1235,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The chef ___ the sauce to see if it needs more salt.',
-          options: ['tastes', 'is tasting', 'taste', 'is taste'],
-          correctAnswer: 1,
+          options: ['is taste', 'taste', 'is tasting', 'tastes'],
+          correctAnswer: 2,
           explanation: 'Aquí es una acción física y voluntaria, por lo que usamos el continuous.'
         }
       ]
@@ -1261,13 +1256,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Which one is correct?',
-          options: [
-            'I am knowing him for years.',
-            'I know him for years.',
-            'I have known him for years.',
-            'I knowing him for years.'
-          ],
-          correctAnswer: 2,
+          options: ['I knowing him for years.', 'I am knowing him for years.', 'I know him for years.', 'I have known him for years.'],
+          correctAnswer: 3,
           explanation: 'Para estados que empezaron en el pasado y continúan, usamos el Present Perfect Simple, no el Continuous.'
         }
       ]
@@ -1287,8 +1277,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'How ___ today? You look much better.',
-          options: ['do you feel', 'are you feeling', 'Both are correct', 'feel you'],
-          correctAnswer: 2,
+          options: ['feel you', 'Both are correct', 'are you feeling', 'do you feel'],
+          correctAnswer: 1,
           explanation: 'Con "feel" y "ache", el Present Simple y Continuous se pueden usar indistintamente para estados de salud.'
         }
       ]
@@ -1308,8 +1298,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'My brother ___ his things everywhere! It\'s so annoying.',
-          options: ['always leaves', 'is always leaving', 'always is leaving', 'leaves always'],
-          correctAnswer: 1,
+          options: ['is always leaving', 'leaves always', 'always is leaving', 'always leaves'],
+          correctAnswer: 0,
           explanation: 'Present Continuous con "always" para hábitos que nos resultan sorprendentes o molestos.'
         }
       ]
@@ -1329,8 +1319,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I ___ what you mean, but I don\'t agree with your logic.',
-          options: ['am understanding', 'understand', 'understands', 'am understand'],
-          correctAnswer: 1,
+          options: ['understand', 'understands', 'am understanding', 'am understand'],
+          correctAnswer: 0,
           explanation: '"Understand" es puramente mental y no admite -ing.'
         }
       ]
@@ -1350,13 +1340,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Normally I ___ at 9:00, but today I ___ until 11:00.',
-          options: [
-            'start / work',
-            'am starting / am working',
-            'start / am working',
-            'am starting / work'
-          ],
-          correctAnswer: 2,
+          options: ['am starting / am working', 'start / work', 'am starting / work', 'start / am working'],
+          correctAnswer: 3,
           explanation: 'Hábito (Simple) vs Acción temporal hoy (Continuous).'
         }
       ]
@@ -1376,8 +1361,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The world economy ___ very fast lately.',
-          options: ['changes', 'is changing', 'change', 'is change'],
-          correctAnswer: 1,
+          options: ['is changing', 'changes', 'change', 'is change'],
+          correctAnswer: 0,
           explanation: 'Usamos el continuous para procesos de cambio en curso.'
         }
       ]
@@ -1397,8 +1382,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Stop it! You ___ very selfish right now.',
-          options: ['are', 'are being', 'is being', 'be'],
-          correctAnswer: 1,
+          options: ['are', 'be', 'are being', 'is being'],
+          correctAnswer: 2,
           explanation: '"Are being" indica que la persona se está comportando así solo en este momento, no que sea su personalidad.'
         }
       ]
@@ -1418,8 +1403,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'What ___ this evening? Would you like to go out?',
-          options: ['do you do', 'are you doing', 'you doing', 'does you do'],
-          correctAnswer: 1,
+          options: ['do you do', 'you doing', 'are you doing', 'does you do'],
+          correctAnswer: 2,
           explanation: 'Preguntamos por planes futuros cercanos usando Present Continuous.'
         }
       ]

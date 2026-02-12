@@ -111,8 +111,8 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'A __________ diet includes fruits, vegetables, and proteins.',
-          options: ["balanced", "heavy", "sore", "tired"],
-          correctAnswer: 0,
+          options: ['sore', 'heavy', 'tired', 'balanced'],
+          correctAnswer: 3,
           explanation: "A balanced diet contains the right proportions of different food groups."
         }
       ]
@@ -132,8 +132,8 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'After a good stretching session, my body feels __________.',
-          options: ["vivid", "flexible", "heavy", "wellness"],
-          correctAnswer: 1,
+          options: ['flexible', 'heavy', 'wellness', 'vivid'],
+          correctAnswer: 0,
           explanation: "'Flexible' describes the ability to move joints and muscles easily."
         }
       ]
@@ -153,8 +153,8 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I need a few days for __________ after the marathon.',
-          options: ["recovery", "workout", "nostalgia", "milestone"],
-          correctAnswer: 0,
+          options: ['workout', 'milestone', 'nostalgia', 'recovery'],
+          correctAnswer: 3,
           explanation: "'Recovery' is the process of returning to a normal state of health or strength."
         }
       ]
@@ -174,8 +174,8 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'A quick __________ can boost your energy during the day.',
-          options: ["workout", "deadline", "salary", "background"],
-          correctAnswer: 0,
+          options: ['background', 'deadline', 'workout', 'salary'],
+          correctAnswer: 2,
           explanation: "A workout is a session of physical exercise."
         }
       ]
@@ -195,8 +195,8 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: "What is the opposite of 'illness' in a broad sense?",
-          options: ["Wellness", "Achievement", "Overtime", "Milestone"],
-          correctAnswer: 0,
+          options: ['Overtime', 'Wellness', 'Achievement', 'Milestone'],
+          correctAnswer: 1,
           explanation: "'Wellness' refers to the state of being in good health."
         }
       ]
@@ -218,7 +218,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'You __________ eat more vegetables if you want to feel better.',
-          options: ["should", "must not", "would", "might"],
+          options: ['should', 'must not', 'would', 'might'],
           correctAnswer: 0,
           explanation: "We use 'should' to give advice."
         }
@@ -239,7 +239,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: "You __________ smoke in the hospital. It's strictly forbidden.",
-          options: ["must not", "don't have to", "should", "might"],
+          options: ['must not', "don't have to", 'might', 'should'],
           correctAnswer: 0,
           explanation: "'Must not' expresses prohibition."
         }
@@ -260,7 +260,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I __________ exercise more often, but I\'m so busy.',
-          options: ["ought to", "must not", "won't", "don't have to"],
+          options: ['ought to', 'must not', "don't have to", "won't"],
           correctAnswer: 0,
           explanation: "'Ought to' is similar to 'should' and expresses obligation or advice."
         }
@@ -281,8 +281,8 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: "You __________ go to the gym today if you're feeling tired. Rest is important.",
-          options: ["don't have to", "must not", "should", "ought to"],
-          correctAnswer: 0,
+          options: ['must not', 'ought to', 'should', "don't have to"],
+          correctAnswer: 3,
           explanation: "'Don't have to' expresses lack of necessity."
         }
       ]
@@ -302,8 +302,8 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'He __________ see a doctor if that pain continues.',
-          options: ["must", "doesn't have to", "might not", "won't"],
-          correctAnswer: 0,
+          options: ["won't", 'must', "doesn't have to", 'might not'],
+          correctAnswer: 1,
           explanation: "'Must' expresses strong necessity or obligation."
         }
       ]
@@ -343,7 +343,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "We ___ eat too much sugar if we want to avoid cavities.",
-          correctAnswer: "must not",
+          correctAnswer: "should",
           explanation: "'Must not' (or mustn't) is used for prohibition."
         }
       ]
@@ -363,7 +363,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "You ___ go to the gym every single day; three times a week is enough.",
-          correctAnswer: "don't have to",
+          correctAnswer: "should"t have to",
           explanation: "'Don't have to' means it's not necessary, but you can if you want."
         }
       ]
@@ -383,7 +383,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "If you feel dizzy, you ___ sit down immediately.",
-          correctAnswer: "ought to",
+          correctAnswer: "should",
           explanation: "'Ought to' is a slightly more formal version of 'should'."
         }
       ]
@@ -403,7 +403,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "Students ___ follow the safety rules in the laboratory.",
-          correctAnswer: "must",
+          correctAnswer: "should",
           explanation: "'Must' is used for strong obligations, often rules or laws."
         }
       ]
@@ -441,13 +441,8 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: "Which sentence is correct?",
-          options: [
-            "You should to exercise more.",
-            "You should exercise more.",
-            "You should exercising more.",
-            "You shoulds exercise more."
-          ],
-          correctAnswer: 1,
+          options: ['You should exercise more.', 'You should to exercise more.', 'You shoulds exercise more.', 'You should exercising more.'],
+          correctAnswer: "should",
           explanation: "Modal verbs are followed by the base form of the verb without 'to'."
         }
       ]
@@ -467,8 +462,8 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: "I __________ go to sleep earlier. I'm always exhausted.",
-          options: ["really must", "don't must", "ought", "must to"],
-          correctAnswer: 0,
+          options: ["don't must", 'must to', 'ought', 'really must'],
+          correctAnswer: 3,
           explanation: "'Really must' emphasizes the internal obligation."
         }
       ]
@@ -488,8 +483,8 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: "You __________ pay for the workout; it's free today!",
-          options: ["don't have to", "must not", "should", "might not"],
-          correctAnswer: 0,
+          options: ['must not', 'might not', 'should', "don't have to"],
+          correctAnswer: 3,
           explanation: "No payment is necessary."
         }
       ]
@@ -509,7 +504,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: "We __________ take our own yoga mats to the class; the studio doesn't provide them.",
-          options: ["have to", "must not", "don't have to", "should to"],
+          options: ['have to', 'must not', "don't have to", 'should to'],
           correctAnswer: 0,
           explanation: "'Have to' expresses external obligation (it's a requirement of the studio)."
         }
@@ -536,15 +531,15 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: "q1",
           question: "What does wellness include according to the text?",
-          options: ["Only physical exercise", "A balanced lifestyle including thoughts and emotions", "A strict diet only", "Becoming an athlete"],
-          correctAnswer: 1,
+          options: ['Becoming an athlete', 'Only physical exercise', 'A strict diet only', 'A balanced lifestyle including thoughts and emotions'],
+          correctAnswer: 3,
           explanation: "The text says wellness includes a balanced lifestyle where you take care of thoughts and emotions."
         },
         {
           id: "q2",
           question: "What can meditation help with?",
           options: ["Building muscle", "Stress recovery", "Losing weight", "Learning a language"],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Meditation and mindfulness are described as tools for recovery when stressed."
         }
       ]
@@ -565,7 +560,7 @@ Remember, you don't have to be perfect. You just need to find what works for you
           id: 'q1',
           question: 'Option:',
           options: ["Work harder", "Simplify your routine", "Eat more", "Buy a laptop"],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The text suggests simplifying your routine."
         }
       ]
@@ -585,8 +580,8 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           question: "The text mentions that scientists believe mental health affects the __________.",
-          options: ["salary", "immune system", "deadline", "background"],
-          correctAnswer: 1,
+          options: ['immune system', 'salary', 'background', 'deadline'],
+          correctAnswer: 0,
           explanation: "It mentions the connection to the immune system."
         }
       ]
@@ -626,7 +621,7 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           text: "Meditation is a great tool for ___ when stressed.",
-          correctAnswer: "recovery",
+          correctAnswer: "achievements",
           explanation: "The text mentions 'recovery' in the second paragraph."
         }
       ]
@@ -663,8 +658,8 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           question: "Does the author think we need to be perfect?",
-          options: ["Yes, absolutely", "No, we just need to find what works", "Only in the gym", "Only at work"],
-          correctAnswer: 1,
+          options: ['Only in the gym', 'Yes, absolutely', 'Only at work', 'No, we just need to find what works'],
+          correctAnswer: "achievements",
           explanation: "The text explicitly says 'you don't have to be perfect'."
         }
       ]
@@ -684,8 +679,8 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           question: "What is the main idea of the passage?",
-          options: ["Physical health is better than mental health", "The connection between mind and body", "How to use a laptop", "The history of marathons"],
-          correctAnswer: 1,
+          options: ['How to use a laptop', 'The history of marathons', 'The connection between mind and body', 'Physical health is better than mental health'],
+          correctAnswer: 2,
           explanation: "The text focuses on the importance of mental health and its connection to overall wellness."
         }
       ]
@@ -705,7 +700,7 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           text: "Wellness includes a ___ lifestyle.",
-          correctAnswer: "balanced",
+          correctAnswer: 3,
           explanation: "The text starts by mentioning a balanced lifestyle."
         }
       ]
@@ -725,7 +720,7 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           text: "You ___ take care of your thoughts and emotions.",
-          correctAnswer: "should",
+          correctAnswer: 3,
           explanation: "The text uses 'should' (implied/direct advice structure)."
         }
       ]
@@ -842,8 +837,8 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           question: "Going for a walk every morning helps you stay __________.",
-          options: ["active", "vivid", "sore", "tired"],
-          correctAnswer: 0,
+          options: ['active', 'vivid', 'tired', 'sore'],
+          correctAnswer: 3,
           explanation: "'Active' means involving physical movement and exercise."
         }
       ]
@@ -863,8 +858,8 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           question: "Vitamins and minerals are important __________ for the body.",
-          options: ["nutrients", "deadlines", "salaries", "milestones"],
-          correctAnswer: 0,
+          options: ['milestones', 'deadlines', 'salaries', 'nutrients'],
+          correctAnswer: 3,
           explanation: "Nutrients are substances that provide nourishment."
         }
       ]
@@ -884,8 +879,8 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           question: "Don't forget to drink water! __________ is very important.",
-          options: ["Hydration", "Recovery", "Nostalgia", "Achievement"],
-          correctAnswer: 0,
+          options: ['Nostalgia', 'Recovery', 'Achievement', 'Hydration'],
+          correctAnswer: 3,
           explanation: "Hydration is the process of absorbing water."
         }
       ]
@@ -905,7 +900,7 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           question: "Lifting weights helps to increase your __________.",
-          options: ["strength", "wellness", "background", "feedback"],
+          options: ['strength', 'background', 'feedback', 'wellness'],
           correctAnswer: 0,
           explanation: "Strength is the quality or state of being physically strong."
         }
@@ -926,8 +921,8 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           question: "We are focused on the __________ of our patients.",
-          options: ["well-being", "overtime", "deadline", "salary"],
-          correctAnswer: 0,
+          options: ['salary', 'well-being', 'deadline', 'overtime'],
+          correctAnswer: 1,
           explanation: "'Well-being' is synonymous with 'wellness' or health and happiness."
         }
       ]
@@ -1151,8 +1146,8 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           question: "A positive attitude and strong social links build mental __________.",
-          options: ["resilience", "burnout", "overtime", "sedentary"],
-          correctAnswer: 0,
+          options: ['burnout', 'overtime', 'sedentary', 'resilience'],
+          correctAnswer: 3,
           explanation: "'Resilience' is the capacity to recover quickly from difficulties."
         }
       ]
@@ -1172,8 +1167,8 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           question: "If you maintain a healthy lifestyle, you will increase your __________.",
-          options: ["vitality", "fatigue", "stress", "weakness"],
-          correctAnswer: 0,
+          options: ['weakness', 'fatigue', 'vitality', 'stress'],
+          correctAnswer: 2,
           explanation: "'Vitality' is the state of being strong and active; energy."
         }
       ]
@@ -1193,8 +1188,8 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           question: "Yoga is my favorite __________ when I feel anxious.",
-          options: ["coping mechanism", "deadline", "salary", "milestone"],
-          correctAnswer: 0,
+          options: ['milestone', 'deadline', 'coping mechanism', 'salary'],
+          correctAnswer: 2,
           explanation: "A coping mechanism is a strategy to manage stressful situations."
         }
       ]
@@ -1214,8 +1209,8 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           question: "You should check your __________ regularly if you have heart problems.",
-          options: ["blood pressure", "workout", "background", "feedback"],
-          correctAnswer: 0,
+          options: ['background', 'workout', 'blood pressure', 'feedback'],
+          correctAnswer: 2,
           explanation: "Blood pressure is the pressure of circulating blood on the walls of blood vessels."
         }
       ]
@@ -1235,7 +1230,7 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           question: "Cardio exercises are the most effective to __________.",
-          options: ["burn calories", "promote", "overcome", "reminisce"],
+          options: ['burn calories', 'reminisce', 'promote', 'overcome'],
           correctAnswer: 0,
           explanation: "Physical activity is required to burn calories (energy)."
         }
@@ -1258,8 +1253,8 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           question: "Look at his face! He __________ be very sick.",
-          options: ["must", "can't", "might not", "don't have to"],
-          correctAnswer: 0,
+          options: ["don't have to", 'might not', "can't", 'must'],
+          correctAnswer: 3,
           explanation: "We use 'must' for strong probability or logical deduction (near certainty)."
         }
       ]
@@ -1279,8 +1274,8 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           question: "She __________ be at the gym, but I'm not sure.",
-          options: ["might", "must", "can't", "ought to"],
-          correctAnswer: 0,
+          options: ['must', 'might', 'ought to', "can't"],
+          correctAnswer: 1,
           explanation: "We use 'might' or 'could' for possibility when we are not sure."
         }
       ]
@@ -1300,8 +1295,8 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           question: "He just finished a marathon. He __________ be tired.",
-          options: ["must", "can't", "might not", "won't"],
-          correctAnswer: 0,
+          options: ["won't", 'must', 'might not', "can't"],
+          correctAnswer: 1,
           explanation: "It's logical to assume he is tired after a marathon."
         }
       ]
@@ -1321,8 +1316,8 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           question: "You just had lunch! You __________ be hungry already.",
-          options: ["can't", "must", "might", "could"],
-          correctAnswer: 0,
+          options: ['must', 'might', "can't", 'could'],
+          correctAnswer: 2,
           explanation: "We use 'can't' when we are sure something is impossible (negative deduction)."
         }
       ]
@@ -1342,8 +1337,8 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           question: "It __________ rain later, so take an umbrella for your walk.",
-          options: ["might", "must", "can't", "should to"],
-          correctAnswer: 0,
+          options: ["can't", 'should to', 'might', 'must'],
+          correctAnswer: 2,
           explanation: "'Might' expresses possibility."
         }
       ]
@@ -1383,7 +1378,7 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           text: "They ___ join the yoga class if they finish work early.",
-          correctAnswer: "might",
+          correctAnswer: "must",
           explanation: "'Might' or 'could' are used for possibilities."
         }
       ]
@@ -1403,7 +1398,7 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           text: "You ___ be serious! Eating five burgers is not healthy.",
-          correctAnswer: "can't",
+          correctAnswer: "must"t",
           explanation: "'Can't' is the negative equivalent of 'must' for deduction."
         }
       ]
@@ -1423,7 +1418,7 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           text: "The doctor ___ be busy; his office is full.",
-          correctAnswer: "could",
+          correctAnswer: "must",
           explanation: "'Could' is used for possibility."
         }
       ]
@@ -1480,8 +1475,8 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           question: "I don't know where my vitamins are. They __________ be in the kitchen.",
-          options: ["could", "must", "can't", "must not"],
-          correctAnswer: 0,
+          options: ['must not', 'could', "can't", 'must'],
+          correctAnswer: "must",
           explanation: "'Could' expresses a possibility when we don't know for sure."
         }
       ]
@@ -1501,8 +1496,8 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           question: "That __________ be John. He's on vacation in Japan.",
-          options: ["can't", "must", "might", "could"],
-          correctAnswer: 0,
+          options: ['might', 'could', "can't", 'must'],
+          correctAnswer: 2,
           explanation: "It's impossible for it to be him if he is in Japan."
         }
       ]
@@ -1522,8 +1517,8 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           question: "You look great! You __________ have been exercising a lot.",
-          options: ["must", "can't", "might not", "should"],
-          correctAnswer: 0,
+          options: ['should', 'must', 'might not', "can't"],
+          correctAnswer: 1,
           explanation: "A logical deduction based on the person's appearance."
         }
       ]
@@ -1543,8 +1538,8 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           question: "We __________ go hiking this weekend, depending on the weather.",
-          options: ["might", "must", "can't", "don't have to"],
-          correctAnswer: 0,
+          options: ["don't have to", "can't", 'must', 'might'],
+          correctAnswer: 3,
           explanation: "'Might' is used for uncertain future possibilities."
         }
       ]
@@ -1661,7 +1656,7 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           question: "Eating smaller plates is a common technique for __________.",
-          options: ["portion control", "burnout", "deadline", "salary"],
+          options: ['portion control', 'salary', 'burnout', 'deadline'],
           correctAnswer: 0,
           explanation: "Portion control means being aware of how much you eat."
         }
@@ -1682,7 +1677,7 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           question: "Apples and oats are rich in __________, which is good for digestion.",
-          options: ["fiber", "blood pressure", "workout", "nostalgia"],
+          options: ['fiber', 'workout', 'nostalgia', 'blood pressure'],
           correctAnswer: 0,
           explanation: "Fiber is a type of carbohydrate that the body can't digest, helpful for the gut."
         }
@@ -1703,7 +1698,7 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           question: "High-intensity interval training (HIIT) can boost your __________.",
-          options: ["metabolism", "burnout", "deadline", "background"],
+          options: ['metabolism', 'burnout', 'deadline', 'background'],
           correctAnswer: 0,
           explanation: "Metabolism refers to the chemical processes that occur within a living organism in order to maintain life."
         }
@@ -1724,7 +1719,7 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           question: "Practicing __________ daily can improve your focus.",
-          options: ["mindfulness", "overtime", "sedentary", "sore"],
+          options: ['mindfulness', 'sore', 'sedentary', 'overtime'],
           correctAnswer: 0,
           explanation: "Mindfulness involves focusing on the present moment."
         }
@@ -1745,8 +1740,8 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           question: "The goal of the vacation is to be completely __________.",
-          options: ["stress-free", "balanced diet", "immune system", "recovery"],
-          correctAnswer: 0,
+          options: ['recovery', 'balanced diet', 'immune system', 'stress-free'],
+          correctAnswer: 3,
           explanation: "Stress-free means without any stress or worry."
         }
       ]
@@ -1774,8 +1769,8 @@ Doctor: Your blood pressure is a bit high, but with a stress-free environment an
         {
           id: "q1",
           question: "What are the patient's symptoms?",
-          options: ["Strong legs", "Tiredness and headaches", "A broken arm", "A cold"],
-          correctAnswer: 1,
+          options: ['A broken arm', 'A cold', 'Strong legs', 'Tiredness and headaches'],
+          correctAnswer: 3,
           explanation: "The patient mentions feeling tired and having headaches."
         }
       ]
@@ -1816,8 +1811,8 @@ Doctor: Your blood pressure is a bit high, but with a stress-free environment an
         {
           id: 'q1',
           question: "What kind of environment does the doctor recommend?",
-          options: ["Stress-free", "Competitive", "Dark", "Active"],
-          correctAnswer: 0,
+          options: ['Dark', 'Active', 'Stress-free', 'Competitive'],
+          correctAnswer: 2,
           explanation: "The doctor recommends a 'stress-free environment'."
         }
       ]
@@ -1837,7 +1832,7 @@ Doctor: Your blood pressure is a bit high, but with a stress-free environment an
         {
           id: 'q1',
           text: "The patient has a ___ routine at work.",
-          correctAnswer: "sedentary",
+          correctAnswer: 3,
           explanation: "The patient mentions having a sedentary routine."
         }
       ]
@@ -1857,7 +1852,7 @@ Doctor: Your blood pressure is a bit high, but with a stress-free environment an
         {
           id: 'q1',
           text: "You ___ try to include more nutrients.",
-          correctAnswer: "should",
+          correctAnswer: 3,
           explanation: "The doctor gives advice using 'should'."
         }
       ]
@@ -1893,8 +1888,8 @@ Doctor: Your blood pressure is a bit high, but with a stress-free environment an
         {
           id: 'q1',
           question: "What does 'skip breakfast' mean?",
-          options: ["To eat quickly", "To not eat breakfast", "To eat a lot", "To cook breakfast"],
-          correctAnswer: 1,
+          options: ['To eat quickly', 'To not eat breakfast', 'To cook breakfast', 'To eat a lot'],
+          correctAnswer: 3,
           explanation: "'Skip' in this context means to omit or not do."
         }
       ]
@@ -1914,8 +1909,8 @@ Doctor: Your blood pressure is a bit high, but with a stress-free environment an
         {
           id: 'q1',
           question: "Is the patient's condition dangerous according to the doctor?",
-          options: ["Yes, very", "No, with better habits it should be fine", "Only if it rains", "Only on Mondays"],
-          correctAnswer: 1,
+          options: ['No, with better habits it should be fine', 'Only if it rains', 'Yes, very', 'Only on Mondays'],
+          correctAnswer: 0,
           explanation: "The doctor says 'you should be fine' with better habits."
         }
       ]

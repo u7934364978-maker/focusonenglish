@@ -35,8 +35,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Have you ___ eaten sushi?',
-          options: ['ever', 'never', 'already', 'yet'],
-          correctAnswer: 'ever',
+          options: ['never', 'yet', 'already', 'ever'],
+          correctAnswer: 3,
           explanation: 'We use "ever" in questions to ask about experiences at any time in the past.'
         }
       ]
@@ -135,7 +135,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
           id: 'q1',
           question: 'I have lived here ___ 2010.',
           options: ['for', 'since', 'during', 'ago'],
-          correctAnswer: 'since',
+          correctAnswer: 'just',
           explanation: 'We use "since" for a specific point in time.'
         }
       ]
@@ -155,7 +155,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'She ___ (see) that movie already.',
-          correctAnswer: 'has seen',
+          correctAnswer: 2,
           explanation: 'Present Perfect for actions at an unspecified time.'
         }
       ]
@@ -193,7 +193,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'I have just finished reading a very interesting book.',
-          correctAnswer: 'I have just finished reading a very interesting book',
+          correctAnswer: 2,
           explanation: 'Pronuncia "just" y "finished" con claridad.'
         }
       ]
@@ -234,8 +234,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I ___ to Paris last year.',
-          options: ['have gone', 'went', 'go', 'was going'],
-          correctAnswer: 'went',
+          options: ['have gone', 'was going', 'went', 'go'],
+          correctAnswer: 2,
           explanation: 'Use Past Simple for a finished action at a specific time in the past.'
         }
       ]
@@ -296,8 +296,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'We stayed in a lovely ___ near the beach.',
-          options: ['guesthouse', 'station', 'airport', 'museum'],
-          correctAnswer: 'guesthouse',
+          options: ['guesthouse', 'museum', 'station', 'airport'],
+          correctAnswer: 0,
           explanation: 'A guesthouse is a small hotel or private house where you can pay to stay.'
         }
       ]
@@ -355,7 +355,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'I have ___ (be) to Italy twice in my life.',
-          correctAnswer: 'been',
+          correctAnswer: 'gone',
           explanation: '"Been" means you went and have now returned.'
         }
       ]
@@ -375,7 +375,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'Have you ever missed a flight or a train?',
-          correctAnswer: 'Yes, I have / No, I haven\'t',
+          correctAnswer: 'gone't',
           explanation: 'Practica la entonación en las respuestas cortas.'
         }
       ]
@@ -437,8 +437,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I ___ play with dolls when I was a girl.',
-          options: ['used to', 'am used to', 'got used to', 'use to'],
-          correctAnswer: 'used to',
+          options: ['use to', 'got used to', 'used to', 'am used to'],
+          correctAnswer: 'gone',
           explanation: 'We use "used to + infinitive" for past habits that no longer happen.'
         }
       ]
@@ -558,7 +558,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'I don\'t ___ (recordar algo) meeting him before.',
-          correctAnswer: 'remember',
+          correctAnswer: 'remind',
           explanation: '"Remember" means to have a memory of something in your mind.'
         }
       ]
@@ -578,7 +578,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'I used to live in a much smaller house than this one.',
-          correctAnswer: 'I used to live in a much smaller house than this one',
+          correctAnswer: 'remind',
           explanation: 'La "s" en "used to" suena como /s/, no /z/.'
         }
       ]
@@ -640,8 +640,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'He decided to ___ his job and travel the world.',
-          options: ['give up', 'get up', 'take up', 'look up'],
-          correctAnswer: 'give up',
+          options: ['give up', 'take up', 'look up', 'get up'],
+          correctAnswer: 'remind',
           explanation: '"Give up" can mean to quit or stop doing something.'
         }
       ]
@@ -720,8 +720,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I have ___ London for two months now.',
-          options: ['been in', 'been to', 'gone to', 'went to'],
-          correctAnswer: 'been in',
+          options: ['gone to', 'been to', 'been in', 'went to'],
+          correctAnswer: 'for',
           explanation: 'Use "been in" to describe how long you have been living/staying in a place.'
         }
       ]
@@ -761,8 +761,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'They want to ___ and have a family.',
-          options: ['settle down', 'settle up', 'set up', 'stand up'],
-          correctAnswer: 'settle down',
+          options: ['settle down', 'stand up', 'set up', 'settle up'],
+          correctAnswer: 'yet',
           explanation: '"Settle down" means to start living a stable and calm life.'
         }
       ]
@@ -844,8 +844,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'When I lived abroad, I felt very ___.',
-          options: ['homesick', 'homework', 'homeless', 'homemade'],
-          correctAnswer: 'homesick',
+          options: ['homemade', 'homeless', 'homework', 'homesick'],
+          correctAnswer: 'I will never forget the day I graduated from university',
           explanation: '"Homesick" means feeling unhappy because you are away from home.'
         }
       ]
@@ -924,8 +924,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I ___ my best friend ten years ago.',
-          options: ['have met', 'met', 'meet', 'was meeting'],
-          correctAnswer: 'met',
+          options: ['was meeting', 'have met', 'met', 'meet'],
+          correctAnswer: 'already',
           explanation: '"Ten years ago" indicates a finished time, so we use Past Simple.'
         }
       ]
@@ -965,7 +965,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'The ___ (resultado) of the surgery was very positive.',
-          correctAnswer: 'outcome',
+          correctAnswer: 'never',
           explanation: '"Outcome" means result.'
         }
       ]
@@ -985,7 +985,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'I was so relieved when I finally passed the exam.',
-          correctAnswer: 'I was so relieved when I finally passed the exam',
+          correctAnswer: 'never',
           explanation: 'Enfatiza "relieved" /rɪˈliːvd/.'
         }
       ]
@@ -1047,8 +1047,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The plane ___ two hours late because of the fog.',
-          options: ['took off', 'took in', 'took up', 'took away'],
-          correctAnswer: 'took off',
+          options: ['took off', 'took up', 'took away', 'took in'],
+          correctAnswer: 'never',
           explanation: '"Take off" is when a plane leaves the ground and starts to fly.'
         }
       ]
@@ -1086,7 +1086,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'While we ___ (drive) to the coast, the car ___ (break) down.',
-          correctAnswer: 'were driving / broke',
+          correctAnswer: 3,
           explanation: 'Acción larga interrumpida por una acción corta.'
         }
       ]
@@ -1146,8 +1146,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'We ___ ran into an old friend while we were in Rome.',
-          options: ['unexpectedly', 'usually', 'rarely', 'patiently'],
-          correctAnswer: 'unexpectedly',
+          options: ['patiently', 'rarely', 'unexpectedly', 'usually'],
+          correctAnswer: 3,
           explanation: '"Unexpectedly" means in a way that was not expected.'
         }
       ]
@@ -1167,7 +1167,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'When the train ___ (arrive), I ___ (wait) on the platform.',
-          correctAnswer: 'arrived / was waiting',
+          correctAnswer: 2,
           explanation: 'Acción puntual que ocurre durante una acción en curso.'
         }
       ]
@@ -1205,7 +1205,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'My luggage was lost, so I had to buy new clothes.',
-          correctAnswer: 'My luggage was lost, so I had to buy new clothes',
+          correctAnswer: 2,
           explanation: 'Pronuncia "luggage" como /ˈlʌɡ.ɪdʒ/.'
         }
       ]
@@ -1227,13 +1227,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Which sentence is correct?',
-          options: [
-            'I have already seen that film.',
-            'I already have seen that film.',
-            'I have seen already that film.',
-            'Already I have seen that film.'
-          ],
-          correctAnswer: 0,
+          options: ['I have already seen that film.', 'I already have seen that film.', 'I have seen already that film.', 'Already I have seen that film.'],
+          correctAnswer: 2,
           explanation: '"Already" va entre el auxiliar y el participio.'
         }
       ]
@@ -1295,7 +1290,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
           id: 'q1',
           question: 'I ___ haven\'t finished the report.',
           options: ['still', 'yet', 'already', 'just'],
-          correctAnswer: 'still',
+          correctAnswer: 'yet',
           explanation: '"Still" enfatiza que algo continúa sin terminar, situándose antes del verbo negativo.'
         }
       ]
@@ -1354,8 +1349,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: '___ have you known your best friend?',
-          options: ['How long', 'How many time', 'How much time', 'How long time'],
-          correctAnswer: 'How long',
+          options: ['How many time', 'How long', 'How much time', 'How long time'],
+          correctAnswer: 'have been',
           explanation: 'Usamos "How long" para preguntar por la duración.'
         }
       ]
@@ -1393,7 +1388,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'I ___ (live) in Madrid for two years, and then I ___ (move) to London.',
-          correctAnswer: 'lived / moved',
+          correctAnswer: 2,
           explanation: 'Si el periodo de tiempo terminó por completo, usamos Past Simple.'
         }
       ]
@@ -1413,7 +1408,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'I have been a teacher for over ten years now.',
-          correctAnswer: 'I have been a teacher for over ten years now',
+          correctAnswer: 2,
           explanation: 'Pronuncia "teacher" /ˈtiː.tʃər/ y "years" /jɪəz/.'
         }
       ]
@@ -1454,8 +1449,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I ___ very shy when I was younger.',
-          options: ['used to be', 'used be', 'am use to', 'used to being'],
-          correctAnswer: 'used to be',
+          options: ['used be', 'used to being', 'used to be', 'am use to'],
+          correctAnswer: 2,
           explanation: '"Used to" se usa con verbos de estado como "be".'
         }
       ]
@@ -1516,13 +1511,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Which sentence is gramatically INCORRECT?',
-          options: [
-            'I would have a lot of toys.',
-            'I used to have a lot of toys.',
-            'I would play with my toys.',
-            'I used to play with my toys.'
-          ],
-          correctAnswer: 0,
+          options: ['I would play with my toys.', 'I used to have a lot of toys.', 'I would have a lot of toys.', 'I used to play with my toys.'],
+          correctAnswer: 'Did',
           explanation: '"Would" no se puede usar con verbos de estado (como "have" o "be") para hábitos pasados.'
         }
       ]
@@ -1661,8 +1651,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The city was very ___, with people everywhere.',
-          options: ['crowded', 'empty', 'silent', 'lonely'],
-          correctAnswer: 'crowded',
+          options: ['empty', 'lonely', 'silent', 'crowded'],
+          correctAnswer: 'I used to play hide and seek with my friends every afternoon',
           explanation: '"Crowded" means full of people.'
         }
       ]
@@ -1741,8 +1731,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'We spent the whole day ___ in the city centre.',
-          options: ['sightseeing', 'viewing', 'looking', 'watching'],
-          correctAnswer: 'sightseeing',
+          options: ['watching', 'sightseeing', 'viewing', 'looking'],
+          correctAnswer: 'ever',
           explanation: '"Sightseeing" is the activity of visiting interesting places as a tourist.'
         }
       ]
@@ -1801,8 +1791,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I ___ to Japan twice already.',
-          options: ['have been', 'was', 'went', 'have gone'],
-          correctAnswer: 'have been',
+          options: ['have been', 'have gone', 'was', 'went'],
+          correctAnswer: 'fresh',
           explanation: 'Usamos Present Perfect para experiencias de vida sin un tiempo específico.'
         }
       ]
@@ -1844,8 +1834,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I have been waiting for you ___ 8 o\'clock.',
-          options: ['since', 'for', 'at', 'during'],
-          correctAnswer: 'since',
+          options: ['since', 'during', 'for', 'at'],
+          correctAnswer: 'The view from the top of the cliff was absolutely amazing',
           explanation: '"Since" con una hora específica.'
         }
       ]

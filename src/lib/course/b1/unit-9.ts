@@ -111,8 +111,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'How much are the __________ this year?',
-          options: ["tuition fees", "scholarships", "campuses", "enrolls"],
-          correctAnswer: 0,
+          options: ['campuses', 'tuition fees', 'enrolls', 'scholarships'],
+          correctAnswer: 1,
           explanation: "Tuition fees refer to the cost of the education."
         }
       ]
@@ -132,8 +132,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'He was able to go to college because of a full __________.',
-          options: ["scholarship", "dormitory", "campus", "tuition"],
-          correctAnswer: 0,
+          options: ['campus', 'scholarship', 'dormitory', 'tuition'],
+          correctAnswer: 1,
           explanation: "A scholarship provides money for studies."
         }
       ]
@@ -153,7 +153,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I share a room in the __________ with another student.',
-          options: ["dormitory", "scholarship", "tuition", "enroll"],
+          options: ['dormitory', 'scholarship', 'tuition', 'enroll'],
           correctAnswer: 0,
           explanation: "A dormitory is where students live."
         }
@@ -174,8 +174,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Is it too late to __________ in the French course?',
-          options: ["enroll", "study", "learn", "teach"],
-          correctAnswer: 0,
+          options: ['study', 'learn', 'teach', 'enroll'],
+          correctAnswer: 3,
           explanation: "To enroll is to officially register for a course."
         }
       ]
@@ -195,8 +195,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The main __________ is located in the city center.',
-          options: ["campus", "dorm", "tuition", "fee"],
-          correctAnswer: 0,
+          options: ['dorm', 'campus', 'fee', 'tuition'],
+          correctAnswer: 1,
           explanation: "The campus is the physical ground of the university."
         }
       ]
@@ -313,8 +313,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Employers highly value __________ because it helps in decision making.',
-          options: ["critical thinking", "brainstorming", "workshop", "self-study"],
-          correctAnswer: 0,
+          options: ['self-study', 'brainstorming', 'critical thinking', 'workshop'],
+          correctAnswer: 2,
           explanation: "Critical thinking is vital for complex decision making."
         }
       ]
@@ -334,7 +334,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Let\'s __________ for five minutes to find a title.',
-          options: ["brainstorm", "enroll", "analytical", "study"],
+          options: ['brainstorm', 'analytical', 'enroll', 'study'],
           correctAnswer: 0,
           explanation: "Brainstorming is used to generate ideas quickly."
         }
@@ -355,8 +355,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The writing __________ was very helpful for my essay.',
-          options: ["workshop", "campus", "dormitory", "tuition"],
-          correctAnswer: 0,
+          options: ['dormitory', 'tuition', 'workshop', 'campus'],
+          correctAnswer: 2,
           explanation: "A workshop is a practical learning session."
         }
       ]
@@ -376,8 +376,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Online courses require a lot of __________.',
-          options: ["self-study", "analytical", "brainstorming", "fees"],
-          correctAnswer: 0,
+          options: ['analytical', 'self-study', 'brainstorming', 'fees'],
+          correctAnswer: 1,
           explanation: "Self-study is learning on your own."
         }
       ]
@@ -397,8 +397,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'You need to be more __________ when looking at the data.',
-          options: ["analytical", "critical", "practical", "musical"],
-          correctAnswer: 0,
+          options: ['critical', 'practical', 'analytical', 'musical'],
+          correctAnswer: 2,
           explanation: "Analytical refers to examining data logically."
         }
       ]
@@ -420,8 +420,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'You __________ wear a uniform at this school. It\'s mandatory.',
-          options: ["must", "should", "can", "don't have to"],
-          correctAnswer: 0,
+          options: ["don't have to", 'can', 'must', 'should'],
+          correctAnswer: 2,
           explanation: "Use 'must' for strong obligations."
         }
       ]
@@ -441,8 +441,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'We __________ finish the exam by noon.',
-          options: ["have to", "can", "should", "mustn't"],
-          correctAnswer: 0,
+          options: ['should', 'can', 'have to', "mustn't"],
+          correctAnswer: 2,
           explanation: "Use 'have to' for external rules and obligations."
         }
       ]
@@ -462,8 +462,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'You __________ study more if you want to pass.',
-          options: ["should", "must", "can", "have to"],
-          correctAnswer: 0,
+          options: ['can', 'must', 'should', 'have to'],
+          correctAnswer: 2,
           explanation: "Use 'should' for giving advice."
         }
       ]
@@ -483,8 +483,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'You __________ go to the lecture, but it\'s recommended.',
-          options: ["don't have to", "mustn't", "shouldn't", "can't"],
-          correctAnswer: 0,
+          options: ["can't", "mustn't", "don't have to", "shouldn't"],
+          correctAnswer: 2,
           explanation: "Use 'don't have to' when there is no obligation."
         }
       ]
@@ -504,8 +504,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'You __________ use your phone during the class.',
-          options: ["mustn't", "don't have to", "should", "can"],
-          correctAnswer: 0,
+          options: ['should', 'can', "don't have to", "mustn't"],
+          correctAnswer: 3,
           explanation: "Use 'mustn't' for prohibitions."
         }
       ]
@@ -545,7 +545,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "You ___ (should/mustn't) eat in the library; it's strictly forbidden.",
-          correctAnswer: "mustn't",
+          correctAnswer: "must"t",
           explanation: "Prohibition uses 'mustn't'."
         }
       ]
@@ -565,7 +565,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "You ___ (can/have to) borrow up to five books at a time.",
-          correctAnswer: "can",
+          correctAnswer: "must",
           explanation: "Permission uses 'can'."
         }
       ]
@@ -585,7 +585,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "If you feel sick, you ___ (should) see a doctor.",
-          correctAnswer: "should",
+          correctAnswer: "must",
           explanation: "Advice uses 'should'."
         }
       ]
@@ -605,7 +605,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "Tomorrow is a holiday, so we ___ (not have to) wake up early.",
-          correctAnswer: "don't have to",
+          correctAnswer: "must"t have to",
           explanation: "Lack of obligation."
         }
       ]
@@ -627,8 +627,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I __________ live in a small town when I was a student.',
-          options: ["used to", "would", "am used to", "use to"],
-          correctAnswer: 0,
+          options: ['used to', 'would', 'am used to', 'use to'],
+          correctAnswer: "must",
           explanation: "Use 'used to' for past states and habits."
         }
       ]
@@ -648,8 +648,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'My teacher __________ always bring extra books for us.',
-          options: ["would", "used to", "was used to", "is used to"],
-          correctAnswer: 0,
+          options: ['used to', 'was used to', 'is used to', 'would'],
+          correctAnswer: 3,
           explanation: "'Would' is used for repeated actions in the past (not states)."
         }
       ]
@@ -669,7 +669,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I __________ like math, but now I love it.',
-          options: ["didn't use to", "didn't used to", "wouldn't", "wasn't used to"],
+          options: ["didn't use to", "wasn't used to", "wouldn't", "didn't used to"],
           correctAnswer: 0,
           explanation: "Negative form: 'didn't use to' (no 'd' in use)."
         }
@@ -690,7 +690,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'That building __________ be a library.',
-          options: ["used to", "would", "is", "uses to"],
+          options: ['used to', 'would', 'is', 'uses to'],
           correctAnswer: 0,
           explanation: "Use 'used to' for past states. 'Would' cannot be used for states."
         }
@@ -711,8 +711,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: '__________ play an instrument when you were young?',
-          options: ["Did you use to", "Did you used to", "Would you", "Were you used to"],
-          correctAnswer: 0,
+          options: ['Did you used to', 'Were you used to', 'Would you', 'Did you use to'],
+          correctAnswer: 3,
           explanation: "Question form: 'Did you use to...?'"
         }
       ]
@@ -752,7 +752,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "We ___ (would) sit in the library for hours during finals week.",
-          correctAnswer: "would",
+          correctAnswer: "used to",
           explanation: "'Would' emphasizes the frequency of the action."
         }
       ]
@@ -772,7 +772,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "He ___ (not use to) study very much, but he does now.",
-          correctAnswer: "didn't use to",
+          correctAnswer: "used to"t use to",
           explanation: "Negative past habit."
         }
       ]
@@ -929,8 +929,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'It took him four years to get his __________ in engineering.',
-          options: ["degree", "grade", "deadline", "enroll"],
-          correctAnswer: 0,
+          options: ['enroll', 'grade', 'degree', 'deadline'],
+          correctAnswer: 2,
           explanation: "A degree is the qualification you get from university."
         }
       ]
@@ -950,8 +950,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Are you planning to __________ this year?',
-          options: ["graduate", "fail", "mark", "enroll"],
-          correctAnswer: 0,
+          options: ['enroll', 'mark', 'fail', 'graduate'],
+          correctAnswer: 3,
           explanation: "To graduate is to finish your studies."
         }
       ]
@@ -971,8 +971,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I was so happy to see my final __________ on the board.',
-          options: ["grades", "deadlines", "fees", "campuses"],
-          correctAnswer: 0,
+          options: ['deadlines', 'grades', 'campuses', 'fees'],
+          correctAnswer: 1,
           explanation: "Grades show your performance results."
         }
       ]
@@ -992,8 +992,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Don\'t miss the __________, or you will lose points.',
-          options: ["deadline", "degree", "mark", "scholarship"],
-          correctAnswer: 0,
+          options: ['mark', 'degree', 'scholarship', 'deadline'],
+          correctAnswer: 3,
           explanation: "The deadline is the final date for submission."
         }
       ]
@@ -1013,8 +1013,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I\'m afraid I might __________ the exam.',
-          options: ["fail", "pass", "graduate", "mark"],
-          correctAnswer: 0,
+          options: ['graduate', 'pass', 'fail', 'mark'],
+          correctAnswer: 1,
           explanation: "To fail is the opposite of passing."
         }
       ]
@@ -1131,8 +1131,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Many universities now offer __________ programs for working professionals.',
-          options: ["distance learning", "campus fees", "dormitory", "grade"],
-          correctAnswer: 0,
+          options: ['grade', 'campus fees', 'distance learning', 'dormitory'],
+          correctAnswer: 2,
           explanation: "Distance learning is ideal for people who work."
         }
       ]
@@ -1152,8 +1152,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I missed the live __________, but I can watch the recording.',
-          options: ["webinar", "campus", "scholarship", "tuition"],
-          correctAnswer: 0,
+          options: ['tuition', 'campus', 'scholarship', 'webinar'],
+          correctAnswer: 3,
           explanation: "Webinars are often recorded for later viewing."
         }
       ]
@@ -1173,8 +1173,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Students learn better with __________ tools and games.',
-          options: ["interactive", "analytical", "dormitory", "fee"],
-          correctAnswer: 0,
+          options: ['fee', 'analytical', 'dormitory', 'interactive'],
+          correctAnswer: 3,
           explanation: "Interactive tools keep students engaged."
         }
       ]
@@ -1194,8 +1194,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'We need a software that is __________ so everyone can use it.',
-          options: ["user-friendly", "analytical", "critical", "expensive"],
-          correctAnswer: 0,
+          options: ['critical', 'user-friendly', 'analytical', 'expensive'],
+          correctAnswer: 1,
           explanation: "User-friendly means easy to use."
         }
       ]
@@ -1215,8 +1215,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Please __________ the PDF before the class starts.',
-          options: ["download", "upload", "enroll", "graduate"],
-          correctAnswer: 0,
+          options: ['upload', 'download', 'graduate', 'enroll'],
+          correctAnswer: 1,
           explanation: "To download is to get the file onto your device."
         }
       ]
@@ -1333,8 +1333,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Did you send your __________ to the hiring manager?',
-          options: ["CV", "webinar", "dorm", "fee"],
-          correctAnswer: 0,
+          options: ['dorm', 'fee', 'CV', 'webinar'],
+          correctAnswer: 2,
           explanation: "Your CV is necessary for job applications."
         }
       ]
@@ -1354,7 +1354,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'My summer __________ helped me decide my future career.',
-          options: ["internship", "tuition", "campus", "deadline"],
+          options: ['internship', 'tuition', 'deadline', 'campus'],
           correctAnswer: 0,
           explanation: "An internship provides real-world work experience."
         }
@@ -1375,7 +1375,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'He is attending a __________ school to learn carpentry.',
-          options: ["vocational", "interactive", "dormitory", "analytical"],
+          options: ['vocational', 'interactive', 'analytical', 'dormitory'],
           correctAnswer: 0,
           explanation: "Vocational schools teach practical trades."
         }
@@ -1396,8 +1396,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Because of automation, many workers need to __________.',
-          options: ["retrain", "enroll", "download", "fail"],
-          correctAnswer: 0,
+          options: ['enroll', 'retrain', 'fail', 'download'],
+          correctAnswer: 1,
           explanation: "To retrain is to learn skills for a new field."
         }
       ]
@@ -1417,7 +1417,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'In leadership roles, __________ are just as important as technical knowledge.',
-          options: ["soft skills", "tuition fees", "deadlines", "marks"],
+          options: ['soft skills', 'deadlines', 'marks', 'tuition fees'],
           correctAnswer: 0,
           explanation: "Soft skills include communication and empathy."
         }
@@ -1535,8 +1535,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Mathematics is a __________ subject until the age of 16.',
-          options: ["compulsory", "vocational", "user-friendly", "analytical"],
-          correctAnswer: 0,
+          options: ['vocational', 'compulsory', 'analytical', 'user-friendly'],
+          correctAnswer: 1,
           explanation: "Compulsory subjects must be taken by all students."
         }
       ]
@@ -1556,8 +1556,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The government is building more __________ to improve literacy.',
-          options: ["state schools", "private schools", "dormitories", "webinars"],
-          correctAnswer: 0,
+          options: ['dormitories', 'state schools', 'private schools', 'webinars'],
+          correctAnswer: 1,
           explanation: "State schools are government-funded."
         }
       ]
@@ -1577,8 +1577,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The national __________ is set by the Ministry of Education.',
-          options: ["curriculum", "scholarship", "tuition", "campus"],
-          correctAnswer: 0,
+          options: ['campus', 'tuition', 'curriculum', 'scholarship'],
+          correctAnswer: 2,
           explanation: "The curriculum defines the subjects and content."
         }
       ]
@@ -1598,7 +1598,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The spring __________ is usually the longest one.',
-          options: ["term", "mark", "grade", "degree"],
+          options: ['term', 'degree', 'mark', 'grade'],
           correctAnswer: 0,
           explanation: "A term is a division of the school year."
         }
@@ -1619,8 +1619,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'In some countries, kids start __________ education at age five.',
-          options: ["compulsory", "private", "vocational", "soft"],
-          correctAnswer: 0,
+          options: ['soft', 'vocational', 'private', 'compulsory'],
+          correctAnswer: 3,
           explanation: "Compulsory education refers to mandatory schooling."
         }
       ]
@@ -1737,8 +1737,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I had to stay up late to __________ the rest of the class.',
-          options: ["keep up with", "hand in", "drop out", "look up"],
-          correctAnswer: 0,
+          options: ['look up', 'keep up with', 'drop out', 'hand in'],
+          correctAnswer: 1,
           explanation: "'Keep up with' means to stay at the same level."
         }
       ]
@@ -1758,8 +1758,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'When do we have to __________ the final project?',
-          options: ["hand in", "look up", "fall behind", "drop out"],
-          correctAnswer: 0,
+          options: ['look up', 'fall behind', 'hand in', 'drop out'],
+          correctAnswer: 2,
           explanation: "'Hand in' is the verb for submitting work."
         }
       ]
@@ -1779,8 +1779,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Many students __________ because of financial difficulties.',
-          options: ["drop out", "hand in", "look up", "keep up"],
-          correctAnswer: 0,
+          options: ['keep up', 'look up', 'hand in', 'drop out'],
+          correctAnswer: 3,
           explanation: "'Drop out' means leaving before completion."
         }
       ]
@@ -1800,8 +1800,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I need to __________ some facts about the history of Rome.',
-          options: ["look up", "fall behind", "hand in", "drop out"],
-          correctAnswer: 0,
+          options: ['fall behind', 'look up', 'drop out', 'hand in'],
+          correctAnswer: 1,
           explanation: "'Look up' is to search for information."
         }
       ]
@@ -1821,8 +1821,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'She started to __________ after being ill for two weeks.',
-          options: ["fall behind", "hand in", "look up", "keep up"],
-          correctAnswer: 0,
+          options: ['hand in', 'fall behind', 'keep up', 'look up'],
+          correctAnswer: 1,
           explanation: "'Fall behind' means to go slower than the others."
         }
       ]
@@ -1922,7 +1922,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "I finished my ___ (título) in Computer Science last year.",
-          correctAnswer: "degree",
+          correctAnswer: 2,
           explanation: "A degree is the qualification from university."
         }
       ]
@@ -1942,7 +1942,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "When I was young, I ___ (solía) play chess every day.",
-          correctAnswer: "used to",
+          correctAnswer: 2,
           explanation: "Use 'used to' for past habits."
         }
       ]
@@ -1962,7 +1962,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "You should brainstorm some ideas for your project before you start writing.",
-          correctAnswer: "You should brainstorm some ideas for your project before you start writing",
+          correctAnswer: 2,
           explanation: "Fluidez al dar consejos."
         }
       ]
@@ -1982,7 +1982,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "I didn't use to like online webinars, but now I find them very user-friendly and useful.",
-          correctAnswer: "I didn't use to like online webinars, but now I find them very user-friendly and useful",
+          correctAnswer: 2t use to like online webinars, but now I find them very user-friendly and useful",
           explanation: "Presta atención a 'didn't use to' y 'user-friendly'."
         }
       ]
@@ -2002,8 +2002,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Which word means "mandatory"?',
-          options: ["compulsory", "vocational", "analytical", "user-friendly"],
-          correctAnswer: 0,
+          options: ['user-friendly', 'compulsory', 'vocational', 'analytical'],
+          correctAnswer: 1,
           explanation: "Compulsory is a synonym for mandatory."
         }
       ]
@@ -2023,8 +2023,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'What do you call the money given to students to help pay for their education?',
-          options: ["scholarship", "tuition fee", "deadline", "mark"],
-          correctAnswer: 0,
+          options: ['tuition fee', 'mark', 'deadline', 'scholarship'],
+          correctAnswer: 3,
           explanation: "A scholarship is financial aid for students."
         }
       ]

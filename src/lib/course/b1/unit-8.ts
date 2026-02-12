@@ -111,7 +111,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I prefer __________ pasta because it contains more fiber.',
-          options: ["whole grain", "white", "sweet", "frozen"],
+          options: ['whole grain', 'sweet', 'white', 'frozen'],
           correctAnswer: 0,
           explanation: "Whole grain products are higher in fiber."
         }
@@ -132,7 +132,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'We need to buy more __________, like milk and butter.',
-          options: ["dairy products", "poultry", "seafood", "beverages"],
+          options: ['dairy products', 'seafood', 'beverages', 'poultry'],
           correctAnswer: 0,
           explanation: "Dairy products include milk, butter, cheese, etc."
         }
@@ -153,8 +153,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Is duck considered __________?',
-          options: ["poultry", "red meat", "seafood", "vegetarian"],
-          correctAnswer: 0,
+          options: ['red meat', 'poultry', 'vegetarian', 'seafood'],
+          correctAnswer: 1,
           explanation: "Duck, like chicken and turkey, is poultry."
         }
       ]
@@ -174,8 +174,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Read the list of __________ carefully if you have allergies.',
-          options: ["ingredients", "translations", "directions", "decorations"],
-          correctAnswer: 0,
+          options: ['translations', 'directions', 'decorations', 'ingredients'],
+          correctAnswer: 3,
           explanation: "Ingredients show what the food contains."
         }
       ]
@@ -195,8 +195,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'We are having grilled __________ for dinner tonight.',
-          options: ["seafood", "cereal", "bakery", "dairy"],
-          correctAnswer: 0,
+          options: ['dairy', 'cereal', 'bakery', 'seafood'],
+          correctAnswer: 3,
           explanation: "Seafood refers to fish and shellfish."
         }
       ]
@@ -313,8 +313,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Don\'t forget to __________ the sauce so it doesn\'t stick to the pan.',
-          options: ["stir", "grate", "bake", "slice"],
-          correctAnswer: 0,
+          options: ['slice', 'stir', 'bake', 'grate'],
+          correctAnswer: 1,
           explanation: "'Stir' means to mix with a spoon."
         }
       ]
@@ -334,7 +334,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Turn down the heat and let the stew __________.',
-          options: ["simmer", "boil", "fry", "roast"],
+          options: ['simmer', 'roast', 'fry', 'boil'],
           correctAnswer: 0,
           explanation: "'Simmer' is to cook slowly on low heat."
         }
@@ -355,8 +355,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'We need to __________ the parmesan before serving.',
-          options: ["grate", "whisk", "bake", "boil"],
-          correctAnswer: 0,
+          options: ['whisk', 'grate', 'bake', 'boil'],
+          correctAnswer: 1,
           explanation: "You grate cheese using a grater."
         }
       ]
@@ -376,8 +376,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Pass me the __________, I need to beat these eggs.',
-          options: ["whisk", "spatula", "grater", "kettle"],
-          correctAnswer: 0,
+          options: ['grater', 'spatula', 'whisk', 'kettle'],
+          correctAnswer: 2,
           explanation: "A whisk is used to beat eggs."
         }
       ]
@@ -397,8 +397,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Use a __________ to lift the burgers.',
-          options: ["spatula", "whisk", "spoon", "knife"],
-          correctAnswer: 0,
+          options: ['spoon', 'spatula', 'knife', 'whisk'],
+          correctAnswer: 1,
           explanation: "A spatula is flat and good for lifting or flipping."
         }
       ]
@@ -420,8 +420,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'How __________ sugar do you want in your coffee?',
-          options: ["much", "many", "few", "a few"],
-          correctAnswer: 0,
+          options: ['many', 'few', 'a few', 'much'],
+          correctAnswer: 3,
           explanation: "Use 'much' with uncountable nouns (sugar) in questions."
         }
       ]
@@ -441,8 +441,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'How __________ apples are in the fridge?',
-          options: ["many", "much", "little", "a little"],
-          correctAnswer: 0,
+          options: ['little', 'much', 'a little', 'many'],
+          correctAnswer: 3,
           explanation: "Use 'many' with countable nouns (apples)."
         }
       ]
@@ -462,8 +462,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'We have __________ food, so don\'t worry about buying more.',
-          options: ["a lot of", "many", "much", "few"],
-          correctAnswer: 0,
+          options: ['few', 'many', 'much', 'a lot of'],
+          correctAnswer: 3,
           explanation: "Use 'a lot of' for large quantities in affirmative sentences (both countable and uncountable)."
         }
       ]
@@ -483,8 +483,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I have a __________ eggs left, maybe enough for an omelette.',
-          options: ["few", "little", "much", "many"],
-          correctAnswer: 0,
+          options: ['many', 'few', 'much', 'little'],
+          correctAnswer: 1,
           explanation: "Use 'a few' for a small number of countable items."
         }
       ]
@@ -504,8 +504,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I just need a __________ salt to season the chicken.',
-          options: ["little", "few", "many", "much"],
-          correctAnswer: 0,
+          options: ['few', 'many', 'much', 'little'],
+          correctAnswer: 3,
           explanation: "Use 'a little' for a small amount of an uncountable noun."
         }
       ]
@@ -525,7 +525,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "There isn't ___ (much/many) milk left in the carton.",
-          correctAnswer: "much",
+          correctAnswer: 2,
           explanation: "Milk is uncountable, so use 'much' in negatives."
         }
       ]
@@ -545,7 +545,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "How ___ (much/many) cookies did you eat?",
-          correctAnswer: "many",
+          correctAnswer: 2,
           explanation: "Cookies are countable."
         }
       ]
@@ -565,7 +565,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "We have very ___ (few/little) time to finish the preparation.",
-          correctAnswer: "little",
+          correctAnswer: 2,
           explanation: "Time is uncountable in this context."
         }
       ]
@@ -585,7 +585,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "I don't have ___ (many/much) money for a fancy dinner.",
-          correctAnswer: "much",
+          correctAnswer: 2,
           explanation: "Money is uncountable."
         }
       ]
@@ -605,7 +605,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "She has ___ (a lot of / many) friends who are chefs.",
-          correctAnswer: "a lot of",
+          correctAnswer: 2,
           explanation: "Common in affirmative sentences."
         }
       ]
@@ -627,8 +627,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I would like __________ orange, please.',
-          options: ["an", "a", "the", "no article"],
-          correctAnswer: 0,
+          options: ['a', 'no article', 'an', 'the'],
+          correctAnswer: 2,
           explanation: "Use 'an' before a vowel sound."
         }
       ]
@@ -648,7 +648,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Pass me __________ salt, please. It\'s right next to you.',
-          options: ["the", "a", "an", "no article"],
+          options: ['the', 'an', 'no article', 'a'],
           correctAnswer: 0,
           explanation: "Use 'the' for specific items known to both speaker and listener."
         }
@@ -669,8 +669,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: '__________ chocolate is my favorite treat.',
-          options: ["no article", "the", "a", "an"],
-          correctAnswer: 0,
+          options: ['an', 'the', 'a', 'no article'],
+          correctAnswer: 3,
           explanation: "No article for general concepts or uncountable nouns in a general sense."
         }
       ]
@@ -690,8 +690,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I love __________ pasta, but __________ pasta they serve here is terrible.',
-          options: ["no article / the", "the / the", "a / the", "no article / a"],
-          correctAnswer: 0,
+          options: ['the / the', 'no article / a', 'no article / the', 'a / the'],
+          correctAnswer: 2,
           explanation: "General preference (no article) vs specific pasta (the)."
         }
       ]
@@ -711,7 +711,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I bought __________ cookbook yesterday. __________ cookbook is very helpful.',
-          options: ["a / The", "the / A", "a / a", "the / the"],
+          options: ['a / The', 'a / a', 'the / A', 'the / the'],
           correctAnswer: 0,
           explanation: "Use 'a' for first mention and 'the' for subsequent mentions."
         }
@@ -732,7 +732,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "I usually have ___ egg for breakfast.",
-          correctAnswer: "an",
+          correctAnswer: 1,
           explanation: "Singular countable noun starting with a vowel sound."
         }
       ]
@@ -752,7 +752,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "___ water in this bottle is cold.",
-          correctAnswer: "the",
+          correctAnswer: 1,
           explanation: "Specific water."
         }
       ]
@@ -772,7 +772,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "I think ___ Spanish food is delicious.",
-          correctAnswer: "-",
+          correctAnswer: 1,
           explanation: "General statement about a type of food."
         }
       ]
@@ -792,7 +792,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "Can you give me ___ knife?",
-          correctAnswer: "a",
+          correctAnswer: 1,
           explanation: "Any knife (non-specific)."
         }
       ]
@@ -812,7 +812,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "___ apples are good for your health.",
-          correctAnswer: "-",
+          correctAnswer: 1,
           explanation: "Plural nouns used in a general sense."
         }
       ]
@@ -929,8 +929,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Are you ready to __________, or do you need a few more minutes?',
-          options: ["order", "cook", "eat", "pay"],
-          correctAnswer: 0,
+          options: ['cook', 'pay', 'order', 'eat'],
+          correctAnswer: 1,
           explanation: "To 'order' is to tell the waiter what you want."
         }
       ]
@@ -950,8 +950,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I don\'t want a __________, let\'s go straight to the main course.',
-          options: ["starter", "dessert", "bill", "table"],
-          correctAnswer: 0,
+          options: ['bill', 'starter', 'dessert', 'table'],
+          correctAnswer: 1,
           explanation: "Starters come before the main course."
         }
       ]
@@ -971,8 +971,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I don\'t like pink meat, so I want my steak __________.',
-          options: ["well-done", "rare", "medium", "frozen"],
-          correctAnswer: 0,
+          options: ['medium', 'rare', 'well-done', 'frozen'],
+          correctAnswer: 2,
           explanation: "'Well-done' meat is cooked thoroughly."
         }
       ]
@@ -992,8 +992,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Excuse me, could we have the __________, please?',
-          options: ["bill", "recipe", "menu", "starter"],
-          correctAnswer: 0,
+          options: ['recipe', 'menu', 'starter', 'bill'],
+          correctAnswer: 3,
           explanation: "The bill (or check) shows how much you have to pay."
         }
       ]
@@ -1013,8 +1013,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I\'m sorry, but this soup is __________. Can you heat it up?',
-          options: ["cold", "salty", "spicy", "delicious"],
-          correctAnswer: 0,
+          options: ['salty', 'spicy', 'delicious', 'cold'],
+          correctAnswer: 3,
           explanation: "You need to heat up food if it is cold."
         }
       ]
@@ -1131,8 +1131,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'You need to __________ the bananas before eating them.',
-          options: ["peel", "bake", "roast", "boil"],
-          correctAnswer: 0,
+          options: ['roast', 'peel', 'bake', 'boil'],
+          correctAnswer: 1,
           explanation: "You must remove the skin (peel) of a banana."
         }
       ]
@@ -1152,8 +1152,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Please __________ the carrots into thin slices.',
-          options: ["chop", "whisk", "bake", "stir"],
-          correctAnswer: 0,
+          options: ['stir', 'bake', 'whisk', 'chop'],
+          correctAnswer: 3,
           explanation: "'Chop' is the verb for cutting food."
         }
       ]
@@ -1173,8 +1173,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'We usually __________ bread at home.',
-          options: ["bake", "peel", "fry", "boil"],
-          correctAnswer: 0,
+          options: ['fry', 'bake', 'peel', 'boil'],
+          correctAnswer: 1,
           explanation: "Bread is cooked in the oven (bake)."
         }
       ]
@@ -1194,8 +1194,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The soup is a bit tasteless. Add a __________ salt.',
-          options: ["pinch of", "loaf of", "slice of", "liter of"],
-          correctAnswer: 0,
+          options: ['loaf of', 'slice of', 'liter of', 'pinch of'],
+          correctAnswer: 3,
           explanation: "A 'pinch' is a small amount of seasoning."
         }
       ]
@@ -1215,7 +1215,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Would you like some __________ beef?',
-          options: ["roast", "peeled", "chopped", "whisked"],
+          options: ['roast', 'peeled', 'chopped', 'whisked'],
           correctAnswer: 0,
           explanation: "Roast beef is a common traditional dish."
         }
@@ -1333,8 +1333,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Fruits and vegetables are highly __________.',
-          options: ["nutritious", "processed", "fatty", "salty"],
-          correctAnswer: 0,
+          options: ['salty', 'processed', 'fatty', 'nutritious'],
+          correctAnswer: 3,
           explanation: "They contain many vitamins and minerals."
         }
       ]
@@ -1354,8 +1354,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'It\'s hard to maintain a __________ when you travel a lot.',
-          options: ["balanced diet", "frozen diet", "fast food", "heavy meal"],
-          correctAnswer: 0,
+          options: ['frozen diet', 'balanced diet', 'heavy meal', 'fast food'],
+          correctAnswer: 1,
           explanation: "A balanced diet requires planning and variety."
         }
       ]
@@ -1375,8 +1375,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I try to buy __________ produce whenever possible.',
-          options: ["organic", "artificial", "metallic", "industrial"],
-          correctAnswer: 0,
+          options: ['metallic', 'industrial', 'artificial', 'organic'],
+          correctAnswer: 3,
           explanation: "Organic produce is considered healthier by many."
         }
       ]
@@ -1396,8 +1396,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Too much __________ is linked to several health problems.',
-          options: ["processed food", "fresh water", "sunlight", "exercise"],
-          correctAnswer: 0,
+          options: ['fresh water', 'sunlight', 'processed food', 'exercise'],
+          correctAnswer: 2,
           explanation: "Processed food often contains unhealthy additives."
         }
       ]
@@ -1417,7 +1417,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Check the label to see how many __________ are in one serving.',
-          options: ["calories", "letters", "colors", "minutes"],
+          options: ['calories', 'letters', 'colors', 'minutes'],
           correctAnswer: 0,
           explanation: "Calories measure the energy in food."
         }
@@ -1535,8 +1535,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'What is your favorite __________, French or Japanese?',
-          options: ["cuisine", "kitchen", "canteen", "recipe"],
-          correctAnswer: 0,
+          options: ['recipe', 'cuisine', 'kitchen', 'canteen'],
+          correctAnswer: 1,
           explanation: "Cuisine refers to a style of cooking from a specific country."
         }
       ]
@@ -1556,8 +1556,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'We went to an __________ Mexican restaurant last night.',
-          options: ["authentic", "automatic", "available", "average"],
-          correctAnswer: 0,
+          options: ['available', 'automatic', 'authentic', 'average'],
+          correctAnswer: 2,
           explanation: "Authentic means it follows traditional methods."
         }
       ]
@@ -1577,8 +1577,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Truffles are a famous __________ in this region.',
-          options: ["delicacy", "difficulty", "delivery", "dictionary"],
-          correctAnswer: 0,
+          options: ['dictionary', 'delivery', 'delicacy', 'difficulty'],
+          correctAnswer: 2,
           explanation: "A delicacy is a rare and expensive food."
         }
       ]
@@ -1598,8 +1598,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I love trying __________ when I visit new cities.',
-          options: ["street food", "dry food", "fast food", "canned food"],
-          correctAnswer: 0,
+          options: ['canned food', 'fast food', 'dry food', 'street food'],
+          correctAnswer: 3,
           explanation: "Street food is common in many cultures."
         }
       ]
@@ -1619,7 +1619,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Who is going to __________ the barbecue this weekend?',
-          options: ["host", "visit", "cook", "eat"],
+          options: ['host', 'eat', 'visit', 'cook'],
           correctAnswer: 0,
           explanation: "To 'host' means to organize and provide the location and food."
         }
@@ -1737,8 +1737,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'We decided to __________ because we were too tired to cook.',
-          options: ["eat out", "eat in", "whip up", "cut down"],
-          correctAnswer: 0,
+          options: ['whip up', 'eat out', 'eat in', 'cut down'],
+          correctAnswer: 1,
           explanation: "'Eat out' means going to a restaurant."
         }
       ]
@@ -1758,8 +1758,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'You should __________ salt if you have high blood pressure.',
-          options: ["cut down on", "cut up", "live on", "go off"],
-          correctAnswer: 0,
+          options: ['live on', 'cut up', 'go off', 'cut down on'],
+          correctAnswer: 3,
           explanation: "'Cut down on' means to consume less."
         }
       ]
@@ -1779,7 +1779,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Does this meat smell like it has __________?',
-          options: ["gone off", "gone out", "gone up", "gone down"],
+          options: ['gone off', 'gone out', 'gone up', 'gone down'],
           correctAnswer: 0,
           explanation: "'Go off' is used for food that is no longer fresh."
         }
@@ -1800,8 +1800,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I can __________ some pasta in ten minutes.',
-          options: ["whip up", "cut down", "go off", "eat out"],
-          correctAnswer: 0,
+          options: ['cut down', 'eat out', 'go off', 'whip up'],
+          correctAnswer: 3,
           explanation: "'Whip up' means to prepare food quickly."
         }
       ]
@@ -1821,8 +1821,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Some people seem to __________ nothing but coffee and cigarettes.',
-          options: ["live on", "live in", "live off", "live up"],
-          correctAnswer: 0,
+          options: ['live off', 'live on', 'live up', 'live in'],
+          correctAnswer: 1,
           explanation: "'Live on' means to eat almost only one thing."
         }
       ]
@@ -1922,7 +1922,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "To make a cake, you need to ___ (batir) the eggs first.",
-          correctAnswer: "whisk",
+          correctAnswer: 1,
           explanation: "Use a whisk for eggs."
         }
       ]
@@ -1942,7 +1942,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "I don't have ___ (many/much) butter for the toast.",
-          correctAnswer: "much",
+          correctAnswer: 1,
           explanation: "Butter is uncountable."
         }
       ]
@@ -1962,7 +1962,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "Could I please have the bill and a glass of water?",
-          correctAnswer: "Could I please have the bill and a glass of water",
+          correctAnswer: 1,
           explanation: "Enlaza las palabras con fluidez."
         }
       ]
@@ -1982,7 +1982,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "You should simmer the sauce on low heat while you chop the vegetables.",
-          correctAnswer: "You should simmer the sauce on low heat while you chop the vegetables",
+          correctAnswer: 1,
           explanation: "Presta atención a 'simmer' y 'chop'."
         }
       ]
@@ -2002,8 +2002,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Which of these is NOT a cooking method?',
-          options: ["spatula", "roast", "simmer", "bake"],
-          correctAnswer: 0,
+          options: ['simmer', 'spatula', 'roast', 'bake'],
+          correctAnswer: 1,
           explanation: "A spatula is a tool, not a method."
         }
       ]
@@ -2023,8 +2023,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'A diet with many different types of food is called a __________ diet.',
-          options: ["balanced", "processed", "rare", "dairy"],
-          correctAnswer: 0,
+          options: ['dairy', 'rare', 'processed', 'balanced'],
+          correctAnswer: 3,
           explanation: "A balanced diet has variety and correct proportions."
         }
       ]

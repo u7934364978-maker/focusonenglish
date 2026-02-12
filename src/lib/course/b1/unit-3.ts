@@ -35,8 +35,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The ___ department is responsible for hiring new employees.',
-          options: ['Human Resources', 'Sales', 'Accounting', 'IT'],
-          correctAnswer: 'Human Resources',
+          options: ['IT', 'Human Resources', 'Sales', 'Accounting'],
+          correctAnswer: 1,
           explanation: 'HR (Human Resources) manages recruitment and employee relations.'
         }
       ]
@@ -74,7 +74,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'She ___ (manage) a team of ten people in her current role.',
-          correctAnswer: 'manages',
+          correctAnswer: 3,
           explanation: 'Present Simple for permanent responsibilities.'
         }
       ]
@@ -134,8 +134,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'If you work 40 hours a week, you have a ___ job.',
-          options: ['full-time', 'part-time', 'freelance', 'temporary'],
-          correctAnswer: 'full-time',
+          options: ['part-time', 'freelance', 'temporary', 'full-time'],
+          correctAnswer: 3,
           explanation: 'Full-time work usually means 35-40 hours per week.'
         }
       ]
@@ -155,7 +155,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'Currently, we ___ (develop) a new marketing strategy.',
-          correctAnswer: 'are developing',
+          correctAnswer: 0,
           explanation: 'Present Continuous for projects in progress.'
         }
       ]
@@ -193,7 +193,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'I am responsible for managing client relationships and coordinating projects.',
-          correctAnswer: 'I am responsible for managing client relationships and coordinating projects',
+          correctAnswer: 0,
           explanation: 'Enfatiza "responsible" /rɪˈspɒn.sə.bəl/ y "managing" /ˈmæn.ɪ.dʒɪŋ/.'
         }
       ]
@@ -234,8 +234,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I ___ for three different companies since I graduated.',
-          options: ['have worked', 'worked', 'am working', 'work'],
-          correctAnswer: 'have worked',
+          options: ['work', 'have worked', 'am working', 'worked'],
+          correctAnswer: 0,
           explanation: 'Present Perfect for actions that started in the past and continue to the present.'
         }
       ]
@@ -255,7 +255,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'I ___ (complete) my Master\'s degree in 2021.',
-          correctAnswer: 'completed',
+          correctAnswer: 3,
           explanation: 'Past Simple for finished actions at a specific time.'
         }
       ]
@@ -296,8 +296,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Fluency in English is a key ___ for this position.',
-          options: ['requirement', 'request', 'reward', 'report'],
-          correctAnswer: 'requirement',
+          options: ['reward', 'request', 'report', 'requirement'],
+          correctAnswer: 3,
           explanation: 'A requirement is something that is needed or wanted.'
         }
       ]
@@ -335,7 +335,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'I ___ (study) German lately to improve my career prospects.',
-          correctAnswer: 'have been studying',
+          correctAnswer: 3,
           explanation: 'Present Perfect Continuous for recent ongoing actions.'
         }
       ]
@@ -355,7 +355,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'Your ___ (referencias) are available upon request.',
-          correctAnswer: 'references',
+          correctAnswer: 3,
           explanation: '"References" are people who can talk about your work ability.'
         }
       ]
@@ -375,7 +375,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'I have gained extensive experience in project management over the last five years.',
-          correctAnswer: 'I have gained extensive experience in project management over the last five years',
+          correctAnswer: 3,
           explanation: 'Pronuncia "extensive" /ɪkˈsten.sɪv/ y "management" /ˈmæn.ɪdʒ.mənt/.'
         }
       ]
@@ -437,8 +437,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'We need to ___ the meeting because the manager is ill.',
-          options: ['put off', 'put on', 'put in', 'put out'],
-          correctAnswer: 'put off',
+          options: ['put in', 'put off', 'put on', 'put out'],
+          correctAnswer: 3,
           explanation: '"Put off" means to postpone something to a later time.'
         }
       ]
@@ -536,8 +536,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'It took him all afternoon to ___ the report.',
-          options: ['finish off', 'finish up', 'finish out', 'finish in'],
-          correctAnswer: 'finish off',
+          options: ['finish in', 'finish out', 'finish up', 'finish off'],
+          correctAnswer: 'with',
           explanation: '"Finish off" means to complete the last part of something.'
         }
       ]
@@ -577,7 +577,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'Could you please fill in for me during the meeting tomorrow?',
-          correctAnswer: 'Could you please fill in for me during the meeting tomorrow',
+          correctAnswer: 'give up',
           explanation: 'Enfatiza "fill in for me".'
         }
       ]
@@ -639,8 +639,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I have a lot of work today. My ___ is full.',
-          options: ['plate', 'cup', 'desk', 'box'],
-          correctAnswer: 'plate',
+          options: ['plate', 'box', 'desk', 'cup'],
+          correctAnswer: 'give up',
           explanation: '"My plate is full" means having a lot of things to do or deal with.'
         }
       ]
@@ -738,8 +738,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Please keep me ___ about any changes to the schedule.',
-          options: ['in the loop', 'on the loop', 'at the loop', 'with the loop'],
-          correctAnswer: 'in the loop',
+          options: ['with the loop', 'in the loop', 'at the loop', 'on the loop'],
+          correctAnswer: 'page',
           explanation: '"In the loop" means part of a group that is kept informed.'
         }
       ]
@@ -779,7 +779,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'It\'s already 6 PM, let\'s call it a day and continue tomorrow.',
-          correctAnswer: 'It\'s already 6 PM, let\'s call it a day and continue tomorrow',
+          correctAnswer: 'rolling's already 6 PM, let\'s call it a day and continue tomorrow',
           explanation: 'Enfatiza "call it a day".'
         }
       ]
@@ -841,8 +841,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'It is important to be ___ when giving feedback.',
-          options: ['constructive', 'destructive', 'confusing', 'aggressive'],
-          correctAnswer: 'constructive',
+          options: ['constructive', 'aggressive', 'destructive', 'confusing'],
+          correctAnswer: 'rolling',
           explanation: '"Constructive" means intended to help or improve.'
         }
       ]
@@ -862,7 +862,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'I need to prepare my ___ (presentación) for the board meeting.',
-          correctAnswer: 'presentation',
+          correctAnswer: 2,
           explanation: 'A talk giving information about something.'
         }
       ]
@@ -921,8 +921,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The two departments need to ___ more closely.',
-          options: ['collaborate', 'compete', 'collect', 'compare'],
-          correctAnswer: 'collaborate',
+          options: ['collect', 'collaborate', 'compare', 'compete'],
+          correctAnswer: 2,
           explanation: '"Collaborate" means to work with another person or group to achieve something.'
         }
       ]
@@ -981,7 +981,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'I understand your concerns and I am here to help you find a solution.',
-          correctAnswer: 'I understand your concerns and I am here to help you find a solution',
+          correctAnswer: 'improve',
           explanation: 'Pronuncia "concerns" /kənˈsɜːnz/ claramente.'
         }
       ]
@@ -1043,8 +1043,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'He is very ___ and wants to become a CEO within ten years.',
-          options: ['ambitious', 'lazy', 'content', 'indifferent'],
-          correctAnswer: 'ambitious',
+          options: ['content', 'indifferent', 'lazy', 'ambitious'],
+          correctAnswer: 'improve',
           explanation: '"Ambitious" means having a strong desire for success or achievement.'
         }
       ]
@@ -1123,8 +1123,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'It is useful to ___ with professionals in your field.',
-          options: ['network', 'neglect', 'notice', 'negotiate'],
-          correctAnswer: 'network',
+          options: ['network', 'negotiate', 'neglect', 'notice'],
+          correctAnswer: 'pay rise',
           explanation: '"Network" means to meet people who might be useful to know in your job.'
         }
       ]
@@ -1144,7 +1144,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'Public sector jobs often provide more job ___ (seguridad) than startups.',
-          correctAnswer: 'security',
+          correctAnswer: 3,
           explanation: 'Job security is the probability that an individual will keep their job.'
         }
       ]
@@ -1183,7 +1183,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'I am highly motivated to take on more leadership responsibilities.',
-          correctAnswer: 'I am highly motivated to take on more leadership responsibilities',
+          correctAnswer: 3,
           explanation: 'Enfatiza "highly motivated".'
         }
       ]
@@ -1245,8 +1245,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'We have many things to discuss on today\'s ___.',
-          options: ['agenda', 'schedule', 'timetable', 'diary'],
-          correctAnswer: 'agenda',
+          options: ['timetable', 'schedule', 'agenda', 'diary'],
+          correctAnswer: 2,
           explanation: 'An agenda is a list of items to be discussed at a meeting.'
         }
       ]
@@ -1266,7 +1266,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'Could you please take the ___ (acta) of the meeting?',
-          correctAnswer: 'minutes',
+          correctAnswer: 3,
           explanation: 'The minutes are the official written record of a meeting.'
         }
       ]
@@ -1325,8 +1325,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'He ___ that the project would be delayed.',
-          options: ['said', 'told', 'asked', 'spoke'],
-          correctAnswer: 'said',
+          options: ['said', 'asked', 'spoke', 'told'],
+          correctAnswer: 3,
           explanation: 'We use "said" when we don\'t mention the person being spoken to.'
         }
       ]
@@ -1385,7 +1385,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'To sum up, we have agreed on the main points of the contract.',
-          correctAnswer: 'To sum up, we have agreed on the main points of the contract',
+          correctAnswer: 'if',
           explanation: 'Enfatiza "To sum up".'
         }
       ]
@@ -1447,13 +1447,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'A hybrid work model means you work ___',
-          options: [
-            'partly in the office and partly at home',
-            'only from home',
-            'only in the office',
-            'for two different companies'
-          ],
-          correctAnswer: 'partly in the office and partly at home',
+          options: ['only in the office', 'partly in the office and partly at home', 'only from home', 'for two different companies'],
+          correctAnswer: 'if',
           explanation: 'Hybrid work combines in-office and remote work.'
         }
       ]
@@ -1532,8 +1527,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'We use video conferencing tools to ___ with our remote team.',
-          options: ['collaborate', 'calculate', 'celebrate', 'circulate'],
-          correctAnswer: 'collaborate',
+          options: ['circulate', 'collaborate', 'calculate', 'celebrate'],
+          correctAnswer: 'balance',
           explanation: 'Collaboration tools are essential for remote teams.'
         }
       ]
@@ -1592,7 +1587,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'Even though we work remotely, we stay connected through daily video calls.',
-          correctAnswer: 'Even though we work remotely, we stay connected through daily video calls',
+          correctAnswer: 'industries',
           explanation: 'Enfatiza "stay connected".'
         }
       ]
@@ -1654,8 +1649,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'If the client ___ the proposal, we will start next week.',
-          options: ['accepts', 'will accept', 'accepted', 'accept'],
-          correctAnswer: 'accepts',
+          options: ['accept', 'accepts', 'will accept', 'accepted'],
+          correctAnswer: 'industries',
           explanation: 'In the "if" clause of a first conditional, we use the Present Simple.'
         }
       ]
@@ -1734,8 +1729,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'You ___ wear a suit, but you should look professional.',
-          options: ['don\'t have to', 'mustn\'t', 'shouldn\'t', 'can\'t'],
-          correctAnswer: 'don\'t have to',
+          options: ["don't have to", "mustn't", "shouldn't", "can't"],
+          correctAnswer: 'were't have to',
           explanation: '"Don\'t have to" indicates a lack of obligation.'
         }
       ]
@@ -1755,7 +1750,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'The new policy ___ (anunciar) yesterday by the CEO.',
-          correctAnswer: 'was announced',
+          correctAnswer: 1,
           explanation: 'Passive Voice: was/were + past participle.'
         }
       ]
@@ -1794,7 +1789,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'If I were in your position, I would focus on improving my technical skills.',
-          correctAnswer: 'If I were in your position, I would focus on improving my technical skills',
+          correctAnswer: 1,
           explanation: 'Pronuncia "technical" /ˈtek.nɪ.kəl/ con precisión.'
         }
       ]
@@ -1837,8 +1832,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'We need to ___ a decision before the end of the day.',
-          options: ['make', 'do', 'take', 'get'],
-          correctAnswer: 'make',
+          options: ['get', 'make', 'do', 'take'],
+          correctAnswer: 1,
           explanation: 'We always "make a decision".'
         }
       ]
@@ -1858,7 +1853,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'I ___ (work) here for ten years and I still love it.',
-          correctAnswer: 'have worked',
+          correctAnswer: 3,
           explanation: 'Present Perfect for actions that started in the past and continue.'
         }
       ]
@@ -1917,7 +1912,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'Would it be possible to schedule a brief call to discuss the proposal?',
-          correctAnswer: 'Would it be possible to schedule a brief call to discuss the proposal',
+          correctAnswer: 3,
           explanation: 'Pronuncia "schedule" /ˈʃedʒ.uːl/ o /ˈskedʒ.uːl/.'
         }
       ]
@@ -1937,7 +1932,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'If we ___ (investir) more in marketing, we would get more clients.',
-          correctAnswer: 'invested',
+          correctAnswer: 3,
           explanation: 'Second Conditional (If + Past Simple, would + verb).'
         }
       ]
@@ -1978,8 +1973,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Being ___ is crucial for maintaining a professional image.',
-          options: ['punctual', 'late', 'silent', 'absent'],
-          correctAnswer: 'punctual',
+          options: ['late', 'punctual', 'silent', 'absent'],
+          correctAnswer: 3,
           explanation: '"Punctual" means arriving or doing something at the expected or correct time.'
         }
       ]

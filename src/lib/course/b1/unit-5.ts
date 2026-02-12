@@ -111,8 +111,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The journey to work every day is called the __________.',
-          options: ["commute", "community", "schedule", "budget"],
-          correctAnswer: 0,
+          options: ['budget', 'commute', 'community', 'schedule'],
+          correctAnswer: 1,
           explanation: "Commute refers to the regular travel between home and work."
         }
       ]
@@ -132,7 +132,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The area where you live is your __________.',
-          options: ["budget", "neighborhood", "schedule", "lifestyle"],
+          options: ['schedule', 'neighborhood', 'lifestyle', 'budget'],
           correctAnswer: 1,
           explanation: "Neighborhood is the local area where you live."
         }
@@ -153,8 +153,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'A plan for how to spend your money is a __________.',
-          options: ["budget", "community", "commute", "decoration"],
-          correctAnswer: 0,
+          options: ['decoration', 'commute', 'community', 'budget'],
+          correctAnswer: 3,
           explanation: "A budget is a plan for coordinating resources and expenses."
         }
       ]
@@ -174,7 +174,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'If you have many things to do at specific times, you have a tight __________.',
-          options: ["schedule", "budget", "neighborhood", "appliance"],
+          options: ['schedule', 'neighborhood', 'budget', 'appliance'],
           correctAnswer: 0,
           explanation: "A schedule is a list of things to do at certain times."
         }
@@ -195,8 +195,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: "A group of people living together in the same area is a __________.",
-          options: ["community", "commute", "routine", "furniture"],
-          correctAnswer: 0,
+          options: ['commute', 'furniture', 'routine', 'community'],
+          correctAnswer: 3,
           explanation: "Community refers to people living in the same place."
         }
       ]
@@ -218,8 +218,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'If I __________ my chores early, I will go to the park.',
-          options: ["finish", "finished", "will finish", "am finishing"],
-          correctAnswer: 0,
+          options: ['will finish', 'finished', 'finish', 'am finishing'],
+          correctAnswer: 2,
           explanation: "In the 'if' clause of a first conditional sentence, we use the present simple."
         }
       ]
@@ -239,8 +239,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'If we go to the store, we __________ some milk.',
-          options: ["buy", "bought", "will buy", "are buying"],
-          correctAnswer: 2,
+          options: ['will buy', 'bought', 'are buying', 'buy'],
+          correctAnswer: 0,
           explanation: "In the main clause of a first conditional, we use 'will' + base form."
         }
       ]
@@ -260,8 +260,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'We will save money if we __________ the lights when leaving.',
-          options: ["turn off", "will turn off", "turned off", "are turning off"],
-          correctAnswer: 0,
+          options: ['are turning off', 'turn off', 'will turn off', 'turned off'],
+          correctAnswer: 1,
           explanation: "The 'if' clause uses present simple even when referring to the future."
         }
       ]
@@ -281,8 +281,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'If you __________ the plants regularly, they will grow fast.',
-          options: ["water", "will water", "watered", "are watering"],
-          correctAnswer: 0,
+          options: ['watered', 'water', 'will water', 'are watering'],
+          correctAnswer: 1,
           explanation: "Present simple for the condition."
         }
       ]
@@ -302,8 +302,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'If I __________ my alarm, I will be late for work.',
-          options: ["don't set", "won't set", "didn't set", "aren't setting"],
-          correctAnswer: 0,
+          options: ["didn't set", "don't set", "aren't setting", "won't set"],
+          correctAnswer: 1,
           explanation: "Use 'don't' + base form for negative present simple in the 'if' clause."
         }
       ]
@@ -323,7 +323,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "If we invite the neighbors, they ___ (come) to our party.",
-          correctAnswer: "will come",
+          correctAnswer: 2,
           explanation: "Main clause: will + infinitive."
         }
       ]
@@ -343,7 +343,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "I will visit the community center if I ___ (have) time this afternoon.",
-          correctAnswer: "have",
+          correctAnswer: 2,
           explanation: "If clause: present simple."
         }
       ]
@@ -363,7 +363,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "If you ___ (not/hurry), you will miss the bus.",
-          correctAnswer: "don't hurry",
+          correctAnswer: 2t hurry",
           explanation: "If clause: present simple (negative)."
         }
       ]
@@ -383,7 +383,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "If the weather is good, we ___ (eat) dinner in the garden.",
-          correctAnswer: "will eat",
+          correctAnswer: 2,
           explanation: "Main clause: will + infinitive."
         }
       ]
@@ -403,7 +403,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "We will stay home if it ___ (rain) tomorrow morning.",
-          correctAnswer: "rains",
+          correctAnswer: 2,
           explanation: "If clause: present simple (third person)."
         }
       ]
@@ -441,13 +441,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: "Which one is correct for a future plan?",
-          options: [
-            "If it will rain, I'll stay home.",
-            "If it rains, I'll stay home.",
-            "If it rains, I stay home.",
-            "If it will rain, I stay home."
-          ],
-          correctAnswer: 1,
+          options: ["If it will rain, I'll stay home.", 'If it will rain, I stay home.', "If it rains, I'll stay home.", 'If it rains, I stay home.'],
+          correctAnswer: 2,
           explanation: "Present simple in 'if' clause, 'will' in the result clause."
         }
       ]
@@ -467,7 +462,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: "__________ we finish the housework, we won't go out.",
-          options: ["Unless", "If", "While", "Until"],
+          options: ['Unless', 'While', 'If', 'Until'],
           correctAnswer: 0,
           explanation: "'Unless' means 'if not'."
         }
@@ -488,8 +483,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: "If you have time, you __________ help me with the gardening.",
-          options: ["should", "will to", "ought", "might not"],
-          correctAnswer: 0,
+          options: ['might not', 'should', 'ought', 'will to'],
+          correctAnswer: 1,
           explanation: "We can use 'should', 'can', or 'might' instead of 'will' in the main clause."
         }
       ]
@@ -509,8 +504,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: "Our house __________ better if we paint the walls.",
-          options: ["will look", "is looking", "looked", "would look"],
-          correctAnswer: 0,
+          options: ['looked', 'would look', 'will look', 'is looking'],
+          correctAnswer: 2,
           explanation: "The result clause uses 'will' even when it comes first."
         }
       ]
@@ -536,15 +531,15 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: "q1",
           question: "What will happen by the end of summer if they work together?",
-          options: ["They will close the garden", "They will have a beautiful harvest", "They will move to another park", "They will sell the land"],
-          correctAnswer: 1,
+          options: ['They will sell the land', 'They will close the garden', 'They will have a beautiful harvest', 'They will move to another park'],
+          correctAnswer: 2,
           explanation: "The text says 'we will have a beautiful harvest by the end of summer'."
         },
         {
           id: "q2",
           question: "What is the purpose of the local market?",
           options: ["To buy more seeds", "To help the community center buy equipment", "To compete with supermarkets", "To hire professional gardeners"],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The text mentions the market will help the community center buy new equipment."
         }
       ]
@@ -565,7 +560,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           id: 'q1',
           question: 'Benefit:',
           options: ["Learning history", "Meeting neighbors", "Watching TV", "Sleeping better"],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The text states 'it's about meeting our neighbors'."
         }
       ]
@@ -585,8 +580,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: "If you want to join, __________.",
-          options: ["come to the park on Saturday", "buy your own tools", "call the police", "stay home and wait"],
-          correctAnswer: 0,
+          options: ['call the police', 'buy your own tools', 'come to the park on Saturday', 'stay home and wait'],
+          correctAnswer: 2,
           explanation: "The text invites people to come to the park next Saturday morning."
         }
       ]
@@ -626,7 +621,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "The community center wants to buy new ___.",
-          correctAnswer: "equipment",
+          correctAnswer: "flowers",
           explanation: "The market will help buy 'new equipment'."
         }
       ]
@@ -663,8 +658,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: "According to the author:",
-          options: ["Yes, bring everything", "No, they will provide them", "Only bring a shovel", "Tools are not allowed"],
-          correctAnswer: 1,
+          options: ['No, they will provide them', 'Yes, bring everything', 'Only bring a shovel', 'Tools are not allowed'],
+          correctAnswer: "flowers",
           explanation: "The text says 'We will provide all the tools you need'."
         }
       ]
@@ -684,7 +679,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: "What is this text primarily about?",
-          options: ["A history of farming", "A community garden project", "How to cook vegetables", "The best tools for painting"],
+          options: ['The best tools for painting', 'A community garden project', 'A history of farming', 'How to cook vegetables'],
           correctAnswer: 1,
           explanation: "The focus is on the neighborhood garden project."
         }
@@ -725,7 +720,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "If we work together every ___, we will have a harvest.",
-          correctAnswer: "weekend",
+          correctAnswer: "last month",
           explanation: "The text says 'every weekend'."
         }
       ]
@@ -842,8 +837,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'A washing machine is a type of __________.',
-          options: ["appliance", "furniture", "maintenance", "schedule"],
-          correctAnswer: 0,
+          options: ['schedule', 'furniture', 'appliance', 'maintenance'],
+          correctAnswer: 2,
           explanation: "Washing machines, fridges, and ovens are appliances."
         }
       ]
@@ -863,8 +858,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Painting the walls and hanging pictures is part of home __________.',
-          options: ["decoration", "commute", "budget", "neighborhood"],
-          correctAnswer: 0,
+          options: ['commute', 'neighborhood', 'budget', 'decoration'],
+          correctAnswer: 3,
           explanation: "Decoration involves making a home look nicer."
         }
       ]
@@ -884,8 +879,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Fixing a leaking roof is an example of house __________.',
-          options: ["maintenance", "furniture", "community", "commute"],
-          correctAnswer: 0,
+          options: ['commute', 'maintenance', 'furniture', 'community'],
+          correctAnswer: 1,
           explanation: "Maintenance is keeping things in good working order."
         }
       ]
@@ -905,8 +900,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Tables, chairs, and beds are all __________.',
-          options: ["furniture", "appliances", "gardens", "schedules"],
-          correctAnswer: 0,
+          options: ['appliances', 'schedules', 'gardens', 'furniture'],
+          correctAnswer: 3,
           explanation: "Furniture refers to movable objects used in a room."
         }
       ]
@@ -926,8 +921,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The area outside with grass and plants is the __________.',
-          options: ["garden", "appliance", "furniture", "budget"],
-          correctAnswer: 0,
+          options: ['appliance', 'furniture', 'garden', 'budget'],
+          correctAnswer: 2,
           explanation: "Garden is the outdoor area of a home."
         }
       ]
@@ -949,7 +944,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "If the microwave breaks, we will need a new ___.",
-          correctAnswer: "appliance",
+          correctAnswer: 1,
           explanation: "A microwave is a household appliance."
         }
       ]
@@ -969,7 +964,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "The local ___ is organizing a street party.",
-          correctAnswer: "community",
+          correctAnswer: 1,
           explanation: "Community refers to the people in the area."
         }
       ]
@@ -989,7 +984,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "Rent is the largest part of our monthly ___.",
-          correctAnswer: "budget",
+          correctAnswer: 1,
           explanation: "Budget is the financial plan for expenses."
         }
       ]
@@ -1009,7 +1004,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "I take the train for my daily ___.",
-          correctAnswer: "commute",
+          correctAnswer: 1,
           explanation: "Commute is the travel to and from work."
         }
       ]
@@ -1029,7 +1024,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "I feel safe walking in my ___ at night.",
-          correctAnswer: "neighborhood",
+          correctAnswer: 1,
           explanation: "Neighborhood is the area where one lives."
         }
       ]
@@ -1051,7 +1046,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'If I __________ a bigger house, I would have a library.',
-          options: ["have", "had", "will have", "would have"],
+          options: ['have', 'had', 'will have', 'would have'],
           correctAnswer: 1,
           explanation: "In the 'if' clause of a second conditional, we use the past simple."
         }
@@ -1072,8 +1067,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'If I lived in the city center, I __________ to work.',
-          options: ["walked", "will walk", "would walk", "can walk"],
-          correctAnswer: 2,
+          options: ['can walk', 'would walk', 'will walk', 'walked'],
+          correctAnswer: 1,
           explanation: "In the main clause of a second conditional, we use 'would' + base form."
         }
       ]
@@ -1093,7 +1088,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Would you cook more if you __________ a modern kitchen?',
-          options: ["have", "had", "would have", "will have"],
+          options: ['would have', 'had', 'have', 'will have'],
           correctAnswer: 1,
           explanation: "The 'if' clause always uses past simple in the second conditional."
         }
@@ -1114,8 +1109,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'If our neighborhood __________ quieter, we would sleep better.',
-          options: ["is", "was/were", "will be", "would be"],
-          correctAnswer: 1,
+          options: ['was/were', 'will be', 'is', 'would be'],
+          correctAnswer: 0,
           explanation: "Past simple of 'be' is used for hypothetical conditions."
         }
       ]
@@ -1135,7 +1130,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'If I had more time, I __________ the community center more often.',
-          options: ["visited", "will visit", "would visit", "visit"],
+          options: ['visited', 'will visit', 'would visit', 'visit'],
           correctAnswer: 2,
           explanation: "Main clause: would + infinitive."
         }
@@ -1156,7 +1151,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "If I ___ (win) the lottery, I would buy a mansion.",
-          correctAnswer: "won",
+          correctAnswer: 2,
           explanation: "If clause: past simple."
         }
       ]
@@ -1176,7 +1171,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "If we had a garden, we ___ (grow) our own tomatoes.",
-          correctAnswer: "would grow",
+          correctAnswer: 2,
           explanation: "Main clause: would + infinitive."
         }
       ]
@@ -1196,7 +1191,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "If I ___ (be) you, I would paint the living room blue.",
-          correctAnswer: "were",
+          correctAnswer: 2,
           explanation: "In second conditional, 'were' is often used for all persons of 'be'."
         }
       ]
@@ -1216,7 +1211,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "What ___ you ___ (do) if you found a secret room in your house?",
-          correctAnswer: "would / do",
+          correctAnswer: 2,
           explanation: "Question form: would + subject + infinitive."
         }
       ]
@@ -1236,7 +1231,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "If we ___ (not/have) any neighbors, it would be very lonely.",
-          correctAnswer: "didn't have",
+          correctAnswer: 2t have",
           explanation: "If clause: past simple (negative)."
         }
       ]
@@ -1274,13 +1269,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: "Which sentence is a hypothetical situation?",
-          options: [
-            "If I have time, I'll help you.",
-            "If I had time, I'd help you.",
-            "If I will have time, I'd help you.",
-            "If I had time, I'll help you."
-          ],
-          correctAnswer: 1,
+          options: ["If I had time, I'll help you.", "If I had time, I'd help you.", "If I have time, I'll help you.", "If I will have time, I'd help you."],
+          correctAnswer: 2,
           explanation: "Past simple + 'would' + infinitive is the second conditional."
         }
       ]
@@ -1300,7 +1290,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: "If I __________ you, I'd talk to the landlord.",
-          options: ["am", "was", "were", "will be"],
+          options: ['will be', 'am', 'were', 'was'],
           correctAnswer: 2,
           explanation: "'If I were you' is a fixed expression for giving advice."
         }
@@ -1321,8 +1311,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: "Where __________ you live if you could live anywhere?",
-          options: ["will", "do", "would", "did"],
-          correctAnswer: 2,
+          options: ['will', 'would', 'did', 'do'],
+          correctAnswer: 1,
           explanation: "In questions, 'would' comes before the subject."
         }
       ]
@@ -1342,8 +1332,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: "If we moved to the countryside, we __________ a dog.",
-          options: ["get", "will get", "would get", "got"],
-          correctAnswer: 2,
+          options: ['got', 'get', 'will get', 'would get'],
+          correctAnswer: 3,
           explanation: "Result clause in the second conditional."
         }
       ]
@@ -1460,8 +1450,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The person you pay rent to is the __________.',
-          options: ["tenant", "landlord", "lease", "amenity"],
-          correctAnswer: 1,
+          options: ['amenity', 'tenant', 'landlord', 'lease'],
+          correctAnswer: 2,
           explanation: "The landlord owns the property and receives the rent."
         }
       ]
@@ -1481,7 +1471,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The legal document for renting is the __________.',
-          options: ["lease", "renovation", "furniture", "budget"],
+          options: ['lease', 'renovation', 'budget', 'furniture'],
           correctAnswer: 0,
           explanation: "A lease is the rental contract."
         }
@@ -1502,8 +1492,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Heating, air conditioning, and high-speed internet are __________.',
-          options: ["amenities", "tenants", "landlords", "commutes"],
-          correctAnswer: 0,
+          options: ['commutes', 'amenities', 'landlords', 'tenants'],
+          correctAnswer: 1,
           explanation: "Amenities are the useful features of a property."
         }
       ]
@@ -1523,8 +1513,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'If you want to update an old house, you need a __________.',
-          options: ["renovation", "lease", "tenant", "schedule"],
-          correctAnswer: 0,
+          options: ['tenant', 'renovation', 'schedule', 'lease'],
+          correctAnswer: 1,
           explanation: "Renovation is the process of improving or updating a building."
         }
       ]
@@ -1544,8 +1534,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'A person who lives in a rented apartment is a __________.',
-          options: ["tenant", "landlord", "amenity", "commute"],
-          correctAnswer: 0,
+          options: ['landlord', 'amenity', 'commute', 'tenant'],
+          correctAnswer: 3,
           explanation: "A tenant is the person who rents the property."
         }
       ]
@@ -1571,15 +1561,15 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: "q1",
           question: "Why aren't they hiring professionals?",
-          options: ["They don't like professionals", "They don't have enough money", "Professionals are busy", "They want to finish in 1950"],
-          correctAnswer: 1,
+          options: ["They don't have enough money", 'They want to finish in 1950', "They don't like professionals", 'Professionals are busy'],
+          correctAnswer: 0,
           explanation: "The text states 'If we had more money, we would hire professionals'."
         },
         {
           id: "q2",
           question: "When was the house built?",
           options: ["Last year", "Next month", "In the 1950s", "By the end of spring"],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "The text says the house 'was built in the 1950s'."
         }
       ]
@@ -1600,7 +1590,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           id: 'q1',
           question: 'Finished:',
           options: ["The garden", "The living room and kitchen appliances", "The wooden floor", "The whole house"],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "They have 'already painted the living room and fixed the kitchen appliances'."
         }
       ]
@@ -1620,8 +1610,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: "Next month, they will __________.",
-          options: ["move out", "start working on the garden", "hire a landlord", "sell the wooden floor"],
-          correctAnswer: 1,
+          options: ['sell the wooden floor', 'move out', 'hire a landlord', 'start working on the garden'],
+          correctAnswer: 3,
           explanation: "The text says 'Next month, we will start working on the garden'."
         }
       ]
@@ -1661,7 +1651,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "If the weather ___ nice, we will finish it.",
-          correctAnswer: "is",
+          correctAnswer: "floor",
           explanation: "First conditional: 'is' for present condition."
         }
       ]
@@ -1683,8 +1673,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The neighbor __________ lives next door is very friendly.',
-          options: ["who", "which", "where", "whose"],
-          correctAnswer: 0,
+          options: ['which', 'who', 'where', 'whose'],
+          correctAnswer: "floor",
           explanation: "We use 'who' for people."
         }
       ]
@@ -1704,7 +1694,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The apartment __________ has a balcony is more expensive.',
-          options: ["who", "which/that", "where", "when"],
+          options: ['who', 'which/that', 'when', 'where'],
           correctAnswer: 1,
           explanation: "We use 'which' or 'that' for things and animals."
         }
@@ -1725,8 +1715,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'This is the town __________ I grew up.',
-          options: ["where", "which", "who", "whose"],
-          correctAnswer: 0,
+          options: ['whose', 'who', 'which', 'where'],
+          correctAnswer: 3,
           explanation: "We use 'where' for places."
         }
       ]
@@ -1746,8 +1736,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The landlord __________ owns this building lives in London.',
-          options: ["who", "which", "where", "whose"],
-          correctAnswer: 0,
+          options: ['which', 'whose', 'who', 'where'],
+          correctAnswer: 2,
           explanation: "'Who' refers to the landlord (a person)."
         }
       ]
@@ -1767,7 +1757,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'My house, __________ has blue windows, is very old.',
-          options: ["which", "that", "where", "who"],
+          options: ['which', 'who', 'that', 'where'],
           correctAnswer: 0,
           explanation: "In non-defining clauses (with commas), we must use 'which', not 'that'."
         }
@@ -1788,7 +1778,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "The library is a place ___ you can study in peace.",
-          correctAnswer: "where",
+          correctAnswer: 1,
           explanation: "Place: where."
         }
       ]
@@ -1808,7 +1798,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "The man ___ fixed our heater was very professional.",
-          correctAnswer: "who",
+          correctAnswer: 1,
           explanation: "Person: who."
         }
       ]
@@ -1828,7 +1818,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "I have a new sofa ___ is very comfortable.",
-          correctAnswer: "which",
+          correctAnswer: 1,
           explanation: "Thing: which (or that)."
         }
       ]
@@ -1848,7 +1838,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "That's the shop ___ I bought my furniture.",
-          correctAnswer: "where",
+          correctAnswer: 1,
           explanation: "Place: where."
         }
       ]
@@ -1868,7 +1858,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "The people ___ live upstairs are very noisy.",
-          correctAnswer: "who",
+          correctAnswer: 1,
           explanation: "People: who."
         }
       ]
@@ -1906,8 +1896,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The tenant __________ car is in my space should move it.',
-          options: ["whose", "who", "which", "where"],
-          correctAnswer: 0,
+          options: ['whose', 'where', 'who', 'which'],
+          correctAnswer: 1,
           explanation: "We use 'whose' for possession (the tenant's car)."
         }
       ]
@@ -1927,8 +1917,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The park __________ we go every Sunday is near here.',
-          options: ["where", "who", "which", "when"],
-          correctAnswer: 0,
+          options: ['when', 'who', 'which', 'where'],
+          correctAnswer: 3,
           explanation: "'Where' refers to the park (a place)."
         }
       ]
@@ -1948,13 +1938,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: "Which sentence provides essential information about the person?",
-          options: [
-            "The woman who lives there is a doctor.",
-            "My mother, who is a doctor, lives there.",
-            "The woman, who is a doctor, lives there.",
-            "That woman is a doctor, who lives there."
-          ],
-          correctAnswer: 0,
+          options: ['My mother, who is a doctor, lives there.', 'The woman who lives there is a doctor.', 'The woman, who is a doctor, lives there.', 'That woman is a doctor, who lives there.'],
+          correctAnswer: 1,
           explanation: "Defining clauses (no commas) provide essential information to identify the subject."
         }
       ]
@@ -1974,13 +1959,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: "Choose the sentence where the pronoun can be removed.",
-          options: [
-            "The house that we bought is small.",
-            "The house that is on the corner is small.",
-            "The man who fixed the roof is here.",
-            "The dog which barked all night is quiet."
-          ],
-          correctAnswer: 0,
+          options: ['The man who fixed the roof is here.', 'The dog which barked all night is quiet.', 'The house that is on the corner is small.', 'The house that we bought is small.'],
+          correctAnswer: 3,
           explanation: "We can omit the relative pronoun when it is the object of the clause (we bought the house)."
         }
       ]
@@ -2020,7 +2000,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "If I ___ (have) enough money next month, I will buy a new TV.",
-          correctAnswer: "have",
+          correctAnswer: 2,
           explanation: "First conditional for a real possibility."
         }
       ]
@@ -2040,7 +2020,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "If I ___ (be) a millionaire, I would live in a castle.",
-          correctAnswer: "were",
+          correctAnswer: 2,
           explanation: "Second conditional for an imaginary situation."
         }
       ]
@@ -2060,8 +2040,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Definition:',
-          options: ["To talk to neighbors", "To travel to work", "To pay rent", "To buy furniture"],
-          correctAnswer: 1,
+          options: ['To talk to neighbors', 'To buy furniture', 'To pay rent', 'To travel to work'],
+          correctAnswer: 2,
           explanation: "Commuting is the act of traveling between home and work."
         }
       ]
@@ -2081,8 +2061,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: "I love this house, __________ has a big garden.",
-          options: ["who", "where", "which", "whose"],
-          correctAnswer: 2,
+          options: ['whose', 'which', 'who', 'where'],
+          correctAnswer: 1,
           explanation: "'Which' is used for things in non-defining clauses."
         }
       ]
