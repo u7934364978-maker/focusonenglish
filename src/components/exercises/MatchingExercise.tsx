@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Check, X, RotateCcw, ArrowRight } from 'lucide-react';
+import Markdown from '../course/Markdown';
 
 interface MatchingPair {
   id: string;
@@ -112,7 +113,9 @@ export default function MatchingExercise({ content, onComplete }: MatchingExerci
     <div className="w-full max-w-4xl mx-auto p-6 bg-white rounded-3xl shadow-lg border border-slate-200">
       <div className="mb-8">
         <h2 className="text-2xl font-black text-slate-900">{content.title || 'Une las parejas'}</h2>
-        <p className="text-slate-600">{content.instructions || 'Une cada elemento de la izquierda con su correspondiente a la derecha.'}</p>
+        <p className="text-slate-600">
+          <Markdown content={content.instructions || 'Une cada elemento de la izquierda con su correspondiente a la derecha.'} />
+        </p>
       </div>
 
       <div className="grid grid-cols-2 gap-8 mb-8">
@@ -134,7 +137,7 @@ export default function MatchingExercise({ content, onComplete }: MatchingExerci
                       : 'border-slate-100 bg-slate-50 hover:border-slate-300 text-slate-700'
                 } ${submitted && isMatched && (matches[item] === content.pairs.find(p => p.left === item)?.right ? 'border-green-500 bg-green-50' : 'border-red-500 bg-red-50')}`}
               >
-                {item}
+                <Markdown content={item} />
               </button>
             );
           })}
@@ -159,7 +162,7 @@ export default function MatchingExercise({ content, onComplete }: MatchingExerci
                       : 'border-slate-100 bg-slate-50 hover:border-slate-300 text-slate-700'
                 } ${submitted && isMatched && (item === content.pairs.find(p => p.left === matchedLeft)?.right ? 'border-green-500 bg-green-50' : 'border-red-500 bg-red-50')}`}
               >
-                {item}
+                <Markdown content={item} />
               </button>
             );
           })}
@@ -211,7 +214,9 @@ export default function MatchingExercise({ content, onComplete }: MatchingExerci
             <p className="font-bold mb-1 text-sm flex items-center gap-2">
               💡 Explicación:
             </p>
-            <p className="text-sm">{content.explanation}</p>
+            <div className="text-sm">
+              <Markdown content={content.explanation} />
+            </div>
           </motion.div>
         )}
       </AnimatePresence>

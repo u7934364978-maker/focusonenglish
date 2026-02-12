@@ -4,6 +4,8 @@ import React from 'react';
 import { Question, EvaluationResult } from '@/lib/exercise-types';
 import EnhancedFeedback from '@/components/course/EnhancedFeedback';
 
+import Markdown from '../Markdown';
+
 interface QuestionRendererProps {
   question: Question;
   index: number;
@@ -52,7 +54,7 @@ export default function QuestionRenderer({
           {index + 1}
         </span>
         <span className="flex-1">
-          {question.question} 
+          <Markdown content={question.question} />
           {question.type === 'word-formation' && (question as any).baseWord && (
             <span className="ml-2 px-2 py-0.5 bg-indigo-100 dark:bg-indigo-900 text-indigo-700 dark:text-indigo-300 rounded font-black text-xs uppercase tracking-widest">
               {(question as any).baseWord}
@@ -68,7 +70,7 @@ export default function QuestionRenderer({
         <div className="mb-4 p-3 bg-amber-50 dark:bg-amber-900/20 rounded-lg border border-amber-100 dark:border-amber-800 flex gap-2 items-start">
           <span className="text-amber-500 text-xs">💡</span>
           <p className="text-xs text-amber-800 dark:text-amber-300 italic leading-snug">
-            {(question as any).hint}
+            <Markdown content={(question as any).hint} />
           </p>
         </div>
       )}
@@ -95,7 +97,9 @@ export default function QuestionRenderer({
               />
               <span className={`font-medium ${
                 userAnswer === option ? 'text-indigo-900 dark:text-indigo-200' : 'text-slate-700 dark:text-slate-300'
-              }`}>{option}</span>
+              }`}>
+                <Markdown content={option} />
+              </span>
             </label>
           ))}
         </div>
@@ -190,9 +194,9 @@ export default function QuestionRenderer({
               </p>
               {question.explanation && (
                 <div className="mt-3 pt-3 border-t border-current/10">
-                  <p className="text-sm italic opacity-90 leading-relaxed">
-                    {question.explanation}
-                  </p>
+                  <div className="text-sm italic opacity-90 leading-relaxed">
+                    <Markdown content={question.explanation} />
+                  </div>
                 </div>
               )}
             </div>

@@ -34,4 +34,6 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/90
 - [x] **Task 12: Unit 6: Technology & Modern Life (Exercises 1-50)**
 - [x] **Task 13: Unit 6: Technology & Modern Life (Exercises 51-100)**
 - [x] **Task 13.1: Unit 6: Implement Interactive Audio Dialogues (2 per unit)**
-- [ ] **Task 14: Unit 7: Travel & Holidays (Exercises 1-50)**
+- [x] **Task 14: Unit 7: Travel & Holidays (Exercises 1-50)**
+- [ ] **Task 15: Unit 7: Travel & Holidays (Exercises 51-100)**
+- [ ] **Task 15.1: Unit 7: Implement Interactive Audio Dialogues (2 per unit)**

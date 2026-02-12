@@ -309,6 +309,9 @@ function useMarkdownComponents() {
     em({ children }: any) {
       return <em>{applyTooltips(children)}</em>;
     },
+    span({ children }: any) {
+      return <span>{applyTooltips(children)}</span>;
+    },
     a({ children, ...props }: any) {
       return <a {...props}>{applyTooltips(children)}</a>;
     },

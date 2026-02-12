@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { motion, Reorder, AnimatePresence } from 'framer-motion';
 import { Check, X, RotateCcw, Lightbulb, ArrowRight, Plus, Minus } from 'lucide-react';
+import Markdown from '../course/Markdown';
 
 interface DragDropSentence {
   id?: number | string;
@@ -137,7 +138,9 @@ export default function DragDropExercise({ content, onComplete }: DragDropExerci
             </span>
           )}
         </div>
-        <p className="text-slate-600">{content.instructions || 'Selecciona las palabras en el orden correcto.'}</p>
+        <p className="text-slate-600">
+          <Markdown content={content.instructions || 'Selecciona las palabras en el orden correcto.'} />
+        </p>
       </div>
 
       {/* Target Area */}
@@ -167,7 +170,9 @@ export default function DragDropExercise({ content, onComplete }: DragDropExerci
                       : 'border-slate-200 hover:border-orange-300'
                   }`}
                 >
-                  {item.text}
+                  <span className="pointer-events-none">
+                    <Markdown content={item.text} />
+                  </span>
                   {!submitted && <Minus className="w-3 h-3 opacity-30" />}
                 </Reorder.Item>
               ))}
@@ -191,7 +196,9 @@ export default function DragDropExercise({ content, onComplete }: DragDropExerci
                   onClick={() => toggleWord(item, 'available')}
                   className="px-4 py-2 bg-slate-50 hover:bg-slate-100 text-slate-700 rounded-xl border border-slate-200 font-bold text-lg transition-all flex items-center gap-2"
                 >
-                  {item.text}
+                  <span className="pointer-events-none">
+                    <Markdown content={item.text} />
+                  </span>
                   <Plus className="w-3 h-3 opacity-30" />
                 </motion.button>
               ))
@@ -203,7 +210,9 @@ export default function DragDropExercise({ content, onComplete }: DragDropExerci
       {currentSentenceData.translation && (
         <div className="mb-8 p-4 bg-orange-50 rounded-xl border border-orange-100 flex items-center gap-3">
           <span className="text-orange-400 font-bold">ES:</span>
-          <span className="text-slate-700 font-medium italic">{currentSentenceData.translation}</span>
+          <div className="text-slate-700 font-medium italic">
+            <Markdown content={currentSentenceData.translation} />
+          </div>
         </div>
       )}
 
@@ -268,7 +277,7 @@ export default function DragDropExercise({ content, onComplete }: DragDropExerci
                   exit={{ height: 0, opacity: 0 }}
                   className="mt-2 text-slate-600 text-sm italic overflow-hidden"
                 >
-                  {currentSentenceData.hint}
+                  <Markdown content={currentSentenceData.hint} />
                 </motion.div>
               )}
             </AnimatePresence>
@@ -313,7 +322,9 @@ export default function DragDropExercise({ content, onComplete }: DragDropExerci
               <Lightbulb className="w-4 h-4" />
               💡 Explicación:
             </p>
-            <p className="text-sm">{currentSentenceData.explanation}</p>
+            <div className="text-sm">
+              <Markdown content={currentSentenceData.explanation} />
+            </div>
           </motion.div>
         )}
       </AnimatePresence>

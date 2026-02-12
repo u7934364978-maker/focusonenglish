@@ -99,6 +99,7 @@ export default function ListeningRenderer({
                 currentTime={currentTime}
                 onSeek={onSeek}
                 title="Active Transcript"
+                vocabulary={exercise.vocabularyHelp}
               />
             </div>
           ) : exercise.transcript && (
@@ -109,7 +110,10 @@ export default function ListeningRenderer({
               </summary>
               <div className="p-4 pt-0 border-t border-slate-200 dark:border-slate-700">
                 <div className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed italic">
-                  <Markdown content={exercise.transcript} />
+                  <Markdown 
+                    content={exercise.transcript} 
+                    vocabulary={exercise.vocabularyHelp}
+                  />
                 </div>
               </div>
             </details>

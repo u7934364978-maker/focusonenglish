@@ -2,6 +2,7 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import { Headphones, Play, Pause, RotateCcw, CheckCircle2, XCircle, ArrowRight, MessageSquare, Clock } from 'lucide-react';
+import Markdown from '../course/Markdown';
 import InteractiveTranscript from '../course/InteractiveTranscript';
 import { TranscriptSentence } from '@/lib/exercise-types';
 
@@ -190,7 +191,9 @@ export default function InteractiveDialogueExercise({ content, onComplete }: Int
           </div>
         </div>
 
-        <p className="text-slate-600 mb-8 italic">{content.instructions}</p>
+        <div className="text-slate-600 mb-8 italic">
+          <Markdown content={content.instructions} />
+        </div>
 
         {/* Audio Player UI */}
         <div className="bg-slate-50 rounded-2xl p-6 border border-slate-100 mb-8">
@@ -247,6 +250,7 @@ export default function InteractiveDialogueExercise({ content, onComplete }: Int
               currentTime={currentTime}
               onSeek={handleSeek}
               title="Dialogue Transcript"
+              vocabulary={(content as any).vocabularyHelp}
             />
           </div>
 
@@ -261,9 +265,9 @@ export default function InteractiveDialogueExercise({ content, onComplete }: Int
                   <h4 className="font-black text-orange-900">Comprehension Check</h4>
                 </div>
 
-                <p className="text-lg font-bold text-slate-900 leading-snug">
-                  {activeQuestion.question}
-                </p>
+                <div className="text-lg font-bold text-slate-900 leading-snug">
+                  <Markdown content={activeQuestion.question} />
+                </div>
 
                 <div className="space-y-3">
                   {activeQuestion.options.map((option, idx) => (
@@ -286,7 +290,9 @@ export default function InteractiveDialogueExercise({ content, onComplete }: Int
                       }`}
                     >
                       <div className="flex items-center justify-between">
-                        <span>{option}</span>
+                        <span className="flex-1">
+                          <Markdown content={option} />
+                        </span>
                         {submitted && idx === activeQuestion.correctAnswer && (
                           <CheckCircle2 className="w-5 h-5 text-green-500" />
                         )}
@@ -308,7 +314,7 @@ export default function InteractiveDialogueExercise({ content, onComplete }: Int
                   </button>
                 ) : (
                   <div className="p-4 bg-white/50 rounded-xl text-sm italic text-slate-600 border border-orange-100">
-                    {activeQuestion.explanation}
+                    <Markdown content={activeQuestion.explanation} />
                   </div>
                 )}
               </div>

@@ -3,19 +3,22 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { TranscriptSentence } from '@/lib/exercise-types';
 import { Play, MessageSquare } from 'lucide-react';
+import Markdown, { VocabularyItem } from './Markdown';
 
 interface InteractiveTranscriptProps {
   transcript: TranscriptSentence[];
   currentTime: number;
   onSeek: (time: number) => void;
   title?: string;
+  vocabulary?: VocabularyItem[];
 }
 
 export default function InteractiveTranscript({ 
   transcript, 
   currentTime, 
   onSeek,
-  title = "Interactive Transcript"
+  title = "Interactive Transcript",
+  vocabulary
 }: InteractiveTranscriptProps) {
   const [autoScroll, setAutoScroll] = useState(true);
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -86,13 +89,13 @@ export default function InteractiveTranscript({
                   {sentence.speaker}
                 </span>
               )}
-              <p className={`text-sm leading-relaxed ${
+              <div className={`text-sm leading-relaxed ${
                 isActive 
                   ? 'text-indigo-900 dark:text-white font-medium' 
                   : 'text-slate-600 dark:text-slate-400'
               }`}>
-                {sentence.text}
-              </p>
+                <Markdown content={sentence.text} vocabulary={vocabulary} />
+              </div>
               
               <div className={`absolute right-2 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity ${isActive ? 'hidden' : 'block'}`}>
                 <div className="p-1.5 bg-indigo-100 dark:bg-indigo-900 rounded-full text-indigo-600 dark:text-indigo-400">

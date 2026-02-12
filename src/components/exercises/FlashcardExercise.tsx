@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Volume2, RotateCcw, Check, X, Info } from 'lucide-react';
+import Markdown from '../course/Markdown';
 
 interface FlashcardItem {
   front: string | { text: string; image?: string; audio?: string; phonetic?: string };
@@ -107,7 +108,9 @@ export default function FlashcardExercise({ content, onComplete }: FlashcardExer
                 className="w-32 h-32 object-contain mb-4"
               />
             )}
-            <h2 className="text-4xl font-black text-slate-900 mb-2">{normalizedFront.text}</h2>
+            <div className="text-4xl font-black text-slate-900 mb-2">
+              <Markdown content={normalizedFront.text} />
+            </div>
             {(normalizedFront.phonetic || currentItem.pronunciation) && (
               <p className="text-orange-500 font-mono text-lg">{normalizedFront.phonetic || currentItem.pronunciation}</p>
             )}
@@ -132,11 +135,13 @@ export default function FlashcardExercise({ content, onComplete }: FlashcardExer
             style={{ transform: 'rotateY(180deg)' }}
           >
             <h2 className="text-2xl text-slate-600 mb-2">Traducción:</h2>
-            <h3 className="text-4xl font-black text-orange-600 mb-4">{normalizedBack.translation}</h3>
+            <div className="text-4xl font-black text-orange-600 mb-4">
+              <Markdown content={normalizedBack.translation} />
+            </div>
             
             {normalizedBack.example && (
               <div className="mt-4 bg-white/50 p-4 rounded-xl border border-orange-100 italic text-slate-700">
-                "{normalizedBack.example}"
+                <Markdown content={`"${normalizedBack.example}"`} />
               </div>
             )}
 
@@ -170,7 +175,7 @@ export default function FlashcardExercise({ content, onComplete }: FlashcardExer
                 animate={{ height: 'auto', opacity: 1 }}
                 className="bg-blue-50 border border-blue-100 p-4 rounded-xl text-blue-800 text-sm w-full"
               >
-                {normalizedBack.explanation}
+                <Markdown content={normalizedBack.explanation} />
               </motion.div>
             )}
 

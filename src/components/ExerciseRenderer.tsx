@@ -10,6 +10,7 @@ import FlashcardExercise from './exercises/FlashcardExercise';
 import DragDropExercise from './exercises/DragDropExercise';
 import MatchingExercise from './exercises/MatchingExercise';
 import InteractiveDialogueExercise from './exercises/InteractiveDialogueExercise';
+import Markdown from './course/Markdown';
 import type { MultipleChoiceEvaluationResponse, TextAnswerEvaluationResponse } from '@/lib/exercise-types';
 import { useGamification } from '@/lib/hooks/use-gamification';
 import { updateSRSItem } from '@/lib/srs';
@@ -351,7 +352,9 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
           </div>
           <h2 className="text-2xl font-black text-gray-900">{exercise.content.title || 'Exercise'}</h2>
           {exercise.content.instructions && (
-            <p className="text-gray-600 mt-2">{exercise.content.instructions}</p>
+            <div className="text-gray-600 mt-2">
+              <Markdown content={exercise.content.instructions} />
+            </div>
           )}
         </div>
 
@@ -365,7 +368,9 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
                     <span className="inline-block bg-orange-500 text-white px-3 py-1 rounded-full text-sm font-bold mb-3">
                       Pregunta {qIndex + 1}
                     </span>
-                    <p className="text-xl text-gray-900 font-bold">{q.question || q.text || q.prompt}</p>
+                    <div className="text-xl text-gray-900 font-bold">
+                      <Markdown content={q.question || q.text || q.prompt} />
+                    </div>
                   </div>
 
                   {/* Multiple choice options */}
@@ -402,7 +407,9 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
                               }`}>
                                 {String.fromCharCode(65 + optIndex)}
                               </div>
-                              <span className="text-lg font-bold text-gray-800 flex-1">{typeof option === 'string' ? option : option.text}</span>
+                              <div className="text-lg font-bold text-gray-800 flex-1">
+                                <Markdown content={typeof option === 'string' ? option : option.text} />
+                              </div>
                               {showAsCorrect && <CheckCircle className="ml-auto w-6 h-6 text-green-500" />}
                               {showAsIncorrect && <XCircle className="ml-auto w-6 h-6 text-red-500" />}
                             </div>
@@ -442,14 +449,18 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
                           {evaluation.isCorrect ? '¡Excelente!' : 'Casi...'}
                         </span>
                       </div>
-                      <p className="font-medium text-lg">{evaluation.feedback}</p>
+                      <div className="font-medium text-lg">
+                        <Markdown content={evaluation.feedback} />
+                      </div>
                       
                       {q.explanation && (
                         <div className={`mt-4 p-4 bg-white/50 rounded-xl text-sm border ${
                           evaluation.isCorrect ? 'border-green-100' : 'border-red-100'
                         }`}>
                           <p className="font-bold mb-1">💡 Explicación:</p>
-                          <p>{q.explanation}</p>
+                          <div className="text-sm">
+                            <Markdown content={q.explanation} />
+                          </div>
                         </div>
                       )}
                     </div>
@@ -459,7 +470,9 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
                   {submitted && userAnswer?.questionIndex === qIndex && !isEvaluating && !evaluation && q.explanation && (
                     <div className="mt-4 p-4 bg-blue-50 border border-blue-200 rounded-lg animate-slide-in">
                       <p className="text-sm font-semibold text-blue-900 mb-1">💡 Explanation:</p>
-                      <p className="text-sm text-blue-800">{q.explanation}</p>
+                      <div className="text-sm text-blue-800">
+                        <Markdown content={q.explanation} />
+                      </div>
                     </div>
                   )}
                 </div>
