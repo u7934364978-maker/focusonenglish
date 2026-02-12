@@ -199,7 +199,7 @@ Implement Unit 8 "Food & Cooking" and Unit 9 "Education & Learning" for the B1 c
 - [x] **Task 53: Commit and push changes for Unit 17**
 
 ### Phase 24: Implementation of Unit 18
-- [ ] **Task 54: Define Unit 18 Structure**
+- [x] **Task 54: Define Unit 18 Structure**
     - Sub-topic 1: Natural Wonders & Landmarks (1-10)
     - Sub-topic 2: Travel Experiences & Storytelling (11-20)
     - Sub-topic 3: Grammar: Narrative Tenses Review (Past Simple, Continuous, Perfect) (21-30)
@@ -210,12 +210,25 @@ Implement Unit 8 "Food & Cooking" and Unit 9 "Education & Learning" for the B1 c
     - Sub-topic 8: Travel Planning & Logistics (71-80)
     - Sub-topic 9: Phrasal Verbs related to Travel (81-90)
     - Sub-topic 10: Review & Travel Vlogs (91-100)
-- [ ] **Task 55: Implement Exercises 1-50 for Unit 18: Adventure & Travel**
-- [ ] **Task 56: Implement Exercises 51-100 for Unit 18: Adventure & Travel**
+- [x] **Task 55: Implement Exercises 1-50 for Unit 18: Adventure & Travel**
+- [x] **Task 56: Implement Exercises 51-100 for Unit 18: Adventure & Travel**
 
 ### Phase 25: Verification & Deployment (Unit 18)
-- [ ] **Task 57: Verify Unit 18 in Browser**
-- [ ] **Task 58: Commit and push changes for Unit 18**
+- [x] **Task 57: Verify Unit 18 in Browser**
+- [x] **Task 58: Commit and push changes for Unit 18**
+
+### Phase 26: Implementation of Unit 19
+- [ ] **Task 59: Define Unit 19 Structure**
+    - Sub-topic 1: Modern Workplaces & Environments (1-10)
+    - Sub-topic 2: Career Paths & Ambitions (11-20)
+    - Sub-topic 3: Grammar: Reported Speech Review (Statements & Questions) (21-30)
+    - Sub-topic 4: Grammar: Reporting Verbs (advise, warn, suggest, offer) (31-40)
+    - Sub-topic 5: Business Etiquette & Professionalism (41-50)
+    - Sub-topic 6: Work-Life Balance & Wellbeing (51-60)
+    - Sub-topic 7: Job Interviews & Applications (71-80)
+    - Sub-topic 8: Networking & Professional Relationships (81-90)
+    - Sub-topic 9: Phrasal Verbs related to Work (91-100)
+    - Sub-topic 10: Review & Mock Interviews (101-110)
 
 ## Test Plan
 - **Framework**: Playwright (E2E)
