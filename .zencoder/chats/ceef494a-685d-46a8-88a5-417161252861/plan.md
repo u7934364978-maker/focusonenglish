@@ -21,15 +21,18 @@ Implement Unit 1 (Personal Profile) with 50 exercises.
 ### [x] Step: Phase 2 - Units 2-10 Implementation
 - [x] Implement Units 2 through 10 (50 exercises each)
 
-### [ ] Step: Phase 3 - Units 11-20 Implementation
-- [ ] Implement Units 11 through 20 (50 exercises each)
+### [x] Step: Phase 3 - Units 11-20 Implementation
+- [x] Implement Units 11 through 15 (50 exercises each)
+- [x] Implement Units 16 through 20 (50 exercises each)
 
-### [ ] Step: Phase 4 - Units 21-30 Implementation
-- [ ] Implement Units 21 through 30 (50 exercises each)
+### [x] Step: Phase 4 - Units 21-30 Implementation
+- [x] Implement Units 21 through 25 (50 exercises each)
+- [x] Implement Units 26 through 30 (50 exercises each)
 
-### [ ] Step: Phase 5 - Integration & Finalization
-- [ ] Create `src/lib/course/a2/index.ts`
-- [ ] Run `npm run lint` and `tsc --noEmit`
+### [x] Step: Phase 5 - Integration & Finalization
+- [x] Create `src/lib/course/a2/index.ts`
+- [x] Run `npm run lint` and `tsc --noEmit`
+- [x] Push changes to repository
 - [ ] (Optional) Obtain approval for E2E tests
 
 ## Verification
