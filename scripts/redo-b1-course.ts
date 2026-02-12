@@ -85,19 +85,19 @@ async function generateExercisesForUnit(unitId: number) {
       - topic: "${unit.theme}"
       - difficulty: "medium"
       - transcript: "Clean English text for audio"
-      - audioUrl: "audio/b1/unit-${unitId}/e..."
       - content: { 
           // MANDATORY for all types:
-          title: "Unit ${unitId}: ${unit.theme} (Spanish Title)",
+          title: "Spanish Title",
           instructions: "Spanish instructions here...", 
           
           // ONLY for multiple-choice, fill-blank:
           questions: [
             {
-              prompt: "[[Question|Pregunta]]?", 
+              question: "[[Question|Pregunta]]?", 
               options: ["[[Option1|...]]", "[[Option2|...]]"], 
               correctAnswer: 0, // index for multiple choice, text for fill-blank
-              explanation: "In Spanish..."
+              explanation: "In Spanish...",
+              audio: "audio/b1/unit-${unitId}/e${exercises.length + 1}.mp3"
             }
           ],
           
@@ -113,17 +113,26 @@ async function generateExercisesForUnit(unitId: number) {
     try {
       const response = await openai.chat.completions.create({
         model: "gpt-4o",
-        messages: [{ role: "system", content: "You are a helpful English teacher assistant. You output only valid JSON. You ensure every English word is translated using [[word|translation]] syntax. Titles, instructions, and explanations MUST be in Spanish." }, { role: "user", content: prompt }],
+        messages: [{ role: "system", content: "You are a helpful English teacher assistant. You output only valid JSON. You ensure every English word is translated using [[word|translation]] syntax. Titles, instructions, and explanations MUST be in Spanish. For flashcards and sentence-building, also provide an 'audio' field in content if applicable." }, { role: "user", content: prompt }],
         response_format: { type: "json_object" }
       });
 
       const data = JSON.parse(response.choices[0].message.content || '{"exercises":[]}');
       const batch = data.exercises.map((ex: any, index: number) => {
         const exerciseIndex = exercises.length + index + 1;
+        const audioUrl = `audio/b1/unit-${unitId}/e${exerciseIndex}.mp3`;
+        
+        // Ensure audio URL is in the right place
+        if (ex.content.questions && ex.content.questions[0]) {
+          ex.content.questions[0].audio = audioUrl;
+        } else if (ex.type === 'sentence-building') {
+          ex.content.audio = audioUrl;
+        }
+        
         return {
           ...ex,
           id: `b1-u${unitId}-e${exerciseIndex}`,
-          audioUrl: `audio/b1/unit-${unitId}/e${exerciseIndex}.mp3`,
+          audioUrl: audioUrl, // Keep it at root too for scripts
           topicName: exerciseIndex <= 25 ? 'Vocabulary' : 'Grammar'
         };
       });
