@@ -139,7 +139,26 @@ Implement Unit 8 "Food & Cooking" and Unit 9 "Education & Learning" for the B1 c
 
 ### Phase 17: Verification & Deployment (Unit 14)
 - [x] **Task 37: Verify Unit 14 in Browser**
-- [ ] **Task 38: Commit and push changes for Unit 14**
+- [x] **Task 38: Commit and push changes for Unit 14**
+
+### Phase 18: Implementation of Unit 15
+- [x] **Task 39: Define Unit 15 Structure**
+    - Sub-topic 1: Personality Traits (1-10)
+    - Sub-topic 2: Feelings & Emotions (11-20)
+    - Sub-topic 3: Grammar: Verbs + -ing or infinitive (change in meaning) (21-30)
+    - Sub-topic 4: Grammar: Used to, be used to, get used to (31-40)
+    - Sub-topic 5: Mental Health & Stress (41-50)
+    - Sub-topic 6: Relationships & Friendships (51-60)
+    - Sub-topic 7: Dreams & Subconscious (61-70)
+    - Sub-topic 8: Body Language (71-80)
+    - Sub-topic 9: Phrasal Verbs related to Emotions (81-90)
+    - Sub-topic 10: Review & Personality Tests (91-100)
+- [x] **Task 40: Implement Exercises 1-50 for Unit 15: Psychology & Emotions**
+- [x] **Task 41: Implement Exercises 51-100 for Unit 15: Psychology & Emotions**
+
+### Phase 19: Verification & Deployment (Unit 15)
+- [x] **Task 42: Verify Unit 15 in Browser**
+- [ ] **Task 43: Commit and push changes for Unit 15**
 
 ## Test Plan
 - **Framework**: Playwright (E2E)
