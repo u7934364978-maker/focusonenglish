@@ -111,8 +111,8 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'My battery is low. I need a ________.',
-          options: ['speaker', 'keyboard', 'screen', 'charger'],
-          correctAnswer: 3,
+          options: [ 'speaker', 'charger', 'keyboard', 'screen' ],
+          correctAnswer: 1,
           explanation: "A charger is used to provide electrical energy to a battery."
         }
       ]
@@ -132,8 +132,8 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Is your internet connection ________ or do you use a cable?',
-          options: ['broken', 'offline', 'heavy', 'wireless'],
-          correctAnswer: 3,
+          options: [ 'wireless', 'broken', 'offline', 'heavy' ],
+          correctAnswer: 0,
           explanation: "'Wireless' means connecting without physical wires."
         }
       ]
@@ -153,8 +153,8 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'A smartwatch is a popular ________ these days.',
-          options: ['engine', 'printer', 'keyboard', 'gadget'],
-          correctAnswer: 3,
+          options: [ 'gadget', 'engine', 'printer', 'keyboard' ],
+          correctAnswer: 0,
           explanation: "A smartwatch is a small, useful electronic device or 'gadget'."
         }
       ]
@@ -174,8 +174,8 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'What is your favorite ________ of the new update?',
-          options: ['distance', 'noise', 'feature', 'fault'],
-          correctAnswer: 2,
+          options: [ 'feature', 'fault', 'distance', 'noise' ],
+          correctAnswer: 0,
           explanation: "'Feature' refers to a specific function or characteristic."
         }
       ]
@@ -195,8 +195,8 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I find it easier to type on a ________ than on a screen.',
-          options: ['keyboard', 'charger', 'signal', 'gadget'],
-          correctAnswer: 0,
+          options: [ 'charger', 'keyboard', 'gadget', 'signal' ],
+          correctAnswer: 1,
           explanation: "A keyboard is the physical device used for typing."
         }
       ]
@@ -218,7 +218,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Billions of emails __________ every day.',
-          options: ['are sent', 'is sent', 'is sending', 'are send'],
+          options: [ 'are sent', 'is sending', 'is sent', 'are send' ],
           correctAnswer: 0,
           explanation: "Passive voice: 'are' (plural) + past participle ('sent')."
         }
@@ -239,8 +239,8 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Many smartphones __________ in Asia.',
-          options: ['are made', 'is made', 'made', 'are make'],
-          correctAnswer: 0,
+          options: [ 'made', 'is made', 'are make', 'are made' ],
+          correctAnswer: 3,
           explanation: "Plural subject ('smartphones') + 'are' + 'made' (past participle)."
         }
       ]
@@ -260,8 +260,8 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Personal data __________ by some social media companies.',
-          options: ['are collected', 'collects', 'is collect', 'is collected'],
-          correctAnswer: 3,
+          options: [ 'collects', 'is collected', 'are collected', 'is collect' ],
+          correctAnswer: 1,
           explanation: "'Data' is often treated as uncountable in B1 English, so we use 'is'."
         }
       ]
@@ -281,7 +281,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The software __________ automatically at night.',
-          options: ['updated', 'is update', 'is updated', 'are updated'],
+          options: [ 'updated', 'is update', 'is updated', 'are updated' ],
           correctAnswer: 2,
           explanation: "Singular subject ('software') + 'is' + 'updated'."
         }
@@ -302,8 +302,8 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The terms and conditions __________ by many users.',
-          options: ['ignore', 'are ignore', 'is ignored', 'are ignored'],
-          correctAnswer: 3,
+          options: [ 'ignore', 'are ignored', 'is ignored', 'are ignore' ],
+          correctAnswer: 1,
           explanation: "Plural subject ('terms and conditions') + 'are' + 'ignored'."
         }
       ]
@@ -323,7 +323,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "Packages ___ (deliver) within 24 hours in this city.",
-          correctAnswer: 3,
+          correctAnswer: 2,
           explanation: "Plural subject + are + past participle."
         }
       ]
@@ -620,7 +620,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The World Wide Web __________ in 1989.',
-          options: ['was invented', 'were invented', 'was invent', 'invented'],
+          options: [ 'was invent', 'was invented', 'invented', 'were invented' ],
           correctAnswer: 3,
           explanation: "Past passive: 'was' (singular) + 'invented' (past participle)."
         }
@@ -641,8 +641,8 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The first programmable computers __________ during the 1940s.',
-          options: ['were build', 'built', 'were built', 'was built'],
-          correctAnswer: 2,
+          options: [ 'built', 'was built', 'were build', 'were built' ],
+          correctAnswer: 3,
           explanation: "Plural subject ('computers') + 'were' + 'built'."
         }
       ]
@@ -662,7 +662,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Facebook __________ by Mark Zuckerberg and his roommates.',
-          options: ['created', 'was create', 'were created', 'was created'],
+          options: [ 'was create', 'created', 'were created', 'was created' ],
           correctAnswer: 3,
           explanation: "Singular subject + 'was' + 'created'."
         }
@@ -683,8 +683,8 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The first mobile phone call __________ in 1973.',
-          options: ['was made', 'was make', 'made', 'were made'],
-          correctAnswer: 0,
+          options: [ 'were made', 'was make', 'was made', 'made' ],
+          correctAnswer: 2,
           explanation: "Singular subject + 'was' + 'made'."
         }
       ]
@@ -704,8 +704,8 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The first iPhone __________ in 2007.',
-          options: ['is launched', 'were launched', 'was launched', 'launched'],
-          correctAnswer: 2,
+          options: [ 'was launched', 'were launched', 'is launched', 'launched' ],
+          correctAnswer: 0,
           explanation: "Specific past time ('2007') requires past passive."
         }
       ]
@@ -725,7 +725,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "The radio ___ (develop) by several inventors in the late 19th century.",
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Singular subject + was + past participle."
         }
       ]
@@ -922,7 +922,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Don\'t forget to __________ the report to your email.',
-          options: ['download', 'attach', 'feature', 'charge'],
+          options: [ 'download', 'feature', 'attach', 'charge' ],
           correctAnswer: 2,
           explanation: "'Attach' is the verb for adding a file to an email."
         }
@@ -943,7 +943,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The constant __________ from my phone are very annoying.',
-          options: ['gadgets', 'notifications', 'attachments', 'usernames'],
+          options: [ 'gadgets', 'notifications', 'usernames', 'attachments' ],
           correctAnswer: 1,
           explanation: "Notifications are the alerts or messages from apps."
         }
@@ -1123,7 +1123,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Using __________ makes your accounts much harder to access for strangers.',
-          options: ['two-factor authentication', 'no password', 'public Wi-Fi', 'a simple username'],
+          options: [ 'a simple username', 'two-factor authentication', 'public Wi-Fi', 'no password' ],
           correctAnswer: "My computer was infected by a virus last month",
           explanation: "2FA adds an extra layer of security beyond just a password."
         }
@@ -1320,7 +1320,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The new computers __________ next Monday.',
-          options: ['will deliver', 'will being delivered', 'will be delivered', 'are deliver'],
+          options: [ 'will be delivered', 'will deliver', 'are deliver', 'will being delivered' ],
           correctAnswer: "privacy",
           explanation: "Future passive: 'will be' + past participle ('delivered')."
         }
@@ -1342,7 +1342,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
           id: 'q1',
           question: 'More remote jobs __________ by companies in the coming years.',
           options: ['will be created', 'will be creating', 'are created', 'will create'],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Future passive: 'will be' + 'created'."
         }
       ]
@@ -1362,7 +1362,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "The server ___ (maintenance) tonight at midnight.",
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Future passive for a scheduled action."
         }
       ]
@@ -1520,7 +1520,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Wait! The movie __________ right now, it will start soon.',
-          options: ['is downloading', 'is downloaded', 'will download', 'is being downloaded'],
+          options: [ 'will download', 'is downloading', 'is downloaded', 'is being downloaded' ],
           correctAnswer: 0,
           explanation: "Present Continuous Passive: 'is being' + past participle."
         }
@@ -1541,7 +1541,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'A new season of my favorite show __________ in London.',
-          options: ['is filmed', 'is being filmed', 'is filming', 'was filmed'],
+          options: [ 'is filmed', 'is being filmed', 'was filmed', 'is filming' ],
           correctAnswer: 1,
           explanation: "Ongoing action in passive voice: 'is being filmed'."
         }
@@ -1717,8 +1717,8 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The __________ of this platform is very good at suggesting things I like.',
-          options: ['algorithm', 'signal', 'keyboard', 'charger'],
-          correctAnswer: 0,
+          options: [ 'keyboard', 'signal', 'algorithm', 'charger' ],
+          correctAnswer: 2,
           explanation: "Algorithms are used to personalize content for users."
         }
       ]
@@ -1914,8 +1914,8 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I am trying to reduce my __________ because my eyes are tired.',
-          options: ['signal strength', 'download speed', 'battery life', 'screen time'],
-          correctAnswer: 3,
+          options: [ 'download speed', 'battery life', 'screen time', 'signal strength' ],
+          correctAnswer: 2,
           explanation: "Screen time refers to the duration spent using devices."
         }
       ]

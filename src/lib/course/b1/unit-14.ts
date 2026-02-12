@@ -106,8 +106,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "What do you call a person who steals from a shop?",
-      options: ["A shoplifter", "A burglar", "A witness", "A judge"],
-      correctAnswer: 0,
+      options: [ "A judge", "A burglar", "A witness", "A shoplifter" ],
+      correctAnswer: 3,
       explanation: "A shoplifter is someone who takes things from a store without paying."
     }
   },
@@ -120,8 +120,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Which crime involves breaking into a house to steal?",
-      options: ["Robbery", "Burglary", "Vandalism", "Pickpocketing"],
-      correctAnswer: 1,
+      options: [ "Vandalism", "Robbery", "Pickpocketing", "Burglary" ],
+      correctAnswer: 3,
       explanation: "Burglary specifically refers to breaking into a building/house to commit a crime."
     }
   },
@@ -134,8 +134,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If someone steals your wallet in a crowded street, it is...",
-      options: ["Burglary", "Shoplifting", "Pickpocketing", "Vandalism"],
-      correctAnswer: 2,
+      options: [ "Vandalism", "Pickpocketing", "Shoplifting", "Burglary" ],
+      correctAnswer: 1,
       explanation: "Pickpocketing is the act of stealing from people's pockets or bags in public places."
     }
   },
@@ -148,8 +148,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Setting fire to a building on purpose is called...",
-      options: ["Smuggling", "Arson", "Kidnapping", "Forgery"],
-      correctAnswer: 1,
+      options: [ "Arson", "Forgery", "Smuggling", "Kidnapping" ],
+      correctAnswer: 0,
       explanation: "Arson is the criminal act of deliberately setting fire to property."
     }
   },
@@ -162,8 +162,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Bringing illegal goods into a country is...",
-      options: ["Murder", "Theft", "Smuggling", "Fraud"],
-      correctAnswer: 2,
+      options: [ "Murder", "Smuggling", "Theft", "Fraud" ],
+      correctAnswer: 1,
       explanation: "Smuggling is the illegal movement of goods into or out of a country."
     }
   },
@@ -272,7 +272,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "Who is the person accused of a crime?",
-      options: ["The judge", "The defendant", "The lawyer", "The victim"],
+      options: [ "The judge", "The defendant", "The lawyer", "The victim" ],
       correctAnswer: 1,
       explanation: "The defendant (el acusado) is the person who is being sued or accused in a court of law."
     }
@@ -286,8 +286,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The decision made by the jury at the end of a trial is the...",
-      options: ["Sentence", "Fine", "Verdict", "Evidence"],
-      correctAnswer: 2,
+      options: [ "Fine", "Verdict", "Evidence", "Sentence" ],
+      correctAnswer: 1,
       explanation: "The verdict is the final decision on whether someone is guilty or not."
     }
   },
@@ -300,8 +300,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "A person who is harmed by a crime is the...",
-      options: ["Suspect", "Prisoner", "Victim", "Police officer"],
-      correctAnswer: 2,
+      options: [ "Suspect", "Victim", "Police officer", "Prisoner" ],
+      correctAnswer: 1,
       explanation: "The victim is the person who suffers because of a crime."
     }
   },
@@ -314,7 +314,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Things that are used in court to prove someone's guilt are called...",
-      options: ["Verdicts", "Punishments", "Fines", "Evidence"],
+      options: [ "Punishments", "Fines", "Verdicts", "Evidence" ],
       correctAnswer: 3,
       explanation: "Evidence (pruebas) is information used to determine the truth of an allegation."
     }
@@ -328,7 +328,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If you are 'not guilty', it means you are...",
-      options: ["Innocent", "Convicted", "Sentenced", "Arrested"],
+      options: [ "Innocent", "Sentenced", "Arrested", "Convicted" ],
       correctAnswer: 0,
       explanation: "Innocent means not responsible for a crime."
     }
@@ -400,8 +400,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The safe was empty. Someone ________ known the combination.",
-      options: ["must have", "can't have", "should have", "mustn't have"],
-      correctAnswer: 0,
+      options: [ "should have", "can't have", "mustn't have", "must have" ],
+      correctAnswer: 3,
       explanation: "We are making a logical deduction: if it's empty, someone surely knew the code."
     }
   },
@@ -414,8 +414,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The suspect ________ stolen the car because he doesn't know how to drive.",
-      options: ["must have", "can't have", "might have", "could have"],
-      correctAnswer: 1,
+      options: [ "must have", "might have", "could have", "can't have" ],
+      correctAnswer: 3,
       explanation: "If he doesn't know how to drive, it's impossible that he stole it (negative certainty)."
     }
   },
@@ -428,7 +428,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "I'm not sure where my keys are. I ________ dropped them in the street.",
-      options: ["must have", "can't have", "might have", "should have"],
+      options: [ "must have", "can't have", "might have", "should have" ],
       correctAnswer: 2,
       explanation: "I'm not sure, so I'm expressing a possibility."
     }
@@ -442,8 +442,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "There was no evidence against him. He ________ been the murderer.",
-      options: ["can't have", "must have", "might not have", "shouldn't have"],
-      correctAnswer: 0,
+      options: [ "must have", "shouldn't have", "can't have", "might not have" ],
+      correctAnswer: 2,
       explanation: "No evidence suggests certainty that he wasn't the one."
     }
   },
@@ -456,8 +456,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The police are here. The neighbors ________ called them.",
-      options: ["can't have", "must have", "might have", "should have"],
-      correctAnswer: 1,
+      options: [ "might have", "should have", "can't have", "must have" ],
+      correctAnswer: 3,
       explanation: "It's a strong logical deduction based on the fact that the police arrived."
     }
   },
@@ -470,8 +470,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "It was dark, so the witness ________ seen his face clearly.",
-      options: ["must have", "might have", "can't have", "could have"],
-      correctAnswer: 2,
+      options: [ "could have", "must have", "might have", "can't have" ],
+      correctAnswer: 3,
       explanation: "If it was dark, it's very likely impossible to have seen the face (negative deduction)."
     }
   },
@@ -484,8 +484,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "He didn't answer his phone. He ________ been asleep.",
-      options: ["must have", "can't have", "might have", "should have"],
-      correctAnswer: 2,
+      options: [ "might have", "must have", "can't have", "should have" ],
+      correctAnswer: 0,
       explanation: "It's a possibility that explains why he didn't answer."
     }
   },
@@ -518,8 +518,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If they ________ the door, the burglar wouldn't have got in.",
-      options: ["locked", "had locked", "have locked", "would lock"],
-      correctAnswer: 1,
+      options: [ "locked", "have locked", "had locked", "would lock" ],
+      correctAnswer: 2,
       explanation: "Third conditional uses 'if + past perfect'."
     }
   },
@@ -532,7 +532,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If he ________ faster, the police wouldn't have caught him.",
-      options: ["ran", "had run", "has run", "runs"],
+      options: [ "ran", "had run", "runs", "has run" ],
       correctAnswer: 1,
       explanation: "We need 'past perfect' after 'if' in the third conditional."
     }
@@ -546,8 +546,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "I ________ the money if I had found the wallet.",
-      options: ["would return", "would have returned", "had returned", "will return"],
-      correctAnswer: 1,
+      options: [ "would have returned", "had returned", "will return", "would return" ],
+      correctAnswer: 0,
       explanation: "The second part of the third conditional is 'would have + past participle'."
     }
   },
@@ -560,8 +560,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If the judge ________ all the evidence, he would have sent him to prison.",
-      options: ["saw", "has seen", "had seen", "would see"],
-      correctAnswer: 2,
+      options: [ "saw", "has seen", "would see", "had seen" ],
+      correctAnswer: 3,
       explanation: "Third conditional: 'If + had + past participle'."
     }
   },
@@ -574,7 +574,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "We wouldn't have been late if we ________ a map.",
-      options: ["have", "had", "had had", "would have"],
+      options: [ "have", "would have", "had had", "had" ],
       correctAnswer: 2,
       explanation: "Past perfect of 'have' is 'had had'."
     }
@@ -588,7 +588,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "What ________ you ________ if you had seen the crime?",
-      options: ["would / do", "would / have done", "had / done", "did / do"],
+      options: [ "did / do", "would / have done", "had / done", "would / do" ],
       correctAnswer: 1,
       explanation: "Question form of third conditional: 'Would you have done...?'"
     }
@@ -602,8 +602,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If I had known you were in trouble, I ________ you.",
-      options: ["would help", "will help", "would have helped", "had helped"],
-      correctAnswer: 2,
+      options: [ "had helped", "would help", "will help", "would have helped" ],
+      correctAnswer: 3,
       explanation: "Third conditional: result of a past hypothetical situation."
     }
   },
@@ -616,8 +616,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If she ________ the alarm, she would have heard the intruder.",
-      options: ["sets", "had set", "setted", "would have set"],
-      correctAnswer: 1,
+      options: [ "had set", "sets", "would have set", "setted" ],
+      correctAnswer: 0,
       explanation: "If + past perfect."
     }
   },
@@ -630,8 +630,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "They ________ the game if the referee hadn't made a mistake.",
-      options: ["won", "would win", "would have won", "had won"],
-      correctAnswer: 2,
+      options: [ "had won", "would have won", "won", "would win" ],
+      correctAnswer: 1,
       explanation: "Result of a hypothetical past situation."
     }
   },
@@ -740,8 +740,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "A person who is kept in prison is a...",
-      options: ["Prisoner", "Guard", "Lawyer", "Witness"],
-      correctAnswer: 0,
+      options: [ "Guard", "Lawyer", "Witness", "Prisoner" ],
+      correctAnswer: 3,
       explanation: "A prisoner is someone who is in jail."
     }
   },
@@ -754,8 +754,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If you speed, you will probably have to pay a...",
-      options: ["Verdict", "Fine", "Sentence", "Proof"],
-      correctAnswer: 1,
+      options: [ "Fine", "Sentence", "Verdict", "Proof" ],
+      correctAnswer: 0,
       explanation: "A fine is the money you pay for breaking a rule or law."
     }
   },
@@ -768,8 +768,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The period of time someone must stay in prison is their...",
-      options: ["Sentence", "Fine", "Verdict", "Evidence"],
-      correctAnswer: 0,
+      options: [ "Fine", "Verdict", "Sentence", "Evidence" ],
+      correctAnswer: 2,
       explanation: "A sentence is the punishment given by a judge."
     }
   },
@@ -782,8 +782,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Being allowed to leave prison early for good behavior is called...",
-      options: ["Verdict", "Parole", "Acquittal", "Arrest"],
-      correctAnswer: 1,
+      options: [ "Acquittal", "Verdict", "Parole", "Arrest" ],
+      correctAnswer: 2,
       explanation: "Parole (libertad condicional) is the release of a prisoner before the end of their sentence."
     }
   },
@@ -796,7 +796,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "A crime that is punishable by death is a ________ crime.",
-      options: ["Minor", "Civil", "Capital", "Legal"],
+      options: [ "Minor", "Legal", "Capital", "Civil" ],
       correctAnswer: 2,
       explanation: "Capital punishment refers to the death penalty."
     }
@@ -906,8 +906,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "What do you call a person who investigates a crime?",
-      options: ["A criminal", "A detective", "A victim", "A prisoner"],
-      correctAnswer: 1,
+      options: [ "A victim", "A prisoner", "A detective", "A criminal" ],
+      correctAnswer: 2,
       explanation: "A detective's job is to solve crimes by finding evidence."
     }
   },
@@ -920,8 +920,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "A 'cold case' is a crime that...",
-      options: ["Happened in winter", "Has not been solved for a long time", "Is very easy to solve", "Involves ice"],
-      correctAnswer: 1,
+      options: [ "Is very easy to solve", "Happened in winter", "Involves ice", "Has not been solved for a long time" ],
+      correctAnswer: 3,
       explanation: "A cold case is an unsolved criminal investigation that remains open."
     }
   },
@@ -934,8 +934,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If the police 'solve' a crime, they...",
-      options: ["Find out who did it", "Forget about it", "Make it happen", "Write a book about it"],
-      correctAnswer: 0,
+      options: [ "Write a book about it", "Make it happen", "Find out who did it", "Forget about it" ],
+      correctAnswer: 2,
       explanation: "To solve a crime means to find the person responsible."
     }
   },
@@ -948,8 +948,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Which of these is NOT a synonym for 'clue'?",
-      options: ["Evidence", "Hint", "Proof", "Verdict"],
-      correctAnswer: 3,
+      options: [ "Hint", "Verdict", "Proof", "Evidence" ],
+      correctAnswer: 1,
       explanation: "A verdict is a decision, not a piece of evidence."
     }
   },
@@ -962,8 +962,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If someone 'gets away with' a crime, they...",
-      options: ["Are caught immediately", "Are not punished for it", "Go to prison", "Confess everything"],
-      correctAnswer: 1,
+      options: [ "Are caught immediately", "Go to prison", "Confess everything", "Are not punished for it" ],
+      correctAnswer: 3,
       explanation: "To get away with something means to do it without being caught or punished."
     }
   },
@@ -1072,8 +1072,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "Stealing someone's personal information to use their money is...",
-      options: ["Identity theft", "Vandalism", "Arson", "Smuggling"],
-      correctAnswer: 0,
+      options: [ "Vandalism", "Identity theft", "Smuggling", "Arson" ],
+      correctAnswer: 1,
       explanation: "Identity theft involves stealing personal data for fraudulent purposes."
     }
   },
@@ -1086,8 +1086,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "A 'scam' is another word for...",
-      options: ["A gift", "A fraud or dishonest scheme", "A new law", "A police officer"],
-      correctAnswer: 1,
+      options: [ "A new law", "A police officer", "A gift", "A fraud or dishonest scheme" ],
+      correctAnswer: 3,
       explanation: "A scam is a fraudulent scheme to make money."
     }
   },
@@ -1100,8 +1100,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Which of these is a 'cybercrime'?",
-      options: ["Shoplifting", "Hacking", "Pickpocketing", "Burglary"],
-      correctAnswer: 1,
+      options: [ "Pickpocketing", "Burglary", "Hacking", "Shoplifting" ],
+      correctAnswer: 2,
       explanation: "Hacking is a crime committed using computers or the internet."
     }
   },
@@ -1114,7 +1114,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If your computer is infected with 'malware', it means...",
-      options: ["It is faster", "It has malicious software", "It is expensive", "It is broken"],
+      options: [ "It is faster", "It has malicious software", "It is broken", "It is expensive" ],
       correctAnswer: 1,
       explanation: "Malware is software designed to disrupt, damage, or gain unauthorized access to a computer system."
     }
@@ -1128,8 +1128,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Buying or selling illegal things on the internet is often done on the...",
-      options: ["Social media", "Dark web", "Cloud", "Browser"],
-      correctAnswer: 1,
+      options: [ "Cloud", "Social media", "Dark web", "Browser" ],
+      correctAnswer: 2,
       explanation: "The dark web is a part of the internet that is not indexed by search engines and is often used for illegal activities."
     }
   },
@@ -1238,7 +1238,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "A 'citizen' is a person who...",
-      options: ["Is a member of a country", "Is in prison", "Is a criminal", "Is a judge"],
+      options: [ "Is a member of a country", "Is a judge", "Is a criminal", "Is in prison" ],
       correctAnswer: 0,
       explanation: "A citizen is a legally recognized subject or national of a state."
     }
@@ -1252,8 +1252,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "When you 'obey' the law, you...",
-      options: ["Break it", "Follow it", "Change it", "Write it"],
-      correctAnswer: 1,
+      options: [ "Change it", "Break it", "Write it", "Follow it" ],
+      correctAnswer: 3,
       explanation: "To obey means to do what you are told or what a law says."
     }
   },
@@ -1266,7 +1266,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If a law is 'abolished', it is...",
-      options: ["Created", "Changed", "Officially ended", "Studied"],
+      options: [ "Created", "Studied", "Officially ended", "Changed" ],
       correctAnswer: 2,
       explanation: "To abolish means to formally put an end to a system, practice, or institution."
     }
@@ -1280,8 +1280,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Being 'held accountable' means being...",
-      options: ["Paid well", "Responsible for your actions", "Hidden from the police", "Arrested by mistake"],
-      correctAnswer: 1,
+      options: [ "Responsible for your actions", "Paid well", "Hidden from the police", "Arrested by mistake" ],
+      correctAnswer: 0,
       explanation: "Accountability means being required to explain your actions or decisions."
     }
   },
@@ -1294,8 +1294,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Freedom of speech is a fundamental...",
-      options: ["Crime", "Duty", "Human right", "Punishment"],
-      correctAnswer: 2,
+      options: [ "Human right", "Punishment", "Crime", "Duty" ],
+      correctAnswer: 0,
       explanation: "Human rights are the basic rights and freedoms that belong to every person."
     }
   },
@@ -1404,8 +1404,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The police are ________ the robbery.",
-      options: ["looking into", "breaking in", "getting away", "holding up"],
-      correctAnswer: 0,
+      options: [ "getting away", "looking into", "holding up", "breaking in" ],
+      correctAnswer: 1,
       explanation: "'Looking into' means investigating."
     }
   },
@@ -1418,7 +1418,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The prisoner ________ of jail last night.",
-      options: ["broke out", "locked up", "turned in", "held up"],
+      options: [ "broke out", "held up", "locked up", "turned in" ],
       correctAnswer: 0,
       explanation: "'Broke out' means escaped from prison."
     }
@@ -1432,8 +1432,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "He tried to ________ his crime by lying.",
-      options: ["cover up", "break in", "get away", "lock up"],
-      correctAnswer: 0,
+      options: [ "get away", "break in", "lock up", "cover up" ],
+      correctAnswer: 3,
       explanation: "'Cover up' means to hide the truth about something illegal or unpleasant."
     }
   },
@@ -1446,8 +1446,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The gang ________ a bank in the city center.",
-      options: ["held up", "turned in", "locked up", "broke out"],
-      correctAnswer: 0,
+      options: [ "locked up", "broke out", "held up", "turned in" ],
+      correctAnswer: 2,
       explanation: "'Held up' means committed an armed robbery."
     }
   },
@@ -1460,8 +1460,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If you know who did it, you should ________ them ________.",
-      options: ["turn / in", "break / in", "get / away", "look / into"],
-      correctAnswer: 0,
+      options: [ "get / away", "turn / in", "break / in", "look / into" ],
+      correctAnswer: 1,
       explanation: "'Turn in' means to report someone to the police."
     }
   },
@@ -1475,8 +1475,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "Which word means 'to steal from a house'?",
-      options: ["Burgle", "Shoply", "Arson", "Smuggle"],
-      correctAnswer: 0,
+      options: [ "Shoply", "Arson", "Smuggle", "Burgle" ],
+      correctAnswer: 3,
       explanation: "To burgle is the verb form of burglary."
     }
   },
@@ -1489,8 +1489,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If I ________ (see) the thief, I ________ (call) the police.",
-      options: ["had seen / would have called", "saw / would call", "see / will call", "had seen / called"],
-      correctAnswer: 0,
+      options: [ "had seen / called", "see / will call", "had seen / would have called", "saw / would call" ],
+      correctAnswer: 2,
       explanation: "Third conditional review."
     }
   },
@@ -1503,8 +1503,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The police found his fingerprints. He ________ been there.",
-      options: ["must have", "can't have", "might have", "should have"],
-      correctAnswer: 0,
+      options: [ "might have", "can't have", "should have", "must have" ],
+      correctAnswer: 3,
       explanation: "Logical deduction based on evidence."
     }
   },
@@ -1517,8 +1517,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Which person works in a court?",
-      options: ["Judge", "Burglar", "Suspect", "Prisoner"],
-      correctAnswer: 0,
+      options: [ "Suspect", "Judge", "Burglar", "Prisoner" ],
+      correctAnswer: 1,
       explanation: "A judge is a court official."
     }
   },
@@ -1531,7 +1531,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "A 'witness' is someone who ________ a crime.",
-      options: ["saw", "committed", "investigated", "judged"],
+      options: [ "saw", "judged", "committed", "investigated" ],
       correctAnswer: 0,
       explanation: "A witness sees the event."
     }
@@ -1545,7 +1545,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If you are 'acquitted', you are found...",
-      options: ["Guilty", "Not guilty", "Responsible", "Insane"],
+      options: [ "Guilty", "Not guilty", "Responsible", "Insane" ],
       correctAnswer: 1,
       explanation: "To be acquitted means to be cleared of a charge."
     }
@@ -1559,8 +1559,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Is stealing bread to feed a hungry family a crime? This is an...",
-      options: ["Ethical dilemma", "Easy choice", "Alibi", "Evidence"],
-      correctAnswer: 0,
+      options: [ "Evidence", "Easy choice", "Ethical dilemma", "Alibi" ],
+      correctAnswer: 2,
       explanation: "An ethical dilemma is a situation in which a difficult choice has to be made between two courses of action."
     }
   },
@@ -1573,8 +1573,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Which of these is a punishment?",
-      options: ["Community service", "Verdict", "Witness", "Lawyer"],
-      correctAnswer: 0,
+      options: [ "Witness", "Verdict", "Lawyer", "Community service" ],
+      correctAnswer: 3,
       explanation: "Community service is a type of legal punishment."
     }
   },
@@ -1587,8 +1587,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The police managed to ________ the criminals.",
-      options: ["track down", "break out", "get away", "hold up"],
-      correctAnswer: 0,
+      options: [ "hold up", "break out", "track down", "get away" ],
+      correctAnswer: 2,
       explanation: "'Track down' means to find something or someone after searching."
     }
   },
@@ -1601,8 +1601,8 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If the evidence ________ stronger, he would have been convicted.",
-      options: ["had been", "was", "has been", "is"],
-      correctAnswer: 0,
+      options: [ "is", "was", "has been", "had been" ],
+      correctAnswer: 3,
       explanation: "Third conditional: if + past perfect."
     }
   }

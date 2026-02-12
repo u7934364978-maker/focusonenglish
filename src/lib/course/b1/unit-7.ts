@@ -111,8 +111,8 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'We need to __________ our hotel room today.',
-          options: ['book', 'live', 'stay', 'read'],
-          correctAnswer: 0,
+          options: [ 'stay', 'read', 'book', 'live' ],
+          correctAnswer: 2,
           explanation: "To 'book' means to reserve a place in advance."
         }
       ]
@@ -132,7 +132,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I always print my __________ before going to the airport.',
-          options: ['laundry', 'itinerary', 'furniture', 'dictionary'],
+          options: [ 'dictionary', 'itinerary', 'furniture', 'laundry' ],
           correctAnswer: 1,
           explanation: "An itinerary shows your travel schedule and plans."
         }
@@ -153,8 +153,8 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Finding good __________ is the most expensive part of the trip.',
-          options: ['conversation', 'imagination', 'accommodation', 'direction'],
-          correctAnswer: 2,
+          options: [ 'conversation', 'accommodation', 'direction', 'imagination' ],
+          correctAnswer: 1,
           explanation: "Accommodation refers to the place where you stay (hotels, apartments, etc.)."
         }
       ]
@@ -174,8 +174,8 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Does your __________ cover lost luggage?',
-          options: ['credit card', 'library card', "driver's license", 'travel insurance'],
-          correctAnswer: 3,
+          options: [ "driver's license", 'travel insurance', 'credit card', 'library card' ],
+          correctAnswer: 1,
           explanation: "Travel insurance protects you against unexpected travel costs or losses."
         }
       ]
@@ -195,8 +195,8 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'What is your dream __________ for next summer?',
-          options: ['destination', 'invitation', 'explanation', 'foundation'],
-          correctAnswer: 0,
+          options: [ 'invitation', 'destination', 'explanation', 'foundation' ],
+          correctAnswer: 1,
           explanation: "A destination is the place you are traveling to."
         }
       ]
@@ -218,8 +218,8 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I __________ to Paris next month. I already have the tickets.',
-          options: ['travel', 'was traveling', 'am going to travel', 'will travel'],
-          correctAnswer: 2,
+          options: [ 'will travel', 'travel', 'was traveling', 'am going to travel' ],
+          correctAnswer: 3,
           explanation: "Use 'be going to' for plans and intentions already made."
         }
       ]
@@ -239,8 +239,8 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Look at those cheap flights! I think I __________ them now.',
-          options: ['will buy', 'buy', 'bought', 'am going to buy'],
-          correctAnswer: 0,
+          options: [ 'am going to buy', 'will buy', 'buy', 'bought' ],
+          correctAnswer: 1,
           explanation: "Use 'will' for spontaneous decisions made at the moment of speaking."
         }
       ]
@@ -260,8 +260,8 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I checked the forecast. It __________ sunny all week.',
-          options: ['will being', 'is going to be', 'is being', 'was'],
-          correctAnswer: 1,
+          options: [ 'was', 'will being', 'is going to be', 'is being' ],
+          correctAnswer: 2,
           explanation: "Use 'be going to' for predictions based on present evidence (the forecast)."
         }
       ]
@@ -281,8 +281,8 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Don\'t worry about the suitcases. I __________ you with them.',
-          options: ['will help', 'am going to help', 'helped', 'help'],
-          correctAnswer: 0,
+          options: [ 'am going to help', 'will help', 'help', 'helped' ],
+          correctAnswer: 1,
           explanation: "Use 'will' for offers and promises."
         }
       ]
@@ -302,8 +302,8 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Our flight __________ at 10:00 PM tonight.',
-          options: ['is going to leave', 'leave', 'leaves', 'will leave'],
-          correctAnswer: 2,
+          options: [ 'will leave', 'is going to leave', 'leave', 'leaves' ],
+          correctAnswer: 3,
           explanation: "The Present Simple is used for fixed schedules (trains, planes, etc.)."
         }
       ]
@@ -556,7 +556,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'We can\'t find our __________! We might miss the flight.',
-          options: ['calendars', 'envelopes', 'boarding passes', 'dictionaries'],
+          options: [ 'dictionaries', 'envelopes', 'boarding passes', 'calendars' ],
           correctAnswer: "are going to visit",
           explanation: "You cannot board a plane without a boarding pass."
         }
@@ -577,7 +577,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "I'm sorry, but your flight has been ___ by three hours.",
-          correctAnswer: 3,
+          correctAnswer: 0,
           explanation: "Delayed means arriving or leaving later than scheduled."
         }
       ]
@@ -597,7 +597,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "I would like to check in my suitcase and take this small bag as carry-on.",
-          correctAnswer: 3,
+          correctAnswer: 0,
           explanation: "Practica la entonación al hacer una solicitud."
         }
       ]
@@ -619,7 +619,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'This time tomorrow, I __________ on a beach in Hawaii.',
-          options: ['am lying', 'will lie', 'lie', 'will be lying'],
+          options: [ 'will be lying', 'am lying', 'will lie', 'lie' ],
           correctAnswer: 3,
           explanation: "Future Continuous (will be + -ing) is used for actions in progress at a specific time in the future."
         }
@@ -640,8 +640,8 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'At 8 PM, we __________ over the Atlantic.',
-          options: ['fly', 'will be flying', 'will fly', 'are flying'],
-          correctAnswer: 1,
+          options: [ 'will be flying', 'will fly', 'fly', 'are flying' ],
+          correctAnswer: 0,
           explanation: "Use Future Continuous for actions happening at a specific future point."
         }
       ]
@@ -661,7 +661,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: '__________ the car this weekend, or can I use it?',
-          options: ['Do you use', 'Will you be using', 'Are you using', 'Will you use'],
+          options: [ 'Will you use', 'Will you be using', 'Do you use', 'Are you using' ],
           correctAnswer: 1,
           explanation: "The Future Continuous is often used to ask about people's plans politely."
         }
@@ -682,7 +682,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "Don't call me at 10:00. I ___ (sleep) in my hotel room.",
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Action in progress at a specific future time."
         }
       ]
@@ -764,7 +764,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I __________ to the airport at 5 AM, so please don\'t call me then.',
-          options: ['drive', 'will drive', 'will be driving', 'am driving'],
+          options: [ 'am driving', 'will drive', 'drive', 'will be driving' ],
           correctAnswer: 0,
           explanation: "Future Continuous emphasizes the duration/progress of the action at that time."
         }
@@ -922,7 +922,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'We prefer to __________ and find quiet places without many people.',
-          options: ['go to the airport', 'stay at home', 'buy a car', 'go off the beaten track'],
+          options: [ 'go to the airport', 'stay at home', 'buy a car', 'go off the beaten track' ],
           correctAnswer: "will not be working",
           explanation: "To 'go off the beaten track' means visiting less touristy locations."
         }
@@ -1002,7 +1002,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "I really want to experience the local cuisine and meet the people.",
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Practica la pronunciación de 'cuisine' /kwɪˈziːn/."
         }
       ]
@@ -1062,7 +1062,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'At 8 PM tonight, I __________ dinner at a local restaurant.',
-          options: ['have', 'am have', 'will have', 'will be having'],
+          options: [ 'will be having', 'have', 'am have', 'will have' ],
           correctAnswer: 0,
           explanation: "Use Future Continuous for actions in progress at a specific time in the future."
         }
@@ -1083,8 +1083,8 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Don\'t call me at 10 AM. I __________ my luggage then.',
-          options: ['pack', 'will be packing', 'will pack', 'am pack'],
-          correctAnswer: 1,
+          options: [ 'am pack', 'will pack', 'will be packing', 'pack' ],
+          correctAnswer: 2,
           explanation: "Future Continuous indicates an action that will be happening at that moment."
         }
       ]
@@ -1264,7 +1264,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Does the hotel have __________? I want to connect my laptop.',
-          options: ['a microwave', 'a balcony', 'a fireplace', 'free Wi-Fi'],
+          options: [ 'free Wi-Fi', 'a balcony', 'a fireplace', 'a microwave' ],
           correctAnswer: 1,
           explanation: "Wi-Fi is essential for connecting devices to the internet."
         }
@@ -1285,7 +1285,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The room is very __________. Can we have another one?',
-          options: ['comfortable', 'beautiful', 'polite', 'noisy'],
+          options: [ 'comfortable', 'beautiful', 'polite', 'noisy' ],
           correctAnswer: 3,
           explanation: "If a room is noisy, you cannot sleep well, so you might complain."
         }
@@ -1306,7 +1306,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "I'd like to book a ___ room with a sea view.",
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "A double room is for two people."
         }
       ]
@@ -1385,7 +1385,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'We need to __________ of the hotel before noon.',
-          options: ['check out', 'move in', 'check in', 'get out'],
+          options: [ 'check in', 'check out', 'get out', 'move in' ],
           correctAnswer: 0,
           explanation: "To 'check out' means to pay your bill and leave the hotel."
         }
@@ -1466,8 +1466,8 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'We __________ for the airport at 5 AM.',
-          options: ["set off", "went off", "put off", "took off"],
-          correctAnswer: 0,
+          options: [ "went off", "set off", "took off", "put off" ],
+          correctAnswer: 1,
           explanation: "'Set off' means to start a journey."
         }
       ]
@@ -1487,8 +1487,8 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'My parents came to the station to __________.',
-          options: ['get me off', 'look me off', 'see me off', 'take me off'],
-          correctAnswer: 2,
+          options: [ 'get me off', 'see me off', 'take me off', 'look me off' ],
+          correctAnswer: 1,
           explanation: "'See someone off' means to go to a station/airport to say goodbye."
         }
       ]
@@ -1587,7 +1587,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I really need to __________ for a few days. I\'m so stressed.',
-          options: ['get up', 'get down', 'get away', 'get off'],
+          options: [ 'get up', 'get away', 'get off', 'get down' ],
           correctAnswer: 0,
           explanation: "'Get away' means to go somewhere for a rest or holiday."
         }
@@ -1668,8 +1668,8 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'You should learn some basic phrases in the __________ language.',
-          options: ["local", "remote", "ancient", "private"],
-          correctAnswer: 0,
+          options: [ "private", "remote", "local", "ancient" ],
+          correctAnswer: 2,
           explanation: "Learning the local language shows respect to the residents."
         }
       ]
@@ -1689,8 +1689,8 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'What is the local __________ in Japan?',
-          options: ['currency', 'laundry', 'gallery', 'directory'],
-          correctAnswer: 0,
+          options: [ 'laundry', 'currency', 'directory', 'gallery' ],
+          correctAnswer: 1,
           explanation: "Currency refers to the type of money used in a country."
         }
       ]
@@ -1789,8 +1789,8 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Where is the nearest __________?',
-          options: ['police station', 'library', 'bureau de change', 'gym'],
-          correctAnswer: 2,
+          options: [ 'library', 'police station', 'gym', 'bureau de change' ],
+          correctAnswer: 3,
           explanation: "A bureau de change is where you can exchange your money for local currency."
         }
       ]
@@ -1810,7 +1810,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "What are the most important things I should know about the local culture here?",
-          correctAnswer: 3,
+          correctAnswer: 0,
           explanation: "Fluidez en la pregunta."
         }
       ]
@@ -1852,7 +1852,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'We __________ a big party for our anniversary at the hotel.',
-          options: ['have', 'will have', 'are having', 'will be having'],
+          options: [ 'will be having', 'have', 'will have', 'are having' ],
           correctAnswer: 3,
           explanation: "Present Continuous is most natural for arranged social events."
         }
@@ -1972,7 +1972,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'A detailed plan for a journey is called an __________.',
-          options: ['accommodation', 'itinerant', 'itinerary', 'insurance'],
+          options: [ 'accommodation', 'itinerant', 'itinerary', 'insurance' ],
           correctAnswer: 2,
           explanation: "An itinerary is the correct term for a travel plan."
         }

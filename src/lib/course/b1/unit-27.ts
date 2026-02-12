@@ -30,8 +30,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'Do you like tea?' -> Reported: He asked me ________ I liked tea.",
-      options: ["if", "that", "do", "what"],
-      correctAnswer: 0,
+      options: [ "that", "do", "what", "if" ],
+      correctAnswer: 3,
       explanation: "Usamos 'if' para reportar preguntas de sí/no."
     }
   },
@@ -44,8 +44,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'Are you busy?' -> Reported: She asked me if I ________ busy.",
-      options: ["was", "am", "be", "were"],
-      correctAnswer: 0,
+      options: [ "were", "am", "be", "was" ],
+      correctAnswer: 3,
       explanation: "El presente simple 'am' cambia a pasado simple 'was' en el estilo indirecto."
     }
   },
@@ -58,8 +58,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'Can you swim?' -> Reported: They asked ________ I ________ swim.",
-      options: ["if / could", "that / can", "if / can", "what / could"],
-      correctAnswer: 0,
+      options: [ "what / could", "if / could", "if / can", "that / can" ],
+      correctAnswer: 1,
       explanation: "Can -> could, y usamos 'if' para la pregunta."
     }
   },
@@ -72,8 +72,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'Did you see him?' -> Reported: She asked if I ________ ________ him.",
-      options: ["had seen", "saw", "see", "have seen"],
-      correctAnswer: 0,
+      options: [ "saw", "have seen", "see", "had seen" ],
+      correctAnswer: 3,
       explanation: "Pasado simple 'did see' cambia a pasado perfecto 'had seen'."
     }
   },
@@ -86,8 +86,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "He asked ________ I was coming to the party ________ ________.",
-      options: ["whether / or not", "if / that", "if / yes", "whether / if"],
-      correctAnswer: 0,
+      options: [ "if / yes", "if / that", "whether / or not", "whether / if" ],
+      correctAnswer: 2,
       explanation: "'Whether' se usa a menudo con 'or not'."
     }
   },
@@ -100,8 +100,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'Have you finished?' -> Reported: My boss asked if I ________ finished.",
-      options: ["had", "have", "was", "did"],
-      correctAnswer: 0,
+      options: [ "have", "was", "did", "had" ],
+      correctAnswer: 3,
       explanation: "Presente perfecto 'have finished' -> Pasado perfecto 'had finished'."
     }
   },
@@ -114,7 +114,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "She asked if I ________ (querer) some more coffee.",
-      options: ["wanted", "want", "would want", "had wanted"],
+      options: [ "wanted", "had wanted", "would want", "want" ],
       correctAnswer: 0,
       explanation: "Present simple -> Past simple."
     }
@@ -128,7 +128,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "They asked me ________ I ________ (estar) happy with the results.",
-      options: ["if / was", "that / was", "if / were", "whether / am"],
+      options: [ "if / was", "whether / am", "if / were", "that / was" ],
       correctAnswer: 0,
       explanation: "Reported question structure."
     }
@@ -142,8 +142,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "He asked if the train ________ ________ (llegar) on time.",
-      options: ["had arrived", "arrived", "arrives", "has arrived"],
-      correctAnswer: 0,
+      options: [ "arrived", "has arrived", "arrives", "had arrived" ],
+      correctAnswer: 3,
       explanation: "Did the train arrive? -> He asked if it had arrived."
     }
   },
@@ -176,8 +176,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'Where is the station?' -> Reported: He asked where the station ________.",
-      options: ["was", "is", "were", "did"],
-      correctAnswer: 0,
+      options: [ "is", "were", "was", "did" ],
+      correctAnswer: 2,
       explanation: "El orden cambia de 'is the station' a 'the station was'."
     }
   },
@@ -190,8 +190,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'What time does it start?' -> Reported: She asked what time it ________.",
-      options: ["started", "starts", "did start", "had started"],
-      correctAnswer: 0,
+      options: [ "did start", "had started", "started", "starts" ],
+      correctAnswer: 2,
       explanation: "Eliminamos el auxiliar 'does' y cambiamos el verbo a pasado."
     }
   },
@@ -204,8 +204,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'Why are you crying?' -> Reported: He asked me why I ________ ________.",
-      options: ["was crying", "were crying", "cried", "am crying"],
-      correctAnswer: 0,
+      options: [ "were crying", "am crying", "was crying", "cried" ],
+      correctAnswer: 2,
       explanation: "Present continuous -> Past continuous, subject before verb."
     }
   },
@@ -218,8 +218,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'Who did you call?' -> Reported: They asked me who I ________ ________.",
-      options: ["had called", "called", "did call", "have called"],
-      correctAnswer: 0,
+      options: [ "have called", "had called", "did call", "called" ],
+      correctAnswer: 1,
       explanation: "Pasado simple -> Pasado perfecto."
     }
   },
@@ -232,8 +232,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "She asked me ________ I ________ (llegar) so late.",
-      options: ["why / had arrived", "why / arrived", "how / had arrived", "when / arrived"],
-      correctAnswer: 0,
+      options: [ "how / had arrived", "when / arrived", "why / arrived", "why / had arrived" ],
+      correctAnswer: 3,
       explanation: "Why did you arrive...? -> She asked why I had arrived."
     }
   },
@@ -246,8 +246,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "He wanted to know ________ ________ ________ (cuánto costaba).",
-      options: ["how much it cost", "how much did it cost", "how much it costs", "what cost it"],
-      correctAnswer: 0,
+      options: [ "how much it costs", "how much it cost", "what cost it", "how much did it cost" ],
+      correctAnswer: 1,
       explanation: "How much does it cost? -> How much it cost."
     }
   },
@@ -260,8 +260,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "They asked me ________ I ________ (vivir).",
-      options: ["where / lived", "where / live", "what / lived", "where / did live"],
-      correctAnswer: 0,
+      options: [ "where / live", "what / lived", "where / lived", "where / did live" ],
+      correctAnswer: 2,
       explanation: "Where do you live? -> Where I lived."
     }
   },
@@ -274,8 +274,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "She asked ________ ________ ________ ________ (cuándo estaría listo el reporte).",
-      options: ["when the report would be ready", "when would be the report ready", "when will the report be ready", "if the report would be ready"],
-      correctAnswer: 0,
+      options: [ "when would be the report ready", "when the report would be ready", "when will the report be ready", "if the report would be ready" ],
+      correctAnswer: 1,
       explanation: "When will the report be ready? -> When the report would be ready."
     }
   },
@@ -288,7 +288,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "He asked me ________ ________ ________ (qué estaba haciendo) there.",
-      options: ["what I was doing", "what was I doing", "what I did", "what am I doing"],
+      options: [ "what I was doing", "what am I doing", "what I did", "what was I doing" ],
       correctAnswer: 0,
       explanation: "What are you doing? -> What I was doing."
     }
@@ -322,8 +322,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'Please help me.' -> Reported: She ________ me ________ ________ her.",
-      options: ["asked / to help", "told / to help", "said / to help", "asked / helping"],
-      correctAnswer: 0,
+      options: [ "said / to help", "asked / helping", "told / to help", "asked / to help" ],
+      correctAnswer: 3,
       explanation: "Ask someone to do something."
     }
   },
@@ -336,8 +336,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'Can you lend me a pen, please?' -> Reported: He ________ me ________ ________ him a pen.",
-      options: ["asked / to lend", "told / to lend", "asked / lending", "said / to lend"],
-      correctAnswer: 0,
+      options: [ "said / to lend", "asked / lending", "asked / to lend", "told / to lend" ],
+      correctAnswer: 2,
       explanation: "Las peticiones con 'Can you...?' se reportan como 'asked to'."
     }
   },
@@ -350,7 +350,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'Please don't smoke here.' -> Reported: They ________ us ________ ________ ________ here.",
-      options: ["asked / not to smoke", "asked / to not smoke", "told / to not smoke", "said / not to smoke"],
+      options: [ "asked / not to smoke", "told / to not smoke", "asked / to not smoke", "said / not to smoke" ],
       correctAnswer: 0,
       explanation: "Negativa: ask someone not to do something."
     }
@@ -364,7 +364,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "She ________ (pedir) her brother ________ (que la llevara) to the airport.",
-      options: ["asked / to drive her", "asked / driving her", "told / to drive her", "said / to drive her"],
+      options: [ "asked / to drive her", "asked / driving her", "said / to drive her", "told / to drive her" ],
       correctAnswer: 0,
       explanation: "Ask someone to do something."
     }
@@ -378,7 +378,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The teacher ________ the students ________ ________ quiet.",
-      options: ["asked / to be", "asked / being", "said / to be", "told / being"],
+      options: [ "asked / to be", "said / to be", "told / being", "asked / being" ],
       correctAnswer: 0,
       explanation: "Requesting to be quiet."
     }
@@ -392,8 +392,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "I ________ the waiter ________ ________ (que trajera) the bill.",
-      options: ["asked / to bring", "asked / bringing", "told / to bring", "said / to bring"],
-      correctAnswer: 0,
+      options: [ "asked / bringing", "asked / to bring", "said / to bring", "told / to bring" ],
+      correctAnswer: 1,
       explanation: "Ask for the bill."
     }
   },
@@ -406,7 +406,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "He ________ me ________ ________ ________ ________ (que no le dijera a nadie) his secret.",
-      options: ["asked / not to tell anyone", "asked / to not tell anyone", "asked / didn't tell anyone", "asked / not telling anyone"],
+      options: [ "asked / not to tell anyone", "asked / not telling anyone", "asked / to not tell anyone", "asked / didn't tell anyone" ],
       correctAnswer: 0,
       explanation: "Negative request."
     }
@@ -420,8 +420,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "They ________ ________ ________ (nos pidieron que esperáramos) in the lobby.",
-      options: ["asked us to wait", "asked to us wait", "asked for us to wait", "asked we to wait"],
-      correctAnswer: 0,
+      options: [ "asked we to wait", "asked us to wait", "asked for us to wait", "asked to us wait" ],
+      correctAnswer: 1,
       explanation: "Ask + object + to-infinitive."
     }
   },
@@ -434,8 +434,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Could you ________ (pedirle a él) to call me back?",
-      options: ["ask him", "tell him", "say him", "ask to him"],
-      correctAnswer: 0,
+      options: [ "ask to him", "tell him", "ask him", "say him" ],
+      correctAnswer: 2,
       explanation: "Ask someone."
     }
   },
@@ -468,8 +468,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'Stop talking!' -> Reported: The teacher ________ us ________ ________.",
-      options: ["told / to stop", "asked / to stop", "said / to stop", "told / stopping"],
-      correctAnswer: 0,
+      options: [ "said / to stop", "told / stopping", "told / to stop", "asked / to stop" ],
+      correctAnswer: 2,
       explanation: "Tell someone to do something (order)."
     }
   },
@@ -482,8 +482,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'Don't touch that!' -> Reported: He ________ me ________ ________ ________ that.",
-      options: ["told / not to touch", "told / to not touch", "asked / not to touch", "said / not to touch"],
-      correctAnswer: 0,
+      options: [ "said / not to touch", "asked / not to touch", "told / to not touch", "told / not to touch" ],
+      correctAnswer: 3,
       explanation: "Negative order: tell someone not to do something."
     }
   },
@@ -496,8 +496,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The police officer ________ the driver ________ ________ (que se detuviera).",
-      options: ["told / to stop", "asked / to stop", "said / to stop", "told / stopping"],
-      correctAnswer: 0,
+      options: [ "told / stopping", "told / to stop", "asked / to stop", "said / to stop" ],
+      correctAnswer: 1,
       explanation: "Command."
     }
   },
@@ -510,8 +510,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "My mother ________ me ________ ________ (que limpiara) my room.",
-      options: ["told / to clean", "asked / to clean", "said / to clean", "told / cleaning"],
-      correctAnswer: 0,
+      options: [ "told / cleaning", "said / to clean", "asked / to clean", "told / to clean" ],
+      correctAnswer: 3,
       explanation: "Common order."
     }
   },
@@ -524,8 +524,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The boss ________ them ________ ________ (que terminaran) the project by Friday.",
-      options: ["told / to finish", "asked / to finish", "said / to finish", "told / finishing"],
-      correctAnswer: 0,
+      options: [ "asked / to finish", "said / to finish", "told / to finish", "told / finishing" ],
+      correctAnswer: 2,
       explanation: "Work instruction/order."
     }
   },
@@ -538,8 +538,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "He ________ me ________ ________ ________ ________ (que no llegara tarde) again.",
-      options: ["told / not to be late", "told / to not be late", "asked / not to be late", "said / not to be late"],
-      correctAnswer: 0,
+      options: [ "said / not to be late", "told / not to be late", "asked / not to be late", "told / to not be late" ],
+      correctAnswer: 1,
       explanation: "Negative command."
     }
   },
@@ -552,7 +552,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The doctor ________ her ________ ________ ________ (que dejara de fumar) immediately.",
-      options: ["told / to give up smoking", "asked / to give up smoking", "said / to give up smoking", "told / giving up smoking"],
+      options: [ "told / to give up smoking", "said / to give up smoking", "asked / to give up smoking", "told / giving up smoking" ],
       correctAnswer: 0,
       explanation: "Strong advice/order."
     }
@@ -566,8 +566,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The guard ________ the visitors ________ ________ ________ (que no hicieran fotos).",
-      options: ["told / not to take photos", "asked / not to take photos", "said / not to take photos", "told / to not take photos"],
-      correctAnswer: 0,
+      options: [ "said / not to take photos", "asked / not to take photos", "told / to not take photos", "told / not to take photos" ],
+      correctAnswer: 3,
       explanation: "Prohibition/Order."
     }
   },
@@ -580,8 +580,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "She ________ us ________ ________ ________ (que nos diéramos prisa) or we would miss the bus.",
-      options: ["told / to hurry up", "asked / to hurry up", "said / to hurry up", "told / hurrying up"],
-      correctAnswer: 0,
+      options: [ "told / hurrying up", "asked / to hurry up", "told / to hurry up", "said / to hurry up" ],
+      correctAnswer: 2,
       explanation: "Urgent command."
     }
   },
@@ -614,8 +614,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The tourist ________ (preguntar) where the nearest museum was.",
-      options: ["asked", "told", "said", "talked"],
-      correctAnswer: 0,
+      options: [ "talked", "asked", "said", "told" ],
+      correctAnswer: 1,
       explanation: "Ask = preguntar."
     }
   },
@@ -628,7 +628,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The receptionist ________ (decir/ordenar) me to sign the form.",
-      options: ["told", "asked", "said", "questioned"],
+      options: [ "told", "questioned", "said", "asked" ],
       correctAnswer: 0,
       explanation: "Tell someone to do something."
     }
@@ -642,8 +642,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "They ________ (preguntar) if the ________ (vuelo) was on time.",
-      options: ["asked / flight", "told / travel", "said / trip", "asked / journey"],
-      correctAnswer: 0,
+      options: [ "asked / journey", "asked / flight", "said / trip", "told / travel" ],
+      correctAnswer: 1,
       explanation: "Flight = vuelo."
     }
   },
@@ -656,8 +656,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The customs officer ________ (pedir) me to open my ________ (maleta).",
-      options: ["asked / suitcase", "told / bag", "said / luggage", "asked / backpack"],
-      correctAnswer: 0,
+      options: [ "asked / backpack", "said / luggage", "told / bag", "asked / suitcase" ],
+      correctAnswer: 3,
       explanation: "Suitcase = maleta."
     }
   },
@@ -670,8 +670,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The travel agent ________ (recomendar) me to book the ________ (paquete vacacional).",
-      options: ["advised / package holiday", "told / flight", "asked / destination", "said / tour"],
-      correctAnswer: 0,
+      options: [ "asked / destination", "said / tour", "told / flight", "advised / package holiday" ],
+      correctAnswer: 3,
       explanation: "Package holiday = paquete vacacional."
     }
   },
@@ -684,8 +684,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "He ________ (quería saber) how long the ________ (viaje) would take.",
-      options: ["wanted to know / journey", "asked / travel", "told / trip", "said / flight"],
-      correctAnswer: 0,
+      options: [ "told / trip", "wanted to know / journey", "said / flight", "asked / travel" ],
+      correctAnswer: 1,
       explanation: "Journey = trayecto / viaje largo."
     }
   },
@@ -698,8 +698,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The guide ________ (pedir) us not to leave the ________ (grupo).",
-      options: ["asked / group", "told / team", "said / crowd", "ordered / people"],
-      correctAnswer: 0,
+      options: [ "told / team", "ordered / people", "said / crowd", "asked / group" ],
+      correctAnswer: 3,
       explanation: "Group = grupo."
     }
   },
@@ -712,8 +712,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "She ________ (preguntar) what time the ________ (salida) was.",
-      options: ["asked / departure", "told / arrival", "said / check-in", "asked / boarding"],
-      correctAnswer: 0,
+      options: [ "asked / boarding", "told / arrival", "said / check-in", "asked / departure" ],
+      correctAnswer: 3,
       explanation: "Departure = salida."
     }
   },
@@ -726,8 +726,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "They ________ (confirmar) that the ________ (reserva) had been made.",
-      options: ["confirmed / reservation", "asked / booking", "told / place", "said / hotel"],
-      correctAnswer: 0,
+      options: [ "said / hotel", "confirmed / reservation", "asked / booking", "told / place" ],
+      correctAnswer: 1,
       explanation: "Confirmation of a reservation."
     }
   },
@@ -760,8 +760,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'Turn left at the bank.' -> Reported: She ________ me ________ ________ left at the bank.",
-      options: ["told / to turn", "asked / to turn", "said / to turn", "asked / turning"],
-      correctAnswer: 0,
+      options: [ "asked / turning", "told / to turn", "asked / to turn", "said / to turn" ],
+      correctAnswer: 1,
       explanation: "Instruction/Direction reported as 'told to'."
     }
   },
@@ -774,8 +774,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'How can I get to the park?' -> Reported: He ________ how he ________ get to the park.",
-      options: ["asked / could", "told / can", "said / could", "asked / can"],
-      correctAnswer: 0,
+      options: [ "said / could", "asked / can", "told / can", "asked / could" ],
+      correctAnswer: 3,
       explanation: "Wh- question about directions."
     }
   },
@@ -788,8 +788,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "She ________ (preguntar) if there ________ (haber) a pharmacy nearby.",
-      options: ["asked / was", "asked / is", "told / was", "said / is"],
-      correctAnswer: 0,
+      options: [ "told / was", "said / is", "asked / was", "asked / is" ],
+      correctAnswer: 2,
       explanation: "Is there...? -> She asked if there was..."
     }
   },
@@ -802,7 +802,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The man ________ (decir/indicar) us ________ (que tomáramos) the second exit.",
-      options: ["told / to take", "asked / to take", "said / to take", "told / taking"],
+      options: [ "told / to take", "said / to take", "asked / to take", "told / taking" ],
       correctAnswer: 0,
       explanation: "Giving a direction."
     }
@@ -816,8 +816,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "He ________ (sugerir) ________ (tomar) a taxi instead of walking.",
-      options: ["suggested / taking", "suggested / to take", "told / to take", "asked / taking"],
-      correctAnswer: 0,
+      options: [ "asked / taking", "suggested / to take", "told / to take", "suggested / taking" ],
+      correctAnswer: 3,
       explanation: "Suggest + -ing."
     }
   },
@@ -830,7 +830,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "She ________ (preguntar) me ________ (cuánto tiempo) it ________ ________ (tardaría) to arrive.",
-      options: ["asked / how long / would take", "asked / how much / will take", "told / how long / took", "asked / when / would take"],
+      options: [ "asked / how long / would take", "told / how long / took", "asked / how much / will take", "asked / when / would take" ],
       correctAnswer: 0,
       explanation: "Reporting a question about duration."
     }
@@ -844,7 +844,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "They ________ (preguntar) if they ________ ________ (podían aparcar) their car there.",
-      options: ["asked / could park", "told / could park", "asked / can park", "said / would park"],
+      options: [ "asked / could park", "told / could park", "asked / can park", "said / would park" ],
       correctAnswer: 0,
       explanation: "Permission question."
     }
@@ -858,7 +858,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "He ________ (confirmar) that the museum ________ ________ (estaba cerrado) on Mondays.",
-      options: ["confirmed / was closed", "asked / is closed", "told / were closed", "said / had closed"],
+      options: [ "confirmed / was closed", "told / were closed", "asked / is closed", "said / had closed" ],
       correctAnswer: 0,
       explanation: "Reporting information."
     }
@@ -872,7 +872,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I ________ (preguntar) her to ________ (que me mostrara) the way on the map.",
-      options: ["asked / show me", "told / showing me", "said / to show me", "asked / showing me"],
+      options: [ "asked / show me", "told / showing me", "said / to show me", "asked / showing me" ],
       correctAnswer: 0,
       explanation: "Request for help."
     }
@@ -906,8 +906,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The guest ________ (pedir) a ________ (habitación doble).",
-      options: ["asked for / double room", "asked to / single room", "told for / suite", "said / twin room"],
-      correctAnswer: 0,
+      options: [ "said / twin room", "asked for / double room", "told for / suite", "asked to / single room" ],
+      correctAnswer: 1,
       explanation: "Ask for something."
     }
   },
@@ -920,8 +920,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "I ________ (pedir) the receptionist ________ (que me despertara) at 7 AM.",
-      options: ["asked / to wake me up", "told / to wake me up", "said / to wake me up", "asked / waking me up"],
-      correctAnswer: 0,
+      options: [ "asked / waking me up", "said / to wake me up", "asked / to wake me up", "told / to wake me up" ],
+      correctAnswer: 2,
       explanation: "Wake-up call request."
     }
   },
@@ -934,8 +934,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "She ________ (preguntar) if ________ (estaba incluido) breakfast.",
-      options: ["asked / breakfast was included", "asked / was breakfast included", "told / breakfast included", "said / breakfast is included"],
-      correctAnswer: 0,
+      options: [ "told / breakfast included", "asked / breakfast was included", "said / breakfast is included", "asked / was breakfast included" ],
+      correctAnswer: 1,
       explanation: "Question about services."
     }
   },
@@ -948,8 +948,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "They ________ (pedir) extra ________ (toallas) for the bathroom.",
-      options: ["asked for / towels", "told for / pillows", "asked to / blankets", "said / sheets"],
-      correctAnswer: 0,
+      options: [ "said / sheets", "told for / pillows", "asked for / towels", "asked to / blankets" ],
+      correctAnswer: 2,
       explanation: "Towels = toallas."
     }
   },
@@ -962,8 +962,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The manager ________ (decir/ordenar) the staff ________ (que limpiaran) the lobby.",
-      options: ["told / to clean", "asked / to clean", "said / to clean", "told / cleaning"],
-      correctAnswer: 0,
+      options: [ "said / to clean", "told / cleaning", "told / to clean", "asked / to clean" ],
+      correctAnswer: 2,
       explanation: "Command to staff."
     }
   },
@@ -976,8 +976,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "He ________ (preguntar) if there was a ________ (gimnasio) in the hotel.",
-      options: ["asked / gym", "asked / spa", "told / pool", "said / sauna"],
-      correctAnswer: 0,
+      options: [ "told / pool", "said / sauna", "asked / gym", "asked / spa" ],
+      correctAnswer: 2,
       explanation: "Gym = gimnasio."
     }
   },
@@ -990,8 +990,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "She ________ (quería saber) if ________ (había) a ________ (caja fuerte) in the room.",
-      options: ["wanted to know / there was / safe", "asked / there is / box", "told / was / safe", "asked / was there / safe"],
-      correctAnswer: 0,
+      options: [ "asked / was there / safe", "wanted to know / there was / safe", "asked / there is / box", "told / was / safe" ],
+      correctAnswer: 1,
       explanation: "Safe = caja fuerte."
     }
   },
@@ -1004,7 +1004,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "They ________ (nos pidieron) to ________ ________ (que hiciéramos el registro de salida) before 11 AM.",
-      options: ["asked us / check out", "told us / check in", "said us / stay", "asked to us / leave"],
+      options: [ "asked us / check out", "asked to us / leave", "said us / stay", "told us / check in" ],
       correctAnswer: 0,
       explanation: "Check out = hacer el registro de salida."
     }
@@ -1018,7 +1018,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I ________ (le pedí a él) to help me with my ________ (equipaje).",
-      options: ["asked him / luggage", "asked to him / baggage", "told him / bags", "said him / suitcases"],
+      options: [ "asked him / luggage", "asked to him / baggage", "said him / suitcases", "told him / bags" ],
       correctAnswer: 0,
       explanation: "Luggage = equipaje."
     }
@@ -1052,8 +1052,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'Would you mind helping me?' -> Reported: She ________ me ________ ________ her.",
-      options: ["asked / to help", "told / to help", "said / to help", "asked / helping"],
-      correctAnswer: 0,
+      options: [ "asked / helping", "asked / to help", "said / to help", "told / to help" ],
+      correctAnswer: 1,
       explanation: "Polite request becomes 'asked to'."
     }
   },
@@ -1066,8 +1066,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'Could you possibly open the window?' -> Reported: He ________ me ________ ________ the window.",
-      options: ["asked / to open", "told / to open", "said / to open", "asked / opening"],
-      correctAnswer: 0,
+      options: [ "said / to open", "told / to open", "asked / to open", "asked / opening" ],
+      correctAnswer: 2,
       explanation: "Polite request with 'could'."
     }
   },
@@ -1080,8 +1080,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'I wonder if you could lend me some money.' -> Reported: She ________ me ________ ________ her some money.",
-      options: ["asked / to lend", "told / to lend", "asked / lending", "said / to lend"],
-      correctAnswer: 0,
+      options: [ "said / to lend", "asked / lending", "asked / to lend", "told / to lend" ],
+      correctAnswer: 2,
       explanation: "Reporting a very polite request."
     }
   },
@@ -1094,8 +1094,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "He ________ (pedir educadamente) the audience ________ (que no hicieran ruido).",
-      options: ["asked / not to make noise", "told / to not make noise", "said / not making noise", "asked / to make no noise"],
-      correctAnswer: 0,
+      options: [ "asked / to make no noise", "asked / not to make noise", "said / not making noise", "told / to not make noise" ],
+      correctAnswer: 1,
       explanation: "Polite request."
     }
   },
@@ -1108,8 +1108,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The host ________ (pedir) the guests ________ (que se sintieran) at home.",
-      options: ["asked / to make themselves", "told / to make themselves", "said / making themselves", "asked / make themselves"],
-      correctAnswer: 0,
+      options: [ "said / making themselves", "told / to make themselves", "asked / make themselves", "asked / to make themselves" ],
+      correctAnswer: 3,
       explanation: "Polite invitation/request."
     }
   },
@@ -1122,8 +1122,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "She ________ (preguntar educadamente) if I ________ ________ (me importaría) helping her.",
-      options: ["asked / would mind", "told / would mind", "asked / will mind", "said / minding"],
-      correctAnswer: 0,
+      options: [ "said / minding", "asked / would mind", "told / would mind", "asked / will mind" ],
+      correctAnswer: 1,
       explanation: "Reported question with 'would mind'."
     }
   },
@@ -1136,8 +1136,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The doctor ________ (preguntar) if I ________ ________ (podía esperar) a moment.",
-      options: ["asked / could wait", "told / can wait", "said / could wait", "asked / can wait"],
-      correctAnswer: 0,
+      options: [ "told / can wait", "asked / could wait", "said / could wait", "asked / can wait" ],
+      correctAnswer: 1,
       explanation: "Reported polite question."
     }
   },
@@ -1150,7 +1150,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "They ________ (nos pidieron) to ________ ________ ________ ________ (que bajáramos el volumen) of the music.",
-      options: ["asked us / turn down the volume", "told us / turn up the volume", "said us / turn down the volume", "asked us / turning down the volume"],
+      options: [ "asked us / turn down the volume", "asked us / turning down the volume", "told us / turn up the volume", "said us / turn down the volume" ],
       correctAnswer: 0,
       explanation: "Requesting to lower the volume."
     }
@@ -1164,8 +1164,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I ________ (pedir) her ________ ________ ________ ________ (que me perdonara) for being late.",
-      options: ["asked / to forgive me", "told / to forgive me", "asked / forgiving me", "said / to forgive me"],
-      correctAnswer: 0,
+      options: [ "asked / forgiving me", "asked / to forgive me", "told / to forgive me", "said / to forgive me" ],
+      correctAnswer: 1,
       explanation: "Request for forgiveness."
     }
   },
@@ -1198,7 +1198,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "We ________ (partimos) at 6 AM to avoid the crowd.",
-      options: ["set off", "got on", "took off", "checked in"],
+      options: [ "set off", "checked in", "took off", "got on" ],
       correctAnswer: 0,
       explanation: "Set off = partir."
     }
@@ -1212,8 +1212,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The plane ________ (despegó) two hours late.",
-      options: ["took off", "set off", "landed", "checked out"],
-      correctAnswer: 0,
+      options: [ "checked out", "set off", "took off", "landed" ],
+      correctAnswer: 2,
       explanation: "Take off = despegar."
     }
   },
@@ -1226,7 +1226,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "They ________ (nos despidieron) at the airport.",
-      options: ["saw us off", "got us on", "set us off", "checked us in"],
+      options: [ "saw us off", "set us off", "got us on", "checked us in" ],
       correctAnswer: 0,
       explanation: "See someone off = despedir a alguien (viaje)."
     }
@@ -1240,8 +1240,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "I need to ________ ________ (registrarme) at the hotel.",
-      options: ["check in", "check out", "set off", "get in"],
-      correctAnswer: 0,
+      options: [ "check out", "set off", "get in", "check in" ],
+      correctAnswer: 3,
       explanation: "Check in = registrarse."
     }
   },
@@ -1254,8 +1254,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "We ________ (nos quedamos sin) petrol in the middle of nowhere.",
-      options: ["ran out of", "got out of", "set off for", "checked out of"],
-      correctAnswer: 0,
+      options: [ "checked out of", "set off for", "got out of", "ran out of" ],
+      correctAnswer: 3,
       explanation: "Run out of = quedarse sin algo."
     }
   },
@@ -1268,8 +1268,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The bus ________ (se averió) on the way to the coast.",
-      options: ["broke down", "set off", "took off", "got off"],
-      correctAnswer: 0,
+      options: [ "took off", "broke down", "set off", "got off" ],
+      correctAnswer: 1,
       explanation: "Break down = averiarse."
     }
   },
@@ -1282,7 +1282,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I ________ ________ (me encontré con) an old friend in London.",
-      options: ["ran into", "got on", "saw off", "set off"],
+      options: [ "ran into", "got on", "set off", "saw off" ],
       correctAnswer: 0,
       explanation: "Run into = encontrarse con alguien por casualidad."
     }
@@ -1296,8 +1296,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Please ________ (espera) a moment while I check the itinerary.",
-      options: ["hold on", "get on", "set off", "take off"],
-      correctAnswer: 0,
+      options: [ "take off", "set off", "get on", "hold on" ],
+      correctAnswer: 3,
       explanation: "Hold on = esperar un momento."
     }
   },
@@ -1310,8 +1310,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "We ________ ________ (tuvimos que cancelar) the trip due to the weather.",
-      options: ["called off", "set off", "took off", "got off"],
-      correctAnswer: 0,
+      options: [ "set off", "called off", "took off", "got off" ],
+      correctAnswer: 1,
       explanation: "Call off = cancelar."
     }
   },
@@ -1344,8 +1344,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'Where are you going?' -> Reported: She asked me where I ________ ________.",
-      options: ["was going", "were going", "am going", "had gone"],
-      correctAnswer: 0,
+      options: [ "were going", "am going", "was going", "had gone" ],
+      correctAnswer: 2,
       explanation: "Review Wh- question."
     }
   },
@@ -1358,8 +1358,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'Don't be late!' -> Reported: He ________ me ________ ________ late.",
-      options: ["told / not to be", "asked / to be not", "said / not to be", "told / to not be"],
-      correctAnswer: 0,
+      options: [ "asked / to be not", "said / not to be", "told / not to be", "told / to not be" ],
+      correctAnswer: 2,
       explanation: "Review negative order."
     }
   },
@@ -1372,8 +1372,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'Can you help me?' -> Reported: She ________ me ________ ________ her.",
-      options: ["asked / to help", "told / to help", "said / to help", "asked / helping"],
-      correctAnswer: 0,
+      options: [ "asked / helping", "asked / to help", "told / to help", "said / to help" ],
+      correctAnswer: 1,
       explanation: "Review request."
     }
   },
@@ -1386,8 +1386,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'Have you seen my keys?' -> Reported: He asked ________ I ________ ________ his keys.",
-      options: ["if / had seen", "if / saw", "that / had seen", "if / have seen"],
-      correctAnswer: 0,
+      options: [ "if / have seen", "if / saw", "that / had seen", "if / had seen" ],
+      correctAnswer: 3,
       explanation: "Review yes/no question."
     }
   },
@@ -1400,8 +1400,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'Give me the book.' -> Reported: She ________ me ________ ________ her the book.",
-      options: ["told / to give", "asked / giving", "said / to give", "told / giving"],
-      correctAnswer: 0,
+      options: [ "said / to give", "told / to give", "asked / giving", "told / giving" ],
+      correctAnswer: 1,
       explanation: "Review order."
     }
   },
@@ -1414,8 +1414,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'Why did she leave?' -> Reported: They asked why ________ ________ ________.",
-      options: ["she had left", "had she left", "she left", "did she leave"],
-      correctAnswer: 0,
+      options: [ "had she left", "did she leave", "she had left", "she left" ],
+      correctAnswer: 2,
       explanation: "Review Wh- question (past simple -> past perfect)."
     }
   },
@@ -1428,8 +1428,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The guide ________ us ________ ________ ________ ________ (que no tocáramos) the statues.",
-      options: ["told / not to touch", "asked / to not touch", "said / not to touch", "ordered / to not touch"],
-      correctAnswer: 0,
+      options: [ "ordered / to not touch", "asked / to not touch", "told / not to touch", "said / not to touch" ],
+      correctAnswer: 2,
       explanation: "Review negative command."
     }
   },
@@ -1442,8 +1442,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "He ________ (preguntó educadamente) if ________ ________ ________ (me importaría) opening the window.",
-      options: ["asked / I would mind", "told / I would mind", "asked / if I mind", "said / I would mind"],
-      correctAnswer: 0,
+      options: [ "said / I would mind", "told / I would mind", "asked / I would mind", "asked / if I mind" ],
+      correctAnswer: 2,
       explanation: "Review polite request."
     }
   },
@@ -1456,8 +1456,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Finally, the travel agent ________ us ________ ________ (que confirmáramos) our flight.",
-      options: ["told / to confirm", "asked / to confirm", "said / to confirm", "told / confirming"],
-      correctAnswer: 0,
+      options: [ "said / to confirm", "told / to confirm", "told / confirming", "asked / to confirm" ],
+      correctAnswer: 1,
       explanation: "Final review: Order/Instruction."
     }
   }

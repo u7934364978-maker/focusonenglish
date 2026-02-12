@@ -106,8 +106,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "Which word describes someone who is happy to give their time or money?",
-      options: ["Selfish", "Generous", "Mean", "Lazy"],
-      correctAnswer: 1,
+      options: [ "Mean", "Selfish", "Generous", "Lazy" ],
+      correctAnswer: 2,
       explanation: "A generous person is happy to share with others."
     }
   },
@@ -120,7 +120,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Someone who is 'sensible' is...",
-      options: ["Very emotional", "Practical and reasonable", "Easily hurt", "Very quiet"],
+      options: [ "Easily hurt", "Practical and reasonable", "Very emotional", "Very quiet" ],
       correctAnswer: 1,
       explanation: "In English, 'sensible' means having good judgment (sensato)."
     }
@@ -134,8 +134,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "A person who wants to be successful is...",
-      options: ["Ambitious", "Arrogant", "Clumsy", "Naughty"],
-      correctAnswer: 0,
+      options: [ "Clumsy", "Arrogant", "Naughty", "Ambitious" ],
+      correctAnswer: 3,
       explanation: "Ambitious people have a strong desire to succeed."
     }
   },
@@ -148,7 +148,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Someone who is 'moody'...",
-      options: ["Is always happy", "Changes their feelings often", "Is very intelligent", "Likes fashion"],
+      options: [ "Is always happy", "Changes their feelings often", "Is very intelligent", "Likes fashion" ],
       correctAnswer: 1,
       explanation: "A moody person has moods that change quickly and often."
     }
@@ -162,8 +162,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Which word is the opposite of 'polite'?",
-      options: ["Rude", "Kind", "Honest", "Patient"],
-      correctAnswer: 0,
+      options: [ "Honest", "Patient", "Rude", "Kind" ],
+      correctAnswer: 2,
       explanation: "Rude (maleducado) is the opposite of polite."
     }
   },
@@ -272,7 +272,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "If you are 'furious', you are...",
-      options: ["Very happy", "Very angry", "Very tired", "Very sad"],
+      options: [ "Very happy", "Very angry", "Very tired", "Very sad" ],
       correctAnswer: 1,
       explanation: "Furious means extremely angry."
     }
@@ -286,8 +286,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "How do you feel if you fail an important exam?",
-      options: ["Delighted", "Disappointed", "Grateful", "Thrilled"],
-      correctAnswer: 1,
+      options: [ "Delighted", "Grateful", "Disappointed", "Thrilled" ],
+      correctAnswer: 2,
       explanation: "Disappointed (decepcionado) is how you feel when something is not as good as you hoped."
     }
   },
@@ -300,7 +300,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If you feel 'guilty', you feel bad because...",
-      options: ["You did something wrong", "You lost your job", "You are ill", "You are late"],
+      options: [ "You did something wrong", "You lost your job", "You are ill", "You are late" ],
       correctAnswer: 0,
       explanation: "Guilt is the feeling of having done something wrong or failed in an obligation."
     }
@@ -314,8 +314,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Being 'astonished' is the same as being...",
-      options: ["Very bored", "Very surprised", "Very hungry", "Very cold"],
-      correctAnswer: 1,
+      options: [ "Very surprised", "Very cold", "Very bored", "Very hungry" ],
+      correctAnswer: 0,
       explanation: "Astonished means very surprised or amazed."
     }
   },
@@ -328,8 +328,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If you are 'terrified', you are...",
-      options: ["Very tired", "Very frightened", "Very excited", "Very confused"],
-      correctAnswer: 1,
+      options: [ "Very tired", "Very confused", "Very excited", "Very frightened" ],
+      correctAnswer: 3,
       explanation: "Terrified means extremely scared."
     }
   },
@@ -400,8 +400,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "I'll never forget ________ him for the first time.",
-      options: ["meeting", "to meet", "meet", "met"],
-      correctAnswer: 0,
+      options: [ "meet", "to meet", "met", "meeting" ],
+      correctAnswer: 3,
       explanation: "Forget + -ing is used for memories of the past."
     }
   },
@@ -414,7 +414,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Don't forget ________ the door when you leave.",
-      options: ["locking", "to lock", "lock", "locked"],
+      options: [ "locking", "to lock", "lock", "locked" ],
       correctAnswer: 1,
       explanation: "Forget + infinitive is used for a responsibility or duty."
     }
@@ -428,8 +428,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "He stopped ________ because he was tired.",
-      options: ["working", "to work", "work", "worked"],
-      correctAnswer: 0,
+      options: [ "worked", "to work", "work", "working" ],
+      correctAnswer: 3,
       explanation: "Stop + -ing means to end an activity."
     }
   },
@@ -442,8 +442,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "He stopped ________ some water at the cafe.",
-      options: ["drinking", "to drink", "drink", "drank"],
-      correctAnswer: 1,
+      options: [ "to drink", "drank", "drinking", "drink" ],
+      correctAnswer: 0,
       explanation: "Stop + infinitive means to pause one activity in order to do another."
     }
   },
@@ -456,7 +456,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If you have a headache, try ________ an aspirin.",
-      options: ["taking", "to take", "take", "took"],
+      options: [ "taking", "take", "took", "to take" ],
       correctAnswer: 0,
       explanation: "Try + -ing means to do something as an experiment."
     }
@@ -470,8 +470,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I tried ________ the heavy box, but it was too heavy.",
-      options: ["lifting", "to lift", "lift", "lifted"],
-      correctAnswer: 1,
+      options: [ "lift", "lifting", "to lift", "lifted" ],
+      correctAnswer: 2,
       explanation: "Try + infinitive means to make an effort to do something difficult."
     }
   },
@@ -484,8 +484,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I regret ________ you that you failed the test.",
-      options: ["telling", "to tell", "tell", "told"],
-      correctAnswer: 1,
+      options: [ "told", "tell", "to tell", "telling" ],
+      correctAnswer: 2,
       explanation: "Regret + infinitive is used to announce bad news (formal)."
     }
   },
@@ -556,8 +556,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "When I lived in London, I ________ travel by bus.",
-      options: ["used to", "was used to", "got used to", "use to"],
-      correctAnswer: 0,
+      options: [ "use to", "used to", "got used to", "was used to" ],
+      correctAnswer: 1,
       explanation: "Used to + infinitive for past habits."
     }
   },
@@ -570,8 +570,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "I didn't ________ like olives, but now I love them.",
-      options: ["used to", "use to", "was used to", "got used to"],
-      correctAnswer: 1,
+      options: [ "used to", "was used to", "got used to", "use to" ],
+      correctAnswer: 3,
       explanation: "In negative sentences, we use 'didn't use to'."
     }
   },
@@ -584,8 +584,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I'm from Spain, so I ________ eating late.",
-      options: ["used to", "am used to", "get used to", "use to"],
-      correctAnswer: 1,
+      options: [ "am used to", "used to", "get used to", "use to" ],
+      correctAnswer: 0,
       explanation: "Be used to + -ing for something that is normal for you."
     }
   },
@@ -598,8 +598,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "It took me a long time to ________ driving on the left.",
-      options: ["used to", "be used to", "get used to", "use to"],
-      correctAnswer: 2,
+      options: [ "get used to", "use to", "used to", "be used to" ],
+      correctAnswer: 0,
       explanation: "Get used to + -ing for the process of adaptation."
     }
   },
@@ -612,7 +612,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Are you ________ the cold weather yet?",
-      options: ["used to", "use to", "getting used to", "been used to"],
+      options: [ "use to", "used to", "getting used to", "been used to" ],
       correctAnswer: 2,
       explanation: "Process of adaptation."
     }
@@ -626,8 +626,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "She ________ having a lot of money, but she lost it all.",
-      options: ["used to", "was used to", "is used to", "get used to"],
-      correctAnswer: 1,
+      options: [ "get used to", "is used to", "used to", "was used to" ],
+      correctAnswer: 3,
       explanation: "Was used to + -ing for being accustomed to something in the past."
     }
   },
@@ -640,8 +640,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Did you ________ have long hair?",
-      options: ["used to", "use to", "get used to", "be used to"],
-      correctAnswer: 1,
+      options: [ "used to", "get used to", "be used to", "use to" ],
+      correctAnswer: 3,
       explanation: "Question form uses 'Did... use to'."
     }
   },
@@ -750,7 +750,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "What is a good way to reduce stress?",
-      options: ["Working harder", "Exercising and sleeping well", "Drinking too much coffee", "Ignoring the problem"],
+      options: [ "Drinking too much coffee", "Exercising and sleeping well", "Ignoring the problem", "Working harder" ],
       correctAnswer: 1,
       explanation: "Healthy habits help manage stress."
     }
@@ -764,8 +764,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "A person who helps people with mental health issues is a...",
-      options: ["Therapist", "Lawyer", "Engineer", "Chef"],
-      correctAnswer: 0,
+      options: [ "Engineer", "Therapist", "Lawyer", "Chef" ],
+      correctAnswer: 1,
       explanation: "A therapist or psychologist provides mental health support."
     }
   },
@@ -778,7 +778,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If you have 'low self-esteem', you...",
-      options: ["Feel very confident", "Don't value yourself enough", "Are very rich", "Are very tall"],
+      options: [ "Are very tall", "Don't value yourself enough", "Feel very confident", "Are very rich" ],
       correctAnswer: 1,
       explanation: "Self-esteem is about how you value yourself."
     }
@@ -792,7 +792,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "A 'panic attack' often involves...",
-      options: ["Falling asleep", "Extreme fear and fast heartbeat", "Laughing uncontrollably", "Feeling very hungry"],
+      options: [ "Feeling very hungry", "Extreme fear and fast heartbeat", "Falling asleep", "Laughing uncontrollably" ],
       correctAnswer: 1,
       explanation: "Panic attacks are sudden episodes of intense fear."
     }
@@ -806,7 +806,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Which of these is a symptom of 'burnout'?",
-      options: ["Feeling energetic", "Chronic exhaustion", "Having no work to do", "Winning a prize"],
+      options: [ "Winning a prize", "Chronic exhaustion", "Having no work to do", "Feeling energetic" ],
       correctAnswer: 1,
       explanation: "Burnout causes chronic physical and emotional exhaustion."
     }
@@ -916,8 +916,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "What do you call a person you share a flat with?",
-      options: ["A colleague", "A flatmate", "A partner", "An enemy"],
-      correctAnswer: 1,
+      options: [ "A partner", "A colleague", "A flatmate", "An enemy" ],
+      correctAnswer: 2,
       explanation: "A flatmate is someone you live with in an apartment."
     }
   },
@@ -930,8 +930,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If you 'get on well' with someone, you...",
-      options: ["Have a good relationship", "Argue all the time", "Don't know them", "Work with them"],
-      correctAnswer: 0,
+      options: [ "Don't know them", "Argue all the time", "Have a good relationship", "Work with them" ],
+      correctAnswer: 2,
       explanation: "To get on well means to have a friendly relationship."
     }
   },
@@ -944,7 +944,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "When two people 'fall out', they...",
-      options: ["Become best friends", "Start a relationship", "Have an argument and stop being friends", "Go on a date"],
+      options: [ "Become best friends", "Start a relationship", "Have an argument and stop being friends", "Go on a date" ],
       correctAnswer: 2,
       explanation: "To fall out means to have a disagreement that ends a friendship."
     }
@@ -958,8 +958,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Your 'significant other' is your...",
-      options: ["Boss", "Teacher", "Romantic partner", "Doctor"],
-      correctAnswer: 2,
+      options: [ "Romantic partner", "Teacher", "Doctor", "Boss" ],
+      correctAnswer: 0,
       explanation: "Significant other is a way to refer to a spouse or partner."
     }
   },
@@ -972,8 +972,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "A 'mentor' is someone who...",
-      options: ["Steals from you", "Teaches and gives advice", "Is younger than you", "Lives next door"],
-      correctAnswer: 1,
+      options: [ "Teaches and gives advice", "Is younger than you", "Steals from you", "Lives next door" ],
+      correctAnswer: 0,
       explanation: "A mentor is an experienced person who helps someone less experienced."
     }
   },
@@ -1082,7 +1082,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "If you have a 'lucid dream', you...",
-      options: ["Know you are dreaming", "Forget everything", "Are very scared", "Can't wake up"],
+      options: [ "Know you are dreaming", "Can't wake up", "Forget everything", "Are very scared" ],
       correctAnswer: 0,
       explanation: "Lucid dreaming is when you are aware that you are in a dream."
     }
@@ -1096,8 +1096,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The 'unconscious' mind is...",
-      options: ["Always awake", "Hidden from our daily awareness", "Very fast", "Only for children"],
-      correctAnswer: 1,
+      options: [ "Only for children", "Very fast", "Hidden from our daily awareness", "Always awake" ],
+      correctAnswer: 2,
       explanation: "The unconscious mind contains feelings and thoughts we are not aware of."
     }
   },
@@ -1110,8 +1110,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If a dream is 'vivid', it is...",
-      options: ["Very clear and detailed", "Boring", "Short", "In black and white"],
-      correctAnswer: 0,
+      options: [ "In black and white", "Very clear and detailed", "Short", "Boring" ],
+      correctAnswer: 1,
       explanation: "Vivid dreams feel very real and intense."
     }
   },
@@ -1124,8 +1124,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "A 'recurring' dream is one that...",
-      options: ["Happens only once", "Happens many times", "Is very long", "Is about the future"],
-      correctAnswer: 1,
+      options: [ "Is about the future", "Is very long", "Happens only once", "Happens many times" ],
+      correctAnswer: 3,
       explanation: "Recurring means occurring again and again."
     }
   },
@@ -1138,8 +1138,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Symbolism in dreams means...",
-      options: ["Things represent other things", "Nothing has meaning", "Everything is literal", "You are ill"],
-      correctAnswer: 0,
+      options: [ "You are ill", "Everything is literal", "Nothing has meaning", "Things represent other things" ],
+      correctAnswer: 3,
       explanation: "Symbols are objects or images that represent complex ideas."
     }
   },
@@ -1248,8 +1248,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "Crossing your arms often means you are feeling...",
-      options: ["Defensive or bored", "Very happy", "Hungry", "Energetic"],
-      correctAnswer: 0,
+      options: [ "Very happy", "Defensive or bored", "Hungry", "Energetic" ],
+      correctAnswer: 1,
       explanation: "In body language, crossed arms can indicate a defensive attitude."
     }
   },
@@ -1262,7 +1262,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Smiling is a universal sign of...",
-      options: ["Anger", "Happiness", "Confusion", "Fear"],
+      options: [ "Confusion", "Happiness", "Anger", "Fear" ],
       correctAnswer: 1,
       explanation: "A smile generally communicates happiness or friendliness."
     }
@@ -1276,8 +1276,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If someone 'fidgets', they...",
-      options: ["Stay perfectly still", "Make small restless movements", "Shout loudly", "Sleep"],
-      correctAnswer: 1,
+      options: [ "Sleep", "Stay perfectly still", "Make small restless movements", "Shout loudly" ],
+      correctAnswer: 2,
       explanation: "Fidgeting is often a sign of nervousness or boredom."
     }
   },
@@ -1290,8 +1290,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Nodding your head usually means...",
-      options: ["No", "Yes", "Maybe", "I'm tired"],
-      correctAnswer: 1,
+      options: [ "I'm tired", "Maybe", "No", "Yes" ],
+      correctAnswer: 3,
       explanation: "In many cultures, nodding means agreement."
     }
   },
@@ -1304,8 +1304,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Avoiding eye contact might suggest that someone is...",
-      options: ["Lying or shy", "Very honest", "Angry", "Bored"],
-      correctAnswer: 0,
+      options: [ "Bored", "Angry", "Lying or shy", "Very honest" ],
+      correctAnswer: 2,
       explanation: "Lack of eye contact is often associated with shyness or dishonesty."
     }
   },
@@ -1414,8 +1414,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If you ________ someone, you admire and respect them.",
-      options: ["look up to", "look down on", "look for", "look after"],
-      correctAnswer: 0,
+      options: [ "look after", "look down on", "look for", "look up to" ],
+      correctAnswer: 3,
       explanation: "'Look up to' means to admire someone."
     }
   },
@@ -1428,7 +1428,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "To ________ someone means to disappoint them.",
-      options: ["let down", "let in", "let out", "let off"],
+      options: [ "let down", "let out", "let in", "let off" ],
       correctAnswer: 0,
       explanation: "'Let down' means to fail to support or help someone."
     }
@@ -1442,8 +1442,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If you ________ something, you continue doing it even if it's difficult.",
-      options: ["keep up", "give up", "keep on", "put off"],
-      correctAnswer: 2,
+      options: [ "keep up", "put off", "give up", "keep on" ],
+      correctAnswer: 3,
       explanation: "'Keep on' means to continue."
     }
   },
@@ -1456,8 +1456,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "To ________ a problem means to find a solution.",
-      options: ["deal with", "go through", "get over", "look after"],
-      correctAnswer: 0,
+      options: [ "get over", "go through", "look after", "deal with" ],
+      correctAnswer: 3,
       explanation: "'Deal with' means to take action in order to achieve something or solve a problem."
     }
   },
@@ -1470,8 +1470,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If you ________ an illness, you recover from it.",
-      options: ["get over", "get on", "get through", "get away"],
-      correctAnswer: 0,
+      options: [ "get through", "get away", "get on", "get over" ],
+      correctAnswer: 3,
       explanation: "'Get over' means to recover from something (illness, heartbreak)."
     }
   },
@@ -1485,8 +1485,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "Which word describes someone who doesn't like to work?",
-      options: ["Lazy", "Hard-working", "Clever", "Kind"],
-      correctAnswer: 0,
+      options: [ "Kind", "Lazy", "Clever", "Hard-working" ],
+      correctAnswer: 1,
       explanation: "Lazy is the opposite of hard-working."
     }
   },
@@ -1499,7 +1499,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "I ________ have a car, but I sold it last year.",
-      options: ["used to", "am used to", "get used to", "use to"],
+      options: [ "used to", "am used to", "get used to", "use to" ],
       correctAnswer: 0,
       explanation: "Used to for past states."
     }
@@ -1513,8 +1513,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "I remember ________ my keys on the table.",
-      options: ["putting", "to put", "put", "putten"],
-      correctAnswer: 0,
+      options: [ "to put", "putten", "putting", "put" ],
+      correctAnswer: 2,
       explanation: "Remember + -ing for memories."
     }
   },
@@ -1527,8 +1527,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Someone who is 'optimistic' usually...",
-      options: ["Expects the best", "Expects the worst", "Is always sad", "Never talks"],
-      correctAnswer: 0,
+      options: [ "Expects the worst", "Is always sad", "Expects the best", "Never talks" ],
+      correctAnswer: 2,
       explanation: "An optimist looks at the positive side of things."
     }
   },
@@ -1541,8 +1541,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The process of adapting to a new culture is ________.",
-      options: ["getting used to it", "used to it", "being used to it", "use to it"],
-      correctAnswer: 0,
+      options: [ "use to it", "getting used to it", "being used to it", "used to it" ],
+      correctAnswer: 1,
       explanation: "Process of adaptation."
     }
   },
@@ -1555,8 +1555,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "What is the opposite of 'generous'?",
-      options: ["Mean", "Kind", "Honest", "Patient"],
-      correctAnswer: 0,
+      options: [ "Kind", "Honest", "Mean", "Patient" ],
+      correctAnswer: 2,
       explanation: "Mean (tacaño) is the opposite of generous."
     }
   },
@@ -1569,8 +1569,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If you ________ someone, you admire them.",
-      options: ["look up to", "look forward to", "look after", "look into"],
-      correctAnswer: 0,
+      options: [ "look into", "look after", "look forward to", "look up to" ],
+      correctAnswer: 3,
       explanation: "Review of phrasal verbs."
     }
   },
@@ -1583,7 +1583,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Try ________ some deep breaths to relax.",
-      options: ["taking", "to take", "take", "took"],
+      options: [ "taking", "take", "took", "to take" ],
       correctAnswer: 0,
       explanation: "Try + -ing for an experiment/solution."
     }
@@ -1597,8 +1597,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "A 'nightmare' is a ________.",
-      options: ["bad dream", "good dream", "long sleep", "type of horse"],
-      correctAnswer: 0,
+      options: [ "type of horse", "bad dream", "good dream", "long sleep" ],
+      correctAnswer: 1,
       explanation: "Vocabulary review."
     }
   },
@@ -1611,8 +1611,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Someone who is 'reliable' is someone you can ________.",
-      options: ["trust", "avoid", "hate", "ignore"],
-      correctAnswer: 0,
+      options: [ "hate", "trust", "avoid", "ignore" ],
+      correctAnswer: 1,
       explanation: "Vocabulary review."
     }
   }

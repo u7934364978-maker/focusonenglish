@@ -30,7 +30,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "Direct: 'I love chocolate.' -> Reported: She said she ________ chocolate.",
-      options: ["loved", "love", "loves", "is loving"],
+      options: [ "loved", "loves", "is loving", "love" ],
       correctAnswer: 0,
       explanation: "Present simple changes to past simple."
     }
@@ -44,8 +44,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "Direct: 'I am working.' -> Reported: He said he ________.",
-      options: ["was working", "is working", "works", "worked"],
-      correctAnswer: 0,
+      options: [ "works", "was working", "worked", "is working" ],
+      correctAnswer: 1,
       explanation: "Present continuous changes to past continuous."
     }
   },
@@ -58,8 +58,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'I have seen it.' -> Reported: She said she ________ it.",
-      options: ["had seen", "has seen", "saw", "sees"],
-      correctAnswer: 0,
+      options: [ "saw", "sees", "has seen", "had seen" ],
+      correctAnswer: 3,
       explanation: "Present perfect changes to past perfect."
     }
   },
@@ -72,8 +72,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'I will help you.' -> Reported: He said he ________ me.",
-      options: ["would help", "will help", "helps", "helped"],
-      correctAnswer: 0,
+      options: [ "helps", "helped", "would help", "will help" ],
+      correctAnswer: 2,
       explanation: "Will changes to would."
     }
   },
@@ -86,8 +86,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'I bought a car.' -> Reported: She said she ________ a car.",
-      options: ["had bought", "bought", "buys", "has bought"],
-      correctAnswer: 0,
+      options: [ "has bought", "had bought", "bought", "buys" ],
+      correctAnswer: 1,
       explanation: "Past simple changes to past perfect."
     }
   },
@@ -100,8 +100,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'I can swim.' -> Reported: He said he ________ swim.",
-      options: ["could", "can", "may", "would"],
-      correctAnswer: 0,
+      options: [ "would", "can", "could", "may" ],
+      correctAnswer: 2,
       explanation: "Can changes to could."
     }
   },
@@ -114,8 +114,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'I may go.' -> Reported: She said she ________ go.",
-      options: ["might", "may", "will", "would"],
-      correctAnswer: 0,
+      options: [ "would", "may", "might", "will" ],
+      correctAnswer: 2,
       explanation: "May changes to might."
     }
   },
@@ -128,7 +128,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'I must leave.' -> Reported: He said he ________ leave.",
-      options: ["had to", "must", "might", "would"],
+      options: [ "had to", "must", "would", "might" ],
       correctAnswer: 0,
       explanation: "Must often changes to had to."
     }
@@ -142,8 +142,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'I was sleeping.' -> Reported: She said she ________.",
-      options: ["had been sleeping", "was sleeping", "slept", "is sleeping"],
-      correctAnswer: 0,
+      options: [ "slept", "was sleeping", "had been sleeping", "is sleeping" ],
+      correctAnswer: 2,
       explanation: "Past continuous changes to past perfect continuous."
     }
   },
@@ -176,8 +176,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "He ________ (decir) he was happy.",
-      options: ["said", "told", "explained", "asked"],
-      correctAnswer: 0,
+      options: [ "told", "explained", "said", "asked" ],
+      correctAnswer: 2,
       explanation: "Say + that clause."
     }
   },
@@ -190,8 +190,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "He ________ (decirle) me that he was happy.",
-      options: ["told", "said", "explained", "say"],
-      correctAnswer: 0,
+      options: [ "explained", "told", "said", "say" ],
+      correctAnswer: 1,
       explanation: "Tell + object."
     }
   },
@@ -204,7 +204,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "She ________ (explicar) that the machine was broken.",
-      options: ["explained", "told", "said me", "talked"],
+      options: [ "explained", "said me", "told", "talked" ],
       correctAnswer: 0,
       explanation: "Explain used for giving details."
     }
@@ -218,8 +218,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "They ________ (decir) us to wait outside.",
-      options: ["told", "said", "explained", "say"],
-      correctAnswer: 0,
+      options: [ "said", "told", "explained", "say" ],
+      correctAnswer: 1,
       explanation: "Tell + object + infinitive."
     }
   },
@@ -232,7 +232,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "I ________ (decir) goodbye to my friends.",
-      options: ["said", "told", "talked", "spoke"],
+      options: [ "said", "told", "spoke", "talked" ],
       correctAnswer: 0,
       explanation: "Say goodbye."
     }
@@ -246,7 +246,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The teacher ________ (explicar) the rules to the class.",
-      options: ["explained", "told", "said", "talked"],
+      options: [ "explained", "said", "talked", "told" ],
       correctAnswer: 0,
       explanation: "Explain something to someone."
     }
@@ -260,8 +260,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "She ________ (decir) me her secret.",
-      options: ["told", "said", "explained", "spoke"],
-      correctAnswer: 0,
+      options: [ "explained", "said", "spoke", "told" ],
+      correctAnswer: 3,
       explanation: "Tell someone something."
     }
   },
@@ -274,8 +274,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "We ________ (decir) that we would be late.",
-      options: ["said", "told", "explained us", "asked"],
-      correctAnswer: 0,
+      options: [ "told", "said", "asked", "explained us" ],
+      correctAnswer: 1,
       explanation: "Say + that clause."
     }
   },
@@ -288,8 +288,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "He ________ (explicar) me why he was late.",
-      options: ["explained to", "told", "said", "explained"],
-      correctAnswer: 0,
+      options: [ "told", "said", "explained to", "explained" ],
+      correctAnswer: 2,
       explanation: "Explain to someone."
     }
   },
@@ -322,8 +322,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'I like my car.' -> Reported: He said ________ liked ________ car.",
-      options: ["he / his", "I / my", "he / my", "I / his"],
-      correctAnswer: 0,
+      options: [ "he / my", "he / his", "I / his", "I / my" ],
+      correctAnswer: 1,
       explanation: "I -> he, my -> his."
     }
   },
@@ -336,7 +336,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'We are at our house.' -> Reported: They said ________ were at ________ house.",
-      options: ["they / their", "we / our", "they / our", "we / their"],
+      options: [ "they / their", "they / our", "we / their", "we / our" ],
       correctAnswer: 0,
       explanation: "We -> they, our -> their."
     }
@@ -350,8 +350,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'You need your keys.' -> Reported: He told me ________ needed ________ keys.",
-      options: ["I / my", "you / your", "I / your", "you / my"],
-      correctAnswer: 0,
+      options: [ "you / your", "I / your", "I / my", "you / my" ],
+      correctAnswer: 2,
       explanation: "You -> I, your -> my (referring to 'me')."
     }
   },
@@ -364,8 +364,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'She loves her dog.' -> Reported: He said she ________ ________ dog.",
-      options: ["loved her", "loves her", "loved his", "loves his"],
-      correctAnswer: 0,
+      options: [ "loved his", "loves his", "loves her", "loved her" ],
+      correctAnswer: 3,
       explanation: "3rd person usually stays the same (but tense changes)."
     }
   },
@@ -378,7 +378,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'This is mine.' -> Reported: She said that ________ was ________.",
-      options: ["it / hers", "this / mine", "that / her", "it / mine"],
+      options: [ "it / hers", "it / mine", "this / mine", "that / her" ],
       correctAnswer: 0,
       explanation: "This -> it/that, mine -> hers."
     }
@@ -392,8 +392,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'I'll give it to you.' -> Reported: He told her ________ ________ give it to ________.",
-      options: ["he would / her", "I will / you", "he will / her", "I would / her"],
-      correctAnswer: 0,
+      options: [ "I would / her", "he would / her", "I will / you", "he will / her" ],
+      correctAnswer: 1,
       explanation: "I -> he, will -> would, you -> her."
     }
   },
@@ -406,8 +406,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'Our team won.' -> Reported: They told us ________ team ________.",
-      options: ["their / had won", "our / won", "their / won", "our / had won"],
-      correctAnswer: 0,
+      options: [ "our / had won", "their / had won", "their / won", "our / won" ],
+      correctAnswer: 1,
       explanation: "Our -> their, won -> had won."
     }
   },
@@ -420,8 +420,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'My parents are coming.' -> Reported: She said ________ parents ________ coming.",
-      options: ["her / were", "my / was", "her / was", "my / were"],
-      correctAnswer: 0,
+      options: [ "her / was", "my / was", "my / were", "her / were" ],
+      correctAnswer: 3,
       explanation: "My -> her, are -> were."
     }
   },
@@ -434,7 +434,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'I can't find my phone.' -> Reported: He said ________ ________ find ________ phone.",
-      options: ["he couldn't / his", "I can't / my", "he can't / his", "I couldn't / my"],
+      options: [ "he couldn't / his", "I couldn't / my", "he can't / his", "I can't / my" ],
       correctAnswer: 0,
       explanation: "I -> he, can't -> couldn't, my -> his."
     }
@@ -468,8 +468,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'I am here now.' -> Reported: He said he was ________ ________.",
-      options: ["there then", "here now", "there now", "here then"],
-      correctAnswer: 0,
+      options: [ "here now", "here then", "there now", "there then" ],
+      correctAnswer: 3,
       explanation: "Here -> there, now -> then."
     }
   },
@@ -482,8 +482,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'I saw her yesterday.' -> Reported: She said she had seen her ________.",
-      options: ["the day before", "yesterday", "the day after", "today"],
-      correctAnswer: 0,
+      options: [ "the day after", "the day before", "yesterday", "today" ],
+      correctAnswer: 1,
       explanation: "Yesterday -> the day before / the previous day."
     }
   },
@@ -496,8 +496,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'I'll go tomorrow.' -> Reported: He said he would go ________.",
-      options: ["the next day", "tomorrow", "yesterday", "then"],
-      correctAnswer: 0,
+      options: [ "tomorrow", "yesterday", "the next day", "then" ],
+      correctAnswer: 2,
       explanation: "Tomorrow -> the next day / the following day."
     }
   },
@@ -510,8 +510,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'I'm busy today.' -> Reported: She said she was busy ________.",
-      options: ["that day", "today", "yesterday", "now"],
-      correctAnswer: 0,
+      options: [ "yesterday", "today", "now", "that day" ],
+      correctAnswer: 3,
       explanation: "Today -> that day."
     }
   },
@@ -524,8 +524,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'I moved here two weeks ago.' -> Reported: He said he had moved there ________.",
-      options: ["two weeks before", "two weeks ago", "two weeks after", "now"],
-      correctAnswer: 0,
+      options: [ "two weeks ago", "now", "two weeks after", "two weeks before" ],
+      correctAnswer: 3,
       explanation: "Ago -> before."
     }
   },
@@ -538,8 +538,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'We'll meet next week.' -> Reported: They said they would meet ________.",
-      options: ["the following week", "next week", "the week before", "now"],
-      correctAnswer: 0,
+      options: [ "now", "the following week", "the week before", "next week" ],
+      correctAnswer: 1,
       explanation: "Next week -> the following week."
     }
   },
@@ -552,7 +552,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'I finished it last night.' -> Reported: She said she had finished it ________.",
-      options: ["the night before", "last night", "the night after", "then"],
+      options: [ "the night before", "the night after", "then", "last night" ],
       correctAnswer: 0,
       explanation: "Last night -> the night before."
     }
@@ -566,7 +566,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'I'm not doing anything tonight.' -> Reported: He said he wasn't doing anything ________.",
-      options: ["that night", "tonight", "last night", "then"],
+      options: [ "that night", "last night", "then", "tonight" ],
       correctAnswer: 0,
       explanation: "Tonight -> that night."
     }
@@ -580,7 +580,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'This is my house.' -> Reported: She said ________ was her house.",
-      options: ["that", "this", "it", "here"],
+      options: [ "that", "here", "it", "this" ],
       correctAnswer: 0,
       explanation: "This -> that (often)."
     }
@@ -614,8 +614,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The ________ (periodista) reported that the fire was under control.",
-      options: ["journalist", "anchor", "editor", "photographer"],
-      correctAnswer: 0,
+      options: [ "anchor", "photographer", "editor", "journalist" ],
+      correctAnswer: 3,
       explanation: "Journalist = periodista."
     }
   },
@@ -628,8 +628,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "According to the ________ (fuente), the president will resign.",
-      options: ["source", "witness", "reporter", "victim"],
-      correctAnswer: 0,
+      options: [ "reporter", "victim", "source", "witness" ],
+      correctAnswer: 2,
       explanation: "Source = fuente (de información)."
     }
   },
@@ -642,8 +642,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The ________ (noticia) spread quickly on social media.",
-      options: ["news item", "headline", "article", "broadcast"],
-      correctAnswer: 0,
+      options: [ "headline", "broadcast", "news item", "article" ],
+      correctAnswer: 2,
       explanation: "News item = noticia / pieza informativa."
     }
   },
@@ -656,8 +656,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The police ________ (confirmar) that the suspect had been caught.",
-      options: ["confirmed", "denied", "claimed", "suggested"],
-      correctAnswer: 0,
+      options: [ "suggested", "claimed", "denied", "confirmed" ],
+      correctAnswer: 3,
       explanation: "Confirm = confirmar."
     }
   },
@@ -670,8 +670,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "He ________ (afirmar) that he was innocent.",
-      options: ["claimed", "reported", "broadcast", "edited"],
-      correctAnswer: 0,
+      options: [ "reported", "claimed", "broadcast", "edited" ],
+      correctAnswer: 1,
       explanation: "Claim = afirmar / asegurar (sin pruebas)."
     }
   },
@@ -684,8 +684,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The ________ (artículo) stated that taxes would increase.",
-      options: ["article", "column", "editorial", "report"],
-      correctAnswer: 0,
+      options: [ "column", "report", "article", "editorial" ],
+      correctAnswer: 2,
       explanation: "Article = artículo."
     }
   },
@@ -698,8 +698,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "A ________ (testigo) told the police what had happened.",
-      options: ["witness", "victim", "suspect", "judge"],
-      correctAnswer: 0,
+      options: [ "victim", "judge", "suspect", "witness" ],
+      correctAnswer: 3,
       explanation: "Witness = testigo."
     }
   },
@@ -712,8 +712,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The TV ________ (transmisión) was interrupted for a breaking news story.",
-      options: ["broadcast", "show", "series", "documentary"],
-      correctAnswer: 0,
+      options: [ "series", "show", "broadcast", "documentary" ],
+      correctAnswer: 2,
       explanation: "Broadcast = transmisión / emisión."
     }
   },
@@ -726,7 +726,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The ________ (editor) decided which stories to publish.",
-      options: ["editor", "publisher", "owner", "writer"],
+      options: [ "editor", "owner", "writer", "publisher" ],
       correctAnswer: 0,
       explanation: "Editor = editor."
     }
@@ -760,8 +760,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "She ________ (susurrar) that they were getting a divorce.",
-      options: ["whispered", "shouted", "yelled", "screamed"],
-      correctAnswer: 0,
+      options: [ "yelled", "shouted", "whispered", "screamed" ],
+      correctAnswer: 2,
       explanation: "Whisper = susurrar."
     }
   },
@@ -774,8 +774,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "He ________ (mencionar) that he had seen her at the mall.",
-      options: ["mentioned", "denied", "shouted", "cried"],
-      correctAnswer: 0,
+      options: [ "shouted", "mentioned", "denied", "cried" ],
+      correctAnswer: 1,
       explanation: "Mention = mencionar."
     }
   },
@@ -788,8 +788,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "They ________ (rumorear) that the company was closing.",
-      options: ["rumoured", "knew", "stated", "wrote"],
-      correctAnswer: 0,
+      options: [ "wrote", "rumoured", "stated", "knew" ],
+      correctAnswer: 1,
       explanation: "Rumour = rumorear."
     }
   },
@@ -802,7 +802,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Don't believe everything you ________ (oír).",
-      options: ["hear", "listen", "say", "tell"],
+      options: [ "hear", "listen", "say", "tell" ],
       correctAnswer: 0,
       explanation: "Hear = oír (percepción involuntaria)."
     }
@@ -816,8 +816,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "She ________ (contar) a very funny ________ (anécdota).",
-      options: ["told / anecdote", "said / story", "talked / gossip", "explained / news"],
-      correctAnswer: 0,
+      options: [ "explained / news", "said / story", "told / anecdote", "talked / gossip" ],
+      correctAnswer: 2,
       explanation: "Anecdote = anécdota."
     }
   },
@@ -830,8 +830,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "He ________ (negar) that he had started the ________ (rumor).",
-      options: ["denied / rumour", "admitted / fact", "refused / story", "accepted / gossip"],
-      correctAnswer: 0,
+      options: [ "admitted / fact", "refused / story", "denied / rumour", "accepted / gossip" ],
+      correctAnswer: 2,
       explanation: "Deny = negar / Rumour = rumor."
     }
   },
@@ -844,8 +844,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The ________ (secreto) was revealed after many years.",
-      options: ["secret", "truth", "lie", "gossip"],
-      correctAnswer: 0,
+      options: [ "truth", "gossip", "secret", "lie" ],
+      correctAnswer: 2,
       explanation: "Secret = secreto."
     }
   },
@@ -858,8 +858,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "She ________ (admitir) that she had been wrong.",
-      options: ["admitted", "denied", "refused", "promised"],
-      correctAnswer: 0,
+      options: [ "promised", "refused", "admitted", "denied" ],
+      correctAnswer: 2,
       explanation: "Admit = admitir."
     }
   },
@@ -872,8 +872,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Everyone was ________ (charlando) about the news.",
-      options: ["chatting", "speaking", "telling", "reporting"],
-      correctAnswer: 0,
+      options: [ "reporting", "speaking", "telling", "chatting" ],
+      correctAnswer: 3,
       explanation: "Chat = charlar / platicar."
     }
   },
@@ -906,8 +906,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "He ________ (ofrecer) to drive me home.",
-      options: ["offered", "suggested", "admitted", "said"],
-      correctAnswer: 0,
+      options: [ "said", "offered", "admitted", "suggested" ],
+      correctAnswer: 1,
       explanation: "Offer + to-infinitive."
     }
   },
@@ -920,7 +920,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "She ________ (sugerir) going to the cinema.",
-      options: ["suggested", "offered", "promised", "told"],
+      options: [ "suggested", "promised", "told", "offered" ],
       correctAnswer: 0,
       explanation: "Suggest + -ing."
     }
@@ -934,7 +934,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "They ________ (prometer) to be there on time.",
-      options: ["promised", "admitted", "denied", "suggested"],
+      options: [ "promised", "denied", "admitted", "suggested" ],
       correctAnswer: 0,
       explanation: "Promise + to-infinitive."
     }
@@ -948,8 +948,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "He ________ (negar) breaking the window.",
-      options: ["denied", "offered", "promised", "refused"],
-      correctAnswer: 0,
+      options: [ "refused", "offered", "promised", "denied" ],
+      correctAnswer: 3,
       explanation: "Deny + -ing."
     }
   },
@@ -962,7 +962,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "She ________ (negarse) to answer the question.",
-      options: ["refused", "denied", "admitted", "suggested"],
+      options: [ "refused", "admitted", "suggested", "denied" ],
       correctAnswer: 0,
       explanation: "Refuse + to-infinitive."
     }
@@ -976,7 +976,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "He ________ (admitir) stealing the money.",
-      options: ["admitted", "refused", "promised", "offered"],
+      options: [ "admitted", "promised", "offered", "refused" ],
       correctAnswer: 0,
       explanation: "Admit + -ing."
     }
@@ -990,8 +990,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The doctor ________ (recomendar) taking a rest.",
-      options: ["recommended", "promised", "refused", "offered"],
-      correctAnswer: 0,
+      options: [ "refused", "promised", "recommended", "offered" ],
+      correctAnswer: 2,
       explanation: "Recommend + -ing / that clause."
     }
   },
@@ -1004,8 +1004,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "They ________ (amenazar) to call the police.",
-      options: ["threatened", "suggested", "admitted", "offered"],
-      correctAnswer: 0,
+      options: [ "offered", "suggested", "threatened", "admitted" ],
+      correctAnswer: 2,
       explanation: "Threaten + to-infinitive."
     }
   },
@@ -1018,8 +1018,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "She ________ (insistir) on paying for the dinner.",
-      options: ["insisted", "offered", "promised", "suggested"],
-      correctAnswer: 0,
+      options: [ "promised", "offered", "insisted", "suggested" ],
+      correctAnswer: 2,
       explanation: "Insist on + -ing."
     }
   },
@@ -1052,8 +1052,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The government ________ (anunciar) that the lockdown would end.",
-      options: ["announced", "said", "told", "talked"],
-      correctAnswer: 0,
+      options: [ "told", "announced", "talked", "said" ],
+      correctAnswer: 1,
       explanation: "Announce = anunciar (formal)."
     }
   },
@@ -1066,8 +1066,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The witness ________ (declarar) that he had seen the accident.",
-      options: ["declared", "told", "said me", "spoke"],
-      correctAnswer: 0,
+      options: [ "told", "declared", "said me", "spoke" ],
+      correctAnswer: 1,
       explanation: "Declare = declarar (formal)."
     }
   },
@@ -1080,7 +1080,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The report ________ (afirmar) that climate change is real.",
-      options: ["states", "tells", "talks", "says me"],
+      options: [ "states", "says me", "tells", "talks" ],
       correctAnswer: 0,
       explanation: "State = afirmar/establecer."
     }
@@ -1094,8 +1094,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "He ________ (admitir) his guilt in court.",
-      options: ["admitted", "declared", "said", "announced"],
-      correctAnswer: 0,
+      options: [ "declared", "admitted", "announced", "said" ],
+      correctAnswer: 1,
       explanation: "Admit guilt."
     }
   },
@@ -1108,8 +1108,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The company ________ (negar) any wrongdoing.",
-      options: ["denied", "refused", "announced", "stated"],
-      correctAnswer: 0,
+      options: [ "refused", "stated", "announced", "denied" ],
+      correctAnswer: 3,
       explanation: "Deny wrongdoing."
     }
   },
@@ -1122,7 +1122,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The spokesperson ________ (confirmar) the news.",
-      options: ["confirmed", "said", "told", "declared"],
+      options: [ "confirmed", "declared", "told", "said" ],
       correctAnswer: 0,
       explanation: "Confirm news (formal)."
     }
@@ -1136,8 +1136,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The judge ________ (ordenar) the jury to be quiet.",
-      options: ["ordered", "told", "said", "explained"],
-      correctAnswer: 0,
+      options: [ "explained", "told", "said", "ordered" ],
+      correctAnswer: 3,
       explanation: "Order = ordenar."
     }
   },
@@ -1150,8 +1150,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "She ________ (asegurar) us that everything was fine.",
-      options: ["assured", "said", "told to", "explained"],
-      correctAnswer: 0,
+      options: [ "explained", "told to", "assured", "said" ],
+      correctAnswer: 2,
       explanation: "Assure someone."
     }
   },
@@ -1164,8 +1164,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The pilot ________ (informar) the passengers about the delay.",
-      options: ["informed", "said", "told to", "announced to"],
-      correctAnswer: 0,
+      options: [ "announced to", "said", "informed", "told to" ],
+      correctAnswer: 2,
       explanation: "Inform someone."
     }
   },
@@ -1198,7 +1198,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "He didn't want to ________ (dar la noticia) until he was sure.",
-      options: ["break the news", "tell the story", "say the truth", "announce the fact"],
+      options: [ "break the news", "announce the fact", "say the truth", "tell the story" ],
       correctAnswer: 0,
       explanation: "Break the news."
     }
@@ -1212,8 +1212,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Let's ________ (hablar de negocios) now that everyone is here.",
-      options: ["get down to business", "talk the talk", "speak our minds", "break the ice"],
-      correctAnswer: 0,
+      options: [ "talk the talk", "speak our minds", "get down to business", "break the ice" ],
+      correctAnswer: 2,
       explanation: "Get down to business = ir al grano / hablar de negocios."
     }
   },
@@ -1226,8 +1226,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "I had to ________ (romper el hielo) because it was very quiet.",
-      options: ["break the ice", "break the news", "talk shop", "beat around the bush"],
-      correctAnswer: 0,
+      options: [ "break the news", "break the ice", "beat around the bush", "talk shop" ],
+      correctAnswer: 1,
       explanation: "Break the ice = romper el hielo."
     }
   },
@@ -1240,8 +1240,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Stop ________ (andarte con rodeos) and tell me what happened.",
-      options: ["beating around the bush", "breaking the ice", "talking shop", "getting down to business"],
-      correctAnswer: 0,
+      options: [ "talking shop", "beating around the bush", "breaking the ice", "getting down to business" ],
+      correctAnswer: 1,
       explanation: "Beat around the bush = andarse con rodeos."
     }
   },
@@ -1254,8 +1254,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "They always ________ (hablan de trabajo) even when they are on holiday.",
-      options: ["talk shop", "break the ice", "speak their minds", "get the message"],
-      correctAnswer: 0,
+      options: [ "speak their minds", "talk shop", "break the ice", "get the message" ],
+      correctAnswer: 1,
       explanation: "Talk shop = hablar de trabajo (fuera de él)."
     }
   },
@@ -1268,8 +1268,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "You need to ________ (decir lo que piensas) if you aren't happy.",
-      options: ["speak your mind", "talk shop", "break the news", "get down to business"],
-      correctAnswer: 0,
+      options: [ "get down to business", "speak your mind", "talk shop", "break the news" ],
+      correctAnswer: 1,
       explanation: "Speak your mind = decir lo que piensas."
     }
   },
@@ -1282,8 +1282,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I finally ________ (capté el mensaje) and left him alone.",
-      options: ["got the message", "broke the ice", "talked shop", "beat around the bush"],
-      correctAnswer: 0,
+      options: [ "talked shop", "got the message", "beat around the bush", "broke the ice" ],
+      correctAnswer: 1,
       explanation: "Get the message = captar el mensaje."
     }
   },
@@ -1296,8 +1296,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Don't ________ (correr la voz) about the surprise party.",
-      options: ["spread the word", "break the news", "talk shop", "speak your mind"],
-      correctAnswer: 0,
+      options: [ "talk shop", "break the news", "speak your mind", "spread the word" ],
+      correctAnswer: 3,
       explanation: "Spread the word = correr la voz."
     }
   },
@@ -1310,8 +1310,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "We are ________ (en la misma onda) regarding this project.",
-      options: ["on the same wavelength", "breaking the ice", "talking shop", "beating around the bush"],
-      correctAnswer: 0,
+      options: [ "breaking the ice", "beating around the bush", "talking shop", "on the same wavelength" ],
+      correctAnswer: 3,
       explanation: "On the same wavelength = en la misma onda."
     }
   },
@@ -1344,7 +1344,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'I am going to call you later.' -> Reported: She said ________ ________ to call me ________.",
-      options: ["she was going / later", "I am going / later", "she was going / then", "she is going / later"],
+      options: [ "she was going / later", "I am going / later", "she is going / later", "she was going / then" ],
       correctAnswer: 0,
       explanation: "Review: Tense and pronoun changes."
     }
@@ -1358,8 +1358,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'I have never been to London.' -> Reported: He said he ________ never ________ to London.",
-      options: ["had / been", "has / been", "was / been", "did / go"],
-      correctAnswer: 0,
+      options: [ "was / been", "did / go", "has / been", "had / been" ],
+      correctAnswer: 3,
       explanation: "Review."
     }
   },
@@ -1372,7 +1372,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'I saw them yesterday.' -> Reported: She told me she ________ seen them ________.",
-      options: ["had / the day before", "has / yesterday", "saw / the day after", "had / yesterday"],
+      options: [ "had / the day before", "had / yesterday", "has / yesterday", "saw / the day after" ],
       correctAnswer: 0,
       explanation: "Review: Past simple -> past perfect, yesterday -> the day before."
     }
@@ -1386,8 +1386,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'We will finish it tomorrow.' -> Reported: They said they ________ finish it ________.",
-      options: ["would / the next day", "will / tomorrow", "would / tomorrow", "will / the next day"],
-      correctAnswer: 0,
+      options: [ "would / tomorrow", "would / the next day", "will / the next day", "will / tomorrow" ],
+      correctAnswer: 1,
       explanation: "Review."
     }
   },
@@ -1400,8 +1400,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'I can't come tonight.' -> Reported: He said he ________ come ________.",
-      options: ["couldn't / that night", "can't / tonight", "couldn't / tonight", "can't / that night"],
-      correctAnswer: 0,
+      options: [ "can't / tonight", "couldn't / that night", "can't / that night", "couldn't / tonight" ],
+      correctAnswer: 1,
       explanation: "Review."
     }
   },
@@ -1414,8 +1414,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'I must leave now.' -> Reported: She said she ________ ________ ________.",
-      options: ["had to leave then", "must leave now", "had to leave now", "must leave then"],
-      correctAnswer: 0,
+      options: [ "must leave now", "had to leave then", "must leave then", "had to leave now" ],
+      correctAnswer: 1,
       explanation: "Review: must -> had to, now -> then."
     }
   },
@@ -1428,7 +1428,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'I was sleeping when you called.' -> Reported: He said he ________ ________ sleeping when I ________.",
-      options: ["had been / had called", "was / called", "had been / called", "was / had called"],
+      options: [ "had been / had called", "was / had called", "was / called", "had been / called" ],
       correctAnswer: 0,
       explanation: "Review: Past continuous -> past perfect continuous."
     }
@@ -1442,8 +1442,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'I'll help you with your bags.' -> Reported: He ________ ________ help me with ________ bags.",
-      options: ["offered to / my", "said he / your", "promised to / his", "suggested / my"],
-      correctAnswer: 0,
+      options: [ "promised to / his", "said he / your", "suggested / my", "offered to / my" ],
+      correctAnswer: 3,
       explanation: "Review: Reporting verb with infinitive."
     }
   },
@@ -1456,8 +1456,8 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'The project is a success.' -> Reported: The report ________ that the project ________ a success.",
-      options: ["stated / had been", "said / was", "told / is", "explained / has been"],
-      correctAnswer: 0,
+      options: [ "said / was", "explained / has been", "stated / had been", "told / is" ],
+      correctAnswer: 2,
       explanation: "Final review: Formal reporting."
     }
   }

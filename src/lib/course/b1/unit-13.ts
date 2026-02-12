@@ -395,13 +395,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "Direct: 'I am tired,' he said. \nReported: He said that he ________ tired.",
-      options: [
-        "was",
-        "is",
-        "am",
-        "has been"
-      ],
-      correctAnswer: 0,
+      options: [ "has been", "is", "was", "am" ],
+      correctAnswer: 2,
       explanation: "El presente simple cambia a pasado simple en estilo indirecto."
     } as any
   },
@@ -414,13 +409,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "Direct: 'I have finished,' she said. \nReported: She said that she ________ finished.",
-      options: [
-        "had",
-        "has",
-        "was",
-        "having"
-      ],
-      correctAnswer: 0,
+      options: [ "has", "had", "was", "having" ],
+      correctAnswer: 1,
       explanation: "El presente perfecto cambia a pasado perfecto en estilo indirecto."
     } as any
   },
@@ -433,13 +423,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "Direct: 'We will help you,' they said. \nReported: They said that they ________ help us.",
-      options: [
-        "would",
-        "will",
-        "can",
-        "should"
-      ],
-      correctAnswer: 0,
+      options: [ "should", "would", "will", "can" ],
+      correctAnswer: 1,
       explanation: "'Will' cambia a 'would' en estilo indirecto."
     } as any
   },
@@ -452,13 +437,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'I'm watching TV,' she told me. \nReported: She told me that she ________ TV.",
-      options: [
-        "was watching",
-        "is watching",
-        "had watched",
-        "watches"
-      ],
-      correctAnswer: 0,
+      options: [ "is watching", "was watching", "had watched", "watches" ],
+      correctAnswer: 1,
       explanation: "El presente continuo cambia a pasado continuo."
     } as any
   },
@@ -471,13 +451,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'I went to the museum,' he said. \nReported: He said that he ________ to the museum.",
-      options: [
-        "had gone",
-        "went",
-        "has gone",
-        "goes"
-      ],
-      correctAnswer: 0,
+      options: [ "goes", "has gone", "went", "had gone" ],
+      correctAnswer: 3,
       explanation: "El pasado simple cambia a pasado perfecto."
     } as any
   },
@@ -490,13 +465,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'You can leave,' the boss said. \nReported: The boss said that I ________ leave.",
-      options: [
-        "could",
-        "can",
-        "must",
-        "will"
-      ],
-      correctAnswer: 0,
+      options: [ "must", "can", "could", "will" ],
+      correctAnswer: 2,
       explanation: "'Can' cambia a 'could'."
     } as any
   },
@@ -509,13 +479,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'I'll see you tomorrow,' she said. \nReported: She said she'd see me ________.",
-      options: [
-        "the following day",
-        "tomorrow",
-        "yesterday",
-        "today"
-      ],
-      correctAnswer: 0,
+      options: [ "today", "the following day", "yesterday", "tomorrow" ],
+      correctAnswer: 1,
       explanation: "Las expresiones de tiempo también cambian: 'tomorrow' pasa a 'the following day' o 'the next day'."
     } as any
   },
@@ -528,13 +493,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'I've been working hard,' he said. \nReported: He said that he ________ hard.",
-      options: [
-        "had been working",
-        "has been working",
-        "was working",
-        "is working"
-      ],
-      correctAnswer: 0,
+      options: [ "is working", "had been working", "has been working", "was working" ],
+      correctAnswer: 1,
       explanation: "El presente perfecto continuo cambia a pasado perfecto continuo."
     } as any
   },
@@ -547,13 +507,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'I must leave now,' she said. \nReported: She said that she ________ then.",
-      options: [
-        "had to leave",
-        "must leave",
-        "musted leave",
-        "has to leave"
-      ],
-      correctAnswer: 0,
+      options: [ "has to leave", "musted leave", "must leave", "had to leave" ],
+      correctAnswer: 3,
       explanation: "'Must' suele cambiar a 'had to' y 'now' a 'then'."
     } as any
   },
@@ -566,13 +521,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'I lived here for ten years,' he said. \nReported: He said that he had lived ________ for ten years.",
-      options: [
-        "there",
-        "here",
-        "that",
-        "this"
-      ],
-      correctAnswer: 0,
+      options: [ "here", "that", "this", "there" ],
+      correctAnswer: 3,
       explanation: "'Here' cambia a 'there' en estilo indirecto."
     } as any
   },
@@ -587,13 +537,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'Where do you live?' he asked. \nReported: He asked me where I ________.",
-      options: [
-        "lived",
-        "live",
-        "do live",
-        "was living"
-      ],
-      correctAnswer: 0,
+      options: [ "was living", "do live", "live", "lived" ],
+      correctAnswer: 3,
       explanation: "En preguntas indirectas usamos el orden de afirmación (sujeto + verbo) y cambiamos el tiempo verbal."
     } as any
   },
@@ -606,12 +551,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'Do you like tea?' she asked. \nReported: She asked me ________ I liked tea.",
-      options: [
-        "if",
-        "that",
-        "whether if",
-        "do"
-      ],
+      options: [ "if", "that", "whether if", "do" ],
       correctAnswer: 0,
       explanation: "Para preguntas de sí/no usamos 'if' o 'whether'."
     } as any
@@ -625,13 +565,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'Why did you arrive late?' they asked. \nReported: They asked me why I ________ late.",
-      options: [
-        "had arrived",
-        "arrived",
-        "did arrive",
-        "have arrived"
-      ],
-      correctAnswer: 0,
+      options: [ "arrived", "had arrived", "did arrive", "have arrived" ],
+      correctAnswer: 1,
       explanation: "Pasado simple cambia a pasado perfecto en estilo indirecto."
     } as any
   },
@@ -644,13 +579,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'Sit down!' the teacher said. \nReported: The teacher told us ________ down.",
-      options: [
-        "to sit",
-        "sit",
-        "that sit",
-        "sitting"
-      ],
-      correctAnswer: 0,
+      options: [ "sit", "sitting", "to sit", "that sit" ],
+      correctAnswer: 2,
       explanation: "Para órdenes usamos 'told/ordered + object + to + infinitive'."
     } as any
   },
@@ -663,13 +593,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'Don't talk!' she said. \nReported: She told me ________.",
-      options: [
-        "not to talk",
-        "don't talk",
-        "to not talk",
-        "not talk"
-      ],
-      correctAnswer: 0,
+      options: [ "to not talk", "not talk", "not to talk", "don't talk" ],
+      correctAnswer: 2,
       explanation: "Para órdenes negativas usamos 'not to + infinitive'."
     } as any
   },
@@ -682,13 +607,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'Can you help me?' he asked. \nReported: He asked me if I ________ help him.",
-      options: [
-        "could",
-        "can",
-        "would",
-        "might"
-      ],
-      correctAnswer: 0,
+      options: [ "would", "could", "might", "can" ],
+      correctAnswer: 1,
       explanation: "'Can' cambia a 'could'."
     } as any
   },
@@ -701,13 +621,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'When will the train arrive?' she asked. \nReported: She asked when the train ________ arrive.",
-      options: [
-        "would",
-        "will",
-        "did",
-        "was"
-      ],
-      correctAnswer: 0,
+      options: [ "was", "would", "will", "did" ],
+      correctAnswer: 1,
       explanation: "Orden de afirmación y cambio de 'will' a 'would'."
     } as any
   },
@@ -720,13 +635,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'Please, lend me some money,' he said. \nReported: He asked me ________ some money.",
-      options: [
-        "to lend him",
-        "that I lend him",
-        "lend him",
-        "to lend me"
-      ],
-      correctAnswer: 0,
+      options: [ "lend him", "to lend me", "that I lend him", "to lend him" ],
+      correctAnswer: 3,
       explanation: "Para peticiones usamos 'asked + object + to + infinitive'."
     } as any
   },
@@ -739,12 +649,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'Go home immediately!' the officer said. \nReported: The officer ordered us ________ home immediately.",
-      options: [
-        "to go",
-        "go",
-        "going",
-        "that we go"
-      ],
+      options: [ "to go", "going", "that we go", "go" ],
       correctAnswer: 0,
       explanation: "Uso de infinitivo con 'to' tras el verbo de reporte 'ordered'."
     } as any
@@ -758,13 +663,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'Have you seen my keys?' he asked. \nReported: He asked me whether I ________ his keys.",
-      options: [
-        "had seen",
-        "have seen",
-        "saw",
-        "was seeing"
-      ],
-      correctAnswer: 0,
+      options: [ "saw", "had seen", "was seeing", "have seen" ],
+      correctAnswer: 1,
       explanation: "Pregunta de sí/no en presente perfecto cambia a pasado perfecto con 'whether'."
     } as any
   },
@@ -779,13 +679,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "A ________ is an official process to choose a leader or government.",
-      options: [
-        "election",
-        "party",
-        "campaign",
-        "debate"
-      ],
-      correctAnswer: 0,
+      options: [ "debate", "party", "campaign", "election" ],
+      correctAnswer: 3,
       explanation: "Una elección es el proceso de votación."
     } as any
   },
@@ -798,13 +693,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "To ________ means to express your choice in an election.",
-      options: [
-        "vote",
-        "elect",
-        "select",
-        "run"
-      ],
-      correctAnswer: 0,
+      options: [ "elect", "vote", "select", "run" ],
+      correctAnswer: 1,
       explanation: "Votar es la acción de elegir."
     } as any
   },
@@ -817,13 +707,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "The ________ is the group of people who control a country.",
-      options: [
-        "government",
-        "opposition",
-        "citizen",
-        "candidate"
-      ],
-      correctAnswer: 0,
+      options: [ "citizen", "candidate", "government", "opposition" ],
+      correctAnswer: 2,
       explanation: "'Government' es el gobierno."
     } as any
   },
@@ -836,12 +721,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "A ________ is a person who is running for a political position.",
-      options: [
-        "candidate",
-        "politician",
-        "president",
-        "mayor"
-      ],
+      options: [ "candidate", "president", "mayor", "politician" ],
       correctAnswer: 0,
       explanation: "Un candidato es quien se postula."
     } as any
@@ -855,13 +735,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "A political ________ is an organization with shared political ideas.",
-      options: [
-        "party",
-        "club",
-        "union",
-        "force"
-      ],
-      correctAnswer: 0,
+      options: [ "union", "party", "force", "club" ],
+      correctAnswer: 1,
       explanation: "'Party' significa partido político."
     } as any
   },
@@ -874,13 +749,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "A ________ is a person who lives in a particular country and has rights there.",
-      options: [
-        "citizen",
-        "tourist",
-        "foreigner",
-        "refugee"
-      ],
-      correctAnswer: 0,
+      options: [ "foreigner", "refugee", "citizen", "tourist" ],
+      correctAnswer: 2,
       explanation: "'Citizen' es ciudadano."
     } as any
   },
@@ -893,13 +763,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The ________ is the leader of a city or town.",
-      options: [
-        "mayor",
-        "president",
-        "minister",
-        "governor"
-      ],
-      correctAnswer: 0,
+      options: [ "governor", "president", "mayor", "minister" ],
+      correctAnswer: 2,
       explanation: "'Mayor' es el alcalde."
     } as any
   },
@@ -912,13 +777,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "________ is a system of government where people choose their leaders.",
-      options: [
-        "Democracy",
-        "Monarchy",
-        "Dictatorship",
-        "Republic"
-      ],
-      correctAnswer: 0,
+      options: [ "Monarchy", "Democracy", "Dictatorship", "Republic" ],
+      correctAnswer: 1,
       explanation: "La democracia se basa en la elección popular."
     } as any
   },
@@ -931,13 +791,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The Prime Minister ________ that the taxes would be reduced.",
-      options: [
-        "announced",
-        "told",
-        "spoke",
-        "talked"
-      ],
-      correctAnswer: 0,
+      options: [ "told", "announced", "talked", "spoke" ],
+      correctAnswer: 1,
       explanation: "El verbo 'announced' (anunciar) es adecuado para declaraciones oficiales."
     } as any
   },
@@ -950,13 +805,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Political ________ are held to inform people about candidates' ideas.",
-      options: [
-        "campaigns",
-        "elections",
-        "ballots",
-        "parliaments"
-      ],
-      correctAnswer: 0,
+      options: [ "parliaments", "ballots", "campaigns", "elections" ],
+      correctAnswer: 2,
       explanation: "Una campaña política sirve para promocionar ideas."
     } as any
   },
@@ -971,13 +821,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "A ________ is a person who helps people with legal problems.",
-      options: [
-        "lawyer",
-        "judge",
-        "police officer",
-        "witness"
-      ],
-      correctAnswer: 0,
+      options: [ "witness", "police officer", "lawyer", "judge" ],
+      correctAnswer: 2,
       explanation: "Un abogado (lawyer) asesora en temas legales."
     } as any
   },
@@ -990,13 +835,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "The ________ is the place where legal cases are decided.",
-      options: [
-        "court",
-        "prison",
-        "station",
-        "office"
-      ],
-      correctAnswer: 0,
+      options: [ "office", "court", "station", "prison" ],
+      correctAnswer: 1,
       explanation: "Los casos se deciden en el tribunal (court)."
     } as any
   },
@@ -1009,13 +849,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The ________ decides the punishment for a criminal.",
-      options: [
-        "judge",
-        "lawyer",
-        "victim",
-        "suspect"
-      ],
-      correctAnswer: 0,
+      options: [ "suspect", "victim", "lawyer", "judge" ],
+      correctAnswer: 3,
       explanation: "El juez (judge) dicta la sentencia."
     } as any
   },
@@ -1028,13 +863,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The ________ is a group of citizens who decide if someone is guilty.",
-      options: [
-        "jury",
-        "cabinet",
-        "committee",
-        "board"
-      ],
-      correctAnswer: 0,
+      options: [ "cabinet", "jury", "board", "committee" ],
+      correctAnswer: 1,
       explanation: "El jurado (jury) determina la culpabilidad."
     } as any
   },
@@ -1047,12 +877,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "A ________ is a person who has seen a crime.",
-      options: [
-        "witness",
-        "criminal",
-        "lawyer",
-        "judge"
-      ],
+      options: [ "witness", "criminal", "lawyer", "judge" ],
       correctAnswer: 0,
       explanation: "Un testigo (witness) presencia los hechos."
     } as any
@@ -1066,12 +891,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "To ________ someone means to take them to the police station for a crime.",
-      options: [
-        "arrest",
-        "accuse",
-        "convict",
-        "sentence"
-      ],
+      options: [ "arrest", "accuse", "convict", "sentence" ],
       correctAnswer: 0,
       explanation: "Arrestar es detener a alguien."
     } as any
@@ -1085,13 +905,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If you are ________, it means you have committed a crime.",
-      options: [
-        "guilty",
-        "innocent",
-        "fair",
-        "legal"
-      ],
-      correctAnswer: 0,
+      options: [ "fair", "innocent", "legal", "guilty" ],
+      correctAnswer: 3,
       explanation: "'Guilty' significa culpable."
     } as any
   },
@@ -1104,13 +919,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The ________ is the punishment given by a judge.",
-      options: [
-        "sentence",
-        "trial",
-        "verdict",
-        "charge"
-      ],
-      correctAnswer: 0,
+      options: [ "trial", "sentence", "verdict", "charge" ],
+      correctAnswer: 1,
       explanation: "'Sentence' es la condena o sentencia."
     } as any
   },
@@ -1123,13 +933,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "He was ________ to five years in prison.",
-      options: [
-        "sentenced",
-        "arrested",
-        "charged",
-        "accused"
-      ],
-      correctAnswer: 0,
+      options: [ "charged", "accused", "sentenced", "arrested" ],
+      correctAnswer: 2,
       explanation: "Se usa 'sentenced to' para indicar la duración de la condena."
     } as any
   },
@@ -1142,13 +947,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The police are ________ the cause of the fire.",
-      options: [
-        "investigating",
-        "sentencing",
-        "arresting",
-        "judging"
-      ],
-      correctAnswer: 0,
+      options: [ "sentencing", "investigating", "judging", "arresting" ],
+      correctAnswer: 1,
       explanation: "Investigar (investigating) es buscar la causa."
     } as any
   },
@@ -1163,13 +963,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "A ________ society has people from many different cultures.",
-      options: [
-        "multicultural",
-        "traditional",
-        "conservative",
-        "global"
-      ],
-      correctAnswer: 0,
+      options: [ "traditional", "multicultural", "conservative", "global" ],
+      correctAnswer: 1,
       explanation: "'Multicultural' indica diversidad de culturas."
     } as any
   },
@@ -1182,13 +977,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "We should respect people regardless of their ________.",
-      options: [
-        "background",
-        "height",
-        "hobbies",
-        "shoes"
-      ],
-      correctAnswer: 0,
+      options: [ "shoes", "hobbies", "height", "background" ],
+      correctAnswer: 3,
       explanation: "'Background' se refiere al origen o historia personal."
     } as any
   },
@@ -1201,13 +991,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Many people ________ to other countries to find better jobs.",
-      options: [
-        "migrate",
-        "visit",
-        "travel",
-        "stay"
-      ],
-      correctAnswer: 0,
+      options: [ "stay", "migrate", "travel", "visit" ],
+      correctAnswer: 1,
       explanation: "'Migrate' (migrar) implica mudarse a otro país."
     } as any
   },
@@ -1220,12 +1005,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Cultural ________ makes a society more interesting.",
-      options: [
-        "diversity",
-        "unity",
-        "poverty",
-        "identity"
-      ],
+      options: [ "diversity", "identity", "poverty", "unity" ],
       correctAnswer: 0,
       explanation: "'Diversity' (diversidad) aporta riqueza cultural."
     } as any
@@ -1239,13 +1019,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "People should have equal ________ regardless of their gender.",
-      options: [
-        "opportunities",
-        "problems",
-        "clothes",
-        "languages"
-      ],
-      correctAnswer: 0,
+      options: [ "clothes", "opportunities", "problems", "languages" ],
+      correctAnswer: 1,
       explanation: "'Opportunities' (oportunidades) deben ser iguales para todos."
     } as any
   },
@@ -1258,13 +1033,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Learning a new language helps you understand another ________.",
-      options: [
-        "culture",
-        "alphabet",
-        "sentence",
-        "voice"
-      ],
-      correctAnswer: 0,
+      options: [ "alphabet", "voice", "sentence", "culture" ],
+      correctAnswer: 3,
       explanation: "El idioma es una puerta a la cultura."
     } as any
   },
@@ -1277,13 +1047,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "________ is the belief that some races are better than others.",
-      options: [
-        "Racism",
-        "Sexist",
-        "Feminism",
-        "Nationalism"
-      ],
-      correctAnswer: 0,
+      options: [ "Sexist", "Nationalism", "Racism", "Feminism" ],
+      correctAnswer: 2,
       explanation: "El racismo es esa creencia discriminatoria."
     } as any
   },
@@ -1296,12 +1061,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "It is important to promote ________ in the workplace.",
-      options: [
-        "inclusion",
-        "exclusion",
-        "pollution",
-        "reduction"
-      ],
+      options: [ "inclusion", "pollution", "exclusion", "reduction" ],
       correctAnswer: 0,
       explanation: "'Inclusion' (inclusión) es integrar a todos."
     } as any
@@ -1315,13 +1075,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "________ is having a preconceived opinion that is not based on reason.",
-      options: [
-        "Prejudice",
-        "Justice",
-        "Honesty",
-        "Wisdom"
-      ],
-      correctAnswer: 0,
+      options: [ "Justice", "Prejudice", "Honesty", "Wisdom" ],
+      correctAnswer: 1,
       explanation: "'Prejudice' (prejuicio) es una opinión sin base real."
     } as any
   },
@@ -1334,13 +1089,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The country is known for its religious ________.",
-      options: [
-        "tolerance",
-        "conflict",
-        "problem",
-        "issue"
-      ],
-      correctAnswer: 0,
+      options: [ "problem", "conflict", "tolerance", "issue" ],
+      correctAnswer: 2,
       explanation: "'Tolerance' (tolerancia) es el respeto a otras creencias."
     } as any
   },
@@ -1355,12 +1105,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "A ________ is a person who follows a religion.",
-      options: [
-        "believer",
-        "leader",
-        "speaker",
-        "player"
-      ],
+      options: [ "believer", "speaker", "player", "leader" ],
       correctAnswer: 0,
       explanation: "Un creyente (believer) profesa una fe."
     } as any
@@ -1374,13 +1119,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "People go to a ________ to pray in many religions.",
-      options: [
-        "temple",
-        "stadium",
-        "factory",
-        "market"
-      ],
-      correctAnswer: 0,
+      options: [ "stadium", "temple", "factory", "market" ],
+      correctAnswer: 1,
       explanation: "Un templo (temple) es un lugar de oración."
     } as any
   },
@@ -1393,13 +1133,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "________ is the belief in one or more gods.",
-      options: [
-        "Religion",
-        "Science",
-        "Politics",
-        "Culture"
-      ],
-      correctAnswer: 0,
+      options: [ "Politics", "Science", "Culture", "Religion" ],
+      correctAnswer: 3,
       explanation: "La religión trata sobre la fe en divinidades."
     } as any
   },
@@ -1412,13 +1147,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "A ________ is a formal religious act.",
-      options: [
-        "ritual",
-        "habit",
-        "meeting",
-        "speech"
-      ],
-      correctAnswer: 0,
+      options: [ "meeting", "speech", "habit", "ritual" ],
+      correctAnswer: 3,
       explanation: "Un ritual es un acto religioso formal."
     } as any
   },
@@ -1431,13 +1161,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "He has a lot of ________ in his own abilities.",
-      options: [
-        "faith",
-        "religion",
-        "ritual",
-        "prayer"
-      ],
-      correctAnswer: 0,
+      options: [ "ritual", "faith", "religion", "prayer" ],
+      correctAnswer: 1,
       explanation: "'Faith' (fe/confianza) puede aplicarse a uno mismo."
     } as any
   },
@@ -1450,13 +1175,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The ________ is the holy book of Christianity.",
-      options: [
-        "Bible",
-        "Quran",
-        "Torah",
-        "Vedas"
-      ],
-      correctAnswer: 0,
+      options: [ "Quran", "Vedas", "Bible", "Torah" ],
+      correctAnswer: 2,
       explanation: "La Biblia es el libro sagrado cristiano."
     } as any
   },
@@ -1469,12 +1189,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Freedom of ________ is a basic human right.",
-      options: [
-        "worship",
-        "praying",
-        "belief",
-        "religion"
-      ],
+      options: [ "worship", "religion", "praying", "belief" ],
       correctAnswer: 0,
       explanation: "'Freedom of worship' (libertad de culto) es un derecho común."
     } as any
@@ -1488,13 +1203,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "A ________ is a religious leader in some communities.",
-      options: [
-        "priest",
-        "officer",
-        "manager",
-        "doctor"
-      ],
-      correctAnswer: 0,
+      options: [ "doctor", "manager", "priest", "officer" ],
+      correctAnswer: 2,
       explanation: "Un sacerdote (priest) es un líder religioso."
     } as any
   },
@@ -1507,13 +1217,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "They ________ every day at sunrise.",
-      options: [
-        "pray",
-        "praise",
-        "preach",
-        "believe"
-      ],
-      correctAnswer: 0,
+      options: [ "preach", "believe", "pray", "praise" ],
+      correctAnswer: 2,
       explanation: "'Pray' (orar/rezar) es la acción de comunicarse con lo divino."
     } as any
   },
@@ -1526,13 +1231,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Spirituality is very ________ to her.",
-      options: [
-        "meaningful",
-        "religious",
-        "faithful",
-        "sacred"
-      ],
-      correctAnswer: 0,
+      options: [ "sacred", "meaningful", "religious", "faithful" ],
+      correctAnswer: 1,
       explanation: "'Meaningful' significa que tiene mucho significado o importancia."
     } as any
   },
@@ -1547,13 +1247,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "I ________ with my neighbors very well.",
-      options: [
-        "get along",
-        "get up",
-        "get by",
-        "get in"
-      ],
-      correctAnswer: 0,
+      options: [ "get by", "get along", "get up", "get in" ],
+      correctAnswer: 1,
       explanation: "'Get along' significa llevarse bien con alguien."
     } as any
   },
@@ -1566,13 +1261,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "We should ________ the environment.",
-      options: [
-        "look after",
-        "look for",
-        "look into",
-        "look at"
-      ],
-      correctAnswer: 0,
+      options: [ "look into", "look at", "look for", "look after" ],
+      correctAnswer: 3,
       explanation: "'Look after' significa cuidar."
     } as any
   },
@@ -1585,12 +1275,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "He ________ to his grandfather as a role model.",
-      options: [
-        "looks up",
-        "looks down",
-        "looks after",
-        "looks for"
-      ],
+      options: [ "looks up", "looks after", "looks for", "looks down" ],
       correctAnswer: 0,
       explanation: "'Look up to' significa admirar a alguien."
     } as any
@@ -1604,12 +1289,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The protest was ________ by the police.",
-      options: [
-        "broken up",
-        "broken down",
-        "broken in",
-        "broken off"
-      ],
+      options: [ "broken up", "broken off", "broken in", "broken down" ],
       correctAnswer: 0,
       explanation: "'Break up' puede significar dispersar una multitud."
     } as any
@@ -1623,12 +1303,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Many people ________ on their parents when they are young.",
-      options: [
-        "rely",
-        "count",
-        "depend",
-        "stay"
-      ],
+      options: [ "count", "rely", "depend", "stay" ],
       correctAnswer: 2,
       explanation: "Aunque no es un phrasal verb puro, 'depend on' es la estructura correcta (o 'rely on')."
     } as any
@@ -1642,12 +1317,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The government needs to ________ with a plan to fix the economy.",
-      options: [
-        "come up",
-        "come in",
-        "come along",
-        "come out"
-      ],
+      options: [ "come up", "come in", "come out", "come along" ],
       correctAnswer: 0,
       explanation: "'Come up with' significa idear o proponer un plan."
     } as any
@@ -1661,13 +1331,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "He ________ from his parents' home at the age of 18.",
-      options: [
-        "moved out",
-        "moved in",
-        "moved on",
-        "moved up"
-      ],
-      correctAnswer: 0,
+      options: [ "moved on", "moved out", "moved in", "moved up" ],
+      correctAnswer: 1,
       explanation: "'Move out' significa mudarse de una casa."
     } as any
   },
@@ -1680,13 +1345,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "We shouldn't ________ people who are less fortunate than us.",
-      options: [
-        "look down on",
-        "look up to",
-        "look after",
-        "look into"
-      ],
-      correctAnswer: 0,
+      options: [ "look up to", "look down on", "look after", "look into" ],
+      correctAnswer: 1,
       explanation: "'Look down on' significa menospreciar a alguien."
     } as any
   },
@@ -1699,12 +1359,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The community center helps people ________ with their new lives.",
-      options: [
-        "get on",
-        "get off",
-        "get in",
-        "get by"
-      ],
+      options: [ "get on", "get by", "get in", "get off" ],
       correctAnswer: 0,
       explanation: "'Get on' puede significar progresar o continuar con algo."
     } as any
@@ -1718,13 +1373,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "They are ________ for better working conditions.",
-      options: [
-        "calling",
-        "looking",
-        "putting",
-        "setting"
-      ],
-      correctAnswer: 0,
+      options: [ "setting", "calling", "looking", "putting" ],
+      correctAnswer: 1,
       explanation: "'Call for' significa exigir o pedir algo públicamente."
     } as any
   },
@@ -1739,13 +1389,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "What is the reported speech of: 'I'm happy,' she said?",
-      options: [
-        "She said she was happy.",
-        "She said she is happy.",
-        "She says she was happy.",
-        "She said she has been happy."
-      ],
-      correctAnswer: 0,
+      options: [ "She says she was happy.", "She said she is happy.", "She said she has been happy.", "She said she was happy." ],
+      correctAnswer: 3,
       explanation: "Cambio de presente simple a pasado simple."
     } as any
   },
@@ -1758,12 +1403,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Report the question: 'Where are you going?' he asked.",
-      options: [
-        "He asked me where I was going.",
-        "He asked me where was I going.",
-        "He asked me where I am going.",
-        "He asked me where did I go."
-      ],
+      options: [ "He asked me where I was going.", "He asked me where I am going.", "He asked me where did I go.", "He asked me where was I going." ],
       correctAnswer: 0,
       explanation: "Pregunta indirecta con orden de afirmación y cambio de tiempo."
     } as any
@@ -1777,13 +1417,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "What does 'unemployment' mean?",
-      options: [
-        "Not having a job",
-        "Working too much",
-        "Living in a city",
-        "Voting in elections"
-      ],
-      correctAnswer: 0,
+      options: [ "Voting in elections", "Living in a city", "Working too much", "Not having a job" ],
+      correctAnswer: 3,
       explanation: "Desempleo significa no tener trabajo."
     } as any
   },
@@ -1796,13 +1431,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Complete: 'The judge ________ the criminal to ten years.'",
-      options: [
-        "sentenced",
-        "arrested",
-        "called",
-        "judged"
-      ],
-      correctAnswer: 0,
+      options: [ "arrested", "called", "sentenced", "judged" ],
+      correctAnswer: 2,
       explanation: "El juez sentencia (sentenced) a alguien."
     } as any
   },
@@ -1815,13 +1445,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Choose the correct reporting verb: 'Please, sit down,' she ________ me.",
-      options: [
-        "asked",
-        "said",
-        "told",
-        "ordered"
-      ],
-      correctAnswer: 0,
+      options: [ "ordered", "said", "told", "asked" ],
+      correctAnswer: 3,
       explanation: "'Asked' es apropiado para peticiones corteses."
     } as any
   },
@@ -1834,12 +1459,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Which phrasal verb means 'to admire someone'?",
-      options: [
-        "Look up to",
-        "Look down on",
-        "Look after",
-        "Look for"
-      ],
+      options: [ "Look up to", "Look down on", "Look for", "Look after" ],
       correctAnswer: 0,
       explanation: "'Look up to' es admirar."
     } as any
@@ -1853,12 +1473,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Report the command: 'Don't shout!' he told them.",
-      options: [
-        "He told them not to shout.",
-        "He told them to not shout.",
-        "He told them don't shout.",
-        "He told them no shouting."
-      ],
+      options: [ "He told them not to shout.", "He told them no shouting.", "He told them to not shout.", "He told them don't shout." ],
       correctAnswer: 0,
       explanation: "Orden negativa: 'not to + infinitive'."
     } as any
@@ -1872,13 +1487,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "What is 'multiculturalism'?",
-      options: [
-        "The presence of several cultures",
-        "The belief in one culture only",
-        "Moving to another city",
-        "Voting for a new leader"
-      ],
-      correctAnswer: 0,
+      options: [ "Moving to another city", "Voting for a new leader", "The presence of several cultures", "The belief in one culture only" ],
+      correctAnswer: 2,
       explanation: "Multiculturalidad es la presencia de varias culturas."
     } as any
   },
@@ -1891,13 +1501,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Complete: 'The government has ________ a new law.'",
-      options: [
-        "passed",
-        "done",
-        "made",
-        "voted"
-      ],
-      correctAnswer: 0,
+      options: [ "voted", "done", "made", "passed" ],
+      correctAnswer: 3,
       explanation: "'Pass a law' es la expresión para aprobar una ley."
     } as any
   },
@@ -1910,13 +1515,8 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Speculating: 'The election results ________ be announced tonight.'",
-      options: [
-        "might",
-        "shall",
-        "do",
-        "have"
-      ],
-      correctAnswer: 0,
+      options: [ "do", "have", "might", "shall" ],
+      correctAnswer: 2,
       explanation: "'Might' indica posibilidad para el futuro."
     } as any
   }

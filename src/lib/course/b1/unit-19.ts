@@ -106,7 +106,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "What do you call someone who works for themselves?",
-      options: ["Employee", "Freelancer", "Manager", "CEO"],
+      options: [ "Manager", "Freelancer", "CEO", "Employee" ],
       correctAnswer: 1,
       explanation: "A freelancer is self-employed and works for different companies on specific projects."
     }
@@ -120,8 +120,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "A person who is in charge of a department is a...",
-      options: ["Trainee", "Manager", "Intern", "Assistant"],
-      correctAnswer: 1,
+      options: [ "Manager", "Assistant", "Trainee", "Intern" ],
+      correctAnswer: 0,
       explanation: "A manager is responsible for controlling or administering an organization or group of staff."
     }
   },
@@ -134,8 +134,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "A company's main office is its...",
-      options: ["Branch", "Headquarters", "Warehouse", "Canteen"],
-      correctAnswer: 1,
+      options: [ "Branch", "Warehouse", "Headquarters", "Canteen" ],
+      correctAnswer: 2,
       explanation: "Headquarters (HQ) is the center of operations or administration for an organization."
     }
   },
@@ -148,8 +148,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "What is another word for 'colleague'?",
-      options: ["Boss", "Co-worker", "Client", "Customer"],
-      correctAnswer: 1,
+      options: [ "Boss", "Customer", "Co-worker", "Client" ],
+      correctAnswer: 2,
       explanation: "A co-worker is a person who works with you in the same place."
     }
   },
@@ -162,7 +162,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "A 'startup' is a company that...",
-      options: ["Is very old", "Has just been started", "Is going bankrupt", "Has many employees"],
+      options: [ "Is going bankrupt", "Has just been started", "Is very old", "Has many employees" ],
       correctAnswer: 1,
       explanation: "A startup is a newly established business."
     }
@@ -272,8 +272,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "What do you call a person who is learning a job?",
-      options: ["Expert", "Trainee", "Boss", "Client"],
-      correctAnswer: 1,
+      options: [ "Boss", "Client", "Expert", "Trainee" ],
+      correctAnswer: 3,
       explanation: "A trainee is a person undergoing training for a particular job or profession."
     }
   },
@@ -286,8 +286,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "To 'resign' from a job means to...",
-      options: ["Get fired", "Quit voluntarily", "Get promoted", "Start a new project"],
-      correctAnswer: 1,
+      options: [ "Get fired", "Start a new project", "Quit voluntarily", "Get promoted" ],
+      correctAnswer: 2,
       explanation: "Resigning is the act of voluntarily leaving a job."
     }
   },
@@ -300,7 +300,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Extra money given for good work is a...",
-      options: ["Tax", "Bonus", "Bill", "Debt"],
+      options: [ "Debt", "Bonus", "Bill", "Tax" ],
       correctAnswer: 1,
       explanation: "A bonus is a sum of money added to a person's wages as a reward."
     }
@@ -314,8 +314,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "What does 'unemployed' mean?",
-      options: ["Working too much", "Not having a job", "Being the boss", "Working part-time"],
-      correctAnswer: 1,
+      options: [ "Working too much", "Working part-time", "Being the boss", "Not having a job" ],
+      correctAnswer: 3,
       explanation: "Unemployed means without a paid job but available for work."
     }
   },
@@ -328,8 +328,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "To 'retire' means to stop working because you are...",
-      options: ["Sick", "Bored", "Old enough", "Unhappy"],
-      correctAnswer: 2,
+      options: [ "Old enough", "Unhappy", "Bored", "Sick" ],
+      correctAnswer: 0,
       explanation: "Retirement usually happens at the end of a long career, often around age 65."
     }
   },
@@ -362,8 +362,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'I am busy', she said. Reported: She said she ________ busy.",
-      options: ["is", "was", "will be", "had been"],
-      correctAnswer: 1,
+      options: [ "is", "will be", "was", "had been" ],
+      correctAnswer: 2,
       explanation: "Present Simple 'am' becomes Past Simple 'was' in reported speech."
     }
   },
@@ -376,8 +376,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'Do you want the job?' he asked. Reported: He asked ________ I wanted the job.",
-      options: ["if", "that", "why", "how"],
-      correctAnswer: 0,
+      options: [ "why", "that", "how", "if" ],
+      correctAnswer: 3,
       explanation: "For Yes/No questions, we use 'if' or 'whether' in reported speech."
     }
   },
@@ -390,8 +390,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'I will call you', he said. Reported: He said he ________ call me.",
-      options: ["will", "would", "shall", "can"],
-      correctAnswer: 1,
+      options: [ "would", "shall", "can", "will" ],
+      correctAnswer: 0,
       explanation: "'Will' changes to 'would' in reported speech."
     }
   },
@@ -404,8 +404,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Direct: 'Where do you work?' he asked. Reported: He asked me where I ________.",
-      options: ["work", "working", "worked", "did work"],
-      correctAnswer: 2,
+      options: [ "work", "did work", "working", "worked" ],
+      correctAnswer: 3,
       explanation: "The question 'Where do you work?' becomes a statement 'where I worked' in reported speech."
     }
   },
@@ -418,8 +418,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'I have finished the report', she said. Reported: She said she ________ finished the report.",
-      options: ["has", "had", "was", "is"],
-      correctAnswer: 1,
+      options: [ "has", "was", "had", "is" ],
+      correctAnswer: 2,
       explanation: "Present Perfect 'have finished' becomes Past Perfect 'had finished'."
     }
   },
@@ -432,8 +432,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'I can't come to the meeting', he said. Reported: He said he ________ come to the meeting.",
-      options: ["can't", "couldn't", "mustn't", "won't"],
-      correctAnswer: 1,
+      options: [ "won't", "can't", "mustn't", "couldn't" ],
+      correctAnswer: 3,
       explanation: "'Can't' changes to 'couldn't' in reported speech."
     }
   },
@@ -446,8 +446,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'We are moving offices next week', they said. Reported: They said they ________ moving offices the following week.",
-      options: ["are", "were", "been", "have been"],
-      correctAnswer: 1,
+      options: [ "have been", "been", "were", "are" ],
+      correctAnswer: 2,
       explanation: "Present Continuous 'are moving' becomes Past Continuous 'were moving'."
     }
   },
@@ -460,7 +460,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'I saw the manager yesterday', he said. Reported: He said he ________ the manager the day before.",
-      options: ["saw", "had seen", "has seen", "was seeing"],
+      options: [ "was seeing", "had seen", "has seen", "saw" ],
       correctAnswer: 1,
       explanation: "Past Simple 'saw' changes to Past Perfect 'had seen'."
     }
@@ -474,7 +474,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Direct: 'Don't be late', she told me. Reported: She told me ________ late.",
-      options: ["to not be", "not to be", "don't be", "no be"],
+      options: [ "no be", "not to be", "to not be", "don't be" ],
       correctAnswer: 1,
       explanation: "For negative commands, we use 'not to + infinitive'."
     }
@@ -527,8 +527,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The manager ________ me to apply for the promotion.",
-      options: ["suggested", "advised", "offered", "said"],
-      correctAnswer: 1,
+      options: [ "advised", "said", "suggested", "offered" ],
+      correctAnswer: 0,
       explanation: "Advise + object + to-infinitive."
     }
   },
@@ -541,7 +541,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "He ________ us not to touch the machinery.",
-      options: ["warned", "suggested", "offered", "explained"],
+      options: [ "warned", "suggested", "offered", "explained" ],
       correctAnswer: 0,
       explanation: "Warn + object + (not) to-infinitive."
     }
@@ -555,8 +555,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "They ________ to give me a raise.",
-      options: ["suggested", "advised", "promised", "said"],
-      correctAnswer: 2,
+      options: [ "promised", "said", "advised", "suggested" ],
+      correctAnswer: 0,
       explanation: "Promise + to-infinitive."
     }
   },
@@ -569,7 +569,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "She ________ having a meeting on Friday.",
-      options: ["advised", "suggested", "offered", "warned"],
+      options: [ "advised", "suggested", "offered", "warned" ],
       correctAnswer: 1,
       explanation: "Suggest + -ing."
     }
@@ -583,7 +583,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "He ________ me that the company was growing.",
-      options: ["told", "said", "suggested", "offered"],
+      options: [ "told", "offered", "said", "suggested" ],
       correctAnswer: 0,
       explanation: "Tell + object + that-clause."
     }
@@ -597,8 +597,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I ________ them to be careful with the documents.",
-      options: ["warned", "suggested", "advised", "said"],
-      correctAnswer: 2,
+      options: [ "warned", "advised", "suggested", "said" ],
+      correctAnswer: 1,
       explanation: "Advise + object + to-infinitive."
     }
   },
@@ -611,8 +611,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "He ________ to drive me home after work.",
-      options: ["offered", "suggested", "advised", "told"],
-      correctAnswer: 0,
+      options: [ "suggested", "offered", "told", "advised" ],
+      correctAnswer: 1,
       explanation: "Offer + to-infinitive."
     }
   },
@@ -625,8 +625,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The boss ________ that everyone should arrive on time.",
-      options: ["warned", "insisted", "offered", "suggested"],
-      correctAnswer: 1,
+      options: [ "warned", "offered", "suggested", "insisted" ],
+      correctAnswer: 3,
       explanation: "Insist + that-clause."
     }
   },
@@ -735,8 +735,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "Which word is the opposite of 'Professional'?",
-      options: ["Expert", "Unprofessional", "Skilled", "Trained"],
-      correctAnswer: 1,
+      options: [ "Expert", "Skilled", "Trained", "Unprofessional" ],
+      correctAnswer: 3,
       explanation: "Unprofessional means not showing the standards of behavior expected of a professional."
     }
   },
@@ -749,8 +749,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Small talk at the office is usually about...",
-      options: ["Personal secrets", "Light, non-controversial topics", "Company finances", "Religious beliefs"],
-      correctAnswer: 1,
+      options: [ "Company finances", "Religious beliefs", non-controversial topics", "Personal secrets", "Light ],
+      correctAnswer: 4,
       explanation: "Small talk is polite conversation about unimportant things."
     }
   },
@@ -763,8 +763,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If you 'meet a deadline', you finish your work...",
-      options: ["On time", "Late", "Early", "Never"],
-      correctAnswer: 0,
+      options: [ "Late", "Early", "Never", "On time" ],
+      correctAnswer: 3,
       explanation: "A deadline is the latest time or date by which something should be completed."
     }
   },
@@ -777,7 +777,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "What is 'initiative' in a workplace?",
-      options: ["Doing only what you are told", "Acting independently to solve problems", "Arriving late", "Taking long breaks"],
+      options: [ "Taking long breaks", "Acting independently to solve problems", "Doing only what you are told", "Arriving late" ],
       correctAnswer: 1,
       explanation: "Initiative is the ability to assess and start things independently."
     }
@@ -791,8 +791,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Being 'efficient' means working...",
-      options: ["Slowly", "Well without wasting time or energy", "With many mistakes", "Only for the money"],
-      correctAnswer: 1,
+      options: [ "Slowly", "Only for the money", "With many mistakes", "Well without wasting time or energy" ],
+      correctAnswer: 3,
       explanation: "Efficiency is achieving maximum productivity with minimum wasted effort or expense."
     }
   },
@@ -901,8 +901,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "Which of these helps with work-life balance?",
-      options: ["Working on weekends", "Flexible working hours", "Checking emails at night", "Never taking holidays"],
-      correctAnswer: 1,
+      options: [ "Working on weekends", "Checking emails at night", "Never taking holidays", "Flexible working hours" ],
+      correctAnswer: 3,
       explanation: "Flexibility allows employees to manage personal and professional responsibilities better."
     }
   },
@@ -915,8 +915,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "A person who works too much and can't stop is a...",
-      options: ["Workaholic", "Entrepreneur", "Freelancer", "Manager"],
-      correctAnswer: 0,
+      options: [ "Manager", "Freelancer", "Entrepreneur", "Workaholic" ],
+      correctAnswer: 3,
       explanation: "A workaholic is a person who compulsively works excessively hard and long hours."
     }
   },
@@ -929,8 +929,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Taking a 'mental health day' means...",
-      options: ["Going to a doctor", "Taking a day off to rest and reduce stress", "Working from home", "Studying for an exam"],
-      correctAnswer: 1,
+      options: [ "Taking a day off to rest and reduce stress", "Going to a doctor", "Working from home", "Studying for an exam" ],
+      correctAnswer: 0,
       explanation: "Mental health days are important for preventing burnout."
     }
   },
@@ -943,7 +943,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "What is 'telecommuting'?",
-      options: ["Traveling by train", "Working from home using the internet", "Fixing computers", "Selling phones"],
+      options: [ "Traveling by train", "Working from home using the internet", "Selling phones", "Fixing computers" ],
       correctAnswer: 1,
       explanation: "Telecommuting is another term for remote work."
     }
@@ -957,8 +957,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "A 'perk' of a job is a...",
-      options: ["Problem", "Benefit (like a company car or free food)", "Mistake", "Task"],
-      correctAnswer: 1,
+      options: [ "Mistake", "Problem", "Benefit (like a company car or free food)", "Task" ],
+      correctAnswer: 2,
       explanation: "Perks are non-wage benefits provided by an employer."
     }
   },
@@ -1067,7 +1067,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "A 'job vacancy' means a job that is...",
-      options: ["Filled", "Available", "Cancelled", "Remote"],
+      options: [ "Filled", "Available", "Cancelled", "Remote" ],
       correctAnswer: 1,
       explanation: "A vacancy is an unoccupied position or job."
     }
@@ -1081,8 +1081,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "To 'shortlist' candidates means to...",
-      options: ["Hire everyone", "Choose the best few for interviews", "Fire them", "Pay them"],
-      correctAnswer: 1,
+      options: [ "Choose the best few for interviews", "Hire everyone", "Fire them", "Pay them" ],
+      correctAnswer: 0,
       explanation: "A shortlist is a list of selected candidates from which a final choice will be made."
     }
   },
@@ -1095,7 +1095,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "In an interview, you should talk about your...",
-      options: ["Favorite food", "Strengths and weaknesses", "Personal problems", "Vacation plans"],
+      options: [ "Personal problems", "Strengths and weaknesses", "Favorite food", "Vacation plans" ],
       correctAnswer: 1,
       explanation: "Interviewer want to know how you can contribute to the company."
     }
@@ -1109,8 +1109,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "To 'recruit' someone means to...",
-      options: ["Fire them", "Find and hire them", "Promote them", "Train them"],
-      correctAnswer: 1,
+      options: [ "Promote them", "Train them", "Find and hire them", "Fire them" ],
+      correctAnswer: 2,
       explanation: "Recruitment is the process of finding and hiring the best-qualified candidate."
     }
   },
@@ -1123,8 +1123,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Which of these is a 'soft skill'?",
-      options: ["Programming", "Communication", "Data analysis", "Accounting"],
-      correctAnswer: 1,
+      options: [ "Communication", "Data analysis", "Accounting", "Programming" ],
+      correctAnswer: 0,
       explanation: "Soft skills are personal attributes that enable someone to interact effectively with others."
     }
   },
@@ -1176,7 +1176,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "A 'mentor' is someone who...",
-      options: ["Works for you", "Guides and advises you", "Fires you", "Competes with you"],
+      options: [ "Fires you", "Guides and advises you", "Works for you", "Competes with you" ],
       correctAnswer: 1,
       explanation: "A mentor is an experienced and trusted adviser."
     }
@@ -1190,8 +1190,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "To 'collaborate' means to...",
-      options: ["Work alone", "Work together on a project", "Argue with a boss", "Leave a meeting"],
-      correctAnswer: 1,
+      options: [ "Work alone", "Leave a meeting", "Work together on a project", "Argue with a boss" ],
+      correctAnswer: 2,
       explanation: "Collaboration is working with someone to produce or create something."
     }
   },
@@ -1204,8 +1204,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "A 'business card' usually contains your...",
-      options: ["Bank account", "Contact information", "Home address", "Favorite hobbies"],
-      correctAnswer: 1,
+      options: [ "Contact information", "Bank account", "Favorite hobbies", "Home address" ],
+      correctAnswer: 0,
       explanation: "Business cards are used to share professional contact details."
     }
   },
@@ -1218,8 +1218,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "What is a 'conference'?",
-      options: ["A small meeting", "A large formal meeting for discussion", "A type of office", "A job interview"],
-      correctAnswer: 1,
+      options: [ "A type of office", "A job interview", "A small meeting", "A large formal meeting for discussion" ],
+      correctAnswer: 3,
       explanation: "Conferences are large events where people in the same field share information."
     }
   },
@@ -1232,8 +1232,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "To 'expand your network' means to...",
-      options: ["Buy more computers", "Meet more people in your industry", "Work longer hours", "Travel more"],
-      correctAnswer: 1,
+      options: [ "Meet more people in your industry", "Work longer hours", "Buy more computers", "Travel more" ],
+      correctAnswer: 0,
       explanation: "Expanding your network helps with professional growth."
     }
   },
@@ -1246,8 +1246,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "A 'team player' is someone who...",
-      options: ["Plays sports", "Works well with others", "Works only alone", "Is the captain of a ship"],
-      correctAnswer: 1,
+      options: [ "Works well with others", "Plays sports", "Works only alone", "Is the captain of a ship" ],
+      correctAnswer: 0,
       explanation: "Team players are highly valued in modern workplaces."
     }
   },
@@ -1260,8 +1260,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "What is 'small talk'?",
-      options: ["A secret", "Polite conversation about unimportant things", "A long speech", "A business negotiation"],
-      correctAnswer: 1,
+      options: [ "Polite conversation about unimportant things", "A long speech", "A business negotiation", "A secret" ],
+      correctAnswer: 0,
       explanation: "Small talk is used to build rapport in networking."
     }
   },
@@ -1274,8 +1274,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "A 'partnership' is a...",
-      options: ["Company division", "Relationship between two people or organizations working together", "Type of salary", "Job interview"],
-      correctAnswer: 1,
+      options: [ "Company division", "Job interview", "Type of salary", "Relationship between two people or organizations working together" ],
+      correctAnswer: 3,
       explanation: "Partnerships involve mutual cooperation and shared responsibility."
     }
   },
@@ -1327,8 +1327,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The meeting was ________ because the manager was sick.",
-      options: ["put off", "called off", "both are possible", "taken on"],
-      correctAnswer: 2,
+      options: [ "both are possible", "put off", "called off", "taken on" ],
+      correctAnswer: 0,
       explanation: "Put off (postponed) or called off (cancelled)."
     }
   },
@@ -1341,7 +1341,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "We need to ________ a solution for this problem.",
-      options: ["come up with", "get on with", "look forward to", "take on"],
+      options: [ "come up with", "take on", "look forward to", "get on with" ],
       correctAnswer: 0,
       explanation: "To 'come up with' is to think of or produce (an idea, solution, etc.)."
     }
@@ -1355,8 +1355,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Do you ________ your new colleagues?",
-      options: ["get on with", "carry out", "take on", "look into"],
-      correctAnswer: 0,
+      options: [ "look into", "take on", "carry out", "get on with" ],
+      correctAnswer: 3,
       explanation: "To 'get on with' someone is to have a good relationship with them."
     }
   },
@@ -1369,7 +1369,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I have to ________ the office before 6 PM.",
-      options: ["get in", "head to", "leave", "stay"],
+      options: [ "stay", "head to", "get in", "leave" ],
       correctAnswer: 1,
       explanation: "To 'head to' is to move in a certain direction (informal/common)."
     }
@@ -1383,8 +1383,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Can you ________ this report to see if there are any errors?",
-      options: ["look over", "look into", "look for", "look after"],
-      correctAnswer: 0,
+      options: [ "look into", "look over", "look for", "look after" ],
+      correctAnswer: 1,
       explanation: "To 'look over' is to examine something quickly."
     }
   },
@@ -1397,7 +1397,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "He ________ up his own business last year.",
-      options: ["set", "took", "put", "made"],
+      options: [ "set", "put", "took", "made" ],
       correctAnswer: 0,
       explanation: "To 'set up' is to start a business or organization."
     }
@@ -1411,8 +1411,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I'll ________ with the project tomorrow.",
-      options: ["go on", "get on", "both are possible", "take on"],
-      correctAnswer: 2,
+      options: [ "get on", "go on", "take on", "both are possible" ],
+      correctAnswer: 3,
       explanation: "Go on (continue) or get on (continue/progress)."
     }
   },
@@ -1425,8 +1425,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "She ________ for the CEO while he was away.",
-      options: ["filled in", "stood in", "both are possible", "took on"],
-      correctAnswer: 2,
+      options: [ "both are possible", "took on", "stood in", "filled in" ],
+      correctAnswer: 0,
       explanation: "Fill in or stand in for someone is to do their job temporarily."
     }
   },
@@ -1440,8 +1440,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "Direct: 'I am a doctor', he said. Reported: He said he ________ a doctor.",
-      options: ["is", "was", "will be", "had been"],
-      correctAnswer: 1,
+      options: [ "was", "will be", "had been", "is" ],
+      correctAnswer: 0,
       explanation: "Present Simple -> Past Simple."
     }
   },
@@ -1454,8 +1454,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The manager ________ me not to share the password.",
-      options: ["advised", "warned", "suggested", "said"],
-      correctAnswer: 1,
+      options: [ "warned", "suggested", "said", "advised" ],
+      correctAnswer: 0,
       explanation: "Warning someone about something they shouldn't do."
     }
   },
@@ -1468,8 +1468,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "I ________ (already / send) the email when I noticed the mistake.",
-      options: ["had already sent", "have already sent", "was already sending", "already sent"],
-      correctAnswer: 0,
+      options: [ "have already sent", "already sent", "had already sent", "was already sending" ],
+      correctAnswer: 2,
       explanation: "Past Perfect for an action before another past point."
     }
   },
@@ -1482,8 +1482,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "A company car is a common job ________.",
-      options: ["task", "perk", "problem", "mistake"],
-      correctAnswer: 1,
+      options: [ "task", "problem", "perk", "mistake" ],
+      correctAnswer: 2,
       explanation: "A perk is a benefit that comes with a job."
     }
   },
@@ -1496,8 +1496,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "She ________ to call me back in ten minutes.",
-      options: ["promised", "suggested", "warned", "said"],
-      correctAnswer: 0,
+      options: [ "said", "warned", "suggested", "promised" ],
+      correctAnswer: 3,
       explanation: "Promise + to-infinitive."
     }
   },
@@ -1510,8 +1510,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Which phrasal verb means 'to start a business'?",
-      options: ["Set up", "Take on", "Carry out", "Go on"],
-      correctAnswer: 0,
+      options: [ "Take on", "Set up", "Carry out", "Go on" ],
+      correctAnswer: 1,
       explanation: "To set up a business."
     }
   },
@@ -1524,8 +1524,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "He asked me ________ I had any questions.",
-      options: ["if", "that", "what", "how"],
-      correctAnswer: 0,
+      options: [ "how", "if", "that", "what" ],
+      correctAnswer: 1,
       explanation: "Reported Yes/No question."
     }
   },
@@ -1538,8 +1538,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Working from home is also called ________.",
-      options: ["commuting", "telecommuting", "networking", "advertising"],
-      correctAnswer: 1,
+      options: [ "advertising", "commuting", "telecommuting", "networking" ],
+      correctAnswer: 2,
       explanation: "Telecommuting is working remotely."
     }
   },
@@ -1552,8 +1552,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "She ________ taking a day off next week.",
-      options: ["suggested", "offered", "warned", "said"],
-      correctAnswer: 0,
+      options: [ "offered", "suggested", "said", "warned" ],
+      correctAnswer: 1,
       explanation: "Suggest + -ing."
     }
   },
@@ -1566,8 +1566,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "A ________ is a person who guides you in your career.",
-      options: ["trainee", "mentor", "client", "customer"],
-      correctAnswer: 1,
+      options: [ "mentor", "client", "customer", "trainee" ],
+      correctAnswer: 0,
       explanation: "A mentor provides guidance and advice."
     }
   }

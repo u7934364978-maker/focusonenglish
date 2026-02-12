@@ -106,8 +106,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "What do you call a period of 10 years?",
-      options: ["A century", "A decade", "An era", "A millennium"],
-      correctAnswer: 1,
+      options: [ "A decade", "A millennium", "A century", "An era" ],
+      correctAnswer: 0,
       explanation: "A decade is a period of ten years."
     }
   },
@@ -120,8 +120,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The period from about 1400 to 1600 in Europe is called the...",
-      options: ["Stone Age", "Renaissance", "Middle Ages", "Iron Age"],
-      correctAnswer: 1,
+      options: [ "Iron Age", "Stone Age", "Middle Ages", "Renaissance" ],
+      correctAnswer: 3,
       explanation: "The Renaissance was a period of cultural and artistic rebirth in Europe."
     }
   },
@@ -134,7 +134,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Which of these events happened in the 20th century?",
-      options: ["The French Revolution", "World War II", "The discovery of America", "The building of the Pyramids"],
+      options: [ "The building of the Pyramids", "World War II", "The discovery of America", "The French Revolution" ],
       correctAnswer: 1,
       explanation: "World War II took place from 1939 to 1945."
     }
@@ -148,8 +148,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "What is the opposite of 'Modern'?",
-      options: ["New", "Recent", "Ancient", "Current"],
-      correctAnswer: 2,
+      options: [ "Ancient", "Current", "New", "Recent" ],
+      correctAnswer: 0,
       explanation: "Ancient refers to the very distant past, making it the opposite of modern."
     }
   },
@@ -162,8 +162,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The study of past events, particularly in human affairs, is...",
-      options: ["Geography", "History", "Maths", "Art"],
-      correctAnswer: 1,
+      options: [ "History", "Geography", "Maths", "Art" ],
+      correctAnswer: 0,
       explanation: "History is the academic discipline that studies the past."
     }
   },
@@ -272,8 +272,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "A person who studies archaeology is an...",
-      options: ["Architect", "Archaeologist", "Artist", "Astronaut"],
-      correctAnswer: 1,
+      options: [ "Astronaut", "Architect", "Artist", "Archaeologist" ],
+      correctAnswer: 3,
       explanation: "An archaeologist is a specialist in archaeology."
     }
   },
@@ -286,8 +286,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Which civilization built the Great Wall of China?",
-      options: ["Roman", "Greek", "Chinese", "Aztec"],
-      correctAnswer: 2,
+      options: [ "Aztec", "Chinese", "Roman", "Greek" ],
+      correctAnswer: 1,
       explanation: "The Great Wall was built by various Chinese dynasties."
     }
   },
@@ -300,7 +300,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Old bones that have turned into stone are called...",
-      options: ["Artifacts", "Fossils", "Ruins", "Tools"],
+      options: [ "Ruins", "Fossils", "Tools", "Artifacts" ],
       correctAnswer: 1,
       explanation: "Fossils are the preserved remains of plants or animals."
     }
@@ -314,7 +314,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "To 'unearth' something means to...",
-      options: ["Bury it", "Find it by digging", "Break it", "Paint it"],
+      options: [ "Paint it", "Find it by digging", "Bury it", "Break it" ],
       correctAnswer: 1,
       explanation: "To unearth means to dig something up from the ground."
     }
@@ -328,8 +328,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The Rosetta Stone was key to understanding which writing system?",
-      options: ["Latin", "Greek", "Hieroglyphics", "Cuneiform"],
-      correctAnswer: 2,
+      options: [ "Cuneiform", "Latin", "Greek", "Hieroglyphics" ],
+      correctAnswer: 3,
       explanation: "The Rosetta Stone allowed scholars to decipher Egyptian hieroglyphs."
     }
   },
@@ -381,7 +381,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The Romans ________ (rule) Britain for centuries before they left.",
-      options: ["have been ruling", "had been ruling", "were ruling", "had ruled"],
+      options: [ "had ruled", "had been ruling", "were ruling", "have been ruling" ],
       correctAnswer: 1,
       explanation: "Past Perfect Continuous shows an action continuing up to a past point."
     }
@@ -395,8 +395,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "He was tired because he ________ (work) in the excavation all day.",
-      options: ["has been working", "had been working", "is working", "works"],
-      correctAnswer: 1,
+      options: [ "works", "is working", "has been working", "had been working" ],
+      correctAnswer: 3,
       explanation: "Reason for a past state, using Past Perfect Continuous."
     }
   },
@@ -409,8 +409,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "How long ________ you ________ (search) for the ruins before you found them?",
-      options: ["had / been searching", "have / been searching", "were / searching", "did / search"],
-      correctAnswer: 0,
+      options: [ "were / searching", "have / been searching", "did / search", "had / been searching" ],
+      correctAnswer: 3,
       explanation: "Question form of Past Perfect Continuous."
     }
   },
@@ -423,8 +423,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The historians ________ (study) the documents for months before reaching a conclusion.",
-      options: ["had been studying", "were studying", "studied", "have studied"],
-      correctAnswer: 0,
+      options: [ "have studied", "had been studying", "were studying", "studied" ],
+      correctAnswer: 1,
       explanation: "Duration of an action up to a past point."
     }
   },
@@ -437,7 +437,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "It ________ (rain) for days, so the excavation site was very muddy.",
-      options: ["had been raining", "has been raining", "was raining", "rained"],
+      options: [ "had been raining", "rained", "was raining", "has been raining" ],
       correctAnswer: 0,
       explanation: "Cause of a past situation."
     }
@@ -451,7 +451,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I ________ (not / live) there long when the war started.",
-      options: ["hadn't been living", "wasn't living", "haven't been living", "don't live"],
+      options: [ "hadn't been living", "haven't been living", "wasn't living", "don't live" ],
       correctAnswer: 0,
       explanation: "Negative form of Past Perfect Continuous."
     }
@@ -465,7 +465,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "They ________ (try) to find the city for years before they finally succeeded.",
-      options: ["had been trying", "were trying", "have been trying", "tried"],
+      options: [ "had been trying", "were trying", "tried", "have been trying" ],
       correctAnswer: 0,
       explanation: "Continuous effort over time in the past."
     }
@@ -479,7 +479,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "She ________ (teach) history for 20 years before she retired.",
-      options: ["had been teaching", "has been teaching", "is teaching", "was teaching"],
+      options: [ "had been teaching", "is teaching", "has been teaching", "was teaching" ],
       correctAnswer: 0,
       explanation: "Action continuing up to retirement (a past event)."
     }
@@ -532,8 +532,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Ancient Greeks ________ (tell) stories about gods.",
-      options: ["would", "used to", "both are correct", "will"],
-      correctAnswer: 2,
+      options: [ "used to", "would", "will", "both are correct" ],
+      correctAnswer: 3,
       explanation: "Both 'used to' and 'would' can be used for repeated actions in the past."
     }
   },
@@ -546,8 +546,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "I ________ (have) a collection of old coins when I was a child.",
-      options: ["used to", "would", "both are correct", "had been having"],
-      correctAnswer: 0,
+      options: [ "had been having", "would", "both are correct", "used to" ],
+      correctAnswer: 3,
       explanation: "Only 'used to' can be used for past states (like 'have')."
     }
   },
@@ -560,8 +560,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "They ________ (not / have) electricity in the 18th century.",
-      options: ["didn't used to", "didn't use to", "wouldn't", "hadn't been having"],
-      correctAnswer: 1,
+      options: [ "didn't use to", "hadn't been having", "didn't used to", "wouldn't" ],
+      correctAnswer: 0,
       explanation: "Negative form: 'didn't use to'."
     }
   },
@@ -574,8 +574,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "My grandfather ________ (sit) and tell us about the war for hours.",
-      options: ["would", "used to", "both are correct", "was sitting"],
-      correctAnswer: 2,
+      options: [ "would", "both are correct", "used to", "was sitting" ],
+      correctAnswer: 1,
       explanation: "Repeated actions in the past can use both."
     }
   },
@@ -588,8 +588,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Rome ________ (be) a much smaller city 2000 years ago.",
-      options: ["used to", "would", "both are correct", "was being"],
-      correctAnswer: 0,
+      options: [ "would", "used to", "both are correct", "was being" ],
+      correctAnswer: 1,
       explanation: "Only 'used to' works for past states (like 'be')."
     }
   },
@@ -602,7 +602,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Did you ________ live near the museum?",
-      options: ["use to", "used to", "would", "had been living"],
+      options: [ "use to", "used to", "would", "had been living" ],
       correctAnswer: 0,
       explanation: "Question form: 'Did you use to...?'"
     }
@@ -616,8 +616,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Every Sunday, the family ________ go to the park.",
-      options: ["would", "used to", "both are correct", "will"],
-      correctAnswer: 2,
+      options: [ "will", "would", "used to", "both are correct" ],
+      correctAnswer: 3,
       explanation: "Repeated past action."
     }
   },
@@ -630,8 +630,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I ________ like history at school, but now I love it.",
-      options: ["didn't use to", "wouldn't", "haven't", "wasn't"],
-      correctAnswer: 0,
+      options: [ "wasn't", "didn't use to", "wouldn't", "haven't" ],
+      correctAnswer: 1,
       explanation: "State in the past: 'didn't use to'."
     }
   },
@@ -740,8 +740,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "Who was the first person to step on the Moon?",
-      options: ["Neil Armstrong", "Isaac Newton", "Albert Einstein", "Marco Polo"],
-      correctAnswer: 0,
+      options: [ "Isaac Newton", "Albert Einstein", "Marco Polo", "Neil Armstrong" ],
+      correctAnswer: 3,
       explanation: "Neil Armstrong was an American astronaut who landed on the moon in 1969."
     }
   },
@@ -754,8 +754,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Leonardo da Vinci was a famous artist and ________.",
-      options: ["explorer", "inventor", "monarch", "archaeologist"],
-      correctAnswer: 1,
+      options: [ "inventor", "archaeologist", "explorer", "monarch" ],
+      correctAnswer: 0,
       explanation: "Da Vinci was a polymath who invented many machines."
     }
   },
@@ -768,8 +768,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Which figure is associated with the fight for civil rights in the USA?",
-      options: ["Martin Luther King Jr.", "Napoleon Bonaparte", "Julius Caesar", "William Shakespeare"],
-      correctAnswer: 0,
+      options: [ "Julius Caesar", "Martin Luther King Jr.", "Napoleon Bonaparte", "William Shakespeare" ],
+      correctAnswer: 1,
       explanation: "MLK Jr. was a leader in the American civil rights movement."
     }
   },
@@ -782,8 +782,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Alexander the Great created a vast ________.",
-      options: ["ruin", "empire", "dynasty", "monastery"],
-      correctAnswer: 1,
+      options: [ "dynasty", "monastery", "empire", "ruin" ],
+      correctAnswer: 2,
       explanation: "Alexander created one of the largest empires in history."
     }
   },
@@ -796,8 +796,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "A person who is forced to leave their country because of war is a...",
-      options: ["Refugee", "Monarch", "Explorer", "Revolutionary"],
-      correctAnswer: 0,
+      options: [ "Revolutionary", "Refugee", "Monarch", "Explorer" ],
+      correctAnswer: 1,
       explanation: "Refugees flee their home countries due to conflict or persecution."
     }
   },
@@ -906,8 +906,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "Who invented the telephone?",
-      options: ["Alexander Graham Bell", "Thomas Edison", "Benjamin Franklin", "Isaac Newton"],
-      correctAnswer: 0,
+      options: [ "Isaac Newton", "Alexander Graham Bell", "Thomas Edison", "Benjamin Franklin" ],
+      correctAnswer: 1,
       explanation: "Bell is credited with inventing the first practical telephone."
     }
   },
@@ -920,8 +920,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The Industrial ________ started in Britain in the 18th century.",
-      options: ["Revolution", "Evolution", "Invention", "Creation"],
-      correctAnswer: 0,
+      options: [ "Creation", "Revolution", "Invention", "Evolution" ],
+      correctAnswer: 1,
       explanation: "The Industrial Revolution was a period of major change in manufacturing."
     }
   },
@@ -934,7 +934,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Marie Curie is famous for her work on...",
-      options: ["Radioactivity", "Electricity", "Gravity", "Evolution"],
+      options: [ "Radioactivity", "Evolution", "Gravity", "Electricity" ],
       correctAnswer: 0,
       explanation: "Marie Curie was a pioneer in the study of radioactivity."
     }
@@ -948,8 +948,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Darwin's theory of ________ explains how species change over time.",
-      options: ["Relativity", "Evolution", "Gravity", "Quantum Mechanics"],
-      correctAnswer: 1,
+      options: [ "Evolution", "Quantum Mechanics", "Gravity", "Relativity" ],
+      correctAnswer: 0,
       explanation: "Charles Darwin proposed the theory of evolution by natural selection."
     }
   },
@@ -962,8 +962,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The Printing Press was a crucial invention by...",
-      options: ["Leonardo da Vinci", "Johannes Gutenberg", "Isaac Newton", "James Watt"],
-      correctAnswer: 1,
+      options: [ "Johannes Gutenberg", "James Watt", "Isaac Newton", "Leonardo da Vinci" ],
+      correctAnswer: 0,
       explanation: "Gutenberg's printing press allowed for the mass production of books."
     }
   },
@@ -1072,8 +1072,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "What is the opposite of 'War'?",
-      options: ["Conflict", "Peace", "Battle", "Struggle"],
-      correctAnswer: 1,
+      options: [ "Battle", "Struggle", "Conflict", "Peace" ],
+      correctAnswer: 3,
       explanation: "Peace is the state of tranquility or quiet, the opposite of war."
     }
   },
@@ -1086,7 +1086,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "A group of countries that work together is called an...",
-      options: ["Alliance", "Empire", "Dynasty", "Army"],
+      options: [ "Alliance", "Dynasty", "Empire", "Army" ],
       correctAnswer: 0,
       explanation: "An alliance is a union or association formed for mutual benefit."
     }
@@ -1100,8 +1100,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Which war is often called the 'Great War'?",
-      options: ["World War I", "World War II", "The Cold War", "The Vietnam War"],
-      correctAnswer: 0,
+      options: [ "The Vietnam War", "The Cold War", "World War II", "World War I" ],
+      correctAnswer: 3,
       explanation: "World War I was known as the Great War before World War II occurred."
     }
   },
@@ -1114,8 +1114,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "To 'surrender' means to...",
-      options: ["Attack", "Stop fighting and admit defeat", "Win a battle", "Run away"],
-      correctAnswer: 1,
+      options: [ "Attack", "Run away", "Stop fighting and admit defeat", "Win a battle" ],
+      correctAnswer: 2,
       explanation: "To surrender is to give up or yield to the enemy."
     }
   },
@@ -1128,8 +1128,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "What ended the Cold War?",
-      options: ["A big battle", "The fall of the Berlin Wall", "A nuclear explosion", "The discovery of America"],
-      correctAnswer: 1,
+      options: [ "The fall of the Berlin Wall", "A nuclear explosion", "A big battle", "The discovery of America" ],
+      correctAnswer: 0,
       explanation: "The fall of the Berlin Wall in 1989 symbolized the end of the Cold War."
     }
   },
@@ -1181,7 +1181,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If I ________ (be) you, I would visit the Colosseum.",
-      options: ["am", "was", "were", "had been"],
+      options: [ "had been", "am", "were", "was" ],
       correctAnswer: 2,
       explanation: "In the Second Conditional, 'were' is used for all persons with 'be'."
     }
@@ -1195,7 +1195,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If the library ________ (open) tomorrow, I will go there.",
-      options: ["opens", "will open", "opened", "had opened"],
+      options: [ "opens", "will open", "opened", "had opened" ],
       correctAnswer: 0,
       explanation: "First Conditional: If + present simple, will + infinitive."
     }
@@ -1209,7 +1209,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If we had left earlier, we ________ (not / miss) the train.",
-      options: ["wouldn't miss", "won't miss", "wouldn't have missed", "didn't miss"],
+      options: [ "didn't miss", "won't miss", "wouldn't have missed", "wouldn't miss" ],
       correctAnswer: 2,
       explanation: "Third Conditional: imagining a different past result."
     }
@@ -1223,8 +1223,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If you ________ (mix) red and blue, you get purple.",
-      options: ["mix", "will mix", "mixed", "had mixed"],
-      correctAnswer: 0,
+      options: [ "will mix", "mix", "mixed", "had mixed" ],
+      correctAnswer: 1,
       explanation: "Zero Conditional: for general truths."
     }
   },
@@ -1237,7 +1237,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I ________ (tell) him if I had seen him yesterday.",
-      options: ["would tell", "would have told", "will tell", "told"],
+      options: [ "told", "would have told", "will tell", "would tell" ],
       correctAnswer: 1,
       explanation: "Third Conditional for a past hypothetical situation."
     }
@@ -1251,8 +1251,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "What ________ you ________ (do) if you won the lottery?",
-      options: ["will / do", "would / do", "would / have done", "do / do"],
-      correctAnswer: 1,
+      options: [ "would / do", "would / have done", "will / do", "do / do" ],
+      correctAnswer: 0,
       explanation: "Second Conditional for an unlikely future event."
     }
   },
@@ -1265,8 +1265,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If you ________ (not / water) plants, they die.",
-      options: ["don't water", "won't water", "didn't water", "haven't watered"],
-      correctAnswer: 0,
+      options: [ "didn't water", "won't water", "haven't watered", "don't water" ],
+      correctAnswer: 3,
       explanation: "Zero Conditional for a general rule."
     }
   },
@@ -1279,7 +1279,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If I ________ (have) more time, I would have finished the book.",
-      options: ["had", "had had", "have", "would have"],
+      options: [ "have", "had had", "had", "would have" ],
       correctAnswer: 1,
       explanation: "Third Conditional: If + past perfect (had had)."
     }
@@ -1389,8 +1389,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "A person whose job is to make maps is a...",
-      options: ["Cartographer", "Photographer", "Biologist", "Geologist"],
-      correctAnswer: 0,
+      options: [ "Photographer", "Geologist", "Cartographer", "Biologist" ],
+      correctAnswer: 2,
       explanation: "Cartography is the study and practice of making maps."
     }
   },
@@ -1403,7 +1403,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Which document starts with 'We the People...'?",
-      options: ["The Magna Carta", "The US Constitution", "The Treaty of Versailles", "The Bible"],
+      options: [ "The Magna Carta", "The US Constitution", "The Bible", "The Treaty of Versailles" ],
       correctAnswer: 1,
       explanation: "This is the famous preamble to the Constitution of the United States."
     }
@@ -1417,8 +1417,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "A primary source is a document created...",
-      options: ["Years later", "During the time of the event", "By a student", "By a computer"],
-      correctAnswer: 1,
+      options: [ "Years later", "By a student", "By a computer", "During the time of the event" ],
+      correctAnswer: 3,
       explanation: "Primary sources provide direct or first-hand evidence about an event."
     }
   },
@@ -1431,8 +1431,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Old paper made from plants in ancient Egypt was called...",
-      options: ["Parchment", "Papyrus", "Plastic", "Vellum"],
-      correctAnswer: 1,
+      options: [ "Plastic", "Vellum", "Parchment", "Papyrus" ],
+      correctAnswer: 3,
       explanation: "Papyrus was a material similar to thick paper used in ancient times as a writing surface."
     }
   },
@@ -1445,8 +1445,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The Magna Carta was signed in the year...",
-      options: ["1066", "1215", "1492", "1776"],
-      correctAnswer: 1,
+      options: [ "1776", "1492", "1066", "1215" ],
+      correctAnswer: 3,
       explanation: "The Magna Carta was issued by King John of England in 1215."
     }
   },
@@ -1460,8 +1460,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "Who was the first president of the USA?",
-      options: ["Abraham Lincoln", "George Washington", "Thomas Jefferson", "John Adams"],
-      correctAnswer: 1,
+      options: [ "George Washington", "Abraham Lincoln", "John Adams", "Thomas Jefferson" ],
+      correctAnswer: 0,
       explanation: "George Washington served as the first president from 1789 to 1797."
     }
   },
@@ -1474,8 +1474,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "I ________ (read) about the French Revolution for hours when I realized I was late.",
-      options: ["had been reading", "have been reading", "was reading", "read"],
-      correctAnswer: 0,
+      options: [ "was reading", "read", "had been reading", "have been reading" ],
+      correctAnswer: 2,
       explanation: "Past Perfect Continuous for an action interrupted by a past realization."
     }
   },
@@ -1488,8 +1488,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Where ________ the Incas ________ (live)?",
-      options: ["did / use to live", "would / live", "had / been living", "did / used to live"],
-      correctAnswer: 0,
+      options: [ "would / live", "had / been living", "did / used to live", "did / use to live" ],
+      correctAnswer: 3,
       explanation: "Correct question form for 'used to'."
     }
   },
@@ -1502,8 +1502,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If Napoleon ________ (not / invade) Russia, he might have stayed in power.",
-      options: ["didn't invade", "hadn't invaded", "wasn't invading", "haven't invaded"],
-      correctAnswer: 1,
+      options: [ "haven't invaded", "didn't invade", "wasn't invading", "hadn't invaded" ],
+      correctAnswer: 3,
       explanation: "Third Conditional for a past hypothetical."
     }
   },
@@ -1516,8 +1516,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The Parthenon is located in...",
-      options: ["Rome", "Athens", "Cairo", "Paris"],
-      correctAnswer: 1,
+      options: [ "Athens", "Paris", "Cairo", "Rome" ],
+      correctAnswer: 0,
       explanation: "The Parthenon is an ancient temple on the Athenian Acropolis, Greece."
     }
   },
@@ -1530,8 +1530,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If you ________ (study) archaeology, you would learn about the past.",
-      options: ["study", "studied", "will study", "had studied"],
-      correctAnswer: 1,
+      options: [ "had studied", "study", "studied", "will study" ],
+      correctAnswer: 2,
       explanation: "Second Conditional for an imaginary present situation."
     }
   },
@@ -1544,8 +1544,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The ________ system was used in Europe during the Middle Ages.",
-      options: ["Feudal", "Democratic", "Communist", "Capitalist"],
-      correctAnswer: 0,
+      options: [ "Capitalist", "Communist", "Democratic", "Feudal" ],
+      correctAnswer: 3,
       explanation: "Feudalism was the dominant social system in medieval Europe."
     }
   },
@@ -1558,8 +1558,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "They ________ (wait) for the results of the carbon dating for weeks.",
-      options: ["had been waiting", "have been waiting", "were waiting", "waited"],
-      correctAnswer: 0,
+      options: [ "were waiting", "waited", "have been waiting", "had been waiting" ],
+      correctAnswer: 3,
       explanation: "Past Perfect Continuous for duration up to a past point."
     }
   },
@@ -1572,8 +1572,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If I ________ (be) an archaeologist, I would travel the world.",
-      options: ["am", "was", "were", "had been"],
-      correctAnswer: 2,
+      options: [ "am", "was", "had been", "were" ],
+      correctAnswer: 3,
       explanation: "Second Conditional: 'If I were...'"
     }
   },
@@ -1586,8 +1586,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Which civilization developed the first writing system?",
-      options: ["Egyptians", "Sumerians", "Romans", "Greeks"],
-      correctAnswer: 1,
+      options: [ "Egyptians", "Romans", "Greeks", "Sumerians" ],
+      correctAnswer: 3,
       explanation: "The Sumerians of Mesopotamia are credited with developing Cuneiform, the first writing system."
     }
   }

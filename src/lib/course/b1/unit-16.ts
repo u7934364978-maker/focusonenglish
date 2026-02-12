@@ -106,8 +106,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "Which word is the opposite of 'Lie'?",
-      options: ["Truth", "Freedom", "Justice", "Reality"],
-      correctAnswer: 0,
+      options: [ "Justice", "Freedom", "Truth", "Reality" ],
+      correctAnswer: 2,
       explanation: "Truth is the state of being true, which is the opposite of a lie."
     }
   },
@@ -120,8 +120,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The state of being free within society from oppressive restrictions is...",
-      options: ["Justice", "Liberty", "Truth", "Reality"],
-      correctAnswer: 1,
+      options: [ "Reality", "Truth", "Justice", "Liberty" ],
+      correctAnswer: 3,
       explanation: "Liberty and Freedom are synonyms meaning the power to act and speak freely."
     }
   },
@@ -134,7 +134,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Which concept refers to fairness in the way people are treated?",
-      options: ["Existence", "Justice", "Truth", "Freedom"],
+      options: [ "Existence", "Justice", "Freedom", "Truth" ],
       correctAnswer: 1,
       explanation: "Justice is the principle of being fair and reasonable."
     }
@@ -148,8 +148,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Something that is 'subjective' depends on...",
-      options: ["Facts", "Personal feelings or opinions", "Universal laws", "Scientific evidence"],
-      correctAnswer: 1,
+      options: [ "Facts", "Universal laws", "Scientific evidence", "Personal feelings or opinions" ],
+      correctAnswer: 3,
       explanation: "Subjective means influenced by personal taste or opinions."
     }
   },
@@ -162,8 +162,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "What is the study of the fundamental nature of knowledge, reality, and existence?",
-      options: ["Biology", "Philosophy", "Geography", "History"],
-      correctAnswer: 1,
+      options: [ "Geography", "Biology", "Philosophy", "History" ],
+      correctAnswer: 2,
       explanation: "Philosophy is the intellectual quest for fundamental truths."
     }
   },
@@ -272,8 +272,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "If something is 'wrong', it is...",
-      options: ["Correct", "Ethical", "Incorrect or immoral", "Legal"],
-      correctAnswer: 2,
+      options: [ "Ethical", "Incorrect or immoral", "Correct", "Legal" ],
+      correctAnswer: 1,
       explanation: "Wrong means not correct or not morally right."
     }
   },
@@ -286,7 +286,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "A set of moral principles that guide a person's behavior is...",
-      options: ["A recipe", "Ethics", "A map", "A diary"],
+      options: [ "A recipe", "Ethics", "A map", "A diary" ],
       correctAnswer: 1,
       explanation: "Ethics refers to moral principles that govern a person's behavior."
     }
@@ -300,8 +300,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Someone who always tells the truth has the virtue of...",
-      options: ["Greed", "Honesty", "Laziness", "Pride"],
-      correctAnswer: 1,
+      options: [ "Pride", "Laziness", "Honesty", "Greed" ],
+      correctAnswer: 2,
       explanation: "Honesty is the quality of being truthful."
     }
   },
@@ -314,7 +314,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "What do you call a situation where you have to choose between two bad options?",
-      options: ["A party", "A vacation", "An ethical dilemma", "A gift"],
+      options: [ "A gift", "A vacation", "An ethical dilemma", "A party" ],
       correctAnswer: 2,
       explanation: "An ethical dilemma is a complex situation that often involves an apparent mental conflict between moral imperatives."
     }
@@ -328,8 +328,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If a decision is 'impartial', it means it is...",
-      options: ["Biased", "Fair and not taking sides", "Selfish", "Random"],
-      correctAnswer: 1,
+      options: [ "Fair and not taking sides", "Biased", "Random", "Selfish" ],
+      correctAnswer: 0,
       explanation: "Impartial means treating all rivals or disputants equally; fair and just."
     }
   },
@@ -400,8 +400,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "You ________ tell lies if you want people to trust you.",
-      options: ["must", "shouldn't", "can", "ought to"],
-      correctAnswer: 1,
+      options: [ "shouldn't", "can", "must", "ought to" ],
+      correctAnswer: 0,
       explanation: "Shouldn't is used to give advice against doing something."
     }
   },
@@ -414,8 +414,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "In this country, you ________ follow the law.",
-      options: ["might", "must", "can", "may"],
-      correctAnswer: 1,
+      options: [ "might", "can", "may", "must" ],
+      correctAnswer: 3,
       explanation: "Must indicates a strong obligation or rule."
     }
   },
@@ -428,8 +428,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "I ________ to help him, but I was too busy.",
-      options: ["should", "must", "ought", "can"],
-      correctAnswer: 2,
+      options: [ "must", "ought", "can", "should" ],
+      correctAnswer: 1,
       explanation: "Ought is followed by 'to'."
     }
   },
@@ -442,7 +442,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "You ________ not enter this room without permission.",
-      options: ["may", "must", "can", "should"],
+      options: [ "may", "must", "should", "can" ],
       correctAnswer: 1,
       explanation: "'Must not' is used for prohibition."
     }
@@ -456,8 +456,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "We ________ have been more careful with our words.",
-      options: ["must", "should", "can", "may"],
-      correctAnswer: 1,
+      options: [ "must", "may", "should", "can" ],
+      correctAnswer: 2,
       explanation: "Should have + past participle is used for past regrets or recommendations."
     }
   },
@@ -470,8 +470,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If you are a doctor, you ________ to respect patient confidentiality.",
-      options: ["must", "can", "have", "should"],
-      correctAnswer: 2,
+      options: [ "can", "have", "should", "must" ],
+      correctAnswer: 1,
       explanation: "Have to indicates an external obligation related to rules or professions."
     }
   },
@@ -484,8 +484,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Children ________ learn about ethics from a young age.",
-      options: ["ought to", "may", "might", "can"],
-      correctAnswer: 0,
+      options: [ "might", "can", "may", "ought to" ],
+      correctAnswer: 3,
       explanation: "Ought to is used to express what is desirable or correct."
     }
   },
@@ -556,8 +556,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "I am ________ that truth exists.",
-      options: ["certain", "doubtful", "likely", "maybe"],
-      correctAnswer: 0,
+      options: [ "doubtful", "maybe", "likely", "certain" ],
+      correctAnswer: 3,
       explanation: "Certain is used to express 100% belief."
     }
   },
@@ -570,8 +570,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "________ he is telling the truth, but I'm not sure.",
-      options: ["Surely", "Maybe", "Definitely", "Certainly"],
-      correctAnswer: 1,
+      options: [ "Surely", "Certainly", "Definitely", "Maybe" ],
+      correctAnswer: 3,
       explanation: "Maybe is used when there is a possibility but no certainty."
     }
   },
@@ -584,7 +584,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "I ________ if we can agree on this moral issue.",
-      options: ["doubt", "sure", "likely", "certain"],
+      options: [ "doubt", "certain", "sure", "likely" ],
       correctAnswer: 0,
       explanation: "Doubt is a verb used to express uncertainty."
     }
@@ -598,7 +598,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "It is ________ that people will disagree about values.",
-      options: ["doubtful", "certain", "unlikely", "probable"],
+      options: [ "doubtful", "certain", "unlikely", "probable" ],
       correctAnswer: 1,
       explanation: "Certain is often used for things that are logically inevitable."
     }
@@ -612,7 +612,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "There is ________ no easy answer to this question.",
-      options: ["probably", "likely", "maybe", "doubt"],
+      options: [ "probably", "doubt", "likely", "maybe" ],
       correctAnswer: 0,
       explanation: "Probably is an adverb of probability."
     }
@@ -626,7 +626,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I am ________ convinced that he is innocent.",
-      options: ["totally", "maybe", "doubtfully", "unlikely"],
+      options: [ "totally", "doubtfully", "unlikely", "maybe" ],
       correctAnswer: 0,
       explanation: "Totally convinced expresses high certainty."
     }
@@ -640,8 +640,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "It is highly ________ that the situation will improve soon.",
-      options: ["unlikely", "maybe", "doubt", "certainly"],
-      correctAnswer: 0,
+      options: [ "doubt", "certainly", "maybe", "unlikely" ],
+      correctAnswer: 3,
       explanation: "Unlikely means there is a very low probability."
     }
   },
@@ -750,8 +750,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "Which of these was a famous philosopher?",
-      options: ["Aristotle", "Napoleon", "Picasso", "Einstein"],
-      correctAnswer: 0,
+      options: [ "Picasso", "Napoleon", "Einstein", "Aristotle" ],
+      correctAnswer: 3,
       explanation: "Aristotle was one of the greatest philosophers of ancient Greece."
     }
   },
@@ -764,7 +764,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "A famous quote is 'I think, therefore I ________'.",
-      options: ["know", "am", "live", "speak"],
+      options: [ "speak", "am", "live", "know" ],
       correctAnswer: 1,
       explanation: "René Descartes famously said 'I think, therefore I am' (Cogito, ergo sum)."
     }
@@ -778,8 +778,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "What do you call a formal set of ideas about a subject?",
-      options: ["A song", "A theory", "A joke", "A dream"],
-      correctAnswer: 1,
+      options: [ "A theory", "A joke", "A dream", "A song" ],
+      correctAnswer: 0,
       explanation: "A theory is a formal set of ideas that explain something."
     }
   },
@@ -792,8 +792,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Which of these is related to 'Logic'?",
-      options: ["Emotions", "Reasoning", "Magic", "Luck"],
-      correctAnswer: 1,
+      options: [ "Reasoning", "Magic", "Emotions", "Luck" ],
+      correctAnswer: 0,
       explanation: "Logic is the study of correct reasoning."
     }
   },
@@ -806,8 +806,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The Socratic method involves asking ________ to stimulate critical thinking.",
-      options: ["questions", "favors", "money", "directions"],
-      correctAnswer: 0,
+      options: [ "directions", "favors", "money", "questions" ],
+      correctAnswer: 3,
       explanation: "The Socratic method is a form of cooperative argumentative dialogue based on asking and answering questions."
     }
   },
@@ -916,8 +916,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "If you find a wallet in the street, what is the 'right' thing to do?",
-      options: ["Keep the money", "Leave it there", "Try to return it to the owner", "Throw it away"],
-      correctAnswer: 2,
+      options: [ "Leave it there", "Try to return it to the owner", "Keep the money", "Throw it away" ],
+      correctAnswer: 1,
       explanation: "Returning lost property is generally considered the moral choice."
     }
   },
@@ -930,8 +930,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "What do you call the result of an action?",
-      options: ["A cause", "A consequence", "A choice", "A dream"],
-      correctAnswer: 1,
+      options: [ "A consequence", "A dream", "A cause", "A choice" ],
+      correctAnswer: 0,
       explanation: "A consequence is what happens as a result of something else."
     }
   },
@@ -944,8 +944,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If you agree to give up something to reach an agreement, you are making a...",
-      options: ["Mistake", "Compromise", "Joke", "Promise"],
-      correctAnswer: 1,
+      options: [ "Compromise", "Mistake", "Promise", "Joke" ],
+      correctAnswer: 0,
       explanation: "A compromise involves concessions from both sides to settle a dispute."
     }
   },
@@ -958,8 +958,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Which word describes someone who is always honest and follows their morals?",
-      options: ["Selfish", "Dishonest", "A person of integrity", "Lazy"],
-      correctAnswer: 2,
+      options: [ "Selfish", "A person of integrity", "Dishonest", "Lazy" ],
+      correctAnswer: 1,
       explanation: "Integrity is the quality of having strong moral principles."
     }
   },
@@ -972,7 +972,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "A situation where your personal interests conflict with your duties is a...",
-      options: ["Conflict of interest", "Good opportunity", "Holiday", "Celebration"],
+      options: [ "Conflict of interest", "Holiday", "Good opportunity", "Celebration" ],
       correctAnswer: 0,
       explanation: "A conflict of interest occurs when a person's private interests interfere with their professional obligations."
     }
@@ -1082,8 +1082,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "The 'Universal Declaration of Human ________' was adopted by the UN in 1948.",
-      options: ["Laws", "Rights", "Rules", "Facts"],
-      correctAnswer: 1,
+      options: [ "Facts", "Laws", "Rules", "Rights" ],
+      correctAnswer: 3,
       explanation: "Human Rights are the basic rights and freedoms that belong to every person."
     }
   },
@@ -1096,8 +1096,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "What concept refers to everyone having the same opportunities?",
-      options: ["Existence", "Equality", "Reality", "Logic"],
-      correctAnswer: 1,
+      options: [ "Reality", "Logic", "Equality", "Existence" ],
+      correctAnswer: 2,
       explanation: "Equality means being equal in status and rights."
     }
   },
@@ -1110,8 +1110,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Helping people in other countries is an example of ________ responsibility.",
-      options: ["global", "local", "personal", "small"],
-      correctAnswer: 0,
+      options: [ "small", "local", "global", "personal" ],
+      correctAnswer: 2,
       explanation: "Global responsibility refers to duties towards the world community."
     }
   },
@@ -1124,8 +1124,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Which word means 'unity among people'?",
-      options: ["Solidarity", "Conflict", "Doubt", "Certainty"],
-      correctAnswer: 0,
+      options: [ "Certainty", "Solidarity", "Conflict", "Doubt" ],
+      correctAnswer: 1,
       explanation: "Solidarity is unity or agreement of feeling or action."
     }
   },
@@ -1138,8 +1138,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Ensuring that everyone has enough food is a question of global ________.",
-      options: ["weather", "ethics", "logic", "existence"],
-      correctAnswer: 1,
+      options: [ "logic", "existence", "ethics", "weather" ],
+      correctAnswer: 2,
       explanation: "Global ethics addresses moral issues on a worldwide scale."
     }
   },
@@ -1248,8 +1248,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "What do you call the protection of animals from harm?",
-      options: ["Animal welfare", "Animal danger", "Animal logic", "Animal truth"],
-      correctAnswer: 0,
+      options: [ "Animal danger", "Animal logic", "Animal welfare", "Animal truth" ],
+      correctAnswer: 2,
       explanation: "Animal welfare is the well-being of non-human animals."
     }
   },
@@ -1262,7 +1262,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Using resources without destroying the environment is...",
-      options: ["Wasteful", "Sustainable", "Logic", "Certain"],
+      options: [ "Wasteful", "Sustainable", "Logic", "Certain" ],
       correctAnswer: 1,
       explanation: "Sustainability is about meeting our needs without compromising the future."
     }
@@ -1276,8 +1276,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Which word is the opposite of 'Kindness'?",
-      options: ["Cruelty", "Justice", "Equality", "Freedom"],
-      correctAnswer: 0,
+      options: [ "Justice", "Equality", "Cruelty", "Freedom" ],
+      correctAnswer: 2,
       explanation: "Cruelty involves causing pain and is the opposite of kindness."
     }
   },
@@ -1290,8 +1290,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Many people choose to be vegetarian for ________ reasons.",
-      options: ["ethical", "logical", "physical", "fast"],
-      correctAnswer: 0,
+      options: [ "logical", "ethical", "physical", "fast" ],
+      correctAnswer: 1,
       explanation: "Ethical vegetarians choose not to eat meat to avoid harming animals."
     }
   },
@@ -1304,8 +1304,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The ________ of nature is a key ethical priority.",
-      options: ["destruction", "preservation", "neglect", "logic"],
-      correctAnswer: 1,
+      options: [ "destruction", "logic", "preservation", "neglect" ],
+      correctAnswer: 2,
       explanation: "Preservation means keeping something in its original state or protecting it."
     }
   },
@@ -1414,8 +1414,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "I need to ________ this moral dilemma before deciding.",
-      options: ["think over", "figure out", "point out", "sum up"],
-      correctAnswer: 0,
+      options: [ "figure out", "think over", "point out", "sum up" ],
+      correctAnswer: 1,
       explanation: "Think over means to reflect carefully."
     }
   },
@@ -1428,8 +1428,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Can you ________ what the best solution is?",
-      options: ["figure out", "come up with", "sum up", "think over"],
-      correctAnswer: 0,
+      options: [ "come up with", "sum up", "think over", "figure out" ],
+      correctAnswer: 3,
       explanation: "Figure out means to find the answer through thinking."
     }
   },
@@ -1442,8 +1442,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "He ________ that my theory was incorrect.",
-      options: ["pointed out", "summed up", "figured out", "thought over"],
-      correctAnswer: 0,
+      options: [ "figured out", "summed up", "pointed out", "thought over" ],
+      correctAnswer: 2,
       explanation: "Pointed out means called attention to a fact."
     }
   },
@@ -1456,8 +1456,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I hope we can ________ a compromise.",
-      options: ["come up with", "think over", "sum up", "figure out"],
-      correctAnswer: 0,
+      options: [ "figure out", "think over", "come up with", "sum up" ],
+      correctAnswer: 2,
       explanation: "Come up with means to produce or find an idea/agreement."
     }
   },
@@ -1470,8 +1470,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "In the end, she ________ the main ethical points.",
-      options: ["summed up", "pointed out", "thought over", "figured out"],
-      correctAnswer: 0,
+      options: [ "pointed out", "figured out", "summed up", "thought over" ],
+      correctAnswer: 2,
       explanation: "Summed up means gave a summary."
     }
   },
@@ -1485,8 +1485,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "What is the primary focus of philosophy?",
-      options: ["Cooking", "Asking fundamental questions", "Sports", "Fashion"],
-      correctAnswer: 1,
+      options: [ "Sports", "Cooking", "Fashion", "Asking fundamental questions" ],
+      correctAnswer: 3,
       explanation: "Philosophy is about exploring basic truths through reasoning."
     }
   },
@@ -1499,7 +1499,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "You ________ steal; it's against the law.",
-      options: ["should", "must not", "can", "might"],
+      options: [ "should", "must not", "might", "can" ],
       correctAnswer: 1,
       explanation: "Must not is used for prohibition."
     }
@@ -1513,8 +1513,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "I ________ that everyone will agree on ethics.",
-      options: ["doubt", "sure", "certain", "likely"],
-      correctAnswer: 0,
+      options: [ "certain", "sure", "likely", "doubt" ],
+      correctAnswer: 3,
       explanation: "Doubt expresses uncertainty."
     }
   },
@@ -1527,8 +1527,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Which word describes behavior that follows high moral standards?",
-      options: ["Vice", "Virtue", "Greed", "Theft"],
-      correctAnswer: 1,
+      options: [ "Theft", "Greed", "Vice", "Virtue" ],
+      correctAnswer: 3,
       explanation: "Virtue is moral excellence."
     }
   },
@@ -1541,8 +1541,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If I ________ known the truth, I wouldn't have lied.",
-      options: ["have", "had", "was", "be"],
-      correctAnswer: 1,
+      options: [ "have", "was", "be", "had" ],
+      correctAnswer: 3,
       explanation: "Third conditional review: If + had + past participle."
     }
   },
@@ -1555,8 +1555,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Protecting the environment for the next generation is an ________ duty.",
-      options: ["ethical", "easy", "unimportant", "wrong"],
-      correctAnswer: 0,
+      options: [ "unimportant", "wrong", "ethical", "easy" ],
+      correctAnswer: 2,
       explanation: "Environmental protection is a moral responsibility."
     }
   },
@@ -1569,7 +1569,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I need to ________ a better argument.",
-      options: ["come up with", "think over", "figure out", "sum up"],
+      options: [ "come up with", "figure out", "sum up", "think over" ],
       correctAnswer: 0,
       explanation: "Review of phrasal verbs."
     }
@@ -1583,8 +1583,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Everyone has the ________ to be treated with respect.",
-      options: ["right", "rule", "law", "logic"],
-      correctAnswer: 0,
+      options: [ "law", "rule", "logic", "right" ],
+      correctAnswer: 3,
       explanation: "Vocabulary review: rights."
     }
   },
@@ -1597,8 +1597,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "It is ________ that some choices are very difficult.",
-      options: ["true", "false", "maybe", "doubt"],
-      correctAnswer: 0,
+      options: [ "maybe", "doubt", "true", "false" ],
+      correctAnswer: 2,
       explanation: "Simple truth statement."
     }
   },
@@ -1611,8 +1611,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "What is the goal of a philosopher?",
-      options: ["To find wisdom", "To win a race", "To cook food", "To build houses"],
-      correctAnswer: 0,
+      options: [ "To cook food", "To win a race", "To find wisdom", "To build houses" ],
+      correctAnswer: 2,
       explanation: "The word philosophy literally means 'love of wisdom'."
     }
   }

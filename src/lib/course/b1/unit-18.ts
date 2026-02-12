@@ -106,8 +106,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "Which of these is a natural landmark?",
-      options: ["The Eiffel Tower", "The Great Wall", "Mount Everest", "The Colosseum"],
-      correctAnswer: 2,
+      options: [ "The Eiffel Tower", "Mount Everest", "The Colosseum", "The Great Wall" ],
+      correctAnswer: 1,
       explanation: "Mount Everest is a natural feature, while the others are man-made."
     }
   },
@@ -120,8 +120,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "A very large, thick mass of ice is called a...",
-      options: ["Lake", "Glacier", "Island", "Desert"],
-      correctAnswer: 1,
+      options: [ "Lake", "Island", "Desert", "Glacier" ],
+      correctAnswer: 3,
       explanation: "A glacier is a large body of ice that forms on land."
     }
   },
@@ -134,8 +134,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If a view is 'stunning', it means it is...",
-      options: ["Boring", "Very beautiful", "Dark", "Crowded"],
-      correctAnswer: 1,
+      options: [ "Very beautiful", "Boring", "Dark", "Crowded" ],
+      correctAnswer: 0,
       explanation: "Stunning is a synonym for extremely beautiful or impressive."
     }
   },
@@ -148,8 +148,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "What do you call the top of a mountain?",
-      options: ["Base", "Peak", "Valley", "Slope"],
-      correctAnswer: 1,
+      options: [ "Slope", "Base", "Valley", "Peak" ],
+      correctAnswer: 3,
       explanation: "The peak is the highest point of a mountain."
     }
   },
@@ -162,8 +162,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Which of these is NOT a natural wonder?",
-      options: ["The Amazon Rainforest", "The Northern Lights", "The Panama Canal", "The Great Barrier Reef"],
-      correctAnswer: 2,
+      options: [ "The Amazon Rainforest", "The Northern Lights", "The Great Barrier Reef", "The Panama Canal" ],
+      correctAnswer: 3,
       explanation: "The Panama Canal is an artificial waterway."
     }
   },
@@ -272,8 +272,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "What do you call a short trip for pleasure?",
-      options: ["A journey", "An excursion", "A migration", "A commute"],
-      correctAnswer: 1,
+      options: [ "A commute", "A migration", "An excursion", "A journey" ],
+      correctAnswer: 2,
       explanation: "An excursion is a short journey or trip, especially one taken as a leisure activity."
     }
   },
@@ -286,8 +286,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "A person who travels for pleasure is a...",
-      options: ["Guide", "Tourist", "Local", "Driver"],
-      correctAnswer: 1,
+      options: [ "Driver", "Guide", "Local", "Tourist" ],
+      correctAnswer: 3,
       explanation: "A tourist is someone who visits a place for interest and pleasure."
     }
   },
@@ -300,8 +300,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "To 'explore' a city means to...",
-      options: ["Leave it", "Look around it to learn about it", "Build it", "Destroy it"],
-      correctAnswer: 1,
+      options: [ "Look around it to learn about it", "Build it", "Destroy it", "Leave it" ],
+      correctAnswer: 0,
       explanation: "Exploring involves traveling through an unfamiliar area to learn about it."
     }
   },
@@ -314,8 +314,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If a place is 'off the beaten track', it means it is...",
-      options: ["Very famous", "In a remote area, far from tourists", "Near the airport", "Easy to find"],
-      correctAnswer: 1,
+      options: [ "Easy to find", "Very famous", far from tourists", "In a remote area, "Near the airport" ],
+      correctAnswer: 3,
       explanation: "This idiom describes places that are not frequently visited by many people."
     }
   },
@@ -328,8 +328,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Which word describes a very long and difficult journey?",
-      options: ["Trip", "Odyssey", "Stroll", "Ride"],
-      correctAnswer: 1,
+      options: [ "Stroll", "Trip", "Ride", "Odyssey" ],
+      correctAnswer: 3,
       explanation: "An odyssey is a long, adventurous journey or experience."
     }
   },
@@ -362,8 +362,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "When we arrived at the airport, the plane ________ (already / leave).",
-      options: ["left", "was leaving", "had already left", "has left"],
-      correctAnswer: 2,
+      options: [ "has left", "left", "was leaving", "had already left" ],
+      correctAnswer: 3,
       explanation: "Past Perfect is used for an action completed before another past action."
     }
   },
@@ -376,8 +376,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "While I ________ (travel) in Asia, I met many interesting people.",
-      options: ["traveled", "was traveling", "had traveled", "am traveling"],
-      correctAnswer: 1,
+      options: [ "traveled", "had traveled", "was traveling", "am traveling" ],
+      correctAnswer: 2,
       explanation: "Past Continuous is used for background actions in a story."
     }
   },
@@ -390,8 +390,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "I ________ (lose) my passport before I got to the hotel.",
-      options: ["lost", "was losing", "had lost", "have lost"],
-      correctAnswer: 2,
+      options: [ "lost", "have lost", "was losing", "had lost" ],
+      correctAnswer: 3,
       explanation: "The loss happened before arrival, so Past Perfect is needed."
     }
   },
@@ -404,8 +404,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "He ________ (not / take) any photos because he had forgotten his camera.",
-      options: ["didn't take", "wasn't taking", "hadn't taken", "doesn't take"],
-      correctAnswer: 0,
+      options: [ "doesn't take", "hadn't taken", "wasn't taking", "didn't take" ],
+      correctAnswer: 3,
       explanation: "Past Simple for a completed action in the past."
     }
   },
@@ -418,8 +418,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "They ________ (wait) for three hours before the bus finally arrived.",
-      options: ["waited", "were waiting", "had been waiting", "have been waiting"],
-      correctAnswer: 2,
+      options: [ "were waiting", "had been waiting", "waited", "have been waiting" ],
+      correctAnswer: 1,
       explanation: "Past Perfect Continuous emphasizes the duration up to a past point."
     }
   },
@@ -432,8 +432,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The sun ________ (shine) when we started our hike.",
-      options: ["shone", "was shining", "had shone", "is shining"],
-      correctAnswer: 1,
+      options: [ "had shone", "shone", "was shining", "is shining" ],
+      correctAnswer: 2,
       explanation: "Background description uses Past Continuous."
     }
   },
@@ -446,8 +446,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I realized I ________ (never / be) so happy before.",
-      options: ["was never", "am never", "had never been", "have never been"],
-      correctAnswer: 2,
+      options: [ "had never been", "have never been", "was never", "am never" ],
+      correctAnswer: 0,
       explanation: "Past Perfect for experiences before a past moment of realization."
     }
   },
@@ -460,8 +460,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "We ________ (get) lost because we hadn't looked at the map.",
-      options: ["got", "were getting", "had got", "get"],
-      correctAnswer: 0,
+      options: [ "get", "were getting", "got", "had got" ],
+      correctAnswer: 2,
       explanation: "Past Simple for the main event (getting lost)."
     }
   },
@@ -474,8 +474,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "By the time we got home, the kids ________ (go) to bed.",
-      options: ["went", "were going", "had gone", "have gone"],
-      correctAnswer: 2,
+      options: [ "had gone", "went", "were going", "have gone" ],
+      correctAnswer: 0,
       explanation: "Action completed before we arrived."
     }
   },
@@ -527,8 +527,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Take a jacket. It ________ get cold tonight.",
-      options: ["must", "might", "shouldn't", "has to"],
-      correctAnswer: 1,
+      options: [ "must", "has to", "shouldn't", "might" ],
+      correctAnswer: 3,
       explanation: "Might expresses possibility."
     }
   },
@@ -541,8 +541,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "I'm not sure where he is. He ________ be at the museum.",
-      options: ["could", "mustn't", "can", "ought to"],
-      correctAnswer: 0,
+      options: [ "can", "ought to", "could", "mustn't" ],
+      correctAnswer: 2,
       explanation: "Could expresses possibility."
     }
   },
@@ -555,8 +555,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The flight ________ be delayed due to the storm.",
-      options: ["may", "must", "can't", "has to"],
-      correctAnswer: 0,
+      options: [ "must", "can't", "has to", "may" ],
+      correctAnswer: 3,
       explanation: "May is used for formal possibility."
     }
   },
@@ -569,8 +569,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I can't find my wallet. I ________ (drop) it in the taxi.",
-      options: ["might drop", "could dropped", "might have dropped", "must drop"],
-      correctAnswer: 2,
+      options: [ "might drop", "might have dropped", "could dropped", "must drop" ],
+      correctAnswer: 1,
       explanation: "Might have + past participle for past possibility."
     }
   },
@@ -583,7 +583,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "They ________ (not / see) us if we stay behind the trees.",
-      options: ["might not see", "couldn't have seen", "mustn't see", "haven't seen"],
+      options: [ "might not see", "haven't seen", "mustn't see", "couldn't have seen" ],
       correctAnswer: 0,
       explanation: "Might not for negative possibility in the future."
     }
@@ -597,7 +597,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Where is my passport? I ________ (put) it in the wrong bag.",
-      options: ["could have put", "can put", "must put", "might putting"],
+      options: [ "could have put", "can put", "might putting", "must put" ],
       correctAnswer: 0,
       explanation: "Could have + past participle for past possibility."
     }
@@ -611,8 +611,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "He ________ (be) tired after such a long journey.",
-      options: ["might be", "could be", "both are correct", "can't be"],
-      correctAnswer: 2,
+      options: [ "both are correct", "can't be", "might be", "could be" ],
+      correctAnswer: 0,
       explanation: "Both might and could work for present possibility."
     }
   },
@@ -625,7 +625,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "She ________ (not / know) the way. Let's ask her.",
-      options: ["might not know", "couldn't know", "can't know", "doesn't must know"],
+      options: [ "might not know", "couldn't know", "can't know", "doesn't must know" ],
       correctAnswer: 0,
       explanation: "Might not know for present possibility."
     }
@@ -735,8 +735,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "Which sport do you do in the mountains with snow?",
-      options: ["Surfing", "Skiing", "Swimming", "Cycling"],
-      correctAnswer: 1,
+      options: [ "Skiing", "Swimming", "Cycling", "Surfing" ],
+      correctAnswer: 0,
       explanation: "Skiing is a winter sport done on snow."
     }
   },
@@ -749,7 +749,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "To 'snorkel' means to swim...",
-      options: ["Deep under the water", "On the surface with a breathing tube", "Without any equipment", "In a pool"],
+      options: [ "Deep under the water", "On the surface with a breathing tube", "Without any equipment", "In a pool" ],
       correctAnswer: 1,
       explanation: "Snorkeling involves swimming near the surface to see underwater life."
     }
@@ -763,7 +763,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Which of these is considered an 'extreme' sport?",
-      options: ["Chess", "Skydiving", "Bowling", "Golf"],
+      options: [ "Bowling", "Skydiving", "Chess", "Golf" ],
       correctAnswer: 1,
       explanation: "Skydiving involves high risk and is considered an extreme sport."
     }
@@ -777,8 +777,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "What do you call a person who loves adventure?",
-      options: ["An adventurer", "A librarian", "A spectator", "A referee"],
-      correctAnswer: 0,
+      options: [ "A spectator", "A librarian", "An adventurer", "A referee" ],
+      correctAnswer: 2,
       explanation: "An adventurer seeks out exciting and dangerous experiences."
     }
   },
@@ -791,8 +791,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Which activity involves traveling down a river in a small boat?",
-      options: ["Climbing", "Rafting", "Hiking", "Camping"],
-      correctAnswer: 1,
+      options: [ "Climbing", "Camping", "Rafting", "Hiking" ],
+      correctAnswer: 2,
       explanation: "White-water rafting is a popular adventure activity on rivers."
     }
   },
@@ -901,8 +901,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "Which of these is an eco-friendly way to travel?",
-      options: ["Flying by private jet", "Taking a train", "Driving a big SUV", "Going on a cruise"],
-      correctAnswer: 1,
+      options: [ "Taking a train", "Driving a big SUV", "Flying by private jet", "Going on a cruise" ],
+      correctAnswer: 0,
       explanation: "Trains generally have a lower carbon footprint than planes or cars."
     }
   },
@@ -915,8 +915,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "To 'reduce your carbon footprint' means to...",
-      options: ["Walk more", "Decrease the amount of CO2 you produce", "Buy more souvenirs", "Travel to more countries"],
-      correctAnswer: 1,
+      options: [ "Decrease the amount of CO2 you produce", "Travel to more countries", "Buy more souvenirs", "Walk more" ],
+      correctAnswer: 0,
       explanation: "A carbon footprint is the total amount of greenhouse gases generated by our actions."
     }
   },
@@ -929,8 +929,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Which word describes a place where animals are protected?",
-      options: ["Zoo", "Sanctuary", "Factory", "Mall"],
-      correctAnswer: 1,
+      options: [ "Mall", "Factory", "Sanctuary", "Zoo" ],
+      correctAnswer: 2,
       explanation: "A sanctuary is a place of refuge or safety, often for wildlife."
     }
   },
@@ -943,8 +943,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Ecotourism is travel to natural areas that...",
-      options: ["Destroy nature", "Conserve the environment", "Are very expensive", "Have many luxury hotels"],
-      correctAnswer: 1,
+      options: [ "Destroy nature", "Have many luxury hotels", "Are very expensive", "Conserve the environment" ],
+      correctAnswer: 3,
       explanation: "Ecotourism focuses on conservation and supporting local communities."
     }
   },
@@ -957,8 +957,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "What do you call rubbish left in public places?",
-      options: ["Litter", "Artifacts", "Souvenirs", "Landmarks"],
-      correctAnswer: 0,
+      options: [ "Landmarks", "Litter", "Artifacts", "Souvenirs" ],
+      correctAnswer: 1,
       explanation: "Litter refers to trash or rubbish that is left lying in an open or public place."
     }
   },
@@ -1067,7 +1067,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "To 'tip' means to give extra money to a...",
-      options: ["Waiter", "Pilot", "Customs officer", "Police officer"],
+      options: [ "Waiter", "Police officer", "Customs officer", "Pilot" ],
       correctAnswer: 0,
       explanation: "Tipping is common in restaurants for good service."
     }
@@ -1081,8 +1081,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Which word means 'the way people live'?",
-      options: ["Etiquette", "Lifestyle", "Itinerary", "Journey"],
-      correctAnswer: 1,
+      options: [ "Lifestyle", "Journey", "Etiquette", "Itinerary" ],
+      correctAnswer: 0,
       explanation: "Lifestyle describes the habits, attitudes, and standards of a person or group."
     }
   },
@@ -1095,8 +1095,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "In some cultures, it is ________ to point with your finger.",
-      options: ["polite", "rude", "necessary", "easy"],
-      correctAnswer: 1,
+      options: [ "polite", "easy", "rude", "necessary" ],
+      correctAnswer: 2,
       explanation: "Rude means ill-mannered or impolite."
     }
   },
@@ -1109,7 +1109,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "A 'taboo' is something that is...",
-      options: ["Very common", "Forbidden or avoided for social or religious reasons", "Cheap", "Highly recommended"],
+      options: [ "Highly recommended", "Forbidden or avoided for social or religious reasons", "Cheap", "Very common" ],
       correctAnswer: 1,
       explanation: "Taboos are social or religious customs prohibiting a particular practice."
     }
@@ -1123,8 +1123,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "When you 'adapt' to a new culture, you...",
-      options: ["Change it", "Become adjusted to it", "Ignore it", "Fight it"],
-      correctAnswer: 1,
+      options: [ "Become adjusted to it", "Fight it", "Ignore it", "Change it" ],
+      correctAnswer: 0,
       explanation: "To adapt means to adjust to new conditions."
     }
   },
@@ -1176,8 +1176,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "To 'book' a flight means to...",
-      options: ["Read about it", "Reserve it", "Cancel it", "Pilot it"],
-      correctAnswer: 1,
+      options: [ "Cancel it", "Pilot it", "Read about it", "Reserve it" ],
+      correctAnswer: 3,
       explanation: "To book is to reserve a service in advance."
     }
   },
@@ -1190,8 +1190,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Which document do you need to enter many foreign countries?",
-      options: ["Library card", "Passport", "Birth certificate", "Credit card"],
-      correctAnswer: 1,
+      options: [ "Birth certificate", "Credit card", "Passport", "Library card" ],
+      correctAnswer: 2,
       explanation: "A passport is an official document issued by a government, certifying the holder's identity and citizenship."
     }
   },
@@ -1204,8 +1204,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "A 'one-way' ticket is for...",
-      options: ["Going and coming back", "Going only", "A group", "The weekend"],
-      correctAnswer: 1,
+      options: [ "A group", "Going and coming back", "Going only", "The weekend" ],
+      correctAnswer: 2,
       explanation: "A one-way ticket is valid for a journey in one direction only."
     }
   },
@@ -1218,8 +1218,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "What is the 'currency' of Japan?",
-      options: ["Dollar", "Euro", "Yen", "Pound"],
-      correctAnswer: 2,
+      options: [ "Dollar", "Yen", "Euro", "Pound" ],
+      correctAnswer: 1,
       explanation: "The Yen is the official currency of Japan."
     }
   },
@@ -1232,8 +1232,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "To 'check in' at a hotel, you go to the...",
-      options: ["Gym", "Reception", "Pool", "Restaurant"],
-      correctAnswer: 1,
+      options: [ "Reception", "Gym", "Restaurant", "Pool" ],
+      correctAnswer: 0,
       explanation: "The reception or front desk is where you register at a hotel."
     }
   },
@@ -1246,8 +1246,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "A 'layover' is a...",
-      options: ["Type of plane", "Short stay between flights", "Suitcase", "Travel guide"],
-      correctAnswer: 1,
+      options: [ "Short stay between flights", "Travel guide", "Suitcase", "Type of plane" ],
+      correctAnswer: 0,
       explanation: "A layover is a period of rest or waiting before a further stage in a journey."
     }
   },
@@ -1260,8 +1260,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "To 'cancel' a reservation means to...",
-      options: ["Confirm it", "Decide not to go", "Pay for it", "Arrive early"],
-      correctAnswer: 1,
+      options: [ "Pay for it", "Confirm it", "Arrive early", "Decide not to go" ],
+      correctAnswer: 3,
       explanation: "To cancel is to decide that a planned event will not take place."
     }
   },
@@ -1274,8 +1274,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "What do you call the money you pay for a bus or train trip?",
-      options: ["Price", "Fee", "Fare", "Tax"],
-      correctAnswer: 2,
+      options: [ "Fare", "Fee", "Price", "Tax" ],
+      correctAnswer: 0,
       explanation: "Fare is the money a passenger on public transport has to pay."
     }
   },
@@ -1327,8 +1327,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "I'll ________ you ________ at the airport.",
-      options: ["drop / off", "pick / up", "both are correct", "take / off"],
-      correctAnswer: 2,
+      options: [ "drop / off", "take / off", "pick / up", "both are correct" ],
+      correctAnswer: 3,
       explanation: "Both 'drop off' (dejar) and 'pick up' (recoger) are common travel phrasal verbs."
     }
   },
@@ -1341,8 +1341,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "We need to ________ at the hotel by 2 PM.",
-      options: ["check in", "check out", "set off", "get in"],
-      correctAnswer: 0,
+      options: [ "set off", "get in", "check out", "check in" ],
+      correctAnswer: 3,
       explanation: "Check in is to register your arrival at a hotel."
     }
   },
@@ -1355,8 +1355,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "What time does your train ________?",
-      options: ["get in", "take off", "check out", "drop off"],
-      correctAnswer: 0,
+      options: [ "drop off", "take off", "check out", "get in" ],
+      correctAnswer: 3,
       explanation: "To 'get in' means to arrive (for trains, buses, planes)."
     }
   },
@@ -1369,8 +1369,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "We had to ________ the trip because of the weather.",
-      options: ["call off", "put off", "both could be correct", "set off"],
-      correctAnswer: 2,
+      options: [ "call off", "both could be correct", "set off", "put off" ],
+      correctAnswer: 1,
       explanation: "Call off (cancel) or put off (postpone) both make sense depending on context."
     }
   },
@@ -1383,8 +1383,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I'm looking ________ to my holiday!",
-      options: ["for", "forward", "after", "into"],
-      correctAnswer: 1,
+      options: [ "into", "for", "after", "forward" ],
+      correctAnswer: 3,
       explanation: "To look forward to something is to be excited about it."
     }
   },
@@ -1397,8 +1397,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Can you ________ me ________ for the night?",
-      options: ["put / up", "get / on", "set / off", "take / in"],
-      correctAnswer: 0,
+      options: [ "get / on", "put / up", "set / off", "take / in" ],
+      correctAnswer: 1,
       explanation: "To 'put someone up' is to provide them with a place to stay."
     }
   },
@@ -1411,8 +1411,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "We ran ________ of petrol in the middle of nowhere.",
-      options: ["out", "off", "away", "down"],
-      correctAnswer: 0,
+      options: [ "off", "away", "out", "down" ],
+      correctAnswer: 2,
       explanation: "To run out of something is to have none left."
     }
   },
@@ -1425,7 +1425,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "He ________ away for the weekend.",
-      options: ["went", "set", "took", "got"],
+      options: [ "went", "set", "got", "took" ],
       correctAnswer: 0,
       explanation: "To 'go away' is to leave home for a period of time."
     }
@@ -1440,8 +1440,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "What is the most common travel document?",
-      options: ["Passport", "Library card", "Ticket", "Guide"],
-      correctAnswer: 0,
+      options: [ "Ticket", "Passport", "Library card", "Guide" ],
+      correctAnswer: 1,
       explanation: "A passport is essential for international travel."
     }
   },
@@ -1454,7 +1454,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If I ________ (have) more money, I would travel more.",
-      options: ["had", "have", "will have", "had had"],
+      options: [ "had", "have", "will have", "had had" ],
       correctAnswer: 0,
       explanation: "Second Conditional for an imaginary present."
     }
@@ -1468,8 +1468,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "We ________ (already / check out) when we realized we forgot a bag.",
-      options: ["had already checked out", "already checked out", "were already checking out", "have already checked out"],
-      correctAnswer: 0,
+      options: [ "have already checked out", "were already checking out", "had already checked out", "already checked out" ],
+      correctAnswer: 2,
       explanation: "Past Perfect for an action completed before a past realization."
     }
   },
@@ -1482,8 +1482,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "It ________ (might / be) a good idea to book in advance.",
-      options: ["might be", "must be", "has to be", "can't be"],
-      correctAnswer: 0,
+      options: [ "has to be", "must be", "might be", "can't be" ],
+      correctAnswer: 2,
       explanation: "Might be for a suggestion/possibility."
     }
   },
@@ -1496,8 +1496,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Which of these is NOT an adventure sport?",
-      options: ["Climbing", "Reading", "Rafting", "Skydiving"],
-      correctAnswer: 1,
+      options: [ "Climbing", "Rafting", "Skydiving", "Reading" ],
+      correctAnswer: 3,
       explanation: "Reading is a quiet, indoor activity."
     }
   },
@@ -1510,8 +1510,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "They ________ (hike) for five hours before they reached the cabin.",
-      options: ["had been hiking", "were hiking", "have been hiking", "hiked"],
-      correctAnswer: 0,
+      options: [ "have been hiking", "hiked", "had been hiking", "were hiking" ],
+      correctAnswer: 2,
       explanation: "Past Perfect Continuous for duration up to a past point."
     }
   },
@@ -1524,8 +1524,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If it ________ (rain), we ________ (not / go) to the beach tomorrow.",
-      options: ["rains / won't go", "rained / wouldn't go", "had rained / wouldn't have gone", "will rain / don't go"],
-      correctAnswer: 0,
+      options: [ "rained / wouldn't go", "rains / won't go", "will rain / don't go", "had rained / wouldn't have gone" ],
+      correctAnswer: 1,
       explanation: "First Conditional for a likely future situation."
     }
   },
@@ -1538,7 +1538,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "A person who documents their travels on video is a...",
-      options: ["Vlogger", "Blogger", "Author", "Painter"],
+      options: [ "Vlogger", "Painter", "Blogger", "Author" ],
       correctAnswer: 0,
       explanation: "A vlogger (video blogger) uses video content."
     }
@@ -1552,8 +1552,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The view was absolutely ________.",
-      options: ["breathtaking", "bored", "slow", "broken"],
-      correctAnswer: 0,
+      options: [ "bored", "breathtaking", "slow", "broken" ],
+      correctAnswer: 1,
       explanation: "Breathtaking is used to describe extremely impressive views."
     }
   },
@@ -1566,8 +1566,8 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Sustainable tourism helps protect local ________.",
-      options: ["communities", "pollution", "villas", "itineraries"],
-      correctAnswer: 0,
+      options: [ "itineraries", "communities", "villas", "pollution" ],
+      correctAnswer: 1,
       explanation: "Sustainable tourism supports local people and their environments."
     }
   }

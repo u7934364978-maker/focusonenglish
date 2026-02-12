@@ -395,12 +395,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "The artist ________ painted this portrait is very famous.",
-      options: [
-        "who",
-        "which",
-        "where",
-        "whose"
-      ],
+      options: [ "who", "which", "whose", "where" ],
       correctAnswer: 0,
       explanation: "Usamos 'who' para personas."
     } as any
@@ -414,13 +409,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "The book ________ I'm reading is very interesting.",
-      options: [
-        "who",
-        "which",
-        "where",
-        "whose"
-      ],
-      correctAnswer: 1,
+      options: [ "which", "who", "where", "whose" ],
+      correctAnswer: 0,
       explanation: "Usamos 'which' o 'that' para cosas u objetos."
     } as any
   },
@@ -433,13 +423,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "This is the museum ________ they have the Picasso exhibition.",
-      options: [
-        "who",
-        "which",
-        "where",
-        "when"
-      ],
-      correctAnswer: 2,
+      options: [ "who", "which", "when", "where" ],
+      correctAnswer: 3,
       explanation: "Usamos 'where' para lugares."
     } as any
   },
@@ -452,13 +437,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "That's the writer ________ book won the prize.",
-      options: [
-        "who",
-        "which",
-        "whose",
-        "that"
-      ],
-      correctAnswer: 2,
+      options: [ "which", "that", "who", "whose" ],
+      correctAnswer: 3,
       explanation: "Usamos 'whose' para indicar posesión."
     } as any
   },
@@ -471,13 +451,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Do you remember the day ________ we visited the gallery?",
-      options: [
-        "where",
-        "when",
-        "which",
-        "who"
-      ],
-      correctAnswer: 1,
+      options: [ "where", "which", "when", "who" ],
+      correctAnswer: 2,
       explanation: "Usamos 'when' para tiempos o fechas."
     } as any
   },
@@ -490,13 +465,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The painting ________ is on the wall was painted by my grandmother.",
-      options: [
-        "that",
-        "who",
-        "where",
-        "whose"
-      ],
-      correctAnswer: 0,
+      options: [ "whose", "who", "where", "that" ],
+      correctAnswer: 3,
       explanation: "Podemos usar 'that' en lugar de 'which' en oraciones de relativo especificativas."
     } as any
   },
@@ -509,13 +479,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The people ________ live in that house are all musicians.",
-      options: [
-        "who",
-        "which",
-        "where",
-        "whose"
-      ],
-      correctAnswer: 0,
+      options: [ "which", "whose", "who", "where" ],
+      correctAnswer: 2,
       explanation: "Usamos 'who' para referirnos a personas."
     } as any
   },
@@ -528,13 +493,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I don't like movies ________ have sad endings.",
-      options: [
-        "that",
-        "who",
-        "whose",
-        "where"
-      ],
-      correctAnswer: 0,
+      options: [ "who", "whose", "where", "that" ],
+      correctAnswer: 3,
       explanation: "Usamos 'that' o 'which' para cosas (las películas)."
     } as any
   },
@@ -547,13 +507,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The town ________ I grew up in has a very famous library.",
-      options: [
-        "which",
-        "where",
-        "who",
-        "whose"
-      ],
-      correctAnswer: 0,
+      options: [ "whose", "which", "where", "who" ],
+      correctAnswer: 1,
       explanation: "Si hay una preposición ('in') al final o antes del relativo refiriéndose a un lugar, usamos 'which'."
     } as any
   },
@@ -566,13 +521,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The man ________ I met at the gallery is a famous critic.",
-      options: [
-        "whom",
-        "which",
-        "whose",
-        "where"
-      ],
-      correctAnswer: 0,
+      options: [ "which", "whose", "where", "whom" ],
+      correctAnswer: 3,
       explanation: "'Whom' se puede usar en lugar de 'who' cuando es el objeto de la oración (aunque es formal)."
     } as any
   },
@@ -587,13 +537,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "My brother, ________ lives in Paris, is an artist.",
-      options: [
-        "who",
-        "which",
-        "that",
-        "where"
-      ],
-      correctAnswer: 0,
+      options: [ "which", "that", "who", "where" ],
+      correctAnswer: 2,
       explanation: "En oraciones explicativas (entre comas) para personas, solo usamos 'who' (no 'that')."
     } as any
   },
@@ -606,13 +551,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "This painting, ________ was painted in 1890, is worth millions.",
-      options: [
-        "which",
-        "who",
-        "that",
-        "whose"
-      ],
-      correctAnswer: 0,
+      options: [ "who", "that", "which", "whose" ],
+      correctAnswer: 2,
       explanation: "En oraciones explicativas para objetos, solo usamos 'which' (no 'that')."
     } as any
   },
@@ -625,13 +565,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Rome, ________ we visited last year, is full of history.",
-      options: [
-        "which",
-        "where",
-        "that",
-        "when"
-      ],
-      correctAnswer: 0,
+      options: [ "where", "which", "that", "when" ],
+      correctAnswer: 1,
       explanation: "Aquí usamos 'which' porque Rome es el objeto de lo que visitamos, no el lugar donde algo ocurre."
     } as any
   },
@@ -644,13 +579,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Shakespeare, ________ plays are known worldwide, was born in Stratford.",
-      options: [
-        "whose",
-        "who",
-        "which",
-        "that"
-      ],
-      correctAnswer: 0,
+      options: [ "that", "who", "whose", "which" ],
+      correctAnswer: 2,
       explanation: "Usamos 'whose' para posesión (las obras de Shakespeare)."
     } as any
   },
@@ -663,13 +593,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The Louvre, ________ is in Paris, is the world's largest museum.",
-      options: [
-        "which",
-        "where",
-        "that",
-        "who"
-      ],
-      correctAnswer: 0,
+      options: [ "where", "that", "which", "who" ],
+      correctAnswer: 2,
       explanation: "Usamos 'which' porque está funcionando como sujeto de la oración de relativo."
     } as any
   },
@@ -682,13 +607,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "My best friend, ________ sister is a famous singer, lives in London.",
-      options: [
-        "whose",
-        "who",
-        "which",
-        "that"
-      ],
-      correctAnswer: 0,
+      options: [ "who", "whose", "which", "that" ],
+      correctAnswer: 1,
       explanation: "Usamos 'whose' para indicar posesión (la hermana de mi amigo)."
     } as any
   },
@@ -701,13 +621,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Last Christmas, ________ we all went to the theater, was great.",
-      options: [
-        "when",
-        "where",
-        "which",
-        "that"
-      ],
-      correctAnswer: 0,
+      options: [ "where", "that", "when", "which" ],
+      correctAnswer: 2,
       explanation: "Usamos 'when' para referirnos a un tiempo específico en oraciones explicativas."
     } as any
   },
@@ -720,12 +635,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The new gallery, ________ opened last week, is very modern.",
-      options: [
-        "which",
-        "who",
-        "that",
-        "where"
-      ],
+      options: [ "which", "that", "who", "where" ],
       correctAnswer: 0,
       explanation: "Usamos 'which' para objetos/lugares como sujeto en oraciones explicativas."
     } as any
@@ -739,13 +649,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The sculpture, ________ I bought yesterday, is very heavy.",
-      options: [
-        "which",
-        "that",
-        "who",
-        "whose"
-      ],
-      correctAnswer: 0,
+      options: [ "whose", "who", "which", "that" ],
+      correctAnswer: 2,
       explanation: "Usamos 'which' en oraciones explicativas (no 'that')."
     } as any
   },
@@ -758,13 +663,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The writer, ________ I met at the book signing, was very kind.",
-      options: [
-        "who",
-        "whom",
-        "which",
-        "whose"
-      ],
-      correctAnswer: 0,
+      options: [ "which", "whom", "whose", "who" ],
+      correctAnswer: 3,
       explanation: "Usamos 'who' (o 'whom') para personas en oraciones explicativas."
     } as any
   },
@@ -779,13 +679,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "The ________ is the person who tells the actors what to do.",
-      options: [
-        "director",
-        "audience",
-        "scriptwriter",
-        "critic"
-      ],
-      correctAnswer: 0,
+      options: [ "critic", "audience", "scriptwriter", "director" ],
+      correctAnswer: 3,
       explanation: "El director es quien dirige la película u obra."
     } as any
   },
@@ -798,13 +693,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "The ________ are the people who watch the performance.",
-      options: [
-        "audience",
-        "cast",
-        "crew",
-        "extras"
-      ],
-      correctAnswer: 0,
+      options: [ "cast", "audience", "crew", "extras" ],
+      correctAnswer: 1,
       explanation: "'Audience' (público) son las personas que asisten al espectáculo."
     } as any
   },
@@ -817,13 +707,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "A ________ is a play or movie that is funny and has a happy ending.",
-      options: [
-        "comedy",
-        "tragedy",
-        "thriller",
-        "documentary"
-      ],
-      correctAnswer: 0,
+      options: [ "documentary", "comedy", "tragedy", "thriller" ],
+      correctAnswer: 1,
       explanation: "Una comedia es un género divertido."
     } as any
   },
@@ -836,13 +721,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The ________ is the written text of a play or movie.",
-      options: [
-        "script",
-        "novel",
-        "review",
-        "chapter"
-      ],
-      correctAnswer: 0,
+      options: [ "novel", "script", "chapter", "review" ],
+      correctAnswer: 1,
       explanation: "'Script' es el guion."
     } as any
   },
@@ -855,12 +735,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The ________ of a movie are the actors who play the parts.",
-      options: [
-        "cast",
-        "audience",
-        "producers",
-        "directors"
-      ],
+      options: [ "cast", "audience", "producers", "directors" ],
       correctAnswer: 0,
       explanation: "'Cast' (reparto) son los actores de la obra o película."
     } as any
@@ -874,13 +749,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "A ________ is a short piece of a movie used for advertising.",
-      options: [
-        "trailer",
-        "scene",
-        "plot",
-        "genre"
-      ],
-      correctAnswer: 0,
+      options: [ "scene", "trailer", "plot", "genre" ],
+      correctAnswer: 1,
       explanation: "'Trailer' (tráiler) es el avance de una película."
     } as any
   },
@@ -893,13 +763,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "A ________ is a play or movie that is very sad.",
-      options: [
-        "tragedy",
-        "comedy",
-        "musical",
-        "western"
-      ],
-      correctAnswer: 0,
+      options: [ "musical", "comedy", "western", "tragedy" ],
+      correctAnswer: 3,
       explanation: "Una tragedia es una obra triste."
     } as any
   },
@@ -912,13 +777,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The ________ is the place where a movie is filmed.",
-      options: [
-        "set",
-        "stage",
-        "cinema",
-        "gallery"
-      ],
-      correctAnswer: 0,
+      options: [ "cinema", "stage", "gallery", "set" ],
+      correctAnswer: 3,
       explanation: "En cine, se usa 'set' para el lugar de rodaje."
     } as any
   },
@@ -931,13 +791,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The ________ is the part of the theater where actors perform.",
-      options: [
-        "stage",
-        "set",
-        "aisle",
-        "box office"
-      ],
-      correctAnswer: 0,
+      options: [ "aisle", "box office", "set", "stage" ],
+      correctAnswer: 3,
       explanation: "En teatro, se usa 'stage' (escenario)."
     } as any
   },
@@ -950,12 +805,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "A ________ is a movie that tells a story through music and singing.",
-      options: [
-        "musical",
-        "drama",
-        "animation",
-        "horror movie"
-      ],
+      options: [ "musical", "horror movie", "animation", "drama" ],
       correctAnswer: 0,
       explanation: "Un musical utiliza canciones para contar la historia."
     } as any
@@ -971,13 +821,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "The ________ is the person who leads an orchestra.",
-      options: [
-        "conductor",
-        "composer",
-        "musician",
-        "singer"
-      ],
-      correctAnswer: 0,
+      options: [ "composer", "singer", "musician", "conductor" ],
+      correctAnswer: 3,
       explanation: "El director de orquesta (conductor) guía a los músicos."
     } as any
   },
@@ -990,13 +835,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "A ________ is a person who writes music.",
-      options: [
-        "composer",
-        "conductor",
-        "performer",
-        "critic"
-      ],
-      correctAnswer: 0,
+      options: [ "critic", "conductor", "composer", "performer" ],
+      correctAnswer: 2,
       explanation: "Un 'composer' (compositor) crea la música."
     } as any
   },
@@ -1009,13 +849,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The ________ are the words of a song.",
-      options: [
-        "lyrics",
-        "rhythm",
-        "melody",
-        "tune"
-      ],
-      correctAnswer: 0,
+      options: [ "tune", "rhythm", "melody", "lyrics" ],
+      correctAnswer: 3,
       explanation: "'Lyrics' son las letras de una canción."
     } as any
   },
@@ -1028,12 +863,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "She plays the ________ in a famous rock band.",
-      options: [
-        "drums",
-        "orchestra",
-        "lyrics",
-        "audience"
-      ],
+      options: [ "drums", "audience", "orchestra", "lyrics" ],
       correctAnswer: 0,
       explanation: "'Drums' (batería) es un instrumento musical."
     } as any
@@ -1047,13 +877,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "A ________ is a large group of people who sing together.",
-      options: [
-        "choir",
-        "band",
-        "duet",
-        "soloist"
-      ],
-      correctAnswer: 0,
+      options: [ "duet", "choir", "soloist", "band" ],
+      correctAnswer: 1,
       explanation: "'Choir' (coro) es un grupo que canta unido."
     } as any
   },
@@ -1066,13 +891,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The concert was ________ because the singer was ill.",
-      options: [
-        "cancelled",
-        "performed",
-        "composed",
-        "released"
-      ],
-      correctAnswer: 0,
+      options: [ "composed", "released", "performed", "cancelled" ],
+      correctAnswer: 3,
       explanation: "'Cancelled' significa que el evento no se llevó a cabo."
     } as any
   },
@@ -1085,13 +905,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Which of these is a string instrument?",
-      options: [
-        "Cello",
-        "Flute",
-        "Trumpet",
-        "Drum"
-      ],
-      correctAnswer: 0,
+      options: [ "Drum", "Flute", "Cello", "Trumpet" ],
+      correctAnswer: 2,
       explanation: "El violonchelo (cello) tiene cuerdas."
     } as any
   },
@@ -1104,12 +919,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "A live ________ is much better than a recording.",
-      options: [
-        "performance",
-        "practice",
-        "composition",
-        "rehearsal"
-      ],
+      options: [ "performance", "practice", "rehearsal", "composition" ],
       correctAnswer: 0,
       explanation: "'Performance' se refiere a la actuación o ejecución musical."
     } as any
@@ -1123,13 +933,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The band is going on ________ to promote their new album.",
-      options: [
-        "tour",
-        "trip",
-        "voyage",
-        "journey"
-      ],
-      correctAnswer: 0,
+      options: [ "voyage", "trip", "journey", "tour" ],
+      correctAnswer: 3,
       explanation: "'On tour' (de gira) es cuando un grupo viaja para dar conciertos."
     } as any
   },
@@ -1142,13 +947,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "He has a great ________ for classical music.",
-      options: [
-        "passion",
-        "style",
-        "rhythm",
-        "sound"
-      ],
-      correctAnswer: 0,
+      options: [ "sound", "rhythm", "style", "passion" ],
+      correctAnswer: 3,
       explanation: "Tener 'passion' por algo significa que te gusta mucho."
     } as any
   },
@@ -1163,13 +963,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "A ________ is a person who writes poems.",
-      options: [
-        "poet",
-        "novelist",
-        "journalist",
-        "biographer"
-      ],
-      correctAnswer: 0,
+      options: [ "novelist", "biographer", "poet", "journalist" ],
+      correctAnswer: 2,
       explanation: "Un 'poet' (poeta) escribe poesía."
     } as any
   },
@@ -1182,13 +977,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "Fiction books are stories that are ________.",
-      options: [
-        "invented",
-        "true",
-        "historical",
-        "scientific"
-      ],
-      correctAnswer: 0,
+      options: [ "scientific", "invented", "historical", "true" ],
+      correctAnswer: 1,
       explanation: "La ficción se basa en historias inventadas."
     } as any
   },
@@ -1201,13 +991,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The ________ of a book is the person who prepares it for publication.",
-      options: [
-        "editor",
-        "publisher",
-        "illustrator",
-        "translator"
-      ],
-      correctAnswer: 0,
+      options: [ "translator", "editor", "publisher", "illustrator" ],
+      correctAnswer: 1,
       explanation: "El 'editor' revisa y prepara el texto."
     } as any
   },
@@ -1220,13 +1005,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "An ________ is a person who draws pictures for a book.",
-      options: [
-        "illustrator",
-        "author",
-        "editor",
-        "critic"
-      ],
-      correctAnswer: 0,
+      options: [ "editor", "illustrator", "author", "critic" ],
+      correctAnswer: 1,
       explanation: "Un 'illustrator' crea las imágenes."
     } as any
   },
@@ -1239,13 +1019,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "A ________ is a story about a person's life written by themselves.",
-      options: [
-        "autobiography",
-        "biography",
-        "novel",
-        "diary"
-      ],
-      correctAnswer: 0,
+      options: [ "novel", "biography", "diary", "autobiography" ],
+      correctAnswer: 3,
       explanation: "Una 'autobiography' es escrita por el propio protagonista."
     } as any
   },
@@ -1258,12 +1033,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The book was so ________ that I couldn't put it down.",
-      options: [
-        "gripping",
-        "boring",
-        "heavy",
-        "long"
-      ],
+      options: [ "gripping", "long", "boring", "heavy" ],
       correctAnswer: 0,
       explanation: "'Gripping' significa que atrapa mucho la atención."
     } as any
@@ -1277,12 +1047,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "A ________ is a short story with a moral, often with animals.",
-      options: [
-        "fable",
-        "myth",
-        "legend",
-        "essay"
-      ],
+      options: [ "fable", "legend", "essay", "myth" ],
       correctAnswer: 0,
       explanation: "Una 'fable' (fábula) suele dejar una enseñanza."
     } as any
@@ -1296,13 +1061,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The main idea or message of a book is called the ________.",
-      options: [
-        "theme",
-        "plot",
-        "setting",
-        "conflict"
-      ],
-      correctAnswer: 0,
+      options: [ "conflict", "setting", "theme", "plot" ],
+      correctAnswer: 2,
       explanation: "'Theme' (tema) es la idea central."
     } as any
   },
@@ -1315,13 +1075,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I really enjoyed the ________ between the two main characters.",
-      options: [
-        "dialogue",
-        "chapter",
-        "index",
-        "prologue"
-      ],
-      correctAnswer: 0,
+      options: [ "prologue", "dialogue", "chapter", "index" ],
+      correctAnswer: 1,
       explanation: "'Dialogue' es la conversación entre personajes."
     } as any
   },
@@ -1334,12 +1089,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "A ________ is a person who writes for newspapers or magazines.",
-      options: [
-        "journalist",
-        "poet",
-        "novelist",
-        "playwright"
-      ],
+      options: [ "journalist", "poet", "playwright", "novelist" ],
       correctAnswer: 0,
       explanation: "Un periodista (journalist) escribe en prensa."
     } as any
@@ -1355,13 +1105,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "An ________ is an object of historical interest.",
-      options: [
-        "artifact",
-        "exhibit",
-        "sculpture",
-        "painting"
-      ],
-      correctAnswer: 0,
+      options: [ "painting", "exhibit", "sculpture", "artifact" ],
+      correctAnswer: 3,
       explanation: "Un 'artifact' (artefacto/objeto) tiene valor histórico."
     } as any
   },
@@ -1374,13 +1119,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "Entrance to the national museum is ________.",
-      options: [
-        "free",
-        "busy",
-        "ancient",
-        "cultural"
-      ],
-      correctAnswer: 0,
+      options: [ "cultural", "ancient", "free", "busy" ],
+      correctAnswer: 2,
       explanation: "'Free' significa gratis (sin coste de entrada)."
     } as any
   },
@@ -1393,13 +1133,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "We must preserve our cultural ________ for future generations.",
-      options: [
-        "heritage",
-        "tradition",
-        "custom",
-        "history"
-      ],
-      correctAnswer: 0,
+      options: [ "history", "custom", "tradition", "heritage" ],
+      correctAnswer: 3,
       explanation: "'Heritage' significa patrimonio."
     } as any
   },
@@ -1412,13 +1147,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The museum ________ some of the world's most famous paintings.",
-      options: [
-        "houses",
-        "lives",
-        "builds",
-        "creates"
-      ],
-      correctAnswer: 0,
+      options: [ "creates", "builds", "houses", "lives" ],
+      correctAnswer: 2,
       explanation: "El verbo 'house' significa albergar o contener."
     } as any
   },
@@ -1431,12 +1161,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "A ________ is a person who shows people around a museum.",
-      options: [
-        "guide",
-        "curator",
-        "director",
-        "visitor"
-      ],
+      options: [ "guide", "director", "visitor", "curator" ],
       correctAnswer: 0,
       explanation: "Un 'guide' (guía) acompaña a los visitantes."
     } as any
@@ -1450,13 +1175,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The statues were carved out of ________.",
-      options: [
-        "marble",
-        "oil",
-        "canvas",
-        "paper"
-      ],
-      correctAnswer: 0,
+      options: [ "oil", "paper", "canvas", "marble" ],
+      correctAnswer: 3,
       explanation: "'Marble' (mármol) es un material común para estatuas."
     } as any
   },
@@ -1469,13 +1189,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The museum has an impressive collection of ________ pottery.",
-      options: [
-        "ancient",
-        "modern",
-        "young",
-        "new"
-      ],
-      correctAnswer: 0,
+      options: [ "modern", "new", "ancient", "young" ],
+      correctAnswer: 2,
       explanation: "'Ancient' significa muy antiguo (ej. cerámica antigua)."
     } as any
   },
@@ -1488,12 +1203,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The ________ of the museum is responsible for the collection.",
-      options: [
-        "curator",
-        "guide",
-        "guard",
-        "artist"
-      ],
+      options: [ "curator", "guide", "guard", "artist" ],
       correctAnswer: 0,
       explanation: "El 'curator' (conservador/comisario) gestiona la colección."
     } as any
@@ -1507,12 +1217,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Many countries want their stolen ________ returned.",
-      options: [
-        "treasures",
-        "paintings",
-        "artifacts",
-        "copies"
-      ],
+      options: [ "paintings", "treasures", "artifacts", "copies" ],
       correctAnswer: 2,
       explanation: "Se refiere a objetos de valor histórico (artifacts)."
     } as any
@@ -1526,13 +1231,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The building is a protected ________ monument.",
-      options: [
-        "historic",
-        "history",
-        "historical",
-        "historian"
-      ],
-      correctAnswer: 0,
+      options: [ "historical", "history", "historian", "historic" ],
+      correctAnswer: 3,
       explanation: "'Historic' se usa para algo que es importante en la historia."
     } as any
   },
@@ -1547,12 +1247,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The band ________ their new album last week.",
-      options: [
-        "brought out",
-        "brought up",
-        "brought about",
-        "brought in"
-      ],
+      options: [ "brought out", "brought about", "brought up", "brought in" ],
       correctAnswer: 0,
       explanation: "'Bring out' significa publicar o lanzar un producto."
     } as any
@@ -1566,12 +1261,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "He decided to ________ painting as a hobby.",
-      options: [
-        "take up",
-        "take on",
-        "take in",
-        "take off"
-      ],
+      options: [ "take up", "take off", "take in", "take on" ],
       correctAnswer: 0,
       explanation: "'Take up' significa empezar una actividad o hobby."
     } as any
@@ -1585,13 +1275,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "She ________ a great idea for a new story.",
-      options: [
-        "came up with",
-        "came across",
-        "came out with",
-        "came along with"
-      ],
-      correctAnswer: 0,
+      options: [ "came across", "came up with", "came along with", "came out with" ],
+      correctAnswer: 1,
       explanation: "'Come up with' significa idear o inventar algo."
     } as any
   },
@@ -1604,13 +1289,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The actor ________ the stage to thunderous applause.",
-      options: [
-        "went on",
-        "went off",
-        "went in",
-        "went up"
-      ],
-      correctAnswer: 0,
+      options: [ "went off", "went on", "went up", "went in" ],
+      correctAnswer: 1,
       explanation: "'Go on' (the stage) significa salir a escena."
     } as any
   },
@@ -1623,13 +1303,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "We need to ________ a new play for the theater group.",
-      options: [
-        "put on",
-        "put off",
-        "put up",
-        "put out"
-      ],
-      correctAnswer: 0,
+      options: [ "put off", "put out", "put on", "put up" ],
+      correctAnswer: 2,
       explanation: "'Put on' significa montar o representar una obra."
     } as any
   },
@@ -1642,13 +1317,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "He ________ the book and started reading from the beginning.",
-      options: [
-        "picked up",
-        "picked out",
-        "picked on",
-        "picked off"
-      ],
-      correctAnswer: 0,
+      options: [ "picked off", "picked up", "picked on", "picked out" ],
+      correctAnswer: 1,
       explanation: "'Pick up' significa coger o levantar algo."
     } as any
   },
@@ -1661,13 +1331,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The movie ________ as a total surprise.",
-      options: [
-        "came across",
-        "came out",
-        "came about",
-        "came through"
-      ],
-      correctAnswer: 0,
+      options: [ "came about", "came out", "came across", "came through" ],
+      correctAnswer: 2,
       explanation: "'Come across' puede significar dar una impresión o ser percibido de una forma."
     } as any
   },
@@ -1680,12 +1345,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I ________ a very old book in the attic.",
-      options: [
-        "came across",
-        "came into",
-        "came up",
-        "came off"
-      ],
+      options: [ "came across", "came off", "came into", "came up" ],
       correctAnswer: 0,
       explanation: "'Come across' significa encontrar algo por casualidad."
     } as any
@@ -1699,13 +1359,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "They ________ a lot of time and effort into the exhibition.",
-      options: [
-        "put",
-        "gave",
-        "took",
-        "made"
-      ],
-      correctAnswer: 0,
+      options: [ "made", "took", "put", "gave" ],
+      correctAnswer: 2,
       explanation: "'Put in' (time/effort) significa dedicar tiempo o esfuerzo."
     } as any
   },
@@ -1718,12 +1373,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The singer's career ________ after she won the contest.",
-      options: [
-        "took off",
-        "took on",
-        "took out",
-        "took up"
-      ],
+      options: [ "took off", "took on", "took out", "took up" ],
       correctAnswer: 0,
       explanation: "'Take off' significa tener éxito repentino o despegar (metafóricamente)."
     } as any
@@ -1739,13 +1389,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Which word means a very famous and important piece of art?",
-      options: [
-        "Masterpiece",
-        "Sketch",
-        "Exhibition",
-        "Landscape"
-      ],
-      correctAnswer: 0,
+      options: [ "Sketch", "Masterpiece", "Exhibition", "Landscape" ],
+      correctAnswer: 1,
       explanation: "'Masterpiece' es una obra maestra."
     } as any
   },
@@ -1758,13 +1403,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Choose the correct relative pronoun: 'The book ________ I bought is great.'",
-      options: [
-        "which",
-        "who",
-        "where",
-        "whose"
-      ],
-      correctAnswer: 0,
+      options: [ "whose", "where", "who", "which" ],
+      correctAnswer: 3,
       explanation: "Usamos 'which' para objetos (libros)."
     } as any
   },
@@ -1777,13 +1417,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "What is a 'cast' in cinema?",
-      options: [
-        "The group of actors",
-        "The person who directs",
-        "The written story",
-        "The place of filming"
-      ],
-      correctAnswer: 0,
+      options: [ "The person who directs", "The written story", "The group of actors", "The place of filming" ],
+      correctAnswer: 2,
       explanation: "'Cast' es el elenco o reparto de actores."
     } as any
   },
@@ -1796,13 +1431,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "In my ________, the movie was a bit too long.",
-      options: [
-        "opinion",
-        "view",
-        "thought",
-        "mind"
-      ],
-      correctAnswer: 0,
+      options: [ "mind", "thought", "view", "opinion" ],
+      correctAnswer: 3,
       explanation: "Expresión común: 'In my opinion' (en mi opinión)."
     } as any
   },
@@ -1815,13 +1445,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Complete: 'I love books ________ setting is in the future.'",
-      options: [
-        "whose",
-        "which",
-        "that",
-        "where"
-      ],
-      correctAnswer: 0,
+      options: [ "which", "that", "where", "whose" ],
+      correctAnswer: 3,
       explanation: "Usamos 'whose' para indicar posesión (el escenario de los libros)."
     } as any
   },
@@ -1834,13 +1459,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Which phrasal verb means 'to start a new hobby'?",
-      options: [
-        "Take up",
-        "Put on",
-        "Bring out",
-        "Come across"
-      ],
-      correctAnswer: 0,
+      options: [ "Bring out", "Take up", "Put on", "Come across" ],
+      correctAnswer: 1,
       explanation: "'Take up' se usa para iniciar una actividad."
     } as any
   },
@@ -1853,12 +1473,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Choose the correct sentence:",
-      options: [
-        "Leonardo da Vinci, who was a genius, painted the Mona Lisa.",
-        "Leonardo da Vinci, that was a genius, painted the Mona Lisa.",
-        "Leonardo da Vinci who was a genius painted the Mona Lisa.",
-        "Leonardo da Vinci whose was a genius painted the Mona Lisa."
-      ],
+      options: [ "Leonardo da Vinci, painted the Mona Lisa.", who was a genius, "Leonardo da Vinci, that was a genius, "Leonardo da Vinci who was a genius painted the Mona Lisa.", painted the Mona Lisa.", "Leonardo da Vinci whose was a genius painted the Mona Lisa." ],
       correctAnswer: 0,
       explanation: "Oración de relativo explicativa para personas: 'who' entre comas."
     } as any
@@ -1872,13 +1487,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "What does 'gripping' mean?",
-      options: [
-        "Very exciting and interesting",
-        "Very sad and tragic",
-        "Very long and boring",
-        "Very difficult to understand"
-      ],
-      correctAnswer: 0,
+      options: [ "Very long and boring", "Very sad and tragic", "Very exciting and interesting", "Very difficult to understand" ],
+      correctAnswer: 2,
       explanation: "'Gripping' significa que te mantiene atrapado por lo emocionante que es."
     } as any
   },
@@ -1891,13 +1501,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Complete: 'The exhibition, ________ I visited yesterday, was amazing.'",
-      options: [
-        "which",
-        "that",
-        "where",
-        "who"
-      ],
-      correctAnswer: 0,
+      options: [ "that", "which", "who", "where" ],
+      correctAnswer: 1,
       explanation: "Oración explicativa para objetos: 'which' (no 'that')."
     } as any
   },
@@ -1910,12 +1515,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Expresing disagreement: 'I ________ agree with you on that point.'",
-      options: [
-        "don't",
-        "am not",
-        "not",
-        "won't"
-      ],
+      options: [ "don't", "won't", "am not", "not" ],
       correctAnswer: 0,
       explanation: "Voz activa negativa: 'I don't agree'."
     } as any

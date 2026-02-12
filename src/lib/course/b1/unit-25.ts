@@ -30,7 +30,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "If I ________ (be) you, I ________ (not / say) that to him yesterday.",
-      options: ["were / wouldn't have said", "had been / wouldn't say", "am / won't say", "were / didn't say"],
+      options: [ "were / wouldn't have said", "had been / wouldn't say", "were / didn't say", "am / won't say" ],
       correctAnswer: 0,
       explanation: "Mixed conditional: Present condition (were) affecting a past result (wouldn't have said)."
     }
@@ -44,8 +44,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "If she ________ (speak) English better, she ________ (get) the job last month.",
-      options: ["spoke / would have got", "had spoken / would get", "speaks / will get", "spoke / got"],
-      correctAnswer: 0,
+      options: [ "spoke / got", "spoke / would have got", "had spoken / would get", "speaks / will get" ],
+      correctAnswer: 1,
       explanation: "Mixed conditional."
     }
   },
@@ -58,8 +58,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If they ________ (not / be) so lazy, they ________ (finish) the project on time.",
-      options: ["weren't / would have finished", "hadn't been / would finish", "aren't / will finish", "weren't / finished"],
-      correctAnswer: 0,
+      options: [ "weren't / finished", "weren't / would have finished", "aren't / will finish", "hadn't been / would finish" ],
+      correctAnswer: 1,
       explanation: "Mixed conditional."
     }
   },
@@ -72,8 +72,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If I ________ (have) more money, I ________ (buy) that car when I saw it.",
-      options: ["had / would have bought", "had had / would buy", "have / will buy", "had / bought"],
-      correctAnswer: 0,
+      options: [ "have / will buy", "had had / would buy", "had / bought", "had / would have bought" ],
+      correctAnswer: 3,
       explanation: "Mixed conditional."
     }
   },
@@ -86,8 +86,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If you ________ (not / be) afraid of heights, you ________ (climb) the mountain with us.",
-      options: ["weren't / would have climbed", "hadn't been / would climb", "aren't / will climb", "wasn't / climbed"],
-      correctAnswer: 0,
+      options: [ "aren't / will climb", "hadn't been / would climb", "wasn't / climbed", "weren't / would have climbed" ],
+      correctAnswer: 3,
       explanation: "Mixed conditional."
     }
   },
@@ -100,8 +100,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If he ________ (be) a better player, he ________ (score) more goals last season.",
-      options: ["were / would have scored", "had been / would score", "is / will score", "was / scored"],
-      correctAnswer: 0,
+      options: [ "was / scored", "had been / would score", "is / will score", "were / would have scored" ],
+      correctAnswer: 3,
       explanation: "Mixed conditional."
     }
   },
@@ -114,7 +114,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If we ________ (know) him well, we ________ (invite) him to the party.",
-      options: ["knew / would have invited", "had known / would invite", "know / will invite", "knew / invited"],
+      options: [ "knew / would have invited", "knew / invited", "know / will invite", "had known / would invite" ],
       correctAnswer: 0,
       explanation: "Mixed conditional."
     }
@@ -128,8 +128,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If I ________ (not / have) a headache, I ________ (go) to the cinema with you last night.",
-      options: ["didn't have / would have gone", "hadn't had / would go", "don't have / will go", "didn't have / went"],
-      correctAnswer: 0,
+      options: [ "didn't have / went", "don't have / will go", "didn't have / would have gone", "hadn't had / would go" ],
+      correctAnswer: 2,
       explanation: "Mixed conditional."
     }
   },
@@ -142,7 +142,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If she ________ (be) more careful, she ________ (not / lose) her phone.",
-      options: ["were / wouldn't have lost", "had been / wouldn't lose", "is / won't lose", "was / lost"],
+      options: [ "were / wouldn't have lost", "is / won't lose", "was / lost", "had been / wouldn't lose" ],
       correctAnswer: 0,
       explanation: "Mixed conditional."
     }
@@ -176,8 +176,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "If I ________ (take) the map, we ________ (not / be) lost now.",
-      options: ["had taken / wouldn't be", "took / wouldn't have been", "take / won't be", "had taken / aren't"],
-      correctAnswer: 0,
+      options: [ "had taken / aren't", "take / won't be", "had taken / wouldn't be", "took / wouldn't have been" ],
+      correctAnswer: 2,
       explanation: "Mixed conditional: Past action (had taken) affecting present state (wouldn't be)."
     }
   },
@@ -190,8 +190,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If she ________ (not / miss) the train, she ________ (be) here by now.",
-      options: ["hadn't missed / would be", "didn't miss / would have been", "hasn't missed / is", "hadn't missed / will be"],
-      correctAnswer: 0,
+      options: [ "hadn't missed / will be", "hadn't missed / would be", "didn't miss / would have been", "hasn't missed / is" ],
+      correctAnswer: 1,
       explanation: "Mixed conditional."
     }
   },
@@ -204,7 +204,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If they ________ (study) harder, they ________ (not / have) to retake the exam.",
-      options: ["had studied / wouldn't have", "studied / wouldn't have had", "study / don't have", "had studied / won't have"],
+      options: [ "had studied / wouldn't have", "study / don't have", "had studied / won't have", "studied / wouldn't have had" ],
       correctAnswer: 0,
       explanation: "Mixed conditional."
     }
@@ -218,8 +218,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If I ________ (not / eat) so much, I ________ (not / feel) sick now.",
-      options: ["hadn't eaten / wouldn't feel", "didn't eat / wouldn't have felt", "don't eat / won't feel", "hadn't eaten / am not feeling"],
-      correctAnswer: 0,
+      options: [ "don't eat / won't feel", "hadn't eaten / am not feeling", "didn't eat / wouldn't have felt", "hadn't eaten / wouldn't feel" ],
+      correctAnswer: 3,
       explanation: "Mixed conditional."
     }
   },
@@ -232,8 +232,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If you ________ (listen) to me, you ________ (know) the answer now.",
-      options: ["had listened / would know", "listened / would have known", "listen / will know", "had listened / knew"],
-      correctAnswer: 0,
+      options: [ "listened / would have known", "had listened / would know", "listen / will know", "had listened / knew" ],
+      correctAnswer: 1,
       explanation: "Mixed conditional."
     }
   },
@@ -246,7 +246,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If he ________ (save) more money, he ________ (be) able to buy a house.",
-      options: ["had saved / would be", "saved / would have been", "saves / will be", "had saved / is"],
+      options: [ "had saved / would be", "saves / will be", "had saved / is", "saved / would have been" ],
       correctAnswer: 0,
       explanation: "Mixed conditional."
     }
@@ -260,7 +260,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If we ________ (not / lose) the keys, we ________ (be) inside now.",
-      options: ["hadn't lost / would be", "didn't lose / would have been", "haven't lost / are", "hadn't lost / will be"],
+      options: [ "hadn't lost / would be", "hadn't lost / will be", "didn't lose / would have been", "haven't lost / are" ],
       correctAnswer: 0,
       explanation: "Mixed conditional."
     }
@@ -274,7 +274,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If she ________ (tell) the truth, her parents ________ (not / be) angry with her.",
-      options: ["had told / wouldn't be", "told / wouldn't have been", "tells / won't be", "had told / aren't"],
+      options: [ "had told / wouldn't be", "told / wouldn't have been", "tells / won't be", "had told / aren't" ],
       correctAnswer: 0,
       explanation: "Mixed conditional."
     }
@@ -288,7 +288,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If they ________ (not / spend) all their money, they ________ (not / be) broke now.",
-      options: ["hadn't spent / wouldn't be", "didn't spend / wouldn't have been", "don't spend / aren't", "hadn't spent / won't be"],
+      options: [ "hadn't spent / wouldn't be", "hadn't spent / won't be", "didn't spend / wouldn't have been", "don't spend / aren't" ],
       correctAnswer: 0,
       explanation: "Mixed conditional."
     }
@@ -322,8 +322,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If I ________ (not / break) my leg, I ________ (play) in the match next week.",
-      options: ["hadn't broken / would be playing", "didn't break / would play", "not break / will play", "hadn't broken / played"],
-      correctAnswer: 0,
+      options: [ "hadn't broken / played", "not break / will play", "didn't break / would play", "hadn't broken / would be playing" ],
+      correctAnswer: 3,
       explanation: "Mixed conditional: Past action affecting future event."
     }
   },
@@ -336,8 +336,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If she ________ (pass) the exam, she ________ (start) university next month.",
-      options: ["had passed / would be starting", "passed / would start", "passes / will start", "had passed / starts"],
-      correctAnswer: 0,
+      options: [ "had passed / starts", "had passed / would be starting", "passes / will start", "passed / would start" ],
+      correctAnswer: 1,
       explanation: "Mixed conditional."
     }
   },
@@ -350,8 +350,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If we ________ (buy) the tickets earlier, we ________ (go) to the concert tomorrow.",
-      options: ["had bought / would be going", "bought / would go", "buy / will go", "had bought / went"],
-      correctAnswer: 0,
+      options: [ "buy / will go", "had bought / went", "bought / would go", "had bought / would be going" ],
+      correctAnswer: 3,
       explanation: "Mixed conditional."
     }
   },
@@ -364,7 +364,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If they ________ (not / lose) the game, they ________ (celebrate) this weekend.",
-      options: ["hadn't lost / would be celebrating", "didn't lose / would celebrate", "don't lose / will celebrate", "hadn't lost / celebrate"],
+      options: [ "hadn't lost / would be celebrating", "don't lose / will celebrate", "didn't lose / would celebrate", "hadn't lost / celebrate" ],
       correctAnswer: 0,
       explanation: "Mixed conditional."
     }
@@ -378,8 +378,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If I ________ (apply) for the visa earlier, I ________ (leave) for Japan on Friday.",
-      options: ["had applied / would be leaving", "applied / would leave", "apply / will leave", "had applied / left"],
-      correctAnswer: 0,
+      options: [ "applied / would leave", "had applied / would be leaving", "had applied / left", "apply / will leave" ],
+      correctAnswer: 1,
       explanation: "Mixed conditional."
     }
   },
@@ -392,8 +392,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If she ________ (not / quit) her job, she ________ (get) a promotion soon.",
-      options: ["hadn't quit / would be getting", "didn't quit / would get", "doesn't quit / will get", "hadn't quit / got"],
-      correctAnswer: 0,
+      options: [ "hadn't quit / got", "didn't quit / would get", "hadn't quit / would be getting", "doesn't quit / will get" ],
+      correctAnswer: 2,
       explanation: "Mixed conditional."
     }
   },
@@ -406,7 +406,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If we ________ (not / miss) the deadline, we ________ (present) our project next Tuesday.",
-      options: ["hadn't missed / would be presenting", "didn't miss / would present", "don't miss / will present", "hadn't missed / presented"],
+      options: [ "hadn't missed / would be presenting", "didn't miss / would present", "hadn't missed / presented", "don't miss / will present" ],
       correctAnswer: 0,
       explanation: "Mixed conditional."
     }
@@ -420,7 +420,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If he ________ (invite) her, she ________ (come) to the party on Saturday.",
-      options: ["had invited / would be coming", "invited / would come", "invites / will come", "had invited / came"],
+      options: [ "had invited / would be coming", "had invited / came", "invited / would come", "invites / will come" ],
       correctAnswer: 0,
       explanation: "Mixed conditional."
     }
@@ -434,8 +434,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If they ________ (win) the lottery, they ________ (travel) around the world next year.",
-      options: ["had won / would be traveling", "won / would travel", "win / will travel", "had won / traveled"],
-      correctAnswer: 0,
+      options: [ "win / will travel", "had won / traveled", "had won / would be traveling", "won / would travel" ],
+      correctAnswer: 2,
       explanation: "Mixed conditional."
     }
   },
@@ -468,7 +468,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If I ________ (not / be) so busy today, I ________ (go) out last night.",
-      options: ["weren't / would have gone", "hadn't been / would go", "wasn't / went", "am not / will go"],
+      options: [ "weren't / would have gone", "hadn't been / would go", "wasn't / went", "am not / will go" ],
       correctAnswer: 0,
       explanation: "Review: Present condition, past result."
     }
@@ -482,8 +482,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If she ________ (tell) me earlier, I ________ (know) what to do now.",
-      options: ["had told / would know", "told / would have known", "tells / will know", "had told / knew"],
-      correctAnswer: 0,
+      options: [ "tells / will know", "had told / would know", "had told / knew", "told / would have known" ],
+      correctAnswer: 1,
       explanation: "Review: Past action, present result."
     }
   },
@@ -496,8 +496,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If we ________ (not / lose) the map, we ________ (not / be) lost.",
-      options: ["hadn't lost / wouldn't be", "didn't lose / wouldn't have been", "haven't lost / aren't", "hadn't lost / won't be"],
-      correctAnswer: 0,
+      options: [ "haven't lost / aren't", "hadn't lost / won't be", "hadn't lost / wouldn't be", "didn't lose / wouldn't have been" ],
+      correctAnswer: 2,
       explanation: "Review."
     }
   },
@@ -510,8 +510,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If you ________ (be) more careful, you ________ (not / break) the vase yesterday.",
-      options: ["were / wouldn't have broken", "had been / wouldn't break", "are / won't break", "were / didn't break"],
-      correctAnswer: 0,
+      options: [ "had been / wouldn't break", "are / won't break", "were / didn't break", "were / wouldn't have broken" ],
+      correctAnswer: 3,
       explanation: "Review."
     }
   },
@@ -524,8 +524,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If he ________ (study) more, he ________ (have) a better job now.",
-      options: ["had studied / would have", "studied / would have had", "study / has", "had studied / will have"],
-      correctAnswer: 0,
+      options: [ "studied / would have had", "had studied / will have", "study / has", "had studied / would have" ],
+      correctAnswer: 3,
       explanation: "Review."
     }
   },
@@ -538,8 +538,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If I ________ (not / miss) the bus, I ________ (be) at home by now.",
-      options: ["hadn't missed / would be", "didn't miss / would have been", "haven't missed / am", "hadn't missed / will be"],
-      correctAnswer: 0,
+      options: [ "hadn't missed / will be", "haven't missed / am", "didn't miss / would have been", "hadn't missed / would be" ],
+      correctAnswer: 3,
       explanation: "Review."
     }
   },
@@ -552,8 +552,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If they ________ (speak) French, they ________ (not / need) a translator yesterday.",
-      options: ["spoke / wouldn't have needed", "had spoken / wouldn't need", "speaks / won't need", "spoke / didn't need"],
-      correctAnswer: 0,
+      options: [ "had spoken / wouldn't need", "speaks / won't need", "spoke / didn't need", "spoke / wouldn't have needed" ],
+      correctAnswer: 3,
       explanation: "Review."
     }
   },
@@ -566,8 +566,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If we ________ (not / be) so tired, we ________ (go) to the party tonight.",
-      options: ["weren't / would be going", "hadn't been / would go", "aren't / will go", "weren't / went"],
-      correctAnswer: 0,
+      options: [ "hadn't been / would go", "aren't / will go", "weren't / would be going", "weren't / went" ],
+      correctAnswer: 2,
       explanation: "Review."
     }
   },
@@ -580,8 +580,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If she ________ (take) my advice, she ________ (not / be) in this trouble now.",
-      options: ["had taken / wouldn't be", "took / wouldn't have been", "takes / isn't", "had taken / won't be"],
-      correctAnswer: 0,
+      options: [ "had taken / won't be", "takes / isn't", "had taken / wouldn't be", "took / wouldn't have been" ],
+      correctAnswer: 2,
       explanation: "Review."
     }
   },
@@ -614,8 +614,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If I ________ (make) a different ________ (decisión), I would be living in Spain now.",
-      options: ["had made / decision", "made / decision", "make / decide", "had made / decide"],
-      correctAnswer: 0,
+      options: [ "made / decision", "had made / decision", "make / decide", "had made / decide" ],
+      correctAnswer: 1,
       explanation: "Decision = decisión."
     }
   },
@@ -628,7 +628,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If we ________ (weigh) the ________ (pros y contras), we wouldn't have made that mistake.",
-      options: ["had weighed / pros and cons", "weighed / pros and cons", "weigh / pros and cons", "had weigh / pro and con"],
+      options: [ "had weighed / pros and cons", "weighed / pros and cons", "weigh / pros and cons", "had weigh / pro and con" ],
       correctAnswer: 0,
       explanation: "Pros and cons = pros y contras."
     }
@@ -642,8 +642,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If I ________ (not / hesitate), I ________ (take) the opportunity last year.",
-      options: ["hadn't hesitated / would have taken", "didn't hesitate / would take", "don't hesitate / will take", "hadn't hesitate / took"],
-      correctAnswer: 0,
+      options: [ "hadn't hesitate / took", "don't hesitate / will take", "didn't hesitate / would take", "hadn't hesitated / would have taken" ],
+      correctAnswer: 3,
       explanation: "Hesitate = dudar/vacilar."
     }
   },
@@ -656,8 +656,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If she ________ (consider) all the ________ (opciones), she would be happier now.",
-      options: ["had considered / options", "considered / options", "consider / option", "had considered / optional"],
-      correctAnswer: 0,
+      options: [ "considered / options", "had considered / optional", "had considered / options", "consider / option" ],
+      correctAnswer: 2,
       explanation: "Options = opciones."
     }
   },
@@ -670,7 +670,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If they ________ (reach) a ________ (acuerdo), the strike would be over by now.",
-      options: ["had reached / agreement", "reached / agreement", "reach / agree", "had reached / agreeable"],
+      options: [ "had reached / agreement", "reached / agreement", "had reached / agreeable", "reach / agree" ],
       correctAnswer: 0,
       explanation: "Agreement = acuerdo."
     }
@@ -684,7 +684,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If I ________ (trust) my ________ (intuición), I wouldn't have invested in that company.",
-      options: ["had trusted / intuition", "trusted / intuition", "trust / intuitive", "had trust / intuition"],
+      options: [ "had trusted / intuition", "trusted / intuition", "trust / intuitive", "had trust / intuition" ],
       correctAnswer: 0,
       explanation: "Intuition = intuición."
     }
@@ -698,7 +698,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If we ________ (not / rush) our ________ (elección), we wouldn't regret it now.",
-      options: ["hadn't rushed / choice", "didn't rush / choice", "don't rush / choose", "hadn't rushed / choose"],
+      options: [ "hadn't rushed / choice", "didn't rush / choice", "hadn't rushed / choose", "don't rush / choose" ],
       correctAnswer: 0,
       explanation: "Choice = elección."
     }
@@ -712,8 +712,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If she ________ (know) the ________ (consecuencias), she wouldn't have done it.",
-      options: ["had known / consequences", "knew / consequences", "know / consequence", "had known / consequent"],
-      correctAnswer: 0,
+      options: [ "knew / consequences", "had known / consequent", "had known / consequences", "know / consequence" ],
+      correctAnswer: 2,
       explanation: "Consequences = consecuencias."
     }
   },
@@ -726,7 +726,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If I ________ (take) a ________ (riesgo), my life would be very different now.",
-      options: ["had taken / risk", "took / risk", "take / risky", "had taken / risky"],
+      options: [ "had taken / risk", "took / risk", "had taken / risky", "take / risky" ],
       correctAnswer: 0,
       explanation: "Risk = riesgo."
     }
@@ -760,7 +760,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If the ________ (resultado) had been different, we would be celebrating now.",
-      options: ["outcome", "income", "output", "outbound"],
+      options: [ "outcome", "outbound", "output", "income" ],
       correctAnswer: 0,
       explanation: "Outcome = resultado."
     }
@@ -774,8 +774,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If she ________ (not / intervene), the ________ (desenlace) would have been tragic.",
-      options: ["hadn't intervened / outcome", "didn't intervene / outcome", "haven't intervened / income", "hadn't intervene / outcome"],
-      correctAnswer: 0,
+      options: [ "hadn't intervene / outcome", "hadn't intervened / outcome", "didn't intervene / outcome", "haven't intervened / income" ],
+      correctAnswer: 1,
       explanation: "Intervene = intervenir."
     }
   },
@@ -788,8 +788,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If we ________ (predict) the ________ (impacto), we would be better prepared now.",
-      options: ["had predicted / impact", "predicted / impact", "predict / impacting", "had predict / impact"],
-      correctAnswer: 0,
+      options: [ "predict / impacting", "had predicted / impact", "had predict / impact", "predicted / impact" ],
+      correctAnswer: 1,
       explanation: "Predict = predecir."
     }
   },
@@ -802,7 +802,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If they ________ (analyze) the ________ (datos) earlier, they would know the answer now.",
-      options: ["had analyzed / data", "analyzed / data", "analyze / date", "had analyze / data"],
+      options: [ "had analyzed / data", "analyze / date", "analyzed / data", "had analyze / data" ],
       correctAnswer: 0,
       explanation: "Data = datos."
     }
@@ -816,8 +816,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If I ________ (change) my ________ (enfoque), I would have succeeded.",
-      options: ["had changed / approach", "changed / approach", "change / approach", "had change / approaching"],
-      correctAnswer: 0,
+      options: [ "had change / approaching", "changed / approach", "had changed / approach", "change / approach" ],
+      correctAnswer: 2,
       explanation: "Approach = enfoque/método."
     }
   },
@@ -830,8 +830,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If the ________ (clima) ________ (be) better, we would be hiking tomorrow.",
-      options: ["weather / had been", "climate / were", "weather / were", "whether / was"],
-      correctAnswer: 0,
+      options: [ "climate / were", "whether / was", "weather / were", "weather / had been" ],
+      correctAnswer: 3,
       explanation: "Weather = clima."
     }
   },
@@ -844,7 +844,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If he ________ (show) more ________ (esfuerzo), he would have a promotion now.",
-      options: ["had shown / effort", "showed / effort", "show / effort", "had show / effortless"],
+      options: [ "had shown / effort", "had show / effortless", "show / effort", "showed / effort" ],
       correctAnswer: 0,
       explanation: "Effort = esfuerzo."
     }
@@ -858,7 +858,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If we ________ (not / ignore) the ________ (advertencia), we wouldn't be in danger now.",
-      options: ["hadn't ignored / warning", "didn't ignore / warning", "don't ignore / warn", "hadn't ignore / warning"],
+      options: [ "hadn't ignored / warning", "hadn't ignore / warning", "didn't ignore / warning", "don't ignore / warn" ],
       correctAnswer: 0,
       explanation: "Warning = advertencia."
     }
@@ -872,8 +872,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If she ________ (follow) her ________ (instinto), she would be safe today.",
-      options: ["had followed / instinct", "followed / instinct", "follow / instinctive", "had follow / instinct"],
-      correctAnswer: 0,
+      options: [ "follow / instinctive", "had follow / instinct", "had followed / instinct", "followed / instinct" ],
+      correctAnswer: 2,
       explanation: "Instinct = instinto."
     }
   },
@@ -906,7 +906,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "________ (Imagina) you had taken the job. What would you be doing now?",
-      options: ["Imagine", "Otherwise", "Unless", "Provided"],
+      options: [ "Imagine", "Otherwise", "Provided", "Unless" ],
       correctAnswer: 0,
       explanation: "Imagine = imagina."
     }
@@ -920,8 +920,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "I missed the bus; ________ (de lo contrario), I would have been here on time.",
-      options: ["otherwise", "supposing", "imagine", "if"],
-      correctAnswer: 0,
+      options: [ "supposing", "imagine", "otherwise", "if" ],
+      correctAnswer: 2,
       explanation: "Otherwise = de lo contrario."
     }
   },
@@ -934,8 +934,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "________ (Supón) we hadn't met. Would we still be friends?",
-      options: ["Supposing", "Otherwise", "Imagine", "But for"],
-      correctAnswer: 0,
+      options: [ "But for", "Otherwise", "Imagine", "Supposing" ],
+      correctAnswer: 3,
       explanation: "Supposing = suponiendo que."
     }
   },
@@ -948,8 +948,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "We need to leave now; ________ (si no), we'll miss the train.",
-      options: ["otherwise", "imagine", "suppose", "if"],
-      correctAnswer: 0,
+      options: [ "suppose", "imagine", "if", "otherwise" ],
+      correctAnswer: 3,
       explanation: "Otherwise = si no / de lo contrario."
     }
   },
@@ -962,8 +962,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "________ (Supón) you ________ (be) in my position. What would you have done?",
-      options: ["Suppose / were", "Suppose / are", "Imagine / had been", "Otherwise / were"],
-      correctAnswer: 0,
+      options: [ "Suppose / are", "Imagine / had been", "Suppose / were", "Otherwise / were" ],
+      correctAnswer: 2,
       explanation: "Suppose + past for hypothetical situations."
     }
   },
@@ -976,8 +976,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "He ________ (finish) the race; ________ (de lo contrario), he would have been very disappointed.",
-      options: ["finished / otherwise", "had finished / otherwise", "finish / imagine", "finishing / otherwise"],
-      correctAnswer: 1,
+      options: [ "finishing / otherwise", "finished / otherwise", "had finished / otherwise", "finish / imagine" ],
+      correctAnswer: 2,
       explanation: "Mixed conditional with otherwise."
     }
   },
@@ -990,8 +990,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "________ (Imagina) you ________ (not / meet) your best friend. How would your life be now?",
-      options: ["Imagine / hadn't met", "Imagine / didn't meet", "Suppose / don't meet", "Otherwise / hadn't met"],
-      correctAnswer: 0,
+      options: [ "Imagine / didn't meet", "Imagine / hadn't met", "Suppose / don't meet", "Otherwise / hadn't met" ],
+      correctAnswer: 1,
       explanation: "Imagine + past perfect for past hypotheses."
     }
   },
@@ -1004,8 +1004,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I ________ (go) to bed late; ________ (de lo contrario), I wouldn't be so tired now.",
-      options: ["went / otherwise", "had gone / otherwise", "go / imagine", "going / otherwise"],
-      correctAnswer: 0,
+      options: [ "going / otherwise", "had gone / otherwise", "went / otherwise", "go / imagine" ],
+      correctAnswer: 2,
       explanation: "Past action, present result with otherwise."
     }
   },
@@ -1018,8 +1018,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "________ (Supón) they ________ (not / find) us. Where would we be tomorrow?",
-      options: ["Suppose / hadn't found", "Imagine / didn't find", "Otherwise / haven't found", "Suppose / don't find"],
-      correctAnswer: 0,
+      options: [ "Suppose / don't find", "Suppose / hadn't found", "Imagine / didn't find", "Otherwise / haven't found" ],
+      correctAnswer: 1,
       explanation: "Hypothetical past with future result."
     }
   },
@@ -1052,7 +1052,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "________ (De haber sabido) about the meeting, I would have attended.",
-      options: ["Had I known", "If I knew", "Did I know", "Have I known"],
+      options: [ "Had I known", "Have I known", "Did I know", "If I knew" ],
       correctAnswer: 0,
       explanation: "Had I known = If I had known."
     }
@@ -1066,8 +1066,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "________ (Si yo fuera) you, I wouldn't have done that.",
-      options: ["Were I", "Was I", "If I am", "Had I been"],
-      correctAnswer: 0,
+      options: [ "If I am", "Were I", "Was I", "Had I been" ],
+      correctAnswer: 1,
       explanation: "Were I = If I were."
     }
   },
@@ -1080,8 +1080,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "________ (De haber tenido) more time, I would be finished by now.",
-      options: ["Had I had", "Had I", "If I have", "Did I have"],
-      correctAnswer: 0,
+      options: [ "Had I", "If I have", "Did I have", "Had I had" ],
+      correctAnswer: 3,
       explanation: "Had I had = If I had had."
     }
   },
@@ -1094,7 +1094,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "________ (De haber llegado) sooner, he would be with us now.",
-      options: ["Had he arrived", "Did he arrive", "If he arrives", "Were he arriving"],
+      options: [ "Had he arrived", "Did he arrive", "If he arrives", "Were he arriving" ],
       correctAnswer: 0,
       explanation: "Inversion for past action."
     }
@@ -1108,8 +1108,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "________ (Si ella fuera) more ambitious, she would have applied for the job.",
-      options: ["Were she", "Was she", "If she is", "Had she been"],
-      correctAnswer: 0,
+      options: [ "Had she been", "Were she", "Was she", "If she is" ],
+      correctAnswer: 1,
       explanation: "Inversion for permanent state."
     }
   },
@@ -1122,8 +1122,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "________ (De no haber sido) for your help, I wouldn't be here now.",
-      options: ["Had it not been", "Were it not", "If it wasn't", "Did it not"],
-      correctAnswer: 0,
+      options: [ "If it wasn't", "Did it not", "Had it not been", "Were it not" ],
+      correctAnswer: 2,
       explanation: "Had it not been for = If it hadn't been for."
     }
   },
@@ -1136,8 +1136,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "________ (Si nosotros fuéramos) richer, we would have bought that house.",
-      options: ["Were we", "Had we been", "If we are", "Did we be"],
-      correctAnswer: 0,
+      options: [ "Did we be", "If we are", "Were we", "Had we been" ],
+      correctAnswer: 2,
       explanation: "Inversion."
     }
   },
@@ -1150,8 +1150,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "________ (De haber escuchado) to the radio, they would know about the accident.",
-      options: ["Had they listened", "Did they listen", "If they listen", "Were they listening"],
-      correctAnswer: 0,
+      options: [ "Were they listening", "If they listen", "Had they listened", "Did they listen" ],
+      correctAnswer: 2,
       explanation: "Inversion."
     }
   },
@@ -1164,7 +1164,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "________ (Si él fuera) honest, he wouldn't have lied to us yesterday.",
-      options: ["Were he", "Had he been", "If he is", "Was he"],
+      options: [ "Were he", "If he is", "Was he", "Had he been" ],
       correctAnswer: 0,
       explanation: "Inversion."
     }
@@ -1198,8 +1198,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If the plan ________ (turn out) differently, we ________ (not / be) here now.",
-      options: ["had turned out / wouldn't be", "turned out / wouldn't be", "turns out / won't be", "had turned out / aren't"],
-      correctAnswer: 0,
+      options: [ "turned out / wouldn't be", "turns out / won't be", "had turned out / aren't", "had turned out / wouldn't be" ],
+      correctAnswer: 3,
       explanation: "Turn out = resultar."
     }
   },
@@ -1212,8 +1212,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If you ________ (not / give up), you ________ (be) a champion now.",
-      options: ["hadn't given up / would be", "didn't give up / would have been", "don't give up / are", "hadn't given up / will be"],
-      correctAnswer: 0,
+      options: [ "don't give up / are", "hadn't given up / will be", "hadn't given up / would be", "didn't give up / would have been" ],
+      correctAnswer: 2,
       explanation: "Give up = rendirse."
     }
   },
@@ -1226,7 +1226,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If I ________ (not / find out) the truth, I ________ (still / believe) him.",
-      options: ["hadn't found out / would still believe", "didn't find out / will still believe", "not find out / would have believed", "hadn't find out / believe"],
+      options: [ "hadn't found out / would still believe", "not find out / would have believed", "hadn't find out / believe", "didn't find out / will still believe" ],
       correctAnswer: 0,
       explanation: "Find out = enterarse."
     }
@@ -1240,8 +1240,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If they ________ (not / pull through), they ________ (not / celebrate) today.",
-      options: ["hadn't pulled through / wouldn't be celebrating", "didn't pull through / wouldn't celebrate", "haven't pulled through / are celebrating", "hadn't pull through / celebrate"],
-      correctAnswer: 0,
+      options: [ "hadn't pull through / celebrate", "haven't pulled through / are celebrating", "hadn't pulled through / wouldn't be celebrating", "didn't pull through / wouldn't celebrate" ],
+      correctAnswer: 2,
       explanation: "Pull through = salir adelante / recuperarse."
     }
   },
@@ -1254,7 +1254,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If she ________ (not / back out), the project ________ (be) finished by now.",
-      options: ["hadn't backed out / would be", "didn't back out / would have been", "doesn't back out / is", "hadn't backed out / will be"],
+      options: [ "hadn't backed out / would be", "doesn't back out / is", "hadn't backed out / will be", "didn't back out / would have been" ],
       correctAnswer: 0,
       explanation: "Back out = echarse atrás."
     }
@@ -1268,8 +1268,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If we ________ (carry on) working, we ________ (finish) yesterday.",
-      options: ["had carried on / would have finished", "carried on / would finish", "carry on / will finish", "had carry on / finished"],
-      correctAnswer: 0,
+      options: [ "carried on / would finish", "had carried on / would have finished", "carry on / will finish", "had carry on / finished" ],
+      correctAnswer: 1,
       explanation: "Carry on = continuar."
     }
   },
@@ -1282,8 +1282,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If he ________ (not / mess up) the interview, he ________ (have) the job now.",
-      options: ["hadn't messed up / would have", "didn't mess up / would have had", "not mess up / has", "hadn't messed up / will have"],
-      correctAnswer: 0,
+      options: [ "didn't mess up / would have had", "hadn't messed up / would have", "not mess up / has", "hadn't messed up / will have" ],
+      correctAnswer: 1,
       explanation: "Mess up = fastidiar/estropear."
     }
   },
@@ -1296,8 +1296,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If I ________ (run into) her yesterday, I ________ (invite) her tonight.",
-      options: ["had run into / would be inviting", "ran into / would invite", "run into / will invite", "had run into / invited"],
-      correctAnswer: 0,
+      options: [ "had run into / invited", "had run into / would be inviting", "ran into / would invite", "run into / will invite" ],
+      correctAnswer: 1,
       explanation: "Run into = encontrarse con alguien."
     }
   },
@@ -1310,8 +1310,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If they ________ (not / call off) the wedding, they ________ (be) married now.",
-      options: ["hadn't called off / would be", "didn't call off / would have been", "haven't called off / are", "hadn't called off / will be"],
-      correctAnswer: 0,
+      options: [ "hadn't called off / will be", "didn't call off / would have been", "hadn't called off / would be", "haven't called off / are" ],
+      correctAnswer: 2,
       explanation: "Call off = cancelar."
     }
   },
@@ -1344,8 +1344,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If I ________ (not / be) so tired, I ________ (go) to the party last night.",
-      options: ["weren't / would have gone", "hadn't been / would go", "wasn't / went", "am not / will go"],
-      correctAnswer: 0,
+      options: [ "am not / will go", "weren't / would have gone", "hadn't been / would go", "wasn't / went" ],
+      correctAnswer: 1,
       explanation: "Mixed: Present condition, past result."
     }
   },
@@ -1358,8 +1358,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If they ________ (tell) me the truth, I ________ (not / be) so angry now.",
-      options: ["had told / wouldn't be", "told / wouldn't have been", "tells / won't be", "had told / aren't"],
-      correctAnswer: 0,
+      options: [ "had told / aren't", "tells / won't be", "had told / wouldn't be", "told / wouldn't have been" ],
+      correctAnswer: 2,
       explanation: "Mixed: Past action, present result."
     }
   },
@@ -1372,8 +1372,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "________ (De no haber sido) for the rain, we would be at the beach now.",
-      options: ["Had it not been", "Were it not", "If it wasn't", "Did it not"],
-      correctAnswer: 0,
+      options: [ "Were it not", "If it wasn't", "Did it not", "Had it not been" ],
+      correctAnswer: 3,
       explanation: "Inversion for past condition."
     }
   },
@@ -1386,7 +1386,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I'm busy; ________ (de lo contrario), I would have helped you yesterday.",
-      options: ["otherwise", "imagine", "suppose", "if"],
+      options: [ "otherwise", "if", "suppose", "imagine" ],
       correctAnswer: 0,
       explanation: "Otherwise linking present state to past hypothesis."
     }
@@ -1400,8 +1400,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If she ________ (be) more ambitious, she ________ (get) a better job last year.",
-      options: ["were / would have got", "had been / would get", "is / will get", "was / got"],
-      correctAnswer: 0,
+      options: [ "is / will get", "were / would have got", "was / got", "had been / would get" ],
+      correctAnswer: 1,
       explanation: "Mixed: Permanent state, past result."
     }
   },
@@ -1414,8 +1414,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "________ (Supón) you ________ (win) the lottery yesterday. What would you do today?",
-      options: ["Suppose / had won", "Imagine / won", "Suppose / win", "Otherwise / had won"],
-      correctAnswer: 0,
+      options: [ "Otherwise / had won", "Suppose / had won", "Imagine / won", "Suppose / win" ],
+      correctAnswer: 1,
       explanation: "Suppose + past perfect for past hypothesis."
     }
   },
@@ -1428,8 +1428,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If we ________ (not / miss) the train, we ________ (be) in Paris tomorrow morning.",
-      options: ["hadn't missed / would be", "didn't miss / would have been", "don't miss / will be", "hadn't missed / were"],
-      correctAnswer: 0,
+      options: [ "didn't miss / would have been", "hadn't missed / would be", "don't miss / will be", "hadn't missed / were" ],
+      correctAnswer: 1,
       explanation: "Mixed: Past action, future result."
     }
   },
@@ -1442,8 +1442,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If I ________ (be) you, I ________ (take) the opportunity last year.",
-      options: ["were / would have taken", "had been / would take", "am / will take", "was / took"],
-      correctAnswer: 0,
+      options: [ "am / will take", "had been / would take", "were / would have taken", "was / took" ],
+      correctAnswer: 2,
       explanation: "Mixed: Present state (advice), past result."
     }
   },
@@ -1456,8 +1456,8 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "________ (De haber tenido) a car, I would have driven you home last night.",
-      options: ["Had I had", "Had I", "If I have", "Did I have"],
-      correctAnswer: 0,
+      options: [ "If I have", "Did I have", "Had I had", "Had I" ],
+      correctAnswer: 2,
       explanation: "Final inversion review."
     }
   }

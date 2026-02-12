@@ -30,8 +30,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "If you ________ (boil) water, it ________ (evaporate).",
-      options: ["boil / evaporates", "boils / evaporate", "boiled / evaporated", "will boil / evaporates"],
-      correctAnswer: 0,
+      options: [ "boiled / evaporated", "will boil / evaporates", "boil / evaporates", "boils / evaporate" ],
+      correctAnswer: 2,
       explanation: "Zero conditional for a scientific fact."
     }
   },
@@ -44,8 +44,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "Plants ________ (die) if they ________ (not / get) enough water.",
-      options: ["die / don't get", "dies / doesn't get", "died / didn't get", "will die / don't get"],
-      correctAnswer: 0,
+      options: [ "will die / don't get", "dies / doesn't get", "died / didn't get", "die / don't get" ],
+      correctAnswer: 3,
       explanation: "Zero conditional for general truths."
     }
   },
@@ -58,8 +58,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If you ________ (mix) red and blue, you ________ (get) purple.",
-      options: ["mix / get", "mixes / gets", "mixed / got", "will mix / get"],
-      correctAnswer: 0,
+      options: [ "mixes / gets", "mixed / got", "will mix / get", "mix / get" ],
+      correctAnswer: 3,
       explanation: "Zero conditional for facts."
     }
   },
@@ -72,8 +72,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If the sun ________ (go) down, it ________ (get) dark.",
-      options: ["go / get", "goes / gets", "went / got", "will go / gets"],
-      correctAnswer: 1,
+      options: [ "went / got", "go / get", "will go / gets", "goes / gets" ],
+      correctAnswer: 3,
       explanation: "Zero conditional."
     }
   },
@@ -86,7 +86,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Metal ________ (expand) if it ________ (get) hot.",
-      options: ["expanded / got", "expand / get", "expands / gets", "will expand / gets"],
+      options: [ "will expand / gets", "expanded / got", "expands / gets", "expand / get" ],
       correctAnswer: 2,
       explanation: "Scientific fact using Zero Conditional."
     }
@@ -100,8 +100,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If you ________ (not / eat) for a long time, you ________ (become) weak.",
-      options: ["won't eat / become", "doesn't eat / becomes", "didn't eat / became", "don't eat / become"],
-      correctAnswer: 3,
+      options: [ "doesn't eat / becomes", "won't eat / become", "don't eat / become", "didn't eat / became" ],
+      correctAnswer: 2,
       explanation: "Zero conditional for biological facts."
     }
   },
@@ -114,7 +114,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "When you ________ (press) the button, the machine ________ (start).",
-      options: ["pressed / started", "press / starts", "presses / start", "will press / starts"],
+      options: [ "presses / start", "press / starts", "will press / starts", "pressed / started" ],
       correctAnswer: 1,
       explanation: "Zero conditional can also use 'when' instead of 'if'."
     }
@@ -128,8 +128,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Ice ________ (float) if you ________ (put) it in water.",
-      options: ["floated / put", "float / puts", "floats / put", "will float / put"],
-      correctAnswer: 2,
+      options: [ "will float / put", "floats / put", "float / puts", "floated / put" ],
+      correctAnswer: 1,
       explanation: "Physical fact."
     }
   },
@@ -142,8 +142,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If you ________ (multiply) zero by any number, the result ________ (be) zero.",
-      options: ["multiplied / was", "multiplies / is", "multiply / is", "will multiply / is"],
-      correctAnswer: 2,
+      options: [ "multiplies / is", "multiplied / was", "will multiply / is", "multiply / is" ],
+      correctAnswer: 3,
       explanation: "Mathematical truth."
     }
   },
@@ -176,8 +176,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "If you ________ (have) a question, ________ (ask) the teacher.",
-      options: ["have / ask", "has / asks", "had / asked", "will have / ask"],
-      correctAnswer: 0,
+      options: [ "will have / ask", "have / ask", "has / asks", "had / asked" ],
+      correctAnswer: 1,
       explanation: "Zero conditional for instructions."
     }
   },
@@ -190,8 +190,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If the alarm ________ (go) off, ________ (leave) the building immediately.",
-      options: ["goes / leave", "go / leaves", "went / left", "will go / leave"],
-      correctAnswer: 0,
+      options: [ "went / left", "will go / leave", "go / leaves", "goes / leave" ],
+      correctAnswer: 3,
       explanation: "Emergency instruction."
     }
   },
@@ -204,8 +204,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If you ________ (be) late, ________ (call) me.",
-      options: ["are / call", "is / calls", "were / called", "will be / call"],
-      correctAnswer: 0,
+      options: [ "were / called", "will be / call", "are / call", "is / calls" ],
+      correctAnswer: 2,
       explanation: "Instruction/Rule."
     }
   },
@@ -218,8 +218,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If it ________ (rain), ________ (take) an umbrella.",
-      options: ["rains / take", "rain / takes", "rained / took", "will rain / take"],
-      correctAnswer: 0,
+      options: [ "rained / took", "rains / take", "will rain / take", "rain / takes" ],
+      correctAnswer: 1,
       explanation: "Common advice/instruction."
     }
   },
@@ -232,7 +232,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If you ________ (need) help, ________ (press) the red button.",
-      options: ["need / press", "needs / presses", "needed / pressed", "will need / press"],
+      options: [ "need / press", "needed / pressed", "needs / presses", "will need / press" ],
       correctAnswer: 0,
       explanation: "Instruction."
     }
@@ -246,7 +246,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If the light ________ (turn) red, ________ (stop) the car.",
-      options: ["turns / stop", "turn / stops", "turned / stopped", "will turn / stop"],
+      options: [ "turns / stop", "turn / stops", "will turn / stop", "turned / stopped" ],
       correctAnswer: 0,
       explanation: "Rule of the road."
     }
@@ -260,8 +260,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If you ________ (want) to save energy, ________ (turn) off the lights.",
-      options: ["want / turn", "wants / turns", "wanted / turned", "will want / turn"],
-      correctAnswer: 0,
+      options: [ "will want / turn", "want / turn", "wants / turns", "wanted / turned" ],
+      correctAnswer: 1,
       explanation: "Advice/Instruction."
     }
   },
@@ -274,8 +274,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If the phone ________ (ring), ________ (not / answer) it.",
-      options: ["rings / don't answer", "ring / doesn't answer", "rang / didn't answer", "will ring / don't answer"],
-      correctAnswer: 0,
+      options: [ "rang / didn't answer", "will ring / don't answer", "rings / don't answer", "ring / doesn't answer" ],
+      correctAnswer: 2,
       explanation: "Negative instruction."
     }
   },
@@ -288,7 +288,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If you ________ (not / like) the food, ________ (send) it back.",
-      options: ["don't like / send", "doesn't like / sends", "didn't like / sent", "won't like / send"],
+      options: [ "don't like / send", "doesn't like / sends", "won't like / send", "didn't like / sent" ],
       correctAnswer: 0,
       explanation: "Zero conditional with negative if-clause and imperative."
     }
@@ -322,7 +322,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "If I ________ (study) hard, I ________ (pass) the exam.",
-      options: ["study / will pass", "studies / passes", "studied / would pass", "will study / pass"],
+      options: [ "study / will pass", "will study / pass", "studied / would pass", "studies / passes" ],
       correctAnswer: 0,
       explanation: "First conditional for a future possibility."
     }
@@ -336,8 +336,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "We ________ (go) to the beach if the weather ________ (be) good.",
-      options: ["will go / is", "go / will be", "went / was", "would go / were"],
-      correctAnswer: 0,
+      options: [ "go / will be", "will go / is", "went / was", "would go / were" ],
+      correctAnswer: 1,
       explanation: "First conditional structure."
     }
   },
@@ -350,7 +350,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If she ________ (miss) the bus, she ________ (be) late.",
-      options: ["misses / will be", "miss / is", "missed / would be", "will miss / is"],
+      options: [ "misses / will be", "will miss / is", "missed / would be", "miss / is" ],
       correctAnswer: 0,
       explanation: "First conditional (third person singular)."
     }
@@ -364,7 +364,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If you ________ (not / hurry), you ________ (miss) the train.",
-      options: ["don't hurry / will miss", "doesn't hurry / misses", "didn't hurry / would miss", "won't hurry / miss"],
+      options: [ "don't hurry / will miss", "won't hurry / miss", "doesn't hurry / misses", "didn't hurry / would miss" ],
       correctAnswer: 0,
       explanation: "Negative first conditional."
     }
@@ -378,7 +378,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "What ________ you ________ (do) if you ________ (not / find) your keys?",
-      options: ["will / do / don't find", "do / will / doesn't find", "would / do / didn't find", "will / doing / haven't found"],
+      options: [ "will / do / don't find", "do / will / doesn't find", "would / do / didn't find", "will / doing / haven't found" ],
       correctAnswer: 0,
       explanation: "First conditional question form."
     }
@@ -392,8 +392,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If they ________ (invite) me, I ________ (go) to the party.",
-      options: ["invite / will go", "invites / goes", "invited / would go", "will invite / go"],
-      correctAnswer: 0,
+      options: [ "will invite / go", "invites / goes", "invite / will go", "invited / would go" ],
+      correctAnswer: 2,
       explanation: "First conditional."
     }
   },
@@ -406,8 +406,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If the shop ________ (be) closed, I ________ (buy) it tomorrow.",
-      options: ["is / will buy", "be / buy", "was / would buy", "will be / buy"],
-      correctAnswer: 0,
+      options: [ "be / buy", "is / will buy", "will be / buy", "was / would buy" ],
+      correctAnswer: 1,
       explanation: "First conditional."
     }
   },
@@ -420,8 +420,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "He ________ (be) angry if you ________ (break) his phone.",
-      options: ["will be / break", "is / breaks", "would be / broke", "be / will break"],
-      correctAnswer: 0,
+      options: [ "would be / broke", "is / breaks", "will be / break", "be / will break" ],
+      correctAnswer: 2,
       explanation: "First conditional."
     }
   },
@@ -434,8 +434,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If I ________ (have) enough money, I ________ (buy) a new car.",
-      options: ["have / will buy", "has / will buy", "had / would buy", "will have / buy"],
-      correctAnswer: 0,
+      options: [ "had / would buy", "have / will buy", "will have / buy", "has / will buy" ],
+      correctAnswer: 1,
       explanation: "First conditional (real possibility)."
     }
   },
@@ -468,7 +468,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If you ________ (do) your homework, I ________ (give) you some chocolate.",
-      options: ["do / will give", "did / would give", "does / gives", "will do / give"],
+      options: [ "do / will give", "did / would give", "does / gives", "will do / give" ],
       correctAnswer: 0,
       explanation: "First conditional for a promise."
     }
@@ -482,8 +482,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If you ________ (shout) again, I ________ (leave).",
-      options: ["shout / will leave", "shouted / would leave", "shouts / leaves", "will shout / leave"],
-      correctAnswer: 0,
+      options: [ "shouts / leaves", "will shout / leave", "shout / will leave", "shouted / would leave" ],
+      correctAnswer: 2,
       explanation: "First conditional for a threat."
     }
   },
@@ -496,8 +496,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "I ________ (pay) you back if you ________ (lend) me 10 pounds.",
-      options: ["will pay / lend", "pay / will lend", "would pay / lent", "paid / would lend"],
-      correctAnswer: 0,
+      options: [ "would pay / lent", "will pay / lend", "paid / would lend", "pay / will lend" ],
+      correctAnswer: 1,
       explanation: "Promise."
     }
   },
@@ -510,7 +510,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If you ________ (not / stop) that noise, I ________ (call) the police.",
-      options: ["don't stop / will call", "doesn't stop / calls", "didn't stop / would call", "won't stop / call"],
+      options: [ "don't stop / will call", "doesn't stop / calls", "won't stop / call", "didn't stop / would call" ],
       correctAnswer: 0,
       explanation: "Threat."
     }
@@ -524,7 +524,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If you ________ (keep) working hard, you ________ (be) promoted.",
-      options: ["keep / will be", "kept / would be", "keeps / is", "will keep / be"],
+      options: [ "keep / will be", "kept / would be", "will keep / be", "keeps / is" ],
       correctAnswer: 0,
       explanation: "Promise/Encouragement."
     }
@@ -538,7 +538,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If he ________ (touch) my stuff, I ________ (be) really mad.",
-      options: ["touches / will be", "touch / is", "touched / would be", "will touch / be"],
+      options: [ "touches / will be", "touch / is", "touched / would be", "will touch / be" ],
       correctAnswer: 0,
       explanation: "Predicting a reaction/Threat."
     }
@@ -552,8 +552,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I ________ (tell) no one if you ________ (confide) in me.",
-      options: ["will tell / confide", "tell / will confide", "would tell / confided", "told / would confide"],
-      correctAnswer: 0,
+      options: [ "tell / will confide", "would tell / confided", "will tell / confide", "told / would confide" ],
+      correctAnswer: 2,
       explanation: "Promise."
     }
   },
@@ -566,8 +566,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If we ________ (not / win) this game, the coach ________ (be) furious.",
-      options: ["don't win / will be", "doesn't win / is", "didn't win / would be", "won't win / be"],
-      correctAnswer: 0,
+      options: [ "doesn't win / is", "didn't win / would be", "won't win / be", "don't win / will be" ],
+      correctAnswer: 3,
       explanation: "Possibility/Threat."
     }
   },
@@ -580,7 +580,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If you ________ (promise) to be careful, I ________ (let) you use my laptop.",
-      options: ["promise / will let", "promised / would let", "promises / lets", "will promise / let"],
+      options: [ "promise / will let", "promised / would let", "will promise / let", "promises / lets" ],
       correctAnswer: 0,
       explanation: "Negotiation/Promise."
     }
@@ -614,8 +614,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If you ________ (lower) the price, we ________ (sign) the contract.",
-      options: ["lower / will sign", "lowered / would sign", "lowers / signs", "will lower / sign"],
-      correctAnswer: 0,
+      options: [ "will lower / sign", "lowered / would sign", "lower / will sign", "lowers / signs" ],
+      correctAnswer: 2,
       explanation: "Business negotiation."
     }
   },
@@ -628,8 +628,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If we ________ (finish) the project early, ________ we ________ (get) a bonus?",
-      options: ["finish / will / get", "finishes / does / get", "finished / would / get", "will finish / / get"],
-      correctAnswer: 0,
+      options: [ "will finish / / get", "finish / will / get", "finishes / does / get", "finished / would / get" ],
+      correctAnswer: 1,
       explanation: "First conditional question."
     }
   },
@@ -642,8 +642,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If you ________ (take) the train, you ________ (arrive) faster.",
-      options: ["take / will arrive", "takes / arrives", "took / would arrive", "will take / arrive"],
-      correctAnswer: 0,
+      options: [ "took / would arrive", "take / will arrive", "will take / arrive", "takes / arrives" ],
+      correctAnswer: 1,
       explanation: "Suggesting a plan."
     }
   },
@@ -656,8 +656,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "I ________ (cook) dinner if you ________ (do) the washing up.",
-      options: ["will cook / do", "cook / will do", "would cook / did", "cooked / would do"],
-      correctAnswer: 0,
+      options: [ "cooked / would do", "cook / will do", "will cook / do", "would cook / did" ],
+      correctAnswer: 2,
       explanation: "Negotiating chores."
     }
   },
@@ -670,8 +670,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If you ________ (not / agree) to our terms, we ________ (not / be) able to work together.",
-      options: ["don't agree / won't be", "doesn't agree / isn't", "didn't agree / wouldn't be", "won't agree / aren't"],
-      correctAnswer: 0,
+      options: [ "didn't agree / wouldn't be", "doesn't agree / isn't", "don't agree / won't be", "won't agree / aren't" ],
+      correctAnswer: 2,
       explanation: "Negotiation."
     }
   },
@@ -684,7 +684,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If the company ________ (expand), they ________ (hire) more people.",
-      options: ["expands / will hire", "expand / hire", "expanded / would hire", "will expand / hire"],
+      options: [ "expands / will hire", "expanded / would hire", "expand / hire", "will expand / hire" ],
       correctAnswer: 0,
       explanation: "Future planning."
     }
@@ -698,8 +698,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If you ________ (come) to the meeting, I ________ (introduce) you to the boss.",
-      options: ["come / will introduce", "comes / introduces", "came / would introduce", "will come / introduce"],
-      correctAnswer: 0,
+      options: [ "comes / introduces", "came / would introduce", "come / will introduce", "will come / introduce" ],
+      correctAnswer: 2,
       explanation: "Plan."
     }
   },
@@ -712,8 +712,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "We ________ (have) to cancel the trip if we ________ (not / get) our visas.",
-      options: ["will have / don't get", "have / won't get", "would have / didn't get", "had / wouldn't get"],
-      correctAnswer: 0,
+      options: [ "had / wouldn't get", "will have / don't get", "would have / didn't get", "have / won't get" ],
+      correctAnswer: 1,
       explanation: "Possibility affecting plans."
     }
   },
@@ -726,8 +726,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If you ________ (provide) the materials, we ________ (start) construction.",
-      options: ["provide / will start", "provides / starts", "provided / would start", "will provide / start"],
-      correctAnswer: 0,
+      options: [ "provides / starts", "will provide / start", "provided / would start", "provide / will start" ],
+      correctAnswer: 3,
       explanation: "Negotiation."
     }
   },
@@ -760,8 +760,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "I won't go to the party ________ you come with me.",
-      options: ["if", "unless", "when", "provided"],
-      correctAnswer: 1,
+      options: [ "unless", "provided", "when", "if" ],
+      correctAnswer: 0,
       explanation: "Unless = if not. I won't go if you don't come."
     }
   },
@@ -774,8 +774,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "________ you hurry up, we'll be late.",
-      options: ["If", "Unless", "When", "As soon as"],
-      correctAnswer: 1,
+      options: [ "When", "As soon as", "Unless", "If" ],
+      correctAnswer: 2,
       explanation: "Unless you hurry = If you don't hurry."
     }
   },
@@ -788,8 +788,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "You can't get a job ________ you have experience.",
-      options: ["if", "unless", "as long as", "provided"],
-      correctAnswer: 1,
+      options: [ "unless", "as long as", "provided", "if" ],
+      correctAnswer: 0,
       explanation: "Unless expresses a negative condition."
     }
   },
@@ -802,8 +802,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "I will call you ________ I have any problems.",
-      options: ["unless", "if", "until", "though"],
-      correctAnswer: 1,
+      options: [ "unless", "until", "though", "if" ],
+      correctAnswer: 3,
       explanation: "If is used for a positive condition."
     }
   },
@@ -816,7 +816,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "________ he apologizes, I will never speak to him again.",
-      options: ["If", "Unless", "As long as", "When"],
+      options: [ "As long as", "Unless", "If", "When" ],
       correctAnswer: 1,
       explanation: "Unless = except if."
     }
@@ -830,8 +830,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "We'll have the meeting outside ________ it's too cold.",
-      options: ["unless", "if", "when", "provided"],
-      correctAnswer: 0,
+      options: [ "if", "when", "provided", "unless" ],
+      correctAnswer: 3,
       explanation: "Unless introduces the negative condition."
     }
   },
@@ -844,8 +844,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "You won't pass the exam ________ you study much harder.",
-      options: ["if", "unless", "as long as", "when"],
-      correctAnswer: 1,
+      options: [ "if", "as long as", "unless", "when" ],
+      correctAnswer: 2,
       explanation: "Unless = if you don't."
     }
   },
@@ -858,8 +858,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "________ you are very careful, you will break that vase.",
-      options: ["If", "Unless", "Provided", "When"],
-      correctAnswer: 1,
+      options: [ "Unless", "Provided", "If", "When" ],
+      correctAnswer: 0,
       explanation: "Unless you are careful = If you are not careful."
     }
   },
@@ -872,8 +872,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Don't open the door ________ you know who it is.",
-      options: ["if", "unless", "as soon as", "when"],
-      correctAnswer: 1,
+      options: [ "unless", "when", "as soon as", "if" ],
+      correctAnswer: 0,
       explanation: "Unless introduces the condition for not doing the action."
     }
   },
@@ -906,8 +906,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "You can stay here ________ you keep quiet.",
-      options: ["unless", "until", "as long as", "although"],
-      correctAnswer: 2,
+      options: [ "unless", "as long as", "until", "although" ],
+      correctAnswer: 1,
       explanation: "As long as = only if."
     }
   },
@@ -920,8 +920,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "________ that you finish your work, you can go home early.",
-      options: ["Unless", "If not", "But for", "Provided"],
-      correctAnswer: 3,
+      options: [ "Provided", "But for", "If not", "Unless" ],
+      correctAnswer: 0,
       explanation: "Provided that is a formal way to say 'if'."
     }
   },
@@ -934,8 +934,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "I'll lend you the money ________ you pay me back next week.",
-      options: ["unless", "as long as", "whether", "even if"],
-      correctAnswer: 1,
+      options: [ "even if", "whether", "as long as", "unless" ],
+      correctAnswer: 2,
       explanation: "As long as sets a condition."
     }
   },
@@ -948,8 +948,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "________ that the weather stays like this, we'll have a great holiday.",
-      options: ["Unless", "Provided", "Despite", "Because"],
-      correctAnswer: 1,
+      options: [ "Because", "Unless", "Provided", "Despite" ],
+      correctAnswer: 2,
       explanation: "Provided that = on condition that."
     }
   },
@@ -962,8 +962,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "You can take my book ________ you don't lose it.",
-      options: ["as long as", "unless", "if not", "provided not"],
-      correctAnswer: 0,
+      options: [ "unless", "if not", "provided not", "as long as" ],
+      correctAnswer: 3,
       explanation: "As long as introduces a positive condition."
     }
   },
@@ -976,8 +976,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "We will sign the deal ________ that you agree to our price.",
-      options: ["unless", "until", "although", "providing"],
-      correctAnswer: 3,
+      options: [ "providing", "although", "until", "unless" ],
+      correctAnswer: 0,
       explanation: "Providing/Provided that are interchangeable."
     }
   },
@@ -990,7 +990,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I don't mind you using my phone ________ you don't make long calls.",
-      options: ["unless", "as long as", "provided not", "if not"],
+      options: [ "if not", "as long as", "provided not", "unless" ],
       correctAnswer: 1,
       explanation: "As long as."
     }
@@ -1004,8 +1004,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "________ that you have a valid passport, you can enter the country.",
-      options: ["Unless", "Without", "Providing", "Instead"],
-      correctAnswer: 2,
+      options: [ "Without", "Unless", "Instead", "Providing" ],
+      correctAnswer: 3,
       explanation: "Providing that = If."
     }
   },
@@ -1018,8 +1018,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "You can go out tonight ________ you're back by midnight.",
-      options: ["unless", "since", "until", "provided"],
-      correctAnswer: 3,
+      options: [ "provided", "since", "until", "unless" ],
+      correctAnswer: 0,
       explanation: "Provided (that) is used for a condition."
     }
   },
@@ -1071,8 +1071,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "If you ________ (freeze) water, it ________ (become) ice.",
-      options: ["freezes / become", "frozen / became", "will freeze / become", "freeze / becomes"],
-      correctAnswer: 3,
+      options: [ "freezes / become", "freeze / becomes", "will freeze / become", "frozen / became" ],
+      correctAnswer: 1,
       explanation: "Zero conditional for states of matter."
     }
   },
@@ -1085,8 +1085,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Wood ________ (burn) if you ________ (heat) it to a high temperature.",
-      options: ["burn / heats", "burned / heated", "burns / heat", "will burn / heat"],
-      correctAnswer: 2,
+      options: [ "will burn / heat", "burns / heat", "burn / heats", "burned / heated" ],
+      correctAnswer: 1,
       explanation: "Zero conditional for combustion."
     }
   },
@@ -1099,8 +1099,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If a person ________ (not / sleep), they ________ (feel) tired.",
-      options: ["doesn't sleep / feels", "don't sleep / feel", "didn't sleep / felt", "won't sleep / feel"],
-      correctAnswer: 0,
+      options: [ "don't sleep / feel", "won't sleep / feel", "doesn't sleep / feels", "didn't sleep / felt" ],
+      correctAnswer: 2,
       explanation: "Zero conditional for biological facts."
     }
   },
@@ -1113,8 +1113,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If you ________ (drop) an object, it ________ (fall) to the ground because of gravity.",
-      options: ["drops / fall", "dropped / fell", "drop / falls", "will drop / falls"],
-      correctAnswer: 2,
+      options: [ "will drop / falls", "drop / falls", "drops / fall", "dropped / fell" ],
+      correctAnswer: 1,
       explanation: "Zero conditional for physics."
     }
   },
@@ -1127,8 +1127,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Oil ________ (float) if you ________ (pour) it on water.",
-      options: ["float / pours", "floats / pour", "floated / poured", "will float / pour"],
-      correctAnswer: 1,
+      options: [ "floated / poured", "will float / pour", "floats / pour", "float / pours" ],
+      correctAnswer: 2,
       explanation: "Zero conditional for density."
     }
   },
@@ -1141,7 +1141,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If you ________ (touch) a cactus, you ________ (get) hurt.",
-      options: ["touches / gets", "touched / got", "touch / get", "will touch / get"],
+      options: [ "will touch / get", "touched / got", "touch / get", "touches / gets" ],
       correctAnswer: 2,
       explanation: "Zero conditional for general truth."
     }
@@ -1155,8 +1155,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "When iron ________ (be) exposed to water and oxygen, it ________ (rust).",
-      options: ["be / rust", "was / rusted", "will be / rusts", "is / rusts"],
-      correctAnswer: 3,
+      options: [ "be / rust", "is / rusts", "was / rusted", "will be / rusts" ],
+      correctAnswer: 1,
       explanation: "Zero conditional for chemical reactions."
     }
   },
@@ -1169,8 +1169,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If you ________ (add) sugar to tea, it ________ (become) sweet.",
-      options: ["adds / become", "add / becomes", "added / became", "will add / become"],
-      correctAnswer: 1,
+      options: [ "adds / become", "will add / become", "add / becomes", "added / became" ],
+      correctAnswer: 2,
       explanation: "Zero conditional."
     }
   },
@@ -1222,8 +1222,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If I ________ (get) this job, I ________ (be) very happy.",
-      options: ["gets / is", "got / would be", "get / will be", "will get / be"],
-      correctAnswer: 2,
+      options: [ "gets / is", "get / will be", "got / would be", "will get / be" ],
+      correctAnswer: 1,
       explanation: "First conditional for an ambition."
     }
   },
@@ -1236,8 +1236,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "I ________ (travel) the world if I ________ (have) enough money.",
-      options: ["travel / will have", "would travel / had", "will travel / has", "will travel / have"],
-      correctAnswer: 3,
+      options: [ "will travel / have", "travel / will have", "will travel / has", "would travel / had" ],
+      correctAnswer: 0,
       explanation: "First conditional for a future plan."
     }
   },
@@ -1250,8 +1250,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If she ________ (pass) her exams, she ________ (go) to university.",
-      options: ["passes / will go", "pass / will go", "passed / would go", "will pass / goes"],
-      correctAnswer: 0,
+      options: [ "pass / will go", "will pass / goes", "passes / will go", "passed / would go" ],
+      correctAnswer: 2,
       explanation: "First conditional for educational goals."
     }
   },
@@ -1264,8 +1264,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "We ________ (move) to a bigger house if the family ________ (grow).",
-      options: ["move / will grow", "will move / grows", "would move / grew", "will move / grow"],
-      correctAnswer: 1,
+      options: [ "will move / grow", "would move / grew", "move / will grow", "will move / grows" ],
+      correctAnswer: 3,
       explanation: "First conditional for future life plans."
     }
   },
@@ -1278,8 +1278,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If he ________ (save) enough money, he ________ (start) his own business.",
-      options: ["save / starts", "saved / would start", "will save / start", "saves / will start"],
-      correctAnswer: 3,
+      options: [ "saves / will start", "saved / would start", "save / starts", "will save / start" ],
+      correctAnswer: 0,
       explanation: "First conditional for career goals."
     }
   },
@@ -1292,8 +1292,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I ________ (buy) a new laptop if my old one ________ (break).",
-      options: ["buy / will break", "will buy / breaks", "would buy / broke", "will buy / break"],
-      correctAnswer: 1,
+      options: [ "would buy / broke", "will buy / break", "buy / will break", "will buy / breaks" ],
+      correctAnswer: 3,
       explanation: "First conditional for practical plans."
     }
   },
@@ -1306,8 +1306,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If you ________ (practice) every day, you ________ (speak) English fluently.",
-      options: ["practices / speaks", "practiced / would speak", "will practice / speak", "practice / will speak"],
-      correctAnswer: 3,
+      options: [ "practices / speaks", "will practice / speak", "practice / will speak", "practiced / would speak" ],
+      correctAnswer: 2,
       explanation: "First conditional for skill development."
     }
   },
@@ -1320,7 +1320,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "They ________ (get) married next year if they ________ (find) a venue.",
-      options: ["will get / find", "get / will find", "would get / found", "will get / finds"],
+      options: [ "will get / find", "will get / finds", "would get / found", "get / will find" ],
       correctAnswer: 0,
       explanation: "First conditional for life events."
     }
@@ -1335,8 +1335,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Which conditional is used for scientific facts?",
-      options: ["Zero", "First", "Second", "Third"],
-      correctAnswer: 0,
+      options: [ "First", "Second", "Zero", "Third" ],
+      correctAnswer: 2,
       explanation: "Zero conditional: If + present, present."
     }
   },
@@ -1349,8 +1349,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Which conditional is used for future possibilities?",
-      options: ["Zero", "First", "Second", "Third"],
-      correctAnswer: 1,
+      options: [ "Second", "Third", "First", "Zero" ],
+      correctAnswer: 2,
       explanation: "First conditional: If + present, will + verb."
     }
   },
@@ -1363,8 +1363,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "What does 'Unless' mean?",
-      options: ["If not", "Only if", "Because", "When"],
-      correctAnswer: 0,
+      options: [ "Only if", "Because", "If not", "When" ],
+      correctAnswer: 2,
       explanation: "Unless = if not."
     }
   },
@@ -1377,8 +1377,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If you ________ (not / water) the flowers, they ________ (wilt).",
-      options: ["don't water / wilt", "doesn't water / wilts", "didn't water / wilted", "won't water / wilt"],
-      correctAnswer: 0,
+      options: [ "didn't water / wilted", "won't water / wilt", "doesn't water / wilts", "don't water / wilt" ],
+      correctAnswer: 3,
       explanation: "Zero conditional for general facts."
     }
   },
@@ -1391,7 +1391,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "I ________ (wait) for you if you ________ (be) late.",
-      options: ["will wait / are", "wait / will be", "would wait / were", "am waiting / am"],
+      options: [ "will wait / are", "am waiting / am", "would wait / were", "wait / will be" ],
       correctAnswer: 0,
       explanation: "First conditional."
     }
@@ -1405,8 +1405,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "________ you have any questions, feel free to ask.",
-      options: ["Should", "Unless", "Would", "Will"],
-      correctAnswer: 0,
+      options: [ "Will", "Unless", "Would", "Should" ],
+      correctAnswer: 3,
       explanation: "'Should' can be used instead of 'If' in formal English conditions (If you should have...)."
     }
   },
@@ -1419,8 +1419,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "You won't understand ________ you listen carefully.",
-      options: ["unless", "if", "when", "provided"],
-      correctAnswer: 0,
+      options: [ "if", "unless", "when", "provided" ],
+      correctAnswer: 1,
       explanation: "Unless = if you don't."
     }
   },
@@ -1433,8 +1433,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I'll go to the party ________ that my friend is invited too.",
-      options: ["provided", "unless", "since", "until"],
-      correctAnswer: 0,
+      options: [ "since", "unless", "provided", "until" ],
+      correctAnswer: 2,
       explanation: "Provided that = only if."
     }
   },
@@ -1447,8 +1447,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If we ________ (not / leave) now, we ________ (not / get) there on time.",
-      options: ["don't leave / won't get", "doesn't leave / isn't getting", "didn't leave / wouldn't get", "haven't left / don't get"],
-      correctAnswer: 0,
+      options: [ "didn't leave / wouldn't get", "don't leave / won't get", "doesn't leave / isn't getting", "haven't left / don't get" ],
+      correctAnswer: 1,
       explanation: "First conditional."
     }
   },
@@ -1461,8 +1461,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If you ________ (heat) ice, it ________ (turn) into water.",
-      options: ["heat / turns", "heats / turn", "heated / turned", "will heat / turn"],
-      correctAnswer: 0,
+      options: [ "heats / turn", "heat / turns", "heated / turned", "will heat / turn" ],
+      correctAnswer: 1,
       explanation: "Zero conditional for physics."
     }
   }

@@ -49,7 +49,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "Coffee ________ (grow) in Brazil.",
-      options: ["grows", "is grown", "are grown", "was grow"],
+      options: [ "was grow", "is grown", "are grown", "grows" ],
       correctAnswer: 1,
       explanation: "Present Simple Passive for a general fact."
     }
@@ -63,8 +63,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "The Mona Lisa ________ (paint) by Leonardo da Vinci.",
-      options: ["paints", "is painted", "was painted", "were painted"],
-      correctAnswer: 2,
+      options: [ "was painted", "paints", "were painted", "is painted" ],
+      correctAnswer: 0,
       explanation: "Past Simple Passive for a historical fact."
     }
   },
@@ -77,8 +77,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Many cars ________ (manufacture) in Germany every year.",
-      options: ["is manufactured", "are manufactured", "manufactured", "was manufactured"],
-      correctAnswer: 1,
+      options: [ "are manufactured", "manufactured", "was manufactured", "is manufactured" ],
+      correctAnswer: 0,
       explanation: "Present Simple Passive (plural subject)."
     }
   },
@@ -91,7 +91,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "My bike ________ (steal) last week.",
-      options: ["stole", "is stolen", "was stolen", "were stolen"],
+      options: [ "is stolen", "stole", "was stolen", "were stolen" ],
       correctAnswer: 2,
       explanation: "Past Simple Passive (singular subject)."
     }
@@ -105,8 +105,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Computers ________ (use) in schools all over the world.",
-      options: ["are used", "is used", "use", "were use"],
-      correctAnswer: 0,
+      options: [ "were use", "is used", "are used", "use" ],
+      correctAnswer: 2,
       explanation: "Present Simple Passive for general usage."
     }
   },
@@ -119,8 +119,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "When ________ the light bulb ________ (invent)?",
-      options: ["is / invented", "was / invented", "did / invent", "were / invented"],
-      correctAnswer: 1,
+      options: [ "did / invent", "were / invented", "was / invented", "is / invented" ],
+      correctAnswer: 2,
       explanation: "Past Simple Passive question form."
     }
   },
@@ -133,8 +133,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Portuguese ________ (speak) in Brazil.",
-      options: ["speaks", "is spoken", "are spoken", "is spoke"],
-      correctAnswer: 1,
+      options: [ "are spoken", "speaks", "is spoken", "is spoke" ],
+      correctAnswer: 2,
       explanation: "Present Simple Passive (singular language name)."
     }
   },
@@ -147,8 +147,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The pyramids ________ (build) thousands of years ago.",
-      options: ["was built", "were built", "built", "are built"],
-      correctAnswer: 1,
+      options: [ "was built", "are built", "were built", "built" ],
+      correctAnswer: 2,
       explanation: "Past Simple Passive (plural subject)."
     }
   },
@@ -200,8 +200,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Wait a moment, the room ________ (clean) right now.",
-      options: ["is cleaning", "is being cleaned", "was being cleaned", "is cleaned"],
-      correctAnswer: 1,
+      options: [ "was being cleaned", "is cleaning", "is being cleaned", "is cleaned" ],
+      correctAnswer: 2,
       explanation: "Present Continuous Passive for an action in progress."
     }
   },
@@ -214,8 +214,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "When I walked in, the walls ________ (paint).",
-      options: ["were painting", "were being painted", "was being painted", "are being painted"],
-      correctAnswer: 1,
+      options: [ "are being painted", "was being painted", "were being painted", "were painting" ],
+      correctAnswer: 2,
       explanation: "Past Continuous Passive for a past action in progress."
     }
   },
@@ -228,8 +228,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Listen! A new song ________ (play) on the radio.",
-      options: ["is playing", "is being played", "is played", "was being played"],
-      correctAnswer: 1,
+      options: [ "is being played", "was being played", "is played", "is playing" ],
+      correctAnswer: 0,
       explanation: "Present Continuous Passive."
     }
   },
@@ -242,8 +242,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The documents ________ (copy) when the power went out.",
-      options: ["were copying", "was being copied", "were being copied", "are being copied"],
-      correctAnswer: 2,
+      options: [ "was being copied", "were copying", "are being copied", "were being copied" ],
+      correctAnswer: 3,
       explanation: "Past Continuous Passive (plural subject)."
     }
   },
@@ -256,7 +256,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Why ________ the road ________ (block)?",
-      options: ["is / being blocked", "is / blocked", "was / being block", "are / being blocked"],
+      options: [ "is / being blocked", "are / being blocked", "was / being block", "is / blocked" ],
       correctAnswer: 0,
       explanation: "Present Continuous Passive question form."
     }
@@ -270,8 +270,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I couldn't use my office because it ________ (renovate).",
-      options: ["is being renovated", "was being renovated", "was renovating", "renovated"],
-      correctAnswer: 1,
+      options: [ "was being renovated", "was renovating", "is being renovated", "renovated" ],
+      correctAnswer: 0,
       explanation: "Past Continuous Passive."
     }
   },
@@ -284,8 +284,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The bridge ________ (repair) to ensure its safety.",
-      options: ["is being repaired", "is repairing", "are being repaired", "was being repair"],
-      correctAnswer: 0,
+      options: [ "is repairing", "is being repaired", "are being repaired", "was being repair" ],
+      correctAnswer: 1,
       explanation: "Present Continuous Passive."
     }
   },
@@ -298,8 +298,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "While the suspects ________ (question), the police searched the house.",
-      options: ["were questioning", "were being questioned", "was being questioned", "are being questioned"],
-      correctAnswer: 1,
+      options: [ "were being questioned", "was being questioned", "are being questioned", "were questioning" ],
+      correctAnswer: 0,
       explanation: "Past Continuous Passive."
     }
   },
@@ -351,8 +351,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Your order ________ (ship) already.",
-      options: ["has been shipped", "have been shipped", "is being shipped", "was ship"],
-      correctAnswer: 0,
+      options: [ "have been shipped", "has been shipped", "is being shipped", "was ship" ],
+      correctAnswer: 1,
       explanation: "Present Perfect Passive (singular subject)."
     }
   },
@@ -365,8 +365,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The decision ________ (already / make) before I arrived.",
-      options: ["has already been made", "had already been made", "was already made", "is already being made"],
-      correctAnswer: 1,
+      options: [ "had already been made", "was already made", "is already being made", "has already been made" ],
+      correctAnswer: 0,
       explanation: "Past Perfect Passive for an action before another past event."
     }
   },
@@ -379,8 +379,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Many buildings ________ (destroy) by the earthquake.",
-      options: ["has been destroyed", "have been destroyed", "were being destroyed", "had destroy"],
-      correctAnswer: 1,
+      options: [ "were being destroyed", "had destroy", "has been destroyed", "have been destroyed" ],
+      correctAnswer: 3,
       explanation: "Present Perfect Passive (plural subject)."
     }
   },
@@ -393,7 +393,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "________ the results ________ (announce) yet?",
-      options: ["Has / been announced", "Have / been announced", "Were / announced", "Had / been announced"],
+      options: [ "Were / announced", "Have / been announced", "Had / been announced", "Has / been announced" ],
       correctAnswer: 1,
       explanation: "Present Perfect Passive question form (plural subject)."
     }
@@ -407,7 +407,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "He found out that his car ________ (tow) away.",
-      options: ["has been towed", "had been towed", "was being towed", "is towed"],
+      options: [ "is towed", "had been towed", "has been towed", "was being towed" ],
       correctAnswer: 1,
       explanation: "Past Perfect Passive."
     }
@@ -421,8 +421,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The project ________ (not / complete) on time.",
-      options: ["hasn't been completed", "haven't been completed", "wasn't complete", "hadn't been completing"],
-      correctAnswer: 0,
+      options: [ "hadn't been completing", "wasn't complete", "haven't been completed", "hasn't been completed" ],
+      correctAnswer: 3,
       explanation: "Present Perfect Passive negative form."
     }
   },
@@ -435,8 +435,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I realized that the jewels ________ (steal).",
-      options: ["have been stolen", "had been stolen", "were being stolen", "are stolen"],
-      correctAnswer: 1,
+      options: [ "were being stolen", "have been stolen", "are stolen", "had been stolen" ],
+      correctAnswer: 3,
       explanation: "Past Perfect Passive."
     }
   },
@@ -449,8 +449,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "This book ________ (translate) into more than 50 languages.",
-      options: ["has been translated", "have been translated", "is being translated", "was translate"],
-      correctAnswer: 0,
+      options: [ "is being translated", "was translate", "has been translated", "have been translated" ],
+      correctAnswer: 2,
       explanation: "Present Perfect Passive."
     }
   },
@@ -502,8 +502,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The problem ________ (solve) soon.",
-      options: ["will solve", "will be solved", "is being solved", "has been solved"],
-      correctAnswer: 1,
+      options: [ "is being solved", "will solve", "has been solved", "will be solved" ],
+      correctAnswer: 3,
       explanation: "Future Simple Passive."
     }
   },
@@ -516,7 +516,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "All applications ________ (send) by Friday.",
-      options: ["must send", "must be sent", "must be send", "should sent"],
+      options: [ "must send", "must be sent", "should sent", "must be send" ],
       correctAnswer: 1,
       explanation: "Modal Passive (must)."
     }
@@ -530,8 +530,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The new bridge ________ (open) by the mayor.",
-      options: ["will be opened", "is being opened", "was opened", "will open"],
-      correctAnswer: 0,
+      options: [ "will open", "was opened", "is being opened", "will be opened" ],
+      correctAnswer: 3,
       explanation: "Future Simple Passive."
     }
   },
@@ -544,8 +544,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "This software ________ (can / download) for free.",
-      options: ["can download", "can be downloaded", "could be download", "is being downloaded"],
-      correctAnswer: 1,
+      options: [ "can be downloaded", "could be download", "is being downloaded", "can download" ],
+      correctAnswer: 0,
       explanation: "Modal Passive (can)."
     }
   },
@@ -558,8 +558,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The results ________ (post) on the website tomorrow.",
-      options: ["will be posted", "are being posted", "were posted", "will post"],
-      correctAnswer: 0,
+      options: [ "will post", "were posted", "will be posted", "are being posted" ],
+      correctAnswer: 2,
       explanation: "Future Simple Passive."
     }
   },
@@ -572,8 +572,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Your luggage ________ (should / check) carefully.",
-      options: ["should check", "should be checked", "should be check", "is checked"],
-      correctAnswer: 1,
+      options: [ "is checked", "should check", "should be checked", "should be check" ],
+      correctAnswer: 2,
       explanation: "Modal Passive (should)."
     }
   },
@@ -586,8 +586,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "________ the meeting ________ (cancel)?",
-      options: ["Will / cancel", "Will / be cancelled", "Is / being cancel", "Was / cancel"],
-      correctAnswer: 1,
+      options: [ "Is / being cancel", "Was / cancel", "Will / cancel", "Will / be cancelled" ],
+      correctAnswer: 3,
       explanation: "Future Passive question form."
     }
   },
@@ -600,7 +600,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The room ________ (may / use) for the party.",
-      options: ["may be used", "may use", "might use", "is being used"],
+      options: [ "may be used", "may use", "is being used", "might use" ],
       correctAnswer: 0,
       explanation: "Modal Passive (may)."
     }
@@ -710,8 +710,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "The raw materials ________ (deliver) to the factory every morning.",
-      options: ["deliver", "are delivered", "is delivered", "was deliver"],
-      correctAnswer: 1,
+      options: [ "deliver", "is delivered", "was deliver", "are delivered" ],
+      correctAnswer: 3,
       explanation: "Present Simple Passive in a manufacturing context."
     }
   },
@@ -724,8 +724,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "In this step, the metal ________ (heat) until it melts.",
-      options: ["is heated", "heated", "are heated", "was being heat"],
-      correctAnswer: 0,
+      options: [ "are heated", "is heated", "was being heat", "heated" ],
+      correctAnswer: 1,
       explanation: "Describing a process step using the passive."
     }
   },
@@ -738,8 +738,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The final products ________ (inspect) for quality.",
-      options: ["are inspected", "is inspected", "inspects", "was inspected"],
-      correctAnswer: 0,
+      options: [ "is inspected", "was inspected", "inspects", "are inspected" ],
+      correctAnswer: 3,
       explanation: "Plural subject in a process description."
     }
   },
@@ -752,8 +752,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "After they ________ (pack), the boxes are moved to the warehouse.",
-      options: ["are packed", "is packed", "packed", "have packed"],
-      correctAnswer: 0,
+      options: [ "is packed", "have packed", "are packed", "packed" ],
+      correctAnswer: 2,
       explanation: "Present Simple Passive for a sequential step."
     }
   },
@@ -766,8 +766,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "These goods ________ (distribute) to local shops.",
-      options: ["are distributed", "is distributed", "distribute", "was distributed"],
-      correctAnswer: 0,
+      options: [ "distribute", "is distributed", "are distributed", "was distributed" ],
+      correctAnswer: 2,
       explanation: "Passive voice for distribution of goods."
     }
   },
@@ -876,7 +876,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "The suspect ________ (catch) by the police last night.",
-      options: ["was caught", "were caught", "catches", "is caught"],
+      options: [ "was caught", "catches", "is caught", "were caught" ],
       correctAnswer: 0,
       explanation: "Past Simple Passive for a specific past event."
     }
@@ -890,8 +890,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The bank ________ (rob) three times this year.",
-      options: ["has been robbed", "was robbed", "is robbed", "had been robbed"],
-      correctAnswer: 0,
+      options: [ "is robbed", "has been robbed", "was robbed", "had been robbed" ],
+      correctAnswer: 1,
       explanation: "Present Perfect Passive for a period of time up to now."
     }
   },
@@ -904,8 +904,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "A lot of money ________ (steal) in the heist.",
-      options: ["was stolen", "were stolen", "is stolen", "stole"],
-      correctAnswer: 0,
+      options: [ "were stolen", "was stolen", "is stolen", "stole" ],
+      correctAnswer: 1,
       explanation: "Past Simple Passive (money is uncountable)."
     }
   },
@@ -918,8 +918,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Witnesses ________ (question) as we speak.",
-      options: ["are being questioned", "is being questioned", "were being questioned", "are questioned"],
-      correctAnswer: 0,
+      options: [ "were being questioned", "are questioned", "is being questioned", "are being questioned" ],
+      correctAnswer: 3,
       explanation: "Present Continuous Passive."
     }
   },
@@ -932,8 +932,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The evidence ________ (already / examine) by the forensic team.",
-      options: ["has already been examined", "have already been examined", "was already examined", "is already being examined"],
-      correctAnswer: 0,
+      options: [ "was already examined", "is already being examined", "have already been examined", "has already been examined" ],
+      correctAnswer: 3,
       explanation: "Present Perfect Passive."
     }
   },
@@ -1042,7 +1042,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "The accident ________ (report) on the 6 o'clock news.",
-      options: ["is reported", "was reported", "reports", "has reported"],
+      options: [ "is reported", "was reported", "has reported", "reports" ],
       correctAnswer: 1,
       explanation: "Past Simple Passive."
     }
@@ -1056,7 +1056,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "A new law ________ (discuss) in parliament tomorrow.",
-      options: ["will be discussed", "is being discussed", "was discussed", "will discuss"],
+      options: [ "will be discussed", "was discussed", "is being discussed", "will discuss" ],
       correctAnswer: 0,
       explanation: "Future Simple Passive."
     }
@@ -1070,8 +1070,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The winner ________ (not / announce) yet.",
-      options: ["hasn't been announced", "wasn't announced", "isn't announced", "haven't been announced"],
-      correctAnswer: 0,
+      options: [ "wasn't announced", "hasn't been announced", "haven't been announced", "isn't announced" ],
+      correctAnswer: 1,
       explanation: "Present Perfect Passive (negative)."
     }
   },
@@ -1084,7 +1084,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Thousands of copies ________ (sell) every day.",
-      options: ["are sold", "is sold", "sold", "were sold"],
+      options: [ "are sold", "were sold", "sold", "is sold" ],
       correctAnswer: 0,
       explanation: "Present Simple Passive."
     }
@@ -1098,8 +1098,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The scandal ________ (uncover) by a young journalist.",
-      options: ["was uncovered", "is uncovered", "uncovered", "has uncovered"],
-      correctAnswer: 0,
+      options: [ "is uncovered", "was uncovered", "uncovered", "has uncovered" ],
+      correctAnswer: 1,
       explanation: "Past Simple Passive."
     }
   },
@@ -1132,8 +1132,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Active: They gave me a present. -> Passive: I ________ a present.",
-      options: ["was given", "am given", "gave", "had been given"],
-      correctAnswer: 0,
+      options: [ "am given", "gave", "was given", "had been given" ],
+      correctAnswer: 2,
       explanation: "Personal subject (I) in the passive."
     }
   },
@@ -1146,8 +1146,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Active: They showed us the photos. -> Passive: The photos ________ to us.",
-      options: ["were shown", "was shown", "showed", "are shown"],
-      correctAnswer: 0,
+      options: [ "was shown", "are shown", "were shown", "showed" ],
+      correctAnswer: 2,
       explanation: "Object subject (The photos) in the passive."
     }
   },
@@ -1160,8 +1160,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Active: They will send you an email. -> Passive: You ________ an email.",
-      options: ["will be sent", "will send", "is sent", "have been sent"],
-      correctAnswer: 0,
+      options: [ "will send", "is sent", "will be sent", "have been sent" ],
+      correctAnswer: 2,
       explanation: "Future passive with personal subject."
     }
   },
@@ -1174,7 +1174,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Active: He told her the truth. -> Passive: She ________ the truth.",
-      options: ["was told", "is told", "told", "has been told"],
+      options: [ "was told", "told", "is told", "has been told" ],
       correctAnswer: 0,
       explanation: "Past passive with personal subject."
     }
@@ -1188,8 +1188,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Active: Someone has paid him the money. -> Passive: He ________ the money.",
-      options: ["has been paid", "have been paid", "was paid", "is paid"],
-      correctAnswer: 0,
+      options: [ "have been paid", "has been paid", "was paid", "is paid" ],
+      correctAnswer: 1,
       explanation: "Present Perfect Passive with personal subject."
     }
   },
@@ -1202,8 +1202,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Active: They offer him a job. -> Passive: A job ________ to him.",
-      options: ["is offered", "are offered", "offered", "was offered"],
-      correctAnswer: 0,
+      options: [ "are offered", "offered", "was offered", "is offered" ],
+      correctAnswer: 3,
       explanation: "Present passive with object subject."
     }
   },
@@ -1216,7 +1216,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Active: They had promised her a promotion. -> Passive: She ________ a promotion.",
-      options: ["had been promised", "was promised", "promised", "has been promised"],
+      options: [ "had been promised", "was promised", "promised", "has been promised" ],
       correctAnswer: 0,
       explanation: "Past Perfect Passive with personal subject."
     }
@@ -1230,8 +1230,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Active: Someone is teaching them English. -> Passive: They ________ English.",
-      options: ["are being taught", "is being taught", "were being taught", "are taught"],
-      correctAnswer: 0,
+      options: [ "are taught", "is being taught", "are being taught", "were being taught" ],
+      correctAnswer: 2,
       explanation: "Present Continuous Passive with personal subject."
     }
   },
@@ -1244,8 +1244,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Active: I will lend her the car. -> Passive: The car ________ to her.",
-      options: ["will be lent", "will lend", "is lent", "was lent"],
-      correctAnswer: 0,
+      options: [ "will lend", "will be lent", "is lent", "was lent" ],
+      correctAnswer: 1,
       explanation: "Future passive with object subject."
     }
   },
@@ -1297,8 +1297,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I ________ (my car / repair) at the moment.",
-      options: ["am having my car repaired", "have my car repaired", "was having my car repaired", "am repairing my car"],
-      correctAnswer: 0,
+      options: [ "have my car repaired", "was having my car repaired", "am repairing my car", "am having my car repaired" ],
+      correctAnswer: 3,
       explanation: "Causative in Present Continuous."
     }
   },
@@ -1311,7 +1311,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "We ________ (the house / paint) last summer.",
-      options: ["had the house painted", "have the house painted", "were having the house painted", "painted the house"],
+      options: [ "had the house painted", "were having the house painted", "painted the house", "have the house painted" ],
       correctAnswer: 0,
       explanation: "Causative in Past Simple."
     }
@@ -1325,8 +1325,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "She ________ (her eyes / test) once a year.",
-      options: ["has her eyes tested", "have her eyes tested", "is having her eyes tested", "gets test her eyes"],
-      correctAnswer: 0,
+      options: [ "have her eyes tested", "has her eyes tested", "gets test her eyes", "is having her eyes tested" ],
+      correctAnswer: 1,
       explanation: "Causative in Present Simple."
     }
   },
@@ -1339,8 +1339,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I ________ (my computer / fix) next week.",
-      options: ["will have my computer fixed", "am fixing my computer", "had my computer fixed", "will fix my computer"],
-      correctAnswer: 0,
+      options: [ "had my computer fixed", "am fixing my computer", "will have my computer fixed", "will fix my computer" ],
+      correctAnswer: 2,
       explanation: "Causative in Future Simple."
     }
   },
@@ -1353,8 +1353,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Have you ever ________ (your fortune / tell)?",
-      options: ["had your fortune told", "have your fortune told", "had tell your fortune", "told your fortune"],
-      correctAnswer: 0,
+      options: [ "told your fortune", "have your fortune told", "had your fortune told", "had tell your fortune" ],
+      correctAnswer: 2,
       explanation: "Causative in Present Perfect."
     }
   },
@@ -1367,8 +1367,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "You should ________ (your teeth / check) every six months.",
-      options: ["have your teeth checked", "check your teeth", "have checked your teeth", "be checking your teeth"],
-      correctAnswer: 0,
+      options: [ "have checked your teeth", "check your teeth", "be checking your teeth", "have your teeth checked" ],
+      correctAnswer: 3,
       explanation: "Causative with modal (should)."
     }
   },
@@ -1381,8 +1381,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I ________ (my passport / renew) yesterday.",
-      options: ["got my passport renewed", "get my passport renewed", "was getting my passport renewed", "renewed my passport"],
-      correctAnswer: 0,
+      options: [ "get my passport renewed", "got my passport renewed", "renewed my passport", "was getting my passport renewed" ],
+      correctAnswer: 1,
       explanation: "Causative using 'get' in Past Simple."
     }
   },
@@ -1395,8 +1395,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I'm going to ________ (the kitchen / clean) before the guests arrive.",
-      options: ["get the kitchen cleaned", "clean the kitchen", "getting the kitchen cleaned", "have clean the kitchen"],
-      correctAnswer: 0,
+      options: [ "clean the kitchen", "get the kitchen cleaned", "getting the kitchen cleaned", "have clean the kitchen" ],
+      correctAnswer: 1,
       explanation: "Causative with 'going to'."
     }
   },
@@ -1410,8 +1410,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The Passive Voice is often used when the 'doer' of the action is...",
-      options: ["Unknown", "Unimportant", "Obvious", "All of the above"],
-      correctAnswer: 3,
+      options: [ "Obvious", "All of the above", "Unknown", "Unimportant" ],
+      correctAnswer: 1,
       explanation: "The passive focus on the action or the receiver of the action."
     }
   },
@@ -1424,8 +1424,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Which tense is: 'The cake is being baked'?",
-      options: ["Present Simple Passive", "Present Continuous Passive", "Past Continuous Passive", "Present Perfect Passive"],
-      correctAnswer: 1,
+      options: [ "Past Continuous Passive", "Present Simple Passive", "Present Continuous Passive", "Present Perfect Passive" ],
+      correctAnswer: 2,
       explanation: "is + being + past participle."
     }
   },
@@ -1438,7 +1438,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Which tense is: 'The work had been finished'?",
-      options: ["Past Simple Passive", "Past Perfect Passive", "Present Perfect Passive", "Future Passive"],
+      options: [ "Present Perfect Passive", "Past Perfect Passive", "Future Passive", "Past Simple Passive" ],
       correctAnswer: 1,
       explanation: "had + been + past participle."
     }
@@ -1452,7 +1452,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "We use 'by' in a passive sentence to...",
-      options: ["Introduce the place", "Introduce the agent (the person who did it)", "Introduce the time", "Introduce the reason"],
+      options: [ "Introduce the time", "Introduce the agent (the person who did it)", "Introduce the reason", "Introduce the place" ],
       correctAnswer: 1,
       explanation: "'By' is used to say who performed the action."
     }
@@ -1466,7 +1466,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "In formal reports, the passive is used to sound more...",
-      options: ["Emotional", "Objective and professional", "Funny", "Confusing"],
+      options: [ "Confusing", "Objective and professional", "Emotional", "Funny" ],
       correctAnswer: 1,
       explanation: "Passive voice avoids focusing on specific individuals, making it sound more objective."
     }
@@ -1480,8 +1480,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Active: Someone stole my purse. -> Passive: My purse ________.",
-      options: ["stolen", "was stolen", "were stolen", "is stolen"],
-      correctAnswer: 1,
+      options: [ "were stolen", "is stolen", "was stolen", "stolen" ],
+      correctAnswer: 2,
       explanation: "Past Simple Passive."
     }
   },
@@ -1494,8 +1494,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Active: People say that he is rich. -> Passive: It ________ that he is rich.",
-      options: ["is said", "says", "was said", "is saying"],
-      correctAnswer: 0,
+      options: [ "says", "is said", "was said", "is saying" ],
+      correctAnswer: 1,
       explanation: "Impersonal passive construction."
     }
   },
@@ -1508,8 +1508,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If you 'have your hair cut', ________.",
-      options: ["You cut it yourself", "Someone else cuts it for you", "You cut someone else's hair", "You hate your hair"],
-      correctAnswer: 1,
+      options: [ "You cut it yourself", "You cut someone else's hair", "You hate your hair", "Someone else cuts it for you" ],
+      correctAnswer: 3,
       explanation: "The causative 'have something done' means someone does the service for you."
     }
   },
@@ -1522,8 +1522,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Passive: They ________ (tell) the truth by the witness.",
-      options: ["were told", "was told", "told", "are telling"],
-      correctAnswer: 0,
+      options: [ "was told", "were told", "told", "are telling" ],
+      correctAnswer: 1,
       explanation: "Past Simple Passive with personal subject (plural)."
     }
   },
@@ -1536,8 +1536,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The passive of 'The chef is cooking the fish' is:",
-      options: ["The fish is being cooked by the chef", "The fish is cooked by the chef", "The fish was cooked by the chef", "The fish has been cooked by the chef"],
-      correctAnswer: 0,
+      options: [ "The fish is cooked by the chef", "The fish has been cooked by the chef", "The fish was cooked by the chef", "The fish is being cooked by the chef" ],
+      correctAnswer: 3,
       explanation: "Present Continuous Passive transformation."
     }
   }

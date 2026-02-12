@@ -395,13 +395,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "Penicillin ________ by Alexander Fleming in 1928.",
-      options: [
-        "is discovered",
-        "was discovered",
-        "discovered",
-        "has discovered"
-      ],
-      correctAnswer: 1,
+      options: [ "discovered", "has discovered", "was discovered", "is discovered" ],
+      correctAnswer: 2,
       explanation: "Usamos el pasado simple pasivo (was/were + participio) para hechos históricos."
     } as any
   },
@@ -414,13 +409,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "Mobile phones ________ by billions of people every day.",
-      options: [
-        "are used",
-        "use",
-        "is used",
-        "were used"
-      ],
-      correctAnswer: 0,
+      options: [ "is used", "use", "are used", "were used" ],
+      correctAnswer: 2,
       explanation: "Usamos el presente simple pasivo (am/is/are + participio) para acciones habituales."
     } as any
   },
@@ -433,12 +423,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "The new laboratory ________ next month.",
-      options: [
-        "will open",
-        "opens",
-        "will be opened",
-        "is opened"
-      ],
+      options: [ "will open", "opens", "will be opened", "is opened" ],
       correctAnswer: 2,
       explanation: "Usamos el futuro pasivo (will be + participio) para acciones futuras."
     } as any
@@ -452,12 +437,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "These documents ________ by the researcher yesterday afternoon.",
-      options: [
-        "was signed",
-        "were signed",
-        "are signed",
-        "signed"
-      ],
+      options: [ "are signed", "were signed", "signed", "was signed" ],
       correctAnswer: 1,
       explanation: "'Documents' es plural, por lo que usamos 'were signed' en pasado pasivo."
     } as any
@@ -471,12 +451,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Where ________ these cars ________?",
-      options: [
-        "are / made",
-        "do / make",
-        "is / made",
-        "are / make"
-      ],
+      options: [ "are / made", "are / make", "is / made", "do / make" ],
       correctAnswer: 0,
       explanation: "Para preguntas en presente pasivo: Am/Is/Are + sujeto + participio."
     } as any
@@ -490,13 +465,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The light bulb ________ by Thomas Edison.",
-      options: [
-        "invented",
-        "was invent",
-        "was invented",
-        "is invented"
-      ],
-      correctAnswer: 2,
+      options: [ "was invented", "was invent", "invented", "is invented" ],
+      correctAnswer: 0,
       explanation: "Pasado simple pasivo para un invento histórico: was + participio."
     } as any
   },
@@ -509,13 +479,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Spanish ________ in many countries in South America.",
-      options: [
-        "is spoken",
-        "is spoke",
-        "speaks",
-        "are spoken"
-      ],
-      correctAnswer: 0,
+      options: [ "are spoken", "is spoke", "is spoken", "speaks" ],
+      correctAnswer: 2,
       explanation: "'Spanish' es incontable/singular, por lo que usamos 'is spoken'."
     } as any
   },
@@ -528,13 +493,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The results of the study ________ until next year.",
-      options: [
-        "don't be published",
-        "won't be published",
-        "aren't published",
-        "not published"
-    ],
-      correctAnswer: 1,
+      options: [ "not published", "don't be published", "won't be published", "aren't published" ],
+      correctAnswer: 2,
       explanation: "Negativo en futuro pasivo: won't be (will not be) + participio."
     } as any
   },
@@ -547,12 +507,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Many breakthrough medicines ________ in the last decade.",
-      options: [
-        "have developed",
-        "have been developed",
-        "were develop",
-        "are developed"
-      ],
+      options: [ "have developed", "have been developed", "were develop", "are developed" ],
       correctAnswer: 1,
       explanation: "Presente perfecto pasivo: have/has been + participio para acciones recientes."
     } as any
@@ -566,13 +521,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The experiment ________ right now in the chemistry lab.",
-      options: [
-        "is being performed",
-        "is performed",
-        "is performing",
-        "was performed"
-      ],
-      correctAnswer: 0,
+      options: [ "was performed", "is performing", "is performed", "is being performed" ],
+      correctAnswer: 3,
       explanation: "Presente continuo pasivo: am/is/are + being + participio para acciones en progreso."
     } as any
   },
@@ -587,13 +537,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "This medication ________ with food.",
-      options: [
-        "must take",
-        "must be taken",
-        "must be took",
-        "should take"
-      ],
-      correctAnswer: 1,
+      options: [ "must be took", "must take", "must be taken", "should take" ],
+      correctAnswer: 2,
       explanation: "Pasiva con modal (must): must + be + participio."
     } as any
   },
@@ -606,13 +551,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The problem ________ easily by following the instructions.",
-      options: [
-        "can solve",
-        "can be solved",
-        "could solve",
-        "can be solve"
-      ],
-      correctAnswer: 1,
+      options: [ "can solve", "could solve", "can be solved", "can be solve" ],
+      correctAnswer: 2,
       explanation: "Pasiva con modal (can): can + be + participio."
     } as any
   },
@@ -625,13 +565,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Your password ________ with anyone.",
-      options: [
-        "shouldn't be shared",
-        "shouldn't share",
-        "mustn't share",
-        "don't be shared"
-      ],
-      correctAnswer: 0,
+      options: [ "don't be shared", "shouldn't share", "shouldn't be shared", "mustn't share" ],
+      correctAnswer: 2,
       explanation: "Pasiva negativa con modal (shouldn't): shouldn't + be + participio."
     } as any
   },
@@ -644,12 +579,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "These devices ________ to a power source.",
-      options: [
-        "need connect",
-        "need to be connected",
-        "need be connected",
-        "must connect"
-      ],
+      options: [ "must connect", "need to be connected", "need connect", "need be connected" ],
       correctAnswer: 1,
       explanation: "Pasiva con 'need': need + to be + participio."
     } as any
@@ -663,13 +593,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Wait! The data ________ before you close the program.",
-      options: [
-        "may be lost",
-        "might lost",
-        "might be lost",
-        "can lost"
-      ],
-      correctAnswer: 2,
+      options: [ "may be lost", "can lost", "might lost", "might be lost" ],
+      correctAnswer: 3,
       explanation: "Pasiva con modal de posibilidad (might/may): might/may + be + participio."
     } as any
   },
@@ -682,13 +607,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The project ________ by the end of the week.",
-      options: [
-        "has to finish",
-        "has to be finished",
-        "have to be finished",
-        "is finished"
-      ],
-      correctAnswer: 1,
+      options: [ "is finished", "has to finish", "has to be finished", "have to be finished" ],
+      correctAnswer: 2,
       explanation: "Pasiva con 'have to': has to + be + participio."
     } as any
   },
@@ -701,13 +621,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The equipment ________ away carefully after use.",
-      options: [
-        "ought put",
-        "ought to be put",
-        "ought be put",
-        "should put"
-      ],
-      correctAnswer: 1,
+      options: [ "should put", "ought put", "ought be put", "ought to be put" ],
+      correctAnswer: 3,
       explanation: "Pasiva con 'ought to': ought to + be + participio."
     } as any
   },
@@ -720,13 +635,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Nothing ________ without the manager's permission.",
-      options: [
-        "can be done",
-        "can do",
-        "must do",
-        "is done"
-      ],
-      correctAnswer: 0,
+      options: [ "is done", "can do", "can be done", "must do" ],
+      correctAnswer: 2,
       explanation: "Pasiva con modal: 'Nothing' es el sujeto, por lo que usamos 'can be done'."
     } as any
   },
@@ -739,13 +649,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Old batteries ________ in the normal trash.",
-      options: [
-        "must not throw",
-        "must not be thrown",
-        "should not throw",
-        "are not thrown"
-      ],
-      correctAnswer: 1,
+      options: [ "must not be thrown", "are not thrown", "should not throw", "must not throw" ],
+      correctAnswer: 0,
       explanation: "Pasiva negativa con modal (must not): mustn't + be + participio (thrown)."
     } as any
   },
@@ -758,13 +663,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The update ________ automatically tonight.",
-      options: [
-        "could be installed",
-        "could install",
-        "is installed",
-        "will install"
-      ],
-      correctAnswer: 0,
+      options: [ "will install", "could be installed", "is installed", "could install" ],
+      correctAnswer: 1,
       explanation: "Pasiva con modal de posibilidad/habilidad: could + be + participio."
     } as any
   },
@@ -779,13 +679,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "The first man ________ to the Moon in 1969.",
-      options: [
-        "was sent",
-        "was send",
-        "sent",
-        "has been sent"
-      ],
-      correctAnswer: 0,
+      options: [ "sent", "has been sent", "was sent", "was send" ],
+      correctAnswer: 2,
       explanation: "Pasado simple pasivo: was sent (enviado)."
     } as any
   },
@@ -798,13 +693,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "Our solar system has eight ________.",
-      options: [
-        "stars",
-        "planets",
-        "galaxies",
-        "moons"
-      ],
-      correctAnswer: 1,
+      options: [ "moons", "galaxies", "stars", "planets" ],
+      correctAnswer: 3,
       explanation: "Mercurio, Venus, Tierra, Marte, Júpiter, Saturno, Urano y Neptuno son planetas."
     } as any
   },
@@ -817,13 +707,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "A ________ is a vehicle used for traveling in space.",
-      options: [
-        "satellite",
-        "rocket",
-        "telescope",
-        "spacecraft"
-      ],
-      correctAnswer: 3,
+      options: [ "telescope", "satellite", "spacecraft", "rocket" ],
+      correctAnswer: 2,
       explanation: "'Spacecraft' (nave espacial) es el término general para vehículos espaciales."
     } as any
   },
@@ -836,13 +721,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Astronauts have to live in ________ conditions on the space station.",
-      options: [
-        "zero-gravity",
-        "heavy",
-        "normal",
-        "underwater"
-      ],
-      correctAnswer: 0,
+      options: [ "underwater", "normal", "zero-gravity", "heavy" ],
+      correctAnswer: 2,
       explanation: "En el espacio, los astronautas experimentan la falta de gravedad (gravedad cero)."
     } as any
   },
@@ -855,13 +735,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The Earth ________ the Sun once every year.",
-      options: [
-        "orbits",
-        "rotates",
-        "travels",
-        "spins"
-      ],
-      correctAnswer: 0,
+      options: [ "rotates", "spins", "orbits", "travels" ],
+      correctAnswer: 2,
       explanation: "'Orbit' (orbitar) es el movimiento de un cuerpo alrededor de otro."
     } as any
   },
@@ -874,13 +749,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Images of distant stars ________ by powerful telescopes.",
-      options: [
-        "captured",
-        "are captured",
-        "is captured",
-        "are capture"
-      ],
-      correctAnswer: 1,
+      options: [ "are captured", "are capture", "captured", "is captured" ],
+      correctAnswer: 0,
       explanation: "Presente simple pasivo: are captured (son capturadas)."
     } as any
   },
@@ -893,13 +763,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Mars is often called the '________ Planet'.",
-      options: [
-        "Blue",
-        "Red",
-        "Green",
-        "Cold"
-      ],
-      correctAnswer: 1,
+      options: [ "Cold", "Blue", "Red", "Green" ],
+      correctAnswer: 2,
       explanation: "A Marte se le conoce como el Planeta Rojo debido a su color."
     } as any
   },
@@ -912,13 +777,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The launch of the rocket ________ because of bad weather.",
-      options: [
-        "postponed",
-        "was postponed",
-        "is postponed",
-        "has postponed"
-      ],
-      correctAnswer: 1,
+      options: [ "postponed", "has postponed", "was postponed", "is postponed" ],
+      correctAnswer: 2,
       explanation: "Pasado simple pasivo: was postponed (fue pospuesto)."
     } as any
   },
@@ -931,13 +791,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Space exploration ________ by some as a waste of money.",
-      options: [
-        "sees",
-        "is seen",
-        "was seen",
-        "has seen"
-      ],
-      correctAnswer: 1,
+      options: [ "is seen", "was seen", "has seen", "sees" ],
+      correctAnswer: 0,
       explanation: "Presente simple pasivo: is seen (es visto)."
     } as any
   },
@@ -950,13 +805,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Will humans ________ to Mars in the future?",
-      options: [
-        "be sent",
-        "sent",
-        "being sent",
-        "be send"
-      ],
-      correctAnswer: 0,
+      options: [ "sent", "be sent", "being sent", "be send" ],
+      correctAnswer: 1,
       explanation: "Futuro pasivo en pregunta: Will + sujeto + be + participio."
     } as any
   },
@@ -971,13 +821,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "Vaccines ________ to prevent many dangerous diseases.",
-      options: [
-        "are used",
-        "used",
-        "use",
-        "are use"
-      ],
-      correctAnswer: 0,
+      options: [ "use", "used", "are use", "are used" ],
+      correctAnswer: 3,
       explanation: "Presente simple pasivo: are used (son usados)."
     } as any
   },
@@ -990,12 +835,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "A ________ is a substance used to treat or prevent disease.",
-      options: [
-        "medicine",
-        "virus",
-        "symptom",
-        "patient"
-      ],
+      options: [ "medicine", "patient", "symptom", "virus" ],
       correctAnswer: 0,
       explanation: "'Medicine' (medicina) es el término general para estas sustancias."
     } as any
@@ -1009,13 +849,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Genetic engineering ________ by scientists to improve crops.",
-      options: [
-        "is studied",
-        "studies",
-        "is study",
-        "was study"
-      ],
-      correctAnswer: 0,
+      options: [ "was study", "is study", "is studied", "studies" ],
+      correctAnswer: 2,
       explanation: "Presente simple pasivo: is studied (es estudiada)."
     } as any
   },
@@ -1028,13 +863,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Artificial ________ are now used to replace damaged limbs.",
-      options: [
-        "brains",
-        "hearts",
-        "limbs",
-        "eyes"
-      ],
-      correctAnswer: 2,
+      options: [ "limbs", "brains", "hearts", "eyes" ],
+      correctAnswer: 0,
       explanation: "'Limbs' (extremidades) como brazos o piernas pueden ser reemplazados por prótesis."
     } as any
   },
@@ -1047,13 +877,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The patient ________ by the specialist yesterday.",
-      options: [
-        "examined",
-        "was examined",
-        "is examined",
-        "has examined"
-      ],
-      correctAnswer: 1,
+      options: [ "is examined", "has examined", "was examined", "examined" ],
+      correctAnswer: 2,
       explanation: "Pasado simple pasivo: was examined (fue examinado)."
     } as any
   },
@@ -1066,13 +891,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "New drugs ________ for several years before they are sold.",
-      options: [
-        "are tested",
-        "test",
-        "are test",
-        "will test"
-      ],
-      correctAnswer: 0,
+      options: [ "will test", "test", "are tested", "are test" ],
+      correctAnswer: 2,
       explanation: "Presente simple pasivo: are tested (son probados)."
     } as any
   },
@@ -1085,13 +905,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The structure of DNA ________ in 1953.",
-      options: [
-        "discovered",
-        "was discovered",
-        "has been discovered",
-        "is discovered"
-      ],
-      correctAnswer: 1,
+      options: [ "was discovered", "has been discovered", "is discovered", "discovered" ],
+      correctAnswer: 0,
       explanation: "Pasado simple pasivo para un hecho histórico."
     } as any
   },
@@ -1104,13 +919,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Robots ________ to perform some complex surgeries now.",
-      options: [
-        "are being used",
-        "are using",
-        "is being used",
-        "were used"
-      ],
-      correctAnswer: 0,
+      options: [ "were used", "is being used", "are being used", "are using" ],
+      correctAnswer: 2,
       explanation: "Presente continuo pasivo para una tendencia actual: are being used."
     } as any
   },
@@ -1123,13 +933,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Stem cell research ________ carefully to avoid ethical problems.",
-      options: [
-        "must be regulated",
-        "must regulate",
-        "should regulate",
-        "is regulated"
-      ],
-      correctAnswer: 0,
+      options: [ "should regulate", "must regulate", "is regulated", "must be regulated" ],
+      correctAnswer: 3,
       explanation: "Pasiva con modal (must): must be + participio."
     } as any
   },
@@ -1142,13 +947,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Heart transplants ________ more common in the future.",
-      options: [
-        "will be made",
-        "will become",
-        "are becoming",
-        "become"
-      ],
-      correctAnswer: 1,
+      options: [ "will be made", "are becoming", "will become", "become" ],
+      correctAnswer: 2,
       explanation: "Usamos 'will become' (se volverán) para predicciones futuras (voz activa aquí, pero contexto médico)."
     } as any
   },
@@ -1163,13 +963,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "Solar energy ________ from the sun's rays.",
-      options: [
-        "is produced",
-        "produces",
-        "is produce",
-        "was produced"
-      ],
-      correctAnswer: 0,
+      options: [ "was produced", "produces", "is produce", "is produced" ],
+      correctAnswer: 3,
       explanation: "Presente simple pasivo: is produced (es producida)."
     } as any
   },
@@ -1182,13 +977,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "We should ________ our plastic waste.",
-      options: [
-        "recycle",
-        "recycling",
-        "recycled",
-        "be recycled"
-      ],
-      correctAnswer: 0,
+      options: [ "be recycled", "recycle", "recycled", "recycling" ],
+      correctAnswer: 1,
       explanation: "Modal 'should' seguido de infinitivo sin 'to' (voz activa)."
     } as any
   },
@@ -1201,13 +991,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Global warming ________ by greenhouse gases.",
-      options: [
-        "is caused",
-        "causes",
-        "is cause",
-        "was caused"
-      ],
-      correctAnswer: 0,
+      options: [ "is cause", "was caused", "is caused", "causes" ],
+      correctAnswer: 2,
       explanation: "Presente simple pasivo: is caused (es causado)."
     } as any
   },
@@ -1220,12 +1005,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Wind ________ can generate electricity for many homes.",
-      options: [
-        "turbines",
-        "engines",
-        "gadgets",
-        "panels"
-      ],
+      options: [ "turbines", "gadgets", "engines", "panels" ],
       correctAnswer: 0,
       explanation: "'Wind turbines' (turbinas eólicas) se usan para generar energía del viento."
     } as any
@@ -1239,13 +1019,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The oceans ________ by millions of tons of plastic.",
-      options: [
-        "are being polluted",
-        "are polluting",
-        "is being polluted",
-        "were polluted"
-      ],
-      correctAnswer: 0,
+      options: [ "is being polluted", "are polluting", "were polluted", "are being polluted" ],
+      correctAnswer: 3,
       explanation: "Presente continuo pasivo: are being polluted (están siendo contaminados)."
     } as any
   },
@@ -1258,13 +1033,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "More trees ________ to help absorb CO2.",
-      options: [
-        "should be planted",
-        "should plant",
-        "should be plant",
-        "must plant"
-      ],
-      correctAnswer: 0,
+      options: [ "should plant", "must plant", "should be planted", "should be plant" ],
+      correctAnswer: 2,
       explanation: "Pasiva con modal: should be + participio."
     } as any
   },
@@ -1277,13 +1047,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Electric cars ________ as a solution to air pollution.",
-      options: [
-        "are promoted",
-        "promote",
-        "is promoted",
-        "are promote"
-      ],
-      correctAnswer: 0,
+      options: [ "are promote", "is promoted", "promote", "are promoted" ],
+      correctAnswer: 3,
       explanation: "Presente simple pasivo plural: are promoted."
     } as any
   },
@@ -1296,13 +1061,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Renewable energy ________ by many governments today.",
-      options: [
-        "is being developed",
-        "is developing",
-        "has developed",
-        "is develop"
-      ],
-      correctAnswer: 0,
+      options: [ "has developed", "is develop", "is being developed", "is developing" ],
+      correctAnswer: 2,
       explanation: "Presente continuo pasivo: is being developed."
     } as any
   },
@@ -1315,12 +1075,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If the climate ________, many species will disappear.",
-      options: [
-        "isn't protected",
-        "doesn't protect",
-        "won't be protected",
-        "is protected"
-      ],
+      options: [ "isn't protected", "is protected", "doesn't protect", "won't be protected" ],
       correctAnswer: 0,
       explanation: "First conditional con pasiva en la cláusula del 'if'."
     } as any
@@ -1334,13 +1089,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Carbon emissions ________ by 50% in the next decade.",
-      options: [
-        "must be reduced",
-        "must reduce",
-        "are reduced",
-        "will reduce"
-      ],
-      correctAnswer: 0,
+      options: [ "are reduced", "must reduce", "must be reduced", "will reduce" ],
+      correctAnswer: 2,
       explanation: "Pasiva con modal de obligación: must be + participio."
     } as any
   },
@@ -1355,13 +1105,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "Information ________ instantly through the internet.",
-      options: [
-        "is shared",
-        "shares",
-        "is share",
-        "was shared"
-      ],
-      correctAnswer: 0,
+      options: [ "was shared", "is shared", "shares", "is share" ],
+      correctAnswer: 1,
       explanation: "Presente simple pasivo: is shared (es compartida)."
     } as any
   },
@@ -1374,13 +1119,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "AI stands for Artificial ________.",
-      options: [
-        "Intelligence",
-        "Information",
-        "Innovation",
-        "Internet"
-      ],
-      correctAnswer: 0,
+      options: [ "Information", "Innovation", "Internet", "Intelligence" ],
+      correctAnswer: 3,
       explanation: "AI es el acrónimo de 'Artificial Intelligence' (Inteligencia Artificial)."
     } as any
   },
@@ -1393,13 +1133,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Large amounts of data ________ in the cloud.",
-      options: [
-        "are stored",
-        "is stored",
-        "store",
-        "are store"
-      ],
-      correctAnswer: 0,
+      options: [ "is stored", "store", "are store", "are stored" ],
+      correctAnswer: 3,
       explanation: "Presente simple pasivo plural: are stored."
     } as any
   },
@@ -1412,13 +1147,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Algorithms ________ by computers to solve complex problems.",
-      options: [
-        "are used",
-        "use",
-        "is used",
-        "were use"
-      ],
-      correctAnswer: 0,
+      options: [ "is used", "were use", "use", "are used" ],
+      correctAnswer: 3,
       explanation: "Presente simple pasivo plural: are used."
     } as any
   },
@@ -1431,12 +1161,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Our lives ________ by technology in many ways.",
-      options: [
-        "have been changed",
-        "has been changed",
-        "changed",
-        "are change"
-      ],
+      options: [ "have been changed", "has been changed", "changed", "are change" ],
       correctAnswer: 0,
       explanation: "Presente perfecto pasivo: have been + participio (cambiado)."
     } as any
@@ -1450,13 +1175,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Personal information ________ secure online.",
-      options: [
-        "must be kept",
-        "must keep",
-        "should keep",
-        "is kept"
-      ],
-      correctAnswer: 0,
+      options: [ "should keep", "must be kept", "must keep", "is kept" ],
+      correctAnswer: 1,
       explanation: "Pasiva con modal: must be + participio (kept)."
     } as any
   },
@@ -1469,12 +1189,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Self-driving cars ________ on some roads now.",
-      options: [
-        "are being tested",
-        "are testing",
-        "is being tested",
-        "were tested"
-      ],
+      options: [ "are being tested", "are testing", "is being tested", "were tested" ],
       correctAnswer: 0,
       explanation: "Presente continuo pasivo para una acción en progreso: are being tested."
     } as any
@@ -1488,13 +1203,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Can these tasks ________ by robots?",
-      options: [
-        "be performed",
-        "perform",
-        "being performed",
-        "be perform"
-      ],
-      correctAnswer: 0,
+      options: [ "being performed", "be performed", "perform", "be perform" ],
+      correctAnswer: 1,
       explanation: "Pasiva con modal en pregunta: Can + sujeto + be + participio."
     } as any
   },
@@ -1507,13 +1217,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "In the future, many jobs ________ by AI.",
-      options: [
-        "will be done",
-        "will do",
-        "are done",
-        "will be do"
-      ],
-      correctAnswer: 0,
+      options: [ "will do", "will be done", "will be do", "are done" ],
+      correctAnswer: 1,
       explanation: "Futuro pasivo: will be + participio (done)."
     } as any
   },
@@ -1526,13 +1231,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "New software ________ every few months.",
-      options: [
-        "is released",
-        "releases",
-        "is release",
-        "was released"
-      ],
-      correctAnswer: 0,
+      options: [ "was released", "is released", "releases", "is release" ],
+      correctAnswer: 1,
       explanation: "Presente simple pasivo: is released (es lanzado)."
     } as any
   },
@@ -1547,13 +1247,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Scientists are trying to ________ how the virus spreads.",
-      options: [
-        "figure out",
-        "turn on",
-        "look for",
-        "put off"
-      ],
-      correctAnswer: 0,
+      options: [ "put off", "turn on", "figure out", "look for" ],
+      correctAnswer: 2,
       explanation: "'Figure out' significa entender o resolver un problema."
     } as any
   },
@@ -1566,13 +1261,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Please ________ your computer before leaving the office.",
-      options: [
-        "shut down",
-        "set up",
-        "go on",
-        "break down"
-      ],
-      correctAnswer: 0,
+      options: [ "break down", "go on", "shut down", "set up" ],
+      correctAnswer: 2,
       explanation: "'Shut down' significa apagar una máquina o sistema."
     } as any
   },
@@ -1585,13 +1275,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "We need to ________ the new equipment in the lab.",
-      options: [
-        "set up",
-        "find out",
-        "look into",
-        "carry on"
-      ],
-      correctAnswer: 0,
+      options: [ "look into", "carry on", "find out", "set up" ],
+      correctAnswer: 3,
       explanation: "'Set up' significa instalar o preparar algo para su uso."
     } as any
   },
@@ -1604,13 +1289,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The computer ________ and I lost all my work.",
-      options: [
-        "broke down",
-        "turned up",
-        "gave in",
-        "ran out"
-      ],
-      correctAnswer: 0,
+      options: [ "gave in", "ran out", "broke down", "turned up" ],
+      correctAnswer: 2,
       explanation: "'Broke down' significa que algo dejó de funcionar (averiarse)."
     } as any
   },
@@ -1623,13 +1303,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "They are ________ research into the effects of AI.",
-      options: [
-        "carrying out",
-        "taking up",
-        "bringing about",
-        "setting off"
-      ],
-      correctAnswer: 0,
+      options: [ "taking up", "setting off", "bringing about", "carrying out" ],
+      correctAnswer: 3,
       explanation: "'Carrying out' significa realizar o ejecutar (una investigación, experimento, etc.)."
     } as any
   },
@@ -1642,13 +1317,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "I need to ________ what time the rocket launches.",
-      options: [
-        "find out",
-        "look after",
-        "come across",
-        "give up"
-      ],
-      correctAnswer: 0,
+      options: [ "look after", "come across", "give up", "find out" ],
+      correctAnswer: 3,
       explanation: "'Find out' significa descubrir información."
     } as any
   },
@@ -1661,13 +1331,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Technology is ________ so fast that it's hard to keep up.",
-      options: [
-        "moving on",
-        "going ahead",
-        "speeding up",
-        "taking off"
-      ],
-      correctAnswer: 2,
+      options: [ "speeding up", "taking off", "going ahead", "moving on" ],
+      correctAnswer: 0,
       explanation: "'Speeding up' significa acelerar o ir más rápido."
     } as any
   },
@@ -1680,13 +1345,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The machine ________ a strange noise before it stopped.",
-      options: [
-        "gave off",
-        "let out",
-        "brought up",
-        "put on"
-      ],
-      correctAnswer: 0,
+      options: [ "let out", "gave off", "brought up", "put on" ],
+      correctAnswer: 1,
       explanation: "'Gave off' significa emitir (un ruido, olor, luz, etc.)."
     } as any
   },
@@ -1699,13 +1359,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I ________ a very interesting article about space travel.",
-      options: [
-        "came across",
-        "ran into",
-        "looked for",
-        "got through"
-      ],
-      correctAnswer: 0,
+      options: [ "looked for", "came across", "ran into", "got through" ],
+      correctAnswer: 1,
       explanation: "'Came across' significa encontrar algo por casualidad."
     } as any
   },
@@ -1718,12 +1373,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Wait, the system is ________ some updates.",
-      options: [
-        "going through",
-        "putting through",
-        "looking through",
-        "running through"
-      ],
+      options: [ "going through", "running through", "looking through", "putting through" ],
       correctAnswer: 0,
       explanation: "'Going through' significa experimentar o procesar algo."
     } as any
@@ -1739,12 +1389,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Which of these is a synonym for 'breakthrough'?",
-      options: [
-        "Major advance",
-        "Small mistake",
-        "Standard procedure",
-        "Old theory"
-      ],
+      options: [ "Major advance", "Standard procedure", "Old theory", "Small mistake" ],
       correctAnswer: 0,
       explanation: "'Breakthrough' y 'major advance' significan un gran avance o descubrimiento."
     } as any
@@ -1758,13 +1403,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Choose the correct passive form: 'The team discovered the cure.'",
-      options: [
-        "The cure was discovered by the team.",
-        "The cure is discovered by the team.",
-        "The cure has discovered by the team.",
-        "The cure was discover by the team."
-      ],
-      correctAnswer: 0,
+      options: [ "The cure was discover by the team.", "The cure is discovered by the team.", "The cure was discovered by the team.", "The cure has discovered by the team." ],
+      correctAnswer: 2,
       explanation: "Pasado simple pasivo: was + participio."
     } as any
   },
@@ -1777,13 +1417,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "What is a 'gadget'?",
-      options: [
-        "A small useful device",
-        "A scientific theory",
-        "A large factory",
-        "A chemical element"
-      ],
-      correctAnswer: 0,
+      options: [ "A large factory", "A small useful device", "A scientific theory", "A chemical element" ],
+      correctAnswer: 1,
       explanation: "Un 'gadget' es un dispositivo pequeño y útil."
     } as any
   },
@@ -1796,12 +1431,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If something is 'cutting-edge', it is ________.",
-      options: [
-        "very modern",
-        "very sharp",
-        "broken",
-        "old-fashioned"
-      ],
+      options: [ "very modern", "very sharp", "old-fashioned", "broken" ],
       correctAnswer: 0,
       explanation: "'Cutting-edge' significa que utiliza la tecnología más avanzada."
     } as any
@@ -1815,12 +1445,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Complete: 'The software ________ by the developers next week.'",
-      options: [
-        "will be updated",
-        "is updated",
-        "was updated",
-        "will update"
-      ],
+      options: [ "will be updated", "will update", "was updated", "is updated" ],
       correctAnswer: 0,
       explanation: "Futuro pasivo: will be + participio."
     } as any
@@ -1834,13 +1459,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Which phrasal verb means 'to install'?",
-      options: [
-        "Set up",
-        "Shut down",
-        "Find out",
-        "Figure out"
-      ],
-      correctAnswer: 0,
+      options: [ "Find out", "Set up", "Figure out", "Shut down" ],
+      correctAnswer: 1,
       explanation: "'Set up' significa instalar o preparar algo."
     } as any
   },
@@ -1853,13 +1473,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Choose the correct sentence:",
-      options: [
-        "Instructions must be followed carefully.",
-        "Instructions must followed carefully.",
-        "Instructions must be follow carefully.",
-        "Instructions should follow carefully."
-      ],
-      correctAnswer: 0,
+      options: [ "Instructions should follow carefully.", "Instructions must followed carefully.", "Instructions must be followed carefully.", "Instructions must be follow carefully." ],
+      correctAnswer: 2,
       explanation: "Pasiva con modal: must be + participio (followed)."
     } as any
   },
@@ -1872,13 +1487,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "What does 'carrying out' mean in a scientific context?",
-      options: [
-        "Conducting or performing",
-        "Lifting something heavy",
-        "Leaving a room",
-        "Stopping an experiment"
-      ],
-      correctAnswer: 0,
+      options: [ "Stopping an experiment", "Leaving a room", "Conducting or performing", "Lifting something heavy" ],
+      correctAnswer: 2,
       explanation: "'Carrying out' significa realizar o llevar a cabo (ej. un experimento)."
     } as any
   },
@@ -1891,13 +1501,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Complete: 'The data ________ by the system at the moment.'",
-      options: [
-        "is being processed",
-        "is processed",
-        "is processing",
-        "was processed"
-      ],
-      correctAnswer: 0,
+      options: [ "is processed", "was processed", "is processing", "is being processed" ],
+      correctAnswer: 3,
       explanation: "Presente continuo pasivo: is being + participio (processed)."
     } as any
   },
@@ -1910,12 +1515,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Speculating: 'In 50 years, most diseases ________ cured.'",
-      options: [
-        "might be",
-        "might",
-        "are",
-        "were"
-      ],
+      options: [ "might be", "are", "were", "might" ],
       correctAnswer: 0,
       explanation: "Modal de posibilidad para el futuro + voz pasiva (implícita en el contexto de 'ser curadas')."
     } as any

@@ -106,7 +106,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "What do you call a person who uses their fame on social media to promote products?",
-      options: ["Politician", "Engineer", "Influencer", "Librarian"],
+      options: [ "Politician", "Librarian", "Influencer", "Engineer" ],
       correctAnswer: 2,
       explanation: "An influencer has the power to affect the purchasing decisions of others because of their authority or knowledge."
     }
@@ -120,8 +120,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "To 'scroll' through a feed means to...",
-      options: ["Delete it", "Paint it", "Move through content on a screen", "Print it"],
-      correctAnswer: 2,
+      options: [ "Paint it", "Move through content on a screen", "Print it", "Delete it" ],
+      correctAnswer: 1,
       explanation: "Scrolling is moving up or down through digital content."
     }
   },
@@ -134,8 +134,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "A 'notification' is a...",
-      options: ["Type of virus", "New computer", "Password", "Message that alerts you to activity"],
-      correctAnswer: 3,
+      options: [ "Message that alerts you to activity", "Type of virus", "New computer", "Password" ],
+      correctAnswer: 0,
       explanation: "Notifications are alerts from apps or websites."
     }
   },
@@ -148,7 +148,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "What is an 'algorithm' in the context of social media?",
-      options: ["A type of photo", "A physical part of a phone", "A country", "The rules that determine what content you see"],
+      options: [ "A physical part of a phone", "A country", "A type of photo", "The rules that determine what content you see" ],
       correctAnswer: 3,
       explanation: "Algorithms rank content based on user preferences and behavior."
     }
@@ -162,7 +162,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "To 'unfollow' someone means to...",
-      options: ["Block them", "Stop receiving their updates", "Send them a message", "Report them"],
+      options: [ "Report them", "Stop receiving their updates", "Send them a message", "Block them" ],
       correctAnswer: 1,
       explanation: "Unfollowing stops a user's content from appearing in your feed."
     }
@@ -272,7 +272,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "Large signs used for advertising on the side of roads are...",
-      options: ["Posters", "Flyers", "Brochures", "Billboards"],
+      options: [ "Posters", "Brochures", "Flyers", "Billboards" ],
       correctAnswer: 3,
       explanation: "Billboards are large outdoor advertising structures."
     }
@@ -286,8 +286,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "A short, easily remembered phrase used in advertising is a...",
-      options: ["Sentence", "Paragraph", "Slogan", "Chapter"],
-      correctAnswer: 2,
+      options: [ "Slogan", "Chapter", "Paragraph", "Sentence" ],
+      correctAnswer: 0,
       explanation: "Slogans are catchy phrases used to identify a brand or product."
     }
   },
@@ -300,8 +300,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "To 'launch' a product means to...",
-      options: ["Stop selling it", "Fix it", "Design it", "Introduce it to the market"],
-      correctAnswer: 3,
+      options: [ "Introduce it to the market", "Design it", "Stop selling it", "Fix it" ],
+      correctAnswer: 0,
       explanation: "Launching is the official start or introduction of something new."
     }
   },
@@ -314,8 +314,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "What is 'guerrilla marketing'?",
-      options: ["Standard TV ads", "Advertising in the jungle", "Radio interviews", "Unconventional and creative low-cost strategies"],
-      correctAnswer: 3,
+      options: [ "Unconventional and creative low-cost strategies", "Radio interviews", "Standard TV ads", "Advertising in the jungle" ],
+      correctAnswer: 0,
       explanation: "Guerrilla marketing uses surprise or unconventional interactions to promote a brand."
     }
   },
@@ -328,8 +328,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "An 'endorsement' is when a famous person...",
-      options: ["Publicly supports a product", "Hates a product", "Ignores a product", "Buys a product secretly"],
-      correctAnswer: 0,
+      options: [ "Hates a product", "Ignores a product", "Publicly supports a product", "Buys a product secretly" ],
+      correctAnswer: 2,
       explanation: "Celebrity endorsements are a common marketing strategy."
     }
   },
@@ -362,7 +362,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If you ________ (press) this button, the computer turns on.",
-      options: ["press", "will press", "pressed", "had pressed"],
+      options: [ "press", "had pressed", "will press", "pressed" ],
       correctAnswer: 0,
       explanation: "Zero Conditional for facts and general truths."
     }
@@ -376,8 +376,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If the new iPhone ________ (be) cheaper, I would buy it.",
-      options: ["is", "was", "were", "both was and were are possible"],
-      correctAnswer: 3,
+      options: [ "was", "both was and were are possible", "were", "is" ],
+      correctAnswer: 1,
       explanation: "Second Conditional: 'was' is informal, 'were' is more formal/correct but both are used."
     }
   },
@@ -390,7 +390,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If I ________ (not / see) the ad, I wouldn't have known about the sale.",
-      options: ["didn't see", "hadn't seen", "haven't seen", "wasn't seeing"],
+      options: [ "didn't see", "hadn't seen", "wasn't seeing", "haven't seen" ],
       correctAnswer: 1,
       explanation: "Third Conditional for a past hypothetical."
     }
@@ -404,8 +404,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If we ________ (go) viral, we will become famous!",
-      options: ["go", "will go", "went", "had gone"],
-      correctAnswer: 0,
+      options: [ "had gone", "went", "will go", "go" ],
+      correctAnswer: 3,
       explanation: "First Conditional for a likely future outcome."
     }
   },
@@ -418,8 +418,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I ________ (call) you if I had lost my phone.",
-      options: ["would call", "would have called", "will call", "had called"],
-      correctAnswer: 1,
+      options: [ "would have called", "will call", "would call", "had called" ],
+      correctAnswer: 0,
       explanation: "Third Conditional: would have + past participle."
     }
   },
@@ -432,7 +432,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If I ________ (be) an influencer, I would travel for free.",
-      options: ["am", "was", "were", "had been"],
+      options: [ "was", "am", "were", "had been" ],
       correctAnswer: 2,
       explanation: "Second Conditional for an imaginary present state."
     }
@@ -446,8 +446,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Unless you ________ (backup) your files, you might lose them.",
-      options: ["backup", "don't backup", "will backup", "would backup"],
-      correctAnswer: 0,
+      options: [ "don't backup", "will backup", "would backup", "backup" ],
+      correctAnswer: 3,
       explanation: "Unless means 'if not', so 'Unless you backup' = 'If you don't backup'."
     }
   },
@@ -460,7 +460,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If the internet ________ (not / exist), life would be very different.",
-      options: ["doesn't exist", "didn't exist", "hadn't existed", "won't exist"],
+      options: [ "doesn't exist", "didn't exist", "won't exist", "hadn't existed" ],
       correctAnswer: 1,
       explanation: "Second Conditional for an imaginary present situation."
     }
@@ -474,8 +474,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "What ________ you ________ (do) if you had been there?",
-      options: ["will / do", "would / do", "would / have done", "had / done"],
-      correctAnswer: 2,
+      options: [ "would / have done", "had / done", "will / do", "would / do" ],
+      correctAnswer: 0,
       explanation: "Third Conditional question form."
     }
   },
@@ -527,8 +527,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If I ________ (buy) that Bitcoin in 2010, I ________ (be) a millionaire today.",
-      options: ["bought / will be", "had bought / would be", "buy / would have been", "had bought / would have been"],
-      correctAnswer: 1,
+      options: [ "buy / would have been", "bought / will be", "had bought / would be", "had bought / would have been" ],
+      correctAnswer: 2,
       explanation: "Mixed conditional: Past action (had bought) affecting present state (would be)."
     }
   },
@@ -541,7 +541,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If she ________ (be) more careful, she ________ (not / lose) her phone yesterday.",
-      options: ["is / won't lose", "were / wouldn't have lost", "had been / wouldn't lose", "was / wouldn't lose"],
+      options: [ "was / wouldn't lose", "were / wouldn't have lost", "had been / wouldn't lose", "is / won't lose" ],
       correctAnswer: 1,
       explanation: "Mixed conditional: Present state (were) affecting past event (wouldn't have lost)."
     }
@@ -555,8 +555,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I ________ (know) the answer now if I ________ (read) the book last week.",
-      options: ["would know / had read", "will know / read", "would have known / read", "know / had read"],
-      correctAnswer: 0,
+      options: [ "will know / read", "would know / had read", "know / had read", "would have known / read" ],
+      correctAnswer: 1,
       explanation: "Mixed conditional: Past action (had read) affecting present knowledge (would know)."
     }
   },
@@ -569,7 +569,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If you ________ (study) harder at school, you ________ (have) a better job now.",
-      options: ["studied / would have", "had studied / would have", "study / will have", "had studied / would have had"],
+      options: [ "studied / would have", "had studied / would have", "study / will have", "had studied / would have had" ],
       correctAnswer: 1,
       explanation: "Past action affecting present state."
     }
@@ -583,8 +583,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If I ________ (speak) French, I ________ (translate) the letter for you yesterday.",
-      options: ["speak / would translate", "spoke / would have translated", "had spoken / would translate", "will speak / would have translated"],
-      correctAnswer: 1,
+      options: [ "will speak / would have translated", "speak / would translate", "had spoken / would translate", "spoke / would have translated" ],
+      correctAnswer: 3,
       explanation: "Present ability affecting past event."
     }
   },
@@ -597,7 +597,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If they ________ (not / spend) all their money, they ________ (buy) a house now.",
-      options: ["hadn't spent / would buy", "didn't spend / will buy", "haven't spent / would have bought", "don't spend / buy"],
+      options: [ "hadn't spent / would buy", "don't spend / buy", "haven't spent / would have bought", "didn't spend / will buy" ],
       correctAnswer: 0,
       explanation: "Past action affecting present ability."
     }
@@ -611,7 +611,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "I ________ (be) tired now if I ________ (not / sleep) well last night.",
-      options: ["would be / hadn't slept", "will be / didn't sleep", "am / don't sleep", "would have been / hadn't slept"],
+      options: [ "would be / hadn't slept", "will be / didn't sleep", "would have been / hadn't slept", "am / don't sleep" ],
       correctAnswer: 0,
       explanation: "Past action affecting present state."
     }
@@ -625,8 +625,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If he ________ (be) a better manager, the company ________ (not / go) bankrupt last year.",
-      options: ["is / didn't go", "were / wouldn't have gone", "had been / wouldn't go", "was / won't go"],
-      correctAnswer: 1,
+      options: [ "is / didn't go", "had been / wouldn't go", "was / won't go", "were / wouldn't have gone" ],
+      correctAnswer: 3,
       explanation: "Present state/quality affecting past outcome."
     }
   },
@@ -735,8 +735,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "To 'verify' something means to...",
-      options: ["Believe it immediately", "Share it with friends", "Delete it", "Check if it is true"],
-      correctAnswer: 3,
+      options: [ "Share it with friends", "Check if it is true", "Delete it", "Believe it immediately" ],
+      correctAnswer: 1,
       explanation: "Verification is the process of establishing the truth or accuracy of something."
     }
   },
@@ -749,8 +749,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If a news story is 'exaggerated', it means...",
-      options: ["It is 100% true", "It is very short", "It has no photos", "It makes something seem better or worse than it really is"],
-      correctAnswer: 3,
+      options: [ "It is 100% true", "It makes something seem better or worse than it really is", "It has no photos", "It is very short" ],
+      correctAnswer: 1,
       explanation: "Exaggeration is representing something as greater than is actually the case."
     }
   },
@@ -763,8 +763,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "What is 'propaganda'?",
-      options: ["A type of computer program", "A TV show for kids", "A new smartphone", "Information used to promote a political cause"],
-      correctAnswer: 3,
+      options: [ "A new smartphone", "A type of computer program", "Information used to promote a political cause", "A TV show for kids" ],
+      correctAnswer: 2,
       explanation: "Propaganda is often biased or misleading information used to influence public opinion."
     }
   },
@@ -777,8 +777,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "A 'deepfake' is a video that...",
-      options: ["Is very high quality", "Is recorded underwater", "Is very long", "Uses AI to make someone look like they are doing or saying something they didn't"],
-      correctAnswer: 3,
+      options: [ "Is very long", "Is recorded underwater", "Uses AI to make someone look like they are doing or saying something they didn't", "Is very high quality" ],
+      correctAnswer: 2,
       explanation: "Deepfakes are synthetic media in which a person in an existing image or video is replaced with someone else's likeness."
     }
   },
@@ -791,8 +791,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "To 'mislead' someone means to...",
-      options: ["Help them", "Teach them a new skill", "Follow them on Twitter", "Give them false information to make them believe something wrong"],
-      correctAnswer: 3,
+      options: [ "Follow them on Twitter", "Give them false information to make them believe something wrong", "Help them", "Teach them a new skill" ],
+      correctAnswer: 1,
       explanation: "Misleading information causes someone to have a wrong idea or impression."
     }
   },
@@ -901,8 +901,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "What is 'telecommuting'?",
-      options: ["Taking a bus to work", "Working from home using the internet", "Fixing computers", "Flying a plane"],
-      correctAnswer: 1,
+      options: [ "Fixing computers", "Taking a bus to work", "Flying a plane", "Working from home using the internet" ],
+      correctAnswer: 3,
       explanation: "Telecommuting allows employees to work from a location other than a central office."
     }
   },
@@ -915,8 +915,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "The 'digital divide' refers to...",
-      options: ["A part of a keyboard", "The gap between those who have access to technology and those who don't", "A type of math problem", "A brand of tablet"],
-      correctAnswer: 1,
+      options: [ "A type of math problem", "A part of a keyboard", "A brand of tablet", "The gap between those who have access to technology and those who don't" ],
+      correctAnswer: 3,
       explanation: "The digital divide is the social and economic inequality regarding access to technology."
     }
   },
@@ -929,8 +929,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "What is 'automation'?",
-      options: ["Driving a car", "Using machines or computers to do work instead of people", "Cooking a meal", "Writing a letter"],
-      correctAnswer: 1,
+      options: [ "Writing a letter", "Cooking a meal", "Driving a car", "Using machines or computers to do work instead of people" ],
+      correctAnswer: 3,
       explanation: "Automation uses technology to perform tasks with minimal human assistance."
     }
   },
@@ -943,8 +943,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "An 'echo chamber' in social media is...",
-      options: ["A quiet room", "An environment where a person only encounters information that reflects their own opinions", "A type of microphone", "A new app for music"],
-      correctAnswer: 1,
+      options: [ "A new app for music", "A quiet room", "A type of microphone", "An environment where a person only encounters information that reflects their own opinions" ],
+      correctAnswer: 3,
       explanation: "Echo chambers reinforce existing beliefs by excluding dissenting views."
     }
   },
@@ -957,8 +957,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "What does 'sustainable technology' aim to do?",
-      options: ["Break quickly", "Minimize environmental impact", "Cost a lot of money", "Use only batteries"],
-      correctAnswer: 1,
+      options: [ "Use only batteries", "Cost a lot of money", "Break quickly", "Minimize environmental impact" ],
+      correctAnswer: 3,
       explanation: "Sustainable tech focuses on long-term ecological balance."
     }
   },
@@ -1067,7 +1067,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "A 'podcast' is an audio program that you...",
-      options: ["Buy on a CD", "Listen to on the radio only", "Download or stream from the internet", "Watch at the cinema"],
+      options: [ "Watch at the cinema", "Buy on a CD", "Download or stream from the internet", "Listen to on the radio only" ],
       correctAnswer: 2,
       explanation: "Podcasts are digital audio files available on the internet."
     }
@@ -1081,8 +1081,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If a video is 'lagging', it means...",
-      options: ["It is too loud", "There is a delay or slow response", "It is very high quality", "It has subtitles"],
-      correctAnswer: 1,
+      options: [ "There is a delay or slow response", "It is very high quality", "It has subtitles", "It is too loud" ],
+      correctAnswer: 0,
       explanation: "Lagging is a common issue in streaming and gaming due to slow internet."
     }
   },
@@ -1095,7 +1095,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "To 'buffering' means the computer is...",
-      options: ["Shutting down", "Loading data before playing it", "Printing a document", "Changing the language"],
+      options: [ "Printing a document", "Loading data before playing it", "Shutting down", "Changing the language" ],
       correctAnswer: 1,
       explanation: "Buffering pre-loads data to ensure smooth playback."
     }
@@ -1109,7 +1109,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "A 'spoiler' is information that...",
-      options: ["Makes a movie better", "Reveals important plot details before someone sees it", "Explains how a camera works", "Is a type of advertisement"],
+      options: [ "Is a type of advertisement", "Reveals important plot details before someone sees it", "Makes a movie better", "Explains how a camera works" ],
       correctAnswer: 1,
       explanation: "Spoilers can ruin the experience of watching a show or movie."
     }
@@ -1123,8 +1123,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "What is 'broadband'?",
-      options: ["A wide television", "A high-capacity transmission technique using a wide range of frequencies", "A type of radio", "A new musical instrument"],
-      correctAnswer: 1,
+      options: [ "A new musical instrument", "A wide television", "A type of radio", "A high-capacity transmission technique using a wide range of frequencies" ],
+      correctAnswer: 3,
       explanation: "Broadband allows fast data transfer for internet services."
     }
   },
@@ -1233,8 +1233,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       question: "A 'virus' in a computer is...",
-      options: ["A type of hardware", "A fast internet connection", "A new game", "A program that can damage your system"],
-      correctAnswer: 3,
+      options: [ "A program that can damage your system", "A fast internet connection", "A type of hardware", "A new game" ],
+      correctAnswer: 0,
       explanation: "Computer viruses are malicious programs designed to spread and cause harm."
     }
   },
@@ -1247,8 +1247,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "What is 'two-factor authentication' (2FA)?",
-      options: ["A type of math problem", "A way to download movies", "A security process requiring two different forms of identification", "A new social network"],
-      correctAnswer: 2,
+      options: [ "A new social network", "A way to download movies", "A type of math problem", "A security process requiring two different forms of identification" ],
+      correctAnswer: 3,
       explanation: "2FA adds an extra layer of security to your accounts."
     }
   },
@@ -1261,8 +1261,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "To 'block' someone online means to...",
-      options: ["Say hello", "Like their photos", "Invite them to a party", "Prevent them from contacting or seeing your profile"],
-      correctAnswer: 3,
+      options: [ "Invite them to a party", "Prevent them from contacting or seeing your profile", "Say hello", "Like their photos" ],
+      correctAnswer: 1,
       explanation: "Blocking is a common way to deal with unwanted interactions."
     }
   },
@@ -1275,8 +1275,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "What is 'malware'?",
-      options: ["Good software", "A type of email", "A brand of mouse", "Software designed to damage or disable computers"],
-      correctAnswer: 3,
+      options: [ "Good software", "A type of email", "Software designed to damage or disable computers", "A brand of mouse" ],
+      correctAnswer: 2,
       explanation: "Malware is a broad term for malicious software."
     }
   },
@@ -1289,8 +1289,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "A 'firewall' is used to...",
-      options: ["Heat up the computer", "Put out fires", "Clean the screen", "Monitor and control incoming and outgoing network traffic"],
-      correctAnswer: 3,
+      options: [ "Clean the screen", "Heat up the computer", "Monitor and control incoming and outgoing network traffic", "Put out fires" ],
+      correctAnswer: 2,
       explanation: "Firewalls are essential for network security."
     }
   },
@@ -1399,8 +1399,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If your computer 'goes down', it...",
-      options: ["Falls off the desk", "Stops working", "Goes to the basement", "Becomes faster"],
-      correctAnswer: 1,
+      options: [ "Goes to the basement", "Falls off the desk", "Becomes faster", "Stops working" ],
+      correctAnswer: 3,
       explanation: "'Go down' means a system or website is not functioning."
     }
   },
@@ -1413,7 +1413,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "To 'hook up' a device means to...",
-      options: ["Connect it to a power source or another device", "Throw it away", "Sell it", "Clean it"],
+      options: [ "Connect it to a power source or another device", "Clean it", "Throw it away", "Sell it" ],
       correctAnswer: 0,
       explanation: "'Hook up' means to connect components together."
     }
@@ -1427,8 +1427,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "When you 'key in' information, you...",
-      options: ["Lock a door", "Type information into a computer", "Open a safe", "Find a solution"],
-      correctAnswer: 1,
+      options: [ "Open a safe", "Find a solution", "Type information into a computer", "Lock a door" ],
+      correctAnswer: 2,
       explanation: "'Key in' is another way to say 'type' or 'enter' data."
     }
   },
@@ -1441,8 +1441,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "To 'click on' something means to...",
-      options: ["Make a noise with your tongue", "Select something on a screen using a mouse or finger", "Close a window", "Turn off the monitor"],
-      correctAnswer: 1,
+      options: [ "Select something on a screen using a mouse or finger", "Close a window", "Turn off the monitor", "Make a noise with your tongue" ],
+      correctAnswer: 0,
       explanation: "Clicking is a primary way to interact with digital interfaces."
     }
   },
@@ -1455,8 +1455,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If you 'pop up', it means an advertisement...",
-      options: ["Appears suddenly on your screen", "Disappears", "Explodes", "Plays music"],
-      correctAnswer: 0,
+      options: [ "Plays music", "Appears suddenly on your screen", "Explodes", "Disappears" ],
+      correctAnswer: 1,
       explanation: "Pop-up ads are a common form of online advertising."
     }
   },
@@ -1470,8 +1470,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Which conditional is used for general truths and facts?",
-      options: ["First", "Zero", "Second", "Third"],
-      correctAnswer: 1,
+      options: [ "Zero", "First", "Second", "Third" ],
+      correctAnswer: 0,
       explanation: "Zero conditional: If + present, present."
     }
   },
@@ -1484,8 +1484,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Which conditional is used for imaginary or unlikely situations in the present or future?",
-      options: ["Zero", "First", "Second", "Third"],
-      correctAnswer: 2,
+      options: [ "Second", "Third", "First", "Zero" ],
+      correctAnswer: 0,
       explanation: "Second conditional: If + past, would + verb."
     }
   },
@@ -1498,8 +1498,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "A mixed conditional can connect a past action with a ________ result.",
-      options: ["Future", "Present", "Past", "Imaginary"],
-      correctAnswer: 1,
+      options: [ "Present", "Future", "Past", "Imaginary" ],
+      correctAnswer: 0,
       explanation: "One type of mixed conditional links past events to present consequences."
     }
   },
@@ -1512,8 +1512,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "What is the opposite of 'log in'?",
-      options: ["Log off", "Log out", "Both Log off and Log out are correct", "Key in"],
-      correctAnswer: 2,
+      options: [ "Log out", "Log off", "Key in", "Both Log off and Log out are correct" ],
+      correctAnswer: 3,
       explanation: "Both are used to end a digital session."
     }
   },
@@ -1526,8 +1526,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Which word describes something that is convincingly true?",
-      options: ["Biased", "Credible", "Fake", "Misleading"],
-      correctAnswer: 1,
+      options: [ "Fake", "Misleading", "Biased", "Credible" ],
+      correctAnswer: 3,
       explanation: "Credible sources are trustworthy and believable."
     }
   },
@@ -1540,8 +1540,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "If I ________ (not / waste) so much time on TikTok, I would have finished my work.",
-      options: ["don't waste", "didn't waste", "hadn't wasted", "wasn't wasting"],
-      correctAnswer: 2,
+      options: [ "didn't waste", "hadn't wasted", "don't waste", "wasn't wasting" ],
+      correctAnswer: 1,
       explanation: "Third Conditional for a past regret."
     }
   },
@@ -1554,8 +1554,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       question: "Social media 'engagement' includes...",
-      options: ["Likes", "Comments", "Shares", "All of the above"],
-      correctAnswer: 3,
+      options: [ "All of the above", "Likes", "Shares", "Comments" ],
+      correctAnswer: 0,
       explanation: "Engagement measures all forms of interaction."
     }
   },
@@ -1568,8 +1568,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "If technology ________ (be) perfect, there ________ (not / be) any hackers.",
-      options: ["is / won't be", "were / wouldn't be", "had been / wouldn't have been", "was / wouldn't have been"],
-      correctAnswer: 1,
+      options: [ "were / wouldn't be", "had been / wouldn't have been", "was / wouldn't have been", "is / won't be" ],
+      correctAnswer: 0,
       explanation: "Second Conditional for an imaginary present state."
     }
   },
@@ -1582,8 +1582,8 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "Which of these is a 'disruptive' technology?",
-      options: ["A regular landline phone", "Digital photography", "A traditional book", "A candle"],
-      correctAnswer: 1,
+      options: [ "A traditional book", "A candle", "Digital photography", "A regular landline phone" ],
+      correctAnswer: 2,
       explanation: "Digital photography completely changed the film and camera industry."
     }
   },
@@ -1596,7 +1596,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       question: "The term 'phishing' is derived from...",
-      options: ["The activity of catching fish", "A computer scientist's name", "A movie title", "A mistake in typing"],
+      options: [ "The activity of catching fish", "A movie title", "A mistake in typing", "A computer scientist's name" ],
       correctAnswer: 0,
       explanation: "It's a metaphor for 'fishing' for victims' information."
     }

@@ -58,8 +58,8 @@ export const B1_COURSE = {
     { id: 25, title: 'Conditionals: Mixed', exercises: UNIT_25_EXERCISES },
     { id: 26, title: 'Reported Speech: Statements', exercises: UNIT_26_EXERCISES },
     { id: 27, title: 'Reported Speech: Questions', exercises: UNIT_27_EXERCISES },
-    { id: 28, title: 'Reported Speech: Commands', exercises: UNIT_28_EXERCISES },
+    { id: 28, title: 'Relative Clauses', exercises: UNIT_28_EXERCISES },
     { id: 29, title: 'Modal Verbs: Deduction', exercises: UNIT_29_EXERCISES },
-    { id: 30, title: 'Future Forms Review', exercises: UNIT_30_EXERCISES }
+    { id: 30, title: 'Review & Final Assessment', exercises: UNIT_30_EXERCISES }
   ]
 };

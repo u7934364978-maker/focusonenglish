@@ -384,19 +384,14 @@ Implement Unit 8 "Food & Cooking" and Unit 9 "Education & Learning" for the B1 c
 - [x] **Task 96: Implement Exercises 51-100 for Unit 28: Relative Clauses**
 
 ### Phase 40: Implementation of Unit 29
-- [ ] **Task 97: Define Unit 29 Structure**
-    - Sub-topic 1: Grammar: Modal Verbs of Deduction (Present) - must, can't (1-10)
-    - Sub-topic 2: Grammar: Modal Verbs of Deduction (Present) - might, could, may (11-20)
-    - Sub-topic 3: Grammar: Modal Verbs of Deduction (Past) - must have, can't have (21-30)
-    - Sub-topic 4: Grammar: Modal Verbs of Deduction (Past) - might have, could have (31-40)
-    - Sub-topic 5: Vocabulary: Mysteries & Unexplained Events (41-50)
-    - Sub-topic 6: Grammar: Expectation (should / shouldn't have) (51-60)
-    - Sub-topic 7: Vocabulary: Logical Thinking & Speculation (61-70)
-    - Sub-topic 8: Grammar: Mixed Deduction (Present & Past) (71-80)
-    - Sub-topic 9: Phrasal Verbs related to Investigation (81-90)
-    - Sub-topic 10: Review & Solving Mysteries (91-100)
-- [ ] **Task 98: Implement Exercises 1-50 for Unit 29: Modal Verbs of Deduction**
-- [ ] **Task 99: Implement Exercises 51-100 for Unit 29: Modal Verbs of Deduction**
+- [x] **Task 97: Define Unit 29 Structure**
+- [x] **Task 98: Implement Exercises 1-50 for Unit 29: Modal Verbs of Deduction**
+- [x] **Task 99: Implement Exercises 51-100 for Unit 29: Modal Verbs of Deduction**
+
+### Phase 41: Implementation of Unit 30
+- [x] **Task 100: Define Unit 30 Structure**
+- [x] **Task 101: Implement Exercises 1-50 for Unit 30: Review & Final Assessment**
+- [x] **Task 102: Implement Exercises 51-100 for Unit 30: Review & Final Assessment**
 
 ## Test Plan
 - **Framework**: Playwright (E2E)

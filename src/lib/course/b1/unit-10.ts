@@ -111,8 +111,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I need to open a __________ for my daily expenses.',
-          options: ["current account", "overdraft", "direct debit", "savings account"],
-          correctAnswer: 0,
+          options: [ "overdraft", "savings account", "current account", "direct debit" ],
+          correctAnswer: 2,
           explanation: "A current account is for daily use."
         }
       ]
@@ -132,8 +132,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The __________ on this account is very low, only 0.5%.',
-          options: ["interest rate", "fee", "overdraft", "debit"],
-          correctAnswer: 0,
+          options: [ "fee", "interest rate", "overdraft", "debit" ],
+          correctAnswer: 1,
           explanation: "The interest rate determines how much your savings grow."
         }
       ]
@@ -153,8 +153,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I set up a __________ to pay my electricity bill automatically.',
-          options: ["direct debit", "mortgage", "loan", "overdraft"],
-          correctAnswer: 0,
+          options: [ "mortgage", "loan", "overdraft", "direct debit" ],
+          correctAnswer: 3,
           explanation: "Direct debit is used for automatic bill payments."
         }
       ]
@@ -174,8 +174,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'If you spend more money than you have, you might have an __________.',
-          options: ["overdraft", "interest", "investment", "deposit"],
-          correctAnswer: 0,
+          options: [ "investment", "overdraft", "interest", "deposit" ],
+          correctAnswer: 1,
           explanation: "An overdraft is debt to the bank."
         }
       ]
@@ -195,8 +195,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I keep my emergency fund in a __________.',
-          options: ["loan", "savings account", "current account", "debt"],
-          correctAnswer: 1,
+          options: [ "current account", "debt", "savings account", "loan" ],
+          correctAnswer: 2,
           explanation: "Savings accounts are for keeping money long-term."
         }
       ]
@@ -313,7 +313,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'If you don\'t __________, you might run out of money before the end of the month.',
-          options: ["afford", "bargain", "income", "budget"],
+          options: [ "income", "afford", "bargain", "budget" ],
           correctAnswer: 3,
           explanation: "'To budget' is to plan your spending."
         }
@@ -334,7 +334,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Your __________ should be higher than your expenditure.',
-          options: ["bargain", "budget", "income", "afford"],
+          options: [ "budget", "afford", "income", "bargain" ],
           correctAnswer: 2,
           explanation: "Income is the money you receive."
         }
@@ -355,8 +355,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I found a great __________ at the market today.',
-          options: ["expenditure", "bargain", "income", "budget"],
-          correctAnswer: 1,
+          options: [ "bargain", "budget", "income", "expenditure" ],
+          correctAnswer: 0,
           explanation: "A bargain is something cheap for its value."
         }
       ]
@@ -376,8 +376,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'We can\'t __________ to go on an expensive holiday this year.',
-          options: ["income", "bargain", "budget", "afford"],
-          correctAnswer: 3,
+          options: [ "bargain", "afford", "budget", "income" ],
+          correctAnswer: 1,
           explanation: "'Can afford' means having enough money."
         }
       ]
@@ -397,8 +397,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Our total __________ on food has gone up this year.',
-          options: ["afford", "income", "bargain", "expenditure"],
-          correctAnswer: 3,
+          options: [ "expenditure", "bargain", "income", "afford" ],
+          correctAnswer: 0,
           explanation: "Expenditure is the total amount spent."
         }
       ]
@@ -420,8 +420,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'If I __________ a lot of money, I would travel the world.',
-          options: ["had won", "won", "win", "would win"],
-          correctAnswer: 1,
+          options: [ "win", "had won", "would win", "won" ],
+          correctAnswer: 3,
           explanation: "Second conditional: If + past simple, would + infinitive."
         }
       ]
@@ -441,7 +441,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'If I __________ you, I would save more money.',
-          options: ["were", "am", "was", "would be"],
+          options: [ "were", "would be", "was", "am" ],
           correctAnswer: 0,
           explanation: "We use 'If I were you' for giving advice (even with I)."
         }
@@ -462,7 +462,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'She __________ a new car if she had enough savings.',
-          options: ["would buy", "buys", "bought", "will buy"],
+          options: [ "would buy", "bought", "will buy", "buys" ],
           correctAnswer: 0,
           explanation: "Result clause in second conditional uses 'would' + infinitive."
         }
@@ -483,8 +483,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'What __________ if you lost your wallet?',
-          options: ["would you do", "will you do", "do you do", "did you do"],
-          correctAnswer: 0,
+          options: [ "will you do", "do you do", "would you do", "did you do" ],
+          correctAnswer: 2,
           explanation: "Question form: What would you do + if clause."
         }
       ]
@@ -504,8 +504,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'If I __________ to work, I would be much happier.',
-          options: ["don't have", "didn't have", "hadn't", "wouldn't have"],
-          correctAnswer: 1,
+          options: [ "didn't have", "wouldn't have", "hadn't", "don't have" ],
+          correctAnswer: 0,
           explanation: "Negative if clause uses 'didn't' + infinitive."
         }
       ]
@@ -627,8 +627,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I wish I __________ more money.',
-          options: ["had had", "would have", "had", "have"],
-          correctAnswer: 2,
+          options: [ "had", "had had", "have", "would have" ],
+          correctAnswer: 0,
           explanation: "Wish + past simple for present desires."
         }
       ]
@@ -648,8 +648,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'If only I __________ where my keys are!',
-          options: ["know", "will know", "would know", "knew"],
-          correctAnswer: 3,
+          options: [ "knew", "know", "will know", "would know" ],
+          correctAnswer: 0,
           explanation: "'If only' works like 'wish' but is stronger."
         }
       ]
@@ -669,7 +669,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I wish I __________ play the piano.',
-          options: ["could", "could have", "can", "would can"],
+          options: [ "could", "can", "could have", "would can" ],
           correctAnswer: 0,
           explanation: "Wish + could for abilities we don't have."
         }
@@ -690,8 +690,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I wish you __________ complaining about the weather!',
-          options: ["would stop", "stopped", "will stop", "stop"],
-          correctAnswer: 0,
+          options: [ "stop", "would stop", "stopped", "will stop" ],
+          correctAnswer: 1,
           explanation: "Wish + would for annoying habits we want to change."
         }
       ]
@@ -711,8 +711,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'If only it __________ raining tomorrow.',
-          options: ["stopped", "will stop", "would stop", "stops"],
-          correctAnswer: 2,
+          options: [ "stopped", "will stop", "stops", "would stop" ],
+          correctAnswer: 3,
           explanation: "If only + would for things we want to happen in the future."
         }
       ]
@@ -929,7 +929,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I always __________ to find the best deal on insurance.',
-          options: ["buy out", "shop around", "take off", "pay back"],
+          options: [ "take off", "shop around", "pay back", "buy out" ],
           correctAnswer: 1,
           explanation: "'Shop around' means comparing prices."
         }
@@ -950,8 +950,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I don\'t usually buy __________, I prefer generic products.',
-          options: ["bargains", "discounts", "impulse buys", "brand names"],
-          correctAnswer: 3,
+          options: [ "brand names", "bargains", "impulse buys", "discounts" ],
+          correctAnswer: 0,
           explanation: "Brand names are products from well-known companies."
         }
       ]
@@ -971,8 +971,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'That gym membership was a __________, I never used it.',
-          options: ["bargain", "value for money", "budget", "waste of money"],
-          correctAnswer: 3,
+          options: [ "budget", "waste of money", "value for money", "bargain" ],
+          correctAnswer: 1,
           explanation: "A 'waste of money' is something not worth the expense."
         }
       ]
@@ -992,8 +992,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Magazines near the checkout are designed to encourage __________.',
-          options: ["savings", "investment", "budgeting", "impulse buys"],
-          correctAnswer: 3,
+          options: [ "impulse buys", "savings", "budgeting", "investment" ],
+          correctAnswer: 0,
           explanation: "Impulse buys are unplanned purchases."
         }
       ]
@@ -1013,8 +1013,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'This hotel is excellent __________.',
-          options: ["value for money", "expenditure", "income", "waste of money"],
-          correctAnswer: 0,
+          options: [ "waste of money", "value for money", "income", "expenditure" ],
+          correctAnswer: 1,
           explanation: "'Value for money' means it's worth the price."
         }
       ]
@@ -1131,8 +1131,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'We finally finished paying off our __________, so the house is ours now.',
-          options: ["mortgage", "pension", "investment", "current account"],
-          correctAnswer: 0,
+          options: [ "current account", "investment", "mortgage", "pension" ],
+          correctAnswer: 2,
           explanation: "A mortgage is a loan specifically for buying property."
         }
       ]
@@ -1152,7 +1152,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I want to retire early, so I put a lot of money into my __________.',
-          options: ["bargain", "overdraft", "pension", "shares"],
+          options: [ "shares", "overdraft", "pension", "bargain" ],
           correctAnswer: 2,
           explanation: "A pension is money saved for retirement."
         }
@@ -1173,8 +1173,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'If you buy __________ in a company, you become a part-owner.',
-          options: ["budgets", "loans", "debts", "shares"],
-          correctAnswer: 3,
+          options: [ "budgets", "debts", "shares", "loans" ],
+          correctAnswer: 2,
           explanation: "Shares represent ownership in a company."
         }
       ]
@@ -1194,8 +1194,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Buying property is usually considered a safe __________.',
-          options: ["overdraft", "investment", "expenditure", "loan"],
-          correctAnswer: 1,
+          options: [ "overdraft", "loan", "investment", "expenditure" ],
+          correctAnswer: 2,
           explanation: "An investment is expected to provide future profit."
         }
       ]
@@ -1215,7 +1215,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'He needed a __________ to start his small business.',
-          options: ["loan", "shares", "bargain", "interest"],
+          options: [ "loan", "interest", "shares", "bargain" ],
           correctAnswer: 0,
           explanation: "A loan is money borrowed that must be repaid."
         }
@@ -1333,8 +1333,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'You can\'t get a __________ without showing the receipt.',
-          options: ["discount", "loan", "mortgage", "refund"],
-          correctAnswer: 3,
+          options: [ "discount", "loan", "refund", "mortgage" ],
+          correctAnswer: 2,
           explanation: "A refund is returning money for a product."
         }
       ]
@@ -1354,8 +1354,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Please sign the __________ here.',
-          options: ["pension", "receipt", "refund", "shares"],
-          correctAnswer: 1,
+          options: [ "receipt", "shares", "refund", "pension" ],
+          correctAnswer: 0,
           explanation: "A receipt is the record of payment."
         }
       ]
@@ -1375,7 +1375,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Everything in the store is 50% __________ today!',
-          options: ["out", "away", "off", "up"],
+          options: [ "up", "out", "off", "away" ],
           correctAnswer: 2,
           explanation: "'Percent off' indicates a discount."
         }
@@ -1396,8 +1396,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Do you have this shirt __________ in a size medium?',
-          options: ["at discount", "for refund", "in stock", "on sale"],
-          correctAnswer: 2,
+          options: [ "on sale", "at discount", "for refund", "in stock" ],
+          correctAnswer: 3,
           explanation: "'In stock' means it's available in the store."
         }
       ]
@@ -1417,8 +1417,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Winter coats are __________ at the end of the season.',
-          options: ["offered", "in stock", "on sale", "pensioned"],
-          correctAnswer: 2,
+          options: [ "offered", "on sale", "in stock", "pensioned" ],
+          correctAnswer: 1,
           explanation: "'On sale' means at a reduced price."
         }
       ]
@@ -1535,7 +1535,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: '__________ is the reason why a loaf of bread costs more now than ten years ago.',
-          options: ["currency", "wealth", "inflation", "tax"],
+          options: [ "wealth", "currency", "inflation", "tax" ],
           correctAnswer: 2,
           explanation: "Inflation is the general rise in prices."
         }
@@ -1556,8 +1556,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The Euro is the __________ used in many European countries.',
-          options: ["currency", "exchange", "tax", "inflation"],
-          correctAnswer: 0,
+          options: [ "tax", "exchange", "inflation", "currency" ],
+          correctAnswer: 3,
           explanation: "Currency is the system of money in a country."
         }
       ]
@@ -1577,8 +1577,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The government uses __________ to build roads and schools.',
-          options: ["bargains", "receipts", "refunds", "tax"],
-          correctAnswer: 3,
+          options: [ "refunds", "bargains", "tax", "receipts" ],
+          correctAnswer: 2,
           explanation: "Tax is money paid to the government."
         }
       ]
@@ -1598,7 +1598,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Check the __________ before you change your money at the airport.',
-          options: ["inflation rate", "exchange rate", "tax rate", "interest rate"],
+          options: [ "interest rate", "exchange rate", "tax rate", "inflation rate" ],
           correctAnswer: 1,
           explanation: "Exchange rate is the value of one currency against another."
         }
@@ -1619,8 +1619,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'She lives in a very __________ neighborhood.',
-          options: ["bargained", "taxed", "inflated", "wealthy"],
-          correctAnswer: 3,
+          options: [ "wealthy", "taxed", "bargained", "inflated" ],
+          correctAnswer: 0,
           explanation: "'Wealthy' means having a lot of money."
         }
       ]
@@ -1737,8 +1737,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I promise to __________ every penny I owe you.',
-          options: ["splash out", "pay back", "cut back", "save up"],
-          correctAnswer: 1,
+          options: [ "splash out", "save up", "cut back", "pay back" ],
+          correctAnswer: 3,
           explanation: "'Pay back' means to return borrowed money."
         }
       ]
@@ -1758,8 +1758,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'They __________ on a luxury hotel for their honeymoon.',
-          options: ["paid back", "ran out", "splashed out", "cut back"],
-          correctAnswer: 2,
+          options: [ "cut back", "splashed out", "ran out", "paid back" ],
+          correctAnswer: 1,
           explanation: "'Splash out' means spending a lot on a luxury."
         }
       ]
@@ -1779,8 +1779,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'He\'s __________ to buy a house.',
-          options: ["paying back", "cutting back", "running out", "saving up"],
-          correctAnswer: 3,
+          options: [ "running out", "paying back", "saving up", "cutting back" ],
+          correctAnswer: 2,
           explanation: "'Saving up' is accumulating money for a goal."
         }
       ]
@@ -1800,8 +1800,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'We must __________ on luxury items this month.',
-          options: ["splash out", "cut back", "pay back", "run out"],
-          correctAnswer: 1,
+          options: [ "splash out", "run out", "cut back", "pay back" ],
+          correctAnswer: 2,
           explanation: "'Cut back' means to reduce spending."
         }
       ]
@@ -1821,8 +1821,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Help! I\'ve __________ cash at the restaurant!',
-          options: ["splashed out", "saved up", "paid back", "run out of"],
-          correctAnswer: 3,
+          options: [ "saved up", "splashed out", "run out of", "paid back" ],
+          correctAnswer: 2,
           explanation: "'Run out of' means having none left."
         }
       ]
@@ -1844,8 +1844,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'If I __________ rich, I would buy a beach house.',
-          options: ["am", "will be", "were", "was"],
-          correctAnswer: 2,
+          options: [ "was", "were", "am", "will be" ],
+          correctAnswer: 1,
           explanation: "Second conditional uses 'were' for hypothetical states."
         }
       ]
@@ -1865,8 +1865,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I wish I __________ more free time.',
-          options: ["have", "had", "would have", "had had"],
-          correctAnswer: 1,
+          options: [ "had had", "would have", "have", "had" ],
+          correctAnswer: 3,
           explanation: "Wish + past simple for present desires."
         }
       ]
@@ -1886,8 +1886,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Don\'t forget your __________; you might need it to return that shirt.',
-          options: ["shares", "refund", "pension", "receipt"],
-          correctAnswer: 3,
+          options: [ "pension", "receipt", "shares", "refund" ],
+          correctAnswer: 1,
           explanation: "A receipt is needed for returns."
         }
       ]
@@ -1907,7 +1907,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'This car is a real __________; it\'s in great condition and very cheap.',
-          options: ["bargain", "inflation", "tax", "loan"],
+          options: [ "bargain", "loan", "inflation", "tax" ],
           correctAnswer: 0,
           explanation: "A bargain is high value for a low price."
         }
@@ -1928,8 +1928,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I need to __________ on coffee; I\'m spending too much!',
-          options: ["cut back", "run out", "save up", "splash out"],
-          correctAnswer: 0,
+          options: [ "save up", "cut back", "run out", "splash out" ],
+          correctAnswer: 1,
           explanation: "'Cut back' means to reduce expenses."
         }
       ]
@@ -1949,8 +1949,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Response:',
-          options: ["I'd like to buy some shares.", "I'd like to increase my overdraft.", "I'd like to set up a direct debit.", "I'd like to apply for a mortgage."],
-          correctAnswer: 2,
+          options: [ "I'd like to apply for a mortgage.", "I'd like to increase my overdraft.", "I'd like to buy some shares.", "I'd like to set up a direct debit." ],
+          correctAnswer: 3,
           explanation: "Direct debit is used for automatic payments."
         }
       ]
@@ -1970,8 +1970,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Response:',
-          options: ["The pension plan.", "The interest rate.", "The exchange rate.", "The inflation rate."],
-          correctAnswer: 2,
+          options: [ "The interest rate.", "The inflation rate.", "The pension plan.", "The exchange rate." ],
+          correctAnswer: 3,
           explanation: "The exchange rate tells you the value of money in another currency."
         }
       ]
@@ -1991,8 +1991,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Response:',
-          options: ["I'll open a new savings account.", "I should splash out on a new car.", "I'll apply for more taxes.", "I need to cut back on my spending."],
-          correctAnswer: 3,
+          options: [ "I'll apply for more taxes.", "I should splash out on a new car.", "I need to cut back on my spending.", "I'll open a new savings account." ],
+          correctAnswer: 2,
           explanation: "Cutting back reduces expenditure."
         }
       ]
@@ -2012,7 +2012,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Response:',
-          options: ["Can I have a mortgage?", "I'd like a refund, please.", "I want to pay by direct debit.", "Is this item wealthy?"],
+          options: [ please.", "I'd like a refund, "Can I have a mortgage?", "Is this item wealthy?", "I want to pay by direct debit." ],
           correctAnswer: 1,
           explanation: "A refund returns your money for a faulty product."
         }
@@ -2033,8 +2033,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Option:',
-          options: ["A mortgage", "An inflation", "A currency", "A pension"],
-          correctAnswer: 0,
+          options: [ "An inflation", "A pension", "A mortgage", "A currency" ],
+          correctAnswer: 2,
           explanation: "A mortgage is a specific loan for property."
         }
       ]
