@@ -31,7 +31,7 @@ import { UNIT_30_EXERCISES } from './unit-30';
 
 export const B1_COURSE = {
   units: [
-    { id: 1, title: 'Identity & Lifestyle', exercises: UNIT_1_EXERCISES },
+    { id: 1, title: 'Life Stories', exercises: UNIT_1_EXERCISES },
     { id: 2, title: 'Experiences & Memories', exercises: UNIT_2_EXERCISES },
     { id: 3, title: 'Work & Professional Life', exercises: UNIT_3_EXERCISES },
     { id: 4, title: 'Health & Well-being', exercises: UNIT_4_EXERCISES },
