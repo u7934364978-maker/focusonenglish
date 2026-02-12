@@ -177,7 +177,45 @@ Implement Unit 8 "Food & Cooking" and Unit 9 "Education & Learning" for the B1 c
 
 ### Phase 21: Verification & Deployment (Unit 16)
 - [x] **Task 47: Verify Unit 16 in Browser**
-- [ ] **Task 48: Commit and push changes for Unit 16**
+- [x] **Task 48: Commit and push changes for Unit 16**
+
+### Phase 22: Implementation of Unit 17
+- [x] **Task 49: Define Unit 17 Structure**
+    - Sub-topic 1: Historical Periods & Events (1-10)
+    - Sub-topic 2: Archaeology & Ancient Civilizations (11-20)
+    - Sub-topic 3: Grammar: Past Perfect Continuous (21-30)
+    - Sub-topic 4: Grammar: Used to / Would for past habits (Review/Advanced) (31-40)
+    - Sub-topic 5: Famous Historical Figures (41-50)
+    - Sub-topic 6: Scientific Discoveries in History (51-60)
+    - Sub-topic 7: Historical Wars & Conflicts (61-70)
+    - Sub-topic 8: Grammar: Review of Conditionals (Zero, First, Second, Third) (71-80)
+    - Sub-topic 9: Historical Documents & Maps (81-90)
+    - Sub-topic 10: General Review & Mixed Practice (91-100)
+- [x] **Task 50: Implement Exercises 1-50 for Unit 17: History & Archaeology**
+- [x] **Task 51: Implement Exercises 51-100 for Unit 17: History & Archaeology**
+
+### Phase 23: Verification & Deployment (Unit 17)
+- [x] **Task 52: Verify Unit 17 in Browser**
+- [x] **Task 53: Commit and push changes for Unit 17**
+
+### Phase 24: Implementation of Unit 18
+- [ ] **Task 54: Define Unit 18 Structure**
+    - Sub-topic 1: Natural Wonders & Landmarks (1-10)
+    - Sub-topic 2: Travel Experiences & Storytelling (11-20)
+    - Sub-topic 3: Grammar: Narrative Tenses Review (Past Simple, Continuous, Perfect) (21-30)
+    - Sub-topic 4: Grammar: Modals of Possibility (might, could, may) (31-40)
+    - Sub-topic 5: Adventure Sports & Activities (41-50)
+    - Sub-topic 6: Sustainable Tourism & Environment (51-60)
+    - Sub-topic 7: Cultural Etiquette & Customs (61-70)
+    - Sub-topic 8: Travel Planning & Logistics (71-80)
+    - Sub-topic 9: Phrasal Verbs related to Travel (81-90)
+    - Sub-topic 10: Review & Travel Vlogs (91-100)
+- [ ] **Task 55: Implement Exercises 1-50 for Unit 18: Adventure & Travel**
+- [ ] **Task 56: Implement Exercises 51-100 for Unit 18: Adventure & Travel**
+
+### Phase 25: Verification & Deployment (Unit 18)
+- [ ] **Task 57: Verify Unit 18 in Browser**
+- [ ] **Task 58: Commit and push changes for Unit 18**
 
 ## Test Plan
 - **Framework**: Playwright (E2E)

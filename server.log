@@ -683,3 +683,6 @@ Supabase Browser Client Initializing with URL: https://nprqtjljoekoirlrjxlh.supa
  GET /debug/b1-preview/unit-10 200 in 78ms
  ✓ Compiled in 1488ms (2530 modules)
  GET /debug/b1-preview/unit-10 200 in 341ms
+ ✓ Compiled in 2.6s (2530 modules)
+ GET /debug/b1-preview/unit-10 200 in 145ms
+[?25h

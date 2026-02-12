@@ -1674,7 +1674,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           id: 'q1',
           question: 'The neighbor __________ lives next door is very friendly.',
           options: ['which', 'who', 'where', 'whose'],
-          correctAnswer: "floor",
+          correctAnswer: 1,
           explanation: "We use 'who' for people."
         }
       ]
@@ -1778,7 +1778,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "The library is a place ___ you can study in peace.",
-          correctAnswer: 1,
+          correctAnswer: "where",
           explanation: "Place: where."
         }
       ]
@@ -1798,7 +1798,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "The man ___ fixed our heater was very professional.",
-          correctAnswer: 1,
+          correctAnswer: "who",
           explanation: "Person: who."
         }
       ]
@@ -1818,7 +1818,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "I have a new sofa ___ is very comfortable.",
-          correctAnswer: 1,
+          correctAnswer: "which",
           explanation: "Thing: which (or that)."
         }
       ]
@@ -1838,7 +1838,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "That's the shop ___ I bought my furniture.",
-          correctAnswer: 1,
+          correctAnswer: "where",
           explanation: "Place: where."
         }
       ]
@@ -1858,7 +1858,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "The people ___ live upstairs are very noisy.",
-          correctAnswer: 1,
+          correctAnswer: "who",
           explanation: "People: who."
         }
       ]
@@ -1897,7 +1897,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           id: 'q1',
           question: 'The tenant __________ car is in my space should move it.',
           options: ['whose', 'where', 'who', 'which'],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "We use 'whose' for possession (the tenant's car)."
         }
       ]
@@ -2000,7 +2000,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "If I ___ (have) enough money next month, I will buy a new TV.",
-          correctAnswer: 2,
+          correctAnswer: "have",
           explanation: "First conditional for a real possibility."
         }
       ]
@@ -2020,7 +2020,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "If I ___ (be) a millionaire, I would live in a castle.",
-          correctAnswer: 2,
+          correctAnswer: "were",
           explanation: "Second conditional for an imaginary situation."
         }
       ]
@@ -2041,7 +2041,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           id: 'q1',
           question: 'Definition:',
           options: ['To talk to neighbors', 'To buy furniture', 'To pay rent', 'To travel to work'],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Commuting is the act of traveling between home and work."
         }
       ]
