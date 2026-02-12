@@ -120,7 +120,26 @@ Implement Unit 8 "Food & Cooking" and Unit 9 "Education & Learning" for the B1 c
 
 ### Phase 15: Verification & Deployment (Unit 13)
 - [x] **Task 32: Verify Unit 13 in Browser**
-- [ ] **Task 33: Commit and push changes for Unit 13**
+- [x] **Task 33: Commit and push changes for Unit 13**
+
+### Phase 16: Implementation of Unit 14
+- [x] **Task 34: Define Unit 14 Structure**
+    - Sub-topic 1: Types of Crimes (1-10)
+    - Sub-topic 2: The Legal System & Court (11-20)
+    - Sub-topic 3: Grammar: Modal Verbs of Deduction (Past) (21-30)
+    - Sub-topic 4: Grammar: Third Conditional (Review/Practice) (31-40)
+    - Sub-topic 5: Punishment & Rehabilitation (41-50)
+    - Sub-topic 6: Famous Crimes & Mysteries (51-60)
+    - Sub-topic 7: Cybersecurity & Modern Crimes (61-70)
+    - Sub-topic 8: Rights & Responsibilities (71-80)
+    - Sub-topic 9: Phrasal Verbs related to Crime/Law (81-90)
+    - Sub-topic 10: Review & Ethical Dilemmas (91-100)
+- [x] **Task 35: Implement Exercises 1-50 for Unit 14: Crime & Justice**
+- [x] **Task 36: Implement Exercises 51-100 for Unit 14: Crime & Justice**
+
+### Phase 17: Verification & Deployment (Unit 14)
+- [x] **Task 37: Verify Unit 14 in Browser**
+- [ ] **Task 38: Commit and push changes for Unit 14**
 
 ## Test Plan
 - **Framework**: Playwright (E2E)
