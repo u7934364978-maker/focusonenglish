@@ -354,7 +354,7 @@ Implement Unit 8 "Food & Cooking" and Unit 9 "Education & Learning" for the B1 c
 - [x] **Task 90: Implement Exercises 51-100 for Unit 26: Reported Speech: Statements**
 
 ### Phase 38: Implementation of Unit 27
-- [ ] **Task 91: Define Unit 27 Structure**
+- [x] **Task 91: Define Unit 27 Structure**
     - Sub-topic 1: Reported Yes/No Questions (if/whether) (1-10)
     - Sub-topic 2: Reported Wh- Questions (word order) (11-20)
     - Sub-topic 3: Reported Requests (ask someone to...) (21-30)
@@ -365,8 +365,23 @@ Implement Unit 8 "Food & Cooking" and Unit 9 "Education & Learning" for the B1 c
     - Sub-topic 8: Grammar: Polite Requests (Reported) (71-80)
     - Sub-topic 9: Phrasal Verbs related to Travel/Service (81-90)
     - Sub-topic 10: Review & Roleplay Scenarios (91-100)
-- [ ] **Task 92: Implement Exercises 1-50 for Unit 27: Reported Speech: Questions & Orders**
-- [ ] **Task 93: Implement Exercises 51-100 for Unit 27: Reported Speech: Questions & Orders**
+- [x] **Task 92: Implement Exercises 1-50 for Unit 27: Reported Speech: Questions & Orders**
+- [x] **Task 93: Implement Exercises 51-100 for Unit 27: Reported Speech: Questions & Orders**
+
+### Phase 39: Implementation of Unit 28
+- [ ] **Task 94: Define Unit 28 Structure**
+    - Sub-topic 1: Defining Relative Clauses (who, that, which) (1-10)
+    - Sub-topic 2: Omitting the Relative Pronoun (object position) (11-20)
+    - Sub-topic 3: Non-Defining Relative Clauses (extra information) (21-30)
+    - Sub-topic 4: Relative Pronouns with Prepositions (31-40)
+    - Sub-topic 5: Vocabulary: People & Relationships (Relative clause focus) (41-50)
+    - Sub-topic 6: Grammar: Whose, Where, When in relative clauses (51-60)
+    - Sub-topic 7: Vocabulary: Places & Buildings (Relative clause focus) (61-70)
+    - Sub-topic 8: Grammar: Combining Sentences with Relative Clauses (71-80)
+    - Sub-topic 9: Phrasal Verbs related to Relationships (81-90)
+    - Sub-topic 10: Review & Descriptive Writing (91-100)
+- [ ] **Task 95: Implement Exercises 1-50 for Unit 28: Relative Clauses**
+- [ ] **Task 96: Implement Exercises 51-100 for Unit 28: Relative Clauses**
 
 ## Test Plan
 - **Framework**: Playwright (E2E)
