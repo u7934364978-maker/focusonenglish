@@ -33,6 +33,7 @@ Implement Unit 1 (Personal Profile) with 50 exercises.
 - [x] Create `src/lib/course/a2/index.ts`
 - [x] Run `npm run lint` and `tsc --noEmit`
 - [x] Push changes to repository
+- [x] Create debug preview route `src/app/debug/a2-preview/[unitId]/page.tsx`
 - [ ] (Optional) Obtain approval for E2E tests
 
 ## Verification
