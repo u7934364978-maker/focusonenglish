@@ -65,18 +65,24 @@ async function generateExercisesForUnit(unitId: number) {
   for (let i = 0; i < 10; i++) {
     const type = EXERCISE_TYPES[i % EXERCISE_TYPES.length];
     const prompt = `
-      Create 5 unique English learning exercises for B1 level.
+      Create 5 high-quality, pedagogically sound English learning exercises for B1 level.
       UNIT: ${unitId}
       THEME: ${unit.theme}
       GRAMMAR FOCUS: ${unit.grammar}
       EXERCISE TYPE: ${type}
       
+      PEDAGOGICAL REQUIREMENTS:
+      - Exercises must reflect REAL B1 English: use natural phrasing, common idioms, and complex sentence structures appropriate for intermediate learners.
+      - Variety: Avoid repetitive patterns. Use different contexts (work, travel, social life, hobbies) within the theme.
+      - Meaningful practice: Ensure exercises test comprehension and usage, not just rote memorization.
+      - Explanations: Provide clear, helpful explanations in Spanish that explain WHY an answer is correct or clarify common mistakes.
+      
       CRITICAL INSTRUCTION:
-      - Every single English word in the exercise content (prompts, questions, options, examples, flashcard fronts) MUST follow the syntax [[word|translation]] for word-by-word translation. 
-      - Example: "[[This|Esta]] [[is|es]] [[a|una]] [[test|prueba]]."
+      - Every single English word in the exercise content (questions, options, examples, flashcard fronts) MUST follow the syntax [[word|translation]] for word-by-word translation. 
+      - Example: "[[I|Yo]] [[have|he]] [[been|estado]] [[working|trabajando]] [[here|aquí]] [[since|desde]] [[Monday|lunes]]."
       - Topics must be neutral, professional, and educational.
+      - Titles, instructions, and explanations MUST be in Spanish.
       - Each exercise MUST include a "transcript" field with the FULL English text (no brackets) for audio generation.
-      - Each exercise MUST include an "audioUrl" field with the path "audio/b1/unit-${unitId}/e${exercises.length + 1}.mp3" (increment properly).
       
       The response must be a JSON object with an "exercises" array.
       Each exercise must have:
@@ -86,17 +92,16 @@ async function generateExercisesForUnit(unitId: number) {
       - difficulty: "medium"
       - transcript: "Clean English text for audio"
       - content: { 
-          // MANDATORY for all types:
           title: "Spanish Title",
-          instructions: "Spanish instructions here...", 
+          instructions: "Spanish instructions...", 
           
           // ONLY for multiple-choice, fill-blank:
           questions: [
             {
-              question: "[[Question|Pregunta]]?", 
+              question: "[[English|Spanish]] text with gaps or options?", 
               options: ["[[Option1|...]]", "[[Option2|...]]"], 
-              correctAnswer: 0, // index for multiple choice, text for fill-blank
-              explanation: "In Spanish...",
+              correctAnswer: 0, 
+              explanation: "Clear pedagogical explanation in Spanish...",
               audio: "audio/b1/unit-${unitId}/e${exercises.length + 1}.mp3"
             }
           ],
