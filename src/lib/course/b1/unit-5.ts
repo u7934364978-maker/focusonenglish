@@ -1,22 +1,22 @@
 import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_5_EXERCISES: Exercise[] = [
-  // --- SUB-TOPIC 1: Global Problems (1-10) ---
+  // --- SUB-TOPIC 1: Daily Life & Surroundings (1-10) ---
   {
     id: "b1-u5-e1",
     type: "flashcard",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Vocabulary",
     difficulty: "easy",
     content: {
       items: [
         {
-          front: "Global warming",
-          back: "Calentamiento global",
-          pronunciation: "/ˈɡloʊ.bəl ˈwɔːr.mɪŋ/",
-          example: "Global warming is a major threat to our planet.",
-          explanation: "El aumento gradual de la temperatura general de la atmósfera terrestre."
+          front: "Commute",
+          back: "Trayecto al trabajo",
+          pronunciation: "/kəˈmjuːt/",
+          example: "My daily commute takes about forty minutes.",
+          explanation: "El viaje regular entre el hogar y el trabajo o la escuela."
         }
       ]
     } as any
@@ -25,17 +25,17 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     id: "b1-u5-e2",
     type: "flashcard",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Vocabulary",
     difficulty: "easy",
     content: {
       items: [
         {
-          front: "Pollution",
-          back: "Contaminación",
-          pronunciation: "/pəˈluː.ʃən/",
-          example: "Air pollution is a serious problem in many big cities.",
-          explanation: "Sustancias dañinas en el aire, agua o suelo."
+          front: "Neighborhood",
+          back: "Vecindario",
+          pronunciation: "/ˈneɪ.bə.hʊd/",
+          example: "We live in a very quiet and friendly neighborhood.",
+          explanation: "Un área de una ciudad o pueblo que forma una comunidad."
         }
       ]
     } as any
@@ -44,17 +44,17 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     id: "b1-u5-e3",
     type: "flashcard",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Vocabulary",
     difficulty: "easy",
     content: {
       items: [
         {
-          front: "Poverty",
-          back: "Pobreza",
-          pronunciation: "/ˈpɒv.ə.ti/",
-          example: "Many organizations work hard to reduce poverty.",
-          explanation: "El estado de ser extremadamente pobre."
+          front: "Budget",
+          back: "Presupuesto",
+          pronunciation: "/ˈbʌdʒ.ɪt/",
+          example: "We need to plan our monthly budget carefully.",
+          explanation: "Un plan financiero para un período de tiempo definido."
         }
       ]
     } as any
@@ -63,17 +63,17 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     id: "b1-u5-e4",
     type: "flashcard",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Vocabulary",
     difficulty: "easy",
     content: {
       items: [
         {
-          front: "Unemployment",
-          back: "Desempleo",
-          pronunciation: "/ˌʌn.ɪmˈplɔɪ.mənt/",
-          example: "The unemployment rate has decreased this year.",
-          explanation: "El estado de no tener trabajo."
+          front: "Schedule",
+          back: "Horario / Agenda",
+          pronunciation: "/ˈʃedʒ.uːl/",
+          example: "I have a very busy schedule this week.",
+          explanation: "Un plan para realizar actividades o eventos en momentos específicos."
         }
       ]
     } as any
@@ -82,17 +82,17 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     id: "b1-u5-e5",
     type: "flashcard",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Vocabulary",
     difficulty: "easy",
     content: {
       items: [
         {
-          front: "Equality",
-          back: "Igualdad",
-          pronunciation: "/iˈkwɒl.ə.ti/",
-          example: "Gender equality is essential for a fair society.",
-          explanation: "El estado de ser igual, especialmente en estatus, derechos y oportunidades."
+          front: "Community",
+          back: "Comunidad",
+          pronunciation: "/kəˈmjuː.nə.ti/",
+          example: "The local community center offers many activities.",
+          explanation: "Un grupo de personas que viven en la misma área o tienen intereses comunes."
         }
       ]
     } as any
@@ -101,19 +101,19 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     id: "b1-u5-e6",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Vocabulary",
     difficulty: "easy",
     content: {
-      title: 'Climate Issues',
+      title: 'City Travel',
       instructions: 'Choose the correct term.',
       questions: [
         {
           id: 'q1',
-          question: 'The increase in Earth\'s temperature is called __________.',
-          options: ["global warming", "equality", "unemployment", "recovery"],
+          question: 'The journey to work every day is called the __________.',
+          options: ["commute", "community", "schedule", "budget"],
           correctAnswer: 0,
-          explanation: "Global warming specifically refers to the temperature rise of the planet."
+          explanation: "Commute refers to the regular travel between home and work."
         }
       ]
     } as any
@@ -122,19 +122,19 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     id: "b1-u5-e7",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Vocabulary",
     difficulty: "easy",
     content: {
-      title: 'Dirty Oceans',
+      title: 'Local Area',
       instructions: 'Choose the correct word.',
       questions: [
         {
           id: 'q1',
-          question: 'Plastic in the ocean is a form of __________.',
-          options: ["poverty", "pollution", "wellness", "strength"],
+          question: 'The area where you live is your __________.',
+          options: ["budget", "neighborhood", "schedule", "lifestyle"],
           correctAnswer: 1,
-          explanation: "Pollution is the presence of harmful substances in the environment."
+          explanation: "Neighborhood is the local area where you live."
         }
       ]
     } as any
@@ -143,19 +143,19 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     id: "b1-u5-e8",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Vocabulary",
     difficulty: "easy",
     content: {
-      title: 'Financial Hardship',
+      title: 'Financial Planning',
       instructions: 'Choose the correct term.',
       questions: [
         {
           id: 'q1',
-          question: 'A lack of money and basic needs is called __________.',
-          options: ["poverty", "equality", "workout", "background"],
+          question: 'A plan for how to spend your money is a __________.',
+          options: ["budget", "community", "commute", "decoration"],
           correctAnswer: 0,
-          explanation: "Poverty is the state of having little or no money or possessions."
+          explanation: "A budget is a plan for coordinating resources and expenses."
         }
       ]
     } as any
@@ -164,19 +164,19 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     id: "b1-u5-e9",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Vocabulary",
     difficulty: "easy",
     content: {
-      title: 'Job Market',
+      title: 'Time Management',
       instructions: 'Choose the best option.',
       questions: [
         {
           id: 'q1',
-          question: 'If you don\'t have a job, you are experiencing __________.',
-          options: ["unemployment", "recovery", "balanced diet", "feedback"],
+          question: 'If you have many things to do at specific times, you have a tight __________.',
+          options: ["schedule", "budget", "neighborhood", "appliance"],
           correctAnswer: 0,
-          explanation: "Unemployment is the state of being without a job."
+          explanation: "A schedule is a list of things to do at certain times."
         }
       ]
     } as any
@@ -185,19 +185,19 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     id: "b1-u5-e10",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Vocabulary",
     difficulty: "easy",
     content: {
-      title: 'Fair Society',
+      title: 'Local People',
       instructions: 'Choose the correct concept.',
       questions: [
         {
           id: 'q1',
-          question: "When everyone has the same rights, we have __________.",
-          options: ["equality", "pollution", "burnout", "milestone"],
+          question: "A group of people living together in the same area is a __________.",
+          options: ["community", "commute", "routine", "furniture"],
           correctAnswer: 0,
-          explanation: "Equality means having the same rights and opportunities."
+          explanation: "Community refers to people living in the same place."
         }
       ]
     } as any
@@ -208,17 +208,17 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     id: "b1-u5-e11",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Grammar",
     difficulty: "medium",
     content: {
-      title: 'Real Possibilities',
+      title: 'Daily Plans',
       instructions: 'Choose the correct verb form.',
       questions: [
         {
           id: 'q1',
-          question: 'If we __________ more trees, the air will be cleaner.',
-          options: ["plant", "planted", "will plant", "are planting"],
+          question: 'If I __________ my chores early, I will go to the park.',
+          options: ["finish", "finished", "will finish", "am finishing"],
           correctAnswer: 0,
           explanation: "In the 'if' clause of a first conditional sentence, we use the present simple."
         }
@@ -229,17 +229,17 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     id: "b1-u5-e12",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Grammar",
     difficulty: "medium",
     content: {
-      title: 'Consequences',
+      title: 'Shopping Trip',
       instructions: 'Choose the correct future form.',
       questions: [
         {
           id: 'q1',
-          question: 'If the ice melts, sea levels __________.',
-          options: ["rise", "rose", "will rise", "are rising"],
+          question: 'If we go to the store, we __________ some milk.',
+          options: ["buy", "bought", "will buy", "are buying"],
           correctAnswer: 2,
           explanation: "In the main clause of a first conditional, we use 'will' + base form."
         }
@@ -250,16 +250,16 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     id: "b1-u5-e13",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Grammar",
     difficulty: "medium",
     content: {
-      title: 'Energy Saving',
+      title: 'Energy at Home',
       instructions: 'Choose the correct option.',
       questions: [
         {
           id: 'q1',
-          question: 'We will save energy if we __________ the lights.',
+          question: 'We will save money if we __________ the lights when leaving.',
           options: ["turn off", "will turn off", "turned off", "are turning off"],
           correctAnswer: 0,
           explanation: "The 'if' clause uses present simple even when referring to the future."
@@ -271,17 +271,17 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     id: "b1-u5-e14",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Grammar",
     difficulty: "medium",
     content: {
-      title: 'Action and Result',
+      title: 'Garden Care',
       instructions: 'Complete the sentence.',
       questions: [
         {
           id: 'q1',
-          question: 'If you __________ glass and paper, you help the environment.',
-          options: ["recycle", "will recycle", "recycled", "are recycling"],
+          question: 'If you __________ the plants regularly, they will grow fast.',
+          options: ["water", "will water", "watered", "are watering"],
           correctAnswer: 0,
           explanation: "Present simple for the condition."
         }
@@ -292,17 +292,17 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     id: "b1-u5-e15",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Grammar",
     difficulty: "medium",
     content: {
-      title: 'Negative Condition',
+      title: 'Morning Routine',
       instructions: 'Choose the correct negative form.',
       questions: [
         {
           id: 'q1',
-          question: 'If we __________ the planet, future generations will suffer.',
-          options: ["don't protect", "won't protect", "didn't protect", "aren't protecting"],
+          question: 'If I __________ my alarm, I will be late for work.',
+          options: ["don't set", "won't set", "didn't set", "aren't setting"],
           correctAnswer: 0,
           explanation: "Use 'don't' + base form for negative present simple in the 'if' clause."
         }
@@ -313,7 +313,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     id: "b1-u5-e16",
     type: "fill-blank",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Grammar",
     difficulty: "medium",
     content: {
@@ -322,8 +322,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       questions: [
         {
           id: 'q1',
-          text: "If people stop using cars, pollution ___ (decrease).",
-          correctAnswer: "will decrease",
+          text: "If we invite the neighbors, they ___ (come) to our party.",
+          correctAnswer: "will come",
           explanation: "Main clause: will + infinitive."
         }
       ]
@@ -333,7 +333,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     id: "b1-u5-e17",
     type: "fill-blank",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Grammar",
     difficulty: "medium",
     content: {
@@ -342,9 +342,9 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       questions: [
         {
           id: 'q1',
-          text: "The temperature will rise if we ___ (not/act) now.",
-          correctAnswer: "don't act",
-          explanation: "If clause: present simple (negative)."
+          text: "I will visit the community center if I ___ (have) time this afternoon.",
+          correctAnswer: "have",
+          explanation: "If clause: present simple."
         }
       ]
     } as any
@@ -353,7 +353,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     id: "b1-u5-e18",
     type: "fill-blank",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Grammar",
     difficulty: "medium",
     content: {
@@ -362,9 +362,9 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       questions: [
         {
           id: 'q1',
-          text: "If we ___ (recycle) more, we will use fewer natural resources.",
-          correctAnswer: "recycle",
-          explanation: "If clause: present simple."
+          text: "If you ___ (not/hurry), you will miss the bus.",
+          correctAnswer: "don't hurry",
+          explanation: "If clause: present simple (negative)."
         }
       ]
     } as any
@@ -373,7 +373,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     id: "b1-u5-e19",
     type: "fill-blank",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Grammar",
     difficulty: "medium",
     content: {
@@ -382,8 +382,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       questions: [
         {
           id: 'q1',
-          text: "If the weather is good, we ___ (go) for a walk in the forest.",
-          correctAnswer: "will go",
+          text: "If the weather is good, we ___ (eat) dinner in the garden.",
+          correctAnswer: "will eat",
           explanation: "Main clause: will + infinitive."
         }
       ]
@@ -393,18 +393,18 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     id: "b1-u5-e20",
     type: "fill-blank",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Grammar",
     difficulty: "medium",
     content: {
       title: 'Conditional Practice 5',
-      instructions: "Complete the sentence.",
+      instructions: "Complete with the correct verb.",
       questions: [
         {
           id: 'q1',
-          text: "If they ___ (find) a solution, they will present it tomorrow.",
-          correctAnswer: "find",
-          explanation: "If clause: present simple."
+          text: "We will stay home if it ___ (rain) tomorrow morning.",
+          correctAnswer: "rains",
+          explanation: "If clause: present simple (third person)."
         }
       ]
     } as any
@@ -413,17 +413,17 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     id: "b1-u5-e21",
     type: "matching",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Grammar",
     difficulty: "medium",
     content: {
-      title: 'Cause and Effect',
+      title: 'Daily Decisions',
       instructions: "Match the condition with the result.",
       pairs: [
-        { id: "c1", left: "If we recycle", right: "we'll help the planet" },
-        { id: "c2", left: "If ice melts", right: "sea levels will rise" },
-        { id: "c3", left: "If it rains", right: "pollution will wash away" },
-        { id: "c4", left: "If we save energy", right: "we'll pay less" }
+        { id: "c1", left: "If I find my keys", right: "I'll leave now" },
+        { id: "c2", left: "If the store is open", right: "we'll buy bread" },
+        { id: "c3", left: "If it snows", right: "we'll build a snowman" },
+        { id: "c4", left: "If we save money", right: "we'll buy new furniture" }
       ]
     } as any
   },
@@ -431,7 +431,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     id: "b1-u5-e22",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Grammar",
     difficulty: "medium",
     content: {
@@ -440,7 +440,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       questions: [
         {
           id: 'q1',
-          question: "Which one is correct?",
+          question: "Which one is correct for a future plan?",
           options: [
             "If it will rain, I'll stay home.",
             "If it rains, I'll stay home.",
@@ -457,7 +457,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     id: "b1-u5-e23",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Grammar",
     difficulty: "medium",
     content: {
@@ -466,7 +466,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       questions: [
         {
           id: 'q1',
-          question: "__________ we change our habits, the situation will get worse.",
+          question: "__________ we finish the housework, we won't go out.",
           options: ["Unless", "If", "While", "Until"],
           correctAnswer: 0,
           explanation: "'Unless' means 'if not'."
@@ -478,7 +478,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     id: "b1-u5-e24",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Grammar",
     difficulty: "medium",
     content: {
@@ -487,7 +487,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       questions: [
         {
           id: 'q1',
-          question: "If you have time, you __________ help with the beach clean-up.",
+          question: "If you have time, you __________ help me with the gardening.",
           options: ["should", "will to", "ought", "might not"],
           correctAnswer: 0,
           explanation: "We can use 'should', 'can', or 'might' instead of 'will' in the main clause."
@@ -499,7 +499,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     id: "b1-u5-e25",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Grammar",
     difficulty: "medium",
     content: {
@@ -508,8 +508,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       questions: [
         {
           id: 'q1',
-          question: "The ocean __________ cleaner if we stop using plastic.",
-          options: ["will be", "is", "was", "would be"],
+          question: "Our house __________ better if we paint the walls.",
+          options: ["will look", "is looking", "looked", "would look"],
           correctAnswer: 0,
           explanation: "The result clause uses 'will' even when it comes first."
         }
@@ -517,35 +517,35 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     } as any
   },
 
-  // --- SUB-TOPIC 3: Environmental Impact (26-35) ---
+  // --- SUB-TOPIC 3: Neighborhood Life (26-35) ---
   {
     id: "b1-u5-e26",
     type: "reading-comprehension",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Reading",
     difficulty: "medium",
     content: {
-      title: "The Plastic Problem",
-      text: `Every year, millions of tons of plastic enter our oceans. This pollution affects wildlife and the entire food chain. If we don't reduce our consumption, there will be more plastic than fish in the sea by 2050.
-
-Many countries are now banning single-use plastics like straws and bags. However, it's not enough. We must recycle more and support sustainable products. Small actions by individuals can lead to a big change.
-
-If we act together, we will save our beautiful planet for future generations.`,
+      title: "The New Community Garden",
+      text: `Last month, our neighborhood started a community garden project. Many families joined to plant vegetables and flowers. If we work together every weekend, we will have a beautiful harvest by the end of summer.
+      
+      We are also organizing a local market to sell our fresh products. This will help our community center buy new equipment. It's not just about gardening; it's about meeting our neighbors and helping each other.
+      
+      If you want to join us, come to the park next Saturday morning. We will provide all the tools you need.`,
       questions: [
         {
           id: "q1",
-          question: "What will happen by 2050 if we don't change?",
-          options: ["There will be more fish", "There will be more plastic than fish", "The oceans will be empty", "Plastic will disappear"],
+          question: "What will happen by the end of summer if they work together?",
+          options: ["They will close the garden", "They will have a beautiful harvest", "They will move to another park", "They will sell the land"],
           correctAnswer: 1,
-          explanation: "The text predicts more plastic than fish if consumption is not reduced."
+          explanation: "The text says 'we will have a beautiful harvest by the end of summer'."
         },
         {
           id: "q2",
-          question: "What are many countries banning?",
-          options: ["Recycling", "Single-use plastics", "Cars", "Fishing"],
+          question: "What is the purpose of the local market?",
+          options: ["To buy more seeds", "To help the community center buy equipment", "To compete with supermarkets", "To hire professional gardeners"],
           correctAnswer: 1,
-          explanation: "The text mentions countries banning items like straws and bags."
+          explanation: "The text mentions the market will help the community center buy new equipment."
         }
       ]
     } as any
@@ -554,19 +554,19 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e27",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Reading",
     difficulty: "medium",
     content: {
-      title: 'Individual Action',
-      instructions: "According to the text, what can lead to big changes?",
+      title: 'Socializing',
+      instructions: "According to the text, what is another benefit of the garden?",
       questions: [
         {
           id: 'q1',
-          question: 'Option:',
-          options: ["Government only", "Small actions by individuals", "Natural disasters", "Wait until 2050"],
+          question: 'Benefit:',
+          options: ["Learning history", "Meeting neighbors", "Watching TV", "Sleeping better"],
           correctAnswer: 1,
-          explanation: "The text states 'Small actions by individuals can lead to a big change'."
+          explanation: "The text states 'it's about meeting our neighbors'."
         }
       ]
     } as any
@@ -575,19 +575,19 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e28",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Reading",
     difficulty: "medium",
     content: {
-      title: 'Future Generation',
-      instructions: "Select the correct goal mentioned in the text.",
+      title: 'Joining In',
+      instructions: "What should you do if you want to participate?",
       questions: [
         {
           id: 'q1',
-          question: "If we act together, we will __________.",
-          options: ["save the planet", "earn more money", "build more cities", "stop recycling"],
+          question: "If you want to join, __________.",
+          options: ["come to the park on Saturday", "buy your own tools", "call the police", "stay home and wait"],
           correctAnswer: 0,
-          explanation: "The text ends with 'we will save our beautiful planet'."
+          explanation: "The text invites people to come to the park next Saturday morning."
         }
       ]
     } as any
@@ -596,18 +596,18 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e29",
     type: "fill-blank",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Reading",
     difficulty: "medium",
     content: {
-      title: 'Marine Life',
+      title: 'Garden Activity',
       instructions: "Complete with the word from the text.",
       questions: [
         {
           id: 'q1',
-          text: "Pollution affects ___ and the food chain.",
-          correctAnswer: "wildlife",
-          explanation: "The text mentions 'wildlife' in the first paragraph."
+          text: "Families joined to plant vegetables and ___.",
+          correctAnswer: "flowers",
+          explanation: "The text mentions planting 'vegetables and flowers'."
         }
       ]
     } as any
@@ -616,18 +616,18 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e30",
     type: "fill-blank",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Reading",
     difficulty: "medium",
     content: {
-      title: 'Product Support',
-      instructions: "Complete with the adjective used in the text.",
+      title: 'Equipment Purchase',
+      instructions: "Complete with the noun from the text.",
       questions: [
         {
           id: 'q1',
-          text: "We should support ___ products.",
-          correctAnswer: "sustainable",
-          explanation: "The text suggests supporting 'sustainable products'."
+          text: "The community center wants to buy new ___.",
+          correctAnswer: "equipment",
+          explanation: "The market will help buy 'new equipment'."
         }
       ]
     } as any
@@ -636,16 +636,16 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e31",
     type: "matching",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Reading",
     difficulty: "medium",
     content: {
-      title: 'Reading Concepts',
+      title: 'Neighborhood Concepts',
       instructions: "Match the phrase with its meaning from the text.",
       pairs: [
-        { id: "r1", left: "Food chain", right: "Interconnected eating habits" },
-        { id: "r2", left: "Single-use", right: "Used once and thrown away" },
-        { id: "r3", left: "Consumption", right: "The act of using resources" }
+        { id: "r1", left: "Harvest", right: "The process of gathering crops" },
+        { id: "r2", left: "Equipment", right: "Tools or machines for a specific task" },
+        { id: "r3", left: "Products", right: "Items produced for sale" }
       ]
     } as any
   },
@@ -653,19 +653,19 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e32",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Reading",
     difficulty: "medium",
     content: {
-      title: 'Current Status',
-      instructions: "Is banning single-use plastics enough?",
+      title: 'Tool Supply',
+      instructions: "Do you need to bring your own tools?",
       questions: [
         {
           id: 'q1',
           question: "According to the author:",
-          options: ["Yes, it's perfect", "No, it's not enough", "We shouldn't ban them", "It's a bad idea"],
+          options: ["Yes, bring everything", "No, they will provide them", "Only bring a shovel", "Tools are not allowed"],
           correctAnswer: 1,
-          explanation: "The text says 'However, it's not enough'."
+          explanation: "The text says 'We will provide all the tools you need'."
         }
       ]
     } as any
@@ -674,19 +674,19 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e33",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Reading",
     difficulty: "medium",
     content: {
-      title: 'Main Topic',
+      title: 'Main Theme',
       instructions: "Choose the main topic.",
       questions: [
         {
           id: 'q1',
           question: "What is this text primarily about?",
-          options: ["The history of the ocean", "The problem with plastic pollution", "How to fish", "The best beaches in the world"],
+          options: ["A history of farming", "A community garden project", "How to cook vegetables", "The best tools for painting"],
           correctAnswer: 1,
-          explanation: "The focus is clearly on plastic pollution and its environmental impact."
+          explanation: "The focus is on the neighborhood garden project."
         }
       ]
     } as any
@@ -695,18 +695,18 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e34",
     type: "fill-blank",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Reading",
     difficulty: "medium",
     content: {
-      title: 'Plastic Mass',
-      instructions: "Complete with the quantity from the text.",
+      title: 'Timeframe',
+      instructions: "Complete with the time expression from the text.",
       questions: [
         {
           id: 'q1',
-          text: "Every year, ___ of tons of plastic enter our oceans.",
-          correctAnswer: "millions",
-          explanation: "The text starts with 'millions of tons'."
+          text: "The project started ___.",
+          correctAnswer: "last month",
+          explanation: "The text begins with 'Last month'."
         }
       ]
     } as any
@@ -715,39 +715,39 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e35",
     type: "fill-blank",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Reading",
     difficulty: "medium",
     content: {
-      title: 'Action Requirement',
-      instructions: "Complete with the modal used for necessity.",
+      title: 'Regular Work',
+      instructions: "When do they work in the garden?",
       questions: [
         {
           id: 'q1',
-          text: "We ___ recycle more.",
-          correctAnswer: "must",
-          explanation: "The text says 'We must recycle more'."
+          text: "If we work together every ___, we will have a harvest.",
+          correctAnswer: "weekend",
+          explanation: "The text says 'every weekend'."
         }
       ]
     } as any
   },
 
-  // --- SUB-TOPIC 4: Sustainability (36-45) ---
+  // --- SUB-TOPIC 4: Home Improvement (36-45) ---
   {
     id: "b1-u5-e36",
     type: "flashcard",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Vocabulary",
     difficulty: "medium",
     content: {
       items: [
         {
-          front: "Renewable energy",
-          back: "Energía renovable",
-          pronunciation: "/rɪˈnjuːəbl ˈenədʒi/",
-          example: "Solar and wind power are forms of renewable energy.",
-          explanation: "Energía proveniente de fuentes que no se agotan."
+          front: "Decoration",
+          back: "Decoración",
+          pronunciation: "/ˌdek.əˈreɪ.ʃən/",
+          example: "We spent the whole weekend doing some home decoration.",
+          explanation: "El proceso de hacer algo más atractivo añadiendo cosas."
         }
       ]
     } as any
@@ -756,17 +756,17 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e37",
     type: "flashcard",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Vocabulary",
     difficulty: "medium",
     content: {
       items: [
         {
-          front: "Sustainable",
-          back: "Sostenible",
-          pronunciation: "/səˈsteɪnəbl/",
-          example: "We need to find sustainable ways to produce food.",
-          explanation: "Capaz de mantenerse a un ritmo o nivel determinado sin agotar los recursos naturales."
+          front: "Maintenance",
+          back: "Mantenimiento",
+          pronunciation: "/ˈmeɪn.tən.əns/",
+          example: "Regular maintenance is necessary for old houses.",
+          explanation: "El trabajo necesario para mantener algo en buen estado."
         }
       ]
     } as any
@@ -775,17 +775,17 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e38",
     type: "flashcard",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Vocabulary",
     difficulty: "medium",
     content: {
       items: [
         {
-          front: "Carbon footprint",
-          back: "Huella de carbono",
-          pronunciation: "/ˌkɑːbən ˈfʊtprɪnt/",
-          example: "Traveling by train can reduce your carbon footprint.",
-          explanation: "La cantidad total de gases de efecto invernadero producidos por nuestras acciones."
+          front: "Appliance",
+          back: "Electrodoméstico",
+          pronunciation: "/əˈplaɪ.əns/",
+          example: "The refrigerator is the most important appliance in the kitchen.",
+          explanation: "Un dispositivo o máquina diseñada para realizar una tarea específica en el hogar."
         }
       ]
     } as any
@@ -794,17 +794,17 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e39",
     type: "flashcard",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Vocabulary",
     difficulty: "medium",
     content: {
       items: [
         {
-          front: "Conservation",
-          back: "Conservación",
-          pronunciation: "/ˌkɒnsəˈveɪʃn/",
-          example: "Wildlife conservation is essential to protect biodiversity.",
-          explanation: "La protección de plantas, animales y recursos naturales."
+          front: "Furniture",
+          back: "Muebles",
+          pronunciation: "/ˈfɜː.nɪ.tʃə/",
+          example: "We bought some new furniture for the living room.",
+          explanation: "Objetos como sillas, mesas o camas que se colocan en una habitación."
         }
       ]
     } as any
@@ -813,17 +813,17 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e40",
     type: "flashcard",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Vocabulary",
     difficulty: "medium",
     content: {
       items: [
         {
-          front: "Biodiversity",
-          back: "Biodiversidad",
-          pronunciation: "/ˌbaɪəʊdaɪˈvɜːsəti/",
-          example: "Rainforests have a high level of biodiversity.",
-          explanation: "La variedad de vida vegetal y animal en el mundo o en un hábitat particular."
+          front: "Garden",
+          back: "Jardín",
+          pronunciation: "/ˈɡɑː.dən/",
+          example: "I enjoy spending time in the garden on sunny days.",
+          explanation: "Un área de tierra junto a una casa, a menudo con flores, césped y árboles."
         }
       ]
     } as any
@@ -832,19 +832,19 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e41",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Vocabulary",
     difficulty: "medium",
     content: {
-      title: 'Green Energy',
-      instructions: "Choose the correct term.",
+      title: 'Home Objects',
+      instructions: 'Choose the correct word.',
       questions: [
         {
           id: 'q1',
-          question: "Solar panels are used to produce __________.",
-          options: ["renewable energy", "pollution", "unemployment", "sore muscles"],
+          question: 'A washing machine is a type of __________.',
+          options: ["appliance", "furniture", "maintenance", "schedule"],
           correctAnswer: 0,
-          explanation: "Renewable energy comes from sources that don't run out."
+          explanation: "Washing machines, fridges, and ovens are appliances."
         }
       ]
     } as any
@@ -853,19 +853,19 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e42",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Vocabulary",
     difficulty: "medium",
     content: {
-      title: 'Individual Impact',
-      instructions: "Choose the correct term.",
+      title: 'Interior Design',
+      instructions: 'Choose the best option.',
       questions: [
         {
           id: 'q1',
-          question: "To help the planet, you should reduce your __________.",
-          options: ["carbon footprint", "salary", "deadline", "background"],
+          question: 'Painting the walls and hanging pictures is part of home __________.',
+          options: ["decoration", "commute", "budget", "neighborhood"],
           correctAnswer: 0,
-          explanation: "Carbon footprint measures the impact of your activities on the climate."
+          explanation: "Decoration involves making a home look nicer."
         }
       ]
     } as any
@@ -874,19 +874,19 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e43",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Vocabulary",
     difficulty: "medium",
     content: {
-      title: 'Saving Species',
-      instructions: "Choose the best option.",
+      title: 'House Upkeep',
+      instructions: 'Choose the correct term.',
       questions: [
         {
           id: 'q1',
-          question: "The protection of nature is called __________.",
-          options: ["conservation", "equality", "burnout", "workout"],
+          question: 'Fixing a leaking roof is an example of house __________.',
+          options: ["maintenance", "furniture", "community", "commute"],
           correctAnswer: 0,
-          explanation: "Conservation is the preservation and protection of the environment."
+          explanation: "Maintenance is keeping things in good working order."
         }
       ]
     } as any
@@ -895,19 +895,19 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e44",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Vocabulary",
     difficulty: "medium",
     content: {
-      title: 'Resource Management',
-      instructions: "Choose the best term.",
+      title: 'Living Spaces',
+      instructions: 'Choose the best word.',
       questions: [
         {
           id: 'q1',
-          question: "Using resources carefully to ensure they last is being __________.",
-          options: ["sustainable", "vivid", "sedentary", "exhausted"],
+          question: 'Tables, chairs, and beds are all __________.',
+          options: ["furniture", "appliances", "gardens", "schedules"],
           correctAnswer: 0,
-          explanation: "Sustainability is about meeting our needs without compromising the future."
+          explanation: "Furniture refers to movable objects used in a room."
         }
       ]
     } as any
@@ -916,149 +916,144 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e45",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Vocabulary",
     difficulty: "medium",
     content: {
-      title: 'Variety of Life',
-      instructions: "Choose the correct term.",
+      title: 'Outdoor Space',
+      instructions: 'Choose the correct term.',
       questions: [
         {
           id: 'q1',
-          question: "Loss of __________ means many species are disappearing.",
-          options: ["biodiversity", "unemployment", "recovery", "strength"],
+          question: 'The area outside with grass and plants is the __________.',
+          options: ["garden", "appliance", "furniture", "budget"],
           correctAnswer: 0,
-          explanation: "Biodiversity is the variety of life in a habitat."
+          explanation: "Garden is the outdoor area of a home."
         }
       ]
     } as any
   },
 
-  // --- SUB-TOPIC 5: Sentence Building (46-50) ---
+  // --- SUB-TOPIC 5: Neighborhood Problems & Solutions (46-50) ---
   {
     id: "b1-u5-e46",
-    type: "sentence-building",
+    type: "fill-blank",
     level: "B1",
-    topic: "Social Issues & The Environment",
-    topicName: "Grammar",
-    difficulty: "easy",
+    topic: "Home & Community",
+    topicName: "Vocabulary",
+    difficulty: "medium",
     content: {
-      title: 'Recycling Sentence',
-      instructions: "Order the words.",
-      sentences: [
+      title: 'Home Problems',
+      instructions: "Complete with the correct word.",
+      questions: [
         {
-          id: 's1',
-          words: ["we", "If", "help", "recycle,", "we", "planet.", "the"],
-          correctSentence: "If we recycle, we help the planet.",
-          translation: "Si reciclamos, ayudamos al planeta.",
-          points: 5
+          id: 'q1',
+          text: "If the microwave breaks, we will need a new ___.",
+          correctAnswer: "appliance",
+          explanation: "A microwave is a household appliance."
         }
       ]
     } as any
   },
   {
     id: "b1-u5-e47",
-    type: "sentence-building",
+    type: "fill-blank",
     level: "B1",
-    topic: "Social Issues & The Environment",
-    topicName: "Grammar",
-    difficulty: "easy",
+    topic: "Home & Community",
+    topicName: "Vocabulary",
+    difficulty: "medium",
     content: {
-      title: 'Global Warming Sentence',
-      instructions: "Order the words.",
-      sentences: [
+      title: 'Local Events',
+      instructions: "Complete the sentence.",
+      questions: [
         {
-          id: 's1',
-          words: ["Global", "warming", "is", "danger.", "real", "a"],
-          correctSentence: "Global warming is a real danger.",
-          translation: "El calentamiento global es un peligro real.",
-          points: 5
+          id: 'q1',
+          text: "The local ___ is organizing a street party.",
+          correctAnswer: "community",
+          explanation: "Community refers to the people in the area."
         }
       ]
     } as any
   },
   {
     id: "b1-u5-e48",
-    type: "sentence-building",
+    type: "fill-blank",
     level: "B1",
-    topic: "Social Issues & The Environment",
-    topicName: "Grammar",
-    difficulty: "easy",
+    topic: "Home & Community",
+    topicName: "Vocabulary",
+    difficulty: "medium",
     content: {
-      title: 'Energy Sentence',
-      instructions: "Order the words.",
-      sentences: [
+      title: 'Living Costs',
+      instructions: "Complete with the correct term.",
+      questions: [
         {
-          id: 's1',
-          words: ["will", "save", "Solar", "panels", "energy."],
-          correctSentence: "Solar panels will save energy.",
-          translation: "Los paneles solares ahorrarán energía.",
-          points: 5
+          id: 'q1',
+          text: "Rent is the largest part of our monthly ___.",
+          correctAnswer: "budget",
+          explanation: "Budget is the financial plan for expenses."
         }
       ]
     } as any
   },
   {
     id: "b1-u5-e49",
-    type: "sentence-building",
+    type: "fill-blank",
     level: "B1",
-    topic: "Social Issues & The Environment",
-    topicName: "Grammar",
-    difficulty: "easy",
+    topic: "Home & Community",
+    topicName: "Vocabulary",
+    difficulty: "medium",
     content: {
-      title: 'Conditional Sentence',
-      instructions: "Order the words.",
-      sentences: [
+      title: 'Daily Journey',
+      instructions: "Complete the sentence.",
+      questions: [
         {
-          id: 's1',
-          words: ["ice", "If", "melts,", "rises.", "sea", "the", "level"],
-          correctSentence: "If ice melts, the sea level rises.",
-          translation: "Si el hielo se derrite, el nivel del mar sube.",
-          points: 5
+          id: 'q1',
+          text: "I take the train for my daily ___.",
+          correctAnswer: "commute",
+          explanation: "Commute is the travel to and from work."
         }
       ]
     } as any
   },
   {
     id: "b1-u5-e50",
-    type: "sentence-building",
+    type: "fill-blank",
     level: "B1",
-    topic: "Social Issues & The Environment",
-    topicName: "Grammar",
-    difficulty: "easy",
+    topic: "Home & Community",
+    topicName: "Vocabulary",
+    difficulty: "medium",
     content: {
-      title: 'Equality Sentence',
-      instructions: "Order the words.",
-      sentences: [
+      title: 'Safe Living',
+      instructions: "Complete the sentence.",
+      questions: [
         {
-          id: 's1',
-          words: ["Equality", "for", "everyone.", "important", "is"],
-          correctSentence: "Equality is important for everyone.",
-          translation: "La igualdad es importante para todos.",
-          points: 5
+          id: 'q1',
+          text: "I feel safe walking in my ___ at night.",
+          correctAnswer: "neighborhood",
+          explanation: "Neighborhood is the area where one lives."
         }
       ]
     } as any
   },
 
-  // --- SUB-TOPIC 6: Future Forms (will, going to, present continuous) (51-65) ---
+  // --- SUB-TOPIC 6: Second Conditional - Hypothetical Home (51-65) ---
   {
     id: "b1-u5-e51",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Grammar",
     difficulty: "medium",
     content: {
-      title: 'Future Prediction',
-      instructions: 'Choose the correct form for a prediction.',
+      title: 'Hypothetical House',
+      instructions: 'Choose the correct verb form.',
       questions: [
         {
           id: 'q1',
-          question: 'I think that in the future, cars __________ electricity only.',
-          options: ["will use", "are going to use", "are using", "use"],
-          correctAnswer: 0,
-          explanation: "We use 'will' for general predictions about the future."
+          question: 'If I __________ a bigger house, I would have a library.',
+          options: ["have", "had", "will have", "would have"],
+          correctAnswer: 1,
+          explanation: "In the 'if' clause of a second conditional, we use the past simple."
         }
       ]
     } as any
@@ -1067,19 +1062,19 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e52",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Grammar",
     difficulty: "medium",
     content: {
-      title: 'Future Intention',
-      instructions: 'Choose the correct form for an intention.',
+      title: 'City Living',
+      instructions: 'Choose the correct result clause.',
       questions: [
         {
           id: 'q1',
-          question: 'I __________ a volunteer for the ocean clean-up next month.',
-          options: ["am going to be", "will be", "be", "am being"],
-          correctAnswer: 0,
-          explanation: "We use 'be going to' for planned intentions."
+          question: 'If I lived in the city center, I __________ to work.',
+          options: ["walked", "will walk", "would walk", "can walk"],
+          correctAnswer: 2,
+          explanation: "In the main clause of a second conditional, we use 'would' + base form."
         }
       ]
     } as any
@@ -1088,19 +1083,19 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e53",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Grammar",
     difficulty: "medium",
     content: {
-      title: 'Fixed Arrangement',
-      instructions: 'Choose the correct form for a fixed arrangement.',
+      title: 'Dream Kitchen',
+      instructions: 'Choose the correct option.',
       questions: [
         {
           id: 'q1',
-          question: 'The committee __________ about the new pollution law tomorrow at 10 AM.',
-          options: ["is meeting", "will meet", "meets", "is going to meet"],
-          correctAnswer: 0,
-          explanation: "Present continuous is used for fixed arrangements with a specific time/place."
+          question: 'Would you cook more if you __________ a modern kitchen?',
+          options: ["have", "had", "would have", "will have"],
+          correctAnswer: 1,
+          explanation: "The 'if' clause always uses past simple in the second conditional."
         }
       ]
     } as any
@@ -1109,19 +1104,19 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e54",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Grammar",
     difficulty: "medium",
     content: {
-      title: 'Sudden Decision',
-      instructions: 'Choose the correct form for a spontaneous decision.',
+      title: 'Quiet Neighborhood',
+      instructions: 'Complete the sentence.',
       questions: [
         {
           id: 'q1',
-          question: "Oh, it's getting dark. I __________ the solar lights now.",
-          options: ["will turn on", "am going to turn on", "turn on", "am turning on"],
-          correctAnswer: 0,
-          explanation: "We use 'will' for decisions made at the moment of speaking."
+          question: 'If our neighborhood __________ quieter, we would sleep better.',
+          options: ["is", "was/were", "will be", "would be"],
+          correctAnswer: 1,
+          explanation: "Past simple of 'be' is used for hypothetical conditions."
         }
       ]
     } as any
@@ -1130,19 +1125,19 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e55",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Grammar",
     difficulty: "medium",
     content: {
-      title: 'Future Evidence',
-      instructions: 'Choose the correct form based on evidence.',
+      title: 'Helping Out',
+      instructions: 'Choose the correct conditional form.',
       questions: [
         {
           id: 'q1',
-          question: "Look at those black clouds! It __________.",
-          options: ["is going to rain", "will rain", "rains", "is raining"],
-          correctAnswer: 0,
-          explanation: "We use 'be going to' for predictions when there is present evidence."
+          question: 'If I had more time, I __________ the community center more often.',
+          options: ["visited", "will visit", "would visit", "visit"],
+          correctAnswer: 2,
+          explanation: "Main clause: would + infinitive."
         }
       ]
     } as any
@@ -1151,18 +1146,18 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e56",
     type: "fill-blank",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Grammar",
     difficulty: "medium",
     content: {
-      title: 'Future Practice 1',
-      instructions: "Use 'will' or 'going to'.",
+      title: 'Hypothetical Practice 1',
+      instructions: "Complete with the correct form.",
       questions: [
         {
           id: 'q1',
-          text: "One day, I think we ___ (solve) the plastic problem.",
-          correctAnswer: "will solve",
-          explanation: "General prediction."
+          text: "If I ___ (win) the lottery, I would buy a mansion.",
+          correctAnswer: "won",
+          explanation: "If clause: past simple."
         }
       ]
     } as any
@@ -1171,18 +1166,18 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e57",
     type: "fill-blank",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Grammar",
     difficulty: "medium",
     content: {
-      title: 'Future Practice 2',
-      instructions: "Use 'will' or 'going to'.",
+      title: 'Hypothetical Practice 2',
+      instructions: "Complete the main clause.",
       questions: [
         {
           id: 'q1',
-          text: "I ___ (buy) a reusable bottle this afternoon.",
-          correctAnswer: "am going to buy",
-          explanation: "Planned intention."
+          text: "If we had a garden, we ___ (grow) our own tomatoes.",
+          correctAnswer: "would grow",
+          explanation: "Main clause: would + infinitive."
         }
       ]
     } as any
@@ -1191,18 +1186,18 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e58",
     type: "fill-blank",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Grammar",
     difficulty: "medium",
     content: {
-      title: 'Future Practice 3',
-      instructions: "Use present continuous for arrangements.",
+      title: 'Hypothetical Practice 3',
+      instructions: "Complete with 'be'.",
       questions: [
         {
           id: 'q1',
-          text: "We ___ (have) a meeting about recycling at 3 PM today.",
-          correctAnswer: "are having",
-          explanation: "Fixed arrangement."
+          text: "If I ___ (be) you, I would paint the living room blue.",
+          correctAnswer: "were",
+          explanation: "In second conditional, 'were' is often used for all persons of 'be'."
         }
       ]
     } as any
@@ -1211,18 +1206,18 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e59",
     type: "fill-blank",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Grammar",
     difficulty: "medium",
     content: {
-      title: 'Future Practice 4',
-      instructions: "Use 'will' for spontaneous decisions.",
+      title: 'Hypothetical Practice 4',
+      instructions: "Complete the sentence.",
       questions: [
         {
           id: 'q1',
-          text: "Wait! I ___ (help) you carry those heavy recycling bags.",
-          correctAnswer: "will help",
-          explanation: "Decision made at the moment of speaking."
+          text: "What ___ you ___ (do) if you found a secret room in your house?",
+          correctAnswer: "would / do",
+          explanation: "Question form: would + subject + infinitive."
         }
       ]
     } as any
@@ -1231,18 +1226,18 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e60",
     type: "fill-blank",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Grammar",
     difficulty: "medium",
     content: {
-      title: 'Future Practice 5',
-      instructions: "Use 'going to' for evidence.",
+      title: 'Hypothetical Practice 5',
+      instructions: "Complete the 'if' clause.",
       questions: [
         {
           id: 'q1',
-          text: "The temperature is rising rapidly; it ___ (be) a very hot summer.",
-          correctAnswer: "is going to be",
-          explanation: "Prediction based on evidence."
+          text: "If we ___ (not/have) any neighbors, it would be very lonely.",
+          correctAnswer: "didn't have",
+          explanation: "If clause: past simple (negative)."
         }
       ]
     } as any
@@ -1251,16 +1246,17 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e61",
     type: "matching",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Grammar",
     difficulty: "medium",
     content: {
-      title: 'Future Functions',
-      instructions: "Match the form with its function.",
+      title: 'Hypothetical Situations',
+      instructions: "Match the condition with the hypothetical result.",
       pairs: [
-        { id: "f1", left: "Will", right: "Prediction / Sudden decision" },
-        { id: "f2", left: "Going to", right: "Intention / Evidence" },
-        { id: "f3", left: "Present Continuous", right: "Arrangement" }
+        { id: "h1", left: "If I lived on a boat", right: "I'd travel the world" },
+        { id: "h2", left: "If I had a pool", right: "I'd swim every morning" },
+        { id: "h3", left: "If the house were cheaper", right: "we'd buy it" },
+        { id: "h4", left: "If I knew his address", right: "I'd visit him" }
       ]
     } as any
   },
@@ -1268,19 +1264,24 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e62",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Grammar",
     difficulty: "medium",
     content: {
-      title: 'Volunteer Work',
-      instructions: "Choose the correct form.",
+      title: 'Second Conditional Choice',
+      instructions: "Choose the correct structure.",
       questions: [
         {
           id: 'q1',
-          question: "I __________ for a charity walk this weekend. I signed up yesterday.",
-          options: ["am walking", "will walk", "walk", "am going to walk"],
-          correctAnswer: 0,
-          explanation: "Present continuous because it's a fixed arrangement after signing up."
+          question: "Which sentence is a hypothetical situation?",
+          options: [
+            "If I have time, I'll help you.",
+            "If I had time, I'd help you.",
+            "If I will have time, I'd help you.",
+            "If I had time, I'll help you."
+          ],
+          correctAnswer: 1,
+          explanation: "Past simple + 'would' + infinitive is the second conditional."
         }
       ]
     } as any
@@ -1289,19 +1290,19 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e63",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Grammar",
     difficulty: "medium",
     content: {
-      title: 'Future Cities',
-      instructions: "Choose the correct form.",
+      title: 'Advice',
+      instructions: "Choose the correct advice form.",
       questions: [
         {
           id: 'q1',
-          question: "Experts predict that cities __________ smarter by 2040.",
-          options: ["will become", "are becoming", "become", "are going to become"],
-          correctAnswer: 0,
-          explanation: "Formal predictions usually use 'will'."
+          question: "If I __________ you, I'd talk to the landlord.",
+          options: ["am", "was", "were", "will be"],
+          correctAnswer: 2,
+          explanation: "'If I were you' is a fixed expression for giving advice."
         }
       ]
     } as any
@@ -1310,19 +1311,19 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e64",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Grammar",
     difficulty: "medium",
     content: {
-      title: 'Buying a car',
-      instructions: "Choose the correct form.",
+      title: 'Imaginary Home',
+      instructions: "Complete the sentence.",
       questions: [
         {
           id: 'q1',
-          question: "I've saved enough money. I __________ an electric car.",
-          options: ["am going to buy", "will buy", "buy", "am buying"],
-          correctAnswer: 0,
-          explanation: "An intention or plan already made."
+          question: "Where __________ you live if you could live anywhere?",
+          options: ["will", "do", "would", "did"],
+          correctAnswer: 2,
+          explanation: "In questions, 'would' comes before the subject."
         }
       ]
     } as any
@@ -1331,40 +1332,40 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e65",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Grammar",
     difficulty: "medium",
     content: {
-      title: 'Help request',
-      instructions: "Choose the correct form.",
+      title: 'Hypothetical Move',
+      instructions: "Choose the correct verb.",
       questions: [
         {
           id: 'q1',
-          question: "A: The recycling bin is full. B: I __________ it outside.",
-          options: ["will take", "am going to take", "take", "am taking"],
-          correctAnswer: 0,
-          explanation: "A spontaneous decision to help."
+          question: "If we moved to the countryside, we __________ a dog.",
+          options: ["get", "will get", "would get", "got"],
+          correctAnswer: 2,
+          explanation: "Result clause in the second conditional."
         }
       ]
     } as any
   },
 
-  // --- SUB-TOPIC 7: Social Issues (66-75) ---
+  // --- SUB-TOPIC 7: Home Life Vocabulary (66-75) ---
   {
     id: "b1-u5-e66",
     type: "flashcard",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Vocabulary",
-    difficulty: "hard",
+    difficulty: "medium",
     content: {
       items: [
         {
-          front: "Homelessness",
-          back: "Falta de hogar",
-          pronunciation: "/ˈhəʊmləsnəs/",
-          example: "Homelessness is a complex issue in urban areas.",
-          explanation: "El estado de no tener un lugar permanente para vivir."
+          front: "Renovation",
+          back: "Renovación / Reforma",
+          pronunciation: "/ˌren.əˈveɪ.ʃən/",
+          example: "The kitchen needs a complete renovation.",
+          explanation: "El proceso de mejorar un edificio o estructura."
         }
       ]
     } as any
@@ -1373,17 +1374,17 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e67",
     type: "flashcard",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Vocabulary",
-    difficulty: "hard",
+    difficulty: "medium",
     content: {
       items: [
         {
-          front: "Child labor",
-          back: "Trabajo infantil",
-          pronunciation: "/tʃaɪld ˈleɪbə/",
-          example: "Many organizations fight to abolish child labor.",
-          explanation: "El empleo de niños en una industria o negocio, especialmente cuando es ilegal o explotador."
+          front: "Landlord",
+          back: "Propietario / Casero",
+          pronunciation: "/ˈlænd.lɔːd/",
+          example: "Our landlord is very helpful and fixes things quickly.",
+          explanation: "Una persona que alquila un edificio o terreno a otros."
         }
       ]
     } as any
@@ -1392,17 +1393,17 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e68",
     type: "flashcard",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Vocabulary",
-    difficulty: "hard",
+    difficulty: "medium",
     content: {
       items: [
         {
-          front: "Discrimination",
-          back: "Discriminación",
-          pronunciation: "/dɪˌskrɪmɪˈneɪʃn/",
-          example: "We must eliminate all forms of discrimination.",
-          explanation: "El trato injusto o perjudicial de diferentes categorías de personas."
+          front: "Tenant",
+          back: "Inquilino",
+          pronunciation: "/ˈten.ənt/",
+          example: "The new tenants moved in last weekend.",
+          explanation: "Una persona que alquila una propiedad a un propietario."
         }
       ]
     } as any
@@ -1411,17 +1412,17 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e69",
     type: "flashcard",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Vocabulary",
-    difficulty: "hard",
+    difficulty: "medium",
     content: {
       items: [
         {
-          front: "Human rights",
-          back: "Derechos humanos",
-          pronunciation: "/ˌhjuːmən ˈraɪts/",
-          example: "Freedom of speech is a fundamental human right.",
-          explanation: "Un derecho que se cree que pertenece legítimamente a cada persona."
+          front: "Lease",
+          back: "Contrato de arrendamiento",
+          pronunciation: "/liːs/",
+          example: "We signed a two-year lease for the apartment.",
+          explanation: "Un contrato legal por el cual una persona alquila una propiedad."
         }
       ]
     } as any
@@ -1430,17 +1431,17 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e70",
     type: "flashcard",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Vocabulary",
-    difficulty: "hard",
+    difficulty: "medium",
     content: {
       items: [
         {
-          front: "Corruption",
-          back: "Corrupción",
-          pronunciation: "/kəˈrʌpʃn/",
-          example: "Transparency is the best way to fight corruption.",
-          explanation: "Conducta deshonesta o fraudulenta por parte de quienes tienen el poder."
+          front: "Amenities",
+          back: "Servicios / Comodidades",
+          pronunciation: "/əˈmiː.nə.tiz/",
+          example: "The building has great amenities, like a gym and a pool.",
+          explanation: "Características deseables o útiles de un edificio o lugar."
         }
       ]
     } as any
@@ -1449,19 +1450,19 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e71",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Vocabulary",
-    difficulty: "hard",
+    difficulty: "medium",
     content: {
-      title: 'Housing Problem',
-      instructions: "Choose the correct term.",
+      title: 'Rental Terms',
+      instructions: 'Choose the correct word.',
       questions: [
         {
           id: 'q1',
-          question: "The lack of housing is called __________.",
-          options: ["homelessness", "unemployment", "equality", "poverty"],
-          correctAnswer: 0,
-          explanation: "Homelessness refers specifically to not having a home."
+          question: 'The person you pay rent to is the __________.',
+          options: ["tenant", "landlord", "lease", "amenity"],
+          correctAnswer: 1,
+          explanation: "The landlord owns the property and receives the rent."
         }
       ]
     } as any
@@ -1470,19 +1471,19 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e72",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Vocabulary",
-    difficulty: "hard",
+    difficulty: "medium",
     content: {
-      title: 'Fair Treatment',
-      instructions: "Choose the correct term.",
+      title: 'Housing Agreements',
+      instructions: 'Choose the best option.',
       questions: [
         {
           id: 'q1',
-          question: "Treating someone poorly because of their race or gender is __________.",
-          options: ["discrimination", "conservation", "biodiversity", "wellness"],
+          question: 'The legal document for renting is the __________.',
+          options: ["lease", "renovation", "furniture", "budget"],
           correctAnswer: 0,
-          explanation: "Discrimination is the unfair treatment of different categories of people."
+          explanation: "A lease is the rental contract."
         }
       ]
     } as any
@@ -1491,19 +1492,19 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e73",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Vocabulary",
-    difficulty: "hard",
+    difficulty: "medium",
     content: {
-      title: 'Global Rights',
-      instructions: "Choose the correct term.",
+      title: 'Modern Features',
+      instructions: 'Choose the correct term.',
       questions: [
         {
           id: 'q1',
-          question: "The UN works to protect __________ worldwide.",
-          options: ["human rights", "corruption", "unemployment", "burnout"],
+          question: 'Heating, air conditioning, and high-speed internet are __________.',
+          options: ["amenities", "tenants", "landlords", "commutes"],
           correctAnswer: 0,
-          explanation: "Human rights are the basic rights and freedoms that belong to every person."
+          explanation: "Amenities are the useful features of a property."
         }
       ]
     } as any
@@ -1512,19 +1513,19 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e74",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Vocabulary",
-    difficulty: "hard",
+    difficulty: "medium",
     content: {
-      title: 'Political Issue',
-      instructions: "Choose the correct term.",
+      title: 'Improving the Home',
+      instructions: 'Choose the best word.',
       questions: [
         {
           id: 'q1',
-          question: "Dishonest behavior by politicians is a form of __________.",
-          options: ["corruption", "equality", "sustainability", "recovery"],
+          question: 'If you want to update an old house, you need a __________.',
+          options: ["renovation", "lease", "tenant", "schedule"],
           correctAnswer: 0,
-          explanation: "Corruption involves dishonest or fraudulent conduct by those in power."
+          explanation: "Renovation is the process of improving or updating a building."
         }
       ]
     } as any
@@ -1533,137 +1534,158 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e75",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Vocabulary",
-    difficulty: "hard",
+    difficulty: "medium",
     content: {
-      title: 'Exploitation',
-      instructions: "Choose the correct term.",
+      title: 'Living There',
+      instructions: 'Choose the correct term.',
       questions: [
         {
           id: 'q1',
-          question: "Using children for work is known as __________.",
-          options: ["child labor", "human rights", "discrimination", "equality"],
+          question: 'A person who lives in a rented apartment is a __________.',
+          options: ["tenant", "landlord", "amenity", "commute"],
           correctAnswer: 0,
-          explanation: "Child labor is the exploitation of children through work."
+          explanation: "A tenant is the person who rents the property."
         }
       ]
     } as any
   },
 
-  // --- SUB-TOPIC 8: Sustainability Actions (76-85) ---
+  // --- SUB-TOPIC 8: Home Improvement Reading (76-80) ---
   {
     id: "b1-u5-e76",
-    type: "flashcard",
+    type: "reading-comprehension",
     level: "B1",
-    topic: "Social Issues & The Environment",
-    topicName: "Vocabulary",
+    topic: "Home & Community",
+    topicName: "Reading",
     difficulty: "medium",
     content: {
-      items: [
+      title: "Our Home Renovation Adventure",
+      text: `Last year, my partner and I bought an old house that needed a lot of work. We decided to do most of the renovation ourselves. If we had more money, we would hire professionals, but we are learning a lot by doing it our way.
+      
+      The house, which was built in the 1950s, has a beautiful wooden floor. We have already painted the living room and fixed the kitchen appliances. Our landlord (from our previous apartment) was happy when we moved out because he wanted to renovate that place too.
+      
+      Next month, we will start working on the garden. If the weather is nice, we will finish it by the end of spring. It's a lot of hard work, but we love our new home!`,
+      questions: [
         {
-          front: "Reduce, Reuse, Recycle",
-          back: "Reducir, Reutilizar, Reciclar",
-          pronunciation: "/rɪˈdjuːs, riːˈjuːz, ˌriːˈsaɪkl/",
-          example: "The three R's are essential for a green lifestyle.",
-          explanation: "La base de la gestión responsable de residuos."
+          id: "q1",
+          question: "Why aren't they hiring professionals?",
+          options: ["They don't like professionals", "They don't have enough money", "Professionals are busy", "They want to finish in 1950"],
+          correctAnswer: 1,
+          explanation: "The text states 'If we had more money, we would hire professionals'."
+        },
+        {
+          id: "q2",
+          question: "When was the house built?",
+          options: ["Last year", "Next month", "In the 1950s", "By the end of spring"],
+          correctAnswer: 2,
+          explanation: "The text says the house 'was built in the 1950s'."
         }
       ]
     } as any
   },
   {
     id: "b1-u5-e77",
-    type: "flashcard",
+    type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
-    topicName: "Vocabulary",
+    topic: "Home & Community",
+    topicName: "Reading",
     difficulty: "medium",
     content: {
-      items: [
+      title: 'Current Progress',
+      instructions: "What have they finished so far?",
+      questions: [
         {
-          front: "Composting",
-          back: "Compostaje",
-          pronunciation: "/ˈkɒmpɒstɪŋ/",
-          example: "Composting helps to turn food waste into fertilizer.",
-          explanation: "El proceso de reciclar residuos orgánicos."
+          id: 'q1',
+          question: 'Finished:',
+          options: ["The garden", "The living room and kitchen appliances", "The wooden floor", "The whole house"],
+          correctAnswer: 1,
+          explanation: "They have 'already painted the living room and fixed the kitchen appliances'."
         }
       ]
     } as any
   },
   {
     id: "b1-u5-e78",
-    type: "flashcard",
+    type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
-    topicName: "Vocabulary",
+    topic: "Home & Community",
+    topicName: "Reading",
     difficulty: "medium",
     content: {
-      items: [
+      title: 'Future Plans',
+      instructions: "What will they do next month?",
+      questions: [
         {
-          front: "Energy-efficient",
-          back: "Eficiente energéticamente",
-          pronunciation: "/ˌenədʒi ɪˈfɪʃnt/",
-          example: "Energy-efficient bulbs use much less power.",
-          explanation: "Que utiliza menos energía para proporcionar el mismo nivel de rendimiento."
+          id: 'q1',
+          question: "Next month, they will __________.",
+          options: ["move out", "start working on the garden", "hire a landlord", "sell the wooden floor"],
+          correctAnswer: 1,
+          explanation: "The text says 'Next month, we will start working on the garden'."
         }
       ]
     } as any
   },
   {
     id: "b1-u5-e79",
-    type: "flashcard",
+    type: "fill-blank",
     level: "B1",
-    topic: "Social Issues & The Environment",
-    topicName: "Vocabulary",
+    topic: "Home & Community",
+    topicName: "Reading",
     difficulty: "medium",
     content: {
-      items: [
+      title: 'House Feature',
+      instructions: "Complete with the noun from the text.",
+      questions: [
         {
-          front: "Eco-friendly",
-          back: "Respetuoso con el medio ambiente",
-          pronunciation: "/ˈiːkəʊ ˌfrendli/",
-          example: "We only use eco-friendly cleaning products.",
-          explanation: "No dañino para el medio ambiente."
+          id: 'q1',
+          text: "The house has a beautiful wooden ___.",
+          correctAnswer: "floor",
+          explanation: "The text mentions a 'beautiful wooden floor'."
         }
       ]
     } as any
   },
   {
     id: "b1-u5-e80",
-    type: "flashcard",
+    type: "fill-blank",
     level: "B1",
-    topic: "Social Issues & The Environment",
-    topicName: "Vocabulary",
+    topic: "Home & Community",
+    topicName: "Reading",
     difficulty: "medium",
     content: {
-      items: [
+      title: 'Renovation Condition',
+      instructions: "Complete with the conditional form used.",
+      questions: [
         {
-          front: "Zero waste",
-          back: "Residuo cero",
-          pronunciation: "/ˌzɪərəʊ ˈweɪst/",
-          example: "She aims to live a zero-waste lifestyle.",
-          explanation: "Un conjunto de principios centrados en la prevención de residuos."
+          id: 'q1',
+          text: "If the weather ___ nice, we will finish it.",
+          correctAnswer: "is",
+          explanation: "First conditional: 'is' for present condition."
         }
       ]
     } as any
   },
+
+  // --- SUB-TOPIC 9: Relative Clauses (81-95) ---
   {
     id: "b1-u5-e81",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
-    topicName: "Vocabulary",
+    topic: "Home & Community",
+    topicName: "Grammar",
     difficulty: "medium",
     content: {
-      title: 'Waste Management',
-      instructions: "Choose the correct term for organic waste.",
+      title: 'Relative Pronouns - People',
+      instructions: 'Choose the correct relative pronoun.',
       questions: [
         {
           id: 'q1',
-          question: "Process of turning organic waste into soil is called __________.",
-          options: ["composting", "pollution", "unemployment", "corruption"],
+          question: 'The neighbor __________ lives next door is very friendly.',
+          options: ["who", "which", "where", "whose"],
           correctAnswer: 0,
-          explanation: "Composting is the recycling of organic materials."
+          explanation: "We use 'who' for people."
         }
       ]
     } as any
@@ -1672,19 +1694,19 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e82",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
-    topicName: "Vocabulary",
+    topic: "Home & Community",
+    topicName: "Grammar",
     difficulty: "medium",
     content: {
-      title: 'Green Products',
-      instructions: "Choose the correct adjective.",
+      title: 'Relative Pronouns - Things',
+      instructions: 'Choose the correct pronoun.',
       questions: [
         {
           id: 'q1',
-          question: "Products that do not harm nature are __________.",
-          options: ["eco-friendly", "sore", "sedentary", "vivid"],
-          correctAnswer: 0,
-          explanation: "Eco-friendly products are environmentally safe."
+          question: 'The apartment __________ has a balcony is more expensive.',
+          options: ["who", "which/that", "where", "when"],
+          correctAnswer: 1,
+          explanation: "We use 'which' or 'that' for things and animals."
         }
       ]
     } as any
@@ -1693,19 +1715,19 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e83",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
-    topicName: "Vocabulary",
+    topic: "Home & Community",
+    topicName: "Grammar",
     difficulty: "medium",
     content: {
-      title: 'Saving Power',
-      instructions: "Choose the correct term.",
+      title: 'Relative Pronouns - Places',
+      instructions: 'Choose the correct pronoun.',
       questions: [
         {
           id: 'q1',
-          question: "Bulbs that use less electricity are __________.",
-          options: ["energy-efficient", "sustainable", "renewable", "reusable"],
+          question: 'This is the town __________ I grew up.',
+          options: ["where", "which", "who", "whose"],
           correctAnswer: 0,
-          explanation: "Energy-efficient means using less energy for the same result."
+          explanation: "We use 'where' for places."
         }
       ]
     } as any
@@ -1714,19 +1736,19 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e84",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
-    topicName: "Vocabulary",
+    topic: "Home & Community",
+    topicName: "Grammar",
     difficulty: "medium",
     content: {
-      title: 'Life Goal',
-      instructions: "Choose the correct term.",
+      title: 'Defining Clauses',
+      instructions: 'Complete the sentence.',
       questions: [
         {
           id: 'q1',
-          question: "Trying to produce no trash at all is the __________ movement.",
-          options: ["zero waste", "global warming", "carbon footprint", "conservation"],
+          question: 'The landlord __________ owns this building lives in London.',
+          options: ["who", "which", "where", "whose"],
           correctAnswer: 0,
-          explanation: "Zero waste aims to eliminate trash completely."
+          explanation: "'Who' refers to the landlord (a person)."
         }
       ]
     } as any
@@ -1735,88 +1757,79 @@ If we act together, we will save our beautiful planet for future generations.`,
     id: "b1-u5-e85",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
-    topicName: "Vocabulary",
+    topic: "Home & Community",
+    topicName: "Grammar",
     difficulty: "medium",
     content: {
-      title: 'The three R\'s',
-      instructions: "Choose the correct verb.",
+      title: 'Non-defining Clauses',
+      instructions: 'Choose the correct structure.',
       questions: [
         {
           id: 'q1',
-          question: "Reduce, __________, Recycle.",
-          options: ["Reuse", "Reminisce", "Review", "Recover"],
+          question: 'My house, __________ has blue windows, is very old.',
+          options: ["which", "that", "where", "who"],
           correctAnswer: 0,
-          explanation: "The three R's are Reduce, Reuse, Recycle."
+          explanation: "In non-defining clauses (with commas), we must use 'which', not 'that'."
         }
       ]
     } as any
   },
-
-  // --- SUB-TOPIC 9: Environmental Debate (86-95) ---
   {
     id: "b1-u5-e86",
-    type: "reading-comprehension",
+    type: "fill-blank",
     level: "B1",
-    topic: "Social Issues & The Environment",
-    topicName: "Interaction",
-    difficulty: "hard",
+    topic: "Home & Community",
+    topicName: "Grammar",
+    difficulty: "medium",
     content: {
-      title: "Public Debate on Climate Change",
-      text: `Moderator: Welcome to the debate. Should governments ban gas cars by 2030?
-Expert A: Yes, they must. If we don't act fast, global warming will reach a point of no return. We need renewable energy and electric transport now.
-Expert B: I understand, but we must consider the economy. If we ban gas cars too quickly, unemployment will rise in the automotive sector.
-Expert A: We can retrain workers. If we invest in green technology, we will create new, sustainable jobs.
-Expert B: That's a good intention, but it's going to be difficult to implement in just ten years.`,
+      title: 'Relative Clause Practice 1',
+      instructions: "Complete with who, which, or where.",
       questions: [
         {
-          id: "q1",
-          question: "What is Expert A's main argument?",
-          options: ["Ban gas cars to stop global warming", "Keep gas cars for the economy", "Wait until 2050", "Increase taxes"],
-          correctAnswer: 0,
-          explanation: "Expert A argues for banning gas cars to act against global warming."
+          id: 'q1',
+          text: "The library is a place ___ you can study in peace.",
+          correctAnswer: "where",
+          explanation: "Place: where."
         }
       ]
     } as any
   },
   {
     id: "b1-u5-e87",
-    type: "multiple-choice",
+    type: "fill-blank",
     level: "B1",
-    topic: "Social Issues & The Environment",
-    topicName: "Interaction",
-    difficulty: "hard",
+    topic: "Home & Community",
+    topicName: "Grammar",
+    difficulty: "medium",
     content: {
-      title: 'Economic Concern',
-      instructions: "What is Expert B worried about?",
+      title: 'Relative Clause Practice 2',
+      instructions: "Complete with the pronoun.",
       questions: [
         {
           id: 'q1',
-          question: "Expert B thinks that banning gas cars will lead to __________.",
-          options: ["unemployment", "equality", "renewable energy", "composting"],
-          correctAnswer: 0,
-          explanation: "Expert B mentions 'unemployment will rise'."
+          text: "The man ___ fixed our heater was very professional.",
+          correctAnswer: "who",
+          explanation: "Person: who."
         }
       ]
     } as any
   },
   {
     id: "b1-u5-e88",
-    type: "multiple-choice",
+    type: "fill-blank",
     level: "B1",
-    topic: "Social Issues & The Environment",
-    topicName: "Interaction",
-    difficulty: "hard",
+    topic: "Home & Community",
+    topicName: "Grammar",
+    difficulty: "medium",
     content: {
-      title: 'Job Solution',
-      instructions: "What does Expert A suggest for workers?",
+      title: 'Relative Clause Practice 3',
+      instructions: "Complete with the pronoun.",
       questions: [
         {
           id: 'q1',
-          question: "Solution:",
-          options: ["Retrain workers for green jobs", "Give them money", "Build more gas factories", "Nothing"],
-          correctAnswer: 0,
-          explanation: "Expert A suggests retraining workers for 'new, sustainable jobs'."
+          text: "I have a new sofa ___ is very comfortable.",
+          correctAnswer: "which",
+          explanation: "Thing: which (or that)."
         }
       ]
     } as any
@@ -1825,18 +1838,18 @@ Expert B: That's a good intention, but it's going to be difficult to implement i
     id: "b1-u5-e89",
     type: "fill-blank",
     level: "B1",
-    topic: "Social Issues & The Environment",
-    topicName: "Interaction",
-    difficulty: "hard",
+    topic: "Home & Community",
+    topicName: "Grammar",
+    difficulty: "medium",
     content: {
-      title: 'Time Prediction',
-      instructions: "Complete with the future form used by Expert B.",
+      title: 'Relative Clause Practice 4',
+      instructions: "Complete with the pronoun.",
       questions: [
         {
           id: 'q1',
-          text: "It ___ (be) difficult to implement in just ten years.",
-          correctAnswer: "is going to be",
-          explanation: "Expert B uses 'is going to be' based on his assessment of the difficulty."
+          text: "That's the shop ___ I bought my furniture.",
+          correctAnswer: "where",
+          explanation: "Place: where."
         }
       ]
     } as any
@@ -1845,18 +1858,18 @@ Expert B: That's a good intention, but it's going to be difficult to implement i
     id: "b1-u5-e90",
     type: "fill-blank",
     level: "B1",
-    topic: "Social Issues & The Environment",
-    topicName: "Interaction",
-    difficulty: "hard",
+    topic: "Home & Community",
+    topicName: "Grammar",
+    difficulty: "medium",
     content: {
-      title: 'Mandatory Action',
-      instructions: "Complete with the modal used by Expert A.",
+      title: 'Relative Clause Practice 5',
+      instructions: "Complete with the pronoun.",
       questions: [
         {
           id: 'q1',
-          text: "Governments ___ ban gas cars.",
-          correctAnswer: "must",
-          explanation: "Expert A uses 'must' to express strong necessity."
+          text: "The people ___ live upstairs are very noisy.",
+          correctAnswer: "who",
+          explanation: "People: who."
         }
       ]
     } as any
@@ -1865,15 +1878,17 @@ Expert B: That's a good intention, but it's going to be difficult to implement i
     id: "b1-u5-e91",
     type: "matching",
     level: "B1",
-    topic: "Social Issues & The Environment",
-    topicName: "Interaction",
-    difficulty: "hard",
+    topic: "Home & Community",
+    topicName: "Grammar",
+    difficulty: "medium",
     content: {
-      title: 'Debate Summary',
-      instructions: "Match the expert with their focus.",
+      title: 'Relative Connections',
+      instructions: "Match the sentence halves.",
       pairs: [
-        { id: "e1", left: "Expert A", right: "Environment & Green Tech" },
-        { id: "e2", left: "Expert B", right: "Economy & Employment" }
+        { id: "r1", left: "A gardener is someone", right: "who looks after gardens" },
+        { id: "r2", left: "A fridge is a machine", right: "which keeps food cold" },
+        { id: "r3", left: "A bedroom is a room", right: "where you sleep" },
+        { id: "r4", left: "A hammer is a tool", right: "which is used for nails" }
       ]
     } as any
   },
@@ -1881,19 +1896,19 @@ Expert B: That's a good intention, but it's going to be difficult to implement i
     id: "b1-u5-e92",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
-    topicName: "Vocabulary",
+    topic: "Home & Community",
+    topicName: "Grammar",
     difficulty: "medium",
     content: {
-      title: 'Automotive Sector',
-      instructions: "Define 'automotive sector'.",
+      title: 'Whose',
+      instructions: "Choose the correct pronoun for possession.",
       questions: [
         {
           id: 'q1',
-          question: "What is the automotive sector?",
-          options: ["Car industry", "Plant industry", "Ocean industry", "Education industry"],
+          question: 'The tenant __________ car is in my space should move it.',
+          options: ["whose", "who", "which", "where"],
           correctAnswer: 0,
-          explanation: "Automotive refers to cars and motor vehicles."
+          explanation: "We use 'whose' for possession (the tenant's car)."
         }
       ]
     } as any
@@ -1902,280 +1917,252 @@ Expert B: That's a good intention, but it's going to be difficult to implement i
     id: "b1-u5-e93",
     type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
+    topic: "Home & Community",
     topicName: "Grammar",
     difficulty: "medium",
     content: {
-      title: 'Fast Action',
-      instructions: "Complete the conditional from the text.",
+      title: 'Relative Context',
+      instructions: "Choose the best option.",
       questions: [
         {
           id: 'q1',
-          question: "If we don't act fast, global warming __________ a point of no return.",
-          options: ["will reach", "reaches", "reached", "is reaching"],
+          question: 'The park __________ we go every Sunday is near here.',
+          options: ["where", "who", "which", "when"],
           correctAnswer: 0,
-          explanation: "Standard first conditional structure for a future consequence."
+          explanation: "'Where' refers to the park (a place)."
         }
       ]
     } as any
   },
   {
     id: "b1-u5-e94",
-    type: "fill-blank",
+    type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
-    topicName: "Vocabulary",
-    difficulty: "hard",
+    topic: "Home & Community",
+    topicName: "Grammar",
+    difficulty: "medium",
     content: {
-      title: 'Source of Energy',
-      instructions: "Complete with the term from the text.",
+      title: 'Essential Info',
+      instructions: "Identify the defining relative clause.",
       questions: [
         {
           id: 'q1',
-          text: "We need ___ energy.",
-          correctAnswer: "renewable",
-          explanation: "Expert A mentions the need for renewable energy."
+          question: "Which sentence provides essential information about the person?",
+          options: [
+            "The woman who lives there is a doctor.",
+            "My mother, who is a doctor, lives there.",
+            "The woman, who is a doctor, lives there.",
+            "That woman is a doctor, who lives there."
+          ],
+          correctAnswer: 0,
+          explanation: "Defining clauses (no commas) provide essential information to identify the subject."
         }
       ]
     } as any
   },
   {
     id: "b1-u5-e95",
-    type: "fill-blank",
+    type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
-    topicName: "Vocabulary",
+    topic: "Home & Community",
+    topicName: "Grammar",
     difficulty: "medium",
     content: {
-      title: 'Job Quality',
-      instructions: "Complete with the adjective used for jobs.",
+      title: 'Omitting the Pronoun',
+      instructions: "In which sentence can we omit 'who/which/that'?",
       questions: [
         {
           id: 'q1',
-          text: "We will create ___ jobs.",
-          correctAnswer: "sustainable",
-          explanation: "The text refers to 'sustainable jobs'."
+          question: "Choose the sentence where the pronoun can be removed.",
+          options: [
+            "The house that we bought is small.",
+            "The house that is on the corner is small.",
+            "The man who fixed the roof is here.",
+            "The dog which barked all night is quiet."
+          ],
+          correctAnswer: 0,
+          explanation: "We can omit the relative pronoun when it is the object of the clause (we bought the house)."
         }
       ]
     } as any
   },
 
-  // --- SUB-TOPIC 10: Final Review (96-100) ---
+  // --- SUB-TOPIC 10: Neighborhood Review (96-100) ---
   {
     id: "b1-u5-e96",
-    type: "sentence-building",
+    type: "matching",
     level: "B1",
-    topic: "Social Issues & The Environment",
-    topicName: "Review",
+    topic: "Home & Community",
+    topicName: "Vocabulary",
     difficulty: "medium",
     content: {
-      title: 'Pollution Sentence',
-      instructions: "Order the words.",
-      sentences: [
-        {
-          id: 's1',
-          words: ["Pollution", "is", "a", "threat", "to", "human", "rights", "."],
-          correctSentence: "Pollution is a threat to human rights.",
-          translation: "La contaminación es una amenaza para los derechos humanos.",
-          points: 10
-        }
+      title: 'Home Review',
+      instructions: "Match the word with its category.",
+      pairs: [
+        { id: "v1", left: "Fridge", right: "Appliance" },
+        { id: "v2", left: "Chair", right: "Furniture" },
+        { id: "v3", left: "Painting", right: "Decoration" },
+        { id: "v4", left: "Roof repair", right: "Maintenance" }
       ]
     } as any
   },
   {
     id: "b1-u5-e97",
-    type: "sentence-building",
+    type: "fill-blank",
     level: "B1",
-    topic: "Social Issues & The Environment",
-    topicName: "Review",
+    topic: "Home & Community",
+    topicName: "Grammar",
     difficulty: "medium",
     content: {
-      title: 'Future Energy',
-      instructions: "Order the words.",
-      sentences: [
+      title: 'Mixed Conditional Review',
+      instructions: "Complete the sentence correctly.",
+      questions: [
         {
-          id: 's1',
-          words: ["We", "are", "going", "to", "use", "more", "solar", "energy", "."],
-          correctSentence: "We are going to use more solar energy.",
-          translation: "Vamos a usar más energía solar.",
-          points: 10
+          id: 'q1',
+          text: "If I ___ (have) enough money next month, I will buy a new TV.",
+          correctAnswer: "have",
+          explanation: "First conditional for a real possibility."
         }
       ]
     } as any
   },
   {
     id: "b1-u5-e98",
-    type: "sentence-building",
+    type: "fill-blank",
     level: "B1",
-    topic: "Social Issues & The Environment",
-    topicName: "Review",
+    topic: "Home & Community",
+    topicName: "Grammar",
     difficulty: "medium",
     content: {
-      title: 'Conditional Hope',
-      instructions: "Order the words.",
-      sentences: [
+      title: 'Hypothetical Review',
+      instructions: "Complete with the correct form.",
+      questions: [
         {
-          id: 's1',
-          words: ["If", "we", "work", "together,", "we", "will", "succeed", "."],
-          correctSentence: "If we work together, we will succeed.",
-          translation: "Si trabajamos juntos, tendremos éxito.",
-          points: 10
+          id: 'q1',
+          text: "If I ___ (be) a millionaire, I would live in a castle.",
+          correctAnswer: "were",
+          explanation: "Second conditional for an imaginary situation."
         }
       ]
     } as any
   },
   {
     id: "b1-u5-e99",
-    type: "sentence-building",
+    type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
-    topicName: "Review",
+    topic: "Home & Community",
+    topicName: "Vocabulary",
     difficulty: "medium",
     content: {
-      title: 'Waste Reduction',
-      instructions: "Order the words.",
-      sentences: [
+      title: 'Commute Check',
+      instructions: "What does 'commute' mean?",
+      questions: [
         {
-          id: 's1',
-          words: ["Reducing", "waste", "will", "reduce", "your", "carbon", "footprint", "."],
-          correctSentence: "Reducing waste will reduce your carbon footprint.",
-          translation: "Reducir los residuos reducirá tu huella de carbono.",
-          points: 10
+          id: 'q1',
+          question: 'Definition:',
+          options: ["To talk to neighbors", "To travel to work", "To pay rent", "To buy furniture"],
+          correctAnswer: 1,
+          explanation: "Commuting is the act of traveling between home and work."
         }
       ]
     } as any
   },
   {
     id: "b1-u5-e100",
-    type: "sentence-building",
+    type: "multiple-choice",
     level: "B1",
-    topic: "Social Issues & The Environment",
-    topicName: "Review",
+    topic: "Home & Community",
+    topicName: "Grammar",
     difficulty: "medium",
     content: {
-      title: 'Equality Goal',
-      instructions: "Order the words.",
-      sentences: [
+      title: 'Relative Check',
+      instructions: "Which pronoun for 'this house'?",
+      questions: [
         {
-          id: 's1',
-          words: ["Society", "must", "provide", "equal", "opportunities", "for", "all", "."],
-          correctSentence: "Society must provide equal opportunities for all.",
-          translation: "La sociedad debe proporcionar igualdad de oportunidades para todos.",
-          points: 10
+          id: 'q1',
+          question: "I love this house, __________ has a big garden.",
+          options: ["who", "where", "which", "whose"],
+          correctAnswer: 2,
+          explanation: "'Which' is used for things in non-defining clauses."
         }
       ]
     } as any
   },
 
+  // --- SUB-TOPIC 11: Interactive Dialogues (101-102) ---
   {
-    id: 'b1-u5-e101',
-    type: 'interactive-dialogue',
-    level: 'B1',
-    topic: 'Social Issues & The Environment',
-    topicName: 'Listening & Interaction',
-    difficulty: 'medium',
+    id: "b1-u5-e101",
+    type: "interactive-dialogue",
+    level: "B1",
+    topic: "Home & Community",
+    topicName: "Listening",
+    difficulty: "medium",
     content: {
-      title: 'Eco-Friendly Living',
-      instructions: 'Listen to a conversation between two roommates about ways to reduce their environmental impact.',
-      audioUrl: '/audio/b1/unit5/dialogue1.mp3',
+      title: "Talking to the New Neighbor",
+      audioUrl: "https://pivpivpiv.com/dialogue-b1-u5-1.mp3",
       transcript: [
-        { speaker: 'Sarah', text: 'Hey Leo, I was reading about our carbon footprint. We should try to be more sustainable.', start: 0, end: 6 },
-        { speaker: 'Leo', text: 'I agree. What can we do? I already recycle my plastic bottles.', start: 7, end: 12 },
-        { speaker: 'Sarah', text: 'That\'s a start, but we can do more. For example, if we use less hot water, we\'ll save a lot of energy.', start: 13, end: 20 },
-        { speaker: 'Leo', text: 'True. And if we buy more local products, we\'ll reduce the pollution from transport.', start: 21, end: 27 },
-        { speaker: 'Sarah', text: 'Exactly! Also, we should stop using single-use plastics entirely.', start: 28, end: 33 },
-        { speaker: 'Leo', text: 'It won\'t be easy, but it\'s worth it for the planet.', start: 34, end: 38 },
-        { speaker: 'Sarah', text: 'If everyone makes small changes, we will see a big difference.', start: 39, end: 44 }
+        { speaker: "Sarah", text: "Hi! I'm Sarah, I live in apartment 4B. Are you the new tenant?", time: 0 },
+        { speaker: "Mark", text: "Hi Sarah! Yes, I'm Mark. I moved in yesterday.", time: 5 },
+        { speaker: "Sarah", text: "Welcome to the neighborhood! It's a great community here.", time: 10 },
+        { speaker: "Mark", text: "Thanks. I'm really happy with the apartment, although I need to buy some furniture.", time: 15 },
+        { speaker: "Sarah", text: "There's a great shop nearby where they sell second-hand pieces.", time: 20 },
+        { speaker: "Mark", text: "That's good to know. I also need to check my commute to work tomorrow.", time: 25 },
+        { speaker: "Sarah", text: "If you take the bus, it's very fast. The station is just around the corner.", time: 30 }
       ],
       questions: [
         {
-          id: 'q1',
-          time: 12,
-          question: 'What does Leo already do to help the environment?',
-          options: ['He uses solar panels', 'He recycles plastic bottles', 'He doesn\'t use a car', 'He plants trees'],
+          id: "d1",
+          time: 15,
+          question: "What does Mark need to buy?",
+          options: ["A car", "Furniture", "A new apartment", "A bus ticket"],
           correctAnswer: 1,
-          explanation: 'Leo says: "I already recycle my plastic bottles."'
+          explanation: "Mark says he needs to buy some furniture."
         },
         {
-          id: 'q2',
-          time: 20,
-          question: 'What is Sarah\'s first suggestion for saving energy?',
-          options: ['Using less hot water', 'Turning off the TV', 'Using candles', 'Installing a wind turbine'],
-          correctAnswer: 0,
-          explanation: 'Sarah suggests: "if we use less hot water, we\'ll save a lot of energy."'
-        },
-        {
-          id: 'q3',
-          time: 27,
-          question: 'How does buying local products help?',
-          options: ['It\'s cheaper', 'It tastes better', 'It reduces pollution from transport', 'It supports big companies'],
+          id: "d2",
+          time: 30,
+          question: "What will happen if Mark takes the bus?",
+          options: ["He will be late", "It will be slow", "It will be very fast", "He will get lost"],
           correctAnswer: 2,
-          explanation: 'Leo notes that it reduces "pollution from transport."'
-        },
-        {
-          id: 'q4',
-          time: 44,
-          question: 'What is Sarah\'s final conclusion?',
-          options: ['We should give up', 'It\'s too expensive', 'Small changes by everyone make a big difference', 'Only governments can help'],
-          correctAnswer: 2,
-          explanation: 'Sarah says: "If everyone makes small changes, we will see a big difference."'
+          explanation: "Sarah says the bus is very fast."
         }
       ]
     } as any
   },
   {
-    id: 'b1-u5-e102',
-    type: 'interactive-dialogue',
-    level: 'B1',
-    topic: 'Social Issues & The Environment',
-    topicName: 'Listening & Interaction',
-    difficulty: 'hard',
+    id: "b1-u5-e102",
+    type: "interactive-dialogue",
+    level: "B1",
+    topic: "Home & Community",
+    topicName: "Listening",
+    difficulty: "medium",
     content: {
-      title: 'Global Social Issues',
-      instructions: 'Listen to a podcast segment discussing the link between poverty and education.',
-      audioUrl: '/audio/b1/unit5/dialogue2.mp3',
+      title: "Planning a Renovation",
+      audioUrl: "https://pivpivpiv.com/dialogue-b1-u5-2.mp3",
       transcript: [
-        { speaker: 'Host', text: 'In today\'s episode, we explore the challenges of global poverty and unemployment.', start: 0, end: 6 },
-        { speaker: 'Guest', text: 'Thanks. One of the main points is that if we don\'t improve education, we won\'t solve poverty.', start: 7, end: 14 },
-        { speaker: 'Host', text: 'So, there\'s a direct link between the two?', start: 15, end: 18 },
-        { speaker: 'Guest', text: 'Absolutely. Better education leads to lower unemployment and more equality.', start: 19, end: 25 },
-        { speaker: 'Host', text: 'What can governments do to help?', start: 26, end: 29 },
-        { speaker: 'Guest', text: 'If they invest in vocational training, people will have better skills for the modern job market.', start: 30, end: 37 },
-        { speaker: 'Host', text: 'And what about the environmental impact of these social changes?', start: 38, end: 42 },
-        { speaker: 'Guest', text: 'Well, if a society is more equal, it\'s usually more sustainable too.', start: 43, end: 48 }
+        { speaker: "Tom", text: "The kitchen looks so old. I think we need a renovation.", time: 0 },
+        { speaker: "Lisa", text: "I agree, but we have a tight budget this month.", time: 5 },
+        { speaker: "Tom", text: "If we do the painting ourselves, we'll save a lot of money.", time: 10 },
+        { speaker: "Lisa", text: "That's true. And maybe we can find a new appliance on sale.", time: 15 },
+        { speaker: "Tom", text: "My brother, who is an electrician, can help us with the lights.", time: 20 },
+        { speaker: "Lisa", text: "Perfect! If he helps us, it would be much easier.", time: 25 }
       ],
       questions: [
         {
-          id: 'q1',
-          time: 14,
-          question: 'According to the guest, what is necessary to solve poverty?',
-          options: ['Lowering taxes', 'Improving education', 'Building more factories', 'Giving away free food'],
+          id: "d1",
+          time: 10,
+          question: "How will they save money according to Tom?",
+          options: ["By hiring a professional", "By doing the painting themselves", "By not eating", "By moving to a new house"],
           correctAnswer: 1,
-          explanation: 'The guest states: "if we don\'t improve education, we won\'t solve poverty."'
+          explanation: "Tom says they'll save money if they do the painting themselves."
         },
         {
-          id: 'q2',
-          time: 25,
-          question: 'What are the benefits of better education mentioned?',
-          options: ['Higher prices', 'Lower unemployment and more equality', 'More pollution', 'Longer working hours'],
-          correctAnswer: 1,
-          explanation: 'The guest mentions "lower unemployment and more equality."'
-        },
-        {
-          id: 'q3',
-          time: 37,
-          question: 'What should governments invest in to improve job skills?',
-          options: ['Luxury cars', 'Vocational training', 'Space travel', 'Military equipment'],
-          correctAnswer: 1,
-          explanation: 'The guest suggests investing in "vocational training."'
-        },
-        {
-          id: 'q4',
-          time: 48,
-          question: 'What is the link between equality and sustainability?',
-          options: ['There is no link', 'Equal societies are usually more sustainable', 'Sustainability leads to inequality', 'It depends on the weather'],
-          correctAnswer: 1,
-          explanation: 'The guest says: "if a society is more equal, it\'s usually more sustainable too."'
+          id: "d2",
+          time: 20,
+          question: "Who is Tom's brother?",
+          options: ["A plumber", "A landlord", "An electrician", "A painter"],
+          correctAnswer: 2,
+          explanation: "Tom mentions his brother is an electrician."
         }
       ]
     } as any

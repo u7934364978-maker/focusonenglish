@@ -27,9 +27,10 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/90
 - [x] **Task 8: Implement Unit 4: Health, Mind & Body (Exercises 1-100 Standardized)**
 - [x] **Task 8.1: Fix Unit 4 (Remove solutions from fill-blank prompts)**
 - [x] **Task 9: Implement Interactive Audio Dialogues for Units 1-4**
-- [x] **Task 10: Unit 5: Social Issues & The Environment (Exercises 1-50)**
-- [x] **Task 11: Unit 5: Social Issues & The Environment (Exercises 51-100)**
+- [x] **Task 10: Unit 5: Home & Community (Exercises 1-50)**
+- [x] **Task 11: Unit 5: Home & Community (Exercises 51-100)**
 - [x] **Task 11.1: Unit 5: Implement Interactive Audio Dialogues (2 per unit)**
-- [ ] **Task 12: Unit 6: Travel & Global Culture (Exercises 1-50)**
-- [ ] **Task 13: Unit 6: Travel & Global Culture (Exercises 51-100)**
+- [x] **Task 11.2: Content Refactor (Units 1-5): Replace political/global topics with everyday routine stories**
+- [x] **Task 12: Unit 6: Technology & Modern Life (Exercises 1-50)**
+- [ ] **Task 13: Unit 6: Technology & Modern Life (Exercises 51-100)**
 - [ ] **Task 13.1: Unit 6: Implement Interactive Audio Dialogues (2 per unit)**
