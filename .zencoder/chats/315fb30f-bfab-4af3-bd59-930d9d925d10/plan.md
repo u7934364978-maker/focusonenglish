@@ -369,7 +369,7 @@ Implement Unit 8 "Food & Cooking" and Unit 9 "Education & Learning" for the B1 c
 - [x] **Task 93: Implement Exercises 51-100 for Unit 27: Reported Speech: Questions & Orders**
 
 ### Phase 39: Implementation of Unit 28
-- [ ] **Task 94: Define Unit 28 Structure**
+- [x] **Task 94: Define Unit 28 Structure**
     - Sub-topic 1: Defining Relative Clauses (who, that, which) (1-10)
     - Sub-topic 2: Omitting the Relative Pronoun (object position) (11-20)
     - Sub-topic 3: Non-Defining Relative Clauses (extra information) (21-30)
@@ -380,8 +380,23 @@ Implement Unit 8 "Food & Cooking" and Unit 9 "Education & Learning" for the B1 c
     - Sub-topic 8: Grammar: Combining Sentences with Relative Clauses (71-80)
     - Sub-topic 9: Phrasal Verbs related to Relationships (81-90)
     - Sub-topic 10: Review & Descriptive Writing (91-100)
-- [ ] **Task 95: Implement Exercises 1-50 for Unit 28: Relative Clauses**
-- [ ] **Task 96: Implement Exercises 51-100 for Unit 28: Relative Clauses**
+- [x] **Task 95: Implement Exercises 1-50 for Unit 28: Relative Clauses**
+- [x] **Task 96: Implement Exercises 51-100 for Unit 28: Relative Clauses**
+
+### Phase 40: Implementation of Unit 29
+- [ ] **Task 97: Define Unit 29 Structure**
+    - Sub-topic 1: Grammar: Modal Verbs of Deduction (Present) - must, can't (1-10)
+    - Sub-topic 2: Grammar: Modal Verbs of Deduction (Present) - might, could, may (11-20)
+    - Sub-topic 3: Grammar: Modal Verbs of Deduction (Past) - must have, can't have (21-30)
+    - Sub-topic 4: Grammar: Modal Verbs of Deduction (Past) - might have, could have (31-40)
+    - Sub-topic 5: Vocabulary: Mysteries & Unexplained Events (41-50)
+    - Sub-topic 6: Grammar: Expectation (should / shouldn't have) (51-60)
+    - Sub-topic 7: Vocabulary: Logical Thinking & Speculation (61-70)
+    - Sub-topic 8: Grammar: Mixed Deduction (Present & Past) (71-80)
+    - Sub-topic 9: Phrasal Verbs related to Investigation (81-90)
+    - Sub-topic 10: Review & Solving Mysteries (91-100)
+- [ ] **Task 98: Implement Exercises 1-50 for Unit 29: Modal Verbs of Deduction**
+- [ ] **Task 99: Implement Exercises 51-100 for Unit 29: Modal Verbs of Deduction**
 
 ## Test Plan
 - **Framework**: Playwright (E2E)
