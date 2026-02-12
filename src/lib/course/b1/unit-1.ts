@@ -164,11 +164,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     content: {
       items: [
         {
-          front: 'To drift apart',
-          back: 'Distanciarse',
-          example: 'We were best friends in school, but we slowly drifted apart.',
-          pronunciation: '/tuː drɪft əˈpɑːt/',
-          explanation: 'Cuando dos personas pierden el contacto o la cercanía con el tiempo.'
+          front: 'To stay in touch',
+          back: 'Mantener el contacto',
+          example: 'We promised to stay in touch after the summer camp ended.',
+          pronunciation: '/tuː steɪ ɪn tʌtʃ/',
+          explanation: 'Mantener la comunicación con alguien a pesar de la distancia o el tiempo.'
         }
       ]
     } as any
@@ -403,7 +403,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       title: 'Life Events',
       instructions: 'Match the phrase with its definition.',
       pairs: [
-        { id: '1', left: 'To drop out', right: 'To leave school or college without finishing' },
+        { id: '1', left: 'To graduate', right: 'To successfully complete a course of study' },
         { id: '2', left: 'To get promoted', right: 'To be given a more important job' },
         { id: '3', left: 'To take up', right: 'To start a new hobby or activity' },
         { id: '4', left: 'To grow up', right: 'To spend your childhood in a place' }

@@ -69,11 +69,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     content: {
       items: [
         {
-          front: "Sore",
-          back: "Dolorido / Inflamado",
-          pronunciation: "/sɔːr/",
-          example: "My muscles are sore after yesterday's gym session.",
-          explanation: "Dolor físico o incomodidad, a menudo después del ejercicio o debido a una lesión."
+          front: "Flexible",
+          back: "Flexible",
+          pronunciation: "/ˈfleksəbl/",
+          example: "Yoga helps you become more flexible.",
+          explanation: "Capacidad de doblarse fácilmente sin romperse; en salud, se refiere a la movilidad muscular."
         }
       ]
     } as any
@@ -131,10 +131,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       questions: [
         {
           id: 'q1',
-          question: 'After running 10 kilometers, my legs feel __________.',
-          options: ["vivid", "sore", "balanced", "wellness"],
+          question: 'After a good stretching session, my body feels __________.',
+          options: ["vivid", "flexible", "heavy", "wellness"],
           correctAnswer: 1,
-          explanation: "'Sore' describes physical pain or discomfort, often after exercise."
+          explanation: "'Flexible' describes the ability to move joints and muscles easily."
         }
       ]
     } as any
@@ -781,11 +781,11 @@ Remember, you don't have to be perfect. You just need to find what works for you
     content: {
       items: [
         {
-          front: "Sedentary",
-          back: "Sedentario",
-          pronunciation: "/ˈsedntri/",
-          example: "A sedentary lifestyle can lead to health problems.",
-          explanation: "Que implica mucha inactividad física o permanecer mucho tiempo sentado."
+          front: "Active",
+          back: "Activo",
+          pronunciation: "/ˈæktɪv/",
+          example: "Leading an active lifestyle is great for your heart.",
+          explanation: "Que realiza mucha actividad física o ejercicio."
         }
       ]
     } as any
@@ -836,15 +836,15 @@ Remember, you don't have to be perfect. You just need to find what works for you
     topicName: "Vocabulary",
     difficulty: "medium",
     content: {
-      title: 'Desk Jobs',
+      title: 'Fitness Habits',
       instructions: "Choose the correct adjective.",
       questions: [
         {
           id: 'q1',
-          question: "Working at a desk all day can make your lifestyle too __________.",
-          options: ["sedentary", "vivid", "sore", "balanced"],
+          question: "Going for a walk every morning helps you stay __________.",
+          options: ["active", "vivid", "sore", "tired"],
           correctAnswer: 0,
-          explanation: "'Sedentary' means involving little physical activity."
+          explanation: "'Active' means involving physical movement and exercise."
         }
       ]
     } as any
@@ -1052,11 +1052,11 @@ Remember, you don't have to be perfect. You just need to find what works for you
     content: {
       items: [
         {
-          front: "Burnout",
-          back: "Agotamiento crónico",
-          pronunciation: "/ˈbɜːnaʊt/",
-          example: "Many workers suffer from burnout due to long hours.",
-          explanation: "Estado de agotamiento físico, emocional y mental causado por el estrés excesivo y prolongado."
+          front: "Vitality",
+          back: "Vitalidad",
+          pronunciation: "/vaɪˈtæləti/",
+          example: "Proper sleep and diet are essential for maintaining your vitality.",
+          explanation: "El estado de estar fuerte y activo; energía."
         }
       ]
     } as any
@@ -1166,15 +1166,15 @@ Remember, you don't have to be perfect. You just need to find what works for you
     topicName: "Vocabulary",
     difficulty: "hard",
     content: {
-      title: 'Exhaustion',
+      title: 'Vitality',
       instructions: "Choose the correct term.",
       questions: [
         {
           id: 'q1',
-          question: "If you work too hard without resting, you might experience __________.",
-          options: ["burnout", "wellness", "recovery", "strength"],
+          question: "If you maintain a healthy lifestyle, you will increase your __________.",
+          options: ["vitality", "fatigue", "stress", "weakness"],
           correctAnswer: 0,
-          explanation: "'Burnout' is state of emotional, physical, and mental exhaustion."
+          explanation: "'Vitality' is the state of being strong and active; energy."
         }
       ]
     } as any
@@ -1774,7 +1774,7 @@ Doctor: Your blood pressure is a bit high, but with a stress-free environment an
         {
           id: "q1",
           question: "What are the patient's symptoms?",
-          options: ["Sore legs", "Tiredness and headaches", "A broken arm", "A cold"],
+          options: ["Strong legs", "Tiredness and headaches", "A broken arm", "A cold"],
           correctAnswer: 1,
           explanation: "The patient mentions feeling tired and having headaches."
         }
@@ -1816,7 +1816,7 @@ Doctor: Your blood pressure is a bit high, but with a stress-free environment an
         {
           id: 'q1',
           question: "What kind of environment does the doctor recommend?",
-          options: ["Stress-free", "Competitive", "Dark", "Sedentary"],
+          options: ["Stress-free", "Competitive", "Dark", "Active"],
           correctAnswer: 0,
           explanation: "The doctor recommends a 'stress-free environment'."
         }
@@ -1949,14 +1949,14 @@ Doctor: Your blood pressure is a bit high, but with a stress-free environment an
     topicName: "Vocabulary",
     difficulty: "hard",
     content: {
-      title: 'Stress Result',
-      instructions: "Complete with the word for extreme stress.",
+      title: 'Healthy Result',
+      instructions: "Complete with the word for energy.",
       questions: [
         {
           id: 'q1',
-          text: "Habits can lead to ___ if not careful.",
-          correctAnswer: "burnout",
-          explanation: "Burnout is the result of prolonged stress and poor habits."
+          text: "Habits can lead to ___ if done correctly.",
+          correctAnswer: "vitality",
+          explanation: "Vitality is the result of healthy habits and consistent care."
         }
       ]
     } as any
@@ -2095,7 +2095,7 @@ Doctor: Your blood pressure is a bit high, but with a stress-free environment an
           id: 'q1',
           time: 12,
           question: 'What are Mr. Jones\'s main symptoms?',
-          options: ['Stomach ache', 'Tiredness and headaches', 'Fever', 'Sore muscles'],
+          options: ['Stomach ache', 'Tiredness and headaches', 'Fever', 'Flexible muscles'],
           correctAnswer: 1,
           explanation: 'Mr. Jones mentions: "I\'ve been feeling very tired lately and I have frequent headaches."'
         },
