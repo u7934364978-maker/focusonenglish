@@ -11,6 +11,7 @@ import DragDropExercise from './exercises/DragDropExercise';
 import MatchingExercise from './exercises/MatchingExercise';
 import InteractiveDialogueExercise from './exercises/InteractiveDialogueExercise';
 import Markdown from './course/Markdown';
+import { TranslatedText } from './course/exercises/TranslatedText';
 import type { MultipleChoiceEvaluationResponse, TextAnswerEvaluationResponse } from '@/lib/exercise-types';
 import { useGamification } from '@/lib/hooks/use-gamification';
 import { updateSRSItem } from '@/lib/srs';
@@ -375,7 +376,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                       Pregunta {qIndex + 1}
                     </span>
                     <div className="text-xl text-gray-900 font-bold">
-                      <Markdown content={q.question || q.text || q.prompt} vocabulary={vocabulary} />
+                      <TranslatedText text={q.question || q.text || q.prompt} />
                     </div>
                   </div>
 
@@ -414,7 +415,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                                 {String.fromCharCode(65 + optIndex)}
                               </div>
                               <div className="text-lg font-bold text-gray-800 flex-1">
-                                <Markdown content={typeof option === 'string' ? option : option.text} vocabulary={vocabulary} />
+                                <TranslatedText text={typeof option === 'string' ? option : option.text} />
                               </div>
                               {typeof option === 'object' && option.audio && (
                                 <button
@@ -480,7 +481,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                         )}
                       </div>
                       <div className="font-medium text-lg">
-                        <Markdown content={evaluation.feedback} />
+                        <TranslatedText text={evaluation.feedback} />
                       </div>
                       
                       {q.explanation && (
@@ -489,7 +490,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                         }`}>
                           <p className="font-bold mb-1">💡 Explicación:</p>
                           <div className="text-sm">
-                            <Markdown content={q.explanation} />
+                            <TranslatedText text={q.explanation} />
                           </div>
                         </div>
                       )}
@@ -513,7 +514,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
           {/* Single question/prompt */}
           {exercise.content.question && !exercise.content.questions && (
             <div className="bg-gray-50 rounded-lg p-4 border border-gray-200">
-              <p className="text-lg text-gray-800">{exercise.content.question}</p>
+              <TranslatedText text={exercise.content.question} className="text-lg text-gray-800" />
             </div>
           )}
 
@@ -543,7 +544,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                     <span className="font-bold text-gray-500">
                       {String.fromCharCode(65 + index)}.
                     </span>
-                    <span className="text-gray-800">{typeof option === 'string' ? option : option.text}</span>
+                    <TranslatedText text={typeof option === 'string' ? option : option.text} className="text-gray-800" />
                   </div>
                 </button>
               ))}
