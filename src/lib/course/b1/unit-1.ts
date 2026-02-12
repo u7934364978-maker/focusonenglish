@@ -7,20 +7,20 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "John wakes up at 7 AM every day, but today he is sleeping until 9 AM.",
+    "transcript": "Do you like to watch TV in the morning?",
     "audioUrl": "audio/b1/unit-1/e1.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcta]] [[answer|respuesta]].",
+      "title": "Unidad 1: Rutina Diaria & Vida",
+      "instructions": "Selecciona la opción correcta que responde a la pregunta.",
       "questions": [
         {
-          "prompt": "[[What|Qué]] [[does|hace]] [[John|John]] [[usually|normalmente]] [[do|hace]] [[at|a]] [[7|las]] [[AM|AM]]?",
+          "prompt": "[[Do|¿]] [[you|tú]] [[like|gustas]] [[to|de]] [[watch|ver]] [[TV|televisión]] [[in|en]] [[the|la]] [[morning|mañana]]?",
           "options": [
-            "[[He|Él]] [[wakes|se]] [[up|levanta]]",
-            "[[He|Él]] [[is|está]] [[sleeping|durmiendo]]"
+            "[[Yes|Sí]], [[I|yo]] [[do|hago]].",
+            "[[No|No]], [[I|yo]] [[don't|no]]."
           ],
           "correctAnswer": 0,
-          "explanation": "[[John|John]] [[usually|normalmente]] [[wakes|se]] [[up|levanta]] [[at|a]] [[7|las]]"
+          "explanation": "Responde con 'Sí' si te gusta ver televisión por la mañana."
         }
       ]
     },
@@ -32,20 +32,20 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "Sarah is reading a book right now, but she usually reads at night.",
+    "transcript": "How often does she go to the gym?",
     "audioUrl": "audio/b1/unit-1/e2.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "[[Select|Selecciona]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+      "title": "Unidad 1: Rutina Diaria & Vida",
+      "instructions": "Elija la frecuencia con la que ella va al gimnasio.",
       "questions": [
         {
-          "prompt": "[[When|Cuándo]] [[does|hace]] [[Sarah|Sarah]] [[usually|normalmente]] [[read|lee]]?",
+          "prompt": "[[How|Cuán]] [[often|frecuentemente]] [[does|hace]] [[she|ella]] [[go|ir]] [[to|al]] [[the|el]] [[gym|gimnasio]]?",
           "options": [
-            "[[In|En]] [[the|la]] [[morning|mañana]]",
-            "[[At|Por]] [[night|la noche]]"
+            "[[Twice|Dos veces]] [[a|a la]] [[week|semana]].",
+            "[[Every|Cada]] [[day|día]]."
           ],
-          "correctAnswer": 1,
-          "explanation": "[[Sarah|Sarah]] [[usually|normalmente]] [[reads|lee]] [[at|por]] [[night|la noche]]."
+          "correctAnswer": 0,
+          "explanation": "La respuesta correcta es 'Dos veces a la semana'."
         }
       ]
     },
@@ -57,20 +57,20 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "Michael eats breakfast at 8 AM, but today he is eating at 10 AM.",
+    "transcript": "Are you reading a book right now?",
     "audioUrl": "audio/b1/unit-1/e3.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[sentence|oración]].",
+      "title": "Unidad 1: Rutina Diaria & Vida",
+      "instructions": "Indica si la persona está leyendo un libro en este momento.",
       "questions": [
         {
-          "prompt": "[[What|Qué]] [[time|hora]] [[does|hace]] [[Michael|Michael]] [[usually|normalmente]] [[eat|come]] [[breakfast|desayuno]]?",
+          "prompt": "[[Are|Estás]] [[you|tú]] [[reading|leyendo]] [[a|un]] [[book|libro]] [[right|ahora]] [[now|mismo]]?",
           "options": [
-            "[[At|A]] [[8|las 8]] [[AM|AM]]",
-            "[[At|A]] [[10|las 10]] [[AM|AM]]"
+            "[[Yes|Sí]], [[I|yo]] [[am|estoy]].",
+            "[[No|No]], [[I'm|no estoy]]."
           ],
-          "correctAnswer": 0,
-          "explanation": "[[Michael|Michael]] [[usually|normalmente]] [[eats|come]] [[breakfast|desayuno]] [[at|a]] [[8|las 8]] [[AM|AM]]."
+          "correctAnswer": 1,
+          "explanation": "La respuesta correcta es 'No, no estoy' si no está leyendo ahora mismo."
         }
       ]
     },
@@ -82,20 +82,20 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "Emma works from home on Tuesdays, but today she is working in the office.",
+    "transcript": "What time do you usually have dinner?",
     "audioUrl": "audio/b1/unit-1/e4.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "[[Pick|Escoge]] [[the|la]] [[correct|correcta]] [[answer|respuesta]].",
+      "title": "Unidad 1: Rutina Diaria & Vida",
+      "instructions": "Escoge a qué hora normalmente cenas.",
       "questions": [
         {
-          "prompt": "[[Where|Dónde]] [[does|hace]] [[Emma|Emma]] [[usually|normalmente]] [[work|trabaja]] [[on|el]] [[Tuesdays|martes]]?",
+          "prompt": "[[What|A qué]] [[time|hora]] [[do|sueles]] [[you|tú]] [[usually|generalmente]] [[have|cenar]] [[dinner|cena]]?",
           "options": [
-            "[[From|Desde]] [[home|casa]]",
-            "[[In|En]] [[the|la]] [[office|oficina]]"
+            "[[At|A las]] [[7|siete]] [[PM|PM]].",
+            "[[At|A las]] [[6|seis]] [[PM|PM]]."
           ],
           "correctAnswer": 0,
-          "explanation": "[[Emma|Emma]] [[usually|normalmente]] [[works|trabaja]] [[from|desde]] [[home|casa]] [[on|el]] [[Tuesdays|martes]]."
+          "explanation": "Selecciona la hora correcta que refleje tu rutina de cena."
         }
       ]
     },
@@ -107,20 +107,20 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "David is playing soccer now, but he usually plays in the evening.",
+    "transcript": "Does he work from home on Fridays?",
     "audioUrl": "audio/b1/unit-1/e5.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "title": "Unidad 1: Rutina Diaria & Vida",
+      "instructions": "Determina si él trabaja desde casa los viernes.",
       "questions": [
         {
-          "prompt": "[[When|Cuándo]] [[does|hace]] [[David|David]] [[usually|normalmente]] [[play|jugar]] [[soccer|fútbol]]?",
+          "prompt": "[[Does|Trabaja]] [[he|él]] [[work|desde casa]] [[from|los]] [[home|viernes]] [[on|¿]] [[Fridays|?]]",
           "options": [
-            "[[In|En]] [[the|la]] [[morning|mañana]]",
-            "[[In|Por]] [[the|la]] [[evening|tarde]]"
+            "[[Yes|Sí]], [[he|él]] [[does|lo hace]].",
+            "[[No|No]], [[he|él]] [[doesn't|no lo hace]]."
           ],
-          "correctAnswer": 1,
-          "explanation": "[[David|David]] [[usually|normalmente]] [[plays|juega]] [[soccer|fútbol]] [[in|por]] [[the|la]] [[evening|tarde]]."
+          "correctAnswer": 0,
+          "explanation": "La respuesta correcta depende de su rutina de trabajo."
         }
       ]
     },
@@ -132,20 +132,20 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "Every day, Alex gets up at six o'clock.",
+    "transcript": "I always wake up at 7 o'clock every morning.",
     "audioUrl": "audio/b1/unit-1/e6.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "[[Fill|Rellena]] [[in|en]] [[the|el]] [[blanks|espacios]] [[with|con]] [[the|la]] [[correct|correcta]] [[form|forma]] [[of|de]] [[the|el]] [[verb|verbo]] [[in|en]] [[parentheses|paréntesis]].",
+      "title": "Unidad 1: Rutina Diaria & Vida",
+      "instructions": "Llena los espacios en blanco con las palabras correctas en inglés usando presente simple o continuo.",
       "questions": [
         {
-          "prompt": "[[Every|Cada]] [[day|día]], [[Alex|Alex]] ... [[up|arriba]] [[at|a]] [[six|seis]] [[o'clock|en punto]]. (get)",
+          "prompt": "[[I|Yo]] [[always|siempre]] ______ [[wake|despierto]] [[up|arriba]] [[at|a]] [[7|7]] o'clock [[every|cada]] [[morning|mañana]].",
           "options": [
-            "[[gets|get]]",
-            "[[getting|get]]"
+            "wake",
+            "waking"
           ],
           "correctAnswer": 0,
-          "explanation": "En español: Alex se levanta todos los días a las seis en punto."
+          "explanation": "En esta oración se utiliza el presente simple porque describimos una acción que ocurre regularmente."
         }
       ]
     },
@@ -157,20 +157,20 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "Maria is currently studying for her exams.",
+    "transcript": "She is reading a book in the living room.",
     "audioUrl": "audio/b1/unit-1/e7.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "[[Complete|Completa]] [[the|el]] [[sentences|oraciones]] [[using|usando]] [[the|la]] [[correct|correcta]] [[tense|tiempo]] [[of|del]] [[the|el]] [[verb|verbo]] [[in|en]] [[parentheses|paréntesis]].",
+      "title": "Unidad 1: Rutina Diaria & Vida",
+      "instructions": "Completa la frase con la forma correcta del verbo en presente simple o continuo.",
       "questions": [
         {
-          "prompt": "[[Maria|Maria]] ... [[for|para]] [[her|sus]] [[exams|exámenes]] [[right|ahora]] [[now|mismo]]. (study)",
+          "prompt": "[[She|Ella]] [[is|está]] ______ [[reading|leyendo]] [[a|un]] [[book|libro]] [[in|en]] [[the|el]] [[living|sala]] [[room|de]] [[living|estar]].",
           "options": [
-            "[[is|está]] [[studying|estudiando]]",
-            "[[studies|estudia]]"
+            "reading",
+            "reads"
           ],
           "correctAnswer": 0,
-          "explanation": "En español: Maria está estudiando para sus exámenes."
+          "explanation": "Utilizamos el presente continuo porque describe una acción que está ocurriendo en este momento."
         }
       ]
     },
@@ -182,20 +182,20 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "John usually walks his dog in the evening.",
+    "transcript": "We usually go to the gym in the evening.",
     "audioUrl": "audio/b1/unit-1/e8.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]] [[of|del]] [[the|el]] [[verb|verbo]] [[for|para]] [[each|cada]] [[sentence|oración]].",
+      "title": "Unidad 1: Rutina Diaria & Vida",
+      "instructions": "Rellena el espacio en blanco usando presente simple.",
       "questions": [
         {
-          "prompt": "[[John|John]] ... [[his|su]] [[dog|perro]] [[in|por]] [[the|la]] [[evening|tarde]]. (walk)",
+          "prompt": "[[We|Nosotros]] [[usually|usualmente]] ______ [[go|vamos]] [[to|al]] [[the|el]] [[gym|gimnasio]] [[in|en]] [[the|la]] [[evening|tarde]].",
           "options": [
-            "[[walks|camina]]",
-            "[[walking|caminando]]"
+            "go",
+            "going"
           ],
           "correctAnswer": 0,
-          "explanation": "En español: John suele pasear a su perro por la tarde."
+          "explanation": "El presente simple es apropiado para hábitos regulares."
         }
       ]
     },
@@ -207,20 +207,20 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "We are having dinner at a restaurant now.",
+    "transcript": "They are playing soccer in the park now.",
     "audioUrl": "audio/b1/unit-1/e9.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "[[Fill|Rellena]] [[the|el]] [[blanks|espacios]] [[with|con]] [[the|la]] [[appropriate|apropiada]] [[tense|forma]] [[of|del]] [[the|el]] [[verb|verbo]].",
+      "title": "Unidad 1: Rutina Diaria & Vida",
+      "instructions": "Completa la oración con el verbo correctamente conjugado.",
       "questions": [
         {
-          "prompt": "[[We|Nosotros]] ... [[dinner|cenando]] [[at|en]] [[a|un]] [[restaurant|restaurante]] [[now|ahora]]. (have)",
+          "prompt": "[[They|Ellos]] ______ [[are|están]] [[playing|jugando]] [[soccer|fútbol]] [[in|en]] [[the|el]] [[park|parque]] [[now|ahora]].",
           "options": [
-            "[[are|estamos]] [[having|teniendo]]",
-            "[[have|tenemos]]"
+            "are playing",
+            "play"
           ],
           "correctAnswer": 0,
-          "explanation": "En español: Estamos cenando en un restaurante ahora."
+          "explanation": "La acción está ocurriendo ahora, por lo que usamos el presente continuo."
         }
       ]
     },
@@ -232,20 +232,20 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "Sarah never drinks coffee in the evening.",
+    "transcript": "My brother cooks dinner every Friday.",
     "audioUrl": "audio/b1/unit-1/e10.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "[[Use|Usa]] [[the|la]] [[correct|correcta]] [[verb|verbo]] [[form|forma]] [[to|para]] [[complete|completar]] [[the|la]] [[sentences|oraciones]].",
+      "title": "Unidad 1: Rutina Diaria & Vida",
+      "instructions": "Elige el verbo correcto para completar la siguiente oración.",
       "questions": [
         {
-          "prompt": "[[Sarah|Sarah]] ... [[never|nunca]] [[coffee|café]] [[in|por]] [[the|la]] [[evening|tarde]]. (drink)",
+          "prompt": "[[My|Mi]] [[brother|hermano]] ______ [[cooks|cocina]] [[dinner|cena]] [[every|cada]] [[Friday|viernes]].",
           "options": [
-            "[[drinks|bebe]]",
-            "[[is|es]] [[drinking|bebiendo]]"
+            "cooks",
+            "cooking"
           ],
           "correctAnswer": 0,
-          "explanation": "En español: Sarah nunca bebe café por la tarde."
+          "explanation": "El presente simple se usa para acciones que son hábitos regulares."
         }
       ]
     },
@@ -257,30 +257,22 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "I wake up at seven in the morning.",
+    "transcript": "I wake up early.",
     "audioUrl": "audio/b1/unit-1/e11.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "[[Reorder|Reordenar]] [[the|el]] [[words|palabras]] [[to|para]] [[make|hacer]] [[a|una]] [[correct|correcta]] [[sentence|oración]].",
+      "title": "Unidad 1: Rutina Diaria y Vida",
+      "instructions": "Forma una oración utilizando las palabras dadas.",
       "words": [
-        "[[up|arriba]]",
-        "[[at|a]]",
         "[[I|Yo]]",
-        "[[seven|siete]]",
+        "[[early|temprano]]",
         "[[wake|despierto]]",
-        "[[in|en]]",
-        "[[the|la]]",
-        "[[morning|mañana]]"
+        "[[up|en]]"
       ],
       "correctOrder": [
         "I",
         "wake",
         "up",
-        "at",
-        "seven",
-        "in",
-        "the",
-        "morning"
+        "early"
       ]
     },
     "id": "b1-u1-e11",
@@ -291,24 +283,22 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "She is reading a book.",
+    "transcript": "She is having breakfast.",
     "audioUrl": "audio/b1/unit-1/e12.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "[[Rearrange|Reordenar]] [[the|las]] [[words|palabras]] [[to|para]] [[form|formar]] [[a|una]] [[sentence|oración]].",
+      "title": "Unidad 1: Rutina Diaria y Vida",
+      "instructions": "Organiza las palabras para que formen una oración correcta.",
       "words": [
-        "[[a|un]]",
-        "[[book|libro]]",
+        "[[She|Ella]]",
         "[[is|está]]",
-        "[[reading|leyendo]]",
-        "[[She|Ella]]"
+        "[[breakfast|desayunando]]",
+        "[[having|tomando]]"
       ],
       "correctOrder": [
         "She",
         "is",
-        "reading",
-        "a",
-        "book"
+        "having",
+        "breakfast"
       ]
     },
     "id": "b1-u1-e12",
@@ -319,24 +309,26 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "They are having lunch now.",
+    "transcript": "Do they play soccer on weekends?",
     "audioUrl": "audio/b1/unit-1/e13.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "[[Organize|Organizar]] [[the|las]] [[words|palabras]] [[to|para]] [[create|crear]] [[a|una]] [[sentence|oración]].",
+      "title": "Unidad 1: Rutina Diaria y Vida",
+      "instructions": "Coloca las palabras en el orden correcto para hacer una pregunta.",
       "words": [
-        "[[are|están]]",
-        "[[having|teniendo]]",
-        "[[lunch|almuerzo]]",
-        "[[now|ahora]]",
-        "[[They|Ellos]]"
+        "[[Do|¿]]",
+        "[[play|juegan]]",
+        "[[they|ellos]]",
+        "[[on|los]]",
+        "[[weekends|fines]]",
+        "[[soccer|de]]"
       ],
       "correctOrder": [
-        "They",
-        "are",
-        "having",
-        "lunch",
-        "now"
+        "Do",
+        "they",
+        "play",
+        "soccer",
+        "on",
+        "weekends"
       ]
     },
     "id": "b1-u1-e13",
@@ -347,30 +339,24 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "We are going to the park every Saturday.",
+    "transcript": "He is brushing his teeth.",
     "audioUrl": "audio/b1/unit-1/e14.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "[[Put|Poner]] [[the|las]] [[words|palabras]] [[in|en]] [[order|orden]] [[to|para]] [[form|formar]] [[a|una]] [[sentence|oración]].",
+      "title": "Unidad 1: Rutina Diaria y Vida",
+      "instructions": "Reordena las palabras para formar una oración.",
       "words": [
-        "[[every|cada]]",
-        "[[going|yendo]]",
-        "[[to|al]]",
-        "[[the|el]]",
-        "[[Saturday|sábado]]",
-        "[[park|parque]]",
-        "[[We|Nosotros]]",
-        "[[are|estamos]]"
+        "[[He|Él]]",
+        "[[is|está]]",
+        "[[brushing|cepillando]]",
+        "[[his|sus]]",
+        "[[teeth|dientes]]"
       ],
       "correctOrder": [
-        "We",
-        "are",
-        "going",
-        "to",
-        "the",
-        "park",
-        "every",
-        "Saturday"
+        "He",
+        "is",
+        "brushing",
+        "his",
+        "teeth"
       ]
     },
     "id": "b1-u1-e14",
@@ -381,28 +367,22 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "He always drinks coffee in the morning.",
+    "transcript": "They are studying now.",
     "audioUrl": "audio/b1/unit-1/e15.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "[[Arrange|Arreglar]] [[the|las]] [[words|palabras]] [[to|para]] [[make|hacer]] [[a|una]] [[complete|completa]] [[sentence|oración]].",
+      "title": "Unidad 1: Rutina Diaria y Vida",
+      "instructions": "Organiza las palabras para hacer una oración con sentido.",
       "words": [
-        "[[drinks|bebe]]",
-        "[[always|siempre]]",
-        "[[morning|mañana]]",
-        "[[He|Él]]",
-        "[[the|la]]",
-        "[[in|en]]",
-        "[[coffee|café]]"
+        "[[They|Ellos]]",
+        "[[are|están]]",
+        "[[now|ahora]]",
+        "[[studying|estudiando]]"
       ],
       "correctOrder": [
-        "He",
-        "always",
-        "drinks",
-        "coffee",
-        "in",
-        "the",
-        "morning"
+        "They",
+        "are",
+        "studying",
+        "now"
       ]
     },
     "id": "b1-u1-e15",
@@ -413,18 +393,18 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "I wake up at six o'clock every morning.",
+    "transcript": "What time do you wake up in the morning?",
     "audioUrl": "audio/b1/unit-1/e16.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "Review the following flashcards to learn daily routine vocabulary.",
+      "title": "Unidad 1: Rutina Diaria y Vida",
+      "instructions": "Practica el vocabulario de rutina diaria con estas tarjetas.",
       "items": [
         {
-          "front": "[[wake|despertar]] [[up|arriba]]",
-          "back": "despertarse",
-          "example": "[[I|Yo]] [[wake|despierto]] [[up|arriba]] [[at|a]] [[six|seis]] [[o'clock|en punto]] [[every|cada]] [[morning|mañana]].",
-          "pronunciation": "weyk up",
-          "explanation": "In [[English|Inglés]], to '[wake up]' means to stop [[sleeping|dormir]] and become [[alert|alerta]]."
+          "front": "[[What|Qué]] [[time|hora]] [[do|haces]] [[you|tú]] [[wake|despiertas]] [[up|levantas]] [[in|en]] [[the|la]] [[morning|mañana]]?",
+          "back": "¿A qué hora te despiertas por la mañana?",
+          "example": "[[I|Yo]] [[usually|normalmente]] [[wake|despierto]] [[up|levanto]] [[at|a]] [[seven|siete]] [[o'clock|en punto]] [[in|en]] [[the|la]] [[morning|mañana]].",
+          "pronunciation": "wuht tahym doo yoo wayk uhp in thuh mawr-ning",
+          "explanation": "Pregunta para saber a qué hora se despierta alguien."
         }
       ]
     },
@@ -436,18 +416,18 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "She is brushing her teeth.",
+    "transcript": "Do you drink coffee every morning?",
     "audioUrl": "audio/b1/unit-1/e17.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "Practice these phrases that describe daily activities.",
+      "title": "Unidad 1: Rutina Diaria y Vida",
+      "instructions": "Practica el vocabulario de rutina diaria con estas tarjetas.",
       "items": [
         {
-          "front": "[[brush|cepillar]] [[teeth|dientes]]",
-          "back": "cepillarse los dientes",
-          "example": "[[She|Ella]] [[is|está]] [[brushing|cepillando]] [[her|sus]] [[teeth|dientes]].",
-          "pronunciation": "brʌʃ tiːθ",
-          "explanation": "In [[English|Inglés]], '[brushing]' [[refers|se refiere]] to [[cleaning|limpiar]] [[your|tus]] [[teeth|dientes]]."
+          "front": "[[Do|Bebes]] [[you|tú]] [[drink|café]] [[coffee|cada]] [[every|mañana]]?",
+          "back": "¿Bebes café cada mañana?",
+          "example": "[[Many|Muchas]] [[people|personas]] [[drink|beben]] [[coffee|café]] [[every|cada]] [[morning|mañana]].",
+          "pronunciation": "doo yoo dringk kaw-fee ev-ree mawr-ning",
+          "explanation": "Pregunta sobre el hábito de beber café."
         }
       ]
     },
@@ -459,18 +439,18 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "They are having breakfast together.",
+    "transcript": "She reads the newspaper in the evening.",
     "audioUrl": "audio/b1/unit-1/e18.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "Familiarize yourself with expressions for common activities.",
+      "title": "Unidad 1: Rutina Diaria y Vida",
+      "instructions": "Practica el vocabulario de rutina diaria con estas tarjetas.",
       "items": [
         {
-          "front": "[[have|tener]] [[breakfast|desayuno]]",
-          "back": "desayunar",
-          "example": "[[They|Ellos]] [[are|están]] [[having|teniendo]] [[breakfast|desayuno]] [[together|juntos]].",
-          "pronunciation": "hæv ˈbrekfəst",
-          "explanation": "'[having breakfast]' [[means|significa]] [[eating|comer]] the [[first|primer]] [[meal|comida]] [[of|de]] the [[day|día]]."
+          "front": "[[She|Ella]] [[reads|lee]] [[the|el]] [[newspaper|periódico]] [[in|por]] [[the|la]] [[evening|tarde]]",
+          "back": "Ella lee el periódico por la tarde.",
+          "example": "[[Every|Cada]] [[evening|tarde]], [[she|ella]] [[reads|lee]] [[the|el]] [[latest|últimas]] [[news|noticias]].",
+          "pronunciation": "shee reedz thuh noo-spay-pur in thuh eev-ning",
+          "explanation": "Oración que indica una acción habitual por la tarde."
         }
       ]
     },
@@ -482,18 +462,18 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "He exercises every day.",
+    "transcript": "They are cooking dinner right now.",
     "audioUrl": "audio/b1/unit-1/e19.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "Use these flashcards to learn about daily activities and routines.",
+      "title": "Unidad 1: Rutina Diaria y Vida",
+      "instructions": "Practica el vocabulario de rutina diaria con estas tarjetas.",
       "items": [
         {
-          "front": "[[exercise|ejercicio]]",
-          "back": "hacer ejercicio",
-          "example": "[[He|Él]] [[exercises|hace ejercicio]] [[every|cada]] [[day|día]].",
-          "pronunciation": "ˈeksərˌsaɪz",
-          "explanation": "In [[English|Inglés]], '[exercise]' [[refers|se refiere]] to [[physical|físico]] [[activity|actividad]] [[for|para]] [[fitness|estado físico]]."
+          "front": "[[They|Ellos]] [[are|están]] [[cooking|cocinando]] [[dinner|la cena]] [[right|ahora]] [[now|mismo]]",
+          "back": "Ellos están cocinando la cena ahora mismo.",
+          "example": "[[Right|Ahora]] [[now|mismo]], [[they|ellos]] [[are|están]] [[cooking|cocinando]].",
+          "pronunciation": "they ahr kook-ing din-ur rahyt now",
+          "explanation": "Oración que describe una acción en curso en el presente."
         }
       ]
     },
@@ -505,18 +485,18 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "She reads a book before sleeping.",
+    "transcript": "I exercise every other day.",
     "audioUrl": "audio/b1/unit-1/e20.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "Learn about various ways to express routines using these flashcards.",
+      "title": "Unidad 1: Rutina Diaria y Vida",
+      "instructions": "Practica el vocabulario de rutina diaria con estas tarjetas.",
       "items": [
         {
-          "front": "[[read|leer]] [[a|un]] [[book|libro]]",
-          "back": "leer un libro",
-          "example": "[[She|Ella]] [[reads|lee]] [[a|un]] [[book|libro]] [[before|antes de]] [[sleeping|dormir]].",
-          "pronunciation": "riːd ə bʊk",
-          "explanation": "In [[English|Inglés]], '[read a book]' [[describes|describe]] the [[action|acción]] [[of|de]] [[engaging|involucrarse]] [[in|en]] [[reading|lectura]]."
+          "front": "[[I|Yo]] [[exercise|hago ejercicio]] [[every|cada]] [[other|otro]] [[day|día]]",
+          "back": "Yo hago ejercicio cada otro día.",
+          "example": "[[It's|Es]] [[healthy|saludable]] [[to|hacer]] [[exercise|ejercicio]] [[regularly|regularmente]].",
+          "pronunciation": "ahy ek-sur-sahyz ev-ree uhth-er dey",
+          "explanation": "Oración que indica una rutina regular de ejercicio."
         }
       ]
     },
@@ -528,20 +508,20 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "When do you usually get up on weekdays?",
+    "transcript": "What do you usually have for breakfast?",
     "audioUrl": "audio/b1/unit-1/e21.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "[[Select|Seleccione]] [[the|el]] [[correct|correcto]] [[answer|respuesta]].",
+      "title": "Unidad 1: Rutina Diaria y Vida",
+      "instructions": "Selecciona la respuesta correcta sobre las rutinas diarias.",
       "questions": [
         {
-          "prompt": "[[When|Cuándo]] [[do|haces]] [[you|tú]] [[usually|usualmente]] [[get|levantas]] [[up|levantas]] [[on|en]] [[weekdays|días]] [[?|?]]",
+          "prompt": "[[What|Qué]] [[do|haces]] [[you|tú]] [[usually|usualmente]] [[have|tomas]] [[for|para]] [[breakfast|desayuno]]?",
           "options": [
-            "[[I|Yo]] [[usually|usualmente]] [[get|levanto]] [[up|arriba]] [[at|a]] [[7|siete]] [[in|en]] [[the|la]] [[morning|mañana]].",
-            "[[Usually|Usualmente]], [[at|a]] [[night|noche]]."
+            "[[I|Yo]] [[usually|usualmente]] [[have|tomo]] [[cereal|cereal]] [[and|y]] [[milk|leche]].",
+            "[[I|Yo]] [[am|estoy]] [[going|yendo]] [[to|a]] [[the|el]] [[gym|gimnasio]]."
           ],
           "correctAnswer": 0,
-          "explanation": "En español: \"Suelo levantarme a las 7 de la mañana.\""
+          "explanation": "Elige la opción que hable sobre el desayuno."
         }
       ]
     },
@@ -553,20 +533,20 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "What is your favorite meal of the day?",
+    "transcript": "Do you go to work by bus or train?",
     "audioUrl": "audio/b1/unit-1/e22.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[answer|respuesta]].",
+      "title": "Unidad 1: Rutina Diaria y Vida",
+      "instructions": "Escoge la opción que mejor describe cómo llega una persona al trabajo.",
       "questions": [
         {
-          "prompt": "[[What|Cuál]] [[is|es]] [[your|tu]] [[favorite|favorita]] [[meal|comida]] [[of|del]] [[the|día]] [[day|?]]",
+          "prompt": "[[Do|Vas]] [[you|tú]] [[go|ir]] [[to|al]] [[work|trabajo]] [[by|en]] [[bus|autobús]] [[or|o]] [[train|tren]]?",
           "options": [
-            "[[I|Yo]] [[do|hago]] [[homework|deberes]].",
-            "[[My|Mi]] [[favorite|favorita]] [[meal|comida]] [[is|es]] [[dinner|la]] [[dinner|cena]]."
+            "[[I|Yo]] [[go|voy]] [[to|al]] [[work|trabajo]] [[by|en]] [[bus|autobús]].",
+            "[[I|Yo]] [[work|trabajo]] [[at|en]] [[a|una]] [[school|escuela]]."
           ],
-          "correctAnswer": 1,
-          "explanation": "En español: \"Mi comida favorita es la cena.\""
+          "correctAnswer": 0,
+          "explanation": "Escoge la opción que responde directamente sobre el medio de transporte."
         }
       ]
     },
@@ -578,20 +558,20 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "Do you play sports on weekends?",
+    "transcript": "What is she doing now?",
     "audioUrl": "audio/b1/unit-1/e23.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "[[Select|Seleccione]] [[the|el]] [[most|más]] [[appropriate|apropiado]] [[response|respuesta]].",
+      "title": "Unidad 1: Rutina Diaria y Vida",
+      "instructions": "Identifica la acción que está ocurriendo actualmente.",
       "questions": [
         {
-          "prompt": "[[Do|Haces]] [[you|tú]] [[play|juegas]] [[sports|deportes]] [[on|en]] [[weekends|fines]] [[?|?]]",
+          "prompt": "[[What|Qué]] [[is|está]] [[she|ella]] [[doing|haciendo]] [[now|ahora]]?",
           "options": [
-            "[[Yes|Sí]], [[I|yo]] [[play|juego]] [[soccer|fútbol]] [[on|en]] [[Sundays|domingos]].",
-            "[[No|No]], [[only|solo]] [[on|en]] [[Mondays|lunes]]."
+            "[[She|Ella]] [[is|está]] [[writing|escribiendo]] [[an|un]] [[email|correo]].",
+            "[[She|Ella]] [[usually|usualmente]] [[writes|escribe]] [[emails|correos]]."
           ],
           "correctAnswer": 0,
-          "explanation": "En español: \"Sí, juego fútbol los domingos.\""
+          "explanation": "Elije la opción que describe una acción en progresión (presente continuo)."
         }
       ]
     },
@@ -603,20 +583,20 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "How often do you watch TV?",
+    "transcript": "Where do they work every day?",
     "audioUrl": "audio/b1/unit-1/e24.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[right|correcta]] [[answer|respuesta]].",
+      "title": "Unidad 1: Rutina Diaria y Vida",
+      "instructions": "Elige la respuesta que mejor describe el lugar habitual de trabajo.",
       "questions": [
         {
-          "prompt": "[[How|Con]] [[often|qué]] [[do|haces]] [[you|tú]] [[watch|ves]] [[TV|la|televisión]] [[?|?]]",
+          "prompt": "[[Where|Dónde]] [[do|trabajan]] [[they|ellos]] [[work|trabajan]] [[every|todos]] [[day|los días]]?",
           "options": [
-            "[[I|Yo]] [[watch|veo]] [[TV|televisión]] [[every|todos]] [[day|los]] [[days|días]].",
-            "[[He|Él]] [[watches|ve]]."
+            "[[They|Ellos]] [[work|trabajan]] [[in|en]] [[an|una]] [[office|oficina]],",
+            "[[They|Ellos]] [[are|están]] [[going|yendo]] [[to|al]] [[office|oficina]]."
           ],
           "correctAnswer": 0,
-          "explanation": "En español: \"Veo televisión todos los días.\""
+          "explanation": "Identifica la respuesta que señala un hábito diario (presente simple)."
         }
       ]
     },
@@ -628,20 +608,20 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "He is reading a book right now.",
+    "transcript": "Who is cooking dinner right now?",
     "audioUrl": "audio/b1/unit-1/e25.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "[[Select|Selecciona]] [[the|la]] [[correct|correcta]] [[sentence|oración]].",
+      "title": "Unidad 1: Rutina Diaria y Vida",
+      "instructions": "Encuentra la opción correcta sobre quién está cocinando ahora.",
       "questions": [
         {
-          "prompt": "[[What|Qué]] [[is|está]] [[he|él]] [[doing|haciendo]] [[right|ahora]] [[now|?]]",
+          "prompt": "[[Who|Quién]] [[is|está]] [[cooking|cocinando]] [[dinner|la cena]] [[right|justo]] [[now|ahora]]?",
           "options": [
-            "[[He|Él]] [[reads|lee]] [[every|todos]] [[day|los]] [[a|un]] [[book|libro]].",
-            "[[He|Él]] [[is|está]] [[reading|leyendo]] [[a|un]] [[book|libro]] [[right|ahora]] [[now|mismo]]."
+            "[[My|Mi]] [[mother|madre]] [[is|está]] [[cooking|cocinando]] [[dinner|la cena]].",
+            "[[We|Nosotros]] [[have|tenemos]] [[dinner|la cena]] [[at|en]] [[7|7]] [[pm|pm]]."
           ],
-          "correctAnswer": 1,
-          "explanation": "En español: \"Él está leyendo un libro ahora mismo.\""
+          "correctAnswer": 0,
+          "explanation": "Selecciona la opción que describe la acción en progreso (presente continuo)."
         }
       ]
     },
@@ -653,20 +633,20 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "I usually wake up at 7 o'clock in the morning.",
+    "transcript": "I usually wake up at seven o'clock in the morning.",
     "audioUrl": "audio/b1/unit-1/e26.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "[[Fill|Llene]] [[the|el]] [[blanks|espacios]] [[with|con]] [[the|el]] [[correct|correcta]] [[form|forma]] [[of|de]] [[the|el]] [[verb|verbo]] [[in|en]] [[the|el]] [[present|presente]] [[simple|simple]].",
+      "title": "Unidad 1: Rutina Diaria y Vida (Título en español)",
+      "instructions": "Completa los espacios en blanco con el verbo correcto en presente simple o continuo.",
       "questions": [
         {
-          "prompt": "[[I|Yo]] [[usually|usualmente]] ______ [[up|me]] [[at|a]] [[7|las]] o'clock [[in|de]] [[the|la]] [[morning|mañana]].",
+          "prompt": "[[I|Yo]] [[usually|usualmente]] _______ [[wake|despierto]] [[up|arriba]] [[at|a]] [[seven|siete]] [[o'clock|en punto]] [[in|en]] [[the|el]] [[morning|mañana]].",
           "options": [
-            "[[wakes|despierto]]",
-            "[[wake|despierto]]"
+            "wake",
+            "wakes"
           ],
-          "correctAnswer": 1,
-          "explanation": "In Spanish, 'Yo usualmente despierto a las 7 de la mañana.'"
+          "correctAnswer": 0,
+          "explanation": "Usamos 'wake' porque 'I' requiere la forma base del verbo sin 's'."
         }
       ]
     },
@@ -678,20 +658,20 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "She is reading a book right now.",
+    "transcript": "She is reading a book at the moment.",
     "audioUrl": "audio/b1/unit-1/e27.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "[[Complete|Completa]] [[the|el]] [[sentence|oración]] [[using|usando]] [[the|el]] [[correct|correcto]] [[form|formulario]] [[of|de]] [[the|el]] [[verb|verbo]] [[in|en]] [[the|el]] [[present|presente]] [[continuous|continuo]].",
+      "title": "Unidad 1: Rutina Diaria y Vida (Título en español)",
+      "instructions": "Completa los espacios en blanco con el verbo correcto en presente simple o continuo.",
       "questions": [
         {
-          "prompt": "[[She|Ella]] ______ [[a|un]] [[book|libro]] [[right|ahora]] [[now|mismo]].",
+          "prompt": "[[She|Ella]] _______ [[is|está]] [[reading|leyendo]] [[a|un]] [[book|libro]] [[at|en]] [[the|el]] [[moment|momento]].",
           "options": [
-            "[[is|está]] [[read|leyendo]]",
-            "[[read|lee]]"
+            "read",
+            "is reading"
           ],
-          "correctAnswer": 0,
-          "explanation": "In Spanish, 'Ella está leyendo un libro ahora mismo.'"
+          "correctAnswer": 1,
+          "explanation": "Usamos 'is reading' porque indica una acción en curso en el presente."
         }
       ]
     },
@@ -703,20 +683,20 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "They have lunch at 1 PM every day.",
+    "transcript": "They go to the gym every Saturday.",
     "audioUrl": "audio/b1/unit-1/e28.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "[[Put|Coloca]] [[the|el]] [[correct|correcto]] [[verb|verbo]] [[form|forma]] [[in|en]] [[the|el]] [[blanks|espacios]].",
+      "title": "Unidad 1: Rutina Diaria y Vida (Título en español)",
+      "instructions": "Completa los espacios en blanco con el verbo correcto en presente simple o continuo.",
       "questions": [
         {
-          "prompt": "[[They|Ellos]] ______ [[lunch|almuerzan]] [[at|a]] [[1|la]] PM [[every|cada]] [[day|día]].",
+          "prompt": "[[They|Ellos]] _______ [[go|van]] [[to|al]] [[the|el]] [[gym|gimnasio]] [[every|cada]] [[Saturday|sábado]].",
           "options": [
-            "[[have|tienen]]",
-            "[[has|tiene]]"
+            "go",
+            "goes"
           ],
           "correctAnswer": 0,
-          "explanation": "In Spanish, 'Ellos almuerzan a la 1 PM cada día.'"
+          "explanation": "Usamos 'go' porque el sujeto 'they' toma la forma base del verbo."
         }
       ]
     },
@@ -728,20 +708,20 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "I am taking a shower now.",
+    "transcript": "My brother doesn't like vegetables.",
     "audioUrl": "audio/b1/unit-1/e29.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "[[Use|Usa]] [[the|el]] [[present|presente]] [[continuous|continuo]] [[to|para]] [[fill|llenar]] [[in|dentro]] [[the|el]] [[blanks|espacios]].",
+      "title": "Unidad 1: Rutina Diaria y Vida (Título en español)",
+      "instructions": "Completa los espacios en blanco con el verbo correcto en presente simple o continuo.",
       "questions": [
         {
-          "prompt": "[[I|Yo]] ______ [[a|una]] [[shower|ducha]] [[now|ahora]].",
+          "prompt": "[[My|Mi]] [[brother|hermano]] _______ [[doesn't|no]] [[like|gusta]] [[vegetables|verduras]].",
           "options": [
-            "[[is|estoy]] [[taking|tomando]]",
-            "[[am|estoy]] [[taking|tomando]]"
+            "doesn't like",
+            "don't like"
           ],
-          "correctAnswer": 1,
-          "explanation": "In Spanish, 'Yo estoy tomando una ducha ahora.'"
+          "correctAnswer": 0,
+          "explanation": "Usamos 'doesn't like' porque el sujeto 'my brother' es tercera persona del singular."
         }
       ]
     },
@@ -753,20 +733,20 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "We don't go to the gym every week.",
+    "transcript": "Are you working on a project right now?",
     "audioUrl": "audio/b1/unit-1/e30.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "[[Fill|Llena]] [[the|los]] [[spaces|espacios]] [[with|con]] [[the|las]] [[right|correctas]] [[verb|formas del verbo]] [[forms|...]].",
+      "title": "Unidad 1: Rutina Diaria y Vida (Título en español)",
+      "instructions": "Completa los espacios en blanco con el verbo correcto en presente simple o continuo.",
       "questions": [
         {
-          "prompt": "[[We|Nosotros]] ______ [[go|vamos]] [[to|al]] [[the|el]] [[gym|gimnasio]] [[every|cada]] [[week|semana]].",
+          "prompt": "[[Are|Estás]] [[you|tú]] _______ [[working|trabajando]] [[on|en]] [[a|un]] [[project|proyecto]] [[right|ahora]] [[now|mismo]]?",
           "options": [
-            "[[don't|no]]",
-            "[[doesn't|no]]"
+            "work",
+            "working"
           ],
-          "correctAnswer": 0,
-          "explanation": "In Spanish, 'Nosotros no vamos al gimnasio cada semana.'"
+          "correctAnswer": 1,
+          "explanation": "Usamos 'working' porque indica una acción que está en proceso en el presente."
         }
       ]
     },
@@ -778,26 +758,28 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "I brush my teeth every morning.",
+    "transcript": "I start my day by drinking coffee.",
     "audioUrl": "audio/b1/unit-1/e31.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "[[Arrange|Organiza]] [[the|el]] [[words|palabras]] [[to|para]] [[form|formar]] [[a|una]] [[sentence|frase]].",
+      "title": "Unidad 1: Rutina Diaria y Vida",
+      "instructions": "Construye la oración en el orden correcto.",
       "words": [
         "[[I|Yo]]",
-        "[[teeth|dientes]]",
-        "[[my|mis]]",
-        "[[brush|cepillo]]",
-        "[[every|cada]]",
-        "[[morning|mañana]]"
+        "[[start|comienzo]]",
+        "[[my|mi]]",
+        "[[day|día]]",
+        "[[by|con]]",
+        "[[drinking|bebiendo]]",
+        "[[coffee|café]]"
       ],
       "correctOrder": [
         "I",
-        "brush",
+        "start",
         "my",
-        "teeth",
-        "every",
-        "morning"
+        "day",
+        "by",
+        "drinking",
+        "coffee"
       ]
     },
     "id": "b1-u1-e31",
@@ -808,18 +790,20 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "She is reading a book now.",
+    "transcript": "She is reading a book in the garden.",
     "audioUrl": "audio/b1/unit-1/e32.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "[[Put|Pon]] [[the|las]] [[words|palabras]] [[in|en]] [[order|orden]].",
+      "title": "Unidad 1: Rutina Diaria y Vida",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
       "words": [
+        "[[She|Ella]]",
+        "[[is|está]]",
+        "[[reading|leyendo]]",
         "[[a|un]]",
         "[[book|libro]]",
-        "[[reading|leyendo]]",
-        "[[she|ella]]",
-        "[[is|está]]",
-        "[[now|ahora]]"
+        "[[in|en]]",
+        "[[the|el]]",
+        "[[garden|jardín]]"
       ],
       "correctOrder": [
         "She",
@@ -827,7 +811,9 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         "reading",
         "a",
         "book",
-        "now"
+        "in",
+        "the",
+        "garden"
       ]
     },
     "id": "b1-u1-e32",
@@ -838,28 +824,28 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "They usually eat breakfast at seven o'clock.",
+    "transcript": "They have lunch at noon every day.",
     "audioUrl": "audio/b1/unit-1/e33.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "[[Rearrange|Reordena]] [[to|para]] [[make|hacer]] [[a|una]] [[sentence|frase]].",
+      "title": "Unidad 1: Rutina Diaria y Vida",
+      "instructions": "Arma la oración correctamente.",
       "words": [
-        "[[eat|comen]]",
-        "[[usually|generalmente]]",
+        "[[They|Ellos]]",
+        "[[have|almuerzan]]",
+        "[[lunch|almuerzo]]",
         "[[at|a]]",
-        "[[they|ellos]]",
-        "[[seven|siete]]",
-        "[[breakfast|desayuno]]",
-        "[[o'clock|en punto]]"
+        "[[noon|mediodía]]",
+        "[[every|cada]]",
+        "[[day|día]]"
       ],
       "correctOrder": [
         "They",
-        "usually",
-        "eat",
-        "breakfast",
+        "have",
+        "lunch",
         "at",
-        "seven",
-        "o'clock"
+        "noon",
+        "every",
+        "day"
       ]
     },
     "id": "b1-u1-e33",
@@ -870,26 +856,32 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "Are you listening to the teacher?",
+    "transcript": "We usually go to the gym in the evening.",
     "audioUrl": "audio/b1/unit-1/e34.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "[[Form|Forma]] [[a|una]] [[question|pregunta]] [[by|poniendo]] [[ordering|en orden]] [[the|las]] [[words|palabras]].",
+      "title": "Unidad 1: Rutina Diaria y Vida",
+      "instructions": "Organiza las palabras para crear una oración completa.",
       "words": [
-        "[[the|al]]",
-        "[[you|tú]]",
-        "[[listening|escuchando]]",
-        "[[are|estás]]",
-        "[[teacher|maestro]]",
-        "[[to|al]]"
+        "[[We|Nosotros]]",
+        "[[usually|generalmente]]",
+        "[[go|vamos]]",
+        "[[to|al]]",
+        "[[the|el]]",
+        "[[gym|gimnasio]]",
+        "[[in|por]]",
+        "[[the|la]]",
+        "[[evening|tarde]]"
       ],
       "correctOrder": [
-        "Are",
-        "you",
-        "listening",
+        "We",
+        "usually",
+        "go",
         "to",
         "the",
-        "teacher"
+        "gym",
+        "in",
+        "the",
+        "evening"
       ]
     },
     "id": "b1-u1-e34",
@@ -900,30 +892,26 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "We are going to the park this weekend.",
+    "transcript": "He works from home on Fridays.",
     "audioUrl": "audio/b1/unit-1/e35.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "[[Construct|Construye]] [[a|una]] [[sentence|frase]] [[by|poniendo]] [[arranging|en orden]] [[the|las]] [[words|palabras]].",
+      "title": "Unidad 1: Rutina Diaria y Vida",
+      "instructions": "Coloca las palabras en el orden correcto para formar la oración.",
       "words": [
-        "[[weekend|fin de semana]]",
-        "[[the|al]]",
-        "[[to|al]]",
-        "[[going|vamos]]",
-        "[[we|nosotros]]",
-        "[[this|este]]",
-        "[[are|estamos]]",
-        "[[park|parque]]"
+        "[[He|Él]]",
+        "[[works|trabaja]]",
+        "[[from|desde]]",
+        "[[home|casa]]",
+        "[[on|los]]",
+        "[[Fridays|viernes]]"
       ],
       "correctOrder": [
-        "We",
-        "are",
-        "going",
-        "to",
-        "the",
-        "park",
-        "this",
-        "weekend"
+        "He",
+        "works",
+        "from",
+        "home",
+        "on",
+        "Fridays"
       ]
     },
     "id": "b1-u1-e35",
@@ -934,18 +922,46 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "I wake up at seven in the morning.",
+    "transcript": "This is a typical daily routine exercise.",
     "audioUrl": "audio/b1/unit-1/e36.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "[[Memorize|Memorizar]] [[these|estas]] [[routine|rutina]] [[phrases|frases]].",
+      "title": "Unidad 1: Rutina Diaria y Vida",
+      "instructions": "Revise las siguientes tarjetas para aprender nuevas palabras relacionadas con rutinas diarias.",
       "items": [
         {
-          "front": "[[I|Yo]] [[wake|despierto]] [[up|arriba]] [[at|a]] [[seven|siete]] [[in|en]] [[the|la]] [[morning|mañana]].",
-          "back": "Me despierto a las siete de la mañana.",
-          "example": "[[Every|Cada]] [[day|día]], [[I|yo]] [[wake|despierto]] [[up|arriba]] [[early|temprano]].",
-          "pronunciation": "ai weik up æt 'sevən ɪn ðə 'mɔrnɪŋ",
-          "explanation": "Simple [[present|presente]] [[tense|tiempo]] [[for|para]] [[daily|diaria]] [[routines|rutinas]]."
+          "front": "[[Wake|Despertar]] [[up|arriba]]",
+          "back": "Despertarse",
+          "example": "[[I|Yo]] [[wake|despierto]] [[up|arriba]] [[at|a]] [[7|siete]] [[AM|AM]] [[every|cada]] [[day|día]].",
+          "pronunciation": "...",
+          "explanation": "Despertarse a una hora específica por la mañana."
+        },
+        {
+          "front": "[[Brush|Cepillar]] [[teeth|dientes]]",
+          "back": "Cepillar los dientes",
+          "example": "[[I|Yo]] [[brush|cepillo]] [[my|mis]] [[teeth|dientes]] [[twice|dos veces]] [[a|al]] [[day|día]].",
+          "pronunciation": "...",
+          "explanation": "La acción de limpiarse los dientes regularmente."
+        },
+        {
+          "front": "[[Go|Ir]] [[to|a]] [[work|trabajo]]",
+          "back": "Ir al trabajo",
+          "example": "[[He|Él]] [[goes|va]] [[to|a]] [[work|trabajo]] [[by|en]] [[bus|autobús]] [[every|cada]] [[morning|mañana]].",
+          "pronunciation": "...",
+          "explanation": "Desplazarse al lugar de trabajo cada día."
+        },
+        {
+          "front": "[[Have|Tener]] [[lunch|almuerzo]]",
+          "back": "Almorzar",
+          "example": "[[They|Ellos]] [[have|tienen]] [[lunch|almuerzo]] [[at|a]] [[1|una]] [[PM|PM]] [[every|cada]] [[day|día]].",
+          "pronunciation": "...",
+          "explanation": "Comer a la mitad del día."
+        },
+        {
+          "front": "[[Relax|Relajarse]] [[in|en]] [[the|el]] [[evening|tarde]]",
+          "back": "Relajarse por la tarde",
+          "example": "[[I|Yo]] [[relax|me relajo]] [[by|por]] [[reading|leer]] [[a|un]] [[book|libro]] [[in|en]] [[the|el]] [[evening|tarde]].",
+          "pronunciation": "...",
+          "explanation": "Tomarse el tiempo para descansar al final del día."
         }
       ]
     },
@@ -957,18 +973,46 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "He is having breakfast.",
+    "transcript": "This flashcard focuses on common daily activities.",
     "audioUrl": "audio/b1/unit-1/e37.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "[[Use|Usar]] [[present|presente]] [[continuous|continuo]] [[for|para]] [[actions|acciones]] [[in|en]] [[progress|progreso]].",
+      "title": "Unidad 1: Rutina Diaria y Vida",
+      "instructions": "Utilice estas tarjetas para practicar vocabulario sobre actividades cotidianas.",
       "items": [
         {
-          "front": "[[He|Él]] [[is|está]] [[having|teniendo]] [[breakfast|desayuno]].",
-          "back": "Él está desayunando.",
-          "example": "[[Right|Ahora]], [[he|él]] [[is|está]] [[having|teniendo]] [[breakfast|desayuno]].",
-          "pronunciation": "hi ɪz 'hævɪŋ 'brekfəst",
-          "explanation": "[[Present|Presente]] [[continuous|continuo]] [[for|para]] [[ongoing|en curso]] [[actions|acciones]]."
+          "front": "[[Take|Tomar]] [[a|un]] [[shower|ducha]]",
+          "back": "Ducharse",
+          "example": "[[She|Ella]] [[takes|se ducha]] [[a|una]] [[shower|ducha]] [[every|cada]] [[morning|mañana]].",
+          "pronunciation": "...",
+          "explanation": "Acción de limpiar el cuerpo con agua y jabón."
+        },
+        {
+          "front": "[[Make|Hacer]] [[breakfast|desayuno]]",
+          "back": "Hacer el desayuno",
+          "example": "[[I|Yo]] [[make|hago]] [[breakfast|desayuno]] [[for|para]] [[my|mi]] [[family|familia]] [[every|cada]] [[day|día]].",
+          "pronunciation": "...",
+          "explanation": "Preparar la primera comida del día."
+        },
+        {
+          "front": "[[Drive|Conducir]] [[to|a]] [[work|trabajo]]",
+          "back": "Conducir al trabajo",
+          "example": "[[He|Él]] [[drives|conduce]] [[to|a]] [[work|trabajo]] [[every|cada]] [[morning|mañana]].",
+          "pronunciation": "...",
+          "explanation": "Ir al trabajo manejando un vehículo."
+        },
+        {
+          "front": "[[Have|Tener]] [[dinner|cena]]",
+          "back": "Cenar",
+          "example": "[[We|Nosotros]] [[have|cenamos]] [[dinner|cena]] [[together|juntos]] [[every|cada]] [[night|noche]].",
+          "pronunciation": "...",
+          "explanation": "Comer al final del día."
+        },
+        {
+          "front": "[[Go|Ir]] [[to|a]] [[bed|cama]]",
+          "back": "Ir a la cama",
+          "example": "[[They|Ellos]] [[go|van]] [[to|a]] [[bed|cama]] [[at|a]] [[10|diez]] [[PM|PM]] [[every|cada]] [[night|noche]].",
+          "pronunciation": "...",
+          "explanation": "Acostarse para dormir al final del día."
         }
       ]
     },
@@ -980,18 +1024,46 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "She studies English every day.",
+    "transcript": "These flashcards cover vocabulary related to daily habits.",
     "audioUrl": "audio/b1/unit-1/e38.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "[[Review|Revisar]] [[positive|positivas]] [[examples|ejemplos]] [[of|de]] [[present|presente]] [[simple|simple]].",
+      "title": "Unidad 1: Rutina Diaria y Vida",
+      "instructions": "Explore estas tarjetas para aprender sobre hábitos diarios.",
       "items": [
         {
-          "front": "[[She|Ella]] [[studies|estudia]] [[English|inglés]] [[every|cada]] [[day|día]].",
-          "back": "Ella estudia inglés cada día.",
-          "example": "[[In|Durante]] [[the|la]] [[morning|mañana]], [[she|ella]] [[studies|estudia]] [[English|inglés]].",
-          "pronunciation": "ʃi 'stʌdiz 'ɪŋɡlɪʃ 'ɛvri deɪ",
-          "explanation": "[[Routine|Rutina]] [[using|usando]] [[simple|simple]] [[present|presente]]."
+          "front": "[[Exercise|Ejercitarse]]",
+          "back": "Ejercitarse",
+          "example": "[[I|Yo]] [[exercise|me ejercito]] [[three|tres]] [[times|veces]] [[a|por]] [[week|semana]].",
+          "pronunciation": "...",
+          "explanation": "Realizar actividad física regularmente."
+        },
+        {
+          "front": "[[Start|Comenzar]] [[work|trabajo]]",
+          "back": "Comenzar a trabajar",
+          "example": "[[She|Ella]] [[starts|comienza]] [[work|trabajo]] [[at|a]] [[9|nueve]] [[AM|AM]].",
+          "pronunciation": "...",
+          "explanation": "Iniciar las tareas o actividades laborales."
+        },
+        {
+          "front": "[[Check|Revisar]] [[emails|correos]]",
+          "back": "Revisar correos electrónicos",
+          "example": "[[He|Él]] [[checks|revisa]] [[his|sus]] [[emails|correos]] [[every|cada]] [[morning|mañana]].",
+          "pronunciation": "...",
+          "explanation": "La acción de leer correos electrónicos regularmente."
+        },
+        {
+          "front": "[[Cook|Cocinar]] [[dinner|cena]]",
+          "back": "Cocinar la cena",
+          "example": "[[They|Ellos]] [[cook|cocinan]] [[dinner|cena]] [[together|juntos]] [[every|cada]] [[Sunday|domingo]].",
+          "pronunciation": "...",
+          "explanation": "Preparar comida para la cena."
+        },
+        {
+          "front": "[[Read|Leer]] [[a|un]] [[book|libro]]",
+          "back": "Leer un libro",
+          "example": "[[I|Yo]] [[read|leo]] [[a|un]] [[book|libro]] [[before|antes de]] [[going|ir]] [[to|a]] [[bed|cama]].",
+          "pronunciation": "...",
+          "explanation": "Dedicar tiempo a la lectura de libros."
         }
       ]
     },
@@ -1003,18 +1075,46 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "I walk to work every morning.",
+    "transcript": "Learning everyday tasks with these flashcards will enhance your vocabulary.",
     "audioUrl": "audio/b1/unit-1/e39.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "[[Familiarize|Familiarizarse]] [[with|con]] [[common|comunes]] [[daily|diarias]] [[phrases|frases]].",
+      "title": "Unidad 1: Rutina Diaria y Vida",
+      "instructions": "Aprende sobre tareas diarias a través de estas tarjetas.",
       "items": [
         {
-          "front": "[[I|Yo]] [[walk|camino]] [[to|a]] [[work|trabajo]] [[every|cada]] [[morning|mañana]].",
-          "back": "Camino al trabajo cada mañana.",
-          "example": "[[After|Después]] [[breakfast|del desayuno]], [[I|yo]] [[walk|camino]] [[to|a]] [[work|trabajo]].",
-          "pronunciation": "ai wɔːk tu wɜːk 'ɛvri 'mɔrnɪŋ",
-          "explanation": "[[Simple|Simple]] [[present|presente]] [[for|para]] [[routine|rutina]] [[activities|actividades]]."
+          "front": "[[Eat|Comer]] [[lunch|almuerzo]]",
+          "back": "Comer el almuerzo",
+          "example": "[[We|Nosotros]] [[eat|comemos]] [[lunch|almuerzo]] [[at|a]] [[noon|mediodía]].",
+          "pronunciation": "...",
+          "explanation": "Tiempo dedicado a comer en el mediodía."
+        },
+        {
+          "front": "[[Take|Tomar]] [[a|un]] [[break|descanso]]",
+          "back": "Tomar un descanso",
+          "example": "[[She|Ella]] [[takes|toma]] [[a|un]] [[break|descanso]] [[in|en]] [[the|la]] [[afternoon|tarde]].",
+          "pronunciation": "...",
+          "explanation": "Breve periodo de tiempo sin trabajar o estudiar."
+        },
+        {
+          "front": "[[Clean|Limpiar]] [[the|la]] [[house|casa]]",
+          "back": "Limpiar la casa",
+          "example": "[[He|Él]] [[cleans|limpia]] [[the|la]] [[house|casa]] [[every|cada]] [[Saturday|sábado]].",
+          "pronunciation": "...",
+          "explanation": "Mantener el hogar en condiciones ordenadas y limpias."
+        },
+        {
+          "front": "[[Watch|Ver]] [[TV|televisión]]",
+          "back": "Ver televisión",
+          "example": "[[I|Yo]] [[watch|veo]] [[TV|televisión]] [[for|por]] [[an|una]] [[hour|hora]] [[each|cada]] [[night|noche]].",
+          "pronunciation": "...",
+          "explanation": "Actividad de ver programas o películas en televisión."
+        },
+        {
+          "front": "[[Go|Ir]] [[shopping|compras]]",
+          "back": "Ir de compras",
+          "example": "[[They|Ellos]] [[go|van]] [[shopping|compras]] [[every|cada]] [[weekend|fin de semana]].",
+          "pronunciation": "...",
+          "explanation": "Actividad de comprar artículos necesarios o deseados."
         }
       ]
     },
@@ -1026,18 +1126,46 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "They are cooking dinner now.",
+    "transcript": "Utilize these flashcards to improve your understanding of daily life activities.",
     "audioUrl": "audio/b1/unit-1/e40.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "[[Understand|Entender]] [[how|cómo]] [[to|usar]] [[use|el uso]] [[of|de]] [[present|presente]] [[continuous|continuo]].",
+      "title": "Unidad 1: Rutina Diaria y Vida",
+      "instructions": "Use estas tarjetas para mejorar su comprensión de actividades diarias.",
       "items": [
         {
-          "front": "[[They|Ellos]] [[are|están]] [[cooking|cocinando]] [[dinner|cena]] [[now|ahora]].",
-          "back": "Ellos están cocinando la cena ahora.",
-          "example": "[[Look|Mira]], [[they|ellos]] [[are|están]] [[cooking|cocinando]] [[dinner|cena]] [[together|juntos]].",
-          "pronunciation": "ðeɪ ɑː 'kʊkɪŋ 'dɪnə naʊ",
-          "explanation": "[[Present|Presente]] [[continuous|continuo]] [[for|para]] [[current|actual]] [[actions|acciones]]."
+          "front": "[[Do|Hacer]] [[homework|tarea]]",
+          "back": "Hacer la tarea",
+          "example": "[[Children|Los niños]] [[do|hacen]] [[homework|tarea]] [[after|después de]] [[school|escuela]].",
+          "pronunciation": "...",
+          "explanation": "Completar tareas escolares en casa."
+        },
+        {
+          "front": "[[Go|Ir]] [[for|a]] [[a|un]] [[walk|paseo]]",
+          "back": "Ir de paseo",
+          "example": "[[We|Nosotros]] [[go|vamos]] [[for|a]] [[a|un]] [[walk|paseo]] [[every|cada]] [[evening|tarde]].",
+          "pronunciation": "...",
+          "explanation": "La actividad de salir a caminar para ejercitarse o relajarse."
+        },
+        {
+          "front": "[[Call|Llamar]] [[a|un]] [[friend|amigo]]",
+          "back": "Llamar a un amigo",
+          "example": "[[She|Ella]] [[calls|llama]] [[her|a su]] [[friend|amigo]] [[every|cada]] [[week|semana]].",
+          "pronunciation": "...",
+          "explanation": "La acción de usar el teléfono para comunicarse con un amigo."
+        },
+        {
+          "front": "[[Plan|Planear]] [[the|el]] [[weekend|fin de semana]]",
+          "back": "Planear el fin de semana",
+          "example": "[[They|Ellos]] [[plan|planean]] [[the|el]] [[weekend|fin de semana]] [[activities|actividades]] [[together|juntos]].",
+          "pronunciation": "...",
+          "explanation": "Preparar actividades o eventos para los días libres."
+        },
+        {
+          "front": "[[Feed|Alimentar]] [[the|el]] [[pets|mascotas]]",
+          "back": "Alimentar a las mascotas",
+          "example": "[[I|Yo]] [[feed|alimento]] [[the|a las]] [[pets|mascotas]] [[in|en]] [[the|la]] [[morning|mañana]].",
+          "pronunciation": "...",
+          "explanation": "Dar comida a las mascotas diariamente."
         }
       ]
     },
@@ -1049,20 +1177,20 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "What do you usually do in the morning?",
+    "transcript": "What time do you usually get up in the morning?",
     "audioUrl": "audio/b1/unit-1/e41.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "Choose the correct option based on the prompt.",
+      "title": "Unidad 1: Rutina Diaria y Vida",
+      "instructions": "Seleccione la opción correcta sobre la rutina diaria...",
       "questions": [
         {
-          "prompt": "[[What|Qué]] [[do|haces]] [[you|tú]] [[usually|usualmente]] [[do|hacer]] [[in|en]] [[the|la]] [[morning|mañana]]?",
+          "prompt": "[[What|Qué]] [[time|hora]] [[do|haces]] [[you|tú]] [[usually|usualmente]] [[get|levantarte]] [[up|en]] [[the|la]] [[morning|mañana]]?",
           "options": [
-            "[[I|Yo]] [[read|leo]] [[a|un]] [[book|libro]].",
-            "[[I|Yo]] [[brush|cepillo]] [[my|mi]] [[teeth|dientes]]."
+            "[[I|Yo]] [[get|me]] [[up|levanto]] [[at|a]] [[6|6]] [[o'clock|en punto]]",
+            "[[I|Yo]] [[get|me]] [[up|levanto]] [[at|a]] [[9|9]] [[o'clock|en punto]]"
           ],
-          "correctAnswer": 1,
-          "explanation": "En español, ¿Qué haces usualmente por la mañana?"
+          "correctAnswer": 0,
+          "explanation": "En español, esto sería '¿A qué hora sueles levantarte por la mañana?'"
         }
       ]
     },
@@ -1074,20 +1202,20 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "How often do you go to the gym?",
+    "transcript": "Do you usually have breakfast at home?",
     "audioUrl": "audio/b1/unit-1/e42.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "Choose the correct option based on the prompt.",
+      "title": "Unidad 1: Rutina Diaria y Vida",
+      "instructions": "Elija la opción que describe una rutina común...",
       "questions": [
         {
-          "prompt": "[[How|Con]] [[often|qué]] [[do|frecuencia]] [[you|tú]] [[go|vas]] [[to|al]] [[the|el]] [[gym|gimnasio]]?",
+          "prompt": "[[Do|Tú]] [[you|sueles]] [[usually|desayunar]] [[have|en]] [[breakfast|casa]]?",
           "options": [
-            "[[I|Yo]] [[go|voy]] [[every|todos]] [[day|los días]].",
-            "[[I|Yo]] [[go|voy]] [[once|una vez]] [[a|a la]] [[week|semana]]."
+            "[[Yes|Sí]], [[I|yo]] [[do|lo]]",
+            "[[No|No]], [[I|yo]] [[eat|como]] [[out|afuera]]"
           ],
           "correctAnswer": 0,
-          "explanation": "En español, ¿Con qué frecuencia vas al gimnasio?"
+          "explanation": "Esto pregunta si usualmente desayunas en casa."
         }
       ]
     },
@@ -1099,20 +1227,20 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "Why are you studying English?",
+    "transcript": "What do you do in your free time?",
     "audioUrl": "audio/b1/unit-1/e43.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "Choose the correct option based on the prompt.",
+      "title": "Unidad 1: Rutina Diaria y Vida",
+      "instructions": "Seleccione la respuesta correcta basada en actividades de tiempo libre...",
       "questions": [
         {
-          "prompt": "[[Why|Por qué]] [[are|estás]] [[you|tú]] [[studying|estudiando]] [[English|inglés]]?",
+          "prompt": "[[What|Qué]] [[do|haces]] [[you|tú]] [[do|en]] [[your|tu]] [[free|tiempo]] [[time|libre]]?",
           "options": [
-            "[[I|Yo]] [[want|quiero]] [[to|aprender]] [[travel|viajar]].",
-            "[[I|Yo]] [[need|necesito]] [[it|eso]] [[for|para]] [[my|mi]] [[job|trabajo]]."
+            "[[I|Yo]] [[watch|veo]] [[TV|televisión]]",
+            "[[I|Yo]] [[read|leo]] [[books|libros]]"
           ],
           "correctAnswer": 1,
-          "explanation": "En español, ¿Por qué estás estudiando inglés?"
+          "explanation": "La pregunta es '¿Qué haces en tu tiempo libre?'"
         }
       ]
     },
@@ -1124,20 +1252,20 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "Are you cooking dinner tonight?",
+    "transcript": "Do you work from home on Fridays?",
     "audioUrl": "audio/b1/unit-1/e44.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "Choose the correct option based on the prompt.",
+      "title": "Unidad 1: Rutina Diaria y Vida",
+      "instructions": "Elija la respuesta correcta sobre dónde trabajas los viernes...",
       "questions": [
         {
-          "prompt": "[[Are|Estás]] [[you|tú]] [[cooking|cocinando]] [[dinner|la cena]] [[tonight|esta noche]]?",
+          "prompt": "[[Do|Tú]] [[you|trabajas]] [[work|desde]] [[from|casa]] [[home|los]] [[on|viernes]]?",
           "options": [
-            "[[No|No]], [[I'm|yo]] [[ordering|ordenando]] [[pizza|pizza]].",
-            "[[Yes|Sí]], [[I|yo]] [[am|lo estoy]]."
+            "[[Yes|Sí]], [[I|yo]] [[do|trabajo]]",
+            "[[No|No]], [[I|yo]] [[go|voy]] [[to|a]] [[the|la]] [[office|oficina]]"
           ],
-          "correctAnswer": 1,
-          "explanation": "En español, ¿Estás cocinando la cena esta noche?"
+          "correctAnswer": 0,
+          "explanation": "Pregunta si trabajas desde casa los viernes."
         }
       ]
     },
@@ -1149,20 +1277,20 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "Does she work from home?",
+    "transcript": "Does your sister go to school by bus?",
     "audioUrl": "audio/b1/unit-1/e45.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "Choose the correct option based on the prompt.",
+      "title": "Unidad 1: Rutina Diaria y Vida",
+      "instructions": "Elija la opción correcta relacionada con el transporte escolar...",
       "questions": [
         {
-          "prompt": "[[Does|Ella]] [[she|trabaja]] [[work|desde]] [[from|casa]] [[home|en casa]]?",
+          "prompt": "[[Does|Tu]] [[your|hermana]] [[sister|va]] [[go|a]] [[to|la]] [[school|escuela]] [[by|en]] [[bus|autobús]]?",
           "options": [
-            "[[Yes|Sí]], [[she|ella]] [[does|lo hace]].",
-            "[[No|No]], [[she|ella]] [[works|trabaja]] [[in|en]] [[an|una]] [[office|oficina]]."
+            "[[Yes|Sí]], [[she|ella]] [[does|lo hace]]",
+            "[[No|No]], [[she|ella]] [[walks|camina]]"
           ],
           "correctAnswer": 1,
-          "explanation": "En español, ¿Trabaja ella desde casa?"
+          "explanation": "La pregunta es '¿Tu hermana va a la escuela en autobús?'"
         }
       ]
     },
@@ -1174,20 +1302,20 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "She always wakes up at 7 am, but today she is waking up late because she stayed up late last night.",
+    "transcript": "John wakes up at 7 a.m. every day and brushes his teeth.",
     "audioUrl": "audio/b1/unit-1/e46.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "Fill in the blanks using the present simple or present continuous form of the verbs provided.",
+      "title": "Unidad 1: Rutina Diaria y Vida",
+      "instructions": "Llena los espacios en blanco con la forma adecuada del verbo.",
       "questions": [
         {
-          "prompt": "[[She|Ella]] always [[wakes|despierta]] up at 7 am, but today she _______ up late because she stayed up late [[last|última]] night.",
+          "prompt": "[[John|Juan]] [[wakes|despierta]] _______ [[at|a]] 7 [[a.m.|a.m.]] [[every|todos]] [[day|día]] [[and|y]] [[brushes|cepilla]] [[his|sus]] [[teeth|dientes]].",
           "options": [
-            "wakes",
-            "is waking"
+            "[[up|arriba]]",
+            "[[in|en]]"
           ],
-          "correctAnswer": 1,
-          "explanation": "In Spanish, 'Ella siempre se despierta a las 7 am, pero hoy se está despertando tarde porque se quedó despierta hasta tarde anoche.'"
+          "correctAnswer": 0,
+          "explanation": "En español, se usa 'up' para indicar que se levanta."
         }
       ]
     },
@@ -1199,20 +1327,20 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "I usually go to the gym in the morning, but this week I am going in the evening.",
+    "transcript": "Maria is cooking dinner while her brother is setting the table.",
     "audioUrl": "audio/b1/unit-1/e47.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "Use the correct form of the verb to complete each sentence.",
+      "title": "Unidad 1: Rutina Diaria y Vida",
+      "instructions": "Completa las frases con la forma correcta del verbo.",
       "questions": [
         {
-          "prompt": "[[I|Yo]] usually _______ to the gym [[in|en]] the [[morning|mañana]], but this week I _______ in the evening.",
+          "prompt": "[[Maria|María]] [[is|está]] _______ [[dinner|cena]] [[while|mientras]] [[her|su]] [[brother|hermano]] [[is|está]] [[setting|poniendo]] _______ [[table|mesa]].",
           "options": [
-            "go, go",
-            "go, am going"
+            "[[cooking|cocinando]]",
+            "[[eating|comiendo]]"
           ],
-          "correctAnswer": 1,
-          "explanation": "In Spanish, 'Usualmente voy al gimnasio por la mañana, pero esta semana estoy yendo por la tarde.'"
+          "correctAnswer": 0,
+          "explanation": "En español, 'cocinando' se refiere a preparar comida."
         }
       ]
     },
@@ -1224,20 +1352,20 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "John often has breakfast at home, yet today he is having breakfast at a café.",
+    "transcript": "They usually go jogging in the park in the morning.",
     "audioUrl": "audio/b1/unit-1/e48.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "Choose the correct form (present simple or continuous) to fill in the blanks.",
+      "title": "Unidad 1: Rutina Diaria y Vida",
+      "instructions": "Rellena los espacios usando las palabras adecuadas.",
       "questions": [
         {
-          "prompt": "[[John|Juan]] often _______ [[breakfast|desayuno]] at [[home|casa]], yet today he _______ breakfast at a café.",
+          "prompt": "[[They|Ellos]] [[usually|usualmente]] [[go|van]] _______ [[in|en]] [[the|el]] [[park|parque]] [[in|en]] [[the|la]] [[morning|mañana]].",
           "options": [
-            "has, has",
-            "has, is having"
+            "[[jogging|a correr]]",
+            "[[sleeping|durmiendo]]"
           ],
-          "correctAnswer": 1,
-          "explanation": "In Spanish, 'Juan a menudo desayuna en casa, pero hoy está desayunando en un café.'"
+          "correctAnswer": 0,
+          "explanation": "En español, 'a correr' es una actividad común en las mañanas."
         }
       ]
     },
@@ -1249,20 +1377,20 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "We usually read a book before bed, but tonight we are watching a movie.",
+    "transcript": "She is reading a book in the living room right now.",
     "audioUrl": "audio/b1/unit-1/e49.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "Fill in the blanks with the present simple or present continuous.",
+      "title": "Unidad 1: Rutina Diaria y Vida",
+      "instructions": "Usa el presente continuo para completar las frases.",
       "questions": [
         {
-          "prompt": "[[We|Nosotros]] usually _______ a [[book|libro]] before [[bed|cama]], but tonight we _______ a movie.",
+          "prompt": "[[She|Ella]] [[is|está]] _______ [[a|un]] [[book|libro]] [[in|en]] [[the|la]] [[living|sala]] [[room|de estar]] _______ [[now|ahora]].",
           "options": [
-            "read, are watching",
-            "read, watches"
+            "[[reading|leyendo]]",
+            "[[writing|escribiendo]]"
           ],
           "correctAnswer": 0,
-          "explanation": "In Spanish, 'Usualmente leemos un libro antes de dormir, pero esta noche estamos viendo una película.'"
+          "explanation": "En español, para actividades actuales se usa el presente continuo."
         }
       ]
     },
@@ -1274,20 +1402,20 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Daily Routine & Life",
     "difficulty": "medium",
-    "transcript": "They always go to school by bus, but today they are taking the train.",
+    "transcript": "We have breakfast at 8 a.m. every day.",
     "audioUrl": "audio/b1/unit-1/e50.mp3",
     "content": {
-      "title": "Unit 1: Daily Routine & Life",
-      "instructions": "Complete the sentences with the correct tense: present simple or continuous.",
+      "title": "Unidad 1: Rutina Diaria y Vida",
+      "instructions": "Completa la oración con el tiempo presente adecuado.",
       "questions": [
         {
-          "prompt": "[[They|Ellos]] always _______ to [[school|escuela]] by [[bus|autobús]], but today they _______ the train.",
+          "prompt": "[[We|Nosotros]] [[have|tenemos]] _______ [[at|a]] 8 [[a.m.|a.m.]] [[every|cada]] [[day|día]].",
           "options": [
-            "go, are taking",
-            "goes, takes"
+            "[[breakfast|desayuno]]",
+            "[[dinner|cena]]"
           ],
           "correctAnswer": 0,
-          "explanation": "In Spanish, 'Ellos siempre van a la escuela en autobús, pero hoy están tomando el tren.'"
+          "explanation": "En español, 'desayuno' es la primera comida del día."
         }
       ]
     },

@@ -2,6 +2,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import React, { createContext, useContext, useMemo, useRef } from "react";
 import AudioButton from "./AudioButton";
+import { TranslatedText } from "./exercises/TranslatedText";
 
 interface VocabularyItem {
   word: string;
@@ -105,7 +106,7 @@ function useApplyTooltips() {
         ctx.isFirstRef.current = false;
       }
 
-      return <>{parts}</>;
+      return <>{parts.map((p, i) => typeof p === 'string' ? <TranslatedText key={i} text={p} /> : p)}</>;
     });
   };
 }
@@ -296,6 +297,10 @@ function useMarkdownComponents() {
   const applyTooltips = useApplyTooltips();
 
   return useMemo(() => ({
+    // Text nodes
+    text({ value }: any) {
+      return <TranslatedText text={value} />;
+    },
     // Override text-heavy components to apply tooltips
     p({ children }: any) {
       return <p>{applyTooltips(children)}</p>;

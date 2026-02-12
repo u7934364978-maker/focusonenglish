@@ -88,8 +88,8 @@ async function generateExercisesForUnit(unitId: number) {
       - audioUrl: "audio/b1/unit-${unitId}/e..."
       - content: { 
           // MANDATORY for all types:
-          title: "Unit ${unitId}: ${unit.theme}",
-          instructions: "...", 
+          title: "Unit ${unitId}: ${unit.theme} (Spanish Title)",
+          instructions: "Spanish instructions here...", 
           
           // ONLY for multiple-choice, fill-blank:
           questions: [
@@ -113,7 +113,7 @@ async function generateExercisesForUnit(unitId: number) {
     try {
       const response = await openai.chat.completions.create({
         model: "gpt-4o",
-        messages: [{ role: "system", content: "You are a helpful English teacher assistant. You output only valid JSON. You ensure every English word is translated using [[word|translation]] syntax." }, { role: "user", content: prompt }],
+        messages: [{ role: "system", content: "You are a helpful English teacher assistant. You output only valid JSON. You ensure every English word is translated using [[word|translation]] syntax. Titles, instructions, and explanations MUST be in Spanish." }, { role: "user", content: prompt }],
         response_format: { type: "json_object" }
       });
 
