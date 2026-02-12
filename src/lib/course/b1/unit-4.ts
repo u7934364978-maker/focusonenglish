@@ -322,7 +322,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       questions: [
         {
           id: 'q1',
-          text: "You ___ (should) drink at least two liters of water a day.",
+          text: "You ___ drink at least two liters of water a day.",
           correctAnswer: "should",
           explanation: "'Should' is the standard modal for giving advice."
         }
@@ -342,7 +342,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       questions: [
         {
           id: 'q1',
-          text: "We ___ (must not) eat too much sugar if we want to avoid cavities.",
+          text: "We ___ eat too much sugar if we want to avoid cavities.",
           correctAnswer: "must not",
           explanation: "'Must not' (or mustn't) is used for prohibition."
         }
@@ -362,7 +362,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       questions: [
         {
           id: 'q1',
-          text: "You ___ (don't have to) go to the gym every single day; three times a week is enough.",
+          text: "You ___ go to the gym every single day; three times a week is enough.",
           correctAnswer: "don't have to",
           explanation: "'Don't have to' means it's not necessary, but you can if you want."
         }
@@ -382,7 +382,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       questions: [
         {
           id: 'q1',
-          text: "If you feel dizzy, you ___ (ought to) sit down immediately.",
+          text: "If you feel dizzy, you ___ sit down immediately.",
           correctAnswer: "ought to",
           explanation: "'Ought to' is a slightly more formal version of 'should'."
         }
@@ -402,7 +402,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       questions: [
         {
           id: 'q1',
-          text: "Students ___ (must) follow the safety rules in the laboratory.",
+          text: "Students ___ follow the safety rules in the laboratory.",
           correctAnswer: "must",
           explanation: "'Must' is used for strong obligations, often rules or laws."
         }
@@ -1362,7 +1362,7 @@ Remember, you don't have to be perfect. You just need to find what works for you
       questions: [
         {
           id: 'q1',
-          text: "He ___ (must) be happy with his weight loss results.",
+          text: "He ___ be happy with his weight loss results.",
           correctAnswer: "must",
           explanation: "When results are visible, 'must' is used for the logical conclusion."
         }
@@ -1382,7 +1382,7 @@ Remember, you don't have to be perfect. You just need to find what works for you
       questions: [
         {
           id: 'q1',
-          text: "They ___ (might) join the yoga class if they finish work early.",
+          text: "They ___ join the yoga class if they finish work early.",
           correctAnswer: "might",
           explanation: "'Might' or 'could' are used for possibilities."
         }
@@ -1402,7 +1402,7 @@ Remember, you don't have to be perfect. You just need to find what works for you
       questions: [
         {
           id: 'q1',
-          text: "You ___ (can't) be serious! Eating five burgers is not healthy.",
+          text: "You ___ be serious! Eating five burgers is not healthy.",
           correctAnswer: "can't",
           explanation: "'Can't' is the negative equivalent of 'must' for deduction."
         }
@@ -1422,7 +1422,7 @@ Remember, you don't have to be perfect. You just need to find what works for you
       questions: [
         {
           id: 'q1',
-          text: "The doctor ___ (could) be busy; his office is full.",
+          text: "The doctor ___ be busy; his office is full.",
           correctAnswer: "could",
           explanation: "'Could' is used for possibility."
         }
@@ -1442,7 +1442,7 @@ Remember, you don't have to be perfect. You just need to find what works for you
       questions: [
         {
           id: 'q1',
-          text: "She ___ (must) have a fever; her forehead is very hot.",
+          text: "She ___ have a fever; her forehead is very hot.",
           correctAnswer: "must",
           explanation: "The evidence (hot forehead) leads to the logical deduction 'must'."
         }
@@ -1856,7 +1856,7 @@ Doctor: Your blood pressure is a bit high, but with a stress-free environment an
       questions: [
         {
           id: 'q1',
-          text: "You ___ (should) try to include more nutrients.",
+          text: "You ___ try to include more nutrients.",
           correctAnswer: "should",
           explanation: "The doctor gives advice using 'should'."
         }
@@ -1934,7 +1934,7 @@ Doctor: Your blood pressure is a bit high, but with a stress-free environment an
       questions: [
         {
           id: 'q1',
-          text: "The doctor says the patient ___ (might) be tired because of the diet.",
+          text: "The doctor says the patient ___ be tired because of the diet.",
           correctAnswer: "might",
           explanation: "The doctor says 'That might be the problem'."
         }
@@ -1954,7 +1954,7 @@ Doctor: Your blood pressure is a bit high, but with a stress-free environment an
       questions: [
         {
           id: 'q1',
-          text: "Habits can lead to ___ (burnout) if not careful.",
+          text: "Habits can lead to ___ if not careful.",
           correctAnswer: "burnout",
           explanation: "Burnout is the result of prolonged stress and poor habits."
         }

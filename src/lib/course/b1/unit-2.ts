@@ -864,7 +864,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       questions: [
         {
           id: 'q1',
-          text: 'We have ___ (already) seen this film twice.',
+          text: 'We have ___ seen this film twice.',
           correctAnswer: 'already',
           explanation: '"Already" usually goes between the auxiliary "have" and the past participle.'
         }

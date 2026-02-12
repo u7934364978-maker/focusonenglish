@@ -25,6 +25,7 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/90
 - [x] **Task 7: Implement Exercises 51-100 for Unit 3: Work & Professional Life**
 - [x] **Task 7.1: Technical - Implement Hover Translation System (WordTooltip)**
 - [x] **Task 8: Implement Unit 4: Health, Mind & Body (Exercises 1-100 Standardized)**
+- [x] **Task 8.1: Fix Unit 4 (Remove solutions from fill-blank prompts)**
 - [x] **Task 9: Implement Interactive Audio Dialogues for Units 1-4**
 - [x] **Task 10: Unit 5: Social Issues & The Environment (Exercises 1-50)**
 - [x] **Task 11: Unit 5: Social Issues & The Environment (Exercises 51-100)**

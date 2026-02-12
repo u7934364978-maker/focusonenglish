@@ -1854,7 +1854,7 @@ Expert B: That's a good intention, but it's going to be difficult to implement i
       questions: [
         {
           id: 'q1',
-          text: "Governments ___ (must) ban gas cars.",
+          text: "Governments ___ ban gas cars.",
           correctAnswer: "must",
           explanation: "Expert A uses 'must' to express strong necessity."
         }
@@ -1932,7 +1932,7 @@ Expert B: That's a good intention, but it's going to be difficult to implement i
       questions: [
         {
           id: 'q1',
-          text: "We need ___ (renewable) energy.",
+          text: "We need ___ energy.",
           correctAnswer: "renewable",
           explanation: "Expert A mentions the need for renewable energy."
         }
@@ -1952,7 +1952,7 @@ Expert B: That's a good intention, but it's going to be difficult to implement i
       questions: [
         {
           id: 'q1',
-          text: "We will create ___ (sustainable) jobs.",
+          text: "We will create ___ jobs.",
           correctAnswer: "sustainable",
           explanation: "The text refers to 'sustainable jobs'."
         }
