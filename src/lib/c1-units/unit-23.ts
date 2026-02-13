@@ -40,7 +40,7 @@ export const C1_U23_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 4),
       type: 'fill-blank',
-      question: '[[Much|Mucho]] ___ (as) I [[like|gusta]] him, I [[can\'t|no puedo]] [[trust|confiar]] him.',
+      question: "[[Much|Mucho]] ___ (as) I [[like|gusta]] him, I [[can't|no puedo]] [[trust|confiar]] him.",
       correctAnswer: 'as',
       explanation: '"Much as" is a strong concessive [[opener|apertura]].',
       points: 1
@@ -314,7 +314,7 @@ export const C1_U23_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 2),
       type: 'multiple-choice',
-      question: '[[Try|Intentar]] ___ (as) he [[might|pudiera]], he [[couldn\'t|no pudo]] [[open|abrir]] it.',
+      question: "[[Try|Intentar]] ___ (as) he [[might|pudiera]], he [[couldn't|no pudo]] [[open|abrir]] it.",
       options: ['as', 'though', 'while'],
       correctAnswer: 'as',
       explanation: '"Verb + as + subject + modal" for concession.',
@@ -359,7 +359,7 @@ export const C1_U23_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 7),
       type: 'multiple-choice',
-      question: '___ (However) [[hard|duro]] you [[try|intentes]], you [[can\'t|no puedes]] [[win|ganar]].',
+      question: "___ (However) [[hard|duro]] you [[try|intentes]], you [[can't|no puedes]] [[win|ganar]].",
       options: ['However', 'Whatever', 'Wherever'],
       correctAnswer: 'However',
       explanation: '"However + adjective/adverb" for concession.',
@@ -424,7 +424,7 @@ export const C1_U23_BLOCK5: Exercise = {
     {
       id: genId(UNIT_ID, 'b5', 3),
       type: 'fill-blank',
-      question: 'I like him, but I don\'t trust him. (MUCH) \n ___ as I like him, I don\'t trust him.',
+      question: "I like him, but I don't trust him. (MUCH) \n ___ as I like him, I don't trust him.",
       correctAnswer: 'Much',
       explanation: 'Concessive opener.',
       points: 2
@@ -440,7 +440,7 @@ export const C1_U23_BLOCK5: Exercise = {
     {
       id: genId(UNIT_ID, 'b5', 5),
       type: 'fill-blank',
-      question: 'No matter what you say, I won\'t go. (WHATEVER) \n ___ you say, I won\'t go.',
+      question: "No matter what you say, I won't go. (WHATEVER) \n ___ you say, I won't go.",
       correctAnswer: 'Whatever',
       explanation: '"Whatever" replaces "no matter what".',
       points: 2
@@ -472,7 +472,7 @@ export const C1_U23_BLOCK5: Exercise = {
     {
       id: genId(UNIT_ID, 'b5', 9),
       type: 'fill-blank',
-      question: 'I don\'t agree, even if you insist. (HOWEVER) \n I don\'t agree, ___ you insist.',
+      question: "I don't agree, even if you insist. (HOWEVER) \n I don't agree, ___ you insist.",
       correctAnswer: 'however much',
       explanation: '"However much" for emphasis.',
       points: 2

@@ -37,3 +37,5 @@ export const c1Units = [
   unit21, unit22, unit23, unit24, unit25,
   unit26, unit27, unit28, unit29, unit30
 ];
+
+export const C1_UNITS = c1Units;

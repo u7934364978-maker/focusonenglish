@@ -109,7 +109,7 @@ export const C1_U13_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 1),
       type: 'multiple-choice',
-      question: 'This year\'s [[profits|ganancias]] are ___ [[higher|más altas]] than last year\'s.',
+      question: "This year's [[profits|ganancias]] are ___ [[higher|más altas]] than last year's.",
       options: ['significantly', 'very', 'more'],
       correctAnswer: 'significantly',
       explanation: '"Significantly" is a [[formal|formal]] modifier for comparative adjectives.',
@@ -127,7 +127,7 @@ export const C1_U13_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 3),
       type: 'multiple-choice',
-      question: 'He is ___ [[the|el]] [[best|mejor]] [[candidate|candidato]] we\'ve [[interviewed|entrevistado]].',
+      question: "He is ___ [[the|el]] [[best|mejor]] [[candidate|candidato]] we've [[interviewed|entrevistado]].",
       options: ['by far', 'far', 'much'],
       correctAnswer: 'by far',
       explanation: 'Use "by far" to [[emphasize|enfatizar]] a [[superlative|superlativo]].',
@@ -212,7 +212,7 @@ export const C1_U13_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 1),
       type: 'fill-blank',
-      question: 'The car wasn\'t as expensive as I thought it would be. (NEAR) \n The car was ___ expensive as I thought it would be.',
+      question: "The car wasn't as expensive as I thought it would be. (NEAR) \n The car was ___ expensive as I thought it would be.",
       correctAnswer: 'nowhere near as',
       explanation: 'Using "nowhere near as... as" for emphasis.',
       points: 2

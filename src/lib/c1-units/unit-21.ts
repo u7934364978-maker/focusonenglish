@@ -283,7 +283,7 @@ export const C1_U21_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 10),
       type: 'multiple-choice',
-      question: '___ (Even) if he [[begs|ruega]], I won\'t [[change|cambiar]] my [[mind|opinión]].',
+      question: "___ (Even) if he [[begs|ruega]], I won't [[change|cambiar]] my [[mind|opinión]].",
       options: ['Even', 'Provided', 'Supposing'],
       correctAnswer: 'Even',
       explanation: '"Even if" emphasizes that the [[condition|condición]] doesn\'t [[matter|importar]].',
@@ -337,7 +337,7 @@ export const C1_U21_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 5),
       type: 'fill-blank',
-      question: 'I [[wish|desearía]] I ___ (could) [[help|ayudar]] you, but I [[can\'t|no puedo]].',
+      question: "I [[wish|desearía]] I ___ (could) [[help|ayudar]] you, but I [[can't|no puedo]].",
       correctAnswer: 'could',
       explanation: 'Desire for a different ability.',
       points: 1
@@ -369,7 +369,7 @@ export const C1_U21_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 9),
       type: 'fill-blank',
-      question: 'I [[wish|desearía]] they ___ (not/smoke) [[here|aquí]].',
+      question: "I [[wish|desearía]] they ___ (not/smoke) [[here|aquí]].",
       correctAnswer: 'would not smoke',
       explanation: 'Complaint about a habit.',
       points: 1
@@ -406,7 +406,7 @@ export const C1_U21_BLOCK5: Exercise = {
     {
       id: genId(UNIT_ID, 'b5', 2),
       type: 'fill-blank',
-      question: 'I didn\'t see you, so I didn\'t wave. (HAD) \n ___ seen you, I would have waved.',
+      question: "I didn't see you, so I didn't wave. (HAD) \n ___ seen you, I would have waved.",
       correctAnswer: 'Had I',
       explanation: 'Formal past inversion.',
       points: 2
@@ -414,7 +414,7 @@ export const C1_U21_BLOCK5: Exercise = {
     {
       id: genId(UNIT_ID, 'b5', 3),
       type: 'fill-blank',
-      question: 'If it hadn\'t been for the rain, we would have gone. (BUT) \n ___ the rain, we would have gone.',
+      question: "If it hadn't been for the rain, we would have gone. (BUT) \n ___ the rain, we would have gone.",
       correctAnswer: 'But for',
       explanation: 'Alternative to "if it hadn\'t been for".',
       points: 2
@@ -422,7 +422,7 @@ export const C1_U21_BLOCK5: Exercise = {
     {
       id: genId(UNIT_ID, 'b5', 4),
       type: 'fill-blank',
-      question: 'I am sorry I didn\'t go. (WISH) \n I ___ gone.',
+      question: "I am sorry I didn't go. (WISH) \n I ___ gone.",
       correctAnswer: 'wish I had',
       explanation: 'Expressing regret.',
       points: 2
@@ -430,7 +430,7 @@ export const C1_U21_BLOCK5: Exercise = {
     {
       id: genId(UNIT_ID, 'b5', 5),
       type: 'fill-blank',
-      question: 'He is poor because he lost his job. (IF) \n He wouldn\'t be poor if he ___ his job.',
+      question: "He is poor because he lost his job. (IF) \n He wouldn't be poor if he ___ his job.",
       correctAnswer: 'had not lost',
       explanation: 'Mixed conditional.',
       points: 2
@@ -454,7 +454,7 @@ export const C1_U21_BLOCK5: Exercise = {
     {
       id: genId(UNIT_ID, 'b5', 8),
       type: 'fill-blank',
-      question: 'It's a shame she isn't here. (ONLY) \n If ___ here!',
+      question: "It's a shame she isn't here. (ONLY) \n If ___ here!",
       correctAnswer: 'only she were',
       explanation: 'Expressing a wish.',
       points: 2

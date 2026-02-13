@@ -17,21 +17,6 @@ export const C1_MODULES = [
     id: 'c1-m3',
     title: 'Module 3: Complex Social Issues',
     units: C1_UNITS.slice(20, 30)
-  },
-  {
-    id: 'c1-m4',
-    title: 'Module 4: Culture, Media & Arts',
-    units: C1_UNITS.slice(30, 40)
-  },
-  {
-    id: 'c1-m5',
-    title: 'Module 5: Science, Ethics & Future',
-    units: C1_UNITS.slice(40, 50)
-  },
-  {
-    id: 'c1-m6',
-    title: 'Module 6: Global Trends & C1 Mastery',
-    units: C1_UNITS.slice(50, 60)
   }
 ];
 

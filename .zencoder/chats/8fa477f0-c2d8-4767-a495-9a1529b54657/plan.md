@@ -31,3 +31,8 @@
    - **Action**: Obtain approval for E2E tests and write them.
    - **Details**: Use Playwright to verify the flow.
    - **Verification**: Run `npm run test:e2e` - All tests passed.
+
+6. **[x] Task 6: Fix C1 Units Build Errors**
+   - **Action**: Fix syntax errors in [./src/lib/c1-units/unit-21.ts](./src/lib/c1-units/unit-21.ts) and others.
+   - **Details**: Unescaped single quotes were causing webpack errors. Also fixed incorrect imports in [./src/lib/course-data-c1.ts](./src/lib/course-data-c1.ts).
+   - **Verification**: Run `npm run build` - Build completed successfully.
