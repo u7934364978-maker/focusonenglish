@@ -1,2 +1,1159 @@
 import { Exercise } from '@/lib/exercise-generator';
-export const UNIT_13_EXERCISES: Exercise[] = [];
+
+export const UNIT_13_EXERCISES: Exercise[] = [
+  {
+    "id": "b1-u13-e1",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "The light bulb was invented by Thomas Edison in 1879.",
+    "content": {
+      "title": "Grandes inventos",
+      "instructions": "Elige la forma correcta de la voz pasiva en pasado.",
+      "questions": [
+        {
+          "question": "[[The|La]] [[light|bombilla]] [[bulb| ]] _______ [[invented|inventada]] [[by|por]] [[Thomas|Thomas]] [[Edison|Edison]] [[in|en]] [[1879|1879]].",
+          "options": [
+            "[[was|fue]]",
+            "[[is|es]]",
+            "[[were|fueron]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "La voz pasiva en pasado simple se forma con 'was/were' + participio pasado.",
+          "audio": "audio/b1/unit-13/e1.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e1.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u13-e2",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "Scientists are developing a new device to improve internet speed.",
+    "content": {
+      "title": "Nuevos dispositivos",
+      "instructions": "Selecciona la palabra que significa 'dispositivo'.",
+      "questions": [
+        {
+          "question": "[[Scientists|Los científicos]] [[are|están]] [[developing|desarrollando]] [[a|un]] [[new|nuevo]] _______ [[to|para]] [[improve|mejorar]] [[internet|de internet]] [[speed|la velocidad]].",
+          "options": [
+            "[[device|dispositivo]]",
+            "[[discovery|descubrimiento]]",
+            "[[research|investigación]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Device' se refiere a un objeto o máquina fabricado para un propósito específico.",
+          "audio": "audio/b1/unit-13/e2.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e2.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u13-e3",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "If we didn't have computers, life would be much more difficult.",
+    "content": {
+      "title": "Vida sin ordenadores",
+      "instructions": "Completa la oración usando el segundo condicional.",
+      "questions": [
+        {
+          "question": "[[If|Si]] [[we|nosotros]] [[didn't|no]] [[have|tuviéramos]] [[computers|ordenadores]], [[life|la vida]] _______ [[much|mucho]] [[more|más]] [[difficult|difícil]].",
+          "options": [
+            "[[would be|sería]]",
+            "[[will be|será]]",
+            "[[is|es]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "El segundo condicional usa 'would + infinitivo' para imaginar situaciones hipotéticas en el presente.",
+          "audio": "audio/b1/unit-13/e3.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e3.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u13-e4",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "Alexander Fleming made an important discovery when he found penicillin.",
+    "content": {
+      "title": "El hallazgo de la penicilina",
+      "instructions": "Elige el sustantivo que significa 'descubrimiento'.",
+      "questions": [
+        {
+          "question": "[[Alexander|Alexander]] [[Fleming|Fleming]] [[made|hizo]] [[an|un]] [[important|importante]] _______ [[when|cuando]] [[he|él]] [[found|encontró]] [[penicillin|la penicilina]].",
+          "options": [
+            "[[discovery|descubrimiento]]",
+            "[[invention|invento]]",
+            "[[improvement|mejora]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Discovery' es el hallazgo de algo que ya existía pero no se conocía.",
+          "audio": "audio/b1/unit-13/e4.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e4.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u13-e5",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "Smartphones have changed the way people communicate with each other.",
+    "content": {
+      "title": "Cambio tecnológico",
+      "instructions": "Elige el tiempo verbal correcto para una acción con impacto en el presente.",
+      "questions": [
+        {
+          "question": "[[Smartphones|Los teléfonos inteligentes]] _______ [[changed|cambiado]] [[the|la]] [[way|forma en que]] [[people|la gente]] [[communicate|se comunica]] [[with|entre]] [[each|sí]] [[other| ]].",
+          "options": [
+            "[[have|han]]",
+            "[[has|ha]]",
+            "[[did|hicieron]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Usamos el presente perfecto 'have + participio' para hablar de cambios que afectan al presente.",
+          "audio": "audio/b1/unit-13/e5.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e5.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u13-e6",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "Artificial Intelligence is a breakthrough that will transform many industries.",
+    "content": {
+      "title": "Inteligencia Artificial",
+      "instructions": "Elige el término que significa 'avance' o 'logro'.",
+      "questions": [
+        {
+          "question": "[[Artificial|La Inteligencia]] [[Intelligence|Artificial]] [[is|es]] [[a|un]] _______ [[that|que]] [[will|transformará]] [[transform| ]] [[many|muchas]] [[industries|industrias]].",
+          "options": [
+            "[[breakthrough|avance]]",
+            "[[failure|fallo]]",
+            "[[drawback|desventaja]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "A 'breakthrough' is a sudden, dramatic, and important discovery or development.",
+          "audio": "audio/b1/unit-13/e6.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e6.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u13-e7",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "The first modern automobile was designed by Karl Benz.",
+    "content": {
+      "title": "Historia del automóvil",
+      "instructions": "Selecciona el participio pasado correcto para la voz pasiva.",
+      "questions": [
+        {
+          "question": "[[The|El]] [[first|primer]] [[modern|automóvil]] [[automobile|moderno]] [[was|fue]] _______ [[by|por]] [[Karl|Karl]] [[Benz|Benz]].",
+          "options": [
+            "[[designed|diseñado]]",
+            "[[designing|diseñando]]",
+            "[[design|diseñar]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "En la voz pasiva, el verbo principal siempre va en participio pasado.",
+          "audio": "audio/b1/unit-13/e7.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e7.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u13-e8",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "Engineers are working on more efficient ways to store energy.",
+    "content": {
+      "title": "Ingeniería energética",
+      "instructions": "Elige el adjetivo que significa 'eficiente'.",
+      "questions": [
+        {
+          "question": "[[Engineers|Los ingenieros]] [[are|están]] [[working|trabajando]] [[on|en]] [[more|maneras más]] _______ [[ways| ]] [[to|para]] [[store|almacenar]] [[energy|energía]].",
+          "options": [
+            "[[efficient|eficientes]]",
+            "[[wasteful|derrochadoras]]",
+            "[[slow|lentas]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Efficient' significa lograr el máximo resultado con el mínimo esfuerzo o gasto.",
+          "audio": "audio/b1/unit-13/e8.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e8.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u13-e9",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "If you use this software, you can edit photos easily.",
+    "content": {
+      "title": "Software de edición",
+      "instructions": "Completa con el primer condicional.",
+      "questions": [
+        {
+          "question": "[[If|Si]] [[you|tú]] [[use|usas]] [[this|este]] [[software|software]], [[you|tú]] _______ [[edit|editar]] [[photos|fotos]] [[easily|fácilmente]].",
+          "options": [
+            "[[can|puedes]]",
+            "[[could|podrías]]",
+            "[[might|podrías]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "En el primer condicional, podemos usar 'can' para expresar capacidad real en el futuro.",
+          "audio": "audio/b1/unit-13/e9.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e9.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u13-e10",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "The invention of the internet has revolutionized global communication.",
+    "content": {
+      "title": "La revolución digital",
+      "instructions": "Selecciona el verbo que significa 'revolucionar'.",
+      "questions": [
+        {
+          "question": "[[The|La]] [[invention|invención]] [[of|del]] [[the| ]] [[internet|internet]] [[has|ha]] _______ [[global|la comunicación]] [[communication|global]].",
+          "options": [
+            "[[revolutionized|revolucionado]]",
+            "[[delayed|retrasado]]",
+            "[[ignored|ignorado]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Revolutionize' significa cambiar algo de forma radical y completa.",
+          "audio": "audio/b1/unit-13/e10.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e10.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u13-e11",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "New patents are registered every day in the technology sector.",
+    "content": {
+      "title": "Registro de patentes",
+      "instructions": "Completa con el verbo adecuado para la voz pasiva en presente.",
+      "questions": [
+        {
+          "question": "[[New|Nuevas]] [[patents|patentes]] _______ [[registered|registradas]] [[every|cada]] [[day|día]] [[in|en]] [[the|el]] [[technology|de tecnología]] [[sector|sector]].",
+          "options": [
+            "[[are|son]]",
+            "[[is|es]]",
+            "[[have|han]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'are' para la voz pasiva en presente con sujetos en plural.",
+          "audio": "audio/b1/unit-13/e11.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e11.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u13-e12",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "Many innovative companies invest a lot of money in research and development.",
+    "content": {
+      "title": "I+D",
+      "instructions": "Elige la expresión para 'investigación y desarrollo'.",
+      "questions": [
+        {
+          "question": "[[Many|Muchas]] [[innovative|innovadoras]] [[companies|empresas]] [[invest|invierten]] [[a|mucho]] [[lot| ]] [[of| ]] [[money|dinero]] [[in|en]] _______.",
+          "options": [
+            "[[research and development|investigación y desarrollo]]",
+            "[[sales and marketing|ventas y marketing]]",
+            "[[hiring and firing|contratación y despidos]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Research and development' (R&D) es el trabajo científico dirigido a la innovación.",
+          "audio": "audio/b1/unit-13/e12.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e12.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u13-e13",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "This gadget is so useful that I use it every day.",
+    "content": {
+      "title": "Gadgets útiles",
+      "instructions": "Selecciona la estructura de intensidad correcta.",
+      "questions": [
+        {
+          "question": "[[This|Este]] [[gadget|aparato]] [[is|es]] _______ [[useful|útil]] [[that|que]] [[I|yo]] [[use|uso]] [[it|lo]] [[every|cada]] [[day|día]].",
+          "options": [
+            "[[so|tan]]",
+            "[[such|tal]]",
+            "[[too|demasiado]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'so + adjetivo + that' para expresar consecuencia.",
+          "audio": "audio/b1/unit-13/e13.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e13.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u13-e14",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "The user interface of the app is very intuitive and easy to use.",
+    "content": {
+      "title": "Interfaz de usuario",
+      "instructions": "Elige la palabra que significa 'interfaz'.",
+      "questions": [
+        {
+          "question": "[[The|La]] [[user|de usuario]] _______ [[of|de]] [[the|la]] [[app|aplicación]] [[is|es]] [[very|muy]] [[intuitive|intuitiva]] [[and|y]] [[easy|fácil]] [[to|de]] [[use|usar]].",
+          "options": [
+            "[[interface|interfaz]]",
+            "[[connection|conexión]]",
+            "[[hardware|hardware]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "A 'user interface' (UI) is the part of a system that users interact with.",
+          "audio": "audio/b1/unit-13/e14.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e14.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u13-e15",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "If we had more funding, we could finish the prototype sooner.",
+    "content": {
+      "title": "Financiación de prototipos",
+      "instructions": "Completa con el segundo condicional.",
+      "questions": [
+        {
+          "question": "[[If|Si]] [[we|nosotros]] _______ [[more|más]] [[funding|financiación]], [[we|nosotros]] [[could|podríamos]] [[finish|terminar]] [[the|el]] [[prototype|prototipo]] [[sooner|antes]].",
+          "options": [
+            "[[had|tuviéramos]]",
+            "[[have|tenemos]]",
+            "[[has|tiene]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Usamos el pasado simple tras 'if' en el segundo condicional.",
+          "audio": "audio/b1/unit-13/e15.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e15.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u13-e16",
+    "type": "fill-blank",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "The telephone was patented by Graham Bell.",
+    "content": {
+      "title": "La patente del teléfono",
+      "instructions": "Escribe la palabra correcta para la voz pasiva.",
+      "questions": [
+        {
+          "question": "[[The|El]] [[telephone|teléfono]] _______ [[patented|patentado]] [[by|por]] [[Graham|Graham]] [[Bell|Bell]].",
+          "answer": "was",
+          "explanation": "Usamos 'was' para la voz pasiva en pasado con sujeto singular.",
+          "audio": "audio/b1/unit-13/e16.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e16.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u13-e17",
+    "type": "fill-blank",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "You need to update your browser to see the new features.",
+    "content": {
+      "title": "Actualización del navegador",
+      "instructions": "Escribe el verbo que significa 'actualizar'.",
+      "questions": [
+        {
+          "question": "[[You|Tú]] [[need|necesitas]] [[to| ]] _______ [[your|tu]] [[browser|navegador]] [[to|para]] [[see|ver]] [[the|las]] [[new|nuevas]] [[features|funciones]].",
+          "answer": "update",
+          "explanation": "'Update' significa hacer algo más moderno o actual incorporando la información más reciente.",
+          "audio": "audio/b1/unit-13/e17.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e17.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u13-e18",
+    "type": "fill-blank",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "The scientists are conducting experiments in the laboratory.",
+    "content": {
+      "title": "Experimentos científicos",
+      "instructions": "Escribe el sustantivo que significa 'experimentos'.",
+      "questions": [
+        {
+          "question": "[[The|Los]] [[scientists|científicos]] [[are|están]] [[conducting|realizando]] _______ [[in|en]] [[the|el]] [[laboratory|laboratorio]].",
+          "answer": "experiments",
+          "explanation": "Un 'experiment' es un procedimiento científico realizado para hacer un descubrimiento.",
+          "audio": "audio/b1/unit-13/e18.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e18.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u13-e19",
+    "type": "fill-blank",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "If technology continues to advance, we will have flying cars.",
+    "content": {
+      "title": "Avance tecnológico",
+      "instructions": "Escribe el verbo auxiliar para el primer condicional.",
+      "questions": [
+        {
+          "question": "[[If|Si]] [[technology|la tecnología]] [[continues|continúa]] [[to|avanzando]] [[advance| ]], [[we|nosotros]] _______ [[have|tendremos]] [[flying|coches]] [[cars|voladores]].",
+          "answer": "will",
+          "explanation": "El primer condicional usa 'will' para predecir un resultado probable.",
+          "audio": "audio/b1/unit-13/e19.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e19.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u13-e20",
+    "type": "fill-blank",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "The company has launched a revolutionary product.",
+    "content": {
+      "title": "Lanzamiento de producto",
+      "instructions": "Escribe el participio del verbo 'lanzar'.",
+      "questions": [
+        {
+          "question": "[[The|La]] [[company|empresa]] [[has|ha]] _______ [[a|un]] [[revolutionary|revolucionario]] [[product|producto]].",
+          "answer": "launched",
+          "explanation": "'Launched' es el participio de 'launch', que significa presentar un nuevo producto al público.",
+          "audio": "audio/b1/unit-13/e20.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e20.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u13-e21",
+    "type": "fill-blank",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "Electric cars are becoming more popular every year.",
+    "content": {
+      "title": "Coches eléctricos",
+      "instructions": "Escribe la palabra que significa 'volviéndose'.",
+      "questions": [
+        {
+          "question": "[[Electric|Los coches]] [[cars|eléctricos]] [[are|se están]] _______ [[more|más]] [[popular|populares]] [[every|cada]] [[year|año]].",
+          "answer": "becoming",
+          "explanation": "'Becoming' indica un proceso de cambio o evolución.",
+          "audio": "audio/b1/unit-13/e21.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e21.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u13-e22",
+    "type": "fill-blank",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "Software developers use coding to create applications.",
+    "content": {
+      "title": "Programación",
+      "instructions": "Escribe la palabra que significa 'desarrolladores'.",
+      "questions": [
+        {
+          "question": "[[Software|Los]] _______ [[use|usan]] [[coding|la programación]] [[to|para]] [[create|crear]] [[applications|aplicaciones]].",
+          "answer": "developers",
+          "explanation": "'Developers' son las personas que diseñan y crean software o aplicaciones.",
+          "audio": "audio/b1/unit-13/e22.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e22.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u13-e23",
+    "type": "fill-blank",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "We are looking for a sustainable solution for plastic waste.",
+    "content": {
+      "title": "Soluciones sostenibles",
+      "instructions": "Escribe el adjetivo que significa 'sostenible'.",
+      "questions": [
+        {
+          "question": "[[We|Nosotros]] [[are|estamos]] [[looking|buscando]] [[for| ]] [[a|una]] _______ [[solution|solución]] [[for|para]] [[plastic|los residuos]] [[waste|plásticos]].",
+          "answer": "sustainable",
+          "explanation": "'Sustainable' se refiere a algo que puede mantenerse sin agotar los recursos naturales.",
+          "audio": "audio/b1/unit-13/e23.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e23.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u13-e24",
+    "type": "fill-blank",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "The internet was created to share information quickly.",
+    "content": {
+      "title": "Origen de internet",
+      "instructions": "Escribe el participio pasado del verbo 'crear'.",
+      "questions": [
+        {
+          "question": "[[The|El]] [[internet|internet]] [[was|fue]] _______ [[to|para]] [[share|compartir]] [[information|información]] [[quickly|rápidamente]].",
+          "answer": "created",
+          "explanation": "'Created' es el participio pasado necesario para la voz pasiva en pasado.",
+          "audio": "audio/b1/unit-13/e24.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e24.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u13-e25",
+    "type": "fill-blank",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "A drone is a remote-controlled aircraft used for many tasks.",
+    "content": {
+      "title": "Drones",
+      "instructions": "Escribe la palabra que significa 'controlado remotamente'.",
+      "questions": [
+        {
+          "question": "[[A|Un]] [[drone|dron]] [[is|es]] [[a|una]] _______ [[aircraft|aeronave]] [[used|utilizada]] [[for|para]] [[many|muchas]] [[tasks|tareas]].",
+          "answer": "remote-controlled",
+          "explanation": "'Remote-controlled' significa que se maneja a distancia mediante un mando.",
+          "audio": "audio/b1/unit-13/e25.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e25.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u13-e26",
+    "type": "fill-blank",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "Virtual reality provides an immersive experience for gamers.",
+    "content": {
+      "title": "Realidad virtual",
+      "instructions": "Escribe el adjetivo que significa 'inmersiva'.",
+      "questions": [
+        {
+          "question": "[[Virtual|La realidad]] [[reality|virtual]] [[provides|proporciona]] [[an|una]] _______ [[experience|experiencia]] [[for|para]] [[gamers|los jugadores]].",
+          "answer": "immersive",
+          "explanation": "'Immersive' describe algo que te rodea completamente y te hace sentir parte de ello.",
+          "audio": "audio/b1/unit-13/e26.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e26.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u13-e27",
+    "type": "fill-blank",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "If you don't charge the battery, the laptop will turn off.",
+    "content": {
+      "title": "Carga de batería",
+      "instructions": "Escribe el verbo auxiliar negativo para el primer condicional.",
+      "questions": [
+        {
+          "question": "[[If|Si]] [[you|tú]] _______ [[charge|cargas]] [[the|la]] [[battery|batería]], [[the|el]] [[laptop|portátil]] [[will|se]] [[turn|apagará]] [[off| ]].",
+          "answer": "don't",
+          "explanation": "Usamos 'don't' para negar el presente simple en la condición del primer condicional.",
+          "audio": "audio/b1/unit-13/e27.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e27.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u13-e28",
+    "type": "fill-blank",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "This startup is developing a very clever algorithm.",
+    "content": {
+      "title": "Startups y algoritmos",
+      "instructions": "Escribe la palabra que significa 'algoritmo'.",
+      "questions": [
+        {
+          "question": "[[This|Esta]] [[startup|startup]] [[is|está]] [[developing|desarrollando]] [[a|un]] [[very|muy]] [[clever|inteligente]] _______.",
+          "answer": "algorithm",
+          "explanation": "An 'algorithm' is a set of rules followed by a computer to solve a problem.",
+          "audio": "audio/b1/unit-13/e28.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e28.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u13-e29",
+    "type": "fill-blank",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "Most smartphones are manufactured in Asia.",
+    "content": {
+      "title": "Fabricación global",
+      "instructions": "Escribe el participio del verbo 'fabricar'.",
+      "questions": [
+        {
+          "question": "[[Most|La mayoría de]] [[smartphones|los teléfonos]] [[are|son]] _______ [[in|en]] [[Asia|Asia]].",
+          "answer": "manufactured",
+          "explanation": "'Manufactured' significa fabricar algo a gran escala usando maquinaria.",
+          "audio": "audio/b1/unit-13/e29.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e29.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u13-e30",
+    "type": "fill-blank",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "The new update fixes several bugs in the software.",
+    "content": {
+      "title": "Errores de software",
+      "instructions": "Escribe la palabra que significa 'errores' en informática.",
+      "questions": [
+        {
+          "question": "[[The|La]] [[new|nueva]] [[update|actualización]] [[fixes|corrige]] [[several|varios]] _______ [[in|en]] [[the|el]] [[software|software]].",
+          "answer": "bugs",
+          "explanation": "A 'bug' is an error or flaw in a computer program.",
+          "audio": "audio/b1/unit-13/e30.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e30.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u13-e31",
+    "type": "sentence-building",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "The first computer was much larger than a modern laptop today.",
+    "content": {
+      "title": "Evolución de los ordenadores",
+      "instructions": "Ordena las palabras para formar una oración comparativa.",
+      "questions": [
+        {
+          "question": "[[The|El]] [[first|primer]] [[computer|ordenador]] [[was|era]] [[much|mucho]] [[larger|más grande]] [[than|que]] [[a|un]] [[modern|portátil]] [[laptop|moderno]] [[today|hoy]].",
+          "explanation": "Comparamos el tamaño de los primeros ordenadores con los actuales.",
+          "audio": "audio/b1/unit-13/e31.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e31.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u13-e32",
+    "type": "sentence-building",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "Many people believe that artificial intelligence will change the world forever.",
+    "content": {
+      "title": "El futuro de la IA",
+      "instructions": "Ordena las palabras para formar una opinión sobre el futuro.",
+      "questions": [
+        {
+          "question": "[[Many|Mucha]] [[people|gente]] [[believe|cree]] [[that|que]] [[artificial|la inteligencia]] [[intelligence|artificial]] [[will|cambiará]] [[change| ]] [[the|el]] [[world|mundo]] [[forever|para siempre]].",
+          "explanation": "Expresamos una creencia común sobre el impacto de la tecnología.",
+          "audio": "audio/b1/unit-13/e32.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e32.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u13-e33",
+    "type": "sentence-building",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "Scientists are trying to find new ways to produce clean energy.",
+    "content": {
+      "title": "Energía limpia",
+      "instructions": "Ordena las palabras para describir una investigación actual.",
+      "questions": [
+        {
+          "question": "[[Scientists|Los científicos]] [[are|están]] [[trying|intentando]] [[to|encontrar]] [[find| ]] [[new|nuevas]] [[ways|formas]] [[to|de]] [[produce|producir]] [[clean|energía]] [[energy|limpia]].",
+          "explanation": "Usamos el presente continuo para acciones en progreso.",
+          "audio": "audio/b1/unit-13/e33.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e33.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u13-e34",
+    "type": "sentence-building",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "If you want to protect your invention, you must apply for a patent.",
+    "content": {
+      "title": "Protección legal",
+      "instructions": "Ordena las palabras para formar un primer condicional con obligación.",
+      "questions": [
+        {
+          "question": "[[If|Si]] [[you|tú]] [[want|quieres]] [[to|proteger]] [[protect| ]] [[your|tu]] [[invention|invento]], [[you|tú]] [[must|debes]] [[apply|solicitar]] [[for| ]] [[a|una]] [[patent|patente]].",
+          "explanation": "El primer condicional establece una condición y una acción necesaria.",
+          "audio": "audio/b1/unit-13/e34.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e34.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u13-e35",
+    "type": "sentence-building",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "The internet allows us to connect with anyone in the world instantly.",
+    "content": {
+      "title": "Conectividad global",
+      "instructions": "Ordena las palabras para describir una ventaja de internet.",
+      "questions": [
+        {
+          "question": "[[The|El]] [[internet|internet]] [[allows|nos permite]] [[us| ]] [[to|conectarnos]] [[connect| ]] [[with|con]] [[anyone|cualquiera]] [[in|en]] [[the|el]] [[world|mundo]] [[instantly|al instante]].",
+          "explanation": "Describimos la capacidad de comunicación global inmediata.",
+          "audio": "audio/b1/unit-13/e35.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e35.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u13-e36",
+    "type": "sentence-building",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "Most people use their smartphones to check social media every single day.",
+    "content": {
+      "title": "Uso de smartphones",
+      "instructions": "Ordena las palabras para describir un hábito tecnológico.",
+      "questions": [
+        {
+          "question": "[[Most|La mayoría de la]] [[people|gente]] [[use|usa]] [[their|sus]] [[smartphones|teléfonos]] [[to|para]] [[check|revisar]] [[social|las redes]] [[media|sociales]] [[every|cada]] [[single|mismo]] [[day|día]].",
+          "explanation": "Describimos una acción rutinaria común.",
+          "audio": "audio/b1/unit-13/e36.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e36.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u13-e37",
+    "type": "sentence-building",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "The new electric car can travel five hundred kilometers on a single charge.",
+    "content": {
+      "title": "Autonomía eléctrica",
+      "instructions": "Ordena las palabras para describir la capacidad de un coche.",
+      "questions": [
+        {
+          "question": "[[The|El]] [[new|nuevo]] [[electric|coche]] [[car|eléctrico]] [[can|puede]] [[travel|recorrer]] [[five|quinientos]] [[hundred| ]] [[kilometers|kilómetros]] [[on|con]] [[a|una]] [[single|sola]] [[charge|carga]].",
+          "explanation": "Usamos 'can' para expresar capacidad o posibilidad física.",
+          "audio": "audio/b1/unit-13/e37.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e37.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u13-e38",
+    "type": "sentence-building",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "It is important to remember that not all inventions are successful initially.",
+    "content": {
+      "title": "Éxito y fracaso",
+      "instructions": "Ordena las palabras para expresar una idea compleja.",
+      "questions": [
+        {
+          "question": "[[It|Es]] [[is| ]] [[important|importante]] [[to|recordar]] [[remember| ]] [[that|que]] [[not|no]] [[all|todos los]] [[inventions|inventos]] [[are|son]] [[successful|exitosos]] [[initially|inicialmente]].",
+          "explanation": "Usamos una estructura con 'it is' para enfatizar un punto.",
+          "audio": "audio/b1/unit-13/e38.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e38.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u13-e39",
+    "type": "sentence-building",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "Technology has become an essential part of our daily lives at home.",
+    "content": {
+      "title": "Tecnología en casa",
+      "instructions": "Ordena las palabras usando el presente perfecto.",
+      "questions": [
+        {
+          "question": "[[Technology|La tecnología]] [[has|se ha]] [[become|convertido]] [[an|en una]] [[essential|parte]] [[part|esencial]] [[of|de]] [[our|nuestra]] [[daily|vida]] [[lives|diaria]] [[at|en]] [[home|casa]].",
+          "explanation": "El presente perfecto describe una situación que comenzó en el pasado y continúa.",
+          "audio": "audio/b1/unit-13/e39.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e39.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u13-e40",
+    "type": "sentence-building",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "Many companies are investing in solar panels to reduce their electricity costs.",
+    "content": {
+      "title": "Inversión en energía solar",
+      "instructions": "Ordena las palabras para describir un propósito empresarial.",
+      "questions": [
+        {
+          "question": "[[Many|Muchas]] [[companies|empresas]] [[are|están]] [[investing|invirtiendo]] [[in|en]] [[solar|paneles]] [[panels|solares]] [[to|para]] [[reduce|reducir]] [[their|sus]] [[electricity|costes de]] [[costs|electricidad]].",
+          "explanation": "Describimos una acción actual con una finalidad clara.",
+          "audio": "audio/b1/unit-13/e40.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e40.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u13-e41",
+    "type": "sentence-building",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "If we didn't use social media, we would spend more time together.",
+    "content": {
+      "title": "Vida social",
+      "instructions": "Ordena las palabras para formar un segundo condicional.",
+      "questions": [
+        {
+          "question": "[[If|Si]] [[we|nosotros]] [[didn't|no]] [[use|usáramos]] [[social|las redes]] [[media|sociales]], [[we|nosotros]] [[would|pasaríamos]] [[spend| ]] [[more|más]] [[time|tiempo]] [[together|juntos]].",
+          "explanation": "Hablamos de una situación hipotética en el presente.",
+          "audio": "audio/b1/unit-13/e41.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e41.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u13-e42",
+    "type": "sentence-building",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "The user manual explains how to set up the new device correctly.",
+    "content": {
+      "title": "Manual de usuario",
+      "instructions": "Ordena las palabras para describir el contenido de un manual.",
+      "questions": [
+        {
+          "question": "[[The|El]] [[user|manual de]] [[manual|usuario]] [[explains|explica]] [[how|cómo]] [[to|configurar]] [[set| ]] [[up| ]] [[the|el]] [[new|nuevo]] [[device|dispositivo]] [[correctly|correctamente]].",
+          "explanation": "Describimos la función de un documento técnico.",
+          "audio": "audio/b1/unit-13/e42.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e42.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u13-e43",
+    "type": "sentence-building",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "Cybersecurity is a major concern for companies that store sensitive client data.",
+    "content": {
+      "title": "Ciberseguridad",
+      "instructions": "Ordena las palabras para definir una preocupación moderna.",
+      "questions": [
+        {
+          "question": "[[Cybersecurity|La ciberseguridad]] [[is|es]] [[a|una]] [[major|gran]] [[concern|preocupación]] [[for|para]] [[companies|empresas]] [[that|que]] [[store|almacenan]] [[sensitive|datos]] [[client|sensibles]] [[data|de clientes]].",
+          "explanation": "Definimos un problema tecnológico actual.",
+          "audio": "audio/b1/unit-13/e43.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e43.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u13-e44",
+    "type": "sentence-building",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "You should change your password frequently to keep your account safe online.",
+    "content": {
+      "title": "Seguridad de cuenta",
+      "instructions": "Ordena las palabras para dar un consejo de seguridad.",
+      "questions": [
+        {
+          "question": "[[You|Tú]] [[should|deberías]] [[change|cambiar]] [[your|tu]] [[password|contraseña]] [[frequently|frecuentemente]] [[to|para]] [[keep|mantener]] [[your|tu]] [[account|cuenta]] [[safe|segura]] [[online|en línea]].",
+          "explanation": "Usamos 'should' para dar recomendaciones.",
+          "audio": "audio/b1/unit-13/e44.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e44.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u13-e45",
+    "type": "sentence-building",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "Streaming services have completely changed the way we watch movies at home.",
+    "content": {
+      "title": "Servicios de streaming",
+      "instructions": "Ordena las palabras para describir un cambio cultural.",
+      "questions": [
+        {
+          "question": "[[Streaming|Los servicios de]] [[services|streaming]] [[have|han]] [[completely|cambiado]] [[changed|completamente]] [[the|la]] [[way|forma en que]] [[we|nosotros]] [[watch|vemos]] [[movies|películas]] [[at|en]] [[home|casa]].",
+          "explanation": "Analizamos el impacto de una innovación reciente.",
+          "audio": "audio/b1/unit-13/e45.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e45.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u13-e46",
+    "type": "sentence-building",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "Drones are being used to deliver medical supplies to remote mountain villages.",
+    "content": {
+      "title": "Drones médicos",
+      "instructions": "Ordena las palabras para formar una voz pasiva continua.",
+      "questions": [
+        {
+          "question": "[[Drones|Los drones]] [[are|están]] [[being|siendo]] [[used|utilizados]] [[to|para]] [[deliver|entregar]] [[medical|suministros]] [[supplies|médicos]] [[to|a]] [[remote|pueblos]] [[mountain|remotos de]] [[villages|montaña]].",
+          "explanation": "La pasiva continua describe una acción en progreso sobre un objeto.",
+          "audio": "audio/b1/unit-13/e46.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e46.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u13-e47",
+    "type": "sentence-building",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "The new software update includes several improvements to the existing user interface.",
+    "content": {
+      "title": "Mejoras de software",
+      "instructions": "Ordena las palabras para describir una actualización.",
+      "questions": [
+        {
+          "question": "[[The|La]] [[new|nueva]] [[software|actualización de]] [[update|software]] [[includes|incluye]] [[several|varias]] [[improvements|mejoras]] [[to|en]] [[the|la]] [[existing|interfaz]] [[user|de usuario]] [[interface|existente]].",
+          "explanation": "Describimos los cambios positivos en un sistema.",
+          "audio": "audio/b1/unit-13/e47.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e47.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u13-e48",
+    "type": "sentence-building",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "He is the engineer who designed the most efficient motor in the world.",
+    "content": {
+      "title": "El ingeniero jefe",
+      "instructions": "Ordena las palabras para formar una oración de relativo.",
+      "questions": [
+        {
+          "question": "[[He|Él]] [[is|es]] [[the|el]] [[engineer|ingeniero]] [[who|que]] [[designed|diseñó]] [[the|el]] [[most|motor]] [[efficient|más]] [[motor|eficiente]] [[in|en]] [[the|el]] [[world|mundo]].",
+          "explanation": "Usamos 'who' para añadir información sobre una persona.",
+          "audio": "audio/b1/unit-13/e48.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e48.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u13-e49",
+    "type": "sentence-building",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "Many students use online platforms to learn new coding languages every day.",
+    "content": {
+      "title": "Aprendizaje en línea",
+      "instructions": "Ordena las palabras para describir una tendencia educativa.",
+      "questions": [
+        {
+          "question": "[[Many|Muchos]] [[students|estudiantes]] [[use|usan]] [[online|plataformas]] [[platforms|en línea]] [[to|para]] [[learn|aprender]] [[new|nuevos]] [[coding|lenguajes de]] [[languages|programación]] [[every|cada]] [[day|día]].",
+          "explanation": "Hablamos sobre cómo se adquieren nuevas habilidades hoy en día.",
+          "audio": "audio/b1/unit-13/e49.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e49.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u13-e50",
+    "type": "sentence-building",
+    "level": "B1",
+    "topic": "Innovation & Inventions",
+    "difficulty": "medium",
+    "transcript": "If we continue to innovate, we will find solutions for global climate change.",
+    "content": {
+      "title": "Innovación y clima",
+      "instructions": "Ordena las palabras para formar una frase optimista con el primer condicional.",
+      "questions": [
+        {
+          "question": "[[If|Si]] [[we|nosotros]] [[continue|continuamos]] [[to|innovando]] [[innovate| ]], [[we|nosotros]] [[will|encontraremos]] [[find| ]] [[solutions|soluciones]] [[for|para]] [[global|el cambio]] [[climate|climático]] [[change|global]].",
+          "explanation": "El primer condicional vincula la innovación con resultados futuros.",
+          "audio": "audio/b1/unit-13/e50.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-13/e50.mp3",
+    "topicName": "Grammar"
+  }
+];
