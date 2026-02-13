@@ -14,111 +14,111 @@ if (!API_KEY) {
 const openai = new OpenAI({ apiKey: API_KEY });
 
 const SYLLABUS = [
-  { id: 1, theme: "Daily Routine & Life", grammar: "Present Simple/Continuous review" },
-  { id: 2, theme: "Memories & The Past", grammar: "Past Simple/Continuous" },
-  { id: 3, theme: "Personal Experiences", grammar: "Present Perfect Simple" },
-  { id: 4, theme: "Travel & Transportation", grammar: "Present Perfect vs Past Simple" },
-  { id: 5, theme: "Future Plans & Intentions", grammar: "Will vs Going to" },
-  { id: 6, theme: "Work & Professions", grammar: "Gerunds & Infinitives" },
-  { id: 7, theme: "Education & Learning", grammar: "Modals of obligation/permission" },
-  { id: 8, theme: "Health & Physical Care", grammar: "Modals for advice & possibility" },
-  { id: 9, theme: "Food & Restaurants", grammar: "Countable/Uncountable, Quantifiers" },
-  { id: 10, theme: "Shopping & Services", grammar: "Comparatives & Superlatives" },
-  { id: 11, theme: "Entertainment & Hobbies", grammar: "Defining Relative Clauses" },
-  { id: 12, theme: "Nature & The Environment", grammar: "Passive Voice: Present/Past" },
-  { id: 13, theme: "Technology & Communication", grammar: "Zero & First Conditionals" },
-  { id: 14, theme: "People & Personality", grammar: "Used to / Would" },
-  { id: 15, theme: "Places & Housing", grammar: "Prepositions of place/movement" },
-  { id: 16, theme: "Media & News", grammar: "Reported Speech: Statements" },
-  { id: 17, theme: "Sports & Competition", grammar: "Present Perfect Continuous" },
-  { id: 18, theme: "Art & Literature", grammar: "Past Perfect Simple" },
-  { id: 19, theme: "Culture & Customs", grammar: "Articles & Quantifiers" },
-  { id: 20, theme: "Society & Rules", grammar: "Modals of deduction" },
-  { id: 21, theme: "The Modern World", grammar: "Second Conditional" },
-  { id: 22, theme: "Crime & Justice", grammar: "Passive Voice: All tenses" },
-  { id: 23, theme: "Science & Discovery", grammar: "Reported Speech: Questions" },
-  { id: 24, theme: "Feelings & Emotions", grammar: "Question tags" },
-  { id: 25, theme: "Fashion & Style", grammar: "Relative Clauses: Non-defining" },
-  { id: 26, theme: "Natural Disasters", grammar: "Third Conditional" },
-  { id: 27, theme: "Success & Achievement", grammar: "Future Continuous & Perfect" },
-  { id: 28, theme: "Music & Festivals", grammar: "Conditionals: Mixed" },
-  { id: 29, theme: "Global Challenges", grammar: "Causative: Have/Get something done" },
-  { id: 30, theme: "Review & Final Assessment", grammar: "Comprehensive review" }
+  { id: 1, theme: "Personal Identity & Social Trends", grammar: "Present Simple vs Present Continuous (Review & B1 complexity)" },
+  { id: 2, theme: "Life Stories & Biographies", grammar: "Past Simple vs Past Continuous" },
+  { id: 3, theme: "Personal Achievements & Experiences", grammar: "Present Perfect Simple (Life experiences)" },
+  { id: 4, theme: "Travel Adventures & Mishaps", grammar: "Present Perfect vs Past Simple" },
+  { id: 5, theme: "Technology & The Digital Age", grammar: "Future Forms: Will, Going to, Present Continuous for Future" },
+  { id: 6, theme: "The Working World", grammar: "Gerunds and Infinitives (Verb patterns)" },
+  { id: 7, theme: "Education & Lifelong Learning", grammar: "Modals of Obligation, Necessity & Permission (Must, Have to, Should, Can)" },
+  { id: 8, theme: "Health & Modern Lifestyles", grammar: "Modals for Advice, Possibility & Ability" },
+  { id: 9, theme: "Food Culture & Sustainability", grammar: "Countable/Uncountable Nouns & Complex Quantifiers" },
+  { id: 10, theme: "Consumer Society & Shopping", grammar: "Comparatives & Superlatives (including 'as...as', 'the...the...')" },
+  { id: 11, theme: "Entertainment & Media", grammar: "Defining Relative Clauses" },
+  { id: 12, theme: "Environmental Challenges", grammar: "The Passive Voice (Present Simple & Past Simple)" },
+  { id: 13, theme: "Innovation & Inventions", grammar: "Zero & First Conditionals" },
+  { id: 14, theme: "People, Character & Personalities", grammar: "Used to and Would (Past habits)" },
+  { id: 15, theme: "Urban Life, Places & Housing", grammar: "Prepositions of Place, Movement & Time (B1 Level)" },
+  { id: 16, theme: "Global News & Reporting", grammar: "Reported Speech (Statements)" },
+  { id: 17, theme: "Sports & Healthy Habits", grammar: "Present Perfect Continuous" },
+  { id: 18, theme: "Art, Literature & Creativity", grammar: "Past Perfect Simple" },
+  { id: 19, theme: "Traditions & Cultural Diversity", grammar: "Articles (A/An, The, Zero Article) & Advanced Quantifiers" },
+  { id: 20, theme: "Law, Order & Social Rules", grammar: "Modals of Deduction (Must, Might, Can't)" },
+  { id: 21, theme: "Speculating about the Future & Society", grammar: "Second Conditional" },
+  { id: 22, theme: "History & Turning Points", grammar: "The Passive Voice (All Tenses review)" },
+  { id: 23, theme: "Scientific Breakthroughs", grammar: "Reported Speech (Questions & Commands)" },
+  { id: 24, theme: "Emotional Intelligence & Feelings", grammar: "Question Tags & Indirect Questions" },
+  { id: 25, theme: "Fashion & Self-Expression", grammar: "Non-Defining Relative Clauses" },
+  { id: 26, theme: "Natural Disasters & Emergencies", grammar: "Third Conditional" },
+  { id: 27, theme: "Success, Ambition & Money", grammar: "Future Continuous & Future Perfect" },
+  { id: 28, theme: "Music & Global Festivals", grammar: "Mixed Conditionals (Introductory B1 level)" },
+  { id: 29, theme: "Social Responsibility & Ethics", grammar: "Causative: Have/Get something done" },
+  { id: 30, theme: "Course Synthesis & Final Review", grammar: "Comprehensive Review of B1 Grammar & Vocabulary" }
 ];
 
 const EXERCISE_TYPES = [
   'multiple-choice',
   'fill-blank',
-  'sentence-building',
-  'flashcard'
+  'sentence-building'
 ];
 
 async function generateExercisesForUnit(unitId: number) {
   const unit = SYLLABUS.find(u => u.id === unitId);
   if (!unit) return;
 
-  console.log(`🚀 Generating 50 exercises for Unit ${unitId}: ${unit.theme}...`);
+  console.log(`🚀 Generating 50 PROFESSIONAL exercises for Unit ${unitId}: ${unit.theme}...`);
   
   const exercises: any[] = [];
-  const batchSize = 5; // Generate in batches to avoid token limits and stay focused
+  const totalExercises = 50;
+  const batchSize = 5;
+  const totalBatches = totalExercises / batchSize;
 
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < totalBatches; i++) {
     const type = EXERCISE_TYPES[i % EXERCISE_TYPES.length];
     const prompt = `
-      Create 5 high-quality, pedagogically sound English learning exercises for B1 level.
+      Create ${batchSize} high-quality, professional English learning exercises for REAL B1 level (Intermediate).
       UNIT: ${unitId}
       THEME: ${unit.theme}
       GRAMMAR FOCUS: ${unit.grammar}
       EXERCISE TYPE: ${type}
       
-      PEDAGOGICAL REQUIREMENTS:
-      - Exercises must reflect REAL B1 English: use natural phrasing, common idioms, and complex sentence structures appropriate for intermediate learners.
-      - Variety: Avoid repetitive patterns. Use different contexts (work, travel, social life, hobbies) within the theme.
-      - Meaningful practice: Ensure exercises test comprehension and usage, not just rote memorization.
-      - Explanations: Provide clear, helpful explanations in Spanish that explain WHY an answer is correct or clarify common mistakes.
+      PEDAGOGICAL STANDARDS:
+      - This is NOT for beginners. Use B1 vocabulary and structures (CEFR standards).
+      - Avoid simple sentences. Use subordination, connectors (however, although, despite), and natural phrasing.
+      - Context: Use professional, academic, or realistic adult social contexts.
+      - Purpose: Test functional use of English in the given theme/grammar, not just vocabulary.
       
-      CRITICAL INSTRUCTION:
-      - Every single English word in the exercise content (questions, options, examples, flashcard fronts) MUST follow the syntax [[word|translation]] for word-by-word translation. 
-      - Example: "[[I|Yo]] [[have|he]] [[been|estado]] [[working|trabajando]] [[here|aquí]] [[since|desde]] [[Monday|lunes]]."
-      - Topics must be neutral, professional, and educational.
-      - Titles, instructions, and explanations MUST be in Spanish.
-      - Each exercise MUST include a "transcript" field with the FULL English text (no brackets) for audio generation.
+      STRICT FORMATTING RULES:
+      1. Every single English word in the exercise content (questions, ALL options, sentence-building words) MUST use the syntax [[word|translation]].
+      2. GAPS: For "multiple-choice" and "fill-blank", you MUST use "_______" (seven underscores) in the question text.
+      3. CRITICAL: The correct answer MUST NOT appear in the question text for multiple-choice/fill-blank. Use the gap.
+      4. Spanish Only: Titles, instructions, and explanations MUST be in Spanish.
+      5. Explanations: Provide a brief pedagogical note in Spanish explaining the grammar or vocabulary choice.
+      6. Transcript: Include a clean "transcript" field (no brackets, no translations, includes correct word instead of gap) for audio.
       
-      The response must be a JSON object with an "exercises" array.
-      Each exercise must have:
-      - type: "${type}"
-      - level: "B1"
-      - topic: "${unit.theme}"
-      - difficulty: "medium"
-      - transcript: "Clean English text for audio"
-      - content: { 
-          title: "Spanish Title",
-          instructions: "Spanish instructions...", 
-          
-          // ONLY for multiple-choice, fill-blank:
-          questions: [
-            {
-              question: "[[English|Spanish]] text with gaps or options?", 
-              options: ["[[Option1|...]]", "[[Option2|...]]"], 
-              correctAnswer: 0, 
-              explanation: "Clear pedagogical explanation in Spanish...",
-              audio: "audio/b1/unit-${unitId}/e${exercises.length + 1}.mp3"
+      JSON STRUCTURE EXAMPLE (STRICT):
+      {
+        "exercises": [
+          {
+            "type": "multiple-choice",
+            "level": "B1",
+            "topic": "${unit.theme}",
+            "difficulty": "medium",
+            "transcript": "I am working hard these days.",
+            "content": {
+              "title": "Spanish Title",
+              "instructions": "Spanish Instructions",
+              "questions": [
+                {
+                  "question": "[[I|Yo]] _______ [[working|trabajando]] [[hard|duro]] [[these|estos]] [[days|días]].",
+                  "options": ["[[am|estoy]]", "[[do|hago]]"],
+                  "correctAnswer": 0,
+                  "explanation": "Uso del presente continuo para acciones temporales."
+                }
+              ]
             }
-          ],
-          
-          // ONLY for flashcard:
-          items: [{ front: "[[word|translation]]", back: "Spanish", example: "[[Example|Ejemplo]]...", pronunciation: "...", explanation: "..." }],
-          
-          // ONLY for sentence-building:
-          words: ["[[Word1|...]]", "[[Word2|...]]"],
-          correctOrder: ["Word1", "Word2"] 
-        }
+          }
+        ]
+      }
     `;
 
     try {
       const response = await openai.chat.completions.create({
         model: "gpt-4o",
-        messages: [{ role: "system", content: "You are a helpful English teacher assistant. You output only valid JSON. You ensure every English word is translated using [[word|translation]] syntax. Titles, instructions, and explanations MUST be in Spanish. For flashcards and sentence-building, also provide an 'audio' field in content if applicable." }, { role: "user", content: prompt }],
+        messages: [
+          { role: "system", content: "You are an expert English Professor specializing in B1 level curriculum. You output only valid JSON. You follow translation syntax [[word|translation]] for ALL English text." },
+          { role: "user", content: prompt }
+        ],
         response_format: { type: "json_object" }
       });
 
@@ -127,23 +127,22 @@ async function generateExercisesForUnit(unitId: number) {
         const exerciseIndex = exercises.length + index + 1;
         const audioUrl = `audio/b1/unit-${unitId}/e${exerciseIndex}.mp3`;
         
-        // Ensure audio URL is in the right place
         if (ex.content.questions && ex.content.questions[0]) {
           ex.content.questions[0].audio = audioUrl;
-        } else if (ex.type === 'sentence-building') {
+        } else {
           ex.content.audio = audioUrl;
         }
         
         return {
           ...ex,
           id: `b1-u${unitId}-e${exerciseIndex}`,
-          audioUrl: audioUrl, // Keep it at root too for scripts
+          audioUrl: audioUrl,
           topicName: exerciseIndex <= 25 ? 'Vocabulary' : 'Grammar'
         };
       });
       
       exercises.push(...batch);
-      console.log(`  ✅ Generated ${exercises.length}/50 exercises...`);
+      console.log(`  ✅ Generated ${exercises.length}/50...`);
     } catch (error) {
       console.error(`  ❌ Error in batch ${i}:`, error);
     }
@@ -171,7 +170,6 @@ async function main() {
     const targetUnit = parseInt(arg);
     await generateExercisesForUnit(targetUnit);
   } else {
-    // For now, let's just do one unit as a test if no arg
     await generateExercisesForUnit(1);
   }
 }

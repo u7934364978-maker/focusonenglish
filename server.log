@@ -16,283 +16,22 @@
 
  ✓ Starting...
  ⚠ Mismatching @next/swc version, detected: 15.5.7 while Next.js is on 15.5.11. Please ensure these match
- ✓ Ready in 2.3s
- ✓ Compiled /middleware in 334ms (164 modules)
+ ✓ Ready in 1806ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled /middleware in 165ms (164 modules)
  ○ Compiling /debug/b1-preview/[unitId] ...
- ⨯ ./src/lib/course/b1/unit-1.ts
-Error:   [31mx[0m Identifier cannot follow number
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-1.ts[0m:591:1]
- [2m588[0m |         {
- [2m589[0m |           id: 'q1',
- [2m590[0m |           text: 'My manager ___ usually attend the morning meetings. (not)',
- [2m591[0m |           correctAnswer: 2t",
-     : [35;1m                          ^[0m
- [2m592[0m |           explanation: 'Present Simple negativo para hábitos (3ª persona).'
- [2m593[0m |         }
- [2m594[0m |       ]
-     `----
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./src/lib/course/b1/unit-1.ts
-./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
-./src/app/debug/b1-preview/[unitId]/page.tsx
- ⨯ ./src/lib/course/b1/unit-1.ts
-Error:   [31mx[0m Identifier cannot follow number
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-1.ts[0m:591:1]
- [2m588[0m |         {
- [2m589[0m |           id: 'q1',
- [2m590[0m |           text: 'My manager ___ usually attend the morning meetings. (not)',
- [2m591[0m |           correctAnswer: 2t",
-     : [35;1m                          ^[0m
- [2m592[0m |           explanation: 'Present Simple negativo para hábitos (3ª persona).'
- [2m593[0m |         }
- [2m594[0m |       ]
-     `----
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./src/lib/course/b1/unit-1.ts
-./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
-./src/app/debug/b1-preview/[unitId]/page.tsx
- ⨯ ./src/lib/course/b1/unit-1.ts
-Error:   [31mx[0m Identifier cannot follow number
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-1.ts[0m:591:1]
- [2m588[0m |         {
- [2m589[0m |           id: 'q1',
- [2m590[0m |           text: 'My manager ___ usually attend the morning meetings. (not)',
- [2m591[0m |           correctAnswer: 2t",
-     : [35;1m                          ^[0m
- [2m592[0m |           explanation: 'Present Simple negativo para hábitos (3ª persona).'
- [2m593[0m |         }
- [2m594[0m |       ]
-     `----
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./src/lib/course/b1/unit-1.ts
-./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
-./src/app/debug/b1-preview/[unitId]/page.tsx
- HEAD /debug/b1-preview/unit-10 500 in 9305ms
- ⨯ ./src/lib/course/b1/unit-2.ts
-Error:   [31mx[0m Expected ',', got 't'
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-2.ts[0m:378:1]
- [2m375[0m |         {
- [2m376[0m |           id: 'q1',
- [2m377[0m |           text: 'Have you ever missed a flight or a train?',
- [2m378[0m |           correctAnswer: 'gone't',
-     : [35;1m                               ^[0m
- [2m379[0m |           explanation: 'Practica la entonación en las respuestas cortas.'
- [2m380[0m |         }
- [2m381[0m |       ]
-     `----
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./src/lib/course/b1/unit-2.ts
-./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
-./src/app/debug/b1-preview/[unitId]/page.tsx
- ⨯ ./src/lib/course/b1/unit-2.ts
-Error:   [31mx[0m Expected ',', got 't'
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-2.ts[0m:378:1]
- [2m375[0m |         {
- [2m376[0m |           id: 'q1',
- [2m377[0m |           text: 'Have you ever missed a flight or a train?',
- [2m378[0m |           correctAnswer: 'gone't',
-     : [35;1m                               ^[0m
- [2m379[0m |           explanation: 'Practica la entonación en las respuestas cortas.'
- [2m380[0m |         }
- [2m381[0m |       ]
-     `----
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./src/lib/course/b1/unit-2.ts
-./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
-./src/app/debug/b1-preview/[unitId]/page.tsx
- ⨯ ./src/lib/course/b1/unit-2.ts
-Error:   [31mx[0m Expected ',', got 't'
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-2.ts[0m:378:1]
- [2m375[0m |         {
- [2m376[0m |           id: 'q1',
- [2m377[0m |           text: 'Have you ever missed a flight or a train?',
- [2m378[0m |           correctAnswer: 'gone't',
-     : [35;1m                               ^[0m
- [2m379[0m |           explanation: 'Practica la entonación en las respuestas cortas.'
- [2m380[0m |         }
- [2m381[0m |       ]
-     `----
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./src/lib/course/b1/unit-2.ts
-./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
-./src/app/debug/b1-preview/[unitId]/page.tsx
- ⨯ ./src/lib/course/b1/unit-2.ts
-Error:   [31mx[0m Expected ',', got 't'
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-2.ts[0m:378:1]
- [2m375[0m |         {
- [2m376[0m |           id: 'q1',
- [2m377[0m |           text: 'Have you ever missed a flight or a train?',
- [2m378[0m |           correctAnswer: 'gone't',
-     : [35;1m                               ^[0m
- [2m379[0m |           explanation: 'Practica la entonación en las respuestas cortas.'
- [2m380[0m |         }
- [2m381[0m |       ]
-     `----
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./src/lib/course/b1/unit-2.ts
-./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
-./src/app/debug/b1-preview/[unitId]/page.tsx
- ⨯ ./src/lib/course/b1/unit-2.ts
-Error:   [31mx[0m Expected ',', got 't'
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-2.ts[0m:378:1]
- [2m375[0m |         {
- [2m376[0m |           id: 'q1',
- [2m377[0m |           text: 'Have you ever missed a flight or a train?',
- [2m378[0m |           correctAnswer: 'gone't',
-     : [35;1m                               ^[0m
- [2m379[0m |           explanation: 'Practica la entonación en las respuestas cortas.'
- [2m380[0m |         }
- [2m381[0m |       ]
-     `----
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./src/lib/course/b1/unit-2.ts
-./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
-./src/app/debug/b1-preview/[unitId]/page.tsx
- HEAD /debug/b1-preview/unit-10 500 in 1138ms
- ⨯ ./src/lib/course/b1/unit-2.ts
-Error:   [31mx[0m Expected ',', got 't'
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-2.ts[0m:378:1]
- [2m375[0m |         {
- [2m376[0m |           id: 'q1',
- [2m377[0m |           text: 'Have you ever missed a flight or a train?',
- [2m378[0m |           correctAnswer: 'gone't',
-     : [35;1m                               ^[0m
- [2m379[0m |           explanation: 'Practica la entonación en las respuestas cortas.'
- [2m380[0m |         }
- [2m381[0m |       ]
-     `----
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./src/lib/course/b1/unit-2.ts
-./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
-./src/app/debug/b1-preview/[unitId]/page.tsx
- ⨯ ./src/lib/course/b1/unit-3.ts
-Error:   [31mx[0m Expected ',', got 's'
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-3.ts[0m:782:1]
- [2m779[0m |         {
- [2m780[0m |           id: 'q1',
- [2m781[0m |           text: 'It\'s already 6 PM, let\'s call it a day and continue tomorrow.',
- [2m782[0m |           correctAnswer: 'rolling's already 6 PM, let\'s call it a day and continue tomorrow',
-     : [35;1m                                  ^[0m
- [2m783[0m |           explanation: 'Enfatiza "call it a day".'
- [2m784[0m |         }
- [2m785[0m |       ]
-     `----
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./src/lib/course/b1/unit-3.ts
-./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
-./src/app/debug/b1-preview/[unitId]/page.tsx
- ⨯ ./src/lib/course/b1/unit-3.ts
-Error:   [31mx[0m Expected ',', got 's'
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-3.ts[0m:782:1]
- [2m779[0m |         {
- [2m780[0m |           id: 'q1',
- [2m781[0m |           text: 'It\'s already 6 PM, let\'s call it a day and continue tomorrow.',
- [2m782[0m |           correctAnswer: 'rolling's already 6 PM, let\'s call it a day and continue tomorrow',
-     : [35;1m                                  ^[0m
- [2m783[0m |           explanation: 'Enfatiza "call it a day".'
- [2m784[0m |         }
- [2m785[0m |       ]
-     `----
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./src/lib/course/b1/unit-3.ts
-./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
-./src/app/debug/b1-preview/[unitId]/page.tsx
- ⨯ ./src/lib/course/b1/unit-3.ts
-Error:   [31mx[0m Expected ',', got 's'
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-3.ts[0m:782:1]
- [2m779[0m |         {
- [2m780[0m |           id: 'q1',
- [2m781[0m |           text: 'It\'s already 6 PM, let\'s call it a day and continue tomorrow.',
- [2m782[0m |           correctAnswer: 'rolling's already 6 PM, let\'s call it a day and continue tomorrow',
-     : [35;1m                                  ^[0m
- [2m783[0m |           explanation: 'Enfatiza "call it a day".'
- [2m784[0m |         }
- [2m785[0m |       ]
-     `----
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./src/lib/course/b1/unit-3.ts
-./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
-./src/app/debug/b1-preview/[unitId]/page.tsx
- ⨯ ./src/lib/course/b1/unit-3.ts
-Error:   [31mx[0m Expected ',', got 's'
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-3.ts[0m:782:1]
- [2m779[0m |         {
- [2m780[0m |           id: 'q1',
- [2m781[0m |           text: 'It\'s already 6 PM, let\'s call it a day and continue tomorrow.',
- [2m782[0m |           correctAnswer: 'rolling's already 6 PM, let\'s call it a day and continue tomorrow',
-     : [35;1m                                  ^[0m
- [2m783[0m |           explanation: 'Enfatiza "call it a day".'
- [2m784[0m |         }
- [2m785[0m |       ]
-     `----
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./src/lib/course/b1/unit-3.ts
-./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
-./src/app/debug/b1-preview/[unitId]/page.tsx
- HEAD /debug/b1-preview/unit-10 500 in 613ms
  ⨯ ./src/lib/course/b1/unit-4.ts
-Error:   [31mx[0m Expected ',', got 't'
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-4.ts[0m:366:1]
- [2m363[0m |         {
- [2m364[0m |           id: 'q1',
- [2m365[0m |           text: "You ___ go to the gym every single day; three times a week is enough.",
- [2m366[0m |           correctAnswer: "should"t have to",
-     : [35;1m                                 ^[0m
- [2m367[0m |           explanation: "'Don't have to' means it's not necessary, but you can if you want."
- [2m368[0m |         }
- [2m369[0m |       ]
+Error:   [31mx[0m Expected ',', got 'Only'
+     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-4.ts[0m:661:1]
+ [2m658[0m |         {
+ [2m659[0m |           id: 'q1',
+ [2m660[0m |           question: "Does the author think we need to be perfect?",
+ [2m661[0m |           options: [ 'Yes, 'Only at work', we just need to find what works', 'No, 'Only in the gym', absolutely' ],
+     : [35;1m                            ^^^^[0m
+ [2m662[0m |           correctAnswer: 1,
+ [2m663[0m |           explanation: "The text explicitly says 'you don't have to be perfect'."
+ [2m664[0m |         }
      `----
 
 Caused by:
@@ -302,19 +41,18 @@ Import trace for requested module:
 ./src/lib/course/b1/unit-4.ts
 ./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
 ./src/app/debug/b1-preview/[unitId]/page.tsx
- HEAD /debug/b1-preview/unit-10 500 in 35ms
  ⨯ ./src/lib/course/b1/unit-4.ts
-Error:   [31mx[0m Expected ',', got 't'
-      ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-4.ts[0m:1401:1]
- [2m1398[0m |         {
- [2m1399[0m |           id: 'q1',
- [2m1400[0m |           text: "You ___ be serious! Eating five burgers is not healthy.",
- [2m1401[0m |           correctAnswer: "must"t",
-      : [35;1m                               ^[0m
- [2m1402[0m |           explanation: "'Can't' is the negative equivalent of 'must' for deduction."
- [2m1403[0m |         }
- [2m1404[0m |       ]
-      `----
+Error:   [31mx[0m Expected ',', got 'Only'
+     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-4.ts[0m:661:1]
+ [2m658[0m |         {
+ [2m659[0m |           id: 'q1',
+ [2m660[0m |           question: "Does the author think we need to be perfect?",
+ [2m661[0m |           options: [ 'Yes, 'Only at work', we just need to find what works', 'No, 'Only in the gym', absolutely' ],
+     : [35;1m                            ^^^^[0m
+ [2m662[0m |           correctAnswer: 1,
+ [2m663[0m |           explanation: "The text explicitly says 'you don't have to be perfect'."
+ [2m664[0m |         }
+     `----
 
 Caused by:
     Syntax Error
@@ -323,366 +61,106 @@ Import trace for requested module:
 ./src/lib/course/b1/unit-4.ts
 ./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
 ./src/app/debug/b1-preview/[unitId]/page.tsx
- ⨯ ./src/lib/course/b1/unit-9.ts
-Error:   [31mx[0m Expected ',', got 't'
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-9.ts[0m:548:1]
- [2m545[0m |         {
- [2m546[0m |           id: 'q1',
- [2m547[0m |           text: "You ___ (should/mustn't) eat in the library; it's strictly forbidden.",
- [2m548[0m |           correctAnswer: "must"t",
-     : [35;1m                               ^[0m
- [2m549[0m |           explanation: "Prohibition uses 'mustn't'."
- [2m550[0m |         }
- [2m551[0m |       ]
+ ⨯ ./src/lib/course/b1/unit-4.ts
+Error:   [31mx[0m Expected ',', got 'Only'
+     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-4.ts[0m:661:1]
+ [2m658[0m |         {
+ [2m659[0m |           id: 'q1',
+ [2m660[0m |           question: "Does the author think we need to be perfect?",
+ [2m661[0m |           options: [ 'Yes, 'Only at work', we just need to find what works', 'No, 'Only in the gym', absolutely' ],
+     : [35;1m                            ^^^^[0m
+ [2m662[0m |           correctAnswer: 1,
+ [2m663[0m |           explanation: "The text explicitly says 'you don't have to be perfect'."
+ [2m664[0m |         }
      `----
 
 Caused by:
     Syntax Error
 
 Import trace for requested module:
-./src/lib/course/b1/unit-9.ts
+./src/lib/course/b1/unit-4.ts
 ./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
 ./src/app/debug/b1-preview/[unitId]/page.tsx
- ⨯ ./src/lib/course/b1/unit-9.ts
-Error:   [31mx[0m Expected ',', got 't'
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-9.ts[0m:548:1]
- [2m545[0m |         {
- [2m546[0m |           id: 'q1',
- [2m547[0m |           text: "You ___ (should/mustn't) eat in the library; it's strictly forbidden.",
- [2m548[0m |           correctAnswer: "must"t",
-     : [35;1m                               ^[0m
- [2m549[0m |           explanation: "Prohibition uses 'mustn't'."
- [2m550[0m |         }
- [2m551[0m |       ]
+ GET /debug/b1-preview/unit-12 500 in 555ms
+ GET /debug/b1-preview/unit-11 500 in 556ms
+ ⨯ ./src/lib/course/b1/unit-4.ts
+Error:   [31mx[0m Expected ',', got 'Only'
+     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-4.ts[0m:661:1]
+ [2m658[0m |         {
+ [2m659[0m |           id: 'q1',
+ [2m660[0m |           question: "Does the author think we need to be perfect?",
+ [2m661[0m |           options: [ 'Yes, 'Only at work', we just need to find what works', 'No, 'Only in the gym', absolutely' ],
+     : [35;1m                            ^^^^[0m
+ [2m662[0m |           correctAnswer: 1,
+ [2m663[0m |           explanation: "The text explicitly says 'you don't have to be perfect'."
+ [2m664[0m |         }
      `----
 
 Caused by:
     Syntax Error
 
 Import trace for requested module:
-./src/lib/course/b1/unit-9.ts
+./src/lib/course/b1/unit-4.ts
 ./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
 ./src/app/debug/b1-preview/[unitId]/page.tsx
- ⨯ ./src/lib/course/b1/unit-9.ts
-Error:   [31mx[0m Expected ',', got 't'
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-9.ts[0m:548:1]
- [2m545[0m |         {
- [2m546[0m |           id: 'q1',
- [2m547[0m |           text: "You ___ (should/mustn't) eat in the library; it's strictly forbidden.",
- [2m548[0m |           correctAnswer: "mustn"t",
-     : [35;1m                                ^[0m
- [2m549[0m |           explanation: "Prohibition uses 'mustn't'."
- [2m550[0m |         }
- [2m551[0m |       ]
+ ⨯ ./src/lib/course/b1/unit-4.ts
+Error:   [31mx[0m Expected ',', got 'Only'
+     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-4.ts[0m:661:1]
+ [2m658[0m |         {
+ [2m659[0m |           id: 'q1',
+ [2m660[0m |           question: "Does the author think we need to be perfect?",
+ [2m661[0m |           options: [ 'Yes, 'Only at work', we just need to find what works', 'No, 'Only in the gym', absolutely' ],
+     : [35;1m                            ^^^^[0m
+ [2m662[0m |           correctAnswer: 1,
+ [2m663[0m |           explanation: "The text explicitly says 'you don't have to be perfect'."
+ [2m664[0m |         }
      `----
 
 Caused by:
     Syntax Error
 
 Import trace for requested module:
-./src/lib/course/b1/unit-9.ts
+./src/lib/course/b1/unit-4.ts
 ./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
 ./src/app/debug/b1-preview/[unitId]/page.tsx
- ⨯ ./src/lib/course/b1/unit-9.ts
-Error:   [31mx[0m Expected ',', got 't'
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-9.ts[0m:548:1]
- [2m545[0m |         {
- [2m546[0m |           id: 'q1',
- [2m547[0m |           text: "You ___ (should/mustn't) eat in the library; it's strictly forbidden.",
- [2m548[0m |           correctAnswer: "mustn"t",
-     : [35;1m                                ^[0m
- [2m549[0m |           explanation: "Prohibition uses 'mustn't'."
- [2m550[0m |         }
- [2m551[0m |       ]
+ ⨯ ./src/lib/course/b1/unit-4.ts
+Error:   [31mx[0m Expected ',', got 'Only'
+     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-4.ts[0m:661:1]
+ [2m658[0m |         {
+ [2m659[0m |           id: 'q1',
+ [2m660[0m |           question: "Does the author think we need to be perfect?",
+ [2m661[0m |           options: [ 'Yes, 'Only at work', we just need to find what works', 'No, 'Only in the gym', absolutely' ],
+     : [35;1m                            ^^^^[0m
+ [2m662[0m |           correctAnswer: 1,
+ [2m663[0m |           explanation: "The text explicitly says 'you don't have to be perfect'."
+ [2m664[0m |         }
      `----
 
 Caused by:
     Syntax Error
 
 Import trace for requested module:
-./src/lib/course/b1/unit-9.ts
+./src/lib/course/b1/unit-4.ts
 ./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
 ./src/app/debug/b1-preview/[unitId]/page.tsx
- ⨯ ./src/lib/course/b1/unit-9.ts
-Error:   [31mx[0m Expected ',', got 't'
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-9.ts[0m:548:1]
- [2m545[0m |         {
- [2m546[0m |           id: 'q1',
- [2m547[0m |           text: "You ___ (should/mustn't) eat in the library; it's strictly forbidden.",
- [2m548[0m |           correctAnswer: "mustn"t",
-     : [35;1m                                ^[0m
- [2m549[0m |           explanation: "Prohibition uses 'mustn't'."
- [2m550[0m |         }
- [2m551[0m |       ]
+ ⨯ ./src/lib/course/b1/unit-4.ts
+Error:   [31mx[0m Expected ',', got 'Only'
+     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-4.ts[0m:661:1]
+ [2m658[0m |         {
+ [2m659[0m |           id: 'q1',
+ [2m660[0m |           question: "Does the author think we need to be perfect?",
+ [2m661[0m |           options: [ 'Yes, 'Only at work', we just need to find what works', 'No, 'Only in the gym', absolutely' ],
+     : [35;1m                            ^^^^[0m
+ [2m662[0m |           correctAnswer: 1,
+ [2m663[0m |           explanation: "The text explicitly says 'you don't have to be perfect'."
+ [2m664[0m |         }
      `----
 
 Caused by:
     Syntax Error
 
 Import trace for requested module:
-./src/lib/course/b1/unit-9.ts
+./src/lib/course/b1/unit-4.ts
 ./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
 ./src/app/debug/b1-preview/[unitId]/page.tsx
- ⨯ ./src/lib/course/b1/unit-9.ts
-Error:   [31mx[0m Expected ',', got 't'
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-9.ts[0m:775:1]
- [2m772[0m |         {
- [2m773[0m |           id: 'q1',
- [2m774[0m |           text: "He ___ (not use to) study very much, but he does now.",
- [2m775[0m |           correctAnswer: "used to"t use to",
-     : [35;1m                                  ^[0m
- [2m776[0m |           explanation: "Negative past habit."
- [2m777[0m |         }
- [2m778[0m |       ]
-     `----
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./src/lib/course/b1/unit-9.ts
-./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
-./src/app/debug/b1-preview/[unitId]/page.tsx
- ⨯ ./src/lib/course/b1/unit-9.ts
-Error:   [31mx[0m Expected ',', got 't'
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-9.ts[0m:775:1]
- [2m772[0m |         {
- [2m773[0m |           id: 'q1',
- [2m774[0m |           text: "He ___ (not use to) study very much, but he does now.",
- [2m775[0m |           correctAnswer: "used to"t use to",
-     : [35;1m                                  ^[0m
- [2m776[0m |           explanation: "Negative past habit."
- [2m777[0m |         }
- [2m778[0m |       ]
-     `----
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./src/lib/course/b1/unit-9.ts
-./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
-./src/app/debug/b1-preview/[unitId]/page.tsx
- ⨯ ./src/lib/course/b1/unit-9.ts
-Error:   [31mx[0m Expected ',', got 't'
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-9.ts[0m:775:1]
- [2m772[0m |         {
- [2m773[0m |           id: 'q1',
- [2m774[0m |           text: "He ___ (not use to) study very much, but he does now.",
- [2m775[0m |           correctAnswer: "used to"t use to",
-     : [35;1m                                  ^[0m
- [2m776[0m |           explanation: "Negative past habit."
- [2m777[0m |         }
- [2m778[0m |       ]
-     `----
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./src/lib/course/b1/unit-9.ts
-./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
-./src/app/debug/b1-preview/[unitId]/page.tsx
- ⨯ ./src/lib/course/b1/unit-9.ts
-Error:   [31mx[0m Expected ',', got 't'
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-9.ts[0m:775:1]
- [2m772[0m |         {
- [2m773[0m |           id: 'q1',
- [2m774[0m |           text: "He ___ (not use to) study very much, but he does now.",
- [2m775[0m |           correctAnswer: "used to"t use to",
-     : [35;1m                                  ^[0m
- [2m776[0m |           explanation: "Negative past habit."
- [2m777[0m |         }
- [2m778[0m |       ]
-     `----
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./src/lib/course/b1/unit-9.ts
-./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
-./src/app/debug/b1-preview/[unitId]/page.tsx
- ⨯ ./src/lib/course/b1/unit-9.ts
-Error:   [31mx[0m Expected ',', got 't'
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-9.ts[0m:775:1]
- [2m772[0m |         {
- [2m773[0m |           id: 'q1',
- [2m774[0m |           text: "He ___ (not use to) study very much, but he does now.",
- [2m775[0m |           correctAnswer: "used to"t use to",
-     : [35;1m                                  ^[0m
- [2m776[0m |           explanation: "Negative past habit."
- [2m777[0m |         }
- [2m778[0m |       ]
-     `----
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./src/lib/course/b1/unit-9.ts
-./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
-./src/app/debug/b1-preview/[unitId]/page.tsx
- ⨯ ./src/lib/course/b1/unit-9.ts
-Error:   [31mx[0m Expected ',', got 't'
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-9.ts[0m:775:1]
- [2m772[0m |         {
- [2m773[0m |           id: 'q1',
- [2m774[0m |           text: "He ___ (not use to) study very much, but he does now.",
- [2m775[0m |           correctAnswer: "used to"t use to",
-     : [35;1m                                  ^[0m
- [2m776[0m |           explanation: "Negative past habit."
- [2m777[0m |         }
- [2m778[0m |       ]
-     `----
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./src/lib/course/b1/unit-9.ts
-./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
-./src/app/debug/b1-preview/[unitId]/page.tsx
- ⨯ ./src/lib/course/b1/unit-9.ts
-Error:   [31mx[0m Expected ',', got 't'
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-9.ts[0m:775:1]
- [2m772[0m |         {
- [2m773[0m |           id: 'q1',
- [2m774[0m |           text: "He ___ (not use to) study very much, but he does now.",
- [2m775[0m |           correctAnswer: "used to"t use to",
-     : [35;1m                                  ^[0m
- [2m776[0m |           explanation: "Negative past habit."
- [2m777[0m |         }
- [2m778[0m |       ]
-     `----
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./src/lib/course/b1/unit-9.ts
-./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
-./src/app/debug/b1-preview/[unitId]/page.tsx
- HEAD /debug/b1-preview/unit-10 500 in 1844ms
- ⨯ ./src/lib/course/b1/unit-9.ts
-Error:   [31mx[0m Expected ',', got 't'
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-9.ts[0m:775:1]
- [2m772[0m |         {
- [2m773[0m |           id: 'q1',
- [2m774[0m |           text: "He ___ (not use to) study very much, but he does now.",
- [2m775[0m |           correctAnswer: "used to"t use to",
-     : [35;1m                                  ^[0m
- [2m776[0m |           explanation: "Negative past habit."
- [2m777[0m |         }
- [2m778[0m |       ]
-     `----
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./src/lib/course/b1/unit-9.ts
-./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
-./src/app/debug/b1-preview/[unitId]/page.tsx
- ⨯ ./src/lib/course/b1/unit-9.ts
-Error:   [31mx[0m Expected ',', got 't'
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-9.ts[0m:775:1]
- [2m772[0m |         {
- [2m773[0m |           id: 'q1',
- [2m774[0m |           text: "He ___ (not use to) study very much, but he does now.",
- [2m775[0m |           correctAnswer: "used to"t use to",
-     : [35;1m                                  ^[0m
- [2m776[0m |           explanation: "Negative past habit."
- [2m777[0m |         }
- [2m778[0m |       ]
-     `----
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./src/lib/course/b1/unit-9.ts
-./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
-./src/app/debug/b1-preview/[unitId]/page.tsx
- ⨯ ./src/lib/course/b1/unit-9.ts
-Error:   [31mx[0m Expected ',', got 't'
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-9.ts[0m:775:1]
- [2m772[0m |         {
- [2m773[0m |           id: 'q1',
- [2m774[0m |           text: "He ___ (not use to) study very much, but he does now.",
- [2m775[0m |           correctAnswer: "used to"t use to",
-     : [35;1m                                  ^[0m
- [2m776[0m |           explanation: "Negative past habit."
- [2m777[0m |         }
- [2m778[0m |       ]
-     `----
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./src/lib/course/b1/unit-9.ts
-./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
-./src/app/debug/b1-preview/[unitId]/page.tsx
- ⨯ ./src/lib/course/b1/unit-9.ts
-Error:   [31mx[0m Expected ',', got 't'
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-9.ts[0m:775:1]
- [2m772[0m |         {
- [2m773[0m |           id: 'q1',
- [2m774[0m |           text: "He ___ (not use to) study very much, but he does now.",
- [2m775[0m |           correctAnswer: "used to"t use to",
-     : [35;1m                                  ^[0m
- [2m776[0m |           explanation: "Negative past habit."
- [2m777[0m |         }
- [2m778[0m |       ]
-     `----
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./src/lib/course/b1/unit-9.ts
-./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
-./src/app/debug/b1-preview/[unitId]/page.tsx
- ⨯ ./src/lib/course/b1/unit-9.ts
-Error:   [31mx[0m Expected ',', got 't'
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-9.ts[0m:775:1]
- [2m772[0m |         {
- [2m773[0m |           id: 'q1',
- [2m774[0m |           text: "He ___ (not use to) study very much, but he does now.",
- [2m775[0m |           correctAnswer: "used to"t use to",
-     : [35;1m                                  ^[0m
- [2m776[0m |           explanation: "Negative past habit."
- [2m777[0m |         }
- [2m778[0m |       ]
-     `----
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./src/lib/course/b1/unit-9.ts
-./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
-./src/app/debug/b1-preview/[unitId]/page.tsx
- ✓ Compiled /_error in 1331ms (1211 modules)
- ○ Compiling /debug/b1-preview/[unitId] ...
- ✓ Compiled /debug/b1-preview/[unitId] in 546ms (1319 modules)
-Supabase Browser Client Initializing with URL: https://nprqtjljoekoirlrjxlh.supabase.co
- HEAD /debug/b1-preview/unit-10 200 in 2153ms
- GET /debug/b1-preview/unit-10 200 in 281ms
- ○ Compiling /icon.svg ...
- ✓ Compiled /icon.svg in 1539ms (1336 modules)
- GET /icon.svg 200 in 2257ms
- ✓ Compiled in 2.9s (2547 modules)
- GET /debug/b1-preview/unit-10 200 in 561ms
-Supabase Browser Client Initializing with URL: https://nprqtjljoekoirlrjxlh.supabase.co
- GET /debug/b1-preview/unit-10 200 in 943ms
- ✓ Compiled in 2.9s (2547 modules)
- GET /debug/b1-preview/unit-10 200 in 393ms
- ✓ Compiled in 1206ms (2547 modules)
- GET /debug/b1-preview/unit-10 200 in 78ms
- ✓ Compiled in 1488ms (2530 modules)
- GET /debug/b1-preview/unit-10 200 in 341ms
- ✓ Compiled in 2.6s (2530 modules)
- GET /debug/b1-preview/unit-10 200 in 145ms
 [?25h

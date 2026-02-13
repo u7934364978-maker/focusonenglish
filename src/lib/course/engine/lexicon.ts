@@ -256,6 +256,18 @@ export const B1_LEXICON: LexicalItem[] = [
   { lemma: 'meditation', pos: 'noun', translation: 'meditación', gender_es: 'f', tags: ['health', 'B1'], unit: 4 },
   { lemma: 'recovery', pos: 'noun', translation: 'recuperación', gender_es: 'f', tags: ['health', 'B1'], unit: 4 },
   { lemma: 'lifestyle', pos: 'noun', translation: 'estilo de vida', gender_es: 'm', tags: ['health', 'B1'], unit: 4 },
+  
+  // Generic B1 Foundational
+  { lemma: 'actually', pos: 'adverb', translation: 'en realidad / de hecho', tags: ['generic', 'B1'], unit: 1 },
+  { lemma: 'currently', pos: 'adverb', translation: 'actualmente', tags: ['generic', 'B1'], unit: 1 },
+  { lemma: 'environment', pos: 'noun', translation: 'medio ambiente / entorno', gender_es: 'm', tags: ['generic', 'B1'], unit: 12 },
+  { lemma: 'frequent', pos: 'adjective', translation: 'frecuente', tags: ['generic', 'B1'], unit: 1 },
+  { lemma: 'identity', pos: 'noun', translation: 'identidad', gender_es: 'f', tags: ['generic', 'B1'], unit: 1 },
+  { lemma: 'movement', pos: 'noun', translation: 'movimiento', gender_es: 'm', tags: ['generic', 'B1'], unit: 1 },
+  { lemma: 'professional', pos: 'adjective', translation: 'profesional', tags: ['generic', 'B1'], unit: 6 },
+  { lemma: 'sabbatical', pos: 'noun', translation: 'año sabático', gender_es: 'm', tags: ['generic', 'B1'], unit: 6 },
+  { lemma: 'success', pos: 'noun', translation: 'éxito', gender_es: 'm', tags: ['generic', 'B1'], unit: 27 },
+  { lemma: 'traditional', pos: 'adjective', translation: 'tradicional', tags: ['generic', 'B1'], unit: 19 },
 ];
 
 export const GLOBAL_LEXICON: LexicalItem[] = [...A1_LEXICON, ...B1_LEXICON];
