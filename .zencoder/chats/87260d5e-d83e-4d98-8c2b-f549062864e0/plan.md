@@ -56,3 +56,6 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/87
 8. [x] **Review Translations**: Ensure all word chips in sentence-building exercises are translated.
 9. [x] **Translate Unit 30 Phrases**: Apply `[[English|Spanish]]` formatting and translate titles/instructions in `src/lib/course/b1/unit-30.ts`.
 10. [x] **Complete Unit 30**: Add exercises `b1-u30-e31` to `b1-u30-e50` to reach 50 total exercises.
+11. [x] **Redesign A1 Unit 1**: Remove flashcards and replace them with other types in `src/lib/course/a1/unit-1.ts`.
+12. [x] **Standardize Tooltips**: Apply `[[English|Spanish]]` formatting to all exercises in A1 Unit 1.
+13. [x] **Verify A1 Unit 1**: Ensure 50 exercises remain and run validation scripts.
