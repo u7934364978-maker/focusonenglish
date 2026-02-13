@@ -103,4 +103,4 @@
 ### [x] Step: Final Review & Cleanup
 1. [x] Fix syntax errors in `src/lib/course/b2/unit-5.ts`.
 2. [x] Ensure all B1 units (15-30) follow the standard export pattern.
-3. [ ] Run final linting and type check.
+3. [x] Run final linting and type check.
