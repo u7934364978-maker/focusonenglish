@@ -806,23 +806,19 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ordenando condicionales",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "questions": [
-        {
-          "question": [
-            "[[If|Si]]",
-            "[[I|yo]]",
-            "[[had|tuviera]]",
-            "[[money,|dinero,]]",
-            "[[I|yo]]",
-            "[[would|lo]]",
-            "[[buy|compraría]]",
-            "[[it.| ]]"
-          ],
-          "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7],
-          "explanation": "El segundo condicional se forma con 'if' + past simple, seguido de 'would' + infinitivo.",
-          "audio": "audio/b1/unit-10/e31.mp3"
-        }
-      ]
+      "correctSentence": "[[If|Si]] [[I|yo]] [[had|tuviera]] [[money,|dinero,]] [[I|yo]] [[would|lo]] [[buy|compraría]] [[it.| ]]",
+      "words": [
+        "[[If|Si]]",
+        "[[I|yo]]",
+        "[[had|tuviera]]",
+        "[[money,|dinero,]]",
+        "[[I|yo]]",
+        "[[would|lo]]",
+        "[[buy|compraría]]",
+        "[[it.| ]]"
+      ],
+      "explanation": "El segundo condicional se forma con 'if' + past simple, seguido de 'would' + infinitivo.",
+      "audio": "audio/b1/unit-10/e31.mp3"
     },
     "audioUrl": "audio/b1/unit-10/e31.mp3",
     "topicName": "Grammar"
@@ -837,21 +833,17 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Compras modernas",
       "instructions": "Forma la oración sobre compras en línea.",
-      "questions": [
-        {
-          "question": [
-            "[[Online|Las compras]]",
-            "[[shopping|en línea]]",
-            "[[is|son]]",
-            "[[very|muy]]",
-            "[[popular|populares]]",
-            "[[today.|hoy en día.]]"
-          ],
-          "correctAnswer": [0, 1, 2, 3, 4, 5],
-          "explanation": "Sujeto + verbo + adjetivo + complemento.",
-          "audio": "audio/b1/unit-10/e32.mp3"
-        }
-      ]
+      "correctSentence": "[[Online|Las compras]] [[shopping|en línea]] [[is|son]] [[very|muy]] [[popular|populares]] [[today.|hoy en día.]]",
+      "words": [
+        "[[Online|Las compras]]",
+        "[[shopping|en línea]]",
+        "[[is|son]]",
+        "[[very|muy]]",
+        "[[popular|populares]]",
+        "[[today.|hoy en día.]]"
+      ],
+      "explanation": "Sujeto + verbo + adjetivo + complemento.",
+      "audio": "audio/b1/unit-10/e32.mp3"
     },
     "audioUrl": "audio/b1/unit-10/e32.mp3",
     "topicName": "Vocabulary"
@@ -866,21 +858,17 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Presupuesto ajustado",
       "instructions": "Ordena las palabras sobre el dinero.",
-      "questions": [
-        {
-          "question": [
-            "[[I|Yo]]",
-            "[[don't|no]]",
-            "[[have|tengo]]",
-            "[[enough|suficiente]]",
-            "[[money|dinero]]",
-            "[[now.|ahora.]]"
-          ],
-          "correctAnswer": [0, 1, 2, 3, 4, 5],
-          "explanation": "'Enough' precede al sustantivo en oraciones negativas.",
-          "audio": "audio/b1/unit-10/e33.mp3"
-        }
-      ]
+      "correctSentence": "[[I|Yo]] [[don't|no]] [[have|tengo]] [[enough|suficiente]] [[money|dinero]] [[now.|ahora.]]",
+      "words": [
+        "[[I|Yo]]",
+        "[[don't|no]]",
+        "[[have|tengo]]",
+        "[[enough|suficiente]]",
+        "[[money|dinero]]",
+        "[[now.|ahora.]]"
+      ],
+      "explanation": "'Enough' precede al sustantivo en oraciones negativas.",
+      "audio": "audio/b1/unit-10/e33.mp3"
     },
     "audioUrl": "audio/b1/unit-10/e33.mp3",
     "topicName": "Grammar"
@@ -895,21 +883,17 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ley de oferta",
       "instructions": "Ordena la oración sobre los precios.",
-      "questions": [
-        {
-          "question": [
-            "[[If|Si]]",
-            "[[prices|los precios]]",
-            "[[drop,|bajan,]]",
-            "[[people|la gente]]",
-            "[[buy|compra]]",
-            "[[more.|más.]]"
-          ],
-          "correctAnswer": [0, 1, 2, 3, 4, 5],
-          "explanation": "El condicional cero o primero para verdades generales.",
-          "audio": "audio/b1/unit-10/e34.mp3"
-        }
-      ]
+      "correctSentence": "[[If|Si]] [[prices|los precios]] [[drop,|bajan,]] [[people|la gente]] [[buy|compra]] [[more.|más.]]",
+      "words": [
+        "[[If|Si]]",
+        "[[prices|los precios]]",
+        "[[drop,|bajan,]]",
+        "[[people|la gente]]",
+        "[[buy|compra]]",
+        "[[more.|más.]]"
+      ],
+      "explanation": "El condicional cero o primero para verdades generales.",
+      "audio": "audio/b1/unit-10/e34.mp3"
     },
     "audioUrl": "audio/b1/unit-10/e34.mp3",
     "topicName": "Grammar"
@@ -924,22 +908,18 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Eligiendo tiendas",
       "instructions": "Compara las dos tiendas.",
-      "questions": [
-        {
-          "question": [
-            "[[This|Esta]]",
-            "[[store|tienda]]",
-            "[[is|es]]",
-            "[[better|mejor]]",
-            "[[than|que]]",
-            "[[that|aquella]]",
-            "[[one.|unidad.]]"
-          ],
-          "correctAnswer": [0, 1, 2, 3, 4, 5, 6],
-          "explanation": "Uso del comparativo irregular 'better'.",
-          "audio": "audio/b1/unit-10/e35.mp3"
-        }
-      ]
+      "correctSentence": "[[This|Esta]] [[store|tienda]] [[is|es]] [[better|mejor]] [[than|que]] [[that|aquella]] [[one.|unidad.]]",
+      "words": [
+        "[[This|Esta]]",
+        "[[store|tienda]]",
+        "[[is|es]]",
+        "[[better|mejor]]",
+        "[[than|que]]",
+        "[[that|aquella]]",
+        "[[one.|unidad.]]"
+      ],
+      "explanation": "Uso del comparativo irregular 'better'.",
+      "audio": "audio/b1/unit-10/e35.mp3"
     },
     "audioUrl": "audio/b1/unit-10/e35.mp3",
     "topicName": "Vocabulary"
@@ -954,21 +934,17 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Exceso de ropa",
       "instructions": "Forma la oración sobre el armario.",
-      "questions": [
-        {
-          "question": [
-            "[[I|Yo]]",
-            "[[have|tengo]]",
-            "[[too|demasiada]]",
-            "[[many| ]]",
-            "[[clothes|ropa]]",
-            "[[already.|ya.]]"
-          ],
-          "correctAnswer": [0, 1, 2, 3, 4, 5],
-          "explanation": "'Too many' se usa con sustantivos contables plurales.",
-          "audio": "audio/b1/unit-10/e36.mp3"
-        }
-      ]
+      "correctSentence": "[[I|Yo]] [[have|tengo]] [[too|demasiada]] [[many| ]] [[clothes|ropa]] [[already.|ya.]]",
+      "words": [
+        "[[I|Yo]]",
+        "[[have|tengo]]",
+        "[[too|demasiada]]",
+        "[[many| ]]",
+        "[[clothes|ropa]]",
+        "[[already.|ya.]]"
+      ],
+      "explanation": "'Too many' se usa con sustantivos contables plurales.",
+      "audio": "audio/b1/unit-10/e36.mp3"
     },
     "audioUrl": "audio/b1/unit-10/e36.mp3",
     "topicName": "Grammar"
@@ -983,21 +959,17 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Paciencia al comprar",
       "instructions": "Ordena para formar el consejo.",
-      "questions": [
-        {
-          "question": [
-            "[[If|Si]]",
-            "[[you|tú]]",
-            "[[wait,|esperas,]]",
-            "[[you|tú]]",
-            "[[will|ahorrarás.]]",
-            "[[save.| ]]"
-          ],
-          "correctAnswer": [0, 1, 2, 3, 4, 5],
-          "explanation": "Primer condicional: Presente simple y futuro con 'will'.",
-          "audio": "audio/b1/unit-10/e37.mp3"
-        }
-      ]
+      "correctSentence": "[[If|Si]] [[you|tú]] [[wait,|esperas,]] [[you|tú]] [[will|ahorrarás.]] [[save.| ]]",
+      "words": [
+        "[[If|Si]]",
+        "[[you|tú]]",
+        "[[wait,|esperas,]]",
+        "[[you|tú]]",
+        "[[will|ahorrarás.]]",
+        "[[save.| ]]"
+      ],
+      "explanation": "Primer condicional: Presente simple y futuro con 'will'.",
+      "audio": "audio/b1/unit-10/e37.mp3"
     },
     "audioUrl": "audio/b1/unit-10/e37.mp3",
     "topicName": "Grammar"
@@ -1012,21 +984,17 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Impacto publicitario",
       "instructions": "Ordena la oración sobre la publicidad.",
-      "questions": [
-        {
-          "question": [
-            "[[Advertising|La publicidad]]",
-            "[[affects|afecta]]",
-            "[[our|nuestros]]",
-            "[[shopping|hábitos de]]",
-            "[[habits|compra]]",
-            "[[daily.|diariamente.]]"
-          ],
-          "correctAnswer": [0, 1, 2, 3, 4, 5],
-          "explanation": "Sujeto + verbo + objeto + adverbio.",
-          "audio": "audio/b1/unit-10/e38.mp3"
-        }
-      ]
+      "correctSentence": "[[Advertising|La publicidad]] [[affects|afecta]] [[our|nuestros]] [[shopping|hábitos de]] [[habits|compra]] [[daily.|diariamente.]]",
+      "words": [
+        "[[Advertising|La publicidad]]",
+        "[[affects|afecta]]",
+        "[[our|nuestros]]",
+        "[[shopping|hábitos de]]",
+        "[[habits|compra]]",
+        "[[daily.|diariamente.]]"
+      ],
+      "explanation": "Sujeto + verbo + objeto + adverbio.",
+      "audio": "audio/b1/unit-10/e38.mp3"
     },
     "audioUrl": "audio/b1/unit-10/e38.mp3",
     "topicName": "Vocabulary"
@@ -1041,21 +1009,17 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Deseo hipotético",
       "instructions": "Ordena las palabras del deseo.",
-      "questions": [
-        {
-          "question": [
-            "[[If|Si]]",
-            "[[I|yo]]",
-            "[[were|fuera]]",
-            "[[rich,|rico,]]",
-            "[[I'd|yo]]",
-            "[[shop.|compraría.]]"
-          ],
-          "correctAnswer": [0, 1, 2, 3, 4, 5],
-          "explanation": "Uso de la contracción 'I'd' para 'I would'.",
-          "audio": "audio/b1/unit-10/e39.mp3"
-        }
-      ]
+      "correctSentence": "[[If|Si]] [[I|yo]] [[were|fuera]] [[rich,|rico,]] [[I'd|yo]] [[shop.|compraría.]]",
+      "words": [
+        "[[If|Si]]",
+        "[[I|yo]]",
+        "[[were|fuera]]",
+        "[[rich,|rico,]]",
+        "[[I'd|yo]]",
+        "[[shop.|compraría.]]"
+      ],
+      "explanation": "Uso de la contracción 'I'd' para 'I would'.",
+      "audio": "audio/b1/unit-10/e39.mp3"
     },
     "audioUrl": "audio/b1/unit-10/e39.mp3",
     "topicName": "Grammar"
@@ -1070,21 +1034,17 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Compra de lujo",
       "instructions": "Forma la oración sobre el reloj.",
-      "questions": [
-        {
-          "question": [
-            "[[She|Ella]]",
-            "[[bought|compró]]",
-            "[[a|un]]",
-            "[[very|muy]]",
-            "[[expensive|caro]]",
-            "[[watch.|reloj.]]"
-          ],
-          "correctAnswer": [0, 1, 2, 3, 4, 5],
-          "explanation": "Sujeto + verbo + artículo + adverbio + adjetivo + sustantivo.",
-          "audio": "audio/b1/unit-10/e40.mp3"
-        }
-      ]
+      "correctSentence": "[[She|Ella]] [[bought|compró]] [[a|un]] [[very|muy]] [[expensive|caro]] [[watch.|reloj.]]",
+      "words": [
+        "[[She|Ella]]",
+        "[[bought|compró]]",
+        "[[a|un]]",
+        "[[very|muy]]",
+        "[[expensive|caro]]",
+        "[[watch.|reloj.]]"
+      ],
+      "explanation": "Sujeto + verbo + artículo + adverbio + adjetivo + sustantivo.",
+      "audio": "audio/b1/unit-10/e40.mp3"
     },
     "audioUrl": "audio/b1/unit-10/e40.mp3",
     "topicName": "Vocabulary"
@@ -1099,21 +1059,17 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Poca esperanza",
       "instructions": "Ordena la oración abstracta.",
-      "questions": [
-        {
-          "question": [
-            "[[There|Hay]]",
-            "[[is| ]]",
-            "[[a|un]]",
-            "[[little|poco de]]",
-            "[[hope|esperanza]]",
-            "[[left.|restante.]]"
-          ],
-          "correctAnswer": [0, 1, 2, 3, 4, 5],
-          "explanation": "'A little' para sustantivos incontables.",
-          "audio": "audio/b1/unit-10/e41.mp3"
-        }
-      ]
+      "correctSentence": "[[There|Hay]] [[is| ]] [[a|un]] [[little|poco de]] [[hope|esperanza]] [[left.|restante.]]",
+      "words": [
+        "[[There|Hay]]",
+        "[[is| ]]",
+        "[[a|un]]",
+        "[[little|poco de]]",
+        "[[hope|esperanza]]",
+        "[[left.|restante.]]"
+      ],
+      "explanation": "'A little' para sustantivos incontables.",
+      "audio": "audio/b1/unit-10/e41.mp3"
     },
     "audioUrl": "audio/b1/unit-10/e41.mp3",
     "topicName": "Grammar"
@@ -1128,21 +1084,17 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pidiendo ayuda",
       "instructions": "Ordena la posibilidad.",
-      "questions": [
-        {
-          "question": [
-            "[[If|Si]]",
-            "[[you|tú]]",
-            "[[ask,|preguntas,]]",
-            "[[they|ellos]]",
-            "[[might|podrían]]",
-            "[[help.|ayudarte.]]"
-          ],
-          "correctAnswer": [0, 1, 2, 3, 4, 5],
-          "explanation": "Uso de 'might' para posibilidad en el condicional.",
-          "audio": "audio/b1/unit-10/e42.mp3"
-        }
-      ]
+      "correctSentence": "[[If|Si]] [[you|tú]] [[ask,|preguntas,]] [[they|ellos]] [[might|podrían]] [[help.|ayudarte.]]",
+      "words": [
+        "[[If|Si]]",
+        "[[you|tú]]",
+        "[[ask,|preguntas,]]",
+        "[[they|ellos]]",
+        "[[might|podrían]]",
+        "[[help.|ayudarte.]]"
+      ],
+      "explanation": "Uso de 'might' para posibilidad en el condicional.",
+      "audio": "audio/b1/unit-10/e42.mp3"
     },
     "audioUrl": "audio/b1/unit-10/e42.mp3",
     "topicName": "Grammar"
@@ -1157,21 +1109,17 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Apreciando descuentos",
       "instructions": "Ordena la oración sobre los clientes.",
-      "questions": [
-        {
-          "question": [
-            "[[Customers|A los clientes]]",
-            "[[like|les gustan]]",
-            "[[discounts|los descuentos]]",
-            "[[very|mucho]]",
-            "[[much| ]]",
-            "[[indeed.|realmente.]]"
-          ],
-          "correctAnswer": [0, 1, 2, 3, 4, 5],
-          "explanation": "Sujeto + verbo + objeto + intensificador.",
-          "audio": "audio/b1/unit-10/e43.mp3"
-        }
-      ]
+      "correctSentence": "[[Customers|A los clientes]] [[like|les gustan]] [[discounts|los descuentos]] [[very|mucho]] [[much| ]] [[indeed.|realmente.]]",
+      "words": [
+        "[[Customers|A los clientes]]",
+        "[[like|les gustan]]",
+        "[[discounts|los descuentos]]",
+        "[[very|mucho]]",
+        "[[much| ]]",
+        "[[indeed.|realmente.]]"
+      ],
+      "explanation": "Sujeto + verbo + objeto + intensificador.",
+      "audio": "audio/b1/unit-10/e43.mp3"
     },
     "audioUrl": "audio/b1/unit-10/e43.mp3",
     "topicName": "Vocabulary"
@@ -1186,21 +1134,17 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Plan por lluvia",
       "instructions": "Ordena la condición real.",
-      "questions": [
-        {
-          "question": [
-            "[[If|Si]]",
-            "[[it| ]]",
-            "[[rains,|llueve,]]",
-            "[[we|nosotros]]",
-            "[[stay|nos quedamos en]]",
-            "[[home.|casa.]]"
-          ],
-          "correctAnswer": [0, 1, 2, 3, 4, 5],
-          "explanation": "Condicional cero para hechos habituales.",
-          "audio": "audio/b1/unit-10/e44.mp3"
-        }
-      ]
+      "correctSentence": "[[If|Si]] [[it| ]] [[rains,|llueve,]] [[we|nosotros]] [[stay|nos quedamos en]] [[home.|casa.]]",
+      "words": [
+        "[[If|Si]]",
+        "[[it| ]]",
+        "[[rains,|llueve,]]",
+        "[[we|nosotros]]",
+        "[[stay|nos quedamos en]]",
+        "[[home.|casa.]]"
+      ],
+      "explanation": "Condicional cero para hechos habituales.",
+      "audio": "audio/b1/unit-10/e44.mp3"
     },
     "audioUrl": "audio/b1/unit-10/e44.mp3",
     "topicName": "Grammar"
@@ -1215,21 +1159,17 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "La más barata",
       "instructions": "Forma el superlativo.",
-      "questions": [
-        {
-          "question": [
-            "[[This|Esta]]",
-            "[[is|es]]",
-            "[[the|la]]",
-            "[[cheapest|tienda más barata]]",
-            "[[store| ]]",
-            "[[ever.|de todas.]]"
-          ],
-          "correctAnswer": [0, 1, 2, 3, 4, 5],
-          "explanation": "Superlativo de adjetivo corto 'cheap'.",
-          "audio": "audio/b1/unit-10/e45.mp3"
-        }
-      ]
+      "correctSentence": "[[This|Esta]] [[is|es]] [[the|la]] [[cheapest|tienda más barata]] [[store| ]] [[ever.|de todas.]]",
+      "words": [
+        "[[This|Esta]]",
+        "[[is|es]]",
+        "[[the|la]]",
+        "[[cheapest|tienda más barata]]",
+        "[[store| ]]",
+        "[[ever.|de todas.]]"
+      ],
+      "explanation": "Superlativo de adjetivo corto 'cheap'.",
+      "audio": "audio/b1/unit-10/e45.mp3"
     },
     "audioUrl": "audio/b1/unit-10/e45.mp3",
     "topicName": "Vocabulary"
@@ -1244,21 +1184,17 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pan suficiente",
       "instructions": "Ordena sobre la comida.",
-      "questions": [
-        {
-          "question": [
-            "[[We|Nosotros]]",
-            "[[have|tenemos]]",
-            "[[enough|suficiente]]",
-            "[[bread|pan]]",
-            "[[for|por]]",
-            "[[now.|ahora.]]"
-          ],
-          "correctAnswer": [0, 1, 2, 3, 4, 5],
-          "explanation": "'Enough' antes del sustantivo.",
-          "audio": "audio/b1/unit-10/e46.mp3"
-        }
-      ]
+      "correctSentence": "[[We|Nosotros]] [[have|tenemos]] [[enough|suficiente]] [[bread|pan]] [[for|por]] [[now.|ahora.]]",
+      "words": [
+        "[[We|Nosotros]]",
+        "[[have|tenemos]]",
+        "[[enough|suficiente]]",
+        "[[bread|pan]]",
+        "[[for|por]]",
+        "[[now.|ahora.]]"
+      ],
+      "explanation": "'Enough' antes del sustantivo.",
+      "audio": "audio/b1/unit-10/e46.mp3"
     },
     "audioUrl": "audio/b1/unit-10/e46.mp3",
     "topicName": "Grammar"
@@ -1273,21 +1209,17 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Felicidad hipotética",
       "instructions": "Ordena la condición imaginaria.",
-      "questions": [
-        {
-          "question": [
-            "[[If|Si]]",
-            "[[she|ella]]",
-            "[[knew,|lo supiera,]]",
-            "[[she'd|ella]]",
-            "[[be|estaría]]",
-            "[[happy.|feliz.]]"
-          ],
-          "correctAnswer": [0, 1, 2, 3, 4, 5],
-          "explanation": "Segundo condicional con contracción 'she'd'.",
-          "audio": "audio/b1/unit-10/e41.mp3"
-        }
-      ]
+      "correctSentence": "[[If|Si]] [[she|ella]] [[knew,|lo supiera,]] [[she'd|ella]] [[be|estaría]] [[happy.|feliz.]]",
+      "words": [
+        "[[If|Si]]",
+        "[[she|ella]]",
+        "[[knew,|lo supiera,]]",
+        "[[she'd|ella]]",
+        "[[be|estaría]]",
+        "[[happy.|feliz.]]"
+      ],
+      "explanation": "Segundo condicional con contracción 'she'd'.",
+      "audio": "audio/b1/unit-10/e47.mp3"
     },
     "audioUrl": "audio/b1/unit-10/e47.mp3",
     "topicName": "Grammar"
@@ -1302,21 +1234,17 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Sustentabilidad futura",
       "instructions": "Ordena la oración ética.",
-      "questions": [
-        {
-          "question": [
-            "[[Sustainability|La sustentabilidad]]",
-            "[[is|es]]",
-            "[[important|importante]]",
-            "[[for|para las]]",
-            "[[future|compras]]",
-            "[[shopping.|futuras.]]"
-          ],
-          "correctAnswer": [0, 1, 2, 3, 4, 5],
-          "explanation": "Sujeto + verbo + adjetivo + complemento.",
-          "audio": "audio/b1/unit-10/e48.mp3"
-        }
-      ]
+      "correctSentence": "[[Sustainability|La sustentabilidad]] [[is|es]] [[important|importante]] [[for|para las]] [[future|compras]] [[shopping.|futuras.]]",
+      "words": [
+        "[[Sustainability|La sustentabilidad]]",
+        "[[is|es]]",
+        "[[important|importante]]",
+        "[[for|para las]]",
+        "[[future|compras]]",
+        "[[shopping.|futuras.]]"
+      ],
+      "explanation": "Sujeto + verbo + adjetivo + complemento.",
+      "audio": "audio/b1/unit-10/e48.mp3"
     },
     "audioUrl": "audio/b1/unit-10/e48.mp3",
     "topicName": "Vocabulary"
@@ -1331,21 +1259,17 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Condición mutua",
       "instructions": "Ordena la respuesta negativa.",
-      "questions": [
-        {
-          "question": [
-            "[[If|Si]]",
-            "[[you|tú]]",
-            "[[don't|no]]",
-            "[[go,|vas,]]",
-            "[[I|yo]]",
-            "[[won't.|tampoco lo haré.]]"
-          ],
-          "correctAnswer": [0, 1, 2, 3, 4, 5],
-          "explanation": "Uso de 'won't' para evitar repetición.",
-          "audio": "audio/b1/unit-10/e49.mp3"
-        }
-      ]
+      "correctSentence": "[[If|Si]] [[you|tú]] [[don't|no]] [[go,|vas,]] [[I|yo]] [[won't.|tampoco lo haré.]]",
+      "words": [
+        "[[If|Si]]",
+        "[[you|tú]]",
+        "[[don't|no]]",
+        "[[go,|vas,]]",
+        "[[I|yo]]",
+        "[[won't.|tampoco lo haré.]]"
+      ],
+      "explanation": "Uso de 'won't' para evitar repetición.",
+      "audio": "audio/b1/unit-10/e49.mp3"
     },
     "audioUrl": "audio/b1/unit-10/e49.mp3",
     "topicName": "Grammar"
@@ -1360,21 +1284,17 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Amante de la tecnología",
       "instructions": "Forma la oración sobre tecnología.",
-      "questions": [
-        {
-          "question": [
-            "[[I|Me]]",
-            "[[love|encanta]]",
-            "[[shopping|comprar]]",
-            "[[for| ]]",
-            "[[new|nuevos]]",
-            "[[gadgets.|dispositivos.]]"
-          ],
-          "correctAnswer": [0, 1, 2, 3, 4, 5],
-          "explanation": "Uso del gerundio después de 'love'.",
-          "audio": "audio/b1/unit-10/e50.mp3"
-        }
-      ]
+      "correctSentence": "[[I|Me]] [[love|encanta]] [[shopping|comprar]] [[for| ]] [[new|nuevos]] [[gadgets.|dispositivos.]]",
+      "words": [
+        "[[I|Me]]",
+        "[[love|encanta]]",
+        "[[shopping|comprar]]",
+        "[[for| ]]",
+        "[[new|nuevos]]",
+        "[[gadgets.|dispositivos.]]"
+      ],
+      "explanation": "Uso del gerundio después de 'love'.",
+      "audio": "audio/b1/unit-10/e50.mp3"
     },
     "audioUrl": "audio/b1/unit-10/e50.mp3",
     "topicName": "Vocabulary"
