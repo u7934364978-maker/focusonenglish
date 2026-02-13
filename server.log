@@ -1,0 +1,27 @@
+
+> focus-english@1.0.0 dev
+> next dev -p 5436
+
+ ⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /Users/lidia/Documents/focusonenglish/package-lock.json as the root directory.
+ To silence this warning, set `outputFileTracingRoot` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/output#caveats for more information.
+ Detected additional lockfiles: 
+   * /Users/lidia/Documents/focusonenglish/focusonenglish/package-lock.json
+
+   ▲ Next.js 15.5.11
+   - Local:        http://localhost:5436
+   - Network:      http://172.20.10.3:5436
+   - Environments: .env
+
+ ✓ Starting...
+ ⚠ Mismatching @next/swc version, detected: 15.5.7 while Next.js is on 15.5.11. Please ensure these match
+ ✓ Ready in 13.1s
+ ○ Compiling /middleware ...
+ ✓ Compiled /middleware in 1810ms (164 modules)
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 24.1s (776 modules)
+Supabase Browser Client Initializing with URL: https://nprqtjljoekoirlrjxlh.supabase.co
+ HEAD /debug/c1-preview/unit-1 404 in 25066ms
+ ✓ Compiled in 6.8s (313 modules)
+ ✓ Compiled in 11.7s (313 modules)

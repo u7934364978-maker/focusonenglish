@@ -15,7 +15,7 @@
 - [x] Unit 7: Education and Learning (Fixed Gaps & Translations)
 - [x] Unit 8: Media and Entertainment (Fixed Gaps & Translations)
 - [x] Unit 9: Crime and Punishment
-- [ ] Unit 10: Money and Finance
+- [x] Unit 10: Money and Finance
 - [ ] Unit 11: Arts and Culture
 - [ ] Unit 12: Science and Nature
 - [ ] Unit 13: Food and Nutrition
