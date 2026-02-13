@@ -75,7 +75,27 @@
 2. [x] Generate 50 exercises for `src/lib/course/b1/unit-25.ts`.
 3. [x] Verify implementation in browser at `/debug/b1-preview/unit-25`.
 
-### [ ] Step: Implementation Unit 26
-1. [ ] Define requirements for Unit 26 (Natural Disasters & Emergencies, 50 exercises, complex structure, sentence-building > 8 words).
-2. [ ] Generate 50 exercises for `src/lib/course/b1/unit-26.ts`.
-3. [ ] Verify implementation in browser at `/debug/b1-preview/unit-26`.
+### [x] Step: Implementation Unit 26
+1. [x] Define requirements for Unit 26 (Natural Disasters & Emergencies, 50 exercises, complex structure, sentence-building > 8 words).
+2. [x] Generate 50 exercises for `src/lib/course/b1/unit-26.ts`.
+3. [x] Verify implementation in browser at `/debug/b1-preview/unit-26`.
+
+### [x] Step: Implementation Unit 27
+1. [x] Define requirements for Unit 27 (Crime & Justice, 50 exercises, complex structure, sentence-building > 8 words).
+2. [x] Generate 50 exercises for `src/lib/course/b1/unit-27.ts`.
+3. [x] Verify implementation in browser at `/debug/b1-preview/unit-27`.
+
+### [x] Step: Implementation Unit 28
+1. [x] Define requirements for Unit 28 (Social Issues & Volunteering, 50 exercises, complex structure, sentence-building > 8 words).
+2. [x] Generate 50 exercises for `src/lib/course/b1/unit-28.ts`.
+3. [x] Verify implementation in browser at `/debug/b1-preview/unit-28`.
+
+### [x] Step: Implementation Unit 29
+1. [x] Define requirements for Unit 29 (Travel Adventures & Hidden Gems, 50 exercises, complex structure, sentence-building > 8 words).
+2. [x] Generate 50 exercises for `src/lib/course/b1/unit-29.ts`.
+3. [x] Verify implementation in browser at `/debug/b1-preview/unit-29`.
+
+### [ ] Step: Implementation Unit 30
+1. [ ] Define requirements for Unit 30 (History & Ancient Civilizations, 50 exercises, complex structure, sentence-building > 8 words).
+2. [ ] Generate 50 exercises for `src/lib/course/b1/unit-30.ts`.
+3. [ ] Verify implementation in browser at `/debug/b1-preview/unit-30`.
