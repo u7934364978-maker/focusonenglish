@@ -629,19 +629,19 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Película larga",
       "instructions": "Ordena las palabras usando inversión condicional.",
-      "correctSentence": "[[Had|Si]] [[the|la]] [[film|película]] [[been|hubiera]] [[shorter,|sido más corta,]] [[it|habría]] [[would|tenido]] [[have|más]] [[been|éxito.]] [[more| ]] [[successful.| ]]",
+      "correctSentence": "[[Had|Si]] [[the|la]] [[film|película]] [[been|hubiera]] [[shorter,|sido más corta,]] [[it| ]] [[would|habría]] [[have|tenido]] [[been| ]] [[more|más]] [[successful.|éxito.]]",
       "words": [
         "[[been|hubiera]]",
         "[[film|película]]",
-        "[[would|tenido]]",
+        "[[would|habría]]",
         "[[Had|Si]]",
-        "successful.",
+        "[[successful.|éxito.]]",
         "[[shorter,|sido más corta,]]",
-        "[[more| ]]",
-        "[[been|éxito.]]",
-        "[[it|habría]]",
+        "[[more|más]]",
+        "[[been| ]]",
+        "[[it| ]]",
         "[[the|la]]",
-        "[[have|más]]"
+        "[[have|tenido]]"
       ],
       "explanation": "La inversión 'Had the film been' es equivalente a 'If the film had been'.",
       "audio": "audio/b2/unit-8/e22.mp3"
