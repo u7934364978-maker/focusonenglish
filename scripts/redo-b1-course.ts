@@ -84,7 +84,8 @@ async function generateExercisesForUnit(unitId: number) {
          - INCORRECT: [[I work|Yo trabajo]] [[from home|desde casa]].
          - INCORRECT: [[to|trabajar]] [[work|desde]]. (Translations must match the English word exactly).
       2. GAPS: For "multiple-choice" and "fill-blank", you MUST use exactly "_______" (seven underscores) in the question text.
-      3. CRITICAL: The correct answer MUST NOT appear in the question text for multiple-choice/fill-blank. Use the gap.
+      3. CRITICAL: The gap "_______" MUST represent the core grammar point or vocabulary being tested. The correct answer MUST NOT appear in the question text.
+         - EXAMPLE (Future Going To): Question: "[[The|La]] [[company|empresa]] _______ [[to|a]] [[launch|lanzar]]...". Option: "[[is going|va a]]".
       4. OPTIONS: Keep options concise. If the gap is for a verb, the option should be the verb form. Every option must also use [[word|translation]] syntax.
       5. SENTENCE BUILDING: 'words' must be an array of strings, each string being one bracketed pair [[word|translation]]. 
       6. Spanish Only: Titles, instructions, and explanations MUST be in Spanish.

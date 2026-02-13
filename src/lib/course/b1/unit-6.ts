@@ -7,20 +7,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "She has decided to start a new business.",
+    "transcript": "She decided to take a break after working long hours.",
     "content": {
-      "title": "Elija la opción correcta",
-      "instructions": "Seleccione la opción que complete la oración correctamente.",
+      "title": "Decidir tomar un descanso",
+      "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[to|a]] [[start|empezar]] [[a|un]] [[new|nuevo]] [[business|negocio]].",
+          "question": "[[She|Ella]] [[decided|decidió]] _______ [[a|un]] [[break|descanso]] [[after|después de]] [[working|trabajar]] [[long|largas]] [[hours|horas]].",
           "options": [
-            "[[decided|decidió]]",
-            "[[enjoys|disfruta]]",
-            "[[considers|considera]]"
+            "[[to|a]] [[take|tomar]]",
+            "[[taking|tomando]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El verbo 'decide' se utiliza con 'to' + infinitivo.",
+          "explanation": "Se utiliza 'to' + infinitivo después del verbo 'decidir'.",
           "audio": "audio/b1/unit-6/e1.mp3"
         }
       ]
@@ -34,20 +33,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "They want to improve their workplace environment.",
+    "transcript": "Learning new skills is essential for career growth.",
     "content": {
-      "title": "Elija la opción correcta",
-      "instructions": "Seleccione la opción que complete la oración correctamente.",
+      "title": "Aprender nuevas habilidades",
+      "instructions": "Selecciona la opción que complete correctamente la frase.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[to|de]] [[improve|mejorar]] [[their|su]] [[workplace|lugar de trabajo]] [[environment|entorno]].",
+          "question": "_______ [[new|nuevas]] [[skills|habilidades]] [[is|es]] [[essential|esencial]] [[for|para]] [[career|la carrera]] [[growth|crecimiento]].",
           "options": [
-            "[[want|quieren]]",
-            "[[dream|sueñan]]",
-            "[[consider|consideran]]"
+            "[[Learning|Aprender]]",
+            "[[To|A]] [[learn|aprender]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El verbo 'want' se sigue de 'to' + infinitivo.",
+          "explanation": "Uso de 'gerundio' como sujeto de la oración.",
           "audio": "audio/b1/unit-6/e2.mp3"
         }
       ]
@@ -61,20 +59,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "He is interested in learning new skills.",
+    "transcript": "He is eager to start his new project.",
     "content": {
-      "title": "Elija la opción correcta",
-      "instructions": "Seleccione la opción que complete la oración correctamente.",
+      "title": "Ansioso por comenzar un proyecto",
+      "instructions": "Escoge la opción que complete adecuadamente la oración.",
       "questions": [
         {
-          "question": "[[He|Él]] [[is|está]] _______ [[in|en]] [[learning|aprender]] [[new|nuevas]] [[skills|habilidades]].",
+          "question": "[[He|Él]] [[is|está]] [[eager|ansioso]] _______ [[his|su]] [[new|nuevo]] [[project|proyecto]].",
           "options": [
-            "[[interested|interesado]]",
-            "[[motivated|motivado]]",
-            "[[keen|ansioso]]"
+            "[[to|de]] [[start|comenzar]]",
+            "[[starting|comenzando]]"
           ],
           "correctAnswer": 0,
-          "explanation": "La expresión 'be interested in' se sigue de un verbo en gerundio.",
+          "explanation": "Usa 'to' + infinitivo después de adjetivos como 'eager'.",
           "audio": "audio/b1/unit-6/e3.mp3"
         }
       ]
@@ -88,20 +85,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "We plan to attend the conference.",
+    "transcript": "He avoided talking about his raise.",
     "content": {
-      "title": "Elija la opción correcta",
-      "instructions": "Seleccione la opción que complete la oración correctamente.",
+      "title": "Evitar hablar de un aumento",
+      "instructions": "Seleciona la palabra que mejor complete la oración.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] _______ [[to|a]] [[attend|asistir]] [[the|a la]] [[conference|conferencia]].",
+          "question": "[[He|Él]] [[avoided|evitó]] _______ [[about|sobre]] [[his|su]] [[raise|aumento]].",
           "options": [
-            "[[plan|planeamos]]",
-            "[[enjoy|disfrutamos]]",
-            "[[consider|consideramos]]"
+            "[[talking|hablar]]",
+            "[[to|de]] [[talk|hablar]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El verbo 'plan' se utiliza con 'to' + infinitivo.",
+          "explanation": "Uso del gerundio después de ciertos verbos como 'avoid'.",
           "audio": "audio/b1/unit-6/e4.mp3"
         }
       ]
@@ -115,20 +111,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "Despite working long hours, John enjoys his job.",
+    "transcript": "We plan to implement the new strategy by next quarter.",
     "content": {
-      "title": "Elija la opción correcta",
-      "instructions": "Seleccione la opción que complete la oración correctamente.",
+      "title": "Planificación de estrategia",
+      "instructions": "Elige la opción que complete correctamente la oración.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] _______ [[long|largas]] [[hours|horas]], [[John|John]] [[enjoys|disfruta]] [[his|su]] [[job|trabajo]].",
+          "question": "[[We|Nosotros]] [[plan|planeamos]] _______ [[the|la]] [[new|nueva]] [[strategy|estrategia]] [[by|para]] [[next|el próximo]] [[quarter|trimestre]].",
           "options": [
-            "[[working|trabajar]]",
-            "[[to work|trabajar]]",
-            "[[work|trabajo]]"
+            "[[to|en]] [[implement|implementar]]",
+            "[[implementing|implementando]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Después de 'despite', se utiliza un gerundio.",
+          "explanation": "Después de 'plan', se utiliza 'to' + infinitivo para indicar la intención de futuro.",
           "audio": "audio/b1/unit-6/e5.mp3"
         }
       ]
@@ -142,19 +137,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "Considering a career change can be a challenging decision.",
+    "transcript": "Although he enjoys traveling, he decided to stay home for the holidays.",
     "content": {
-      "title": "Cambio de carrera",
-      "instructions": "Completa la frase con la opción correcta.",
+      "title": "Uso de gerundios e infinitivos",
+      "instructions": "Completa la oración usando la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[Considering|Considerar]] [[a|un]] [[career|carrera]] [[change|cambio]] [[can|puede]] [[be|ser]] _______ [[challenging|desafiante]] [[decision|decisión]].",
+          "question": "[[Although|Aunque]] [[he|él]] [[enjoys|disfruta]] _______ [[he|él]] [[decided|decidió]] [[to|a]] [[stay|quedarse]] [[home|en casa]] [[for|por]] [[the|los]] [[holidays|días festivos]].",
           "options": [
-            "[[a|una]]",
-            "[[the|la]]"
+            "[[travelling|viajar]]",
+            "[[to travel|viajar]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso del artículo indefinido 'a' para referirse a una decisión no especificada.",
+          "explanation": "Uso del gerundio después de verbos como 'enjoy'.",
           "audio": "audio/b1/unit-6/e6.mp3"
         }
       ]
@@ -168,19 +163,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "He prefers reading reports instead of writing them.",
+    "transcript": "She plans to attend the conference next month.",
     "content": {
-      "title": "Preferencias en el trabajo",
-      "instructions": "Selecciona la opción correcta para completar la frase.",
+      "title": "Infinitivos con propósito",
+      "instructions": "Selecciona la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[He|Él]] [[prefers|prefiere]] _______ [[reports|informes]] [[instead|en]] [[of|lugar]] [[writing|de escribir]] [[them|ellos]].",
+          "question": "[[She|Ella]] [[plans|planea]] _______ [[the|la]] [[conference|conferencia]] [[next|el próximo]] [[month|mes]].",
           "options": [
-            "[[reading|leer]]",
-            "[[to read|leer]]"
+            "[[attending|asistir]]",
+            "[[to attend|asistir]]"
           ],
-          "correctAnswer": 0,
-          "explanation": "El verbo 'prefer' se sigue de un gerundio cuando hablamos de preferencias generales.",
+          "correctAnswer": 1,
+          "explanation": "Uso del infinitivo con 'to' después de ciertos verbos como 'plan'.",
           "audio": "audio/b1/unit-6/e7.mp3"
         }
       ]
@@ -194,19 +189,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "We need to discuss the project tomorrow.",
+    "transcript": "Despite wanting a promotion, he chose to switch jobs.",
     "content": {
-      "title": "Discusiones de proyectos",
-      "instructions": "Elige la opción correcta para completar la frase.",
+      "title": "Uso de 'despite' con gerundio",
+      "instructions": "Completa la oración usando la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[need|necesitamos]] _______ [[discuss|discutir]] [[the|el]] [[project|proyecto]] [[tomorrow|mañana]].",
+          "question": "[[Despite|A pesar de]] _______ [[a|un]] [[promotion|ascenso]], [[he|él]] [[chose|eligió]] [[to|cambiar]] [[switch|de]] [[jobs|empleo]].",
           "options": [
-            "[[to|para]]",
-            "[[discussing|discutir]]"
+            "[[wanting|querer]]",
+            "[[to want|querer]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Después de 'need', usamos el infinitivo con 'to'.",
+          "explanation": "Uso de 'despite' seguido de gerundio.",
           "audio": "audio/b1/unit-6/e8.mp3"
         }
       ]
@@ -220,19 +215,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "My boss suggested taking on more responsibilities to advance my career.",
+    "transcript": "Her job involves traveling to different countries.",
     "content": {
-      "title": "Sugerencias para la carrera",
-      "instructions": "Completa la oración con la mejor opción.",
+      "title": "Gerundios en descripciones de trabajo",
+      "instructions": "Elige la forma correcta del verbo para completar la frase.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[boss|jefe]] [[suggested|sugirió]] _______ [[on|en]] [[more|más]] [[responsibilities|responsabilidades]] [[to|para]] [[advance|avanzar]] [[my|mi]] [[career|carrera]].",
+          "question": "[[Her|Su]] [[job|trabajo]] [[involves|implica]] _______ [[to|a]] [[different|diferentes]] [[countries|países]].",
           "options": [
-            "[[taking|tomar]]",
-            "[[to take|tomar]]"
+            "[[travelling|viajar]]",
+            "[[to travel|viajar]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Después de 'suggest', usamos un gerundio.",
+          "explanation": "Uso de gerundio después de 'involve'.",
           "audio": "audio/b1/unit-6/e9.mp3"
         }
       ]
@@ -246,19 +241,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "I decided to improve my skills by attending more workshops.",
+    "transcript": "They agreed to meet at the office after lunch.",
     "content": {
-      "title": "Mejorando habilidades",
-      "instructions": "Elige la opción correcta para completar la oración.",
+      "title": "Infinitivos con acuerdo",
+      "instructions": "Completa la oración usando la forma correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[decided|decidí]] _______ [[my|mis]] [[skills|habilidades]] [[by|asistiendo]] [[attending|a]] [[more|más]] [[workshops|talleres]].",
+          "question": "[[They|Ellos]] [[agreed|acordaron]] _______ [[at|en]] [[the|la]] [[office|oficina]] [[after|después de]] [[lunch|comer]].",
           "options": [
-            "[[to improve|mejorar]]",
-            "[[improving|mejorando]]"
+            "[[to meet|reunirse]]",
+            "[[meeting|reunirse]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Después de 'decide', usamos el infinitivo con 'to'.",
+          "explanation": "Uso de infinitivo con 'to' después de 'agree'.",
           "audio": "audio/b1/unit-6/e10.mp3"
         }
       ]
@@ -272,24 +267,23 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "He plans to attend the meeting despite not feeling well.",
+    "transcript": "Sarah prefers working with a team rather than alone.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[plans|planea]] [[to|asistir]] [[attend|a]] [[the|la]] [[meeting|reunión]] [[despite|a pesar de]] [[not|no]] [[feeling|sentirse]] [[well|bien]].",
+      "correctSentence": "[[Sarah|Sarah]] [[prefers|prefiere]] [[working|trabajar]] [[with|con]] [[a|un]] [[team|equipo]] [[rather|en]] [[than|vez]] [[alone|de]] [[alone|sola]].",
       "words": [
-        "[[plans|planea]]",
-        "[[meeting|reunión]]",
-        "[[attend|a]]",
-        "[[feeling|sentirse]]",
-        "[[not|no]]",
-        "[[He|Él]]",
-        "[[despite|a pesar de]]",
-        "[[to|asistir]]",
-        "[[well|bien]]",
-        "[[the|la]]"
+        "[[alone|sola]]",
+        "[[team|equipo]]",
+        "[[working|trabajar]]",
+        "[[Sarah|Sarah]]",
+        "[[with|con]]",
+        "[[prefers|prefiere]]",
+        "[[than|de]]",
+        "[[rather|en]]",
+        "[[a|un]]"
       ],
-      "explanation": "Uso de 'to' + infinitivo para expresar la idea de un plan o intención, y 'despite' seguido de un gerundio para mostrar contraste.",
+      "explanation": "Después de \"prefers\", se usa gerundio para indicar preferencias continuadas.",
       "audio": "audio/b1/unit-6/e11.mp3"
     },
     "id": "b1-u6-e11",
@@ -301,24 +295,23 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "Finding a reliable supplier is important for growing the business.",
+    "transcript": "The manager decided to give the employees more flexibility.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Finding|Encontrar]] [[a|un]] [[reliable|fiable]] [[supplier|proveedor]] [[is|es]] [[important|importante]] [[for|para]] [[growing|hacer crecer]] [[the|el]] [[business|negocio]].",
+      "correctSentence": "[[The|El]] [[manager|gerente]] [[decided|decidió]] [[to|dar]] [[give|más]] [[the|a]] [[employees|los]] [[more|empleados]] [[flexibility|flexibilidad]].",
       "words": [
-        "[[Finding|Encontrar]]",
-        "[[a|un]]",
-        "[[growing|hacer crecer]]",
-        "[[is|es]]",
-        "[[the|el]]",
-        "[[important|importante]]",
-        "[[reliable|fiable]]",
-        "[[for|para]]",
-        "[[supplier|proveedor]]",
-        "[[business|negocio]]"
+        "[[decided|decidió]]",
+        "[[to|dar]]",
+        "[[manager|gerente]]",
+        "[[the|El]]",
+        "[[employees|empleados]]",
+        "[[the|los]]",
+        "[[more|más]]",
+        "[[give|a]]",
+        "[[flexibility|flexibilidad]]"
       ],
-      "explanation": "Uso de 'gerundios' como sujetos de la oración para expresar acciones.",
+      "explanation": "Uso del infinitivo \"to give\" después de \"decided\" para expresar una acción futura.",
       "audio": "audio/b1/unit-6/e12.mp3"
     },
     "id": "b1-u6-e12",
@@ -330,24 +323,23 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "They decided to invest in new technology to improve productivity.",
+    "transcript": "He avoids making mistakes by double-checking his work.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[decided|decidieron]] [[to|invertir]] [[invest|en]] [[in|nueva]] [[new|tecnología]] [[technology|para]] [[to|mejorar]] [[improve|la]] [[productivity|productividad]].",
+      "correctSentence": "[[He|Él]] [[avoids|evita]] [[making|cometer]] [[mistakes|errores]] [[by|revisando]] [[double|su]] [[checking|trabajo]] [[his|doblemente]].",
       "words": [
-        "[[They|Ellos]]",
-        "[[decided|decidieron]]",
-        "[[to|invertir]]",
-        "[[invest|en]]",
-        "[[in|nueva]]",
-        "[[new|tecnología]]",
-        "[[technology|para]]",
-        "[[to|mejorar]]",
-        "[[improve|la]]",
-        "[[productivity|productividad]]"
+        "[[by|revisando]]",
+        "[[making|cometer]]",
+        "[[avoids|evita]]",
+        "[[double|doblemente]]",
+        "[[His|Él]]",
+        "[[his|su]]",
+        "[[Check|trabajo]]",
+        "[[mistakes|errores]]",
+        "[[checking|trabajo]]"
       ],
-      "explanation": "Uso de 'to' + infinitivo para expresar la razón o propósito de una acción.",
+      "explanation": "Después de \"avoids\", se usa gerundio para dar la idea de evitar una acción regularmente.",
       "audio": "audio/b1/unit-6/e13.mp3"
     },
     "id": "b1-u6-e13",
@@ -359,22 +351,24 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "Emily enjoys working remotely because it offers flexibility.",
+    "transcript": "They plan to expand the business internationally next year.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Emily|Emily]] [[enjoys|disfruta]] [[working|trabajando]] [[remotely|remotamente]] [[because|porque]] [[it|eso]] [[offers|ofrece]] [[flexibility|flexibilidad]].",
+      "correctSentence": "[[They|Ellos]] [[plan|planean]] [[to|expandir]] [[expand|el]] [[the|negocio]] [[business|internacionalmente]] [[internationally|internacionalmente]] [[next|el]] [[year|próximo]] [[year|año]].",
       "words": [
-        "[[Emily|Emily]]",
-        "[[enjoys|disfruta]]",
-        "[[working|trabajando]]",
-        "[[remotely|remotamente]]",
-        "[[because|porque]]",
-        "[[it|eso]]",
-        "[[offers|ofrece]]",
-        "[[flexibility|flexibilidad]]"
+        "[[to|expandir]]",
+        "[[expand|el]]",
+        "[[They|Ellos]]",
+        "[[business|negocio]]",
+        "[[to|internacionalmente]]",
+        "[[plan|planean]]",
+        "[[next|el]]",
+        "[[internationally|internacionalmente]]",
+        "[[year|próximo]]",
+        "[[the|año]]"
       ],
-      "explanation": "Uso del gerundio después de verbos como 'enjoy'. La conjunción 'because' introduce la razón.",
+      "explanation": "Uso del infinitivo \"to expand\" después de \"plan\" para expresar una acción futura planificada.",
       "audio": "audio/b1/unit-6/e14.mp3"
     },
     "id": "b1-u6-e14",
@@ -386,25 +380,25 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "Considering the current market trends is essential for making strategic decisions.",
+    "transcript": "Despite trying hard, she did not manage to finish the project on time.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Considering|Considerar]] [[the|las]] [[current|actuales]] [[market|tendencias]] [[trends|de]] [[is|mercado]] [[essential|esencial]] [[for|para]] [[making|tomar]] [[strategic|decisiones]] [[decisions|estratégicas]].",
+      "correctSentence": "[[Despite|A pesar]] [[trying|de]] [[hard|esforzarse]], [[she|ella]] [[did|no]] [[not|logró]] [[manage|terminar]] [[to|el]] [[finish|proyecto]] [[the|a]] [[project|tiempo]].",
       "words": [
-        "[[Considering|Considerar]]",
-        "[[the|las]]",
-        "[[current|actuales]]",
-        "[[trends|de]]",
-        "[[market|mercado]]",
-        "[[is|esencial]]",
-        "[[essential|para]]",
-        "[[for|tomar]]",
-        "[[making|decisiones]]",
-        "[[strategic|estratégicas]]",
-        "[[decisions|de]]"
+        "[[the|a]]",
+        "[[Despite|A pesar]]",
+        "[[hard|esforzarse]]",
+        "[[she|ella]]",
+        "[[trying|de]]",
+        "[[manage|terminar]]",
+        "[[project|tiempo]]",
+        "[[not|logró]]",
+        "[[finish|proyecto]]",
+        "[[did|no]]",
+        "[[to|el]]"
       ],
-      "explanation": "Utilización del gerundio como sujeto de la oración. Expresa importancia o necesidad de acción continua.",
+      "explanation": "Esta oración combina el uso de gerundio después de \"despite\" para expresar un contraste.",
       "audio": "audio/b1/unit-6/e15.mp3"
     },
     "id": "b1-u6-e15",
@@ -416,19 +410,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "She plans to attend the meeting tomorrow.",
+    "transcript": "Although she dislikes the new protocol, she keeps following it.",
     "content": {
-      "title": "Planificación para el Futuro",
+      "title": "La importancia de seguir los procedimientos",
       "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[plans|planea]] _______ [[the|la]] [[meeting|reunión]] [[tomorrow|mañana]].",
+          "question": "[[Although|Aunque]] [[she|ella]] [[dislikes|no le gusta]] [[the|el]] [[new|nuevo]] [[protocol|protocolo]], [[she|ella]] _______ [[following|siguiendo]] [[it|lo]].",
           "options": [
-            "[[attend|asistir]]",
-            "[[to|a]] [[attend|asistir]]"
+            "[[keeps|continúa]]",
+            "[[stop|deja]]"
           ],
-          "correctAnswer": 1,
-          "explanation": "Después de 'plan', se utiliza el infinitivo con 'to'.",
+          "correctAnswer": 0,
+          "explanation": "Usamos 'keeps' seguido por un gerundio para indicar una acción que continúa.",
           "audio": "audio/b1/unit-6/e16.mp3"
         }
       ]
@@ -442,19 +436,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "They enjoy working on collaborative projects.",
+    "transcript": "He decided to attend the conference despite the distance.",
     "content": {
-      "title": "Actividades de Trabajo en Equipo",
-      "instructions": "Selecciona la forma verbal correcta de acuerdo con la estructura de la oración.",
+      "title": "Tomando decisiones profesionales",
+      "instructions": "Completa la oración con la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[enjoy|disfrutan]] _______ [[on|en]] [[collaborative|colaborativos]] [[projects|proyectos]].",
+          "question": "[[He|Él]] [[decided|decidió]] _______ [[to|a]] [[attend|asistir]] [[the|a la]] [[conference|conferencia]] [[despite|a pesar de]] [[the|la]] [[distance|distancia]].",
           "options": [
-            "[[working|trabajando]]",
-            "[[to|a]] [[work|trabajar]]"
+            "[[to|a]]",
+            "[[on|en]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Después de 'enjoy', se utiliza el gerundio (forma -ing).",
+          "explanation": "Después del verbo 'decided', se usa un infinitivo con 'to'.",
           "audio": "audio/b1/unit-6/e17.mp3"
         }
       ]
@@ -468,19 +462,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "The manager decided to implement a new strategy.",
+    "transcript": "The manager warned them not to leave early.",
     "content": {
-      "title": "Decisiones Empresariales",
-      "instructions": "Completa la oración con la forma correcta del verbo.",
+      "title": "Advertencias en el trabajo",
+      "instructions": "Selecciona la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[The|El]] [[manager|gerente]] [[decided|decidió]] _______ [[a|una]] [[new|nueva]] [[strategy|estrategia]].",
+          "question": "[[The|El]] [[manager|gerente]] _______ [[them|a ellos]] [[not|no]] [[to|que]] [[leave|se vayan]] [[early|temprano]].",
           "options": [
-            "[[implementing|implementando]]",
-            "[[to|a]] [[implement|implementar]]"
+            "[[warned|advirtió]]",
+            "[[told|dijo]]"
           ],
-          "correctAnswer": 1,
-          "explanation": "Después de 'decide', se utiliza el infinitivo con 'to'.",
+          "correctAnswer": 0,
+          "explanation": "Para advertencias, se usa 'warned' seguido de 'not to'.",
           "audio": "audio/b1/unit-6/e18.mp3"
         }
       ]
@@ -494,19 +488,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "His job requires him to travel frequently.",
+    "transcript": "Finding a solution to this problem is not easy.",
     "content": {
-      "title": "Requisitos del Trabajo",
-      "instructions": "Elige la forma adecuada para completar la oración.",
+      "title": "Resolviendo problemas laborales",
+      "instructions": "Elige la opción que completa la oración correctamente.",
       "questions": [
         {
-          "question": "[[His|Su]] [[job|trabajo]] [[requires|requiere]] _______ [[frequently|frecuentemente]].",
+          "question": "_______ [[a|una]] [[solution|solución]] [[to|a]] [[this|este]] [[problem|problema]] [[is|no es]] [[not|fácil]].",
           "options": [
-            "[[him|a él]] [[travelling|viajando]]",
-            "[[him|a él]] [[to|a]] [[travel|viajar]]"
+            "[[Finding|Encontrar]]",
+            "[[To|Para]]"
           ],
-          "correctAnswer": 1,
-          "explanation": "El verbo 'require' seguido de complemento personal usa 'to + verbo infinitivo'.",
+          "correctAnswer": 0,
+          "explanation": "El gerundio 'Finding' se usa como sujeto de la oración.",
           "audio": "audio/b1/unit-6/e19.mp3"
         }
       ]
@@ -520,19 +514,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "He suggested organizing a team-building event.",
+    "transcript": "She mentioned wanting to improve her skills.",
     "content": {
-      "title": "Sugerencias en el Trabajo",
-      "instructions": "Selecciona la forma correcta del verbo en la oración.",
+      "title": "Mejorando habilidades profesionales",
+      "instructions": "Completa la oración seleccionando la opción correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] [[suggested|sugirió]] _______ [[a|un]] [[team-building|de cohesión de equipo]] [[event|evento]].",
+          "question": "[[She|Ella]] _______ [[wanting|querer]] [[to|mejorar]] [[improve|sus]] [[her|habilidades]].",
           "options": [
-            "[[to|a]] [[organize|organizar]]",
-            "[[organizing|organizando]]"
+            "[[mentioned|mencionó]]",
+            "[[discussed|discutió]]"
           ],
-          "correctAnswer": 1,
-          "explanation": "Después de 'suggest', se utiliza el gerundio (forma -ing).",
+          "correctAnswer": 0,
+          "explanation": "Después de 'mentioned' se usa un gerundio para describir la acción.",
           "audio": "audio/b1/unit-6/e20.mp3"
         }
       ]
@@ -546,19 +540,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "She prefers to work from home rather than commute.",
+    "transcript": "He enjoys working on challenging projects.",
     "content": {
-      "title": "Completa la oración con la forma correcta del verbo.",
-      "instructions": "Usa gerundios o infinitivos según sea necesario.",
+      "title": "Uso de gerundios",
+      "instructions": "Completa la oración con la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[prefers|prefiere]] _______ [[from|desde]] [[home|casa]] [[rather|en lugar]] [[than|de]] [[commute|desplazarse]].",
+          "question": "[[He|Él]] [[enjoys|disfruta]] _______ [[on|en]] [[challenging|desafiantes]] [[projects|proyectos]].",
           "options": [
-            "[[working|trabajar]]",
-            "[[to|para]] [[work|trabajar]]"
+            "[[to work|trabajar]]",
+            "[[working|trabajando]]"
           ],
           "correctAnswer": 1,
-          "explanation": "Después de 'prefer', usamos el infinitivo con 'to'.",
+          "explanation": "Después de 'enjoy', se usa el gerundio (verbo + ing) porque expresa una actividad disfrutada.",
           "audio": "audio/b1/unit-6/e21.mp3"
         }
       ]
@@ -572,19 +566,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "Negotiating contracts requires understanding legal terms.",
+    "transcript": "They decided to attend the meeting tomorrow.",
     "content": {
-      "title": "Completa la oración con la forma correcta del verbo.",
-      "instructions": "Usa gerundios o infinitivos según sea necesario.",
+      "title": "Uso de infinitivos",
+      "instructions": "Elige la forma correcta del verbo para completar la oración.",
       "questions": [
         {
-          "question": "[[Negotiating|Negociar]] [[contracts|contratos]] _______ [[understanding|entender]] [[legal|legales]] [[terms|términos]].",
+          "question": "[[They|Ellos]] [[decided|decidieron]] _______ [[to|a]] [[the|la]] [[meeting|reunión]] [[tomorrow|mañana]].",
           "options": [
-            "[[requires|requiere]]",
-            "[[to|para]] [[require|requerir]]"
+            "[[to attend|asistir]]",
+            "[[attending|asistiendo]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Cuando un verbo está en función del sujeto, se usa el gerundio.",
+          "explanation": "Después de 'decide', se utiliza el infinitivo con 'to' para expresar una decisión tomada.",
           "audio": "audio/b1/unit-6/e22.mp3"
         }
       ]
@@ -598,19 +592,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "Although she avoided talking to her boss at the party, she still enjoyed it.",
+    "transcript": "Despite being tired, she finished the report.",
     "content": {
-      "title": "Completa la oración con la forma correcta del verbo.",
-      "instructions": "Usa gerundios o infinitivos según sea necesario.",
+      "title": "Uso de gerundios con 'despite'",
+      "instructions": "Completa la frase con la forma adecuada del verbo.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[she|ella]] [[avoided|evitó]] _______ [[to|a]] [[her|su]] [[boss|jefe]] [[at|en]] [[the|la]] [[party|fiesta]], [[she|ella]] [[still|aún así]] [[enjoyed|disfrutó]] [[it|la]].",
+          "question": "[[Despite|A pesar]] [[of|de]] _______ [[tired|cansada]], [[she|ella]] [[finished|terminó]] [[the|el]] [[report|informe]].",
           "options": [
-            "[[talking|hablar]]",
-            "[[to|para]] [[talk|hablar]]"
+            "[[being|estar]]",
+            "[[to be|ser]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Después de 'avoid', se usa el gerundio.",
+          "explanation": "Después de 'despite', se debe usar el gerundio para indicar una condición en curso o una situación general.",
           "audio": "audio/b1/unit-6/e23.mp3"
         }
       ]
@@ -624,19 +618,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "Despite wanting to leave early, he stayed until the meeting ended.",
+    "transcript": "She promises to deliver excellent results.",
     "content": {
-      "title": "Completa la oración con la forma correcta del verbo.",
-      "instructions": "Usa gerundios o infinitivos según sea necesario.",
+      "title": "Promesas e infinitivos",
+      "instructions": "Selecciona el verbo correcto que completa la oración.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] _______ [[to|querer]] [[leave|irse]] [[early|temprano]], [[he|él]] [[stayed|se quedó]] [[until|hasta que]] [[the|la]] [[meeting|reunión]] [[ended|terminó]].",
+          "question": "[[She|Ella]] [[promises|promete]] _______ [[excellent|excelentes]] [[results|resultados]].",
           "options": [
-            "[[wanting|querer]]",
-            "[[to|para]] [[want|querer]]"
+            "[[to deliver|entregar]]",
+            "[[delivering|entregando]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Después de 'despite', usamos el gerundio.",
+          "explanation": "Usamos el infinitivo con 'to' después de 'promise' para referirnos a algo que alguien se compromete a hacer.",
           "audio": "audio/b1/unit-6/e24.mp3"
         }
       ]
@@ -650,19 +644,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "He intends to apply for the manager position next month.",
+    "transcript": "He is interested in joining the new project.",
     "content": {
-      "title": "Completa la oración con la forma correcta del verbo.",
-      "instructions": "Usa gerundios o infinitivos según sea necesario.",
+      "title": "Intereses y gerundios",
+      "instructions": "Completa el espacio con la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[He|Él]] [[intends|tiene la intención]] _______ [[for|a]] [[the|la]] [[manager|gerente]] [[position|posición]] [[next|próximo]] [[month|mes]].",
+          "question": "[[He|Él]] [[is|está]] [[interested|interesado]] [[in|en]] _______ [[the|el]] [[new|nuevo]] [[project|proyecto]].",
           "options": [
-            "[[applying|aplicar]]",
-            "[[to|para]] [[apply|aplicar]]"
+            "[[joining|unirse]]",
+            "[[to join|unirse]]"
           ],
-          "correctAnswer": 1,
-          "explanation": "Después de 'intend', se usa el infinitivo con 'to'.",
+          "correctAnswer": 0,
+          "explanation": "Se usa el gerundio después de una preposición, como 'in', para expresar interés en una actividad.",
           "audio": "audio/b1/unit-6/e25.mp3"
         }
       ]
@@ -676,22 +670,22 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "She decided to continue working despite the challenges.",
+    "transcript": "Despite being tired, he decided to continue working.",
     "content": {
-      "title": "Construcción de oraciones",
+      "title": "Construcción de oraciones: Gerundios e Infinitivos",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[decided|decidió]] [[to|a]] [[continue|continuar]] [[working|trabajando]] [[despite|a pesar de]] [[the|los]] [[challenges|retos]].",
+      "correctSentence": "[[Despite|A pesar de]] [[being|estar]] [[tired|cansado]], [[he|él]] [[decided|decidió]] [[to|a]] [[continue|continuar]] [[working|trabajando]].",
       "words": [
-        "[[She|Ella]]",
         "[[decided|decidió]]",
-        "[[to|a]]",
-        "[[continue|continuar]]",
+        "[[Despite|A pesar de]]",
+        "[[he|él]]",
         "[[working|trabajando]]",
-        "[[despite|a pesar de]]",
-        "[[the|los]]",
-        "[[challenges|retos]]"
+        "[[tired|cansado]]",
+        "[[being|estar]]",
+        "[[to|a]]",
+        "[[continue|continuar]]"
       ],
-      "explanation": "Se usa el infinitivo 'to continue' después de ciertos verbos como 'decide'.",
+      "explanation": "Uso de 'despite' para contrastar ideas y gerundio con infinitivo después de ciertos verbos como 'decide'.",
       "audio": "audio/b1/unit-6/e26.mp3"
     },
     "id": "b1-u6-e26",
@@ -703,22 +697,25 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "He admitted making a mistake during the presentation.",
+    "transcript": "Even though she dislikes speaking in public, she agreed to make a presentation.",
     "content": {
-      "title": "Construcción de oraciones",
+      "title": "Construcción de oraciones: Gerundios e Infinitivos",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[admitted|admitió]] [[making|haber hecho]] [[a|un]] [[mistake|error]] [[during|durante]] [[the|la]] [[presentation|presentación]].",
+      "correctSentence": "[[Even|Aunque]] [[though|ella]] [[she|no]] [[dislikes|le gusta]] [[speaking|hablar]] [[in|en]] [[public|público]], [[she|ella]] [[agreed|aceptó]] [[to|hacer]] [[make|una]] [[a|presentación]]. [[presentation|en público]].",
       "words": [
-        "[[He|Él]]",
-        "[[admitted|admitió]]",
-        "[[making|haber hecho]]",
-        "[[a|un]]",
-        "[[mistake|error]]",
-        "[[during|durante]]",
-        "[[the|la]]",
-        "[[presentation|presentación]]"
+        "[[to|hacer]]",
+        "[[a|presentación]]",
+        "[[Even|Aunque]]",
+        "[[dislikes|no le gusta]]",
+        "[[speaking|hablar]]",
+        "[[she|ella]]",
+        "[[agreed|aceptó]]",
+        "[[make|una]]",
+        "[[in|en]]",
+        "[[though|ella]]",
+        "[[public|público]]"
       ],
-      "explanation": "Después de 'admit', se usa el gerundio para indicar una acción admitida.",
+      "explanation": "Se usan gerundios para expresar gustos o aversiones y el infinitivo después del verbo 'agree'.",
       "audio": "audio/b1/unit-6/e27.mp3"
     },
     "id": "b1-u6-e27",
@@ -730,23 +727,23 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "To improve her skills, she began attending workshops regularly.",
+    "transcript": "The manager recommended taking a break to improve productivity.",
     "content": {
-      "title": "Construcción de oraciones",
+      "title": "Construcción de oraciones: Gerundios e Infinitivos",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[To|Para]] [[improve|mejorar]] [[her|sus]] [[skills|habilidades]], [[she|ella]] [[began|comenzó]] [[attending|asistir]] [[workshops|a talleres]] [[regularly|regularmente]].",
+      "correctSentence": "[[The|El]] [[manager|gerente]] [[recommended|recomendó]] [[taking|tomar]] [[a|un]] [[break|descanso]] [[to|para]] [[improve|mejorar]] [[productivity|la productividad]].",
       "words": [
-        "[[To|Para]]",
+        "[[a|un]]",
+        "[[to|para]]",
+        "[[The|El]]",
+        "[[break|descanso]]",
+        "[[recommended|recomendó]]",
+        "[[taking|tomar]]",
         "[[improve|mejorar]]",
-        "[[her|sus]]",
-        "[[skills|habilidades]]",
-        "[[she|ella]]",
-        "[[began|comenzó]]",
-        "[[attending|asistir]]",
-        "[[workshops|a talleres]]",
-        "[[regularly|regularmente]]"
+        "[[productivity|la productividad]]",
+        "[[manager|gerente]]"
       ],
-      "explanation": "Se usa la estructura 'to + infinitivo' para expresar propósito.",
+      "explanation": "Los verbos como 'recommend' van seguidos por gerundio y el infinitivo se usa para expresar propósito.",
       "audio": "audio/b1/unit-6/e28.mp3"
     },
     "id": "b1-u6-e28",
@@ -758,23 +755,24 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "They suggested exploring new markets to expand the business.",
+    "transcript": "She is planning to start her own business next year.",
     "content": {
-      "title": "Construcción de oraciones",
+      "title": "Construcción de oraciones: Gerundios e Infinitivos",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[suggested|sugirieron]] [[exploring|explorar]] [[new|nuevos]] [[markets|mercados]] [[to|para]] [[expand|expandir]] [[the|el]] [[business|negocio]].",
+      "correctSentence": "[[She|Ella]] [[is|está]] [[planning|planeando]] [[to|empezar]] [[start|su]] [[her|propio]] [[own|negocio]] [[business|el próximo año]]. [[next|próximo]] [[year|año]].",
       "words": [
-        "[[They|Ellos]]",
-        "[[suggested|sugirieron]]",
-        "[[exploring|explorar]]",
-        "[[new|nuevos]]",
-        "[[markets|mercados]]",
-        "[[to|para]]",
-        "[[expand|expandir]]",
-        "[[the|el]]",
-        "[[business|negocio]]"
+        "[[She|Ella]]",
+        "[[is|está]]",
+        "[[own|negocio]]",
+        "[[planning|planeando]]",
+        "[[to|empezar]]",
+        "[[business|el próximo año]]",
+        "[[her|propio]]",
+        "[[next|próximo]]",
+        "[[start|su]]",
+        "[[year|año]]"
       ],
-      "explanation": "El verbo 'suggest' se sigue por un gerundio para proponer acciones.",
+      "explanation": "El verbo 'plan' seguido de un infinitivo muestra intención o plan futuro.",
       "audio": "audio/b1/unit-6/e29.mp3"
     },
     "id": "b1-u6-e29",
@@ -786,24 +784,26 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "She prefers to communicate via email rather than by phone.",
+    "transcript": "Instead of hiring more staff, the company prefers to invest in technology.",
     "content": {
-      "title": "Construcción de oraciones",
+      "title": "Construcción de oraciones: Gerundios e Infinitivos",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[prefers|prefiere]] [[to|comunicarse]] [[communicate|por]] [[via|vía]] [[email|correo electrónico]] [[rather|en lugar]] [[than|de]] [[by|por]] [[phone|teléfono]].",
+      "correctSentence": "[[Instead|En lugar]] [[of|de]] [[hiring|contratar]] [[more|más]] [[staff|personal]], [[the|la]] [[company|empresa]] [[prefers|prefiere]] [[to|invertir]] [[invest|en]] [[in|tecnología]]. [[technology|tecnología]].",
       "words": [
-        "[[She|Ella]]",
+        "[[Instead|En lugar]]",
+        "[[of|de]]",
+        "[[the|la]]",
+        "[[company|empresa]]",
+        "[[hiring|contratar]]",
+        "[[to|invertir]]",
+        "[[technology|tecnología]]",
+        "[[staff|personal]]",
+        "[[invest|en]]",
+        "[[more|más]]",
         "[[prefers|prefiere]]",
-        "[[to|comunicarse]]",
-        "[[communicate|por]]",
-        "[[via|vía]]",
-        "[[email|correo electrónico]]",
-        "[[rather|en lugar]]",
-        "[[than|de]]",
-        "[[by|por]]",
-        "[[phone|teléfono]]"
+        "[[in|tecnología]]"
       ],
-      "explanation": "Después de 'prefer', se puede usar el infinitivo para expresar preferencias específicas.",
+      "explanation": "Frase con 'instead of' se sigue de un gerundio y, después de 'prefer', uso de infinitivo para mostrar preferencias.",
       "audio": "audio/b1/unit-6/e30.mp3"
     },
     "id": "b1-u6-e30",
@@ -815,19 +815,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "He decided to apply for the position, despite feeling unsure.",
+    "transcript": "We discussed changing the company policy.",
     "content": {
-      "title": "Uso de infinitivos y gerundios",
-      "instructions": "Completa la oración con la opción correcta.",
+      "title": "Elección correcta",
+      "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[He|Él]] [[decided|decidió]] _______ [[for|para]] [[the|el]] [[position|puesto]], [[despite|a pesar de]] [[feeling|sentirse]] [[unsure|inseguro]].",
+          "question": "[[We|Nosotros]] [[discussed|discutimos]] _______ [[the|la]] [[company|empresa]] [[policy|política]].",
           "options": [
-            "[[applying|solicitar]]",
-            "[[to|solicitar]] [[apply|solicitar]]"
+            "[[changing|cambiar]]",
+            "[[to change|cambiar]]"
           ],
-          "correctAnswer": 1,
-          "explanation": "Después de 'decide', utilizamos el infinitivo para expresar una acción decidida.",
+          "correctAnswer": 0,
+          "explanation": "Después de ciertos verbos como 'discuss', se usa un gerundio (verbo con -ing).",
           "audio": "audio/b1/unit-6/e31.mp3"
         }
       ]
@@ -841,19 +841,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "Although she enjoys reading reports, she prefers to meet clients.",
+    "transcript": "She hopes to receive a promotion soon.",
     "content": {
-      "title": "Preferencias en el entorno laboral",
-      "instructions": "Elige la opción correcta para completar la frase.",
+      "title": "Elección correcta",
+      "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[she|ella]] [[enjoys|disfruta]] _______ [[reports|informes]], [[she|ella]] [[prefers|prefiere]] _______ [[clients|clientes]].",
+          "question": "[[She|Ella]] _______ [[to|de]] [[receive|recibir]] [[a|una]] [[promotion|promoción]] [[soon|pronto]].",
           "options": [
-            "[[to|leer]] [[reading|informes]]",
-            "[[reading|informes]], [[to|conocer]] [[meet|clientes]]"
+            "[[hopes|espera]]",
+            "[[enjoys|disfruta]]"
           ],
-          "correctAnswer": 1,
-          "explanation": "Después de 'enjoy', usamos el gerundio; después de 'prefer', el infinitivo.",
+          "correctAnswer": 0,
+          "explanation": "Después de 'hope', se utiliza el infinitivo con 'to'.",
           "audio": "audio/b1/unit-6/e32.mp3"
         }
       ]
@@ -867,19 +867,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "Despite working late, she managed to finish the project.",
+    "transcript": "His job involves managing the team.",
     "content": {
-      "title": "Expresiones con gerundios",
-      "instructions": "Selecciona la opción adecuada para completar la frase.",
+      "title": "Elección correcta",
+      "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] _______ [[late|hasta tarde]], [[she|ella]] [[managed|logró]] [[to|terminar]] [[the|el]] [[project|proyecto]].",
+          "question": "[[His|Su]] [[job|trabajo]] _______ [[the|el]] [[team|equipo]].",
           "options": [
-            "[[to|trabajar]]",
-            "[[working|trabajando]]"
+            "[[to manage|manejar]]",
+            "[[managing|manejar]]"
           ],
           "correctAnswer": 1,
-          "explanation": "Después de 'despite', utilizamos el gerundio para mostrar una acción.",
+          "explanation": "Después de 'involve', se usa el gerundio (verbo con -ing).",
           "audio": "audio/b1/unit-6/e33.mp3"
         }
       ]
@@ -893,19 +893,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "He stopped to check his email before the meeting.",
+    "transcript": "Despite struggling, he managed to complete the project.",
     "content": {
-      "title": "Uso correcto de infinitivos",
+      "title": "Elección correcta",
       "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[He|Él]] [[stopped|se detuvo]] _______ [[his|su]] [[email|correo electrónico]] [[before|antes de]] [[the|la]] [[meeting|reunión]].",
+          "question": "[[Despite|A pesar de]] _______ [[he|él]] [[managed|logró]] [[to|a]] [[complete|terminar]] [[the|el]] [[project|proyecto]].",
           "options": [
-            "[[to|para]] [[check|revisar]]",
-            "[[checking|revisando]]"
+            "[[to struggle|luchar]]",
+            "[[struggling|luchando]]"
           ],
-          "correctAnswer": 0,
-          "explanation": "El infinitivo se usa después de 'stop' cuando indica el propósito de la acción.",
+          "correctAnswer": 1,
+          "explanation": "'Despite' se sigue de un gerundio (verbo con -ing).",
           "audio": "audio/b1/unit-6/e34.mp3"
         }
       ]
@@ -919,19 +919,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "They discussed implementing a new strategy to improve productivity.",
+    "transcript": "The manager agreed to schedule a meeting.",
     "content": {
-      "title": "Conversaciones en el entorno laboral",
-      "instructions": "Completa la oración con la forma correcta del verbo.",
+      "title": "Elección correcta",
+      "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[discussed|discutieron]] _______ [[a|una]] [[new|nueva]] [[strategy|estrategia]] [[to|para]] [[improve|mejorar]] [[productivity|productividad]].",
+          "question": "[[The|El]] [[manager|gerente]] _______ [[a|una]] [[meeting|reunión]].",
           "options": [
-            "[[to|implementar]]",
-            "[[implementing|implementación]]"
+            "[[scheduling|programar]]",
+            "[[to schedule|programar]]"
           ],
           "correctAnswer": 1,
-          "explanation": "Después de 'discuss', utilizamos un gerundio para indicar el tema de conversación.",
+          "explanation": "Después de 'agree', se utiliza el infinitivo con 'to'.",
           "audio": "audio/b1/unit-6/e35.mp3"
         }
       ]
@@ -945,19 +945,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "Despite liking his job, he decided to leave the company.",
+    "transcript": "She is interested in learning a new language to advance in her career.",
     "content": {
-      "title": "Uso de gerundios e infinitivos",
-      "instructions": "Completa la frase con la forma correcta del verbo.",
+      "title": "Completa la oración",
+      "instructions": "Completa la oración utilizando la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[Despite|A|pesar|de]] _______ [[his|su]] [[job|trabajo]], [[he|él]] [[decided|decidió]] [[to|a]] [[leave|dejar]] [[the|la]] [[company|empresa]].",
+          "question": "[[She|Ella]] [[is|está]] [[interested|interesada]] [[in|en]] _______ [[a|un]] [[new|nuevo]] [[language|idioma]] [[to|para]] [[advance|avanzar]] [[in|en]] [[her|su]] [[career|carrera]].",
           "options": [
-            "[[liking|gustar]]",
-            "[[like|gustar]]"
+            "[[learning|aprender]]",
+            "[[to|para]] [[learn|aprender]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se usa el gerundio después de 'despite' para indicar una acción en progreso o un estado.",
+          "explanation": "Se usa 'interested in' seguido de gerundio para hablar de intereses.",
           "audio": "audio/b1/unit-6/e36.mp3"
         }
       ]
@@ -971,19 +971,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "She is interested in improving her skills to advance in her career.",
+    "transcript": "He decided to accept the job offer despite the long hours.",
     "content": {
-      "title": "Desarrollo profesional",
-      "instructions": "Elige la opción correcta para completar la frase.",
+      "title": "Completa la oración",
+      "instructions": "Completa la oración utilizando la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[is|está]] [[interested|interesada]] [[in|en]] _______ [[her|sus]] [[skills|habilidades]] [[to|para]] [[advance|avanzar]] [[in|en]] [[her|su]] [[career|carrera]].",
+          "question": "[[He|Él]] [[decided|decidió]] [[_______|__________]] [[the|la]] [[job|oferta]] [[offer|de]] [[despite|a pesar de]] [[the|las]] [[long|largas]] [[hours|horas]].",
           "options": [
-            "[[improving|mejorar]]",
-            "[[improve|mejorar]]"
+            "[[accepting|aceptar]]",
+            "[[to|para]] [[accept|aceptar]]"
           ],
-          "correctAnswer": 0,
-          "explanation": "Se emplea el gerundio después de 'interested in' cuando se refiere a acciones continuas o deseos de mejorar.",
+          "correctAnswer": 1,
+          "explanation": "Después de 'decide', se usa infinitivo para el verbo siguiente.",
           "audio": "audio/b1/unit-6/e37.mp3"
         }
       ]
@@ -997,19 +997,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "They managed to finish the project on time although it was challenging.",
+    "transcript": "They are considering moving to a new city for better job opportunities.",
     "content": {
-      "title": "Cumplimiento de plazos",
-      "instructions": "Completa la oración con la opción correcta.",
+      "title": "Completa la oración",
+      "instructions": "Completa la oración utilizando la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[managed|lograron]] _______ [[the|el]] [[project|proyecto]] [[on|a]] [[time|tiempo]] [[although|aunque]] [[it|fue]] [[was|desafiante]].",
+          "question": "[[They|Ellos]] [[are|están]] [[considering|considerando]] _______ [[to|a]] [[a|una]] [[new|nueva]] [[city|ciudad]] [[for|para]] [[better|mejores]] [[job|oportunidades]] [[opportunities|laborales]].",
           "options": [
-            "[[to|a]]",
-            "[[finishing|terminar]]"
+            "[[move|mover]]",
+            "[[moving|mudarse]]"
           ],
-          "correctAnswer": 0,
-          "explanation": "Después de 'managed', se utiliza el infinitivo para indicar el éxito en completar una tarea.",
+          "correctAnswer": 1,
+          "explanation": "Después de 'consider', se usa gerundio para el verbo siguiente.",
           "audio": "audio/b1/unit-6/e38.mp3"
         }
       ]
@@ -1023,19 +1023,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "He avoids discussing controversial topics during meetings.",
+    "transcript": "The manager keeps reminding employees to submit their reports on time.",
     "content": {
-      "title": "Dinámica de reuniones",
-      "instructions": "Elija la forma correcta del verbo para completar la oración.",
+      "title": "Completa la oración",
+      "instructions": "Completa la oración utilizando la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[He|Él]] [[avoids|evita]] _______ [[controversial|controversiales]] [[topics|temas]] [[during|durante]] [[meetings|reuniones]].",
+          "question": "[[The|El]] [[manager|gerente]] [[keeps|sigue]] [[reminding|recordando]] [[employees|a los empleados]] _______ [[to|que]] [[submit|envíen]] [[their|sus]] [[reports|informes]] [[on|a]] [[time|tiempo]].",
           "options": [
-            "[[to|discutir]]",
-            "[[discussing|discutir]]"
+            "[[submitting|enviar]]",
+            "[[to|para]] [[submit|enviar]]"
           ],
           "correctAnswer": 1,
-          "explanation": "Después de 'avoids', se emplea el gerundio para indicar acciones que no se quieren realizar.",
+          "explanation": "Después de 'remind', se usa infinitivo para el verbo siguiente cuando se da una instrucción.",
           "audio": "audio/b1/unit-6/e39.mp3"
         }
       ]
@@ -1049,19 +1049,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "To succeed, you need to believe in your abilities.",
+    "transcript": "She began working with the team although she was feeling unwell that day.",
     "content": {
-      "title": "Confianza personal",
-      "instructions": "Selecciona la opción correcta para rellenar el espacio.",
+      "title": "Completa la oración",
+      "instructions": "Completa la oración utilizando la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[To|Para]] [[succeed|tener|éxito]], [[you|tú]] [[need|necesitas]] _______ [[in|en]] [[your|tus]] [[abilities|habilidades]].",
+          "question": "[[She|Ella]] [[began|comenzó]] _______ [[with|con]] [[the|el]] [[team|equipo]] [[although|aunque]] [[she|ella]] [[was|estaba]] [[feeling|sintiéndose]] [[unwell|mal]] [[that|ese]] [[day|día]].",
           "options": [
-            "[[believing|creer]]",
-            "[[to|creer]]"
+            "[[working|trabajar]]",
+            "[[to|a]] [[work|trabajar]]"
           ],
-          "correctAnswer": 1,
-          "explanation": "Después de 'need', se usa el infinitivo para indicar una acción necesaria o un objetivo futuro.",
+          "correctAnswer": 0,
+          "explanation": "Después de 'begin', tanto gerundio como infinitivo son correctos; sin embargo, el gerundio es más común en contextos informales.",
           "audio": "audio/b1/unit-6/e40.mp3"
         }
       ]
@@ -1075,24 +1075,24 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "He enjoys learning new skills to improve his career prospects.",
+    "transcript": "Finding a balance between work and personal life is crucial.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[enjoys|disfruta]] [[learning|aprender]] [[new|nuevas]] [[skills|habilidades]] [[to|para]] [[improve|mejorar]] [[his|sus]] [[career|carrera]] [[prospects|perspectivas]].",
+      "correctSentence": "[[Finding|Encontrar]] [[a|un]] [[balance|equilibrio]] [[between|entre]] [[work|trabajo]] [[and|y]] [[personal|personal]] [[life|vida]] [[is|es]] [[crucial|crucial]].",
       "words": [
-        "[[enjoys|disfruta]]",
-        "[[skills|habilidades]]",
-        "[[learning|aprender]]",
-        "[[to|para]]",
-        "[[prospects|perspectivas]]",
-        "[[career|carrera]]",
-        "[[new|nuevas]]",
-        "[[his|sus]]",
-        "[[improve|mejorar]]",
-        "[[He|Él]]"
+        "[[between|entre]]",
+        "[[is|es]]",
+        "[[balance|equilibrio]]",
+        "[[life|vida]]",
+        "[[crucial|crucial]]",
+        "[[work|trabajo]]",
+        "[[Finding|Encontrar]]",
+        "[[a|un]]",
+        "[[personal|personal]]",
+        "[[and|y]]"
       ],
-      "explanation": "Uso de gerundio después de verbos que indican gusto o disfrute: enjoy + verbo-ing.",
+      "explanation": "Uso del gerundio 'Finding' como sujeto de la oración.",
       "audio": "audio/b1/unit-6/e41.mp3"
     },
     "id": "b1-u6-e41",
@@ -1104,25 +1104,22 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "Despite having little experience, she decided to apply for the position.",
+    "transcript": "It is important to complete projects on time.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Despite|A pesar de]] [[having|tener]] [[little|poca]] [[experience|experiencia]], [[she|ella]] [[decided|decidió]] [[to|a]] [[apply|solicitar]] [[for|para]] [[the|el]] [[position|puesto]].",
+      "correctSentence": "[[It|Es]] [[is|es]] [[important|importante]] [[to|completar]] [[complete|completar]] [[projects|proyectos]] [[on|a]] [[time|tiempo]].",
       "words": [
-        "[[position|puesto]]",
-        "[[for|para]]",
-        "[[she|ella]]",
-        "[[despite|a pesar de]]",
-        "[[experience|experiencia]]",
-        "[[apply|solicitar]]",
-        "[[decided|decidió]]",
-        "[[little|poca]]",
-        "[[the|el]]",
-        "[[having|tener]]",
-        "[[to|a]]"
+        "[[important|importante]]",
+        "[[to|completar]]",
+        "[[time|tiempo]]",
+        "[[It|Es]]",
+        "[[is|es]]",
+        "[[complete|completar]]",
+        "[[on|a]]",
+        "[[projects|proyectos]]"
       ],
-      "explanation": "Uso del gerundio en la estructura 'despite + gerundio'.",
+      "explanation": "Uso del infinitivo 'to complete' después de un adjetivo.",
       "audio": "audio/b1/unit-6/e42.mp3"
     },
     "id": "b1-u6-e42",
@@ -1134,22 +1131,22 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "They aim to increase productivity by implementing new strategies.",
+    "transcript": "She decided to quit her job last month.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[aim|pretenden]] [[to|a]] [[increase|aumentar]] [[productivity|la productividad]] [[by|implementando]] [[implementing|nuevas]] [[new|estrategias]].",
+      "correctSentence": "[[She|Ella]] [[decided|decidió]] [[to|renunciar]] [[quit|renunciar]] [[her|a su]] [[job|trabajo]] [[last|el mes]] [[month|pasado]].",
       "words": [
-        "[[They|Ellos]]",
-        "[[productivity|la productividad]]",
-        "[[implementing|nuevas]]",
-        "[[increase|aumentar]]",
-        "[[new|estrategias]]",
-        "[[by|implementando]]",
-        "[[to|a]]",
-        "[[aim|pretenden]]"
+        "[[She|Ella]]",
+        "[[decided|decidió]]",
+        "[[to|renunciar]]",
+        "[[quit|renunciar]]",
+        "[[job|trabajo]]",
+        "[[her|a su]]",
+        "[[month|pasado]]",
+        "[[last|el mes]]"
       ],
-      "explanation": "Uso del infinitivo para expresar propósito: aim + to + infinitivo.",
+      "explanation": "Uso del infinitivo 'to quit' después de un verbo de decisión.",
       "audio": "audio/b1/unit-6/e43.mp3"
     },
     "id": "b1-u6-e43",
@@ -1161,22 +1158,22 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "She is committed to improving her leadership skills.",
+    "transcript": "Delegating tasks to team members can improve productivity.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[is|está]] [[committed|comprometida]] [[to|a]] [[improving|mejorar]] [[her|sus]] [[leadership|habilidades de liderazgo]] [[skills|habilidades]].",
+      "correctSentence": "[[Delegating|Delegar]] [[tasks|tareas]] [[to|a]] [[team|miembros]] [[members|del equipo]] [[can|puede]] [[improve|mejorar]] [[productivity|la productividad]].",
       "words": [
-        "[[leadership|habilidades de liderazgo]]",
-        "[[skills|habilidades]]",
+        "[[Delegating|Delegar]]",
         "[[to|a]]",
-        "[[improving|mejorar]]",
-        "[[is|está]]",
-        "[[committed|comprometida]]",
-        "[[her|sus]]",
-        "[[She|Ella]]"
+        "[[tasks|tareas]]",
+        "[[team|miembros]]",
+        "[[productivity|la productividad]]",
+        "[[members|del equipo]]",
+        "[[improve|mejorar]]",
+        "[[can|puede]]"
       ],
-      "explanation": "Uso de la estructura 'committed to + gerundio' para expresar compromiso o dedicación.",
+      "explanation": "Uso del gerundio 'Delegating' como sujeto.",
       "audio": "audio/b1/unit-6/e44.mp3"
     },
     "id": "b1-u6-e44",
@@ -1188,22 +1185,21 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "We postponed meeting to discuss the project further.",
+    "transcript": "He enjoys meeting new colleagues during conferences.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[postponed|aplazamos]] [[meeting|reunirnos]] [[to|para]] [[discuss|discutir]] [[the|el]] [[project|proyecto]] [[further|más a fondo]].",
+      "correctSentence": "[[He|Él]] [[enjoys|disfruta]] [[meeting|conocer]] [[new|a nuevos]] [[colleagues|colegas]] [[during|durante]] [[conferences|conferencias]].",
       "words": [
-        "[[We|Nosotros]]",
-        "[[project|proyecto]]",
-        "[[meeting|reunirnos]]",
-        "[[the|el]]",
-        "[[further|más a fondo]]",
-        "[[postponed|aplazamos]]",
-        "[[to|para]]",
-        "[[discuss|discutir]]"
+        "[[enjoys|disfruta]]",
+        "[[He|Él]]",
+        "[[new|a nuevos]]",
+        "[[meeting|conocer]]",
+        "[[conferences|conferencias]]",
+        "[[during|durante]]",
+        "[[colleagues|colegas]]"
       ],
-      "explanation": "Uso de gerundio tras verbos que indican postergar: postpone + verbo-ing.",
+      "explanation": "Uso del gerundio 'meeting' después del verbo 'enjoys'.",
       "audio": "audio/b1/unit-6/e45.mp3"
     },
     "id": "b1-u6-e45",
@@ -1215,20 +1211,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "I enjoy working from home because it allows me to focus.",
+    "transcript": "Although she enjoys meeting new people, she prefers to work alone.",
     "content": {
-      "title": "El mundo laboral",
-      "instructions": "Elige la opción correcta para completar la frase basada en los patrones de verbos.",
+      "title": "Formas Verbales: Gerundios e Infinitivos",
+      "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[enjoy|disfruto]] _______ [[from|desde]] [[home|casa]] [[because|porque]] [[it|esto]] [[allows|me permite]] [[me|me]] [[to|a]] [[focus|concentrarme]].",
+          "question": "[[Although|Aunque]] [[she|ella]] enjoys _______ [[new|nuevas]] [[people|personas]], [[she|ella]] [[prefers|prefiere]] [[to|trabajar]] [[work|sola]] [[alone|sola]].",
           "options": [
-            "[[working|trabajar]]",
-            "[[to|a]]",
-            "[[work|trabajar]]"
+            "[[meeting|conocer]]",
+            "[[to|conocer]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Después del verbo 'enjoy', se usa la forma gerundio (-ing): enjoy + working.",
+          "explanation": "Después del verbo 'enjoy', se usa el gerundio (-ing) para describir la acción.",
           "audio": "audio/b1/unit-6/e46.mp3"
         }
       ]
@@ -1242,20 +1237,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "Despite being young, she manages to lead the team effectively.",
+    "transcript": "They decided to apply for the position despite the competition.",
     "content": {
-      "title": "El mundo laboral",
-      "instructions": "Elige la opción correcta para completar la frase usando gerundios e infinitivos.",
+      "title": "Uso del Gerundio e Infinitivo",
+      "instructions": "Selecciona la opción correcta para llenar el espacio.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] _______ [[young|joven]], [[she|ella]] [[manages|logra]] [[to|liderar]] [[lead|liderar]] [[the|al]] [[team|equipo]] [[effectively|eficazmente]].",
+          "question": "[[They|Ellos]] [[decided|decidieron]] _______ [[for|para]] [[the|el]] [[position|puesto]] [[despite|a pesar de]] [[the|la]] [[competition|competencia]].",
           "options": [
-            "[[being|ser]]",
-            "[[to|a]]",
-            "[[be|ser]]"
+            "[[to apply|postularse]]",
+            "[[applying|postulándose]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Después de 'despite', se usa el gerundio de los verbos: despite + being.",
+          "explanation": "Después del verbo 'decide', se utiliza el infinitivo con 'to'.",
           "audio": "audio/b1/unit-6/e47.mp3"
         }
       ]
@@ -1269,20 +1263,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "She promised to finish the report by Friday.",
+    "transcript": "John avoids making decisions without consulting his team.",
     "content": {
-      "title": "El mundo laboral",
-      "instructions": "Elige la opción correcta basada en los patrones de verbos con infinitivos.",
+      "title": "El Gerundio y El Infinitivo",
+      "instructions": "Completa la oración eligiendo la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[promised|prometió]] _______ [[finish|terminar]] [[the|el]] [[report|informe]] [[by|para]] [[Friday|el viernes]].",
+          "question": "[[John|John]] [[avoids|evita]] _______ [[decisions|decisiones]] [[without|sin]] [[consulting|consultar]] [[his|su]] [[team|equipo]].",
           "options": [
-            "[[finish|terminar]]",
-            "[[finishing|terminando]]",
-            "[[to|a]] [[finish|terminar]]"
+            "[[making|tomar]]",
+            "[[to make|hacer]]"
           ],
-          "correctAnswer": 2,
-          "explanation": "Con el verbo 'promise', se usa el infinitivo con 'to': promise + to finish.",
+          "correctAnswer": 0,
+          "explanation": "El verbo 'avoid' va seguido de un gerundio (-ing) para la acción que sigue.",
           "audio": "audio/b1/unit-6/e48.mp3"
         }
       ]
@@ -1296,53 +1289,25 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "The Working World",
     "difficulty": "medium",
-    "transcript": "His decision to change jobs surprised everyone.",
+    "transcript": "Her main goal is to manage the project effectively.",
     "content": {
-      "title": "El mundo laboral",
-      "instructions": "Selecciona la opción correcta según el uso de gerundios e infinitivos.",
+      "title": "Gerundios e Infinitivos",
+      "instructions": "Escoge la forma correcta del verbo para completar la oración.",
       "questions": [
         {
-          "question": "[[His|Su]] [[decision|decisión]] _______ [[change|cambiar]] [[jobs|de trabajo]] [[surprised|sorprendió]] [[everyone|a todos]].",
+          "question": "[[Her|Su]] [[main|principal]] [[goal|objetivo]] [[is|es]] _______ [[the|el]] [[project|proyecto]] [[effectively|eficazmente]].",
           "options": [
-            "[[changing|cambiar]]",
-            "[[to|a]] [[change|cambiar]]",
-            "[[changes|cambios]]"
+            "[[to manage|gestionar]]",
+            "[[managing|gestionando]]"
           ],
-          "correctAnswer": 1,
-          "explanation": "Después de 'decision', usamos el infinitivo con 'to': decision + to change.",
+          "correctAnswer": 0,
+          "explanation": "Después de 'be', la estructura 'to be + to + infinitivo' se utiliza para indicar propósito o intención.",
           "audio": "audio/b1/unit-6/e49.mp3"
         }
       ]
     },
     "id": "b1-u6-e49",
     "audioUrl": "audio/b1/unit-6/e49.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "type": "multiple-choice",
-    "level": "B1",
-    "topic": "The Working World",
-    "difficulty": "medium",
-    "transcript": "Working late at the office is sometimes necessary to meet deadlines.",
-    "content": {
-      "title": "El mundo laboral",
-      "instructions": "Elige la opción correcta para completar la oración con la forma adecuada del verbo.",
-      "questions": [
-        {
-          "question": "_______ [[late|tarde]] [[at|en]] [[the|la]] [[office|oficina]] [[is|es]] [[sometimes|a veces]] [[necessary|necesario]] [[to|para]] [[meet|cumplir]] [[deadlines|plazos]].",
-          "options": [
-            "[[Work|trabajar]]",
-            "[[Working|trabajando]]",
-            "[[To|a]] [[work|trabajar]]"
-          ],
-          "correctAnswer": 1,
-          "explanation": "Cuando un verbo es el sujeto de una oración, se usa el gerundio: Working late.",
-          "audio": "audio/b1/unit-6/e50.mp3"
-        }
-      ]
-    },
-    "id": "b1-u6-e50",
-    "audioUrl": "audio/b1/unit-6/e50.mp3",
     "topicName": "Grammar"
   }
 ];
