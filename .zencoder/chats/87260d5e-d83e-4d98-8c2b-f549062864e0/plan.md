@@ -54,3 +54,4 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/87
 6. [x] **Verify Changes**: Check the preview route and run type checks.
 7. [x] **Push Changes**: Commit and push the final changes.
 8. [x] **Review Translations**: Ensure all word chips in sentence-building exercises are translated.
+9. [x] **Translate Unit 30 Phrases**: Apply `[[English|Spanish]]` formatting and translate titles/instructions in `src/lib/course/b1/unit-30.ts`.

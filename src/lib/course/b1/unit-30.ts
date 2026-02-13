@@ -7,20 +7,20 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "History & Ancient Civilizations",
     "difficulty": "medium",
-    "transcript": "The Roman Empire was one of the largest and most influential empires in history, stretching across three continents.",
+    "transcript": "[[The|El]] [[Roman|Imperio]] [[Empire|Romano]] [[was|fue]] [[one|uno]] [[of|de]] [[the|los]] [[largest|más grandes]] [[and|y]] [[most|más]] [[influential|influyentes]] [[empires|imperios]] [[in|en]] [[history|la historia]], [[stretching|extendiéndose]] [[across|por]] [[three|tres]] [[continents|continentes]].",
     "content": {
-      "title": "The Roman Empire",
-      "instructions": "Choose the correct word to complete the sentence about the Roman Empire.",
+      "title": "El Imperio Romano",
+      "instructions": "Elige la palabra correcta para completar la oración sobre el Imperio Romano.",
       "questions": [
         {
-          "question": "The Roman Empire was one of the largest and most ______ empires in history.",
+          "question": "[[The|El]] [[Roman|Imperio]] [[Empire|Romano]] [[was|fue]] [[one|uno]] [[of|de]] [[the|los]] [[largest|más grandes]] [[and|y]] [[most|más]] ______ [[empires|imperios]] [[in|en]] [[history|la historia]].",
           "options": [
             "[[influential|influyente]]",
             "[[weak|débil]]",
             "[[small|pequeño]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Influential' means having a great influence on someone or something.",
+          "explanation": "'Influential' significa tener una gran influencia sobre alguien o algo.",
           "audio": "audio/b1/unit-30/e1.mp3"
         }
       ]
@@ -34,20 +34,20 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "History & Ancient Civilizations",
     "difficulty": "medium",
-    "transcript": "Ancient Egypt is famous for its majestic pyramids and the mysterious Great Sphinx of Giza.",
+    "transcript": "[[Ancient|El antiguo]] [[Egypt|Egipto]] [[is|es]] [[famous|famoso]] [[for|por]] [[its|sus]] [[majestic|majestuosas]] [[pyramids|pirámides]] [[and|y]] [[the|la]] [[mysterious|misteriosa]] [[Great|Gran]] [[Sphinx|Esfinge]] [[of|de]] [[Giza|Giza]].",
     "content": {
-      "title": "Ancient Egypt",
-      "instructions": "Select the adjective that describes something grand and impressive.",
+      "title": "Antiguo Egipto",
+      "instructions": "Selecciona el adjetivo que describe algo grandioso e impresionante.",
       "questions": [
         {
-          "question": "Ancient Egypt is famous for its ______ pyramids.",
+          "question": "[[Ancient|El antiguo]] [[Egypt|Egipto]] [[is|es]] [[famous|famoso]] [[for|por]] [[its|sus]] ______ [[pyramids|pirámides]].",
           "options": [
             "[[majestic|majestuosas]]",
             "[[boring|aburridas]]",
             "[[cheap|baratas]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Majestic' describes something having or showing impressive beauty or dignity.",
+          "explanation": "'Majestic' describe algo que tiene o muestra una belleza o dignidad impresionante.",
           "audio": "audio/b1/unit-30/e2.mp3"
         }
       ]
@@ -61,20 +61,20 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "History & Ancient Civilizations",
     "difficulty": "medium",
-    "transcript": "Archaeologists discover ancient artifacts that help us understand how people lived thousands of years ago.",
+    "transcript": "[[Archaeologists|Los arqueólogos]] [[discover|descubren]] [[ancient|antiguos]] [[artifacts|artefactos]] [[that|que]] [[help|ayudan]] [[us|nos]] [[understand|a entender]] [[how|cómo]] [[people|la gente]] [[lived|vivía]] [[thousands|miles]] [[of|de]] [[years|años]] [[ago|atrás]].",
     "content": {
-      "title": "Archaeology",
-      "instructions": "Choose the word for objects made by humans in the past.",
+      "title": "Arqueología",
+      "instructions": "Elige la palabra para objetos hechos por humanos en el pasado.",
       "questions": [
         {
-          "question": "Archaeologists discover ancient ______ that help us understand the past.",
+          "question": "[[Archaeologists|Los arqueólogos]] [[discover|descubren]] [[ancient|antiguos]] ______ [[that|que]] [[help|ayudan]] [[us|nos]] [[understand|a entender]] [[the|el]] [[past|pasado]].",
           "options": [
             "[[artifacts|artefactos]]",
             "[[animals|animales]]",
             "[[computers|ordenadores]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Artifacts' are objects made by a human being, typically one of cultural or historical interest.",
+          "explanation": "Los 'Artifacts' son objetos hechos por un ser humano, típicamente de interés cultural o histórico.",
           "audio": "audio/b1/unit-30/e3.mp3"
         }
       ]
@@ -88,20 +88,20 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "History & Ancient Civilizations",
     "difficulty": "medium",
-    "transcript": "The Great Wall of China was built to protect the empire from invasions by nomadic tribes.",
+    "transcript": "[[The|La]] [[Great|Gran]] [[Wall|Muralla]] [[of|de]] [[China|China]] [[was|fue]] [[built|construida]] [[to|para]] [[protect|proteger]] [[the|el]] [[empire|imperio]] [[from|de]] [[invasions|invasiones]] [[by|por]] [[nomadic|tribus]] [[tribes|nómadas]].",
     "content": {
-      "title": "The Great Wall",
-      "instructions": "Choose the verb that means to keep safe from harm or injury.",
+      "title": "La Gran Muralla",
+      "instructions": "Elige el verbo que significa mantener a salvo de daños o lesiones.",
       "questions": [
         {
-          "question": "The Great Wall of China was built to ______ the empire.",
+          "question": "[[The|La]] [[Great|Gran]] [[Wall|Muralla]] [[of|de]] [[China|China]] [[was|fue]] [[built|construida]] [[to|para]] ______ [[the|el]] [[empire|imperio]].",
           "options": [
             "[[protect|proteger]]",
             "[[attack|atacar]]",
             "[[destroy|destruir]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Protect' means to keep safe from harm or injury.",
+          "explanation": "'Protect' significa mantener a salvo de daños o lesiones.",
           "audio": "audio/b1/unit-30/e4.mp3"
         }
       ]
@@ -115,20 +115,20 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "History & Ancient Civilizations",
     "difficulty": "medium",
-    "transcript": "In ancient Greece, democracy was first developed in the city-state of Athens.",
+    "transcript": "[[In|En]] [[ancient|la antigua]] [[Greece|Grecia]], [[democracy|la democracia]] [[was|fue]] [[first|desarrollada]] [[developed|primero]] [[in|en]] [[the|la]] [[city-state|ciudad-estado]] [[of|de]] [[Athens|Atenas]].",
     "content": {
-      "title": "Ancient Greece",
-      "instructions": "Choose the political system where people choose their leaders.",
+      "title": "Antigua Grecia",
+      "instructions": "Elige el sistema político donde la gente elige a sus líderes.",
       "questions": [
         {
-          "question": "In ancient Greece, ______ was first developed in Athens.",
+          "question": "[[In|En]] [[ancient|la antigua]] [[Greece|Grecia]], ______ [[was|fue]] [[first|desarrollada]] [[developed|primero]] [[in|en]] [[Athens|Atenas]].",
           "options": [
             "[[democracy|democracia]]",
             "[[monarchy|monarquía]]",
             "[[dictatorship|dictadura]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Democracy' is a system of government by the whole population or all the eligible members of a state.",
+          "explanation": "La 'Democracy' es un sistema de gobierno por toda la población o todos los miembros elegibles de un estado.",
           "audio": "audio/b1/unit-30/e5.mp3"
         }
       ]
@@ -142,20 +142,20 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "History & Ancient Civilizations",
     "difficulty": "medium",
-    "transcript": "The Renaissance was a period of great cultural and artistic growth in Europe.",
+    "transcript": "[[The|El]] [[Renaissance|Renacimiento]] [[was|fue]] [[a|un]] [[period|periodo]] [[of|de]] [[great|gran]] [[cultural|crecimiento]] [[and|cultural]] [[artistic|y]] [[growth|artístico]] [[in|en]] [[Europe|Europa]].",
     "content": {
-      "title": "The Renaissance",
-      "instructions": "Select the word that describes a time of progress and development.",
+      "title": "El Renacimiento",
+      "instructions": "Selecciona la palabra que describe un tiempo de progreso y desarrollo.",
       "questions": [
         {
-          "question": "The Renaissance was a period of great cultural and artistic ______.",
+          "question": "[[The|El]] [[Renaissance|Renacimiento]] [[was|fue]] [[a|un]] [[period|periodo]] [[of|de]] [[great|gran]] [[cultural|crecimiento]] [[and|cultural]] [[artistic|y]] ______.",
           "options": [
             "[[growth|crecimiento]]",
             "[[decline|declive]]",
             "[[silence|silencio]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Growth' refers to the process of increasing in physical size or importance.",
+          "explanation": "'Growth' se refiere al proceso de aumento en tamaño físico o importancia.",
           "audio": "audio/b1/unit-30/e6.mp3"
         }
       ]
@@ -169,20 +169,20 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "History & Ancient Civilizations",
     "difficulty": "medium",
-    "transcript": "Hieroglyphics were the formal writing system used by ancient Egyptians.",
+    "transcript": "[[Hieroglyphics|Los jeroglíficos]] [[were|eran]] [[the|el]] [[formal|sistema]] [[writing|de escritura]] [[system|formal]] [[used|utilizado]] [[by|por]] [[ancient|los antiguos]] [[Egyptians|egipcios]].",
     "content": {
-      "title": "Hieroglyphics",
-      "instructions": "Choose the word for a set of symbols used for writing.",
+      "title": "Jeroglíficos",
+      "instructions": "Elige la palabra para un conjunto de símbolos utilizados para escribir.",
       "questions": [
         {
-          "question": "Hieroglyphics were the formal ______ system used by ancient Egyptians.",
+          "question": "[[Hieroglyphics|Los jeroglíficos]] [[were|eran]] [[the|el]] [[formal|sistema]] ______ [[system|formal]] [[used|utilizado]] [[by|por]] [[ancient|los antiguos]] [[Egyptians|egipcios]].",
           "options": [
             "[[writing|escritura]]",
             "[[cooking|cocina]]",
             "[[farming|agricultura]]"
           ],
           "correctAnswer": 0,
-          "explanation": "A 'writing system' is a method of visually representing verbal communication.",
+          "explanation": "Un 'writing system' es un método de representar visualmente la comunicación verbal.",
           "audio": "audio/b1/unit-30/e7.mp3"
         }
       ]
@@ -196,20 +196,20 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "History & Ancient Civilizations",
     "difficulty": "medium",
-    "transcript": "The Maya civilization is known for its advanced knowledge of astronomy and mathematics.",
+    "transcript": "[[The|La]] [[Maya|civilización]] [[civilization|Maya]] [[is|es]] [[known|conocida]] [[for|por]] [[its|su]] [[advanced|conocimiento]] [[knowledge|avanzado]] [[of|de]] [[astronomy|astronomía]] [[and|y]] [[mathematics|matemáticas]].",
     "content": {
-      "title": "The Maya",
-      "instructions": "Select the word for the study of stars and planets.",
+      "title": "Los Mayas",
+      "instructions": "Selecciona la palabra para el estudio de las estrellas y planetas.",
       "questions": [
         {
-          "question": "The Maya are known for their advanced knowledge of ______.",
+          "question": "[[The|Los]] [[Maya|Mayas]] [[are|son]] [[known|conocidos]] [[for|por]] [[their|su]] [[advanced|conocimiento]] [[knowledge|avanzado]] [[of|de]] ______.",
           "options": [
             "[[astronomy|astronomía]]",
             "[[biology|biología]]",
             "[[chemistry|química]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Astronomy' is the branch of science that deals with celestial objects, space, and the physical universe.",
+          "explanation": "La 'Astronomy' es la rama de la ciencia que trata con los objetos celestes, el espacio y el universo físico.",
           "audio": "audio/b1/unit-30/e8.mp3"
         }
       ]
@@ -223,20 +223,20 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "History & Ancient Civilizations",
     "difficulty": "medium",
-    "transcript": "The Industrial Revolution marked a major turning point in history as societies moved from farming to industry.",
+    "transcript": "[[The|La]] [[Industrial|Revolución]] [[Revolution|Industrial]] [[marked|marcó]] [[a|un]] [[major|punto]] [[turning|de inflexión]] [[point|importante]] [[in|en]] [[history|la historia]] [[as|mientras]] [[societies|las sociedades]] [[moved|pasaban]] [[from|de]] [[farming|la agricultura]] [[to|a]] [[industry|la industria]].",
     "content": {
-      "title": "Industrial Revolution",
-      "instructions": "Choose the expression for a significant moment of change.",
+      "title": "Revolución Industrial",
+      "instructions": "Elige la expresión para un momento significativo de cambio.",
       "questions": [
         {
-          "question": "The Industrial Revolution marked a major ______ in history.",
+          "question": "[[The|La]] [[Industrial|Revolución]] [[Revolution|Industrial]] [[marked|marcó]] [[a|un]] [[major|punto]] ______ [[in|en]] [[history|la historia]].",
           "options": [
             "[[turning point|punto de inflexión]]",
             "[[dead end|callejón sin salida]]",
             "[[shortcut|atajo]]"
           ],
           "correctAnswer": 0,
-          "explanation": "A 'turning point' is a time at which a decisive change in a situation occurs, especially one with beneficial results.",
+          "explanation": "Un 'turning point' es un momento en el que ocurre un cambio decisivo en una situación, especialmente uno con resultados beneficiosos.",
           "audio": "audio/b1/unit-30/e9.mp3"
         }
       ]
@@ -250,20 +250,20 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "History & Ancient Civilizations",
     "difficulty": "medium",
-    "transcript": "A mummy is a dead body that has been preserved by ancient Egyptian methods.",
+    "transcript": "[[A|Una]] [[mummy|momia]] [[is|es]] [[a|un]] [[dead|cuerpo]] [[body|muerto]] [[that|que]] [[has|ha]] [[been|sido]] [[preserved|preservado]] [[by|por]] [[ancient|métodos]] [[Egyptian|antiguos]] [[methods|egipcios]].",
     "content": {
-      "title": "Mummies",
-      "instructions": "Choose the verb that means to maintain in its original or existing state.",
+      "title": "Momias",
+      "instructions": "Elige el verbo que significa mantener en su estado original o existente.",
       "questions": [
         {
-          "question": "A mummy is a dead body that has been ______.",
+          "question": "[[A|Una]] [[mummy|momia]] [[is|es]] [[a|un]] [[dead|cuerpo]] [[body|muerto]] [[that|que]] [[has|ha]] [[been|sido]] ______.",
           "options": [
             "[[preserved|preservado]]",
             "[[forgotten|olvidado]]",
             "[[ignored|ignorado]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Preserved' means kept alive or in existence; to maintain in its original or existing state.",
+          "explanation": "'Preserved' significa mantener vivo o en existencia; mantener en su estado original o existente.",
           "audio": "audio/b1/unit-30/e10.mp3"
         }
       ]
@@ -277,20 +277,20 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "History & Ancient Civilizations",
     "difficulty": "medium",
-    "transcript": "The discovery of fire was a crucial event that changed human evolution forever.",
+    "transcript": "[[The|El]] [[discovery|descubrimiento]] [[of|del]] [[fire|fuego]] [[was|fue]] [[a|un]] [[crucial|evento]] [[event|crucial]] [[that|que]] [[changed|cambió]] [[human|la evolución]] [[evolution|humana]] [[forever|para siempre]].",
     "content": {
-      "title": "Discovery of Fire",
-      "instructions": "Select the adjective that means extremely important.",
+      "title": "Descubrimiento del Fuego",
+      "instructions": "Selecciona el adjetivo que significa extremadamente importante.",
       "questions": [
         {
-          "question": "The discovery of fire was a ______ event in history.",
+          "question": "[[The|El]] [[discovery|descubrimiento]] [[of|del]] [[fire|fuego]] [[was|fue]] [[a|un]] ______ [[event|evento]] [[in|en]] [[history|la historia]].",
           "options": [
             "[[crucial|crucial]]",
             "[[minor|menor]]",
             "[[useless|inútil]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Crucial' means of great importance.",
+          "explanation": "'Crucial' significa de gran importancia.",
           "audio": "audio/b1/unit-30/e11.mp3"
         }
       ]
@@ -304,20 +304,20 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "History & Ancient Civilizations",
     "difficulty": "medium",
-    "transcript": "Knights in the Middle Ages were warriors who fought for their kings and lords.",
+    "transcript": "[[Knights|Los caballeros]] [[in|en]] [[the|la]] [[Middle|Edad]] [[Ages|Media]] [[were|eran]] [[warriors|guerreros]] [[who|que]] [[fought|luchaban]] [[for|por]] [[their|sus]] [[kings|reyes]] [[and|y]] [[lords|señores]].",
     "content": {
-      "title": "Knights",
-      "instructions": "Choose the word for a person specialized in combat.",
+      "title": "Caballeros",
+      "instructions": "Elige la palabra para una persona especializada en el combate.",
       "questions": [
         {
-          "question": "Knights were ______ who fought in the Middle Ages.",
+          "question": "[[Knights|Los caballeros]] [[were|eran]] ______ [[who|que]] [[fought|lucharon]] [[in|en]] [[the|la]] [[Middle|Edad]] [[Ages|Media]].",
           "options": [
             "[[warriors|guerreros]]",
             "[[bakers|panaderos]]",
             "[[tailors|sastres]]"
           ],
           "correctAnswer": 0,
-          "explanation": "A 'warrior' is a person engaged or experienced in warfare.",
+          "explanation": "Un 'warrior' es una persona dedicada o con experiencia en la guerra.",
           "audio": "audio/b1/unit-30/e12.mp3"
         }
       ]
@@ -331,20 +331,20 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "History & Ancient Civilizations",
     "difficulty": "medium",
-    "transcript": "The Silk Road was an ancient network of trade routes that connected the East and West.",
+    "transcript": "[[The|La]] [[Silk|Ruta]] [[Road|de la Seda]] [[was|era]] [[an|una]] [[ancient|red]] [[network|antigua]] [[of|de]] [[trade|rutas]] [[routes|comerciales]] [[that|que]] [[connected|conectaba]] [[the|el]] [[East|Este]] [[and|y]] [[West|Oeste]].",
     "content": {
-      "title": "The Silk Road",
-      "instructions": "Choose the word for paths used for buying and selling goods.",
+      "title": "La Ruta de la Seda",
+      "instructions": "Elige la palabra para las rutas utilizadas para comprar y vender bienes.",
       "questions": [
         {
-          "question": "The Silk Road was a network of ______ routes.",
+          "question": "[[The|La]] [[Silk|Ruta]] [[Road|de la Seda]] [[was|era]] [[a|una]] [[network|red]] [[of|de]] ______ [[routes|rutas]].",
           "options": [
             "[[trade|comerciales]]",
             "[[vacation|vacacionales]]",
             "[[racing|de carreras]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Trade' is the action of buying and selling goods and services.",
+          "explanation": "'Trade' es la acción de comprar y vender bienes y servicios.",
           "audio": "audio/b1/unit-30/e13.mp3"
         }
       ]
@@ -358,20 +358,20 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "History & Ancient Civilizations",
     "difficulty": "medium",
-    "transcript": "A dynasty is a series of leaders from the same family who rule for several generations.",
+    "transcript": "[[A|Una]] [[dynasty|dinastía]] [[is|es]] [[a|una]] [[series|serie]] [[of|de]] [[leaders|líderes]] [[from|de]] [[the|la]] [[same|misma]] [[family|familia]] [[who|que]] [[rule|gobiernan]] [[for|durante]] [[several|varias]] [[generations|generaciones]].",
     "content": {
-      "title": "Dynasty",
-      "instructions": "Choose the word for a succession of rulers from the same family.",
+      "title": "Dinastía",
+      "instructions": "Elige la palabra para una sucesión de gobernantes de la misma familia.",
       "questions": [
         {
-          "question": "A ______ is a series of leaders from the same family.",
+          "question": "[[A|Una]] ______ [[is|es]] [[a|una]] [[series|serie]] [[of|de]] [[leaders|líderes]] [[from|de]] [[the|la]] [[same|misma]] [[family|familia]].",
           "options": [
             "[[dynasty|dinastía]]",
             "[[club|club]]",
             "[[team|equipo]]"
           ],
           "correctAnswer": 0,
-          "explanation": "A 'dynasty' is a line of hereditary rulers of a country.",
+          "explanation": "Una 'dynasty' es una línea de gobernantes hereditarios de un país.",
           "audio": "audio/b1/unit-30/e14.mp3"
         }
       ]
@@ -385,20 +385,20 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "History & Ancient Civilizations",
     "difficulty": "medium",
-    "transcript": "The French Revolution led to the end of the monarchy in France.",
+    "transcript": "[[The|La]] [[French|Revolución]] [[Revolution|Francesa]] [[led|condujo]] [[to|al]] [[the|fin]] [[end|de]] [[of|la]] [[the|monarquía]] [[monarchy| ]] [[in|en]] [[France|Francia]].",
     "content": {
-      "title": "French Revolution",
-      "instructions": "Select the word for a government ruled by a king or queen.",
+      "title": "Revolución Francesa",
+      "instructions": "Selecciona la palabra para un gobierno gobernado por un rey o reina.",
       "questions": [
         {
-          "question": "The revolution led to the end of the ______ in France.",
+          "question": "[[The|La]] [[revolution|revolución]] [[led|condujo]] [[to|al]] [[the|fin]] [[end|de]] [[of|la]] ______ [[in|en]] [[France|Francia]].",
           "options": [
             "[[monarchy|monarquía]]",
             "[[republic|república]]",
             "[[democracy|democracia]]"
           ],
           "correctAnswer": 0,
-          "explanation": "A 'monarchy' is a form of government with a monarch at the head.",
+          "explanation": "Una 'monarchy' es un gobierno encabezado por un monarca, como un rey o una reina.",
           "audio": "audio/b1/unit-30/e15.mp3"
         }
       ]
@@ -412,20 +412,20 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "History & Ancient Civilizations",
     "difficulty": "medium",
-    "transcript": "Gladiators were professional fighters who entertained audiences in ancient Rome.",
+    "transcript": "[[Gladiators|Los gladiadores]] [[were|eran]] [[professional|luchadores]] [[fighters|profesionales]] [[who|que]] [[entertained|entretenían]] [[to|a]] [[audiences|las audiencias]] [[in|en]] [[ancient|la antigua]] [[Rome|Roma]].",
     "content": {
-      "title": "Gladiators",
-      "instructions": "Choose the verb that means to provide amusement or enjoyment.",
+      "title": "Gladiadores",
+      "instructions": "Elige el verbo que significa proporcionar diversión o disfrute.",
       "questions": [
         {
-          "question": "Gladiators were fighters who ______ audiences.",
+          "question": "[[Gladiators|Los gladiadores]] [[were|eran]] [[fighters|luchadores]] [[who|que]] ______ [[audiences|a las audiencias]].",
           "options": [
             "[[entertained|entretenían]]",
             "[[scared|asustaban]]",
             "[[ignored|ignoraban]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Entertain' means to provide (someone) with amusement or enjoyment.",
+          "explanation": "'Entertain' significa proporcionar diversión o disfrute a alguien.",
           "audio": "audio/b1/unit-30/e16.mp3"
         }
       ]
@@ -439,20 +439,20 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "History & Ancient Civilizations",
     "difficulty": "medium",
-    "transcript": "The Vikings were famous sailors and warriors from Scandinavia who explored many lands.",
+    "transcript": "[[The|Los]] [[Vikings|Vikingos]] [[were|eran]] [[famous|famosos]] [[sailors|marineros]] [[and|y]] [[warriors|guerreros]] [[from|de]] [[Scandinavia|Escandinavia]] [[who|que]] [[explored|exploraron]] [[many|muchas]] [[lands|tierras]].",
     "content": {
-      "title": "The Vikings",
-      "instructions": "Select the word for people who travel on the sea.",
+      "title": "Los Vikingos",
+      "instructions": "Selecciona la palabra para las personas que viajan por el mar.",
       "questions": [
         {
-          "question": "The Vikings were famous ______ from Scandinavia.",
+          "question": "[[The|Los]] [[Vikings|Vikingos]] [[were|eran]] [[famous|famosos]] ______ [[from|de]] [[Scandinavia|Escandinavia]].",
           "options": [
             "[[sailors|marineros]]",
             "[[farmers|granjeros]]",
             "[[miners|mineros]]"
           ],
           "correctAnswer": 0,
-          "explanation": "A 'sailor' is a person who works as a member of the crew of a commercial or naval ship or boat.",
+          "explanation": "Un 'sailor' es una persona que trabaja como miembro de la tripulación de un barco o bote.",
           "audio": "audio/b1/unit-30/e17.mp3"
         }
       ]
@@ -466,20 +466,20 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "History & Ancient Civilizations",
     "difficulty": "medium",
-    "transcript": "Ancient civilizations built impressive monuments that have lasted for centuries.",
+    "transcript": "[[Ancient|Las antiguas]] [[civilizations|civilizaciones]] [[built|construyeron]] [[impressive|impresionantes]] [[monuments|monumentos]] [[that|que]] [[have|han]] [[lasted|durado]] [[for|durante]] [[centuries|siglos]].",
     "content": {
-      "title": "Monuments",
-      "instructions": "Choose the word for buildings or statues created to commemorate a person or event.",
+      "title": "Monumentos",
+      "instructions": "Elige la palabra para edificios o estatuas creadas para conmemorar a una persona o evento.",
       "questions": [
         {
-          "question": "Ancient civilizations built impressive ______.",
+          "question": "[[Ancient|Las antiguas]] [[civilizations|civilizaciones]] [[built|construyeron]] [[impressive|impresionantes]] ______.",
           "options": [
             "[[monuments|monumentos]]",
             "[[tents|tiendas de campaña]]",
             "[[huts|cabañas]]"
           ],
           "correctAnswer": 0,
-          "explanation": "A 'monument' is a statue, building, or other structure erected to commemorate a famous person or event.",
+          "explanation": "Un 'monument' es una estatua, edificio u otra estructura erigida para conmemorar a una persona o evento famoso.",
           "audio": "audio/b1/unit-30/e18.mp3"
         }
       ]
@@ -493,20 +493,20 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "History & Ancient Civilizations",
     "difficulty": "medium",
-    "transcript": "Colonialism involved the control of one country by another, often far away.",
+    "transcript": "[[Colonialism|El colonialismo]] [[involved|implicaba]] [[the|el]] [[control|control]] [[of|de]] [[one|un]] [[country|país]] [[by|por]] [[another|otro]], [[often|a menudo]] [[far|muy]] [[away|lejos]].",
     "content": {
-      "title": "Colonialism",
-      "instructions": "Choose the word for exercising power or influence over something.",
+      "title": "Colonialismo",
+      "instructions": "Elige la palabra para ejercer poder o influencia sobre algo.",
       "questions": [
         {
-          "question": "Colonialism involved the ______ of one country by another.",
+          "question": "[[Colonialism|El colonialismo]] [[involved|implicaba]] [[the|el]] ______ [[of|de]] [[one|un]] [[country|país]] [[by|por]] [[another|otro]].",
           "options": [
             "[[control|control]]",
             "[[friendship|amistad]]",
             "[[equality|igualdad]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Control' is the power to influence or direct people's behavior or the course of events.",
+          "explanation": "El 'control' es el poder de influir o dirigir el comportamiento de las personas o el curso de los eventos.",
           "audio": "audio/b1/unit-30/e19.mp3"
         }
       ]
@@ -520,20 +520,20 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "History & Ancient Civilizations",
     "difficulty": "medium",
-    "transcript": "The discovery of the Rosetta Stone allowed scholars to decode Egyptian hieroglyphics.",
+    "transcript": "[[The|El]] [[discovery|descubrimiento]] [[of|de]] [[the|la]] [[Rosetta|Piedra]] [[Stone|Rosetta]] [[allowed|permitió]] [[to|a]] [[scholars|los eruditos]] [[to| ]] [[decode|decodificar]] [[Egyptian|los jeroglíficos]] [[hieroglyphics|egipcios]].",
     "content": {
-      "title": "The Rosetta Stone",
-      "instructions": "Choose the verb that means to translate a coded message.",
+      "title": "La Piedra Rosetta",
+      "instructions": "Elige el verbo que significa traducir un mensaje codificado.",
       "questions": [
         {
-          "question": "Scholars used the Rosetta Stone to ______ hieroglyphics.",
+          "question": "[[Scholars|Los eruditos]] [[used|usaron]] [[the|la]] [[Rosetta|Piedra]] [[Stone|Rosetta]] [[to|para]] ______ [[hieroglyphics|los jeroglíficos]].",
           "options": [
             "[[decode|decodificar]]",
             "[[delete|borrar]]",
             "[[hide|esconder]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Decode' means to convert (a coded message) into intelligible language.",
+          "explanation": "'Decode' significa convertir un mensaje codificado en un lenguaje inteligible.",
           "audio": "audio/b1/unit-30/e20.mp3"
         }
       ]
@@ -547,20 +547,20 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "History & Ancient Civilizations",
     "difficulty": "medium",
-    "transcript": "The stone age is characterized by the use of stone tools by early humans.",
+    "transcript": "[[The|La]] [[stone|edad]] [[age|de piedra]] [[is|se]] [[characterized|caracteriza]] [[by|por]] [[the|el]] [[use|uso]] [[of|de]] [[stone|herramientas]] [[tools|de piedra]] [[by|por]] [[early|los primeros]] [[humans|humanos]].",
     "content": {
-      "title": "Stone Age",
-      "instructions": "Select the word that describes a defining quality or feature.",
+      "title": "Edad de Piedra",
+      "instructions": "Selecciona la palabra que describe una cualidad o característica definitoria.",
       "questions": [
         {
-          "question": "The stone age is ______ by the use of stone tools.",
+          "question": "[[The|La]] [[stone|edad]] [[age|de piedra]] [[is|se]] ______ [[by|por]] [[the|el]] [[use|uso]] [[of|de]] [[stone|herramientas]] [[tools|de piedra]].",
           "options": [
             "[[characterized|caracterizada]]",
             "[[ignored|ignorada]]",
             "[[surprised|sorprendida]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Characterized' means to describe the distinctive nature or features of something.",
+          "explanation": "'Characterized' significa describir la naturaleza distintiva o las características de algo.",
           "audio": "audio/b1/unit-30/e21.mp3"
         }
       ]
@@ -574,20 +574,20 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "History & Ancient Civilizations",
     "difficulty": "medium",
-    "transcript": "The Aztecs founded their capital city, Tenochtitlan, on an island in a lake.",
+    "transcript": "[[The|Los]] [[Aztecs|Aztecas]] [[founded|fundaron]] [[their|su]] [[capital|ciudad]] [[city|capital]], [[Tenochtitlan|Tenochtitlan]], [[on|en]] [[an|una]] [[island|isla]] [[in|en]] [[a|un]] [[lake|lago]].",
     "content": {
-      "title": "The Aztecs",
-      "instructions": "Choose the verb that means to establish or create something.",
+      "title": "Los Aztecas",
+      "instructions": "Elige el verbo que significa establecer o crear algo.",
       "questions": [
         {
-          "question": "The Aztecs ______ their capital city on an island.",
+          "question": "[[The|Los]] [[Aztecs|Aztecas]] ______ [[their|su]] [[capital|ciudad]] [[city|capital]] [[on|en]] [[an|una]] [[island|isla]].",
           "options": [
             "[[founded|fundaron]]",
             "[[lost|perdieron]]",
             "[[sold|vendieron]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Found' means to establish or originate (an institution or organization).",
+          "explanation": "'Found' significa establecer u originar (una institución u organización).",
           "audio": "audio/b1/unit-30/e22.mp3"
         }
       ]
@@ -601,20 +601,20 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "History & Ancient Civilizations",
     "difficulty": "medium",
-    "transcript": "A revolution is a forcible overthrow of a government in favor of a new system.",
+    "transcript": "[[A|Una]] [[revolution|revolución]] [[is|es]] [[a|un]] [[forcible|derrocamiento]] [[overthrow|por la fuerza]] [[of|de]] [[a|un]] [[government|gobierno]] [[in|en]] [[favor|favor]] [[of|de]] [[a|un]] [[new|nuevo]] [[system|sistema]].",
     "content": {
-      "title": "Revolution",
-      "instructions": "Select the word for a major and often violent change in government.",
+      "title": "Revolución",
+      "instructions": "Selecciona la palabra para un cambio importante y a menudo violento en el gobierno.",
       "questions": [
         {
-          "question": "A ______ is a forcible overthrow of a government.",
+          "question": "[[A|Una]] ______ [[is|es]] [[a|un]] [[forcible|derrocamiento]] [[overthrow|por la fuerza]] [[of|de]] [[a|un]] [[government|gobierno]].",
           "options": [
             "[[revolution|revolución]]",
             "[[meeting|reunión]]",
             "[[celebration|celebración]]"
           ],
           "correctAnswer": 0,
-          "explanation": "A 'revolution' is a fundamental and relatively sudden change in political power and political organization.",
+          "explanation": "Una 'revolution' es un cambio fundamental y relativamente repentino en el poder político y la organización política.",
           "audio": "audio/b1/unit-30/e23.mp3"
         }
       ]
@@ -628,20 +628,20 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "History & Ancient Civilizations",
     "difficulty": "medium",
-    "transcript": "Many ancient artifacts are now kept in museums for the public to see.",
+    "transcript": "[[Many|Muchos]] [[ancient|artefactos]] [[artifacts|antiguos]] [[are|están]] [[now|ahora]] [[kept|guardados]] [[in|en]] [[museums|museos]] [[for|para]] [[the|que]] [[public|el público]] [[to|los]] [[see|vea]].",
     "content": {
-      "title": "Museums",
-      "instructions": "Choose the word for a building in which objects of historical interest are stored.",
+      "title": "Museos",
+      "instructions": "Elige la palabra para un edificio en el que se almacenan objetos de interés histórico.",
       "questions": [
         {
-          "question": "Many ancient artifacts are now kept in ______.",
+          "question": "[[Many|Muchos]] [[ancient|artefactos]] [[artifacts|antiguos]] [[are|están]] [[now|ahora]] [[kept|guardados]] [[in|en]] ______.",
           "options": [
             "[[museums|museos]]",
             "[[stadiums|estadios]]",
             "[[airports|aeropuertos]]"
           ],
           "correctAnswer": 0,
-          "explanation": "A 'museum' is a building in which objects of historical, scientific, artistic, or cultural interest are stored and exhibited.",
+          "explanation": "Un 'museum' es un edificio en el que se almacenan y exhiben objetos de interés histórico, científico, artístico o cultural.",
           "audio": "audio/b1/unit-30/e24.mp3"
         }
       ]
@@ -655,20 +655,20 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "History & Ancient Civilizations",
     "difficulty": "medium",
-    "transcript": "The study of history helps us learn from the mistakes of the past.",
+    "transcript": "[[The|El]] [[study|estudio]] [[of|de la]] [[history|historia]] [[helps|ayuda]] [[us|nos]] [[learn|a aprender]] [[from|de]] [[the|los]] [[mistakes|errores]] [[of|del]] [[the| ]] [[past|pasado]].",
     "content": {
-      "title": "Study of History",
-      "instructions": "Choose the word for errors or wrong actions.",
+      "title": "Estudio de la Historia",
+      "instructions": "Elige la palabra para errores o acciones equivocadas.",
       "questions": [
         {
-          "question": "History helps us learn from the ______ of the past.",
+          "question": "[[History|La historia]] [[helps|ayuda]] [[us|nos]] [[learn|a aprender]] [[from|de]] [[the|los]] ______ [[of|del]] [[the| ]] [[past|pasado]].",
           "options": [
             "[[mistakes|errores]]",
             "[[successes|éxitos]]",
             "[[prizes|premios]]"
           ],
           "correctAnswer": 0,
-          "explanation": "A 'mistake' is an action or judgment that is misguided or wrong.",
+          "explanation": "Un 'mistake' es una acción o juicio que es equivocado o erróneo.",
           "audio": "audio/b1/unit-30/e25.mp3"
         }
       ]
@@ -682,10 +682,10 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "History & Ancient Civilizations",
     "difficulty": "medium",
-    "transcript": "Ancient civilizations developed unique writing systems to record laws.",
+    "transcript": "[[Ancient|Las antiguas]] [[civilizations|civilizaciones]] [[developed|desarrollaron]] [[unique|únicos]] [[writing|de escritura]] [[systems|sistemas]] [[to|para]] [[record|registrar]] [[laws|leyes]].",
     "content": {
-      "title": "Writing Systems",
-      "instructions": "Order the sentence about how ancient civilizations recorded information.",
+      "title": "Sistemas de Escritura",
+      "instructions": "Ordena la oración sobre cómo las civilizaciones antiguas registraban información.",
       "correctSentence": "[[Ancient|Las antiguas]] [[civilizations|civilizaciones]] [[developed|desarrollaron]] [[unique|únicos]] [[writing|de escritura]] [[systems|sistemas]] [[to|para]] [[record|registrar]] [[laws|leyes]]",
       "words": [
         "[[developed|desarrollaron]]",
@@ -698,7 +698,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         "[[unique|únicos]]",
         "[[to|para]]"
       ],
-      "explanation": "Past simple and infinitive of purpose."
+      "explanation": "Pasado simple e infinitivo de propósito."
     },
     "audioUrl": "audio/b1/unit-30/e26.mp3",
     "topicName": "Grammar"
@@ -709,10 +709,10 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "History & Ancient Civilizations",
     "difficulty": "medium",
-    "transcript": "The construction of pyramids required a massive workforce and skills.",
+    "transcript": "[[The|La]] [[construction|construcción]] [[of|de]] [[pyramids|pirámides]] [[required|requirió]] [[a|una]] [[massive|masiva]] [[workforce|fuerza laboral]] [[and|y]] [[skills|habilidades]].",
     "content": {
-      "title": "Pyramid Construction",
-      "instructions": "Arrange the words to describe the requirements for building pyramids.",
+      "title": "Construcción de Pirámides",
+      "instructions": "Ordena las palabras para describir los requisitos para construir pirámides.",
       "correctSentence": "[[The|La]] [[construction|construcción]] [[of|de]] [[pyramids|pirámides]] [[required|requirió]] [[massive|una masiva]] [[workforce|fuerza laboral]] [[and|y]] [[skills|habilidades]]",
       "words": [
         "[[massive|una masiva]]",
@@ -725,7 +725,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         "[[skills|habilidades]]",
         "[[and|y]]"
       ],
-      "explanation": "Nouns and adjectives to describe historical projects."
+      "explanation": "Sustantivos y adjetivos para describir proyectos históricos."
     },
     "audioUrl": "audio/b1/unit-30/e27.mp3",
     "topicName": "Grammar"
@@ -736,10 +736,10 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "History & Ancient Civilizations",
     "difficulty": "medium",
-    "transcript": "Historians use primary sources to understand important historical events.",
+    "transcript": "[[Historians|Los historiadores]] [[use|usan]] [[primary|fuentes]] [[sources|primarias]] [[to|para]] [[understand|entender]] [[important|importantes]] [[historical|históricos]] [[events|eventos]].",
     "content": {
-      "title": "Primary Sources",
-      "instructions": "Order the sentence about how historians study the past.",
+      "title": "Fuentes Primarias",
+      "instructions": "Ordena la oración sobre cómo los historiadores estudian el pasado.",
       "correctSentence": "[[Historians|Los historiadores]] [[use|usan]] [[primary|fuentes]] [[sources|primarias]] [[to|para]] [[understand|entender]] [[important|importantes]] [[historical|históricos]] [[events|eventos]]",
       "words": [
         "[[primary|fuentes]]",
@@ -752,7 +752,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         "[[understand|entender]]",
         "[[important|importantes]]"
       ],
-      "explanation": "Present simple and infinitive of purpose."
+      "explanation": "Presente simple e infinitivo de propósito."
     },
     "audioUrl": "audio/b1/unit-30/e28.mp3",
     "topicName": "Grammar"
@@ -763,10 +763,10 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "History & Ancient Civilizations",
     "difficulty": "medium",
-    "transcript": "Roman engineers built long aqueducts to transport fresh water.",
+    "transcript": "[[Roman|Los ingenieros]] [[engineers|romanos]] [[built|construyeron]] [[long|largos]] [[aqueducts|acueductos]] [[to|para]] [[transport|transportar]] [[fresh|agua]] [[water|fresca]].",
     "content": {
-      "title": "Roman Engineering",
-      "instructions": "Order the sentence about Roman aqueducts.",
+      "title": "Ingeniería Romana",
+      "instructions": "Ordena la oración sobre los acueductos romanos.",
       "correctSentence": "[[Roman|Los ingenieros]] [[engineers|romanos]] [[built|construyeron]] [[long|largos]] [[aqueducts|acueductos]] [[to|para]] [[transport|transportar]] [[fresh|agua]] [[water|fresca]]",
       "words": [
         "[[built|construyeron]]",
@@ -779,7 +779,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         "[[fresh|agua]]",
         "[[water|fresca]]"
       ],
-      "explanation": "Past simple and infinitive of purpose."
+      "explanation": "Pasado simple e infinitivo de propósito."
     },
     "audioUrl": "audio/b1/unit-30/e29.mp3",
     "topicName": "Grammar"
@@ -790,10 +790,10 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "History & Ancient Civilizations",
     "difficulty": "medium",
-    "transcript": "The Silk Road connected different cultures through trade and travel.",
+    "transcript": "[[The|La]] [[Silk|Ruta]] [[Road|de la Seda]] [[connected|conectó]] [[different|diferentes]] [[cultures|culturas]] [[through|a través del]] [[trade|comercio]] [[and|y]] [[travel|viajes]].",
     "content": {
-      "title": "The Silk Road",
-      "instructions": "Order the sentence about the Silk Road.",
+      "title": "La Ruta de la Seda",
+      "instructions": "Ordena la oración sobre la Ruta de la Seda.",
       "correctSentence": "[[The|La]] [[Silk|Ruta]] [[Road|de la Seda]] [[connected|conectó]] [[different|diferentes]] [[cultures|culturas]] [[through|a través del]] [[trade|comercio]] [[and|y]] [[travel|viajes]]",
       "words": [
         "[[connected|conectó]]",
@@ -807,7 +807,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         "[[and|y]]",
         "[[travel|viajes]]"
       ],
-      "explanation": "Past simple and prepositions."
+      "explanation": "Pasado simple y preposiciones."
     },
     "audioUrl": "audio/b1/unit-30/e30.mp3",
     "topicName": "Grammar"
