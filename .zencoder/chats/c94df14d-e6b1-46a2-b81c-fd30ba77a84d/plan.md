@@ -20,13 +20,17 @@
     *   [x] Unit 1: Generate, Review, Commit.
     *   [x] Unit 2: Generate, Review, Commit.
     *   [x] Unit 3: Generate, Review, Commit.
-    *   [ ] Unit 4: Generate, Review, Commit.
+    *   [x] Unit 4: Generate, Review, Commit.
+    *   [x] Unit 5: Generate, Review, Commit.
+    *   [ ] Unit 6: Generate, Review, Commit.
     *   ... (Repeat for all 30 units)
 2.  **Audio Generation**:
     *   [x] Generate audio for Unit 1.
     *   [x] Generate audio for Unit 2.
     *   [x] Generate audio for Unit 3.
-    *   [ ] Generate audio for Unit 4.
+    *   [x] Generate audio for Unit 4.
+    *   [x] Generate audio for Unit 5.
+    *   [ ] Generate audio for Unit 6.
 3.  **Validation**:
     *   [x] Run `npm run validate-exercises`.
     *   [x] Manual verification of rendering and pedagogical flow.
