@@ -791,8 +791,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "We had been waiting for over an hour when he finally showed up.",
     "content": {
-      "title": "Show Up",
-      "instructions": "Choose the correct verb for arriving late.",
+      "title": "Llegar a un sitio",
+      "instructions": "Elige el verbo adecuado para describir la llegada a un lugar.",
       "questions": [
         {
           "question": "[[We|Habíamos]] [[had|estado]] [[been|esperando]] [[waiting|más]] [[for|de]] [[over|una]] [[an|hora]] [[hour|cuando]] [[when|él]] [[he|finalmente]] [[finally|_______]].",
@@ -845,8 +845,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "I really hit it off with my new colleague from the start.",
     "content": {
-      "title": "Social Connection",
-      "instructions": "Choose the expression for becoming friends quickly.",
+      "title": "Afinidad personal",
+      "instructions": "Elige la expresión que describe una buena conexión inicial entre personas.",
       "questions": [
         {
           "question": "[[I|Realmente]] [[really|_______]] [[hit|con]] [[it|mi]] [[off|nuevo]] [[with|colega]] [[my|desde]] [[new|el]] [[colleague|principio.]]",
@@ -899,8 +899,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "She is such a reliable person that everyone trusts her.",
     "content": {
-      "title": "Reliability",
-      "instructions": "Choose the correct adjective for someone you can trust.",
+      "title": "Fiabilidad",
+      "instructions": "Elige el adjetivo que describe a una persona en la que se puede confiar.",
       "questions": [
         {
           "question": "[[She|Ella]] [[is|es]] [[such|una]] [[a|persona]] [[_______|_______]] [[person|tan]] [[that|que]] [[everyone|todos]] [[trusts|confían en]] [[her.|ella.]]",
@@ -953,8 +953,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "I've lost touch with most of my childhood friends.",
     "content": {
-      "title": "Lost Touch",
-      "instructions": "Choose the phrase for losing contact.",
+      "title": "Perder el contacto",
+      "instructions": "Elige la frase que indica que ya no tienes relación con alguien.",
       "questions": [
         {
           "question": "[[I've|He]] [[_______|_______]] [[lost|con]] [[touch|la]] [[with|mayoría]] [[most|de]] [[of|mis]] [[my|amigos]] [[childhood|de la]] [[friends.|infancia.]]",
@@ -1007,8 +1007,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "We need to catch up on all the news since we last met.",
     "content": {
-      "title": "Catch Up",
-      "instructions": "Choose the phrasal verb for updating each other.",
+      "title": "Ponerse al día",
+      "instructions": "Elige el phrasal verb adecuado para intercambiar noticias recientes.",
       "questions": [
         {
           "question": "[[We|Necesitamos]] [[need|_______]] [[to|todas]] [[all|las]] [[the|noticias]] [[news|desde]] [[since|la]] [[we|última vez]] [[last|que nos]] [[met.|vimos.]]",
@@ -1061,8 +1061,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "He is a very broad-minded person who respects everyone's views.",
     "content": {
-      "title": "Broad-minded",
-      "instructions": "Choose the adjective for open-mindedness.",
+      "title": "Mentalidad abierta",
+      "instructions": "Elige el adjetivo que describe a alguien respetuoso con todas las ideas.",
       "questions": [
         {
           "question": "[[He|Él]] [[is|es]] [[a|una]] [[very|persona]] [[_______|_______]] [[broad-minded|muy]] [[person|abierta]] [[who|que]] [[respects|respeta]] [[everyone's|las opiniones]] [[views.|de todos.]]",
@@ -1115,8 +1115,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "I can't put up with his constant complaining anymore.",
     "content": {
-      "title": "Put Up With",
-      "instructions": "Choose the phrasal verb for tolerating something.",
+      "title": "Soportar algo",
+      "instructions": "Elige el phrasal verb que significa 'tolerar' o 'aguantar'.",
       "questions": [
         {
           "question": "[[I|Ya]] [[can't|no]] [[_______|_______]] [[put|aguantar]] [[up|sus]] [[with|constantes]] [[his|quejas.]] [[constant| ]] [[complaining| ]] [[anymore.| ]]",
@@ -1169,11 +1169,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "She's very outgoing and makes friends wherever she goes.",
     "content": {
-      "title": "Outgoing",
-      "instructions": "Choose the adjective for a sociable person.",
+      "title": "Sociabilidad",
+      "instructions": "Elige el adjetivo que describe a una persona sociable y extrovertida.",
       "questions": [
         {
-          "question": "[[She's|Ella]] [[very|es]] [[_______|_______]] [[outgoing|muy]] [[and|y]] [[makes|hace]] [[friends|amigos]] [[wherever|dondequiera]] [[she|que]] [[goes.|va.]]",
+          "question": "[[She|Ella]] [[is|es]] [[very|muy]] [[_______|_______]] [[outgoing| ]] [[and|y]] [[makes|hace]] [[friends|amigos]] [[wherever|dondequiera]] [[she|que]] [[goes.|va.]]",
           "options": [
             "[[outgoing|sociable/extrovertida]]",
             "[[shy|tímida]]",
@@ -1223,8 +1223,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "It's common to drift apart from friends after you finish school.",
     "content": {
-      "title": "Drift Apart",
-      "instructions": "Choose the phrasal verb for losing closeness.",
+      "title": "Distanciamiento",
+      "instructions": "Elige el phrasal verb que describe perder la cercanía con alguien poco a poco.",
       "questions": [
         {
           "question": "[[It's|Es]] [[common|común]] [[to|_______]] [[drift|de]] [[apart|los]] [[from|amigos]] [[friends|después]] [[after|de]] [[you|terminar]] [[finish|la]] [[school.|escuela.]]",
@@ -1277,8 +1277,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "I need a friend who I can count on in difficult times.",
     "content": {
-      "title": "Count On",
-      "instructions": "Choose the correct preposition for 'count'.",
+      "title": "Contar con alguien",
+      "instructions": "Elige la preposición correcta para el phrasal verb que significa 'confiar en'.",
       "questions": [
         {
           "question": "[[I|Necesito]] [[need|un]] [[a|amigo]] [[friend|en]] [[who|quien]] [[I|pueda]] [[can|_______]] [[count|en]] [[on|momentos]] [[in|difíciles.]] [[difficult| ]] [[times.| ]]",
@@ -1331,8 +1331,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "We have always seen eye to eye on important decisions.",
     "content": {
-      "title": "Eye to Eye",
-      "instructions": "Choose the correct idiom for agreement.",
+      "title": "Estar de acuerdo",
+      "instructions": "Elige la expresión idiomática correcta para indicar acuerdo total.",
       "questions": [
         {
           "question": "[[We|Siempre]] [[have|hemos]] [[always|_______]] [[seen|en]] [[eye|las]] [[to|decisiones]] [[eye|importantes.]] [[on| ]]",
@@ -1358,8 +1358,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "I was about to leave when you walked into the room.",
     "content": {
-      "title": "About to Leave",
-      "instructions": "Choose the phrase for imminent action.",
+      "title": "A punto de salir",
+      "instructions": "Elige la frase que indica una acción inminente.",
       "questions": [
         {
           "question": "[[I|Estaba]] [[was|_______]] [[about|irme]] [[to|cuando]] [[leave|entraste]] [[when|en]] [[you|la]] [[walked|habitación.]] [[into| ]]",
@@ -1385,8 +1385,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "It's time to clear the air and talk about what happened.",
     "content": {
-      "title": "Clear the Air",
-      "instructions": "Choose the idiom for resolving tension.",
+      "title": "Aclarar las cosas",
+      "instructions": "Elige la expresión para resolver tensiones o malentendidos.",
       "questions": [
         {
           "question": "[[It's|Es]] [[time|hora]] [[to|_______]] [[clear|y]] [[the|hablar]] [[air|de]] [[and|lo que]] [[talk|pasó.]] [[about| ]]",
@@ -1439,8 +1439,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "She takes after her father; they both love mountain climbing.",
     "content": {
-      "title": "Take After",
-      "instructions": "Choose the phrasal verb for inheriting traits.",
+      "title": "Parecerse a alguien",
+      "instructions": "Elige el phrasal verb que significa heredar rasgos de un familiar.",
       "questions": [
         {
           "question": "[[She|Se]] [[_______|_______]] [[takes|a]] [[after|su]] [[her|padre;]] [[father;|a los]] [[they|dos]] [[both|les]] [[love|encanta]] [[mountain|la]] [[climbing.|escalada.]]",

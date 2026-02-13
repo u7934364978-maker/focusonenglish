@@ -841,8 +841,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "The scientists are on the verge of a major discovery.",
     "content": {
-      "title": "Discovery",
-      "instructions": "Choose the expression that means 'very close to'.",
+      "title": "A punto de ocurrir",
+      "instructions": "Elige la expresión que significa 'muy cerca de' algo.",
       "questions": [
         {
           "question": "[[The|Los]] [[scientists|científicos]] [[are|están]] [[_______|_______]] [[a|un]] [[major|gran]] [[discovery.|descubrimiento.]]",
@@ -895,8 +895,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "This new software is very user-friendly.",
     "content": {
-      "title": "User-friendly",
-      "instructions": "Choose the adjective for easy-to-use software.",
+      "title": "Fácil de usar",
+      "instructions": "Elige el adjetivo adecuado para un software sencillo de manejar.",
       "questions": [
         {
           "question": "[[This|Este]] [[new|nuevo]] [[software|software]] [[is|es]] [[very|muy]] [[_______|_______]].",
@@ -949,8 +949,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "The system crashed because of a technical glitch.",
     "content": {
-      "title": "Glitch",
-      "instructions": "Choose the word for a small technical problem.",
+      "title": "Fallo técnico",
+      "instructions": "Elige la palabra que describe un pequeño problema técnico.",
       "questions": [
         {
           "question": "[[The|El]] [[system|sistema]] [[crashed|se bloqueó]] [[because|debido]] [[of|a]] [[a|un]] [[technical|_______]].",
@@ -1057,8 +1057,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "The data was encrypted to prevent unauthorized access.",
     "content": {
-      "title": "Encryption",
-      "instructions": "Choose the word for protecting data.",
+      "title": "Cifrado de datos",
+      "instructions": "Elige el término para la protección de datos mediante códigos.",
       "questions": [
         {
           "question": "[[The|Los]] [[data|datos]] [[was|fueron]] [[_______|_______]] [[to|para]] [[prevent|evitar]] [[unauthorized|el acceso]] [[access.|no autorizado.]]",
@@ -1165,8 +1165,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "The new smartphone features a state-of-the-art camera.",
     "content": {
-      "title": "State-of-the-art",
-      "instructions": "Choose the adjective for 'the most modern'.",
+      "title": "Última generación",
+      "instructions": "Elige el adjetivo para la tecnología más moderna y avanzada.",
       "questions": [
         {
           "question": "[[The|El]] [[new|nuevo]] [[smartphone|teléfono]] [[features|incluye]] [[a|una]] [[_______|_______]] [[camera.|cámara.]]",
@@ -1408,8 +1408,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "This gadget is really handy for travel.",
     "content": {
-      "title": "Handy",
-      "instructions": "Choose the synonym for 'useful'.",
+      "title": "Útil y práctico",
+      "instructions": "Elige el adjetivo informal que significa 'útil' o 'conveniente'.",
       "questions": [
         {
           "question": "[[This|Este]] [[gadget|aparato]] [[is|es]] [[really|realmente]] [[_______|_______]] [[for|para]] [[travel.|viajar.]]",
