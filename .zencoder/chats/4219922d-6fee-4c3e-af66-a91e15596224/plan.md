@@ -39,9 +39,16 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
 - [x] Verify the syllabus and preview route with the user.
 
 #### Phase 2: Unit Generation (Technical: .ts files in src/lib/c1-units/)
-- [x] Generate Unit 1 (100 activities - updated with `[[word|translation]]`).
+- [x] Generate Unit 1 (50 activities - updated with `[[word|translation]]`).
 - [x] Generate Unit 2 (50 activities - updated with `[[word|translation]]`).
-- [x] Generate Units 3-10 (50 activities each).
-- [x] Generate Units 11-20 (50 activities each).
-- [x] Generate Units 21-30 (50 activities each).
+- [x] Generate Units 3-10 (50 activities each - updated with `[[word|translation]]`).
+- [x] Generate Units 11-20 (50 activities each - updated with `[[word|translation]]`).
+- [x] Generate Units 21-30 (50 activities each - updated with `[[word|translation]]`).
 - [x] Export all units in `index.ts`.
+- [x] Fixed export naming inconsistency (unit1-unit5).
+- [x] Enhanced C1 Debug Preview with "Complete Unit/Course" functionality.
+
+#### Phase 3: Final Verification & Polishing
+- [ ] Verify hover translations across all 30 units.
+- [ ] Run final type-check and lint.
+- [ ] Final E2E test verification (optional but recommended).

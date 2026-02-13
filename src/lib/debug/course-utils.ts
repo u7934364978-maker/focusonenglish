@@ -114,3 +114,52 @@ export async function markFullB2CourseAsCompleted(userId: string): Promise<Compl
     return { success: false, message: error.message };
   }
 }
+
+/**
+ * Marks the entire C1 course as completed.
+ */
+export async function markFullC1CourseAsCompleted(userId: string): Promise<CompletionResult> {
+  try {
+    const level = 'C1';
+    const goal = 'trabajo';
+    const moduleId = 'debug-c1';
+    
+    // Total units to complete
+    const totalUnits = 30;
+    let completedCount = 0;
+
+    for (let i = 1; i <= totalUnits; i++) {
+      const unitId = `unit-${i}`;
+      let exercises: any[] = [];
+
+      try {
+        const module = await import(`@/lib/c1-units/unit-${i}`);
+        const unitData = module[`unit${i}`];
+        
+        if (unitData && unitData.exercises) {
+          exercises = unitData.exercises.flatMap((block: any) => 
+            block.questions.map((q: any) => ({
+              id: q.id
+            }))
+          );
+        }
+
+        const exerciseIds = exercises.map(ex => ex.id);
+        if (exerciseIds.length > 0) {
+          await markUnitAsCompleted(userId, level, goal, moduleId, unitId, exerciseIds);
+          completedCount++;
+        }
+      } catch (err) {
+        console.error(`Error processing C1 unit ${i}:`, err);
+      }
+    }
+
+    return { 
+      success: true, 
+      message: `Completed ${completedCount} units of C1 course.` 
+    };
+  } catch (error: any) {
+    console.error('Error in markFullC1CourseAsCompleted:', error);
+    return { success: false, message: error.message };
+  }
+}

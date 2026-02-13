@@ -36,3 +36,8 @@
    - **Action**: Fix syntax errors in [./src/lib/c1-units/unit-21.ts](./src/lib/c1-units/unit-21.ts) and others.
    - **Details**: Unescaped single quotes were causing webpack errors. Also fixed incorrect imports in [./src/lib/course-data-c1.ts](./src/lib/course-data-c1.ts).
    - **Verification**: Run `npm run build` - Build completed successfully.
+
+7. **[x] Task 7: Fix C1 Preview Page Exception**
+   - **Action**: Modify [./src/app/debug/c1-preview/[unitId]/page.tsx](./src/app/debug/c1-preview/%5BunitId%5D/page.tsx) and [./src/lib/debug/course-utils.ts](./src/lib/debug/course-utils.ts).
+   - **Details**: Fixed client-side exception caused by incorrect exercise structure mapping. Added Debug Panel for C1 course.
+   - **Verification**: Verify that `/debug/c1-preview/unit-1` loads correctly.
