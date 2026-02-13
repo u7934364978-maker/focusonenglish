@@ -111,21 +111,29 @@ export const UNIT_15_EXERCISES: Exercise[] = [
   },
   {
     "id": "b1-u15-e5",
-    "type": "flashcard",
+    "type": "multiple-choice",
     "level": "B1",
     "topic": "Urban Life, Places & Housing",
     "difficulty": "medium",
+    "transcript": "A detached house doesn't share any walls with another house.",
     "content": {
       "title": "Tipos de Vivienda",
-      "instructions": "Aprende los diferentes tipos de casas.",
-      "items": [
-        { "front": "Detached house", "back": "Casa independiente (no pegada a otra)" },
-        { "front": "Semi-detached house", "back": "Casa pareada (pegada a otra por un lado)" },
-        { "front": "Terraced house", "back": "Casa adosada (en una fila de casas)" },
-        { "front": "Flat / Apartment", "back": "Piso / Apartamento" },
-        { "front": "Cottage", "back": "Casa de campo / Casita rural" }
+      "instructions": "Elige el término para una casa independiente.",
+      "questions": [
+        {
+          "question": "[[A|Una]] _______ [[house|casa]] [[doesn't|no]] [[share|comparte]] [[any|ninguna]] [[walls|pared]] [[with|con]] [[another|otra]].",
+          "options": [
+            "[[detached|independiente]]",
+            "[[terraced|adosada]]",
+            "[[semi-detached|pareada]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Detached' describe una casa que está separada de las demás.",
+          "audio": "audio/b1/unit-15/e5.mp3"
+        }
       ]
     },
+    "audioUrl": "audio/b1/unit-15/e5.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -265,21 +273,29 @@ export const UNIT_15_EXERCISES: Exercise[] = [
   },
   {
     "id": "b1-u15-e11",
-    "type": "flashcard",
+    "type": "multiple-choice",
     "level": "B1",
     "topic": "Urban Life, Places & Housing",
     "difficulty": "medium",
+    "transcript": "The town hall is the building where the city government is located.",
     "content": {
-      "title": "Lugares en la Ciudad",
-      "instructions": "Aprende vocabulario sobre instalaciones urbanas.",
-      "items": [
-        { "front": "Town Hall", "back": "Ayuntamiento" },
-        { "front": "Department store", "back": "Grandes almacenes" },
-        { "front": "Harbor / Port", "back": "Puerto" },
-        { "front": "Pedestrian zone", "back": "Zona peatonal" },
-        { "front": "Outskirts", "back": "Afueras / Periferia" }
+      "title": "Edificios públicos",
+      "instructions": "Elige el término para el ayuntamiento.",
+      "questions": [
+        {
+          "question": "[[The|El]] _______ [[is|es]] [[the|el]] [[building|edificio]] [[where|donde]] [[the|la]] [[city|ciudad]] [[government|gobierno]] [[is|está]].",
+          "options": [
+            "[[town hall|ayuntamiento]]",
+            "[[department store|grandes almacenes]]",
+            "[[harbor|puerto]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Town hall' es la sede del gobierno local o ayuntamiento.",
+          "audio": "audio/b1/unit-15/e11.mp3"
+        }
       ]
     },
+    "audioUrl": "audio/b1/unit-15/e11.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -389,5 +405,950 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     },
     "audioUrl": "audio/b1/unit-15/e15.mp3",
     "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u15-e16",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Urban Life, Places & Housing",
+    "difficulty": "medium",
+    "transcript": "A terraced house is part of a row of similar houses joined together.",
+    "content": {
+      "title": "Viviendas en hilera",
+      "instructions": "Elige el término para una casa adosada en una fila.",
+      "questions": [
+        {
+          "question": "[[A|Una]] _______ [[house|casa]] [[is|es]] [[part|parte]] [[of|de]] [[a|una]] [[row|fila]] [[of|de]] [[houses|casas]].",
+          "options": [
+            "[[terraced|adosada]]",
+            "[[cottage|casa de campo]]",
+            "[[skyscraper|rascacielos]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Terraced house' es una casa que forma parte de una hilera de casas unidas.",
+          "audio": "audio/b1/unit-15/e16.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-15/e16.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u15-e17",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Urban Life, Places & Housing",
+    "difficulty": "medium",
+    "transcript": "The library, where I study every day, is very quiet.",
+    "content": {
+      "title": "Relativos de lugar",
+      "instructions": "Selecciona el relativo adecuado para un lugar con información extra.",
+      "questions": [
+        {
+          "question": "[[The|La]] [[library|biblioteca]], _______ [[I|yo]] [[study|estudio]], [[is|es]] [[very|muy]] [[quiet|tranquila]].",
+          "options": [
+            "[[where|donde]]",
+            "[[which|la cual]]",
+            "[[that|que]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Where' se utiliza para referirse a lugares en oraciones de relativo.",
+          "audio": "audio/b1/unit-15/e17.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-15/e17.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u15-e18",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Urban Life, Places & Housing",
+    "difficulty": "medium",
+    "transcript": "Traffic jams are very common during rush hour.",
+    "content": {
+      "title": "Tráfico en la ciudad",
+      "instructions": "Elige el término para el atasco de tráfico.",
+      "questions": [
+        {
+          "question": "[[Traffic|Los]] _______ [[are|son]] [[very|muy]] [[common|comunes]] [[during|durante]] [[rush|hora]] [[hour|punta]].",
+          "options": [
+            "[[jams|atascos]]",
+            "[[lights|semáforos]]",
+            "[[signs|señales]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Traffic jams' son los embotellamientos o atascos de vehículos.",
+          "audio": "audio/b1/unit-15/e18.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-15/e18.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u15-e19",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Urban Life, Places & Housing",
+    "difficulty": "medium",
+    "transcript": "The bridge was designed by a famous engineer.",
+    "content": {
+      "title": "Voz Pasiva (Agente)",
+      "instructions": "Selecciona la preposición correcta para introducir al agente.",
+      "questions": [
+        {
+          "question": "[[The|El]] [[bridge|puente]] [[was|fue]] [[designed|diseñado]] _______ [[a|un]] [[famous|famoso]] [[engineer|ingeniero]].",
+          "options": [
+            "[[by|por]]",
+            "[[for|para]]",
+            "[[from|de]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "En la voz pasiva, el agente se introduce con la preposición 'by'.",
+          "audio": "audio/b1/unit-15/e19.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-15/e19.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u15-e20",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Urban Life, Places & Housing",
+    "difficulty": "medium",
+    "transcript": "Pedestrians should use the crosswalk to cross the street safely.",
+    "content": {
+      "title": "Seguridad Vial",
+      "instructions": "Elige el término para los peatones.",
+      "questions": [
+        {
+          "question": "_______ [[should|deberían]] [[use|usar]] [[the|el]] [[crosswalk|paso de cebra]].",
+          "options": [
+            "[[Pedestrians|Los peatones]]",
+            "[[Drivers|Los conductores]]",
+            "[[Cyclists|Los ciclistas]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Pedestrians' son las personas que caminan por la calle.",
+          "audio": "audio/b1/unit-15/e20.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-15/e20.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u15-e21",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Urban Life, Places & Housing",
+    "difficulty": "medium",
+    "transcript": "This is the car which I bought last month.",
+    "content": {
+      "title": "Relativos de objeto",
+      "instructions": "Elige el relativo para objetos.",
+      "questions": [
+        {
+          "question": "[[This|Este]] [[is|es]] [[the|el]] [[car|coche]] _______ [[I|yo]] [[bought|compré]] [[last|el mes]] [[month|pasado]].",
+          "options": [
+            "[[which|que/el cual]]",
+            "[[who|quien]]",
+            "[[where|donde]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Which' se usa para referirse a objetos o animales.",
+          "audio": "audio/b1/unit-15/e21.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-15/e21.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u15-e22",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Urban Life, Places & Housing",
+    "difficulty": "medium",
+    "transcript": "The outskirts are the parts of a town or city that are furthest from the center.",
+    "content": {
+      "title": "Periferia",
+      "instructions": "Selecciona el término para las afueras de la ciudad.",
+      "questions": [
+        {
+          "question": "[[The|Las]] _______ [[are|son]] [[the|las]] [[parts|partes]] [[furthest|más lejanas]] [[from|del]] [[the| ]] [[center|centro]].",
+          "options": [
+            "[[outskirts|afueras]]",
+            "[[downtown|centro]]",
+            "[[subway|metro]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Outskirts' se refiere a la periferia o las afueras de una ciudad.",
+          "audio": "audio/b1/unit-15/e22.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-15/e22.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u15-e23",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Urban Life, Places & Housing",
+    "difficulty": "medium",
+    "transcript": "Is this the man whose keys you found?",
+    "content": {
+      "title": "Relativo posesivo (Pregunta)",
+      "instructions": "Elige el relativo de posesión para personas.",
+      "questions": [
+        {
+          "question": "[[Is|¿Es]] [[this|este]] [[the|el]] [[man|hombre]] _______ [[keys|llaves]] [[you|has]] [[found|encontrado]]?",
+          "options": [
+            "[[whose|cuyas]]",
+            "[[who|quien]]",
+            "[[which|cual]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Whose' indica posesión (cuyas llaves).",
+          "audio": "audio/b1/unit-15/e23.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-15/e23.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u15-e24",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Urban Life, Places & Housing",
+    "difficulty": "medium",
+    "transcript": "The harbor is where ships and boats stay in the water.",
+    "content": {
+      "title": "Puerto",
+      "instructions": "Selecciona el término para el puerto.",
+      "questions": [
+        {
+          "question": "[[The|El]] _______ [[is|es]] [[where|donde]] [[ships|barcos]] [[and|y]] [[boats|botes]] [[stay|se quedan]].",
+          "options": [
+            "[[harbor|puerto]]",
+            "[[station|estación]]",
+            "[[airport|aeropuerto]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Harbor' o 'port' es el lugar donde atracan los barcos.",
+          "audio": "audio/b1/unit-15/e24.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-15/e24.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u15-e25",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Urban Life, Places & Housing",
+    "difficulty": "medium",
+    "transcript": "The letters are delivered every morning by the postman.",
+    "content": {
+      "title": "Voz Pasiva (Presente)",
+      "instructions": "Elige la forma correcta de la pasiva en presente simple plural.",
+      "questions": [
+        {
+          "question": "[[The|Las]] [[letters|cartas]] _______ [[delivered|entregadas]] [[every|cada]] [[morning|mañana]].",
+          "options": [
+            "[[are|son]]",
+            "[[is|es]]",
+            "[[were|fueron]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Para el plural en presente pasivo se usa 'are' + participio pasado.",
+          "audio": "audio/b1/unit-15/e25.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-15/e25.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u15-e26",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Urban Life, Places & Housing",
+    "difficulty": "medium",
+    "transcript": "A department store is a large shop divided into several sections.",
+    "content": {
+      "title": "Grandes almacenes",
+      "instructions": "Elige el término para una gran tienda con secciones.",
+      "questions": [
+        {
+          "question": "[[A|Un]] _______ [[store| ]] [[is|es]] [[a|una]] [[large|grande]] [[shop|tienda]].",
+          "options": [
+            "[[department|grandes almacenes]]",
+            "[[grocery|tienda de comestibles]]",
+            "[[corner|tienda de esquina]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Department store' se refiere a tiendas grandes como El Corte Inglés o Macy's.",
+          "audio": "audio/b1/unit-15/e26.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-15/e26.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u15-e27",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Urban Life, Places & Housing",
+    "difficulty": "medium",
+    "transcript": "The woman who lives next door is very friendly.",
+    "content": {
+      "title": "Vecinos",
+      "instructions": "Selecciona el relativo adecuado para una persona.",
+      "questions": [
+        {
+          "question": "[[The|La]] [[woman|mujer]] _______ [[lives|vive]] [[next|al]] [[door|lado]] [[is|es]] [[very|muy]] [[friendly|amable]].",
+          "options": [
+            "[[who|que]]",
+            "[[which|cual]]",
+            "[[where|donde]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Who' es el relativo para personas.",
+          "audio": "audio/b1/unit-15/e27.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-15/e27.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u15-e28",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Urban Life, Places & Housing",
+    "difficulty": "medium",
+    "transcript": "The park is located right in the heart of the city.",
+    "content": {
+      "title": "Centro Urbano",
+      "instructions": "Selecciona la expresión para el centro mismo de la ciudad.",
+      "questions": [
+        {
+          "question": "[[The|El]] [[park|parque]] [[is|está]] [[located|situado]] [[in|en]] [[the|el]] _______ [[of|de]] [[the|la]] [[city|ciudad]].",
+          "options": [
+            "[[heart|corazón/centro]]",
+            "[[foot|pie]]",
+            "[[hand|mano]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'In the heart of the city' es una expresión para referirse al centro neurálgico.",
+          "audio": "audio/b1/unit-15/e28.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-15/e28.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u15-e29",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Urban Life, Places & Housing",
+    "difficulty": "medium",
+    "transcript": "Our office is being repainted this week.",
+    "content": {
+      "title": "Reformas",
+      "instructions": "Elige la forma correcta de la pasiva continua en singular.",
+      "questions": [
+        {
+          "question": "[[Our|Nuestra]] [[office|oficina]] _______ [[repainted|repintada]] [[this|esta]] [[week|semana]].",
+          "options": [
+            "[[is being|está siendo]]",
+            "[[was|fue]]",
+            "[[has been|ha sido]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "La pasiva continua presente se forma con 'is being' + participio.",
+          "audio": "audio/b1/unit-15/e29.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-15/e29.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u15-e30",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Urban Life, Places & Housing",
+    "difficulty": "medium",
+    "transcript": "A residential area is a part of a city where there are mainly houses and not shops or factories.",
+    "content": {
+      "title": "Zonas residenciales",
+      "instructions": "Elige el término para una zona de viviendas.",
+      "questions": [
+        {
+          "question": "[[A|Una]] _______ [[area|zona]] [[is|es]] [[where|donde]] [[people|la gente]] [[live|vive]].",
+          "options": [
+            "[[residential|residencial]]",
+            "[[industrial|industrial]]",
+            "[[commercial|comercial]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Residential area' es una zona destinada principalmente a viviendas.",
+          "audio": "audio/b1/unit-15/e30.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-15/e30.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u15-e31",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Urban Life, Places & Housing",
+    "difficulty": "medium",
+    "transcript": "The book, which I read last night, was very interesting.",
+    "content": {
+      "title": "Relativos con comas",
+      "instructions": "Selecciona el relativo para añadir información sobre un libro.",
+      "questions": [
+        {
+          "question": "[[The|El]] [[book|libro]], _______ [[I|yo]] [[read|leí]], [[was|fue]] [[very|muy]] [[interesting|interesante]].",
+          "options": [
+            "[[which|que]]",
+            "[[that|que]]",
+            "[[who|quien]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "En oraciones de relativo no especificativas (con comas) usamos 'which', no 'that'.",
+          "audio": "audio/b1/unit-15/e31.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-15/e31.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u15-e32",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Urban Life, Places & Housing",
+    "difficulty": "medium",
+    "transcript": "A pedestrian zone is an area where cars are not allowed.",
+    "content": {
+      "title": "Zonas peatonales",
+      "instructions": "Elige el término para una zona sin coches.",
+      "questions": [
+        {
+          "question": "[[A|Una]] _______ [[zone|zona]] [[is|es]] [[for|para]] [[people|gente]] [[walking|caminando]].",
+          "options": [
+            "[[pedestrian|peatonal]]",
+            "[[parking|de aparcamiento]]",
+            "[[driving|de conducción]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Pedestrian zone' es una calle o área reservada para los peatones.",
+          "audio": "audio/b1/unit-15/e32.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-15/e32.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u15-e33",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Urban Life, Places & Housing",
+    "difficulty": "medium",
+    "transcript": "The cake was eaten by the children.",
+    "content": {
+      "title": "Voz Pasiva (Pasado Singular)",
+      "instructions": "Elige la forma correcta de la pasiva en pasado simple singular.",
+      "questions": [
+        {
+          "question": "[[The|La]] [[cake|tarta]] _______ [[eaten|comida]] [[by|por]] [[the|los]] [[children|niños]].",
+          "options": [
+            "[[was|fue]]",
+            "[[were|fueron]]",
+            "[[is|es]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Para el singular en pasado pasivo se usa 'was' + participio pasado.",
+          "audio": "audio/b1/unit-15/e33.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-15/e33.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u15-e34",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Urban Life, Places & Housing",
+    "difficulty": "medium",
+    "transcript": "A cottage is a small house, usually in the countryside.",
+    "content": {
+      "title": "Casas de campo",
+      "instructions": "Elige el término para una casa pequeña de campo.",
+      "questions": [
+        {
+          "question": "[[A|Una]] _______ [[is|es]] [[a|una]] [[small|pequeña]] [[house|casa]] [[in|en]] [[the|el]] [[countryside|campo]].",
+          "options": [
+            "[[cottage|casa de campo]]",
+            "[[skyscraper|rascacielos]]",
+            "[[flat|piso]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Cottage' es el término para una casa rural o de campo pequeña.",
+          "audio": "audio/b1/unit-15/e34.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-15/e34.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u15-e35",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Urban Life, Places & Housing",
+    "difficulty": "medium",
+    "transcript": "I know a place where you can get the best pizza.",
+    "content": {
+      "title": "Relativos sin comas",
+      "instructions": "Selecciona el relativo de lugar para una oración especificativa.",
+      "questions": [
+        {
+          "question": "[[I|Yo]] [[know|conozco]] [[a|un]] [[place|lugar]] _______ [[you|tú]] [[can|puedes]] [[get|conseguir]] [[pizza|pizza]].",
+          "options": [
+            "[[where|donde]]",
+            "[[which|el cual]]",
+            "[[who|quien]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Where' se usa para referirse a lugares.",
+          "audio": "audio/b1/unit-15/e35.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-15/e35.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u15-e36",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Urban Life, Places & Housing",
+    "difficulty": "medium",
+    "transcript": "A semi-detached house is joined to another house on one side only.",
+    "content": {
+      "title": "Casas pareadas",
+      "instructions": "Elige el término para una casa unida a otra por un lado.",
+      "questions": [
+        {
+          "question": "[[A|Una]] _______ [[house|casa]] [[is|es]] [[joined|unida]] [[on|en]] [[one|un]] [[side|lado]].",
+          "options": [
+            "[[semi-detached|pareada]]",
+            "[[detached|independiente]]",
+            "[[terraced|adosada]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Semi-detached house' es una casa que comparte una pared con otra.",
+          "audio": "audio/b1/unit-15/e36.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-15/e36.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u15-e37",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Urban Life, Places & Housing",
+    "difficulty": "medium",
+    "transcript": "The bridge was built in the 19th century.",
+    "content": {
+      "title": "Infraestructura Histórica",
+      "instructions": "Elige la forma correcta de la pasiva en pasado.",
+      "questions": [
+        {
+          "question": "[[The|El]] [[bridge|puente]] _______ [[built|construido]] [[in|en]] [[the|el]] [[19th|siglo XIX]] [[century| ]].",
+          "options": [
+            "[[was|fue]]",
+            "[[is|es]]",
+            "[[were|fueron]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'The bridge' es singular, por lo que usamos 'was'.",
+          "audio": "audio/b1/unit-15/e37.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-15/e37.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u15-e38",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Urban Life, Places & Housing",
+    "difficulty": "medium",
+    "transcript": "The city center is always lively and full of energy.",
+    "content": {
+      "title": "Ambiente Urbano",
+      "instructions": "Selecciona el adjetivo que significa 'animado'.",
+      "questions": [
+        {
+          "question": "[[The|El]] [[city|centro]] [[center|urbano]] [[is|es]] [[always|siempre]] _______.",
+          "options": [
+            "[[lively|animado]]",
+            "[[boring|aburrido]]",
+            "[[empty|vacío]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Lively' describe un lugar lleno de vida y actividad.",
+          "audio": "audio/b1/unit-15/e38.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-15/e38.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u15-e39",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Urban Life, Places & Housing",
+    "difficulty": "medium",
+    "transcript": "He's the guy who helped me with my luggage.",
+    "content": {
+      "title": "Ayuda en la ciudad",
+      "instructions": "Selecciona el relativo adecuado para una persona.",
+      "questions": [
+        {
+          "question": "[[He's|Él es]] [[the|el]] [[guy|chico]] _______ [[helped|ayudó]] [[me|me]].",
+          "options": [
+            "[[who|que]]",
+            "[[which|el cual]]",
+            "[[where|donde]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Who' es el relativo para personas.",
+          "audio": "audio/b1/unit-15/e39.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-15/e39.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u15-e40",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Urban Life, Places & Housing",
+    "difficulty": "medium",
+    "transcript": "Pollution is a major problem in many large cities.",
+    "content": {
+      "title": "Problemas Ambientales",
+      "instructions": "Elige el término para la contaminación.",
+      "questions": [
+        {
+          "question": "_______ [[is|es]] [[a|un]] [[major|gran]] [[problem|problema]].",
+          "options": [
+            "[[Pollution|La contaminación]]",
+            "[[Nature|La naturaleza]]",
+            "[[Weather|El tiempo]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Pollution' se refiere a la contaminación del aire, agua o suelo.",
+          "audio": "audio/b1/unit-15/e40.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-15/e40.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u15-e41",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Urban Life, Places & Housing",
+    "difficulty": "medium",
+    "transcript": "The decision was made after a long discussion.",
+    "content": {
+      "title": "Decisiones",
+      "instructions": "Elige la forma correcta de la pasiva en pasado simple.",
+      "questions": [
+        {
+          "question": "[[The|La]] [[decision|decisión]] _______ [[made|tomada]].",
+          "options": [
+            "[[was|fue]]",
+            "[[were|fueron]]",
+            "[[is|es]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Decision' es singular, por lo que usamos 'was'.",
+          "audio": "audio/b1/unit-15/e41.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-15/e41.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u15-e42",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Urban Life, Places & Housing",
+    "difficulty": "medium",
+    "transcript": "I live on the outskirts of the city, so I have a long commute.",
+    "content": {
+      "title": "Desplazamientos",
+      "instructions": "Elige el término para el trayecto al trabajo.",
+      "questions": [
+        {
+          "question": "[[I|Yo]] [[have|tengo]] [[a|un]] [[long|largo]] _______.",
+          "options": [
+            "[[commute|trayecto al trabajo]]",
+            "[[walk|camino]]",
+            "[[flight|vuelo]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Commute' es el viaje diario de ida y vuelta al trabajo.",
+          "audio": "audio/b1/unit-15/e42.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-15/e42.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u15-e43",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Urban Life, Places & Housing",
+    "difficulty": "medium",
+    "transcript": "This is the computer that I use for work.",
+    "content": {
+      "title": "Herramientas de trabajo",
+      "instructions": "Selecciona el relativo para un objeto en oración especificativa.",
+      "questions": [
+        {
+          "question": "[[This|Este]] [[is|es]] [[the|el]] [[computer|ordenador]] _______ [[I|yo]] [[use|uso]].",
+          "options": [
+            "[[that|que]]",
+            "[[who|quien]]",
+            "[[where|donde]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'That' se puede usar para objetos en oraciones especificativas.",
+          "audio": "audio/b1/unit-15/e43.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-15/e43.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u15-e44",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Urban Life, Places & Housing",
+    "difficulty": "medium",
+    "transcript": "Many cities are trying to reduce their carbon footprint.",
+    "content": {
+      "title": "Ecología Urbana",
+      "instructions": "Elige el término para la huella de carbono.",
+      "questions": [
+        {
+          "question": "[[Carbon|Huella de]] _______.",
+          "options": [
+            "[[footprint|carbono]]",
+            "[[track|camino]]",
+            "[[handprint|mano]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Carbon footprint' es el impacto ambiental de las emisiones de carbono.",
+          "audio": "audio/b1/unit-15/e44.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-15/e44.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u15-e45",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Urban Life, Places & Housing",
+    "difficulty": "medium",
+    "transcript": "The new rules are followed by everyone.",
+    "content": {
+      "title": "Normas Urbanas",
+      "instructions": "Elige la forma correcta de la pasiva en presente simple plural.",
+      "questions": [
+        {
+          "question": "[[The|Las]] [[new|nuevas]] [[rules|normas]] _______ [[followed|seguidas]].",
+          "options": [
+            "[[are|son]]",
+            "[[is|es]]",
+            "[[were|fueron]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Rules' es plural, por lo que usamos 'are'.",
+          "audio": "audio/b1/unit-15/e45.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-15/e45.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u15-e46",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Urban Life, Places & Housing",
+    "difficulty": "medium",
+    "transcript": "A bungalow is a house with only one level.",
+    "content": {
+      "title": "Casas de una planta",
+      "instructions": "Elige el término para una casa sin escaleras.",
+      "questions": [
+        {
+          "question": "[[A|Un]] _______ [[is|es]] [[a|una]] [[house|casa]] [[on|en]] [[one|un]] [[level|nivel]].",
+          "options": [
+            "[[bungalow|bungalow]]",
+            "[[skyscraper|rascacielos]]",
+            "[[flat|piso]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Bungalow' es una casa de una sola planta.",
+          "audio": "audio/b1/unit-15/e46.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-15/e46.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u15-e47",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Urban Life, Places & Housing",
+    "difficulty": "medium",
+    "transcript": "The car which was stolen has been found.",
+    "content": {
+      "title": "Coches robados",
+      "instructions": "Selecciona el relativo para un coche en oración especificativa.",
+      "questions": [
+        {
+          "question": "[[The|El]] [[car|coche]] _______ [[was|fue]] [[stolen|robado]].",
+          "options": [
+            "[[which|que]]",
+            "[[who|quien]]",
+            "[[where|donde]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Which' se usa para objetos.",
+          "audio": "audio/b1/unit-15/e47.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-15/e47.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u15-e48",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Urban Life, Places & Housing",
+    "difficulty": "medium",
+    "transcript": "Recycling is important for the environment.",
+    "content": {
+      "title": "Sostenibilidad",
+      "instructions": "Elige el término para el reciclaje.",
+      "questions": [
+        {
+          "question": "_______ [[is|es]] [[important|importante]].",
+          "options": [
+            "[[Recycling|El reciclaje]]",
+            "[[Waste|El desperdicio]]",
+            "[[Litter|La basura]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Recycling' es el proceso de convertir desechos en nuevos productos.",
+          "audio": "audio/b1/unit-15/e48.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-15/e48.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u15-e49",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Urban Life, Places & Housing",
+    "difficulty": "medium",
+    "transcript": "The students are taught by experienced teachers.",
+    "content": {
+      "title": "Educación",
+      "instructions": "Elige la forma correcta de la pasiva en presente simple plural.",
+      "questions": [
+        {
+          "question": "[[The|Los]] [[students|estudiantes]] _______ [[taught|enseñados]].",
+          "options": [
+            "[[are|son]]",
+            "[[is|es]]",
+            "[[was|fueron]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Students' es plural, por lo que usamos 'are'.",
+          "audio": "audio/b1/unit-15/e49.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-15/e49.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u15-e50",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Urban Life, Places & Housing",
+    "difficulty": "medium",
+    "transcript": "A skyscraper is an iconic part of many city skylines.",
+    "content": {
+      "title": "Paisaje Urbano",
+      "instructions": "Elige el término para el horizonte de la ciudad.",
+      "questions": [
+        {
+          "question": "[[City|Horizonte]] _______.",
+          "options": [
+            "[[skyline|urbano]]",
+            "[[landscape|paisaje]]",
+            "[[view|vista]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Skyline' es la silueta de los edificios de una ciudad contra el cielo.",
+          "audio": "audio/b1/unit-15/e50.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-15/e50.mp3",
+    "topicName": "Vocabulary"
   }
 ];

@@ -1,30 +1,13 @@
-# Technical Specification - B1 Unit 15: Urban Life, Places & Housing
-
-## Technical Context
-- **Language**: TypeScript
-- **Framework**: Next.js 15 (App Router)
-- **Data Structure**: `Exercise` interface from `@/lib/exercise-generator` or `@/lib/exercise-types`.
+# Technical Specification - B1 Unit 15 Extension
 
 ## Implementation Approach
-1. **Content Generation**: Create 15-20 exercises following the `Exercise` type structure.
-2. **Exercise Types to Use**:
-   - `multiple-choice`: For grammar (relative clauses, passive voice) and vocabulary.
-   - `flashcard`: For key vocabulary terms.
-   - `fill-in-the-blanks`: For context-based practice.
-3. **ID Mapping**: Use `b1-u15-e1`, `b1-u15-e2`, etc.
-4. **Integration**: Unit 15 is already imported and registered in `src/lib/course/b1/index.ts`, so populating `unit-15.ts` will automatically update the course data.
+1. **Refactor Unit 15**: Remove existing flashcards and update existing exercises to strictly follow the Unit 14 pattern (mostly `multiple-choice`).
+2. **Expansion**: Generate 35 additional exercises to reach a total of 50.
+3. **Consistency**: Use the same structure for all exercises: `id`, `type`, `level`, `topic`, `difficulty`, `transcript`, `content` (with `title`, `instructions`, `questions` containing `question`, `options`, `correctAnswer`, `explanation`, `audio`), `audioUrl`, `topicName`.
 
 ## Source Code Changes
-- `src/lib/course/b1/unit-15.ts`: Major update to populate the `UNIT_15_EXERCISES` array.
+- `src/lib/course/b1/unit-15.ts`: Full rewrite to include 50 exercises.
 
-## Verification Approach
-- **Manual Test**: Navigate to `/debug/b1-preview/unit-15` in the local development environment.
-- **Automated Checks**:
-  - `npm run lint`: Ensure no linting errors in the new content.
-  - `npm run typecheck`: Ensure types are correct.
-
-## Delivery Phases
-1. **Phase 1**: Vocabulary and Flashcards.
-2. **Phase 2**: Grammar exercises (Relative Clauses).
-3. **Phase 3**: Grammar exercises (Passive Voice & Prepositions).
-4. **Phase 4**: Review and Final Polish.
+## Verification
+- Browser preview at `/debug/b1-preview/unit-15` to ensure all 50 exercises load and function.
+- `npm run lint`.
