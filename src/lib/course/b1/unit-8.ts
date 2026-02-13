@@ -1,9 +1,9 @@
 
-import {
-    "id": "b1-u8-e1", Exercise } from '@/lib/exercise-generator';
+import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_8_EXERCISES: Exercise[] = [
   {
+    "id": "b1-u8-e1",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",

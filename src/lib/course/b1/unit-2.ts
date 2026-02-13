@@ -1,9 +1,9 @@
 
-import {
-    "id": "b1-u2-e1", Exercise } from '@/lib/exercise-generator';
+import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_2_EXERCISES: Exercise[] = [
   {
+    "id": "b1-u2-e1",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Life Stories & Biographies",
