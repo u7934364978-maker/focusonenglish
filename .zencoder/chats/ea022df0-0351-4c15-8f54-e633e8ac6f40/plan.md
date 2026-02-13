@@ -50,7 +50,12 @@
 2. [x] Generate 50 exercises for `src/lib/course/b1/unit-20.ts`.
 3. [x] Verify implementation in browser at `/debug/b1-preview/unit-20`.
 
-### [ ] Step: Implementation Unit 21
-1. [ ] Define requirements for Unit 21 (Environment & Sustainability, 50 exercises, complex structure).
-2. [ ] Generate 50 exercises for `src/lib/course/b1/unit-21.ts`.
-3. [ ] Verify implementation in browser at `/debug/b1-preview/unit-21`.
+### [x] Step: Implementation Unit 21
+1. [x] Define requirements for Unit 21 (Environment & Sustainability, 50 exercises, complex structure).
+2. [x] Generate 50 exercises for `src/lib/course/b1/unit-21.ts`.
+3. [x] Verify implementation in browser at `/debug/b1-preview/unit-21`.
+
+### [ ] Step: Implementation Unit 22
+1. [ ] Define requirements for Unit 22 (Science & Technology, 50 exercises, complex structure).
+2. [ ] Generate 50 exercises for `src/lib/course/b1/unit-22.ts`.
+3. [ ] Verify implementation in browser at `/debug/b1-preview/unit-22`.
