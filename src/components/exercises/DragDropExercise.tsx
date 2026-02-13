@@ -177,7 +177,7 @@ export default function DragDropExercise({ content, vocabulary, onComplete }: Dr
                       : 'border-slate-200 hover:border-orange-300'
                   }`}
                 >
-                  <span className="pointer-events-none">
+                  <span className="flex items-center gap-2">
                     <TranslatedText text={item.text} />
                   </span>
                   {!submitted && <Minus className="w-3 h-3 opacity-30" />}
@@ -203,7 +203,7 @@ export default function DragDropExercise({ content, vocabulary, onComplete }: Dr
                   onClick={() => toggleWord(item, 'available')}
                   className="px-4 py-2 bg-slate-50 hover:bg-slate-100 text-slate-700 rounded-xl border border-slate-200 font-bold text-lg transition-all flex items-center gap-2"
                 >
-                  <span className="pointer-events-none">
+                  <span className="flex items-center gap-2">
                     <TranslatedText text={item.text} />
                   </span>
                   <Plus className="w-3 h-3 opacity-30" />
