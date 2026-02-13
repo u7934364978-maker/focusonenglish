@@ -1,41 +1,39 @@
-# Technical Specification - Reduce Word Count in Unit 29 Sentence Building Exercises
+# Technical Specification - Simplify Unit 30 Sentence Building Exercises
 
 ## Technical Context
 - **Language**: TypeScript
-- **Framework**: Next.js (content defined in TS files)
-- **File**: `src/lib/course/b1/unit-29.ts`
+- **File**: `src/lib/course/b1/unit-30.ts`
+- **Goal**: Ensure exercises `b1-u30-e26` to `b1-u30-e30` have 8-10 words.
 
 ## Implementation Approach
-I will manually rewrite the four identified exercises to meet the 8-10 word count constraint while keeping the B1 level and travel theme.
+I will modify the existing `sentence-building` exercises at the end of the `UNIT_30_EXERCISES` array.
 
-### Proposed Changes
+### Proposed Simplifications
 
-#### Exercise `b1-u29-e3`
-- **Current**: "If you are looking for a unique travel experience, you should definitely consider visiting some of the remote islands located in the southern part of the Pacific Ocean." (27 words)
-- **New (Proposed)**: "[[You|Tú]] [[should|deberías]] [[consider|considerar]] [[visiting|visitar]] [[remote|islas]] [[islands|remotas]] [[for|para]] [[a|una]] [[unique|experiencia]] [[experience|única]]." (10 words)
-- **Transcript**: "You should consider visiting remote islands for a unique experience."
+#### 1. Exercise `b1-u30-e26`
+- **Current**: "Ancient civilizations developed unique writing systems to record their laws and religious beliefs for future generations." (16 words)
+- **New**: "[[Ancient|Las antiguas]] [[civilizations|civilizaciones]] [[developed|desarrollaron]] [[unique|sistemas]] [[writing|de escritura]] [[systems|únicos]] [[to|para]] [[record|registrar]] [[laws|leyes]]." (9 words)
+- **Transcript**: "Ancient civilizations developed unique writing systems to record laws."
 
-#### Exercise `b1-u29-e6`
-- **Current**: "Even though we had a very tight budget for our trip across Europe, we managed to find several hidden gems that were both affordable and absolutely beautiful." (29 words)
-- **New (Proposed)**: "[[We|Nosotros]] [[found|encontramos]] [[beautiful|hermosas]] [[hidden|joyas]] [[gems|ocultas]] [[on|con]] [[a|un]] [[very|presupuesto]] [[tight|muy]] [[budget|ajustado]]." (9 words)
-- **Transcript**: "We found beautiful hidden gems on a very tight budget."
+#### 2. Exercise `b1-u30-e27`
+- **Current**: "The construction of the great pyramids required a massive workforce and advanced engineering skills from that time." (17 words)
+- **New**: "[[Building|Construir]] [[the|las]] [[great|grandes]] [[pyramids|pirámides]] [[required|requirió]] [[advanced|habilidades de]] [[engineering|ingeniería]] [[skills|avanzadas]] [[today|hoy]]." (9 words) -> *Wait, "today" is weak.*
+- **Alternative**: "[[The|La]] [[construction|construcción]] [[of|de]] [[pyramids|pirámides]] [[required|requirió]] [[massive|una masiva]] [[workforce|fuerza laboral]] [[and|y]] [[skills|habilidades]]." (8 words)
+- **Transcript**: "The construction of pyramids required massive workforce and skills."
 
-#### Exercise `b1-u29-e9`
-- **Current**: "During our last adventure in the Amazon rainforest, our local guide showed us several species of exotic plants that had never been documented by western scientists before." (28 words)
-- **New (Proposed)**: "[[Our|Nuestro]] [[guide|guía]] [[showed|mostró]] [[us|nos]] [[exotic|plantas]] [[plants|exóticas]] [[in|en]] [[the|la]] [[Amazon|selva]] [[rainforest|amazónica]]." (9 words)
-- **Transcript**: "Our guide showed us exotic plants in the Amazon rainforest."
+#### 3. Exercise `b1-u30-e28`
+- **Current**: "Historians use primary sources such as letters and diaries to gain a better understanding of historical events." (17 words)
+- **New**: "[[Historians|Los historiadores]] [[use|usan]] [[primary|fuentes]] [[sources|primarias]] [[to|para]] [[understand|entender]] [[important|eventos]] [[historical|históricos]] [[events|importantes]]." (9 words)
+- **Transcript**: "Historians use primary sources to understand important historical events."
 
-#### Exercise `b1-u29-e12`
-- **Current**: "According to the travel blogger, the most breathtaking scenery in the entire region can only be reached after a four-hour hike through the dense forest." (26 words)
-- **New (Proposed)**: "[[The|El]] [[most|paisaje]] [[breathtaking|más]] [[scenery|impresionante]] [[is|está]] [[after|tras]] [[a|una]] [[long|larga]] [[hike|caminata]] [[today|hoy]]." (10 words) -> *Wait, "today" is weak.*
-- **Alternative (Proposed)**: "[[The|El]] [[breathtaking|impresionante]] [[scenery|paisaje]] [[is|está]] [[after|tras]] [[a|una]] [[long|larga]] [[hike|caminata]] [[through|por]] [[forests|bosques]]." (9 words)
-- **Transcript**: "The breathtaking scenery is after a long hike through forests."
+#### 4. Exercise `b1-u30-e29`
+- **New**: "[[Roman|Los ingenieros]] [[engineers|romanos]] [[built|construyeron]] [[long|largos]] [[aqueducts|acueductos]] [[to|para]] [[transport|transportar]] [[fresh|agua]] [[water|fresca]]." (9 words)
+- **Transcript**: "Roman engineers built long aqueducts to transport fresh water."
 
-## Data Structure Changes
-No changes to the schema, only content updates within `UNIT_29_EXERCISES`.
+#### 5. Exercise `b1-u30-e30`
+- **New**: "[[The|La]] [[Silk|Ruta]] [[Road|de la Seda]] [[connected|conectó]] [[different|diferentes]] [[cultures|culturas]] [[through|a través del]] [[trade|comercio]] [[and|y]] [[travel|viajes]]." (9 words)
+- **Transcript**: "The Silk Road connected different cultures through trade and travel."
 
 ## Verification Plan
-1. **Manual Inspection**: Verify word counts are between 8 and 10.
-2. **Type Check**: Run `npm run typecheck` (if available) or ensure no TS errors.
-3. **Runtime Verification**: Use the browser to check the `/debug/b1-preview/unit-29` route to ensure exercises render correctly.
-4. **E2E Test**: Write a Playwright test to verify that one of the modified exercises has the expected number of words and can be completed.
+1. **Word Count Check**: Confirm each modified exercise has 8-10 words.
+2. **App Verification**: Check `/debug/b1-preview/unit-30` to ensure exercises load and work.

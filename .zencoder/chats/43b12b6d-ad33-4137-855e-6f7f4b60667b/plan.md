@@ -12,7 +12,7 @@
 - [x] Unit 4: Health and Well-being
 - [x] Unit 5: Travel and Tourism (Fixed)
 - [x] Unit 6: Work and Careers
-- [ ] Unit 7: Education and Learning (In Progress)
+- [x] Unit 7: Education and Learning
 - [ ] Unit 8: Media and Entertainment
 - [ ] Unit 9: Crime and Punishment
 - [ ] Unit 10: Money and Finance

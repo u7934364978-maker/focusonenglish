@@ -44,14 +44,12 @@ If the feature is trivial and doesn't warrant full specification, update this wo
 
 Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/87260d5e-d83e-4d98-8c2b-f549062864e0/plan.md`.
 
-### [ ] Step: Implementation
+### [x] Step: Implementation
 
-1. [x] **Update Exercise `b1-u29-e3`**: Simplify to 8-10 words in `src/lib/course/b1/unit-29.ts`.
-2. [x] **Update Exercise `b1-u29-e6`**: Simplify to 8-10 words in `src/lib/course/b1/unit-29.ts`.
-3. [x] **Update Exercise `b1-u29-e9`**: Simplify to 8-10 words in `src/lib/course/b1/unit-29.ts`.
-4. [x] **Update Exercise `b1-u29-e12`**: Simplify to 8-10 words in `src/lib/course/b1/unit-29.ts`.
-5. [x] **Update Exercise `b1-u29-e15`**: Simplify to 8-10 words in `src/lib/course/b1/unit-29.ts`.
-6. [x] **Update Exercise `b1-u29-e18`**: Simplify to 8-10 words in `src/lib/course/b1/unit-29.ts`.
-7. [x] **Update Exercise `b1-u29-e21`**: Simplify to 8-10 words in `src/lib/course/b1/unit-29.ts`.
-8. [x] **Update Exercise `b1-u29-e24`**: Simplify to 8-10 words in `src/lib/course/b1/unit-29.ts`.
-9. [ ] **Verify Changes**: Run the app and check visually, then run tests.
+1. [x] **Simplify `b1-u30-e26`**: Reduce to 8-10 words in `src/lib/course/b1/unit-30.ts`.
+2. [x] **Simplify `b1-u30-e27`**: Reduce to 8-10 words in `src/lib/course/b1/unit-30.ts`.
+3. [x] **Simplify `b1-u30-e28`**: Reduce to 8-10 words in `src/lib/course/b1/unit-30.ts`.
+4. [x] **Implement `b1-u30-e29`**: Create a 8-10 word exercise in `src/lib/course/b1/unit-30.ts`.
+5. [x] **Implement `b1-u30-e30`**: Create a 8-10 word exercise in `src/lib/course/b1/unit-30.ts`.
+6. [x] **Verify Changes**: Check the preview route and run type checks.
+7. [ ] **Push Changes**: Commit and push the final changes.
