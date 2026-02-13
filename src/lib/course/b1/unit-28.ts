@@ -1,6 +1,6 @@
-import { Exercise } from "@/types/course";
+import { Exercise } from '@/lib/exercise-generator';
 
-export const b1Unit28: Exercise[] = [
+export const UNIT_28_EXERCISES: Exercise[] = [
   {
     "id": "b1-u28-e1",
     "type": "multiple-choice",

@@ -957,7 +957,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Elige la frase que indica que ya no tienes relación con alguien.",
       "questions": [
         {
-          "question": "[[I've|He]] [[_______|_______]] [[lost|con]] [[touch|la]] [[with|mayoría]] [[most|de]] [[of|mis]] [[my|amigos]] [[childhood|de la]] [[friends.|infancia.]]",
+          "question": "[[I've|He]] [[_______|perdido el contacto]] [[with|con]] [[most|la mayoría]] [[of|de]] [[my|mis]] [[childhood|amigos de la]] [[friends.|infancia.]]",
           "options": [
             "[[lost touch|perdido el contacto]]",
             "[[kept in touch|mantenido el contacto]]",
@@ -984,7 +984,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Choose the correct inverted conditional structure.",
       "questions": [
         {
-          "question": "[[_______|_______]] [[he|él]] [[known|hubiera]] [[the|sabido]] [[truth,|la verdad,]] [[he|se]] [[would|habría]] [[have|sentido]] [[felt|traicionado.]] [[betrayed.| ]]",
+          "question": "[[_______|Si]] [[he|él]] [[had|hubiera]] [[known|sabido]] [[the|la]] [[truth,|verdad,]] [[he|se]] [[would|habría]] [[have|sentido]] [[felt|traicionado.]] [[betrayed.| ]]",
           "options": [
             "[[Had|Si]]",
             "[[Has|Has]]",
@@ -1011,7 +1011,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Elige el phrasal verb adecuado para intercambiar noticias recientes.",
       "questions": [
         {
-          "question": "[[We|Necesitamos]] [[need|_______]] [[to|todas]] [[all|las]] [[the|noticias]] [[news|desde]] [[since|la]] [[we|última vez]] [[last|que nos]] [[met.|vimos.]]",
+          "question": "[[We|Nosotros]] [[need|necesitamos]] [[to| ]] [[_______|ponernos al día]] [[on|con]] [[all|todas]] [[the|las]] [[news|noticias]] [[since|desde]] [[we|que nos]] [[last|vimos]] [[met.|última vez.]]",
           "options": [
             "[[catch up|ponernos al día]]",
             "[[put up|aguantar]]",
@@ -1038,7 +1038,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Choose the correct inversion word.",
       "questions": [
         {
-          "question": "[[_______|_______]] [[had|había]] [[the|la]] [[movie|película]] [[started|comenzado]] [[when|cuando]] [[her|su]] [[phone|teléfono]] [[began|empezó]] [[to|a]] [[ring.|sonar.]]",
+          "question": "[[_______|Apenas]] [[had|había]] [[the|la]] [[movie|película]] [[started|comenzado]] [[when|cuando]] [[her|su]] [[phone|teléfono]] [[began|empezó]] [[to|a]] [[ring.|sonar.]]",
           "options": [
             "[[Scarcely|Apenas]]",
             "[[Always|Siempre]]",
@@ -1065,7 +1065,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que describe a alguien respetuoso con todas las ideas.",
       "questions": [
         {
-          "question": "[[He|Él]] [[is|es]] [[a|una]] [[very|persona]] [[_______|_______]] [[broad-minded|muy]] [[person|abierta]] [[who|que]] [[respects|respeta]] [[everyone's|las opiniones]] [[views.|de todos.]]",
+          "question": "[[He|Él]] [[is|es]] [[a|una]] [[person|persona]] [[very|muy]] [[_______|abierta]] [[who|que]] [[respects|respeta]] [[everyone's|las opiniones]] [[views.|de todos.]]",
           "options": [
             "[[broad-minded|de mente abierta]]",
             "[[narrow-minded|de mente cerrada]]",
@@ -1092,7 +1092,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Choose the correct duration tense.",
       "questions": [
         {
-          "question": "[[They|_______]] [[had|viviendo]] [[been|en]] [[living|París]] [[in|durante]] [[Paris|dos]] [[for|años]] [[two|cuando]] [[years|se]] [[when|conocieron.]] [[they| ]] [[met.| ]]",
+          "question": "[[They|Ellos]] [[_______|habían estado viviendo]] [[in|en]] [[Paris|París]] [[for|durante]] [[two|dos]] [[years|años]] [[when|cuando]] [[they|se]] [[met.|conocieron.]]",
           "options": [
             "[[had been living|habían estado viviendo]]",
             "[[have been living|han estado viviendo]]",
@@ -1119,7 +1119,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Elige el phrasal verb que significa 'tolerar' o 'aguantar'.",
       "questions": [
         {
-          "question": "[[I|Ya]] [[can't|no]] [[_______|_______]] [[put|aguantar]] [[up|sus]] [[with|constantes]] [[his|quejas.]] [[constant| ]] [[complaining| ]] [[anymore.| ]]",
+          "question": "[[I|Yo]] [[can't|no]] [[_______|puedo aguantar]] [[his|sus]] [[constant|constantes]] [[complaining|quejas]] [[anymore.|más.]]",
           "options": [
             "[[put up with|aguantar/tolerar]]",
             "[[put out|apagar]]",
@@ -1146,7 +1146,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Choose the correct sequence word.",
       "questions": [
         {
-          "question": "[[No|Apenas]] [[sooner|había]] [[had|yo]] [[I|sentado]] [[sat|cuando]] [[down|_______]] [[than|el]] [[the|teléfono]] [[phone|sonó.]] [[rang.| ]]",
+          "question": "[[No|Apenas]] [[sooner|había]] [[had|yo]] [[I|sentado]] [[sat|cuando]] [[down| ]] [[_______|el]] [[the|teléfono]] [[phone|sonó.]] [[rang.| ]]",
           "options": [
             "[[than|cuando/que]]",
             "[[when|cuando]]",
@@ -1173,7 +1173,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que describe a una persona sociable y extrovertida.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[is|es]] [[very|muy]] [[_______|_______]] [[outgoing| ]] [[and|y]] [[makes|hace]] [[friends|amigos]] [[wherever|dondequiera]] [[she|que]] [[goes.|va.]]",
+          "question": "[[She|Ella]] [[is|es]] [[very|muy]] [[_______|sociable]] [[and|y]] [[makes|hace]] [[friends|amigos]] [[wherever|dondequiera]] [[she|que]] [[goes.|va.]]",
           "options": [
             "[[outgoing|sociable/extrovertida]]",
             "[[shy|tímida]]",
@@ -1200,11 +1200,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Choose the correct past completion tense.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[had|_______]] [[already|ya]] [[left|se]] [[by|habían]] [[the|ido]] [[time|cuando]] [[the|llegó]] [[police|la]] [[arrived.|policía.]]",
+          "question": "[[They|Ellos]] [[_______|ya]] [[already|se]] [[had|habían]] [[left|ido]] [[by|cuando]] [[the|llegó]] [[time|la]] [[the|policía.]] [[police| ]] [[arrived.| ]]",
           "options": [
-            "[[had|habían]]",
-            "[[were|estaban]]",
-            "[[did|hicieron]]"
+            "[[had already left|ya se habían ido]]",
+            "[[were already leaving|ya se estaban yendo]]",
+            "[[already left|ya se fueron]]"
           ],
           "correctAnswer": 0,
           "explanation": "Past Perfect 'had already left' indicates completion before the arrival.",
@@ -1227,7 +1227,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Elige el phrasal verb que describe perder la cercanía con alguien poco a poco.",
       "questions": [
         {
-          "question": "[[It's|Es]] [[common|común]] [[to|_______]] [[drift|de]] [[apart|los]] [[from|amigos]] [[friends|después]] [[after|de]] [[you|terminar]] [[finish|la]] [[school.|escuela.]]",
+          "question": "[[It's|Es]] [[common|común]] [[to| ]] [[_______|distanciarse]] [[from|de los]] [[friends|amigos]] [[after|después de]] [[you|terminar]] [[finish|la]] [[school.|escuela.]]",
           "options": [
             "[[drift apart|distanciarse]]",
             "[[fall out|pelearse]]",
@@ -1254,7 +1254,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Choose the correct auxiliary for inversion.",
       "questions": [
         {
-          "question": "[[Little|Poco]] [[_______|_______]] [[did|él]] [[he|sospechaba]] [[suspect|que]] [[that|sus]] [[his|amigos]] [[friends|estaban]] [[were|planeando]] [[planning|una]] [[a|sorpresa.]] [[surprise.| ]]",
+          "question": "[[Little|Poco]] [[_______|sospechaba]] [[he|él]] [[suspect|que]] [[that|sus]] [[his|amigos]] [[friends|estaban]] [[were|planeando]] [[planning|una]] [[a|sorpresa.]] [[surprise.| ]]",
           "options": [
             "[[did| ]] ",
             "[[was| ]]",
@@ -1281,7 +1281,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Elige la preposición correcta para el phrasal verb que significa 'confiar en'.",
       "questions": [
         {
-          "question": "[[I|Necesito]] [[need|un]] [[a|amigo]] [[friend|en]] [[who|quien]] [[I|pueda]] [[can|_______]] [[count|en]] [[on|momentos]] [[in|difíciles.]] [[difficult| ]] [[times.| ]]",
+          "question": "[[I|Necesito]] [[need|un]] [[a|amigo]] [[friend|en]] [[who|quien]] [[I|pueda]] [[can|_______]] [[in|momentos]] [[difficult|difíciles.]] [[times.| ]]",
           "options": [
             "[[count on|contar con]]",
             "[[count in|contar con (incluir)]]",
@@ -1308,7 +1308,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Choose the correct past perfect form.",
       "questions": [
         {
-          "question": "[[Scarcely|Apenas]] [[had|_______]] [[she|ella]] [[finished|terminado]] [[her|su]] [[speech|discurso]] [[when|cuando]] [[the|el]] [[audience|público]] [[erupted|estalló]] [[in|en]] [[applause.|aplausos.]]",
+          "question": "[[Scarcely|Apenas]] [[_______|había]] [[she|ella]] [[finished|terminado]] [[her|su]] [[speech|discurso]] [[when|cuando]] [[the|el]] [[audience|público]] [[erupted|estalló]] [[in|en]] [[applause.|aplausos.]]",
           "options": [
             "[[had|había]]",
             "[[was|estaba]]",
@@ -1335,7 +1335,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Elige la expresión idiomática correcta para indicar acuerdo total.",
       "questions": [
         {
-          "question": "[[We|Siempre]] [[have|hemos]] [[always|_______]] [[seen|en]] [[eye|las]] [[to|decisiones]] [[eye|importantes.]] [[on| ]]",
+          "question": "[[We|Nosotros]] [[have|siempre]] [[always|hemos]] [[_______|estado de acuerdo]] [[on|en]] [[important|las decisiones]] [[decisions.|importantes.]]",
           "options": [
             "[[seen eye to eye|estado totalmente de acuerdo]]",
             "[[kept an eye on|vigilado]]",
@@ -1362,11 +1362,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Elige la frase que indica una acción inminente.",
       "questions": [
         {
-          "question": "[[I|Estaba]] [[was|_______]] [[about|irme]] [[to|cuando]] [[leave|entraste]] [[when|en]] [[you|la]] [[walked|habitación.]] [[into| ]]",
+          "question": "[[I|Estaba]] [[_______|a punto de]] [[leave|irme]] [[when|cuando]] [[you|entraste]] [[walked|en la]] [[into|habitación.]] [[the| ]] [[room.| ]]",
           "options": [
-            "[[about to|a punto de]]",
-            "[[going for|yendo por]]",
-            "[[used to|solía]]"
+            "[[was about to|estaba a punto de]]",
+            "[[was going to|iba a]]",
+            "[[was used to|solía]]"
           ],
           "correctAnswer": 0,
           "explanation": "'Was about to' means something was going to happen very soon.",
@@ -1389,7 +1389,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Elige la expresión para resolver tensiones o malentendidos.",
       "questions": [
         {
-          "question": "[[It's|Es]] [[time|hora]] [[to|_______]] [[clear|y]] [[the|hablar]] [[air|de]] [[and|lo que]] [[talk|pasó.]] [[about| ]]",
+          "question": "[[It's|Es]] [[time|hora de]] [[_______|aclarar las cosas]] [[and|y]] [[talk|hablar]] [[about|de]] [[what|lo que]] [[happened.|pasó.]]",
           "options": [
             "[[clear the air|aclarar las cosas]]",
             "[[walk on air|estar muy feliz]]",
@@ -1410,20 +1410,20 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Relationships & Social Life",
     "difficulty": "medium",
-    "transcript": "Had they known the party was fancy dress, they would have worn costumes.",
+    "transcript": "Supposing you were offered a job abroad, would you take it?",
     "content": {
-      "title": "Fancy Dress",
-      "instructions": "Choose the correct inverted conditional form.",
+      "title": "Job Offer",
+      "instructions": "Choose the correct hypothetical structure.",
       "questions": [
         {
-          "question": "[[_______|_______]] [[they|ellos]] [[known|hubieran]] [[the|sabido]] [[party|que]] [[was|era]] [[fancy|de]] [[dress,|disfraces...]]",
+          "question": "[[_______|Supongamos]] [[you|que]] [[were|te]] [[offered|ofrecieran]] [[a|un]] [[job|trabajo]] [[abroad,|en el extranjero,]] [[would|¿lo]] [[you|aceptarías?]] [[take| ]] [[it?| ]]",
           "options": [
-            "[[Had|Si]]",
-            "[[Did|Did]]",
-            "[[Were|Were]]"
+            "[[Supposing|Supongamos]]",
+            "[[If|Si]]",
+            "[[When|Cuando]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Had they known' replaces 'If they had known'.",
+          "explanation": "'Supposing' is used to suggest a hypothetical situation.",
           "audio": "audio/b2/unit-1/e49.mp3"
         }
       ]
@@ -1437,20 +1437,20 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Relationships & Social Life",
     "difficulty": "medium",
-    "transcript": "She takes after her father; they both love mountain climbing.",
+    "transcript": "She takes after her mother in terms of her artistic talent.",
     "content": {
-      "title": "Parecerse a alguien",
-      "instructions": "Elige el phrasal verb que significa heredar rasgos de un familiar.",
+      "title": "Parecido familiar",
+      "instructions": "Elige el phrasal verb que significa 'parecerse a un familiar'.",
       "questions": [
         {
-          "question": "[[She|Se]] [[_______|_______]] [[takes|a]] [[after|su]] [[her|padre;]] [[father;|a los]] [[they|dos]] [[both|les]] [[love|encanta]] [[mountain|la]] [[climbing.|escalada.]]",
+          "question": "[[She|Ella]] [[_______|se parece]] [[her|a su]] [[mother|madre]] [[in|en]] [[terms|cuanto]] [[of|a su]] [[artistic|talento]] [[talent.|artístico.]]",
           "options": [
-            "[[takes after|se parece]]",
-            "[[takes off|despega]]",
+            "[[takes after|se parece a]]",
+            "[[takes up|empieza]]",
             "[[takes on|asume]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Take after' means to be similar to an older member of your family.",
+          "explanation": "'Take after' means to resemble a parent or relative in appearance or character.",
           "audio": "audio/b2/unit-1/e50.mp3"
         }
       ]

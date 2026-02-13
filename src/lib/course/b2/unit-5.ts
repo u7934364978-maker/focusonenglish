@@ -787,7 +787,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige la expresión para un viaje alrededor del globo.",
       "questions": [
         {
-          "question": "[[I've|Siempre]] [[always|he]] [[wanted|querido]] [[to|hacer]] [[go|un]] [[on|viaje]] [[a|_______]].",
+          "question": "[[I've|Siempre]] [[always|he]] [[wanted|querido]] [[to|hacer]] [[go|un]] [[on|viaje]] [[a| ]] [[_______|alrededor del mundo]] [[trip.|.]]",
           "options": [
             "[[round-the-world|alrededor del mundo]]",
             "[[round-the-block|alrededor de la manzana]]",
@@ -814,7 +814,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige el tiempo verbal para una duración en el futuro.",
       "questions": [
         {
-          "question": "[[By|Para]] [[next|la]] [[week,|semana que viene,]] [[we|_______]] [[for|durante]] [[three|tres]] [[months.|meses.]]",
+          "question": "[[By|Para]] [[next|la]] [[week,|semana que viene,]] [[we|nosotros]] [[_______|habremos estado viajando]] [[for|durante]] [[three|tres]] [[months.|meses.]]",
           "options": [
             "[[will have been traveling|habremos estado viajando]]",
             "[[will be traveling|estaremos viajando]]",
@@ -841,11 +841,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para actividades recreativas.",
       "questions": [
         {
-          "question": "[[The|El]] [[resort|complejo]] [[offers|ofrece]] [[a|una]] [[wide|amplia]] [[range|gama]] [[of|de]] [[_______|actividades]] [[activities.|de ocio.]]",
+          "question": "[[The|El]] [[resort|complejo]] [[offers|ofrece]] [[a|una]] [[wide|amplia]] [[range|gama]] [[of|de]] [[_______| ]] [[activities.|actividades de ocio.]]",
           "options": [
-            "[[leisure| ]]",
-            "[[labor| ]]",
-            "[[lecture| ]]"
+            "[[leisure|ocio]]",
+            "[[labor|trabajo]]",
+            "[[lecture|conferencia]]"
           ],
           "correctAnswer": 0,
           "explanation": "'Leisure' refers to time when you are not working and can relax.",
@@ -868,7 +868,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta para expresar arrepentimiento pasado.",
       "questions": [
         {
-          "question": "[[I|Desearía]] [[wish|_______]] [[a|una]] [[warmer|chaqueta]] [[jacket|más]] [[for|abrigada]] [[this|para]] [[trip.|este viaje.]]",
+          "question": "[[I|Yo]] [[wish|desearía]] [[_______|haber traído]] [[a|una]] [[warmer|chaqueta]] [[jacket|más]] [[for|abrigada]] [[this|para]] [[trip.|este viaje.]]",
           "options": [
             "[[I had brought|haber traído]]",
             "[[I brought|traer]]",
@@ -895,7 +895,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige el phrasal verb que significa 'iniciar un viaje'.",
       "questions": [
         {
-          "question": "[[We|_______]] [[early|temprano]] [[in|por]] [[the|la]] [[morning|mañana]] [[to|para]] [[beat|evitar]] [[the|el]] [[traffic.|tráfico.]]",
+          "question": "[[We|Nosotros]] [[_______|partimos]] [[early|temprano]] [[in|por]] [[the|la]] [[morning|mañana]] [[to|para]] [[beat|evitar]] [[the|el]] [[traffic.|tráfico.]]",
           "options": [
             "[[set off|partimos/salimos]]",
             "[[set up|configuramos]]",
@@ -922,7 +922,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta después de 'I'd rather you'.",
       "questions": [
         {
-          "question": "[[I'd|Preferiría]] [[rather|que]] [[you|_______]] [[the|los]] [[flights|vuelos]] [[as|tan]] [[soon|pronto]] [[as|como]] [[possible.|sea posible.]]",
+          "question": "[[I'd|Preferiría]] [[rather|que]] [[you|tú]] [[_______|reservaras]] [[the|los]] [[flights|vuelos]] [[as|tan]] [[soon|pronto]] [[as|como]] [[possible.|sea posible.]]",
           "options": [
             "[[booked|reservaras]]",
             "[[book|reserves]]",
@@ -949,7 +949,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige la preposición que sigue a 'famous'.",
       "questions": [
         {
-          "question": "[[The|La]] [[city|ciudad]] [[is|es]] [[famous|_______]] [[its|su]] [[vibrant|vibrante]] [[nightlife.|vida nocturna.]]",
+          "question": "[[The|La]] [[city|ciudad]] [[is|es]] [[famous|famosa]] [[_______|por]] [[its|su]] [[vibrant|vibrante]] [[nightlife.|vida nocturna.]]",
           "options": [
             "[[for|por]]",
             "[[of|de]]",
@@ -976,7 +976,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector que significa 'a menos que'.",
       "questions": [
         {
-          "question": "[[_______|_______]] [[we|nos]] [[leave|vamos]] [[now,|ahora,]] [[we|perderemos]] [[will|nuestra]] [[miss|conexión.]] [[our| ]] [[connection.| ]]",
+          "question": "[[_______|A menos que]] [[we|nos]] [[leave|vayamos]] [[now,|ahora,]] [[we|perderemos]] [[will|nuestra]] [[miss|conexión.]] [[our| ]] [[connection.| ]]",
           "options": [
             "[[Unless|A menos que]]",
             "[[If|Si]]",
@@ -1003,7 +1003,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra para un objeto comprado como recuerdo.",
       "questions": [
         {
-          "question": "[[I'm|Voy]] [[going|a]] [[to|comprar]] [[get|un]] [[a|_______]] [[for|para]] [[my|mi]] [[family.|familia.]]",
+          "question": "[[I'm|Voy]] [[going|a]] [[to|comprar]] [[get|un]] [[a| ]] [[_______|recuerdo]] [[for|para]] [[my|mi]] [[family.|familia.]]",
           "options": [
             "[[souvenir|recuerdo/souvenir]]",
             "[[signature|firma]]",
@@ -1030,7 +1030,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta después de 'Would you mind'.",
       "questions": [
         {
-          "question": "[[Would|¿Te]] [[you|importaría]] [[mind|_______]] [[me|dónde]] [[where|está]] [[the|la]] [[nearest|estación]] [[metro|de metro]] [[station|más]] [[is?|cercana?]]",
+          "question": "[[Would|¿Te]] [[you|importaría]] [[mind| ]] [[_______|mostrarme]] [[me|dónde]] [[where|está]] [[the|la]] [[nearest|estación]] [[metro|de metro]] [[station|más]] [[is?|cercana?]]",
           "options": [
             "[[showing|mostrarme]]",
             "[[to show|mostrarme]]",
@@ -1057,7 +1057,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige el phrasal verb para dejar un hotel.",
       "questions": [
         {
-          "question": "[[We|Necesitamos]] [[need|_______]] [[to|del]] [[check|hotel]] [[out|antes]] [[of|del]] [[the|mediodía.]] [[hotel| ]] [[before| ]] [[noon.| ]]",
+          "question": "[[We|Necesitamos]] [[need| ]] [[to| ]] [[_______|dejar el hotel]] [[before|antes]] [[noon.|del mediodía.]]",
           "options": [
             "[[check out|dejar el hotel]]",
             "[[check in|registrarse]]",
@@ -1084,7 +1084,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta después de 'It's high time'.",
       "questions": [
         {
-          "question": "[[It's|Ya]] [[high|va]] [[time|siendo]] [[you|hora]] [[_______|de que]] [[your|visitaras]] [[grandparents...|a tus abuelos...]]",
+          "question": "[[It's|Ya]] [[high|va]] [[time|siendo]] [[you|hora de que]] [[_______|visitaras]] [[your|a tus]] [[grandparents...|abuelos...]]",
           "options": [
             "[[visited|visitaras]]",
             "[[visit|visites]]",
@@ -1111,7 +1111,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector que indica causa.",
       "questions": [
         {
-          "question": "[[The|El]] [[flight|vuelo]] [[was|fue]] [[canceled|cancelado]] [[_______|_______]] [[to|al]] [[bad|mal]] [[weather.|tiempo.]]",
+          "question": "[[The|El]] [[flight|vuelo]] [[was|fue]] [[canceled|cancelado]] [[_______|debido]] [[to|al]] [[bad|mal]] [[weather.|tiempo.]]",
           "options": [
             "[[due|debido]]",
             "[[owing|debido]]",
@@ -1138,7 +1138,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para introducir una suposición.",
       "questions": [
         {
-          "question": "[[_______|_______]] [[you|que]] [[could|pudieras]] [[travel|viajar]] [[anywhere...|a cualquier lugar...]]",
+          "question": "[[_______|Supongamos]] [[you|que]] [[could|pudieras]] [[travel|viajar]] [[anywhere...|a cualquier lugar...]]",
           "options": [
             "[[Suppose|Supongamos]]",
             "[[Imagine|Imagina]]",
@@ -1165,7 +1165,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para una visita con guía.",
       "questions": [
         {
-          "question": "[[We|Hicimos]] [[went|un]] [[on|_______]] [[a|guiado]] [[guided|por]] [[tour|el]] [[of|centro]] [[the|histórico.]] [[historic| ]] [[city| ]] [[center.| ]]",
+          "question": "[[We|Hicimos]] [[went|un]] [[on| ]] [[a| ]] [[_______|tour guiado]] [[of|por]] [[the|el]] [[historic|centro]] [[city| ]] [[center.|histórico.]]",
           "options": [
             "[[guided tour|tour guiado]]",
             "[[guided trip|viaje guiado]]",
@@ -1192,7 +1192,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector de condición.",
       "questions": [
         {
-          "question": "[[_______|_______]] [[that|que]] [[the|el]] [[weather|tiempo]] [[stays|se]] [[clear,|mantenga despejado,]] [[we|iremos]] [[will|de]] [[go|senderismo.]] [[hiking.| ]]",
+          "question": "[[_______|Siempre que]] [[that|que]] [[the|el]] [[weather|tiempo]] [[stays|se]] [[clear,|mantenga despejado,]] [[we|iremos]] [[will|de]] [[go|senderismo.]] [[hiking.| ]]",
           "options": [
             "[[Provided|Siempre que]]",
             "[[Unless|A menos que]]",
@@ -1219,7 +1219,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que significa 'amable con los invitados'.",
       "questions": [
         {
-          "question": "[[The|Los]] [[local|habitantes]] [[inhabitants|locales]] [[were|fueron]] [[extremely|extremadamente]] [[_______|_______]] [[to|con]] [[the|los]] [[travelers.|viajeros.]]",
+          "question": "[[The|Los]] [[local|habitantes]] [[inhabitants|locales]] [[were|fueron]] [[extremely|extremadamente]] [[_______|hospitalarios]] [[to|con]] [[the|los]] [[travelers.|viajeros.]]",
           "options": [
             "[[hospitable|hospitalarios]]",
             "[[hostile|hostiles]]",
@@ -1246,7 +1246,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma formal de 'If you need'.",
       "questions": [
         {
-          "question": "[[_______|_______]] [[you|si]] [[need|necesitara]] [[any|alguna]] [[assistance,|asistencia...]]",
+          "question": "[[_______|Si]] [[you|tú]] [[need|necesitara]] [[any|alguna]] [[assistance,|asistencia...]]",
           "options": [
             "[[Should|Si]]",
             "[[Would|Si]]",
@@ -1273,7 +1273,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo para una vista espectacular.",
       "questions": [
         {
-          "question": "[[The|La]] [[view|vista]] [[was|era]] [[absolutely|absolutamente]] [[_______|_______]].",
+          "question": "[[The|La]] [[view|vista]] [[was|era]] [[absolutely|absolutamente]] [[_______|impresionante]].",
           "options": [
             "[[breathtaking|asombrosa/impresionante]]",
             "[[breathless|sin aliento (persona)]]",
@@ -1300,7 +1300,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta después de 'It is no use'.",
       "questions": [
         {
-          "question": "[[It|No]] [[is|sirve]] [[no|de]] [[use|nada]] [[_______|_______]] [[for|el]] [[the|autobús.]] [[bus;| ]]",
+          "question": "[[It|No]] [[is|sirve]] [[no|de]] [[use|nada]] [[_______|esperar]] [[for|al]] [[the|autobús.]] [[bus;| ]]",
           "options": [
             "[[waiting|esperar]]",
             "[[to wait|esperar]]",
@@ -1327,7 +1327,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para algo que respeta el medio ambiente.",
       "questions": [
         {
-          "question": "[[_______|Las opciones de]] [[travel|viaje]] [[options|ecológico]] [[are|se están]] [[becoming|volviendo]] [[more|más]] [[accessible.|accesibles.]]",
+          "question": "[[_______|Las opciones de viaje ecológico]] [[are|se están]] [[becoming|volviendo]] [[more|más]] [[accessible.|accesibles.]]",
           "options": [
             "[[eco-friendly| ]]",
             "[[economy| ]]",
@@ -1354,7 +1354,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige la expresión formal para 'si no fuera por'.",
       "questions": [
         {
-          "question": "[[_______|_______]] [[the|el]] [[GPS,|GPS,]] [[we|nos]] [[would|habríamos]] [[have|perdido.]] [[got| ]] [[lost| ]]",
+          "question": "[[_______|De no ser por]] [[the|el]] [[GPS,|GPS,]] [[we|nos]] [[would|habríamos]] [[have|perdido.]] [[got| ]] [[lost| ]]",
           "options": [
             "[[But for|De no ser por]]",
             "[[Except for|Excepto por]]",
@@ -1381,11 +1381,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige el nombre para el servicio de transporte del hotel.",
       "questions": [
         {
-          "question": "[[The|El]] [[hotel|hotel]] [[provides|proporciona]] [[a|un]] [[_______|servicio]] [[service.|de traslado.]]",
+          "question": "[[The|El]] [[hotel|hotel]] [[provides|proporciona]] [[a|un]] [[_______|servicio de traslado.]]",
           "options": [
-            "[[shuttle| ]]",
-            "[[shuffle| ]]",
-            "[[shatter| ]]"
+            "[[shuttle service|servicio de traslado]]",
+            "[[shuffle service|servicio de barajado]]",
+            "[[shatter service|servicio de rotura]]"
           ],
           "correctAnswer": 0,
           "explanation": "A 'shuttle service' is a regular transport service that travels between two places.",
@@ -1408,7 +1408,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige la estructura de inversión para 'apenas'.",
       "questions": [
         {
-          "question": "[[_______|_______]] [[had|habíamos]] [[we|nosotros]] [[boarded|subido]] [[the|al]] [[plane|avión]] [[when|cuando...]]",
+          "question": "[[_______|Apenas]] [[had|habíamos]] [[we|nosotros]] [[boarded|subido]] [[the|al]] [[plane|avión]] [[when|cuando...]]",
           "options": [
             "[[Hardly|Apenas]]",
             "[[Rarely|Rara vez]]",
@@ -1435,7 +1435,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa 'ampliar' (horizontes).",
       "questions": [
         {
-          "question": "[[Exploring|Explorar]] [[the|el]] [[world|mundo]] [[helps|ayuda]] [[to|a]] [[_______|tus]] [[horizons.|horizontes.]]",
+          "question": "[[Exploring|Explorar]] [[the|el]] [[world|mundo]] [[helps|ayuda]] [[to|a]] [[_______|ampliar]] [[your|tus]] [[horizons.|horizontes.]]",
           "options": [
             "[[broaden|ampliar]]",
             "[[brighten|iluminar]]",

@@ -60,6 +60,6 @@ export const B1_COURSE = {
     { id: 27, title: 'Success, Ambition & Money', exercises: UNIT_27_EXERCISES },
     { id: 28, title: 'Music & Global Festivals', exercises: UNIT_28_EXERCISES },
     { id: 29, title: 'Social Responsibility & Ethics', exercises: UNIT_29_EXERCISES },
-    { id: 30, title: 'Course Synthesis & Final Review', exercises: UNIT_30_EXERCISES }
+    { id: 30, title: 'History & Ancient Civilizations', exercises: UNIT_30_EXERCISES }
   ]
 };
