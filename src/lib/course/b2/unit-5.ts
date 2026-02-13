@@ -783,7 +783,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "I've always wanted to go on a round-the-world trip.",
     "content": {
-      "title": "La vuelta al mundo",
+      "title": "Viaje global",
       "instructions": "Elige la expresión para un viaje alrededor del globo.",
       "questions": [
         {
@@ -810,7 +810,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "By next week, we will have been traveling for three months.",
     "content": {
-      "title": "Tiempo viajando",
+      "title": "Duración futura",
       "instructions": "Elige el tiempo verbal para una duración en el futuro.",
       "questions": [
         {
@@ -837,15 +837,15 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "The resort offers a wide range of leisure activities.",
     "content": {
-      "title": "Actividades de ocio",
+      "title": "Tiempo libre",
       "instructions": "Elige el término para actividades recreativas.",
       "questions": [
         {
-          "question": "[[The|El]] [[resort|complejo]] [[offers|ofrece]] [[a|una]] [[wide|amplia]] [[range|gama]] [[of|de]] [[_______|_______]] [[activities.|actividades.]]",
+          "question": "[[The|El]] [[resort|complejo]] [[offers|ofrece]] [[a|una]] [[wide|amplia]] [[range|gama]] [[of|de]] [[_______|actividades]] [[activities.|de ocio.]]",
           "options": [
-            "[[leisure|ocio]]",
-            "[[labor|trabajo]]",
-            "[[lecture|conferencia]]"
+            "[[leisure| ]]",
+            "[[labor| ]]",
+            "[[lecture| ]]"
           ],
           "correctAnswer": 0,
           "explanation": "'Leisure' refers to time when you are not working and can relax.",
@@ -864,8 +864,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "I wish I had brought a warmer jacket for this trip.",
     "content": {
-      "title": "Deseos pasados",
-      "instructions": "Elige la forma correcta para expresar arrepentimiento.",
+      "title": "Arrepentimiento",
+      "instructions": "Elige la forma correcta para expresar arrepentimiento pasado.",
       "questions": [
         {
           "question": "[[I|Desearía]] [[wish|_______]] [[a|una]] [[warmer|chaqueta]] [[jacket|más]] [[for|abrigada]] [[this|para]] [[trip.|este viaje.]]",
@@ -891,7 +891,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "We set off early in the morning to beat the traffic.",
     "content": {
-      "title": "Puesta en marcha",
+      "title": "Comenzar el viaje",
       "instructions": "Elige el phrasal verb que significa 'iniciar un viaje'.",
       "questions": [
         {
@@ -918,7 +918,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "I'd rather you booked the flights as soon as possible.",
     "content": {
-      "title": "Reserva de vuelos",
+      "title": "Preferencia",
       "instructions": "Elige la forma verbal correcta después de 'I'd rather you'.",
       "questions": [
         {
@@ -945,7 +945,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "The city is famous for its vibrant nightlife and cultural heritage.",
     "content": {
-      "title": "Fama de la ciudad",
+      "title": "Ciudad famosa",
       "instructions": "Elige la preposición que sigue a 'famous'.",
       "questions": [
         {
@@ -972,7 +972,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "Unless we leave now, we will miss our connection.",
     "content": {
-      "title": "Perder la conexión",
+      "title": "Condición negativa",
       "instructions": "Elige el conector que significa 'a menos que'.",
       "questions": [
         {
@@ -999,7 +999,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "I'm going to get a souvenir for my family from the local market.",
     "content": {
-      "title": "Recuerdos de viaje",
+      "title": "Comprar regalos",
       "instructions": "Elige la palabra para un objeto comprado como recuerdo.",
       "questions": [
         {
@@ -1026,7 +1026,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "Would you mind showing me where the nearest metro station is?",
     "content": {
-      "title": "Pedir direcciones",
+      "title": "Ayuda en el metro",
       "instructions": "Elige la forma verbal correcta después de 'Would you mind'.",
       "questions": [
         {
@@ -1053,7 +1053,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "We need to check out of the hotel before noon.",
     "content": {
-      "title": "Salida del hotel",
+      "title": "Fin de la estancia",
       "instructions": "Elige el phrasal verb para dejar un hotel.",
       "questions": [
         {
@@ -1080,7 +1080,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "It's high time you visited your grandparents in the countryside.",
     "content": {
-      "title": "Visita al campo",
+      "title": "Ir al campo",
       "instructions": "Elige la forma verbal correcta después de 'It's high time'.",
       "questions": [
         {
@@ -1107,7 +1107,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "The flight was canceled due to bad weather conditions.",
     "content": {
-      "title": "Vuelo cancelado",
+      "title": "Vuelo afectado",
       "instructions": "Elige el conector que indica causa.",
       "questions": [
         {
@@ -1134,7 +1134,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "Suppose you could travel anywhere in the world, where would you go?",
     "content": {
-      "title": "Viaje imaginario",
+      "title": "Viaje hipotético",
       "instructions": "Elige el término para introducir una suposición.",
       "questions": [
         {
@@ -1161,11 +1161,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "We went on a guided tour of the historic city center.",
     "content": {
-      "title": "Tour guiado",
+      "title": "Visita guiada",
       "instructions": "Elige el término para una visita con guía.",
       "questions": [
         {
-          "question": "[[We|Hicimos]] [[went|un]] [[on|_______]] [[a|_______]] [[guided|guiado]] [[tour|por]] [[of|el]] [[the|centro]] [[historic|histórico.]] [[city| ]] [[center.| ]]",
+          "question": "[[We|Hicimos]] [[went|un]] [[on|_______]] [[a|guiado]] [[guided|por]] [[tour|el]] [[of|centro]] [[the|histórico.]] [[historic| ]] [[city| ]] [[center.| ]]",
           "options": [
             "[[guided tour|tour guiado]]",
             "[[guided trip|viaje guiado]]",
@@ -1188,7 +1188,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "Provided that the weather stays clear, we will go hiking.",
     "content": {
-      "title": "Senderismo y clima",
+      "title": "Ir de excursión",
       "instructions": "Elige el conector de condición.",
       "questions": [
         {
@@ -1215,7 +1215,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "The local inhabitants were extremely hospitable to the travelers.",
     "content": {
-      "title": "Hospitalidad local",
+      "title": "Gente local",
       "instructions": "Elige el adjetivo que significa 'amable con los invitados'.",
       "questions": [
         {
@@ -1242,7 +1242,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "Should you need any assistance, please don't hesitate to ask.",
     "content": {
-      "title": "Asistencia formal",
+      "title": "Necesitar ayuda",
       "instructions": "Elige la forma formal de 'If you need'.",
       "questions": [
         {
@@ -1269,7 +1269,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "The view from the top of the mountain was absolutely breathtaking.",
     "content": {
-      "title": "Vistas asombrosas",
+      "title": "Paisaje increíble",
       "instructions": "Elige el adjetivo para una vista espectacular.",
       "questions": [
         {
@@ -1296,7 +1296,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "It is no use waiting for the bus; it's already left.",
     "content": {
-      "title": "No sirve de nada",
+      "title": "Esperar en vano",
       "instructions": "Elige la forma correcta después de 'It is no use'.",
       "questions": [
         {
@@ -1323,15 +1323,15 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "Eco-friendly travel options are becoming more accessible to the public.",
     "content": {
-      "title": "Viaje ecológico",
+      "title": "Turismo ecológico",
       "instructions": "Elige el término para algo que respeta el medio ambiente.",
       "questions": [
         {
-          "question": "[[_______|Las opciones de]] [[travel|viaje]] [[options|_______]] [[are|se están]] [[becoming|volviendo]] [[more|más]] [[accessible.|accesibles.]]",
+          "question": "[[_______|Las opciones de]] [[travel|viaje]] [[options|ecológico]] [[are|se están]] [[becoming|volviendo]] [[more|más]] [[accessible.|accesibles.]]",
           "options": [
-            "[[eco-friendly|ecológicas]]",
-            "[[economy|económicas]]",
-            "[[echo-sounding|ecolocalización]]"
+            "[[eco-friendly| ]]",
+            "[[economy| ]]",
+            "[[echo-sounding| ]]"
           ],
           "correctAnswer": 0,
           "explanation": "'Eco-friendly' means not harmful to the environment.",
@@ -1350,7 +1350,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "But for the GPS, we would have got lost in the city center.",
     "content": {
-      "title": "Uso del GPS",
+      "title": "Uso de tecnología",
       "instructions": "Elige la expresión formal para 'si no fuera por'.",
       "questions": [
         {
@@ -1377,15 +1377,15 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "The hotel provides a shuttle service to and from the airport.",
     "content": {
-      "title": "Servicio de transporte",
+      "title": "Servicio de traslado",
       "instructions": "Elige el nombre para el servicio de transporte del hotel.",
       "questions": [
         {
-          "question": "[[The|El]] [[hotel|hotel]] [[provides|proporciona]] [[a|un]] [[_______|_______]] [[service.|servicio.]]",
+          "question": "[[The|El]] [[hotel|hotel]] [[provides|proporciona]] [[a|un]] [[_______|servicio]] [[service.|de traslado.]]",
           "options": [
-            "[[shuttle|traslado/lanzadera]]",
-            "[[shuffle|mezclar]]",
-            "[[shatter|destrozar]]"
+            "[[shuttle| ]]",
+            "[[shuffle| ]]",
+            "[[shatter| ]]"
           ],
           "correctAnswer": 0,
           "explanation": "A 'shuttle service' is a regular transport service that travels between two places.",
@@ -1404,7 +1404,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "Hardly had we boarded the plane when the pilot announced a delay.",
     "content": {
-      "title": "A bordo del avión",
+      "title": "Aviso en el avión",
       "instructions": "Elige la estructura de inversión para 'apenas'.",
       "questions": [
         {
@@ -1431,11 +1431,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "Exploring the world helps to broaden your horizons and perspectives.",
     "content": {
-      "title": "Ampliar horizontes",
+      "title": "Nuevas perspectivas",
       "instructions": "Elige el verbo que significa 'ampliar' (horizontes).",
       "questions": [
         {
-          "question": "[[Exploring|Explorar]] [[the|el]] [[world|mundo]] [[helps|ayuda]] [[to|a]] [[_______|_______]] [[your|tus]] [[horizons.|horizontes.]]",
+          "question": "[[Exploring|Explorar]] [[the|el]] [[world|mundo]] [[helps|ayuda]] [[to|a]] [[_______|tus]] [[horizons.|horizontes.]]",
           "options": [
             "[[broaden|ampliar]]",
             "[[brighten|iluminar]]",
@@ -1450,4 +1450,5 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "audioUrl": "audio/b2/unit-5/e50.mp3",
     "topicName": "Vocabulary"
   }
+];
 ];
