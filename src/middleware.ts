@@ -16,6 +16,7 @@ const PUBLIC_ROUTES = new Set([
   "/test-nivel",
   "/pilot",
   "/test-toefl",
+  "/debug/b2-preview",
 ]);
 
 function isBlogRoute(pathname: string) {
@@ -115,7 +116,8 @@ export async function middleware(request: NextRequest) {
   // Rutas públicas generales
   if (
     PUBLIC_ROUTES.has(pathname) || 
-    isBlogRoute(pathname)
+    isBlogRoute(pathname) ||
+    pathname.startsWith("/debug/")
   ) {
     return response;
   }
