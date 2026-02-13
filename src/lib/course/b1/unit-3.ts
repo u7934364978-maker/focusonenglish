@@ -7,20 +7,19 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "She has visited many countries, although she hasn't been to Japan.",
+    "transcript": "I have visited Spain twice in my life.",
     "content": {
-      "title": "Logros Personales",
-      "instructions": "Selecciona la opción correcta para completar la oración sobre experiencias de vida.",
+      "title": "Experiencias de vida",
+      "instructions": "Selecciona la opción correcta para completar la oración en presente perfecto.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[visited|visitado]] [[many|muchos]] [[countries|países]], [[although|aunque]] [[she|ella]] _______ [[been|estado]] [[to|en]] [[Japan|Japón]].",
+          "question": "[[I|Yo]] _______ [[visited|visitado]] [[Spain|España]] [[twice|dos veces]] [[in|en]] [[my|mi]] [[life|vida]].",
           "options": [
-            "[[has|ha]] / [[hasn't|no ha]]",
-            "[[had|había]] / [[didn't|no]]",
-            "[[have|tiene]] / [[isn't|no está]]"
+            "[[have|he]]",
+            "[[has|ha]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso del present perfect simple para experiencias de vida: 'has visited' y 'hasn't been'.",
+          "explanation": "Uso del presente perfecto para describir experiencias de vida completadas con el auxiliar 'have'.",
           "audio": "audio/b1/unit-3/e1.mp3"
         }
       ]
@@ -34,20 +33,19 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "Despite working late, he has never missed a deadline.",
+    "transcript": "Though he has never tried sushi, he is willing to eat it.",
     "content": {
-      "title": "Experiencias Profesionales",
-      "instructions": "Completa la oración utilizando el present perfect para hablar de experiencias.",
+      "title": "Experiencias pasadas",
+      "instructions": "Elige la forma correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[working|trabajar]] [[late|tarde]], [[he|él]] _______ [[missed|perdido]] [[a|una]] [[deadline|fecha límite]].",
+          "question": "[[Though|Aunque]] [[he|él]] _______ [[never|nunca]] [[tried|probado]] [[sushi|sushi]], [[he|él]] [[is|está]] [[willing|dispuesto]] [[to|a]] [[eat|comer]] [[it|lo]].",
           "options": [
-            "[[has|ha]] [[never|nunca]]",
-            "[[had|había]] [[ever|alguna vez]]",
-            "[[hasn't|no ha]]"
+            "[[has|ha]]",
+            "[[have|he]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se usa 'has never missed' para indicar experiencias que nunca han ocurrido.",
+          "explanation": "La estructura 'he has never tried' es típica del presente perfecto para experiencias que no han ocurrido.",
           "audio": "audio/b1/unit-3/e2.mp3"
         }
       ]
@@ -61,20 +59,19 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "They have completed their project successfully.",
+    "transcript": "Despite having lived in many countries, she has never felt at home.",
     "content": {
-      "title": "Éxitos Académicos",
-      "instructions": "Elige la opción correcta para hablar de logros académicos con el present perfect.",
+      "title": "Sentimientos y experiencias",
+      "instructions": "Completa la oración usando la opción correcta en presente perfecto.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[completed|completado]] [[their|su]] [[project|proyecto]] [[successfully|exitosamente]].",
+          "question": "[[Despite|A pesar de]] [[having|haber]] [[lived|vivido]] [[in|en]] [[many|muchos]] [[countries|países]], [[she|ella]] _______ [[never|nunca]] [[felt|sentido]] [[at|en]] [[home|casa]].",
           "options": [
-            "[[have|han]]",
-            "[[are|son]]",
-            "[[did|hicieron]]"
+            "[[has|ha]]",
+            "[[have|he]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso de 'have completed' para referirse a logros recientes.",
+          "explanation": "La cláusula 'she has never felt' muestra el uso del presente perfecto para indicar experiencias no realizadas.",
           "audio": "audio/b1/unit-3/e3.mp3"
         }
       ]
@@ -88,20 +85,19 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "He has improved his speaking skills significantly.",
+    "transcript": "Although I have worked here for years, I still learn something new every day.",
     "content": {
-      "title": "Desarrollo de Habilidades",
-      "instructions": "Selecciona la respuesta correcta para completar la descripción de experiencias vitales.",
+      "title": "Experiencia laboral",
+      "instructions": "Selecciona el verbo correcto para completar la oración.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[improved|mejorado]] [[his|sus]] [[speaking|habilidades]] [[skills|de hablar]] [[significantly|significativamente]].",
+          "question": "[[Although|Aunque]] [[I|yo]] _______ [[worked|trabajado]] [[here|aquí]] [[for|por]] [[years|años]], [[I|yo]] [[still|aún]] [[learn|aprendo]] [[something|algo]] [[new|nuevo]] [[every|cada]] [[day|día]].",
           "options": [
-            "[[has|ha]]",
-            "[[had|había]]",
-            "[[is|está]]"
+            "[[have|he]]",
+            "[[has|ha]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso del present perfect con 'has improved' para mostrar desarrollo continuo.",
+          "explanation": "Uso del presente perfecto para indicar una acción que empezó en el pasado y continúa en el presente.",
           "audio": "audio/b1/unit-3/e4.mp3"
         }
       ]
@@ -115,20 +111,19 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "Although she hasn't met the CEO yet, she has already impressed the managers.",
+    "transcript": "We have always been interested in learning new languages.",
     "content": {
-      "title": "Relaciones Laborales",
-      "instructions": "Completa las oraciones usando el present perfect para describir experiencias laborales.",
+      "title": "Intereses personales",
+      "instructions": "Marca la opción que completa correctamente la oración.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[she|ella]] _______ [[met|conocido]] [[the|al]] [[CEO|director ejecutivo]] [[yet|todavía]], [[she|ella]] _______ [[already|ya]] [[impressed|impresionado]] [[the|a los]] [[managers|gerentes]].",
+          "question": "[[We|Nosotros]] _______ [[always|siempre]] [[been|estado]] [[interested|interesados]] [[in|en]] [[learning|aprender]] [[new|nuevas]] [[languages|lenguas]].",
           "options": [
-            "[[hasn't|no ha]] / [[has|ha]]",
-            "[[didn't|no]] / [[did|hizo]]",
-            "[[wasn't|no estaba]] / [[was|estaba]]"
+            "[[have|hemos]]",
+            "[[has|ha]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso del present perfect simple para contrastar dos acciones relacionadas en el tiempo.",
+          "explanation": "La frase 'We have always been' indica continuidad de un interés a lo largo del tiempo en presente perfecto.",
           "audio": "audio/b1/unit-3/e5.mp3"
         }
       ]
@@ -142,19 +137,19 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "She has visited several countries during her career.",
+    "transcript": "I have traveled to five different countries this year.",
     "content": {
-      "title": "Rellenar los espacios",
-      "instructions": "Completa la oración con la forma correcta del presente perfecto.",
+      "title": "Viajes Recientes",
+      "instructions": "Completa la oración utilizando el presente perfecto simple.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[visited|visitado]] [[several|varios]] [[countries|países]] [[during|durante]] [[her|su]] [[career|carrera]].",
+          "question": "[[I|Yo]] _______ [[traveled|viajado]] [[to|a]] [[five|cinco]] [[different|diferentes]] [[countries|países]] [[this|este]] [[year|año]].",
           "options": [
-            "[[has|ha]]",
-            "[[is|es]]"
+            "[[have|he]]",
+            "[[has|ha]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se utiliza el presente perfecto para describir experiencias de vida hasta el momento.",
+          "explanation": "Uso del presente perfecto para acciones con relevancia en el presente.",
           "audio": "audio/b1/unit-3/e6.mp3"
         }
       ]
@@ -168,19 +163,19 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "I have never tried sushi before.",
+    "transcript": "She has completed her degree in engineering despite the challenges.",
     "content": {
-      "title": "Rellenar los espacios",
-      "instructions": "Completa la oración con la forma correcta del presente perfecto.",
+      "title": "Logros Académicos",
+      "instructions": "Llena el espacio usando el presente perfecto simple.",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[never|nunca]] [[tried|probado]] [[sushi|sushi]] [[before|antes]].",
+          "question": "[[She|Ella]] _______ [[completed|completado]] [[her|su]] [[degree|grado]] [[in|en]] [[engineering|ingeniería]] [[despite|a pesar de]] [[the|los]] [[challenges|retos]].",
           "options": [
-            "[[have|he]]",
-            "[[am|estoy]]"
+            "[[has|ha]]",
+            "[[have|he]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso del presente perfecto para expresar experiencias que no se han tenido.",
+          "explanation": "El presente perfecto se utiliza aquí por la relevancia actual del logro.",
           "audio": "audio/b1/unit-3/e7.mp3"
         }
       ]
@@ -194,19 +189,19 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "They have completed the project despite many challenges.",
+    "transcript": "They have worked together on several projects.",
     "content": {
-      "title": "Rellenar los espacios",
-      "instructions": "Completa la oración con la forma correcta del presente perfecto.",
+      "title": "Experiencia Laboral Conjunta",
+      "instructions": "Completa la oración con la forma correcta del presente perfecto simple.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[completed|completado]] [[the|el]] [[project|proyecto]] [[despite|a pesar de]] [[many|muchos]] [[challenges|desafíos]].",
+          "question": "[[They|Ellos]] _______ [[worked|trabajado]] [[together|juntos]] [[on|en]] [[several|varios]] [[projects|proyectos]].",
           "options": [
             "[[have|han]]",
-            "[[did|hicieron]]"
+            "[[has|ha]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El presente perfecto se usa para hablar de acciones que tienen relevancia en el presente.",
+          "explanation": "Empleo del presente perfecto para destacar experiencias acumuladas.",
           "audio": "audio/b1/unit-3/e8.mp3"
         }
       ]
@@ -220,19 +215,19 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "He has worked in the company since 2015.",
+    "transcript": "Although he hasn't finished writing the book, he has met with several publishers.",
     "content": {
-      "title": "Rellenar los espacios",
-      "instructions": "Completa la oración con la forma correcta del presente perfecto.",
+      "title": "Progreso en Escritura",
+      "instructions": "Elige la opción correcta para completar la oración con el presente perfecto.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[worked|trabajado]] [[in|en]] [[the|la]] [[company|empresa]] [[since|desde]] [[2015|2015]].",
+          "question": "[[Although|Aunque]] [[he|él]] _______ [[finished|terminado]] [[writing|de escribir]] [[the|el]] [[book|libro]], [[he|él]] _______ [[met|se ha reunido]] [[with|con]] [[several|varios]] [[publishers|editores]].",
           "options": [
-            "[[has|ha]]",
-            "[[is|es]]"
+            "[[hasn't|no ha]]",
+            "[[has|ha]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El presente perfecto se emplea para hablar de acciones que han comenzado en el pasado y continúan en el presente.",
+          "explanation": "Uso del presente perfecto para acciones que podrían no estar completas pero son relevantes ahora.",
           "audio": "audio/b1/unit-3/e9.mp3"
         }
       ]
@@ -246,19 +241,19 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "We have seen that movie twice.",
+    "transcript": "You have already achieved so much in your career.",
     "content": {
-      "title": "Rellenar los espacios",
-      "instructions": "Completa la oración con la forma correcta del presente perfecto.",
+      "title": "Éxitos Profesionales",
+      "instructions": "Completa la oración con el presente perfecto simple adecuado.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] _______ [[seen|visto]] [[that|esa]] [[movie|película]] [[twice|dos veces]].",
+          "question": "[[You|Tú]] _______ [[already|ya]] [[achieved|logrado]] [[so|tanto]] [[much|mucho]] [[in|en]] [[your|tu]] [[career|carrera]].",
           "options": [
-            "[[have|hemos]]",
-            "[[are|son]]"
+            "[[have|has]]",
+            "[[has|ha]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Utilizamos el presente perfecto para expresar el número de veces que ha ocurrido una acción en el pasado.",
+          "explanation": "Presente perfecto para indicar logros alcanzados hasta el presente.",
           "audio": "audio/b1/unit-3/e10.mp3"
         }
       ]
@@ -272,24 +267,27 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "She has traveled to five countries although she has never been to Asia.",
+    "transcript": "I have visited several countries although I have not traveled to Asia yet.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[has|ha]] [[traveled|viajado]] [[to|a]] [[five|cinco]] [[countries|países]] [[although|aunque]] [[she|ella]] [[has|nunca]] [[never|nunca]] [[been|estado]] [[to|en]] [[Asia|Asia]].",
+      "correctSentence": "[[I|Yo]] [[have|he]] [[visited|visitado]] [[several|varios]] [[countries|países]] [[although|aunque]] [[I|yo]] [[have|he]] [[not|no]] [[traveled|viajado]] [[to|a]] [[Asia|Asia]] [[yet|todavía]].",
       "words": [
-        "[[never|nunca]]",
-        "[[she|ella]]",
-        "[[been|estado]]",
-        "[[has|ha]]",
-        "[[countries|países]]",
-        "[[although|aunque]]",
-        "[[to|a]]",
-        "[[Asia|Asia]]",
+        "[[I|Yo]]",
+        "[[not|no]]",
         "[[traveled|viajado]]",
-        "[[five|cinco]]"
+        "[[Asia|Asia]]",
+        "[[I|yo]]",
+        "[[have|he]]",
+        "[[visited|visitado]]",
+        "[[countries|países]]",
+        "[[yet|todavía]]",
+        "[[several|varios]]",
+        "[[have|he]]",
+        "[[although|aunque]]",
+        "[[to|a]]"
       ],
-      "explanation": "Uso del presente perfecto para hablar de experiencias pasadas con impacto actual. El conector 'aunque' introduce una cláusula de contraste.",
+      "explanation": "Uso del presente perfecto para hablar sobre experiencias de vida. Se utiliza 'have visited' para experiencias pasadas que tienen relevancia presente, y 'have not traveled yet' indica algo que no se ha hecho.",
       "audio": "audio/b1/unit-3/e11.mp3"
     },
     "id": "b1-u3-e11",
@@ -301,24 +299,23 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "Despite working a lot, he has not yet finished his project.",
+    "transcript": "He has not completed his degree despite the challenges.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Despite|A pesar de]] [[working|trabajar]] [[a|mucho]] [[lot|mucho]], [[he|él]] [[has|no]] [[not|aún]] [[yet|aún]] [[finished|terminado]] [[his|su]] [[project|proyecto]].",
+      "correctSentence": "[[He|Él]] [[has|ha]] [[not|no]] [[completed|terminado]] [[his|su]] [[degree|carrera]] [[despite|a pesar de]] [[the|los]] [[challenges|desafíos]].",
       "words": [
-        "[[yet|aún]]",
+        "[[degree|carrera]]",
+        "[[has|ha]]",
+        "[[completed|terminado]]",
+        "[[despite|a pesar de]]",
+        "[[He|Él]]",
+        "[[the|los]]",
         "[[not|no]]",
-        "[[lot|mucho]]",
-        "[[Despite|A pesar de]]",
-        "[[finished|terminado]]",
         "[[his|su]]",
-        "[[project|proyecto]]",
-        "[[working|trabajar]]",
-        "[[he|él]]",
-        "[[has|ha]]"
+        "[[challenges|desafíos]]"
       ],
-      "explanation": "Uso del presente perfecto para acciones no completadas. 'A pesar de' indica una concesión que contrasta la acción no completada.",
+      "explanation": "La estructura 'has not completed' se usa para resaltar algo no logrado pero que aún es posible en el futuro.",
       "audio": "audio/b1/unit-3/e12.mp3"
     },
     "id": "b1-u3-e12",
@@ -330,24 +327,27 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "Although she has taken many courses, she still feels unprepared.",
+    "transcript": "She has written for several international journals; however, she has never edited them.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Although|Aunque]] [[she|ella]] [[has|ha]] [[taken|tomado]] [[many|muchos]] [[courses|cursos]], [[she|ella]] [[still|todavía]] [[feels|se siente]] [[unprepared|no preparada]].",
+      "correctSentence": "[[She|Ella]] [[has|ha]] [[written|escrito]] [[for|para]] [[several|varias]] [[international|internacionales]] [[journals|revistas]]; [[however|sin embargo]], [[she|ella]] [[has|ha]] [[never|nunca]] [[edited|editado]] [[them|ellas]].",
       "words": [
-        "[[Although|Aunque]]",
-        "[[she|ella]]",
-        "[[courses|cursos]]",
-        "[[feels|se siente]]",
-        "[[still|todavía]]",
-        "[[she|ella]]",
-        "[[unprepared|no preparada]]",
+        "[[journals|revistas]]",
+        "[[international|internacionales]]",
+        "[[several|varias]]",
         "[[has|ha]]",
-        "[[many|muchos]]",
-        "[[taken|tomado]]"
+        "[[them|ellas]]",
+        "[[written|escrito]]",
+        "[[for|para]]",
+        "[[edited|editado]]",
+        "[[she|ella]]",
+        "[[never|nunca]]",
+        "[[She|Ella]]",
+        "[[however|sin embargo]]",
+        "[[has|ha]]"
       ],
-      "explanation": "Uso del presente perfecto para indicar experiencias acumuladas. 'Aunque' introduce un contraste entre las experiencias y el sentimiento actual.",
+      "explanation": "En la primera parte, 'has written' se usa para logros actuales, y 'has never edited' enfatiza acciones no realizadas.",
       "audio": "audio/b1/unit-3/e13.mp3"
     },
     "id": "b1-u3-e13",
@@ -359,23 +359,26 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "He has managed the team successfully since last year.",
+    "transcript": "Although they have faced many difficulties, they have succeeded in their business.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[has|ha]] [[managed|gestionado]] [[the|el]] [[team|equipo]] [[successfully|exitosamente]] [[since|desde]] [[last|el año]] [[year|pasado]].",
+      "correctSentence": "[[Although|Aunque]] [[they|ellos]] [[have|han]] [[faced|enfrentado]] [[many|muchas]] [[difficulties|dificultades]], [[they|ellos]] [[have|han]] [[succeeded|triunfado]] [[in|en]] [[their|su]] [[business|negocio]].",
       "words": [
-        "[[the|el]]",
-        "[[managed|gestionado]]",
-        "[[since|desde]]",
-        "[[team|equipo]]",
-        "[[successfully|exitosamente]]",
-        "[[has|ha]]",
-        "[[He|Él]]",
-        "[[last|el año]]",
-        "[[year|pasado]]"
+        "[[faced|enfrentado]]",
+        "[[they|ellos]]",
+        "[[succeeded|triunfado]]",
+        "[[Although|Aunque]]",
+        "[[have|han]]",
+        "[[in|en]]",
+        "[[business|negocio]]",
+        "[[difficulties|dificultades]]",
+        "[[have|han]]",
+        "[[many|muchas]]",
+        "[[they|ellos]]",
+        "[[their|su]]"
       ],
-      "explanation": "Se usa el presente perfecto para acciones que ocurrieron en un tiempo indefinido antes de ahora. 'Desde el año pasado' indica el inicio de una acción continuada.",
+      "explanation": "Se enfatiza el contraste con 'although', y el presente perfecto destaca logros a pesar de dificultades previas.",
       "audio": "audio/b1/unit-3/e14.mp3"
     },
     "id": "b1-u3-e14",
@@ -387,24 +390,24 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "She has joined a book club because she enjoys reading.",
+    "transcript": "Despite never having studied architecture, he has designed many buildings.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[has|ha]] [[joined|se unido]] [[a|un]] [[book|club de]] [[club|lectura]] [[because|porque]] [[she|ella]] [[enjoys|disfruta de]] [[reading|leer]].",
+      "correctSentence": "[[Despite|A pesar de]] [[never|nunca]] [[having|haber]] [[studied|estudiado]] [[architecture|arquitectura]], [[he|él]] [[has|ha]] [[designed|diseñado]] [[many|muchos]] [[buildings|edificios]].",
       "words": [
-        "[[reading|leer]]",
-        "[[because|porque]]",
-        "[[joined|se unido]]",
-        "[[book|club de]]",
-        "[[club|lectura]]",
-        "[[She|Ella]]",
-        "[[enjoys|disfruta de]]",
-        "[[a|un]]",
-        "[[she|ella]]",
-        "[[has|ha]]"
+        "[[studied|estudiado]]",
+        "[[Despite|A pesar de]]",
+        "[[has|ha]]",
+        "[[architecture|arquitectura]]",
+        "[[many|muchos]]",
+        "[[having|haber]]",
+        "[[designed|diseñado]]",
+        "[[never|nunca]]",
+        "[[he|él]]",
+        "[[buildings|edificios]]"
       ],
-      "explanation": "Se utiliza el presente perfecto para acciones recientes con relevancia actual. 'Porque' introduce la razón para la acción.",
+      "explanation": "El uso de 'despite' y 'has designed' muestra logros inesperados debido a la falta de formación formal.",
       "audio": "audio/b1/unit-3/e15.mp3"
     },
     "id": "b1-u3-e15",
@@ -416,19 +419,19 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "She has traveled to several countries in Asia.",
+    "transcript": "He has visited three countries this year.",
     "content": {
-      "title": "Logros Personales y Experiencias: Viajes",
-      "instructions": "Selecciona la opción correcta para completar la oración.",
+      "title": "Experiencias de viaje",
+      "instructions": "Selecciona la opción correcta para completar la oración usando el presente perfecto.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[to|a]] [[several|varios]] [[countries|países]] [[in|en]] [[Asia|Asia]].",
+          "question": "[[He|Él]] _______ [[visited|visitado]] [[three|tres]] [[countries|países]] [[this|este]] [[year|año]].",
           "options": [
-            "[[has|ha]] [[traveled|viajado]]",
-            "[[will|irá]] [[travel|viajar]]"
+            "[[has|ha]]",
+            "[[did|hizo]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso del presente perfecto para expresar experiencias de vida.",
+          "explanation": "El presente perfecto se usa para hablar de experiencias hasta el momento actual, no el pasado concreto.",
           "audio": "audio/b1/unit-3/e16.mp3"
         }
       ]
@@ -442,19 +445,19 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "Have you ever participated in a marathon?",
+    "transcript": "Although she has broken her leg, she has completed the marathon.",
     "content": {
-      "title": "Experiencias Personales: Participación en Eventos",
-      "instructions": "Elige la opción que completa la pregunta sobre experiencias pasadas.",
+      "title": "Logros personales",
+      "instructions": "Completa la oración usando el presente perfecto para indicar logros recientes.",
       "questions": [
         {
-          "question": "[[Have|Has]] [[you|tú]] _______ [[participated|participado]] [[in|en]] [[a|un]] [[marathon|maratón]]?",
+          "question": "[[Although|Aunque]] [[she|ella]] _______ [[broken|roto]] [[her|su]] [[leg|pierna]], [[she|ella]] [[has|ha]] [[completed|completado]] [[the|el]] [[marathon|maratón]].",
           "options": [
-            "[[ever|alguna vez]]",
-            "[[never|nunca]]"
+            "[[has|ha]]",
+            "[[had|había]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso de 'ever' en preguntas para preguntar sobre experiencias de vida.",
+          "explanation": "Usamos 'has broken' para expresar una situación que sigue siendo relevante en el presente.",
           "audio": "audio/b1/unit-3/e17.mp3"
         }
       ]
@@ -468,19 +471,19 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "I have not completed my thesis yet.",
+    "transcript": "They have never lived abroad.",
     "content": {
-      "title": "Logros Personales Académicos",
-      "instructions": "Completa la oración sobre logros académicos usando la opción correcta.",
+      "title": "Experiencias de vida",
+      "instructions": "Usa el presente perfecto para hablar sobre experiencias de vida que no han ocurrido.",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[completed|terminado]] [[my|mi]] [[thesis|tesis]] [[yet|aún]].",
+          "question": "[[They|Ellos]] _______ [[never|nunca]] [[lived|vivido]] [[abroad|en el extranjero]].",
           "options": [
-            "[[have|he]] [[not|no]]",
-            "[[did|hice]] [[not|no]]"
+            "[[have|han]]",
+            "[[did|hicieron]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso del presente perfecto para acciones no completadas hasta el momento presente.",
+          "explanation": "El presente perfecto se utiliza con 'never' para indicar que algo no ha sucedido en algún momento de la vida.",
           "audio": "audio/b1/unit-3/e18.mp3"
         }
       ]
@@ -494,19 +497,19 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "Despite the challenges, they have succeeded.",
+    "transcript": "Despite having had no training, he has built the entire website himself.",
     "content": {
-      "title": "Superación Personal y Éxitos",
-      "instructions": "Completa la oración eligiendo la opción correcta.",
+      "title": "Logros en el trabajo",
+      "instructions": "Completa la oración usando el presente perfecto para describir logros.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[the|los]] [[challenges|desafíos]], [[they|ellos]] _______ [[succeeded|han tenido éxito]].",
+          "question": "[[Despite|A pesar]] [[of|de]] [[having|haber]] [[had|tenido]] [[no|ninguna]] [[training|formación]], [[he|él]] _______ [[built|construido]] [[the|el]] [[entire|entero]] [[website|sitio web]] [[himself|él mismo]].",
           "options": [
-            "[[have|han]]",
-            "[[had|tenían]]"
+            "[[has|ha]]",
+            "[[does|hace]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso del presente perfecto para resultados actuales de acciones pasadas.",
+          "explanation": "El presente perfecto se usa para hablar de logros y experiencias significativas en el presente.",
           "audio": "audio/b1/unit-3/e19.mp3"
         }
       ]
@@ -520,19 +523,19 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "She has already read three books this month.",
+    "transcript": "Have you ever attempted to learn a new language?",
     "content": {
-      "title": "Lecturas Personales y Logros",
-      "instructions": "Elige la opción correcta para completar la oración sobre logros personales recientes.",
+      "title": "Preguntas sobre experiencias",
+      "instructions": "Selecciona la forma correcta del presente perfecto para preguntas sobre experiencias de vida.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[read|leído]] [[three|tres]] [[books|libros]] [[this|este]] [[month|mes]].",
+          "question": "[[Have|Has]] [[you|tú]] _______ [[ever|alguna vez]] [[attempted|intentado]] [[to|aprender]] [[learn|un]] [[a|nuevo]] [[new|idioma]] [[language|nuevo]]?",
           "options": [
-            "[[has|ha]] [[already|ya]]",
-            "[[will|irá]] [[soon|pronto]]"
+            "[[have|has]]",
+            "[[did|hiciste]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso del presente perfecto con 'already' para indicar acciones completadas recientemente.",
+          "explanation": "El presente perfecto se usa para preguntar sobre experiencias que podrían haber ocurrido en cualquier momento de la vida.",
           "audio": "audio/b1/unit-3/e20.mp3"
         }
       ]
@@ -546,19 +549,19 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "I have visited several countries in Europe.",
+    "transcript": "I have visited several countries in Asia.",
     "content": {
-      "title": "Logros Personales: Viajes",
-      "instructions": "Completa la frase usando el presente perfecto simple.",
+      "title": "Llenar el espacio en blanco",
+      "instructions": "Completa la oración con la forma correcta del presente perfecto.",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[visited|visitado]] [[several|varios]] [[countries|países]] [[in|en]] [[Europe|Europa]].",
+          "question": "[[I|Yo]] _______ [[visited|visitado]] [[several|varios]] [[countries|países]] [[in|en]] [[Asia|Asia]].",
           "options": [
             "[[have|he]]",
-            "[[has|ha]]"
+            "[[had|había]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Usa 'have' con 'I' en presente perfecto para experiencias: sujeto + have/has + participio pasado.",
+          "explanation": "Usa 'have' con el participio pasado para hablar de experiencias de vida usando el presente perfecto.",
           "audio": "audio/b1/unit-3/e21.mp3"
         }
       ]
@@ -572,19 +575,19 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "She has completed her first marathon despite the challenges.",
+    "transcript": "She has worked at the company for five years.",
     "content": {
-      "title": "Logros Personales: Deportes",
-      "instructions": "Rellena el espacio usando el presente perfecto simple.",
+      "title": "Llenar el espacio en blanco",
+      "instructions": "Completa la frase con la forma correcta del presente perfecto.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[completed|completado]] [[her|su]] [[first|primera]] [[marathon|maratón]] [[despite|a pesar de]] [[the|los]] [[challenges|retos]].",
+          "question": "[[She|Ella]] _______ [[worked|trabajado]] [[at|en]] [[the|la]] [[company|empresa]] [[for|durante]] [[five|cinco]] [[years|años]].",
           "options": [
             "[[has|ha]]",
-            "[[have|he]]"
+            "[[did|hizo]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Has' es usado para tercera persona singular con el presente perfecto: sujeto + have/has + participio pasado.",
+          "explanation": "Usamos 'has' con el participio pasado para describir una situación que comenzó en el pasado y continúa en el presente.",
           "audio": "audio/b1/unit-3/e22.mp3"
         }
       ]
@@ -598,19 +601,19 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "They have worked in the same company for ten years.",
+    "transcript": "Despite being young, he has already published two books.",
     "content": {
-      "title": "Experiencias Laborales",
-      "instructions": "Completa la frase con el tiempo verbal apropiado.",
+      "title": "Llenar el espacio en blanco",
+      "instructions": "Usa el presente perfecto para completar la frase.",
       "questions": [
         {
-          "question": "[[They|Ellos/Ellas]] _______ [[worked|trabajado]] [[in|en]] [[the|la]] [[same|misma]] [[company|compañía]] [[for|durante]] [[ten|diez]] [[years|años]].",
+          "question": "[[Despite|A pesar de]] [[being|ser]] [[young|joven]], [[he|él]] _______ [[already|ya]] [[published|publicado]] [[two|dos]] [[books|libros]].",
           "options": [
-            "[[have|han]]",
-            "[[has|ha]]"
+            "[[has|ha]]",
+            "[[did|hizo]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Usa 'have' para 'they' en presente perfecto: sujeto + have/has + participio pasado.",
+          "explanation": "Enfatiza una experiencia impactante o notable usando el presente perfecto.",
           "audio": "audio/b1/unit-3/e23.mp3"
         }
       ]
@@ -624,19 +627,19 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "He has written three novels, although none have been published yet.",
+    "transcript": "They have learned from their past mistakes.",
     "content": {
-      "title": "Logros Personales: Escritura",
-      "instructions": "Usa el presente perfecto para completar la oración.",
+      "title": "Llenar el espacio en blanco",
+      "instructions": "Llena el espacio con la forma adecuada del presente perfecto.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[written|escrito]] [[three|tres]] [[novels|novelas]], [[although|aunque]] [[none|ninguna]] [[have|ha]] _______ [[published|publicada]] [[yet|todavía]].",
+          "question": "[[They|Ellos]] _______ [[learned|aprendido]] [[from|de]] [[their|sus]] [[past|pasados]] [[mistakes|errores]].",
           "options": [
-            "[[has|ha]]",
-            "[[have|han]]"
+            "[[have|han]]",
+            "[[will|van a]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Has' se utiliza con 'he' para expresar acciones completadas en presente perfecto: sujeto + have/has + participio pasado.",
+          "explanation": "Refuerza el aprendizaje previo usando el presente perfecto.",
           "audio": "audio/b1/unit-3/e24.mp3"
         }
       ]
@@ -650,19 +653,19 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "We have successfully managed several projects over the years.",
+    "transcript": "Although he has faced challenges, he remains optimistic.",
     "content": {
-      "title": "Experiencia Profesional",
-      "instructions": "Rellena el espacio con el verbo adecuado en presente perfecto.",
+      "title": "Llenar el espacio en blanco",
+      "instructions": "Completa la oración aprovechando el presente perfecto.",
       "questions": [
         {
-          "question": "[[We|Nosotros/Nosotras]] _______ [[successfully|exitosamente]] [[managed|gestionado]] [[several|varios]] [[projects|proyectos]] [[over|a lo largo]] [[the|de los]] [[years|años]].",
+          "question": "[[Although|Aunque]] [[he|él]] _______ [[faced|enfrentado]] [[challenges|desafíos]], [[he|él]] [[remains|permanece]] [[optimistic|optimista]].",
           "options": [
-            "[[have|hemos]]",
-            "[[has|ha]]"
+            "[[has|ha]]",
+            "[[was|fue]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Have' se utiliza con 'we' en presente perfecto: sujeto + have/has + participio pasado.",
+          "explanation": "El presente perfecto se usa aquí para contrastar experiencias pasadas con actitudes actuales.",
           "audio": "audio/b1/unit-3/e25.mp3"
         }
       ]
@@ -676,25 +679,23 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "She has achieved a lot of success despite her young age.",
+    "transcript": "I have visited many countries while traveling for work.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[has|ha]] [[achieved|logrado]] [[a|un]] [[lot|montón]] [[of|de]] [[success|éxito]] [[despite|a pesar de]] [[her|su]] [[young|joven]] [[age|edad]].",
+      "correctSentence": "[[I|Yo]] [[have|he]] [[visited|visitado]] [[many|muchos]] [[countries|países]] [[while|mientras]] [[traveling|viajaba]] [[for|por]] [[work|trabajo]].",
       "words": [
-        "[[achieved|logrado]]",
-        "[[a|un]]",
-        "[[lot|montón]]",
-        "[[despite|a pesar de]]",
-        "[[her|su]]",
-        "[[success|éxito]]",
-        "[[young|joven]]",
-        "[[age|edad]]",
-        "[[She|Ella]]",
-        "[[has|ha]]",
-        "[[of|de]]"
+        "[[countries|países]]",
+        "[[I|Yo]]",
+        "[[visited|visitado]]",
+        "[[Work|trabajo]]",
+        "[[for|por]]",
+        "[[while|mientras]]",
+        "[[many|muchos]]",
+        "[[have|he]]",
+        "[[traveling|viajaba]]"
       ],
-      "explanation": "Uso del presente perfecto para expresar logros: Sujeto + has/have + participio pasado.",
+      "explanation": "Uso del presente perfecto para experiencias pasadas sin tiempo específico: 'have' + participio pasado.",
       "audio": "audio/b1/unit-3/e26.mp3"
     },
     "id": "b1-u3-e26",
@@ -706,25 +707,21 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "Although he has traveled to many countries, he has never been to Japan.",
+    "transcript": "She has successfully completed her first marathon.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Although|Aunque]] [[he|él]] [[has|ha]] [[traveled|viajado]] [[to|a]] [[many|muchos]] [[countries|países]], [[he|él]] [[has|nunca]] [[never|ha]] [[been|estado]] [[to|en]] [[Japan|Japón]].",
+      "correctSentence": "[[She|Ella]] [[has|ha]] [[successfully|exitosamente]] [[completed|completado]] [[her|su]] [[first|primer]] [[marathon|maratón]].",
       "words": [
-        "[[to|en]]",
-        "[[Although|Aunque]]",
-        "[[been|estado]]",
-        "[[many|muchos]]",
+        "[[first|primer]]",
+        "[[completed|completado]]",
+        "[[successfully|exitosamente]]",
+        "[[marathon|maratón]]",
         "[[has|ha]]",
-        "[[he|él]]",
-        "[[traveled|viajado]]",
-        "[[countries|países]]",
-        "[[to|a]]",
-        "[[Japan|Japón]]",
-        "[[never|nunca]]"
+        "[[her|su]]",
+        "[[She|Ella]]"
       ],
-      "explanation": "Uso del presente perfecto para experiencias: Sujeto + has/have + participio pasado.",
+      "explanation": "El presente perfecto se usa para logros pasados que tienen relevancia en el presente.",
       "audio": "audio/b1/unit-3/e27.mp3"
     },
     "id": "b1-u3-e27",
@@ -736,24 +733,21 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "I have participated in many international conferences over the years.",
+    "transcript": "Despite difficulties, they have achieved great success.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[have|he]] [[participated|participado]] [[in|en]] [[many|muchas]] [[international|internacionales]] [[conferences|conferencias]] [[over|a lo largo de]] [[the|los]] [[years|años]].",
+      "correctSentence": "[[Despite|A pesar de]] [[difficulties|dificultades]], [[they|ellos]] [[have|han]] [[achieved|logrado]] [[great|grandes]] [[success|éxitos]].",
       "words": [
-        "[[have|he]]",
-        "[[I|Yo]]",
-        "[[in|en]]",
-        "[[conferences|conferencias]]",
-        "[[many|muchas]]",
-        "[[years|años]]",
-        "[[the|los]]",
-        "[[international|internacionales]]",
-        "[[participated|participado]]",
-        "[[over|a lo largo de]]"
+        "[[achieved|logrado]]",
+        "[[great|grandes]]",
+        "[[Despite|A pesar de]]",
+        "[[difficulties|dificultades]]",
+        "[[they|ellos]]",
+        "[[have|han]]",
+        "[[success|éxitos]]"
       ],
-      "explanation": "Presente perfecto para experiencias acumuladas: Sujeto + has/have + participio pasado.",
+      "explanation": "Uso de 'despite' para contraponer obstáculos y logros alcanzados en el presente perfecto.",
       "audio": "audio/b1/unit-3/e28.mp3"
     },
     "id": "b1-u3-e28",
@@ -765,24 +759,22 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "They have completed the project successfully despite limited resources.",
+    "transcript": "My brother has never traveled outside his country.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[have|han]] [[completed|completado]] [[the|el]] [[project|proyecto]] [[successfully|exitosamente]] [[despite|a pesar de]] [[limited|limitados]] [[resources|recursos]].",
+      "correctSentence": "[[My|Mi]] [[brother|hermano]] [[has|ha]] [[never|nunca]] [[traveled|viajado]] [[outside|fuera]] [[his|de su]] [[country|país]].",
       "words": [
-        "[[you|tu]]",
-        "[[completed|completado]]",
-        "[[resources|recursos]]",
-        "[[despite|a pesar de]]",
-        "[[the|el]]",
-        "[[limited|limitados]]",
-        "[[successfully|exitosamente]]",
-        "[[have|han]]",
-        "[[They|Ellos]]",
-        "[[project|proyecto]]"
+        "[[never|nunca]]",
+        "[[his|de su]]",
+        "[[traveled|viajado]]",
+        "[[has|ha]]",
+        "[[country|país]]",
+        "[[My|Mi]]",
+        "[[outside|fuera]]",
+        "[[brother|hermano]]"
       ],
-      "explanation": "Uso del presente perfecto para logros: Sujeto + has/have + participio pasado.",
+      "explanation": "Uso del presente perfecto para experiencias no realizadas, usando 'never' con 'have/has'.",
       "audio": "audio/b1/unit-3/e29.mp3"
     },
     "id": "b1-u3-e29",
@@ -794,24 +786,24 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "We have explored many historical sites because we love history.",
+    "transcript": "Although he has written several books, he still feels inexperienced.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[have|hemos]] [[explored|explorado]] [[many|muchos]] [[historical|históricos]] [[sites|sitios]] [[because|porque]] [[we|nosotros]] [[love|amamos]] [[history|historia]].",
+      "correctSentence": "[[Although|Aunque]] [[he|él]] [[has|ha]] [[written|escrito]] [[several|varios]] [[books|libros]], [[he|él]] [[still|todavía]] [[feels|se siente]] [[inexperienced|inexperto]].",
       "words": [
-        "[[sites|sitios]]",
-        "[[historical|históricos]]",
-        "[[many|muchos]]",
-        "[[We|Nosotros]]",
-        "[[because|porque]]",
-        "[[history|historia]]",
-        "[[have|hemos]]",
-        "[[explored|explorado]]",
-        "[[love|amamos]]",
-        "[[we|nosotros]]"
+        "[[he|él]]",
+        "[[books|libros]]",
+        "[[feels|se siente]]",
+        "[[he|él]]",
+        "[[written|escrito]]",
+        "[[still|todavía]]",
+        "[[Although|Aunque]]",
+        "[[inexperienced|inexperto]]",
+        "[[has|ha]]",
+        "[[several|varios]]"
       ],
-      "explanation": "Presente perfecto para hablar de experiencias: Sujeto + has/have + participio pasado.",
+      "explanation": "Contrasta logros con percepciones personales usando 'although' y el presente perfecto.",
       "audio": "audio/b1/unit-3/e30.mp3"
     },
     "id": "b1-u3-e30",
@@ -823,19 +815,20 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "I have visited three countries this year.",
+    "transcript": "She has visited several countries in Europe recently.",
     "content": {
-      "title": "Logros personales usando el presente perfecto",
-      "instructions": "Selecciona la opción correcta para completar la frase.",
+      "title": "Logros Personales",
+      "instructions": "Elige la forma correcta del verbo para completar la frase sobre experiencias de vida.",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[visited|visitado]] [[three|tres]] [[countries|países]] [[this|este]] [[year|año]].",
+          "question": "[[She|Ella]] _______ [[visited|visitado]] [[several|varios]] [[countries|países]] [[in|en]] [[Europe|Europa]] [[recently|recientemente]].",
           "options": [
-            "[[have|he]]",
-            "[[had|había]]"
+            "[[has|ha]]",
+            "[[did|hizo]]",
+            "[[was|era]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se usa el presente perfecto para hablar de experiencias hasta ahora en el año actual.",
+          "explanation": "Uso del presente perfecto para indicar experiencias recientes sin mencionar cuándo.",
           "audio": "audio/b1/unit-3/e31.mp3"
         }
       ]
@@ -849,19 +842,20 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "He has recently learned to play the guitar.",
+    "transcript": "Although they have tried many times, they haven't succeeded yet.",
     "content": {
-      "title": "Aprender nuevas habilidades",
-      "instructions": "Elige la opción que completa la declaración sobre habilidades adquiridas.",
+      "title": "Intenciones y Resultados",
+      "instructions": "Selecciona la opción correcta para completar la oración sobre intentos.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[recently|recientemente]] [[learned|aprendido]] [[to|a]] [[play|tocar]] [[the|la]] [[guitar|guitarra]].",
+          "question": "[[Although|Aunque]] [[they|ellos]] _______ [[tried|intentado]] [[many|muchas]] [[times|veces]], [[they|ellos]] [[haven't|no han]] [[succeeded|tenido éxito]] [[yet|todavía]].",
           "options": [
-            "[[has|ha]]",
-            "[[is|está]]"
+            "[[have|han]]",
+            "[[had|habían]]",
+            "[[did|hicieron]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El adverbio 'recently' con el presente perfecto indica una acción que ocurrió hace poco.",
+          "explanation": "Se utiliza el presente perfecto para referirse a acciones repetidas que no tienen un éxito todavía.",
           "audio": "audio/b1/unit-3/e32.mp3"
         }
       ]
@@ -875,19 +869,20 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "They have not finished their project yet.",
+    "transcript": "Despite her efforts, she hasn't managed to complete the project.",
     "content": {
-      "title": "Progresos en proyectos personales",
-      "instructions": "Elige la opción que describe el estado actual del proyecto.",
+      "title": "Desafíos y Logros",
+      "instructions": "Completa la frase con la opción correcta sobre los esfuerzos pasados.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[not|no]] [[finished|terminado]] [[their|su]] [[project|proyecto]] [[yet|todavía]].",
+          "question": "[[Despite|A pesar de]] [[her|sus]] [[efforts|esfuerzos]], [[she|ella]] _______ [[managed|logrado]] [[to|completar]] [[complete|el proyecto]].",
           "options": [
-            "[[have|han]]",
-            "[[are|están]]"
+            "[[hasn't|no ha]]",
+            "[[didn't|no hizo]]",
+            "[[wasn't|no estaba]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Yet' se usa en oraciones negativas con el presente perfecto para indicar que algo todavía no ha ocurrido.",
+          "explanation": "El presente perfecto se usa para hablar de acciones que no se han completado a pesar de intentos pasados.",
           "audio": "audio/b1/unit-3/e33.mp3"
         }
       ]
@@ -901,19 +896,20 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "She has worked in several countries.",
+    "transcript": "He has worked in this company since 2015.",
     "content": {
-      "title": "Experiencias laborales internacionales",
-      "instructions": "Selecciona la opción correcta para completar la afirmación sobre experiencia laboral.",
+      "title": "Historia Laboral",
+      "instructions": "Elige la forma correcta que indica el tiempo desde que comenzó una acción.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[worked|trabajado]] [[in|en]] [[several|varios]] [[countries|países]].",
+          "question": "[[He|Él]] _______ [[worked|trabajado]] [[in|en]] [[this|esta]] [[company|empresa]] [[since|desde]] [[2015|2015]].",
           "options": [
             "[[has|ha]]",
-            "[[is|es]]"
+            "[[is|es]]",
+            "[[did|hizo]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El presente perfecto se utiliza para indicar experiencias de vida con efecto presente.",
+          "explanation": "El presente perfecto se utiliza con 'since' para acciones que comenzaron en el pasado y continúan en el presente.",
           "audio": "audio/b1/unit-3/e34.mp3"
         }
       ]
@@ -927,19 +923,20 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "We have never seen such a beautiful place before.",
+    "transcript": "Have you ever tried bungee jumping?",
     "content": {
-      "title": "Experiencias inolvidables",
-      "instructions": "Elige la opción que mejor completa la observación sobre el lugar visitado.",
+      "title": "Experiencias Extrema",
+      "instructions": "Selecciona la forma correcta para completar la pregunta sobre experiencias únicas.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] _______ [[never|nunca]] [[seen|visto]] [[such|un]] [[a|tan]] [[beautiful|hermoso]] [[place|lugar]] [[before|antes]].",
+          "question": "[[Have|Has]] [[you|tú]] _______ [[tried|probado]] [[bungee|bungee]] [[jumping|jumping]]?",
           "options": [
-            "[[have|hemos]]",
-            "[[will|iremos]]"
+            "[[ever|alguna vez]]",
+            "[[yet|ya]]",
+            "[[by|por]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El uso de 'never' en el presente perfecto resalta una experiencia que aún no ha ocurrido en la vida.",
+          "explanation": "Se usa 'ever' en preguntas en presente perfecto para preguntar sobre experiencias en general.",
           "audio": "audio/b1/unit-3/e35.mp3"
         }
       ]
@@ -953,19 +950,19 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "I have visited many countries although I have never been to Japan.",
+    "transcript": "He has worked in three different countries.",
     "content": {
-      "title": "Logros Personales y Experiencias",
-      "instructions": "Completa la frase usando el presente perfecto adecuado.",
+      "title": "Logros personales internacionales",
+      "instructions": "Completa la frase sobre experiencias internacionales usando el presente perfecto.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[have|he]] _______ [[many|muchos]] [[countries|países]] [[although|aunque]] [[I|yo]] [[have|he]] [[never|nunca]] _______ [[to|a]] [[Japan|Japón]].",
+          "question": "[[He|Él]] _______ [[worked|trabajado]] [[in|en]] [[three|tres]] [[different|diferentes]] [[countries|países]].",
           "options": [
-            "[[visited|visitado]]",
-            "[[been|estado]]"
+            "[[has|ha]]",
+            "[[had|había]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso del presente perfecto para experiencias pasadas relevantes en el presente. Se utiliza 'visited' para acciones de visitar.",
+          "explanation": "El presente perfecto se usa para hablar de experiencias en la vida que ocurren en un tiempo no específico antes de ahora.",
           "audio": "audio/b1/unit-3/e36.mp3"
         }
       ]
@@ -979,19 +976,19 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "He has lived in three different countries because of his job.",
+    "transcript": "Although I have not traveled much, I have learned a lot from my local experiences.",
     "content": {
-      "title": "Experiencias Laborales",
-      "instructions": "Rellena el espacio para completar la oración sobre su experiencia vital.",
+      "title": "Aprendizajes locales",
+      "instructions": "Completa la frase destacando experiencias de aprendizaje usando el presente perfecto.",
       "questions": [
         {
-          "question": "[[He|Él]] [[has|ha]] _______ [[in|en]] [[three|tres]] [[different|diferentes]] [[countries|países]] [[because|porque]] [[of|de]] [[his|su]] [[job|trabajo]].",
+          "question": "[[Although|Aunque]] [[I|yo]] _______ [[not|no]] [[traveled|viajado]] [[much|mucho]], [[I|yo]] [[have|he]] [[learned|aprendido]] [[a|mucho]] [[lot|de]] [[from|mis]] [[my|experiencias]] [[local|locales]].",
           "options": [
-            "[[lived|vivido]]",
-            "[[worked|trabajado]]"
+            "[[have|he]]",
+            "[[had|había]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso del presente perfecto para indicar experiencias repetidas en la vida, 'lived' se refiere a 'vivido'.",
+          "explanation": "Enfoque en la acumulación de experiencias hasta el momento presente, usando el presente perfecto.",
           "audio": "audio/b1/unit-3/e37.mp3"
         }
       ]
@@ -1005,19 +1002,19 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "She has written three books despite her busy schedule.",
+    "transcript": "They have written several books despite their busy schedules.",
     "content": {
-      "title": "Logros Personales",
-      "instructions": "Completa la oración sobre logros personales.",
+      "title": "Realización literaria",
+      "instructions": "Completa la frase sobre logros literarios utilizando el presente perfecto.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[has|ha]] _______ [[three|tres]] [[books|libros]] [[despite|a pesar de]] [[her|su]] [[busy|ocupada]] [[schedule|agenda]].",
+          "question": "[[They|Ellos]] _______ [[written|escrito]] [[several|varios]] [[books|libros]] [[despite|a pesar de]] [[their|sus]] [[busy|ocupadas]] [[schedules|agendas]].",
           "options": [
-            "[[written|escrito]]",
-            "[[read|leído]]"
+            "[[have|han]]",
+            "[[has|ha]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El presente perfecto se utiliza para enfatizar realizaciones importantes, 'written' porque se refiere a 'escrito'.",
+          "explanation": "Uso del presente perfecto para describir logros que continúan siendo relevantes.",
           "audio": "audio/b1/unit-3/e38.mp3"
         }
       ]
@@ -1031,19 +1028,19 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "They have never missed a deadline in their entire career.",
+    "transcript": "We have visited many historical sites in our city.",
     "content": {
-      "title": "Experiencias Profesionales",
-      "instructions": "Completa el enunciado sobre las experiencias profesionales usando el presente perfecto.",
+      "title": "Descubrimientos históricos",
+      "instructions": "Completa la frase sobre sitios históricos utilizando el presente perfecto.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[have|han]] [[never|nunca]] _______ [[a|un]] [[deadline|plazo]] [[in|en]] [[their|su]] [[entire|toda]] [[career|carrera]].",
+          "question": "[[We|Nosotros]] _______ [[visited|visitado]] [[many|muchos]] [[historical|históricos]] [[sites|sitios]] [[in|en]] [[our|nuestra]] [[city|ciudad]].",
           "options": [
-            "[[missed|perdido]]",
-            "[[met|cumplido]]"
+            "[[have|hemos]]",
+            "[[had|habíamos]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se usa el presente perfecto para enfatizar lo que no ha ocurrido, 'missed' se refiere a no haber 'perdido' un plazo.",
+          "explanation": "Relevancia del presente perfecto para hablar de experiencias significativas y completadas anteriormente.",
           "audio": "audio/b1/unit-3/e39.mp3"
         }
       ]
@@ -1057,19 +1054,19 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "We have achieved great success, although it was not easy.",
+    "transcript": "She has learned three new languages since she moved abroad.",
     "content": {
-      "title": "Éxitos Personales",
-      "instructions": "Llena el espacio con el verbo correcto en el presente perfecto.",
+      "title": "Aprendizaje lingüístico",
+      "instructions": "Completa la frase sobre aprendizaje de idiomas utilizando el presente perfecto.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[have|hemos]] _______ [[great|gran]] [[success|éxito]], [[although|aunque]] [[it|eso]] [[was|fue]] [[not|no]] [[easy|fácil]].",
+          "question": "[[She|Ella]] _______ [[learned|aprendido]] [[three|tres]] [[new|nuevos]] [[languages|idiomas]] [[since|desde]] [[she|que]] [[moved|se mudó]] [[abroad|al extranjero]].",
           "options": [
-            "[[achieved|logrado]]",
-            "[[failed|fracasado]]"
+            "[[has|ha]]",
+            "[[had|había]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Empleamos el presente perfecto para hablar sobre logros obtenidos 'achieved' se refiere a 'logrado'.",
+          "explanation": "El presente perfecto se usa para expresar logros alcanzados desde un punto específico en el pasado.",
           "audio": "audio/b1/unit-3/e40.mp3"
         }
       ]
@@ -1083,26 +1080,22 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "Although he has traveled to many countries, he has never been to Japan.",
+    "transcript": "I have achieved my goals despite many challenges.",
     "content": {
       "title": "Construcción de oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Although|Aunque]] [[he|él]] [[has|ha]] [[traveled|viajado]] [[to|a]] [[many|muchos]] [[countries|países]], [[he|él]] [[has|ha]] [[never|nunca]] [[been|estado]] [[to|en]] [[Japan|Japón]].",
+      "instructions": "Ordena las palabras para formar una oración correcta sobre logros personales.",
+      "correctSentence": "[[I|Yo]] [[have|he]] [[achieved|logrado]] [[my|mis]] [[goals|metas]] [[despite|a pesar de]] [[many|muchos]] [[challenges|desafíos]].",
       "words": [
-        "[[has|ha]]",
-        "[[Although|Aunque]]",
-        "[[he|él]]",
-        "[[never|nunca]]",
-        "[[traveled|viajado]]",
-        "[[countries|países]]",
-        "[[to|a]]",
-        "[[he|él]]",
-        "[[Japan|Japón]]",
-        "[[been|estado]]",
-        "[[to|en]]",
-        "[[many|muchos]]"
+        "[[despite|a pesar de]]",
+        "[[have|he]]",
+        "[[goals|metas]]",
+        "[[many|muchos]]",
+        "[[challenges|desafíos]]",
+        "[[I|Yo]]",
+        "[[achieved|logrado]]",
+        "[[my|mis]]"
       ],
-      "explanation": "Uso del presente perfecto para indicar experiencias, 'has traveled' indica una acción que ha ocurrido en algún momento de su vida.",
+      "explanation": "El presente perfecto se utiliza para hablar de logros en el presente que tienen relevancia actual.",
       "audio": "audio/b1/unit-3/e41.mp3"
     },
     "id": "b1-u3-e41",
@@ -1114,24 +1107,21 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "She has achieved a lot despite the challenges she faced.",
+    "transcript": "They have learned to speak French fluently.",
     "content": {
       "title": "Construcción de oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[has|ha]] [[achieved|logrado]] [[a|mucho]] [[lot|a pesar]] [[despite|de]] [[the|los]] [[challenges|retos]] [[she|que ella]] [[faced|enfrentó]].",
+      "instructions": "Ordena las palabras para formar una oración correcta sobre el aprendizaje de idiomas.",
+      "correctSentence": "[[They|Ellos]] [[have|han]] [[learned|aprendido]] [[to|a]] [[speak|hablar]] [[French|francés]] [[fluently|con fluidez]].",
       "words": [
-        "[[challenges|retos]]",
-        "[[the|los]]",
-        "[[despite|de]]",
-        "[[lot|a pesar]]",
-        "[[achieved|logrado]]",
-        "[[She|Ella]]",
-        "[[faced|enfrentó]]",
-        "[[she|que ella]]",
-        "[[a|mucho]]",
-        "[[has|ha]]"
+        "[[learned|aprendido]]",
+        "[[to|a]]",
+        "[[have|han]]",
+        "[[They|Ellos]]",
+        "[[French|francés]]",
+        "[[speak|hablar]]",
+        "[[fluently|con fluidez]]"
       ],
-      "explanation": "El presente perfecto se emplea para hablar de logros individuales, y 'despite' se usa como conector para mostrar contraste.",
+      "explanation": "El uso del presente perfecto para indicar un logro completado: haber aprendido a hablar con fluidez.",
       "audio": "audio/b1/unit-3/e42.mp3"
     },
     "id": "b1-u3-e42",
@@ -1143,25 +1133,23 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "They have lived in the city for over ten years now.",
+    "transcript": "Although I have traveled a lot, I have never visited Asia.",
     "content": {
       "title": "Construcción de oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[have|han]] [[lived|vivido]] [[in|en]] [[the|la]] [[city|ciudad]] [[for|por]] [[over|más]] [[ten|de]] [[years|diez años]] [[now|ahora]].",
+      "instructions": "Ordena las palabras para formar una oración correcta sobre experiencias de viaje.",
+      "correctSentence": "[[Although|Aunque]] [[I|yo]] [[have|he]] [[traveled|viajado]] [[a|mucho]] [[lot|he]] [[I|nunca]] [[have|he]] [[never|visitado]] [[visited|Asia]].",
       "words": [
-        "[[the|la]]",
-        "[[They|Ellos]]",
-        "[[in|en]]",
-        "[[lived|vivido]]",
-        "[[for|por]]",
-        "[[now|ahora]]",
-        "[[years|diez años]]",
-        "[[ten|de]]",
-        "[[over|más]]",
-        "[[city|ciudad]]",
-        "[[have|han]]"
+        "[[a|mucho]]",
+        "[[never|nunca]]",
+        "[[Asia|Asia]]",
+        "[[I|yo]]",
+        "[[never|he]]",
+        "[[have|he]]",
+        "[[visited|visitado]]",
+        "[[traveled|viajado]]",
+        "[[Although|Aunque]]"
       ],
-      "explanation": "El presente perfecto se usa para situaciones que comenzaron en el pasado y continúan en el presente, se indica duración con 'for'.",
+      "explanation": "Se usa 'although' para contrastar dos partes de la oración, experiencias de viaje con la falta de una en particular.",
       "audio": "audio/b1/unit-3/e43.mp3"
     },
     "id": "b1-u3-e43",
@@ -1173,23 +1161,25 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "He has recently completed his master's degree in engineering.",
+    "transcript": "Since I have moved to the city, I have met many interesting people.",
     "content": {
       "title": "Construcción de oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[has|ha]] [[recently|recientemente]] [[completed|completado]] [[his|su]] [[master's|maestría]] [[degree|en ingeniería]] [[in|en]] [[engineering|ingeniería]].",
+      "instructions": "Ordena las palabras para formar una oración correcta sobre experiencias en la ciudad.",
+      "correctSentence": "[[Since|Desde que]] [[I|yo]] [[have|me he]] [[moved|mudado]] [[to|a]] [[the|la]] [[city|ciudad]], [[I|he]] [[have|conocido]] [[met|a muchas]] [[many|personas]] [[interesting|interesantes]].",
       "words": [
-        "[[engineering|ingeniería]]",
-        "[[completed|completado]]",
-        "[[master's|maestría]]",
-        "[[in|en]]",
-        "[[He|Él]]",
-        "[[recently|recientemente]]",
-        "[[degree|en ingeniería]]",
-        "[[his|su]]",
-        "[[has|ha]]"
+        "[[Since|Desde que]]",
+        "[[city|ciudad]],",
+        "[[interesting|interesantes]].",
+        "[[moved|mudado]]",
+        "[[to|a]]",
+        "[[the|la]]",
+        "[[have|conocido]]",
+        "[[met|a muchas]]",
+        "[[many|personas]]",
+        "[[I|yo]]",
+        "[[have|me he]]"
       ],
-      "explanation": "Utilización del presente perfecto para logros recientes, la palabra 'recently' subraya la nueva conclusión de una fase de estudio.",
+      "explanation": "Uso del presente perfecto para indicar experiencias continuas y logros desde un momento específico.",
       "audio": "audio/b1/unit-3/e44.mp3"
     },
     "id": "b1-u3-e44",
@@ -1201,25 +1191,23 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "My friend has decided to learn a new language this year.",
+    "transcript": "Despite the difficulties, he has completed the project on time.",
     "content": {
       "title": "Construcción de oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My|Mi]] [[friend|amigo]] [[has|ha]] [[decided|decidido]] [[to|aprender]] [[learn|un nuevo]] [[a|idioma]] [[new|este]] [[language|año]]. [[this|él]] [[year|ha]] [[his|decidido]].",
+      "instructions": "Ordena las palabras para formar una oración correcta sobre completar proyectos.",
+      "correctSentence": "[[Despite|A pesar de]] [[the|las]] [[difficulties|dificultades]], [[he|él]] [[has|ha]] [[completed|completado]] [[the|el]] [[project|proyecto]] [[on|a]] [[time|tiempo]].",
       "words": [
-        "[[My|Mi]]",
-        "[[year|año]]",
-        "[[friend|amigo]]",
-        "[[new|este]]",
-        "[[a|idioma]]",
-        "[[language|año]]",
-        "[[learn|un nuevo]]",
+        "[[the|las]]",
+        "[[project|proyecto]]",
+        "[[Despite|A pesar de]]",
+        "[[difficulties|dificultades]],",
+        "[[completed|completado]]",
+        "[[on|a]]",
         "[[has|ha]]",
-        "[[this|él]]",
-        "[[to|aprender]]",
-        "[[decided|decidido]]"
+        "[[time|tiempo]].",
+        "[[he|él]]"
       ],
-      "explanation": "El presente perfecto muestra una acción recién tomada que impacta el presente. 'Decided' también implica una resolución firme para el futuro cercano.",
+      "explanation": "El uso de 'despite' para indicar superación de obstáculos al completar el proyecto usando el presente perfecto.",
       "audio": "audio/b1/unit-3/e45.mp3"
     },
     "id": "b1-u3-e45",
@@ -1231,19 +1219,19 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "I have traveled to several countries in my life.",
+    "transcript": "Have you ever traveled abroad?",
     "content": {
-      "title": "Experiencias de vida",
-      "instructions": "Elige la opción correcta para completar la oración sobre experiencias de vida.",
+      "title": "Viajes Internacionales",
+      "instructions": "Elige la opción correcta para completar la pregunta usando el presente perfecto.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[have|he]] _______ [[to|a]] [[several|varios]] [[countries|países]] [[in|en]] [[my|mi]] [[life|vida]].",
+          "question": "[[Have|Has]] [[you|tú]] _______ [[abroad|al extranjero]]?",
           "options": [
-            "[[traveled|viajado]]",
-            "[[traveled|viajando]]"
+            "[[ever|alguna vez]]",
+            "[[before|antes]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso del presente perfecto para indicar experiencias de vida sin tiempo determinado.",
+          "explanation": "El uso de 'ever' en preguntas con presente perfecto indica experiencias en cualquier momento hasta el presente.",
           "audio": "audio/b1/unit-3/e46.mp3"
         }
       ]
@@ -1257,19 +1245,19 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "She has seen that movie twice this month.",
+    "transcript": "They have never missed a deadline.",
     "content": {
-      "title": "Experiencias de vida",
-      "instructions": "Selecciona la opción correcta para completar la oración en presente perfecto.",
+      "title": "Cumplimiento de Plazos",
+      "instructions": "Selecciona la palabra adecuada para completar la oración en presente perfecto.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[has|ha]] _______ [[that|esa]] [[movie|película]] [[twice|dos veces]] [[this|este]] [[month|mes]].",
+          "question": "[[They|Ellos]] _______ [[missed|perdido]] [[a|una]] [[deadline|fecha límite]].",
           "options": [
-            "[[seen|visto]]",
-            "[[saw|vio]]"
+            "[[have|han]]",
+            "[[has|ha]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso del presente perfecto para acciones repetidas en un período de tiempo no terminado.",
+          "explanation": "Usamos 'have' con sujetos plurales en el presente perfecto.",
           "audio": "audio/b1/unit-3/e47.mp3"
         }
       ]
@@ -1283,19 +1271,19 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "They have never tried sushi before.",
+    "transcript": "She has already finished her presentation.",
     "content": {
-      "title": "Experiencias de vida",
-      "instructions": "Elige la opción adecuada para completar la afirmación sobre una experiencia.",
+      "title": "Presentaciones Terminadas",
+      "instructions": "Completa la oración eligiendo la opción correcta con el presente perfecto.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[have|han]] _______ [[never|nunca]] [[tried|probado]] [[sushi|sushi]] [[before|antes]].",
+          "question": "[[She|Ella]] [[has|ha]] _______ [[finished|terminado]] [[her|su]] [[presentation|presentación]].",
           "options": [
-            "[[tried|probado]]",
-            "[[try|probar]]"
+            "[[already|ya]]",
+            "[[yet|todavía]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso del presente perfecto 'have never tried' para referirse a algo que no se ha hecho en el pasado.",
+          "explanation": "En afirmaciones con presente perfecto, 'already' indica que algo se ha completado antes del momento actual.",
           "audio": "audio/b1/unit-3/e48.mp3"
         }
       ]
@@ -1309,19 +1297,19 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "We have not met him yet.",
+    "transcript": "Have they met the CEO yet?",
     "content": {
-      "title": "Experiencias de vida",
-      "instructions": "Completa la oración eligiendo la forma correcta del verbo para expresar una experiencia que aún no ha ocurrido.",
+      "title": "Conocer al CEO",
+      "instructions": "Escoge la opción apropiada para completar la pregunta con el presente perfecto.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[have|hemos]] _______ [[not|no]] [[met|conocido]] [[him|a él]] [[yet|todavía]].",
+          "question": "[[Have|Han]] [[they|ellos]] _______ [[the|al]] [[CEO|director ejecutivo]] _______?",
           "options": [
             "[[met|conocido]]",
-            "[[meet|conocer]]"
+            "[[yet|ya]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El uso de 'yet' indica que aún no ha ocurrido la acción, se utiliza el presente perfecto.",
+          "explanation": "'Yet' se utiliza en preguntas y negaciones con presente perfecto para referirse a algo que esperamos que ocurra.",
           "audio": "audio/b1/unit-3/e49.mp3"
         }
       ]
@@ -1335,19 +1323,19 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
     "difficulty": "medium",
-    "transcript": "He has written three books in his career.",
+    "transcript": "I have never seen such a beautiful painting.",
     "content": {
-      "title": "Logros personales",
-      "instructions": "Elige la opción correcta para completar la frase sobre logros personales en presente perfecto.",
+      "title": "Admiración Artística",
+      "instructions": "Elige la opción correcta para completar la oración con el presente perfecto.",
       "questions": [
         {
-          "question": "[[He|Él]] [[has|ha]] _______ [[three|tres]] [[books|libros]] [[in|en]] [[his|su]] [[career|carrera]].",
+          "question": "[[I|Yo]] [[have|he]] _______ [[such|tal]] [[a|una]] [[beautiful|hermosa]] [[painting|pintura]].",
           "options": [
-            "[[written|escrito]]",
-            "[[write|escribe]]"
+            "[[never|nunca]]",
+            "[[ever|alguna vez]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se usa el presente perfecto para hablar de logros hasta el momento presente.",
+          "explanation": "Usamos 'never' en afirmaciones negativas con el presente perfecto para indicar que algo no ha ocurrido en ningún momento hasta ahora.",
           "audio": "audio/b1/unit-3/e50.mp3"
         }
       ]

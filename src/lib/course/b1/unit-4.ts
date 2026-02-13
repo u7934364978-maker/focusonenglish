@@ -7,19 +7,19 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "Have you ever visited the Grand Canyon?",
+    "transcript": "Despite the delays, she has enjoyed her journey enormously.",
     "content": {
-      "title": "Experiencias de Viaje",
-      "instructions": "Elige la opción correcta para completar la oración sobre tus experiencias de viaje.",
+      "title": "Disfrutar el Viaje",
+      "instructions": "Elige la forma correcta del verbo para completar la frase.",
       "questions": [
         {
-          "question": "[[Have|Has]] [[you|tú]] _______ [[visited|visitado]] [[the|el]] [[Grand|Gran]] [[Canyon|Cañón]]?",
+          "question": "[[Despite|A pesar de]] [[the|el]] [[delays|retrasos]], [[she|ella]] _______ [[enjoyed|disfrutado]] [[her|su]] [[journey|viaje]] [[enormously|enormemente]].",
           "options": [
-            "[[ever|alguna vez]]",
-            "[[last|pasado]] [[year|año]]"
+            "[[has|ha]]",
+            "[[did|hizo]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se utiliza 'ever' con el presente perfecto para preguntar sobre experiencias en la vida.",
+          "explanation": "Uso del presente perfecto para mostrar una experiencia con relevancia actual.",
           "audio": "audio/b1/unit-4/e1.mp3"
         }
       ]
@@ -33,19 +33,19 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "When did you lose your passport?",
+    "transcript": "They traveled to Paris last year.",
     "content": {
-      "title": "Mishaps de Viaje",
-      "instructions": "Selecciona la opción que mejor completa la pregunta sobre un contratiempo.",
+      "title": "Viaje a París",
+      "instructions": "Selecciona la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[When|Cuándo]] _______ [[you|tú]] [[lose|perdiste]] [[your|tu]] [[passport|pasaporte]]?",
+          "question": "[[They|Ellos]] _______ [[to|a]] [[Paris|París]] [[last|pasado]] [[year|año]].",
           "options": [
-            "[[did|perdiste]]",
-            "[[have|has]] [[you|tú]]"
+            "[[have|han]] [[traveled|viajado]]",
+            "[[traveled|viajaron]]"
           ],
-          "correctAnswer": 0,
-          "explanation": "Se utiliza 'did' con el pasado simple para preguntar sobre momentos específicos en el pasado.",
+          "correctAnswer": 1,
+          "explanation": "Uso del pasado simple para acciones finalizadas en un tiempo específico en el pasado.",
           "audio": "audio/b1/unit-4/e2.mp3"
         }
       ]
@@ -59,19 +59,19 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "They have traveled to over 20 countries.",
+    "transcript": "Have you ever gotten lost in a new city?",
     "content": {
-      "title": "Aventuras Internacionales",
-      "instructions": "Elige la opción correcta para completar la oración sobre aventuras pasadas.",
+      "title": "Perderse en una ciudad nueva",
+      "instructions": "Elige la forma correcta del verbo para completar la pregunta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[traveled|viajado]] [[to|a]] [[over|más]] [[20|veinte]] [[countries|países]].",
+          "question": "[[Have|Has]] [[you|tú]] _______ [[lost|get|perdido]] [[in|en]] [[a|una]] [[new|nueva]] [[city|ciudad]]?",
           "options": [
-            "[[have|han]]",
-            "[[were|fueron]]"
+            "[[ever|alguna vez]]",
+            "[[did|get|perdió]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se utiliza 'have traveled' con el presente perfecto para hablar de experiencias pasadas generales.",
+          "explanation": "Se usa el presente perfecto para preguntar sobre experiencias en la vida.",
           "audio": "audio/b1/unit-4/e3.mp3"
         }
       ]
@@ -85,19 +85,19 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "I missed the flight because I left my house late.",
+    "transcript": "She has not checked into the hotel yet.",
     "content": {
-      "title": "Problemas con Vuelos",
-      "instructions": "Selecciona la opción que mejor completa la oración sobre un problema con un vuelo.",
+      "title": "Registarse en el Hotel",
+      "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[the|el]] [[flight|vuelo]] [[because|porque]] [[I|yo]] _______ [[my|mi]] [[house|casa]] [[late|tarde]].",
+          "question": "[[She|Ella]] _______ [[not|no]] [[checked|ha|revisado]] [[into|en]] [[the|el]] [[hotel|hotel]] [[yet|todavía]].",
           "options": [
-            "[[missed|perdí]], [[left|dejé]]",
-            "[[miss|pierdo]], [[leave|dejo]]"
+            "[[has|ha]]",
+            "[[did|hizo]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se utiliza el pasado simple 'missed' y 'left' para narrar acciones completadas en el pasado.",
+          "explanation": "Uso del presente perfecto negativo para algo que todavía no ha sucedido.",
           "audio": "audio/b1/unit-4/e4.mp3"
         }
       ]
@@ -111,19 +111,19 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "Has she decided where to go on vacation yet?",
+    "transcript": "Last week, they had a wonderful trip to the mountains.",
     "content": {
-      "title": "Decisiones de Vacaciones",
-      "instructions": "Escoge la opción correcta para completar la pregunta sobre decisiones de viaje.",
+      "title": "Viaje a las montañas",
+      "instructions": "Selecciona la forma correcta del verbo para completar la oración.",
       "questions": [
         {
-          "question": "[[Has|Ha]] [[she|ella]] _______ [[where|dónde]] [[to|ir]] [[go|a]] [[on|en]] [[vacation|vacaciones]] [[yet|ya]]?",
+          "question": "[[Last|La]] [[week|semana]], [[they|ellos]] _______ [[a|un]] [[wonderful|maravilloso]] [[trip|viaje]] [[to|a]] [[the|las]] [[mountains|montañas]].",
           "options": [
-            "[[decided|decidido]]",
-            "[[decide|decide]]"
+            "[[have|han]] [[had|tenido]]",
+            "[[had|tuvieron]]"
           ],
-          "correctAnswer": 0,
-          "explanation": "Uso del presente perfecto con 'yet' para preguntar si algo ya ha ocurrido.",
+          "correctAnswer": 1,
+          "explanation": "Se utiliza el pasado simple para eventos específicos que ocurrieron en el pasado.",
           "audio": "audio/b1/unit-4/e5.mp3"
         }
       ]
@@ -137,19 +137,19 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "Although she has traveled to many countries, she prefers to stay in her hometown.",
+    "transcript": "Although we planned the trip carefully, we have had many surprises.",
     "content": {
-      "title": "La aventura de viajar",
-      "instructions": "Completa la frase con la opción correcta utilizando el presente perfecto o el pasado simple.",
+      "title": "Planificación y sorpresas",
+      "instructions": "Elige la forma correcta del verbo para completar la frase.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[she|ella]] _______ [[to|a]] [[many|muchos]] [[countries|países]], [[she|ella]] [[prefers|prefiere]] [[to|a]] [[stay|quedarse]] [[in|en]] [[her|su]] [[hometown|ciudad natal]].",
+          "question": "[[Although|Aunque]] [[we|nosotros]] [[planned|planificamos]] [[the|el]] [[trip|viaje]] [[carefully|cuidadosamente]], [[we|nosotros]] _______ [[many|muchas]] [[surprises|sorpresas]].",
           "options": [
-            "[[has traveled|ha viajado]]",
-            "[[traveled|viajó]]"
+            "[[have|hemos]] [[had|tenido]]",
+            "[[did|hicimos]] [[have|tener]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso del presente perfecto para hablar de experiencias de vida en general sin especificar cuándo ocurrieron exactamente.",
+          "explanation": "Usamos el presente perfecto para referirnos a experiencias recientes que afectan el presente.",
           "audio": "audio/b1/unit-4/e6.mp3"
         }
       ]
@@ -163,19 +163,19 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "Despite missing the flight, he enjoyed his trip.",
+    "transcript": "Despite the bad weather, they arrived on time yesterday.",
     "content": {
-      "title": "Mala suerte al viajar",
-      "instructions": "Rellena el espacio con la forma correcta del verbo en pasado.",
+      "title": "Llegada puntual",
+      "instructions": "Completa la frase con la forma adecuada del verbo.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] _______ [[the|el]] [[flight|vuelo]], [[he|él]] [[enjoyed|disfrutó]] [[his|su]] [[trip|viaje]].",
+          "question": "[[Despite|A pesar de]] [[the|el]] [[bad|mal]] [[weather|clima]], [[they|ellos]] _______ [[on|a]] [[time|tiempo]] [[yesterday|ayer]].",
           "options": [
-            "[[missing|perder]]",
-            "[[missed|perdió]]"
+            "[[arrived|llegaron]]",
+            "[[have|han]] [[arrived|llegado]]"
           ],
-          "correctAnswer": 1,
-          "explanation": "Uso del pasado simple para eventos específicos que ya ocurrieron.",
+          "correctAnswer": 0,
+          "explanation": "Usamos el pasado simple para acciones completadas en un momento específico del pasado.",
           "audio": "audio/b1/unit-4/e7.mp3"
         }
       ]
@@ -189,19 +189,19 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "We have visited Paris three times, but our last trip was the best.",
+    "transcript": "He has never been lost in a city until he visited Tokyo.",
     "content": {
-      "title": "Recuerdos de París",
-      "instructions": "Usa presente perfecto o pasado simple para completar la frase según el contexto.",
+      "title": "Perdiéndose en la ciudad",
+      "instructions": "Selecciona la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] _______ [[Paris|París]] [[three|tres]] [[times|veces]], [[but|pero]] [[our|nuestro]] [[last|último]] [[trip|viaje]] [[was|fue]] [[the|el]] [[best|mejor]].",
+          "question": "[[He|Él]] _______ [[never|nunca]] [[been|estado]] [[lost|perdido]] [[in|en]] [[a|una]] [[city|ciudad]] [[until|hasta]] [[he|que él]] [[visited|visitó]] [[Tokyo|Tokio]].",
           "options": [
-            "[[have visited|hemos visitado]]",
-            "[[visited|visitamos]]"
+            "[[has|ha]]",
+            "[[was|fue]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se utiliza el presente perfecto para indicar acciones que han ocurrido en varias ocasiones sin referirse a un momento específico.",
+          "explanation": "El presente perfecto se utiliza para hablar de experiencias hasta el momento actual.",
           "audio": "audio/b1/unit-4/e8.mp3"
         }
       ]
@@ -215,19 +215,19 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "She booked the tickets only after she had checked the dates.",
+    "transcript": "They visited the museum before the new exhibit opened.",
     "content": {
-      "title": "Reservar boletos",
-      "instructions": "Completa usando la conjugación correcta del verbo en pasado.",
+      "title": "Visita al museo",
+      "instructions": "Usa la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[the|los]] [[tickets|boletos]] [[only|solo]] [[after|después de]] [[she|que ella]] [[had|había]] [[checked|verificado]] [[the|las]] [[dates|fechas]].",
+          "question": "[[They|Ellos]] _______ [[the|el]] [[museum|museo]] [[before|antes de]] [[the|la]] [[new|nueva]] [[exhibit|exposición]] [[opened|abrió]].",
           "options": [
-            "[[booked|reservó]]",
-            "[[has booked|ha reservado]]"
+            "[[visited|visitaron]]",
+            "[[have|han]] [[visited|visitado]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso del pasado simple para una acción que se completó tras otra acción pasada.",
+          "explanation": "El pasado simple se usa para acciones completadas antes de un momento específico en el pasado.",
           "audio": "audio/b1/unit-4/e9.mp3"
         }
       ]
@@ -241,19 +241,19 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "He has never experienced such friendly locals during his travels.",
+    "transcript": "We have booked our flights, but we didn’t reserve a hotel yet.",
     "content": {
-      "title": "Hospitalidad inesperada",
-      "instructions": "Completa la frase utilizando presente perfecto para hablar de experiencias.",
+      "title": "Reservas de viaje",
+      "instructions": "Escoge la forma correcta del verbo para completar la frase.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[never|nunca]] [[experienced|ha experimentado]] [[such|tan]] [[friendly|amables]] [[locals|lugareños]] [[during|durante]] [[his|sus]] [[travels|viajes]].",
+          "question": "[[We|Nosotros]] _______ [[our|nuestros]] [[flights|vuelos]], [[but|pero]] [[we|nosotros]] _______ [[reserve|reservar]] [[a|un]] [[hotel|hotel]] [[yet|aún]].",
           "options": [
-            "[[has experienced|ha experimentado]]",
-            "[[experienced|experimentó]]"
+            "[[have|hemos]] [[booked|reservado]]",
+            "[[didn’t|no]] [[reserve|reservamos]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El presente perfecto se usa para hablar de experiencias de vida sin especificar cuándo ocurren.",
+          "explanation": "La combinación del presente perfecto y el pasado simple en una misma oración muestra acciones completas y pendientes.",
           "audio": "audio/b1/unit-4/e10.mp3"
         }
       ]
@@ -267,25 +267,22 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "Although David has traveled to many countries, he has never been to Japan.",
+    "transcript": "I have already visited three countries this year.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Although|Aunque]] [[David|David]] [[has|ha]] [[traveled|viajado]] [[to|a]] [[many|muchos]] [[countries|países]], [[he|él]] [[has|nunca]] [[never|nunca]] [[been|estado]] [[to|en]] [[Japan|Japón]].",
+      "correctSentence": "[[I|Yo]] [[have|he]] [[already|ya]] [[visited|visitado]] [[three|tres]] [[countries|países]] [[this|este]] [[year|año]].",
       "words": [
-        "[[has|ha]]",
-        "[[never|nunca]]",
-        "[[traveled|viajado]]",
-        "[[David|David]]",
-        "[[Although|Aunque]]",
+        "[[visited|visitado]]",
+        "[[this|este]]",
+        "[[I|Yo]]",
         "[[countries|países]]",
-        "[[many|muchos]]",
-        "[[to|en]]",
-        "[[been|estado]]",
-        "[[he|él]]",
-        "[[Japan|Japón]]."
+        "[[year|año]]",
+        "[[three|tres]]",
+        "[[have|he]]",
+        "[[already|ya]]"
       ],
-      "explanation": "Comparación entre el presente perfecto para experiencias pasadas y estructuras subordinadas.",
+      "explanation": "Uso del present perfect para acciones realizadas en un tiempo indefinido que sigue siendo relevante.",
       "audio": "audio/b1/unit-4/e11.mp3"
     },
     "id": "b1-u4-e11",
@@ -297,27 +294,23 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "She fell asleep during the flight because she had not slept well the night before.",
+    "transcript": "Although she had planned everything, her flight was canceled.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[fell|se]] [[asleep|durmió]] [[during|durante]] [[the|el]] [[flight|vuelo]] [[because|porque]] [[she|ella]] [[had|no]] [[not|había]] [[slept|dormido]] [[well|bien]] [[the|la]] [[night|noche]] [[before|anteriormente]].",
+      "correctSentence": "[[Although|Aunque]] [[she|ella]] [[had|había]] [[planned|planeado]] [[everything|todo]], [[her|su]] [[flight|vuelo]] [[was|fue]] [[canceled|cancelado]].",
       "words": [
-        "[[slept|dormido]]",
-        "[[not|había]]",
-        "[[flight|vuelo]]",
-        "[[She|Ella]]",
-        "[[asleep|durmió]]",
-        "[[because|porque]]",
-        "[[during|durante]]",
-        "[[the|la]]",
-        "[[well|bien]]",
-        "[[before|anteriormente]]",
-        "[[night|noche]]",
+        "[[Although|Aunque]]",
+        "[[everything|todo]]",
+        "[[canceled|cancelado]]",
+        "[[was|fue]]",
+        "[[had|había]]",
         "[[she|ella]]",
-        "[[had|no]]"
+        "[[planned|planeado]]",
+        "[[her|su]]",
+        "[[flight|vuelo]]"
       ],
-      "explanation": "Uso del pasado simple para eventos Específicos con el pasado perfecto para dar contexto.",
+      "explanation": "Uso del past perfect para una acción completada antes de otra acción en el pasado.",
       "audio": "audio/b1/unit-4/e12.mp3"
     },
     "id": "b1-u4-e12",
@@ -329,26 +322,21 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "Maria has experienced many delays while travelling but never missed a flight.",
+    "transcript": "They have never traveled by train before.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Maria|Maria]] [[has|ha]] [[experienced|experimentado]] [[many|muchas]] [[delays|demoras]] [[while|mientras]] [[travelling|viajaba]] [[but|pero]] [[never|nunca]] [[missed|perdió]] [[a|un]] [[flight|vuelo]].",
+      "correctSentence": "[[They|Ellos]] [[have|han]] [[never|nunca]] [[traveled|viajado]] [[by|en]] [[train|tren]] [[before|antes]].",
       "words": [
-        "[[while|mientras]]",
-        "[[many|muchas]]",
-        "[[travelling|viajaba]]",
-        "[[Maria|Maria]]",
-        "[[has|ha]]",
+        "[[have|han]]",
+        "[[train|tren]]",
+        "[[by|en]]",
+        "[[traveled|viajado]]",
+        "[[They|Ellos]]",
         "[[never|nunca]]",
-        "[[a|un]]",
-        "[[missed|perdió]]",
-        "[[experienced|experimentado]]",
-        "[[flight|vuelo]]",
-        "[[delays|demoras]]",
-        "[[but|pero]]"
+        "[[before|antes]]"
       ],
-      "explanation": "Present Perfect para experiencias que continúan hasta ahora junto con expresiones de contraste.",
+      "explanation": "Uso del present perfect para expresar una experiencia en la vida.",
       "audio": "audio/b1/unit-4/e13.mp3"
     },
     "id": "b1-u4-e13",
@@ -360,22 +348,22 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "Despite having packed carefully, he forgot his passport.",
+    "transcript": "Despite the rain, we decided to go hiking.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Despite|A pesar de]] [[having|haber]] [[packed|empacado]] [[carefully|cuidadosamente]], [[he|él]] [[forgot|olvidó]] [[his|su]] [[passport|pasaporte]].",
+      "correctSentence": "[[Despite|A pesar de]] [[the|la]] [[rain|lluvia]], [[we|nosotros]] [[decided|decidimos]] [[to|a]] [[go|ir]] [[hiking|de excursión]].",
       "words": [
-        "[[forgot|olvidó]]",
-        "[[packed|empacado]]",
-        "[[A pesar de|Despite]]",
-        "[[passport|pasaporte]].",
-        "[[he|él]]",
-        "[[carefully|cuidadosamente]]",
-        "[[having|haber]]",
-        "[[his|su]]"
+        "[[we|nosotros]]",
+        "[[hiking|de excursión]]",
+        "[[Despite|A pesar de]]",
+        "[[the|la]]",
+        "[[decided|decidimos]]",
+        "[[rain|lluvia]]",
+        "[[go|ir]]",
+        "[[to|a]]"
       ],
-      "explanation": "Uso de 'despite' para introducir contrastes en narrativas de acontecimientos pasados.",
+      "explanation": "Uso de 'despite' para contrastar situaciones.",
       "audio": "audio/b1/unit-4/e14.mp3"
     },
     "id": "b1-u4-e14",
@@ -387,26 +375,22 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "They haven't decided on a destination yet, although they've considered several options.",
+    "transcript": "She has lost her passport and cannot travel.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[haven't|no han]] [[decided|decidido]] [[on|en]] [[a|un]] [[destination|destino]] [[yet|aún]], [[although|aunque]] [[they've|han]] [[considered|considerado]] [[several|varias]] [[options|opciones]].",
+      "correctSentence": "[[She|Ella]] [[has|ha]] [[lost|perdido]] [[her|su]] [[passport|pasaporte]] [[and|y]] [[cannot|no puede]] [[travel|viajar]].",
       "words": [
-        "[[decided|decidido]]",
-        "[[They|Ellos]]",
-        "[[a|un]]",
-        "[[on|en]]",
-        "[[yet|aún]]",
-        "[[destination|destino]]",
-        "[[considered|considerado]]",
-        "[[they've|han]]",
-        "[[several|varias]]",
-        "[[although|aunque]]",
-        "[[haven't|no han]]",
-        "[[options|opciones]]."
+        "[[passport|pasaporte]]",
+        "[[travel|viajar]]",
+        "[[cannot|no puede]]",
+        "[[and|y]]",
+        "[[She|Ella]]",
+        "[[lost|perdido]]",
+        "[[her|su]]",
+        "[[has|ha]]"
       ],
-      "explanation": "El uso de presentes perfectos para acciones no completadas junto a estructuras de contraste.",
+      "explanation": "Uso del present perfect para una situación que afecta al presente.",
       "audio": "audio/b1/unit-4/e15.mp3"
     },
     "id": "b1-u4-e15",
@@ -418,19 +402,19 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "Although we planned everything perfectly, things went wrong on the trip.",
+    "transcript": "Sarah has never visited Paris before.",
     "content": {
-      "title": "Viaje Fallido",
+      "title": "Presente Perfecto vs Pasado Simple",
       "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[we|nosotros]] _______ [[everything|todo]] [[perfectly|perfectamente]], [[things|las cosas]] [[went|fueron]] [[wrong|mal]] [[on|en]] [[the|el]] [[trip|viaje]].",
+          "question": "[[Sarah|Sarah]] _______ [[never|nunca]] [[visited|visitó]] [[Paris|París]] [[before|antes]].",
           "options": [
-            "[[have|hemos]] [[planned|planeado]]",
-            "[[planned|planeamos]]"
+            "[[has|ha]]",
+            "[[had|había]]"
           ],
-          "correctAnswer": 1,
-          "explanation": "Usamos el pasado simple 'planned' para describir acciones completas en el pasado.",
+          "correctAnswer": 0,
+          "explanation": "El presente perfecto se usa para hablar de experiencias sin un tiempo específico.",
           "audio": "audio/b1/unit-4/e16.mp3"
         }
       ]
@@ -444,19 +428,19 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "He has never traveled to Asia before this year.",
+    "transcript": "They went to Italy last summer.",
     "content": {
-      "title": "Antes del Viaje",
-      "instructions": "Selecciona la opción correcta para completar la frase.",
+      "title": "Presente Perfecto vs Pasado Simple",
+      "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[never|nunca]] [[traveled|viajado]] [[to|a]] [[Asia|Asia]] [[before|antes]] [[this|de este]] [[year|año]].",
+          "question": "[[They|Ellos]] _______ [[to|a]] [[Italy|Italia]] [[last|pasado]] [[summer|verano]].",
           "options": [
-            "[[has|ha]]",
-            "[[traveled|viajó]]"
+            "[[went|fueron]]",
+            "[[have|han]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se usa el presente perfecto 'has traveled' para expresar experiencias hasta ahora.",
+          "explanation": "El pasado simple se usa para acciones completadas en el pasado con un tiempo específico.",
           "audio": "audio/b1/unit-4/e17.mp3"
         }
       ]
@@ -470,19 +454,19 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "Despite missing the flight, they still arrived on time.",
+    "transcript": "We have missed the train because we arrived late.",
     "content": {
-      "title": "Vuelo Perdido",
-      "instructions": "Elige la mejor opción que completa la oración.",
+      "title": "Presente Perfecto y Conectores",
+      "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Despite|A pesar]] [[of|de]] _______ [[the|el]] [[flight|vuelo]], [[they|ellos]] [[still|aún]] [[arrived|llegaron]] [[on|a]] [[time|tiempo]].",
+          "question": "[[We|Nosotros]] _______ [[missed|perdimos]] [[the|el]] [[train|tren]] [[because|porque]] [[we|llegamos]] [[arrived|llegamos]] [[late|tarde]].",
           "options": [
-            "[[missing|perder]]",
-            "[[missed|perdieron]]"
+            "[[have|hemos]]",
+            "[[did|hicimos]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se utiliza la forma -ing para indicar el verbo después de 'despite'.",
+          "explanation": "El presente perfecto se utiliza para una acción con relevancia presente, combinando el presente perfecto y el pasado simple.",
           "audio": "audio/b1/unit-4/e18.mp3"
         }
       ]
@@ -496,19 +480,19 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "Have you ever seen such a beautiful view?",
+    "transcript": "Although I have lived here for five years, I have never climbed that mountain.",
     "content": {
-      "title": "Vista Hermosa",
-      "instructions": "Selecciona la forma verbal que mejor complete la oración.",
+      "title": "Uso de 'although' en el Presente Perfecto",
+      "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Have|Has]] [[you|tú]] _______ [[seen|visto]] [[such|una]] [[a|tan]] [[beautiful|hermosa]] [[view|vista]]?",
+          "question": "[[Although|Aunque]] [[I|yo]] _______ [[here|aquí]] [[for|durante]] [[five|cinco]] [[years|años]], [[I|yo]] [[have|he]] [[never|nunca]] [[climbed|subido]] [[that|esa]] [[mountain|montaña]].",
           "options": [
-            "[[ever|alguna vez]]",
-            "[[seen|visto]]"
+            "[[have|he]]",
+            "[[had|había]]"
           ],
           "correctAnswer": 0,
-          "explanation": "La expresión 'have you ever' se utiliza con el presente perfecto para preguntar sobre experiencias.",
+          "explanation": "Uso del presente perfecto para situaciones que comenzaron en el pasado y continúan hasta el presente.",
           "audio": "audio/b1/unit-4/e19.mp3"
         }
       ]
@@ -522,19 +506,19 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "They have visited many countries during their travels.",
+    "transcript": "Despite the weather being terrible, we had a wonderful time.",
     "content": {
-      "title": "Países Visitados",
-      "instructions": "Elige la opción adecuada para completar la oración.",
+      "title": "Uso de 'despite' en el Pasado Simple",
+      "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[visited|visitado]] [[many|muchos]] [[countries|países]] [[during|durante]] [[their|sus]] [[travels|viajes]].",
+          "question": "[[Despite|A pesar de]] [[the|el]] [[weather|clima]] [[being|siendo]] [[terrible|terrible]], [[we|nosotros]] _______ [[a|un]] [[wonderful|maravilloso]] [[time|tiempo]].",
           "options": [
-            "[[have|han]]",
-            "[[visited|visitaron]]"
+            "[[had|tuvimos]]",
+            "[[have|hemos]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El presente perfecto 'have visited' se utiliza para indicar acciones que continúan en el presente o experiencias de vida.",
+          "explanation": "El pasado simple se utiliza para describir experiencias completadas en el pasado independientemente de las condiciones.",
           "audio": "audio/b1/unit-4/e20.mp3"
         }
       ]
@@ -548,19 +532,19 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "I have visited Paris twice this year.",
+    "transcript": "Have you ever been to Japan?",
     "content": {
-      "title": "Viajes Completados: Uso del Presente Perfecto",
-      "instructions": "Completa la oración usando el presente perfecto.",
+      "title": "Uso del Presente Perfecto",
+      "instructions": "Completa la oración usando la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[visited|visitado]] [[Paris|París]] [[twice|dos veces]] [[this|este]] [[year|año]].",
+          "question": "[[Have|Has]] [[you|tú]] _______ [[to|a]] [[Japan|Japón]] [[before|antes]]?",
           "options": [
-            "[[have|he]]",
-            "[[did|hice]]"
+            "[[been|estado]]",
+            "[[was|fuiste]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se usa el presente perfecto para acciones repetidas en un período de tiempo no finalizado.",
+          "explanation": "El presente perfecto se utiliza para experiencias que tienen relevancia en el presente.",
           "audio": "audio/b1/unit-4/e21.mp3"
         }
       ]
@@ -574,19 +558,19 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "While he was in Rome, he lost his passport.",
+    "transcript": "She has never seen a kangaroo.",
     "content": {
-      "title": "Eventos Pasados: Uso del Pasado Simple",
-      "instructions": "Completa la oración usando el pasado simple.",
+      "title": "Presente Perfecto",
+      "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[While|Mientras]] [[he|él]] [[was|estaba]] [[in|en]] [[Rome|Roma]], [[he|él]] _______ [[his|su]] [[passport|pasaporte]].",
+          "question": "[[She|Ella]] [[has|ha]] never _______ [[a|un]] [[kangaroo|canguro]].",
           "options": [
-            "[[lost|perdió]]",
-            "[[has|ha]]"
+            "[[seen|visto]]",
+            "[[saw|vio]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El pasado simple se utiliza para acciones finalizadas en un tiempo específico del pasado.",
+          "explanation": "La opción correcta es 'seen' porque la expresión 'never' indica una experiencia general.",
           "audio": "audio/b1/unit-4/e22.mp3"
         }
       ]
@@ -600,19 +584,19 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "We have never traveled by train before.",
+    "transcript": "When did you visit the museum?",
     "content": {
-      "title": "Experiencias Anteriores: Uso del Presente Perfecto",
-      "instructions": "Completa la oración usando el presente perfecto.",
+      "title": "Uso del Pasado Simple",
+      "instructions": "Completa con la forma adecuada del verbo para pasadas acciones específicas.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] _______ [[never|nunca]] [[traveled|viajado]] [[by|en]] [[train|tren]] [[before|antes]].",
+          "question": "[[When|Cuándo]] _______ [[you|tú]] [[visit|visitar]] [[the|el]] [[museum|museo]]?",
           "options": [
-            "[[have|hemos]]",
-            "[[did|hicimos]]"
+            "[[did|hiciste]]",
+            "[[have|has]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El presente perfecto se usa para hablar sobre experiencias en la vida sin especificar cuándo ocurrieron exactamente.",
+          "explanation": "'Did' es correcto para formular preguntas en pasado simple.",
           "audio": "audio/b1/unit-4/e23.mp3"
         }
       ]
@@ -626,19 +610,19 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "Despite the rain, they completed the hike.",
+    "transcript": "They visited Paris last year.",
     "content": {
-      "title": "Contra Todo Pronóstico: Uso del Pasado Simple",
-      "instructions": "Completa la oración usando el pasado simple.",
+      "title": "Pasado Simple",
+      "instructions": "Rellena con la opción adecuada.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[the|la]] [[rain|lluvia]], [[they|ellos]] _______ [[the|la]] [[hike|caminata]].",
+          "question": "[[They|Ellos]] _______ [[Paris|París]] [[last|el]] [[year|año]]",
           "options": [
-            "[[completed|completaron]]",
+            "[[visited|visitaron]]",
             "[[have|han]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El pasado simple se utiliza para acciones que ocurrieron y finalizaron en un tiempo específico del pasado.",
+          "explanation": "Usa el pasado simple para acciones completadas en el pasado con tiempo específico.",
           "audio": "audio/b1/unit-4/e24.mp3"
         }
       ]
@@ -652,19 +636,19 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "She has found a wonderful restaurant in the old quarter.",
+    "transcript": "Although I didn’t plan much, I enjoyed the trip.",
     "content": {
-      "title": "Descubrimientos Recientes: Uso del Presente Perfecto",
-      "instructions": "Completa la oración usando el presente perfecto.",
+      "title": "Conectores y Tiempos Verbales",
+      "instructions": "Completa con el verbo adecuado.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[found|encontrado]] [[a|un]] [[wonderful|maravilloso]] [[restaurant|restaurante]] [[in|en]] [[the|el]] [[old|antiguo]] [[quarter|barrio]].",
+          "question": "[[Although|Aunque]] [[I|yo]] _______ [[not|no]] [[plan|planeé]] [[much|mucho]], [[I|yo]] [[enjoyed|disfruté]] [[the|el]] [[trip|viaje]].",
           "options": [
-            "[[has|ha]]",
-            "[[did|hizo]]"
+            "[[didn't|no planeé]]",
+            "[[haven't|no he]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se usa el presente perfecto para acciones recientes que tienen relevancia en el presente.",
+          "explanation": "'Didn’t' se usa aquí para indicar falta de acción en un momento específico en el pasado.",
           "audio": "audio/b1/unit-4/e25.mp3"
         }
       ]
@@ -678,25 +662,24 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "Although they have traveled to many countries, they prefer to vacation close to home.",
+    "transcript": "Although we have traveled to many countries, we have never visited Australia.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Although|Aunque]] [[they|ellos]] [[have|han]] [[traveled|viajado]] [[to|a]] [[many|muchos]] [[countries|países]], [[they|ellos]] [[prefer|prefieren]] [[to|vacacionar]] [[vacation|cerca]] [[close|de]] [[to|casa]].",
+      "correctSentence": "[[Although|Aunque]] [[we|nosotros]] [[have|hemos]] [[traveled|viajado]] [[to|a]] [[many|muchos]] [[countries|países]], [[we|nosotros]] [[have|hemos]] [[never|nunca]] [[visited|visitado]] [[Australia|Australia]].",
       "words": [
-        "[[to|casa]]",
-        "[[they|ellos]]",
-        "[[have|han]]",
-        "[[traveled|viajado]]",
         "[[to|a]]",
-        "[[countries|países]]",
-        "[[prefer|prefieren]]",
-        "[[many|muchos]]",
+        "[[visited|visitado]]",
         "[[Although|Aunque]]",
-        "[[close|de]]",
-        "[[vacation|cerca]]"
+        "[[countries|países]]",
+        "[[have|hemos]]",
+        "[[we|nosotros]]",
+        "[[never|nunca]]",
+        "[[have|hemos]]",
+        "[[traveled|viajado]]",
+        "[[Australia|Australia]]"
       ],
-      "explanation": "Uso del presente perfecto para acciones con relevancia presente, seguido de una oración contrastante con 'although'.",
+      "explanation": "Aquí se utiliza 'have traveled' en presente perfecto para indicar experiencias de vida, y 'have never visited' para señalar una excepción en nuestras experiencias de viaje.",
       "audio": "audio/b1/unit-4/e26.mp3"
     },
     "id": "b1-u4-e26",
@@ -708,23 +691,24 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "Despite packing carefully, she forgot her passport at home.",
+    "transcript": "They missed their flight because they arrived late at the airport.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Despite|A pesar de]] [[packing|empacar]] [[carefully|cuidadosamente]], [[she|ella]] [[forgot|olvidó]] [[her|su]] [[passport|pasaporte]] [[at|en]] [[home|casa]].",
+      "correctSentence": "[[They|Ellos]] [[missed|perdieron]] [[their|su]] [[flight|vuelo]] [[because|porque]] [[they|ellos]] [[arrived|llegaron]] [[late|tarde]] [[at|al]] [[the|el]] [[airport|aeropuerto]].",
       "words": [
-        "[[carefully|cuidadosamente]]",
-        "[[packing|empacar]]",
-        "[[Despite|A pesar de]]",
-        "[[she|ella]]",
-        "[[home|casa]]",
-        "[[at|en]]",
-        "[[forgot|olvidó]]",
-        "[[passport|pasaporte]]",
-        "[[her|su]]"
+        "[[missed|perdieron]]",
+        "[[their|su]]",
+        "[[because|porque]]",
+        "[[the|el]]",
+        "[[airport|aeropuerto]]",
+        "[[They|Ellos]]",
+        "[[flight|vuelo]]",
+        "[[at|al]]",
+        "[[late|tarde]]",
+        "[[arrived|llegaron]]"
       ],
-      "explanation": "Uso de 'despite' seguido de un gerundio para expresar contraste entre dos acciones.",
+      "explanation": "Uso del pasado simple para describir acciones completadas: 'missed' y 'arrived' reflejan eventos específicos en el pasado.",
       "audio": "audio/b1/unit-4/e27.mp3"
     },
     "id": "b1-u4-e27",
@@ -736,23 +720,24 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "He has never lost his luggage while traveling abroad.",
+    "transcript": "Since I have been here, I have experienced many interesting adventures.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[has|ha]] [[never|nunca]] [[lost|perdido]] [[his|su]] [[luggage|equipaje]] [[while|mientras]] [[traveling|viajaba]] [[abroad|al extranjero]].",
+      "correctSentence": "[[Since|Desde]] [[I|yo]] [[have|he]] [[been|estado]] [[here|aquí]], [[I|yo]] [[have|he]] [[experienced|experimentado]] [[many|muchas]] [[interesting|interesantes]] [[adventures|aventuras]].",
       "words": [
-        "[[has|ha]]",
-        "[[luggage|equipaje]]",
-        "[[lost|perdido]]",
-        "[[never|nunca]]",
-        "[[abroad|al extranjero]]",
-        "[[while|mientras]]",
-        "[[traveling|viajaba]]",
-        "[[He|Él]]",
-        "[[his|su]]"
+        "[[adventures|aventuras]]",
+        "[[Since|Desde]]",
+        "[[many|muchas]]",
+        "[[here|aquí]]",
+        "[[I|yo]]",
+        "[[have|he]]",
+        "[[experienced|experimentado]]",
+        "[[been|estado]]",
+        "[[interesting|interesantes]]",
+        "[[have|he]]"
       ],
-      "explanation": "El presente perfecto 'has never lost' indica una experiencia que no ha ocurrido.",
+      "explanation": "Uso del presente perfecto con 'since' para hablar de experiencias recientes que empezaron en el pasado y continúan en el presente.",
       "audio": "audio/b1/unit-4/e28.mp3"
     },
     "id": "b1-u4-e28",
@@ -764,24 +749,22 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "After they booked the hotel, they received a surprise discount.",
+    "transcript": "Despite the rain, we enjoyed the sightseeing tour.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[After|Después de]] [[they|que]] [[booked|reservaron]] [[the|el]] [[hotel|hotel]], [[they|ellos]] [[received|recibieron]] [[a|un]] [[surprise|sorpresa]] [[discount|descuento]].",
+      "correctSentence": "[[Despite|A pesar de]] [[the|la]] [[rain|lluvia]], [[we|nosotros]] [[enjoyed|disfrutamos]] [[the|el]] [[sightseeing|turismo]] [[tour|recorrido]].",
       "words": [
-        "[[After|Después de]]",
-        "[[they|ellos]]",
-        "[[hotel|hotel]]",
+        "[[rain|lluvia]]",
+        "[[tour|recorrido]]",
+        "[[we|nosotros]]",
+        "[[enjoyed|disfrutamos]]",
         "[[the|el]]",
-        "[[booked|reservaron]]",
-        "[[a|un]]",
-        "[[received|recibieron]]",
-        "[[surprise|sorpresa]]",
-        "[[discount|descuento]]",
-        "[[they|que]]"
+        "[[Despite|A pesar de]]",
+        "[[sightseeing|turismo]]",
+        "[[the|la]]"
       ],
-      "explanation": "El pasado simple para acciones completadas indica el orden de los eventos secundarios.",
+      "explanation": "La palabra 'despite' introduce una idea contrastante; el verbo 'enjoyed' se usa en pasado simple para una acción completa.",
       "audio": "audio/b1/unit-4/e29.mp3"
     },
     "id": "b1-u4-e29",
@@ -793,23 +776,27 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "She has visited Italy twice, and it has always been fascinating.",
+    "transcript": "She has not packed her suitcase yet although she needed to leave early.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[has|ha]] [[visited|visitado]] [[Italy|Italia]] [[twice|dos veces]], [[and|y]] [[it|siempre]] [[has|ha]] [[always|sido]] [[been|fascinante]].",
+      "correctSentence": "[[She|Ella]] [[has|ha]] [[not|no]] [[packed|empacado]] [[her|su]] [[suitcase|maleta]] [[yet|todavía]] [[although|aunque]] [[she|ella]] [[needed|necesitaba]] [[to|a]] [[leave|salir]] [[early|temprano]].",
       "words": [
-        "[[visited|visitado]]",
+        "[[needed|necesitaba]]",
+        "[[early|temprano]]",
+        "[[yet|todavía]]",
+        "[[her|su]]",
+        "[[leave|salir]]",
+        "[[to|a]]",
+        "[[although|aunque]]",
         "[[She|Ella]]",
-        "[[always|siempre]]",
-        "[[Italy|Italia]]",
-        "[[twice|dos veces]]",
-        "[[and|y]]",
+        "[[packed|empacado]]",
         "[[has|ha]]",
-        "[[been|fascinante]]",
-        "[[it|ha]]"
+        "[[suitcase|maleta]]",
+        "[[not|no]]",
+        "[[she|ella]]"
       ],
-      "explanation": "El presente perfecto para expresar experiencias repetidas y resultados de acciones previas.",
+      "explanation": "Uso del presente perfecto ('has not packed') para una acción pendiente, y pasado simple ('needed') para una situación pasada específica.",
       "audio": "audio/b1/unit-4/e30.mp3"
     },
     "id": "b1-u4-e30",
@@ -821,19 +808,19 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "Tom has visited three countries this year.",
+    "transcript": "When we got to the station, the train had already left.",
     "content": {
-      "title": "Uso del presente perfecto para experiencias",
-      "instructions": "Selecciona la opción correcta para completar la oración.",
+      "title": "Uso del Pasado Simple y el Pluscuamperfecto",
+      "instructions": "Elige la forma verbal correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Tom|Tom]] _______ [[three|tres]] [[countries|países]] [[this|este]] [[year|año]].",
+          "question": "[[When|Cuando]] [[we|nosotros]] [[got|llegamos]] [[to|a]] [[the|la]] [[station|estación]], [[the|el]] [[train|tren]] _______ [[already|ya]] [[left|se había ido]].",
           "options": [
-            "[[has|ha]] [[visited|visitado]]",
-            "[[visited|visitó]]"
+            "[[had left|se había ido]]",
+            "[[left|se fue]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se usa el presente perfecto para hablar de experiencias en el tiempo que no ha terminado (este año).",
+          "explanation": "Se usa el pluscuamperfecto para indicar que una acción ocurrió antes de otra pasada.",
           "audio": "audio/b1/unit-4/e31.mp3"
         }
       ]
@@ -847,19 +834,19 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "They visited the museum last week.",
+    "transcript": "Although he has traveled to many countries, he has never visited Japan.",
     "content": {
-      "title": "Uso del pasado simple para acciones completadas",
-      "instructions": "Selecciona la opción correcta para completar la oración.",
+      "title": "Presente Perfecto con Condicionales",
+      "instructions": "Selecciona la opción correcta que completa la oración.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[the|el]] [[museum|museo]] [[last|la]] [[week|semana]].",
+          "question": "[[Although|Aunque]] [[he|él]] _______ [[traveled|ha viajado]] [[to|a]] [[many|muchos]] [[countries|países]], [[he|él]] [[has|nunca]] [[never|ha]] [[visited|visitado]] [[Japan|Japón]].",
           "options": [
-            "[[have|han]] [[visited|visitado]]",
-            "[[visited|visitaron]]"
+            "[[has traveled|ha viajado]]",
+            "[[traveled|viajó]]"
           ],
-          "correctAnswer": 1,
-          "explanation": "Se usa el pasado simple para acciones completadas en un tiempo específico en el pasado.",
+          "correctAnswer": 0,
+          "explanation": "Se utiliza el presente perfecto para hablar de experiencias sin especificar cuándo.",
           "audio": "audio/b1/unit-4/e32.mp3"
         }
       ]
@@ -873,19 +860,19 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "We have never seen such a beautiful sunset.",
+    "transcript": "Despite the delay, they managed to catch the last ferry.",
     "content": {
-      "title": "Uso del presente perfecto para experiencias",
-      "instructions": "Elige la opción correcta para completar la frase sobre experiencias.",
+      "title": "Uso de 'Despite' con el Presente y Pasado",
+      "instructions": "Elige la forma correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] _______ [[never|nunca]] [[seen|visto]] [[such|tal]] [[a|un]] [[beautiful|hermoso]] [[sunset|atardecer]].",
+          "question": "[[Despite|A pesar de]] [[the|el]] [[delay|retraso]], [[they|ellos]] _______ [[to|para]] [[catch|coger]] [[the|el]] [[last|último]] [[ferry|ferry]].",
           "options": [
-            "[[have|hemos]] [[never|nunca]]",
-            "[[saw|vimos]]"
+            "[[managed|consiguieron]]",
+            "[[manages|consiguen]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El presente perfecto se usa con 'never' para indicar que nunca ha ocurrido una experiencia hasta el momento presente.",
+          "explanation": "El pasado simple se usa para acciones completadas en el pasado.",
           "audio": "audio/b1/unit-4/e33.mp3"
         }
       ]
@@ -899,19 +886,19 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "She lost her passport while traveling in Europe.",
+    "transcript": "She has never seen such beautiful mountains before.",
     "content": {
-      "title": "Uso del pasado simple para acciones específicas",
-      "instructions": "Selecciona la opción adecuada para completar la oración sobre un acontecimiento pasado.",
+      "title": "Presente Perfecto para Experiencias",
+      "instructions": "Selecciona la forma correcta del verbo para completar la oración.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[her|su]] [[passport|pasaporte]] [[while|mientras]] [[traveling|viajaba]] [[in|en]] [[Europe|Europa]].",
+          "question": "[[She|Ella]] _______ [[never|nunca]] [[seen|ha visto]] [[such|tan]] [[beautiful|hermosas]] [[mountains|montañas]] [[before|antes]].",
           "options": [
-            "[[has|ha]] [[lost|perdido]]",
-            "[[lost|perdió]]"
+            "[[has seen|ha visto]]",
+            "[[saw|vio]]"
           ],
-          "correctAnswer": 1,
-          "explanation": "El pasado simple es apropiado para referirse a un evento específico que ocurrió en el pasado.",
+          "correctAnswer": 0,
+          "explanation": "Se usa el presente perfecto para enfatizar experiencias no específicas hasta el momento presente.",
           "audio": "audio/b1/unit-4/e34.mp3"
         }
       ]
@@ -925,19 +912,19 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "Have you ever tried skiing in the Alps?",
+    "transcript": "Since his arrival, he has made many friends.",
     "content": {
-      "title": "Uso del presente perfecto para preguntar sobre experiencias",
-      "instructions": "Elige la opción que mejor completa esta pregunta sobre experiencias pasadas.",
+      "title": "Presente Perfecto con 'Since'",
+      "instructions": "Elige la opción correcta que complete la oración.",
       "questions": [
         {
-          "question": "_______ [[you|tú]] [[ever|alguna vez]] [[tried|intentado]] [[skiing|esquiar]] [[in|en]] [[the|los]] [[Alps|Alpes]]?",
+          "question": "[[Since|Desde]] [[his|su]] [[arrival|llegada]], [[he|él]] _______ [[made|ha hecho]] [[many|muchos]] [[friends|amigos]].",
           "options": [
-            "[[Have|Has]]",
-            "[[Did|Hiciste]]"
+            "[[has made|ha hecho]]",
+            "[[made|hizo]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se utiliza el presente perfecto con 'ever' para preguntar sobre experiencias generales hasta el presente.",
+          "explanation": "El presente perfecto se usa para indicar acciones que comenzaron en el pasado y continúan en el presente.",
           "audio": "audio/b1/unit-4/e35.mp3"
         }
       ]
@@ -951,19 +938,19 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "They have just announced that the flight is delayed.",
+    "transcript": "Despite the rain, they have visited many places during their vacation.",
     "content": {
-      "title": "Anuncio de retraso",
-      "instructions": "Rellena el espacio con la forma verbal correcta.",
+      "title": "El presente perfecto vs el pasado simple",
+      "instructions": "Completa la oración con la forma correcta del verbo en el presente perfecto.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[just|acaban]] [[announced|anunciado]] [[that|que]] [[the|el]] [[flight|vuelo]] [[is|está]] [[delayed|retrasado]].",
+          "question": "[[Despite|A pesar de]] [[the|la]] [[rain|lluvia]], [[they|ellos]] _______ [[visited|visitado]] [[many|muchos]] [[places|lugares]] [[during|durante]] [[their|su]] [[vacation|vacaciones]].",
           "options": [
             "[[have|han]]",
-            "[[had|tenían]]"
+            "[[had|habían]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso del presente perfecto para una acción completada recientemente con 'just'.",
+          "explanation": "Usamos el presente perfecto para indicar acciones que ocurrieron en el pasado pero tienen relevancia en el presente.",
           "audio": "audio/b1/unit-4/e36.mp3"
         }
       ]
@@ -977,19 +964,19 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "We missed the train because we left the hotel too late.",
+    "transcript": "He missed his flight because he had forgotten to set an alarm.",
     "content": {
-      "title": "Perdida del tren",
-      "instructions": "Completa la frase con la forma verbal correcta.",
+      "title": "El presente perfecto vs el pasado simple",
+      "instructions": "Escoge la opción correcta para completar la oración, enfocándose en la secuencia temporal.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] _______ [[the|el]] [[train|tren]] [[because|porque]] [[we|nosotros]] [[left|dejamos]] [[the|el]] [[hotel|hotel]] [[too|demasiado]] [[late|tarde]].",
+          "question": "[[He|Él]] [[missed|perdió]] [[his|su]] [[flight|vuelo]] [[because|porque]] [[he|él]] _______ [[forgotten|olvidado]] [[to|de]] [[set|poner]] [[an|una]] [[alarm|alarma]].",
           "options": [
-            "[[missed|perdimos]]",
-            "[[have|hemos]] [[missed|perdido]]"
+            "[[had|había]]",
+            "[[has|ha]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso del pasado simple para eventos que ocurrieron en un momento específico del pasado.",
+          "explanation": "Usamos el pasado perfecto (had + participio pasado) para expresar una acción que ocurrió antes de otra acción pasada.",
           "audio": "audio/b1/unit-4/e37.mp3"
         }
       ]
@@ -1002,20 +989,20 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "type": "fill-blank",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
-    "difficulty": "medium",
-    "transcript": "Have you ever tried snorkeling in the Caribbean?",
+    "difficulty": "high",
+    "transcript": "Although they planned everything, things have not gone as expected.",
     "content": {
-      "title": "Experiencia de esnórquel",
-      "instructions": "Utiliza la forma verbal adecuada para hablar de experiencias pasadas.",
+      "title": "El presente perfecto vs el pasado simple",
+      "instructions": "Completa la oración eligiendo correctamente entre el pasado simple y el presente perfecto.",
       "questions": [
         {
-          "question": "[[Have|Has]] [[you|tú]] _______ [[tried|intentado]] [[snorkeling|esnórquel]] [[in|en]] [[the|el]] [[Caribbean|Caribe]]?",
+          "question": "[[Although|Aunque]] [[they|ellos]] [[planned|planearon]] [[everything|todo]], [[things|las cosas]] _______ [[not|no]] [[gone|han ido]] [[as|como]] [[expected|esperaban]].",
           "options": [
-            "[[ever|alguna vez]]",
-            "[[never|nunca]]"
+            "[[have|han]]",
+            "[[did|hicieron]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso del presente perfecto para preguntar sobre experiencias sin referencia a un tiempo concreto.",
+          "explanation": "El presente perfecto se utiliza para hablar sobre situaciones que afectan el presente.",
           "audio": "audio/b1/unit-4/e38.mp3"
         }
       ]
@@ -1028,20 +1015,20 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "type": "fill-blank",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
-    "difficulty": "medium",
-    "transcript": "Although they planned everything carefully, they forgot their passports at home.",
+    "difficulty": "high",
+    "transcript": "They realized they left the passport at home only after they reached the airport.",
     "content": {
-      "title": "Olvido de pasaportes",
-      "instructions": "Llena el espacio usando la forma correcta del verbo dado el contexto.",
+      "title": "El presente perfecto vs el pasado simple",
+      "instructions": "Completa la oración con la forma correcta del verbo en el pasado simple.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[they|ellos]] _______ [[everything|todo]] [[carefully|cuidadosamente]], [[they|ellos]] [[forgot|olvidaron]] [[their|sus]] [[passports|pasaportes]] [[at|en]] [[home|casa]].",
+          "question": "[[They|Ellos]] _______ [[they|que]] [[left|olvidaron]] [[the|el]] [[passport|pasaporte]] [[at|en]] [[home|casa]] [[only|solo]] [[after|después de]] [[they|que]] [[reached|llegaron]] [[the|al]] [[airport|aeropuerto]].",
           "options": [
-            "[[planned|planificaron]]",
-            "[[have|han]] [[planned|planificado]]"
+            "[[realized|se dieron cuenta]]",
+            "[[have|han]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se utiliza el pasado simple porque se habla de un evento que ocurrió antes de olvidar los pasaportes.",
+          "explanation": "El pasado simple se usa aquí para acciones que ocurrieron en el pasado y no tienen conexión con el presente.",
           "audio": "audio/b1/unit-4/e39.mp3"
         }
       ]
@@ -1055,19 +1042,19 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "Have they decided where to go for their next holiday yet?",
+    "transcript": "She booked the hotel, but later she has regretted the decision.",
     "content": {
-      "title": "Planificación de vacaciones",
-      "instructions": "Rellena el espacio para completar la pregunta sobre decisión futura.",
+      "title": "El presente perfecto vs el pasado simple",
+      "instructions": "Escoge la forma verbal adecuada para completar la oración destacando el cambio de estado.",
       "questions": [
         {
-          "question": "[[Have|Han]] [[they|ellos]] _______ [[where|dónde]] [[to|para]] [[go|ir]] [[for|para]] [[their|sus]] [[next|próximas]] [[holiday|vacaciones]] [[yet|ya]]?",
+          "question": "[[She|Ella]] [[booked|reservó]] [[the|el]] [[hotel|hotel]], [[but|pero]] [[later|más tarde]] [[she|ella]] _______ [[regretted|se ha arrepentido]] [[the|de la]] [[decision|decisión]].",
           "options": [
-            "[[decided|decidido]]",
-            "[[decide|deciden]]"
+            "[[has|ha]]",
+            "[[did|hizo]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso del presente perfecto para preguntar sobre acciones completadas con 'yet'.",
+          "explanation": "Usamos el presente perfecto para expresar un cambio en el estado o situación entre el pasado y el presente.",
           "audio": "audio/b1/unit-4/e40.mp3"
         }
       ]
@@ -1081,24 +1068,22 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "After she arrived in Paris, she discovered her luggage was lost.",
+    "transcript": "She has never seen such beautiful mountains before.",
     "content": {
       "title": "Construcción de oraciones",
-      "instructions": "Ordena las palabras para formar una oración correctamente estructurada sobre viajes.",
-      "correctSentence": "[[After|Después]] [[she|ella]] [[arrived|llegó]] [[in|en]] [[Paris|París]], [[she|ella]] [[discovered|descubrió]] [[her|su]] [[luggage|equipaje]] [[was|estaba]] [[lost|perdido]].",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[She|Ella]] [[has|ha]] [[never|nunca]] [[seen|visto]] [[such|semejantes]] [[beautiful|hermosas]] [[mountains|montañas]] [[before|antes]].",
       "words": [
-        "[[Paris|París]]",
-        "[[was|estaba]]",
-        "[[she|ella]]",
-        "[[arrived|llegó]]",
-        "[[luggage|equipaje]]",
-        "[[in|en]]",
-        "[[lost|perdido]]",
-        "[[her|su]]",
-        "[[discovered|descubrió]]",
-        "[[After|Después]]"
+        "[[mountains|montañas]]",
+        "[[never|nunca]]",
+        "[[She|Ella]]",
+        "[[seen|visto]]",
+        "[[such|semejantes]]",
+        "[[before|antes]]",
+        "[[has|ha]]",
+        "[[beautiful|hermosas]]"
       ],
-      "explanation": "Se usa el pasado simple para narrar acciones completadas en el pasado en una secuencia.",
+      "explanation": "Uso del presente perfecto con 'never' para hablar de experiencias no ocurridas hasta el momento presente.",
       "audio": "audio/b1/unit-4/e41.mp3"
     },
     "id": "b1-u4-e41",
@@ -1110,23 +1095,22 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "Despite the delay, they have already reached their destination.",
+    "transcript": "Despite the delay, we managed to catch the train.",
     "content": {
       "title": "Construcción de oraciones",
-      "instructions": "Ordena las palabras para formar una oración adecuada usando los tiempos verbales correctos.",
-      "correctSentence": "[[Despite|A pesar de]] [[the|el]] [[delay|retraso]], [[they|ellos]] [[have|han]] [[already|ya]] [[reached|llegado a]] [[their|su]] [[destination|destino]].",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[Despite|A pesar de]] [[the|el]] [[delay|retraso]], [[we|nosotros]] [[managed|logramos]] [[to|coger]] [[catch|el]] [[the|tren]].",
       "words": [
-        "[[reached|llegado a]]",
-        "[[destination|destino]]",
-        "[[they|ellos]]",
-        "[[their|su]]",
         "[[the|el]]",
-        "[[already|ya]]",
+        "[[we|nosotros]]",
+        "[[catch|coger]]",
+        "[[to|lograr]]",
         "[[Despite|A pesar de]]",
-        "[[have|han]]",
-        "[[delay|retraso]]"
+        "[[managed|cogimos]]",
+        "[[delay|retraso]]",
+        "[[the|el]]"
       ],
-      "explanation": "Uso del presente perfecto para acciones completadas recientemente pero relevantes en el presente.",
+      "explanation": "Uso de 'despite' para contrastar situaciones negativas con resultados positivos.",
       "audio": "audio/b1/unit-4/e42.mp3"
     },
     "id": "b1-u4-e42",
@@ -1138,24 +1122,22 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "Although he has traveled to many countries, he has never been to Japan.",
+    "transcript": "Although the weather was terrible, they enjoyed the trip.",
     "content": {
       "title": "Construcción de oraciones",
-      "instructions": "Organiza las palabras para construir una oración compleja sobre experiencias de viaje.",
-      "correctSentence": "[[Although|Aunque]] [[he|él]] [[has|ha]] [[traveled|viajado]] [[to|a]] [[many|muchos]] [[countries|países]], [[he|él]] [[has|ha]] [[never|nunca]] [[been|estado]] [[to|en]] [[Japan|Japón]].",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[Although|Aunque]] [[the|el]] [[weather|clima]] [[was|era]] [[terrible|terrible]], [[they|ellos]] [[enjoyed|disfrutaron]] [[the|el]] [[trip|viaje]].",
       "words": [
-        "[[traveled|viajado]]",
-        "[[countries|países]]",
-        "[[he|él]]",
+        "[[they|ellos]]",
+        "[[enjoyed|disfrutaron]]",
         "[[Although|Aunque]]",
-        "[[Japan|Japón]]",
-        "[[been|estado]]",
-        "[[has|ha]]",
-        "[[never|nunca]]",
-        "[[to|a]]",
-        "[[many|muchos]]"
+        "[[was|era]]",
+        "[[trip|viaje]]",
+        "[[the|el]]",
+        "[[weather|clima]]",
+        "[[terrible|terrible]]"
       ],
-      "explanation": "Se utiliza el presente perfecto para contrastar experiencias de vida con expectativas no cumplidas.",
+      "explanation": "Uso de 'although' para mostrar contrastes entre eventos incontrolables y resultados positivos.",
       "audio": "audio/b1/unit-4/e43.mp3"
     },
     "id": "b1-u4-e43",
@@ -1167,24 +1149,23 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "Have you ever tried the local cuisine while traveling abroad?",
+    "transcript": "He has already booked the hotel for next summer.",
     "content": {
       "title": "Construcción de oraciones",
-      "instructions": "Reorganiza las palabras para preguntar sobre experiencias pasadas usando el presente perfecto.",
-      "correctSentence": "[[Have|Has]] [[you|tú]] [[ever|alguna vez]] [[tried|probado]] [[the|la]] [[local|local]] [[cuisine|cocina]] [[while|mientras]] [[traveling|viajabas]] [[abroad|al extranjero]]?",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[He|Él]] [[has|ha]] [[already|ya]] [[booked|reservado]] [[the|el]] [[hotel|hotel]] [[for|para]] [[next|el próximo]] [[summer|verano]].",
       "words": [
-        "[[ever|alguna vez]]",
-        "[[cuisine|cocina]]",
-        "[[while|mientras]]",
-        "[[the|la]]",
-        "[[tried|probado]]",
-        "[[abroad|al extranjero]]",
-        "[[Have|Has]]",
-        "[[local|local]]",
-        "[[you|tú]]",
-        "[[traveling|viajabas]]"
+        "[[for|para]]",
+        "[[next|el próximo]]",
+        "[[booked|reservado]]",
+        "[[He|Él]]",
+        "[[summer|verano]]",
+        "[[already|ya]]",
+        "[[the|el]]",
+        "[[hotel|hotel]]",
+        "[[has|ha]]"
       ],
-      "explanation": "El presente perfecto se utiliza para preguntar sobre experiencias en algún momento hasta el presente.",
+      "explanation": "Uso del presente perfecto con 'already' para indicar que una acción ha sido completada antes del momento anticipado.",
       "audio": "audio/b1/unit-4/e44.mp3"
     },
     "id": "b1-u4-e44",
@@ -1196,24 +1177,23 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "Since they booked their tickets early, they got a good deal.",
+    "transcript": "They missed the flight because they left home too late.",
     "content": {
       "title": "Construcción de oraciones",
-      "instructions": "Forma una oración lógica sobre ventajas de reserva al anticipar las palabras proporcionadas.",
-      "correctSentence": "[[Since|Ya que]] [[they|ellos]] [[booked|reservaron]] [[their|sus]] [[tickets|boletos]] [[early|temprano]], [[they|ellos]] [[got|obtuvieron]] [[a|un]] [[good|buen]] [[deal|precio]].",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[They|Ellos]] [[missed|perdieron]] [[the|el]] [[flight|vuelo]] [[because|porque]] [[they|ellos]] [[left|salieron]] [[home|de casa]] [[too|demasiado]] [[late|tarde]].",
       "words": [
-        "[[Since|Ya que]]",
-        "[[deal|precio]]",
-        "[[booked|reservaron]]",
-        "[[a|un]]",
-        "[[early|temprano]]",
-        "[[got|obtuvieron]]",
+        "[[missed|perdieron]]",
+        "[[late|tarde]]",
+        "[[too|demasiado]]",
+        "[[because|porque]]",
+        "[[home|de casa]]",
+        "[[flight|vuelo]]",
+        "[[the|el]]",
         "[[they|ellos]]",
-        "[[good|buen]]",
-        "[[their|sus]]",
-        "[[tickets|boletos]]"
+        "[[left|salieron]]"
       ],
-      "explanation": "El pasado simple describe acciones completadas que justifican un resultado actual en una oración subordinada.",
+      "explanation": "Uso del pasado simple para describir acciones específicas ocurridas en el pasado con consecuencia directa.",
       "audio": "audio/b1/unit-4/e45.mp3"
     },
     "id": "b1-u4-e45",
@@ -1225,19 +1205,19 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "Despite the rain, we have visited the museum several times.",
+    "transcript": "She has visited Italy twice, although she visited France only once last year.",
     "content": {
-      "title": "Aventuras bajo la lluvia",
-      "instructions": "Selecciona la opción correcta usando presente perfecto o pasado simple.",
+      "title": "Uso del Present Perfect vs Past Simple",
+      "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[the|la]] [[rain|lluvia]], [[we|nosotros]] _______ [[the|el]] [[museum|museo]] [[several|varias]] [[times|veces]].",
+          "question": "[[She|Ella]] [[_______|_______]] [[visited|visitó]] [[Italy|Italia]] [[twice|dos]] [[times|veces]], [[although|aunque]] [[she|ella]] [[visited|visitó]] [[France|Francia]] [[only|solo]] [[once|una]] [[last|pasado]] [[year|año]].",
           "options": [
-            "[[have visited|hemos visitado]]",
-            "[[visited|visitamos]]"
+            "[[has|ha]]",
+            "[[had|había]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El presente perfecto se usa para acciones que han ocurrido en un tiempo indefinido.",
+          "explanation": "Usamos el 'present perfect' para acciones que tienen relevancia actual, mientras que el 'past simple' se utiliza para acciones completadas en el pasado.",
           "audio": "audio/b1/unit-4/e46.mp3"
         }
       ]
@@ -1251,19 +1231,19 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "She has just returned from her trip and looks exhausted.",
+    "transcript": "They have never had such an adventurous trip before.",
     "content": {
-      "title": "Regreso del viaje",
-      "instructions": "Selecciona la forma verbal correcta.",
+      "title": "Presente Perfecto y experiencias",
+      "instructions": "Selecciona la opción correcta que mejor completa la oración.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[from|de]] [[her|su]] [[trip|viaje]] [[and|y]] [[looks|parece]] [[exhausted|agotada]].",
+          "question": "[[They|Ellos]] [[_______|_______]] [[never|nunca]] [[had|tenido]] [[such|tan]] [[an|un]] [[adventurous|aventurero]] [[trip|viaje]] [[before|antes]].",
           "options": [
-            "[[has just returned|acaba de regresar]]",
-            "[[returned|regresó]]"
+            "[[have|han]]",
+            "[[had|habían]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso de 'just' con presente perfecto para acciones recientes.",
+          "explanation": "El 'present perfect' se usa cuando hablamos de experiencias que no tienen un tiempo específico.",
           "audio": "audio/b1/unit-4/e47.mp3"
         }
       ]
@@ -1277,19 +1257,19 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "Although he has traveled to many countries, he has never been to Japan.",
+    "transcript": "I saw a remarkable waterfall during my trip in 2019.",
     "content": {
-      "title": "Destinos pendientes",
-      "instructions": "Elige la opción correcta para completar la oración.",
+      "title": "Uso del Pasado Simple",
+      "instructions": "Elige la opción que mejor completa la oración sobre eventos pasados específicos.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[he|él]] _______ [[to|a]] [[many|muchos]] [[countries|países]], [[he|él]] [[has|ha]] [[never|nunca]] [[been|estado]] [[to|en]] [[Japan|Japón]].",
+          "question": "[[I|Yo]] [[_______|_______]] [[a|una]] [[remarkable|notable]] [[waterfall|cascada]] [[during|durante]] [[my|mi]] [[trip|viaje]] [[in|en]] [[2019|2019]].",
           "options": [
-            "[[has traveled|ha viajado]]",
-            "[[traveled|viajó]]"
+            "[[saw|vi]]",
+            "[[have|he]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se utiliza presente perfecto para hablar de experiencias no especificadas.",
+          "explanation": "El 'past simple' es adecuado para acciones que ocurrieron en un momento específico en el pasado.",
           "audio": "audio/b1/unit-4/e48.mp3"
         }
       ]
@@ -1303,19 +1283,19 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "They missed their flight because they had not checked the schedule.",
+    "transcript": "Since arriving, I have learned a lot about the local culture.",
     "content": {
-      "title": "Mishaps y errores",
-      "instructions": "Selecciona la opción que complete correctamente la oración.",
+      "title": "Desde que llegué",
+      "instructions": "Escoge la opción que completa correctamente la oración utilizando el tiempo verbal adecuado.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[missed|perdieron]] [[their|su]] [[flight|vuelo]] [[because|porque]] [[they|ellos]] _______ [[not|no]] [[checked|verificaron]] [[the|el]] [[schedule|horario]].",
+          "question": "[[Since|Desde]] [[arriving|que llegué]], [[I|yo]] [[_______|_______]] [[learned|aprendido]] [[a|mucho]] [[lot|sobre]] [[about|la]] [[the|cultura]] [[local|local]].",
           "options": [
-            "[[had not|no habían]]",
-            "[[did not|no]]"
+            "[[have|he]]",
+            "[[did|hice]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso del pasado perfecto para explicar algo que sucedió antes de otra acción en el pasado.",
+          "explanation": "El 'present perfect' se usa para indicar acciones que comenzaron en el pasado y siguen afectando el presente.",
           "audio": "audio/b1/unit-4/e49.mp3"
         }
       ]
@@ -1329,19 +1309,19 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
     "difficulty": "medium",
-    "transcript": "We have never encountered such a delay in our travels before.",
+    "transcript": "Although he missed the flight, he has still managed to enjoy his vacation.",
     "content": {
-      "title": "Retrasos inesperados",
-      "instructions": "Elige la opción correcta en base al contexto de la oración.",
+      "title": "Contraste con aunque",
+      "instructions": "Completa la oración eligiendo la opción correcta que refleje el contraste adecuado.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[have|hemos]] _______ [[such|tal]] [[a|un]] [[delay|retraso]] [[in|en]] [[our|nuestros]] [[travels|viajes]] [[before|antes]].",
+          "question": "[[Although|Aunque]] [[he|él]] [[_______|_______]] [[the|el]] [[flight|vuelo]], [[he|él]] [[has|ha]] [[still|aun así]] [[managed|logrado]] [[to|disfrutar]] [[enjoy|de]] [[his|sus]] [[vacation|vacaciones]].",
           "options": [
-            "[[never encountered|nunca encontrado]]",
-            "[[encountered|encontrado]]"
+            "[[missed|perdió]]",
+            "[[has|ha perdido]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Presente perfecto para hablar de experiencias que nunca ocurrieron antes.",
+          "explanation": "El 'past simple' se usa para referirse a una acción específica pasada, mientras que el 'present perfect' refleja su efecto continuo.",
           "audio": "audio/b1/unit-4/e50.mp3"
         }
       ]

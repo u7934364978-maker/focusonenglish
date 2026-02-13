@@ -7,19 +7,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "While we were having dinner, the phone rang suddenly.",
+    "transcript": "While she was writing her memoirs, a loud noise interrupted her.",
     "content": {
-      "title": "Pasado Simple vs. Pasado Continuo",
-      "instructions": "Selecciona la opción correcta para completar la oración.",
+      "title": "Pasado simple vs. pasado continuo",
+      "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[While|Mientras]] [[we|nosotros]] [[were|estábamos]] [[having|teniendo]] [[dinner|cena]], _______ [[the|el]] [[phone|teléfono]] [[rang|sonó]] [[suddenly|de repente]].",
+          "question": "[[While|Mientras]] [[she|ella]] [[was|estaba]] _______ [[her|sus]] [[memoirs|memorias]], [[a|un]] [[loud|ruido]] [[noise|fuerte]] [[interrupted|interrumpió]] [[her|a ella]].",
           "options": [
-            "[[rang|sonó]]",
-            "[[was|estaba]] [[ringing|sonando]]"
+            "[[wrote|escribió]]",
+            "[[writing|escribiendo]]"
           ],
-          "correctAnswer": 0,
-          "explanation": "Se utiliza el pasado simple 'rang' para una acción completa que interrumpe una acción en progreso en el pasado.",
+          "correctAnswer": 1,
+          "explanation": "Se usa el pasado continuo para describir una acción en progreso interrumpida por otra acción en el pasado simple.",
           "audio": "audio/b1/unit-2/e1.mp3"
         }
       ]
@@ -33,19 +33,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "He was writing his autobiography when he got a call from his publisher.",
+    "transcript": "He was reading a book about history when the phone rang.",
     "content": {
-      "title": "Pasado Simple vs. Pasado Continuo",
-      "instructions": "Selecciona la opción correcta para completar la oración.",
+      "title": "Pasado simple vs. pasado continuo",
+      "instructions": "Selecciona la forma correcta del verbo para completar la oración.",
       "questions": [
         {
-          "question": "[[He|Él]] [[was|estaba]] [[writing|escribiendo]] [[his|su]] [[autobiography|autobiografía]] [[when|cuando]] _______ [[he|él]] [[got|recibió]] [[a|una]] [[call|llamada]] [[from|de]] [[his|su]] [[publisher|editor]].",
+          "question": "[[He|Él]] _______ [[a|un]] [[book|libro]] [[about|sobre]] [[history|historia]] [[when|cuando]] [[the|el]] [[phone|teléfono]] [[rang|sonó]].",
           "options": [
-            "[[was|estaba]] [[getting|consiguiendo]]",
-            "[[got|recibió]]"
+            "[[read|leía]]",
+            "[[was|estaba]] [[reading|leyendo]]"
           ],
           "correctAnswer": 1,
-          "explanation": "El pasado simple 'got' se utiliza aquí ya que la acción fue breve y completada durante la acción continua de escribir.",
+          "explanation": "El pasado continuo describe una acción en curso interrumpida por un evento puntual en pasado simple.",
           "audio": "audio/b1/unit-2/e2.mp3"
         }
       ]
@@ -59,19 +59,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "Although he was playing his guitar, he was thinking about his performance last night.",
+    "transcript": "Although they were talking, nobody noticed the time.",
     "content": {
-      "title": "Pasado Simple vs. Pasado Continuo",
-      "instructions": "Selecciona la opción correcta para completar la oración.",
+      "title": "Pasado simple vs. pasado continuo",
+      "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[he|él]] _______ [[playing|tocando]] [[his|su]] [[guitar|guitarra]], [[he|él]] [[was|estaba]] [[thinking|pensando]] [[about|sobre]] [[his|su]] [[performance|actuación]] [[last|última]] [[night|noche]].",
+          "question": "[[Although|Aunque]] [[they|ellos]] _______ [[nobody|nadie]] [[noticed|notó]] [[the|la]] [[time|hora]].",
           "options": [
-            "[[was|estaba]] [[playing|tocando]]",
-            "[[played|tocó]]"
+            "[[talked|hablaron]]",
+            "[[were|estaban]] [[talking|hablando]]"
           ],
-          "correctAnswer": 0,
-          "explanation": "Uso del pasado continuo 'was playing', porque estaba realizando una acción continua al mismo tiempo que otra acción mental.",
+          "correctAnswer": 1,
+          "explanation": "Se usa el pasado continuo para describir una situación en desarrollo mientras otra acción ocurrió.",
           "audio": "audio/b1/unit-2/e3.mp3"
         }
       ]
@@ -85,19 +85,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "While the researchers were analyzing the data, new findings emerged.",
+    "transcript": "Despite the rain, she went for a run when I called.",
     "content": {
-      "title": "Pasado Simple vs. Pasado Continuo",
-      "instructions": "Selecciona la opción correcta para completar la oración.",
+      "title": "Pasado simple vs. pasado continuo",
+      "instructions": "Escoge la opción que mejor complete la frase.",
       "questions": [
         {
-          "question": "[[While|Mientras]] [[the|los]] [[researchers|investigadores]] [[were|estaban]] [[analyzing|analizando]] [[the|los]] [[data|datos]], _______ [[new|nuevos]] [[findings|descubrimientos]] [[emerged|surgieron]].",
+          "question": "[[Despite|A pesar de]] [[the|la]] [[rain|lluvia]], [[she|ella]] _______ [[for|a]] [[a|una]] [[run|carrera]] [[when|cuando]] [[I|yo]] [[called|llamé]].",
           "options": [
-            "[[were|estaban]] [[emerging|surgiendo]]",
-            "[[emerged|surgieron]]"
+            "[[went|fue]]",
+            "[[was|estaba]] [[going|yendo]]"
           ],
-          "correctAnswer": 1,
-          "explanation": "Se utiliza el pasado simple 'emerged' para indicar que los descubrimientos ocurrieron en un momento preciso durante el análisis.",
+          "correctAnswer": 0,
+          "explanation": "El pasado simple describe una acción completa, mientras que otra ocurría.",
           "audio": "audio/b1/unit-2/e4.mp3"
         }
       ]
@@ -111,19 +111,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "Despite the cold weather, they were hiking when it started to snow.",
+    "transcript": "The professor was explaining the theory when the projector stopped working.",
     "content": {
-      "title": "Pasado Simple vs. Pasado Continuo",
-      "instructions": "Selecciona la opción correcta para completar la oración.",
+      "title": "Pasado simple vs. pasado continuo",
+      "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[the|el]] [[cold|frío]] [[weather|clima]], [[they|ellos]] _______ [[hiking|caminando]] [[when|cuando]] [[it|empezó]] [[started|a]] [[to|nevar]].",
+          "question": "[[The|El]] [[professor|profesor]] _______ [[the|la]] [[theory|teoría]] [[when|cuando]] [[the|el]] [[projector|proyector]] [[stopped|dejó]] [[working|de funcionar]].",
           "options": [
-            "[[were|estaban]] [[hiking|caminando]]",
-            "[[hiked|caminaban]]"
+            "[[was|estaba]] [[explaining|explicando]]",
+            "[[explained|explicó]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El pasado continuo 'were hiking' se usa para describir una acción continua que fue interrumpida por otra acción en el pasado.",
+          "explanation": "Se usa el pasado continuo para una acción en desarrollo interrumpida por otra acción en pasado simple.",
           "audio": "audio/b1/unit-2/e5.mp3"
         }
       ]
@@ -137,19 +137,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "While she was working in the office, her phone rang.",
+    "transcript": "While I was reading the letter, the phone rang.",
     "content": {
-      "title": "Pasado continuo vs pasado simple",
-      "instructions": "Completa la oración usando pasado simple o pasado continuo.",
+      "title": "Llenar los espacios en blanco",
+      "instructions": "Elige la opción correcta para completar las oraciones con el tiempo adecuado.",
       "questions": [
         {
-          "question": "[[While|Mientras]] [[she|ella]] _______ [[in|en]] [[the|la]] [[office|oficina]], [[her|su]] [[phone|teléfono]] [[rang|sonó]].",
+          "question": "[[While|Mientras]] [[I|yo]] [[_______|_______]] [[reading|leía]] [[the|la]] [[letter|carta]], [[the|el]] [[phone|teléfono]] [[rang|sonó]].",
           "options": [
-            "[[worked|trabajaba]]",
-            "[[was|estaba]] [[working|trabajando]]"
+            "[[was|estaba]]",
+            "[[read|leí]]"
           ],
-          "correctAnswer": 1,
-          "explanation": "Uso del pasado continuo para acciones en progreso interrumpidas por otras acciones.",
+          "correctAnswer": 0,
+          "explanation": "Se usa el pasado continuo para describir una acción que estaba en progreso cuando ocurrió otra acción.",
           "audio": "audio/b1/unit-2/e6.mp3"
         }
       ]
@@ -163,19 +163,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "Despite the difficulties, they managed to publish the book last year.",
+    "transcript": "Despite the rain, she was walking in the park.",
     "content": {
-      "title": "Uso de conectores",
-      "instructions": "Completa la oración usando el verbo correcto.",
+      "title": "Llenar los espacios en blanco",
+      "instructions": "Elige la opción correcta para completar las oraciones con el tiempo adecuado.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[the|las]] [[difficulties|dificultades]], [[they|ellos]] _______ [[to|en]] [[publish|publicar]] [[the|el]] [[book|libro]] [[last|el año pasado]].",
+          "question": "[[Despite|A pesar de]] [[the|la]] [[rain|lluvia]], [[she|ella]] [[_______|_______]] [[walking|caminaba]] [[in|en]] [[the|el]] [[park|parque]].",
           "options": [
-            "[[are|son]] [[managing|gestionando]]",
-            "[[managed|lograron]]"
+            "[[was|estaba]]",
+            "[[walked|caminó]]"
           ],
-          "correctAnswer": 1,
-          "explanation": "Uso del pasado simple para acciones completadas en el pasado.",
+          "correctAnswer": 0,
+          "explanation": "Aunque la lluvia comenzó antes y todavía continuaba, se utiliza el pasado continuo para la acción presente en curso.",
           "audio": "audio/b1/unit-2/e7.mp3"
         }
       ]
@@ -189,19 +189,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "He was reading the report when the lights went out.",
+    "transcript": "I met her when I was working at the university.",
     "content": {
-      "title": "Pasado continuo vs pasado simple",
-      "instructions": "Selecciona la forma correcta del verbo en pasado.",
+      "title": "Llenar los espacios en blanco",
+      "instructions": "Elige la opción correcta para completar las oraciones con el tiempo adecuado.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[the|el]] [[report|informe]] [[when|cuando]] [[the|las]] [[lights|luces]] [[went|se apagaron]] [[out|fuera]].",
+          "question": "[[I|yo]] [[met|conocí]] [[her|a ella]] [[when|cuando]] [[I|yo]] [[_______|_______]] [[working|trabajaba]] [[at|en]] [[the|la]] [[university|universidad]].",
           "options": [
-            "[[was|estaba]] [[reading|leyendo]]",
-            "[[read|leyó]]"
+            "[[was|estaba]]",
+            "[[work|trabajé]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso del pasado continuo para acciones interrumpidas por sucesos.",
+          "explanation": "Utilizamos el pasado continuo para describir una acción en progreso durante un evento pasado específico.",
           "audio": "audio/b1/unit-2/e8.mp3"
         }
       ]
@@ -215,19 +215,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "Although he tried his best, he was unable to finish the work on time.",
+    "transcript": "He wrote several books while he was living abroad.",
     "content": {
-      "title": "Conectores y pasado simple",
-      "instructions": "Completa la oración usando la forma correcta del verbo.",
+      "title": "Llenar los espacios en blanco",
+      "instructions": "Elige la opción correcta para completar las oraciones con el tiempo adecuado.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[he|él]] _______ [[his|su]] [[best|mejor]], [[he|él]] _______ [[to|a]] [[finish|terminar]] [[the|el]] [[work|trabajo]] [[on|a]] [[time|tiempo]].",
+          "question": "[[He|Él]] [[wrote|escribió]] [[several|varios]] [[books|libros]] [[while|mientras]] [[he|él]] [[_______|_______]] [[living|vivía]] [[abroad|en el extranjero]].",
           "options": [
-            "[[try|intentó]]",
-            "[[tried|intentó]]"
+            "[[was|estaba]]",
+            "[[lived|vivió]]"
           ],
-          "correctAnswer": 1,
-          "explanation": "Uso del pasado simple para acciones completas y definitivas en el pasado.",
+          "correctAnswer": 0,
+          "explanation": "El uso del pasado continuo indica una acción prolongada en el tiempo en que sucedieron otros eventos puntuales.",
           "audio": "audio/b1/unit-2/e9.mp3"
         }
       ]
@@ -241,19 +241,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "She met him when she was attending a conference last month.",
+    "transcript": "When I arrived, she was already preparing dinner.",
     "content": {
-      "title": "Acciones pasadas interrumpidas",
-      "instructions": "Selecciona el verbo correcto para completar la oración.",
+      "title": "Llenar los espacios en blanco",
+      "instructions": "Elige la opción correcta para completar las oraciones con el tiempo adecuado.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[him|a él]] [[when|cuando]] [[she|ella]] _______ [[a|una]] [[conference|conferencia]] [[last|el mes pasado]].",
+          "question": "[[When|Cuando]] [[I|yo]] [[arrived|llegué]], [[she|ella]] [[_______|_______]] [[already|ya]] [[preparing|preparaba]] [[dinner|la cena]].",
           "options": [
-            "[[met|conoció]]",
-            "[[was|estaba]] [[meeting|conociendo]]"
+            "[[was|estaba]]",
+            "[[prepared|preparó]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso de pasado simple para acciones completas en contraposición al pasado continuo para enmarcar el contexto.",
+          "explanation": "El pasado continuo describe la acción en curso que ya tenía lugar cuando ocurrió un evento específico.",
           "audio": "audio/b1/unit-2/e10.mp3"
         }
       ]
@@ -267,23 +267,25 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "While Sarah was reading a book, the phone rang.",
+    "transcript": "While David was reading a book, his brother was playing chess.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[While|Mientras]] [[Sarah|Sarah]] [[was|estaba]] [[reading|leyendo]] [[a|un]] [[book|libro]], [[the|el]] [[phone|teléfono]] [[rang|sonó]].",
+      "correctSentence": "[[While|Mientras]] [[David|David]] [[was|estaba]] [[reading|leyendo]] [[a|un]] [[book|libro]], [[his|su]] [[brother|hermano]] [[was|estaba]] [[playing|jugando]] [[chess|ajedrez]].",
       "words": [
-        "[[phone|teléfono]]",
-        "[[While|Mientras]]",
-        "[[rang|sonó]]",
-        "[[Sarah|Sarah]]",
-        "[[was|estaba]]",
-        "[[reading|leyendo]]",
+        "[[brother|hermano]]",
         "[[a|un]]",
-        "[[the|el]]",
-        "[[book|libro]]"
+        "[[was|estaba]]",
+        "[[David|David]]",
+        "[[was|estaba]]",
+        "[[playing|jugando]]",
+        "[[While|Mientras]]",
+        "[[book|libro]]",
+        "[[his|su]]",
+        "[[reading|leyendo]]",
+        "[[chess|ajedrez]]."
       ],
-      "explanation": "El uso del pasado continuo ('was reading') indica una acción en progreso que fue interrumpida ('rang').",
+      "explanation": "Esta oración utiliza el pasado continuo para describir dos acciones que ocurrían simultáneamente.",
       "audio": "audio/b1/unit-2/e11.mp3"
     },
     "id": "b1-u2-e11",
@@ -295,23 +297,24 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "Although it was raining, they decided to go for a walk.",
+    "transcript": "Although it was raining, we continued our walk through the park.",
     "content": {
       "title": "Construcción de oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Although|Aunque]] [[it|estaba]] [[was|lloviendo]], [[they|ellos]] [[decided|decidieron]] [[to|a]] [[go|ir]] [[for|a]] [[a|dar]] [[walk|un paseo]].",
+      "instructions": "Reordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[Although|Aunque]] [[it|estaba]] [[was|lloviendo]], [[we|nosotros]] [[continued|continuamos]] [[our|nuestro]] [[walk|paseo]] [[through|a través de]] [[the|el]] [[park|parque]].",
       "words": [
+        "[[through|a través de]]",
         "[[Although|Aunque]]",
-        "[[go|ir]]",
-        "[[they|ellos]]",
-        "[[a|dar]]",
+        "[[the|el]]",
+        "[[walk|paseo]]",
+        "[[continued|continuamos]]",
+        "[[we|nosotros]]",
+        "[[was|lloviendo]]",
+        "[[our|nuestro]]",
         "[[it|estaba]]",
-        "[[decided|decidieron]]",
-        "[[was|lloviendo]],",
-        "[[walk|paseo]].",
-        "[[for|a]]"
+        "[[park|parque]]."
       ],
-      "explanation": "El uso de 'although' muestra contraste y se combina con el pasado continuo y pasado simple.",
+      "explanation": "Se emplea 'although' para mostrar contraste entre la lluvia y la continuación del paseo.",
       "audio": "audio/b1/unit-2/e12.mp3"
     },
     "id": "b1-u2-e12",
@@ -323,24 +326,27 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "They were discussing the project when the manager entered the room.",
+    "transcript": "When I met Sarah, she was living in New York and studying arts.",
     "content": {
       "title": "Construcción de oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[were|estaban]] [[discussing|discutiendo]] [[the|el]] [[project|proyecto]] [[when|cuando]] [[the|el]] [[manager|gerente]] [[entered|entró]] [[the|a]] [[room|la habitación]].",
+      "instructions": "Arregla las palabras para formar una oración correcta.",
+      "correctSentence": "[[When|Cuando]] [[I|yo]] [[met|conocí]] [[Sarah|a Sarah]], [[she|ella]] [[was|estaba]] [[living|viviendo]] [[in|en]] [[New|Nueva]] [[York|York]] [[and|y]] [[studying|estudiando]] [[arts|arte]].",
       "words": [
-        "[[entered|entró]]",
-        "[[the|el]]",
-        "[[were|estaban]]",
-        "[[discussing|discutiendo]]",
-        "[[when|cuando]]",
-        "[[room|habitación]]",
-        "[[manager|gerente]]",
-        "[[project|proyecto]]",
-        "[[They|Ellos]]",
-        "[[the|a]]"
+        "[[I|yo]]",
+        "[[she|ella]]",
+        "[[New|Nueva]]",
+        "[[and|y]]",
+        "[[When|Cuando]]",
+        "[[met|conocí]]",
+        "[[York|York]]",
+        "[[was|estaba]]",
+        "[[Sarah|a Sarah]]",
+        "[[arts|arte]].",
+        "[[in|en]]",
+        "[[living|viviendo]]",
+        "[[studying|estudiando]]"
       ],
-      "explanation": "Se utiliza el pasado continuo para la acción en progreso ('discussing') y el pasado simple para la interrupción ('entered').",
+      "explanation": "El uso del pasado continuo aquí indica una acción en progreso cuando ocurrió otra.",
       "audio": "audio/b1/unit-2/e13.mp3"
     },
     "id": "b1-u2-e13",
@@ -352,24 +358,25 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "Despite the weather being cold, we went hiking last weekend.",
+    "transcript": "Despite the difficulties, Marie achieved her dream of becoming a doctor.",
     "content": {
       "title": "Construcción de oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Despite|A pesar de]] [[the|que el]] [[weather|clima]] [[being|fuera]] [[cold|frío]], [[we|nosotros]] [[went|fuimos]] [[hiking|a caminar]] [[last|el pasado]] [[weekend|fin de semana]].",
+      "instructions": "Coloca las palabras en el orden correcto para formar una oración.",
+      "correctSentence": "[[Despite|A pesar de]] [[the|las]] [[difficulties|dificultades]], [[Marie|Marie]] [[achieved|logró]] [[her|su]] [[dream|sueño]] [[of|de]] [[becoming|convertirse]] [[a|en]] [[doctor|doctora]].",
       "words": [
-        "[[went|fuimos]]",
+        "[[achieved|logró]]",
         "[[Despite|A pesar de]]",
-        "[[last|el pasado]]",
-        "[[hiking|a caminar]]",
-        "[[being|fuera]]",
-        "[[weather|clima]]",
-        "[[cold|frío]],",
-        "[[the|que el]]",
-        "[[weekend|fin de semana]].",
-        "[[we|nosotros]]"
+        "[[Marie|Marie]]",
+        "[[dream|sueño]]",
+        "[[doctor|doctora]].",
+        "[[becoming|convertirse]]",
+        "[[the|las]]",
+        "[[difficulties|dificultades]],",
+        "[[a|en]]",
+        "[[her|su]]",
+        "[[of|de]]"
       ],
-      "explanation": "Se utiliza 'despite' para indicar contraste y la estructura del pasado simple para acciones completas.",
+      "explanation": "Se utiliza 'despite' para indicar que Marie logró su objetivo aunque había dificultades.",
       "audio": "audio/b1/unit-2/e14.mp3"
     },
     "id": "b1-u2-e14",
@@ -381,23 +388,24 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "He was playing the guitar when the power went out.",
+    "transcript": "While I was traveling in Spain, I learned about its culture.",
     "content": {
       "title": "Construcción de oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[was|estaba]] [[playing|tocando]] [[the|la]] [[guitar|guitarra]] [[when|cuando]] [[the|se]] [[power|fue la luz]] [[went|apagó]].",
+      "instructions": "Ordena las palabras para formar una oración correctamente estructurada.",
+      "correctSentence": "[[While|Mientras]] [[I|yo]] [[was|estaba]] [[traveling|viajando]] [[in|en]] [[Spain|España]], [[I|yo]] [[learned|aprendí]] [[about|sobre]] [[its|su]] [[culture|cultura]].",
       "words": [
-        "[[power|fue la luz]]",
-        "[[He|Él]]",
-        "[[went|apagó]].",
-        "[[when|cuando]]",
+        "[[While|Mientras]]",
+        "[[in|en]]",
+        "[[Spain|España]],",
+        "[[about|sobre]]",
+        "[[I|yo]]",
+        "[[traveling|viajando]]",
+        "[[its|su]]",
+        "[[culture|cultura]].",
         "[[was|estaba]]",
-        "[[playing|tocando]]",
-        "[[guitar|guitarra]]",
-        "[[the|la]]",
-        "[[the|se]]"
+        "[[learned|aprendí]]"
       ],
-      "explanation": "El pasado continuo ('was playing') muestra la acción en progreso interrumpida por el pasado simple ('went out').",
+      "explanation": "El pasado continuo se utiliza para describir la acción en progreso (viajar) y el pasado simple para la acción interrumpida (aprender).",
       "audio": "audio/b1/unit-2/e15.mp3"
     },
     "id": "b1-u2-e15",
@@ -409,19 +417,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "While he was walking to the office, he saw an old friend.",
+    "transcript": "While I was reading, the phone rang.",
     "content": {
-      "title": "Pasado Simple vs Pasado Continuo",
-      "instructions": "Selecciona la opción correcta para completar la oración.",
+      "title": "Historias de Vida",
+      "instructions": "Elige la opción correcta para completar la oración sobre un evento pasado.",
       "questions": [
         {
-          "question": "[[While|Mientras]] [[he|él]] _______ [[to|a]] [[the|la]] [[office|oficina]], [[he|él]] [[saw|vio]] [[an|a]] [[old|viejo]] [[friend|amigo]].",
+          "question": "[[While|Mientras]] [[I|yo]] _______ [[reading|leía]], [[the|el]] [[phone|teléfono]] [[rang|sonó]].",
           "options": [
-            "[[was|estaba]] [[walking|caminando]]",
-            "[[walked|caminó]]"
+            "[[was|estaba]]",
+            "[[read|leí]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se usa el pasado continuo para expresar una acción en progreso interrumpida por el pasado simple.",
+          "explanation": "Uso del pasado continuo para acciones en progreso cuando ocurrió otra acción.",
           "audio": "audio/b1/unit-2/e16.mp3"
         }
       ]
@@ -435,19 +443,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "Although she was reading, she still heard the noise outside.",
+    "transcript": "He finished his degree although he was working full time.",
     "content": {
-      "title": "Pasado Simple vs Pasado Continuo",
-      "instructions": "Selecciona la opción correcta para completar la oración.",
+      "title": "Biografías",
+      "instructions": "Selecciona la opción correcta para completar la oración sobre logros pasados.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[she|ella]] _______ [[reading|leyendo]], [[she|ella]] [[still|aún]] [[heard|escuchó]] [[the|el]] [[noise|ruido]] [[outside|afuera]].",
+          "question": "[[He|Él]] _______ [[his|su]] [[degree|título]] [[although|aunque]] [[he|él]] [[was|estaba]] [[working|trabajando]] [[full|tiempo]] [[time|completo]].",
           "options": [
-            "[[was|estaba]]",
-            "[[read|leyó]]"
+            "[[finished|terminó]]",
+            "[[was|estaba]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso del pasado continuo para una acción en desarrollo al momento de una interrupción auditiva.",
+          "explanation": "Uso del pasado simple para acciones finalizadas contrastadas con acciones continuas.",
           "audio": "audio/b1/unit-2/e17.mp3"
         }
       ]
@@ -461,19 +469,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "Despite the rain, they were having a picnic when it started to thunder.",
+    "transcript": "Despite the rain, they were having a great time at the picnic.",
     "content": {
-      "title": "Pasado Simple vs Pasado Continuo",
-      "instructions": "Selecciona la opción correcta para completar la oración.",
+      "title": "Historias de Vida",
+      "instructions": "Completa la declaración sobre eventos pasados utilizando la opción correcta.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[the|la]] [[rain|lluvia]], [[they|ellos]] _______ [[having|teniendo]] [[a|un]] [[picnic|picnic]] [[when|cuando]] [[it|empezó]] [[started|empezó]] [[to|a]] [[thunder|tronar]].",
+          "question": "[[Despite|A pesar de]] [[the|la]] [[rain|lluvia]], [[they|ellos]] _______ [[having|teniendo]] [[a|un]] [[great|gran]] [[time|momento]] [[at|en]] [[the|el]] [[picnic|picnic]].",
           "options": [
             "[[were|estaban]]",
             "[[had|tuvieron]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso del pasado continuo para mostrar una acción en desarrollo a pesar de condiciones adversas.",
+          "explanation": "Uso del pasado continuo para acciones en progreso durante un periodo o condición.",
           "audio": "audio/b1/unit-2/e18.mp3"
         }
       ]
@@ -487,19 +495,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "They were discussing the project when the manager arrived.",
+    "transcript": "She was writing a novel when she decided to travel to Europe.",
     "content": {
-      "title": "Pasado Simple vs Pasado Continuo",
-      "instructions": "Selecciona la opción correcta para completar la oración.",
+      "title": "Biografías",
+      "instructions": "Escoge la opción adecuada para completar la oración acerca de una decisión pasada.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[discussing|discutiendo]] [[the|el]] [[project|proyecto]] [[when|cuando]] [[the|el]] [[manager|gerente]] [[arrived|llegó]].",
+          "question": "[[She|Ella]] _______ [[writing|escribía]] [[a|una]] [[novel|novela]] [[when|cuando]] [[she|ella]] [[decided|decidió]] [[to|viajar]] [[travel|a]] [[to|Europa]].",
           "options": [
-            "[[were|estaban]]",
-            "[[discussed|discutieron]]"
+            "[[was|estaba]]",
+            "[[wrote|escribió]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El pasado continuo se utiliza para describir una discusión en progreso que fue interrumpida.",
+          "explanation": "Uso del pasado continuo para describir una acción en curso que es interrumpida por otra.",
           "audio": "audio/b1/unit-2/e19.mp3"
         }
       ]
@@ -513,19 +521,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "When she entered the room, the students were quietly reading.",
+    "transcript": "When they arrived, Maria was preparing dinner.",
     "content": {
-      "title": "Pasado Simple vs Pasado Continuo",
-      "instructions": "Selecciona la opción correcta para completar la oración.",
+      "title": "Historias de Vida",
+      "instructions": "Selecciona la palabra correcta para completar la frase sobre eventos en curso en el pasado.",
       "questions": [
         {
-          "question": "[[When|Cuando]] [[she|ella]] _______ [[the|la]] [[room|habitación]], [[the|los]] [[students|estudiantes]] [[were|estaban]] [[quietly|silenciosamente]] [[reading|leyendo]].",
+          "question": "[[When|Cuando]] [[they|ellos]] _______ [[arrived|llegaron]], [[Maria|Maria]] [[was|estaba]] [[preparing|preparando]] [[dinner|la cena]].",
           "options": [
-            "[[entered|entró]]",
-            "[[was|estaba]]"
+            "[[arrived|llegaron]]",
+            "[[were|estaban]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El pasado simple se emplea para la acción que inicia la secuencia de eventos.",
+          "explanation": "Uso del pasado simple para indicar una acción que ocurre mientras otra está en progreso.",
           "audio": "audio/b1/unit-2/e20.mp3"
         }
       ]
@@ -539,19 +547,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "While I was waiting for the bus, it started to rain.",
+    "transcript": "While she was reading a book, the phone rang.",
     "content": {
-      "title": "Historias de Vida y Biografías",
-      "instructions": "Rellena el espacio en blanco usando el pasado simple o el pasado continuo.",
+      "title": "Historias de Vida: Pasado",
+      "instructions": "Llena los espacios con la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[While|Mientras]] [[I|yo]] _______ [[for|por]] [[the|el]] [[bus|autobús]], [[it|empezó]] [[to|a]] [[rain|llover]].",
+          "question": "[[While|Mientras]] [[she|ella]] _______ [[a|un]] [[book|libro]], [[the|el]] [[phone|teléfono]] [[rang|sonó]].",
           "options": [
-            "[[waited|esperé]]",
-            "[[was waiting|estaba esperando]]"
+            "[[was|estaba]] [[reading|leyendo]]",
+            "[[read|leyó]]"
           ],
-          "correctAnswer": 1,
-          "explanation": "El uso del pasado continuo para describir una acción en progreso interrumpida por otra acción.",
+          "correctAnswer": 0,
+          "explanation": "Uso del pasado continuo para describir una acción en progreso interrumpida por otra acción en pasado simple.",
           "audio": "audio/b1/unit-2/e21.mp3"
         }
       ]
@@ -565,19 +573,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "She was reading a book when the phone rang.",
+    "transcript": "Although he was studying, he did not hear the alarm.",
     "content": {
-      "title": "Historias de Vida y Biografías",
-      "instructions": "Rellena el espacio en blanco usando el pasado simple o el pasado continuo.",
+      "title": "Eventos Simultáneos",
+      "instructions": "Elige la palabra correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[a|un]] [[book|libro]] [[when|cuando]] [[the|el]] [[phone|teléfono]] [[rang|sonó]].",
+          "question": "[[Although|Aunque]] [[he|él]] _______ [[studying|estudiando]], [[he|él]] [[did|no]] [[not|oyó]] [[hear|la]] [[the|alarma]].",
           "options": [
-            "[[was reading|estaba leyendo]]",
-            "[[read|leyó]]"
+            "[[was|estaba]] [[studying|estudiando]]",
+            "[[studied|estudió]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El uso del pasado continuo para mostrar una acción que estaba en progreso antes de ser interrumpida por otra acción.",
+          "explanation": "Uso del pasado continuo para mostrar una acción continua sobre la que ocurre otra acción.",
           "audio": "audio/b1/unit-2/e22.mp3"
         }
       ]
@@ -591,19 +599,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "When I arrived at the theater, the play had already started.",
+    "transcript": "They were walking in the park when it started to rain.",
     "content": {
-      "title": "Historias de Vida y Biografías",
-      "instructions": "Rellena el espacio en blanco usando el pasado simple o el pasado continuo.",
+      "title": "Describe con Detalles",
+      "instructions": "Usa la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[When|Cuando]] [[I|yo]] _______ [[at|al]] [[the|el]] [[theater|teatro]], [[the|la]] [[play|obra]] [[had|había]] [[already|ya]] [[started|empezado]].",
+          "question": "[[They|Ellos]] _______ [[walking|caminando]] [[in|en]] [[the|el]] [[park|parque]] [[when|cuando]] [[it|empezó]] [[started|a]] [[to|llover]].",
           "options": [
-            "[[arrived|llegué]]",
-            "[[was arriving|estaba llegando]]"
+            "[[were|estaban]] [[walking|caminando]]",
+            "[[walked|caminaron]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El uso del pasado simple para describir una acción completada en el pasado.",
+          "explanation": "El pasado continuo se utiliza para describir el fondo de una acción que fue interrumpida por otra.",
           "audio": "audio/b1/unit-2/e23.mp3"
         }
       ]
@@ -617,19 +625,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "They were discussing the project when the manager entered the room.",
+    "transcript": "Despite being tired, she finished her work on time.",
     "content": {
-      "title": "Historias de Vida y Biografías",
-      "instructions": "Rellena el espacio en blanco usando el pasado simple o el pasado continuo.",
+      "title": "Contrastes en Biografías",
+      "instructions": "Completa la oración con la opción adecuada.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[the|el]] [[project|proyecto]] [[when|cuando]] [[the|el]] [[manager|gerente]] [[entered|entró]] [[the|a]] [[room|sala]].",
+          "question": "[[Despite|A pesar]] [[of|de]] _______ [[being|estar]] [[tired|cansada]], [[she|ella]] [[finished|terminó]] [[her|su]] [[work|trabajo]] [[on|a]] [[time|tiempo]].",
           "options": [
-            "[[were discussing|estaban discutiendo]]",
-            "[[discussed|discutieron]]"
+            "[[being|estar]]",
+            "[[was|estaba]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se usa el pasado continuo para acciones en progreso interrumpidas por el pasado simple.",
+          "explanation": "El uso de 'being' después de 'despite' para mostrar una condición en contraste con el resultado.",
           "audio": "audio/b1/unit-2/e24.mp3"
         }
       ]
@@ -643,19 +651,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "Although it was raining, they decided to go hiking.",
+    "transcript": "He was cooking dinner when the lights went out.",
     "content": {
-      "title": "Historias de Vida y Biografías",
-      "instructions": "Rellena el espacio en blanco usando el pasado simple o el pasado continuo.",
+      "title": "Descríbelo con Precisión",
+      "instructions": "Elige la forma adecuada del verbo para llenar el espacio.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[it|estaba]] _______ [[raining|lloviendo]], [[they|ellos]] [[decided|decidieron]] [[to|ir]] [[hiking|de excursión]].",
+          "question": "[[He|Él]] _______ [[cooking|cocinando]] [[dinner|la]] [[when|cena]] [[the|cuando]] [[lights|las]] _______ [[went|luces]] [[out|se apagaron]].",
           "options": [
-            "[[rained|llovió]]",
-            "[[was raining|estaba lloviendo]]"
+            "[[was|estaba]] [[cooking|cocinando]]",
+            "[[cooked|cocinó]]"
           ],
-          "correctAnswer": 1,
-          "explanation": "El pasado continuo describe una situación de fondo concurrente con otra acción.",
+          "correctAnswer": 0,
+          "explanation": "El pasado continuo describe acciones interrumpidas por acciones en pasado simple.",
           "audio": "audio/b1/unit-2/e25.mp3"
         }
       ]
@@ -669,22 +677,24 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "Although he was studying, he heard the phone ring.",
+    "transcript": "Although she was feeling tired, she continued working on her project.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Although|Aunque]] [[he|él]] [[was|estaba]] [[studying|estudiando]], [[he|él]] [[heard|escuchó]] [[the|el]] [[phone|teléfono]] [[ring|sonar]].",
+      "correctSentence": "[[Although|Aunque]] [[she|ella]] [[was|estaba]] [[feeling|sintiendo]] [[tired|cansada]], [[she|ella]] [[continued|continuó]] [[working|trabajando]] [[on|en]] [[her|su]] [[project|proyecto]].",
       "words": [
-        "[[the|el]]",
-        "[[Although|Aunque]]",
-        "[[studying|estudiando]]",
+        "[[although|aunque]]",
+        "[[continued|continuó]]",
+        "[[she|ella]]",
+        "[[on|en]]",
+        "[[working|trabajando]]",
+        "[[project|proyecto]]",
         "[[was|estaba]]",
-        "[[ring|sonar]]",
-        "[[phone|teléfono]]",
-        "[[he|él]]",
-        "[[heard|escuchó]]"
+        "[[tired|cansada]]",
+        "[[feeling|sintiendo]]",
+        "[[her|su]]"
       ],
-      "explanation": "Se utiliza 'was studying' en pasado continuo para una acción en progreso interrumpida por 'heard' en pasado simple.",
+      "explanation": "Uso del 'aunque' para introducir una acción en contraste: 'Aunque estaba sintiendo cansancio'.",
       "audio": "audio/b1/unit-2/e26.mp3"
     },
     "id": "b1-u2-e26",
@@ -696,22 +706,23 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "She was reading a book when she fell asleep.",
+    "transcript": "While he was studying, his friends were playing outside.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[was|estaba]] [[reading|leyendo]] [[a|un]] [[book|libro]] [[when|cuando]] [[she|ella]] [[fell|se quedó]] [[asleep|dormida]].",
+      "correctSentence": "[[While|Mientras]] [[he|él]] [[was|estaba]] [[studying|estudiando]], [[his|sus]] [[friends|amigos]] [[were|estaban]] [[playing|jugando]] [[outside|fuera]].",
       "words": [
-        "[[fell|se quedó]]",
-        "[[asleep|dormida]]",
-        "[[reading|leyendo]]",
-        "[[when|cuando]]",
-        "[[a|un]]",
+        "[[friends|amigos]]",
+        "[[were|estaban]]",
+        "[[his|su]]",
+        "[[studying|estudiando]]",
+        "[[outside|fuera]]",
         "[[was|estaba]]",
-        "[[She|Ella]]",
-        "[[book|libro]]"
+        "[[he|él]]",
+        "[[while|mientras]]",
+        "[[playing|jugando]]"
       ],
-      "explanation": "Se indica una acción en progreso 'was reading' interrumpida por 'fell asleep' en pasado simple.",
+      "explanation": "Usamos 'while' para acciones simultáneas en pasado continuo: Mientras una acción ocurre, otra también está en progreso.",
       "audio": "audio/b1/unit-2/e27.mp3"
     },
     "id": "b1-u2-e27",
@@ -723,21 +734,22 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "While they were walking, it started to rain.",
+    "transcript": "Despite the rain, they enjoyed the picnic in the park.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[While|Mientras]] [[they|ellos]] [[were|estaban]] [[walking|caminando]], [[it|empezó]] [[started|a]] [[to|llover]].",
+      "correctSentence": "[[Despite|A pesar de]] [[the|la]] [[rain|lluvia]], [[they|ellos]] [[enjoyed|disfrutaron]] [[the|el]] [[picnic|picnic]] [[in|en]] [[the|el]] [[park|parque]].",
       "words": [
-        "[[it|empezó]]",
-        "[[were|estaban]]",
-        "[[walking|caminando]]",
-        "[[While|Mientras]]",
-        "[[started|a]]",
+        "[[picnic|picnic]]",
         "[[they|ellos]]",
-        "[[to|llover]]"
+        "[[in|en]]",
+        "[[park|parque]]",
+        "[[the|el]]",
+        "[[rain|lluvia]]",
+        "[[enjoyed|disfrutaron]]",
+        "[[despite|a pesar de]]"
       ],
-      "explanation": "Uso de 'were walking' en pasado continuo para indicar una acción en progreso, interrumpida por 'started' en pasado simple.",
+      "explanation": "Usamos 'despite' para mostrar un contraste: hacer algo incluso con una desventaja como la lluvia.",
       "audio": "audio/b1/unit-2/e28.mp3"
     },
     "id": "b1-u2-e28",
@@ -749,21 +761,23 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "Despite feeling tired, he finished the marathon.",
+    "transcript": "By the time we arrived, he had already left.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Despite|A pesar de]] [[feeling|sentirse]] [[tired|cansado]], [[he|él]] [[finished|terminó]] [[the|la]] [[marathon|maratón]].",
+      "correctSentence": "[[By|Para]] [[the|el]] [[time|momento]] [[we|nosotros]] [[arrived|llegamos]], [[he|él]] [[had|había]] [[already|ya]] [[left|ido]].",
       "words": [
-        "[[Despite|A pesar de]]",
-        "[[feeling|sentirse]]",
-        "[[tired|cansado]]",
         "[[he|él]]",
-        "[[finished|terminó]]",
-        "[[the|la]]",
-        "[[marathon|maratón]]"
+        "[[arrived|llegamos]]",
+        "[[had|había]]",
+        "[[already|ya]]",
+        "[[we|nosotros]]",
+        "[[left|ido]]",
+        "[[the|el]]",
+        "[[by|para]]",
+        "[[time|momento]]"
       ],
-      "explanation": "Se usa 'Despite' para indicar contraste entre estar cansado y completar la acción de acabar el maratón.",
+      "explanation": "El pasado perfecto 'had left' se usa para indicar que una acción ocurrió antes de otra en el pasado.",
       "audio": "audio/b1/unit-2/e29.mp3"
     },
     "id": "b1-u2-e29",
@@ -775,22 +789,23 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "He was cooking dinner when the doorbell rang.",
+    "transcript": "When he called, I was driving and couldn't answer.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[was|estaba]] [[cooking|cocinando]] [[dinner|la cena]] [[when|cuando]] [[the|el]] [[doorbell|timbre]] [[rang|sonó]].",
+      "correctSentence": "[[When|Cuando]] [[he|él]] [[called|llamó]], [[I|yo]] [[was|estaba]] [[driving|conduciendo]] [[and|y]] [[couldn't|no podía]] [[answer|responder]].",
       "words": [
-        "[[He|Él]]",
-        "[[was|estaba]]",
-        "[[cooking|cocinando]]",
-        "[[dinner|la cena]]",
         "[[when|cuando]]",
-        "[[the|el]]",
-        "[[doorbell|timbre]]",
-        "[[rang|sonó]]"
+        "[[called|llamó]]",
+        "[[and|y]]",
+        "[[was|estaba]]",
+        "[[I|yo]]",
+        "[[he|él]]",
+        "[[couldn't|no podía]]",
+        "[[answer|responder]]",
+        "[[driving|conduciendo]]"
       ],
-      "explanation": "Usamos 'was cooking' en pasado continuo para una acción en progreso interrumpida por 'rang' en pasado simple.",
+      "explanation": "La acción en pasado continuo 'was driving' muestra una interrupción en progreso durante una llamada.",
       "audio": "audio/b1/unit-2/e30.mp3"
     },
     "id": "b1-u2-e30",
@@ -802,19 +817,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "While I was reading the article, my friend called.",
+    "transcript": "While I was studying, the phone rang.",
     "content": {
-      "title": "¿Cuándo sucedieron estas acciones?",
-      "instructions": "Elija la combinación correcta de tiempos verbales para completar la oración.",
+      "title": "Uso de Pasado Simple vs. Pasado Continuo",
+      "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[While|Mientras]] [[I|yo]] _______ [[reading|leía]] [[the|el]] [[article|artículo]], [[my|mi]] [[friend|amigo]] [[called|llamó]].",
+          "question": "[[While|Mientras]] [[I|yo]] _______ [[studying|estudiaba]], [[the|el]] [[phone|teléfono]] [[rang|sonó]].",
           "options": [
             "[[was|estaba]]",
-            "[[read|leí]]"
+            "[[studied|estudié]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se usa el pasado continuo para una acción en progreso interrumpida por otra acción.",
+          "explanation": "El pasado continuo se usa para acciones en progreso interrumpidas por otra acción.",
           "audio": "audio/b1/unit-2/e31.mp3"
         }
       ]
@@ -828,20 +843,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "Although it rained heavily, the event was a success.",
+    "transcript": "She was reading a book when I arrived.",
     "content": {
-      "title": "Contrastes en biografías",
-      "instructions": "Seleccione la opción correcta de tiempos verbales para completar la oración.",
+      "title": "Eventos Simultáneos en el Pasado",
+      "instructions": "Selecciona la mejor opción para completar la oración.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[it|eso]] _______ [[rained|llovió]] [[heavily|mucho]], [[the|el]] [[event|evento]] _______ [[a|un]] [[success|éxito]].",
+          "question": "[[She|Ella]] _______ [[reading|leía]] [[a|un]] [[book|libro]] [[when|cuando]] [[I|yo]] [[arrived|llegué]].",
           "options": [
-            "[[was|fue]]",
-            "[[was|fue]]",
-            "[[rained|llovió]]"
+            "[[was|estaba]]",
+            "[[read|leyó]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso del pasado simple para acciones completadas en el pasado.",
+          "explanation": "Utilizamos el pasado continuo para describir una acción en curso que fue interrumpida.",
           "audio": "audio/b1/unit-2/e32.mp3"
         }
       ]
@@ -855,19 +869,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "They were discussing the project when the manager arrived.",
+    "transcript": "It was raining when they left the office.",
     "content": {
-      "title": "Combinación de tiempos verbales",
-      "instructions": "Escoja la combinación correcta para expresar acciones pasadas simultáneas.",
+      "title": "Descripción del Contexto en el Pasado",
+      "instructions": "Elige la forma correcta del verbo para completar la oración.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[discussing|discutían]] [[the|el]] [[project|proyecto]] [[when|cuando]] [[the|el]] [[manager|gerente]] _______.",
+          "question": "[[It|Llovía]] _______ [[when|cuando]] [[they|ellos]] [[left|salieron]] [[the|la]] [[office|oficina]].",
           "options": [
-            "[[were|estaban]]",
-            "[[arrived|llegó]]"
+            "[[was|estaba]]",
+            "[[rained|llovió]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El pasado continuo describe una acción en proceso cuando otra interrupción ocurre en pasado simple.",
+          "explanation": "Se usa el pasado continuo para describir el contexto en el que ocurre otra acción.",
           "audio": "audio/b1/unit-2/e33.mp3"
         }
       ]
@@ -881,19 +895,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "I met my best friend while we were attending college.",
+    "transcript": "Although he was nervous, he talked confidently.",
     "content": {
-      "title": "Encuentros en la vida",
-      "instructions": "Seleccione las formas verbales adecuadas para completar la frase.",
+      "title": "Uso de Pasado Simple y Pasado Continuo",
+      "instructions": "Completa la oración seleccionando la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[my|a]] [[best|mejor]] [[friend|amigo]] [[while|mientras]] [[we|nosotros]] _______ [[attending|asistíamos]] [[college|a la universidad]].",
+          "question": "[[Although|Aunque]] [[he|él]] _______ [[nervous|nervioso]], [[he|él]] [[talked|habló]] [[confidently|con confianza]].",
           "options": [
-            "[[met|conocí]]",
-            "[[were|estábamos]]"
+            "[[was|estaba]]",
+            "[[is|es]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso del pasado simple para acciones ocurridas en un momento específico; pasado continuo para describir estados o condiciones.",
+          "explanation": "El pasado simple se usó para la acción principal, mientras el continuo explica el estado.",
           "audio": "audio/b1/unit-2/e34.mp3"
         }
       ]
@@ -907,19 +921,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "Despite the challenges, he was working diligently.",
+    "transcript": "Despite the heavy rain, they continued walking.",
     "content": {
-      "title": "Persistencia ante dificultades",
-      "instructions": "Elija la opción de verbo adecuada para completar cada parte de la frase.",
+      "title": "Acciones en Progreso y Contexto",
+      "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[the|las]] [[challenges|dificultades]], [[he|él]] _______ [[working|trabajaba]] [[diligently|diligentemente]].",
+          "question": "[[Despite|A pesar de]] [[the|la]] [[heavy|fuerte]] [[rain|lluvia]], [[they|ellos]] _______ [[walking|caminaban]].",
           "options": [
-            "[[was|estaba]]",
-            "[[worked|trabajó]]"
+            "[[continued|continuaron]]",
+            "[[were|estaban]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El pasado continuo se usa para describir una acción prolongada con esfuerzo continuo, incluso bajo circunstancias adversas.",
+          "explanation": "Usamos el pasado simple para la acción realizada a pesar del contexto.",
           "audio": "audio/b1/unit-2/e35.mp3"
         }
       ]
@@ -933,19 +947,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "When Emily was reading a book, her friend called her.",
+    "transcript": "While I was studying, my brother called.",
     "content": {
-      "title": "Uso del pasado continuo",
-      "instructions": "Completa la oración con la forma correcta del verbo en pasado.",
+      "title": "Rellena el espacio en blanco",
+      "instructions": "Completa la oración con la opción correcta en el contexto del pasado simple y continuo.",
       "questions": [
         {
-          "question": "[[When|Cuando]] [[Emily|Emily]] _______ [[a|un]] [[book|libro]], [[her|su]] [[friend|amigo]] [[called|llamó]] [[her|a ella]].",
+          "question": "[[While|Mientras]] [[I|yo]] _______ [[studying|estudiaba]], [[my|mi]] [[brother|hermano]] [[called|llamó]].",
           "options": [
-            "[[was|estaba]] [[reading|leyendo]]",
-            "[[read|leyó]]"
+            "[[was|estaba]]",
+            "[[did|hizo]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se utiliza 'was reading' porque la acción estaba en progreso cuando ocurrió otra acción.",
+          "explanation": "Uso del pasado continuo para acciones en progreso cuando sucede otra acción.",
           "audio": "audio/b1/unit-2/e36.mp3"
         }
       ]
@@ -959,19 +973,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "Although it was raining, they went for a walk.",
+    "transcript": "Although it was raining, we went for a walk.",
     "content": {
-      "title": "Contraste entre acciones",
-      "instructions": "Rellena el espacio en blanco con la opción correcta.",
+      "title": "Rellena el espacio en blanco",
+      "instructions": "Completa la oración con la opción correcta en el contexto del pasado simple y continuo.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[it|estaba]] _______ [[they|ellos]] [[went|fueron]] [[for|a]] [[a|una]] [[walk|caminata]].",
+          "question": "[[Although|Aunque]] [[it|estaba]] _______ [[raining|lloviendo]], [[we|nosotros]] [[went|fuimos]] [[for|a]] [[a|una]] [[walk|caminata]].",
           "options": [
-            "[[raining|lloviendo]]",
-            "[[rained|llovió]]"
+            "[[was|estaba]]",
+            "[[have|he]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El pasado continuo 'was raining' describe una condición en progreso durante otra acción.",
+          "explanation": "Uso del pasado continuo para describir el contexto en el que ocurrió otra acción.",
           "audio": "audio/b1/unit-2/e37.mp3"
         }
       ]
@@ -985,19 +999,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "Despite being tired, Lisa completed her project.",
+    "transcript": "Despite working late, she finished her project.",
     "content": {
-      "title": "Cláusulas con 'despite'",
-      "instructions": "Elige la forma correcta del verbo para completar la oración.",
+      "title": "Rellena el espacio en blanco",
+      "instructions": "Completa la oración con la opción correcta en el contexto del pasado simple y continuo.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] _______ [[tired|cansada]], [[Lisa|Lisa]] [[completed|completó]] [[her|su]] [[project|proyecto]].",
+          "question": "[[Despite|A pesar de]] _______ [[working|haber trabajado]] [[late|hasta tarde]], [[she|ella]] [[finished|terminó]] [[her|su]] [[project|proyecto]].",
           "options": [
-            "[[being|estar]]",
-            "[[was|estaba]]"
+            "[[working|trabajar]]",
+            "[[was|era]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se usa 'being tired' como una frase nominal, seguida del verbo en pasado simple.",
+          "explanation": "Uso del gerundio para mostrar una acción en progreso al tiempo que finaliza otra.",
           "audio": "audio/b1/unit-2/e38.mp3"
         }
       ]
@@ -1011,19 +1025,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "While he was cooking, the phone rang.",
+    "transcript": "He was reading when the phone rang.",
     "content": {
-      "title": "Simultaneidad de acciones",
-      "instructions": "Completa la oración con la opción correcta.",
+      "title": "Rellena el espacio en blanco",
+      "instructions": "Completa la oración con la opción correcta en el contexto del pasado simple y continuo.",
       "questions": [
         {
-          "question": "[[While|Mientras]] [[he|él]] _______ [[the|el]] [[phone|teléfono]] [[rang|sonó]].",
+          "question": "[[He|Él]] [[was|estaba]] _______ [[reading|leyendo]] [[when|cuando]] [[the|el]] [[phone|teléfono]] _______.",
           "options": [
-            "[[was|estaba]] [[cooking|cocinando]]",
-            "[[cooked|cocinó]]"
+            "[[rang|sonó]]",
+            "[[read|leyó]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se utiliza 'was cooking' para indicar una acción en progreso durante otra acción que ocurrió.",
+          "explanation": "El uso del pasado simple en la acción que interrumpe otra acción en pasado continuo.",
           "audio": "audio/b1/unit-2/e39.mp3"
         }
       ]
@@ -1037,19 +1051,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "He wrote a letter, although he was very busy.",
+    "transcript": "They were laughing while I was telling the story.",
     "content": {
-      "title": "Acciones y estados contrastantes",
-      "instructions": "Rellena el espacio en blanco con la opción correcta.",
+      "title": "Rellena el espacio en blanco",
+      "instructions": "Completa la oración con la opción correcta en el contexto del pasado simple y continuo.",
       "questions": [
         {
-          "question": "[[He|Él]] [[wrote|escribió]] [[a|una]] [[letter|carta]], _______ [[he|él]] [[was|estaba]] [[very|muy]] [[busy|ocupado]].",
+          "question": "[[They|Ellos]] _______ [[laughing|reían]] [[while|mientras]] [[I|yo]] _______ [[telling|contaba]] [[the|la]] [[story|historia]].",
           "options": [
-            "[[although|aunque]]",
-            "[[but|pero]]"
+            "[[were|estaban]]",
+            "[[told|contaron]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se utiliza 'although' para introducir una oración subordinada que contrasta con la principal.",
+          "explanation": "Uso del pasado continuo para dos acciones simultáneas en curso.",
           "audio": "audio/b1/unit-2/e40.mp3"
         }
       ]
@@ -1063,23 +1077,23 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "While I was reading her biography, the phone rang.",
+    "transcript": "While I was reading a book, she called me.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[While|Mientras]] [[I|yo]] [[was|estaba]] [[reading|leyendo]] [[her|su]] [[biography|biografía]], [[the|el]] [[phone|teléfono]] [[rang|sonó]].",
+      "correctSentence": "[[While|Mientras]] [[I|yo]] [[was|estaba]] [[reading|leyendo]] [[a|un]] [[book|libro]], [[she|ella]] [[called|llamó]] [[me|a mí]].",
       "words": [
-        "[[While|Mientras]]",
         "[[I|yo]]",
-        "[[her|su]]",
-        "[[reading|leyendo]]",
-        "[[biography|biografía]]",
+        "[[a|un]]",
+        "[[book|libro]],",
         "[[was|estaba]]",
-        "[[the|el]]",
-        "[[rang|sonó]]",
-        "[[phone|teléfono]]"
+        "[[While|Mientras]]",
+        "[[reading|leyendo]]",
+        "[[called|llamó]]",
+        "[[she|ella]]",
+        "[[me|a mí]]"
       ],
-      "explanation": "El pasado continuo se usa para describir una acción en progreso en el pasado, mientras que el pasado simple se usa para una acción que interrumpe.",
+      "explanation": "Uso del pasado continuo para acciones interrumpidas por otras acciones en pasado simple.",
       "audio": "audio/b1/unit-2/e41.mp3"
     },
     "id": "b1-u2-e41",
@@ -1091,25 +1105,23 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "He was living in Paris when he got the job offer.",
+    "transcript": "They were discussing the project when the boss entered.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[was|estaba]] [[living|viviendo]] [[in|en]] [[Paris|París]] [[when|cuando]] [[he|él]] [[got|recibió]] [[the|la]] [[job|oferta]] [[offer|de trabajo]].",
+      "correctSentence": "[[They|ellos]] [[were|estaban]] [[discussing|discutiendo]] [[the|el]] [[project|proyecto]] [[when|cuando]] [[the|el]] [[boss|jefe]] [[entered|entró]].",
       "words": [
-        "[[in|en]]",
-        "[[job|oferta]]",
-        "[[He|Él]]",
-        "[[living|viviendo]]",
-        "[[Paris|París]]",
-        "[[the|la]]",
-        "[[offer|de trabajo]]",
-        "[[got|recibió]]",
-        "[[was|estaba]]",
+        "[[They|ellos]]",
         "[[when|cuando]]",
-        "[[he|él]]"
+        "[[discussing|discutiendo]]",
+        "[[the|el]]",
+        "[[were|estaban]]",
+        "[[project|proyecto]]",
+        "[[entered|entró]].",
+        "[[the|el]]",
+        "[[boss|jefe]]"
       ],
-      "explanation": "Se utiliza el pasado continuo para una acción en progreso y el pasado simple para una acción puntual que ocurrió durante esa acción.",
+      "explanation": "La acción continua en pasado es interrumpida por la acción en pasado simple.",
       "audio": "audio/b1/unit-2/e42.mp3"
     },
     "id": "b1-u2-e42",
@@ -1121,25 +1133,25 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "Although she was working late, she finished the report on time.",
+    "transcript": "Although it was raining, we decided to go for a walk.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Although|Aunque]] [[she|ella]] [[was|estaba]] [[working|trabajando]] [[late|tarde]], [[she|ella]] [[finished|terminó]] [[the|el]] [[report|informe]] [[on|a tiempo]] [[time|.]].",
+      "correctSentence": "[[Although|Aunque]] [[it|estaba]] [[was|estaba]] [[raining|lloviendo]], [[we|nosotros]] [[decided|decidimos]] [[to|a]] [[go|ir]] [[for|por]] [[a|un]] [[walk|paseo]].",
       "words": [
         "[[Although|Aunque]]",
-        "[[working|trabajando]]",
-        "[[she|ella]]",
+        "[[to|a]]",
+        "[[for|por]]",
         "[[was|estaba]]",
-        "[[late|tarde]]",
-        "[[the|el]]",
-        "[[on|a tiempo]]",
-        "[[report|informe]]",
-        "[[finished|terminó]]",
-        "[[she|ella]]",
-        "[[time|.]]"
+        "[[walk|paseo]].",
+        "[[raining|lloviendo]],",
+        "[[it|estaba]]",
+        "[[decided|decidimos]]",
+        "[[a|un]]",
+        "[[go|ir]]",
+        "[[we|nosotros]]"
       ],
-      "explanation": "Se usa el pasado continuo para dar información de fondo sobre la acción prolongada y el pasado simple para la acción completada.",
+      "explanation": "El conector 'although' indica una acción que ocurre a pesar de la condición mencionada.",
       "audio": "audio/b1/unit-2/e43.mp3"
     },
     "id": "b1-u2-e43",
@@ -1151,24 +1163,23 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "Although it was raining heavily, they decided to continue their journey.",
+    "transcript": "Despite the difficulties, he managed to finish the book.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Although|Aunque]] [[it|estaba]] [[was|lloviendo]] [[raining|fuerte]], [[they|ellos]] [[decided|decidieron]] [[to|continuar]] [[continue|su]] [[their|viaje]].",
+      "correctSentence": "[[Despite|A pesar de]] [[the|las]] [[difficulties|dificultades]], [[he|él]] [[managed|logró]] [[to|a]] [[finish|terminar]] [[the|el]] [[book|libro]].",
       "words": [
-        "[[Although|Aunque]]",
-        "[[they|ellos]]",
-        "[[was|lloviendo]]",
-        "[[decided|decidieron]]",
-        "[[it|estaba]]",
-        "[[continue|su]]",
-        "[[to|continuar]]",
-        "[[journey|viaje]]",
-        "[[raining|fuerte]]",
-        "[[their|su]]"
+        "[[Despite|A pesar de]]",
+        "[[he|él]]",
+        "[[finish|terminar]]",
+        "[[managed|logró]]",
+        "[[to|a]]",
+        "[[the|las]]",
+        "[[book|libro]].",
+        "[[difficulties|dificultades]],",
+        "[[the|el]]"
       ],
-      "explanation": "El pasado continuo describe la acción en progreso de fondo, mientras que el pasado simple indica la decisión tomada en ese contexto.",
+      "explanation": "Uso de 'despite' para mostrar que algo ocurrió a pesar de las dificultades.",
       "audio": "audio/b1/unit-2/e44.mp3"
     },
     "id": "b1-u2-e44",
@@ -1180,24 +1191,23 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "Despite the fact that she was feeling unwell, she completed the project.",
+    "transcript": "He was cooking dinner when the lights went out.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Despite|A pesar de]] [[the|que]] [[fact|se]] [[that|sentía]] [[she|mal]], [[was|ella]] [[she|completó]] [[feeling|el]] [[unwell|proyecto]].",
+      "correctSentence": "[[He|Él]] [[was|estaba]] [[cooking|cocinando]] [[dinner|la cena]] [[when|cuando]] [[the|las]] [[lights|luces]] [[went|se]] [[out|apagaron]].",
       "words": [
-        "[[Despite|A pesar de]]",
-        "[[she|completó]]",
-        "[[feeling|el]]",
-        "[[the|que]]",
-        "[[she|mal]]",
-        "[[that|sentía]]",
-        "[[completed|proyecto]]",
-        "[[fact|se]]",
-        "[[was|ella]]",
-        "[[unwell|proyecto]]"
+        "[[when|cuando]]",
+        "[[He|Él]]",
+        "[[cooking|cocinando]]",
+        "[[the|las]]",
+        "[[went|se]]",
+        "[[was|estaba]]",
+        "[[dinner|la cena]]",
+        "[[out|apagaron]].",
+        "[[lights|luces]]"
       ],
-      "explanation": "Utilizamos 'Despite' para expresar una concesión, y el pasado continuo para describir el estado de ánimo mientras usábamos el pasado simple para la acción completada.",
+      "explanation": "La acción continua es interrumpida por la acción en pasado simple.",
       "audio": "audio/b1/unit-2/e45.mp3"
     },
     "id": "b1-u2-e45",
@@ -1209,19 +1219,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "While he was reading, the phone rang.",
+    "transcript": "While I was reading a book, the phone rang.",
     "content": {
-      "title": "Uso del Pasado Continuo y Simple",
-      "instructions": "Elige la opción correcta para completar la frase.",
+      "title": "Selección múltiple",
+      "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[While|Mientras]] [[he|él]] _______ [[reading|leía]], [[the|el]] [[phone|teléfono]] [[rang|sonó]].",
+          "question": "[[While|Mientras]] [[I|yo]] _______ [[reading|leía]] [[a|un]] [[book|libro]], [[the|el]] [[phone|teléfono]] [[rang|sonó]].",
           "options": [
             "[[was|estaba]]",
-            "[[read|leyó]]"
+            "[[read|leí]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se usa el pasado continuo para describir acciones en progreso y el pasado simple para interruptores.",
+          "explanation": "Se usa 'was reading' para expresar una acción continua en el pasado interrumpida por otra acción.",
           "audio": "audio/b1/unit-2/e46.mp3"
         }
       ]
@@ -1235,19 +1245,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "They met while they were studying in college.",
+    "transcript": "She was cooking dinner when the guests arrived.",
     "content": {
-      "title": "Encuentros del pasado",
-      "instructions": "Elige la opción correcta para completar la frase.",
+      "title": "Selección múltiple",
+      "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[while|mientras]] [[they|ellos]] [[were|estaban]] [[studying|estudiando]] [[in|en]] [[college|la universidad]].",
+          "question": "[[She|Ella]] _______ [[cooking|cocinaba]] [[dinner|la cena]] [[when|cuando]] [[the|los]] [[guests|invitados]] [[arrived|llegaron]].",
           "options": [
-            "[[met|se conocieron]]",
-            "[[meet|se encuentran]]"
+            "[[was|estaba]]",
+            "[[cooked|cocinó]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Utiliza el pasado simple para acciones puntuales completadas, el pasado continuo para acciones en progreso.",
+          "explanation": "Se emplea 'was cooking' para describir una acción en progreso que fue interrumpida por una acción terminada.",
           "audio": "audio/b1/unit-2/e47.mp3"
         }
       ]
@@ -1261,19 +1271,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "Although it was raining, they decided to go for a walk.",
+    "transcript": "He wrote a letter while he was watching TV.",
     "content": {
-      "title": "Acciones desafiantes",
-      "instructions": "Elige la opción correcta para completar la frase.",
+      "title": "Selección múltiple",
+      "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[it|estaba]] [[was|lloviendo]], [[they|ellos]] _______ [[to|a]] [[go|ir]] [[for|por]] [[a|una]] [[walk|caminata]].",
+          "question": "[[He|Él]] _______ [[a|una]] [[letter|carta]] [[while|mientras]] [[he|él]] [[was|estaba]] [[watching|viendo]] [[TV|televisión]].",
           "options": [
-            "[[decided|decidieron]]",
-            "[[decide|deciden]]"
+            "[[wrote|escribió]]",
+            "[[write|escribía]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El pasado simple se usa para acciones que ocurrieron a pesar de las circunstancias en curso.",
+          "explanation": "Utilizamos el pasado simple 'wrote' para referirnos a acciones completas, incluso si ocurren durante otras acciones.",
           "audio": "audio/b1/unit-2/e48.mp3"
         }
       ]
@@ -1287,19 +1297,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "She was writing a book when her friend called her.",
+    "transcript": "They were studying when the power went out.",
     "content": {
-      "title": "Acciones simultáneas",
-      "instructions": "Elige la opción correcta para completar la frase.",
+      "title": "Selección múltiple",
+      "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[a|un]] [[book|libro]] [[when|cuando]] [[her|su]] [[friend|amigo]] [[called|la llamó]].",
+          "question": "[[They|Ellos]] _______ [[studying|estudiaban]] [[when|cuando]] [[the|la]] [[power|energía]] [[went|se]] [[out|fue]].",
           "options": [
-            "[[was writing|estaba escribiendo]]",
-            "[[wrote|escribió]]"
+            "[[were|estaban]]",
+            "[[studied|estudiaron]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Acciones que estaban ocurriendo en paralelo: uso del pasado continuo para la acción en progreso.",
+          "explanation": "'Were studying' se usa para representar acciones en progreso que son interrumpidas por otras acciones.",
           "audio": "audio/b1/unit-2/e49.mp3"
         }
       ]
@@ -1313,19 +1323,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Life Stories & Biographies",
     "difficulty": "medium",
-    "transcript": "Despite the challenges, he was enjoying his new job.",
+    "transcript": "Peter was traveling to London when he lost his wallet.",
     "content": {
-      "title": "Superando dificultades",
-      "instructions": "Elige la opción correcta para completar la frase.",
+      "title": "Selección múltiple",
+      "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[the|los]] [[challenges|retos]], [[he|él]] _______ [[his|su]] [[new|nuevo]] [[job|trabajo]].",
+          "question": "[[Peter|Peter]] _______ [[traveling|viajaba]] [[to|a]] [[London|Londres]] [[when|cuando]] [[he|él]] [[lost|perdió]] [[his|su]] [[wallet|billetera]].",
           "options": [
-            "[[was enjoying|estaba disfrutando]]",
-            "[[enjoyed|disfrutó]]"
+            "[[was|estaba]]",
+            "[[travel|viajó]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso del pasado continuo para enfatizar la duración de una acción a pesar de los obstáculos.",
+          "explanation": "Utilizamos 'was traveling' para indicar una acción que estaba ocurriendo en el pasado y fue interrumpida por otra.",
           "audio": "audio/b1/unit-2/e50.mp3"
         }
       ]

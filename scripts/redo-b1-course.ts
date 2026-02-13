@@ -79,12 +79,17 @@ async function generateExercisesForUnit(unitId: number) {
       - Purpose: Test functional use of English in the given theme/grammar, not just vocabulary.
       
       STRICT FORMATTING RULES:
-      1. Every single English word in the exercise content (questions, ALL options, sentence-building words) MUST use the syntax [[word|translation]].
-      2. GAPS: For "multiple-choice" and "fill-blank", you MUST use "_______" (seven underscores) in the question text.
+      1. CRITICAL: Every single English word MUST have its own translation brackets. 
+         - CORRECT: [[I|Yo]] [[work|trabajo]] [[from|desde]] [[home|casa]].
+         - INCORRECT: [[I work|Yo trabajo]] [[from home|desde casa]].
+         - INCORRECT: [[to|trabajar]] [[work|desde]]. (Translations must match the English word exactly).
+      2. GAPS: For "multiple-choice" and "fill-blank", you MUST use exactly "_______" (seven underscores) in the question text.
       3. CRITICAL: The correct answer MUST NOT appear in the question text for multiple-choice/fill-blank. Use the gap.
-      4. Spanish Only: Titles, instructions, and explanations MUST be in Spanish.
-      5. Explanations: Provide a brief pedagogical note in Spanish explaining the grammar or vocabulary choice.
-      6. Transcript: Include a clean "transcript" field (no brackets, no translations, includes correct word instead of gap) for audio.
+      4. OPTIONS: Keep options concise. If the gap is for a verb, the option should be the verb form. Every option must also use [[word|translation]] syntax.
+      5. SENTENCE BUILDING: 'words' must be an array of strings, each string being one bracketed pair [[word|translation]]. 
+      6. Spanish Only: Titles, instructions, and explanations MUST be in Spanish.
+      7. Explanations: Provide a brief pedagogical note in Spanish explaining the grammar or vocabulary choice.
+      8. Transcript: Include a clean "transcript" field (no brackets, no translations, includes correct word instead of gap) for audio.
       
       JSON STRUCTURE EXAMPLE (STRICT):
       {
