@@ -65,13 +65,16 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Diversidad Cultural",
       "instructions": "Ordena las palabras sobre la diversidad.",
-      "correctSentence": "[[Diversity|La diversidad]] [[makes|hace]] [[our|nuestra]] [[society|sociedad]] [[more|más]] [[vibrant|vibrante]].",
+      "correctSentence": "[[Cultural|La]] [[diversity|diversidad]] [[makes|hace]] [[our|nuestra]] [[modern|moderna]] [[society|sociedad]] [[much|mucho]] [[more|más]] [[vibrant|vibrante]].",
       "words": [
         "[[society|sociedad]]",
         "[[vibrant|vibrante]].",
         "[[makes|hace]]",
-        "[[Diversity|La diversidad]]",
+        "[[diversity|diversidad]]",
         "[[more|más]]",
+        "[[modern|moderna]]",
+        "[[Cultural|La]]",
+        "[[much|mucho]]",
         "[[our|nuestra]]"
       ],
       "explanation": "Sujeto + Verbo + Objeto + Adjetivo.",
@@ -171,12 +174,17 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Herencia Familiar",
       "instructions": "Ordena las palabras sobre una tradición familiar.",
-      "correctSentence": "[[The|La]] [[recipe|receta]] [[was|fue]] [[passed|pasada]] [[down|por generaciones]].",
+      "correctSentence": "[[The|La]] [[traditional|tradicional]] [[family|familiar]] [[recipe|receta]] [[was|fue]] [[passed|pasada]] [[down|por]] [[through|varias]] [[many|muchas]] [[generations|generaciones]].",
       "words": [
         "[[passed|pasada]]",
         "[[The|La]]",
+        "[[generations|generaciones]].",
+        "[[down|por]]",
+        "[[many|muchas]]",
+        "[[traditional|tradicional]]",
+        "[[through|varias]]",
+        "[[family|familiar]]",
         "[[recipe|receta]]",
-        "[[down|por generaciones]].",
         "[[was|fue]]"
       ],
       "explanation": "Phrasal verb 'pass down' significa transmitir de una generación a otra.",
@@ -249,13 +257,18 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Velas del Solsticio",
       "instructions": "Ordena las palabras sobre un hábito pasado.",
-      "correctSentence": "[[They|Ellos]] [[would|siempre]] [[always| ]] [[light|encendían]] [[candles|velas]].",
+      "correctSentence": "[[They|Ellos]] [[would|siempre]] [[always| ]] [[light|encendían]] [[small|pequeñas]] [[candles|velas]] [[during|durante]] [[the|el]] [[winter|invierno]] [[months|meses]].",
       "words": [
-        "[[candles|velas]].",
+        "[[candles|velas]]",
         "[[They|Ellos]]",
         "[[always| ]]",
+        "[[winter|invierno]]",
         "[[light|encendían]]",
-        "[[would|siempre]]"
+        "[[would|siempre]]",
+        "[[during|durante]]",
+        "[[months|meses]].",
+        "[[small|pequeñas]]",
+        "[[the|el]]"
       ],
       "explanation": "Usamos 'would' para acciones repetidas en el pasado (tradiciones).",
       "audio": "audio/b1/unit-19/e10.mp3"
@@ -327,13 +340,18 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Respeto Cultural",
       "instructions": "Ordena las palabras sobre el respeto.",
-      "correctSentence": "[[Respect|El respeto]] [[is|es]] [[vital|vital]] [[for|para]] [[peace|la paz]].",
+      "correctSentence": "[[Mutual|El]] [[respect|respeto]] [[mutuo]] [[is|es]] [[always|siempre]] [[vital|vital]] [[for|para]] [[achieving|lograr]] [[long|una]] [[lasting|larga]] [[peace|paz]].",
       "words": [
-        "[[peace|la paz]].",
+        "[[peace|paz]].",
         "[[is|es]]",
         "[[vital|vital]]",
-        "[[Respect|El respeto]]",
-        "[[for|para]]"
+        "[[lasting|larga]]",
+        "[[achieving|lograr]]",
+        "[[respect|respeto]]",
+        "[[for|para]]",
+        "[[Mutual|El]]",
+        "[[always|siempre]]",
+        "[[long|una]]"
       ],
       "explanation": "Sujeto + Verbo + Adjetivo + Complemento.",
       "audio": "audio/b1/unit-19/e13.mp3"
@@ -405,14 +423,18 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Platos Tradicionales",
       "instructions": "Ordena las palabras sobre la comida típica.",
-      "correctSentence": "[[Dishes|Los platos]] [[are|son]] [[prepared|preparados]] [[with|con]] [[local|locales]] [[food|alimentos]].",
+      "correctSentence": "[[These|Estos]] [[traditional|tradicionales]] [[dishes|platos]] [[are|son]] [[always|siempre]] [[prepared|preparados]] [[with|con]] [[fresh|frescos]] [[local|locales]] [[ingredients|ingredientes]].",
       "words": [
         "[[prepared|preparados]]",
         "[[local|locales]]",
-        "[[food|alimentos]].",
+        "[[ingredients|ingredientes]].",
         "[[are|son]]",
-        "[[Dishes|Los platos]]",
-        "[[with|con]]"
+        "[[These|Estos]]",
+        "[[with|con]]",
+        "[[always|siempre]]",
+        "[[traditional|tradicionales]]",
+        "[[fresh|frescos]]",
+        "[[dishes|platos]]"
       ],
       "explanation": "Voz pasiva en presente: 'are + prepared'.",
       "audio": "audio/b1/unit-19/e16.mp3"
@@ -484,14 +506,18 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mente Abierta",
       "instructions": "Ordena las palabras sobre el aprendizaje cultural.",
-      "correctSentence": "[[Learning|Aprender]] [[helps|ayuda]] [[us|a nosotros]] [[to|a]] [[be|ser]] [[open|abiertos]].",
+      "correctSentence": "[[Learning|Aprender]] [[about|sobre]] [[new|nuevas]] [[cultures|culturas]] [[helps|ayuda]] [[us|a nosotros]] [[to|a]] [[be|ser]] [[more|más]] [[open|abiertos]].",
       "words": [
         "[[open|abiertos]].",
         "[[to|a]]",
         "[[helps|ayuda]]",
         "[[us|a nosotros]]",
         "[[Learning|Aprender]]",
-        "[[be|ser]]"
+        "[[be|ser]]",
+        "[[more|más]]",
+        "[[about|sobre]]",
+        "[[new|nuevas]]",
+        "[[cultures|culturas]]"
       ],
       "explanation": "Gerundio como sujeto + Verbo + Objeto + Infinitivo.",
       "audio": "audio/b1/unit-19/e19.mp3"
@@ -563,12 +589,17 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Identidad Cultural",
       "instructions": "Ordena las palabras sobre la identidad.",
-      "correctSentence": "[[Protect|Protege]] [[your|tu]] [[cultural|cultural]] [[identity|identidad]].",
+      "correctSentence": "[[You|Tú]] [[should|deberías]] [[always|siempre]] [[protect|proteger]] [[your|tu]] [[own|propia]] [[unique|única]] [[cultural|cultural]] [[identity|identidad]].",
       "words": [
         "[[identity|identidad]].",
         "[[your|tu]]",
         "[[Protect|Protege]]",
-        "[[cultural|cultural]]"
+        "[[cultural|cultural]]",
+        "[[unique|única]]",
+        "[[You|Tú]]",
+        "[[should|deberías]]",
+        "[[always|siempre]]",
+        "[[own|propia]]"
       ],
       "explanation": "Imperativo + adjetivo + sustantivo.",
       "audio": "audio/b1/unit-19/e22.mp3"
@@ -640,13 +671,18 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Sociedad Multicultural",
       "instructions": "Ordena las palabras sobre la coexistencia cultural.",
-      "correctSentence": "[[Many|Muchas]] [[cultures|culturas]] [[live|viven]] [[together|juntas]] [[here|aquí]].",
+      "correctSentence": "[[Many|Muchas]] [[different|diferentes]] [[cultures|culturas]] [[live|viven]] [[peacefully|pacíficamente]] [[together|juntas]] [[within|dentro]] [[this|esta]] [[large|gran]] [[city|ciudad]].",
       "words": [
         "[[here|aquí]].",
         "[[live|viven]]",
         "[[Many|Muchas]]",
         "[[together|juntas]]",
-        "[[cultures|culturas]]"
+        "[[cultures|culturas]]",
+        "[[different|diferentes]]",
+        "[[peacefully|pacíficamente]]",
+        "[[within|dentro]]",
+        "[[this|esta]]",
+        "[[city|ciudad]]."
       ],
       "explanation": "Sujeto + Verbo + Adverbio + Adverbio.",
       "audio": "audio/b1/unit-19/e25.mp3"
@@ -718,12 +754,18 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Tradiciones de Boda",
       "instructions": "Ordena las palabras sobre las bodas.",
-      "correctSentence": "[[Wedding|Las tradiciones]] [[traditions|de boda]] [[are|son]] [[fascinating|fascinantes]].",
+      "correctSentence": "[[Most|La mayoría de]] [[local|las locales]] [[wedding|tradiciones]] [[traditions|de boda]] [[are|son]] [[truly|verdaderamente]] [[fascinating|fascinantes]] [[and|y]] [[beautiful|hermosas]].",
       "words": [
         "[[are|son]]",
-        "[[fascinating|fascinantes]].",
+        "[[fascinating|fascinantes]]",
         "[[Wedding|Las tradiciones]]",
-        "[[traditions|de boda]]"
+        "[[traditions|de boda]]",
+        "[[beautiful|hermosas]].",
+        "[[and|y]]",
+        "[[truly|verdaderamente]]",
+        "[[Most|La mayoría de]]",
+        "[[local|las locales]]",
+        "[[wedding|tradiciones]]"
       ],
       "explanation": "Sujeto compuesto + Verbo + Adjetivo.",
       "audio": "audio/b1/unit-19/e28.mp3"
@@ -795,14 +837,18 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Valores Culturales",
       "instructions": "Ordena las palabras sobre el respeto como valor.",
-      "correctSentence": "[[Respect|El respeto]] [[is|es]] [[the|el]] [[most|más]] [[important|importante]] [[value|valor]].",
+      "correctSentence": "[[Respect|El respeto]] [[is|es]] [[undoubtedly|indudablemente]] [[the|el]] [[most|más]] [[important|importante]] [[value|valor]] [[in|en]] [[every|cada]] [[culture|cultura]].",
       "words": [
         "[[important|importante]]",
         "[[is|es]]",
-        "[[most|más]]",
         "[[Respect|El respeto]]",
-        "[[value|valor]].",
-        "[[the|el]]"
+        "[[value|valor]]",
+        "[[the|el]]",
+        "[[culture|cultura]].",
+        "[[in|en]]",
+        "[[every|cada]]",
+        "[[most|más]]",
+        "[[undoubtedly|indudablemente]]"
       ],
       "explanation": "Uso del superlativo 'the most important'.",
       "audio": "audio/b1/unit-19/e31.mp3"
@@ -874,13 +920,18 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Idiomas y Diversidad",
       "instructions": "Ordena las palabras para formar una oración pasiva.",
-      "correctSentence": "[[Many|Muchos]] [[languages|idiomas]] [[are|son]] [[spoken|hablados]] [[here|aquí]].",
+      "correctSentence": "[[Many|Muchos]] [[different|diferentes]] [[international|internacionales]] [[languages|idiomas]] [[are|son]] [[spoken|hablados]] [[fluently|fluidamente]] [[within|dentro de]] [[this|esta]] [[region|región]].",
       "words": [
         "[[spoken|hablados]]",
         "[[languages|idiomas]]",
-        "[[here|aquí]].",
+        "[[this|esta]]",
         "[[are|son]]",
-        "[[Many|Muchos]]"
+        "[[Many|Muchos]]",
+        "[[different|diferentes]]",
+        "[[international|internacionales]]",
+        "[[fluently|fluidamente]]",
+        "[[within|dentro de]]",
+        "[[region|región]]."
       ],
       "explanation": "Voz pasiva en presente: 'are + past participle'.",
       "audio": "audio/b1/unit-19/e34.mp3"
@@ -952,12 +1003,17 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Celebrar la Diversidad",
       "instructions": "Ordena las palabras sobre la armonía social.",
-      "correctSentence": "[[We|Nosotros]] [[celebrate|celebramos]] [[diversity|la diversidad]] [[together|juntos]].",
+      "correctSentence": "[[We|Nosotros]] [[should|deberías]] [[always|siempre]] [[celebrate|celebrar]] [[our|nuestra]] [[cultural|cultural]] [[diversity|diversidad]] [[happily|alegremente]] [[together|juntos]].",
       "words": [
         "[[together|juntos]].",
         "[[diversity|la diversidad]]",
         "[[celebrate|celebramos]]",
-        "[[We|Nosotros]]"
+        "[[We|Nosotros]]",
+        "[[should|deberías]]",
+        "[[always|siempre]]",
+        "[[our|nuestra]]",
+        "[[cultural|cultural]]",
+        "[[happily|alegremente]]"
       ],
       "explanation": "Sujeto + Verbo + Objeto + Adverbio.",
       "audio": "audio/b1/unit-19/e37.mp3"
@@ -1029,14 +1085,19 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Fiestas Nacionales",
       "instructions": "Ordena las palabras sobre las fiestas nacionales.",
-      "correctSentence": "[[We|Nosotros]] [[have|tenemos]] [[a|un]] [[holiday|festivo]] [[next|la próxima]] [[week|semana]].",
+      "correctSentence": "[[We|Nosotros]] [[will|vamos a]] [[have|tener]] [[a|un]] [[national|nacional]] [[holiday|festivo]] [[during|durante]] [[the|la]] [[next|próxima]] [[full|completa]] [[week|semana]].",
       "words": [
         "[[holiday|festivo]]",
         "[[next|la próxima]]",
         "[[week|semana]].",
         "[[have|tenemos]]",
         "[[a|un]]",
-        "[[We|Nosotros]]"
+        "[[We|Nosotros]]",
+        "[[will|vamos a]]",
+        "[[national|nacional]]",
+        "[[during|durante]]",
+        "[[the|la]]",
+        "[[full|completa]]"
       ],
       "explanation": "Sujeto + Verbo + Objeto + Complemento de tiempo.",
       "audio": "audio/b1/unit-19/e40.mp3"
@@ -1108,14 +1169,18 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Normas Culturales",
       "instructions": "Ordena las palabras sobre las normas de cada país.",
-      "correctSentence": "[[Every|Cada]] [[country|país]] [[has|tiene]] [[its|sus]] [[own|propias]] [[traditions|tradiciones]].",
+      "correctSentence": "[[Every|Cada]] [[single|único]] [[country|país]] [[has|tiene]] [[its|sus]] [[own|propias]] [[unique|únicas]] [[and|y]] [[ancient|antiguas]] [[traditions|tradiciones]].",
       "words": [
         "[[country|país]]",
         "[[Every|Cada]]",
         "[[its|sus]]",
         "[[has|tiene]]",
         "[[traditions|tradiciones]].",
-        "[[own|propias]]"
+        "[[own|propias]]",
+        "[[single|único]]",
+        "[[unique|únicas]]",
+        "[[and|y]]",
+        "[[ancient|antiguas]]"
       ],
       "explanation": "Determinante + Sustantivo + Verbo + Adjetivos posesivos.",
       "audio": "audio/b1/unit-19/e43.mp3"
@@ -1187,13 +1252,18 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Música Tradicional",
       "instructions": "Ordena las palabras sobre la música típica.",
-      "correctSentence": "[[Traditional|La música]] [[music|tradicional]] [[is|es]] [[very|muy]] [[popular|popular]].",
+      "correctSentence": "[[This|Esta]] [[beautiful|hermosa]] [[traditional|tradicional]] [[music|música]] [[is|es]] [[still|todavía]] [[very|muy]] [[popular|popular]] [[among|entre]] [[everyone|todos]].",
       "words": [
         "[[is|es]]",
         "[[Traditional|La música]]",
         "[[popular|popular]].",
         "[[very|muy]]",
-        "[[music|tradicional]]"
+        "[[music|tradicional]]",
+        "[[This|Esta]]",
+        "[[beautiful|hermosa]]",
+        "[[still|todavía]]",
+        "[[among|entre]]",
+        "[[everyone|todos]]"
       ],
       "explanation": "Adjetivo + Sustantivo + Verbo + Adjetivo.",
       "audio": "audio/b1/unit-19/e46.mp3"
@@ -1265,13 +1335,20 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Preservar la Historia",
       "instructions": "Ordena las palabras sobre la preservación histórica.",
-      "correctSentence": "[[Preserve|Preservar]] [[traditions|las tradiciones]] [[keeps|mantiene]] [[history|la historia]] [[alive|viva]].",
+      "correctSentence": "[[Preserving|Preservar]] [[ancient|antiguas]] [[traditions|las tradiciones]] [[always|siempre]] [[helps|ayuda]] [[to|a]] [[keep|mantener]] [[our|nuestra]] [[local|local]] [[history|historia]] [[alive|viva]].",
       "words": [
         "[[keeps|mantiene]]",
         "[[history|la historia]]",
         "[[alive|viva]].",
         "[[Preserve|Preservar]]",
-        "[[traditions|las tradiciones]]"
+        "[[traditions|las tradiciones]]",
+        "[[ancient|antiguas]]",
+        "[[always|siempre]]",
+        "[[helps|ayuda]]",
+        "[[to|a]]",
+        "[[keep|mantener]]",
+        "[[our|nuestra]]",
+        "[[local|local]]"
       ],
       "explanation": "Verbo (como sujeto) + Objeto + Verbo + Adjetivo.",
       "audio": "audio/b1/unit-19/e49.mp3"

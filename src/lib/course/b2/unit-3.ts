@@ -1,42 +1,39 @@
-import { Exercise } from '@/lib/exercise-generator';
+import { Exercise } from "@/types/course";
 
-export const UNIT_3_EXERCISES: Exercise[] = [
-  // SENTENCE BUILDING (1-25)
+export const unit3: Exercise[] = [
   {
     "id": "b2-u3-e1",
     "type": "sentence-building",
     "level": "B2",
     "topic": "Environmental Issues",
     "difficulty": "medium",
-    "transcript": "If we had invested in solar energy sooner, we wouldn't be facing such high electricity costs now.",
+    "transcript": "Global warming is one of the most pressing issues today.",
     "content": {
-      "title": "Condicional Mixto",
-      "instructions": "Ordena las palabras para hablar sobre las consecuencias actuales de decisiones pasadas sobre energía.",
-      "correctSentence": "[[If|Si]] [[we|nosotros]] [[had|hubiéramos]] [[invested|invertido]] [[in|en]] [[solar|energía]] [[energy|solar]] [[sooner,|antes,]] [[we|no]] [[wouldn't|estaríamos]] [[be|enfrentando]] [[facing|costes]] [[such|tan]] [[high|altos]] [[electricity|de]] [[costs|electricidad]] [[now|ahora]].",
-      "words": [
-        "[[facing|costes]]",
-        "[[solar|energía]]",
-        "[[had|hubiéramos]]",
-        "[[now|ahora]].",
-        "[[invested|invertido]]",
-        "[[electricity|de]]",
-        "[[sooner,|antes,]]",
-        "[[high|altos]]",
-        "[[we|no]]",
-        "[[costs|electricidad]]",
-        "[[such|tan]]",
-        "[[be|enfrentando]]",
-        "[[energy|solar]]",
-        "[[wouldn't|estaríamos]]",
-        "[[If|Si]]",
-        "[[we|nosotros]]",
-        "[[in|en]]"
-      ],
-      "explanation": "Mixed conditionals connect a past condition (had invested) with a present result (wouldn't be facing).",
-      "audio": "audio/b2/unit-3/e1.mp3"
+      "title": "Calentamiento global",
+      "instructions": "Ordena las palabras para formar una oración sobre el cambio climático.",
+      "questions": [
+        {
+          "question": "[[Global|El calentamiento]] [[warming|global]] [[is|es]] [[one|uno]] [[of|de]] [[the|los]] [[most|asuntos]] [[pressing|más]] [[issues|urgentes]] [[today.|hoy.]]",
+          "options": [
+            "Global",
+            "warming",
+            "is",
+            "one",
+            "of",
+            "the",
+            "most",
+            "pressing",
+            "issues",
+            "today."
+          ],
+          "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+          "explanation": "El calentamiento global es uno de los asuntos más urgentes hoy en día.",
+          "audio": "audio/b2/unit-3/e1.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b2/unit-3/e1.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b2-u3-e2",
@@ -44,30 +41,32 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Environmental Issues",
     "difficulty": "medium",
-    "transcript": "Governments must crack down on companies that dump toxic waste into rivers.",
+    "transcript": "If we don't reduce emissions, the planet will suffer.",
     "content": {
-      "title": "Sanciones ambientales",
-      "instructions": "Ordena las palabras para hablar sobre medidas contra la contaminación industrial.",
-      "correctSentence": "[[Governments|Los gobiernos]] [[must|deben]] [[crack|tomar medidas]] [[down|severas]] [[on|contra]] [[companies|las empresas]] [[that|que]] [[dump|vierten]] [[toxic|residuos]] [[waste|tóxicos]] [[into|en los]] [[rivers|ríos]].",
-      "words": [
-        "[[companies|las empresas]]",
-        "[[waste|tóxicos]]",
-        "[[dump|vierten]]",
-        "[[crack|tomar medidas]]",
-        "[[rivers|ríos]].",
-        "[[must|deben]]",
-        "[[down|severas]]",
-        "[[toxic|residuos]]",
-        "[[Governments|Los gobiernos]]",
-        "[[into|en los]]",
-        "[[on|contra]]",
-        "[[that|que]]"
-      ],
-      "explanation": "'Crack down on' means to start dealing with bad or illegal behavior in a more severe way.",
-      "audio": "audio/b2/unit-3/e2.mp3"
+      "title": "Reducción de emisiones",
+      "instructions": "Ordena las palabras para formar una condicional de tipo 1.",
+      "questions": [
+        {
+          "question": "[[If|Si]] [[we|nosotros]] [[don't|no]] [[reduce|reducimos]] [[emissions,|las emisiones,]] [[the|el]] [[planet|planeta]] [[will|sufrirá.]] [[suffer.| ]]",
+          "options": [
+            "If",
+            "we",
+            "don't",
+            "reduce",
+            "emissions,",
+            "the",
+            "planet",
+            "will",
+            "suffer."
+          ],
+          "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7, 8],
+          "explanation": "Si no reducimos las emisiones, el planeta sufrirá.",
+          "audio": "audio/b2/unit-3/e2.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b2/unit-3/e2.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "b2-u3-e3",
@@ -75,24 +74,29 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Environmental Issues",
     "difficulty": "medium",
-    "transcript": "We are rapidly using up the Earth's natural resources.",
+    "transcript": "Renewable energy sources like solar and wind are growing.",
     "content": {
-      "title": "Agotamiento de recursos",
-      "instructions": "Ordena las palabras para describir el consumo de recursos naturales.",
-      "correctSentence": "[[We|Estamos]] [[are|agotando]] [[rapidly|rápidamente]] [[using| ]] [[up| ]] [[the|los]] [[Earth's|recursos]] [[natural|naturales]] [[resources|de la Tierra]].",
-      "words": [
-        "[[rapidly|rápidamente]]",
-        "[[natural|naturales]]",
-        "[[Earth's|recursos]]",
-        "[[using| ]]",
-        "[[resources|de la Tierra]].",
-        "[[are|agotando]]",
-        "[[up| ]]",
-        "[[We|Estamos]]",
-        "[[the|los]]"
-      ],
-      "explanation": "'Use up' is a phrasal verb meaning to finish a supply of something.",
-      "audio": "audio/b2/unit-3/e3.mp3"
+      "title": "Energías renovables",
+      "instructions": "Ordena las palabras sobre fuentes de energía limpia.",
+      "questions": [
+        {
+          "question": "[[Renewable|Las fuentes]] [[energy|de energía]] [[sources|renovables]] [[like|como la]] [[solar|solar]] [[and|y]] [[wind|la eólica]] [[are|están]] [[growing.|creciendo.]]",
+          "options": [
+            "Renewable",
+            "energy",
+            "sources",
+            "like",
+            "solar",
+            "and",
+            "wind",
+            "are",
+            "growing."
+          ],
+          "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7, 8],
+          "explanation": "Las fuentes de energía renovables como la solar y la eólica están creciendo.",
+          "audio": "audio/b2/unit-3/e3.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b2/unit-3/e3.mp3",
     "topicName": "Vocabulary"
@@ -103,27 +107,30 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Environmental Issues",
     "difficulty": "medium",
-    "transcript": "If the temperature continues to rise, many coastal cities will be flooded.",
+    "transcript": "Unless we take action now, it will be too late.",
     "content": {
-      "title": "Consecuencias climáticas",
-      "instructions": "Ordena las palabras para predecir el impacto del calentamiento global.",
-      "correctSentence": "[[If|Si]] [[the|la]] [[temperature|temperatura]] [[continues|continúa]] [[to|subiendo,]] [[rise,|muchas]] [[many|ciudades]] [[coastal|costeras]] [[cities|quedarán]] [[will|inundadas]]. [[be| ]] [[flooded| ]]",
-      "words": [
-        "[[rise,|subiendo,]]",
-        "[[many|ciudades]]",
-        "[[temperature|temperatura]]",
-        "[[flooded| ]].",
-        "[[continues|continúa]]",
-        "[[be| ]]",
-        "[[coastal|costeras]]",
-        "[[the|la]]",
-        "[[will|quedarán]]",
-        "[[If|Si]]",
-        "[[to| ]]",
-        "[[cities|inundadas]]"
-      ],
-      "explanation": "This first conditional sentence describes a likely future result of a present condition.",
-      "audio": "audio/b2/unit-3/e4.mp3"
+      "title": "Acción inmediata",
+      "instructions": "Ordena las palabras usando 'unless' (a menos que).",
+      "questions": [
+        {
+          "question": "[[Unless|A menos que]] [[we|tomemos]] [[take|acción]] [[action|ahora,]] [[now,|será]] [[it|demasiado]] [[will|tarde.]] [[be| ]] [[too| ]] [[late.| ]]",
+          "options": [
+            "Unless",
+            "we",
+            "take",
+            "action",
+            "now,",
+            "it",
+            "will",
+            "be",
+            "too",
+            "late."
+          ],
+          "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+          "explanation": "A menos que tomemos acción ahora, será demasiado tarde.",
+          "audio": "audio/b2/unit-3/e4.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b2/unit-3/e4.mp3",
     "topicName": "Grammar"
@@ -134,29 +141,29 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Environmental Issues",
     "difficulty": "medium",
-    "transcript": "It is our responsibility to hand over a healthy planet to the next generation.",
+    "transcript": "Deforestation leads to the loss of biodiversity in forests.",
     "content": {
-      "title": "Responsabilidad futura",
-      "instructions": "Ordena las palabras para hablar sobre el legado medioambiental.",
-      "correctSentence": "[[It|Es]] [[is|nuestra]] [[our|responsabilidad]] [[responsibility|entregar]] [[to|un]] [[hand|planeta]] [[over|sano]] [[a|a la]] [[healthy|próxima]] [[planet|generación]]. [[to| ]] [[the| ]] [[next| ]] [[generation| ]]",
-      "words": [
-        "[[planet|sano]]",
-        "[[is|nuestra]]",
-        "[[generation|generación]].",
-        "[[responsibility|entregar]]",
-        "[[It|Es]]",
-        "[[healthy|planeta]]",
-        "[[over|a la]]",
-        "[[next|próxima]]",
-        "[[our|responsabilidad]]",
-        "[[to|un]]",
-        "[[a| ]]",
-        "[[to| ]]",
-        "[[hand| ]]",
-        "[[the| ]]"
-      ],
-      "explanation": "'Hand over' means to give something to someone else.",
-      "audio": "audio/b2/unit-3/e5.mp3"
+      "title": "Deforestación",
+      "instructions": "Ordena las palabras sobre las consecuencias de talar bosques.",
+      "questions": [
+        {
+          "question": "[[Deforestation|La deforestación]] [[leads|conduce]] [[to|a]] [[the|la]] [[loss|pérdida]] [[of|de]] [[biodiversity|biodiversidad]] [[in|en los]] [[forests.|bosques.]]",
+          "options": [
+            "Deforestation",
+            "leads",
+            "to",
+            "the",
+            "loss",
+            "of",
+            "biodiversity",
+            "in",
+            "forests."
+          ],
+          "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7, 8],
+          "explanation": "La deforestación conduce a la pérdida de biodiversidad en los bosques.",
+          "audio": "audio/b2/unit-3/e5.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b2/unit-3/e5.mp3",
     "topicName": "Vocabulary"
@@ -167,28 +174,31 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Environmental Issues",
     "difficulty": "medium",
-    "transcript": "Had we taken action earlier, the damage would have been far less severe.",
+    "transcript": "I would buy an electric car if I had enough money.",
     "content": {
-      "title": "Arrepentimiento pasado",
-      "instructions": "Ordena las palabras para expresar cómo el daño hubiera sido menor con acción temprana.",
-      "correctSentence": "[[Had|Si]] [[we|hubiéramos]] [[taken|tomado]] [[action|medidas]] [[earlier,|antes,]] [[the|el]] [[damage|daño]] [[would|habría]] [[have|sido]] [[been|mucho]] [[far|menos]] [[less|grave]]. [[severe| ]]",
-      "words": [
-        "[[earlier,|antes,]]",
-        "[[damage|daño]]",
-        "[[severe| ]].",
-        "[[would|habría]]",
-        "[[action|medidas]]",
-        "[[taken|tomado]]",
-        "[[the|el]]",
-        "[[less|grave]]",
-        "[[Had|Si]]",
-        "[[been|mucho]]",
-        "[[we|hubiéramos]]",
-        "[[far|menos]]",
-        "[[have|sido]]"
-      ],
-      "explanation": "This inverted third conditional describes a hypothetical past that didn't happen.",
-      "audio": "audio/b2/unit-3/e6.mp3"
+      "title": "Coches eléctricos",
+      "instructions": "Ordena las palabras para formar una condicional de tipo 2.",
+      "questions": [
+        {
+          "question": "[[I|Yo]] [[would|compraría]] [[buy|un]] [[an|coche]] [[electric|eléctrico]] [[car|si]] [[if|tuviera]] [[I|suficiente]] [[had|dinero.]] [[enough| ]] [[money.| ]]",
+          "options": [
+            "I",
+            "would",
+            "buy",
+            "an",
+            "electric",
+            "car",
+            "if",
+            "I",
+            "had",
+            "enough",
+            "money."
+          ],
+          "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+          "explanation": "Yo compraría un coche eléctrico si tuviera suficiente dinero.",
+          "audio": "audio/b2/unit-3/e6.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b2/unit-3/e6.mp3",
     "topicName": "Grammar"
@@ -199,25 +209,29 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Environmental Issues",
     "difficulty": "medium",
-    "transcript": "We must cut down on our use of single-use plastics.",
+    "transcript": "Pollution in the oceans is harming marine life severely.",
     "content": {
-      "title": "Reducción de residuos",
-      "instructions": "Ordena las palabras para hablar sobre la reducción del consumo de plástico.",
-      "correctSentence": "[[We|Debemos]] [[must|reducir]] [[cut|el]] [[down|uso]] [[on|de]] [[our|plásticos]] [[use|de un]] [[of|solo]] [[single-use|uso]]. [[plastics| ]]",
-      "words": [
-        "[[cut|el]]",
-        "[[use|de un]]",
-        "[[plastics| ]].",
-        "[[must|reducir]]",
-        "[[single-use|uso]]",
-        "[[We|Debemos]]",
-        "[[on|de]]",
-        "[[down|uso]]",
-        "[[of|solo]]",
-        "[[our|plásticos]]"
-      ],
-      "explanation": "'Cut down on' means to reduce the amount of something you use or consume.",
-      "audio": "audio/b2/unit-3/e7.mp3"
+      "title": "Contaminación oceánica",
+      "instructions": "Ordena las palabras sobre el daño a los mares.",
+      "questions": [
+        {
+          "question": "[[Pollution|La contaminación]] [[in|en]] [[the|los]] [[oceans|océanos]] [[is|está]] [[harming|dañando]] [[marine|la vida]] [[life|marina]] [[severely.|gravemente.]]",
+          "options": [
+            "Pollution",
+            "in",
+            "the",
+            "oceans",
+            "is",
+            "harming",
+            "marine",
+            "life",
+            "severely."
+          ],
+          "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7, 8],
+          "explanation": "La contaminación en los océanos está dañando gravemente la vida marina.",
+          "audio": "audio/b2/unit-3/e7.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b2/unit-3/e7.mp3",
     "topicName": "Vocabulary"
@@ -228,30 +242,29 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Environmental Issues",
     "difficulty": "medium",
-    "transcript": "If it weren't for the greenhouse effect, the Earth would be too cold for life.",
+    "transcript": "Provided that we recycle, we can reduce waste significantly.",
     "content": {
-      "title": "Efecto invernadero",
-      "instructions": "Ordena las palabras para explicar la importancia del efecto invernadero.",
-      "correctSentence": "[[If|Si]] [[it|no]] [[weren't|fuera]] [[for|por]] [[the|el]] [[greenhouse|efecto]] [[effect,|invernadero,]] [[the|la]] [[Earth|Tierra]] [[would|estaría]] [[be|demasiado]] [[too|fría]] [[cold|para]] [[for|la]] [[life|vida]].",
-      "words": [
-        "[[greenhouse|efecto]]",
-        "[[Earth|Tierra]]",
-        "[[life|vida]].",
-        "[[too|fría]]",
-        "[[for|por]]",
-        "[[would|estaría]]",
-        "[[it|no]]",
-        "[[effect,|invernadero,]]",
-        "[[If|Si]]",
-        "[[be|demasiado]]",
-        "[[the|el]]",
-        "[[for|la]]",
-        "[[cold|para]]",
-        "[[the|la]]",
-        "[[weren't|fuera]]"
-      ],
-      "explanation": "Second conditional is used to describe an imaginary present situation and its result.",
-      "audio": "audio/b2/unit-3/e8.mp3"
+      "title": "Condición de reciclaje",
+      "instructions": "Ordena las palabras usando 'provided that' (siempre que).",
+      "questions": [
+        {
+          "question": "[[Provided|Siempre que]] [[that| ]] [[we|reciclemos,]] [[recycle,|podemos]] [[we|reducir]] [[can|los]] [[reduce|residuos]] [[waste|significativamente.]] [[significantly.| ]]",
+          "options": [
+            "Provided",
+            "that",
+            "we",
+            "recycle,",
+            "we",
+            "can",
+            "reduce",
+            "waste",
+            "significantly."
+          ],
+          "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7, 8],
+          "explanation": "Siempre que reciclemos, podemos reducir los residuos significativamente.",
+          "audio": "audio/b2/unit-3/e8.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b2/unit-3/e8.mp3",
     "topicName": "Grammar"
@@ -262,26 +275,28 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Environmental Issues",
     "difficulty": "medium",
-    "transcript": "The destruction of the rainforests has a devastating impact on biodiversity.",
+    "transcript": "Sustainable development aims to balance growth and environment.",
     "content": {
-      "title": "Impacto en la selva",
-      "instructions": "Ordena las palabras para hablar sobre las selvas tropicales y la biodiversidad.",
-      "correctSentence": "[[The|La]] [[destruction|destrucción]] [[of|de las]] [[the|selvas]] [[rainforests|tropicales]] [[has|tiene]] [[a|un]] [[devastating|impacto]] [[impact|devastador]] [[on|en la]] [[biodiversity|biodiversidad]].",
-      "words": [
-        "[[has|tiene]]",
-        "[[rainforests|tropicales]]",
-        "[[biodiversity|biodiversidad]].",
-        "[[devastating|impacto]]",
-        "[[The|La]]",
-        "[[impact|devastador]]",
-        "[[destruction|destrucción]]",
-        "[[the|selvas]]",
-        "[[on|en la]]",
-        "[[a|un]]",
-        "[[of|de las]]"
-      ],
-      "explanation": "'Rainforests' are vital ecosystems, and their 'destruction' leads to loss of 'biodiversity'.",
-      "audio": "audio/b2/unit-3/e9.mp3"
+      "title": "Desarrollo sostenible",
+      "instructions": "Ordena las palabras sobre sostenibilidad.",
+      "questions": [
+        {
+          "question": "[[Sustainable|El desarrollo]] [[development|sostenible]] [[aims|aspira]] [[to|a]] [[balance|equilibrar el]] [[growth|crecimiento]] [[and|y el]] [[environment.|medio ambiente.]]",
+          "options": [
+            "Sustainable",
+            "development",
+            "aims",
+            "to",
+            "balance",
+            "growth",
+            "and",
+            "environment."
+          ],
+          "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7],
+          "explanation": "El desarrollo sostenible aspira a equilibrar el crecimiento y el medio ambiente.",
+          "audio": "audio/b2/unit-3/e9.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b2/unit-3/e9.mp3",
     "topicName": "Vocabulary"
@@ -292,27 +307,30 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Environmental Issues",
     "difficulty": "medium",
-    "transcript": "I wish more people would switch to electric vehicles to reduce emissions.",
+    "transcript": "Even if it rains, we should still plant the trees.",
     "content": {
-      "title": "Deseos de cambio",
-      "instructions": "Ordena las palabras para expresar el deseo de que la gente use coches eléctricos.",
-      "correctSentence": "[[I|Ojalá]] [[wish|más]] [[more|gente]] [[people|se]] [[would|pasara]] [[switch|a los]] [[to|vehículos]] [[electric|eléctricos]] [[vehicles|para]] [[to|reducir]] [[reduce|las]] [[emissions|emisiones]].",
-      "words": [
-        "[[people|se]]",
-        "[[vehicles|para]]",
-        "[[emissions|emisiones]].",
-        "[[switch|a los]]",
-        "[[more|gente]]",
-        "[[I|Ojalá]]",
-        "[[reduce|las]]",
-        "[[wish|más]]",
-        "[[to|vehículos]]",
-        "[[electric|eléctricos]]",
-        "[[to|reducir]]",
-        "[[would|pasara]]"
-      ],
-      "explanation": "'I wish + would' is used to express a desire for someone else to change their behavior.",
-      "audio": "audio/b2/unit-3/e10.mp3"
+      "title": "Incluso si llueve",
+      "instructions": "Ordena las palabras usando 'even if' (incluso si).",
+      "questions": [
+        {
+          "question": "[[Even|Incluso]] [[if|si]] [[it|llueve,]] [[rains,|deberíamos]] [[we|seguir]] [[should|plantando]] [[still|los]] [[plant|árboles.]] [[the| ]] [[trees.| ]]",
+          "options": [
+            "Even",
+            "if",
+            "it",
+            "rains,",
+            "we",
+            "should",
+            "still",
+            "plant",
+            "the",
+            "trees."
+          ],
+          "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+          "explanation": "Incluso si llueve, deberíamos seguir plantando los árboles.",
+          "audio": "audio/b2/unit-3/e10.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b2/unit-3/e10.mp3",
     "topicName": "Grammar"
@@ -323,27 +341,28 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Environmental Issues",
     "difficulty": "medium",
-    "transcript": "Renewable energy sources such as wind and solar are becoming more affordable.",
+    "transcript": "Endangered species need protection to avoid total extinction.",
     "content": {
-      "title": "Fuentes renovables",
-      "instructions": "Ordena las palabras para hablar sobre el coste de las energías renovables.",
-      "correctSentence": "[[Renewable|Las fuentes]] [[energy|de energía]] [[sources|renovables]] [[such|como]] [[as|la eólica]] [[wind|y]] [[and|la solar]] [[solar|se]] [[are|están]] [[becoming|volviendo]] [[more|más]] [[affordable|asequibles]].",
-      "words": [
-        "[[wind|y]]",
-        "[[affordable|asequibles]].",
-        "[[solar|se]]",
-        "[[sources|renovables]]",
-        "[[Renewable|Las fuentes]]",
-        "[[are|están]]",
-        "[[and|la solar]]",
-        "[[as|la eólica]]",
-        "[[becoming|volviendo]]",
-        "[[energy|de energía]]",
-        "[[more|más]]",
-        "[[such|como]]"
-      ],
-      "explanation": "'Affordable' means reasonably priced, and 'renewable' means energy from sources that don't run out.",
-      "audio": "audio/b2/unit-3/e11.mp3"
+      "title": "Especies en peligro",
+      "instructions": "Ordena las palabras sobre animales en riesgo.",
+      "questions": [
+        {
+          "question": "[[Endangered|Las especies]] [[species|en peligro]] [[need|necesitan]] [[protection|protección]] [[to|para]] [[avoid|evitar la]] [[total|extinción]] [[extinction.|total.]]",
+          "options": [
+            "Endangered",
+            "species",
+            "need",
+            "protection",
+            "to",
+            "avoid",
+            "total",
+            "extinction."
+          ],
+          "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7],
+          "explanation": "Las especies en peligro necesitan protección para evitar la extinción total.",
+          "audio": "audio/b2/unit-3/e11.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b2/unit-3/e11.mp3",
     "topicName": "Vocabulary"
@@ -354,29 +373,29 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Environmental Issues",
     "difficulty": "medium",
-    "transcript": "Had the company been more ethical, it wouldn't have dumped waste in the lake.",
+    "transcript": "Supposing you were the president, how would you help?",
     "content": {
-      "title": "Ética empresarial",
-      "instructions": "Ordena las palabras para hablar de las acciones pasadas de una empresa poco ética.",
-      "correctSentence": "[[Had|Si]] [[the|la]] [[company|empresa]] [[been|hubiera]] [[more|sido]] [[ethical,|más ética,]] [[it|no]] [[wouldn't|habría]] [[have|vertido]] [[dumped|residuos]] [[waste|en el]] [[in|lago]]. [[the| ]] [[lake| ]]",
-      "words": [
-        "[[more|sido]]",
-        "[[waste|en el]]",
-        "[[lake| ]].",
-        "[[ethical,|más ética,]]",
-        "[[company|empresa]]",
-        "[[dumped|residuos]]",
-        "[[the|la]]",
-        "[[it|no]]",
-        "[[wouldn't|habría]]",
-        "[[Had|Si]]",
-        "[[been|hubiera]]",
-        "[[have|vertido]]",
-        "[[in|lago]]",
-        "[[the| ]]"
-      ],
-      "explanation": "This inverted third conditional describes a past situation that didn't happen and its result.",
-      "audio": "audio/b2/unit-3/e12.mp3"
+      "title": "Situación imaginaria",
+      "instructions": "Ordena las palabras usando 'supposing' (supongamos).",
+      "questions": [
+        {
+          "question": "[[Supposing|Supongamos]] [[you|que]] [[were|fueras]] [[the|el]] [[president,|presidente,]] [[how|¿cómo]] [[would|ayudarías?]] [[you| ]] [[help?| ]]",
+          "options": [
+            "Supposing",
+            "you",
+            "were",
+            "the",
+            "president,",
+            "how",
+            "would",
+            "you",
+            "help?"
+          ],
+          "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7, 8],
+          "explanation": "Supongamos que fueras el presidente, ¿cómo ayudarías?",
+          "audio": "audio/b2/unit-3/e12.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b2/unit-3/e12.mp3",
     "topicName": "Grammar"
@@ -387,27 +406,28 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Environmental Issues",
     "difficulty": "medium",
-    "transcript": "Many species are on the brink of extinction due to habitat loss.",
+    "transcript": "Carbon footprint reduction is vital for future generations.",
     "content": {
-      "title": "Especies en peligro",
-      "instructions": "Ordena las palabras para hablar sobre la extinción y la pérdida de hábitat.",
-      "correctSentence": "[[Many|Muchas]] [[species|especies]] [[are|están]] [[on|al]] [[the|borde]] [[brink|de la]] [[of|extinción]] [[extinction|debido]] [[due|a la]] [[to|pérdida]] [[habitat|de]] [[loss|hábitat]].",
-      "words": [
-        "[[species|especies]]",
-        "[[due|a la]]",
-        "[[loss|hábitat]].",
-        "[[brink|de la]]",
-        "[[Many|Muchas]]",
-        "[[to|pérdida]]",
-        "[[extinction|debido]]",
-        "[[are|están]]",
-        "[[on|al]]",
-        "[[the|borde]]",
-        "[[habitat|de]]",
-        "[[of|extinción]]"
-      ],
-      "explanation": "'On the brink of' means very close to a situation, typically a bad one like extinction.",
-      "audio": "audio/b2/unit-3/e13.mp3"
+      "title": "Huella de carbono",
+      "instructions": "Ordena las palabras sobre el impacto ambiental.",
+      "questions": [
+        {
+          "question": "[[Carbon|La reducción]] [[footprint|de la huella]] [[reduction|de carbono]] [[is|es]] [[vital|vital para]] [[for|las]] [[future|generaciones]] [[generations.|futuras.]]",
+          "options": [
+            "Carbon",
+            "footprint",
+            "reduction",
+            "is",
+            "vital",
+            "for",
+            "future",
+            "generations."
+          ],
+          "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7],
+          "explanation": "La reducción de la huella de carbono es vital para las generaciones futuras.",
+          "audio": "audio/b2/unit-3/e13.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b2/unit-3/e13.mp3",
     "topicName": "Vocabulary"
@@ -418,30 +438,28 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Environmental Issues",
     "difficulty": "medium",
-    "transcript": "If we don't act now, we will have run out of clean water by 2050.",
+    "transcript": "If scientists hadn't warned us, we wouldn't know.",
     "content": {
-      "title": "Agotamiento del agua",
-      "instructions": "Ordena las palabras para predecir la falta de agua limpia en el futuro.",
-      "correctSentence": "[[If|Si]] [[we|no]] [[don't|actuamos]] [[act|ahora,]] [[now,|se nos]] [[we|habrá]] [[will|acabado]] [[have|el]] [[run|agua]] [[out|limpia]] [[of|para]] [[clean|2050]]. [[water| ]] [[by| ]] [[2050| ]]",
-      "words": [
-        "[[act|ahora,]]",
-        "[[have|el]]",
-        "[[2050| ]].",
-        "[[we|no]]",
-        "[[clean|2050]]",
-        "[[water| ]]",
-        "[[will|acabado]]",
-        "[[If|Si]]",
-        "[[run|agua]]",
-        "[[don't|actuamos]]",
-        "[[by| ]]",
-        "[[now,|se nos]]",
-        "[[we|habrá]]",
-        "[[out|limpia]]",
-        "[[of|para]]"
-      ],
-      "explanation": "'Run out of' means to finish the supply of something, in this case, clean water.",
-      "audio": "audio/b2/unit-3/e14.mp3"
+      "title": "Advertencia científica",
+      "instructions": "Ordena las palabras para formar una condicional de tipo 3.",
+      "questions": [
+        {
+          "question": "[[If|Si]] [[scientists|los científicos]] [[hadn't|no]] [[warned|nos hubieran]] [[us,|advertido,]] [[we|no]] [[wouldn't|lo]] [[know.|sabríamos.]]",
+          "options": [
+            "If",
+            "scientists",
+            "hadn't",
+            "warned",
+            "us,",
+            "we",
+            "wouldn't",
+            "know."
+          ],
+          "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7],
+          "explanation": "Si los científicos no nos hubieran advertido, no lo sabríamos.",
+          "audio": "audio/b2/unit-3/e14.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b2/unit-3/e14.mp3",
     "topicName": "Grammar"
@@ -452,27 +470,28 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Environmental Issues",
     "difficulty": "medium",
-    "transcript": "Local communities are standing up to large corporations to protect their land.",
+    "transcript": "Greenhouse gases trap heat in the earth's atmosphere.",
     "content": {
-      "title": "Defensa de la tierra",
-      "instructions": "Ordena las palabras para hablar sobre la resistencia comunitaria contra corporaciones.",
-      "correctSentence": "[[Local|Las comunidades]] [[communities|locales]] [[are|se]] [[standing|están]] [[up|enfrentando]] [[to|a]] [[large|las grandes]] [[corporations|corporaciones]] [[to|para]] [[protect|proteger]] [[their|su]] [[land|tierra]].",
-      "words": [
-        "[[large|las grandes]]",
-        "[[standing|están]]",
-        "[[land|tierra]].",
-        "[[are|se]]",
-        "[[to|a]]",
-        "[[protect|proteger]]",
-        "[[Local|Las comunidades]]",
-        "[[their|su]]",
-        "[[up|enfrentando]]",
-        "[[to|para]]",
-        "[[communities|locales]]",
-        "[[corporations|corporaciones]]"
-      ],
-      "explanation": "'Stand up to' means to resist or confront someone powerful.",
-      "audio": "audio/b2/unit-3/e15.mp3"
+      "title": "Gases invernadero",
+      "instructions": "Ordena las palabras sobre el efecto invernadero.",
+      "questions": [
+        {
+          "question": "[[Greenhouse|Los gases]] [[gases|de efecto invernadero]] [[trap|atrapan el]] [[heat|calor en]] [[in|la]] [[the|atmósfera]] [[earth's|terrestre.]] [[atmosphere.| ]]",
+          "options": [
+            "Greenhouse",
+            "gases",
+            "trap",
+            "heat",
+            "in",
+            "the",
+            "earth's",
+            "atmosphere."
+          ],
+          "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7],
+          "explanation": "Los gases de efecto invernadero atrapan el calor en la atmósfera terrestre.",
+          "audio": "audio/b2/unit-3/e15.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b2/unit-3/e15.mp3",
     "topicName": "Vocabulary"
@@ -483,27 +502,29 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Environmental Issues",
     "difficulty": "medium",
-    "transcript": "Supposing there was a global ban on plastic, would the oceans recover?",
+    "transcript": "Imagine you could stop pollution tomorrow, what would happen?",
     "content": {
-      "title": "Prohibición del plástico",
-      "instructions": "Ordena las palabras para preguntar sobre la recuperación de los océanos.",
-      "correctSentence": "[[Supposing|Supongamos]] [[there|que]] [[was|hubiera]] [[a|una]] [[global|prohibición]] [[ban|global]] [[on|del]] [[plastic,|plástico,]] [[would|¿se]] [[the|recuperarían]] [[oceans|los]] [[recover|océanos?]]",
-      "words": [
-        "[[ban|global]]",
-        "[[global|prohibición]]",
-        "[[oceans|los]]",
-        "[[was|hubiera]]",
-        "[[recover|océanos?]]",
-        "[[Supposing|Supongamos]]",
-        "[[the|recuperarían]]",
-        "[[plastic,|plástico,]]",
-        "[[would|¿se]]",
-        "[[a|una]]",
-        "[[there|que]]",
-        "[[on|del]]"
-      ],
-      "explanation": "'Supposing' introduces a hypothetical situation in a conditional question.",
-      "audio": "audio/b2/unit-3/e16.mp3"
+      "title": "Poder imaginar",
+      "instructions": "Ordena las palabras para una pregunta hipotética.",
+      "questions": [
+        {
+          "question": "[[Imagine|Imagina]] [[you|que]] [[could|pudieras]] [[stop|frenar la]] [[pollution|contaminación]] [[tomorrow,|mañana,]] [[what|¿qué]] [[would|pasaría?]] [[happen?| ]]",
+          "options": [
+            "Imagine",
+            "you",
+            "could",
+            "stop",
+            "pollution",
+            "tomorrow,",
+            "what",
+            "would",
+            "happen?"
+          ],
+          "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7, 8],
+          "explanation": "Imagina que pudieras frenar la contaminación mañana, ¿qué pasaría?",
+          "audio": "audio/b2/unit-3/e16.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b2/unit-3/e16.mp3",
     "topicName": "Grammar"
@@ -514,26 +535,28 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Environmental Issues",
     "difficulty": "medium",
-    "transcript": "The government is under pressure to phase out coal-fired power plants.",
+    "transcript": "Eco-friendly products are becoming more popular with consumers.",
     "content": {
-      "title": "Plantas de carbón",
-      "instructions": "Ordena las palabras para hablar sobre la presión para cerrar plantas de carbón.",
-      "correctSentence": "[[The|El]] [[government|gobierno]] [[is|está]] [[under|bajo]] [[pressure|presión]] [[to|para]] [[phase|eliminar]] [[out|gradualmente]] [[coal-fired|las plantas]] [[power|de energía]] [[plants|de carbón]].",
-      "words": [
-        "[[pressure|presión]]",
-        "[[phase|eliminar]]",
-        "[[plants|de carbón]].",
-        "[[government|gobierno]]",
-        "[[The|El]]",
-        "[[out|gradualmente]]",
-        "[[is|está]]",
-        "[[under|bajo]]",
-        "[[power|de energía]]",
-        "[[to|para]]",
-        "[[coal-fired|las plantas]]"
-      ],
-      "explanation": "'Phase out' means to stop using something gradually over time.",
-      "audio": "audio/b2/unit-3/e17.mp3"
+      "title": "Productos ecológicos",
+      "instructions": "Ordena las palabras sobre el consumo responsable.",
+      "questions": [
+        {
+          "question": "[[Eco-friendly|Los productos]] [[products|ecológicos]] [[are|se están]] [[becoming|volviendo]] [[more|más]] [[popular|populares]] [[with|entre los]] [[consumers.|consumidores.]]",
+          "options": [
+            "Eco-friendly",
+            "products",
+            "are",
+            "becoming",
+            "more",
+            "popular",
+            "with",
+            "consumers."
+          ],
+          "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7],
+          "explanation": "Los productos ecológicos se están volviendo más populares entre los consumidores.",
+          "audio": "audio/b2/unit-3/e17.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b2/unit-3/e17.mp3",
     "topicName": "Vocabulary"
@@ -544,28 +567,31 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Environmental Issues",
     "difficulty": "medium",
-    "transcript": "If the ice caps weren't melting, sea levels wouldn't be rising so quickly.",
+    "transcript": "I would have gone if I had known about the protest.",
     "content": {
-      "title": "Nivel del mar",
-      "instructions": "Ordena las palabras para explicar la relación entre el hielo y el mar.",
-      "correctSentence": "[[If|Si]] [[the|los]] [[ice|casquetes]] [[caps|polares]] [[weren't|no]] [[melting,|se estuvieran derritiendo,]] [[sea|el nivel]] [[levels|del]] [[wouldn't|mar]] [[be|no]] [[rising|estaría]] [[so|subiendo]] [[quickly|tan rápido]].",
-      "words": [
-        "[[melting,|se estuvieran derritiendo,]]",
-        "[[levels|del]]",
-        "[[quickly|tan rápido]].",
-        "[[so|subiendo]]",
-        "[[sea|el nivel]]",
-        "[[caps|polares]]",
-        "[[If|Si]]",
-        "[[wouldn't|mar]]",
-        "[[be|no]]",
-        "[[the|los]]",
-        "[[ice|casquetes]]",
-        "[[rising|estaría]]",
-        "[[weren't|no]]"
-      ],
-      "explanation": "This mixed conditional connects a present state with a present result.",
-      "audio": "audio/b2/unit-3/e18.mp3"
+      "title": "Protesta ambiental",
+      "instructions": "Ordena las palabras para una condicional de tipo 3.",
+      "questions": [
+        {
+          "question": "[[I|Yo]] [[would|habría]] [[have|ido]] [[gone|si]] [[if|hubiera]] [[I|sabido]] [[had|lo de]] [[known|la]] [[about|protesta.]] [[the| ]] [[protest.| ]]",
+          "options": [
+            "I",
+            "would",
+            "have",
+            "gone",
+            "if",
+            "I",
+            "had",
+            "known",
+            "about",
+            "the",
+            "protest."
+          ],
+          "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+          "explanation": "Yo habría ido si hubiera sabido lo de la protesta.",
+          "audio": "audio/b2/unit-3/e18.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b2/unit-3/e18.mp3",
     "topicName": "Grammar"
@@ -576,27 +602,29 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Environmental Issues",
     "difficulty": "medium",
-    "transcript": "We must dispose of hazardous materials in a safe and responsible manner.",
+    "transcript": "Waste management is a big challenge for modern cities.",
     "content": {
-      "title": "Residuos peligrosos",
-      "instructions": "Ordena las palabras para hablar sobre la eliminación de materiales peligrosos.",
-      "correctSentence": "[[We|Debemos]] [[must|eliminar]] [[dispose|los]] [[of|materiales]] [[hazardous|peligrosos]] [[materials|de]] [[in|manera]] [[a|segura]] [[safe|y]] [[and|responsable]]. [[responsible| ]] [[manner| ]]",
-      "words": [
-        "[[dispose|los]]",
-        "[[hazardous|peligrosos]]",
-        "[[manner| ]].",
-        "[[safe|y]]",
-        "[[must|eliminar]]",
-        "[[responsible| ]]",
-        "[[of|materiales]]",
-        "[[materials|de]]",
-        "[[We|Debemos]]",
-        "[[in|manera]]",
-        "[[and|responsable]]",
-        "[[a|segura]]"
-      ],
-      "explanation": "'Dispose of' means to get rid of something, especially something difficult to manage like hazardous waste.",
-      "audio": "audio/b2/unit-3/e19.mp3"
+      "title": "Gestión de residuos",
+      "instructions": "Ordena las palabras sobre el tratamiento de la basura.",
+      "questions": [
+        {
+          "question": "[[Waste|La gestión]] [[management|de residuos]] [[is|es]] [[a|un]] [[big|gran]] [[challenge|desafío]] [[for|para las]] [[modern|ciudades]] [[cities.|modernas.]]",
+          "options": [
+            "Waste",
+            "management",
+            "is",
+            "a",
+            "big",
+            "challenge",
+            "for",
+            "modern",
+            "cities."
+          ],
+          "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7, 8],
+          "explanation": "La gestión de residuos es un gran desafío para las ciudades modernas.",
+          "audio": "audio/b2/unit-3/e19.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b2/unit-3/e19.mp3",
     "topicName": "Vocabulary"
@@ -607,29 +635,29 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Environmental Issues",
     "difficulty": "medium",
-    "transcript": "Provided that we reduce our carbon footprint, we can still slow down climate change.",
+    "transcript": "Providing that the government helps, the project will succeed.",
     "content": {
-      "title": "Huella de carbono",
-      "instructions": "Ordena las palabras para hablar sobre la reducción de la huella de carbono.",
-      "correctSentence": "[[Provided|Siempre que]] [[that|reduzcamos]] [[we|nuestra]] [[reduce|huella]] [[our|de]] [[carbon|carbono,]] [[footprint,|todavía]] [[we|podemos]] [[can|frenar]] [[still|el]] [[slow|cambio]] [[down|climático]]. [[climate| ]] [[change| ]]",
-      "words": [
-        "[[reduce|huella]]",
-        "[[carbon|carbono,]]",
-        "[[change| ]].",
-        "[[still|el]]",
-        "[[that|reduzcamos]]",
-        "[[slow|cambio]]",
-        "[[Provided|Siempre que]]",
-        "[[down|climático]]",
-        "[[we|nuestra]]",
-        "[[can|frenar]]",
-        "[[we|podemos]]",
-        "[[footprint,|todavía]]",
-        "[[climate| ]]",
-        "[[our|de]]"
-      ],
-      "explanation": "'Provided that' means 'only if', and 'slow down' means to reduce speed.",
-      "audio": "audio/b2/unit-3/e20.mp3"
+      "title": "Ayuda gubernamental",
+      "instructions": "Ordena las palabras usando 'providing that' (siempre que).",
+      "questions": [
+        {
+          "question": "[[Providing|Siempre que]] [[that|el]] [[the|gobierno]] [[government|ayude,]] [[helps,|el]] [[the|proyecto]] [[project|tendrá]] [[will|éxito.]] [[succeed.| ]]",
+          "options": [
+            "Providing",
+            "that",
+            "the",
+            "government",
+            "helps,",
+            "the",
+            "project",
+            "will",
+            "succeed."
+          ],
+          "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7, 8],
+          "explanation": "Siempre que el gobierno ayude, el proyecto tendrá éxito.",
+          "audio": "audio/b2/unit-3/e20.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b2/unit-3/e20.mp3",
     "topicName": "Grammar"
@@ -640,23 +668,29 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Environmental Issues",
     "difficulty": "medium",
-    "transcript": "Ecological awareness is growing among the younger population.",
+    "transcript": "Natural resources are being depleted at an alarming rate.",
     "content": {
-      "title": "Conciencia ecológica",
-      "instructions": "Ordena las palabras para hablar sobre la conciencia ecológica en los jóvenes.",
-      "correctSentence": "[[Ecological|La conciencia]] [[awareness|ecológica]] [[is|está]] [[growing|creciendo]] [[among|entre]] [[the|la]] [[younger|población]] [[population|más joven]].",
-      "words": [
-        "[[growing|creciendo]]",
-        "[[Ecological|La conciencia]]",
-        "[[population|más joven]].",
-        "[[among|entre]]",
-        "[[is|está]]",
-        "[[younger|población]]",
-        "[[awareness|ecológica]]",
-        "[[the|la]]"
-      ],
-      "explanation": "'Awareness' is the knowledge or understanding of a situation or subject.",
-      "audio": "audio/b2/unit-3/e21.mp3"
+      "title": "Recursos agotados",
+      "instructions": "Ordena las palabras sobre la escasez de recursos.",
+      "questions": [
+        {
+          "question": "[[Natural|Los recursos]] [[resources|naturales]] [[are|se están]] [[being|agotando]] [[depleted|a un]] [[at|ritmo]] [[an|alarmante.]] [[alarming| ]] [[rate.| ]]",
+          "options": [
+            "Natural",
+            "resources",
+            "are",
+            "being",
+            "depleted",
+            "at",
+            "an",
+            "alarming",
+            "rate."
+          ],
+          "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7, 8],
+          "explanation": "Los recursos naturales se están agotando a un ritmo alarmante.",
+          "audio": "audio/b2/unit-3/e21.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b2/unit-3/e21.mp3",
     "topicName": "Vocabulary"
@@ -667,28 +701,28 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Environmental Issues",
     "difficulty": "medium",
-    "transcript": "But for your advice, I wouldn't have known how to recycle this properly.",
+    "transcript": "If only we had started recycling years ago.",
     "content": {
-      "title": "Consejos de reciclaje",
-      "instructions": "Ordena las palabras para agradecer un consejo sobre reciclaje.",
-      "correctSentence": "[[But|De no ser]] [[for|por]] [[your|tu]] [[advice,|consejo,]] [[I|no]] [[wouldn't|habría]] [[have|sabido]] [[known|cómo]] [[how|reciclar]] [[to|esto]] [[recycle|correctamente]]. [[this| ]] [[properly| ]]",
-      "words": [
-        "[[advice,|consejo,]]",
-        "[[recycle|correctamente]].",
-        "[[wouldn't|habría]]",
-        "[[how|reciclar]]",
-        "[[But|De no ser]]",
-        "[[known|cómo]]",
-        "[[this| ]]",
-        "[[properly| ]]",
-        "[[I|no]]",
-        "[[for|por]]",
-        "[[to|esto]]",
-        "[[have|sabido]]",
-        "[[your|tu]]"
-      ],
-      "explanation": "'But for' is a formal way of saying 'if it hadn't been for'.",
-      "audio": "audio/b2/unit-3/e22.mp3"
+      "title": "Ojalá hubiéramos",
+      "instructions": "Ordena las palabras usando 'if only' (ojalá).",
+      "questions": [
+        {
+          "question": "[[If|Ojalá]] [[only|hubiéramos]] [[we|empezado]] [[had|a]] [[started|reciclar]] [[recycling|hace]] [[years|años.]] [[ago.| ]]",
+          "options": [
+            "If",
+            "only",
+            "we",
+            "had",
+            "started",
+            "recycling",
+            "years",
+            "ago."
+          ],
+          "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7],
+          "explanation": "Ojalá hubiéramos empezado a reciclar hace años.",
+          "audio": "audio/b2/unit-3/e22.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b2/unit-3/e22.mp3",
     "topicName": "Grammar"
@@ -699,27 +733,29 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Environmental Issues",
     "difficulty": "medium",
-    "transcript": "Sustainable development is the key to preserving the planet for the future.",
+    "transcript": "The conservation of wild areas is crucial for wildlife.",
     "content": {
-      "title": "Desarrollo sostenible",
-      "instructions": "Ordena las palabras para hablar sobre la sostenibilidad y el futuro.",
-      "correctSentence": "[[Sustainable|El desarrollo]] [[development|sostenible]] [[is|es]] [[the|la]] [[key|clave]] [[to|para]] [[preserving|preservar]] [[the|el]] [[planet|planeta]] [[for|para]] [[the|el]] [[future|futuro]].",
-      "words": [
-        "[[key|clave]]",
-        "[[future|futuro]].",
-        "[[Sustainable|El desarrollo]]",
-        "[[preserving|preservar]]",
-        "[[the|la]]",
-        "[[planet|planeta]]",
-        "[[the|el]]",
-        "[[development|sostenible]]",
-        "[[for|para]]",
-        "[[is|es]]",
-        "[[the|el]]",
-        "[[to|para]]"
-      ],
-      "explanation": "'Sustainable development' is growth that doesn't damage the environment.",
-      "audio": "audio/b2/unit-3/e23.mp3"
+      "title": "Conservación",
+      "instructions": "Ordena las palabras sobre áreas protegidas.",
+      "questions": [
+        {
+          "question": "[[The|La]] [[conservation|conservación]] [[of|de]] [[wild|áreas]] [[areas|silvestres]] [[is|es]] [[crucial|crucial]] [[for|para la]] [[wildlife.|vida silvestre.]]",
+          "options": [
+            "The",
+            "conservation",
+            "of",
+            "wild",
+            "areas",
+            "is",
+            "crucial",
+            "for",
+            "wildlife."
+          ],
+          "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7, 8],
+          "explanation": "La conservación de áreas silvestres es crucial para la vida silvestre.",
+          "audio": "audio/b2/unit-3/e23.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b2/unit-3/e23.mp3",
     "topicName": "Vocabulary"
@@ -730,28 +766,29 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Environmental Issues",
     "difficulty": "medium",
-    "transcript": "I would have attended the climate protest if I had been in town.",
+    "transcript": "As long as we work together, we can win.",
     "content": {
-      "title": "Protesta climática",
-      "instructions": "Ordena las palabras para hablar sobre una protesta pasada a la que no pudiste ir.",
-      "correctSentence": "[[I|Yo]] [[would|habría]] [[have|asistido]] [[attended|a la]] [[the|protesta]] [[climate|climática]] [[protest|si]] [[if|hubiera]] [[I|estado]] [[had|en la]] [[been|ciudad]]. [[in| ]] [[town| ]]",
-      "words": [
-        "[[attended|a la]]",
-        "[[protest|si]]",
-        "[[town| ]].",
-        "[[had|en la]]",
-        "[[I|Yo]]",
-        "[[I|estado]]",
-        "[[the|protesta]]",
-        "[[would|habría]]",
-        "[[climate|climática]]",
-        "[[been|ciudad]]",
-        "[[if|hubiera]]",
-        "[[have|asistido]]",
-        "[[in| ]]"
-      ],
-      "explanation": "Third conditional is used for hypothetical past situations.",
-      "audio": "audio/b2/unit-3/e24.mp3"
+      "title": "Trabajo conjunto",
+      "instructions": "Ordena las palabras usando 'as long as' (mientras).",
+      "questions": [
+        {
+          "question": "[[As|Mientras]] [[long|trabajemos]] [[as|juntos,]] [[we|podemos]] [[work|ganar.]] [[together,| ]] [[we| ]] [[can| ]] [[win.| ]]",
+          "options": [
+            "As",
+            "long",
+            "as",
+            "we",
+            "work",
+            "together,",
+            "we",
+            "can",
+            "win."
+          ],
+          "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7, 8],
+          "explanation": "Mientras trabajemos juntos, podemos ganar.",
+          "audio": "audio/b2/unit-3/e24.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b2/unit-3/e24.mp3",
     "topicName": "Grammar"
@@ -762,57 +799,58 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Environmental Issues",
     "difficulty": "medium",
-    "transcript": "Deforestation is one of the main causes of soil erosion.",
+    "transcript": "The ecosystem is delicate and needs constant monitoring.",
     "content": {
-      "title": "Deforestación",
-      "instructions": "Ordena las palabras para hablar sobre la deforestación y la erosión del suelo.",
-      "correctSentence": "[[Deforestation|La deforestación]] [[is|es]] [[one|una]] [[of|de las]] [[the|principales]] [[main|causas]] [[causes|de la]] [[of|erosión]] [[soil|del]] [[erosion|suelo]].",
-      "words": [
-        "[[of|de las]]",
-        "[[erosion|suelo]].",
-        "[[causes|de la]]",
-        "[[Deforestation|La deforestación]]",
-        "[[is|es]]",
-        "[[soil|del]]",
-        "[[the|principales]]",
-        "[[main|causas]]",
-        "[[one|una]]",
-        "[[of|de las]]"
-      ],
-      "explanation": "'Deforestation' is the cutting down of trees in a large area, which leads to 'soil erosion'.",
-      "audio": "audio/b2/unit-3/e25.mp3"
+      "title": "Ecosistema delicado",
+      "instructions": "Ordena las palabras sobre el equilibrio natural.",
+      "questions": [
+        {
+          "question": "[[The|El]] [[ecosystem|ecosistema]] [[is|es]] [[delicate|delicado]] [[and|y]] [[needs|necesita]] [[constant|monitoreo]] [[monitoring.|constante.]]",
+          "options": [
+            "The",
+            "ecosystem",
+            "is",
+            "delicate",
+            "and",
+            "needs",
+            "constant",
+            "monitoring."
+          ],
+          "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7],
+          "explanation": "El ecosistema es delicado y necesita monitoreo constante.",
+          "audio": "audio/b2/unit-3/e25.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b2/unit-3/e25.mp3",
     "topicName": "Vocabulary"
   },
-
-  // MULTIPLE CHOICE (26-50)
   {
     "id": "b2-u3-e26",
     "type": "multiple-choice",
     "level": "B2",
     "topic": "Environmental Issues",
     "difficulty": "medium",
-    "transcript": "We must cut down on our use of fossil fuels.",
+    "transcript": "If we had protected the forest, the landslide wouldn't have happened.",
     "content": {
-      "title": "Combustibles fósiles",
-      "instructions": "Elige el phrasal verb que significa 'reducir el consumo'.",
+      "title": "Desprendimiento",
+      "instructions": "Elige la forma verbal correcta para el tercer condicional.",
       "questions": [
         {
-          "question": "[[We|Debemos]] [[must|_______]] [[our|nuestro]] [[use|uso]] [[of|de]] [[fossil|combustibles]] [[fuels.|fósiles.]]",
+          "question": "[[If|Si]] [[we|nosotros]] [[had|hubiéramos]] [[protected|protegido]] [[the|el]] [[forest,|bosque,]] [[the|el]] [[landslide|desprendimiento]] [[_______|_______]] [[happened.|ocurrido.]]",
           "options": [
-            "[[cut down on|reducir]]",
-            "[[cut out|eliminar]]",
-            "[[cut up|trocear]]"
+            "[[wouldn't have|no habría]]",
+            "[[didn't|no]]",
+            "[[won't|no]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Cut down on' is used when you want to reduce the amount of something.",
+          "explanation": "Third conditional 'wouldn't have' + past participle is used for impossible past situations.",
           "audio": "audio/b2/unit-3/e26.mp3"
         }
       ]
     },
     "audioUrl": "audio/b2/unit-3/e26.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "b2-u3-e27",
@@ -820,26 +858,26 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Environmental Issues",
     "difficulty": "medium",
-    "transcript": "If we had protected the wetlands, the flooding wouldn't be so bad now.",
+    "transcript": "Many animal species are facing extinction due to climate change.",
     "content": {
-      "title": "Humedales",
-      "instructions": "Elige la forma correcta del condicional mixto.",
+      "title": "Extinción",
+      "instructions": "Elige la palabra que significa la desaparición total de una especie.",
       "questions": [
         {
-          "question": "[[If|Si]] [[we|hubiéramos]] [[had|protegido]] [[protected|los]] [[the|humedales,]] [[wetlands,|la]] [[the|inundación]] [[flooding|_______]] [[so|tan]] [[bad|grave]] [[now.|ahora.]]",
+          "question": "[[Many|Muchas]] [[animal|especies]] [[species|animales]] [[are|están]] [[facing|enfrentando]] [[_______|_______]] [[due|debido]] [[to|al]] [[climate|cambio]] [[change.|climático.]]",
           "options": [
-            "[[wouldn't be|no sería]]",
-            "[[won't be|no será]]",
-            "[[hadn't been|no habría sido]]"
+            "[[extinction|la extinción]]",
+            "[[existence|la existencia]]",
+            "[[extension|la extensión]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Mixed conditional: Past condition (had protected) + present result (wouldn't be).",
+          "explanation": "'Extinction' is the state or process of a species, family, or larger group being or becoming extinct.",
           "audio": "audio/b2/unit-3/e27.mp3"
         }
       ]
     },
     "audioUrl": "audio/b2/unit-3/e27.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b2-u3-e28",
@@ -847,26 +885,26 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Environmental Issues",
     "difficulty": "medium",
-    "transcript": "The government needs to crack down on illegal logging.",
+    "transcript": "Suppose we were to ban all single-use plastics, what would happen?",
     "content": {
-      "title": "Tala ilegal",
-      "instructions": "Elige el phrasal verb que significa 'tomar medidas severas'.",
+      "title": "Prohibición de plásticos",
+      "instructions": "Elige el término para introducir una hipótesis.",
       "questions": [
         {
-          "question": "[[The|El]] [[government|gobierno]] [[needs|necesita]] [[to|_______]] [[illegal|la]] [[logging.|tala ilegal.]]",
+          "question": "[[_______|_______]] [[we|que]] [[were|fuéramos]] [[to|a]] [[ban|prohibir]] [[all|todos]] [[single-use|los plásticos]] [[plastics,|de un solo uso...]]",
           "options": [
-            "[[crack down on|tomar medidas contra]]",
-            "[[crack up|reírse mucho]]",
-            "[[break down|averiarse]]"
+            "[[Suppose|Supongamos]]",
+            "[[Whether|Si]]",
+            "[[Unless|A menos que]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Crack down on' means to start dealing with a problem more strictly.",
+          "explanation": "'Suppose' is used at the beginning of a sentence to imagine a situation.",
           "audio": "audio/b2/unit-3/e28.mp3"
         }
       ]
     },
     "audioUrl": "audio/b2/unit-3/e28.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "b2-u3-e29",
@@ -874,26 +912,26 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Environmental Issues",
     "difficulty": "medium",
-    "transcript": "Had they known the risks, they would have acted differently.",
+    "transcript": "We should use biodegradable materials to reduce landfill waste.",
     "content": {
-      "title": "Riesgos ambientales",
-      "instructions": "Elige la forma correcta de la inversión en el tercer condicional.",
+      "title": "Biodegradable",
+      "instructions": "Elige el adjetivo para materiales que se descomponen naturalmente.",
       "questions": [
         {
-          "question": "[[_______|_______]] [[they|ellos]] [[known|hubieran]] [[the|sabido]] [[risks,|los riesgos,]] [[they|habrían]] [[would|actuado]] [[have|de]] [[acted|forma]] [[differently.|diferente.]]",
+          "question": "[[We|Deberíamos]] [[should|usar]] [[use|materiales]] [[_______|_______]] [[to|para]] [[reduce|reducir]] [[landfill|la basura]] [[waste.|en vertederos.]]",
           "options": [
-            "[[Had|Si]]",
-            "[[Did|Did]]",
-            "[[Were|Were]]"
+            "[[biodegradable|biodegradables]]",
+            "[[biographical|biográficos]]",
+            "[[biological|biológicos]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Had they known' is the inverted form of 'If they had known'.",
+          "explanation": "'Biodegradable' substances are capable of being decomposed by bacteria or other living organisms.",
           "audio": "audio/b2/unit-3/e29.mp3"
         }
       ]
     },
     "audioUrl": "audio/b2/unit-3/e29.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b2-u3-e30",
@@ -901,26 +939,26 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Environmental Issues",
     "difficulty": "medium",
-    "transcript": "We are on the verge of an ecological catastrophe.",
+    "transcript": "If I had known the product wasn't eco-friendly, I wouldn't have bought it.",
     "content": {
-      "title": "Catástrofe ecológica",
-      "instructions": "Elige la expresión que significa 'a punto de'.",
+      "title": "Compra responsable",
+      "instructions": "Elige la forma verbal correcta para el tercer condicional.",
       "questions": [
         {
-          "question": "[[We|Estamos]] [[are|_______]] [[an|una]] [[ecological|catástrofe]] [[catastrophe.|ecológica.]]",
+          "question": "[[If|Si]] [[I|yo]] [[_______|_______]] [[known|hubiera sabido]] [[the|que el]] [[product|producto]] [[wasn't|no era]] [[eco-friendly...|ecológico...]]",
           "options": [
-            "[[on the verge of|al borde de]]",
-            "[[in favor of|a favor de]]",
-            "[[at the end of|al final de]]"
+            "[[had|hubiera]]",
+            "[[have|he]]",
+            "[[did|hice]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'On the verge of' means very close to something happening.",
+          "explanation": "Third conditional requires 'had' + past participle in the 'if' clause.",
           "audio": "audio/b2/unit-3/e30.mp3"
         }
       ]
     },
     "audioUrl": "audio/b2/unit-3/e30.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "b2-u3-e31",
@@ -928,26 +966,26 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Environmental Issues",
     "difficulty": "medium",
-    "transcript": "If the ice caps melt, sea levels will rise.",
+    "transcript": "Droughts are becoming more frequent in many parts of the world.",
     "content": {
-      "title": "Deshielo polar",
-      "instructions": "Elige el verbo correcto para describir el aumento del nivel del mar.",
+      "title": "Sequías",
+      "instructions": "Elige la palabra que significa largos periodos sin lluvia.",
       "questions": [
         {
-          "question": "[[If|Si]] [[the|los]] [[ice|casquetes]] [[caps|polares]] [[melt,|se derriten,]] [[sea|el nivel]] [[levels|del]] [[will|mar]] [[_______|_______]].",
+          "question": "[[_______|_______]] [[are|se están]] [[becoming|volviendo]] [[more|más]] [[frequent|frecuentes]] [[in|en muchas]] [[many|partes]] [[parts|del]] [[of|mundo.]] [[the| ]] [[world.| ]]",
           "options": [
-            "[[rise|subirá]]",
-            "[[raise|levantará]]",
-            "[[arise|surgirá]]"
+            "[[Droughts|Las sequías]]",
+            "[[Floods|Las inundaciones]]",
+            "[[Storms|Las tormentas]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Rise' is an intransitive verb used for something going up by itself.",
+          "explanation": "A 'drought' is a prolonged period of abnormally low rainfall, leading to a shortage of water.",
           "audio": "audio/b2/unit-3/e31.mp3"
         }
       ]
     },
     "audioUrl": "audio/b2/unit-3/e31.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b2-u3-e32",
@@ -955,26 +993,26 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Environmental Issues",
     "difficulty": "medium",
-    "transcript": "The factory was fined for dumping waste into the ocean.",
+    "transcript": "Unless individuals change their habits, the environment won't improve.",
     "content": {
-      "title": "Vertidos oceánicos",
-      "instructions": "Elige el verbo que describe tirar residuos ilegalmente.",
+      "title": "Cambio de hábitos",
+      "instructions": "Elige el conector condicional negativo.",
       "questions": [
         {
-          "question": "[[The|La]] [[factory|fábrica]] [[was|fue]] [[fined|multada]] [[for|por]] [[_______|_______]] [[waste|residuos]] [[into|en]] [[the|el]] [[ocean.|océano.]]",
+          "question": "[[_______|_______]] [[individuals|las personas]] [[change|cambien]] [[their|sus]] [[habits,|hábitos...]]",
           "options": [
-            "[[dumping|verter]]",
-            "[[keeping|mantener]]",
-            "[[cleaning|limpiar]]"
+            "[[Unless|A menos que]]",
+            "[[If|Si]]",
+            "[[Provided|Siempre que]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Dump' means to get rid of something you do not want in a place that is not allowed.",
+          "explanation": "'Unless' means 'if not', describing a condition that must be met.",
           "audio": "audio/b2/unit-3/e32.mp3"
         }
       ]
     },
     "audioUrl": "audio/b2/unit-3/e32.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "b2-u3-e33",
@@ -982,26 +1020,26 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Environmental Issues",
     "difficulty": "medium",
-    "transcript": "I wish I had been more conscious of my energy consumption.",
+    "transcript": "We must preserve the natural beauty of our national parks.",
     "content": {
-      "title": "Consumo energético",
-      "instructions": "Elige la forma correcta para expresar un arrepentimiento pasado.",
+      "title": "Preservar",
+      "instructions": "Elige el verbo que significa mantener algo en su estado original.",
       "questions": [
         {
-          "question": "[[I|Ojalá]] [[wish|_______]] [[I|hubiera]] [[had|sido]] [[been|más]] [[more|consciente]] [[conscious|de]] [[of|mi]] [[my|consumo.]] [[energy| ]] [[consumption.| ]]",
+          "question": "[[We|Debemos]] [[must|_______]] [[preserve|la]] [[the|belleza]] [[natural|natural]] [[beauty|de nuestros]] [[of|parques]] [[our|nacionales.]] [[national| ]] [[parks.| ]]",
           "options": [
-            "[[had been|hubiera sido]]",
-            "[[was|fuera]]",
-            "[[would be|fuera]]"
+            "[[preserve|preservar]]",
+            "[[prevent|prevenir]]",
+            "[[predict|predecir]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'I wish + past perfect' is used for regrets about the past.",
+          "explanation": "'Preserve' means to maintain something in its original or existing state.",
           "audio": "audio/b2/unit-3/e33.mp3"
         }
       ]
     },
     "audioUrl": "audio/b2/unit-3/e33.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b2-u3-e34",
@@ -1009,26 +1047,26 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Environmental Issues",
     "difficulty": "medium",
-    "transcript": "We need to switch to sustainable energy sources.",
+    "transcript": "I'll go to the beach tomorrow provided that it doesn't rain.",
     "content": {
-      "title": "Fuentes sostenibles",
-      "instructions": "Elige el adjetivo que significa 'que no daña el medio ambiente'.",
+      "title": "Día de playa",
+      "instructions": "Elige el conector que expresa una condición.",
       "questions": [
         {
-          "question": "[[We|Necesitamos]] [[need|cambiar]] [[to|a]] [[_______|_______]] [[energy|fuentes]] [[sources.|de energía.]]",
+          "question": "[[I'll|Iré]] [[go|a la]] [[to|playa]] [[the|mañana]] [[beach|_______]] [[tomorrow|que no]] [[provided|llueva.]] [[that| ]] [[it| ]] [[doesn't| ]] [[rain.| ]]",
           "options": [
-            "[[sustainable|sostenibles]]",
-            "[[harmful|perjudiciales]]",
-            "[[depleted|agotadas]]"
+            "[[provided that|siempre]]",
+            "[[unless|a menos]]",
+            "[[even if|incluso]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Sustainable' means able to continue over a period of time without damaging the environment.",
+          "explanation": "'Provided that' is used to specify a condition for something to happen.",
           "audio": "audio/b2/unit-3/e34.mp3"
         }
       ]
     },
     "audioUrl": "audio/b2/unit-3/e34.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "b2-u3-e35",
@@ -1036,26 +1074,26 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Environmental Issues",
     "difficulty": "medium",
-    "transcript": "But for the rain, we would have finished planting the trees.",
+    "transcript": "Organic farming avoids the use of synthetic pesticides.",
     "content": {
-      "title": "Plantar árboles",
-      "instructions": "Elige la expresión formal que significa 'si no fuera por'.",
+      "title": "Agricultura orgánica",
+      "instructions": "Elige la palabra para productos químicos usados contra plagas.",
       "questions": [
         {
-          "question": "[[_______|_______]] [[the|la]] [[rain,|lluvia,]] [[we|habríamos]] [[would|terminado]] [[have|de]] [[finished|plantar]] [[planting|los]] [[the|árboles.]] [[trees.| ]]",
+          "question": "[[Organic|La agricultura]] [[farming|orgánica]] [[avoids|evita]] [[the|el]] [[use|uso]] [[of|de]] [[synthetic|_______]].",
           "options": [
-            "[[But for|De no ser por]]",
-            "[[Except for|Excepto por]]",
-            "[[Save for|A salvo de]]"
+            "[[pesticides|pesticidas]]",
+            "[[particles|partículas]]",
+            "[[penalties|penalizaciones]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'But for' is a formal way to introduce the reason why something didn't happen.",
+          "explanation": "A 'pesticide' is a substance used for destroying insects or other organisms harmful to cultivated plants.",
           "audio": "audio/b2/unit-3/e35.mp3"
         }
       ]
     },
     "audioUrl": "audio/b2/unit-3/e35.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b2-u3-e36",
@@ -1063,26 +1101,26 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Environmental Issues",
     "difficulty": "medium",
-    "transcript": "The species went extinct due to poaching.",
+    "transcript": "If only people would stop throwing trash on the ground.",
     "content": {
-      "title": "Caza furtiva",
-      "instructions": "Elige el término para la caza ilegal.",
+      "title": "Basura al suelo",
+      "instructions": "Elige la estructura para expresar un deseo fuerte sobre el comportamiento de otros.",
       "questions": [
         {
-          "question": "[[The|La]] [[species|especie]] [[went|se]] [[extinct|extinguió]] [[due|debido]] [[to|a la]] [[_______|_______]].",
+          "question": "[[_______|_______]] [[people|la gente]] [[would|dejara de]] [[stop|tirar]] [[throwing|basura...]]",
           "options": [
-            "[[poaching|caza furtiva]]",
-            "[[farming|agricultura]]",
-            "[[breeding|cría]]"
+            "[[If only|Ojalá]]",
+            "[[Supposing|Supongamos]]",
+            "[[Unless|A menos que]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Poaching' is illegal hunting, often for parts of animals like tusks or fur.",
+          "explanation": "'If only' + would is used to express a wish for someone else's behavior to change.",
           "audio": "audio/b2/unit-3/e36.mp3"
         }
       ]
     },
     "audioUrl": "audio/b2/unit-3/e36.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "b2-u3-e37",
@@ -1090,13 +1128,13 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Environmental Issues",
     "difficulty": "medium",
-    "transcript": "Supposing you were the president, what would you do for the environment?",
+    "transcript": "Supposing you found an injured animal, what would you do?",
     "content": {
-      "title": "Si fueras presidente",
-      "instructions": "Elige el término hipotético correcto.",
+      "title": "Animal herido",
+      "instructions": "Elige el término para iniciar una pregunta hipotética.",
       "questions": [
         {
-          "question": "[[_______|_______]] [[you|que]] [[were|fueras]] [[the|el]] [[president,|presidente,]] [[what|¿qué]] [[would|harías]] [[you|por]] [[do|el]] [[for|medio]] [[the|ambiente?]] [[environment?| ]]",
+          "question": "[[_______|_______]] [[you|encontraras]] [[found|un]] [[an|animal]] [[injured|herido,]] [[animal,|¿qué]] [[what|harías?]] [[would| ]] [[you| ]] [[do?| ]]",
           "options": [
             "[[Supposing|Supongamos]]",
             "[[Imagine|Imagina]]",
@@ -1119,11 +1157,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "We are running out of time to stop global warming.",
     "content": {
-      "title": "Calentamiento global",
+      "title": "Quedarse sin tiempo",
       "instructions": "Elige el phrasal verb que significa 'quedarse sin'.",
       "questions": [
         {
-          "question": "[[We|Nos]] [[are|estamos]] [[_______|_______]] [[out|quedando]] [[of|sin]] [[time|tiempo]] [[to|para]] [[stop|frenar]] [[global|el]] [[warming.|calentamiento.]]",
+          "question": "[[We|Nos]] [[are|estamos]] [[_______|_______]] [[out|sin]] [[of|tiempo]] [[time|para]] [[stop|frenar]] [[global|el]] [[warming.|calentamiento.]]",
           "options": [
             "[[running|quedando]]",
             "[[going|yendo]]",
@@ -1150,9 +1188,9 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Elige el phrasal verb que significa 'deshacerse de' algo correctamente.",
       "questions": [
         {
-          "question": "[[If|Si]] [[I|fuera]] [[were|tú,]] [[you,|me]] [[I|_______]] [[those|esas]] [[batteries|pilas]] [[properly.|correctamente.]]",
+          "question": "[[If|Si]] [[I|fuera]] [[were|tú,]] [[you,| ]] [[I| ]] [[_______|_______]] [[those|esas]] [[batteries|pilas]] [[properly.|correctamente.]]",
           "options": [
-            "[[would dispose of|desharía]]",
+            "[[would dispose of|me desharía de]]",
             "[[would put away|guardaría]]",
             "[[would take back|devolvería]]"
           ],
@@ -1204,7 +1242,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector que significa 'siempre que'.",
       "questions": [
         {
-          "question": "[[_______|_______]] [[that|que]] [[we|todos]] [[all|reciclemos,]] [[recycle,|podemos]] [[we|reducir]] [[can|los]] [[reduce|residuos.]] [[waste| ]] [[significantly.| ]]",
+          "question": "[[_______|_______]] [[that|que]] [[we|todos]] [[all|reciclemos,]] [[recycle,|podemos]] [[we|reducir]] [[can|los]] [[reduce|residuos.]]",
           "options": [
             "[[Provided|Siempre que]]",
             "[[Unless|A menos que]]",
@@ -1231,7 +1269,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra para el lugar donde vive una especie.",
       "questions": [
         {
-          "question": "[[Deforestation|La deforestación]] [[causes|causa]] [[the|la]] [[loss|pérdida]] [[of|de]] [[natural|_______]].",
+          "question": "[[Deforestation|La deforestación]] [[causes|causa]] [[the|la]] [[loss|pérdida]] [[of|de]] [[natural| ]] [[_______|_______]].",
           "options": [
             "[[habitats|hábitats]]",
             "[[habits|hábitos]]",
@@ -1258,7 +1296,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma formal de expresar una condición posible.",
       "questions": [
         {
-          "question": "[[_______|_______]] [[you|vieras]] [[see|a]] [[someone|alguien]] [[littering,|tirando basura,]] [[you|deberías]] [[should|decirle]] [[tell|que]] [[them|la]] [[to|recoja.]] [[pick| ]] [[it| ]] [[up.| ]]",
+          "question": "[[_______|_______]] [[you|vieras]] [[see|a]] [[someone|alguien]] [[littering,|tirando basura,]] [[you|deberías]] [[should|decirle]] [[que la recoja.]]",
           "options": [
             "[[Should|Si]]",
             "[[Could|Si]]",
@@ -1281,11 +1319,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "Solar panels are a great way to harness renewable energy.",
     "content": {
-      "title": "Paneles solares",
+      "title": "Aprovechar energía",
       "instructions": "Elige el verbo que significa 'aprovechar' una fuente de energía.",
       "questions": [
         {
-          "question": "[[Solar|Los paneles]] [[panels|solares]] [[are|son]] [[a|una]] [[great|gran]] [[way|manera]] [[to|_______]] [[renewable|energía]] [[energy.|renovable.]]",
+          "question": "[[Solar|Los paneles]] [[panels|solares]] [[are|son]] [[a|una]] [[great|gran]] [[way|manera]] [[to| ]] [[_______|_______]] [[renewable|la energía]] [[energy.|renovable.]]",
           "options": [
             "[[harness|aprovechar]]",
             "[[harvest|cosechar]]",
@@ -1312,7 +1350,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector que significa 'a menos que'.",
       "questions": [
         {
-          "question": "[[_______|_______]] [[we|actuamos]] [[act|ahora,]] [[now,|la]] [[the|situación]] [[situation|empeorará.]] [[will| ]] [[get| ]] [[worse.| ]]",
+          "question": "[[_______|_______]] [[we|actuemos]] [[act|ahora,]] [[now,|la]] [[the|situación]] [[situation|empeorará.]]",
           "options": [
             "[[Unless|A menos que]]",
             "[[If|Si]]",
@@ -1368,7 +1406,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           "question": "[[_______|_______]] [[we|que]] [[could|pudiéramos]] [[clean|limpiar]] [[all|todo]] [[the|el]] [[plastic|plástico...]]",
           "options": [
-            "[[Imagine|Imagina]]",
+            "[[Imagine|Imagina que]]",
             "[[Believe|Cree]]",
             "[[Forget|Olvida]]"
           ],
@@ -1389,13 +1427,13 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "We need to dispose of our old electronics at a recycling center.",
     "content": {
-      "title": "Electrónica vieja",
+      "title": "Deshacerse de residuos",
       "instructions": "Elige la preposición correcta para 'dispose'.",
       "questions": [
         {
-          "question": "[[We|Necesitamos]] [[need|deshacernos]] [[to|de]] [[dispose|_______]] [[our|nuestros]] [[old|aparatos]] [[electronics|viejos.]]",
+          "question": "[[We|Necesitamos]] [[need|deshacernos]] [[to| ]] [[dispose| ]] [[_______|_______]] [[our|nuestros]] [[old|aparatos]] [[electronics|viejos.]]",
           "options": [
-            "[[of| ]]",
+            "[[of|de]]",
             "[[off| ]]",
             "[[out| ]]"
           ],
@@ -1420,9 +1458,9 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Elige el phrasal verb que significa 'quedarse sin'.",
       "questions": [
         {
-          "question": "[[Suppose|Supongamos]] [[the|que]] [[world|el]] [[_______|_______]] [[of|sin]] [[oil,|petróleo.]]",
+          "question": "[[Suppose|Supongamos]] [[the|que]] [[world|el]] [[_______|_______]] [[oil,|petróleo.]]",
           "options": [
-            "[[ran out|se quedara]]",
+            "[[ran out|se quedara sin]]",
             "[[went out|se fuera]]",
             "[[took out|se tomara]]"
           ],
@@ -1443,13 +1481,13 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "Environmental groups are standing up to companies that pollute.",
     "content": {
-      "title": "Grupos ecologistas",
+      "title": "Enfrentarse a",
       "instructions": "Elige el phrasal verb que significa 'enfrentarse a'.",
       "questions": [
         {
-          "question": "[[Environmental|Grupos]] [[groups|ecologistas]] [[are|se]] [[_______|están]] [[up|enfrentando]] [[to|a]] [[companies|las]] [[that|empresas]] [[pollute.|que contaminan.]]",
+          "question": "[[Environmental|Los grupos]] [[groups|ecologistas]] [[are|se están]] [[_______|_______]] [[up|a]] [[to|las]] [[companies|empresas]] [[that|que]] [[pollute.|contaminan.]]",
           "options": [
-            "[[standing| ]]",
+            "[[standing|enfrentando]]",
             "[[sitting| ]]",
             "[[looking| ]]"
           ],

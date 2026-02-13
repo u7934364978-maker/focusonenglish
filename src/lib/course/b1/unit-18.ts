@@ -61,20 +61,22 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Art, Literature & Creativity",
     "difficulty": "medium",
-    "transcript": "The statue was carved from a single piece of white marble.",
+    "transcript": "The beautiful statue was carved from white marble.",
     "content": {
       "title": "Escultura",
       "instructions": "Ordena las palabras para formar una oración en voz pasiva.",
-      "correctSentence": "[[The|La]] [[statue|estatua]] [[was|fue]] [[carved|tallada]] [[from|de]] [[marble|mármol]].",
+      "correctSentence": "[[The|La]] [[beautiful|hermosa]] [[statue|estatua]] [[was|fue]] [[carved|tallada]] [[from|de]] [[white|blanco]] [[marble|mármol]].",
       "words": [
         "[[statue|estatua]]",
         "[[marble|mármol]].",
         "[[carved|tallada]]",
         "[[The|La]]",
         "[[from|de]]",
-        "[[was|fue]]"
+        "[[was|fue]]",
+        "[[beautiful|hermosa]]",
+        "[[white|blanco]]"
       ],
-      "explanation": "Estructura de voz pasiva en pasado: 'was + past participle'.",
+      "explanation": "Estructura de voz pasiva en pasado expandida con adjetivos.",
       "audio": "audio/b1/unit-18/e3.mp3"
     },
     "audioUrl": "audio/b1/unit-18/e3.mp3",
@@ -167,11 +169,11 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Art, Literature & Creativity",
     "difficulty": "medium",
-    "transcript": "The characters in the book are based on real people from the author's life.",
+    "transcript": "The main characters are based on real people from history.",
     "content": {
       "title": "Personajes de Ficción",
       "instructions": "Ordena las palabras sobre los personajes de un libro.",
-      "correctSentence": "[[The|Los]] [[characters|personajes]] [[are|están]] [[based|basados]] [[on|en]] [[real|reales]] [[people|personas]].",
+      "correctSentence": "[[The|Los]] [[main|principales]] [[characters|personajes]] [[are|están]] [[based|basados]] [[on|en]] [[real|reales]] [[people|personas]] [[from|de]] [[history|historia]].",
       "words": [
         "[[based|basados]]",
         "[[people|personas]].",
@@ -179,9 +181,12 @@ export const UNIT_18_EXERCISES: Exercise[] = [
         "[[are|están]]",
         "[[on|en]]",
         "[[characters|personajes]]",
-        "[[real|reales]]"
+        "[[real|reales]]",
+        "[[main|principales]]",
+        "[[from|de]]",
+        "[[history|historia]]"
       ],
-      "explanation": "La estructura 'be based on' significa 'estar basado en'.",
+      "explanation": "La estructura 'be based on' con detalles adicionales sobre los personajes.",
       "audio": "audio/b1/unit-18/e7.mp3"
     },
     "audioUrl": "audio/b1/unit-18/e7.mp3",
@@ -247,11 +252,11 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Art, Literature & Creativity",
     "difficulty": "medium",
-    "transcript": "He used to be a very successful novelist before he retired.",
+    "transcript": "He used to be a very famous and successful novelist.",
     "content": {
       "title": "Hábitos Pasados",
       "instructions": "Ordena las palabras para hablar de un estado pasado.",
-      "correctSentence": "[[He|Él]] [[used|solía]] [[to| ]] [[be|ser]] [[a|un]] [[famous|famoso]] [[novelist|novelista]].",
+      "correctSentence": "[[He|Él]] [[used|solía]] [[to| ]] [[be|ser]] [[a|un]] [[very|muy]] [[famous|famoso]] [[and|y]] [[successful|exitoso]] [[novelist|novelista]].",
       "words": [
         "[[famous|famoso]]",
         "[[be|ser]]",
@@ -259,9 +264,12 @@ export const UNIT_18_EXERCISES: Exercise[] = [
         "[[novelist|novelista]].",
         "[[He|Él]]",
         "[[to| ]]",
-        "[[a|un]]"
+        "[[a|un]]",
+        "[[very|muy]]",
+        "[[and|y]]",
+        "[[successful|exitoso]]"
       ],
-      "explanation": "'Used to' describe estados o acciones que eran verdad en el pasado pero ya no.",
+      "explanation": "'Used to' describe estados pasados, expandido con adjetivos calificativos.",
       "audio": "audio/b1/unit-18/e10.mp3"
     },
     "audioUrl": "audio/b1/unit-18/e10.mp3",
@@ -327,20 +335,23 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Art, Literature & Creativity",
     "difficulty": "medium",
-    "transcript": "His latest collection of poems was published last month.",
+    "transcript": "The new adventure book was finally published last month.",
     "content": {
       "title": "Publicación de Poesía",
       "instructions": "Ordena las palabras sobre la publicación de un libro.",
-      "correctSentence": "[[The|El]] [[book|libro]] [[was|fue]] [[published|publicado]] [[last|el pasado]] [[month|mes]].",
+      "correctSentence": "[[The|El]] [[new|nuevo]] [[adventure|aventura]] [[book|libro]] [[was|fue]] [[finally|finalmente]] [[published|publicado]] [[last|el pasado]] [[month|mes]].",
       "words": [
         "[[published|publicado]]",
         "[[month|mes]].",
         "[[book|libro]]",
         "[[was|fue]]",
         "[[The|El]]",
-        "[[last|el pasado]]"
+        "[[last|el pasado]]",
+        "[[new|nuevo]]",
+        "[[adventure|aventura]]",
+        "[[finally|finalmente]]"
       ],
-      "explanation": "Voz pasiva en pasado simple: 'was + published'.",
+      "explanation": "Voz pasiva en pasado simple con adverbio y adjetivos descriptivos.",
       "audio": "audio/b1/unit-18/e13.mp3"
     },
     "audioUrl": "audio/b1/unit-18/e13.mp3",
@@ -402,27 +413,30 @@ export const UNIT_18_EXERCISES: Exercise[] = [
   },
   {
     "id": "b1-u18-e16",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "B1",
     "topic": "Art, Literature & Creativity",
     "difficulty": "medium",
-    "transcript": "Pottery is made from clay and then fired in a kiln.",
+    "transcript": "A sketch is a rough or unfinished drawing or painting, often made to assist in making a more finished work.",
     "content": {
-      "title": "Cerámica",
-      "instructions": "Ordena las palabras sobre cómo se hace la cerámica.",
-      "correctSentence": "[[Pottery|La cerámica]] [[is|es]] [[made|hecha]] [[from|de]] [[clay|arcilla]].",
-      "words": [
-        "[[clay|arcilla]].",
-        "[[is|es]]",
-        "[[made|hecha]]",
-        "[[Pottery|La cerámica]]",
-        "[[from|de]]"
-      ],
-      "explanation": "Voz pasiva en presente: 'is + past participle'.",
-      "audio": "audio/b1/unit-18/e16.mp3"
+      "title": "Bocetos",
+      "instructions": "Selecciona el término para un dibujo rápido.",
+      "questions": [
+        {
+          "question": "[[He|Él]] [[made|hizo]] [[a|un]] [[quick|rápido]] _______ [[before|antes de]] [[painting|pintar]].",
+          "options": [
+            "[[sketch|boceto]]",
+            "[[sculpture|escultura]]",
+            "[[script|guion]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Un 'sketch' es un dibujo rápido que sirve de base para una obra posterior.",
+          "audio": "audio/b1/unit-18/e16.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b1/unit-18/e16.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b1-u18-e17",
@@ -430,20 +444,20 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Art, Literature & Creativity",
     "difficulty": "medium",
-    "transcript": "A portrait is a painting, photograph, or sculpture of a person.",
+    "transcript": "Pottery is the process and the products of forming vessels and other objects with clay.",
     "content": {
-      "title": "Retratos",
-      "instructions": "Elige el término para una imagen de una persona.",
+      "title": "Alfarería",
+      "instructions": "Elige el término para el arte de la cerámica.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[commissioned|encargó]] [[a|un]] _______ [[of|de]] [[her|su]] [[father|padre]].",
+          "question": "[[She|Ella]] [[takes|toma]] _______ [[classes|clases]] [[on|los]] [[Fridays|viernes]].",
           "options": [
-            "[[portrait|retrato]]",
-            "[[still life|bodegón]]",
-            "[[landscape|paisaje]]"
+            "[[pottery|alfarería/cerámica]]",
+            "[[poetry|poesía]]",
+            "[[pantomime|pantomima]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Portrait' es un retrato de una persona, generalmente enfocándose en la cara.",
+          "explanation": "'Pottery' es el arte de crear objetos de barro o arcilla.",
           "audio": "audio/b1/unit-18/e17.mp3"
         }
       ]
@@ -453,54 +467,57 @@ export const UNIT_18_EXERCISES: Exercise[] = [
   },
   {
     "id": "b1-u18-e18",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "B1",
     "topic": "Art, Literature & Creativity",
     "difficulty": "medium",
-    "transcript": "The author who won the Nobel Prize last year has a new book out.",
+    "transcript": "Pottery is usually made from wet natural clay.",
     "content": {
-      "title": "Relativos para Personas",
-      "instructions": "Selecciona el pronombre relativo para personas.",
-      "questions": [
-        {
-          "question": "[[The|El]] [[artist|artista]] _______ [[lives|vive]] [[here|aquí]] [[is|es]] [[talented|talentoso]].",
-          "options": [
-            "[[who|quien / que]]",
-            "[[which|que (objetos)]]",
-            "[[where|donde]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'who' para referirnos a personas en cláusulas relativas.",
-          "audio": "audio/b1/unit-18/e18.mp3"
-        }
-      ]
+      "title": "Materiales Artísticos",
+      "instructions": "Ordena las palabras sobre la cerámica.",
+      "correctSentence": "[[Pottery|La cerámica]] [[is|es]] [[usually|usualmente]] [[made|hecha]] [[from|de]] [[wet|húmeda]] [[natural|natural]] [[clay|arcilla]].",
+      "words": [
+        "[[Pottery|La cerámica]]",
+        "[[is|es]]",
+        "[[usually|usualmente]]",
+        "[[made|hecha]]",
+        "[[from|de]]",
+        "[[wet|húmeda]]",
+        "[[natural|natural]]",
+        "[[clay|arcilla]]."
+      ],
+      "explanation": "Voz pasiva en presente para describir cómo se fabrica algo.",
+      "audio": "audio/b1/unit-18/e18.mp3"
     },
     "audioUrl": "audio/b1/unit-18/e18.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "b1-u18-e19",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "B1",
     "topic": "Art, Literature & Creativity",
     "difficulty": "medium",
-    "transcript": "Abstract art often uses colors and shapes to express emotions.",
+    "transcript": "To inspire means to fill someone with the urge or ability to do or feel something, especially to do something creative.",
     "content": {
-      "title": "Arte Abstracto",
-      "instructions": "Ordena las palabras sobre el arte abstracto.",
-      "correctSentence": "[[Abstract|El arte]] [[art|abstracto]] [[expresses|expresa]] [[strong|fuertes]] [[emotions|emociones]].",
-      "words": [
-        "[[Abstract|El arte]]",
-        "[[emotions|emociones]].",
-        "[[strong|fuertes]]",
-        "[[art|abstracto]]",
-        "[[expresses|expresa]]"
-      ],
-      "explanation": "Sujeto + Verbo + Objeto directo (con adjetivo).",
-      "audio": "audio/b1/unit-18/e19.mp3"
+      "title": "Inspiración",
+      "instructions": "Selecciona el verbo que significa inspirar.",
+      "questions": [
+        {
+          "question": "[[Nature|La naturaleza]] _______ [[many|a muchos]] [[artists|artistas]].",
+          "options": [
+            "[[inspires|inspira]]",
+            "[[insists|insiste]]",
+            "[[inspects|inspecciona]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Inspires' es motivar la creatividad de alguien.",
+          "audio": "audio/b1/unit-18/e19.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b1/unit-18/e19.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b1-u18-e20",
@@ -508,20 +525,20 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Art, Literature & Creativity",
     "difficulty": "medium",
-    "transcript": "A critic is a person who expresses a reasoned opinion on any matter.",
+    "transcript": "A biography is an account of someone's life written by someone else.",
     "content": {
-      "title": "La Crítica",
-      "instructions": "Selecciona el término para alguien que analiza el arte.",
+      "title": "Vidas de Otros",
+      "instructions": "Elige el término para la historia de la vida de alguien.",
       "questions": [
         {
-          "question": "[[The|El]] [[art|de arte]] _______ [[wrote|escribió]] [[a|una]] [[bad|mala]] [[review|reseña]].",
+          "question": "[[I'm|Estoy]] [[reading|leyendo]] [[a|una]] _______ [[of|de]] [[Einstein|Einstein]].",
           "options": [
-            "[[critic|crítico]]",
-            "[[fan|seguidor]]",
-            "[[editor|editor]]"
+            "[[biography|biografía]]",
+            "[[biology|biología]]",
+            "[[bibliography|bibliografía]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Un 'critic' es el profesional que evalúa y reseña obras de arte o libros.",
+          "explanation": "Una 'biography' cuenta la vida de una persona real.",
           "audio": "audio/b1/unit-18/e20.mp3"
         }
       ]
@@ -531,54 +548,58 @@ export const UNIT_18_EXERCISES: Exercise[] = [
   },
   {
     "id": "b1-u18-e21",
-    "type": "multiple-choice",
-    "level": "B1",
-    "topic": "Art, Literature & Creativity",
-    "difficulty": "medium",
-    "transcript": "Many famous paintings were stolen during the war and never recovered.",
-    "content": {
-      "title": "Pasado Pasivo Plural",
-      "instructions": "Elige la forma correcta de voz pasiva en pasado para el plural.",
-      "questions": [
-        {
-          "question": "[[The|Los]] [[sketches|bocetos]] _______ [[stolen|robados]] [[last|la pasada]] [[night|noche]].",
-          "options": [
-            "[[were|fueron]]",
-            "[[was|fue]]",
-            "[[are|son]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Para el plural 'sketches' en pasado pasivo, usamos 'were + past participle'.",
-          "audio": "audio/b1/unit-18/e21.mp3"
-        }
-      ]
-    },
-    "audioUrl": "audio/b1/unit-18/e21.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "b1-u18-e22",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Art, Literature & Creativity",
     "difficulty": "medium",
-    "transcript": "They would go to the theater every Friday night when they lived in London.",
+    "transcript": "Abstract art often expresses very strong and deep emotions.",
     "content": {
-      "title": "Acciones Repetidas",
-      "instructions": "Ordena las palabras sobre un hábito pasado.",
-      "correctSentence": "[[They|Ellos]] [[would|solían]] [[go|ir]] [[to|al]] [[the| ]] [[theater|teatro]].",
+      "title": "Expresión Artística",
+      "instructions": "Ordena las palabras sobre el arte abstracto.",
+      "correctSentence": "[[Abstract|El arte]] [[art|abstracto]] [[often|a menudo]] [[expresses|expresa]] [[very|muy]] [[strong|fuertes]] [[and|y]] [[deep|profundas]] [[emotions|emociones]].",
       "words": [
-        "[[theater|teatro]].",
-        "[[go|ir]]",
-        "[[They|Ellos]]",
-        "[[would|solían]]",
-        "[[to|al]]"
+        "[[Abstract|El arte]]",
+        "[[art|abstracto]]",
+        "[[often|a menudo]]",
+        "[[expresses|expresa]]",
+        "[[very|muy]]",
+        "[[strong|fuertes]]",
+        "[[and|y]]",
+        "[[deep|profundas]]",
+        "[[emotions|emociones]]."
       ],
-      "explanation": "Usamos 'would' para acciones que se repetían en el pasado.",
-      "audio": "audio/b1/unit-18/e22.mp3"
+      "explanation": "Uso del presente simple para describir el propósito del arte.",
+      "audio": "audio/b1/unit-18/e21.mp3"
+    },
+    "audioUrl": "audio/b1/unit-18/e21.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u18-e22",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Art, Literature & Creativity",
+    "difficulty": "medium",
+    "transcript": "A portrait is a painting, photograph, sculpture, or other artistic representation of a person, in which the face and its expression are predominant.",
+    "content": {
+      "title": "Retratos",
+      "instructions": "Selecciona el término para la representación de una persona.",
+      "questions": [
+        {
+          "question": "[[She|Ella]] [[commissioned|encargó]] [[a|un]] _______ [[of|de]] [[her|su]] [[son|hijo]].",
+          "options": [
+            "[[portrait|retrato]]",
+            "[[portion|porción]]",
+            "[[portray|retratar (verbo)]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Portrait' es la imagen de una persona, especialmente su cara.",
+          "audio": "audio/b1/unit-18/e22.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b1/unit-18/e22.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b1-u18-e23",
@@ -586,78 +607,82 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Art, Literature & Creativity",
     "difficulty": "medium",
-    "transcript": "Artistic inspiration can come from the most unexpected places.",
+    "transcript": "The author used to write in a quiet room at the top of the house.",
     "content": {
-      "title": "Inspiración",
-      "instructions": "Selecciona el término para la idea creativa.",
+      "title": "Hábitos de Escritura",
+      "instructions": "Elige la expresión para hábitos pasados que ya no ocurren.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[lacked|carecía de]] _______ [[for|para]] [[her|su]] [[new|nuevo]] [[project|proyecto]].",
+          "question": "[[The|El]] [[author|autor]] _______ [[write|escribir]] [[at|por]] [[night|la noche]].",
           "options": [
-            "[[inspiration|inspiración]]",
-            "[[tools|herramientas]]",
-            "[[canvas|lienzo]]"
+            "[[used to|solía]]",
+            "[[is used to|está acostumbrado a]]",
+            "[[was using|estaba usando]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Inspiration' es la motivación o idea necesaria para crear arte.",
+          "explanation": "'Used to + infinitive' indica un hábito en el pasado.",
           "audio": "audio/b1/unit-18/e23.mp3"
         }
       ]
     },
     "audioUrl": "audio/b1/unit-18/e23.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "b1-u18-e24",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "B1",
     "topic": "Art, Literature & Creativity",
     "difficulty": "medium",
-    "transcript": "The book that is on the table belongs to the library.",
+    "transcript": "They would often go to the local theater every Friday.",
     "content": {
-      "title": "Relativos Definitorios",
-      "instructions": "Elige el relativo que puede usarse para cosas en cláusulas necesarias.",
-      "questions": [
-        {
-          "question": "[[The|El]] [[novel|libro]] _______ [[I|que yo]] [[read|leí]] [[was|era]] [[sad|triste]].",
-          "options": [
-            "[[that|que]]",
-            "[[who|quien]]",
-            "[[where|donde]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "'That' se usa comúnmente para cosas en cláusulas relativas que definen al objeto.",
-          "audio": "audio/b1/unit-18/e24.mp3"
-        }
-      ]
+      "title": "Ocio Cultural",
+      "instructions": "Ordena las palabras sobre una rutina pasada.",
+      "correctSentence": "[[They|Ellos]] [[would|solían]] [[often|a menudo]] [[go|ir]] [[to|al]] [[the| ]] [[local|local]] [[theater|teatro]] [[every|cada]] [[Friday|viernes]].",
+      "words": [
+        "[[They|Ellos]]",
+        "[[would|solían]]",
+        "[[often|a menudo]]",
+        "[[go|ir]]",
+        "[[to|al]]",
+        "[[the| ]]",
+        "[[local|local]]",
+        "[[theater|teatro]]",
+        "[[every|cada]]",
+        "[[Friday|viernes]]."
+      ],
+      "explanation": "Uso de 'would' para hábitos repetidos en el pasado.",
+      "audio": "audio/b1/unit-18/e24.mp3"
     },
     "audioUrl": "audio/b1/unit-18/e24.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "b1-u18-e25",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "B1",
     "topic": "Art, Literature & Creativity",
     "difficulty": "medium",
-    "transcript": "A sculptor uses a chisel and a hammer to shape the stone.",
+    "transcript": "A critic is a person who expresses an unfavorable opinion of something.",
     "content": {
-      "title": "Herramientas de Escultor",
-      "instructions": "Ordena las palabras sobre las herramientas de un escultor.",
-      "correctSentence": "[[He|Él]] [[uses|usa]] [[a|un]] [[chisel|cincel]] [[to|para]] [[carve|tallar]].",
-      "words": [
-        "[[uses|usa]]",
-        "[[He|Él]]",
-        "[[to|para]]",
-        "[[chisel|cincel]]",
-        "[[carve|tallar]].",
-        "[[a|un]]"
-      ],
-      "explanation": "Sujeto + Verbo + Objeto + Infinitivo de propósito.",
-      "audio": "audio/b1/unit-18/e25.mp3"
+      "title": "La Crítica",
+      "instructions": "Selecciona el término para la persona que evalúa obras de arte.",
+      "questions": [
+        {
+          "question": "[[The|El]] [[art|de arte]] _______ [[wrote|escribió]] [[a|una]] [[review|reseña]].",
+          "options": [
+            "[[critic|crítico]]",
+            "[[crisis|crisis]]",
+            "[[criteria|criterio]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Critic' es el profesional que analiza y juzga obras culturales.",
+          "audio": "audio/b1/unit-18/e25.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b1/unit-18/e25.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b1-u18-e26",
@@ -665,75 +690,79 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Art, Literature & Creativity",
     "difficulty": "medium",
-    "transcript": "The museum was designed by a world-famous architect.",
+    "transcript": "Creativity is the use of the imagination or original ideas, especially in the production of an artistic work.",
     "content": {
-      "title": "Voz Pasiva con Agente",
-      "instructions": "Selecciona la preposición para introducir al autor en la voz pasiva.",
+      "title": "Creatividad",
+      "instructions": "Elige la palabra que significa creatividad.",
       "questions": [
         {
-          "question": "[[The|El]] [[poem|poema]] [[was|fue]] [[written|escrito]] _______ [[a|un]] [[child|niño]].",
+          "question": "_______ [[is|es]] [[essential|esencial]] [[for|para]] [[any|cualquier]] [[artist|artista]].",
           "options": [
-            "[[by|por]]",
-            "[[for|para]]",
-            "[[from|de]]"
+            "[[Creativity|Creatividad]]",
+            "[[Credibility|Credibilidad]]",
+            "[[Curiosity|Curiosidad]]"
           ],
           "correctAnswer": 0,
-          "explanation": "En voz pasiva, usamos 'by' para indicar quién realizó la acción.",
+          "explanation": "'Creativity' es la capacidad de crear e imaginar cosas nuevas.",
           "audio": "audio/b1/unit-18/e26.mp3"
         }
       ]
     },
     "audioUrl": "audio/b1/unit-18/e26.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b1-u18-e27",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "B1",
     "topic": "Art, Literature & Creativity",
     "difficulty": "medium",
-    "transcript": "A bestseller is a book that is among those having the largest sales.",
+    "transcript": "The artist uses a small chisel to carve the stone.",
     "content": {
-      "title": "Éxitos de Venta",
-      "instructions": "Elige el término para un libro muy vendido.",
-      "questions": [
-        {
-          "question": "[[His|Su]] [[latest|última]] [[novel|novela]] [[became|se convirtió]] [[a|en un]] _______.",
-          "options": [
-            "[[bestseller|superventas]]",
-            "[[mystery|misterio]]",
-            "[[paperback|tapa blanda]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "'Bestseller' es un libro que ha vendido muchísimas copias.",
-          "audio": "audio/b1/unit-18/e27.mp3"
-        }
-      ]
+      "title": "Herramientas de Arte",
+      "instructions": "Ordena las palabras sobre el trabajo de un escultor.",
+      "correctSentence": "[[The|El]] [[artist|artista]] [[uses|usa]] [[a|un]] [[small|pequeño]] [[chisel|cincel]] [[to|para]] [[carve|tallar]] [[the|el]] [[stone|piedra]].",
+      "words": [
+        "[[The|El]]",
+        "[[artist|artista]]",
+        "[[uses|usa]]",
+        "[[a|un]]",
+        "[[small|pequeño]]",
+        "[[chisel|cincel]]",
+        "[[to|para]]",
+        "[[carve|tallar]]",
+        "[[the|el]]",
+        "[[stone|piedra]]."
+      ],
+      "explanation": "Presente simple para describir una acción habitual de un profesional.",
+      "audio": "audio/b1/unit-18/e27.mp3"
     },
     "audioUrl": "audio/b1/unit-18/e27.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "b1-u18-e28",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "B1",
     "topic": "Art, Literature & Creativity",
     "difficulty": "medium",
-    "transcript": "She didn't use to like modern art, but now she loves it.",
+    "transcript": "He is the sculptor whose works are displayed in the central park.",
     "content": {
-      "title": "Cambio de Gustos",
-      "instructions": "Ordena las palabras para hablar de un hábito pasado negativo.",
-      "correctSentence": "[[She|Ella]] [[didn't|no]] [[use|solía]] [[to| ]] [[like|gustarle]] [[art|el arte]].",
-      "words": [
-        "[[like|gustarle]]",
-        "[[didn't|no]]",
-        "[[She|Ella]]",
-        "[[art|el arte]].",
-        "[[use|solía]]",
-        "[[to| ]]"
-      ],
-      "explanation": "La forma negativa de 'used to' es 'didn't use to'.",
-      "audio": "audio/b1/unit-18/e28.mp3"
+      "title": "Posesión con Relativos",
+      "instructions": "Selecciona el pronombre relativo de posesión.",
+      "questions": [
+        {
+          "question": "[[The|El]] [[painter|pintor]] _______ [[style|estilo]] [[is|es]] [[unique|único]].",
+          "options": [
+            "[[whose|cuyo]]",
+            "[[who|quien]]",
+            "[[which|el cual]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Whose' indica que el estilo pertenece al pintor.",
+          "audio": "audio/b1/unit-18/e28.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b1/unit-18/e28.mp3",
     "topicName": "Grammar"
@@ -744,78 +773,82 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Art, Literature & Creativity",
     "difficulty": "medium",
-    "transcript": "That's the museum whose collection was stolen last year.",
+    "transcript": "A canvas is a strong, coarse unbleached cloth used by artists as a surface on which to paint.",
     "content": {
-      "title": "Posesión en Relativos",
-      "instructions": "Selecciona el pronombre relativo de posesión.",
+      "title": "El Lienzo",
+      "instructions": "Elige el término para la superficie donde se pinta.",
       "questions": [
         {
-          "question": "[[The|El]] [[artist|artista]] _______ [[work|trabajo]] [[I|yo]] [[admire|admiro]].",
+          "question": "[[The|El]] [[painter|pintor]] [[prepared|preparó]] [[the|el]] _______.",
           "options": [
-            "[[whose|cuyo]]",
-            "[[who's|quien es]]",
-            "[[who|quien]]"
+            "[[canvas|lienzo]]",
+            "[[candle|vela]]",
+            "[[candy|caramelo]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Usamos 'whose' para indicar posesión (el trabajo del artista).",
+          "explanation": "'Canvas' es la tela tensada sobre la que pintan los artistas.",
           "audio": "audio/b1/unit-18/e29.mp3"
         }
       ]
     },
     "audioUrl": "audio/b1/unit-18/e29.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "b1-u18-e30",
-    "type": "multiple-choice",
-    "level": "B1",
-    "topic": "Art, Literature & Creativity",
-    "difficulty": "medium",
-    "transcript": "A mural is a painting or other work of art executed directly on a wall.",
-    "content": {
-      "title": "Pintura Mural",
-      "instructions": "Selecciona el término para una pintura en una pared.",
-      "questions": [
-        {
-          "question": "[[There|Hay]] [[is| ]] [[a|un]] [[colorful|colorido]] _______ [[on|en]] [[the|la]] [[wall|pared]].",
-          "options": [
-            "[[mural|mural]]",
-            "[[frame|marco]]",
-            "[[sketch|boceto]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "'Mural' es una obra de arte pintada directamente sobre un muro o pared.",
-          "audio": "audio/b1/unit-18/e30.mp3"
-        }
-      ]
-    },
-    "audioUrl": "audio/b1/unit-18/e30.mp3",
     "topicName": "Vocabulary"
   },
   {
-    "id": "b1-u18-e31",
+    "id": "b1-u18-e30",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Art, Literature & Creativity",
     "difficulty": "medium",
-    "transcript": "The exhibition is visited by hundreds of tourists every day.",
+    "transcript": "She didn't use to like modern abstract art at all.",
     "content": {
-      "title": "Turismo Artístico",
-      "instructions": "Ordena las palabras para formar una oración pasiva en presente.",
-      "correctSentence": "[[It|Es]] [[is| ]] [[visited|visitada]] [[by|por]] [[many|muchos]] [[tourists|turistas]].",
+      "title": "Cambio de Gustos",
+      "instructions": "Ordena las palabras sobre un hábito pasado negativo.",
+      "correctSentence": "[[She|Ella]] [[didn't|no]] [[use|solía]] [[to| ]] [[like|gustarle]] [[modern|moderno]] [[abstract|abstracto]] [[art|arte]] [[at|al]] [[all|principio]].",
       "words": [
-        "[[tourists|turistas]].",
-        "[[by|por]]",
-        "[[is| ]]",
-        "[[It|Es]]",
-        "[[many|muchos]]",
-        "[[visited|visitada]]"
+        "[[She|Ella]]",
+        "[[didn't|no]]",
+        "[[use|solía]]",
+        "[[to| ]]",
+        "[[like|gustarle]]",
+        "[[modern|moderno]]",
+        "[[abstract|abstracto]]",
+        "[[art|arte]]",
+        "[[at|al]]",
+        "[[all|principio]]."
       ],
-      "explanation": "Voz pasiva en presente: 'is + past participle'.",
-      "audio": "audio/b1/unit-18/e31.mp3"
+      "explanation": "Forma negativa de 'used to' para expresar que algo no era un hábito.",
+      "audio": "audio/b1/unit-18/e30.mp3"
+    },
+    "audioUrl": "audio/b1/unit-18/e30.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u18-e31",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Art, Literature & Creativity",
+    "difficulty": "medium",
+    "transcript": "A collection is a group of things of the same kind that have been collected by someone.",
+    "content": {
+      "title": "Colecciones",
+      "instructions": "Selecciona el término para un grupo de obras de arte.",
+      "questions": [
+        {
+          "question": "[[The|La]] [[museum|museo]] [[has|tiene]] [[a|una]] [[large|gran]] _______ [[of|de]] [[vases|jarrones]].",
+          "options": [
+            "[[collection|colección]]",
+            "[[selection|selección]]",
+            "[[correction|corrección]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Collection' es un conjunto de objetos coleccionados y exhibidos juntos.",
+          "audio": "audio/b1/unit-18/e31.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b1/unit-18/e31.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b1-u18-e32",
@@ -823,78 +856,81 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Art, Literature & Creativity",
     "difficulty": "medium",
-    "transcript": "The author used a pen name to keep her identity secret.",
+    "transcript": "That is the year when the library was first opened to the public.",
     "content": {
-      "title": "Seudónimos",
-      "instructions": "Selecciona el término para un nombre falso de autor.",
+      "title": "Relativos de Tiempo",
+      "instructions": "Elige el pronombre relativo para un momento en el tiempo.",
       "questions": [
         {
-          "question": "[[Mark|Mark]] [[Twain|Twain]] [[was|fue]] [[a|un]] _______.",
+          "question": "[[I|Yo]] [[remember|recuerdo]] [[the|el]] [[day|día]] _______ [[we|nosotros]] [[met|conocimos]].",
           "options": [
-            "[[pen name|seudónimo]]",
-            "[[real name|nombre real]]",
-            "[[biography|biografía]]"
+            "[[when|cuando]]",
+            "[[where|donde]]",
+            "[[who|quien]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Pen name' es un seudónimo utilizado por un escritor.",
+          "explanation": "Usamos 'when' para añadir información relativa a un tiempo o fecha.",
           "audio": "audio/b1/unit-18/e32.mp3"
         }
       ]
     },
     "audioUrl": "audio/b1/unit-18/e32.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "b1-u18-e33",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "B1",
     "topic": "Art, Literature & Creativity",
     "difficulty": "medium",
-    "transcript": "Artistic talent is something that you can develop with practice.",
+    "transcript": "The famous gallery is visited by many foreign tourists.",
     "content": {
-      "title": "Talento y Práctica",
-      "instructions": "Elige el relativo correcto para el talento.",
-      "questions": [
-        {
-          "question": "[[Talent|El talento]] _______ [[you|que tienes]] [[have| ]] [[is|es]] [[unique|único]].",
-          "options": [
-            "[[that|que]]",
-            "[[who|quien]]",
-            "[[where|donde]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'that' o 'which' para cosas como 'talent'.",
-          "audio": "audio/b1/unit-18/e33.mp3"
-        }
-      ]
+      "title": "Turismo Cultural",
+      "instructions": "Ordena las palabras en voz pasiva.",
+      "correctSentence": "[[The|La]] [[famous|famosa]] [[gallery|galería]] [[is|es]] [[visited|visitada]] [[by|por]] [[many|muchos]] [[foreign|extranjeros]] [[tourists|turistas]].",
+      "words": [
+        "[[The|La]]",
+        "[[famous|famosa]]",
+        "[[gallery|galería]]",
+        "[[is|es]]",
+        "[[visited|visitada]]",
+        "[[by|por]]",
+        "[[many|muchos]]",
+        "[[foreign|extranjeros]]",
+        "[[tourists|turistas]]."
+      ],
+      "explanation": "Pasiva de presente: 'is + visited by' para indicar el agente.",
+      "audio": "audio/b1/unit-18/e33.mp3"
     },
     "audioUrl": "audio/b1/unit-18/e33.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "b1-u18-e34",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "B1",
     "topic": "Art, Literature & Creativity",
     "difficulty": "medium",
-    "transcript": "He would always carry a sketchbook in his backpack.",
+    "transcript": "A genre is a category of artistic composition, as in music or literature, characterized by similarities in form, style, or subject matter.",
     "content": {
-      "title": "El Cuaderno de Dibujo",
-      "instructions": "Ordena las palabras sobre un hábito pasado.",
-      "correctSentence": "[[He|Él]] [[would|siempre]] [[always| ]] [[carry|llevaba]] [[a|un]] [[sketchbook|cuaderno]].",
-      "words": [
-        "[[sketchbook|cuaderno]].",
-        "[[carry|llevaba]]",
-        "[[always| ]]",
-        "[[He|Él]]",
-        "[[a|un]]",
-        "[[would|siempre]]"
-      ],
-      "explanation": "Estructura 'would + always + verb' para hábitos pasados.",
-      "audio": "audio/b1/unit-18/e34.mp3"
+      "title": "Géneros",
+      "instructions": "Selecciona la palabra que significa 'género artístico'.",
+      "questions": [
+        {
+          "question": "[[What|¿Qué]] _______ [[of|de]] [[music|música]] [[do| ]] [[you|tú]] [[like|prefieres]]?",
+          "options": [
+            "[[genre|género]]",
+            "[[gender|género (biológico/gramatical)]]",
+            "[[general|general]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Genre' se usa específicamente para categorías de arte, música o literatura.",
+          "audio": "audio/b1/unit-18/e34.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b1/unit-18/e34.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b1-u18-e35",
@@ -902,20 +938,20 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Art, Literature & Creativity",
     "difficulty": "medium",
-    "transcript": "An editor is a person who corrects and makes changes to a book before it is published.",
+    "transcript": "To perform means to present a form of entertainment to an audience.",
     "content": {
-      "title": "El Editor",
-      "instructions": "Selecciona el término para quien revisa el libro.",
+      "title": "Actuaciones",
+      "instructions": "Elige el verbo que significa actuar o representar.",
       "questions": [
         {
-          "question": "[[The|El]] _______ [[corrected|corrigió]] [[the|los]] [[errors|errores]].",
+          "question": "[[They|Ellos]] _______ [[their|su]] [[play|obra]] [[tonight|esta noche]].",
           "options": [
-            "[[editor|editor]]",
-            "[[painter|pintor]]",
-            "[[sculptor|escultor]]"
+            "[[perform|actúan/representan]]",
+            "[[reform|reforman]]",
+            "[[inform|informan]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El 'editor' se encarga de revisar y corregir el contenido de una obra.",
+          "explanation": "'Perform' es realizar una actuación ante un público.",
           "audio": "audio/b1/unit-18/e35.mp3"
         }
       ]
@@ -925,55 +961,58 @@ export const UNIT_18_EXERCISES: Exercise[] = [
   },
   {
     "id": "b1-u18-e36",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "B1",
     "topic": "Art, Literature & Creativity",
     "difficulty": "medium",
-    "transcript": "The sculpture was destroyed by vandals during the night.",
+    "transcript": "The young painter would always carry a small sketchbook.",
     "content": {
-      "title": "Voz Pasiva Negativa",
-      "instructions": "Elige la forma correcta de voz pasiva en pasado singular.",
-      "questions": [
-        {
-          "question": "[[The|El]] [[mural|mural]] _______ [[destroyed|destruido]] [[by|por]] [[rain|lluvia]].",
-          "options": [
-            "[[was|fue]]",
-            "[[were|fueron]]",
-            "[[are|es]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Sujeto singular 'mural' + 'was' + participio pasado.",
-          "audio": "audio/b1/unit-18/e36.mp3"
-        }
-      ]
+      "title": "Hábitos de Artista",
+      "instructions": "Ordena las palabras sobre un hábito pasado.",
+      "correctSentence": "[[The|El]] [[young|joven]] [[painter|pintor]] [[would|solía]] [[always|siempre]] [[carry|llevar]] [[a|un]] [[small|pequeño]] [[sketchbook|cuaderno de bocetos]].",
+      "words": [
+        "[[The|El]]",
+        "[[young|joven]]",
+        "[[painter|pintor]]",
+        "[[would|solía]]",
+        "[[always|siempre]]",
+        "[[carry|llevar]]",
+        "[[a|un]]",
+        "[[small|pequeño]]",
+        "[[sketchbook|cuaderno de bocetos]]."
+      ],
+      "explanation": "Estructura 'would always' para hábitos recurrentes en el pasado.",
+      "audio": "audio/b1/unit-18/e36.mp3"
     },
     "audioUrl": "audio/b1/unit-18/e36.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "b1-u18-e37",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "B1",
     "topic": "Art, Literature & Creativity",
     "difficulty": "medium",
-    "transcript": "I used to play the piano when I was at school.",
+    "transcript": "An essay is a short piece of writing on a particular subject.",
     "content": {
-      "title": "Música en el Pasado",
-      "instructions": "Ordena las palabras para hablar de una habilidad pasada.",
-      "correctSentence": "[[I|Yo]] [[used|solía]] [[to| ]] [[play|tocar]] [[the|el]] [[piano|piano]].",
-      "words": [
-        "[[piano|piano]].",
-        "[[used|solía]]",
-        "[[I|Yo]]",
-        "[[play|tocar]]",
-        "[[the|el]]",
-        "[[to| ]]"
-      ],
-      "explanation": "'Used to' indica una acción habitual en el pasado que ya no se realiza.",
-      "audio": "audio/b1/unit-18/e37.mp3"
+      "title": "Ensayos",
+      "instructions": "Selecciona el término para un texto breve de no ficción.",
+      "questions": [
+        {
+          "question": "[[I|Yo]] [[wrote|escribí]] [[an|un]] _______ [[about|sobre]] [[history|historia]].",
+          "options": [
+            "[[essay|ensayo]]",
+            "[[easy|fácil]]",
+            "[[energy|energía]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Un 'essay' es un escrito académico o literario sobre un tema específico.",
+          "audio": "audio/b1/unit-18/e37.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b1/unit-18/e37.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b1-u18-e38",
@@ -981,79 +1020,82 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Art, Literature & Creativity",
     "difficulty": "medium",
-    "transcript": "A still life is a painting or drawing of an arrangement of objects, typically including fruit and flowers.",
+    "transcript": "The book, whose cover is blue, is a bestseller.",
     "content": {
-      "title": "Bodegones",
-      "instructions": "Selecciona el término para una pintura de objetos inanimados.",
+      "title": "Relativos con Objetos",
+      "instructions": "Elige el pronombre de posesión relativo para un objeto.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[prefer|prefiero]] [[this|este]] _______ [[of|de]] [[fruit|fruta]].",
+          "question": "[[The|El]] [[book|libro]] _______ [[pages|páginas]] [[are|están]] [[old|viejas]].",
           "options": [
-            "[[still life|bodegón / naturaleza muerta]]",
-            "[[landscape|paisaje]]",
-            "[[portrait|retrato]]"
+            "[[whose|cuyas]]",
+            "[[which|las cuales]]",
+            "[[that|que]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Still life' es un bodegón o naturaleza muerta.",
+          "explanation": "'Whose' se usa tanto para personas como para cosas para indicar posesión.",
           "audio": "audio/b1/unit-18/e38.mp3"
         }
       ]
     },
     "audioUrl": "audio/b1/unit-18/e38.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "b1-u18-e39",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "B1",
     "topic": "Art, Literature & Creativity",
     "difficulty": "medium",
-    "transcript": "The museum which houses the collection is quite old.",
+    "transcript": "I used to play the piano when I was younger.",
     "content": {
-      "title": "Relativos de Objeto",
-      "instructions": "Elige el relativo correcto para el museo.",
-      "questions": [
-        {
-          "question": "[[The|El]] [[museum|museo]] _______ [[we|que]] [[saw|vimos]] [[is|es]] [[old|viejo]].",
-          "options": [
-            "[[which|que / el cual]]",
-            "[[who|quien]]",
-            "[[whose|cuyo]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'which' para referirnos a objetos o lugares como el antecedente de la cláusula.",
-          "audio": "audio/b1/unit-18/e39.mp3"
-        }
-      ]
+      "title": "Música y Pasado",
+      "instructions": "Ordena las palabras sobre una habilidad pasada.",
+      "correctSentence": "[[I|Yo]] [[used|solía]] [[to| ]] [[play|tocar]] [[the|el]] [[piano|piano]] [[when|cuando]] [[I|yo]] [[was|era]] [[younger|más joven]].",
+      "words": [
+        "[[I|Yo]]",
+        "[[used|solía]]",
+        "[[to| ]]",
+        "[[play|tocar]]",
+        "[[the|el]]",
+        "[[piano|piano]]",
+        "[[when|cuando]]",
+        "[[I|yo]]",
+        "[[was|era]]",
+        "[[younger|más joven]]."
+      ],
+      "explanation": "Estructura 'used to' combinada con una cláusula de tiempo en pasado.",
+      "audio": "audio/b1/unit-18/e39.mp3"
     },
     "audioUrl": "audio/b1/unit-18/e39.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "b1-u18-e40",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "B1",
     "topic": "Art, Literature & Creativity",
     "difficulty": "medium",
-    "transcript": "Art helps us to see the world from a different perspective.",
+    "transcript": "A rhyme is a correspondence of sound between words or the endings of words, especially when these are used at the ends of lines of poetry.",
     "content": {
-      "title": "Perspectiva Artística",
-      "instructions": "Ordena las palabras sobre el valor del arte.",
-      "correctSentence": "[[Art|El arte]] [[helps|ayuda]] [[us|a nosotros]] [[to|a]] [[see|ver]] [[the|el]] [[world|mundo]].",
-      "words": [
-        "[[world|mundo]].",
-        "[[helps|ayuda]]",
-        "[[Art|El arte]]",
-        "[[see|ver]]",
-        "[[to|a]]",
-        "[[the|el]]",
-        "[[us|a nosotros]]"
-      ],
-      "explanation": "Estructura 'help + object + (to) + verb'.",
-      "audio": "audio/b1/unit-18/e40.mp3"
+      "title": "Rimas",
+      "instructions": "Selecciona la palabra que significa rima.",
+      "questions": [
+        {
+          "question": "[[The|El]] [[poem|poema]] [[has|tiene]] [[a|una]] [[perfect|perfecta]] _______.",
+          "options": [
+            "[[rhyme|rima]]",
+            "[[rhythm|ritmo]]",
+            "[[room|habitación]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Rhyme' es la repetición de sonidos al final de los versos.",
+          "audio": "audio/b1/unit-18/e40.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b1/unit-18/e40.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b1-u18-e41",
@@ -1061,20 +1103,20 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Art, Literature & Creativity",
     "difficulty": "medium",
-    "transcript": "A brush is an implement with a handle and filaments used for painting.",
+    "transcript": "To publish means to prepare and issue a book, journal, piece of music, or other work for public sale.",
     "content": {
-      "title": "Pinceles",
-      "instructions": "Selecciona el término para el pincel.",
+      "title": "Publicar",
+      "instructions": "Elige el verbo que significa publicar.",
       "questions": [
         {
-          "question": "[[The|El]] [[painter|pintor]] [[dipped|mojó]] [[the|el]] _______ [[in|en]] [[paint|pintura]].",
+          "question": "[[When|¿Cuándo]] [[will| ]] [[you|tú]] _______ [[the|el]] [[book|libro]]?",
           "options": [
-            "[[brush|pincel]]",
-            "[[chisel|cincel]]",
-            "[[hammer|martillo]]"
+            "[[publish|publicar]]",
+            "[[punish|castigar]]",
+            "[[publicize|publicitar]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Brush' es el pincel que usan los pintores.",
+          "explanation": "'Publish' es el acto formal de lanzar una obra al mercado.",
           "audio": "audio/b1/unit-18/e41.mp3"
         }
       ]
@@ -1084,52 +1126,55 @@ export const UNIT_18_EXERCISES: Exercise[] = [
   },
   {
     "id": "b1-u18-e42",
-    "type": "multiple-choice",
-    "level": "B1",
-    "topic": "Art, Literature & Creativity",
-    "difficulty": "medium",
-    "transcript": "The play was performed in a very small theater.",
-    "content": {
-      "title": "Voz Pasiva Singular",
-      "instructions": "Elige la forma de voz pasiva en pasado para la obra.",
-      "questions": [
-        {
-          "question": "[[The|La]] [[play|obra]] _______ [[performed|representada]] [[yesterday|ayer]].",
-          "options": [
-            "[[was|fue]]",
-            "[[were|fueron]]",
-            "[[is|es]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Sujeto singular 'play' + 'was' + participio pasado.",
-          "audio": "audio/b1/unit-18/e42.mp3"
-        }
-      ]
-    },
-    "audioUrl": "audio/b1/unit-18/e42.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "b1-u18-e43",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Art, Literature & Creativity",
     "difficulty": "medium",
-    "transcript": "She would write poems in the library every afternoon.",
+    "transcript": "Visual art helps us to see the world differently.",
     "content": {
-      "title": "Escritura en el Pasado",
-      "instructions": "Ordena las palabras sobre una acción habitual.",
-      "correctSentence": "[[She|Ella]] [[would|solía]] [[write|escribir]] [[poems|poemas]] [[every|cada]] [[day|día]].",
+      "title": "Visión Artística",
+      "instructions": "Ordena las palabras sobre el impacto del arte.",
+      "correctSentence": "[[Visual|El arte]] [[art|visual]] [[helps|ayuda]] [[us|a nosotros]] [[to|a]] [[see|ver]] [[the|el]] [[world|mundo]] [[differently|diferentemente]].",
       "words": [
-        "[[poems|poemas]]",
-        "[[day|día]].",
-        "[[write|escribir]]",
-        "[[would|solía]]",
-        "[[She|Ella]]",
-        "[[every|cada]]"
+        "[[Visual|El arte]]",
+        "[[art|visual]]",
+        "[[helps|ayuda]]",
+        "[[us|a nosotros]]",
+        "[[to|a]]",
+        "[[see|ver]]",
+        "[[the|el]]",
+        "[[world|mundo]]",
+        "[[differently|diferentemente]]."
       ],
-      "explanation": "'Would' para expresar hábitos pasados en literatura/arte.",
-      "audio": "audio/b1/unit-18/e43.mp3"
+      "explanation": "Estructura 'helps someone to do something' con un adverbio de modo.",
+      "audio": "audio/b1/unit-18/e42.mp3"
+    },
+    "audioUrl": "audio/b1/unit-18/e42.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u18-e43",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Art, Literature & Creativity",
+    "difficulty": "medium",
+    "transcript": "The pottery, which was made in Greece, is over two thousand years old.",
+    "content": {
+      "title": "Relativos con Comas",
+      "instructions": "Selecciona el relativo adecuado para añadir información extra.",
+      "questions": [
+        {
+          "question": "[[The|El]] [[vase|jarrón]], _______ [[is|es]] [[red|rojo]], [[is|es]] [[old|viejo]].",
+          "options": [
+            "[[which|el cual]]",
+            "[[that|que (incorrecto)]]",
+            "[[who|quien]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Recordamos que 'that' no se usa después de una coma en cláusulas relativas.",
+          "audio": "audio/b1/unit-18/e43.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b1/unit-18/e43.mp3",
     "topicName": "Grammar"
@@ -1140,20 +1185,20 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Art, Literature & Creativity",
     "difficulty": "medium",
-    "transcript": "Poetry is a form of literature that uses aesthetic and rhythmic qualities of language.",
+    "transcript": "A script is the written text of a play, movie, or broadcast.",
     "content": {
-      "title": "Poesía",
-      "instructions": "Selecciona el término para la literatura en verso.",
+      "title": "Guiones",
+      "instructions": "Elige el término para el texto de una película.",
       "questions": [
         {
-          "question": "[[He|Él]] [[writes|escribe]] [[beautiful|hermosa]] _______.",
+          "question": "[[The|El]] [[actors|actores]] [[are|están]] [[reading|leyendo]] [[the|el]] _______.",
           "options": [
-            "[[poetry|poesía]]",
-            "[[news|noticias]]",
-            "[[manuals|manuales]]"
+            "[[script|guion]]",
+            "[[scribe|escriba]]",
+            "[[scrap|chatarra]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Poetry' es el arte de escribir poemas.",
+          "explanation": "'Script' es el documento que contiene los diálogos y acciones de los actores.",
           "audio": "audio/b1/unit-18/e44.mp3"
         }
       ]
@@ -1163,55 +1208,59 @@ export const UNIT_18_EXERCISES: Exercise[] = [
   },
   {
     "id": "b1-u18-e45",
-    "type": "multiple-choice",
-    "level": "B1",
-    "topic": "Art, Literature & Creativity",
-    "difficulty": "medium",
-    "transcript": "That's the artist whose studio is in the city center.",
-    "content": {
-      "title": "Posesión Relativa",
-      "instructions": "Elige el relativo de posesión para el estudio del artista.",
-      "questions": [
-        {
-          "question": "[[The|El]] [[painter|pintor]] _______ [[studio|estudio]] [[is|está]] [[here|aquí]].",
-          "options": [
-            "[[whose|cuyo]]",
-            "[[who|quien]]",
-            "[[which|que]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'whose' para indicar que el estudio pertenece al pintor.",
-          "audio": "audio/b1/unit-18/e45.mp3"
-        }
-      ]
-    },
-    "audioUrl": "audio/b1/unit-18/e45.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "b1-u18-e46",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Art, Literature & Creativity",
     "difficulty": "medium",
-    "transcript": "The book was translated into more than twenty languages.",
+    "transcript": "The young poet would write new poems every single day.",
     "content": {
-      "title": "Traducción de Libros",
-      "instructions": "Ordena las palabras sobre el éxito internacional de un libro.",
-      "correctSentence": "[[The|El]] [[book|libro]] [[was|fue]] [[translated|traducido]] [[into|al]] [[Spanish|español]].",
+      "title": "Rutina de Poeta",
+      "instructions": "Ordena las palabras para hablar de una rutina pasada.",
+      "correctSentence": "[[The|La]] [[young|joven]] [[poet|poeta]] [[would|solía]] [[write|escribir]] [[new|nuevos]] [[poems|poemas]] [[every|cada]] [[single|solo]] [[day|día]].",
       "words": [
-        "[[translated|traducido]]",
-        "[[book|libro]]",
-        "[[Spanish|español]].",
-        "[[was|fue]]",
-        "[[The|El]]",
-        "[[into|al]]"
+        "[[The|La]]",
+        "[[young|joven]]",
+        "[[poet|poeta]]",
+        "[[would|solía]]",
+        "[[write|escribir]]",
+        "[[new|nuevos]]",
+        "[[poems|poemas]]",
+        "[[every|cada]]",
+        "[[single|solo]]",
+        "[[day|día]]."
       ],
-      "explanation": "Voz pasiva en pasado simple con preposición 'into'.",
-      "audio": "audio/b1/unit-18/e46.mp3"
+      "explanation": "Uso de 'would' para acciones habituales en el pasado.",
+      "audio": "audio/b1/unit-18/e45.mp3"
+    },
+    "audioUrl": "audio/b1/unit-18/e45.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u18-e46",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Art, Literature & Creativity",
+    "difficulty": "medium",
+    "transcript": "A museum is an institution that cares for a collection of artifacts and other objects of artistic, cultural, historical, or scientific importance.",
+    "content": {
+      "title": "Museos",
+      "instructions": "Selecciona el término para la institución cultural.",
+      "questions": [
+        {
+          "question": "[[We|Nosotros]] [[went|fuimos]] [[to|al]] _______ [[of|de]] [[natural|natural]] [[history|historia]].",
+          "options": [
+            "[[museum|museo]]",
+            "[[music|música]]",
+            "[[movement|movimiento]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Museum' es el lugar donde se preservan y exhiben objetos de importancia cultural.",
+          "audio": "audio/b1/unit-18/e46.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b1/unit-18/e46.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b1-u18-e47",
@@ -1219,20 +1268,20 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Art, Literature & Creativity",
     "difficulty": "medium",
-    "transcript": "A sketch is a rough or unfinished drawing or painting.",
+    "transcript": "Originality is the ability to think independently and creatively.",
     "content": {
-      "title": "Bocetos Rápidos",
-      "instructions": "Selecciona el término para un dibujo rápido.",
+      "title": "Originalidad",
+      "instructions": "Elige la palabra que significa originalidad.",
       "questions": [
         {
-          "question": "[[He|Él]] [[made|hizo]] [[a|un]] [[quick|rápido]] _______.",
+          "question": "_______ [[is|es]] [[what|lo que]] [[makes|hace]] [[him|a él]] [[special|especial]].",
           "options": [
-            "[[sketch|boceto]]",
-            "[[masterpiece|obra maestra]]",
-            "[[mural|mural]]"
+            "[[Originality|Originalidad]]",
+            "[[Oratory|Oratoria]]",
+            "[[Organization|Organización]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Sketch' es un dibujo rápido y sin terminar.",
+          "explanation": "'Originality' es la cualidad de ser único y creativo.",
           "audio": "audio/b1/unit-18/e47.mp3"
         }
       ]
@@ -1242,79 +1291,84 @@ export const UNIT_18_EXERCISES: Exercise[] = [
   },
   {
     "id": "b1-u18-e48",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "B1",
     "topic": "Art, Literature & Creativity",
     "difficulty": "medium",
-    "transcript": "The museum which we visited last week was very crowded.",
+    "transcript": "The novel was translated from English into Spanish last year.",
     "content": {
-      "title": "Relativos de Objeto",
-      "instructions": "Elige el pronombre relativo para el museo visitado.",
-      "questions": [
-        {
-          "question": "[[The|El]] [[museum|museo]] _______ [[we|nosotros]] [[visited|visitamos]].",
-          "options": [
-            "[[which|que / el cual]]",
-            "[[who|quien]]",
-            "[[where|donde (requeriría 'in which')]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'which' o 'that' para el objeto que recibía la acción de visitar.",
-          "audio": "audio/b1/unit-18/e48.mp3"
-        }
-      ]
+      "title": "Traducciones Literarias",
+      "instructions": "Ordena las palabras en voz pasiva pasada.",
+      "correctSentence": "[[The|El]] [[novel|novela]] [[was|fue]] [[translated|traducida]] [[from|del]] [[English|inglés]] [[into|al]] [[Spanish|español]] [[last|el pasado]] [[year|año]].",
+      "words": [
+        "[[The|El]]",
+        "[[novel|novela]]",
+        "[[was|fue]]",
+        "[[translated|traducida]]",
+        "[[from|del]]",
+        "[[English|inglés]]",
+        "[[into|al]]",
+        "[[Spanish|español]]",
+        "[[last|el pasado]]",
+        "[[year|año]]."
+      ],
+      "explanation": "Voz pasiva en pasado simple con indicación de origen y destino.",
+      "audio": "audio/b1/unit-18/e48.mp3"
     },
     "audioUrl": "audio/b1/unit-18/e48.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "b1-u18-e49",
-    "type": "sentence-building",
-    "level": "B1",
-    "topic": "Art, Literature & Creativity",
-    "difficulty": "medium",
-    "transcript": "She used to spend her weekends painting by the lake.",
-    "content": {
-      "title": "Fines de Semana Creativos",
-      "instructions": "Ordena las palabras sobre un hábito pasado.",
-      "correctSentence": "[[She|Ella]] [[used|solía]] [[to| ]] [[paint|pintar]] [[every|cada]] [[weekend|fin de semana]].",
-      "words": [
-        "[[weekend|fin de semana]].",
-        "[[used|solía]]",
-        "[[She|Ella]]",
-        "[[paint|pintar]]",
-        "[[every|cada]]",
-        "[[to| ]]"
-      ],
-      "explanation": "'Used to' describe un hábito pasado regular.",
-      "audio": "audio/b1/unit-18/e49.mp3"
-    },
-    "audioUrl": "audio/b1/unit-18/e49.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "b1-u18-e50",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Art, Literature & Creativity",
     "difficulty": "medium",
-    "transcript": "Creativity is the use of imagination or original ideas to create something.",
+    "transcript": "An illustrator is a person who draws or creates pictures for magazines, books, advertising, etc.",
     "content": {
-      "title": "Creatividad",
-      "instructions": "Selecciona el término para la capacidad de crear.",
+      "title": "Ilustradores",
+      "instructions": "Selecciona el término para el profesional que crea imágenes.",
       "questions": [
         {
-          "question": "_______ [[is|es]] [[essential|esencial]] [[for|para]] [[any|cualquier]] [[artist|artista]].",
+          "question": "[[The|El]] _______ [[made|hizo]] [[the|los]] [[drawings|dibujos]].",
           "options": [
-            "[[Creativity|La creatividad]]",
-            "[[Wealth|La riqueza]]",
-            "[[Luck|La suerte]]"
+            "[[illustrator|ilustrador]]",
+            "[[illustration|ilustración]]",
+            "[[instructor|instructor]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Creativity' es la cualidad fundamental de un artista.",
-          "audio": "audio/b1/unit-18/e50.mp3"
+          "explanation": "'Illustrator' es quien crea las imágenes que acompañan a un texto.",
+          "audio": "audio/b1/unit-18/e49.mp3"
         }
       ]
+    },
+    "audioUrl": "audio/b1/unit-18/e49.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u18-e50",
+    "type": "sentence-building",
+    "level": "B1",
+    "topic": "Art, Literature & Creativity",
+    "difficulty": "medium",
+    "transcript": "She used to paint beautiful landscapes every single weekend.",
+    "content": {
+      "title": "Pintura Habitual",
+      "instructions": "Ordena las palabras sobre un hábito pasado constante.",
+      "correctSentence": "[[She|Ella]] [[used|solía]] [[to| ]] [[paint|pintar]] [[beautiful|hermosos]] [[landscapes|paisajes]] [[every|cada]] [[single|solo]] [[weekend|fin de semana]].",
+      "words": [
+        "[[She|Ella]]",
+        "[[used|solía]]",
+        "[[to| ]]",
+        "[[paint|pintar]]",
+        "[[beautiful|hermosos]]",
+        "[[landscapes|paisajes]]",
+        "[[every|cada]]",
+        "[[single|solo]]",
+        "[[weekend|fin de semana]]."
+      ],
+      "explanation": "Uso de 'used to' para describir una actividad regular en el pasado.",
+      "audio": "audio/b1/unit-18/e50.mp3"
     },
     "audioUrl": "audio/b1/unit-18/e50.mp3",
     "topicName": "Vocabulary"

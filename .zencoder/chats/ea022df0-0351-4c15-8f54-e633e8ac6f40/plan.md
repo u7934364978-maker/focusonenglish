@@ -104,3 +104,8 @@
 1. [x] Fix syntax errors in `src/lib/course/b2/unit-5.ts`.
 2. [x] Ensure all B1 units (15-30) follow the standard export pattern.
 3. [x] Run final linting and type check.
+
+### [ ] Step: Refine Sentence Building Exercises
+1. [ ] Audit B1 Units 15-30 for `sentence-building` exercises exceeding 10 words.
+2. [ ] Refactor identified exercises to have between 8 and 10 words.
+3. [ ] Verify implementation in browser and run final check.

@@ -169,19 +169,22 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Sports & Healthy Habits",
     "difficulty": "medium",
-    "transcript": "I enjoy playing team sports like basketball and volleyball.",
+    "transcript": "I really enjoy playing many different team sports.",
     "content": {
       "title": "Deportes en Equipo",
       "instructions": "Ordena las palabras correctamente.",
-      "correctSentence": "[[I|Yo]] [[enjoy|disfruto]] [[playing|jugando]] [[team|en equipo]] [[sports|deportes]].",
+      "correctSentence": "[[I|Yo]] [[really|realmente]] [[enjoy|disfruto]] [[playing|jugando]] [[many|muchos]] [[different|diferentes]] [[team|en equipo]] [[sports|deportes]].",
       "words": [
         "[[sports|deportes]].",
         "[[enjoy|disfruto]]",
         "[[playing|jugando]]",
         "[[team|en equipo]]",
-        "[[I|Yo]]"
+        "[[I|Yo]]",
+        "[[really|realmente]]",
+        "[[many|muchos]]",
+        "[[different|diferentes]]"
       ],
-      "explanation": "Tras el verbo 'enjoy', usamos el gerundio (-ing).",
+      "explanation": "Tras el verbo 'enjoy', usamos el gerundio (-ing) y adjetivos para expandir la frase.",
       "audio": "audio/b1/unit-17/e7.mp3"
     },
     "audioUrl": "audio/b1/unit-17/e7.mp3",
@@ -247,20 +250,23 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Sports & Healthy Habits",
     "difficulty": "medium",
-    "transcript": "Yoga helps me to relax and improve my flexibility.",
+    "transcript": "Yoga helps me to improve my flexibility and balance.",
     "content": {
       "title": "Beneficios del Yoga",
       "instructions": "Ordena las palabras sobre el yoga.",
-      "correctSentence": "[[Yoga|El yoga]] [[helps|ayuda]] [[me|a mí]] [[to|a]] [[improve|mejorar]] [[flexibility|la flexibilidad]].",
+      "correctSentence": "[[Yoga|El yoga]] [[helps|ayuda]] [[me|a mí]] [[to|a]] [[improve|mejorar]] [[my|mi]] [[flexibility|flexibilidad]] [[and|y]] [[balance|equilibrio]].",
       "words": [
         "[[improve|mejorar]]",
         "[[helps|ayuda]]",
-        "[[flexibility|la flexibilidad]].",
+        "[[flexibility|flexibilidad]]",
         "[[to|a]]",
         "[[Yoga|El yoga]]",
-        "[[me|a mí]]"
+        "[[me|a mí]]",
+        "[[my|mi]]",
+        "[[and|y]]",
+        "[[balance|equilibrio]]."
       ],
-      "explanation": "Estructura 'help someone (to) do something'.",
+      "explanation": "Estructura 'help someone (to) do something' con una lista de beneficios.",
       "audio": "audio/b1/unit-17/e10.mp3"
     },
     "audioUrl": "audio/b1/unit-17/e10.mp3",
@@ -326,11 +332,11 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Sports & Healthy Habits",
     "difficulty": "medium",
-    "transcript": "He is the fastest runner in our local athletics club.",
+    "transcript": "He is the fastest runner in the entire local athletics club.",
     "content": {
       "title": "El Más Rápido",
       "instructions": "Forma la oración usando el superlativo.",
-      "correctSentence": "[[He|Él]] [[is|es]] [[the|el]] [[fastest|más rápido]] [[runner|corredor]] [[in|en]] [[the|el]] [[club|club]].",
+      "correctSentence": "[[He|Él]] [[is|es]] [[the|el]] [[fastest|más rápido]] [[runner|corredor]] [[in|en]] [[the|el]] [[entire|entero]] [[local|local]] [[athletics|atletismo]] [[club|club]].",
       "words": [
         "[[fastest|más rápido]]",
         "[[He|Él]]",
@@ -339,9 +345,12 @@ export const UNIT_17_EXERCISES: Exercise[] = [
         "[[club|club]].",
         "[[the|el]]",
         "[[in|en]]",
-        "[[the|el]]"
+        "[[the|el]]",
+        "[[entire|entero]]",
+        "[[local|local]]",
+        "[[athletics|atletismo]]"
       ],
-      "explanation": "Superlativo de 'fast' es 'the fastest'.",
+      "explanation": "Superlativo de 'fast' es 'the fastest' con modificadores adicionales.",
       "audio": "audio/b1/unit-17/e13.mp3"
     },
     "audioUrl": "audio/b1/unit-17/e13.mp3",
@@ -403,27 +412,30 @@ export const UNIT_17_EXERCISES: Exercise[] = [
   },
   {
     "id": "b1-u17-e16",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "B1",
     "topic": "Sports & Healthy Habits",
     "difficulty": "medium",
-    "transcript": "You shouldn't eat junk food if you want to lose weight.",
+    "transcript": "Physical activity is important for maintaining a healthy weight.",
     "content": {
-      "title": "Comida Basura",
-      "instructions": "Ordena las palabras para formar un consejo negativo.",
-      "correctSentence": "[[You|Tú]] [[shouldn't|no deberías]] [[eat|comer]] [[junk|basura]] [[food|comida]].",
-      "words": [
-        "[[food|comida]].",
-        "[[shouldn't|no deberías]]",
-        "[[eat|comer]]",
-        "[[You|Tú]]",
-        "[[junk|basura]]"
-      ],
-      "explanation": "'Shouldn't' se usa para desaconsejar una acción.",
-      "audio": "audio/b1/unit-17/e16.mp3"
+      "title": "Mantener Peso",
+      "instructions": "Elige el adjetivo correcto.",
+      "questions": [
+        {
+          "question": "[[Activity|La actividad]] [[is|es]] _______ [[for|para]] [[your|tu]] [[health|salud]].",
+          "options": [
+            "[[important|importante]]",
+            "[[impossible|imposible]]",
+            "[[impatient|impaciente]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "La actividad física es 'important' (importante) para la salud general.",
+          "audio": "audio/b1/unit-17/e16.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b1/unit-17/e16.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b1-u17-e17",
@@ -431,79 +443,82 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Sports & Healthy Habits",
     "difficulty": "medium",
-    "transcript": "A spectator is a person who watches a sporting event in a stadium.",
+    "transcript": "You must not use your hands if you are playing football, unless you are the goalkeeper.",
     "content": {
-      "title": "El Espectador",
-      "instructions": "Selecciona el término para la persona que ve el deporte.",
+      "title": "Prohibición en Fútbol",
+      "instructions": "Selecciona el modal de prohibición.",
       "questions": [
         {
-          "question": "[[A|Un]] _______ [[watches|ve]] [[the|el]] [[game|partido]].",
+          "question": "[[You|Tú]] _______ [[touch|tocar]] [[the|el]] [[ball|balón]] [[with|con]] [[your|tus]] [[hands|manos]].",
           "options": [
-            "[[spectator|espectador]]",
-            "[[player|jugador]]",
-            "[[manager|gerente/entrenador]]"
+            "[[mustn't|no debes (prohibición)]]",
+            "[[don't have to|no tienes que]]",
+            "[[should|deberías]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Spectator' es alguien que observa el evento sin participar.",
+          "explanation": "'Mustn't' indica una prohibición estricta en las reglas del fútbol.",
           "audio": "audio/b1/unit-17/e17.mp3"
         }
       ]
     },
     "audioUrl": "audio/b1/unit-17/e17.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "b1-u17-e18",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "B1",
     "topic": "Sports & Healthy Habits",
     "difficulty": "medium",
-    "transcript": "Winning isn't as important as taking part and having fun.",
+    "transcript": "You shouldn't eat too much junk food every single day.",
     "content": {
-      "title": "Importancia de Participar",
-      "instructions": "Elige la estructura de comparación de igualdad.",
-      "questions": [
-        {
-          "question": "[[Winning|Ganar]] [[is|es]] _______ [[important|importante]] [[as|como]] [[participating|participar]].",
-          "options": [
-            "[[as|tan]]",
-            "[[more|más]]",
-            "[[less|menos]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "La estructura 'as + adjetivo + as' indica igualdad (o falta de ella si es negativa).",
-          "audio": "audio/b1/unit-17/e18.mp3"
-        }
-      ]
+      "title": "Comida Basura",
+      "instructions": "Ordena las palabras para formar un consejo negativo.",
+      "correctSentence": "[[You|Tú]] [[shouldn't|no deberías]] [[eat|comer]] [[too|demasiada]] [[much| ]] [[junk|basura]] [[food|comida]] [[every|cada]] [[single|solo]] [[day|día]].",
+      "words": [
+        "[[food|comida]]",
+        "[[day|día]].",
+        "[[shouldn't|no deberías]]",
+        "[[You|Tú]]",
+        "[[eat|comer]]",
+        "[[junk|basura]]",
+        "[[too|demasiada]]",
+        "[[much| ]]",
+        "[[every|cada]]",
+        "[[single|solo]]"
+      ],
+      "explanation": "Usamos 'shouldn't' para dar consejos negativos sobre hábitos poco saludables.",
+      "audio": "audio/b1/unit-17/e18.mp3"
     },
     "audioUrl": "audio/b1/unit-17/e18.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "b1-u17-e19",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "B1",
     "topic": "Sports & Healthy Habits",
     "difficulty": "medium",
-    "transcript": "Athletes have to follow a strict diet to perform at their best.",
+    "transcript": "A spectator is a person who watches an event, show, game, or activity.",
     "content": {
-      "title": "Dieta Estricta",
-      "instructions": "Ordena las palabras sobre la dieta de los atletas.",
-      "correctSentence": "[[Athletes|Los atletas]] [[have|tienen]] [[to|que]] [[follow|seguir]] [[a|una]] [[strict|estricta]] [[diet|dieta]].",
-      "words": [
-        "[[diet|dieta]].",
-        "[[follow|seguir]]",
-        "[[to|que]]",
-        "[[Athletes|Los atletas]]",
-        "[[have|tienen]]",
-        "[[strict|estricta]]",
-        "[[a|una]]"
-      ],
-      "explanation": "'Have to' indica una obligación externa (necesidad profesional).",
-      "audio": "audio/b1/unit-17/e19.mp3"
+      "title": "Espectadores",
+      "instructions": "Selecciona el término para alguien que ve el deporte.",
+      "questions": [
+        {
+          "question": "[[Thousands|Miles]] [[of|de]] _______ [[were|estaban]] [[at|en]] [[the|el]] [[stadium|estadio]].",
+          "options": [
+            "[[spectators|espectadores]]",
+            "[[athletes|atletas]]",
+            "[[coaches|entrenadores]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Spectators' son las personas que asisten a ver el evento deportivo.",
+          "audio": "audio/b1/unit-17/e19.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b1/unit-17/e19.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b1-u17-e20",
@@ -511,79 +526,82 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Sports & Healthy Habits",
     "difficulty": "medium",
-    "transcript": "I'm interested in joining the local rowing club this spring.",
+    "transcript": "Winning is important, but taking part and having fun is even more important.",
     "content": {
-      "title": "Interés Deportivo",
-      "instructions": "Elige la preposición y forma verbal correcta.",
+      "title": "Participación",
+      "instructions": "Elige la expresión para 'participar'.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[am|estoy]] [[interested|interesado]] _______ [[the|al]] [[club|club]].",
+          "question": "[[It|Es]] [[is| ]] [[good|bueno]] [[to| ]] _______ [[in|en]] [[school|escolares]] [[sports|deportes]].",
           "options": [
-            "[[in joining|en unirme]]",
-            "[[on joining|en unirme (incorrecto)]]",
-            "[[to join|en unirme (incorrecto)]]"
+            "[[take part|participar]]",
+            "[[take off|despegar]]",
+            "[[take over|tomar el control]]"
           ],
           "correctAnswer": 0,
-          "explanation": "La frase 'interested in' siempre va seguida de un verbo en gerundio (-ing).",
+          "explanation": "'Take part' es un phrasal verb que significa participar.",
           "audio": "audio/b1/unit-17/e20.mp3"
         }
       ]
     },
     "audioUrl": "audio/b1/unit-17/e20.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b1-u17-e21",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "B1",
     "topic": "Sports & Healthy Habits",
     "difficulty": "medium",
-    "transcript": "Cricket is a popular sport in many Commonwealth countries.",
+    "transcript": "Professional athletes must always follow a very strict daily diet.",
     "content": {
-      "title": "Deportes del Mundo",
-      "instructions": "Selecciona el nombre del deporte.",
-      "questions": [
-        {
-          "question": "[[They|Ellos]] [[play|juegan]] _______ [[with|con]] [[a|un]] [[bat|bate]] [[and|y]] [[a|una]] [[ball|bola]].",
-          "options": [
-            "[[cricket|críquet]]",
-            "[[skiing|esquí]]",
-            "[[swimming|natación]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "El críquet se juega con bate y bola en un campo grande.",
-          "audio": "audio/b1/unit-17/e21.mp3"
-        }
-      ]
+      "title": "Dieta de Atletas",
+      "instructions": "Ordena las palabras sobre la alimentación deportiva.",
+      "correctSentence": "[[Professional|Los profesionales]] [[athletes|atletas]] [[must|deben]] [[always|siempre]] [[follow|seguir]] [[a|una]] [[very|muy]] [[strict|estricta]] [[daily|diaria]] [[diet|dieta]].",
+      "words": [
+        "[[diet|dieta]].",
+        "[[must|deben]]",
+        "[[Professional|Los profesionales]]",
+        "[[follow|seguir]]",
+        "[[strict|estricta]]",
+        "[[athletes|atletas]]",
+        "[[always|siempre]]",
+        "[[a|una]]",
+        "[[very|muy]]",
+        "[[daily|diaria]]"
+      ],
+      "explanation": "Uso de modal 'must' para expresar una necesidad u obligación fuerte.",
+      "audio": "audio/b1/unit-17/e21.mp3"
     },
     "audioUrl": "audio/b1/unit-17/e21.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "b1-u17-e22",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "B1",
     "topic": "Sports & Healthy Habits",
     "difficulty": "medium",
-    "transcript": "It is important to sleep at least eight hours every night.",
+    "transcript": "Being part of a team can help you to develop social skills and build friendships.",
     "content": {
-      "title": "El Sueño",
-      "instructions": "Ordena las palabras sobre el descanso.",
-      "correctSentence": "[[It|Es]] [[is| ]] [[important|importante]] [[to| ]] [[sleep|dormir]] [[eight|ocho]] [[hours|horas]].",
-      "words": [
-        "[[hours|horas]].",
-        "[[sleep|dormir]]",
-        "[[is| ]]",
-        "[[eight|ocho]]",
-        "[[It|Es]]",
-        "[[important|importante]]",
-        "[[to| ]]"
-      ],
-      "explanation": "Estructura 'It is important + to-infinitive'.",
-      "audio": "audio/b1/unit-17/e22.mp3"
+      "title": "Habilidades Sociales",
+      "instructions": "Elige el verbo para 'desarrollar'.",
+      "questions": [
+        {
+          "question": "[[Sports|El deporte]] [[helps|ayuda]] [[to|a]] _______ [[social|sociales]] [[skills|habilidades]].",
+          "options": [
+            "[[develop|desarrollar]]",
+            "[[destroy|destruir]]",
+            "[[deny|negar]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Develop' significa desarrollar o mejorar habilidades con el tiempo.",
+          "audio": "audio/b1/unit-17/e22.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b1/unit-17/e22.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b1-u17-e23",
@@ -591,79 +609,83 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Sports & Healthy Habits",
     "difficulty": "medium",
-    "transcript": "He's much more active than his brother, who prefers playing video games.",
+    "transcript": "Injuries are common in sports, so players should always be careful.",
     "content": {
-      "title": "Niveles de Actividad",
-      "instructions": "Selecciona el comparativo de superioridad para un adjetivo largo.",
+      "title": "Lesiones",
+      "instructions": "Elige el término para las lesiones físicas.",
       "questions": [
         {
-          "question": "[[He|Él]] [[is|es]] _______ [[active|activo]] [[than|que]] [[his|su]] [[brother|hermano]].",
+          "question": "[[Players|Los jugadores]] [[try|intentan]] [[to| ]] [[avoid|evitar]] _______.",
           "options": [
-            "[[more|más]]",
-            "[[as|tan]]",
-            "[[the most|el más]]"
+            "[[injuries|lesiones]]",
+            "[[injustice|injusticia]]",
+            "[[industry|industria]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Con adjetivos de dos o más sílabas como 'active', usamos 'more' para comparar.",
+          "explanation": "'Injuries' son daños físicos que ocurren al hacer deporte.",
           "audio": "audio/b1/unit-17/e23.mp3"
         }
       ]
     },
     "audioUrl": "audio/b1/unit-17/e23.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b1-u17-e24",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "B1",
     "topic": "Sports & Healthy Habits",
     "difficulty": "medium",
-    "transcript": "You should avoid processed foods if you want to maintain a healthy weight.",
+    "transcript": "It is extremely important to sleep at least eight hours tonight.",
     "content": {
-      "title": "Alimentos Procesados",
-      "instructions": "Elige el verbo que significa 'evitar'.",
-      "questions": [
-        {
-          "question": "[[You|Tú]] [[should|deberías]] _______ [[processed|procesados]] [[foods|alimentos]].",
-          "options": [
-            "[[avoid|evitar]]",
-            "[[include|incluir]]",
-            "[[prepare|preparar]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "'Avoid' es el verbo para 'evitar' algo perjudicial.",
-          "audio": "audio/b1/unit-17/e24.mp3"
-        }
-      ]
+      "title": "Importancia del Sueño",
+      "instructions": "Ordena las palabras sobre el descanso.",
+      "correctSentence": "[[It|Es]] [[is| ]] [[extremely|extremadamente]] [[important|importante]] [[to| ]] [[sleep|dormir]] [[at|al]] [[least|menos]] [[eight|ocho]] [[hours|horas]] [[tonight|esta noche]].",
+      "words": [
+        "[[important|importante]]",
+        "[[hours|horas]]",
+        "[[to| ]]",
+        "[[sleep|dormir]]",
+        "[[is| ]]",
+        "[[eight|ocho]]",
+        "[[It|Es]]",
+        "[[extremely|extremadamente]]",
+        "[[at|al]]",
+        "[[least|menos]]",
+        "[[tonight|esta noche]]."
+      ],
+      "explanation": "Estructura 'It is + adjective + to + infinitive'.",
+      "audio": "audio/b1/unit-17/e24.mp3"
     },
     "audioUrl": "audio/b1/unit-17/e24.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "b1-u17-e25",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "B1",
     "topic": "Sports & Healthy Habits",
     "difficulty": "medium",
-    "transcript": "Walking to work is a good way to get some exercise.",
+    "transcript": "A tournament is a series of contests between a number of competitors.",
     "content": {
-      "title": "Caminar al Trabajo",
-      "instructions": "Ordena las palabras sobre hábitos diarios.",
-      "correctSentence": "[[Walking|Caminar]] [[to|al]] [[work|trabajo]] [[is|es]] [[a|una]] [[good|buena]] [[way|manera]].",
-      "words": [
-        "[[work|trabajo]]",
-        "[[way|manera]].",
-        "[[Walking|Caminar]]",
-        "[[is|es]]",
-        "[[a|una]]",
-        "[[to|al]]",
-        "[[good|buena]]"
-      ],
-      "explanation": "El gerundio 'Walking' funciona como el sujeto de la frase.",
-      "audio": "audio/b1/unit-17/e25.mp3"
+      "title": "El Torneo",
+      "instructions": "Selecciona el término para una serie de competiciones.",
+      "questions": [
+        {
+          "question": "[[They|Ellos]] [[won|ganaron]] [[the|el]] _______ [[last|el pasado]] [[year|año]].",
+          "options": [
+            "[[tournament|torneo]]",
+            "[[training|entrenamiento]]",
+            "[[timetable|horario]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Un 'tournament' es una competición organizada con múltiples participantes.",
+          "audio": "audio/b1/unit-17/e25.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b1/unit-17/e25.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b1-u17-e26",
@@ -671,79 +693,83 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Sports & Healthy Habits",
     "difficulty": "medium",
-    "transcript": "Cycling is becoming more popular as a sustainable way to commute.",
+    "transcript": "You should use sunscreen if you are exercising outdoors in the sun.",
     "content": {
-      "title": "Ciclismo Urbano",
-      "instructions": "Selecciona el gerundio correcto para la actividad.",
+      "title": "Protección Solar",
+      "instructions": "Selecciona el término para la crema solar.",
       "questions": [
         {
-          "question": "_______ [[is|es]] [[great|genial]] [[for|para]] [[the|el]] [[environment|medio ambiente]].",
+          "question": "[[Always|Siempre]] [[wear|usa]] _______ [[under|bajo]] [[the|el]] [[sun|sol]].",
           "options": [
-            "[[Cycling|El ciclismo]]",
-            "[[To cycle|Montar en bici (infinitivo)]]",
-            "[[Cycle|Monta en bici (imperativo)]]"
+            "[[sunscreen|protector solar]]",
+            "[[sunglasses|gafas de sol]]",
+            "[[sunlight|luz solar]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Usamos el gerundio (-ing) como sustantivo/sujeto para hablar de la actividad en general.",
+          "explanation": "'Sunscreen' es la crema necesaria para proteger la piel del sol.",
           "audio": "audio/b1/unit-17/e26.mp3"
         }
       ]
     },
     "audioUrl": "audio/b1/unit-17/e26.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b1-u17-e27",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "B1",
     "topic": "Sports & Healthy Habits",
     "difficulty": "medium",
-    "transcript": "A hockey player uses a stick to move the puck across the ice.",
+    "transcript": "Walking to work is always a good way to stay fit.",
     "content": {
-      "title": "Hockey sobre Hielo",
-      "instructions": "Elige el objeto que se usa en hockey.",
-      "questions": [
-        {
-          "question": "[[They|Ellos]] [[use|usan]] [[a|un]] _______ [[in|en]] [[hockey|hockey]].",
-          "options": [
-            "[[stick|palo de hockey]]",
-            "[[racket|raqueta]]",
-            "[[club|palo de golf]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "En hockey se usa un 'stick'.",
-          "audio": "audio/b1/unit-17/e27.mp3"
-        }
-      ]
+      "title": "Caminar",
+      "instructions": "Ordena las palabras para formar una oración sobre el ejercicio diario.",
+      "correctSentence": "[[Walking|Caminar]] [[to|al]] [[work|trabajo]] [[is|es]] [[always|siempre]] [[a|una]] [[good|buena]] [[way|forma]] [[to|de]] [[stay|mantenerse]] [[fit|en forma]].",
+      "words": [
+        "[[work|trabajo]]",
+        "[[Walking|Caminar]]",
+        "[[is|es]]",
+        "[[way|forma]]",
+        "[[a|una]]",
+        "[[good|buena]]",
+        "[[to|al]]",
+        "[[always|siempre]]",
+        "[[to|de]]",
+        "[[stay|mantenerse]]",
+        "[[fit|en forma]]."
+      ],
+      "explanation": "Gerundio 'Walking' como sujeto.",
+      "audio": "audio/b1/unit-17/e27.mp3"
     },
     "audioUrl": "audio/b1/unit-17/e27.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "b1-u17-e28",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "B1",
     "topic": "Sports & Healthy Habits",
     "difficulty": "medium",
-    "transcript": "She can run faster than anyone else in her class.",
+    "transcript": "To keep fit means to keep your body healthy and strong through exercise.",
     "content": {
-      "title": "La más Veloz",
-      "instructions": "Ordena las palabras para comparar habilidades.",
-      "correctSentence": "[[She|Ella]] [[can|puede]] [[run|correr]] [[faster|más rápido]] [[than|que]] [[the|los]] [[others|otros]].",
-      "words": [
-        "[[others|otros]].",
-        "[[can|puede]]",
-        "[[than|que]]",
-        "[[She|Ella]]",
-        "[[run|correr]]",
-        "[[the|los]]",
-        "[[faster|más rápido]]"
-      ],
-      "explanation": "'Faster than' es el comparativo de superioridad de 'fast'.",
-      "audio": "audio/b1/unit-17/e28.mp3"
+      "title": "Mantenerse en Forma",
+      "instructions": "Elige la expresión correcta.",
+      "questions": [
+        {
+          "question": "[[I|Yo]] [[exercise|hago ejercicio]] [[to|para]] _______.",
+          "options": [
+            "[[keep fit|mantenerme en forma]]",
+            "[[keep away|mantenerme alejado]]",
+            "[[keep up|seguir el ritmo]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Keep fit' es la expresión estándar para mantenerse saludable mediante ejercicio.",
+          "audio": "audio/b1/unit-17/e28.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b1/unit-17/e28.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b1-u17-e29",
@@ -751,78 +777,83 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Sports & Healthy Habits",
     "difficulty": "medium",
-    "transcript": "You must not smoke in the sports center; it's strictly forbidden.",
+    "transcript": "Mental health is as important as physical health for overall well-being.",
     "content": {
-      "title": "Prohibiciones",
-      "instructions": "Selecciona el modal de prohibición.",
+      "title": "Salud Mental",
+      "instructions": "Selecciona el adjetivo para la mente.",
       "questions": [
         {
-          "question": "[[You|Tú]] _______ [[smoke|fumar]] [[here|aquí]].",
+          "question": "_______ [[health|La salud]] [[is|es]] [[very|muy]] [[important|importante]].",
           "options": [
-            "[[mustn't|no debes (prohibición)]]",
-            "[[don't have to|no tienes que]]",
-            "[[shouldn't|no deberías]]"
+            "[[Mental|Mental]]",
+            "[[Metal|Metal]]",
+            "[[Monthly|Mensual]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Mustn't' indica que algo está prohibido por las reglas.",
+          "explanation": "'Mental health' se refiere al bienestar psicológico y emocional.",
           "audio": "audio/b1/unit-17/e29.mp3"
         }
       ]
     },
     "audioUrl": "audio/b1/unit-17/e29.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "b1-u17-e30",
-    "type": "multiple-choice",
-    "level": "B1",
-    "topic": "Sports & Healthy Habits",
-    "difficulty": "medium",
-    "transcript": "To go skiing, you need to travel to the mountains in the winter.",
-    "content": {
-      "title": "Esquí",
-      "instructions": "Elige el lugar para esquiar.",
-      "questions": [
-        {
-          "question": "[[You|Tú]] [[go|vas]] [[to|a]] [[the|las]] _______ [[to|para]] [[ski|esquiar]].",
-          "options": [
-            "[[mountains|montañas]]",
-            "[[beach|playa]]",
-            "[[forest|bosque]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "El esquí requiere nieve, que suele encontrarse en las 'mountains'.",
-          "audio": "audio/b1/unit-17/e30.mp3"
-        }
-      ]
-    },
-    "audioUrl": "audio/b1/unit-17/e30.mp3",
     "topicName": "Vocabulary"
   },
   {
-    "id": "b1-u17-e31",
+    "id": "b1-u17-e30",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Sports & Healthy Habits",
     "difficulty": "medium",
-    "transcript": "Having a healthy breakfast gives you energy for the whole day.",
+    "transcript": "She can run much faster than the other girls in class.",
     "content": {
-      "title": "Desayuno Saludable",
-      "instructions": "Ordena las palabras sobre el desayuno.",
-      "correctSentence": "[[A|Un]] [[healthy|saludable]] [[breakfast|desayuno]] [[gives|da]] [[you|tí]] [[energy|energía]].",
+      "title": "Comparación de Velocidad",
+      "instructions": "Ordena las palabras usando el comparativo.",
+      "correctSentence": "[[She|Ella]] [[can|puede]] [[run|correr]] [[much|mucho]] [[faster|más rápido]] [[than|que]] [[the|las]] [[other|otras]] [[girls|chicas]] [[in|en]] [[class|clase]].",
       "words": [
-        "[[energy|energía]].",
-        "[[breakfast|desayuno]]",
-        "[[A|Un]]",
-        "[[you|tí]]",
-        "[[gives|da]]",
-        "[[healthy|saludable]]"
+        "[[faster|más rápido]]",
+        "[[than|que]]",
+        "[[She|Ella]]",
+        "[[run|correr]]",
+        "[[can|puede]]",
+        "[[other|otras]]",
+        "[[girls|chicas]]",
+        "[[class|clase]].",
+        "[[much|mucho]]",
+        "[[the|las]]",
+        "[[in|en]]"
       ],
-      "explanation": "Sujeto + Verbo + Objeto Indirecto + Objeto Directo.",
-      "audio": "audio/b1/unit-17/e31.mp3"
+      "explanation": "Usamos 'much' + comparativo para enfatizar la diferencia.",
+      "audio": "audio/b1/unit-17/e30.mp3"
+    },
+    "audioUrl": "audio/b1/unit-17/e30.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u17-e31",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Sports & Healthy Habits",
+    "difficulty": "medium",
+    "transcript": "An opponent is someone who you compete against in a game or contest.",
+    "content": {
+      "title": "El Oponente",
+      "instructions": "Elige el término para el rival.",
+      "questions": [
+        {
+          "question": "[[Respect|Respeta]] [[your|a tu]] _______ [[during|durante]] [[the|el]] [[match|partido]].",
+          "options": [
+            "[[opponent|oponente/rival]]",
+            "[[teammate|compañero]]",
+            "[[supporter|seguidor]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Opponent' es la persona o equipo contra el que se compite.",
+          "audio": "audio/b1/unit-17/e31.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b1/unit-17/e31.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b1-u17-e32",
@@ -830,79 +861,83 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Sports & Healthy Habits",
     "difficulty": "medium",
-    "transcript": "Swimming is better for your joints than running on concrete.",
+    "transcript": "A medal is a small flat piece of metal given as a prize in a competition.",
     "content": {
-      "title": "Comparativo Irregular",
-      "instructions": "Selecciona el comparativo correcto de 'good'.",
+      "title": "Premios",
+      "instructions": "Selecciona el término para la medalla.",
       "questions": [
         {
-          "question": "[[Swimming|La natación]] [[is|es]] _______ [[than|que]] [[running|correr]].",
+          "question": "[[He|Él]] [[won|ganó]] [[the|la]] [[gold|de oro]] _______.",
           "options": [
-            "[[better|mejor]]",
-            "[[gooder|más bueno (incorrecto)]]",
-            "[[best|el mejor]]"
+            "[[medal|medalla]]",
+            "[[model|modelo]]",
+            "[[middle|medio]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Better' es el comparativo irregular de 'good'.",
+          "explanation": "En las competiciones se otorgan 'medals' de oro, plata o bronce.",
           "audio": "audio/b1/unit-17/e32.mp3"
         }
       ]
     },
     "audioUrl": "audio/b1/unit-17/e32.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b1-u17-e33",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "B1",
     "topic": "Sports & Healthy Habits",
     "difficulty": "medium",
-    "transcript": "Badminton is played with a shuttlecock instead of a ball.",
+    "transcript": "A healthy balanced breakfast gives you energy for the entire day.",
     "content": {
-      "title": "Bádminton",
-      "instructions": "Elige el objeto usado en bádminton.",
-      "questions": [
-        {
-          "question": "[[You|Tú]] [[hit|golpeas]] [[a|un]] _______ [[in|en]] [[badminton|bádminton]].",
-          "options": [
-            "[[shuttlecock|volante/pluma]]",
-            "[[puck|disco]]",
-            "[[ball|pelota]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "El objeto con plumas usado en bádminton se llama 'shuttlecock'.",
-          "audio": "audio/b1/unit-17/e33.mp3"
-        }
-      ]
+      "title": "Energía",
+      "instructions": "Ordena las palabras sobre la nutrición.",
+      "correctSentence": "[[A|Un]] [[healthy|saludable]] [[balanced|equilibrado]] [[breakfast|desayuno]] [[gives|da]] [[you|te]] [[energy|energía]] [[for|para]] [[the|el]] [[entire|entero]] [[day|día]].",
+      "words": [
+        "[[breakfast|desayuno]]",
+        "[[gives|da]]",
+        "[[energy|energía]]",
+        "[[A|Un]]",
+        "[[healthy|saludable]]",
+        "[[you|te]]",
+        "[[day|día]].",
+        "[[balanced|equilibrado]]",
+        "[[for|para]]",
+        "[[the|el]]",
+        "[[entire|entero]]"
+      ],
+      "explanation": "El desayuno proporciona la energía necesaria para afrontar la jornada.",
+      "audio": "audio/b1/unit-17/e33.mp3"
     },
     "audioUrl": "audio/b1/unit-17/e33.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "b1-u17-e34",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "B1",
     "topic": "Sports & Healthy Habits",
     "difficulty": "medium",
-    "transcript": "I would like to try indoor climbing next weekend.",
+    "transcript": "Stretching after a workout is helpful for preventing muscle pain.",
     "content": {
-      "title": "Planes Deportivos",
-      "instructions": "Ordena las palabras sobre una nueva actividad.",
-      "correctSentence": "[[I|Me]] [[would|gustaría]] [[like| ]] [[to| ]] [[try|probar]] [[indoor|escalada]] [[climbing|interior]].",
-      "words": [
-        "[[indoor|escalada]]",
-        "[[would|gustaría]]",
-        "[[I|Me]]",
-        "[[climbing|interior]].",
-        "[[try|probar]]",
-        "[[to| ]]",
-        "[[like| ]]"
-      ],
-      "explanation": "La estructura 'would like to' expresa un deseo o plan.",
-      "audio": "audio/b1/unit-17/e34.mp3"
+      "title": "Estiramientos",
+      "instructions": "Elige el término para estirar.",
+      "questions": [
+        {
+          "question": "_______ [[is|es]] [[essential|esencial]] [[after|después de]] [[exercise|ejercicio]].",
+          "options": [
+            "[[Stretching|Estirar]]",
+            "[[Stress|Estrés]]",
+            "[[Skipping|Saltar]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Stretching' ayuda a relajar los músculos tras el esfuerzo físico.",
+          "audio": "audio/b1/unit-17/e34.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b1/unit-17/e34.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b1-u17-e35",
@@ -910,20 +945,20 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Sports & Healthy Habits",
     "difficulty": "medium",
-    "transcript": "Boxing is a combat sport that requires great strength and speed.",
+    "transcript": "Athletics is a group of sporting events that involve competitive running, jumping, and throwing.",
     "content": {
-      "title": "Deportes de Combate",
-      "instructions": "Selecciona el nombre del deporte.",
+      "title": "Atletismo",
+      "instructions": "Selecciona el término para el atletismo.",
       "questions": [
         {
-          "question": "_______ [[is|es]] [[a|un]] [[combat|de combate]] [[sport|deporte]].",
+          "question": "[[I|Yo]] [[love|amo]] [[watching|ver]] _______ [[events|eventos]].",
           "options": [
-            "[[Boxing|El boxeo]]",
-            "[[Sailing|La vela]]",
-            "[[Golf|El golf]]"
+            "[[athletics|atletismo]]",
+            "[[maths|matemáticas]]",
+            "[[ethics|ética]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El boxeo es un deporte de combate.",
+          "explanation": "'Athletics' engloba diversas disciplinas como carreras, saltos y lanzamientos.",
           "audio": "audio/b1/unit-17/e35.mp3"
         }
       ]
@@ -933,55 +968,60 @@ export const UNIT_17_EXERCISES: Exercise[] = [
   },
   {
     "id": "b1-u17-e36",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "B1",
     "topic": "Sports & Healthy Habits",
     "difficulty": "medium",
-    "transcript": "If you exercise every day, you will feel more energetic.",
+    "transcript": "I would really like to try indoor rock climbing this weekend.",
     "content": {
-      "title": "Primer Condicional",
-      "instructions": "Elige la forma verbal correcta para el condicional.",
-      "questions": [
-        {
-          "question": "[[If|Si]] [[you|tú]] _______ [[every|cada]] [[day|día]], [[you|tú]] [[will|te]] [[feel|sentirás]] [[better|mejor]].",
-          "options": [
-            "[[exercise|haces ejercicio]]",
-            "[[will exercise|harás ejercicio (incorrecto)]]",
-            "[[exercised|hicieras ejercicio]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "En el primer condicional, la parte con 'if' va en presente simple.",
-          "audio": "audio/b1/unit-17/e36.mp3"
-        }
-      ]
+      "title": "Nuevos Deportes",
+      "instructions": "Ordena las palabras para expresar un deseo.",
+      "correctSentence": "[[I|Yo]] [[would|me]] [[really|realmente]] [[like|gustaría]] [[to| ]] [[try|probar]] [[indoor|interior]] [[rock|roca]] [[climbing|escalada]] [[this|este]] [[weekend|fin de semana]].",
+      "words": [
+        "[[like|gustaría]]",
+        "[[try|probar]]",
+        "[[I|Yo]]",
+        "[[would|me]]",
+        "[[climbing|escalada]]",
+        "[[indoor|interior]]",
+        "[[weekend|fin de semana]].",
+        "[[really|realmente]]",
+        "[[to| ]]",
+        "[[rock|roca]]",
+        "[[this|este]]"
+      ],
+      "explanation": "Estructura 'I would like to + verb'.",
+      "audio": "audio/b1/unit-17/e36.mp3"
     },
     "audioUrl": "audio/b1/unit-17/e36.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "b1-u17-e37",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "B1",
     "topic": "Sports & Healthy Habits",
     "difficulty": "medium",
-    "transcript": "Sleeping is as important as training for an athlete.",
+    "transcript": "Cycling is a low-impact exercise, which means it is gentle on your joints.",
     "content": {
-      "title": "Descanso del Atleta",
-      "instructions": "Ordena las palabras sobre el descanso y el entreno.",
-      "correctSentence": "[[Sleeping|Dormir]] [[is|es]] [[as|tan]] [[important|importante]] [[as|como]] [[training|entrenar]].",
-      "words": [
-        "[[important|importante]]",
-        "[[training|entrenar]].",
-        "[[as|como]]",
-        "[[Sleeping|Dormir]]",
-        "[[is|es]]",
-        "[[as|tan]]"
-      ],
-      "explanation": "Comparación de igualdad 'as ... as'.",
-      "audio": "audio/b1/unit-17/e37.mp3"
+      "title": "Ciclismo y Articulaciones",
+      "instructions": "Elige el término para 'articulaciones'.",
+      "questions": [
+        {
+          "question": "[[Cycling|El ciclismo]] [[is|es]] [[good|bueno]] [[for|para]] [[your|tus]] _______.",
+          "options": [
+            "[[joints|articulaciones]]",
+            "[[points|puntos]]",
+            "[[paints|pinturas]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Joints' son las articulaciones (rodillas, tobillos, etc.) que sufren menos con el ciclismo.",
+          "audio": "audio/b1/unit-17/e37.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b1/unit-17/e37.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b1-u17-e38",
@@ -989,79 +1029,84 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Sports & Healthy Habits",
     "difficulty": "medium",
-    "transcript": "To play basketball, you need to wear trainers with good grip.",
+    "transcript": "In many countries, football is the most popular sport among teenagers.",
     "content": {
-      "title": "Calzado Deportivo",
-      "instructions": "Selecciona el término para zapatillas de deporte.",
+      "title": "Popularidad Deportiva",
+      "instructions": "Elige el superlativo de popular.",
       "questions": [
         {
-          "question": "[[You|Tú]] [[need|necesitas]] _______ [[to|para]] [[play|jugar]] [[sports|deportes]].",
+          "question": "[[Football|El fútbol]] [[is|es]] [[the|el]] _______ [[sport|deporte]].",
           "options": [
-            "[[trainers|zapatillas]]",
-            "[[boots|botas de vestir]]",
-            "[[sandals|sandalias]]"
+            "[[most popular|más popular]]",
+            "[[more popular|más popular (comparativo)]]",
+            "[[popular|popular]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Trainers' (UK) o 'sneakers' (US) son las zapatillas para hacer deporte.",
+          "explanation": "Como 'popular' es un adjetivo largo, usamos 'the most' para el superlativo.",
           "audio": "audio/b1/unit-17/e38.mp3"
         }
       ]
     },
     "audioUrl": "audio/b1/unit-17/e38.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "b1-u17-e39",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "B1",
     "topic": "Sports & Healthy Habits",
     "difficulty": "medium",
-    "transcript": "They have been playing football for two hours now.",
+    "transcript": "Sleeping is just as important for recovery as daily physical training.",
     "content": {
-      "title": "Presente Perfecto Continuo",
-      "instructions": "Elige la forma verbal que indica una acción que continúa.",
-      "questions": [
-        {
-          "question": "[[They|Ellos]] _______ [[football|fútbol]] [[since|desde]] [[two|las dos]].",
-          "options": [
-            "[[have been playing|han estado jugando]]",
-            "[[are playing|están jugando]]",
-            "[[played|jugaron]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "El presente perfecto continuo indica una acción que empezó en el pasado y sigue ocurriendo.",
-          "audio": "audio/b1/unit-17/e39.mp3"
-        }
-      ]
+      "title": "Descanso y Entrenamiento",
+      "instructions": "Ordena las palabras para hacer una comparación de igualdad.",
+      "correctSentence": "[[Sleeping|Dormir]] [[is|es]] [[just|justo]] [[as|tan]] [[important|importante]] [[for|para]] [[recovery|recuperación]] [[as|como]] [[daily|diario]] [[physical|físico]] [[training|entrenamiento]].",
+      "words": [
+        "[[important|importante]]",
+        "[[as|como]]",
+        "[[training|entrenamiento]].",
+        "[[as|tan]]",
+        "[[is|es]]",
+        "[[Sleeping|Dormir]]",
+        "[[physical|físico]]",
+        "[[recovery|recuperación]]",
+        "[[just|justo]]",
+        "[[as|tan]]",
+        "[[for|para]]",
+        "[[daily|diario]]"
+      ],
+      "explanation": "Estructura 'as + adjective + as' para comparar dos cosas de igual nivel.",
+      "audio": "audio/b1/unit-17/e39.mp3"
     },
     "audioUrl": "audio/b1/unit-17/e39.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "b1-u17-e40",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "B1",
     "topic": "Sports & Healthy Habits",
     "difficulty": "medium",
-    "transcript": "You should not drink too much coffee before bed.",
+    "transcript": "A personal trainer creates a customized workout plan for you.",
     "content": {
-      "title": "Cafeína y Sueño",
-      "instructions": "Ordena las palabras para dar un consejo.",
-      "correctSentence": "[[Don't|No]] [[drink|bebas]] [[too|demasiado]] [[much| ]] [[coffee|café]] [[before|antes de]] [[bed|dormir]].",
-      "words": [
-        "[[much| ]]",
-        "[[bed|dormir]].",
-        "[[Don't|No]]",
-        "[[drink|bebas]]",
-        "[[before|antes de]]",
-        "[[too|demasiado]]",
-        "[[coffee|café]]"
-      ],
-      "explanation": "El imperativo negativo se forma con 'Don't + verbo'.",
-      "audio": "audio/b1/unit-17/e40.mp3"
+      "title": "Entrenador Personal",
+      "instructions": "Selecciona el término para el entrenador personal.",
+      "questions": [
+        {
+          "question": "[[I|Yo]] [[hired|contraté]] [[a|un]] _______.",
+          "options": [
+            "[[personal trainer|entrenador personal]]",
+            "[[private doctor|médico privado]]",
+            "[[public speaker|orador público]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Un 'personal trainer' te ayuda de forma individualizada con tus objetivos físicos.",
+          "audio": "audio/b1/unit-17/e40.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b1/unit-17/e40.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b1-u17-e41",
@@ -1069,79 +1114,83 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Sports & Healthy Habits",
     "difficulty": "medium",
-    "transcript": "A medal is the prize given to the top three athletes in a competition.",
+    "transcript": "Yoga is as relaxing as meditation for many practitioners.",
     "content": {
-      "title": "Premios Deportivos",
-      "instructions": "Selecciona el término para el premio.",
+      "title": "Comparación de Igualdad",
+      "instructions": "Selecciona la estructura correcta para comparar igualdades.",
       "questions": [
         {
-          "question": "[[The|El]] [[winner|ganador]] [[gets|obtiene]] [[a|una]] [[gold|de oro]] _______.",
+          "question": "[[Yoga|El yoga]] [[is|es]] _______ [[relaxing|relajante]] _______ [[meditation|la meditación]].",
           "options": [
-            "[[medal|medalla]]",
-            "[[score|puntuación]]",
-            "[[whistle|silbato]]"
+            "[[as / as|tan / como]]",
+            "[[more / than|más / que]]",
+            "[[the / most|el / más]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Los ganadores reciben medallas (gold, silver, bronze).",
+          "explanation": "Usamos 'as ... as' para decir que dos cosas son iguales en alguna cualidad.",
           "audio": "audio/b1/unit-17/e41.mp3"
         }
       ]
     },
     "audioUrl": "audio/b1/unit-17/e41.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "b1-u17-e42",
-    "type": "multiple-choice",
-    "level": "B1",
-    "topic": "Sports & Healthy Habits",
-    "difficulty": "medium",
-    "transcript": "That was the most exciting match I have ever seen.",
-    "content": {
-      "title": "El Partido más Emocionante",
-      "instructions": "Elige el superlativo de un adjetivo largo.",
-      "questions": [
-        {
-          "question": "[[It|Fue]] [[was| ]] _______ [[exciting|emocionante]] [[match|partido]].",
-          "options": [
-            "[[the most|el más]]",
-            "[[more|más]]",
-            "[[as|tan]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Para el superlativo de adjetivos largos usamos 'the most'.",
-          "audio": "audio/b1/unit-17/e42.mp3"
-        }
-      ]
-    },
-    "audioUrl": "audio/b1/unit-17/e42.mp3",
     "topicName": "Grammar"
   },
   {
-    "id": "b1-u17-e43",
+    "id": "b1-u17-e42",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Sports & Healthy Habits",
     "difficulty": "medium",
-    "transcript": "Taking the stairs instead of the lift is an easy way to move more.",
+    "transcript": "You should not drink too much coffee late at the night.",
     "content": {
-      "title": "Usa las Escaleras",
-      "instructions": "Ordena las palabras sobre hábitos activos.",
-      "correctSentence": "[[Take|Usa]] [[the|las]] [[stairs|escaleras]] [[instead|en vez]] [[of|de]] [[the|el]] [[lift|ascensor]].",
+      "title": "Consejo de Cafeína",
+      "instructions": "Ordena las palabras sobre el consumo de café.",
+      "correctSentence": "[[You|Tú]] [[should|deberías]] [[not|no]] [[drink|beber]] [[too|demasiado]] [[much| ]] [[coffee|café]] [[late|tarde]] [[at|por]] [[the|la]] [[night|noche]].",
       "words": [
-        "[[lift|ascensor]].",
-        "[[stairs|escaleras]]",
-        "[[instead|en vez]]",
-        "[[of|de]]",
-        "[[Take|Usa]]",
-        "[[the|las]]",
-        "[[the|el]]"
+        "[[drink|beber]]",
+        "[[coffee|café]]",
+        "[[You|Tú]]",
+        "[[night|noche]].",
+        "[[too|demasiado]]",
+        "[[should|deberías]]",
+        "[[much| ]]",
+        "[[not|no]]",
+        "[[late|tarde]]",
+        "[[at|por]]",
+        "[[the|la]]"
       ],
-      "explanation": "Uso de 'instead of' para proponer una alternativa.",
-      "audio": "audio/b1/unit-17/e43.mp3"
+      "explanation": "Consejo negativo usando 'should not'.",
+      "audio": "audio/b1/unit-17/e42.mp3"
+    },
+    "audioUrl": "audio/b1/unit-17/e42.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u17-e43",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Sports & Healthy Habits",
+    "difficulty": "medium",
+    "transcript": "Hydration is the process of providing an adequate amount of water to your body tissues.",
+    "content": {
+      "title": "Proceso de Hidratación",
+      "instructions": "Elige la palabra que significa hidratación.",
+      "questions": [
+        {
+          "question": "_______ [[is|es]] [[crucial|crucial]] [[for|para]] [[athletes|atletas]].",
+          "options": [
+            "[[Hydration|Hidratación]]",
+            "[[Hesitation|Vacilación]]",
+            "[[Migration|Migración]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Hydration' es el sustantivo que describe el acto de hidratarse.",
+          "audio": "audio/b1/unit-17/e43.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b1/unit-17/e43.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b1-u17-e44",
@@ -1149,76 +1198,80 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Sports & Healthy Habits",
     "difficulty": "medium",
-    "transcript": "Sailing is a great sport if you enjoy being on the water.",
+    "transcript": "Basketball players are often the tallest members of a sports club.",
     "content": {
-      "title": "Deportes Acuáticos",
-      "instructions": "Selecciona el deporte que se practica en un barco.",
+      "title": "Superlativo de Altura",
+      "instructions": "Elige el superlativo de 'tall'.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[love|amo]] _______ [[in|en]] [[the|el]] [[ocean|océano]].",
+          "question": "[[They|Ellos]] [[are|son]] [[the|los]] _______ [[players|jugadores]].",
           "options": [
-            "[[sailing|la vela]]",
-            "[[jogging|el footing]]",
-            "[[skiing|el esquí]]"
+            "[[tallest|más altos]]",
+            "[[taller|más altos (comparativo)]]",
+            "[[most tall|más altos (incorrecto)]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Sailing' es navegar a vela.",
+          "explanation": "Para el superlativo de adjetivos cortos, añadimos '-est'.",
           "audio": "audio/b1/unit-17/e44.mp3"
         }
       ]
     },
     "audioUrl": "audio/b1/unit-17/e44.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "b1-u17-e45",
-    "type": "multiple-choice",
-    "level": "B1",
-    "topic": "Sports & Healthy Habits",
-    "difficulty": "medium",
-    "transcript": "She's much better at tennis than her sister.",
-    "content": {
-      "title": "Habilidad Comparativa",
-      "instructions": "Elige la combinación correcta de adjetivo y preposición.",
-      "questions": [
-        {
-          "question": "[[She|Ella]] [[is|es]] _______ [[tennis|el tenis]].",
-          "options": [
-            "[[better at|mejor en]]",
-            "[[better in|mejor en (incorrecto)]]",
-            "[[good at|buena en]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Somos 'good at' o 'better at' una actividad o deporte.",
-          "audio": "audio/b1/unit-17/e45.mp3"
-        }
-      ]
-    },
-    "audioUrl": "audio/b1/unit-17/e45.mp3",
     "topicName": "Grammar"
   },
   {
-    "id": "b1-u17-e46",
+    "id": "b1-u17-e45",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Sports & Healthy Habits",
     "difficulty": "medium",
-    "transcript": "Eating fruits and vegetables is vital for your immune system.",
+    "transcript": "Always take the stairs instead of using the elevator every day.",
     "content": {
-      "title": "Frutas y Verduras",
-      "instructions": "Ordena las palabras sobre nutrición.",
-      "correctSentence": "[[Eat|Come]] [[more|más]] [[fruits|frutas]] [[and|y]] [[vegetables|verduras]] [[every|cada]] [[day|día]].",
+      "title": "Ejercicio Diario",
+      "instructions": "Ordena las palabras para un consejo de vida activa.",
+      "correctSentence": "[[Always|Siempre]] [[take|toma]] [[the|las]] [[stairs|escaleras]] [[instead|en vez]] [[of|de]] [[using|usar]] [[the|el]] [[elevator|ascensor]] [[every|cada]] [[day|día]].",
       "words": [
+        "[[stairs|escaleras]]",
+        "[[elevator|ascensor]]",
+        "[[of|de]]",
+        "[[Always|Siempre]]",
+        "[[take|toma]]",
+        "[[instead|en vez]]",
         "[[day|día]].",
-        "[[vegetables|verduras]]",
-        "[[more|más]]",
-        "[[fruits|frutas]]",
-        "[[Eat|Come]]",
-        "[[every|cada]]",
-        "[[and|y]]"
+        "[[using|usar]]",
+        "[[the|las]]",
+        "[[the|el]]",
+        "[[every|cada]]"
       ],
-      "explanation": "Oración imperativa para dar un consejo nutricional.",
-      "audio": "audio/b1/unit-17/e46.mp3"
+      "explanation": "Expresión 'instead of' (en lugar de) para sugerir alternativas saludables.",
+      "audio": "audio/b1/unit-17/e45.mp3"
+    },
+    "audioUrl": "audio/b1/unit-17/e45.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u17-e46",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "Sports & Healthy Habits",
+    "difficulty": "medium",
+    "transcript": "Consistency is more important than intensity when you start a new routine.",
+    "content": {
+      "title": "Constancia",
+      "instructions": "Elige el comparativo de importante.",
+      "questions": [
+        {
+          "question": "[[Consistency|La constancia]] [[is|es]] _______ [[than|que]] [[intensity|la intensidad]].",
+          "options": [
+            "[[more important|más importante]]",
+            "[[most important|la más importante]]",
+            "[[important|importante]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'more important than' para comparar dos conceptos abstractos.",
+          "audio": "audio/b1/unit-17/e46.mp3"
+        }
+      ]
     },
     "audioUrl": "audio/b1/unit-17/e46.mp3",
     "topicName": "Grammar"
@@ -1229,20 +1282,20 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Sports & Healthy Habits",
     "difficulty": "medium",
-    "transcript": "Jogging is a popular way for people to stay fit without spending money.",
+    "transcript": "A gym membership allows you to use all the facilities including the weights room.",
     "content": {
-      "title": "Footing",
-      "instructions": "Selecciona el término para correr suavemente.",
+      "title": "Membresía del Gimnasio",
+      "instructions": "Elige el término para las instalaciones.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[go|voy]] _______ [[every|cada]] [[morning|mañana]].",
+          "question": "[[The|El]] [[gym|gimnasio]] [[has|tiene]] [[great|grandes]] _______.",
           "options": [
-            "[[jogging|hacer footing]]",
-            "[[surfing|hacer surf]]",
-            "[[skating|patinar]]"
+            "[[facilities|instalaciones]]",
+            "[[faculties|facultades]]",
+            "[[factories|fábricas]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Jogging' es correr a un ritmo moderado para hacer ejercicio.",
+          "explanation": "'Facilities' se refiere a los espacios y equipos disponibles en un lugar como un gimnasio.",
           "audio": "audio/b1/unit-17/e47.mp3"
         }
       ]
@@ -1252,80 +1305,88 @@ export const UNIT_17_EXERCISES: Exercise[] = [
   },
   {
     "id": "b1-u17-e48",
-    "type": "multiple-choice",
-    "level": "B1",
-    "topic": "Sports & Healthy Habits",
-    "difficulty": "medium",
-    "transcript": "You must listen to your body and rest if you feel pain.",
-    "content": {
-      "title": "Escucha a tu Cuerpo",
-      "instructions": "Elige el modal que indica una necesidad fuerte.",
-      "questions": [
-        {
-          "question": "[[You|Tú]] _______ [[rest|descansar]] [[if|si]] [[you|te]] [[are|sientes]] [[hurt|herido]].",
-          "options": [
-            "[[must|debes]]",
-            "[[can|puedes]]",
-            "[[may|podrías]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "'Must' expresa aquí una recomendación médica o de salud muy fuerte.",
-          "audio": "audio/b1/unit-17/e48.mp3"
-        }
-      ]
-    },
-    "audioUrl": "audio/b1/unit-17/e48.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "b1-u17-e49",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Sports & Healthy Habits",
     "difficulty": "medium",
-    "transcript": "Professional athletes train for several hours every single day.",
+    "transcript": "You should eat more fresh fruits and green vegetables every single day.",
     "content": {
-      "title": "Entrenamiento Profesional",
-      "instructions": "Ordena las palabras sobre el entrenamiento diario.",
-      "correctSentence": "[[They|Ellos]] [[train|entrenan]] [[for|durante]] [[many|muchas]] [[hours|horas]] [[every|cada]] [[day|día]].",
+      "title": "Dieta Saludable",
+      "instructions": "Ordena las palabras para formar un consejo nutricional.",
+      "correctSentence": "[[You|Tú]] [[should|deberías]] [[eat|comer]] [[more|más]] [[fresh|frescas]] [[fruits|frutas]] [[and|y]] [[green|verdes]] [[vegetables|verduras]] [[every|cada]] [[single|solo]] [[day|día]].",
       "words": [
-        "[[hours|horas]]",
-        "[[train|entrenan]]",
-        "[[every|cada]]",
-        "[[They|Ellos]]",
-        "[[for|durante]]",
+        "[[fruits|frutas]]",
+        "[[vegetables|verduras]]",
+        "[[more|más]]",
+        "[[You|Tú]]",
         "[[day|día]].",
-        "[[many|muchas]]"
+        "[[should|deberías]]",
+        "[[eat|comer]]",
+        "[[and|y]]",
+        "[[fresh|frescas]]",
+        "[[green|verdes]]",
+        "[[every|cada]]",
+        "[[single|solo]]"
       ],
-      "explanation": "Sujeto + Verbo + Complemento de duración + Complemento de frecuencia.",
-      "audio": "audio/b1/unit-17/e49.mp3"
+      "explanation": "Combinación de modal 'should' con vocabulario de alimentos.",
+      "audio": "audio/b1/unit-17/e48.mp3"
     },
-    "audioUrl": "audio/b1/unit-17/e49.mp3",
-    "topicName": "Grammar"
+    "audioUrl": "audio/b1/unit-17/e48.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    "id": "b1-u17-e50",
+    "id": "b1-u17-e49",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Sports & Healthy Habits",
     "difficulty": "medium",
-    "transcript": "Stretching after a workout helps to prevent muscle stiffness.",
+    "transcript": "Endurance is the ability to keep doing something difficult for a long time.",
     "content": {
-      "title": "Estiramientos",
-      "instructions": "Selecciona el verbo que significa estirar.",
+      "title": "Resistencia",
+      "instructions": "Elige la palabra que significa resistencia física.",
       "questions": [
         {
-          "question": "[[Don't|No]] [[forget|olvides]] [[to| ]] _______ [[after|después de]] [[exercise|ejercicio]].",
+          "question": "[[Running|Correr]] [[builds|construye]] _______.",
           "options": [
-            "[[stretch|estirar]]",
-            "[[jump|saltar]]",
-            "[[sleep|dormir]]"
+            "[[endurance|resistencia]]",
+            "[[entrance|entrada]]",
+            "[[evidence|evidencia]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Stretch' es estirar los músculos, algo vital después del ejercicio.",
-          "audio": "audio/b1/unit-17/e50.mp3"
+          "explanation": "'Endurance' es la capacidad de resistir el cansancio durante mucho tiempo.",
+          "audio": "audio/b1/unit-17/e49.mp3"
         }
       ]
+    },
+    "audioUrl": "audio/b1/unit-17/e49.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u17-e50",
+    "type": "sentence-building",
+    "level": "B1",
+    "topic": "Sports & Healthy Habits",
+    "difficulty": "medium",
+    "transcript": "The players train for many hours every day during the summer.",
+    "content": {
+      "title": "Entrenamiento Diario",
+      "instructions": "Ordena las palabras sobre la rutina de entrenamiento.",
+      "correctSentence": "[[The|Los]] [[players|jugadores]] [[train|entrenan]] [[for|por]] [[many|muchas]] [[hours|horas]] [[every|cada]] [[day|día]] [[during|durante]] [[the|el]] [[summer|verano]].",
+      "words": [
+        "[[hours|horas]]",
+        "[[train|entrenan]]",
+        "[[every|cada]]",
+        "[[The|Los]]",
+        "[[day|día]].",
+        "[[for|por]]",
+        "[[many|muchas]]",
+        "[[players|jugadores]]",
+        "[[during|durante]]",
+        "[[summer|verano]]",
+        "[[the|el]]"
+      ],
+      "explanation": "Uso del presente simple para hábitos y rutinas.",
+      "audio": "audio/b1/unit-17/e50.mp3"
     },
     "audioUrl": "audio/b1/unit-17/e50.mp3",
     "topicName": "Vocabulary"

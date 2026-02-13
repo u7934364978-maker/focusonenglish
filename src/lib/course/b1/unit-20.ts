@@ -65,14 +65,18 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Reglas de Tráfico",
       "instructions": "Ordena la prohibición sobre conducir.",
-      "correctSentence": "[[You|Tú]] [[must|debes]] [[not|no]] [[drive|conducir]] [[without|sin]] [[license|licencia]].",
+      "correctSentence": "[[You|Tú]] [[must|debes]] [[never|nunca]] [[drive|conducir]] [[any|ningún]] [[vehicle|vehículo]] [[without|sin]] [[a|una]] [[valid|válida]] [[license|licencia]].",
       "words": [
         "[[license|licencia]].",
         "[[must|debes]]",
-        "[[not|no]]",
+        "[[never|nunca]]",
         "[[You|Tú]]",
         "[[drive|conducir]]",
-        "[[without|sin]]"
+        "[[without|sin]]",
+        "[[any|ningún]]",
+        "[[vehicle|vehículo]]",
+        "[[a|una]]",
+        "[[valid|válida]]"
       ],
       "explanation": "'Must not' se usa para expresar prohibición.",
       "audio": "audio/b1/unit-20/e3.mp3"
@@ -171,12 +175,18 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Atrapado",
       "instructions": "Ordena la oración sobre la detención de un ladrón.",
-      "correctSentence": "[[The|La]] [[police|policía]] [[caught|atrapó]] [[the|al]] [[thief|ladrón]].",
+      "correctSentence": "[[The|La]] [[local|local]] [[police|policía]] [[finally|finalmente]] [[caught|atrapó]] [[the|al]] [[dangerous|peligroso]] [[thief|ladrón]] [[last|la pasada]] [[night|noche]].",
       "words": [
-        "[[thief|ladrón]].",
+        "[[thief|ladrón]]",
         "[[police|policía]]",
         "[[The|La]]",
-        "[[caught|atrapó]]"
+        "[[caught|atrapó]]",
+        "[[local|local]]",
+        "[[finally|finalmente]]",
+        "[[dangerous|peligroso]]",
+        "[[last|la pasada]]",
+        "[[night|noche]].",
+        "[[the|al]]"
       ],
       "explanation": "Sujeto + verbo (pasado) + objeto.",
       "audio": "audio/b1/unit-20/e7.mp3"
@@ -275,13 +285,18 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "En Prisión",
       "instructions": "Ordena la frase sobre una condena de cárcel.",
-      "correctSentence": "[[He|Él]] [[was|fue]] [[sent|enviado]] [[to|a]] [[prison|prisión]].",
+      "correctSentence": "[[He|Él]] [[was|fue]] [[immediately|inmediatamente]] [[sent|enviado]] [[to|a]] [[prison|prisión]] [[for|por]] [[several|varios]] [[long|largos]] [[years|años]].",
       "words": [
-        "[[prison|prisión]].",
+        "[[prison|prisión]]",
         "[[sent|enviado]]",
         "[[He|Él]]",
         "[[was|fue]]",
-        "[[to|a]]"
+        "[[to|a]]",
+        "[[immediately|inmediatamente]]",
+        "[[for|por]]",
+        "[[several|varios]]",
+        "[[long|largos]]",
+        "[[years|años]]."
       ],
       "explanation": "Estructura pasiva: Sujeto + was/were + participio.",
       "audio": "audio/b1/unit-20/e11.mp3"
@@ -380,15 +395,20 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Aparcamiento",
       "instructions": "Ordena la pregunta sobre la obligación de pagar.",
-      "correctSentence": "[[Do|¿]] [[you|tú]] [[have|tienes]] [[to|que]] [[pay|pagar]] [[here|aquí]] [[?|?]]",
+      "correctSentence": "[[Do|¿]] [[you|tú]] [[really|realmente]] [[have|tienes]] [[to|que]] [[pay|pagar]] [[for|por]] [[parking|aparcamiento]] [[around|alrededor de]] [[this|esta]] [[area|área]] [[?|?]]",
       "words": [
         "[[pay|pagar]]",
         "[[Do|¿]]",
-        "[[here|aquí]]",
+        "[[area|área]]",
         "[[have|tienes]]",
         "[[to|que]]",
         "[[?|?]]",
-        "[[you|tú]]"
+        "[[you|tú]]",
+        "[[really|realmente]]",
+        "[[for|por]]",
+        "[[parking|aparcamiento]]",
+        "[[around|alrededor de]]",
+        "[[this|esta]]"
       ],
       "explanation": "Pregunta con 'have to': Do + sujeto + have to + verbo.",
       "audio": "audio/b1/unit-20/e15.mp3"
@@ -460,13 +480,18 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Identificación",
       "instructions": "Ordena la frase sobre la falta de permiso.",
-      "correctSentence": "[[You|Tú]] [[can't|no puedes]] [[enter|entrar]] [[without|sin]] [[ID|DNI]].",
+      "correctSentence": "[[You|Tú]] [[certainly|ciertamente]] [[cannot|no puedes]] [[enter|entrar]] [[this|este]] [[building|edificio]] [[without|sin]] [[showing|mostrar]] [[your|tu]] [[ID|DNI]].",
       "words": [
         "[[without|sin]]",
         "[[ID|DNI]].",
         "[[enter|entrar]]",
         "[[You|Tú]]",
-        "[[can't|no puedes]]"
+        "[[cannot|no puedes]]",
+        "[[certainly|ciertamente]]",
+        "[[this|este]]",
+        "[[building|edificio]]",
+        "[[showing|mostrar]]",
+        "[[your|tu]]"
       ],
       "explanation": "'Can't' expresa falta de permiso o prohibición.",
       "audio": "audio/b1/unit-20/e18.mp3"
@@ -538,12 +563,19 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Prohibición",
       "instructions": "Ordena la frase sobre la prohibición de fumar.",
-      "correctSentence": "[[Smoking|Fumar]] [[is|no]] [[not|está]] [[allowed|permitido]].",
+      "correctSentence": "[[Smoking|Fumar]] [[is|está]] [[strictly|estrictamente]] [[not|no]] [[allowed|permitido]] [[inside|dentro de]] [[any|cualquier]] [[part|parte]] [[of|de]] [[this|este]] [[hospital|hospital]].",
       "words": [
-        "[[allowed|permitido]].",
+        "[[allowed|permitido]]",
         "[[is|está]]",
         "[[not|no]]",
-        "[[Smoking|Fumar]]"
+        "[[Smoking|Fumar]]",
+        "[[strictly|estrictamente]]",
+        "[[inside|dentro de]]",
+        "[[any|cualquier]]",
+        "[[part|parte]]",
+        "[[of|de]]",
+        "[[this|este]]",
+        "[[hospital|hospital]]."
       ],
       "explanation": "'Not allowed' es una forma común de indicar prohibición.",
       "audio": "audio/b1/unit-20/e21.mp3"
@@ -615,13 +647,19 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Respeto a la Ley",
       "instructions": "Ordena la frase sobre el cumplimiento de las leyes.",
-      "correctSentence": "[[Respect|Respeta]] [[the|las]] [[rules|reglas]] [[of|de]] [[society|sociedad]].",
+      "correctSentence": "[[We|Nosotros]] [[must|debemos]] [[always|siempre]] [[respect|respetar]] [[the|las]] [[important|importantes]] [[rules|reglas]] [[of|de]] [[our|nuestra]] [[modern|moderna]] [[society|sociedad]].",
       "words": [
         "[[rules|reglas]]",
         "[[Respect|Respeta]]",
         "[[society|sociedad]].",
         "[[the|las]]",
-        "[[of|de]]"
+        "[[of|de]]",
+        "[[We|Nosotros]]",
+        "[[must|debemos]]",
+        "[[always|siempre]]",
+        "[[important|importantes]]",
+        "[[our|nuestra]]",
+        "[[modern|moderna]]"
       ],
       "explanation": "Imperativo + objeto.",
       "audio": "audio/b1/unit-20/e24.mp3"

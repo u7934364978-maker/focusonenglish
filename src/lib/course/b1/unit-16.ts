@@ -230,21 +230,20 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras sobre el secreto profesional.",
-      "correctSentence": "[[The|La]] [[source|fuente]] [[refused|se negó]] [[to|a]] [[reveal|revelar]] [[where|dónde]] [[they|ellos]] [[had|habían]] [[got|obtenido]] [[the|la]] [[information|información]].",
+      "correctSentence": "[[The|La]] [[source|fuente]] [[refused|se negó]] [[to|a]] [[reveal|revelar]] [[the|la]] [[secret|secreta]] [[info|información]] [[about|sobre]] [[the|el]] [[case|caso]].",
       "words": [
         "[[reveal|revelar]]",
-        "[[they|ellos]]",
-        "[[information|información]].",
+        "[[case|caso]].",
         "[[The|La]]",
         "[[source|fuente]]",
         "[[refused|se negó]]",
-        "[[where|dónde]]",
-        "[[had|habían]]",
-        "[[got|obtenido]]",
-        "[[the|la]]",
+        "[[secret|secreta]]",
+        "[[info|información]]",
+        "[[about|sobre]]",
+        "[[the|el]]",
         "[[to|a]]"
       ],
-      "explanation": "Vocabulario clave: 'source' (fuente) y verbos de reporte en pasado.",
+      "explanation": "Vocabulario clave: 'source' (fuente) y 'refused to reveal' (se negó a revelar).",
       "audio": "audio/b1/unit-16/e9.mp3"
     },
     "audioUrl": "audio/b1/unit-16/e9.mp3",
@@ -642,7 +641,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras sobre el proceso de publicación.",
-      "correctSentence": "[[The|El]] [[newspaper|periódico]] [[is|es]] [[printed|impreso]] [[every|cada]] [[night|noche]] [[and|y]] [[delivered|entregado]] [[early|temprano]] [[in|en]] [[the|la]] [[morning|mañana]].",
+      "correctSentence": "[[The|El]] [[newspaper|periódico]] [[is|es]] [[printed|impreso]] [[every|cada]] [[night|noche]] [[and|y]] [[delivered|entregado]] [[early|temprano]] [[daily|diariamente]].",
       "words": [
         "[[printed|impreso]]",
         "[[and|y]]",
@@ -650,12 +649,10 @@ export const UNIT_16_EXERCISES: Exercise[] = [
         "[[newspaper|periódico]]",
         "[[is|es]]",
         "[[early|temprano]]",
-        "[[morning|mañana]].",
+        "[[daily|diariamente]].",
         "[[delivered|entregado]]",
         "[[The|El]]",
-        "[[every|cada]]",
-        "[[in|en]]",
-        "[[the|la]]"
+        "[[every|cada]]"
       ],
       "explanation": "Uso de la pasiva en presente para describir procesos rutinarios.",
       "audio": "audio/b1/unit-16/e24.mp3"
@@ -727,7 +724,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras sobre noticias de impacto.",
-      "correctSentence": "[[Breaking|Las noticias]] [[news|de última hora]] [[often|a menudo]] [[interrupts|interrumpen]] [[regular|los habituales]] [[television|de televisión]] [[programs|programas]].",
+      "correctSentence": "[[Breaking|Las noticias]] [[news|de última hora]] [[often|a menudo]] [[interrupts|interrumpen]] [[the|los]] [[regular|habituales]] [[television|de televisión]] [[programs|programas]].",
       "words": [
         "[[news|de última hora]]",
         "[[interrupts|interrumpen]]",
@@ -735,7 +732,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
         "[[Breaking|Las noticias]]",
         "[[programs|programas]].",
         "[[often|a menudo]]",
-        "[[television|de televisión]]"
+        "[[television|de televisión]]",
+        "[[the|los]]"
       ],
       "explanation": "'Breaking news' se refiere a noticias que están ocurriendo en ese mismo instante.",
       "audio": "audio/b1/unit-16/e27.mp3"
@@ -807,7 +805,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración pasiva en presente.",
-      "correctSentence": "[[Thousands|Miles]] [[of|de]] [[newspapers|periódicos]] [[are|son]] [[sold|vendidos]] [[in|en]] [[this|esta]] [[city|ciudad]] [[every|cada]] [[single|mismo]] [[day|día]].",
+      "correctSentence": "[[Thousands|Miles]] [[of|de]] [[newspapers|periódicos]] [[are|son]] [[sold|vendidos]] [[in|en]] [[this|esta]] [[city|ciudad]] [[every|cada]] [[day|día]].",
       "words": [
         "[[newspapers|periódicos]]",
         "[[city|ciudad]]",
@@ -818,8 +816,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
         "[[every|cada]]",
         "[[in|en]]",
         "[[this|esta]]",
-        "[[of|de]]",
-        "[[single|mismo]]"
+        "[[of|de]]"
       ],
       "explanation": "La pasiva en presente (are sold) se usa para hablar de hechos generales o permanentes.",
       "audio": "audio/b1/unit-16/e30.mp3"
@@ -1139,16 +1136,15 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras sobre las cualidades de un periodista.",
-      "correctSentence": "[[A|Un]] [[good|buen]] [[reporter|reportero]] [[must|debe]] [[be|ser]] [[objective|objetivo]] [[and|y]] [[fair|justo]] [[to|con]] [[all|todas]] [[sides|las partes]].",
+      "correctSentence": "[[A|Un]] [[good|buen]] [[reporter|reportero]] [[must|debe]] [[be|ser]] [[objective|objetivo]] [[and|y]] [[fair|justo]] [[to|con]] [[everyone|todos]].",
       "words": [
         "[[be|ser]]",
         "[[fair|justo]]",
-        "[[sides|las partes]].",
+        "[[everyone|todos]].",
         "[[A|Un]]",
         "[[good|buen]]",
         "[[objective|objetivo]]",
         "[[must|debe]]",
-        "[[all|todas]]",
         "[[to|con]]",
         "[[reporter|reportero]]",
         "[[and|y]]"
