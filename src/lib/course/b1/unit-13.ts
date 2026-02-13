@@ -418,7 +418,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Escribe la palabra correcta para la voz pasiva.",
       "questions": [
         {
-          "question": "[[The|El]] [[telephone|teléfono]] _______ [[patented|patentado]] [[by|por]] [[Graham|Graham]] [[Bell|Bell]].",
+          "question": "The telephone _______ patented by Graham Bell.",
           "answer": "was",
           "explanation": "Usamos 'was' para la voz pasiva en pasado con sujeto singular.",
           "audio": "audio/b1/unit-13/e16.mp3"
@@ -440,7 +440,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Escribe el verbo que significa 'actualizar'.",
       "questions": [
         {
-          "question": "[[You|Tú]] [[need|necesitas]] [[to| ]] _______ [[your|tu]] [[browser|navegador]] [[to|para]] [[see|ver]] [[the|las]] [[new|nuevas]] [[features|funciones]].",
+          "question": "You need to _______ your browser to see the new features.",
           "answer": "update",
           "explanation": "'Update' significa hacer algo más moderno o actual incorporando la información más reciente.",
           "audio": "audio/b1/unit-13/e17.mp3"
@@ -462,7 +462,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Escribe el sustantivo que significa 'experimentos'.",
       "questions": [
         {
-          "question": "[[The|Los]] [[scientists|científicos]] [[are|están]] [[conducting|realizando]] _______ [[in|en]] [[the|el]] [[laboratory|laboratorio]].",
+          "question": "The scientists are conducting _______ in the laboratory.",
           "answer": "experiments",
           "explanation": "Un 'experiment' es un procedimiento científico realizado para hacer un descubrimiento.",
           "audio": "audio/b1/unit-13/e18.mp3"
@@ -484,7 +484,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Escribe el verbo auxiliar para el primer condicional.",
       "questions": [
         {
-          "question": "[[If|Si]] [[technology|la tecnología]] [[continues|continúa]] [[to|avanzando]] [[advance| ]], [[we|nosotros]] _______ [[have|tendremos]] [[flying|coches]] [[cars|voladores]].",
+          "question": "If technology continues to advance, we _______ have flying cars.",
           "answer": "will",
           "explanation": "El primer condicional usa 'will' para predecir un resultado probable.",
           "audio": "audio/b1/unit-13/e19.mp3"
@@ -506,7 +506,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Escribe el participio del verbo 'lanzar'.",
       "questions": [
         {
-          "question": "[[The|La]] [[company|empresa]] [[has|ha]] _______ [[a|un]] [[revolutionary|revolucionario]] [[product|producto]].",
+          "question": "The company has _______ a revolutionary product.",
           "answer": "launched",
           "explanation": "'Launched' es el participio de 'launch', que significa presentar un nuevo producto al público.",
           "audio": "audio/b1/unit-13/e20.mp3"
@@ -528,7 +528,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Escribe la palabra que significa 'volviéndose'.",
       "questions": [
         {
-          "question": "[[Electric|Los coches]] [[cars|eléctricos]] [[are|se están]] _______ [[more|más]] [[popular|populares]] [[every|cada]] [[year|año]].",
+          "question": "Electric cars are _______ more popular every year.",
           "answer": "becoming",
           "explanation": "'Becoming' indica un proceso de cambio o evolución.",
           "audio": "audio/b1/unit-13/e21.mp3"
@@ -550,7 +550,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Escribe la palabra que significa 'desarrolladores'.",
       "questions": [
         {
-          "question": "[[Software|Los]] _______ [[use|usan]] [[coding|la programación]] [[to|para]] [[create|crear]] [[applications|aplicaciones]].",
+          "question": "Software _______ use coding to create applications.",
           "answer": "developers",
           "explanation": "'Developers' son las personas que diseñan y crean software o aplicaciones.",
           "audio": "audio/b1/unit-13/e22.mp3"
@@ -572,7 +572,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Escribe el adjetivo que significa 'sostenible'.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[are|estamos]] [[looking|buscando]] [[for| ]] [[a|una]] _______ [[solution|solución]] [[for|para]] [[plastic|los residuos]] [[waste|plásticos]].",
+          "question": "We are looking for a _______ solution for plastic waste.",
           "answer": "sustainable",
           "explanation": "'Sustainable' se refiere a algo que puede mantenerse sin agotar los recursos naturales.",
           "audio": "audio/b1/unit-13/e23.mp3"
@@ -594,7 +594,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Escribe el participio pasado del verbo 'crear'.",
       "questions": [
         {
-          "question": "[[The|El]] [[internet|internet]] [[was|fue]] _______ [[to|para]] [[share|compartir]] [[information|información]] [[quickly|rápidamente]].",
+          "question": "The internet was _______ to share information quickly.",
           "answer": "created",
           "explanation": "'Created' es el participio pasado necesario para la voz pasiva en pasado.",
           "audio": "audio/b1/unit-13/e24.mp3"
@@ -616,7 +616,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Escribe la palabra que significa 'controlado remotamente'.",
       "questions": [
         {
-          "question": "[[A|Un]] [[drone|dron]] [[is|es]] [[a|una]] _______ [[aircraft|aeronave]] [[used|utilizada]] [[for|para]] [[many|muchas]] [[tasks|tareas]].",
+          "question": "A drone is a _______ aircraft used for many tasks.",
           "answer": "remote-controlled",
           "explanation": "'Remote-controlled' significa que se maneja a distancia mediante un mando.",
           "audio": "audio/b1/unit-13/e25.mp3"
@@ -638,7 +638,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Escribe el adjetivo que significa 'inmersiva'.",
       "questions": [
         {
-          "question": "[[Virtual|La realidad]] [[reality|virtual]] [[provides|proporciona]] [[an|una]] _______ [[experience|experiencia]] [[for|para]] [[gamers|los jugadores]].",
+          "question": "Virtual reality provides an _______ experience for gamers.",
           "answer": "immersive",
           "explanation": "'Immersive' describe algo que te rodea completamente y te hace sentir parte de ello.",
           "audio": "audio/b1/unit-13/e26.mp3"
@@ -660,7 +660,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Escribe el verbo auxiliar negativo para el primer condicional.",
       "questions": [
         {
-          "question": "[[If|Si]] [[you|tú]] _______ [[charge|cargas]] [[the|la]] [[battery|batería]], [[the|el]] [[laptop|portátil]] [[will|se]] [[turn|apagará]] [[off| ]].",
+          "question": "If you _______ charge the battery, the laptop will turn off.",
           "answer": "don't",
           "explanation": "Usamos 'don't' para negar el presente simple en la condición del primer condicional.",
           "audio": "audio/b1/unit-13/e27.mp3"
@@ -682,7 +682,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Escribe la palabra que significa 'algoritmo'.",
       "questions": [
         {
-          "question": "[[This|Esta]] [[startup|startup]] [[is|está]] [[developing|desarrollando]] [[a|un]] [[very|muy]] [[clever|inteligente]] _______.",
+          "question": "This startup is developing a very clever _______.",
           "answer": "algorithm",
           "explanation": "An 'algorithm' is a set of rules followed by a computer to solve a problem.",
           "audio": "audio/b1/unit-13/e28.mp3"
@@ -704,7 +704,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Escribe el participio del verbo 'fabricar'.",
       "questions": [
         {
-          "question": "[[Most|La mayoría de]] [[smartphones|los teléfonos]] [[are|son]] _______ [[in|en]] [[Asia|Asia]].",
+          "question": "Most smartphones are _______ in Asia.",
           "answer": "manufactured",
           "explanation": "'Manufactured' significa fabricar algo a gran escala usando maquinaria.",
           "audio": "audio/b1/unit-13/e29.mp3"
@@ -726,7 +726,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Escribe la palabra que significa 'errores' en informática.",
       "questions": [
         {
-          "question": "[[The|La]] [[new|nueva]] [[update|actualización]] [[fixes|corrige]] [[several|varios]] _______ [[in|en]] [[the|el]] [[software|software]].",
+          "question": "The new update fixes several _______ in the software.",
           "answer": "bugs",
           "explanation": "A 'bug' is an error or flaw in a computer program.",
           "audio": "audio/b1/unit-13/e30.mp3"
@@ -746,13 +746,23 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Evolución de los ordenadores",
       "instructions": "Ordena las palabras para formar una oración comparativa.",
-      "questions": [
-        {
-          "question": "[[The|El]] [[first|primer]] [[computer|ordenador]] [[was|era]] [[much|mucho]] [[larger|más grande]] [[than|que]] [[a|un]] [[modern|portátil]] [[laptop|moderno]] [[today|hoy]].",
-          "explanation": "Comparamos el tamaño de los primeros ordenadores con los actuales.",
-          "audio": "audio/b1/unit-13/e31.mp3"
-        }
-      ]
+      "correctSentence": "[[The|El]] [[first|primer]] [[computer|ordenador]] [[was|era]] [[much|mucho]] [[larger|más grande]] [[than|que]] [[a|un]] [[modern|portátil]] [[laptop|moderno]] [[today|hoy]].",
+      "words": [
+        "[[The|El]]",
+        "[[first|primer]]",
+        "[[computer|ordenador]]",
+        "[[was|era]]",
+        "[[much|mucho]]",
+        "[[larger|más grande]]",
+        "[[than|que]]",
+        "[[a|un]]",
+        "[[modern|portátil]]",
+        "[[laptop|moderno]]",
+        "[[today|hoy]]",
+        "."
+      ],
+      "explanation": "Comparamos el tamaño de los primeros ordenadores con los actuales.",
+      "audio": "audio/b1/unit-13/e31.mp3"
     },
     "audioUrl": "audio/b1/unit-13/e31.mp3",
     "topicName": "Grammar"
@@ -767,13 +777,23 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "El futuro de la IA",
       "instructions": "Ordena las palabras para formar una opinión sobre el futuro.",
-      "questions": [
-        {
-          "question": "[[Many|Mucha]] [[people|gente]] [[believe|cree]] [[that|que]] [[artificial|la inteligencia]] [[intelligence|artificial]] [[will|cambiará]] [[change| ]] [[the|el]] [[world|mundo]] [[forever|para siempre]].",
-          "explanation": "Expresamos una creencia común sobre el impacto de la tecnología.",
-          "audio": "audio/b1/unit-13/e32.mp3"
-        }
-      ]
+      "correctSentence": "[[Many|Mucha]] [[people|gente]] [[believe|cree]] [[that|que]] [[artificial|la inteligencia]] [[intelligence|artificial]] [[will|cambiará]] [[change| ]] [[the|el]] [[world|mundo]] [[forever|para siempre]].",
+      "words": [
+        "[[Many|Mucha]]",
+        "[[people|gente]]",
+        "[[believe|cree]]",
+        "[[that|que]]",
+        "[[artificial|la inteligencia]]",
+        "[[intelligence|artificial]]",
+        "[[will|cambiará]]",
+        "[[change| ]]",
+        "[[the|el]]",
+        "[[world|mundo]]",
+        "[[forever|para siempre]]",
+        "."
+      ],
+      "explanation": "Expresamos una creencia común sobre el impacto de la tecnología.",
+      "audio": "audio/b1/unit-13/e32.mp3"
     },
     "audioUrl": "audio/b1/unit-13/e32.mp3",
     "topicName": "Grammar"
@@ -788,13 +808,23 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Energía limpia",
       "instructions": "Ordena las palabras para describir una investigación actual.",
-      "questions": [
-        {
-          "question": "[[Scientists|Los científicos]] [[are|están]] [[trying|intentando]] [[to|encontrar]] [[find| ]] [[new|nuevas]] [[ways|formas]] [[to|de]] [[produce|producir]] [[clean|energía]] [[energy|limpia]].",
-          "explanation": "Usamos el presente continuo para acciones en progreso.",
-          "audio": "audio/b1/unit-13/e33.mp3"
-        }
-      ]
+      "correctSentence": "[[Scientists|Los científicos]] [[are|están]] [[trying|intentando]] [[to|encontrar]] [[find| ]] [[new|nuevas]] [[ways|formas]] [[to|de]] [[produce|producir]] [[clean|energía]] [[energy|limpia]].",
+      "words": [
+        "[[Scientists|Los científicos]]",
+        "[[are|están]]",
+        "[[trying|intentando]]",
+        "[[to|encontrar]]",
+        "[[find| ]]",
+        "[[new|nuevas]]",
+        "[[ways|formas]]",
+        "[[to|de]]",
+        "[[produce|producir]]",
+        "[[clean|energía]]",
+        "[[energy|limpia]]",
+        "."
+      ],
+      "explanation": "Usamos el presente continuo para acciones en progreso.",
+      "audio": "audio/b1/unit-13/e33.mp3"
     },
     "audioUrl": "audio/b1/unit-13/e33.mp3",
     "topicName": "Vocabulary"
@@ -809,13 +839,26 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Protección legal",
       "instructions": "Ordena las palabras para formar un primer condicional con obligación.",
-      "questions": [
-        {
-          "question": "[[If|Si]] [[you|tú]] [[want|quieres]] [[to|proteger]] [[protect| ]] [[your|tu]] [[invention|invento]], [[you|tú]] [[must|debes]] [[apply|solicitar]] [[for| ]] [[a|una]] [[patent|patente]].",
-          "explanation": "El primer condicional establece una condición y una acción necesaria.",
-          "audio": "audio/b1/unit-13/e34.mp3"
-        }
-      ]
+      "correctSentence": "[[If|Si]] [[you|tú]] [[want|quieres]] [[to|proteger]] [[protect| ]] [[your|tu]] [[invention|invento]], [[you|tú]] [[must|debes]] [[apply|solicitar]] [[for| ]] [[a|una]] [[patent|patente]].",
+      "words": [
+        "[[If|Si]]",
+        "[[you|tú]]",
+        "[[want|quieres]]",
+        "[[to|proteger]]",
+        "[[protect| ]]",
+        "[[your|tu]]",
+        "[[invention|invento]]",
+        ",",
+        "[[you|tú]]",
+        "[[must|debes]]",
+        "[[apply|solicitar]]",
+        "[[for| ]]",
+        "[[a|una]]",
+        "[[patent|patente]]",
+        "."
+      ],
+      "explanation": "El primer condicional establece una condición y una acción necesaria.",
+      "audio": "audio/b1/unit-13/e34.mp3"
     },
     "audioUrl": "audio/b1/unit-13/e34.mp3",
     "topicName": "Grammar"
@@ -830,13 +873,24 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Conectividad global",
       "instructions": "Ordena las palabras para describir una ventaja de internet.",
-      "questions": [
-        {
-          "question": "[[The|El]] [[internet|internet]] [[allows|nos permite]] [[us| ]] [[to|conectarnos]] [[connect| ]] [[with|con]] [[anyone|cualquiera]] [[in|en]] [[the|el]] [[world|mundo]] [[instantly|al instante]].",
-          "explanation": "Describimos la capacidad de comunicación global inmediata.",
-          "audio": "audio/b1/unit-13/e35.mp3"
-        }
-      ]
+      "correctSentence": "[[The|El]] [[internet|internet]] [[allows|nos permite]] [[us| ]] [[to|conectarnos]] [[connect| ]] [[with|con]] [[anyone|cualquiera]] [[in|en]] [[the|el]] [[world|mundo]] [[instantly|al instante]].",
+      "words": [
+        "[[The|El]]",
+        "[[internet|internet]]",
+        "[[allows|nos permite]]",
+        "[[us| ]]",
+        "[[to|conectarnos]]",
+        "[[connect| ]]",
+        "[[with|con]]",
+        "[[anyone|cualquiera]]",
+        "[[in|en]]",
+        "[[the|el]]",
+        "[[world|mundo]]",
+        "[[instantly|al instante]]",
+        "."
+      ],
+      "explanation": "Describimos la capacidad de comunicación global inmediata.",
+      "audio": "audio/b1/unit-13/e35.mp3"
     },
     "audioUrl": "audio/b1/unit-13/e35.mp3",
     "topicName": "Vocabulary"
@@ -851,13 +905,24 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Uso de smartphones",
       "instructions": "Ordena las palabras para describir un hábito tecnológico.",
-      "questions": [
-        {
-          "question": "[[Most|La mayoría de la]] [[people|gente]] [[use|usa]] [[their|sus]] [[smartphones|teléfonos]] [[to|para]] [[check|revisar]] [[social|las redes]] [[media|sociales]] [[every|cada]] [[single|mismo]] [[day|día]].",
-          "explanation": "Describimos una acción rutinaria común.",
-          "audio": "audio/b1/unit-13/e36.mp3"
-        }
-      ]
+      "correctSentence": "[[Most|La mayoría de la]] [[people|gente]] [[use|usa]] [[their|sus]] [[smartphones|teléfonos]] [[to|para]] [[check|revisar]] [[social|las redes]] [[media|sociales]] [[every|cada]] [[single|mismo]] [[day|día]].",
+      "words": [
+        "[[Most|La mayoría de la]]",
+        "[[people|gente]]",
+        "[[use|usa]]",
+        "[[their|sus]]",
+        "[[smartphones|teléfonos]]",
+        "[[to|para]]",
+        "[[check|revisar]]",
+        "[[social|las redes]]",
+        "[[media|sociales]]",
+        "[[every|cada]]",
+        "[[single|mismo]]",
+        "[[day|día]]",
+        "."
+      ],
+      "explanation": "Describimos una acción rutinaria común.",
+      "audio": "audio/b1/unit-13/e36.mp3"
     },
     "audioUrl": "audio/b1/unit-13/e36.mp3",
     "topicName": "Grammar"
@@ -872,13 +937,25 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Autonomía eléctrica",
       "instructions": "Ordena las palabras para describir la capacidad de un coche.",
-      "questions": [
-        {
-          "question": "[[The|El]] [[new|nuevo]] [[electric|coche]] [[car|eléctrico]] [[can|puede]] [[travel|recorrer]] [[five|quinientos]] [[hundred| ]] [[kilometers|kilómetros]] [[on|con]] [[a|una]] [[single|sola]] [[charge|carga]].",
-          "explanation": "Usamos 'can' para expresar capacidad o posibilidad física.",
-          "audio": "audio/b1/unit-13/e37.mp3"
-        }
-      ]
+      "correctSentence": "[[The|El]] [[new|nuevo]] [[electric|coche]] [[car|eléctrico]] [[can|puede]] [[travel|recorrer]] [[five|quinientos]] [[hundred| ]] [[kilometers|kilómetros]] [[on|con]] [[a|una]] [[single|sola]] [[charge|carga]].",
+      "words": [
+        "[[The|El]]",
+        "[[new|nuevo]]",
+        "[[electric|coche]]",
+        "[[car|eléctrico]]",
+        "[[can|puede]]",
+        "[[travel|recorrer]]",
+        "[[five|quinientos]]",
+        "[[hundred| ]]",
+        "[[kilometers|kilómetros]]",
+        "[[on|con]]",
+        "[[a|una]]",
+        "[[single|sola]]",
+        "[[charge|carga]]",
+        "."
+      ],
+      "explanation": "Usamos 'can' para expresar capacidad o posibilidad física.",
+      "audio": "audio/b1/unit-13/e37.mp3"
     },
     "audioUrl": "audio/b1/unit-13/e37.mp3",
     "topicName": "Vocabulary"
@@ -893,13 +970,24 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Éxito y fracaso",
       "instructions": "Ordena las palabras para expresar una idea compleja.",
-      "questions": [
-        {
-          "question": "[[It|Es]] [[is| ]] [[important|importante]] [[to|recordar]] [[remember| ]] [[that|que]] [[not|no]] [[all|todos los]] [[inventions|inventos]] [[are|son]] [[successful|exitosos]] [[initially|inicialmente]].",
-          "explanation": "Usamos una estructura con 'it is' para enfatizar un punto.",
-          "audio": "audio/b1/unit-13/e38.mp3"
-        }
-      ]
+      "correctSentence": "[[It|Es]] [[is| ]] [[important|importante]] [[to|recordar]] [[remember| ]] [[that|que]] [[not|no]] [[all|todos los]] [[inventions|inventos]] [[are|son]] [[successful|exitosos]] [[initially|inicialmente]].",
+      "words": [
+        "[[It|Es]]",
+        "[[is| ]]",
+        "[[important|importante]]",
+        "[[to|recordar]]",
+        "[[remember| ]]",
+        "[[that|que]]",
+        "[[not|no]]",
+        "[[all|todos los]]",
+        "[[inventions|inventos]]",
+        "[[are|son]]",
+        "[[successful|exitosos]]",
+        "[[initially|inicialmente]]",
+        "."
+      ],
+      "explanation": "Usamos una estructura con 'it is' para enfatizar un punto.",
+      "audio": "audio/b1/unit-13/e38.mp3"
     },
     "audioUrl": "audio/b1/unit-13/e38.mp3",
     "topicName": "Grammar"
@@ -914,13 +1002,24 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Tecnología en casa",
       "instructions": "Ordena las palabras usando el presente perfecto.",
-      "questions": [
-        {
-          "question": "[[Technology|La tecnología]] [[has|se ha]] [[become|convertido]] [[an|en una]] [[essential|parte]] [[part|esencial]] [[of|de]] [[our|nuestra]] [[daily|vida]] [[lives|diaria]] [[at|en]] [[home|casa]].",
-          "explanation": "El presente perfecto describe una situación que comenzó en el pasado y continúa.",
-          "audio": "audio/b1/unit-13/e39.mp3"
-        }
-      ]
+      "correctSentence": "[[Technology|La tecnología]] [[has|se ha]] [[become|convertido]] [[an|en una]] [[essential|parte]] [[part|esencial]] [[of|de]] [[our|nuestra]] [[daily|vida]] [[lives|diaria]] [[at|en]] [[home|casa]].",
+      "words": [
+        "[[Technology|La tecnología]]",
+        "[[has|se ha]]",
+        "[[become|convertido]]",
+        "[[an|en una]]",
+        "[[essential|parte]]",
+        "[[part|esencial]]",
+        "[[of|de]]",
+        "[[our|nuestra]]",
+        "[[daily|vida]]",
+        "[[lives|diaria]]",
+        "[[at|en]]",
+        "[[home|casa]]",
+        "."
+      ],
+      "explanation": "El presente perfecto describe una situación que comenzó en el pasado y continúa.",
+      "audio": "audio/b1/unit-13/e39.mp3"
     },
     "audioUrl": "audio/b1/unit-13/e39.mp3",
     "topicName": "Grammar"
@@ -935,13 +1034,24 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Inversión en energía solar",
       "instructions": "Ordena las palabras para describir un propósito empresarial.",
-      "questions": [
-        {
-          "question": "[[Many|Muchas]] [[companies|empresas]] [[are|están]] [[investing|invirtiendo]] [[in|en]] [[solar|paneles]] [[panels|solares]] [[to|para]] [[reduce|reducir]] [[their|sus]] [[electricity|costes de]] [[costs|electricidad]].",
-          "explanation": "Describimos una acción actual con una finalidad clara.",
-          "audio": "audio/b1/unit-13/e40.mp3"
-        }
-      ]
+      "correctSentence": "[[Many|Muchas]] [[companies|empresas]] [[are|están]] [[investing|invirtiendo]] [[in|en]] [[solar|paneles]] [[panels|solares]] [[to|para]] [[reduce|reducir]] [[their|sus]] [[electricity|costes de]] [[costs|electricidad]].",
+      "words": [
+        "[[Many|Muchas]]",
+        "[[companies|empresas]]",
+        "[[are|están]]",
+        "[[investing|invirtiendo]]",
+        "[[in|en]]",
+        "[[solar|paneles]]",
+        "[[panels|solares]]",
+        "[[to|para]]",
+        "[[reduce|reducir]]",
+        "[[their|sus]]",
+        "[[electricity|costes de]]",
+        "[[costs|electricidad]]",
+        "."
+      ],
+      "explanation": "Describimos una acción actual con una finalidad clara.",
+      "audio": "audio/b1/unit-13/e40.mp3"
     },
     "audioUrl": "audio/b1/unit-13/e40.mp3",
     "topicName": "Vocabulary"
@@ -956,13 +1066,25 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Vida social",
       "instructions": "Ordena las palabras para formar un segundo condicional.",
-      "questions": [
-        {
-          "question": "[[If|Si]] [[we|nosotros]] [[didn't|no]] [[use|usáramos]] [[social|las redes]] [[media|sociales]], [[we|nosotros]] [[would|pasaríamos]] [[spend| ]] [[more|más]] [[time|tiempo]] [[together|juntos]].",
-          "explanation": "Hablamos de una situación hipotética en el presente.",
-          "audio": "audio/b1/unit-13/e41.mp3"
-        }
-      ]
+      "correctSentence": "[[If|Si]] [[we|nosotros]] [[didn't|no]] [[use|usáramos]] [[social|las redes]] [[media|sociales]], [[we|nosotros]] [[would|pasaríamos]] [[spend| ]] [[more|más]] [[time|tiempo]] [[together|juntos]].",
+      "words": [
+        "[[If|Si]]",
+        "[[we|nosotros]]",
+        "[[didn't|no]]",
+        "[[use|usáramos]]",
+        "[[social|las redes]]",
+        "[[media|sociales]]",
+        ",",
+        "[[we|nosotros]]",
+        "[[would|pasaríamos]]",
+        "[[spend| ]]",
+        "[[more|más]]",
+        "[[time|tiempo]]",
+        "[[together|juntos]]",
+        "."
+      ],
+      "explanation": "Hablamos de una situación hipotética en el presente.",
+      "audio": "audio/b1/unit-13/e41.mp3"
     },
     "audioUrl": "audio/b1/unit-13/e41.mp3",
     "topicName": "Grammar"
@@ -977,13 +1099,24 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Manual de usuario",
       "instructions": "Ordena las palabras para describir el contenido de un manual.",
-      "questions": [
-        {
-          "question": "[[The|El]] [[user|manual de]] [[manual|usuario]] [[explains|explica]] [[how|cómo]] [[to|configurar]] [[set| ]] [[up| ]] [[the|el]] [[new|nuevo]] [[device|dispositivo]] [[correctly|correctamente]].",
-          "explanation": "Describimos la función de un documento técnico.",
-          "audio": "audio/b1/unit-13/e42.mp3"
-        }
-      ]
+      "correctSentence": "[[The|El]] [[user|manual de]] [[manual|usuario]] [[explains|explica]] [[how|cómo]] [[to|configurar]] [[set| ]] [[up| ]] [[the|el]] [[new|nuevo]] [[device|dispositivo]] [[correctly|correctamente]].",
+      "words": [
+        "[[The|El]]",
+        "[[user|manual de]]",
+        "[[manual|usuario]]",
+        "[[explains|explica]]",
+        "[[how|cómo]]",
+        "[[to|configurar]]",
+        "[[set| ]]",
+        "[[up| ]]",
+        "[[the|el]]",
+        "[[new|nuevo]]",
+        "[[device|dispositivo]]",
+        "[[correctly|correctamente]]",
+        "."
+      ],
+      "explanation": "Describimos la función de un documento técnico.",
+      "audio": "audio/b1/unit-13/e42.mp3"
     },
     "audioUrl": "audio/b1/unit-13/e42.mp3",
     "topicName": "Vocabulary"
@@ -998,13 +1131,24 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ciberseguridad",
       "instructions": "Ordena las palabras para definir una preocupación moderna.",
-      "questions": [
-        {
-          "question": "[[Cybersecurity|La ciberseguridad]] [[is|es]] [[a|una]] [[major|gran]] [[concern|preocupación]] [[for|para]] [[companies|empresas]] [[that|que]] [[store|almacenan]] [[sensitive|datos]] [[client|sensibles]] [[data|de clientes]].",
-          "explanation": "Definimos un problema tecnológico actual.",
-          "audio": "audio/b1/unit-13/e43.mp3"
-        }
-      ]
+      "correctSentence": "[[Cybersecurity|La ciberseguridad]] [[is|es]] [[a|una]] [[major|gran]] [[concern|preocupación]] [[for|para]] [[companies|empresas]] [[that|que]] [[store|almacenan]] [[sensitive|datos]] [[client|sensibles]] [[data|de clientes]].",
+      "words": [
+        "[[Cybersecurity|La ciberseguridad]]",
+        "[[is|es]]",
+        "[[a|una]]",
+        "[[major|gran]]",
+        "[[concern|preocupación]]",
+        "[[for|para]]",
+        "[[companies|empresas]]",
+        "[[that|que]]",
+        "[[store|almacenan]]",
+        "[[sensitive|datos]]",
+        "[[client|sensibles]]",
+        "[[data|de clientes]]",
+        "."
+      ],
+      "explanation": "Definimos un problema tecnológico actual.",
+      "audio": "audio/b1/unit-13/e43.mp3"
     },
     "audioUrl": "audio/b1/unit-13/e43.mp3",
     "topicName": "Vocabulary"
@@ -1019,13 +1163,24 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Seguridad de cuenta",
       "instructions": "Ordena las palabras para dar un consejo de seguridad.",
-      "questions": [
-        {
-          "question": "[[You|Tú]] [[should|deberías]] [[change|cambiar]] [[your|tu]] [[password|contraseña]] [[frequently|frecuentemente]] [[to|para]] [[keep|mantener]] [[your|tu]] [[account|cuenta]] [[safe|segura]] [[online|en línea]].",
-          "explanation": "Usamos 'should' para dar recomendaciones.",
-          "audio": "audio/b1/unit-13/e44.mp3"
-        }
-      ]
+      "correctSentence": "[[You|Tú]] [[should|deberías]] [[change|cambiar]] [[your|tu]] [[password|contraseña]] [[frequently|frecuentemente]] [[to|para]] [[keep|mantener]] [[your|tu]] [[account|cuenta]] [[safe|segura]] [[online|en línea]].",
+      "words": [
+        "[[You|Tú]]",
+        "[[should|deberías]]",
+        "[[change|cambiar]]",
+        "[[your|tu]]",
+        "[[password|contraseña]]",
+        "[[frequently|frecuentemente]]",
+        "[[to|para]]",
+        "[[keep|mantener]]",
+        "[[your|tu]]",
+        "[[account|cuenta]]",
+        "[[safe|segura]]",
+        "[[online|en línea]]",
+        "."
+      ],
+      "explanation": "Usamos 'should' para dar recomendaciones.",
+      "audio": "audio/b1/unit-13/e44.mp3"
     },
     "audioUrl": "audio/b1/unit-13/e44.mp3",
     "topicName": "Grammar"
@@ -1040,13 +1195,24 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Servicios de streaming",
       "instructions": "Ordena las palabras para describir un cambio cultural.",
-      "questions": [
-        {
-          "question": "[[Streaming|Los servicios de]] [[services|streaming]] [[have|han]] [[completely|cambiado]] [[changed|completamente]] [[the|la]] [[way|forma en que]] [[we|nosotros]] [[watch|vemos]] [[movies|películas]] [[at|en]] [[home|casa]].",
-          "explanation": "Analizamos el impacto de una innovación reciente.",
-          "audio": "audio/b1/unit-13/e45.mp3"
-        }
-      ]
+      "correctSentence": "[[Streaming|Los servicios de]] [[services|streaming]] [[have|han]] [[completely|cambiado]] [[changed|completamente]] [[the|la]] [[way|forma en que]] [[we|nosotros]] [[watch|vemos]] [[movies|películas]] [[at|en]] [[home|casa]].",
+      "words": [
+        "[[Streaming|Los servicios de]]",
+        "[[services|streaming]]",
+        "[[have|han]]",
+        "[[completely|cambiado]]",
+        "[[changed|completamente]]",
+        "[[the|la]]",
+        "[[way|forma en que]]",
+        "[[we|nosotros]]",
+        "[[watch|vemos]]",
+        "[[movies|películas]]",
+        "[[at|en]]",
+        "[[home|casa]]",
+        "."
+      ],
+      "explanation": "Analizamos el impacto de una innovación reciente.",
+      "audio": "audio/b1/unit-13/e45.mp3"
     },
     "audioUrl": "audio/b1/unit-13/e45.mp3",
     "topicName": "Vocabulary"
@@ -1061,13 +1227,24 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Drones médicos",
       "instructions": "Ordena las palabras para formar una voz pasiva continua.",
-      "questions": [
-        {
-          "question": "[[Drones|Los drones]] [[are|están]] [[being|siendo]] [[used|utilizados]] [[to|para]] [[deliver|entregar]] [[medical|suministros]] [[supplies|médicos]] [[to|a]] [[remote|pueblos]] [[mountain|remotos de]] [[villages|montaña]].",
-          "explanation": "La pasiva continua describe una acción en progreso sobre un objeto.",
-          "audio": "audio/b1/unit-13/e46.mp3"
-        }
-      ]
+      "correctSentence": "[[Drones|Los drones]] [[are|están]] [[being|siendo]] [[used|utilizados]] [[to|para]] [[deliver|entregar]] [[medical|suministros]] [[supplies|médicos]] [[to|a]] [[remote|pueblos]] [[mountain|remotos de]] [[villages|montaña]].",
+      "words": [
+        "[[Drones|Los drones]]",
+        "[[are|están]]",
+        "[[being|siendo]]",
+        "[[used|utilizados]]",
+        "[[to|para]]",
+        "[[deliver|entregar]]",
+        "[[medical|suministros]]",
+        "[[supplies|médicos]]",
+        "[[to|a]]",
+        "[[remote|pueblos]]",
+        "[[mountain|remotos de]]",
+        "[[villages|montaña]]",
+        "."
+      ],
+      "explanation": "La pasiva continua describe una acción en progreso sobre un objeto.",
+      "audio": "audio/b1/unit-13/e46.mp3"
     },
     "audioUrl": "audio/b1/unit-13/e46.mp3",
     "topicName": "Grammar"
@@ -1082,13 +1259,24 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mejoras de software",
       "instructions": "Ordena las palabras para describir una actualización.",
-      "questions": [
-        {
-          "question": "[[The|La]] [[new|nueva]] [[software|actualización de]] [[update|software]] [[includes|incluye]] [[several|varias]] [[improvements|mejoras]] [[to|en]] [[the|la]] [[existing|interfaz]] [[user|de usuario]] [[interface|existente]].",
-          "explanation": "Describimos los cambios positivos en un sistema.",
-          "audio": "audio/b1/unit-13/e47.mp3"
-        }
-      ]
+      "correctSentence": "[[The|La]] [[new|nueva]] [[software|actualización de]] [[update|software]] [[includes|incluye]] [[several|varias]] [[improvements|mejoras]] [[to|en]] [[the|la]] [[existing|interfaz]] [[user|de usuario]] [[interface|existente]].",
+      "words": [
+        "[[The|La]]",
+        "[[new|nueva]]",
+        "[[software|actualización de]]",
+        "[[update|software]]",
+        "[[includes|incluye]]",
+        "[[several|varias]]",
+        "[[improvements|mejoras]]",
+        "[[to|en]]",
+        "[[the|la]]",
+        "[[existing|interfaz]]",
+        "[[user|de usuario]]",
+        "[[interface|existente]]",
+        "."
+      ],
+      "explanation": "Describimos los cambios positivos en un sistema.",
+      "audio": "audio/b1/unit-13/e47.mp3"
     },
     "audioUrl": "audio/b1/unit-13/e47.mp3",
     "topicName": "Vocabulary"
@@ -1103,13 +1291,25 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "El ingeniero jefe",
       "instructions": "Ordena las palabras para formar una oración de relativo.",
-      "questions": [
-        {
-          "question": "[[He|Él]] [[is|es]] [[the|el]] [[engineer|ingeniero]] [[who|que]] [[designed|diseñó]] [[the|el]] [[most|motor]] [[efficient|más]] [[motor|eficiente]] [[in|en]] [[the|el]] [[world|mundo]].",
-          "explanation": "Usamos 'who' para añadir información sobre una persona.",
-          "audio": "audio/b1/unit-13/e48.mp3"
-        }
-      ]
+      "correctSentence": "[[He|Él]] [[is|es]] [[the|el]] [[engineer|ingeniero]] [[who|que]] [[designed|diseñó]] [[the|el]] [[most|motor]] [[efficient|más]] [[motor|eficiente]] [[in|en]] [[the|el]] [[world|mundo]].",
+      "words": [
+        "[[He|Él]]",
+        "[[is|es]]",
+        "[[the|el]]",
+        "[[engineer|ingeniero]]",
+        "[[who|que]]",
+        "[[designed|diseñó]]",
+        "[[the|el]]",
+        "[[most|motor]]",
+        "[[efficient|más]]",
+        "[[motor|eficiente]]",
+        "[[in|en]]",
+        "[[the|el]]",
+        "[[world|mundo]]",
+        "."
+      ],
+      "explanation": "Usamos 'who' para añadir información sobre una persona.",
+      "audio": "audio/b1/unit-13/e48.mp3"
     },
     "audioUrl": "audio/b1/unit-13/e48.mp3",
     "topicName": "Grammar"
@@ -1124,13 +1324,24 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Aprendizaje en línea",
       "instructions": "Ordena las palabras para describir una tendencia educativa.",
-      "questions": [
-        {
-          "question": "[[Many|Muchos]] [[students|estudiantes]] [[use|usan]] [[online|plataformas]] [[platforms|en línea]] [[to|para]] [[learn|aprender]] [[new|nuevos]] [[coding|lenguajes de]] [[languages|programación]] [[every|cada]] [[day|día]].",
-          "explanation": "Hablamos sobre cómo se adquieren nuevas habilidades hoy en día.",
-          "audio": "audio/b1/unit-13/e49.mp3"
-        }
-      ]
+      "correctSentence": "[[Many|Muchos]] [[students|estudiantes]] [[use|usan]] [[online|plataformas]] [[platforms|en línea]] [[to|para]] [[learn|aprender]] [[new|nuevos]] [[coding|lenguajes de]] [[languages|programación]] [[every|cada]] [[day|día]].",
+      "words": [
+        "[[Many|Muchos]]",
+        "[[students|estudiantes]]",
+        "[[use|usan]]",
+        "[[online|plataformas]]",
+        "[[platforms|en línea]]",
+        "[[to|para]]",
+        "[[learn|aprender]]",
+        "[[new|nuevos]]",
+        "[[coding|lenguajes de]]",
+        "[[languages|programación]]",
+        "[[every|cada]]",
+        "[[day|día]]",
+        "."
+      ],
+      "explanation": "Hablamos sobre cómo se adquieren nuevas habilidades hoy en día.",
+      "audio": "audio/b1/unit-13/e49.mp3"
     },
     "audioUrl": "audio/b1/unit-13/e49.mp3",
     "topicName": "Vocabulary"
@@ -1145,13 +1356,26 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Innovación y clima",
       "instructions": "Ordena las palabras para formar una frase optimista con el primer condicional.",
-      "questions": [
-        {
-          "question": "[[If|Si]] [[we|nosotros]] [[continue|continuamos]] [[to|innovando]] [[innovate| ]], [[we|nosotros]] [[will|encontraremos]] [[find| ]] [[solutions|soluciones]] [[for|para]] [[global|el cambio]] [[climate|climático]] [[change|global]].",
-          "explanation": "El primer condicional vincula la innovación con resultados futuros.",
-          "audio": "audio/b1/unit-13/e50.mp3"
-        }
-      ]
+      "correctSentence": "[[If|Si]] [[we|nosotros]] [[continue|continuamos]] [[to|innovando]] [[innovate| ]], [[we|nosotros]] [[will|encontraremos]] [[find| ]] [[solutions|soluciones]] [[for|para]] [[global|el cambio]] [[climate|climático]] [[change|global]].",
+      "words": [
+        "[[If|Si]]",
+        "[[we|nosotros]]",
+        "[[continue|continuamos]]",
+        "[[to|innovando]]",
+        "[[innovate| ]]",
+        ",",
+        "[[we|nosotros]]",
+        "[[will|encontraremos]]",
+        "[[find| ]]",
+        "[[solutions|soluciones]]",
+        "[[for|para]]",
+        "[[global|el cambio]]",
+        "[[climate|climático]]",
+        "[[change|global]]",
+        "."
+      ],
+      "explanation": "El primer condicional vincula la innovación con resultados futuros.",
+      "audio": "audio/b1/unit-13/e50.mp3"
     },
     "audioUrl": "audio/b1/unit-13/e50.mp3",
     "topicName": "Grammar"
