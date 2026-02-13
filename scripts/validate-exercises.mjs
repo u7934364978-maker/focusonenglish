@@ -177,6 +177,8 @@ async function main() {
     'course/b1/unit-6.ts',
     'course/b1/unit-7.ts',
     'course/b1/unit-8.ts',
+    'course/b1/unit-9.ts',
+    'course/b1/unit-10.ts',
   ];
   
   for (const file of filesToCheck) {

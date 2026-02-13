@@ -25,8 +25,9 @@
     *   [x] Unit 6: Generate, Review, Commit.
     *   [x] Unit 7: Generate, Review, Commit.
     *   [x] Unit 8: Generate, Review, Commit.
-    *   [ ] Unit 9: Generate, Review, Commit.
-    *   ... (Repeat for all 30 units)
+    *   [x] Unit 9: Generate, Review, Commit.
+    *   [x] Unit 10: Generate, Review, Commit.
+    *   [ ] Unit 11: Generate, Review, Commit. (Next)
 2.  **Audio Generation**:
     *   [x] Generate audio for Unit 1.
     *   [x] Generate audio for Unit 2.
@@ -37,6 +38,11 @@
     *   [x] Generate audio for Unit 7.
     *   [x] Generate audio for Unit 8.
     *   [ ] Generate audio for Unit 9.
-3.  **Validation**:
-    *   [x] Run `npm run validate-exercises`.
-    *   [x] Manual verification of rendering and pedagogical flow.
+3.  **Validation & Audit**:
+    *   [x] Run `npm run validate-exercises` (Updated script to include B1).
+    *   [x] Exhaustive audit of Units 1-8 to fix rendering and logic issues.
+    *   [x] Fix missing words in Unit 5 (Ex 34 "year", Ex 35 "future").
+    *   [x] Fix logic/translation alignment in Unit 5.
+    *   [x] Standardize JSON structure (id at top) for all B1 units.
+    *   [x] Manual implementation of Unit 7 due to quota limits.
+    *   [x] Fix word translation hover in Units 7 & 8 `sentence-building` exercises.
