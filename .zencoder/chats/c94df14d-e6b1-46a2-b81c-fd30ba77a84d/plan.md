@@ -18,11 +18,11 @@
 
 1.  **Incremental Unit Creation**:
     *   [x] Unit 1: Generate, Review, Commit.
-    *   [ ] Unit 2: Generate, Review, Commit.
+    *   [x] Unit 2: Generate, Review, Commit.
     *   ... (Repeat for all 30 units)
 2.  **Audio Generation**:
     *   [x] Generate audio for Unit 1.
-    *   [ ] Generate audio for Unit 2.
+    *   [x] Generate audio for Unit 2.
 3.  **Validation**:
     *   [x] Run `npm run validate-exercises`.
     *   [x] Manual verification of rendering and pedagogical flow.
