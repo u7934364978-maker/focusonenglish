@@ -60,3 +60,5 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/87
 12. [x] **Standardize Tooltips**: Apply `[[English|Spanish]]` formatting to all exercises in A1 Unit 1.
 13. [x] **Verify A1 Unit 1**: Ensure 50 exercises remain and run validation scripts.
 14. [x] **Fix A1 Unit 1 Runtime Error**: Identify and resolve the client-side exception in `src/lib/course/a1/unit-1.ts`.
+15. [x] **Final Review and Fixes**: Corrected translation misalignments in Unit 30 and missing tooltips in A1 matching.
+16. [x] **Push and Commit**: Final push with commit `bb2475d4`.

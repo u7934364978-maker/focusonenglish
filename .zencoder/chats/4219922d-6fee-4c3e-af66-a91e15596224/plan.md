@@ -35,7 +35,8 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
 
 #### Phase 1: Structure Definition
 - [x] Define the 30-unit syllabus for C1 level with neutral themes and specific topics.
-- [x] Verify the syllabus with the user.
+- [x] Create debug preview route `/debug/c1-preview/[unitId]`.
+- [x] Verify the syllabus and preview route with the user.
 
 #### Phase 2: Unit Generation (Technical: .ts files in src/lib/c1-units/)
 - [x] Generate Unit 1 (100 activities - already existing in codebase).
