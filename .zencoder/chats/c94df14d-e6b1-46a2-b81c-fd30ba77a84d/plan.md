@@ -27,7 +27,8 @@
     *   [x] Unit 8: Generate, Review, Commit.
     *   [x] Unit 9: Generate, Review, Commit.
     *   [x] Unit 10: Generate, Review, Commit. (Fixed formatting and distractors)
-    *   [ ] Unit 11: Generate, Review, Commit. (Next)
+    *   [x] Unit 11: Generate, Review, Commit.
+    *   [ ] Unit 12: Generate, Review, Commit. (Next)
 2.  **Audio Generation**:
     *   [x] Generate audio for Unit 1.
     *   [x] Generate audio for Unit 2.
