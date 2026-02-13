@@ -52,4 +52,5 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/87
 4. [x] **Implement `b1-u30-e29`**: Create a 8-10 word exercise in `src/lib/course/b1/unit-30.ts`.
 5. [x] **Implement `b1-u30-e30`**: Create a 8-10 word exercise in `src/lib/course/b1/unit-30.ts`.
 6. [x] **Verify Changes**: Check the preview route and run type checks.
-7. [ ] **Push Changes**: Commit and push the final changes.
+7. [x] **Push Changes**: Commit and push the final changes.
+8. [x] **Review Translations**: Ensure all word chips in sentence-building exercises are translated.
