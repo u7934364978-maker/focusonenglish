@@ -1101,7 +1101,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
             "had lost"
           ],
           "correctAnswer": "lost"
-"        }
+        }
       ],
       "explanation": "'Supposing' + past simple se usa para preguntar sobre consecuencias hipotéticas en el presente/futuro.",
       "audio": "audio/b2/unit-10/e39.mp3"
