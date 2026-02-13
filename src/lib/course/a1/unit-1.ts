@@ -583,31 +583,31 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "pairs": [
         {
           "id": "1",
-          "left": "How are you?",
+          "left": "[[How are you?|¿Cómo estás?]]",
           "right": "[[I am fine|Estoy bien]]",
           "audio": "/audio/course/a1/unit-1/a1-u1-e20-pair0-right-75dc9bbf.mp3"
         },
         {
           "id": "2",
-          "left": "What is your name?",
+          "left": "[[What is your name?|¿Cuál es tu nombre?]]",
           "right": "[[My name is John|Mi nombre es John]]",
           "audio": "/audio/course/a1/unit-1/a1-u1-e20-pair1-right-9f1ad2ee.mp3"
         },
         {
           "id": "3",
-          "left": "Goodbye",
+          "left": "[[Goodbye|Adiós]]",
           "right": "[[See you later|Nos vemos luego]]",
           "audio": "/audio/course/a1/unit-1/a1-u1-e20-pair2-right-18bb1b56.mp3"
         },
         {
           "id": "4",
-          "left": "Nice to meet you",
+          "left": "[[Nice to meet you|Mucho gusto]]",
           "right": "[[Nice to meet you too|Mucho gusto también]]",
           "audio": "/audio/course/a1/unit-1/a1-u1-e20-pair3-right-76f54bd4.mp3"
         },
         {
           "id": "5",
-          "left": "Are you a student?",
+          "left": "[[Are you a student?|¿Eres un estudiante?]]",
           "right": "[[Yes, I am|Sí, lo soy]]",
           "audio": "/audio/course/a1/unit-1/a1-u1-e20-pair4-right-8bc0badb.mp3"
         }
@@ -779,31 +779,31 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "pairs": [
         {
           "id": "1",
-          "left": "I",
+          "left": "[[I|Yo]]",
           "right": "[[am|soy/estoy]]",
           "audio": "/audio/course/a1/unit-1/a1-u1-e26-pair0-right-c04cd38a.mp3"
         },
         {
           "id": "2",
-          "left": "You",
+          "left": "[[You|Tú]]",
           "right": "[[are|eres/estás]]",
           "audio": "/audio/course/a1/unit-1/a1-u1-e26-pair1-right-4015e9ce.mp3"
         },
         {
           "id": "3",
-          "left": "He",
+          "left": "[[He|Él]]",
           "right": "[[is|es/está (él)]]",
           "audio": "/audio/course/a1/unit-1/a1-u1-e26-pair2-right-a2a551a6.mp3"
         },
         {
           "id": "4",
-          "left": "She",
+          "left": "[[She|Ella]]",
           "right": "[[is|es/está (ella)]]",
           "audio": "/audio/course/a1/unit-1/a1-u1-e26-pair3-right-a2a551a6.mp3"
         },
         {
           "id": "5",
-          "left": "They",
+          "left": "[[They|Ellos]]",
           "right": "[[are|son/están]]",
           "audio": "/audio/course/a1/unit-1/a1-u1-e26-pair4-right-4015e9ce.mp3"
         }
@@ -1203,31 +1203,31 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "pairs": [
         {
           "id": "1",
-          "left": "Mr.",
+          "left": "[[Mr.|Señor]]",
           "right": "[[Man|Hombre]]",
           "audio": "/audio/course/a1/unit-1/a1-u1-e40-pair0-right-7a9c3175.mp3"
         },
         {
           "id": "2",
-          "left": "Mrs.",
+          "left": "[[Mrs.|Señora]]",
           "right": "[[Married woman|Mujer casada]]",
           "audio": "/audio/course/a1/unit-1/a1-u1-e40-pair1-right-c5b7ccb4.mp3"
         },
         {
           "id": "3",
-          "left": "Ms.",
+          "left": "[[Ms.|Señora/ita]]",
           "right": "[[Woman (general)|Mujer (general)]]",
           "audio": "/audio/course/a1/unit-1/a1-u1-e40-pair2-right-bc3cc614.mp3"
         },
         {
           "id": "4",
-          "left": "First name",
+          "left": "[[First name|Nombre de pila]]",
           "right": "[[Name|Nombre]]",
           "audio": "/audio/course/a1/unit-1/a1-u1-e40-pair3-right-4777bbaa.mp3"
         },
         {
           "id": "5",
-          "left": "Last name",
+          "left": "[[Last name|Apellido]]",
           "right": "[[Surname|Apellido]]",
           "audio": "/audio/course/a1/unit-1/a1-u1-e40-pair4-right-289e1725.mp3"
         }

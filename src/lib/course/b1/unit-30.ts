@@ -818,13 +818,13 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "History & Ancient Civilizations",
     "difficulty": "medium",
-    "transcript": "[[The|La]] [[Magna|Carta]] [[Carta|Magna]] [[was|fue]] [[signed|firmada]] [[in|en]] [[twelve|mil]] [[fifteen|doscientos]] [[to|quince]] [[limit|para limitar]] [[the|el]] [[power|poder]] [[of|del]] [[the| ]] [[king|rey]].",
+    "transcript": "[[The|La]] [[Magna|Carta]] [[Carta|Magna]] [[was|fue]] [[signed|firmada]] [[in|en]] [[1215|1215]] [[to|para]] [[limit|limitar]] [[the|el]] [[power|poder]] [[of|del]] [[the| ]] [[king|rey]].",
     "content": {
       "title": "La Carta Magna",
       "instructions": "Elige el verbo que significa poner el nombre de uno en un documento.",
       "questions": [
         {
-          "question": "[[The|La]] [[Magna|Carta]] [[Carta|Magna]] [[was|fue]] ______ [[in|en]] [[twelve|mil]] [[fifteen|doscientos]] [[fifteen|quince]].",
+          "question": "[[The|La]] [[Magna|Carta]] [[Carta|Magna]] [[was|fue]] ______ [[in|en]] [[1215|1215]].",
           "options": [
             "[[signed|firmada]]",
             "[[burned|quemada]]",
@@ -953,7 +953,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "History & Ancient Civilizations",
     "difficulty": "medium",
-    "transcript": "[[Christopher|Cristóbal]] [[Columbus|Colón]] [[set|partió]] [[sail|en barco]] [[in|en]] [[fourteen|mil]] [[ninety-two|cuatrocientos]] [[ninety-two|noventa y dos]] [[to|para]] [[explore|explorar]] [[new|nuevas]] [[lands|tierras]].",
+    "transcript": "[[Christopher|Cristóbal]] [[Columbus|Colón]] [[set|partió]] [[sail|en barco]] [[in|en]] [[1492|1492]] [[to|para]] [[explore|explorar]] [[new|nuevas]] [[lands|tierras]].",
     "content": {
       "title": "Exploración",
       "instructions": "Selecciona el verbo que significa viajar a través de un lugar desconocido.",
@@ -1034,7 +1034,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "History & Ancient Civilizations",
     "difficulty": "medium",
-    "transcript": "[[Ancient|El antiguo]] [[Persia|Imperio]] [[was|Persa]] [[famous|fue]] [[famous|famoso]] [[for|por]] [[its|sus]] [[magnificent|magníficos]] [[palaces|palacios]] [[and|y]] [[gardens|jardines]].",
+    "transcript": "[[Ancient|La antigua]] [[Persia|Persia]] [[was|fue]] [[famous|famosa]] [[for|por]] [[its|sus]] [[magnificent|magníficos]] [[palaces|palacios]] [[and|y]] [[gardens|jardines]].",
     "content": {
       "title": "Imperio Persa",
       "instructions": "Elige la palabra para edificios grandes donde viven reyes o reinas.",
