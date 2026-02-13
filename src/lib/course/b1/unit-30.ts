@@ -811,5 +811,545 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     },
     "audioUrl": "audio/b1/unit-30/e30.mp3",
     "topicName": "Grammar"
-  }
+  },
+  {
+    "id": "b1-u30-e31",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "History & Ancient Civilizations",
+    "difficulty": "medium",
+    "transcript": "[[The|La]] [[Magna|Carta]] [[Carta|Magna]] [[was|fue]] [[signed|firmada]] [[in|en]] [[twelve|mil]] [[fifteen|doscientos]] [[to|quince]] [[limit|para limitar]] [[the|el]] [[power|poder]] [[of|del]] [[the| ]] [[king|rey]].",
+    "content": {
+      "title": "La Carta Magna",
+      "instructions": "Elige el verbo que significa poner el nombre de uno en un documento.",
+      "questions": [
+        {
+          "question": "[[The|La]] [[Magna|Carta]] [[Carta|Magna]] [[was|fue]] ______ [[in|en]] [[twelve|mil]] [[fifteen|doscientos]] [[fifteen|quince]].",
+          "options": [
+            "[[signed|firmada]]",
+            "[[burned|quemada]]",
+            "[[lost|perdida]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Signed' significa escribir el nombre en un documento para mostrar acuerdo.",
+          "audio": "audio/b1/unit-30/e31.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-30/e31.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u30-e32",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "History & Ancient Civilizations",
+    "difficulty": "medium",
+    "transcript": "[[Samurai|Los samuráis]] [[were|eran]] [[the|la]] [[military|nobleza]] [[nobility|militar]] [[and|y]] [[officer|casta]] [[caste|de oficiales]] [[of|del]] [[medieval|Japón]] [[Japan|medieval]].",
+    "content": {
+      "title": "Samuráis",
+      "instructions": "Selecciona la palabra para la clase social de guerreros en el Japón medieval.",
+      "questions": [
+        {
+          "question": "[[Samurai|Los samuráis]] [[were|eran]] [[the|la]] ______ [[nobility|nobleza]] [[of|del]] [[Japan|Japón]].",
+          "options": [
+            "[[military|militar]]",
+            "[[farming|agrícola]]",
+            "[[religious|religiosa]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Military' se refiere a las fuerzas armadas o la guerra.",
+          "audio": "audio/b1/unit-30/e32.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-30/e32.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u30-e33",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "History & Ancient Civilizations",
+    "difficulty": "medium",
+    "transcript": "[[Alexander|Alejandro]] [[the|el]] [[Great|Magno]] [[conquered|conquistó]] [[a|un]] [[vast|vasto]] [[empire|imperio]] [[from|desde]] [[Greece|Grecia]] [[to|hasta]] [[India|la India]].",
+    "content": {
+      "title": "Alejandro Magno",
+      "instructions": "Elige el verbo que significa tomar el control de un lugar por la fuerza.",
+      "questions": [
+        {
+          "question": "[[Alexander|Alejandro]] [[conquered|conquistó]] [[a|un]] ______ [[empire|imperio]].",
+          "options": [
+            "[[vast|vasto]]",
+            "[[tiny|diminuto]]",
+            "[[modern|moderno]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Vast' significa de una extensión o cantidad inmensa.",
+          "audio": "audio/b1/unit-30/e33.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-30/e33.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u30-e34",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "History & Ancient Civilizations",
+    "difficulty": "medium",
+    "transcript": "[[Machu|Machu]] [[Picchu|Picchu]] [[is|es]] [[an|una]] [[ancient|antigua]] [[Inca|ciudad]] [[city|Inca]] [[located|ubicada]] [[high|en lo alto]] [[in|de]] [[the|los]] [[Andes|Andes]].",
+    "content": {
+      "title": "Incas",
+      "instructions": "Selecciona el adjetivo que describe la ubicación de Machu Picchu.",
+      "questions": [
+        {
+          "question": "[[Machu|Machu]] [[Picchu|Picchu]] [[is|es]] [[located|ubicado]] ______ [[in|en]] [[the|los]] [[Andes|Andes]].",
+          "options": [
+            "[[high|en lo alto]]",
+            "[[low|bajo]]",
+            "[[underground|bajo tierra]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'High' significa a una gran distancia vertical desde el nivel del suelo.",
+          "audio": "audio/b1/unit-30/e34.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-30/e34.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u30-e35",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "History & Ancient Civilizations",
+    "difficulty": "medium",
+    "transcript": "[[The|La]] [[Black|Peste]] [[Death|Negra]] [[caused|causó]] [[the|la]] [[death|muerte]] [[of|de]] [[millions|millones]] [[in|en]] [[Europe|Europa]] [[during|durante]] [[the|el]] [[fourteenth|siglo]] [[century|catorce]].",
+    "content": {
+      "title": "La Peste Negra",
+      "instructions": "Elige el verbo que significa hacer que algo suceda.",
+      "questions": [
+        {
+          "question": "[[The|La]] [[plague|peste]] ______ [[the|la]] [[death|muerte]] [[of|de]] [[millions|millones]].",
+          "options": [
+            "[[caused|causó]]",
+            "[[prevented|previno]]",
+            "[[healed|curó]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Cause' significa hacer que (algo, especialmente algo malo) suceda.",
+          "audio": "audio/b1/unit-30/e35.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-30/e35.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u30-e36",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "History & Ancient Civilizations",
+    "difficulty": "medium",
+    "transcript": "[[Christopher|Cristóbal]] [[Columbus|Colón]] [[set|partió]] [[sail|en barco]] [[in|en]] [[fourteen|mil]] [[ninety-two|cuatrocientos]] [[ninety-two|noventa y dos]] [[to|para]] [[explore|explorar]] [[new|nuevas]] [[lands|tierras]].",
+    "content": {
+      "title": "Exploración",
+      "instructions": "Selecciona el verbo que significa viajar a través de un lugar desconocido.",
+      "questions": [
+        {
+          "question": "[[Columbus|Colón]] [[wanted|quería]] [[to| ]] ______ [[new|nuevas]] [[lands|tierras]].",
+          "options": [
+            "[[explore|explorar]]",
+            "[[forget|olvidar]]",
+            "[[avoid|evitar]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Explore' significa viajar a través de (un lugar desconocido) para aprender sobre él.",
+          "audio": "audio/b1/unit-30/e36.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-30/e36.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u30-e37",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "History & Ancient Civilizations",
+    "difficulty": "medium",
+    "transcript": "[[The|El]] [[Code|Código]] [[of|de]] [[Hammurabi|Hammurabi]] [[is|es]] [[one|uno]] [[of|de]] [[the|los]] [[oldest|más antiguos]] [[sets|conjuntos]] [[of|de]] [[laws|leyes]] [[ever|jamás]] [[found|encontrados]].",
+    "content": {
+      "title": "Código de Hammurabi",
+      "instructions": "Elige la palabra para las reglas que la gente debe seguir.",
+      "questions": [
+        {
+          "question": "[[The|El]] [[Code|Código]] [[is|es]] [[a|un]] [[set|conjunto]] [[of|de]] ______.",
+          "options": [
+            "[[laws|leyes]]",
+            "[[games|juegos]]",
+            "[[stories|historias]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Las 'Laws' son las reglas de un país o comunidad.",
+          "audio": "audio/b1/unit-30/e37.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-30/e37.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u30-e38",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "History & Ancient Civilizations",
+    "difficulty": "medium",
+    "transcript": "[[The|El]] [[Ottoman|Imperio]] [[Empire|Otomano]] [[controlled|controló]] [[much|mucho]] [[of|de]] [[Southeast|el sudeste de]] [[Europe|Europa]] [[for|durante]] [[centuries|siglos]].",
+    "content": {
+      "title": "El Imperio Otomano",
+      "instructions": "Selecciona el verbo que significa tener poder sobre algo.",
+      "questions": [
+        {
+          "question": "[[The|El]] [[Ottoman|Imperio]] [[Empire|Otomano]] ______ [[vast|vastas]] [[territories|territorios]].",
+          "options": [
+            "[[controlled|controló]]",
+            "[[ignored|ignoró]]",
+            "[[lost|perdió]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Control' significa el poder de influir o dirigir el comportamiento de las personas o el curso de los eventos.",
+          "audio": "audio/b1/unit-30/e38.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-30/e38.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u30-e39",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "History & Ancient Civilizations",
+    "difficulty": "medium",
+    "transcript": "[[Ancient|El antiguo]] [[Persia|Imperio]] [[was|Persa]] [[famous|fue]] [[famous|famoso]] [[for|por]] [[its|sus]] [[magnificent|magníficos]] [[palaces|palacios]] [[and|y]] [[gardens|jardines]].",
+    "content": {
+      "title": "Imperio Persa",
+      "instructions": "Elige la palabra para edificios grandes donde viven reyes o reinas.",
+      "questions": [
+        {
+          "question": "[[Ancient|La antigua]] [[Persia|Persia]] [[had|tenía]] [[magnificent|magníficos]] ______.",
+          "options": [
+            "[[palaces|palacios]]",
+            "[[huts|cabañas]]",
+            "[[tents|tiendas]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Los 'Palaces' son las residencias oficiales de soberanos o figuras de alto rango.",
+          "audio": "audio/b1/unit-30/e39.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-30/e39.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u30-e40",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "History & Ancient Civilizations",
+    "difficulty": "medium",
+    "transcript": "[[The|La]] [[invention|invención]] [[of|de]] [[the|la]] [[printing|imprenta]] [[press| ]] [[helped|ayudó]] [[spread|a difundir]] [[knowledge|el conocimiento]] [[rapidly|rápidamente]].",
+    "content": {
+      "title": "La Imprenta",
+      "instructions": "Selecciona el verbo que significa distribuir o extender algo sobre un área amplia.",
+      "questions": [
+        {
+          "question": "[[Books|Los libros]] [[helped|ayudaron]] [[to| ]] ______ [[new|nuevas]] [[ideas|ideas]].",
+          "options": [
+            "[[spread|difundir]]",
+            "[[hide|esconder]]",
+            "[[stop|detener]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Spread' significa extenderse sobre un área amplia o entre un gran número de personas.",
+          "audio": "audio/b1/unit-30/e40.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-30/e40.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u30-e41",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "History & Ancient Civilizations",
+    "difficulty": "medium",
+    "transcript": "[[The|La]] [[Age|Era]] [[of|de la]] [[Enlightenment|Ilustración]] [[emphasized|enfatizó]] [[reason|la razón]] [[and|y]] [[individualism|el individualismo]].",
+    "content": {
+      "title": "La Ilustración",
+      "instructions": "Elige la palabra para la capacidad de pensar y entender lógicamente.",
+      "questions": [
+        {
+          "question": "[[The|La]] [[Enlightenment|Ilustración]] [[focused|se centró]] [[on|en]] [[human|la]] ______ [[humana]].",
+          "options": [
+            "[[reason|razón]]",
+            "[[fear|miedo]]",
+            "[[anger|ira]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Reason' es el poder de la mente para pensar, entender y formar juicios por un proceso de lógica.",
+          "audio": "audio/b1/unit-30/e41.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-30/e41.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u30-e42",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "History & Ancient Civilizations",
+    "difficulty": "medium",
+    "transcript": "[[The|El]] [[Parthenon|Partenón]] [[is|es]] [[a|un]] [[former|antiguo]] [[temple|templo]] [[on|en]] [[the|la]] [[Athenian|Acrópolis]] [[Acropolis|ateniense]].",
+    "content": {
+      "title": "El Partenón",
+      "instructions": "Selecciona la palabra para un edificio dedicado a la adoración religiosa.",
+      "questions": [
+        {
+          "question": "[[The|El]] [[Parthenon|Partenón]] [[was|fue]] [[a|un]] ______ [[religious|religioso]].",
+          "options": [
+            "[[temple|templo]]",
+            "[[market|mercado]]",
+            "[[theatre|teatro]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Un 'Temple' es un edificio dedicado a la adoración de un dios o dioses.",
+          "audio": "audio/b1/unit-30/e42.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-30/e42.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u30-e43",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "History & Ancient Civilizations",
+    "difficulty": "medium",
+    "transcript": "[[Gladiatorial|Los juegos]] [[games|gladiatorios]] [[were|eran]] [[brutal|espectáculos]] [[spectacles|brutales]] [[for|para]] [[public|el entretenimiento]] [[entertainment|público]].",
+    "content": {
+      "title": "Juegos Gladiatorios",
+      "instructions": "Elige el adjetivo que describe algo muy cruel o violento.",
+      "questions": [
+        {
+          "question": "[[The|Los]] [[games|juegos]] [[were|eran]] [[often|a menudo]] ______.",
+          "options": [
+            "[[brutal|brutales]]",
+            "[[peaceful|pacíficos]]",
+            "[[kind|amables]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Brutal' significa salvajemente violento o cruel.",
+          "audio": "audio/b1/unit-30/e43.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-30/e43.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u30-e44",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "History & Ancient Civilizations",
+    "difficulty": "medium",
+    "transcript": "[[The|La]] [[Bronze|Edad]] [[Age|de Bronce]] [[followed|siguió]] [[the|a la]] [[Neolithic|era]] [[era|neolítica]] [[in|en]] [[many|muchas]] [[cultures|culturas]].",
+    "content": {
+      "title": "Edad de Bronce",
+      "instructions": "Selecciona el verbo que significa venir después de algo.",
+      "questions": [
+        {
+          "question": "[[The|La]] [[Bronze|Edad]] [[Age|de Bronce]] ______ [[the|a la]] [[Stone|Edad]] [[Age|de Piedra]].",
+          "options": [
+            "[[followed|siguió]]",
+            "[[started|comenzó]]",
+            "[[ended|terminó]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Follow' significa venir después en el tiempo o el orden.",
+          "audio": "audio/b1/unit-30/e44.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-30/e44.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u30-e45",
+    "type": "multiple-choice",
+    "level": "B1",
+    "topic": "History & Ancient Civilizations",
+    "difficulty": "medium",
+    "transcript": "[[Nomadic|Las tribus]] [[tribes|nómadas]] [[moved|se movían]] [[frequently|frecuentemente]] [[to|para]] [[find|encontrar]] [[new|nuevos]] [[pastures|pastos]].",
+    "content": {
+      "title": "Tribus Nómadas",
+      "instructions": "Elige el adverbio que significa muchas veces o a intervalos cortos.",
+      "questions": [
+        {
+          "question": "[[They|Ellos]] [[moved|se movían]] ______ [[to|para]] [[find|encontrar]] [[food|comida]].",
+          "options": [
+            "[[frequently|frecuentemente]]",
+            "[[rarely|rara vez]]",
+            "[[never|nunca]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Frequently' significa regularmente o a menudo.",
+          "audio": "audio/b1/unit-30/e45.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b1/unit-30/e45.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b1-u30-e46",
+    "type": "sentence-building",
+    "level": "B1",
+    "topic": "History & Ancient Civilizations",
+    "difficulty": "medium",
+    "transcript": "[[The|Los]] [[ancient|antiguos]] [[Olympic|Juegos]] [[Games|Olímpicos]] [[took|tuvieron]] [[place|lugar]] [[every|cada]] [[four|cuatro]] [[years|años]].",
+    "content": {
+      "title": "Juegos Olímpicos Antiguos",
+      "instructions": "Ordena la oración sobre los Juegos Olímpicos en la antigüedad.",
+      "correctSentence": "[[The|Los]] [[ancient|antiguos]] [[Olympic|Juegos]] [[Games|Olímpicos]] [[took|tuvieron]] [[place|lugar]] [[every|cada]] [[four|cuatro]] [[years|años]]",
+      "words": [
+        "[[took|tuvieron]]",
+        "[[Olympic|Juegos]]",
+        "[[four|cuatro]]",
+        "[[The|Los]]",
+        "[[every|cada]]",
+        "[[place|lugar]]",
+        "[[ancient|antiguos]]",
+        "[[years|años]]",
+        "[[Games|Olímpicos]]"
+      ],
+      "explanation": "Expresión 'take place' en pasado simple."
+    },
+    "audioUrl": "audio/b1/unit-30/e46.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u30-e47",
+    "type": "sentence-building",
+    "level": "B1",
+    "topic": "History & Ancient Civilizations",
+    "difficulty": "medium",
+    "transcript": "[[Medieval|Los castillos]] [[castles|medievales]] [[were|fueron]] [[designed|diseñados]] [[to|para]] [[withstand|resistir]] [[long|largos]] [[enemy|ataques]] [[attacks|enemigos]].",
+    "content": {
+      "title": "Defensa de Castillos",
+      "instructions": "Ordena la oración sobre la defensa de castillos medievales.",
+      "correctSentence": "[[Medieval|Los castillos]] [[castles|medievales]] [[were|fueron]] [[designed|diseñados]] [[to|para]] [[withstand|resistir]] [[long|largos]] [[enemy|ataques]] [[attacks|enemigos]]",
+      "words": [
+        "[[designed|diseñados]]",
+        "[[withstand|resistir]]",
+        "[[were|fueron]]",
+        "[[enemy|ataques]]",
+        "[[attacks|enemigos]]",
+        "[[Medieval|Los castillos]]",
+        "[[to|para]]",
+        "[[long|largos]]",
+        "[[castles|medievales]]"
+      ],
+      "explanation": "Voz pasiva e infinitivo de propósito."
+    },
+    "audioUrl": "audio/b1/unit-30/e47.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u30-e48",
+    "type": "sentence-building",
+    "level": "B1",
+    "topic": "History & Ancient Civilizations",
+    "difficulty": "medium",
+    "transcript": "[[The|La]] [[Scientific|Revolución]] [[Revolution|Científica]] [[transformed|transformó]] [[human|la comprensión]] [[understanding|humana]] [[of|del]] [[the| ]] [[natural|mundo]] [[world|natural]].",
+    "content": {
+      "title": "Revolución Científica",
+      "instructions": "Ordena la oración sobre el impacto de la Revolución Científica.",
+      "correctSentence": "[[The|La]] [[Scientific|Revolución]] [[Revolution|Científica]] [[transformed|transformó]] [[human|la comprensión]] [[understanding|humana]] [[of|del]] [[the| ]] [[natural|mundo]] [[world|natural]]",
+      "words": [
+        "[[Scientific|Revolución]]",
+        "[[understanding|humana]]",
+        "[[transformed|transformó]]",
+        "[[The|La]]",
+        "[[natural|mundo]]",
+        "[[world|natural]]",
+        "[[of|del]]",
+        "[[human|la comprensión]]",
+        "[[Revolution|Científica]]"
+      ],
+      "explanation": "Pasado simple con sustantivos complejos."
+    },
+    "audioUrl": "audio/b1/unit-30/e48.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u30-e49",
+    "type": "sentence-building",
+    "level": "B1",
+    "topic": "History & Ancient Civilizations",
+    "difficulty": "medium",
+    "transcript": "[[Early|Los primeros]] [[explorers|exploradores]] [[navigated|navegaron]] [[across|por]] [[the|el]] [[ocean|océano]] [[using|usando]] [[only|solo]] [[the|las]] [[stars|estrellas]].",
+    "content": {
+      "title": "Navegación Antigua",
+      "instructions": "Ordena la oración sobre cómo navegaban los antiguos exploradores.",
+      "correctSentence": "[[Early|Los primeros]] [[explorers|exploradores]] [[navigated|navegaron]] [[across|por]] [[the|el]] [[ocean|océano]] [[using|usando]] [[only|solo]] [[the|las]] [[stars|estrellas]]",
+      "words": [
+        "[[explorers|exploradores]]",
+        "[[navigated|navegaron]]",
+        "[[stars|estrellas]]",
+        "[[ocean|océano]]",
+        "[[using|usando]]",
+        "[[the|las]]",
+        "[[only|solo]]",
+        "[[across|por]]",
+        "[[Early|Los primeros]]"
+      ],
+      "explanation": "Uso del participio de presente para indicar modo."
+    },
+    "audioUrl": "audio/b1/unit-30/e49.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b1-u30-e50",
+    "type": "sentence-building",
+    "level": "B1",
+    "topic": "History & Ancient Civilizations",
+    "difficulty": "medium",
+    "transcript": "[[Ancient|Las antiguas]] [[trade|rutas]] [[routes|comerciales]] [[provided|proporcionaron]] [[access|acceso]] [[to|a]] [[exotic|bienes]] [[goods|exóticos]] [[and|y]] [[spices|especias]].",
+    "content": {
+      "title": "Rutas Comerciales",
+      "instructions": "Ordena la oración sobre el propósito de las rutas comerciales antiguas.",
+      "correctSentence": "[[Ancient|Las antiguas]] [[trade|rutas]] [[routes|comerciales]] [[provided|proporcionaron]] [[access|acceso]] [[to|a]] [[exotic|bienes]] [[goods|exóticos]] [[and|y]] [[spices|especias]]",
+      "words": [
+        "[[provided|proporcionaron]]",
+        "[[access|acceso]]",
+        "[[spices|especias]]",
+        "[[Ancient|Las antiguas]]",
+        "[[and|y]]",
+        "[[to|a]]",
+        "[[trade|rutas]]",
+        "[[exotic|bienes]]",
+        "[[goods|exóticos]]"
+      ],
+      "explanation": "Pasado simple con adjetivos y sustantivos coordinados."
+    },
+    "audioUrl": "audio/b1/unit-30/e50.mp3",
+    "topicName": "Grammar"
+  },
 ];

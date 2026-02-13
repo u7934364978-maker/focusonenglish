@@ -55,3 +55,4 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/87
 7. [x] **Push Changes**: Commit and push the final changes.
 8. [x] **Review Translations**: Ensure all word chips in sentence-building exercises are translated.
 9. [x] **Translate Unit 30 Phrases**: Apply `[[English|Spanish]]` formatting and translate titles/instructions in `src/lib/course/b1/unit-30.ts`.
+10. [x] **Complete Unit 30**: Add exercises `b1-u30-e31` to `b1-u30-e50` to reach 50 total exercises.
