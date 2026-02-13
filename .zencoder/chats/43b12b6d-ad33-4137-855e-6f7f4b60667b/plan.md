@@ -10,8 +10,8 @@
 - [x] Unit 2: Technology and Innovation
 - [x] Unit 3: Environmental Issues (Fixed)
 - [x] Unit 4: Health and Well-being
-- [ ] Unit 5: Travel and Tourism (Pending)
-- [ ] Unit 6: Work and Careers
+- [x] Unit 5: Travel and Tourism
+- [ ] Unit 6: Work and Careers (Pending)
 - [ ] Unit 7: Education and Learning
 - [ ] Unit 8: Media and Entertainment
 - [ ] Unit 9: Crime and Punishment
