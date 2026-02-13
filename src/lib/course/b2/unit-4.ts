@@ -1,6 +1,6 @@
 import { Exercise } from "@/types/course";
 
-export const unit4: Exercise[] = [
+export const UNIT_4_EXERCISES: Exercise[] = [
   {
     "id": "b2-u4-e1",
     "type": "sentence-building",
