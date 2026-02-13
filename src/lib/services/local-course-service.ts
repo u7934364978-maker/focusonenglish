@@ -269,7 +269,7 @@ export const localCourseService = {
         
         // If there are multiple answers or multiple brackets, treat it as a gap-fill
         const hasMultipleAnswers = Array.isArray(normalized) && normalized.length > 1;
-        const hasBrackets = text.includes('[') && text.includes(']');
+        const hasBrackets = /\[(?!\[).*?\]/.test(text);
         
         if (hasBrackets || hasMultipleAnswers) {
           let gapCount = 0;
@@ -278,7 +278,7 @@ export const localCourseService = {
           
           // If we have brackets like [answer], replace them with [1], [2], etc.
           if (hasBrackets) {
-            processedText = text.replace(/\[(.*?)\]/g, (match: string, answer: string) => {
+            processedText = text.replace(/\[(?!\[)(.*?)(?<!\])\]/g, (match: string, answer: string) => {
               gapCount++;
               gaps.push({
                 id: `gap-${gapCount}`,
@@ -321,7 +321,7 @@ export const localCourseService = {
             {
               id: id + '-q',
               type: 'fill-blank',
-              question: text.replace(/\[.*?\]/g, '___'),
+              question: text.replace(/\[(?!\[)(.*?)(?<!\])\]/g, '___'),
               correctAnswer: Array.isArray(normalized) ? normalized[0] : normalized,
               acceptableAnswers: Array.isArray(normalized) ? normalized : [normalized],
               explanation: item.explanation,
@@ -432,8 +432,82 @@ export const localCourseService = {
         } as any;
       }
 
-      // Reordering
-      if (itemType === 'reorder' || itemType === 'sentence-reordering' || itemType === 'sentence-ordering') {
+      // Reordering and Sentence Building
+      if (itemType === 'reorder' || itemType === 'sentence-reordering' || itemType === 'sentence-ordering' || itemType === 'sentence-building') {
+        const questions = item.questions || item.content?.questions || [];
+        
+        if (questions.length > 0 && itemType === 'sentence-building') {
+          const challenges = questions.map((q: any, idx: number) => {
+            const rawQuestion = q.question || '';
+            const words: any[] = [];
+            let targetSentence = '';
+            
+            // Match [[Word|Translation]] OR any non-whitespace sequence
+            const componentRegex = /\[\[.*?\]\]|[^\s]+/g;
+            const components = rawQuestion.match(componentRegex) || [];
+            
+            components.forEach((comp, cIdx) => {
+              const bracketMatch = comp.match(/^\[\[(.*?)\|(.*?)\]\]/);
+              if (bracketMatch) {
+                const wordText = bracketMatch[1].trim();
+                const translation = bracketMatch[2].trim();
+                
+                // If there's extra punctuation after the bracket (e.g. [[word|trans]].)
+                const extra = comp.replace(/^\[\[.*?\]\]/, '');
+                
+                words.push({
+                  id: `${id}-q${idx}-w${words.length}`,
+                  text: wordText + extra,
+                  type: 'object',
+                  translation: translation || undefined
+                });
+                targetSentence += wordText + extra + ' ';
+              } else {
+                words.push({
+                  id: `${id}-q${idx}-w${words.length}`,
+                  text: comp,
+                  type: 'object'
+                });
+                targetSentence += comp + ' ';
+              }
+            });
+            
+            // If no components were found (shouldn't happen with rawQuestion)
+            if (words.length === 0 && rawQuestion) {
+              const cleanQuestion = rawQuestion.replace(/___+/g, '').trim();
+              const splitWords = cleanQuestion.split(/\s+/).filter(Boolean);
+              splitWords.forEach((w: string, i: number) => {
+                words.push({
+                  id: `${id}-q${idx}-w${i}`,
+                  text: w,
+                  type: 'object'
+                });
+              });
+              targetSentence = cleanQuestion;
+            }
+            
+            return {
+              id: q.id || `${id}-q${idx}`,
+              prompt: item.instructions || item.content?.instructions || 'Reorder the words to form a correct sentence:',
+              targetSentence: targetSentence.trim(),
+              words: words,
+              translation: q.explanation || item.explanation,
+              difficulty: item.difficulty || 'medium',
+              points: q.points || 1
+            };
+          });
+
+          return {
+            id: id,
+            type: 'sentence-building',
+            title: item.title || item.content?.title || 'Sentence Building',
+            instructions: item.instructions || item.content?.instructions || 'Reorder the words to form a correct sentence.',
+            challenges: challenges,
+            showHints: true,
+            showTranslations: true
+          } as any;
+        }
+
         if (item.sentences && Array.isArray(item.sentences)) {
           return {
             id: id,
@@ -444,13 +518,13 @@ export const localCourseService = {
             correctOrder: item.correctOrder || Array.from({ length: item.sentences.length }, (_, i) => i),
             explanation: item.explanation
           } as any;
-        } else if (item.sentence) {
+        } else if (item.sentence || (itemType === 'sentence-building' && item.targetSentence)) {
           // Word reordering
-          const normalizedSentences = normalizeAnswer(item.sentence);
+          const normalizedSentences = normalizeAnswer(item.sentence || item.targetSentence);
           const targetSentence = Array.isArray(normalizedSentences) ? normalizedSentences[0] : normalizedSentences;
           const acceptableVariations = Array.isArray(normalizedSentences) ? normalizedSentences.slice(1) : [];
           
-          const words = targetSentence.split(' ');
+          const words = targetSentence.split(/\s+/).filter(Boolean);
           const shuffled = [...words].sort(() => Math.random() - 0.5);
 
           return {

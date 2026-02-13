@@ -8,9 +8,9 @@
 ## Phase 2: Unit Implementation (One by One)
 - [x] Unit 1: Relationships and Social Life
 - [x] Unit 2: Technology and Innovation
-- [/] Unit 3: Environmental Issues (In Progress)
-- [ ] Unit 4: Health and Well-being
-- [ ] Unit 5: Travel and Tourism
+- [x] Unit 3: Environmental Issues (Fixed)
+- [x] Unit 4: Health and Well-being
+- [ ] Unit 5: Travel and Tourism (Pending)
 - [ ] Unit 6: Work and Careers
 - [ ] Unit 7: Education and Learning
 - [ ] Unit 8: Media and Entertainment

@@ -1150,14 +1150,14 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Elige el phrasal verb que significa 'deshacerse de' algo correctamente.",
       "questions": [
         {
-          "question": "[[If|Si]] [[I|fuera]] [[were|tú,]] [[you,|me]] [[I|_______]] [[would|de]] [[dispose|esas]] [[of|pilas]] [[those|correctamente.]] [[batteries| ]] [[properly.| ]]",
+          "question": "[[If|Si]] [[I|fuera]] [[were|tú,]] [[you,|me]] [[I|_______]] [[those|esas]] [[batteries|pilas]] [[properly.|correctamente.]]",
           "options": [
-            "[[dispose of|desharía]]",
-            "[[put away|guardaría]]",
-            "[[take back|devolvería]]"
+            "[[would dispose of|desharía]]",
+            "[[would put away|guardaría]]",
+            "[[would take back|devolvería]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Dispose of' is the correct term for getting rid of waste.",
+          "explanation": "'Would dispose of' is the conditional form used for giving advice with 'If I were you'.",
           "audio": "audio/b2/unit-3/e39.mp3"
         }
       ]
@@ -1393,11 +1393,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Elige la preposición correcta para 'dispose'.",
       "questions": [
         {
-          "question": "[[We|Necesitamos]] [[need|deshacernos]] [[to|de]] [[dispose|nuestros]] [[_______|_______]] [[our|aparatos]] [[old|viejos.]] [[electronics| ]]",
+          "question": "[[We|Necesitamos]] [[need|deshacernos]] [[to|de]] [[dispose|_______]] [[our|nuestros]] [[old|aparatos]] [[electronics|viejos.]]",
           "options": [
-            "[[of|de]]",
-            "[[off|fuera]]",
-            "[[out|fuera]]"
+            "[[of| ]]",
+            "[[off| ]]",
+            "[[out| ]]"
           ],
           "correctAnswer": 0,
           "explanation": "'Dispose' is always followed by the preposition 'of'.",
@@ -1420,11 +1420,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Elige el phrasal verb que significa 'quedarse sin'.",
       "questions": [
         {
-          "question": "[[Suppose|Supongamos]] [[the|que]] [[world|el]] [[_______|_______]] [[out|se quedara]] [[of|sin]] [[oil,|petróleo.]]",
+          "question": "[[Suppose|Supongamos]] [[the|que]] [[world|el]] [[_______|_______]] [[of|sin]] [[oil,|petróleo.]]",
           "options": [
-            "[[ran|quedara]]",
-            "[[went|fuera]]",
-            "[[took|tomara]]"
+            "[[ran out|se quedara]]",
+            "[[went out|se fuera]]",
+            "[[took out|se tomara]]"
           ],
           "correctAnswer": 0,
           "explanation": "'Ran out of' is the past form of 'run out of'.",
@@ -1447,11 +1447,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Elige el phrasal verb que significa 'enfrentarse a'.",
       "questions": [
         {
-          "question": "[[Environmental|Grupos]] [[groups|ecologistas]] [[are|se]] [[_______|_______]] [[up|están]] [[to|enfrentando]] [[companies|a las]] [[that|empresas]] [[pollute.|que contaminan.]]",
+          "question": "[[Environmental|Grupos]] [[groups|ecologistas]] [[are|se]] [[_______|están]] [[up|enfrentando]] [[to|a]] [[companies|las]] [[that|empresas]] [[pollute.|que contaminan.]]",
           "options": [
-            "[[standing|enfrentando]]",
-            "[[sitting|sentando]]",
-            "[[looking|mirando]]"
+            "[[standing| ]]",
+            "[[sitting| ]]",
+            "[[looking| ]]"
           ],
           "correctAnswer": 0,
           "explanation": "'Standing up to' means to resist or confront someone powerful.",
