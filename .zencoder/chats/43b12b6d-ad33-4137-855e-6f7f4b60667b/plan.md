@@ -11,26 +11,35 @@
 - [x] Unit 3: Environmental Issues (Fixed)
 - [x] Unit 4: Health and Well-being
 - [x] Unit 5: Travel and Tourism (Fixed)
+## Phase 2: Units 6-10 (Completed)
 - [x] Unit 6: Work and Careers
 - [x] Unit 7: Education and Learning (Fixed Gaps & Translations)
 - [x] Unit 8: Media and Entertainment (Fixed Gaps & Translations)
 - [x] Unit 9: Crime and Punishment
 - [x] Unit 10: Money and Finance
+
+## Phase 3: Units 11-15 (In Progress)
 - [ ] Unit 11: Arts and Culture
 - [ ] Unit 12: Science and Nature
 - [ ] Unit 13: Food and Nutrition
 - [ ] Unit 14: Shopping and Consumerism
 - [ ] Unit 15: Sports and Fitness
+
+## Phase 4: Units 16-20
 - [ ] Unit 16: Psychology and Personality
 - [ ] Unit 17: History and Heritage
 - [ ] Unit 18: Housing and Urbanization
 - [ ] Unit 19: Communication and Language
 - [ ] Unit 20: The Future of Society
+
+## Phase 5: Units 21-25
 - [ ] Unit 21: Law and Order
 - [ ] Unit 22: Fashion and Trends
 - [ ] Unit 23: Globalization
 - [ ] Unit 24: Success and Failure
 - [ ] Unit 25: Mysteries and Myths
+
+## Phase 6: Units 26-30
 - [ ] Unit 26: Politics and Government
 - [ ] Unit 27: Leisure and Hobbies
 - [ ] Unit 28: Animals and Wildlife
