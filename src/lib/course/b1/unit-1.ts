@@ -1,5 +1,6 @@
 
-import { Exercise } from '@/lib/exercise-generator';
+import {
+    "id": "b1-u1-e1", Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_1_EXERCISES: Exercise[] = [
   {
@@ -24,11 +25,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u1-e1",
     "audioUrl": "audio/b1/unit-1/e1.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u1-e2",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -50,11 +51,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u1-e2",
     "audioUrl": "audio/b1/unit-1/e2.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u1-e3",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -76,11 +77,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u1-e3",
     "audioUrl": "audio/b1/unit-1/e3.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u1-e4",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -102,11 +103,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u1-e4",
     "audioUrl": "audio/b1/unit-1/e4.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u1-e5",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -128,11 +129,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u1-e5",
     "audioUrl": "audio/b1/unit-1/e5.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u1-e6",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -154,11 +155,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u1-e6",
     "audioUrl": "audio/b1/unit-1/e6.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u1-e7",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -180,11 +181,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u1-e7",
     "audioUrl": "audio/b1/unit-1/e7.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u1-e8",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -206,11 +207,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u1-e8",
     "audioUrl": "audio/b1/unit-1/e8.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u1-e9",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -232,11 +233,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u1-e9",
     "audioUrl": "audio/b1/unit-1/e9.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u1-e10",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -258,11 +259,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u1-e10",
     "audioUrl": "audio/b1/unit-1/e10.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u1-e11",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -288,11 +289,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "explanation": "Establece un contraste con 'although' y usa 'is considering' para una acción en progreso.",
       "audio": "audio/b1/unit-1/e11.mp3"
     },
-    "id": "b1-u1-e11",
     "audioUrl": "audio/b1/unit-1/e11.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u1-e12",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -315,11 +316,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "explanation": "Uso de 'despite' para expresar una situación adversa y 'are making' para el desarrollo actual.",
       "audio": "audio/b1/unit-1/e12.mp3"
     },
-    "id": "b1-u1-e12",
     "audioUrl": "audio/b1/unit-1/e12.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u1-e13",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -344,11 +345,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "explanation": "Diferencia entre rutina 'usually travels' y acción temporal 'is driving'.",
       "audio": "audio/b1/unit-1/e13.mp3"
     },
-    "id": "b1-u1-e13",
     "audioUrl": "audio/b1/unit-1/e13.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u1-e14",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -373,11 +374,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "explanation": "Uso de 'while' para indicar acciones simultáneas y 'works' para una actividad habitual.",
       "audio": "audio/b1/unit-1/e14.mp3"
     },
-    "id": "b1-u1-e14",
     "audioUrl": "audio/b1/unit-1/e14.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u1-e15",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -403,11 +404,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "explanation": "Uso de presente continuo 'are discussing' para indicar un debate en curso mientras se planea un proyecto 'plan'.",
       "audio": "audio/b1/unit-1/e15.mp3"
     },
-    "id": "b1-u1-e15",
     "audioUrl": "audio/b1/unit-1/e15.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u1-e16",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -429,11 +430,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u1-e16",
     "audioUrl": "audio/b1/unit-1/e16.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u1-e17",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -455,11 +456,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u1-e17",
     "audioUrl": "audio/b1/unit-1/e17.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u1-e18",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -481,11 +482,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u1-e18",
     "audioUrl": "audio/b1/unit-1/e18.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u1-e19",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -507,11 +508,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u1-e19",
     "audioUrl": "audio/b1/unit-1/e19.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u1-e20",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -533,11 +534,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u1-e20",
     "audioUrl": "audio/b1/unit-1/e20.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u1-e21",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -559,11 +560,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u1-e21",
     "audioUrl": "audio/b1/unit-1/e21.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u1-e22",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -585,11 +586,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u1-e22",
     "audioUrl": "audio/b1/unit-1/e22.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u1-e23",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -611,11 +612,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u1-e23",
     "audioUrl": "audio/b1/unit-1/e23.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u1-e24",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -637,11 +638,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u1-e24",
     "audioUrl": "audio/b1/unit-1/e24.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u1-e25",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -663,11 +664,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u1-e25",
     "audioUrl": "audio/b1/unit-1/e25.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u1-e26",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -695,11 +696,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "explanation": "Uso del presente simple para rutinas y presente continuo para acciones en desarrollo.",
       "audio": "audio/b1/unit-1/e26.mp3"
     },
-    "id": "b1-u1-e26",
     "audioUrl": "audio/b1/unit-1/e26.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u1-e27",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -722,11 +723,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "explanation": "Presente continuo para describir acciones que suceden ahora y uso de 'despite' como conector.",
       "audio": "audio/b1/unit-1/e27.mp3"
     },
-    "id": "b1-u1-e27",
     "audioUrl": "audio/b1/unit-1/e27.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u1-e28",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -754,11 +755,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "explanation": "Diferenciando entre rutinas habituales (presente simple) y excepciones temporales (presente continuo).",
       "audio": "audio/b1/unit-1/e28.mp3"
     },
-    "id": "b1-u1-e28",
     "audioUrl": "audio/b1/unit-1/e28.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u1-e29",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -783,11 +784,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "explanation": "Uso de presente simple para hábitos y presente continuo para describir situaciones que se desvían del hábito.",
       "audio": "audio/b1/unit-1/e29.mp3"
     },
-    "id": "b1-u1-e29",
     "audioUrl": "audio/b1/unit-1/e29.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u1-e30",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -813,11 +814,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "explanation": "Uso del presente continuo para hablar sobre cambios actuales y generales en la sociedad.",
       "audio": "audio/b1/unit-1/e30.mp3"
     },
-    "id": "b1-u1-e30",
     "audioUrl": "audio/b1/unit-1/e30.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u1-e31",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -839,11 +840,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u1-e31",
     "audioUrl": "audio/b1/unit-1/e31.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u1-e32",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -865,11 +866,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u1-e32",
     "audioUrl": "audio/b1/unit-1/e32.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u1-e33",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -891,11 +892,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u1-e33",
     "audioUrl": "audio/b1/unit-1/e33.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u1-e34",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -917,11 +918,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u1-e34",
     "audioUrl": "audio/b1/unit-1/e34.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u1-e35",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -943,11 +944,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u1-e35",
     "audioUrl": "audio/b1/unit-1/e35.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u1-e36",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -969,11 +970,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u1-e36",
     "audioUrl": "audio/b1/unit-1/e36.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u1-e37",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -995,11 +996,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u1-e37",
     "audioUrl": "audio/b1/unit-1/e37.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u1-e38",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -1021,11 +1022,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u1-e38",
     "audioUrl": "audio/b1/unit-1/e38.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u1-e39",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -1047,11 +1048,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u1-e39",
     "audioUrl": "audio/b1/unit-1/e39.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u1-e40",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -1073,11 +1074,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u1-e40",
     "audioUrl": "audio/b1/unit-1/e40.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u1-e41",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -1104,11 +1105,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "explanation": "Contraste entre presente simple para hábitos y presente continuo para acciones temporales.",
       "audio": "audio/b1/unit-1/e41.mp3"
     },
-    "id": "b1-u1-e41",
     "audioUrl": "audio/b1/unit-1/e41.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u1-e42",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -1136,11 +1137,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "explanation": "El presente simple indica frecuencia, mientras que el presente continuo se usa para una acción específica en curso.",
       "audio": "audio/b1/unit-1/e42.mp3"
     },
-    "id": "b1-u1-e42",
     "audioUrl": "audio/b1/unit-1/e42.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u1-e43",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -1167,11 +1168,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "explanation": "Uso del presente continuo para una acción recurrente planificada con un contraste inicial utilizando 'despite'.",
       "audio": "audio/b1/unit-1/e43.mp3"
     },
-    "id": "b1-u1-e43",
     "audioUrl": "audio/b1/unit-1/e43.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u1-e44",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -1199,11 +1200,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "explanation": "El contraste entre hábitos y acciones puntuales se muestra aquí con el uso de 'while' para enfatizar eventos simultáneos y temporales.",
       "audio": "audio/b1/unit-1/e44.mp3"
     },
-    "id": "b1-u1-e44",
     "audioUrl": "audio/b1/unit-1/e44.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u1-e45",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -1233,11 +1234,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "explanation": "Uso del presente simple para expresar hábitos en contraste con el presente continuo para situaciones temporales actuales.",
       "audio": "audio/b1/unit-1/e45.mp3"
     },
-    "id": "b1-u1-e45",
     "audioUrl": "audio/b1/unit-1/e45.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u1-e46",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -1259,11 +1260,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u1-e46",
     "audioUrl": "audio/b1/unit-1/e46.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u1-e47",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -1285,11 +1286,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u1-e47",
     "audioUrl": "audio/b1/unit-1/e47.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u1-e48",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -1311,11 +1312,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u1-e48",
     "audioUrl": "audio/b1/unit-1/e48.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u1-e49",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -1337,11 +1338,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u1-e49",
     "audioUrl": "audio/b1/unit-1/e49.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u1-e50",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
@@ -1363,7 +1364,6 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u1-e50",
     "audioUrl": "audio/b1/unit-1/e50.mp3",
     "topicName": "Grammar"
   }

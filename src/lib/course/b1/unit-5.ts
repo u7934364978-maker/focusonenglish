@@ -1,5 +1,6 @@
 
-import { Exercise } from '@/lib/exercise-generator';
+import {
+    "id": "b1-u5-e1", Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_5_EXERCISES: Exercise[] = [
   {
@@ -25,11 +26,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u5-e1",
     "audioUrl": "audio/b1/unit-5/e1.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u5-e2",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -52,11 +53,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u5-e2",
     "audioUrl": "audio/b1/unit-5/e2.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u5-e3",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -79,11 +80,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u5-e3",
     "audioUrl": "audio/b1/unit-5/e3.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u5-e4",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -106,11 +107,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u5-e4",
     "audioUrl": "audio/b1/unit-5/e4.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u5-e5",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -133,11 +134,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u5-e5",
     "audioUrl": "audio/b1/unit-5/e5.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u5-e6",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -159,11 +160,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u5-e6",
     "audioUrl": "audio/b1/unit-5/e6.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u5-e7",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -185,11 +186,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u5-e7",
     "audioUrl": "audio/b1/unit-5/e7.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u5-e8",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -211,11 +212,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u5-e8",
     "audioUrl": "audio/b1/unit-5/e8.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u5-e9",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -237,11 +238,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u5-e9",
     "audioUrl": "audio/b1/unit-5/e9.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u5-e10",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -263,11 +264,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u5-e10",
     "audioUrl": "audio/b1/unit-5/e10.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u5-e11",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -288,11 +289,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "explanation": "Uso de 'will' para decisiones instantáneas o promesas.",
       "audio": "audio/b1/unit-5/e11.mp3"
     },
-    "id": "b1-u5-e11",
     "audioUrl": "audio/b1/unit-5/e11.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u5-e12",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -314,11 +315,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "explanation": "El presente continuo para eventos planificados en el futuro cercano.",
       "audio": "audio/b1/unit-5/e12.mp3"
     },
-    "id": "b1-u5-e12",
     "audioUrl": "audio/b1/unit-5/e12.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u5-e13",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -341,11 +342,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "explanation": "Uso de 'going to' para planes o intenciones futuras.",
       "audio": "audio/b1/unit-5/e13.mp3"
     },
-    "id": "b1-u5-e13",
     "audioUrl": "audio/b1/unit-5/e13.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u5-e14",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -368,11 +369,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "explanation": "Uso de 'will' para anunciar hechos futuros.",
       "audio": "audio/b1/unit-5/e14.mp3"
     },
-    "id": "b1-u5-e14",
     "audioUrl": "audio/b1/unit-5/e14.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u5-e15",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -395,37 +396,37 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "explanation": "Uso del presente continuo para acciones en progreso o planeadas.",
       "audio": "audio/b1/unit-5/e15.mp3"
     },
-    "id": "b1-u5-e15",
     "audioUrl": "audio/b1/unit-5/e15.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u5-e16",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
     "transcript": "They will develop a new app by next year.",
     "content": {
-      "title": "Pluralidad tecnológica",
+      "title": "Predicciones tecnológicas",
       "instructions": "Elige la forma correcta del futuro para completar la oración.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[develop|desarrollarán]] [[a|una]] [[new|nueva]] [[app|aplicación]] [[by|para]] [[next|el]] [[year|año]].",
+          "question": "[[They|Ellos]] _______ [[develop|desarrollar]] [[a|una]] [[new|nueva]] [[app|aplicación]] [[by|para]] [[next|el]] [[year|año]].",
           "options": [
-            "[[will|van a]]",
+            "[[will|auxiliar futuro]]",
             "[[are going to|van a]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso de 'will' para decisiones espontáneas o para acciones en el futuro no planeadas.",
+          "explanation": "Usamos 'will' para hacer predicciones generales sobre el futuro.",
           "audio": "audio/b1/unit-5/e16.mp3"
         }
       ]
     },
-    "id": "b1-u5-e16",
     "audioUrl": "audio/b1/unit-5/e16.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u5-e17",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -447,11 +448,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u5-e17",
     "audioUrl": "audio/b1/unit-5/e17.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u5-e18",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -473,11 +474,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u5-e18",
     "audioUrl": "audio/b1/unit-5/e18.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u5-e19",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -499,11 +500,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u5-e19",
     "audioUrl": "audio/b1/unit-5/e19.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u5-e20",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -525,11 +526,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u5-e20",
     "audioUrl": "audio/b1/unit-5/e20.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u5-e21",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -551,11 +552,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u5-e21",
     "audioUrl": "audio/b1/unit-5/e21.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u5-e22",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -577,11 +578,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u5-e22",
     "audioUrl": "audio/b1/unit-5/e22.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u5-e23",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -603,11 +604,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u5-e23",
     "audioUrl": "audio/b1/unit-5/e23.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u5-e24",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -629,11 +630,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u5-e24",
     "audioUrl": "audio/b1/unit-5/e24.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u5-e25",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -655,11 +656,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u5-e25",
     "audioUrl": "audio/b1/unit-5/e25.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u5-e26",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -685,11 +686,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "explanation": "Uso del 'going to' para planes futuros.",
       "audio": "audio/b1/unit-5/e26.mp3"
     },
-    "id": "b1-u5-e26",
     "audioUrl": "audio/b1/unit-5/e26.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u5-e27",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -713,11 +714,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "explanation": "Uso del presente continuo para eventos planeados en el futuro cercano.",
       "audio": "audio/b1/unit-5/e27.mp3"
     },
-    "id": "b1-u5-e27",
     "audioUrl": "audio/b1/unit-5/e27.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u5-e28",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -741,11 +742,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "explanation": "Uso del 'will' para decisiones rápidas hechas en el momento.",
       "audio": "audio/b1/unit-5/e28.mp3"
     },
-    "id": "b1-u5-e28",
     "audioUrl": "audio/b1/unit-5/e28.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u5-e29",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -770,11 +771,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "explanation": "Uso del 'going to' para hablar de planes ya decididos.",
       "audio": "audio/b1/unit-5/e29.mp3"
     },
-    "id": "b1-u5-e29",
     "audioUrl": "audio/b1/unit-5/e29.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u5-e30",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -799,11 +800,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "explanation": "Combinar 'since' para dar razón con 'going to' para planes.",
       "audio": "audio/b1/unit-5/e30.mp3"
     },
-    "id": "b1-u5-e30",
     "audioUrl": "audio/b1/unit-5/e30.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u5-e31",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -825,11 +826,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u5-e31",
     "audioUrl": "audio/b1/unit-5/e31.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u5-e32",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -851,11 +852,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u5-e32",
     "audioUrl": "audio/b1/unit-5/e32.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u5-e33",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -877,11 +878,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u5-e33",
     "audioUrl": "audio/b1/unit-5/e33.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u5-e34",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -892,7 +893,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción que mejor completa la oración sobre planes definidos para el futuro.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[launch|lanzarán]] [[a|una]] [[new|nueva]] [[app|aplicación]] [[by|para]] [[the|el]] [[end|fin]] [[of|del]] [[the|año]].",
+          "question": "[[They|Ellos]] _______ [[launch|lanzar]] [[a|una]] [[new|nueva]] [[app|aplicación]] [[by|para]] [[the|el]] [[end|fin]] [[of|del]] [[the|el]] [[year|año]].",
           "options": [
             "[[are going to|van a]]",
             "[[will|lanzarán]]"
@@ -903,11 +904,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u5-e34",
     "audioUrl": "audio/b1/unit-5/e34.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u5-e35",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -918,9 +919,9 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para predecir acciones futuras generales.",
       "questions": [
         {
-          "question": "[[More|Más]] [[people|personas]] _______ [[rely|confiarán]] [[on|en]] [[online|plataformas]] [[platforms|en]] [[in|el]] [[the|futuro]].",
+          "question": "[[More|Más]] [[people|personas]] _______ [[rely|confiar]] [[on|en]] [[online|en línea]] [[platforms|plataformas]] [[in|en]] [[the|el]] [[future|futuro]].",
           "options": [
-            "[[will|confiarán]]",
+            "[[will|auxiliar futuro]]",
             "[[are going to|van a]]"
           ],
           "correctAnswer": 0,
@@ -929,11 +930,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u5-e35",
     "audioUrl": "audio/b1/unit-5/e35.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u5-e36",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -955,11 +956,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u5-e36",
     "audioUrl": "audio/b1/unit-5/e36.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u5-e37",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -981,11 +982,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u5-e37",
     "audioUrl": "audio/b1/unit-5/e37.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u5-e38",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -1007,11 +1008,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u5-e38",
     "audioUrl": "audio/b1/unit-5/e38.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u5-e39",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -1033,11 +1034,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u5-e39",
     "audioUrl": "audio/b1/unit-5/e39.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u5-e40",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -1064,11 +1065,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "explanation": "Inicia con 'Although' para mostrar contraste. 'Is going to' indica un plan futuro.",
       "audio": "audio/b1/unit-5/e40.mp3"
     },
-    "id": "b1-u5-e40",
     "audioUrl": "audio/b1/unit-5/e40.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u5-e41",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -1093,11 +1094,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "explanation": "Uso de 'going to' para planes asegurados en el futuro: Sujeto + am/is/are + going to + verbo.",
       "audio": "audio/b1/unit-5/e41.mp3"
     },
-    "id": "b1-u5-e41",
     "audioUrl": "audio/b1/unit-5/e41.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u5-e42",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -1121,11 +1122,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "explanation": "Uso de 'will' para acciones futuras: Sujeto + will + verbo base.",
       "audio": "audio/b1/unit-5/e42.mp3"
     },
-    "id": "b1-u5-e42",
     "audioUrl": "audio/b1/unit-5/e42.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u5-e43",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -1148,11 +1149,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "explanation": "Uso del presente continuo para eventos programados: Sujeto + am/is/are + verbo-ing.",
       "audio": "audio/b1/unit-5/e43.mp3"
     },
-    "id": "b1-u5-e43",
     "audioUrl": "audio/b1/unit-5/e43.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u5-e44",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -1177,11 +1178,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "explanation": "Presente continuo para decisiones cercanas: Sujeto + am/is/are + verbo-ing.",
       "audio": "audio/b1/unit-5/e44.mp3"
     },
-    "id": "b1-u5-e44",
     "audioUrl": "audio/b1/unit-5/e44.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u5-e45",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -1205,11 +1206,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "explanation": "Uso de 'will' para acciones futuras después de consideraciones: Sujeto + will + verbo base.",
       "audio": "audio/b1/unit-5/e45.mp3"
     },
-    "id": "b1-u5-e45",
     "audioUrl": "audio/b1/unit-5/e45.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u5-e46",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -1231,11 +1232,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u5-e46",
     "audioUrl": "audio/b1/unit-5/e46.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u5-e47",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -1257,11 +1258,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u5-e47",
     "audioUrl": "audio/b1/unit-5/e47.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u5-e48",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -1283,11 +1284,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u5-e48",
     "audioUrl": "audio/b1/unit-5/e48.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u5-e49",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -1309,11 +1310,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u5-e49",
     "audioUrl": "audio/b1/unit-5/e49.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u5-e50",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Technology & The Digital Age",
@@ -1335,7 +1336,6 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u5-e50",
     "audioUrl": "audio/b1/unit-5/e50.mp3",
     "topicName": "Grammar"
   }

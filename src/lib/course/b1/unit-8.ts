@@ -1,5 +1,6 @@
 
-import { Exercise } from '@/lib/exercise-generator';
+import {
+    "id": "b1-u8-e1", Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_8_EXERCISES: Exercise[] = [
   {
@@ -25,11 +26,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u8-e1",
     "audioUrl": "audio/b1/unit-8/e1.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u8-e2",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -52,11 +53,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u8-e2",
     "audioUrl": "audio/b1/unit-8/e2.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u8-e3",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -79,11 +80,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u8-e3",
     "audioUrl": "audio/b1/unit-8/e3.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u8-e4",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -106,11 +107,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u8-e4",
     "audioUrl": "audio/b1/unit-8/e4.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u8-e5",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -133,11 +134,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u8-e5",
     "audioUrl": "audio/b1/unit-8/e5.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u8-e6",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -159,11 +160,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u8-e6",
     "audioUrl": "audio/b1/unit-8/e6.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u8-e7",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -185,11 +186,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u8-e7",
     "audioUrl": "audio/b1/unit-8/e7.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u8-e8",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -211,11 +212,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u8-e8",
     "audioUrl": "audio/b1/unit-8/e8.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u8-e9",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -237,11 +238,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u8-e9",
     "audioUrl": "audio/b1/unit-8/e9.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u8-e10",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -263,11 +264,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u8-e10",
     "audioUrl": "audio/b1/unit-8/e10.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u8-e11",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -295,11 +296,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "explanation": "Uso de 'should' para dar consejos acompañado del verbo en infinitivo.",
       "audio": "audio/b1/unit-8/e11.mp3"
     },
-    "id": "b1-u8-e11",
     "audioUrl": "audio/b1/unit-8/e11.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u8-e12",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -327,11 +328,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "explanation": "Uso de 'despite' para contrastar ideas y 'be able to' para hablar de habilidades.",
       "audio": "audio/b1/unit-8/e12.mp3"
     },
-    "id": "b1-u8-e12",
     "audioUrl": "audio/b1/unit-8/e12.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u8-e13",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -357,11 +358,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "explanation": "Uso de 'might' para expresar posibilidad futura.",
       "audio": "audio/b1/unit-8/e13.mp3"
     },
-    "id": "b1-u8-e13",
     "audioUrl": "audio/b1/unit-8/e13.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u8-e14",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -388,11 +389,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "explanation": "Uso de 'could' para hablar de capacidades o posibilidades bajo ciertas condiciones.",
       "audio": "audio/b1/unit-8/e14.mp3"
     },
-    "id": "b1-u8-e14",
     "audioUrl": "audio/b1/unit-8/e14.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u8-e15",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -415,11 +416,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "explanation": "Uso de 'must' para expresar obligación o necesidad.",
       "audio": "audio/b1/unit-8/e15.mp3"
     },
-    "id": "b1-u8-e15",
     "audioUrl": "audio/b1/unit-8/e15.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u8-e16",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -441,11 +442,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u8-e16",
     "audioUrl": "audio/b1/unit-8/e16.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u8-e17",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -467,11 +468,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u8-e17",
     "audioUrl": "audio/b1/unit-8/e17.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u8-e18",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -493,11 +494,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u8-e18",
     "audioUrl": "audio/b1/unit-8/e18.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u8-e19",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -519,11 +520,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u8-e19",
     "audioUrl": "audio/b1/unit-8/e19.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u8-e20",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -545,11 +546,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u8-e20",
     "audioUrl": "audio/b1/unit-8/e20.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u8-e21",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -571,11 +572,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u8-e21",
     "audioUrl": "audio/b1/unit-8/e21.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u8-e22",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -597,11 +598,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u8-e22",
     "audioUrl": "audio/b1/unit-8/e22.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u8-e23",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -623,11 +624,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u8-e23",
     "audioUrl": "audio/b1/unit-8/e23.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u8-e24",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -649,11 +650,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u8-e24",
     "audioUrl": "audio/b1/unit-8/e24.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u8-e25",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -675,11 +676,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u8-e25",
     "audioUrl": "audio/b1/unit-8/e25.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u8-e26",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -703,11 +704,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "explanation": "Uso de 'despite' para contrastar ideas y 'can' para expresar habilidad.",
       "audio": "audio/b1/unit-8/e26.mp3"
     },
-    "id": "b1-u8-e26",
     "audioUrl": "audio/b1/unit-8/e26.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u8-e27",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -730,11 +731,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "explanation": "Uso de 'although' para introducir una concesión y 'must' para obligación.",
       "audio": "audio/b1/unit-8/e27.mp3"
     },
-    "id": "b1-u8-e27",
     "audioUrl": "audio/b1/unit-8/e27.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u8-e28",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -756,11 +757,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "explanation": "Uso de 'might' para expresar posibilidad.",
       "audio": "audio/b1/unit-8/e28.mp3"
     },
-    "id": "b1-u8-e28",
     "audioUrl": "audio/b1/unit-8/e28.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u8-e29",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -785,11 +786,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "explanation": "Uso de 'should' para dar un consejo.",
       "audio": "audio/b1/unit-8/e29.mp3"
     },
-    "id": "b1-u8-e29",
     "audioUrl": "audio/b1/unit-8/e29.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u8-e30",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -812,11 +813,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "explanation": "Uso de 'can' para expresar capacidad como resultado de una acción.",
       "audio": "audio/b1/unit-8/e30.mp3"
     },
-    "id": "b1-u8-e30",
     "audioUrl": "audio/b1/unit-8/e30.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u8-e31",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -839,11 +840,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u8-e31",
     "audioUrl": "audio/b1/unit-8/e31.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u8-e32",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -866,11 +867,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u8-e32",
     "audioUrl": "audio/b1/unit-8/e32.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u8-e33",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -893,11 +894,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u8-e33",
     "audioUrl": "audio/b1/unit-8/e33.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u8-e34",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -920,11 +921,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u8-e34",
     "audioUrl": "audio/b1/unit-8/e34.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u8-e35",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -947,11 +948,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u8-e35",
     "audioUrl": "audio/b1/unit-8/e35.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u8-e36",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -973,11 +974,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u8-e36",
     "audioUrl": "audio/b1/unit-8/e36.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u8-e37",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -999,11 +1000,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u8-e37",
     "audioUrl": "audio/b1/unit-8/e37.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u8-e38",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -1025,11 +1026,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u8-e38",
     "audioUrl": "audio/b1/unit-8/e38.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u8-e39",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -1051,11 +1052,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u8-e39",
     "audioUrl": "audio/b1/unit-8/e39.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u8-e40",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -1077,11 +1078,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u8-e40",
     "audioUrl": "audio/b1/unit-8/e40.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u8-e41",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -1108,11 +1109,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "explanation": "Uso del modal 'should' para dar consejos sobre la salud.",
       "audio": "audio/b1/unit-8/e41.mp3"
     },
-    "id": "b1-u8-e41",
     "audioUrl": "audio/b1/unit-8/e41.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u8-e42",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -1138,11 +1139,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "explanation": "Uso de 'might' para indicar posibilidad o sugerencia.",
       "audio": "audio/b1/unit-8/e42.mp3"
     },
-    "id": "b1-u8-e42",
     "audioUrl": "audio/b1/unit-8/e42.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u8-e43",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -1167,11 +1168,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "explanation": "Uso de 'despite' para introducir una idea contrastante.",
       "audio": "audio/b1/unit-8/e43.mp3"
     },
-    "id": "b1-u8-e43",
     "audioUrl": "audio/b1/unit-8/e43.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u8-e44",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -1201,11 +1202,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "explanation": "Uso de 'although' para conectar ideas opuestas.",
       "audio": "audio/b1/unit-8/e44.mp3"
     },
-    "id": "b1-u8-e44",
     "audioUrl": "audio/b1/unit-8/e44.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u8-e45",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -1229,11 +1230,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "explanation": "Uso de 'must' para indicar obligación o necesidad.",
       "audio": "audio/b1/unit-8/e45.mp3"
     },
-    "id": "b1-u8-e45",
     "audioUrl": "audio/b1/unit-8/e45.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u8-e46",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -1256,11 +1257,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u8-e46",
     "audioUrl": "audio/b1/unit-8/e46.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u8-e47",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -1283,11 +1284,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u8-e47",
     "audioUrl": "audio/b1/unit-8/e47.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u8-e48",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -1310,11 +1311,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u8-e48",
     "audioUrl": "audio/b1/unit-8/e48.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u8-e49",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -1337,11 +1338,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u8-e49",
     "audioUrl": "audio/b1/unit-8/e49.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u8-e50",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Health & Modern Lifestyles",
@@ -1364,7 +1365,6 @@ export const UNIT_8_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u8-e50",
     "audioUrl": "audio/b1/unit-8/e50.mp3",
     "topicName": "Grammar"
   }

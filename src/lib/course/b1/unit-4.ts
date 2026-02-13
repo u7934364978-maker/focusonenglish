@@ -1,5 +1,6 @@
 
-import { Exercise } from '@/lib/exercise-generator';
+import {
+    "id": "b1-u4-e1", Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_4_EXERCISES: Exercise[] = [
   {
@@ -24,11 +25,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u4-e1",
     "audioUrl": "audio/b1/unit-4/e1.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u4-e2",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -50,11 +51,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u4-e2",
     "audioUrl": "audio/b1/unit-4/e2.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u4-e3",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -76,11 +77,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u4-e3",
     "audioUrl": "audio/b1/unit-4/e3.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u4-e4",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -102,11 +103,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u4-e4",
     "audioUrl": "audio/b1/unit-4/e4.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u4-e5",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -128,11 +129,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u4-e5",
     "audioUrl": "audio/b1/unit-4/e5.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u4-e6",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -154,11 +155,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u4-e6",
     "audioUrl": "audio/b1/unit-4/e6.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u4-e7",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -180,11 +181,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u4-e7",
     "audioUrl": "audio/b1/unit-4/e7.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u4-e8",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -206,11 +207,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u4-e8",
     "audioUrl": "audio/b1/unit-4/e8.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u4-e9",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -232,11 +233,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u4-e9",
     "audioUrl": "audio/b1/unit-4/e9.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u4-e10",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -258,11 +259,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u4-e10",
     "audioUrl": "audio/b1/unit-4/e10.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u4-e11",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -285,11 +286,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "explanation": "Uso del present perfect para acciones realizadas en un tiempo indefinido que sigue siendo relevante.",
       "audio": "audio/b1/unit-4/e11.mp3"
     },
-    "id": "b1-u4-e11",
     "audioUrl": "audio/b1/unit-4/e11.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u4-e12",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -313,11 +314,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "explanation": "Uso del past perfect para una acción completada antes de otra acción en el pasado.",
       "audio": "audio/b1/unit-4/e12.mp3"
     },
-    "id": "b1-u4-e12",
     "audioUrl": "audio/b1/unit-4/e12.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u4-e13",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -339,11 +340,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "explanation": "Uso del present perfect para expresar una experiencia en la vida.",
       "audio": "audio/b1/unit-4/e13.mp3"
     },
-    "id": "b1-u4-e13",
     "audioUrl": "audio/b1/unit-4/e13.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u4-e14",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -366,11 +367,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "explanation": "Uso de 'despite' para contrastar situaciones.",
       "audio": "audio/b1/unit-4/e14.mp3"
     },
-    "id": "b1-u4-e14",
     "audioUrl": "audio/b1/unit-4/e14.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u4-e15",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -393,11 +394,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "explanation": "Uso del present perfect para una situación que afecta al presente.",
       "audio": "audio/b1/unit-4/e15.mp3"
     },
-    "id": "b1-u4-e15",
     "audioUrl": "audio/b1/unit-4/e15.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u4-e16",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -419,11 +420,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u4-e16",
     "audioUrl": "audio/b1/unit-4/e16.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u4-e17",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -445,11 +446,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u4-e17",
     "audioUrl": "audio/b1/unit-4/e17.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u4-e18",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -471,11 +472,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u4-e18",
     "audioUrl": "audio/b1/unit-4/e18.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u4-e19",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -497,11 +498,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u4-e19",
     "audioUrl": "audio/b1/unit-4/e19.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u4-e20",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -523,11 +524,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u4-e20",
     "audioUrl": "audio/b1/unit-4/e20.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u4-e21",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -549,11 +550,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u4-e21",
     "audioUrl": "audio/b1/unit-4/e21.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u4-e22",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -575,11 +576,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u4-e22",
     "audioUrl": "audio/b1/unit-4/e22.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u4-e23",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -601,11 +602,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u4-e23",
     "audioUrl": "audio/b1/unit-4/e23.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u4-e24",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -627,11 +628,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u4-e24",
     "audioUrl": "audio/b1/unit-4/e24.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u4-e25",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -653,11 +654,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u4-e25",
     "audioUrl": "audio/b1/unit-4/e25.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u4-e26",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -682,11 +683,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "explanation": "Aquí se utiliza 'have traveled' en presente perfecto para indicar experiencias de vida, y 'have never visited' para señalar una excepción en nuestras experiencias de viaje.",
       "audio": "audio/b1/unit-4/e26.mp3"
     },
-    "id": "b1-u4-e26",
     "audioUrl": "audio/b1/unit-4/e26.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u4-e27",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -711,11 +712,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "explanation": "Uso del pasado simple para describir acciones completadas: 'missed' y 'arrived' reflejan eventos específicos en el pasado.",
       "audio": "audio/b1/unit-4/e27.mp3"
     },
-    "id": "b1-u4-e27",
     "audioUrl": "audio/b1/unit-4/e27.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u4-e28",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -740,11 +741,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "explanation": "Uso del presente perfecto con 'since' para hablar de experiencias recientes que empezaron en el pasado y continúan en el presente.",
       "audio": "audio/b1/unit-4/e28.mp3"
     },
-    "id": "b1-u4-e28",
     "audioUrl": "audio/b1/unit-4/e28.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u4-e29",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -767,11 +768,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "explanation": "La palabra 'despite' introduce una idea contrastante; el verbo 'enjoyed' se usa en pasado simple para una acción completa.",
       "audio": "audio/b1/unit-4/e29.mp3"
     },
-    "id": "b1-u4-e29",
     "audioUrl": "audio/b1/unit-4/e29.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u4-e30",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -799,11 +800,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "explanation": "Uso del presente perfecto ('has not packed') para una acción pendiente, y pasado simple ('needed') para una situación pasada específica.",
       "audio": "audio/b1/unit-4/e30.mp3"
     },
-    "id": "b1-u4-e30",
     "audioUrl": "audio/b1/unit-4/e30.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u4-e31",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -825,11 +826,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u4-e31",
     "audioUrl": "audio/b1/unit-4/e31.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u4-e32",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -851,11 +852,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u4-e32",
     "audioUrl": "audio/b1/unit-4/e32.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u4-e33",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -877,11 +878,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u4-e33",
     "audioUrl": "audio/b1/unit-4/e33.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u4-e34",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -903,11 +904,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u4-e34",
     "audioUrl": "audio/b1/unit-4/e34.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u4-e35",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -929,11 +930,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u4-e35",
     "audioUrl": "audio/b1/unit-4/e35.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u4-e36",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -955,11 +956,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u4-e36",
     "audioUrl": "audio/b1/unit-4/e36.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u4-e37",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -981,11 +982,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u4-e37",
     "audioUrl": "audio/b1/unit-4/e37.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u4-e38",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -1007,11 +1008,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u4-e38",
     "audioUrl": "audio/b1/unit-4/e38.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u4-e39",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -1033,11 +1034,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u4-e39",
     "audioUrl": "audio/b1/unit-4/e39.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u4-e40",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -1059,11 +1060,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u4-e40",
     "audioUrl": "audio/b1/unit-4/e40.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u4-e41",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -1086,11 +1087,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "explanation": "Uso del presente perfecto con 'never' para hablar de experiencias no ocurridas hasta el momento presente.",
       "audio": "audio/b1/unit-4/e41.mp3"
     },
-    "id": "b1-u4-e41",
     "audioUrl": "audio/b1/unit-4/e41.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u4-e42",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -1113,11 +1114,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "explanation": "Uso de 'despite' para contrastar situaciones negativas con resultados positivos.",
       "audio": "audio/b1/unit-4/e42.mp3"
     },
-    "id": "b1-u4-e42",
     "audioUrl": "audio/b1/unit-4/e42.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u4-e43",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -1140,11 +1141,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "explanation": "Uso de 'although' para mostrar contrastes entre eventos incontrolables y resultados positivos.",
       "audio": "audio/b1/unit-4/e43.mp3"
     },
-    "id": "b1-u4-e43",
     "audioUrl": "audio/b1/unit-4/e43.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u4-e44",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -1168,11 +1169,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "explanation": "Uso del presente perfecto con 'already' para indicar que una acción ha sido completada antes del momento anticipado.",
       "audio": "audio/b1/unit-4/e44.mp3"
     },
-    "id": "b1-u4-e44",
     "audioUrl": "audio/b1/unit-4/e44.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u4-e45",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -1196,11 +1197,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "explanation": "Uso del pasado simple para describir acciones específicas ocurridas en el pasado con consecuencia directa.",
       "audio": "audio/b1/unit-4/e45.mp3"
     },
-    "id": "b1-u4-e45",
     "audioUrl": "audio/b1/unit-4/e45.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u4-e46",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -1222,11 +1223,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u4-e46",
     "audioUrl": "audio/b1/unit-4/e46.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u4-e47",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -1248,11 +1249,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u4-e47",
     "audioUrl": "audio/b1/unit-4/e47.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u4-e48",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -1274,11 +1275,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u4-e48",
     "audioUrl": "audio/b1/unit-4/e48.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u4-e49",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -1300,11 +1301,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u4-e49",
     "audioUrl": "audio/b1/unit-4/e49.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u4-e50",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Travel Adventures & Mishaps",
@@ -1326,7 +1327,6 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u4-e50",
     "audioUrl": "audio/b1/unit-4/e50.mp3",
     "topicName": "Grammar"
   }

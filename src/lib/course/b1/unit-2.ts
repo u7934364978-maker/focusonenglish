@@ -1,5 +1,6 @@
 
-import { Exercise } from '@/lib/exercise-generator';
+import {
+    "id": "b1-u2-e1", Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_2_EXERCISES: Exercise[] = [
   {
@@ -24,11 +25,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u2-e1",
     "audioUrl": "audio/b1/unit-2/e1.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u2-e2",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -50,11 +51,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u2-e2",
     "audioUrl": "audio/b1/unit-2/e2.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u2-e3",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -76,11 +77,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u2-e3",
     "audioUrl": "audio/b1/unit-2/e3.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u2-e4",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -102,11 +103,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u2-e4",
     "audioUrl": "audio/b1/unit-2/e4.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u2-e5",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -128,11 +129,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u2-e5",
     "audioUrl": "audio/b1/unit-2/e5.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u2-e6",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -154,11 +155,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u2-e6",
     "audioUrl": "audio/b1/unit-2/e6.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u2-e7",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -180,11 +181,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u2-e7",
     "audioUrl": "audio/b1/unit-2/e7.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u2-e8",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -206,11 +207,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u2-e8",
     "audioUrl": "audio/b1/unit-2/e8.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u2-e9",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -232,11 +233,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u2-e9",
     "audioUrl": "audio/b1/unit-2/e9.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u2-e10",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -258,11 +259,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u2-e10",
     "audioUrl": "audio/b1/unit-2/e10.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u2-e11",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -288,11 +289,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "explanation": "Esta oración utiliza el pasado continuo para describir dos acciones que ocurrían simultáneamente.",
       "audio": "audio/b1/unit-2/e11.mp3"
     },
-    "id": "b1-u2-e11",
     "audioUrl": "audio/b1/unit-2/e11.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u2-e12",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -317,11 +318,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "explanation": "Se emplea 'although' para mostrar contraste entre la lluvia y la continuación del paseo.",
       "audio": "audio/b1/unit-2/e12.mp3"
     },
-    "id": "b1-u2-e12",
     "audioUrl": "audio/b1/unit-2/e12.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u2-e13",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -349,11 +350,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "explanation": "El uso del pasado continuo aquí indica una acción en progreso cuando ocurrió otra.",
       "audio": "audio/b1/unit-2/e13.mp3"
     },
-    "id": "b1-u2-e13",
     "audioUrl": "audio/b1/unit-2/e13.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u2-e14",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -379,11 +380,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "explanation": "Se utiliza 'despite' para indicar que Marie logró su objetivo aunque había dificultades.",
       "audio": "audio/b1/unit-2/e14.mp3"
     },
-    "id": "b1-u2-e14",
     "audioUrl": "audio/b1/unit-2/e14.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u2-e15",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -408,11 +409,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "explanation": "El pasado continuo se utiliza para describir la acción en progreso (viajar) y el pasado simple para la acción interrumpida (aprender).",
       "audio": "audio/b1/unit-2/e15.mp3"
     },
-    "id": "b1-u2-e15",
     "audioUrl": "audio/b1/unit-2/e15.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u2-e16",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -434,11 +435,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u2-e16",
     "audioUrl": "audio/b1/unit-2/e16.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u2-e17",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -460,11 +461,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u2-e17",
     "audioUrl": "audio/b1/unit-2/e17.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u2-e18",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -486,11 +487,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u2-e18",
     "audioUrl": "audio/b1/unit-2/e18.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u2-e19",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -512,11 +513,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u2-e19",
     "audioUrl": "audio/b1/unit-2/e19.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u2-e20",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -538,11 +539,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u2-e20",
     "audioUrl": "audio/b1/unit-2/e20.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u2-e21",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -564,11 +565,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u2-e21",
     "audioUrl": "audio/b1/unit-2/e21.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u2-e22",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -590,11 +591,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u2-e22",
     "audioUrl": "audio/b1/unit-2/e22.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u2-e23",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -616,11 +617,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u2-e23",
     "audioUrl": "audio/b1/unit-2/e23.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u2-e24",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -642,11 +643,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u2-e24",
     "audioUrl": "audio/b1/unit-2/e24.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u2-e25",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -668,11 +669,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u2-e25",
     "audioUrl": "audio/b1/unit-2/e25.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u2-e26",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -697,11 +698,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "explanation": "Uso del 'aunque' para introducir una acción en contraste: 'Aunque estaba sintiendo cansancio'.",
       "audio": "audio/b1/unit-2/e26.mp3"
     },
-    "id": "b1-u2-e26",
     "audioUrl": "audio/b1/unit-2/e26.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u2-e27",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -725,11 +726,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "explanation": "Usamos 'while' para acciones simultáneas en pasado continuo: Mientras una acción ocurre, otra también está en progreso.",
       "audio": "audio/b1/unit-2/e27.mp3"
     },
-    "id": "b1-u2-e27",
     "audioUrl": "audio/b1/unit-2/e27.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u2-e28",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -752,11 +753,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "explanation": "Usamos 'despite' para mostrar un contraste: hacer algo incluso con una desventaja como la lluvia.",
       "audio": "audio/b1/unit-2/e28.mp3"
     },
-    "id": "b1-u2-e28",
     "audioUrl": "audio/b1/unit-2/e28.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u2-e29",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -780,11 +781,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "explanation": "El pasado perfecto 'had left' se usa para indicar que una acción ocurrió antes de otra en el pasado.",
       "audio": "audio/b1/unit-2/e29.mp3"
     },
-    "id": "b1-u2-e29",
     "audioUrl": "audio/b1/unit-2/e29.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u2-e30",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -808,11 +809,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "explanation": "La acción en pasado continuo 'was driving' muestra una interrupción en progreso durante una llamada.",
       "audio": "audio/b1/unit-2/e30.mp3"
     },
-    "id": "b1-u2-e30",
     "audioUrl": "audio/b1/unit-2/e30.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u2-e31",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -834,11 +835,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u2-e31",
     "audioUrl": "audio/b1/unit-2/e31.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u2-e32",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -860,11 +861,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u2-e32",
     "audioUrl": "audio/b1/unit-2/e32.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u2-e33",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -886,11 +887,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u2-e33",
     "audioUrl": "audio/b1/unit-2/e33.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u2-e34",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -912,11 +913,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u2-e34",
     "audioUrl": "audio/b1/unit-2/e34.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u2-e35",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -938,11 +939,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u2-e35",
     "audioUrl": "audio/b1/unit-2/e35.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u2-e36",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -964,11 +965,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u2-e36",
     "audioUrl": "audio/b1/unit-2/e36.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u2-e37",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -990,11 +991,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u2-e37",
     "audioUrl": "audio/b1/unit-2/e37.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u2-e38",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -1016,11 +1017,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u2-e38",
     "audioUrl": "audio/b1/unit-2/e38.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u2-e39",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -1042,11 +1043,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u2-e39",
     "audioUrl": "audio/b1/unit-2/e39.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u2-e40",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -1068,11 +1069,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u2-e40",
     "audioUrl": "audio/b1/unit-2/e40.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u2-e41",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -1096,11 +1097,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "explanation": "Uso del pasado continuo para acciones interrumpidas por otras acciones en pasado simple.",
       "audio": "audio/b1/unit-2/e41.mp3"
     },
-    "id": "b1-u2-e41",
     "audioUrl": "audio/b1/unit-2/e41.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u2-e42",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -1124,11 +1125,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "explanation": "La acción continua en pasado es interrumpida por la acción en pasado simple.",
       "audio": "audio/b1/unit-2/e42.mp3"
     },
-    "id": "b1-u2-e42",
     "audioUrl": "audio/b1/unit-2/e42.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u2-e43",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -1154,11 +1155,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "explanation": "El conector 'although' indica una acción que ocurre a pesar de la condición mencionada.",
       "audio": "audio/b1/unit-2/e43.mp3"
     },
-    "id": "b1-u2-e43",
     "audioUrl": "audio/b1/unit-2/e43.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u2-e44",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -1182,11 +1183,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "explanation": "Uso de 'despite' para mostrar que algo ocurrió a pesar de las dificultades.",
       "audio": "audio/b1/unit-2/e44.mp3"
     },
-    "id": "b1-u2-e44",
     "audioUrl": "audio/b1/unit-2/e44.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u2-e45",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -1210,11 +1211,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "explanation": "La acción continua es interrumpida por la acción en pasado simple.",
       "audio": "audio/b1/unit-2/e45.mp3"
     },
-    "id": "b1-u2-e45",
     "audioUrl": "audio/b1/unit-2/e45.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u2-e46",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -1236,11 +1237,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u2-e46",
     "audioUrl": "audio/b1/unit-2/e46.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u2-e47",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -1262,11 +1263,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u2-e47",
     "audioUrl": "audio/b1/unit-2/e47.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u2-e48",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -1288,11 +1289,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u2-e48",
     "audioUrl": "audio/b1/unit-2/e48.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u2-e49",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -1314,11 +1315,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u2-e49",
     "audioUrl": "audio/b1/unit-2/e49.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u2-e50",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Life Stories & Biographies",
@@ -1340,7 +1341,6 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u2-e50",
     "audioUrl": "audio/b1/unit-2/e50.mp3",
     "topicName": "Grammar"
   }

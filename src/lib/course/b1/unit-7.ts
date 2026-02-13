@@ -1,5 +1,6 @@
 
-import { Exercise } from '@/lib/exercise-generator';
+import {
+    "id": "b1-u7-e1", Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_7_EXERCISES: Exercise[] = [
   {
@@ -25,11 +26,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u7-e1",
     "audioUrl": "audio/b1/unit-7/e1.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u7-e2",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Education & Lifelong Learning",
@@ -52,11 +53,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u7-e2",
     "audioUrl": "audio/b1/unit-7/e2.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u7-e3",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Education & Lifelong Learning",
@@ -79,11 +80,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u7-e3",
     "audioUrl": "audio/b1/unit-7/e3.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u7-e4",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Education & Lifelong Learning",
@@ -106,11 +107,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u7-e4",
     "audioUrl": "audio/b1/unit-7/e4.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u7-e5",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Education & Lifelong Learning",
@@ -133,11 +134,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u7-e5",
     "audioUrl": "audio/b1/unit-7/e5.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u7-e6",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Education & Lifelong Learning",
@@ -160,11 +161,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u7-e6",
     "audioUrl": "audio/b1/unit-7/e6.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u7-e7",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Education & Lifelong Learning",
@@ -187,11 +188,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u7-e7",
     "audioUrl": "audio/b1/unit-7/e7.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u7-e8",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Education & Lifelong Learning",
@@ -214,11 +215,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u7-e8",
     "audioUrl": "audio/b1/unit-7/e8.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u7-e9",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Education & Lifelong Learning",
@@ -241,11 +242,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u7-e9",
     "audioUrl": "audio/b1/unit-7/e9.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u7-e10",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Education & Lifelong Learning",
@@ -268,11 +269,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u7-e10",
     "audioUrl": "audio/b1/unit-7/e10.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u7-e11",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Education & Lifelong Learning",
@@ -294,11 +295,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u7-e11",
     "audioUrl": "audio/b1/unit-7/e11.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u7-e12",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Education & Lifelong Learning",
@@ -320,11 +321,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u7-e12",
     "audioUrl": "audio/b1/unit-7/e12.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u7-e13",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Education & Lifelong Learning",
@@ -346,11 +347,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u7-e13",
     "audioUrl": "audio/b1/unit-7/e13.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u7-e14",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Education & Lifelong Learning",
@@ -372,11 +373,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u7-e14",
     "audioUrl": "audio/b1/unit-7/e14.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u7-e15",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Education & Lifelong Learning",
@@ -398,7 +399,6 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u7-e15",
     "audioUrl": "audio/b1/unit-7/e15.mp3",
     "topicName": "Vocabulary"
   }

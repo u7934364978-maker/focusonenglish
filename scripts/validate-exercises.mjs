@@ -38,7 +38,7 @@ function checkField(file, exerciseId, fieldName, fieldValue, context) {
 }
 
 function validateExerciseInContent(file, content) {
-  const exerciseIdPattern = /id:\s*['"]([^'"]+)['"]/g;
+  const exerciseIdPattern = /["']?id["']?:\s*['"]([^'"]+)['"]/g;
   const exerciseMatches = [...content.matchAll(exerciseIdPattern)];
   
   console.log(`  Found ${exerciseMatches.length} potential exercises with id fields`);
@@ -56,10 +56,10 @@ function validateExerciseInContent(file, content) {
     
     totalExercises++;
     
-    const hasTitle = /title:\s*['"]([^'"]+)['"]/i.test(exerciseBlock);
-    const hasInstructions = /instructions:\s*['"]([^'"]+)['"]/i.test(exerciseBlock);
-    const hasPrompt = /prompt:\s*['"]([^'"]+)['"]/i.test(exerciseBlock);
-    const hasQuestion = /question:\s*['"]([^'"]+)['"]/i.test(exerciseBlock);
+    const hasTitle = /["']?title["']?:\s*['"]([^'"]+)['"]/i.test(exerciseBlock);
+    const hasInstructions = /["']?instructions["']?:\s*['"]([^'"]+)['"]/i.test(exerciseBlock);
+    const hasPrompt = /["']?prompt["']?:\s*['"]([^'"]+)['"]/i.test(exerciseBlock);
+    const hasQuestion = /["']?question["']?:\s*['"]([^'"]+)['"]/i.test(exerciseBlock);
     
     if (!hasTitle && !hasInstructions && !hasPrompt && !hasQuestion) {
       reportIssue(
@@ -71,28 +71,28 @@ function validateExerciseInContent(file, content) {
       );
     } else {
       if (hasTitle) {
-        const titleMatch = exerciseBlock.match(/title:\s*['"]([^'"]*)['"]/i);
+        const titleMatch = exerciseBlock.match(/["']?title["']?:\s*['"]([^'"]*)['"]/i);
         if (titleMatch) {
           checkField(file, exerciseId, 'title', titleMatch[1], exerciseBlock);
         }
       }
       
       if (hasInstructions) {
-        const instrMatch = exerciseBlock.match(/instructions:\s*['"]([^'"]*)['"]/i);
+        const instrMatch = exerciseBlock.match(/["']?instructions["']?:\s*['"]([^'"]*)['"]/i);
         if (instrMatch) {
           checkField(file, exerciseId, 'instructions', instrMatch[1], exerciseBlock);
         }
       }
       
       if (hasPrompt) {
-        const promptMatch = exerciseBlock.match(/prompt:\s*['"]([^'"]*)['"]/i);
+        const promptMatch = exerciseBlock.match(/["']?prompt["']?:\s*['"]([^'"]*)['"]/i);
         if (promptMatch) {
           checkField(file, exerciseId, 'prompt', promptMatch[1], exerciseBlock);
         }
       }
     }
     
-    const questionPattern = /question:\s*['"]([^'"]*)['"]/gi;
+    const questionPattern = /["']?question["']?:\s*['"]([^'"]*)['"]/gi;
     const questions = [...exerciseBlock.matchAll(questionPattern)];
     
     questions.forEach((qMatch, idx) => {
@@ -110,7 +110,7 @@ function validateExerciseInContent(file, content) {
       }
     });
     
-    const sentencePattern = /sentence:\s*['"]([^'"]*)['"]/gi;
+    const sentencePattern = /["']?sentence["']?:\s*['"]([^'"]*)['"]/gi;
     const sentences = [...exerciseBlock.matchAll(sentencePattern)];
     
     sentences.forEach((sMatch, idx) => {
@@ -169,6 +169,14 @@ async function main() {
     'b2-improvements-part5-multiple-choice-cloze.ts',
     'b2-improvements-part6-speaking.ts',
     'b2-improvements-part7-writing.ts',
+    'course/b1/unit-1.ts',
+    'course/b1/unit-2.ts',
+    'course/b1/unit-3.ts',
+    'course/b1/unit-4.ts',
+    'course/b1/unit-5.ts',
+    'course/b1/unit-6.ts',
+    'course/b1/unit-7.ts',
+    'course/b1/unit-8.ts',
   ];
   
   for (const file of filesToCheck) {

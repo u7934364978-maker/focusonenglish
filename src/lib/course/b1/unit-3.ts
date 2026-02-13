@@ -1,5 +1,6 @@
 
-import { Exercise } from '@/lib/exercise-generator';
+import {
+    "id": "b1-u3-e1", Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_3_EXERCISES: Exercise[] = [
   {
@@ -24,11 +25,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u3-e1",
     "audioUrl": "audio/b1/unit-3/e1.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u3-e2",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -50,11 +51,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u3-e2",
     "audioUrl": "audio/b1/unit-3/e2.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u3-e3",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -76,11 +77,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u3-e3",
     "audioUrl": "audio/b1/unit-3/e3.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u3-e4",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -102,11 +103,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u3-e4",
     "audioUrl": "audio/b1/unit-3/e4.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u3-e5",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -128,11 +129,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u3-e5",
     "audioUrl": "audio/b1/unit-3/e5.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u3-e6",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -154,11 +155,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u3-e6",
     "audioUrl": "audio/b1/unit-3/e6.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u3-e7",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -180,11 +181,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u3-e7",
     "audioUrl": "audio/b1/unit-3/e7.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u3-e8",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -206,11 +207,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u3-e8",
     "audioUrl": "audio/b1/unit-3/e8.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u3-e9",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -232,11 +233,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u3-e9",
     "audioUrl": "audio/b1/unit-3/e9.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u3-e10",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -258,11 +259,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u3-e10",
     "audioUrl": "audio/b1/unit-3/e10.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u3-e11",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -290,11 +291,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "explanation": "Uso del presente perfecto para hablar sobre experiencias de vida. Se utiliza 'have visited' para experiencias pasadas que tienen relevancia presente, y 'have not traveled yet' indica algo que no se ha hecho.",
       "audio": "audio/b1/unit-3/e11.mp3"
     },
-    "id": "b1-u3-e11",
     "audioUrl": "audio/b1/unit-3/e11.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u3-e12",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -318,11 +319,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "explanation": "La estructura 'has not completed' se usa para resaltar algo no logrado pero que aún es posible en el futuro.",
       "audio": "audio/b1/unit-3/e12.mp3"
     },
-    "id": "b1-u3-e12",
     "audioUrl": "audio/b1/unit-3/e12.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u3-e13",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -350,11 +351,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "explanation": "En la primera parte, 'has written' se usa para logros actuales, y 'has never edited' enfatiza acciones no realizadas.",
       "audio": "audio/b1/unit-3/e13.mp3"
     },
-    "id": "b1-u3-e13",
     "audioUrl": "audio/b1/unit-3/e13.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u3-e14",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -381,11 +382,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "explanation": "Se enfatiza el contraste con 'although', y el presente perfecto destaca logros a pesar de dificultades previas.",
       "audio": "audio/b1/unit-3/e14.mp3"
     },
-    "id": "b1-u3-e14",
     "audioUrl": "audio/b1/unit-3/e14.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u3-e15",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -410,11 +411,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "explanation": "El uso de 'despite' y 'has designed' muestra logros inesperados debido a la falta de formación formal.",
       "audio": "audio/b1/unit-3/e15.mp3"
     },
-    "id": "b1-u3-e15",
     "audioUrl": "audio/b1/unit-3/e15.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u3-e16",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -436,11 +437,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u3-e16",
     "audioUrl": "audio/b1/unit-3/e16.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u3-e17",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -462,11 +463,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u3-e17",
     "audioUrl": "audio/b1/unit-3/e17.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u3-e18",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -488,11 +489,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u3-e18",
     "audioUrl": "audio/b1/unit-3/e18.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u3-e19",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -514,11 +515,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u3-e19",
     "audioUrl": "audio/b1/unit-3/e19.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u3-e20",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -540,11 +541,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u3-e20",
     "audioUrl": "audio/b1/unit-3/e20.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u3-e21",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -566,11 +567,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u3-e21",
     "audioUrl": "audio/b1/unit-3/e21.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u3-e22",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -592,11 +593,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u3-e22",
     "audioUrl": "audio/b1/unit-3/e22.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u3-e23",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -618,11 +619,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u3-e23",
     "audioUrl": "audio/b1/unit-3/e23.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u3-e24",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -644,11 +645,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u3-e24",
     "audioUrl": "audio/b1/unit-3/e24.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u3-e25",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -670,11 +671,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u3-e25",
     "audioUrl": "audio/b1/unit-3/e25.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u3-e26",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -698,11 +699,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "explanation": "Uso del presente perfecto para experiencias pasadas sin tiempo específico: 'have' + participio pasado.",
       "audio": "audio/b1/unit-3/e26.mp3"
     },
-    "id": "b1-u3-e26",
     "audioUrl": "audio/b1/unit-3/e26.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u3-e27",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -724,11 +725,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "explanation": "El presente perfecto se usa para logros pasados que tienen relevancia en el presente.",
       "audio": "audio/b1/unit-3/e27.mp3"
     },
-    "id": "b1-u3-e27",
     "audioUrl": "audio/b1/unit-3/e27.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u3-e28",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -750,11 +751,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "explanation": "Uso de 'despite' para contraponer obstáculos y logros alcanzados en el presente perfecto.",
       "audio": "audio/b1/unit-3/e28.mp3"
     },
-    "id": "b1-u3-e28",
     "audioUrl": "audio/b1/unit-3/e28.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u3-e29",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -777,11 +778,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "explanation": "Uso del presente perfecto para experiencias no realizadas, usando 'never' con 'have/has'.",
       "audio": "audio/b1/unit-3/e29.mp3"
     },
-    "id": "b1-u3-e29",
     "audioUrl": "audio/b1/unit-3/e29.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u3-e30",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -806,11 +807,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "explanation": "Contrasta logros con percepciones personales usando 'although' y el presente perfecto.",
       "audio": "audio/b1/unit-3/e30.mp3"
     },
-    "id": "b1-u3-e30",
     "audioUrl": "audio/b1/unit-3/e30.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u3-e31",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -833,11 +834,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u3-e31",
     "audioUrl": "audio/b1/unit-3/e31.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u3-e32",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -860,11 +861,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u3-e32",
     "audioUrl": "audio/b1/unit-3/e32.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u3-e33",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -887,11 +888,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u3-e33",
     "audioUrl": "audio/b1/unit-3/e33.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u3-e34",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -914,11 +915,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u3-e34",
     "audioUrl": "audio/b1/unit-3/e34.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u3-e35",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -941,11 +942,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u3-e35",
     "audioUrl": "audio/b1/unit-3/e35.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u3-e36",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -967,11 +968,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u3-e36",
     "audioUrl": "audio/b1/unit-3/e36.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u3-e37",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -993,11 +994,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u3-e37",
     "audioUrl": "audio/b1/unit-3/e37.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u3-e38",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -1019,11 +1020,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u3-e38",
     "audioUrl": "audio/b1/unit-3/e38.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u3-e39",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -1045,11 +1046,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u3-e39",
     "audioUrl": "audio/b1/unit-3/e39.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u3-e40",
     "type": "fill-blank",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -1071,11 +1072,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u3-e40",
     "audioUrl": "audio/b1/unit-3/e40.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u3-e41",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -1098,11 +1099,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "explanation": "El presente perfecto se utiliza para hablar de logros en el presente que tienen relevancia actual.",
       "audio": "audio/b1/unit-3/e41.mp3"
     },
-    "id": "b1-u3-e41",
     "audioUrl": "audio/b1/unit-3/e41.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u3-e42",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -1124,11 +1125,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "explanation": "El uso del presente perfecto para indicar un logro completado: haber aprendido a hablar con fluidez.",
       "audio": "audio/b1/unit-3/e42.mp3"
     },
-    "id": "b1-u3-e42",
     "audioUrl": "audio/b1/unit-3/e42.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u3-e43",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -1152,11 +1153,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "explanation": "Se usa 'although' para contrastar dos partes de la oración, experiencias de viaje con la falta de una en particular.",
       "audio": "audio/b1/unit-3/e43.mp3"
     },
-    "id": "b1-u3-e43",
     "audioUrl": "audio/b1/unit-3/e43.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u3-e44",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -1182,11 +1183,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "explanation": "Uso del presente perfecto para indicar experiencias continuas y logros desde un momento específico.",
       "audio": "audio/b1/unit-3/e44.mp3"
     },
-    "id": "b1-u3-e44",
     "audioUrl": "audio/b1/unit-3/e44.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u3-e45",
     "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -1210,11 +1211,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "explanation": "El uso de 'despite' para indicar superación de obstáculos al completar el proyecto usando el presente perfecto.",
       "audio": "audio/b1/unit-3/e45.mp3"
     },
-    "id": "b1-u3-e45",
     "audioUrl": "audio/b1/unit-3/e45.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u3-e46",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -1236,11 +1237,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u3-e46",
     "audioUrl": "audio/b1/unit-3/e46.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u3-e47",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -1262,11 +1263,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u3-e47",
     "audioUrl": "audio/b1/unit-3/e47.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u3-e48",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -1288,11 +1289,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u3-e48",
     "audioUrl": "audio/b1/unit-3/e48.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u3-e49",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -1314,11 +1315,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u3-e49",
     "audioUrl": "audio/b1/unit-3/e49.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u3-e50",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Achievements & Experiences",
@@ -1340,7 +1341,6 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u3-e50",
     "audioUrl": "audio/b1/unit-3/e50.mp3",
     "topicName": "Grammar"
   }

@@ -1,5 +1,6 @@
 
-import { Exercise } from '@/lib/exercise-generator';
+import {
+    "id": "b1-u6-e1", Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_6_EXERCISES: Exercise[] = [
   {
@@ -25,11 +26,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u6-e1",
     "audioUrl": "audio/b1/unit-6/e1.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u6-e2",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "The Working World",
@@ -52,11 +53,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u6-e2",
     "audioUrl": "audio/b1/unit-6/e2.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u6-e3",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "The Working World",
@@ -79,11 +80,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u6-e3",
     "audioUrl": "audio/b1/unit-6/e3.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u6-e4",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "The Working World",
@@ -106,11 +107,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u6-e4",
     "audioUrl": "audio/b1/unit-6/e4.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u6-e5",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "The Working World",
@@ -133,11 +134,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u6-e5",
     "audioUrl": "audio/b1/unit-6/e5.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u6-e6",
     "type": "fill-blank",
     "level": "B1",
     "topic": "The Working World",
@@ -159,11 +160,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u6-e6",
     "audioUrl": "audio/b1/unit-6/e6.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u6-e7",
     "type": "fill-blank",
     "level": "B1",
     "topic": "The Working World",
@@ -185,11 +186,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u6-e7",
     "audioUrl": "audio/b1/unit-6/e7.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u6-e8",
     "type": "fill-blank",
     "level": "B1",
     "topic": "The Working World",
@@ -211,11 +212,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u6-e8",
     "audioUrl": "audio/b1/unit-6/e8.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u6-e9",
     "type": "fill-blank",
     "level": "B1",
     "topic": "The Working World",
@@ -237,11 +238,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u6-e9",
     "audioUrl": "audio/b1/unit-6/e9.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u6-e10",
     "type": "fill-blank",
     "level": "B1",
     "topic": "The Working World",
@@ -263,11 +264,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u6-e10",
     "audioUrl": "audio/b1/unit-6/e10.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u6-e11",
     "type": "sentence-building",
     "level": "B1",
     "topic": "The Working World",
@@ -293,11 +294,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "explanation": "Uso del infinitivo después de 'decide'; 'despite' introduce una cláusula con 'the'.",
       "audio": "audio/b1/unit-6/e11.mp3"
     },
-    "id": "b1-u6-e11",
     "audioUrl": "audio/b1/unit-6/e11.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u6-e12",
     "type": "sentence-building",
     "level": "B1",
     "topic": "The Working World",
@@ -320,11 +321,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "explanation": "Uso de gerundio después de 'avoid'; 'during' introduce una acción en progreso.",
       "audio": "audio/b1/unit-6/e12.mp3"
     },
-    "id": "b1-u6-e12",
     "audioUrl": "audio/b1/unit-6/e12.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u6-e13",
     "type": "sentence-building",
     "level": "B1",
     "topic": "The Working World",
@@ -347,11 +348,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "explanation": "Uso del infinitivo después de 'remember'; acción que debía recordar hacer.",
       "audio": "audio/b1/unit-6/e13.mp3"
     },
-    "id": "b1-u6-e13",
     "audioUrl": "audio/b1/unit-6/e13.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u6-e14",
     "type": "sentence-building",
     "level": "B1",
     "topic": "The Working World",
@@ -375,11 +376,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "explanation": "Uso del gerundio con 'after'; inicio de una acción contínua tras otro evento.",
       "audio": "audio/b1/unit-6/e14.mp3"
     },
-    "id": "b1-u6-e14",
     "audioUrl": "audio/b1/unit-6/e14.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u6-e15",
     "type": "sentence-building",
     "level": "B1",
     "topic": "The Working World",
@@ -402,11 +403,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "explanation": "Uso de 'although' para contrastar; uso del infinitivo para indicar propósito o resultado.",
       "audio": "audio/b1/unit-6/e15.mp3"
     },
-    "id": "b1-u6-e15",
     "audioUrl": "audio/b1/unit-6/e15.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u6-e16",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "The Working World",
@@ -428,11 +429,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u6-e16",
     "audioUrl": "audio/b1/unit-6/e16.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u6-e17",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "The Working World",
@@ -454,11 +455,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u6-e17",
     "audioUrl": "audio/b1/unit-6/e17.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u6-e18",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "The Working World",
@@ -480,11 +481,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u6-e18",
     "audioUrl": "audio/b1/unit-6/e18.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u6-e19",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "The Working World",
@@ -506,11 +507,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u6-e19",
     "audioUrl": "audio/b1/unit-6/e19.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u6-e20",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "The Working World",
@@ -532,11 +533,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u6-e20",
     "audioUrl": "audio/b1/unit-6/e20.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u6-e21",
     "type": "fill-blank",
     "level": "B1",
     "topic": "The Working World",
@@ -558,11 +559,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u6-e21",
     "audioUrl": "audio/b1/unit-6/e21.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u6-e22",
     "type": "fill-blank",
     "level": "B1",
     "topic": "The Working World",
@@ -584,11 +585,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u6-e22",
     "audioUrl": "audio/b1/unit-6/e22.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u6-e23",
     "type": "fill-blank",
     "level": "B1",
     "topic": "The Working World",
@@ -610,11 +611,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u6-e23",
     "audioUrl": "audio/b1/unit-6/e23.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u6-e24",
     "type": "fill-blank",
     "level": "B1",
     "topic": "The Working World",
@@ -636,11 +637,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u6-e24",
     "audioUrl": "audio/b1/unit-6/e24.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u6-e25",
     "type": "fill-blank",
     "level": "B1",
     "topic": "The Working World",
@@ -662,11 +663,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u6-e25",
     "audioUrl": "audio/b1/unit-6/e25.mp3",
     "topicName": "Vocabulary"
   },
   {
+    "id": "b1-u6-e26",
     "type": "sentence-building",
     "level": "B1",
     "topic": "The Working World",
@@ -690,11 +691,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "explanation": "Se usa el gerundio 'considering' después de la preposición 'after' y el infinitivo 'to accept' después del verbo 'decided'.",
       "audio": "audio/b1/unit-6/e26.mp3"
     },
-    "id": "b1-u6-e26",
     "audioUrl": "audio/b1/unit-6/e26.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u6-e27",
     "type": "sentence-building",
     "level": "B1",
     "topic": "The Working World",
@@ -718,11 +719,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "explanation": "El verbo 'postpone' va seguido de un verbo en gerundio 'attending'.",
       "audio": "audio/b1/unit-6/e27.mp3"
     },
-    "id": "b1-u6-e27",
     "audioUrl": "audio/b1/unit-6/e27.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u6-e28",
     "type": "sentence-building",
     "level": "B1",
     "topic": "The Working World",
@@ -748,11 +749,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "explanation": "El verbo 'try' suele ir seguido de un infinitivo 'to finish'. La oración usa un conector adecuado como 'although'.",
       "audio": "audio/b1/unit-6/e28.mp3"
     },
-    "id": "b1-u6-e28",
     "audioUrl": "audio/b1/unit-6/e28.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u6-e29",
     "type": "sentence-building",
     "level": "B1",
     "topic": "The Working World",
@@ -775,11 +776,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "explanation": "Después de 'despite', se utiliza un gerundio 'being'. El infinitivo 'to complete' sigue al verbo 'managed'.",
       "audio": "audio/b1/unit-6/e29.mp3"
     },
-    "id": "b1-u6-e29",
     "audioUrl": "audio/b1/unit-6/e29.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u6-e30",
     "type": "sentence-building",
     "level": "B1",
     "topic": "The Working World",
@@ -804,11 +805,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "explanation": "El verbo 'expect' se utiliza seguido de un infinitivo 'to be'. La oración utiliza la conjunción 'because of'.",
       "audio": "audio/b1/unit-6/e30.mp3"
     },
-    "id": "b1-u6-e30",
     "audioUrl": "audio/b1/unit-6/e30.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u6-e31",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "The Working World",
@@ -830,11 +831,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u6-e31",
     "audioUrl": "audio/b1/unit-6/e31.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u6-e32",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "The Working World",
@@ -856,11 +857,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u6-e32",
     "audioUrl": "audio/b1/unit-6/e32.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u6-e33",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "The Working World",
@@ -882,11 +883,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u6-e33",
     "audioUrl": "audio/b1/unit-6/e33.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u6-e34",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "The Working World",
@@ -908,11 +909,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u6-e34",
     "audioUrl": "audio/b1/unit-6/e34.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u6-e35",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "The Working World",
@@ -934,11 +935,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u6-e35",
     "audioUrl": "audio/b1/unit-6/e35.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u6-e36",
     "type": "fill-blank",
     "level": "B1",
     "topic": "The Working World",
@@ -960,11 +961,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u6-e36",
     "audioUrl": "audio/b1/unit-6/e36.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u6-e37",
     "type": "fill-blank",
     "level": "B1",
     "topic": "The Working World",
@@ -986,11 +987,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u6-e37",
     "audioUrl": "audio/b1/unit-6/e37.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u6-e38",
     "type": "fill-blank",
     "level": "B1",
     "topic": "The Working World",
@@ -1012,11 +1013,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u6-e38",
     "audioUrl": "audio/b1/unit-6/e38.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u6-e39",
     "type": "fill-blank",
     "level": "B1",
     "topic": "The Working World",
@@ -1038,11 +1039,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u6-e39",
     "audioUrl": "audio/b1/unit-6/e39.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u6-e40",
     "type": "fill-blank",
     "level": "B1",
     "topic": "The Working World",
@@ -1064,11 +1065,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u6-e40",
     "audioUrl": "audio/b1/unit-6/e40.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u6-e41",
     "type": "sentence-building",
     "level": "B1",
     "topic": "The Working World",
@@ -1091,11 +1092,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "explanation": "Prefiere + verbo en infinitivo y uso de 'despite' para indicar contraste.",
       "audio": "audio/b1/unit-6/e41.mp3"
     },
-    "id": "b1-u6-e41",
     "audioUrl": "audio/b1/unit-6/e41.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u6-e42",
     "type": "sentence-building",
     "level": "B1",
     "topic": "The Working World",
@@ -1118,11 +1119,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "explanation": "Uso de 'consider' seguido por gerundio para expresar acciones consideradas necesarias.",
       "audio": "audio/b1/unit-6/e42.mp3"
     },
-    "id": "b1-u6-e42",
     "audioUrl": "audio/b1/unit-6/e42.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u6-e43",
     "type": "sentence-building",
     "level": "B1",
     "topic": "The Working World",
@@ -1146,11 +1147,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "explanation": "Uso de 'despite' seguido de gerundio para indicar contraste, y 'agreed' seguido por infinitivo para expresar compromiso.",
       "audio": "audio/b1/unit-6/e43.mp3"
     },
-    "id": "b1-u6-e43",
     "audioUrl": "audio/b1/unit-6/e43.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u6-e44",
     "type": "sentence-building",
     "level": "B1",
     "topic": "The Working World",
@@ -1174,11 +1175,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "explanation": "El verbo 'enjoy' se sigue de un gerundio. 'On complex projects' especifica el contexto del disfrute.",
       "audio": "audio/b1/unit-6/e44.mp3"
     },
-    "id": "b1-u6-e44",
     "audioUrl": "audio/b1/unit-6/e44.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u6-e45",
     "type": "sentence-building",
     "level": "B1",
     "topic": "The Working World",
@@ -1202,11 +1203,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "explanation": "Uso de 'plan' seguido de infinitivo para indicar intención futura.",
       "audio": "audio/b1/unit-6/e45.mp3"
     },
-    "id": "b1-u6-e45",
     "audioUrl": "audio/b1/unit-6/e45.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u6-e46",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "The Working World",
@@ -1228,11 +1229,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u6-e46",
     "audioUrl": "audio/b1/unit-6/e46.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u6-e47",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "The Working World",
@@ -1254,11 +1255,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u6-e47",
     "audioUrl": "audio/b1/unit-6/e47.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u6-e48",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "The Working World",
@@ -1280,11 +1281,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u6-e48",
     "audioUrl": "audio/b1/unit-6/e48.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u6-e49",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "The Working World",
@@ -1306,11 +1307,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u6-e49",
     "audioUrl": "audio/b1/unit-6/e49.mp3",
     "topicName": "Grammar"
   },
   {
+    "id": "b1-u6-e50",
     "type": "multiple-choice",
     "level": "B1",
     "topic": "The Working World",
@@ -1332,7 +1333,6 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "id": "b1-u6-e50",
     "audioUrl": "audio/b1/unit-6/e50.mp3",
     "topicName": "Grammar"
   }
