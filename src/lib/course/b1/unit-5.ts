@@ -7,19 +7,20 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "The company is going to launch a new app next month.",
+    "transcript": "I think it will rain tomorrow.",
     "content": {
-      "title": "Futuros Planificados",
-      "instructions": "Elija la opción correcta para completar la oración utilizando expresiones de futuro.",
+      "title": "Uso de 'will' para predicciones",
+      "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[The|La]] [[company|empresa]] _______ [[to|a]] [[launch|lanzar]] [[a|una]] [[new|nueva]] [[app|aplicación]] [[next|el]] [[month|mes]] [[.|.]]",
+          "question": "[[I|Yo]] [[think|pienso]] [[it|que]] _______ [[rain|lloverá]] [[tomorrow|mañana]].",
           "options": [
-            "[[is|va]] [[going|a]] [[to|hacer]]",
-            "[[will|hará]]"
+            "[[will|va a]]",
+            "[[is going to|va a ir]]",
+            "[[is|es]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se utiliza 'going to' para hablar sobre planes futuros específicos.",
+          "explanation": "Usamos 'will' para hacer predicciones sobre el futuro.",
           "audio": "audio/b1/unit-5/e1.mp3"
         }
       ]
@@ -33,19 +34,20 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "He will study computer science at university.",
+    "transcript": "We are going to have a video conference at six.",
     "content": {
-      "title": "Futuros Decisiones",
-      "instructions": "Escoja la palabra correcta que complete correctamente la frase sobre decisiones futuras.",
+      "title": "Uso de 'going to' para planes",
+      "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[study|estudiará]] [[computer|informática]] [[science|ciencias]] [[at|en]] [[university|la universidad]] [[.|.]]",
+          "question": "[[We|Nosotros]] _______ [[have|tener]] [[a|una]] [[video|videoconferencia]] [[conference|de]] [[at|a]] [[six|las seis]].",
           "options": [
-            "[[will|va a]]",
-            "[[is|está]]"
+            "[[are going to|vamos a]]",
+            "[[will|irá a]]",
+            "[[are|son]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se usa 'will' para decisiones rápidas o futuras hechas en el momento.",
+          "explanation": "Usamos 'going to' cuando hablamos de planes o intenciones futuros.",
           "audio": "audio/b1/unit-5/e2.mp3"
         }
       ]
@@ -59,19 +61,20 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "We are meeting the new client tomorrow at 10 AM.",
+    "transcript": "They will install the software on Friday.",
     "content": {
-      "title": "Futuro con Presente Continuo",
-      "instructions": "Selecciona la opción adecuada para completar la frase sobre eventos futuros.",
+      "title": "Uso de 'will' para decisiones espontáneas",
+      "instructions": "Elige la palabra que completa correctamente la oración.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] _______ [[meeting|nos reunimos]] [[the|con el]] [[new|nuevo]] [[client|cliente]] [[tomorrow|mañana]] [[at|a]] [[10|las diez]] [[AM|de la mañana]] [[.|.]]",
+          "question": "[[They|Ellos]] _______ [[install|instalarán]] [[the|el]] [[software|software]] [[on|el]] [[Friday|viernes]].",
           "options": [
-            "[[are|estamos]]",
-            "[[will|nos reuniremos]]"
+            "[[will|van a]]",
+            "[[are going to|van a ir]]",
+            "[[do|hacen]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El presente continuo se utiliza para indicar eventos futuros ya programados.",
+          "explanation": "Usamos 'will' para las decisiones y promesas espontáneas.",
           "audio": "audio/b1/unit-5/e3.mp3"
         }
       ]
@@ -85,19 +88,20 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "She is going to improve her coding skills.",
+    "transcript": "He is meeting his new client tomorrow morning.",
     "content": {
-      "title": "Planes Futuros",
-      "instructions": "Elija la palabra que complete correctamente la oración sobre futuros planes.",
+      "title": "Uso del presente continuo para planes",
+      "instructions": "Selecciona la opción que completa correctamente la oración.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[to|va]] [[improve|a mejorar]] [[her|sus]] [[coding|habilidades de programación]] [[skills|.|]]",
+          "question": "[[He|Él]] _______ [[meeting|se reúne con]] [[his|su]] [[new|nuevo]] [[client|cliente]] [[tomorrow|mañana]] [[morning|en la mañana]].",
           "options": [
-            "[[is|está]] [[going|yendo]]",
-            "[[will|mejorará]]"
+            "[[is|está]]",
+            "[[will be|estará]]",
+            "[[is going to be|va a estar]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Going to' se usa para expresar una intención clara de realizar una actividad.",
+          "explanation": "El presente continuo se usa para expresar arreglos o planes para el futuro próximo.",
           "audio": "audio/b1/unit-5/e4.mp3"
         }
       ]
@@ -111,19 +115,20 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "They will attend the tech conference next week.",
+    "transcript": "Are you going to attend the seminar next week?",
     "content": {
-      "title": "Futuros Eventos",
-      "instructions": "Seleccione la forma verbal correcta para hablar sobre un evento futuro.",
+      "title": "Preguntas con 'going to'",
+      "instructions": "Elige la opción que completa la pregunta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[attend|asistirán]] [[the|a]] [[tech|la conferencia]] [[conference|tecnológica]] [[next|la próxima]] [[week|semana]] [[.|.]]",
+          "question": "[[Are|Vas]] [[you|tú]] _______ [[attend|asistir]] [[the|al]] [[seminar|seminario]] [[next|la próxima]] [[week|semana]]?",
           "options": [
-            "[[will|asistirán]]",
-            "[[are|están]]"
+            "[[going to|ir a]]",
+            "[[will|vas a]]",
+            "[[go|vas]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Will' se usa para eventos futuros en los que no existe un plan concreto pero sí una decisión tomada para el futuro.",
+          "explanation": "Usamos 'going to' en preguntas para intenciones y planes futuros.",
           "audio": "audio/b1/unit-5/e5.mp3"
         }
       ]
@@ -137,19 +142,19 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "The company is going to launch a new app next month.",
+    "transcript": "He is going to buy a new computer tomorrow.",
     "content": {
-      "title": "Lanzamiento de Aplicaciones",
-      "instructions": "Completa la frase con la opción correcta utilizando las formas futuras.",
+      "title": "Futuro con 'going to'",
+      "instructions": "Completa la oración con la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[The|La]] [[company|compañía]] _______ [[launch|lanzará]] [[a|una]] [[new|nueva]] [[app|aplicación]] [[next|el]] [[month|mes]] [[.|.]]",
+          "question": "[[He|Él]] _______ [[buy|comprar]] [[a|un]] [[new|nuevo]] [[computer|ordenador]] [[tomorrow|mañana]].",
           "options": [
-            "[[is|va]] [[going|a]] [[to|lanzar]]",
-            "[[will|lanzará]]"
+            "[[is going to|va a]]",
+            "[[will|comprará]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se usa 'going to' para planes futuros ya decididos.",
+          "explanation": "Usamos 'going to' para hablar de planes o intenciones futuras.",
           "audio": "audio/b1/unit-5/e6.mp3"
         }
       ]
@@ -163,19 +168,19 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "They will update the software soon.",
+    "transcript": "They will install the software by next week.",
     "content": {
-      "title": "Actualización de Software",
-      "instructions": "Elige la forma correcta para completar la oración sobre el futuro.",
+      "title": "Futuro con 'will'",
+      "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[update|actualizarán]] [[the|el]] [[software|software]] [[soon|pronto]] [[.|.]]",
+          "question": "[[They|Ellos]] _______ [[install|instalarán]] [[the|el]] [[software|software]] [[by|para]] [[next|la próxima]] [[week|semana]].",
           "options": [
-            "[[are|van]] [[going|a]]",
-            "[[will|actualizarán]]"
+            "[[will|instalarán]]",
+            "[[are installing|están instalando]]"
           ],
-          "correctAnswer": 1,
-          "explanation": "Usa 'will' para decisiones tomadas en el momento de hablar.",
+          "correctAnswer": 0,
+          "explanation": "Se utiliza 'will' para expresar decisiones espontáneas o promesas futuras.",
           "audio": "audio/b1/unit-5/e7.mp3"
         }
       ]
@@ -189,19 +194,19 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "Tomorrow, we are meeting with the new tech team.",
+    "transcript": "I am meeting with the IT team on Thursday.",
     "content": {
-      "title": "Reuniones con Equipos de Tecnología",
-      "instructions": "Completa la oración con la forma verbal más apropiada para el futuro cercano.",
+      "title": "Presente continuo para el futuro",
+      "instructions": "Completa la oración usando la forma adecuada del verbo.",
       "questions": [
         {
-          "question": "[[Tomorrow|Mañana]], [[we|nosotros]] _______ [[meeting|nos reunimos]] [[with|con]] [[the|el]] [[new|nuevo]] [[tech|equipo]] [[team|tecnológico]] [[.|.]]",
+          "question": "[[I|Yo]] _______ [[meeting|me reuniré]] [[with|con]] [[the|el]] [[IT|TI]] [[team|equipo]] [[on|el]] [[Thursday|jueves]].",
           "options": [
-            "[[are|nos]] [[meeting|vamos a reunir]]",
-            "[[will|nos reuniremos]]"
+            "[[am meeting|me reuniré]]",
+            "[[will meet|me reuniré]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se utiliza presente continuo para eventos futuros ya planificados.",
+          "explanation": "El presente continuo se utiliza para eventos planeados en el futuro cercano.",
           "audio": "audio/b1/unit-5/e8.mp3"
         }
       ]
@@ -215,19 +220,19 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "Despite the challenges, the developers will finish the project on time.",
+    "transcript": "She is going to update the website this weekend.",
     "content": {
-      "title": "Desafíos en el Desarrollo",
-      "instructions": "Elige la opción adecuada para completar el uso del futuro.",
+      "title": "Planes futuros con 'going to'",
+      "instructions": "Selecciona la respuesta correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[the|los]] [[challenges|desafíos]], [[the|los]] [[developers|desarrolladores]] _______ [[finish|terminarán]] [[the|el]] [[project|proyecto]] [[on|a]] [[time|tiempo]] [[.|.]]",
+          "question": "[[She|Ella]] _______ [[update|actualizará]] [[the|el]] [[website|sitio web]] [[this|este]] [[weekend|fin de semana]].",
           "options": [
-            "[[will|terminarán]]",
-            "[[are|van]] [[going|a]] [[to|terminar]]"
+            "[[is going to|va a]]",
+            "[[will|actualizará]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se utiliza 'will' para hablar sobre el futuro deducido o previsto.",
+          "explanation": "'Going to' se utiliza para indicar planes futuros.",
           "audio": "audio/b1/unit-5/e9.mp3"
         }
       ]
@@ -241,19 +246,19 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "You are going to learn a lot in this new coding course.",
+    "transcript": "Are you going to attend the webinar tomorrow?",
     "content": {
-      "title": "Cursos de Programación",
-      "instructions": "Completa la oración con la forma verbal más adecuada.",
+      "title": "Preguntas sobre el futuro con 'going to'",
+      "instructions": "Completa la pregunta con la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[You|Tú]] _______ [[learn|aprenderás]] [[a|mucho]] [[lot|en]] [[in|este]] [[this|nuevo]] [[new|curso]] [[coding|de programación]] [[course|.|.]]",
+          "question": "[[Are|Vas]] _______ [[to|minuto para]] [[attend|asistir]] [[the|al]] [[webinar|seminario web]] [[tomorrow|mañana]]?",
           "options": [
-            "[[are|vas]] [[going|a]] [[to|aprender]]",
-            "[[will|aprenderás]]"
+            "[[going|a ir]]",
+            "[[will|asistirás]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso del futuro con 'going to' para planes basados en evidencia presente.",
+          "explanation": "Utilizamos 'going to' para preguntar sobre intenciones futuras.",
           "audio": "audio/b1/unit-5/e10.mp3"
         }
       ]
@@ -267,24 +272,20 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "I am going to attend a conference about digital marketing.",
+    "transcript": "He will fix the computer tomorrow.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[am|voy]] [[going|a]] [[to|asistir]] [[attend|a]] [[a|una]] [[conference|conferencia]] [[about|sobre]] [[digital|marketing]] [[marketing|digital]].",
+      "correctSentence": "[[He|Él]] [[will|va a]] [[fix|reparar]] [[the|el]] [[computer|ordenador]] [[tomorrow|mañana]].",
       "words": [
-        "[[attend|asistir]]",
-        "[[a|una]]",
-        "[[I|Yo]]",
-        "[[am|voy]]",
-        "[[conference|conferencia]]",
-        "[[about|sobre]]",
-        "[[going|a]]",
-        "[[to|asistir]]",
-        "[[digital|digital]]",
-        "[[marketing|marketing]]"
+        "[[fix|reparar]]",
+        "[[He|Él]]",
+        "[[computer|ordenador]]",
+        "[[the|el]]",
+        "[[tomorrow|mañana]]",
+        "[[will|va a]]"
       ],
-      "explanation": "Uso de 'going to' para planes futuros: Sujeto + am/is/are + going to + verbo.",
+      "explanation": "Uso de 'will' para decisiones instantáneas o promesas.",
       "audio": "audio/b1/unit-5/e11.mp3"
     },
     "id": "b1-u5-e11",
@@ -296,23 +297,21 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "We are implementing a new software system next month.",
+    "transcript": "They are visiting a tech conference next week.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[are|vamos]] [[implementing|a]] [[a|implementar]] [[new|un]] [[software|nuevo]] [[system|sistema]] [[next|de]] [[month|software]].",
+      "correctSentence": "[[They|Ellos]] [[are|están]] [[visiting|visitando]] [[a|una]] [[tech|tecnológica]] [[conference|conferencia]] [[next|la próxima]] [[week|semana]].",
       "words": [
-        "[[software|nuevo]]",
-        "[[We|Nosotros]]",
-        "[[implementing|a]]",
-        "[[a|implementar]]",
-        "[[are|vamos]]",
-        "[[new|un]]",
-        "[[system|sistema]]",
-        "[[next|de]]",
-        "[[month|software]]"
+        "[[visiting|visitando]]",
+        "[[are|están]]",
+        "[[a|una]]",
+        "[[They|Ellos]]",
+        "[[conference|conferencia]]",
+        "[[tech|tecnológica]]",
+        "[[next|la próxima]]"
       ],
-      "explanation": "El presente continuo también se usa para expresar planes futuros.",
+      "explanation": "El presente continuo para eventos planificados en el futuro cercano.",
       "audio": "audio/b1/unit-5/e12.mp3"
     },
     "id": "b1-u5-e12",
@@ -324,23 +323,22 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "Despite the challenges, they will launch the new app soon.",
+    "transcript": "We are going to start an online course.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Despite|A pesar de]] [[the|los]] [[challenges|desafíos]], [[they|ellos]] [[will|lanzarán]] [[launch|la]] [[the|nueva]] [[new|aplicación]] [[app|pronto]].",
+      "correctSentence": "[[We|Nosotros]] [[are|estamos]] [[going|vamos]] [[to|a]] [[start|empezar]] [[an|un]] [[online|en línea]] [[course|curso]].",
       "words": [
-        "[[Despite|A pesar de]]",
-        "[[the|los]]",
-        "[[challenges|desafíos]]",
-        "[[they|ellos]]",
-        "[[will|lanzarán]]",
-        "[[launch|la]]",
-        "[[the|nueva]]",
-        "[[new|aplicación]]",
-        "[[app|pronto]]"
+        "[[start|empezar]]",
+        "[[going|vamos]]",
+        "[[to|a]]",
+        "[[We|Nosotros]]",
+        "[[are|estamos]]",
+        "[[an|un]]",
+        "[[course|curso]]",
+        "[[online|en línea]]"
       ],
-      "explanation": "Uso del 'will' para expresar decisiones o eventos futuros.",
+      "explanation": "Uso de 'going to' para planes o intenciones futuras.",
       "audio": "audio/b1/unit-5/e13.mp3"
     },
     "id": "b1-u5-e13",
@@ -352,23 +350,22 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "He will present his research at the technology seminar.",
+    "transcript": "Anna will launch the new software next month.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[will|presentará]] [[present|su]] [[his|investigación]] [[research|en]] [[at|el]] [[the|seminario]] [[technology|de]] [[seminar|tecnología]].",
+      "correctSentence": "[[Anna|Anna]] [[will|va a]] [[launch|lanzar]] [[the|el]] [[new|nuevo]] [[software|software]] [[next|el próximo]] [[month|mes]].",
       "words": [
-        "[[He|Él]]",
-        "[[will|presentará]]",
-        "[[present|su]]",
-        "[[his|investigación]]",
-        "[[research|en]]",
-        "[[at|el]]",
-        "[[the|seminario]]",
-        "[[technology|de]]",
-        "[[seminar|tecnología]]"
+        "[[new|nuevo]]",
+        "[[launch|lanzar]]",
+        "[[the|el]]",
+        "[[next|el próximo]]",
+        "[[Anna|Anna]]",
+        "[[month|mes]]",
+        "[[will|va a]]",
+        "[[software|software]]"
       ],
-      "explanation": "Se usa 'will' para describir acciones futuras que se han decidido o planificado.",
+      "explanation": "Uso de 'will' para anunciar hechos futuros.",
       "audio": "audio/b1/unit-5/e14.mp3"
     },
     "id": "b1-u5-e14",
@@ -380,24 +377,22 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "They are going to update the security system next week.",
+    "transcript": "We are interviewing applicants for the tech position.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[are|van]] [[going|a]] [[to|actualizar]] [[update|el]] [[the|sistema]] [[security|de]] [[system|seguridad]] [[next|la]] [[week|próxima]].",
+      "correctSentence": "[[We|Nosotros]] [[are|estamos]] [[interviewing|entrevistando]] [[applicants|candidatos]] [[for|para]] [[the|el]] [[tech|tecnológico]] [[position|puesto]].",
       "words": [
-        "[[They|Ellos]]",
-        "[[are|van]]",
-        "[[going|a]]",
-        "[[to|actualizar]]",
-        "[[update|el]]",
-        "[[the|sistema]]",
-        "[[security|de]]",
-        "[[system|seguridad]]",
-        "[[next|la]]",
-        "[[week|próxima]]"
+        "[[position|puesto]]",
+        "[[interviewing|entrevistando]]",
+        "[[the|el]]",
+        "[[tech|tecnológico]]",
+        "[[for|para]]",
+        "[[We|Nosotros]]",
+        "[[are|estamos]]",
+        "[[applicants|candidatos]]"
       ],
-      "explanation": "El uso de 'going to' se refiere a planes futuros que ya están decididos.",
+      "explanation": "Uso del presente continuo para acciones en progreso o planeadas.",
       "audio": "audio/b1/unit-5/e15.mp3"
     },
     "id": "b1-u5-e15",
@@ -409,19 +404,19 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "She is going to attend a conference next week.",
+    "transcript": "They will develop a new app by next year.",
     "content": {
-      "title": "Futuro próximo: Uso de \"going to\"",
-      "instructions": "Elige la opción correcta para completar la oración.",
+      "title": "Pluralidad tecnológica",
+      "instructions": "Elige la forma correcta del futuro para completar la oración.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[to|a]] [[attend|asistir]] [[a|a]] [[conference|conferencia]] [[next|próxima]] [[week|semana]].",
+          "question": "[[They|Ellos]] _______ [[develop|desarrollarán]] [[a|una]] [[new|nueva]] [[app|aplicación]] [[by|para]] [[next|el]] [[year|año]].",
           "options": [
-            "[[is|va]]",
-            "[[will|irá]]"
+            "[[will|van a]]",
+            "[[are going to|van a]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se usa \"going to\" para planes futuros.",
+          "explanation": "Uso de 'will' para decisiones espontáneas o para acciones en el futuro no planeadas.",
           "audio": "audio/b1/unit-5/e16.mp3"
         }
       ]
@@ -435,19 +430,19 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "The company will launch a new app next month.",
+    "transcript": "Our company is going to launch a new website.",
     "content": {
-      "title": "Futuro simple: Uso de \"will\"",
-      "instructions": "Selecciona la forma correcta del futuro para completar la oración.",
+      "title": "Lanzamiento web",
+      "instructions": "Completa con la forma correcta del futuro atendiendo al contexto planificado.",
       "questions": [
         {
-          "question": "[[The|La]] [[company|empresa]] _______ [[launch|lanzar]] [[a|una]] [[new|nueva]] [[app|aplicación]] [[next|el]] [[month|próximo mes]].",
+          "question": "[[Our|Nuestra]] [[company|empresa]] _______ [[launch|lanzará]] [[a|un]] [[new|nuevo]] [[website|sitio web]].",
           "options": [
-            "[[will|lanzará]]",
-            "[[is going|va a]]"
+            "[[is going to|va a]]",
+            "[[will|va a]]"
           ],
           "correctAnswer": 0,
-          "explanation": "\"Will\" se usa para decisiones espontáneas o predicciones sin evidencia previa.",
+          "explanation": "Uso de 'going to' para acciones planificadas en el futuro.",
           "audio": "audio/b1/unit-5/e17.mp3"
         }
       ]
@@ -461,19 +456,19 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "We are meeting with the IT team tomorrow.",
+    "transcript": "I am meeting my colleagues online tomorrow.",
     "content": {
-      "title": "Presente continuo para futuro",
-      "instructions": "Selecciona el tiempo correcto del verbo para acciones planificadas en el futuro.",
+      "title": "Reuniones digitales",
+      "instructions": "Elige la forma correcta del futuro continuo para esta situación planeada.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] _______ [[meeting|nos reuniremos]] [[with|con]] [[the|el]] [[IT|equipo de TI]] [[team|tecnologías]] [[tomorrow|mañana]].",
+          "question": "[[I|Yo]] _______ [[meeting|me reuniré]] [[my|con mis]] [[colleagues|colegas]] [[online|en línea]] [[tomorrow|mañana]].",
           "options": [
-            "[[are|estamos]]",
-            "[[will|nos reuniremos]]"
+            "[[will be|estarán]]",
+            "[[am|estoy]]"
           ],
-          "correctAnswer": 0,
-          "explanation": "El presente continuo se usa para eventos planificados en el futuro cercano.",
+          "correctAnswer": 1,
+          "explanation": "Uso del presente continuo para eventos futuros planificados.",
           "audio": "audio/b1/unit-5/e18.mp3"
         }
       ]
@@ -487,19 +482,19 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "They will probably update their software soon.",
+    "transcript": "The experts say that artificial intelligence will change many industries.",
     "content": {
-      "title": "Futuro probable: Uso de \"will\"",
-      "instructions": "Seleccione la forma correcta del verbo para expresar acciones futuras probables.",
+      "title": "Impacto de la inteligencia artificial",
+      "instructions": "Escoge la forma correcta del futuro según la predicción realizada.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[probably|probablemente]] [[update|actualizarán]] [[their|su]] [[software|software]] [[soon|pronto]].",
+          "question": "[[The|Los]] [[experts|expertos]] [[say|dicen]] [[that|que]] [[artificial|la inteligencia]] [[intelligence|artificial]] _______ [[change|cambiará]] [[many|muchas]] [[industries|industrias]].",
           "options": [
-            "[[will|actualizarán]]",
-            "[[are going|van a]]"
+            "[[will|va a]]",
+            "[[is going to|va a]]"
           ],
           "correctAnswer": 0,
-          "explanation": "\"Will\" se utiliza para predicciones futuras cuando hay probabilidad o incertidumbre.",
+          "explanation": "Uso de 'will' para predicciones sobre el futuro basadas en opinión o intuición.",
           "audio": "audio/b1/unit-5/e19.mp3"
         }
       ]
@@ -513,19 +508,19 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "I'm going to visit the tech exhibition this weekend.",
+    "transcript": "We are going to attend a tech conference next week.",
     "content": {
-      "title": "Futuro próximo: Uso de \"going to\"",
-      "instructions": "Seleccione la opción correcta para completar la oración sobre planes futuros.",
+      "title": "Conferencias tecnológicas",
+      "instructions": "Selecciona la opción apropiada para expresar un plan futuro.",
       "questions": [
         {
-          "question": "[[I'm|Yo]] _______ [[visit|voy a visitar]] [[the|la]] [[tech|tecnológica]] [[exhibition|exposición]] [[this|este]] [[weekend|fin de semana]].",
+          "question": "[[We|Nosotros]] _______ [[attend|asistiremos]] [[a|a]] [[tech|una conferencia]] [[conference|de tecnología]] [[next|la próxima]] [[week|semana]].",
           "options": [
-            "[[am going|voy a]]",
-            "[[will|visitaré]]"
+            "[[are going to|vamos a]]",
+            "[[will|iremos a]]"
           ],
           "correctAnswer": 0,
-          "explanation": "\"Going to\" se utiliza para planes firmes o intenciones personales.",
+          "explanation": "Uso de 'going to' para eventos planeados o con evidencia presente.",
           "audio": "audio/b1/unit-5/e20.mp3"
         }
       ]
@@ -539,19 +534,19 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "The company will launch a new website next month.",
+    "transcript": "In the future, she is going to earn more because she will manage a larger team.",
     "content": {
-      "title": "Futuro: Will",
-      "instructions": "Completa la oración usando la forma correcta de 'will'.",
+      "title": "El Futuro en el Ámbito Laboral",
+      "instructions": "Completa el espacio en blanco usando la forma correcta del futuro.",
       "questions": [
         {
-          "question": "[[The|La]] [[company|empresa]] _______ [[launch|lanzará]] [[a|un]] [[new|nuevo]] [[website|sitio web]] [[next|el próximo]] [[month|mes]].",
+          "question": "[[In|En]] [[the|el]] [[future|futuro]], [[she|ella]] _______ [[earn|ganar]] [[more|más]] [[because|porque]] [[she|ella]] [[will|va a]] [[manage|gestionar]] [[a|un]] [[larger|más grande]] [[team|equipo]].",
           "options": [
-            "[[will|lanzará]]",
-            "[[is|es]]"
+            "[[is going to|va a]]",
+            "[[will|va a]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se usa 'will' para decisiones o predicciones sobre el futuro.",
+          "explanation": "Usamos 'going to' cuando tenemos una intención clara o un plan definido para el futuro.",
           "audio": "audio/b1/unit-5/e21.mp3"
         }
       ]
@@ -565,19 +560,19 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "She is going to study computer science.",
+    "transcript": "By this time next year, they will have launched a new software program.",
     "content": {
-      "title": "Futuro: Going to",
-      "instructions": "Completa la oración usando la forma correcta de 'going to'.",
+      "title": "Planes Tecnológicos",
+      "instructions": "Completa el espacio en blanco usando la forma correcta del futuro.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[to|a]] [[study|estudiar]] [[computer|ciencias de la computación]].",
+          "question": "[[By|Para]] [[this|esta]] [[time|hora]] [[next|el próximo]] [[year|año]], [[they|ellos]] _______ [[a|un]] [[new|nuevo]] [[software|software]] [[program|programa]].",
           "options": [
-            "[[is going|va]]",
-            "[[studies|estudia]]"
+            "[[are launching|están lanzando]]",
+            "[[will have launched|habrán lanzado]]"
           ],
-          "correctAnswer": 0,
-          "explanation": "Se usa 'going to' para planes ya decididos o intenciones.",
+          "correctAnswer": 1,
+          "explanation": "Se utiliza 'will have' junto al participio para indicar una acción completada en un punto futuro.",
           "audio": "audio/b1/unit-5/e22.mp3"
         }
       ]
@@ -591,19 +586,19 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "We are meeting the IT team on Friday.",
+    "transcript": "Despite the challenges, he is going to pursue a degree in computer science.",
     "content": {
-      "title": "Presente continuo para el futuro",
-      "instructions": "Completa la oración usando la forma correcta del presente continuo.",
+      "title": "Decisiones Académicas",
+      "instructions": "Completa el espacio en blanco usando la forma correcta del futuro.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] _______ [[the|al]] [[IT|equipo de informática]] [[team|el]] [[on|el]] [[Friday|viernes]].",
+          "question": "[[Despite|A pesar de]] [[the|las]] [[challenges|dificultades]], [[he|él]] _______ [[pursue|perseguir]] [[a|una]] [[degree|licenciatura]] [[in|en]] [[computer|computación]] [[science|ciencia]].",
           "options": [
-            "[[are meeting|nos reunimos]]",
-            "[[meet|nos reunimos]]"
+            "[[is going to|va a]]",
+            "[[will|va a]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El presente continuo se utiliza para acciones arregladas que van a suceder próximamente.",
+          "explanation": "Usamos 'going to' para decisiones o planes futuros que ya se han tomado.",
           "audio": "audio/b1/unit-5/e23.mp3"
         }
       ]
@@ -617,19 +612,19 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "They are going to develop a new app.",
+    "transcript": "Tomorrow at 3 PM, I am meeting my colleagues to discuss the new project.",
     "content": {
-      "title": "Futuro: Going to",
-      "instructions": "Completa la oración usando la forma correcta de 'going to'.",
+      "title": "Reuniones de Trabajo",
+      "instructions": "Completa el espacio en blanco para expresar planes futuros.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[to|a]] [[develop|desarrollar]] [[a|una]] [[new|nueva]] [[app|aplicación]].",
+          "question": "[[Tomorrow|Mañana]] [[at|a las]] [[3|3]] [[PM|PM]], [[I|yo]] _______ [[my|con mis]] [[colleagues|colegas]] [[to|para]] [[discuss|discutir]] [[the|el]] [[new|nuevo]] [[project|proyecto]].",
           "options": [
-            "[[are going|van]]",
-            "[[develop|desarrollan]]"
+            "[[am meeting|me reuniré con]]",
+            "[[will meet|me reuniré]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se usa 'going to' para intenciones o planes futuros confirmados.",
+          "explanation": "Se utiliza el presente continuo para planes futuros con detalles concretos.",
           "audio": "audio/b1/unit-5/e24.mp3"
         }
       ]
@@ -643,19 +638,19 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "I will email the report after the meeting.",
+    "transcript": "Although there is uncertainty, the company will continue to invest in innovation.",
     "content": {
-      "title": "Futuro: Will",
-      "instructions": "Completa la oración usando la forma correcta de 'will'.",
+      "title": "Estrategias Empresariales",
+      "instructions": "Completa el espacio en blanco usando la forma correcta del futuro.",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[email|enviaré por correo electrónico]] [[the|el]] [[report|informe]] [[after|después de]] [[the|la]] [[meeting|reunión]].",
+          "question": "[[Although|Aunque]] [[there|hay]] [[is|incertidumbre]], [[the|la]] [[company|compañía]] _______ [[continue|continuará]] [[to|a]] [[invest|invertir]] [[in|en]] [[innovation|innovación]].",
           "options": [
-            "[[will|enviaré]]",
-            "[[am|estoy]]"
+            "[[is going to|va a]]",
+            "[[will|va a]]"
           ],
-          "correctAnswer": 0,
-          "explanation": "Se utiliza 'will' para acciones decididas espontáneamente en el momento.",
+          "correctAnswer": 1,
+          "explanation": "Usamos 'will' para decisiones instantáneas o situaciones futuras inevitables.",
           "audio": "audio/b1/unit-5/e25.mp3"
         }
       ]
@@ -669,22 +664,25 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "They are going to launch the new software tomorrow.",
+    "transcript": "They are going to attend a digital marketing seminar next week.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[are|van]] [[going|a]] [[to|lanzar]] [[launch|el]] [[the|nuevo]] [[new|software]] [[software|mañana]].",
+      "correctSentence": "[[They|Ellos]] [[are|están]] [[going|van]] [[to|a]] [[attend|asistir]] [[a|a]] [[digital|digital]] [[marketing|marketing]] [[seminar|seminario]] [[next|la próxima]] [[week|semana]].",
       "words": [
-        "[[are|van]]",
-        "[[launch|el]]",
-        "[[new|software]]",
-        "[[going|a]]",
-        "[[the|nuevo]]",
-        "[[to|lanzar]]",
+        "[[next|la próxima]]",
+        "[[week|semana]]",
+        "[[a|a]]",
         "[[They|Ellos]]",
-        "[[software|mañana]]"
+        "[[seminar|seminario]]",
+        "[[are|están]]",
+        "[[going|van]]",
+        "[[to|a]]",
+        "[[attend|asistir]]",
+        "[[digital|digital]]",
+        "[[marketing|marketing]]"
       ],
-      "explanation": "Uso de 'going to' para acciones planificadas en el futuro.",
+      "explanation": "Uso del 'going to' para planes futuros.",
       "audio": "audio/b1/unit-5/e26.mp3"
     },
     "id": "b1-u5-e26",
@@ -695,25 +693,24 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "type": "sentence-building",
     "level": "B1",
     "topic": "Technology & The Digital Age",
-    "difficulty": "high",
-    "transcript": "Although the meeting will be long, we will finish all presentations.",
+    "difficulty": "medium",
+    "transcript": "The tech conference is starting tomorrow at 9 AM.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Although|Aunque]] [[the|la]] [[meeting|reunión]] [[will|será]] [[be|larga]], [[we|nosotros]] [[will|terminaremos]] [[finish|todas]] [[all|las]] [[presentations|presentaciones]].",
+      "correctSentence": "[[The|La]] [[tech|tecnológica]] [[conference|conferencia]] [[is|empieza]] [[starting|mañana]] [[tomorrow|a las]] [[at|9]] [[9|AM]].",
       "words": [
-        "[[will|será]]",
-        "[[the|la]]",
-        "[[Although|Aunque]]",
-        "[[all|las]]",
-        "[[we|nosotros]]",
-        "[[presentations|presentaciones]]",
-        "[[meeting|reunión]]",
-        "[[finish|todas]]",
-        "[[will|terminaremos]]",
-        "[[be|larga]]"
+        "[[tomorrow|mañana]]",
+        "[[starting|empieza]]",
+        "[[AM|de la mañana]]",
+        "[[conference|conferencia]]",
+        "[[at|a las]]",
+        "[[9|9]]",
+        "[[The|La]]",
+        "[[tech|tecnológica]]",
+        "[[is|es]]"
       ],
-      "explanation": "Uso de 'will' para futuro y 'although' para contraste.",
+      "explanation": "Uso del presente continuo para eventos planeados en el futuro cercano.",
       "audio": "audio/b1/unit-5/e27.mp3"
     },
     "id": "b1-u5-e27",
@@ -725,23 +722,23 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "Next week, they are meeting the new clients.",
+    "transcript": "Although they are busy, they will update the software tonight.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Next|La]] [[week|semana]] [[they|ellos]] [[are|están]] [[meeting|reuniéndose]] [[the|con]] [[new|los]] [[clients|nuevos]] [[clients|clientes]].",
+      "correctSentence": "[[Although|Aunque]] [[they|ellos]] [[are|están]] [[busy|ocupados]], [[they|ellos]] [[will|actualizarán]] [[update|el software]] [[the|esta]] [[software|noche]].",
       "words": [
-        "[[are|están]]",
-        "[[the|con]]",
-        "[[Next|La]]",
+        "[[software|noche]]",
+        "[[Although|Aunque]]",
+        "[[the|esta]]",
         "[[they|ellos]]",
-        "[[clients|clientes]]",
-        "[[week|semana]]",
-        "[[meeting|reuniéndose]]",
-        "[[new|los]]",
-        "[[clients|nuevos]]"
+        "[[update|actualizarán]]",
+        "[[will|el software]]",
+        "[[night|noche]]",
+        "[[busy|ocupados]]",
+        "[[are|están]]"
       ],
-      "explanation": "Uso del presente continuo para eventos futuros planificados.",
+      "explanation": "Uso del 'will' para decisiones rápidas hechas en el momento.",
       "audio": "audio/b1/unit-5/e28.mp3"
     },
     "id": "b1-u5-e28",
@@ -753,22 +750,24 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "Despite the difficulties, the project will succeed.",
+    "transcript": "The company is going to launch a new app next month.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Despite|A pesar]] [[the|de]] [[difficulties|las]] [[the|dificultades]], [[project|el]] [[will|proyecto]] [[succeed|tendrá]] [[the|éxito]].",
+      "correctSentence": "[[The|La]] [[company|empresa]] [[is|va]] [[going|a]] [[to|lanzar]] [[launch|una]] [[a|nueva]] [[new|aplicación]] [[app|el próximo]] [[next|mes]].",
       "words": [
-        "[[succeed|tendrá]]",
-        "[[Despite|A pesar]]",
-        "[[will|proyecto]]",
-        "[[the|de]]",
-        "[[project|el]]",
-        "[[the|dificultades]]",
-        "[[the|las]]",
-        "[[difficulties|éxito]]"
+        "[[to|lanzar]]",
+        "[[launch|una]]",
+        "[[The|La]]",
+        "[[app|el próximo]]",
+        "[[is|va]]",
+        "[[going|a]]",
+        "[[new|aplicación]]",
+        "[[next|mes]]",
+        "[[month|mes]]",
+        "[[company|empresa]]"
       ],
-      "explanation": "Uso de 'despite' para indicar contraste y 'will' para predicciones futuras.",
+      "explanation": "Uso del 'going to' para hablar de planes ya decididos.",
       "audio": "audio/b1/unit-5/e29.mp3"
     },
     "id": "b1-u5-e29",
@@ -779,26 +778,25 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "type": "sentence-building",
     "level": "B1",
     "topic": "Technology & The Digital Age",
-    "difficulty": "high",
-    "transcript": "As soon as the app is developed, the company will test it extensively.",
+    "difficulty": "medium",
+    "transcript": "Since it is late, they are going to order food online.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[As|Tan]] [[soon|pronto]] [[as|como]] [[the|la]] [[app|aplicación]] [[is|esté]] [[developed|desarrollada]], [[the|la]] [[company|empresa]] [[will|la]] [[test|probará]] [[it|extensivamente]].",
+      "correctSentence": "[[Since|Como]] [[it|es]] [[is|tarde]], [[they|ellos]] [[are|van]] [[going|a]] [[to|pedir]] [[order|comida]] [[food|en]] [[online|línea]].",
       "words": [
-        "[[company|empresa]]",
-        "[[will|la]]",
-        "[[test|probará]]",
-        "[[As|Tan]]",
-        "[[soon|pronto]]",
-        "[[as|como]]",
-        "[[the|aplicación]]",
-        "[[the|la]]",
-        "[[app|esté]]",
-        "[[developed|desarrollada]],",
-        "[[it|extensivamente]]."
+        "[[Since|Como]]",
+        "[[it|es]]",
+        "[[is|tarde]]",
+        "[[they|ellos]]",
+        "[[are|van]]",
+        "[[going|a]]",
+        "[[to|pedir]]",
+        "[[order|comida]]",
+        "[[food|en]]",
+        "[[online|línea]]"
       ],
-      "explanation": "Uso de 'as soon as' para condiciones futuras y 'will' para acciones planificadas.",
+      "explanation": "Combinar 'since' para dar razón con 'going to' para planes.",
       "audio": "audio/b1/unit-5/e30.mp3"
     },
     "id": "b1-u5-e30",
@@ -810,19 +808,19 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "The company is going to launch a new app next month.",
+    "transcript": "She is going to attend a digital marketing seminar next week.",
     "content": {
-      "title": "Uso del futuro 'be going to'",
-      "instructions": "Selecciona la opción correcta para completar la oración.",
+      "title": "Futuro con 'going to'",
+      "instructions": "Elige la opción correcta para completar la oración sobre futuros eventos planificados.",
       "questions": [
         {
-          "question": "[[The|La]] [[company|empresa]] _______ [[launch|lanzar]] [[a|una]] [[new|nueva]] [[app|aplicación]] [[next|el]] [[month|mes]]",
+          "question": "[[She|Ella]] _______ [[attend|asistir]] [[a|a]] [[digital|digital]] [[marketing|marketing]] [[seminar|seminario]] [[next|la]] [[week|próxima semana]].",
           "options": [
-            "[[will|va a]]",
-            "[[is going|va a]]"
+            "[[is going to|va a]]",
+            "[[will|irá]]"
           ],
-          "correctAnswer": 1,
-          "explanation": "Se usa 'be going to' para planes o intenciones futuras.",
+          "correctAnswer": 0,
+          "explanation": "'Going to' se usa para intenciones o planes futuros ya decididos.",
           "audio": "audio/b1/unit-5/e31.mp3"
         }
       ]
@@ -836,19 +834,19 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "We will update the software after testing it thoroughly.",
+    "transcript": "The meeting will start as soon as the manager arrives.",
     "content": {
-      "title": "Futuro simple con 'will'",
-      "instructions": "Elige la opción correcta para completar la oración.",
+      "title": "Futuro con 'will'",
+      "instructions": "Selecciona la opción adecuada para expresar inevitabilidad futura.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] _______ [[update|actualizaremos]] [[the|el]] [[software|software]] [[after|después]] [[testing|de probarlo]] [[it|se]] [[thoroughly|completamente]].",
+          "question": "[[The|La]] [[meeting|reunión]] _______ [[start|comenzará]] [[as|tan]] [[soon|pronto]] [[as|como]] [[the|el]] [[manager|gerente]] [[arrives|llegue]].",
           "options": [
-            "[[will|actualizaremos]]",
-            "[[are going|vamos a actualizar]]"
+            "[[will|va a]]",
+            "[[is going to|irá a]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El futuro simple con 'will' se utiliza para decisiones espontáneas o promesas.",
+          "explanation": "'Will' se utiliza para expresar el futuro inevitable.",
           "audio": "audio/b1/unit-5/e32.mp3"
         }
       ]
@@ -862,19 +860,19 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "The team is meeting with the investors tomorrow.",
+    "transcript": "We are meeting with the developer tomorrow afternoon.",
     "content": {
-      "title": "Uso del presente continuo para futuro",
-      "instructions": "Selecciona la opción que completa correctamente la oración.",
+      "title": "Presente continuo para planes futuros",
+      "instructions": "Elige la opción correcta considerando el contexto de un futuro ya planificado.",
       "questions": [
         {
-          "question": "[[The|El]] [[team|equipo]] _______ [[meeting|se reúne]] [[with|con]] [[the|los]] [[investors|inversores]] [[tomorrow|mañana]].",
+          "question": "[[We|Nosotros]] _______ [[meeting|reuniremos]] [[with|con]] [[the|el]] [[developer|desarrollador]] [[tomorrow|mañana]] [[afternoon|por la tarde]].",
           "options": [
-            "[[is|está]]",
-            "[[will|se reunirá]]"
+            "[[are|estamos]]",
+            "[[will be|estaremos]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El presente continuo se utiliza para acciones futuras planificadas.",
+          "explanation": "El presente continuo se utiliza para hablar de planes futuros arreglados.",
           "audio": "audio/b1/unit-5/e33.mp3"
         }
       ]
@@ -888,19 +886,19 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "Despite the challenges, she is going to finish the project by Friday.",
+    "transcript": "They are going to launch a new app by the end of the year.",
     "content": {
-      "title": "Uso de 'going to' con contraste",
-      "instructions": "Completa la oración eligiendo la opción correcta.",
+      "title": "Futuro con 'going to'",
+      "instructions": "Selecciona la opción que mejor completa la oración sobre planes definidos para el futuro.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[the|los]] [[challenges|retos]], [[she|ella]] _______ [[finish|va a terminar]] [[the|el]] [[project|proyecto]] [[by|para]] [[Friday|viernes]].",
+          "question": "[[They|Ellos]] _______ [[launch|lanzarán]] [[a|una]] [[new|nueva]] [[app|aplicación]] [[by|para]] [[the|el]] [[end|fin]] [[of|del]] [[the|año]].",
           "options": [
-            "[[is going|va a]]",
-            "[[will|terminará]]"
+            "[[are going to|van a]]",
+            "[[will|lanzarán]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Going to' se emplea para indicar acciones que se han planeado.",
+          "explanation": "'Going to' se usa para expresar acciones futuras planificadas.",
           "audio": "audio/b1/unit-5/e34.mp3"
         }
       ]
@@ -914,19 +912,19 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "They are presenting their new technology at the conference next week.",
+    "transcript": "More people will rely on online platforms in the future.",
     "content": {
-      "title": "Uso del presente continuo para acciones futuras planificadas",
-      "instructions": "Escoge la opción correcta para completar la oración.",
+      "title": "Futuro con 'will'",
+      "instructions": "Elige la opción correcta para predecir acciones futuras generales.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[presenting|presentarán]] [[their|su]] [[new|nueva]] [[technology|tecnología]] [[at|en]] [[the|la]] [[conference|conferencia]] [[next|la próxima]] [[week|semana]].",
+          "question": "[[More|Más]] [[people|personas]] _______ [[rely|confiarán]] [[on|en]] [[online|plataformas]] [[platforms|en]] [[in|el]] [[the|futuro]].",
           "options": [
-            "[[are|están]]",
-            "[[will|presentarán]]"
+            "[[will|confiarán]]",
+            "[[are going to|van a]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Para acciones planificadas en el futuro, se usa el presente continuo.",
+          "explanation": "'Will' se usa comúnmente para hacer predicciones sobre el futuro.",
           "audio": "audio/b1/unit-5/e35.mp3"
         }
       ]
@@ -940,19 +938,19 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "He will discuss the project tomorrow during the meeting.",
+    "transcript": "I will attend a virtual conference on artificial intelligence next weekend.",
     "content": {
-      "title": "Discusión de Proyectos",
-      "instructions": "Completa la frase con la forma futura correcta.",
+      "title": "Futuro con 'will'",
+      "instructions": "Completa la frase con la forma correcta del verbo para expresar futuro.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[discuss|discutirá]] [[the|el]] [[project|proyecto]] [[tomorrow|mañana]] [[during|durante]] [[the|la]] [[meeting|reunión]].",
+          "question": "[[I|Yo]] _______ [[attend|asistiré]] [[a|a]] [[virtual|virtual]] [[conference|conferencia]] [[on|sobre]] [[artificial|inteligencia]] [[intelligence|artificial]] [[next|el]] [[weekend|próximo fin de semana]].",
           "options": [
-            "[[will|va a]]",
-            "[[is|está]]"
+            "[[will|asistiré]]",
+            "[[am going|voy]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso de 'will' para indicar una acción futura decidida en el momento de hablar.",
+          "explanation": "Se utiliza 'will' para expresar decisiones espontáneas o eventos futuros.",
           "audio": "audio/b1/unit-5/e36.mp3"
         }
       ]
@@ -966,19 +964,19 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "We are going to attend an online course next week.",
+    "transcript": "She is meeting with the tech team tomorrow morning.",
     "content": {
-      "title": "Asistencia a Cursos En Línea",
-      "instructions": "Completa la frase con la forma correcta para expresar un plan futuro.",
+      "title": "Presente continuo para futuro",
+      "instructions": "Completa la frase con la forma correcta del verbo para planes futuros.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] _______ [[to|a]] [[attend|asistir]] [[an|un]] [[online|en línea]] [[course|curso]] [[next|la próxima]] [[week|semana]].",
+          "question": "[[She|Ella]] _______ [[meeting|se reunirá]] [[with|con]] [[the|el]] [[tech|tecnológico]] [[team|equipo]] [[tomorrow|mañana]] [[morning|por la mañana]].",
           "options": [
-            "[[are going|vamos]]",
-            "[[will|vamos]]"
+            "[[is|se está]]",
+            "[[will|se reunirá]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso de 'going to' para expresar un plan futuro premeditado.",
+          "explanation": "El presente continuo se usa aquí para expresar un arreglo futuro.",
           "audio": "audio/b1/unit-5/e37.mp3"
         }
       ]
@@ -992,19 +990,19 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "They are launching a new app this Friday.",
+    "transcript": "They are going to launch a new software next quarter.",
     "content": {
-      "title": "Lanzamiento de Aplicaciones",
-      "instructions": "Completa la frase con la forma correcta del futuro.",
+      "title": "Ir a + infinitivo",
+      "instructions": "Completa la frase con la expresión correcta para indicar un plan futuro.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[launching|lanzando]] [[a|una]] [[new|nueva]] [[app|aplicación]] [[this|este]] [[Friday|viernes]].",
+          "question": "[[They|Ellos]] _______ [[to|a]] [[launch|lanzar]] [[a|un]] [[new|nuevo]] [[software|software]] [[next|el]] [[quarter|próximo trimestre]].",
           "options": [
-            "[[are|están]]",
-            "[[will|van a]]"
+            "[[are going|van]]",
+            "[[will|lanzarán]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso del presente continuo para eventos futuros ya programados.",
+          "explanation": "La estructura 'be going to' se utiliza para intenciones o planes previamente decididos.",
           "audio": "audio/b1/unit-5/e38.mp3"
         }
       ]
@@ -1018,19 +1016,19 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "She is meeting the tech support team at 3 PM.",
+    "transcript": "Despite the challenges, they will improve the system this year.",
     "content": {
-      "title": "Reuniones con Soporte Técnico",
-      "instructions": "Completa la frase con la forma correcta del futuro.",
+      "title": "Uso del 'will' con conectores",
+      "instructions": "Completa la frase adecuadamente para prever el futuro.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[meeting|reunirá]] [[the|con el]] [[tech|equipo]] [[support|de soporte]] [[team|técnico]] [[at|a las]] [[3|3]] [[PM|PM]].",
+          "question": "[[Despite|A pesar de]] [[the|los]] [[challenges|desafíos]], [[they|ellos]] _______ [[improve|mejorarán]] [[the|el]] [[system|sistema]] [[this|este]] [[year|año]].",
           "options": [
-            "[[is|está]]",
-            "[[will|va a]]"
+            "[[will|mejorarán]]",
+            "[[are going|van]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso del presente continuo para indicar citas o eventos futuros programados.",
+          "explanation": "Se utiliza 'will' en predicciones futuras cuando hay certeza o confianza en el evento.",
           "audio": "audio/b1/unit-5/e39.mp3"
         }
       ]
@@ -1040,26 +1038,31 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "topicName": "Grammar"
   },
   {
-    "type": "fill-blank",
+    "type": "sentence-building",
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "I think we will explore new digital tools next month.",
+    "transcript": "Although the software is new, it is going to help the company.",
     "content": {
-      "title": "Herramientas Digitales",
-      "instructions": "Completa la frase con la forma futura adecuada.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] [[think|pienso]] [[we|que nosotros]] _______ [[explore|exploraremos]] [[new|nuevas]] [[digital|digitales]] [[tools|herramientas]] [[next|el próximo]] [[month|mes]].",
-          "options": [
-            "[[will|vamos a]]",
-            "[[are|estamos]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Uso de 'will' para expresar predicciones sobre el futuro.",
-          "audio": "audio/b1/unit-5/e40.mp3"
-        }
-      ]
+      "title": "Construcción de oraciones",
+      "instructions": "Ordena las palabras para formar una oración lógica.",
+      "correctSentence": "[[Although|Aunque]] [[the|el]] [[software|software]] [[is|es]] [[new|nuevo]], [[it|este]] [[is|va]] [[going|a]] [[to|ayudar]] [[help|a]] [[the|la]] [[company|empresa]].",
+      "words": [
+        "[[Although|Aunque]]",
+        "[[the|el]]",
+        "[[is|es]]",
+        "[[software|software]]",
+        "[[new|nuevo]]",
+        "[[it|este]]",
+        "[[is|va]]",
+        "[[going|a]]",
+        "[[to|ayudar]]",
+        "[[help|a]]",
+        "[[the|la]]",
+        "[[company|empresa]]"
+      ],
+      "explanation": "Inicia con 'Although' para mostrar contraste. 'Is going to' indica un plan futuro.",
+      "audio": "audio/b1/unit-5/e40.mp3"
     },
     "id": "b1-u5-e40",
     "audioUrl": "audio/b1/unit-5/e40.mp3",
@@ -1070,21 +1073,24 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "He is going to upgrade his computer tomorrow.",
+    "transcript": "We are going to install a new software next week.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[is|va]] [[going|a]] [[to|actualizar]] [[upgrade|su]] [[his|ordenador]] [[computer|mañana]].",
+      "correctSentence": "[[We|Nosotros]] [[are|vamos]] [[going|a]] [[to|instalar]] [[install|un]] [[a|nuevo]] [[new|software]] [[software|la]] [[next|semana]] [[week|próxima]].",
       "words": [
-        "[[tomorrow|mañana]]",
-        "[[going|a]]",
-        "[[to|actualizar]]",
-        "[[He|Él]]",
-        "[[is|va]]",
-        "[[his|su]]",
-        "[[computer|ordenador]]"
+        "[[new|nuevo]]",
+        "[[a|un]]",
+        "[[are|vamos]]",
+        "[[software|software]]",
+        "[[next|próxima]]",
+        "[[week|semana]]",
+        "[[We|Nosotros]]",
+        "[[install|instalar]]",
+        "[[to|a]]",
+        "[[going|a]]"
       ],
-      "explanation": "Uso de 'going to' para expresar planes futuros: Sujeto + am/is/are + going to + verbo.",
+      "explanation": "Uso de 'going to' para planes asegurados en el futuro: Sujeto + am/is/are + going to + verbo.",
       "audio": "audio/b1/unit-5/e41.mp3"
     },
     "id": "b1-u5-e41",
@@ -1096,20 +1102,23 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "They will deliver the keynote speech at the conference.",
+    "transcript": "The company will launch the new app in March.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[will|darán]] [[deliver|la]] [[the|conferencia]] [[keynote|clave]] [[speech|en]] [[at|la]] [[the|conferencia]].",
+      "correctSentence": "[[The|La]] [[company|empresa]] [[will|lanzará]] [[launch|la]] [[the|nueva]] [[new|aplicación]] [[app|en]] [[in|marzo]]. [[March|La]]",
       "words": [
-        "[[deliver|la]]",
-        "[[the|conferencia]]",
-        "[[They|Ellos]]",
-        "[[keynote|clave]]",
-        "[[will|darán]]",
-        "[[at|en]]"
+        "[[launch|lanzará]]",
+        "[[company|empresa]]",
+        "[[new|nueva]]",
+        "[[the|La]]",
+        "[[March|marzo]]",
+        "[[in|en]]",
+        "[[app|aplicación]]",
+        "[[will|lanzará]]",
+        "[[the|la]]"
       ],
-      "explanation": "Uso de 'will' para decisiones futuras o eventos planificados: Sujeto + will + verbo.",
+      "explanation": "Uso de 'will' para acciones futuras: Sujeto + will + verbo base.",
       "audio": "audio/b1/unit-5/e42.mp3"
     },
     "id": "b1-u5-e42",
@@ -1121,20 +1130,22 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "My team is meeting with the developers this afternoon.",
+    "transcript": "He is attending a tech conference next month.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My|Mi]] [[team|equipo]] [[is|se]] [[meeting|reúne]] [[with|con]] [[the|los]] [[developers|desarrolladores]] [[this|esta]] [[afternoon|tarde]].",
+      "correctSentence": "[[He|Él]] [[is|asistirá]] [[attending|a]] [[a|una]] [[tech|conferencia]] [[conference|tecnológica]] [[next|el]] [[month|mes]].",
       "words": [
-        "[[meeting|reúne]]",
-        "[[My|Mi]]",
-        "[[with|con]]",
-        "[[is|se]]",
-        "[[developers|desarrolladores]]",
-        "[[afternoon|tarde]]"
+        "[[tech|tecnológica]]",
+        "[[He|Él]]",
+        "[[is|asistirá]]",
+        "[[month|mes]]",
+        "[[next|el]]",
+        "[[attending|a]]",
+        "[[a|una]]",
+        "[[conference|conferencia]]"
       ],
-      "explanation": "Uso del presente continuo para eventos futuros acordados: Sujeto + am/is/are + verbo-ing.",
+      "explanation": "Uso del presente continuo para eventos programados: Sujeto + am/is/are + verbo-ing.",
       "audio": "audio/b1/unit-5/e43.mp3"
     },
     "id": "b1-u5-e43",
@@ -1146,20 +1157,24 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "Are you going to attend the webinar next week?",
+    "transcript": "They are launching a revolutionary gadget given the high demand.",
     "content": {
       "title": "Construcción de oraciones",
-      "instructions": "Ordena las palabras para formar una pregunta correcta.",
-      "correctSentence": "[[Are|Vas]] [[you|a]] [[going|asistir]] [[to|al]] [[attend|webinar]] [[the|la]] [[webinar|próxima]] [[next|semana]] [[week?|?]].",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[They|Ellos]] [[are|están]] [[launching|lanzando]] [[a|un]] [[revolutionary|revolucionario]] [[gadget|dispositivo]] [[given|dada]] [[the|la]] [[high|alta]] [[demand|demanda]].",
       "words": [
-        "[[Are|Vas]]",
-        "[[you|a]]",
-        "[[going|asistir]]",
-        "[[week?|?]]",
-        "[[next|semana]]",
-        "[[webinar|próxima]]"
+        "[[the|la]]",
+        "[[demand|demanda]]",
+        "[[launching|lanzando]]",
+        "[[a|un]]",
+        "[[high|alta]]",
+        "[[gadget|dispositivo]]",
+        "[[They|Ellos]]",
+        "[[are|están]]",
+        "[[given|dada]]",
+        "[[revolutionary|revolucionario]]"
       ],
-      "explanation": "Uso de 'going to' para preguntar sobre intenciones futuras: Are you going to + verbo?",
+      "explanation": "Presente continuo para decisiones cercanas: Sujeto + am/is/are + verbo-ing.",
       "audio": "audio/b1/unit-5/e44.mp3"
     },
     "id": "b1-u5-e44",
@@ -1171,20 +1186,23 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "The company will not release the new software until next month.",
+    "transcript": "Due to security reasons, I will send the document tomorrow.",
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|La]] [[company|empresa]] [[will|no]] [[not|lanzará]] [[release|el]] [[the|software]] [[new|nuevo]] [[software|hasta]] [[until|el]] [[next|próximo]] [[month.|mes.]]",
+      "correctSentence": "[[Due|Debido]] [[to|a]] [[security|razones]] [[reasons|de]] [[I|seguridad]], [[will|enviaré]] [[the|el]] [[document|documento]] [[tomorrow|mañana]].",
       "words": [
-        "[[will|no]]",
-        "[[new|nuevo]]",
-        "[[month.|mes.]]",
-        "[[until|el]]",
-        "[[release|el]]",
-        "[[software|hasta]]"
+        "[[document|documento]]",
+        "[[to|a]]",
+        "[[tomorrow|mañana]]",
+        "[[the|el]]",
+        "[[reasons|de]]",
+        "[[will|enviaré]]",
+        "[[Due|Debido]]",
+        "[[I|Yo]]",
+        "[[security|razones]]"
       ],
-      "explanation": "Uso de 'will not' para indicar decisiones o eventos futuros negativos: Sujeto + will not + verbo.",
+      "explanation": "Uso de 'will' para acciones futuras después de consideraciones: Sujeto + will + verbo base.",
       "audio": "audio/b1/unit-5/e45.mp3"
     },
     "id": "b1-u5-e45",
@@ -1196,20 +1214,19 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "The company will launch a new product next year.",
+    "transcript": "They are going to launch the new app next week.",
     "content": {
-      "title": "Uso del Futuro con 'Will'",
-      "instructions": "Elige la opción correcta para completar la oración.",
+      "title": "Uso de 'Going to' para planes futuros",
+      "instructions": "Elige la opción correcta para completar la frase.",
       "questions": [
         {
-          "question": "[[The|La]] [[company|empresa]] _______ [[a|un]] [[new|nuevo]] [[product|producto]] [[next|el]] [[year|año]].",
+          "question": "[[They|Ellos]] _______ [[to|a]] [[launch|lanzar]] [[the|la]] [[new|nueva]] [[app|aplicación]] [[next|próxima]] [[week|semana]].",
           "options": [
-            "[[will|va a]]",
-            "[[are|son]]",
-            "[[was|fue]]"
+            "[[are going|van]]",
+            "[[will|lanzarán]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se usa 'will' para hablar de acciones futuras planificadas.",
+          "explanation": "Uso de 'going to' para expresar un plan futuro.",
           "audio": "audio/b1/unit-5/e46.mp3"
         }
       ]
@@ -1223,20 +1240,19 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "They are going to upgrade the software next month.",
+    "transcript": "I will attend the virtual conference tomorrow.",
     "content": {
-      "title": "Futuro con 'Going to'",
-      "instructions": "Elige la opción que completa correctamente la oración.",
+      "title": "Uso de 'Will' para decisiones espontáneas",
+      "instructions": "Selecciona la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[to|a]] [[upgrade|actualizar]] [[the|el]] [[software|software]] [[next|el]] [[month|mes]].",
+          "question": "[[I|Yo]] _______ [[attend|asistiré]] [[the|a]] [[virtual|virtual]] [[conference|conferencia]] [[tomorrow|mañana]].",
           "options": [
-            "[[are going|van a]]",
-            "[[will|irán]]",
-            "[[did|hicieron]]"
+            "[[will|asistiré]]",
+            "[[am|estoy]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se usa 'going to' para planes futuros ya decididos.",
+          "explanation": "Uso de 'will' para decisiones hechas en el momento de hablar.",
           "audio": "audio/b1/unit-5/e47.mp3"
         }
       ]
@@ -1250,20 +1266,19 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "We are meeting with the new clients tomorrow.",
+    "transcript": "She is meeting the new client at 4 PM.",
     "content": {
-      "title": "Presente Continuo para el Futuro",
-      "instructions": "Selecciona la mejor opción para completar la oración.",
+      "title": "Uso del presente continuo para eventos futuros",
+      "instructions": "Selecciona la respuesta correcta para completar la frase.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] _______ [[with|con]] [[the|los]] [[new|nuevos]] [[clients|clientes]] [[tomorrow|mañana]].",
+          "question": "[[She|Ella]] _______ [[meeting|se reunirá]] [[the|con]] [[new|el nuevo]] [[client|cliente]] [[at|a las]] [[4|4]] [[PM|PM]].",
           "options": [
-            "[[are meeting|nos reuniremos]]",
-            "[[meet|nos reunimos]]",
-            "[[met|nos reunimos]]"
+            "[[is|está]]",
+            "[[will|se reunirá]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El presente continuo se usa para eventos planeados en el futuro cercano.",
+          "explanation": "Uso del presente continuo para hablar de eventos organizados en el futuro.",
           "audio": "audio/b1/unit-5/e48.mp3"
         }
       ]
@@ -1277,20 +1292,19 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "Next week, the team is going to present their project.",
+    "transcript": "Are you going to submit the report by Friday?",
     "content": {
-      "title": "Futuro Cercano con 'Going to'",
-      "instructions": "Elige la opción correcta para terminar la oración.",
+      "title": "Uso de 'Going to' para intenciones futuras",
+      "instructions": "Completa la pregunta con la opción correcta.",
       "questions": [
         {
-          "question": "[[Next|La]] [[week|próxima semana]], [[the|el]] [[team|equipo]] _______ [[their|su]] [[project|proyecto]].",
+          "question": "[[Are|Vas]] _______ [[to|a]] [[submit|enviar]] [[the|el]] [[report|informe]] [[by|para]] [[Friday|el viernes]]?",
           "options": [
-            "[[is going|va a]]",
-            "[[was|estuvo]]",
-            "[[will|será]]"
+            "[[going|a ir]]",
+            "[[will|enviarás]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se usa 'going to' para predicciones y planes con intención deliberada.",
+          "explanation": "Uso de 'going to' para hablar de intenciones futuras.",
           "audio": "audio/b1/unit-5/e49.mp3"
         }
       ]
@@ -1304,20 +1318,19 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Technology & The Digital Age",
     "difficulty": "medium",
-    "transcript": "Experts believe that AI will change many industries.",
+    "transcript": "The company will update the software next month.",
     "content": {
-      "title": "Futuro con 'Will'",
-      "instructions": "Completa la oración eligiendo la opción correcta.",
+      "title": "Uso de 'Will' para eventos futuros seguros",
+      "instructions": "Elige la opción adecuada para completar la frase.",
       "questions": [
         {
-          "question": "[[Experts|Expertos]] [[believe|creen]] _______ [[that|que]] [[AI|IA]] _______ [[many|muchas]] [[industries|industrias]].",
+          "question": "[[The|La]] [[company|empresa]] _______ [[update|actualizará]] [[the|el]] [[software|software]] [[next|próximo]] [[month|mes]].",
           "options": [
-            "[[will change|cambiará]]",
-            "[[is changing|está cambiando]]",
-            "[[changed|cambió]]"
+            "[[will|actualizará]]",
+            "[[is going|va]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Usamos 'will' para predicciones basadas en opiniones y expectativas.",
+          "explanation": "Uso de 'will' cuando hablamos de eventos futuros que se consideran seguros.",
           "audio": "audio/b1/unit-5/e50.mp3"
         }
       ]
