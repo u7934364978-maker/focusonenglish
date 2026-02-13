@@ -420,7 +420,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] [[need|necesito]] [[to| ]] [[go|ir]] [[to|a]] [[the|la]] _______ [[store|de comestibles]] [[to|para]] [[buy|comprar]] [[some|algo de]] [[bread|pan]].",
           "options": [
-            "[[grocery|tienda]]"
+            "[[grocery|tienda]]",
+            "[[bakery|panadería]]"
           ],
           "correctAnswer": 0,
           "explanation": "'Grocery store' es el lugar donde se compran alimentos y artículos para el hogar.",
@@ -445,7 +446,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           "question": "[[If|Si]] [[I|yo]] [[were|fuera]] [[rich|rico]], [[I|yo]] _______ [[donate|donaría]] [[money|dinero]] [[to|a]] [[charity|la caridad]].",
           "options": [
-            "[[would| ]]"
+            "[[would| ]]",
+            "[[will| ]]"
           ],
           "correctAnswer": 0,
           "explanation": "Usamos 'would' + infinitivo en la cláusula principal del segundo condicional.",
@@ -470,7 +472,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           "question": "[[There|No]] [[isn't|hay]] _______ [[space|espacio]] [[in|en]] [[my|mi]] [[closet|armario]] [[for|para]] [[more|más]] [[clothes|ropa]].",
           "options": [
-            "[[enough|suficiente]]"
+            "[[enough|suficiente]]",
+            "[[many|mucho]]"
           ],
           "correctAnswer": 0,
           "explanation": "'Enough' se usa para indicar que algo es suficiente o insuficiente en oraciones negativas.",
@@ -495,7 +498,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           "question": "[[If|Si]] [[the|el]] [[price|precio]] [[drops|baja]], [[I|yo]] _______ [[buy|compraré]] [[those|esos]] [[shoes|zapatos]].",
           "options": [
-            "[[will| ]]"
+            "[[will| ]]",
+            "[[would| ]]"
           ],
           "correctAnswer": 0,
           "explanation": "El primer condicional utiliza 'will' para el resultado futuro.",
@@ -520,7 +524,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           "question": "[[Buying|Comprar]] [[local|locales]] [[products|productos]] [[is|es]] _______ [[for|para]] [[the|la]] [[economy|economía]].",
           "options": [
-            "[[better|mejor]]"
+            "[[better|mejor]]",
+            "[[gooder|más bueno]]"
           ],
           "correctAnswer": 0,
           "explanation": "El comparativo irregular de 'good' es 'better'.",
@@ -545,7 +550,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           "question": "[[If|Si]] [[you|tú]] [[buy|compras]] [[online|en línea]], [[you|tú]] _______ [[get|recibirás]] [[a|un]] [[receipt|recibo]] [[by|por]] [[email|correo electrónico]].",
           "options": [
-            "[[will| ]]"
+            "[[will| ]]",
+            "[[would| ]]"
           ],
           "correctAnswer": 0,
           "explanation": "Usamos 'will' para acciones futuras seguras en el primer condicional.",
@@ -570,7 +576,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] [[only|solo]] [[have|tengo]] _______ [[dollars|dólares]] [[left|restantes]] [[in|en]] [[my|mi]] [[wallet|billetera]].",
           "options": [
-            "[[a few|unos pocos]]"
+            "[[a few|unos pocos]]",
+            "[[a little|un poco de]]"
           ],
           "correctAnswer": 0,
           "explanation": "'A few' se usa con sustantivos contables en plural.",
@@ -595,7 +602,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           "question": "[[If|Si]] [[they|ellos]] _______ [[a|un]] [[lower|más bajo]] [[price|precio]], [[I|yo]] [[would|lo compraría]] [[buy| ]] [[it| ]] [[immediately|inmediatamente]].",
           "options": [
-            "[[offered|ofrecieran]]"
+            "[[offered|ofrecieran]]",
+            "[[offer|ofrecen]]"
           ],
           "correctAnswer": 0,
           "explanation": "Usamos el 'past simple' en la cláusula 'if' del segundo condicional.",
@@ -620,7 +628,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           "question": "[[This|Esta]] [[laptop|computadora portátil]] [[is|es]] [[much|mucho]] _______ [[than|que]] [[my|mi]] [[old|vieja]] [[one|unidad]].",
           "options": [
-            "[[faster|más rápida]]"
+            "[[faster|más rápida]]",
+            "[[more fast|más rápida]]"
           ],
           "correctAnswer": 0,
           "explanation": "'Faster' es el comparativo del adjetivo corto 'fast'.",
@@ -645,7 +654,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           "question": "[[We|Nosotros]] [[don't|no]] [[have|tenemos]] _______ [[milk|leche]] [[for|para]] [[the|el]] [[coffee|café]].",
           "options": [
-            "[[enough|suficiente]]"
+            "[[enough|suficiente]]",
+            "[[any|alguna]]"
           ],
           "correctAnswer": 0,
           "explanation": "'Enough' se coloca antes del sustantivo 'milk'.",
@@ -670,7 +680,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           "question": "[[If|Si]] [[you|tú]] [[don't|no]] [[wear|usas]] [[a|un]] [[coat|abrigo]], [[you|tú]] _______ [[feel|sentirás]] [[cold|frío]].",
           "options": [
-            "[[will| ]]"
+            "[[will| ]]",
+            "[[would| ]]"
           ],
           "correctAnswer": 0,
           "explanation": "Usamos 'will' para predecir un resultado en el futuro.",
@@ -695,7 +706,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           "question": "[[The|La]] _______ [[store|tienda por departamentos]] [[is|está]] [[closed|cerrada]] [[on|los]] [[Sundays|domingos]].",
           "options": [
-            "[[department|departamento]]"
+            "[[department|departamento]]",
+            "[[apartment|apartamento]]"
           ],
           "correctAnswer": 0,
           "explanation": "'Department store' es una gran tienda que vende diversos productos.",
@@ -720,7 +732,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           "question": "[[If|Si]] [[she|ella]] [[were|fuera]] [[more|más]] [[careful|cuidadosa]], [[she|ella]] _______ [[lose|perdería]] [[her|sus]] [[keys|llaves]].",
           "options": [
-            "[[wouldn't|no]]"
+            "[[wouldn't|no]]",
+            "[[won't|no]]"
           ],
           "correctAnswer": 0,
           "explanation": "Usamos 'wouldn't' para la forma negativa en la cláusula principal del segundo condicional.",
@@ -745,7 +758,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           "question": "[[This|Este]] [[is|es]] [[the|el]] _______ [[service|servicio]] [[I|yo]] [[have|he]] [[ever|alguna vez]] [[received|recibido]].",
           "options": [
-            "[[best|mejor]]"
+            "[[best|mejor]]",
+            "[[most good|el más bueno]]"
           ],
           "correctAnswer": 0,
           "explanation": "El superlativo irregular de 'good' es 'the best'.",
@@ -770,7 +784,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         {
           "question": "[[There|Hay]] [[is| ]] _______ [[sugar|azúcar]] [[in|en]] [[my|mi]] [[tea|té]].",
           "options": [
-            "[[a little|un poco de]]"
+            "[[a little|un poco de]]",
+            "[[a few|unos pocos]]"
           ],
           "correctAnswer": 0,
           "explanation": "Usamos 'a little' con sustantivos incontables como 'sugar'.",
@@ -1061,11 +1076,11 @@ export const UNIT_10_EXERCISES: Exercise[] = [
             "[[She|Ella]]",
             "[[bought|compró]]",
             "[[a|un]]",
-            "[[very|reloj]]",
-            "[[expensive|muy]]",
-            "[[watch.|caro.]]"
+            "[[very|muy]]",
+            "[[expensive|caro]]",
+            "[[watch.|reloj.]]"
           ],
-          "correctAnswer": [0, 1, 2, 4, 3, 5],
+          "correctAnswer": [0, 1, 2, 3, 4, 5],
           "explanation": "Sujeto + verbo + artículo + adverbio + adjetivo + sustantivo.",
           "audio": "audio/b1/unit-10/e40.mp3"
         }
