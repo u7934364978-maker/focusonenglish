@@ -83,10 +83,9 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           "id": "s1",
           "words": [
-            "Juan",
-            "I",
-            "am",
-            "."
+            "[[Juan|Juan]].",
+            "[[I|Yo]]",
+            "[[am|soy]]"
           ],
           "correctSentence": "[[I|Yo]] [[am|soy]] [[Juan|Juan]].",
           "translation": "Yo soy Juan.",
@@ -268,10 +267,9 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           "id": "s1",
           "words": [
-            "What's",
-            "your",
-            "name",
-            "?"
+            "[[What's|Cual es]]",
+            "[[your|tu]]",
+            "[[name|nombre]]?"
           ],
           "correctSentence": "[[What's|Cual es]] [[your|tu]] [[name|nombre]]?",
           "translation": "¿Cuál es tu nombre?",
@@ -297,9 +295,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           "id": "s1",
           "words": [
-            "afternoon",
-            "Good",
-            "!"
+            "[[Good|Buenas]]",
+            "[[afternoon|tardes]]!"
           ],
           "correctSentence": "[[Good|Buenas]] [[afternoon|tardes]]!",
           "translation": "Buenas tardes.",
@@ -503,11 +500,10 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           "id": "s1",
           "words": [
-            "Maria",
-            "name",
-            "My",
-            "is",
-            "."
+            "[[My|Mi]]",
+            "[[name|nombre]]",
+            "[[is|es]]",
+            "[[Maria|Maria]]."
           ],
           "correctSentence": "[[My|Mi]] [[name|nombre]] [[is|es]] [[Maria|Maria]].",
           "translation": "Mi nombre es Maria.",
@@ -701,10 +697,9 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           "id": "s1",
           "words": [
-            "you",
-            "How",
-            "are",
-            "?"
+            "[[How|Cómo]]",
+            "[[are|estás]]",
+            "[[you|tú]]?"
           ],
           "correctSentence": "[[How|Cómo]] [[are|estás]] [[you|tú]]?",
           "translation": "¿Cómo estás?",
@@ -797,13 +792,13 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           "id": "3",
           "left": "He",
-          "right": "[[is|es/está]]",
+          "right": "[[is|es/está (él)]]",
           "audio": "/audio/course/a1/unit-1/a1-u1-e26-pair2-right-a2a551a6.mp3"
         },
         {
           "id": "4",
           "left": "She",
-          "right": "[[is|es/está]]",
+          "right": "[[is|es/está (ella)]]",
           "audio": "/audio/course/a1/unit-1/a1-u1-e26-pair3-right-a2a551a6.mp3"
         },
         {
@@ -908,9 +903,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           "id": "s1",
           "words": [
-            "night",
-            "Good",
-            "."
+            "[[Good|Buenas]]",
+            "[[night|noches]]."
           ],
           "correctSentence": "[[Good|Buenas]] [[night|noches]].",
           "translation": "Buenas noches (despedida).",
@@ -1126,10 +1120,10 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           "id": "s1",
           "words": [
-            "meet",
-            "to",
-            "you",
-            "Nice"
+            "[[Nice|Encantado]]",
+            "[[to|de]]",
+            "[[meet|conocer]]",
+            "[[you|te]]."
           ],
           "correctSentence": "[[Nice|Encantado]] [[to|de]] [[meet|conocer]] [[you|te]].",
           "translation": "Encantado de conocerte.",
@@ -1311,10 +1305,10 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           "id": "s1",
           "words": [
-            "Have",
-            "a",
-            "nice",
-            "day"
+            "[[Have|Tenga]]",
+            "[[a|un]]",
+            "[[nice|buen]]",
+            "[[day|día]]!"
           ],
           "correctSentence": "[[Have|Tenga]] [[a|un]] [[nice|buen]] [[day|día]]!",
           "translation": "¡Tenga un buen día!",
@@ -1340,10 +1334,10 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           "id": "s1",
           "words": [
-            "not",
-            "Juan",
-            "am",
-            "I"
+            "[[I|Yo]]",
+            "[[am|soy]]",
+            "[[not|no]]",
+            "[[Juan|Juan]]."
           ],
           "correctSentence": "[[I|Yo]] [[am|soy]] [[not|no]] [[Juan|Juan]].",
           "translation": "Yo no soy Juan.",
