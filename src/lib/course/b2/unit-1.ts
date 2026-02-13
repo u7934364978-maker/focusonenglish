@@ -1011,7 +1011,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Choose the phrasal verb for updating each other.",
       "questions": [
         {
-          "question": "[[We|Necesitamos]] [[need|_______]] [[to|todas]] [[catch|las]] [[up|noticias]] [[on|desde]] [[all|la]] [[the|última vez]] [[news|que nos]] [[since|vimos.]] [[we| ]] [[last| ]] [[met.| ]]",
+          "question": "[[We|Necesitamos]] [[need|_______]] [[to|todas]] [[all|las]] [[the|noticias]] [[news|desde]] [[since|la]] [[we|última vez]] [[last|que nos]] [[met.|vimos.]]",
           "options": [
             "[[catch up|ponernos al día]]",
             "[[put up|aguantar]]",
