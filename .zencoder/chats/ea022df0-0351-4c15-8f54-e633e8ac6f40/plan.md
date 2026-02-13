@@ -55,7 +55,12 @@
 2. [x] Generate 50 exercises for `src/lib/course/b1/unit-21.ts`.
 3. [x] Verify implementation in browser at `/debug/b1-preview/unit-21`.
 
-### [ ] Step: Implementation Unit 22
-1. [ ] Define requirements for Unit 22 (Science & Technology, 50 exercises, complex structure).
-2. [ ] Generate 50 exercises for `src/lib/course/b1/unit-22.ts`.
-3. [ ] Verify implementation in browser at `/debug/b1-preview/unit-22`.
+### [x] Step: Implementation Unit 22
+1. [x] Define requirements for Unit 22 (Science & Technology, 50 exercises, complex structure, sentence-building > 8 words).
+2. [x] Generate 50 exercises for `src/lib/course/b1/unit-22.ts`.
+3. [x] Verify implementation in browser at `/debug/b1-preview/unit-22`.
+
+### [ ] Step: Implementation Unit 23
+1. [ ] Define requirements for Unit 23 (The Future & Space Exploration, 50 exercises, complex structure, sentence-building > 8 words).
+2. [ ] Generate 50 exercises for `src/lib/course/b1/unit-23.ts`.
+3. [ ] Verify implementation in browser at `/debug/b1-preview/unit-23`.
