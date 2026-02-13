@@ -752,7 +752,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal para expresar arrepentimiento sobre el pasado.",
       "questions": [
         {
-          "question": "[[I|Ojalá]] [[wish| ]] [[I|_______]] [[studied|estudiado]] [[harder|más]] [[for|para]] [[the|el]] [[entrance|examen]] [[exam.|de ingreso.]]",
+          "question": "[[I|Ojalá]] [[wish| ]] [[I|yo]] _______ [[studied|estudiado]] [[harder|más]] [[for|para]] [[the|el]] [[entrance|examen]] [[exam.|de ingreso.]]",
           "options": [
             "[[had|hubiera]]",
             "[[have|he]]",
@@ -833,7 +833,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo correcto para 'lograr algo difícil'.",
       "questions": [
         {
-          "question": "[[Despite|A pesar]] [[being|de]] [[tired,|estar cansada,]] [[she|_______]] [[to|logró]] [[complete|completar]] [[the|la]] [[assignment.|tarea.]]",
+          "question": "[[Despite|A pesar]] [[being|de]] [[tired,|estar cansada,]] [[she|ella]] _______ [[to|logró]] [[complete|completar]] [[the|la]] [[assignment.|tarea.]]",
           "options": [
             "[[managed|logró]]",
             "[[succeeded|tuvo éxito]]",
@@ -860,7 +860,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para los comentarios del profesor.",
       "questions": [
         {
-          "question": "[[The|El]] [[teacher|profesor]] [[provided|nos]] [[us|dio]] [[with| ]] [[some| ]] [[useful|_______]] [[on|sobre]] [[our|nuestros]] [[essays.|ensayos.]]",
+          "question": "[[The|El]] [[teacher|profesor]] [[provided|nos]] [[us|dio]] [[with| ]] [[some| ]] [[useful|útiles]] _______ [[on|sobre]] [[our|nuestros]] [[essays.|ensayos.]]",
           "options": [
             "[[feedback|comentarios/retroalimentación]]",
             "[[feedbag|bolsa de comida]]",
@@ -914,7 +914,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo para actividades fuera del horario escolar.",
       "questions": [
         {
-          "question": "[[It|Es]] [[is|esencial]] [[essential|participar]] [[to|en]] [[take|actividades]] [[part|_______]] [[in| ]] [[extracurricular| ]] [[activities.| ]]",
+          "question": "[[It|Es]] [[is|es]] [[essential|esencial]] [[to| ]] [[take|participar]] [[part|en]] [[in| ]] _______ [[activities.|actividades.]]",
           "options": [
             "[[extracurricular|extraescolares]]",
             "[[extraordinary|extraordinarias]]",
@@ -941,7 +941,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta después de 'I'd rather'.",
       "questions": [
         {
-          "question": "[[I'd|Prefiero]] [[rather|_______]] [[study|estudiar]] [[in|en]] [[the|la]] [[library|biblioteca]] [[than|que]] [[at|en]] [[home.|casa.]]",
+          "question": "[[I'd|Prefiero]] [[rather| ]] _______ [[in|en]] [[the|la]] [[library|biblioteca]] [[than|que]] [[at|en]] [[home.|casa.]]",
           "options": [
             "[[study|estudiar]]",
             "[[to study|estudiar]]",
@@ -1103,7 +1103,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta para el subjuntivo (formal).",
       "questions": [
         {
-          "question": "[[I|Sugiero]] [[suggest|que]] [[that|él]] [[he|_______]] [[take|se tome]] [[a|un]] [[gap|año]] [[year|sabático]] [[before|antes de]] [[starting|empezar la]] [[university.|universidad.]]",
+          "question": "[[I|Sugiero]] [[suggest|que]] [[that|él]] [[he|él]] _______ [[a|un]] [[gap|año]] [[year|sabático]] [[before|antes de]] [[starting|empezar la]] [[university.|universidad.]]",
           "options": [
             "[[take|tome]]",
             "[[takes|toma]]",
@@ -1238,7 +1238,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la organización estudiantil.",
       "questions": [
         {
-          "question": "[[The|El]] [[student|_______]] [[union|estudiantil]] [[represents|representa]] [[the|los]] [[interests|intereses]] [[of|de]] [[all|todos los]] [[students.|estudiantes.]]",
+          "question": "[[The|La]] [[student|estudiantil]] _______ [[represents|representa]] [[the|los]] [[interests|intereses]] [[of|de]] [[all|todos los]] [[students.|estudiantes.]]",
           "options": [
             "[[union|sindicato/unión]]",
             "[[unit|unidad]]",

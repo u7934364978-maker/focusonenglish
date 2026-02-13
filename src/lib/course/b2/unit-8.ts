@@ -748,7 +748,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta tras 'looking forward to'.",
       "questions": [
         {
-          "question": "[[I|Tengo]] [[am|muchas]] [[looking|ganas]] [[forward|de]] [[to|_______]] [[the|la]] [[new|nueva]] [[play|obra]] [[at|en]] [[the|el]] [[theater.|teatro.]]",
+          "question": "[[I|Tengo]] [[am|muchas]] [[looking|ganas]] [[forward|de]] [[to| ]] _______ [[the|la]] [[new|nueva]] [[play|obra]] [[at|en]] [[the|el]] [[theater.|teatro.]]",
           "options": [
             "[[seeing|ver]]",
             "[[see|ver]]",
@@ -802,7 +802,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal para arrepentimiento pasado.",
       "questions": [
         {
-          "question": "[[I|Ojalá]] [[wish|no]] [[I|_______]] [[missed|me hubiera perdido]] [[the|la]] [[live|actuación]] [[performance|en vivo]] [[last|anoche.]] [[night.| ]]",
+          "question": "[[I|Ojalá]] [[wish| ]] [[I|yo]] _______ [[missed|me hubiera perdido]] [[the|la]] [[live|actuación]] [[performance|en vivo]] [[last|anoche.]] [[night.| ]]",
           "options": [
             "[[hadn't|hubiera]]",
             "[[haven't|he]]",
@@ -856,7 +856,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige el phrasal verb para bajar el volumen.",
       "questions": [
         {
-          "question": "[[Would|¿Te]] [[you|importaría]] [[mind|_______]] [[the|el]] [[volume?|volumen?]]",
+          "question": "[[Would|¿Te]] [[you|importaría]] [[mind| ]] _______ [[the|el]] [[volume?|volumen?]]",
           "options": [
             "[[turning down|bajar]]",
             "[[turning up|subir]]",
@@ -883,7 +883,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra para las personas que ven un programa.",
       "questions": [
         {
-          "question": "[[The|El]] [[show|programa]] [[was|fue]] [[canceled|cancelado]] [[because|porque]] [[it|no]] [[didn't|tuvo]] [[get|suficientes]] [[enough|_______]].",
+          "question": "[[The|El]] [[show|programa]] [[was|fue]] [[canceled|cancelado]] [[because|porque]] [[it|no]] [[didn't|tuvo]] [[get|suficientes]] [[enough| ]] _______.",
           "options": [
             "[[viewers|espectadores]]",
             "[[voyageurs|viajeros]]",
@@ -1045,7 +1045,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige la expresión que significa 'de una sola vez'.",
       "questions": [
         {
-          "question": "[[The|El]] [[book|libro]] [[was|era]] [[so|tan]] [[captivating|cautivador]] [[that|que]] [[I|lo]] [[read|leí]] [[it|en]] [[in|_______]].",
+          "question": "[[The|El]] [[book|libro]] [[was|era]] [[so|tan]] [[captivating|cautivador]] [[that|que]] [[I|lo]] [[read|leí]] [[it|en]] [[in| ]] _______.",
           "options": [
             "[[one sitting|un tirón]]",
             "[[one standing|pie]]",
@@ -1126,7 +1126,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma de inversión correcta.",
       "questions": [
         {
-          "question": "[[No|Apenas]] [[sooner|_______]] [[he|hubo]] [[stepped|entrado]] [[on|en]] [[stage|el escenario]] [[than|cuando]] [[the|la]] [[crowd|multitud]] [[went|se]] [[wild.|volvió loca.]]",
+          "question": "[[No|Apenas]] [[sooner| ]] _______ [[he|hubo]] [[stepped|entrado]] [[on|en]] [[stage|el escenario]] [[than|cuando]] [[the|la]] [[crowd|multitud]] [[went|se]] [[wild.|volvió loca.]]",
           "options": [
             "[[had|hubo]]",
             "[[did|hizo]]",
@@ -1207,7 +1207,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra que describe un fallo pequeño y repentino.",
       "questions": [
         {
-          "question": "[[The|La]] [[broadcast|transmisión]] [[was|fue]] [[delayed|retrasada]] [[due|debido]] [[to|a]] [[a|un]] [[technical|_______]].",
+          "question": "[[The|La]] [[broadcast|transmisión]] [[was|fue]] [[delayed|retrasada]] [[due|debido]] [[to|a]] [[a|un]] [[technical|técnico]] _______.",
           "options": [
             "[[glitch|fallo]]",
             "[[growth|crecimiento]]",
