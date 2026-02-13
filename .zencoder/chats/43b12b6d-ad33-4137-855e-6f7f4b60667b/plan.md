@@ -14,7 +14,7 @@
 - [x] Unit 6: Work and Careers
 - [x] Unit 7: Education and Learning (Fixed Gaps & Translations)
 - [x] Unit 8: Media and Entertainment (Fixed Gaps & Translations)
-- [ ] Unit 9: Crime and Punishment
+- [x] Unit 9: Crime and Punishment
 - [ ] Unit 10: Money and Finance
 - [ ] Unit 11: Arts and Culture
 - [ ] Unit 12: Science and Nature
