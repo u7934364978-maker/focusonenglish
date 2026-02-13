@@ -11,7 +11,7 @@
 - [x] Unit 3: Environmental Issues (Fixed)
 - [x] Unit 4: Health and Well-being
 - [x] Unit 5: Travel and Tourism
-- [ ] Unit 6: Work and Careers (Pending)
+- [x] Unit 6: Work and Careers
 - [ ] Unit 7: Education and Learning
 - [ ] Unit 8: Media and Entertainment
 - [ ] Unit 9: Crime and Punishment

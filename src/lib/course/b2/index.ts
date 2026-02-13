@@ -3,6 +3,7 @@ import { UNIT_2_EXERCISES } from './unit-2';
 import { UNIT_3_EXERCISES } from './unit-3';
 import { UNIT_4_EXERCISES } from './unit-4';
 import { UNIT_5_EXERCISES } from './unit-5';
+import { UNIT_6_EXERCISES } from './unit-6';
 
 export const B2_COURSE = {
   units: [
@@ -11,5 +12,6 @@ export const B2_COURSE = {
     { id: 3, title: 'Environmental Issues', exercises: UNIT_3_EXERCISES },
     { id: 4, title: 'Health and Well-being', exercises: UNIT_4_EXERCISES },
     { id: 5, title: 'Travel and Tourism', exercises: UNIT_5_EXERCISES },
+    { id: 6, title: 'Work and Careers', exercises: UNIT_6_EXERCISES },
   ]
 };
