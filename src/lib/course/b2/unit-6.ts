@@ -1,6 +1,6 @@
-import { Exercise } from '@/lib/types';
+import { Exercise } from "@/types/course";
 
-export const UNIT_6_EXERCISES: Exercise[] = [
+export const unit6: Exercise[] = [
   {
     "id": "b2-u6-e1",
     "type": "sentence-building",
@@ -11,14 +11,21 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Experiencia laboral",
       "instructions": "Ordena las palabras para decir cuánto tiempo llevas trabajando en la empresa.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] [[have|he]] [[been|estado]] [[working|trabajando]] [[for|para]] [[this|esta]] [[company|empresa]] [[for|por]] [[five|cinco]] [[years.|años.]]",
-          "correctAnswer": "I have been working for this company for five years.",
-          "explanation": "El presente perfecto continuo se usa para acciones que empezaron en el pasado y continúan.",
-          "audio": "audio/b2/unit-6/e1.mp3"
-        }
-      ]
+      "correctSentence": "[[I|Yo]] [[have|he]] [[been|estado]] [[working|trabajando]] [[for|para]] [[this|esta]] [[company|empresa]] [[for|por]] [[five|cinco]] [[years.|años.]]",
+      "words": [
+        "[[I|Yo]]",
+        "[[have|he]]",
+        "[[been|estado]]",
+        "[[working|trabajando]]",
+        "[[for|para]]",
+        "[[this|esta]]",
+        "[[company|empresa]]",
+        "[[for|por]]",
+        "[[five|cinco]]",
+        "[[years.|años.]]"
+      ],
+      "explanation": "El presente perfecto continuo se usa para acciones que empezaron en el pasado y continúan.",
+      "audio": "audio/b2/unit-6/e1.mp3"
     },
     "audioUrl": "audio/b2/unit-6/e1.mp3",
     "topicName": "Grammar"
@@ -33,14 +40,20 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Sucesión de eventos",
       "instructions": "Ordena las palabras para indicar que ella ya se había ido.",
-      "questions": [
-        {
-          "question": "[[She|Ella]] [[had|ya]] [[already|se]] [[left|había]] [[the|ido]] [[office|de la]] [[when|oficina]] [[I|cuando]] [[arrived.|llegué.]]",
-          "correctAnswer": "She had already left the office when I arrived.",
-          "explanation": "El pasado perfecto se usa para una acción anterior a otra en el pasado.",
-          "audio": "audio/b2/unit-6/e2.mp3"
-        }
-      ]
+      "correctSentence": "[[She|Ella]] [[had|ya]] [[already|se]] [[left|había]] [[the|ido]] [[office|de la]] [[when|oficina]] [[I|cuando]] [[arrived.|llegué.]]",
+      "words": [
+        "[[She|Ella]]",
+        "[[had|ya]]",
+        "[[already|se]]",
+        "[[left|había]]",
+        "[[the|ido]]",
+        "[[office|de la]]",
+        "[[when|oficina]]",
+        "[[I|cuando]]",
+        "[[arrived.|llegué.]]"
+      ],
+      "explanation": "El pasado perfecto se usa para una acción anterior a otra en el pasado.",
+      "audio": "audio/b2/unit-6/e2.mp3"
     },
     "audioUrl": "audio/b2/unit-6/e2.mp3",
     "topicName": "Grammar"
@@ -55,14 +68,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Hábitos pasados",
       "instructions": "Ordena las palabras para hablar de un antiguo hábito de transporte al trabajo.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] [[used|solía]] [[to|viajar]] [[commute|al]] [[to|trabajo]] [[London|en Londres]] [[every|todos los]] [[day.|días.]]",
-          "correctAnswer": "I used to commute to London every day.",
-          "explanation": "'Used to' describe hábitos o estados que ya no ocurren.",
-          "audio": "audio/b2/unit-6/e3.mp3"
-        }
-      ]
+      "correctSentence": "[[I|Yo]] [[used|solía]] [[to|viajar]] [[commute|al]] [[to|trabajo]] [[London|en Londres]] [[every|todos los]] [[day.|días.]]",
+      "words": [
+        "[[I|Yo]]",
+        "[[used|solía]]",
+        "[[to|viajar]]",
+        "[[commute|al]]",
+        "[[to|trabajo]]",
+        "[[London|en Londres]]",
+        "[[every|todos los]]",
+        "[[day.|días.]]"
+      ],
+      "explanation": "'Used to' describe hábitos o estados que ya no ocurren.",
+      "audio": "audio/b2/unit-6/e3.mp3"
     },
     "audioUrl": "audio/b2/unit-6/e3.mp3",
     "topicName": "Grammar"
@@ -77,14 +95,21 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Planes futuros",
       "instructions": "Ordena las palabras para describir una acción que estará ocurriendo en el futuro.",
-      "questions": [
-        {
-          "question": "[[They|Ellos]] [[will|estarán]] [[be|celebrando]] [[holding|la]] [[the|reunión]] [[annual|anual]] [[meeting|a las]] [[at|diez]] [[ten|en]] [[o'clock.|punto.]]",
-          "correctAnswer": "They will be holding the annual meeting at ten o'clock.",
-          "explanation": "El futuro continuo se usa para acciones en progreso en un momento específico del futuro.",
-          "audio": "audio/b2/unit-6/e4.mp3"
-        }
-      ]
+      "correctSentence": "[[They|Ellos]] [[will|estarán]] [[be|celebrando]] [[holding|la]] [[the|reunión]] [[annual|anual]] [[meeting|a las]] [[at|diez]] [[ten|en]] [[o'clock.|punto.]]",
+      "words": [
+        "[[They|Ellos]]",
+        "[[will|estarán]]",
+        "[[be|celebrando]]",
+        "[[holding|la]]",
+        "[[the|reunión]]",
+        "[[annual|anual]]",
+        "[[meeting|a las]]",
+        "[[at|diez]]",
+        "[[ten|en]]",
+        "[[o'clock.|punto.]]"
+      ],
+      "explanation": "El futuro continuo se usa para acciones en progreso en un momento específico del futuro.",
+      "audio": "audio/b2/unit-6/e4.mp3"
     },
     "audioUrl": "audio/b2/unit-6/e4.mp3",
     "topicName": "Grammar"
@@ -99,14 +124,21 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Estilo indirecto",
       "instructions": "Ordena las palabras para reportar lo que dijo el gerente.",
-      "questions": [
-        {
-          "question": "[[The|El]] [[manager|gerente]] [[told|nos]] [[us|dijo]] [[that|que]] [[the|el]] [[project|proyecto]] [[was|fue]] [[a|un]] [[success.|éxito.]]",
-          "correctAnswer": "The manager told us that the project was a success.",
-          "explanation": "En el estilo indirecto, los tiempos verbales suelen retroceder un paso al pasado.",
-          "audio": "audio/b2/unit-6/e5.mp3"
-        }
-      ]
+      "correctSentence": "[[The|El]] [[manager|gerente]] [[told|nos]] [[us|dijo]] [[that|que]] [[the|el]] [[project|proyecto]] [[was|fue]] [[a|un]] [[success.|éxito.]]",
+      "words": [
+        "[[The|El]]",
+        "[[manager|gerente]]",
+        "[[told|nos]]",
+        "[[us|dijo]]",
+        "[[that|que]]",
+        "[[the|el]]",
+        "[[project|proyecto]]",
+        "[[was|fue]]",
+        "[[a|un]]",
+        "[[success.|éxito.]]"
+      ],
+      "explanation": "En el estilo indirecto, los tiempos verbales suelen retroceder un paso al pasado.",
+      "audio": "audio/b2/unit-6/e5.mp3"
     },
     "audioUrl": "audio/b2/unit-6/e5.mp3",
     "topicName": "Grammar"
@@ -121,14 +153,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Responsabilidades",
       "instructions": "Ordena las palabras para describir tu puesto.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] [[am|soy]] [[responsible|responsable]] [[for|de]] [[managing|gestionar]] [[the|al]] [[sales|equipo de]] [[team.|ventas.]]",
-          "correctAnswer": "I am responsible for managing the sales team.",
-          "explanation": "Después de la preposición 'for' usamos el gerundio (-ing).",
-          "audio": "audio/b2/unit-6/e6.mp3"
-        }
-      ]
+      "correctSentence": "[[I|Yo]] [[am|soy]] [[responsible|responsable]] [[for|de]] [[managing|gestionar]] [[the|al]] [[sales|equipo de]] [[team.|ventas.]]",
+      "words": [
+        "[[I|Yo]]",
+        "[[am|soy]]",
+        "[[responsible|responsable]]",
+        "[[for|de]]",
+        "[[managing|gestionar]]",
+        "[[the|al]]",
+        "[[sales|equipo de]]",
+        "[[team.|ventas.]]"
+      ],
+      "explanation": "Después de la preposición 'for' usamos el gerundio (-ing).",
+      "audio": "audio/b2/unit-6/e6.mp3"
     },
     "audioUrl": "audio/b2/unit-6/e6.mp3",
     "topicName": "Vocabulary"
@@ -143,14 +180,20 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Hábitos pasados con 'would'",
       "instructions": "Ordena las palabras para hablar de algo que él solía hacer.",
-      "questions": [
-        {
-          "question": "[[He|Él]] [[would|siempre]] [[always|se]] [[stay|quedaba]] [[late|hasta tarde]] [[to|para]] [[finish|terminar]] [[his|sus]] [[reports.|informes.]]",
-          "correctAnswer": "He would always stay late to finish his reports.",
-          "explanation": "'Would' se usa para describir acciones repetidas en el pasado.",
-          "audio": "audio/b2/unit-6/e7.mp3"
-        }
-      ]
+      "correctSentence": "[[He|Él]] [[would|siempre]] [[always|se]] [[stay|quedaba]] [[late|hasta tarde]] [[to|para]] [[finish|terminar]] [[his|sus]] [[reports.|informes.]]",
+      "words": [
+        "[[He|Él]]",
+        "[[would|siempre]]",
+        "[[always|se]]",
+        "[[stay|quedaba]]",
+        "[[late|hasta tarde]]",
+        "[[to|para]]",
+        "[[finish|terminar]]",
+        "[[his|sus]]",
+        "[[reports.|informes.]]"
+      ],
+      "explanation": "'Would' se usa para describir acciones repetidas en el pasado.",
+      "audio": "audio/b2/unit-6/e7.mp3"
     },
     "audioUrl": "audio/b2/unit-6/e7.mp3",
     "topicName": "Grammar"
@@ -165,14 +208,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Plazo de entrega",
       "instructions": "Ordena las palabras para indicar la fecha límite.",
-      "questions": [
-        {
-          "question": "[[The|La]] [[deadline|fecha límite]] [[for|para]] [[the|la]] [[application|solicitud]] [[is|es]] [[next|el próximo]] [[Friday.|viernes.]]",
-          "correctAnswer": "The deadline for the application is next Friday.",
-          "explanation": "'Deadline' es el plazo o fecha límite para completar una tarea.",
-          "audio": "audio/b2/unit-6/e8.mp3"
-        }
-      ]
+      "correctSentence": "[[The|La]] [[deadline|fecha límite]] [[for|para]] [[the|la]] [[application|solicitud]] [[is|es]] [[next|el próximo]] [[Friday.|viernes.]]",
+      "words": [
+        "[[The|La]]",
+        "[[deadline|fecha límite]]",
+        "[[for|para]]",
+        "[[the|la]]",
+        "[[application|solicitud]]",
+        "[[is|es]]",
+        "[[next|el próximo]]",
+        "[[Friday.|viernes.]]"
+      ],
+      "explanation": "'Deadline' es el plazo o fecha límite para completar una tarea.",
+      "audio": "audio/b2/unit-6/e8.mp3"
     },
     "audioUrl": "audio/b2/unit-6/e8.mp3",
     "topicName": "Vocabulary"
@@ -187,14 +235,20 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Cierre de correos",
       "instructions": "Ordena las palabras para una despedida formal.",
-      "questions": [
-        {
-          "question": "[[I|Quedo]] [[am|a la]] [[looking|espera]] [[forward|de]] [[to|tener]] [[hearing|noticias]] [[from|suyas]] [[you|pronto.]] [[soon.| ]]",
-          "correctAnswer": "I am looking forward to hearing from you soon.",
-          "explanation": "'Look forward to' va seguido de un verbo en -ing.",
-          "audio": "audio/b2/unit-6/e9.mp3"
-        }
-      ]
+      "correctSentence": "[[I|Quedo]] [[am|a la]] [[looking|espera]] [[forward|de]] [[to|tener]] [[hearing|noticias]] [[from|suyas]] [[you|pronto.]] [[soon.| ]]",
+      "words": [
+        "[[I|Quedo]]",
+        "[[am|a la]]",
+        "[[looking|espera]]",
+        "[[forward|de]]",
+        "[[to|tener]]",
+        "[[hearing|noticias]]",
+        "[[from|suyas]]",
+        "[[you|pronto.]]",
+        "[[soon.| ]]"
+      ],
+      "explanation": "'Look forward to' va seguido de un verbo en -ing.",
+      "audio": "audio/b2/unit-6/e9.mp3"
     },
     "audioUrl": "audio/b2/unit-6/e9.mp3",
     "topicName": "Vocabulary"
@@ -209,14 +263,22 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Futuro perfecto",
       "instructions": "Ordena las palabras para hablar de un hito futuro.",
-      "questions": [
-        {
-          "question": "[[By|Para]] [[next|el año]] [[year,|que viene,]] [[she|ella]] [[will|habrá]] [[have|trabajado]] [[worked|aquí]] [[here|por]] [[for|una]] [[a|década.]] [[decade.| ]]",
-          "correctAnswer": "By next year, she will have worked here for a decade.",
-          "explanation": "El futuro perfecto describe una acción que estará completada en el futuro.",
-          "audio": "audio/b2/unit-6/e10.mp3"
-        }
-      ]
+      "correctSentence": "[[By|Para]] [[next|el año]] [[year,|que viene,]] [[she|ella]] [[will|habrá]] [[have|trabajado]] [[worked|aquí]] [[here|por]] [[for|una]] [[a|década.]] [[decade.| ]]",
+      "words": [
+        "[[By|Para]]",
+        "[[next|el año]]",
+        "[[year,|que viene,]]",
+        "[[she|ella]]",
+        "[[will|habrá]]",
+        "[[have|trabajado]]",
+        "[[worked|aquí]]",
+        "[[here|por]]",
+        "[[for|una]]",
+        "[[a|década.]]",
+        "[[decade.| ]]"
+      ],
+      "explanation": "El futuro perfecto describe una acción que estará completada en el futuro.",
+      "audio": "audio/b2/unit-6/e10.mp3"
     },
     "audioUrl": "audio/b2/unit-6/e10.mp3",
     "topicName": "Grammar"
@@ -231,14 +293,20 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mejorar habilidades",
       "instructions": "Ordena las palabras para decir que necesitas repasar algo.",
-      "questions": [
-        {
-          "question": "[[I|Necesito]] [[need|repasar]] [[to|mis]] [[brush|habilidades]] [[up|de]] [[on|presentación.]] [[my| ]] [[presentation| ]] [[skills.| ]]",
-          "correctAnswer": "I need to brush up on my presentation skills.",
-          "explanation": "'Brush up on' significa refrescar o mejorar conocimientos olvidados.",
-          "audio": "audio/b2/unit-6/e11.mp3"
-        }
-      ]
+      "correctSentence": "[[I|Necesito]] [[need|repasar]] [[to|mis]] [[brush|habilidades]] [[up|de]] [[on|presentación.]] [[my| ]] [[presentation| ]] [[skills.| ]]",
+      "words": [
+        "[[I|Necesito]]",
+        "[[need|repasar]]",
+        "[[to|mis]]",
+        "[[brush|habilidades]]",
+        "[[up|de]]",
+        "[[on|presentación.]]",
+        "[[my| ]]",
+        "[[presentation| ]]",
+        "[[skills.| ]]"
+      ],
+      "explanation": "'Brush up on' significa refrescar o mejorar conocimientos olvidados.",
+      "audio": "audio/b2/unit-6/e11.mp3"
     },
     "audioUrl": "audio/b2/unit-6/e11.mp3",
     "topicName": "Vocabulary"
@@ -253,14 +321,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Beneficios laborales",
       "instructions": "Ordena las palabras para hablar de las ventajas de la empresa.",
-      "questions": [
-        {
-          "question": "[[The|La]] [[company|empresa]] [[provides|proporciona]] [[many|muchos]] [[benefits|beneficios]] [[to|a]] [[its|sus]] [[employees.|empleados.]]",
-          "correctAnswer": "The company provides many benefits to its employees.",
-          "explanation": "'Benefits' en contexto laboral se refiere a ventajas extra como seguro médico.",
-          "audio": "audio/b2/unit-6/e12.mp3"
-        }
-      ]
+      "correctSentence": "[[The|La]] [[company|empresa]] [[provides|proporciona]] [[many|muchos]] [[benefits|beneficios]] [[to|a]] [[its|sus]] [[employees.|empleados.]]",
+      "words": [
+        "[[The|La]]",
+        "[[company|empresa]]",
+        "[[provides|proporciona]]",
+        "[[many|muchos]]",
+        "[[benefits|beneficios]]",
+        "[[to|a]]",
+        "[[its|sus]]",
+        "[[employees.|empleados.]]"
+      ],
+      "explanation": "'Benefits' en contexto laboral se refiere a ventajas extra como seguro médico.",
+      "audio": "audio/b2/unit-6/e12.mp3"
     },
     "audioUrl": "audio/b2/unit-6/e12.mp3",
     "topicName": "Vocabulary"
@@ -275,14 +348,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Acciones continuas pasadas",
       "instructions": "Ordena las palabras para hablar de una reunión larga.",
-      "questions": [
-        {
-          "question": "[[We|Habíamos]] [[had|estado]] [[been|debatiendo]] [[discussing|el]] [[the|presupuesto]] [[budget|durante]] [[for|horas.]] [[hours.| ]]",
-          "correctAnswer": "We had been discussing the budget for hours.",
-          "explanation": "El pasado perfecto continuo enfatiza la duración de una acción antes de otra.",
-          "audio": "audio/b2/unit-6/e13.mp3"
-        }
-      ]
+      "correctSentence": "[[We|Habíamos]] [[had|estado]] [[been|debatiendo]] [[discussing|el]] [[the|presupuesto]] [[budget|durante]] [[for|horas.]] [[hours.| ]]",
+      "words": [
+        "[[We|Habíamos]]",
+        "[[had|estado]]",
+        "[[been|debatiendo]]",
+        "[[discussing|el]]",
+        "[[the|presupuesto]]",
+        "[[budget|durante]]",
+        "[[for|horas.]]",
+        "[[hours.| ]]"
+      ],
+      "explanation": "El pasado perfecto continuo enfatiza la duración de una acción antes de otra.",
+      "audio": "audio/b2/unit-6/e13.mp3"
     },
     "audioUrl": "audio/b2/unit-6/e13.mp3",
     "topicName": "Grammar"
@@ -297,14 +375,22 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Preguntas indirectas",
       "instructions": "Ordena las palabras para reportar una petición.",
-      "questions": [
-        {
-          "question": "[[She|Ella]] [[asked|me]] [[me|preguntó]] [[if|si]] [[I|podía]] [[could|ayudarla]] [[help|con]] [[her|el]] [[with|informe.]] [[the| ]] [[report.| ]]",
-          "correctAnswer": "She asked me if I could help her with the report.",
-          "explanation": "Usamos 'if' para reportar preguntas de sí o no.",
-          "audio": "audio/b2/unit-6/e14.mp3"
-        }
-      ]
+      "correctSentence": "[[She|Ella]] [[asked|me]] [[me|preguntó]] [[if|si]] [[I|podía]] [[could|ayudarla]] [[help|con]] [[her|el]] [[with|informe.]] [[the| ]] [[report.| ]]",
+      "words": [
+        "[[She|Ella]]",
+        "[[asked|me]]",
+        "[[me|preguntó]]",
+        "[[if|si]]",
+        "[[I|podía]]",
+        "[[could|ayudarla]]",
+        "[[help|con]]",
+        "[[her|el]]",
+        "[[with|informe.]]",
+        "[[the| ]]",
+        "[[report.| ]]"
+      ],
+      "explanation": "Usamos 'if' para reportar preguntas de sí o no.",
+      "audio": "audio/b2/unit-6/e14.mp3"
     },
     "audioUrl": "audio/b2/unit-6/e14.mp3",
     "topicName": "Grammar"
@@ -319,14 +405,18 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Orgullo profesional",
       "instructions": "Ordena las palabras para aconsejar a alguien valorar su trabajo.",
-      "questions": [
-        {
-          "question": "[[You|Deberías]] [[should|sentirte]] [[take|orgulloso]] [[pride|de]] [[in|tu]] [[your|trabajo.]] [[work.| ]]",
-          "correctAnswer": "You should take pride in your work.",
-          "explanation": "'Take pride in' significa sentirse satisfecho u orgulloso de algo.",
-          "audio": "audio/b2/unit-6/e15.mp3"
-        }
-      ]
+      "correctSentence": "[[You|Deberías]] [[should|sentirte]] [[take|orgulloso]] [[pride|de]] [[in|tu]] [[your|trabajo.]] [[work.| ]]",
+      "words": [
+        "[[You|Deberías]]",
+        "[[should|sentirte]]",
+        "[[take|orgulloso]]",
+        "[[pride|de]]",
+        "[[in|tu]]",
+        "[[your|trabajo.]]",
+        "[[work.| ]]"
+      ],
+      "explanation": "'Take pride in' significa sentirse satisfecho u orgulloso de algo.",
+      "audio": "audio/b2/unit-6/e15.mp3"
     },
     "audioUrl": "audio/b2/unit-6/e15.mp3",
     "topicName": "Vocabulary"
@@ -341,14 +431,20 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "La entrevista",
       "instructions": "Ordena las palabras para indicar el lugar de la entrevista.",
-      "questions": [
-        {
-          "question": "[[The|La]] [[interview|entrevista]] [[will|se]] [[be|llevará]] [[held|a cabo]] [[in|en la]] [[meeting|sala]] [[room|de reuniones]] [[B.|B.]]",
-          "correctAnswer": "The interview will be held in meeting room B.",
-          "explanation": "'Hold a meeting/interview' es una colocación común.",
-          "audio": "audio/b2/unit-6/e16.mp3"
-        }
-      ]
+      "correctSentence": "[[The|La]] [[interview|entrevista]] [[will|se]] [[be|llevará]] [[held|a cabo]] [[in|en la]] [[meeting|sala]] [[room|de reuniones]] [[B.|B.]]",
+      "words": [
+        "[[The|La]]",
+        "[[interview|entrevista]]",
+        "[[will|se]]",
+        "[[be|llevará]]",
+        "[[held|a cabo]]",
+        "[[in|en la]]",
+        "[[meeting|sala]]",
+        "[[room|de reuniones]]",
+        "[[B.|B.]]"
+      ],
+      "explanation": "'Hold a meeting/interview' es una colocación común.",
+      "audio": "audio/b2/unit-6/e16.mp3"
     },
     "audioUrl": "audio/b2/unit-6/e16.mp3",
     "topicName": "Vocabulary"
@@ -363,14 +459,18 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Habilidades técnicas",
       "instructions": "Ordena las palabras para describir la competencia de alguien.",
-      "questions": [
-        {
-          "question": "[[He|Él]] [[is|está]] [[highly|muy]] [[skilled|cualificado]] [[in|en]] [[graphic|diseño]] [[design.|gráfico.]]",
-          "correctAnswer": "He is highly skilled in graphic design.",
-          "explanation": "'Highly skilled' es una colocación para alguien muy capaz.",
-          "audio": "audio/b2/unit-6/e17.mp3"
-        }
-      ]
+      "correctSentence": "[[He|Él]] [[is|está]] [[highly|muy]] [[skilled|cualificado]] [[in|en]] [[graphic|diseño]] [[design.|gráfico.]]",
+      "words": [
+        "[[He|Él]]",
+        "[[is|está]]",
+        "[[highly|muy]]",
+        "[[skilled|cualificado]]",
+        "[[in|en]]",
+        "[[graphic|diseño]]",
+        "[[design.|gráfico.]]"
+      ],
+      "explanation": "'Highly skilled' es una colocación para alguien muy capaz.",
+      "audio": "audio/b2/unit-6/e17.mp3"
     },
     "audioUrl": "audio/b2/unit-6/e17.mp3",
     "topicName": "Vocabulary"
@@ -385,14 +485,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Búsqueda de candidatos",
       "instructions": "Ordena las palabras para describir el perfil buscado.",
-      "questions": [
-        {
-          "question": "[[We|Estamos]] [[looking|buscando]] [[for|un]] [[a|candidato]] [[candidate|con]] [[with|cualidades]] [[leadership|de]] [[qualities.|liderazgo.]]",
-          "correctAnswer": "We are looking for a candidate with leadership qualities.",
-          "explanation": "'Looking for' significa buscar.",
-          "audio": "audio/b2/unit-6/e18.mp3"
-        }
-      ]
+      "correctSentence": "[[We|Estamos]] [[looking|buscando]] [[for|un]] [[a|candidato]] [[candidate|con]] [[with|cualidades]] [[leadership|de]] [[qualities.|liderazgo.]]",
+      "words": [
+        "[[We|Estamos]]",
+        "[[looking|buscando]]",
+        "[[for|un]]",
+        "[[a|candidato]]",
+        "[[candidate|con]]",
+        "[[with|cualidades]]",
+        "[[leadership|de]]",
+        "[[qualities.|liderazgo.]]"
+      ],
+      "explanation": "'Looking for' significa buscar.",
+      "audio": "audio/b2/unit-6/e18.mp3"
     },
     "audioUrl": "audio/b2/unit-6/e18.mp3",
     "topicName": "Vocabulary"
@@ -403,21 +508,27 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Work and Careers",
     "difficulty": "medium",
-    "transcript": "She was promoted to senior manager last month.",
+    "transcript": "I am considering applying for a promotion next month.",
     "content": {
-      "title": "Ascenso laboral",
-      "instructions": "Ordena las palabras para hablar de un ascenso.",
-      "questions": [
-        {
-          "question": "[[She|Ella]] [[was|fue]] [[promoted|ascendida]] [[to|a]] [[senior|gerente]] [[manager|sénior]] [[last|el mes]] [[month.|pasado.]]",
-          "correctAnswer": "She was promoted to senior manager last month.",
-          "explanation": "Usamos la voz pasiva ('was promoted') para hablar de ascensos.",
-          "audio": "audio/b2/unit-6/e19.mp3"
-        }
-      ]
+      "title": "Promoción interna",
+      "instructions": "Ordena las palabras sobre tus planes de carrera.",
+      "correctSentence": "[[I|Estoy]] [[am|considerando]] [[considering|solicitar]] [[applying|un]] [[for|ascenso]] [[a|el]] [[promotion|mes]] [[next|que]] [[month.|viene.]]",
+      "words": [
+        "[[I|Estoy]]",
+        "[[am|considerando]]",
+        "[[considering|solicitar]]",
+        "[[applying|un]]",
+        "[[for|ascenso]]",
+        "[[a|el]]",
+        "[[promotion|mes]]",
+        "[[next|que]]",
+        "[[month.|viene.]]"
+      ],
+      "explanation": "Después de 'consider' usamos el gerundio.",
+      "audio": "audio/b2/unit-6/e19.mp3"
     },
     "audioUrl": "audio/b2/unit-6/e19.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "b2-u6-e20",
@@ -425,18 +536,22 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Work and Careers",
     "difficulty": "medium",
-    "transcript": "I have a lot of experience in customer service.",
+    "transcript": "The working environment here is very supportive.",
     "content": {
-      "title": "Atención al cliente",
-      "instructions": "Ordena las palabras para describir tu experiencia.",
-      "questions": [
-        {
-          "question": "[[I|Tengo]] [[have|mucha]] [[a|experiencia]] [[lot|en]] [[of|atención]] [[experience|al]] [[in|cliente.]] [[customer| ]] [[service.| ]]",
-          "correctAnswer": "I have a lot of experience in customer service.",
-          "explanation": "'Customer service' es el departamento de atención al cliente.",
-          "audio": "audio/b2/unit-6/e20.mp3"
-        }
-      ]
+      "title": "Ambiente laboral",
+      "instructions": "Ordena las palabras para describir tu oficina.",
+      "correctSentence": "[[The|El]] [[working|ambiente]] [[environment|de]] [[here|trabajo]] [[is|aquí]] [[very|es]] [[supportive.|muy acogedor.]]",
+      "words": [
+        "[[The|El]]",
+        "[[working|ambiente]]",
+        "[[environment|de]]",
+        "[[here|trabajo]]",
+        "[[is|aquí]]",
+        "[[very|es]]",
+        "[[supportive.|muy acogedor.]]"
+      ],
+      "explanation": "'Supportive' significa que brinda ayuda y aliento.",
+      "audio": "audio/b2/unit-6/e20.mp3"
     },
     "audioUrl": "audio/b2/unit-6/e20.mp3",
     "topicName": "Vocabulary"
@@ -447,21 +562,27 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Work and Careers",
     "difficulty": "medium",
-    "transcript": "They have been negotiating the contract all day.",
+    "transcript": "I need to give two weeks' notice before leaving.",
     "content": {
-      "title": "Negociación",
-      "instructions": "Ordena las palabras para hablar de una negociación en curso.",
-      "questions": [
-        {
-          "question": "[[They|Han]] [[have|estado]] [[been|negociando]] [[negotiating|el]] [[the|contrato]] [[contract|todo el]] [[all|día.]] [[day.| ]]",
-          "correctAnswer": "They have been negotiating the contract all day.",
-          "explanation": "El presente perfecto continuo con 'all day' indica una duración prolongada.",
-          "audio": "audio/b2/unit-6/e21.mp3"
-        }
-      ]
+      "title": "Preaviso",
+      "instructions": "Ordena las palabras sobre los trámites para dejar un trabajo.",
+      "correctSentence": "[[I|Debo]] [[need|dar]] [[to|dos]] [[give|semanas]] [[two|de]] [[weeks'|preaviso]] [[notice|antes]] [[before|de]] [[leaving.|irme.]]",
+      "words": [
+        "[[I|Debo]]",
+        "[[need|dar]]",
+        "[[to|dos]]",
+        "[[give|semanas]]",
+        "[[two|de]]",
+        "[[weeks'|preaviso]]",
+        "[[notice|antes]]",
+        "[[before|de]]",
+        "[[leaving.|irme.]]"
+      ],
+      "explanation": "'Notice' en este contexto es el periodo de aviso antes de renunciar.",
+      "audio": "audio/b2/unit-6/e21.mp3"
     },
     "audioUrl": "audio/b2/unit-6/e21.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b2-u6-e22",
@@ -469,21 +590,26 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Work and Careers",
     "difficulty": "medium",
-    "transcript": "By the time I retire, I will have worked for 40 years.",
+    "transcript": "She was fired for being late every day.",
     "content": {
-      "title": "Jubilación futura",
-      "instructions": "Ordena las palabras para proyectar tu carrera.",
-      "questions": [
-        {
-          "question": "[[By|Para]] [[the|cuando]] [[time|me]] [[I|jubile,]] [[retire,|habré]] [[I|trabajado]] [[will|durante]] [[have|40]] [[worked|años.]] [[for| ]] [[40| ]] [[years.| ]]",
-          "correctAnswer": "By the time I retire, I will have worked for 40 years.",
-          "explanation": "Usamos el futuro perfecto para hablar de hitos en el momento de la jubilación.",
-          "audio": "audio/b2/unit-6/e22.mp3"
-        }
-      ]
+      "title": "Despido",
+      "instructions": "Ordena las palabras sobre las consecuencias de la impuntualidad.",
+      "correctSentence": "[[She|Ella]] [[was|fue]] [[fired|despedida]] [[for|por]] [[being|llegar]] [[late|tarde]] [[every|todos]] [[day.|los días.]]",
+      "words": [
+        "[[She|Ella]]",
+        "[[was|fue]]",
+        "[[fired|despedida]]",
+        "[[for|por]]",
+        "[[being|llegar]]",
+        "[[late|tarde]]",
+        "[[every|todos]]",
+        "[[day.|los días.]]"
+      ],
+      "explanation": "'Be fired' es ser despedido por bajo rendimiento o mala conducta.",
+      "audio": "audio/b2/unit-6/e22.mp3"
     },
     "audioUrl": "audio/b2/unit-6/e22.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b2-u6-e23",
@@ -491,21 +617,26 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Work and Careers",
     "difficulty": "medium",
-    "transcript": "He told me he would be available for a call later.",
+    "transcript": "He resigned to pursue a career in teaching.",
     "content": {
-      "title": "Disponibilidad",
-      "instructions": "Ordena las palabras para reportar la disponibilidad de alguien.",
-      "questions": [
-        {
-          "question": "[[He|Me]] [[told|dijo]] [[me|que]] [[he|estaría]] [[would|disponible]] [[be|para]] [[available|una]] [[for|llamada]] [[a|más]] [[call|tarde.]] [[later.| ]]",
-          "correctAnswer": "He told me he would be available for a call later.",
-          "explanation": "En estilo indirecto, 'will' cambia a 'would'.",
-          "audio": "audio/b2/unit-6/e23.mp3"
-        }
-      ]
+      "title": "Dimisión",
+      "instructions": "Ordena las palabras sobre un cambio de carrera.",
+      "correctSentence": "[[He|Él]] [[resigned|dimitió]] [[to|para]] [[pursue|seguir]] [[a|una]] [[career|carrera]] [[in|en la]] [[teaching.|enseñanza.]]",
+      "words": [
+        "[[He|Él]]",
+        "[[resigned|dimitió]]",
+        "[[to|para]]",
+        "[[pursue|seguir]]",
+        "[[a|una]]",
+        "[[career|carrera]]",
+        "[[in|en la]]",
+        "[[teaching.|enseñanza.]]"
+      ],
+      "explanation": "'Resign' es dejar el trabajo voluntariamente.",
+      "audio": "audio/b2/unit-6/e23.mp3"
     },
     "audioUrl": "audio/b2/unit-6/e23.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b2-u6-e24",
@@ -513,18 +644,23 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Work and Careers",
     "difficulty": "medium",
-    "transcript": "I am looking for a job with more flexibility.",
+    "transcript": "I am working remotely three days a week.",
     "content": {
-      "title": "Flexibilidad laboral",
-      "instructions": "Ordena las palabras para expresar lo que buscas en un empleo.",
-      "questions": [
-        {
-          "question": "[[I|Estoy]] [[am|buscando]] [[looking|un]] [[for|trabajo]] [[a|con]] [[job|más]] [[with|flexibilidad.]] [[more| ]] [[flexibility.| ]]",
-          "correctAnswer": "I am looking for a job with more flexibility.",
-          "explanation": "La flexibilidad horaria es un factor clave en el empleo moderno.",
-          "audio": "audio/b2/unit-6/e24.mp3"
-        }
-      ]
+      "title": "Teletrabajo",
+      "instructions": "Ordena las palabras sobre tu rutina actual.",
+      "correctSentence": "[[I|Estoy]] [[am|trabajando]] [[working|en]] [[remotely|remoto]] [[three|tres]] [[days|días]] [[a|a la]] [[week.|semana.]]",
+      "words": [
+        "[[I|Estoy]]",
+        "[[am|trabajando]]",
+        "[[working|en]]",
+        "[[remotely|remoto]]",
+        "[[three|tres]]",
+        "[[days|días]]",
+        "[[a|a la]]",
+        "[[week.|semana.]]"
+      ],
+      "explanation": "'Working remotely' es trabajar fuera de la oficina, usualmente desde casa.",
+      "audio": "audio/b2/unit-6/e24.mp3"
     },
     "audioUrl": "audio/b2/unit-6/e24.mp3",
     "topicName": "Vocabulary"
@@ -535,21 +671,25 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Work and Careers",
     "difficulty": "medium",
-    "transcript": "She had finished the project before the deadline.",
+    "transcript": "The company offers a very competitive salary.",
     "content": {
-      "title": "Proyecto terminado",
-      "instructions": "Ordena las palabras para indicar que el trabajo se hizo a tiempo.",
-      "questions": [
-        {
-          "question": "[[She|Ella]] [[had|había]] [[finished|terminado]] [[the|el]] [[project|proyecto]] [[before|antes]] [[the|de la]] [[deadline.|fecha límite.]]",
-          "correctAnswer": "She had finished the project before the deadline.",
-          "explanation": "Pasado perfecto para una acción completada antes de un momento específico.",
-          "audio": "audio/b2/unit-6/e25.mp3"
-        }
-      ]
+      "title": "Salario",
+      "instructions": "Ordena las palabras sobre las condiciones económicas.",
+      "correctSentence": "[[The|La]] [[company|empresa]] [[offers|ofrece]] [[a|un]] [[very|salario]] [[competitive|muy]] [[salary.|competitivo.]]",
+      "words": [
+        "[[The|La]]",
+        "[[company|empresa]]",
+        "[[offers|ofrece]]",
+        "[[a|un]]",
+        "[[very|salario]]",
+        "[[competitive|muy]]",
+        "[[salary.|competitivo.]]"
+      ],
+      "explanation": "Un 'competitive salary' es un sueldo igual o superior al promedio del mercado.",
+      "audio": "audio/b2/unit-6/e25.mp3"
     },
     "audioUrl": "audio/b2/unit-6/e25.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b2-u6-e26",
@@ -557,20 +697,20 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Work and Careers",
     "difficulty": "medium",
-    "transcript": "The company is recruiting new talent for the marketing department.",
+    "transcript": "If you want to get the job, you must make a good impression.",
     "content": {
-      "title": "Contratación",
-      "instructions": "Elige el verbo que significa contratar o captar personal.",
+      "title": "La entrevista",
+      "instructions": "Elige la palabra correcta para completar la frase.",
       "questions": [
         {
-          "question": "[[The|La]] [[company|empresa]] [[is|está]] [[_______|_______]] [[new|nuevo]] [[talent|talento]] [[for|para]] [[the|el]] [[marketing|departamento de]] [[department.|marketing.]]",
+          "question": "[[If|Si]] [[you|quieres]] [[want|conseguir]] [[to|el]] [[get|trabajo,]] [[the|debes]] [[job,|causar]] [[you|una]] [[must|buena]] [[_______|impresión.]]",
           "options": [
-            "[[recruiting|contratando]]",
-            "[[recovering|recuperando]]",
-            "[[reducing|reduciendo]]"
+            "[[impression|impresión]]",
+            "[[expression|expresión]]",
+            "[[depression|depresión]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Recruit' significa buscar y contratar nuevos empleados.",
+          "explanation": "'Make a good impression' es una frase hecha que significa causar una buena sensación.",
           "audio": "audio/b2/unit-6/e26.mp3"
         }
       ]
@@ -584,20 +724,20 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Work and Careers",
     "difficulty": "medium",
-    "transcript": "I need to hand in my resignation by the end of the month.",
+    "transcript": "He was promoted to senior manager after only two years.",
     "content": {
-      "title": "Renuncia",
-      "instructions": "Elige la expresión para decir 'entregar la dimisión'.",
+      "title": "Ascenso",
+      "instructions": "Elige el verbo adecuado para un cambio de puesto a mejor.",
       "questions": [
         {
-          "question": "[[I|Necesito]] [[need|entregar]] [[to|mi]] [[_______|_______]] [[in|mi]] [[my|dimisión]] [[resignation|antes del]] [[by|final]] [[the|del]] [[end|mes.]] [[of| ]] [[the| ]] [[month.| ]]",
+          "question": "[[He|Él]] [[was|fue]] [[_______|ascendido]] [[to|a]] [[senior|gerente]] [[manager|senior]] [[after|tras]] [[only|solo]] [[two|dos]] [[years.|años.]]",
           "options": [
-            "[[hand in|entregar]]",
-            "[[hand out|repartir]]",
-            "[[hand over|traspasar]]"
+            "[[promoted|ascendido]]",
+            "[[demoted|degradado]]",
+            "[[retired|jubilado]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Hand in' se usa para entregar documentos oficiales como una renuncia.",
+          "explanation": "'Promote' significa ascender a alguien a un puesto superior.",
           "audio": "audio/b2/unit-6/e27.mp3"
         }
       ]
@@ -611,20 +751,20 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Work and Careers",
     "difficulty": "medium",
-    "transcript": "He was fired for consistently arriving late to work.",
+    "transcript": "I am looking for a job with more flexible hours.",
     "content": {
-      "title": "Despido",
-      "instructions": "Elige la palabra que significa ser despedido.",
+      "title": "Horario flexible",
+      "instructions": "Elige el adjetivo que describe un horario adaptable.",
       "questions": [
         {
-          "question": "[[He|Él]] [[was|fue]] [[_______|_______]] [[for|por]] [[consistently|llegar]] [[arriving|tarde]] [[late|al]] [[to|trabajo]] [[work.|constantemente.]]",
+          "question": "[[I|Estoy]] [[am|buscando]] [[looking|un]] [[for|trabajo]] [[a|con]] [[job|un]] [[with|horario]] [[more|más]] [[_______|flexible.]]",
           "options": [
-            "[[fired|despedido]]",
-            "[[hired|contratado]]",
-            "[[tired|cansado]]"
+            "[[flexible|flexible]]",
+            "[[fixed|fijo]]",
+            "[[long|largo]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Fired' es una forma común de decir que alguien ha sido expulsado de su trabajo.",
+          "explanation": "'Flexible hours' permite al empleado elegir cuándo empezar y terminar.",
           "audio": "audio/b2/unit-6/e28.mp3"
         }
       ]
@@ -638,20 +778,20 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Work and Careers",
     "difficulty": "medium",
-    "transcript": "I am very satisfied with my current salary.",
+    "transcript": "The company has a very low staff turnover.",
     "content": {
-      "title": "Salario",
-      "instructions": "Elige la palabra para el pago mensual que recibe un empleado.",
+      "title": "Rotación de personal",
+      "instructions": "Elige el término para la frecuencia con la que los empleados dejan la empresa.",
       "questions": [
         {
-          "question": "[[I|Estoy]] [[am|muy]] [[very|satisfecho]] [[satisfied|con]] [[with|mi]] [[my|_______]] [[current|actual.]] [[salary.| ]]",
+          "question": "[[The|La]] [[company|empresa]] [[has|tiene]] [[a|una]] [[very|rotación]] [[low|de]] [[staff|personal]] [[_______|muy baja.]]",
           "options": [
-            "[[salary|salario]]",
-            "[[sale|venta]]",
-            "[[salaryman|oficinista]]"
+            "[[turnover|rotación]]",
+            "[[overtake|adelantamiento]]",
+            "[[takeover|adquisición]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Salary' es la remuneración fija anual o mensual.",
+          "explanation": "'Staff turnover' es el ritmo al que los empleados entran y salen de una empresa.",
           "audio": "audio/b2/unit-6/e29.mp3"
         }
       ]
@@ -665,20 +805,20 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Work and Careers",
     "difficulty": "medium",
-    "transcript": "We need to discuss the new company policy.",
+    "transcript": "We need to hire more people to finish the project on time.",
     "content": {
-      "title": "Política de empresa",
-      "instructions": "Elige la palabra que significa las reglas o normas de la empresa.",
+      "title": "Contratación",
+      "instructions": "Elige el verbo que significa dar empleo a alguien.",
       "questions": [
         {
-          "question": "[[We|Necesitamos]] [[need|debatir]] [[to|la]] [[discuss|nueva]] [[the|_______]] [[new|de la]] [[company|empresa.]] [[policy.| ]]",
+          "question": "[[We|Necesitamos]] [[need|_______]] [[to|a]] [[hire|más]] [[more|gente]] [[people|para]] [[to|terminar]] [[finish|el]] [[the|proyecto.]]",
           "options": [
-            "[[policy|política]]",
-            "[[police|policía]]",
-            "[[polite|educado]]"
+            "[[hire|contratar]]",
+            "[[fire|despedir]]",
+            "[[tire|cansar]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Policy' se refiere a un conjunto de reglas o directrices.",
+          "explanation": "'Hire' significa emplear a alguien nuevo.",
           "audio": "audio/b2/unit-6/e30.mp3"
         }
       ]
@@ -692,20 +832,20 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Work and Careers",
     "difficulty": "medium",
-    "transcript": "She is looking for a role with more responsibility.",
+    "transcript": "She has a lot of experience in the field of marketing.",
     "content": {
-      "title": "Nuevo puesto",
-      "instructions": "Elige el sinónimo de 'position' o 'job' en este contexto.",
+      "title": "Sector profesional",
+      "instructions": "Elige la palabra que significa sector o área de trabajo.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[is|está]] [[looking|buscando]] [[for|un]] [[a|_______]] [[role|con]] [[with|más]] [[more|responsabilidad.]] [[responsibility.| ]]",
+          "question": "[[She|Ella]] [[has|tiene]] [[a|mucha]] [[lot|experiencia]] [[of|en]] [[experience|el]] [[in|_______]] [[the|de]] [[field|marketing.]] [[of| ]] [[marketing.| ]]",
           "options": [
-            "[[role|puesto]]",
-            "[[rule|regla]]",
-            "[[roll|rollo]]"
+            "[[field|campo/sector]]",
+            "[[farm|granja]]",
+            "[[forest|bosque]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Role' se usa a menudo como sinónimo de puesto de trabajo.",
+          "explanation": "'Field' se usa para referirse a una rama específica del conocimiento o trabajo.",
           "audio": "audio/b2/unit-6/e31.mp3"
         }
       ]
@@ -719,20 +859,20 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Work and Careers",
     "difficulty": "medium",
-    "transcript": "The candidate has impressive qualifications.",
+    "transcript": "I am in charge of the marketing department.",
     "content": {
-      "title": "Cualificaciones",
-      "instructions": "Elige la palabra para los títulos o certificados académicos.",
+      "title": "Responsable de departamento",
+      "instructions": "Elige la expresión que significa 'ser el responsable de'.",
       "questions": [
         {
-          "question": "[[The|El]] [[candidate|candidato]] [[has|tiene]] [[_______|_______]] [[impressive|impresionantes.]] [[qualifications.| ]]",
+          "question": "[[I|Soy]] [[am|el]] [[in|_______]] [[charge|del]] [[of|departamento]] [[the|de]] [[marketing|marketing.]] [[department.| ]]",
           "options": [
-            "[[qualifications|títulos]]",
-            "[[qualities|cualidades]]",
-            "[[quantities|cantidades]]"
+            "[[charge|responsable]]",
+            "[[change|cambio]]",
+            "[[chance|oportunidad]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Qualifications' se refiere a los estudios y diplomas obtenidos.",
+          "explanation": "'In charge of' significa tener la responsabilidad de algo o alguien.",
           "audio": "audio/b2/unit-6/e32.mp3"
         }
       ]
@@ -746,20 +886,20 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Work and Careers",
     "difficulty": "medium",
-    "transcript": "He decided to step down from his position as CEO.",
+    "transcript": "The company is going through a period of rapid growth.",
     "content": {
-      "title": "Renuncia voluntaria",
-      "instructions": "Elige el phrasal verb que significa dejar un cargo importante.",
+      "title": "Crecimiento empresarial",
+      "instructions": "Elige la palabra que significa aumento de tamaño o importancia.",
       "questions": [
         {
-          "question": "[[He|Él]] [[decided|decidió]] [[to|_______]] [[step|de]] [[down|su]] [[from|cargo]] [[his|como]] [[position|director]] [[as|ejecutivo.]] [[CEO.| ]]",
+          "question": "[[The|La]] [[company|empresa]] [[is|está]] [[going|pasando]] [[through|por]] [[a|un]] [[period|periodo]] [[of|de]] [[rapid|rápido]] [[_______|crecimiento.]]",
           "options": [
-            "[[step down|dimitir]]",
-            "[[step up|dar un paso adelante]]",
-            "[[step in|intervenir]]"
+            "[[growth|crecimiento]]",
+            "[[death|muerte]]",
+            "[[wealth|riqueza]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Step down' significa dejar formalmente un puesto de alta responsabilidad.",
+          "explanation": "'Growth' es el sustantivo de 'grow' (crecer).",
           "audio": "audio/b2/unit-6/e33.mp3"
         }
       ]
@@ -773,20 +913,20 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Work and Careers",
     "difficulty": "medium",
-    "transcript": "Working from home offers a better work-life balance.",
+    "transcript": "He is very committed to his work.",
     "content": {
-      "title": "Equilibrio vida-trabajo",
-      "instructions": "Elige el término para el equilibrio entre lo personal y profesional.",
+      "title": "Compromiso",
+      "instructions": "Elige el adjetivo que significa dedicado o comprometido.",
       "questions": [
         {
-          "question": "[[Working|Teletrabajar]] [[from|ofrece]] [[home|un]] [[offers|mejor]] [[a|_______]] [[better|vida-trabajo.]] [[work-life| ]] [[balance.| ]]",
+          "question": "[[He|Él]] [[is|está]] [[very|muy]] [[_______|comprometido]] [[to|con]] [[his|su]] [[work.|trabajo.]]",
           "options": [
-            "[[work-life balance|equilibrio]]",
-            "[[workload|carga de trabajo]]",
-            "[[workplace|lugar de trabajo]]"
+            "[[committed|comprometido]]",
+            "[[confused|confundido]]",
+            "[[collected|recogido]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Work-life balance' es la armonía entre el trabajo y la vida privada.",
+          "explanation": "'Committed' describe a alguien que pone mucho esfuerzo y lealtad en algo.",
           "audio": "audio/b2/unit-6/e34.mp3"
         }
       ]
@@ -800,20 +940,20 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Work and Careers",
     "difficulty": "medium",
-    "transcript": "She is in charge of the human resources department.",
+    "transcript": "We have to deal with many customer complaints.",
     "content": {
-      "title": "Recursos humanos",
-      "instructions": "Elige la expresión que significa 'al mando de' o 'responsable de'.",
+      "title": "Atención al cliente",
+      "instructions": "Elige el phrasal verb que significa gestionar o lidiar con algo.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[is|está]] [[_______|_______]] [[in|del]] [[charge|departamento]] [[of|de]] [[the|recursos]] [[human|humanos.]] [[resources| ]] [[department.| ]]",
+          "question": "[[We|Tenemos]] [[have|que]] [[_______|lidiar]] [[with|con]] [[many|muchas]] [[customer|quejas]] [[complaints.|de clientes.]]",
           "options": [
-            "[[in charge|al cargo]]",
-            "[[on duty|de servicio]]",
-            "[[at work|en el trabajo]]"
+            "[[deal|lidiar]]",
+            "[[feel|sentir]]",
+            "[[seal|sellar]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'In charge of' significa tener la responsabilidad de algo.",
+          "explanation": "'Deal with' significa tomar las medidas necesarias para resolver un problema.",
           "audio": "audio/b2/unit-6/e35.mp3"
         }
       ]
@@ -827,26 +967,26 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Work and Careers",
     "difficulty": "medium",
-    "transcript": "He mentioned that he had seen the job advertisement online.",
+    "transcript": "I am very satisfied with my current job.",
     "content": {
-      "title": "Anuncio de trabajo",
-      "instructions": "Elige la forma correcta del verbo en estilo indirecto.",
+      "title": "Satisfacción laboral",
+      "instructions": "Elige el adjetivo que significa contento o satisfecho.",
       "questions": [
         {
-          "question": "[[He|Él]] [[mentioned|mencionó]] [[that|que]] [[he|_______]] [[had|el]] [[seen|anuncio]] [[the|de]] [[job|trabajo]] [[advertisement|en]] [[online.|línea.]]",
+          "question": "[[I|Estoy]] [[am|muy]] [[very|_______]] [[satisfied|con]] [[with|mi]] [[my|trabajo]] [[current|actual.]] [[job.| ]]",
           "options": [
-            "[[had seen|había visto]]",
-            "[[has seen|ha visto]]",
-            "[[sees|ve]]"
+            "[[satisfied|satisfecho]]",
+            "[[terrified|aterrorizado]]",
+            "[[mystified|perplejo]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Usamos el pasado perfecto en estilo indirecto para referirnos a un evento anterior.",
+          "explanation": "'Satisfied' significa estar complacido con algo.",
           "audio": "audio/b2/unit-6/e36.mp3"
         }
       ]
     },
     "audioUrl": "audio/b2/unit-6/e36.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b2-u6-e37",
@@ -854,26 +994,26 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Work and Careers",
     "difficulty": "medium",
-    "transcript": "I asked her where she would like to work.",
+    "transcript": "She is a very talented graphic designer.",
     "content": {
-      "title": "Pregunta reportada",
-      "instructions": "Elige la estructura correcta para una pregunta reportada.",
+      "title": "Talento",
+      "instructions": "Elige la palabra que describe a alguien con mucha habilidad natural.",
       "questions": [
         {
-          "question": "[[I|Le]] [[asked|pregunté]] [[her|dónde]] [[where|_______]] [[she|le]] [[would|gustaría]] [[like|trabajar.]] [[to| ]] [[work.| ]]",
+          "question": "[[She|Ella]] [[is|es]] [[a|una]] [[very|_______]] [[talented|diseñadora]] [[graphic|gráfica]] [[designer.|con mucho talento.]]",
           "options": [
-            "[[she would|a ella le]]",
-            "[[would she|¿le gustaría ella?]]",
-            "[[did she|¿lo hizo ella?]]"
+            "[[talented|con talento]]",
+            "[[tainted|manchado]]",
+            "[[tempted|tentado]]"
           ],
           "correctAnswer": 0,
-          "explanation": "En las preguntas reportadas, el orden de las palabras es como en una afirmación.",
+          "explanation": "'Talented' significa tener una habilidad natural para algo.",
           "audio": "audio/b2/unit-6/e37.mp3"
         }
       ]
     },
     "audioUrl": "audio/b2/unit-6/e37.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b2-u6-e38",
@@ -881,20 +1021,20 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Work and Careers",
     "difficulty": "medium",
-    "transcript": "The company provides training for all new staff.",
+    "transcript": "The company is looking for a new headquarters.",
     "content": {
-      "title": "Formación",
-      "instructions": "Elige la palabra que significa capacitación o entrenamiento.",
+      "title": "Sede central",
+      "instructions": "Elige el término para la oficina principal de una empresa.",
       "questions": [
         {
-          "question": "[[The|La]] [[company|empresa]] [[provides|proporciona]] [[_______|_______]] [[for|para]] [[all|todo]] [[new|el]] [[staff.|personal.]]",
+          "question": "[[The|La]] [[company|empresa]] [[is|está]] [[looking|buscando]] [[for|una]] [[a|nueva]] [[new|_______]].",
           "options": [
-            "[[training|formación]]",
-            "[[trading|comercio]]",
-            "[[traveling|viajes]]"
+            "[[headquarters|sede central]]",
+            "[[headache|dolor de cabeza]]",
+            "[[headlight|faro]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Training' es el proceso de aprender las habilidades necesarias para un trabajo.",
+          "explanation": "'Headquarters' es el centro administrativo de una organización.",
           "audio": "audio/b2/unit-6/e38.mp3"
         }
       ]
@@ -908,26 +1048,26 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Work and Careers",
     "difficulty": "medium",
-    "transcript": "By 5 PM, they will have been working for eight hours.",
+    "transcript": "He is very ambitious and wants to reach the top.",
     "content": {
-      "title": "Duración futura",
-      "instructions": "Elige el tiempo verbal para una duración acumulada en el futuro.",
+      "title": "Ambición profesional",
+      "instructions": "Elige el adjetivo que describe a alguien que quiere tener mucho éxito.",
       "questions": [
         {
-          "question": "[[By|Para]] [[5|las]] [[PM,|5,]] [[they|_______]] [[will|estado]] [[have|trabajando]] [[been|ocho]] [[working|horas.]] [[for| ]] [[eight| ]] [[hours.| ]]",
+          "question": "[[He|Él]] [[is|es]] [[very|muy]] [[_______|ambicioso]] [[and|y]] [[wants|quiere]] [[to|llegar]] [[reach|a]] [[the|lo]] [[top.|más alto.]]",
           "options": [
-            "[[will have been|habrán]]",
-            "[[will have|habrán]]",
-            "[[will be|estarán]]"
+            "[[ambitious|ambicioso]]",
+            "[[anxious|ansioso]]",
+            "[[ambiguous|ambiguo]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El futuro perfecto continuo enfatiza la duración de una acción en un punto futuro.",
+          "explanation": "'Ambitious' es tener un fuerte deseo de éxito o poder.",
           "audio": "audio/b2/unit-6/e39.mp3"
         }
       ]
     },
     "audioUrl": "audio/b2/unit-6/e39.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b2-u6-e40",
@@ -935,20 +1075,20 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Work and Careers",
     "difficulty": "medium",
-    "transcript": "He is an asset to the company.",
+    "transcript": "I need to update my CV before applying for the job.",
     "content": {
-      "title": "Un gran valor",
-      "instructions": "Elige la palabra para una persona o cosa valiosa para una organización.",
+      "title": "Currículum",
+      "instructions": "Elige el verbo que significa poner al día.",
       "questions": [
         {
-          "question": "[[He|Él]] [[is|es]] [[an|un]] [[_______|_______]] [[to|para]] [[the|la]] [[company.|empresa.]]",
+          "question": "[[I|Necesito]] [[need|_______]] [[to|mi]] [[update|currículum]] [[my|antes]] [[CV|de]] [[before|solicitar]] [[applying|el]] [[for|puesto.]] [[the| ]] [[job.| ]]",
           "options": [
-            "[[asset|activo/valor]]",
-            "[[access|acceso]]",
-            "[[aspect|aspecto]]"
+            "[[update|actualizar]]",
+            "[[upkeep|mantener]]",
+            "[[uproot|desarraigar]]"
           ],
           "correctAnswer": 0,
-          "explanation": "An 'asset' is a useful or valuable thing, person, or quality.",
+          "explanation": "'Update' significa añadir la información más reciente a algo.",
           "audio": "audio/b2/unit-6/e40.mp3"
         }
       ]
@@ -962,20 +1102,20 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Work and Careers",
     "difficulty": "medium",
-    "transcript": "I am looking for a challenging new position.",
+    "transcript": "The meeting has been postponed until next week.",
     "content": {
-      "title": "Nuevos retos",
-      "instructions": "Elige el adjetivo que significa estimulante o difícil de forma positiva.",
+      "title": "Aplazamiento",
+      "instructions": "Elige el verbo que significa posponer.",
       "questions": [
         {
-          "question": "[[I|Estoy]] [[am|buscando]] [[looking|un]] [[for|_______]] [[a|nuevo]] [[challenging|puesto.]] [[new| ]] [[position.| ]]",
+          "question": "[[The|La]] [[meeting|reunión]] [[has|ha]] [[been|sido]] [[_______|pospuesta]] [[until|hasta]] [[next|la semana]] [[week.|que viene.]]",
           "options": [
-            "[[challenging|desafiante]]",
-            "[[changing|cambiante]]",
-            "[[charging|cargando]]"
+            "[[postponed|pospuesta]]",
+            "[[cancelled|cancelada]]",
+            "[[announced|anunciada]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Challenging' describe algo que pone a prueba tus habilidades de forma interesante.",
+          "explanation": "'Postpone' es decidir que algo ocurra en una fecha posterior a la prevista.",
           "audio": "audio/b2/unit-6/e41.mp3"
         }
       ]
@@ -989,26 +1129,26 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Work and Careers",
     "difficulty": "medium",
-    "transcript": "They recommended that she apply for the promotion.",
+    "transcript": "She is very reliable and always gets the job done.",
     "content": {
-      "title": "Recomendación",
-      "instructions": "Elige el verbo correcto para una recomendación en el pasado.",
+      "title": "Confiabilidad",
+      "instructions": "Elige el adjetivo que describe a alguien en quien se puede confiar.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[recommended|recomendaron]] [[that|que]] [[she|_______]] [[apply|por]] [[for|el]] [[the|ascenso.]] [[promotion.| ]]",
+          "question": "[[She|Ella]] [[is|es]] [[very|muy]] [[_______|fiable]] [[and|y]] [[always|siempre]] [[gets|hace]] [[the|su]] [[job|trabajo.]] [[done.| ]]",
           "options": [
-            "[[apply|solicitara]]",
-            "[[applies|solicita]]",
-            "[[applied|solicitó]]"
+            "[[reliable|fiable]]",
+            "[[liable|responsable legal]]",
+            "[[readable|legible]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Después de 'recommend that' se usa el infinitivo sin 'to' (subjuntivo en inglés).",
+          "explanation": "'Reliable' significa que se puede confiar en que alguien hará lo que se espera.",
           "audio": "audio/b2/unit-6/e42.mp3"
         }
       ]
     },
     "audioUrl": "audio/b2/unit-6/e42.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b2-u6-e43",
@@ -1016,26 +1156,26 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Work and Careers",
     "difficulty": "medium",
-    "transcript": "I will be working from home tomorrow.",
+    "transcript": "I am working on a very interesting project at the moment.",
     "content": {
-      "title": "Mañana en casa",
-      "instructions": "Elige el tiempo verbal para una actividad planeada en el futuro.",
+      "title": "Proyecto actual",
+      "instructions": "Elige la preposición correcta para 'working'.",
       "questions": [
         {
-          "question": "[[I|Mañana]] [[will|_______]] [[be|trabajando]] [[working|desde]] [[from|casa.]] [[home| ]] [[tomorrow.| ]]",
+          "question": "[[I|Estoy]] [[am|trabajando]] [[working|_______]] [[on|un]] [[a|proyecto]] [[very|muy]] [[interesting|interesante.]] [[project.| ]]",
           "options": [
-            "[[will be|estaré]]",
-            "[[will have|habré]]",
-            "[[would be|estaría]]"
+            "[[on|en]]",
+            "[[at| ]]",
+            "[[in| ]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El futuro continuo se usa para actividades que ya hemos decidido hacer.",
-          "audio": "audio/b2/unit-6/e43.mp3"
+          "explanation": "Usamos 'work on' para referirnos a la tarea o proyecto en el que estamos ocupados.",
+          "audio": "audio/b2/unit-6/e41.mp3"
         }
       ]
     },
     "audioUrl": "audio/b2/unit-6/e43.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b2-u6-e44",
@@ -1043,20 +1183,20 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Work and Careers",
     "difficulty": "medium",
-    "transcript": "The workload has been quite heavy lately.",
+    "transcript": "He has a very good relationship with his colleagues.",
     "content": {
-      "title": "Carga de trabajo",
-      "instructions": "Elige el término para la cantidad de trabajo asignada.",
+      "title": "Compañeros de trabajo",
+      "instructions": "Elige la palabra para las personas con las que trabajas.",
       "questions": [
         {
-          "question": "[[The|La]] [[_______|_______]] [[has|ha]] [[been|sido]] [[quite|bastante]] [[heavy|pesada]] [[lately.|últimamente.]]",
+          "question": "[[He|Él]] [[has|tiene]] [[a|una]] [[very|buena]] [[good|relación]] [[relationship|con]] [[with|sus]] [[his|_______]].",
           "options": [
-            "[[workload|carga de trabajo]]",
-            "[[workday|día de trabajo]]",
-            "[[workout|entrenamiento]]"
+            "[[colleagues|compañeros]]",
+            "[[college|universidad]]",
+            "[[collections|colecciones]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Workload' es la cantidad de trabajo que tiene una persona o grupo.",
+          "explanation": "'Colleagues' son las personas con las que trabajas, especialmente en una profesión.",
           "audio": "audio/b2/unit-6/e44.mp3"
         }
       ]
@@ -1070,20 +1210,20 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Work and Careers",
     "difficulty": "medium",
-    "transcript": "He is very ambitious and wants to reach the top.",
+    "transcript": "The company is expanding into new markets.",
     "content": {
-      "title": "Ambición",
-      "instructions": "Elige el adjetivo para alguien con grandes aspiraciones.",
+      "title": "Expansión",
+      "instructions": "Elige el verbo que significa hacerse más grande.",
       "questions": [
         {
-          "question": "[[He|Él]] [[is|es]] [[very|muy]] [[_______|_______]] [[and|y]] [[wants|quiere]] [[to|llegar]] [[reach|a lo]] [[the|más]] [[top.|alto.]]",
+          "question": "[[The|La]] [[company|empresa]] [[is|se está]] [[_______|expandiendo]] [[into|a]] [[new|nuevos]] [[markets.|mercados.]]",
           "options": [
-            "[[ambitious|ambicioso]]",
-            "[[anxious|ansioso]]",
-            "[[available|disponible]]"
+            "[[expanding|expandiendo]]",
+            "[[expelling|expulsando]]",
+            "[[expiring|caducando]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Ambitious' describe a una persona con un fuerte deseo de éxito.",
+          "explanation": "'Expand' significa aumentar en tamaño, número o importancia.",
           "audio": "audio/b2/unit-6/e45.mp3"
         }
       ]
@@ -1097,21 +1237,21 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Work and Careers",
     "difficulty": "medium",
-    "transcript": "I need to take some time off for personal reasons.",
+    "transcript": "I have a very busy schedule this week.",
     "content": {
-      "title": "Tiempo libre",
-      "instructions": "Elige la expresión que significa tomarse unos días libres.",
+      "title": "Agenda",
+      "instructions": "Elige la palabra para el plan de actividades y tiempos.",
       "questions": [
         {
-          "question": "[[I|Necesito]] [[need|_______]] [[to|unos]] [[take|días]] [[some|libres]] [[time|por]] [[off|motivos]] [[for|personales.]] [[personal| ]] [[reasons.| ]]",
+          "question": "[[I|Tengo]] [[have|una]] [[a|agenda]] [[very|muy]] [[busy|apretada]] [[_______|esta semana.]]",
           "options": [
-            "[[take time off|tomarme tiempo libre]]",
-            "[[take time out|hacer una pausa]]",
-            "[[take time in|invertir tiempo]]"
+            "[[schedule|agenda]]",
+            "[[school|escuela]]",
+            "[[scheme|esquema]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Take time off' significa no ir a trabajar por un período breve.",
-          "audio": "audio/b2/unit-6/e44.mp3"
+          "explanation": "'Schedule' es una lista de actividades y los momentos en que deben ocurrir.",
+          "audio": "audio/b2/unit-6/e46.mp3"
         }
       ]
     },
@@ -1124,20 +1264,20 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Work and Careers",
     "difficulty": "medium",
-    "transcript": "The meeting was called off due to the bad weather.",
+    "transcript": "She is very good at multitasking.",
     "content": {
-      "title": "Cancelación",
-      "instructions": "Elige el phrasal verb que significa 'cancelar'.",
+      "title": "Multitarea",
+      "instructions": "Elige la palabra que significa hacer varias cosas a la vez.",
       "questions": [
         {
-          "question": "[[The|La]] [[meeting|reunión]] [[was|fue]] [[_______|_______]] [[due|debido]] [[to|al]] [[the|mal]] [[bad|tiempo.]] [[weather.| ]]",
+          "question": "[[She|Ella]] [[is|es]] [[very|muy]] [[good|buena]] [[at|en la]] [[_______|multitarea.]]",
           "options": [
-            "[[called off|cancelada]]",
-            "[[called on|visitada]]",
-            "[[called up|llamada]]"
+            "[[multitasking|multitarea]]",
+            "[[multiplying|multiplicación]]",
+            "[[multicultural|multicultural]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Call off' es un phrasal verb común para cancelar eventos.",
+          "explanation": "'Multitasking' es la capacidad de realizar más de una tarea al mismo tiempo.",
           "audio": "audio/b2/unit-6/e47.mp3"
         }
       ]
@@ -1151,20 +1291,20 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Work and Careers",
     "difficulty": "medium",
-    "transcript": "She is well-known for her expertise in finance.",
+    "transcript": "The company provides a lot of training for its employees.",
     "content": {
-      "title": "Experto",
-      "instructions": "Elige la palabra que significa conocimiento especializado.",
+      "title": "Formación",
+      "instructions": "Elige la palabra para el proceso de aprender nuevas habilidades.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[is|es]] [[well-known|conocida]] [[for|por]] [[her|su]] [[_______|_______]] [[in|en]] [[finance.|finanzas.]]",
+          "question": "[[The|La]] [[company|empresa]] [[provides|ofrece]] [[a|mucha]] [[lot|formación]] [[of|a sus]] [[_______|empleados.]]",
           "options": [
-            "[[expertise|pericia/conocimiento]]",
-            "[[experience|experiencia]]",
-            "[[experiment|experimento]]"
+            "[[training|formación]]",
+            "[[trading|comercio]]",
+            "[[trailing|rastreo]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Expertise' se refiere a la gran habilidad o conocimiento en un área específica.",
+          "explanation": "'Training' es el proceso de aprender las habilidades necesarias para un trabajo.",
           "audio": "audio/b2/unit-6/e48.mp3"
         }
       ]
@@ -1178,20 +1318,20 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Work and Careers",
     "difficulty": "medium",
-    "transcript": "He has a lot of initiative and works well independently.",
+    "transcript": "He is very efficient in his work.",
     "content": {
-      "title": "Iniciativa",
-      "instructions": "Elige la palabra que describe la capacidad de actuar sin que te lo digan.",
+      "title": "Eficiencia",
+      "instructions": "Elige el adjetivo que significa trabajar bien sin desperdiciar tiempo.",
       "questions": [
         {
-          "question": "[[He|Él]] [[has|tiene]] [[a|mucha]] [[lot|_______]] [[of|y]] [[initiative|trabaja]] [[and|bien]] [[works|de forma]] [[well|autónoma.]] [[independently.| ]]",
+          "question": "[[He|Él]] [[is|es]] [[very|muy]] [[_______|eficiente]] [[in|en]] [[his|su]] [[work.|trabajo.]]",
           "options": [
-            "[[initiative|iniciativa]]",
-            "[[invitation|invitación]]",
-            "[[indication|indicación]]"
+            "[[efficient|eficiente]]",
+            "[[effect|efecto]]",
+            "[[effort|esfuerzo]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Initiative' es la habilidad de ver lo que hay que hacer y hacerlo.",
+          "explanation": "'Efficient' significa trabajar de una manera organizada sin desperdiciar tiempo ni energía.",
           "audio": "audio/b2/unit-6/e49.mp3"
         }
       ]
@@ -1205,25 +1345,25 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Work and Careers",
     "difficulty": "medium",
-    "transcript": "The boss said that we had done a great job.",
+    "transcript": "I am looking for a new challenge in my career.",
     "content": {
-      "title": "Buen trabajo",
-      "instructions": "Elige la forma correcta del verbo en estilo indirecto.",
+      "title": "Nuevo desafío",
+      "instructions": "Elige la palabra que significa algo nuevo y difícil de hacer.",
       "questions": [
         {
-          "question": "[[The|El]] [[boss|jefe]] [[said|dijo]] [[that|que]] [[we|_______]] [[had|un]] [[done|gran]] [[a|trabajo.]] [[great| ]] [[job.| ]]",
+          "question": "[[I|Estoy]] [[am|buscando]] [[looking|un]] [[for|nuevo]] [[a|desafío]] [[new|en]] [[_______|mi]] [[career.|carrera.]]",
           "options": [
-            "[[had done|habíamos hecho]]",
-            "[[have done|hemos hecho]]",
-            "[[did|hicimos]]"
+            "[[challenge|desafío]]",
+            "[[change|cambio]]",
+            "[[chance|oportunidad]]"
           ],
           "correctAnswer": 0,
-          "explanation": "En estilo indirecto, el pasado simple ('did') a menudo cambia a pasado perfecto ('had done').",
+          "explanation": "'Challenge' es algo nuevo y difícil que requiere esfuerzo y determinación.",
           "audio": "audio/b2/unit-6/e50.mp3"
         }
       ]
     },
     "audioUrl": "audio/b2/unit-6/e50.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   }
 ];

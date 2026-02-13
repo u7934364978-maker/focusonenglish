@@ -1,7 +1,6 @@
-import { Exercise } from '@/lib/exercise-generator';
+import { Exercise } from "@/types/course";
 
-export const UNIT_4_EXERCISES: Exercise[] = [
-  // SENTENCE BUILDING (1-25)
+export const unit4: Exercise[] = [
   {
     "id": "b2-u4-e1",
     "type": "sentence-building",
@@ -12,21 +11,21 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "Malestar general",
       "instructions": "Ordena las palabras para describir cómo te sientes.",
-      "correctSentence": "[[I've|He]] [[been|estado]] [[feeling|sintiéndome]] [[under|un poco]] [[the|mal]] [[weather|llegando a]] [[lately,|últimamente,]] [[so|así que]] [[I|podría]] [[might|ver]] [[see|a]] [[a|un]] [[doctor.|médico.]]",
+      "correctSentence": "[[I've|He]] [[been|estado]] [[feeling|sintiéndome]] [[under|un poco]] [[the|mal]] [[weather| ]] [[lately,|últimamente,]] [[so|así que]] [[I|podría]] [[might|ver]] [[see|a]] [[a|un]] [[doctor.|médico.]]",
       "words": [
-        "[[feeling|sintiéndome]]",
-        "[[the|mal]]",
-        "[[been|estado]]",
         "[[I've|He]]",
+        "[[been|estado]]",
+        "[[feeling|sintiéndome]]",
         "[[under|un poco]]",
-        "[[weather|llegando a]]",
+        "[[the|mal]]",
+        "[[weather| ]]",
+        "[[lately,|últimamente,]]",
         "[[so|así que]]",
-        "[[see|a]]",
-        "[[doctor.|médico.]]",
         "[[I|podría]]",
         "[[might|ver]]",
-        "[[lately,|últimamente,]]",
-        "[[a|un]]"
+        "[[see|a]]",
+        "[[a|un]]",
+        "[[doctor.|médico.]]"
       ],
       "explanation": "To feel 'under the weather' means to feel slightly ill.",
       "audio": "audio/b2/unit-4/e1.mp3"
@@ -46,19 +45,19 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para dar un consejo sobre la dieta.",
       "correctSentence": "[[You|Deberías]] [[ought|reducir]] [[to|el consumo]] [[cut|de]] [[down|grasas]] [[on|saturadas]] [[saturated|para]] [[fats|mejorar]] [[to|tu]] [[improve|salud]] [[your|cardíaca.]] [[heart| ]] [[health.| ]]",
       "words": [
-        "[[cut|de]]",
         "[[You|Deberías]]",
-        "[[to|el consumo]]",
-        "[[on|saturadas]]",
         "[[ought|reducir]]",
-        "[[saturated|para]]",
-        "[[health.| ]]",
-        "[[heart| ]]",
-        "[[your|cardíaca.]]",
-        "[[improve|salud]]",
-        "[[fats|mejorar]]",
+        "[[to|el consumo]]",
+        "[[cut|de]]",
         "[[down|grasas]]",
-        "[[to| ]]"
+        "[[on|saturadas]]",
+        "[[saturated|para]]",
+        "[[fats|mejorar]]",
+        "[[to|tu]]",
+        "[[improve|salud]]",
+        "[[your|cardíaca.]]",
+        "[[heart| ]]",
+        "[[health.| ]]"
       ],
       "explanation": "'Ought to' is a modal verb used for advice, and 'cut down on' means to reduce consumption.",
       "audio": "audio/b2/unit-4/e2.mp3"
@@ -78,17 +77,17 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras sobre la importancia del sueño.",
       "correctSentence": "[[Getting|Dormir]] [[enough|lo]] [[sleep|suficiente]] [[is|es]] [[vital|vital]] [[for|para]] [[your|que tu]] [[body|cuerpo]] [[to|se]] [[recover|recupere]] [[properly.|adecuadamente.]]",
       "words": [
-        "[[enough|lo]]",
         "[[Getting|Dormir]]",
-        "[[is|es]]",
+        "[[enough|lo]]",
         "[[sleep|suficiente]]",
+        "[[is|es]]",
+        "[[vital|vital]]",
+        "[[for|para]]",
         "[[your|que tu]]",
         "[[body|cuerpo]]",
-        "[[vital|vital]]",
-        "[[properly.|adecuadamente.]]",
-        "[[for|para]]",
+        "[[to|se]]",
         "[[recover|recupere]]",
-        "[[to|se]]"
+        "[[properly.|adecuadamente.]]"
       ],
       "explanation": "A gerund ('Getting') is used here as the subject of the sentence.",
       "audio": "audio/b2/unit-4/e3.mp3"
@@ -108,18 +107,18 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras sobre los beneficios del ejercicio.",
       "correctSentence": "[[Regular|El ejercicio]] [[exercise|regular]] [[can|puede]] [[help|ayudarte]] [[you|a]] [[cope|lidiar]] [[with|con]] [[the|las]] [[stresses|tensiones]] [[of|de la]] [[daily|vida]] [[life.|cotidiana.]]",
       "words": [
+        "[[Regular|El ejercicio]]",
         "[[exercise|regular]]",
         "[[can|puede]]",
-        "[[Regular|El ejercicio]]",
         "[[help|ayudarte]]",
-        "[[cope|lidiar]]",
-        "[[life.|cotidiana.]]",
-        "[[stresses|tensiones]]",
-        "[[the|las]]",
         "[[you|a]]",
-        "[[daily|vida]]",
+        "[[cope|lidiar]]",
         "[[with|con]]",
-        "[[of|de la]]"
+        "[[the|las]]",
+        "[[stresses|tensiones]]",
+        "[[of|de la]]",
+        "[[daily|vida]]",
+        "[[life.|cotidiana.]]"
       ],
       "explanation": "'Cope with' means to deal successfully with a difficult situation.",
       "audio": "audio/b2/unit-4/e4.mp3"
@@ -139,19 +138,19 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para sugerir el uso de suplementos.",
       "correctSentence": "[[It|Es]] [[is|muy]] [[highly|recomendable]] [[recommended|que]] [[that|tomes]] [[you|un]] [[take|suplemento]] [[a|si]] [[supplement|te]] [[if|faltan]] [[you|vitaminas.]] [[lack| ]] [[vitamins.| ]]",
       "words": [
-        "[[highly|recomendable]]",
-        "[[is|muy]]",
         "[[It|Es]]",
+        "[[is|muy]]",
+        "[[highly|recomendable]]",
         "[[recommended|que]]",
-        "[[supplement|si]]",
-        "[[take|suplemento]]",
-        "[[you|un]]",
         "[[that|tomes]]",
-        "[[vitamins.| ]]",
-        "[[lack| ]]",
+        "[[you|un]]",
+        "[[take|suplemento]]",
+        "[[a|si]]",
+        "[[supplement|te]]",
+        "[[if|faltan]]",
         "[[you|vitaminas.]]",
-        "[[if|te]]",
-        "[[a|faltan]]"
+        "[[lack| ]]",
+        "[[vitamins.| ]]"
       ],
       "explanation": "'Lack' can be used as a verb meaning not to have enough of something.",
       "audio": "audio/b2/unit-4/e5.mp3"
@@ -171,18 +170,18 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para comparar dos tipos de salud.",
       "correctSentence": "[[Mental|La salud]] [[health|mental]] [[is|es]] [[just|tan]] [[as|importante]] [[important|como]] [[as|la]] [[physical|forma]] [[fitness|física]] [[for|para]] [[overall|el bienestar]] [[well-being.|general.]]",
       "words": [
-        "[[fitness|forma]]",
-        "[[physical|física]]",
-        "[[important|como]]",
-        "[[health|mental]]",
-        "[[as|importante]]",
-        "[[is|es]]",
         "[[Mental|La salud]]",
-        "[[well-being.|general.]]",
-        "[[overall|el bienestar]]",
-        "[[for|para]]",
+        "[[health|mental]]",
+        "[[is|es]]",
+        "[[just|tan]]",
+        "[[as|importante]]",
+        "[[important|como]]",
         "[[as|la]]",
-        "[[just|tan]]"
+        "[[physical|forma]]",
+        "[[fitness|física]]",
+        "[[for|para]]",
+        "[[overall|el bienestar]]",
+        "[[well-being.|general.]]"
       ],
       "explanation": "The structure 'as + adjective + as' is used for comparisons of equality.",
       "audio": "audio/b2/unit-4/e6.mp3"
@@ -202,16 +201,16 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras sobre los riesgos del sedentarismo.",
       "correctSentence": "[[A|Un]] [[sedentary|estilo]] [[lifestyle|de vida]] [[can|sedentario]] [[lead|puede]] [[to|derivar]] [[various|en]] [[long-term|varios]] [[health|problemas]] [[issues.|de salud a largo plazo.]]",
       "words": [
-        "[[lifestyle|de vida]]",
-        "[[sedentary|estilo]]",
         "[[A|Un]]",
+        "[[sedentary|estilo]]",
+        "[[lifestyle|de vida]]",
         "[[can|sedentario]]",
-        "[[issues.|de salud a largo plazo.]]",
-        "[[health|problemas]]",
-        "[[long-term|varios]]",
-        "[[various|en]]",
         "[[lead|puede]]",
-        "[[to|derivar]]"
+        "[[to|derivar]]",
+        "[[various|en]]",
+        "[[long-term|varios]]",
+        "[[health|problemas]]",
+        "[[issues.|de salud a largo plazo.]]"
       ],
       "explanation": "'Sedentary' refers to a way of life that involves little physical activity.",
       "audio": "audio/b2/unit-4/e7.mp3"
@@ -231,17 +230,17 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras sobre el descanso en el trabajo.",
       "correctSentence": "[[By|Tomando]] [[taking|descansos]] [[regular|regulares,]] [[breaks,|puedes]] [[you|prevenir]] [[can|el]] [[prevent|agotamiento]] [[burnout|y]] [[and|mantenerte]] [[stay|productivo.]] [[productive.| ]]",
       "words": [
-        "[[taking|descansos]]",
         "[[By|Tomando]]",
-        "[[breaks,|puedes]]",
+        "[[taking|descansos]]",
         "[[regular|regulares,]]",
-        "[[prevent|agotamiento]]",
-        "[[can|el]]",
-        "[[burnout|y]]",
+        "[[breaks,|puedes]]",
         "[[you|prevenir]]",
-        "[[productive.| ]]",
+        "[[can|el]]",
+        "[[prevent|agotamiento]]",
+        "[[burnout|y]]",
+        "[[and|mantenerte]]",
         "[[stay|productivo.]]",
-        "[[and|mantenerte]]"
+        "[[productive.| ]]"
       ],
       "explanation": "'Burnout' is a state of emotional, physical, and mental exhaustion caused by excessive stress.",
       "audio": "audio/b2/unit-4/e8.mp3"
@@ -261,16 +260,16 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras sobre soluciones para el insomnio.",
       "correctSentence": "[[She's|Ella]] [[been|ha]] [[struggling|estado]] [[with|luchando]] [[insomnia,|con el insomnio,]] [[so|así que]] [[she's|está]] [[trying|probando]] [[mindfulness|la meditación]] [[meditation.|mindfulness.]]",
       "words": [
-        "[[been|ha]]",
         "[[She's|Ella]]",
-        "[[with|luchando]]",
+        "[[been|ha]]",
         "[[struggling|estado]]",
-        "[[so|así que]]",
+        "[[with|luchando]]",
         "[[insomnia,|con el insomnio,]]",
-        "[[trying|probando]]",
+        "[[so|así que]]",
         "[[she's|está]]",
-        "[[meditation.|mindfulness.]]",
-        "[[mindfulness|la meditación]]"
+        "[[trying|probando]]",
+        "[[mindfulness|la meditación]]",
+        "[[meditation.|mindfulness.]]"
       ],
       "explanation": "'Struggle with' means to experience difficulty with something.",
       "audio": "audio/b2/unit-4/e9.mp3"
@@ -290,18 +289,18 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras sobre una dieta saludable.",
       "correctSentence": "[[You|Debes]] [[must|evitar]] [[avoid|los]] [[processed|alimentos]] [[foods|procesados]] [[if|si]] [[you|quieres]] [[want|perder]] [[to|peso]] [[lose|de manera]] [[weight|eficaz.]] [[effectively.| ]]",
       "words": [
-        "[[must|evitar]]",
         "[[You|Debes]]",
-        "[[processed|alimentos]]",
+        "[[must|evitar]]",
         "[[avoid|los]]",
-        "[[if|si]]",
+        "[[processed|alimentos]]",
         "[[foods|procesados]]",
-        "[[want|perder]]",
+        "[[if|si]]",
         "[[you|quieres]]",
-        "[[lose|de manera]]",
+        "[[want|perder]]",
         "[[to|peso]]",
-        "[[effectively.| ]]",
-        "[[weight|eficaz.]]"
+        "[[lose|de manera]]",
+        "[[weight|eficaz.]]",
+        "[[effectively.| ]]"
       ],
       "explanation": "'Must' indicates a strong necessity or obligation.",
       "audio": "audio/b2/unit-4/e10.mp3"
@@ -321,16 +320,16 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras sobre el proceso de recuperación.",
       "correctSentence": "[[He|Él]] [[managed|logró]] [[to|superar]] [[overcome|su]] [[his|adicción]] [[addiction|a través de]] [[through|sesiones]] [[group|de]] [[therapy|terapia]] [[sessions.|grupal.]]",
       "words": [
-        "[[managed|logró]]",
         "[[He|Él]]",
-        "[[overcome|su]]",
+        "[[managed|logró]]",
         "[[to|superar]]",
-        "[[addiction|a través de]]",
+        "[[overcome|su]]",
         "[[his|adicción]]",
-        "[[group|de]]",
+        "[[addiction|a través de]]",
         "[[through|sesiones]]",
-        "[[sessions.|grupal.]]",
-        "[[therapy|terapia]]"
+        "[[group|de]]",
+        "[[therapy|terapia]]",
+        "[[sessions.|grupal.]]"
       ],
       "explanation": "'Manage to' is used to show that someone succeeded in doing something difficult.",
       "audio": "audio/b2/unit-4/e11.mp3"
@@ -350,17 +349,17 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras sobre los beneficios de beber agua.",
       "correctSentence": "[[Drinking|Beber]] [[enough|suficiente]] [[water|agua]] [[helps|ayuda]] [[your|a que tu]] [[skin|piel]] [[look|luzca]] [[more|más]] [[radiant|radiante]] [[and|y]] [[healthy.|sana.]]",
       "words": [
-        "[[enough|suficiente]]",
         "[[Drinking|Beber]]",
-        "[[helps|ayuda]]",
+        "[[enough|suficiente]]",
         "[[water|agua]]",
-        "[[skin|piel]]",
+        "[[helps|ayuda]]",
         "[[your|a que tu]]",
-        "[[more|más]]",
+        "[[skin|piel]]",
         "[[look|luzca]]",
-        "[[healthy.|sana.]]",
+        "[[more|más]]",
+        "[[radiant|radiante]]",
         "[[and|y]]",
-        "[[radiant|radiante]]"
+        "[[healthy.|sana.]]"
       ],
       "explanation": "'Radiant' is an adjective used to describe someone who looks healthy and happy.",
       "audio": "audio/b2/unit-4/e12.mp3"
@@ -380,16 +379,16 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para dar una instrucción formal.",
       "correctSentence": "[[Should|Si]] [[you|sintieras]] [[feel|algún]] [[any|dolor]] [[sharp|agudo,]] [[pain,|detén]] [[stop|el]] [[the|ejercicio]] [[exercise|inmediatamente.]] [[immediately.| ]]",
       "words": [
-        "[[you|sintieras]]",
         "[[Should|Si]]",
-        "[[any|dolor]]",
+        "[[you|sintieras]]",
         "[[feel|algún]]",
-        "[[pain,|detén]]",
+        "[[any|dolor]]",
         "[[sharp|agudo,]]",
-        "[[the|ejercicio]]",
+        "[[pain,|detén]]",
         "[[stop|el]]",
-        "[[immediately.| ]]",
-        "[[exercise|inmediatamente.]]"
+        "[[the|ejercicio]]",
+        "[[exercise|inmediatamente.]]",
+        "[[immediately.| ]]"
       ],
       "explanation": "'Should' at the beginning of a sentence is a formal way to express a conditional.",
       "audio": "audio/b2/unit-4/e13.mp3"
@@ -403,28 +402,31 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Health & Well-being",
     "difficulty": "medium",
-    "transcript": "It's essential to stay hydrated, especially during intense physical activity.",
+    "transcript": "It's high time you cut down on the amount of sugar you consume.",
     "content": {
-      "title": "Importancia de hidratarse",
-      "instructions": "Ordena las palabras sobre la hidratación constante.",
-      "correctSentence": "[[It's|Es]] [[essential|esencial]] [[to|mantenerse]] [[stay|hidratado,]] [[hydrated,|especialmente]] [[especially|durante]] [[during|una]] [[intense|actividad]] [[physical|física]] [[activity.|intensa.]]",
+      "title": "Consumo de azúcar",
+      "instructions": "Ordena las palabras para dar un consejo enfático.",
+      "correctSentence": "[[It's|Ya]] [[high|va]] [[time|siendo]] [[you|hora]] [[cut|de que]] [[down|reduzcas]] [[on|la]] [[the|cantidad]] [[amount|de]] [[of|azúcar]] [[sugar|que]] [[you|consumes.]] [[consume.| ]]",
       "words": [
-        "[[essential|esencial]]",
-        "[[It's|Es]]",
-        "[[stay|hidratado,]]",
-        "[[to|mantenerse]]",
-        "[[especially|durante]]",
-        "[[hydrated,|especialmente]]",
-        "[[intense|actividad]]",
-        "[[during|una]]",
-        "[[activity.|intensa.]]",
-        "[[physical|física]]"
+        "[[It's|Ya]]",
+        "[[high|va]]",
+        "[[time|siendo]]",
+        "[[you|hora]]",
+        "[[cut|de que]]",
+        "[[down|reduzcas]]",
+        "[[on|la]]",
+        "[[the|cantidad]]",
+        "[[amount|de]]",
+        "[[of|azúcar]]",
+        "[[sugar|que]]",
+        "[[you|consumes.]]",
+        "[[consume.| ]]"
       ],
-      "explanation": "'Essential' is a stronger synonym for 'very important'.",
+      "explanation": "'It's high time' is used to say that something should have happened before now.",
       "audio": "audio/b2/unit-4/e14.mp3"
     },
     "audioUrl": "audio/b2/unit-4/e14.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "b2-u4-e15",
@@ -432,29 +434,27 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Health & Well-being",
     "difficulty": "medium",
-    "transcript": "If I hadn't started yoga, I wouldn't have improved my flexibility.",
+    "transcript": "Balanced meals are key to maintaining a healthy metabolism.",
     "content": {
-      "title": "Flexibilidad y Yoga",
-      "instructions": "Ordena las palabras para hablar de un resultado pasado hipotético.",
-      "correctSentence": "[[If|Si]] [[I|no]] [[hadn't|hubiera]] [[started|empezado]] [[yoga,|el yoga,]] [[I|no]] [[wouldn't|habría]] [[have|mejorado]] [[improved|mi]] [[my|flexibilidad.]] [[flexibility.| ]]",
+      "title": "Comidas equilibradas",
+      "instructions": "Ordena las palabras sobre nutrición.",
+      "correctSentence": "[[Balanced|Las comidas]] [[meals|equilibradas]] [[are|son]] [[key|clave]] [[to|para]] [[maintaining|mantener]] [[a|un]] [[healthy|metabolismo]] [[metabolism.|saludable.]]",
       "words": [
-        "[[hadn't|hubiera]]",
-        "[[I|no]]",
-        "[[If|Si]]",
-        "[[yoga,|el yoga,]]",
-        "[[started|empezado]]",
-        "[[wouldn't|habría]]",
-        "[[I|no]]",
-        "[[improved|mi]]",
-        "[[have|mejorado]]",
-        "[[flexibility.| ]]",
-        "[[my|flexibilidad.]]"
+        "[[Balanced|Las comidas]]",
+        "[[meals|equilibradas]]",
+        "[[are|son]]",
+        "[[key|clave]]",
+        "[[to|para]]",
+        "[[maintaining|mantener]]",
+        "[[a|un]]",
+        "[[healthy|metabolismo]]",
+        "[[metabolism.|saludable.]]"
       ],
-      "explanation": "This is a Third Conditional sentence used for hypothetical past situations.",
+      "explanation": "A 'balanced meal' contains all the necessary nutrients in the correct proportions.",
       "audio": "audio/b2/unit-4/e15.mp3"
     },
     "audioUrl": "audio/b2/unit-4/e15.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b2-u4-e16",
@@ -462,28 +462,28 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Health & Well-being",
     "difficulty": "medium",
-    "transcript": "The doctor prescribed some antibiotics to clear up the infection.",
+    "transcript": "You had better see a specialist about those recurring headaches.",
     "content": {
-      "title": "Receta médica",
-      "instructions": "Ordena las palabras sobre un tratamiento médico.",
-      "correctSentence": "[[The|El]] [[doctor|médico]] [[prescribed|recetó]] [[some|algunos]] [[antibiotics|antibióticos]] [[to|para]] [[clear|curar]] [[up|la]] [[the|infección.]] [[infection.| ]]",
+      "title": "Dolores de cabeza",
+      "instructions": "Ordena las palabras para dar un consejo serio.",
+      "correctSentence": "[[You|Más]] [[had|te]] [[better|vale]] [[see|ver]] [[a|a un]] [[specialist|especialista]] [[about|por]] [[those|esos]] [[recurring|dolores]] [[headaches.|de cabeza recurrentes.]]",
       "words": [
-        "[[doctor|médico]]",
-        "[[The|El]]",
-        "[[some|algunos]]",
-        "[[prescribed|recetó]]",
-        "[[to|para]]",
-        "[[antibiotics|antibióticos]]",
-        "[[the|infección.]]",
-        "[[up|la]]",
-        "[[clear|curar]]",
-        "[[infection.| ]]"
+        "[[You|Más]]",
+        "[[had|te]]",
+        "[[better|vale]]",
+        "[[see|ver]]",
+        "[[a|a un]]",
+        "[[specialist|especialista]]",
+        "[[about|por]]",
+        "[[those|esos]]",
+        "[[recurring|dolores]]",
+        "[[headaches.|de cabeza recurrentes.]]"
       ],
-      "explanation": "'Clear up' is a phrasal verb meaning to cure or resolve a minor illness.",
+      "explanation": "'Had better' is used to give strong advice or a warning.",
       "audio": "audio/b2/unit-4/e16.mp3"
     },
     "audioUrl": "audio/b2/unit-4/e16.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "b2-u4-e17",
@@ -491,29 +491,28 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Health & Well-being",
     "difficulty": "medium",
-    "transcript": "Losing weight requires a combination of exercise and a healthy diet.",
+    "transcript": "Obesity is a major health concern in many developed nations.",
     "content": {
-      "title": "La clave del peso",
-      "instructions": "Ordena las palabras sobre cómo perder peso.",
-      "correctSentence": "[[Losing|Perder]] [[weight|peso]] [[requires|requiere]] [[a|una]] [[combination|combinación]] [[of|de]] [[exercise|ejercicio]] [[and|y]] [[a|una]] [[healthy|dieta]] [[diet.|saludable.]]",
+      "title": "Obesidad",
+      "instructions": "Ordena las palabras sobre un problema de salud pública.",
+      "correctSentence": "[[Obesity|La obesidad]] [[is|es]] [[a|un]] [[major|gran]] [[health|problema]] [[concern|de salud]] [[in|en]] [[many|muchas]] [[developed|naciones]] [[nations.|desarrolladas.]]",
       "words": [
-        "[[weight|peso]]",
-        "[[Losing|Perder]]",
-        "[[a|una]]",
-        "[[requires|requiere]]",
-        "[[of|de]]",
-        "[[combination|combinación]]",
-        "[[and|y]]",
-        "[[exercise|ejercicio]]",
-        "[[diet.|saludable.]]",
-        "[[healthy|dieta]]",
-        "[[a|una]]"
+        "[[Obesity|La obesidad]]",
+        "[[is|es]]",
+        "[[a|un]]",
+        "[[major|gran]]",
+        "[[health|problema]]",
+        "[[concern|de salud]]",
+        "[[in|en]]",
+        "[[many|muchas]]",
+        "[[developed|naciones]]",
+        "[[nations.|desarrolladas.]]"
       ],
-      "explanation": "The gerund 'Losing' acts as the subject here.",
+      "explanation": "'Concern' here means a matter of interest or importance to someone.",
       "audio": "audio/b2/unit-4/e17.mp3"
     },
     "audioUrl": "audio/b2/unit-4/e17.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b2-u4-e18",
@@ -521,29 +520,30 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Health & Well-being",
     "difficulty": "medium",
-    "transcript": "You had better quit smoking if you want to live longer.",
+    "transcript": "If you don't warm up before exercising, you might pull a muscle.",
     "content": {
-      "title": "Un consejo serio",
-      "instructions": "Ordena las palabras para dar una recomendación fuerte.",
-      "correctSentence": "[[You|Sería mejor]] [[had|que]] [[better|dejaras]] [[quit|de]] [[smoking|fumar]] [[if|si]] [[you|quieres]] [[want|vivir]] [[to|más]] [[live|tiempo.]] [[longer.| ]]",
+      "title": "Calentamiento",
+      "instructions": "Ordena las palabras sobre la prevención de lesiones.",
+      "correctSentence": "[[If|Si]] [[you|no]] [[don't|calientas]] [[warm|antes]] [[up|de]] [[before|hacer]] [[exercising,|ejercicio,]] [[you|podrías]] [[might|sufrir]] [[pull|un]] [[a|tirón]] [[muscle.|muscular.]]",
       "words": [
-        "[[had|que]]",
-        "[[You|Sería mejor]]",
-        "[[quit|de]]",
-        "[[better|dejaras]]",
-        "[[if|si]]",
-        "[[smoking|fumar]]",
-        "[[want|vivir]]",
-        "[[you|quieres]]",
-        "[[longer.| ]]",
-        "[[live|más]]",
-        "[[to|tiempo.]]"
+        "[[If|Si]]",
+        "[[you|no]]",
+        "[[don't|calientas]]",
+        "[[warm|antes]]",
+        "[[up|de]]",
+        "[[before|hacer]]",
+        "[[exercising,|ejercicio,]]",
+        "[[you|podrías]]",
+        "[[might|sufrir]]",
+        "[[pull|un]]",
+        "[[a|tirón]]",
+        "[[muscle.|muscular.]]"
       ],
-      "explanation": "'Had better' is used to give strong advice or a warning.",
+      "explanation": "'Pull a muscle' means to injure a muscle by stretching it too much.",
       "audio": "audio/b2/unit-4/e18.mp3"
     },
     "audioUrl": "audio/b2/unit-4/e18.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "b2-u4-e19",
@@ -551,25 +551,23 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Health & Well-being",
     "difficulty": "medium",
-    "transcript": "High blood pressure is often referred to as a silent killer.",
+    "transcript": "She's been prescribed antibiotics to treat the persistent infection.",
     "content": {
-      "title": "Tensión arterial",
-      "instructions": "Ordena las palabras sobre la hipertensión.",
-      "correctSentence": "[[High|La presión]] [[blood|arterial]] [[pressure|alta]] [[is|a menudo]] [[often|se]] [[referred|conoce]] [[to|como]] [[as|una]] [[a|causa]] [[silent|de muerte]] [[killer.|silenciosa.]]",
+      "title": "Antibióticos",
+      "instructions": "Ordena las palabras sobre un tratamiento médico.",
+      "correctSentence": "[[She's|Le]] [[been|han]] [[prescribed|recetado]] [[antibiotics|antibióticos]] [[to|para]] [[treat|tratar]] [[the|la]] [[persistent|infección]] [[infection.|persistente.]]",
       "words": [
-        "[[blood|arterial]]",
-        "[[High|La presión]]",
-        "[[is|a menudo]]",
-        "[[pressure|alta]]",
-        "[[referred|conoce]]",
-        "[[often|se]]",
-        "[[as|una]]",
-        "[[to|como]]",
-        "[[silent|de muerte]]",
-        "[[a|causa]]",
-        "[[killer.|silenciosa.]]"
+        "[[She's|Le]]",
+        "[[been|han]]",
+        "[[prescribed|recetado]]",
+        "[[antibiotics|antibióticos]]",
+        "[[to|para]]",
+        "[[treat|tratar]]",
+        "[[the|la]]",
+        "[[persistent|infección]]",
+        "[[infection.|persistente.]]"
       ],
-      "explanation": "'Referred to as' means to be named or called in a certain way.",
+      "explanation": "'Prescribe' is the action of a doctor advising and authorizing the use of a medicine.",
       "audio": "audio/b2/unit-4/e19.mp3"
     },
     "audioUrl": "audio/b2/unit-4/e19.mp3",
@@ -581,28 +579,30 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Health & Well-being",
     "difficulty": "medium",
-    "transcript": "Taking up a hobby can significantly improve your mental health.",
+    "transcript": "I would rather go for a walk than stay indoors all day.",
     "content": {
-      "title": "Nuevas aficiones",
-      "instructions": "Ordena las palabras sobre el bienestar mental.",
-      "correctSentence": "[[Taking|Empezar]] [[up|un]] [[a|pasatiempo]] [[hobby|puede]] [[can|mejorar]] [[significantly|significativamente]] [[improve|tu]] [[your|salud]] [[mental|mental.]] [[health.| ]]",
+      "title": "Preferencias saludables",
+      "instructions": "Ordena las palabras para expresar una preferencia.",
+      "correctSentence": "[[I|Preferiría]] [[would|ir]] [[rather|a]] [[go|dar]] [[for|un]] [[a|paso]] [[walk|que]] [[than|quedarme]] [[stay|en]] [[indoors|casa]] [[all|todo]] [[day.|el día.]]",
       "words": [
-        "[[up|un]]",
-        "[[Taking|Empezar]]",
-        "[[hobby|puede]]",
-        "[[a|pasatiempo]]",
-        "[[significantly|significativamente]]",
-        "[[can|mejorar]]",
-        "[[your|salud]]",
-        "[[improve|tu]]",
-        "[[health.| ]]",
-        "[[mental|mental.]]"
+        "[[I|Preferiría]]",
+        "[[would|ir]]",
+        "[[rather|a]]",
+        "[[go|dar]]",
+        "[[for|un]]",
+        "[[a|paso]]",
+        "[[walk|que]]",
+        "[[than|quedarme]]",
+        "[[stay|en]]",
+        "[[indoors|casa]]",
+        "[[all|todo]]",
+        "[[day.|el día.]]"
       ],
-      "explanation": "'Take up' is a phrasal verb meaning to start a new activity.",
+      "explanation": "'Would rather' is used to express preferences.",
       "audio": "audio/b2/unit-4/e20.mp3"
     },
     "audioUrl": "audio/b2/unit-4/e20.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "b2-u4-e21",
@@ -610,25 +610,24 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Health & Well-being",
     "difficulty": "medium",
-    "transcript": "I'm allergic to pollen, so I sneeze a lot during spring.",
+    "transcript": "It's vital to stay hydrated, especially during intense physical activity.",
     "content": {
-      "title": "Alergias primaverales",
-      "instructions": "Ordena las palabras para describir una alergia.",
-      "correctSentence": "[[I'm|Soy]] [[allergic|alérgico]] [[to|al]] [[pollen,|polen,]] [[so|así que]] [[I|estornudo]] [[sneeze|mucho]] [[a|durante]] [[lot|la]] [[during|primavera.]] [[spring.| ]]",
+      "title": "Hidratación",
+      "instructions": "Ordena las palabras sobre la importancia del agua.",
+      "correctSentence": "[[It's|Es]] [[vital|vital]] [[to|mantenerse]] [[stay|hidratado,]] [[hydrated,|especialmente]] [[especially|durante]] [[during|la]] [[intense|actividad]] [[physical|física]] [[activity.|intensa.]]",
       "words": [
-        "[[allergic|alérgico]]",
-        "[[I'm|Soy]]",
-        "[[pollen,|polen,]]",
-        "[[to|al]]",
-        "[[I|estornudo]]",
-        "[[so|así que]]",
-        "[[a|durante]]",
-        "[[sneeze|mucho]]",
-        "[[during|primavera.]]",
-        "[[lot|la]]",
-        "[[spring.| ]]"
+        "[[It's|Es]]",
+        "[[vital|vital]]",
+        "[[to|mantenerse]]",
+        "[[stay|hidratado,]]",
+        "[[hydrated,|especialmente]]",
+        "[[especially|durante]]",
+        "[[during|la]]",
+        "[[intense|actividad]]",
+        "[[physical|física]]",
+        "[[activity.|intensa.]]"
       ],
-      "explanation": "To be 'allergic to' something means to have a reaction to it.",
+      "explanation": "'Hydrated' means to cause the body to absorb water.",
       "audio": "audio/b2/unit-4/e21.mp3"
     },
     "audioUrl": "audio/b2/unit-4/e21.mp3",
@@ -640,25 +639,25 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Health & Well-being",
     "difficulty": "medium",
-    "transcript": "We could have avoided the flu if we had been vaccinated.",
+    "transcript": "You needn't have worried about the surgery; it was very simple.",
     "content": {
-      "title": "Vacunación",
-      "instructions": "Ordena las palabras sobre una oportunidad perdida.",
-      "correctSentence": "[[We|Podríamos]] [[could|haber]] [[have|evitado]] [[avoided|la]] [[the|gripe]] [[flu|si]] [[if|nos]] [[we|hubiéramos]] [[had|vacunado.]] [[been| ]] [[vaccinated.| ]]",
+      "title": "Preocupación innecesaria",
+      "instructions": "Ordena las palabras para hablar de una preocupación pasada.",
+      "correctSentence": "[[You|No]] [[needn't|habría]] [[have|hecho]] [[worried|falta]] [[about|que te]] [[the|preocuparas]] [[surgery;|por la cirugía;]] [[it|fue]] [[was|muy]] [[very|sencilla.]] [[simple.| ]]",
       "words": [
-        "[[could|haber]]",
-        "[[We|Podríamos]]",
-        "[[avoided|la]]",
-        "[[have|evitado]]",
-        "[[flu|si]]",
-        "[[the|gripe]]",
-        "[[we|hubiéramos]]",
-        "[[if|nos]]",
-        "[[vaccinated.| ]]",
-        "[[had|vacunado.]]",
-        "[[been| ]]"
+        "[[You|No]]",
+        "[[needn't|habría]]",
+        "[[have|hecho]]",
+        "[[worried|falta]]",
+        "[[about|que te]]",
+        "[[the|preocuparas]]",
+        "[[surgery;|por la cirugía;]]",
+        "[[it|fue]]",
+        "[[was|muy]]",
+        "[[very|sencilla.]]",
+        "[[simple.| ]]"
       ],
-      "explanation": "'Could have' is used to talk about possibilities that did not happen in the past.",
+      "explanation": "'Needn't have + past participle' is used for actions that were done but weren't necessary.",
       "audio": "audio/b2/unit-4/e22.mp3"
     },
     "audioUrl": "audio/b2/unit-4/e22.mp3",
@@ -670,24 +669,23 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Health & Well-being",
     "difficulty": "medium",
-    "transcript": "A balanced diet consists of fruits, vegetables, and lean proteins.",
+    "transcript": "A high-fiber diet is beneficial for your digestive system.",
     "content": {
-      "title": "Dieta equilibrada",
-      "instructions": "Ordena las palabras sobre nutrición.",
-      "correctSentence": "[[A|Una]] [[balanced|dieta]] [[diet|equilibrada]] [[consists|consiste]] [[of|en]] [[fruits,|frutas,]] [[vegetables,|verduras]] [[and|y]] [[lean|proteínas]] [[proteins.|magras.]]",
+      "title": "Dieta y fibra",
+      "instructions": "Ordena las palabras sobre salud digestiva.",
+      "correctSentence": "[[A|Una]] [[high-fiber|dieta]] [[diet|rica]] [[is|en fibra]] [[beneficial|es]] [[for|beneficiosa]] [[your|para tu]] [[digestive|sistema]] [[system.|digestivo.]]",
       "words": [
-        "[[balanced|dieta]]",
         "[[A|Una]]",
-        "[[consists|consiste]]",
-        "[[diet|equilibrada]]",
-        "[[fruits,|frutas,]]",
-        "[[of|en]]",
-        "[[and|y]]",
-        "[[vegetables,|verduras]]",
-        "[[proteins.|magras.]]",
-        "[[lean|proteínas]]"
+        "[[high-fiber|dieta]]",
+        "[[diet|rica]]",
+        "[[is|en fibra]]",
+        "[[beneficial|es]]",
+        "[[for|beneficiosa]]",
+        "[[your|para tu]]",
+        "[[digestive|sistema]]",
+        "[[system.|digestivo.]]"
       ],
-      "explanation": "'Lean proteins' are proteins with a relatively low fat content.",
+      "explanation": "'Beneficial' is an adjective meaning resulting in good; favorable or advantageous.",
       "audio": "audio/b2/unit-4/e23.mp3"
     },
     "audioUrl": "audio/b2/unit-4/e23.mp3",
@@ -699,24 +697,23 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Health & Well-being",
     "difficulty": "medium",
-    "transcript": "I'm looking forward to finishing my rehab and playing again.",
+    "transcript": "Should you require further information, please contact the clinic.",
     "content": {
-      "title": "Fin de rehabilitación",
-      "instructions": "Ordena las palabras para expresar deseo de recuperación.",
-      "correctSentence": "[[I'm|Tengo]] [[looking|muchas]] [[forward|ganas]] [[to|de]] [[finishing|terminar]] [[my|mi]] [[rehab|rehabilitación]] [[and|y]] [[playing|jugar]] [[again.|de nuevo.]]",
+      "title": "Contacto con la clínica",
+      "instructions": "Ordena las palabras para una instrucción formal.",
+      "correctSentence": "[[Should|Si]] [[you|necesitara]] [[require|más]] [[further|información,]] [[information,|por]] [[please|favor]] [[contact|póngase en]] [[the|contacto]] [[clinic.|con la clínica.]]",
       "words": [
-        "[[looking|muchas]]",
-        "[[I'm|Tengo]]",
-        "[[to|de]]",
-        "[[forward|ganas]]",
-        "[[my|mi]]",
-        "[[finishing|terminar]]",
-        "[[and|y]]",
-        "[[rehab|rehabilitación]]",
-        "[[again.|de nuevo.]]",
-        "[[playing|jugar]]"
+        "[[Should|Si]]",
+        "[[you|necesitara]]",
+        "[[require|más]]",
+        "[[further|información,]]",
+        "[[information,|por]]",
+        "[[please|favor]]",
+        "[[contact|póngase en]]",
+        "[[the|contacto]]",
+        "[[clinic.|con la clínica.]]"
       ],
-      "explanation": "'Look forward to' is followed by a gerund ('finishing').",
+      "explanation": "'Should' as a formal conditional replaces 'if'.",
       "audio": "audio/b2/unit-4/e24.mp3"
     },
     "audioUrl": "audio/b2/unit-4/e24.mp3",
@@ -728,52 +725,48 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Health & Well-being",
     "difficulty": "medium",
-    "transcript": "Mindfulness can help you stay grounded when you are feeling overwhelmed.",
+    "transcript": "Mental well-being is often overlooked in traditional healthcare systems.",
     "content": {
-      "title": "Sentirse abrumado",
-      "instructions": "Ordena las palabras sobre técnicas de relajación.",
-      "correctSentence": "[[Mindfulness|El mindfulness]] [[can|puede]] [[help|ayudarte]] [[you|a]] [[stay|mantener]] [[grounded|los pies en el suelo]] [[when|cuando]] [[you|te]] [[are|sientes]] [[feeling|abrumado.]] [[overwhelmed.| ]]",
+      "title": "Salud mental",
+      "instructions": "Ordena las palabras sobre el bienestar mental.",
+      "correctSentence": "[[Mental|El bienestar]] [[well-being|mental]] [[is|a menudo]] [[often|se]] [[overlooked|pasa por]] [[in|alto en los]] [[traditional|sistemas]] [[healthcare|sanitarios]] [[systems.|tradicionales.]]",
       "words": [
-        "[[can|puede]]",
-        "[[Mindfulness|El mindfulness]]",
-        "[[you|a]]",
-        "[[help|ayudarte]]",
-        "[[grounded|los pies en el suelo]]",
-        "[[stay|mantener]]",
-        "[[you|te]]",
-        "[[when|cuando]]",
-        "[[overwhelmed.| ]]",
-        "[[feeling|abrumado.]]",
-        "[[are|sientes]]"
+        "[[Mental|El bienestar]]",
+        "[[well-being|mental]]",
+        "[[is|a menudo]]",
+        "[[often|se]]",
+        "[[overlooked|pasa por]]",
+        "[[in|alto en los]]",
+        "[[traditional|sistemas]]",
+        "[[healthcare|sanitarios]]",
+        "[[systems.|tradicionales.]]"
       ],
-      "explanation": "To 'stay grounded' means to stay emotionally stable and sensible.",
+      "explanation": "'Overlooked' means to fail to notice something.",
       "audio": "audio/b2/unit-4/e25.mp3"
     },
     "audioUrl": "audio/b2/unit-4/e25.mp3",
     "topicName": "Vocabulary"
   },
-
-  // MULTIPLE CHOICE (26-50)
   {
     "id": "b2-u4-e26",
     "type": "multiple-choice",
     "level": "B2",
     "topic": "Health & Well-being",
     "difficulty": "medium",
-    "transcript": "I've decided to give up sugary drinks to improve my health.",
+    "transcript": "I've been feeling under the weather lately, so I think I'll stay in.",
     "content": {
-      "title": "Dejar el azúcar",
-      "instructions": "Elige el phrasal verb que significa 'dejar de hacer algo'.",
+      "title": "Bajo de forma",
+      "instructions": "Elige la expresión que significa sentirse un poco enfermo.",
       "questions": [
         {
-          "question": "[[I've|He]] [[decided|decidido]] [[to|_______]] [[sugary|las]] [[drinks|bebidas]] [[to|azucaradas]] [[improve|para]] [[my|mejorar]] [[health.|mi salud.]]",
+          "question": "[[I've|He]] [[been|estado]] [[feeling|sintiéndome]] [[_______|un poco mal]] [[lately,|últimamente...]]",
           "options": [
-            "[[give up|dejar/abandonar]]",
-            "[[give in|ceder]]",
-            "[[give out|agotarse]]"
+            "[[under the weather|un poco mal]]",
+            "[[over the moon|muy feliz]]",
+            "[[on the mend|recuperándome]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Give up' means to stop doing or using something.",
+          "explanation": "'Under the weather' is an idiom meaning slightly unwell or in low spirits.",
           "audio": "audio/b2/unit-4/e26.mp3"
         }
       ]
@@ -787,20 +780,20 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Health & Well-being",
     "difficulty": "medium",
-    "transcript": "If the symptoms persist, you should see a specialist.",
+    "transcript": "You ought to see a specialist if the pain persists.",
     "content": {
-      "title": "Síntomas persistentes",
-      "instructions": "Elige el verbo modal para dar un consejo.",
+      "title": "Consejo médico",
+      "instructions": "Elige el modal correcto para dar un consejo fuerte.",
       "questions": [
         {
-          "question": "[[If|Si]] [[the|los]] [[symptoms|síntomas]] [[persist,|persisten,]] [[you|_______]] [[see|ver]] [[a|a]] [[specialist.|un especialista.]]",
+          "question": "[[You|Deberías]] [[_______|ir a]] [[to| ]] [[see|ver]] [[a|a un]] [[specialist...|especialista...]]",
           "options": [
-            "[[should|deberías]]",
-            "[[might|podrías]]",
-            "[[could|puedes]]"
+            "[[ought|deberías]]",
+            "[[must|debes]]",
+            "[[should|deberías]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Should' is the standard modal for giving advice.",
+          "explanation": "'Ought to' is used to give advice or make recommendations.",
           "audio": "audio/b2/unit-4/e27.mp3"
         }
       ]
@@ -820,7 +813,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Elige el phrasal verb que significa 'recuperarse de una enfermedad'.",
       "questions": [
         {
-          "question": "[[It's|Es]] [[hard|difícil]] [[to|_______]] [[a|un]] [[cold|resfriado]] [[during|durante]] [[the|los]] [[winter|meses]] [[months.|de invierno.]]",
+          "question": "[[It's|Es]] [[hard|difícil]] [[to| ]] [[_______|recuperarse de]] [[a|un]] [[cold|resfriado]] [[during|durante]] [[the|los]] [[winter|meses]] [[months.|de invierno.]]",
           "options": [
             "[[get over|recuperarse]]",
             "[[get through|pasar por]]",
@@ -847,11 +840,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma que expresa falta de necesidad.",
       "questions": [
         {
-          "question": "[[You|No]] [[_______|hace]] [[worry|falta que]] [[about|te]] [[the|preocupes]] [[test|por]] [[results;|los resultados.]]",
+          "question": "[[You|No]] [[_______|hace falta]] [[worry|que te preocupes]] [[about|por]] [[the|los]] [[test|resultados]] [[results;|de la prueba.]]",
           "options": [
-            "[[needn't|necesitas]]",
-            "[[mustn't|debes]]",
-            "[[shouldn't|deberías]]"
+            "[[needn't|no es necesario]]",
+            "[[mustn't|está prohibido]]",
+            "[[shouldn't|no deberías]]"
           ],
           "correctAnswer": 0,
           "explanation": "'Needn't' is used to show that there is no obligation or necessity.",
@@ -874,10 +867,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Elige el phrasal verb que significa 'retirarse' de un evento.",
       "questions": [
         {
-          "question": "[[The|El]] [[athlete|atleta]] [[had|tuvo]] [[to|que]] [[_______|_______]] [[of|de]] [[the|la]] [[competition|competición]] [[due|debido]] [[to|a]] [[an|una]] [[injury.|lesión.]]",
+          "question": "[[The|El]] [[athlete|atleta]] [[had|tuvo]] [[to|que]] [[_______|retirarse]] [[of|de]] [[the|la]] [[competition|competición]] [[due|debido]] [[to|a]] [[an|una]] [[injury.|lesión.]]",
           "options": [
             "[[pull out|retirarse]]",
-            "[[pull through|sobrevivir/recuperarse]]",
+            "[[pull through|sobrevivir]]",
             "[[pull up|detenerse]]"
           ],
           "correctAnswer": 0,
@@ -928,9 +921,9 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra que describe las revisiones médicas de rutina.",
       "questions": [
         {
-          "question": "[[Regular|Los]] [[_______|_______]] [[are|regulares]] [[essential|son]] [[to|esenciales.]] [[catch| ]] [[any| ]]",
+          "question": "[[Regular|Los]] [[_______|chequeos]] [[are|regulares]] [[essential|son]] [[to|esenciales]] [[catch|para detectar]] [[any|problemas.]] [[problems| ]] [[early.| ]]",
           "options": [
-            "[[check-ups|chequeos]]",
+            "[[check-ups|revisiones]]",
             "[[check-ins|registros]]",
             "[[check-outs|salidas]]"
           ],
@@ -955,7 +948,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta después de 'It's about time'.",
       "questions": [
         {
-          "question": "[[It's|Ya]] [[about|va]] [[time|siendo]] [[you|hora]] [[_______|de que]] [[taking|te]] [[your|tomaras]] [[health|la salud]] [[seriously.|en serio.]]",
+          "question": "[[It's|Ya]] [[about|va]] [[time|siendo]] [[you|hora]] [[_______|que empezaras]] [[taking|a tomarte]] [[your|tu]] [[health|salud]] [[seriously.|en serio.]]",
           "options": [
             "[[started|empezaras]]",
             "[[start|empieces]]",
@@ -982,11 +975,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que describe a alguien preocupado por su salud.",
       "questions": [
         {
-          "question": "[[She's|Ella]] [[very|está]] [[very|muy]] [[_______|_______]] [[and|y]] [[always|siempre]] [[checks|revisa]] [[the|las]] [[labels.|etiquetas.]]",
+          "question": "[[She's|Ella]] [[very|es]] [[very|muy]] [[_______|consciente de la salud]] [[and|y]] [[always|siempre]] [[checks|revisa]] [[the|las]] [[labels.|etiquetas.]]",
           "options": [
-            "[[health-conscious|preocupada por la salud]]",
-            "[[health-unaware|despreocupada por la salud]]",
-            "[[health-fearing|temerosa por la salud]]"
+            "[[health-conscious|consciente]]",
+            "[[health-unaware|inconsciente]]",
+            "[[health-fearing|temerosa]]"
           ],
           "correctAnswer": 0,
           "explanation": "'Health-conscious' means to be aware of and concerned about one's health.",
@@ -1009,7 +1002,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta después de 'I'd rather you'.",
       "questions": [
         {
-          "question": "[[I'd|Preferiría]] [[rather|que]] [[you|no]] [[_______|_______]] [[in|en]] [[the|la]] [[house.|casa.]]",
+          "question": "[[I'd|Preferiría]] [[rather|que]] [[you|no]] [[_______|fumaras]] [[in|en]] [[the|la]] [[house.|casa.]]",
           "options": [
             "[[didn't smoke|fumaras]]",
             "[[don't smoke|fumes]]",
@@ -1036,7 +1029,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que suele acompañar a 'operation'.",
       "questions": [
         {
-          "question": "[[The|El]] [[surgeon|cirujano]] [[_______|_______]] [[a|una]] [[life-saving|operación]] [[operation|que]] [[on|salvó]] [[the|la]] [[patient.|vida al paciente.]]",
+          "question": "[[The|El]] [[surgeon|cirujano]] [[_______|realizó]] [[a|una]] [[life-saving|operación]] [[operation|que salvó la vida]] [[on|al]] [[the|paciente.]] [[patient.| ]]",
           "options": [
             "[[performed|realizó]]",
             "[[made|hizo]]",
@@ -1063,7 +1056,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Elige la expresión que indica probabilidad.",
       "questions": [
         {
-          "question": "[[He|Es]] [[is|_______]] [[likely|que]] [[to|se]] [[make|recupere]] [[a|totalmente]] [[full|en]] [[recovery.|pocas semanas.]]",
+          "question": "[[He|Es]] [[is|_______]] [[likely|probable]] [[to|que]] [[make|se]] [[a|recupere]] [[full|totalmente.]] [[recovery.| ]]",
           "options": [
             "[[likely|probable]]",
             "[[possibly|posiblemente]]",
@@ -1090,9 +1083,9 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que significa 'lento' o 'sin energía'.",
       "questions": [
         {
-          "question": "[[I've|Me]] [[been|he]] [[feeling|estado]] [[quite|sintiendo]] [[_______|_______]] [[lately.|últimamente.]]",
+          "question": "[[I've|Me]] [[been|he]] [[feeling|estado]] [[quite|sintiendo]] [[_______|lento y sin energía]] [[lately.|últimamente.]]",
           "options": [
-            "[[sluggish|lento/apático]]",
+            "[[sluggish|apático]]",
             "[[sleazy|descuidado]]",
             "[[slender|esbelto]]"
           ],
@@ -1117,7 +1110,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para introducir una suposición.",
       "questions": [
         {
-          "question": "[[_______|_______]] [[you|que]] [[were|fueras]] [[unable|incapaz]] [[to|de]] [[walk,|caminar...]]",
+          "question": "[[_______|Supongamos]] [[you|que]] [[were|fueras]] [[unable|incapaz]] [[to|de]] [[walk,|caminar...]]",
           "options": [
             "[[Suppose|Supongamos]]",
             "[[Imagine|Imagina]]",
@@ -1144,7 +1137,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el estado de un paciente que no cambia.",
       "questions": [
         {
-          "question": "[[The|El]] [[patient's|estado]] [[condition|del]] [[is|paciente]] [[_______|_______]].",
+          "question": "[[The|El]] [[patient's|estado]] [[condition|del]] [[is|paciente]] [[_______|es estable.]]",
           "options": [
             "[[stable|estable]]",
             "[[static|estático]]",
@@ -1171,7 +1164,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector que significa 'siempre que'.",
       "questions": [
         {
-          "question": "[[_______|_______]] [[that|que]] [[you|sigas]] [[follow|el]] [[the|tratamiento,]] [[treatment,|te recuperarás.]]",
+          "question": "[[_______|Siempre]] [[that|que]] [[you|sigas]] [[follow|el]] [[the|tratamiento,]] [[treatment,|te recuperarás.]]",
           "options": [
             "[[Provided|Siempre que]]",
             "[[Unless|A menos que]]",
@@ -1198,11 +1191,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo para una enfermedad que dura mucho tiempo.",
       "questions": [
         {
-          "question": "[[_______|El estrés]] [[stress|crónico]] [[can|puede]] [[lead|derivar]] [[to|en]] [[serious|serias]] [[diseases.|enfermedades.]]",
+          "question": "[[_______|El estrés crónico]] [[stress|puede]] [[can|derivar]] [[lead|en]] [[to|enfermedades]] [[serious|serias.]] [[diseases.| ]]",
           "options": [
             "[[Chronic|Crónico]]",
-            "[[Critical|Crítico]]",
-            "[[Crucial|Crucial]]"
+            "[[Crucial|Crucial]]",
+            "[[Cynical|Cínico]]"
           ],
           "correctAnswer": 0,
           "explanation": "'Chronic' refers to a condition that persists for a long time or constantly recurs.",
@@ -1219,20 +1212,20 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Health & Well-being",
     "difficulty": "medium",
-    "transcript": "Had I known about the risks, I would have been more careful.",
+    "transcript": "If only I hadn't skipped my workout today, I'd feel better.",
     "content": {
-      "title": "Inversión condicional",
-      "instructions": "Elige la forma invertida de 'If I had known'.",
+      "title": "Saltarse el entrenamiento",
+      "instructions": "Elige la forma verbal correcta para el tercer condicional.",
       "questions": [
         {
-          "question": "[[_______|_______]] [[I|si]] [[known|hubiera]] [[about|sabido]] [[the|los]] [[risks,|riesgos...]]",
+          "question": "[[If|Ojalá]] [[only|no]] [[I|me]] [[_______|hubiera saltado]] [[skipped|mi]] [[my|entrenamiento...]]",
           "options": [
-            "[[Had|De]]",
-            "[[Have|Si]]",
-            "[[Did|Si]]"
+            "[[hadn't|no me hubiera]]",
+            "[[haven't|no me haya]]",
+            "[[didn't|no me]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Had I known' is a formal inversion of 'If I had known'.",
+          "explanation": "'If only' + past perfect is used to express regret about a past situation.",
           "audio": "audio/b2/unit-4/e43.mp3"
         }
       ]
@@ -1246,20 +1239,20 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Health & Well-being",
     "difficulty": "medium",
-    "transcript": "The outbreak of the virus caused global concern.",
+    "transcript": "Many people use herbal remedies to complement conventional medicine.",
     "content": {
-      "title": "Brote de virus",
-      "instructions": "Elige la palabra para el inicio repentino de una enfermedad.",
+      "title": "Remedios naturales",
+      "instructions": "Elige la palabra para medicinas hechas de plantas.",
       "questions": [
         {
-          "question": "[[The|El]] [[_______|_______]] [[of|del]] [[the|virus]] [[virus|causó]] [[caused|preocupación]] [[global|mundial.]] [[concern.| ]]",
+          "question": "[[Many|Mucha]] [[people|gente]] [[use|usa]] [[_______|remedios herbales]] [[to|para]] [[complement|complementar]] [[conventional|la medicina]] [[medicine.|convencional.]]",
           "options": [
-            "[[outbreak|brote]]",
-            "[[outcome|resultado]]",
-            "[[outfit|atuendo]]"
+            "[[herbal remedies|remedios herbales]]",
+            "[[verbal remedies|remedios verbales]]",
+            "[[urban remedies|remedios urbanos]]"
           ],
           "correctAnswer": 0,
-          "explanation": "An 'outbreak' is a sudden occurrence of something unwelcome, such as a disease.",
+          "explanation": "'Herbal remedies' are medicines made from plants.",
           "audio": "audio/b2/unit-4/e44.mp3"
         }
       ]
@@ -1273,20 +1266,20 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Health & Well-being",
     "difficulty": "medium",
-    "transcript": "It is worth noting that mental health affects physical performance.",
+    "transcript": "Unless you take steps to reduce stress, your health will suffer.",
     "content": {
-      "title": "Observación importante",
-      "instructions": "Elige la forma correcta después de 'It is worth'.",
+      "title": "Reducir el estrés",
+      "instructions": "Elige el conector que significa 'a menos que'.",
       "questions": [
         {
-          "question": "[[It|Vale]] [[is|la]] [[worth|pena]] [[_______|_______]] [[that|que...]]",
+          "question": "[[_______|A menos que]] [[you|tomes]] [[take|medidas]] [[steps|para]] [[to|reducir]] [[reduce|el]] [[stress,|estrés...]]",
           "options": [
-            "[[noting|señalar]]",
-            "[[to note|señalar]]",
-            "[[note|señalar]]"
+            "[[Unless|A menos que]]",
+            "[[If|Si]]",
+            "[[Whether|Si]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Worth' is followed by a gerund (-ing form).",
+          "explanation": "'Unless' is used to say that something will happen if another thing does not happen.",
           "audio": "audio/b2/unit-4/e45.mp3"
         }
       ]
@@ -1300,20 +1293,20 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Health & Well-being",
     "difficulty": "medium",
-    "transcript": "You should try to incorporate more fiber into your diet.",
+    "transcript": "The patient is responding well to the new treatment.",
     "content": {
-      "title": "Fibra dietética",
-      "instructions": "Elige el verbo que significa 'incluir' o 'añadir'.",
+      "title": "Respuesta al tratamiento",
+      "instructions": "Elige la preposición correcta para 'responding'.",
       "questions": [
         {
-          "question": "[[You|Deberías]] [[should|intentar]] [[try|_______]] [[to|más]] [[incorporate|fibra]] [[more|en]] [[fiber|tu]] [[into|dieta.]] [[your| ]] [[diet.| ]]",
+          "question": "[[The|El]] [[patient|paciente]] [[is|está]] [[responding|respondiendo]] [[well|bien]] [[_______|al]] [[the|nuevo]] [[new|tratamiento.]] [[treatment.| ]]",
           "options": [
-            "[[incorporate|incorporar]]",
-            "[[increase|aumentar]]",
-            "[[improve|mejorar]]"
+            "[[to|al]]",
+            "[[at| ]]",
+            "[[with| ]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Incorporate' means to include something as part of a whole.",
+          "explanation": "The verb 'respond' is followed by the preposition 'to'.",
           "audio": "audio/b2/unit-4/e46.mp3"
         }
       ]
@@ -1327,20 +1320,20 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Health & Well-being",
     "difficulty": "medium",
-    "transcript": "But for your help, I wouldn't have managed to quit smoking.",
+    "transcript": "I'd rather you didn't talk about my medical history with others.",
     "content": {
-      "title": "Ayuda externa",
-      "instructions": "Elige la expresión formal para 'si no fuera por'.",
+      "title": "Privacidad médica",
+      "instructions": "Elige la forma verbal correcta para expresar preferencia sobre otro.",
       "questions": [
         {
-          "question": "[[_______|_______]] [[for|tu]] [[your|ayuda,]] [[help,|no]] [[I|habría]] [[wouldn't|logrado]] [[have|dejar]] [[managed|de]] [[to|fumar.]] [[quit| ]] [[smoking.| ]]",
+          "question": "[[I'd|Preferiría]] [[rather|que]] [[you|no]] [[_______|hablaras]] [[about|de mi]] [[my|historial]] [[medical|médico...]]",
           "options": [
-            "[[But for|De no ser por]]",
-            "[[Except for|Excepto por]]",
-            "[[Save for|A salvo de]]"
+            "[[didn't talk|hablaras]]",
+            "[[don't talk|hables]]",
+            "[[not talk|hables]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'But for' is a formal way to say 'if it hadn't been for'.",
+          "explanation": "We use 'would rather' + subject + past simple to talk about current preferences for someone else.",
           "audio": "audio/b2/unit-4/e47.mp3"
         }
       ]
@@ -1354,20 +1347,20 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Health & Well-being",
     "difficulty": "medium",
-    "transcript": "A sedentary lifestyle is a major contributor to obesity.",
+    "transcript": "Self-care is vital for maintaining a healthy work-life balance.",
     "content": {
-      "title": "Obesidad",
-      "instructions": "Elige la palabra para el factor que ayuda a causar algo.",
+      "title": "Autocuidado",
+      "instructions": "Elige el término para el cuidado de uno mismo.",
       "questions": [
         {
-          "question": "[[A|Un]] [[sedentary|estilo]] [[lifestyle|de vida]] [[is|sedentario]] [[a|es]] [[major|un]] [[_______|gran]] [[contributor|factor]] [[to|que]] [[obesity.|contribuye a la obesidad.]]",
+          "question": "[[_______|El autocuidado]] [[is|es]] [[vital|vital]] [[for|para]] [[maintaining|mantener]] [[a|un]] [[healthy|equilibrio.]] [[balance.| ]]",
           "options": [
-            "[[contributor|contribuyente]]",
-            "[[contractor|contratista]]",
-            "[[controller|controlador]]"
+            "[[Self-care|Autocuidado]]",
+            "[[Self-help|Autoayuda]]",
+            "[[Self-worth|Autoestima]]"
           ],
           "correctAnswer": 0,
-          "explanation": "A 'contributor' is a person or thing that contributes to something.",
+          "explanation": "'Self-care' is the practice of taking an active role in protecting one's own well-being and happiness.",
           "audio": "audio/b2/unit-4/e48.mp3"
         }
       ]
@@ -1381,20 +1374,20 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Health & Well-being",
     "difficulty": "medium",
-    "transcript": "No sooner had she started exercising than she felt better.",
+    "transcript": "Suppose we were to increase funding for mental health services.",
     "content": {
-      "title": "Efecto inmediato",
-      "instructions": "Elige la estructura de inversión para 'tan pronto como'.",
+      "title": "Financiación salud mental",
+      "instructions": "Elige el término para introducir una propuesta hipotética.",
       "questions": [
         {
-          "question": "[[No|Apenas]] [[_______|_______]] [[had|había]] [[she|empezado]] [[started|a]] [[exercising|hacer]] [[than|ejercicio]] [[she|cuando]] [[felt|se]] [[better.|sintió mejor.]]",
+          "question": "[[_______|Supongamos]] [[we|que]] [[were|fuéramos]] [[to|a]] [[increase|aumentar]] [[funding|los fondos...]]",
           "options": [
-            "[[sooner|más pronto]]",
-            "[[later|más tarde]]",
-            "[[longer|más tiempo]]"
+            "[[Suppose|Supongamos]]",
+            "[[Believe|Cree]]",
+            "[[Forget|Olvida]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'No sooner... than' is a formal structure using inversion.",
+          "explanation": "'Suppose' can be used to introduce a suggestion or a hypothesis.",
           "audio": "audio/b2/unit-4/e49.mp3"
         }
       ]
@@ -1408,20 +1401,20 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "B2",
     "topic": "Health & Well-being",
     "difficulty": "medium",
-    "transcript": "We are looking for ways to boost our immune systems naturally.",
+    "transcript": "She's finally on the mend after a long and difficult illness.",
     "content": {
-      "title": "Sistema inmunológico",
-      "instructions": "Elige el verbo que significa 'reforzar' o 'potenciar'.",
+      "title": "Recuperación",
+      "instructions": "Elige el idiom que significa 'estar recuperándose'.",
       "questions": [
         {
-          "question": "[[We|Estamos]] [[are|buscando]] [[looking|formas]] [[for|de]] [[ways|_______]] [[to|nuestro]] [[boost|sistema]] [[our|inmunológico]] [[immune|naturalmente.]] [[systems| ]] [[naturally.| ]]",
+          "question": "[[She's|Ella]] [[finally|finalmente]] [[_______|está recuperándose]] [[after|después]] [[a|de]] [[long|una]] [[illness.|enfermedad.]]",
           "options": [
-            "[[boost|reforzar/potenciar]]",
-            "[[burst|estallar]]",
-            "[[boast|alardear]]"
+            "[[on the mend|recuperándose]]",
+            "[[under the weather|enferma]]",
+            "[[on the run|huyendo]]"
           ],
           "correctAnswer": 0,
-          "explanation": "'Boost' means to help or encourage something to increase or improve.",
+          "explanation": "'On the mend' is an idiom meaning improving in health or condition; recovering.",
           "audio": "audio/b2/unit-4/e50.mp3"
         }
       ]
