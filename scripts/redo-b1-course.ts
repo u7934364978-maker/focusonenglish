@@ -107,6 +107,20 @@ async function generateExercisesForUnit(unitId: number) {
                 }
               ]
             }
+          },
+          {
+            "type": "sentence-building",
+            "level": "B1",
+            "topic": "${unit.theme}",
+            "difficulty": "medium",
+            "transcript": "She is looking for a new job.",
+            "content": {
+              "title": "Construcción de oraciones",
+              "instructions": "Ordena las palabras para formar una oración correcta.",
+              "correctSentence": "[[She|Ella]] [[is|está]] [[looking|buscando]] [[for|por]] [[a|un]] [[new|nuevo]] [[job|trabajo]].",
+              "words": ["[[looking|buscando]]", "[[She|Ella]]", "[[job|trabajo]]", "[[for|por]]", "[[is|está]]", "[[a|un]]"],
+              "explanation": "Estructura del presente continuo: Sujeto + am/is/are + verbo-ing."
+            }
           }
         ]
       }
@@ -116,7 +130,7 @@ async function generateExercisesForUnit(unitId: number) {
       const response = await openai.chat.completions.create({
         model: "gpt-4o",
         messages: [
-          { role: "system", content: "You are an expert English Professor specializing in B1 level curriculum. You output only valid JSON. You follow translation syntax [[word|translation]] for ALL English text." },
+          { role: "system", content: "You are an expert English Professor specializing in B1 level curriculum. You output only valid JSON. You follow translation syntax [[word|translation]] for ALL English text. For 'sentence-building' type, DO NOT use a 'questions' array; put 'correctSentence', 'words', and 'explanation' directly inside 'content'." },
           { role: "user", content: prompt }
         ],
         response_format: { type: "json_object" }
@@ -127,6 +141,15 @@ async function generateExercisesForUnit(unitId: number) {
         const exerciseIndex = exercises.length + index + 1;
         const audioUrl = `audio/b1/unit-${unitId}/e${exerciseIndex}.mp3`;
         
+        // Fix sentence-building structure if GPT still puts it in questions
+        if (ex.type === 'sentence-building' && ex.content.questions && ex.content.questions[0]) {
+          const q = ex.content.questions[0];
+          ex.content.correctSentence = q.correctSentence || (q.sentenceParts ? q.sentenceParts.join(' ') : "");
+          ex.content.words = q.words || q.sentenceParts || [];
+          ex.content.explanation = q.explanation || ex.content.explanation;
+          delete ex.content.questions;
+        }
+
         if (ex.content.questions && ex.content.questions[0]) {
           ex.content.questions[0].audio = audioUrl;
         } else {

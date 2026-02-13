@@ -7,19 +7,19 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "Although he loves his job, he is looking for a new opportunity.",
+    "transcript": "She usually travels to work by train.",
     "content": {
-      "title": "Presente Simple vs. Presente Continuo en el trabajo",
-      "instructions": "Elige la opción correcta para llenar el espacio en blanco.",
+      "title": "Diferenciar entre presente simple y continuo",
+      "instructions": "Selecciona la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[he|él]] [[loves|ama]] [[his|su]] [[job|trabajo]], [[he|él]] _______ [[for|por]] [[a|una]] [[new|nueva]] [[opportunity|oportunidad]].",
+          "question": "[[She|Ella]] _______ [[usually|normalmente]] [[travels|viaja]] [[to|a]] [[work|trabajar]] [[by|en]] [[train|tren]].",
           "options": [
-            "[[is|está]] [[looking|buscando]]",
-            "[[looks|busca]]"
+            "[[is|está]]",
+            "[[usually|normalmente]]"
           ],
-          "correctAnswer": 0,
-          "explanation": "Uso del presente continuo para indicar una acción que está ocurriendo en este momento o un cambio futuro.",
+          "correctAnswer": 1,
+          "explanation": "Uso del presente simple para acciones habituales.",
           "audio": "audio/b1/unit-1/e1.mp3"
         }
       ]
@@ -33,19 +33,19 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "People rarely change their habits, but I am becoming more disciplined.",
+    "transcript": "Nowadays, more people are working from home.",
     "content": {
-      "title": "Cambios de hábito",
-      "instructions": "Completa el espacio en blanco con la forma verbal correcta.",
+      "title": "Tendencias sociales actuales",
+      "instructions": "Selecciona la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[People|La gente]] [[rarely|rara vez]] [[change|cambia]] [[their|sus]] [[habits|hábitos]], [[but|pero]] [[I|yo]] _______ [[more|más]] [[disciplined|disciplinado]].",
+          "question": "[[Nowadays|Hoy en día]], [[more|más]] [[people|gente]] _______ [[working|trabajando]] [[from|desde]] [[home|casa]].",
           "options": [
-            "[[am|estoy]] [[becoming|volviéndome]]",
-            "[[become|me vuelvo]]"
+            "[[is|está]]",
+            "[[are|están]]"
           ],
-          "correctAnswer": 0,
-          "explanation": "El presente continuo se utiliza para indicar un cambio actual o una transformación.",
+          "correctAnswer": 1,
+          "explanation": "Uso del presente continuo para describir una tendencia actual.",
           "audio": "audio/b1/unit-1/e2.mp3"
         }
       ]
@@ -59,19 +59,19 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "They usually meet on Fridays, however, this week they are meeting on Saturday.",
+    "transcript": "Although he lives in the city, he prefers the countryside.",
     "content": {
-      "title": "Días de reunión",
+      "title": "Sobre preferencias personales",
       "instructions": "Selecciona la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[usually|usualmente]] [[meet|se reúnen]] [[on|los]] [[Fridays|viernes]], [[however|sin embargo]], [[this|esta]] [[week|semana]] [[they|ellos]] _______ [[on|el]] [[Saturday|sábado]].",
+          "question": "[[Although|Aunque]] [[he|él]] _______ [[in|en]] [[the|la]] [[city|ciudad]], [[he|él]] [[prefers|prefiere]] [[the|el]] [[countryside|campo]].",
           "options": [
-            "[[are|están]] [[meeting|reuniéndose]]",
-            "[[meet|se reúnen]]"
+            "[[lives|vive]]",
+            "[[is living|está viviendo]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El presente continuo se usa para acciones planificadas o inusuales en tiempo futuro cercano.",
+          "explanation": "Uso del presente simple para situaciones permanentes.",
           "audio": "audio/b1/unit-1/e3.mp3"
         }
       ]
@@ -85,19 +85,19 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "Despite living in a busy city, she is feeling relaxed lately.",
+    "transcript": "Despite his busy schedule, he is taking guitar lessons.",
     "content": {
-      "title": "Relajación en la ciudad",
-      "instructions": "Elige la forma verbal correcta para completar la oración.",
+      "title": "Actividades pese a circunstancias",
+      "instructions": "Selecciona la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[living|vivir]] [[in|en]] [[a|una]] [[busy|ocupada]] [[city|ciudad]], [[she|ella]] _______ [[relaxed|relajada]] [[lately|últimamente]].",
+          "question": "[[Despite|A pesar de]] [[his|su]] [[busy|ocupado]] [[schedule|horario]], [[he|él]] _______ [[taking|tomando]] [[guitar|guitarra]] [[lessons|clases]].",
           "options": [
-            "[[is|está]] [[feeling|sintiendo]]",
-            "[[feels|se siente]]"
+            "[[takes|toma]]",
+            "[[is taking|está tomando]]"
           ],
-          "correctAnswer": 0,
-          "explanation": "El uso del presente continuo para expresar estados emocionales que son temporales.",
+          "correctAnswer": 1,
+          "explanation": "Uso del presente continuo para acciones que están en curso.",
           "audio": "audio/b1/unit-1/e4.mp3"
         }
       ]
@@ -111,19 +111,19 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "My friend often reads at night, but now he is watching a movie.",
+    "transcript": "While he works hard during the week, he enjoys relaxing on weekends.",
     "content": {
-      "title": "Cambios en rutinas nocturnas",
-      "instructions": "Selecciona la opción correcta para completar la siguiente oración.",
+      "title": "Equilibrio entre trabajo y ocio",
+      "instructions": "Selecciona la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[friend|amigo]] [[often|a menudo]] [[reads|lee]] [[at|en]] [[night|la noche]], [[but|pero]] [[now|ahora]] [[he|él]] _______ [[a|una]] [[movie|película]].",
+          "question": "[[While|Aunque]] [[he|él]] _______ [[hard|duro]] [[during|durante]] [[the|la]] [[week|semana]], [[he|él]] [[enjoys|disfruta]] [[relaxing|relajarse]] [[on|en]] [[weekends|fines de semana]].",
           "options": [
-            "[[is|está]] [[watching|viendo]]",
-            "[[watches|mira]]"
+            "[[works|trabaja]]",
+            "[[is working|está trabajando]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El presente continuo describe una acción que está ocurriendo en este momento específico al contrario de una rutina habitual.",
+          "explanation": "Uso del presente simple para rutinas diarias.",
           "audio": "audio/b1/unit-1/e5.mp3"
         }
       ]
@@ -137,19 +137,19 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "Although Maria prefers tea, she is drinking coffee today.",
+    "transcript": "He usually takes the train to work, but today he is driving.",
     "content": {
-      "title": "Preferencias Personales",
-      "instructions": "Llena el espacio en blanco con la opción correcta.",
+      "title": "Costumbres y acciones actuales",
+      "instructions": "Completa la oración con el tiempo verbal correcto.",
       "questions": [
         {
-          "question": "[[Although|aunque]] [[Maria|María]] [[prefers|prefiere]] [[tea|té]], [[she|ella]] _______ [[coffee|café]] [[today|hoy]].",
+          "question": "[[He|Él]] [[usually|usualmente]] [[takes|toma]] [[the|el]] [[train|tren]] [[to|a]] [[work|trabajo]], [[but|pero]] [[today|hoy]] [[he|él]] _______ [[driving|manejando]].",
           "options": [
-            "[[drinks|bebe]]",
-            "[[is|está]] [[drinking|bebiendo]]"
+            "[[is|está]]",
+            "[[does|hace]]"
           ],
-          "correctAnswer": 1,
-          "explanation": "Uso del presente continuo para indicar una acción que ocurre ahora mismo, a pesar de una preferencia general.",
+          "correctAnswer": 0,
+          "explanation": "Se usa el presente simple para rutinas y el presente continuo para acciones temporales.",
           "audio": "audio/b1/unit-1/e6.mp3"
         }
       ]
@@ -163,19 +163,19 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "John often thinks about his future, but right now he is focusing on his current job.",
+    "transcript": "Although Emily studies every evening, she is watching a movie tonight.",
     "content": {
-      "title": "Enfoque en el Presente",
-      "instructions": "Rellena el espacio con la opción adecuada.",
+      "title": "Rutinas contra excepciones",
+      "instructions": "Rellena el espacio con el tiempo verbal apropiado.",
       "questions": [
         {
-          "question": "[[John|Juan]] [[often|a menudo]] _______ [[about|sobre]] [[his|su]] [[future|futuro]], [[but|pero]] [[right|ahora]] [[now|mismo]] [[he|él]] _______ [[on|en]] [[his|su]] [[current|actual]] [[job|trabajo]].",
+          "question": "[[Although|Aunque]] [[Emily|Emily]] [[studies|estudia]] [[every|cada]] [[evening|noche]], [[she|ella]] _______ [[watching|viendo]] [[a|una]] [[movie|película]] [[tonight|esta noche]].",
           "options": [
-            "[[thinks|piensa]], [[focuses|se centra]]",
-            "[[is|está]] [[thinking|pensando]], [[is|está]] [[focusing|centrándose]]"
+            "[[is|está]]",
+            "[[does|hace]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El presente simple para hábitos o pensamientos habituales, y el presente continuo para acciones en curso.",
+          "explanation": "El presente continuo se aplica para acciones puntuales, generalmente con horarios específicos.",
           "audio": "audio/b1/unit-1/e7.mp3"
         }
       ]
@@ -189,19 +189,19 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "Despite his busy schedule, he regularly attends community meetings.",
+    "transcript": "Despite the rainy weather, they are attending the outdoor concert.",
     "content": {
-      "title": "Compromisos Comunitarios",
-      "instructions": "Completa la frase con la opción correcta.",
+      "title": "Acciones a pesar de las circunstancias",
+      "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[his|su]] [[busy|ocupada]] [[schedule|agenda]], [[he|él]] _______ [[community|comunidad]] [[meetings|reuniones]] [[regularly|regularmente]].",
+          "question": "[[Despite|A pesar de]] [[the|el]] [[rainy|lluvioso]] [[weather|clima]], [[they|ellos]] _______ [[attending|asistiendo]] [[the|al]] [[outdoor|al aire libre]] [[concert|concierto]].",
           "options": [
-            "[[attends|asiste]]",
-            "[[is|está]] [[attending|asistiendo]]"
+            "[[are|están]]",
+            "[[do|hacen]]"
           ],
           "correctAnswer": 0,
-          "explanation": "El presente simple se utiliza para acciones habituales o rutinas.",
+          "explanation": "Usamos presente continuo para hechos actuales, incluso si son poco habituales dadas las circunstancias.",
           "audio": "audio/b1/unit-1/e8.mp3"
         }
       ]
@@ -215,19 +215,19 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "Currently, we are analyzing social trends in urban areas.",
+    "transcript": "Jennifer teaches yoga classes on weekends, but at the moment she is practicing on her own.",
     "content": {
-      "title": "Tendencias Sociales Actuales",
-      "instructions": "Selecciona la opción correcta para completar la oración.",
+      "title": "Actividades habituales y prácticas actuales",
+      "instructions": "Completa la oración con la forma verbal adecuada.",
       "questions": [
         {
-          "question": "[[Currently|Actualmente]], [[we|nosotros]] _______ [[social|sociales]] [[trends|tendencias]] [[in|en]] [[urban|urbanas]] [[areas|áreas]].",
+          "question": "[[Jennifer|Jennifer]] [[teaches|enseña]] [[yoga|yoga]] [[classes|clases]] [[on|los]] [[weekends|fines de semana]], [[but|pero]] [[at|en]] [[the|el]] [[moment|momento]] [[she|ella]] _______ [[practicing|practicando]] [[on|por]] [[her|su]] [[own|cuenta]].",
           "options": [
-            "[[analyze|analizamos]]",
-            "[[are|estamos]] [[analyzing|analizando]]"
+            "[[is|está]]",
+            "[[has|tiene]]"
           ],
-          "correctAnswer": 1,
-          "explanation": "Uso del presente continuo para actividades que se desarrollan en el presente momento.",
+          "correctAnswer": 0,
+          "explanation": "Se utiliza presente simple para actividades regulares y presente continuo para acciones temporales.",
           "audio": "audio/b1/unit-1/e9.mp3"
         }
       ]
@@ -241,19 +241,19 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "Even though she usually travels by car, this week she is using public transport.",
+    "transcript": "Mark doesn't usually wear glasses, but he is wearing them most days this week.",
     "content": {
-      "title": "Cambios en el Transporte",
-      "instructions": "Llena el espacio vacío con la opción correcta.",
+      "title": "Cambios en hábitos",
+      "instructions": "Selecciona la opción adecuada para completar la oración.",
       "questions": [
         {
-          "question": "[[Even|Aunque]] [[though|ella]] [[usually|normalmente]] _______ [[by|en]] [[car|coche]], [[this|esta]] [[week|semana]] [[she|ella]] _______ [[public|transporte]] [[transport|público]].",
+          "question": "[[Mark|Mark]] [[doesn’t|no]] [[usually|usualmente]] [[wear|usa]] [[glasses|gafas]], [[but|pero]] [[he|él]] _______ [[wearing|usándolas]] [[them|ellas]] [[most|la mayoría de]] [[days|días]] [[this|esta]] [[week|semana]].",
           "options": [
-            "[[travels|viaja]], [[uses|usa]]",
-            "[[is|está]] [[traveling|viajando]], [[is|está]] [[using|utilizando]]"
+            "[[is|está]]",
+            "[[wears|usa]]"
           ],
-          "correctAnswer": 1,
-          "explanation": "El presente simple se usa para hábitos y rutinas, mientras que el presente continuo refiere a acciones temporales o excepcionales.",
+          "correctAnswer": 0,
+          "explanation": "Las acciones que son habituales temporalmente se describen con el presente continuo.",
           "audio": "audio/b1/unit-1/e10.mp3"
         }
       ]
@@ -267,31 +267,24 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "Although Maria usually travels by car, she is taking the train today.",
+    "transcript": "Although he usually works late, today he is leaving early.",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Usa las palabras dada para construir una oración coherente.",
-      "questions": [
-        {
-          "sentenceParts": [
-            "[[Although|Aunque]]",
-            "[[Maria|Maria]]",
-            "[[usually|usualmente]]",
-            "[[travels|viaja]]",
-            "[[by|en]]",
-            "[[car|coche]]",
-            ",",
-            "[[she|ella]]",
-            "[[is|está]]",
-            "[[taking|tomando]]",
-            "[[the|el]]",
-            "[[train|tren]]",
-            "[[today|hoy]]."
-          ],
-          "explanation": "Uso de presente simple para acciones habituales y presente continuo para acciones que ocurren ahora.",
-          "audio": "audio/b1/unit-1/e11.mp3"
-        }
-      ]
+      "title": "Construcción de oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[Although|Aunque]] [[he|él]] [[usually|usualmente]] [[works|trabaja]] [[late|tarde]], [[today|hoy]] [[he|él]] [[is|está]] [[leaving|saliendo]] [[early|temprano]].",
+      "words": [
+        "[[he|él]]",
+        "[[late|tarde]]",
+        "[[works|trabaja]]",
+        "[[today|hoy]]",
+        "[[Usually|Usualmente]]",
+        "[[is|está]]",
+        "[[leaving|saliendo]]",
+        "[[although|aunque]]",
+        "[[early|temprano]]"
+      ],
+      "explanation": "Uso de presente simple para hábitos y presente continuo para acciones temporales.",
+      "audio": "audio/b1/unit-1/e11.mp3"
     },
     "id": "b1-u1-e11",
     "audioUrl": "audio/b1/unit-1/e11.mp3",
@@ -302,29 +295,24 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "People often think that social media is changing our social interactions.",
+    "transcript": "Despite being busy, she is attending the meeting now.",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Reorganiza las palabras para crear una oración significativa.",
-      "questions": [
-        {
-          "sentenceParts": [
-            "[[People|Las personas]]",
-            "[[often|a menudo]]",
-            "[[think|piensan]]",
-            "[[that|que]]",
-            "[[social|las redes]]",
-            "[[media|sociales]]",
-            "[[is|están]]",
-            "[[changing|cambiando]]",
-            "[[our|nuestras]]",
-            "[[social|interacciones]]",
-            "[[interactions|sociales]]."
-          ],
-          "explanation": "Uso de presente simple para expresar opiniones generalizadas.",
-          "audio": "audio/b1/unit-1/e12.mp3"
-        }
-      ]
+      "title": "Construcción de oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[Despite|A pesar de]] [[being|estar]] [[busy|ocupada]], [[she|ella]] [[is|está]] [[attending|asistiendo]] [[the|la]] [[meeting|reunión]] [[now|ahora]].",
+      "words": [
+        "[[attending|asistiendo]]",
+        "[[she|ella]]",
+        "[[now|ahora]]",
+        "[[the|la]]",
+        "[[is|está]]",
+        "[[busy|ocupada]]",
+        "[[despite|a pesar de]]",
+        "[[meeting|reunión]]",
+        "[[being|estar]]"
+      ],
+      "explanation": "Uso de 'despite' para indicar contraste con el presente continuo para acciones en progreso.",
+      "audio": "audio/b1/unit-1/e12.mp3"
     },
     "id": "b1-u1-e12",
     "audioUrl": "audio/b1/unit-1/e12.mp3",
@@ -335,33 +323,27 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "Despite her busy schedule, Rachel is going to the gym every evening this week.",
+    "transcript": "They usually don't go out much, but this week they are visiting friends.",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las siguientes palabras para formar una oración completa.",
-      "questions": [
-        {
-          "sentenceParts": [
-            "[[Despite|A pesar de]]",
-            "[[her|su]]",
-            "[[busy|ocupada]]",
-            "[[schedule|agenda]]",
-            ",",
-            "[[Rachel|Rachel]]",
-            "[[is|va]]",
-            "[[going|al]]",
-            "[[to|al]]",
-            "[[the|gimnasio]]",
-            "[[gym|todas]]",
-            "[[every|las]]",
-            "[[evening|noches]]",
-            "[[this|de esta]]",
-            "[[week|semana]]."
-          ],
-          "explanation": "El presente continuo se utiliza para hablar de eventos planificados a corto plazo.",
-          "audio": "audio/b1/unit-1/e13.mp3"
-        }
-      ]
+      "title": "Construcción de oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[They|Ellos]] [[usually|usualmente]] [[don't|no]] [[go|van]] [[out|fuera]] [[much|mucho]], [[but|pero]] [[this|esta]] [[week|semana]] [[they|ellos]] [[are|están]] [[visiting|visitando]] [[friends|amigos]].",
+      "words": [
+        "[[visiting|visitando]]",
+        "[[usually|usualmente]]",
+        "[[but|pero]]",
+        "[[this|esta]]",
+        "[[week|semana]]",
+        "[[friends|amigos]]",
+        "[[are|están]]",
+        "[[they|ellos]]",
+        "[[don't|no]]",
+        "[[go|van]]",
+        "[[out|fuera]]",
+        "[[much|mucho]]"
+      ],
+      "explanation": "Contraste entre hábitos en presente simple y acciones temporales en presente continuo.",
+      "audio": "audio/b1/unit-1/e13.mp3"
     },
     "id": "b1-u1-e13",
     "audioUrl": "audio/b1/unit-1/e13.mp3",
@@ -372,34 +354,29 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "John usually works from home, but he is attending meetings at the office this week.",
+    "transcript": "Right now, he is studying for his exams, although he usually relaxes in the evening.",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Reordena las palabras para crear una oración correcta.",
-      "questions": [
-        {
-          "sentenceParts": [
-            "[[John|John]]",
-            "[[usually|usualmente]]",
-            "[[works|trabaja]]",
-            "[[from|desde]]",
-            "[[home|casa]]",
-            ",",
-            "[[but|pero]]",
-            "[[he|él]]",
-            "[[is|está]]",
-            "[[attending|asistiendo]]",
-            "[[meetings|a reuniones]]",
-            "[[at|en]]",
-            "[[the|la]]",
-            "[[office|oficina]]",
-            "[[this|esta]]",
-            "[[week|semana]]."
-          ],
-          "explanation": "Diferenciar entre situaciones habituales y eventos excepcionales usando presente simple y continuo.",
-          "audio": "audio/b1/unit-1/e14.mp3"
-        }
-      ]
+      "title": "Construcción de oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[Right|Ahora]] [[now|mismo]], [[he|él]] [[is|está]] [[studying|estudiando]] [[for|para]] [[his|sus]] [[exams|exámenes]], [[although|aunque]] [[he|él]] [[usually|usualmente]] [[relaxes|se relaja]] [[in|en]] [[the|la]] [[evening|tarde]].",
+      "words": [
+        "[[is|está]]",
+        "[[for|para]]",
+        "[[although|aunque]]",
+        "[[he|él]]",
+        "[[right|ahora]]",
+        "[[usually|usualmente]]",
+        "[[now|mismo]]",
+        "[[his|sus]]",
+        "[[relaxes|se relaja]]",
+        "[[studying|estudiando]]",
+        "[[in|en]]",
+        "[[the|la]]",
+        "[[evening|tarde]]",
+        "[[exams|exámenes]]"
+      ],
+      "explanation": "Uso de presente continuo para acciones que ocurren en este momento y presente simple para hábitos generales.",
+      "audio": "audio/b1/unit-1/e14.mp3"
     },
     "id": "b1-u1-e14",
     "audioUrl": "audio/b1/unit-1/e14.mp3",
@@ -410,29 +387,26 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "While some people prefer traditional books, others are embracing e-readers.",
+    "transcript": "While she reads every night, this week she is focusing on meditation.",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Utiliza las expresiones dadas para construir una oración completa.",
-      "questions": [
-        {
-          "sentenceParts": [
-            "[[While|Mientras que]]",
-            "[[some|algunas]]",
-            "[[people|personas]]",
-            "[[prefer|prefieren]]",
-            "[[traditional|los libros]]",
-            "[[books|tradicionales]]",
-            ",",
-            "[[others|otros]]",
-            "[[are|están]]",
-            "[[embracing|adoptando]]",
-            "[[e-readers|lectores electrónicos]]."
-          ],
-          "explanation": "Uso de conectores para contrastar diferentes preferencias.",
-          "audio": "audio/b1/unit-1/e15.mp3"
-        }
-      ]
+      "title": "Construcción de oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[While|Aunque]] [[she|ella]] [[reads|lee]] [[every|todas]] [[night|las noches]], [[this|esta]] [[week|semana]] [[she|ella]] [[is|está]] [[focusing|enfocándose]] [[on|en]] [[meditation|meditación]].",
+      "words": [
+        "[[reads|lee]]",
+        "[[focusing|enfocándose]]",
+        "[[she|ella]]",
+        "[[every|todas]]",
+        "[[meditation|meditación]]",
+        "[[while|aunque]]",
+        "[[on|en]]",
+        "[[week|semana]]",
+        "[[is|está]]",
+        "[[night|las noches]]",
+        "[[this|esta]]"
+      ],
+      "explanation": "Estructura de presente simple para hábitos repetitivos vs presente continuo para cambios temporales.",
+      "audio": "audio/b1/unit-1/e15.mp3"
     },
     "id": "b1-u1-e15",
     "audioUrl": "audio/b1/unit-1/e15.mp3",
@@ -443,20 +417,19 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "Although he prefers coffee, he is drinking tea today because there is no coffee.",
+    "transcript": "I am currently reading a fascinating book about cultural trends.",
     "content": {
-      "title": "Preferencias de Bebida",
-      "instructions": "Elige la opción correcta para completar la frase.",
+      "title": "Eligiendo el tiempo correcto",
+      "instructions": "Selecciona la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[he|él]] [[prefers|prefiere]] [[coffee|café]], [[he|él]] _______ [[tea|té]] [[today|hoy]] [[because|porque]] [[there|hay]] [[is|no]] [[no|no]] [[coffee|café]].",
+          "question": "[[I|Yo]] _______ [[currently|actualmente]] [[reading|leyendo]] [[a|un]] [[fascinating|fascinante]] [[book|libro]] [[about|sobre]] [[cultural|culturales]] [[trends|tendencias]].",
           "options": [
-            "[[drinks|bebe]]",
-            "[[is|está]] [[drinking|bebiendo]]",
-            "[[drink|bebe]]"
+            "[[am|estoy]]",
+            "[[read|leo]]"
           ],
-          "correctAnswer": 1,
-          "explanation": "Uso del presente continuo para acciones que ocurren en el momento presente.",
+          "correctAnswer": 0,
+          "explanation": "Uso del presente continuo para acciones que ocurren en este momento.",
           "audio": "audio/b1/unit-1/e16.mp3"
         }
       ]
@@ -470,20 +443,19 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "Whenever she speaks, people listen despite the noise in the room.",
+    "transcript": "She believes in promoting social justice.",
     "content": {
-      "title": "Hablando en Público",
-      "instructions": "Selecciona la opción adecuada para completar la oración.",
+      "title": "Crenencias y acciones actuales",
+      "instructions": "Elige el tiempo correcto para esta generalidad.",
       "questions": [
         {
-          "question": "[[Whenever|Cada vez que]] [[she|ella]] _______ , [[people|la gente]] [[listen|escucha]] [[despite|a pesar de]] [[the|el]] [[noise|ruido]] [[in|en]] [[the|el]] [[room|cuarto]].",
+          "question": "[[She|Ella]] _______ [[in|en]] [[promoting|promover]] [[social|social]] [[justice|justicia]].",
           "options": [
-            "[[speaks|habla]]",
-            "[[is|está]] [[speaking|hablando]]",
-            "[[speak|habla]]"
+            "[[believes|cree]]",
+            "[[is believing|está creyendo]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso del presente simple para acciones habituales.",
+          "explanation": "Uso del presente simple para expresar creencias y hechos generales.",
           "audio": "audio/b1/unit-1/e17.mp3"
         }
       ]
@@ -497,19 +469,19 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "He usually travels by train but is flying to Paris this week.",
+    "transcript": "They are setting new fashion standards.",
     "content": {
-      "title": "Modos de Transporte",
-      "instructions": "Completa la oración eligiendo la opción correcta.",
+      "title": "Moda y estándares",
+      "instructions": "Selecciona el tiempo verbal que corresponde a acciones actuales.",
       "questions": [
         {
-          "question": "[[He|Él]] [[usually|normalmente]] [[travels|viaja]] [[by|en]] [[train|tren]] [[but|pero]] _______ [[to|a]] [[Paris|París]] [[this|esta]] [[week|semana]].",
+          "question": "[[They|Ellos/Ellas]] _______ [[setting|estableciendo]] [[new|nuevos]] [[fashion|de moda]] [[standards|estándares]].",
           "options": [
-            "[[flies|vuela]]",
-            "[[is|está]] [[flying|volando]]"
+            "[[are|están]]",
+            "[[set|establecen]]"
           ],
-          "correctAnswer": 1,
-          "explanation": "Uso del presente continuo para acciones planificadas a corto plazo.",
+          "correctAnswer": 0,
+          "explanation": "Uso del presente continuo para hablar de acciones en proceso en la actualidad.",
           "audio": "audio/b1/unit-1/e18.mp3"
         }
       ]
@@ -523,19 +495,19 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "Many people believe that robots are changing how we work.",
+    "transcript": "We often discuss various social trends.",
     "content": {
-      "title": "Tendencias Laborales",
-      "instructions": "Selecciona la mejor opción para completar la frase.",
+      "title": "Hábitos y rutinas",
+      "instructions": "Selecciona la opción correcta para describir una acción habitual.",
       "questions": [
         {
-          "question": "[[Many|Muchos]] [[people|personas]] _______ [[that|que]] [[robots|robots]] [[are|están]] [[changing|cambiando]] [[how|cómo]] [[we|nosotros]] [[work|trabajamos]].",
+          "question": "[[We|Nosotros]] _______ [[often|a menudo]] [[discuss|discutimos]] [[various|varias]] [[social|sociales]] [[trends|tendencias]].",
           "options": [
-            "[[believe|creen]]",
-            "[[are|están]] [[believing|creyendo]]"
+            "[[discuss|discutimos]]",
+            "[[are discussing|estamos discutiendo]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso del presente simple para creencias o hechos generales.",
+          "explanation": "Uso del presente simple para acciones habituales o rutinarias.",
           "audio": "audio/b1/unit-1/e19.mp3"
         }
       ]
@@ -549,19 +521,19 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "She is visiting her friend, although she usually stays home on weekends.",
+    "transcript": "My brother is currently working on an exciting project.",
     "content": {
-      "title": "Visitando Amigos",
-      "instructions": "Elige la opción correcta para completar la siguiente oración.",
+      "title": "Proyectos actuales",
+      "instructions": "Escoge el tiempo presente adecuado para una acción en progreso.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[her|a su]] [[friend|amigo]], [[although|aunque]] [[she|ella]] [[usually|normalmente]] [[stays|se queda]] [[home|en casa]] [[on|los]] [[weekends|fines de semana]].",
+          "question": "[[My|Mi]] [[brother|hermano]] _______ [[currently|actualmente]] [[working|trabajando]] [[on|en]] [[an|un]] [[exciting|emocionante]] [[project|proyecto]].",
           "options": [
-            "[[visits|visita]]",
-            "[[is|está]] [[visiting|visitando]]"
+            "[[is|está]]",
+            "[[works|trabaja]]"
           ],
-          "correctAnswer": 1,
-          "explanation": "Uso del presente continuo para acciones que suceden en el momento presente.",
+          "correctAnswer": 0,
+          "explanation": "Uso del presente continuo para acciones específicas que están ocurriendo ahora.",
           "audio": "audio/b1/unit-1/e20.mp3"
         }
       ]
@@ -575,20 +547,56 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "Although she usually works from home, today she is attending a conference.",
+    "transcript": "Despite working long hours, she still manages to spend time with her family.",
     "content": {
-      "title": "Combinación del Tiempo Presente",
-      "instructions": "Elige la forma correcta del verbo de acuerdo al contexto.",
+      "title": "Uso del presente simple y continuo",
+      "instructions": "Completa las oraciones con la opción correcta en presente simple o continuo.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[she|ella]] [[usually|usualmente]] [[works|trabaja]] [[from|desde]] [[home|casa]], [[today|hoy]] [[she|ella]] _______ [[attending|asistiendo]] [[a|una]] [[conference|conferencia]].",
+          "question": "[[Despite|A pesar de]] [[working|trabajar]] [[long|largas]] [[hours|horas]], [[she|ella]] _______ [[manages|gestiona]] [[to|para]] [[spend|pasar]] [[time|tiempo]] [[with|con]] [[her|su]] [[family|familia]].",
           "options": [
-            "[[attends|asiste]]",
-            "[[is|está]]"
+            "[[still|todavía]]",
+            "[[is|es]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Uso del adverbio 'still' para indicar continuación en el presente simple.",
+          "audio": "audio/b1/unit-1/e21.mp3"
+        },
+        {
+          "question": "[[While|Mientras]] [[I|yo]] _______ [[the|el]] [[news|noticias]], [[I|yo]] [[often|a menudo]] [[think|pienso]] [[about|sobre]] [[current|actuales]] [[social|sociales]] [[trends|tendencias]].",
+          "options": [
+            "[[watch|miro]]",
+            "[[am|estoy]] [[watching|mirando]]"
           ],
           "correctAnswer": 1,
-          "explanation": "Se utiliza el presente continuo para indicar una acción que ocurre temporalmente, contrastada con una actividad habitual.",
-          "audio": "audio/b1/unit-1/e21.mp3"
+          "explanation": "El uso del presente continuo para acciones en curso, como 'watching the news'."
+        },
+        {
+          "question": "[[Although|Aunque]] [[he|él]] [[usually|normalmente]] _______ [[late|tarde]], [[tonight|esta noche]] [[he|él]] [[is|está]] [[coming|viniendo]] [[home|a casa]] [[early|temprano]].",
+          "options": [
+            "[[arrives|llega]]",
+            "[[is|está]] [[arriving|llegando]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Uso del presente simple para expresar hábitos o rutinas."
+        },
+        {
+          "question": "[[At|En]] [[the|el]] [[moment|momento]], [[we|nosotros]] _______ [[working|trabajando]] [[on|en]] [[a|un]] [[project|proyecto]] [[about|sobre]] [[social|sociales]] [[identity|identidad]].",
+          "options": [
+            "[[work|trabajamos]]",
+            "[[are|estamos]] [[working|trabajando]]"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Uso del presente continuo para enfatizar una acción actual temporal."
+        },
+        {
+          "question": "[[Every|Cada]] [[summer|verano]], [[she|ella]] _______ [[to|a]] [[Spain|España]] [[to|para]] [[learn|aprender]] [[about|sobre]] [[the|la]] [[culture|cultura]].",
+          "options": [
+            "[[goes|va]]",
+            "[[is|está]] [[going|yendo]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Uso del presente simple para hechos repetidos o rutinarios como 'every summer'."
         }
       ]
     },
@@ -597,104 +605,125 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Vocabulary"
   },
   {
-    "type": "fill-blank",
+    "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "Despite her busy schedule, Lisa is learning French.",
+    "transcript": "Despite his busy schedule, he is always willing to help.",
     "content": {
-      "title": "Tiempos Presentes en Contexto",
-      "instructions": "Completa la frase con la forma verbal adecuada.",
-      "questions": [
-        {
-          "question": "[[Despite|A pesar de]] [[her|su]] [[busy|ocupada]] [[schedule|agenda]], [[Lisa|Lisa]] _______ [[learning|aprendiendo]] [[French|francés]].",
-          "options": [
-            "[[learns|aprende]]",
-            "[[is|está]]"
-          ],
-          "correctAnswer": 1,
-          "explanation": "El presente continuo se usa para acciones que están en proceso actualmente o que tienen lugar recientemente.",
-          "audio": "audio/b1/unit-1/e22.mp3"
-        }
-      ]
+      "title": "Construcción de oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[Despite|A pesar de]] [[his|su]] [[busy|ocupada]] [[schedule|agenda]], [[he|él]] [[is|está]] [[always|siempre]] [[willing|dispuesto]] [[to|a]] [[help|ayudar]].",
+      "words": [
+        "[[his|su]]",
+        "[[Despite|A pesar de]]",
+        "[[busy|ocupada]]",
+        "[[is|está]]",
+        "[[schedule|agenda]],",
+        "[[he|él]]",
+        "[[always|siempre]]",
+        "[[willing|dispuesto]]",
+        "[[to|a]]",
+        "[[help|ayudar]]."
+      ],
+      "explanation": "Uso del presente continuo para expresar una actitud persistente a pesar de una situación.",
+      "audio": "audio/b1/unit-1/e22.mp3"
     },
     "id": "b1-u1-e22",
     "audioUrl": "audio/b1/unit-1/e22.mp3",
     "topicName": "Vocabulary"
   },
   {
-    "type": "fill-blank",
+    "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "Many people believe that social media is changing how we stay in touch.",
+    "transcript": "Although she usually works from home, today she is attending a conference.",
     "content": {
-      "title": "Revisión del Presente Simple y Continuo",
-      "instructions": "Selecciona la forma verbal correcta basada en la explicación detrás del fenómeno social.",
-      "questions": [
-        {
-          "question": "[[Many|Muchas]] [[people|personas]] [[believe|creen]] [[that|que]] [[social|social]] [[media|medios]] [[is|está]] _______ [[how|cómo]] [[we|nosotros]] [[stay|mantenemos]] [[in|en]] [[touch|contacto]].",
-          "options": [
-            "[[changing|cambiando]]",
-            "[[changes|cambia]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "El verbo en presente continuo subraya el impacto actual y continuo de las redes sociales en nuestra vida diaria.",
-          "audio": "audio/b1/unit-1/e23.mp3"
-        }
-      ]
+      "title": "Construcción de oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[Although|Aunque]] [[she|ella]] [[usually|normalmente]] [[works|trabaja]] [[from|desde]] [[home|casa]], [[today|hoy]] [[she|ella]] [[is|está]] [[attending|asistiendo a]] [[a|una]] [[conference|conferencia]].",
+      "words": [
+        "[[Although|Aunque]]",
+        "[[she|ella]]",
+        "[[usually|normalmente]]",
+        "[[works|trabaja]]",
+        "[[from|desde]]",
+        "[[today|hoy]]",
+        "[[home|casa]],",
+        "[[is|está]]",
+        "[[she|ella]]",
+        "[[attending|asistiendo a]]",
+        "[[a|una]]",
+        "[[conference|conferencia]]."
+      ],
+      "explanation": "Uso del presente simple para hábitos y del presente continuo para acciones temporales.",
+      "audio": "audio/b1/unit-1/e23.mp3"
     },
     "id": "b1-u1-e23",
     "audioUrl": "audio/b1/unit-1/e23.mp3",
     "topicName": "Vocabulary"
   },
   {
-    "type": "fill-blank",
+    "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "Mark often travels for work, but today he is reading reports at home.",
+    "transcript": "While I am studying hard, he is not putting in the same effort.",
     "content": {
-      "title": "Presente Simple vs Continuo en Rutinas y Acciones Actuales",
-      "instructions": "Decide la forma adecuada del verbo según el contexto del que se habla.",
-      "questions": [
-        {
-          "question": "[[Mark|Mark]] [[often|a menudo]] _______ [[for|por]] [[work|trabajo]], [[but|pero]] [[today|hoy]] [[he|él]] _______ [[reports|informes]] [[at|en]] [[home|casa]].",
-          "options": [
-            "[[travels|viaja]], [[is|está]] [[reading|leyendo]]",
-            "[[travelled|viajó]], [[reads|lee]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "El presente simple describe una rutina, mientras que el uso del presente continuo señala una actividad temporal específica.",
-          "audio": "audio/b1/unit-1/e24.mp3"
-        }
-      ]
+      "title": "Construcción de oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[While|Mientras]] [[I|yo]] [[am|estoy]] [[studying|estudiando]] [[hard|duro]], [[he|él]] [[is|no]] [[not|no]] [[putting|pone]] [[in|el]] [[the|mismo]] [[same|esfuerzo]].",
+      "words": [
+        "[[While|Mientras]]",
+        "[[am|estoy]]",
+        "[[I|yo]]",
+        "[[studying|estudiando]]",
+        "[[hard|duro]],",
+        "[[he|él]]",
+        "[[is|está]]",
+        "[[not|no]]",
+        "[[putting|poniendo]]",
+        "[[in|el]]",
+        "[[the|el]]",
+        "[[same|mismo]]",
+        "[[effort|esfuerzo]]."
+      ],
+      "explanation": "El contraste entre dos acciones simultáneas utilizando presente continuo.",
+      "audio": "audio/b1/unit-1/e24.mp3"
     },
     "id": "b1-u1-e24",
     "audioUrl": "audio/b1/unit-1/e24.mp3",
     "topicName": "Vocabulary"
   },
   {
-    "type": "fill-blank",
+    "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "While many prefer traditional communication methods, others are embracing instant messaging.",
+    "transcript": "He believes that trends influence how we live, but I think they are just temporary.",
     "content": {
-      "title": "Enfoque en Cambios Sociales Actuales",
-      "instructions": "Elige la forma verbal que mejor complete las frases relacionadas con tendencias sociales.",
-      "questions": [
-        {
-          "question": "[[While|Mientras]] [[many|muchos]] _______ [[traditional|tradicional]] [[communication|comunicación]] [[methods|métodos]], [[others|otros]] _______ [[embracing|adoptando]] [[instant|instantánea]] [[messaging|mensajería]].",
-          "options": [
-            "[[prefer|prefieren]], [[are|están]]",
-            "[[preferred|preferían]], [[embraced|adoptaron]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "El presente simple se utiliza para hábitos o acciones repetidas, mientras que el continuo muestra una tendencia que está desarrollándose.",
-          "audio": "audio/b1/unit-1/e25.mp3"
-        }
-      ]
+      "title": "Construcción de oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[He|Él]] [[believes|cree]] [[that|que]] [[trends|las tendencias]] [[influence|influyen en]] [[how|cómo]] [[we|vivimos]], [[live|nosotros]], [[but|pero]] [[I|yo]] [[think|pienso]] [[they|son]] [[are|solo]] [[just|temporales]].",
+      "words": [
+        "[[He|Él]]",
+        "[[believes|cree]]",
+        "[[that|que]]",
+        "[[trends|las tendencias]]",
+        "[[influence|influyen en]]",
+        "[[how|cómo]]",
+        "[[we|nosotros]]",
+        "[[live|vivimos]],",
+        "[[but|pero]]",
+        "[[I|yo]]",
+        "[[think|pienso]]",
+        "[[they|son]]",
+        "[[are|solo]]",
+        "[[just|temporales]]."
+      ],
+      "explanation": "Uso del presente simple para expresar creencias y opiniones permanentes.",
+      "audio": "audio/b1/unit-1/e25.mp3"
     },
     "id": "b1-u1-e25",
     "audioUrl": "audio/b1/unit-1/e25.mp3",
@@ -705,27 +734,28 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "Although she does not usually like parties, she is enjoying the celebration tonight.",
+    "transcript": "Although he rarely eats out, today he is having lunch at a restaurant.",
     "content": {
-      "title": "Construcción de Oraciones: Identidad Personal",
-      "instructions": "Reordena las palabras para formar una oración correcta.",
-      "questions": [
-        {
-          "question": "[[Although|Aunque]] [[she|ella]] [[does|no]] [[usually|usualmente]] [[like|gustan]] [[parties|las fiestas]], [[she|ella]] [[is|está]] [[enjoying|disfrutando]] [[the|la]] [[celebration|celebración]] [[tonight|esta noche]].",
-          "options": [
-            "[[does|no]] [[usually|usualmente]] [[like|gustan]] [[parties|las fiestas]]",
-            "[[she|ella]] [[is|está]] [[enjoying|disfrutando]] [[the|la]] [[celebration|celebración]]",
-            "[[Although|Aunque]] [[tonight|esta noche]]"
-          ],
-          "correctOrder": [
-            2,
-            0,
-            1
-          ],
-          "explanation": "Usa 'although' para contrastar sus gustos habituales y su acción actual.",
-          "audio": "audio/b1/unit-1/e26.mp3"
-        }
-      ]
+      "title": "Construcción de oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[Although|Aunque]] [[he|él]] [[rarely|raramente]] [[eats|come]] [[out|fuera]], [[today|hoy]] [[he|él]] [[is|está]] [[having|almorzando]] [[lunch|almuerzo]] [[at|en]] [[a|un]] [[restaurant|restaurante]].",
+      "words": [
+        "[[Although|Aunque]]",
+        "[[he|él]]",
+        "[[rarely|raramente]]",
+        "[[eats|come]]",
+        "[[out|fuera]],",
+        "[[today|hoy]]",
+        "[[he|él]]",
+        "[[is|está]]",
+        "[[having|almorzando]]",
+        "[[lunch|almuerzo]]",
+        "[[at|en]]",
+        "[[a|un]]",
+        "[[restaurant|restaurante]]."
+      ],
+      "explanation": "Se utiliza el presente simple para hábitos y el presente continuo para acciones excepcionales o temporales.",
+      "audio": "audio/b1/unit-1/e26.mp3"
     },
     "id": "b1-u1-e26",
     "audioUrl": "audio/b1/unit-1/e26.mp3",
@@ -736,20 +766,19 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "They are discussing new social trends at the meeting.",
+    "transcript": "Although he is living in a busy city, he misses the countryside.",
     "content": {
-      "title": "Elección Múltiple: Tendencias Sociales",
-      "instructions": "Selecciona la opción correcta para completar la oración.",
+      "title": "Presente simple vs. continuo",
+      "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[discussing|discutiendo]] [[new|nuevas]] [[social|sociales]] [[trends|tendencias]] [[at|en]] [[the|la]] [[meeting|reunión]].",
+          "question": "[[Although|Aunque]] [[he|él]] _______ [[in|en]] [[a|una]] [[busy|ocupada]] [[city|ciudad]], [[he|él]] [[misses|extraña]] [[the|el]] [[countryside|campo]].",
           "options": [
-            "[[are|están]]",
-            "[[do|hacen]]",
-            "[[have|tienen]]"
+            "[[is|está]] [[living|viviendo]]",
+            "[[lives|vive]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso del presente continuo para indicar una acción en progreso.",
+          "explanation": "El presente continuo se utiliza para acciones temporales que están ocurriendo ahora.",
           "audio": "audio/b1/unit-1/e27.mp3"
         }
       ]
@@ -759,24 +788,23 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Grammar"
   },
   {
-    "type": "fill-in-the-blank",
+    "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "Despite his busy schedule, he always makes time for volunteering.",
+    "transcript": "John usually reads before bed, however, tonight he is watching a movie.",
     "content": {
-      "title": "Completa la Oración: Identidad Personal",
-      "instructions": "Completa la oración usando la palabra correcta.",
+      "title": "Presente simple vs. continuo",
+      "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[his|su]] [[busy|ocupada]] [[schedule|agenda]], _______, [[time|tiempo]] [[for|para]] [[volunteering|voluntariado]].",
+          "question": "[[John|John]] [[usually|normalmente]] _______ [[before|antes de]] [[bed|dormir]], [[however|sin embargo]], [[tonight|esta noche]] [[he|él]] [[is|está]] [[watching|viendo]] [[a|una]] [[movie|película]].",
           "options": [
-            "[[he|él]] [[always|siempre]] [[makes|hace]]",
-            "[[he|él]] [[usually|usualmente]] [[takes|toma]]",
-            "[[he|él]] [[never|nunca]] [[finds|encuentra]]"
+            "[[reads|lee]]",
+            "[[is|está]] [[reading|leyendo]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Uso del presente simple con 'always' para acciones que se repiten regularmente.",
+          "explanation": "El presente simple se usa para hábitos, mientras que el presente continuo se usa para acciones que están ocurriendo ahora.",
           "audio": "audio/b1/unit-1/e28.mp3"
         }
       ]
@@ -786,28 +814,23 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Grammar"
   },
   {
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "While technology evolves rapidly, some people still prefer traditional methods.",
+    "transcript": "Despite working long hours, she always finds time for her family.",
     "content": {
-      "title": "Construcción de Oraciones: Tendencias Sociales",
-      "instructions": "Reordena las palabras para formar una oración correcta.",
+      "title": "Presente simple vs. continuo",
+      "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[While|Mientras]] [[technology|la tecnología]] [[evolves|evoluciona]] [[rapidly|rápidamente]], [[some|algunas]] [[people|personas]] [[still|todavía]] [[prefer|prefieren]] [[traditional|métodos tradicionales]] [[methods|métodos]].",
+          "question": "[[Despite|A pesar de]] _______ [[long|largas]] [[hours|horas]], [[she|ella]] [[always|siempre]] [[finds|encuentra]] [[time|tiempo]] [[for|para]] [[her|su]] [[family|familia]].",
           "options": [
-            "[[While|Mientras]] [[technology|la tecnología]] [[evolves|evoluciona]]",
-            "[[rapidly|rápidamente]], [[some|algunas]] [[people|personas]]",
-            "[[still|todavía]] [[prefer|prefieren]] [[traditional|métodos tradicionales]] [[methods|métodos]]"
+            "[[working|trabajando]]",
+            "[[to|a]] [[work|trabajar]]"
           ],
-          "correctOrder": [
-            0,
-            1,
-            2
-          ],
-          "explanation": "Se usa 'while' para contrastar el progreso tecnológico y las preferencias humanas.",
+          "correctAnswer": 0,
+          "explanation": "Se usa el gerundio para después de ciertas preposiciones como 'despite'.",
           "audio": "audio/b1/unit-1/e29.mp3"
         }
       ]
@@ -821,20 +844,19 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "He speaks three languages fluently, although he is currently learning a fourth one.",
+    "transcript": "She doesn't usually drink coffee, but today she is having a cappuccino.",
     "content": {
-      "title": "Elección Múltiple: Identidad Personal",
-      "instructions": "Escoge la opción correcta para completar la oración.",
+      "title": "Presente simple vs. continuo",
+      "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[He|Él]] [[speaks|habla]] [[three|tres]] [[languages|idiomas]] [[fluently|con fluidez]], [[although|aunque]] _______ [[learning|aprendiendo]] [[a|un]] [[fourth|cuarto]] [[one|uno]].",
+          "question": "[[She|Ella]] _______ [[usually|normalmente]] [[drink|bebe]] [[coffee|café]], [[but|pero]] [[today|hoy]] [[she|ella]] [[is|está]] [[having|tomando]] [[a|un]] [[cappuccino|capuchino]].",
           "options": [
-            "[[he|él]] [[is|está]]",
-            "[[he|él]] [[does|hace]]",
-            "[[he|él]] [[has|tiene]]"
+            "[[doesn't|no]] [[drink|bebe]]",
+            "[[isn't|no está]] [[drinking|bebiendo]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Se usa el presente continuo para una acción que está en proceso actualmente.",
+          "explanation": "El presente simple se usa para hechos generales, el presente continuo para acciones que ocurren en este momento específico.",
           "audio": "audio/b1/unit-1/e30.mp3"
         }
       ]
@@ -848,19 +870,19 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "While Jane reads her favorite book, her brother is playing video games.",
+    "transcript": "Nowadays, more people are choosing to work remotely.",
     "content": {
-      "title": "El uso correcto del presente simple y continuo",
-      "instructions": "Elige la opción correcta para completar la oración usando el presente simple o continuo.",
+      "title": "Presente simple vs. continuo",
+      "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[While|Mientras]] [[Jane|Jane]] _______ [[her|su]] [[favorite|favorito]] [[book|libro]], [[her|su]] [[brother|hermano]] [[is|está]] [[playing|jugando]] [[video|video]] [[games|juegos]].",
+          "question": "[[Nowadays|Hoy en día]], [[more|más]] [[people|gente]] _______ [[to|a]] [[work|trabajar]] [[remotely|remotamente]].",
           "options": [
-            "[[reads|lee]]",
-            "[[is|está]] [[reading|leyendo]]"
+            "[[choose|eligen]]",
+            "[[are|están]] [[choosing|eligiendo]]"
           ],
           "correctAnswer": 1,
-          "explanation": "Utilizamos el presente continuo para describir acciones que están ocurriendo en este momento específico.",
+          "explanation": "El presente continuo se utiliza para describir tendencias o cambios en curso.",
           "audio": "audio/b1/unit-1/e31.mp3"
         }
       ]
@@ -870,23 +892,23 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Grammar"
   },
   {
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "Although Maria loves music, she is not listening to the concert today.",
+    "transcript": "Although he works as an engineer, he is taking a course in photography.",
     "content": {
-      "title": "Diferencias entre presente simple y continuo",
-      "instructions": "Escoge la forma correcta del verbo relacionada al tiempo presente simple o continuo.",
+      "title": "Presente Simple vs Presente Continuo",
+      "instructions": "Llena los espacios con la forma correcta del verbo según el contexto.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[Maria|Maria]] _______ [[music|música]], [[she|ella]] [[is|no]] _______ [[listening|escuchando]] [[to|al]] [[the|el]] [[concert|concierto]] [[today|hoy]].",
+          "question": "[[Although|Aunque]] [[he|él]] _______ [[as|como]] [[an|un]] [[engineer|ingeniero]], [[he|él]] [[is|está]] [[taking|tomando]] [[a|un]] [[course|curso]] [[in|en]] [[photography|fotografía]].",
           "options": [
-            "[[loves|ama]]",
-            "[[love|amar]]"
+            "[[works|trabaja]]",
+            "[[is|es]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Usamos el presente simple para hablar de preferencias generales.",
+          "explanation": "Uso del presente simple para hábitos o profesiones habituales.",
           "audio": "audio/b1/unit-1/e32.mp3"
         }
       ]
@@ -896,23 +918,23 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Grammar"
   },
   {
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "Every Friday, we go to a new restaurant, but tonight we are cooking at home.",
+    "transcript": "Maria usually travels by public transport, but today she is driving her car.",
     "content": {
-      "title": "Uso de presente simple y continuo en contextos cotidianos",
-      "instructions": "Selecciona la opción correcta que completa la oración adecuadamente.",
+      "title": "Presente Simple vs Presente Continuo",
+      "instructions": "Llena los espacios con la forma correcta del verbo según el contexto.",
       "questions": [
         {
-          "question": "[[Every|Cada]] [[Friday|viernes]], [[we|nosotros]] _______ [[to|a]] [[a|un]] [[new|nuevo]] [[restaurant|restaurante]], [[but|pero]] [[tonight|esta noche]] [[we|nosotros]] _______ [[cooking|cocinando]] [[at|en]] [[home|casa]].",
+          "question": "[[Maria|María]] [[usually|usualmente]] _______ [[by|por]] [[public|público]] [[transport|transporte]], [[but|pero]] [[today|hoy]] [[she|ella]] [[is|está]] _______ [[her|su]] [[car|coche]].",
           "options": [
-            "[[go|vamos]]",
-            "[[are|estamos]] [[going|yendo]]"
+            "[[drives|conduce]]",
+            "[[travels|viaja]]"
           ],
-          "correctAnswer": 0,
-          "explanation": "Se usa el presente simple para describir actividades regulares y el presente continuo para acciones que ocurren ahora.",
+          "correctAnswer": 1,
+          "explanation": "Uso del presente simple para acciones habituales y presente continuo para acciones en progreso.",
           "audio": "audio/b1/unit-1/e33.mp3"
         }
       ]
@@ -922,23 +944,23 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Grammar"
   },
   {
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "Despite the workload, she is maintaining her routine, which includes daily exercise.",
+    "transcript": "My friends often dine at this restaurant, though today they are cooking at home.",
     "content": {
-      "title": "Comprensión del presente continuo en rutinas existentes",
-      "instructions": "Escoge la respuesta correcta para los espacios usando la gramática adecuada.",
+      "title": "Presente Simple vs Presente Continuo",
+      "instructions": "Llena los espacios con la forma correcta del verbo según el contexto.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[the|la]] [[workload|carga de trabajo]], [[she|ella]] _______ [[her|su]] [[routine|rutina]], [[which|la cual]] _______ [[includes|incluye]] [[daily|diario]] [[exercise|ejercicio]].",
+          "question": "[[My|Mis]] [[friends|amigos]] [[often|a menudo]] _______ [[at|en]] [[this|este]] [[restaurant|restaurante]], [[though|aunque]] [[today|hoy]] [[they|ellos]] _______ [[at|en]] [[home|casa]].",
           "options": [
-            "[[maintains|mantiene]]",
-            "[[is|está]] [[maintaining|manteniendo]]"
+            "[[are|están]] [[cooking|cocinando]]",
+            "[[dine|cenan]]"
           ],
           "correctAnswer": 1,
-          "explanation": "Para mantener una acción regular que se produce en medio de otras actividades, utilizamos el presente continuo.",
+          "explanation": "El presente simple se usa para acciones repetitivas; el presente continuo describe acciones en curso.",
           "audio": "audio/b1/unit-1/e34.mp3"
         }
       ]
@@ -948,23 +970,23 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Grammar"
   },
   {
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "Currently, we are focusing on new projects, whereas the competitors develop similar ideas.",
+    "transcript": "Despite the rain, the children are playing outside right now.",
     "content": {
-      "title": "Contraste entre acciones presentes y procesos continuos",
-      "instructions": "Completa la oración, considerando el uso del presente simple y continuo.",
+      "title": "Presente Simple vs Presente Continuo",
+      "instructions": "Llena los espacios con la forma correcta del verbo según el contexto.",
       "questions": [
         {
-          "question": "[[Currently|Actualmente]], [[we|nosotros]] _______ [[on|en]] [[new|nuevos]] [[projects|proyectos]], [[whereas|mientras que]] [[the|los]] [[competitors|competidores]] _______ [[similar|similares]] [[ideas|ideas]].",
+          "question": "[[Despite|A pesar de]] [[the|la]] [[rain|lluvia]], [[the|los]] [[children|niños]] _______ [[outside|afuera]] [[right|justo]] [[now|ahora]].",
           "options": [
-            "[[focus|enfocamos]]",
-            "[[are|están]] [[focusing|enfocándose]]"
+            "[[play|juegan]]",
+            "[[are|están]] [[playing|jugando]]"
           ],
           "correctAnswer": 1,
-          "explanation": "Se emplea el presente continuo para acciones actuales en desarrollo, y el presente simple para acciones regulares o generales.",
+          "explanation": "El presente continuo expresa acciones que ocurren en el momento presente.",
           "audio": "audio/b1/unit-1/e35.mp3"
         }
       ]
@@ -978,19 +1000,19 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "She practices yoga every morning, but she is meeting her colleague for breakfast today.",
+    "transcript": "Even though she enjoys the job, she is considering a career change.",
     "content": {
-      "title": "Ritmos [[diarios|daily]]",
-      "instructions": "[[Completa|Complete]] [[las|the]] [[oraciones|sentences]] [[usando|using]] [[el|the]] [[presente|present]] [[simple|simple]] [[o|or]] [[continuo|continuous]].",
+      "title": "Presente Simple vs Presente Continuo",
+      "instructions": "Llena los espacios con la forma correcta del verbo según el contexto.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[practices|practica]] [[yoga|yoga]] [[every|cada]] [[morning|mañana]], _______ [[she|ella]] [[is|está]] [[meeting|reuniéndose]] [[her|su]] [[colleague|colega]] [[for|para]] [[breakfast|desayuno]] [[today|hoy]].",
+          "question": "[[Even|Aunque]] [[though|aunque]] [[she|ella]] _______ [[the|el]] [[job|trabajo]], [[she|ella]] [[is|está]] _______ [[a|un]] [[career|cambio de carrera]].",
           "options": [
-            "[[but|pero]]",
-            "[[because|porque]]"
+            "[[enjoys|disfruta]]",
+            "[[considering|considerando]]"
           ],
           "correctAnswer": 0,
-          "explanation": "[[Uso|Use]] [[del|of]] [[presente|present]] [[simple|simple]] [[para|for]] [[acciones|actions]] [[habituales|habits]], [[pero|but]] [[presente|present]] [[continuo|continuous]] [[para|for]] [[acciones|actions]] [[específicas|specific]] [[de|of]] [[este|this]] [[momento|moment]].",
+          "explanation": "El presente simple se usa para gustos o preferencias; el presente continuo para cambios planeados.",
           "audio": "audio/b1/unit-1/e36.mp3"
         }
       ]
@@ -1000,104 +1022,112 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Grammar"
   },
   {
-    "type": "fill-blank",
+    "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "Although he generally enjoys quiet evenings, he is attending a concert tonight.",
+    "transcript": "She often attends seminars to improve her skills.",
     "content": {
-      "title": "[[Preferencias|Preferences]] [[sociales|social]]",
-      "instructions": "[[Completa|Complete]] [[las|the]] [[oraciones|sentences]] [[usando|using]] [[el|the]] [[presente|present]] [[simple|simple]] [[o|or]] [[continuo|continuous]].",
-      "questions": [
-        {
-          "question": "[[Although|Aunque]] [[he|él]] [[generally|generalmente]] [[enjoys|disfruta de]] [[quiet|tranquilas]] [[evenings|tardes]], _______ [[he|él]] _______ [[attending|asistiendo]] [[a|a]] [[concert|concierto]] [[tonight|esta noche]].",
-          "options": [
-            "[[is|está]]",
-            "[[does|hace]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "[[Uso|Use]] [[de|of]] [[conectores|connectors]] [[para|for]] [[contrastar|contrasting]] [[acciones|actions]] [[habituales|habitual]] [[con|with]] [[acciones|actions]] [[del|of]] [[momento|the moment]].",
-          "audio": "audio/b1/unit-1/e37.mp3"
-        }
-      ]
+      "title": "Construcción de oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[She|Ella]] [[often|a menudo]] [[attends|asiste]] [[seminars|seminarios]] [[to|para]] [[improve|mejorar]] [[her|sus]] [[skills|habilidades]].",
+      "words": [
+        "[[attends|asiste]]",
+        "[[seminars|seminarios]]",
+        "[[skills|habilidades]]",
+        "[[to|para]]",
+        "[[improve|mejorar]]",
+        "[[She|Ella]]",
+        "[[often|a menudo]]",
+        "[[her|sus]]"
+      ],
+      "explanation": "Uso del presente simple para hábitos o acciones habituales.",
+      "audio": "audio/b1/unit-1/e37.mp3"
     },
     "id": "b1-u1-e37",
     "audioUrl": "audio/b1/unit-1/e37.mp3",
     "topicName": "Grammar"
   },
   {
-    "type": "fill-blank",
+    "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "Despite the fact that they live in different cities, they are communicating every day through video calls.",
+    "transcript": "Although he is usually shy, today he is speaking confidently.",
     "content": {
-      "title": "[[Comunicación|Communication]] [[moderna|modern]]",
-      "instructions": "[[Completa|Complete]] [[las|the]] [[oraciones|sentences]] [[usando|using]] [[el|the]] [[presente|present]] [[simple|simple]] [[o|or]] [[continuo|continuous]].",
-      "questions": [
-        {
-          "question": "[[Despite|A pesar de]] [[the|el]] [[fact|hecho]] [[that|de que]] [[they|ellos]] _______ [[live|viven]] [[in|en]] [[different|diferentes]] [[cities|ciudades]], [[they|ellos]] _______ [[communicating|comunicando]] [[every|cada]] [[day|día]] [[through|a través de]] [[video|video]] [[calls|llamadas]].",
-          "options": [
-            "[[are|están]]",
-            "[[do|hacen]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "[[Uso|Use]] [[del|of]] [[presente|present]] [[continuo|continuous]] [[para|for]] [[acciones|actions]] [[actuales|current]].",
-          "audio": "audio/b1/unit-1/e38.mp3"
-        }
-      ]
+      "title": "Construcción de oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[Although|Aunque]] [[he|él]] [[is|es]] [[usually|usualmente]] [[shy|tímido]], [[today|hoy]] [[he|él]] [[is|está]] [[speaking|hablando]] [[confidently|con confianza]].",
+      "words": [
+        "[[today|hoy]]",
+        "[[speaking|hablando]]",
+        "[[he|él]]",
+        "[[Although|Aunque]]",
+        "[[shy|tímido]]",
+        "[[is|está]]",
+        "[[confidently|con confianza]]",
+        "[[usually|usualmente]]",
+        "[[he|él]]",
+        "[[is|es]]"
+      ],
+      "explanation": "Contraste entre presente simple para hechos habituales y presente continuo para acciones actuales.",
+      "audio": "audio/b1/unit-1/e38.mp3"
     },
     "id": "b1-u1-e38",
     "audioUrl": "audio/b1/unit-1/e38.mp3",
     "topicName": "Grammar"
   },
   {
-    "type": "fill-blank",
+    "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "Nowadays, she cooks healthy meals and is exercising regularly to improve her lifestyle.",
+    "transcript": "We are not visiting the exhibition because we need to study.",
     "content": {
-      "title": "[[Estilo|Style]] [[de|of]] [[vida|life]] [[activo|active]]",
-      "instructions": "[[Completa|Complete]] [[las|the]] [[oraciones|sentences]] [[usando|using]] [[el|the]] [[presente|present]] [[simple|simple]] [[o|or]] [[continuo|continuous]].",
-      "questions": [
-        {
-          "question": "[[Nowadays|Hoy en día]], [[she|ella]] _______ [[cooks|cocina]] [[healthy|saludables]] [[meals|comidas]] [[and|y]] [[is|está]] _______ [[exercising|haciendo ejercicio]] [[regularly|regularmente]] [[to|para]] [[improve|mejorar]] [[her|su]] [[lifestyle|estilo de vida]].",
-          "options": [
-            "[[is|está]]",
-            "[[does|hace]]"
-          ],
-          "correctAnswer": 1,
-          "explanation": "[[Uso|Use]] [[de|of]] [[presente|present]] [[simple|simple]] [[para|for]] [[rutinas|routines]], [[presente|present]] [[continuo|continuous]] [[para|for]] [[acciones|actions]] [[en|in]] [[progreso|progress]].",
-          "audio": "audio/b1/unit-1/e39.mp3"
-        }
-      ]
+      "title": "Construcción de oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[We|Nosotros]] [[are|estamos]] [[not|no]] [[visiting|visitando]] [[the|la]] [[exhibition|exposición]] [[because|porque]] [[we|nosotros]] [[need|necesitamos]] [[to|a]] [[study|estudiar]].",
+      "words": [
+        "[[exhibition|exposición]]",
+        "[[We|Nosotros]]",
+        "[[need|necesitamos]]",
+        "[[are|estamos]]",
+        "[[to|a]]",
+        "[[not|no]]",
+        "[[visiting|visitando]]",
+        "[[because|porque]]",
+        "[[the|la]]",
+        "[[we|nosotros]]",
+        "[[study|estudiar]]"
+      ],
+      "explanation": "Uso del presente continuo para acciones que no están sucediendo actualmente y presente simple para razones o hechos.",
+      "audio": "audio/b1/unit-1/e39.mp3"
     },
     "id": "b1-u1-e39",
     "audioUrl": "audio/b1/unit-1/e39.mp3",
     "topicName": "Grammar"
   },
   {
-    "type": "fill-blank",
+    "type": "sentence-building",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "He frequently works from home, although he is traveling for a conference this week.",
+    "transcript": "Despite living far away, she attends every meeting.",
     "content": {
-      "title": "[[Trabajo|Work]] [[y|and]] [[viajes|travel]]",
-      "instructions": "[[Completa|Complete]] [[las|the]] [[oraciones|sentences]] [[usando|using]] [[el|the]] [[presente|present]] [[simple|simple]] [[o|or]] [[continuo|continuous]].",
-      "questions": [
-        {
-          "question": "[[He|Él]] [[frequently|frecuentemente]] _______ [[works|trabaja]] [[from|desde]] [[home|casa]], _______ [[he|él]] [[is|está]] _______ [[traveling|viajando]] [[for|por]] [[a|una]] [[conference|conferencia]] [[this|esta]] [[week|semana]].",
-          "options": [
-            "[[is|está]]",
-            "[[although|aunque]]"
-          ],
-          "correctAnswer": 1,
-          "explanation": "[[Uso|Use]] [[de|of]] [[presente|present]] [[simple|simple]] [[para|for]] [[acciones|actions]] [[frecuentes|frequent]], [[mientras|while]] [[presente|present]] [[continuo|continuous]] [[para|for]] [[acciones|actions]] [[puntuales|specific]].",
-          "audio": "audio/b1/unit-1/e40.mp3"
-        }
-      ]
+      "title": "Construcción de oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[Despite|A pesar de]] [[living|vivir]] [[far|lejos]], [[she|ella]] [[attends|asiste]] [[every|cada]] [[meeting|reunión]].",
+      "words": [
+        "[[Despite|A pesar de]]",
+        "[[attends|asiste]]",
+        "[[meeting|reunión]]",
+        "[[living|vivir]]",
+        "[[far|lejos]]",
+        "[[she|ella]]",
+        "[[every|cada]]"
+      ],
+      "explanation": "Present simple para hábitos frecuentes y 'despite' para mostrar contraste.",
+      "audio": "audio/b1/unit-1/e40.mp3"
     },
     "id": "b1-u1-e40",
     "audioUrl": "audio/b1/unit-1/e40.mp3",
@@ -1108,89 +1138,48 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "She usually attends meetings, but today she is working from home.",
+    "transcript": "They are considering new strategies although they face many challenges.",
     "content": {
-      "title": "Construcción de frases: Rutina y Cambios",
-      "instructions": "Ordena las palabras para formar una frase lógica y completa.",
-      "questions": [
-        {
-          "sentenceParts": [
-            "[[usually|normalmente]]",
-            "[[she|ella]]",
-            "[[attends|asiste]]",
-            "[[meetings|reuniones]],",
-            "[[but|pero]]",
-            "[[today|hoy]]",
-            "[[she|ella]]",
-            "[[is|está]]",
-            "[[working|trabajando]]",
-            "[[from|desde]]",
-            "[[home|casa]]."
-          ],
-          "correctOrder": [
-            1,
-            0,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10
-          ],
-          "explanation": "Uso del presente simple con el adverbio 'usually' para hábitos, y del presente continuo para acciones temporales.",
-          "audio": "audio/b1/unit-1/e41.mp3"
-        }
-      ]
+      "title": "Construcción de oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[They|Ellos]] [[are|están]] [[considering|considerando]] [[new|nuevas]] [[strategies|estrategias]] [[although|aunque]] [[they|ellos]] [[face|enfrentan]] [[many|muchos]] [[challenges|desafíos]].",
+      "words": [
+        "[[are|están]]",
+        "[[new|nuevas]]",
+        "[[considering|considerando]]",
+        "[[they|ellos]]",
+        "[[challenges|desafíos]]",
+        "[[although|aunque]]",
+        "[[strategies|estrategias]]",
+        "[[face|enfrentan]]",
+        "[[They|Ellos]]",
+        "[[many|muchos]]"
+      ],
+      "explanation": "Diferencia entre presente continuo para procesos en curso y presente simple para situaciones permanentes o repetitivas.",
+      "audio": "audio/b1/unit-1/e41.mp3"
     },
     "id": "b1-u1-e41",
     "audioUrl": "audio/b1/unit-1/e41.mp3",
     "topicName": "Grammar"
   },
   {
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "Despite living in the city, she is planting a garden on her balcony.",
+    "transcript": "John works at a bank during the week.",
     "content": {
-      "title": "Construcción de frases: Contrastes y Proyectos Personales",
-      "instructions": "Coloca las palabras en el orden correcto para formar una frase coherente.",
+      "title": "Presente Simple",
+      "instructions": "Selecciona la opción correcta para completar la oración.",
       "questions": [
         {
-          "sentenceParts": [
-            "[[despite|a pesar de]]",
-            "[[living|vivir]]",
-            "[[in|en]]",
-            "[[the|la]]",
-            "[[city|ciudad]],",
-            "[[she|ella]]",
-            "[[is|está]]",
-            "[[planting|plantando]]",
-            "[[a|un]]",
-            "[[garden|jardín]]",
-            "[[on|en]]",
-            "[[her|su]]",
-            "[[balcony|balcón]]."
+          "question": "[[John|John]] _______ [[at|en]] [[a|un]] [[bank|banco]] [[during|durante]] [[the|la]] [[week|semana]].",
+          "options": [
+            "[[works|trabaja]]",
+            "[[is working|está trabajando]]"
           ],
-          "correctOrder": [
-            0,
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12
-          ],
-          "explanation": "Uso de 'despite' para mostrar contraste, seguido del presente continuo para una actividad actual.",
+          "correctAnswer": 0,
+          "explanation": "Uso del presente simple para acciones habituales.",
           "audio": "audio/b1/unit-1/e42.mp3"
         }
       ]
@@ -1200,39 +1189,23 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Grammar"
   },
   {
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "Although he travels often, he is studying online courses.",
+    "transcript": "Although it is raining, she walks to work.",
     "content": {
-      "title": "Construcción de frases: Vida Profesional y Educación",
-      "instructions": "Organiza las palabras para formar una frase lógica y comprensible.",
+      "title": "Conectores y Presente",
+      "instructions": "Elige la palabra que mejor completa la oración.",
       "questions": [
         {
-          "sentenceParts": [
-            "[[although|aunque]]",
-            "[[he|él]]",
-            "[[travels|viaja]]",
-            "[[often|a menudo]],",
-            "[[he|él]]",
-            "[[is|está]]",
-            "[[studying|estudiando]]",
-            "[[online|en línea]]",
-            "[[courses|cursos]]."
+          "question": "[[Although|Aunque]] [[it|ello]] [[is|está]] [[raining|lloviendo]], [[she|ella]] _______ [[to|al]] [[work|trabajo]].",
+          "options": [
+            "[[walks|camina]]",
+            "[[is walking|está caminando]]"
           ],
-          "correctOrder": [
-            0,
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8
-          ],
-          "explanation": "El uso de 'although' para introducir contraste, usando el presente simple y continuo para hábitos y acciones en proceso.",
+          "correctAnswer": 0,
+          "explanation": "Se usa el presente simple con acciones de rutina, incluso con conectores como 'although'.",
           "audio": "audio/b1/unit-1/e43.mp3"
         }
       ]
@@ -1242,47 +1215,23 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Grammar"
   },
   {
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "They commute to work every day, but they are taking the train today.",
+    "transcript": "Currently, they are discussing the proposal.",
     "content": {
-      "title": "Construcción de frases: Transporte y Rutina Diaria",
-      "instructions": "Ordena las palabras para completar la frase de manera adecuada.",
+      "title": "Presente Continuo",
+      "instructions": "Selecciona la opción que mejor completa la oración.",
       "questions": [
         {
-          "sentenceParts": [
-            "[[they|ellos]]",
-            "[[commute|viajan]]",
-            "[[to|al]]",
-            "[[work|trabajo]]",
-            "[[every|cada]]",
-            "[[day|día]],",
-            "[[but|pero]]",
-            "[[they|ellos]]",
-            "[[are|están]]",
-            "[[taking|tomando]]",
-            "[[the|el]]",
-            "[[train|tren]]",
-            "[[today|hoy]]."
+          "question": "[[Currently|Actualmente]], [[they|ellos]] _______ [[the|la]] [[proposal|propuesta]].",
+          "options": [
+            "[[discuss|discuten]]",
+            "[[are discussing|están discutiendo]]"
           ],
-          "correctOrder": [
-            0,
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12
-          ],
-          "explanation": "El uso del presente simple para acciones regulares y del presente continuo para acciones específicas del día.",
+          "correctAnswer": 1,
+          "explanation": "El presente continuo se usa para acciones que están ocurriendo en el momento actual.",
           "audio": "audio/b1/unit-1/e44.mp3"
         }
       ]
@@ -1292,45 +1241,23 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Grammar"
   },
   {
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "While he usually reads novels, he is currently writing his own book.",
+    "transcript": "Maria travels to Italy every summer.",
     "content": {
-      "title": "Construcción de frases: Intereses Personales y Proyectos Creativos",
-      "instructions": "Arma la oración reorganizando las palabras en el orden correcto.",
+      "title": "Hábitos y Rutinas",
+      "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "sentenceParts": [
-            "[[while|mientras]]",
-            "[[he|él]]",
-            "[[usually|normalmente]]",
-            "[[reads|lee]]",
-            "[[novels|novelas]],",
-            "[[he|él]]",
-            "[[is|está]]",
-            "[[currently|actualmente]]",
-            "[[writing|escribiendo]]",
-            "[[his|su]]",
-            "[[own|propio]]",
-            "[[book|libro]]."
+          "question": "[[Maria|Maria]] _______ [[to|a]] [[Italy|Italia]] [[every|cada]] [[summer|verano]].",
+          "options": [
+            "[[is traveling|está viajando]]",
+            "[[travels|viaja]]"
           ],
-          "correctOrder": [
-            0,
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "explanation": "Usa 'while' para contrastar un hábito con una actividad específica que se está desarrollando ahora mismo.",
+          "correctAnswer": 1,
+          "explanation": "Se utiliza el presente simple para describir acciones habituales o rutinas.",
           "audio": "audio/b1/unit-1/e45.mp3"
         }
       ]
@@ -1344,129 +1271,25 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "B1",
     "topic": "Personal Identity & Social Trends",
     "difficulty": "medium",
-    "transcript": "He is considering a career change, although he loves his current job.",
+    "transcript": "Despite the cold weather, he is wearing shorts.",
     "content": {
-      "title": "Cambio de Carrera",
-      "instructions": "Elige la opción correcta para completar la frase.",
+      "title": "Presente Continuo y Contraste",
+      "instructions": "Selecciona la opción adecuada para completar la oración.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[considering|considerando]] [[a|un]] [[career|carrera]] [[change|cambio]], [[although|aunque]] [[he|él]] [[loves|ama]] [[his|su]] [[current|actual]] [[job|trabajo]].",
+          "question": "[[Despite|A pesar de]] [[the|el]] [[cold|frío]] [[weather|clima]], [[he|él]] _______ [[shorts|pantalones cortos]].",
           "options": [
-            "[[is|está]]",
-            "[[does|hace]]"
+            "[[wears|usa]]",
+            "[[is wearing|está usando]]"
           ],
-          "correctAnswer": 0,
-          "explanation": "Uso del presente continuo porque la acción es temporal y planificada.",
+          "correctAnswer": 1,
+          "explanation": "El presente continuo se utiliza para expresar actividades momentáneas pese a un contraste, como el clima en este caso.",
           "audio": "audio/b1/unit-1/e46.mp3"
         }
       ]
     },
     "id": "b1-u1-e46",
     "audioUrl": "audio/b1/unit-1/e46.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "type": "multiple-choice",
-    "level": "B1",
-    "topic": "Personal Identity & Social Trends",
-    "difficulty": "medium",
-    "transcript": "Despite the rainy weather, they are playing football.",
-    "content": {
-      "title": "El Clima y los Deportes",
-      "instructions": "Selecciona la opción que complete correctamente la oración.",
-      "questions": [
-        {
-          "question": "[[Despite|A pesar de]] [[the|el]] [[rainy|lluvioso]] [[weather|clima]], [[they|ellos]] _______ [[playing|jugando]] [[football|fútbol]].",
-          "options": [
-            "[[are|están]]",
-            "[[play|juegan]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Uso del presente continuo para una actividad que ocurre actualmente.",
-          "audio": "audio/b1/unit-1/e47.mp3"
-        }
-      ]
-    },
-    "id": "b1-u1-e47",
-    "audioUrl": "audio/b1/unit-1/e47.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "type": "multiple-choice",
-    "level": "B1",
-    "topic": "Personal Identity & Social Trends",
-    "difficulty": "medium",
-    "transcript": "She often watches TV in the evening after work, but today she is reading a book.",
-    "content": {
-      "title": "Rutinas y Excepciones",
-      "instructions": "Escoge la opción correcta para completar las oraciones.",
-      "questions": [
-        {
-          "question": "[[She|Ella]] _______ [[often|a menudo]] [[watches|mira]] [[TV|televisión]] [[in|por]] [[the|la]] [[evening|tarde]] [[after|después de]] [[work|trabajar]], [[but|pero]] [[today|hoy]] [[she|ella]] _______ [[reading|leyendo]] [[a|un]] [[book|libro]].",
-          "options": [
-            "[[is|está]] [[reads|lee]]",
-            "[[watches|mira]] [[is|está]]"
-          ],
-          "correctAnswer": 1,
-          "explanation": "Uso del presente simple para hábitos y del presente continuo para acciones excepcionales.",
-          "audio": "audio/b1/unit-1/e48.mp3"
-        }
-      ]
-    },
-    "id": "b1-u1-e48",
-    "audioUrl": "audio/b1/unit-1/e48.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "type": "multiple-choice",
-    "level": "B1",
-    "topic": "Personal Identity & Social Trends",
-    "difficulty": "medium",
-    "transcript": "While he works from home regularly, today he is repairing his car.",
-    "content": {
-      "title": "Trabajo y Actividades Diarias",
-      "instructions": "Elige la opción que mejor complete las oraciones.",
-      "questions": [
-        {
-          "question": "[[While|Aunque]] [[he|él]] _______ [[works|trabaja]] [[from|desde]] [[home|casa]] [[regularly|regularmente]], [[today|hoy]] [[he|él]] _______ [[repairing|reparando]] [[his|su]] [[car|coche]].",
-          "options": [
-            "[[works|trabaja]] [[is|está]]",
-            "[[is|está]] [[works|trabaja]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Uso del presente simple para acciones habituales y presente continuo para acciones puntuales.",
-          "audio": "audio/b1/unit-1/e49.mp3"
-        }
-      ]
-    },
-    "id": "b1-u1-e49",
-    "audioUrl": "audio/b1/unit-1/e49.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "type": "multiple-choice",
-    "level": "B1",
-    "topic": "Personal Identity & Social Trends",
-    "difficulty": "medium",
-    "transcript": "They are planning a vacation because they need a break.",
-    "content": {
-      "title": "Planificación de Vacaciones",
-      "instructions": "Selecciona la opción correcta para completar la oración.",
-      "questions": [
-        {
-          "question": "[[They|Ellos]] _______ [[planning|planeando]] [[a|unas]] [[vacation|vacaciones]] [[because|porque]] [[they|ellos]] [[need|necesitan]] [[a|un]] [[break|descanso]].",
-          "options": [
-            "[[are|están]]",
-            "[[plan|planean]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "El presente continuo se utiliza para describir planes futuros ya decididos.",
-          "audio": "audio/b1/unit-1/e50.mp3"
-        }
-      ]
-    },
-    "id": "b1-u1-e50",
-    "audioUrl": "audio/b1/unit-1/e50.mp3",
     "topicName": "Grammar"
   }
 ];
