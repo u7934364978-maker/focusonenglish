@@ -685,10 +685,10 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "transcript": "If you want to lose weight, you should focus on your nutrition.",
     "content": {
       "title": "Perder peso",
-      "instructions": "Escribe la palabra correcta para referirse a la alimentación.",
+      "instructions": "Escribe el sustantivo que significa 'nutrición' en inglés.",
       "questions": [
         {
-          "question": "[[If|Si]] [[you|tú]] [[want|quieres]] [[to| ]] [[lose|perder]] [[weight|peso]], [[you|tú]] [[should|deberías]] [[focus|centrarte]] [[on|en]] [[your|tu]] [[n_tr_t_on| ]].",
+          "question": "[[If|Si]] [[you|tú]] [[want|quieres]] [[to| ]] [[lose|perder]] [[weight|peso]], [[you|tú]] [[should|deberías]] [[focus|centrarte]] [[on|en]] [[your|tu]] _______.",
           "answer": "nutrition",
           "explanation": "'Nutrition' es el proceso de proporcionar u obtener los alimentos necesarios para la salud y el crecimiento.",
           "audio": "audio/b1/unit-14/e26.mp3"
@@ -707,10 +707,10 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "transcript": "You must avoid eating too much fast food if you want to be healthy.",
     "content": {
       "title": "Comida rápida",
-      "instructions": "Escribe el verbo modal de obligación.",
+      "instructions": "Escribe el verbo modal que significa 'deber' (obligación) en inglés.",
       "questions": [
         {
-          "question": "[[You|Tú]] [[m_st| ]] [[avoid|evitar]] [[eating|comer]] [[too|demasiada]] [[much| ]] [[fast|comida]] [[food|rápida]] [[if|si]] [[you|quieres]] [[want|estar]] [[to|sano]].",
+          "question": "[[You|Tú]] _______ [[avoid|evitar]] [[eating|comer]] [[too|demasiada]] [[much| ]] [[fast|comida]] [[food|rápida]] [[if|si]] [[you|quieres]] [[want|estar]] [[to|sano]] [[be| ]] [[healthy| ]].",
           "answer": "must",
           "explanation": "'Must' indica una obligación o necesidad fuerte.",
           "audio": "audio/b1/unit-14/e27.mp3"
@@ -729,10 +729,10 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "transcript": "It is important to maintain a healthy work-life balance.",
     "content": {
       "title": "Equilibrio vida-trabajo",
-      "instructions": "Escribe el verbo que significa 'mantener'.",
+      "instructions": "Escribe el verbo que significa 'mantener' en inglés.",
       "questions": [
         {
-          "question": "[[It|Es]] [[is|importante]] [[important| ]] [[to| ]] [[m_int_in| ]] [[a|un]] [[healthy|saludable]] [[work-life|equilibrio]] [[balance|vida-trabajo]].",
+          "question": "[[It|Es]] [[is|importante]] [[important| ]] [[to| ]] _______ [[a|un]] [[healthy|saludable]] [[work-life|equilibrio]] [[balance|vida-trabajo]].",
           "answer": "maintain",
           "explanation": "'Maintain' significa hacer que algo continúe o se mantenga en el mismo estado.",
           "audio": "audio/b1/unit-14/e28.mp3"
@@ -751,10 +751,10 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "transcript": "Did you use to exercise more when you were younger?",
     "content": {
       "title": "Pasado y ejercicio",
-      "instructions": "Escribe la estructura de hábito pasado en pregunta.",
+      "instructions": "Escribe la forma base del verbo que significa 'soler' en inglés.",
       "questions": [
         {
-          "question": "[[Did|¿]] [[you|tú]] [[_se| ]] [[to|solías]] [[exercise|hacer ejercicio]] [[more|más]] [[when|cuando]] [[you|tú]] [[were|eras]] [[younger|más joven]]?",
+          "question": "[[Did|¿]] [[you|tú]] _______ [[to|solías]] [[exercise|hacer ejercicio]] [[more|más]] [[when|cuando]] [[you|tú]] [[were|eras]] [[younger|más joven]]?",
           "answer": "use",
           "explanation": "En preguntas con 'did', usamos 'use to' sin la 'd' final.",
           "audio": "audio/b1/unit-14/e29.mp3"
@@ -773,10 +773,10 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "transcript": "Stress can lead to symptoms like headaches and muscle pain.",
     "content": {
       "title": "Síntomas del estrés",
-      "instructions": "Escribe la palabra que significa 'síntomas'.",
+      "instructions": "Escribe el sustantivo que significa 'síntomas' en inglés.",
       "questions": [
         {
-          "question": "[[Stress|El estrés]] [[can|puede]] [[lead|conducir]] [[to|a]] [[s_mpt_ms| ]] [[like|como]] [[headaches|dolores de cabeza]].",
+          "question": "[[Stress|El estrés]] [[can|puede]] [[lead|conducir]] [[to|a]] _______ [[like|como]] [[headaches|dolores de cabeza]] [[and|y]] [[muscle|dolor]] [[pain|muscular]].",
           "answer": "symptoms",
           "explanation": "'Symptoms' son señales físicas o mentales que indican una enfermedad o afección.",
           "audio": "audio/b1/unit-14/e30.mp3"
@@ -799,7 +799,6 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[You|Tú]] [[should|deberías]] [[try|intentar]] [[to| ]] [[get|dormir]] [[at|al]] [[least|menos]] [[eight|ocho]] [[hours|horas]] [[of|de]] [[sleep|sueño]] [[every|cada]] [[night|noche]].",
-          "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
           "explanation": "Una oración completa que recomienda un hábito de sueño saludable.",
           "audio": "audio/b1/unit-14/e31.mp3"
         }
@@ -821,7 +820,6 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[It's|Es]] [[important|importante]] [[to| ]] [[choose|elegir]] [[healthy|aperitivos]] [[snacks|saludables]] [[instead|en]] [[of|lugar]] [[eating|de]] [[junk|comida]] [[food|basura]].",
-          "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
           "explanation": "El uso de 'instead of' ayuda a contrastar dos opciones alimenticias.",
           "audio": "audio/b1/unit-14/e32.mp3"
         }
@@ -843,7 +841,6 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[Many|Mucha]] [[people|gente]] [[find|encuentra]] [[it|lo]] [[difficult|difícil]] [[to| ]] [[stop|dejar de]] [[checking|mirar]] [[their|sus]] [[phones|móviles]] [[before|antes de]] [[bed|dormir]].",
-          "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
           "explanation": "Describe una dificultad común para mejorar la calidad del sueño.",
           "audio": "audio/b1/unit-14/e33.mp3"
         }
@@ -865,7 +862,6 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[Walking|Caminar]] [[to|a]] [[the|la]] [[office|oficina]] [[is|es]] [[a|una]] [[simple|forma]] [[way|sencilla]] [[to|de]] [[stay|mantenerse]] [[active|activo]] [[during|durante]] [[the|la]] [[week|semana]].",
-          "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
           "explanation": "Fomenta la actividad física incorporada en la rutina diaria.",
           "audio": "audio/b1/unit-14/e34.mp3"
         }
@@ -887,7 +883,6 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[I|Me]] [[am|estoy]] [[getting|acostumbrando]] [[used|a]] [[to| ]] [[cooking|cocinar]] [[healthy|comidas]] [[meals|saludables]] [[at|en]] [[home|casa]] [[instead|en]] [[of|lugar]] [[ordering|de]] [[out|pedir fuera]].",
-          "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
           "explanation": "Uso de 'getting used to' para un cambio de hábito progresivo.",
           "audio": "audio/b1/unit-14/e35.mp3"
         }
@@ -909,7 +904,6 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[Doing|Hacer]] [[yoga|yoga]] [[regularly|regularmente]] [[can|puede]] [[help|ayudarte]] [[you|a]] [[manage|gestionar]] [[your|tus]] [[stress|niveles]] [[levels|de estrés]] [[more|más]] [[effectively|eficazmente]].",
-          "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
           "explanation": "Describe cómo el yoga ayuda a la salud mental.",
           "audio": "audio/b1/unit-14/e36.mp3"
         }
@@ -931,7 +925,6 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[You|Tú]] [[had|sería]] [[better|mejor]] [[not|que no]] [[drink|bebas]] [[too|demasiado]] [[much| ]] [[coffee|café]] [[before|antes]] [[you|de]] [[go|irte]] [[to|a]] [[sleep|dormir]].",
-          "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
           "explanation": "Estructura 'had better not' para un consejo fuerte.",
           "audio": "audio/b1/unit-14/e37.mp3"
         }
@@ -953,7 +946,6 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[Most|La mayoría de]] [[doctors|médicos]] [[recommend|recomiendan]] [[drinking|beber]] [[at|al]] [[least|menos]] [[two|dos]] [[liters|litros]] [[of|de]] [[water|agua]] [[every|cada]] [[single|mismo]] [[day|día]].",
-          "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
           "explanation": "Uso de 'recommend' seguido de gerundio.",
           "audio": "audio/b1/unit-14/e38.mp3"
         }
@@ -975,7 +967,6 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[I|Yo]] [[didn't|no]] [[use|solía]] [[to| ]] [[be|ser]] [[very|muy]] [[active|activo]], [[but|pero]] [[now|ahora]] [[I|yo]] [[exercise|entreno]] [[almost|casi]] [[every|cada]] [[morning|mañana]].",
-          "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
           "explanation": "Contraste usando 'didn't use to' y el presente simple.",
           "audio": "audio/b1/unit-14/e39.mp3"
         }
@@ -997,7 +988,6 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|El]] [[personal|entrenador]] [[trainer|personal]], [[whose|cuyo]] [[gym|gimnasio]] [[is|está]] [[near|cerca de]] [[my|mi]] [[house|casa]], [[gave|me dio]] [[me| ]] [[great|buenos]] [[advice|consejos]].",
-          "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
           "explanation": "Uso de 'whose' para añadir información sobre el entrenador.",
           "audio": "audio/b1/unit-14/e40.mp3"
         }
@@ -1019,7 +1009,6 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[She|Ella]] [[is|está]] [[used|acostumbrada]] [[to|a]] [[working|entrenar]] [[out| ]] [[for|durante]] [[two|dos]] [[hours|horas]] [[in|en]] [[the|la]] [[early|temprano]] [[morning|por la mañana]].",
-          "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
           "explanation": "Estructura 'be used to + -ing' para un hábito normal.",
           "audio": "audio/b1/unit-14/e41.mp3"
         }
@@ -1041,7 +1030,6 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[Reducing|Reducir]] [[sugar|la ingesta de]] [[intake|azúcar]] [[is|es]] [[one|una]] [[of|de]] [[the|las]] [[most|maneras más]] [[effective|eficaces]] [[ways| ]] [[to|de]] [[improve|mejorar]] [[health|la salud]].",
-          "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
           "explanation": "Gerundio como sujeto y vocabulario específico de nutrición.",
           "audio": "audio/b1/unit-14/e42.mp3"
         }
@@ -1063,7 +1051,6 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[You|Tú]] [[ought|deberías]] [[to| ]] [[listen|escuchar]] [[to|a]] [[your|tu]] [[body|cuerpo]] [[and|y]] [[rest|descansar]] [[when|cuando]] [[you|te]] [[feel|sientas]] [[tired|cansado]].",
-          "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
           "explanation": "Estructura de consejo moral o prudente.",
           "audio": "audio/b1/unit-14/e43.mp3"
         }
@@ -1085,7 +1072,6 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[People|Las personas]] [[who|que]] [[live|viven]] [[in|en]] [[cities|ciudades]] [[often|a menudo]] [[have|tienen]] [[more|trabajos más]] [[sedentary|sedentarios]] [[jobs| ]] [[and|y]] [[lifestyles|estilos de vida]].",
-          "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
           "explanation": "Uso de oración de relativo y adjetivo específico.",
           "audio": "audio/b1/unit-14/e44.mp3"
         }
@@ -1107,7 +1093,6 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[It|Puede]] [[can|ser]] [[be|muy]] [[very|difícil]] [[difficult| ]] [[to|acostumbrarse]] [[get|a]] [[used| ]] [[to| ]] [[a|una]] [[completely|completamente]] [[new|nueva]] [[diet|dieta]].",
-          "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
           "explanation": "Uso de 'get used to' en infinitivo tras adjetivo.",
           "audio": "audio/b1/unit-14/e45.mp3"
         }
@@ -1129,7 +1114,6 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[Healthy|Los hábitos]] [[habits|saludables]] [[that|que]] [[you|tú]] [[develop|desarrollas]] [[now|ahora]] [[will|te]] [[benefit|beneficiarán]] [[you| ]] [[for|durante]] [[many|muchos]] [[years|años]].",
-          "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
           "explanation": "Uso de 'that' para añadir información esencial.",
           "audio": "audio/b1/unit-14/e46.mp3"
         }
@@ -1151,7 +1135,6 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[You|Sería]] [[had|mejor]] [[better|que]] [[finish|termines]] [[your|tu]] [[workout|entrenamiento]] [[before|antes de]] [[the|que el]] [[gym|gimnasio]] [[closes|cierre]] [[for|por]] [[the|la]] [[night|noche]].",
-          "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
           "explanation": "Estructura compleja con 'had better' y oración temporal.",
           "audio": "audio/b1/unit-14/e47.mp3"
         }
@@ -1173,7 +1156,6 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[Mental|El bienestar]] [[well-being|mental]] [[is|es]] [[often|a menudo]] [[neglected|descuidado]] [[in|en]] [[our|nuestro]] [[fast-paced|acelerado]] [[modern|mundo]] [[world|moderno]] [[and|y]] [[society|sociedad]].",
-          "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
           "explanation": "Uso de la voz pasiva y adjetivos compuestos.",
           "audio": "audio/b1/unit-14/e48.mp3"
         }
@@ -1195,7 +1177,6 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[I|Se]] [[forgot|me olvidó]] [[to| ]] [[tell|decirle]] [[the|al]] [[doctor|médico]] [[about|sobre]] [[the|el]] [[pain|dolor]] [[in|en]] [[my|mi]] [[lower|parte baja de la]] [[back|espalda]].",
-          "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
           "explanation": "Uso de 'forget to' y vocabulario de partes del cuerpo.",
           "audio": "audio/b1/unit-14/e49.mp3"
         }
@@ -1217,7 +1198,6 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[Choosing|Elegir]] [[to| ]] [[take|subir]] [[the|las]] [[stairs|escaleras]] [[instead|en]] [[of|lugar]] [[the|del]] [[elevator|ascensor]] [[is|es]] [[a|una]] [[healthy|decisión]] [[decision|saludable]].",
-          "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
           "explanation": "Uso de gerundio como sujeto y comparación contrastiva.",
           "audio": "audio/b1/unit-14/e50.mp3"
         }
@@ -1227,4 +1207,3 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "topicName": "Vocabulary"
   }
 ];
-
