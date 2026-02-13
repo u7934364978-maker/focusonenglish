@@ -40,7 +40,12 @@
 2. [x] Generate 50 exercises for `src/lib/course/b1/unit-18.ts`.
 3. [x] Verify implementation in browser at `/debug/b1-preview/unit-18`.
 
-### [ ] Step: Implementation Unit 19
-1. [ ] Define requirements for Unit 19.
-2. [ ] Generate 50 exercises for `src/lib/course/b1/unit-19.ts`.
-3. [ ] Verify implementation in browser.
+### [x] Step: Implementation Unit 19
+1. [x] Define requirements for Unit 19 (Traditions & Cultural Diversity, 50 exercises, complex structure).
+2. [x] Generate 50 exercises for `src/lib/course/b1/unit-19.ts`.
+3. [x] Verify implementation in browser at `/debug/b1-preview/unit-19`.
+
+### [ ] Step: Implementation Unit 20
+1. [ ] Define requirements for Unit 20 (Law, Order & Social Rules, 50 exercises, complex structure).
+2. [ ] Generate 50 exercises for `src/lib/course/b1/unit-20.ts`.
+3. [ ] Verify implementation in browser at `/debug/b1-preview/unit-20`.
