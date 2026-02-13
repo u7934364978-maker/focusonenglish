@@ -70,7 +70,12 @@
 2. [x] Generate 50 exercises for `src/lib/course/b1/unit-24.ts`.
 3. [x] Verify implementation in browser at `/debug/b1-preview/unit-24`.
 
-### [ ] Step: Implementation Unit 25
-1. [ ] Define requirements for Unit 25 (Fashion & Self-Expression, 50 exercises, complex structure, sentence-building > 8 words).
-2. [ ] Generate 50 exercises for `src/lib/course/b1/unit-25.ts`.
-3. [ ] Verify implementation in browser at `/debug/b1-preview/unit-25`.
+### [x] Step: Implementation Unit 25
+1. [x] Define requirements for Unit 25 (Fashion & Self-Expression, 50 exercises, complex structure, sentence-building > 8 words).
+2. [x] Generate 50 exercises for `src/lib/course/b1/unit-25.ts`.
+3. [x] Verify implementation in browser at `/debug/b1-preview/unit-25`.
+
+### [ ] Step: Implementation Unit 26
+1. [ ] Define requirements for Unit 26 (Natural Disasters & Emergencies, 50 exercises, complex structure, sentence-building > 8 words).
+2. [ ] Generate 50 exercises for `src/lib/course/b1/unit-26.ts`.
+3. [ ] Verify implementation in browser at `/debug/b1-preview/unit-26`.
