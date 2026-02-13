@@ -1,6 +1,6 @@
 
 > focus-english@1.0.0 dev
-> next dev -p 5436
+> next dev -p 5436 -p 5436
 
  ⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
  We detected multiple lockfiles and selected the directory of /Users/lidia/Documents/focusonenglish/package-lock.json as the root directory.
@@ -16,151 +16,10 @@
 
  ✓ Starting...
  ⚠ Mismatching @next/swc version, detected: 15.5.7 while Next.js is on 15.5.11. Please ensure these match
- ✓ Ready in 1806ms
- ⚠ Fast Refresh had to perform a full reload due to a runtime error.
- ⚠ Fast Refresh had to perform a full reload due to a runtime error.
- ✓ Compiled /middleware in 165ms (164 modules)
- ○ Compiling /debug/b1-preview/[unitId] ...
- ⨯ ./src/lib/course/b1/unit-4.ts
-Error:   [31mx[0m Expected ',', got 'Only'
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-4.ts[0m:661:1]
- [2m658[0m |         {
- [2m659[0m |           id: 'q1',
- [2m660[0m |           question: "Does the author think we need to be perfect?",
- [2m661[0m |           options: [ 'Yes, 'Only at work', we just need to find what works', 'No, 'Only in the gym', absolutely' ],
-     : [35;1m                            ^^^^[0m
- [2m662[0m |           correctAnswer: 1,
- [2m663[0m |           explanation: "The text explicitly says 'you don't have to be perfect'."
- [2m664[0m |         }
-     `----
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./src/lib/course/b1/unit-4.ts
-./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
-./src/app/debug/b1-preview/[unitId]/page.tsx
- ⨯ ./src/lib/course/b1/unit-4.ts
-Error:   [31mx[0m Expected ',', got 'Only'
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-4.ts[0m:661:1]
- [2m658[0m |         {
- [2m659[0m |           id: 'q1',
- [2m660[0m |           question: "Does the author think we need to be perfect?",
- [2m661[0m |           options: [ 'Yes, 'Only at work', we just need to find what works', 'No, 'Only in the gym', absolutely' ],
-     : [35;1m                            ^^^^[0m
- [2m662[0m |           correctAnswer: 1,
- [2m663[0m |           explanation: "The text explicitly says 'you don't have to be perfect'."
- [2m664[0m |         }
-     `----
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./src/lib/course/b1/unit-4.ts
-./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
-./src/app/debug/b1-preview/[unitId]/page.tsx
- ⨯ ./src/lib/course/b1/unit-4.ts
-Error:   [31mx[0m Expected ',', got 'Only'
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-4.ts[0m:661:1]
- [2m658[0m |         {
- [2m659[0m |           id: 'q1',
- [2m660[0m |           question: "Does the author think we need to be perfect?",
- [2m661[0m |           options: [ 'Yes, 'Only at work', we just need to find what works', 'No, 'Only in the gym', absolutely' ],
-     : [35;1m                            ^^^^[0m
- [2m662[0m |           correctAnswer: 1,
- [2m663[0m |           explanation: "The text explicitly says 'you don't have to be perfect'."
- [2m664[0m |         }
-     `----
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./src/lib/course/b1/unit-4.ts
-./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
-./src/app/debug/b1-preview/[unitId]/page.tsx
- GET /debug/b1-preview/unit-12 500 in 555ms
- GET /debug/b1-preview/unit-11 500 in 556ms
- ⨯ ./src/lib/course/b1/unit-4.ts
-Error:   [31mx[0m Expected ',', got 'Only'
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-4.ts[0m:661:1]
- [2m658[0m |         {
- [2m659[0m |           id: 'q1',
- [2m660[0m |           question: "Does the author think we need to be perfect?",
- [2m661[0m |           options: [ 'Yes, 'Only at work', we just need to find what works', 'No, 'Only in the gym', absolutely' ],
-     : [35;1m                            ^^^^[0m
- [2m662[0m |           correctAnswer: 1,
- [2m663[0m |           explanation: "The text explicitly says 'you don't have to be perfect'."
- [2m664[0m |         }
-     `----
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./src/lib/course/b1/unit-4.ts
-./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
-./src/app/debug/b1-preview/[unitId]/page.tsx
- ⨯ ./src/lib/course/b1/unit-4.ts
-Error:   [31mx[0m Expected ',', got 'Only'
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-4.ts[0m:661:1]
- [2m658[0m |         {
- [2m659[0m |           id: 'q1',
- [2m660[0m |           question: "Does the author think we need to be perfect?",
- [2m661[0m |           options: [ 'Yes, 'Only at work', we just need to find what works', 'No, 'Only in the gym', absolutely' ],
-     : [35;1m                            ^^^^[0m
- [2m662[0m |           correctAnswer: 1,
- [2m663[0m |           explanation: "The text explicitly says 'you don't have to be perfect'."
- [2m664[0m |         }
-     `----
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./src/lib/course/b1/unit-4.ts
-./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
-./src/app/debug/b1-preview/[unitId]/page.tsx
- ⨯ ./src/lib/course/b1/unit-4.ts
-Error:   [31mx[0m Expected ',', got 'Only'
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-4.ts[0m:661:1]
- [2m658[0m |         {
- [2m659[0m |           id: 'q1',
- [2m660[0m |           question: "Does the author think we need to be perfect?",
- [2m661[0m |           options: [ 'Yes, 'Only at work', we just need to find what works', 'No, 'Only in the gym', absolutely' ],
-     : [35;1m                            ^^^^[0m
- [2m662[0m |           correctAnswer: 1,
- [2m663[0m |           explanation: "The text explicitly says 'you don't have to be perfect'."
- [2m664[0m |         }
-     `----
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./src/lib/course/b1/unit-4.ts
-./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
-./src/app/debug/b1-preview/[unitId]/page.tsx
- ⨯ ./src/lib/course/b1/unit-4.ts
-Error:   [31mx[0m Expected ',', got 'Only'
-     ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b1/unit-4.ts[0m:661:1]
- [2m658[0m |         {
- [2m659[0m |           id: 'q1',
- [2m660[0m |           question: "Does the author think we need to be perfect?",
- [2m661[0m |           options: [ 'Yes, 'Only at work', we just need to find what works', 'No, 'Only in the gym', absolutely' ],
-     : [35;1m                            ^^^^[0m
- [2m662[0m |           correctAnswer: 1,
- [2m663[0m |           explanation: "The text explicitly says 'you don't have to be perfect'."
- [2m664[0m |         }
-     `----
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./src/lib/course/b1/unit-4.ts
-./src/lib/course/b1/ lazy ^\.\/unit\-.*$ namespace object
-./src/app/debug/b1-preview/[unitId]/page.tsx
+ ✓ Ready in 2.7s
+ ✓ Compiled /middleware in 463ms (164 modules)
+ ○ Compiling /debug/b2-preview/[unitId] ...
+ ✓ Compiled /debug/b2-preview/[unitId] in 18.7s (2229 modules)
+Supabase Browser Client Initializing with URL: https://nprqtjljoekoirlrjxlh.supabase.co
+ HEAD /debug/b2-preview/unit-5 200 in 21928ms
 [?25h

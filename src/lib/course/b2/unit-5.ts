@@ -1451,4 +1451,3 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "topicName": "Vocabulary"
   }
 ];
-];

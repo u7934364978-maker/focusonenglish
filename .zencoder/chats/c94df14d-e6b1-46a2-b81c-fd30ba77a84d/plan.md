@@ -30,7 +30,7 @@
     *   [x] Unit 11: Generate, Review, Commit.
     *   [x] Unit 12: Generate, Review, Commit.
     *   [x] Unit 13: Generate, Review, Commit.
-    *   [x] Unit 14: Generate, Review, Commit.
+    *   [x] Unit 14: Generate, Review, Commit. (Fixed sentence-building and fill-blank rendering)
     *   [ ] Unit 15: Generate, Review, Commit. (Next)
 2.  **Audio Generation**:
     *   [x] Generate audio for Unit 1.
