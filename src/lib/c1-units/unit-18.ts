@@ -3,149 +3,517 @@ import { createC1Unit, genId } from './utils';
 
 const UNIT_ID = 18;
 
+// ============================================
+// BLOCK 1: GRADABLE vs NON-GRADABLE (10 items)
+// ============================================
 export const C1_U18_BLOCK1: Exercise = {
   id: `c1-u${UNIT_ID}-b1`,
   type: 'vocabulary',
-  title: 'LinkedIn Terminology',
-  explanation: 'Common terms used on professional networking sites.',
-  questions: Array.from({ length: 10 }, (_, i) => ({
-    id: genId(UNIT_ID, 'b1', i + 1),
-    type: 'fill-blank',
-    question: [
-      'You should update your ___ regularly. (profile)',
-      'I sent him a ___ request. (connect)',
-      'She has many ___ on her profile. (endorse)',
-      'His ___ is very impressive. (summary)',
-      'You can join ___ related to your industry. (group)',
-      'I received a ___ from my former boss. (recommend)',
-      'He is a ___ leader in his field. (thought)',
-      'You should optimize your ___ . (headline)',
-      'She is very active in ___ . (network)',
-      'I saw your ___ on my feed. (post)'
-    ][i],
-    correctAnswer: [
-      'profile',
-      'connection',
-      'endorsements',
-      'summary',
-      'groups',
-      'recommendation',
-      'thought',
-      'headline',
-      'networking',
-      'post'
-    ][i],
-    explanation: 'Correct LinkedIn terminology.',
-    points: 1
-  }))
+  title: 'Gradable vs Non-gradable Adjectives',
+  grammarPoint: 'Adjectives',
+  explanation: '[[Gradable adjectives|Adjetivos graduables]] (e.g., "cold") take modifiers like "very", while [[non-gradable adjectives|adjetivos no graduables]] (e.g., "freezing") take modifiers like "absolutely".',
+  questions: [
+    {
+      id: genId(UNIT_ID, 'b1', 1),
+      type: 'multiple-choice',
+      question: 'The [[view|vista]] from the [[top|cima]] was ___ (absolutely) [[stunning|impresionante]].',
+      options: ['absolutely', 'very', 'fairly'],
+      correctAnswer: 'absolutely',
+      explanation: '"Stunning" is non-gradable (extreme), so it pairs with "absolutely".',
+      points: 1
+    },
+    {
+      id: genId(UNIT_ID, 'b1', 2),
+      type: 'multiple-choice',
+      question: 'It was a ___ (very) [[cold|frío]] [[day|día]].',
+      options: ['very', 'completely', 'utterly'],
+      correctAnswer: 'very',
+      explanation: '"Cold" is gradable, so it takes "very".',
+      points: 1
+    },
+    {
+      id: genId(UNIT_ID, 'b1', 3),
+      type: 'multiple-choice',
+      question: 'The [[results|resultados]] were ___ (utterly) [[ridiculous|ridículos]].',
+      options: ['utterly', 'slightly', 'bit'],
+      correctAnswer: 'utterly',
+      explanation: '"Ridiculous" is non-gradable.',
+      points: 1
+    },
+    {
+      id: genId(UNIT_ID, 'b1', 4),
+      type: 'multiple-choice',
+      question: 'I am ___ (completely) [[exhausted|exhausto]].',
+      options: ['completely', 'very', 'fairly'],
+      correctAnswer: 'completely',
+      explanation: '"Exhausted" is the non-gradable version of "tired".',
+      points: 1
+    },
+    {
+      id: genId(UNIT_ID, 'b1', 5),
+      type: 'multiple-choice',
+      question: 'The [[movie|película]] was ___ (quite) [[good|buena]].',
+      options: ['quite', 'utterly', 'completely'],
+      correctAnswer: 'quite',
+      explanation: '"Good" is gradable.',
+      points: 1
+    },
+    {
+      id: genId(UNIT_ID, 'b1', 6),
+      type: 'multiple-choice',
+      question: 'The [[food|comida]] was ___ (totally) [[delicious|deliciosa]].',
+      options: ['totally', 'very', 'extremely'],
+      correctAnswer: 'totally',
+      explanation: '"Delicious" is non-gradable.',
+      points: 1
+    },
+    {
+      id: genId(UNIT_ID, 'b1', 7),
+      type: 'multiple-choice',
+      question: 'He was ___ (extremely) [[angry|enojado]].',
+      options: ['extremely', 'absolutely', 'utterly'],
+      correctAnswer: 'extremely',
+      explanation: '"Angry" is gradable.',
+      points: 1
+    },
+    {
+      id: genId(UNIT_ID, 'b1', 8),
+      type: 'multiple-choice',
+      question: 'It is ___ (perfectly) [[reasonable|razonable]].',
+      options: ['perfectly', 'utterly', 'bit'],
+      correctAnswer: 'perfectly',
+      explanation: '"Reasonable" often pairs with "perfectly".',
+      points: 1
+    },
+    {
+      id: genId(UNIT_ID, 'b1', 9),
+      type: 'multiple-choice',
+      question: 'The [[house|casa]] was ___ (fairly) [[big|grande]].',
+      options: ['fairly', 'absolutely', 'totally'],
+      correctAnswer: 'fairly',
+      explanation: '"Big" is gradable.',
+      points: 1
+    },
+    {
+      id: genId(UNIT_ID, 'b1', 10),
+      type: 'multiple-choice',
+      question: 'That is ___ (purely) [[speculative|especulativo]].',
+      options: ['purely', 'very', 'slightly'],
+      correctAnswer: 'purely',
+      explanation: '"Speculative" is often modified by "purely" at a C1 level.',
+      points: 1
+    }
+  ]
 };
 
+// ============================================
+// BLOCK 2: COMPOUND ADJECTIVES (10 items)
+// ============================================
 export const C1_U18_BLOCK2: Exercise = {
   id: `c1-u${UNIT_ID}-b2`,
   type: 'vocabulary',
-  title: 'Networking Strategies',
-  explanation: 'Phrases and concepts for effective professional networking.',
-  questions: Array.from({ length: 10 }, (_, i) => ({
-    id: genId(UNIT_ID, 'b2', i + 1),
-    type: 'multiple-choice',
-    question: [
-      'What is an "elevator pitch"?',
-      'What does it mean to "cold call"?',
-      'What is a "warm introduction"?',
-      'What does "follow up" mean?',
-      'What is "mutual benefit" in networking?',
-      'What is a "referral"?',
-      'What does "reach out" mean?',
-      'What is "social selling"?',
-      'What is a "touchpoint"?',
-      'What is "career pivot"?'
-    ][i],
-    options: [
-      ['A short introduction', 'A long speech', 'A physical pitch'],
-      ['Call without prior contact', 'Call someone you know', 'Call in the winter'],
-      ['Introduction via a contact', 'A warm greeting', 'A new introduction'],
-      ['Contact again after meeting', 'Follow someone home', 'Stop contact'],
-      ['Both parties gain something', 'One person helps', 'A social meeting'],
-      ['Recommendation for a job', 'A type of doctor', 'A new contact'],
-      ['Contact someone', 'Help someone', 'Find someone'],
-      ['Using social media to sell', 'Selling in person', 'Selling to friends'],
-      ['A point of contact', 'A physical touch', 'A final meeting'],
-      ['Changing career direction', 'Moving to a new office', 'Getting a promotion']
-    ][i],
-    correctAnswer: [
-      'A short introduction',
-      'Call without prior contact',
-      'Introduction via a contact',
-      'Contact again after meeting',
-      'Both parties gain something',
-      'Recommendation for a job',
-      'Contact someone',
-      'Using social media to sell',
-      'A point of contact',
-      'Changing career direction'
-    ][i],
-    explanation: 'Correct networking concept definition.',
-    points: 1
-  }))
+  title: 'Compound Adjectives & Precision',
+  grammarPoint: 'Adjectives',
+  explanation: '[[Compound adjectives|Adjetivos compuestos]] (e.g., "short-sighted", "world-famous") allow for more [[concise|concisa]] and [[precise|precisa]] description.',
+  questions: [
+    {
+      id: genId(UNIT_ID, 'b2', 1),
+      type: 'multiple-choice',
+      question: 'He is a ___ (well-known) [[author|autor]].',
+      options: ['well-known', 'good-known', 'better-known'],
+      correctAnswer: 'well-known',
+      explanation: '"Well-known" is a standard compound adjective.',
+      points: 1
+    },
+    {
+      id: genId(UNIT_ID, 'b2', 2),
+      type: 'multiple-choice',
+      question: 'It was a ___ (ten-minute) [[walk|caminata]].',
+      options: ['ten-minute', 'ten-minutes', 'ten-minutely'],
+      correctAnswer: 'ten-minute',
+      explanation: 'In compound adjectives, nouns are [[singular|singulares]].',
+      points: 1
+    },
+    {
+      id: genId(UNIT_ID, 'b2', 3),
+      type: 'multiple-choice',
+      question: 'She is a ___ (highly-skilled) [[worker|trabajadora]].',
+      options: ['highly-skilled', 'high-skilled', 'skilled-high'],
+      correctAnswer: 'highly-skilled',
+      explanation: 'Adverb + past participle structure.',
+      points: 1
+    },
+    {
+      id: genId(UNIT_ID, 'b2', 4),
+      type: 'multiple-choice',
+      question: 'This is a ___ (brand-new) [[car|coche]].',
+      options: ['brand-new', 'fire-new', 'fresh-new'],
+      correctAnswer: 'brand-new',
+      explanation: '"Brand-new" means [[completely|completamente]] new.',
+      points: 1
+    },
+    {
+      id: genId(UNIT_ID, 'b2', 5),
+      type: 'multiple-choice',
+      question: 'He is very ___ (short-tempered).',
+      options: ['short-tempered', 'small-tempered', 'low-tempered'],
+      correctAnswer: 'short-tempered',
+      explanation: '"Short-tempered" means [[getting|ponerse]] [[angry|enojado]] easily.',
+      points: 1
+    },
+    {
+      id: genId(UNIT_ID, 'b2', 6),
+      type: 'multiple-choice',
+      question: 'It was an ___ (eye-opening) [[experience|experiencia]].',
+      options: ['eye-opening', 'eye-opened', 'eye-open'],
+      correctAnswer: 'eye-opening',
+      explanation: '"Eye-opening" means revealing something [[surprising|sorprendente]].',
+      points: 1
+    },
+    {
+      id: genId(UNIT_ID, 'b2', 7),
+      type: 'multiple-choice',
+      question: 'The [[meeting|reunión]] was ___ (time-consuming).',
+      options: ['time-consuming', 'time-spent', 'time-waste'],
+      correctAnswer: 'time-consuming',
+      explanation: '"Time-consuming" means taking a lot of [[time|tiempo]].',
+      points: 1
+    },
+    {
+      id: genId(UNIT_ID, 'b2', 8),
+      type: 'multiple-choice',
+      question: 'He is a ___ (middle-aged) [[man|hombre]].',
+      options: ['middle-aged', 'mid-aged', 'middle-age'],
+      correctAnswer: 'middle-aged',
+      explanation: 'Using the -ed form for compound adjectives describing states.',
+      points: 1
+    },
+    {
+      id: genId(UNIT_ID, 'b2', 9),
+      type: 'multiple-choice',
+      question: 'It was a ___ (record-breaking) [[performance|actuación]].',
+      options: ['record-breaking', 'record-broken', 'record-break'],
+      correctAnswer: 'record-breaking',
+      explanation: 'Noun + present participle.',
+      points: 1
+    },
+    {
+      id: genId(UNIT_ID, 'b2', 10),
+      type: 'multiple-choice',
+      question: 'They are ___ (world-famous).',
+      options: ['world-famous', 'earth-famous', 'globe-famous'],
+      correctAnswer: 'world-famous',
+      explanation: 'Standard compound for global recognition.',
+      points: 1
+    }
+  ]
 };
 
+// ============================================
+// BLOCK 3: ADVERBS OF DEGREE & MANNER (10 items)
+// ============================================
 export const C1_U18_BLOCK3: Exercise = {
   id: `c1-u${UNIT_ID}-b3`,
-  type: 'writing-analysis',
-  title: 'Networking Correspondence',
-  explanation: 'Choosing the right tone and phrasing for professional outreach.',
-  questions: Array.from({ length: 10 }, (_, i) => ({
-    id: genId(UNIT_ID, 'b3', i + 1),
-    type: 'multiple-choice',
-    question: [
-      'How to start a LinkedIn message to a stranger:',
-      'How to ask for an informational interview:',
-      'How to thank someone for a referral:',
-      'How to follow up after a meeting:',
-      'How to ask for an endorsement:',
-      'How to introduce two people:',
-      'How to decline a connection request politely:',
-      'How to ask for career advice:',
-      'How to share a relevant article:',
-      'How to offer help to a contact:'
-    ][i],
-    options: [
-      ['I came across your profile and...', 'Hi stranger!', 'I want a job.'],
-      ['Would you be open to a 15-minute chat?', 'Tell me about your job.', 'Give me an interview.'],
-      ['Thank you so much for the introduction.', 'Thanks for the link.', 'I appreciate the job.'],
-      ['It was great meeting you at...', 'Remember me?', 'I enjoyed our talk.'],
-      ['Would you mind endorsing me for...?', 'Give me a skill.', 'Endorse me now.'],
-      ['I\'d like to introduce you to...', 'Meet my friend.', 'Here is someone.'],
-      ['I prefer to connect with people I know.', 'No thanks.', 'Go away.'],
-      ['I would value your perspective on...', 'What should I do?', 'Help me.'],
-      ['I thought you might find this interesting.', 'Read this.', 'Here is a link.'],
-      ['Is there anything I can assist you with?', 'I can help.', 'Let me know.']
-    ][i],
-    correctAnswer: [
-      'I came across your profile and...',
-      'Would you be open to a 15-minute chat?',
-      'Thank you so much for the introduction.',
-      'It was great meeting you at...',
-      'Would you mind endorsing me for...?',
-      'I\'d like to introduce you to...',
-      'I prefer to connect with people I know.',
-      'I would value your perspective on...',
-      'I thought you might find this interesting.',
-      'Is there anything I can assist you with?'
-    ][i],
-    explanation: 'Correct professional networking tone.',
-    points: 1
-  }))
+  type: 'grammar',
+  title: 'Adverbs: Subtle Nuances',
+  grammarPoint: 'Adverbs',
+  explanation: 'Advanced English uses [[adverbs|adverbios]] like "virtually", "hardly", and "remarkably" to add [[nuance|matiz]] to [[verbs|verbos]] and [[adjectives|adjetivos]].',
+  questions: [
+    {
+      id: genId(UNIT_ID, 'b3', 1),
+      type: 'fill-blank',
+      question: 'The [[task|tarea]] is ___ (virtually) [[impossible|imposible]].',
+      correctAnswer: 'virtually',
+      explanation: '"Virtually" means [[almost|casi]] or [[nearly|casi]].',
+      points: 2
+    },
+    {
+      id: genId(UNIT_ID, 'b3', 2),
+      type: 'fill-blank',
+      question: 'He ___ (hardly) [[spoke|habló]] [[during|durante]] the [[interview|entrevista]].',
+      correctAnswer: 'hardly',
+      explanation: '"Hardly" means [[almost|casi]] not.',
+      points: 2
+    },
+    {
+      id: genId(UNIT_ID, 'b3', 3),
+      type: 'fill-blank',
+      question: 'The [[results|resultados]] were ___ (remarkably) [[good|buenos]].',
+      correctAnswer: 'remarkably',
+      explanation: '"Remarkably" shows [[surprise|sorpresa]] or [[emphasis|énfasis]].',
+      points: 2
+    },
+    {
+      id: genId(UNIT_ID, 'b3', 4),
+      type: 'fill-blank',
+      question: 'He ___ (barely) [[managed|logró]] to [[finish|terminar]].',
+      correctAnswer: 'barely',
+      explanation: '"Barely" means [[only|solo]] just.',
+      points: 2
+    },
+    {
+      id: genId(UNIT_ID, 'b3', 5),
+      type: 'fill-blank',
+      question: 'I ___ (strongly) [[disagree|en desacuerdo]] with that [[statement|afirmación]].',
+      correctAnswer: 'strongly',
+      explanation: '"Strongly" collocates with "disagree".',
+      points: 2
+    },
+    {
+      id: genId(UNIT_ID, 'b3', 6),
+      type: 'fill-blank',
+      question: 'The [[prices|precios]] have [[risen|subido]] ___ (sharply).',
+      correctAnswer: 'sharply',
+      explanation: '"Sharply" means [[quickly|rápidamente]] and by a [[large|gran]] [[amount|cantidad]].',
+      points: 2
+    },
+    {
+      id: genId(UNIT_ID, 'b3', 7),
+      type: 'fill-blank',
+      question: 'He is ___ (widely) [[considered|considerado]] the [[best|mejor]].',
+      correctAnswer: 'widely',
+      explanation: '"Widely" means by a [[lot|muchas]] of [[people|personas]].',
+      points: 2
+    },
+    {
+      id: genId(UNIT_ID, 'b3', 8),
+      type: 'fill-blank',
+      question: 'I am ___ (fully) [[aware|consciente]] of the [[risks|riesgos]].',
+      correctAnswer: 'fully',
+      explanation: '"Fully" collocates with "aware".',
+      points: 2
+    },
+    {
+      id: genId(UNIT_ID, 'b3', 9),
+      type: 'fill-blank',
+      question: 'The [[plan|plan]] was ___ (carefully) [[thought|pensado]] [[out|del todo]].',
+      correctAnswer: 'carefully',
+      explanation: '"Carefully" describes the [[manner|manera]].',
+      points: 2
+    },
+    {
+      id: genId(UNIT_ID, 'b3', 10),
+      type: 'fill-blank',
+      question: 'It was ___ (totally) [[unexpected|inesperado]].',
+      correctAnswer: 'totally',
+      explanation: '"Totally" for [[total|total]] [[emphasis|énfasis]].',
+      points: 2
+    }
+  ]
+};
+
+// ============================================
+// BLOCK 4: ATTITUDE ADVERBS (10 items)
+// ============================================
+export const C1_U18_BLOCK4: Exercise = {
+  id: `c1-u${UNIT_ID}-b4`,
+  type: 'grammar',
+  title: 'Attitude Adverbs: Expressing Opinion',
+  grammarPoint: 'Adverbs',
+  explanation: '[[Attitude adverbs|Adverbios de actitud]] (e.g., "regrettably", "presumably") show the [[speaker\'s|del hablante]] [[opinion|opinión]] about the whole [[sentence|oración]].',
+  questions: [
+    {
+      id: genId(UNIT_ID, 'b4', 1),
+      type: 'multiple-choice',
+      question: '___ (Regrettably), the [[event|evento]] was [[cancelled|cancelado]].',
+      options: ['Regrettably', 'Sadly', 'Unluckily'],
+      correctAnswer: 'Regrettably',
+      explanation: '"Regrettably" is more formal than "sadly".',
+      points: 1
+    },
+    {
+      id: genId(UNIT_ID, 'b4', 2),
+      type: 'multiple-choice',
+      question: '___ (Presumably), they [[forgot|olvidaron]] the [[time|hora]].',
+      options: ['Presumably', 'Probably', 'Maybe'],
+      correctAnswer: 'Presumably',
+      explanation: '"Presumably" means [[based|basado]] on what is [[likely|probable]].',
+      points: 1
+    },
+    {
+      id: genId(UNIT_ID, 'b4', 3),
+      type: 'multiple-choice',
+      question: '___ (Admittedly), I made a [[mistake|error]].',
+      options: ['Admittedly', 'Truly', 'Honestly'],
+      correctAnswer: 'Admittedly',
+      explanation: '"Admittedly" is used when [[conceding|concediendo]] a [[point|punto]].',
+      points: 1
+    },
+    {
+      id: genId(UNIT_ID, 'b4', 4),
+      type: 'multiple-choice',
+      question: '___ (Coincidentally), we [[met|encontramos]] the [[same|mismo]] [[day|día]].',
+      options: ['Coincidentally', 'Luckily', 'Happily'],
+      correctAnswer: 'Coincidentally',
+      explanation: '"Coincidentally" shows it was a [[coincidence|coincidencia]].',
+      points: 1
+    },
+    {
+      id: genId(UNIT_ID, 'b4', 5),
+      type: 'multiple-choice',
+      question: '___ (Understandably), she was [[upset|molesta]].',
+      options: ['Understandably', 'Actually', 'Basically'],
+      correctAnswer: 'Understandably',
+      explanation: '"Understandably" means it is [[easy|fácil]] to understand why.',
+      points: 1
+    },
+    {
+      id: genId(UNIT_ID, 'b4', 6),
+      type: 'multiple-choice',
+      question: '___ (Fortunately), no one was [[hurt|herido]].',
+      options: ['Fortunately', 'Luckily', 'Happily'],
+      correctAnswer: 'Fortunately',
+      explanation: 'Formal version of "luckily".',
+      points: 1
+    },
+    {
+      id: genId(UNIT_ID, 'b4', 7),
+      type: 'multiple-choice',
+      question: '___ (Curiously), the [[door|puerta]] was [[unlocked|abierta]].',
+      options: ['Curiously', 'Strangely', 'Oddly'],
+      correctAnswer: 'Curiously',
+      explanation: '"Curiously" shows it was [[interesting|interesante]] or [[strange|extraño]].',
+      points: 1
+    },
+    {
+      id: genId(UNIT_ID, 'b4', 8),
+      type: 'multiple-choice',
+      question: '___ (Apparently), they have [[moved|mudado]] [[away|lejos]].',
+      options: ['Apparently', 'Seemingly', 'Presumably'],
+      correctAnswer: 'Apparently',
+      explanation: '"Apparently" means [[based|basado]] on what you have [[heard|oído]].',
+      points: 1
+    },
+    {
+      id: genId(UNIT_ID, 'b4', 9),
+      type: 'multiple-choice',
+      question: '___ (Paradoxically), the [[more|más]] he [[studied|estudió]], the [[worse|peor]] he [[did|hizo]].',
+      options: ['Paradoxically', 'Incredibly', 'Amazingly'],
+      correctAnswer: 'Paradoxically',
+      explanation: '"Paradoxically" shows a [[contradictory|contradictoria]] situation.',
+      points: 1
+    },
+    {
+      id: genId(UNIT_ID, 'b4', 10),
+      type: 'multiple-choice',
+      question: '___ (Briefly), the project was a [[success|éxito]].',
+      options: ['Briefly', 'Shortly', 'Quickly'],
+      correctAnswer: 'Briefly',
+      explanation: '"Briefly" is used to [[summarize|resumir]].',
+      points: 1
+    }
+  ]
+};
+
+// ============================================
+// BLOCK 5: ADJECTIVE ORDER (10 items)
+// ============================================
+export const C1_U18_BLOCK5: Exercise = {
+  id: `c1-u${UNIT_ID}-b5`,
+  type: 'grammar',
+  title: 'Adjective Order & Sophistication',
+  grammarPoint: 'Adjectives',
+  explanation: 'When using [[multiple adjectives|múltiples adjetivos]], follow the [[standard order|orden estándar]]: Opinion, Size, Age, Shape, Color, Origin, Material, Purpose.',
+  questions: [
+    {
+      id: genId(UNIT_ID, 'b5', 1),
+      type: 'multiple-choice',
+      question: 'She bought a ___ [[table|mesa]].',
+      options: ['beautiful old wooden', 'wooden old beautiful', 'old beautiful wooden'],
+      correctAnswer: 'beautiful old wooden',
+      explanation: 'Opinion (beautiful) > Age (old) > Material (wooden).',
+      points: 1
+    },
+    {
+      id: genId(UNIT_ID, 'b5', 2),
+      type: 'multiple-choice',
+      question: 'It was a ___ [[car|coche]].',
+      options: ['fast red Italian', 'red fast Italian', 'Italian fast red'],
+      correctAnswer: 'fast red Italian',
+      explanation: 'Opinion (fast) > Color (red) > Origin (Italian).',
+      points: 1
+    },
+    {
+      id: genId(UNIT_ID, 'b5', 3),
+      type: 'multiple-choice',
+      question: 'He wore a ___ [[suit|traje]].',
+      options: ['smart black silk', 'silk black smart', 'black smart silk'],
+      correctAnswer: 'smart black silk',
+      explanation: 'Opinion (smart) > Color (black) > Material (silk).',
+      points: 1
+    },
+    {
+      id: genId(UNIT_ID, 'b5', 4),
+      type: 'multiple-choice',
+      question: 'They live in a ___ [[house|casa]].',
+      options: ['large modern glass', 'modern large glass', 'glass large modern'],
+      correctAnswer: 'large modern glass',
+      explanation: 'Size (large) > Age (modern) > Material (glass).',
+      points: 1
+    },
+    {
+      id: genId(UNIT_ID, 'b5', 5),
+      type: 'multiple-choice',
+      question: 'She has ___ [[hair|pelo]].',
+      options: ['long curly brown', 'brown long curly', 'curly long brown'],
+      correctAnswer: 'long curly brown',
+      explanation: 'Size (long) > Shape (curly) > Color (brown).',
+      points: 1
+    },
+    {
+      id: genId(UNIT_ID, 'b5', 6),
+      type: 'multiple-choice',
+      question: 'It was a ___ [[coin|moneda]].',
+      options: ['small round silver', 'silver small round', 'round small silver'],
+      correctAnswer: 'small round silver',
+      explanation: 'Size (small) > Shape (round) > Material (silver).',
+      points: 1
+    },
+    {
+      id: genId(UNIT_ID, 'b5', 7),
+      type: 'multiple-choice',
+      question: 'He bought some ___ [[shoes|zapatos]].',
+      options: ['expensive leather running', 'running leather expensive', 'leather expensive running'],
+      correctAnswer: 'expensive leather running',
+      explanation: 'Opinion (expensive) > Material (leather) > Purpose (running).',
+      points: 1
+    },
+    {
+      id: genId(UNIT_ID, 'b5', 8),
+      type: 'multiple-choice',
+      question: 'It was a ___ [[vase|jarrón]].',
+      options: ['valuable ancient Chinese', 'Chinese valuable ancient', 'ancient Chinese valuable'],
+      correctAnswer: 'valuable ancient Chinese',
+      explanation: 'Opinion (valuable) > Age (ancient) > Origin (Chinese).',
+      points: 1
+    },
+    {
+      id: genId(UNIT_ID, 'b5', 9),
+      type: 'multiple-choice',
+      question: 'She is a ___ [[person|persona]].',
+      options: ['wonderful young American', 'American young wonderful', 'young wonderful American'],
+      correctAnswer: 'wonderful young American',
+      explanation: 'Opinion (wonderful) > Age (young) > Origin (American).',
+      points: 1
+    },
+    {
+      id: genId(UNIT_ID, 'b5', 10),
+      type: 'multiple-choice',
+      question: 'It was a ___ [[day|día]].',
+      options: ['bright sunny spring', 'spring sunny bright', 'sunny bright spring'],
+      correctAnswer: 'bright sunny spring',
+      explanation: 'Opinion (bright) > Appearance (sunny) > Time/Purpose (spring).',
+      points: 1
+    }
+  ]
 };
 
 export const unit18: Lesson = createC1Unit(
   'c1-u18',
-  'Professional Networking & LinkedIn',
-  'Vocabulary and strategies for effective networking and professional online presence.',
-  ['Optimize LinkedIn profile with professional terminology', 'Apply effective networking strategies', 'Write professional outreach messages'],
+  'Advanced Adjectives & Adverbs',
+  'Polishing your descriptive skills with gradable/non-gradable distinctions, compound modifiers, and attitude adverbs.',
+  ['Distinguish between gradable and non-gradable adjectives', 'Create and use compound adjectives accurately', 'Apply attitude adverbs to express nuance and opinion'],
   [
-    C1_U18_BLOCK1, C1_U18_BLOCK2, C1_U18_BLOCK3,
-    C1_U18_BLOCK1, C1_U18_BLOCK2, C1_U18_BLOCK3,
-    C1_U18_BLOCK1, C1_U18_BLOCK2, C1_U18_BLOCK3, C1_U18_BLOCK1
+    C1_U18_BLOCK1, C1_U18_BLOCK2, C1_U18_BLOCK3, C1_U18_BLOCK4, C1_U18_BLOCK5
   ]
 );

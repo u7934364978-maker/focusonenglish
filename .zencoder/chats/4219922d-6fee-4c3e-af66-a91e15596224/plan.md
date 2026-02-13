@@ -31,7 +31,7 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
 2. [x] Each task should reference relevant contracts and include verification steps
 3. [x] Replace the Implementation step below with the planned tasks
 
-### [ ] Step: Implementation
+### [x] Step: Implementation
 
 #### Phase 1: Structure Definition
 - [x] Define the 30-unit syllabus for C1 level with neutral themes and specific topics.
@@ -39,8 +39,9 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
 - [x] Verify the syllabus and preview route with the user.
 
 #### Phase 2: Unit Generation (Technical: .ts files in src/lib/c1-units/)
-- [x] Generate Unit 1 (100 activities - already existing in codebase).
-- [x] Generate Unit 2 (50 activities).
-- [ ] Generate Unit 3 (50 activities).
-...
-- [ ] Generate Unit 30 (50 activities).
+- [x] Generate Unit 1 (100 activities - updated with `[[word|translation]]`).
+- [x] Generate Unit 2 (50 activities - updated with `[[word|translation]]`).
+- [x] Generate Units 3-10 (50 activities each).
+- [x] Generate Units 11-20 (50 activities each).
+- [x] Generate Units 21-30 (50 activities each).
+- [x] Export all units in `index.ts`.

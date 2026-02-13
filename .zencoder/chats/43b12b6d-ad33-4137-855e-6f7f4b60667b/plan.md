@@ -19,7 +19,7 @@
 - [x] Unit 10: Money and Finance
 
 ## Phase 3: Units 11-15 (In Progress)
-- [ ] Unit 11: Arts and Culture
+- [x] Unit 11: Arts and Culture
 - [ ] Unit 12: Science and Nature
 - [ ] Unit 13: Food and Nutrition
 - [ ] Unit 14: Shopping and Consumerism
