@@ -2,7 +2,7 @@
 
 ## Workflow Steps
 
-### [ ] Step: Requirements
+### [x] Step: Requirements
 
 Create a Product Requirements Document (PRD) based on the feature description.
 
@@ -14,7 +14,7 @@ Create a Product Requirements Document (PRD) based on the feature description.
 
 Save the PRD to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/87260d5e-d83e-4d98-8c2b-f549062864e0/requirements.md`.
 
-### [ ] Step: Technical Specification
+### [x] Step: Technical Specification
 
 Create a technical specification based on the PRD in `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/87260d5e-d83e-4d98-8c2b-f549062864e0/requirements.md`.
 
@@ -30,7 +30,7 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/87
 - Delivery phases (incremental, testable milestones)
 - Verification approach using project lint/test commands
 
-### [ ] Step: Planning
+### [x] Step: Planning
 
 Create a detailed implementation plan based on `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/87260d5e-d83e-4d98-8c2b-f549062864e0/spec.md`.
 
@@ -46,6 +46,12 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/87
 
 ### [ ] Step: Implementation
 
-This step should be replaced with detailed implementation tasks from the Planning step.
-
-If Planning didn't replace this step, execute the tasks in `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/87260d5e-d83e-4d98-8c2b-f549062864e0/plan.md`, updating checkboxes as you go. Run planned tests/lint and record results in plan.md.
+1. [x] **Update Exercise `b1-u29-e3`**: Simplify to 8-10 words in `src/lib/course/b1/unit-29.ts`.
+2. [x] **Update Exercise `b1-u29-e6`**: Simplify to 8-10 words in `src/lib/course/b1/unit-29.ts`.
+3. [x] **Update Exercise `b1-u29-e9`**: Simplify to 8-10 words in `src/lib/course/b1/unit-29.ts`.
+4. [x] **Update Exercise `b1-u29-e12`**: Simplify to 8-10 words in `src/lib/course/b1/unit-29.ts`.
+5. [x] **Update Exercise `b1-u29-e15`**: Simplify to 8-10 words in `src/lib/course/b1/unit-29.ts`.
+6. [x] **Update Exercise `b1-u29-e18`**: Simplify to 8-10 words in `src/lib/course/b1/unit-29.ts`.
+7. [x] **Update Exercise `b1-u29-e21`**: Simplify to 8-10 words in `src/lib/course/b1/unit-29.ts`.
+8. [x] **Update Exercise `b1-u29-e24`**: Simplify to 8-10 words in `src/lib/course/b1/unit-29.ts`.
+9. [ ] **Verify Changes**: Run the app and check visually, then run tests.
