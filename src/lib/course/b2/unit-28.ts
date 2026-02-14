@@ -12,7 +12,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Had Inversion",
       instructions: "Choose the correct word order to replace 'If I had known'.",
-      question: "___ about the storm, I wouldn't have gone out.",
+      question: "[[___ about the storm, I wouldn't have gone out.|Si hubiera sabido de la tormenta, no habría salido.]]",
       options: ["Had I known", "I had known", "If had I known"],
       correctAnswer: "Had I known",
       explanation: "In formal English, you can invert 'had' and the subject to replace 'if' in third conditionals.",
@@ -31,7 +31,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Should Inversion",
       instructions: "Choose the correct word order to replace 'If you should need'.",
-      question: "___ any help, let me know.",
+      question: "[[___ any help, let me know.|Si necesitas ayuda, dímelo.]]",
       options: ["Should you need", "You should need", "If should you need"],
       correctAnswer: "Should you need",
       explanation: "In formal English, use 'should' + subject + verb to replace 'if' in first conditionals.",
@@ -50,7 +50,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Were Inversion",
       instructions: "Choose the correct word order to replace 'If I were you'.",
-      question: "___ you, I would protect the environment.",
+      question: "[[___ you, I would protect the environment.|Si yo fuera tú, protegería el medio ambiente.]]",
       options: ["Were I", "I were", "If were I"],
       correctAnswer: "Were I",
       explanation: "In formal English, invert 'were' and the subject to replace 'if' in second conditionals.",
@@ -69,7 +69,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Had Inversion",
       instructions: "Choose the correct word order.",
-      question: "___ not been rescued, they would have died.",
+      question: "[[___ not been rescued, they would have died.|Si los animales no hubieran sido rescatados, habrían muerto.]]",
       options: ["Had the animals", "The animals had", "If had the animals"],
       correctAnswer: "Had the animals",
       explanation: "Formal inversion in third conditional.",
@@ -88,7 +88,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Should Inversion",
       instructions: "Choose the correct word order.",
-      question: "___ rain, the trip will be cancelled.",
+      question: "[[___ rain, the trip will be cancelled.|Si llueve, el viaje se cancelará.]]",
       options: ["Should it", "It should", "If should it"],
       correctAnswer: "Should it",
       explanation: "Formal inversion in first conditional.",
@@ -107,7 +107,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Were Inversion",
       instructions: "Choose the correct word order.",
-      question: "___ to fail, it would be a disaster.",
+      question: "[[___ to fail, it would be a disaster.|Si el proyecto fallara, sería un desastre.]]",
       options: ["Were the project", "The project were", "If were the project"],
       correctAnswer: "Were the project",
       explanation: "Formal inversion using 'were + subject + to-infinitive'.",
@@ -126,7 +126,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Had Inversion",
       instructions: "Choose the correct word order.",
-      question: "___ earlier, we would have seen the cubs.",
+      question: "[[___ earlier, we would have seen the cubs.|Si hubiéramos llegado antes, habríamos visto a los cachorros.]]",
       options: ["Had we arrived", "We had arrived", "If had we arrived"],
       correctAnswer: "Had we arrived",
       explanation: "Third conditional inversion.",
@@ -145,7 +145,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Should Inversion",
       instructions: "Choose the correct word order.",
-      question: "___ a bear, stay calm.",
+      question: "[[___ a bear, stay calm.|Si ves un oso, mantén la calma.]]",
       options: ["Should you see", "You should see", "If should you see"],
       correctAnswer: "Should you see",
       explanation: "First conditional inversion.",
@@ -164,7 +164,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Were Inversion",
       instructions: "Choose the correct word order.",
-      question: "___ more trees, the air would be cleaner.",
+      question: "[[___ more trees, the air would be cleaner.|Si hubiera más árboles, el aire estaría más limpio.]]",
       options: ["Were there", "There were", "If were there"],
       correctAnswer: "Were there",
       explanation: "Second conditional inversion.",
@@ -183,7 +183,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Had Inversion",
       instructions: "Choose the correct word order.",
-      question: "___ the path, he wouldn't have got lost.",
+      question: "[[___ the path, he wouldn't have got lost.|Si hubiera seguido el camino, no se habría perdido.]]",
       options: ["Had he followed", "He had followed", "If had he followed"],
       correctAnswer: "Had he followed",
       explanation: "Third conditional inversion.",
@@ -204,7 +204,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Wildlife",
       instructions: "Fill in the blank.",
-      question: "The Amazon is a vast ___ (ecosystem) that supports millions of species.",
+      question: "[[The Amazon is a vast ___ (ecosystem) that supports millions of species.|El Amazonas es un ecosistema vasto.]]",
       correctAnswer: "ecosystem",
       explanation: "An ecosystem is a biological community of interacting organisms and their physical environment.",
       translation: "El Amazonas es un ecosistema vasto.",
@@ -222,7 +222,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Wildlife",
       instructions: "Fill in the blank.",
-      question: "Many species are facing ___ (extinction) due to habitat loss.",
+      question: "[[Many species are facing ___ (extinction) due to habitat loss.|Muchas especies se enfrentan a la extinción.]]",
       correctAnswer: "extinction",
       explanation: "Extinction is the state or process of a species, family, or larger group being or becoming extinct.",
       translation: "Muchas especies se enfrentan a la extinción.",
@@ -240,7 +240,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Wildlife",
       instructions: "Fill in the blank.",
-      question: "We must protect the natural ___ (habitat) of the tigers.",
+      question: "[[We must protect the natural ___ (habitat) of the tigers.|Debemos proteger el hábitat natural.]]",
       correctAnswer: "habitat",
       explanation: "A habitat is the natural home or environment of an animal, plant, or other organism.",
       translation: "Debemos proteger el hábitat natural.",
@@ -258,7 +258,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Wildlife",
       instructions: "Fill in the blank.",
-      question: "___ (Biodiversity) is the variety of life in the world or in a particular habitat or ecosystem.",
+      question: "[[___ (Biodiversity) is the variety of life in the world or in a particular habitat or ecosystem.|La biodiversidad es esencial para la salud.]]",
       correctAnswer: "Biodiversity",
       explanation: "Variety of life.",
       translation: "La biodiversidad es esencial para la salud.",
@@ -276,7 +276,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Wildlife",
       instructions: "Fill in the blank.",
-      question: "___ (Conservation) efforts are essential to save endangered species.",
+      question: "[[___ (Conservation) efforts are essential to save endangered species.|Los esfuerzos de conservación están dando sus frutos.]]",
       correctAnswer: "Conservation",
       explanation: "Conservation is the protection of plants and animals, natural areas, and interesting and important structures and buildings, especially from the damaging effects of human activity.",
       translation: "Los esfuerzos de conservación están dando sus frutos.",
@@ -294,7 +294,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Wildlife",
       instructions: "Fill in the blank.",
-      question: "___ (Poaching) is the illegal hunting or capturing of wild animals.",
+      question: "[[___ (Poaching) is the illegal hunting or capturing of wild animals.|La caza furtiva es una gran amenaza para la vida silvestre.]]",
       correctAnswer: "Poaching",
       explanation: "Illegal hunting.",
       translation: "La caza furtiva es una gran amenaza para la vida silvestre.",
@@ -312,7 +312,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Wildlife",
       instructions: "Fill in the blank.",
-      question: "___ (Endangered) species are those at serious risk of extinction.",
+      question: "[[___ (Endangered) species are those at serious risk of extinction.|Las especies en peligro de extinción necesitan protección.]]",
       correctAnswer: "Endangered",
       explanation: "At risk of extinction.",
       translation: "Las especies en peligro de extinción necesitan protección.",
@@ -330,7 +330,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Wildlife",
       instructions: "Fill in the blank.",
-      question: "The food ___ (chain) shows how each living thing gets food.",
+      question: "[[The food ___ (chain) shows how each living thing gets food.|La cadena alimentaria está equilibrada.]]",
       correctAnswer: "chain",
       explanation: "Sequence of who eats whom.",
       translation: "La cadena alimentaria está equilibrada.",
@@ -348,7 +348,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Wildlife",
       instructions: "Fill in the blank.",
-      question: "___ (Sustainable) development meets the needs of the present without compromising the future.",
+      question: "[[___ (Sustainable) development meets the needs of the present without compromising the future.|El desarrollo sostenible es el objetivo.]]",
       correctAnswer: "Sustainable",
       explanation: "Eco-friendly/long-term.",
       translation: "El desarrollo sostenible es el objetivo.",
@@ -366,7 +366,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Wildlife",
       instructions: "Fill in the blank.",
-      question: "Global ___ (warming) is the long-term rise in the average temperature of the Earth's climate system.",
+      question: "[[Global ___ (warming) is the long-term rise in the average temperature of the Earth's climate system.|El calentamiento global afecta a todos los ecosistemas.]]",
       correctAnswer: "warming",
       explanation: "Rise in temperature.",
       translation: "El calentamiento global afecta a todos los ecosistemas.",
@@ -386,7 +386,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Environment",
       instructions: "Fill in the blank.",
-      question: "___ (Deforestation) is the clearing of trees, transforming a forest into cleared land.",
+      question: "[[___ (Deforestation) is the clearing of trees, transforming a forest into cleared land.|La deforestación provoca la erosión del suelo.]]",
       correctAnswer: "Deforestation",
       explanation: "Clearing trees.",
       translation: "La deforestación provoca la erosión del suelo.",
@@ -404,7 +404,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Environment",
       instructions: "Fill in the blank.",
-      question: "___ (Pollution) is the presence in or introduction into the environment of a substance or thing that has harmful or poisonous effects.",
+      question: "[[___ (Pollution) is the presence in or introduction into the environment of a substance or thing that has harmful or poisonous effects.|La contaminación está dañando los océanos.]]",
       correctAnswer: "Pollution",
       explanation: "Harmful substances.",
       translation: "La contaminación está dañando los océanos.",
@@ -422,7 +422,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Environment",
       instructions: "Fill in the blank.",
-      question: "___ (Renewable) energy comes from natural sources that are constantly replenished.",
+      question: "[[___ (Renewable) energy comes from natural sources that are constantly replenished.|La energía renovable es más limpia.]]",
       correctAnswer: "Renewable",
       explanation: "Energy from sources like sun or wind.",
       translation: "La energía renovable es más limpia.",
@@ -440,7 +440,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Environment",
       instructions: "Fill in the blank.",
-      question: "A carbon ___ (footprint) is the total amount of greenhouse gases produced by an individual or organization.",
+      question: "[[A carbon ___ (footprint) is the total amount of greenhouse gases produced by an individual or organization.|La huella de carbono debe ser reducida.]]",
       correctAnswer: "footprint",
       explanation: "Measure of impact.",
       translation: "La huella de carbono debe ser reducida.",
@@ -458,7 +458,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Environment",
       instructions: "Fill in the blank.",
-      question: "Greenhouse ___ (gases) contribute to the greenhouse effect.",
+      question: "[[Greenhouse ___ (gases) contribute to the greenhouse effect.|Los gases de efecto invernadero atrapan el calor.]]",
       correctAnswer: "gases",
       explanation: "Gases that trap heat.",
       translation: "Los gases de efecto invernadero atrapan el calor.",
@@ -476,7 +476,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Environment",
       instructions: "Fill in the blank.",
-      question: "___ (Recycling) is the process of converting waste materials into new materials.",
+      question: "[[___ (Recycling) is the process of converting waste materials into new materials.|El reciclaje reduce los residuos.]]",
       correctAnswer: "Recycling",
       explanation: "Processing waste.",
       translation: "El reciclaje reduce los residuos.",
@@ -494,7 +494,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Environment",
       instructions: "Fill in the blank.",
-      question: "Climate ___ (change) refers to long-term shifts in temperatures and weather patterns.",
+      question: "[[Climate ___ (change) refers to long-term shifts in temperatures and weather patterns.|El cambio climático es una crisis global.]]",
       correctAnswer: "change",
       explanation: "Shift in climate.",
       translation: "El cambio climático es una crisis global.",
@@ -512,7 +512,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Environment",
       instructions: "Fill in the blank.",
-      question: "The ___ (ozone) layer is a region of Earth's stratosphere that absorbs most of the Sun's ultraviolet radiation.",
+      question: "[[The ___ (ozone) layer is a region of Earth's stratosphere that absorbs most of the Sun's ultraviolet radiation.|La capa de ozono nos protege.]]",
       correctAnswer: "ozone",
       explanation: "Protective layer.",
       translation: "La capa de ozono nos protege.",
@@ -530,7 +530,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Environment",
       instructions: "Fill in the blank.",
-      question: "___ (Eco-friendly) products are not harmful to the environment.",
+      question: "[[___ (Eco-friendly) products are not harmful to the environment.|Los productos ecológicos son mejores.]]",
       correctAnswer: "Eco-friendly",
       explanation: "Good for the environment.",
       translation: "Los productos ecológicos son mejores.",
@@ -548,7 +548,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Environment",
       instructions: "Fill in the blank.",
-      question: "Waste ___ (management) is the collection, transport, processing, and disposal of waste materials.",
+      question: "[[Waste ___ (management) is the collection, transport, processing, and disposal of waste materials.|La gestión de residuos es crucial.]]",
       correctAnswer: "management",
       explanation: "Dealing with waste.",
       translation: "La gestión de residuos es crucial.",
@@ -568,7 +568,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Animals",
       instructions: "Choose the correct term.",
-      question: "A ___ is an animal that naturally preys on others.",
+      question: "[[A ___ is an animal that naturally preys on others.|Los depredadores cazan a otros animales.]]",
       options: ["predator", "prey", "herbivore"],
       correctAnswer: "predator",
       explanation: "Animal that hunts.",
@@ -587,7 +587,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Animals",
       instructions: "Choose the correct term.",
-      question: "___ is an animal that is hunted and killed by another for food.",
+      question: "[[___ is an animal that is hunted and killed by another for food.|Las presas son cazadas.]]",
       options: ["Prey", "Predator", "Scavenger"],
       correctAnswer: "Prey",
       explanation: "Animal being hunted.",
@@ -606,7 +606,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Animals",
       instructions: "Choose the correct term.",
-      question: "___ are warm-blooded vertebrate animals that have hair or fur.",
+      question: "[[___ are warm-blooded vertebrate animals that have hair or fur.|Los mamíferos dan a luz crías vivas.]]",
       options: ["Mammals", "Reptiles", "Birds"],
       correctAnswer: "Mammals",
       explanation: "Group including humans, dogs, etc.",
@@ -625,7 +625,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Animals",
       instructions: "Choose the correct term.",
-      question: "___ are cold-blooded vertebrates that include snakes and lizards.",
+      question: "[[___ are cold-blooded vertebrates that include snakes and lizards.|Los reptiles tienen escamas.]]",
       options: ["Reptiles", "Amphibians", "Fish"],
       correctAnswer: "Reptiles",
       explanation: "Scaly cold-blooded animals.",
@@ -644,7 +644,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Animals",
       instructions: "Choose the correct term.",
-      question: "___ are vertebrate animals characterized by feathers and laying eggs.",
+      question: "[[___ are vertebrate animals characterized by feathers and laying eggs.|Las aves tienen plumas.]]",
       options: ["Birds", "Mammals", "Insects"],
       correctAnswer: "Birds",
       explanation: "Feathered animals.",
@@ -663,7 +663,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Animals",
       instructions: "Choose the correct term.",
-      question: "___ are small arthropod animals with six legs.",
+      question: "[[___ are small arthropod animals with six legs.|Los insectos tienen seis patas.]]",
       options: ["Insects", "Spiders", "Crabs"],
       correctAnswer: "Insects",
       explanation: "Small creatures with six legs.",
@@ -682,7 +682,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Animals",
       instructions: "Choose the correct term.",
-      question: "___ animals have been tamed and kept by humans as work animals or pets.",
+      question: "[[___ animals have been tamed and kept by humans as work animals or pets.|Los animales domesticados viven con los humanos.]]",
       options: ["Domesticated", "Wild", "Feral"],
       correctAnswer: "Domesticated",
       explanation: "Tamed animals.",
@@ -701,7 +701,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Animals",
       instructions: "Choose the correct term.",
-      question: "___ animals live or grow in the natural environment.",
+      question: "[[___ animals live or grow in the natural environment.|Los animales salvajes viven en la naturaleza.]]",
       options: ["Wild", "Pet", "Farm"],
       correctAnswer: "Wild",
       explanation: "Animals in nature.",
@@ -720,7 +720,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Plants",
       instructions: "Choose the correct term.",
-      question: "___ is the process by which green plants use sunlight to synthesize foods.",
+      question: "[[___ is the process by which green plants use sunlight to synthesize foods.|La fotosíntesis es cómo las plantas fabrican su alimento.]]",
       options: ["Photosynthesis", "Respiration", "Digestion"],
       correctAnswer: "Photosynthesis",
       explanation: "Plant food making process.",
@@ -739,7 +739,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Plants",
       instructions: "Choose the correct term.",
-      question: "___ plants are those that occur naturally in a particular region.",
+      question: "[[___ plants are those that occur naturally in a particular region.|Las plantas nativas pertenecen a una zona.]]",
       options: ["Native", "Exotic", "Invasive"],
       correctAnswer: "Native",
       explanation: "Naturally occurring in a place.",
@@ -760,7 +760,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "___ (ENVIRONMENT) protection is vital for our future.",
+      question: "[[___ (ENVIRONMENT) protection is vital for our future.|La protección ambiental es vital.]]",
       correctAnswer: "Environmental",
       explanation: "Adjective form of 'environment'.",
       translation: "La protección ambiental es vital.",
@@ -778,7 +778,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (EXTINCT) of the dinosaurs happened millions of years ago.",
+      question: "[[The ___ (EXTINCT) of the dinosaurs happened millions of years ago.|La extinción de los dinosaurios ocurrió hace mucho tiempo.]]",
       correctAnswer: "extinction",
       explanation: "Noun form of 'extinct'.",
       translation: "La extinción de los dinosaurios ocurrió hace mucho tiempo.",
@@ -796,7 +796,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "___ (CONSERVE) work hard to protect endangered species.",
+      question: "[[___ (CONSERVE) work hard to protect endangered species.|Los conservacionistas trabajan para salvar especies.]]",
       correctAnswer: "Conservationists",
       explanation: "Noun for people working in conservation (plural).",
       translation: "Los conservacionistas trabajan para salvar especies.",
@@ -814,7 +814,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "___ (POLLUTE) is a serious problem in many cities.",
+      question: "[[___ (POLLUTE) is a serious problem in many cities.|La contaminación es un problema serio.]]",
       correctAnswer: "Pollution",
       explanation: "Noun form of 'pollute'.",
       translation: "La contaminación es un problema serio.",
@@ -832,7 +832,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The air in this city is very ___ (POLLUTE).",
+      question: "[[The air in this city is very ___ (POLLUTE).|El aire está muy contaminado.]]",
       correctAnswer: "polluted",
       explanation: "Adjective form of 'pollute'.",
       translation: "El aire está muy contaminado.",
@@ -850,7 +850,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "___ (SUSTAIN) energy is the way forward.",
+      question: "[[___ (SUSTAIN) energy is the way forward.|La energía sostenible es el camino a seguir.]]",
       correctAnswer: "Sustainable",
       explanation: "Adjective form of 'sustain'.",
       translation: "La energía sostenible es el camino a seguir.",
@@ -868,7 +868,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (DIVERSE) of the rainforest is amazing.",
+      question: "[[The ___ (DIVERSE) of the rainforest is amazing.|La biodiversidad de la selva es asombrosa.]]",
       correctAnswer: "biodiversity",
       explanation: "Compound noun: bio + diversity.",
       translation: "La biodiversidad de la selva es asombrosa.",
@@ -886,7 +886,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "Global ___ (WARM) is getting worse every year.",
+      question: "[[Global ___ (WARM) is getting worse every year.|El calentamiento global está empeorando.]]",
       correctAnswer: "warming",
       explanation: "Gerund acting as a noun.",
       translation: "El calentamiento global está empeorando.",
@@ -904,7 +904,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "___ (FOREST) is clearing the land for agriculture.",
+      question: "[[___ (FOREST) is clearing the land for agriculture.|La deforestación está despejando la tierra.]]",
       correctAnswer: "Deforestation",
       explanation: "Noun form of 'deforest'.",
       translation: "La deforestación está despejando la tierra.",
@@ -922,7 +922,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (PROTECT) of animals is our responsibility.",
+      question: "[[The ___ (PROTECT) of animals is our responsibility.|La protección de los animales es importante.]]",
       correctAnswer: "protection",
       explanation: "Noun form of 'protect'.",
       translation: "La protección de los animales es importante.",
