@@ -13,18 +13,18 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración sobre la inteligencia artificial.",
       "questions": [
         {
-          "question": "[[Artificial|Artificial]] [[intelligence|inteligencia]] [[is|está]] [[changing|cambiando]] [[the|la]] [[way|forma]] [[we|en que]] [[live|vivimos]] [[and|y]] [[work.|trabajamos.]]",
+          "question": "[[Artificial|Artificial]] [[intelligence|inteligencia]] [[is|está]] [[changing|cambiando]] [[the|la]] [[way|forma]] [[we|nosotros]] [[live|vivimos]] [[and|y]] [[work.|trabajamos.]]",
           "options": [
-            "Artificial",
-            "intelligence",
-            "is",
-            "changing",
-            "the",
-            "way",
-            "we",
-            "live",
-            "and",
-            "work."
+            "[[Artificial|Artificial]]",
+            "[[intelligence|inteligencia]]",
+            "[[is|está]]",
+            "[[changing|cambiando]]",
+            "[[the|la]]",
+            "[[way|forma]]",
+            "[[we|nosotros]]",
+            "[[live|vivimos]]",
+            "[[and|y]]",
+            "[[work.|trabajamos.]]"
           ],
           "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
           "explanation": "La inteligencia artificial está cambiando la forma en que vivimos y trabajamos.",
@@ -47,18 +47,18 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras usando el futuro perfecto.",
       "questions": [
         {
-          "question": "[[By|Para]] [[next|el]] [[year,|próximo año,]] [[they|ellos]] [[will|habrán]] [[have| ]] [[developed|desarrollado]] [[a|un]] [[faster|más rápido]] [[processor.|procesador.]]",
+          "question": "[[By|Para]] [[next|próximo]] [[year,|año,]] [[they|ellos]] [[will|habrán]] [[have| ]] [[developed|desarrollado]] [[a|un]] [[faster|más rápido]] [[processor.|procesador.]]",
           "options": [
-            "By",
-            "next",
-            "year,",
-            "they",
-            "will",
-            "have",
-            "developed",
-            "a",
-            "faster",
-            "processor."
+            "[[By|Para]]",
+            "[[next|próximo]]",
+            "[[year,|año,]]",
+            "[[they|ellos]]",
+            "[[will|habrán]]",
+            "[[have| ]]",
+            "[[developed|desarrollado]]",
+            "[[a|un]]",
+            "[[faster|más rápido]]",
+            "[[processor.|procesador.]]"
           ],
           "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
           "explanation": "Para el año que viene, habrán desarrollado un procesador más rápido.",
@@ -83,14 +83,14 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[The|La]] [[latest|última]] [[software|software]] [[update|actualización]] [[fixed|corrigió]] [[several|varios]] [[security|seguridad]] [[bugs.|errores/fallos.]]",
           "options": [
-            "The",
-            "latest",
-            "software",
-            "update",
-            "fixed",
-            "several",
-            "security",
-            "bugs."
+            "[[The|La]]",
+            "[[latest|última]]",
+            "[[software|software]]",
+            "[[update|actualización]]",
+            "[[fixed|corrigió]]",
+            "[[several|varios]]",
+            "[[security|seguridad]]",
+            "[[bugs.|errores/fallos.]]"
           ],
           "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7],
           "explanation": "La última actualización de software corrigió varios fallos de seguridad.",
@@ -115,16 +115,16 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[She|Ella]] [[will|estará]] [[be| ]] [[presenting|presentando]] [[her|su]] [[invention|invento]] [[at|en]] [[the|la]] [[tech|tecnológica]] [[fair.|feria.]]",
           "options": [
-            "She",
-            "will",
-            "be",
-            "presenting",
-            "her",
-            "invention",
-            "at",
-            "the",
-            "tech",
-            "fair."
+            "[[She|Ella]]",
+            "[[will|estará]]",
+            "[[be| ]]",
+            "[[presenting|presentando]]",
+            "[[her|su]]",
+            "[[invention|invento]]",
+            "[[at|en]]",
+            "[[the|la]]",
+            "[[tech|tecnológica]]",
+            "[[fair.|feria.]]"
           ],
           "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
           "explanation": "Ella estará presentando su invento en la feria tecnológica.",
@@ -149,14 +149,14 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[Cloud|Nube]] [[computing|computación]] [[allows|permite]] [[us|nos]] [[to| ]] [[store|almacenar]] [[data|datos]] [[remotely.|remotamente.]]",
           "options": [
-            "Cloud",
-            "computing",
-            "allows",
-            "us",
-            "to",
-            "store",
-            "data",
-            "remotely."
+            "[[Cloud|Nube]]",
+            "[[computing|computación]]",
+            "[[allows|permite]]",
+            "[[us|nos]]",
+            "[[to| ]]",
+            "[[store|almacenar]]",
+            "[[data|datos]]",
+            "[[remotely.|remotamente.]]"
           ],
           "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7],
           "explanation": "La computación en la nube nos permite almacenar datos de forma remota.",
@@ -181,15 +181,15 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] [[will|habré]] [[have| ]] [[finished|terminado]] [[the|la]] [[coding|programación]] [[by|para]] [[tomorrow|mañana]] [[evening.|por la tarde.]]",
           "options": [
-            "I",
-            "will",
-            "have",
-            "finished",
-            "the",
-            "coding",
-            "by",
-            "tomorrow",
-            "evening."
+            "[[I|Yo]]",
+            "[[will|habré]]",
+            "[[have| ]]",
+            "[[finished|terminado]]",
+            "[[the|la]]",
+            "[[coding|programación]]",
+            "[[by|para]]",
+            "[[tomorrow|mañana]]",
+            "[[evening.|por la tarde.]]"
           ],
           "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7, 8],
           "explanation": "Habré terminado la programación para mañana por la tarde.",
@@ -214,14 +214,14 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[Digital|Digital]] [[transformation|transformación]] [[is|es]] [[a|una]] [[priority|prioridad]] [[for|para]] [[many|muchas]] [[companies.|empresas.]]",
           "options": [
-            "Digital",
-            "transformation",
-            "is",
-            "a",
-            "priority",
-            "for",
-            "many",
-            "companies."
+            "[[Digital|Digital]]",
+            "[[transformation|transformación]]",
+            "[[is|es]]",
+            "[[a|una]]",
+            "[[priority|prioridad]]",
+            "[[for|para]]",
+            "[[many|muchas]]",
+            "[[companies.|empresas.]]"
           ],
           "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7],
           "explanation": "La transformación digital es una prioridad para muchas empresas.",
@@ -246,16 +246,16 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[At|A]] [[this|esta]] [[time|hora]] [[tomorrow,|mañana,]] [[we|nosotros]] [[will|estaremos]] [[be| ]] [[flying|volando]] [[to|a]] [[Tokyo.|Tokio.]]",
           "options": [
-            "At",
-            "this",
-            "time",
-            "tomorrow,",
-            "we",
-            "will",
-            "be",
-            "flying",
-            "to",
-            "Tokyo."
+            "[[At|A]]",
+            "[[this|esta]]",
+            "[[time|hora]]",
+            "[[tomorrow,|mañana,]]",
+            "[[we|nosotros]]",
+            "[[will|estaremos]]",
+            "[[be| ]]",
+            "[[flying|volando]]",
+            "[[to|a]]",
+            "[[Tokyo.|Tokio.]]"
           ],
           "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
           "explanation": "A esta hora mañana, estaremos volando a Tokio.",
@@ -280,13 +280,13 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[Cybersecurity|Ciberseguridad]] [[threats|amenazas]] [[have|se han]] [[become|vuelto]] [[more|más]] [[sophisticated|sofisticadas]] [[recently.|recientemente.]]",
           "options": [
-            "Cybersecurity",
-            "threats",
-            "have",
-            "become",
-            "more",
-            "sophisticated",
-            "recently."
+            "[[Cybersecurity|Ciberseguridad]]",
+            "[[threats|amenazas]]",
+            "[[have|se han]]",
+            "[[become|vuelto]]",
+            "[[more|más]]",
+            "[[sophisticated|sofisticadas]]",
+            "[[recently.|recientemente.]]"
           ],
           "correctAnswer": [0, 1, 2, 3, 4, 5, 6],
           "explanation": "Las amenazas de ciberseguridad se han vuelto más sofisticadas recientemente.",
@@ -311,16 +311,16 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[He|Él]] [[will|habrá]] [[have| ]] [[been|estado]] [[studying|estudiando]] [[robotics|robótica]] [[for|por/durante]] [[three|tres]] [[years|años]] [[soon.|pronto.]]",
           "options": [
-            "He",
-            "will",
-            "have",
-            "been",
-            "studying",
-            "robotics",
-            "for",
-            "three",
-            "years",
-            "soon."
+            "[[He|Él]]",
+            "[[will|habrá]]",
+            "[[have| ]]",
+            "[[been|estado]]",
+            "[[studying|estudiando]]",
+            "[[robotics|robótica]]",
+            "[[for|por/durante]]",
+            "[[three|tres]]",
+            "[[years|años]]",
+            "[[soon.|pronto.]]"
           ],
           "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
           "explanation": "Pronto habrá estado estudiando robótica durante tres años.",
@@ -345,15 +345,15 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[Big|Big]] [[data|data]] [[analytics|analítica]] [[can|puede]] [[provide|proporcionar]] [[valuable|valiosa]] [[insights|información/conocimiento]] [[for|para]] [[businesses.|empresas.]]",
           "options": [
-            "Big",
-            "data",
-            "analytics",
-            "can",
-            "provide",
-            "valuable",
-            "insights",
-            "for",
-            "businesses."
+            "[[Big|Big]]",
+            "[[data|data]]",
+            "[[analytics|analítica]]",
+            "[[can|puede]]",
+            "[[provide|proporcionar]]",
+            "[[valuable|valiosa]]",
+            "[[insights|información/conocimiento]]",
+            "[[for|para]]",
+            "[[businesses.|empresas.]]"
           ],
           "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7, 8],
           "explanation": "El análisis de grandes datos puede proporcionar información valiosa para las empresas.",
@@ -378,15 +378,15 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[They|Ellos]] [[won't|no]] [[have|habrán]] [[finished|terminado]] [[the|el]] [[prototype|prototipo]] [[by|para]] [[the|la]] [[deadline.|fecha límite.]]",
           "options": [
-            "They",
-            "won't",
-            "have",
-            "finished",
-            "the",
-            "prototype",
-            "by",
-            "the",
-            "deadline."
+            "[[They|Ellos]]",
+            "[[won't|no]]",
+            "[[have|habrán]]",
+            "[[finished|terminado]]",
+            "[[the|el]]",
+            "[[prototype|prototipo]]",
+            "[[by|para]]",
+            "[[the|la]]",
+            "[[deadline.|fecha límite.]]"
           ],
           "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7, 8],
           "explanation": "No habrán terminado el prototipo para la fecha límite.",
@@ -411,15 +411,15 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[Internet|Internet]] [[of|de]] [[Things|cosas]] [[connects|conecta]] [[everyday|cotidianos]] [[devices|dispositivos]] [[to|a]] [[the|la]] [[web.|red.]]",
           "options": [
-            "Internet",
-            "of",
-            "Things",
-            "connects",
-            "everyday",
-            "devices",
-            "to",
-            "the",
-            "web."
+            "[[Internet|Internet]]",
+            "[[of|de]]",
+            "[[Things|cosas]]",
+            "[[connects|conecta]]",
+            "[[everyday|cotidianos]]",
+            "[[devices|dispositivos]]",
+            "[[to|a]]",
+            "[[the|la]]",
+            "[[web.|red.]]"
           ],
           "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7, 8],
           "explanation": "El internet de las cosas conecta dispositivos cotidianos a la red.",
@@ -444,16 +444,16 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[By|Para]] [[tomorrow,|mañana,]] [[I'll|habré]] [[have| ]] [[been|estado]] [[working|trabajando]] [[on|en]] [[this|esto]] [[for|durante]] [[days.|días.]]",
           "options": [
-            "By",
-            "tomorrow,",
-            "I'll",
-            "have",
-            "been",
-            "working",
-            "on",
-            "this",
-            "for",
-            "days."
+            "[[By|Para]]",
+            "[[tomorrow,|mañana,]]",
+            "[[I'll|habré]]",
+            "[[have| ]]",
+            "[[been|estado]]",
+            "[[working|trabajando]]",
+            "[[on|en]]",
+            "[[this|esto]]",
+            "[[for|durante]]",
+            "[[days.|días.]]"
           ],
           "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
           "explanation": "Para mañana, habré estado trabajando en esto durante días.",
@@ -478,14 +478,14 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[Automated|Automatizados]] [[systems|sistemas]] [[are|están]] [[replacing|reemplazando]] [[manual|manual]] [[labor|mano de obra]] [[in|en]] [[factories.|fábricas.]]",
           "options": [
-            "Automated",
-            "systems",
-            "are",
-            "replacing",
-            "manual",
-            "labor",
-            "in",
-            "factories."
+            "[[Automated|Automatizados]]",
+            "[[systems|sistemas]]",
+            "[[are|están]]",
+            "[[replacing|reemplazando]]",
+            "[[manual|manual]]",
+            "[[labor|mano de obra]]",
+            "[[in|en]]",
+            "[[factories.|fábricas.]]"
           ],
           "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7],
           "explanation": "Los sistemas automatizados están reemplazando la mano de obra manual en las fábricas.",
@@ -510,15 +510,15 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[Will|¿Habrás]] [[you|tú]] [[have| ]] [[completed|terminado]] [[the|el]] [[report|informe]] [[by|para]] [[Friday|viernes]] [[afternoon?|por la tarde?]]",
           "options": [
-            "Will",
-            "you",
-            "have",
-            "completed",
-            "the",
-            "report",
-            "by",
-            "Friday",
-            "afternoon?"
+            "[[Will|¿Habrás]]",
+            "[[you|tú]]",
+            "[[have| ]]",
+            "[[completed|terminado]]",
+            "[[the|el]]",
+            "[[report|informe]]",
+            "[[by|para]]",
+            "[[Friday|viernes]]",
+            "[[afternoon?|por la tarde?]]"
           ],
           "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7, 8],
           "explanation": "¿Habrás terminado el informe para el viernes por la tarde?",
@@ -543,13 +543,13 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[Streaming|Streaming]] [[services|servicios]] [[have|han]] [[revolutionized|revolucionado]] [[the|la]] [[entertainment|entretenimiento]] [[industry.|industria.]]",
           "options": [
-            "Streaming",
-            "services",
-            "have",
-            "revolutionized",
-            "the",
-            "entertainment",
-            "industry."
+            "[[Streaming|Streaming]]",
+            "[[services|servicios]]",
+            "[[have|han]]",
+            "[[revolutionized|revolucionado]]",
+            "[[the|la]]",
+            "[[entertainment|entretenimiento]]",
+            "[[industry.|industria.]]"
           ],
           "correctAnswer": [0, 1, 2, 3, 4, 5, 6],
           "explanation": "Los servicios de streaming han revolucionado la industria del entretenimiento.",
@@ -574,15 +574,15 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[Next|Próxima]] [[week,|semana,]] [[she|ella]] [[will|estará]] [[be| ]] [[leading|liderando]] [[the|el]] [[development|desarrollo]] [[team.|equipo.]]",
           "options": [
-            "Next",
-            "week,",
-            "she",
-            "will",
-            "be",
-            "leading",
-            "the",
-            "development",
-            "team."
+            "[[Next|Próxima]]",
+            "[[week,|semana,]]",
+            "[[she|ella]]",
+            "[[will|estará]]",
+            "[[be| ]]",
+            "[[leading|liderando]]",
+            "[[the|el]]",
+            "[[development|desarrollo]]",
+            "[[team.|equipo.]]"
           ],
           "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7, 8],
           "explanation": "La semana que viene, ella estará liderando el equipo de desarrollo.",
@@ -607,13 +607,13 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[User-friendly|Fácil de usar]] [[interfaces|interfaces]] [[are|son]] [[essential|esenciales]] [[for|para]] [[mobile|móviles]] [[applications.|aplicaciones.]]",
           "options": [
-            "User-friendly",
-            "interfaces",
-            "are",
-            "essential",
-            "for",
-            "mobile",
-            "applications."
+            "[[User-friendly|Fácil de usar]]",
+            "[[interfaces|interfaces]]",
+            "[[are|son]]",
+            "[[essential|esenciales]]",
+            "[[for|para]]",
+            "[[mobile|móviles]]",
+            "[[applications.|aplicaciones.]]"
           ],
           "correctAnswer": [0, 1, 2, 3, 4, 5, 6],
           "explanation": "Las interfaces fáciles de usar son esenciales para las aplicaciones móviles.",
@@ -638,15 +638,15 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[Will|¿Habrán]] [[they|ellos]] [[have| ]] [[launched|lanzado]] [[the|la]] [[app|aplicación]] [[before|antes de]] [[the|la]] [[conference?|conferencia?]]",
           "options": [
-            "Will",
-            "they",
-            "have",
-            "launched",
-            "the",
-            "app",
-            "before",
-            "the",
-            "conference?"
+            "[[Will|¿Habrán]]",
+            "[[they|ellos]]",
+            "[[have| ]]",
+            "[[launched|lanzado]]",
+            "[[the|la]]",
+            "[[app|aplicación]]",
+            "[[before|antes de]]",
+            "[[the|la]]",
+            "[[conference?|conferencia?]]"
           ],
           "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7, 8],
           "explanation": "¿Habrán lanzado la aplicación antes de la conferencia?",
@@ -671,14 +671,14 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[Technological|Tecnológicos]] [[advancements|avances]] [[have|han]] [[improved|mejorado]] [[our|nuestra]] [[quality|calidad]] [[of|de]] [[life.|vida.]]",
           "options": [
-            "Technological",
-            "advancements",
-            "have",
-            "improved",
-            "our",
-            "quality",
-            "of",
-            "life."
+            "[[Technological|Tecnológicos]]",
+            "[[advancements|avances]]",
+            "[[have|han]]",
+            "[[improved|mejorado]]",
+            "[[our|nuestra]]",
+            "[[quality|calidad]]",
+            "[[of|de]]",
+            "[[life.|vida.]]"
           ],
           "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7],
           "explanation": "Los avances tecnológicos han mejorado nuestra calidad de vida.",
@@ -703,18 +703,18 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[Next|Próximo]] [[year,|año,]] [[he|él]] [[will|estará]] [[be| ]] [[celebrating|celebrando]] [[his|su]] [[tenth|décimo]] [[year|año]] [[at|en]] [[the|la]] [[firm.|empresa.]]",
           "options": [
-            "Next",
-            "year,",
-            "he",
-            "will",
-            "be",
-            "celebrating",
-            "his",
-            "tenth",
-            "year",
-            "at",
-            "the",
-            "firm."
+            "[[Next|Próximo]]",
+            "[[year,|año,]]",
+            "[[he|él]]",
+            "[[will|estará]]",
+            "[[be| ]]",
+            "[[celebrating|celebrando]]",
+            "[[his|su]]",
+            "[[tenth|décimo]]",
+            "[[year|año]]",
+            "[[at|en]]",
+            "[[the|la]]",
+            "[[firm.|empresa.]]"
           ],
           "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
           "explanation": "El año que viene, él estará celebrando su décimo año en la empresa.",
@@ -739,14 +739,14 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[Virtual|Virtual]] [[reality|realidad]] [[provides|proporciona]] [[an|una]] [[immersive|inmersiva]] [[experience|experiencia]] [[for|para]] [[gamers.|jugadores.]]",
           "options": [
-            "Virtual",
-            "reality",
-            "provides",
-            "an",
-            "immersive",
-            "experience",
-            "for",
-            "gamers."
+            "[[Virtual|Virtual]]",
+            "[[reality|realidad]]",
+            "[[provides|proporciona]]",
+            "[[an|una]]",
+            "[[immersive|inmersiva]]",
+            "[[experience|experiencia]]",
+            "[[for|para]]",
+            "[[gamers.|jugadores.]]"
           ],
           "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7],
           "explanation": "La realidad virtual proporciona una experiencia inmersiva para los jugadores.",
@@ -771,17 +771,17 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[By|Para]] [[the|el]] [[end|final]] [[of|de]] [[the|el]] [[day,|día,]] [[we'll|habremos]] [[have| ]] [[solved|resuelto]] [[the|el]] [[problem.|problema.]]",
           "options": [
-            "By",
-            "the",
-            "end",
-            "of",
-            "the",
-            "day,",
-            "we'll",
-            "have",
-            "solved",
-            "the",
-            "problem."
+            "[[By|Para]]",
+            "[[the|el]]",
+            "[[end|final]]",
+            "[[of|de]]",
+            "[[the|el]]",
+            "[[day,|día,]]",
+            "[[we'll|habremos]]",
+            "[[have| ]]",
+            "[[solved|resuelto]]",
+            "[[the|el]]",
+            "[[problem.|problema.]]"
           ],
           "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
           "explanation": "Para el final del día, habremos resuelto el problema.",
@@ -806,16 +806,16 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[Innovation|Innovación]] [[is|es]] [[the|la]] [[key|clave]] [[to|para]] [[remaining|permanecer/seguir siendo]] [[competitive|competitivo]] [[in|en]] [[the|el]] [[market.|mercado.]]",
           "options": [
-            "Innovation",
-            "is",
-            "the",
-            "key",
-            "to",
-            "remaining",
-            "competitive",
-            "in",
-            "the",
-            "market."
+            "[[Innovation|Innovación]]",
+            "[[is|es]]",
+            "[[the|la]]",
+            "[[key|clave]]",
+            "[[to|para]]",
+            "[[remaining|permanecer/seguir siendo]]",
+            "[[competitive|competitivo]]",
+            "[[in|en]]",
+            "[[the|el]]",
+            "[[market.|mercado.]]"
           ],
           "correctAnswer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
           "explanation": "La innovación es la clave para seguir siendo competitivo en el mercado.",
@@ -1000,7 +1000,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra que describe un pequeño problema técnico.",
       "questions": [
         {
-          "question": "[[The|El]] [[system|sistema]] [[crashed|se bloqueó]] [[because|debido]] [[of|a]] [[a|un]] [[technical| ]] [[_______|_______]].",
+          "question": "[[The|El]] [[system|sistema]] [[crashed|se bloqueó]] [[because|debido]] [[of|a]] [[a|un]] [[technical|técnico]] [[_______|_______]].",
           "options": [
             "[[glitch|fallo técnico]]",
             "[[breakthrough|avance]]",
@@ -1027,7 +1027,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para introducir una situación hipotética.",
       "questions": [
         {
-          "question": "[[_______|_______]] [[we|nosotros]] [[lived|viviéramos]] [[on|en]] [[Mars,|Marte,]] [[what|¿cómo]] [[would|serían]] [[the|las]] [[houses|casas?]] [[look| ]] [[like?| ]]",
+          "question": "[[_______|_______]] [[we|nosotros]] [[lived|viviéramos]] [[on|en]] [[Mars,|Marte,]] [[what|¿cómo]] [[would|serían]] [[the|las]] [[houses|casas]] [[look| ]] [[like?| ]]",
           "options": [
             "[[Suppose|Supongamos que]]",
             "[[Providing|Siempre que]]",
@@ -1081,7 +1081,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Elige la estructura de probabilidad correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] [[is| ]] [[_______|_______]] [[win|gane]] [[the|el]] [[innovation|premio]] [[award.|a la innovación.]]",
+          "question": "[[He|Él]] [[is|es]] [[_______|_______]] [[win|gane]] [[the|el]] [[innovation|premio]] [[award.|a la innovación.]]",
           "options": [
             "[[likely to|es probable que]]",
             "[[likely that|es probable que]]",
@@ -1270,7 +1270,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Elige el término que describe un descubrimiento o avance importante.",
       "questions": [
         {
-          "question": "[[We|Estamos]] [[are|haciendo]] [[making|un]] [[a|_______]] [[in|en]] [[artificial|inteligencia]] [[intelligence.|artificial.]]",
+          "question": "[[We|Nosotros]] [[are|estamos]] [[making|haciendo]] [[a|un]] [[_______|_______]] [[in|en]] [[artificial|inteligencia]] [[intelligence.|artificial.]]",
           "options": [
             "[[breakthrough|gran avance]]",
             "[[breakdown|avería]]",
