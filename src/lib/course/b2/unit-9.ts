@@ -741,11 +741,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[He|Él]] [[was|fue]] _______ [[of|de]] [[shoplifting|hurto]] [[at|en]] [[the|el]] [[local|supermercado]] [[supermarket.|local.]]",
-          "options": [
-            "[[accused|acusado]]",
-            "[[arrested|arrestado]]",
-            "[[charged|acusado]]"
-          ],
+          "options": ["[[accused|acusado]]", "[[charged|acusado]]", "[[arrested|arrestado]]"],
           "correctAnswer": 0,
           "explanation": "'Accuse of' es la estructura estándar para culpar a alguien de un delito.",
           "audio": "audio/b2/unit-9/e26.mp3"
@@ -768,11 +764,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|El]] _______ [[was|fue]] [[caught|atrapado]] [[trying|intentando]] [[to|entrar]] [[break|a robar]] [[into|en]] [[the|el]] [[warehouse.|almacén.]]",
-          "options": [
-            "[[burglar|ladrón (de edificios)]]",
-            "[[mugger|atracador]]",
-            "[[pickpocket|carterista]]"
-          ],
+          "options": ["[[burglar|ladrón (de edificios)]]", "[[pickpocket|carterista]]", "[[mugger|atracador]]"],
           "correctAnswer": 0,
           "explanation": "A 'burglar' es alguien que entra ilegalmente en un edificio para robar.",
           "audio": "audio/b2/unit-9/e27.mp3"
@@ -795,12 +787,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[If|Ojalá]] [[only| ]] [[I|no]] _______ [[parked|estacionado]] [[my|mi]] [[car|coche]] [[in|en]] [[such|una]] [[a|zona]] [[dangerous|tan]] [[area.|peligrosa.]]",
-          "options": [
-            "[[hadn't|hubiera]]",
-            "[[haven't|hubiera]]",
-            "[[didn't|hubiera]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[haven't|hubiera]]", "[[didn't|hubiera]]", "[[hadn't|hubiera]]"],
+          "correctAnswer": 2,
           "explanation": "'If only' + pasado perfecto se usa para expresar arrepentimiento por algo que ocurrió en el pasado.",
           "audio": "audio/b2/unit-9/e28.mp3"
         }
@@ -822,12 +810,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|Los]] [[kidnappers|secuestradores]] [[demanded|exigieron]] [[a|un]] [[huge|gran]] _______ [[for|por]] [[the|la]] [[release|liberación]] [[of|del]] [[the| ]] [[CEO.|director ejecutivo.]]",
-          "options": [
-            "[[refund|reembolso]]",
-            "[[revenue|ingresos]]",
-            "[[ransom|rescate]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[refund|reembolso]]", "[[ransom|rescate]]", "[[revenue|ingresos]]"],
+          "correctAnswer": 1,
           "explanation": "A 'ransom' es la suma de dinero que se pide a cambio de liberar a una persona secuestrada.",
           "audio": "audio/b2/unit-9/e29.mp3"
         }
@@ -849,11 +833,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|El]] [[court|caso]] [[case|judicial]] [[was|fue]] _______ [[due|debido]] [[to|a]] [[a|la]] [[lack|falta]] [[of|de]] [[evidence.|pruebas.]]",
-          "options": [
-            "[[disposed|dispuesto]]",
-            "[[distorted|distorsionado]]",
-            "[[dismissed|desestimado]]"
-          ],
+          "options": ["[[disposed|dispuesto]]", "[[distorted|distorsionado]]", "[[dismissed|desestimado]]"],
           "correctAnswer": 2,
           "explanation": "'Dismissed' significa que el juez decide no continuar con el proceso legal.",
           "audio": "audio/b2/unit-9/e30.mp3"
@@ -876,11 +856,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[It|Es]] [[is|esencial]] [[essential|que]] [[that|cada]] [[every|ciudadano]] [[citizen| ]] _______ [[the|la]] [[law.|ley.]]",
-          "options": [
-            "[[obey|obedezca]]",
-            "[[obeying|obedezca]]",
-            "[[obeys|obedezca]]"
-          ],
+          "options": ["[[obey|obedezca]]", "[[obeys|obedezca]]", "[[obeying|obedezca]]"],
           "correctAnswer": 0,
           "explanation": "Tras adjetivos de importancia como 'essential', se usa el infinitivo sin 'to' en inglés formal.",
           "audio": "audio/b2/unit-9/e31.mp3"
@@ -903,12 +879,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|El]] _______ [[threatened|amenazó]] [[the|a la]] [[victim|víctima]] [[with|con]] [[a|un]] [[knife|cuchillo]] [[in|en]] [[the|el]] [[dark|callejón]] [[alley.|oscuro.]]",
-          "options": [
-            "[[forger|falsificador]]",
-            "[[smuggler|contrabandista]]",
-            "[[mugger|atracador]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[mugger|atracador]]", "[[smuggler|contrabandista]]", "[[forger|falsificador]]"],
+          "correctAnswer": 0,
           "explanation": "A 'mugger' es alguien que ataca a una persona en un lugar público para robarle.",
           "audio": "audio/b2/unit-9/e32.mp3"
         }
@@ -930,12 +902,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[He|Él]] [[was|fue]] _______ [[for|por]] [[exceeding|exceder]] [[the|el]] [[speed|límite]] [[limit|de velocidad]] [[on|en]] [[the|la]] [[motorway.|autopista.]]",
-          "options": [
-            "[[found|encontrado]]",
-            "[[fined|multado]]",
-            "[[fired|despedido]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[found|encontrado]]", "[[fired|despedido]]", "[[fined|multado]]"],
+          "correctAnswer": 2,
           "explanation": "'Fine' como verbo significa imponer una sanción económica.",
           "audio": "audio/b2/unit-9/e33.mp3"
         }
@@ -957,12 +925,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[Had|Si]] [[I|hubiera]] _______ [[about|sabido]] [[the|el]] [[risk,|riesgo,]] [[I|no]] [[wouldn't|habría]] [[have|ido]] [[gone|allí]] [[there|solo.]] [[alone.| ]]",
-          "options": [
-            "[[knew|supiera]]",
-            "[[known|sabido]]",
-            "[[know|saber]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[known|sabido]]", "[[knew|supiera]]", "[[know|saber]]"],
+          "correctAnswer": 0,
           "explanation": "Tras 'Had I...' en inversión condicional, se requiere el participio pasado del verbo.",
           "audio": "audio/b2/unit-9/e34.mp3"
         }
@@ -984,11 +948,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "_______ [[documents|documentos]] [[is|es]] [[a|un]] [[serious|delito]] [[offense|grave]] [[that|que]] [[can|puede]] [[lead|llevar]] [[to|a]] [[imprisonment.|prisión.]]",
-          "options": [
-            "[[Forging|Falsificar]]",
-            "[[Filling|Rellenar]]",
-            "[[Folding|Doblar]]"
-          ],
+          "options": ["[[Forging|Falsificar]]", "[[Filling|Rellenar]]", "[[Folding|Doblar]]"],
           "correctAnswer": 0,
           "explanation": "'Forge' significa crear una copia falsa de algo (dinero, firma, documento).",
           "audio": "audio/b2/unit-9/e35.mp3"
@@ -1011,12 +971,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|El]] [[suspect|sospechoso]] _______ [[having|tener]] [[any|alguna]] [[involvement|implicación]] [[in|en]] [[the|la]] [[drug|red de]] [[smuggling|contrabando]] [[ring.|de drogas.]]",
-          "options": [
-            "[[denied|negó]]",
-            "[[refused|negó]]",
-            "[[rejected|negó]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[refused|negó]]", "[[denied|negó]]", "[[rejected|negó]]"],
+          "correctAnswer": 1,
           "explanation": "'Deny' + gerundio (-ing) se usa para negar haber hecho algo.",
           "audio": "audio/b2/unit-9/e36.mp3"
         }
@@ -1038,12 +994,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[He|Fue]] [[was|condenado]] [[sentenced| ]] _______ [[community|servicio]] [[service|comunitario]] [[for|por]] [[his|su]] [[involvement...|implicación...]]",
-          "options": [
-            "[[at|a]]",
-            "[[with|a]]",
-            "[[to|a]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[at|a]]", "[[to|a]]", "[[with|a]]"],
+          "correctAnswer": 1,
           "explanation": "'Sentence someone to' es la estructura para indicar el castigo impuesto.",
           "audio": "audio/b2/unit-9/e37.mp3"
         }
@@ -1065,12 +1017,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|El]] _______ [[managed|logró]] [[to|robar]] [[steal|mi]] [[my|cartera]] [[wallet|sin]] [[without|que]] [[me|yo]] [[noticing.|me diera cuenta.]]",
-          "options": [
-            "[[shoplifter|ladrona de tiendas]]",
-            "[[pickpocket|carterista]]",
-            "[[burglar|ladrón de casas]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[shoplifter|ladrona de tiendas]]", "[[burglar|ladrón de casas]]", "[[pickpocket|carterista]]"],
+          "correctAnswer": 2,
           "explanation": "A 'pickpocket' es alguien que roba cosas de los bolsillos o bolsos de la gente en lugares públicos.",
           "audio": "audio/b2/unit-9/e38.mp3"
         }
@@ -1092,11 +1040,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[It|Es]] [[is|vital]] [[vital|que]] [[that|el]] [[the|sospechoso]] [[suspect| ]] _______ [[informed|informado]] [[of|de]] [[his|sus]] [[legal|derechos]] [[rights.|legales.]]",
-          "options": [
-            "[[be|sea]]",
-            "[[was|sea]]",
-            "[[is|sea]]"
-          ],
+          "options": ["[[be|sea]]", "[[is|sea]]", "[[was|sea]]"],
           "correctAnswer": 0,
           "explanation": "En el subjuntivo formal, se usa 'be' para todas las personas en la voz pasiva.",
           "audio": "audio/b2/unit-9/e39.mp3"
@@ -1119,12 +1063,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "_______ [[is|es]] [[the|el]] [[act|acto]] [[of|de]] [[deliberately|prender]] [[setting|fuego]] [[fire|a una]] [[to|propiedad]] [[property.|deliberadamente.]]",
-          "options": [
-            "[[Assault|La agresión]]",
-            "[[Arson|El incendio provocado]]",
-            "[[Abduction|El secuestro]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[Abduction|El secuestro]]", "[[Assault|La agresión]]", "[[Arson|El incendio provocado]]"],
+          "correctAnswer": 2,
           "explanation": "'Arson' es el delito de quemar intencionadamente un edificio o propiedad.",
           "audio": "audio/b2/unit-9/e40.mp3"
         }
@@ -1146,11 +1086,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|La]] [[police|policía]] [[are|está]] [[looking|buscando]] [[for|a]] [[more|más]] [[witnesses|testigos]] [[to|para]] _______ [[in|en]] [[court.|el tribunal.]]",
-          "options": [
-            "[[testify|testificar]]",
-            "[[treat|tratar]]",
-            "[[trust|confiar]]"
-          ],
+          "options": ["[[testify|testificar]]", "[[trust|confiar]]", "[[treat|tratar]]"],
           "correctAnswer": 0,
           "explanation": "'Testify' significa prestar declaración como testigo en un juicio.",
           "audio": "audio/b2/unit-9/e41.mp3"
@@ -1173,11 +1109,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "_______ [[had|hubo]] [[he|entrado]] [[entered|en]] [[the|el]] [[building|edificio]] [[when|cuando]] [[he|fue]] [[was|interceptado]] [[intercepted|por]] [[by|seguridad.]] [[security.| ]]",
-          "options": [
-            "[[Hard|Duro]]",
-            "[[Hardest|Más duro]]",
-            "[[Hardly|Apenas]]"
-          ],
+          "options": ["[[Hardest|Más duro]]", "[[Hard|Duro]]", "[[Hardly|Apenas]]"],
           "correctAnswer": 2,
           "explanation": "'Hardly... when' se usa para indicar que algo sucedió inmediatamente después de otra cosa.",
           "audio": "audio/b2/unit-9/e42.mp3"
@@ -1200,12 +1132,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "_______ [[illegal|mercancías]] [[goods|ilegales]] [[across|a través]] [[the|de la]] [[border|frontera]] [[is|es]] [[a|un]] [[risky|negocio]] [[business.|arriesgado.]]",
-          "options": [
-            "[[Struggling|La lucha]]",
-            "[[Smuggling|El contrabando]]",
-            "[[Snuggling|El acurrucamiento]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[Smuggling|El contrabando]]", "[[Snuggling|El acurrucamiento]]", "[[Struggling|La lucha]]"],
+          "correctAnswer": 0,
           "explanation": "'Smuggling' es la importación o exportación ilegal de bienes.",
           "audio": "audio/b2/unit-9/e43.mp3"
         }
@@ -1227,11 +1155,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[He|Se]] [[is|cree]] [[thought|que]] [[to|él]] _______ [[been|ha]] [[involved|estado]] [[in|implicado]] [[the|en la]] [[conspiracy.|conspiración.]]",
-          "options": [
-            "[[has|tenido]]",
-            "[[have|tenido]]",
-            "[[had|tenido]]"
-          ],
+          "options": ["[[had|tenido]]", "[[have|tenido]]", "[[has|tenido]]"],
           "correctAnswer": 1,
           "explanation": "La estructura 'is thought to have + past participle' se usa para creencias sobre el pasado.",
           "audio": "audio/b2/unit-9/e44.mp3"
@@ -1254,12 +1178,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[A|Se]] [[lenient|dio]] [[sentence|una]] _______ [[sentence|condena]] [[was| ]] [[given| ]] [[to|al]] [[the|infractor]] [[offender...|debido a su corta edad...]]",
-          "options": [
-            "[[lengthy|larga]]",
-            "[[lenient|leve / poco severa]]",
-            "[[lethal|letal]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[lenient|leve / poco severa]]", "[[lethal|letal]]", "[[lengthy|larga]]"],
+          "correctAnswer": 0,
           "explanation": "'Lenient' describe un castigo que es menos severo de lo esperado.",
           "audio": "audio/b2/unit-9/e45.mp3"
         }
@@ -1281,12 +1201,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[No|Apenas]] [[sooner|había]] [[had|sido]] [[the|puesto]] [[suspect|en]] [[been|libertad]] [[released|el]] [[than|sospechoso]] _______ [[he|cuando]] [[was|fue]] [[arrested|arrestado]] [[again.|de nuevo.]]",
-          "options": [
-            "[[when|cuando]]",
-            "[[than|cuando]]",
-            "[[then|cuando]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[when|cuando]]", "[[then|cuando]]", "[[than|cuando]]"],
+          "correctAnswer": 2,
           "explanation": "'No sooner' siempre va seguido de 'than' para indicar una secuencia inmediata de eventos.",
           "audio": "audio/b2/unit-9/e46.mp3"
         }
@@ -1308,12 +1224,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "_______ [[citizens|Los ciudadanos]] [[contribute|contribuyen]] [[to|a]] [[a|una]] [[safer|comunidad]] [[community.|más segura.]]",
-          "options": [
-            "[[Law-making|Que hacen la ley]]",
-            "[[Law-abiding|Que cumplen la ley]]",
-            "[[Law-breaking|Que rompen la ley]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[Law-making|Que hacen la ley]]", "[[Law-breaking|Que rompen la ley]]", "[[Law-abiding|Que cumplen la ley]]"],
+          "correctAnswer": 2,
           "explanation": "'Law-abiding' describe a alguien que respeta y obedece las leyes.",
           "audio": "audio/b2/unit-9/e47.mp3"
         }
@@ -1335,12 +1247,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[He|Él]] [[was|fue]] _______ [[of|de]] [[all|todos]] [[charges|los]] [[due|debido]] [[to|a la]] [[lack|falta]] [[of|de]] [[evidence.|pruebas.]]",
-          "options": [
-            "[[acquitted|absuelto]]",
-            "[[accused|acusado]]",
-            "[[acquired|adquirido]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[accused|acusado]]", "[[acquitted|absuelto]]", "[[acquired|adquirido]]"],
+          "correctAnswer": 1,
           "explanation": "'Acquit' significa declarar oficialmente que alguien no es culpable de un delito.",
           "audio": "audio/b2/unit-9/e48.mp3"
         }
@@ -1362,11 +1270,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|La]] [[police|policía]] [[are|sigue]] [[still|buscando]] [[hunting|al]] [[for|sospechoso]] [[the|que]] [[suspect|escapó]] [[who|de]] [[escaped|la]] [[from| ]] _______.",
-          "options": [
-            "[[customs|aduana]]",
-            "[[curtain|cortina]]",
-            "[[custody|custodia]]"
-          ],
+          "options": ["[[customs|aduana]]", "[[curtain|cortina]]", "[[custody|custodia]]"],
           "correctAnswer": 2,
           "explanation": "'Custody' es el estado de estar bajo vigilancia o arresto policial.",
           "audio": "audio/b2/unit-9/e49.mp3"
@@ -1389,12 +1293,8 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "_______ [[he|se]] [[behaves|porte]] [[well,|bien,]] [[he|podría]] [[might|ser]] [[be|puesto]] [[released|en]] [[early.|libertad pronto.]]",
-          "options": [
-            "[[But|Pero]]",
-            "[[Unless|A menos que]]",
-            "[[Provided|Siempre que]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[Unless|A menos que]]", "[[Provided|Siempre que]]", "[[But|Pero]]"],
+          "correctAnswer": 1,
           "explanation": "Provided that' introduce una condición que debe cumplirse.",
           "audio": "audio/b2/unit-9/e50.mp3"
         }

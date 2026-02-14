@@ -744,12 +744,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|El]] [[government|gobierno]] [[is|está]] [[trying|intentando]] [[to| ]] _______ [[inflation|la inflación]] [[by| ]] [[raising|subiendo]] [[interest|las tasas]] [[rates.|de interés.]]",
-          "options": [
-            "[[cure|curar]]",
-            "[[curb|frenar]]",
-            "[[curve|curvar]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[curb|frenar]]", "[[cure|curar]]", "[[curve|curvar]]"],
+          "correctAnswer": 0,
           "explanation": "'Curb' significa controlar o limitar algo que es indeseable.",
           "audio": "audio/b2/unit-10/e26.mp3"
         }
@@ -771,12 +767,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[I|Ojalá]] [[wish| ]] [[I|no]] _______ [[wasted|hubiera desperdiciado]] [[so|tanto]] [[much|dinero]] [[money|en]] [[on|esa]] [[that|estafa]] [[crypto|cripto.]] [[scam.| ]]",
-          "options": [
-            "[[hadn't|hubiera]]",
-            "[[wouldn't|habría]]",
-            "[[haven't|había]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[haven't|había]]", "[[hadn't|hubiera]]", "[[wouldn't|habría]]"],
+          "correctAnswer": 1,
           "explanation": "'I wish' + past perfect se usa para lamentar acciones pasadas.",
           "audio": "audio/b2/unit-10/e27.mp3"
         }
@@ -798,12 +790,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[He|Él]] [[is|es]] [[very|muy]] _______; [[he|nunca]] [[never|gasta]] [[spends|dinero]] [[money|en]] [[on|cosas]] [[things|que]] [[he|no]] [[doesn't|necesita.]] [[need.| ]]",
-          "options": [
-            "[[fragile|frágil]]",
-            "[[fruitful|fructífero]]",
-            "[[frugal|frugal/ahorrador]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[fragile|frágil]]", "[[frugal|frugal/ahorrador]]", "[[fruitful|fructífero]]"],
+          "correctAnswer": 1,
           "explanation": "'Frugal' significa ser cuidadoso con el dinero y evitar el gasto innecesario.",
           "audio": "audio/b2/unit-10/e28.mp3"
         }
@@ -825,12 +813,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[If|Ojalá]] [[only| ]] [[I|hubiera]] _______ [[started|empezado]] [[investing|a invertir]] [[earlier,|antes,]] [[I|sería]] [[would|rico]] [[be|ahora.]] [[wealthy| ]] [[now.| ]]",
-          "options": [
-            "[[had|hubiera]]",
-            "[[have|había]]",
-            "[[did|hice]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[have|había]]", "[[had|hubiera]]", "[[did|hice]]"],
+          "correctAnswer": 1,
           "explanation": "'If only' + past perfect indica un deseo sobre algo que no ocurrió en el pasado.",
           "audio": "audio/b2/unit-10/e29.mp3"
         }
@@ -852,11 +836,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|El]] [[business|negocio]] [[went|quedó]] _______ [[after|después de]] [[the|la]] [[global|recesión]] [[recession.|global.]]",
-          "options": [
-            "[[penniless|sin un penique]]",
-            "[[broken|roto]]",
-            "[[bankrupt|en bancarrota]]"
-          ],
+          "options": ["[[penniless|sin un penique]]", "[[broken|roto]]", "[[bankrupt|en bancarrota]]"],
           "correctAnswer": 2,
           "explanation": "'Go bankrupt' es la colocación estándar para decir que una empresa quiebra.",
           "audio": "audio/b2/unit-10/e30.mp3"
@@ -879,12 +859,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[Little|Poco]] _______ [[did| ]] [[they|sabían]] [[know|ellos]] [[that|que]] [[the|la]] [[company|empresa]] [[was|estaba]] [[about|a punto]] [[to|de]] [[collapse.|colapsar.]]",
-          "options": [
-            "[[do|saben]]",
-            "[[did|sabían]]",
-            "[[had|habían]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[did|sabían]]", "[[had|habían]]", "[[do|saben]]"],
+          "correctAnswer": 0,
           "explanation": "La inversión con 'Little' enfatiza que alguien no sabía algo en absoluto.",
           "audio": "audio/b2/unit-10/e31.mp3"
         }
@@ -906,11 +882,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[She|Ella]] [[earned|ganó]] [[a|una]] _______ [[commission|comisión]] [[on|en]] [[the|la]] [[real|operación]] [[estate|inmobiliaria.]] [[deal.| ]]",
-          "options": [
-            "[[substantial|sustancial]]",
-            "[[substitute|sustituto]]",
-            "[[substantive|sustantivo]]"
-          ],
+          "options": ["[[substantial|sustancial]]", "[[substantive|sustantivo]]", "[[substitute|sustituto]]"],
           "correctAnswer": 0,
           "explanation": "'Substantial' se usa para describir cantidades grandes o importantes.",
           "audio": "audio/b2/unit-10/e32.mp3"
@@ -933,11 +905,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[It|Es]] [[is|esencial]] [[essential|que]] [[that|cada]] [[every|empleado]] [[employee|presente]] _______ [[their|su]] [[expense|informe]] [[report.|de gastos.]]",
-          "options": [
-            "[[submit|presente]]",
-            "[[submits|presenta]]",
-            "[[submitting|presentando]]"
-          ],
+          "options": ["[[submit|presente]]", "[[submits|presenta]]", "[[submitting|presentando]]"],
           "correctAnswer": 0,
           "explanation": "El subjuntivo usa la forma base del verbo (submit), incluso con tercera persona.",
           "audio": "audio/b2/unit-10/e33.mp3"
@@ -960,12 +928,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[They|Ellos]] [[have|tienen]] [[a|muchos]] [[lot| ]] [[of| ]] _______, [[which|lo que]] [[reduces|reduce]] [[their|su]] [[profit|margen]] [[margin.|de beneficio.]]",
-          "options": [
-            "[[overheads|gastos fijos]]",
-            "[[underheads|gastos bajos]]",
-            "[[headsets|auriculares]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[headsets|auriculares]]", "[[overheads|gastos fijos]]", "[[underheads|gastos bajos]]"],
+          "correctAnswer": 1,
           "explanation": "'Overheads' son los gastos generales (alquiler, luz, seguros) de una empresa.",
           "audio": "audio/b2/unit-10/e34.mp3"
         }
@@ -987,12 +951,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[If|Si]] [[he|él]] _______ [[more|más]] [[careful|cuidadoso]] [[with|con]] [[money,|el dinero,]] [[he|no]] [[wouldn't|estaría]] [[be|en]] [[in|deuda.]] [[debt.| ]]",
-          "options": [
-            "[[were|fuera]]",
-            "[[is|es]]",
-            "[[was|fuera]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[is|es]]", "[[were|fuera]]", "[[was|fuera]]"],
+          "correctAnswer": 1,
           "explanation": "En el segundo condicional, se prefiere 'were' para todas las personas en contextos formales.",
           "audio": "audio/b2/unit-10/e35.mp3"
         }
@@ -1014,12 +974,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|La]] [[audit|auditoría]] [[revealed|reveló]] [[several|varias]] _______ [[in|en]] [[the|las]] [[accounts.|cuentas.]]",
-          "options": [
-            "[[discrepancies|discrepancias]]",
-            "[[discharges|descargas]]",
-            "[[discounts|descuentos]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[discounts|descuentos]]", "[[discharges|descargas]]", "[[discrepancies|discrepancias]]"],
+          "correctAnswer": 2,
           "explanation": "'Discrepancies' son inconsistencias o desacuerdos entre dos conjuntos de datos.",
           "audio": "audio/b2/unit-10/e36.mp3"
         }
@@ -1041,11 +997,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[Never|Nunca]] _______ [[I|he]] [[have|visto]] [[seen|un]] [[such|aumento]] [[a|tan]] [[rapid|rápido]] [[increase|en]] [[in|los]] [[property|precios]] [[prices.|inmobiliarios.]]",
-          "options": [
-            "[[have|he]]",
-            "[[did|hice]]",
-            "[[had|había]]"
-          ],
+          "options": ["[[have|he]]", "[[did|hice]]", "[[had|había]]"],
           "correctAnswer": 0,
           "explanation": "Inversión con 'Never' + present perfect para experiencias de vida.",
           "audio": "audio/b2/unit-10/e37.mp3"
@@ -1068,12 +1020,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[She|Ella]] [[decided|decidió]] [[to| ]] _______ [[all|todo]] [[her|su]] [[money|dinero]] [[from|del]] [[the|banco.]] [[bank.| ]]",
-          "options": [
-            "[[withhold|retener]]",
-            "[[within|dentro]]",
-            "[[withdraw|retirar]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[withdraw|retirar]]", "[[within|dentro]]", "[[withhold|retener]]"],
+          "correctAnswer": 0,
           "explanation": "'Withdraw' es el término técnico para retirar fondos de una cuenta.",
           "audio": "audio/b2/unit-10/e38.mp3"
         }
@@ -1095,12 +1043,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[Supposing|Suponiendo]] [[you|que]] _______ [[lost|perdieras]] [[your|tu]] [[job,|trabajo,]] [[how|¿cómo]] [[would|pagarías]] [[you|la]] [[pay|hipoteca?]] [[the| ]] [[mortgage?| ]]",
-          "options": [
-            "[[lost|perdieras]]",
-            "[[had lost|hubieras perdido]]",
-            "[[lose|pierdes]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[had lost|hubieras perdido]]", "[[lost|perdieras]]", "[[lose|pierdes]]"],
+          "correctAnswer": 1,
           "explanation": "'Supposing' + past simple se usa para preguntar sobre consecuencias hipotéticas en el presente/futuro.",
           "audio": "audio/b2/unit-10/e39.mp3"
         }
@@ -1122,12 +1066,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|El]] [[country's|PIB]] _______ [[GDP|del]] [[has|país]] [[grown|ha]] [[by|crecido]] [[3%|un]] [[this|3%]] [[year.|este año.]]",
-          "options": [
-            "[[GNP|PNB]]",
-            "[[VAT|IVA]]",
-            "[[GDP|PIB]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[GNP|PNB]]", "[[GDP|PIB]]", "[[VAT|IVA]]"],
+          "correctAnswer": 1,
           "explanation": "GDP (Gross Domestic Product) es el PIB en inglés.",
           "audio": "audio/b2/unit-10/e40.mp3"
         }
@@ -1149,12 +1089,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "_______ [[the|Si]] [[investor|el inversor]] [[been|hubiera]] [[more|sido]] [[patient,|más paciente,]] [[he|habría]] [[would|tenido]] [[have|beneficios.]] [[made| ]] [[a| ]] [[profit.| ]]",
-          "options": [
-            "[[If|Si]]",
-            "[[Had|hubiera]]",
-            "[[Has|ha]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[Had|hubiera]]", "[[If|Si]]", "[[Has|ha]]"],
+          "correctAnswer": 0,
           "explanation": "La inversión 'Had' al inicio sustituye a 'If the investor had been'.",
           "audio": "audio/b2/unit-10/e41.mp3"
         }
@@ -1176,11 +1112,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[I|Necesito]] [[need|consultar]] [[to|mi]] [[check|saldo]] [[my|antes]] _______ [[balance|de]] [[before|comprar]] [[I|estos]] [[buy|billetes.]] [[these| ]] [[tickets.| ]]",
-          "options": [
-            "[[ballot|voto]]",
-            "[[balloon|globo]]",
-            "[[balance|saldo]]"
-          ],
+          "options": ["[[balloon|globo]]", "[[ballot|voto]]", "[[balance|saldo]]"],
           "correctAnswer": 2,
           "explanation": "'Balance' es el saldo disponible en una cuenta bancaria.",
           "audio": "audio/b2/unit-10/e42.mp3"
@@ -1203,12 +1135,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[By|Para]] [[next|el]] [[month,|mes que viene,]] [[I|habré]] [[will|estado]] [[have|trabajando]] _______ [[been|aquí]] [[working|por]] [[here|diez]] [[for|años.]] [[ten| ]] [[years.| ]]",
-          "options": [
-            "[[being|siendo]]",
-            "[[be|ser]]",
-            "[[been|estado]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[be|ser]]", "[[been|estado]]", "[[being|siendo]]"],
+          "correctAnswer": 1,
           "explanation": "Future perfect continuous (will have been + -ing) para duraciones hasta un punto en el futuro.",
           "audio": "audio/b2/unit-10/e43.mp3"
         }
@@ -1230,11 +1158,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[He|Él]] _______ [[on|en]] [[his|su]] [[loan|préstamo]] [[and|y]] [[lost|perdió]] [[his|su]] [[house.|casa.]]",
-          "options": [
-            "[[defeated|derrotó]]",
-            "[[deferred|aplazó]]",
-            "[[defaulted|incumplió el pago]]"
-          ],
+          "options": ["[[defeated|derrotó]]", "[[deferred|aplazó]]", "[[defaulted|incumplió el pago]]"],
           "correctAnswer": 2,
           "explanation": "'Default on' significa no cumplir con la obligación de pagar una deuda.",
           "audio": "audio/b2/unit-10/e44.mp3"
@@ -1257,11 +1181,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[I'd|Preferiría]] [[rather|que]] [[you|me]] _______ [[paid|pagaras]] [[me|en]] [[in|efectivo,]] [[cash,|si]] [[if|es]] [[possible.|posible.]]",
-          "options": [
-            "[[paying|pagando]]",
-            "[[paid|pagaras]]",
-            "[[pay|pagas]]"
-          ],
+          "options": ["[[paying|pagando]]", "[[paid|pagaras]]", "[[pay|pagas]]"],
           "correctAnswer": 1,
           "explanation": "'I'd rather' + person + past simple para preferencias sobre el presente.",
           "audio": "audio/b2/unit-10/e45.mp3"
@@ -1284,12 +1204,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|La]] [[transaction|transacción]] [[was|fue]] [[cancelled|cancelada]] [[due|debido]] [[to|a]] _______ [[funds.|fondos insuficientes.]]",
-          "options": [
-            "[[insignificant|insignificantes]]",
-            "[[inefficient|ineficientes]]",
-            "[[insufficient|insuficientes]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[insufficient|insuficientes]]", "[[insignificant|insignificantes]]", "[[inefficient|ineficientes]]"],
+          "correctAnswer": 0,
           "explanation": "'Insufficient funds' es el mensaje típico cuando no hay dinero suficiente en la cuenta.",
           "audio": "audio/b2/unit-10/e46.mp3"
         }
@@ -1311,12 +1227,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "_______ [[the|si]] [[interest|las tasas]] [[rates|de interés]] [[don't|no]] [[rise,|suben,]] [[we|compraremos]] [[will|la]] [[buy|casa.]] [[the| ]] [[house.| ]]",
-          "options": [
-            "[[Unless|A menos que]]",
-            "[[Providing|Siempre que]]",
-            "[[Despite|A pesar de]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[Unless|A menos que]]", "[[Despite|A pesar de]]", "[[Providing|Siempre que]]"],
+          "correctAnswer": 2,
           "explanation": "'Providing' se usa para establecer una condición necesaria.",
           "audio": "audio/b2/unit-10/e47.mp3"
         }
@@ -1338,12 +1250,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[You|Se]] [[will|le]] [[be|cobrará]] [[charged|un]] [[a| ]] _______ [[for|por]] [[late|pagos]] [[payments.|atrasados.]]",
-          "options": [
-            "[[survey|encuesta]]",
-            "[[surcharge|recargo]]",
-            "[[surplus|superávit]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[surcharge|recargo]]", "[[surplus|superávit]]", "[[survey|encuesta]]"],
+          "correctAnswer": 0,
           "explanation": "'Surcharge' es un cargo adicional sobre el precio base.",
           "audio": "audio/b2/unit-10/e48.mp3"
         }
@@ -1365,12 +1273,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|El]] [[value|valor]] [[of|de]] [[the|la]] [[currency|moneda]] [[has|se ha]] _______ [[significantly.|significativamente.]]",
-          "options": [
-            "[[decreased|disminuido]]",
-            "[[depreciated|depreciado]]",
-            "[[declined|bajado]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[depreciated|depreciado]]", "[[declined|bajado]]", "[[decreased|disminuido]]"],
+          "correctAnswer": 0,
           "explanation": "'Depreciate' es el término económico para la pérdida de valor de un activo o moneda.",
           "audio": "audio/b2/unit-10/e49.mp3"
         }
@@ -1392,12 +1296,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[I|Sugiero]] [[suggest|que]] [[that|él]] [[he|consulte]] _______ [[a|a un]] [[financial|asesor]] [[advisor.|financiero.]]",
-          "options": [
-            "[[consults|consulta]]",
-            "[[consult|consulte]]",
-            "[[consulting|consultando]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[consult|consulte]]", "[[consults|consulta]]", "[[consulting|consultando]]"],
+          "correctAnswer": 0,
           "explanation": "Tras 'suggest that', se usa la forma base del verbo (subjuntivo).",
           "audio": "audio/b2/unit-10/e50.mp3"
         }

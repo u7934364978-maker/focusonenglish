@@ -734,12 +734,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|El]] [[author|autor]] [[used|usó]] [[a|un]] _______ [[to|para]] [[remain|permanecer]] [[anonymous.|anónimo.]]",
-          "options": [
-            "[[nickname|apodo]]",
-            "[[surname|apellido]]",
-            "[[pen name|seudónimo]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[pen name|seudónimo]]", "[[nickname|apodo]]", "[[surname|apellido]]"],
+          "correctAnswer": 0,
           "explanation": "Un 'pen name' (o pseudonym) es el nombre que un autor usa en lugar de su nombre real.",
           "audio": "audio/b2/unit-11/e26.mp3"
         }
@@ -761,12 +757,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[Little|Poco]] _______ [[the|el]] [[public|público]] [[know|sabía]] [[that|que]] [[the|la]] [[painting|pintura]] [[was|era]] [[a|una]] [[forgery.|falsificación.]]",
-          "options": [
-            "[[do|sabe]]",
-            "[[did|sabía]]",
-            "[[had|había]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[did|sabía]]", "[[had|había]]", "[[do|sabe]]"],
+          "correctAnswer": 0,
           "explanation": "Uso de 'Little did + sujeto + infinitivo' para expresar falta de conocimiento total.",
           "audio": "audio/b2/unit-11/e27.mp3"
         }
@@ -788,12 +780,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|La]] [[novel|novela]] [[was|era]] [[so|tan]] _______ [[that|que]] [[I|no]] [[couldn't|pude]] [[put|soltarla.]] [[it| ]] [[down.| ]]",
-          "options": [
-            "[[boring|aburrida]]",
-            "[[heavy|pesada]]",
-            "[[gripping|apasionante]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[boring|aburrida]]", "[[gripping|apasionante]]", "[[heavy|pesada]]"],
+          "correctAnswer": 1,
           "explanation": "'Gripping' describe algo que mantiene tu interés de forma intensa.",
           "audio": "audio/b2/unit-11/e28.mp3"
         }
@@ -815,11 +803,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[If|Ojalá]] [[only| ]] [[I|hubiera]] _______ [[seen|visto]] [[that|esa]] [[theater|obra]] [[performance|de teatro]] [[last|anoche.]] [[night.| ]]",
-          "options": [
-            "[[did|hice]]",
-            "[[had|hubiera]]",
-            "[[have|había]]"
-          ],
+          "options": ["[[did|hice]]", "[[had|hubiera]]", "[[have|había]]"],
           "correctAnswer": 1,
           "explanation": "'If only' + past perfect expresa un fuerte deseo sobre algo que no ocurrió en el pasado.",
           "audio": "audio/b2/unit-11/e29.mp3"
@@ -842,11 +826,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|La]] [[museum's|colección]] [[collection|del]] [[includes|museo]] [[several|incluye]] _______ [[artifacts.|artefactos invaluables.]]",
-          "options": [
-            "[[priceless|invaluables]]",
-            "[[cheap|baratos]]",
-            "[[worthless|sin valor]]"
-          ],
+          "options": ["[[priceless|invaluables]]", "[[worthless|sin valor]]", "[[cheap|baratos]]"],
           "correctAnswer": 0,
           "explanation": "'Priceless' significa que algo tiene tanto valor que no se le puede poner precio.",
           "audio": "audio/b2/unit-11/e30.mp3"
@@ -869,12 +849,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[I|Ojalá]] [[wish| ]] [[I|fuera]] _______ [[more|más]] [[creative|creativo]] [[with|con]] [[watercolors.|las acuarelas.]]",
-          "options": [
-            "[[were|fuera]]",
-            "[[am|soy]]",
-            "[[was|era]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[am|soy]]", "[[were|fuera]]", "[[was|era]]"],
+          "correctAnswer": 1,
           "explanation": "Tras 'I wish', se usa 'were' para todas las personas en situaciones hipotéticas presentes.",
           "audio": "audio/b2/unit-11/e31.mp3"
         }
@@ -896,11 +872,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|La]] [[film|película]] [[received|recibió]] _______ [[reviews|críticas]] [[from|de]] [[critics|críticos]] [[worldwide.|de todo el mundo.]]",
-          "options": [
-            "[[rare|raras]]",
-            "[[rave|entusiastas]]",
-            "[[rough|ásperas]]"
-          ],
+          "options": ["[[rare|raras]]", "[[rave|entusiastas]]", "[[rough|ásperas]]"],
           "correctAnswer": 1,
           "explanation": "'Rave reviews' son críticas que elogian mucho una obra.",
           "audio": "audio/b2/unit-11/e32.mp3"
@@ -923,12 +895,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[I'd|Preferiría]] [[rather|que]] [[you|no]] _______ [[the|revelaras]] [[ending|el]] [[of|final]] [[the|del]] [[book.|libro.]]",
-          "options": [
-            "[[not|no]]",
-            "[[didn't|revelaras]]",
-            "[[don't|revelas]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[didn't|revelaras]]", "[[not|no]]", "[[don't|revelas]]"],
+          "correctAnswer": 0,
           "explanation": "Con un sujeto distinto, usamos past simple negativo (didn't) para una preferencia actual.",
           "audio": "audio/b2/unit-11/e33.mp3"
         }
@@ -950,11 +918,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|El]] _______ [[created|creó]] [[a|una]] [[fusion|fusión]] [[of|de]] [[classical|danza]] [[and|clásica]] [[modern|y]] [[dance.|moderna.]]",
-          "options": [
-            "[[choreographer|coreógrafo]]",
-            "[[conductor|director]]",
-            "[[composer|compositor]]"
-          ],
+          "options": ["[[choreographer|coreógrafo]]", "[[composer|compositor]]", "[[conductor|director]]"],
           "correctAnswer": 0,
           "explanation": "Un 'choreographer' diseña las secuencias de movimientos para bailarines.",
           "audio": "audio/b2/unit-11/e34.mp3"
@@ -977,12 +941,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[Hardly|Apenas]] _______ [[the|había]] [[performance|comenzado]] [[begun|la]] [[when|actuación]] [[a|cuando]] [[phone|sonó]] [[rang.|un teléfono.]]",
-          "options": [
-            "[[had|había]]",
-            "[[did|hizo]]",
-            "[[has|ha]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[did|hizo]]", "[[has|ha]]", "[[had|había]]"],
+          "correctAnswer": 2,
           "explanation": "'Hardly' al inicio de frase requiere inversión del auxiliar (had) y el sujeto.",
           "audio": "audio/b2/unit-11/e35.mp3"
         }
@@ -1004,12 +964,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|La]] [[building's|fachada]] [[facade|del]] [[is|edificio]] [[decorated|está]] [[with|decorada]] _______ [[carvings.|con tallas ornamentadas.]]",
-          "options": [
-            "[[obvious|obvias]]",
-            "[[ordinary|ordinarias]]",
-            "[[ornate|ornamentadas]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[ornate|ornamentadas]]", "[[ordinary|ordinarias]]", "[[obvious|obvias]]"],
+          "correctAnswer": 0,
           "explanation": "'Ornate' describe algo con muchos detalles decorativos complejos.",
           "audio": "audio/b2/unit-11/e36.mp3"
         }
@@ -1031,12 +987,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[It|Es]] [[is|vital]] [[vital|que]] [[that|el]] [[the|artista]] _______ [[the|preserve]] [[original|la]] [[color|paleta]] [[palette.|original de colores.]]",
-          "options": [
-            "[[preserves|preserva]]",
-            "[[preserving|preservando]]",
-            "[[preserve|preserve]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[preserve|preserve]]", "[[preserving|preservando]]", "[[preserves|preserva]]"],
+          "correctAnswer": 0,
           "explanation": "Tras 'vital that', el verbo se usa en su forma base (preserve).",
           "audio": "audio/b2/unit-11/e37.mp3"
         }
@@ -1058,12 +1010,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|La]] [[soprano|soprano]] [[sang|cantó]] [[a|una]] [[high|nota]] [[note|alta]] [[with|con]] _______ [[ease.|una facilidad notable.]]",
-          "options": [
-            "[[removable|extraíble]]",
-            "[[remarkable|notable]]",
-            "[[respectable|respetable]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[remarkable|notable]]", "[[respectable|respetable]]", "[[removable|extraíble]]"],
+          "correctAnswer": 0,
           "explanation": "'Remarkable' se usa para algo digno de atención por ser inusual o excelente.",
           "audio": "audio/b2/unit-11/e38.mp3"
         }
@@ -1085,12 +1033,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "_______ [[they|Si]] [[to|ellos]] [[discover|descubrieran]] [[the|la]] [[lost|ciudad]] [[city,|perdida,]] [[it|cambiaría]] [[would|la]] [[change|historia.]] [[history.| ]]",
-          "options": [
-            "[[Were|Si]]",
-            "[[Did|Hizo]]",
-            "[[Was|Era]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[Did|Hizo]]", "[[Was|Era]]", "[[Were|Si]]"],
+          "correctAnswer": 2,
           "explanation": "Inversión con 'Were + sujeto + to + infinitivo' para hipótesis improbables.",
           "audio": "audio/b2/unit-11/e39.mp3"
         }
@@ -1112,12 +1056,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[Traditional|La artesanía]] [[crafts|tradicional]] [[are|se]] _______ [[down|transmite]] [[through|de]] [[the|generación]] [[generations.|en generación.]]",
-          "options": [
-            "[[played|juega]]",
-            "[[passed|transmite]]",
-            "[[picked|recogida]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[played|juega]]", "[[picked|recogida]]", "[[passed|transmite]]"],
+          "correctAnswer": 2,
           "explanation": "'Pass down' se usa para conocimientos o tradiciones que se heredan.",
           "audio": "audio/b2/unit-11/e40.mp3"
         }
@@ -1139,11 +1079,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[I|Sugiero]] [[suggest|que]] [[that|el]] [[the|curador]] _______ [[more|seleccione]] [[diverse|piezas]] [[pieces.|más diversas.]]",
-          "options": [
-            "[[select|seleccione]]",
-            "[[selects|selecciona]]",
-            "[[selecting|seleccionando]]"
-          ],
+          "options": ["[[select|seleccione]]", "[[selecting|seleccionando]]", "[[selects|selecciona]]"],
           "correctAnswer": 0,
           "explanation": "Tras 'suggest that', el verbo va en forma base (select) en inglés formal.",
           "audio": "audio/b2/unit-11/e41.mp3"
@@ -1166,12 +1102,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|El]] [[audience|público]] [[gave|dio]] [[a|una]] _______ [[after|tras]] [[the|el]] [[final|acto]] [[act.|final.]]",
-          "options": [
-            "[[loud laugh|carcajada]]",
-            "[[quick exit|salida rápida]]",
-            "[[standing ovation|ovación de pie]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[standing ovation|ovación de pie]]", "[[loud laugh|carcajada]]", "[[quick exit|salida rápida]]"],
+          "correctAnswer": 0,
           "explanation": "Una 'standing ovation' es el mayor honor que el público da a un artista.",
           "audio": "audio/b2/unit-11/e42.mp3"
         }
@@ -1193,12 +1125,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "_______ [[you|si]] [[have|tienes]] [[the|la]] [[ticket,|entrada,]] [[you|puedes]] [[can|entrar]] [[enter|a]] [[the|la]] [[gallery.|galería.]]",
-          "options": [
-            "[[Whether|Si (elección)]]",
-            "[[Providing|Siempre que]]",
-            "[[Unless|A menos que]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[Providing|Siempre que]]", "[[Unless|A menos que]]", "[[Whether|Si (elección)]]"],
+          "correctAnswer": 0,
           "explanation": "'Providing' se usa para indicar una condición necesaria para que algo ocurra.",
           "audio": "audio/b2/unit-11/e43.mp3"
         }
@@ -1220,12 +1148,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|El]] _______ [[shaped|dio forma]] [[the|al]] [[clay|barro]] [[on|en]] [[a|un]] [[rotating|torno]] [[wheel.|giratorio.]]",
-          "options": [
-            "[[painter|pintor]]",
-            "[[poet|poeta]]",
-            "[[potter|alfarero]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[poet|poeta]]", "[[potter|alfarero]]", "[[painter|pintor]]"],
+          "correctAnswer": 1,
           "explanation": "Un 'potter' hace cuencos, platos y otros objetos de cerámica o barro.",
           "audio": "audio/b2/unit-11/e44.mp3"
         }
@@ -1247,11 +1171,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[Not|No]] [[until|fue]] [[the|hasta]] [[end|el]] [[of|final]] [[the|de]] [[film|la película]] _______ [[the|que]] [[true|el verdadero]] [[culprit|culpable]] [[appear.|apareció.]]",
-          "options": [
-            "[[did|hizo]]",
-            "[[had|había]]",
-            "[[does|hace]]"
-          ],
+          "options": ["[[did|hizo]]", "[[does|hace]]", "[[had|había]]"],
           "correctAnswer": 0,
           "explanation": "Tras 'Not until + tiempo/acción', se invierte el sujeto y el auxiliar (did).",
           "audio": "audio/b2/unit-11/e45.mp3"
@@ -1274,12 +1194,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|El]] [[festival|festival]] [[features|presenta]] [[an|una]] _______ [[mix|mezcla]] [[of|de]] [[music|géneros]] [[genres.|musicales.]]",
-          "options": [
-            "[[elastic|elástica]]",
-            "[[electric|eléctrica]]",
-            "[[eclectic|ecléctica]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[eclectic|ecléctica]]", "[[elastic|elástica]]", "[[electric|eléctrica]]"],
+          "correctAnswer": 0,
           "explanation": "'Eclectic' describe un gusto o estilo compuesto por elementos muy diversos.",
           "audio": "audio/b2/unit-11/e46.mp3"
         }
@@ -1301,12 +1217,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[By|Para]] [[the|el]] [[end|final]] [[of|del]] [[the|viaje,]] [[tour,|habrán]] [[they|visitado]] _______ [[visited|diez]] [[ten|museos.]] [[museums.| ]]",
-          "options": [
-            "[[will do|harán]]",
-            "[[will have|habrán]]",
-            "[[will be|estarán]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[will do|harán]]", "[[will be|estarán]]", "[[will have|habrán]]"],
+          "correctAnswer": 2,
           "explanation": "Future perfect (will have + participio) para acciones terminadas en el futuro.",
           "audio": "audio/b2/unit-11/e47.mp3"
         }
@@ -1328,12 +1240,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|Los]] [[statue's|detalles]] _______ [[details|intrincados]] [[show|de la estatua]] [[the|muestran]] [[artist's|la habilidad]] [[skill.|del artista.]]",
-          "options": [
-            "[[interior|interiores]]",
-            "[[invisible|invisibles]]",
-            "[[intricate|intrincados]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[invisible|invisibles]]", "[[intricate|intrincados]]", "[[interior|interiores]]"],
+          "correctAnswer": 1,
           "explanation": "'Intricate' se refiere a algo con muchas partes pequeñas y complejas.",
           "audio": "audio/b2/unit-11/e48.mp3"
         }
@@ -1355,12 +1263,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[Suppose|Imagina]] [[you|que]] _______ [[could|pudieras]] [[travel|viajar]] [[back|atrás]] [[in|en]] [[time|el tiempo]] [[to|al]] [[the|Renacimiento.]] [[Renaissance.| ]]",
-          "options": [
-            "[[will|podrás]]",
-            "[[could|pudieras]]",
-            "[[can|puedes]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[will|podrás]]", "[[can|puedes]]", "[[could|pudieras]]"],
+          "correctAnswer": 2,
           "explanation": "'Suppose' se sigue de past simple (o could) para situaciones imaginarias en el presente.",
           "audio": "audio/b2/unit-11/e49.mp3"
         }
@@ -1382,12 +1286,8 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|La]] [[gallery|galería]] [[specializes|se especializa]] [[in|en]] _______ [[paintings|pinturas al óleo]] [[from|del]] [[the|siglo]] [[19th|XIX.]] [[century.| ]]",
-          "options": [
-            "[[ink|tinta]]",
-            "[[water|agua]]",
-            "[[oil|óleo]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[water|agua]]", "[[oil|óleo]]", "[[ink|tinta]]"],
+          "correctAnswer": 1,
           "explanation": "'Oil paintings' son óleos, una técnica clásica muy común en el siglo XIX.",
           "audio": "audio/b2/unit-11/e50.mp3"
         }

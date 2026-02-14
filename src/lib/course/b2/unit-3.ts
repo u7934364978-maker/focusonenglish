@@ -713,11 +713,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[If|Si]] [[we|nosotros]] [[had|hubiéramos]] [[protected|protegido]] [[the|el]] [[forest,|bosque,]] [[the|el]] [[landslide|desprendimiento]] [[_______|no habría]] [[happened.|ocurrido.]]",
-          "options": [
-            "[[won't|no]]",
-            "[[didn't|no]]",
-            "[[wouldn't have|no habría]]"
-          ],
+          "options": ["[[won't|no]]", "[[didn't|no]]", "[[wouldn't have|no habría]]"],
           "correctAnswer": 2,
           "explanation": "Third conditional 'wouldn't have' + past participle is used for impossible past situations.",
           "audio": "audio/b2/unit-3/e26.mp3"
@@ -740,12 +736,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[Many|Muchas]] [[animal|especies]] [[species|animales]] [[are|están]] [[facing|enfrentando]] [[_______|la extinción]] [[due|debido]] [[to|al]] [[climate|cambio]] [[change.|climático.]]",
-          "options": [
-            "[[existence|la existencia]]",
-            "[[extinction|la extinción]]",
-            "[[extension|la extensión]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[existence|la existencia]]", "[[extension|la extensión]]", "[[extinction|la extinción]]"],
+          "correctAnswer": 2,
           "explanation": "'Extinction' is the state or process of a species, family, or larger group being or becoming extinct.",
           "audio": "audio/b2/unit-3/e27.mp3"
         }
@@ -767,12 +759,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[_______|Supongamos]] [[we|que]] [[were|fuéramos]] [[to|a]] [[ban|prohibir]] [[all|todos]] [[single-use|los plásticos]] [[plastics,|de un solo uso...]]",
-          "options": [
-            "[[Whether|Si]]",
-            "[[Suppose|Supongamos]]",
-            "[[Unless|A menos que]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[Suppose|Supongamos]]", "[[Whether|Si]]", "[[Unless|A menos que]]"],
+          "correctAnswer": 0,
           "explanation": "'Suppose' is used at the beginning of a sentence to imagine a situation.",
           "audio": "audio/b2/unit-3/e28.mp3"
         }
@@ -794,12 +782,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[We|Deberíamos]] [[should|usar]] [[use|materiales]] [[_______|biodegradables]] [[to|para]] [[reduce|reducir]] [[landfill|la basura]] [[waste.|en vertederos.]]",
-          "options": [
-            "[[biographical|biográficos]]",
-            "[[biological|biológicos]]",
-            "[[biodegradable|biodegradables]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[biodegradable|biodegradables]]", "[[biological|biológicos]]", "[[biographical|biográficos]]"],
+          "correctAnswer": 0,
           "explanation": "'Biodegradable' substances are capable of being decomposed by bacteria or other living organisms.",
           "audio": "audio/b2/unit-3/e29.mp3"
         }
@@ -821,12 +805,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[If|Si]] [[I|yo]] [[_______|hubiera]] [[known|sabido]] [[the|que el]] [[product|producto]] [[wasn't|no era]] [[eco-friendly...|ecológico...]]",
-          "options": [
-            "[[had|hubiera]]",
-            "[[did|hice]]",
-            "[[have|he]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[did|hice]]", "[[have|he]]", "[[had|hubiera]]"],
+          "correctAnswer": 2,
           "explanation": "Third conditional requires 'had' + past participle in the 'if' clause.",
           "audio": "audio/b2/unit-3/e30.mp3"
         }
@@ -848,12 +828,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[_______|Las sequías]] [[are|se están]] [[becoming|volviendo]] [[more|más]] [[frequent|frecuentes]] [[in|en muchas]] [[many|partes]] [[parts|del]] [[of|mundo.]] [[world.| ]]",
-          "options": [
-            "[[Storms|Las tormentas]]",
-            "[[Floods|Las inundaciones]]",
-            "[[Droughts|Las sequías]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[Storms|Las tormentas]]", "[[Droughts|Las sequías]]", "[[Floods|Las inundaciones]]"],
+          "correctAnswer": 1,
           "explanation": "A 'drought' is a prolonged period of abnormally low rainfall, leading to a shortage of water.",
           "audio": "audio/b2/unit-3/e31.mp3"
         }
@@ -875,12 +851,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[_______|A menos que]] [[individuals|las personas]] [[change|cambien]] [[their|sus]] [[habits,|hábitos...]]",
-          "options": [
-            "[[Provided|Siempre que]]",
-            "[[If|Si]]",
-            "[[Unless|A menos que]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[Provided|Siempre que]]", "[[Unless|A menos que]]", "[[If|Si]]"],
+          "correctAnswer": 1,
           "explanation": "'Unless' means 'if not', describing a condition that must be met.",
           "audio": "audio/b2/unit-3/e32.mp3"
         }
@@ -902,12 +874,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[We|Debemos]] [[must|deber]] [[_______|preservar]] [[the|la]] [[natural|natural]] [[beauty|belleza]] [[of|de]] [[our|nuestros]] [[parks.|parques.]]",
-          "options": [
-            "[[preserve|preservar]]",
-            "[[predict|predecir]]",
-            "[[prevent|prevenir]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[predict|predecir]]", "[[preserve|preservar]]", "[[prevent|prevenir]]"],
+          "correctAnswer": 1,
           "explanation": "'Preserve' means to maintain something in its original or existing state.",
           "audio": "audio/b2/unit-3/e33.mp3"
         }
@@ -929,12 +897,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[I'll|Iré]] [[go|a la]] [[to|playa]] [[the|la]] [[beach|playa]] [[tomorrow|mañana]] [[_______|siempre que]]",
-          "options": [
-            "[[even if|incluso]]",
-            "[[unless|a menos]]",
-            "[[provided that|siempre]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[unless|a menos]]", "[[provided that|siempre]]", "[[even if|incluso]]"],
+          "correctAnswer": 1,
           "explanation": "'Provided that' is used to specify a condition for something to happen.",
           "audio": "audio/b2/unit-3/e34.mp3"
         }
@@ -956,11 +920,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[Organic|La agricultura]] [[farming|orgánica]] [[avoids|evita]] [[the|el]] [[use|uso]] [[of|de]] [[synthetic|sintéticos]] [[_______|pesticidas]].",
-          "options": [
-            "[[penalties|penalizaciones]]",
-            "[[pesticides|pesticidas]]",
-            "[[particles|partículas]]"
-          ],
+          "options": ["[[particles|partículas]]", "[[pesticides|pesticidas]]", "[[penalties|penalizaciones]]"],
           "correctAnswer": 1,
           "explanation": "A 'pesticide' is a substance used for destroying insects or other organisms harmful to cultivated plants.",
           "audio": "audio/b2/unit-3/e35.mp3"
@@ -983,12 +943,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[_______|Ojalá]] [[people|la gente]] [[would|dejara de]] [[stop|tirar]] [[throwing|basura...]]",
-          "options": [
-            "[[Unless|A menos que]]",
-            "[[If only|Ojalá]]",
-            "[[Supposing|Supongamos]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[If only|Ojalá]]", "[[Unless|A menos que]]", "[[Supposing|Supongamos]]"],
+          "correctAnswer": 0,
           "explanation": "'If only' + would is used to express a wish for someone else's behavior to change.",
           "audio": "audio/b2/unit-3/e36.mp3"
         }
@@ -1010,12 +966,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[_______|Supongamos]] [[you|que]] [[found|encontraras]] [[un|un]] [[an|animal]] [[injured|herido,]] [[animal,|¿qué]] [[what|harías?]] [[would| ]] [[you| ]] [[do?| ]]",
-          "options": [
-            "[[Think|Piensa]]",
-            "[[Imagine|Imagina]]",
-            "[[Supposing|Supongamos]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[Supposing|Supongamos]]", "[[Imagine|Imagina]]", "[[Think|Piensa]]"],
+          "correctAnswer": 0,
           "explanation": "'Supposing' is often used to start a hypothetical question.",
           "audio": "audio/b2/unit-3/e37.mp3"
         }
@@ -1037,11 +989,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[We|Nos]] [[are|estamos]] [[_______|quedando]] [[out|sin]] [[of|tiempo]] [[time|para]] [[stop|frenar]] [[global|el]] [[warming.|calentamiento.]]",
-          "options": [
-            "[[putting|poniendo]]",
-            "[[running|quedando]]",
-            "[[going|yendo]]"
-          ],
+          "options": ["[[putting|poniendo]]", "[[running|quedando]]", "[[going|yendo]]"],
           "correctAnswer": 1,
           "explanation": "'Running out of' means to use up a supply of something.",
           "audio": "audio/b2/unit-3/e38.mp3"
@@ -1064,12 +1012,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[If|Si]] [[I|fuera]] [[were|tú,]] [[you,| ]] [[I| ]] [[_______|me desharía de]] [[those|esas]] [[batteries|pilas]] [[properly.|correctamente.]]",
-          "options": [
-            "[[would take back|devolvería]]",
-            "[[would put away|guardaría]]",
-            "[[would dispose of|me desharía de]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[would dispose of|me desharía de]]", "[[would take back|devolvería]]", "[[would put away|guardaría]]"],
+          "correctAnswer": 0,
           "explanation": "'Would dispose of' is the conditional form used for giving advice with 'If I were you'.",
           "audio": "audio/b2/unit-3/e39.mp3"
         }
@@ -1091,11 +1035,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[Air|La]] [[_______|contaminación]] [[in|del]] [[the|aire]] [[city|en la]] [[has|ciudad]] [[reached|ha alcanzado]] [[dangerous|niveles]] [[levels.|peligrosos.]]",
-          "options": [
-            "[[protection|protección]]",
-            "[[pollution|contaminación]]",
-            "[[promotion|promoción]]"
-          ],
+          "options": ["[[protection|protección]]", "[[pollution|contaminación]]", "[[promotion|promoción]]"],
           "correctAnswer": 1,
           "explanation": "'Pollution' is the presence in or introduction into the environment of a substance or thing that has harmful or poisonous effects.",
           "audio": "audio/b2/unit-3/e40.mp3"
@@ -1118,11 +1058,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[_______|Siempre]] [[that|que]] [[we|todos]] [[all|reciclemos,]] [[recycle,|podemos]] [[we|reducir]] [[can|los]] [[reduce|residuos.]]",
-          "options": [
-            "[[Whether|Si]]",
-            "[[Unless|A menos que]]",
-            "[[Provided|Siempre que]]"
-          ],
+          "options": ["[[Whether|Si]]", "[[Unless|A menos que]]", "[[Provided|Siempre que]]"],
           "correctAnswer": 2,
           "explanation": "'Provided that' is used to express a condition.",
           "audio": "audio/b2/unit-3/e41.mp3"
@@ -1145,12 +1081,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[Deforestation|La deforestación]] [[causes|causa]] [[the|la]] [[loss|pérdida]] [[of|de]] [[natural| ]] [[_______|hábitats]].",
-          "options": [
-            "[[habits|hábitos]]",
-            "[[hobbies|pasatiempos]]",
-            "[[habitats|hábitats]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[hobbies|pasatiempos]]", "[[habitats|hábitats]]", "[[habits|hábitos]]"],
+          "correctAnswer": 1,
           "explanation": "A 'habitat' is the natural home or environment of an animal, plant, or other organism.",
           "audio": "audio/b2/unit-3/e42.mp3"
         }
@@ -1172,12 +1104,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[_______|Si]] [[you|vieras]] [[see|a]] [[someone|alguien]] [[littering,|tirando basura,]] [[you|deberías]] [[should|decirle que la recoja.]]",
-          "options": [
-            "[[Could|Si]]",
-            "[[Should|Si]]",
-            "[[Would|Si]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[Should|Si]]", "[[Would|Si]]", "[[Could|Si]]"],
+          "correctAnswer": 0,
           "explanation": "'Should' at the beginning of a sentence makes it a formal conditional.",
           "audio": "audio/b2/unit-3/e43.mp3"
         }
@@ -1199,12 +1127,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[Solar|Los paneles]] [[panels|solares]] [[are|son]] [[a|una]] [[great|gran]] [[way|manera]] [[to| ]] [[_______|aprovechar]] [[renewable|la energía]] [[energy.|renovable.]]",
-          "options": [
-            "[[harvest|cosechar]]",
-            "[[happen|suceder]]",
-            "[[harness|aprovechar]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[happen|suceder]]", "[[harness|aprovechar]]", "[[harvest|cosechar]]"],
+          "correctAnswer": 1,
           "explanation": "'Harness' means to collect and control something so that it can be used, especially energy.",
           "audio": "audio/b2/unit-3/e44.mp3"
         }
@@ -1226,12 +1150,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[_______|A menos que]] [[we|actuemos]] [[act|ahora,]] [[now,|la]] [[the|situación]] [[situation|empeorará.]]",
-          "options": [
-            "[[When|Cuando]]",
-            "[[If|Si]]",
-            "[[Unless|A menos que]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[Unless|A menos que]]", "[[If|Si]]", "[[When|Cuando]]"],
+          "correctAnswer": 0,
           "explanation": "'Unless' is used to say that something will happen if another thing does not happen.",
           "audio": "audio/b2/unit-3/e45.mp3"
         }
@@ -1253,11 +1173,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|El]] [[glacier|glaciar]] [[has|se ha]] [[been|estado]] [[_______|encogiendo]] [[steadily|constantemente]] [[over|durante]] [[the|las]] [[past|últimas]] [[few|pocas]] [[decades.|décadas.]]",
-          "options": [
-            "[[growing|creciendo]]",
-            "[[stretching|estirando]]",
-            "[[shrinking|encogiendo]]"
-          ],
+          "options": ["[[stretching|estirando]]", "[[growing|creciendo]]", "[[shrinking|encogiendo]]"],
           "correctAnswer": 2,
           "explanation": "'Shrink' means to become smaller, often used for ice or resources.",
           "audio": "audio/b2/unit-3/e46.mp3"
@@ -1280,11 +1196,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[_______|Imagina]] [[we|que]] [[could|pudiéramos]] [[clean|limpiar]] [[all|todo]] [[the|el]] [[plastic|plástico...]]",
-          "options": [
-            "[[Imagine|Imagina]]",
-            "[[Forget|Olvida]]",
-            "[[Believe|Cree]]"
-          ],
+          "options": ["[[Imagine|Imagina]]", "[[Forget|Olvida]]", "[[Believe|Cree]]"],
           "correctAnswer": 0,
           "explanation": "'Imagine' is used to suggest a hypothetical situation.",
           "audio": "audio/b2/unit-3/e47.mp3"
@@ -1307,11 +1219,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[We|Necesitamos]] [[need|deshacernos]] [[to| ]] [[dispose| ]] [[_______|de]] [[our|nuestros]] [[old|aparatos]] [[electronics|viejos.]]",
-          "options": [
-            "[[out| ]]",
-            "[[of|de]]",
-            "[[off| ]]"
-          ],
+          "options": ["[[out| ]]", "[[of|de]]", "[[off| ]]"],
           "correctAnswer": 1,
           "explanation": "'Dispose' is always followed by the preposition 'of'.",
           "audio": "audio/b2/unit-3/e48.mp3"
@@ -1334,12 +1242,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[Suppose|Supongamos]] [[the|que]] [[world|el]] [[_______|se quedara sin]] [[oil,|petróleo.]]",
-          "options": [
-            "[[ran out|se quedara sin]]",
-            "[[took out|se tomara]]",
-            "[[went out|se fuera]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[took out|se tomara]]", "[[went out|se fuera]]", "[[ran out|se quedara sin]]"],
+          "correctAnswer": 2,
           "explanation": "'Ran out of' is the past form of 'run out of'.",
           "audio": "audio/b2/unit-3/e49.mp3"
         }
@@ -1361,12 +1265,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[Environmental|Los grupos]] [[groups|ecologistas]] [[are|se están]] [[_______|enfrentando]] [[up|a]] [[to|las]] [[companies|empresas]] [[that|que]] [[pollute.|contaminan.]]",
-          "options": [
-            "[[sitting| ]]",
-            "[[standing|enfrentando]]",
-            "[[looking| ]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[sitting| ]]", "[[looking| ]]", "[[standing|enfrentando]]"],
+          "correctAnswer": 2,
           "explanation": "'Standing up to' means to resist or confront someone powerful.",
           "audio": "audio/b2/unit-3/e50.mp3"
         }

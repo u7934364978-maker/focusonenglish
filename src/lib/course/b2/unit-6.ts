@@ -704,11 +704,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[If|Si]] [[you|quieres]] [[want|conseguir]] [[to|el]] [[get|trabajo,]] [[the|debes]] [[job,|causar]] [[you|una]] [[must|buena]] [[_______|impresión.]]",
-          "options": [
-            "[[expression|expresión]]",
-            "[[depression|depresión]]",
-            "[[impression|impresión]]"
-          ],
+          "options": ["[[expression|expresión]]", "[[depression|depresión]]", "[[impression|impresión]]"],
           "correctAnswer": 2,
           "explanation": "'Make a good impression' es una frase hecha que significa causar una buena sensación.",
           "audio": "audio/b2/unit-6/e26.mp3"
@@ -731,12 +727,8 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[He|Él]] [[was|fue]] [[_______|ascendido]] [[to|a]] [[senior|gerente]] [[manager|senior]] [[after|tras]] [[only|solo]] [[two|dos]] [[years.|años.]]",
-          "options": [
-            "[[demoted|degradado]]",
-            "[[promoted|ascendido]]",
-            "[[retired|jubilado]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[promoted|ascendido]]", "[[retired|jubilado]]", "[[demoted|degradado]]"],
+          "correctAnswer": 0,
           "explanation": "'Promote' significa ascender a alguien a un puesto superior.",
           "audio": "audio/b2/unit-6/e27.mp3"
         }
@@ -758,12 +750,8 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[I|Estoy]] [[am|buscando]] [[looking|un]] [[for|trabajo]] [[a|con]] [[job|un]] [[with|horario]] [[more|más]] [[_______|flexible.]]",
-          "options": [
-            "[[fixed|fijo]]",
-            "[[flexible|flexible]]",
-            "[[long|largo]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[flexible|flexible]]", "[[fixed|fijo]]", "[[long|largo]]"],
+          "correctAnswer": 0,
           "explanation": "'Flexible hours' permite al empleado elegir cuándo empezar y terminar.",
           "audio": "audio/b2/unit-6/e28.mp3"
         }
@@ -785,11 +773,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|La]] [[company|empresa]] [[has|tiene]] [[a|una]] [[very|rotación]] [[low|de]] [[staff|personal]] [[_______|muy baja.]]",
-          "options": [
-            "[[overtake|adelantamiento]]",
-            "[[turnover|rotación]]",
-            "[[takeover|adquisición]]"
-          ],
+          "options": ["[[takeover|adquisición]]", "[[turnover|rotación]]", "[[overtake|adelantamiento]]"],
           "correctAnswer": 1,
           "explanation": "'Staff turnover' es el ritmo al que los empleados entran y salen de una empresa.",
           "audio": "audio/b2/unit-6/e29.mp3"
@@ -812,11 +796,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[We|Necesitamos]] [[need|_______]] [[to|a]] [[hire|más]] [[more|gente]] [[people|para]] [[to|terminar]] [[finish|el]] [[the|proyecto.]]",
-          "options": [
-            "[[tire|cansar]]",
-            "[[fire|despedir]]",
-            "[[hire|contratar]]"
-          ],
+          "options": ["[[fire|despedir]]", "[[tire|cansar]]", "[[hire|contratar]]"],
           "correctAnswer": 2,
           "explanation": "'Hire' significa emplear a alguien nuevo.",
           "audio": "audio/b2/unit-6/e30.mp3"
@@ -839,11 +819,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[She|Ella]] [[has|tiene]] [[a|mucha]] [[lot|experiencia]] [[of|en]] [[experience|el]] [[in|_______]] [[the|de]] [[field|marketing.]] [[of| ]] [[marketing.| ]]",
-          "options": [
-            "[[field|campo/sector]]",
-            "[[forest|bosque]]",
-            "[[farm|granja]]"
-          ],
+          "options": ["[[field|campo/sector]]", "[[farm|granja]]", "[[forest|bosque]]"],
           "correctAnswer": 0,
           "explanation": "'Field' se usa para referirse a una rama específica del conocimiento o trabajo.",
           "audio": "audio/b2/unit-6/e31.mp3"
@@ -866,12 +842,8 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[I|Soy]] [[am|el]] [[in|_______]] [[charge|del]] [[of|departamento]] [[the|de]] [[marketing|marketing.]] [[department.| ]]",
-          "options": [
-            "[[chance|oportunidad]]",
-            "[[change|cambio]]",
-            "[[charge|responsable]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[charge|responsable]]", "[[change|cambio]]", "[[chance|oportunidad]]"],
+          "correctAnswer": 0,
           "explanation": "'In charge of' significa tener la responsabilidad de algo o alguien.",
           "audio": "audio/b2/unit-6/e32.mp3"
         }
@@ -893,12 +865,8 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|La]] [[company|empresa]] [[is|está]] [[going|pasando]] [[through|por]] [[a|un]] [[period|periodo]] [[of|de]] [[rapid|rápido]] [[_______|crecimiento.]]",
-          "options": [
-            "[[death|muerte]]",
-            "[[wealth|riqueza]]",
-            "[[growth|crecimiento]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[growth|crecimiento]]", "[[death|muerte]]", "[[wealth|riqueza]]"],
+          "correctAnswer": 0,
           "explanation": "'Growth' es el sustantivo de 'grow' (crecer).",
           "audio": "audio/b2/unit-6/e33.mp3"
         }
@@ -920,12 +888,8 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[He|Él]] [[is|está]] [[very|muy]] [[_______|comprometido]] [[to|con]] [[his|su]] [[work.|trabajo.]]",
-          "options": [
-            "[[committed|comprometido]]",
-            "[[confused|confundido]]",
-            "[[collected|recogido]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[collected|recogido]]", "[[committed|comprometido]]", "[[confused|confundido]]"],
+          "correctAnswer": 1,
           "explanation": "'Committed' describe a alguien que pone mucho esfuerzo y lealtad en algo.",
           "audio": "audio/b2/unit-6/e34.mp3"
         }
@@ -947,12 +911,8 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[We|Tenemos]] [[have|que]] [[_______|lidiar]] [[with|con]] [[many|muchas]] [[customer|quejas]] [[complaints.|de clientes.]]",
-          "options": [
-            "[[deal|lidiar]]",
-            "[[seal|sellar]]",
-            "[[feel|sentir]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[seal|sellar]]", "[[feel|sentir]]", "[[deal|lidiar]]"],
+          "correctAnswer": 2,
           "explanation": "'Deal with' significa tomar las medidas necesarias para resolver un problema.",
           "audio": "audio/b2/unit-6/e35.mp3"
         }
@@ -974,12 +934,8 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[I|Estoy]] [[am|muy]] [[very|_______]] [[satisfied|con]] [[with|mi]] [[my|trabajo]] [[current|actual.]] [[job.| ]]",
-          "options": [
-            "[[satisfied|satisfecho]]",
-            "[[mystified|perplejo]]",
-            "[[terrified|aterrorizado]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[mystified|perplejo]]", "[[satisfied|satisfecho]]", "[[terrified|aterrorizado]]"],
+          "correctAnswer": 1,
           "explanation": "'Satisfied' significa estar complacido con algo.",
           "audio": "audio/b2/unit-6/e36.mp3"
         }
@@ -1001,11 +957,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[She|Ella]] [[is|es]] [[a|una]] [[very|_______]] [[talented|diseñadora]] [[graphic|gráfica]] [[designer.|con mucho talento.]]",
-          "options": [
-            "[[tainted|manchado]]",
-            "[[talented|con talento]]",
-            "[[tempted|tentado]]"
-          ],
+          "options": ["[[tainted|manchado]]", "[[talented|con talento]]", "[[tempted|tentado]]"],
           "correctAnswer": 1,
           "explanation": "'Talented' significa tener una habilidad natural para algo.",
           "audio": "audio/b2/unit-6/e37.mp3"
@@ -1028,12 +980,8 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|La]] [[company|empresa]] [[is|está]] [[looking|buscando]] [[for|una]] [[a|nueva]] [[new|_______]].",
-          "options": [
-            "[[headquarters|sede central]]",
-            "[[headlight|faro]]",
-            "[[headache|dolor de cabeza]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[headlight|faro]]", "[[headache|dolor de cabeza]]", "[[headquarters|sede central]]"],
+          "correctAnswer": 2,
           "explanation": "'Headquarters' es el centro administrativo de una organización.",
           "audio": "audio/b2/unit-6/e38.mp3"
         }
@@ -1055,11 +1003,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[He|Él]] [[is|es]] [[very|muy]] [[_______|ambicioso]] [[and|y]] [[wants|quiere]] [[to|llegar]] [[reach|a]] [[the|lo]] [[top.|más alto.]]",
-          "options": [
-            "[[anxious|ansioso]]",
-            "[[ambiguous|ambiguo]]",
-            "[[ambitious|ambicioso]]"
-          ],
+          "options": ["[[ambiguous|ambiguo]]", "[[anxious|ansioso]]", "[[ambitious|ambicioso]]"],
           "correctAnswer": 2,
           "explanation": "'Ambitious' es tener un fuerte deseo de éxito o poder.",
           "audio": "audio/b2/unit-6/e39.mp3"
@@ -1082,12 +1026,8 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[I|Necesito]] [[need|_______]] [[to|mi]] [[update|currículum]] [[my|antes]] [[CV|de]] [[before|solicitar]] [[applying|el]] [[for|puesto.]] [[the| ]] [[job.| ]]",
-          "options": [
-            "[[upkeep|mantener]]",
-            "[[uproot|desarraigar]]",
-            "[[update|actualizar]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[upkeep|mantener]]", "[[update|actualizar]]", "[[uproot|desarraigar]]"],
+          "correctAnswer": 1,
           "explanation": "'Update' significa añadir la información más reciente a algo.",
           "audio": "audio/b2/unit-6/e40.mp3"
         }
@@ -1109,11 +1049,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|La]] [[meeting|reunión]] [[has|ha]] [[been|sido]] [[_______|pospuesta]] [[until|hasta]] [[next|la semana]] [[week.|que viene.]]",
-          "options": [
-            "[[cancelled|cancelada]]",
-            "[[announced|anunciada]]",
-            "[[postponed|pospuesta]]"
-          ],
+          "options": ["[[announced|anunciada]]", "[[cancelled|cancelada]]", "[[postponed|pospuesta]]"],
           "correctAnswer": 2,
           "explanation": "'Postpone' es decidir que algo ocurra en una fecha posterior a la prevista.",
           "audio": "audio/b2/unit-6/e41.mp3"
@@ -1136,12 +1072,8 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[She|Ella]] [[is|es]] [[very|muy]] [[_______|fiable]] [[and|y]] [[always|siempre]] [[gets|hace]] [[the|su]] [[job|trabajo.]] [[done.| ]]",
-          "options": [
-            "[[reliable|fiable]]",
-            "[[readable|legible]]",
-            "[[liable|responsable legal]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[liable|responsable legal]]", "[[readable|legible]]", "[[reliable|fiable]]"],
+          "correctAnswer": 2,
           "explanation": "'Reliable' significa que se puede confiar en que alguien hará lo que se espera.",
           "audio": "audio/b2/unit-6/e42.mp3"
         }
@@ -1163,12 +1095,8 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[I|Estoy]] [[am|trabajando]] [[working|_______]] [[on|un]] [[a|proyecto]] [[very|muy]] [[interesting|interesante.]] [[project.| ]]",
-          "options": [
-            "[[at| ]]",
-            "[[in| ]]",
-            "[[on|en]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[on|en]]", "[[at| ]]", "[[in| ]]"],
+          "correctAnswer": 0,
           "explanation": "Usamos 'work on' para referirnos a la tarea o proyecto en el que estamos ocupados.",
           "audio": "audio/b2/unit-6/e41.mp3"
         }
@@ -1190,12 +1118,8 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[He|Él]] [[has|tiene]] [[a|una]] [[very|buena]] [[good|relación]] [[relationship|con]] [[with|sus]] [[his|_______]].",
-          "options": [
-            "[[collections|colecciones]]",
-            "[[college|universidad]]",
-            "[[colleagues|compañeros]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[colleagues|compañeros]]", "[[collections|colecciones]]", "[[college|universidad]]"],
+          "correctAnswer": 0,
           "explanation": "'Colleagues' son las personas con las que trabajas, especialmente en una profesión.",
           "audio": "audio/b2/unit-6/e44.mp3"
         }
@@ -1217,12 +1141,8 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|La]] [[company|empresa]] [[is|se está]] [[_______|expandiendo]] [[into|a]] [[new|nuevos]] [[markets.|mercados.]]",
-          "options": [
-            "[[expanding|expandiendo]]",
-            "[[expelling|expulsando]]",
-            "[[expiring|caducando]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[expiring|caducando]]", "[[expelling|expulsando]]", "[[expanding|expandiendo]]"],
+          "correctAnswer": 2,
           "explanation": "'Expand' significa aumentar en tamaño, número o importancia.",
           "audio": "audio/b2/unit-6/e45.mp3"
         }
@@ -1244,12 +1164,8 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[I|Tengo]] [[have|una]] [[a|agenda]] [[very|muy]] [[busy|apretada]] [[_______|esta semana.]]",
-          "options": [
-            "[[school|escuela]]",
-            "[[schedule|agenda]]",
-            "[[scheme|esquema]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[scheme|esquema]]", "[[school|escuela]]", "[[schedule|agenda]]"],
+          "correctAnswer": 2,
           "explanation": "'Schedule' es una lista de actividades y los momentos en que deben ocurrir.",
           "audio": "audio/b2/unit-6/e46.mp3"
         }
@@ -1271,12 +1187,8 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[She|Ella]] [[is|es]] [[very|muy]] [[good|buena]] [[at|en la]] [[_______|multitarea.]]",
-          "options": [
-            "[[multiplying|multiplicación]]",
-            "[[multicultural|multicultural]]",
-            "[[multitasking|multitarea]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[multiplying|multiplicación]]", "[[multitasking|multitarea]]", "[[multicultural|multicultural]]"],
+          "correctAnswer": 1,
           "explanation": "'Multitasking' es la capacidad de realizar más de una tarea al mismo tiempo.",
           "audio": "audio/b2/unit-6/e47.mp3"
         }
@@ -1298,12 +1210,8 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|La]] [[company|empresa]] [[provides|ofrece]] [[a|mucha]] [[lot|formación]] [[of|a sus]] [[_______|empleados.]]",
-          "options": [
-            "[[trailing|rastreo]]",
-            "[[training|formación]]",
-            "[[trading|comercio]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[training|formación]]", "[[trading|comercio]]", "[[trailing|rastreo]]"],
+          "correctAnswer": 0,
           "explanation": "'Training' es el proceso de aprender las habilidades necesarias para un trabajo.",
           "audio": "audio/b2/unit-6/e48.mp3"
         }
@@ -1325,12 +1233,8 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[He|Él]] [[is|es]] [[very|muy]] [[_______|eficiente]] [[in|en]] [[his|su]] [[work.|trabajo.]]",
-          "options": [
-            "[[effort|esfuerzo]]",
-            "[[effect|efecto]]",
-            "[[efficient|eficiente]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[effort|esfuerzo]]", "[[efficient|eficiente]]", "[[effect|efecto]]"],
+          "correctAnswer": 1,
           "explanation": "'Efficient' significa trabajar de una manera organizada sin desperdiciar tiempo ni energía.",
           "audio": "audio/b2/unit-6/e49.mp3"
         }
@@ -1352,11 +1256,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[I|Estoy]] [[am|buscando]] [[looking|un]] [[for|nuevo]] [[a|desafío]] [[new|en]] [[_______|mi]] [[career.|carrera.]]",
-          "options": [
-            "[[chance|oportunidad]]",
-            "[[challenge|desafío]]",
-            "[[change|cambio]]"
-          ],
+          "options": ["[[chance|oportunidad]]", "[[challenge|desafío]]", "[[change|cambio]]"],
           "correctAnswer": 1,
           "explanation": "'Challenge' es algo nuevo y difícil que requiere esfuerzo y determinación.",
           "audio": "audio/b2/unit-6/e50.mp3"

@@ -1016,11 +1016,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[By|Para]] [[this|este]] [[time|momento]] [[next|del]] [[month,|próximo mes,]] [[we|nosotros]] [[_______|_______]] [[the|el]] [[new|nuevo]] [[website.|sitio web.]]",
-          "options": [
-            "[[will be launching|estaremos lanzando]]",
-            "[[will have launched|habremos lanzado]]",
-            "[[are going to launch|vamos a lanzar]]"
-          ],
+          "options": ["[[are going to launch|vamos a lanzar]]", "[[will have launched|habremos lanzado]]", "[[will be launching|estaremos lanzando]]"],
           "correctAnswer": 1,
           "explanation": "Future Perfect 'will have launched' is used because the action will be finished by that time.",
           "audio": "audio/b2/unit-2/e27.mp3"
@@ -1043,12 +1039,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|Los]] [[scientists|científicos]] [[are|están]] [[_______|_______]] [[a|un]] [[major|gran]] [[discovery.|descubrimiento.]]",
-          "options": [
-            "[[by the way of|por el camino de]]",
-            "[[in the middle of|en medio de]]",
-            "[[on the verge of|al borde de]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[on the verge of|al borde de]]", "[[in the middle of|en medio de]]", "[[by the way of|por el camino de]]"],
+          "correctAnswer": 0,
           "explanation": "'On the verge of' indicates that something is about to happen.",
           "audio": "audio/b2/unit-2/e28.mp3"
         }
@@ -1070,12 +1062,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[Next|El]] [[year,|año que viene,]] [[I|yo]] [[_______|_______]] [[here|aquí]] [[for|durante]] [[a|una]] [[decade.|década.]]",
-          "options": [
-            "[[will be working|estaré trabajando]]",
-            "[[will have been working|habré estado trabajando]]",
-            "[[have been working|he estado trabajando]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[will be working|estaré trabajando]]", "[[have been working|he estado trabajando]]", "[[will have been working|habré estado trabajando]]"],
+          "correctAnswer": 2,
           "explanation": "Future Perfect Continuous focuses on the duration of an action at a future point.",
           "audio": "audio/b2/unit-2/e29.mp3"
         }
@@ -1097,11 +1085,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[This|Este]] [[new|nuevo]] [[software|software]] [[is|es]] [[very|muy]] [[_______|_______]].",
-          "options": [
-            "[[user-friendly|fácil de usar]]",
-            "[[outdated|anticuado]]",
-            "[[complex|complejo]]"
-          ],
+          "options": ["[[user-friendly|fácil de usar]]", "[[outdated|anticuado]]", "[[complex|complejo]]"],
           "correctAnswer": 0,
           "explanation": "'User-friendly' means easy for people to use or understand.",
           "audio": "audio/b2/unit-2/e30.mp3"
@@ -1124,11 +1108,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|El]] [[flight|vuelo]] [[is|está]] [[_______|_______]] [[depart|salir]] [[at|a las]] [[10|10]] [[PM.|PM.]]",
-          "options": [
-            "[[bound to|destinado a]]",
-            "[[due to|previsto que]]",
-            "[[about to|a punto de]]"
-          ],
+          "options": ["[[about to|a punto de]]", "[[due to|previsto que]]", "[[bound to|destinado a]]"],
           "correctAnswer": 1,
           "explanation": "'Is due to' is used for scheduled future events.",
           "audio": "audio/b2/unit-2/e31.mp3"
@@ -1151,12 +1131,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|El]] [[system|sistema]] [[crashed|se bloqueó]] [[because|debido]] [[of|a]] [[a|un]] [[technical|técnico]] [[_______|_______]].",
-          "options": [
-            "[[breakthrough|avance]]",
-            "[[success|éxito]]",
-            "[[glitch|fallo técnico]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[glitch|fallo técnico]]", "[[success|éxito]]", "[[breakthrough|avance]]"],
+          "correctAnswer": 0,
           "explanation": "A 'glitch' is a small and sudden problem, especially with technology.",
           "audio": "audio/b2/unit-2/e32.mp3"
         }
@@ -1178,12 +1154,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[_______|_______]] [[we|nosotros]] [[lived|viviéramos]] [[on|en]] [[Mars,|Marte,]] [[what|¿cómo]] [[would|serían]] [[the|las]] [[houses|casas]] [[look| ]] [[like?| ]]",
-          "options": [
-            "[[Suppose|Supongamos que]]",
-            "[[Whether|Si]]",
-            "[[Providing|Siempre que]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[Providing|Siempre que]]", "[[Suppose|Supongamos que]]", "[[Whether|Si]]"],
+          "correctAnswer": 1,
           "explanation": "'Suppose' is used here to introduce a hypothetical situation.",
           "audio": "audio/b2/unit-2/e33.mp3"
         }
@@ -1205,12 +1177,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|La]] [[new|nueva]] [[battery|batería]] [[_______|_______]] [[twice|el doble]] [[as| ]] [[long| ]] [[as|que]] [[the|la]] [[old|antigua]] [[one.|.]]",
-          "options": [
-            "[[keeps|mantiene]]",
-            "[[goes|va]]",
-            "[[lasts|dura]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[lasts|dura]]", "[[goes|va]]", "[[keeps|mantiene]]"],
+          "correctAnswer": 0,
           "explanation": "'Lasts' is used to describe the duration of power or usability.",
           "audio": "audio/b2/unit-2/e34.mp3"
         }
@@ -1232,11 +1200,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[He|Él]] [[is|es]] [[_______|_______]] [[win|gane]] [[the|el]] [[innovation|premio]] [[award.|a la innovación.]]",
-          "options": [
-            "[[likely to|es probable que]]",
-            "[[probable to|es probable que]]",
-            "[[likely that|es probable que]]"
-          ],
+          "options": ["[[likely to|es probable que]]", "[[likely that|es probable que]]", "[[probable to|es probable que]]"],
           "correctAnswer": 0,
           "explanation": "'Is likely to' is followed by the infinitive 'win'.",
           "audio": "audio/b2/unit-2/e35.mp3"
@@ -1259,12 +1223,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|Los]] [[data|datos]] [[was|fueron]] [[_______|_______]] [[to|para]] [[prevent|evitar]] [[unauthorized|el acceso]] [[access.|no autorizado.]]",
-          "options": [
-            "[[encrypted|encriptados]]",
-            "[[deleted|borrados]]",
-            "[[shared|compartidos]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[deleted|borrados]]", "[[encrypted|encriptados]]", "[[shared|compartidos]]"],
+          "correctAnswer": 1,
           "explanation": "'Encrypted' means converted into a code to prevent unauthorized access.",
           "audio": "audio/b2/unit-2/e36.mp3"
         }
@@ -1286,12 +1246,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[I'll|Estaré]] [[_______|_______]] [[at|a]] [[midnight,|medianoche,]] [[so|así que]] [[don't|no]] [[call|me]] [[me.|llames.]]",
-          "options": [
-            "[[sleep|dormiré]]",
-            "[[be sleeping|durmiendo]]",
-            "[[have slept|habré dormido]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[be sleeping|durmiendo]]", "[[sleep|dormiré]]", "[[have slept|habré dormido]]"],
+          "correctAnswer": 0,
           "explanation": "Future Continuous 'be sleeping' is for an action in progress at a specific time.",
           "audio": "audio/b2/unit-2/e37.mp3"
         }
@@ -1313,11 +1269,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|La]] [[startup|startup]] [[is|está]] [[looking|buscando]] [[for|inversores]] [[investors|para]] [[to| ]] [[_______|_______]] [[their|su]] [[project.|proyecto.]]",
-          "options": [
-            "[[drop|abandonar]]",
-            "[[sell|vender]]",
-            "[[back|respaldar]]"
-          ],
+          "options": ["[[drop|abandonar]]", "[[sell|vender]]", "[[back|respaldar]]"],
           "correctAnswer": 2,
           "explanation": "'Back' means to give financial support to someone or something.",
           "audio": "audio/b2/unit-2/e38.mp3"
@@ -1340,12 +1292,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[No|Apenas]] [[sooner| ]] [[_______|_______]] [[we|habíamos]] [[started|empezado]] [[the|la]] [[test|prueba]] [[than|cuando]] [[the|la]] [[power|luz]] [[went|se]] [[out.|fue.]]",
-          "options": [
-            "[[did we|hicimos]]",
-            "[[had we|habíamos]]",
-            "[[we had|nosotros habíamos]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[did we|hicimos]]", "[[we had|nosotros habíamos]]", "[[had we|habíamos]]"],
+          "correctAnswer": 2,
           "explanation": "'No sooner' requires 'had' + subject for past perfect sequence.",
           "audio": "audio/b2/unit-2/e39.mp3"
         }
@@ -1367,12 +1315,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|El]] [[new|nuevo]] [[smartphone|teléfono]] [[features|incluye]] [[a|una]] [[_______|_______]] [[camera.|cámara.]]",
-          "options": [
-            "[[old-fashioned|anticuada]]",
-            "[[state-of-the-art|de última generación]]",
-            "[[second-hand|de segunda mano]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[state-of-the-art|de última generación]]", "[[second-hand|de segunda mano]]", "[[old-fashioned|anticuada]]"],
+          "correctAnswer": 0,
           "explanation": "'State-of-the-art' means very modern and using the most recent ideas and methods.",
           "audio": "audio/b2/unit-2/e40.mp3"
         }
@@ -1394,12 +1338,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[By|Para]] [[2030,|2030,]] [[scientists|los científicos]] [[_______|_______]] [[a|una]] [[cure|cura]] [[for|para]] [[many|muchas]] [[diseases.|enfermedades.]]",
-          "options": [
-            "[[will have discovered|habrán descubierto]]",
-            "[[will discover|descubrirán]]",
-            "[[will be discovering|estarán descubriendo]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[will discover|descubrirán]]", "[[will be discovering|estarán descubriendo]]", "[[will have discovered|habrán descubierto]]"],
+          "correctAnswer": 2,
           "explanation": "Future Perfect is used for an action that will be completed by a certain time in the future.",
           "audio": "audio/b2/unit-2/e41.mp3"
         }
@@ -1421,12 +1361,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[We|Nosotros]] [[are|estamos]] [[making|haciendo]] [[a|un]] [[_______|_______]] [[in|en]] [[artificial|inteligencia]] [[intelligence.|artificial.]]",
-          "options": [
-            "[[breakdown|avería]]",
-            "[[breakthrough|gran avance]]",
-            "[[breakup|ruptura]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[breakthrough|gran avance]]", "[[breakup|ruptura]]", "[[breakdown|avería]]"],
+          "correctAnswer": 0,
           "explanation": "A 'breakthrough' is a sudden, dramatic, and important discovery or development.",
           "audio": "audio/b2/unit-2/e42.mp3"
         }
@@ -1448,11 +1384,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[_______|_______]] [[had|había]] [[the|la]] [[new|nueva]] [[app|app]] [[launched|lanzado]] [[when|cuando]] [[it|se]] [[crashed.|bloqueó.]]",
-          "options": [
-            "[[Soon|Pronto]]",
-            "[[Hardly|Apenas]]",
-            "[[Finally|Finalmente]]"
-          ],
+          "options": ["[[Soon|Pronto]]", "[[Hardly|Apenas]]", "[[Finally|Finalmente]]"],
           "correctAnswer": 1,
           "explanation": "'Hardly' is used for immediate sequence with inversion.",
           "audio": "audio/b2/unit-2/e43.mp3"
@@ -1475,12 +1407,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|La]] [[new|nueva]] [[update|actualización]] [[fixes|corrige]] [[several|varios]] [[_______|_______]] [[in|en]] [[the|el]] [[software.|software.]]",
-          "options": [
-            "[[bags|bolsas]]",
-            "[[begs|ruegos]]",
-            "[[bugs|errores]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[bugs|errores]]", "[[begs|ruegos]]", "[[bags|bolsas]]"],
+          "correctAnswer": 0,
           "explanation": "In computer technology, a 'bug' is an error, flaw, or fault in a computer program or system.",
           "audio": "audio/b2/unit-2/e44.mp3"
         }
@@ -1502,12 +1430,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[_______|_______]] [[that|que]] [[the|el]] [[weather|tiempo]] [[is|sea]] [[good,|bueno,]] [[the|el]] [[launch|lanzamiento]] [[will| ]] [[proceed.|procederá.]]",
-          "options": [
-            "[[Unless|A menos que]]",
-            "[[Providing|Siempre que]]",
-            "[[Whether|Si]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[Providing|Siempre que]]", "[[Unless|A menos que]]", "[[Whether|Si]]"],
+          "correctAnswer": 0,
           "explanation": "'Providing that' means 'if' or 'on condition that'.",
           "audio": "audio/b2/unit-2/e45.mp3"
         }
@@ -1529,11 +1453,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|Los]] [[data|datos]] [[is|son]] [[_______|_______]] [[up| ]] [[every|cada]] [[night|noche]] [[at|a las]] [[2|2]] [[AM.|AM.]]",
-          "options": [
-            "[[backed|respaldados]]",
-            "[[locked|bloqueados]]",
-            "[[picked|recogidos]]"
-          ],
+          "options": ["[[backed|respaldados]]", "[[picked|recogidos]]", "[[locked|bloqueados]]"],
           "correctAnswer": 0,
           "explanation": "'Back up' means to make a copy of computer information so that it is safe.",
           "audio": "audio/b2/unit-2/e46.mp3"
@@ -1556,12 +1476,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[I'd|Preferiría]] [[rather|que]] [[you| ]] [[_______|_______]] [[those|esos]] [[settings.|ajustes.]]",
-          "options": [
-            "[[don't touch|no toques]]",
-            "[[didn't touch|no tocaras]]",
-            "[[not touch|no tocar]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[not touch|no tocar]]", "[[don't touch|no toques]]", "[[didn't touch|no tocaras]]"],
+          "correctAnswer": 2,
           "explanation": "Use past simple after 'would rather' for a preference about another person's action.",
           "audio": "audio/b2/unit-2/e47.mp3"
         }
@@ -1583,12 +1499,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[This|Este]] [[gadget|dispositivo]] [[is|es]] [[really|realmente]] [[_______|_______]] [[technology.|tecnología.]]",
-          "options": [
-            "[[cutting-edge|de vanguardia]]",
-            "[[middle-of-the-road|moderado]]",
-            "[[behind-the-scenes|entre bastidores]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[behind-the-scenes|entre bastidores]]", "[[cutting-edge|de vanguardia]]", "[[middle-of-the-road|moderado]]"],
+          "correctAnswer": 1,
           "explanation": "'Cutting-edge' refers to the most modern stage of development in a particular type of work or activity.",
           "audio": "audio/b2/unit-2/e48.mp3"
         }
@@ -1610,12 +1522,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[It's|Ya]] [[high|es]] [[time|hora de que]] [[the|la]] [[company|empresa]] [[_______|_______]] [[its|sus]] [[security|protocolos]] [[protocols.|de seguridad.]]",
-          "options": [
-            "[[updated|actualizara]]",
-            "[[updates|actualice]]",
-            "[[will update|actualizará]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[updates|actualice]]", "[[will update|actualizará]]", "[[updated|actualizara]]"],
+          "correctAnswer": 2,
           "explanation": "'It's high time' is followed by the past simple.",
           "audio": "audio/b2/unit-2/e49.mp3"
         }
@@ -1637,12 +1545,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[Virtual|La realidad]] [[reality|virtual]] [[is|está]] [[_______|_______]] [[revolutionize|revolucionar]] [[the|la]] [[gaming|industria]] [[industry.|del juego.]]",
-          "options": [
-            "[[put to|puesta a]]",
-            "[[get to|llegar a]]",
-            "[[set to|preparada para]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[set to|preparada para]]", "[[put to|puesta a]]", "[[get to|llegar a]]"],
+          "correctAnswer": 0,
           "explanation": "'Is set to' means that something is ready or expected to happen.",
           "audio": "audio/b2/unit-2/e50.mp3"
         }

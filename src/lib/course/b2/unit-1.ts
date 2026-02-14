@@ -796,12 +796,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[We|Habíamos]] [[had|estado]] [[been|esperando]] [[waiting|más]] [[for|de]] [[over|una]] [[an|hora]] [[hour|cuando]] [[when|él]] [[finally|finalmente]] [[_______|_______]].",
-          "options": [
-            "[[showed up|apareció]]",
-            "[[looked up|buscó]]",
-            "[[went up|subió]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[went up|subió]]", "[[looked up|buscó]]", "[[showed up|apareció]]"],
+          "correctAnswer": 2,
           "explanation": "'Show up' is an informal phrasal verb meaning to arrive.",
           "audio": "audio/b2/unit-1/e26.mp3"
         }
@@ -823,12 +819,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[By|Para]] [[the|el]] [[time|momento en que]] [[I|llegué,]] [[arrived,|la]] [[the|reunión]] [[meeting|ya]] [[already| ]] [[_______|_______]] [[finished.|terminado.]]",
-          "options": [
-            "[[was|estaba]]",
-            "[[has|ha]]",
-            "[[had|había]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[had|había]]", "[[was|estaba]]", "[[has|ha]]"],
+          "correctAnswer": 0,
           "explanation": "Past Perfect 'had finished' is used because the meeting finished before I arrived.",
           "audio": "audio/b2/unit-1/e27.mp3"
         }
@@ -850,12 +842,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[I|Realmente]] [[really| ]] [[_______|_______]] [[with|con]] [[my|mi]] [[new|nuevo]] [[colleague|colega]] [[from|desde]] [[the|el]] [[start.|principio.]]",
-          "options": [
-            "[[hit it off|conecté]]",
-            "[[broke it off|lo dejé]]",
-            "[[took it off|me lo quité]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[took it off|me lo quité]]", "[[broke it off|lo dejé]]", "[[hit it off|conecté]]"],
+          "correctAnswer": 2,
           "explanation": "'Hit it off' means to quickly become friends or have a good relationship with someone.",
           "audio": "audio/b2/unit-1/e28.mp3"
         }
@@ -877,12 +865,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[_______|_______]] [[had|habían]] [[they|entrado]] [[entered|en]] [[the|la]] [[room|sala]] [[when|cuando]] [[everyone|todos]] [[stopped|dejaron de]] [[talking.|hablar.]]",
-          "options": [
-            "[[Soon|Pronto]]",
-            "[[Wait|Espera]]",
-            "[[Hardly|Apenas]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[Hardly|Apenas]]", "[[Soon|Pronto]]", "[[Wait|Espera]]"],
+          "correctAnswer": 0,
           "explanation": "'Hardly' followed by inversion 'had they' is used to show immediate sequence.",
           "audio": "audio/b2/unit-1/e29.mp3"
         }
@@ -904,12 +888,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[She|Ella]] [[is|es]] [[such|una]] [[a|persona]] [[_______|_______]] [[person|tan confiable]] [[that|que]] [[everyone|todos]] [[trusts|confían en]] [[her.|ella.]]",
-          "options": [
-            "[[moody|temperamental]]",
-            "[[stubborn|testaruda]]",
-            "[[reliable|confiable]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[moody|temperamental]]", "[[reliable|confiable]]", "[[stubborn|testaruda]]"],
+          "correctAnswer": 1,
           "explanation": "'Reliable' means consistent and able to be trusted.",
           "audio": "audio/b2/unit-1/e30.mp3"
         }
@@ -931,12 +911,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[While|Mientras]] [[they|ellos]] [[_______|_______]], [[discussed|discutieron]] [[their|sus]] [[holiday|planes de]] [[plans.|vacaciones.]]",
-          "options": [
-            "[[had eaten|habían comido]]",
-            "[[ate|comieron]]",
-            "[[were eating|estaban comiendo]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[were eating|estaban comiendo]]", "[[ate|comieron]]", "[[had eaten|habían comido]]"],
+          "correctAnswer": 0,
           "explanation": "Past Continuous 'were eating' is used for an action in progress in the past.",
           "audio": "audio/b2/unit-1/e31.mp3"
         }
@@ -958,12 +934,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[I've|He]] [[_______|_______]] [[with|con]] [[most|la mayoría]] [[of|de]] [[my|mis]] [[childhood|amigos de la]] [[friends.|infancia.]]",
-          "options": [
-            "[[caught up|puesto al día]]",
-            "[[kept in touch|mantenido el contacto]]",
-            "[[lost touch|perdido el contacto]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[lost touch|perdido el contacto]]", "[[kept in touch|mantenido el contacto]]", "[[caught up|puesto al día]]"],
+          "correctAnswer": 0,
           "explanation": "'Lost touch' means you no longer communicate with someone.",
           "audio": "audio/b2/unit-1/e32.mp3"
         }
@@ -985,12 +957,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[_______|_______]] [[he|él]] [[known|hubiera sabido]] [[the|la]] [[truth,|verdad,]] [[he|se]] [[would|habría]] [[have|sentido]] [[felt|traicionado.]] [[betrayed.| ]]",
-          "options": [
-            "[[Had|Si]]",
-            "[[Did|Did]]",
-            "[[Has|Has]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[Did|Did]]", "[[Has|Has]]", "[[Had|Si]]"],
+          "correctAnswer": 2,
           "explanation": "'Had he known' is the inverted form of 'If he had known'.",
           "audio": "audio/b2/unit-1/e33.mp3"
         }
@@ -1012,12 +980,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[We|Nosotros]] [[need|necesitamos]] [[to| ]] [[_______|_______]] [[on|con]] [[all|todas]] [[the|las]] [[news|noticias]] [[since|desde]] [[we|que nos]] [[last|vimos]] [[met.|última vez.]]",
-          "options": [
-            "[[take up|empezar algo]]",
-            "[[catch up|ponernos al día]]",
-            "[[put up|aguantar]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[catch up|ponernos al día]]", "[[put up|aguantar]]", "[[take up|empezar algo]]"],
+          "correctAnswer": 0,
           "explanation": "'Catch up' means to talk about what has happened since you last saw someone.",
           "audio": "audio/b2/unit-1/e34.mp3"
         }
@@ -1039,12 +1003,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[_______|_______]] [[had|había]] [[the|la]] [[movie|película]] [[started|comenzado]] [[when|cuando]] [[her|su]] [[phone|teléfono]] [[began|empezó]] [[to|a]] [[ring.|sonar.]]",
-          "options": [
-            "[[Scarcely|Apenas]]",
-            "[[Always|Siempre]]",
-            "[[Never|Nunca]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[Never|Nunca]]", "[[Always|Siempre]]", "[[Scarcely|Apenas]]"],
+          "correctAnswer": 2,
           "explanation": "'Scarcely' is used for immediate sequence in formal contexts.",
           "audio": "audio/b2/unit-1/e35.mp3"
         }
@@ -1066,12 +1026,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[He|Él]] [[is|es]] [[a|una]] [[person|persona]] [[very|muy]] [[_______|_______]] [[who|que]] [[respects|respeta]] [[everyone's|las opiniones]] [[views.|de todos.]]",
-          "options": [
-            "[[absent-minded|distraído]]",
-            "[[narrow-minded|de mente cerrada]]",
-            "[[broad-minded|de mente abierta]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[narrow-minded|de mente cerrada]]", "[[broad-minded|de mente abierta]]", "[[absent-minded|distraído]]"],
+          "correctAnswer": 1,
           "explanation": "'Broad-minded' means willing to accept many different types of behavior and belief.",
           "audio": "audio/b2/unit-1/e36.mp3"
         }
@@ -1093,12 +1049,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[They|Ellos]] [[_______|_______]] [[in|en]] [[Paris|París]] [[for|durante]] [[two|dos]] [[years|años]] [[when|cuando]] [[they|se]] [[met.|conocieron.]]",
-          "options": [
-            "[[had been living|habían estado viviendo]]",
-            "[[have been living|han estado viviendo]]",
-            "[[were living|estaban viviendo]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[have been living|han estado viviendo]]", "[[had been living|habían estado viviendo]]", "[[were living|estaban viviendo]]"],
+          "correctAnswer": 1,
           "explanation": "Past Perfect Continuous is used for an action that was ongoing until another past event.",
           "audio": "audio/b2/unit-1/e37.mp3"
         }
@@ -1120,12 +1072,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[I|Yo]] [[can't|no]] [[_______|_______]] [[his|sus]] [[constant|constantes]] [[complaining|quejas]] [[anymore.|más.]]",
-          "options": [
-            "[[put up with|aguantar]]",
-            "[[put out|apagar]]",
-            "[[put away|guardar]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[put away|guardar]]", "[[put out|apagar]]", "[[put up with|aguantar]]"],
+          "correctAnswer": 2,
           "explanation": "'Put up with' means to tolerate or accept something unpleasant.",
           "audio": "audio/b2/unit-1/e38.mp3"
         }
@@ -1147,12 +1095,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[No|Apenas]] [[sooner|había]] [[had|yo]] [[I| ]] [[sat|sentado]] [[down| ]] [[_______|_______]] [[the|el]] [[phone|teléfono]] [[rang.|sonó.]]",
-          "options": [
-            "[[as|como]]",
-            "[[than|que/cuando]]",
-            "[[when|cuando]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[than|que/cuando]]", "[[as|como]]", "[[when|cuando]]"],
+          "correctAnswer": 0,
           "explanation": "'No sooner' always pairs with 'than'.",
           "audio": "audio/b2/unit-1/e39.mp3"
         }
@@ -1174,12 +1118,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[She|Ella]] [[is|es]] [[very|muy]] [[_______|_______]] [[and|y]] [[makes|hace]] [[friends|amigos]] [[wherever|dondequiera]] [[she|que]] [[goes.|va.]]",
-          "options": [
-            "[[withdrawn|retraída]]",
-            "[[shy|tímida]]",
-            "[[outgoing|sociable]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[outgoing|sociable]]", "[[withdrawn|retraída]]", "[[shy|tímida]]"],
+          "correctAnswer": 0,
           "explanation": "'Outgoing' describes someone who is friendly and energetic and is at ease with other people.",
           "audio": "audio/b2/unit-1/e40.mp3"
         }
@@ -1201,11 +1141,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[They|Ellos]] [[already|ya]] [[left|se habían]] [[by|ido para]] [[the|el]] [[time|momento en que]] [[the|la]] [[police|policía]] [[_______|_______]].",
-          "options": [
-            "[[was arriving|estaba llegando]]",
-            "[[arrived|llegó]]",
-            "[[had arrived|había llegado]]"
-          ],
+          "options": ["[[had arrived|había llegado]]", "[[arrived|llegó]]", "[[was arriving|estaba llegando]]"],
           "correctAnswer": 1,
           "explanation": "Past simple 'arrived' is used for the second action in a past perfect sequence.",
           "audio": "audio/b2/unit-1/e41.mp3"
@@ -1228,11 +1164,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[It's|Es]] [[common|común]] [[to| ]] [[_______|_______]] [[from|de los]] [[friends|amigos]] [[after|después de]] [[you|terminar]] [[finish|la]] [[school.|escuela.]]",
-          "options": [
-            "[[drift apart|distanciarse]]",
-            "[[fall out|pelearse]]",
-            "[[break up|romper]]"
-          ],
+          "options": ["[[drift apart|distanciarse]]", "[[fall out|pelearse]]", "[[break up|romper]]"],
           "correctAnswer": 0,
           "explanation": "'Drift apart' means to gradually become less close to someone.",
           "audio": "audio/b2/unit-1/e42.mp3"
@@ -1255,12 +1187,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[Little|Poco]] [[_______|_______]] [[he|él]] [[suspect|sospechaba]] [[that|que]] [[his|sus]] [[friends|amigos]] [[were|estaban]] [[planning|planeando]] [[a|una]] [[surprise.|sorpresa.]]",
-          "options": [
-            "[[had|había]]",
-            "[[did|sospechaba]]",
-            "[[was|estaba]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[had|había]]", "[[was|estaba]]", "[[did|sospechaba]]"],
+          "correctAnswer": 2,
           "explanation": "'Little did he suspect' uses the auxiliary 'did' for past simple inversion.",
           "audio": "audio/b2/unit-1/e43.mp3"
         }
@@ -1282,12 +1210,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[I|Necesito]] [[need|un]] [[a|amigo]] [[friend|en]] [[who|quien]] [[I|pueda]] [[can| ]] [[_______|_______]] [[in|en momentos]] [[difficult|difíciles.]] [[times.| ]]",
-          "options": [
-            "[[count in|incluir]]",
-            "[[count on|contar]]",
-            "[[count up|sumar]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[count up|sumar]]", "[[count in|incluir]]", "[[count on|contar]]"],
+          "correctAnswer": 2,
           "explanation": "'Count on' is the standard phrasal verb for relying on someone.",
           "audio": "audio/b2/unit-1/e44.mp3"
         }
@@ -1309,12 +1233,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[Scarcely|Apenas]] [[_______|_______]] [[she|ella]] [[finished|terminado]] [[her|su]] [[speech|discurso]] [[when|cuando]] [[the|el]] [[audience|público]] [[erupted|estalló]] [[in|en]] [[applause.|aplausos.]]",
-          "options": [
-            "[[had|había]]",
-            "[[was|estaba]]",
-            "[[did|hizo]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[did|hizo]]", "[[had|había]]", "[[was|estaba]]"],
+          "correctAnswer": 1,
           "explanation": "'Scarcely' requires the past perfect auxiliary 'had'.",
           "audio": "audio/b2/unit-1/e45.mp3"
         }
@@ -1336,12 +1256,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[We|Nosotros]] [[have|siempre]] [[always|hemos]] [[_______|_______]] [[on|en]] [[important|las decisiones]] [[decisions.|importantes.]]",
-          "options": [
-            "[[turned a blind eye|ignorado]]",
-            "[[kept an eye on|vigilado]]",
-            "[[seen eye to eye|estado de acuerdo]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[turned a blind eye|ignorado]]", "[[seen eye to eye|estado de acuerdo]]", "[[kept an eye on|vigilado]]"],
+          "correctAnswer": 1,
           "explanation": "'See eye to eye' means to have the same opinion as someone.",
           "audio": "audio/b2/unit-1/e46.mp3"
         }
@@ -1363,12 +1279,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[I|Estaba]] [[_______|_______]] [[leave|irme]] [[when|cuando]] [[you|entraste]] [[walked|en la]] [[into|habitación.]] [[the| ]] [[room.| ]]",
-          "options": [
-            "[[was about to|a punto de]]",
-            "[[was going to|iba a]]",
-            "[[was used to|solía]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[was used to|solía]]", "[[was about to|a punto de]]", "[[was going to|iba a]]"],
+          "correctAnswer": 1,
           "explanation": "'Was about to' means something was going to happen very soon.",
           "audio": "audio/b2/unit-1/e47.mp3"
         }
@@ -1390,12 +1302,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[It's|Es]] [[time|hora de]] [[_______|_______]] [[and|y]] [[talk|hablar]] [[about|de]] [[what|lo que]] [[happened.|pasó.]]",
-          "options": [
-            "[[clear the air|aclarar las cosas]]",
-            "[[be on the air|estar transmitiendo]]",
-            "[[walk on air|estar muy feliz]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[be on the air|estar transmitiendo]]", "[[clear the air|aclarar las cosas]]", "[[walk on air|estar muy feliz]]"],
+          "correctAnswer": 1,
           "explanation": "'Clear the air' means to get rid of feelings of bad temper or worry between people.",
           "audio": "audio/b2/unit-1/e48.mp3"
         }
@@ -1417,12 +1325,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[_______|_______]] [[you|que]] [[were|te]] [[offered|ofrecieran]] [[a|un]] [[job|trabajo]] [[abroad,|en el extranjero,]] [[would|¿lo]] [[you|aceptarías?]] [[take| ]] [[it?| ]]",
-          "options": [
-            "[[If|Si]]",
-            "[[Supposing|Supongamos]]",
-            "[[When|Cuando]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[If|Si]]", "[[When|Cuando]]", "[[Supposing|Supongamos]]"],
+          "correctAnswer": 2,
           "explanation": "'Supposing' is used to suggest a hypothetical situation.",
           "audio": "audio/b2/unit-1/e49.mp3"
         }
@@ -1444,11 +1348,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[She|Ella]] [[_______|_______]] [[her|a su]] [[mother|madre]] [[in|en]] [[terms|cuanto]] [[of|a su]] [[artistic|talento]] [[talent.|artístico.]]",
-          "options": [
-            "[[takes after|se parece a]]",
-            "[[takes up|empieza]]",
-            "[[takes on|asume]]"
-          ],
+          "options": ["[[takes after|se parece a]]", "[[takes on|asume]]", "[[takes up|empieza]]"],
           "correctAnswer": 0,
           "explanation": "'Take after' means to resemble a parent or relative in appearance or character.",
           "audio": "audio/b2/unit-1/e50.mp3"

@@ -748,11 +748,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[I|Tengo]] [[am|muchas]] [[looking|ganas]] [[forward|de]] [[to| ]] _______ [[the|la]] [[new|nueva]] [[play|obra]] [[at|en]] [[the|el]] [[theater.|teatro.]]",
-          "options": [
-            "[[seen|ver]]",
-            "[[seeing|ver]]",
-            "[[see|ver]]"
-          ],
+          "options": ["[[see|ver]]", "[[seeing|ver]]", "[[seen|ver]]"],
           "correctAnswer": 1,
           "explanation": "'Looking forward to' requiere gerundio (-ing) o sustantivo.",
           "audio": "audio/b2/unit-8/e26.mp3"
@@ -775,12 +771,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|La]] [[movie|película]] [[was|era]] [[so|tan]] _______ [[that|que]] [[I|supe]] [[knew|el]] [[the|final]] [[ending...|a la mitad...]]",
-          "options": [
-            "[[predicated|predicado]]",
-            "[[predictable|predecible]]",
-            "[[predicament|aprieto]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[predictable|predecible]]", "[[predicament|aprieto]]", "[[predicated|predicado]]"],
+          "correctAnswer": 0,
           "explanation": "'Predictable' significa que ocurre de la manera que esperabas.",
           "audio": "audio/b2/unit-8/e27.mp3"
         }
@@ -802,11 +794,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[I|Ojalá]] [[wish| ]] [[I|yo]] _______ [[missed|me hubiera perdido]] [[the|la]] [[live|actuación]] [[performance|en vivo]] [[last|anoche.]] [[night.| ]]",
-          "options": [
-            "[[haven't|he]]",
-            "[[hadn't|hubiera]]",
-            "[[didn't|hice]]"
-          ],
+          "options": ["[[didn't|hice]]", "[[hadn't|hubiera]]", "[[haven't|he]]"],
           "correctAnswer": 1,
           "explanation": "'I wish' + past perfect negativo expresa arrepentimiento por haber hecho algo.",
           "audio": "audio/b2/unit-8/e28.mp3"
@@ -829,11 +817,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|La]] [[film|película]] [[received|recibió]] _______ [[reviews|de la]] [[from|crítica]] [[critics...|y el público...]]",
-          "options": [
-            "[[rare|poco comunes]]",
-            "[[rave|entusiastas]]",
-            "[[rough|duras]]"
-          ],
+          "options": ["[[rare|poco comunes]]", "[[rave|entusiastas]]", "[[rough|duras]]"],
           "correctAnswer": 1,
           "explanation": "'Rave reviews' es una expresión para críticas muy elogiosas.",
           "audio": "audio/b2/unit-8/e29.mp3"
@@ -856,12 +840,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[Would|¿Te]] [[you|importaría]] [[mind| ]] _______ [[the|el]] [[volume?|volumen?]]",
-          "options": [
-            "[[turning down|bajar]]",
-            "[[turning off|apagar]]",
-            "[[turning up|subir]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[turning up|subir]]", "[[turning off|apagar]]", "[[turning down|bajar]]"],
+          "correctAnswer": 2,
           "explanation": "'Turn down' se usa para reducir el sonido o el calor.",
           "audio": "audio/b2/unit-8/e30.mp3"
         }
@@ -883,12 +863,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|El]] [[show|programa]] [[was|fue]] [[canceled|cancelado]] [[because|porque]] [[it|no]] [[didn't|tuvo]] [[get|suficientes]] [[enough| ]] _______.",
-          "options": [
-            "[[voyageurs|viajeros]]",
-            "[[viewers|espectadores]]",
-            "[[visitors|visitantes]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[viewers|espectadores]]", "[[visitors|visitantes]]", "[[voyageurs|viajeros]]"],
+          "correctAnswer": 0,
           "explanation": "'Viewers' son las personas que ven la televisión o videos.",
           "audio": "audio/b2/unit-8/e31.mp3"
         }
@@ -910,12 +886,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[It's|Ya]] [[about|va]] [[time|siendo]] [[they|hora de]] _______ [[the|la]] [[next|próxima]] [[season...|temporada...]]",
-          "options": [
-            "[[release|estrenen]]",
-            "[[released|estrenaran]]",
-            "[[will release|estrenarán]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[released|estrenaran]]", "[[release|estrenen]]", "[[will release|estrenarán]]"],
+          "correctAnswer": 0,
           "explanation": "'It's about time' requiere pasado simple.",
           "audio": "audio/b2/unit-8/e32.mp3"
         }
@@ -937,12 +909,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|Las]] _______ [[of|de]] [[the|la]] [[song|canción]] [[are|son]] [[very|muy]] [[meaningful...|profundas...]]",
-          "options": [
-            "[[lines|líneas]]",
-            "[[lyrics|letras]]",
-            "[[letters|cartas]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[lines|líneas]]", "[[letters|cartas]]", "[[lyrics|letras]]"],
+          "correctAnswer": 2,
           "explanation": "'Lyrics' son las palabras que componen una canción.",
           "audio": "audio/b2/unit-8/e33.mp3"
         }
@@ -964,12 +932,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[I'd|Preferiría]] [[rather|que]] [[you|no]] _______ [[the|el]] [[ending|final]] [[of|de]] [[the|la]] [[movie.|película.]]",
-          "options": [
-            "[[didn't tell|contaras]]",
-            "[[not tell|cuentes]]",
-            "[[don't tell|cuentes]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[not tell|cuentes]]", "[[didn't tell|contaras]]", "[[don't tell|cuentes]]"],
+          "correctAnswer": 1,
           "explanation": "'Would rather' con sujeto distinto requiere pasado simple.",
           "audio": "audio/b2/unit-8/e34.mp3"
         }
@@ -991,12 +955,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|Los]] _______ [[were|estaban]] [[waiting|esperando]] [[outside...|fuera...]]",
-          "options": [
-            "[[paparazzi|paparazzi]]",
-            "[[reporters|reporteros]]",
-            "[[photographers|fotógrafos (genérico)]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[photographers|fotógrafos (genérico)]]", "[[reporters|reporteros]]", "[[paparazzi|paparazzi]]"],
+          "correctAnswer": 2,
           "explanation": "'Paparazzi' se refiere específicamente a fotógrafos que persiguen a famosos.",
           "audio": "audio/b2/unit-8/e35.mp3"
         }
@@ -1018,12 +978,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "_______ [[had|se]] [[the|había]] [[news|anunciado]] [[been|la]] [[announced|noticia]] [[when...|cuando...]]",
-          "options": [
-            "[[Hard|Duro]]",
-            "[[Hardest|Más duro]]",
-            "[[Hardly|Apenas]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[Hardest|Más duro]]", "[[Hardly|Apenas]]", "[[Hard|Duro]]"],
+          "correctAnswer": 1,
           "explanation": "'Hardly' seguido de inversión indica inmediatez.",
           "audio": "audio/b2/unit-8/e36.mp3"
         }
@@ -1045,12 +1001,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|El]] [[book|libro]] [[was|era]] [[so|tan]] [[captivating|cautivador]] [[that|que]] [[I|lo]] [[read|leí]] [[it|en]] [[in| ]] _______.",
-          "options": [
-            "[[one meeting|reunión]]",
-            "[[one standing|pie]]",
-            "[[one sitting|un tirón]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[one sitting|un tirón]]", "[[one standing|pie]]", "[[one meeting|reunión]]"],
+          "correctAnswer": 0,
           "explanation": "'In one sitting' significa hacer algo sin interrupción.",
           "audio": "audio/b2/unit-8/e37.mp3"
         }
@@ -1072,12 +1024,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "_______ [[you|que]] [[were|fueras]] [[a|un]] [[famous|director]] [[director,|famoso...]]",
-          "options": [
-            "[[Think|Piensa]]",
-            "[[Imagine|Imagina]]",
-            "[[Suppose|Supongamos]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[Imagine|Imagina]]", "[[Suppose|Supongamos]]", "[[Think|Piensa]]"],
+          "correctAnswer": 1,
           "explanation": "'Suppose' se usa para plantear situaciones imaginarias.",
           "audio": "audio/b2/unit-8/e38.mp3"
         }
@@ -1099,11 +1047,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|El]] [[news|medio]] [[outlet|de]] [[was|comunicación]] [[criticized|fue]] [[for|criticado]] [[its|por]] _______ [[reporting.| ]]",
-          "options": [
-            "[[biased|sesgada]]",
-            "[[broad|amplia]]",
-            "[[balanced|equilibrada]]"
-          ],
+          "options": ["[[biased|sesgada]]", "[[balanced|equilibrada]]", "[[broad|amplia]]"],
           "correctAnswer": 0,
           "explanation": "'Biased' significa inclinado a favor o en contra de algo de manera injusta.",
           "audio": "audio/b2/unit-8/e39.mp3"
@@ -1126,12 +1070,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[No|Apenas]] [[sooner| ]] _______ [[he|hubo]] [[stepped|entrado]] [[on|en]] [[stage|el escenario]] [[than|cuando]] [[the|la]] [[crowd|multitud]] [[went|se]] [[wild.|volvió loca.]]",
-          "options": [
-            "[[has|ha]]",
-            "[[did|hizo]]",
-            "[[had|hubo]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[had|hubo]]", "[[has|ha]]", "[[did|hizo]]"],
+          "correctAnswer": 0,
           "explanation": "'No sooner had + subject + past participle' es la estructura correcta.",
           "audio": "audio/b2/unit-8/e40.mp3"
         }
@@ -1153,11 +1093,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|La]] [[film|película]] [[features|cuenta con]] [[a|un]] _______ [[cast|de actores de]] [[of|Hollywood.]] [[Hollywood| ]] [[actors.| ]]",
-          "options": [
-            "[[star-shaped|forma de estrella]]",
-            "[[star-gazing|mirar estrellas]]",
-            "[[star-studded|estelar]]"
-          ],
+          "options": ["[[star-shaped|forma de estrella]]", "[[star-gazing|mirar estrellas]]", "[[star-studded|estelar]]"],
           "correctAnswer": 2,
           "explanation": "'Star-studded' describe algo que cuenta con la presencia de muchas celebridades.",
           "audio": "audio/b2/unit-8/e41.mp3"
@@ -1180,11 +1116,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "_______ [[I|yo]] [[to|ganara]] [[win|la]] [[the|lotería,]] [[lottery,|produciría]] [[I|mi]] [[would|propia]] [[produce|película.]] [[my| ]] [[own| ]] [[movie.| ]]",
-          "options": [
-            "[[Am|Si]]",
-            "[[Were|Si]]",
-            "[[Was|Si]]"
-          ],
+          "options": ["[[Am|Si]]", "[[Were|Si]]", "[[Was|Si]]"],
           "correctAnswer": 1,
           "explanation": "'Were I to + verb' es una alternativa formal a 'If I + past simple'.",
           "audio": "audio/b2/unit-8/e42.mp3"
@@ -1207,12 +1139,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|La]] [[broadcast|transmisión]] [[was|fue]] [[delayed|retrasada]] [[due|debido]] [[to|a]] [[a|un]] [[technical|técnico]] _______.",
-          "options": [
-            "[[glitch|fallo]]",
-            "[[growth|crecimiento]]",
-            "[[goal|meta]]"
-          ],
-          "correctAnswer": 0,
+          "options": ["[[growth|crecimiento]]", "[[glitch|fallo]]", "[[goal|meta]]"],
+          "correctAnswer": 1,
           "explanation": "'Glitch' es un error informático o técnico inesperado.",
           "audio": "audio/b2/unit-8/e43.mp3"
         }
@@ -1234,12 +1162,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[He|Él]] [[is|es]] [[capable|capaz]] _______ [[acting|de actuar]] [[in|tanto]] [[both|en papeles]] [[comedic...|cómicos...]]",
-          "options": [
-            "[[to|de]]",
-            "[[for|de]]",
-            "[[of|de]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[for|de]]", "[[of|de]]", "[[to|de]]"],
+          "correctAnswer": 1,
           "explanation": "'Capable' siempre va seguido de 'of' + gerundio.",
           "audio": "audio/b2/unit-8/e44.mp3"
         }
@@ -1261,11 +1185,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "_______ [[services|de suscripción]] [[have|han]] [[revolutionized|revolucionado]] [[the|la]] [[way|manera]] [[we|en que]] [[consume|consumimos]] [[media.|los medios.]]",
-          "options": [
-            "[[Subversion|Subversión]]",
-            "[[Subscription|Suscripción]]",
-            "[[Submission|Sumisión]]"
-          ],
+          "options": ["[[Subversion|Subversión]]", "[[Subscription|Suscripción]]", "[[Submission|Sumisión]]"],
           "correctAnswer": 1,
           "explanation": "'Subscription services' son modelos de negocio donde se paga por acceso periódico.",
           "audio": "audio/b2/unit-8/e45.mp3"
@@ -1288,12 +1208,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "_______ [[that|que]] [[the|los]] [[ratings|índices de audiencia]] [[improve,|mejoren,]] [[the|el]] [[show|programa]] [[will|será]] [[be|renovado.]] [[renewed.| ]]",
-          "options": [
-            "[[Despite|A pesar de]]",
-            "[[Unless|A menos que]]",
-            "[[Provided|Siempre que]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[Provided|Siempre que]]", "[[Despite|A pesar de]]", "[[Unless|A menos que]]"],
+          "correctAnswer": 0,
           "explanation": "'Provided that' establece una condición necesaria.",
           "audio": "audio/b2/unit-8/e46.mp3"
         }
@@ -1315,11 +1231,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|La]] [[movie|película]] _______ [[the|el]] [[theme|tema]] [[of|del]] [[isolation|aislamiento]] [[in|en]] [[a|una]] [[digital|era]] [[age.|digital.]]",
-          "options": [
-            "[[explains|explica]]",
-            "[[explores|explora]]",
-            "[[exposes|expone]]"
-          ],
+          "options": ["[[explains|explica]]", "[[explores|explora]]", "[[exposes|expone]]"],
           "correctAnswer": 1,
           "explanation": "'Explore' se usa para obras que profundizan en conceptos o sentimientos.",
           "audio": "audio/b2/unit-8/e47.mp3"
@@ -1342,12 +1254,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[It|Vale]] [[is|la]] [[worth|pena]] _______ [[the|la]] [[director's|versión]] [[cut|del]] [[for|director]] [[extra|con]] [[scenes.|escenas extra.]]",
-          "options": [
-            "[[to watch|ver]]",
-            "[[watching|ver]]",
-            "[[watch|ver]]"
-          ],
-          "correctAnswer": 1,
+          "options": ["[[watching|ver]]", "[[watch|ver]]", "[[to watch|ver]]"],
+          "correctAnswer": 0,
           "explanation": "'It is worth' requiere obligatoriamente gerundio (-ing).",
           "audio": "audio/b2/unit-8/e48.mp3"
         }
@@ -1369,12 +1277,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|El]] [[news|presentador]] [[anchor|es]] [[is|un]] [[a| ]] _______ [[in|conocido]] [[many|en]] [[countries.|muchos países.]]",
-          "options": [
-            "[[housing name|nombre de vivienda]]",
-            "[[house name|nombre de casa]]",
-            "[[household name|nombre muy conocido]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[household name|nombre muy conocido]]", "[[house name|nombre de casa]]", "[[housing name|nombre de vivienda]]"],
+          "correctAnswer": 0,
           "explanation": "A 'household name' es una persona o marca que todos conocen.",
           "audio": "audio/b2/unit-8/e49.mp3"
         }
@@ -1396,12 +1300,8 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "_______ [[you|que]] [[have|tengas]] [[a|un]] [[VIP|pase]] [[pass,|VIP,]] [[you|no]] [[won't|te]] [[be|dejarán]] [[allowed|entrar]] [[backstage.|al backstage.]]",
-          "options": [
-            "[[If|Si]]",
-            "[[Provided|Siempre que]]",
-            "[[Unless|A menos que]]"
-          ],
-          "correctAnswer": 2,
+          "options": ["[[Unless|A menos que]]", "[[If|Si]]", "[[Provided|Siempre que]]"],
+          "correctAnswer": 0,
           "explanation": "'Unless' introduce una condición negativa.",
           "audio": "audio/b2/unit-8/e50.mp3"
         }
