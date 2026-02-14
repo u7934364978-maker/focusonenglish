@@ -1,5 +1,9 @@
 import { Exercise } from '@/lib/exercise-generator';
 
+/**
+ * Unit 11: Jobs
+ */
+
 export const UNIT_11_EXERCISES: Exercise[] = [
   {
     id: 'a1-u11-e1',
