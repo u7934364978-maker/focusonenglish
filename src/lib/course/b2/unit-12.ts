@@ -12,8 +12,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Voice: Present",
       instructions: "Choose the correct passive form.",
-      question: "The reports ___ (send) every Monday morning.",
-      options: ["are sent", "is sent", "were sent"],
+      question: "[[The|Los]] [[reports|informes]] [[are|se]] [[sent|envían]] [[every|cada]] [[Monday|lunes]] [[morning.|por la mañana.]]",
+      options: ["[[are sent|se envían"]]", "[[is sent|se envía]]", "[[were sent|se enviaron]]"],
       correctAnswer: "are sent",
       explanation: "Present simple passive: am/is/are + past participle.",
       translation: "Los informes se envían cada lunes por la mañana.",
@@ -31,8 +31,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Voice: Past",
       instructions: "Choose the correct passive form.",
-      question: "The company ___ (found) in 1995.",
-      options: ["was founded", "is founded", "were founded"],
+      question: "[[The|La]] [[company|empresa]] [[was|fue]] [[founded|fundada]] [[in|en]] [[1995.|1995.]]",
+      options: ["[[was founded|fue fundada"]]", "[[is founded|es fundada]]", "[[were founded|fueron fundadas]]"],
       correctAnswer: "was founded",
       explanation: "Past simple passive: was/were + past participle.",
       translation: "La empresa fue fundada en 1995.",
@@ -50,8 +50,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Voice: Present",
       instructions: "Choose the correct passive form.",
-      question: "Coffee ___ (serve) in the break room.",
-      options: ["is served", "are served", "was served"],
+      question: "[[Coffee|El café]] [[is|se]] [[served|sirve]] [[in|en]] [[the|la]] [[break|sala de]] [[room.|descanso.]]",
+      options: ["[[is served|se sirve"]]", "[[are served|se sirven]]", "[[was served|se sirvió]]"],
       correctAnswer: "is served",
       explanation: "Present simple passive for routine actions.",
       translation: "El café se sirve en la sala de descanso.",
@@ -69,8 +69,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Voice: Past",
       instructions: "Choose the correct passive form.",
-      question: "The new office ___ (paint) last weekend.",
-      options: ["was painted", "is painted", "were painted"],
+      question: "[[The|La]] [[new|nueva]] [[office|oficina]] [[was|fue]] [[painted|pintada]] [[last|el pasado]] [[weekend.|fin de semana.]]",
+      options: ["[[was painted|fue pintada"]]", "[[is painted|es pintada]]", "[[were painted|fueron pintadas]]"],
       correctAnswer: "was painted",
       explanation: "Past simple passive for a completed action.",
       translation: "La nueva oficina fue pintada el fin de semana pasado.",
@@ -88,8 +88,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Voice: Present",
       instructions: "Choose the correct passive form.",
-      question: "These products ___ (manufacture) in Germany.",
-      options: ["are manufactured", "is manufactured", "was manufactured"],
+      question: "[[These|Estos]] [[products|productos]] [[are|se]] [[manufactured|fabrican]] [[in|en]] [[Germany.|Alemania.]]",
+      options: ["[[are manufactured|se fabrican"]]", "[[is manufactured|se fabrica]]", "[[was manufactured|se fabricó]]"],
       correctAnswer: "are manufactured",
       explanation: "Present simple passive for facts.",
       translation: "Estos productos se fabrican en Alemania.",
@@ -107,7 +107,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Voice: Past",
       instructions: "Choose the correct passive form.",
-      question: "The decision ___ (make) by the board yesterday.",
+      question: "[[The decision ___ (make) by the board yesterday.|La decisión fue tomada por la junta ayer.]]",
       options: ["was made", "is made", "were made"],
       correctAnswer: "was made",
       explanation: "Past simple passive with 'by' for the agent.",
@@ -126,7 +126,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Voice: Present Negative",
       instructions: "Choose the correct passive form.",
-      question: "Letters ___ (not/deliver) on Sundays.",
+      question: "[[Letters ___ (not/deliver) on Sundays.|Las cartas no se entregan los domingos.]]",
       options: ["are not delivered", "is not delivered", "were not delivered"],
       correctAnswer: "are not delivered",
       explanation: "Negative present simple passive.",
@@ -145,7 +145,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Voice: Past",
       instructions: "Choose the correct passive form.",
-      question: "The mistake ___ (discover) by the intern.",
+      question: "[[The mistake ___ (discover) by the intern.|El error fue descubierto por el becario.]]",
       options: ["was discovered", "is discovered", "were discovered"],
       correctAnswer: "was discovered",
       explanation: "Past simple passive.",
@@ -164,7 +164,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Voice: Present",
       instructions: "Choose the correct passive form.",
-      question: "Meetings ___ (hold) in the conference room.",
+      question: "[[Meetings ___ (hold) in the conference room.|Las reuniones se celebran en la sala de conferencias.]]",
       options: ["are held", "is held", "was held"],
       correctAnswer: "are held",
       explanation: "Present simple passive for regular locations.",
@@ -183,7 +183,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Voice: Past",
       instructions: "Choose the correct passive form.",
-      question: "The project ___ (complete) on time.",
+      question: "[[The project ___ (complete) on time.|El proyecto se completó a tiempo.]]",
       options: ["was completed", "is completed", "were completed"],
       correctAnswer: "was completed",
       explanation: "Past simple passive.",
@@ -204,7 +204,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Continuous",
       instructions: "Fill in the blank with the correct passive continuous form.",
-      question: "The office ___ (clean) at the moment.",
+      question: "[[The office ___ (clean) at the moment.|La oficina está siendo limpiada en este momento.]]",
       correctAnswer: "is being cleaned",
       explanation: "Present continuous passive: am/is/are + being + past participle.",
       translation: "La oficina está siendo limpiada en este momento.",
@@ -222,7 +222,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Perfect",
       instructions: "Fill in the blank with the correct passive perfect form.",
-      question: "The website ___ (update) recently.",
+      question: "[[The website ___ (update) recently.|El sitio web ha sido actualizado recientemente.]]",
       correctAnswer: "has been updated",
       explanation: "Present perfect passive: have/has + been + past participle.",
       translation: "El sitio web ha sido actualizado recientemente.",
@@ -240,7 +240,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Continuous",
       instructions: "Fill in the blank with the correct passive continuous form.",
-      question: "The new software ___ (test) all morning.",
+      question: "[[The new software ___ (test) all morning.|El nuevo software está siendo probado toda la mañana.]]",
       correctAnswer: "is being tested",
       explanation: "Present continuous passive for an ongoing action.",
       translation: "El nuevo software está siendo probado toda la mañana.",
@@ -258,7 +258,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Perfect",
       instructions: "Fill in the blank with the correct passive perfect form.",
-      question: "The employees ___ (inform) about the changes.",
+      question: "[[The employees ___ (inform) about the changes.|Los empleados han sido informados sobre los cambios.]]",
       correctAnswer: "have been informed",
       explanation: "Present perfect passive for plural subject.",
       translation: "Los empleados han sido informados sobre los cambios.",
@@ -276,7 +276,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Perfect",
       instructions: "Fill in the blank with the correct passive perfect form.",
-      question: "The package ___ (already/send).",
+      question: "[[The package ___ (already/send).|El paquete ya ha sido enviado.]]",
       correctAnswer: "has already been sent",
       explanation: "Present perfect passive with 'already'.",
       translation: "El paquete ya ha sido enviado.",
@@ -296,7 +296,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Workplace Roles",
       instructions: "Complete with the correct department name.",
-      question: "She is in charge of the ___ (human) resources department.",
+      question: "[[She is in charge of the ___ (human) resources department.|Ella está a cargo del departamento de recursos humanos.]]",
       correctAnswer: "human",
       explanation: "Human Resources (HR) is the department that handles employees.",
       translation: "Ella está a cargo del departamento de recursos humanos.",
@@ -314,7 +314,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Workplace Roles",
       instructions: "Complete with the correct role.",
-      question: "The ___ (manager) is responsible for the team's performance.",
+      question: "[[The ___ (manager) is responsible for the team's performance.|El gerente es responsable del desempeño del equipo.]]",
       correctAnswer: "manager",
       explanation: "A manager leads a team or department.",
       translation: "El gerente es responsable del desempeño del equipo.",
@@ -332,7 +332,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Workplace Roles",
       instructions: "Complete with the correct role.",
-      question: "I am an ___ (intern) learning the ropes.",
+      question: "[[I am an ___ (intern) learning the ropes.|Soy un becario aprendiendo cómo funcionan las cosas.]]",
       correctAnswer: "intern",
       explanation: "An intern is a student or trainee who works to gain experience.",
       translation: "Soy un becario aprendiendo cómo funcionan las cosas.",
@@ -350,7 +350,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Workplace Roles",
       instructions: "Complete with the correct role.",
-      question: "He works as a ___ (consultant) for several firms.",
+      question: "[[He works as a ___ (consultant) for several firms.|Él trabaja como consultor para varias firmas.]]",
       correctAnswer: "consultant",
       explanation: "A consultant provides professional advice.",
       translation: "Él trabaja como consultor para varias firmas.",
@@ -368,7 +368,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Workplace Roles",
       instructions: "Complete with the correct role.",
-      question: "The ___ (executive) made a bold move.",
+      question: "[[The ___ (executive) made a bold move.|El ejecutivo hizo un movimiento audaz.]]",
       correctAnswer: "executive",
       explanation: "An executive is a high-level manager.",
       translation: "El ejecutivo hizo un movimiento audaz.",
@@ -388,7 +388,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Office Environment",
       instructions: "Choose the correct term.",
-      question: "We work in an ___ (open)-plan office.",
+      question: "[[We work in an ___ (open)-plan office.|Trabajamos en una oficina de planta abierta.]]",
       options: ["open", "free", "wide"],
       correctAnswer: "open",
       explanation: "An 'open-plan' office has no or few interior walls.",
@@ -407,7 +407,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Office Tasks",
       instructions: "Choose the correct verb.",
-      question: "I need to ___ (book) a meeting room.",
+      question: "[[I need to ___ (book) a meeting room.|Necesito reservar una sala de reuniones.]]",
       options: ["book", "take", "make"],
       correctAnswer: "book",
       explanation: "To 'book' means to reserve.",
@@ -426,7 +426,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Office Life",
       instructions: "Choose the correct term.",
-      question: "The ___ (deadline) for the project is Friday.",
+      question: "[[The ___ (deadline) for the project is Friday.|La fecha límite para el proyecto es el viernes.]]",
       options: ["deadline", "limit", "end"],
       correctAnswer: "deadline",
       explanation: "A deadline is the latest time or date by which something should be completed.",
@@ -445,7 +445,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Office Communication",
       instructions: "Choose the correct verb.",
-      question: "Please ___ (attach) the file to the email.",
+      question: "[[Please ___ (attach) the file to the email.|Por favor, adjunta el archivo al correo electrónico.]]",
       options: ["attach", "join", "add"],
       correctAnswer: "attach",
       explanation: "To 'attach' a file means to send it with an email.",
@@ -464,7 +464,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Office Meetings",
       instructions: "Choose the correct term.",
-      question: "We have a weekly ___ (briefing) on Mondays.",
+      question: "[[We have a weekly ___ (briefing) on Mondays.|Tenemos una reunión informativa semanal los lunes.]]",
       options: ["briefing", "talk", "chat"],
       correctAnswer: "briefing",
       explanation: "A briefing is a short meeting to give information or instructions.",
@@ -485,7 +485,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation: Employment",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (EMPLOY) rates are high this year.",
+      question: "[[The ___ (EMPLOY) rates are high this year.|Las tasas de empleo son altas este año.]]",
       correctAnswer: "employment",
       explanation: "The noun form of 'employ' is 'employment'.",
       translation: "Las tasas de empleo son altas este año.",
@@ -503,7 +503,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation: Ambition",
       instructions: "Transform the word in brackets.",
-      question: "She is a very ___ (AMBIT) young woman.",
+      question: "[[She is a very ___ (AMBIT) young woman.|Ella es una joven muy ambiciosa.]]",
       correctAnswer: "ambitious",
       explanation: "The adjective form of 'ambition' is 'ambitious'.",
       translation: "Ella es una joven muy ambiciosa.",
@@ -521,7 +521,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation: Qualify",
       instructions: "Transform the word in brackets.",
-      question: "His ___ (QUALIFY) are perfect for the job.",
+      question: "[[His ___ (QUALIFY) are perfect for the job.|Sus cualificaciones son perfectas para el trabajo.]]",
       correctAnswer: "qualifications",
       explanation: "The plural noun form of 'qualify' in this context is 'qualifications'.",
       translation: "Sus cualificaciones son perfectas para el trabajo.",
@@ -539,7 +539,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation: Train",
       instructions: "Transform the word in brackets.",
-      question: "The company provides excellent ___ (TRAIN).",
+      question: "[[The company provides excellent ___ (TRAIN).|La empresa ofrece una excelente formación.]]",
       correctAnswer: "training",
       explanation: "The noun for the process of teaching skills is 'training'.",
       translation: "La empresa ofrece una excelente formación.",
@@ -557,7 +557,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation: Rely",
       instructions: "Transform the word in brackets.",
-      question: "We are looking for a ___ (RELY) assistant.",
+      question: "[[We are looking for a ___ (RELY) assistant.|Estamos buscando un asistente confiable.]]",
       correctAnswer: "reliable",
       explanation: "The adjective form of 'rely' is 'reliable'.",
       translation: "Estamos buscando un asistente confiable.",
@@ -577,7 +577,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "The Remote Work Revolution",
       instructions: "Read the text and answer the question.",
-      question: "What is one benefit of remote work?",
+      question: "[[What is one benefit of remote work?|El trabajo remoto ofrece flexibilidad y elimina el trayecto diario.]]",
       options: ["Flexibility", "More meetings", "Less pay", "Longer commute"],
       correctAnswer: "Flexibility",
       explanation: "The text mentions flexibility as a benefit.",
@@ -596,7 +596,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Challenges of Remote Work",
       instructions: "Read the text and answer the question.",
-      question: "What is a common challenge mentioned?",
+      question: "[[What is a common challenge mentioned?|Muchos empleados se sienten aislados al trabajar desde casa por largos períodos.]]",
       options: ["Isolation", "Too much free time", "Better focus", "Faster internet"],
       correctAnswer: "Isolation",
       explanation: "The text highlights isolation as a common issue.",
@@ -617,8 +617,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Formal Email Openings",
       instructions: "Choose the best formal phrase.",
-      question: "To open a formal email to someone you don't know:",
-      options: ["Dear Sir/Madam,", "Hi there,", "To everyone,"],
+      question: "[[To open a formal email to someone you don't know:|Para abrir un correo formal a alguien que no conoces: Estimado/a Señor/a,]]",
+      options: ["Dear Sir/Madam", "", "Hi there", "", "To everyone", ""],
       correctAnswer: "Dear Sir/Madam,",
       explanation: "Standard formal greeting for unknown recipients.",
       translation: "Para abrir un correo formal a alguien que no conoces: Estimado/a Señor/a,",
@@ -636,7 +636,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Stating Purpose",
       instructions: "Choose the best formal phrase.",
-      question: "To state the purpose of the email:",
+      question: "[[To state the purpose of the email:|Para indicar el propósito del correo: Le escribo para informarle...]]",
       options: ["I am writing to inform you...", "Just wanted to say...", "Listen up:"],
       correctAnswer: "I am writing to inform you...",
       explanation: "Professional and direct way to begin an email.",
@@ -655,7 +655,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Requesting Information",
       instructions: "Choose the best formal phrase.",
-      question: "To request information:",
+      question: "[[To request information:|Para solicitar información: Le agradecería si pudiera...]]",
       options: ["I would be grateful if you could...", "Can you tell me...", "Need info:"],
       correctAnswer: "I would be grateful if you could...",
       explanation: "Conditional structure for high politeness.",
@@ -676,7 +676,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Presentation Transitions",
       instructions: "Identify effective presentation phrases.",
-      question: "How would you naturally transition to a new point?",
+      question: "[[How would you naturally transition to a new point?|Pasando a mi siguiente punto... es una buena transición.]]",
       options: ["Moving on to my next point...", "Next.", "Change topic.", "I have more."],
       correctAnswer: "Moving on to my next point...",
       explanation: "Signposting helps the audience follow the structure.",
@@ -695,7 +695,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Handling Questions",
       instructions: "Choose the best phrase to buy time for an answer.",
-      question: "Someone asks a difficult question. How do you start your response?",
+      question: "[[Someone asks a difficult question. How do you start your response?|Esa es una pregunta muy interesante. Permítame consultar los datos.]]",
       options: ["That's a very interesting question...", "I don't know.", "Wait a minute.", "Next question please."],
       correctAnswer: "That's a very interesting question...",
       explanation: "This phrase is professional and gives you a moment to think.",
@@ -714,8 +714,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Expressing Opinion",
       instructions: "Choose the best phrase to express an opinion.",
-      question: "How do you start expressing your professional opinion?",
-      options: ["In my opinion,", "I want this:", "Do it like this:", "I am the boss,"],
+      question: "[[How do you start expressing your professional opinion?|En mi opinión, deberíamos centrarnos en el nuevo mercado.]]",
+      options: ["In my opinion", "", "I want this:", "Do it like this:", "I am the boss", ""],
       correctAnswer: "In my opinion,",
       explanation: "A standard and polite way to introduce your thoughts.",
       translation: "En mi opinión, deberíamos centrarnos en el nuevo mercado.",
@@ -733,8 +733,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Polite Disagreement",
       instructions: "Choose the best phrase to disagree politely.",
-      question: "How do you disagree with a colleague's idea?",
-      options: ["I see your point, but...", "You are wrong.", "That is a bad idea.", "I don't like it."],
+      question: "[[How do you disagree with a colleague's idea?|Entiendo su punto, pero tengo una perspectiva diferente.]]",
+      options: ["I see your point", "but...", "You are wrong.", "That is a bad idea.", "I don't like it."],
       correctAnswer: "I see your point, but...",
       explanation: "Acknowledge their view before presenting yours to remain professional.",
       translation: "Entiendo su punto, pero tengo una perspectiva diferente.",
@@ -752,7 +752,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Asking for Clarification",
       instructions: "Choose the best phrase to ask for more detail.",
-      question: "You didn't understand a colleague. What do you say?",
+      question: "[[You didn't understand a colleague. What do you say?|¿Podría aclarar qué quiere decir con eso?]]",
       options: ["Could you please clarify...?", "What?", "Repeat now.", "I don't get it."],
       correctAnswer: "Could you please clarify...?",
       explanation: "A formal and clear way to ask for more information.",
@@ -771,7 +771,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Corporate Culture",
       instructions: "Read the text and answer the question.",
-      question: "What defines corporate culture?",
+      question: "[[What defines corporate culture?|La cultura corporativa son los valores y comportamientos compartidos de los empleados de una empresa.]]",
       options: ["Shared values and behaviors", "The company's profit", "The office building", "The number of employees"],
       correctAnswer: "Shared values and behaviors",
       explanation: "The text states culture is defined by shared values and behaviors.",
@@ -790,7 +790,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Boosting Productivity",
       instructions: "Read the text and answer the question.",
-      question: "What can boost productivity according to the text?",
+      question: "[[What can boost productivity according to the text?|Un ambiente de trabajo positivo puede aumentar significativamente la productividad de los empleados.]]",
       options: ["A positive work environment", "Longer hours", "More coffee", "Lower salaries"],
       correctAnswer: "A positive work environment",
       explanation: "The text links environment to productivity.",
@@ -809,7 +809,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Workplace Diversity",
       instructions: "Read the text and answer the question.",
-      question: "What is a benefit of diversity mentioned?",
+      question: "[[What is a benefit of diversity mentioned?|La diversidad en el lugar de trabajo aporta diferentes perspectivas e ideas innovadoras.]]",
       options: ["Innovative ideas", "Fewer meetings", "Cheaper office space", "Strict rules"],
       correctAnswer: "Innovative ideas",
       explanation: "Diversity is credited with bringing innovative ideas.",
@@ -828,7 +828,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Professional Growth",
       instructions: "Read the text and answer the question.",
-      question: "Why is continuous learning essential?",
+      question: "[[Why is continuous learning essential?|El aprendizaje continuo es esencial para mantenerse relevante en el acelerado mercado laboral actual.]]",
       options: ["To stay relevant", "To get a longer vacation", "To work fewer hours", "To use the gym"],
       correctAnswer: "To stay relevant",
       explanation: "Learning helps employees stay relevant in the market.",
@@ -847,7 +847,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Leadership Qualities",
       instructions: "Read the text and answer the question.",
-      question: "What does effective leadership involve?",
+      question: "[[What does effective leadership involve?|El liderazgo efectivo implica escuchar a los miembros del equipo y apoyar su desarrollo.]]",
       options: ["Listening and supporting", "Giving orders only", "Taking all the credit", "Avoiding the team"],
       correctAnswer: "Listening and supporting",
       explanation: "The text defines leadership as listening and supporting.",
@@ -867,7 +867,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Future Passive",
       instructions: "Choose the correct passive form.",
-      question: "The project ___ (finish) by next week.",
+      question: "[[The project ___ (finish) by next week.|El proyecto estará terminado para la próxima semana.]]",
       options: ["will be finished", "is finished", "was finished"],
       correctAnswer: "will be finished",
       explanation: "Future simple passive: will be + past participle.",
@@ -886,7 +886,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Past Passive",
       instructions: "Choose the correct form.",
-      question: "She was ___ (hire) as a consultant.",
+      question: "[[She was ___ (hire) as a consultant.|Ella fue contratada como consultora.]]",
       options: ["hired", "hire", "hiring"],
       correctAnswer: "hired",
       explanation: "Passive needs a past participle.",
@@ -905,7 +905,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Workplace Roles",
       instructions: "Fill in the blank.",
-      question: "We have a dedicated ___ (support) team.",
+      question: "[[We have a dedicated ___ (support) team.|Tenemos un equipo de soporte dedicado.]]",
       correctAnswer: "support",
       explanation: "A support team helps customers or internal staff.",
       translation: "Tenemos un equipo de soporte dedicado.",
@@ -923,7 +923,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Workplace Roles",
       instructions: "Fill in the blank.",
-      question: "He is the ___ (founder) of the startup.",
+      question: "[[He is the ___ (founder) of the startup.|Él es el fundador de la startup.]]",
       correctAnswer: "founder",
       explanation: "A founder is the person who started the company.",
       translation: "Él es el fundador de la startup.",
@@ -941,7 +941,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Workplace Roles",
       instructions: "Fill in the blank.",
-      question: "She works as a ___ (freelancer) from home.",
+      question: "[[She works as a ___ (freelancer) from home.|Ella trabaja como autónoma/freelance desde casa.]]",
       correctAnswer: "freelancer",
       explanation: "A freelancer is self-employed and works for different companies.",
       translation: "Ella trabaja como autónoma/freelance desde casa.",
