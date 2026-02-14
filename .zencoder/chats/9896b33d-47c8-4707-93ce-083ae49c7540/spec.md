@@ -1,16 +1,14 @@
-# Technical Specification - Translate B2 Unit 2 Exercises
+# Technical Specification - Translate B2 Unit 2 and Units 12-30
 
 ## Technical Context
 - **Language**: TypeScript
-- **Framework**: Next.js
-- **Data Source**: `src/lib/course/b2/unit-2.ts`
+- **Data Source**: `src/lib/course/b2/unit-2.ts`, `src/lib/course/b2/unit-12.ts` to `unit-30.ts`
 - **Component**: `TranslatedText` handles the `[[English|Spanish]]` syntax.
 
 ## Implementation Approach
-- Manually review and update the `question` field for the first 25 exercises in `src/lib/course/b2/unit-2.ts`.
-- Align translations word-by-word or by short phrases to ensure accuracy.
-- Ensure punctuation is handled correctly (usually inside the tooltip if attached to the word).
+- Use a script to identify missing translations or un-wrapped English words.
+- Manually or programmatically (using AI assistance) update the files.
+- Given the volume, work in batches (Unit 2 finish, then blocks of 5 units).
 
 ## Verification Plan
-- **Manual Verification**: Run the dev server and check the tooltips for the first 25 exercises in the B2 preview page.
-- **E2E Test**: Write a Playwright test to verify that tooltips appear and contain the expected text.
+- **Manual Verification**: Randomly check tooltips in the preview pages for affected units.

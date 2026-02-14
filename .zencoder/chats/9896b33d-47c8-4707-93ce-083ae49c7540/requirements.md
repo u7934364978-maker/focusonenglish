@@ -1,17 +1,15 @@
-# Requirements - Translate B2 Unit 2 Exercises
+# Requirements - Translate B2 Unit 2 and Units 12-30
 
-Apply translation tooltips to all English words in the first 25 exercises of the B2 Unit 2 course.
+Apply translation tooltips to all English words in the specified B2 Units.
 
 ## Scope
-- **Target File**: `src/lib/course/b2/unit-2.ts`
-- **Exercises**: First 25 exercises (ID `b2-u2-e1` to `b2-u2-e25`).
-- **Format**: Use the `[[English|Spanish]]` syntax in the `question` field.
+- **Target Files**: 
+  - `src/lib/course/b2/unit-2.ts` (Exercises 26-50)
+  - `src/lib/course/b2/unit-12.ts` through `src/lib/course/b2/unit-30.ts`
+- **Format**: Use the `[[English|Spanish]]` syntax in the `question` field and `options` field where applicable.
 
 ## Goals
-1. Ensure every English word in the `question` field has a corresponding Spanish translation tooltip.
-2. Fix misaligned translations where the English word and its tooltip do not match.
-3. Fill in missing translations (empty `[[word| ]]`).
-
-## Non-Goals
-- Translating beyond the first 25 exercises.
-- Changing exercise logic or structure.
+1. Complete translation for Unit 2.
+2. Translate all English content in Units 12 to 30.
+3. Align translations word-by-word.
+4. Fill in missing translations.

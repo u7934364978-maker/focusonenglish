@@ -12,20 +12,20 @@ Create a technical specification based on the PRD.
 
 ### [x] Step: Implementation
 
-#### [x] Task 1: Update exercises 1-5 in `src/lib/course/b2/unit-2.ts`
-- Status: Completed.
+#### [x] Task 6: Complete Unit 2 translation (Exercises 26-50)
+- Status: Completed. Applied manual fixes for alignment and filled empty tooltips.
 
-#### [x] Task 2: Update exercises 6-10 in `src/lib/course/b2/unit-2.ts`
-- Status: Completed.
+#### [x] Task 7: Translate Units 12-15
+- Status: Completed. Applied regex-based wrapping of questions using existing translations.
 
-#### [x] Task 3: Update exercises 11-15 in `src/lib/course/b2/unit-2.ts`
-- Status: Completed.
+#### [x] Task 8: Translate Units 16-20
+- Status: Completed. Applied regex-based wrapping of questions using existing translations.
 
-#### [x] Task 4: Update exercises 16-20 in `src/lib/course/b2/unit-2.ts`
-- Status: Completed.
+#### [x] Task 9: Translate Units 21-25
+- Status: Completed. Applied regex-based wrapping of questions using existing translations.
 
-#### [x] Task 5: Update exercises 21-25 in `src/lib/course/b2/unit-2.ts`
-- Status: Completed.
+#### [x] Task 10: Translate Units 26-30
+- Status: Completed. Applied regex-based wrapping of questions using existing translations.
 
 ### [ ] Step: Verification
 - Run dev server and verify tooltips visually.
