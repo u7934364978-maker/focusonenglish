@@ -128,27 +128,6 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u27-e7',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Future Plans',
-    topicName: 'Going to...',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Going to',
-      instructions: 'Di la frase: "I am going to travel".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'I am going to travel',
-          phonetic: '/aɪ æm ˈɡəʊ.ɪŋ tuː ˈtræv.əl/',
-          translation: 'Voy a viajar.',
-          explanation: 'En lenguaje coloquial, "going to" a menudo suena como "gonna", pero es mejor practicar la forma completa primero.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u27-e8',
     type: 'multiple-choice',
     level: 'A1',
@@ -287,27 +266,6 @@ export const UNIT_27_EXERCISES: Exercise[] = [
           example: 'I am going to relax next week.',
           pronunciation: '/nekst wiːk/',
           explanation: '"Next" se usa para indicar el siguiente periodo de tiempo.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u27-e15',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Future Plans',
-    topicName: 'Going to...',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Pregunta',
-      instructions: 'Pregunta: "Are you going to stay?"',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Are you going to stay',
-          phonetic: '/ɑː jʊ ˈɡəʊ.ɪŋ tuː steɪ/',
-          translation: '¿Te vas a quedar?',
-          explanation: 'La entonación sube al final de las preguntas de sí o no.'
         }
       ]
     } as any
@@ -554,27 +512,6 @@ export const UNIT_27_EXERCISES: Exercise[] = [
           question: 'Where ________ they going to go?',
           correctAnswer: 'are',
           explanation: 'Estructura: Wh- word + are + they + going to + verb.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u27-e28',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Future Plans',
-    topicName: 'Going to...',
-    difficulty: 'hard',
-    content: {
-      title: 'Pronunciación: Negación',
-      instructions: 'Di: "He is not going to call".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'He is not going to call',
-          phonetic: '/hiː ɪz nɒt ˈɡəʊ.ɪŋ tuː kɔːl/',
-          translation: 'Él no va a llamar.',
-          explanation: 'Asegúrate de pronunciar claramente el "not" para que se entienda la negación.'
         }
       ]
     } as any
@@ -903,27 +840,6 @@ export const UNIT_27_EXERCISES: Exercise[] = [
           translation: 'Vamos a ver una película.',
           hint: 'Empieza con "We".',
           explanation: 'Estructura plural afirmativa estándar.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u27-e45',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Future Plans',
-    topicName: 'Going to...',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Planes',
-      instructions: 'Di: "I am going to relax".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'I am going to relax',
-          phonetic: '/aɪ æm ˈɡəʊ.ɪŋ tuː rɪˈlæks/',
-          translation: 'Voy a relajarme.',
-          explanation: 'Pon énfasis en "relax".'
         }
       ]
     } as any
