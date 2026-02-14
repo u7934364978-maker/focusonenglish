@@ -122,26 +122,6 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     }
   },
   {
-    "id": "a1-u1-e5",
-    "type": "speaking-analysis",
-    "level": "A1",
-    "topic": "Greetings",
-    "topicName": "Hello World!",
-    "difficulty": "easy",
-    "content": {
-      "title": "Pronunciación: [[Hello|Hola]]", "instructions": "[[Say|Di]] \[[Hello|Hola\]\]\ [[clearly|claramente]] [[into|por]] [[the|el]] [[microphone|micrófono]].",
-      "questions": [
-        {
-          "id": "q1",
-          "text": "[[Hello|Hola\]\]",
-          "correctAnswer": "Hello",
-          "explanation": "La \[[H|Hache]]\ en inglés suena como un suspiro suave, no es muda como en español.",
-          "modelAudio": "/audio/course/a1/unit-1/a1-u1-e5-q0-model-8b1a9953.mp3"
-        }
-      ]
-    }
-  },
-  {
     "id": "a1-u1-e6",
     "type": "matching",
     "level": "A1",
@@ -314,25 +294,6 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     }
   },
   {
-    "id": "a1-u1-e12",
-    "type": "speaking-analysis",
-    "level": "A1",
-    "topic": "Introductions",
-    "topicName": "Hello World!",
-    "difficulty": "easy",
-    "content": {
-      "title": "Pronunciación: [[I am|Yo soy]]", "instructions": "[[Say|Di]] \[[I|Yo]] [[am|soy]]\ [[followed|seguido]] [[by|de]] [[your|tu]] [[name|nombre]].",
-      "questions": [
-        {
-          "id": "q1",
-          "text": "[[I am|Yo soy]]", "correctAnswer": "I am",
-          "explanation": "Pronuncia la \[[I|Yo]]\ como \[[ai|ai]]\ y la \[[am|soy]]\ cerrando ligeramente los labios al final.",
-          "modelAudio": "/audio/course/a1/unit-1/a1-u1-e12-q0-model-ac1be00f.mp3"
-        }
-      ]
-    }
-  },
-  {
     "id": "a1-u1-e13",
     "type": "matching",
     "level": "A1",
@@ -500,25 +461,6 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     }
   },
   {
-    "id": "a1-u1-e19",
-    "type": "speaking-analysis",
-    "level": "A1",
-    "topic": "Introductions",
-    "topicName": "Hello World!",
-    "difficulty": "easy",
-    "content": {
-      "title": "Pronunciación: [[Nice to meet you|Mucho gusto]]", "instructions": "[[Say|Di]] \[[Nice to meet you|Mucho gusto]]\.",
-      "questions": [
-        {
-          "id": "q1",
-          "text": "[[Nice to meet you|Mucho gusto]]", "correctAnswer": "Nice to meet you",
-          "explanation": "La frase suena casi como una sola palabra larga: [[nais-tu-mit-chu|nais-tu-mit-chu]].",
-          "modelAudio": "/audio/course/a1/unit-1/a1-u1-e19-q0-model-7f512576.mp3"
-        }
-      ]
-    }
-  },
-  {
     "id": "a1-u1-e20",
     "type": "matching",
     "level": "A1",
@@ -662,25 +604,6 @@ export const UNIT_1_EXERCISES: Exercise[] = [
           ],
           "correctAnswer": 0,
           "explanation": "Las contracciones son muy comunes en el inglés hablado para ganar fluidez."
-        }
-      ]
-    }
-  },
-  {
-    "id": "a1-u1-e25",
-    "type": "speaking-analysis",
-    "level": "A1",
-    "topic": "Greetings",
-    "topicName": "Hello World!",
-    "difficulty": "easy",
-    "content": {
-      "title": "Pronunciación: [[Hi|Hola]]", "instructions": "[[Say|Di]] \[[Hi|Hola]]\ [[clearly|claramente]].",
-      "questions": [
-        {
-          "id": "q1",
-          "text": "[[Hi|Hola]]", "correctAnswer": "Hi",
-          "explanation": "La \[[i|i]]\ suena como el diptongo \[[ai|ai]]\.",
-          "modelAudio": "/audio/course/a1/unit-1/a1-u1-e25-q0-model-c1a5298f.mp3"
         }
       ]
     }
@@ -841,25 +764,6 @@ export const UNIT_1_EXERCISES: Exercise[] = [
           ],
           "correctAnswer": 0,
           "explanation": "\[[And you?|¿Y tú?]]\ es la forma más corta y natural de devolver la pregunta."
-        }
-      ]
-    }
-  },
-  {
-    "id": "a1-u1-e32",
-    "type": "speaking-analysis",
-    "level": "A1",
-    "topic": "Greetings",
-    "topicName": "Hello World!",
-    "difficulty": "easy",
-    "content": {
-      "title": "Pronunciación: [[Goodbye|Adiós]]", "instructions": "[[Say|Di]] \[[Goodbye|Adiós]]\ [[clearly|claramente]].",
-      "questions": [
-        {
-          "id": "q1",
-          "text": "[[Goodbye|Adiós]]", "correctAnswer": "Goodbye",
-          "explanation": "Asegúrate de marcar bien la \[[d|de]]\ en medio de la palabra.",
-          "modelAudio": "/audio/course/a1/unit-1/a1-u1-e32-q0-model-6fc42223.mp3"
         }
       ]
     }
@@ -1038,25 +942,6 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     }
   },
   {
-    "id": "a1-u1-e39",
-    "type": "speaking-analysis",
-    "level": "A1",
-    "topic": "Greetings",
-    "topicName": "Hello World!",
-    "difficulty": "easy",
-    "content": {
-      "title": "Pronunciación: [[Mr.|Señor]]", "instructions": "[[Say|Di]] \[[Mr.|Señor]]\ [[followed|seguido]] [[by|de]] [[a|un]] [[name|nombre]].",
-      "questions": [
-        {
-          "id": "q1",
-          "text": "[[Mr.|Señor]]", "correctAnswer": "Mr.",
-          "explanation": "Se pronuncia como \[[míster|míster]]\.",
-          "modelAudio": "/audio/course/a1/unit-1/a1-u1-e39-q0-model-127469a6.mp3"
-        }
-      ]
-    }
-  },
-  {
     "id": "a1-u1-e40",
     "type": "matching",
     "level": "A1",
@@ -1215,25 +1100,6 @@ export const UNIT_1_EXERCISES: Exercise[] = [
           ],
           "correctAnswer": 0,
           "explanation": "\[[Everyone|Todos]]\ significa \todos\ y se usa para saludar a un grupo."
-        }
-      ]
-    }
-  },
-  {
-    "id": "a1-u1-e46",
-    "type": "speaking-analysis",
-    "level": "A1",
-    "topic": "Greetings",
-    "topicName": "Hello World!",
-    "difficulty": "easy",
-    "content": {
-      "title": "Pronunciación: [[Everyone|Todos]]", "instructions": "[[Say|Di]] \[[Hello|Hola]] [[everyone|a todos]]\.",
-      "questions": [
-        {
-          "id": "q1",
-          "text": "[[Hello everyone|Hola a todos]]", "correctAnswer": "Hello everyone",
-          "explanation": "Marca bien la \[[v|v]]\ en \[[everyone|todos]]\.",
-          "modelAudio": "/audio/course/a1/unit-1/a1-u1-e46-q0-model-83cb6f70.mp3"
         }
       ]
     }
