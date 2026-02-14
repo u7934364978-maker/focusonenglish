@@ -88,27 +88,6 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u14-e5',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Emotions',
-    topicName: 'How I Feel',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Tired',
-      instructions: 'Di la palabra para "cansado/a".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Tired',
-          phonetic: '/ˈtaɪəd/',
-          translation: 'Cansado/a',
-          explanation: 'La palabra tiene dos sílabas suaves: TAI-uhd.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u14-e6',
     type: 'fill-blank',
     level: 'A1',
@@ -252,27 +231,6 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u14-e13',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Emotions',
-    topicName: 'How I Feel',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Scared',
-      instructions: 'Di la palabra para "asustado/a".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Scared',
-          phonetic: '/skeəd/',
-          translation: 'Asustado/a',
-          explanation: 'Rima con palabras como "hair" o "care".'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u14-e14',
     type: 'sentence-building',
     level: 'A1',
@@ -396,27 +354,6 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u14-e20',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Emotions',
-    topicName: 'How I Feel',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Thirsty',
-      instructions: 'Di la palabra para "tener sed".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Thirsty',
-          phonetic: '/ˈθɜː.sti/',
-          translation: 'Sediento/a',
-          explanation: 'La "th" suena como una "z" española.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u14-e21',
     type: 'sentence-building',
     level: 'A1',
@@ -516,27 +453,6 @@ export const UNIT_14_EXERCISES: Exercise[] = [
         { id: 'p5', left: 'Proud', right: 'Ashamed' }
       ],
       explanation: 'Aprender opuestos te ayuda a organizar el vocabulario en tu mente.'
-    } as any
-  },
-  {
-    id: 'a1-u14-e26',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Emotions',
-    topicName: 'How I Feel',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Proud',
-      instructions: 'Di la palabra para "orgulloso/a".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Proud',
-          phonetic: '/praʊd/',
-          translation: 'Orgulloso/a',
-          explanation: 'La "ou" suena como "au".'
-        }
-      ]
     } as any
   },
   {
@@ -663,27 +579,6 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u14-e33',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Emotions',
-    topicName: 'How I Feel',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Funny',
-      instructions: 'Di la palabra para "gracioso".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Funny',
-          phonetic: '/ˈfʌn.i/',
-          translation: 'Gracioso',
-          explanation: 'La "u" suena como una "a" corta.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u14-e34',
     type: 'sentence-building',
     level: 'A1',
@@ -783,27 +678,6 @@ export const UNIT_14_EXERCISES: Exercise[] = [
         { id: 'p5', left: 'Don\'t worry', right: 'No te preocupes' }
       ],
       explanation: 'Estas frases son muy útiles en conversaciones diarias sobre sentimientos.'
-    } as any
-  },
-  {
-    id: 'a1-u14-e39',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Emotions',
-    topicName: 'How I Feel',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Feel',
-      instructions: 'Di la palabra para "sentir".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Feel',
-          phonetic: '/fiːl/',
-          translation: 'Sentir',
-          explanation: 'La doble "e" suena como una "i" larga.'
-        }
-      ]
     } as any
   },
   {
@@ -927,27 +801,6 @@ export const UNIT_14_EXERCISES: Exercise[] = [
         { id: 'p5', left: 'Safe', right: 'Seguro/a (fuera de peligro)' }
       ],
       explanation: 'Estos adjetivos te ayudarán a ser más específico sobre cómo te sientes.'
-    } as any
-  },
-  {
-    id: 'a1-u14-e46',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Emotions',
-    topicName: 'How I Feel',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Stressed',
-      instructions: 'Di la palabra para "estresado/a".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Stressed',
-          phonetic: '/strest/',
-          translation: 'Estresado/a',
-          explanation: 'Termina en un sonido de "t" corto.'
-        }
-      ]
     } as any
   },
   {
