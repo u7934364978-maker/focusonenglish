@@ -476,7 +476,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Meeting Terms",
       instructions: "Fill in the blank.",
-      question: "[[I'd like to ___ (raise) a point about the budget.|Me gustaría plantear un punto sobre el presupuesto.]]",
+      question: "[[I'd|Me]] [[like|gustaría]] [[to| ]] [[___ (raise)|plantear]] [[a|un]] [[point|punto]] [[about|sobre]] [[the|el]] [[budget.|presupuesto.]]",
       correctAnswer: "raise",
       explanation: "To raise a point means to bring up a topic for discussion.",
       translation: "Me gustaría plantear un punto sobre el presupuesto.",
@@ -494,7 +494,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Meeting Terms",
       instructions: "Fill in the blank.",
-      question: "[[Let's stay on ___ (track) and avoid distractions.|Mantengámonos en el camino y evitemos distracciones.]]",
+      question: "[[Let's|Mantengámonos]] [[stay|en]] [[on|el]] [[___ (track)|camino]] [[and|y]] [[avoid|evitemos]] [[distractions.|distracciones.]]",
       correctAnswer: "track",
       explanation: "To stay on track means to continue as planned or expected.",
       translation: "Mantengámonos en el camino y evitemos distracciones.",
@@ -512,7 +512,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Meeting Terms",
       instructions: "Fill in the blank.",
-      question: "[[We need to reach a ___ (consensus) before we leave.|Necesitamos llegar a un consenso antes de irnos.]]",
+      question: "[[We|Necesitamos]] [[need|llegar]] [[to| ]] [[reach|a]] [[a|un]] [[___ (consensus)|consenso]] [[before|antes]] [[we|de]] [[leave.|irnos.]]",
       correctAnswer: "consensus",
       explanation: "Consensus is a general agreement.",
       translation: "Necesitamos llegar a un consenso antes de irnos.",
@@ -530,7 +530,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Meeting Terms",
       instructions: "Fill in the blank.",
-      question: "[[The meeting was ___ (adjourned) until tomorrow.|La reunión se suspendió hasta mañana.]]",
+      question: "[[The|La]] [[meeting|reunión]] [[was|fue]] [[___ (adjourned)|suspendida]] [[until|hasta]] [[tomorrow.|mañana.]]",
       correctAnswer: "adjourned",
       explanation: "To adjourn a meeting means to break it off with the intention of resuming it later.",
       translation: "La reunión se suspendió hasta mañana.",
@@ -548,7 +548,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Meeting Terms",
       instructions: "Fill in the blank.",
-      question: "[[Can we ___ (summarize) what we have agreed so far?|¿Podemos resumir lo que hemos acordado hasta ahora?]]",
+      question: "[[Can|¿Podemos]] [[we| ]] [[___ (summarize)|resumir]] [[what|lo que]] [[we| ]] [[have|hemos]] [[agreed|acordado]] [[so|hasta]] [[far?|ahora?]]",
       correctAnswer: "summarize",
       explanation: "To summarize means to give a brief statement of the main points.",
       translation: "¿Podemos resumir lo que hemos acordado hasta ahora?",
@@ -568,7 +568,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Negotiation Terms",
       instructions: "Choose the correct term.",
-      question: "[[We are looking for a ___ situation where both sides benefit.|Estamos buscando una situación de ganar-ganar.]]",
+      question: "[[We|Estamos]] [[are| ]] [[looking|buscando]] [[for| ]] [[a|una]] [[___|ganar-ganar]] [[situation|situación]] [[where|donde]] [[both|ambas]] [[sides|partes]] [[benefit.|se beneficien.]]",
       options: ["win-win", "good-good", "best-best"],
       correctAnswer: "win-win",
       explanation: "A win-win situation is one in which each party benefits in some way.",
@@ -587,7 +587,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Negotiation Terms",
       instructions: "Choose the correct term.",
-      question: "[[The negotiation reached a ___, with neither side willing to move.|La negociación llegó a un punto muerto.]]",
+      question: "[[The|La]] [[negotiation|negociación]] [[reached|llegó]] [[a|a]] [[___,|un punto muerto,]] [[with| ]] [[neither|sin que ninguna]] [[side|parte]] [[willing|estuviera dispuesta]] [[to|a]] [[move.|ceder.]]",
       options: ["deadlock", "stop", "wall"],
       correctAnswer: "deadlock",
       explanation: "A deadlock is a situation in which no progress can be made.",
@@ -606,7 +606,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Negotiation Terms",
       instructions: "Choose the correct term.",
-      question: "[[We need to make a ___ to close the deal.|Necesitamos hacer una concesión para cerrar el trato.]]",
+      question: "[[We|Necesitamos]] [[need|hacer]] [[to| ]] [[make|una]] [[a| ]] [[___|concesión]] [[to|para]] [[close|cerrar]] [[the|el]] [[deal.|trato.]]",
       options: ["concession", "gift", "prize"],
       correctAnswer: "concession",
       explanation: "A concession is something given up in order to reach an agreement.",
@@ -625,7 +625,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Negotiation Terms",
       instructions: "Choose the correct term.",
-      question: "[[He is a very tough ___.|Él es un negociador muy duro.]]",
+      question: "[[He|Él]] [[is|es]] [[a|un]] [[very|muy]] [[tough|duro]] [[___|negociador.]]",
       options: ["negotiator", "talker", "dealer"],
       correctAnswer: "negotiator",
       explanation: "A negotiator is a person who conducts negotiations.",
@@ -644,7 +644,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Negotiation Terms",
       instructions: "Choose the correct term.",
-      question: "[[The ___ of the contract are very clear.|Los términos del contrato son muy claros.]]",
+      question: "[[The|Los]] [[___|términos]] [[of|del]] [[the| ]] [[contract|contrato]] [[are|son]] [[very|muy]] [[clear.|claros.]]",
       options: ["terms", "words", "lines"],
       correctAnswer: "terms",
       explanation: "Terms are the conditions that are part of an agreement.",
@@ -663,7 +663,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Negotiation Terms",
       instructions: "Choose the correct verb.",
-      question: "[[We managed to ___ out the details.|Logramos resolver los detalles.]]",
+      question: "[[We|Logramos]] [[managed| ]] [[to| ]] [[___| ]] [[out|resolver]] [[the|los]] [[details.|detalles.]]",
       options: ["iron", "wash", "clean"],
       correctAnswer: "iron",
       explanation: "To 'iron out' means to solve small problems or settle details.",
@@ -682,7 +682,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Negotiation Terms",
       instructions: "Choose the correct noun.",
-      question: "[[The deal is still up in the ___.|El trato todavía está en el aire.]]",
+      question: "[[The|El]] [[deal|trato]] [[is|está]] [[still|todavía]] [[up|en]] [[in|el]] [[the| ]] [[___.|aire.]]",
       options: ["air", "sky", "cloud"],
       correctAnswer: "air",
       explanation: "To be 'up in the air' means to be uncertain or undecided.",
@@ -701,7 +701,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Negotiation Terms",
       instructions: "Choose the correct noun.",
-      question: "[[We need to find common ___.|Necesitamos encontrar un terreno común.]]",
+      question: "[[We|Necesitamos]] [[need|encontrar]] [[to| ]] [[find|un]] [[common|terreno]] [[___.|común.]]",
       options: ["ground", "land", "place"],
       correctAnswer: "ground",
       explanation: "Common ground refers to shared interests or opinions.",
@@ -720,7 +720,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Negotiation Terms",
       instructions: "Choose the correct verb.",
-      question: "[[They gave us a take-it-or-___-it offer.|Nos dieron una oferta de tómalo o déjalo.]]",
+      question: "[[They|Nos]] [[gave|dieron]] [[us|una]] [[a|oferta]] [[take-it-or-___-it|de tómalo o déjalo.]] [[offer.| ]]",
       options: ["leave", "take", "make"],
       correctAnswer: "leave",
       explanation: "A take-it-or-leave-it offer is one that will not be changed.",
@@ -739,7 +739,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Negotiation Terms",
       instructions: "Choose the correct adjective.",
-      question: "[[The negotiation was very ___.|La negociación fue muy intensa.]]",
+      question: "[[The|La]] [[negotiation|negociación]] [[was|fue]] [[very|muy]] [[___.|intensa.]]",
       options: ["intense", "hard", "strong"],
       correctAnswer: "intense",
       explanation: "Intense means involving a lot of effort or strong feelings.",
@@ -760,7 +760,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[The ___ (AGREE) was signed yesterday.|El acuerdo se firmó ayer.]]",
+      question: "[[The|El]] [[___ (AGREE)|acuerdo]] [[was|se]] [[signed|firmó]] [[yesterday.|ayer.]]",
       correctAnswer: "agreement",
       explanation: "Noun form of 'agree'.",
       translation: "El acuerdo se firmó ayer.",
@@ -778,7 +778,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[We had a very ___ (CONSTRUCT) meeting.|Tuvimos una reunión muy constructiva.]]",
+      question: "[[We|Tuvimos]] [[had|una]] [[a|reunión]] [[very|muy]] [[___ (CONSTRUCT)|constructiva]] [[meeting.| ]]",
       correctAnswer: "constructive",
       explanation: "Adjective form of 'construct'.",
       translation: "Tuvimos una reunión muy constructiva.",
@@ -796,7 +796,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[The ___ (NEGOTIATE) process was long.|El proceso de negociación fue largo.]]",
+      question: "[[The|El]] [[___ (NEGOTIATE)|proceso de negociación]] [[process| ]] [[was|fue]] [[long.|largo.]]",
       correctAnswer: "negotiation",
       explanation: "Noun form of 'negotiate'.",
       translation: "El proceso de negociación fue largo.",
@@ -814,7 +814,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[He showed great ___ (FLEXIBLE) during the talk.|Mostró gran flexibilidad durante la charla.]]",
+      question: "[[He|Él]] [[showed|mostró]] [[great|gran]] [[___ (FLEXIBLE)|flexibilidad]] [[during|durante]] [[the|la]] [[talk.|charla.]]",
       correctAnswer: "flexibility",
       explanation: "Noun form of 'flexible'.",
       translation: "Mostró gran flexibilidad durante la charla.",
@@ -832,7 +832,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[The ___ (CLARIFY) of his points was appreciated.|Se agradeció la claridad de sus puntos.]]",
+      question: "[[The|La]] [[___ (CLARIFY)|claridad]] [[of|de]] [[his|sus]] [[points|puntos]] [[was|fue]] [[appreciated.|apreciada.]]",
       correctAnswer: "clarity",
       explanation: "Noun form of 'clear' (CLARIFY is the verb, but often these tasks ask for the noun).",
       translation: "Se agradeció la claridad de sus puntos.",
@@ -850,7 +850,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[We need a ___ (DECIDE) leader for this project.|Necesitamos un líder decisivo para este proyecto.]]",
+      question: "[[We|Necesitamos]] [[need|un]] [[a|líder]] [[___ (DECIDE)|decisivo]] [[leader| ]] [[for|para]] [[this|este]] [[project.|proyecto.]]",
       correctAnswer: "decisive",
       explanation: "Adjective form of 'decide'.",
       translation: "Necesitamos un líder decisivo para este proyecto.",
@@ -868,7 +868,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[The ___ (ORGANIZE) of the meeting was poor.|La organización de la reunión fue deficiente.]]",
+      question: "[[The|La]] [[___ (ORGANIZE)|organización]] [[of|de]] [[the|la]] [[meeting|reunión]] [[was|fue]] [[poor.|deficiente.]]",
       correctAnswer: "organization",
       explanation: "Noun form of 'organize'.",
       translation: "La organización de la reunión fue deficiente.",
@@ -886,7 +886,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[She is a very ___ (PERSUADE) speaker.|Ella es una oradora muy persuasiva.]]",
+      question: "[[She|Ella]] [[is|es]] [[a|una]] [[very|muy]] [[___ (PERSUADE)|oradora persuasiva.]] [[speaker.| ]]",
       correctAnswer: "persuasive",
       explanation: "Adjective form of 'persuade'.",
       translation: "Ella es una oradora muy persuasiva.",
@@ -904,7 +904,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[The ___ (EFFICIENT) of the team improved.|La eficiencia del equipo mejoró.]]",
+      question: "[[The|La]] [[___ (EFFICIENT)|eficiencia]] [[of|del]] [[the|equipo]] [[team|mejoró.]] [[improved.| ]]",
       correctAnswer: "efficiency",
       explanation: "Noun form of 'efficient'.",
       translation: "La eficiencia del equipo mejoró.",
@@ -922,7 +922,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[His ___ (CONTRIBUTE) to the discussion was vital.|Su contribución a la discusión fue vital.]]",
+      question: "[[His|Su]] [[___ (CONTRIBUTE)|contribución]] [[to|a]] [[the|la]] [[discussion|discusión]] [[was|fue]] [[vital.|vital.]]",
       correctAnswer: "contribution",
       explanation: "Noun form of 'contribute'.",
       translation: "Su contribución a la discusión fue vital.",
