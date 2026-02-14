@@ -11,7 +11,8 @@ export const C1_U4_BLOCK1: Exercise = {
   type: 'grammar',
   title: 'Speculation and Deduction',
   grammarPoint: 'Modals of Speculation',
- explanation: 'Use modal verbs to express different levels of [[certainty|certeza]] about the present and past.',   questions: Array.from({ length: 10 }, (_, i) => ({
+  explanation: 'Use modal verbs to express different levels of "[[certainty|certeza]] about the present and past.',
+  questions: Array.from({ length: 10 }, (_, i) => ({
     id: genId(UNIT_ID, 'b1', i + 1),
     type: 'multiple-choice',
     question: [
@@ -19,7 +20,8 @@ export const C1_U4_BLOCK1: Exercise = {
       'He ___ have forgotten about the meeting; he\'s usually very punctual.',
       'That ___ be Sarah. She\'s in Paris this week.',
       'I\'m not sure where he is. He ___ be in the library.',
- 'The evidence is [[overwhelming|abrumadora]]; he ___ be the thief.',       'You ___ be joking! There\'s no way that\'s true.',
+      'The evidence is "[[overwhelming|abrumadora]]; he ___ be the thief.',
+      'You ___ be joking! There\'s no way that\'s true.',
       'She ___ have seen him. She was at work all day.',
       'They ___ have got lost. They know this area well.',
       'It ___ be easy living in such a remote place.',
@@ -61,7 +63,8 @@ export const C1_U4_BLOCK2: Exercise = {
   id: `c1-u${UNIT_ID}-b2`,
   type: 'grammar',
   title: 'Past Speculation (Modal Perfects)',
- explanation: 'Use modal + have + [[past participle|participio pasado]] for past events.',   questions: Array.from({ length: 10 }, (_, i) => ({
+  explanation: 'Use modal + have + "[[past participle|participio pasado]] for past events.',
+  questions: Array.from({ length: 10 }, (_, i) => ({
     id: genId(UNIT_ID, 'b2', i + 1),
     type: 'multiple-choice',
     question: [
@@ -112,7 +115,8 @@ export const C1_U4_BLOCK3: Exercise = {
   id: `c1-u${UNIT_ID}-b3`,
   type: 'vocabulary',
   title: 'Adverbs of Probability',
- explanation: 'Use adverbs to add [[nuance|matiz]] to your statements.',   questions: Array.from({ length: 10 }, (_, i) => ({
+  explanation: 'Use adverbs to add "[[nuance|matiz]] to your statements.',
+  questions: Array.from({ length: 10 }, (_, i) => ({
     id: genId(UNIT_ID, 'b3', i + 1),
     type: 'multiple-choice',
     question: [
@@ -163,7 +167,8 @@ export const C1_U4_BLOCK4: Exercise = {
   id: `c1-u${UNIT_ID}-b4`,
   type: 'key-word-transformation',
   title: 'Nuance Transformation',
- explanation: 'Rewrite the sentence using the [[key word|palabra clave]].',   questions: Array.from({ length: 10 }, (_, i) => ({
+  explanation: 'Rewrite the sentence using the "[[key word|palabra clave]].',
+  questions: Array.from({ length: 10 }, (_, i) => ({
     id: genId(UNIT_ID, 'b4', i + 1),
     type: 'key-word-transformation',
     sentence: [
@@ -226,7 +231,8 @@ export const C1_U4_BLOCK5: Exercise = {
   id: `c1-u${UNIT_ID}-b5`,
   type: 'grammar',
   title: 'Nuance Review',
- explanation: 'Final check of Unit 4 [[concepts|conceptos]].',   questions: Array.from({ length: 10 }, (_, i) => ({
+  explanation: 'Final check of Unit 4 "[[concepts|conceptos]].',
+  questions: Array.from({ length: 10 }, (_, i) => ({
     id: genId(UNIT_ID, 'b5', i + 1),
     type: 'multiple-choice',
     question: [

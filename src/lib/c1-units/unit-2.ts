@@ -11,14 +11,21 @@ export const C1_U2_BLOCK1: Exercise = {
   type: 'grammar',
   title: 'Advanced Past Tenses',
   grammarPoint: 'Narrative Tenses',
- explanation: 'Use [[Past Perfect Continuous|Pasado Perfecto Continuo]] for long actions interrupted by a past event.',   questions: Array.from({ length: 10 }, (_, i) => ({
+  explanation: 'Use "[[Past Perfect Continuous|Pasado Perfecto Continuo]] for long actions interrupted by a past event.',
+  questions: Array.from({ length: 10 }, (_, i) => ({
     id: genId(UNIT_ID, 'b1', i + 1),
     type: 'multiple-choice',
     question: [
- 'They ___ on the project for months before it was finally [[approved|aprobado]].',  'By the time the fire [[brigade|brigada]] arrived, the building ___.',       'I ___ to see you at the party, but I had to work late.',
- 'She ___ about the [[noise|ruido]], even before we moved in.',  'We ___ for nearly three hours when we saw the [[village|pueblo]].',       'He ___ his lunch when the phone rang.',
- 'The [[scientists|científicos]] ___ experiments for years before they found a [[cure|cura]].',       'I ___ of calling you when your message arrived.',
- 'They ___ in a small flat until they won the [[lottery|lotería]].',       'The rain ___ by the time we left the house.'
+      'They ___ on the project for months before it was finally "[[approved|aprobado]].',
+      'By the time the fire "[[brigade|brigada]] arrived, the building ___.',
+      'I ___ to see you at the party, but I had to work late.',
+      'She ___ about the "[[noise|ruido]], even before we moved in.',
+      'We ___ for nearly three hours when we saw the "[[village|pueblo]].',
+      'He ___ his lunch when the phone rang.',
+      'The "[[scientists|científicos]] ___ experiments for years before they found a "[[cure|cura]].',
+      'I ___ of calling you when your message arrived.',
+      'They ___ in a small flat until they won the "[[lottery|lotería]].',
+      'The rain ___ by the time we left the house.'
     ][i],
     options: [
       ['were working', 'had been working', 'had worked'],
@@ -56,13 +63,20 @@ export const C1_U2_BLOCK2: Exercise = {
   id: `c1-u${UNIT_ID}-b2`,
   type: 'grammar',
   title: 'Narrative Styles & Devices',
- explanation: 'Use specific verbs and structures to [[enhance|mejorar]] storytelling.',   questions: Array.from({ length: 10 }, (_, i) => ({
+  explanation: 'Use specific verbs and structures to "[[enhance|mejorar]] storytelling.',
+  questions: Array.from({ length: 10 }, (_, i) => ({
     id: genId(UNIT_ID, 'b2', i + 1),
     type: 'multiple-choice',
     question: [
- 'The [[protagonist|protagonista]] ___ into the room, hoping no one would notice him.',  'He ___ his teeth in [[anger|ira]] when he heard the news.',  'The wind ___ through the trees, creating an [[eerie|inquietante]] sound.',  'She ___ the words under her [[breath|aliento]] so I couldn\'t hear them.',  'Suddenly, a loud scream ___ the [[silence|silencio]] of the night.',       'He ___ at the map, trying to make sense of the directions.',
+      'The "[[protagonist|protagonista]] ___ into the room, hoping no one would notice him.',
+      'He ___ his teeth in "[[anger|ira]] when he heard the news.',
+      'The wind ___ through the trees, creating an "[[eerie|inquietante]] sound.',
+      'She ___ the words under her "[[breath|aliento]] so I couldn\'t hear them.',
+      'Suddenly, a loud scream ___ the "[[silence|silencio]] of the night.',
+      'He ___ at the map, trying to make sense of the directions.',
       'The water ___ gently against the side of the boat.',
- 'They ___ through the forest, "[[wary|cautelosos]] of any movement.',       'A look of pure joy ___ across her face.',
+      'They ___ through the forest, "[[wary|cautelosos]] of any movement.',
+      'A look of pure joy ___ across her face.',
       'The engine ___ to life after several attempts.'
     ][i],
     options: [
@@ -101,15 +115,20 @@ export const C1_U2_BLOCK3: Exercise = {
   id: `c1-u${UNIT_ID}-b3`,
   type: 'vocabulary',
   title: 'Descriptive Adjectives for Settings',
- explanation: 'Advanced vocabulary for describing places and [[atmospheres|atmósferas]].',   questions: Array.from({ length: 10 }, (_, i) => ({
+  explanation: 'Advanced vocabulary for describing places and "[[atmospheres|atmósferas]].',
+  questions: Array.from({ length: 10 }, (_, i) => ({
     id: genId(UNIT_ID, 'b3', i + 1),
     type: 'multiple-choice',
     question: [
       'The abandoned house had a very ___ atmosphere.',
       'The view from the top of the mountain was ___.',
- 'The streets were ___ during the [[festival|festival]].',       'The hotel room was ___ and modern.',
- 'The [[silence|silencio]] in the library was ___.',  'The storm was ___, causing much [[damage|daño]].',       'The cave was ___ and damp.',
- 'The market was full of ___ [[exotic|exóticas]] fruits.',       'The old man told a ___ story about the war.',
+      'The streets were ___ during the "[[festival|festival]].',
+      'The hotel room was ___ and modern.',
+      'The "[[silence|silencio]] in the library was ___.',
+      'The storm was ___, causing much "[[damage|daño]].',
+      'The cave was ___ and damp.',
+      'The market was full of ___ "[[exotic|exóticas]] fruits.',
+      'The old man told a ___ story about the war.',
       'The task ahead of us was ___.'
     ][i],
     options: [
@@ -148,16 +167,20 @@ export const C1_U2_BLOCK4: Exercise = {
   id: `c1-u${UNIT_ID}-b4`,
   type: 'key-word-transformation',
   title: 'Narrative Transformation',
- explanation: 'Rewrite the sentence using the [[key word|palabra clave]].',   questions: Array.from({ length: 10 }, (_, i) => ({
+  explanation: 'Rewrite the sentence using the "[[key word|palabra clave]].',
+  questions: Array.from({ length: 10 }, (_, i) => ({
     id: genId(UNIT_ID, 'b4', i + 1),
     type: 'key-word-transformation',
     sentence: [
       'The rain started as soon as we arrived.',
- 'He had never seen such a beautiful [[sunset|atardecer]] before.',       'I didn\'t realize my mistake until later.',
+      'He had never seen such a beautiful "[[sunset|atardecer]] before.',
+      'I didn\'t realize my mistake until later.',
       'It was the first time she had ever flown.',
- 'They had been working all day and were [[exhausted|exhaustos]].',       'The show ended and the audience stood up.',
+      'They had been working all day and were "[[exhausted|exhaustos]].',
+      'The show ended and the audience stood up.',
       'I was just about to leave when he arrived.',
- 'She started crying the moment she heard the [[news|noticias]].',       'He forgot his keys and had to wait outside.',
+      'She started crying the moment she heard the "[[news|noticias]].',
+      'He forgot his keys and had to wait outside.',
       'The movie was so boring that I fell asleep.'
     ][i],
     keyWord: [
@@ -208,17 +231,21 @@ export const C1_U2_BLOCK5: Exercise = {
   id: `c1-u${UNIT_ID}-b5`,
   type: 'grammar',
   title: 'Mixed Narrative Practice',
- explanation: 'Final check of Unit 2 [[concepts|conceptos]].',   questions: Array.from({ length: 10 }, (_, i) => ({
+  explanation: 'Final check of Unit 2 "[[concepts|conceptos]].',
+  questions: Array.from({ length: 10 }, (_, i) => ({
     id: genId(UNIT_ID, 'b5', i + 1),
     type: 'multiple-choice',
     question: [
- 'Hardly ___ when the [[lights|luces]] went out.',       'The forest was ___ with the sound of insects.',
+      'Hardly ___ when the "[[lights|luces]] went out.',
+      'The forest was ___ with the sound of insects.',
       'He ___ to have been the last person to see her.',
       'By next year, they ___ together for twenty years.',
       '___ her work, she went for a walk.',
- 'The ___ of the waves was [[soothing|relajante]].',       'She ___ at the clock, realizing she was late.',
+      'The ___ of the waves was "[[soothing|relajante]].',
+      'She ___ at the clock, realizing she was late.',
       'It was ___ a surprise that she couldn\'t speak.',
- 'Never ___ such an amazing [[performance|actuación]].',       'He ___ always losing his keys.'
+      'Never ___ such an amazing "[[performance|actuación]].',
+      'He ___ always losing his keys.'
     ][i],
     options: [
       ['we had started', 'did we start', 'had we started'],
