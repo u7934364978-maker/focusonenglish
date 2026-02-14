@@ -107,27 +107,6 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u21-e6',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Travel',
-    topicName: "Let's Travel",
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Bus',
-      instructions: 'Di la palabra para "autobús".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Bus',
-          phonetic: '/bʌs/',
-          translation: 'Autobús',
-          explanation: 'La "u" suena corta, similar a una "a" relajada.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u21-e7',
     type: 'matching',
     level: 'A1',
@@ -285,27 +264,6 @@ export const UNIT_21_EXERCISES: Exercise[] = [
           question: 'We ________ at the station.',
           correctAnswer: 'arrive',
           explanation: '"Arrive" significa llegar a un destino.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u21-e15',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Travel',
-    topicName: "Let's Travel",
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Arrive',
-      instructions: 'Di la palabra para "llegar".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Arrive',
-          phonetic: '/əˈraɪv/',
-          translation: 'Llegar',
-          explanation: 'La segunda sílaba es la que tiene la fuerza.'
         }
       ]
     } as any
@@ -473,27 +431,6 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u21-e24',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Travel',
-    topicName: "Let's Travel",
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Suitcase',
-      instructions: 'Di la palabra para "maleta".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Suitcase',
-          phonetic: '/ˈsuːtkeɪs/',
-          translation: 'Maleta',
-          explanation: 'La "ui" suena como una "u" larga.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u21-e25',
     type: 'matching',
     level: 'A1',
@@ -656,27 +593,6 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u21-e33',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Travel',
-    topicName: "Let's Travel",
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Ticket',
-      instructions: 'Di la palabra para "billete".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Ticket',
-          phonetic: '/ˈtɪkɪt/',
-          translation: 'Billete',
-          explanation: 'La "i" suena corta y la "t" final es clara.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u21-e34',
     type: 'matching',
     level: 'A1',
@@ -834,27 +750,6 @@ export const UNIT_21_EXERCISES: Exercise[] = [
           question: 'Go ________ ahead.',
           correctAnswer: 'straight',
           explanation: '"Straight" significa sin desviarse.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u21-e42',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Travel',
-    topicName: "Let's Travel",
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Right',
-      instructions: 'Di la palabra para "derecha".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Right',
-          phonetic: '/raɪt/',
-          translation: 'Derecha',
-          explanation: 'La "gh" es muda.'
         }
       ]
     } as any
