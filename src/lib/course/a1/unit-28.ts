@@ -128,27 +128,6 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u28-e7',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Comparatives',
-    topicName: 'Comparing Things',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Colder',
-      instructions: 'Di la frase: "It is colder today".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'It is colder today',
-          phonetic: '/ɪt ɪz ˈkəʊl.dər təˈdeɪ/',
-          translation: 'Hace más frío hoy.',
-          explanation: 'La terminación "-er" suena como una "schwa" suave /ər/.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u28-e8',
     type: 'multiple-choice',
     level: 'A1',
@@ -287,27 +266,6 @@ export const UNIT_28_EXERCISES: Exercise[] = [
           example: 'This pizza is better.',
           pronunciation: '/ˈbet.ər/',
           explanation: '"Good" es irregular. No decimos "gooder", decimos "better".'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u28-e15',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Comparatives',
-    topicName: 'Comparing Things',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Better',
-      instructions: 'Di la frase: "Better than before".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Better than before',
-          phonetic: '/ˈbet.ər ðæn bɪˈfɔːr/',
-          translation: 'Mejor que antes.',
-          explanation: 'La "tt" en inglés americano a menudo suena como una "d" suave.'
         }
       ]
     } as any
@@ -558,27 +516,6 @@ export const UNIT_28_EXERCISES: Exercise[] = [
           question: 'The moon is ________ than the clouds.',
           correctAnswer: 'farther',
           explanation: '"Far" puede ser "farther" (distancia física) o "further" (distancia metafórica).'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u28-e28',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Comparatives',
-    topicName: 'Comparing Things',
-    difficulty: 'hard',
-    content: {
-      title: 'Pronunciación: More difficult',
-      instructions: 'Di: "English is more difficult than Spanish".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'English is more difficult than Spanish',
-          phonetic: '/ˈɪŋ.ɡlɪʃ ɪz mɔːr ˈdɪf.ɪ.kəlt ðæn ˈspæn.ɪʃ/',
-          translation: 'El inglés es más difícil que el español.',
-          explanation: 'Mantén el ritmo al decir "more difficult than".'
         }
       ]
     } as any
@@ -907,27 +844,6 @@ export const UNIT_28_EXERCISES: Exercise[] = [
           translation: 'Mi abuelo es más viejo que mi padre.',
           hint: 'Empieza con "My grandfather".',
           explanation: 'Usamos "older" para comparar la edad de personas u objetos.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u28-e45',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Comparatives',
-    topicName: 'Comparing Things',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Smaller',
-      instructions: 'Di: "This one is smaller".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'This one is smaller',
-          phonetic: '/ðɪs wʌn ɪz ˈsmɔː.lər/',
-          translation: 'Este es más pequeño.',
-          explanation: 'La palabra "one" sustituye al objeto que comparamos.'
         }
       ]
     } as any
