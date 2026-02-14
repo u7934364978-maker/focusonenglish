@@ -88,27 +88,6 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u12-e5',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'City',
-    topicName: 'In the City',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Supermarket',
-      instructions: 'Di la palabra para "supermercado".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Supermarket',
-          phonetic: '/ˈsuː.pəˌmɑː.kɪt/',
-          translation: 'Supermercado',
-          explanation: 'La acentuación principal está en la primera sílaba: SU-per-market.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u12-e6',
     type: 'fill-blank',
     level: 'A1',
@@ -252,27 +231,6 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u12-e13',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'City',
-    topicName: 'In the City',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Museum',
-      instructions: 'Di la palabra para "museo".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Museum',
-          phonetic: '/mjuːˈziː.əm/',
-          translation: 'Museo',
-          explanation: 'La acentuación recae en la segunda sílaba: mu-SE-um.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u12-e14',
     type: 'sentence-building',
     level: 'A1',
@@ -396,27 +354,6 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u12-e20',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'City',
-    topicName: 'In the City',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Avenue',
-      instructions: 'Di la palabra para "avenida".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Avenue',
-          phonetic: '/ˈæv.ə.njuː/',
-          translation: 'Avenida',
-          explanation: 'La acentuación está en la primera sílaba.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u12-e21',
     type: 'sentence-building',
     level: 'A1',
@@ -516,27 +453,6 @@ export const UNIT_12_EXERCISES: Exercise[] = [
         { id: 'p5', left: 'Pharmacy', right: 'Medicina' }
       ],
       explanation: 'Conocer las tiendas especializadas te ayudará a hacer recados específicos.'
-    } as any
-  },
-  {
-    id: 'a1-u12-e26',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'City',
-    topicName: 'In the City',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Restaurant',
-      instructions: 'Di la palabra para "restaurante".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Restaurant',
-          phonetic: '/ˈres.trɒnt/',
-          translation: 'Restaurante',
-          explanation: 'La segunda "a" no se suele pronunciar. Suena como RES-tront.'
-        }
-      ]
     } as any
   },
   {
@@ -663,27 +579,6 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u12-e33',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'City',
-    topicName: 'In the City',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Neighborhood',
-      instructions: 'Di la palabra para "barrio" o "vecindario".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Neighborhood',
-          phonetic: '/ˈneɪ.bə.hʊd/',
-          translation: 'Vecindario',
-          explanation: 'La acentuación está en la primera sílaba: NEI-bor-hood.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u12-e34',
     type: 'sentence-building',
     level: 'A1',
@@ -783,27 +678,6 @@ export const UNIT_12_EXERCISES: Exercise[] = [
         { id: 'p5', left: 'Fountain', right: 'Fuente' }
       ],
       explanation: 'Estos son elementos del mobiliario urbano.'
-    } as any
-  },
-  {
-    id: 'a1-u12-e39',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'City',
-    topicName: 'In the City',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: City',
-      instructions: 'Di la palabra para "ciudad".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'City',
-          phonetic: '/ˈsɪt.i/',
-          translation: 'Ciudad',
-          explanation: 'La "c" inicial suena como una "s" suave.'
-        }
-      ]
     } as any
   },
   {
@@ -927,27 +801,6 @@ export const UNIT_12_EXERCISES: Exercise[] = [
         { id: 'p5', left: 'On the corner', right: 'En la esquina' }
       ],
       explanation: 'Estas frases son fundamentales para pedir o dar indicaciones.'
-    } as any
-  },
-  {
-    id: 'a1-u12-e46',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'City',
-    topicName: 'In the City',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Corner',
-      instructions: 'Di la palabra para "esquina".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Corner',
-          phonetic: '/ˈkɔː.nər/',
-          translation: 'Esquina',
-          explanation: 'La acentuación está en la primera sílaba.'
-        }
-      ]
     } as any
   },
   {
