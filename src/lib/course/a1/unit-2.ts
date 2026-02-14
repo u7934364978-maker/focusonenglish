@@ -88,26 +88,6 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u2-e5',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Drinks',
-    topicName: 'Coffee Break',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Please',
-      instructions: 'Di la palabra para "por favor".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Please',
-          correctAnswer: 'Please',
-          explanation: 'La "ea" suena como una "i" larga y la "s" final suena como una "z" suave.'
-        }
-      ]
-    }
-  },
-  {
     id: 'a1-u2-e6',
     type: 'matching',
     level: 'A1',
@@ -226,26 +206,6 @@ export const UNIT_2_EXERCISES: Exercise[] = [
           options: ['with', 'without', 'and'],
           correctAnswer: 1,
           explanation: '"Without" significa sin.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u2-e12',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Drinks',
-    topicName: 'Coffee Break',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Coffee',
-      instructions: 'Di la palabra para "café".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Coffee',
-          correctAnswer: 'Coffee',
-          explanation: 'Asegúrate de acentuar la primera sílaba: CO-ffee.'
         }
       ]
     }
@@ -374,26 +334,6 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u2-e19',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Drinks',
-    topicName: 'Coffee Break',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Water',
-      instructions: 'Di la palabra para "agua".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Water',
-          correctAnswer: 'Water',
-          explanation: 'En inglés americano, la "t" suena casi como una "r" suave.'
-        }
-      ]
-    }
-  },
-  {
     id: 'a1-u2-e20',
     type: 'matching',
     level: 'A1',
@@ -512,26 +452,6 @@ export const UNIT_2_EXERCISES: Exercise[] = [
           options: ['Apple', 'Orange', 'Lemon'],
           correctAnswer: 1,
           explanation: '"Orange" significa naranja.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u2-e26',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Drinks',
-    topicName: 'Coffee Break',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Milk',
-      instructions: 'Di la palabra para "leche".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Milk',
-          correctAnswer: 'Milk',
-          explanation: 'Pronuncia la "l" y la "k" final con claridad.'
         }
       ]
     }
@@ -660,26 +580,6 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u2-e33',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Drinks',
-    topicName: 'Coffee Break',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Sugar',
-      instructions: 'Di la palabra para "azúcar".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Sugar',
-          correctAnswer: 'Sugar',
-          explanation: 'Recuerda que la "s" suena como "sh".'
-        }
-      ]
-    }
-  },
-  {
     id: 'a1-u2-e34',
     type: 'matching',
     level: 'A1',
@@ -803,26 +703,6 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u2-e40',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Politeness',
-    topicName: 'Coffee Break',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Thank you',
-      instructions: 'Di "gracias" en inglés.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Thank you',
-          correctAnswer: 'Thank you',
-          explanation: 'La "th" se pronuncia colocando la lengua entre los dientes.'
-        }
-      ]
-    }
-  },
-  {
     id: 'a1-u2-e41',
     type: 'matching',
     level: 'A1',
@@ -941,26 +821,6 @@ export const UNIT_2_EXERCISES: Exercise[] = [
           options: ['beer', 'wine', 'water'],
           correctAnswer: 0,
           explanation: '"Beer" es cerveza.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u2-e47',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Drinks',
-    topicName: 'Coffee Break',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Soda',
-      instructions: 'Di la palabra para "refresco".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Soda',
-          correctAnswer: 'Soda',
-          explanation: 'Se pronuncia muy similar al español, pero con la "o" más cerrada.'
         }
       ]
     }
