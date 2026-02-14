@@ -12,7 +12,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: That-Clauses",
       instructions: "Choose the correct reporting verb.",
-      question: "He ___ that he had not seen the report.",
+      question: "[[He ___ that he had not seen the report.|Él negó que no hubiera visto el informe.]]",
       options: ["denied", "refused", "offered"],
       correctAnswer: "denied",
       explanation: "Use 'denied' when saying something is not true.",
@@ -31,7 +31,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: That-Clauses",
       instructions: "Choose the correct reporting verb.",
-      question: "She ___ that we should start earlier.",
+      question: "[[She ___ that we should start earlier.|Ella sugirió que deberíamos empezar antes.]]",
       options: ["suggested", "ordered", "told"],
       correctAnswer: "suggested",
       explanation: "Use 'suggested' to propose an idea.",
@@ -50,7 +50,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: That-Clauses",
       instructions: "Choose the correct reporting verb.",
-      question: "The manager ___ that the project be finished by Friday.",
+      question: "[[The manager ___ that the project be finished by Friday.|El gerente insistió en que el proyecto se terminara para el viernes.]]",
       options: ["insisted", "said", "asked"],
       correctAnswer: "insisted",
       explanation: "Use 'insisted' for a firm demand.",
@@ -69,7 +69,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: That-Clauses",
       instructions: "Choose the correct reporting verb.",
-      question: "They ___ that the system was perfectly safe.",
+      question: "[[They ___ that the system was perfectly safe.|Afirmaron que el sistema era perfectamente seguro.]]",
       options: ["claimed", "wanted", "denied"],
       correctAnswer: "claimed",
       explanation: "Use 'claimed' when stating something as a fact (often without proof).",
@@ -88,7 +88,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: That-Clauses",
       instructions: "Choose the correct reporting verb.",
-      question: "I ___ that there had been a misunderstanding.",
+      question: "[[I ___ that there had been a misunderstanding.|Expliqué que había habido un malentendido.]]",
       options: ["explained", "told", "asked"],
       correctAnswer: "explained",
       explanation: "Use 'explained' to give a reason or clarify a situation.",
@@ -107,7 +107,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: That-Clauses",
       instructions: "Choose the correct reporting verb.",
-      question: "He ___ that he was the best person for the job.",
+      question: "[[He ___ that he was the best person for the job.|Presumió de ser la mejor persona para el trabajo.]]",
       options: ["boasted", "said", "informed"],
       correctAnswer: "boasted",
       explanation: "Use 'boasted' when someone speaks too proudly about themselves.",
@@ -126,7 +126,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: That-Clauses",
       instructions: "Choose the correct reporting verb.",
-      question: "She ___ that she would be late.",
+      question: "[[She ___ that she would be late.|Advirtió que llegaría tarde.]]",
       options: ["warned", "ordered", "asked"],
       correctAnswer: "warned",
       explanation: "Use 'warned' to tell someone about a possible problem.",
@@ -145,7 +145,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: That-Clauses",
       instructions: "Choose the correct reporting verb.",
-      question: "They ___ that the deal was off.",
+      question: "[[They ___ that the deal was off.|Anunciaron que el trato se había cancelado.]]",
       options: ["announced", "said", "told"],
       correctAnswer: "announced",
       explanation: "Use 'announced' to give important information publicly.",
@@ -164,7 +164,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: That-Clauses",
       instructions: "Choose the correct reporting verb.",
-      question: "He ___ that he had made a mistake.",
+      question: "[[He ___ that he had made a mistake.|Admitió que había cometido un error.]]",
       options: ["admitted", "refused", "offered"],
       correctAnswer: "admitted",
       explanation: "Use 'admitted' when agreeing that something is true (often reluctantly).",
@@ -183,7 +183,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: That-Clauses",
       instructions: "Choose the correct reporting verb.",
-      question: "She ___ that everything would be fine.",
+      question: "[[She ___ that everything would be fine.|Ella prometió que todo estaría bien.]]",
       options: ["promised", "ordered", "asked"],
       correctAnswer: "promised",
       explanation: "Use 'promised' to say that you will certainly do something.",
@@ -204,7 +204,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: Patterns",
       instructions: "Fill in the correct form of the verb.",
-      question: "He suggested ___ (go) to the new Italian restaurant.",
+      question: "[[He suggested ___ (go) to the new Italian restaurant.|Él sugirió ir al nuevo restaurante italiano.]]",
       correctAnswer: "going",
       explanation: "Suggest is followed by the -ing form.",
       translation: "Él sugirió ir al nuevo restaurante italiano.",
@@ -222,7 +222,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: Patterns",
       instructions: "Fill in the correct form of the verb.",
-      question: "She offered ___ (help) me with the bags.",
+      question: "[[She offered ___ (help) me with the bags.|Ella se ofreció a ayudarme con las maletas.]]",
       correctAnswer: "to help",
       explanation: "Offer is followed by the to-infinitive.",
       translation: "Ella se ofreció a ayudarme con las maletas.",
@@ -240,7 +240,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: Patterns",
       instructions: "Fill in the correct form of the verb.",
-      question: "They refused ___ (sign) the contract.",
+      question: "[[They refused ___ (sign) the contract.|Se negaron a firmar el contrato.]]",
       correctAnswer: "to sign",
       explanation: "Refuse is followed by the to-infinitive.",
       translation: "Se negaron a firmar el contrato.",
@@ -258,7 +258,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: Patterns",
       instructions: "Fill in the correct form of the verb.",
-      question: "He denied ___ (steal) the watch.",
+      question: "[[He denied ___ (steal) the watch.|Él negó haber robado el reloj.]]",
       correctAnswer: "stealing",
       explanation: "Deny is followed by the -ing form.",
       translation: "Él negó haber robado el reloj.",
@@ -276,7 +276,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: Patterns",
       instructions: "Fill in the correct form of the verb.",
-      question: "She admitted ___ (be) wrong.",
+      question: "[[She admitted ___ (be) wrong.|Ella admitió estar equivocada.]]",
       correctAnswer: "being",
       explanation: "Admit is followed by the -ing form.",
       translation: "Ella admitió estar equivocada.",
@@ -294,7 +294,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: Patterns",
       instructions: "Fill in the correct form of the verb.",
-      question: "They agreed ___ (meet) at 10 AM.",
+      question: "[[They agreed ___ (meet) at 10 AM.|Acordaron reunirse a las 10 AM.]]",
       correctAnswer: "to meet",
       explanation: "Agree is followed by the to-infinitive.",
       translation: "Acordaron reunirse a las 10 AM.",
@@ -312,7 +312,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: Patterns",
       instructions: "Fill in the correct form of the verb.",
-      question: "He promised ___ (be) home by midnight.",
+      question: "[[He promised ___ (be) home by midnight.|Prometió estar en casa para medianoche.]]",
       correctAnswer: "to be",
       explanation: "Promise is followed by the to-infinitive.",
       translation: "Prometió estar en casa para medianoche.",
@@ -330,7 +330,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: Patterns",
       instructions: "Fill in the correct form of the verb.",
-      question: "She apologized for ___ (be) late.",
+      question: "[[She apologized for ___ (be) late.|Ella se disculpó por llegar tarde.]]",
       correctAnswer: "being",
       explanation: "After a preposition (for), use the -ing form.",
       translation: "Ella se disculpó por llegar tarde.",
@@ -348,7 +348,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: Patterns",
       instructions: "Fill in the correct form of the verb.",
-      question: "He recommended ___ (read) this book.",
+      question: "[[He recommended ___ (read) this book.|Él recomendó leer este libro.]]",
       correctAnswer: "reading",
       explanation: "Recommend is followed by the -ing form.",
       translation: "Él recomendó leer este libro.",
@@ -366,7 +366,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: Patterns",
       instructions: "Fill in the correct form of the verb.",
-      question: "She threatened ___ (call) the police.",
+      question: "[[She threatened ___ (call) the police.|Ella amenazó con llamar a la policía.]]",
       correctAnswer: "to call",
       explanation: "Threaten is followed by the to-infinitive.",
       translation: "Ella amenazó con llamar a la policía.",
@@ -386,7 +386,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Meeting Terms",
       instructions: "Fill in the blank.",
-      question: "We need to set an ___ (agenda) for the meeting.",
+      question: "[[We need to set an ___ (agenda) for the meeting.|Necesitamos establecer un orden del día para la reunión.]]",
       correctAnswer: "agenda",
       explanation: "An agenda is a list of items to be discussed at a meeting.",
       translation: "Necesitamos establecer un orden del día para la reunión.",
@@ -404,7 +404,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Meeting Terms",
       instructions: "Fill in the blank.",
-      question: "Who is going to take the ___ (minutes)?",
+      question: "[[Who is going to take the ___ (minutes)?|¿Quién va a tomar el acta?]]",
       correctAnswer: "minutes",
       explanation: "Minutes are the official written record of a meeting.",
       translation: "¿Quién va a tomar el acta?",
@@ -422,7 +422,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Meeting Terms",
       instructions: "Fill in the blank.",
-      question: "The meeting was ___ (chaired) by the CEO.",
+      question: "[[The meeting was ___ (chaired) by the CEO.|La reunión fue presidida por el CEO.]]",
       correctAnswer: "chaired",
       explanation: "To chair a meeting means to lead it.",
       translation: "La reunión fue presidida por el CEO.",
@@ -440,7 +440,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Meeting Terms",
       instructions: "Fill in the blank.",
-      question: "We had a very ___ (productive) discussion.",
+      question: "[[We had a very ___ (productive) discussion.|Tuvimos una discusión muy productiva.]]",
       correctAnswer: "productive",
       explanation: "Productive means achieving or producing a significant amount or result.",
       translation: "Tuvimos una discusión muy productiva.",
@@ -458,7 +458,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Meeting Terms",
       instructions: "Fill in the blank.",
-      question: "There were several ___ (action) points to follow up on.",
+      question: "[[There were several ___ (action) points to follow up on.|Hubo varios puntos de acción para hacer seguimiento.]]",
       correctAnswer: "action",
       explanation: "An action point is a specific task to be completed after a meeting.",
       translation: "Hubo varios puntos de acción para hacer seguimiento.",
@@ -476,7 +476,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Meeting Terms",
       instructions: "Fill in the blank.",
-      question: "I'd like to ___ (raise) a point about the budget.",
+      question: "[[I'd like to ___ (raise) a point about the budget.|Me gustaría plantear un punto sobre el presupuesto.]]",
       correctAnswer: "raise",
       explanation: "To raise a point means to bring up a topic for discussion.",
       translation: "Me gustaría plantear un punto sobre el presupuesto.",
@@ -494,7 +494,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Meeting Terms",
       instructions: "Fill in the blank.",
-      question: "Let's stay on ___ (track) and avoid distractions.",
+      question: "[[Let's stay on ___ (track) and avoid distractions.|Mantengámonos en el camino y evitemos distracciones.]]",
       correctAnswer: "track",
       explanation: "To stay on track means to continue as planned or expected.",
       translation: "Mantengámonos en el camino y evitemos distracciones.",
@@ -512,7 +512,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Meeting Terms",
       instructions: "Fill in the blank.",
-      question: "We need to reach a ___ (consensus) before we leave.",
+      question: "[[We need to reach a ___ (consensus) before we leave.|Necesitamos llegar a un consenso antes de irnos.]]",
       correctAnswer: "consensus",
       explanation: "Consensus is a general agreement.",
       translation: "Necesitamos llegar a un consenso antes de irnos.",
@@ -530,7 +530,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Meeting Terms",
       instructions: "Fill in the blank.",
-      question: "The meeting was ___ (adjourned) until tomorrow.",
+      question: "[[The meeting was ___ (adjourned) until tomorrow.|La reunión se suspendió hasta mañana.]]",
       correctAnswer: "adjourned",
       explanation: "To adjourn a meeting means to break it off with the intention of resuming it later.",
       translation: "La reunión se suspendió hasta mañana.",
@@ -548,7 +548,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Meeting Terms",
       instructions: "Fill in the blank.",
-      question: "Can we ___ (summarize) what we have agreed so far?",
+      question: "[[Can we ___ (summarize) what we have agreed so far?|¿Podemos resumir lo que hemos acordado hasta ahora?]]",
       correctAnswer: "summarize",
       explanation: "To summarize means to give a brief statement of the main points.",
       translation: "¿Podemos resumir lo que hemos acordado hasta ahora?",
@@ -568,7 +568,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Negotiation Terms",
       instructions: "Choose the correct term.",
-      question: "We are looking for a ___ situation where both sides benefit.",
+      question: "[[We are looking for a ___ situation where both sides benefit.|Estamos buscando una situación de ganar-ganar.]]",
       options: ["win-win", "good-good", "best-best"],
       correctAnswer: "win-win",
       explanation: "A win-win situation is one in which each party benefits in some way.",
@@ -587,7 +587,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Negotiation Terms",
       instructions: "Choose the correct term.",
-      question: "The negotiation reached a ___, with neither side willing to move.",
+      question: "[[The negotiation reached a ___, with neither side willing to move.|La negociación llegó a un punto muerto.]]",
       options: ["deadlock", "stop", "wall"],
       correctAnswer: "deadlock",
       explanation: "A deadlock is a situation in which no progress can be made.",
@@ -606,7 +606,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Negotiation Terms",
       instructions: "Choose the correct term.",
-      question: "We need to make a ___ to close the deal.",
+      question: "[[We need to make a ___ to close the deal.|Necesitamos hacer una concesión para cerrar el trato.]]",
       options: ["concession", "gift", "prize"],
       correctAnswer: "concession",
       explanation: "A concession is something given up in order to reach an agreement.",
@@ -625,7 +625,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Negotiation Terms",
       instructions: "Choose the correct term.",
-      question: "He is a very tough ___.",
+      question: "[[He is a very tough ___.|Él es un negociador muy duro.]]",
       options: ["negotiator", "talker", "dealer"],
       correctAnswer: "negotiator",
       explanation: "A negotiator is a person who conducts negotiations.",
@@ -644,7 +644,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Negotiation Terms",
       instructions: "Choose the correct term.",
-      question: "The ___ of the contract are very clear.",
+      question: "[[The ___ of the contract are very clear.|Los términos del contrato son muy claros.]]",
       options: ["terms", "words", "lines"],
       correctAnswer: "terms",
       explanation: "Terms are the conditions that are part of an agreement.",
@@ -663,7 +663,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Negotiation Terms",
       instructions: "Choose the correct verb.",
-      question: "We managed to ___ out the details.",
+      question: "[[We managed to ___ out the details.|Logramos resolver los detalles.]]",
       options: ["iron", "wash", "clean"],
       correctAnswer: "iron",
       explanation: "To 'iron out' means to solve small problems or settle details.",
@@ -682,7 +682,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Negotiation Terms",
       instructions: "Choose the correct noun.",
-      question: "The deal is still up in the ___.",
+      question: "[[The deal is still up in the ___.|El trato todavía está en el aire.]]",
       options: ["air", "sky", "cloud"],
       correctAnswer: "air",
       explanation: "To be 'up in the air' means to be uncertain or undecided.",
@@ -701,7 +701,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Negotiation Terms",
       instructions: "Choose the correct noun.",
-      question: "We need to find common ___.",
+      question: "[[We need to find common ___.|Necesitamos encontrar un terreno común.]]",
       options: ["ground", "land", "place"],
       correctAnswer: "ground",
       explanation: "Common ground refers to shared interests or opinions.",
@@ -720,7 +720,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Negotiation Terms",
       instructions: "Choose the correct verb.",
-      question: "They gave us a take-it-or-___-it offer.",
+      question: "[[They gave us a take-it-or-___-it offer.|Nos dieron una oferta de tómalo o déjalo.]]",
       options: ["leave", "take", "make"],
       correctAnswer: "leave",
       explanation: "A take-it-or-leave-it offer is one that will not be changed.",
@@ -739,7 +739,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Negotiation Terms",
       instructions: "Choose the correct adjective.",
-      question: "The negotiation was very ___.",
+      question: "[[The negotiation was very ___.|La negociación fue muy intensa.]]",
       options: ["intense", "hard", "strong"],
       correctAnswer: "intense",
       explanation: "Intense means involving a lot of effort or strong feelings.",
@@ -760,7 +760,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (AGREE) was signed yesterday.",
+      question: "[[The ___ (AGREE) was signed yesterday.|El acuerdo se firmó ayer.]]",
       correctAnswer: "agreement",
       explanation: "Noun form of 'agree'.",
       translation: "El acuerdo se firmó ayer.",
@@ -778,7 +778,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "We had a very ___ (CONSTRUCT) meeting.",
+      question: "[[We had a very ___ (CONSTRUCT) meeting.|Tuvimos una reunión muy constructiva.]]",
       correctAnswer: "constructive",
       explanation: "Adjective form of 'construct'.",
       translation: "Tuvimos una reunión muy constructiva.",
@@ -796,7 +796,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (NEGOTIATE) process was long.",
+      question: "[[The ___ (NEGOTIATE) process was long.|El proceso de negociación fue largo.]]",
       correctAnswer: "negotiation",
       explanation: "Noun form of 'negotiate'.",
       translation: "El proceso de negociación fue largo.",
@@ -814,7 +814,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "He showed great ___ (FLEXIBLE) during the talk.",
+      question: "[[He showed great ___ (FLEXIBLE) during the talk.|Mostró gran flexibilidad durante la charla.]]",
       correctAnswer: "flexibility",
       explanation: "Noun form of 'flexible'.",
       translation: "Mostró gran flexibilidad durante la charla.",
@@ -832,7 +832,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (CLARIFY) of his points was appreciated.",
+      question: "[[The ___ (CLARIFY) of his points was appreciated.|Se agradeció la claridad de sus puntos.]]",
       correctAnswer: "clarity",
       explanation: "Noun form of 'clear' (CLARIFY is the verb, but often these tasks ask for the noun).",
       translation: "Se agradeció la claridad de sus puntos.",
@@ -850,7 +850,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "We need a ___ (DECIDE) leader for this project.",
+      question: "[[We need a ___ (DECIDE) leader for this project.|Necesitamos un líder decisivo para este proyecto.]]",
       correctAnswer: "decisive",
       explanation: "Adjective form of 'decide'.",
       translation: "Necesitamos un líder decisivo para este proyecto.",
@@ -868,7 +868,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (ORGANIZE) of the meeting was poor.",
+      question: "[[The ___ (ORGANIZE) of the meeting was poor.|La organización de la reunión fue deficiente.]]",
       correctAnswer: "organization",
       explanation: "Noun form of 'organize'.",
       translation: "La organización de la reunión fue deficiente.",
@@ -886,7 +886,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "She is a very ___ (PERSUADE) speaker.",
+      question: "[[She is a very ___ (PERSUADE) speaker.|Ella es una oradora muy persuasiva.]]",
       correctAnswer: "persuasive",
       explanation: "Adjective form of 'persuade'.",
       translation: "Ella es una oradora muy persuasiva.",
@@ -904,7 +904,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (EFFICIENT) of the team improved.",
+      question: "[[The ___ (EFFICIENT) of the team improved.|La eficiencia del equipo mejoró.]]",
       correctAnswer: "efficiency",
       explanation: "Noun form of 'efficient'.",
       translation: "La eficiencia del equipo mejoró.",
@@ -922,7 +922,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "His ___ (CONTRIBUTE) to the discussion was vital.",
+      question: "[[His ___ (CONTRIBUTE) to the discussion was vital.|Su contribución a la discusión fue vital.]]",
       correctAnswer: "contribution",
       explanation: "Noun form of 'contribute'.",
       translation: "Su contribución a la discusión fue vital.",
