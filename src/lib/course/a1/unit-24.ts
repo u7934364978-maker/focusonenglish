@@ -107,27 +107,6 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u24-e6',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Hobbies',
-    topicName: 'My Hobbies',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Reading',
-      instructions: 'Di la palabra para "lectura".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Reading',
-          phonetic: '/ˈriːdɪŋ/',
-          translation: 'Lectura',
-          explanation: 'La "ea" suena como una "i" larga.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u24-e7',
     type: 'matching',
     level: 'A1',
@@ -285,27 +264,6 @@ export const UNIT_24_EXERCISES: Exercise[] = [
           question: 'I ________ TV in the evening.',
           correctAnswer: 'watch',
           explanation: "Usamos 'watch' para cosas que miramos con atención durante un tiempo, como la TV o películas."
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u24-e15',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Hobbies',
-    topicName: 'My Hobbies',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Movies',
-      instructions: 'Di la palabra para "películas".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Movies',
-          phonetic: '/ˈmuːviz/',
-          translation: 'Películas',
-          explanation: 'La "o" suena como una "u" larga.'
         }
       ]
     } as any
@@ -473,27 +431,6 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u24-e24',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Hobbies',
-    topicName: 'My Hobbies',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Often',
-      instructions: 'Di la palabra para "a menudo".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Often',
-          phonetic: '/ˈɒfn/',
-          translation: 'A menudo',
-          explanation: 'La "t" es muda para muchos hablantes nativos.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u24-e25',
     type: 'matching',
     level: 'A1',
@@ -656,27 +593,6 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u24-e33',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Hobbies',
-    topicName: 'My Hobbies',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Yoga',
-      instructions: 'Di la palabra para "yoga".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Yoga',
-          phonetic: '/ˈjoʊɡə/',
-          translation: 'Yoga',
-          explanation: 'La "o" suena como "ou".'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u24-e34',
     type: 'matching',
     level: 'A1',
@@ -834,27 +750,6 @@ export const UNIT_24_EXERCISES: Exercise[] = [
           question: 'What is your hobby in your ________ time?',
           correctAnswer: 'free',
           explanation: '"Free time" es tiempo libre u ocio.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u24-e42',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Hobbies',
-    topicName: 'My Hobbies',
-    difficulty: 'hard',
-    content: {
-      title: 'Pronunciación: Basketball',
-      instructions: 'Di la palabra para "baloncesto".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Basketball',
-          phonetic: '/ˈbæskɪtbɔːl/',
-          translation: 'Baloncesto',
-          explanation: 'La "a" en "ball" suena como una "o" abierta.'
         }
       ]
     } as any
