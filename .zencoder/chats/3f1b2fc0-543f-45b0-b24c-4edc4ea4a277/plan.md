@@ -47,4 +47,4 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/3f
 ### [x] Step: Implementation
 
 - [x] Push entire course (B2 and C1 units) to main branch.
-- [x] Provide commit hash for Vercel deployment: **20683166**.
+- [x] Provide commit hash for Vercel deployment: **967d282addf071990421b5b28c763d9bc4ae1dd1**.
