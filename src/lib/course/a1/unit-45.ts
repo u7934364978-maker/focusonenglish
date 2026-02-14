@@ -47,11 +47,11 @@ export const UNIT_45_EXERCISES: Exercise[] = [
         {
           "question": "([[En|En]]) _______ [[spring|spring]], [[the|el/la/los/las]] [[flowers|flowers]] [[grow|grow]].",
           "options": [
-            "[[In|In]]",
+            "[[are|están]]",
             "[[is|es]]",
-            "[[are|están]]"
+            "[[In|In]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -97,13 +97,13 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[It|Esto/eso]] [[is|es/está]] [[very|muy]] [[cold|cold]] ([[en|en]]) _______ [[winter|winter]].",
+          "question": "[[It|Esto/eso]] [[is|es/está]] [[very|muy]] [[cold|frío]] ([[en|en]]) _______ [[winter|winter]].",
           "options": [
             "[[is|es]]",
-            "[[in|in]]",
-            "[[are|están]]"
+            "[[are|están]]",
+            "[[in|in]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -123,13 +123,13 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Autumn|Autumn]] ([[venir|venir]]) _______ [[after|after]] [[summer|summer]].",
+          "question": "[[Autumn|Autumn]] ([[venir|venir]]) _______ [[after|después]] [[summer|summer]].",
           "options": [
-            "[[are|están]]",
+            "[[comes|comes]]",
             "[[is|es]]",
-            "[[comes|comes]]"
+            "[[are|están]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -149,11 +149,11 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[leaves|leaves]] [[fall|fall]] [[in|en]] [[autumn|autumn]].",
       "words": [
-        "[[leaves|leaves]]",
         "[[in|en]]",
-        "[[fall|fall]]",
+        "[[The|El/la/los/las]]",
         "[[autumn|autumn]].",
-        "[[The|El/la/los/las]]"
+        "[[leaves|leaves]]",
+        "[[fall|fall]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -170,15 +170,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[go|go]] [[to|a/para]] [[the|el/la/los/las]] [[beach|beach]] [[in|en]] [[summer|summer]].",
+      "correctSentence": "[[I|Yo]] [[go|ir]] [[to|a/para]] [[the|el/la/los/las]] [[beach|beach]] [[in|en]] [[summer|summer]].",
       "words": [
-        "[[summer|summer]].",
         "[[in|en]]",
-        "[[beach|beach]]",
-        "[[the|el/la/los/las]]",
+        "[[I|Yo]]",
         "[[to|a/para]]",
-        "[[go|go]]",
-        "[[I|Yo]]"
+        "[[summer|summer]].",
+        "[[go|ir]]",
+        "[[beach|beach]]",
+        "[[the|el/la/los/las]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -195,13 +195,13 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Spring|Spring]] [[is|es/está]] [[a|un/una]] [[beautiful|beautiful]] [[season|season]].",
+      "correctSentence": "[[Spring|Spring]] [[is|es/está]] [[a|un/una]] [[beautiful|hermoso/a]] [[season|season]].",
       "words": [
+        "[[Spring|Spring]]",
         "[[is|es/está]]",
-        "[[season|season]].",
-        "[[beautiful|beautiful]]",
         "[[a|un/una]]",
-        "[[Spring|Spring]]"
+        "[[season|season]].",
+        "[[beautiful|hermoso/a]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -218,12 +218,12 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[go|go]] [[skiing|skiing]] [[in|en]] [[winter|winter]].",
+      "correctSentence": "[[We|Nosotros]] [[go|ir]] [[skiing|skiing]] [[in|en]] [[winter|winter]].",
       "words": [
-        "[[in|en]]",
-        "[[go|go]]",
-        "[[We|Nosotros]]",
+        "[[go|ir]]",
         "[[winter|winter]].",
+        "[[in|en]]",
+        "[[We|Nosotros]]",
         "[[skiing|skiing]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
@@ -241,14 +241,14 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[love|love]] [[the|el/la/los/las]] [[colors|colors]] [[of|of]] [[autumn|autumn]].",
+      "correctSentence": "[[I|Yo]] [[love|love]] [[the|el/la/los/las]] [[colors|colors]] [[of|de]] [[autumn|autumn]].",
       "words": [
         "[[I|Yo]]",
-        "[[colors|colors]]",
-        "[[autumn|autumn]].",
         "[[love|love]]",
-        "[[of|of]]",
-        "[[the|el/la/los/las]]"
+        "[[the|el/la/los/las]]",
+        "[[colors|colors]]",
+        "[[of|de]]",
+        "[[autumn|autumn]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

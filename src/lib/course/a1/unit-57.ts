@@ -59,11 +59,11 @@ export const UNIT_57_EXERCISES: Exercise[] = [
         {
           "question": "([[Corta|Corta]]) _______ [[the|el/la/los/las]] [[onions|onions]].",
           "options": [
-            "[[are|están]]",
             "[[is|es]]",
-            "[[Cut|Cut]]"
+            "[[Cut|Cut]]",
+            "[[are|están]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -83,13 +83,13 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "([[Mezcla|Mezcla]]) _______ [[the|el/la/los/las]] [[eggs|eggs]] [[and|y]] [[sugar|sugar]].",
+          "question": "([[Mezcla|Mezcla]]) _______ [[the|el/la/los/las]] [[eggs|eggs]] [[and|and]] [[sugar|azúcar]].",
           "options": [
-            "[[is|es]]",
             "[[Mix|Mix]]",
+            "[[is|es]]",
             "[[are|están]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -111,11 +111,11 @@ export const UNIT_57_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] ([[hornear|hornear]]) _______ [[a|un/una]] [[cake|cake]].",
           "options": [
-            "[[bake|bake]]",
+            "[[are|están]]",
             "[[is|es]]",
-            "[[are|están]]"
+            "[[bake|bake]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -135,13 +135,13 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "([[Hierve|Hierve]]) _______ [[the|el/la/los/las]] [[water|water]].",
+          "question": "([[Hierve|Hierve]]) _______ [[the|el/la/los/las]] [[water|agua]].",
           "options": [
-            "[[Boil|Boil]]",
+            "[[are|están]]",
             "[[is|es]]",
-            "[[are|están]]"
+            "[[Boil|Boil]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -161,10 +161,10 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I'm|I'm]] [[baking|baking]] [[a|un/una]] [[chocolate|chocolate]] [[cake|cake]].",
       "words": [
-        "[[I'm|I'm]]",
-        "[[baking|baking]]",
         "[[a|un/una]]",
+        "[[baking|baking]]",
         "[[chocolate|chocolate]]",
+        "[[I'm|I'm]]",
         "[[cake|cake]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
@@ -182,14 +182,14 @@ export const UNIT_57_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Cut|Cut]] [[the|el/la/los/las]] [[vegetables|vegetables]] [[into|into]] [[small|pequeño/pequeña]] [[pieces|pieces]].",
+      "correctSentence": "[[Cut|Cut]] [[the|el/la/los/las]] [[vegetables|verduras]] [[into|into]] [[small|pequeño/pequeña]] [[pieces|pieces]].",
       "words": [
         "[[Cut|Cut]]",
         "[[the|el/la/los/las]]",
         "[[pieces|pieces]].",
-        "[[vegetables|vegetables]]",
-        "[[into|into]]",
-        "[[small|pequeño/pequeña]]"
+        "[[vegetables|verduras]]",
+        "[[small|pequeño/pequeña]]",
+        "[[into|into]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -208,11 +208,11 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Mix|Mix]] [[all|all]] [[the|el/la/los/las]] [[ingredients|ingredients]] [[together|together]].",
       "words": [
-        "[[the|el/la/los/las]]",
+        "[[Mix|Mix]]",
         "[[all|all]]",
+        "[[the|el/la/los/las]]",
         "[[ingredients|ingredients]]",
-        "[[together|together]].",
-        "[[Mix|Mix]]"
+        "[[together|together]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -229,15 +229,15 @@ export const UNIT_57_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Don't|No]] [[fry|fry]] [[the|el/la/los/las]] [[fish|fish]] [[for|para/por]] [[too|too]] [[long|long]].",
+      "correctSentence": "[[Don't|No]] [[fry|fry]] [[the|el/la/los/las]] [[fish|pescado]] [[for|para/por]] [[too|demasiado/también]] [[long|largo]].",
       "words": [
-        "[[too|too]]",
-        "[[Don't|No]]",
-        "[[the|el/la/los/las]]",
+        "[[too|demasiado/también]]",
+        "[[long|largo]].",
+        "[[for|para/por]]",
+        "[[fish|pescado]]",
         "[[fry|fry]]",
-        "[[fish|fish]]",
-        "[[long|long]].",
-        "[[for|para/por]]"
+        "[[Don't|No]]",
+        "[[the|el/la/los/las]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -254,14 +254,14 @@ export const UNIT_57_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Boil|Boil]] [[the|el/la/los/las]] [[pasta|pasta]] [[for|para/por]] [[ten|ten]] [[minutes|minutes]].",
+      "correctSentence": "[[Boil|Boil]] [[the|el/la/los/las]] [[pasta|pasta]] [[for|para/por]] [[ten|diez]] [[minutes|minutes]].",
       "words": [
+        "[[minutes|minutes]].",
+        "[[the|el/la/los/las]]",
+        "[[for|para/por]]",
         "[[Boil|Boil]]",
         "[[pasta|pasta]]",
-        "[[the|el/la/los/las]]",
-        "[[minutes|minutes]].",
-        "[[ten|ten]]",
-        "[[for|para/por]]"
+        "[[ten|diez]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

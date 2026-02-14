@@ -13,7 +13,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Aprende las palabras más importantes de la unidad.",
       "items": [
         {
-          "front": "[[Time|Tiempo]]",
+          "front": "[[Time|Tiempo/hora]]",
           "back": "Hora"
         },
         {
@@ -61,7 +61,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[It|Esto/eso]] ([[ser/estar|ser/estar]] [[-|-]] [[ello|ello]]) _______ [[five|five]] [[o'clock|o'clock]].",
+          "question": "[[It|Esto/eso]] ([[ser/estar|ser/estar]] [[-|-]] [[ello|ello]]) _______ [[five|cinco]] [[o'clock|o'clock]].",
           "options": [
             "[[is|is]]",
             "[[is|es]]",
@@ -87,7 +87,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[time|tiempo]] ([[ser/estar|ser/estar]] [[-|-]] [[ello|ello]]) _______ [[it|esto/eso]]?",
+          "question": "[[What|Qué]] [[time|tiempo/hora]] ([[ser/estar|ser/estar]] [[-|-]] [[ello|ello]]) _______ [[it|esto/eso]]?",
           "options": [
             "[[is|es]]",
             "[[is|is]]",
@@ -113,11 +113,11 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[It|Esto/eso]] [[is|es/está]] [[half|half]] ([[pasado|pasado]]) _______ [[six|six]].",
+          "question": "[[It|Esto/eso]] [[is|es/está]] [[half|half]] ([[pasado|pasado]]) _______ [[six|seis]].",
           "options": [
             "[[past|past]]",
-            "[[are|están]]",
-            "[[is|es]]"
+            "[[is|es]]",
+            "[[are|están]]"
           ],
           "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
@@ -139,13 +139,13 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[It|Esto/eso]] [[is|es/está]] [[a|un/una]] [[quarter|quarter]] ([[para|para]]) _______ [[eight|eight]].",
+          "question": "[[It|Esto/eso]] [[is|es/está]] [[a|un/una]] [[quarter|quarter]] ([[para|para]]) _______ [[eight|ocho]].",
           "options": [
-            "[[to|to]]",
             "[[are|están]]",
-            "[[is|es]]"
+            "[[is|es]]",
+            "[[to|to]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -163,14 +163,14 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[wake|wake]] [[up|up]] [[at|en]] [[seven|seven]] [[o'clock|o'clock]].",
+      "correctSentence": "[[I|Yo]] [[wake|wake]] [[up|up]] [[at|en]] [[seven|siete]] [[o'clock|o'clock]].",
       "words": [
-        "[[seven|seven]]",
-        "[[wake|wake]]",
         "[[at|en]]",
-        "[[I|Yo]]",
+        "[[o'clock|o'clock]].",
         "[[up|up]]",
-        "[[o'clock|o'clock]]."
+        "[[wake|wake]]",
+        "[[I|Yo]]",
+        "[[seven|siete]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -187,13 +187,13 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[movie|movie]] [[starts|starts]] [[at|en]] [[eight|eight]].",
+      "correctSentence": "[[The|El/la/los/las]] [[movie|movie]] [[starts|starts]] [[at|en]] [[eight|ocho]].",
       "words": [
         "[[The|El/la/los/las]]",
-        "[[movie|movie]]",
         "[[starts|starts]]",
+        "[[eight|ocho]].",
         "[[at|en]]",
-        "[[eight|eight]]."
+        "[[movie|movie]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -210,11 +210,11 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[It's|It's]] [[half|half]] [[past|past]] [[nine|nine]].",
+      "correctSentence": "[[It's|It's]] [[half|half]] [[past|past]] [[nine|nueve]].",
       "words": [
         "[[past|past]]",
+        "[[nine|nueve]].",
         "[[half|half]]",
-        "[[nine|nine]].",
         "[[It's|It's]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
@@ -232,14 +232,14 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[A|Un/una]] [[quarter|quarter]] [[to|a/para]] [[ten|ten]] [[is|es/está]] [[9:45|9:45]].",
+      "correctSentence": "[[A|Un/una]] [[quarter|quarter]] [[to|a/para]] [[ten|diez]] [[is|es/está]] [[9:45|9:45]].",
       "words": [
-        "[[to|a/para]]",
-        "[[9:45|9:45]].",
         "[[A|Un/una]]",
-        "[[quarter|quarter]]",
-        "[[ten|ten]]",
-        "[[is|es/está]]"
+        "[[ten|diez]]",
+        "[[9:45|9:45]].",
+        "[[to|a/para]]",
+        "[[is|es/está]]",
+        "[[quarter|quarter]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -256,12 +256,12 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Look|Look]] [[at|en]] [[the|el/la/los/las]] [[clock|clock]].",
+      "correctSentence": "[[Look|Mirar]] [[at|en]] [[the|el/la/los/las]] [[clock|clock]].",
       "words": [
-        "[[clock|clock]].",
-        "[[Look|Look]]",
+        "[[Look|Mirar]]",
         "[[at|en]]",
-        "[[the|el/la/los/las]]"
+        "[[the|el/la/los/las]]",
+        "[[clock|clock]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

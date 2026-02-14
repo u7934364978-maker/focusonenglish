@@ -67,11 +67,11 @@ export const UNIT_17_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] ([[comer|comer]]) _______ [[cereal|cereal]] [[for|para/por]] [[breakfast|breakfast]].",
           "options": [
-            "[[eat|eat]]",
+            "[[are|están]]",
             "[[is|es]]",
-            "[[are|están]]"
+            "[[eat|eat]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -91,13 +91,13 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] ([[no|no]] [[-|-]] [[gustar|gustar]]) _______ [[fish|fish]].",
+          "question": "[[She|Ella]] ([[no|no]] [[-|-]] [[gustar|gustar]]) _______ [[fish|pescado]].",
           "options": [
-            "[[doesn't like|doesn't like]]",
             "[[are|están]]",
-            "[[is|es]]"
+            "[[is|es]]",
+            "[[doesn't like|doesn't like]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -117,13 +117,13 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] ([[tener|tener]]) _______ [[chicken|chicken]] [[for|para/por]] [[dinner|dinner]].",
+          "question": "[[We|Nosotros]] ([[tener|tener]]) _______ [[chicken|pollo]] [[for|para/por]] [[dinner|dinner]].",
           "options": [
-            "[[have|have]]",
+            "[[are|están]]",
             "[[is|es]]",
-            "[[are|están]]"
+            "[[have|have]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -143,13 +143,13 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] ([[beber|beber]]) _______ [[water|water]] [[with|con]] [[lunch|lunch]].",
+          "question": "[[They|Ellos]] ([[beber|beber]]) _______ [[water|agua]] [[with|con]] [[lunch|lunch]].",
           "options": [
-            "[[are|están]]",
+            "[[drink|drink]]",
             "[[is|es]]",
-            "[[drink|drink]]"
+            "[[are|están]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -169,12 +169,12 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Breakfast|Breakfast]] [[is|es/está]] [[the|el/la/los/las]] [[most|most]] [[important|important]] [[meal|meal]].",
       "words": [
-        "[[important|important]]",
-        "[[meal|meal]].",
-        "[[most|most]]",
-        "[[the|el/la/los/las]]",
+        "[[Breakfast|Breakfast]]",
         "[[is|es/está]]",
-        "[[Breakfast|Breakfast]]"
+        "[[meal|meal]].",
+        "[[important|important]]",
+        "[[the|el/la/los/las]]",
+        "[[most|most]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -193,13 +193,13 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[usually|usually]] [[have|tener/haber]] [[a|un/una]] [[sandwich|sandwich]] [[for|para/por]] [[lunch|lunch]].",
       "words": [
-        "[[usually|usually]]",
-        "[[a|un/una]]",
-        "[[lunch|lunch]].",
-        "[[I|Yo]]",
-        "[[sandwich|sandwich]]",
         "[[for|para/por]]",
-        "[[have|tener/haber]]"
+        "[[have|tener/haber]]",
+        "[[usually|usually]]",
+        "[[lunch|lunch]].",
+        "[[sandwich|sandwich]]",
+        "[[I|Yo]]",
+        "[[a|un/una]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -216,14 +216,14 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[eat|eat]] [[dinner|dinner]] [[at|en]] [[8|8]] [[o'clock|o'clock]].",
+      "correctSentence": "[[They|Ellos]] [[eat|comer]] [[dinner|dinner]] [[at|en]] [[8|8]] [[o'clock|o'clock]].",
       "words": [
         "[[They|Ellos]]",
-        "[[at|en]]",
-        "[[8|8]]",
-        "[[eat|eat]]",
+        "[[eat|comer]]",
+        "[[o'clock|o'clock]].",
         "[[dinner|dinner]]",
-        "[[o'clock|o'clock]]."
+        "[[8|8]]",
+        "[[at|en]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -240,13 +240,13 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[likes|likes]] [[eggs|eggs]] [[and|y]] [[toast|toast]].",
+      "correctSentence": "[[He|Él]] [[likes|likes]] [[eggs|eggs]] [[and|and]] [[toast|toast]].",
       "words": [
-        "[[and|y]]",
+        "[[and|and]]",
         "[[eggs|eggs]]",
-        "[[He|Él]]",
         "[[likes|likes]]",
-        "[[toast|toast]]."
+        "[[toast|toast]].",
+        "[[He|Él]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -263,14 +263,14 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[eat|eat]] [[a|un/una]] [[lot|lot]] [[of|of]] [[fruit|fruit]].",
+      "correctSentence": "[[We|Nosotros]] [[eat|comer]] [[a|un/una]] [[lot|lot]] [[of|de]] [[fruit|fruta]].",
       "words": [
-        "[[of|of]]",
-        "[[fruit|fruit]].",
-        "[[We|Nosotros]]",
-        "[[eat|eat]]",
+        "[[lot|lot]]",
         "[[a|un/una]]",
-        "[[lot|lot]]"
+        "[[eat|comer]]",
+        "[[fruit|fruta]].",
+        "[[of|de]]",
+        "[[We|Nosotros]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

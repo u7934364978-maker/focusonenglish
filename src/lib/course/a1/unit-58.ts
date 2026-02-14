@@ -25,7 +25,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
           "back": "Medicina"
         },
         {
-          "front": "[[Doctor|Doctor]]",
+          "front": "[[Doctor|Médico/a]]",
           "back": "Doctor"
         },
         {
@@ -37,7 +37,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
           "back": "Farmacia"
         },
         {
-          "front": "[[Cold|Resfriado]]",
+          "front": "[[Cold|Frío]]",
           "back": "Resfriado"
         }
       ]
@@ -59,11 +59,11 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] ([[sentirse|sentirse]]) _______ [[sick|sick]].",
           "options": [
-            "[[feel|feel]]",
+            "[[are|están]]",
             "[[is|es]]",
-            "[[are|están]]"
+            "[[feel|feel]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -85,11 +85,11 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] ([[tener|tener]]) _______ [[a|un/una]] [[headache|headache]].",
           "options": [
-            "[[is|es]]",
             "[[have|have]]",
+            "[[is|es]]",
             "[[are|están]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -109,13 +109,13 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Take|Take]] [[this|este/esta]] ([[medicina|medicina]]) [[_______|_______]].",
+          "question": "[[Take|Tomar/llevar]] [[this|este/esta]] ([[medicina|medicina]]) [[_______|_______]].",
           "options": [
-            "[[are|están]]",
             "[[medicine|medicine]]",
+            "[[are|están]]",
             "[[is|es]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -135,13 +135,13 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] ([[necesitar|necesitar]]) _______ [[to|a/para]] [[see|see]] [[a|un/una]] [[doctor|doctor]].",
+          "question": "[[She|Ella]] ([[necesitar|necesitar]]) _______ [[to|a/para]] [[see|ver]] [[a|un/una]] [[doctor|médico/a]].",
           "options": [
-            "[[are|están]]",
             "[[needs|needs]]",
-            "[[is|es]]"
+            "[[is|es]]",
+            "[[are|están]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -161,11 +161,11 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[have|tener/haber]] [[a|un/una]] [[sore|sore]] [[throat|throat]].",
       "words": [
-        "[[sore|sore]]",
-        "[[I|Yo]]",
+        "[[a|un/una]]",
         "[[have|tener/haber]]",
-        "[[throat|throat]].",
-        "[[a|un/una]]"
+        "[[I|Yo]]",
+        "[[sore|sore]]",
+        "[[throat|throat]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -182,12 +182,12 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Go|Go]] [[to|a/para]] [[the|el/la/los/las]] [[pharmacy|pharmacy]].",
+      "correctSentence": "[[Go|Ir]] [[to|a/para]] [[the|el/la/los/las]] [[pharmacy|pharmacy]].",
       "words": [
-        "[[pharmacy|pharmacy]].",
-        "[[the|el/la/los/las]]",
+        "[[Go|Ir]]",
         "[[to|a/para]]",
-        "[[Go|Go]]"
+        "[[pharmacy|pharmacy]].",
+        "[[the|el/la/los/las]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -204,13 +204,13 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[doctor|doctor]] [[is|es/está]] [[very|muy]] [[kind|amable]].",
+      "correctSentence": "[[The|El/la/los/las]] [[doctor|médico/a]] [[is|es/está]] [[very|muy]] [[kind|amable]].",
       "words": [
-        "[[very|muy]]",
         "[[is|es/está]]",
-        "[[The|El/la/los/las]]",
+        "[[very|muy]]",
+        "[[doctor|médico/a]]",
         "[[kind|amable]].",
-        "[[doctor|doctor]]"
+        "[[The|El/la/los/las]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -227,12 +227,12 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[need|need]] [[to|a/para]] [[rest|rest]].",
+      "correctSentence": "[[I|Yo]] [[need|necesitar]] [[to|a/para]] [[rest|rest]].",
       "words": [
-        "[[need|need]]",
-        "[[I|Yo]]",
+        "[[rest|rest]].",
         "[[to|a/para]]",
-        "[[rest|rest]]."
+        "[[need|necesitar]]",
+        "[[I|Yo]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -249,14 +249,14 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Take|Take]] [[the|el/la/los/las]] [[medicine|medicine]] [[twice|twice]] [[a|un/una]] [[day|día]].",
+      "correctSentence": "[[Take|Tomar/llevar]] [[the|el/la/los/las]] [[medicine|medicine]] [[twice|twice]] [[a|un/una]] [[day|día]].",
       "words": [
-        "[[Take|Take]]",
-        "[[twice|twice]]",
-        "[[a|un/una]]",
         "[[medicine|medicine]]",
         "[[the|el/la/los/las]]",
-        "[[day|día]]."
+        "[[day|día]].",
+        "[[a|un/una]]",
+        "[[twice|twice]]",
+        "[[Take|Tomar/llevar]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

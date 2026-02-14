@@ -61,7 +61,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[go|go]] [[to|a/para]] [[work|trabajo/trabajar]] ([[en|en]]) _______ [[bus|bus]].",
+          "question": "[[I|Yo]] [[go|ir]] [[to|a/para]] [[work|trabajo/trabajar]] ([[en|en]]) _______ [[bus|bus]].",
           "options": [
             "[[are|están]]",
             "[[is|es]]",
@@ -113,13 +113,13 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[conducir|conducir]]) _______ [[a|un/una]] [[car|car]].",
+          "question": "[[I|Yo]] ([[conducir|conducir]]) _______ [[a|un/una]] [[car|coche]].",
           "options": [
+            "[[are|están]]",
             "[[is|es]]",
-            "[[drive|drive]]",
-            "[[are|están]]"
+            "[[drive|drive]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -141,11 +141,11 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "[[She|Ella]] ([[montar|montar]]) _______ [[a|un/una]] [[bicycle|bicycle]].",
           "options": [
-            "[[is|es]]",
             "[[rides|rides]]",
+            "[[is|es]]",
             "[[are|están]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -165,13 +165,13 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[train|train]] [[is|es/está]] [[faster|faster]] [[than|que (comparativo)]] [[the|el/la/los/las]] [[bus|bus]].",
       "words": [
-        "[[train|train]]",
-        "[[bus|bus]].",
         "[[faster|faster]]",
-        "[[than|que (comparativo)]]",
+        "[[bus|bus]].",
         "[[The|El/la/los/las]]",
-        "[[is|es/está]]",
-        "[[the|el/la/los/las]]"
+        "[[than|que (comparativo)]]",
+        "[[the|el/la/los/las]]",
+        "[[train|train]]",
+        "[[is|es/está]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -190,12 +190,12 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[don't|no]] [[like|gustar/como]] [[flying|flying]] [[by|por]] [[plane|plane]].",
       "words": [
+        "[[flying|flying]]",
+        "[[plane|plane]].",
         "[[I|Yo]]",
         "[[don't|no]]",
-        "[[plane|plane]].",
-        "[[like|gustar/como]]",
-        "[[flying|flying]]",
-        "[[by|por]]"
+        "[[by|por]]",
+        "[[like|gustar/como]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -214,12 +214,12 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[He|Él]] [[rides|rides]] [[a|un/una]] [[motorbike|motorbike]] [[to|a/para]] [[work|trabajo/trabajar]].",
       "words": [
-        "[[work|trabajo/trabajar]].",
         "[[motorbike|motorbike]]",
         "[[a|un/una]]",
+        "[[to|a/para]]",
         "[[rides|rides]]",
         "[[He|Él]]",
-        "[[to|a/para]]"
+        "[[work|trabajo/trabajar]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -236,11 +236,11 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Let's|Let's]] [[take|take]] [[a|un/una]] [[taxi|taxi]].",
+      "correctSentence": "[[Let's|Let's]] [[take|tomar/llevar]] [[a|un/una]] [[taxi|taxi]].",
       "words": [
-        "[[Let's|Let's]]",
         "[[taxi|taxi]].",
-        "[[take|take]]",
+        "[[take|tomar/llevar]]",
+        "[[Let's|Let's]]",
         "[[a|un/una]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
@@ -262,10 +262,10 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "words": [
         "[[is|es/está]]",
         "[[boat|boat]]",
-        "[[the|el/la/los/las]]",
-        "[[harbor|harbor]].",
         "[[in|en]]",
-        "[[The|El/la/los/las]]"
+        "[[The|El/la/los/las]]",
+        "[[the|el/la/los/las]]",
+        "[[harbor|harbor]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

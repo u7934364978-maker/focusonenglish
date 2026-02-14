@@ -75,11 +75,11 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] ([[tener|tener]]) _______ [[a|un/una]] [[car|car]].",
+          "question": "[[He|Él]] ([[tener|tener]]) _______ [[a|un/una]] [[car|coche]].",
           "options": [
             "[[has|has]]",
-            "[[are|están]]",
-            "[[is|es]]"
+            "[[is|es]]",
+            "[[are|están]]"
           ],
           "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
@@ -101,7 +101,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Today|Today]] ([[ser/estar|ser/estar]] [[-|-]] [[ello|ello]]) _______ [[Tuesday|Tuesday]].",
+          "question": "[[Today|Hoy]] ([[ser/estar|ser/estar]] [[-|-]] [[ello|ello]]) _______ [[Tuesday|Tuesday]].",
           "options": [
             "[[is|is]]",
             "[[is|es]]",
@@ -129,11 +129,11 @@ export const UNIT_20_EXERCISES: Exercise[] = [
         {
           "question": "[[She|Ella]] ([[no|no]] [[-|-]] [[gustar|gustar]]) _______ [[tea|tea]].",
           "options": [
-            "[[is|es]]",
             "[[doesn't like|doesn't like]]",
+            "[[is|es]]",
             "[[are|están]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -151,15 +151,15 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[This|Este/esta]] [[is|es/está]] [[a|un/una]] [[review|review]] [[of|of]] [[module|module]] [[two|two]].",
+      "correctSentence": "[[This|Este/esta]] [[is|es/está]] [[a|un/una]] [[review|review]] [[of|de]] [[module|module]] [[two|dos]].",
       "words": [
-        "[[module|module]]",
-        "[[two|two]].",
-        "[[This|Este/esta]]",
-        "[[is|es/está]]",
         "[[a|un/una]]",
+        "[[of|de]]",
+        "[[two|dos]].",
+        "[[This|Este/esta]]",
         "[[review|review]]",
-        "[[of|of]]"
+        "[[module|module]]",
+        "[[is|es/está]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -178,10 +178,10 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Practice|Practice]] [[your|tu/tus]] [[daily|daily]] [[routine|routine]].",
       "words": [
-        "[[routine|routine]].",
         "[[daily|daily]]",
         "[[your|tu/tus]]",
-        "[[Practice|Practice]]"
+        "[[Practice|Practice]]",
+        "[[routine|routine]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -198,14 +198,14 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Learn|Learn]] [[the|el/la/los/las]] [[months|months]] [[of|of]] [[the|el/la/los/las]] [[year|año]].",
+      "correctSentence": "[[Learn|Learn]] [[the|el/la/los/las]] [[months|months]] [[of|de]] [[the|el/la/los/las]] [[year|año]].",
       "words": [
-        "[[year|año]].",
-        "[[the|el/la/los/las]]",
         "[[Learn|Learn]]",
-        "[[of|of]]",
+        "[[the|el/la/los/las]]",
         "[[months|months]]",
-        "[[the|el/la/los/las]]"
+        "[[of|de]]",
+        "[[the|el/la/los/las]]",
+        "[[year|año]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -222,13 +222,13 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Can|Poder]] [[you|tú/usted/vosotros]] [[tell|tell]] [[the|el/la/los/las]] [[time|tiempo]]?",
+      "correctSentence": "[[Can|Poder]] [[you|tú/usted/vosotros]] [[tell|tell]] [[the|el/la/los/las]] [[time|tiempo/hora]]?",
       "words": [
+        "[[time|tiempo/hora]]?",
         "[[you|tú/usted/vosotros]]",
         "[[the|el/la/los/las]]",
         "[[tell|tell]]",
-        "[[Can|Poder]]",
-        "[[time|tiempo]]?"
+        "[[Can|Poder]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -245,14 +245,14 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[know|saber/conocer]] [[my|mi/mis]] [[likes|likes]] [[and|y]] [[dislikes|dislikes]].",
+      "correctSentence": "[[I|Yo]] [[know|saber/conocer]] [[my|mi/mis]] [[likes|likes]] [[and|and]] [[dislikes|dislikes]].",
       "words": [
         "[[likes|likes]]",
-        "[[my|mi/mis]]",
-        "[[and|y]]",
+        "[[I|Yo]]",
         "[[dislikes|dislikes]].",
         "[[know|saber/conocer]]",
-        "[[I|Yo]]"
+        "[[and|and]]",
+        "[[my|mi/mis]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

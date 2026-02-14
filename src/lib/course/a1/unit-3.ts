@@ -111,11 +111,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] [[have|tener/haber]] ([[uno|uno]]) _______ [[apple|apple]].",
           "options": [
-            "[[one|one]]",
+            "[[are|están]]",
             "[[is|es]]",
-            "[[are|están]]"
+            "[[one|one]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -161,13 +161,13 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[There|There]] [[are|somos/estamos/son/están]] ([[cinco|cinco]]) _______ [[students|students]].",
+          "question": "[[There|Allí]] [[are|somos/estamos/son/están]] ([[cinco|cinco]]) _______ [[students|students]].",
           "options": [
             "[[is|es]]",
-            "[[five|five]]",
-            "[[are|están]]"
+            "[[are|están]]",
+            "[[five|five]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -187,7 +187,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[am|soy/estoy]] ([[diez|diez]]) _______ [[years|años]] [[old|viejo/anciano]].",
+          "question": "[[I|Yo]] [[am|soy/estoy]] ([[diez|diez]]) _______ [[years|years]] [[old|viejo/antiguo]].",
           "options": [
             "[[are|están]]",
             "[[is|es]]",
@@ -215,11 +215,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           "question": "[[He|Él]] [[is|es/está]] ([[siete|siete]]) [[_______|_______]].",
           "options": [
-            "[[are|están]]",
             "[[is|es]]",
-            "[[seven|seven]]"
+            "[[seven|seven]]",
+            "[[are|están]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -237,12 +237,12 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[have|tener/haber]] [[three|three]] [[pencils|pencils]].",
+      "correctSentence": "[[I|Yo]] [[have|tener/haber]] [[three|tres]] [[pencils|pencils]].",
       "words": [
         "[[I|Yo]]",
+        "[[pencils|pencils]].",
         "[[have|tener/haber]]",
-        "[[three|three]]",
-        "[[pencils|pencils]]."
+        "[[three|tres]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -259,13 +259,13 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[There|There]] [[are|somos/estamos/son/están]] [[twenty|twenty]] [[students|students]] [[in|en]] [[the|el/la/los/las]] [[class|class]].",
+      "correctSentence": "[[There|Allí]] [[are|somos/estamos/son/están]] [[twenty|twenty]] [[students|students]] [[in|en]] [[the|el/la/los/las]] [[class|class]].",
       "words": [
         "[[class|class]].",
-        "[[the|el/la/los/las]]",
-        "[[are|somos/estamos/son/están]]",
-        "[[There|There]]",
         "[[in|en]]",
+        "[[There|Allí]]",
+        "[[are|somos/estamos/son/están]]",
+        "[[the|el/la/los/las]]",
         "[[twenty|twenty]]",
         "[[students|students]]"
       ],
@@ -284,13 +284,13 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[is|es/está]] [[five|five]] [[years|años]] [[old|viejo/anciano]].",
+      "correctSentence": "[[She|Ella]] [[is|es/está]] [[five|cinco]] [[years|years]] [[old|viejo/antiguo]].",
       "words": [
+        "[[years|years]]",
         "[[She|Ella]]",
         "[[is|es/está]]",
-        "[[five|five]]",
-        "[[old|viejo/anciano]].",
-        "[[years|años]]"
+        "[[five|cinco]]",
+        "[[old|viejo/antiguo]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -307,13 +307,13 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Seven|Seven]] [[is|es/está]] [[my|mi/mis]] [[favorite|favorite]] [[number|number]].",
+      "correctSentence": "[[Seven|Siete]] [[is|es/está]] [[my|mi/mis]] [[favorite|favorite]] [[number|number]].",
       "words": [
+        "[[number|number]].",
         "[[favorite|favorite]]",
-        "[[is|es/está]]",
-        "[[Seven|Seven]]",
         "[[my|mi/mis]]",
-        "[[number|number]]."
+        "[[is|es/está]]",
+        "[[Seven|Siete]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -330,12 +330,12 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[have|tener/haber]] [[one|one]] [[sister|hermana]].",
+      "correctSentence": "[[I|Yo]] [[have|tener/haber]] [[one|uno]] [[sister|hermana]].",
       "words": [
-        "[[have|tener/haber]]",
+        "[[one|uno]]",
         "[[I|Yo]]",
-        "[[sister|hermana]].",
-        "[[one|one]]"
+        "[[have|tener/haber]]",
+        "[[sister|hermana]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

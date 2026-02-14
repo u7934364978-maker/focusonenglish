@@ -57,13 +57,13 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "([[Puedo|Puedo]]) _______ [[I|Yo]] [[see|see]] [[your|tu/tus]] [[passport|passport]]?",
+          "question": "([[Puedo|Puedo]]) _______ [[I|Yo]] [[see|ver]] [[your|tu/tus]] [[passport|passport]]?",
           "options": [
             "[[is|es]]",
-            "[[May|May]]",
-            "[[are|están]]"
+            "[[are|están]]",
+            "[[May|May]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -85,11 +85,11 @@ export const UNIT_41_EXERCISES: Exercise[] = [
         {
           "question": "[[Where|Dónde]] ([[ser/estar|ser/estar]] [[-|-]] [[ello|ello]]) _______ [[my|mi/mis]] [[gate|gate]]?",
           "options": [
+            "[[are|están]]",
             "[[is|es]]",
-            "[[is|is]]",
-            "[[are|están]]"
+            "[[is|is]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -109,13 +109,13 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[have|tener/haber]] [[two|two]] ([[maletas|maletas]]) [[_______|_______]].",
+          "question": "[[I|Yo]] [[have|tener/haber]] [[two|dos]] ([[maletas|maletas]]) [[_______|_______]].",
           "options": [
-            "[[suitcases|suitcases]]",
+            "[[are|están]]",
             "[[is|es]]",
-            "[[are|están]]"
+            "[[suitcases|suitcases]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -137,9 +137,9 @@ export const UNIT_41_EXERCISES: Exercise[] = [
         {
           "question": "[[The|El/la/los/las]] [[flight|flight]] ([[ser/estar|ser/estar]] [[-|-]] [[ello|ello]]) _______ [[late|late]].",
           "options": [
-            "[[is|es]]",
+            "[[are|están]]",
             "[[is|is]]",
-            "[[are|están]]"
+            "[[is|es]]"
           ],
           "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
@@ -163,8 +163,8 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       "words": [
         "[[I|Yo]]",
         "[[have|tener/haber]]",
-        "[[my|mi/mis]]",
         "[[pass|pass]].",
+        "[[my|mi/mis]]",
         "[[boarding|boarding]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
@@ -184,11 +184,11 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Where|Dónde]] [[is|es/está]] [[the|el/la/los/las]] [[check-in|check-in]] [[desk|desk]]?",
       "words": [
-        "[[the|el/la/los/las]]",
         "[[is|es/está]]",
         "[[check-in|check-in]]",
-        "[[desk|desk]]?",
-        "[[Where|Dónde]]"
+        "[[Where|Dónde]]",
+        "[[the|el/la/los/las]]",
+        "[[desk|desk]]?"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -207,8 +207,8 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Don't|No]] [[lose|lose]] [[your|tu/tus]] [[ticket|ticket]].",
       "words": [
-        "[[your|tu/tus]]",
         "[[ticket|ticket]].",
+        "[[your|tu/tus]]",
         "[[lose|lose]]",
         "[[Don't|No]]"
       ],
@@ -229,11 +229,11 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[My|Mi/mis]] [[luggage|luggage]] [[is|es/está]] [[very|muy]] [[heavy|heavy]].",
       "words": [
-        "[[My|Mi/mis]]",
-        "[[luggage|luggage]]",
-        "[[is|es/está]]",
+        "[[heavy|heavy]].",
         "[[very|muy]]",
-        "[[heavy|heavy]]."
+        "[[is|es/está]]",
+        "[[luggage|luggage]]",
+        "[[My|Mi/mis]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -252,10 +252,10 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[gate|gate]] [[is|es/está]] [[closing|closing]].",
       "words": [
-        "[[is|es/está]]",
-        "[[closing|closing]].",
+        "[[The|El/la/los/las]]",
         "[[gate|gate]]",
-        "[[The|El/la/los/las]]"
+        "[[closing|closing]].",
+        "[[is|es/está]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

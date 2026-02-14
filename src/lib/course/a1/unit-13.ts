@@ -91,7 +91,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] ([[ducharse|ducharse]]) _______ [[in|en]] [[the|el/la/los/las]] [[morning|morning]].",
+          "question": "[[He|Él]] ([[ducharse|ducharse]]) _______ [[in|en]] [[the|el/la/los/las]] [[morning|mañana]].",
           "options": [
             "[[are|están]]",
             "[[is|es]]",
@@ -145,11 +145,11 @@ export const UNIT_13_EXERCISES: Exercise[] = [
         {
           "question": "[[They|Ellos]] ([[ir|ir]]) _______ [[to|a/para]] [[school|escuela]] [[by|por]] [[bus|bus]].",
           "options": [
-            "[[are|están]]",
+            "[[go|go]]",
             "[[is|es]]",
-            "[[go|go]]"
+            "[[are|están]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -167,15 +167,15 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[have|tener/haber]] [[a|un/una]] [[very|muy]] [[busy|busy]] [[daily|daily]] [[routine|routine]].",
+      "correctSentence": "[[I|Yo]] [[have|tener/haber]] [[a|un/una]] [[very|muy]] [[busy|ocupado]] [[daily|daily]] [[routine|routine]].",
       "words": [
-        "[[routine|routine]].",
-        "[[very|muy]]",
         "[[a|un/una]]",
-        "[[have|tener/haber]]",
+        "[[very|muy]]",
+        "[[busy|ocupado]]",
+        "[[daily|daily]]",
         "[[I|Yo]]",
-        "[[busy|busy]]",
-        "[[daily|daily]]"
+        "[[have|tener/haber]]",
+        "[[routine|routine]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -192,14 +192,14 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[brush|brush]] [[my|mi/mis]] [[teeth|teeth]] [[every|every]] [[morning|morning]].",
+      "correctSentence": "[[I|Yo]] [[brush|brush]] [[my|mi/mis]] [[teeth|teeth]] [[every|every]] [[morning|mañana]].",
       "words": [
         "[[I|Yo]]",
-        "[[brush|brush]]",
+        "[[teeth|teeth]]",
         "[[my|mi/mis]]",
         "[[every|every]]",
-        "[[morning|morning]].",
-        "[[teeth|teeth]]"
+        "[[morning|mañana]].",
+        "[[brush|brush]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -216,15 +216,15 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[goes|goes]] [[to|a/para]] [[bed|bed]] [[at|en]] [[10|10]] [[PM|PM]].",
+      "correctSentence": "[[She|Ella]] [[goes|goes]] [[to|a/para]] [[bed|cama]] [[at|en]] [[10|10]] [[PM|PM]].",
       "words": [
-        "[[PM|PM]].",
-        "[[10|10]]",
-        "[[bed|bed]]",
         "[[to|a/para]]",
         "[[goes|goes]]",
-        "[[at|en]]",
-        "[[She|Ella]]"
+        "[[10|10]]",
+        "[[She|Ella]]",
+        "[[PM|PM]].",
+        "[[bed|cama]]",
+        "[[at|en]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -244,9 +244,9 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "correctSentence": "[[He|Él]] [[gets|gets]] [[up|up]] [[early|early]].",
       "words": [
         "[[early|early]].",
-        "[[up|up]]",
+        "[[He|Él]]",
         "[[gets|gets]]",
-        "[[He|Él]]"
+        "[[up|up]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -265,12 +265,12 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[We|Nosotros]] [[have|tener/haber]] [[lunch|lunch]] [[at|en]] [[1|1]] [[PM|PM]].",
       "words": [
-        "[[at|en]]",
-        "[[lunch|lunch]]",
-        "[[PM|PM]].",
+        "[[We|Nosotros]]",
         "[[have|tener/haber]]",
         "[[1|1]]",
-        "[[We|Nosotros]]"
+        "[[PM|PM]].",
+        "[[lunch|lunch]]",
+        "[[at|en]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

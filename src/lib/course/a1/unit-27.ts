@@ -33,7 +33,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
           "back": "Pájaro"
         },
         {
-          "front": "[[Fish|Pez]]",
+          "front": "[[Fish|Pescado]]",
           "back": "Pez"
         },
         {
@@ -67,11 +67,11 @@ export const UNIT_27_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] ([[tener|tener]]) _______ [[a|un/una]] [[small|pequeño/pequeña]] [[dog|dog]].",
           "options": [
-            "[[are|están]]",
+            "[[have|have]]",
             "[[is|es]]",
-            "[[have|have]]"
+            "[[are|están]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -91,7 +91,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] ([[tener|tener]]) _______ [[two|two]] [[cats|cats]].",
+          "question": "[[She|Ella]] ([[tener|tener]]) _______ [[two|dos]] [[cats|cats]].",
           "options": [
             "[[has|has]]",
             "[[is|es]]",
@@ -119,11 +119,11 @@ export const UNIT_27_EXERCISES: Exercise[] = [
         {
           "question": "[[The|El/la/los/las]] [[elephant|elephant]] ([[ser/estar|ser/estar]] [[-|-]] [[ello|ello]]) _______ [[big|grande]].",
           "options": [
+            "[[are|están]]",
             "[[is|es]]",
-            "[[is|is]]",
-            "[[are|están]]"
+            "[[is|is]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -145,11 +145,11 @@ export const UNIT_27_EXERCISES: Exercise[] = [
         {
           "question": "[[Birds|Birds]] ([[poder|poder]]) _______ [[fly|fly]].",
           "options": [
-            "[[can|can]]",
             "[[are|están]]",
-            "[[is|es]]"
+            "[[is|es]]",
+            "[[can|can]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -169,11 +169,11 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[My|Mi/mis]] [[dog's|dog's]] [[name|nombre]] [[is|es/está]] [[Max|Max]].",
       "words": [
-        "[[name|nombre]]",
         "[[is|es/está]]",
+        "[[dog's|dog's]]",
         "[[Max|Max]].",
-        "[[My|Mi/mis]]",
-        "[[dog's|dog's]]"
+        "[[name|nombre]]",
+        "[[My|Mi/mis]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -190,11 +190,11 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[have|tener/haber]] [[a|un/una]] [[gold|gold]] [[fish|fish]].",
+      "correctSentence": "[[I|Yo]] [[have|tener/haber]] [[a|un/una]] [[gold|gold]] [[fish|pescado]].",
       "words": [
-        "[[fish|fish]].",
         "[[gold|gold]]",
         "[[a|un/una]]",
+        "[[fish|pescado]].",
         "[[have|tener/haber]]",
         "[[I|Yo]]"
       ],
@@ -236,11 +236,11 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[horse|horse]] [[is|es/está]] [[very|muy]] [[fast|fast]].",
       "words": [
-        "[[very|muy]]",
         "[[is|es/está]]",
-        "[[fast|fast]].",
         "[[horse|horse]]",
-        "[[The|El/la/los/las]]"
+        "[[The|El/la/los/las]]",
+        "[[fast|fast]].",
+        "[[very|muy]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -259,10 +259,10 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Lions|Lions]] [[live|vivir]] [[in|en]] [[Africa|Africa]].",
       "words": [
-        "[[Lions|Lions]]",
-        "[[in|en]]",
         "[[Africa|Africa]].",
-        "[[live|vivir]]"
+        "[[in|en]]",
+        "[[live|vivir]]",
+        "[[Lions|Lions]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

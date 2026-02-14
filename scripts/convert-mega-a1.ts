@@ -1,47 +1,9 @@
 import fs from 'fs';
 import path from 'path';
+import { SHARED_DICTIONARY } from './dictionary';
 
 const pythonFilePath = path.join(process.cwd(), 'scripts/generate_a1_mega_course_data.py');
 const UNIT_DATA_RAW = fs.readFileSync(pythonFilePath, 'utf-8');
-
-// Basic dictionary for word-level tooltips
-const dictionary: Record<string, string> = {
-    "i": "yo", "am": "soy/estoy", "is": "es/está", "are": "somos/estamos/son/están",
-    "you": "tú/usted/vosotros", "he": "él", "she": "ella", "it": "esto/eso",
-    "we": "nosotros", "they": "ellos", "my": "mi/mis", "your": "tu/tus",
-    "his": "su (de él)", "her": "su (de ella)", "its": "su (de ello)",
-    "our": "nuestro", "their": "su (de ellos)", "the": "el/la/los/las",
-    "a": "un/una", "an": "un/una", "this": "este/esta", "that": "ese/esa/aquel",
-    "very": "muy", "quite": "bastante", "always": "siempre", "often": "a menudo",
-    "never": "nunca", "sometimes": "a veces", "than": "que (comparativo)",
-    "person": "persona", "people": "gente/personas", "man": "hombre", "woman": "mujer",
-    "child": "niño/niña", "children": "niños/niñas", "friend": "amigo/amiga",
-    "teacher": "profesor/profesora", "sister": "hermana", "brother": "hermano",
-    "know": "saber/conocer", "think": "pensar/creer", "seem": "parecer",
-    "like": "gustar/como", "have": "tener/haber", "has": "tiene/ha",
-    "do": "hacer", "does": "hace", "don't": "no", "doesn't": "no",
-    "can": "poder", "with": "con", "for": "para/por", "to": "a/para",
-    "in": "en", "on": "en/sobre", "at": "en", "from": "de/desde",
-    "by": "por", "who": "quién/que", "what": "qué", "why": "por qué",
-    "where": "dónde", "how": "cómo", "when": "cuándo", "so": "tan/así que",
-    "both": "ambos", "and": "y", "but": "pero", "or": "o",
-    "good": "bueno/buena", "bad": "malo/mala", "big": "grande", "small": "pequeño/pequeña",
-    "happy": "feliz", "sad": "triste", "angry": "enfadado/enojado",
-    "kind": "amable", "friendly": "simpático/amigable", "funny": "divertido",
-    "clever": "listo/inteligente", "lazy": "perezoso/vago", "patient": "paciente",
-    "shy": "tímido", "outgoing": "extrovertido", "rude": "maleducado",
-    "helpful": "servicial", "serious": "serio", "quiet": "tranquilo",
-    "honest": "honesto", "polite": "educado", "hard-working": "trabajador",
-    "work": "trabajo/trabajar", "home": "casa/hogar", "school": "escuela",
-    "university": "universidad", "city": "ciudad", "town": "pueblo",
-    "country": "país", "world": "mundo", "time": "tiempo", "day": "día",
-    "week": "semana", "month": "mes", "year": "año", "life": "vida",
-    "hello": "hola", "bye": "adiós", "goodbye": "adiós", "please": "por favor",
-    "thanks": "gracias", "thank": "agradecer", "sorry": "lo siento",
-    "yes": "sí", "no": "no", "name": "nombre", "old": "viejo/anciano",
-    "years": "años", "live": "vivir", "study": "estudiar", "read": "leer",
-    "write": "escribir", "speak": "hablar", "listen": "escuchar", "watch": "ver/mirar"
-};
 
 function parsePythonUnitData(content: string) {
     const units: any = {};
@@ -100,11 +62,14 @@ function translateWordLevel(english: string, spanishHint?: string): string {
     if (prefix) core = core.slice(prefix.length);
     if (suffix) core = core.slice(0, -suffix.length);
 
+    if (spanishHint && core.includes(" ")) {
+        return `${prefix}[[${core}|${spanishHint}]]${suffix}`;
+    }
+
     const cleanCore = core.toLowerCase().replace(/[()]/g, "");
+    let translation = SHARED_DICTIONARY[cleanCore] || spanishHint || core;
     
-    let translation = dictionary[cleanCore] || spanishHint || core;
-    
-    if (core[0] === core[0].toUpperCase() && translation[0]) {
+    if (core.length > 0 && core[0] === core[0].toUpperCase() && translation[0]) {
         translation = translation[0].toUpperCase() + translation.slice(1);
     }
 

@@ -55,11 +55,11 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] ([[pagar|pagar]]) _______ [[by|por]] [[card|card]].",
           "options": [
-            "[[are|están]]",
             "[[pay|pay]]",
-            "[[is|es]]"
+            "[[is|es]]",
+            "[[are|están]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -79,10 +79,10 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "([[Hay|Hay]]) _______ [[an|un/una]] [[ATM|ATM]] [[near|near]] [[here|here]]?",
+          "question": "([[Hay|Hay]]) _______ [[an|un/una]] [[ATM|ATM]] [[near|near]] [[here|aquí]]?",
           "options": [
-            "[[is|es]]",
             "[[are|están]]",
+            "[[is|es]]",
             "[[Is there|Is there]]"
           ],
           "correctAnswer": 2,
@@ -105,7 +105,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[need|need]] [[to|a/para]] ([[cambiar|cambiar]]) _______ [[some|some]] [[money|money]].",
+          "question": "[[I|Yo]] [[need|necesitar]] [[to|a/para]] ([[cambiar|cambiar]]) _______ [[some|some]] [[money|dinero]].",
           "options": [
             "[[exchange|exchange]]",
             "[[is|es]]",
@@ -133,11 +133,11 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "[[Where|Dónde]] ([[ser/estar|ser/estar]] [[-|-]] [[ello|ello]]) _______ [[my|mi/mis]] [[wallet|wallet]]?",
           "options": [
-            "[[are|están]]",
+            "[[is|is]]",
             "[[is|es]]",
-            "[[is|is]]"
+            "[[are|están]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -157,11 +157,11 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[don't|no]] [[have|tener/haber]] [[any|any]] [[cash|cash]].",
       "words": [
-        "[[cash|cash]].",
         "[[I|Yo]]",
+        "[[don't|no]]",
+        "[[cash|cash]].",
         "[[have|tener/haber]]",
-        "[[any|any]]",
-        "[[don't|no]]"
+        "[[any|any]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -180,10 +180,10 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[My|Mi/mis]] [[wallet|wallet]] [[is|es/está]] [[empty|empty]].",
       "words": [
+        "[[My|Mi/mis]]",
         "[[empty|empty]].",
-        "[[is|es/está]]",
         "[[wallet|wallet]]",
-        "[[My|Mi/mis]]"
+        "[[is|es/está]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -200,11 +200,11 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[bank|bank]] [[is|es/está]] [[closed|closed]].",
+      "correctSentence": "[[The|El/la/los/las]] [[bank|banco]] [[is|es/está]] [[closed|closed]].",
       "words": [
-        "[[is|es/está]]",
-        "[[bank|bank]]",
         "[[The|El/la/los/las]]",
+        "[[bank|banco]]",
+        "[[is|es/está]]",
         "[[closed|closed]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
@@ -224,11 +224,11 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Where|Dónde]] [[is|es/está]] [[the|el/la/los/las]] [[nearest|nearest]] [[ATM|ATM]]?",
       "words": [
-        "[[the|el/la/los/las]]",
         "[[Where|Dónde]]",
         "[[nearest|nearest]]",
+        "[[is|es/está]]",
         "[[ATM|ATM]]?",
-        "[[is|es/está]]"
+        "[[the|el/la/los/las]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -247,9 +247,9 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[exchange|exchange]] [[rate|rate]] [[is|es/está]] [[good|bueno/buena]].",
       "words": [
+        "[[good|bueno/buena]].",
         "[[is|es/está]]",
         "[[rate|rate]]",
-        "[[good|bueno/buena]].",
         "[[exchange|exchange]]",
         "[[The|El/la/los/las]]"
       ],

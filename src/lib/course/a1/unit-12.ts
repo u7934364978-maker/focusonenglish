@@ -65,13 +65,13 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Today|Today]] ([[ser/estar|ser/estar]] [[-|-]] [[ello|ello]]) _______ [[Monday|Monday]].",
+          "question": "[[Today|Hoy]] ([[ser/estar|ser/estar]] [[-|-]] [[ello|ello]]) _______ [[Monday|Monday]].",
           "options": [
-            "[[are|están]]",
+            "[[is|is]]",
             "[[is|es]]",
-            "[[is|is]]"
+            "[[are|están]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -91,7 +91,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "([[En|En]]) _______ [[Saturday|Saturday]], [[I|Yo]] [[go|go]] [[to|a/para]] [[the|el/la/los/las]] [[park|park]].",
+          "question": "([[En|En]]) _______ [[Saturday|Saturday]], [[I|Yo]] [[go|ir]] [[to|a/para]] [[the|el/la/los/las]] [[park|park]].",
           "options": [
             "[[are|están]]",
             "[[is|es]]",
@@ -119,11 +119,11 @@ export const UNIT_12_EXERCISES: Exercise[] = [
         {
           "question": "[[We|Nosotros]] [[have|tener/haber]] [[English|English]] ([[en|en]]) _______ [[Wednesdays|Wednesdays]].",
           "options": [
-            "[[on|on]]",
+            "[[are|están]]",
             "[[is|es]]",
-            "[[are|están]]"
+            "[[on|on]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -170,8 +170,8 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "correctSentence": "[[I|Yo]] [[love|love]] [[the|el/la/los/las]] [[weekend|weekend]].",
       "words": [
         "[[weekend|weekend]].",
-        "[[I|Yo]]",
         "[[love|love]]",
+        "[[I|Yo]]",
         "[[the|el/la/los/las]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
@@ -189,16 +189,16 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Monday|Monday]] [[is|es/está]] [[the|el/la/los/las]] [[first|first]] [[day|día]] [[of|of]] [[the|el/la/los/las]] [[week|semana]].",
+      "correctSentence": "[[Monday|Monday]] [[is|es/está]] [[the|el/la/los/las]] [[first|first]] [[day|día]] [[of|de]] [[the|el/la/los/las]] [[week|semana]].",
       "words": [
-        "[[Monday|Monday]]",
-        "[[day|día]]",
-        "[[is|es/está]]",
-        "[[of|of]]",
         "[[the|el/la/los/las]]",
-        "[[first|first]]",
+        "[[of|de]]",
         "[[week|semana]].",
-        "[[the|el/la/los/las]]"
+        "[[day|día]]",
+        "[[first|first]]",
+        "[[the|el/la/los/las]]",
+        "[[is|es/está]]",
+        "[[Monday|Monday]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -218,10 +218,10 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "correctSentence": "[[Friday|Friday]] [[is|es/está]] [[my|mi/mis]] [[favorite|favorite]] [[day|día]].",
       "words": [
         "[[favorite|favorite]]",
-        "[[my|mi/mis]]",
         "[[is|es/está]]",
-        "[[Friday|Friday]]",
-        "[[day|día]]."
+        "[[my|mi/mis]]",
+        "[[day|día]].",
+        "[[Friday|Friday]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -238,13 +238,13 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[play|play]] [[football|football]] [[on|en/sobre]] [[Saturdays|Saturdays]].",
+      "correctSentence": "[[I|Yo]] [[play|jugar/tocar]] [[football|football]] [[on|en/sobre]] [[Saturdays|Saturdays]].",
       "words": [
-        "[[play|play]]",
-        "[[football|football]]",
         "[[I|Yo]]",
         "[[Saturdays|Saturdays]].",
-        "[[on|en/sobre]]"
+        "[[play|jugar/tocar]]",
+        "[[on|en/sobre]]",
+        "[[football|football]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -261,12 +261,12 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[See|See]] [[you|tú/usted/vosotros]] [[on|en/sobre]] [[Monday|Monday]]!",
+      "correctSentence": "[[See|Ver]] [[you|tú/usted/vosotros]] [[on|en/sobre]] [[Monday|Monday]]!",
       "words": [
-        "[[See|See]]",
-        "[[you|tú/usted/vosotros]]",
         "[[Monday|Monday]]!",
-        "[[on|en/sobre]]"
+        "[[on|en/sobre]]",
+        "[[you|tú/usted/vosotros]]",
+        "[[See|Ver]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
