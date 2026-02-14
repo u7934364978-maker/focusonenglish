@@ -37,6 +37,7 @@ export const SHARED_DICTIONARY: Record<string, string> = {
     "help": "ayudar", "play": "jugar/tocar", "be": "ser/estar",
     "was": "era/fue/estaba/estuvo", "were": "eran/fueron/estaban/estuvieron",
     "will": "hará (futuro)", "would": "haría (condicional)",
+    "meet": "conocer/encontrar", "live in": "vivir en",
 
     // Family & People
     "person": "persona", "people": "gente/personas", "man": "hombre", "woman": "mujer",
@@ -46,7 +47,7 @@ export const SHARED_DICTIONARY: Record<string, string> = {
     "sister": "hermana", "brother": "hermano", "mother": "madre", "father": "padre",
     "parents": "padres", "grandmother": "abuela", "grandfather": "abuelo",
     "son": "hijo", "daughter": "hija", "baby": "bebé", "family": "familia",
-    "wife": "esposa", "husband": "esposo",
+    "wife": "esposa", "husband": "esposo", "class": "clase",
 
     // Adjectives
     "good": "bueno/buena", "bad": "malo/mala", "big": "grande", "small": "pequeño/pequeña",
@@ -61,6 +62,7 @@ export const SHARED_DICTIONARY: Record<string, string> = {
     "expensive": "caro", "easy": "fácil", "difficult": "difícil",
     "hot": "caliente", "cold": "frío", "hungry": "hambriento", "thirsty": "sediento",
     "tired": "cansado", "busy": "ocupado", "brave": "valiente", "strong": "fuerte",
+    "nice": "agradable/simpático", "best": "mejor",
 
     // Places & Time
     "home": "casa/hogar", "house": "casa", "school": "escuela",
@@ -71,6 +73,7 @@ export const SHARED_DICTIONARY: Record<string, string> = {
     "night": "noche", "today": "hoy", "tomorrow": "mañana", "yesterday": "ayer",
     "restaurant": "restaurante", "hospital": "hospital", "bank": "banco",
     "store": "tienda", "shop": "tienda", "office": "oficina",
+    "spain": "España", "london": "Londres", "madrid": "Madrid",
 
     // Things
     "name": "nombre", "book": "libro", "car": "coche", "food": "comida",

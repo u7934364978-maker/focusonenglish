@@ -59,8 +59,8 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] ([[querer|querer]]) _______ [[to|a/para]] [[order|pedir/pedido]], [[please|por favor]].",
           "options": [
-            "[[are|están]]",
             "[[is|es]]",
+            "[[are|están]]",
             "[[want|want]]"
           ],
           "correctAnswer": 2,
@@ -85,11 +85,11 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "[[Can|Poder]] [[I|Yo]] [[have|tener/haber]] [[the|el/la/los/las]] ([[cuenta|cuenta]]) [[_______|_______]]?",
           "options": [
-            "[[are|están]]",
+            "[[bill|bill]]",
             "[[is|es]]",
-            "[[bill|bill]]"
+            "[[are|están]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -111,11 +111,11 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "[[Would|Haría (condicional)]] [[you|tú/usted/vosotros]] [[like|gustar/como]] [[a|un/una]] ([[postre|postre]]) [[_______|_______]]?",
           "options": [
+            "[[are|están]]",
             "[[is|es]]",
-            "[[dessert|dessert]]",
-            "[[are|están]]"
+            "[[dessert|dessert]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -161,10 +161,10 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[waiter|camarero/a]] [[is|es/está]] [[coming|coming]].",
       "words": [
-        "[[is|es/está]]",
+        "[[The|El/la/los/las]]",
         "[[waiter|camarero/a]]",
-        "[[coming|coming]].",
-        "[[The|El/la/los/las]]"
+        "[[is|es/está]]",
+        "[[coming|coming]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -183,12 +183,12 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[want|querer]] [[to|a/para]] [[pay|pay]] [[the|el/la/los/las]] [[bill|cuenta]].",
       "words": [
-        "[[pay|pay]]",
-        "[[bill|cuenta]].",
-        "[[to|a/para]]",
+        "[[I|Yo]]",
         "[[want|querer]]",
-        "[[the|el/la/los/las]]",
-        "[[I|Yo]]"
+        "[[bill|cuenta]].",
+        "[[pay|pay]]",
+        "[[to|a/para]]",
+        "[[the|el/la/los/las]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -207,10 +207,10 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Don't|No]] [[forget|forget]] [[the|el/la/los/las]] [[tip|propina]].",
       "words": [
-        "[[tip|propina]].",
         "[[Don't|No]]",
         "[[forget|forget]]",
-        "[[the|el/la/los/las]]"
+        "[[the|el/la/los/las]]",
+        "[[tip|propina]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -251,10 +251,10 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "correctSentence": "[[I'd|I'd]] [[like|gustar/como]] [[a|un/una]] [[cold|frío]] [[drink|beber]].",
       "words": [
         "[[I'd|I'd]]",
-        "[[drink|beber]].",
+        "[[like|gustar/como]]",
         "[[a|un/una]]",
         "[[cold|frío]]",
-        "[[like|gustar/como]]"
+        "[[drink|beber]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

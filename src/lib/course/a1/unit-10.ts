@@ -157,13 +157,13 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[This|Este/esta]] [[is|es/está]] [[a|un/una]] [[review|review]] [[of|de]] [[module|module]] [[one|uno]].",
       "words": [
-        "[[module|module]]",
-        "[[of|de]]",
+        "[[This|Este/esta]]",
         "[[review|review]]",
         "[[a|un/una]]",
         "[[one|uno]].",
         "[[is|es/está]]",
-        "[[This|Este/esta]]"
+        "[[of|de]]",
+        "[[module|module]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -182,10 +182,10 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Answer|Answer]] [[the|el/la/los/las]] [[questions|questions]] [[carefully|carefully]].",
       "words": [
-        "[[questions|questions]]",
+        "[[Answer|Answer]]",
         "[[the|el/la/los/las]]",
-        "[[carefully|carefully]].",
-        "[[Answer|Answer]]"
+        "[[questions|questions]]",
+        "[[carefully|carefully]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -204,8 +204,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Check|Check]] [[your|tu/tus]] [[answers|answers]].",
       "words": [
-        "[[answers|answers]].",
         "[[your|tu/tus]]",
+        "[[answers|answers]].",
         "[[Check|Check]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
@@ -225,8 +225,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Is|Es/está]] [[this|este/esta]] [[correct|correct]]?",
       "words": [
-        "[[Is|Es/está]]",
         "[[this|este/esta]]",
+        "[[Is|Es/está]]",
         "[[correct|correct]]?"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
@@ -246,12 +246,12 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[am|soy/estoy]] [[ready|ready]] [[for|para/por]] [[the|el/la/los/las]] [[test|test]].",
       "words": [
-        "[[am|soy/estoy]]",
-        "[[ready|ready]]",
+        "[[test|test]].",
         "[[the|el/la/los/las]]",
-        "[[I|Yo]]",
         "[[for|para/por]]",
-        "[[test|test]]."
+        "[[ready|ready]]",
+        "[[am|soy/estoy]]",
+        "[[I|Yo]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

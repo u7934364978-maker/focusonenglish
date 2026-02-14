@@ -133,11 +133,11 @@ export const UNIT_53_EXERCISES: Exercise[] = [
         {
           "question": "[[We|Nosotros]] [[need|necesitar]] ([[algunos|algunos]]) _______ [[bananas|bananas]].",
           "options": [
-            "[[is|es]]",
             "[[some|some]]",
+            "[[is|es]]",
             "[[are|están]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -157,13 +157,13 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[There|Allí]] [[is|es/está]] [[some|some]] [[butter|mantequilla]] [[in|en]] [[the|el/la/los/las]] [[fridge|fridge]].",
       "words": [
-        "[[some|some]]",
-        "[[is|es/está]]",
         "[[butter|mantequilla]]",
+        "[[some|some]]",
+        "[[in|en]]",
+        "[[is|es/está]]",
         "[[the|el/la/los/las]]",
-        "[[fridge|fridge]].",
         "[[There|Allí]]",
-        "[[in|en]]"
+        "[[fridge|fridge]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -182,11 +182,11 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[don't|no]] [[have|tener/haber]] [[any|any]] [[money|dinero]].",
       "words": [
-        "[[I|Yo]]",
-        "[[money|dinero]].",
-        "[[don't|no]]",
+        "[[any|any]]",
         "[[have|tener/haber]]",
-        "[[any|any]]"
+        "[[don't|no]]",
+        "[[money|dinero]].",
+        "[[I|Yo]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -205,13 +205,13 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Is|Es/está]] [[there|allí]] [[any|any]] [[salt|sal]] [[on|en/sobre]] [[the|el/la/los/las]] [[table|mesa]]?",
       "words": [
-        "[[on|en/sobre]]",
-        "[[the|el/la/los/las]]",
         "[[any|any]]",
+        "[[the|el/la/los/las]]",
         "[[there|allí]]",
-        "[[salt|sal]]",
+        "[[Is|Es/está]]",
         "[[table|mesa]]?",
-        "[[Is|Es/está]]"
+        "[[salt|sal]]",
+        "[[on|en/sobre]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -230,13 +230,13 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[We|Nosotros]] [[need|necesitar]] [[some|some]] [[sugar|azúcar]] [[for|para/por]] [[the|el/la/los/las]] [[cake|cake]].",
       "words": [
-        "[[sugar|azúcar]]",
-        "[[cake|cake]].",
-        "[[for|para/por]]",
-        "[[the|el/la/los/las]]",
         "[[some|some]]",
-        "[[need|necesitar]]",
-        "[[We|Nosotros]]"
+        "[[sugar|azúcar]]",
+        "[[for|para/por]]",
+        "[[cake|cake]].",
+        "[[We|Nosotros]]",
+        "[[the|el/la/los/las]]",
+        "[[need|necesitar]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -257,8 +257,8 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "words": [
         "[[I|Yo]]",
         "[[want|querer]]",
-        "[[some|some]]",
-        "[[bananas|bananas]]."
+        "[[bananas|bananas]].",
+        "[[some|some]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

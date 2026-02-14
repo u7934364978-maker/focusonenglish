@@ -103,11 +103,11 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] [[have|tener/haber]] ([[mucho|mucho]]) _______ [[water|agua]].",
           "options": [
-            "[[a lot of|a lot of]]",
+            "[[are|están]]",
             "[[is|es]]",
-            "[[are|están]]"
+            "[[a lot of|a lot of]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -129,11 +129,11 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] [[have|tener/haber]] ([[un|un]] [[poco|poco]] [[de|de]]) _______ [[coffee|coffee]].",
           "options": [
-            "[[is|es]]",
             "[[a little|a little]]",
+            "[[is|es]]",
             "[[are|están]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -153,11 +153,11 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[don't|no]] [[have|tener/haber]] [[much|much]] [[time|tiempo/hora]].",
       "words": [
-        "[[much|much]]",
-        "[[I|Yo]]",
-        "[[don't|no]]",
         "[[time|tiempo/hora]].",
-        "[[have|tener/haber]]"
+        "[[don't|no]]",
+        "[[much|much]]",
+        "[[have|tener/haber]]",
+        "[[I|Yo]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -176,13 +176,13 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[There|Allí]] [[are|somos/estamos/son/están]] [[many|many]] [[people|gente/personas]] [[in|en]] [[the|el/la/los/las]] [[park|park]].",
       "words": [
-        "[[in|en]]",
         "[[park|park]].",
-        "[[There|Allí]]",
-        "[[are|somos/estamos/son/están]]",
         "[[many|many]]",
+        "[[the|el/la/los/las]]",
         "[[people|gente/personas]]",
-        "[[the|el/la/los/las]]"
+        "[[are|somos/estamos/son/están]]",
+        "[[in|en]]",
+        "[[There|Allí]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -201,12 +201,12 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[We|Nosotros]] [[have|tener/haber]] [[a|un/una]] [[lot|lot]] [[of|de]] [[books|books]].",
       "words": [
-        "[[have|tener/haber]]",
         "[[We|Nosotros]]",
+        "[[have|tener/haber]]",
         "[[books|books]].",
+        "[[a|un/una]]",
         "[[lot|lot]]",
-        "[[of|de]]",
-        "[[a|un/una]]"
+        "[[of|de]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -225,11 +225,11 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[only|only]] [[have|tener/haber]] [[a|un/una]] [[little|little]] [[sugar|azúcar]].",
       "words": [
-        "[[only|only]]",
         "[[a|un/una]]",
-        "[[I|Yo]]",
-        "[[sugar|azúcar]].",
         "[[little|little]]",
+        "[[sugar|azúcar]].",
+        "[[only|only]]",
+        "[[I|Yo]]",
         "[[have|tener/haber]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
@@ -249,11 +249,11 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[need|necesitar]] [[a|un/una]] [[few|few]] [[minutes|minutes]].",
       "words": [
-        "[[need|necesitar]]",
-        "[[few|few]]",
+        "[[a|un/una]]",
         "[[I|Yo]]",
         "[[minutes|minutes]].",
-        "[[a|un/una]]"
+        "[[need|necesitar]]",
+        "[[few|few]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

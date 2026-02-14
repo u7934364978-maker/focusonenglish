@@ -117,11 +117,11 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "[[The|El/la/los/las]] [[book|libro]] _______ [[I|Yo]] [[am|soy/estoy]] [[reading|reading]] [[is|es/está]] [[very|muy]] [[interesting|interesting]].",
           "options": [
-            "[[that|that]]",
+            "[[it|lo]]",
             "[[to|a]]",
-            "[[it|lo]]"
+            "[[that|that]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -143,8 +143,8 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "[[The|El/la/los/las]] [[car|coche]] _______ [[she|ella]] [[bought|bought]] [[is|es/está]] [[very|muy]] [[fast|fast]].",
           "options": [
-            "[[it|lo]]",
             "[[to|a]]",
+            "[[it|lo]]",
             "[[which|which]]"
           ],
           "correctAnswer": 2,
@@ -169,11 +169,11 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "[[Is|Es/está]] [[that|ese/esa/aquel]] [[the|el/la/los/las]] [[girl|niña]] _______ [[won|won]] [[the|el/la/los/las]] [[prize|prize]]?",
           "options": [
+            "[[it|lo]]",
             "[[who|who]]",
-            "[[to|a]]",
-            "[[it|lo]]"
+            "[[to|a]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -195,11 +195,11 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] [[like|gustar/como]] [[films|films]] _______ [[have|tener/haber]] [[a|un/una]] [[happy|feliz]] [[ending|ending]].",
           "options": [
+            "[[it|lo]]",
             "[[that|that]]",
-            "[[to|a]]",
-            "[[it|lo]]"
+            "[[to|a]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -221,11 +221,11 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "[[The|El/la/los/las]] [[restaurant|restaurante]] _______ [[we|nosotros]] [[went|went]] [[to|a/para]] [[was|era/fue/estaba/estuvo]] [[very|muy]] [[expensive|caro]].",
           "options": [
-            "[[it|lo]]",
             "[[which|which]]",
-            "[[to|a]]"
+            "[[to|a]]",
+            "[[it|lo]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -300,8 +300,8 @@ export const UNIT_55_EXERCISES: Exercise[] = [
           "question": "[[The|El/la/los/las]] [[city|ciudad]] _______ [[he|él]] [[visited|visited]] [[is|es/está]] [[very|muy]] [[old|viejo/antiguo]].",
           "options": [
             "[[which|which]]",
-            "[[it|lo]]",
-            "[[to|a]]"
+            "[[to|a]]",
+            "[[it|lo]]"
           ],
           "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
@@ -325,11 +325,11 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "[[He|Él]] [[is|es/está]] [[the|el/la/los/las]] [[teacher|profesor/profesora]] _______ [[helped|helped]] [[me|me/mí]] [[with|con]] [[my|mi/mis]] [[English|English]].",
           "options": [
-            "[[who|who]]",
+            "[[it|lo]]",
             "[[to|a]]",
-            "[[it|lo]]"
+            "[[who|who]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -350,16 +350,16 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "correctSentence": "[[The|El/la/los/las]] [[man|hombre]] [[who|quién/que]] [[is|es/está]] [[wearing|wearing]] [[the|el/la/los/las]] [[red|red]] [[hat|hat]] [[is|es/está]] [[my|mi/mis]] [[uncle|uncle]].",
       "words": [
         "[[hat|hat]]",
-        "[[uncle|uncle]].",
-        "[[is|es/está]]",
-        "[[is|es/está]]",
-        "[[red|red]]",
+        "[[wearing|wearing]]",
+        "[[my|mi/mis]]",
         "[[man|hombre]]",
         "[[the|el/la/los/las]]",
-        "[[my|mi/mis]]",
+        "[[is|es/está]]",
         "[[The|El/la/los/las]]",
         "[[who|quién/que]]",
-        "[[wearing|wearing]]"
+        "[[is|es/está]]",
+        "[[uncle|uncle]].",
+        "[[red|red]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -378,14 +378,14 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[This|Este/esta]] [[is|es/está]] [[the|el/la/los/las]] [[computer|ordenador]] [[that|ese/esa/aquel]] [[I|Yo]] [[use|use]] [[for|para/por]] [[work|trabajo/trabajar]].",
       "words": [
-        "[[the|el/la/los/las]]",
         "[[work|trabajo/trabajar]].",
-        "[[This|Este/esta]]",
         "[[for|para/por]]",
-        "[[that|ese/esa/aquel]]",
-        "[[I|Yo]]",
         "[[is|es/está]]",
         "[[computer|ordenador]]",
+        "[[that|ese/esa/aquel]]",
+        "[[This|Este/esta]]",
+        "[[I|Yo]]",
+        "[[the|el/la/los/las]]",
         "[[use|use]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
@@ -405,14 +405,14 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[house|casa]] [[which|cuál/cuáles]] [[they|ellos]] [[bought|bought]] [[is|es/está]] [[very|muy]] [[old|viejo/antiguo]].",
       "words": [
-        "[[The|El/la/los/las]]",
         "[[they|ellos]]",
-        "[[house|casa]]",
         "[[which|cuál/cuáles]]",
-        "[[bought|bought]]",
-        "[[is|es/está]]",
+        "[[house|casa]]",
         "[[old|viejo/antiguo]].",
-        "[[very|muy]]"
+        "[[is|es/está]]",
+        "[[The|El/la/los/las]]",
+        "[[very|muy]]",
+        "[[bought|bought]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -431,14 +431,14 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[know|saber/conocer]] [[a|un/una]] [[girl|niña]] [[who|quién/que]] [[speaks|speaks]] [[five|cinco]] [[languages|languages]].",
       "words": [
-        "[[who|quién/que]]",
+        "[[speaks|speaks]]",
         "[[I|Yo]]",
-        "[[girl|niña]]",
-        "[[languages|languages]].",
         "[[know|saber/conocer]]",
         "[[a|un/una]]",
-        "[[speaks|speaks]]",
-        "[[five|cinco]]"
+        "[[five|cinco]]",
+        "[[girl|niña]]",
+        "[[languages|languages]].",
+        "[[who|quién/que]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -457,13 +457,13 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[cake|cake]] [[that|ese/esa/aquel]] [[she|ella]] [[made|made]] [[was|era/fue/estaba/estuvo]] [[delicious|delicioso/a]].",
       "words": [
-        "[[was|era/fue/estaba/estuvo]]",
-        "[[The|El/la/los/las]]",
         "[[made|made]]",
+        "[[she|ella]]",
+        "[[was|era/fue/estaba/estuvo]]",
+        "[[delicious|delicioso/a]].",
         "[[cake|cake]]",
         "[[that|ese/esa/aquel]]",
-        "[[she|ella]]",
-        "[[delicious|delicioso/a]]."
+        "[[The|El/la/los/las]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -482,15 +482,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[bus|bus]] [[which|cuál/cuáles]] [[goes|goes]] [[to|a/para]] [[the|el/la/los/las]] [[airport|airport]] [[is|es/está]] [[late|late]].",
       "words": [
-        "[[The|El/la/los/las]]",
-        "[[is|es/está]]",
-        "[[airport|airport]]",
-        "[[bus|bus]]",
         "[[to|a/para]]",
-        "[[which|cuál/cuáles]]",
+        "[[The|El/la/los/las]]",
+        "[[goes|goes]]",
+        "[[bus|bus]]",
+        "[[is|es/está]]",
         "[[the|el/la/los/las]]",
         "[[late|late]].",
-        "[[goes|goes]]"
+        "[[airport|airport]]",
+        "[[which|cuál/cuáles]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -509,16 +509,16 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[people|gente/personas]] [[who|quién/que]] [[live|vivir]] [[in|en]] [[this|este/esta]] [[town|pueblo]] [[are|somos/estamos/son/están]] [[very|muy]] [[kind|amable]].",
       "words": [
-        "[[live|vivir]]",
+        "[[this|este/esta]]",
+        "[[kind|amable]].",
+        "[[who|quién/que]]",
         "[[people|gente/personas]]",
+        "[[town|pueblo]]",
         "[[The|El/la/los/las]]",
         "[[are|somos/estamos/son/están]]",
-        "[[kind|amable]].",
-        "[[in|en]]",
-        "[[who|quién/que]]",
-        "[[town|pueblo]]",
-        "[[this|este/esta]]",
-        "[[very|muy]]"
+        "[[live|vivir]]",
+        "[[very|muy]]",
+        "[[in|en]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -537,15 +537,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[movie|movie]] [[that|ese/esa/aquel]] [[we|nosotros]] [[saw|saw]] [[last|last]] [[night|noche]] [[was|era/fue/estaba/estuvo]] [[boring|boring]].",
       "words": [
-        "[[we|nosotros]]",
-        "[[movie|movie]]",
-        "[[boring|boring]].",
-        "[[The|El/la/los/las]]",
-        "[[was|era/fue/estaba/estuvo]]",
-        "[[that|ese/esa/aquel]]",
-        "[[last|last]]",
         "[[night|noche]]",
-        "[[saw|saw]]"
+        "[[movie|movie]]",
+        "[[we|nosotros]]",
+        "[[last|last]]",
+        "[[was|era/fue/estaba/estuvo]]",
+        "[[The|El/la/los/las]]",
+        "[[saw|saw]]",
+        "[[boring|boring]].",
+        "[[that|ese/esa/aquel]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -564,16 +564,16 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[cat|cat]] [[which|cuál/cuáles]] [[is|es/está]] [[sleeping|sleeping]] [[on|en/sobre]] [[the|el/la/los/las]] [[sofa|sofa]] [[is|es/está]] [[mine|mine]].",
       "words": [
-        "[[sofa|sofa]]",
-        "[[the|el/la/los/las]]",
-        "[[is|es/está]]",
-        "[[mine|mine]].",
-        "[[cat|cat]]",
         "[[The|El/la/los/las]]",
-        "[[is|es/está]]",
+        "[[cat|cat]]",
         "[[which|cuál/cuáles]]",
+        "[[mine|mine]].",
+        "[[sofa|sofa]]",
+        "[[is|es/está]]",
+        "[[is|es/está]]",
         "[[sleeping|sleeping]]",
-        "[[on|en/sobre]]"
+        "[[on|en/sobre]]",
+        "[[the|el/la/los/las]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -592,12 +592,12 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[He|Él]] [[is|es/está]] [[the|el/la/los/las]] [[doctor|médico/a]] [[who|quién/que]] [[treated|treated]] [[my|mi/mis]] [[father|padre]].",
       "words": [
-        "[[my|mi/mis]]",
         "[[who|quién/que]]",
+        "[[my|mi/mis]]",
+        "[[treated|treated]]",
+        "[[the|el/la/los/las]]",
         "[[doctor|médico/a]]",
         "[[father|padre]].",
-        "[[the|el/la/los/las]]",
-        "[[treated|treated]]",
         "[[is|es/está]]",
         "[[He|Él]]"
       ],
@@ -619,14 +619,14 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "correctSentence": "[[This|Este/esta]] [[is|es/está]] [[the|el/la/los/las]] [[hotel|hotel]] [[where|dónde]] [[we|nosotros]] [[stayed|stayed]] [[last|last]] [[summer|summer]].",
       "words": [
         "[[where|dónde]]",
-        "[[summer|summer]].",
+        "[[hotel|hotel]]",
         "[[stayed|stayed]]",
+        "[[summer|summer]].",
+        "[[the|el/la/los/las]]",
+        "[[is|es/está]]",
         "[[last|last]]",
         "[[This|Este/esta]]",
-        "[[is|es/está]]",
-        "[[hotel|hotel]]",
-        "[[we|nosotros]]",
-        "[[the|el/la/los/las]]"
+        "[[we|nosotros]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -645,14 +645,14 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[museum|museum]] [[which|cuál/cuáles]] [[we|nosotros]] [[visited|visited]] [[was|era/fue/estaba/estuvo]] [[very|muy]] [[interesting|interesting]].",
       "words": [
-        "[[visited|visited]]",
-        "[[very|muy]]",
-        "[[we|nosotros]]",
-        "[[interesting|interesting]].",
-        "[[which|cuál/cuáles]]",
-        "[[museum|museum]]",
         "[[The|El/la/los/las]]",
-        "[[was|era/fue/estaba/estuvo]]"
+        "[[museum|museum]]",
+        "[[very|muy]]",
+        "[[was|era/fue/estaba/estuvo]]",
+        "[[which|cuál/cuáles]]",
+        "[[we|nosotros]]",
+        "[[visited|visited]]",
+        "[[interesting|interesting]]."
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -671,16 +671,16 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[woman|mujer]] [[who|quién/que]] [[works|works]] [[in|en]] [[the|el/la/los/las]] [[shop|tienda]] [[is|es/está]] [[very|muy]] [[helpful|servicial]].",
       "words": [
-        "[[shop|tienda]]",
         "[[works|works]]",
-        "[[helpful|servicial]].",
         "[[who|quién/que]]",
-        "[[woman|mujer]]",
-        "[[the|el/la/los/las]]",
-        "[[The|El/la/los/las]]",
         "[[very|muy]]",
-        "[[is|es/está]]",
-        "[[in|en]]"
+        "[[in|en]]",
+        "[[woman|mujer]]",
+        "[[helpful|servicial]].",
+        "[[The|El/la/los/las]]",
+        "[[the|el/la/los/las]]",
+        "[[shop|tienda]]",
+        "[[is|es/está]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -699,15 +699,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[lost|lost]] [[the|el/la/los/las]] [[watch|ver/mirar]] [[that|ese/esa/aquel]] [[my|mi/mis]] [[mother|madre]] [[gave|gave]] [[me|me/mí]].",
       "words": [
-        "[[watch|ver/mirar]]",
-        "[[the|el/la/los/las]]",
-        "[[gave|gave]]",
-        "[[me|me/mí]].",
-        "[[my|mi/mis]]",
         "[[mother|madre]]",
         "[[that|ese/esa/aquel]]",
-        "[[lost|lost]]",
-        "[[I|Yo]]"
+        "[[me|me/mí]].",
+        "[[the|el/la/los/las]]",
+        "[[gave|gave]]",
+        "[[my|mi/mis]]",
+        "[[I|Yo]]",
+        "[[watch|ver/mirar]]",
+        "[[lost|lost]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -726,14 +726,14 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[students|students]] [[who|quién/que]] [[study|estudiar]] [[hard|hard]] [[get|conseguir/obtener]] [[good|bueno/buena]] [[grades|grades]].",
       "words": [
+        "[[get|conseguir/obtener]]",
+        "[[The|El/la/los/las]]",
         "[[study|estudiar]]",
-        "[[hard|hard]]",
-        "[[grades|grades]].",
-        "[[good|bueno/buena]]",
         "[[students|students]]",
         "[[who|quién/que]]",
-        "[[The|El/la/los/las]]",
-        "[[get|conseguir/obtener]]"
+        "[[hard|hard]]",
+        "[[good|bueno/buena]]",
+        "[[grades|grades]]."
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },

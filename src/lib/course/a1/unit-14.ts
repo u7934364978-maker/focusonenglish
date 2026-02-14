@@ -63,11 +63,11 @@ export const UNIT_14_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] ([[hablar|hablar]]) _______ [[English|English]].",
           "options": [
-            "[[speak|speak]]",
             "[[is|es]]",
+            "[[speak|speak]]",
             "[[are|están]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -89,11 +89,11 @@ export const UNIT_14_EXERCISES: Exercise[] = [
         {
           "question": "[[You|Tú/usted/vosotros]] ([[estudiar|estudiar]]) _______ [[every|every]] [[day|día]].",
           "options": [
-            "[[is|es]]",
+            "[[study|study]]",
             "[[are|están]]",
-            "[[study|study]]"
+            "[[is|es]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -115,11 +115,11 @@ export const UNIT_14_EXERCISES: Exercise[] = [
         {
           "question": "[[We|Nosotros]] ([[gustar|gustar]]) _______ [[pizza|pizza]].",
           "options": [
+            "[[like|like]]",
             "[[are|están]]",
-            "[[is|es]]",
-            "[[like|like]]"
+            "[[is|es]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -141,11 +141,11 @@ export const UNIT_14_EXERCISES: Exercise[] = [
         {
           "question": "[[They|Ellos]] ([[jugar|jugar]]) _______ [[football|football]].",
           "options": [
-            "[[play|play]]",
             "[[are|están]]",
-            "[[is|es]]"
+            "[[is|es]]",
+            "[[play|play]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -167,11 +167,11 @@ export const UNIT_14_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] ([[no|no]] [[-|-]] [[hablar|hablar]]) _______ [[French|French]].",
           "options": [
-            "[[are|están]]",
+            "[[don't speak|don't speak]]",
             "[[is|es]]",
-            "[[don't speak|don't speak]]"
+            "[[are|están]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -191,9 +191,9 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[study|estudiar]] [[English|English]] [[at|en]] [[home|casa/hogar]].",
       "words": [
+        "[[home|casa/hogar]].",
         "[[I|Yo]]",
         "[[study|estudiar]]",
-        "[[home|casa/hogar]].",
         "[[English|English]]",
         "[[at|en]]"
       ],
@@ -214,12 +214,12 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[They|Ellos]] [[play|jugar/tocar]] [[music|music]] [[in|en]] [[the|el/la/los/las]] [[evening|tarde/noche]].",
       "words": [
-        "[[music|music]]",
-        "[[in|en]]",
-        "[[play|jugar/tocar]]",
-        "[[They|Ellos]]",
         "[[the|el/la/los/las]]",
-        "[[evening|tarde/noche]]."
+        "[[in|en]]",
+        "[[evening|tarde/noche]].",
+        "[[play|jugar/tocar]]",
+        "[[music|music]]",
+        "[[They|Ellos]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -239,10 +239,10 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "correctSentence": "[[We|Nosotros]] [[read|leer]] [[books|books]] [[in|en]] [[the|el/la/los/las]] [[library|library]].",
       "words": [
         "[[We|Nosotros]]",
-        "[[the|el/la/los/las]]",
-        "[[library|library]].",
-        "[[books|books]]",
         "[[read|leer]]",
+        "[[books|books]]",
+        "[[library|library]].",
+        "[[the|el/la/los/las]]",
         "[[in|en]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
@@ -263,9 +263,9 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "correctSentence": "[[You|Tú/usted/vosotros]] [[write|escribir]] [[very|muy]] [[well|bien]].",
       "words": [
         "[[write|escribir]]",
-        "[[well|bien]].",
         "[[You|Tú/usted/vosotros]]",
-        "[[very|muy]]"
+        "[[very|muy]]",
+        "[[well|bien]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -285,10 +285,10 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "correctSentence": "[[I|Yo]] [[don't|no]] [[understand|understand]] [[the|el/la/los/las]] [[question|question]].",
       "words": [
         "[[I|Yo]]",
-        "[[the|el/la/los/las]]",
         "[[question|question]].",
-        "[[understand|understand]]",
-        "[[don't|no]]"
+        "[[the|el/la/los/las]]",
+        "[[don't|no]]",
+        "[[understand|understand]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

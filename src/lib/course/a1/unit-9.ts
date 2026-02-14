@@ -67,11 +67,11 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] ([[ser/estar|ser/estar]] [[-|-]] [[yo|yo]]) _______ [[a|un/una]] [[doctor|médico/a]].",
           "options": [
-            "[[am|am]]",
+            "[[are|están]]",
             "[[is|es]]",
-            "[[are|están]]"
+            "[[am|am]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -94,10 +94,10 @@ export const UNIT_9_EXERCISES: Exercise[] = [
           "question": "[[She|Ella]] ([[trabajar|trabajar]] [[-|-]] [[ella|ella]]) _______ [[in|en]] [[a|un/una]] [[hospital|hospital]].",
           "options": [
             "[[are|están]]",
-            "[[is|es]]",
-            "[[works|works]]"
+            "[[works|works]]",
+            "[[is|es]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -119,11 +119,11 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           "question": "[[He|Él]] ([[ser/estar|ser/estar]] [[-|-]] [[él|él]]) _______ [[a|un/una]] [[pilot|pilot]].",
           "options": [
-            "[[are|están]]",
             "[[is|es]]",
-            "[[is|is]]"
+            "[[is|is]]",
+            "[[are|están]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -145,11 +145,11 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           "question": "[[They|Ellos]] ([[ser/estar|ser/estar]] [[-|-]] [[ellos|ellos]]) _______ [[students|students]].",
           "options": [
+            "[[is|es]]",
             "[[are|are]]",
-            "[[are|están]]",
-            "[[is|es]]"
+            "[[are|están]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -195,10 +195,10 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[My|Mi/mis]] [[father|padre]] [[is|es/está]] [[an|un/una]] [[engineer|engineer]].",
       "words": [
-        "[[is|es/está]]",
-        "[[engineer|engineer]].",
-        "[[father|padre]]",
         "[[an|un/una]]",
+        "[[father|padre]]",
+        "[[engineer|engineer]].",
+        "[[is|es/está]]",
         "[[My|Mi/mis]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
@@ -218,12 +218,12 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[She|Ella]] [[works|works]] [[in|en]] [[a|un/una]] [[big|grande]] [[office|oficina]].",
       "words": [
-        "[[works|works]]",
         "[[a|un/una]]",
         "[[She|Ella]]",
+        "[[office|oficina]].",
         "[[big|grande]]",
-        "[[in|en]]",
-        "[[office|oficina]]."
+        "[[works|works]]",
+        "[[in|en]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -243,11 +243,11 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "correctSentence": "[[He|Él]] [[is|es/está]] [[a|un/una]] [[very|muy]] [[good|bueno/buena]] [[driver|driver]].",
       "words": [
         "[[very|muy]]",
-        "[[good|bueno/buena]]",
-        "[[driver|driver]].",
-        "[[He|Él]]",
         "[[a|un/una]]",
-        "[[is|es/está]]"
+        "[[driver|driver]].",
+        "[[good|bueno/buena]]",
+        "[[is|es/está]]",
+        "[[He|Él]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -266,10 +266,10 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Police|Police]] [[officers|officers]] [[help|ayudar]] [[people|gente/personas]].",
       "words": [
-        "[[people|gente/personas]].",
-        "[[help|ayudar]]",
+        "[[Police|Police]]",
         "[[officers|officers]]",
-        "[[Police|Police]]"
+        "[[people|gente/personas]].",
+        "[[help|ayudar]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -288,12 +288,12 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[chef|chef]] [[is|es/está]] [[in|en]] [[the|el/la/los/las]] [[kitchen|cocina]].",
       "words": [
-        "[[in|en]]",
-        "[[is|es/está]]",
+        "[[the|el/la/los/las]]",
         "[[The|El/la/los/las]]",
+        "[[is|es/está]]",
         "[[chef|chef]]",
-        "[[kitchen|cocina]].",
-        "[[the|el/la/los/las]]"
+        "[[in|en]]",
+        "[[kitchen|cocina]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

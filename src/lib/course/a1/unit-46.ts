@@ -161,11 +161,11 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[want|querer]] [[a|un/una]] [[double|double]] [[room|habitación]].",
       "words": [
-        "[[double|double]]",
-        "[[a|un/una]]",
-        "[[want|querer]]",
         "[[room|habitación]].",
-        "[[I|Yo]]"
+        "[[double|double]]",
+        "[[I|Yo]]",
+        "[[want|querer]]",
+        "[[a|un/una]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -187,9 +187,9 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         "[[24|24]]",
         "[[open|open]]",
         "[[hours|hours]].",
-        "[[is|es/está]]",
+        "[[The|El/la/los/las]]",
         "[[reception|reception]]",
-        "[[The|El/la/los/las]]"
+        "[[is|es/está]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -209,8 +209,8 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "correctSentence": "[[Is|Es/está]] [[breakfast|breakfast]] [[included|included]]?",
       "words": [
         "[[included|included]]?",
-        "[[breakfast|breakfast]]",
-        "[[Is|Es/está]]"
+        "[[Is|Es/está]]",
+        "[[breakfast|breakfast]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -230,10 +230,10 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "correctSentence": "[[The|El/la/los/las]] [[room|habitación]] [[is|es/está]] [[very|muy]] [[clean|clean]].",
       "words": [
         "[[is|es/está]]",
-        "[[very|muy]]",
         "[[room|habitación]]",
+        "[[clean|clean]].",
         "[[The|El/la/los/las]]",
-        "[[clean|clean]]."
+        "[[very|muy]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -255,8 +255,8 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         "[[extra|extra]]",
         "[[an|un/una]]",
         "[[need|necesitar]]",
-        "[[I|Yo]]",
-        "[[towel|towel]]."
+        "[[towel|towel]].",
+        "[[I|Yo]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

@@ -55,11 +55,11 @@ export const UNIT_23_EXERCISES: Exercise[] = [
         {
           "question": "([[Hay|Hay]] [[-|-]] [[singular|singular]]) _______ [[a|un/una]] [[book|libro]] [[on|en/sobre]] [[the|el/la/los/las]] [[desk|desk]].",
           "options": [
-            "[[are|están]]",
+            "[[There is|There is]]",
             "[[is|es]]",
-            "[[There is|There is]]"
+            "[[are|están]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -81,11 +81,11 @@ export const UNIT_23_EXERCISES: Exercise[] = [
         {
           "question": "([[Hay|Hay]] [[-|-]] [[plural|plural]]) _______ [[three|tres]] [[plants|plants]] [[in|en]] [[the|el/la/los/las]] [[room|habitación]].",
           "options": [
-            "[[There are|There are]]",
             "[[is|es]]",
+            "[[There are|There are]]",
             "[[are|están]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -107,11 +107,11 @@ export const UNIT_23_EXERCISES: Exercise[] = [
         {
           "question": "([[Hay|Hay]]? [[-|-]] [[singular|singular]]) _______ [[there|allí]] [[a|un/una]] [[TV|TV]]?",
           "options": [
-            "[[Is|Is]]",
             "[[are|están]]",
-            "[[is|es]]"
+            "[[is|es]]",
+            "[[Is|Is]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -133,11 +133,11 @@ export const UNIT_23_EXERCISES: Exercise[] = [
         {
           "question": "([[Hay|Hay]]? [[-|-]] [[plural|plural]]) _______ [[there|allí]] [[any|any]] [[chairs|chairs]]?",
           "options": [
+            "[[are|están]]",
             "[[Are|Are]]",
-            "[[is|es]]",
-            "[[are|están]]"
+            "[[is|es]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -157,15 +157,15 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[There|Allí]] [[is|es/está]] [[a|un/una]] [[big|grande]] [[rug|rug]] [[in|en]] [[the|el/la/los/las]] [[living|living]] [[room|habitación]].",
       "words": [
+        "[[room|habitación]].",
+        "[[rug|rug]]",
+        "[[the|el/la/los/las]]",
         "[[living|living]]",
-        "[[a|un/una]]",
         "[[There|Allí]]",
         "[[is|es/está]]",
-        "[[rug|rug]]",
-        "[[in|en]]",
-        "[[the|el/la/los/las]]",
+        "[[a|un/una]]",
         "[[big|grande]]",
-        "[[room|habitación]]."
+        "[[in|en]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -184,13 +184,13 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[There|Allí]] [[are|somos/estamos/son/están]] [[many|many]] [[books|books]] [[on|en/sobre]] [[the|el/la/los/las]] [[shelf|shelf]].",
       "words": [
+        "[[on|en/sobre]]",
         "[[books|books]]",
+        "[[the|el/la/los/las]]",
         "[[many|many]]",
         "[[are|somos/estamos/son/están]]",
-        "[[on|en/sobre]]",
         "[[There|Allí]]",
-        "[[shelf|shelf]].",
-        "[[the|el/la/los/las]]"
+        "[[shelf|shelf]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -209,13 +209,13 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Is|Es/está]] [[there|allí]] [[a|un/una]] [[plant|plant]] [[in|en]] [[your|tu/tus]] [[bedroom|bedroom]]?",
       "words": [
-        "[[bedroom|bedroom]]?",
-        "[[there|allí]]",
-        "[[Is|Es/está]]",
-        "[[in|en]]",
         "[[a|un/una]]",
+        "[[there|allí]]",
         "[[your|tu/tus]]",
-        "[[plant|plant]]"
+        "[[in|en]]",
+        "[[plant|plant]]",
+        "[[Is|Es/está]]",
+        "[[bedroom|bedroom]]?"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -234,13 +234,13 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[There|Allí]] [[are|somos/estamos/son/están]] [[no|no]] [[curtains|curtains]] [[in|en]] [[the|el/la/los/las]] [[kitchen|cocina]].",
       "words": [
-        "[[curtains|curtains]]",
-        "[[no|no]]",
-        "[[kitchen|cocina]].",
+        "[[There|Allí]]",
         "[[the|el/la/los/las]]",
         "[[are|somos/estamos/son/están]]",
         "[[in|en]]",
-        "[[There|Allí]]"
+        "[[kitchen|cocina]].",
+        "[[no|no]]",
+        "[[curtains|curtains]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -259,13 +259,13 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[There|Allí]] [[is|es/está]] [[a|un/una]] [[mirror|mirror]] [[in|en]] [[the|el/la/los/las]] [[bathroom|baño]].",
       "words": [
-        "[[bathroom|baño]].",
         "[[the|el/la/los/las]]",
-        "[[is|es/está]]",
-        "[[in|en]]",
-        "[[There|Allí]]",
         "[[mirror|mirror]]",
-        "[[a|un/una]]"
+        "[[There|Allí]]",
+        "[[in|en]]",
+        "[[is|es/está]]",
+        "[[a|un/una]]",
+        "[[bathroom|baño]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
