@@ -12,7 +12,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "It-Cleft Sentences",
       instructions: "Choose the correct relative pronoun for emphasis.",
-      question: "[[John started the company. -> It was John ___ started the company.|John empezó la empresa. -> Fue John quien empezó la empresa.]]",
+      question: "[[John|John]] [[started|empezó]] [[the|la]] [[company.|empresa.]] [[->|->]] [[It|Fue]] [[was|John]] [[John|quien]] [[___|___]] [[(who)| ]] [[started|empezó]] [[the|la]] [[company.|empresa.]]",
       options: ["who", "which", "what"],
       correctAnswer: "who",
       explanation: "Use 'who' or 'that' to focus on a person in an it-cleft sentence.",
@@ -31,7 +31,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "It-Cleft Sentences",
       instructions: "Choose the correct relative pronoun for emphasis.",
-      question: "[[We need innovation. -> It is innovation ___ we need.|Necesitamos innovación. -> Es la innovación lo que necesitamos.]]",
+      question: "[[We|Necesitamos]] [[need|innovación.]] [[innovation.| ]] [[->|->]] [[It|Es]] [[is|la]] [[innovation|innovación]] [[___|___]] [[(that)|lo que]] [[we|necesitamos.]] [[need.| ]]",
       options: ["that", "who", "what"],
       correctAnswer: "that",
       explanation: "Use 'that' or 'which' to focus on a thing in an it-cleft sentence.",
@@ -50,7 +50,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "It-Cleft Sentences",
       instructions: "Choose the correct relative pronoun for emphasis.",
-      question: "[[The market changed in 2008. -> It was in 2008 ___ the market changed.|El mercado cambió en 2008. -> Fue en 2008 cuando el mercado cambió.]]",
+      question: "[[The|El]] [[market|mercado]] [[changed|cambió]] [[in|en]] [[2008.|2008.]] [[->|->]] [[It|Fue]] [[was|en]] [[in|2008]] [[2008|cuando]] [[___|___]] [[(that)| ]] [[the|el]] [[market|mercado]] [[changed.|cambió.]]",
       options: ["that", "when", "which"],
       correctAnswer: "that",
       explanation: "In it-clefts focusing on time, 'that' is preferred over 'when'.",
@@ -69,7 +69,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "It-Cleft Sentences",
       instructions: "Choose the correct relative pronoun for emphasis.",
-      question: "[[They failed because of lack of funding. -> It was lack of funding ___ caused the failure.|Fallaron por falta de financiación. -> Fue la falta de financiación lo que causó el fracaso.]]",
+      question: "[[They|Fallaron]] [[failed|por]] [[because|falta]] [[of|de]] [[lack|financiación.]] [[of| ]] [[funding.| ]] [[->|->]] [[It|Fue]] [[was|la]] [[lack|falta]] [[of|de]] [[funding|financiación]] [[___|___]] [[(that)|lo que]] [[caused|causó]] [[the|el]] [[failure.|fracaso.]]",
       options: ["that", "what", "who"],
       correctAnswer: "that",
       explanation: "Use 'that' to link the subject focus to the rest of the sentence.",
@@ -88,7 +88,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "It-Cleft Sentences",
       instructions: "Choose the correct relative pronoun for emphasis.",
-      question: "[[I want to talk to the manager. -> It is the manager ___ I want to talk to.|Quiero hablar con el gerente. -> Es con el gerente con quien quiero hablar.]]",
+      question: "[[I|Quiero]] [[want|hablar]] [[to|con]] [[talk|el]] [[to|gerente.]] [[the| ]] [[manager.| ]] [[->|->]] [[It|Es]] [[is|con]] [[the|el]] [[manager|gerente]] [[___|___]] [[(that)|con quien]] [[I|quiero]] [[want|hablar.]] [[to| ]] [[talk| ]] [[to.| ]]",
       options: ["that", "what", "who"],
       correctAnswer: "that",
       explanation: "Use 'that' or 'whom' (formal) to focus on the object of the sentence.",
@@ -107,7 +107,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "It-Cleft Sentences",
       instructions: "Choose the correct relative pronoun for emphasis.",
-      question: "[[The CEO made the decision. -> It was the CEO ___ made the decision.|El CEO tomó la decisión. -> Fue el CEO quien tomó la decisión.]]",
+      question: "[[The|El]] [[CEO|CEO]] [[made|tomó]] [[the|la]] [[decision.|decisión.]] [[->|->]] [[It|Fue]] [[was|el]] [[the|CEO]] [[CEO|quien]] [[___|___]] [[(who)| ]] [[made|tomó]] [[the|la]] [[decision.|decisión.]]",
       options: ["who", "which", "that"],
       correctAnswer: "who",
       explanation: "Focusing on a person (The CEO) requires 'who' or 'that'.",
@@ -126,7 +126,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "It-Cleft Sentences",
       instructions: "Choose the correct relative pronoun for emphasis.",
-      question: "[[We met at the startup hub. -> It was at the startup hub ___ we met.|Nos conocimos en el centro de startups. -> Fue en el centro de startups donde nos conocimos.]]",
+      question: "[[We|Nos]] [[met|conocimos]] [[at|en]] [[the|el]] [[startup|centro]] [[hub.|de startups.]] [[->|->]] [[It|Fue]] [[was|en]] [[at|el]] [[the|centro]] [[startup|de]] [[hub|startups]] [[___|___]] [[(that)|donde]] [[we|nos]] [[met.|conocimos.]]",
       options: ["that", "where", "which"],
       correctAnswer: "that",
       explanation: "In it-clefts focusing on place, 'that' is standard.",
@@ -145,7 +145,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "It-Cleft Sentences",
       instructions: "Choose the correct relative pronoun for emphasis.",
-      question: "[[She came up with the idea. -> It was she ___ came up with the idea.|A ella se le ocurrió la idea. -> Fue ella quien tuvo la idea.]]",
+      question: "[[She|A ella]] [[came|se]] [[up|le]] [[with|ocurrió]] [[the|la]] [[idea.|idea.]] [[->|->]] [[It|Fue]] [[was|ella]] [[she|quien]] [[___|___]] [[(who)| ]] [[came|tuvo]] [[up|la]] [[with|idea.]] [[the| ]] [[idea.| ]]",
       options: ["who", "which", "what"],
       correctAnswer: "who",
       explanation: "Focus on 'she' (subject pronoun) followed by 'who'.",
@@ -164,7 +164,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "It-Cleft Sentences",
       instructions: "Choose the correct relative pronoun for emphasis.",
-      question: "[[He won the prize for his app. -> It was for his app ___ he won the prize.|Ganó el premio por su aplicación. -> Fue por su aplicación que ganó el premio.]]",
+      question: "[[He|Ganó]] [[won|el]] [[the|premio]] [[prize|por]] [[for|su]] [[his|aplicación.]] [[app.| ]] [[->|->]] [[It|Fue]] [[was|por]] [[for|su]] [[his|aplicación]] [[app|que]] [[___|___]] [[(that)| ]] [[he|ganó]] [[won|el]] [[the|premio.]] [[prize.| ]]",
       options: ["that", "which", "what"],
       correctAnswer: "that",
       explanation: "Focusing on the reason/object 'for his app'.",
@@ -183,7 +183,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "It-Cleft Sentences",
       instructions: "Choose the correct relative pronoun for emphasis.",
-      question: "[[The team worked all night. -> It was the team ___ worked all night.|El equipo trabajó toda la noche. -> Fue el equipo el que trabajó toda la noche.]]",
+      question: "[[The|El]] [[team|equipo]] [[worked|trabajó]] [[all|toda]] [[night.|la noche.]] [[->|->]] [[It|Fue]] [[was|el]] [[the|equipo]] [[team|el]] [[___|___]] [[(that)|que]] [[worked|trabajó]] [[all|toda]] [[night.|la noche.]]",
       options: ["that", "who", "which"],
       correctAnswer: "that",
       explanation: "Groups can be referred to with 'that' or 'who'.",
@@ -204,7 +204,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Wh-Cleft Sentences",
       instructions: "Start the sentence with the correct Wh-word for emphasis.",
-      question: "[[I need a holiday. -> ___ I need is a holiday.|Necesito unas vacaciones. -> Lo que necesito son unas vacaciones.]]",
+      question: "[[I|Necesito]] [[need|unas]] [[a|vacaciones.]] [[holiday.| ]] [[->|->]] [[___|___]] [[(What)|Lo que]] [[I|necesito]] [[need|son]] [[is|unas]] [[a|vacaciones.]] [[holiday.| ]]",
       correctAnswer: "What",
       explanation: "Wh-cleft sentences often start with 'What' to emphasize the object or action.",
       translation: "Necesito unas vacaciones. -> Lo que necesito son unas vacaciones.",
@@ -222,7 +222,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Wh-Cleft Sentences",
       instructions: "Start the sentence with the correct Wh-word for emphasis.",
-      question: "[[She wants more responsibility. -> ___ she wants is more responsibility.|Ella quiere más responsabilidad. -> Lo que ella quiere es más responsabilidad.]]",
+      question: "[[She|Ella]] [[wants|quiere]] [[more|más]] [[responsibility.|responsabilidad.]] [[->|->]] [[___|___]] [[(What)|Lo que]] [[she|ella]] [[wants|quiere]] [[is|es]] [[more|más]] [[responsibility.|responsabilidad.]]",
       correctAnswer: "What",
       explanation: "Emphasizing the thing desired.",
       translation: "Ella quiere más responsabilidad. -> Lo que ella quiere es más responsabilidad.",
@@ -240,7 +240,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Wh-Cleft Sentences",
       instructions: "Fill in the correct Wh-word.",
-      question: "[[___ we love about the job is the flexibility.|Lo que nos encanta del trabajo es la flexibilidad.]]",
+      question: "[[___|___]] [[(What)|Lo que]] [[we|nos]] [[love|encanta]] [[about|del]] [[the|trabajo]] [[job|es]] [[is|la]] [[the|flexibilidad.]] [[flexibility.| ]]",
       correctAnswer: "What",
       explanation: "'What' functions as the subject relative pronoun here.",
       translation: "Lo que nos encanta del trabajo es la flexibilidad.",
@@ -258,7 +258,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Wh-Cleft Sentences",
       instructions: "Fill in the correct Wh-word.",
-      question: "[[___ he said was 'no'.|Lo que dijo fue 'no'.]]",
+      question: "[[___|___]] [[(What)|Lo que]] [[he|dijo]] [[said|fue]] [[was|'no'.]] [['no'.| ]]",
       correctAnswer: "What",
       explanation: "Emphasizing the statement made.",
       translation: "Lo que dijo fue 'no'.",
@@ -276,7 +276,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Wh-Cleft Sentences",
       instructions: "Fill in the correct Wh-word.",
-      question: "[[___ they did was start a new brand.|Lo que hicieron fue lanzar una nueva marca.]]",
+      question: "[[___|___]] [[(What)|Lo que]] [[they|hicieron]] [[did|fue]] [[was|lanzar]] [[start|una]] [[a|nueva]] [[new|marca.]] [[brand.| ]]",
       correctAnswer: "What",
       explanation: "Emphasizing the action performed.",
       translation: "Lo que hicieron fue lanzar una nueva marca.",
@@ -294,7 +294,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Wh-Cleft Sentences",
       instructions: "Fill in the correct Wh-word.",
-      question: "[[___ the company needs is better marketing.|Lo que la empresa necesita es un mejor marketing.]]",
+      question: "[[___|___]] [[(What)|Lo que]] [[the|la]] [[company|empresa]] [[needs|necesita]] [[is|es]] [[better|un mejor]] [[marketing.|marketing.]]",
       correctAnswer: "What",
       explanation: "Emphasizing the requirement.",
       translation: "Lo que la empresa necesita es un mejor marketing.",
@@ -312,7 +312,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Wh-Cleft Sentences",
       instructions: "Fill in the correct Wh-word.",
-      question: "[[___ I hate is being late.|Lo que odio es llegar tarde.]]",
+      question: "[[___|___]] [[(What)|Lo que]] [[I|odio]] [[hate|es]] [[is|llegar]] [[being|tarde.]] [[late.| ]]",
       correctAnswer: "What",
       explanation: "Emphasizing the dislike.",
       translation: "Lo que odio es llegar tarde.",
@@ -330,7 +330,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Wh-Cleft Sentences",
       instructions: "Fill in the correct Wh-word.",
-      question: "[[___ we discussed was the budget.|Lo que discutimos fue el presupuesto.]]",
+      question: "[[___|___]] [[(What)|Lo que]] [[we|discutimos]] [[discussed|fue]] [[was|el]] [[the|presupuesto.]] [[budget.| ]]",
       correctAnswer: "What",
       explanation: "Emphasizing the topic of discussion.",
       translation: "Lo que discutimos fue el presupuesto.",
@@ -348,7 +348,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Wh-Cleft Sentences",
       instructions: "Fill in the correct Wh-word.",
-      question: "[[___ he forgot was the meeting time.|Lo que olvidó fue la hora de la reunión.]]",
+      question: "[[___|___]] [[(What)|Lo que]] [[he|olvidó]] [[forgot|fue]] [[was|la]] [[the|hora]] [[meeting|de la]] [[time.|reunión.]]",
       correctAnswer: "What",
       explanation: "Emphasizing the forgotten item.",
       translation: "Lo que olvidó fue la hora de la reunión.",
@@ -366,7 +366,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Wh-Cleft Sentences",
       instructions: "Fill in the correct Wh-word.",
-      question: "[[___ she realized was that she needed help.|Lo que se dio cuenta fue que necesitaba ayuda.]]",
+      question: "[[___|___]] [[(What)|Lo que]] [[she|se]] [[realized|dio]] [[was|cuenta]] [[that|fue]] [[she|que]] [[needed|necesitaba]] [[help.|ayuda.]]",
       correctAnswer: "What",
       explanation: "Emphasizing the realization.",
       translation: "Lo que se dio cuenta fue que necesitaba ayuda.",
@@ -386,7 +386,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Startup Terms",
       instructions: "Fill in the blank.",
-      question: "[[He is a successful serial ___ (entrepreneur).|Es un emprendedor en serie de éxito.]]",
+      question: "[[He|Es]] [[is|un]] [[a|emprendedor]] [[successful|de éxito]] [[serial|en serie]] [[___|___]] [[(entrepreneur).| ]]",
       correctAnswer: "entrepreneur",
       explanation: "An entrepreneur is someone who starts a business.",
       translation: "Es un emprendedor en serie de éxito.",
@@ -404,7 +404,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Startup Terms",
       instructions: "Fill in the blank.",
-      question: "[[The startup secured a seed ___ (funding) round.|La startup aseguró una ronda de financiación semilla.]]",
+      question: "[[The|La]] [[startup|startup]] [[secured|aseguró]] [[a|una]] [[seed|ronda]] [[___|___]] [[(funding)|de financiación]] [[round.|semilla.]]",
       correctAnswer: "funding",
       explanation: "Funding refers to the money provided for a business.",
       translation: "La startup aseguró una ronda de financiación semilla.",
@@ -422,7 +422,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Startup Terms",
       instructions: "Fill in the blank.",
-      question: "[[We need to pitch our idea to venture ___ (capitalists).|Necesitamos presentar nuestra idea a los capitalistas de riesgo.]]",
+      question: "[[We|Necesitamos]] [[need|presentar]] [[to|nuestra]] [[pitch|idea]] [[our|a]] [[idea|los]] [[to|capitalistas]] [[venture|de]] [[___|___]] [[(capitalists).|riesgo.]]",
       correctAnswer: "capitalists",
       explanation: "Venture capitalists are investors who provide capital to startups.",
       translation: "Necesitamos presentar nuestra idea a los capitalistas de riesgo.",
@@ -440,7 +440,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Startup Terms",
       instructions: "Fill in the blank.",
-      question: "[[The company has a very high ___ (valuation).|La empresa tiene una valoración muy alta.]]",
+      question: "[[The|La]] [[company|empresa]] [[has|tiene]] [[a|una]] [[very|valoración]] [[high|muy]] [[___|___]] [[(valuation).|alta.]]",
       correctAnswer: "valuation",
       explanation: "Valuation is the estimated worth of a company.",
       translation: "La empresa tiene una valoración muy alta.",
@@ -458,7 +458,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Startup Terms",
       instructions: "Fill in the blank.",
-      question: "[[They are looking for an angel ___ (investor).|Están buscando un inversor ángel.]]",
+      question: "[[They|Están]] [[are|buscando]] [[looking|un]] [[for|inversor]] [[an|ángel.]] [[angel| ]] [[___|___]] [[(investor).| ]]",
       correctAnswer: "investor",
       explanation: "An angel investor provides capital for a business start-up.",
       translation: "Están buscando un inversor ángel.",
