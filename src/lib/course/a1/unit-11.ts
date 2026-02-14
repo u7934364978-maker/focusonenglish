@@ -88,27 +88,6 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u11-e5',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Jobs',
-    topicName: 'My Job',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Nurse',
-      instructions: 'Di la palabra para "enfermero/a".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Nurse',
-          phonetic: '/nɜːs/',
-          translation: 'Enfermero/a',
-          explanation: 'La "u" tiene un sonido sordo y la "r" no se pronuncia en inglés británico.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u11-e6',
     type: 'fill-blank',
     level: 'A1',
@@ -252,27 +231,6 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u11-e13',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Jobs',
-    topicName: 'My Job',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Student',
-      instructions: 'Di la palabra para "estudiante".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Student',
-          phonetic: '/ˈstjuː.dənt/',
-          translation: 'Estudiante',
-          explanation: 'La "u" suena como "ju" (/juː/).'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u11-e14',
     type: 'sentence-building',
     level: 'A1',
@@ -396,27 +354,6 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u11-e20',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Jobs',
-    topicName: 'My Job',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Photographer',
-      instructions: 'Di la palabra para "fotógrafo/a".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Photographer',
-          phonetic: '/fəˈtɒɡ.rə.fər/',
-          translation: 'Fotógrafo/a',
-          explanation: 'El acento recae en la segunda sílaba: pho-TOG-ra-pher.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u11-e21',
     type: 'sentence-building',
     level: 'A1',
@@ -516,27 +453,6 @@ export const UNIT_11_EXERCISES: Exercise[] = [
         { id: 'p5', left: 'Cook', right: 'Cocinar' }
       ],
       explanation: 'Estos verbos describen las acciones principales de muchas profesiones.'
-    } as any
-  },
-  {
-    id: 'a1-u11-e26',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Jobs',
-    topicName: 'My Job',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Architect',
-      instructions: 'Di la palabra para "arquitecto/a".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Architect',
-          phonetic: '/ˈɑː.kɪ.tekt/',
-          translation: 'Arquitecto/a',
-          explanation: 'La "ch" suena como una "k" (/k/).'
-        }
-      ]
     } as any
   },
   {
@@ -663,27 +579,6 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u11-e33',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Jobs',
-    topicName: 'My Job',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Manager',
-      instructions: 'Di la palabra para "gerente" o "jefe".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Manager',
-          phonetic: '/ˈmæn.ɪ.dʒər/',
-          translation: 'Gerente',
-          explanation: 'La "g" suena como la "j" de "jacket".'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u11-e34',
     type: 'sentence-building',
     level: 'A1',
@@ -783,27 +678,6 @@ export const UNIT_11_EXERCISES: Exercise[] = [
         { id: 'p5', left: 'Painter', right: 'Pintor/a' }
       ],
       explanation: 'Estos son oficios técnicos esenciales en la construcción.'
-    } as any
-  },
-  {
-    id: 'a1-u11-e39',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Jobs',
-    topicName: 'My Job',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Job',
-      instructions: 'Di la palabra para "trabajo".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Job',
-          phonetic: '/dʒɒb/',
-          translation: 'Trabajo',
-          explanation: 'La "o" es corta y abierta.'
-        }
-      ]
     } as any
   },
   {
@@ -927,27 +801,6 @@ export const UNIT_11_EXERCISES: Exercise[] = [
         { id: 'p5', left: 'Keyboard', right: 'Teclado' }
       ],
       explanation: 'Este es el equipamiento básico de cualquier oficina.'
-    } as any
-  },
-  {
-    id: 'a1-u11-e46',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Jobs',
-    topicName: 'My Job',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Career',
-      instructions: 'Di la palabra para "carrera profesional".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Career',
-          phonetic: '/kəˈrɪər/',
-          translation: 'Carrera',
-          explanation: 'No confundir con "degree" (título universitario).'
-        }
-      ]
     } as any
   },
   {
