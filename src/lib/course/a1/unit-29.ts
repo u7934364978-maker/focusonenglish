@@ -1,5 +1,9 @@
 import { Exercise } from '@/lib/exercise-generator';
 
+/**
+ * Unit 29: Final Graduation
+ */
+
 export const UNIT_29_EXERCISES: Exercise[] = [
   // --- MIXED REVIEW: UNITS 1-28 ---
   
@@ -13,11 +17,11 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     difficulty: 'medium',
     content: {
       pairs: [
-        { front: 'Hello, how are you?', back: 'Hola, ¿cómo estás?' },
-        { front: 'I am a doctor.', back: 'Soy médico.' },
-        { front: 'What is your name?', back: '¿Cómo te llamas?' },
-        { front: 'Nice to meet you.', back: 'Mucho gusto.' },
-        { front: 'She is a teacher.', back: 'Ella es profesora.' }
+        { left: 'Hello, how are you?', right: 'Hola, ¿cómo estás?' },
+        { left: 'I am a doctor.', right: 'Soy médico.' },
+        { left: 'What is your name?', right: '¿Cómo te llamas?' },
+        { left: 'Nice to meet you.', right: 'Mucho gusto.' },
+        { left: 'She is a teacher.', right: 'Ella es profesora.' }
       ],
       explanation: 'Un repaso de los saludos básicos y profesiones introducidos al inicio del curso.'
     }
@@ -68,11 +72,11 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     difficulty: 'medium',
     content: {
       pairs: [
-        { front: 'My brother is tall.', back: 'Mi hermano es alto.' },
-        { front: 'The kitchen is big.', back: 'La cocina es grande.' },
-        { front: 'My parents are happy.', back: 'Mis padres están felices.' },
-        { front: 'The bedroom is small.', back: 'El dormitorio es pequeño.' },
-        { front: 'Where is the bathroom?', back: '¿Dónde está el baño?' }
+        { left: 'My brother is tall.', right: 'Mi hermano es alto.' },
+        { left: 'The kitchen is big.', right: 'La cocina es grande.' },
+        { left: 'My parents are happy.', right: 'Mis padres están felices.' },
+        { left: 'The bedroom is small.', right: 'El dormitorio es pequeño.' },
+        { left: 'Where is the bathroom?', right: '¿Dónde está el baño?' }
       ],
       explanation: 'Vocabulario clave sobre la familia y las partes de la casa.'
     }
@@ -143,11 +147,11 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     difficulty: 'medium',
     content: {
       pairs: [
-        { front: 'I wake up at 6:00.', back: 'Me despierto a las 6:00.' },
-        { front: 'She goes to work.', back: 'Ella va a trabajar.' },
-        { front: 'We eat breakfast.', back: 'Nosotros desayunamos.' },
-        { front: 'He takes a shower.', back: 'Él se ducha.' },
-        { front: 'They sleep early.', back: 'Ellos duermen temprano.' }
+        { left: 'I wake up at 6:00.', right: 'Me despierto a las 6:00.' },
+        { left: 'She goes to work.', right: 'Ella va a trabajar.' },
+        { left: 'We eat breakfast.', right: 'Nosotros desayunamos.' },
+        { left: 'He takes a shower.', right: 'Él se ducha.' },
+        { left: 'They sleep early.', right: 'Ellos duermen temprano.' }
       ],
       explanation: 'Repaso de verbos de acción diaria en presente simple.'
     }
@@ -234,11 +238,11 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     difficulty: 'medium',
     content: {
       pairs: [
-        { front: 'A blue shirt', back: 'Una camisa azul' },
-        { front: 'Red shoes', back: 'Zapatos rojos' },
-        { front: 'A black hat', back: 'Un sombrero negro' },
-        { front: 'Green pants', back: 'Pantalones verdes' },
-        { front: 'A white dress', back: 'Un vestido blanco' }
+        { left: 'A blue shirt', right: 'Una camisa azul' },
+        { left: 'Red shoes', right: 'Zapatos rojos' },
+        { left: 'A black hat', right: 'Un sombrero negro' },
+        { left: 'Green pants', right: 'Pantalones verdes' },
+        { left: 'A white dress', right: 'Un vestido blanco' }
       ],
       explanation: 'El adjetivo de color siempre va antes del sustantivo en inglés.'
     }
@@ -309,11 +313,11 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     difficulty: 'medium',
     content: {
       pairs: [
-        { front: 'I was tired.', back: 'Yo estaba cansado.' },
-        { front: 'They were happy.', back: 'Ellos estaban felices.' },
-        { front: 'It was cold.', back: 'Hacía frío / Estaba frío.' },
-        { front: 'We were at home.', back: 'Estábamos en casa.' },
-        { front: 'She was a student.', back: 'Ella era estudiante.' }
+        { left: 'I was tired.', right: 'Yo estaba cansado.' },
+        { left: 'They were happy.', right: 'Ellos estaban felices.' },
+        { left: 'It was cold.', right: 'Hacía frío / Estaba frío.' },
+        { left: 'We were at home.', right: 'Estábamos en casa.' },
+        { left: 'She was a student.', right: 'Ella era estudiante.' }
       ],
       explanation: 'Repaso del pasado del verbo "to be".'
     }
@@ -401,11 +405,11 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     difficulty: 'medium',
     content: {
       pairs: [
-        { front: 'I am going to travel.', back: 'Voy a viajar.' },
-        { front: 'He is going to study.', back: 'Él va a estudiar.' },
-        { front: 'We are going to eat.', back: 'Vamos a comer.' },
-        { front: 'She is going to sleep.', back: 'Ella va a dormir.' },
-        { front: 'They are going to play.', back: 'Ellos van a jugar.' }
+        { left: 'I am going to travel.', right: 'Voy a viajar.' },
+        { left: 'He is going to study.', right: 'Él va a estudiar.' },
+        { left: 'We are going to eat.', right: 'Vamos a comer.' },
+        { left: 'She is going to sleep.', right: 'Ella va a dormir.' },
+        { left: 'They are going to play.', right: 'Ellos van a jugar.' }
       ],
       explanation: 'Repaso de la estructura "be + going to + verb" para el futuro.'
     }
@@ -476,11 +480,11 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     difficulty: 'medium',
     content: {
       pairs: [
-        { front: 'It is sunny today.', back: 'Está soleado hoy.' },
-        { front: 'The cat is on the sofa.', back: 'El gato está en el sofá.' },
-        { front: 'I live in a city.', back: 'Vivo en una ciudad.' },
-        { front: 'A lion is an animal.', back: 'Un león es un animal.' },
-        { front: 'The bank is next to the park.', back: 'El banco está al lado del parque.' }
+        { left: 'It is sunny today.', right: 'Está soleado hoy.' },
+        { left: 'The cat is on the sofa.', right: 'El gato está en el sofá.' },
+        { left: 'I live in a city.', right: 'Vivo en una ciudad.' },
+        { left: 'A lion is an animal.', right: 'Un león es un animal.' },
+        { left: 'The bank is next to the park.', right: 'El banco está al lado del parque.' }
       ],
       explanation: 'Un repaso rápido de lugares, clima y animales.'
     }
@@ -551,11 +555,11 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     difficulty: 'medium',
     content: {
       pairs: [
-        { front: 'Do - Did', back: 'Hacer - Hizo' },
-        { front: 'Go - Went', back: 'Ir - Fue' },
-        { front: 'Eat - Ate', back: 'Comer - Comió' },
-        { front: 'See - Saw', back: 'Ver - Vio' },
-        { front: 'Have - Had', back: 'Tener - Tuvo' }
+        { left: 'Do - Did', right: 'Hacer - Hizo' },
+        { left: 'Go - Went', right: 'Ir - Fue' },
+        { left: 'Eat - Ate', right: 'Comer - Comió' },
+        { left: 'See - Saw', right: 'Ver - Vio' },
+        { left: 'Have - Had', right: 'Tener - Tuvo' }
       ],
       explanation: 'Pares de verbos irregulares esenciales en presente y pasado.'
     }
@@ -639,11 +643,11 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     difficulty: 'medium',
     content: {
       pairs: [
-        { front: 'Hot - Cold', back: 'Caliente - Frío' },
-        { front: 'Big - Small', back: 'Grande - Pequeño' },
-        { front: 'Happy - Sad', back: 'Feliz - Triste' },
-        { front: 'Old - New', back: 'Viejo - Nuevo' },
-        { front: 'Fast - Slow', back: 'Rápido - Lento' }
+        { left: 'Hot - Cold', right: 'Caliente - Frío' },
+        { left: 'Big - Small', right: 'Grande - Pequeño' },
+        { left: 'Happy - Sad', right: 'Feliz - Triste' },
+        { left: 'Old - New', right: 'Viejo - Nuevo' },
+        { left: 'Fast - Slow', right: 'Rápido - Lento' }
       ],
       explanation: 'Opuestos básicos para describir cosas y estados.'
     }
@@ -727,11 +731,11 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     difficulty: 'medium',
     content: {
       pairs: [
-        { front: 'I - Me', back: 'Yo - Me/Mí' },
-        { front: 'You - You', back: 'Tú - Te/Ti' },
-        { front: 'He - Him', back: 'Él - Lo/Él' },
-        { front: 'She - Her', back: 'Ella - La/Ella' },
-        { front: 'We - Us', back: 'Nosotros - Nos' }
+        { left: 'I - Me', right: 'Yo - Me/Mí' },
+        { left: 'You - You', right: 'Tú - Te/Ti' },
+        { left: 'He - Him', right: 'Él - Lo/Él' },
+        { left: 'She - Her', right: 'Ella - La/Ella' },
+        { left: 'We - Us', right: 'Nosotros - Nos' }
       ],
       explanation: 'Pares de pronombres de sujeto y de objeto.'
     }
@@ -815,11 +819,11 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     difficulty: 'medium',
     content: {
       pairs: [
-        { front: 'Library', back: 'Biblioteca' },
-        { front: 'Hospital', back: 'Hospital' },
-        { front: 'Cinema', back: 'Cine' },
-        { front: 'Museum', back: 'Museo' },
-        { front: 'Pharmacy', back: 'Farmacia' }
+        { left: 'Library', right: 'Biblioteca' },
+        { left: 'Hospital', right: 'Hospital' },
+        { left: 'Cinema', right: 'Cine' },
+        { left: 'Museum', right: 'Museo' },
+        { left: 'Pharmacy', right: 'Farmacia' }
       ],
       explanation: 'Vocabulario de lugares comunes en la ciudad.'
     }
@@ -903,11 +907,11 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     difficulty: 'medium',
     content: {
       pairs: [
-        { front: 'Good luck!', back: '¡Buena suerte!' },
-        { front: 'See you later.', back: 'Hasta luego.' },
-        { front: 'Thank you.', back: 'Gracias.' },
-        { front: 'Well done!', back: '¡Bien hecho!' },
-        { front: 'I am ready.', back: 'Estoy listo.' }
+        { left: 'Good luck!', right: '¡Buena suerte!' },
+        { left: 'See you later.', right: 'Hasta luego.' },
+        { left: 'Thank you.', right: 'Gracias.' },
+        { left: 'Well done!', right: '¡Bien hecho!' },
+        { left: 'I am ready.', right: 'Estoy listo.' }
       ],
       explanation: 'Frases finales para cerrar tu graduación del nivel A1.'
     }
