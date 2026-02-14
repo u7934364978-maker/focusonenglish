@@ -45,7 +45,7 @@ export default function DragDropExercise({ content, vocabulary, onComplete }: Dr
   const [showHint, setShowHint] = useState(false);
   const [overallCorrect, setOverallCorrect] = useState(true);
 
-  const sentences = content.sentences || [];
+  const sentences = content.sentences || (content as any).questions || [];
   const isMultiSentence = sentences.length > 0;
   
   const currentSentenceData = isMultiSentence 
@@ -54,6 +54,7 @@ export default function DragDropExercise({ content, vocabulary, onComplete }: Dr
 
   const targetSentence = currentSentenceData.correctSentence || 
                          currentSentenceData.sentence || 
+                         (currentSentenceData as any).question ||
                          "";
 
   const initializeSentence = () => {
@@ -65,6 +66,8 @@ export default function DragDropExercise({ content, vocabulary, onComplete }: Dr
       wordsToShuffle = [...data.words];
     } else if (data.shuffledWords && data.shuffledWords.length > 0) {
       wordsToShuffle = [...data.shuffledWords];
+    } else if ((data as any).options && (data as any).options.length > 0) {
+      wordsToShuffle = [...(data as any).options];
     } else if (target) {
       wordsToShuffle = target.split(' ').filter(w => w.trim() !== '');
     }
@@ -309,7 +312,7 @@ export default function DragDropExercise({ content, vocabulary, onComplete }: Dr
             ) : (
               <>
                 <X className="w-6 h-6" />
-                <span className="flex-1">Casi... la respuesta correcta es: <span className="font-black underline italic ml-1">{targetSentence}</span></span>
+                <span className="flex-1">Casi... la respuesta correcta es: <span className="font-black underline italic ml-1">{targetSentence.replace(/\[\[(.*?)\|(.*?)\]\]/g, '$1')}</span></span>
               </>
             )}
             {currentSentenceData.audio && (
