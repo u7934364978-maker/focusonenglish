@@ -4,7 +4,7 @@ import React, { createContext, useContext, useMemo, useRef } from "react";
 import AudioButton from "./AudioButton";
 import { TranslatedText } from "./exercises/TranslatedText";
 
-interface VocabularyItem {
+export interface VocabularyItem {
   word: string;
   definition: string;
 }

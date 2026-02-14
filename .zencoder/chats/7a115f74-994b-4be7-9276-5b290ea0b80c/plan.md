@@ -43,4 +43,32 @@ Implement the task according to the technical specification and general engineer
 5. [x] **Test Plan Approval**: Obtained approval for E2E tests.
 6. [x] **E2E Testing**: Wrote and ran Playwright tests in `e2e/unit-preview-fix.spec.ts`.
 7. [x] **Report**: Wrote final report in `report.md`.
-8. [ ] **Deployment**: Commit and push changes.
+8. [x] **Deployment**: Commit and push changes. Commit: `2d4f2fe8`
+
+---
+
+### [x] Step: Individual Unit Verification (Units 2-30)
+
+Verify that each unit renders correctly in the preview and commit any specific fixes.
+
+1. [x] **Verification Script**: Created `e2e/all-units-check.spec.ts` to batch test all 30 units for hydration errors and rendering.
+2. [x] **Unit-by-Unit Fix & Commit**: Iterated through all 30 units, standardized formatting, fixed data inconsistencies in Units 29 & 30, and committed/pushed each unit individually as requested.
+
+---
+
+### [ ] Step: Build Fix
+
+Resolve build errors caused by temporary/backup files.
+
+1. [x] **Cleanup**: Remove any leftover `.bak` files.
+2. [x] **Verification**: Run `npm run build` to ensure the project compiles correctly.
+
+---
+
+### [ ] Step: UI Fixes (Translation Syntax & Hydration)
+
+Fix visible `[[text|translation]]` syntax and remaining hydration issues.
+
+1. [x] **Markdown Component**: Refactored `Markdown.tsx` to always apply `TranslatedText` to text nodes, ensuring `[[text|translation]]` is parsed even when vocabulary is empty.
+2. [x] **Exercise Titles**: Updated `DragDropExercise.tsx` and `MatchingExercise.tsx` to wrap titles in `TranslatedText`.
+3. [x] **Final Deployment**: Commit and push the fixes.

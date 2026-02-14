@@ -1,0 +1,128 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic: © 2026 Focus English
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: /curso/ingles-a1
+          - img [ref=e6]
+        - 'heading "Review: Unidad 1Ejercicio 1 de 50" [level=1] [ref=e9]':
+          - text: "Review: Unidad 1"
+          - generic [ref=e10]: Ejercicio 1 de 50
+      - generic [ref=e11]:
+        - button [disabled] [ref=e12]:
+          - img [ref=e13]
+        - button [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+    - main [ref=e18]:
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - generic [ref=e24]:
+              - generic [ref=e25]: A1
+              - generic [ref=e26]: multiple-choice
+              - generic [ref=e27]: Hello World!
+            - heading "Common Greetings" [level=2] [ref=e28]:
+              - generic [ref=e29]:
+                - generic [ref=e30]:
+                  - text: Common
+                  - generic:
+                    - generic: Common
+                    - text: Comunes
+                - generic [ref=e31]:
+                  - text: Greetings
+                  - generic:
+                    - generic: Greetings
+                    - text: Saludos
+            - generic [ref=e33]:
+              - generic [ref=e34]:
+                - text: Choose
+                - generic:
+                  - generic: Choose
+                  - text: Elige
+              - generic [ref=e35]:
+                - text: the
+                - generic:
+                  - generic: the
+                  - text: el
+              - generic [ref=e36]:
+                - text: correct
+                - generic:
+                  - generic: correct
+                  - text: saludo
+              - generic [ref=e37]:
+                - text: greeting
+                - generic:
+                  - generic: greeting
+                  - text: correcto
+              - generic [ref=e38]:
+                - text: for
+                - generic:
+                  - generic: for
+                  - text: para
+              - generic [ref=e39]:
+                - text: the
+                - generic:
+                  - generic: the
+                  - text: la
+              - generic [ref=e40]:
+                - text: morning
+                - generic:
+                  - generic: morning
+                  - text: mañana
+              - text: .
+          - generic [ref=e43]:
+            - generic [ref=e44]:
+              - generic [ref=e45]: Pregunta 1
+              - generic [ref=e47]:
+                - text: ¿Qué dices a las 8:00
+                - generic [ref=e48]:
+                  - text: AM
+                  - generic:
+                    - generic: AM
+                    - text: soy
+                - text: "?"
+            - generic [ref=e49]:
+              - button "A Good evening" [ref=e50] [cursor=pointer]:
+                - generic [ref=e51]:
+                  - generic [ref=e52]: A
+                  - generic [ref=e55]:
+                    - text: Good evening
+                    - generic:
+                      - generic: Good evening
+                      - text: Buenas noches
+                  - button [ref=e56]:
+                    - img [ref=e57]
+              - button "B Good morning" [ref=e61] [cursor=pointer]:
+                - generic [ref=e62]:
+                  - generic [ref=e63]: B
+                  - generic [ref=e66]:
+                    - text: Good morning
+                    - generic:
+                      - generic: Good morning
+                      - text: Buenos días
+                  - button [ref=e67]:
+                    - img [ref=e68]
+              - button "C Good night" [ref=e72] [cursor=pointer]:
+                - generic [ref=e73]:
+                  - generic [ref=e74]: C
+                  - generic [ref=e77]:
+                    - text: Good night
+                    - generic:
+                      - generic: Good night
+                      - text: Buenas noches
+                  - button [ref=e78]:
+                    - img [ref=e79]
+          - button "Verificar Respuesta" [disabled] [ref=e84]:
+            - img [ref=e85]
+            - generic [ref=e87]: Verificar Respuesta
+        - generic [ref=e89]:
+          - generic [ref=e90]: "⏱️ Tiempo estimado: minutos"
+          - generic [ref=e91]: 📅 2/14/2026
+  - button "Open Next.js Dev Tools" [ref=e97] [cursor=pointer]:
+    - img [ref=e98]
+  - alert [ref=e101]
+```

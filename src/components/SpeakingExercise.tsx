@@ -9,6 +9,7 @@ import {
   type MicrophoneError 
 } from '@/lib/utils/microphone-permission';
 import { MicrophonePermissionError, MicrophonePermissionPrompt } from '@/components/MicrophonePermission';
+import Markdown from '@/components/course/Markdown';
 
 interface SpeakingQuestion {
   id: string;
