@@ -476,7 +476,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Startup Terms",
       instructions: "Fill in the blank.",
-      question: "[[The app has a lot of ___ (potential) for growth.|La aplicación tiene mucho potencial de crecimiento.]]",
+      question: "[[The|La]] [[app|aplicación]] [[has|tiene]] [[a|mucho]] [[lot| ]] [[of| ]] [[_______|_______]] [[(potential)|(potencial)]] [[for|de]] [[growth.|crecimiento.]]",
       correctAnswer: "potential",
       explanation: "Potential means having the capacity to develop into something in the future.",
       translation: "La aplicación tiene mucho potencial de crecimiento.",
@@ -494,7 +494,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Startup Terms",
       instructions: "Fill in the blank.",
-      question: "[[We need to find our niche ___ (market).|Necesitamos encontrar nuestro nicho de mercado.]]",
+      question: "[[We|Necesitamos]] [[need| ]] [[to|encontrar]] [[find|nuestro]] [[our|nicho]] [[niche|de]] [[_______|_______]] [[(market).|mercado.]]",
       correctAnswer: "market",
       explanation: "A niche market is a specialized segment of the market.",
       translation: "Necesitamos encontrar nuestro nicho de mercado.",
@@ -512,7 +512,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Startup Terms",
       instructions: "Fill in the blank.",
-      question: "[[The startup is based in a tech ___ (incubator).|La startup tiene su sede en una incubadora tecnológica.]]",
+      question: "[[The|La]] [[startup|startup]] [[is|tiene]] [[based|su]] [[in|sede]] [[a|en]] [[tech|una]] [[_______|_______]] [[(incubator).|incubadora tecnológica.]]",
       correctAnswer: "incubator",
       explanation: "An incubator helps new startups to develop.",
       translation: "La startup tiene su sede en una incubadora tecnológica.",
@@ -530,7 +530,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Startup Terms",
       instructions: "Fill in the blank.",
-      question: "[[They developed a ___ (prototype) of the product.|Desarrollaron un prototipo del producto.]]",
+      question: "[[They|Desarrollaron]] [[developed|un]] [[a| ]] [[_______|_______]] [[(prototype)|(prototipo)]] [[of|del]] [[the| ]] [[product.|producto.]]",
       correctAnswer: "prototype",
       explanation: "A prototype is a first or preliminary model of something.",
       translation: "Desarrollaron un prototipo del producto.",
@@ -548,7 +548,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Startup Terms",
       instructions: "Fill in the blank.",
-      question: "[[The company went ___ (public) last year.|La empresa salió a bolsa el año pasado.]]",
+      question: "[[The|La]] [[company|empresa]] [[went|salió]] [[_______|_______]] [[(public)|(a bolsa)]] [[last|el]] [[year.|año pasado.]]",
       correctAnswer: "public",
       explanation: "To 'go public' means to start selling shares to the general public.",
       translation: "La empresa salió a bolsa el año pasado.",
@@ -568,8 +568,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Business Strategy",
       instructions: "Choose the correct term.",
-      question: "[[We need a solid business ___.|Necesitamos un plan de negocios sólido.]]",
-      options: ["plan", "map", "path"],
+      question: "[[We|Necesitamos]] [[need|un]] [[a|plan]] [[solid|de]] [[business|negocios]] [[_______|_______]].",
+      options: ["[[plan|plan]]", "[[map|mapa]]", "[[path|camino]]"],
       correctAnswer: "plan",
       explanation: "A business plan describes the goals and strategy of a business.",
       translation: "Necesitamos un plan de negocios sólido.",
@@ -587,8 +587,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Business Strategy",
       instructions: "Choose the correct term.",
-      question: "[[The goal is to ___ the business quickly.|El objetivo es escalar el negocio rápidamente.]]",
-      options: ["scale", "grow", "make"],
+      question: "[[The|El]] [[goal|objetivo]] [[is|es]] [[to|escalar]] [[_______|_______]] [[the|el]] [[business|negocio]] [[quickly.|rápidamente.]]",
+      options: ["[[scale|escalar]]", "[[grow|crecer]]", "[[make|hacer]]"],
       correctAnswer: "scale",
       explanation: "To scale means to grow a business in a proportional way.",
       translation: "El objetivo es escalar el negocio rápidamente.",
@@ -606,8 +606,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Business Strategy",
       instructions: "Choose the correct term.",
-      question: "[[We are trying to ___ the industry.|Estamos tratando de irrumpir en la industria.]]",
-      options: ["disrupt", "break", "change"],
+      question: "[[We|Estamos]] [[are|tratando]] [[trying|de]] [[to|irrumpir]] [[_______|_______]] [[the|en la]] [[industry.|industria.]]",
+      options: ["[[disrupt|irrumpir]]", "[[break|romper]]", "[[change|cambiar]]"],
       correctAnswer: "disrupt",
       explanation: "To disrupt an industry means to change it radically.",
       translation: "Estamos tratando de irrumpir en la industria.",
@@ -625,8 +625,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Business Strategy",
       instructions: "Choose the correct term.",
-      question: "[[Customer ___ is our top priority.|La adquisición de clientes es nuestra máxima prioridad.]]",
-      options: ["acquisition", "buying", "taking"],
+      question: "[[Customer|La adquisición]] [[_______|_______]] [[is|de clientes]] [[our|es]] [[top|nuestra]] [[priority.|máxima prioridad.]]",
+      options: ["[[acquisition|adquisición]]", "[[buying|compra]]", "[[taking|toma]]"],
       correctAnswer: "acquisition",
       explanation: "Customer acquisition is the process of getting new customers.",
       translation: "La adquisición de clientes es nuestra máxima prioridad.",
@@ -644,8 +644,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Business Strategy",
       instructions: "Choose the correct term.",
-      question: "[[We need to improve our ___ awareness.|Necesitamos mejorar nuestro reconocimiento de marca.]]",
-      options: ["brand", "name", "face"],
+      question: "[[We|Necesitamos]] [[need|mejorar]] [[to|nuestro]] [[improve|reconocimiento]] [[our|de]] [[_______|_______]] [[awareness.|marca.]]",
+      options: ["[[brand|marca]]", "[[name|nombre]]", "[[face|cara]]"],
       correctAnswer: "brand",
       explanation: "Brand awareness is how much people know about a brand.",
       translation: "Necesitamos mejorar nuestro reconocimiento de marca.",
@@ -663,8 +663,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Business Strategy",
       instructions: "Choose the correct term.",
-      question: "[[The company has a competitive ___.|La empresa tiene una ventaja competitiva.]]",
-      options: ["edge", "side", "point"],
+      question: "[[The|La]] [[company|empresa]] [[has|tiene]] [[a|una]] [[competitive|ventaja]] [[_______|_______]].",
+      options: ["[[edge|ventaja/filo]]", "[[side|lado]]", "[[point|punto]]"],
       correctAnswer: "edge",
       explanation: "A competitive edge is an advantage over competitors.",
       translation: "La empresa tiene una ventaja competitiva.",
@@ -682,8 +682,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Business Strategy",
       instructions: "Choose the correct term.",
-      question: "[[We are looking for a strategic ___.|Estamos buscando una asociación estratégica.]]",
-      options: ["partnership", "friendship", "link"],
+      question: "[[We|Estamos]] [[are|buscando]] [[looking|una]] [[for|asociación]] [[a|estratégica.]] [[strategic| ]] [[_______|_______]].",
+      options: ["[[partnership|asociación]]", "[[friendship|amistad]]", "[[link|enlace]]"],
       correctAnswer: "partnership",
       explanation: "A strategic partnership is a collaboration between two companies.",
       translation: "Estamos buscando una asociación estratégica.",
@@ -701,8 +701,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Business Strategy",
       instructions: "Choose the correct term.",
-      question: "[[Our ___ has increased by 20%.|Nuestros ingresos han aumentado un 20%.]]",
-      options: ["revenue", "money", "cash"],
+      question: "[[Our|Nuestros]] [[_______|_______]] [[has|ingresos]] [[increased|han]] [[by|aumentado]] [[20%.|un 20%.]]",
+      options: ["[[revenue|ingresos]]", "[[money|dinero]]", "[[cash|efectivo]]"],
       correctAnswer: "revenue",
       explanation: "Revenue is the total income produced by a business.",
       translation: "Nuestros ingresos han aumentado un 20%.",
@@ -720,8 +720,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Business Strategy",
       instructions: "Choose the correct term.",
-      question: "[[The ___ margin is quite low.|El margen de beneficio es bastante bajo.]]",
-      options: ["profit", "gain", "win"],
+      question: "[[The|El]] [[_______|_______]] [[margin|margen]] [[is|de beneficio]] [[quite|es]] [[low.|bastante bajo.]]",
+      options: ["[[profit|beneficio]]", "[[gain|ganancia]]", "[[win|victoria]]"],
       correctAnswer: "profit",
       explanation: "Profit is the amount of money made after costs.",
       translation: "El margen de beneficio es bastante bajo.",
@@ -739,8 +739,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Business Strategy",
       instructions: "Choose the correct term.",
-      question: "[[We need to ___ our strategy.|Necesitamos pivotar nuestra estrategia.]]",
-      options: ["pivot", "turn", "move"],
+      question: "[[We|Necesitamos]] [[need|pivotar]] [[to|nuestra]] [[_______|_______]] [[our| ]] [[strategy.|estrategia.]]",
+      options: ["[[pivot|pivotar]]", "[[turn|girar]]", "[[move|mover]]"],
       correctAnswer: "pivot",
       explanation: "To pivot means to change direction in business strategy.",
       translation: "Necesitamos pivotar nuestra estrategia.",
@@ -760,7 +760,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[The ___ (ENTREPRENEUR) spirit is strong here.|El espíritu emprendedor es fuerte aquí.]]",
+      question: "[[The|El]] [[_______|_______]] [[(ENTREPRENEUR)|(emprendedor)]] [[spirit|espíritu]] [[is|es]] [[strong|fuerte]] [[here.|aquí.]]",
       correctAnswer: "entrepreneurial",
       explanation: "Adjective form of 'entrepreneur'.",
       translation: "El espíritu emprendedor es fuerte aquí.",
@@ -778,7 +778,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[We are looking for ___ (INNOVATE) solutions.|Estamos buscando soluciones innovadoras.]]",
+      question: "[[We|Estamos]] [[are|buscando]] [[looking| ]] [[for| ]] [[_______|_______]] [[(INNOVATE)|(innovadoras)]] [[solutions.|soluciones.]]",
       correctAnswer: "innovative",
       explanation: "Adjective form of 'innovate'.",
       translation: "Estamos buscando soluciones innovadoras.",
@@ -796,7 +796,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[The ___ (INVEST) was a huge success.|La inversión fue un gran éxito.]]",
+      question: "[[The|La]] [[_______|_______]] [[(INVEST)|(inversión)]] [[was|fue]] [[a|un]] [[huge|gran]] [[success.|éxito.]]",
       correctAnswer: "investment",
       explanation: "Noun form of 'invest'.",
       translation: "La inversión fue un gran éxito.",
@@ -814,7 +814,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[There is a lot of ___ (COMPETE) in the market.|Hay mucha competencia en el mercado.]]",
+      question: "[[There|Hay]] [[is|mucha]] [[a| ]] [[lot| ]] [[of| ]] [[_______|_______]] [[(COMPETE)|(competencia)]] [[in|en]] [[the|el]] [[market.|mercado.]]",
       correctAnswer: "competition",
       explanation: "Noun form of 'compete'.",
       translation: "Hay mucha competencia en el mercado.",
@@ -832,7 +832,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[The ___ (GROWTH) of the company was rapid.|El crecimiento de la empresa fue rápido.]]",
+      question: "[[The|El]] [[_______|_______]] [[(GROWTH)|(crecimiento)]] [[of|de]] [[the|la]] [[company|empresa]] [[was|fue]] [[rapid.|rápido.]]",
       correctAnswer: "growth",
       explanation: "Noun form of 'grow' (provided as GROWTH in brackets, but sometimes asked to transform GROW).",
       translation: "El crecimiento de la empresa fue rápido.",
@@ -850,7 +850,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[He is a very ___ (AMBIT) founder.|Es un fundador muy ambicioso.]]",
+      question: "[[He|Es]] [[is|un]] [[a|fundador]] [[very|muy]] [[_______|_______]] [[(AMBIT)|(ambicioso)]] [[founder.|.]]",
       correctAnswer: "ambitious",
       explanation: "Adjective form of 'ambition'.",
       translation: "Es un fundador muy ambicioso.",
@@ -868,7 +868,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[The ___ (PROFIT) of the venture is unclear.|La rentabilidad del proyecto no está clara.]]",
+      question: "[[The|La]] [[_______|_______]] [[(PROFIT)|(rentabilidad)]] [[of|del]] [[the|proyecto]] [[venture|no]] [[is|está]] [[unclear.|clara.]]",
       correctAnswer: "profitability",
       explanation: "The state of being profitable.",
       translation: "La rentabilidad del proyecto no está clara.",
@@ -886,7 +886,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[We need to improve our ___ (MARKET) strategy.|Necesitamos mejorar nuestra estrategia de marketing.]]",
+      question: "[[We|Necesitamos]] [[need|mejorar]] [[to|nuestra]] [[improve|estrategia]] [[our|de]] [[_______|_______]] [[(MARKET)|(marketing)]] [[strategy.|.]]",
       correctAnswer: "marketing",
       explanation: "The action of promoting and selling products.",
       translation: "Necesitamos mejorar nuestra estrategia de marketing.",
@@ -904,7 +904,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[The ___ (PRODUCT) of the team is impressive.|La productividad del equipo es impresionante.]]",
+      question: "[[The|La]] [[_______|_______]] [[(PRODUCT)|(productividad)]] [[of|del]] [[the|equipo]] [[team|es]] [[is|impresionante.]] [[impressive.| ]]",
       correctAnswer: "productivity",
       explanation: "The effectiveness of productive effort.",
       translation: "La productividad del equipo es impresionante.",
@@ -922,7 +922,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[She showed great ___ (LEAD) in the crisis.|Mostró un gran liderazgo en la crisis.]]",
+      question: "[[She|Mostró]] [[showed|un]] [[great|gran]] [[_______|_______]] [[(LEAD)|(liderazgo)]] [[in|en]] [[the|la]] [[crisis.|crisis.]]",
       correctAnswer: "leadership",
       explanation: "The action of leading a group.",
       translation: "Mostró un gran liderazgo en la crisis.",
