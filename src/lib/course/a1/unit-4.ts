@@ -89,26 +89,6 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u4-e5',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Rooms',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: House',
-      instructions: 'Di la palabra para "casa".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'House',
-          correctAnswer: 'House',
-          explanation: 'La "h" inicial se pronuncia aspirando aire, como si empañaras un cristal.'
-        }
-      ]
-    }
-  },
-  {
     id: 'a1-u4-e6',
     type: 'matching',
     level: 'A1',
@@ -227,26 +207,6 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           options: ['garden', 'kitchen', 'house'],
           correctAnswer: 0,
           explanation: '"Garden" es jardín. Si es muy grande, a veces se le llama "yard" en EE.UU.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u4-e12',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Rooms',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Kitchen',
-      instructions: 'Di la palabra para "cocina".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Kitchen',
-          correctAnswer: 'Kitchen',
-          explanation: 'Asegúrate de marcar bien la "t" silenciosa y la "ch" final.'
         }
       ]
     }
@@ -375,26 +335,6 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u4-e19',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Rooms',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Bathroom',
-      instructions: 'Di la palabra para "baño".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Bathroom',
-          correctAnswer: 'Bathroom',
-          explanation: 'La "th" se pronuncia colocando la punta de la lengua entre los dientes delanteros.'
-        }
-      ]
-    }
-  },
-  {
     id: 'a1-u4-e20',
     type: 'matching',
     level: 'A1',
@@ -513,26 +453,6 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           options: ['window', 'door', 'wall'],
           correctAnswer: 0,
           explanation: '"Window" es la traducción correcta.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u4-e26',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Furniture',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Chair',
-      instructions: 'Di la palabra para "silla".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Chair',
-          correctAnswer: 'Chair',
-          explanation: 'La "ch" suena como "ch" en chocolate, y la "air" como el aire que respiras.'
         }
       ]
     }
@@ -661,26 +581,6 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u4-e33',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'House',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Window',
-      instructions: 'Di la palabra para "ventana".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Window',
-          correctAnswer: 'Window',
-          explanation: 'La primera sílaba "win" se marca más que la segunda "dow".'
-        }
-      ]
-    }
-  },
-  {
     id: 'a1-u4-e34',
     type: 'matching',
     level: 'A1',
@@ -804,26 +704,6 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u4-e40',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'House',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Floor',
-      instructions: 'Di la palabra para "suelo".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Floor',
-          correctAnswer: 'Floor',
-          explanation: 'La "fl" es suave y la "o" es alargada.'
-        }
-      ]
-    }
-  },
-  {
     id: 'a1-u4-e41',
     type: 'matching',
     level: 'A1',
@@ -942,26 +822,6 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           options: ['small', 'big', 'new'],
           correctAnswer: 0,
           explanation: '"Small" significa pequeño.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u4-e47',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'House',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Mirror',
-      instructions: 'Di la palabra para "espejo".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Mirror',
-          correctAnswer: 'Mirror',
-          explanation: 'Las "r" en inglés son más suaves y no vibran como en español.'
         }
       ]
     }
