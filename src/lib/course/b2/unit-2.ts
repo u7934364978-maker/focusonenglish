@@ -1054,7 +1054,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que describe la duración.",
       "questions": [
         {
-          "question": "[[The|La]] [[new|nueva]] [[battery|batería]] [[_______|_______]] [[twice|el doble]] [[as|que]] [[long|la]] [[as| ]] [[the| ]] [[old| ]] [[one.|antigua.]]",
+          "question": "[[The|La]] [[new|nueva]] [[battery|batería]] [[_______|_______]] [[twice|el doble]] [[as| ]] [[long| ]] [[as|que]] [[the|la]] [[old|antigua]] [[one.|.]]",
           "options": [
             "[[lasts|dura]]",
             "[[goes|va]]",
@@ -1189,7 +1189,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra de inversión correcta.",
       "questions": [
         {
-          "question": "[[No|Apenas]] [[sooner| ]] [[_______|_______]] [[we|empezado]] [[started|la]] [[the|prueba]] [[test|cuando]] [[than|se]] [[the|fue]] [[power|la]] [[went|luz.]] [[out.| ]]",
+          "question": "[[No|Apenas]] [[sooner| ]] [[_______|_______]] [[we|habíamos]] [[started|empezado]] [[the|la]] [[test|prueba]] [[than|cuando]] [[the|la]] [[power|luz]] [[went|se]] [[out.|fue.]]",
           "options": [
             "[[had we|habíamos]]",
             "[[did we|hicimos]]",
@@ -1351,7 +1351,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector condicional correcto.",
       "questions": [
         {
-          "question": "[[_______|_______]] [[that|que]] [[the|el]] [[weather|tiempo]] [[is|sea]] [[good,|bueno,]] [[the|el]] [[launch|lanzamiento]] [[will|procederá.]] [[proceed.| ]]",
+          "question": "[[_______|_______]] [[that|que]] [[the|el]] [[weather|tiempo]] [[is|sea]] [[good,|bueno,]] [[the|el]] [[launch|lanzamiento]] [[will| ]] [[proceed.|procederá.]]",
           "options": [
             "[[Providing|Siempre que]]",
             "[[Unless|A menos que]]",
@@ -1405,11 +1405,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta tras 'would rather'.",
       "questions": [
         {
-          "question": "[[I'd|Preferiría]] [[rather|que]] [[you|no]] [[_______|_______]] [[those|esos]] [[settings.|ajustes.]]",
+          "question": "[[I'd|Preferiría]] [[rather|que]] [[you| ]] [[_______|_______]] [[those|esos]] [[settings.|ajustes.]]",
           "options": [
-            "[[didn't touch|tocaras]]",
-            "[[don't touch|toques]]",
-            "[[not touch|tocar]]"
+            "[[didn't touch|no tocaras]]",
+            "[[don't touch|no toques]]",
+            "[[not touch|no tocar]]"
           ],
           "correctAnswer": 0,
           "explanation": "Use past simple after 'would rather' for a preference about another person's action.",

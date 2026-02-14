@@ -386,7 +386,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Economic Terms",
       instructions: "Fill in the blank.",
-      question: "[[The country is currently in a ___ (recession).|El país se encuentra actualmente en recesión.]]",
+      question: "[[The|El]] [[country|país]] [[is|se encuentra]] [[currently|actualmente]] [[in|en]] [[a|una]] [[___ (recession).|recesión.]]",
       correctAnswer: "recession",
       explanation: "A recession is a period of temporary economic decline.",
       translation: "El país se encuentra actualmente en recesión.",
@@ -404,7 +404,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Economic Terms",
       instructions: "Fill in the blank.",
-      question: "[[The ___ (inflation) rate has reached 5%.|La tasa de inflación ha alcanzado el 5%.]]",
+      question: "[[The|La]] [[___ (inflation)|tasa de inflación]] [[rate| ]] [[has|ha]] [[reached|alcanzado]] [[5%.|el 5%.]]",
       correctAnswer: "inflation",
       explanation: "Inflation is the rate at which the general level of prices is rising.",
       translation: "La tasa de inflación ha alcanzado el 5%.",
@@ -422,7 +422,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Economic Terms",
       instructions: "Fill in the blank.",
-      question: "[[We have seen a ___ (growth) in GDP.|Hemos visto un crecimiento en el PIB.]]",
+      question: "[[We|Nosotros]] [[have|hemos]] [[seen|visto]] [[a|un]] [[___ (growth)|crecimiento]] [[in|en]] [[GDP.|el PIB.]]",
       correctAnswer: "growth",
       explanation: "Growth refers to an increase in economic activity.",
       translation: "Hemos visto un crecimiento en el PIB.",
@@ -440,7 +440,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Economic Terms",
       instructions: "Fill in the blank.",
-      question: "[[The ___ (unemployment) rate is falling.|La tasa de desempleo está bajando.]]",
+      question: "[[The|La]] [[___ (unemployment)|tasa de desempleo]] [[rate| ]] [[is|está]] [[falling.|bajando.]]",
       correctAnswer: "unemployment",
       explanation: "Unemployment is the state of not having a job.",
       translation: "La tasa de desempleo está bajando.",
@@ -458,7 +458,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Economic Terms",
       instructions: "Fill in the blank.",
-      question: "[[The stock ___ (market) is very volatile.|El mercado de valores es muy volátil.]]",
+      question: "[[The|El]] [[stock|mercado]] [[___ (market)|de valores]] [[is|es]] [[very|muy]] [[volatile.|volátil.]]",
       correctAnswer: "market",
       explanation: "The stock market is where shares of companies are traded.",
       translation: "El mercado de valores es muy volátil.",
@@ -476,7 +476,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Economic Terms",
       instructions: "Fill in the blank.",
-      question: "[[Governments are worried about the national ___ (debt).|Los gobiernos están preocupados por la deuda nacional.]]",
+      question: "[[Governments|Los gobiernos]] [[are|están]] [[worried|preocupados]] [[about|por]] [[the|la]] [[national|deuda]] [[___ (debt).|nacional.]]",
       correctAnswer: "debt",
       explanation: "National debt is the total amount of money a country's government has borrowed.",
       translation: "Los gobiernos están preocupados por la deuda nacional.",
@@ -494,7 +494,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Economic Terms",
       instructions: "Fill in the blank.",
-      question: "[[___ (Interest) rates have increased again.|Las tasas de interés han vuelto a subir.]]",
+      question: "[[___ (Interest)|Las tasas de interés]] [[rates| ]] [[have|han]] [[increased|vuelto a subir.]] [[again.| ]]",
       correctAnswer: "Interest",
       explanation: "Interest rates are the percentage of a loan that is charged as interest to the borrower.",
       translation: "Las tasas de interés han vuelto a subir.",
@@ -512,7 +512,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Economic Terms",
       instructions: "Fill in the blank.",
-      question: "[[The ___ (standard) of living is improving.|El nivel de vida está mejorando.]]",
+      question: "[[The|El]] [[___ (standard)|nivel]] [[of|de]] [[living|vida]] [[is|está]] [[improving.|mejorando.]]",
       correctAnswer: "standard",
       explanation: "Standard of living is the level of wealth, comfort, and services available to a person or group.",
       translation: "El nivel de vida está mejorando.",
@@ -530,7 +530,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Economic Terms",
       instructions: "Fill in the blank.",
-      question: "[[___ (Fiscal) policy is used to control the economy.|La política fiscal se utiliza para controlar la economía.]]",
+      question: "[[___ (Fiscal)|La política fiscal]] [[policy| ]] [[is|se]] [[used|utiliza]] [[to|para]] [[control|controlar]] [[the|la]] [[economy.|economía.]]",
       correctAnswer: "Fiscal",
       explanation: "Fiscal policy refers to the use of government spending and tax policies to influence economic conditions.",
       translation: "La política fiscal se utiliza para controlar la economía.",
@@ -548,7 +548,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Economic Terms",
       instructions: "Fill in the blank.",
-      question: "[[The ___ (currency) has weakened against the dollar.|La moneda se ha debilitado frente al dólar.]]",
+      question: "[[The|La]] [[___ (currency)|moneda]] [[has|se ha]] [[weakened|debilitado]] [[against|frente]] [[the|al]] [[dollar.|dólar.]]",
       correctAnswer: "currency",
       explanation: "A currency is a system of money in general use in a particular country.",
       translation: "La moneda se ha debilitado frente al dólar.",
@@ -568,11 +568,11 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Globalization",
       instructions: "Choose the correct term.",
-      question: "[[___ has led to more competition and global interconnectedness.|La globalización ha llevado a más competencia.]]",
+      question: "[[___|La globalización]] [[has|ha]] [[led|llevado]] [[to|a]] [[more|más]] [[competition|competencia]] [[and|y]] [[global|interconexión]] [[interconnectedness.|global.]]",
       options: ["Globalization", "Localization", "Nationalization"],
       correctAnswer: "Globalization",
       explanation: "Globalization is the process by which businesses or other organizations develop international influence.",
-      translation: "La globalización ha llevado a más competencia.",
+      translation: "La globalización ha llevado a más competencia e interconexión global.",
       hint: "Global interconnectedness."
     },
     topicName: "Vocabulary"
@@ -587,11 +587,11 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Globalization",
       instructions: "Choose the correct term.",
-      question: "[[We need a ___ trade agreement to reduce tariffs.|Necesitamos un acuerdo de libre comercio.]]",
+      question: "[[We|Necesitamos]] [[need|un]] [[a|acuerdo de]] [[___|libre]] [[trade|comercio]] [[agreement| ]] [[to|para]] [[reduce|reducir]] [[tariffs.|aranceles.]]",
       options: ["free", "open", "clear"],
       correctAnswer: "free",
       explanation: "A free trade agreement is a pact between countries to reduce or eliminate barriers to trade.",
-      translation: "Necesitamos un acuerdo de libre comercio.",
+      translation: "Necesitamos un acuerdo de libre comercio para reducir los aranceles.",
       hint: "No trade barriers."
     },
     topicName: "Vocabulary"
@@ -606,11 +606,11 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Globalization",
       instructions: "Choose the correct term.",
-      question: "[[The ___ chain was disrupted due to the crisis.|La cadena de suministro se interrumpió.]]",
+      question: "[[The|La]] [[___|cadena de suministro]] [[chain| ]] [[was|se]] [[disrupted|interrumpió]] [[due|debido]] [[to|a]] [[the|la]] [[crisis.|crisis.]]",
       options: ["supply", "fast", "long"],
       correctAnswer: "supply",
       explanation: "A supply chain is the sequence of processes involved in the production and distribution of a commodity.",
-      translation: "La cadena de suministro se interrumpió.",
+      translation: "La cadena de suministro se interrumpió debido a la crisis.",
       hint: "Production/distribution sequence."
     },
     topicName: "Vocabulary"
@@ -625,11 +625,11 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Globalization",
       instructions: "Choose the correct term.",
-      question: "[[He works for a ___ corporation with offices in 20 countries.|Trabaja para una corporación multinacional.]]",
+      question: "[[He|Él]] [[works|trabaja]] [[for|para]] [[a|una]] [[___|corporación multinacional]] [[corporation| ]] [[with|con]] [[offices|oficinas]] [[in|en]] [[20|20]] [[countries.|países.]]",
       options: ["multinational", "big", "global"],
       correctAnswer: "multinational",
       explanation: "A multinational corporation has facilities and other assets in at least one country other than its home country.",
-      translation: "Trabaja para una corporación multinacional.",
+      translation: "Él trabaja para una corporación multinacional con oficinas en 20 países.",
       hint: "Operating in many nations."
     },
     topicName: "Vocabulary"
@@ -644,11 +644,11 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Globalization",
       instructions: "Choose the correct term.",
-      question: "[[___ can reduce costs by moving tasks to other countries.|La subcontratación puede reducir los costes.]]",
+      question: "[[___|La subcontratación]] [[can|puede]] [[reduce|reducir]] [[costs|los costes]] [[by| ]] [[moving|al trasladar]] [[tasks|tareas]] [[to|a]] [[other|otros]] [[countries.|países.]]",
       options: ["Outsourcing", "In-sourcing", "Buying"],
       correctAnswer: "Outsourcing",
       explanation: "Outsourcing is obtaining goods or a service from an outside or foreign supplier.",
-      translation: "La subcontratación puede reducir los costes.",
+      translation: "La subcontratación puede reducir los costes al trasladar tareas a otros países.",
       hint: "Using foreign suppliers."
     },
     topicName: "Vocabulary"
@@ -663,11 +663,11 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Globalization",
       instructions: "Choose the correct term.",
-      question: "[[___ markets are growing fast and attracting investors.|Los mercados emergentes están creciendo rápido.]]",
+      question: "[[___|Los mercados emergentes]] [[markets| ]] [[are|están]] [[growing|creciendo]] [[fast|rápido]] [[and|y]] [[attracting|atrayendo]] [[investors.|inversores.]]",
       options: ["Emerging", "Growing", "New"],
       correctAnswer: "Emerging",
       explanation: "An emerging market is the economy of a developing nation that is becoming more engaged with global markets.",
-      translation: "Los mercados emergentes están creciendo rápido.",
+      translation: "Los mercados emergentes están creciendo rápido y atrayendo inversores.",
       hint: "Developing economies."
     },
     topicName: "Vocabulary"
@@ -682,11 +682,11 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Globalization",
       instructions: "Choose the correct term.",
-      question: "[[We need to reduce trade ___ to encourage commerce.|Necesitamos reducir las barreras comerciales.]]",
+      question: "[[We|Necesitamos]] [[need|reducir]] [[to| ]] [[reduce|las]] [[trade|barreras]] [[___|comerciales]] [[to|para]] [[encourage|fomentar el]] [[commerce.|comercio.]]",
       options: ["barriers", "walls", "doors"],
       correctAnswer: "barriers",
       explanation: "Trade barriers are government-induced restrictions on international trade.",
-      translation: "Necesitamos reducir las barreras comerciales.",
+      translation: "Necesitamos reducir las barreras comerciales para fomentar el comercio.",
       hint: "Obstacles to trade."
     },
     topicName: "Vocabulary"
@@ -701,11 +701,11 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Globalization",
       instructions: "Choose the correct term.",
-      question: "[[The ___ tax has increased, making foreign goods more expensive.|El impuesto de importación ha aumentado.]]",
+      question: "[[The|El]] [[___|impuesto de importación]] [[tax| ]] [[has|ha]] [[increased,|aumentado,]] [[making|haciendo que]] [[foreign|los productos extranjeros]] [[goods| ]] [[more|sean más]] [[expensive.|caros.]]",
       options: ["import", "input", "buy"],
       correctAnswer: "import",
       explanation: "An import tax is a tax collected on goods brought in from another country.",
-      translation: "El impuesto de importación ha aumentado.",
+      translation: "El impuesto de importación ha aumentado, haciendo que los productos extranjeros sean más caros.",
       hint: "Tax on goods from abroad."
     },
     topicName: "Vocabulary"
@@ -720,11 +720,11 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Globalization",
       instructions: "Choose the correct term.",
-      question: "[[___ have reached an all-time high this year.|Las exportaciones han alcanzado un máximo histórico.]]",
+      question: "[[___|Las exportaciones]] [[have|han]] [[reached|alcanzado]] [[an|un]] [[all-time|máximo]] [[high|histórico]] [[this|este]] [[year.|año.]]",
       options: ["Exports", "Outputs", "Sales"],
       correctAnswer: "Exports",
       explanation: "Exports are goods or services sent to another country for sale.",
-      translation: "Las exportaciones han alcanzado un máximo histórico.",
+      translation: "Las exportaciones han alcanzado un máximo histórico este año.",
       hint: "Goods sent abroad."
     },
     topicName: "Vocabulary"
@@ -739,11 +739,11 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Globalization",
       instructions: "Choose the correct term.",
-      question: "[[Digital technology helps us live in a ___ world.|Vivimos en un mundo sin fronteras.]]",
+      question: "[[Digital|La tecnología]] [[technology|digital]] [[helps|nos ayuda a]] [[us|vivir]] [[live|en]] [[in|un]] [[a|mundo]] [[___|sin fronteras.]] [[world.| ]]",
       options: ["borderless", "limitless", "free"],
       correctAnswer: "borderless",
       explanation: "A borderless world is one where information and commerce move freely without physical or digital restrictions.",
-      translation: "Vivimos en un mundo sin fronteras.",
+      translation: "La tecnología digital nos ayuda a vivir en un mundo sin fronteras.",
       hint: "Without borders."
     },
     topicName: "Vocabulary"

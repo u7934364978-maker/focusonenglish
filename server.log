@@ -9,14 +9,125 @@
  Detected additional lockfiles: 
    * /Users/lidia/Documents/focusonenglish/focusonenglish/package-lock.json
 
- ⨯ Failed to start server
-Error: listen EADDRINUSE: address already in use :::5436
-    at <unknown> (Error: listen EADDRINUSE: address already in use :::5436)
-    at new Promise (<anonymous>) {
-  code: 'EADDRINUSE',
-  errno: -48,
-  syscall: 'listen',
-  address: '::',
-  port: 5436
-}
+   ▲ Next.js 15.5.11
+   - Local:        http://localhost:5436
+   - Network:      http://172.20.10.3:5436
+   - Environments: .env
+
+ ✓ Starting...
+ ⚠ Mismatching @next/swc version, detected: 15.5.7 while Next.js is on 15.5.11. Please ensure these match
+ ✓ Ready in 1545ms
+ ✓ Compiled /middleware in 164ms (164 modules)
+ ○ Compiling /debug/b2-preview/[unitId] ...
+ ⨯ ./src/lib/course/b2/unit-15.ts
+Error:   [31mx[0m Expected ',', got 'I'
+    ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b2/unit-15.ts[0m:15:1]
+ [2m12[0m |     content: {
+ [2m13[0m |       title: "Reported Speech: Statements",
+ [2m14[0m |       instructions: "Choose the correct backshifted form.",
+ [2m15[0m |       question: "[[\|\]]"I am busy,\" he said. -> He said that he ___ busy.",
+    : [35;1m                         ^[0m
+ [2m16[0m |       options: ["was", "is", "be"],
+ [2m17[0m |       correctAnswer: "was",
+ [2m18[0m |       explanation: "Present simple 'am' shifts to past simple 'was' in reported speech.",
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/lib/course/b2/unit-15.ts
+./src/lib/course/b2/index.ts
+./src/app/debug/b2-preview/[unitId]/page.tsx
+ ⨯ ./src/lib/course/b2/unit-15.ts
+Error:   [31mx[0m Expected ',', got 'I'
+    ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b2/unit-15.ts[0m:15:1]
+ [2m12[0m |     content: {
+ [2m13[0m |       title: "Reported Speech: Statements",
+ [2m14[0m |       instructions: "Choose the correct backshifted form.",
+ [2m15[0m |       question: "[[\|\]]"I am busy,\" he said. -> He said that he ___ busy.",
+    : [35;1m                         ^[0m
+ [2m16[0m |       options: ["was", "is", "be"],
+ [2m17[0m |       correctAnswer: "was",
+ [2m18[0m |       explanation: "Present simple 'am' shifts to past simple 'was' in reported speech.",
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/lib/course/b2/unit-15.ts
+./src/lib/course/b2/index.ts
+./src/app/debug/b2-preview/[unitId]/page.tsx
+ ⨯ ./src/lib/course/b2/unit-15.ts
+Error:   [31mx[0m Expected ',', got 'I'
+    ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b2/unit-15.ts[0m:15:1]
+ [2m12[0m |     content: {
+ [2m13[0m |       title: "Reported Speech: Statements",
+ [2m14[0m |       instructions: "Choose the correct backshifted form.",
+ [2m15[0m |       question: "[[\|\]]"I am busy,\" he said. -> He said that he ___ busy.",
+    : [35;1m                         ^[0m
+ [2m16[0m |       options: ["was", "is", "be"],
+ [2m17[0m |       correctAnswer: "was",
+ [2m18[0m |       explanation: "Present simple 'am' shifts to past simple 'was' in reported speech.",
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/lib/course/b2/unit-15.ts
+./src/lib/course/b2/index.ts
+./src/app/debug/b2-preview/[unitId]/page.tsx
+ HEAD /debug/b2-preview/unit-2 500 in 7167ms
+ ⨯ ./src/lib/course/b2/unit-15.ts
+Error:   [31mx[0m Expected ',', got 'I'
+    ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/lib/course/b2/unit-15.ts[0m:15:1]
+ [2m12[0m |     content: {
+ [2m13[0m |       title: "Reported Speech: Statements",
+ [2m14[0m |       instructions: "Choose the correct backshifted form.",
+ [2m15[0m |       question: ""I am busy,\" he said. -> He said that he ___ busy.",
+    : [35;1m                  ^[0m
+ [2m16[0m |       options: ["was", "is", "be"],
+ [2m17[0m |       correctAnswer: "was",
+ [2m18[0m |       explanation: "Present simple 'am' shifts to past simple 'was' in reported speech.",
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/lib/course/b2/unit-15.ts
+./src/lib/course/b2/index.ts
+./src/app/debug/b2-preview/[unitId]/page.tsx
+ HEAD /debug/b2-preview/unit-2 500 in 23ms
+ ✓ Compiled /_error in 1249ms (2761 modules)
+Supabase Browser Client Initializing with URL: https://nprqtjljoekoirlrjxlh.supabase.co
+ HEAD /debug/b2-preview/unit-2 200 in 1287ms
+ ✓ Compiled in 1109ms (2662 modules)
+ ✓ Compiled in 885ms (1385 modules)
+ ✓ Compiled in 953ms (1277 modules)
+ ✓ Compiled in 1122ms (1277 modules)
+ ✓ Compiled in 701ms (1277 modules)
+ ✓ Compiled in 802ms (1277 modules)
+ ✓ Compiled in 592ms (1277 modules)
+ ✓ Compiled in 733ms (1277 modules)
+ ✓ Compiled in 677ms (1277 modules)
+ ✓ Compiled in 592ms (1277 modules)
+ ✓ Compiled in 716ms (1277 modules)
+ ✓ Compiled in 705ms (1277 modules)
+ ✓ Compiled in 587ms (1277 modules)
+ ✓ Compiled in 731ms (1277 modules)
+ ✓ Compiled in 880ms (1277 modules)
+ ✓ Compiled in 797ms (1277 modules)
+ ✓ Compiled in 866ms (1277 modules)
+ ✓ Compiled in 806ms (1277 modules)
+ ✓ Compiled in 947ms (1277 modules)
+ ✓ Compiled in 879ms (1277 modules)
+ ✓ Compiled in 880ms (1277 modules)
+ ✓ Compiled in 990ms (1277 modules)
+ ✓ Compiled in 870ms (1277 modules)
+ ✓ Compiled in 1022ms (1277 modules)
+ ✓ Compiled in 991ms (1277 modules)
+ ✓ Compiled in 854ms (1277 modules)
 [?25h
