@@ -108,27 +108,6 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u18-e6',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Anatomy',
-    topicName: 'Body Parts',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Face',
-      instructions: 'Di la palabra para "cara".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Face',
-          phonetic: '/feɪs/',
-          translation: 'Cara',
-          explanation: 'La "a" suena como "ei" y la "c" como una "s".'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u18-e7',
     type: 'matching',
     level: 'A1',
@@ -287,27 +266,6 @@ export const UNIT_18_EXERCISES: Exercise[] = [
           question: 'My left ________ hurts.',
           correctAnswer: 'foot',
           explanation: '"Foot" es pie. El plural es irregular: "feet".'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u18-e15',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Anatomy',
-    topicName: 'Body Parts',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Knee',
-      instructions: 'Di la palabra para "rodilla".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Knee',
-          phonetic: '/niː/',
-          translation: 'Rodilla',
-          explanation: 'La "k" es muda, solo se pronuncia el sonido "ni".'
         }
       ]
     } as any
@@ -476,27 +434,6 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u18-e24',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Anatomy',
-    topicName: 'Body Parts',
-    difficulty: 'hard',
-    content: {
-      title: 'Pronunciación: Heart',
-      instructions: 'Di la palabra para "corazón".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Heart',
-          phonetic: '/hɑːrt/',
-          translation: 'Corazón',
-          explanation: 'Suena parecido a "art" (arte) con una "h" aspirada al principio.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u18-e25',
     type: 'matching',
     level: 'A1',
@@ -660,27 +597,6 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u18-e33',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Anatomy',
-    topicName: 'Body Parts',
-    difficulty: 'hard',
-    content: {
-      title: 'Pronunciación: Tongue',
-      instructions: 'Di la palabra para "lengua".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Tongue',
-          phonetic: '/tʌŋ/',
-          translation: 'Lengua',
-          explanation: 'La terminación "gue" es muda, solo suena el sonido "ng".'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u18-e34',
     type: 'matching',
     level: 'A1',
@@ -839,27 +755,6 @@ export const UNIT_18_EXERCISES: Exercise[] = [
           question: 'The ________ is in the middle of the leg.',
           answer: 'knee',
           explanation: 'La rodilla es la articulación central de la pierna.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u18-e42',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Anatomy',
-    topicName: 'Body Parts',
-    difficulty: 'hard',
-    content: {
-      title: 'Pronunciación: Shoulder',
-      instructions: 'Di la palabra para "hombro".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Shoulder',
-          phonetic: '/ˈʃoʊl.dər/',
-          translation: 'Hombro',
-          explanation: 'Empieza con el sonido "sh" suave.'
         }
       ]
     } as any
