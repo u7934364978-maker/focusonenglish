@@ -1,1040 +1,728 @@
 import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_25_EXERCISES: Exercise[] = [
-  // --- SUB-TOPIC 1: Biographies & Fame (1-12) ---
   {
-    id: 'a2-u25-e1',
-    type: 'flashcard',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'easy',
-    content: {
-      items: [
+    "id": "a2-u25-e1",
+    "type": "flashcard",
+    "level": "A2",
+    "topic": "Childhood & School Days",
+    "difficulty": "medium",
+    "transcript": "Childhood. Primary school. Toy. Game. Friend. Teacher. Subject. Drawing. Playground. Memory. Grow up. Young. Little. Best friend. Hobby",
+    "content": {
+      "title": "Vocabulario Clave",
+      "instructions": "Aprende las palabras más importantes de la unidad.",
+      "items": [
         {
-          front: 'Famoso',
-          back: 'Famous',
-          example: 'He is a very famous actor.',
-          pronunciation: '/ˈfeɪməs/',
-          explanation: 'Conocido por muchas personas.'
+          "front": "[[Childhood|Infancia]]",
+          "back": "Infancia"
+        },
+        {
+          "front": "[[Primary school|Escuela primaria]]",
+          "back": "Escuela primaria"
+        },
+        {
+          "front": "[[Toy|Juguete]]",
+          "back": "Juguete"
+        },
+        {
+          "front": "[[Game|Juego]]",
+          "back": "Juego"
+        },
+        {
+          "front": "[[Friend|Amigo/a]]",
+          "back": "Amigo/a"
+        },
+        {
+          "front": "[[Teacher|Profesor/a]]",
+          "back": "Profesor/a"
+        },
+        {
+          "front": "[[Subject|Asignatura]]",
+          "back": "Asignatura"
+        },
+        {
+          "front": "[[Drawing|Dibujo]]",
+          "back": "Dibujo"
+        },
+        {
+          "front": "[[Playground|Patio de recreo]]",
+          "back": "Patio de recreo"
+        },
+        {
+          "front": "[[Memory|Recuerdo]]",
+          "back": "Recuerdo"
+        },
+        {
+          "front": "[[Grow up|Crecer]]",
+          "back": "Crecer"
+        },
+        {
+          "front": "[[Young|Joven]]",
+          "back": "Joven"
+        },
+        {
+          "front": "[[Little|Pequeño/a]]",
+          "back": "Pequeño/a"
+        },
+        {
+          "front": "[[Best friend|Mejor amigo/a]]",
+          "back": "Mejor amigo/a"
+        },
+        {
+          "front": "[[Hobby|Afición]]",
+          "back": "Afición"
         }
       ]
-    } as any
+    },
+    "audioUrl": "audio/a2/unit-25/e1.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: 'a2-u25-e2',
-    type: 'matching',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'easy',
-    content: {
-      title: 'Famous Roles',
-      instructions: 'Une el rol con su traducción.',
-      pairs: [
-        { id: '1', left: 'Writer', right: 'Escritor' },
-        { id: '2', left: 'Scientist', right: 'Científico' },
-        { id: '3', left: 'Artist', right: 'Artista' },
-        { id: '4', left: 'Leader', right: 'Líder' },
-        { id: '5', left: 'Athlete', right: 'Atleta / Deportista' }
+    "id": "a2-u25-e2",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Childhood & School Days",
+    "difficulty": "medium",
+    "transcript": "I  lived in a small house when I was young.",
+    "content": {
+      "title": "Practica la Gramática",
+      "instructions": "Completa la oración con la opción correcta.",
+      "questions": [
+        {
+          "question": "[[I|traducción]] [[(live)|traducción]] _______ [[in|traducción]] [[a|traducción]] [[small|traducción]] [[house|traducción]] [[when|traducción]] [[I|traducción]] [[was|traducción]] [[young|traducción]]",
+          "options": [
+            "[[lived|lived]]",
+            "[[to|a]]",
+            "[[it|lo]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Práctica de la estructura gramatical A2."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-25/e2.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u25-e3",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Childhood & School Days",
+    "difficulty": "medium",
+    "transcript": "She  had got a lot of toys.",
+    "content": {
+      "title": "Practica la Gramática",
+      "instructions": "Completa la oración con la opción correcta.",
+      "questions": [
+        {
+          "question": "[[She|traducción]] [[(have|traducción]] [[got)|traducción]] _______ [[a|traducción]] [[lot|traducción]] [[of|traducción]] [[toys|traducción]]",
+          "options": [
+            "[[had got|had got]]",
+            "[[to|a]]",
+            "[[it|lo]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Práctica de la estructura gramatical A2."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-25/e3.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u25-e4",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Childhood & School Days",
+    "difficulty": "medium",
+    "transcript": "We  didn't have computers at school.",
+    "content": {
+      "title": "Practica la Gramática",
+      "instructions": "Completa la oración con la opción correcta.",
+      "questions": [
+        {
+          "question": "[[We|traducción]] [[(not/have)|traducción]] _______ [[computers|traducción]] [[at|traducción]] [[school|traducción]]",
+          "options": [
+            "[[didn't have|didn't have]]",
+            "[[to|a]]",
+            "[[it|lo]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Práctica de la estructura gramatical A2."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-25/e4.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u25-e5",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Childhood & School Days",
+    "difficulty": "medium",
+    "transcript": "Did you like  your primary school?",
+    "content": {
+      "title": "Practica la Gramática",
+      "instructions": "Completa la oración con la opción correcta.",
+      "questions": [
+        {
+          "question": "[[Did|traducción]] [[you|traducción]] _______ [[(like)|traducción]] [[your|traducción]] [[primary|traducción]] [[school|traducción]]",
+          "options": [
+            "[[it|lo]]",
+            "[[to|a]]",
+            "[[like|like]]"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Práctica de la estructura gramatical A2."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-25/e5.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u25-e6",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Childhood & School Days",
+    "difficulty": "medium",
+    "transcript": "He  was very good at drawing.",
+    "content": {
+      "title": "Practica la Gramática",
+      "instructions": "Completa la oración con la opción correcta.",
+      "questions": [
+        {
+          "question": "[[He|traducción]] [[(be)|traducción]] _______ [[very|traducción]] [[good|traducción]] [[at|traducción]] [[drawing|traducción]]",
+          "options": [
+            "[[was|was]]",
+            "[[to|a]]",
+            "[[it|lo]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Práctica de la estructura gramatical A2."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-25/e6.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u25-e7",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Childhood & School Days",
+    "difficulty": "medium",
+    "transcript": "They  played outside every day.",
+    "content": {
+      "title": "Practica la Gramática",
+      "instructions": "Completa la oración con la opción correcta.",
+      "questions": [
+        {
+          "question": "[[They|traducción]] [[(play)|traducción]] _______ [[outside|traducción]] [[every|traducción]] [[day|traducción]]",
+          "options": [
+            "[[played|played]]",
+            "[[to|a]]",
+            "[[it|lo]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Práctica de la estructura gramatical A2."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-25/e7.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u25-e8",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Childhood & School Days",
+    "difficulty": "medium",
+    "transcript": "I  wanted to be an astronaut.",
+    "content": {
+      "title": "Practica la Gramática",
+      "instructions": "Completa la oración con la opción correcta.",
+      "questions": [
+        {
+          "question": "[[I|traducción]] [[(want)|traducción]] _______ [[to|traducción]] [[be|traducción]] [[an|traducción]] [[astronaut|traducción]]",
+          "options": [
+            "[[wanted|wanted]]",
+            "[[to|a]]",
+            "[[it|lo]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Práctica de la estructura gramatical A2."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-25/e8.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u25-e9",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Childhood & School Days",
+    "difficulty": "medium",
+    "transcript": "My favourite subject  was art.",
+    "content": {
+      "title": "Practica la Gramática",
+      "instructions": "Completa la oración con la opción correcta.",
+      "questions": [
+        {
+          "question": "[[My|traducción]] [[favourite|traducción]] [[subject|traducción]] [[(be)|traducción]] _______ [[art|traducción]]",
+          "options": [
+            "[[was|was]]",
+            "[[to|a]]",
+            "[[it|lo]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Práctica de la estructura gramatical A2."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-25/e9.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u25-e10",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Childhood & School Days",
+    "difficulty": "medium",
+    "transcript": "We  didn't go to bed late.",
+    "content": {
+      "title": "Practica la Gramática",
+      "instructions": "Completa la oración con la opción correcta.",
+      "questions": [
+        {
+          "question": "[[We|traducción]] [[(not/go)|traducción]] _______ [[to|traducción]] [[bed|traducción]] [[late|traducción]]",
+          "options": [
+            "[[didn't go|didn't go]]",
+            "[[to|a]]",
+            "[[it|lo]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Práctica de la estructura gramatical A2."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-25/e10.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u25-e11",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Childhood & School Days",
+    "difficulty": "medium",
+    "transcript": "Did you have a pet when you were a child?",
+    "content": {
+      "title": "Practica la Gramática",
+      "instructions": "Completa la oración con la opción correcta.",
+      "questions": [
+        {
+          "question": "_______ [[you|traducción]] [[have|traducción]] [[a|traducción]] [[pet|traducción]] [[when|traducción]] [[you|traducción]] [[were|traducción]] [[a|traducción]] [[child|traducción]]",
+          "options": [
+            "[[to|a]]",
+            "[[it|lo]]",
+            "[[Did|Did]]"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Práctica de la estructura gramatical A2."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-25/e11.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u25-e12",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Childhood & School Days",
+    "difficulty": "medium",
+    "transcript": "I grew up in a very quiet neighborhood.",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[I|...]] [[grew|...]] [[up|...]] [[in|...]] [[a|...]] [[very|...]] [[quiet|...]] [[neighborhood.|...]]",
+      "words": [
+        "[[very|...]]",
+        "[[I|...]]",
+        "[[up|...]]",
+        "[[a|...]]",
+        "[[neighborhood.|...]]",
+        "[[grew|...]]",
+        "[[quiet|...]]",
+        "[[in|...]]"
       ],
-      explanation: 'Diferentes profesiones por las que alguien puede ser famoso.'
-    } as any
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-25/e12.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: 'a2-u25-e3',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'easy',
-    content: {
-      title: 'Accomplishments',
-      instructions: 'Elige la opción correcta.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'She ___ the Nobel Prize in 1920.',
-          options: ['won', 'did', 'made'],
-          correctAnswer: 0,
-          explanation: 'Ganar un premio es "win" (pasado: won).'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u25-e4',
-    type: 'fill-blank',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'easy',
-    content: {
-      title: 'Inventions',
-      instructions: 'Completa la frase.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Alexander Graham Bell ___ the telephone.',
-          correctAnswer: 'invented',
-          explanation: '"Invented" significa inventó.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u25-e5',
-    type: 'sentence-building',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'medium',
-    content: {
-      title: 'Einstein',
-      instructions: 'Ordena la frase.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['Albert', 'Einstein', 'was', 'a', 'brilliant', 'scientist', '.'],
-          correctSentence: 'Albert Einstein was a brilliant scientist.',
-          translation: 'Albert Einstein fue un científico brillante.',
-          hint: 'Usa "was".',
-          explanation: 'Descripción básica de una persona famosa en pasado.',
-          points: 10
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u25-e6',
-    type: 'flashcard',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'easy',
-    content: {
-      items: [
-        {
-          front: 'Logro / Éxito',
-          back: 'Achievement / Success',
-          example: 'Landing on the moon was a great achievement.',
-          pronunciation: '/əˈtʃiːvmənt/',
-          explanation: 'Algo importante conseguido con esfuerzo.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u25-e7',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'medium',
-    content: {
-      title: 'Discoveries',
-      instructions: 'Elige el verbo correcto.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'Christopher Columbus ___ America in 1492.',
-          options: ['discovered', 'invented', 'created'],
-          correctAnswer: 0,
-          explanation: '"Discovered" es descubrió.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u25-e8',
-    type: 'speaking-analysis',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciation: Famous',
-      instructions: 'Di "She is famous".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'She is famous',
-          correctAnswer: 'She is famous',
-          explanation: 'Pronuncia "famous" como /ˈfeɪməs/.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u25-e9',
-    type: 'fill-blank',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'medium',
-    content: {
-      title: 'Influence',
-      instructions: 'Completa.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'His work had a great ___ on modern art.',
-          correctAnswer: 'influence',
-          explanation: '"Influence" es influencia.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u25-e10',
-    type: 'sentence-building',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'medium',
-    content: {
-      title: 'Famous quote',
-      instructions: 'Ordena la frase.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['He', 'is', 'one', 'of', 'the', 'best', 'writers', '.'],
-          correctSentence: 'He is one of the best writers.',
-          translation: 'Él es uno de los mejores escritores.',
-          hint: 'Usa "one of the best".',
-          explanation: 'Superlativo para describir fama.',
-          points: 10
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u25-e11',
-    type: 'matching',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'medium',
-    content: {
-      title: 'Nouns from Verbs',
-      instructions: 'Une el verbo con el nombre de la persona.',
-      pairs: [
-        { id: '1', left: 'Write', right: 'Writer' },
-        { id: '2', left: 'Paint', right: 'Painter' },
-        { id: '3', left: 'Science', right: 'Scientist' },
-        { id: '4', left: 'Direct', right: 'Director' }
+    "id": "a2-u25-e13",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Childhood & School Days",
+    "difficulty": "medium",
+    "transcript": "My favorite toy was a big red car.",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[My|...]] [[favorite|...]] [[toy|...]] [[was|...]] [[a|...]] [[big|...]] [[red|...]] [[car.|...]]",
+      "words": [
+        "[[My|...]]",
+        "[[big|...]]",
+        "[[favorite|...]]",
+        "[[was|...]]",
+        "[[toy|...]]",
+        "[[a|...]]",
+        "[[car.|...]]",
+        "[[red|...]]"
       ],
-      explanation: 'Formación de profesiones.'
-    } as any
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-25/e13.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: 'a2-u25-e12',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'hard',
-    content: {
-      title: 'Legacy',
-      instructions: 'Elige la opción correcta.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'Shakespeare’s ___ still exist today.',
-          options: ['plays', 'playings', 'playing'],
-          correctAnswer: 0,
-          explanation: '"Plays" son las obras de teatro.'
-        }
-      ]
-    }
-  },
-
-  // --- SUB-TOPIC 2: Past Simple vs Present Perfect (13-24) ---
-  {
-    id: 'a2-u25-e13',
-    type: 'flashcard',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'easy',
-    content: {
-      items: [
-        {
-          front: 'Pasado Simple vs Presente Perfecto',
-          back: 'Finished vs Unfinished time',
-          example: 'I went to Rome in 2010. / I have been to Rome.',
-          pronunciation: '/n/a/',
-          explanation: 'Usamos Past Simple para tiempos terminados y Present Perfect para experiencias sin fecha exacta.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u25-e14',
-    type: 'matching',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'easy',
-    content: {
-      title: 'Time markers',
-      instructions: 'Une el marcador con el tiempo correcto.',
-      pairs: [
-        { id: '1', left: 'Yesterday / In 1990', right: 'Past Simple' },
-        { id: '2', left: 'Ever / Never', right: 'Present Perfect' },
-        { id: '3', left: 'Last week', right: 'Past Simple' },
-        { id: '4', left: 'So far / Just', right: 'Present Perfect' }
+    "id": "a2-u25-e14",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Childhood & School Days",
+    "difficulty": "medium",
+    "transcript": "We played hide and seek in the garden.",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[We|...]] [[played|...]] [[hide|...]] [[and|...]] [[seek|...]] [[in|...]] [[the|...]] [[garden.|...]]",
+      "words": [
+        "[[the|...]]",
+        "[[in|...]]",
+        "[[seek|...]]",
+        "[[garden.|...]]",
+        "[[and|...]]",
+        "[[hide|...]]",
+        "[[played|...]]",
+        "[[We|...]]"
       ],
-      explanation: 'Palabras clave que nos ayudan a elegir el tiempo verbal.'
-    } as any
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-25/e14.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: 'a2-u25-e15',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'medium',
-    content: {
-      title: 'Choosing the tense',
-      instructions: 'Elige la opción correcta.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'Picasso ___ many paintings in his life.',
-          options: ['painted', 'has painted', 'paints'],
-          correctAnswer: 0,
-          explanation: 'Usamos Past Simple porque la vida de Picasso ya terminó.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u25-e16',
-    type: 'fill-blank',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'medium',
-    content: {
-      title: 'Ongoing experience',
-      instructions: 'Completa con Present Perfect.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'I ___ (read) three books by this author so far.',
-          correctAnswer: 'have read',
-          explanation: 'Acción que continúa en el presente (so far).'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u25-e17',
-    type: 'sentence-building',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'medium',
-    content: {
-      title: 'Historical event',
-      instructions: 'Ordena la frase.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['Man', 'walked', 'on', 'the', 'moon', 'in', '1969', '.'],
-          correctSentence: 'Man walked on the moon in 1969.',
-          translation: 'El hombre caminó sobre la luna en 1969.',
-          hint: 'Usa Past Simple.',
-          explanation: 'Fecha específica = Past Simple.',
-          points: 10
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u25-e18',
-    type: 'flashcard',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'easy',
-    content: {
-      items: [
-        {
-          front: 'Acabo de...',
-          back: 'I have just...',
-          example: 'I have just finished the book.',
-          pronunciation: '/dʒʌst/',
-          explanation: '"Just" con Present Perfect indica una acción muy reciente.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u25-e19',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'medium',
-    content: {
-      title: 'Recent news',
-      instructions: 'Elige la opción correcta.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'The famous singer ___ a new album today.',
-          options: ['has released', 'released', 'releases'],
-          correctAnswer: 0,
-          explanation: 'Noticia reciente sin fecha exacta -> Present Perfect.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u25-e20',
-    type: 'speaking-analysis',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciation: Participio',
-      instructions: 'Di "I have seen him".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'I have seen him',
-          correctAnswer: 'I have seen him',
-          explanation: 'Pronuncia "seen" con una "i" larga /siːn/.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u25-e21',
-    type: 'fill-blank',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'hard',
-    content: {
-      title: 'Specific time',
-      instructions: 'Completa con Past Simple.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'The actor ___ (die) two years ago.',
-          correctAnswer: 'died',
-          explanation: '"Ago" siempre requiere Past Simple.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u25-e22',
-    type: 'sentence-building',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'medium',
-    content: {
-      title: 'Ever question',
-      instructions: 'Ordena la frase.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['Have', 'you', 'ever', 'met', 'anyone', 'famous', '?'],
-          correctSentence: 'Have you ever met anyone famous?',
-          translation: '¿Has conocido alguna vez a alguien famoso?',
-          hint: 'Usa "ever".',
-          explanation: 'Pregunta sobre experiencias vitales.',
-          points: 10
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u25-e23',
-    type: 'matching',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'medium',
-    content: {
-      title: 'Tense contrast',
-      instructions: 'Une la frase con el tiempo correcto.',
-      pairs: [
-        { id: '1', left: 'I met him in 2005', right: 'Past Simple' },
-        { id: '2', left: 'I have met him twice', right: 'Present Perfect' },
-        { id: '3', left: 'He lived here last year', right: 'Past Simple' },
-        { id: '4', left: 'He has lived here since May', right: 'Present Perfect' }
+    "id": "a2-u25-e15",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Childhood & School Days",
+    "difficulty": "medium",
+    "transcript": "I loved my primary school teacher.",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[I|...]] [[loved|...]] [[my|...]] [[primary|...]] [[school|...]] [[teacher.|...]]",
+      "words": [
+        "[[I|...]]",
+        "[[loved|...]]",
+        "[[teacher.|...]]",
+        "[[school|...]]",
+        "[[my|...]]",
+        "[[primary|...]]"
       ],
-      explanation: 'Diferenciación de uso por contexto temporal.'
-    } as any
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-25/e15.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: 'a2-u25-e24',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'hard',
-    content: {
-      title: 'Grammar challenge',
-      instructions: '¿Cuál es correcta?',
-      questions: [
-        {
-          id: 'q1',
-          question: '___ you ___ his new movie yesterday?',
-          options: ['Did / see', 'Have / seen', 'Did / seen'],
-          correctAnswer: 0,
-          explanation: '"Yesterday" obliga al uso de Past Simple (Did + base verb).'
-        }
-      ]
-    }
-  },
-
-  // --- SUB-TOPIC 3: Describing Characters (25-36) ---
-  {
-    id: 'a2-u25-e25',
-    type: 'flashcard',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'easy',
-    content: {
-      items: [
-        {
-          front: 'Talentoso',
-          back: 'Talented',
-          example: 'She is a very talented musician.',
-          pronunciation: '/ˈtæləntɪd/',
-          explanation: 'Tener una habilidad natural para algo.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u25-e26',
-    type: 'matching',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'easy',
-    content: {
-      title: 'Personal Qualities',
-      instructions: 'Une el adjetivo con su traducción.',
-      pairs: [
-        { id: '1', left: 'Brave', right: 'Valiente' },
-        { id: '2', left: 'Intelligent', right: 'Inteligente' },
-        { id: '3', left: 'Creative', right: 'Creativo' },
-        { id: '4', left: 'Kind', right: 'Amable' },
-        { id: '5', left: 'Ambitious', right: 'Ambicioso' }
+    "id": "a2-u25-e16",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Childhood & School Days",
+    "difficulty": "medium",
+    "transcript": "What did you want to be when you were little?",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[What|...]] [[did|...]] [[you|...]] [[want|...]] [[to|...]] [[be|...]] [[when|...]] [[you|...]] [[were|...]] [[little?|...]]",
+      "words": [
+        "[[want|...]]",
+        "[[when|...]]",
+        "[[were|...]]",
+        "[[you|...]]",
+        "[[be|...]]",
+        "[[little?|...]]",
+        "[[to|...]]",
+        "[[did|...]]",
+        "[[you|...]]",
+        "[[What|...]]"
       ],
-      explanation: 'Adjetivos para describir a personas destacadas.'
-    } as any
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-25/e16.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: 'a2-u25-e27',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'easy',
-    content: {
-      title: 'Reputation',
-      instructions: 'Elige la opción correcta.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'He is ___ for his charity work.',
-          options: ['well-known', 'famously', 'know'],
-          correctAnswer: 0,
-          explanation: '"Well-known" es un sinónimo de famoso.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u25-e28',
-    type: 'fill-blank',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'easy',
-    content: {
-      title: 'Hard work',
-      instructions: 'Completa la frase.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Successful people often work very ___ .',
-          correctAnswer: 'hard',
-          explanation: '"Work hard" es trabajar duro.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u25-e29',
-    type: 'sentence-building',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'medium',
-    content: {
-      title: 'Motivation',
-      instructions: 'Ordena la frase.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['His', 'life', 'story', 'is', 'very', 'inspiring', '.'],
-          correctSentence: 'His life story is very inspiring.',
-          translation: 'La historia de su vida es muy inspiradora.',
-          hint: 'Usa "inspiring".',
-          explanation: '"Inspiring" describe algo que nos motiva.',
-          points: 10
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u25-e30',
-    type: 'flashcard',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'easy',
-    content: {
-      items: [
-        {
-          front: 'Poderoso',
-          back: 'Powerful',
-          example: 'She is a powerful world leader.',
-          pronunciation: '/ˈpaʊəfəl/',
-          explanation: 'Que tiene mucho poder o influencia.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u25-e31',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'medium',
-    content: {
-      title: 'Creativity',
-      instructions: 'Elige el adjetivo correcto.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'She came up with a very ___ solution.',
-          options: ['creative', 'creator', 'creatively'],
-          correctAnswer: 0,
-          explanation: '"Creative" describe la solución.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u25-e32',
-    type: 'speaking-analysis',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciation: Brilliant',
-      instructions: 'Di "He is a brilliant artist".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'He is a brilliant artist',
-          correctAnswer: 'He is a brilliant artist',
-          explanation: 'Pronuncia "brilliant" como /ˈbrɪljənt/.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u25-e33',
-    type: 'fill-blank',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'medium',
-    content: {
-      title: 'Courage',
-      instructions: 'Completa.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'You need to be ___ to explore new lands.',
-          correctAnswer: 'brave',
-          explanation: '"Brave" es valiente.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u25-e34',
-    type: 'sentence-building',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'medium',
-    content: {
-      title: 'Popularity',
-      instructions: 'Ordena la frase.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['Is', 'he', 'still', 'popular', 'today', '?'],
-          correctSentence: 'Is he still popular today?',
-          translation: '¿Sigue siendo popular hoy en día?',
-          hint: 'Pregunta.',
-          explanation: '"Popular" significa que gusta a mucha gente.',
-          points: 10
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u25-e35',
-    type: 'matching',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'medium',
-    content: {
-      title: 'Character Mix',
-      instructions: 'Une el adjetivo con su descripción.',
-      pairs: [
-        { id: '1', left: 'Ambitious', right: 'Wanting to be successful' },
-        { id: '2', left: 'Generous', right: 'Giving money or time to others' },
-        { id: '3', left: 'Wise', right: 'Having experience and knowledge' },
-        { id: '4', left: 'Determined', right: 'Not giving up easily' }
+    "id": "a2-u25-e17",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Childhood & School Days",
+    "difficulty": "medium",
+    "transcript": "I had a best friend named David.",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[I|...]] [[had|...]] [[a|...]] [[best|...]] [[friend|...]] [[named|...]] [[David.|...]]",
+      "words": [
+        "[[I|...]]",
+        "[[had|...]]",
+        "[[named|...]]",
+        "[[a|...]]",
+        "[[David.|...]]",
+        "[[best|...]]",
+        "[[friend|...]]"
       ],
-      explanation: 'Vocabulario de rasgos de personalidad.'
-    } as any
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-25/e17.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: 'a2-u25-e36',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'hard',
-    content: {
-      title: 'High Status',
-      instructions: 'Elige la opción correcta.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'She is a ___ figure in the history of science.',
-          options: ['leading', 'leader', 'led'],
-          correctAnswer: 0,
-          explanation: '"Leading figure" es una figura destacada.'
-        }
-      ]
-    }
-  },
-
-  // --- SUB-TOPIC 4: Fame & Media (37-45) ---
-  {
-    id: 'a2-u25-e37',
-    type: 'flashcard',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'easy',
-    content: {
-      items: [
-        {
-          front: 'Entrevista',
-          back: 'Interview',
-          example: 'I watched an interview with the president.',
-          pronunciation: '/ˈɪntəvjuː/',
-          explanation: 'Una charla donde se hacen preguntas a alguien famoso.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u25-e38',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'medium',
-    content: {
-      title: 'The News',
-      instructions: 'Elige la palabra correcta.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'The actor’s name is in all the ___ today.',
-          options: ['headlines', 'heads', 'headers'],
-          correctAnswer: 0,
-          explanation: '"Headlines" son los titulares de las noticias.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u25-e39',
-    type: 'fill-blank',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'medium',
-    content: {
-      title: 'Fans',
-      instructions: 'Completa la frase.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'There was a huge ___ waiting outside the theater.',
-          correctAnswer: 'crowd',
-          explanation: '"Crowd" es una multitud.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u25-e40',
-    type: 'sentence-building',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'medium',
-    content: {
-      title: 'Private life',
-      instructions: 'Ordena la frase.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['Famous', 'people', 'don’t', 'have', 'much', 'privacy', '.'],
-          correctSentence: 'Famous people don’t have much privacy.',
-          translation: 'La gente famosa no tiene mucha privacidad.',
-          hint: 'Usa "privacy".',
-          explanation: '"Privacy" es privacidad.',
-          points: 10
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u25-e41',
-    type: 'matching',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'medium',
-    content: {
-      title: 'Media Words',
-      instructions: 'Une el concepto con su descripción.',
-      pairs: [
-        { id: '1', left: 'Paparazzi', right: 'Photographers who follow famous people' },
-        { id: '2', left: 'Autograph', right: 'A famous person’s signature' },
-        { id: '3', left: 'Fan club', right: 'A group of people who love a star' },
-        { id: '4', left: 'Social media', right: 'Where stars post updates' }
+    "id": "a2-u25-e18",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Childhood & School Days",
+    "difficulty": "medium",
+    "transcript": "We didn't have smartphones back then.",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[We|...]] [[didn't|...]] [[have|...]] [[smartphones|...]] [[back|...]] [[then.|...]]",
+      "words": [
+        "[[We|...]]",
+        "[[didn't|...]]",
+        "[[back|...]]",
+        "[[then.|...]]",
+        "[[smartphones|...]]",
+        "[[have|...]]"
       ],
-      explanation: 'Vocabulario del mundo de la fama.'
-    } as any
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-25/e18.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: 'a2-u25-e42',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'medium',
-    content: {
-      title: 'The Show',
-      instructions: 'Elige la opción correcta.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'The actress walked down the ___ carpet.',
-          options: ['red', 'blue', 'gold'],
-          correctAnswer: 0,
-          explanation: '"Red carpet" es la alfombra roja.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u25-e43',
-    type: 'speaking-analysis',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciation: Interview',
-      instructions: 'Di "An exclusive interview".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'An exclusive interview',
-          correctAnswer: 'An exclusive interview',
-          explanation: 'Pronuncia "exclusive" como /ɪkˈskluːsɪv/.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u25-e44',
-    type: 'fill-blank',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'hard',
-    content: {
-      title: 'Reputation loss',
-      instructions: 'Completa la frase.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'The scandal ruined his ___ .',
-          correctAnswer: 'reputation',
-          explanation: '"Reputation" es reputación.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u25-e45',
-    type: 'sentence-building',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'hard',
-    content: {
-      title: 'Fans online',
-      instructions: 'Ordena la frase.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['She', 'has', 'millions', 'of', 'followers', 'on', 'Instagram', '.'],
-          correctSentence: 'She has millions of followers on Instagram.',
-          translation: 'Ella tiene millones de seguidores en Instagram.',
-          hint: 'Usa "followers".',
-          explanation: '"Followers" son los seguidores.',
-          points: 10
-        }
-      ]
-    } as any
-  },
-
-  // --- SUB-TOPIC 5: Review & Mixed Practice (46-50) ---
-  {
-    id: 'a2-u25-e46',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'medium',
-    content: {
-      title: 'Mixed Review',
-      instructions: 'Elige la opción correcta.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'Newton ___ the law of gravity.',
-          options: ['discovered', 'has discovered', 'discovers'],
-          correctAnswer: 0,
-          explanation: 'Evento histórico pasado = Past Simple.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u25-e47',
-    type: 'fill-blank',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'medium',
-    content: {
-      title: 'Accomplishment review',
-      instructions: 'Completa.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Winning the Oscar was her greatest ___ .',
-          correctAnswer: 'achievement',
-          explanation: '"Achievement" es logro.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u25-e48',
-    type: 'sentence-building',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'medium',
-    content: {
-      title: 'Recent event review',
-      instructions: 'Ordena la frase.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['I', 'have', 'never', 'seen', 'that', 'painter’s', 'work', '.'],
-          correctSentence: 'I have never seen that painter’s work.',
-          translation: 'Nunca he visto la obra de ese pintor.',
-          hint: 'Present Perfect.',
-          explanation: 'Experiencia vital negativa.',
-          points: 10
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u25-e49',
-    type: 'matching',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'medium',
-    content: {
-      title: 'Fame Review',
-      instructions: 'Une el personaje con su área.',
-      pairs: [
-        { id: '1', left: 'Marie Curie', right: 'Science' },
-        { id: '2', left: 'Leonardo da Vinci', right: 'Art' },
-        { id: '3', left: 'Nelson Mandela', right: 'Leadership' },
-        { id: '4', left: 'Usain Bolt', right: 'Sports' }
+    "id": "a2-u25-e19",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Childhood & School Days",
+    "difficulty": "medium",
+    "transcript": "I was very shy when I was a child.",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[I|...]] [[was|...]] [[very|...]] [[shy|...]] [[when|...]] [[I|...]] [[was|...]] [[a|...]] [[child.|...]]",
+      "words": [
+        "[[when|...]]",
+        "[[shy|...]]",
+        "[[I|...]]",
+        "[[very|...]]",
+        "[[was|...]]",
+        "[[I|...]]",
+        "[[was|...]]",
+        "[[a|...]]",
+        "[[child.|...]]"
       ],
-      explanation: 'Personajes históricos y sus campos.'
-    } as any
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-25/e19.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: 'a2-u25-e50',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Famous People',
-    topicName: 'Famous People',
-    difficulty: 'hard',
-    content: {
-      title: 'Final Challenge',
-      instructions: 'Elige la opción correcta.',
-      questions: [
-        {
-          id: 'q1',
-          question: '___ you ___ to the new song ___ ?',
-          options: ['Have / listened / yet', 'Did / listen / yet', 'Have / listen / already'],
-          correctAnswer: 0,
-          explanation: 'Pregunta sobre acción reciente: Present Perfect + yet.'
-        }
-      ]
-    }
+    "id": "a2-u25-e20",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Childhood & School Days",
+    "difficulty": "medium",
+    "transcript": "My favorite school subject was history.",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[My|...]] [[favorite|...]] [[school|...]] [[subject|...]] [[was|...]] [[history.|...]]",
+      "words": [
+        "[[subject|...]]",
+        "[[My|...]]",
+        "[[favorite|...]]",
+        "[[history.|...]]",
+        "[[was|...]]",
+        "[[school|...]]"
+      ],
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-25/e20.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u25-e21",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Childhood & School Days",
+    "difficulty": "medium",
+    "transcript": "We used to go to the park every afternoon.",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[We|...]] [[used|...]] [[to|...]] [[go|...]] [[to|...]] [[the|...]] [[park|...]] [[every|...]] [[afternoon.|...]]",
+      "words": [
+        "[[used|...]]",
+        "[[the|...]]",
+        "[[every|...]]",
+        "[[go|...]]",
+        "[[park|...]]",
+        "[[We|...]]",
+        "[[afternoon.|...]]",
+        "[[to|...]]",
+        "[[to|...]]"
+      ],
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-25/e21.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u25-e22",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Childhood & School Days",
+    "difficulty": "medium",
+    "transcript": "Did you have any pets when you were young?",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[Did|...]] [[you|...]] [[have|...]] [[any|...]] [[pets|...]] [[when|...]] [[you|...]] [[were|...]] [[young?|...]]",
+      "words": [
+        "[[Did|...]]",
+        "[[you|...]]",
+        "[[have|...]]",
+        "[[when|...]]",
+        "[[were|...]]",
+        "[[young?|...]]",
+        "[[pets|...]]",
+        "[[any|...]]",
+        "[[you|...]]"
+      ],
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-25/e22.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u25-e23",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Childhood & School Days",
+    "difficulty": "medium",
+    "transcript": "The playground was always full of children.",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[The|...]] [[playground|...]] [[was|...]] [[always|...]] [[full|...]] [[of|...]] [[children.|...]]",
+      "words": [
+        "[[playground|...]]",
+        "[[was|...]]",
+        "[[of|...]]",
+        "[[always|...]]",
+        "[[children.|...]]",
+        "[[The|...]]",
+        "[[full|...]]"
+      ],
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-25/e23.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u25-e24",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Childhood & School Days",
+    "difficulty": "medium",
+    "transcript": "I have many happy memories of my childhood.",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[I|...]] [[have|...]] [[many|...]] [[happy|...]] [[memories|...]] [[of|...]] [[my|...]] [[childhood.|...]]",
+      "words": [
+        "[[of|...]]",
+        "[[memories|...]]",
+        "[[my|...]]",
+        "[[have|...]]",
+        "[[childhood.|...]]",
+        "[[happy|...]]",
+        "[[many|...]]",
+        "[[I|...]]"
+      ],
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-25/e24.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u25-e25",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Childhood & School Days",
+    "difficulty": "medium",
+    "transcript": "We spent all summer at the beach.",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[We|...]] [[spent|...]] [[all|...]] [[summer|...]] [[at|...]] [[the|...]] [[beach.|...]]",
+      "words": [
+        "[[all|...]]",
+        "[[summer|...]]",
+        "[[spent|...]]",
+        "[[the|...]]",
+        "[[We|...]]",
+        "[[at|...]]",
+        "[[beach.|...]]"
+      ],
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-25/e25.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u25-e26",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Childhood & School Days",
+    "difficulty": "medium",
+    "transcript": "I learned to ride a bike when I was six.",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[I|...]] [[learned|...]] [[to|...]] [[ride|...]] [[a|...]] [[bike|...]] [[when|...]] [[I|...]] [[was|...]] [[six.|...]]",
+      "words": [
+        "[[learned|...]]",
+        "[[bike|...]]",
+        "[[I|...]]",
+        "[[when|...]]",
+        "[[a|...]]",
+        "[[I|...]]",
+        "[[six.|...]]",
+        "[[ride|...]]",
+        "[[to|...]]",
+        "[[was|...]]"
+      ],
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-25/e26.mp3",
+    "topicName": "Vocabulary"
   }
 ];

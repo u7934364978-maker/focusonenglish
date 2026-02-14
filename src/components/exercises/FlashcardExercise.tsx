@@ -82,8 +82,11 @@ export default function FlashcardExercise({ content, vocabulary, onComplete }: F
   return (
     <div className="flex flex-col items-center justify-center space-y-6 w-full max-w-lg mx-auto py-4">
       <div className="w-full flex justify-between items-center px-4">
-        <span className="text-sm font-bold text-slate-400">TARJETA {currentIndex + 1} DE {content.items.length}</span>
-        <div className="h-2 flex-1 mx-4 bg-slate-100 rounded-full overflow-hidden">
+        <div className="flex-1">
+          {content.title && <h2 className="text-2xl font-black text-slate-900 mb-1">{content.title}</h2>}
+          <span className="text-sm font-bold text-slate-400 uppercase">Tarjeta {currentIndex + 1} de {content.items.length}</span>
+        </div>
+        <div className="h-2 w-32 bg-slate-100 rounded-full overflow-hidden">
           <motion.div 
             className="h-full bg-orange-500"
             initial={{ width: 0 }}

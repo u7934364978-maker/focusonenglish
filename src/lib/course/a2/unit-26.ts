@@ -1,1039 +1,720 @@
 import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_26_EXERCISES: Exercise[] = [
-  // --- SUB-TOPIC 1: Accidents & Injuries (1-12) ---
   {
-    id: 'a2-u26-e1',
-    type: 'flashcard',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'easy',
-    content: {
-      items: [
+    "id": "a2-u26-e1",
+    "type": "flashcard",
+    "level": "A2",
+    "topic": "Travel Experiences",
+    "difficulty": "medium",
+    "transcript": "Travel. Trip. Journey. Flight. Hotel. Souvenir. Sightseeing. Local food. Guided tour. Passport. Ticket. Airport. Holiday. Experience. Beautiful",
+    "content": {
+      "title": "Vocabulario Clave",
+      "instructions": "Aprende las palabras más importantes de la unidad.",
+      "items": [
         {
-          front: 'Accidente',
-          back: 'Accident',
-          example: 'He had a small accident in the kitchen.',
-          pronunciation: '/ˈæksɪdənt/',
-          explanation: 'Algo inesperado que suele causar daño.'
+          "front": "[[Travel|Viajar]]",
+          "back": "Viajar"
+        },
+        {
+          "front": "[[Trip|Viaje]]",
+          "back": "Viaje"
+        },
+        {
+          "front": "[[Journey|Trayecto/Viaje]]",
+          "back": "Trayecto/Viaje"
+        },
+        {
+          "front": "[[Flight|Vuelo]]",
+          "back": "Vuelo"
+        },
+        {
+          "front": "[[Hotel|Hotel]]",
+          "back": "Hotel"
+        },
+        {
+          "front": "[[Souvenir|Recuerdo/Souvenir]]",
+          "back": "Recuerdo/Souvenir"
+        },
+        {
+          "front": "[[Sightseeing|Hacer turismo]]",
+          "back": "Hacer turismo"
+        },
+        {
+          "front": "[[Local food|Comida local]]",
+          "back": "Comida local"
+        },
+        {
+          "front": "[[Guided tour|Visita guiada]]",
+          "back": "Visita guiada"
+        },
+        {
+          "front": "[[Passport|Pasaporte]]",
+          "back": "Pasaporte"
+        },
+        {
+          "front": "[[Ticket|Billete]]",
+          "back": "Billete"
+        },
+        {
+          "front": "[[Airport|Aeropuerto]]",
+          "back": "Aeropuerto"
+        },
+        {
+          "front": "[[Holiday|Vacaciones]]",
+          "back": "Vacaciones"
+        },
+        {
+          "front": "[[Experience|Experiencia]]",
+          "back": "Experiencia"
+        },
+        {
+          "front": "[[Beautiful|Hermoso/a]]",
+          "back": "Hermoso/a"
         }
       ]
-    } as any
+    },
+    "audioUrl": "audio/a2/unit-26/e1.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: 'a2-u26-e2',
-    type: 'matching',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'easy',
-    content: {
-      title: 'Common Injuries',
-      instructions: 'Une la lesión con su traducción.',
-      pairs: [
-        { id: '1', left: 'Burn', right: 'Quemadura' },
-        { id: '2', left: 'Cut', right: 'Corte' },
-        { id: '3', left: 'Bruise', right: 'Moretón / Cardenal' },
-        { id: '4', left: 'Sprain', right: 'Esguince' },
-        { id: '5', left: 'Fracture', right: 'Fractura' }
+    "id": "a2-u26-e2",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Travel Experiences",
+    "difficulty": "medium",
+    "transcript": "I  went to Italy last summer.",
+    "content": {
+      "title": "Practica la Gramática",
+      "instructions": "Completa la oración con la opción correcta.",
+      "questions": [
+        {
+          "question": "[[I|traducción]] [[(go)|traducción]] _______ [[to|traducción]] [[Italy|traducción]] [[last|traducción]] [[summer|traducción]]",
+          "options": [
+            "[[went|went]]",
+            "[[to|a]]",
+            "[[it|lo]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Práctica de la estructura gramatical A2."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-26/e2.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u26-e3",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Travel Experiences",
+    "difficulty": "medium",
+    "transcript": "We  stayed in a beautiful hotel.",
+    "content": {
+      "title": "Practica la Gramática",
+      "instructions": "Completa la oración con la opción correcta.",
+      "questions": [
+        {
+          "question": "[[We|traducción]] [[(stay)|traducción]] _______ [[in|traducción]] [[a|traducción]] [[beautiful|traducción]] [[hotel|traducción]]",
+          "options": [
+            "[[stayed|stayed]]",
+            "[[to|a]]",
+            "[[it|lo]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Práctica de la estructura gramatical A2."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-26/e3.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u26-e4",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Travel Experiences",
+    "difficulty": "medium",
+    "transcript": "She  didn't like the flight.",
+    "content": {
+      "title": "Practica la Gramática",
+      "instructions": "Completa la oración con la opción correcta.",
+      "questions": [
+        {
+          "question": "[[She|traducción]] [[(not/like)|traducción]] _______ [[the|traducción]] [[flight|traducción]]",
+          "options": [
+            "[[to|a]]",
+            "[[didn't like|didn't like]]",
+            "[[it|lo]]"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Práctica de la estructura gramatical A2."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-26/e4.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u26-e5",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Travel Experiences",
+    "difficulty": "medium",
+    "transcript": "Did you take  many photos?",
+    "content": {
+      "title": "Practica la Gramática",
+      "instructions": "Completa la oración con la opción correcta.",
+      "questions": [
+        {
+          "question": "[[Did|traducción]] [[you|traducción]] _______ [[(take)|traducción]] [[many|traducción]] [[photos|traducción]]",
+          "options": [
+            "[[take|take]]",
+            "[[to|a]]",
+            "[[it|lo]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Práctica de la estructura gramatical A2."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-26/e5.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u26-e6",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Travel Experiences",
+    "difficulty": "medium",
+    "transcript": "They  saw some amazing places.",
+    "content": {
+      "title": "Practica la Gramática",
+      "instructions": "Completa la oración con la opción correcta.",
+      "questions": [
+        {
+          "question": "[[They|traducción]] [[(see)|traducción]] _______ [[some|traducción]] [[amazing|traducción]] [[places|traducción]]",
+          "options": [
+            "[[saw|saw]]",
+            "[[to|a]]",
+            "[[it|lo]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Práctica de la estructura gramatical A2."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-26/e6.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u26-e7",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Travel Experiences",
+    "difficulty": "medium",
+    "transcript": "I  bought lots of souvenirs.",
+    "content": {
+      "title": "Practica la Gramática",
+      "instructions": "Completa la oración con la opción correcta.",
+      "questions": [
+        {
+          "question": "[[I|traducción]] [[(buy)|traducción]] _______ [[lots|traducción]] [[of|traducción]] [[souvenirs|traducción]]",
+          "options": [
+            "[[it|lo]]",
+            "[[to|a]]",
+            "[[bought|bought]]"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Práctica de la estructura gramatical A2."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-26/e7.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u26-e8",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Travel Experiences",
+    "difficulty": "medium",
+    "transcript": "The food  was delicious.",
+    "content": {
+      "title": "Practica la Gramática",
+      "instructions": "Completa la oración con la opción correcta.",
+      "questions": [
+        {
+          "question": "[[The|traducción]] [[food|traducción]] [[(be)|traducción]] _______ [[delicious|traducción]]",
+          "options": [
+            "[[it|lo]]",
+            "[[to|a]]",
+            "[[was|was]]"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Práctica de la estructura gramatical A2."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-26/e8.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u26-e9",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Travel Experiences",
+    "difficulty": "medium",
+    "transcript": "We  traveled by train.",
+    "content": {
+      "title": "Practica la Gramática",
+      "instructions": "Completa la oración con la opción correcta.",
+      "questions": [
+        {
+          "question": "[[We|traducción]] [[(travel)|traducción]] _______ [[by|traducción]] [[train|traducción]]",
+          "options": [
+            "[[traveled|traveled]]",
+            "[[to|a]]",
+            "[[it|lo]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Práctica de la estructura gramatical A2."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-26/e9.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u26-e10",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Travel Experiences",
+    "difficulty": "medium",
+    "transcript": "He  didn't want to come home.",
+    "content": {
+      "title": "Practica la Gramática",
+      "instructions": "Completa la oración con la opción correcta.",
+      "questions": [
+        {
+          "question": "[[He|traducción]] [[(not/want)|traducción]] _______ [[to|traducción]] [[come|traducción]] [[home|traducción]]",
+          "options": [
+            "[[it|lo]]",
+            "[[to|a]]",
+            "[[didn't want|didn't want]]"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Práctica de la estructura gramatical A2."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-26/e10.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u26-e11",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Travel Experiences",
+    "difficulty": "medium",
+    "transcript": "How was the weather there?",
+    "content": {
+      "title": "Practica la Gramática",
+      "instructions": "Completa la oración con la opción correcta.",
+      "questions": [
+        {
+          "question": "[[How|traducción]] _______ [[the|traducción]] [[weather|traducción]] [[there|traducción]]",
+          "options": [
+            "[[it|lo]]",
+            "[[to|a]]",
+            "[[was|was]]"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Práctica de la estructura gramatical A2."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-26/e11.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u26-e12",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Travel Experiences",
+    "difficulty": "medium",
+    "transcript": "My trip to Japan was an incredible experience.",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[My|...]] [[trip|...]] [[to|...]] [[Japan|...]] [[was|...]] [[an|...]] [[incredible|...]] [[experience.|...]]",
+      "words": [
+        "[[was|...]]",
+        "[[incredible|...]]",
+        "[[experience.|...]]",
+        "[[to|...]]",
+        "[[Japan|...]]",
+        "[[an|...]]",
+        "[[My|...]]",
+        "[[trip|...]]"
       ],
-      explanation: 'Tipos comunes de lesiones físicas.'
-    } as any
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-26/e12.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: 'a2-u26-e3',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'easy',
-    content: {
-      title: 'At home',
-      instructions: 'Elige la opción correcta.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'Be careful! You might ___ on the wet floor.',
-          options: ['slip', 'break', 'cut'],
-          correctAnswer: 0,
-          explanation: '"Slip" es resbalar.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u26-e4',
-    type: 'fill-blank',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'easy',
-    content: {
-      title: 'Falling down',
-      instructions: 'Completa la frase.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'I fell off my bike and ___ my arm.',
-          correctAnswer: 'broke',
-          explanation: 'Pasado de "break" (romper).'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u26-e5',
-    type: 'sentence-building',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'medium',
-    content: {
-      title: 'Sudden event',
-      instructions: 'Ordena la frase.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['He', 'hit', 'his', 'head', 'on', 'the', 'door', '.'],
-          correctSentence: 'He hit his head on the door.',
-          translation: 'Se golpeó la cabeza con la puerta.',
-          hint: 'Usa "hit".',
-          explanation: '"Hit" es golpear. El pasado de "hit" es también "hit".',
-          points: 10
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u26-e6',
-    type: 'flashcard',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'easy',
-    content: {
-      items: [
-        {
-          front: 'Sangrar',
-          back: 'Bleed',
-          example: 'Your finger is bleeding.',
-          pronunciation: '/bliːd/',
-          explanation: 'Perder sangre por una herida.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u26-e7',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'medium',
-    content: {
-      title: 'Pain',
-      instructions: 'Elige la opción correcta.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'My ankle is very ___ after the fall.',
-          options: ['swollen', 'cut', 'burnt'],
-          correctAnswer: 0,
-          explanation: '"Swollen" significa hinchado.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u26-e8',
-    type: 'speaking-analysis',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciation: Accident',
-      instructions: 'Di "It was an accident".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'It was an accident',
-          correctAnswer: 'It was an accident',
-          explanation: 'Pronuncia "accident" como /ˈæksɪdənt/.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u26-e9',
-    type: 'fill-blank',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'medium',
-    content: {
-      title: 'Kitchen safety',
-      instructions: 'Completa.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'I burnt my hand on the hot ___ .',
-          correctAnswer: 'stove',
-          explanation: '"Stove" es la cocina o fogón.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u26-e10',
-    type: 'sentence-building',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'medium',
-    content: {
-      title: 'Minor injury',
-      instructions: 'Ordena la frase.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['I', 'have', 'a', 'small', 'cut', 'on', 'my', 'finger', '.'],
-          correctSentence: 'I have a small cut on my finger.',
-          translation: 'Tengo un pequeño corte en el dedo.',
-          hint: 'Usa "on".',
-          explanation: 'Preposición para partes del cuerpo.',
-          points: 10
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u26-e11',
-    type: 'matching',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'medium',
-    content: {
-      title: 'Symptoms',
-      instructions: 'Une la acción con la lesión.',
-      pairs: [
-        { id: '1', left: 'Limping', right: 'Sprained ankle' },
-        { id: '2', left: 'Crying', right: 'Pain / Shock' },
-        { id: '3', left: 'Shaking', right: 'Being scared / Cold' },
-        { id: '4', left: 'Bleeding', right: 'A cut' }
+    "id": "a2-u26-e13",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Travel Experiences",
+    "difficulty": "medium",
+    "transcript": "We stayed in a hotel near the beach.",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[We|...]] [[stayed|...]] [[in|...]] [[a|...]] [[hotel|...]] [[near|...]] [[the|...]] [[beach.|...]]",
+      "words": [
+        "[[beach.|...]]",
+        "[[the|...]]",
+        "[[near|...]]",
+        "[[hotel|...]]",
+        "[[a|...]]",
+        "[[in|...]]",
+        "[[stayed|...]]",
+        "[[We|...]]"
       ],
-      explanation: 'Reacciones físicas ante accidentes.'
-    } as any
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-26/e13.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: 'a2-u26-e12',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'hard',
-    content: {
-      title: 'Recovery',
-      instructions: 'Elige la opción correcta.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'He needs to wear a ___ on his broken leg.',
-          options: ['cast', 'bandage', 'plaster'],
-          correctAnswer: 0,
-          explanation: '"Cast" es una escayola o yeso.'
-        }
-      ]
-    }
-  },
-
-  // --- SUB-TOPIC 2: Adverbs of Degree (13-24) ---
-  {
-    id: 'a2-u26-e13',
-    type: 'flashcard',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'easy',
-    content: {
-      items: [
-        {
-          front: 'Extremadamente / Muy',
-          back: 'Extremely / Very',
-          example: 'It is extremely dangerous to play with fire.',
-          pronunciation: '/ɪkˈstriːmli/ /ˈveri/',
-          explanation: 'Adverbios que intensifican el adjetivo al máximo.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u26-e14',
-    type: 'matching',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'easy',
-    content: {
-      title: 'Degree Adverbs',
-      instructions: 'Une el adverbio con su intensidad.',
-      pairs: [
-        { id: '1', left: 'Extremely', right: 'Very strong (100%)' },
-        { id: '2', left: 'Quite / Fairly', right: 'Medium (60-70%)' },
-        { id: '3', left: 'Slightly / A bit', right: 'Low (20-30%)' }
+    "id": "a2-u26-e14",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Travel Experiences",
+    "difficulty": "medium",
+    "transcript": "The flight was very long but comfortable.",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[The|...]] [[flight|...]] [[was|...]] [[very|...]] [[long|...]] [[but|...]] [[comfortable.|...]]",
+      "words": [
+        "[[very|...]]",
+        "[[comfortable.|...]]",
+        "[[was|...]]",
+        "[[flight|...]]",
+        "[[The|...]]",
+        "[[long|...]]",
+        "[[but|...]]"
       ],
-      explanation: 'Diferentes niveles de intensidad para adjetivos.'
-    } as any
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-26/e14.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: 'a2-u26-e15',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'medium',
-    content: {
-      title: 'Intensity',
-      instructions: 'Elige la opción correcta.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'The injury is ___ painful, but not too serious.',
-          options: ['quite', 'slightly', 'extremely'],
-          correctAnswer: 0,
-          explanation: '"Quite" indica una intensidad moderada.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u26-e16',
-    type: 'fill-blank',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'medium',
-    content: {
-      title: 'A bit of pain',
-      instructions: 'Completa con un adverbio de grado bajo.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'My head hurts ___ . I just need some rest.',
-          correctAnswer: 'slightly',
-          explanation: '"Slightly" significa un poco o ligeramente.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u26-e17',
-    type: 'sentence-building',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'medium',
-    content: {
-      title: 'Very serious',
-      instructions: 'Ordena la frase.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['The', 'car', 'crash', 'was', 'extremely', 'scary', '.'],
-          correctSentence: 'The car crash was extremely scary.',
-          translation: 'El choque de coche fue extremadamente aterrador.',
-          hint: 'Intensidad máxima.',
-          explanation: 'Adverbio antes del adjetivo.',
-          points: 10
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u26-e18',
-    type: 'flashcard',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'easy',
-    content: {
-      items: [
-        {
-          front: 'Bastante (positivo/neutro)',
-          back: 'Fairly',
-          example: 'The road is fairly safe during the day.',
-          pronunciation: '/ˈfeəli/',
-          explanation: 'Indica un grado moderado, similar a "quite".'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u26-e19',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'medium',
-    content: {
-      title: 'Comparing Degree',
-      instructions: 'Elige el adverbio más fuerte.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'The weather is ___ cold! Don’t go outside.',
-          options: ['extremely', 'fairly', 'slightly'],
-          correctAnswer: 0,
-          explanation: 'Necesitamos el grado más alto por la advertencia.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u26-e20',
-    type: 'speaking-analysis',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciation: Extremely',
-      instructions: 'Di "It is extremely hot".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'It is extremely hot',
-          correctAnswer: 'It is extremely hot',
-          explanation: 'Pronuncia "extremely" como /ɪkˈstriːmli/.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u26-e21',
-    type: 'fill-blank',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'hard',
-    content: {
-      title: 'Adverb Choice',
-      instructions: 'Completa con "quite" o "slightly".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'The car is ___ damaged, but we can still drive it.',
-          correctAnswer: 'slightly',
-          explanation: '"Slightly" (un poco) encaja mejor si aún se puede conducir.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u26-e22',
-    type: 'sentence-building',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'medium',
-    content: {
-      title: 'Fairly safe',
-      instructions: 'Ordena la frase.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['This', 'place', 'is', 'fairly', 'safe', 'at', 'night', '.'],
-          correctSentence: 'This place is fairly safe at night.',
-          translation: 'Este lugar es bastante seguro por la noche.',
-          hint: 'Usa "fairly".',
-          explanation: 'Grado moderado.',
-          points: 10
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u26-e23',
-    type: 'matching',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'medium',
-    content: {
-      title: 'Adverb Context',
-      instructions: 'Une el adverbio con la situación lógica.',
-      pairs: [
-        { id: '1', left: 'Extremely dangerous', right: 'Walking on a thin wire' },
-        { id: '2', left: 'Slightly expensive', right: 'A 5% price increase' },
-        { id: '3', left: 'Quite difficult', right: 'A test you need to study for' },
-        { id: '4', left: 'Very happy', right: 'Winning a small prize' }
+    "id": "a2-u26-e15",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Travel Experiences",
+    "difficulty": "medium",
+    "transcript": "I took over five hundred photos!",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[I|...]] [[took|...]] [[over|...]] [[five|...]] [[hundred|...]] [[photos!|...]]",
+      "words": [
+        "[[hundred|...]]",
+        "[[I|...]]",
+        "[[took|...]]",
+        "[[over|...]]",
+        "[[five|...]]",
+        "[[photos!|...]]"
       ],
-      explanation: 'Uso de adverbios según la gravedad de la situación.'
-    } as any
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-26/e15.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: 'a2-u26-e24',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'hard',
-    content: {
-      title: 'Too vs Very',
-      instructions: 'Elige la opción correcta.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'The box is ___ heavy for me to lift.',
-          options: ['too', 'very', 'extremely'],
-          correctAnswer: 0,
-          explanation: 'Usamos "too" cuando la intensidad impide realizar una acción.'
-        }
-      ]
-    }
-  },
-
-  // --- SUB-TOPIC 3: Emergencies & Help (25-36) ---
-  {
-    id: 'a2-u26-e25',
-    type: 'flashcard',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'easy',
-    content: {
-      items: [
-        {
-          front: 'Emergencia',
-          back: 'Emergency',
-          example: 'In case of emergency, call 911.',
-          pronunciation: '/ɪˈmɜːdʒənsi/',
-          explanation: 'Situación crítica que requiere ayuda inmediata.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u24-e26',
-    type: 'matching',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'easy',
-    content: {
-      title: 'Emergency Services',
-      instructions: 'Une el servicio con su traducción.',
-      pairs: [
-        { id: '1', left: 'Ambulance', right: 'Ambulancia' },
-        { id: '2', left: 'Fire engine / truck', right: 'Coche de bomberos' },
-        { id: '3', left: 'Police car', right: 'Coche patrulla' },
-        { id: '4', left: 'Paramedic', right: 'Paramédico' },
-        { id: '5', left: 'Firefighter', right: 'Bombero' }
+    "id": "a2-u26-e16",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Travel Experiences",
+    "difficulty": "medium",
+    "transcript": "Did you try the local food while you were there?",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[Did|...]] [[you|...]] [[try|...]] [[the|...]] [[local|...]] [[food|...]] [[while|...]] [[you|...]] [[were|...]] [[there?|...]]",
+      "words": [
+        "[[the|...]]",
+        "[[try|...]]",
+        "[[while|...]]",
+        "[[food|...]]",
+        "[[there?|...]]",
+        "[[you|...]]",
+        "[[local|...]]",
+        "[[you|...]]",
+        "[[Did|...]]",
+        "[[were|...]]"
       ],
-      explanation: 'Personas y vehículos de emergencia.'
-    } as any
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-26/e16.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: 'a2-u26-e27',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'easy',
-    content: {
-      title: 'Calling for help',
-      instructions: 'Elige la opción correcta.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'We need to call the ___ . There is a fire!',
-          options: ['fire brigade', 'police', 'doctor'],
-          correctAnswer: 0,
-          explanation: '"Fire brigade" es el cuerpo de bomberos.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u26-e28',
-    type: 'fill-blank',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'easy',
-    content: {
-      title: 'Hospital',
-      instructions: 'Completa la frase.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'The ambulance took him to the ___ department.',
-          correctAnswer: 'emergency',
-          explanation: '"Emergency department" es el servicio de urgencias.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u26-e29',
-    type: 'sentence-building',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'medium',
-    content: {
-      title: 'Rescue',
-      instructions: 'Ordena la frase.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['The', 'paramedics', 'saved', 'his', 'life', '.'],
-          correctSentence: 'The paramedics saved his life.',
-          translation: 'Los paramédicos le salvaron la vida.',
-          hint: 'Usa "saved".',
-          explanation: 'Acción heroica en emergencias.',
-          points: 10
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u26-e30',
-    type: 'flashcard',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'easy',
-    content: {
-      items: [
-        {
-          front: 'Primeros auxilios',
-          back: 'First aid',
-          example: 'Every office should have a first aid kit.',
-          pronunciation: '/ˌfɜːst ˈeɪd/',
-          explanation: 'Ayuda inicial a un herido.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u26-e31',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'medium',
-    content: {
-      title: 'Giving help',
-      instructions: 'Elige el verbo correcto.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'The nurse ___ a bandage on my arm.',
-          options: ['put', 'made', 'did'],
-          correctAnswer: 0,
-          explanation: '"Put a bandage" es poner una venda.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u26-e32',
-    type: 'speaking-analysis',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciation: Ambulance',
-      instructions: 'Di "Call an ambulance!".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Call an ambulance!',
-          correctAnswer: 'Call an ambulance!',
-          explanation: 'Pronuncia "ambulance" como /ˈæmbjələns/.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u26-e33',
-    type: 'fill-blank',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'medium',
-    content: {
-      title: 'Emergency call',
-      instructions: 'Completa.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'The operator asked me for my ___ .',
-          correctAnswer: 'location',
-          explanation: 'Necesitan saber dónde estás (location).'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u26-e34',
-    type: 'sentence-building',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'medium',
-    content: {
-      title: 'Stay calm',
-      instructions: 'Ordena la frase.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['It', 'is', 'important', 'to', 'stay', 'calm', '.'],
-          correctSentence: 'It is important to stay calm.',
-          translation: 'Es importante mantener la calma.',
-          hint: 'Usa "stay calm".',
-          explanation: 'Consejo fundamental en emergencias.',
-          points: 10
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u26-e35',
-    type: 'matching',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'medium',
-    content: {
-      title: 'What to do?',
-      instructions: 'Une la emergencia con la acción.',
-      pairs: [
-        { id: '1', left: 'Fire', right: 'Evacuate the building' },
-        { id: '2', left: 'Heart attack', right: 'Perform CPR' },
-        { id: '3', left: 'Small cut', right: 'Apply a plaster' },
-        { id: '4', left: 'Traffic accident', right: 'Call the police' }
+    "id": "a2-u26-e17",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Travel Experiences",
+    "difficulty": "medium",
+    "transcript": "We went on a guided tour of the city.",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[We|...]] [[went|...]] [[on|...]] [[a|...]] [[guided|...]] [[tour|...]] [[of|...]] [[the|...]] [[city.|...]]",
+      "words": [
+        "[[on|...]]",
+        "[[went|...]]",
+        "[[a|...]]",
+        "[[the|...]]",
+        "[[city.|...]]",
+        "[[of|...]]",
+        "[[guided|...]]",
+        "[[tour|...]]",
+        "[[We|...]]"
       ],
-      explanation: 'Acciones correctas ante diferentes problemas.'
-    } as any
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-26/e17.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: 'a2-u26-e36',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'hard',
-    content: {
-      title: 'Life saving',
-      instructions: 'Elige la opción correcta.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'The patient is ___ . They are not breathing.',
-          options: ['unconscious', 'asleep', 'scared'],
-          correctAnswer: 0,
-          explanation: '"Unconscious" significa inconsciente.'
-        }
-      ]
-    }
-  },
-
-  // --- SUB-TOPIC 4: Safety & Prevention (37-45) ---
-  {
-    id: 'a2-u26-e37',
-    type: 'flashcard',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'easy',
-    content: {
-      items: [
-        {
-          front: 'Seguridad',
-          back: 'Safety',
-          example: 'Road safety is very important.',
-          pronunciation: '/ˈseɪfti/',
-          explanation: 'Estado de estar protegido de daños.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u26-e38',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'medium',
-    content: {
-      title: 'Safety rules',
-      instructions: 'Elige la palabra correcta.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'Always wear a ___ in the car.',
-          options: ['seat belt', 'helmet', 'gloves'],
-          correctAnswer: 0,
-          explanation: '"Seat belt" es el cinturón de seguridad.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u26-e39',
-    type: 'fill-blank',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'medium',
-    content: {
-      title: 'Warning signs',
-      instructions: 'Completa la frase.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Look at that ___ ! It says "Danger".',
-          correctAnswer: 'sign',
-          explanation: '"Sign" es un letrero o señal.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u26-e40',
-    type: 'sentence-building',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'medium',
-    content: {
-      title: 'Prevention',
-      instructions: 'Ordena la frase.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['We', 'can', 'prevent', 'most', 'accidents', '.'],
-          correctSentence: 'We can prevent most accidents.',
-          translation: 'Podemos prevenir la mayoría de los accidentes.',
-          hint: 'Usa "prevent".',
-          explanation: '"Prevent" significa evitar que ocurra algo.',
-          points: 10
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u26-e41',
-    type: 'matching',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'medium',
-    content: {
-      title: 'Safety Equipment',
-      instructions: 'Une el equipo con su uso.',
-      pairs: [
-        { id: '1', left: 'Life jacket', right: 'In a boat / sea' },
-        { id: '2', left: 'Fire extinguisher', right: 'To put out a fire' },
-        { id: '3', left: 'Helmet', right: 'On a bike or motorbike' },
-        { id: '4', left: 'Smoke alarm', right: 'Inside a house' }
+    "id": "a2-u26-e18",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Travel Experiences",
+    "difficulty": "medium",
+    "transcript": "The scenery was absolutely beautiful.",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[The|...]] [[scenery|...]] [[was|...]] [[absolutely|...]] [[beautiful.|...]]",
+      "words": [
+        "[[The|...]]",
+        "[[beautiful.|...]]",
+        "[[scenery|...]]",
+        "[[was|...]]",
+        "[[absolutely|...]]"
       ],
-      explanation: 'Elementos que nos mantienen seguros.'
-    } as any
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-26/e18.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: 'a2-u26-e42',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'medium',
-    content: {
-      title: 'Giving advice',
-      instructions: 'Elige la opción correcta.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'You ___ play with matches.',
-          options: ['shouldn’t', 'must', 'can'],
-          correctAnswer: 0,
-          explanation: '"Shouldn’t" para dar consejos negativos de seguridad.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u26-e43',
-    type: 'speaking-analysis',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciation: Danger',
-      instructions: 'Di "Watch out! Danger!".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Watch out! Danger!',
-          correctAnswer: 'Watch out! Danger!',
-          explanation: 'Pronuncia "danger" como /ˈdeɪndʒə/.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u26-e44',
-    type: 'fill-blank',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'hard',
-    content: {
-      title: 'Safe behavior',
-      instructions: 'Completa la frase.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Drive ___ when the roads are wet.',
-          correctAnswer: 'carefully',
-          explanation: 'Adverbio de modo: conducir con cuidado.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u26-e45',
-    type: 'sentence-building',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'hard',
-    content: {
-      title: 'Safety check',
-      instructions: 'Ordena la frase.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['Don’t', 'forget', 'to', 'check', 'the', 'smoke', 'alarms', '.'],
-          correctSentence: 'Don’t forget to check the smoke alarms.',
-          translation: 'No olvides revisar las alarmas de humo.',
-          hint: 'Negativo imperativo.',
-          explanation: 'Mantenimiento de seguridad.',
-          points: 10
-        }
-      ]
-    } as any
-  },
-
-  // --- SUB-TOPIC 5: Review & Mixed Practice (46-50) ---
-  {
-    id: 'a2-u26-e46',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'medium',
-    content: {
-      title: 'Mixed Review',
-      instructions: 'Elige la opción correcta.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'The accident was ___ serious, but he is okay now.',
-          options: ['quite', 'too', 'slightly'],
-          correctAnswer: 0,
-          explanation: '"Quite" indica intensidad moderada.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u26-e47',
-    type: 'fill-blank',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'medium',
-    content: {
-      title: 'Emergency review',
-      instructions: 'Completa.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'He has a ___ leg after the car crash.',
-          correctAnswer: 'broken',
-          explanation: '"Broken leg" es pierna rota.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u26-e48',
-    type: 'sentence-building',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'medium',
-    content: {
-      title: 'Degree review',
-      instructions: 'Ordena la frase.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['I', 'am', 'extremely', 'sorry', 'for', 'the', 'mistake', '.'],
-          correctSentence: 'I am extremely sorry for the mistake.',
-          translation: 'Siento muchísimo el error.',
-          hint: 'Intensidad máxima.',
-          explanation: 'Uso de adverbio de grado.',
-          points: 10
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u26-e49',
-    type: 'matching',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'medium',
-    content: {
-      title: 'Injury Review',
-      instructions: 'Une la lesión con el objeto causante.',
-      pairs: [
-        { id: '1', left: 'Cut', right: 'Knife' },
-        { id: '2', left: 'Burn', right: 'Hot water' },
-        { id: '3', left: 'Slip', right: 'Wet floor' },
-        { id: '4', left: 'Sprain', right: 'Running / Sports' }
+    "id": "a2-u26-e19",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Travel Experiences",
+    "difficulty": "medium",
+    "transcript": "I bought a small souvenir for my mother.",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[I|...]] [[bought|...]] [[a|...]] [[small|...]] [[souvenir|...]] [[for|...]] [[my|...]] [[mother.|...]]",
+      "words": [
+        "[[small|...]]",
+        "[[a|...]]",
+        "[[my|...]]",
+        "[[bought|...]]",
+        "[[mother.|...]]",
+        "[[souvenir|...]]",
+        "[[I|...]]",
+        "[[for|...]]"
       ],
-      explanation: 'Relación de causa y efecto en accidentes.'
-    } as any
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-26/e19.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: 'a2-u26-e50',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Accidents & Emergencies',
-    topicName: 'Accidents & Emergencies',
-    difficulty: 'hard',
-    content: {
-      title: 'Final Challenge',
-      instructions: 'Elige la opción correcta.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'If there is an ___ , you must remain ___ calm.',
-          options: ['emergency / extremely', 'accident / slightly', 'emergency / fairly'],
-          correctAnswer: 0,
-          explanation: 'En una emergencia, la calma debe ser máxima.'
-        }
-      ]
-    }
+    "id": "a2-u26-e20",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Travel Experiences",
+    "difficulty": "medium",
+    "transcript": "We traveled around the island by car.",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[We|...]] [[traveled|...]] [[around|...]] [[the|...]] [[island|...]] [[by|...]] [[car.|...]]",
+      "words": [
+        "[[by|...]]",
+        "[[the|...]]",
+        "[[around|...]]",
+        "[[island|...]]",
+        "[[traveled|...]]",
+        "[[car.|...]]",
+        "[[We|...]]"
+      ],
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-26/e20.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u26-e21",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Travel Experiences",
+    "difficulty": "medium",
+    "transcript": "The weather was perfect for sightseeing.",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[The|...]] [[weather|...]] [[was|...]] [[perfect|...]] [[for|...]] [[sightseeing.|...]]",
+      "words": [
+        "[[sightseeing.|...]]",
+        "[[weather|...]]",
+        "[[The|...]]",
+        "[[perfect|...]]",
+        "[[was|...]]",
+        "[[for|...]]"
+      ],
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-26/e21.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u26-e22",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Travel Experiences",
+    "difficulty": "medium",
+    "transcript": "Don't forget to bring your passport.",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[Don't|...]] [[forget|...]] [[to|...]] [[bring|...]] [[your|...]] [[passport.|...]]",
+      "words": [
+        "[[bring|...]]",
+        "[[to|...]]",
+        "[[passport.|...]]",
+        "[[forget|...]]",
+        "[[your|...]]",
+        "[[Don't|...]]"
+      ],
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-26/e22.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u26-e23",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Travel Experiences",
+    "difficulty": "medium",
+    "transcript": "We had a wonderful holiday in Greece.",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[We|...]] [[had|...]] [[a|...]] [[wonderful|...]] [[holiday|...]] [[in|...]] [[Greece.|...]]",
+      "words": [
+        "[[had|...]]",
+        "[[holiday|...]]",
+        "[[We|...]]",
+        "[[a|...]]",
+        "[[wonderful|...]]",
+        "[[Greece.|...]]",
+        "[[in|...]]"
+      ],
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-26/e23.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u26-e24",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Travel Experiences",
+    "difficulty": "medium",
+    "transcript": "The journey took ten hours by train.",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[The|...]] [[journey|...]] [[took|...]] [[ten|...]] [[hours|...]] [[by|...]] [[train.|...]]",
+      "words": [
+        "[[by|...]]",
+        "[[journey|...]]",
+        "[[train.|...]]",
+        "[[took|...]]",
+        "[[ten|...]]",
+        "[[hours|...]]",
+        "[[The|...]]"
+      ],
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-26/e24.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u26-e25",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Travel Experiences",
+    "difficulty": "medium",
+    "transcript": "I want to go back there next year.",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[I|...]] [[want|...]] [[to|...]] [[go|...]] [[back|...]] [[there|...]] [[next|...]] [[year.|...]]",
+      "words": [
+        "[[year.|...]]",
+        "[[go|...]]",
+        "[[next|...]]",
+        "[[to|...]]",
+        "[[want|...]]",
+        "[[there|...]]",
+        "[[back|...]]",
+        "[[I|...]]"
+      ],
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-26/e25.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u26-e26",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Travel Experiences",
+    "difficulty": "medium",
+    "transcript": "It was the best trip I've ever had.",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[It|...]] [[was|...]] [[the|...]] [[best|...]] [[trip|...]] [[I've|...]] [[ever|...]] [[had.|...]]",
+      "words": [
+        "[[I've|...]]",
+        "[[was|...]]",
+        "[[best|...]]",
+        "[[had.|...]]",
+        "[[It|...]]",
+        "[[trip|...]]",
+        "[[ever|...]]",
+        "[[the|...]]"
+      ],
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-26/e26.mp3",
+    "topicName": "Vocabulary"
   }
 ];

@@ -1,890 +1,279 @@
 import { Exercise } from '@/lib/exercise-generator';
 
-/**
- * Unit 4: House
- */
-
 export const UNIT_4_EXERCISES: Exercise[] = [
   {
-    id: 'a1-u4-e1',
-    type: 'multiple-choice',
-    level: 'A1',
-    topic: 'House',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'Mi casa',
-      instructions: '¿Cómo se dice "casa" en inglés?',
-      questions: [
+    "id": "a1-u4-e1",
+    "type": "flashcard",
+    "level": "A1",
+    "topic": "Alphabet & Spelling",
+    "difficulty": "easy",
+    "transcript": "Alphabet. Letter. Spell. Word. Vowel. Consonant. Apple. Ball. Cat. Dog",
+    "content": {
+      "title": "Vocabulario Clave",
+      "instructions": "Aprende las palabras más importantes de la unidad.",
+      "items": [
         {
-          id: 'q1',
-          question: 'This is my ________.',
-          options: ['house', 'room', 'garden'],
-          correctAnswer: 0,
-          explanation: '"House" es la palabra estándar para referirse a la construcción física de una casa.'
+          "front": "[[Alphabet|Alfabeto]]",
+          "back": "Alfabeto"
+        },
+        {
+          "front": "[[Letter|Letra]]",
+          "back": "Letra"
+        },
+        {
+          "front": "[[Spell|Deletrear]]",
+          "back": "Deletrear"
+        },
+        {
+          "front": "[[Word|Palabra]]",
+          "back": "Palabra"
+        },
+        {
+          "front": "[[Vowel|Vocal]]",
+          "back": "Vocal"
+        },
+        {
+          "front": "[[Consonant|Consonante]]",
+          "back": "Consonante"
+        },
+        {
+          "front": "[[Apple|Manzana]]",
+          "back": "Manzana"
+        },
+        {
+          "front": "[[Ball|Pelota]]",
+          "back": "Pelota"
+        },
+        {
+          "front": "[[Cat|Gato]]",
+          "back": "Gato"
+        },
+        {
+          "front": "[[Dog|Perro]]",
+          "back": "Perro"
         }
       ]
-    }
+    },
+    "audioUrl": "audio/a1/unit-4/e1.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: 'a1-u4-e2',
-    type: 'flashcard',
-    level: 'A1',
-    topic: 'House',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      items: [
+    "id": "a1-u4-e2",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Alphabet & Spelling",
+    "difficulty": "easy",
+    "transcript": "How do you  spell your name?",
+    "content": {
+      "title": "Practica la Gramática",
+      "instructions": "Completa la oración con la opción correcta.",
+      "questions": [
         {
-          front: 'Habitación / Cuarto',
-          back: 'Room',
-          example: 'This is my room.',
-          pronunciation: '/ruːm/',
-          explanation: '"Room" se utiliza para cualquier habitación de la casa.'
+          "question": "[[How|traducción]] [[do|traducción]] [[you|traducción]] [[(deletrear)|traducción]] _______ [[your|traducción]] [[name|traducción]]",
+          "options": [
+            "[[is|es]]",
+            "[[spell|spell]]",
+            "[[are|están]]"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
-    } as any
+    },
+    "audioUrl": "audio/a1/unit-4/e2.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: 'a1-u4-e3',
-    type: 'sentence-building',
-    level: 'A1',
-    topic: 'Demonstratives',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'Esta es...',
-      instructions: 'Ordena las palabras para traducir "Esta es mi casa".',
-      sentences: [
+    "id": "a1-u4-e3",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Alphabet & Spelling",
+    "difficulty": "easy",
+    "transcript": "'A' is a  vowel.",
+    "content": {
+      "title": "Practica la Gramática",
+      "instructions": "Completa la oración con la opción correcta.",
+      "questions": [
         {
-          id: 's1',
-          words: ['house', 'is', 'my', 'This'],
-          correctSentence: 'This is my house',
-          translation: 'Esta es mi casa.',
-          hint: 'Empieza con "This".',
-          explanation: '"This is" se utiliza para presentar algo que está cerca de nosotros.'
+          "question": "[['A'|traducción]] [[is|traducción]] [[a|traducción]] [[(vocal)|traducción]] [[_______|traducción]]",
+          "options": [
+            "[[are|están]]",
+            "[[is|es]]",
+            "[[vowel|vowel]]"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
-    } as any
+    },
+    "audioUrl": "audio/a1/unit-4/e3.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: 'a1-u4-e4',
-    type: 'multiple-choice',
-    level: 'A1',
-    topic: 'Rooms',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'La cocina',
-      instructions: '¿Cuál es la palabra para "cocina"?',
-      questions: [
+    "id": "a1-u4-e4",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Alphabet & Spelling",
+    "difficulty": "easy",
+    "transcript": "There are 26  letters in English.",
+    "content": {
+      "title": "Practica la Gramática",
+      "instructions": "Completa la oración con la opción correcta.",
+      "questions": [
         {
-          id: 'q1',
-          question: 'The ________ is big.',
-          options: ['bathroom', 'kitchen', 'bedroom'],
-          correctAnswer: 1,
-          explanation: '"Kitchen" significa cocina. ¡No la confundas con "chicken" (pollo)!'
+          "question": "[[There|traducción]] [[are|traducción]] [[26|traducción]] [[(letras)|traducción]] _______ [[in|traducción]] [[English|traducción]]",
+          "options": [
+            "[[letters|letters]]",
+            "[[is|es]]",
+            "[[are|están]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
-    }
+    },
+    "audioUrl": "audio/a1/unit-4/e4.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: 'a1-u4-e6',
-    type: 'matching',
-    level: 'A1',
-    topic: 'Rooms',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'Partes de la casa',
-      instructions: 'Une el español con el inglés.',
-      pairs: [
-        { id: '1', left: 'Casa', right: 'House' },
-        { id: '2', left: 'Cocina', right: 'Kitchen' },
-        { id: '3', left: 'Cuarto', right: 'Room' },
-        { id: '4', left: 'Jardín', right: 'Garden' },
-        { id: '5', left: 'Baño', right: 'Bathroom' }
+    "id": "a1-u4-e5",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Alphabet & Spelling",
+    "difficulty": "easy",
+    "transcript": "'B' is a  consonant.",
+    "content": {
+      "title": "Practica la Gramática",
+      "instructions": "Completa la oración con la opción correcta.",
+      "questions": [
+        {
+          "question": "[['B'|traducción]] [[is|traducción]] [[a|traducción]] [[(consonante)|traducción]] [[_______|traducción]]",
+          "options": [
+            "[[consonant|consonant]]",
+            "[[is|es]]",
+            "[[are|están]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Práctica de la estructura gramatical básica."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-4/e5.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u4-e6",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Alphabet & Spelling",
+    "difficulty": "easy",
+    "transcript": "Can you spell that, please?",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[Can|...]] [[you|...]] [[spell|...]] [[that,|...]] [[please?|...]]",
+      "words": [
+        "[[please?|...]]",
+        "[[you|...]]",
+        "[[Can|...]]",
+        "[[that,|...]]",
+        "[[spell|...]]"
       ],
-      explanation: 'Conocer las partes básicas de la casa te ayudará a orientarte y describir dónde estás.'
-    } as any
+      "explanation": "Practica el orden de las palabras en inglés."
+    },
+    "audioUrl": "audio/a1/unit-4/e6.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: 'a1-u4-e7',
-    type: 'fill-blank',
-    level: 'A1',
-    topic: 'Rooms',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'El baño',
-      instructions: 'Escribe la palabra para "baño".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'The ___ is clean.',
-          correctAnswer: 'bathroom',
-          explanation: '"Bathroom" se compone de "bath" (baño/bañera) y "room" (habitación).'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u4-e8',
-    type: 'multiple-choice',
-    level: 'A1',
-    topic: 'Rooms',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'El dormitorio',
-      instructions: '¿Cómo se dice "dormitorio"?',
-      questions: [
-        {
-          id: 'q1',
-          question: 'I am in my ________.',
-          options: ['kitchen', 'bedroom', 'garden'],
-          correctAnswer: 1,
-          explanation: '"Bedroom" viene de "bed" (cama) y "room" (habitación).'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u4-e9',
-    type: 'flashcard',
-    level: 'A1',
-    topic: 'Rooms',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      items: [
-        {
-          front: 'Salón / Sala de estar',
-          back: 'Living room',
-          example: 'My living room is small.',
-          pronunciation: '/ˈlɪvɪŋ ruːm/',
-          explanation: 'Es el lugar donde se hace la vida (living) común en la casa.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u4-e10',
-    type: 'sentence-building',
-    level: 'A1',
-    topic: 'Rooms',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'Mi dormitorio',
-      instructions: 'Ordena para traducir "Mi dormitorio".',
-      sentences: [
-        {
-          id: 's1',
-          words: ['bedroom', 'My'],
-          correctSentence: 'My bedroom',
-          translation: 'Mi dormitorio.',
-          hint: 'Usa "My".',
-          explanation: 'La estructura Posesivo + Sustantivo es directa en este caso.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u4-e11',
-    type: 'multiple-choice',
-    level: 'A1',
-    topic: 'House',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'El jardín',
-      instructions: '¿Cuál es la palabra para "jardín"?',
-      questions: [
-        {
-          id: 'q1',
-          question: 'The ________ is green.',
-          options: ['garden', 'kitchen', 'house'],
-          correctAnswer: 0,
-          explanation: '"Garden" es jardín. Si es muy grande, a veces se le llama "yard" en EE.UU.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u4-e13',
-    type: 'matching',
-    level: 'A1',
-    topic: 'Rooms',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'Habitaciones principales',
-      instructions: 'Une cada habitación con su nombre en inglés.',
-      pairs: [
-        { id: '1', left: 'Dormitorio', right: 'Bedroom' },
-        { id: '2', left: 'Baño', right: 'Bathroom' },
-        { id: '3', left: 'Jardín', right: 'Garden' },
-        { id: '4', left: 'Salón', right: 'Living room' },
-        { id: '5', left: 'Garaje', right: 'Garage' }
+    "id": "a1-u4-e7",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Alphabet & Spelling",
+    "difficulty": "easy",
+    "transcript": "English has five vowels.",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[English|...]] [[has|...]] [[five|...]] [[vowels.|...]]",
+      "words": [
+        "[[vowels.|...]]",
+        "[[five|...]]",
+        "[[has|...]]",
+        "[[English|...]]"
       ],
-      explanation: 'Dominar estos nombres te permitirá describir cualquier vivienda.'
-    } as any
+      "explanation": "Practica el orden de las palabras en inglés."
+    },
+    "audioUrl": "audio/a1/unit-4/e7.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: 'a1-u4-e14',
-    type: 'fill-blank',
-    level: 'A1',
-    topic: 'House',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'Mi salón',
-      instructions: 'Escribe la palabra para "habitación" que completa "salón".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'My living ___.',
-          correctAnswer: 'room',
-          explanation: '"Living room" es la expresión completa para salón.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u4-e15',
-    type: 'multiple-choice',
-    level: 'A1',
-    topic: 'Demonstratives',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'Esto es...',
-      instructions: '¿Cómo se dice "Esto es" para algo cercano?',
-      questions: [
-        {
-          id: 'q1',
-          question: '________ is a table.',
-          options: ['This', 'These', 'That'],
-          correctAnswer: 0,
-          explanation: '"This" se usa para un solo objeto que puedes tocar o que está muy cerca.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u4-e16',
-    type: 'flashcard',
-    level: 'A1',
-    topic: 'Furniture',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      items: [
-        {
-          front: 'Mesa',
-          back: 'Table',
-          example: 'This is a table.',
-          pronunciation: '/ˈteɪbl/',
-          explanation: 'Se pronuncia /ˈteɪ.bəl/, la "e" final es muda.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u4-e17',
-    type: 'sentence-building',
-    level: 'A1',
-    topic: 'House',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'Tu cocina',
-      instructions: 'Ordena para traducir "Tu cocina".',
-      sentences: [
-        {
-          id: 's1',
-          words: ['kitchen', 'Your'],
-          correctSentence: 'Your kitchen',
-          translation: 'Tu cocina.',
-          hint: 'Usa "Your".',
-          explanation: 'Recuerda que "Your" es el posesivo para "tú".'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u4-e18',
-    type: 'multiple-choice',
-    level: 'A1',
-    topic: 'Furniture',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'Silla',
-      instructions: '¿Cómo se dice "silla"?',
-      questions: [
-        {
-          id: 'q1',
-          question: 'A ________ in the room.',
-          options: ['chair', 'table', 'door'],
-          correctAnswer: 0,
-          explanation: '"Chair" es silla. La "ch" suena fuerte.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u4-e20',
-    type: 'matching',
-    level: 'A1',
-    topic: 'Furniture',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'Muebles básicos',
-      instructions: 'Une cada mueble con su nombre en inglés.',
-      pairs: [
-        { id: '1', left: 'Mesa', right: 'Table' },
-        { id: '2', left: 'Silla', right: 'Chair' },
-        { id: '3', left: 'Puerta', right: 'Door' },
-        { id: '4', left: 'Sofá', right: 'Sofa' },
-        { id: '5', left: 'Cama', right: 'Bed' }
+    "id": "a1-u4-e8",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Alphabet & Spelling",
+    "difficulty": "easy",
+    "transcript": "How many letters are in this word?",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[How|...]] [[many|...]] [[letters|...]] [[are|...]] [[in|...]] [[this|...]] [[word?|...]]",
+      "words": [
+        "[[word?|...]]",
+        "[[many|...]]",
+        "[[How|...]]",
+        "[[in|...]]",
+        "[[letters|...]]",
+        "[[this|...]]",
+        "[[are|...]]"
       ],
-      explanation: 'Estos son los objetos más comunes que encontrarás en cualquier habitación.'
-    } as any
+      "explanation": "Practica el orden de las palabras en inglés."
+    },
+    "audioUrl": "audio/a1/unit-4/e8.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: 'a1-u4-e21',
-    type: 'fill-blank',
-    level: 'A1',
-    topic: 'House',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'Una puerta',
-      instructions: 'Escribe la palabra para "puerta".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'This is a ___.',
-          correctAnswer: 'door',
-          explanation: '"Door" se pronuncia casi como "dor" en español, pero más abierta.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u4-e22',
-    type: 'multiple-choice',
-    level: 'A1',
-    topic: 'Furniture',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'Cama',
-      instructions: '¿Cuál es la palabra para "cama"?',
-      questions: [
-        {
-          id: 'q1',
-          question: 'A big ________.',
-          options: ['bed', 'bath', 'box'],
-          correctAnswer: 0,
-          explanation: '"Bed" es cama. Corta y simple.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u4-e23',
-    type: 'flashcard',
-    level: 'A1',
-    topic: 'House',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      items: [
-        {
-          front: 'Ventana',
-          back: 'Window',
-          example: 'Open the window.',
-          pronunciation: '/ˈwɪndoʊ/',
-          explanation: '"Window" literalmente significa "ojo del viento" en su origen etimológico.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u4-e24',
-    type: 'sentence-building',
-    level: 'A1',
-    topic: 'Furniture',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'Una mesa',
-      instructions: 'Ordena para decir "Esto es una mesa".',
-      sentences: [
-        {
-          id: 's1',
-          words: ['table', 'a', 'is', 'This'],
-          correctSentence: 'This is a table',
-          translation: 'Esto es una mesa.',
-          hint: 'Empieza con "This".',
-          explanation: 'Mantenemos la estructura: Sujeto + Verbo + Complemento.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u4-e25',
-    type: 'multiple-choice',
-    level: 'A1',
-    topic: 'House',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'La ventana',
-      instructions: '¿Cómo se dice "ventana"?',
-      questions: [
-        {
-          id: 'q1',
-          question: 'The ________ is open.',
-          options: ['window', 'door', 'wall'],
-          correctAnswer: 0,
-          explanation: '"Window" es la traducción correcta.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u4-e27',
-    type: 'matching',
-    level: 'A1',
-    topic: 'House',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'Elementos estructurales',
-      instructions: 'Une cada elemento con su nombre en inglés.',
-      pairs: [
-        { id: '1', left: 'Cama', right: 'Bed' },
-        { id: '2', left: 'Ventana', right: 'Window' },
-        { id: '3', left: 'Pared', right: 'Wall' },
-        { id: '4', left: 'Suelo', right: 'Floor' },
-        { id: '5', left: 'Techo', right: 'Ceiling' }
+    "id": "a1-u4-e9",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Alphabet & Spelling",
+    "difficulty": "easy",
+    "transcript": "Apple starts with A.",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[Apple|...]] [[starts|...]] [[with|...]] [[A.|...]]",
+      "words": [
+        "[[Apple|...]]",
+        "[[starts|...]]",
+        "[[with|...]]",
+        "[[A.|...]]"
       ],
-      explanation: 'Estos términos describen la estructura misma de cualquier habitación.'
-    } as any
+      "explanation": "Practica el orden de las palabras en inglés."
+    },
+    "audioUrl": "audio/a1/unit-4/e9.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: 'a1-u4-e28',
-    type: 'fill-blank',
-    level: 'A1',
-    topic: 'House',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'La pared',
-      instructions: 'Escribe la palabra para "pared".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'The ___ is white.',
-          correctAnswer: 'wall',
-          explanation: '"Wall" es pared. Se pronuncia casi como "uol".'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u4-e29',
-    type: 'multiple-choice',
-    level: 'A1',
-    topic: 'Furniture',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'Sofá',
-      instructions: '¿Cómo se dice "sofá"?',
-      questions: [
-        {
-          id: 'q1',
-          question: 'The ________ is comfortable.',
-          options: ['sofa', 'chair', 'table'],
-          correctAnswer: 0,
-          explanation: '"Sofa" es una palabra universal que entenderán en cualquier sitio.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u4-e30',
-    type: 'flashcard',
-    level: 'A1',
-    topic: 'Rooms',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      items: [
-        {
-          front: 'Comedor',
-          back: 'Dining room',
-          example: 'The dining room is here.',
-          pronunciation: '/ˈdaɪnɪŋ ruːm/',
-          explanation: '"Dining" viene del verbo "dine" (cenar/comer formalmente).'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u4-e31',
-    type: 'sentence-building',
-    level: 'A1',
-    topic: 'House',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'Una silla',
-      instructions: 'Ordena para decir "Esto es una silla".',
-      sentences: [
-        {
-          id: 's1',
-          words: ['chair', 'a', 'is', 'This'],
-          correctSentence: 'This is a chair',
-          translation: 'Esto es una silla.',
-          hint: 'Usa "This is".',
-          explanation: '"A" se usa antes de palabras que empiezan con sonido de consonante (como chair).'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u4-e32',
-    type: 'multiple-choice',
-    level: 'A1',
-    topic: 'Rooms',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'El comedor',
-      instructions: '¿Cuál es el "comedor"?',
-      questions: [
-        {
-          id: 'q1',
-          question: 'Eat in the ________.',
-          options: ['dining room', 'bedroom', 'bathroom'],
-          correctAnswer: 0,
-          explanation: '"Dining room" es el lugar específico para comer.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u4-e34',
-    type: 'matching',
-    level: 'A1',
-    topic: 'Rooms',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'Zonas comunes y extras',
-      instructions: 'Une cada zona con su traducción.',
-      pairs: [
-        { id: '1', left: 'Salón', right: 'Living room' },
-        { id: '2', left: 'Comedor', right: 'Dining room' },
-        { id: '3', left: 'Pasillo', right: 'Hallway' },
-        { id: '4', left: 'Entrada', right: 'Entrance' },
-        { id: '5', left: 'Escaleras', right: 'Stairs' }
+    "id": "a1-u4-e10",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Alphabet & Spelling",
+    "difficulty": "easy",
+    "transcript": "Spell your name for me.",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[Spell|...]] [[your|...]] [[name|...]] [[for|...]] [[me.|...]]",
+      "words": [
+        "[[Spell|...]]",
+        "[[your|...]]",
+        "[[name|...]]",
+        "[[for|...]]",
+        "[[me.|...]]"
       ],
-      explanation: 'Estas palabras te ayudarán a dar direcciones dentro de una casa.'
-    } as any
-  },
-  {
-    id: 'a1-u4-e35',
-    type: 'fill-blank',
-    level: 'A1',
-    topic: 'House',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'El pasillo',
-      instructions: 'Escribe la palabra para "pasillo".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'The ___ is long.',
-          correctAnswer: 'hallway',
-          explanation: '"Hallway" es el corredor o pasillo de la casa.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u4-e36',
-    type: 'multiple-choice',
-    level: 'A1',
-    topic: 'House',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'Llave',
-      instructions: '¿Cómo se dice "llave"?',
-      questions: [
-        {
-          id: 'q1',
-          question: 'Where is my ________?',
-          options: ['key', 'door', 'lock'],
-          correctAnswer: 0,
-          explanation: '"Key" es llave. Se pronuncia como la letra "K".'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u4-e37',
-    type: 'flashcard',
-    level: 'A1',
-    topic: 'House',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      items: [
-        {
-          front: 'Suelo',
-          back: 'Floor',
-          example: 'The floor is clean.',
-          pronunciation: '/flɔːr/',
-          explanation: 'También se usa "floor" para referirse a la planta o piso de un edificio (1st floor, 2nd floor).'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u4-e38',
-    type: 'sentence-building',
-    level: 'A1',
-    topic: 'Demonstratives',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'Mi cuarto',
-      instructions: 'Ordena para decir "Este es mi cuarto".',
-      sentences: [
-        {
-          id: 's1',
-          words: ['room', 'my', 'is', 'This'],
-          correctSentence: 'This is my room',
-          translation: 'Este es mi cuarto.',
-          hint: 'Empieza con "This".',
-          explanation: 'Usamos "This is" para señalar nuestra propia habitación.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u4-e39',
-    type: 'multiple-choice',
-    level: 'A1',
-    topic: 'House',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'Techo',
-      instructions: '¿Cuál es la palabra para "techo" (interior)?',
-      questions: [
-        {
-          id: 'q1',
-          question: 'The ________ is high.',
-          options: ['ceiling', 'floor', 'wall'],
-          correctAnswer: 0,
-          explanation: '"Ceiling" es el techo que ves desde dentro. El exterior se llama "roof".'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u4-e41',
-    type: 'matching',
-    level: 'A1',
-    topic: 'House',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'Objetos y partes finales',
-      instructions: 'Une cada objeto con su nombre en inglés.',
-      pairs: [
-        { id: '1', left: 'Llave', right: 'Key' },
-        { id: '2', left: 'Suelo', right: 'Floor' },
-        { id: '3', left: 'Techo', right: 'Ceiling' },
-        { id: '4', left: 'Lámpara', right: 'Lamp' },
-        { id: '5', left: 'Espejo', right: 'Mirror' }
-      ],
-      explanation: 'Detalles finales para completar tu descripción de una casa.'
-    } as any
-  },
-  {
-    id: 'a1-u4-e42',
-    type: 'fill-blank',
-    level: 'A1',
-    topic: 'House',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'La llave',
-      instructions: 'Escribe la palabra para "llave".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'I have the ___.',
-          correctAnswer: 'key',
-          explanation: '"Key" es llave.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u4-e43',
-    type: 'multiple-choice',
-    level: 'A1',
-    topic: 'House',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'Lámpara',
-      instructions: '¿Cómo se dice "lámpara"?',
-      questions: [
-        {
-          id: 'q1',
-          question: 'A small ________.',
-          options: ['lamp', 'light', 'bulb'],
-          correctAnswer: 0,
-          explanation: '"Lamp" es lámpara. Muy parecida al español.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u4-e44',
-    type: 'flashcard',
-    level: 'A1',
-    topic: 'House',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      items: [
-        {
-          front: 'Espejo',
-          back: 'Mirror',
-          example: 'I see a mirror.',
-          pronunciation: '/ˈmɪrər/',
-          explanation: 'Se pronuncia /ˈmɪr.ər/.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u4-e45',
-    type: 'sentence-building',
-    level: 'A1',
-    topic: 'House',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'Mi cocina es grande',
-      instructions: 'Ordena para traducir "Mi cocina es grande".',
-      sentences: [
-        {
-          id: 's1',
-          words: ['big', 'is', 'kitchen', 'My'],
-          correctSentence: 'My kitchen is big',
-          translation: 'Mi cocina es grande.',
-          hint: 'Usa "is big".',
-          explanation: 'Estructura: Sujeto + Verbo "to be" + Adjetivo.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u4-e46',
-    type: 'multiple-choice',
-    level: 'A1',
-    topic: 'Adjectives',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'Grande o pequeño',
-      instructions: '¿Qué significa "small"?',
-      questions: [
-        {
-          id: 'q1',
-          question: 'The room is ________.',
-          options: ['small', 'big', 'new'],
-          correctAnswer: 0,
-          explanation: '"Small" significa pequeño.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u4-e48',
-    type: 'matching',
-    level: 'A1',
-    topic: 'Adjectives',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'Describiendo la casa',
-      instructions: 'Une cada adjetivo con su significado.',
-      pairs: [
-        { id: '1', left: 'Big', right: 'Grande' },
-        { id: '2', left: 'Small', right: 'Pequeño' },
-        { id: '3', left: 'Clean', right: 'Limpio' },
-        { id: '4', left: 'New', right: 'Nuevo' },
-        { id: '5', left: 'Old', right: 'Viejo' }
-      ],
-      explanation: 'Estos adjetivos te permiten dar más detalles sobre cómo es una casa.'
-    } as any
-  },
-  {
-    id: 'a1-u4-e49',
-    type: 'fill-blank',
-    level: 'A1',
-    topic: 'Adjectives',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'Limpio',
-      instructions: 'Escribe la palabra para "limpio".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'The house is ___ish.',
-          correctAnswer: 'clean',
-          explanation: '"Clean" significa limpio. (Nota: ignoramos el sufijo -ish por ahora).'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u4-e50',
-    type: 'multiple-choice',
-    level: 'A1',
-    topic: 'House',
-    topicName: 'Home Sweet Home',
-    difficulty: 'easy',
-    content: {
-      title: 'Resumen de casa',
-      instructions: '¿Dónde duermes?',
-      questions: [
-        {
-          id: 'q1',
-          question: 'I sleep in the ________.',
-          options: ['bedroom', 'kitchen', 'bathroom'],
-          correctAnswer: 0,
-          explanation: '"Bedroom" es el lugar destinado al descanso.'
-        }
-      ]
-    }
+      "explanation": "Practica el orden de las palabras en inglés."
+    },
+    "audioUrl": "audio/a1/unit-4/e10.mp3",
+    "topicName": "Vocabulary"
   }
 ];

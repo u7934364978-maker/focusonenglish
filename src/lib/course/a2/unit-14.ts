@@ -1,1044 +1,702 @@
 import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_14_EXERCISES: Exercise[] = [
-  // --- SUB-TOPIC 1: Digital Devices (1-10) ---
   {
-    id: 'a2-u14-e1',
-    type: 'flashcard',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'easy',
-    content: {
-      items: [
+    "id": "a2-u14-e1",
+    "type": "flashcard",
+    "level": "A2",
+    "topic": "At the Restaurant",
+    "difficulty": "medium",
+    "transcript": "Table. Waiter. Menu. Bill. Tip. Order. Main course. Starter. Dessert. Drink. Steak. Soup. Delicious. Reservation. Salt",
+    "content": {
+      "title": "Vocabulario Clave",
+      "instructions": "Aprende las palabras más importantes de la unidad.",
+      "items": [
         {
-          front: 'Dispositivo / Aparato',
-          back: 'Device / Gadget',
-          example: 'A smartphone is a versatile device.',
-          pronunciation: '/dɪˈvaɪs/',
-          explanation: 'Término general para aparatos electrónicos.'
+          "front": "[[Table|Mesa]]",
+          "back": "Mesa"
+        },
+        {
+          "front": "[[Waiter|Camarero/a]]",
+          "back": "Camarero/a"
+        },
+        {
+          "front": "[[Menu|Carta/Menú]]",
+          "back": "Carta/Menú"
+        },
+        {
+          "front": "[[Bill|Cuenta]]",
+          "back": "Cuenta"
+        },
+        {
+          "front": "[[Tip|Propina]]",
+          "back": "Propina"
+        },
+        {
+          "front": "[[Order|Pedir/Pedido]]",
+          "back": "Pedir/Pedido"
+        },
+        {
+          "front": "[[Main course|Plato principal]]",
+          "back": "Plato principal"
+        },
+        {
+          "front": "[[Starter|Entrante]]",
+          "back": "Entrante"
+        },
+        {
+          "front": "[[Dessert|Postre]]",
+          "back": "Postre"
+        },
+        {
+          "front": "[[Drink|Bebida]]",
+          "back": "Bebida"
+        },
+        {
+          "front": "[[Steak|Filete/Chuletón]]",
+          "back": "Filete/Chuletón"
+        },
+        {
+          "front": "[[Soup|Sopa]]",
+          "back": "Sopa"
+        },
+        {
+          "front": "[[Delicious|Delicioso/a]]",
+          "back": "Delicioso/a"
+        },
+        {
+          "front": "[[Reservation|Reserva]]",
+          "back": "Reserva"
+        },
+        {
+          "front": "[[Salt|Sal]]",
+          "back": "Sal"
         }
       ]
-    } as any
+    },
+    "audioUrl": "audio/a2/unit-14/e1.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: 'a2-u14-e2',
-    type: 'matching',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'easy',
-    content: {
-      title: 'Modern Gadgets',
-      instructions: 'Une el dispositivo con su traducción.',
-      pairs: [
-        { id: '1', left: 'Headphones', right: 'Auriculares' },
-        { id: '2', left: 'Tablet', right: 'Tableta' },
-        { id: '3', left: 'Smartwatch', right: 'Reloj inteligente' },
-        { id: '4', left: 'Laptop', right: 'Portátil' },
-        { id: '5', left: 'Charger', right: 'Cargador' }
+    "id": "a2-u14-e2",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "At the Restaurant",
+    "difficulty": "medium",
+    "transcript": "I  would like a table for two.",
+    "content": {
+      "title": "Practica la Gramática",
+      "instructions": "Completa la oración con la opción correcta.",
+      "questions": [
+        {
+          "question": "[[I|traducción]] [[(would|traducción]] [[like)|traducción]] _______ [[a|traducción]] [[table|traducción]] [[for|traducción]] [[two|traducción]]",
+          "options": [
+            "[[would like|would like]]",
+            "[[to|a]]",
+            "[[it|lo]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Práctica de la estructura gramatical A2."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-14/e2.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u14-e3",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "At the Restaurant",
+    "difficulty": "medium",
+    "transcript": "What would you like to drink?",
+    "content": {
+      "title": "Practica la Gramática",
+      "instructions": "Completa la oración con la opción correcta.",
+      "questions": [
+        {
+          "question": "[[What|traducción]] _______ [[you|traducción]] [[like|traducción]] [[to|traducción]] [[drink|traducción]]",
+          "options": [
+            "[[to|a]]",
+            "[[it|lo]]",
+            "[[would|would]]"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Práctica de la estructura gramatical A2."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-14/e3.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u14-e4",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "At the Restaurant",
+    "difficulty": "medium",
+    "transcript": "He  is having the steak.",
+    "content": {
+      "title": "Practica la Gramática",
+      "instructions": "Completa la oración con la opción correcta.",
+      "questions": [
+        {
+          "question": "[[He|traducción]] [[(be)|traducción]] _______ [[having|traducción]] [[the|traducción]] [[steak|traducción]]",
+          "options": [
+            "[[is|is]]",
+            "[[to|a]]",
+            "[[it|lo]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Práctica de la estructura gramatical A2."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-14/e4.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u14-e5",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "At the Restaurant",
+    "difficulty": "medium",
+    "transcript": "We  are not ready to order yet.",
+    "content": {
+      "title": "Practica la Gramática",
+      "instructions": "Completa la oración con la opción correcta.",
+      "questions": [
+        {
+          "question": "[[We|traducción]] [[(not/be)|traducción]] _______ [[ready|traducción]] [[to|traducción]] [[order|traducción]] [[yet|traducción]]",
+          "options": [
+            "[[are not|are not]]",
+            "[[to|a]]",
+            "[[it|lo]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Práctica de la estructura gramatical A2."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-14/e5.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u14-e6",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "At the Restaurant",
+    "difficulty": "medium",
+    "transcript": "Can I have  the bill, please?",
+    "content": {
+      "title": "Practica la Gramática",
+      "instructions": "Completa la oración con la opción correcta.",
+      "questions": [
+        {
+          "question": "[[Can|traducción]] [[I|traducción]] _______ [[(have)|traducción]] [[the|traducción]] [[bill|traducción]] [[please|traducción]]",
+          "options": [
+            "[[have|have]]",
+            "[[it|lo]]",
+            "[[to|a]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Práctica de la estructura gramatical A2."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-14/e6.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u14-e7",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "At the Restaurant",
+    "difficulty": "medium",
+    "transcript": "She  thinks the soup is too salty.",
+    "content": {
+      "title": "Practica la Gramática",
+      "instructions": "Completa la oración con la opción correcta.",
+      "questions": [
+        {
+          "question": "[[She|traducción]] [[(think)|traducción]] _______ [[the|traducción]] [[soup|traducción]] [[is|traducción]] [[too|traducción]] [[salty|traducción]]",
+          "options": [
+            "[[it|lo]]",
+            "[[thinks|thinks]]",
+            "[[to|a]]"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Práctica de la estructura gramatical A2."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-14/e7.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u14-e8",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "At the Restaurant",
+    "difficulty": "medium",
+    "transcript": "They  are waiting for their food.",
+    "content": {
+      "title": "Practica la Gramática",
+      "instructions": "Completa la oración con la opción correcta.",
+      "questions": [
+        {
+          "question": "[[They|traducción]] [[(be)|traducción]] _______ [[waiting|traducción]] [[for|traducción]] [[their|traducción]] [[food|traducción]]",
+          "options": [
+            "[[it|lo]]",
+            "[[to|a]]",
+            "[[are|are]]"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Práctica de la estructura gramatical A2."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-14/e8.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u14-e9",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "At the Restaurant",
+    "difficulty": "medium",
+    "transcript": "Does the service include  a tip?",
+    "content": {
+      "title": "Practica la Gramática",
+      "instructions": "Completa la oración con la opción correcta.",
+      "questions": [
+        {
+          "question": "[[Does|traducción]] [[the|traducción]] [[service|traducción]] _______ [[(include)|traducción]] [[a|traducción]] [[tip|traducción]]",
+          "options": [
+            "[[to|a]]",
+            "[[it|lo]]",
+            "[[include|include]]"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Práctica de la estructura gramatical A2."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-14/e9.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u14-e10",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "At the Restaurant",
+    "difficulty": "medium",
+    "transcript": "I  prefer a window table.",
+    "content": {
+      "title": "Practica la Gramática",
+      "instructions": "Completa la oración con la opción correcta.",
+      "questions": [
+        {
+          "question": "[[I|traducción]] [[(prefer)|traducción]] _______ [[a|traducción]] [[window|traducción]] [[table|traducción]]",
+          "options": [
+            "[[prefer|prefer]]",
+            "[[to|a]]",
+            "[[it|lo]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Práctica de la estructura gramatical A2."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-14/e10.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u14-e11",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "At the Restaurant",
+    "difficulty": "medium",
+    "transcript": "You  should try the fish.",
+    "content": {
+      "title": "Practica la Gramática",
+      "instructions": "Completa la oración con la opción correcta.",
+      "questions": [
+        {
+          "question": "[[You|traducción]] [[(should/try)|traducción]] _______ [[the|traducción]] [[fish|traducción]]",
+          "options": [
+            "[[to|a]]",
+            "[[it|lo]]",
+            "[[should try|should try]]"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Práctica de la estructura gramatical A2."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-14/e11.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u14-e12",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "At the Restaurant",
+    "difficulty": "medium",
+    "transcript": "I'd like to book a table for eight o'clock.",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[I'd|...]] [[like|...]] [[to|...]] [[book|...]] [[a|...]] [[table|...]] [[for|...]] [[eight|...]] [[o'clock.|...]]",
+      "words": [
+        "[[table|...]]",
+        "[[eight|...]]",
+        "[[o'clock.|...]]",
+        "[[for|...]]",
+        "[[a|...]]",
+        "[[I'd|...]]",
+        "[[like|...]]",
+        "[[to|...]]",
+        "[[book|...]]"
       ],
-      explanation: 'Dispositivos de uso diario.'
-    } as any
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-14/e12.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: 'a2-u14-e3',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'easy',
-    content: {
-      title: 'Device usage',
-      instructions: '¿Para qué sirve?',
-      questions: [
-        {
-          id: 'q1',
-          question: 'I use my ___ to take photos and call people.',
-          options: ['smartphone', 'printer', 'mouse'],
-          correctAnswer: 0,
-          explanation: 'El smartphone es para fotos y llamadas.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u14-e4',
-    type: 'fill-blank',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'easy',
-    content: {
-      title: 'Low battery',
-      instructions: 'Completa.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'My phone is dead. Can I borrow your ___?',
-          correctAnswer: 'charger',
-          explanation: 'Necesitas el cargador (charger) si el móvil no tiene batería.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u14-e5',
-    type: 'sentence-building',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'medium',
-    content: {
-      title: 'The latest tech',
-      instructions: 'Ordena.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['I', 'bought', ' a', 'new', 'laptop', 'last', 'week', '.'],
-          correctSentence: 'I bought a new laptop last week.',
-          translation: 'Compré un portátil nuevo la semana pasada.',
-          hint: 'Usa el pasado de "buy".',
-          explanation: 'Estructura simple de compra de tecnología.',
-          points: 10
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u14-e6',
-    type: 'flashcard',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'easy',
-    content: {
-      items: [
-        {
-          front: 'Pantalla',
-          back: 'Screen',
-          example: 'The screen on my tablet is broken.',
-          pronunciation: '/skriːn/',
-          explanation: 'La parte visual de un dispositivo.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u14-e7',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'medium',
-    content: {
-      title: 'Input devices',
-      instructions: 'Elige.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'You use a ___ to type on a computer.',
-          options: ['keyboard', 'screen', 'speaker'],
-          correctAnswer: 0,
-          explanation: 'El teclado (keyboard) sirve para escribir.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u14-e8',
-    type: 'speaking-analysis',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciation: Device',
-      instructions: 'Di "This device is useful".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'This device is useful',
-          correctAnswer: 'This device is useful',
-          explanation: 'Se pronuncia /dɪˈvaɪs/.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u14-e9',
-    type: 'fill-blank',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'medium',
-    content: {
-      title: 'Volume',
-      instructions: 'Completa.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'I can\'t hear anything. Turn up the ___ .',
-          correctAnswer: 'speakers',
-          explanation: 'Los altavoces (speakers) emiten el sonido.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u14-e10',
-    type: 'sentence-building',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'medium',
-    content: {
-      title: 'Touchscreen',
-      instructions: 'Ordena.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['Does', 'your', 'computer', 'have', 'a', 'touchscreen', '?'],
-          correctSentence: 'Does your computer have a touchscreen?',
-          translation: '¿Tiene tu ordenador pantalla táctil?',
-          hint: 'Empieza con "Does".',
-          explanation: 'Pregunta sobre especificaciones técnicas.',
-          points: 10
-        }
-      ]
-    } as any
-  },
-
-  // --- SUB-TOPIC 2: Present Continuous for Future Plans (11-20) ---
-  {
-    id: 'a2-u14-e11',
-    type: 'flashcard',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'easy',
-    content: {
-      items: [
-        {
-          front: 'Planes futuros fijos',
-          back: 'Future arrangements',
-          example: 'I am meeting my boss tomorrow at 10.',
-          pronunciation: '/n/a/',
-          explanation: 'Usamos el Present Continuous para planes confirmados en el futuro.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u14-e12',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'medium',
-    content: {
-      title: 'Arrangement vs Fact',
-      instructions: 'Elige.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'We ___ to London next Friday. We already have the tickets.',
-          options: ['are flying', 'fly', 'flies'],
-          correctAnswer: 0,
-          explanation: 'Plan confirmado con billetes: Present Continuous.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u14-e13',
-    type: 'fill-blank',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'medium',
-    content: {
-      title: 'Meeting someone',
-      instructions: 'Completa con el tiempo futuro apropiado (continuous).',
-      questions: [
-        {
-          id: 'q1',
-          text: 'I ___ (meet) John for coffee this afternoon.',
-          correctAnswer: 'am meeting',
-          explanation: 'Plan agendado.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u14-e14',
-    type: 'sentence-building',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'medium',
-    content: {
-      title: 'Next week',
-      instructions: 'Ordena.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['We', 'are', 'having', 'a', 'party', 'next', 'Saturday', '.'],
-          correctSentence: 'We are having a party next Saturday.',
-          translation: 'Vamos a celebrar una fiesta el sábado que viene.',
-          hint: 'Usa "having".',
-          explanation: 'Uso de Present Continuous para eventos futuros organizados.',
-          points: 10
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u14-e15',
-    type: 'matching',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'medium',
-    content: {
-      title: 'Now vs Future',
-      instructions: '¿La frase indica el presente o el futuro?',
-      pairs: [
-        { id: '1', left: 'I am eating lunch now.', right: 'Present (Now)' },
-        { id: '2', left: 'I am eating with Jane tomorrow.', right: 'Future Arrangement' },
-        { id: '3', left: 'They are playing tennis later.', right: 'Future Arrangement' },
-        { id: '4', left: 'Shh! They are playing tennis.', right: 'Present (Now)' }
+    "id": "a2-u14-e13",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "At the Restaurant",
+    "difficulty": "medium",
+    "transcript": "Are you ready to order?",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[Are|...]] [[you|...]] [[ready|...]] [[to|...]] [[order?|...]]",
+      "words": [
+        "[[to|...]]",
+        "[[Are|...]]",
+        "[[you|...]]",
+        "[[ready|...]]",
+        "[[order?|...]]"
       ],
-      explanation: 'El contexto o el marcador temporal (tomorrow, later) indica si es futuro.'
-    } as any
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-14/e13.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: 'a2-u14-e16',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'medium',
-    content: {
-      title: 'Asking about plans',
-      instructions: 'Elige la pregunta correcta.',
-      questions: [
-        {
-          id: 'q1',
-          question: '___ anything special this weekend?',
-          options: ['Are you doing', 'Do you do', 'Are you do'],
-          correctAnswer: 0,
-          explanation: 'Pregunta sobre planes para el fin de semana.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u14-e17',
-    type: 'speaking-analysis',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciation: Tomorrow',
-      instructions: 'Di "I am leaving tomorrow".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'I am leaving tomorrow',
-          correctAnswer: 'I am leaving tomorrow',
-          explanation: 'Tomorrow se pronuncia /təˈmɒrəʊ/.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u14-e18',
-    type: 'fill-blank',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'hard',
-    content: {
-      title: 'Negative plans',
-      instructions: 'Completa en negativo.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'I ___ (not/go) to the cinema tonight because I\'m tired.',
-          correctAnswer: "am not going",
-          explanation: 'Plan cancelado o inexistente.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u14-e19',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'hard',
-    content: {
-      title: 'Specific time',
-      instructions: 'Elige.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'What time ___ the meeting starting tomorrow?',
-          options: ['is', 'are', 'does'],
-          correctAnswer: 0,
-          explanation: 'Sujeto "the meeting" (it), usamos "is".'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u14-e20',
-    type: 'sentence-building',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'hard',
-    content: {
-      title: 'Arranging a call',
-      instructions: 'Ordena.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['I', 'am', 'calling', 'you', 'on', 'Skype', 'later', 'today', '.'],
-          correctSentence: 'I am calling you on Skype later today.',
-          translation: 'Te llamaré por Skype más tarde hoy.',
-          hint: 'Usa "later today".',
-          explanation: 'Combinación de comunicación y planes futuros.',
-          points: 15
-        }
-      ]
-    } as any
-  },
-
-  // --- SUB-TOPIC 3: Using Apps & Social Media (21-30) ---
-  {
-    id: 'a2-u14-e21',
-    type: 'flashcard',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'easy',
-    content: {
-      items: [
-        {
-          front: 'Subir (a internet)',
-          back: 'To upload',
-          example: 'I am uploading the photos to Instagram.',
-          pronunciation: '/ˌʌpˈləʊd/',
-          explanation: 'Enviar datos desde tu dispositivo a la red.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u14-e22',
-    type: 'matching',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'easy',
-    content: {
-      title: 'Online Actions',
-      instructions: 'Une el verbo con su traducción.',
-      pairs: [
-        { id: '1', left: 'Download', right: 'Descargar' },
-        { id: '2', left: 'Share', right: 'Compartir' },
-        { id: '3', left: 'Search', right: 'Buscar' },
-        { id: '4', left: 'Follow', right: 'Seguir' }
+    "id": "a2-u14-e14",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "At the Restaurant",
+    "difficulty": "medium",
+    "transcript": "I'll have the tomato soup as a starter.",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[I'll|...]] [[have|...]] [[the|...]] [[tomato|...]] [[soup|...]] [[as|...]] [[a|...]] [[starter.|...]]",
+      "words": [
+        "[[a|...]]",
+        "[[as|...]]",
+        "[[starter.|...]]",
+        "[[soup|...]]",
+        "[[tomato|...]]",
+        "[[the|...]]",
+        "[[have|...]]",
+        "[[I'll|...]]"
       ],
-      explanation: 'Acciones comunes en redes sociales.'
-    } as any
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-14/e14.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: 'a2-u14-e23',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'medium',
-    content: {
-      title: 'Social Media',
-      instructions: 'Elige.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'I always ___ my friends\' posts on Facebook.',
-          options: ['like', 'want', 'hope'],
-          correctAnswer: 0,
-          explanation: 'Dar a "me gusta" es "to like".'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u14-e24',
-    type: 'fill-blank',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'medium',
-    content: {
-      title: 'Passwords',
-      instructions: 'Completa.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Don\'t tell anyone your ___ !',
-          correctAnswer: 'password',
-          explanation: 'La contraseña (password) es secreta.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u14-e25',
-    type: 'sentence-building',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'medium',
-    content: {
-      title: 'App usage',
-      instructions: 'Ordena.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['I', 'use', 'this', 'app', 'to', 'learn', 'English', '.'],
-          correctSentence: 'I use this app to learn English.',
-          translation: 'Uso esta aplicación para aprender inglés.',
-          hint: 'Usa "to learn".',
-          explanation: 'Expresar propósito con "to + infinitivo".',
-          points: 10
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u14-e26',
-    type: 'flashcard',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'easy',
-    content: {
-      items: [
-        {
-          front: 'Enlace',
-          back: 'Link',
-          example: 'Click on the link to open the website.',
-          pronunciation: '/lɪŋk/',
-          explanation: 'Dirección web en la que se puede hacer clic.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u14-e27',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'medium',
-    content: {
-      title: 'Files',
-      instructions: 'Elige.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'Can you ___ this document to the email?',
-          options: ['attach', 'connect', 'button'],
-          correctAnswer: 0,
-          explanation: '"Attach" significa adjuntar.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u14-e28',
-    type: 'speaking-analysis',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciation: Download',
-      instructions: 'Di "I am downloading a movie".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'I am downloading a movie',
-          correctAnswer: 'I am downloading a movie',
-          explanation: 'Se pronuncia /ˈdaʊnləʊdɪŋ/.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u14-e29',
-    type: 'fill-blank',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'hard',
-    content: {
-      title: 'Wireless',
-      instructions: 'Completa.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Is there free ___ in this café?',
-          correctAnswer: 'Wi-Fi',
-          explanation: 'Conexión inalámbrica.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u14-e30',
-    type: 'sentence-building',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'hard',
-    content: {
-      title: 'Deleting history',
-      instructions: 'Ordena.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['You', 'should', 'delete', 'your', 'browsing', 'history', '.'],
-          correctSentence: 'You should delete your browsing history.',
-          translation: 'Deberías borrar tu historial de navegación.',
-          hint: 'Usa "should".',
-          explanation: 'Consejo sobre privacidad digital.',
-          points: 15
-        }
-      ]
-    } as any
-  },
-
-  // --- SUB-TOPIC 4: Common Problems & Solutions (31-40) ---
-  {
-    id: 'a2-u14-e31',
-    type: 'flashcard',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'easy',
-    content: {
-      items: [
-        {
-          front: 'No funciona / Estropeado',
-          back: 'Out of order / Broken',
-          example: 'The printer is out of order.',
-          pronunciation: '/ˌaʊt əv ˈɔːdə/',
-          explanation: 'Cuando algo no funciona correctamente.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u14-e32',
-    type: 'matching',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'easy',
-    content: {
-      title: 'Tech Problems',
-      instructions: 'Une el problema con la solución.',
-      pairs: [
-        { id: '1', left: 'Phone is frozen', right: 'Restart it' },
-        { id: '2', left: 'Low battery', right: 'Charge it' },
-        { id: '3', left: 'No internet', right: 'Check Wi-Fi' },
-        { id: '4', left: 'Screen is dirty', right: 'Clean it' }
+    "id": "a2-u14-e15",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "At the Restaurant",
+    "difficulty": "medium",
+    "transcript": "What do you recommend for the main course?",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[What|...]] [[do|...]] [[you|...]] [[recommend|...]] [[for|...]] [[the|...]] [[main|...]] [[course?|...]]",
+      "words": [
+        "[[for|...]]",
+        "[[recommend|...]]",
+        "[[the|...]]",
+        "[[main|...]]",
+        "[[you|...]]",
+        "[[do|...]]",
+        "[[What|...]]",
+        "[[course?|...]]"
       ],
-      explanation: 'Soluciones básicas a problemas tecnológicos.'
-    } as any
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-14/e15.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: 'a2-u14-e33',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'medium',
-    content: {
-      title: 'Cracked screen',
-      instructions: 'Elige.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'I dropped my phone and the screen is ___ .',
-          options: ['cracked', 'frozen', 'empty'],
-          correctAnswer: 0,
-          explanation: '"Cracked" significa agrietada.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u14-e34',
-    type: 'fill-blank',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'medium',
-    content: {
-      title: 'Signal',
-      instructions: 'Completa.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'I can\'t call you. I don\'t have any ___ here.',
-          correctAnswer: 'signal',
-          explanation: 'La cobertura o señal (signal).'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u14-e35',
-    type: 'sentence-building',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'medium',
-    content: {
-      title: 'Restarting',
-      instructions: 'Ordena.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['Try', 'turning', 'it', 'off', 'and', 'on', 'again', '.'],
-          correctSentence: 'Try turning it off and on again.',
-          translation: 'Intenta apagarlo y encenderlo de nuevo.',
-          hint: 'Usa "turning".',
-          explanation: 'La solución universal en informática.',
-          points: 10
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u14-e36',
-    type: 'flashcard',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'easy',
-    content: {
-      items: [
-        {
-          front: 'Almacenamiento',
-          back: 'Storage / Space',
-          example: 'My phone is full. I need more storage.',
-          pronunciation: '/ˈstɔːrɪdʒ/',
-          explanation: 'Capacidad de guardar archivos.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u14-e37',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'medium',
-    content: {
-      title: 'Updating',
-      instructions: 'Elige.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'My computer is very slow. It needs an ___ .',
-          options: ['update', 'appointment', 'invitation'],
-          correctAnswer: 0,
-          explanation: '"Update" es una actualización.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u14-e38',
-    type: 'speaking-analysis',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciation: Broken',
-      instructions: 'Di "My tablet is broken".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'My tablet is broken',
-          correctAnswer: 'My tablet is broken',
-          explanation: 'Se pronuncia /ˈbrəʊkən/.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u14-e39',
-    type: 'fill-blank',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'hard',
-    content: {
-      title: 'Spam',
-      instructions: 'Completa.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Check your ___ folder for the email.',
-          correctAnswer: 'spam',
-          explanation: 'La carpeta de correo no deseado.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u14-e40',
-    type: 'sentence-building',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'hard',
-    content: {
-      title: 'Future repair',
-      instructions: 'Ordena.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['The', 'technician', 'is', 'fixing', 'it', 'next', 'Monday', '.'],
-          correctSentence: 'The technician is fixing it next Monday.',
-          translation: 'El técnico lo va a arreglar el lunes que viene.',
-          hint: 'Present Continuous para futuro.',
-          explanation: 'Uso de plan futuro para una reparación.',
-          points: 15
-        }
-      ]
-    } as any
-  },
-
-  // --- SUB-TOPIC 5: Review & Mix (41-50) ---
-  {
-    id: 'a2-u14-e41',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'medium',
-    content: {
-      title: 'Review: Future plans',
-      instructions: 'Elige.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'Are you ___ to the conference tomorrow?',
-          options: ['coming', 'come', 'comes'],
-          correctAnswer: 0,
-          explanation: 'Pregunta sobre un plan futuro.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u14-e42',
-    type: 'fill-blank',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'medium',
-    content: {
-      title: 'Review: Mouse',
-      instructions: 'Completa.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'I use the ___ to move the cursor on the screen.',
-          correctAnswer: 'mouse',
-          explanation: 'El ratón del ordenador.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u14-e43',
-    type: 'sentence-building',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'medium',
-    content: {
-      title: 'Review: Continuous',
-      instructions: 'Ordena.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['We', 'are', 'not', 'using', 'our', 'phones', 'during', 'dinner', '.'],
-          correctSentence: 'We are not using our phones during dinner.',
-          translation: 'No estamos usando nuestros teléfonos durante la cena.',
-          hint: 'Usa "during".',
-          explanation: 'Acción en progreso (o regla actual).',
-          points: 10
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a2-u14-e44',
-    type: 'speaking-analysis',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'hard',
-    content: {
-      title: 'Pronunciation: Keyboard',
-      instructions: 'Di "My keyboard is dirty".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'My keyboard is dirty',
-          correctAnswer: 'My keyboard is dirty',
-          explanation: 'Se pronuncia /ˈkiːbɔːd/.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a2-u14-e45',
-    type: 'matching',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'medium',
-    content: {
-      title: 'Mix: Tech',
-      instructions: 'Une.',
-      pairs: [
-        { id: '1', left: 'Save', right: 'Guardar' },
-        { id: '2', left: 'Print', right: 'Imprimir' },
-        { id: '3', left: 'Copy', right: 'Copiar' },
-        { id: '4', left: 'Paste', right: 'Pegar' }
+    "id": "a2-u14-e16",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "At the Restaurant",
+    "difficulty": "medium",
+    "transcript": "Could we have some more bread, please?",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[Could|...]] [[we|...]] [[have|...]] [[some|...]] [[more|...]] [[bread,|...]] [[please?|...]]",
+      "words": [
+        "[[Could|...]]",
+        "[[bread,|...]]",
+        "[[some|...]]",
+        "[[we|...]]",
+        "[[have|...]]",
+        "[[more|...]]",
+        "[[please?|...]]"
       ],
-      explanation: 'Comandos básicos de edición.'
-    } as any
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-14/e16.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: 'a2-u14-e46',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'medium',
-    content: {
-      title: 'Review: Laptop vs Desktop',
-      instructions: 'Elige.',
-      questions: [
-        {
-          id: 'q1',
-          question: 'A computer that you can carry is a ___ .',
-          options: ['laptop', 'desktop', 'screen'],
-          correctAnswer: 0,
-          explanation: 'Portátil se dice "laptop".'
-        }
-      ]
-    }
+    "id": "a2-u14-e17",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "At the Restaurant",
+    "difficulty": "medium",
+    "transcript": "Is everything okay with your meal?",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[Is|...]] [[everything|...]] [[okay|...]] [[with|...]] [[your|...]] [[meal?|...]]",
+      "words": [
+        "[[your|...]]",
+        "[[with|...]]",
+        "[[okay|...]]",
+        "[[everything|...]]",
+        "[[Is|...]]",
+        "[[meal?|...]]"
+      ],
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-14/e17.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: 'a2-u14-e47',
-    type: 'fill-blank',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'hard',
-    content: {
-      title: 'Review: Social Media',
-      instructions: 'Completa.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'I ___ a video on YouTube yesterday.',
-          correctAnswer: 'uploaded',
-          explanation: 'Subí (upload) en pasado.'
-        }
-      ]
-    }
+    "id": "a2-u14-e18",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "At the Restaurant",
+    "difficulty": "medium",
+    "transcript": "The steak was cooked perfectly.",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[The|...]] [[steak|...]] [[was|...]] [[cooked|...]] [[perfectly.|...]]",
+      "words": [
+        "[[cooked|...]]",
+        "[[The|...]]",
+        "[[was|...]]",
+        "[[perfectly.|...]]",
+        "[[steak|...]]"
+      ],
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-14/e18.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: 'a2-u14-e48',
-    type: 'sentence-building',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'hard',
-    content: {
-      title: 'Review: Arrangement',
-      instructions: 'Ordena.',
-      sentences: [
-        {
-          id: 's1',
-          words: ['She', 'is', 'starting', 'her', 'new', 'job', 'on', 'Monday', '.'],
-          correctSentence: 'She is starting her new job on Monday.',
-          translation: 'Ella empieza su nuevo trabajo el lunes.',
-          hint: 'Plan futuro fijo.',
-          explanation: 'Uso típico para fechas de inicio.',
-          points: 15
-        }
-      ]
-    } as any
+    "id": "a2-u14-e19",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "At the Restaurant",
+    "difficulty": "medium",
+    "transcript": "I'm afraid this soup is cold.",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[I'm|...]] [[afraid|...]] [[this|...]] [[soup|...]] [[is|...]] [[cold.|...]]",
+      "words": [
+        "[[soup|...]]",
+        "[[is|...]]",
+        "[[this|...]]",
+        "[[afraid|...]]",
+        "[[I'm|...]]",
+        "[[cold.|...]]"
+      ],
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-14/e19.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: 'a2-u14-e49',
-    type: 'speaking-analysis',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciation: Message',
-      instructions: 'Di "I sent you a message".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'I sent you a message',
-          correctAnswer: 'I sent you a message',
-          explanation: 'Se pronuncia /ˈmesɪdʒ/.'
-        }
-      ]
-    }
+    "id": "a2-u14-e20",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "At the Restaurant",
+    "difficulty": "medium",
+    "transcript": "Can we have the bill, please?",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[Can|...]] [[we|...]] [[have|...]] [[the|...]] [[bill,|...]] [[please?|...]]",
+      "words": [
+        "[[have|...]]",
+        "[[we|...]]",
+        "[[please?|...]]",
+        "[[Can|...]]",
+        "[[bill,|...]]",
+        "[[the|...]]"
+      ],
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-14/e20.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: 'a2-u14-e50',
-    type: 'multiple-choice',
-    level: 'A2',
-    topic: 'Technology & Communication',
-    topicName: 'Technology & Communication',
-    difficulty: 'easy',
-    content: {
-      title: 'Final check',
-      instructions: '¿Cómo nos conectamos sin cables?',
-      questions: [
-        {
-          id: 'q1',
-          question: 'Most devices connect to the internet via ___ .',
-          options: ['Wi-Fi', 'radio', 'battery'],
-          correctAnswer: 0,
-          explanation: 'Wi-Fi es el estándar de conexión inalámbrica.'
-        }
-      ]
-    }
+    "id": "a2-u14-e21",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "At the Restaurant",
+    "difficulty": "medium",
+    "transcript": "Does the price include service?",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[Does|...]] [[the|...]] [[price|...]] [[include|...]] [[service?|...]]",
+      "words": [
+        "[[the|...]]",
+        "[[price|...]]",
+        "[[include|...]]",
+        "[[service?|...]]",
+        "[[Does|...]]"
+      ],
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-14/e21.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u14-e22",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "At the Restaurant",
+    "difficulty": "medium",
+    "transcript": "The dessert was absolutely delicious.",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[The|...]] [[dessert|...]] [[was|...]] [[absolutely|...]] [[delicious.|...]]",
+      "words": [
+        "[[delicious.|...]]",
+        "[[The|...]]",
+        "[[dessert|...]]",
+        "[[absolutely|...]]",
+        "[[was|...]]"
+      ],
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-14/e22.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u14-e23",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "At the Restaurant",
+    "difficulty": "medium",
+    "transcript": "I'd like a glass of red wine.",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[I'd|...]] [[like|...]] [[a|...]] [[glass|...]] [[of|...]] [[red|...]] [[wine.|...]]",
+      "words": [
+        "[[wine.|...]]",
+        "[[glass|...]]",
+        "[[I'd|...]]",
+        "[[like|...]]",
+        "[[a|...]]",
+        "[[of|...]]",
+        "[[red|...]]"
+      ],
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-14/e23.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u14-e24",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "At the Restaurant",
+    "difficulty": "medium",
+    "transcript": "We have a reservation for tonight.",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[We|...]] [[have|...]] [[a|...]] [[reservation|...]] [[for|...]] [[tonight.|...]]",
+      "words": [
+        "[[reservation|...]]",
+        "[[tonight.|...]]",
+        "[[We|...]]",
+        "[[have|...]]",
+        "[[a|...]]",
+        "[[for|...]]"
+      ],
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-14/e24.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u14-e25",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "At the Restaurant",
+    "difficulty": "medium",
+    "transcript": "Where are the toilets, please?",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[Where|...]] [[are|...]] [[the|...]] [[toilets,|...]] [[please?|...]]",
+      "words": [
+        "[[Where|...]]",
+        "[[are|...]]",
+        "[[toilets,|...]]",
+        "[[please?|...]]",
+        "[[the|...]]"
+      ],
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-14/e25.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u14-e26",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "At the Restaurant",
+    "difficulty": "medium",
+    "transcript": "I'll pay for everyone.",
+    "content": {
+      "title": "Construcción de Oraciones",
+      "instructions": "Ordena las palabras para formar una oración correcta.",
+      "correctSentence": "[[I'll|...]] [[pay|...]] [[for|...]] [[everyone.|...]]",
+      "words": [
+        "[[for|...]]",
+        "[[pay|...]]",
+        "[[I'll|...]]",
+        "[[everyone.|...]]"
+      ],
+      "explanation": "Practica el orden de las palabras en nivel A2."
+    },
+    "audioUrl": "audio/a2/unit-14/e26.mp3",
+    "topicName": "Vocabulary"
   }
 ];
