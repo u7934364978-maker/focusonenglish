@@ -32,7 +32,7 @@ import { UNIT_30_EXERCISES } from './unit-30';
 export const B2_COURSE = {
   units: [
     { id: 1, title: 'Relationships & Social Life', exercises: UNIT_1_EXERCISES },
-    { id: 2, title: 'Technology & Innovation', exercises: UNIT_2_EXERCISES },
+    { id: 2, title: 'Education & Learning', exercises: UNIT_2_EXERCISES },
     { id: 3, title: 'Environmental Issues', exercises: UNIT_3_EXERCISES },
     { id: 4, title: 'Health and Well-being', exercises: UNIT_4_EXERCISES },
     { id: 5, title: 'Travel and Tourism', exercises: UNIT_5_EXERCISES },

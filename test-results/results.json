@@ -128,61 +128,161 @@
   },
   "suites": [
     {
-      "title": "b2-randomization.spec.ts",
-      "file": "b2-randomization.spec.ts",
+      "title": "b2-unit-12-debug.spec.ts",
+      "file": "b2-unit-12-debug.spec.ts",
       "column": 0,
       "line": 0,
-      "specs": [],
-      "suites": [
+      "specs": [
         {
-          "title": "B2 Exercise Randomization",
-          "file": "b2-randomization.spec.ts",
-          "line": 3,
-          "column": 6,
-          "specs": [
+          "title": "verify multiple choice in B2 unit 12 (A/B/C/D format)",
+          "ok": true,
+          "tags": [],
+          "tests": [
             {
-              "title": "should load B2 Unit 1 and have multiple-choice options",
-              "ok": true,
-              "tags": [],
-              "tests": [
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
                 {
-                  "timeout": 120000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 15494,
+                  "errors": [],
+                  "stdout": [
                     {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 1021,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-02-14T16:06:03.209Z",
-                      "annotations": [],
-                      "attachments": []
+                      "text": "--- At Exercise 1 ---\n"
+                    },
+                    {
+                      "text": "Is Option A correct? true\n"
+                    },
+                    {
+                      "text": "Feedback: ¡Excelente! 🎉Present simple passive: am/is/are + ...\n"
+                    },
+                    {
+                      "text": "--- At Exercise 2 ---\n"
+                    },
+                    {
+                      "text": "Is Option A correct? false\n"
+                    },
+                    {
+                      "text": "Feedback: Inténtalo de nuevoPast simple passive: was/were + ...\n"
+                    },
+                    {
+                      "text": "Correct option found: C\n"
+                    },
+                    {
+                      "text": "--- At Exercise 3 ---\n"
+                    },
+                    {
+                      "text": "Is Option A correct? false\n"
+                    },
+                    {
+                      "text": "Feedback: Inténtalo de nuevoPresent simple passive for routi...\n"
+                    },
+                    {
+                      "text": "Correct option found: B\n"
+                    },
+                    {
+                      "text": "--- At Exercise 4 ---\n"
+                    },
+                    {
+                      "text": "Is Option A correct? true\n"
+                    },
+                    {
+                      "text": "Feedback: ¡Excelente! 🎉Past simple passive for a completed ...\n"
+                    },
+                    {
+                      "text": "--- At Exercise 5 ---\n"
+                    },
+                    {
+                      "text": "Is Option A correct? false\n"
+                    },
+                    {
+                      "text": "Feedback: Inténtalo de nuevoPresent simple passive for facts...\n"
+                    },
+                    {
+                      "text": "Correct option found: C\n"
+                    },
+                    {
+                      "text": "--- At Exercise 6 ---\n"
+                    },
+                    {
+                      "text": "Is Option A correct? false\n"
+                    },
+                    {
+                      "text": "Feedback: Inténtalo de nuevoPast simple passive with 'by' fo...\n"
+                    },
+                    {
+                      "text": "Correct option found: C\n"
+                    },
+                    {
+                      "text": "--- At Exercise 7 ---\n"
+                    },
+                    {
+                      "text": "Is Option A correct? false\n"
+                    },
+                    {
+                      "text": "Feedback: Inténtalo de nuevoNegative present simple passive....\n"
+                    },
+                    {
+                      "text": "Correct option found: B\n"
+                    },
+                    {
+                      "text": "--- At Exercise 8 ---\n"
+                    },
+                    {
+                      "text": "Is Option A correct? true\n"
+                    },
+                    {
+                      "text": "Feedback: ¡Excelente! 🎉Past simple passive.Respuesta correc...\n"
+                    },
+                    {
+                      "text": "--- At Exercise 9 ---\n"
+                    },
+                    {
+                      "text": "Is Option A correct? true\n"
+                    },
+                    {
+                      "text": "Feedback: ¡Excelente! 🎉Present simple passive for regular l...\n"
+                    },
+                    {
+                      "text": "--- At Exercise 10 ---\n"
+                    },
+                    {
+                      "text": "Is Option A correct? false\n"
+                    },
+                    {
+                      "text": "Feedback: Inténtalo de nuevoPast simple passive.Respuesta co...\n"
+                    },
+                    {
+                      "text": "Correct option found: C\n"
                     }
                   ],
-                  "status": "expected"
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-02-14T16:46:39.576Z",
+                  "annotations": [],
+                  "attachments": []
                 }
               ],
-              "id": "85703976c1d99d0c77f4-df5eb3d149614b2c45ea",
-              "file": "b2-randomization.spec.ts",
-              "line": 4,
-              "column": 7
+              "status": "expected"
             }
-          ]
+          ],
+          "id": "21008c07ce0c2e48bca7-24b56b79c31269d797e6",
+          "file": "b2-unit-12-debug.spec.ts",
+          "line": 3,
+          "column": 5
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-02-14T16:06:02.631Z",
-    "duration": 2084.154,
+    "startTime": "2026-02-14T16:46:38.851Z",
+    "duration": 16520.264,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,

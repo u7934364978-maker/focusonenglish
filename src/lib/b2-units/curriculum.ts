@@ -20,9 +20,9 @@ export const B2_CURRICULUM_MAPPING: UnitMapping[] = [
   {
     unit: 2,
     module: 1,
-    title: 'Past Perfect Continuous & Background Events',
+    title: 'Educational Backgrounds & Lifelong Learning',
     grammar: ['past-perfect-continuous'],
-    topic: 'personal-experiences',
+    topic: 'education-learning',
     skills: ['grammar', 'vocabulary', 'listening', 'writing']
   },
   {
