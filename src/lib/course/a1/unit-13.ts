@@ -88,27 +88,6 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u13-e5',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Movement',
-    topicName: 'Move It!',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Walk',
-      instructions: 'Di la palabra para "caminar".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Walk',
-          phonetic: '/wɔːk/',
-          translation: 'Caminar',
-          explanation: 'La "l" es muda. Suena parecido a "wok".'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u13-e6',
     type: 'fill-blank',
     level: 'A1',
@@ -252,27 +231,6 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u13-e13',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Movement',
-    topicName: 'Move It!',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Run',
-      instructions: 'Di la palabra para "correr".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Run',
-          phonetic: '/rʌn/',
-          translation: 'Correr',
-          explanation: 'La "u" suena como una "a" corta y cerrada.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u13-e14',
     type: 'sentence-building',
     level: 'A1',
@@ -396,27 +354,6 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u13-e20',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Movement',
-    topicName: 'Move It!',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Jump',
-      instructions: 'Di la palabra para "saltar".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Jump',
-          phonetic: '/dʒʌmp/',
-          translation: 'Saltar',
-          explanation: 'La "j" suena como una "y" fuerte o "dg".'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u13-e21',
     type: 'sentence-building',
     level: 'A1',
@@ -516,27 +453,6 @@ export const UNIT_13_EXERCISES: Exercise[] = [
         { id: 'p5', left: 'Arrive', right: 'Leave' }
       ],
       explanation: 'Aprender los opuestos te ayudará a duplicar tu vocabulario rápidamente.'
-    } as any
-  },
-  {
-    id: 'a1-u13-e26',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Movement',
-    topicName: 'Move It!',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Climb',
-      instructions: 'Di la palabra para "escalar".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Climb',
-          phonetic: '/klaɪm/',
-          translation: 'Escalar',
-          explanation: 'Recuerda: ¡No pronuncies la "b"!'
-        }
-      ]
     } as any
   },
   {
@@ -663,27 +579,6 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u13-e33',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Movement',
-    topicName: 'Move It!',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Dance',
-      instructions: 'Di la palabra para "bailar".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Dance',
-          phonetic: '/dɑːns/',
-          translation: 'Bailar',
-          explanation: 'La "a" suena larga en inglés británico y corta en americano.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u13-e34',
     type: 'sentence-building',
     level: 'A1',
@@ -783,27 +678,6 @@ export const UNIT_13_EXERCISES: Exercise[] = [
         { id: 'p5', left: 'Kick', right: 'Patear' }
       ],
       explanation: 'Estos verbos añaden matices a la forma en que nos movemos.'
-    } as any
-  },
-  {
-    id: 'a1-u13-e39',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Movement',
-    topicName: 'Move It!',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Move',
-      instructions: 'Di la palabra para "moverse".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Move',
-          phonetic: '/muːv/',
-          translation: 'Moverse',
-          explanation: 'La "o" suena como una "u" larga.'
-        }
-      ]
     } as any
   },
   {
@@ -927,27 +801,6 @@ export const UNIT_13_EXERCISES: Exercise[] = [
         { id: 'p5', left: 'Steady', right: 'Constante/Firme' }
       ],
       explanation: 'Estos adverbios y adjetivos describen la cualidad del movimiento.'
-    } as any
-  },
-  {
-    id: 'a1-u13-e46',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Movement',
-    topicName: 'Move It!',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Follow',
-      instructions: 'Di la palabra para "seguir".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Follow',
-          phonetic: '/ˈfɒl.əʊ/',
-          translation: 'Seguir',
-          explanation: 'La acentuación está en la primera sílaba.'
-        }
-      ]
     } as any
   },
   {
