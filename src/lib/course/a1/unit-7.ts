@@ -89,26 +89,6 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u7-e5',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Days of the week',
-    topicName: 'Time Check',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Wednesday',
-      instructions: 'Di la palabra para "miércoles".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Wednesday',
-          correctAnswer: 'Wednesday',
-          explanation: 'La primera "d" y la segunda "e" son mudas. Se pronuncia algo así como "uéns-dei".'
-        }
-      ]
-    }
-  },
-  {
     id: 'a1-u7-e6',
     type: 'matching',
     level: 'A1',
@@ -232,26 +212,6 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u7-e12',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Time',
-    topicName: 'Time Check',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Thursday',
-      instructions: 'Di la palabra para "jueves".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Thursday',
-          correctAnswer: 'Thursday',
-          explanation: 'La "Th" inicial se pronuncia colocando la punta de la lengua entre los dientes frontales.'
-        }
-      ]
-    }
-  },
-  {
     id: 'a1-u7-e13',
     type: 'matching',
     level: 'A1',
@@ -370,26 +330,6 @@ export const UNIT_7_EXERCISES: Exercise[] = [
           options: ['Saturday', 'Sunday', 'Monday'],
           correctAnswer: 1,
           explanation: '"Sunday" es domingo, tradicionalmente considerado el último (o primero) día de la semana.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u7-e19',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Time',
-    topicName: 'Time Check',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: O\'clock',
-      instructions: 'Di la expresión para las horas en punto.',
-      questions: [
-        {
-          id: 'q1',
-          text: "o'clock",
-          correctAnswer: "o'clock",
-          explanation: 'Suena como "o-clok". El apóstrofo indica una abreviatura histórica de "of the clock".'
         }
       ]
     }
@@ -641,26 +581,6 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u7-e32',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Time',
-    topicName: 'Time Check',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Time',
-      instructions: 'Di la palabra para "tiempo" o "hora".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Time',
-          correctAnswer: 'Time',
-          explanation: 'La "i" suena como el diptongo "ai" y la "e" final es muda.'
-        }
-      ]
-    }
-  },
-  {
     id: 'a1-u7-e33',
     type: 'matching',
     level: 'A1',
@@ -784,26 +704,6 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u7-e39',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Time',
-    topicName: 'Time Check',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Hour',
-      instructions: 'Di la palabra para "hora".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Hour',
-          correctAnswer: 'Hour',
-          explanation: 'La "H" es muda en esta palabra. Suena igual que "our" (nuestro).'
-        }
-      ]
-    }
-  },
-  {
     id: 'a1-u7-e40',
     type: 'matching',
     level: 'A1',
@@ -922,26 +822,6 @@ export const UNIT_7_EXERCISES: Exercise[] = [
           options: ['nice', 'bad', 'old'],
           correctAnswer: 0,
           explanation: '"Nice" significa agradable o bueno. Se usa mucho para desear algo positivo.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u7-e46',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Time',
-    topicName: 'Time Check',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Tomorrow',
-      instructions: 'Di la palabra para "mañana".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Tomorrow',
-          correctAnswer: 'Tomorrow',
-          explanation: 'El acento recae en la segunda sílaba: to-MO-rrow.'
         }
       ]
     }
