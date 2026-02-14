@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 3
+      "actualWorkers": 4
     },
     "preserveOutput": "always",
     "projects": [
@@ -20,7 +20,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 3
+          "actualWorkers": 4
         },
         "id": "chromium",
         "name": "chromium",
@@ -36,7 +36,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 3
+          "actualWorkers": 4
         },
         "id": "firefox",
         "name": "firefox",
@@ -52,7 +52,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 3
+          "actualWorkers": 4
         },
         "id": "webkit",
         "name": "webkit",
@@ -68,7 +68,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 3
+          "actualWorkers": 4
         },
         "id": "Mobile Chrome",
         "name": "Mobile Chrome",
@@ -84,7 +84,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 3
+          "actualWorkers": 4
         },
         "id": "Mobile Safari",
         "name": "Mobile Safari",
@@ -128,20 +128,20 @@
   },
   "suites": [
     {
-      "title": "debug-course-completion.spec.ts",
-      "file": "debug-course-completion.spec.ts",
+      "title": "debug-b2-completion.spec.ts",
+      "file": "debug-b2-completion.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
-          "title": "Debug Course Completion",
-          "file": "debug-course-completion.spec.ts",
+          "title": "B2 Course Debug Preview",
+          "file": "debug-b2-completion.spec.ts",
           "line": 3,
           "column": 6,
           "specs": [
             {
-              "title": "should display debug panel with completion buttons",
+              "title": "should load Unit 12 correctly with 50 exercises",
               "ok": false,
               "tags": [],
               "tests": [
@@ -156,66 +156,56 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 73951,
+                      "duration": 75922,
                       "error": {
-                        "message": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"http://localhost:5436/debug/b2-preview/unit-10\", waiting until \"load\"\u001b[22m\n",
-                        "stack": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"http://localhost:5436/debug/b2-preview/unit-10\", waiting until \"load\"\u001b[22m\n\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-course-completion.spec.ts:11:16",
+                        "message": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"http://localhost:5436/debug/b2-preview/unit-12\", waiting until \"load\"\u001b[22m\n",
+                        "stack": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"http://localhost:5436/debug/b2-preview/unit-12\", waiting until \"load\"\u001b[22m\n\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-b2-completion.spec.ts:9:18",
                         "location": {
-                          "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-course-completion.spec.ts",
-                          "column": 16,
-                          "line": 11
+                          "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-b2-completion.spec.ts",
+                          "column": 18,
+                          "line": 9
                         },
-                        "snippet": "   9 |     });\n  10 |\n> 11 |     await page.goto('/debug/b2-preview/unit-10');\n     |                ^\n  12 |     await page.waitForLoadState('domcontentloaded');\n  13 |   });\n  14 |"
+                        "snippet": "   7 |     test(`should load Unit ${unitId} correctly with 50 exercises`, async ({ page }) => {\n   8 |       // Use the local dev server URL\n>  9 |       await page.goto(`http://localhost:5436/debug/b2-preview/unit-${unitId}`);\n     |                  ^\n  10 |       \n  11 |       // Wait for the page to load (loading state handled in the component)\n  12 |       await expect(page.getByText(`B2 Preview: Unidad ${unitId}`)).toBeVisible({ timeout: 10000 });"
                       },
                       "errors": [
                         {
                           "location": {
-                            "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-course-completion.spec.ts",
-                            "column": 16,
-                            "line": 11
+                            "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-b2-completion.spec.ts",
+                            "column": 18,
+                            "line": 9
                           },
-                          "message": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"http://localhost:5436/debug/b2-preview/unit-10\", waiting until \"load\"\u001b[22m\n\n\n   9 |     });\n  10 |\n> 11 |     await page.goto('/debug/b2-preview/unit-10');\n     |                ^\n  12 |     await page.waitForLoadState('domcontentloaded');\n  13 |   });\n  14 |\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-course-completion.spec.ts:11:16"
+                          "message": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"http://localhost:5436/debug/b2-preview/unit-12\", waiting until \"load\"\u001b[22m\n\n\n   7 |     test(`should load Unit ${unitId} correctly with 50 exercises`, async ({ page }) => {\n   8 |       // Use the local dev server URL\n>  9 |       await page.goto(`http://localhost:5436/debug/b2-preview/unit-${unitId}`);\n     |                  ^\n  10 |       \n  11 |       // Wait for the page to load (loading state handled in the component)\n  12 |       await expect(page.getByText(`B2 Preview: Unidad ${unitId}`)).toBeVisible({ timeout: 10000 });\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-b2-completion.spec.ts:9:18"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-13T23:10:16.962Z",
+                      "startTime": "2026-02-14T10:33:35.031Z",
                       "annotations": [],
                       "attachments": [
                         {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/debug-course-completion-De-d8b16-nel-with-completion-buttons-chromium/test-failed-1.png"
-                        },
-                        {
                           "name": "video",
                           "contentType": "video/webm",
-                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/debug-course-completion-De-d8b16-nel-with-completion-buttons-chromium/video.webm"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/debug-course-completion-De-d8b16-nel-with-completion-buttons-chromium/error-context.md"
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/debug-b2-completion-B2-Cou-f713c-correctly-with-50-exercises-chromium/video.webm"
                         }
                       ],
                       "errorLocation": {
-                        "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-course-completion.spec.ts",
-                        "column": 16,
-                        "line": 11
+                        "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-b2-completion.spec.ts",
+                        "column": 18,
+                        "line": 9
                       }
                     }
                   ],
                   "status": "unexpected"
                 }
               ],
-              "id": "fc0748537ffdf05b6d53-1f7338ed55346326f777",
-              "file": "debug-course-completion.spec.ts",
-              "line": 15,
-              "column": 7
+              "id": "669b54138ee853aad299-15974a3c58a5b7dca7da",
+              "file": "debug-b2-completion.spec.ts",
+              "line": 7,
+              "column": 9
             },
             {
-              "title": "should show alert when completing a unit",
+              "title": "should load Unit 13 correctly with 50 exercises",
               "ok": false,
               "tags": [],
               "tests": [
@@ -230,66 +220,56 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "failed",
-                      "duration": 73714,
+                      "duration": 75800,
                       "error": {
-                        "message": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"http://localhost:5436/debug/b2-preview/unit-10\", waiting until \"load\"\u001b[22m\n",
-                        "stack": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"http://localhost:5436/debug/b2-preview/unit-10\", waiting until \"load\"\u001b[22m\n\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-course-completion.spec.ts:11:16",
+                        "message": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"http://localhost:5436/debug/b2-preview/unit-13\", waiting until \"load\"\u001b[22m\n",
+                        "stack": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"http://localhost:5436/debug/b2-preview/unit-13\", waiting until \"load\"\u001b[22m\n\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-b2-completion.spec.ts:9:18",
                         "location": {
-                          "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-course-completion.spec.ts",
-                          "column": 16,
-                          "line": 11
+                          "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-b2-completion.spec.ts",
+                          "column": 18,
+                          "line": 9
                         },
-                        "snippet": "   9 |     });\n  10 |\n> 11 |     await page.goto('/debug/b2-preview/unit-10');\n     |                ^\n  12 |     await page.waitForLoadState('domcontentloaded');\n  13 |   });\n  14 |"
+                        "snippet": "   7 |     test(`should load Unit ${unitId} correctly with 50 exercises`, async ({ page }) => {\n   8 |       // Use the local dev server URL\n>  9 |       await page.goto(`http://localhost:5436/debug/b2-preview/unit-${unitId}`);\n     |                  ^\n  10 |       \n  11 |       // Wait for the page to load (loading state handled in the component)\n  12 |       await expect(page.getByText(`B2 Preview: Unidad ${unitId}`)).toBeVisible({ timeout: 10000 });"
                       },
                       "errors": [
                         {
                           "location": {
-                            "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-course-completion.spec.ts",
-                            "column": 16,
-                            "line": 11
+                            "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-b2-completion.spec.ts",
+                            "column": 18,
+                            "line": 9
                           },
-                          "message": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"http://localhost:5436/debug/b2-preview/unit-10\", waiting until \"load\"\u001b[22m\n\n\n   9 |     });\n  10 |\n> 11 |     await page.goto('/debug/b2-preview/unit-10');\n     |                ^\n  12 |     await page.waitForLoadState('domcontentloaded');\n  13 |   });\n  14 |\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-course-completion.spec.ts:11:16"
+                          "message": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"http://localhost:5436/debug/b2-preview/unit-13\", waiting until \"load\"\u001b[22m\n\n\n   7 |     test(`should load Unit ${unitId} correctly with 50 exercises`, async ({ page }) => {\n   8 |       // Use the local dev server URL\n>  9 |       await page.goto(`http://localhost:5436/debug/b2-preview/unit-${unitId}`);\n     |                  ^\n  10 |       \n  11 |       // Wait for the page to load (loading state handled in the component)\n  12 |       await expect(page.getByText(`B2 Preview: Unidad ${unitId}`)).toBeVisible({ timeout: 10000 });\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-b2-completion.spec.ts:9:18"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-13T23:10:16.951Z",
+                      "startTime": "2026-02-14T10:33:35.106Z",
                       "annotations": [],
                       "attachments": [
                         {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/debug-course-completion-De-67d53-lert-when-completing-a-unit-chromium/test-failed-1.png"
-                        },
-                        {
                           "name": "video",
                           "contentType": "video/webm",
-                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/debug-course-completion-De-67d53-lert-when-completing-a-unit-chromium/video.webm"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/debug-course-completion-De-67d53-lert-when-completing-a-unit-chromium/error-context.md"
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/debug-b2-completion-B2-Cou-b4996-correctly-with-50-exercises-chromium/video.webm"
                         }
                       ],
                       "errorLocation": {
-                        "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-course-completion.spec.ts",
-                        "column": 16,
-                        "line": 11
+                        "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-b2-completion.spec.ts",
+                        "column": 18,
+                        "line": 9
                       }
                     }
                   ],
                   "status": "unexpected"
                 }
               ],
-              "id": "fc0748537ffdf05b6d53-f3c2e5e9055fc6c824e9",
-              "file": "debug-course-completion.spec.ts",
-              "line": 26,
-              "column": 7
+              "id": "669b54138ee853aad299-abedae698dd19daa5d99",
+              "file": "debug-b2-completion.spec.ts",
+              "line": 7,
+              "column": 9
             },
             {
-              "title": "should show confirmation and then success when completing full course",
+              "title": "should load Unit 14 correctly with 50 exercises",
               "ok": false,
               "tags": [],
               "tests": [
@@ -304,63 +284,181 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "failed",
-                      "duration": 73792,
+                      "duration": 75828,
                       "error": {
-                        "message": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"http://localhost:5436/debug/b2-preview/unit-10\", waiting until \"load\"\u001b[22m\n",
-                        "stack": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"http://localhost:5436/debug/b2-preview/unit-10\", waiting until \"load\"\u001b[22m\n\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-course-completion.spec.ts:11:16",
+                        "message": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"http://localhost:5436/debug/b2-preview/unit-14\", waiting until \"load\"\u001b[22m\n",
+                        "stack": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"http://localhost:5436/debug/b2-preview/unit-14\", waiting until \"load\"\u001b[22m\n\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-b2-completion.spec.ts:9:18",
                         "location": {
-                          "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-course-completion.spec.ts",
-                          "column": 16,
-                          "line": 11
+                          "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-b2-completion.spec.ts",
+                          "column": 18,
+                          "line": 9
                         },
-                        "snippet": "   9 |     });\n  10 |\n> 11 |     await page.goto('/debug/b2-preview/unit-10');\n     |                ^\n  12 |     await page.waitForLoadState('domcontentloaded');\n  13 |   });\n  14 |"
+                        "snippet": "   7 |     test(`should load Unit ${unitId} correctly with 50 exercises`, async ({ page }) => {\n   8 |       // Use the local dev server URL\n>  9 |       await page.goto(`http://localhost:5436/debug/b2-preview/unit-${unitId}`);\n     |                  ^\n  10 |       \n  11 |       // Wait for the page to load (loading state handled in the component)\n  12 |       await expect(page.getByText(`B2 Preview: Unidad ${unitId}`)).toBeVisible({ timeout: 10000 });"
                       },
                       "errors": [
                         {
                           "location": {
-                            "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-course-completion.spec.ts",
-                            "column": 16,
-                            "line": 11
+                            "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-b2-completion.spec.ts",
+                            "column": 18,
+                            "line": 9
                           },
-                          "message": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"http://localhost:5436/debug/b2-preview/unit-10\", waiting until \"load\"\u001b[22m\n\n\n   9 |     });\n  10 |\n> 11 |     await page.goto('/debug/b2-preview/unit-10');\n     |                ^\n  12 |     await page.waitForLoadState('domcontentloaded');\n  13 |   });\n  14 |\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-course-completion.spec.ts:11:16"
+                          "message": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"http://localhost:5436/debug/b2-preview/unit-14\", waiting until \"load\"\u001b[22m\n\n\n   7 |     test(`should load Unit ${unitId} correctly with 50 exercises`, async ({ page }) => {\n   8 |       // Use the local dev server URL\n>  9 |       await page.goto(`http://localhost:5436/debug/b2-preview/unit-${unitId}`);\n     |                  ^\n  10 |       \n  11 |       // Wait for the page to load (loading state handled in the component)\n  12 |       await expect(page.getByText(`B2 Preview: Unidad ${unitId}`)).toBeVisible({ timeout: 10000 });\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-b2-completion.spec.ts:9:18"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-13T23:10:16.952Z",
+                      "startTime": "2026-02-14T10:33:35.217Z",
                       "annotations": [],
                       "attachments": [
                         {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/debug-course-completion-De-22168-when-completing-full-course-chromium/test-failed-1.png"
-                        },
-                        {
                           "name": "video",
                           "contentType": "video/webm",
-                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/debug-course-completion-De-22168-when-completing-full-course-chromium/video.webm"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/debug-course-completion-De-22168-when-completing-full-course-chromium/error-context.md"
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/debug-b2-completion-B2-Cou-22eab-correctly-with-50-exercises-chromium/video.webm"
                         }
                       ],
                       "errorLocation": {
-                        "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-course-completion.spec.ts",
-                        "column": 16,
-                        "line": 11
+                        "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-b2-completion.spec.ts",
+                        "column": 18,
+                        "line": 9
                       }
                     }
                   ],
                   "status": "unexpected"
                 }
               ],
-              "id": "fc0748537ffdf05b6d53-127ce081338f356d2214",
-              "file": "debug-course-completion.spec.ts",
-              "line": 37,
-              "column": 7
+              "id": "669b54138ee853aad299-941e7b05dccc8bcb62b6",
+              "file": "debug-b2-completion.spec.ts",
+              "line": 7,
+              "column": 9
+            },
+            {
+              "title": "should load Unit 15 correctly with 50 exercises",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 75846,
+                      "error": {
+                        "message": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"http://localhost:5436/debug/b2-preview/unit-15\", waiting until \"load\"\u001b[22m\n",
+                        "stack": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"http://localhost:5436/debug/b2-preview/unit-15\", waiting until \"load\"\u001b[22m\n\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-b2-completion.spec.ts:9:18",
+                        "location": {
+                          "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-b2-completion.spec.ts",
+                          "column": 18,
+                          "line": 9
+                        },
+                        "snippet": "   7 |     test(`should load Unit ${unitId} correctly with 50 exercises`, async ({ page }) => {\n   8 |       // Use the local dev server URL\n>  9 |       await page.goto(`http://localhost:5436/debug/b2-preview/unit-${unitId}`);\n     |                  ^\n  10 |       \n  11 |       // Wait for the page to load (loading state handled in the component)\n  12 |       await expect(page.getByText(`B2 Preview: Unidad ${unitId}`)).toBeVisible({ timeout: 10000 });"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-b2-completion.spec.ts",
+                            "column": 18,
+                            "line": 9
+                          },
+                          "message": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"http://localhost:5436/debug/b2-preview/unit-15\", waiting until \"load\"\u001b[22m\n\n\n   7 |     test(`should load Unit ${unitId} correctly with 50 exercises`, async ({ page }) => {\n   8 |       // Use the local dev server URL\n>  9 |       await page.goto(`http://localhost:5436/debug/b2-preview/unit-${unitId}`);\n     |                  ^\n  10 |       \n  11 |       // Wait for the page to load (loading state handled in the component)\n  12 |       await expect(page.getByText(`B2 Preview: Unidad ${unitId}`)).toBeVisible({ timeout: 10000 });\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-b2-completion.spec.ts:9:18"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-14T10:33:35.213Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/debug-b2-completion-B2-Cou-5d7b5-correctly-with-50-exercises-chromium/video.webm"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-b2-completion.spec.ts",
+                        "column": 18,
+                        "line": 9
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "669b54138ee853aad299-6739ed2de3334887d59e",
+              "file": "debug-b2-completion.spec.ts",
+              "line": 7,
+              "column": 9
+            },
+            {
+              "title": "should load Unit 30 correctly with 50 exercises",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 73005,
+                      "error": {
+                        "message": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"http://localhost:5436/debug/b2-preview/unit-30\", waiting until \"load\"\u001b[22m\n",
+                        "stack": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"http://localhost:5436/debug/b2-preview/unit-30\", waiting until \"load\"\u001b[22m\n\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-b2-completion.spec.ts:9:18",
+                        "location": {
+                          "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-b2-completion.spec.ts",
+                          "column": 18,
+                          "line": 9
+                        },
+                        "snippet": "   7 |     test(`should load Unit ${unitId} correctly with 50 exercises`, async ({ page }) => {\n   8 |       // Use the local dev server URL\n>  9 |       await page.goto(`http://localhost:5436/debug/b2-preview/unit-${unitId}`);\n     |                  ^\n  10 |       \n  11 |       // Wait for the page to load (loading state handled in the component)\n  12 |       await expect(page.getByText(`B2 Preview: Unidad ${unitId}`)).toBeVisible({ timeout: 10000 });"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-b2-completion.spec.ts",
+                            "column": 18,
+                            "line": 9
+                          },
+                          "message": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"http://localhost:5436/debug/b2-preview/unit-30\", waiting until \"load\"\u001b[22m\n\n\n   7 |     test(`should load Unit ${unitId} correctly with 50 exercises`, async ({ page }) => {\n   8 |       // Use the local dev server URL\n>  9 |       await page.goto(`http://localhost:5436/debug/b2-preview/unit-${unitId}`);\n     |                  ^\n  10 |       \n  11 |       // Wait for the page to load (loading state handled in the component)\n  12 |       await expect(page.getByText(`B2 Preview: Unidad ${unitId}`)).toBeVisible({ timeout: 10000 });\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-b2-completion.spec.ts:9:18"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-14T10:34:52.407Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/debug-b2-completion-B2-Cou-ee068-correctly-with-50-exercises-chromium/video.webm"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/debug-b2-completion.spec.ts",
+                        "column": 18,
+                        "line": 9
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "669b54138ee853aad299-3798657ebee187dd560f",
+              "file": "debug-b2-completion.spec.ts",
+              "line": 7,
+              "column": 9
             }
           ]
         }
@@ -369,11 +467,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-02-13T23:10:13.591Z",
-    "duration": 79047.955,
+    "startTime": "2026-02-14T10:33:32.604Z",
+    "duration": 153144.982,
     "expected": 0,
     "skipped": 0,
-    "unexpected": 3,
+    "unexpected": 5,
     "flaky": 0
   }
 }

@@ -42,3 +42,8 @@
    - **Details**: Fixed client-side exception caused by incorrect exercise structure mapping. Added Debug Panel for C1 course. Verified that `/debug/c1-preview/unit-1` loads and renders exercises correctly.
    - **Verification**: Visual check via Playwright screenshot confirmed successful rendering.
 
+8. **[ ] Task 8: Verify B2 Units 12-30 Existence and Visibility**
+   - **Action**: Check `src/lib/b2-units` and JSON content folders.
+   - **Details**: Ensure units 12-30 are present as JSON files and correctly loaded by the preview page.
+   - **Verification**: Use the browser/screenshot to verify that `/debug/b2-preview/unit-12` (and others) load content.
+

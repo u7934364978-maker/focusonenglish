@@ -11,33 +11,33 @@ export const C1_U1_BLOCK1: Exercise = {
   type: 'grammar',
   title: 'Negative Inversion',
   grammarPoint: 'Inversion',
-  explanation: 'Use [[inversion|inversión]] (auxiliary before subject) after certain negative or [[restrictive|restrictivos]] adverbials.',
+  explanation: 'Use "[[inversion|inversión]] (auxiliary before subject) after certain negative or "[[restrictive|restrictivos]] adverbials.',
   questions: Array.from({ length: 10 }, (_, i) => ({
     id: genId(UNIT_ID, 'b1', i + 1),
     type: 'multiple-choice',
     question: [
-      'Never ___ I seen such a [[magnificent|magnífica]] performance.',
-      'Rarely ___ she [[venture|aventurarse]] out after dark.',
+      'Never ___ I seen such a "[[magnificent|magnífica]] performance.',
+      'Rarely ___ she "[[venture|aventurarse]] out after dark.',
       'Little ___ they know what was about to happen.',
-      'Not only ___ he late, but he also forgot his [[notes|notas]].',
+      'Not only ___ he late, but he also forgot his "[[notes|notas]].',
       'Under no circumstances ___ you open this door.',
-      'Only then ___ I realize the [[gravity|gravedad]] of the situation.',
+      'Only then ___ I realize the "[[gravity|gravedad]] of the situation.',
       'Hardly ___ we started the meeting when the phone rang.',
-      'No sooner ___ they arrived than it began to [[pour|llover a cántaros]].',
-      'Seldom ___ one find such [[dedication|dedicación]] nowadays.',
+      'No sooner ___ they arrived than it began to "[[pour|llover a cántaros]].',
+      'Seldom ___ one find such "[[dedication|dedicación]] nowadays.',
       'On no account ___ this information be shared.'
     ][i],
     options: [
-      ['have', 'had', 'did'],
-      ['does', 'did', 'is'],
-      ['did', 'do', 'had'],
-      ['was', 'is', 'did'],
-      ['should', 'must', 'do'],
-      ['did', 'had', 'was'],
-      ['had', 'did', 'have'],
-      ['had', 'did', 'have'],
-      ['does', 'did', 'is'],
-      ['must', 'should', 'can']
+      ['had', 'have', 'did'],
+      ['did', 'is', 'does'],
+      ['do', 'did', 'had'],
+      ['is', 'did', 'was'],
+      ['must', 'should', 'do'],
+      ['had', 'was', 'did'],
+      ['did', 'had', 'have'],
+      ['have', 'did', 'had'],
+      ['is', 'did', 'does'],
+      ['should', 'can', 'must']
     ][i],
     correctAnswer: [
       'have',
@@ -64,33 +64,33 @@ export const C1_U1_BLOCK2: Exercise = {
   type: 'grammar',
   title: 'Narrative Tenses & Backgrounding',
   grammarPoint: 'Past Tenses',
-  explanation: 'Using past tenses to create complex [[narrative|narrativas]] structures.',
+  explanation: 'Using past tenses to create complex "[[narrative|narrativas]] structures.',
   questions: Array.from({ length: 10 }, (_, i) => ({
     id: genId(UNIT_ID, 'b2', i + 1),
     type: 'multiple-choice',
     question: [
-      'I ___ for hours when I finally found the [[solution|solución]].',
-      'By the time the authorities arrived, the [[evidence|evidencia]] ___ .',
-      'She ___ always complaining about her [[colleagues|colegas]].',
+      'I ___ for hours when I finally found the "[[solution|solución]].',
+      'By the time the authorities arrived, the "[[evidence|evidencia]] ___ .',
+      'She ___ always complaining about her "[[colleagues|colegas]].',
       'I ___ to mention that I won\'t be coming tomorrow.',
       'They ___ in London for ten years before they moved.',
       'I ___ just about to leave when he walked in.',
-      'We ___ the project for months before it was [[cancelled|cancelado]].',
+      'We ___ the project for months before it was "[[cancelled|cancelado]].',
       'He ___ the letter three times before sending it.',
       'She ___ to have been working there since 2010.',
-      'I wish I ___ more attention during the [[lecture|conferencia]].'
+      'I wish I ___ more attention during the "[[lecture|conferencia]].'
     ][i],
     options: [
-      ['had been working', 'was working', 'had worked'],
-      ['had been removed', 'was removed', 'had removed'],
-      ['was', 'has been', 'had been'],
-      ['was meaning', 'meant', 'had meant'],
-      ['had been living', 'lived', 'were living'],
-      ['was', 'had been', 'were'],
-      ['had been developing', 'developed', 'were developing'],
-      ['had read', 'read', 'was reading'],
-      ['is said', 'was said', 'had said'],
-      ['had paid', 'paid', 'was paying']
+      ['was working', 'had been working', 'have worked'],
+      ['was being removed', 'had removed', 'had been removed'],
+      ['has been', 'was', 'would be'],
+      ['meant', 'had meant', 'was meaning'],
+      ['had been living', 'lived', 'have been living'],
+      ['had been', 'was', 'were'],
+      ['developed', 'were developing', 'had been developing'],
+      ['had read', 'reads', 'was reading'],
+      ['was said', 'is said', 'has been said'],
+      ['paid', 'had paid', 'was paying']
     ][i],
     correctAnswer: [
       'had been working',
@@ -116,7 +116,7 @@ export const C1_U1_BLOCK3: Exercise = {
   id: `c1-u${UNIT_ID}-b3`,
   type: 'vocabulary',
   title: 'Idiomatic Expressions',
-  explanation: 'Common C1 level [[idioms|modismos]] and their meanings.',
+  explanation: 'Common C1 level "[[idioms|modismos]] and their meanings.',
   questions: Array.from({ length: 10 }, (_, i) => ({
     id: genId(UNIT_ID, 'b3', i + 1),
     type: 'multiple-choice',
@@ -133,16 +133,16 @@ export const C1_U1_BLOCK3: Exercise = {
       'Let\'s play it by ___ and see what happens.'
     ][i],
     options: [
-      ['bush', 'tree', 'forest'],
-      ['rocket science', 'brain surgery', 'math problem'],
+      ['tree', 'bush', 'forest'],
+      ['brain surgery', 'rocket science', 'math problem'],
       ['weather', 'cloud', 'rain'],
-      ['day', 'night', 'time'],
-      ['nail', 'hammer', 'screw'],
-      ['ducks', 'geese', 'birds'],
-      ['mouth', 'ear', 'eye'],
-      ['straw', 'stick', 'leaf'],
-      ['shoulder', 'back', 'head'],
-      ['ear', 'eye', 'mouth']
+      ['night', 'time', 'day'],
+      ['hammer', 'nail', 'screw'],
+      ['geese', 'birds', 'ducks'],
+      ['ear', 'mouth', 'eye'],
+      ['stick', 'leaf', 'straw'],
+      ['back', 'shoulder', 'head'],
+      ['eye', 'mouth', 'ear']
     ][i],
     correctAnswer: [
       'bush',
@@ -168,7 +168,7 @@ export const C1_U1_BLOCK4: Exercise = {
   id: `c1-u${UNIT_ID}-b4`,
   type: 'vocabulary',
   title: 'Academic Collocations',
-  explanation: 'Common word [[pairings|emparejamientos]] in academic and professional English.',
+  explanation: 'Common word "[[pairings|emparejamientos]] in academic and professional English.',
   questions: Array.from({ length: 10 }, (_, i) => ({
     id: genId(UNIT_ID, 'b4', i + 1),
     type: 'multiple-choice',
@@ -185,16 +185,16 @@ export const C1_U1_BLOCK4: Exercise = {
       'It is of ___ importance to remain objective.'
     ][i],
     options: [
-      ['compelling', 'strong', 'big'],
+      ['strong', 'compelling', 'big'],
       ['striking', 'large', 'wide'],
-      ['take', 'do', 'make'],
-      ['significant', 'large', 'important'],
-      ['support', 'hold', 'give'],
-      ['address', 'look', 'deal'],
+      ['do', 'make', 'take'],
+      ['large', 'significant', 'important'],
+      ['hold', 'support', 'give'],
+      ['look', 'address', 'deal'],
       ['behind', 'after', 'late'],
       ['profound', 'deep', 'wide'],
       ['reveals', 'shows', 'says'],
-      ['paramount', 'high', 'top']
+      ['high', 'top', 'paramount']
     ][i],
     correctAnswer: [
       'compelling',
@@ -220,7 +220,7 @@ export const C1_U1_BLOCK5: Exercise = {
   id: `c1-u${UNIT_ID}-b5`,
   type: 'key-word-transformation',
   title: 'Key Word Transformation',
-  explanation: 'Rewrite the sentence using the [[key word|palabra clave]] so it has the same meaning.',
+  explanation: 'Rewrite the sentence using the "[[key word|palabra clave]] so it has the same meaning.',
   questions: Array.from({ length: 10 }, (_, i) => ({
     id: genId(UNIT_ID, 'b5', i + 1),
     type: 'key-word-transformation',

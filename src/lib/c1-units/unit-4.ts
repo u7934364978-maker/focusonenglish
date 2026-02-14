@@ -11,7 +11,7 @@ export const C1_U4_BLOCK1: Exercise = {
   type: 'grammar',
   title: 'Speculation and Deduction',
   grammarPoint: 'Modals of Speculation',
-  explanation: 'Use modal verbs to express different levels of [[certainty|certeza]] about the present and past.',
+  explanation: 'Use modal verbs to express different levels of "[[certainty|certeza]] about the present and past.',
   questions: Array.from({ length: 10 }, (_, i) => ({
     id: genId(UNIT_ID, 'b1', i + 1),
     type: 'multiple-choice',
@@ -20,7 +20,7 @@ export const C1_U4_BLOCK1: Exercise = {
       'He ___ have forgotten about the meeting; he\'s usually very punctual.',
       'That ___ be Sarah. She\'s in Paris this week.',
       'I\'m not sure where he is. He ___ be in the library.',
-      'The evidence is [[overwhelming|abrumadora]]; he ___ be the thief.',
+      'The evidence is "[[overwhelming|abrumadora]]; he ___ be the thief.',
       'You ___ be joking! There\'s no way that\'s true.',
       'She ___ have seen him. She was at work all day.',
       'They ___ have got lost. They know this area well.',
@@ -28,16 +28,16 @@ export const C1_U4_BLOCK1: Exercise = {
       'He ___ well have been lying about his age.'
     ][i],
     options: [
-      ['can\'t', 'must', 'might'],
+      ['must', 'might', 'can\'t'],
       ['might', 'must', 'should'],
-      ['can\'t', 'mustn\'t', 'couldn\'t'],
-      ['might', 'must', 'should'],
-      ['must', 'can', 'ought to'],
-      ['must', 'may', 'could'],
-      ['can\'t', 'mustn\'t', 'shouldn\'t'],
-      ['might', 'must', 'can'],
-      ['can\'t', 'mustn\'t', 'shouldn\'t'],
-      ['may', 'must', 'should']
+      ['mustn\'t', 'couldn\'t', 'can\'t'],
+      ['should', 'might', 'must'],
+      ['can', 'ought to', 'must'],
+      ['may', 'could', 'must'],
+      ['mustn\'t', 'shouldn\'t', 'can\'t'],
+      ['must', 'can', 'might'],
+      ['mustn\'t', 'shouldn\'t', 'can\'t'],
+      ['must', 'should', 'may']
     ][i],
     correctAnswer: [
       'can\'t',
@@ -63,10 +63,10 @@ export const C1_U4_BLOCK2: Exercise = {
   id: `c1-u${UNIT_ID}-b2`,
   type: 'grammar',
   title: 'Past Speculation (Modal Perfects)',
-  explanation: 'Use modal + have + [[past participle|participio pasado]] for past events.',
+  explanation: 'Use modal + have + "[[past participle|participio pasado]] for past events.',
   questions: Array.from({ length: 10 }, (_, i) => ({
     id: genId(UNIT_ID, 'b2', i + 1),
-    type: 'fill-blank',
+    type: 'multiple-choice',
     question: [
       'I can\'t find my keys. I ___ them at the office.',
       'He didn\'t come to the party. He ___ about it.',
@@ -78,6 +78,18 @@ export const C1_U4_BLOCK2: Exercise = {
       'The burglar ___ through the window; it was locked.',
       'I ___ my phone in the taxi.',
       'They ___ lost. They have a GPS.'
+    ][i],
+    options: [
+      ['should have left', 'can have left', 'must have left'],
+      ['might have forgotten', 'must have forgotten', 'should have forgotten'],
+      ['mustn\'t have seen', 'shouldn\'t have seen', 'can\'t have seen'],
+      ['might have been', 'should have been', 'must have been'],
+      ['must have arrived', 'can have arrived', 'should have arrived'],
+      ['might have worked', 'should have worked', 'must have worked'],
+      ['must not have seen', 'should not have seen', 'might not have seen'],
+      ['mustn\'t have come', 'shouldn\'t have come', 'couldn\'t have come'],
+      ['must have left', 'should have left', 'may have left'],
+      ['mustn\'t have got', 'shouldn\'t have got', 'can\'t have got']
     ][i],
     correctAnswer: [
       'must have left',
@@ -103,7 +115,7 @@ export const C1_U4_BLOCK3: Exercise = {
   id: `c1-u${UNIT_ID}-b3`,
   type: 'vocabulary',
   title: 'Adverbs of Probability',
-  explanation: 'Use adverbs to add [[nuance|matiz]] to your statements.',
+  explanation: 'Use adverbs to add "[[nuance|matiz]] to your statements.',
   questions: Array.from({ length: 10 }, (_, i) => ({
     id: genId(UNIT_ID, 'b3', i + 1),
     type: 'multiple-choice',
@@ -120,16 +132,16 @@ export const C1_U4_BLOCK3: Exercise = {
       'It ___ have been his sister you saw.'
     ][i],
     options: [
-      ['conceivably', 'surely', 'must'],
-      ['bound', 'must', 'likely'],
-      ['little', 'some', 'no'],
-      ['highly', 'must', 'can'],
-      ['almost', 'just', 'more'],
-      ['highly probable', 'surely', 'certain'],
-      ['unlikely', 'can', 'might'],
-      ['likelihood', 'chance', 'point'],
-      ['may', 'must', 'should'],
-      ['could well', 'must', 'should']
+      ['surely', 'must', 'conceivably'],
+      ['must', 'likely', 'bound'],
+      ['some', 'no', 'little'],
+      ['must', 'can', 'highly'],
+      ['just', 'more', 'almost'],
+      ['surely', 'certain', 'highly probable'],
+      ['can', 'might', 'unlikely'],
+      ['chance', 'point', 'likelihood'],
+      ['must', 'should', 'may'],
+      ['must', 'should', 'could well']
     ][i],
     correctAnswer: [
       'conceivably',
@@ -155,7 +167,7 @@ export const C1_U4_BLOCK4: Exercise = {
   id: `c1-u${UNIT_ID}-b4`,
   type: 'key-word-transformation',
   title: 'Nuance Transformation',
-  explanation: 'Rewrite the sentence using the [[key word|palabra clave]].',
+  explanation: 'Rewrite the sentence using the "[[key word|palabra clave]].',
   questions: Array.from({ length: 10 }, (_, i) => ({
     id: genId(UNIT_ID, 'b4', i + 1),
     type: 'key-word-transformation',
@@ -219,7 +231,7 @@ export const C1_U4_BLOCK5: Exercise = {
   id: `c1-u${UNIT_ID}-b5`,
   type: 'grammar',
   title: 'Nuance Review',
-  explanation: 'Final check of Unit 4 [[concepts|conceptos]].',
+  explanation: 'Final check of Unit 4 "[[concepts|conceptos]].',
   questions: Array.from({ length: 10 }, (_, i) => ({
     id: genId(UNIT_ID, 'b5', i + 1),
     type: 'multiple-choice',
@@ -236,16 +248,16 @@ export const C1_U4_BLOCK5: Exercise = {
       'The research provides ___ evidence.'
     ][i],
     options: [
-      ['must', 'can', 'should'],
-      ['would be', 'am', 'will be'],
-      ['reveal', 'show', 'say'],
-      ['paramount', 'high', 'top'],
-      ['profound', 'deep', 'wide'],
-      ['behind', 'after', 'late'],
-      ['address', 'look', 'deal'],
-      ['support', 'hold', 'give'],
-      ['striking', 'large', 'wide'],
-      ['compelling', 'strong', 'big']
+      ['can', 'should', 'must'],
+      ['am', 'will be', 'would be'],
+      ['show', 'say', 'reveal'],
+      ['high', 'top', 'paramount'],
+      ['deep', 'wide', 'profound'],
+      ['after', 'late', 'behind'],
+      ['look', 'deal', 'address'],
+      ['hold', 'give', 'support'],
+      ['large', 'wide', 'striking'],
+      ['strong', 'big', 'compelling']
     ][i],
     correctAnswer: [
       'must',

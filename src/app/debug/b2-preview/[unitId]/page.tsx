@@ -172,7 +172,7 @@ export default function B2UnitPreviewPage() {
             className="flex items-center gap-2 bg-orange-600 hover:bg-orange-500 px-4 py-2 rounded-xl text-sm font-bold transition-all active:scale-95 disabled:opacity-50"
           >
             {debugLoading ? <Loader2 className="w-4 h-4 animate-spin" /> : <Zap className="w-4 h-4" />}
-            Completar Curso B2 ({B2_UNITS.length} Unidades)
+            Completar Curso B2 ({B2_COURSE.units.length} Unidades)
           </button>
         </div>
       </div>
