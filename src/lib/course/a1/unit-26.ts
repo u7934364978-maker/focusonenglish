@@ -107,27 +107,6 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u26-e6',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Past Simple',
-    topicName: 'Did you?',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Played',
-      instructions: 'Di la palabra para "jugué/jugamos".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Played',
-          phonetic: '/pleɪd/',
-          translation: 'Jugué / Jugamos',
-          explanation: 'La "ed" suena como una "d" suave al final, no se pronuncia la "e".'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u26-e7',
     type: 'matching',
     level: 'A1',
@@ -285,27 +264,6 @@ export const UNIT_26_EXERCISES: Exercise[] = [
           question: "He ________ ________ TV last night.",
           correctAnswer: "didn't watch",
           explanation: "Usamos 'didn't' para la negación y el verbo en presente."
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u26-e15',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Past Simple',
-    topicName: 'Did you?',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Didn\'t',
-      instructions: 'Di la palabra para "no" en pasado.',
-      questions: [
-        {
-          id: 'q1',
-          text: "Didn't",
-          phonetic: '/ˈdɪdnt/',
-          translation: 'No (pasado)',
-          explanation: 'La primera "d" es clara y la terminación es muy rápida.'
         }
       ]
     } as any
@@ -473,27 +431,6 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u26-e24',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Past Simple',
-    topicName: 'Did you?',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Bought',
-      instructions: 'Di la palabra para "compré".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Bought',
-          phonetic: '/bɔːt/',
-          translation: 'Compré',
-          explanation: 'La "ough" suena como una "o" larga y la "gh" es muda.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u26-e25',
     type: 'matching',
     level: 'A1',
@@ -656,27 +593,6 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u26-e33',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Past Simple',
-    topicName: 'Did you?',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Cooked',
-      instructions: 'Di la palabra para "cociné".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Cooked',
-          phonetic: '/kʊkt/',
-          translation: 'Cociné',
-          explanation: 'La "ed" suena como una "t" seca.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u26-e34',
     type: 'matching',
     level: 'A1',
@@ -834,27 +750,6 @@ export const UNIT_26_EXERCISES: Exercise[] = [
           question: 'We ________ the train to the city.',
           correctAnswer: 'took',
           explanation: '"Took" es el pasado de "take".'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u26-e42',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Past Simple',
-    topicName: 'Did you?',
-    difficulty: 'hard',
-    content: {
-      title: 'Pronunciación: Read (pasado)',
-      instructions: 'Di la palabra para "leí".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Read',
-          phonetic: '/red/',
-          translation: 'Leí',
-          explanation: 'Aunque se escribe igual que el presente, suena como el color rojo: "red".'
         }
       ]
     } as any
