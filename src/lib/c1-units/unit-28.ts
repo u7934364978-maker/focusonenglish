@@ -11,13 +11,11 @@ export const C1_U28_BLOCK1: Exercise = {
   type: 'grammar',
   title: 'Focus: Adverb Positioning & Impact',
   grammarPoint: 'Word Order',
-  explanation: 'The "[[position|posición]] of an "[[adverb|adverbio]] can "[[change|cambiar]] the "[[emphasis|énfasis]] or "[[meaning|significado]] of a "[[sentence|oración]].',
-  questions: [
+ explanation: 'The [[position|posición]] of an [[adverb|adverbio]] can [[change|cambiar]] the [[emphasis|énfasis]] or [[meaning|significado]] of a [[sentence|oración]].',   questions: [
     {
       id: genId(UNIT_ID, 'b1', 1),
       type: 'multiple-choice',
-      question: '___, I "[[don\'t|no]] "[[know|sé]] what to "[[say|decir]].',
-      options: ['Maybe', 'Honestly', 'Truly'],
+ question: '___, I [[don\'t|no]] [[know|sé]] what to [[say|decir]].',       options: ['Maybe', 'Honestly', 'Truly'],
       correctAnswer: 'Honestly',
       explanation: 'Sentence adverb at the front for emphasis.',
       points: 1
@@ -25,8 +23,7 @@ export const C1_U28_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 2),
       type: 'multiple-choice',
-      question: 'He ___ "[[opened|abrió]] the "[[door|puerta]].',
-      options: ['slow', 'slowness', 'slowly'],
+ question: 'He ___ [[opened|abrió]] the [[door|puerta]].',       options: ['slow', 'slowness', 'slowly'],
       correctAnswer: 'slowly',
       explanation: 'Adverb of manner in mid-position.',
       points: 1
@@ -34,8 +31,7 @@ export const C1_U28_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 3),
       type: 'multiple-choice',
-      question: 'She was "[[clearly|claramente]] ___ by the "[[news|noticias]].',
-      options: ['upset', 'happy', 'calm'],
+ question: 'She was [[clearly|claramente]] ___ by the [[news|noticias]].',       options: ['upset', 'happy', 'calm'],
       correctAnswer: 'upset',
       explanation: 'Adverb of degree/opinion before adjective.',
       points: 1
@@ -43,8 +39,7 @@ export const C1_U28_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 4),
       type: 'multiple-choice',
-      question: '___, there has been a "[[mistake|error]].',
-      options: ['Mistake', 'Wrong', 'Clearly'],
+ question: '___, there has been a [[mistake|error]].',       options: ['Mistake', 'Wrong', 'Clearly'],
       correctAnswer: 'Clearly',
       explanation: 'Comment adverb at the start.',
       points: 1
@@ -52,8 +47,7 @@ export const C1_U28_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 5),
       type: 'multiple-choice',
-      question: 'I ___ "[[saw|vi]] him for a "[[minute|minuto]].',
-      options: ['just', 'even', 'only'],
+ question: 'I ___ [[saw|vi]] him for a [[minute|minuto]].',       options: ['just', 'even', 'only'],
       correctAnswer: 'only',
       explanation: '"Only" positioning is crucial for focus.',
       points: 1
@@ -61,8 +55,7 @@ export const C1_U28_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 6),
       type: 'multiple-choice',
-      question: 'He "[[works|trabaja]] ___ "[[hard|duro]].',
-      options: ['exceptionally', 'exceptional', 'exception'],
+ question: 'He [[works|trabaja]] ___ [[hard|duro]].',       options: ['exceptionally', 'exceptional', 'exception'],
       correctAnswer: 'exceptionally',
       explanation: 'Intensifying adverb.',
       points: 1
@@ -70,8 +63,7 @@ export const C1_U28_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 7),
       type: 'multiple-choice',
-      question: '___, I "[[prefer|prefiero]] the "[[other|otro]] one.',
-      options: ['Real', 'Current', 'Actually'],
+ question: '___, I [[prefer|prefiero]] the [[other|otro]] one.',       options: ['Real', 'Current', 'Actually'],
       correctAnswer: 'Actually',
       explanation: 'Discourse marker position.',
       points: 1
@@ -79,8 +71,7 @@ export const C1_U28_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 8),
       type: 'multiple-choice',
-      question: 'They "[[arrived|llegaron]] ___ "[[late|tarde]].',
-      options: ['unexpect', 'hope', 'unexpectedly'],
+ question: 'They [[arrived|llegaron]] ___ [[late|tarde]].',       options: ['unexpect', 'hope', 'unexpectedly'],
       correctAnswer: 'unexpectedly',
       explanation: 'Adverb modifying another adverb.',
       points: 1
@@ -88,8 +79,7 @@ export const C1_U28_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 9),
       type: 'multiple-choice',
-      question: 'I ___ "[[expected|esperé]] such a "[[result|resultado]].',
-      options: ['never', 'always', 'rarely'],
+ question: 'I ___ [[expected|esperé]] such a [[result|resultado]].',       options: ['never', 'always', 'rarely'],
       correctAnswer: 'never',
       explanation: 'Frequency adverb position.',
       points: 1
@@ -97,8 +87,7 @@ export const C1_U28_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 10),
       type: 'multiple-choice',
-      question: 'He ___ "[[prepared|preparó]] the "[[report|informe]].',
-      options: ['careful', 'carefully', 'care'],
+ question: 'He ___ [[prepared|preparó]] the [[report|informe]].',       options: ['careful', 'carefully', 'care'],
       correctAnswer: 'carefully',
       explanation: 'Manner adverb position.',
       points: 1
@@ -114,13 +103,11 @@ export const C1_U28_BLOCK2: Exercise = {
   type: 'grammar',
   title: 'Emphasis: Fronting for Information Focus',
   grammarPoint: 'Word Order',
-  explanation: 'Moving the "[[complement|complemento]] or "[[object|objeto]] to the "[[front|frente]] to "[[connect|conectar]] with "[[previous|previa]] information.',
-  questions: [
+ explanation: 'Moving the [[complement|complemento]] or [[object|objeto]] to the [[front|frente]] to [[connect|conectar]] with [[previous|previa]] information.',   questions: [
     {
       id: genId(UNIT_ID, 'b2', 1),
       type: 'multiple-choice',
-      question: '___ I can "[[believe|creer]].',
-      options: ['This', 'That', 'The'],
+ question: '___ I can [[believe|creer]].',       options: ['This', 'That', 'The'],
       correctAnswer: 'That',
       explanation: 'Fronting the object for focus.',
       points: 1
@@ -128,8 +115,7 @@ export const C1_U28_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 2),
       type: 'multiple-choice',
-      question: '___ the "[[room|habitación]] "[[walked|caminó]] the "[[CEO|director]].',
-      options: ['To', 'At', 'Into'],
+ question: '___ the [[room|habitación]] [[walked|caminó]] the [[CEO|director]].',       options: ['To', 'At', 'Into'],
       correctAnswer: 'Into',
       explanation: 'Prepositional fronting with inversion.',
       points: 1
@@ -137,8 +123,7 @@ export const C1_U28_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 3),
       type: 'multiple-choice',
-      question: '___ "[[scared|asustado]] was he that he "[[couldn\'t|no pudo]] "[[speak|hablar]].',
-      options: ['So', 'Such', 'Very'],
+ question: '___ [[scared|asustado]] was he that he [[couldn\'t|no pudo]] [[speak|hablar]].',       options: ['So', 'Such', 'Very'],
       correctAnswer: 'So',
       explanation: '"So + adjective" fronting.',
       points: 1
@@ -146,8 +131,7 @@ export const C1_U28_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 4),
       type: 'multiple-choice',
-      question: '___ "[[came|vino]] the "[[rain|lluvia]].',
-      options: ['Up', 'Down', 'Off'],
+ question: '___ [[came|vino]] the [[rain|lluvia]].',       options: ['Up', 'Down', 'Off'],
       correctAnswer: 'Down',
       explanation: 'Adverbial particle fronting.',
       points: 1
@@ -155,8 +139,7 @@ export const C1_U28_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 5),
       type: 'multiple-choice',
-      question: '___ was her "[[surprise|sorpresa]] "[[when|cuando]] she saw him.',
-      options: ['Such', 'Very', 'Great'],
+ question: '___ was her [[surprise|sorpresa]] [[when|cuando]] she saw him.',       options: ['Such', 'Very', 'Great'],
       correctAnswer: 'Great',
       explanation: 'Adjective fronting for rhetorical effect.',
       points: 1
@@ -164,8 +147,7 @@ export const C1_U28_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 6),
       type: 'multiple-choice',
-      question: '___ "[[goes|va]] our last "[[chance|oportunidad]].',
-      options: ['There', 'Here', 'Where'],
+ question: '___ [[goes|va]] our last [[chance|oportunidad]].',       options: ['There', 'Here', 'Where'],
       correctAnswer: 'There',
       explanation: '"There" fronting with inversion.',
       points: 1
@@ -173,8 +155,7 @@ export const C1_U28_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 7),
       type: 'multiple-choice',
-      question: '___ had they "[[seen|visto]] such "[[beauty|belleza]].',
-      options: ['Seldom', 'Rarely', 'Never'],
+ question: '___ had they [[seen|visto]] such [[beauty|belleza]].',       options: ['Seldom', 'Rarely', 'Never'],
       correctAnswer: 'Rarely',
       explanation: 'Negative fronting with inversion.',
       points: 1
@@ -182,8 +163,7 @@ export const C1_U28_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 8),
       type: 'multiple-choice',
-      question: '___ in the "[[attic|ático]] was a "[[map|mapa]].',
-      options: ['Found', 'Lost', 'Hidden'],
+ question: '___ in the [[attic|ático]] was a [[map|mapa]].',       options: ['Found', 'Lost', 'Hidden'],
       correctAnswer: 'Hidden',
       explanation: 'Participle fronting.',
       points: 1
@@ -191,8 +171,7 @@ export const C1_U28_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 9),
       type: 'multiple-choice',
-      question: '___ the "[[table|mesa]] sat a "[[laptop|portátil]].',
-      options: ['On', 'At', 'In'],
+ question: '___ the [[table|mesa]] sat a [[laptop|portátil]].',       options: ['On', 'At', 'In'],
       correctAnswer: 'On',
       explanation: 'Place adjunct fronting.',
       points: 1
@@ -200,8 +179,7 @@ export const C1_U28_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 10),
       type: 'multiple-choice',
-      question: '___ as he "[[might|pudiera]], he "[[couldn\'t|no pudo]] "[[win|ganar]].',
-      options: ['Work', 'Try', 'Do'],
+ question: '___ as he [[might|pudiera]], he [[couldn\'t|no pudo]] [[win|ganar]].',       options: ['Work', 'Try', 'Do'],
       correctAnswer: 'Try',
       explanation: 'Verb fronting for concession.',
       points: 1
@@ -217,13 +195,11 @@ export const C1_U28_BLOCK3: Exercise = {
   type: 'grammar',
   title: 'Word Order: Given vs. New Information',
   grammarPoint: 'Word Order',
-  explanation: 'English typically moves "[[given|dada]] information to the "[[beginning|principio]] and "[[new|nueva]] information to the "[[end|final]] (End-focus).',
-  questions: [
+ explanation: 'English typically moves [[given|dada]] information to the [[beginning|principio]] and [[new|nueva]] information to the [[end|final]] (End-focus).',   questions: [
     {
       id: genId(UNIT_ID, 'b3', 1),
       type: 'multiple-choice',
-      question: 'The "[[award|premio]] was "[[given|dado]] ___ the "[[student|estudiante]].',
-      options: ['for', 'to', 'at'],
+ question: 'The [[award|premio]] was [[given|dado]] ___ the [[student|estudiante]].',       options: ['for', 'to', 'at'],
       correctAnswer: 'to',
       explanation: 'Passive used to keep the recipient at the end (new info).',
       points: 2
@@ -231,8 +207,7 @@ export const C1_U28_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 2),
       type: 'multiple-choice',
-      question: '___ I "[[found|encontré]] was a "[[key|llave]].',
-      options: ['Which', 'That', 'What'],
+ question: '___ I [[found|encontré]] was a [[key|llave]].',       options: ['Which', 'That', 'What'],
       correctAnswer: 'What',
       explanation: 'Cleft used to place new information at the end.',
       points: 2
@@ -240,8 +215,7 @@ export const C1_U28_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 3),
       type: 'multiple-choice',
-      question: 'It was the "[[money|dinero]] ___ he "[[stole|robó]].',
-      options: ['that', 'which', 'who'],
+ question: 'It was the [[money|dinero]] ___ he [[stole|robó]].',       options: ['that', 'which', 'who'],
       correctAnswer: 'that',
       explanation: 'It-cleft for focus.',
       points: 2
@@ -249,8 +223,7 @@ export const C1_U28_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 4),
       type: 'multiple-choice',
-      question: 'The "[[reason|razón]] ___ I am "[[here|aquí]] is to "[[help|ayudar]].',
-      options: ['because', 'why', 'that'],
+ question: 'The [[reason|razón]] ___ I am [[here|aquí]] is to [[help|ayudar]].',       options: ['because', 'why', 'that'],
       correctAnswer: 'why',
       explanation: 'Focusing on the purpose at the end.',
       points: 2
@@ -258,8 +231,7 @@ export const C1_U28_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 5),
       type: 'multiple-choice',
-      question: '___ is the "[[document|documento]].',
-      options: ['Attaching', 'Attached', 'Attach'],
+ question: '___ is the [[document|documento]].',       options: ['Attaching', 'Attached', 'Attach'],
       correctAnswer: 'Attached',
       explanation: 'Fronting for flow.',
       points: 2
@@ -267,8 +239,7 @@ export const C1_U28_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 6),
       type: 'multiple-choice',
-      question: 'At the ___ of the "[[hill|colina]] "[[stood|estaba]] a "[[castle|castillo]].',
-      options: ['peak', 'top', 'high'],
+ question: 'At the ___ of the [[hill|colina]] [[stood|estaba]] a [[castle|castillo]].',       options: ['peak', 'top', 'high'],
       correctAnswer: 'top',
       explanation: 'Establishing scene (given) then subject (new).',
       points: 2
@@ -276,8 +247,7 @@ export const C1_U28_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 7),
       type: 'multiple-choice',
-      question: 'There ___ one "[[problem|problema]].',
-      options: ['remains', 'stays', 'keeps'],
+ question: 'There ___ one [[problem|problema]].',       options: ['remains', 'stays', 'keeps'],
       correctAnswer: 'remains',
       explanation: 'Existential "there" to introduce new info.',
       points: 2
@@ -285,8 +255,7 @@ export const C1_U28_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 8),
       type: 'multiple-choice',
-      question: '___ had I "[[finished|terminado]] "[[when|cuando]] the "[[bell|campana]] "[[rang|sonó]].',
-      options: ['Almost', 'Nearly', 'Hardly'],
+ question: '___ had I [[finished|terminado]] [[when|cuando]] the [[bell|campana]] [[rang|sonó]].',       options: ['Almost', 'Nearly', 'Hardly'],
       correctAnswer: 'Hardly',
       explanation: 'Focusing on the time sequence.',
       points: 2
@@ -294,8 +263,7 @@ export const C1_U28_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 9),
       type: 'multiple-choice',
-      question: 'Only by ___ hard can you "[[succeed|lograrlo]].',
-      options: ['worked', 'working', 'work'],
+ question: 'Only by ___ hard can you [[succeed|lograrlo]].',       options: ['worked', 'working', 'work'],
       correctAnswer: 'working',
       explanation: 'Focusing on the method.',
       points: 2
@@ -303,8 +271,7 @@ export const C1_U28_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 10),
       type: 'multiple-choice',
-      question: '___ again will I "[[go|ir]] "[[there|allí]].',
-      options: ['Never', 'Rarely', 'Seldom'],
+ question: '___ again will I [[go|ir]] [[there|allí]].',       options: ['Never', 'Rarely', 'Seldom'],
       correctAnswer: 'Never',
       explanation: 'Focusing on the negative frequency.',
       points: 2
@@ -325,8 +292,7 @@ export const C1_U28_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 1),
       type: 'multiple-choice',
-      question: 'A ___ "[[house|casa]].',
-      options: ['old large beautiful', 'beautiful large old', 'large old beautiful'],
+ question: 'A ___ [[house|casa]].',       options: ['old large beautiful', 'beautiful large old', 'large old beautiful'],
       correctAnswer: 'beautiful large old',
       explanation: 'Opinion, Size, Age.',
       points: 1
@@ -334,8 +300,7 @@ export const C1_U28_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 2),
       type: 'multiple-choice',
-      question: 'A ___ "[[ball|pelota]].',
-      options: ['red round small', 'round small red', 'small round red'],
+ question: 'A ___ [[ball|pelota]].',       options: ['red round small', 'round small red', 'small round red'],
       correctAnswer: 'small round red',
       explanation: 'Size, Shape, Color.',
       points: 1
@@ -343,8 +308,7 @@ export const C1_U28_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 3),
       type: 'multiple-choice',
-      question: 'An ___ "[[statue|estatua]].',
-      options: ['ancient Greek marble', 'marble Greek ancient', 'Greek ancient marble'],
+ question: 'An ___ [[statue|estatua]].',       options: ['ancient Greek marble', 'marble Greek ancient', 'Greek ancient marble'],
       correctAnswer: 'ancient Greek marble',
       explanation: 'Age, Origin, Material.',
       points: 1
@@ -352,8 +316,7 @@ export const C1_U28_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 4),
       type: 'multiple-choice',
-      question: 'A ___ "[[table|mesa]].',
-      options: ['dining long wooden', 'long wooden dining', 'wooden dining long'],
+ question: 'A ___ [[table|mesa]].',       options: ['dining long wooden', 'long wooden dining', 'wooden dining long'],
       correctAnswer: 'long wooden dining',
       explanation: 'Size, Material, Purpose.',
       points: 1
@@ -361,8 +324,7 @@ export const C1_U28_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 5),
       type: 'multiple-choice',
-      question: 'A ___ "[[watch|reloj]].',
-      options: ['cheap Japanese plastic', 'cheap plastic Japanese', 'Japanese cheap plastic'],
+ question: 'A ___ [[watch|reloj]].',       options: ['cheap Japanese plastic', 'cheap plastic Japanese', 'Japanese cheap plastic'],
       correctAnswer: 'cheap Japanese plastic',
       explanation: 'Opinion, Origin, Material.',
       points: 1
@@ -370,8 +332,7 @@ export const C1_U28_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 6),
       type: 'multiple-choice',
-      question: '___ "[[books|libros]].',
-      options: ['Some interesting new', 'Some new interesting', 'Interesting some new'],
+ question: '___ [[books|libros]].',       options: ['Some interesting new', 'Some new interesting', 'Interesting some new'],
       correctAnswer: 'Some interesting new',
       explanation: 'Determiner, Opinion, Age.',
       points: 1
@@ -379,8 +340,7 @@ export const C1_U28_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 7),
       type: 'multiple-choice',
-      question: 'A ___ "[[spider|araña]].',
-      options: ['large disgusting black', 'black large disgusting', 'disgusting large black'],
+ question: 'A ___ [[spider|araña]].',       options: ['large disgusting black', 'black large disgusting', 'disgusting large black'],
       correctAnswer: 'disgusting large black',
       explanation: 'Opinion, Size, Color.',
       points: 1
@@ -388,8 +348,7 @@ export const C1_U28_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 8),
       type: 'multiple-choice',
-      question: 'A ___ "[[dress|vestido]].',
-      options: ['blue stunning silk', 'silk blue stunning', 'stunning blue silk'],
+ question: 'A ___ [[dress|vestido]].',       options: ['blue stunning silk', 'silk blue stunning', 'stunning blue silk'],
       correctAnswer: 'stunning blue silk',
       explanation: 'Opinion, Color, Material.',
       points: 1
@@ -397,8 +356,7 @@ export const C1_U28_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 9),
       type: 'multiple-choice',
-      question: 'An ___ "[[jacket|chaqueta]].',
-      options: ['old ugly leather', 'ugly old leather', 'leather old ugly'],
+ question: 'An ___ [[jacket|chaqueta]].',       options: ['old ugly leather', 'ugly old leather', 'leather old ugly'],
       correctAnswer: 'ugly old leather',
       explanation: 'Opinion, Age, Material.',
       points: 1
@@ -406,8 +364,7 @@ export const C1_U28_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 10),
       type: 'multiple-choice',
-      question: 'A ___ "[[box|caja]].',
-      options: ['tiny square metal', 'metal square tiny', 'square metal tiny'],
+ question: 'A ___ [[box|caja]].',       options: ['tiny square metal', 'metal square tiny', 'square metal tiny'],
       correctAnswer: 'tiny square metal',
       explanation: 'Size, Shape, Material.',
       points: 1
@@ -423,8 +380,7 @@ export const C1_U28_BLOCK5: Exercise = {
   type: 'grammar',
   title: 'Key Word Transformation: Word Order',
   grammarPoint: 'Mixed Review',
-  explanation: 'Rewrite the "[[sentence|oración]] for better "[[focus|enfoque]] or "[[impact|impacto]].',
-  questions: [
+ explanation: 'Rewrite the [[sentence|oración]] for better [[focus|enfoque]] or [[impact|impacto]].',   questions: [
     {
       id: genId(UNIT_ID, 'b5', 1),
       type: 'multiple-choice',

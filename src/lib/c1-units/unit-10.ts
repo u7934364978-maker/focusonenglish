@@ -11,13 +11,11 @@ export const C1_U10_BLOCK1: Exercise = {
   type: 'grammar',
   title: 'Inversion with Negative Adverbials',
   grammarPoint: 'Inversion',
-  explanation: 'When a "[[sentence|oración]] starts with a "[[negative|negativo]] or "[[restrictive|restrictiva]] expression (like "Never", "Seldom", "Rarely"), the "[[subject|sujeto]] and "[[auxiliary|auxiliar]] are "[[inverted|invertidos]].',
-  questions: [
+ explanation: 'When a [[sentence|oración]] starts with a [[negative|negativo]] or [[restrictive|restrictiva]] expression (like Never Seldom Rarely), the [[subject|sujeto]] and [[auxiliary|auxiliar]] are [[inverted|invertidos]].',   questions: [
     {
       id: genId(UNIT_ID, 'b1', 1),
       type: 'multiple-choice',
-      question: '"[[Never|Nunca]] ___ I seen such a "[[stunning|impresionante]] "[[display|despliegue]] of "[[talent|talento]].',
-      options: ['did', 'was', 'have'],
+ question: '[[Never|Nunca]] ___ I seen such a [[stunning|impresionante]] [[display|despliegue]] of [[talent|talento]].',       options: ['did', 'was', 'have'],
       correctAnswer: 'have',
       explanation: 'Use inversion after "Never".',
       points: 1
@@ -25,17 +23,14 @@ export const C1_U10_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 2),
       type: 'multiple-choice',
-      question: '"[[Seldom|Rara vez]] ___ the "[[sun|sol]] "[[shine|brilla]] so "[[brightly|brillantemente]] in winter.',
-      options: ['do', 'does', 'is'],
+ question: '[[Seldom|Rara vez]] ___ the [[sun|sol]] [[shine|brilla]] so [[brightly|brillantemente]] in winter.',       options: ['do', 'does', 'is'],
       correctAnswer: 'does',
-      explanation: 'Use "does" for "[[present|presente]] simple inversion.',
-      points: 1
+ explanation: 'Use does for [[present|presente]] simple inversion.',       points: 1
     },
     {
       id: genId(UNIT_ID, 'b1', 3),
       type: 'multiple-choice',
-      question: '"[[Hardly|Apenas]] ___ he "[[started|empezado]] his "[[speech|discurso]] when the "[[lights|luces]] went out.',
-      options: ['had', 'did', 'was'],
+ question: '[[Hardly|Apenas]] ___ he [[started|empezado]] his [[speech|discurso]] when the [[lights|luces]] went out.',       options: ['had', 'did', 'was'],
       correctAnswer: 'had',
       explanation: 'Use inversion after "Hardly".',
       points: 1
@@ -43,44 +38,35 @@ export const C1_U10_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 4),
       type: 'multiple-choice',
-      question: 'Under no "[[circumstances|circunstancias]] ___ "[[children|niños]] be "[[left|dejados]] "[[unattended|sin supervisión]].',
-      options: ['must', 'should', 'do'],
+ question: 'Under no [[circumstances|circunstancias]] ___ [[children|niños]] be [[left|dejados]] [[unattended|sin supervisión]].',       options: ['must', 'should', 'do'],
       correctAnswer: 'should',
-      explanation: 'Inversion after a "[[negative|negativa]] "[[prepositional|preposicional]] phrase.',
-      points: 1
+ explanation: 'Inversion after a [[negative|negativa]] [[prepositional|preposicional]] phrase.',       points: 1
     },
     {
       id: genId(UNIT_ID, 'b1', 5),
       type: 'multiple-choice',
-      question: '"[[Rarely|Rara vez]] ___ "[[politicians|políticos]] "[[admit|admiten]] their "[[mistakes|errores]].',
-      options: ['do', 'does', 'are'],
+ question: '[[Rarely|Rara vez]] ___ [[politicians|políticos]] [[admit|admiten]] their [[mistakes|errores]].',       options: ['do', 'does', 'are'],
       correctAnswer: 'do',
-      explanation: 'Inversion for general "[[habits|hábitos]].',
-      points: 1
+ explanation: 'Inversion for general [[habits|hábitos]].',       points: 1
     },
     {
       id: genId(UNIT_ID, 'b1', 6),
       type: 'multiple-choice',
-      question: 'Not until "[[much|mucho]] "[[later|más tarde]] ___ I "[[realize|darme cuenta]] the "[[gravity|gravedad]] of the "[[situation|situación]].',
-      options: ['was', 'did', 'have'],
+ question: 'Not until [[much|mucho]] [[later|más tarde]] ___ I [[realize|darme cuenta]] the [[gravity|gravedad]] of the [[situation|situación]].',       options: ['was', 'did', 'have'],
       correctAnswer: 'did',
-      explanation: 'Inversion occurs in the "[[main|principal]] clause after "Not until".',
-      points: 1
+ explanation: 'Inversion occurs in the [[main|principal]] clause after Not until.',       points: 1
     },
     {
       id: genId(UNIT_ID, 'b1', 7),
       type: 'multiple-choice',
-      question: '"[[Little|Poco]] ___ she "[[know|saber]] that her "[[life|vida]] was about to "[[change|cambiar]] "[[forever|para siempre]].',
-      options: ['does', 'had', 'did'],
+ question: '[[Little|Poco]] ___ she [[know|saber]] that her [[life|vida]] was about to [[change|cambiar]] [[forever|para siempre]].',       options: ['does', 'had', 'did'],
       correctAnswer: 'did',
-      explanation: 'Use "did" with "Little" for "[[narrative|narrativo]] emphasis.',
-      points: 1
+ explanation: 'Use did with Little for [[narrative|narrativo]] emphasis.',       points: 1
     },
     {
       id: genId(UNIT_ID, 'b1', 8),
       type: 'multiple-choice',
-      question: '"[[Only|Solo]] "[[after|después de]] "[[leaving|irse]] the "[[office|oficina]] ___ he "[[remember|recordar]] to "[[lock|cerrar]] the door.',
-      options: ['does', 'had', 'did'],
+ question: '[[Only|Solo]] [[after|después de]] [[leaving|irse]] the [[office|oficina]] ___ he [[remember|recordar]] to [[lock|cerrar]] the door.',       options: ['does', 'had', 'did'],
       correctAnswer: 'did',
       explanation: 'Inversion after "Only after".',
       points: 1
@@ -88,8 +74,7 @@ export const C1_U10_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 9),
       type: 'multiple-choice',
-      question: 'No "[[sooner|más pronto]] ___ the "[[game|juego]] "[[begun|empezado]] than it started to "[[rain|llover]].',
-      options: ['did', 'was', 'had'],
+ question: 'No [[sooner|más pronto]] ___ the [[game|juego]] [[begun|empezado]] than it started to [[rain|llover]].',       options: ['did', 'was', 'had'],
       correctAnswer: 'had',
       explanation: 'Use "had" with "No sooner".',
       points: 1
@@ -97,8 +82,7 @@ export const C1_U10_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 10),
       type: 'multiple-choice',
-      question: 'At no "[[time|tiempo]] ___ the "[[suspect|sospechoso]] "[[confess|confesar]] to the "[[crime|crimen]].',
-      options: ['was', 'had', 'did'],
+ question: 'At no [[time|tiempo]] ___ the [[suspect|sospechoso]] [[confess|confesar]] to the [[crime|crimen]].',       options: ['was', 'had', 'did'],
       correctAnswer: 'did',
       explanation: 'Inversion after "At no time".',
       points: 1
@@ -114,13 +98,11 @@ export const C1_U10_BLOCK2: Exercise = {
   type: 'grammar',
   title: 'Inversion with "Only"',
   grammarPoint: 'Inversion',
-  explanation: 'Expressions with "Only" (Only if, Only when, Only by) require "[[inversion|inversión]] in the "[[main|principal]] clause.',
-  questions: [
+ explanation: 'Expressions with Only (Only if, Only when, Only by) require [[inversion|inversión]] in the [[main|principal]] clause.',   questions: [
     {
       id: genId(UNIT_ID, 'b2', 1),
       type: 'multiple-choice',
-      question: 'Only by "[[working|trabajando]] "[[harder|más duro]] ___ you "[[achieve|lograr]] your "[[goals|objetivos]].',
-      options: ['you will', 'will', 'do you'],
+ question: 'Only by [[working|trabajando]] [[harder|más duro]] ___ you [[achieve|lograr]] your [[goals|objetivos]].',       options: ['you will', 'will', 'do you'],
       correctAnswer: 'will',
       explanation: 'Inversion in the main clause.',
       points: 1
@@ -128,17 +110,14 @@ export const C1_U10_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 2),
       type: 'multiple-choice',
-      question: 'Only when "[[everyone|todos]] had "[[left|salido]] ___ I "[[feel|sentir]] "[[safe|seguro]].',
-      options: ['was', 'have', 'did'],
+ question: 'Only when [[everyone|todos]] had [[left|salido]] ___ I [[feel|sentir]] [[safe|seguro]].',       options: ['was', 'have', 'did'],
       correctAnswer: 'did',
-      explanation: 'Inversion after a "[[time|tiempo]] clause starting with "Only when".',
-      points: 1
+ explanation: 'Inversion after a [[time|tiempo]] clause starting with Only when.',       points: 1
     },
     {
       id: genId(UNIT_ID, 'b2', 3),
       type: 'multiple-choice',
-      question: 'Only if it "[[stops|para]] "[[snowing|nevar]] ___ we be able to "[[travel|viajar]].',
-      options: ['will', 'can', 'are'],
+ question: 'Only if it [[stops|para]] [[snowing|nevar]] ___ we be able to [[travel|viajar]].',       options: ['will', 'can', 'are'],
       correctAnswer: 'will',
       explanation: 'Conditional inversion.',
       points: 1
@@ -146,8 +125,7 @@ export const C1_U10_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 4),
       type: 'multiple-choice',
-      question: 'Only then ___ I "[[understand|entender]] the "[[true|verdadero]] "[[meaning|significado]] of his "[[words|palabras]].',
-      options: ['I', 'was', 'did'],
+ question: 'Only then ___ I [[understand|entender]] the [[true|verdadero]] [[meaning|significado]] of his [[words|palabras]].',       options: ['I', 'was', 'did'],
       correctAnswer: 'did',
       explanation: 'Inversion after "Only then".',
       points: 1
@@ -155,8 +133,7 @@ export const C1_U10_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 5),
       type: 'multiple-choice',
-      question: 'Only in "[[emergencies|emergencias]] ___ you "[[use|usar]] this "[[exit|salida]].',
-      options: ['you should', 'should', 'must'],
+ question: 'Only in [[emergencies|emergencias]] ___ you [[use|usar]] this [[exit|salida]].',       options: ['you should', 'should', 'must'],
       correctAnswer: 'should',
       explanation: 'Modal inversion.',
       points: 1
@@ -164,8 +141,7 @@ export const C1_U10_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 6),
       type: 'multiple-choice',
-      question: 'Only once ___ I "[[met|conocido]] such an "[[extraordinary|extraordinaria]] "[[person|persona]].',
-      options: ['did', 'I have', 'have'],
+ question: 'Only once ___ I [[met|conocido]] such an [[extraordinary|extraordinaria]] [[person|persona]].',       options: ['did', 'I have', 'have'],
       correctAnswer: 'have',
       explanation: 'Inversion with present perfect after "Only once".',
       points: 1
@@ -173,8 +149,7 @@ export const C1_U10_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 7),
       type: 'multiple-choice',
-      question: 'Only "[[later|más tarde]] ___ the "[[police|policía]] "[[discover|descubrir]] the "[[truth|verdad]].',
-      options: ['was', 'did', 'had'],
+ question: 'Only [[later|más tarde]] ___ the [[police|policía]] [[discover|descubrir]] the [[truth|verdad]].',       options: ['was', 'did', 'had'],
       correctAnswer: 'did',
       explanation: 'Inversion after "Only later".',
       points: 1
@@ -182,8 +157,7 @@ export const C1_U10_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 8),
       type: 'multiple-choice',
-      question: 'Only by "[[investing|invirtiendo]] now ___ the "[[company|empresa]] "[[survive|sobrevivir]].',
-      options: ['can', 'could', 'did'],
+ question: 'Only by [[investing|invirtiendo]] now ___ the [[company|empresa]] [[survive|sobrevivir]].',       options: ['can', 'could', 'did'],
       correctAnswer: 'can',
       explanation: 'Modal inversion in the main clause.',
       points: 1
@@ -191,8 +165,7 @@ export const C1_U10_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 9),
       type: 'multiple-choice',
-      question: 'Only with your "[[help|ayuda]] ___ we "[[succeed|tener éxito]].',
-      options: ['we did', 'have', 'did'],
+ question: 'Only with your [[help|ayuda]] ___ we [[succeed|tener éxito]].',       options: ['we did', 'have', 'did'],
       correctAnswer: 'did',
       explanation: 'Inversion with "Only with".',
       points: 1
@@ -200,11 +173,9 @@ export const C1_U10_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 10),
       type: 'multiple-choice',
-      question: 'Only "[[yesterday|ayer]] ___ I "[[hear|oír]] the "[[news|noticias]].',
-      options: ['I', 'did', 'was'],
+ question: 'Only [[yesterday|ayer]] ___ I [[hear|oír]] the [[news|noticias]].',       options: ['I', 'did', 'was'],
       correctAnswer: 'did',
-      explanation: 'Inversion for emphasis on "[[recent|reciente]] time.',
-      points: 1
+ explanation: 'Inversion for emphasis on [[recent|reciente]] time.',       points: 1
     }
   ]
 };
@@ -217,8 +188,7 @@ export const C1_U10_BLOCK3: Exercise = {
   type: 'grammar',
   title: 'Key Word Transformation: Inversion',
   grammarPoint: 'Inversion',
-  explanation: 'Rewrite the "[[sentence|oración]] using the "[[given|dada]] word, starting with the "[[negative|negativa]] expression.',
-  questions: [
+ explanation: 'Rewrite the [[sentence|oración]] using the [[given|dada]] word, starting with the [[negative|negativa]] expression.',   questions: [
     {
       id: genId(UNIT_ID, 'b3', 1),
       type: 'multiple-choice',
@@ -320,97 +290,76 @@ export const C1_U10_BLOCK4: Exercise = {
   type: 'vocabulary',
   title: 'Formal Negative Expressions',
   grammarPoint: 'Vocabulary',
-  explanation: 'C1 learners should use "[[sophisticated|sofisticadas]] negative expressions to "[[convey|transmitir]] "[[precision|precisión]].',
-  questions: [
+ explanation: 'C1 learners should use [[sophisticated|sofisticadas]] negative expressions to [[convey|transmitir]] [[precision|precisión]].',   questions: [
     {
       id: genId(UNIT_ID, 'b4', 1),
       type: 'multiple-choice',
-      question: 'The "[[proposal|propuesta]] was ___ "[[rejected|rechazada]] by the "[[committee|comité]].',
-      options: ['no', 'flatly', 'not'],
+ question: 'The [[proposal|propuesta]] was ___ [[rejected|rechazada]] by the [[committee|comité]].',       options: ['no', 'flatly', 'not'],
       correctAnswer: 'flatly',
-      explanation: '"Flatly rejected" means rejected "[[completely|completamente]] and "[[firmly|firmemente]].',
-      points: 1
+ explanation: 'Flatly rejected means rejected [[completely|completamente]] and [[firmly|firmemente]].',       points: 1
     },
     {
       id: genId(UNIT_ID, 'b4', 2),
       type: 'multiple-choice',
-      question: 'There is ___ no "[[evidence|evidencia]] to "[[support|apoyar]] the "[[claim|afirmación]].',
-      options: ['almost', 'nearly', 'virtually'],
+ question: 'There is ___ no [[evidence|evidencia]] to [[support|apoyar]] the [[claim|afirmación]].',       options: ['almost', 'nearly', 'virtually'],
       correctAnswer: 'virtually',
-      explanation: '"Virtually no" means "[[almost|casi]] none.',
-      points: 1
+ explanation: 'Virtually no means [[almost|casi]] none.',       points: 1
     },
     {
       id: genId(UNIT_ID, 'b4', 3),
       type: 'multiple-choice',
-      question: 'The "[[details|detalles]] are ___ "[[confidential|confidenciales]].',
-      options: ['very', 'strictly', 'high'],
+ question: 'The [[details|detalles]] are ___ [[confidential|confidenciales]].',       options: ['very', 'strictly', 'high'],
       correctAnswer: 'strictly',
-      explanation: '"Strictly confidential" is a common "[[collocation|colocación]].',
-      points: 1
+ explanation: 'Strictly confidential is a common [[collocation|colocación]].',       points: 1
     },
     {
       id: genId(UNIT_ID, 'b4', 4),
       type: 'multiple-choice',
-      question: 'The "[[outcome|resultado]] was ___ "[[unpredictable|impredecible]].',
-      options: ['utterly', 'quite', 'bit'],
+ question: 'The [[outcome|resultado]] was ___ [[unpredictable|impredecible]].',       options: ['utterly', 'quite', 'bit'],
       correctAnswer: 'utterly',
-      explanation: '"Utterly" adds strong emphasis to a "[[negative|negativa]] quality.',
-      points: 1
+ explanation: 'Utterly adds strong emphasis to a [[negative|negativa]] quality.',       points: 1
     },
     {
       id: genId(UNIT_ID, 'b4', 5),
       type: 'multiple-choice',
-      question: 'I ___ "[[disagree|en desacuerdo]] with your "[[assessment|evaluación]].',
-      options: ['hardly', 'not', 'strongly'],
+ question: 'I ___ [[disagree|en desacuerdo]] with your [[assessment|evaluación]].',       options: ['hardly', 'not', 'strongly'],
       correctAnswer: 'strongly',
-      explanation: '"Strongly disagree" is a "[[formal|formal]] way to express "[[opposition|oposición]].',
-      points: 1
+ explanation: 'Strongly disagree is a [[formal|formal]] way to express [[opposition|oposición]].',       points: 1
     },
     {
       id: genId(UNIT_ID, 'b4', 6),
       type: 'multiple-choice',
-      question: 'The "[[rumors|rumores]] are ___ "[[unfounded|infundados]].',
-      options: ['very', 'entirely', 'some'],
+ question: 'The [[rumors|rumores]] are ___ [[unfounded|infundados]].',       options: ['very', 'entirely', 'some'],
       correctAnswer: 'entirely',
-      explanation: '"Entirely unfounded" means they have no "[[basis|base]] at all.',
-      points: 1
+ explanation: 'Entirely unfounded means they have no [[basis|base]] at all.',       points: 1
     },
     {
       id: genId(UNIT_ID, 'b4', 7),
       type: 'multiple-choice',
-      question: 'There has been ___ no "[[progress|progreso]] "[[made|hecho]].',
-      options: ['next to', 'not', 'almost'],
+ question: 'There has been ___ no [[progress|progreso]] [[made|hecho]].',       options: ['next to', 'not', 'almost'],
       correctAnswer: 'next to',
-      explanation: '"Next to no" is an "[[idiomatic|idiomática]] way to say "[[very little|muy poco]].',
-      points: 1
+ explanation: 'Next to no is an [[idiomatic|idiomática]] way to say [[very little|muy poco]].',       points: 1
     },
     {
       id: genId(UNIT_ID, 'b4', 8),
       type: 'multiple-choice',
-      question: 'He was ___ "[[unaware|inconsciente]] of the "[[danger|peligro]].',
-      options: ['blissfully', 'very', 'well'],
+ question: 'He was ___ [[unaware|inconsciente]] of the [[danger|peligro]].',       options: ['blissfully', 'very', 'well'],
       correctAnswer: 'blissfully',
-      explanation: '"Blissfully unaware" means "[[happily|felizmente]] not knowing something "[[bad|malo]].',
-      points: 1
+ explanation: 'Blissfully unaware means [[happily|felizmente]] not knowing something [[bad|malo]].',       points: 1
     },
     {
       id: genId(UNIT_ID, 'b4', 9),
       type: 'multiple-choice',
-      question: 'The "[[damage|daño]] is ___ "[[irreparable|irreparable]].',
-      options: ['largely', 'little', 'partly'],
+ question: 'The [[damage|daño]] is ___ [[irreparable|irreparable]].',       options: ['largely', 'little', 'partly'],
       correctAnswer: 'largely',
-      explanation: '"Largely" can be used to emphasize the "[[extent|extensión]] of a negative state.',
-      points: 1
+ explanation: 'Largely can be used to emphasize the [[extent|extensión]] of a negative state.',       points: 1
     },
     {
       id: genId(UNIT_ID, 'b4', 10),
       type: 'multiple-choice',
-      question: 'She ___ "[[refused|rechazó]] to "[[compromise|comprometerse]].',
-      options: ['fast', 'hardly', 'steadfastly'],
+ question: 'She ___ [[refused|rechazó]] to [[compromise|comprometerse]].',       options: ['fast', 'hardly', 'steadfastly'],
       correctAnswer: 'steadfastly',
-      explanation: '"Steadfastly refused" means refused with great "[[determination|determinación]].',
-      points: 1
+ explanation: 'Steadfastly refused means refused with great [[determination|determinación]].',       points: 1
     }
   ]
 };
@@ -423,13 +372,11 @@ export const C1_U10_BLOCK5: Exercise = {
   type: 'grammar',
   title: 'Unit 10 Review',
   grammarPoint: 'Mixed Inversion & Negatives',
-  explanation: 'Final check of Unit 10 "[[concepts|conceptos]].',
-  questions: [
+ explanation: 'Final check of Unit 10 [[concepts|conceptos]].',   questions: [
     {
       id: genId(UNIT_ID, 'b5', 1),
       type: 'multiple-choice',
-      question: '___ had the "[[show|espectáculo]] "[[ended|terminado]] than the "[[audience|audiencia]] "[[cheered|vitoreó]].',
-      options: ['Hardly', 'Scarcely', 'No sooner'],
+ question: '___ had the [[show|espectáculo]] [[ended|terminado]] than the [[audience|audiencia]] [[cheered|vitoreó]].',       options: ['Hardly', 'Scarcely', 'No sooner'],
       correctAnswer: 'No sooner',
       explanation: 'No sooner goes with "than".',
       points: 1
@@ -437,8 +384,7 @@ export const C1_U10_BLOCK5: Exercise = {
     {
       id: genId(UNIT_ID, 'b5', 2),
       type: 'multiple-choice',
-      question: 'The "[[claim|reclamación]] was ___ "[[denied|negada]].',
-      options: ['not', 'no', 'flatly'],
+ question: 'The [[claim|reclamación]] was ___ [[denied|negada]].',       options: ['not', 'no', 'flatly'],
       correctAnswer: 'flatly',
       explanation: 'Formal emphatic denial.',
       points: 1
@@ -446,8 +392,7 @@ export const C1_U10_BLOCK5: Exercise = {
     {
       id: genId(UNIT_ID, 'b5', 3),
       type: 'multiple-choice',
-      question: '"[[Rarely|Rara vez]] ___ we seen such "[[chaos|caos]].',
-      options: ['have', 'did', 'was'],
+ question: '[[Rarely|Rara vez]] ___ we seen such [[chaos|caos]].',       options: ['have', 'did', 'was'],
       correctAnswer: 'have',
       explanation: 'Inversion with present perfect.',
       points: 1
@@ -455,8 +400,7 @@ export const C1_U10_BLOCK5: Exercise = {
     {
       id: genId(UNIT_ID, 'b5', 4),
       type: 'multiple-choice',
-      question: 'Only "[[later|más tarde]] ___ he "[[realize|darme cuenta]] his mistake.',
-      options: ['he', 'was', 'did'],
+ question: 'Only [[later|más tarde]] ___ he [[realize|darme cuenta]] his mistake.',       options: ['he', 'was', 'did'],
       correctAnswer: 'did',
       explanation: 'Inversion after "Only later".',
       points: 1
@@ -464,8 +408,7 @@ export const C1_U10_BLOCK5: Exercise = {
     {
       id: genId(UNIT_ID, 'b5', 5),
       type: 'multiple-choice',
-      question: 'There is ___ no "[[hope|esperanza]] left.',
-      options: ['almost', 'not', 'virtually'],
+ question: 'There is ___ no [[hope|esperanza]] left.',       options: ['almost', 'not', 'virtually'],
       correctAnswer: 'virtually',
       explanation: 'Emphasizing the near-absence of something.',
       points: 1
@@ -473,8 +416,7 @@ export const C1_U10_BLOCK5: Exercise = {
     {
       id: genId(UNIT_ID, 'b5', 6),
       type: 'multiple-choice',
-      question: '"[[Hardly|Apenas]] ___ he "[[left|ido]] when it "[[rained|llovió]].',
-      options: ['had', 'did', 'was'],
+ question: '[[Hardly|Apenas]] ___ he [[left|ido]] when it [[rained|llovió]].',       options: ['had', 'did', 'was'],
       correctAnswer: 'had',
       explanation: 'Hardly goes with "when".',
       points: 1
@@ -482,8 +424,7 @@ export const C1_U10_BLOCK5: Exercise = {
     {
       id: genId(UNIT_ID, 'b5', 7),
       type: 'multiple-choice',
-      question: 'Under no "[[circumstances|circunstancias]] ___ you "[[go|ir]].',
-      options: ['must', 'do', 'should'],
+ question: 'Under no [[circumstances|circunstancias]] ___ you [[go|ir]].',       options: ['must', 'do', 'should'],
       correctAnswer: 'must',
       explanation: 'Strong prohibition with inversion.',
       points: 1
@@ -491,8 +432,7 @@ export const C1_U10_BLOCK5: Exercise = {
     {
       id: genId(UNIT_ID, 'b5', 8),
       type: 'multiple-choice',
-      question: 'She was ___ "[[ignorant|ignorante]] of the "[[facts|hechos]].',
-      options: ['quite', 'fairly', 'totally'],
+ question: 'She was ___ [[ignorant|ignorante]] of the [[facts|hechos]].',       options: ['quite', 'fairly', 'totally'],
       correctAnswer: 'totally',
       explanation: 'Strong emphasis on a state.',
       points: 1
@@ -500,8 +440,7 @@ export const C1_U10_BLOCK5: Exercise = {
     {
       id: genId(UNIT_ID, 'b5', 9),
       type: 'multiple-choice',
-      question: '"[[Little|Poco]] ___ they "[[know|saber]] the "[[truth|verdad]].',
-      options: ['does', 'have', 'did'],
+ question: '[[Little|Poco]] ___ they [[know|saber]] the [[truth|verdad]].',       options: ['does', 'have', 'did'],
       correctAnswer: 'did',
       explanation: 'Narrative inversion.',
       points: 1
@@ -509,8 +448,7 @@ export const C1_U10_BLOCK5: Exercise = {
     {
       id: genId(UNIT_ID, 'b5', 10),
       type: 'multiple-choice',
-      question: 'Only by "[[trying|intentando]] ___ you "[[learn|aprender]].',
-      options: ['will', 'do', 'can'],
+ question: 'Only by [[trying|intentando]] ___ you [[learn|aprender]].',       options: ['will', 'do', 'can'],
       correctAnswer: 'will',
       explanation: 'Inversion in the main clause.',
       points: 1
