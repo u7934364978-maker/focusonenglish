@@ -12,7 +12,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Nominal Clauses",
       instructions: "Choose the correct word to complete the nominal clause.",
-      question: "I believe ___ everyone should be honest.",
+      question: "[[I believe ___ everyone should be honest.|Creo que todo el mundo debería ser honesto.]]",
       options: ["that", "what", "which"],
       correctAnswer: "that",
       explanation: "'That' introduces a noun clause after verbs like believe, think, say.",
@@ -31,7 +31,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Nominal Clauses",
       instructions: "Choose the correct word.",
-      question: "It is important ___ we act ethically.",
+      question: "[[It is important ___ we act ethically.|Es importante que actuemos éticamente.]]",
       options: ["that", "how", "if"],
       correctAnswer: "that",
       explanation: "'That' clauses often follow 'It is + adjective'.",
@@ -50,7 +50,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Nominal Clauses",
       instructions: "Choose the correct word.",
-      question: "The fact ___ he lied is the main issue.",
+      question: "[[The fact ___ he lied is the main issue.|El hecho de que mintiera es el problema principal.]]",
       options: ["that", "which", "whose"],
       correctAnswer: "that",
       explanation: "'The fact that' is a common way to use a noun clause as a subject.",
@@ -69,7 +69,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Nominal Clauses",
       instructions: "Choose the correct word.",
-      question: "I hope ___ you understand the situation.",
+      question: "[[I hope ___ you understand the situation.|Espero que entiendas la situación.]]",
       options: ["that", "what", "where"],
       correctAnswer: "that",
       explanation: "Using 'that' to introduce the object of the verb 'hope'.",
@@ -88,7 +88,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Nominal Clauses",
       instructions: "Choose the correct word.",
-      question: "He suggested ___ we should discuss it further.",
+      question: "[[He suggested ___ we should discuss it further.|Sugirió que deberíamos discutirlo más a fondo.]]",
       options: ["that", "what", "how"],
       correctAnswer: "that",
       explanation: "Introducing a suggestion.",
@@ -107,7 +107,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Nominal Clauses",
       instructions: "Choose the correct word.",
-      question: "Is it true ___ they are closing?",
+      question: "[[Is it true ___ they are closing?|¿Es verdad que van a cerrar?]]",
       options: ["that", "which", "whose"],
       correctAnswer: "that",
       explanation: "Introducing a clause after 'true'.",
@@ -126,7 +126,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Nominal Clauses",
       instructions: "Choose the correct word.",
-      question: "I noticed ___ the price was wrong.",
+      question: "[[I noticed ___ the price was wrong.|Me di cuenta de que el precio estaba mal.]]",
       options: ["that", "what", "how"],
       correctAnswer: "that",
       explanation: "Introducing what was noticed.",
@@ -145,7 +145,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Nominal Clauses",
       instructions: "Choose the correct word.",
-      question: "It's a pity ___ he couldn't come.",
+      question: "[[It's a pity ___ he couldn't come.|Es una pena que no pudiera venir.]]",
       options: ["that", "what", "which"],
       correctAnswer: "that",
       explanation: "Introducing a clause after 'It's a pity'.",
@@ -164,7 +164,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Nominal Clauses",
       instructions: "Choose the correct word.",
-      question: "I'm sure ___ we will find a solution.",
+      question: "[[I'm sure ___ we will find a solution.|Estoy seguro de que encontraremos una solución.]]",
       options: ["that", "what", "who"],
       correctAnswer: "that",
       explanation: "Introducing a clause after 'sure'.",
@@ -183,7 +183,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Nominal Clauses",
       instructions: "Choose the correct word.",
-      question: "He denied ___ he had stolen the money.",
+      question: "[[He denied ___ he had stolen the money.|Negó que hubiera robado el dinero.]]",
       options: ["that", "what", "whether"],
       correctAnswer: "that",
       explanation: "Introducing a denial.",
@@ -204,7 +204,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Nominal Clauses",
       instructions: "Fill in the correct wh-word.",
-      question: "I don't know ___ (what) he wants.",
+      question: "[[I don't know ___ (what) he wants.|No sé qué quiere.]]",
       correctAnswer: "what",
       explanation: "'What' introduces a noun clause acting as the object.",
       translation: "No sé qué quiere.",
@@ -222,7 +222,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Nominal Clauses",
       instructions: "Fill in the correct wh-word.",
-      question: "Do you know ___ (where) they live?",
+      question: "[[Do you know ___ (where) they live?|¿Sabes dónde viven?]]",
       correctAnswer: "where",
       explanation: "'Where' introduces a noun clause about location.",
       translation: "¿Sabes dónde viven?",
@@ -240,7 +240,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Nominal Clauses",
       instructions: "Fill in the correct wh-word.",
-      question: "I wonder ___ (why) she is late.",
+      question: "[[I wonder ___ (why) she is late.|Me pregunto por qué llega tarde.]]",
       correctAnswer: "why",
       explanation: "'Why' introduces a noun clause about reason.",
       translation: "Me pregunto por qué llega tarde.",
@@ -258,7 +258,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Nominal Clauses",
       instructions: "Fill in the correct wh-word.",
-      question: "Can you tell me ___ (how) to get there?",
+      question: "[[Can you tell me ___ (how) to get there?|¿Puedes decirme cómo llegar allí?]]",
       correctAnswer: "how",
       explanation: "'How' introduces a noun clause about manner or method.",
       translation: "¿Puedes decirme cómo llegar allí?",
@@ -276,7 +276,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Nominal Clauses",
       instructions: "Fill in the correct wh-word.",
-      question: "I remember ___ (when) we first met.",
+      question: "[[I remember ___ (when) we first met.|Recuerdo cuándo nos conocimos por primera vez.]]",
       correctAnswer: "when",
       explanation: "'When' introduces a noun clause about time.",
       translation: "Recuerdo cuándo nos conocimos por primera vez.",
@@ -294,7 +294,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Nominal Clauses",
       instructions: "Fill in the correct wh-word.",
-      question: "I'm not sure ___ (which) one to choose.",
+      question: "[[I'm not sure ___ (which) one to choose.|No estoy seguro de cuál elegir.]]",
       correctAnswer: "which",
       explanation: "'Which' introduces a noun clause about choice.",
       translation: "No estoy seguro de cuál elegir.",
@@ -312,7 +312,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Nominal Clauses",
       instructions: "Fill in the correct wh-word.",
-      question: "They asked ___ (who) was responsible.",
+      question: "[[They asked ___ (who) was responsible.|Preguntaron quién era el responsable.]]",
       correctAnswer: "who",
       explanation: "'Who' introduces a noun clause about a person.",
       translation: "Preguntaron quién era el responsable.",
@@ -330,7 +330,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Nominal Clauses",
       instructions: "Fill in the correct word.",
-      question: "It depends on ___ (whether) they arrive on time.",
+      question: "[[It depends on ___ (whether) they arrive on time.|Depende de si llegan a tiempo.]]",
       correctAnswer: "whether",
       explanation: "'Whether' introduces a noun clause about alternatives or conditions.",
       translation: "Depende de si llegan a tiempo.",
@@ -348,7 +348,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Nominal Clauses",
       instructions: "Fill in the correct wh-word.",
-      question: "I don't care ___ (what) they think.",
+      question: "[[I don't care ___ (what) they think.|No me importa lo que piensen.]]",
       correctAnswer: "what",
       explanation: "Using 'what' to introduce the object of 'care'.",
       translation: "No me importa lo que piensen.",
@@ -366,7 +366,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Nominal Clauses",
       instructions: "Fill in the correct wh-word.",
-      question: "He explained ___ (how) he solved the problem.",
+      question: "[[He explained ___ (how) he solved the problem.|Explicó cómo resolvió el problema.]]",
       correctAnswer: "how",
       explanation: "Introducing a clause explaining the method.",
       translation: "Explicó cómo resolvió el problema.",
@@ -386,7 +386,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Ethics",
       instructions: "Fill in the blank.",
-      question: "An ethical ___ (dilemma) is a difficult choice between two options.",
+      question: "[[An ethical ___ (dilemma) is a difficult choice between two options.|Un dilema ético es una elección difícil.]]",
       correctAnswer: "dilemma",
       explanation: "A dilemma is a situation in which a difficult choice has to be made between two or more alternatives.",
       translation: "Un dilema ético es una elección difícil.",
@@ -404,7 +404,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Ethics",
       instructions: "Fill in the blank.",
-      question: "___ (Morality) refers to principles concerning the distinction between right and wrong.",
+      question: "[[___ (Morality) refers to principles concerning the distinction between right and wrong.|La moralidad se refiere a los principios de lo correcto y lo incorrecto.]]",
       correctAnswer: "Morality",
       explanation: "Morality is the system of values and principles of conduct.",
       translation: "La moralidad se refiere a los principios de lo correcto y lo incorrecto.",
@@ -422,7 +422,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Ethics",
       instructions: "Fill in the blank.",
-      question: "___ (Integrity) is the quality of being honest and having strong moral principles.",
+      question: "[[___ (Integrity) is the quality of being honest and having strong moral principles.|La integridad es hacer lo correcto incluso cuando nadie está mirando.]]",
       correctAnswer: "Integrity",
       explanation: "Integrity involves consistency of actions, values, methods, measures, principles, expectations, and outcomes.",
       translation: "La integridad es hacer lo correcto incluso cuando nadie está mirando.",
@@ -440,7 +440,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Ethics",
       instructions: "Fill in the blank.",
-      question: "___ (Empathy) is the ability to understand and share the feelings of another.",
+      question: "[[___ (Empathy) is the ability to understand and share the feelings of another.|La empatía es la capacidad de entender los sentimientos de los demás.]]",
       correctAnswer: "Empathy",
       explanation: "Empathy is crucial for ethical decision-making.",
       translation: "La empatía es la capacidad de entender los sentimientos de los demás.",
@@ -458,7 +458,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Ethics",
       instructions: "Fill in the blank.",
-      question: "Your ___ (conscience) is your inner sense of right and wrong.",
+      question: "[[Your ___ (conscience) is your inner sense of right and wrong.|La conciencia es tu sentido interno de lo correcto y lo incorrecto.]]",
       correctAnswer: "conscience",
       explanation: "Conscience is an inner feeling or voice acting as a guide to the rightness or wrongness of one's behavior.",
       translation: "La conciencia es tu sentido interno de lo correcto y lo incorrecto.",
@@ -476,7 +476,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Ethics",
       instructions: "Fill in the blank.",
-      question: "___ (Virtue) is behavior showing high moral standards.",
+      question: "[[___ (Virtue) is behavior showing high moral standards.|La virtud es un comportamiento que muestra altos estándares morales.]]",
       correctAnswer: "Virtue",
       explanation: "Virtues are qualities considered morally good or desirable.",
       translation: "La virtud es un comportamiento que muestra altos estándares morales.",
@@ -494,7 +494,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Ethics",
       instructions: "Fill in the blank.",
-      question: "___ (Altruism) is the practice of helping others without expecting anything in return.",
+      question: "[[___ (Altruism) is the practice of helping others without expecting anything in return.|El altruismo es la creencia o práctica del interés desinteresado por el bienestar de los demás.]]",
       correctAnswer: "Altruism",
       explanation: "Altruism is a key concept in many philosophical traditions.",
       translation: "El altruismo es la creencia o práctica del interés desinteresado por el bienestar de los demás.",
@@ -512,7 +512,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Ethics",
       instructions: "Fill in the blank.",
-      question: "A ___ (duty) is a moral or legal obligation.",
+      question: "[[A ___ (duty) is a moral or legal obligation.|El deber es una obligación moral o legal.]]",
       correctAnswer: "duty",
       explanation: "Duty is what one is required to do by moral or legal standards.",
       translation: "El deber es una obligación moral o legal.",
@@ -530,7 +530,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Ethics",
       instructions: "Fill in the blank.",
-      question: "___ (Accountability) means being responsible for your actions and decisions.",
+      question: "[[___ (Accountability) means being responsible for your actions and decisions.|La rendición de cuentas significa ser responsable de tus acciones.]]",
       correctAnswer: "Accountability",
       explanation: "Accountability is the fact or condition of being accountable; responsibility.",
       translation: "La rendición de cuentas significa ser responsable de tus acciones.",
@@ -548,7 +548,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Ethics",
       instructions: "Fill in the blank.",
-      question: "Personal ___ (values) are the things that you believe are important in the way you live.",
+      question: "[[Personal ___ (values) are the things that you believe are important in the way you live.|Los valores son las cosas que crees que son importantes.]]",
       correctAnswer: "values",
       explanation: "Values guide our behavior and choices.",
       translation: "Los valores son las cosas que crees que son importantes.",
@@ -568,7 +568,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Philosophy",
       instructions: "Choose the correct term.",
-      question: "___ focuses on the greatest good for the greatest number of people.",
+      question: "[[___ focuses on the greatest good for the greatest number of people.|El utilitarismo se centra en el mayor bien para el mayor número.]]",
       options: ["Utilitarianism", "Skepticism", "Existentialism"],
       correctAnswer: "Utilitarianism",
       explanation: "Utilitarianism is an ethical theory that determines right from wrong by focusing on outcomes.",
@@ -587,7 +587,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Philosophy",
       instructions: "Choose the correct term.",
-      question: "___ is a philosophical position that involves questioning accepted beliefs.",
+      question: "[[___ is a philosophical position that involves questioning accepted beliefs.|El escepticismo implica cuestionar las creencias aceptadas.]]",
       options: ["Skepticism", "Realism", "Optimism"],
       correctAnswer: "Skepticism",
       explanation: "Skepticism is the attitude of doubting knowledge claims.",
@@ -606,7 +606,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Philosophy",
       instructions: "Choose the correct term.",
-      question: "___ emphasizes individual freedom, choice, and responsibility.",
+      question: "[[___ emphasizes individual freedom, choice, and responsibility.|El existencialismo enfatiza la libertad y elección individual.]]",
       options: ["Existentialism", "Socialism", "Idealism"],
       correctAnswer: "Existentialism",
       explanation: "Existentialism is a philosophy that emphasizes the existence of the individual person as a free and responsible agent.",
@@ -625,7 +625,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Philosophy",
       instructions: "Choose the correct term.",
-      question: "___ is the branch of philosophy that studies the principles of valid reasoning.",
+      question: "[[___ is the branch of philosophy that studies the principles of valid reasoning.|La lógica es el estudio del razonamiento.]]",
       options: ["Logic", "Ethics", "Metaphysics"],
       correctAnswer: "Logic",
       explanation: "Logic is the systematic study of the forms of inference.",
@@ -644,7 +644,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Philosophy",
       instructions: "Choose the correct term.",
-      question: "___ is the study of knowledge and justified belief.",
+      question: "[[___ is the study of knowledge and justified belief.|La epistemología es el estudio del conocimiento.]]",
       options: ["Epistemology", "Aesthetics", "Ontology"],
       correctAnswer: "Epistemology",
       explanation: "Epistemology investigates the origin, nature, methods, and limits of human knowledge.",
@@ -663,7 +663,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Philosophy",
       instructions: "Choose the correct term.",
-      question: "___ is the branch of philosophy dealing with the nature of beauty and art.",
+      question: "[[___ is the branch of philosophy dealing with the nature of beauty and art.|La estética es el estudio de la belleza y el arte.]]",
       options: ["Aesthetics", "Ethics", "Logic"],
       correctAnswer: "Aesthetics",
       explanation: "Aesthetics explores the nature of art, beauty, and taste.",
@@ -682,7 +682,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Philosophy",
       instructions: "Choose the correct term.",
-      question: "___ is the belief that all events, including human action, are determined by causes.",
+      question: "[[___ is the belief that all events, including human action, are determined by causes.|El determinismo es la creencia de que todos los eventos están determinados por causas.]]",
       options: ["Determinism", "Free will", "Relativism"],
       correctAnswer: "Determinism",
       explanation: "Determinism suggests that human beings have no free will.",
@@ -701,7 +701,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Philosophy",
       instructions: "Choose the correct term.",
-      question: "___ is the doctrine that knowledge, truth, and morality exist in relation to culture, society, or historical context.",
+      question: "[[___ is the doctrine that knowledge, truth, and morality exist in relation to culture, society, or historical context.|El relativismo sugiere que la verdad y la moralidad no son absolutas.]]",
       options: ["Relativism", "Absolutism", "Pluralism"],
       correctAnswer: "Relativism",
       explanation: "Relativism denies the existence of absolute universal truths.",
@@ -720,7 +720,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Philosophy",
       instructions: "Choose the correct term.",
-      question: "___ is the theory that the mental and the physical are separate and distinct.",
+      question: "[[___ is the theory that the mental and the physical are separate and distinct.|El dualismo es la creencia de que la realidad consta de dos sustancias separadas.]]",
       options: ["Dualism", "Monism", "Materialism"],
       correctAnswer: "Dualism",
       explanation: "Dualism often refers to the separation of mind and body.",
@@ -739,7 +739,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Philosophy",
       instructions: "Choose the correct term.",
-      question: "___ is the branch of philosophy that examines the fundamental nature of reality.",
+      question: "[[___ is the branch of philosophy that examines the fundamental nature of reality.|La metafísica explora la naturaleza del ser y del mundo.]]",
       options: ["Metaphysics", "Sociology", "Biology"],
       correctAnswer: "Metaphysics",
       explanation: "Metaphysics studies concepts like existence, time, and space.",
@@ -760,7 +760,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "Act ___ (ETHIC) in all your dealings.",
+      question: "[[Act ___ (ETHIC) in all your dealings.|Actúa éticamente en todos tus tratos.]]",
       correctAnswer: "ethically",
       explanation: "Adverb form of 'ethic/ethical'.",
       translation: "Actúa éticamente en todos tus tratos.",
@@ -778,7 +778,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "___ (PHILOSOPHY) thinking is important for deep understanding.",
+      question: "[[___ (PHILOSOPHY) thinking is important for deep understanding.|El pensamiento filosófico es importante.]]",
       correctAnswer: "Philosophical",
       explanation: "Adjective form of 'philosophy'.",
       translation: "El pensamiento filosófico es importante.",
@@ -796,7 +796,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "He is a famous ___ (PHILOSOPHY).",
+      question: "[[He is a famous ___ (PHILOSOPHY).|Es un filósofo famoso.]]",
       correctAnswer: "philosopher",
       explanation: "Noun for a person practicing philosophy.",
       translation: "Es un filósofo famoso.",
@@ -814,7 +814,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (MORALITY) responsibility is yours.",
+      question: "[[The ___ (MORALITY) responsibility is yours.|La responsabilidad moral es tuya.]]",
       correctAnswer: "moral",
       explanation: "Adjective form of 'morality'.",
       translation: "La responsabilidad moral es tuya.",
@@ -832,7 +832,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "They made a ___ (LOGIC) argument.",
+      question: "[[They made a ___ (LOGIC) argument.|Hicieron un argumento lógico.]]",
       correctAnswer: "logical",
       explanation: "Adjective form of 'logic'.",
       translation: "Hicieron un argumento lógico.",
@@ -850,7 +850,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "___ (EXIST) crisis is a common theme in literature.",
+      question: "[[___ (EXIST) crisis is a common theme in literature.|La crisis existencial es un tema común.]]",
       correctAnswer: "Existential",
       explanation: "Adjective form of 'exist/existence'.",
       translation: "La crisis existencial es un tema común.",
@@ -868,7 +868,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "___ (TRUE) is a virtue.",
+      question: "[[___ (TRUE) is a virtue.|La veracidad es una virtud.]]",
       correctAnswer: "Truthfulness",
       explanation: "Noun form indicating the quality of being true/honest.",
       translation: "La veracidad es una virtud.",
@@ -886,7 +886,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "A ___ (VIRTUE) person is respected.",
+      question: "[[A ___ (VIRTUE) person is respected.|Una persona virtuosa es respetada.]]",
       correctAnswer: "virtuous",
       explanation: "Adjective form of 'virtue'.",
       translation: "Una persona virtuosa es respetada.",
@@ -904,7 +904,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "His ___ (SKEPTIC) was obvious.",
+      question: "[[His ___ (SKEPTIC) was obvious.|Su escepticismo era obvio.]]",
       correctAnswer: "skepticism",
       explanation: "Noun form of 'skeptic'.",
       translation: "Su escepticismo era obvio.",
@@ -922,7 +922,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "Everything is ___ (RELATIVE) simple if you understand the basics.",
+      question: "[[Everything is ___ (RELATIVE) simple if you understand the basics.|Todo es relativamente sencillo.]]",
       correctAnswer: "relatively",
       explanation: "Adverb form of 'relative'.",
       translation: "Todo es relativamente sencillo.",
