@@ -1,5 +1,8 @@
 import { Exercise } from '@/lib/exercise-generator';
 
+/**
+ * Unit 1: Greetings and Introductions
+ */
 export const UNIT_1_EXERCISES: Exercise[] = [
   {
     "id": "a1-u1-e1",
