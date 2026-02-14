@@ -12,7 +12,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Advanced Articles: The",
       instructions: "Choose the correct article.",
-      question: "___ economy of the Eurozone is recovering.",
+      question: "[[___ economy of the Eurozone is recovering.|La economía de la Eurozona se está recuperando.]]",
       options: ["The", "A", "(zero)"],
       correctAnswer: "The",
       explanation: "Use 'the' for specific economies or entities followed by 'of'.",
@@ -31,7 +31,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Advanced Articles: The",
       instructions: "Choose the correct article.",
-      question: "___ IMF has predicted a slowdown.",
+      question: "[[___ IMF has predicted a slowdown.|El FMI ha predicho una desaceleración.]]",
       options: ["The", "An", "(zero)"],
       correctAnswer: "The",
       explanation: "Use 'the' for abbreviations of international organizations.",
@@ -50,7 +50,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Advanced Articles: The",
       instructions: "Choose the correct article.",
-      question: "___ United States is a major player in trade.",
+      question: "[[___ United States is a major player in trade.|Estados Unidos es un actor importante en el comercio.]]",
       options: ["The", "A", "(zero)"],
       correctAnswer: "The",
       explanation: "Use 'the' with country names that are plural or contain 'United/Republic/Kingdom'.",
@@ -69,7 +69,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Advanced Articles: The",
       instructions: "Choose the correct article.",
-      question: "___ Pacific Ocean is vast.",
+      question: "[[___ Pacific Ocean is vast.|El Océano Pacífico es vasto.]]",
       options: ["The", "A", "(zero)"],
       correctAnswer: "The",
       explanation: "Use 'the' for names of oceans and seas.",
@@ -88,7 +88,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Advanced Articles: The",
       instructions: "Choose the correct article.",
-      question: "We visited ___ Netherlands last year.",
+      question: "[[We visited ___ Netherlands last year.|Visitamos los Países Bajos el año pasado.]]",
       options: ["the", "a", "(zero)"],
       correctAnswer: "the",
       explanation: "Some country names like 'The Netherlands' always use 'the'.",
@@ -107,7 +107,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Advanced Articles: The",
       instructions: "Choose the correct article.",
-      question: "___ rich should pay more taxes.",
+      question: "[[___ rich should pay more taxes.|Los ricos deberían pagar más impuestos.]]",
       options: ["The", "A", "(zero)"],
       correctAnswer: "The",
       explanation: "Use 'the + adjective' to refer to a whole group of people.",
@@ -126,7 +126,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Advanced Articles: The",
       instructions: "Choose the correct article.",
-      question: "He is ___ best economist in the country.",
+      question: "[[He is ___ best economist in the country.|Es el mejor economista del país.]]",
       options: ["the", "a", "an"],
       correctAnswer: "the",
       explanation: "Always use 'the' with superlative adjectives.",
@@ -145,7 +145,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Advanced Articles: The",
       instructions: "Choose the correct article.",
-      question: "I live in ___ city center.",
+      question: "[[I live in ___ city center.|Vivo en el centro de la ciudad.]]",
       options: ["the", "a", "(zero)"],
       correctAnswer: "the",
       explanation: "Use 'the' for specific parts of a town or city.",
@@ -164,7 +164,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Advanced Articles: The",
       instructions: "Choose the correct article.",
-      question: "___ environment is a global priority.",
+      question: "[[___ environment is a global priority.|El medio ambiente es una prioridad global.]]",
       options: ["The", "An", "(zero)"],
       correctAnswer: "The",
       explanation: "Use 'the' for the environment as a unique global concept.",
@@ -183,7 +183,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Advanced Articles: The",
       instructions: "Choose the correct article.",
-      question: "___ sun rises in the east.",
+      question: "[[___ sun rises in the east.|El sol sale por el este.]]",
       options: ["The", "A", "(zero)"],
       correctAnswer: "The",
       explanation: "Use 'the' for unique objects in nature.",
@@ -204,7 +204,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Zero Article",
       instructions: "Fill in 'a', 'an' or leave blank for zero article.",
-      question: "___ (zero) globalization has changed the world.",
+      question: "[[___ (zero) globalization has changed the world.|La globalización ha cambiado el mundo.]]",
       correctAnswer: "",
       explanation: "Use the zero article for abstract nouns in a general sense.",
       translation: "La globalización ha cambiado el mundo.",
@@ -222,7 +222,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Indefinite Article",
       instructions: "Fill in 'a', 'an' or leave blank.",
-      question: "He is ___ (an) expert in macroeconomics.",
+      question: "[[He is ___ (an) expert in macroeconomics.|Es un experto en macroeconomía.]]",
       correctAnswer: "an",
       explanation: "Use 'an' before a noun starting with a vowel sound.",
       translation: "Es un experto en macroeconomía.",
@@ -240,7 +240,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Zero Article",
       instructions: "Fill in 'a', 'an' or leave blank.",
-      question: "___ (zero) interest rates are low.",
+      question: "[[___ (zero) interest rates are low.|Las tasas de interés son bajas.]]",
       correctAnswer: "",
       explanation: "Use zero article for plural countable nouns in a general sense.",
       translation: "Las tasas de interés son bajas.",
@@ -258,7 +258,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Indefinite Article",
       instructions: "Fill in 'a', 'an' or leave blank.",
-      question: "I have ___ (a) question about the budget.",
+      question: "[[I have ___ (a) question about the budget.|Tengo una pregunta sobre el presupuesto.]]",
       correctAnswer: "a",
       explanation: "Use 'a' for singular countable nouns starting with a consonant sound.",
       translation: "Tengo una pregunta sobre el presupuesto.",
@@ -276,7 +276,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Zero Article",
       instructions: "Fill in 'a', 'an' or leave blank.",
-      question: "___ (zero) money doesn't buy happiness.",
+      question: "[[___ (zero) money doesn't buy happiness.|El dinero no compra la felicidad.]]",
       correctAnswer: "",
       explanation: "Use zero article for uncountable nouns in a general sense.",
       translation: "El dinero no compra la felicidad.",
@@ -294,7 +294,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Indefinite Article",
       instructions: "Fill in 'a', 'an' or leave blank.",
-      question: "She is ___ (a) consultant for the government.",
+      question: "[[She is ___ (a) consultant for the government.|Ella es consultora para el gobierno.]]",
       correctAnswer: "a",
       explanation: "Use 'a' for singular jobs/professions.",
       translation: "Ella es consultora para el gobierno.",
@@ -312,7 +312,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Zero Article",
       instructions: "Fill in 'a', 'an' or leave blank.",
-      question: "We need ___ (zero) information before we decide.",
+      question: "[[We need ___ (zero) information before we decide.|Necesitamos información antes de decidir.]]",
       correctAnswer: "",
       explanation: "'Information' is uncountable and used here in a general sense.",
       translation: "Necesitamos información antes de decidir.",
@@ -330,7 +330,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Zero Article",
       instructions: "Fill in 'a', 'an' or leave blank.",
-      question: "___ (zero) technology is evolving fast.",
+      question: "[[___ (zero) technology is evolving fast.|La tecnología está evolucionando rápido.]]",
       correctAnswer: "",
       explanation: "Use zero article for abstract nouns like 'technology' in general.",
       translation: "La tecnología está evolucionando rápido.",
@@ -348,7 +348,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Indefinite Article",
       instructions: "Fill in 'a', 'an' or leave blank.",
-      question: "It was ___ (an) honor to meet him.",
+      question: "[[It was ___ (an) honor to meet him.|Fue un honor conocerle.]]",
       correctAnswer: "an",
       explanation: "Use 'an' before 'honor' because the 'h' is silent and it starts with a vowel sound.",
       translation: "Fue un honor conocerle.",
@@ -366,7 +366,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Zero Article",
       instructions: "Fill in 'a', 'an' or leave blank.",
-      question: "___ (zero) people are worried about inflation.",
+      question: "[[___ (zero) people are worried about inflation.|La gente está preocupada por la inflación.]]",
       correctAnswer: "",
       explanation: "Use zero article for people in general.",
       translation: "La gente está preocupada por la inflación.",
@@ -386,7 +386,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Economic Terms",
       instructions: "Fill in the blank.",
-      question: "The country is currently in a ___ (recession).",
+      question: "[[The country is currently in a ___ (recession).|El país se encuentra actualmente en recesión.]]",
       correctAnswer: "recession",
       explanation: "A recession is a period of temporary economic decline.",
       translation: "El país se encuentra actualmente en recesión.",
@@ -404,7 +404,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Economic Terms",
       instructions: "Fill in the blank.",
-      question: "The ___ (inflation) rate has reached 5%.",
+      question: "[[The ___ (inflation) rate has reached 5%.|La tasa de inflación ha alcanzado el 5%.]]",
       correctAnswer: "inflation",
       explanation: "Inflation is the rate at which the general level of prices is rising.",
       translation: "La tasa de inflación ha alcanzado el 5%.",
@@ -422,7 +422,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Economic Terms",
       instructions: "Fill in the blank.",
-      question: "We have seen a ___ (growth) in GDP.",
+      question: "[[We have seen a ___ (growth) in GDP.|Hemos visto un crecimiento en el PIB.]]",
       correctAnswer: "growth",
       explanation: "Growth refers to an increase in economic activity.",
       translation: "Hemos visto un crecimiento en el PIB.",
@@ -440,7 +440,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Economic Terms",
       instructions: "Fill in the blank.",
-      question: "The ___ (unemployment) rate is falling.",
+      question: "[[The ___ (unemployment) rate is falling.|La tasa de desempleo está bajando.]]",
       correctAnswer: "unemployment",
       explanation: "Unemployment is the state of not having a job.",
       translation: "La tasa de desempleo está bajando.",
@@ -458,7 +458,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Economic Terms",
       instructions: "Fill in the blank.",
-      question: "The stock ___ (market) is very volatile.",
+      question: "[[The stock ___ (market) is very volatile.|El mercado de valores es muy volátil.]]",
       correctAnswer: "market",
       explanation: "The stock market is where shares of companies are traded.",
       translation: "El mercado de valores es muy volátil.",
@@ -476,7 +476,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Economic Terms",
       instructions: "Fill in the blank.",
-      question: "Governments are worried about the national ___ (debt).",
+      question: "[[Governments are worried about the national ___ (debt).|Los gobiernos están preocupados por la deuda nacional.]]",
       correctAnswer: "debt",
       explanation: "National debt is the total amount of money a country's government has borrowed.",
       translation: "Los gobiernos están preocupados por la deuda nacional.",
@@ -494,7 +494,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Economic Terms",
       instructions: "Fill in the blank.",
-      question: "___ (Interest) rates have increased again.",
+      question: "[[___ (Interest) rates have increased again.|Las tasas de interés han vuelto a subir.]]",
       correctAnswer: "Interest",
       explanation: "Interest rates are the percentage of a loan that is charged as interest to the borrower.",
       translation: "Las tasas de interés han vuelto a subir.",
@@ -512,7 +512,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Economic Terms",
       instructions: "Fill in the blank.",
-      question: "The ___ (standard) of living is improving.",
+      question: "[[The ___ (standard) of living is improving.|El nivel de vida está mejorando.]]",
       correctAnswer: "standard",
       explanation: "Standard of living is the level of wealth, comfort, and services available to a person or group.",
       translation: "El nivel de vida está mejorando.",
@@ -530,7 +530,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Economic Terms",
       instructions: "Fill in the blank.",
-      question: "___ (Fiscal) policy is used to control the economy.",
+      question: "[[___ (Fiscal) policy is used to control the economy.|La política fiscal se utiliza para controlar la economía.]]",
       correctAnswer: "Fiscal",
       explanation: "Fiscal policy refers to the use of government spending and tax policies to influence economic conditions.",
       translation: "La política fiscal se utiliza para controlar la economía.",
@@ -548,7 +548,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Economic Terms",
       instructions: "Fill in the blank.",
-      question: "The ___ (currency) has weakened against the dollar.",
+      question: "[[The ___ (currency) has weakened against the dollar.|La moneda se ha debilitado frente al dólar.]]",
       correctAnswer: "currency",
       explanation: "A currency is a system of money in general use in a particular country.",
       translation: "La moneda se ha debilitado frente al dólar.",
@@ -568,7 +568,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Globalization",
       instructions: "Choose the correct term.",
-      question: "___ has led to more competition and global interconnectedness.",
+      question: "[[___ has led to more competition and global interconnectedness.|La globalización ha llevado a más competencia.]]",
       options: ["Globalization", "Localization", "Nationalization"],
       correctAnswer: "Globalization",
       explanation: "Globalization is the process by which businesses or other organizations develop international influence.",
@@ -587,7 +587,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Globalization",
       instructions: "Choose the correct term.",
-      question: "We need a ___ trade agreement to reduce tariffs.",
+      question: "[[We need a ___ trade agreement to reduce tariffs.|Necesitamos un acuerdo de libre comercio.]]",
       options: ["free", "open", "clear"],
       correctAnswer: "free",
       explanation: "A free trade agreement is a pact between countries to reduce or eliminate barriers to trade.",
@@ -606,7 +606,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Globalization",
       instructions: "Choose the correct term.",
-      question: "The ___ chain was disrupted due to the crisis.",
+      question: "[[The ___ chain was disrupted due to the crisis.|La cadena de suministro se interrumpió.]]",
       options: ["supply", "fast", "long"],
       correctAnswer: "supply",
       explanation: "A supply chain is the sequence of processes involved in the production and distribution of a commodity.",
@@ -625,7 +625,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Globalization",
       instructions: "Choose the correct term.",
-      question: "He works for a ___ corporation with offices in 20 countries.",
+      question: "[[He works for a ___ corporation with offices in 20 countries.|Trabaja para una corporación multinacional.]]",
       options: ["multinational", "big", "global"],
       correctAnswer: "multinational",
       explanation: "A multinational corporation has facilities and other assets in at least one country other than its home country.",
@@ -644,7 +644,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Globalization",
       instructions: "Choose the correct term.",
-      question: "___ can reduce costs by moving tasks to other countries.",
+      question: "[[___ can reduce costs by moving tasks to other countries.|La subcontratación puede reducir los costes.]]",
       options: ["Outsourcing", "In-sourcing", "Buying"],
       correctAnswer: "Outsourcing",
       explanation: "Outsourcing is obtaining goods or a service from an outside or foreign supplier.",
@@ -663,7 +663,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Globalization",
       instructions: "Choose the correct term.",
-      question: "___ markets are growing fast and attracting investors.",
+      question: "[[___ markets are growing fast and attracting investors.|Los mercados emergentes están creciendo rápido.]]",
       options: ["Emerging", "Growing", "New"],
       correctAnswer: "Emerging",
       explanation: "An emerging market is the economy of a developing nation that is becoming more engaged with global markets.",
@@ -682,7 +682,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Globalization",
       instructions: "Choose the correct term.",
-      question: "We need to reduce trade ___ to encourage commerce.",
+      question: "[[We need to reduce trade ___ to encourage commerce.|Necesitamos reducir las barreras comerciales.]]",
       options: ["barriers", "walls", "doors"],
       correctAnswer: "barriers",
       explanation: "Trade barriers are government-induced restrictions on international trade.",
@@ -701,7 +701,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Globalization",
       instructions: "Choose the correct term.",
-      question: "The ___ tax has increased, making foreign goods more expensive.",
+      question: "[[The ___ tax has increased, making foreign goods more expensive.|El impuesto de importación ha aumentado.]]",
       options: ["import", "input", "buy"],
       correctAnswer: "import",
       explanation: "An import tax is a tax collected on goods brought in from another country.",
@@ -720,7 +720,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Globalization",
       instructions: "Choose the correct term.",
-      question: "___ have reached an all-time high this year.",
+      question: "[[___ have reached an all-time high this year.|Las exportaciones han alcanzado un máximo histórico.]]",
       options: ["Exports", "Outputs", "Sales"],
       correctAnswer: "Exports",
       explanation: "Exports are goods or services sent to another country for sale.",
@@ -739,7 +739,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Globalization",
       instructions: "Choose the correct term.",
-      question: "Digital technology helps us live in a ___ world.",
+      question: "[[Digital technology helps us live in a ___ world.|Vivimos en un mundo sin fronteras.]]",
       options: ["borderless", "limitless", "free"],
       correctAnswer: "borderless",
       explanation: "A borderless world is one where information and commerce move freely without physical or digital restrictions.",
@@ -760,7 +760,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (ECONOMY) situation is stable.",
+      question: "[[The ___ (ECONOMY) situation is stable.|La situación económica es estable.]]",
       correctAnswer: "economic",
       explanation: "Adjective form of 'economy'.",
       translation: "La situación económica es estable.",
@@ -778,7 +778,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "Global ___ (DEPEND) is increasing.",
+      question: "[[Global ___ (DEPEND) is increasing.|La dependencia global está aumentando.]]",
       correctAnswer: "dependence",
       explanation: "Noun form of 'depend'.",
       translation: "La dependencia global está aumentando.",
@@ -796,7 +796,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (STABLE) of the market is at risk.",
+      question: "[[The ___ (STABLE) of the market is at risk.|La estabilidad del mercado está en riesgo.]]",
       correctAnswer: "stability",
       explanation: "Noun form of 'stable'.",
       translation: "La estabilidad del mercado está en riesgo.",
@@ -814,7 +814,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "We need ___ (SUSTAIN) growth.",
+      question: "[[We need ___ (SUSTAIN) growth.|Necesitamos un crecimiento sostenible.]]",
       correctAnswer: "sustainable",
       explanation: "Adjective form of 'sustain'.",
       translation: "Necesitamos un crecimiento sostenible.",
@@ -832,7 +832,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (INEQUAL) between countries is huge.",
+      question: "[[The ___ (INEQUAL) between countries is huge.|La desigualdad entre países es enorme.]]",
       correctAnswer: "inequality",
       explanation: "Noun form related to 'equal/unequal'.",
       translation: "La desigualdad entre países es enorme.",
@@ -850,7 +850,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (DEVELOP) of the region is impressive.",
+      question: "[[The ___ (DEVELOP) of the region is impressive.|El desarrollo de la región es impresionante.]]",
       correctAnswer: "development",
       explanation: "Noun form of 'develop'.",
       translation: "El desarrollo de la región es impresionante.",
@@ -868,7 +868,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "He is a very ___ (INFLUENCE) economist.",
+      question: "[[He is a very ___ (INFLUENCE) economist.|Es un economista muy influyente.]]",
       correctAnswer: "influential",
       explanation: "Adjective form of 'influence'.",
       translation: "Es un economista muy influyente.",
@@ -886,7 +886,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (PRODUCT) of the factory is rising.",
+      question: "[[The ___ (PRODUCT) of the factory is rising.|La productividad de la fábrica está aumentando.]]",
       correctAnswer: "productivity",
       explanation: "Noun form of 'product/productive'.",
       translation: "La productividad de la fábrica está aumentando.",
@@ -904,7 +904,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "We need to improve our ___ (COMPETE).",
+      question: "[[We need to improve our ___ (COMPETE).|Necesitamos mejorar nuestra competitividad.]]",
       correctAnswer: "competitiveness",
       explanation: "Noun form of 'compete' (state of being competitive).",
       translation: "Necesitamos mejorar nuestra competitividad.",
@@ -922,7 +922,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (REDUCE) in poverty is a goal.",
+      question: "[[The ___ (REDUCE) in poverty is a goal.|La reducción de la pobreza es un objetivo.]]",
       correctAnswer: "reduction",
       explanation: "Noun form of 'reduce'.",
       translation: "La reducción de la pobreza es un objetivo.",
