@@ -12,7 +12,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Participle Clauses",
       instructions: "Choose the correct participle to start the clause.",
-      question: "___ tired, she went to bed.",
+      question: "[[___ tired, she went to bed.|Sintiéndose cansada, se fue a la cama.]]",
       options: ["Feeling", "Felt", "Having feel"],
       correctAnswer: "Feeling",
       explanation: "Use the present participle (-ing) to describe a reason or simultaneous action with an active meaning.",
@@ -31,7 +31,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Participle Clauses",
       instructions: "Choose the correct participle.",
-      question: "___ in 1900, the house is very old.",
+      question: "[[___ in 1900, the house is very old.|Construida en 1900, la casa es muy antigua.]]",
       options: ["Built", "Building", "Having built"],
       correctAnswer: "Built",
       explanation: "Use the past participle (-ed/3rd form) for a passive meaning.",
@@ -50,7 +50,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Participle Clauses",
       instructions: "Choose the correct participle.",
-      question: "___ the door, he saw a ghost.",
+      question: "[[___ the door, he saw a ghost.|Al abrir la puerta, vio un fantasma.]]",
       options: ["Opening", "Opened", "Having opened"],
       correctAnswer: "Opening",
       explanation: "Simultaneous actions: Opening the door and seeing the ghost.",
@@ -69,7 +69,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Participle Clauses",
       instructions: "Choose the correct perfect participle.",
-      question: "___ my homework, I went out.",
+      question: "[[___ my homework, I went out.|Habiendo terminado mis deberes, salí.]]",
       options: ["Having finished", "Finished", "Finishing"],
       correctAnswer: "Having finished",
       explanation: "Use 'Having + past participle' to show one action happened before another.",
@@ -88,7 +88,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Participle Clauses",
       instructions: "Choose the correct negative participle.",
-      question: "___ the answer, I kept quiet.",
+      question: "[[___ the answer, I kept quiet.|Al no saber la respuesta, me quedé callado.]]",
       options: ["Not knowing", "Not known", "Knowing not"],
       correctAnswer: "Not knowing",
       explanation: "Negative present participle for a reason.",
@@ -107,7 +107,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Participle Clauses",
       instructions: "Choose the correct participle.",
-      question: "___ by a famous author, the book is a bestseller.",
+      question: "[[___ by a famous author, the book is a bestseller.|Escrito por un autor famoso, el libro es un éxito de ventas.]]",
       options: ["Written", "Writing", "Having written"],
       correctAnswer: "Written",
       explanation: "Passive participle clause describing the book.",
@@ -126,7 +126,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Participle Clauses",
       instructions: "Choose the correct participle.",
-      question: "___ for the bus, I read a magazine.",
+      question: "[[___ for the bus, I read a magazine.|Esperando el autobús, leí una revista.]]",
       options: ["Waiting", "Waited", "Having waited"],
       correctAnswer: "Waiting",
       explanation: "Simultaneous action in the present participle.",
@@ -145,7 +145,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Participle Clauses",
       instructions: "Choose the correct participle.",
-      question: "___ by the noise, the cat ran away.",
+      question: "[[___ by the noise, the cat ran away.|Asustado por el ruido, el gato huyó.]]",
       options: ["Scared", "Scaring", "Having scared"],
       correctAnswer: "Scared",
       explanation: "Passive/state participle describing the subject's feeling caused by an external factor.",
@@ -164,7 +164,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Participle Clauses",
       instructions: "Choose the correct perfect participle.",
-      question: "___ there for years, she knew the city well.",
+      question: "[[___ there for years, she knew the city well.|Habiendo vivido allí durante años, conocía bien la ciudad.]]",
       options: ["Having lived", "Living", "Lived"],
       correctAnswer: "Having lived",
       explanation: "Action completed over time before the state of knowing the city.",
@@ -183,7 +183,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Participle Clauses",
       instructions: "Choose the correct participle.",
-      question: "___ a sharp knife, he cut the bread.",
+      question: "[[___ a sharp knife, he cut the bread.|Usando un cuchillo afilado, cortó el pan.]]",
       options: ["Using", "Used", "Having used"],
       correctAnswer: "Using",
       explanation: "Describing the method or simultaneous action.",
@@ -204,7 +204,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Fine Arts",
       instructions: "Fill in the blank.",
-      question: "The artist painted a beautiful ___ (landscape) showing the countryside.",
+      question: "[[The artist painted a beautiful ___ (landscape) showing the countryside.|El artista pintó un hermoso paisaje.]]",
       correctAnswer: "landscape",
       explanation: "A landscape is a painting of natural scenery.",
       translation: "El artista pintó un hermoso paisaje.",
@@ -222,7 +222,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Fine Arts",
       instructions: "Fill in the blank.",
-      question: "The ___ (portrait) looks just like him; it's a great likeness.",
+      question: "[[The ___ (portrait) looks just like him; it's a great likeness.|El retrato se parece mucho a él.]]",
       correctAnswer: "portrait",
       explanation: "A portrait is a painting or photograph of a person.",
       translation: "El retrato se parece mucho a él.",
@@ -240,7 +240,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Fine Arts",
       instructions: "Fill in the blank.",
-      question: "The ___ (sculpture) is made of white marble.",
+      question: "[[The ___ (sculpture) is made of white marble.|La escultura está hecha de mármol.]]",
       correctAnswer: "sculpture",
       explanation: "A sculpture is a three-dimensional work of art.",
       translation: "La escultura está hecha de mármol.",
@@ -258,7 +258,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Fine Arts",
       instructions: "Fill in the blank.",
-      question: "The gallery is hosting a new ___ (exhibition) of modern art.",
+      question: "[[The gallery is hosting a new ___ (exhibition) of modern art.|La galería alberga una nueva exposición.]]",
       correctAnswer: "exhibition",
       explanation: "An exhibition is a public display of works of art.",
       translation: "La galería alberga una nueva exposición.",
@@ -276,7 +276,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Fine Arts",
       instructions: "Fill in the blank.",
-      question: "He is a master of ___ (abstract) art, which doesn't represent reality literally.",
+      question: "[[He is a master of ___ (abstract) art, which doesn't represent reality literally.|Es un maestro del arte abstracto.]]",
       correctAnswer: "abstract",
       explanation: "Abstract art uses shapes, colors, and forms to achieve its effect.",
       translation: "Es un maestro del arte abstracto.",
@@ -294,7 +294,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Fine Arts",
       instructions: "Fill in the blank.",
-      question: "The ___ (canvas) was blank before he started to paint.",
+      question: "[[The ___ (canvas) was blank before he started to paint.|El lienzo estaba en blanco antes de que empezara.]]",
       correctAnswer: "canvas",
       explanation: "A canvas is the cloth surface used for painting.",
       translation: "El lienzo estaba en blanco antes de que empezara.",
@@ -312,7 +312,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Fine Arts",
       instructions: "Fill in the blank.",
-      question: "The ___ (brushwork) in this painting is very delicate and precise.",
+      question: "[[The ___ (brushwork) in this painting is very delicate and precise.|La pincelada es muy delicada.]]",
       correctAnswer: "brushwork",
       explanation: "Brushwork refers to the way paint is applied with a brush.",
       translation: "La pincelada es muy delicada.",
@@ -330,7 +330,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Fine Arts",
       instructions: "Fill in the blank.",
-      question: "This painting is considered a ___ (masterpiece).",
+      question: "[[This painting is considered a ___ (masterpiece).|Esta pintura se considera una obra maestra.]]",
       correctAnswer: "masterpiece",
       explanation: "A masterpiece is an artist's best or most famous work.",
       translation: "Esta pintura se considera una obra maestra.",
@@ -348,7 +348,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Fine Arts",
       instructions: "Fill in the blank.",
-      question: "The museum is full of ancient ___ (artifacts) from Egypt.",
+      question: "[[The museum is full of ancient ___ (artifacts) from Egypt.|El museo está lleno de artefactos.]]",
       correctAnswer: "artifacts",
       explanation: "Artifacts are objects made by humans, typically of historical interest.",
       translation: "El museo está lleno de artefactos.",
@@ -366,7 +366,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Fine Arts",
       instructions: "Fill in the blank.",
-      question: "___ (Modern) art can sometimes be controversial and hard to understand.",
+      question: "[[___ (Modern) art can sometimes be controversial and hard to understand.|El arte moderno puede ser polémico.]]",
       correctAnswer: "Modern",
       explanation: "Art from the late 19th to mid-20th century.",
       translation: "El arte moderno puede ser polémico.",
@@ -386,7 +386,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Literature",
       instructions: "Fill in the blank.",
-      question: "The novel has a very complex ___ (plot) with many twists.",
+      question: "[[The novel has a very complex ___ (plot) with many twists.|La novela tiene una trama compleja.]]",
       correctAnswer: "plot",
       explanation: "The plot is the sequence of events in a story.",
       translation: "La novela tiene una trama compleja.",
@@ -404,7 +404,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Literature",
       instructions: "Fill in the blank.",
-      question: "The ___ (protagonist) is the main character in the story.",
+      question: "[[The ___ (protagonist) is the main character in the story.|La protagonista es una joven valiente.]]",
       correctAnswer: "protagonist",
       explanation: "The protagonist is the leading character.",
       translation: "La protagonista es una joven valiente.",
@@ -422,7 +422,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Literature",
       instructions: "Fill in the blank.",
-      question: "The ___ (setting) of the story is Victorian London.",
+      question: "[[The ___ (setting) of the story is Victorian London.|El escenario de la historia es el Londres victoriano.]]",
       correctAnswer: "setting",
       explanation: "The setting is the time and place of a story.",
       translation: "El escenario de la historia es el Londres victoriano.",
@@ -440,7 +440,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Literature",
       instructions: "Fill in the blank.",
-      question: "The ___ (narrator) tells the story from their perspective.",
+      question: "[[The ___ (narrator) tells the story from their perspective.|El narrador no es fiable.]]",
       correctAnswer: "narrator",
       explanation: "The person telling the story.",
       translation: "El narrador no es fiable.",
@@ -458,7 +458,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Literature",
       instructions: "Fill in the blank.",
-      question: "The central ___ (theme) of the book is love and sacrifice.",
+      question: "[[The central ___ (theme) of the book is love and sacrifice.|El tema del libro es el amor y la pérdida.]]",
       correctAnswer: "theme",
       explanation: "A theme is a main idea or underlying message in a work of literature.",
       translation: "El tema del libro es el amor y la pérdida.",
@@ -476,7 +476,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Literature",
       instructions: "Fill in the blank.",
-      question: "The ___ (imagery) in the poem creates a clear picture in the reader's mind.",
+      question: "[[The ___ (imagery) in the poem creates a clear picture in the reader's mind.|Las imágenes en el poema son vívidas.]]",
       correctAnswer: "imagery",
       explanation: "Imagery is visually descriptive or figurative language.",
       translation: "Las imágenes en el poema son vívidas.",
@@ -494,7 +494,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Literature",
       instructions: "Fill in the blank.",
-      question: "Science fiction is a popular literary ___ (genre).",
+      question: "[[Science fiction is a popular literary ___ (genre).|La ficción de género es muy popular.]]",
       correctAnswer: "genre",
       explanation: "A genre is a category of artistic composition.",
       translation: "La ficción de género es muy popular.",
@@ -512,7 +512,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Literature",
       instructions: "Fill in the blank.",
-      question: "A ___ (metaphor) is a figure of speech that describes an object in a way that isn't literally true.",
+      question: "[[A ___ (metaphor) is a figure of speech that describes an object in a way that isn't literally true.|La metáfora se utiliza en toda la obra.]]",
       correctAnswer: "metaphor",
       explanation: "Comparison without using 'like' or 'as'.",
       translation: "La metáfora se utiliza en toda la obra.",
@@ -530,7 +530,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Literature",
       instructions: "Fill in the blank.",
-      question: "An ___ (anthology) is a collection of poems or other pieces of writing.",
+      question: "[[An ___ (anthology) is a collection of poems or other pieces of writing.|Antología de cuentos cortos.]]",
       correctAnswer: "anthology",
       explanation: "Collection of works.",
       translation: "Antología de cuentos cortos.",
@@ -548,7 +548,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Literature",
       instructions: "Fill in the blank.",
-      question: "___ (Prose) is written or spoken language in its ordinary form, without metrical structure.",
+      question: "[[___ (Prose) is written or spoken language in its ordinary form, without metrical structure.|La prosa es el lenguaje escrito ordinario.]]",
       correctAnswer: "Prose",
       explanation: "Regular writing (not poetry).",
       translation: "La prosa es el lenguaje escrito ordinario.",
@@ -568,7 +568,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Performing Arts",
       instructions: "Choose the correct term.",
-      question: "The actor's ___ was rewarded with a standing ovation.",
+      question: "[[The actor's ___ was rewarded with a standing ovation.|La actuación fue sobresaliente.]]",
       options: ["performance", "display", "showing"],
       correctAnswer: "performance",
       explanation: "An act of staging or presenting a play, concert, or other form of entertainment.",
@@ -587,7 +587,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Performing Arts",
       instructions: "Choose the correct term.",
-      question: "The ___ for the movie was adapted from a novel.",
+      question: "[[The ___ for the movie was adapted from a novel.|El guion estaba bien escrito.]]",
       options: ["script", "book", "text"],
       correctAnswer: "script",
       explanation: "The written text of a play, movie, or broadcast.",
@@ -606,7 +606,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Performing Arts",
       instructions: "Choose the correct term.",
-      question: "The actors walked onto the ___ to begin the play.",
+      question: "[[The actors walked onto the ___ to begin the play.|El escenario estaba bellamente decorado.]]",
       options: ["stage", "floor", "ground"],
       correctAnswer: "stage",
       explanation: "A raised floor or platform, typically in a theater, on which actors, entertainers, or speakers perform.",
@@ -625,7 +625,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Performing Arts",
       instructions: "Choose the correct term.",
-      question: "The ___ loved the show and cheered at the end.",
+      question: "[[The ___ loved the show and cheered at the end.|El público aplaudió fuertemente.]]",
       options: ["audience", "public", "people"],
       correctAnswer: "audience",
       explanation: "The assembled spectators or listeners at a public event.",
@@ -644,7 +644,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Performing Arts",
       instructions: "Choose the correct term.",
-      question: "We have a dress ___ today before the opening night.",
+      question: "[[We have a dress ___ today before the opening night.|El ensayo duró todo el día.]]",
       options: ["rehearsal", "practice", "training"],
       correctAnswer: "rehearsal",
       explanation: "A practice or trial performance of a play or other work for later public performance.",
@@ -663,7 +663,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Performing Arts",
       instructions: "Choose the correct term.",
-      question: "The ___ of the play worked together for months.",
+      question: "[[The ___ of the play worked together for months.|El elenco incluye a varios actores famosos.]]",
       options: ["cast", "group", "team"],
       correctAnswer: "cast",
       explanation: "The actors in a play, movie, or show.",
@@ -682,7 +682,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Performing Arts",
       instructions: "Choose the correct term.",
-      question: "The actors wore traditional ___ for the historical drama.",
+      question: "[[The actors wore traditional ___ for the historical drama.|El vestuario era elaborado.]]",
       options: ["costumes", "clothes", "outfits"],
       correctAnswer: "costumes",
       explanation: "A set of clothes worn by an actor or other performer for a particular role or for an occasion.",
@@ -701,7 +701,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Performing Arts",
       instructions: "Choose the correct term.",
-      question: "The ___ was dim to create a spooky effect.",
+      question: "[[The ___ was dim to create a spooky effect.|La iluminación creó una atmósfera misteriosa.]]",
       options: ["lighting", "light", "shining"],
       correctAnswer: "lighting",
       explanation: "The arrangement or effect of lights.",
@@ -720,7 +720,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Performing Arts",
       instructions: "Choose the correct term.",
-      question: "The ___ is responsible for the creative aspects of the production.",
+      question: "[[The ___ is responsible for the creative aspects of the production.|El director dio instrucciones a los actores.]]",
       options: ["director", "boss", "manager"],
       correctAnswer: "director",
       explanation: "A person who supervises the actors and other staff in a production.",
@@ -739,7 +739,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Performing Arts",
       instructions: "Choose the correct term.",
-      question: "___ night is always the most stressful for the actors.",
+      question: "[[___ night is always the most stressful for the actors.|La noche del estreno fue un gran éxito.]]",
       options: ["Opening", "First", "Starting"],
       correctAnswer: "Opening",
       explanation: "The first performance of a run of a play or show.",
@@ -760,7 +760,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (ART) value of the work is high.",
+      question: "[[The ___ (ART) value of the work is high.|El valor artístico de la obra es alto.]]",
       correctAnswer: "artistic",
       explanation: "Adjective form of 'art'.",
       translation: "El valor artístico de la obra es alto.",
@@ -778,7 +778,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "He is a very ___ (CREATE) person.",
+      question: "[[He is a very ___ (CREATE) person.|Es una persona muy creativa.]]",
       correctAnswer: "creative",
       explanation: "Adjective form of 'create'.",
       translation: "Es una persona muy creativa.",
@@ -796,7 +796,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (LITERATURE) style is unique.",
+      question: "[[The ___ (LITERATURE) style is unique.|El estilo literario es único.]]",
       correctAnswer: "literary",
       explanation: "Adjective form of 'literature'.",
       translation: "El estilo literario es único.",
@@ -814,7 +814,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (PERFORM) was amazing.",
+      question: "[[The ___ (PERFORM) was amazing.|La actuación fue increíble.]]",
       correctAnswer: "performance",
       explanation: "Noun form of 'perform'.",
       translation: "La actuación fue increíble.",
@@ -832,7 +832,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "She is a ___ (TALENT) musician.",
+      question: "[[She is a ___ (TALENT) musician.|Es una música talentosa.]]",
       correctAnswer: "talented",
       explanation: "Adjective form of 'talent'.",
       translation: "Es una música talentosa.",
@@ -850,7 +850,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (EXHIBIT) was very popular.",
+      question: "[[The ___ (EXHIBIT) was very popular.|La exposición fue muy popular.]]",
       correctAnswer: "exhibition",
       explanation: "Noun form of 'exhibit'.",
       translation: "La exposición fue muy popular.",
@@ -868,7 +868,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "He is a famous ___ (PLAY).",
+      question: "[[He is a famous ___ (PLAY).|Es un dramaturgo famoso.]]",
       correctAnswer: "playwright",
       explanation: "Noun for a person who writes plays.",
       translation: "Es un dramaturgo famoso.",
@@ -886,7 +886,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (SCULPT) is impressive.",
+      question: "[[The ___ (SCULPT) is impressive.|La escultura es impresionante.]]",
       correctAnswer: "sculpture",
       explanation: "Noun form of 'sculpt'.",
       translation: "La escultura es impresionante.",
@@ -904,7 +904,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "She writes ___ (BEAUTY).",
+      question: "[[She writes ___ (BEAUTY).|Escribe bellamente.]]",
       correctAnswer: "beautifully",
       explanation: "Adverb form of 'beauty/beautiful'.",
       translation: "Escribe bellamente.",
@@ -922,7 +922,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (IMAGE) is powerful.",
+      question: "[[The ___ (IMAGE) is powerful.|Las imágenes son poderosas.]]",
       correctAnswer: "imagery",
       explanation: "Noun form indicating a collection of images.",
       translation: "Las imágenes son poderosas.",
