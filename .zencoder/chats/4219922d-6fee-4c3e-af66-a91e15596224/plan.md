@@ -59,3 +59,10 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
 - [x] Verify that translations `[[word|translation]]` are preserved for context words but not for the answer words themselves.
 - [x] Fix Unit 6 and apply the pattern to all 60 units.
 - [x] Final verification of all units.
+
+#### Phase 5: Pedagogical Refactoring & Consistency
+- [ ] Ensure for ALL `multiple-choice` questions, the `correctAnswer` is the FIRST option in the array.
+- [ ] Convert all `vocabulary` + `fill-blank` exercises to `multiple-choice` (student needs clues for specific lexis).
+- [ ] Convert `grammar` + `fill-blank` with verb hints (e.g., `(work)`) to `multiple-choice` with at least two tense options (removing the hint from the question).
+- [ ] Apply these changes iteratively across all 60 units (starting with 1-30).
+- [ ] Verify that no `fill-blank` remains without a clear hint if it's not a closed-class word (like prepositions).

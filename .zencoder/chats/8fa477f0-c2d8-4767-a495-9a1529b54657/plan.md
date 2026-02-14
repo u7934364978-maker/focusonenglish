@@ -39,5 +39,6 @@
 
 7. **[x] Task 7: Fix C1 Preview Page Exception**
    - **Action**: Modify [./src/app/debug/c1-preview/[unitId]/page.tsx](./src/app/debug/c1-preview/%5BunitId%5D/page.tsx) and [./src/lib/debug/course-utils.ts](./src/lib/debug/course-utils.ts).
-   - **Details**: Fixed client-side exception caused by incorrect exercise structure mapping. Added Debug Panel for C1 course.
-   - **Verification**: Verify that `/debug/c1-preview/unit-1` loads correctly.
+   - **Details**: Fixed client-side exception caused by incorrect exercise structure mapping. Added Debug Panel for C1 course. Verified that `/debug/c1-preview/unit-1` loads and renders exercises correctly.
+   - **Verification**: Visual check via Playwright screenshot confirmed successful rendering.
+

@@ -14,7 +14,7 @@ export const C1_U1_BLOCK1: Exercise = {
   explanation: 'Use [[inversion|inversión]] (auxiliary before subject) after certain negative or [[restrictive|restrictivos]] adverbials.',
   questions: Array.from({ length: 10 }, (_, i) => ({
     id: genId(UNIT_ID, 'b1', i + 1),
-    type: 'fill-blank',
+    type: 'multiple-choice',
     question: [
       'Never ___ I seen such a [[magnificent|magnífica]] performance.',
       'Rarely ___ she [[venture|aventurarse]] out after dark.',
@@ -26,6 +26,18 @@ export const C1_U1_BLOCK1: Exercise = {
       'No sooner ___ they arrived than it began to [[pour|llover a cántaros]].',
       'Seldom ___ one find such [[dedication|dedicación]] nowadays.',
       'On no account ___ this information be shared.'
+    ][i],
+    options: [
+      ['have', 'had', 'did'],
+      ['does', 'did', 'is'],
+      ['did', 'do', 'had'],
+      ['was', 'is', 'did'],
+      ['should', 'must', 'do'],
+      ['did', 'had', 'was'],
+      ['had', 'did', 'have'],
+      ['had', 'did', 'have'],
+      ['does', 'did', 'is'],
+      ['must', 'should', 'can']
     ][i],
     correctAnswer: [
       'have',
@@ -76,7 +88,7 @@ export const C1_U1_BLOCK2: Exercise = {
       ['had been living', 'lived', 'were living'],
       ['was', 'had been', 'were'],
       ['had been developing', 'developed', 'were developing'],
-      ['read', 'had read', 'was reading'],
+      ['had read', 'read', 'was reading'],
       ['is said', 'was said', 'had said'],
       ['had paid', 'paid', 'was paying']
     ][i],
@@ -107,7 +119,7 @@ export const C1_U1_BLOCK3: Exercise = {
   explanation: 'Common C1 level [[idioms|modismos]] and their meanings.',
   questions: Array.from({ length: 10 }, (_, i) => ({
     id: genId(UNIT_ID, 'b3', i + 1),
-    type: 'fill-blank',
+    type: 'multiple-choice',
     question: [
       'He\'s always beating around the ___ instead of being direct.',
       'Don\'t worry, it\'s not ___ .',
@@ -120,9 +132,21 @@ export const C1_U1_BLOCK3: Exercise = {
       'He has a chip on his ___ about his background.',
       'Let\'s play it by ___ and see what happens.'
     ][i],
+    options: [
+      ['bush', 'tree', 'forest'],
+      ['rocket science', 'brain surgery', 'math problem'],
+      ['weather', 'cloud', 'rain'],
+      ['day', 'night', 'time'],
+      ['nail', 'hammer', 'screw'],
+      ['ducks', 'geese', 'birds'],
+      ['mouth', 'ear', 'eye'],
+      ['straw', 'stick', 'leaf'],
+      ['shoulder', 'back', 'head'],
+      ['ear', 'eye', 'mouth']
+    ][i],
     correctAnswer: [
       'bush',
-      'science',
+      'rocket science',
       'weather',
       'day',
       'nail',

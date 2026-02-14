@@ -9,8 +9,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Saludos comunes",
-      "instructions": "Elige el saludo correcto para la mañana.",
+      "title": "[[Common|Comunes]] [[Greetings|Saludos]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|saludo]] [[greeting|correcto]] [[for|para]] [[the|la]] [[morning|mañana]].",
       "questions": [
         {
           "id": "q1",
@@ -43,7 +43,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Traducción de Hola",
+      "title": "[[Translating|Traducción]] [[Hello|de Hola]]",
       "instructions": "¿Cómo se dice \"Hola\" en inglés?",
       "questions": [
         {
@@ -77,7 +77,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Yo soy...",
+      "title": "[[I|Yo]] [[am|soy]]...",
       "instructions": "Ordena las palabras para traducir \"Yo soy Juan\".",
       "sentences": [
         {
@@ -105,7 +105,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Conocer gente",
+      "title": "[[Meeting|Conocer]] [[People|gente]]",
       "instructions": "¿Cuál es la respuesta más común a \"[[Nice to meet you|Mucho gusto]]\"?",
       "questions": [
         {
@@ -160,8 +160,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Parejas de saludos",
-      "instructions": "Une el saludo en español con su traducción al inglés.",
+      "title": "[[Greeting|Saludos]] [[Pairs|Parejas]]",
+      "instructions": "[[Match|Une]] [[the|el]] [[Spanish|español]] [[greeting|saludo]] [[with|con]] [[its|su]] [[English|inglés]] [[translation|traducción]].",
       "pairs": [
         {
           "id": "1",
@@ -205,8 +205,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Presentación personal",
-      "instructions": "Completa el espacio con el verbo correcto.",
+      "title": "[[Personal|Personal]] [[Introduction|Presentación]]",
+      "instructions": "[[Fill|Completa]] [[the|el]] [[gap|espacio]] [[with|con]] [[the|el]] [[correct|correcto]] [[verb|verbo]].",
       "questions": [
         {
           "id": "q1",
@@ -227,8 +227,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Despedidas",
-      "instructions": "Elige la forma correcta de decir adiós.",
+      "title": "[[Goodbyes|Despedidas]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[way|forma]] [[to|de]] [[say|decir]] [[goodbye|adiós]].",
       "questions": [
         {
           "id": "q1",
@@ -261,8 +261,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "¿Cuál es tu nombre?",
-      "instructions": "Ordena las palabras para preguntar el nombre.",
+      "title": "[[What|Cuál]] [[is|es]] [[your|tu]] [[name|nombre]]?",
+      "instructions": "[[Put|Ordena]] [[the|las]] [[words|palabras]] [[to|para]] [[ask|preguntar]] [[the|el]] [[name|nombre]].",
       "sentences": [
         {
           "id": "s1",
@@ -289,7 +289,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Buenas tardes",
+      "title": "[[Good|Buenas]] [[afternoon|tardes]]",
       "instructions": "Ordena las palabras para traducir \"Buenas tardes\".",
       "sentences": [
         {
@@ -316,8 +316,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Información personal",
-      "instructions": "Elige el pronombre correcto para ti mismo.",
+      "title": "[[Personal|Personal]] [[Information|Información]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[pronoun|pronombre]] [[for|para]] [[yourself|ti mismo]].",
       "questions": [
         {
           "id": "q1",
@@ -371,8 +371,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Nombre y yo",
-      "instructions": "Une las palabras con su traducción.",
+      "title": "[[Name|Nombre]] [[and|y]] [[I|yo]]",
+      "instructions": "[[Match|Une]] [[the|las]] [[words|palabras]] [[with|con]] [[their|su]] [[translation|traducción]].",
       "pairs": [
         {
           "id": "1",
@@ -416,7 +416,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Bien, gracias",
+      "title": "[[Fine|Bien]], [[thanks|gracias]]",
       "instructions": "Completa la respuesta a \"¿Cómo estás?\".",
       "questions": [
         {
@@ -438,8 +438,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Saludo nocturno",
-      "instructions": "¿Cuál es un saludo por la noche?",
+      "title": "[[Evening|Nocturno]] [[Greeting|Saludo]]",
+      "instructions": "[[Which|Cuál]] [[is|es]] [[an|un]] [[evening|nocturno]] [[greeting?|saludo?]]",
       "questions": [
         {
           "id": "q1",
@@ -472,8 +472,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "¿Cómo estás?",
-      "instructions": "Completa la pregunta para saber cómo está alguien.",
+      "title": "[[How|Cómo]] [[are|estás]] [[you|tú]]?",
+      "instructions": "[[Complete|Completa]] [[the|la]] [[question|pregunta]] [[to|para]] [[know|saber]] [[how|cómo]] [[someone|alguien]] [[is|está]].",
       "questions": [
         {
           "id": "q1",
@@ -494,7 +494,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Mi nombre es...",
+      "title": "[[My|Mi]] [[name|nombre]] [[is|es]]...",
       "instructions": "Ordena las palabras para traducir \"Mi nombre es Maria\".",
       "sentences": [
         {
@@ -523,8 +523,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Despedida informal",
-      "instructions": "Elige una forma informal de decir adiós.",
+      "title": "[[Informal|Informal]] [[Goodbye|Despedida]]",
+      "instructions": "[[Choose|Elige]] [[an|una]] [[informal|informal]] [[way|forma]] [[to|de]] [[say|decir]] [[goodbye|adiós]].",
       "questions": [
         {
           "id": "q1",
@@ -578,8 +578,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Respuestas básicas",
-      "instructions": "Une la pregunta con su respuesta lógica.",
+      "title": "[[Basic|Básicas]] [[Responses|Respuestas]]",
+      "instructions": "[[Match|Une]] [[the|la]] [[question|pregunta]] [[with|con]] [[its|su]] [[logical|lógica]] [[response|respuesta]].",
       "pairs": [
         {
           "id": "1",
@@ -623,7 +623,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Hola informal",
+      "title": "[[Informal|Informal]] [[Hello|Hola]]",
       "instructions": "¿Cuál es una forma corta e informal de decir \"[[Hello|Hola]]\"?",
       "questions": [
         {
@@ -657,7 +657,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Traducción de Mucho Gusto",
+      "title": "[[Translating|Traducción]] [[Nice to meet you|de Mucho Gusto]]",
       "instructions": "¿Cómo se dice \"Mucho gusto\" o \"Encantado\"?",
       "questions": [
         {
@@ -691,7 +691,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Cómo estás",
+      "title": "[[How|Cómo]] [[are|estás]] [[you|tú]]",
       "instructions": "Ordena las palabras para preguntar \"¿Cómo estás?\".",
       "sentences": [
         {
@@ -719,7 +719,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Abreviaturas comunes",
+      "title": "[[Common|Comunes]] [[Abbreviations|Abreviaturas]]",
       "instructions": "¿Qué significa \"[[I'm|Yo soy/estoy]]\"?",
       "questions": [
         {
@@ -774,8 +774,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Pronombres y Verbos",
-      "instructions": "Une el pronombre con el verbo ser correspondiente.",
+      "title": "[[Pronouns|Pronombres]] [[and|y]] [[Verbs|Verbos]]",
+      "instructions": "[[Match|Une]] [[the|el]] [[pronoun|pronombre]] [[with|con]] [[the|el]] [[corresponding|correspondiente]] [[verb|verbo]] [[to| ]] [[be|ser]].",
       "pairs": [
         {
           "id": "1",
@@ -819,8 +819,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Saludo matutino",
-      "instructions": "Completa la frase para saludar por la mañana.",
+      "title": "[[Morning|Matutino]] [[Greeting|Saludo]]",
+      "instructions": "[[Complete|Completa]] [[the|la]] [[phrase|frase]] [[to|para]] [[greet|saludar]] [[in|por]] [[the|la]] [[morning|mañana]].",
       "questions": [
         {
           "id": "q1",
@@ -841,8 +841,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Nombres",
-      "instructions": "¿Cómo preguntas el nombre de alguien?",
+      "title": "[[Names|Nombres]]",
+      "instructions": "[[How|Cómo]] [[do| ]] [[you| ]] [[ask|preguntas]] [[someone's|el de alguien]] [[name?|nombre?]]",
       "questions": [
         {
           "id": "q1",
@@ -875,7 +875,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Hasta luego",
+      "title": "[[See|Hasta]] [[you|luego]] [[later| ]]",
       "instructions": "Completa la frase para decir \"Hasta luego\".",
       "questions": [
         {
@@ -897,8 +897,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Buenas noches",
-      "instructions": "Ordena las palabras para despedirte por la noche.",
+      "title": "[[Good|Buenas]] [[night|noches]]",
+      "instructions": "[[Put|Ordena]] [[the|las]] [[words|palabras]] [[to|para]] [[say|despedirte]] [[good|buenas]] [[night|noches]].",
       "sentences": [
         {
           "id": "s1",
@@ -924,7 +924,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "¿Y tú?",
+      "title": "[[And|¿Y]] [[you?|tú?]]",
       "instructions": "¿Cómo devuelves la pregunta \"¿Cómo estás?\"?",
       "questions": [
         {
@@ -979,8 +979,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Más despedidas",
-      "instructions": "Une las despedidas equivalentes.",
+      "title": "[[More|Más]] [[Goodbyes|despedidas]]",
+      "instructions": "[[Match|Une]] [[the|las]] [[equivalent|equivalentes]] [[goodbyes|despedidas]].",
       "pairs": [
         {
           "id": "1",
@@ -1024,7 +1024,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Mucho gusto corto",
+      "title": "[[Short|Corto]] [[Nice to meet you|Mucho gusto]]",
       "instructions": "Completa la respuesta corta a \"[[Nice to meet you|Mucho gusto]]\".",
       "questions": [
         {
@@ -1046,8 +1046,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Título de cortesía",
-      "instructions": "¿Cómo te diriges a un profesor hombre?",
+      "title": "[[Courtesy|de cortesía]] [[Title|Título]]",
+      "instructions": "[[How|Cómo]] [[do| ]] [[you| ]] [[address|te diriges]] [[a|a]] [[male|hombre]] [[teacher?|profesor?]]",
       "questions": [
         {
           "id": "q1",
@@ -1080,8 +1080,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Traducción de Ms.",
-      "instructions": "¿Cuál es la forma más profesional de dirigirse a una mujer?",
+      "title": "[[Translating|Traducción]] [[Ms.|de Ms.]]",
+      "instructions": "[[What|Cuál]] [[is|es]] [[the|la]] [[most|más]] [[professional|profesional]] [[way|forma]] [[to|de]] [[address|dirigirse]] [[a|a]] [[woman?|mujer?]]",
       "questions": [
         {
           "id": "q1",
@@ -1114,7 +1114,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Encantado",
+      "title": "[[Nice to meet you|Encantado]]",
       "instructions": "Ordena para decir \"Encantado de conocerte\".",
       "sentences": [
         {
@@ -1143,7 +1143,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "¿Cómo va todo?",
+      "title": "[[How|Cómo]] [[is|va]] [[it|todo]] [[going?|?]]",
       "instructions": "Elige la forma más natural de preguntar \"¿Cómo va?\".",
       "questions": [
         {
@@ -1198,8 +1198,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Títulos y Nombres",
-      "instructions": "Une el título con su uso correcto.",
+      "title": "[[Titles|Títulos]] [[and|y]] [[Names|Nombres]]",
+      "instructions": "[[Match|Une]] [[the|el]] [[title|título]] [[with|con]] [[its|su]] [[correct|correcto]] [[use|uso]].",
       "pairs": [
         {
           "id": "1",
@@ -1243,7 +1243,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Contracción de nombre",
+      "title": "[[Name|de nombre]] [[Contraction|Contracción]]",
       "instructions": "Escribe la forma corta de \"[[What is|Cual es]]\".",
       "questions": [
         {
@@ -1265,7 +1265,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Respuesta negativa",
+      "title": "[[Negative|Negativa]] [[Response|Respuesta]]",
       "instructions": "¿Cómo dices que \"no\" eres algo?",
       "questions": [
         {
@@ -1299,7 +1299,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Tenga un buen día",
+      "title": "[[Have|Tenga]] [[a|un]] [[nice|buen]] [[day|día]]",
       "instructions": "Ordena para decir \"Tenga un buen día\".",
       "sentences": [
         {
@@ -1328,7 +1328,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Yo no soy",
+      "title": "[[I|Yo]] [[am|soy]] [[not|no]]",
       "instructions": "Ordena para decir \"Yo no soy Juan\".",
       "sentences": [
         {
@@ -1357,8 +1357,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Plural de cortesía",
-      "instructions": "¿Cómo saludas a una clase entera?",
+      "title": "[[Courtesy|de cortesía]] [[Plural|Plural]]",
+      "instructions": "[[How|Cómo]] [[do| ]] [[you| ]] [[greet|saludas]] [[an|una]] [[entire|entera]] [[class?|clase?]]",
       "questions": [
         {
           "id": "q1",
@@ -1412,8 +1412,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Resumen de saludos",
-      "instructions": "Une cada saludo con su momento del día.",
+      "title": "[[Greeting|de saludos]] [[Summary|Resumen]]",
+      "instructions": "[[Match|Une]] [[each|cada]] [[greeting|saludo]] [[with|con]] [[its|su]] [[time|momento]] [[of|del]] [[day|día]].",
       "pairs": [
         {
           "id": "1",
@@ -1457,7 +1457,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Apellido",
+      "title": "[[Last|Apellido]] [[Name| ]]",
       "instructions": "Escribe la palabra para \"apellido\".",
       "questions": [
         {
@@ -1479,7 +1479,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "¿Qué tal?",
+      "title": "[[What's|Qué]] [[up?|tal?]]",
       "instructions": "¿Cuál es la forma más informal (estilo Duolingo) de decir \"¿Qué pasa?\"?",
       "questions": [
         {
@@ -1513,8 +1513,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Resumen final",
-      "instructions": "¿Cuál es la mejor forma de presentarte por primera vez?",
+      "title": "[[Final|Final]] [[Summary|Resumen]]",
+      "instructions": "[[What|Cuál]] [[is|es]] [[the|la]] [[best|mejor]] [[way|forma]] [[to|de]] [[introduce|presentarte]] [[yourself| ]] [[for|por]] [[the|la]] [[first|primera]] [[time|vez]]?",
       "questions": [
         {
           "id": "q1",
