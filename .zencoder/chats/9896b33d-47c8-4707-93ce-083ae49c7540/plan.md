@@ -15,17 +15,14 @@ Create a technical specification based on the PRD.
 #### [x] Task 6: Complete Unit 2 translation (Exercises 26-50)
 - Status: Completed. Applied manual fixes for alignment and filled empty tooltips.
 
-#### [x] Task 7: Translate Units 12-15
-- Status: Completed. Applied regex-based wrapping of questions using existing translations.
+#### [x] Task 7: Translate Unit 12 (Word-by-word)
+- Status: Completed. Manually tokenized all 50 exercises.
 
-#### [x] Task 8: Translate Units 16-20
-- Status: Completed. Applied regex-based wrapping of questions using existing translations.
+#### [x] Task 8: Translate Unit 13 (Word-by-word)
+- Status: Completed. Manually tokenized all 50 exercises.
 
-#### [x] Task 9: Translate Units 21-25
-- Status: Completed. Applied regex-based wrapping of questions using existing translations.
-
-#### [x] Task 10: Translate Units 26-30
-- Status: Completed. Applied regex-based wrapping of questions using existing translations.
+#### [ ] Task 9: Translate Unit 14 (Word-by-word)
+- Status: Pending.
 
 ### [ ] Step: Verification
 - Run dev server and verify tooltips visually.

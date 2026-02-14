@@ -12,9 +12,9 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "Modals of Deduction: Present",
       instructions: "Choose the correct modal verb for deduction.",
-      question: "[[The AI system is making no errors. It ___ be very advanced.|El sistema de IA no comete errores. Debe ser muy avanzado.]]",
-      options: ["must", "can't", "might"],
-      correctAnswer: "must",
+      question: "[[The|El]] [[AI|sistema de IA]] [[system| ]] [[is|no]] [[making|comete]] [[no| ]] [[errors.|errores.]] [[It|Debe]] [[___|___]] [[be|ser]] [[very|muy]] [[advanced.|avanzado.]]",
+      options: ["[[must|debe (de)]]", "[[can't|no puede]]", "[[might|podría]]"],
+      correctAnswer: "[[must|debe (de)]]",
       explanation: "Use 'must' when you are almost certain something is true.",
       translation: "El sistema de IA no comete errores. Debe ser muy avanzado.",
       hint: "Making no errors suggests high certainty."
@@ -31,9 +31,9 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "Modals of Deduction: Present",
       instructions: "Choose the correct modal verb for deduction.",
-      question: "[[He doesn't answer his phone. He ___ be in a meeting.|Él no contesta su teléfono. Puede que esté en una reunión.]]",
-      options: ["might", "must", "can't"],
-      correctAnswer: "might",
+      question: "[[He|Él]] [[doesn't|no]] [[answer|contesta]] [[his|su]] [[phone.|teléfono.]] [[He|Él]] [[___|___]] [[be|puede que esté]] [[in|en]] [[a|una]] [[meeting.|reunión.]]",
+      options: ["[[might|puede que]]", "[[must|debe]]", "[[can't|no puede]]"],
+      correctAnswer: "[[might|puede que]]",
       explanation: "Use 'might', 'may', or 'could' when something is possible but not certain.",
       translation: "Él no contesta su teléfono. Puede que esté en una reunión.",
       hint: "It's one possibility among others."
@@ -50,9 +50,9 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "Modals of Deduction: Present",
       instructions: "Choose the correct modal verb for deduction.",
-      question: "[[That ___ be the right answer; it's logically impossible!|Esa no puede ser la respuesta correcta; ¡es lógicamente imposible!]]",
-      options: ["can't", "must", "could"],
-      correctAnswer: "can't",
+      question: "[[That|Esa]] [[___|___]] [[be|no puede ser]] [[the|la]] [[right|respuesta]] [[answer;|correcta;]] [[it's|¡es]] [[logically|lógicamente]] [[impossible!|imposible!]]",
+      options: ["[[can't|no puede]]", "[[must|debe]]", "[[could|podría]]"],
+      correctAnswer: "[[can't|no puede]]",
       explanation: "Use 'can't' when you are certain something is impossible.",
       translation: "Esa no puede ser la respuesta correcta; ¡es lógicamente imposible!",
       hint: "Logically impossible indicates 100% certainty it's NOT true."
@@ -69,9 +69,9 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "Modals of Deduction: Present",
       instructions: "Choose the correct modal verb for deduction.",
-      question: "[[They ___ be working on a new robot, but I'm not sure.|Puede que estén trabajando en un nuevo robot, pero no estoy seguro.]]",
-      options: ["might", "must", "can't"],
-      correctAnswer: "might",
+      question: "[[They|Puede que]] [[___|___]] [[be|estén]] [[working|trabajando]] [[on|en]] [[a|un]] [[new|nuevo]] [[robot,|robot,]] [[but|pero]] [[I'm|no]] [[not|estoy]] [[sure.|seguro.]]",
+      options: ["[[might|puede que]]", "[[must|deben]]", "[[can't|no pueden]]"],
+      correctAnswer: "[[might|puede que]]",
       explanation: "'I'm not sure' indicates possibility, not certainty.",
       translation: "Puede que estén trabajando en un nuevo robot, pero no estoy seguro.",
       hint: "Lack of certainty points to 'might'."
@@ -88,9 +88,9 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "Modals of Deduction: Present",
       instructions: "Choose the correct modal verb for deduction.",
-      question: "[[You've been studying AI all day. You ___ be exhausted.|Has estado estudiando IA todo el día. Debes estar agotado.]]",
-      options: ["must", "can't", "could"],
-      correctAnswer: "must",
+      question: "[[You've|Has]] [[been|estado]] [[studying|estudiando]] [[AI|IA]] [[all|todo]] [[day.|el día.]] [[You|Debes]] [[___|___]] [[be|estar]] [[exhausted.|agotado.]]",
+      options: ["[[must|debes]]", "[[can't|no puedes]]", "[[could|podrías]]"],
+      correctAnswer: "[[must|debes]]",
       explanation: "Studying all day leads to the logical conclusion of being exhausted.",
       translation: "Has estado estudiando IA todo el día. Debes estar agotado.",
       hint: "A logical conclusion based on a long activity."
@@ -107,9 +107,9 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "Modals of Deduction: Present",
       instructions: "Choose the correct modal verb.",
-      question: "[[The lights are off in the lab. They ___ be working now.|Las luces del laboratorio están apagadas. No pueden estar trabajando ahora.]]",
-      options: ["can't", "must", "might"],
-      correctAnswer: "can't",
+      question: "[[The|Las]] [[lights|luces]] [[are|están]] [[off|apagadas]] [[in|en]] [[the|el]] [[lab.|laboratorio.]] [[They|Ellos]] [[___|___]] [[be|estar]] [[working|trabajando]] [[now.|ahora.]]",
+      options: ["[[can't|no pueden]]", "[[must|deben]]", "[[might|podrían]]"],
+      correctAnswer: "[[can't|no pueden]]",
       explanation: "If the lights are off, it's logically impossible (or very unlikely) that they are working.",
       translation: "Las luces del laboratorio están apagadas. No pueden estar trabajando ahora.",
       hint: "Lights off = impossible to be working."
@@ -126,9 +126,9 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "Modals of Deduction: Present",
       instructions: "Choose the correct modal verb.",
-      question: "[[He looks exactly like the CEO. He ___ be his brother.|Se parece exactamente al CEO. Debe ser su hermano.]]",
-      options: ["must", "can't", "could"],
-      correctAnswer: "must",
+      question: "[[He|Él]] [[looks|se parece]] [[exactly|exactamente]] [[like|a]] [[the|el]] [[CEO.|CEO.]] [[He|Él]] [[___|___]] [[be|ser]] [[his|su]] [[brother.|hermano.]]",
+      options: ["[[must|debe]]", "[[can't|no puede]]", "[[could|podría]]"],
+      correctAnswer: "[[must|debe]]",
       explanation: "A strong resemblance leads to a strong deduction.",
       translation: "Se parece exactamente al CEO. Debe ser su hermano.",
       hint: "High certainty based on appearance."
@@ -145,9 +145,9 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "Modals of Deduction: Present",
       instructions: "Choose the correct modal verb.",
-      question: "[[The server is down. It ___ be a maintenance issue.|El servidor está caído. Podría ser un problema de mantenimiento.]]",
-      options: ["could", "must", "can't"],
-      correctAnswer: "could",
+      question: "[[The|El]] [[server|servidor]] [[is|está]] [[down.|caído.]] [[It|Esto]] [[___|___]] [[be|ser]] [[a|un]] [[maintenance|de mantenimiento.]] [[issue.|problema]]",
+      options: ["[[could|podría]]", "[[must|debe]]", "[[can't|no puede]]"],
+      correctAnswer: "[[could|podría]]",
       explanation: "One of several possibilities.",
       translation: "El servidor está caído. Podría ser un problema de mantenimiento.",
       hint: "It's a possibility."
@@ -164,9 +164,9 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "Modals of Deduction: Present",
       instructions: "Choose the correct modal verb.",
-      question: "[[She's not answering. She ___ be out of the office.|Ella no responde. Puede que esté fuera de la oficina.]]",
-      options: ["may", "must", "can't"],
-      correctAnswer: "may",
+      question: "[[She's|Ella]] [[not|no]] [[answering.|responde.]] [[She|Ella]] [[___|___]] [[be|estar]] [[out|fuera]] [[of|de]] [[the|la]] [[office.|oficina.]]",
+      options: ["[[may|puede]]", "[[must|debe]]", "[[can't|no puede]]"],
+      correctAnswer: "[[may|puede]]",
       explanation: "Expressing possibility.",
       translation: "Ella no responde. Puede que esté fuera de la oficina.",
       hint: "Possibility."
@@ -183,9 +183,9 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "Modals of Deduction: Present",
       instructions: "Choose the correct modal verb.",
-      question: "[[That story ___ be true; it sounds like science fiction!|Esa historia no puede ser cierta; ¡suena a ciencia ficción!]]",
-      options: ["can't", "must", "might"],
-      correctAnswer: "can't",
+      question: "[[That|Esa]] [[story|historia]] [[___|___]] [[be|ser]] [[true;|cierta;]] [[it|¡suena]] [[sounds|a]] [[like|ciencia]] [[science|ficción!]] [[fiction!| ]]",
+      options: ["[[can't|no puede]]", "[[must|debe]]", "[[might|podría]]"],
+      correctAnswer: "[[can't|no puede]]",
       explanation: "Impossibility deduction.",
       translation: "Esa historia no puede ser cierta; ¡suena a ciencia ficción!",
       hint: "Sounds impossible."
@@ -203,7 +203,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "Modals of Deduction: Past",
       instructions: "Fill in the blank with the correct modal perfect form.",
-      question: "[[The data is gone. You ___ (must/delete) it by mistake.|Los datos han desaparecido. Debes haberlos borrado por error.]]",
+      question: "[[The|Los]] [[data|datos]] [[is|han]] [[gone.|desaparecido.]] [[You|Debes]] [[___|___]] [[(must/delete)|(haberlos borrado)]] [[it| ]] [[by|por]] [[mistake.|error.]]",
       correctAnswer: "must have deleted",
       explanation: "Past deduction: modal + have + past participle.",
       translation: "Los datos han desaparecido. Debes haberlos borrado por error.",
@@ -221,7 +221,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "Modals of Deduction: Past",
       instructions: "Fill in the blank with the correct modal perfect form.",
-      question: "[[He ___ (can't/hear) the alarm; he was wearing headphones.|Él no puede haber oído la alarma; llevaba puestos los auriculares.]]",
+      question: "[[He|Él]] [[___|___]] [[(can't/hear)|(no puede haber oído)]] [[the|la]] [[alarm;|alarma;]] [[he|llevaba]] [[was|puestos]] [[wearing|los]] [[headphones.|auriculares.]]",
       correctAnswer: "can't have heard",
       explanation: "Negative past deduction for something impossible.",
       translation: "Él no puede haber oído la alarma; llevaba puestos los auriculares.",
@@ -239,7 +239,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "Modals of Deduction: Past",
       instructions: "Fill in the blank with the correct modal perfect form.",
-      question: "[[They ___ (might/forget) about the meeting.|Puede que se hayan olvidado de la reunión.]]",
+      question: "[[They|Puede que]] [[___|___]] [[(might/forget)|(se hayan olvidado)]] [[about|de]] [[the|la]] [[meeting.|reunión.]]",
       correctAnswer: "might have forgotten",
       explanation: "Past possibility: might + have + past participle.",
       translation: "Puede que se hayan olvidado de la reunión.",
@@ -257,7 +257,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "Modals of Deduction: Past",
       instructions: "Fill in the blank with the correct modal perfect form.",
-      question: "[[She ___ (must/be) very happy when she got the job.|Debió haber estado muy feliz cuando consiguió el trabajo.]]",
+      question: "[[She|Debió]] [[___|___]] [[(must/be)|(haber estado)]] [[very|muy]] [[happy|feliz]] [[when|cuando]] [[she| ]] [[got|consiguió]] [[the|el]] [[job.|trabajo.]]",
       correctAnswer: "must have been",
       explanation: "Logical conclusion about a past state.",
       translation: "Debió haber estado muy feliz cuando consiguió el trabajo.",
@@ -275,7 +275,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "Modals of Deduction: Past",
       instructions: "Fill in the blank with the correct modal perfect form.",
-      question: "[[The robot ___ (could/malfunction) during the test.|El robot podría haber fallado durante la prueba.]]",
+      question: "[[The|El]] [[robot|robot]] [[___|___]] [[(could/malfunction)|(podría haber fallado)]] [[during|durante]] [[the|la]] [[test.|prueba.]]",
       correctAnswer: "could have malfunctioned",
       explanation: "Past possibility using 'could'.",
       translation: "El robot podría haber fallado durante la prueba.",
@@ -293,7 +293,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "Modals of Deduction: Past",
       instructions: "Fill in the blank.",
-      question: "[[The experiment failed. Something ___ (must/go) wrong.|El experimento falló. Algo debe haber salido mal con los parámetros.]]",
+      question: "[[The|El]] [[experiment|experimento]] [[failed.|falló.]] [[Something|Algo]] [[___|___]] [[(must/go)|(debe haber salido)]] [[wrong.|mal.]]",
       correctAnswer: "must have gone",
       explanation: "Logical conclusion about the cause of a past failure.",
       translation: "El experimento falló. Algo debe haber salido mal con los parámetros.",
@@ -311,7 +311,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "Modals of Deduction: Past Negative",
       instructions: "Fill in the blank.",
-      question: "[[He looks confused. He ___ (might/not/understand) the instructions.|Parece confundido. Puede que no haya entendido las instrucciones.]]",
+      question: "[[He|Parece]] [[looks| ]] [[confused.|confundido.]] [[He|Puede que]] [[___|___]] [[(might/not/understand)|(no haya entendido)]] [[the|las]] [[instructions.|instrucciones.]]",
       correctAnswer: "might not have understood",
       explanation: "Speculating about a negative past possibility.",
       translation: "Parece confundido. Puede que no haya entendido las instrucciones.",
@@ -329,7 +329,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "Modals of Deduction: Past",
       instructions: "Fill in the blank.",
-      question: "[[The door was locked. They ___ (could/leave) early.|La puerta estaba cerrada. Podrían haberse ido temprano.]]",
+      question: "[[The|La]] [[door|puerta]] [[was|estaba]] [[locked.|cerrada.]] [[They|Ellos]] [[___|___]] [[(could/leave)|(podrían haberse ido)]] [[early.|temprano.]]",
       correctAnswer: "could have left",
       explanation: "One possible explanation for a past situation.",
       translation: "La puerta estaba cerrada. Podrían haberse ido temprano.",
@@ -347,7 +347,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "Modals of Deduction: Past",
       instructions: "Fill in the blank.",
-      question: "[[She wasn't at the meeting. She ___ (must/forget) her calendar.|Ella no estuvo en la reunión. Debe haber olvidado marcar su calendario.]]",
+      question: "[[She|Ella]] [[wasn't|no estuvo]] [[at|en]] [[the|la]] [[meeting.|reunión.]] [[She|Ella]] [[___|___]] [[(must/forget)|(debe haber olvidado)]] [[her|marcar su]] [[calendar.|calendario.]]",
       correctAnswer: "must have forgotten",
       explanation: "A logical deduction for her absence.",
       translation: "Ella no estuvo en la reunión. Debe haber olvidado marcar su calendario.",
@@ -365,7 +365,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "Modals of Deduction: Past",
       instructions: "Fill in the blank.",
-      question: "[[The AI produced a strange result. It ___ (may/encounter) an edge case.|La IA produjo un resultado extraño. Puede haber encontrado un caso límite.]]",
+      question: "[[The|La]] [[AI|IA]] [[produced|produjo]] [[a|un]] [[strange|resultado]] [[result.|extraño.]] [[It|Puede]] [[___|___]] [[(may/encounter)|(haber encontrado)]] [[an|un]] [[edge|caso]] [[case.|límite.]]",
       correctAnswer: "may have encountered",
       explanation: "Possibility regarding a past event in AI processing.",
       translation: "La IA produjo un resultado extraño. Puede haber encontrado un caso límite.",
@@ -384,7 +384,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "AI Terminology",
       instructions: "Complete the sentence with the correct term.",
-      question: "[[The computer uses an ___ (algorithm) to process the data.|El ordenador utiliza un algoritmo para procesar los datos.]]",
+      question: "[[The|El]] [[computer|ordenador]] [[uses|utiliza]] [[an|un]] [[___|___]] [[(algorithm)|(algoritmo)]] [[to|para]] [[process|procesar]] [[the|los]] [[data.|datos.]]",
       correctAnswer: "algorithm",
       explanation: "An algorithm is a set of rules or steps followed by a computer.",
       translation: "El ordenador utiliza un algoritmo para procesar los datos.",
@@ -402,7 +402,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "AI Terminology",
       instructions: "Complete the sentence with the correct term.",
-      question: "[[___ (Machine) learning allows systems to improve over time.|El aprendizaje automático permite que los sistemas mejoren con el tiempo.]]",
+      question: "[[___|___]] [[(Machine)|(El aprendizaje automático)]] [[learning| ]] [[allows|permite]] [[systems|que los sistemas]] [[to| ]] [[improve|mejoren]] [[over|con el]] [[time.|tiempo.]]",
       correctAnswer: "Machine",
       explanation: "Machine learning is a subset of AI focused on learning from data.",
       translation: "El aprendizaje automático permite que los sistemas mejoren con el tiempo.",
@@ -420,7 +420,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "AI Terminology",
       instructions: "Complete the sentence with the correct term.",
-      question: "[[We need a large ___ (dataset) to train the model.|Necesitamos un gran conjunto de datos para entrenar el modelo.]]",
+      question: "[[We|Necesitamos]] [[need| ]] [[a|un]] [[large|gran]] [[___|___]] [[(dataset)|(conjunto de datos)]] [[to|para]] [[train|entrenar]] [[the|el]] [[model.|modelo.]]",
       correctAnswer: "dataset",
       explanation: "A dataset is a collection of related data used for analysis or training.",
       translation: "Necesitamos un gran conjunto de datos para entrenar el modelo.",
@@ -438,7 +438,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "AI Terminology",
       instructions: "Complete the sentence with the correct term.",
-      question: "[[___ (Automation) is replacing many repetitive tasks.|La automatización está reemplazando muchas tareas repetitivas.]]",
+      question: "[[___|___]] [[(Automation)|(La automatización)]] [[is|está]] [[replacing|reemplazando]] [[many|muchas]] [[repetitive|tareas]] [[tasks.|repetitivas.]]",
       correctAnswer: "Automation",
       explanation: "Automation is the use of technology to perform tasks without human intervention.",
       translation: "La automatización está reemplazando muchas tareas repetitivas.",
@@ -456,7 +456,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "AI Terminology",
       instructions: "Complete the sentence with the correct term.",
-      question: "[[It can ___ (generate) realistic images from text.|Puede generar imágenes realistas a partir de texto.]]",
+      question: "[[It|Puede]] [[can| ]] [[___|___]] [[(generate)|(generar)]] [[realistic|imágenes]] [[images|realistas]] [[from|a partir de]] [[text.|texto.]]",
       correctAnswer: "generate",
       explanation: "To generate means to produce or create.",
       translation: "Puede generar imágenes realistas a partir de texto.",
@@ -474,7 +474,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "AI Terminology",
       instructions: "Fill in the blank.",
-      question: "[[___ (Deep) learning is inspired by the human brain.|El aprendizaje profundo se inspira en la estructura del cerebro humano.]]",
+      question: "[[___|___]] [[(Deep)|(El aprendizaje profundo)]] [[learning| ]] [[is|se]] [[inspired|inspira]] [[by|en]] [[the|la]] [[structure|estructura]] [[of|del]] [[the| ]] [[human|cerebro]] [[brain.|humano.]]",
       correctAnswer: "Deep",
       explanation: "Deep learning uses multi-layered neural networks.",
       translation: "El aprendizaje profundo se inspira en la estructura del cerebro humano.",
@@ -492,7 +492,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "AI Terminology",
       instructions: "Fill in the blank.",
-      question: "[[The ___ (training) data must be diverse.|Los datos de entrenamiento deben ser diversos para evitar sesgos.]]",
+      question: "[[The|Los]] [[___|___]] [[(training)|(datos de entrenamiento)]] [[data| ]] [[must|deben]] [[be|ser]] [[diverse|diversos]] [[to|para]] [[avoid|evitar]] [[bias.|sesgos.]]",
       correctAnswer: "training",
       explanation: "Data used to teach an AI model is called training data.",
       translation: "Los datos de entrenamiento deben ser diversos para evitar sesgos.",
@@ -510,7 +510,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "AI Terminology",
       instructions: "Fill in the blank.",
-      question: "[[Computer ___ (vision) allows machines to interpret images.|La visión artificial permite que las máquinas 'vean' e interpreten imágenes.]]",
+      question: "[[Computer|La]] [[___|___]] [[(vision)|(visión artificial)]] [[allows|permite]] [[machines|que las máquinas]] [[to| ]][['see'|'vean']] [[and|e]] [[interpret|interpreten]] [[images.|imágenes.]]",
       correctAnswer: "vision",
       explanation: "Computer vision is the field of AI that deals with visual input.",
       translation: "La visión artificial permite que las máquinas 'vean' e interpreten imágenes.",
@@ -528,7 +528,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "AI Terminology",
       instructions: "Fill in the blank.",
-      question: "[[Natural language ___ (processing) helps computers understand speech.|El procesamiento del lenguaje natural ayuda a los ordenadores a entender el habla humana.]]",
+      question: "[[Natural|El]] [[language|procesamiento del]] [[___|___]] [[(processing)|(lenguaje natural)]] [[helps|ayuda]] [[computers|a los ordenadores]] [[understand|a entender]] [[human|el habla]] [[speech.|humana.]]",
       correctAnswer: "processing",
       explanation: "NLP (Natural Language Processing) is about human-computer interaction via language.",
       translation: "El procesamiento del lenguaje natural ayuda a los ordenadores a entender el habla humana.",
@@ -546,7 +546,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "AI Terminology",
       instructions: "Fill in the blank.",
-      question: "[[A ___ (predictive) model can forecast future trends.|Un modelo predictivo puede pronosticar tendencias futuras.]]",
+      question: "[[A|Un]] [[___|___]] [[(predictive)|(modelo predictivo)]] [[model| ]] [[can|puede]] [[forecast|pronosticar]] [[future|tendencias]] [[trends.|futuras.]]",
       correctAnswer: "predictive",
       explanation: "Models that make predictions based on data.",
       translation: "Un modelo predictivo puede pronosticar tendencias futuras.",
@@ -565,11 +565,11 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "Tech Ethics",
       instructions: "Choose the correct word.",
-      question: "[[AI development raises many ___ (ethical) questions.|el desarrollo de la IA plantea muchas cuestiones éticas.]]",
+      question: "[[AI|El desarrollo de la]] [[development|IA]] [[raises|plantea]] [[many|muchas]] [[___|___]] [[(ethical)|(cuestiones]] [[questions.|éticas.)]]",
       options: ["ethical", "moral", "legal"],
       correctAnswer: "ethical",
       explanation: "Ethical relates to moral principles or branch of knowledge.",
-      translation: "el desarrollo de la IA plantea muchas cuestiones éticas.",
+      translation: "El desarrollo de la IA plantea muchas cuestiones éticas.",
       hint: "Related to ethics."
     },
     topicName: "Vocabulary"
@@ -584,7 +584,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "Tech Ethics",
       instructions: "Choose the correct word.",
-      question: "[[We must prevent ___ (bias) in automated decisions.|Debemos prevenir el sesgo en las decisiones automatizadas.]]",
+      question: "[[We|Debemos]] [[must| ]] [[prevent|prevenir]] [[___|___]] [[(bias)|(el sesgo)]] [[in|en]] [[automated|las decisiones]] [[decisions.|automatizadas.]]",
       options: ["bias", "error", "truth"],
       correctAnswer: "bias",
       explanation: "Bias is prejudice in favor of or against one thing, person, or group.",
@@ -603,7 +603,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "Tech Ethics",
       instructions: "Choose the correct word.",
-      question: "[[Data ___ (privacy) is a fundamental human right.|La privacidad de los datos es un derecho humano fundamental.]]",
+      question: "[[Data|La privacidad de los]] [[___|___]] [[(privacy)|(datos)]] [[is|es]] [[a|un]] [[fundamental|derecho]] [[human|humano]] [[right.|fundamental.]]",
       options: ["privacy", "safety", "access"],
       correctAnswer: "privacy",
       explanation: "Privacy is the state of being free from public attention or intrusion.",
@@ -622,7 +622,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "Tech Ethics",
       instructions: "Choose the correct word.",
-      question: "[[Companies should be held ___ (accountable) for AI errors.|Las empresas deben rendir cuentas por los errores de la IA.]]",
+      question: "[[Companies|Las empresas]] [[should|deben]] [[be| ]] [[held|rendir]] [[___|___]] [[(accountable)|(cuentas)]] [[for|por]] [[AI|los errores de la]] [[errors.|IA.]]",
       options: ["accountable", "responsible", "liable"],
       correctAnswer: "accountable",
       explanation: "Being accountable means being required or expected to justify actions or decisions.",
@@ -641,7 +641,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "Tech Ethics",
       instructions: "Choose the correct word.",
-      question: "[[We need strict ___ (regulations) to control AI growth.|Necesitamos regulaciones estrictas para controlar el crecimiento de la IA.]]",
+      question: "[[We|Necesitamos]] [[need| ]] [[strict|regulaciones]] [[___|___]] [[(regulations)|(estrictas)]] [[to|para]] [[control|controlar]] [[AI|el crecimiento de la]] [[growth.|IA.]]",
       options: ["regulations", "rules", "laws"],
       correctAnswer: "regulations",
       explanation: "Regulations are rules maintained by an authority.",
@@ -660,7 +660,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "Tech Ethics",
       instructions: "Choose the correct term.",
-      question: "[[Surveillance technology can ___ upon individual freedoms.|La tecnología de vigilancia puede infringir las libertades individuales.]]",
+      question: "[[Surveillance|La tecnología de]] [[technology|vigilancia]] [[can|puede]] [[___|___]] [[(infringe)|(infringir)]] [[upon|las]] [[individual|libertades]] [[freedoms.|individuales.]]",
       options: ["infringe", "improve", "increase"],
       correctAnswer: "infringe",
       explanation: "To 'infringe upon' means to limit or undermine something.",
@@ -679,7 +679,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "Tech Ethics",
       instructions: "Choose the correct term.",
-      question: "[[___ (Autonomous) vehicles must make ethical decisions.|Los vehículos autónomos deben tomar decisiones éticas en fracciones de segundo.]]",
+      question: "[[___|___]] [[(Autonomous)|(Los vehículos autónomos)]] [[vehicles| ]] [[must|deben]] [[make|tomar]] [[ethical|decisiones]] [[decisions.|éticas.]]",
       options: ["Autonomous", "Manual", "Fast"],
       correctAnswer: "Autonomous",
       explanation: "Self-driving vehicles are called autonomous vehicles.",
@@ -698,7 +698,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "Tech Ethics",
       instructions: "Choose the correct term.",
-      question: "[[___ (Transparency) in AI is vital for public trust.|La transparencia en las operaciones de la IA es vital para la confianza del público.]]",
+      question: "[[___|___]] [[(Transparency)|(La transparencia)]] [[in|en]] [[AI|las operaciones de la IA]] [[operations| ]] [[is|es]] [[vital|vital]] [[for|para la]] [[public|confianza del]] [[trust.|público.]]",
       options: ["Transparency", "Speed", "Color"],
       correctAnswer: "Transparency",
       explanation: "Being open and clear about how something works.",
@@ -717,7 +717,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "Tech Ethics",
       instructions: "Choose the correct term.",
-      question: "[[Algorithmic ___ (bias) can lead to unfair treatment.|El sesgo algorítmico puede llevar a un trato injusto.]]",
+      question: "[[Algorithmic|El sesgo]] [[___|___]] [[(bias)|(algorítmico)]] [[can|puede]] [[lead|llevar]] [[to|a un]] [[unfair|trato]] [[treatment.|injusto.]]",
       options: ["bias", "speed", "power"],
       correctAnswer: "bias",
       explanation: "Bias in algorithms can perpetuate stereotypes or unfairness.",
@@ -736,7 +736,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "Tech Ethics",
       instructions: "Choose the correct term.",
-      question: "[[Users should give ___ (informed) consent for data collection.|Los usuarios deben dar su consentimiento informado para la recopilación de datos.]]",
+      question: "[[Users|Los usuarios]] [[should|deben]] [[give|dar su]] [[___|___]] [[(informed)|(consentimiento informado)]] [[consent| ]] [[for|para la]] [[data|recopilación de]] [[collection.|datos.]]",
       options: ["informed", "fast", "easy"],
       correctAnswer: "informed",
       explanation: "Informed consent means agreeing after being fully told about the risks and benefits.",
@@ -756,7 +756,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[The ___ (EXIST) of AI poses new challenges.|La existencia de la IA plantea nuevos desafíos.]]",
+      question: "[[The|La]] [[___|___]] [[(EXIST)|(existencia)]] [[of|de la]] [[AI|IA]] [[poses|plantea]] [[new|nuevos]] [[challenges.|desafíos.]]",
       correctAnswer: "existence",
       explanation: "Noun form of 'exist' is 'existence'.",
       translation: "La existencia de la IA plantea nuevos desafíos.",
@@ -774,7 +774,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "AI in the Arts",
       instructions: "Read and answer the question.",
-      question: "[[What is the main argument regarding AI and creativity?|La IA es una herramienta que potencia la creatividad humana en lugar de reemplazarla.]]",
+      question: "[[What|¿Cuál]] [[is|es]] [[the|el]] [[main|principal]] [[argument|argumento]] [[regarding|respecto a la]] [[AI|IA]] [[and|y la]] [[creativity?|creatividad?]]",
       options: ["AI is a tool", "AI is an artist", "AI is useless", "AI is dangerous"],
       correctAnswer: "AI is a tool",
       explanation: "The text describes AI as a tool for enhancement.",
@@ -793,7 +793,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "Balancing Arguments",
       instructions: "Choose the best phrase to introduce a first argument.",
-      question: "[[To present the first argument in a discursive essay:|Para presentar el primer argumento: Por un lado, la IA ofrece...]]",
+      question: "[[To|Para]] [[present|presentar]] [[the|el]] [[first|primer]] [[argument|argumento]] [[in|en]] [[a|un]] [[discursive|ensayo]] [[essay:|discursivo:]]",
       options: ["On the one hand", "AI offers...", "First thing:", "Good side:"],
       correctAnswer: "On the one hand, AI offers...",
       explanation: "Standard academic phrase for starting a balanced discussion.",
@@ -812,7 +812,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "Speculating on Evidence",
       instructions: "Choose the natural way to speculate based on evidence.",
-      question: "[[Looking at these results, what would you say?|A juzgar por los datos, debe ser un error de software.]]",
+      question: "[[Looking|Mirando]] [[at| ]] [[these|estos]] [[results,|resultados,]] [[what|¿qué]] [[would|dirías?]] [[you| ]] [[say?| ]]",
       options: ["Judging by the data", "it must be...", "I see data", "so it is...", "The data says...", "Look at this."],
       correctAnswer: "Judging by the data, it must be...",
       explanation: "Using 'Judging by' is a natural way to introduce a deduction.",
@@ -831,7 +831,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "Mixed Review",
       instructions: "Choose the correct modal for deduction.",
-      question: "[[The system crashed again. It ___ (be) a bug.|El sistema volvió a fallar. Debe ser un error.]]",
+      question: "[[The|El]] [[system|sistema]] [[crashed|volvió a]] [[again.|fallar.]] [[It|Debe]] [[___|___]] [[(be)|(ser)]] [[a|un]] [[bug.|error.]]",
       options: ["must be", "can't be", "might not be"],
       correctAnswer: "must be",
       explanation: "A crash is strong evidence for a bug, so 'must be' is appropriate.",
@@ -850,7 +850,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "AI Terminology",
       instructions: "Fill in the blank.",
-      question: "[[The software can ___ (recognize) faces in a crowd.|El software puede reconocer rostros en una multitud.]]",
+      question: "[[The|El]] [[software|software]] [[can|puede]] [[___|___]] [[(recognize)|(reconocer)]] [[faces|rostros]] [[in|en]] [[a|una]] [[crowd.|multitud.]]",
       correctAnswer: "recognize",
       explanation: "To recognize is to identify from having encountered them before.",
       translation: "El software puede reconocer rostros en una multitud.",
@@ -868,7 +868,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "AI Terminology",
       instructions: "Fill in the blank.",
-      question: "[[The neural ___ (network) mimics the human brain.|La red neuronal imita al cerebro humano.]]",
+      question: "[[The|La]] [[neural|red]] [[___|___]] [[(network)|(neuronal)]] [[mimics|imita]] [[the|al]] [[human|cerebro]] [[brain.|humano.]]",
       correctAnswer: "network",
       explanation: "A neural network is a computing system inspired by biological neural networks.",
       translation: "La red neuronal imita al cerebro humano.",
@@ -886,7 +886,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "Tech Ethics",
       instructions: "Choose the correct term.",
-      question: "[[The ___ (transparency) of algorithms is essential.|La transparencia de los algoritmos es esencial.]]",
+      question: "[[The|La]] [[___|___]] [[(transparency)|(transparencia)]] [[of|de los]] [[algorithms|algoritmos]] [[is|es]] [[essential.|esencial.]]",
       options: ["transparency", "clarity", "view"],
       correctAnswer: "transparency",
       explanation: "Transparency means the ability to see how an algorithm works.",
@@ -905,7 +905,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[The ___ (RESPONSIBLE) of developers is huge.|La responsabilidad de los desarrolladores es enorme.]]",
+      question: "[[The|La]] [[___|___]] [[(RESPONSIBLE)|(responsabilidad)]] [[of|de los]] [[developers|desarrolladores]] [[is|es]] [[huge.|enorme.]]",
       correctAnswer: "responsibility",
       explanation: "Noun form of 'responsible' is 'responsibility'.",
       translation: "La responsabilidad de los desarrolladores es enorme.",
@@ -923,7 +923,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[His ___ (ARGUE) against AI was very convincing.|Su argumento contra la IA fue muy convincente.]]",
+      question: "[[His|Su]] [[___|___]] [[(ARGUE)|(argumento)]] [[against|contra la]] [[AI|IA]] [[was|fue]] [[very|muy]] [[convincing.|convincente.]]",
       correctAnswer: "argument",
       explanation: "Noun form of 'argue' is 'argument'.",
       translation: "Su argumento contra la IA fue muy convincente.",
