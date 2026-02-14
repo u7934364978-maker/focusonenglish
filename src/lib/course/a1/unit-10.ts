@@ -88,27 +88,6 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u10-e5',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Clothes',
-    topicName: 'Outfit of the Day',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Jacket',
-      instructions: 'Di la palabra para "chaqueta".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Jacket',
-          phonetic: '/ˈdʒæk.ɪt/',
-          translation: 'Chaqueta',
-          explanation: 'La "j" suena como una "y" fuerte o una "dg".'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u10-e6',
     type: 'fill-blank',
     level: 'A1',
@@ -252,27 +231,6 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u10-e13',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Clothes',
-    topicName: 'Outfit of the Day',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Clothes',
-      instructions: 'Di la palabra para "ropa".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Clothes',
-          phonetic: '/kləʊðz/',
-          translation: 'Ropa',
-          explanation: 'La "th" es suave y la "e" no se pronuncia. Suena casi como "cloze".'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u10-e14',
     type: 'sentence-building',
     level: 'A1',
@@ -396,27 +354,6 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u10-e20',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Clothes',
-    topicName: 'Outfit of the Day',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Sweater',
-      instructions: 'Di la palabra para "suéter" o "jersey".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Sweater',
-          phonetic: '/ˈswet.ər/',
-          translation: 'Suéter',
-          explanation: 'La "ea" suena como una "e" corta. En el Reino Unido también dicen "jumper".'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u10-e21',
     type: 'sentence-building',
     level: 'A1',
@@ -516,27 +453,6 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         { id: 'p5', left: 'Denim', right: 'Tejido vaquero' }
       ],
       explanation: 'Conocer los materiales te ayuda a entender mejor la calidad de la ropa.'
-    } as any
-  },
-  {
-    id: 'a1-u10-e26',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Clothes',
-    topicName: 'Outfit of the Day',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Scarf',
-      instructions: 'Di la palabra para "bufanda".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Scarf',
-          phonetic: '/skɑːf/',
-          translation: 'Bufanda',
-          explanation: 'La "r" es muda en el inglés británico, alargando el sonido de la "a".'
-        }
-      ]
     } as any
   },
   {
@@ -663,27 +579,6 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u10-e33',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Clothes',
-    topicName: 'Outfit of the Day',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Button',
-      instructions: 'Di la palabra para "botón".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Button',
-          phonetic: '/ˈbʌt.ən/',
-          translation: 'Botón',
-          explanation: 'La "u" suena corta y el final es casi imperceptible.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u10-e34',
     type: 'sentence-building',
     level: 'A1',
@@ -783,27 +678,6 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         { id: 'p5', left: 'Flip-flops', right: 'Chanclas' }
       ],
       explanation: 'Saber el nombre exacto del calzado es muy útil para ir de compras.'
-    } as any
-  },
-  {
-    id: 'a1-u10-e39',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Clothes',
-    topicName: 'Outfit of the Day',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Hat',
-      instructions: 'Di la palabra para "sombrero".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Hat',
-          phonetic: '/hæt/',
-          translation: 'Sombrero',
-          explanation: 'La "h" se pronuncia como un suspiro fuerte, no es muda.'
-        }
-      ]
     } as any
   },
   {
@@ -927,27 +801,6 @@ export const UNIT_10_EXERCISES: Exercise[] = [
         { id: 'p5', left: 'Change', right: 'Cambiarse/Cambiar' }
       ],
       explanation: 'Estos verbos son esenciales para cualquier jornada de compras.'
-    } as any
-  },
-  {
-    id: 'a1-u10-e46',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Clothes',
-    topicName: 'Outfit of the Day',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Fashion',
-      instructions: 'Di la palabra para "moda".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Fashion',
-          phonetic: '/ˈfæʃ.ən/',
-          translation: 'Moda',
-          explanation: 'La "sh" suena como pedir silencio (shhh).'
-        }
-      ]
     } as any
   },
   {
