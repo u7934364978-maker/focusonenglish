@@ -12,7 +12,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Speech: Statements",
       instructions: "Choose the correct backshifted form.",
-      question: "\"I am busy,\" he said. -> He said that he ___ busy.",
+      question: "[[\"I|\"Estoy]] [[am|ocupado\",]] [[busy,\"| ]] [[he|dijo]] [[said.|él.]] [[->|->]] [[He|Él]] [[said|dijo]] [[that|que]] [[he|estaba]] [[___|___]] [[busy.|ocupado.]]",
       options: ["was", "is", "be"],
       correctAnswer: "was",
       explanation: "Present simple 'am' shifts to past simple 'was' in reported speech.",
@@ -31,7 +31,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Speech: Statements",
       instructions: "Choose the correct backshifted form.",
-      question: "\"We have finished,\" they said. -> They said that they ___ finished.",
+      question: "[[\"We|\"Hemos]] [[have|terminado\",]] [[finished,\"| ]] [[they|dijeron]] [[said.|ellos.]] [[->|->]] [[They|Dijeron]] [[said|que]] [[that| ]] [[they|habían]] [[___|___]] [[finished.|terminado.]]",
       options: ["had", "have", "has"],
       correctAnswer: "had",
       explanation: "Present perfect 'have finished' shifts to past perfect 'had finished'.",
@@ -50,7 +50,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Speech: Statements",
       instructions: "Choose the correct backshifted form.",
-      question: "\"I will call you,\" she said. -> She said that she ___ call me.",
+      question: "[[\"I|\"Te]] [[will|llamaré\",]] [[call| ]] [[you,\"| ]] [[she|dijo]] [[said.|ella.]] [[->|->]] [[She|Ella]] [[said|dijo]] [[that|que]] [[she|me]] [[___|___]] [[call|llamaría.]] [[me.| ]]",
       options: ["would", "will", "shall"],
       correctAnswer: "would",
       explanation: "'Will' shifts to 'would' in reported speech.",
@@ -69,7 +69,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Speech: Statements",
       instructions: "Choose the correct backshifted form.",
-      question: "\"I worked late,\" he said. -> He said that he ___ late.",
+      question: "[[\"I|\"Trabajé]] [[worked|hasta]] [[late,\"|tarde\",]] [[he|dijo]] [[said.|él.]] [[->|->]] [[He|Él]] [[said|dijo]] [[that|que]] [[he|había]] [[___|___]] [[late.|trabajado hasta tarde.]]",
       options: ["had worked", "worked", "works"],
       correctAnswer: "had worked",
       explanation: "Past simple 'worked' often shifts to past perfect 'had worked'.",
@@ -88,7 +88,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Speech: Statements",
       instructions: "Choose the correct backshifted form.",
-      question: "\"I can help,\" she said. -> She said that she ___ help.",
+      question: "[[\"I|\"Puedo]] [[can|ayudar\",]] [[help,\"| ]] [[she|dijo]] [[said.|ella.]] [[->|->]] [[She|Ella]] [[said|dijo]] [[that|que]] [[she|podía]] [[___|___]] [[help.|ayudar.]]",
       options: ["could", "can", "may"],
       correctAnswer: "could",
       explanation: "Modal 'can' shifts to 'could'.",
@@ -107,7 +107,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Speech: Modals",
       instructions: "Choose the correct backshifted form.",
-      question: "\"I must go now,\" he said. -> He said that he ___ to go then.",
+      question: "[[\"I|\"Debo]] [[must|irme]] [[go|ahora\",]] [[now,\"| ]] [[he|dijo]] [[said.|él.]] [[->|->]] [[He|Él]] [[said|dijo]] [[that|que]] [[he|tenía]] [[___|___]] [[to|que]] [[go|irse]] [[then.|entonces.]]",
       options: ["had", "must", "has"],
       correctAnswer: "had",
       explanation: "In reported speech, 'must' usually shifts to 'had to'.",
@@ -126,7 +126,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Speech: Modals",
       instructions: "Choose the correct backshifted form.",
-      question: "\"I may arrive late,\" she said. -> She said that she ___ arrive late.",
+      question: "[[\"I|\"Puede]] [[may|que]] [[arrive|llegue]] [[late,\"|tarde\",]] [[she|dijo]] [[said.|ella.]] [[->|->]] [[She|Ella]] [[said|dijo]] [[that|que]] [[she|podría]] [[___|___]] [[arrive|llegar]] [[late.|tarde.]]",
       options: ["might", "may", "will"],
       correctAnswer: "might",
       explanation: "Modal 'may' shifts to 'might' in reported speech.",
@@ -145,7 +145,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Speech: Place and Time",
       instructions: "Choose the correct word.",
-      question: "\"We are meeting here,\" they said. -> They said that they were meeting ___.",
+      question: "[[\"We|\"Nos]] [[are|reunimos]] [[meeting|aquí\",]] [[here,\"| ]] [[they|dijeron.]] [[said.| ]] [[->|->]] [[They|Dijeron]] [[said|que]] [[that|se]] [[they|reunían]] [[were| ]] [[meeting| ]] [[___|___]] [[.|allí.]]",
       options: ["there", "here", "then"],
       correctAnswer: "there",
       explanation: "'Here' shifts to 'there' in reported speech.",
@@ -164,7 +164,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Speech: Place and Time",
       instructions: "Choose the correct phrase.",
-      question: "\"I'll see you tomorrow,\" she said. -> She said she'd see me ___.",
+      question: "[[\"I'll|\"Te]] [[see|veré]] [[you|mañana\",]] [[tomorrow,\"| ]] [[she|dijo]] [[said.|ella.]] [[->|->]] [[She|Dijo]] [[said|que]] [[she'd|me]] [[see|vería]] [[me|al]] [[___|___]] [[.|día siguiente.]]",
       options: ["the next day", "tomorrow", "yesterday"],
       correctAnswer: "the next day",
       explanation: "'Tomorrow' shifts to 'the next day' or 'the following day'.",
@@ -183,7 +183,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Speech: Continuous",
       instructions: "Choose the correct backshifted form.",
-      question: "\"I was working,\" he said. -> He said that he ___ working.",
+      question: "[[\"I|\"Estaba]] [[was|trabajando\",]] [[working,\"| ]] [[he|dijo]] [[said.|él.]] [[->|->]] [[He|Él]] [[said|dijo]] [[that|que]] [[he|había]] [[___|___]] [[working.|estado trabajando.]]",
       options: ["had been", "was", "has been"],
       correctAnswer: "had been",
       explanation: "Past continuous 'was working' shifts to past perfect continuous 'had been working'.",
@@ -203,7 +203,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Questions",
       instructions: "Fill in the blank with the correct verb form.",
-      question: "\"Where do you work?\" -> He asked me where I ___ (work).",
+      question: "[[\"Where|\"¿Dónde]] [[do|trabajas?\"]] [[you| ]] [[work?\"| ]] [[->|->]] [[He|Me]] [[asked|preguntó]] [[me| ]] [[where|dónde]] [[I| ]] [[___|trabajaba.]] [[(work).| ]]",
       correctAnswer: "worked",
       explanation: "The direct question in present simple shifts to past simple in reported form.",
       translation: "\"¿Dónde trabajas?\" -> Me preguntó dónde trabajaba.",
@@ -221,7 +221,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Questions",
       instructions: "Fill in the blank with the correct word.",
-      question: "\"Do you like your job?\" -> She asked me ___ I liked my job.",
+      question: "[[\"Do|\"¿Te]] [[you|gusta]] [[like|tu]] [[your|trabajo?\"]] [[job?\"| ]] [[->|->]] [[She|Ella]] [[asked|me]] [[me|preguntó]] [[___|si]] [[I|me]] [[liked|gustaba]] [[my|mi]] [[job.|trabajo.]]",
       correctAnswer: "if",
       explanation: "Use 'if' or 'whether' for yes/no questions in reported speech.",
       translation: "\"¿Te gusta tu trabajo?\" -> Ella me preguntó si me gustaba mi trabajo.",
@@ -239,7 +239,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Commands",
       instructions: "Fill in the blank with the correct infinitive form.",
-      question: "\"Sit down,\" the boss said. -> The boss told me ___ (sit) down.",
+      question: "[[\"Sit|\"Siéntate\",]] [[down,\"| ]] [[the|dijo]] [[boss|el]] [[said.|jefe.]] [[->|->]] [[The|El]] [[boss|jefe]] [[told|me]] [[me|dijo]] [[___|que]] [[(sit)|me]] [[down.|sentara.]]",
       correctAnswer: "to sit",
       explanation: "Commands are reported using 'told/asked + someone + to + infinitive'.",
       translation: "\"Siéntate\", dijo el jefe. El jefe me dijo que me sentara.",
@@ -257,7 +257,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Commands",
       instructions: "Fill in the blank.",
-      question: "\"Don't forget the meeting,\" he said. -> He told me ___ (not/forget) the meeting.",
+      question: "[[\"Don't|\"No]] [[forget|olvides]] [[the|la]] [[meeting,\"|reunión\",]] [[he|dijo]] [[said.|él.]] [[->|->]] [[He|Me]] [[told|dijo]] [[me|que]] [[___|no]] [[(not/forget)|olvidara]] [[the|la]] [[meeting.|reunión.]]",
       correctAnswer: "not to forget",
       explanation: "Negative commands use 'not to + infinitive'.",
       translation: "\"No olvides la reunión\", dijo él. Me dijo que no olvidara la reunión.",
@@ -275,7 +275,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Questions",
       instructions: "Fill in the blank.",
-      question: "\"Have you seen the report?\" -> She asked me if I ___ (see) the report.",
+      question: "[[\"Have|\"¿Has]] [[you|visto]] [[seen|el]] [[the|informe?\"]] [[report?\"| ]] [[->|->]] [[She|Ella]] [[asked|me]] [[me|preguntó]] [[if|si]] [[I|había]] [[___|visto]] [[(see)|el]] [[the| ]] [[report.|informe.]]",
       correctAnswer: "had seen",
       explanation: "Present perfect 'have seen' shifts to past perfect 'had seen'.",
       translation: "\"¿Has visto el informe?\" -> Ella me preguntó si había visto el informe.",
@@ -293,7 +293,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Questions",
       instructions: "Fill in the blank.",
-      question: "\"What are you doing?\" -> She asked me what I ___ doing.",
+      question: "[[\"What|\"¿Qué]] [[are|estás]] [[you|haciendo?\"]] [[doing?\"| ]] [[she|dijo]] [[asked.|ella.]] [[->|->]] [[She|Ella]] [[asked|me]] [[me|preguntó]] [[what|qué]] [[I|estaba]] [[___|haciendo.]] [[doing.| ]]",
       correctAnswer: "was",
       explanation: "Present continuous 'are you doing' shifts to past continuous 'I was doing'.",
       translation: "\"¿Qué estás haciendo?\" -> Ella me preguntó qué estaba haciendo.",
@@ -311,7 +311,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Questions",
       instructions: "Fill in the blank.",
-      question: "\"Will you attend?\" -> He asked me if I ___ attend.",
+      question: "[[\"Will|\"¿Asistirás?\"]] [[you| ]] [[attend?\"| ]] [[he|preguntó]] [[asked.|él.]] [[->|->]] [[He|Me]] [[asked|preguntó]] [[me| ]] [[if|si]] [[I|asistiría.]] [[___| ]] [[attend.| ]]",
       correctAnswer: "would",
       explanation: "Future 'will attend' shifts to 'would attend' in reported questions.",
       translation: "\"¿Asistirás?\" -> Me preguntó si asistiría.",
@@ -329,7 +329,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Commands",
       instructions: "Fill in the blank.",
-      question: "\"Finish the project,\" she told me. -> She told me ___ finish the project.",
+      question: "[[\"Finish|\"Termina]] [[the|el]] [[project,\"|proyecto\",]] [[she|me]] [[told|dijo]] [[me.|ella.]] [[->|->]] [[She|Me]] [[told|dijo]] [[me|que]] [[___|terminara]] [[finish|el]] [[the|proyecto.]] [[project.| ]]",
       correctAnswer: "to",
       explanation: "Reported commands use the infinitive structure 'to + verb'.",
       translation: "\"Termina el proyecto\", me dijo ella. Me dijo que terminara el proyecto.",
@@ -347,7 +347,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Requests",
       instructions: "Fill in the blank.",
-      question: "\"Please don't be late,\" he said. -> He asked me ___ to be late.",
+      question: "[[\"Please|\"Por]] [[don't|favor,]] [[be|no]] [[late,\"|llegues]] [[he|tarde\",]] [[said.|dijo él.]] [[->|->]] [[He|Me]] [[asked|pidió]] [[me|que]] [[___|no]] [[to|llegara]] [[be|tarde.]] [[late.| ]]",
       correctAnswer: "not",
       explanation: "Negative requests/commands use 'not to + verb'.",
       translation: "\"Por favor, no llegues tarde\", dijo él. Me pidió que no llegara tarde.",
@@ -365,7 +365,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Requests",
       instructions: "Fill in the blank.",
-      question: "\"Can you sign this?\" -> She asked me ___ (sign) it.",
+      question: "[[\"Can|\"¿Puedes]] [[you|firmar]] [[sign|esto?\"]] [[this?\"| ]] [[she|preguntó]] [[asked.|ella.]] [[->|->]] [[She|Ella]] [[asked|me]] [[me|pidió]] [[___|que]] [[(sign)|lo]] [[it.|firmara.]]",
       correctAnswer: "to sign",
       explanation: "A request for action is often reported as a command/request structure 'to + infinitive'.",
       translation: "\"¿Puedes firmar esto?\" -> Ella me pidió que lo firmara.",
@@ -384,7 +384,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Business Terms",
       instructions: "Fill in the blank.",
-      question: "[[Effective ___ (communication) is key to success.|La comunicación efectiva es clave para el éxito.]]",
+      question: "[[Effective|La comunicación]] [[___|___]] [[(communication)|efectiva]] [[is|es]] [[key|clave]] [[to|para el]] [[success.|éxito.]]",
       correctAnswer: "communication",
       explanation: "The act of exchanging information is communication.",
       translation: "La comunicación efectiva es clave para el éxito.",
@@ -402,7 +402,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Business Terms",
       instructions: "Fill in the blank.",
-      question: "[[We need to provide regular ___ (feedback) to the team.|Necesitamos proporcionar comentarios regulares al equipo.]]",
+      question: "[[We|Necesitamos]] [[need|proporcionar]] [[to|comentarios]] [[provide|regulares]] [[regular|al]] [[___|___]] [[(feedback)|equipo.]] [[to| ]] [[the| ]] [[team.| ]]",
       correctAnswer: "feedback",
       explanation: "Information about a person's performance used as a basis for improvement.",
       translation: "Necesitamos proporcionar comentarios regulares al equipo.",
@@ -420,7 +420,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Business Terms",
       instructions: "Fill in the blank.",
-      question: "[[The ___ (agenda) for the meeting was sent yesterday.|El orden del día de la reunión se envió ayer.]]",
+      question: "[[The|El orden del día]] [[___|___]] [[(agenda)|de la]] [[for|reunión]] [[the|se]] [[meeting|envió]] [[was| ]] [[sent| ]] [[yesterday.|ayer.]]",
       correctAnswer: "agenda",
       explanation: "An agenda is a list of items to be discussed at a meeting.",
       translation: "El orden del día de la reunión se envió ayer.",
@@ -438,7 +438,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Business Terms",
       instructions: "Fill in the blank.",
-      question: "[[She is a great ___ (negotiator).|Ella es una gran negociadora.]]",
+      question: "[[She|Ella]] [[is|es]] [[a|una]] [[great|gran]] [[___|___]] [[(negotiator).|(negociadora.)]]",
       correctAnswer: "negotiator",
       explanation: "A person who conducts negotiations.",
       translation: "Ella es una gran negociadora.",
@@ -456,7 +456,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Business Terms",
       instructions: "Fill in the blank.",
-      question: "[[We reached a ___ (compromise) after a long talk.|Llegamos a un compromiso después de una larga charla.]]",
+      question: "[[We|Llegamos]] [[reached|a un]] [[a|compromiso]] [[___|___]] [[(compromise)|después de]] [[after|una]] [[a|larga]] [[long|charla.]] [[talk.| ]]",
       correctAnswer: "compromise",
       explanation: "A compromise is an agreement reached by each side making concessions.",
       translation: "Llegamos a un compromiso después de una larga charla.",
@@ -474,7 +474,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Business Terms",
       instructions: "Fill in the blank.",
-      question: "[[He has excellent ___ (rapport) with his clients.|Tiene una excelente relación con sus clientes.]]",
+      question: "[[He|Tiene]] [[has|una]] [[excellent|excelente]] [[___|___]] [[(rapport)|relación]] [[with|con sus]] [[his|clientes.]] [[clients.| ]]",
       correctAnswer: "rapport",
       explanation: "Rapport is a close and harmonious relationship.",
       translation: "Tiene una excelente relación con sus clientes.",
@@ -492,7 +492,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Business Terms",
       instructions: "Fill in the blank.",
-      question: "[[We need to ___ (align) our goals.|Necesitamos alinear nuestros objetivos para el próximo año.]]",
+      question: "[[We|Necesitamos]] [[need|alinear]] [[to|nuestros]] [[___|___]] [[(align)|objetivos]] [[our|para el]] [[goals.|próximo año.]]",
       correctAnswer: "align",
       explanation: "To align means to bring into agreement or cooperation.",
       translation: "Necesitamos alinear nuestros objetivos para el próximo año.",
@@ -510,7 +510,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Business Terms",
       instructions: "Fill in the blank.",
-      question: "[[Clear ___ (objectives) are necessary.|Los objetivos claros son necesarios para cualquier proyecto.]]",
+      question: "[[Clear|Los]] [[___|___]] [[(objectives)|objetivos claros]] [[are|son]] [[necessary.|necesarios para cualquier proyecto.]]",
       correctAnswer: "objectives",
       explanation: "Objectives are goals or aims.",
       translation: "Los objetivos claros son necesarios para cualquier proyecto.",
@@ -528,7 +528,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Business Terms",
       instructions: "Fill in the blank.",
-      question: "[[The ___ (stakeholder) meeting is on Friday.|La reunión de las partes interesadas está programada para el viernes.]]",
+      question: "[[The|La reunión]] [[___|___]] [[(stakeholder)|de las partes]] [[meeting|interesadas]] [[is|está]] [[on|programada]] [[Friday.|para el viernes.]]",
       correctAnswer: "stakeholder",
       explanation: "A stakeholder is a person with an interest or concern in something.",
       translation: "La reunión de las partes interesadas está programada para el viernes.",
@@ -546,7 +546,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Business Terms",
       instructions: "Fill in the blank.",
-      question: "[[Active ___ (listening) is a vital skill.|La escucha activa es una habilidad de comunicación vital.]]",
+      question: "[[Active|La escucha]] [[___|___]] [[(listening)|activa]] [[is|es]] [[a|una]] [[vital|habilidad de]] [[skill.|comunicación vital.]]",
       correctAnswer: "listening",
       explanation: "Active listening involves fully concentrating on what is being said.",
       translation: "La escucha activa es una habilidad de comunicación vital.",
@@ -565,7 +565,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Networking",
       instructions: "Choose the correct term.",
-      question: "[[I attended a business ___ last week.|Asistí a una conferencia de negocios la semana pasada.]]",
+      question: "[[I|Asistí]] [[attended|a]] [[a|una]] [[business|conferencia]] [[___|___]] [[(conference)|de negocios]] [[last|la semana]] [[week.|pasada.]]",
       options: ["conference", "meeting", "party"],
       correctAnswer: "conference",
       explanation: "A large meeting for discussion, often over several days.",
@@ -584,7 +584,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Networking",
       instructions: "Choose the correct term.",
-      question: "[[She handed out her business ___ to everyone.|Ella repartió su tarjeta de presentación a todos.]]",
+      question: "[[She|Ella]] [[handed|repartió]] [[out|su]] [[her|tarjeta]] [[business|de]] [[___|___]] [[(card)|presentación]] [[to|a]] [[everyone.|todos.]]",
       options: ["card", "paper", "note"],
       correctAnswer: "card",
       explanation: "A small card printed with one's name and professional details.",
@@ -603,7 +603,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Networking",
       instructions: "Choose the correct phrasal verb.",
-      question: "[[It's important to ___ up after an event.|Es importante hacer un seguimiento después de un evento.]]",
+      question: "[[It's|Es]] [[important|importante]] [[to|hacer]] [[___|___]] [[(follow)|un seguimiento]] [[up| ]] [[after|después de]] [[an|un]] [[event.|evento.]]",
       options: ["follow", "get", "take"],
       correctAnswer: "follow",
       explanation: "To 'follow up' means to pursue or investigate something further.",
@@ -622,7 +622,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Networking",
       instructions: "Choose the correct term.",
-      question: "[[You should have a short elevator ___ ready.|Deberías tener listo un breve discurso de ascensor.]]",
+      question: "[[You|Deberías]] [[should|tener]] [[have|listo]] [[a|un]] [[short|breve]] [[elevator|discurso]] [[___|___]] [[(pitch)|de ascensor.]] [[ready.| ]]",
       options: ["pitch", "talk", "speech"],
       correctAnswer: "pitch",
       explanation: "An 'elevator pitch' is a short description of an idea or product.",
@@ -641,7 +641,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Networking",
       instructions: "Choose the correct term.",
-      question: "[[It is vital to maintain your ___.|Es vital mantener tu reputación.]]",
+      question: "[[It|Es]] [[is|vital]] [[vital|mantener]] [[to|tu]] [[maintain|reputación.]] [[your| ]] [[___|___]] [[(reputation).| ]]",
       options: ["reputation", "name", "face"],
       correctAnswer: "reputation",
       explanation: "The beliefs or opinions held about someone.",
@@ -660,7 +660,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Networking",
       instructions: "Choose the correct verb.",
-      question: "[[I need to ___ (broaden) my professional network.|Necesito ampliar mi red profesional.]]",
+      question: "[[I|Necesito]] [[need|ampliar]] [[to|mi]] [[___|___]] [[(broaden)|red]] [[my|profesional.]] [[professional| ]] [[network.| ]]",
       options: ["broaden", "widen", "increase"],
       correctAnswer: "broaden",
       explanation: "To 'broaden your network' means to expand your connections.",
@@ -679,7 +679,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Networking",
       instructions: "Choose the correct term.",
-      question: "[[We exchanged contact information at the ___ (mixer).|Intercambiamos información de contacto en la reunión social.]]",
+      question: "[[We|Intercambiamos]] [[exchanged|información]] [[contact|de]] [[information|contacto]] [[at|en]] [[the|la]] [[___|___]] [[(mixer).|(reunión social.)]]",
       options: ["mixer", "shaker", "blender"],
       correctAnswer: "mixer",
       explanation: "A 'mixer' is an informal social event for people to meet.",
@@ -698,7 +698,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Networking",
       instructions: "Choose the correct term.",
-      question: "[[A ___ (cold) email is sent to someone you don't know.|Un correo en frío es una forma de contactar con nuevos contactos.]]",
+      question: "[[A|Un]] [[___|___]] [[(cold)|correo en frío]] [[email|es]] [[is|una]] [[a|forma]] [[way|de]] [[to|contactar]] [[reach|con]] [[out|nuevos]] [[to|contactos.]] [[new| ]] [[contacts.| ]]",
       options: ["cold", "warm", "hot"],
       correctAnswer: "cold",
       explanation: "A 'cold email' is an unsolicited email sent without prior contact.",
@@ -717,7 +717,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Networking",
       instructions: "Choose the correct term.",
-      question: "[[Mutual ___ (acquaintances) can help you network.|Los conocidos mutuos pueden facilitar presentaciones.]]",
+      question: "[[Mutual|Los]] [[___|___]] [[(acquaintances)|conocidos mutuos]] [[can|pueden]] [[provide|facilitar]] [[introductions.|presentaciones.]]",
       options: ["acquaintances", "friends", "peers"],
       correctAnswer: "acquaintances",
       explanation: "An acquaintance is someone you know slightly but is not a close friend.",
@@ -736,7 +736,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Networking",
       instructions: "Choose the correct term.",
-      question: "[[___ (Mentorship) involves a more experienced person guiding a less experienced one.|La mentoría puede ser muy beneficiosa para el crecimiento profesional.]]",
+      question: "[[___|___]] [[(Mentorship)|(La mentoría)]] [[can|puede]] [[be|ser]] [[very|muy]] [[beneficial|beneficiosa]] [[for|para el]] [[career|crecimiento]] [[growth.|profesional.]]",
       options: ["Mentorship", "Coaching", "Teaching"],
       correctAnswer: "Mentorship",
       explanation: "Mentorship is a professional relationship in which an experienced person assists a less experienced person.",
@@ -756,7 +756,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[She has a very ___ (PERSUADE) speaking style.|Ella tiene un estilo de hablar muy persuasivo.]]",
+      question: "[[She|Ella]] [[has|tiene]] [[a|un]] [[very|estilo]] [[___|___]] [[(PERSUADE)|(de hablar)]] [[speaking|muy]] [[style.|persuasivo.]]",
       correctAnswer: "persuasive",
       explanation: "Adjective form of 'persuade' is 'persuasive'.",
       translation: "Ella tiene un estilo de hablar muy persuasivo.",
@@ -774,7 +774,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "The Art of Networking",
       instructions: "Read and answer.",
-      question: "[[Why is face-to-face contact still important?|El contacto cara a cara sigue siendo crucial porque genera confianza de una manera que las herramientas digitales no pueden.]]",
+      question: "[[Why|¿Por qué]] [[is|es]] [[face-to-face|el contacto]] [[contact|cara a cara]] [[still|sigue siendo]] [[important?|crucial?]]",
       options: ["Builds trust", "It is faster", "It is cheaper", "No internet needed"],
       correctAnswer: "Builds trust",
       explanation: "The text emphasizes trust-building as a key benefit of physical meetings.",
@@ -793,7 +793,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Summarizing Meetings",
       instructions: "Choose the best formal way to report a decision.",
-      question: "[[To report a decision in meeting minutes:|Se acordó que lanzaríamos el proyecto en junio.]]",
+      question: "[[To|Para]] [[report|informar]] [[a|sobre una]] [[decision|decisión]] [[in|en las]] [[meeting|actas de]] [[minutes:|la reunión:]]",
       options: ["It was agreed that...", "We said yes.", "Decision:"],
       correctAnswer: "It was agreed that...",
       explanation: "Formal passive structure for reporting official decisions.",
@@ -812,7 +812,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Breaking the Ice",
       instructions: "Identify a natural way to start a conversation.",
-      question: "[[What is a good way to start a conversation with someone new?|¿Has estado en esta conferencia antes?]]",
+      question: "[[What|¿Cuál]] [[is|es]] [[a|una]] [[good|buena]] [[way|manera]] [[to|de]] [[start|empezar]] [[a|una]] [[conversation|conversación]] [[with|con]] [[someone|alguien]] [[new?|nuevo?]]",
       options: ["Have you been to this conference before?", "What is your job?", "Tell me about yourself.", "Do you like this party?"],
       correctAnswer: "Have you been to this conference before?",
       explanation: "Asking about the shared event is a non-intrusive way to start small talk.",
@@ -831,7 +831,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Mixed Review",
       instructions: "Choose the correct reported form.",
-      question: "[[He asked me if I ___ (see) the news.|Me preguntó si había visto las noticias.]]",
+      question: "[[He|Me]] [[asked|preguntó]] [[me| ]] [[if|si]] [[I|había]] [[___|visto]] [[(see)|las]] [[the| ]] [[news.|noticias.]]",
       options: ["had seen", "saw", "see"],
       correctAnswer: "had seen",
       explanation: "Reported yes/no question using past perfect for past simple or present perfect.",
@@ -850,7 +850,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Business Terms",
       instructions: "Fill in the blank.",
-      question: "[[Active ___ is a vital skill.|La escucha activa es una habilidad vital.]]",
+      question: "[[Active|La escucha]] [[___|___]] [[is|es]] [[a|una]] [[vital|habilidad]] [[skill.|vital.]]",
       correctAnswer: "listening",
       explanation: "'Active listening' is a core communication concept.",
       translation: "La escucha activa es una habilidad vital.",
@@ -868,7 +868,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Business Terms",
       instructions: "Fill in the blank.",
-      question: "[[We reached a ___.|Llegamos a un compromiso.]]",
+      question: "[[We|Llegamos]] [[reached|a un]] [[a| ]] [[___|___]] [[.|compromiso.]]",
       correctAnswer: "compromise",
       explanation: "To reach a compromise means to settle a dispute by mutual concession.",
       translation: "Llegamos a un compromiso.",
@@ -886,7 +886,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[The ___ (COLLABORATE) between the teams was vital.|La colaboración entre los equipos fue vital.]]",
+      question: "[[The|La]] [[___|___]] [[(COLLABORATE)|(colaboración)]] [[between|entre]] [[the|los]] [[teams|equipos]] [[was|fue]] [[vital.|vital.]]",
       correctAnswer: "collaboration",
       explanation: "The noun form of 'collaborate' is 'collaboration'.",
       translation: "La colaboración entre los equipos fue vital.",
@@ -904,7 +904,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[The ___ (EFFECT) of the meeting was clear.|La efectividad de la reunión fue clara.]]",
+      question: "[[The|La]] [[___|___]] [[(EFFECT)|(efectividad)]] [[of|de la]] [[the| ]] [[meeting|reunión]] [[was|fue]] [[clear.|clara.]]",
       correctAnswer: "effectiveness",
       explanation: "The noun form of 'effect' indicating quality is 'effectiveness'.",
       translation: "La efectividad de la reunión fue clara.",
@@ -922,7 +922,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Mixed Review",
       instructions: "Choose the correct form.",
-      question: "[[She told me ___ (wait) for the email.|Ella me dijo que esperara el correo electrónico.]]",
+      question: "[[She|Ella]] [[told|me]] [[me|dijo]] [[___|que]] [[(wait)|esperara]] [[for|el]] [[the|correo]] [[email.|electrónico.]]",
       options: ["to wait", "waiting", "wait"],
       correctAnswer: "to wait",
       explanation: "Reported command: tell someone to do something.",
