@@ -11,12 +11,12 @@ export const C1_U25_BLOCK1: Exercise = {
   type: 'grammar',
   title: 'Focus: It-Cleft Sentences',
   grammarPoint: 'Emphasis',
-  explanation: '"[[It-clefts|Oraciones hendidas con It]] are used to "[[focus|enfocar]] on a specific part of a "[[sentence|oración]]. Pattern: It + be + [focused item] + relative clause.',
+  explanation: '"[[It-clefts|Oraciones hendidas con It]] are used to [[focus|enfocar]] on a specific part of a [[sentence|oración]]. Pattern: It + be + [focused item] + relative clause.',
   questions: [
     {
       id: genId(UNIT_ID, 'b1', 1),
       type: 'multiple-choice',
-      question: '___ was John who "[[broke|rompió]] the "[[window|ventana]].',
+      question: '___ was John who [[broke|rompió]] the [[window|ventana]].',
       options: ['There', 'It', 'What'],
       correctAnswer: 'It',
       explanation: 'Basic it-cleft structure.',
@@ -25,7 +25,7 @@ export const C1_U25_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 2),
       type: 'multiple-choice',
-      question: 'It was "[[yesterday|ayer]] ___ we "[[met|nos conocimos]].',
+      question: 'It was [[yesterday|ayer]] ___ we [[met|nos conocimos]].',
       options: ['when', 'which', 'that'],
       correctAnswer: 'that',
       explanation: 'Using "that" or "when" for time focus.',
@@ -34,7 +34,7 @@ export const C1_U25_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 3),
       type: 'multiple-choice',
-      question: 'It is "[[money|dinero]] that she ___ most.',
+      question: 'It is [[money|dinero]] that she ___ most.',
       options: ['needs', 'is needing', 'was needing'],
       correctAnswer: 'needs',
       explanation: 'Focusing on the object.',
@@ -43,7 +43,7 @@ export const C1_U25_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 4),
       type: 'multiple-choice',
-      question: 'It was ___ of the "[[rain|lluvia]] that the "[[match|partido]] was "[[cancelled|cancelado]].',
+      question: 'It was ___ of the [[rain|lluvia]] that the [[match|partido]] was [[cancelled|cancelado]].',
       options: ['why', 'because', 'as'],
       correctAnswer: 'because',
       explanation: 'Focusing on the reason.',
@@ -52,7 +52,7 @@ export const C1_U25_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 5),
       type: 'multiple-choice',
-      question: 'It ___ your "[[attitude|actitud]], not your "[[talent|talento]], that "[[matters|importa]].',
+      question: 'It ___ your [[attitude|actitud]], not your [[talent|talento]], that [[matters|importa]].',
       options: ['was', 'be', 'is'],
       correctAnswer: 'is',
       explanation: 'Present tense focus.',
@@ -61,7 +61,7 @@ export const C1_U25_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 6),
       type: 'multiple-choice',
-      question: 'It was in "[[London|Londres]] ___ the "[[event|evento]] took "[[place|lugar]].',
+      question: 'It was in [[London|Londres]] ___ the [[event|evento]] took [[place|lugar]].',
       options: ['where', 'that', 'which'],
       correctAnswer: 'where',
       explanation: 'Focusing on location.',
@@ -70,7 +70,7 @@ export const C1_U25_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 7),
       type: 'multiple-choice',
-      question: '___ wasn\'t until "[[midnight|medianoche]] that he "[[arrived|llegó]].',
+      question: '___ wasn\'t until [[midnight|medianoche]] that he [[arrived|llegó]].',
       options: ['There', 'It', 'He'],
       correctAnswer: 'It',
       explanation: 'Negative time focus.',
@@ -79,7 +79,7 @@ export const C1_U25_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 8),
       type: 'multiple-choice',
-      question: 'It is the ___ of "[[resources|recursos]] that "[[worries|preocupa]] me.',
+      question: 'It is the ___ of [[resources|recursos]] that [[worries|preocupa]] me.',
       options: ['want', 'need', 'lack'],
       correctAnswer: 'lack',
       explanation: 'Focusing on a noun phrase.',
@@ -88,7 +88,7 @@ export const C1_U25_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 9),
       type: 'multiple-choice',
-      question: 'It was with "[[great|gran]] ___ that she "[[finished|terminó]].',
+      question: 'It was with [[great|gran]] ___ that she [[finished|terminó]].',
       options: ['difficulty', 'difficult', 'difficultly'],
       correctAnswer: 'difficulty',
       explanation: 'Focusing on manner.',
@@ -97,7 +97,7 @@ export const C1_U25_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 10),
       type: 'multiple-choice',
-      question: 'It is the "[[truth|verdad]] that I ___.',
+      question: 'It is the [[truth|verdad]] that I ___.',
       options: ['am seeking', 'seek', 'sought'],
       correctAnswer: 'seek',
       explanation: 'Formal object focus.',
@@ -114,12 +114,12 @@ export const C1_U25_BLOCK2: Exercise = {
   type: 'grammar',
   title: 'Focus: Wh-Cleft Sentences',
   grammarPoint: 'Emphasis',
-  explanation: '"[[Wh-clefts|Oraciones hendidas con Wh]] use a "What" clause as the subject to "[[highlight|resaltar]] information.',
+  explanation: '"[[Wh-clefts|Oraciones hendidas con Wh]] use a "What" clause as the subject to [[highlight|resaltar]] information.',
   questions: [
     {
       id: genId(UNIT_ID, 'b2', 1),
       type: 'multiple-choice',
-      question: '___ I "[[need|necesito]] is a "[[vacation|vacación]].',
+      question: '___ I [[need|necesito]] is a [[vacation|vacación]].',
       options: ['That', 'What', 'Which'],
       correctAnswer: 'What',
       explanation: 'Basic wh-cleft.',
@@ -128,7 +128,7 @@ export const C1_U25_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 2),
       type: 'multiple-choice',
-      question: 'What she "[[did|hizo]] ___ to "[[resign|dimitir]].',
+      question: 'What she [[did|hizo]] ___ to [[resign|dimitir]].',
       options: ['did', 'is', 'was'],
       correctAnswer: 'was',
       explanation: 'Focusing on an action.',
@@ -137,7 +137,7 @@ export const C1_U25_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 3),
       type: 'multiple-choice',
-      question: 'What "[[annoyed|molestó]] me most was his ___.',
+      question: 'What [[annoyed|molestó]] me most was his ___.',
       options: ['rudeness', 'rude', 'rudely'],
       correctAnswer: 'rudeness',
       explanation: 'Focusing on a noun.',
@@ -146,7 +146,7 @@ export const C1_U25_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 4),
       type: 'multiple-choice',
-      question: 'What "[[happened|pasó]] was ___ the "[[car|coche]] "[[broke|rompió]] down.',
+      question: 'What [[happened|pasó]] was ___ the [[car|coche]] [[broke|rompió]] down.',
       options: ['why', 'that', 'how'],
       correctAnswer: 'that',
       explanation: 'Focusing on a whole event.',
@@ -155,7 +155,7 @@ export const C1_U25_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 5),
       type: 'multiple-choice',
-      question: '___ I want is a "[[quiet|tranquila]] "[[life|vida]].',
+      question: '___ I want is a [[quiet|tranquila]] [[life|vida]].',
       options: ['What', 'Everything', 'All'],
       correctAnswer: 'All',
       explanation: '"All" can replace "What" for stronger emphasis.',
@@ -164,7 +164,7 @@ export const C1_U25_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 6),
       type: 'multiple-choice',
-      question: 'The only "[[thing|cosa]] I ___ is "[[music|música]].',
+      question: 'The only [[thing|cosa]] I ___ is [[music|música]].',
       options: ['like', 'am liking', 'was liking'],
       correctAnswer: 'like',
       explanation: 'Cleft with "The only thing".',
@@ -173,7 +173,7 @@ export const C1_U25_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 7),
       type: 'multiple-choice',
-      question: 'The "[[place|lugar]] ___ I "[[live|vivo]] is "[[small|pequeño]].',
+      question: 'The [[place|lugar]] ___ I [[live|vivo]] is [[small|pequeño]].',
       options: ['that', 'where', 'which'],
       correctAnswer: 'where',
       explanation: 'Place focus.',
@@ -182,7 +182,7 @@ export const C1_U25_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 8),
       type: 'multiple-choice',
-      question: 'The "[[reason|razón]] ___ I "[[left|me fui]] was the "[[noise|ruido]].',
+      question: 'The [[reason|razón]] ___ I [[left|me fui]] was the [[noise|ruido]].',
       options: ['that', 'reason', 'why'],
       correctAnswer: 'why',
       explanation: 'Reason focus.',
@@ -191,7 +191,7 @@ export const C1_U25_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 9),
       type: 'multiple-choice',
-      question: 'What I "[[really|realmente]] ___ is "[[cooking|cocinar]].',
+      question: 'What I [[really|realmente]] ___ is [[cooking|cocinar]].',
       options: ['enjoy', 'like', 'want'],
       correctAnswer: 'enjoy',
       explanation: 'Emphasizing preference.',
@@ -200,7 +200,7 @@ export const C1_U25_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 10),
       type: 'multiple-choice',
-      question: '___ happened next was "[[incredible|increíble]].',
+      question: '___ happened next was [[incredible|increíble]].',
       options: ['That', 'What', 'Which'],
       correctAnswer: 'What',
       explanation: 'Event focus.',
@@ -217,12 +217,12 @@ export const C1_U25_BLOCK3: Exercise = {
   type: 'grammar',
   title: 'Emphasis: Fronting & Negative Inversion',
   grammarPoint: 'Emphasis',
-  explanation: 'Moving elements to the "[[front|frente]] of the "[[sentence|oración]] for "[[rhetorical|retórica]] "[[impact|impacto]].',
+  explanation: 'Moving elements to the [[front|frente]] of the [[sentence|oración]] for [[rhetorical|retórica]] [[impact|impacto]].',
   questions: [
     {
       id: genId(UNIT_ID, 'b3', 1),
       type: 'multiple-choice',
-      question: '___ have I "[[seen|visto]] such "[[beauty|belleza]].',
+      question: '___ have I [[seen|visto]] such [[beauty|belleza]].',
       options: ['Rarely', 'Never', 'Seldom'],
       correctAnswer: 'Never',
       explanation: 'Negative inversion for strong emphasis.',
@@ -231,7 +231,7 @@ export const C1_U25_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 2),
       type: 'multiple-choice',
-      question: '___ does he "[[complain|quejarse]].',
+      question: '___ does he [[complain|quejarse]].',
       options: ['Always', 'Never', 'Rarely'],
       correctAnswer: 'Rarely',
       explanation: 'Adverbial inversion.',
@@ -240,7 +240,7 @@ export const C1_U25_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 3),
       type: 'multiple-choice',
-      question: '___ then did I "[[realize|darme cuenta]] the "[[truth|verdad]].',
+      question: '___ then did I [[realize|darme cuenta]] the [[truth|verdad]].',
       options: ['Only', 'But', 'So'],
       correctAnswer: 'Only',
       explanation: 'Time phrase inversion.',
@@ -249,7 +249,7 @@ export const C1_U25_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 4),
       type: 'multiple-choice',
-      question: '___ did they "[[know|saber]] what was "[[coming|viniendo]].',
+      question: '___ did they [[know|saber]] what was [[coming|viniendo]].',
       options: ['Few', 'Little', 'Small'],
       correctAnswer: 'Little',
       explanation: 'Negative adverb inversion.',
@@ -258,7 +258,7 @@ export const C1_U25_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 5),
       type: 'multiple-choice',
-      question: '___ no "[[circumstances|circunstancias]] "[[should|deberías]] you "[[leave|irte]].',
+      question: '___ no [[circumstances|circunstancias]] [[should|deberías]] you [[leave|irte]].',
       options: ['In', 'By', 'Under'],
       correctAnswer: 'Under',
       explanation: 'Formal prohibition inversion.',
@@ -267,7 +267,7 @@ export const C1_U25_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 6),
       type: 'multiple-choice',
-      question: '___ only was it "[[cold|frío]], but it also "[[rained|llovió]].',
+      question: '___ only was it [[cold|frío]], but it also [[rained|llovió]].',
       options: ['Not', 'Only', 'No'],
       correctAnswer: 'Not',
       explanation: '"Not only" inversion.',
@@ -276,7 +276,7 @@ export const C1_U25_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 7),
       type: 'multiple-choice',
-      question: '___ had I "[[arrived|llegado]] "[[when|cuando]] the "[[phone|teléfono]] "[[rang|sonó]].',
+      question: '___ had I [[arrived|llegado]] [[when|cuando]] the [[phone|teléfono]] [[rang|sonó]].',
       options: ['Almost', 'Hardly', 'Nearly'],
       correctAnswer: 'Hardly',
       explanation: '"Hardly... when" inversion.',
@@ -285,7 +285,7 @@ export const C1_U25_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 8),
       type: 'multiple-choice',
-      question: '___ was the "[[force|fuerza]] of the "[[wind|viento]] that "[[trees|árboles]] "[[fell|cayeron]].',
+      question: '___ was the [[force|fuerza]] of the [[wind|viento]] that [[trees|árboles]] [[fell|cayeron]].',
       options: ['So', 'Very', 'Such'],
       correctAnswer: 'Such',
       explanation: '"Such" inversion.',
@@ -294,7 +294,7 @@ export const C1_U25_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 9),
       type: 'multiple-choice',
-      question: '___ "[[loud|fuerte]] was the "[[noise|ruido]] that I "[[couldn\'t|no pude]] "[[sleep|dormir]].',
+      question: '___ [[loud|fuerte]] was the [[noise|ruido]] that I [[couldn\'t|no pude]] [[sleep|dormir]].',
       options: ['So', 'Such', 'Very'],
       correctAnswer: 'So',
       explanation: '"So" + adjective inversion.',
@@ -303,7 +303,7 @@ export const C1_U25_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 10),
       type: 'multiple-choice',
-      question: '___ you "[[need|necesitar]] "[[help|ayuda]], please "[[call|llama]].',
+      question: '___ you [[need|necesitar]] [[help|ayuda]], please [[call|llama]].',
       options: ['If', 'Should', 'Unless'],
       correctAnswer: 'Should',
       explanation: 'Formal conditional inversion.',
@@ -320,12 +320,12 @@ export const C1_U25_BLOCK4: Exercise = {
   type: 'vocabulary',
   title: 'Emphasis: Emphatic "Do" & Adverbs',
   grammarPoint: 'Emphasis',
-  explanation: 'Use the "[[auxiliary|auxiliar]] "do" in "[[affirmative|afirmativas]] sentences or "[[intensifying|intensificadores]] adverbs to add "[[weight|peso]] to your statements.',
+  explanation: 'Use the [[auxiliary|auxiliar]] do" in [[affirmative|afirmativas]] sentences or [[intensifying|intensificadores]] adverbs to add [[weight|peso]] to your statements.',
   questions: [
     {
       id: genId(UNIT_ID, 'b4', 1),
       type: 'multiple-choice',
-      question: 'I ___ "[[believe|creer]] that "[[honesty|honestidad]] is "[[best|mejor]].',
+      question: 'I ___ [[believe|creer]] that [[honesty|honestidad]] is [[best|mejor]].',
       options: ['really', 'do', 'can'],
       correctAnswer: 'do',
       explanation: 'Emphatic "do" in affirmative.',
@@ -334,7 +334,7 @@ export const C1_U25_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 2),
       type: 'multiple-choice',
-      question: 'She ___ "[[tell|decir]] us "[[about|sobre]] it "[[yesterday|ayer]].',
+      question: 'She ___ [[tell|decir]] us [[about|sobre]] it [[yesterday|ayer]].',
       options: ['has', 'does', 'did'],
       correctAnswer: 'did',
       explanation: 'Past emphatic "do".',
@@ -343,7 +343,7 @@ export const C1_U25_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 3),
       type: 'multiple-choice',
-      question: 'I was "[[absolutely|absolutamente]] ___ by the "[[news|noticias]].',
+      question: 'I was [[absolutely|absolutamente]] ___ by the [[news|noticias]].',
       options: ['devastated', 'sad', 'tired'],
       correctAnswer: 'devastated',
       explanation: 'Extreme adjective for emphasis.',
@@ -352,7 +352,7 @@ export const C1_U25_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 4),
       type: 'multiple-choice',
-      question: 'It was ___ "[[ridiculous|ridículo]] to "[[suggest|sugerir]] that.',
+      question: 'It was ___ [[ridiculous|ridículo]] to [[suggest|sugerir]] that.',
       options: ['very', 'utterly', 'quite'],
       correctAnswer: 'utterly',
       explanation: 'Strong intensifying adverb.',
@@ -361,7 +361,7 @@ export const C1_U25_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 5),
       type: 'multiple-choice',
-      question: 'I ___ "[[disagree|en desacuerdo]] with your "[[proposal|propuesta]].',
+      question: 'I ___ [[disagree|en desacuerdo]] with your [[proposal|propuesta]].',
       options: ['serious', 'firm', 'strongly'],
       correctAnswer: 'strongly',
       explanation: 'Adverb for emphatic opinion.',
@@ -370,7 +370,7 @@ export const C1_U25_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 6),
       type: 'multiple-choice',
-      question: 'Do ___ "[[down|abajo]] and "[[relax|relájate]].',
+      question: 'Do ___ [[down|abajo]] and [[relax|relájate]].',
       options: ['sit', 'sitting', 'sat'],
       correctAnswer: 'sit',
       explanation: 'Emphatic imperative.',
@@ -379,7 +379,7 @@ export const C1_U25_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 7),
       type: 'multiple-choice',
-      question: 'The "[[film|película]] was ___ "[[boring|aburrida]].',
+      question: 'The [[film|película]] was ___ [[boring|aburrida]].',
       options: ['very', 'much', 'downright'],
       correctAnswer: 'downright',
       explanation: 'Informal but strong emphasis.',
@@ -388,7 +388,7 @@ export const C1_U25_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 8),
       type: 'multiple-choice',
-      question: 'He is "[[by|por]] ___ the "[[best|mejor]] "[[player|jugador]].',
+      question: 'He is [[by|por]] ___ the [[best|mejor]] [[player|jugador]].',
       options: ['long', 'all', 'far'],
       correctAnswer: 'far',
       explanation: '"By far" for superlative emphasis.',
@@ -397,7 +397,7 @@ export const C1_U25_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 9),
       type: 'multiple-choice',
-      question: 'I am ___ "[[sorry|lo siento]] for the "[[delay|retraso]].',
+      question: 'I am ___ [[sorry|lo siento]] for the [[delay|retraso]].',
       options: ['truly', 'real', 'much'],
       correctAnswer: 'truly',
       explanation: 'Sincere emphasis.',
@@ -406,7 +406,7 @@ export const C1_U25_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 10),
       type: 'multiple-choice',
-      question: 'It was ___ "[[luck|suerte]] that we "[[survived|sobrevivimos]].',
+      question: 'It was ___ [[luck|suerte]] that we [[survived|sobrevivimos]].',
       options: ['total', 'pure', 'only'],
       correctAnswer: 'pure',
       explanation: 'Emphatic adjective.',
@@ -423,7 +423,7 @@ export const C1_U25_BLOCK5: Exercise = {
   type: 'grammar',
   title: 'Key Word Transformation: Emphasis',
   grammarPoint: 'Mixed Review',
-  explanation: 'Rewrite the "[[sentence|oración]] to make it more "[[emphatic|enfática]].',
+  explanation: 'Rewrite the [[sentence|oración]] to make it more [[emphatic|enfática]].',
   questions: [
     {
       id: genId(UNIT_ID, 'b5', 1),

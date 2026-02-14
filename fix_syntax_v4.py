@@ -1,45 +1,45 @@
 import re
+import os
 
-def fix_a1_questions(file_path):
-    with open(file_path, 'r') as f:
-        content = f.read()
+def fix_line(line):
+    # Rule 1 & 2: Remove quotes between ]] and [[ or around words if internal
+    # Using [a-zA-Z0-9\]_] to ensure we're not at the start/end of a value
+    # We also include space to handle "word " "[[translation]]"
+    line = re.sub(r'([a-zA-Z0-9\]_])\s*"\s*\[\[', r'\1 [[', line)
+    line = re.sub(r'\]\]\s*"\s*([a-zA-Z0-9\[_])', r']] \1', line)
     
-    # Fix "question": "[[...]]", ________.", -> "question": "[[...]], ________.",
-    content = re.sub(r'("question":\s*)"(\[\[.*?\]\])",\s*(.*?)"', r'\1"\2, \3"', content)
+    # Rule 3 & 4: Handle comma/period between blocks inside a single string
+    # We exclude lines that are part of a list (options, words, choices)
+    if not any(x in line for x in ['"options"', '"words"', '"choices"']):
+        # ]] ", " [[ -> ]], [[
+        line = re.sub(r'\]\]\s*"\s*,\s*"\s*\[\[', r']], [[', line)
+        # ]]. ", " [[ -> ]]. [[
+        line = re.sub(r'\]\]\s*\.\s*"\s*,\s*"\s*\[\[', r']]. [[', line)
     
-    # Also handle cases with other punctuation
-    content = re.sub(r'("question":\s*)"(\[\[.*?\]\])"\.\s*(.*?)"', r'\1"\2. \3"', content)
+    return line
 
-    with open(file_path, 'w') as f:
-        f.write(content)
-
-fix_a1_questions('src/lib/course/a1/unit-1.ts')
-
-# Fix C1 units that were mentioned in build error
-c1_files = [
-    'src/lib/c1-units/unit-7.ts',
-    'src/lib/c1-units/unit-12.ts',
-    'src/lib/c1-units/unit-16.ts',
-    'src/lib/c1-units/unit-28.ts'
-]
-
-def fix_c1_escaping(file_path):
-    with open(file_path, 'r') as f:
-        content = f.read()
+def main():
+    base_dirs = [
+        'src/lib/course/a1',
+        'src/lib/course/b1',
+        'src/lib/course/b2'
+    ]
     
-    # Fix 'can\'', 'can\'t have' issue
-    # The error showed 'can\', which means someone wrote 'can\'t' inside '...'
-    # If using single quotes, ' must be escaped as \'
-    # If the build error says 'can\', it might be because of double escaping or missing quote
-    
-    # Let's replace 'can\', with 'can\'t', or similar
-    content = content.replace("'can\\',", "'can\\'t',")
-    content = content.replace("'don\\',", "'don\\'t',")
-    content = content.replace("'mustn\\',", "'mustn\\'t',")
-    content = content.replace("'he can\\',", "'he can\\'t',")
+    for base_dir in base_dirs:
+        if not os.path.exists(base_dir):
+            continue
+        for filename in os.listdir(base_dir):
+            if filename.endswith('.ts'):
+                path = os.path.join(base_dir, filename)
+                with open(path, 'r', encoding='utf-8') as f:
+                    lines = f.readlines()
+                
+                new_lines = [fix_line(line) for line in lines]
+                
+                if new_lines != lines:
+                    with open(path, 'w', encoding='utf-8') as f:
+                        f.writelines(new_lines)
+                    print(f"Updated {path}")
 
-    with open(file_path, 'w') as f:
-        f.write(content)
-
-for f_path in c1_files:
-    fix_c1_escaping(f_path)
+if __name__ == "__main__":
+    main()

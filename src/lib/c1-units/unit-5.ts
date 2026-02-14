@@ -11,18 +11,18 @@ export const C1_U5_BLOCK1: Exercise = {
   type: 'grammar',
   title: 'Passive Reporting Verbs',
   grammarPoint: 'Impersonal Passive',
-  explanation: 'Use structures like "It is said that..." or "He is thought to be..." for "[[objective|objetivo]] reporting.',
+  explanation: 'Use structures like "It is said that..." or "He is thought to be..." for [[objective|objetivo]] reporting.',
   questions: Array.from({ length: 10 }, (_, i) => ({
     id: genId(UNIT_ID, 'b1', i + 1),
     type: 'multiple-choice',
     question: [
       'It is ___ that the company is facing financial difficulties.',
       'He is ___ to be hiding somewhere in the city.',
-      'The "[[protesters|manifestantes]] are ___ to have blocked the main road.',
-      'It is ___ that the new law will be "[[passed|aprobada]] next month.',
-      'The painting is ___ to be a "[[fake|falsificación]].',
+      'The [[protesters|manifestantes]] are ___ to have blocked the main road.',
+      'It is ___ that the new law will be [[passed|aprobada]] next month.',
+      'The painting is ___ to be a [[fake|falsificación]].',
       'She is ___ to be planning a comeback.',
-      'It was ___ that the medicine had "[[harmful|dañinos]] side effects.',
+      'It was ___ that the medicine had [[harmful|dañinos]] side effects.',
       'They are ___ to have reached an agreement.',
       'He is ___ to be the richest man in the country.',
       'It is ___ that the project will cost millions.'
@@ -70,13 +70,13 @@ export const C1_U5_BLOCK2: Exercise = {
     question: [
       'We need to have the roof ___ before winter.',
       'I got my hair ___ at the new salon.',
-      'The CEO had his speech ___ by a professional "[[ghostwriter|escritor fantasma]].',
-      'She had her "[[passport|pasaporte]] ___ yesterday.',
+      'The CEO had his speech ___ by a professional [[ghostwriter|escritor fantasma]].',
+      'She had her [[passport|pasaporte]] ___ yesterday.',
       'We finally got the kitchen ___ after months of waiting.',
       'He needs to have his car ___ as soon as possible.',
       'I\'ll have the documents ___ to your office by noon.',
       'They had their house ___ while they were on holiday.',
-      'We got the "[[leak|fuga]] ___ by a plumber.',
+      'We got the [[leak|fuga]] ___ by a plumber.',
       'She had her teeth ___ last week.'
     ][i],
     options: [
@@ -115,21 +115,21 @@ export const C1_U5_BLOCK3: Exercise = {
   id: `c1-u${UNIT_ID}-b3`,
   type: 'vocabulary',
   title: 'Reports & Statements',
-  explanation: 'Vocabulary for "[[formal|formales]] announcements and reporting.',
+  explanation: 'Vocabulary for [[formal|formales]] announcements and reporting.',
   questions: Array.from({ length: 10 }, (_, i) => ({
     id: genId(UNIT_ID, 'b3', i + 1),
     type: 'multiple-choice',
     question: [
-      'The "[[spokesperson|portavoz]] issued a formal ___ regarding the incident.',
+      'The [[spokesperson|portavoz]] issued a formal ___ regarding the incident.',
       'The government has ___ a new initiative to combat crime.',
-      'There is no "[[evidence|evidencia]] to ___ his claims.',
+      'There is no [[evidence|evidencia]] to ___ his claims.',
       'The report ___ the need for urgent action.',
-      'He ___ any "[[involvement|implicación]] in the scandal.',
+      'He ___ any [[involvement|implicación]] in the scandal.',
       'The committee will ___ a decision by Friday.',
       'The witness ___ having seen the suspect.',
       'The company released a ___ explaining the delay.',
       'The researchers ___ their findings in a prestigious journal.',
-      'She ___ the importance of "[[teamwork|trabajo en equipo]].'
+      'She ___ the importance of [[teamwork|trabajo en equipo]].'
     ][i],
     options: [
       ['remark', 'opinion', 'statement'],
@@ -167,7 +167,7 @@ export const C1_U5_BLOCK4: Exercise = {
   id: `c1-u${UNIT_ID}-b4`,
   type: 'key-word-transformation',
   title: 'Passive Transformation',
-  explanation: 'Rewrite the sentence using the "[[key word|palabra clave]].',
+  explanation: 'Rewrite the sentence using the [[key word|palabra clave]].',
   questions: Array.from({ length: 10 }, (_, i) => ({
     id: genId(UNIT_ID, 'b4', i + 1),
     type: 'key-word-transformation',
@@ -231,7 +231,7 @@ export const C1_U5_BLOCK5: Exercise = {
   id: `c1-u${UNIT_ID}-b5`,
   type: 'grammar',
   title: 'Passive & Impersonal Review',
-  explanation: 'Final check of Unit 5 "[[concepts|conceptos]].',
+  explanation: 'Final check of Unit 5 [[concepts|conceptos]].',
   questions: Array.from({ length: 10 }, (_, i) => ({
     id: genId(UNIT_ID, 'b5', i + 1),
     type: 'multiple-choice',
@@ -239,7 +239,7 @@ export const C1_U5_BLOCK5: Exercise = {
       'The suspect is ___ to be hiding in London.',
       'We had the garden ___ by a landscaper.',
       'It is widely ___ that the economy is recovering.',
-      'He got his "[[wallet|billetera]] ___ on the train.',
+      'He got his [[wallet|billetera]] ___ on the train.',
       'The results are expected ___ published tomorrow.',
       'She had her book ___ by a top publisher.',
       'It was ___ that the company was bankrupt.',

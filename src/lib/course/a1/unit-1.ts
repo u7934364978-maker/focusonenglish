@@ -9,7 +9,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[Common|Comunes]] "[[Greetings|Saludos]]", "instructions": "[[Choose|Elige]] "[[the|el]] "[[correct|saludo]] "[[greeting|correcto]] "[[for|para]] "[[the|la]] "[[morning|mañana]].",
+      "title": "[[Common|Comunes]] [[Greetings|Saludos]]", "instructions": "[[Choose|Elige]] [[the|el]] [[correct|saludo]] [[greeting|correcto]] [[for|para]] [[the|la]] [[morning|mañana]].",
       "questions": [
         {
           "id": "q1",
@@ -26,7 +26,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
             }
           ],
           "correctAnswer": 1,
-          "explanation": "\"[[Good morning|Buenos días]]\" se usa desde el amanecer hasta el mediodía."
+          "explanation": "\[[Good morning|Buenos días]]\ se usa desde el amanecer hasta el mediodía."
         }
       ]
     }
@@ -39,14 +39,14 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[Translating|Traducción]] "[[Hello|de Hola]]", "instructions": "[[How|Cómo]] "[[do|se]] "[[you|dice]] "[[say| ]] \"[[Hello|Hola\]\]\" "[[in|en]] "[[English|inglés]]?",
+      "title": "[[Translating|Traducción]] [[Hello|de Hola]]", "instructions": "[[How|Cómo]] [[do|se]] [[you|dice]] [[say| ]] \[[Hello|Hola\]\]\ [[in|en]] [[English|inglés]]?",
       "questions": [
         {
           "id": "q1",
           "question": "Hola:",
           "options": [
             {
-              "text": "[[Hello|Hola]] / "[[Hi|Hola]]", "audio": "/audio/course/a1/unit-1/a1-u1-e2-item0-example-c5c8fb4d.mp3"
+              "text": "[[Hello|Hola]] / [[Hi|Hola]]", "audio": "/audio/course/a1/unit-1/a1-u1-e2-item0-example-c5c8fb4d.mp3"
             },
             {
               "text": "[[Goodbye|Adiós]]", "audio": "/audio/course/a1/unit-1/a1-u1-e8-q0-opt1-6fc42223.mp3"
@@ -56,7 +56,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
             }
           ],
           "correctAnswer": 0,
-          "explanation": "\"[[Hello|Hola]]\" es formal y \"[[Hi|Hola]]\" es más informal."
+          "explanation": "\[[Hello|Hola]]\ es formal y \[[Hi|Hola]]\ es más informal."
         }
       ]
     }
@@ -69,8 +69,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[I|Yo]] "[[am|soy]]...",
-      "instructions": "[[Put|Ordena]] "[[the|las]] "[[words|palabras]] "[[to|para]] "[[translate|traducir]] \"[[I|Yo]] "[[am|soy]] "[[Juan|Juan]]\".",
+      "title": "[[I|Yo]] [[am|soy]]...",
+      "instructions": "[[Put|Ordena]] [[the|las]] [[words|palabras]] [[to|para]] [[translate|traducir]] \[[I|Yo]] [[am|soy]] [[Juan|Juan]]\.",
       "sentences": [
         {
           "id": "s1",
@@ -78,10 +78,10 @@ export const UNIT_1_EXERCISES: Exercise[] = [
             "[[Juan|Juan]].",
             "[[I|Yo]]", "[[am|soy]]"
           ],
-          "correctSentence": "[[I|Yo]] "[[am|soy]] "[[Juan|Juan]].",
+          "correctSentence": "[[I|Yo]] [[am|soy]] [[Juan|Juan]].",
           "translation": "Yo soy Juan.",
-          "hint": "Empieza con el pronombre \"[[I|Yo]]\".",
-          "explanation": "En inglés, el pronombre \"[[I|Yo]]\" siempre se escribe en mayúscula y va seguido de \"[[am|soy]]\" para presentaciones.",
+          "hint": "Empieza con el pronombre \[[I|Yo]]\.",
+          "explanation": "En inglés, el pronombre \[[I|Yo]]\ siempre se escribe en mayúscula y va seguido de \[[am|soy]]\ para presentaciones.",
           "points": 10,
           "audio": "/audio/course/a1/unit-1/a1-u1-e3-s0-424cf2a2.mp3"
         }
@@ -96,11 +96,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[Meeting|Conocer]] "[[People|gente]]", "instructions": "[[What|Cuál]] "[[is|es]] "[[the|la]] "[[most|más]] "[[common|común]] "[[response|respuesta]] "[[to|a]] \"[[Nice to meet you|Mucho gusto]]\"?",
+      "title": "[[Meeting|Conocer]] [[People|gente]]", "instructions": "[[What|Cuál]] [[is|es]] [[the|la]] [[most|más]] [[common|común]] [[response|respuesta]] [[to|a]] \[[Nice to meet you|Mucho gusto]]\?",
       "questions": [
         {
           "id": "q1",
-          "question": "Persona A: "[[Nice to meet you|Mucho gusto]]. \nPersona B: ___________",
+          "question": "Persona A: [[Nice to meet you|Mucho gusto]]. \nPersona B: ___________",
           "options": [
             {
               "text": "[[Nice to meet you too|Mucho gusto también]]", "audio": "/audio/course/a1/unit-1/a1-u1-e4-q0-opt0-76f54bd4.mp3"
@@ -113,7 +113,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
             }
           ],
           "correctAnswer": 0,
-          "explanation": "Añadir \"[[too|también]]\" al final es la forma estándar de responder \"igualmente\"."
+          "explanation": "Añadir \[[too|también]]\ al final es la forma estándar de responder \igualmente\."
         }
       ]
     }
@@ -126,13 +126,13 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Pronunciación: "[[Hello|Hola]]", "instructions": "[[Say|Di]] \"[[Hello|Hola\]\]\" "[[clearly|claramente]] "[[into|por]] "[[the|el]] "[[microphone|micrófono]].",
+      "title": "Pronunciación: [[Hello|Hola]]", "instructions": "[[Say|Di]] \[[Hello|Hola\]\]\ [[clearly|claramente]] [[into|por]] [[the|el]] [[microphone|micrófono]].",
       "questions": [
         {
           "id": "q1",
           "text": "[[Hello|Hola\]\]",
           "correctAnswer": "Hello",
-          "explanation": "La \"[[H|Hache]]\" en inglés suena como un suspiro suave, no es muda como en español.",
+          "explanation": "La \[[H|Hache]]\ en inglés suena como un suspiro suave, no es muda como en español.",
           "modelAudio": "/audio/course/a1/unit-1/a1-u1-e5-q0-model-8b1a9953.mp3"
         }
       ]
@@ -146,7 +146,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[Greeting|Saludos]] "[[Pairs|Parejas]]", "instructions": "[[Match|Une]] "[[the|el]] "[[Spanish|español]] "[[greeting|saludo]] "[[with|con]] "[[its|su]] "[[English|inglés]] "[[translation|traducción]].",
+      "title": "[[Greeting|Saludos]] [[Pairs|Parejas]]", "instructions": "[[Match|Une]] [[the|el]] [[Spanish|español]] [[greeting|saludo]] [[with|con]] [[its|su]] [[English|inglés]] [[translation|traducción]].",
       "pairs": [
         {
           "id": "1",
@@ -175,7 +175,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
           "right": "[[Goodbye|Adiós]]", "audio": "/audio/course/a1/unit-1/a1-u1-e6-pair4-right-6fc42223.mp3"
         }
       ],
-      "explanation": "Utilizamos \"[[Good morning|Buenos días]]\" hasta las 12 PM, \"[[Good afternoon|Buenas tardes]]\" hasta las 6 PM y \"[[Good evening|Buenas noches]]\" para saludar por la noche."
+      "explanation": "Utilizamos \[[Good morning|Buenos días]]\ hasta las 12 PM, \[[Good afternoon|Buenas tardes]]\ hasta las 6 PM y \[[Good evening|Buenas noches]]\ para saludar por la noche."
     }
   },
   {
@@ -186,13 +186,13 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[Personal|Personal]] "[[Introduction|Presentación]]", "instructions": "[[Fill|Completa]] "[[the|el]] "[[gap|espacio]] "[[with|con]] "[[the|el]] "[[correct|correcto]] "[[verb|verbo]].",
+      "title": "[[Personal|Personal]] [[Introduction|Presentación]]", "instructions": "[[Fill|Completa]] [[the|el]] [[gap|espacio]] [[with|con]] [[the|el]] [[correct|correcto]] [[verb|verbo]].",
       "questions": [
         {
           "id": "q1",
-          "text": "[[I|Yo]] ___ "[[a student|un estudiante]].",
+          "text": "[[I|Yo]] ___ [[a student|un estudiante]].",
           "correctAnswer": "am",
-          "explanation": "El verbo \"[[to be|ser/estar]]\" para el pronombre \"[[I|Yo]]\" siempre es \"[[am|soy/estoy]]\".",
+          "explanation": "El verbo \[[to be|ser/estar]]\ para el pronombre \[[I|Yo]]\ siempre es \[[am|soy/estoy]]\.",
           "audio": "/audio/course/a1/unit-1/a1-u1-e7-q0-ans-c04cd38a.mp3",
           "fullAudio": "/audio/course/a1/unit-1/a1-u1-e7-q0-full-2f1f75e8.mp3"
         }
@@ -207,7 +207,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[Goodbyes|Despedidas]]", "instructions": "[[Choose|Elige]] "[[the|la]] "[[correct|correcta]] "[[way|forma]] "[[to|de]] "[[say|decir]] "[[goodbye|adiós]].",
+      "title": "[[Goodbyes|Despedidas]]", "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[way|forma]] [[to|de]] [[say|decir]] [[goodbye|adiós]].",
       "questions": [
         {
           "id": "q1",
@@ -224,7 +224,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
             }
           ],
           "correctAnswer": 1,
-          "explanation": "\"[[Goodbye|Adiós]]\" es la forma estándar de despedirse."
+          "explanation": "\[[Goodbye|Adiós]]\ es la forma estándar de despedirse."
         }
       ]
     }
@@ -237,18 +237,18 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[What|Cuál]] "[[is|es]] "[[your|tu]] "[[name|nombre]]?",
-      "instructions": "[[Put|Ordena]] "[[the|las]] "[[words|palabras]] "[[to|para]] "[[ask|preguntar]] "[[the|el]] "[[name|nombre]].",
+      "title": "[[What|Cuál]] [[is|es]] [[your|tu]] [[name|nombre]]?",
+      "instructions": "[[Put|Ordena]] [[the|las]] [[words|palabras]] [[to|para]] [[ask|preguntar]] [[the|el]] [[name|nombre]].",
       "sentences": [
         {
           "id": "s1",
           "words": [
             "[[What's|Cual es]]", "[[your|tu]]", "[[name|nombre]]?"
           ],
-          "correctSentence": "[[What's|Cual es]] "[[your|tu]] "[[name|nombre]]?",
+          "correctSentence": "[[What's|Cual es]] [[your|tu]] [[name|nombre]]?",
           "translation": "¿Cuál es tu nombre?",
-          "hint": "Empieza con \"[[What's|Cual es]]\".",
-          "explanation": "\"[[What's|Cual es]]\" es la contracción de \"[[What is|Cual es]]\".",
+          "hint": "Empieza con \[[What's|Cual es]]\.",
+          "explanation": "\[[What's|Cual es]]\ es la contracción de \[[What is|Cual es]]\.",
           "points": 10,
           "audio": "/audio/course/a1/unit-1/a1-u1-e9-item0-example-1a56f2aa.mp3"
         }
@@ -263,17 +263,17 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[Good|Buenas]] "[[afternoon|tardes]]", "instructions": "[[Put|Ordena]] "[[the|las]] "[[words|palabras]] "[[to|para]] "[[translate|traducir]] \"[[Good|Buenas]] "[[afternoon|tardes]]\".",
+      "title": "[[Good|Buenas]] [[afternoon|tardes]]", "instructions": "[[Put|Ordena]] [[the|las]] [[words|palabras]] [[to|para]] [[translate|traducir]] \[[Good|Buenas]] [[afternoon|tardes]]\.",
       "sentences": [
         {
           "id": "s1",
           "words": [
             "[[Good|Buenas]]", "[[afternoon|tardes]]!"
           ],
-          "correctSentence": "[[Good|Buenas]] "[[afternoon|tardes]]!",
+          "correctSentence": "[[Good|Buenas]] [[afternoon|tardes]]!",
           "translation": "Buenas tardes.",
-          "hint": "El adjetivo \"[[Good|Buenas]]\" va primero.",
-          "explanation": "En inglés, el adjetivo descriptivo (como "[[Good|Buenas]]) suele preceder al sustantivo ("[[afternoon|tardes]]).",
+          "hint": "El adjetivo \[[Good|Buenas]]\ va primero.",
+          "explanation": "En inglés, el adjetivo descriptivo (como [[Good|Buenas]]) suele preceder al sustantivo ([[afternoon|tardes]]).",
           "points": 10,
           "audio": "/audio/course/a1/unit-1/a1-u1-e10-s0-afd7cf03.mp3"
         }
@@ -288,11 +288,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[Personal|Personal]] "[[Information|Información]]", "instructions": "[[Choose|Elige]] "[[the|el]] "[[correct|correcto]] "[[pronoun|pronombre]] "[[for|para]] "[[yourself|ti mismo]].",
+      "title": "[[Personal|Personal]] [[Information|Información]]", "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[pronoun|pronombre]] [[for|para]] [[yourself|ti mismo]].",
       "questions": [
         {
           "id": "q1",
-          "question": "¿Cómo se dice \"Yo\" en inglés?",
+          "question": "¿Cómo se dice \Yo\ en inglés?",
           "options": [
             {
               "text": "[[You|Tú]]", "audio": "/audio/course/a1/unit-1/a1-u1-e11-q0-opt0-cae8d14e.mp3"
@@ -305,7 +305,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
             }
           ],
           "correctAnswer": 1,
-          "explanation": "El pronombre \"[[I|Yo]]\" siempre debe ir en mayúsculas en inglés."
+          "explanation": "El pronombre \[[I|Yo]]\ siempre debe ir en mayúsculas en inglés."
         }
       ]
     }
@@ -318,12 +318,12 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Pronunciación: "[[I am|Yo soy]]", "instructions": "[[Say|Di]] \"[[I|Yo]] "[[am|soy]]\" "[[followed|seguido]] "[[by|de]] "[[your|tu]] "[[name|nombre]].",
+      "title": "Pronunciación: [[I am|Yo soy]]", "instructions": "[[Say|Di]] \[[I|Yo]] [[am|soy]]\ [[followed|seguido]] [[by|de]] [[your|tu]] [[name|nombre]].",
       "questions": [
         {
           "id": "q1",
           "text": "[[I am|Yo soy]]", "correctAnswer": "I am",
-          "explanation": "Pronuncia la \"[[I|Yo]]\" como \"[[ai|ai]]\" y la \"[[am|soy]]\" cerrando ligeramente los labios al final.",
+          "explanation": "Pronuncia la \[[I|Yo]]\ como \[[ai|ai]]\ y la \[[am|soy]]\ cerrando ligeramente los labios al final.",
           "modelAudio": "/audio/course/a1/unit-1/a1-u1-e12-q0-model-ac1be00f.mp3"
         }
       ]
@@ -337,7 +337,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[Name|Nombre]] "[[and|y]] "[[I|yo]]", "instructions": "[[Match|Une]] "[[the|las]] "[[words|palabras]] "[[with|con]] "[[their|su]] "[[translation|traducción]].",
+      "title": "[[Name|Nombre]] [[and|y]] [[I|yo]]", "instructions": "[[Match|Une]] [[the|las]] [[words|palabras]] [[with|con]] [[their|su]] [[translation|traducción]].",
       "pairs": [
         {
           "id": "1",
@@ -376,13 +376,13 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[Fine|Bien]]", "[[thanks|gracias]]", "instructions": "[[Complete|Completa]] "[[the|la]] "[[response|respuesta]] "[[to|a]] \"[[How|Cómo]] "[[are|estás]] "[[you?|?]]\".",
+      "title": "[[Fine|Bien]], [[thanks|gracias]]", "instructions": "[[Complete|Completa]] [[the|la]] [[response|respuesta]] [[to|a]] \[[How|Cómo]] [[are|estás]] [[you?|?]]\.",
       "questions": [
         {
           "id": "q1",
-          "text": "[[I am|Yo estoy]] ___, "[[thanks|gracias]].",
+          "text": "[[I am|Yo estoy]] ___, [[thanks|gracias]].",
           "correctAnswer": "fine",
-          "explanation": "\"[[Fine|Bien]]\" es una de las respuestas más comunes para indicar que estás bien.",
+          "explanation": "\[[Fine|Bien]]\ es una de las respuestas más comunes para indicar que estás bien.",
           "audio": "/audio/course/a1/unit-1/a1-u1-e14-q0-ans-fff25994.mp3",
           "fullAudio": "/audio/course/a1/unit-1/a1-u1-e14-q0-full-93bd30ad.mp3"
         }
@@ -397,7 +397,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[Evening|Nocturno]] "[[Greeting|Saludo]]", "instructions": "[[Which|Cuál]] "[[is|es]] "[[an|un]] "[[evening|nocturno]] "[[greeting?|saludo?]]", "questions": [
+      "title": "[[Evening|Nocturno]] [[Greeting|Saludo]]", "instructions": "[[Which|Cuál]] [[is|es]] [[an|un]] [[evening|nocturno]] [[greeting?|saludo?]]", "questions": [
         {
           "id": "q1",
           "question": "Cuando llegas a una fiesta a las 9:00 PM:",
@@ -413,7 +413,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
             }
           ],
           "correctAnswer": 1,
-          "explanation": "\"[[Good evening|Buenas noches]]\" es para saludar por la noche. \"[[Good night|Buenas noches]]\" es solo para despedirse."
+          "explanation": "\[[Good evening|Buenas noches]]\ es para saludar por la noche. \[[Good night|Buenas noches]]\ es solo para despedirse."
         }
       ]
     }
@@ -426,14 +426,14 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[How|Cómo]] "[[are|estás]] "[[you|tú]]?",
-      "instructions": "[[Complete|Completa]] "[[the|la]] "[[question|pregunta]] "[[to|para]] "[[know|saber]] "[[how|cómo]] "[[someone|alguien]] "[[is|está]].",
+      "title": "[[How|Cómo]] [[are|estás]] [[you|tú]]?",
+      "instructions": "[[Complete|Completa]] [[the|la]] [[question|pregunta]] [[to|para]] [[know|saber]] [[how|cómo]] [[someone|alguien]] [[is|está]].",
       "questions": [
         {
           "id": "q1",
-          "text": "[[How|Cómo]] ___ "[[you|tú]]?",
+          "text": "[[How|Cómo]] ___ [[you|tú]]?",
           "correctAnswer": "are",
-          "explanation": "La frase \"[[How are you?|¿Cómo estás?]]\" es la forma estándar de preguntar por el bienestar de alguien.",
+          "explanation": "La frase \[[How are you?|¿Cómo estás?]]\ es la forma estándar de preguntar por el bienestar de alguien.",
           "audio": "/audio/course/a1/unit-1/a1-u1-e16-item0-example-493f0812.mp3",
           "fullAudio": "/audio/course/a1/unit-1/a1-u1-e16-item0-example-493f0812.mp3"
         }
@@ -448,18 +448,18 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[My|Mi]] "[[name|nombre]] "[[is|es]]...",
-      "instructions": "[[Put|Ordena]] "[[the|las]] "[[words|palabras]] "[[to|para]] "[[translate|traducir]] \"[[My|Mi]] "[[name|nombre]] "[[is|es]] "[[Maria|Maria]]\".",
+      "title": "[[My|Mi]] [[name|nombre]] [[is|es]]...",
+      "instructions": "[[Put|Ordena]] [[the|las]] [[words|palabras]] [[to|para]] [[translate|traducir]] \[[My|Mi]] [[name|nombre]] [[is|es]] [[Maria|Maria]]\.",
       "sentences": [
         {
           "id": "s1",
           "words": [
             "[[My|Mi]]", "[[name|nombre]]", "[[is|es]]", "[[Maria|Maria]]."
           ],
-          "correctSentence": "[[My|Mi]] "[[name|nombre]] "[[is|es]] "[[Maria|Maria]].",
+          "correctSentence": "[[My|Mi]] [[name|nombre]] [[is|es]] [[Maria|Maria]].",
           "translation": "Mi nombre es Maria.",
-          "hint": "Empieza con \"[[My name|Mi nombre]]\".",
-          "explanation": "Usamos \"[[My name is...|Mi nombre es...]]\" para presentarnos de forma clara.",
+          "hint": "Empieza con \[[My name|Mi nombre]]\.",
+          "explanation": "Usamos \[[My name is...|Mi nombre es...]]\ para presentarnos de forma clara.",
           "points": 10,
           "audio": "/audio/course/a1/unit-1/a1-u1-e17-s0-29283eeb.mp3"
         }
@@ -474,7 +474,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[Informal|Informal]] "[[Goodbye|Despedida]]", "instructions": "[[Choose|Elige]] "[[an|una]] "[[informal|informal]] "[[way|forma]] "[[to|de]] "[[say|decir]] "[[goodbye|adiós]].",
+      "title": "[[Informal|Informal]] [[Goodbye|Despedida]]", "instructions": "[[Choose|Elige]] [[an|una]] [[informal|informal]] [[way|forma]] [[to|de]] [[say|decir]] [[goodbye|adiós]].",
       "questions": [
         {
           "id": "q1",
@@ -491,7 +491,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
             }
           ],
           "correctAnswer": 0,
-          "explanation": "\"[[See you later|Nos vemos luego]]\" significa \"Nos vemos luego\" y es muy común entre amigos."
+          "explanation": "\[[See you later|Nos vemos luego]]\ significa \Nos vemos luego\ y es muy común entre amigos."
         }
       ]
     }
@@ -504,12 +504,12 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Pronunciación: "[[Nice to meet you|Mucho gusto]]", "instructions": "[[Say|Di]] \"[[Nice to meet you|Mucho gusto]]\".",
+      "title": "Pronunciación: [[Nice to meet you|Mucho gusto]]", "instructions": "[[Say|Di]] \[[Nice to meet you|Mucho gusto]]\.",
       "questions": [
         {
           "id": "q1",
           "text": "[[Nice to meet you|Mucho gusto]]", "correctAnswer": "Nice to meet you",
-          "explanation": "La frase suena casi como una sola palabra larga: "[[nais-tu-mit-chu|nais-tu-mit-chu]].",
+          "explanation": "La frase suena casi como una sola palabra larga: [[nais-tu-mit-chu|nais-tu-mit-chu]].",
           "modelAudio": "/audio/course/a1/unit-1/a1-u1-e19-q0-model-7f512576.mp3"
         }
       ]
@@ -523,7 +523,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[Basic|Básicas]] "[[Responses|Respuestas]]", "instructions": "[[Match|Une]] "[[the|la]] "[[question|pregunta]] "[[with|con]] "[[its|su]] "[[logical|lógica]] "[[response|respuesta]].",
+      "title": "[[Basic|Básicas]] [[Responses|Respuestas]]", "instructions": "[[Match|Une]] [[the|la]] [[question|pregunta]] [[with|con]] [[its|su]] [[logical|lógica]] [[response|respuesta]].",
       "pairs": [
         {
           "id": "1",
@@ -557,7 +557,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[Informal|Informal]] "[[Hello|Hola]]", "instructions": "[[What|Cuál]] "[[is|es]] "[[a|una]] "[[short|corta]] "[[and|e]] "[[informal|informal]] "[[way|forma]] "[[to|de]] "[[say|decir]] \"[[Hello|Hola\]\]\"?",
+      "title": "[[Informal|Informal]] [[Hello|Hola]]", "instructions": "[[What|Cuál]] [[is|es]] [[a|una]] [[short|corta]] [[and|e]] [[informal|informal]] [[way|forma]] [[to|de]] [[say|decir]] \[[Hello|Hola\]\]\?",
       "questions": [
         {
           "id": "q1",
@@ -574,7 +574,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
             }
           ],
           "correctAnswer": 0,
-          "explanation": "\"[[Hi|Hola]]\" es perfectamente aceptable en casi cualquier situación informal."
+          "explanation": "\[[Hi|Hola]]\ es perfectamente aceptable en casi cualquier situación informal."
         }
       ]
     }
@@ -587,7 +587,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[Translating|Traducción]] "[[Nice to meet you|de Mucho Gusto]]", "instructions": "[[How|Cómo]] "[[do|se]] "[[you|dice]] "[[say| ]] \"[[Nice to meet you|Mucho gusto]]\"?",
+      "title": "[[Translating|Traducción]] [[Nice to meet you|de Mucho Gusto]]", "instructions": "[[How|Cómo]] [[do|se]] [[you|dice]] [[say| ]] \[[Nice to meet you|Mucho gusto]]\?",
       "questions": [
         {
           "id": "q1",
@@ -617,17 +617,17 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[How|Cómo]] "[[are|estás]] "[[you|tú]]", "instructions": "[[Put|Ordena]] "[[the|las]] "[[words|palabras]] "[[to|para]] "[[ask|preguntar]] \"[[How|Cómo]] "[[are|estás]] "[[you?|?]]\".",
+      "title": "[[How|Cómo]] [[are|estás]] [[you|tú]]", "instructions": "[[Put|Ordena]] [[the|las]] [[words|palabras]] [[to|para]] [[ask|preguntar]] \[[How|Cómo]] [[are|estás]] [[you?|?]]\.",
       "sentences": [
         {
           "id": "s1",
           "words": [
             "[[How|Cómo]]", "[[are|estás]]", "[[you|tú]]?"
           ],
-          "correctSentence": "[[How|Cómo]] "[[are|estás]] "[[you|tú]]?",
+          "correctSentence": "[[How|Cómo]] [[are|estás]] [[you|tú]]?",
           "translation": "¿Cómo estás?",
-          "hint": "Empieza con la palabra de pregunta \"[[How|Cómo]]\".",
-          "explanation": "En las preguntas, el verbo ("[[are|estás]]) suele ir antes que el sujeto ("[[you|tú]]).",
+          "hint": "Empieza con la palabra de pregunta \[[How|Cómo]]\.",
+          "explanation": "En las preguntas, el verbo ([[are|estás]]) suele ir antes que el sujeto ([[you|tú]]).",
           "points": 10,
           "audio": "/audio/course/a1/unit-1/a1-u1-e23-s0-04e35eb3.mp3"
         }
@@ -642,10 +642,10 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[Common|Comunes]] "[[Abbreviations|Abreviaturas]]", "instructions": "[[What|Qué]] "[[does|significa]] \"[[I'm|Yo soy/estoy]]\" "[[mean?|?]]", "questions": [
+      "title": "[[Common|Comunes]] [[Abbreviations|Abreviaturas]]", "instructions": "[[What|Qué]] [[does|significa]] \[[I'm|Yo soy/estoy]]\ [[mean?|?]]", "questions": [
         {
           "id": "q1",
-          "question": "\"[[I'm|Yo soy/estoy]]\" es la contracción de:",
+          "question": "\[[I'm|Yo soy/estoy]]\ es la contracción de:",
           "options": [
             {
               "text": "[[I am|Yo soy/estoy]]", "audio": "/audio/course/a1/unit-1/a1-u1-e24-q0-opt0-ac1be00f.mp3"
@@ -671,12 +671,12 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Pronunciación: "[[Hi|Hola]]", "instructions": "[[Say|Di]] \"[[Hi|Hola]]\" "[[clearly|claramente]].",
+      "title": "Pronunciación: [[Hi|Hola]]", "instructions": "[[Say|Di]] \[[Hi|Hola]]\ [[clearly|claramente]].",
       "questions": [
         {
           "id": "q1",
           "text": "[[Hi|Hola]]", "correctAnswer": "Hi",
-          "explanation": "La \"[[i|i]]\" suena como el diptongo \"[[ai|ai]]\".",
+          "explanation": "La \[[i|i]]\ suena como el diptongo \[[ai|ai]]\.",
           "modelAudio": "/audio/course/a1/unit-1/a1-u1-e25-q0-model-c1a5298f.mp3"
         }
       ]
@@ -690,7 +690,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[Pronouns|Pronombres]] "[[and|y]] "[[Verbs|Verbos]]", "instructions": "[[Match|Une]] "[[the|el]] "[[pronoun|pronombre]] "[[with|con]] "[[the|el]] "[[corresponding|correspondiente]] "[[verb|verbo]] "[[to| ]] "[[be|ser]].",
+      "title": "[[Pronouns|Pronombres]] [[and|y]] [[Verbs|Verbos]]", "instructions": "[[Match|Une]] [[the|el]] [[pronoun|pronombre]] [[with|con]] [[the|el]] [[corresponding|correspondiente]] [[verb|verbo]] [[to| ]] [[be|ser]].",
       "pairs": [
         {
           "id": "1",
@@ -713,7 +713,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
           "left": "[[They|Ellos]]", "right": "[[are|son/están]]", "audio": "/audio/course/a1/unit-1/a1-u1-e26-pair4-right-4015e9ce.mp3"
         }
       ],
-      "explanation": "El verbo \"[[to be|ser/estar]]\" cambia su forma dependiendo de la persona que realiza la acción."
+      "explanation": "El verbo \[[to be|ser/estar]]\ cambia su forma dependiendo de la persona que realiza la acción."
     }
   },
   {
@@ -724,13 +724,13 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[Morning|Matutino]] "[[Greeting|Saludo]]", "instructions": "[[Complete|Completa]] "[[the|la]] "[[phrase|frase]] "[[to|para]] "[[greet|saludar]] "[[in|por]] "[[the|la]] "[[morning|mañana]].",
+      "title": "[[Morning|Matutino]] [[Greeting|Saludo]]", "instructions": "[[Complete|Completa]] [[the|la]] [[phrase|frase]] [[to|para]] [[greet|saludar]] [[in|por]] [[the|la]] [[morning|mañana]].",
       "questions": [
         {
           "id": "q1",
-          "text": "[[Good|Buenos/as]] ___ , "[[teacher|profesor]].",
+          "text": "[[Good|Buenos/as]] ___ , [[teacher|profesor]].",
           "correctAnswer": "morning",
-          "explanation": "Utilizamos \"[[morning|mañana]]\" para referirnos a cualquier momento antes del almuerzo.",
+          "explanation": "Utilizamos \[[morning|mañana]]\ para referirnos a cualquier momento antes del almuerzo.",
           "audio": "/audio/course/a1/unit-1/a1-u1-e27-q0-ans-c7c3169c.mp3",
           "fullAudio": "/audio/course/a1/unit-1/a1-u1-e27-q0-full-a561ce8a.mp3"
         }
@@ -745,7 +745,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[Names|Nombres]]", "instructions": "[[How|Cómo]] "[[do| ]] "[[you| ]] "[[ask|preguntas]] "[[someone's|el de alguien]] "[[name?|nombre?]]", "questions": [
+      "title": "[[Names|Nombres]]", "instructions": "[[How|Cómo]] [[do| ]] [[you| ]] [[ask|preguntas]] [[someone's|el de alguien]] [[name?|nombre?]]", "questions": [
         {
           "id": "q1",
           "question": "Preguntar el nombre:",
@@ -774,13 +774,13 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[See|Hasta]] "[[you|luego]] "[[later| ]]", "instructions": "[[Complete|Completa]] "[[the|la]] "[[phrase|frase]] "[[to|para]] "[[say|decir]] \"[[See|Hasta]] "[[you|luego]] "[[later| ]]\".",
+      "title": "[[See|Hasta]] [[you|luego]] [[later| ]]", "instructions": "[[Complete|Completa]] [[the|la]] [[phrase|frase]] [[to|para]] [[say|decir]] \[[See|Hasta]] [[you|luego]] [[later| ]]\.",
       "questions": [
         {
           "id": "q1",
-          "text": "[[See|Ver]] "[[you|te]] ___.",
+          "text": "[[See|Ver]] [[you|te]] ___.",
           "correctAnswer": "later",
-          "explanation": "\"[[Later|Más tarde]]\" significa luego o más tarde.",
+          "explanation": "\[[Later|Más tarde]]\ significa luego o más tarde.",
           "audio": "/audio/course/a1/unit-1/a1-u1-e29-item0-front-13849448.mp3",
           "fullAudio": "/audio/course/a1/unit-1/a1-u1-e29-item0-example-1e2e2c8c.mp3"
         }
@@ -795,17 +795,17 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[Good|Buenas]] "[[night|noches]]", "instructions": "[[Put|Ordena]] "[[the|las]] "[[words|palabras]] "[[to|para]] "[[say|despedirte]] "[[good|buenas]] "[[night|noches]].",
+      "title": "[[Good|Buenas]] [[night|noches]]", "instructions": "[[Put|Ordena]] [[the|las]] [[words|palabras]] [[to|para]] [[say|despedirte]] [[good|buenas]] [[night|noches]].",
       "sentences": [
         {
           "id": "s1",
           "words": [
             "[[Good|Buenas]]", "[[night|noches]]."
           ],
-          "correctSentence": "[[Good|Buenas]] "[[night|noches]].",
+          "correctSentence": "[[Good|Buenas]] [[night|noches]].",
           "translation": "Buenas noches (despedida).",
-          "hint": "Usa \"[[night|noches]]\" para despedirte.",
-          "explanation": "Recuerda: \"[[Good evening|Buenas noches (saludo)]]\" para llegar, \"[[Good night|Buenas noches (despedida)]]\" para irse.",
+          "hint": "Usa \[[night|noches]]\ para despedirte.",
+          "explanation": "Recuerda: \[[Good evening|Buenas noches (saludo)]]\ para llegar, \[[Good night|Buenas noches (despedida)]]\ para irse.",
           "points": 10,
           "audio": "/audio/course/a1/unit-1/a1-u1-e30-s0-c71bed73.mp3"
         }
@@ -820,11 +820,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[And|¿Y]] "[[you?|tú?]]", "instructions": "[[How|Cómo]] "[[do| ]] "[[you| ]] "[[return|devuelves]] "[[the|la]] "[[question|pregunta]] \"[[How|Cómo]] "[[are|estás]] "[[you?|?]]\"?",
+      "title": "[[And|¿Y]] [[you?|tú?]]", "instructions": "[[How|Cómo]] [[do| ]] [[you| ]] [[return|devuelves]] [[the|la]] [[question|pregunta]] \[[How|Cómo]] [[are|estás]] [[you?|?]]\?",
       "questions": [
         {
           "id": "q1",
-          "question": "Persona A: "[[How are you?|¿Cómo estás?]] \nPersona B: "[[I am fine|Estoy bien]], ________?",
+          "question": "Persona A: [[How are you?|¿Cómo estás?]] \nPersona B: [[I am fine|Estoy bien]], ________?",
           "options": [
             {
               "text": "[[and you|y tú]]", "audio": "/audio/course/a1/unit-1/a1-u1-e31-q0-opt0-a96e02a5.mp3"
@@ -837,7 +837,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
             }
           ],
           "correctAnswer": 0,
-          "explanation": "\"[[And you?|¿Y tú?]]\" es la forma más corta y natural de devolver la pregunta."
+          "explanation": "\[[And you?|¿Y tú?]]\ es la forma más corta y natural de devolver la pregunta."
         }
       ]
     }
@@ -850,12 +850,12 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Pronunciación: "[[Goodbye|Adiós]]", "instructions": "[[Say|Di]] \"[[Goodbye|Adiós]]\" "[[clearly|claramente]].",
+      "title": "Pronunciación: [[Goodbye|Adiós]]", "instructions": "[[Say|Di]] \[[Goodbye|Adiós]]\ [[clearly|claramente]].",
       "questions": [
         {
           "id": "q1",
           "text": "[[Goodbye|Adiós]]", "correctAnswer": "Goodbye",
-          "explanation": "Asegúrate de marcar bien la \"[[d|de]]\" en medio de la palabra.",
+          "explanation": "Asegúrate de marcar bien la \[[d|de]]\ en medio de la palabra.",
           "modelAudio": "/audio/course/a1/unit-1/a1-u1-e32-q0-model-6fc42223.mp3"
         }
       ]
@@ -869,7 +869,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[More|Más]] "[[Goodbyes|despedidas]]", "instructions": "[[Match|Une]] "[[the|las]] "[[equivalent|equivalentes]] "[[goodbyes|despedidas]].",
+      "title": "[[More|Más]] [[Goodbyes|despedidas]]", "instructions": "[[Match|Une]] [[the|las]] [[equivalent|equivalentes]] [[goodbyes|despedidas]].",
       "pairs": [
         {
           "id": "1",
@@ -908,13 +908,13 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[Short|Corto]] "[[Nice to meet you|Mucho gusto]]", "instructions": "[[Complete|Completa]] "[[the|la]] "[[short|corta]] "[[response|respuesta]] "[[to|a]] \"[[Nice to meet you|Mucho gusto]]\".",
+      "title": "[[Short|Corto]] [[Nice to meet you|Mucho gusto]]", "instructions": "[[Complete|Completa]] [[the|la]] [[short|corta]] [[response|respuesta]] [[to|a]] \[[Nice to meet you|Mucho gusto]]\.",
       "questions": [
         {
           "id": "q1",
           "text": "[[You|Tú]] ___.",
           "correctAnswer": "too",
-          "explanation": "\"[[You too|Igualmente]]\" es una forma muy casual de decir \"igualmente\".",
+          "explanation": "\[[You too|Igualmente]]\ es una forma muy casual de decir \igualmente\.",
           "audio": "/audio/course/a1/unit-1/a1-u1-e34-q0-ans-b403d3f0.mp3",
           "fullAudio": "/audio/course/a1/unit-1/a1-u1-e34-q0-full-82778c26.mp3"
         }
@@ -929,10 +929,10 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[Courtesy|de cortesía]] "[[Title|Título]]", "instructions": "[[How|Cómo]] "[[do| ]] "[[you| ]] "[[address|te diriges]] "[[a|a]] "[[male|hombre]] "[[teacher?|profesor?]]", "questions": [
+      "title": "[[Courtesy|de cortesía]] [[Title|Título]]", "instructions": "[[How|Cómo]] [[do| ]] [[you| ]] [[address|te diriges]] [[a|a]] [[male|hombre]] [[teacher?|profesor?]]", "questions": [
         {
           "id": "q1",
-          "question": "[[Good morning|Buenos días]], ________ "[[Smith|Smith]].",
+          "question": "[[Good morning|Buenos días]], ________ [[Smith|Smith]].",
           "options": [
             {
               "text": "[[Mr.|Señor]]", "audio": "/audio/course/a1/unit-1/a1-u1-e35-q0-opt0-127469a6.mp3"
@@ -945,7 +945,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
             }
           ],
           "correctAnswer": 0,
-          "explanation": "\"[[Mr.|Señor]]\" se usa para hombres, independientemente de su estado civil."
+          "explanation": "\[[Mr.|Señor]]\ se usa para hombres, independientemente de su estado civil."
         }
       ]
     }
@@ -958,7 +958,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[Translating|Traducción]] "[[Ms.|de Ms.]]", "instructions": "[[What|Cuál]] "[[is|es]] "[[the|la]] "[[most|más]] "[[professional|profesional]] "[[way|forma]] "[[to|de]] "[[address|dirigirse]] "[[a|a]] "[[woman?|mujer?]]", "questions": [
+      "title": "[[Translating|Traducción]] [[Ms.|de Ms.]]", "instructions": "[[What|Cuál]] [[is|es]] [[the|la]] [[most|más]] [[professional|profesional]] [[way|forma]] [[to|de]] [[address|dirigirse]] [[a|a]] [[woman?|mujer?]]", "questions": [
         {
           "id": "q1",
           "question": "Señorita / Señora:",
@@ -974,7 +974,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
             }
           ],
           "correctAnswer": 0,
-          "explanation": "\"[[Ms.|Señora/ita]]\" es la forma más segura y profesional de dirigirse a una mujer."
+          "explanation": "\[[Ms.|Señora/ita]]\ es la forma más segura y profesional de dirigirse a una mujer."
         }
       ]
     }
@@ -987,16 +987,16 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[Nice to meet you|Encantado]]", "instructions": "[[Put|Ordena]] "[[in| ]] "[[order| ]] "[[to|para]] "[[say|decir]] \"[[Nice|Encantado]] "[[to|de]] "[[meet|conocer]] "[[you|te]]\".",
+      "title": "[[Nice to meet you|Encantado]]", "instructions": "[[Put|Ordena]] [[in| ]] [[order| ]] [[to|para]] [[say|decir]] \[[Nice|Encantado]] [[to|de]] [[meet|conocer]] [[you|te]]\.",
       "sentences": [
         {
           "id": "s1",
           "words": [
             "[[Nice|Encantado]]", "[[to|de]]", "[[meet|conocer]]", "[[you|te]]."
           ],
-          "correctSentence": "[[Nice|Encantado]] "[[to|de]] "[[meet|conocer]] "[[you|te]].",
+          "correctSentence": "[[Nice|Encantado]] [[to|de]] [[meet|conocer]] [[you|te]].",
           "translation": "Encantado de conocerte.",
-          "hint": "Empieza con \"[[Nice|Encantado]]\".",
+          "hint": "Empieza con \[[Nice|Encantado]]\.",
           "explanation": "Esta frase es la forma estándar de cortesía al conocer a alguien nuevo.",
           "points": 10,
           "audio": "/audio/course/a1/unit-1/a1-u1-e37-s0-7f512576.mp3"
@@ -1012,7 +1012,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[How|Cómo]] "[[is|va]] "[[it|todo]] "[[going?|?]]", "instructions": "[[Choose|Elige]] "[[the|la]] "[[most|más]] "[[natural|natural]] "[[way|forma]] "[[to|de]] "[[ask|preguntar]] \"[[How|Cómo]] "[[is|va]] "[[it|todo]] "[[going?|?]]\".",
+      "title": "[[How|Cómo]] [[is|va]] [[it|todo]] [[going?|?]]", "instructions": "[[Choose|Elige]] [[the|la]] [[most|más]] [[natural|natural]] [[way|forma]] [[to|de]] [[ask|preguntar]] \[[How|Cómo]] [[is|va]] [[it|todo]] [[going?|?]]\.",
       "questions": [
         {
           "id": "q1",
@@ -1029,7 +1029,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
             }
           ],
           "correctAnswer": 0,
-          "explanation": "\"[[How is it going?|¿Cómo va todo?]]\" es una alternativa muy común a \"[[How are you?|¿Cómo estás?]]\"."
+          "explanation": "\[[How is it going?|¿Cómo va todo?]]\ es una alternativa muy común a \[[How are you?|¿Cómo estás?]]\."
         }
       ]
     }
@@ -1042,12 +1042,12 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Pronunciación: "[[Mr.|Señor]]", "instructions": "[[Say|Di]] \"[[Mr.|Señor]]\" "[[followed|seguido]] "[[by|de]] "[[a|un]] "[[name|nombre]].",
+      "title": "Pronunciación: [[Mr.|Señor]]", "instructions": "[[Say|Di]] \[[Mr.|Señor]]\ [[followed|seguido]] [[by|de]] [[a|un]] [[name|nombre]].",
       "questions": [
         {
           "id": "q1",
           "text": "[[Mr.|Señor]]", "correctAnswer": "Mr.",
-          "explanation": "Se pronuncia como \"[[míster|míster]]\".",
+          "explanation": "Se pronuncia como \[[míster|míster]]\.",
           "modelAudio": "/audio/course/a1/unit-1/a1-u1-e39-q0-model-127469a6.mp3"
         }
       ]
@@ -1061,7 +1061,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[Titles|Títulos]] "[[and|y]] "[[Names|Nombres]]", "instructions": "[[Match|Une]] "[[the|el]] "[[title|título]] "[[with|con]] "[[its|su]] "[[correct|correcto]] "[[use|uso]].",
+      "title": "[[Titles|Títulos]] [[and|y]] [[Names|Nombres]]", "instructions": "[[Match|Une]] [[the|el]] [[title|título]] [[with|con]] [[its|su]] [[correct|correcto]] [[use|uso]].",
       "pairs": [
         {
           "id": "1",
@@ -1095,13 +1095,13 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[Name|de nombre]] "[[Contraction|Contracción]]", "instructions": "[[Write|Escribe]] "[[the|la]] "[[short|corta]] "[[form|forma]] "[[of|de]] \"[[What|Cual]] "[[is|es]]\".",
+      "title": "[[Name|de nombre]] [[Contraction|Contracción]]", "instructions": "[[Write|Escribe]] [[the|la]] [[short|corta]] [[form|forma]] [[of|de]] \[[What|Cual]] [[is|es]]\.",
       "questions": [
         {
           "id": "q1",
-          "text": "___ "[[your|tu]] "[[name|nombre]]?",
+          "text": "___ [[your|tu]] [[name|nombre]]?",
           "correctAnswer": "What's",
-          "explanation": "La contracción \"[[What's|Cual es]]\" es mucho más frecuente que \"[[What is|Cual es]]\" al hablar.",
+          "explanation": "La contracción \[[What's|Cual es]]\ es mucho más frecuente que \[[What is|Cual es]]\ al hablar.",
           "audio": "/audio/course/a1/unit-1/a1-u1-e41-q0-ans-3fb1cbff.mp3",
           "fullAudio": "/audio/course/a1/unit-1/a1-u1-e41-q0-full-4a0804b8.mp3"
         }
@@ -1116,10 +1116,10 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[Negative|Negativa]] "[[Response|Respuesta]]", "instructions": "[[How|Cómo]] "[[do| ]] "[[you| ]] "[[say|dices]] "[[that|que]] "[[you| ]] "[[are|eres]] "[[not|no]] "[[something?|algo?]]", "questions": [
+      "title": "[[Negative|Negativa]] [[Response|Respuesta]]", "instructions": "[[How|Cómo]] [[do| ]] [[you| ]] [[say|dices]] [[that|que]] [[you| ]] [[are|eres]] [[not|no]] [[something?|algo?]]", "questions": [
         {
           "id": "q1",
-          "question": "[[I|Yo]] ________ "[[a teacher|un profesor]].",
+          "question": "[[I|Yo]] ________ [[a teacher|un profesor]].",
           "options": [
             {
               "text": "[[am not|no soy]]", "audio": "/audio/course/a1/unit-1/a1-u1-e42-q0-opt0-8f64b007.mp3"
@@ -1132,7 +1132,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
             }
           ],
           "correctAnswer": 0,
-          "explanation": "Para negar con \"[[I am|Yo soy]]\", simplemente añadimos \"[[not|no]]\" después."
+          "explanation": "Para negar con \[[I am|Yo soy]]\, simplemente añadimos \[[not|no]]\ después."
         }
       ]
     }
@@ -1145,16 +1145,16 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[Have|Tenga]] "[[a|un]] "[[nice|buen]] "[[day|día]]", "instructions": "[[Put|Ordena]] "[[in| ]] "[[order| ]] "[[to|para]] "[[say|decir]] \"[[Have|Tenga]] "[[a|un]] "[[nice|buen]] "[[day|día]]\".",
+      "title": "[[Have|Tenga]] [[a|un]] [[nice|buen]] [[day|día]]", "instructions": "[[Put|Ordena]] [[in| ]] [[order| ]] [[to|para]] [[say|decir]] \[[Have|Tenga]] [[a|un]] [[nice|buen]] [[day|día]]\.",
       "sentences": [
         {
           "id": "s1",
           "words": [
             "[[Have|Tenga]]", "[[a|un]]", "[[nice|buen]]", "[[day|día]]!"
           ],
-          "correctSentence": "[[Have|Tenga]] "[[a|un]] "[[nice|buen]] "[[day|día]]!",
+          "correctSentence": "[[Have|Tenga]] [[a|un]] [[nice|buen]] [[day|día]]!",
           "translation": "¡Tenga un buen día!",
-          "hint": "Empieza con \"[[Have|Tenga]]\".",
+          "hint": "Empieza con \[[Have|Tenga]]\.",
           "explanation": "Una forma muy amable y común de despedirse de alguien.",
           "points": 10,
           "audio": "/audio/course/a1/unit-1/a1-u1-e43-item0-example-a2a4d885.mp3"
@@ -1170,17 +1170,17 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[I|Yo]] "[[am|soy]] "[[not|no]]", "instructions": "[[Put|Ordena]] "[[in| ]] "[[order| ]] "[[to|para]] "[[say|decir]] \"[[I|Yo]] "[[am|soy]] "[[not|no]] "[[Juan|Juan]]\".",
+      "title": "[[I|Yo]] [[am|soy]] [[not|no]]", "instructions": "[[Put|Ordena]] [[in| ]] [[order| ]] [[to|para]] [[say|decir]] \[[I|Yo]] [[am|soy]] [[not|no]] [[Juan|Juan]]\.",
       "sentences": [
         {
           "id": "s1",
           "words": [
             "[[I|Yo]]", "[[am|soy]]", "[[not|no]]", "[[Juan|Juan]]."
           ],
-          "correctSentence": "[[I|Yo]] "[[am|soy]] "[[not|no]] "[[Juan|Juan]].",
+          "correctSentence": "[[I|Yo]] [[am|soy]] [[not|no]] [[Juan|Juan]].",
           "translation": "Yo no soy Juan.",
-          "hint": "Pon \"[[not|no]]\" después de \"[[am|soy]]\".",
-          "explanation": "La estructura negativa es: Sujeto + "[[am/is/are|soy/es/son]] + "[[not|no]].",
+          "hint": "Pon \[[not|no]]\ después de \[[am|soy]]\.",
+          "explanation": "La estructura negativa es: Sujeto + [[am/is/are|soy/es/son]] + [[not|no]].",
           "points": 10,
           "audio": "/audio/course/a1/unit-1/a1-u1-e44-s0-ecf8f828.mp3"
         }
@@ -1195,7 +1195,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[Courtesy|de cortesía]] "[[Plural|Plural]]", "instructions": "[[How|Cómo]] "[[do| ]] "[[you| ]] "[[greet|saludas]] "[[an|una]] "[[entire|entera]] "[[class?|clase?]]", "questions": [
+      "title": "[[Courtesy|de cortesía]] [[Plural|Plural]]", "instructions": "[[How|Cómo]] [[do| ]] [[you| ]] [[greet|saludas]] [[an|una]] [[entire|entera]] [[class?|clase?]]", "questions": [
         {
           "id": "q1",
           "question": "[[Hello|Hola]], ________.",
@@ -1211,7 +1211,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
             }
           ],
           "correctAnswer": 0,
-          "explanation": "\"[[Everyone|Todos]]\" significa \"todos\" y se usa para saludar a un grupo."
+          "explanation": "\[[Everyone|Todos]]\ significa \todos\ y se usa para saludar a un grupo."
         }
       ]
     }
@@ -1224,12 +1224,12 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "Pronunciación: "[[Everyone|Todos]]", "instructions": "[[Say|Di]] \"[[Hello|Hola]] "[[everyone|a todos]]\".",
+      "title": "Pronunciación: [[Everyone|Todos]]", "instructions": "[[Say|Di]] \[[Hello|Hola]] [[everyone|a todos]]\.",
       "questions": [
         {
           "id": "q1",
           "text": "[[Hello everyone|Hola a todos]]", "correctAnswer": "Hello everyone",
-          "explanation": "Marca bien la \"[[v|v]]\" en \"[[everyone|todos]]\".",
+          "explanation": "Marca bien la \[[v|v]]\ en \[[everyone|todos]]\.",
           "modelAudio": "/audio/course/a1/unit-1/a1-u1-e46-q0-model-83cb6f70.mp3"
         }
       ]
@@ -1243,7 +1243,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[Greeting|de saludos]] "[[Summary|Resumen]]", "instructions": "[[Match|Une]] "[[each|cada]] "[[greeting|saludo]] "[[with|con]] "[[its|su]] "[[time|momento]] "[[of|del]] "[[day|día]].",
+      "title": "[[Greeting|de saludos]] [[Summary|Resumen]]", "instructions": "[[Match|Une]] [[each|cada]] [[greeting|saludo]] [[with|con]] [[its|su]] [[time|momento]] [[of|del]] [[day|día]].",
       "pairs": [
         {
           "id": "1",
@@ -1283,13 +1283,13 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[Last|Apellido]] "[[Name| ]]", "instructions": "[[Write|Escribe]] "[[the|la]] "[[word|palabra]] "[[for|para]] \"[[last|apellido]] "[[name| ]]\".",
+      "title": "[[Last|Apellido]] [[Name| ]]", "instructions": "[[Write|Escribe]] [[the|la]] [[word|palabra]] [[for|para]] \[[last|apellido]] [[name| ]]\.",
       "questions": [
         {
           "id": "q1",
-          "text": "[[What is|Cual es]] "[[your|tu]] ___ "[[name|nombre]]?",
+          "text": "[[What is|Cual es]] [[your|tu]] ___ [[name|nombre]]?",
           "correctAnswer": "last",
-          "explanation": "En inglés se usa \"[[last name|apellido]]\" o \"[[surname|apellido]]\" para el apellido.",
+          "explanation": "En inglés se usa \[[last name|apellido]]\ o \[[surname|apellido]]\ para el apellido.",
           "audio": "/audio/course/a1/unit-1/a1-u1-e48-q0-ans-98bd1c45.mp3",
           "fullAudio": "/audio/course/a1/unit-1/a1-u1-e48-q0-full-6b679b73.mp3"
         }
@@ -1304,7 +1304,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[What's|Qué]] "[[up?|tal?]]", "instructions": "[[What|Cuál]] "[[is|es]] "[[the|la]] "[[most|más]] "[[informal|informal]] "[[way|forma]] "[[to|de]] "[[say|decir]] \"[[What's|Qué]] "[[up?|pasa?]]\"?",
+      "title": "[[What's|Qué]] [[up?|tal?]]", "instructions": "[[What|Cuál]] [[is|es]] [[the|la]] [[most|más]] [[informal|informal]] [[way|forma]] [[to|de]] [[say|decir]] \[[What's|Qué]] [[up?|pasa?]]\?",
       "questions": [
         {
           "id": "q1",
@@ -1321,7 +1321,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
             }
           ],
           "correctAnswer": 0,
-          "explanation": "\"[[What's up?|¿Qué pasa?]]\" es extremadamente común entre gente joven y amigos cercanos."
+          "explanation": "\[[What's up?|¿Qué pasa?]]\ es extremadamente común entre gente joven y amigos cercanos."
         }
       ]
     }
@@ -1334,22 +1334,22 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topicName": "Hello World!",
     "difficulty": "easy",
     "content": {
-      "title": "[[Final|Final]] "[[Summary|Resumen]]", "instructions": "[[What|Cuál]] "[[is|es]] "[[the|la]] "[[best|mejor]] "[[way|forma]] "[[to|de]] "[[introduce|presentarte]] "[[yourself| ]] "[[for|por]] "[[the|la]] "[[first|primera]] "[[time|vez]]?",
+      "title": "[[Final|Final]] [[Summary|Resumen]]", "instructions": "[[What|Cuál]] [[is|es]] [[the|la]] [[best|mejor]] [[way|forma]] [[to|de]] [[introduce|presentarte]] [[yourself| ]] [[for|por]] [[the|la]] [[first|primera]] [[time|vez]]?",
       "questions": [
         {
           "id": "q1",
           "question": "Conocer a alguien nuevo:",
           "options": [
             {
-              "text": "[[Hi|Hola]]", "[[I am|yo soy]] "[[John|John]]. "[[Nice to meet you|Mucho gusto]].",
+              "text": "[[Hi|Hola]], [[I am|yo soy]] [[John|John]]. [[Nice to meet you|Mucho gusto]].",
               "audio": "/audio/course/a1/unit-1/a1-u1-e50-q0-opt0-c58006e8.mp3"
             },
             {
-              "text": "[[Goodbye|Adiós]] "[[John|John]].",
+              "text": "[[Goodbye|Adiós]] [[John|John]].",
               "audio": "/audio/course/a1/unit-1/a1-u1-e50-q0-opt1-f818f8ae.mp3"
             },
             {
-              "text": "[[How are you|Cómo está]] "[[teacher|profesor]]?",
+              "text": "[[How are you|Cómo está]] [[teacher|profesor]]?",
               "audio": "/audio/course/a1/unit-1/a1-u1-e50-q0-opt2-8361cd61.mp3"
             }
           ],

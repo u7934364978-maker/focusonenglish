@@ -11,20 +11,20 @@ export const C1_U1_BLOCK1: Exercise = {
   type: 'grammar',
   title: 'Negative Inversion',
   grammarPoint: 'Inversion',
-  explanation: 'Use "[[inversion|inversión]] (auxiliary before subject) after certain negative or "[[restrictive|restrictivos]] adverbials.',
+  explanation: 'Use [[inversion|inversión]] (auxiliary before subject) after certain negative or [[restrictive|restrictivos]] adverbials.',
   questions: Array.from({ length: 10 }, (_, i) => ({
     id: genId(UNIT_ID, 'b1', i + 1),
     type: 'multiple-choice',
     question: [
-      'Never ___ I seen such a "[[magnificent|magnífica]] performance.',
-      'Rarely ___ she "[[venture|aventurarse]] out after dark.',
+      'Never ___ I seen such a [[magnificent|magnífica]] performance.',
+      'Rarely ___ she [[venture|aventurarse]] out after dark.',
       'Little ___ they know what was about to happen.',
-      'Not only ___ he late, but he also forgot his "[[notes|notas]].',
+      'Not only ___ he late, but he also forgot his [[notes|notas]].',
       'Under no circumstances ___ you open this door.',
-      'Only then ___ I realize the "[[gravity|gravedad]] of the situation.',
+      'Only then ___ I realize the [[gravity|gravedad]] of the situation.',
       'Hardly ___ we started the meeting when the phone rang.',
-      'No sooner ___ they arrived than it began to "[[pour|llover a cántaros]].',
-      'Seldom ___ one find such "[[dedication|dedicación]] nowadays.',
+      'No sooner ___ they arrived than it began to [[pour|llover a cántaros]].',
+      'Seldom ___ one find such [[dedication|dedicación]] nowadays.',
       'On no account ___ this information be shared.'
     ][i],
     options: [
@@ -64,21 +64,21 @@ export const C1_U1_BLOCK2: Exercise = {
   type: 'grammar',
   title: 'Narrative Tenses & Backgrounding',
   grammarPoint: 'Past Tenses',
-  explanation: 'Using past tenses to create complex "[[narrative|narrativas]] structures.',
+  explanation: 'Using past tenses to create complex [[narrative|narrativas]] structures.',
   questions: Array.from({ length: 10 }, (_, i) => ({
     id: genId(UNIT_ID, 'b2', i + 1),
     type: 'multiple-choice',
     question: [
-      'I ___ for hours when I finally found the "[[solution|solución]].',
-      'By the time the authorities arrived, the "[[evidence|evidencia]] ___ .',
-      'She ___ always complaining about her "[[colleagues|colegas]].',
+      'I ___ for hours when I finally found the [[solution|solución]].',
+      'By the time the authorities arrived, the [[evidence|evidencia]] ___ .',
+      'She ___ always complaining about her [[colleagues|colegas]].',
       'I ___ to mention that I won\'t be coming tomorrow.',
       'They ___ in London for ten years before they moved.',
       'I ___ just about to leave when he walked in.',
-      'We ___ the project for months before it was "[[cancelled|cancelado]].',
+      'We ___ the project for months before it was [[cancelled|cancelado]].',
       'He ___ the letter three times before sending it.',
       'She ___ to have been working there since 2010.',
-      'I wish I ___ more attention during the "[[lecture|conferencia]].'
+      'I wish I ___ more attention during the [[lecture|conferencia]].'
     ][i],
     options: [
       ['was working', 'had been working', 'have worked'],
@@ -116,7 +116,7 @@ export const C1_U1_BLOCK3: Exercise = {
   id: `c1-u${UNIT_ID}-b3`,
   type: 'vocabulary',
   title: 'Idiomatic Expressions',
-  explanation: 'Common C1 level "[[idioms|modismos]] and their meanings.',
+  explanation: 'Common C1 level [[idioms|modismos]] and their meanings.',
   questions: Array.from({ length: 10 }, (_, i) => ({
     id: genId(UNIT_ID, 'b3', i + 1),
     type: 'multiple-choice',
@@ -168,7 +168,7 @@ export const C1_U1_BLOCK4: Exercise = {
   id: `c1-u${UNIT_ID}-b4`,
   type: 'vocabulary',
   title: 'Academic Collocations',
-  explanation: 'Common word "[[pairings|emparejamientos]] in academic and professional English.',
+  explanation: 'Common word [[pairings|emparejamientos]] in academic and professional English.',
   questions: Array.from({ length: 10 }, (_, i) => ({
     id: genId(UNIT_ID, 'b4', i + 1),
     type: 'multiple-choice',
@@ -220,7 +220,7 @@ export const C1_U1_BLOCK5: Exercise = {
   id: `c1-u${UNIT_ID}-b5`,
   type: 'key-word-transformation',
   title: 'Key Word Transformation',
-  explanation: 'Rewrite the sentence using the "[[key word|palabra clave]] so it has the same meaning.',
+  explanation: 'Rewrite the sentence using the [[key word|palabra clave]] so it has the same meaning.',
   questions: Array.from({ length: 10 }, (_, i) => ({
     id: genId(UNIT_ID, 'b5', i + 1),
     type: 'key-word-transformation',

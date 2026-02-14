@@ -1,56 +1,44 @@
 import re
+import os
 
-def fix_a1(file_path):
-    with open(file_path, 'r') as f:
-        content = f.read()
+def fix_content(content):
+    # Rule 1: Remove quotes between ]] and [[ (e.g. ]] "[[ or ]] " [[)
+    # Preceded by alphanumeric or ]
+    content = re.sub(r'([a-zA-Z0-9\]])\s*"\s*\[\[', r'\1 [[', content)
     
-    # Fix broken titles like "title": \"...\"
-    content = re.sub(r'"title":\s*\\"(\[\[.*?\]\])\\"', r'"title": "\1"', content)
-    # Also if it's just "title": \"...\" without inner tooltip
-    content = re.sub(r'"title":\s*\\"(.*?)\\"', r'"title": "\1"', content)
+    # Rule 2: Remove quotes after ]] if followed by alphanumeric or [
+    content = re.sub(r'\]\]\s*"\s*([a-zA-Z0-9\[])', r']] \1', content)
     
-    # Fix broken instructions
-    content = re.sub(r'"instructions":\s*\\"(.*?)\\"', r'"instructions": "\1"', content)
+    # Rule 3: Handle the case with comma: ]]", "[[ -> ]], [[
+    content = re.sub(r'\]\]\s*"\s*,\s*"\s*\[\[', r']], [[', content)
+    
+    # Rule 4: Handle the case with period: ]].", "[[ -> ]]. [[
+    content = re.sub(r'\]\]\s*\.\s*"\s*,\s*"\s*\[\[', r']]. [[', content)
+    
+    return content
 
-    with open(file_path, 'w') as f:
-        f.write(content)
-
-fix_a1('src/lib/course/a1/unit-1.ts')
-
-def fix_b1_array(file_path):
-    with open(file_path, 'r') as f:
-        lines = f.readlines()
+def main():
+    base_dirs = [
+        'src/lib/course/a1',
+        'src/lib/course/b1',
+        'src/lib/course/b2'
+    ]
     
-    new_lines = []
-    in_array = False
-    for line in lines:
-        if '"words": [' in line:
-            in_array = True
-        elif in_array and '],' in line:
-            in_array = False
-            # If we see a ], followed by more words, it means it's broken
-            # But wait, the error said Unexpected token , at line 81
-            pass
-        
-        # If we have a line that is just a string but not inside an array or object correctly
-        # This is hard to fix line by line if we don't know the context.
-        new_lines.append(line)
-    
-    # Actually, I'll just use the logic from fix_u29_final.py but better
-    content = "".join(new_lines)
-    exercises = re.split(r'  \{', content)
-    fixed_exercises = [exercises[0]]
-    for ex in exercises[1:]:
-        if '"type": "sentence-building"' in ex:
-            match = re.search(r'"correctSentence": "(.*?)"', ex)
-            if match:
-                correct_sentence = match.group(1)
-                words = re.findall(r'\[\[.*?\|.*?\]\]', correct_sentence)
-                words_json = '[\n          ' + ',\n          '.join([f'"{w}"' for w in words]) + '\n        ]'
-                ex = re.sub(r'"words":\s*\[[\s\S]*?\][\s\S]*?(?="explanation"|"audio"|"points")', f'"words": {words_json},\n        ', ex)
-        fixed_exercises.append(ex)
-    
-    with open(file_path, 'w') as f:
-        f.write('  {'.join(fixed_exercises))
+    for base_dir in base_dirs:
+        if not os.path.exists(base_dir):
+            continue
+        for filename in os.listdir(base_dir):
+            if filename.endswith('.ts'):
+                path = os.path.join(base_dir, filename)
+                with open(path, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                
+                new_content = fix_content(content)
+                
+                if new_content != content:
+                    with open(path, 'w', encoding='utf-8') as f:
+                        f.write(new_content)
+                    print(f"Updated {path}")
 
-fix_b1_array('src/lib/course/b1/unit-29.ts')
+if __name__ == "__main__":
+    main()

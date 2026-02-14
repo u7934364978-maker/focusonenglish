@@ -11,12 +11,12 @@ export const C1_U30_BLOCK1: Exercise = {
   type: 'grammar',
   title: 'Review: Conditionals, Inversion, & Clefts',
   grammarPoint: 'Mixed Grammar',
-  explanation: 'A "[[comprehensive|integral]] review of the most "[[challenging|desafiantes]] "[[structures|estructuras]] at C1 level.',
+  explanation: 'A [[comprehensive|integral]] review of the most [[challenging|desafiantes]] [[structures|estructuras]] at C1 level.',
   questions: [
     {
       id: genId(UNIT_ID, 'b1', 1),
       type: 'multiple-choice',
-      question: '___ you "[[need|necesitar]] "[[anything|algo]], please "[[let|deja]] me "[[know|saber]].',
+      question: '___ you [[need|necesitar]] [[anything|algo]], please [[let|deja]] me [[know|saber]].',
       options: ['Would', 'If', 'Should'],
       correctAnswer: 'Should',
       explanation: 'Formal conditional inversion.',
@@ -25,7 +25,7 @@ export const C1_U30_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 2),
       type: 'multiple-choice',
-      question: '___ have I "[[witnessed|presenciado]] such "[[courage|coraje]].',
+      question: '___ have I [[witnessed|presenciado]] such [[courage|coraje]].',
       options: ['Seldom', 'Never', 'Rarely'],
       correctAnswer: 'Never',
       explanation: 'Negative inversion.',
@@ -34,7 +34,7 @@ export const C1_U30_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 3),
       type: 'multiple-choice',
-      question: 'It was "[[because|porque]] of his "[[help|ayuda]] ___ I "[[succeeded|logré]].',
+      question: 'It was [[because|porque]] of his [[help|ayuda]] ___ I [[succeeded|logré]].',
       options: ['which', 'that', 'who'],
       correctAnswer: 'that',
       explanation: 'It-cleft focus.',
@@ -43,7 +43,7 @@ export const C1_U30_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 4),
       type: 'multiple-choice',
-      question: 'Had I ___ the "[[truth|verdad]], I "[[would|habría]] "[[acted|actuado]] "[[differently|diferente]].',
+      question: 'Had I ___ the [[truth|verdad]], I [[would|habría]] [[acted|actuado]] [[differently|diferente]].',
       options: ['known', 'knew', 'knowing'],
       correctAnswer: 'known',
       explanation: 'Third conditional inversion.',
@@ -52,7 +52,7 @@ export const C1_U30_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 5),
       type: 'multiple-choice',
-      question: 'What I ___ most is "[[traveling|viajar]].',
+      question: 'What I ___ most is [[traveling|viajar]].',
       options: ['am enjoying', 'enjoyment', 'enjoy'],
       correctAnswer: 'enjoy',
       explanation: 'Wh-cleft focus.',
@@ -61,7 +61,7 @@ export const C1_U30_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 6),
       type: 'multiple-choice',
-      question: 'I "[[wish|deseo]] I ___ "[[gone|ido]] to the "[[party|fiesta]] "[[yesterday|ayer]].',
+      question: 'I [[wish|deseo]] I ___ [[gone|ido]] to the [[party|fiesta]] [[yesterday|ayer]].',
       options: ['had', 'would have', 'have'],
       correctAnswer: 'had',
       explanation: 'Regret about the past (Wish + Past Perfect).',
@@ -70,7 +70,7 @@ export const C1_U30_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 7),
       type: 'multiple-choice',
-      question: 'He "[[spoke|habló]] as ___ he "[[were|fuese]] an "[[expert|experto]].',
+      question: 'He [[spoke|habló]] as ___ he [[were|fuese]] an [[expert|experto]].',
       options: ['if', 'though', 'as'],
       correctAnswer: 'if',
       explanation: '"As if" with subjunctive.',
@@ -79,7 +79,7 @@ export const C1_U30_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 8),
       type: 'multiple-choice',
-      question: '___ only was she "[[smart|inteligente]], but "[[also|también]] "[[kind|amable]].',
+      question: '___ only was she [[smart|inteligente]], but [[also|también]] [[kind|amable]].',
       options: ['But', 'Just', 'Not'],
       correctAnswer: 'Not',
       explanation: '"Not only" inversion.',
@@ -88,7 +88,7 @@ export const C1_U30_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 9),
       type: 'multiple-choice',
-      question: 'Only after ___ the "[[report|informe]] did he "[[rest|descansar]].',
+      question: 'Only after ___ the [[report|informe]] did he [[rest|descansar]].',
       options: ['to finish', 'finishing', 'finish'],
       correctAnswer: 'finishing',
       explanation: 'Only after + gerund inversion.',
@@ -97,7 +97,7 @@ export const C1_U30_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 10),
       type: 'multiple-choice',
-      question: 'It ___ time we "[[left|nos fuéramos]].',
+      question: 'It ___ time we [[left|nos fuéramos]].',
       options: ['is', 'was', 'be'],
       correctAnswer: 'is',
       explanation: '"It is time" + past simple for present meaning.',
@@ -114,12 +114,12 @@ export const C1_U30_BLOCK2: Exercise = {
   type: 'vocabulary',
   title: 'Review: Idioms, Phrasal Verbs, & Collocations',
   grammarPoint: 'Mixed Vocabulary',
-  explanation: 'Recapping "[[high-level|alto nivel]] "[[expressions|expresiones]] for "[[natural|natural]] and "[[fluent|fluida]] communication.',
+  explanation: 'Recapping [[high-level|alto nivel]] [[expressions|expresiones]] for [[natural|natural]] and [[fluent|fluida]] communication.',
   questions: [
     {
       id: genId(UNIT_ID, 'b2', 1),
       type: 'multiple-choice',
-      question: 'The "[[film|película]] was a ___ from the "[[book|libro]].',
+      question: 'The [[film|película]] was a ___ from the [[book|libro]].',
       options: ['long way', 'far cry', 'deep end'],
       correctAnswer: 'far cry',
       explanation: '"A far cry from" means very different.',
@@ -128,7 +128,7 @@ export const C1_U30_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 2),
       type: 'multiple-choice',
-      question: 'He needs to ___ his "[[French|francés]].',
+      question: 'He needs to ___ his [[French|francés]].',
       options: ['brush up on', 'get along with', 'look forward to'],
       correctAnswer: 'brush up on',
       explanation: '"Brush up on" means to improve a skill.',
@@ -137,7 +137,7 @@ export const C1_U30_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 3),
       type: 'multiple-choice',
-      question: 'She is ___ above her "[[peers|compañeros]].',
+      question: 'She is ___ above her [[peers|compañeros]].',
       options: ['eye to eye', 'head and shoulders', 'arm in arm'],
       correctAnswer: 'head and shoulders',
       explanation: 'Much better than.',
@@ -146,7 +146,7 @@ export const C1_U30_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 4),
       type: 'multiple-choice',
-      question: 'The "[[storm|tormenta]] ___ on the "[[crops|cosechas]].',
+      question: 'The [[storm|tormenta]] ___ on the [[crops|cosechas]].',
       options: ['wreaked havoc', 'made waves', 'did good'],
       correctAnswer: 'wreaked havoc',
       explanation: 'Caused great damage.',
@@ -155,7 +155,7 @@ export const C1_U30_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 5),
       type: 'multiple-choice',
-      question: 'I was ___ "[[devastated|devastado]] by the "[[news|noticias]].',
+      question: 'I was ___ [[devastated|devastado]] by the [[news|noticias]].',
       options: ['very', 'fairly', 'absolutely'],
       correctAnswer: 'absolutely',
       explanation: 'Ungradable adjective modifier.',
@@ -164,7 +164,7 @@ export const C1_U30_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 6),
       type: 'multiple-choice',
-      question: 'He ___ "[[running|correr]] like a "[[duck|pato]] to "[[water|agua]].',
+      question: 'He ___ [[running|correr]] like a [[duck|pato]] to [[water|agua]].',
       options: ['took to', 'went for', 'got in'],
       correctAnswer: 'took to',
       explanation: '"Take to" means to start liking/doing something easily.',
@@ -173,7 +173,7 @@ export const C1_U30_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 7),
       type: 'multiple-choice',
-      question: 'We must ___ the "[[root|raíz]] "[[cause|causa]].',
+      question: 'We must ___ the [[root|raíz]] [[cause|causa]].',
       options: ['see', 'address', 'fix'],
       correctAnswer: 'address',
       explanation: 'Formal Lexis for "deal with".',
@@ -182,7 +182,7 @@ export const C1_U30_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 8),
       type: 'multiple-choice',
-      question: 'It was a ___ of "[[luck|suerte]].',
+      question: 'It was a ___ of [[luck|suerte]].',
       options: ['piece', 'stroke', 'bit'],
       correctAnswer: 'stroke',
       explanation: 'Fixed partitive phrase.',
@@ -191,7 +191,7 @@ export const C1_U30_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 9),
       type: 'multiple-choice',
-      question: 'The "[[two|dos]] "[[friends|amigos]] are as "[[like|parecidos]] as two ___ in a "[[pod|vaina]].',
+      question: 'The [[two|dos]] [[friends|amigos]] are as [[like|parecidos]] as two ___ in a [[pod|vaina]].',
       options: ['beans', 'peas', 'carrots'],
       correctAnswer: 'peas',
       explanation: 'Exactly alike.',
@@ -200,7 +200,7 @@ export const C1_U30_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 10),
       type: 'multiple-choice',
-      question: 'He is in a ___ of his "[[own|propia]].',
+      question: 'He is in a ___ of his [[own|propia]].',
       options: ['league', 'team', 'class'],
       correctAnswer: 'league',
       explanation: 'Uniquely excellent.',
@@ -217,12 +217,12 @@ export const C1_U30_BLOCK3: Exercise = {
   type: 'grammar',
   title: 'Review: Register & Nominalization',
   grammarPoint: 'Style',
-  explanation: 'Ensuring your "[[writing|escritura]] is "[[appropriate|apropiada]] for "[[professional|profesionales]] settings.',
+  explanation: 'Ensuring your [[writing|escritura]] is [[appropriate|apropiada]] for [[professional|profesionales]] settings.',
   questions: [
     {
       id: genId(UNIT_ID, 'b3', 1),
       type: 'multiple-choice',
-      question: 'The ___ of the "[[proposal|propuesta]] was "[[disappointing|decepcionante]].',
+      question: 'The ___ of the [[proposal|propuesta]] was [[disappointing|decepcionante]].',
       options: ['refusal', 'refuse', 'refusing'],
       correctAnswer: 'refusal',
       explanation: 'Nominalization of "refuse".',
@@ -231,7 +231,7 @@ export const C1_U30_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 2),
       type: 'multiple-choice',
-      question: '___, we must "[[continue|continuar]].',
+      question: '___, we must [[continue|continuar]].',
       options: ['Similarly', 'Instead', 'Nonetheless'],
       correctAnswer: 'Nonetheless',
       explanation: 'Formal discourse marker.',
@@ -240,7 +240,7 @@ export const C1_U30_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 3),
       type: 'multiple-choice',
-      question: '___ has been "[[observed|observado]] that "[[trends|tendencias]] are "[[changing|cambiando]].',
+      question: '___ has been [[observed|observado]] that [[trends|tendencias]] are [[changing|cambiando]].',
       options: ['It', 'That', 'There'],
       correctAnswer: 'It',
       explanation: 'Impersonal passive.',
@@ -249,7 +249,7 @@ export const C1_U30_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 4),
       type: 'multiple-choice',
-      question: 'The ___ of the "[[law|ley]] took "[[years|años]].',
+      question: 'The ___ of the [[law|ley]] took [[years|años]].',
       options: ['implementing', 'implementation', 'implement'],
       correctAnswer: 'implementation',
       explanation: 'Nominalization of "implement".',
@@ -258,7 +258,7 @@ export const C1_U30_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 5),
       type: 'multiple-choice',
-      question: '___, the "[[costs|costes]] are "[[too|demasiado]] "[[high|altos]].',
+      question: '___, the [[costs|costes]] are [[too|demasiado]] [[high|altos]].',
       options: ['Furthermore', 'However', 'Converserly'],
       correctAnswer: 'Furthermore',
       explanation: 'Formal addition marker.',
@@ -267,7 +267,7 @@ export const C1_U30_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 6),
       type: 'multiple-choice',
-      question: 'In ___, the "[[study|estudio]] is "[[valid|válido]].',
+      question: 'In ___, the [[study|estudio]] is [[valid|válido]].',
       options: ['conclude', 'conclusion', 'conclusive'],
       correctAnswer: 'conclusion',
       explanation: 'Finalizing an argument.',
@@ -276,7 +276,7 @@ export const C1_U30_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 7),
       type: 'multiple-choice',
-      question: '___ that "[[data|datos]] are "[[correct|correctos]], we "[[win|ganamos]].',
+      question: '___ that [[data|datos]] are [[correct|correctos]], we [[win|ganamos]].',
       options: ['Assuming', 'Assume', 'Assumed'],
       correctAnswer: 'Assuming',
       explanation: 'Formal conditional premise.',
@@ -285,7 +285,7 @@ export const C1_U30_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 8),
       type: 'multiple-choice',
-      question: 'The ___ "[[revealed|reveló]] many "[[errors|errores]].',
+      question: 'The ___ [[revealed|reveló]] many [[errors|errores]].',
       options: ['analysis', 'analytical', 'analyze'],
       correctAnswer: 'analysis',
       explanation: 'Nominalization of "analyze".',
@@ -294,7 +294,7 @@ export const C1_U30_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 9),
       type: 'multiple-choice',
-      question: '___ the "[[weather|clima]], the "[[event|evento]] "[[continued|continuó]].',
+      question: '___ the [[weather|clima]], the [[event|evento]] [[continued|continuó]].',
       options: ['Instead', 'Notwithstanding', 'Moreover'],
       correctAnswer: 'Notwithstanding',
       explanation: 'Formal "despite".',
@@ -303,7 +303,7 @@ export const C1_U30_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 10),
       type: 'multiple-choice',
-      question: '___ that "[[everyone|todos]] "[[agrees|están de acuerdo]], we "[[start|empezamos]].',
+      question: '___ that [[everyone|todos]] [[agrees|están de acuerdo]], we [[start|empezamos]].',
       options: ['Provided', 'Providing', 'Provides'],
       correctAnswer: 'Provided',
       explanation: 'Formal condition.',
@@ -320,12 +320,12 @@ export const C1_U30_BLOCK4: Exercise = {
   type: 'grammar',
   title: 'Final Mastery: Error Correction',
   grammarPoint: 'Mixed Review',
-  explanation: 'Identify and "[[correct|corregir]] the "[[errors|errores]] in these "[[complex|complejas]] sentences.',
+  explanation: 'Identify and [[correct|corregir]] the [[errors|errores]] in these [[complex|complejas]] sentences.',
   questions: [
     {
       id: genId(UNIT_ID, 'b4', 1),
       type: 'multiple-choice',
-      question: 'I am "[[looking|buscando]] forward to ___ you.',
+      question: 'I am [[looking|buscando]] forward to ___ you.',
       options: ['meeting', 'meet', 'to meet'],
       correctAnswer: 'meeting',
       explanation: '"Look forward to" + gerund.',
@@ -334,7 +334,7 @@ export const C1_U30_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 2),
       type: 'multiple-choice',
-      question: 'He "[[denied|negó]] ___ the "[[money|dinero]].',
+      question: 'He [[denied|negó]] ___ the [[money|dinero]].',
       options: ['stealing', 'to steal', 'stole'],
       correctAnswer: 'stealing',
       explanation: '"Deny" + gerund.',
@@ -343,7 +343,7 @@ export const C1_U30_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 3),
       type: 'multiple-choice',
-      question: 'If I ___ him, I "[[would|habría]] "[[told|dicho]] you.',
+      question: 'If I ___ him, I [[would|habría]] [[told|dicho]] you.',
       options: ['had seen', 'saw', 'have seen'],
       correctAnswer: 'had seen',
       explanation: 'Third conditional (Past Perfect).',
@@ -352,7 +352,7 @@ export const C1_U30_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 4),
       type: 'multiple-choice',
-      question: 'She "[[suggested|sugirió]] that he ___ "[[immediately|inmediatamente]].',
+      question: 'She [[suggested|sugirió]] that he ___ [[immediately|inmediatamente]].',
       options: ['leaves', 'leave', 'to leave'],
       correctAnswer: 'leave',
       explanation: 'Subjunctive after "suggest".',
@@ -361,7 +361,7 @@ export const C1_U30_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 5),
       type: 'multiple-choice',
-      question: 'Not until "[[then|entonces]] ___ "[[know|saber]] the "[[truth|verdad]].',
+      question: 'Not until [[then|entonces]] ___ [[know|saber]] the [[truth|verdad]].',
       options: ['did I', 'I did', 'I have'],
       correctAnswer: 'did I',
       explanation: 'Negative inversion.',
@@ -370,7 +370,7 @@ export const C1_U30_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 6),
       type: 'multiple-choice',
-      question: 'They are ___ "[[getting|levantarse]] up "[[early|temprano]].',
+      question: 'They are ___ [[getting|levantarse]] up [[early|temprano]].',
       options: ['use to', 'get used to', 'used to'],
       correctAnswer: 'used to',
       explanation: '"Be used to" + gerund for habit.',
@@ -379,7 +379,7 @@ export const C1_U30_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 7),
       type: 'multiple-choice',
-      question: 'He is the "[[man|hombre]] ___ "[[car|coche]] was "[[stolen|robado]].',
+      question: 'He is the [[man|hombre]] ___ [[car|coche]] was [[stolen|robado]].',
       options: ['who\'s', 'who', 'whose'],
       correctAnswer: 'whose',
       explanation: 'Possessive relative pronoun.',
@@ -388,7 +388,7 @@ export const C1_U30_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 8),
       type: 'multiple-choice',
-      question: 'Neither of the "[[two|dos]] ___ "[[ready|listo]].',
+      question: 'Neither of the [[two|dos]] ___ [[ready|listo]].',
       options: ['is', 'are', 'be'],
       correctAnswer: 'is',
       explanation: '"Neither" takes a singular verb.',
@@ -397,7 +397,7 @@ export const C1_U30_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 9),
       type: 'multiple-choice',
-      question: 'Hardly ___ "[[arrived|llegado]] "[[when|cuando]] it "[[rained|llovió]].',
+      question: 'Hardly ___ [[arrived|llegado]] [[when|cuando]] it [[rained|llovió]].',
       options: ['he had', 'had he', 'did he'],
       correctAnswer: 'had he',
       explanation: 'Negative inversion.',
@@ -406,7 +406,7 @@ export const C1_U30_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 10),
       type: 'multiple-choice',
-      question: 'I\'d "[[rather|preferiría]] you ___ "[[go|vayas]].',
+      question: 'I\'d [[rather|preferiría]] you ___ [[go|vayas]].',
       options: ['haven\'t', 'don\'t', 'didn\'t'],
       correctAnswer: 'didn\'t',
       explanation: '"Would rather" + past simple for preference about others.',
@@ -423,7 +423,7 @@ export const C1_U30_BLOCK5: Exercise = {
   type: 'grammar',
   title: 'Final Mastery: Mixed Transformation',
   grammarPoint: 'Mixed Review',
-  explanation: 'The "[[ultimate|última]] test of your "[[linguistic|lingüística]] "[[flexibility|flexibilidad]].',
+  explanation: 'The [[ultimate|última]] test of your [[linguistic|lingüística]] [[flexibility|flexibilidad]].',
   questions: [
     {
       id: genId(UNIT_ID, 'b5', 1),
@@ -500,7 +500,7 @@ export const C1_U30_BLOCK5: Exercise = {
     {
       id: genId(UNIT_ID, 'b5', 9),
       type: 'multiple-choice',
-      question: 'They were so poor they couldn\'t buy bread. (SUCH) \n ___ was their "[[poverty|pobreza]] that they couldn\'t buy bread.',
+      question: 'They were so poor they couldn\'t buy bread. (SUCH) \n ___ was their [[poverty|pobreza]] that they couldn\'t buy bread.',
       options: ['So', 'Such', 'How'],
       correctAnswer: 'Such',
       explanation: '"Such" inversion.',

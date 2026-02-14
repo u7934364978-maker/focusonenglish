@@ -11,96 +11,96 @@ export const C1_U9_BLOCK1: Exercise = {
   type: 'grammar',
   title: 'It-Cleft Sentences for Emphasis',
   grammarPoint: 'Cleft Sentences',
-  explanation: 'Use "It is/was... that/who" to "[[highlight|resaltar]] a specific part of the "[[sentence|oración]].',
+  explanation: 'Use "It is/was... that/who" to [[highlight|resaltar]] a specific part of the [[sentence|oración]].',
   questions: [
     {
       id: genId(UNIT_ID, 'b1', 1),
       type: 'multiple-choice',
-      question: '___ was the "[[manager|gerente]] "[[who|quien]] made the "[[final|final]] "[[decision|decisión]], not the "[[director|director]].',
+      question: '___ was the [[manager|gerente]] [[who|quien]] made the [[final|final]] [[decision|decisión]], not the [[director|director]].',
       options: ['He', 'It', 'There'],
       correctAnswer: 'It',
-      explanation: 'Standard "It-cleft" structure to emphasize the "[[subject|sujeto]].',
+      explanation: 'Standard "It-cleft" structure to emphasize the [[subject|sujeto]].',
       points: 1
     },
     {
       id: genId(UNIT_ID, 'b1', 2),
       type: 'multiple-choice',
-      question: 'It is her "[[unwavering|inquebrantable]] "[[dedication|dedicación]] ___ "[[sets|establece]] her "[[apart|aparte]].',
+      question: 'It is her [[unwavering|inquebrantable]] [[dedication|dedicación]] ___ [[sets|establece]] her [[apart|aparte]].',
       options: ['who', 'which', 'that'],
       correctAnswer: 'that',
-      explanation: 'Use "that" to "[[connect|conectar]] the emphasized part with the rest of the "[[clause|cláusula]].',
+      explanation: 'Use "that" to [[connect|conectar]] the emphasized part with the rest of the [[clause|cláusula]].',
       points: 1
     },
     {
       id: genId(UNIT_ID, 'b1', 3),
       type: 'multiple-choice',
-      question: 'It was only yesterday ___ they "[[announced|anunciaron]] the "[[merger|fusión]].',
+      question: 'It was only yesterday ___ they [[announced|anunciaron]] the [[merger|fusión]].',
       options: ['when', 'then', 'that'],
       correctAnswer: 'that',
-      explanation: 'Emphasizing the "[[time|tiempo]] of an action.',
+      explanation: 'Emphasizing the [[time|tiempo]] of an action.',
       points: 1
     },
     {
       id: genId(UNIT_ID, 'b1', 4),
       type: 'multiple-choice',
-      question: '___ is "[[through|a través de]] "[[hard|duro]] "[[work|trabajo]] that "[[success|éxito]] is "[[achieved|logrado]].',
+      question: '___ is [[through|a través de]] [[hard|duro]] [[work|trabajo]] that [[success|éxito]] is [[achieved|logrado]].',
       options: ['That', 'How', 'It'],
       correctAnswer: 'It',
-      explanation: 'Emphasizing the "[[means|medio]] or "[[method|método]].',
+      explanation: 'Emphasizing the [[means|medio]] or [[method|método]].',
       points: 1
     },
     {
       id: genId(UNIT_ID, 'b1', 5),
       type: 'multiple-choice',
-      question: 'It wasn\'t me ___ "[[broke|rompió]] the "[[vase|jarrón]]!',
+      question: 'It wasn\'t me ___ [[broke|rompió]] the [[vase|jarrón]]!',
       options: ['which', 'that', 'who'],
       correctAnswer: 'who',
-      explanation: 'Use "who" when emphasizing a "[[person|persona]].',
+      explanation: 'Use "who" when emphasizing a [[person|persona]].',
       points: 1
     },
     {
       id: genId(UNIT_ID, 'b1', 6),
       type: 'multiple-choice',
-      question: 'It was in "[[Paris|París]] ___ they first "[[met|se conocieron]].',
+      question: 'It was in [[Paris|París]] ___ they first [[met|se conocieron]].',
       options: ['where', 'when', 'that'],
       correctAnswer: 'that',
-      explanation: 'Emphasizing the "[[location|ubicación]].',
+      explanation: 'Emphasizing the [[location|ubicación]].',
       points: 1
     },
     {
       id: genId(UNIT_ID, 'b1', 7),
       type: 'multiple-choice',
-      question: '___ was because of the "[[rain|lluvia]] that the "[[event|evento]] was "[[cancelled|cancelado]].',
+      question: '___ was because of the [[rain|lluvia]] that the [[event|evento]] was [[cancelled|cancelado]].',
       options: ['Which', 'Why', 'It'],
       correctAnswer: 'It',
-      explanation: 'Emphasizing the "[[reason|razón]].',
+      explanation: 'Emphasizing the [[reason|razón]].',
       points: 1
     },
     {
       id: genId(UNIT_ID, 'b1', 8),
       type: 'multiple-choice',
-      question: 'It is "[[precisely|precisamente]] this "[[issue|asunto]] ___ we need to "[[address|abordar]].',
+      question: 'It is [[precisely|precisamente]] this [[issue|asunto]] ___ we need to [[address|abordar]].',
       options: ['what', 'which', 'that'],
       correctAnswer: 'that',
-      explanation: 'Emphasizing the "[[object|objeto]] of the sentence.',
+      explanation: 'Emphasizing the [[object|objeto]] of the sentence.',
       points: 1
     },
     {
       id: genId(UNIT_ID, 'b1', 9),
       type: 'multiple-choice',
-      question: '___ was his "[[brother|hermano]] who "[[helped|ayudó]] him "[[escape|escapar]].',
+      question: '___ was his [[brother|hermano]] who [[helped|ayudó]] him [[escape|escapar]].',
       options: ['That', 'He', 'It'],
       correctAnswer: 'It',
-      explanation: 'Emphasizing the "[[agent|agente]].',
+      explanation: 'Emphasizing the [[agent|agente]].',
       points: 1
     },
     {
       id: genId(UNIT_ID, 'b1', 10),
       type: 'multiple-choice',
-      question: 'It is the "[[lack|falta]] of "[[funding|financiación]] ___ "[[worries|preocupa]] me the "[[most|más]].',
+      question: 'It is the [[lack|falta]] of [[funding|financiación]] ___ [[worries|preocupa]] me the [[most|más]].',
       options: ['what', 'which', 'that'],
       correctAnswer: 'that',
-      explanation: 'Emphasizing a "[[noun phrase|frase sustantiva]].',
+      explanation: 'Emphasizing a [[noun phrase|frase sustantiva]].',
       points: 1
     }
   ]
@@ -114,33 +114,33 @@ export const C1_U9_BLOCK2: Exercise = {
   type: 'grammar',
   title: 'Wh-Cleft Sentences (Pseudo-clefts)',
   grammarPoint: 'Cleft Sentences',
-  explanation: 'Use "What... is/was..." to focus on an "[[entire|entera]] "[[idea|idea]] or action.',
+  explanation: 'Use "What... is/was..." to focus on an [[entire|entera]] [[idea|idea]] or action.',
   questions: [
     {
       id: genId(UNIT_ID, 'b2', 1),
       type: 'multiple-choice',
-      question: '___ I need is a long "[[holiday|vacaciones]].',
+      question: '___ I need is a long [[holiday|vacaciones]].',
       options: ['Which', 'That', 'What'],
       correctAnswer: 'What',
-      explanation: 'Wh-cleft to focus on the "[[thing|cosa]] needed.',
+      explanation: 'Wh-cleft to focus on the [[thing|cosa]] needed.',
       points: 1
     },
     {
       id: genId(UNIT_ID, 'b2', 2),
       type: 'multiple-choice',
-      question: '___ they did was "[[completely|completamente]] "[[unacceptable|inaceptable]].',
+      question: '___ they did was [[completely|completamente]] [[unacceptable|inaceptable]].',
       options: ['That', 'How', 'What'],
       correctAnswer: 'What',
-      explanation: 'Focusing on an "[[action|acción]].',
+      explanation: 'Focusing on an [[action|acción]].',
       points: 1
     },
     {
       id: genId(UNIT_ID, 'b2', 3),
       type: 'multiple-choice',
-      question: '___ strikes me as "[[strange|extraño]] is his "[[silence|silencio]].',
+      question: '___ strikes me as [[strange|extraño]] is his [[silence|silencio]].',
       options: ['Which', 'It', 'What'],
       correctAnswer: 'What',
-      explanation: 'Focusing on a "[[perception|percepción]].',
+      explanation: 'Focusing on a [[perception|percepción]].',
       points: 1
     },
     {
@@ -149,61 +149,61 @@ export const C1_U9_BLOCK2: Exercise = {
       question: '___ happens next is up to you.',
       options: ['Whatever', 'That', 'What'],
       correctAnswer: 'What',
-      explanation: 'Focusing on a "[[future|futuro]] event.',
+      explanation: 'Focusing on a [[future|futuro]] event.',
       points: 1
     },
     {
       id: genId(UNIT_ID, 'b2', 5),
       type: 'multiple-choice',
-      question: '___ I love about this city is its "[[vibrant|vibrante]] "[[culture|cultura]].',
+      question: '___ I love about this city is its [[vibrant|vibrante]] [[culture|cultura]].',
       options: ['Which', 'Where', 'What'],
       correctAnswer: 'What',
-      explanation: 'Focusing on a "[[specific|específico]] "[[aspect|aspecto]].',
+      explanation: 'Focusing on a [[specific|específico]] [[aspect|aspecto]].',
       points: 1
     },
     {
       id: genId(UNIT_ID, 'b2', 6),
       type: 'multiple-choice',
-      question: '___ surprised us all was her "[[sudden|repentina]] "[[departure|salida]].',
+      question: '___ surprised us all was her [[sudden|repentina]] [[departure|salida]].',
       options: ['It', 'That', 'What'],
       correctAnswer: 'What',
-      explanation: 'Focusing on a "[[cause|causa]] of surprise.',
+      explanation: 'Focusing on a [[cause|causa]] of surprise.',
       points: 1
     },
     {
       id: genId(UNIT_ID, 'b2', 7),
       type: 'multiple-choice',
-      question: '___ you should do is "[[apologize|disculparte]].',
+      question: '___ you should do is [[apologize|disculparte]].',
       options: ['How', 'That', 'What'],
       correctAnswer: 'What',
-      explanation: 'Focusing on a "[[recommended|recomendada]] action.',
+      explanation: 'Focusing on a [[recommended|recomendada]] action.',
       points: 1
     },
     {
       id: genId(UNIT_ID, 'b2', 8),
       type: 'multiple-choice',
-      question: '___ matters most is your "[[health|salud]].',
+      question: '___ matters most is your [[health|salud]].',
       options: ['Which', 'It', 'What'],
       correctAnswer: 'What',
-      explanation: 'Focusing on "[[priority|prioridad]].',
+      explanation: 'Focusing on [[priority|prioridad]].',
       points: 1
     },
     {
       id: genId(UNIT_ID, 'b2', 9),
       type: 'multiple-choice',
-      question: '___ I can\'t "[[stand|soportar]] is his "[[arrogance|arrogancia]].',
+      question: '___ I can\'t [[stand|soportar]] is his [[arrogance|arrogancia]].',
       options: ['Which', 'That', 'What'],
       correctAnswer: 'What',
-      explanation: 'Focusing on a "[[negative|negativo]] trait.',
+      explanation: 'Focusing on a [[negative|negativo]] trait.',
       points: 1
     },
     {
       id: genId(UNIT_ID, 'b2', 10),
       type: 'multiple-choice',
-      question: '___ he said "[[shocked|conmocionó]] everyone.',
+      question: '___ he said [[shocked|conmocionó]] everyone.',
       options: ['That', 'Which', 'What'],
       correctAnswer: 'What',
-      explanation: 'Focusing on the "[[content|contenido]] of speech.',
+      explanation: 'Focusing on the [[content|contenido]] of speech.',
       points: 1
     }
   ]
@@ -217,7 +217,7 @@ export const C1_U9_BLOCK3: Exercise = {
   type: 'grammar',
   title: 'Key Word Transformation: Emphasis',
   grammarPoint: 'Emphasis',
-  explanation: 'Rewrite the "[[sentence|oración]] to make it more "[[emphatic|enfática]] using the "[[given|dada]] word.',
+  explanation: 'Rewrite the [[sentence|oración]] to make it more [[emphatic|enfática]] using the [[given|dada]] word.',
   questions: [
     {
       id: genId(UNIT_ID, 'b3', 1),
@@ -234,7 +234,7 @@ export const C1_U9_BLOCK3: Exercise = {
       question: 'He didn\'t just lose the keys; he lost his wallet too. (NOT ONLY) \n ___ the keys, but he lost his wallet too.',
       options: ['Not only did he lose', 'Not only he lost', 'Did he not only lose'],
       correctAnswer: 'Not only did he lose',
-      explanation: 'Using "[[inversion|inversión]] with "Not only".',
+      explanation: 'Using [[inversion|inversión]] with "Not only".',
       points: 2
     },
     {
@@ -261,7 +261,7 @@ export const C1_U9_BLOCK3: Exercise = {
       question: 'The noise woke me up. (THAT) \n It was the noise ___ up.',
       options: ['that woke me', 'who woke me', 'what woke me'],
       correctAnswer: 'that woke me',
-      explanation: 'Focusing on the "[[agent|agente]] of the action.',
+      explanation: 'Focusing on the [[agent|agente]] of the action.',
       points: 2
     },
     {
@@ -270,7 +270,7 @@ export const C1_U9_BLOCK3: Exercise = {
       question: 'I\'ve never seen such a beautiful sunset. (NEVER) \n ___ such a beautiful sunset.',
       options: ['Never have I seen', 'Never I have seen', 'Never I saw'],
       correctAnswer: 'Never have I seen',
-      explanation: 'Inversion with "[[negative|negativo]] adverbial.',
+      explanation: 'Inversion with [[negative|negativo]] adverbial.',
       points: 2
     },
     {
@@ -288,7 +288,7 @@ export const C1_U9_BLOCK3: Exercise = {
       question: 'She wants to go to Italy. (PLACE) \n ___ she wants to go is Italy.',
       options: ['The place where', 'Where', 'That place where'],
       correctAnswer: 'The place where',
-      explanation: 'Cleft sentence using a "[[place|lugar]] focus.',
+      explanation: 'Cleft sentence using a [[place|lugar]] focus.',
       points: 2
     },
     {
@@ -320,21 +320,21 @@ export const C1_U9_BLOCK4: Exercise = {
   type: 'vocabulary',
   title: 'Emphatic Adjectives & Adverbs',
   grammarPoint: 'Vocabulary',
-  explanation: 'Use "[[powerful|poderosos]] words to add "[[emphasis|énfasis]] and "[[color|color]] to your "[[descriptions|descripciones]].',
+  explanation: 'Use [[powerful|poderosos]] words to add [[emphasis|énfasis]] and [[color|color]] to your [[descriptions|descripciones]].',
   questions: [
     {
       id: genId(UNIT_ID, 'b4', 1),
       type: 'multiple-choice',
-      question: 'The view from the top was ___ "[[breathtaking|asombroso]].',
+      question: 'The view from the top was ___ [[breathtaking|asombroso]].',
       options: ['very', 'fairly', 'absolutely'],
       correctAnswer: 'absolutely',
-      explanation: 'Use "absolutely" with "[[ungradable|no graduables]] adjectives.',
+      explanation: 'Use "absolutely" with [[ungradable|no graduables]] adjectives.',
       points: 1
     },
     {
       id: genId(UNIT_ID, 'b4', 2),
       type: 'multiple-choice',
-      question: 'The "[[film|película]] was ___ "[[fascinating|fascinante]].',
+      question: 'The [[film|película]] was ___ [[fascinating|fascinante]].',
       options: ['a bit', 'slightly', 'utterly'],
       correctAnswer: 'utterly',
       explanation: '"Utterly" adds strong emphasis.',
@@ -343,43 +343,43 @@ export const C1_U9_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 3),
       type: 'multiple-choice',
-      question: 'He was ___ "[[devastated|devastado]] by the news.',
+      question: 'He was ___ [[devastated|devastado]] by the news.',
       options: ['rather', 'somewhat', 'totally'],
       correctAnswer: 'totally',
-      explanation: 'Emphasizing a strong "[[emotional|emocional]] state.',
+      explanation: 'Emphasizing a strong [[emotional|emocional]] state.',
       points: 1
     },
     {
       id: genId(UNIT_ID, 'b4', 4),
       type: 'multiple-choice',
-      question: 'The "[[cost|costo]] of the project is ___ "[[prohibitive|prohibitivo]].',
+      question: 'The [[cost|costo]] of the project is ___ [[prohibitive|prohibitivo]].',
       options: ['kind of', 'little', 'simply'],
       correctAnswer: 'simply',
-      explanation: '"Simply" is used for "[[direct|directo]] emphasis.',
+      explanation: '"Simply" is used for [[direct|directo]] emphasis.',
       points: 1
     },
     {
       id: genId(UNIT_ID, 'b4', 5),
       type: 'multiple-choice',
-      question: 'She is a ___ "[[brilliant|brillante]] "[[scientist|científica]].',
+      question: 'She is a ___ [[brilliant|brillante]] [[scientist|científica]].',
       options: ['fairly', 'pretty', 'truly'],
       correctAnswer: 'truly',
-      explanation: '"Truly" emphasizes the "[[truth|verdad]] of a quality.',
+      explanation: '"Truly" emphasizes the [[truth|verdad]] of a quality.',
       points: 1
     },
     {
       id: genId(UNIT_ID, 'b4', 6),
       type: 'multiple-choice',
-      question: 'The food was ___ "[[delicious|delicioso]].',
+      question: 'The food was ___ [[delicious|delicioso]].',
       options: ['quite', 'nearly', 'downright'],
       correctAnswer: 'downright',
-      explanation: '"Downright" is an "[[informal|informal]] but strong "[[intensifier|intensificador]].',
+      explanation: '"Downright" is an [[informal|informal]] but strong [[intensifier|intensificador]].',
       points: 1
     },
     {
       id: genId(UNIT_ID, 'b4', 7),
       type: 'multiple-choice',
-      question: 'The "[[situation|situación]] is ___ "[[ridiculous|ridícula]].',
+      question: 'The [[situation|situación]] is ___ [[ridiculous|ridícula]].',
       options: ['moderately', 'barely', 'perfectly'],
       correctAnswer: 'perfectly',
       explanation: '"Perfectly" used for ironic or strong emphasis.',
@@ -388,16 +388,16 @@ export const C1_U9_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 8),
       type: 'multiple-choice',
-      question: 'It was a ___ "[[disaster|desastre]].',
+      question: 'It was a ___ [[disaster|desastre]].',
       options: ['half', 'minor', 'complete'],
       correctAnswer: 'complete',
-      explanation: '"Complete" emphasizes the "[[totality|totalidad]] of a noun.',
+      explanation: '"Complete" emphasizes the [[totality|totalidad]] of a noun.',
       points: 1
     },
     {
       id: genId(UNIT_ID, 'b4', 9),
       type: 'multiple-choice',
-      question: 'I was ___ "[[exhausted|agotado]] after the long walk.',
+      question: 'I was ___ [[exhausted|agotado]] after the long walk.',
       options: ['positively', 'slightly', 'partly'],
       correctAnswer: 'positively',
       explanation: '"Positively" adds affirmative emphasis.',
@@ -406,7 +406,7 @@ export const C1_U9_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 10),
       type: 'multiple-choice',
-      question: 'The "[[results|resultados]] are ___ "[[extraordinary|extraordinarios]].',
+      question: 'The [[results|resultados]] are ___ [[extraordinary|extraordinarios]].',
       options: ['quite', 'fairly', 'rather'],
       correctAnswer: 'quite',
       explanation: '"Quite" can mean "completely" with ungradable adjectives.',
@@ -423,12 +423,12 @@ export const C1_U9_BLOCK5: Exercise = {
   type: 'grammar',
   title: 'Unit 9 Review',
   grammarPoint: 'Emphasis & Clefts',
-  explanation: 'Test your "[[mastery|maestría]] of "[[emphatic|enfáticas]] structures.',
+  explanation: 'Test your [[mastery|maestría]] of [[emphatic|enfáticas]] structures.',
   questions: [
     {
       id: genId(UNIT_ID, 'b5', 1),
       type: 'multiple-choice',
-      question: '___ was the "[[wind|viento]] that "[[blew|sopló]] down the tree.',
+      question: '___ was the [[wind|viento]] that [[blew|sopló]] down the tree.',
       options: ['It', 'What', 'There'],
       correctAnswer: 'It',
       explanation: 'It-cleft for emphasis.',
@@ -437,7 +437,7 @@ export const C1_U9_BLOCK5: Exercise = {
     {
       id: genId(UNIT_ID, 'b5', 2),
       type: 'multiple-choice',
-      question: '___ I want is a "[[clear|clara]] explanation.',
+      question: '___ I want is a [[clear|clara]] explanation.',
       options: ['What', 'That', 'Which'],
       correctAnswer: 'What',
       explanation: 'Wh-cleft for emphasis.',
@@ -446,7 +446,7 @@ export const C1_U9_BLOCK5: Exercise = {
     {
       id: genId(UNIT_ID, 'b5', 3),
       type: 'multiple-choice',
-      question: 'I was ___ "[[amazed|asombrado]] by her "[[talent|talento]].',
+      question: 'I was ___ [[amazed|asombrado]] by her [[talent|talento]].',
       options: ['utterly', 'very', 'fairly'],
       correctAnswer: 'utterly',
       explanation: 'Intensifier with ungradable adjective.',
@@ -455,7 +455,7 @@ export const C1_U9_BLOCK5: Exercise = {
     {
       id: genId(UNIT_ID, 'b5', 4),
       type: 'multiple-choice',
-      question: 'It is "[[important|importante]] ___ you "[[attend|asistas]].',
+      question: 'It is [[important|importante]] ___ you [[attend|asistas]].',
       options: ['that', 'which', 'what'],
       correctAnswer: 'that',
       explanation: 'Standard it-cleft connector.',
@@ -464,7 +464,7 @@ export const C1_U9_BLOCK5: Exercise = {
     {
       id: genId(UNIT_ID, 'b5', 5),
       type: 'multiple-choice',
-      question: '___ only did he "[[fail|fallar]], but he "[[also|también]] "[[gave|dio]] up.',
+      question: '___ only did he [[fail|fallar]], but he [[also|también]] [[gave|dio]] up.',
       options: ['Not', 'No', 'Never'],
       correctAnswer: 'Not',
       explanation: 'Not only inversion.',
@@ -473,7 +473,7 @@ export const C1_U9_BLOCK5: Exercise = {
     {
       id: genId(UNIT_ID, 'b5', 6),
       type: 'multiple-choice',
-      question: '___ surprised me "[[most|más]] was his "[[kindness|bondad]].',
+      question: '___ surprised me [[most|más]] was his [[kindness|bondad]].',
       options: ['What', 'It', 'That'],
       correctAnswer: 'What',
       explanation: 'Wh-cleft focus.',
@@ -482,7 +482,7 @@ export const C1_U9_BLOCK5: Exercise = {
     {
       id: genId(UNIT_ID, 'b5', 7),
       type: 'multiple-choice',
-      question: 'It was the "[[weather|clima]] ___ "[[spoiled|arruinó]] the "[[trip|viaje]].',
+      question: 'It was the [[weather|clima]] ___ [[spoiled|arruinó]] the [[trip|viaje]].',
       options: ['that', 'which', 'who'],
       correctAnswer: 'that',
       explanation: 'It-cleft focusing on the cause.',
@@ -491,7 +491,7 @@ export const C1_U9_BLOCK5: Exercise = {
     {
       id: genId(UNIT_ID, 'b5', 8),
       type: 'multiple-choice',
-      question: 'I am ___ "[[certain|seguro]] that he is "[[lying|mintiendo]].',
+      question: 'I am ___ [[certain|seguro]] that he is [[lying|mintiendo]].',
       options: ['absolutely', 'slightly', 'fairly'],
       correctAnswer: 'absolutely',
       explanation: 'Strong emphasis.',
@@ -500,7 +500,7 @@ export const C1_U9_BLOCK5: Exercise = {
     {
       id: genId(UNIT_ID, 'b5', 9),
       type: 'multiple-choice',
-      question: '___ I need is a "[[bit|poco]] more "[[time|tiempo]].',
+      question: '___ I need is a [[bit|poco]] more [[time|tiempo]].',
       options: ['What', 'That', 'Which'],
       correctAnswer: 'What',
       explanation: 'Wh-cleft focus.',
@@ -509,7 +509,7 @@ export const C1_U9_BLOCK5: Exercise = {
     {
       id: genId(UNIT_ID, 'b5', 10),
       type: 'multiple-choice',
-      question: 'It was in "[[2010|2010]] ___ they "[[started|empezaron]] the "[[company|empresa]].',
+      question: 'It was in [[2010|2010]] ___ they [[started|empezaron]] the [[company|empresa]].',
       options: ['that', 'when', 'which'],
       correctAnswer: 'that',
       explanation: 'It-cleft for time emphasis.',

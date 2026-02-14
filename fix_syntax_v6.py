@@ -1,39 +1,49 @@
 import re
 import os
 
-def fix_joined_lines(file_path):
-    with open(file_path, 'r') as f:
-        content = f.read()
+def fix_line(line):
+    # Rule 1: Remove quote before [[ if preceded by a non-delimiter character
+    # (Delimiters are :, [, and whitespace at the start of value)
+    # We use ([^:\[\s]) to ensure we're inside a string
+    line = re.sub(r'([^:\[\s])\s*"\s*\[\[', r'\1 [[', line)
     
-    # Fix joined title and instructions
-    content = content.replace(']], "instructions":', ']]",\n      "instructions":')
+    # Rule 2: Remove quote after ]] if followed by a non-delimiter character
+    # (Delimiters are ,, ], }, and whitespace/newline)
+    line = re.sub(r'\]\]\s*"\s*([^,\]\}\s])', r']] \1', line)
     
-    # Fix joined options
-    # Error was: "[[off the beaten track|fuera de lo común]], "[[to the city center|al centro]], "[[by plane|en avión]]"
-    # It should be: "[[off the beaten track|fuera de lo común]]", "[[to the city center|al centro]]", "[[by plane|en avión]]"
+    # Rule 3: Specific case for ]] ", " [[ which often occurs in broken strings
+    line = re.sub(r'\]\]\s*"\s*,\s*"\s*\[\[', r']], [[', line)
     
-    # This regex should find tooltips followed by a comma and another tooltip without closing the first one correctly
-    # But since it's already joined, we look for: [[...]], "[[...]]
-    content = re.sub(r'(\[\[.*?\|.*?\]\]), "(\[\[.*?\|.*?\]\])', r'\1", "\2', content)
-    
-    # Fix the C1 issues again, correctly
-    content = content.replace("'didn\\',", "'didn\\'t',")
-    content = content.replace("'mustn\\',", "'mustn\\'t',")
-    content = content.replace("'can\\',", "'can\\'t',")
-    content = content.replace("'don\\',", "'don\\'t',")
-    content = content.replace("'he can\\',", "'he can\\'t',")
-    content = content.replace("'shouldn\\',", "'shouldn\\'t have told',")
-    content = content.replace("'hadn\\',", "'hadn\\'t been for',")
-    content = content.replace("'I\\'d\\',", "'I\\'d',")
+    # Rule 4: Handle period case: ]].", "[[ -> ]]. [[
+    line = re.sub(r'\]\]\s*\.\s*"\s*,\s*"\s*\[\[', r']]. [[', line)
 
-    with open(file_path, 'w') as f:
-        f.write(content)
+    # Rule 5: Fix the underscore case ______ "[[ -> ______ [[
+    line = re.sub(r'(__+)\s*"\s*\[\[', r'\1 [[', line)
+    
+    return line
 
-fix_joined_lines('src/lib/course/a1/unit-1.ts')
-fix_joined_lines('src/lib/course/b1/unit-29.ts')
-fix_joined_lines('src/lib/course/b1/unit-30.ts')
+def main():
+    base_dirs = [
+        'src/lib/course/a1',
+        'src/lib/course/b1',
+        'src/lib/course/b2'
+    ]
+    
+    for base_dir in base_dirs:
+        if not os.path.exists(base_dir):
+            continue
+        for filename in os.listdir(base_dir):
+            if filename.endswith('.ts'):
+                path = os.path.join(base_dir, filename)
+                with open(path, 'r', encoding='utf-8') as f:
+                    lines = f.readlines()
+                
+                new_lines = [fix_line(line) for line in lines]
+                
+                if new_lines != lines:
+                    with open(path, 'w', encoding='utf-8') as f:
+                        f.writelines(new_lines)
+                    print(f"Updated {path}")
 
-c1_dir = 'src/lib/c1-units/'
-for filename in os.listdir(c1_dir):
-    if filename.endswith('.ts'):
-        fix_joined_lines(os.path.join(c1_dir, filename))
+if __name__ == "__main__":
+    main()
