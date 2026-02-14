@@ -13,7 +13,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración sobre la inteligencia artificial.",
       "questions": [
         {
-          "question": "[[Artificial|Inteligencia]] [[intelligence|artificial]] [[is|está]] [[changing|cambiando]] [[the|la]] [[way|forma]] [[we|en que]] [[live|vivimos]] [[and|y]] [[work.|trabajamos.]]",
+          "question": "[[Artificial|Artificial]] [[intelligence|inteligencia]] [[is|está]] [[changing|cambiando]] [[the|la]] [[way|forma]] [[we|en que]] [[live|vivimos]] [[and|y]] [[work.|trabajamos.]]",
           "options": [
             "Artificial",
             "intelligence",
@@ -47,7 +47,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras usando el futuro perfecto.",
       "questions": [
         {
-          "question": "[[By|Para]] [[next|el]] [[year,|año que viene,]] [[they|ellos]] [[will|habrán]] [[have|desarrollado]] [[developed|un]] [[a|procesador]] [[faster|más]] [[processor.|rápido.]]",
+          "question": "[[By|Para]] [[next|el]] [[year,|próximo año,]] [[they|ellos]] [[will|habrán]] [[have| ]] [[developed|desarrollado]] [[a|un]] [[faster|más rápido]] [[processor.|procesador.]]",
           "options": [
             "By",
             "next",
@@ -81,7 +81,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para hablar de fallos de software.",
       "questions": [
         {
-          "question": "[[The|La]] [[latest|última]] [[software|actualización]] [[update|de software]] [[fixed|corrigió]] [[several|varios]] [[security|fallos de]] [[bugs.|seguridad.]]",
+          "question": "[[The|La]] [[latest|última]] [[software|software]] [[update|actualización]] [[fixed|corrigió]] [[several|varios]] [[security|seguridad]] [[bugs.|errores/fallos.]]",
           "options": [
             "The",
             "latest",
@@ -113,7 +113,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras usando el futuro continuo.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[will|estará]] [[be|presentando]] [[presenting|su]] [[her|invento]] [[invention|en la]] [[at|feria]] [[the|tecnológica.]] [[tech| ]] [[fair.| ]]",
+          "question": "[[She|Ella]] [[will|estará]] [[be| ]] [[presenting|presentando]] [[her|su]] [[invention|invento]] [[at|en]] [[the|la]] [[tech|tecnológica]] [[fair.|feria.]]",
           "options": [
             "She",
             "will",
@@ -147,7 +147,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras sobre computación en la nube.",
       "questions": [
         {
-          "question": "[[Cloud|La computación]] [[computing|en la nube]] [[allows|nos permite]] [[us|almacenar]] [[to|datos]] [[store|de forma]] [[data|remota.]] [[remotely.| ]]",
+          "question": "[[Cloud|Nube]] [[computing|computación]] [[allows|permite]] [[us|nos]] [[to| ]] [[store|almacenar]] [[data|datos]] [[remotely.|remotamente.]]",
           "options": [
             "Cloud",
             "computing",
@@ -179,7 +179,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras usando el futuro perfecto.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[will|habré]] [[have|terminado]] [[finished|la]] [[the|programación]] [[coding|para]] [[by|mañana]] [[tomorrow|por la tarde.]] [[evening.| ]]",
+          "question": "[[I|Yo]] [[will|habré]] [[have| ]] [[finished|terminado]] [[the|la]] [[coding|programación]] [[by|para]] [[tomorrow|mañana]] [[evening.|por la tarde.]]",
           "options": [
             "I",
             "will",
@@ -212,7 +212,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras sobre prioridades empresariales.",
       "questions": [
         {
-          "question": "[[Digital|La transformación]] [[transformation|digital]] [[is|es]] [[a|una]] [[priority|prioridad]] [[for|para]] [[many|muchas]] [[companies.|empresas.]]",
+          "question": "[[Digital|Digital]] [[transformation|transformación]] [[is|es]] [[a|una]] [[priority|prioridad]] [[for|para]] [[many|muchas]] [[companies.|empresas.]]",
           "options": [
             "Digital",
             "transformation",
@@ -244,7 +244,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras usando el futuro continuo.",
       "questions": [
         {
-          "question": "[[At|A]] [[this|esta]] [[time|hora]] [[tomorrow,|mañana,]] [[we|estaremos]] [[will|volando]] [[be|a]] [[flying|Tokio.]] [[to| ]] [[Tokyo.| ]]",
+          "question": "[[At|A]] [[this|esta]] [[time|hora]] [[tomorrow,|mañana,]] [[we|nosotros]] [[will|estaremos]] [[be| ]] [[flying|volando]] [[to|a]] [[Tokyo.|Tokio.]]",
           "options": [
             "At",
             "this",
@@ -278,7 +278,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras sobre amenazas digitales.",
       "questions": [
         {
-          "question": "[[Cybersecurity|Las amenazas]] [[threats|de ciberseguridad]] [[have|se han]] [[become|vuelto]] [[more|más]] [[sophisticated|sofisticadas]] [[recently.|recientemente.]]",
+          "question": "[[Cybersecurity|Ciberseguridad]] [[threats|amenazas]] [[have|se han]] [[become|vuelto]] [[more|más]] [[sophisticated|sofisticadas]] [[recently.|recientemente.]]",
           "options": [
             "Cybersecurity",
             "threats",
@@ -309,7 +309,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras usando el futuro perfecto continuo.",
       "questions": [
         {
-          "question": "[[He|Él]] [[will|habrá]] [[have|estado]] [[been|estudiando]] [[studying|robótica]] [[robotics|durante]] [[for|tres]] [[three|años]] [[years|pronto.]] [[soon.| ]]",
+          "question": "[[He|Él]] [[will|habrá]] [[have| ]] [[been|estado]] [[studying|estudiando]] [[robotics|robótica]] [[for|por/durante]] [[three|tres]] [[years|años]] [[soon.|pronto.]]",
           "options": [
             "He",
             "will",
@@ -343,7 +343,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras sobre el análisis masivo de datos.",
       "questions": [
         {
-          "question": "[[Big|El análisis de]] [[data|grandes datos]] [[analytics|puede proporcionar]] [[can|información]] [[provide|valiosa para]] [[valuable|las]] [[insights|empresas.]] [[for| ]] [[businesses.| ]]",
+          "question": "[[Big|Big]] [[data|data]] [[analytics|analítica]] [[can|puede]] [[provide|proporcionar]] [[valuable|valiosa]] [[insights|información/conocimiento]] [[for|para]] [[businesses.|empresas.]]",
           "options": [
             "Big",
             "data",
@@ -409,7 +409,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras sobre dispositivos conectados.",
       "questions": [
         {
-          "question": "[[Internet|El internet]] [[of|de]] [[Things|las cosas]] [[connects|conecta]] [[everyday|dispositivos]] [[devices|cotidianos]] [[to|a]] [[the|la]] [[web.|red.]]",
+          "question": "[[Internet|Internet]] [[of|de]] [[Things|cosas]] [[connects|conecta]] [[everyday|cotidianos]] [[devices|dispositivos]] [[to|a]] [[the|la]] [[web.|red.]]",
           "options": [
             "Internet",
             "of",
@@ -442,7 +442,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras usando el futuro perfecto continuo.",
       "questions": [
         {
-          "question": "[[By|Para]] [[tomorrow,|mañana,]] [[I'll|habré]] [[have|estado]] [[been|trabajando]] [[working|en]] [[on|esto]] [[this|durante]] [[for|varios]] [[days.|días.]]",
+          "question": "[[By|Para]] [[tomorrow,|mañana,]] [[I'll|habré]] [[have| ]] [[been|estado]] [[working|trabajando]] [[on|en]] [[this|esto]] [[for|durante]] [[days.|días.]]",
           "options": [
             "By",
             "tomorrow,",
@@ -476,7 +476,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras sobre sistemas automáticos.",
       "questions": [
         {
-          "question": "[[Automated|Los sistemas]] [[systems|automatizados]] [[are|están]] [[replacing|reemplazando]] [[manual|la mano de]] [[labor|obra manual]] [[in|en las]] [[factories.|fábricas.]]",
+          "question": "[[Automated|Automatizados]] [[systems|sistemas]] [[are|están]] [[replacing|reemplazando]] [[manual|manual]] [[labor|mano de obra]] [[in|en]] [[factories.|fábricas.]]",
           "options": [
             "Automated",
             "systems",
@@ -508,7 +508,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una pregunta en futuro perfecto.",
       "questions": [
         {
-          "question": "[[Will|¿Habrás]] [[you|tú]] [[have|terminado]] [[completed|el]] [[the|informe]] [[report|para]] [[by|el viernes]] [[Friday|por la tarde?]] [[afternoon?| ]]",
+          "question": "[[Will|¿Habrás]] [[you|tú]] [[have| ]] [[completed|terminado]] [[the|el]] [[report|informe]] [[by|para]] [[Friday|viernes]] [[afternoon?|por la tarde?]]",
           "options": [
             "Will",
             "you",
@@ -541,7 +541,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras sobre la industria del entretenimiento.",
       "questions": [
         {
-          "question": "[[Streaming|Los servicios]] [[services|de streaming]] [[have|han]] [[revolutionized|revolucionado]] [[the|la]] [[entertainment|industria del]] [[industry.|entretenimiento.]]",
+          "question": "[[Streaming|Streaming]] [[services|servicios]] [[have|han]] [[revolutionized|revolucionado]] [[the|la]] [[entertainment|entretenimiento]] [[industry.|industria.]]",
           "options": [
             "Streaming",
             "services",
@@ -572,7 +572,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras usando el futuro continuo.",
       "questions": [
         {
-          "question": "[[Next|La semana]] [[week,|que viene,]] [[she|ella]] [[will|estará]] [[be|liderando]] [[leading|el equipo]] [[the|de]] [[development|desarrollo.]] [[team.| ]]",
+          "question": "[[Next|Próxima]] [[week,|semana,]] [[she|ella]] [[will|estará]] [[be| ]] [[leading|liderando]] [[the|el]] [[development|desarrollo]] [[team.|equipo.]]",
           "options": [
             "Next",
             "week,",
@@ -605,7 +605,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras sobre aplicaciones móviles.",
       "questions": [
         {
-          "question": "[[User-friendly|Las interfaces]] [[interfaces|fáciles de usar]] [[are|son]] [[essential|esenciales]] [[for|para las]] [[mobile|aplicaciones]] [[applications.|móviles.]]",
+          "question": "[[User-friendly|Fácil de usar]] [[interfaces|interfaces]] [[are|son]] [[essential|esenciales]] [[for|para]] [[mobile|móviles]] [[applications.|aplicaciones.]]",
           "options": [
             "User-friendly",
             "interfaces",
@@ -636,7 +636,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una pregunta en futuro perfecto.",
       "questions": [
         {
-          "question": "[[Will|¿Habrán]] [[they|ellos]] [[have|lanzado]] [[launched|la]] [[the|aplicación]] [[app|antes de]] [[before|la]] [[the|conferencia?]] [[conference?| ]]",
+          "question": "[[Will|¿Habrán]] [[they|ellos]] [[have| ]] [[launched|lanzado]] [[the|la]] [[app|aplicación]] [[before|antes de]] [[the|la]] [[conference?|conferencia?]]",
           "options": [
             "Will",
             "they",
@@ -669,7 +669,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras sobre el progreso y la calidad de vida.",
       "questions": [
         {
-          "question": "[[Technological|Los avances]] [[advancements|tecnológicos]] [[have|han]] [[improved|mejorado]] [[our|nuestra]] [[quality|calidad]] [[of|de]] [[life.|vida.]]",
+          "question": "[[Technological|Tecnológicos]] [[advancements|avances]] [[have|han]] [[improved|mejorado]] [[our|nuestra]] [[quality|calidad]] [[of|de]] [[life.|vida.]]",
           "options": [
             "Technological",
             "advancements",
@@ -701,7 +701,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras usando el futuro continuo.",
       "questions": [
         {
-          "question": "[[Next|El]] [[year,|año que viene,]] [[he|él]] [[will|estará]] [[be|celebrando]] [[celebrating|su]] [[his|décimo]] [[tenth|año]] [[year|en la]] [[at|empresa.]] [[the| ]] [[firm.| ]]",
+          "question": "[[Next|Próximo]] [[year,|año,]] [[he|él]] [[will|estará]] [[be| ]] [[celebrating|celebrando]] [[his|su]] [[tenth|décimo]] [[year|año]] [[at|en]] [[the|la]] [[firm.|empresa.]]",
           "options": [
             "Next",
             "year,",
@@ -737,7 +737,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras sobre experiencias inmersivas.",
       "questions": [
         {
-          "question": "[[Virtual|La realidad]] [[reality|virtual]] [[provides|proporciona]] [[an|una]] [[immersive|experiencia]] [[experience|inmersiva para]] [[for|los]] [[gamers.|jugadores.]]",
+          "question": "[[Virtual|Virtual]] [[reality|realidad]] [[provides|proporciona]] [[an|una]] [[immersive|inmersiva]] [[experience|experiencia]] [[for|para]] [[gamers.|jugadores.]]",
           "options": [
             "Virtual",
             "reality",
@@ -769,7 +769,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras usando el futuro perfecto.",
       "questions": [
         {
-          "question": "[[By|Para]] [[the|el]] [[end|final]] [[of|del]] [[the|día,]] [[day,|habremos]] [[we'll|resuelto]] [[have|el]] [[solved|problema.]] [[the| ]] [[problem.| ]]",
+          "question": "[[By|Para]] [[the|el]] [[end|final]] [[of|de]] [[the|el]] [[day,|día,]] [[we'll|habremos]] [[have| ]] [[solved|resuelto]] [[the|el]] [[problem.|problema.]]",
           "options": [
             "By",
             "the",
@@ -804,7 +804,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras sobre innovación y mercado.",
       "questions": [
         {
-          "question": "[[Innovation|La innovación]] [[is|es]] [[the|la]] [[key|clave]] [[to|para]] [[remaining|seguir siendo]] [[competitive|competitivo]] [[in|en el]] [[the|mercado.]] [[market.| ]]",
+          "question": "[[Innovation|Innovación]] [[is|es]] [[the|la]] [[key|clave]] [[to|para]] [[remaining|permanecer/seguir siendo]] [[competitive|competitivo]] [[in|en]] [[the|el]] [[market.|mercado.]]",
           "options": [
             "Innovation",
             "is",
