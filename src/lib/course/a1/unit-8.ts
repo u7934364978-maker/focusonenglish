@@ -89,26 +89,6 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u8-e5',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Daily Routine',
-    topicName: 'Daily Grind',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Breakfast',
-      instructions: 'Di la palabra para "desayuno".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Breakfast',
-          correctAnswer: 'Breakfast',
-          explanation: 'Aunque viene de "break", se pronuncia con una "e" corta: /brek/.'
-        }
-      ]
-    }
-  },
-  {
     id: 'a1-u8-e6',
     type: 'matching',
     level: 'A1',
@@ -227,26 +207,6 @@ export const UNIT_8_EXERCISES: Exercise[] = [
           options: ['read', 'write', 'watch'],
           correctAnswer: 0,
           explanation: '"Read" es leer. Se pronuncia /riːd/.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u8-e12',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Daily Routine',
-    topicName: 'Daily Grind',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Work',
-      instructions: 'Di la palabra para "trabajo".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Work',
-          correctAnswer: 'Work',
-          explanation: 'La "o" suena como una "e" muy cerrada y profunda (/wɜːrk/).'
         }
       ]
     }
@@ -375,26 +335,6 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u8-e19',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Daily Routine',
-    topicName: 'Daily Grind',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Shower',
-      instructions: 'Di la palabra para "ducha".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Shower',
-          correctAnswer: 'Shower',
-          explanation: 'La "sh" es suave y la terminación suena como "auer".'
-        }
-      ]
-    }
-  },
-  {
     id: 'a1-u8-e20',
     type: 'matching',
     level: 'A1',
@@ -513,26 +453,6 @@ export const UNIT_8_EXERCISES: Exercise[] = [
           options: ['exercise', 'eat', 'sleep'],
           correctAnswer: 0,
           explanation: '"Exercise" significa hacer ejercicio.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u8-e26',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Daily Routine',
-    topicName: 'Daily Grind',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Lunch',
-      instructions: 'Di la palabra para "almuerzo".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Lunch',
-          correctAnswer: 'Lunch',
-          explanation: 'La "u" suena como una "a" corta y la "ch" es marcada.'
         }
       ]
     }
@@ -661,26 +581,6 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u8-e33',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Daily Routine',
-    topicName: 'Daily Grind',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Dinner',
-      instructions: 'Di la palabra para "cena".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Dinner',
-          correctAnswer: 'Dinner',
-          explanation: 'Se acentúa la primera sílaba: DI-nner.'
-        }
-      ]
-    }
-  },
-  {
     id: 'a1-u8-e34',
     type: 'matching',
     level: 'A1',
@@ -804,26 +704,6 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u8-e40',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Daily Routine',
-    topicName: 'Daily Grind',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Study',
-      instructions: 'Di la palabra para "estudiar".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Study',
-          correctAnswer: 'Study',
-          explanation: 'No añadas una "e" al principio. Empieza directamente con el sonido de la "s" (/ˈstʌdi/).'
-        }
-      ]
-    }
-  },
-  {
     id: 'a1-u8-e41',
     type: 'matching',
     level: 'A1',
@@ -942,26 +822,6 @@ export const UNIT_8_EXERCISES: Exercise[] = [
           options: ['hard', 'easy', 'small'],
           correctAnswer: 0,
           explanation: '"Work hard" significa trabajar duro o mucho.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u8-e47',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Daily Routine',
-    topicName: 'Daily Grind',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Sleep',
-      instructions: 'Di la palabra para "dormir".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Sleep',
-          correctAnswer: 'Sleep',
-          explanation: 'Alarga el sonido de la "ee" (/sliːp/).'
         }
       ]
     }
