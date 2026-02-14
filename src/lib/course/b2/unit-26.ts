@@ -1,953 +1,1321 @@
 import { Exercise } from "@/types/course";
 
 export const UNIT_26_EXERCISES: Exercise[] = [
-  // 1-10: Grammar - Negative Inversion (Never, Seldom, Rarely)
+  // 1-25: Sentence Building (Grammar - Negative Inversion & Vocabulary - Crime & Punishment)
   {
-    id: "b2-u26-e1",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "hard",
-    transcript: "Never have I seen such a crime.",
-    content: {
-      title: "Negative Inversion",
-      instructions: "Choose the correct word order for emphasis.",
-      question: "[[Never ___ such a crime.|Nunca he visto un crimen así.]]",
-      options: ["did I saw", "I have seen", "have I seen"],
-      correctAnswer: "have I seen",
-      explanation: "When a sentence starts with 'Never', use auxiliary + subject + verb.",
-      translation: "Nunca he visto un crimen así.",
-      hint: "Auxiliary before subject."
+    "id": "b2-u26-e1",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "Never have I seen such a brazen act of burglary.",
+    "content": {
+      "title": "Robo descarado",
+      "instructions": "Ordena las palabras usando inversión negativa con 'Never'.",
+      "correctSentence": "[[Never|Nunca]] [[have|he]] [[I|visto]] [[seen|un]] [[such|acto]] [[a|de]] [[brazen|robo]] [[act|tan]] [[of|descarado.]] [[burglary.|]]",
+      "words": [
+        "[[seen|visto]]",
+        "[[brazen|robo]]",
+        "[[I|visto]]",
+        "[[Never|Nunca]]",
+        "[[burglary.|]]",
+        "[[act|tan]]",
+        "[[have|he]]",
+        "[[such|acto]]",
+        "[[of|descarado.]]",
+        "[[a|de]]"
+      ],
+      "explanation": "La inversión con 'Never' requiere el auxiliar antes del sujeto.",
+      "audio": "audio/b2/unit-26/e1.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-26/e1.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u26-e2",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "hard",
-    transcript: "Seldom do we find such evidence.",
-    content: {
-      title: "Negative Inversion",
-      instructions: "Choose the correct word order.",
-      question: "[[Seldom ___ such evidence.|Rara vez encontramos tal evidencia.]]",
-      options: ["did we found", "we find", "do we find"],
-      correctAnswer: "do we find",
-      explanation: "Inversion after 'Seldom'.",
-      translation: "Rara vez encontramos tal evidencia.",
-      hint: "Auxiliary + subject."
+    "id": "b2-u26-e2",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "Rarely do witnesses feel safe enough to testify against gangs.",
+    "content": {
+      "title": "Seguridad de los testigos",
+      "instructions": "Ordena las palabras para hablar de la protección de testigos.",
+      "correctSentence": "[[Rarely|Rara vez]] [[do|los testigos]] [[witnesses|se sienten]] [[feel|lo suficientemente]] [[safe|seguros]] [[enough|como para]] [[to|testificar]] [[testify|contra]] [[against|las]] [[gangs.|pandillas.]]",
+      "words": [
+        "[[safe|seguros]]",
+        "[[Rarely|Rara vez]]",
+        "[[gangs.|pandillas.]]",
+        "[[feel|se sienten]]",
+        "[[do|los testigos]]",
+        "[[witnesses|se sienten]]",
+        "[[testify|contra]]",
+        "[[enough|como para]]",
+        "[[against|las]]",
+        "[[to|testificar]]"
+      ],
+      "explanation": "'Rarely' va seguido de inversión: auxiliar (do) + sujeto (witnesses).",
+      "audio": "audio/b2/unit-26/e2.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-26/e2.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u26-e3",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "hard",
-    transcript: "Rarely has he been so helpful.",
-    content: {
-      title: "Negative Inversion",
-      instructions: "Choose the correct word order.",
-      question: "[[Rarely ___ so helpful.|Rara vez ha sido tan servicial.]]",
-      options: ["has he been", "he has been", "is he been"],
-      correctAnswer: "has he been",
-      explanation: "Inversion after 'Rarely'.",
-      translation: "Rara vez ha sido tan servicial.",
-      hint: "Auxiliary + subject."
+    "id": "b2-u26-e3",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "The judge decided to sentence the offender to community service.",
+    "content": {
+      "title": "Servicio comunitario",
+      "instructions": "Ordena las palabras sobre una sentencia judicial.",
+      "correctSentence": "[[The|El]] [[judge|juez]] [[decided|decidió]] [[to|sentenciar]] [[sentence|al]] [[the|delincuente]] [[offender|a]] [[to|trabajos]] [[community|en beneficio de la]] [[service.|comunidad.]]",
+      "words": [
+        "[[decided|decidió]]",
+        "[[offender|a]]",
+        "[[service.|comunidad.]]",
+        "[[judge|juez]]",
+        "[[community|en beneficio de la]]",
+        "[[sentence|al]]",
+        "[[the|delincuente]]",
+        "[[to|sentenciar]]",
+        "[[The|El]]",
+        "[[to|trabajos]]"
+      ],
+      "explanation": "'Sentence someone to' significa condenar a alguien a una pena específica.",
+      "audio": "audio/b2/unit-26/e3.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-26/e3.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u26-e4",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "hard",
-    transcript: "Little did they know about the trap.",
-    content: {
-      title: "Negative Inversion",
-      instructions: "Choose the correct word order.",
-      question: "[[Little ___ about the trap.|Poco sabían de la trampa.]]",
-      options: ["had they know", "they knew", "did they know"],
-      correctAnswer: "did they know",
-      explanation: "Inversion after 'Little' used with negative meaning.",
-      translation: "Poco sabían de la trampa.",
-      hint: "Auxiliary + subject."
+    "id": "b2-u26-e4",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "Little did the detective know that the suspect was an undercover agent.",
+    "content": {
+      "title": "Agente encubierto",
+      "instructions": "Ordena las palabras usando 'Little did'.",
+      "correctSentence": "[[Little|Poco]] [[did|sabía]] [[the|el]] [[detective|detective]] [[know|que]] [[that|el]] [[the|sospechoso]] [[suspect|era]] [[was|un]] [[an|agente]] [[undercover|encubierto.]] [[agent.|]]",
+      "words": [
+        "[[know|que]]",
+        "[[detective|detective]]",
+        "[[agent.|]]",
+        "[[suspect|era]]",
+        "[[was|un]]",
+        "[[Little|Poco]]",
+        "[[undercover|encubierto.]]",
+        "[[the|sospechoso]]",
+        "[[did|sabía]]",
+        "[[that|el]]",
+        "[[an|agente]]",
+        "[[the|el]]"
+      ],
+      "explanation": "'Little did he know' es una expresión fija que significa 'no tenía ni idea'.",
+      "audio": "audio/b2/unit-26/e4.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-26/e4.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u26-e5",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "hard",
-    transcript: "Hardly had the witness started speaking when he was interrupted.",
-    content: {
-      title: "Negative Inversion",
-      instructions: "Choose the correct word order.",
-      question: "[[Hardly ___ speaking when he was interrupted.|Apenas había empezado a hablar el testigo cuando fue interrumpido.]]",
-      options: ["did the witness started", "had the witness started", "the witness had started"],
-      correctAnswer: "had the witness started",
-      explanation: "Inversion after 'Hardly'.",
-      translation: "Apenas había empezado a hablar el testigo cuando fue interrumpido.",
-      hint: "Auxiliary + subject."
+    "id": "b2-u26-e5",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "The police managed to catch the pickpocket in the act.",
+    "content": {
+      "title": "Carterista capturado",
+      "instructions": "Ordena las palabras sobre una detención.",
+      "correctSentence": "[[The|La]] [[police|policía]] [[managed|logró]] [[to|atrapar]] [[catch|al]] [[the|carterista]] [[pickpocket|in]] [[in|fraganti.]] [[the|]] [[act.|]]",
+      "words": [
+        "[[catch|al]]",
+        "[[police|policía]]",
+        "[[the|]]",
+        "[[managed|logró]]",
+        "[[act.|]]",
+        "[[to|atrapar]]",
+        "[[The|La]]",
+        "[[pickpocket|in]]",
+        "[[in|fraganti.]]",
+        "[[the|carterista]]"
+      ],
+      "explanation": "'Catch someone in the act' significa pillar a alguien haciendo algo ilegal.",
+      "audio": "audio/b2/unit-26/e5.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-26/e5.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u26-e6",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "hard",
-    transcript: "Scarcely had I arrived when the alarm went off.",
-    content: {
-      title: "Negative Inversion",
-      instructions: "Choose the correct word order.",
-      question: "[[Scarcely ___ when the alarm went off.|Apenas había llegado cuando sonó la alarma.]]",
-      options: ["I had arrived", "had I arrived", "did I arrive"],
-      correctAnswer: "had I arrived",
-      explanation: "Inversion after 'Scarcely'.",
-      translation: "Apenas había llegado cuando sonó la alarma.",
-      hint: "Auxiliary + subject."
+    "id": "b2-u26-e6",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "Under no circumstances should you tamper with the crime scene.",
+    "content": {
+      "title": "La escena del crimen",
+      "instructions": "Ordena las palabras usando 'Under no circumstances'.",
+      "correctSentence": "[[Under|Bajo]] [[no|ninguna]] [[circumstances|circunstancia]] [[should|deberías]] [[you|alterar]] [[tamper|la]] [[with|escena]] [[the|del]] [[crime|crimen.]] [[scene.|]]",
+      "words": [
+        "[[crime|crimen.]]",
+        "[[should|deberías]]",
+        "[[Under|Bajo]]",
+        "[[scene.|]]",
+        "[[tamper|la]]",
+        "[[you|alterar]]",
+        "[[with|escena]]",
+        "[[no|ninguna]]",
+        "[[circumstances|circunstancia]]",
+        "[[the|del]]"
+      ],
+      "explanation": "'Under no circumstances' va seguido de inversión del verbo modal.",
+      "audio": "audio/b2/unit-26/e6.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-26/e6.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u26-e7",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "hard",
-    transcript: "No sooner had he left than the police arrived.",
-    content: {
-      title: "Negative Inversion",
-      instructions: "Choose the correct word order.",
-      question: "[[No sooner ___ than the police arrived.|No bien se había ido cuando llegó la policía.]]",
-      options: ["had he left", "he had left", "did he leave"],
-      correctAnswer: "had he left",
-      explanation: "Inversion after 'No sooner'. Note the use of 'than'.",
-      translation: "No bien se había ido cuando llegó la policía.",
-      hint: "Auxiliary + subject."
+    "id": "b2-u26-e7",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "Forgery is a serious offense that can lead to imprisonment.",
+    "content": {
+      "title": "Falsificación",
+      "instructions": "Ordena las palabras sobre delitos de falsedad.",
+      "correctSentence": "[[Forgery|La falsificación]] [[is|es]] [[a|un]] [[serious|delito]] [[offense|grave]] [[that|que]] [[can|puede]] [[lead|llevar]] [[to|a]] [[imprisonment.|la cárcel.]]",
+      "words": [
+        "[[is|es]]",
+        "[[can|puede]]",
+        "[[Forgery|La falsificación]]",
+        "[[serious|delito]]",
+        "[[offense|grave]]",
+        "[[imprisonment.|la cárcel.]]",
+        "[[lead|llevar]]",
+        "[[that|que]]",
+        "[[to|a]]",
+        "[[a|un]]"
+      ],
+      "explanation": "'Forgery' es el delito de falsificar documentos o dinero.",
+      "audio": "audio/b2/unit-26/e7.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-26/e7.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u26-e8",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "hard",
-    transcript: "Under no circumstances should you open the door.",
-    content: {
-      title: "Negative Inversion",
-      instructions: "Choose the correct word order.",
-      question: "[[Under no circumstances ___ the door.|Bajo ninguna circunstancia debes abrir la puerta.]]",
-      options: ["shall you open", "should you open", "you should open"],
-      correctAnswer: "should you open",
-      explanation: "Inversion after 'Under no circumstances'.",
-      translation: "Bajo ninguna circunstancia debes abrir la puerta.",
-      hint: "Auxiliary + subject."
+    "id": "b2-u26-e8",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "Only when the trial was over did the truth emerge.",
+    "content": {
+      "title": "El final del juicio",
+      "instructions": "Ordena las palabras usando inversión con 'Only when'.",
+      "correctSentence": "[[Only|Solo]] [[when|cuando]] [[the|el]] [[trial|juicio]] [[was|terminó]] [[over|]] [[did|salió]] [[the|a]] [[truth|la]] [[emerge.|luz la verdad.]]",
+      "words": [
+        "[[trial|juicio]]",
+        "[[did|salió]]",
+        "[[Only|Solo]]",
+        "[[emerge.|luz la verdad.]]",
+        "[[when|cuando]]",
+        "[[over|]]",
+        "[[the|la]]",
+        "[[truth|la]]",
+        "[[was|terminó]]",
+        "[[the|el]]"
+      ],
+      "explanation": "Con 'Only when...', la inversión ocurre en la cláusula principal.",
+      "audio": "audio/b2/unit-26/e8.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-26/e8.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u26-e9",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "hard",
-    transcript: "In no way can we justify this action.",
-    content: {
-      title: "Negative Inversion",
-      instructions: "Choose the correct word order.",
-      question: "[[In no way ___ this action.|De ninguna manera podemos justificar esta acción.]]",
-      options: ["we can justify", "can we justify", "could we justify"],
-      correctAnswer: "can we justify",
-      explanation: "Inversion after 'In no way'.",
-      translation: "De ninguna manera podemos justificar esta acción.",
-      hint: "Auxiliary + subject."
+    "id": "b2-u26-e9",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "The lawyer argued that his client had been falsely accused.",
+    "content": {
+      "title": "Falsa acusación",
+      "instructions": "Ordena las palabras sobre la defensa legal.",
+      "correctSentence": "[[The|El]] [[lawyer|abogado]] [[argued|argumentó]] [[that|que]] [[his|su]] [[client|cliente]] [[had|había]] [[been|sido]] [[falsely|acusado]] [[accused.|falsamente.]]",
+      "words": [
+        "[[been|sido]]",
+        "[[client|cliente]]",
+        "[[argued|argumentó]]",
+        "[[accused.|falsamente.]]",
+        "[[lawyer|abogado]]",
+        "[[that|que]]",
+        "[[had|había]]",
+        "[[The|El]]",
+        "[[his|su]]",
+        "[[falsely|acusado]]"
+      ],
+      "explanation": "'Falsely accused' significa que a alguien se le imputa un delito que no cometió.",
+      "audio": "audio/b2/unit-26/e9.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-26/e9.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u26-e10",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "hard",
-    transcript: "Not only was he a thief, but he was also a liar.",
-    content: {
-      title: "Negative Inversion",
-      instructions: "Choose the correct word order.",
-      question: "[[Not only ___ a thief, but he was also a liar.|No solo era un ladrón, sino que también era un mentiroso.]]",
-      options: ["he was", "was he", "had he been"],
-      correctAnswer: "was he",
-      explanation: "Inversion after 'Not only'.",
-      translation: "No solo era un ladrón, sino que también era un mentiroso.",
-      hint: "Auxiliary + subject."
+    "id": "b2-u26-e10",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "Not only was he convicted of fraud, but he also lost his license.",
+    "content": {
+      "title": "Condena por fraude",
+      "instructions": "Ordena las palabras usando 'Not only... but also'.",
+      "correctSentence": "[[Not|No]] [[only|solo]] [[was|fue]] [[he|condenado]] [[convicted|por]] [[of|fraude,]] [[fraud,|sino]] [[but|que]] [[he|también]] [[also|perdió]] [[lost|su]] [[his|licencia.]] [[license.|]]",
+      "words": [
+        "[[only|solo]]",
+        "[[fraud,|sino]]",
+        "[[his|licencia.]]",
+        "[[he|condenado]]",
+        "[[convicted|por]]",
+        "[[lost|su]]",
+        "[[but|que]]",
+        "[[also|perdió]]",
+        "[[he|también]]",
+        "[[was|fue]]",
+        "[[of|fraude,]]",
+        "[[Not|No]]",
+        "[[license.|]]"
+      ],
+      "explanation": "'Not only' al principio requiere inversión (was he).",
+      "audio": "audio/b2/unit-26/e10.mp3"
     },
-    topicName: "Grammar"
-  },
-
-  // 11-20: Vocabulary - Types of Crimes
-  {
-    id: "b2-u26-e11",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "Burglary is a common crime in big cities.",
-    content: {
-      title: "Types of Crime",
-      instructions: "Choose the correct crime.",
-      question: "[[___ (Burglary) is the act of entering a building illegally to steal.|El robo en casas/edificios es un crimen común.]]",
-      options: ["[[Burglary|Robo con allanamiento]]", "[[Pickpocketing|Carterismo]]", "[[Shoplifting|Hurto en tiendas]]"],
-      correctAnswer: "Burglary",
-      explanation: "Burglary usually involves breaking into a home or office.",
-      translation: "El robo en casas/edificios es un crimen común.",
-      hint: "Breaking and entering."
-    },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-26/e10.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u26-e12",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "Shoplifting has increased recently.",
-    content: {
-      title: "Types of Crime",
-      instructions: "Choose the correct crime.",
-      question: "[[___ (Shoplifting) is stealing from a store during business hours.|El hurto en tiendas ha aumentado recientemente.]]",
-      options: ["[[Robbery|Robo con violencia]]", "[[Shoplifting|Hurto en tiendas]]", "[[Vandalism|Vandalismo]]"],
-      correctAnswer: "Shoplifting",
-      explanation: "Shoplifting is a specific type of theft from shops.",
-      translation: "El hurto en tiendas ha aumentado recientemente.",
-      hint: "Stealing from shops."
+    "id": "b2-u26-e11",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "The jury found the defendant not guilty due to lack of evidence.",
+    "content": {
+      "title": "Veredicto de inocencia",
+      "instructions": "Ordena las palabras sobre un veredicto.",
+      "correctSentence": "[[The|El]] [[jury|jurado]] [[found|declaró]] [[the|al]] [[defendant|acusado]] [[not|no]] [[guilty|culpable]] [[due|por]] [[to|falta]] [[lack|de]] [[of|pruebas.]] [[evidence.|]]",
+      "words": [
+        "[[jury|jurado]]",
+        "[[due|por]]",
+        "[[defendant|acusado]]",
+        "[[lack|de]]",
+        "[[evidence.|pruebas.]]",
+        "[[guilty|culpable]]",
+        "[[found|declaró]]",
+        "[[of|pruebas.]]",
+        "[[The|El]]",
+        "[[to|falta]]",
+        "[[not|no]]",
+        "[[the|al]]"
+      ],
+      "explanation": "'Not guilty' es el término legal para inocente en un juicio.",
+      "audio": "audio/b2/unit-26/e11.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-26/e11.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u26-e13",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "He was arrested for fraud.",
-    content: {
-      title: "Types of Crime",
-      instructions: "Choose the correct crime.",
-      question: "[[He was arrested for ___ (fraud), specifically financial deception.|Fue arrestado por fraude.]]",
-      options: ["[[arson|incendio provocado]]", "[[bribery|soborno]]", "[[fraud|fraude]]"],
-      correctAnswer: "fraud",
-      explanation: "Fraud is wrongful or criminal deception intended to result in financial or personal gain.",
-      translation: "Fue arrestado por fraude.",
-      hint: "Deception for gain."
+    "id": "b2-u26-e12",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "Scarcely had the alarm gone off when the robbers fled the building.",
+    "content": {
+      "title": "Huida de los ladrones",
+      "instructions": "Ordena las palabras usando inversión con 'Scarcely'.",
+      "correctSentence": "[[Scarcely|Apenas]] [[had|había]] [[the|sonado]] [[alarm|la]] [[gone|alarma]] [[off|cuando]] [[when|los]] [[the|ladrones]] [[robbers|huyeron]] [[fled|del]] [[the|edificio.]] [[building.|]]",
+      "words": [
+        "[[had|había]]",
+        "[[robbers|huyeron]]",
+        "[[building.|edificio.]]",
+        "[[the|ladrones]]",
+        "[[gone|alarma]]",
+        "[[the|sonado]]",
+        "[[fled|del]]",
+        "[[when|los]]",
+        "[[Scarcely|Apenas]]",
+        "[[alarm|la]]",
+        "[[off|cuando]]",
+        "[[the|edificio.]]"
+      ],
+      "explanation": "'Scarcely had... when...' indica que una acción ocurrió inmediatamente después de otra.",
+      "audio": "audio/b2/unit-26/e12.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-26/e12.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u26-e14",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "Vandalism is the destruction of property.",
-    content: {
-      title: "Types of Crime",
-      instructions: "Choose the correct crime.",
-      question: "[[___ (Vandalism) is the deliberate destruction of public or private property.|El vandalismo es la destrucción de la propiedad.]]",
-      options: ["[[Vandalism|Vandalismo]]", "[[Theft|Robo]]", "[[Assault|Agresión]]"],
-      correctAnswer: "Vandalism",
-      explanation: "Examples include graffiti or breaking windows.",
-      translation: "El vandalismo es la destrucción de la propiedad.",
-      hint: "Property damage."
+    "id": "b2-u26-e13",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "Vandalism of public property is often punished with heavy fines.",
+    "content": {
+      "title": "Vandalismo",
+      "instructions": "Ordena las palabras sobre infracciones menores.",
+      "correctSentence": "[[Vandalism|El vandalismo]] [[of|de]] [[public|la propiedad]] [[property|pública]] [[is|suele]] [[often|castigarse]] [[punished|con]] [[with|fuertes]] [[heavy|multas.]] [[fines.|]]",
+      "words": [
+        "[[property|pública]]",
+        "[[Vandalism|El vandalismo]]",
+        "[[often|castigarse]]",
+        "[[with|fuertes]]",
+        "[[fines.|multas.]]",
+        "[[public|la propiedad]]",
+        "[[is|suele]]",
+        "[[punished|con]]",
+        "[[heavy|multas.]]",
+        "[[of|de]]"
+      ],
+      "explanation": "'Heavy fines' se refiere a multas económicas de gran cuantía.",
+      "audio": "audio/b2/unit-26/e13.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-26/e13.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u26-e15",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "Arson is starting fires on purpose.",
-    content: {
-      title: "Types of Crime",
-      instructions: "Choose the correct crime.",
-      question: "[[___ (Arson) is the criminal act of deliberately setting fire to property.|El incendio provocado es prender fuego a propósito.]]",
-      options: ["[[Arson|Incendio provocado]]", "[[Smuggling|Contrabando]]", "[[Blackmail|Chantaje]]"],
-      correctAnswer: "Arson",
-      explanation: "Arson is a serious felony.",
-      translation: "El incendio provocado es prender fuego a propósito.",
-      hint: "Setting fires."
+    "id": "b2-u26-e14",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "Seldom has a criminal case attracted so much media attention.",
+    "content": {
+      "title": "Caso mediático",
+      "instructions": "Ordena las palabras usando inversión con 'Seldom'.",
+      "correctSentence": "[[Seldom|Rara vez]] [[has|un]] [[a|caso]] [[criminal|criminal]] [[case|ha]] [[attracted|atraído]] [[so|tanta]] [[much|atención]] [[media|de los]] [[attention.|medios.]]",
+      "words": [
+        "[[has|un]]",
+        "[[a|caso]]",
+        "[[Seldom|Rara vez]]",
+        "[[attention.|medios.]]",
+        "[[media|de los]]",
+        "[[much|atención]]",
+        "[[so|tanta]]",
+        "[[case|ha]]",
+        "[[attracted|atraído]]",
+        "[[criminal|criminal]]"
+      ],
+      "explanation": "'Seldom' (rara vez) requiere inversión: auxiliar (has) + sujeto (a criminal case).",
+      "audio": "audio/b2/unit-26/e14.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-26/e14.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u26-e16",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "Theft is a general term for stealing.",
-    content: {
-      title: "Types of Crime",
-      instructions: "Choose the correct crime.",
-      question: "[[___ (Theft) is the action or crime of stealing.|El robo es un término general para hurtar.]]",
-      options: ["[[Murder|Asesinato]]", "[[Theft|Robo (término general)]]", "[[Kidnapping|Secuestro]]"],
-      correctAnswer: "Theft",
-      explanation: "Theft is a broad category covering many types of stealing.",
-      translation: "El robo es un término general para hurtar.",
-      hint: "General stealing."
+    "id": "b2-u26-e15",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "The suspect was released on bail pending further investigation.",
+    "content": {
+      "title": "Libertad bajo fianza",
+      "instructions": "Ordena las palabras sobre el proceso judicial.",
+      "correctSentence": "[[The|El]] [[suspect|sospechoso]] [[was|fue]] [[released|puesto en libertad]] [[on|bajo]] [[bail|fianza]] [[pending|a la espera de]] [[further|una mayor]] [[investigation.|investigación.]]",
+      "words": [
+        "[[was|fue]]",
+        "[[investigation.|investigación.]]",
+        "[[released|puesto en libertad]]",
+        "[[bail|fianza]]",
+        "[[pending|a la espera de]]",
+        "[[suspect|sospechoso]]",
+        "[[The|El]]",
+        "[[on|bajo]]",
+        "[[further|una mayor]]"
+      ],
+      "explanation": "'Released on bail' significa que el acusado sale de prisión tras pagar una fianza.",
+      "audio": "audio/b2/unit-26/e15.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-26/e15.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u26-e17",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "Smuggling involves bringing illegal goods into a country.",
-    content: {
-      title: "Types of Crime",
-      instructions: "Choose the correct crime.",
-      question: "[[___ (Smuggling) is the illegal movement of goods or people out of or into a country.|El contrabando implica traer bienes ilegales al país.]]",
-      options: ["[[Hijacking|Secuestro de vehículos]]", "[[Smuggling|Contrabando]]", "[[Forgery|Falsificación]]"],
-      correctAnswer: "Smuggling",
-      explanation: "Often involves drugs, weapons, or avoiding taxes.",
-      translation: "El contrabando implica traer bienes ilegales al país.",
-      hint: "Illegal import/export."
+    "id": "b2-u26-e16",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "No sooner had the trial begun than new evidence came to light.",
+    "content": {
+      "title": "Nuevas pruebas",
+      "instructions": "Ordena las palabras usando 'No sooner... than'.",
+      "correctSentence": "[[No|Apenas]] [[sooner|había]] [[had|comenzado]] [[the|el]] [[trial|juicio]] [[begun|cuando]] [[than|salieron]] [[new|a la]] [[evidence|luz]] [[came|nuevas]] [[to|pruebas.]] [[light.|]]",
+      "words": [
+        "[[than|salieron]]",
+        "[[had|comenzado]]",
+        "[[new|a la]]",
+        "[[evidence|luz]]",
+        "[[begun|cuando]]",
+        "[[sooner|había]]",
+        "[[light.|]]",
+        "[[trial|juicio]]",
+        "[[to|pruebas.]]",
+        "[[came|nuevas]]",
+        "[[the|el]]",
+        "[[No|Apenas]]"
+      ],
+      "explanation": "'No sooner... than' se usa para acciones consecutivas inmediatas.",
+      "audio": "audio/b2/unit-26/e16.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-26/e16.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u26-e18",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "Kidnapping is taking someone by force.",
-    content: {
-      title: "Types of Crime",
-      instructions: "Choose the correct crime.",
-      question: "[[___ (Kidnapping) is taking someone away by force, often for ransom.|El secuestro es llevarse a alguien por la fuerza.]]",
-      options: ["[[Kidnapping|Secuestro (personas)]]", "[[Burglary|Robo en casas]]", "[[Fraud|Fraude]]"],
-      correctAnswer: "Kidnapping",
-      explanation: "A very serious crime involving abduction.",
-      translation: "El secuestro es llevarse a alguien por la fuerza.",
-      hint: "Abduction."
+    "id": "b2-u26-e17",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "Shoplifting might seem minor, but it affects local businesses deeply.",
+    "content": {
+      "title": "Hurto en tiendas",
+      "instructions": "Ordena las palabras sobre el impacto del hurto.",
+      "correctSentence": "[[Shoplifting|El hurto en tiendas]] [[might|puede]] [[seem|parecer]] [[minor,|insignificante,]] [[but|pero]] [[it|afecta]] [[affects|profundamente]] [[local|a los]] [[businesses|negocios]] [[deeply.|locales.]]",
+      "words": [
+        "[[seem|parecer]]",
+        "[[businesses|negocios]]",
+        "[[minor,|insignificante,]]",
+        "[[but|pero]]",
+        "[[local|a los]]",
+        "[[it|afecta]]",
+        "[[affects|profundamente]]",
+        "[[deeply.|locales.]]",
+        "[[Shoplifting|El hurto en tiendas]]",
+        "[[might|puede]]"
+      ],
+      "explanation": "'Shoplifting' es robar artículos de una tienda sin violencia.",
+      "audio": "audio/b2/unit-26/e17.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-26/e17.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u26-e19",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "Blackmail is using secrets to get money.",
-    content: {
-      title: "Types of Crime",
-      instructions: "Choose the correct crime.",
-      question: "[[___ (Blackmail) is demanding money from someone in return for not revealing secrets.|El chantaje es usar secretos para obtener dinero.]]",
-      options: ["[[Blackmail|Chantaje]]", "[[Theft|Robo]]", "[[Assault|Agresión]]"],
-      correctAnswer: "Blackmail",
-      explanation: "A form of extortion.",
-      translation: "El chantaje es usar secretos para obtener dinero.",
-      hint: "Extortion using secrets."
+    "id": "b2-u26-e18",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "Hardly ever do we see such transparency in legal proceedings.",
+    "content": {
+      "title": "Transparencia legal",
+      "instructions": "Ordena las palabras usando 'Hardly ever'.",
+      "correctSentence": "[[Hardly|Casi]] [[ever|nunca]] [[do|vemos]] [[we|tal]] [[see|transparencia]] [[such|en]] [[transparency|los]] [[in|procedimientos]] [[legal|legales.]] [[proceedings.|]]",
+      "words": [
+        "[[transparency|los]]",
+        "[[proceedings.|]]",
+        "[[see|transparencia]]",
+        "[[Hardly|Casi]]",
+        "[[ever|nunca]]",
+        "[[such|en]]",
+        "[[do|vemos]]",
+        "[[in|procedimientos]]",
+        "[[we|tal]]",
+        "[[legal|legales.]]"
+      ],
+      "explanation": "'Hardly ever' al inicio de la frase provoca la inversión del auxiliar.",
+      "audio": "audio/b2/unit-26/e18.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-26/e18.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u26-e20",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "Assault is an attack on a person.",
-    content: {
-      title: "Types of Crime",
-      instructions: "Choose the correct crime.",
-      question: "[[___ (Assault) is a physical attack or threat of attack on a person.|La agresión es un ataque a una persona.]]",
-      options: ["[[Assault|Agresión / Ataque]]", "[[Arson|Incendio provocado]]", "[[Fraud|Fraude]]"],
-      correctAnswer: "Assault",
-      explanation: "Can be verbal or physical.",
-      translation: "La agresión es un ataque a una persona.",
-      hint: "Physical attack."
+    "id": "b2-u26-e19",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "The arsonist was sentenced to ten years in a high-security prison.",
+    "content": {
+      "title": "Condena por incendio",
+      "instructions": "Ordena las palabras sobre un delito grave.",
+      "correctSentence": "[[The|El]] [[arsonist|pirómano]] [[was|fue]] [[sentenced|condenado]] [[to|a]] [[ten|diez]] [[years|años]] [[in|en]] [[a|una]] [[high-security|prisión de]] [[prison.|máxima seguridad.]]",
+      "words": [
+        "[[sentenced|condenado]]",
+        "[[prison.|máxima seguridad.]]",
+        "[[ten|diez]]",
+        "[[arsonist|pirómano]]",
+        "[[high-security|prisión de]]",
+        "[[a|una]]",
+        "[[The|El]]",
+        "[[years|años]]",
+        "[[in|en]]",
+        "[[to|a]]",
+        "[[was|fue]]"
+      ],
+      "explanation": "Un 'arsonist' es alguien que provoca incendios de forma intencionada.",
+      "audio": "audio/b2/unit-26/e19.mp3"
     },
-    topicName: "Vocabulary"
-  },
-
-  // 21-30: Vocabulary - Legal System
-  {
-    id: "b2-u26-e21",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "The witness gave a clear statement.",
-    content: {
-      title: "The Court",
-      instructions: "Choose the correct word.",
-      question: "[[The ___ (witness) gave a clear statement in court.|El testigo dio una declaración clara.]]",
-      options: ["[[judge|juez]]", "[[witness|testigo]]", "[[lawyer|abogado]]"],
-      correctAnswer: "witness",
-      explanation: "A witness is a person who sees an event, typically a crime or accident, take place.",
-      translation: "El testigo dio una declaración clara.",
-      hint: "Sayer of what was seen."
-    },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-26/e19.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u26-e22",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "The jury reached a verdict of guilty.",
-    content: {
-      title: "The Court",
-      instructions: "Choose the correct word.",
-      question: "[[The ___ (jury) reached a verdict of guilty.|El jurado llegó a un veredicto de culpabilidad.]]",
-      options: ["[[jury|jurado]]", "[[judge|juez]]", "[[defendant|acusado]]"],
-      correctAnswer: "jury",
-      explanation: "A jury is a body of people sworn to give a verdict in a legal case on the basis of evidence submitted to them in court.",
-      translation: "El jurado llegó a un veredicto de culpabilidad.",
-      hint: "Group deciding the verdict."
+    "id": "b2-u26-e20",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "At no time did the defendant show any remorse for his crimes.",
+    "content": {
+      "title": "Sin remordimiento",
+      "instructions": "Ordena las palabras usando 'At no time'.",
+      "correctSentence": "[[At|En]] [[no|ningún]] [[time|momento]] [[did|mostró]] [[the|el]] [[defendant|acusado]] [[show|ningún]] [[any|remordimiento]] [[remorse|por]] [[for|sus]] [[his|crímenes.]] [[crimes.|]]",
+      "words": [
+        "[[defendant|acusado]]",
+        "[[his|crímenes.]]",
+        "[[show|ningún]]",
+        "[[remorse|por]]",
+        "[[time|momento]]",
+        "[[for|sus]]",
+        "[[no|ningún]]",
+        "[[any|remordimiento]]",
+        "[[did|mostró]]",
+        "[[crimes.|]]",
+        "[[the|el]]",
+        "[[At|En]]"
+      ],
+      "explanation": "'At no time' enfatiza que algo no ocurrió nunca, con inversión (did the defendant).",
+      "audio": "audio/b2/unit-26/e20.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-26/e20.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u26-e23",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "The defendant was acquitted.",
-    content: {
-      title: "The Court",
-      instructions: "Choose the correct word.",
-      question: "[[The ___ (defendant) was acquitted of all charges.|El acusado fue absuelto.]]",
-      options: ["[[defendant|acusado]]", "[[prosecutor|fiscal]]", "[[victim|víctima]]"],
-      correctAnswer: "defendant",
-      explanation: "The defendant is the person or group being sued or accused in a court of law.",
-      translation: "El acusado fue absuelto.",
-      hint: "Accused person."
+    "id": "b2-u26-e21",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "The police are looking for more witnesses to provide information.",
+    "content": {
+      "title": "Búsqueda de testigos",
+      "instructions": "Ordena las palabras sobre una investigación policial.",
+      "correctSentence": "[[The|La]] [[police|policía]] [[are|está]] [[looking|buscando]] [[for|más]] [[more|testigos]] [[witnesses|para]] [[to|que]] [[provide|proporcionen]] [[information.|información.]]",
+      "words": [
+        "[[looking|buscando]]",
+        "[[information.|información.]]",
+        "[[are|está]]",
+        "[[to|que]]",
+        "[[witnesses|para]]",
+        "[[police|policía]]",
+        "[[for|más]]",
+        "[[The|La]]",
+        "[[provide|proporcionen]]",
+        "[[more|testigos]]"
+      ],
+      "explanation": "En inglés, 'police' siempre se trata como un sustantivo plural.",
+      "audio": "audio/b2/unit-26/e21.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-26/e21.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u26-e24",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "The lawyer prepared the defense.",
-    content: {
-      title: "The Court",
-      instructions: "Choose the correct word.",
-      question: "[[The ___ (lawyer) prepared the defense for the trial.|El abogado preparó la defensa.]]",
-      options: ["[[lawyer|abogado]]", "[[officer|oficial]]", "[[criminal|criminal]]"],
-      correctAnswer: "lawyer",
-      explanation: "A lawyer is a person who practices or studies law.",
-      translation: "El abogado preparó la defensa.",
-      hint: "Legal professional."
+    "id": "b2-u26-e22",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "Little has been done to prevent cybercrime in recent years.",
+    "content": {
+      "title": "Cibercrimen",
+      "instructions": "Ordena las palabras para hablar de seguridad digital.",
+      "correctSentence": "[[Little|Poco]] [[has|se]] [[been|ha]] [[done|hecho]] [[to|para]] [[prevent|prevenir]] [[cybercrime|el cibercrimen]] [[in|en]] [[recent|los últimos]] [[years.|años.]]",
+      "words": [
+        "[[has|se]]",
+        "[[years.|años.]]",
+        "[[done|hecho]]",
+        "[[prevent|prevenir]]",
+        "[[in|en]]",
+        "[[recent|los últimos]]",
+        "[[been|ha]]",
+        "[[Little|Poco]]",
+        "[[to|para]]",
+        "[[cybercrime|el cibercrimen]]"
+      ],
+      "explanation": "'Little' al principio de la frase indica una cantidad negativa y puede llevar inversión.",
+      "audio": "audio/b2/unit-26/e22.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-26/e22.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u26-e25",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "The judge handed down a tough sentence.",
-    content: {
-      title: "The Court",
-      instructions: "Choose the correct word.",
-      question: "[[The ___ (judge) handed down a tough sentence.|El juez dictó una sentencia dura.]]",
-      options: ["[[suspect|sospechoso]]", "[[judge|juez]]", "[[criminal|criminal]]"],
-      correctAnswer: "judge",
-      explanation: "A judge is a public officer appointed to decide cases in a court of law.",
-      translation: "El juez dictó una sentencia dura.",
-      hint: "Case decider."
+    "id": "b2-u26-e23",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "Only in extreme cases should the death penalty be considered.",
+    "content": {
+      "title": "Pena de muerte",
+      "instructions": "Ordena las palabras usando 'Only in'.",
+      "correctSentence": "[[Only|Solo]] [[in|en]] [[extreme|casos]] [[cases|extremos]] [[should|debería]] [[the|considerarse]] [[death|la]] [[penalty|pena]] [[be|de]] [[considered.|muerte.]]",
+      "words": [
+        "[[death|la]]",
+        "[[Only|Solo]]",
+        "[[should|debería]]",
+        "[[cases|extremos]]",
+        "[[considered.|muerte.]]",
+        "[[in|en]]",
+        "[[penalty|pena]]",
+        "[[be|de]]",
+        "[[extreme|casos]]",
+        "[[the|considerarse]]"
+      ],
+      "explanation": "'Only in...' requiere inversión del auxiliar (should) antes del sujeto (the death penalty).",
+      "audio": "audio/b2/unit-26/e23.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-26/e23.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u26-e26",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "There was not enough evidence to convict him.",
-    content: {
-      title: "The Court",
-      instructions: "Choose the correct word.",
-      question: "[[There was not enough ___ (evidence) to convict him.|No había suficiente evidencia para condenarlo.]]",
-      options: ["[[excuses|excusas]]", "[[evidence|evidencia / pruebas]]", "[[errors|errores]]"],
-      correctAnswer: "evidence",
-      explanation: "Evidence is the available body of facts or information indicating whether a belief or proposition is true or valid.",
-      translation: "No había suficiente evidencia para condenarlo.",
-      hint: "Proof/Facts."
+    "id": "b2-u26-e24",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "The prosecution presented compelling evidence against the suspect.",
+    "content": {
+      "title": "Pruebas contundentes",
+      "instructions": "Ordena las palabras sobre el papel de la fiscalía.",
+      "correctSentence": "[[The|La]] [[prosecution|fiscalía]] [[presented|presentó]] [[compelling|pruebas]] [[evidence|contundentes]] [[against|contra]] [[the|el]] [[suspect.|sospechoso.]]",
+      "words": [
+        "[[presented|presentó]]",
+        "[[suspect.|sospechoso.]]",
+        "[[evidence|contundentes]]",
+        "[[prosecution|fiscalía]]",
+        "[[compelling|pruebas]]",
+        "[[The|La]]",
+        "[[against|contra]]",
+        "[[the|el]]"
+      ],
+      "explanation": "'Prosecution' es la parte que acusa en un juicio, normalmente el Estado.",
+      "audio": "audio/b2/unit-26/e24.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-26/e24.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u26-e27",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "The trial lasted for three weeks.",
-    content: {
-      title: "The Court",
-      instructions: "Choose the correct word.",
-      question: "[[The ___ (trial) lasted for three weeks.|El juicio duró tres semanas.]]",
-      options: ["[[trial|juicio]]", "[[treaty|tratado]]", "[[track|vía / pista]]"],
-      correctAnswer: "trial",
-      explanation: "A trial is a formal examination of evidence by a judge, typically before a jury, in order to decide guilt.",
-      translation: "El juicio duró tres semanas.",
-      hint: "Court case."
+    "id": "b2-u26-e25",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "Seldom has justice been served so swiftly in such a complex case.",
+    "content": {
+      "title": "Justicia rápida",
+      "instructions": "Ordena las palabras usando inversión con 'Seldom'.",
+      "correctSentence": "[[Seldom|Rara vez]] [[has|se]] [[justice|ha]] [[been|hecho]] [[served|justicia]] [[so|tan]] [[swiftly|rápidamente]] [[in|en]] [[such|un]] [[a|caso]] [[complex|tan]] [[case.|complejo.]]",
+      "words": [
+        "[[served|justicia]]",
+        "[[case.|complejo.]]",
+        "[[justice|ha]]",
+        "[[has|se]]",
+        "[[such|un]]",
+        "[[swiftly|rápidamente]]",
+        "[[in|en]]",
+        "[[so|tan]]",
+        "[[been|hecho]]",
+        "[[complex|tan]]",
+        "[[case|ha]]",
+        "[[a|caso]]",
+        "[[Seldom|Rara vez]]"
+      ],
+      "explanation": "La inversión enfatiza la rareza de que la justicia sea tan rápida.",
+      "audio": "audio/b2/unit-26/e25.mp3"
     },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u26-e28",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "He was released on parole.",
-    content: {
-      title: "Punishment",
-      instructions: "Choose the correct word.",
-      question: "[[He was released on ___ (parole) after serving half his sentence.|Fue liberado en libertad condicional.]]",
-      options: ["[[pardon|indulto]]", "[[prison|prisión]]", "[[parole|libertad condicional]]"],
-      correctAnswer: "parole",
-      explanation: "Parole is the release of a prisoner temporarily or permanently before the completion of a sentence, on the promise of good behavior.",
-      translation: "Fue liberado en libertad condicional.",
-      hint: "Early release."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u26-e29",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "The fine for speeding is expensive.",
-    content: {
-      title: "Punishment",
-      instructions: "Choose the correct word.",
-      question: "[[The ___ (fine) for speeding is quite expensive here.|La multa por exceso de velocidad es cara.]]",
-      options: ["[[fine|multa]]", "[[free|libre]]", "[[fee|tarifa / cuota]]"],
-      correctAnswer: "fine",
-      explanation: "A fine is a sum of money exacted as a penalty by a court of law or other authority.",
-      translation: "La multa por exceso de velocidad es cara.",
-      hint: "Monetary penalty."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u26-e30",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "Imprisonment is the ultimate punishment.",
-    content: {
-      title: "Punishment",
-      instructions: "Choose the correct word.",
-      question: "[[___ (Imprisonment) is the state of being held in prison.|El encarcelamiento es el castigo definitivo.]]",
-      options: ["[[Imprisonment|Encarcelamiento]]", "[[Improvement|Mejora]]", "[[Importance|Importancia]]"],
-      correctAnswer: "Imprisonment",
-      explanation: "Being put in jail.",
-      translation: "El encarcelamiento es el castigo definitivo.",
-      hint: "Being in jail."
-    },
-    topicName: "Vocabulary"
-  },
-
-  // 31-40: Vocabulary - Phrasal Verbs & Expressions
-  {
-    id: "b2-u26-e31",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "He managed to get away with the crime.",
-    content: {
-      title: "Expressions",
-      instructions: "Choose the correct phrasal verb.",
-      question: "[[He managed to ___ with the crime because there were no witnesses.|Logró salirse con la suya con el crimen.]]",
-      options: ["get away", "get over", "get through"],
-      correctAnswer: "get away",
-      explanation: "'Get away with something' means to escape punishment for a wrong action.",
-      translation: "Logró salirse con la suya con el crimen.",
-      hint: "Escape punishment."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u26-e32",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "The police are looking into the matter.",
-    content: {
-      title: "Expressions",
-      instructions: "Choose the correct phrasal verb.",
-      question: "[[The police are ___ the matter of the missing jewels.|La policía está investigando el asunto.]]",
-      options: ["looking after", "looking into", "looking for"],
-      correctAnswer: "looking into",
-      explanation: "'Look into' means to investigate.",
-      translation: "La policía está investigando el asunto.",
-      hint: "Investigate."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u26-e33",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "He was caught red-handed.",
-    content: {
-      title: "Expressions",
-      instructions: "Choose the correct idiom.",
-      question: "[[The thief was caught ___, right in the middle of stealing the car.|Fue atrapado con las manos en la masa.]]",
-      options: ["red-handed", "black-hearted", "blue-blooded"],
-      correctAnswer: "red-handed",
-      explanation: "'Caught red-handed' means caught in the act of doing something wrong.",
-      translation: "Fue atrapado con las manos en la masa.",
-      hint: "Caught in the act."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u26-e34",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "They broke into the warehouse last night.",
-    content: {
-      title: "Expressions",
-      instructions: "Choose the correct phrasal verb.",
-      question: "[[They ___ the warehouse last night and stole several computers.|Entraron por la fuerza en el almacén anoche.]]",
-      options: ["broke out", "broke into", "broke up"],
-      correctAnswer: "broke into",
-      explanation: "'Break into' means to enter a building by force.",
-      translation: "Entraron por la fuerza en el almacén anoche.",
-      hint: "Enter by force."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u26-e35",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "The suspect gave himself up to the police.",
-    content: {
-      title: "Expressions",
-      instructions: "Choose the correct phrasal verb.",
-      question: "[[The suspect eventually ___ himself up to the police.|El sospechoso finalmente se entregó a la policía.]]",
-      options: ["gave", "made", "turned"],
-      correctAnswer: "gave",
-      explanation: "'Give yourself up' means to surrender.",
-      translation: "El sospechoso finalmente se entregó a la policía.",
-      hint: "Surrender."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u26-e36",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "He has a criminal record.",
-    content: {
-      title: "Expressions",
-      instructions: "Choose the correct word.",
-      question: "[[He can't get that job because he has a criminal ___.|Tiene antecedentes penales.]]",
-      options: ["record", "book", "list"],
-      correctAnswer: "record",
-      explanation: "A criminal record is a permanent list of a person's previous criminal convictions.",
-      translation: "Tiene antecedentes penales.",
-      hint: "History of crimes."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u26-e37",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "The case was thrown out of court.",
-    content: {
-      title: "Expressions",
-      instructions: "Choose the correct phrase.",
-      question: "[[The case was ___ of court due to lack of evidence.|El caso fue desestimado en el tribunal.]]",
-      options: ["thrown out", "taken off", "put away"],
-      correctAnswer: "thrown out",
-      explanation: "To 'throw out' a case means to dismiss it.",
-      translation: "El caso fue desestimado en el tribunal.",
-      hint: "Dismissed."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u26-e38",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "He's behind bars now.",
-    content: {
-      title: "Expressions",
-      instructions: "Choose the correct idiom.",
-      question: "[[He was convicted and is now behind ___.|Está entre rejas ahora.]]",
-      options: ["walls", "doors", "bars"],
-      correctAnswer: "bars",
-      explanation: "'Behind bars' is an idiom meaning in prison.",
-      translation: "Está entre rejas ahora.",
-      hint: "In prison."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u26-e39",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "They let him off with a warning.",
-    content: {
-      title: "Expressions",
-      instructions: "Choose the correct phrasal verb.",
-      question: "[[The police decided to ___ him off with just a warning.|Lo dejaron ir con una advertencia.]]",
-      options: ["let", "set", "get"],
-      correctAnswer: "let",
-      explanation: "'Let someone off' means to give a light punishment or no punishment.",
-      translation: "Lo dejaron ir con una advertencia.",
-      hint: "Light punishment."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u26-e40",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "He was framed for the murder.",
-    content: {
-      title: "Expressions",
-      instructions: "Choose the correct term.",
-      question: "[[He didn't do it; he was ___ by his enemy.|Le tendieron una trampa para el asesinato.]]",
-      options: ["built", "framed", "made"],
-      correctAnswer: "framed",
-      explanation: "To 'frame' someone is to make it look like they committed a crime they didn't do.",
-      translation: "Le tendieron una trampa para el asesinato.",
-      hint: "Falsely accused."
-    },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-26/e25.mp3",
+    "topicName": "Grammar"
   },
 
-  // 41-50: Word Formation
+  // 26-50: Multiple Choice (Grammar & Vocabulary)
   {
-    id: "b2-u26-e41",
-    type: "word-formation",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "The criminal was caught quickly.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The ___ (CRIME) was caught quickly by the police.|El criminal fue atrapado rápidamente.]]",
-      correctAnswer: "criminal",
-      explanation: "Noun for a person who commits a crime.",
-      translation: "El criminal fue atrapado rápidamente.",
-      hint: "Person form."
+    "id": "b2-u26-e26",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "Rarely have we seen a criminal mastermind with such intelligence.",
+    "content": {
+      "title": "Mente criminal",
+      "instructions": "Elige la opción correcta para completar la frase con inversión.",
+      "question": "[[Rarely ___ a criminal mastermind with such intelligence.|Rara vez hemos visto a un cerebro criminal con tal inteligencia.]]",
+      "options": [
+        "[[we have seen|hemos visto]]",
+        "[[have we seen|hemos visto]]",
+        "[[did we saw|vimos]]"
+      ],
+      "correctAnswer": "have we seen",
+      "explanation": "Después de 'Rarely', usamos la inversión: auxiliar + sujeto.",
+      "audio": "audio/b2/unit-26/e26.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-26/e26.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u26-e42",
-    type: "word-formation",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "Vandalism is illegal.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[Vandalism is ___ (LEGAL).|El vandalismo es ilegal.]]",
-      correctAnswer: "illegal",
-      explanation: "Negative adjective of 'legal'.",
-      translation: "El vandalismo es ilegal.",
-      hint: "Opposite of legal."
+    "id": "b2-u26-e27",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "The criminal was arrested for smuggling illegal goods across the border.",
+    "content": {
+      "title": "Contrabando",
+      "instructions": "Elige el delito correcto basado en la descripción.",
+      "question": "[[The criminal was arrested for ___ illegal goods across the border.|El criminal fue arrestado por contrabando de bienes ilegales a través de la frontera.]]",
+      "options": [
+        "[[forgery|falsificación]]",
+        "[[smuggling|contrabando]]",
+        "[[embezzlement|malversación]]"
+      ],
+      "correctAnswer": "smuggling",
+      "explanation": "'Smuggling' es el transporte ilegal de bienes o personas.",
+      "audio": "audio/b2/unit-26/e27.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-26/e27.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u26-e43",
-    type: "word-formation",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "The investigation is ongoing.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The ___ (INVESTIGATE) is still ongoing.|La investigación sigue en curso.]]",
-      correctAnswer: "investigation",
-      explanation: "Noun form of 'investigate'.",
-      translation: "La investigación sigue en curso.",
-      hint: "Noun form."
+    "id": "b2-u26-e28",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "Never before had the community felt so vulnerable to crime.",
+    "content": {
+      "title": "Comunidad vulnerable",
+      "instructions": "Elige la opción que respete la regla de inversión.",
+      "question": "[[Never before ___ so vulnerable to crime.|Nunca antes la comunidad se había sentido tan vulnerable al crimen.]]",
+      "options": [
+        "[[had the community felt|se había sentido la comunidad]]",
+        "[[the community had felt|la comunidad se había sentido]]",
+        "[[did the community felt|se sintió la comunidad]]"
+      ],
+      "correctAnswer": "had the community felt",
+      "explanation": "'Never before' requiere inversión (auxiliar had + sujeto community).",
+      "audio": "audio/b2/unit-26/e28.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-26/e28.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u26-e44",
-    type: "word-formation",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "He was punished for his actions.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[He received a severe ___ (PUNISH).|Recibió un castigo severo.]]",
-      correctAnswer: "punishment",
-      explanation: "Noun form of 'punish'.",
-      translation: "Recibió un castigo severo.",
-      hint: "Noun form."
+    "id": "b2-u26-e29",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "He was charged with embezzlement after the audit revealed missing funds.",
+    "content": {
+      "title": "Malversación de fondos",
+      "instructions": "Elige el término legal adecuado.",
+      "question": "[[He was ___ with embezzlement after the audit revealed missing funds.|Fue acusado de malversación tras la auditoría.]]",
+      "options": [
+        "[[charged|acusado (formalmente)]]",
+        "[[blamed|culpado]]",
+        "[[arrested|arrestado]]"
+      ],
+      "correctAnswer": "charged",
+      "explanation": "'Charged with' es la expresión formal para ser acusado de un delito.",
+      "audio": "audio/b2/unit-26/e29.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-26/e29.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u26-e45",
-    type: "word-formation",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "The thief was arrested.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The ___ (THEFT) was arrested near the scene.|El ladrón fue arrestado.]]",
-      correctAnswer: "thief",
-      explanation: "Noun for a person who steals (singular).",
-      translation: "El ladrón fue arrestado.",
-      hint: "Person form."
+    "id": "b2-u26-e30",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "Under no circumstances are visitors allowed to contact the inmates.",
+    "content": {
+      "title": "Reglas de la prisión",
+      "instructions": "Elige la forma verbal correcta para la inversión.",
+      "question": "[[Under no circumstances ___ allowed to contact the inmates.|Bajo ninguna circunstancia se permite a los visitantes contactar con los presos.]]",
+      "options": [
+        "[[visitors are|los visitantes son]]",
+        "[[are visitors|se les permite a los visitantes]]",
+        "[[do visitors be|hacen los visitantes ser]]"
+      ],
+      "correctAnswer": "are visitors",
+      "explanation": "'Under no circumstances' obliga a poner el verbo 'are' antes del sujeto.",
+      "audio": "audio/b2/unit-26/e30.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-26/e30.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u26-e46",
-    type: "word-formation",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "He acted suspiciously.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[He acted ___ (SUSPECT) throughout the interview.|Actuó de manera sospechosa.]]",
-      correctAnswer: "suspiciously",
-      explanation: "Adverb form of 'suspicious'.",
-      translation: "Actuó de manera sospechosa.",
-      hint: "Adverb form."
+    "id": "b2-u26-e31",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "The judge decided to grant the defendant a lenient sentence.",
+    "content": {
+      "title": "Sentencia leve",
+      "instructions": "Elige el adjetivo que mejor describe una condena suave.",
+      "question": "[[The judge decided to grant the defendant a ___ sentence.|El juez decidió conceder al acusado una sentencia leve.]]",
+      "options": [
+        "[[harsh|severa]]",
+        "[[lenient|leve / poco severa]]",
+        "[[stiff|dura]]"
+      ],
+      "correctAnswer": "lenient",
+      "explanation": "'Lenient' significa que el castigo es menos severo de lo esperado.",
+      "audio": "audio/b2/unit-26/e31.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-26/e31.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u26-e47",
-    type: "word-formation",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "His innocence was proven.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[His ___ (INNOCENT) was finally proven.|Su inocencia fue finalmente probada.]]",
-      correctAnswer: "innocence",
-      explanation: "Noun form of 'innocent'.",
-      translation: "Su inocencia fue finalmente probada.",
-      hint: "Noun form."
+    "id": "b2-u26-e32",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "No sooner had the alarm sounded than the security guards arrived.",
+    "content": {
+      "title": "Reacción rápida",
+      "instructions": "Elige la estructura correcta para 'No sooner'.",
+      "question": "[[No sooner ___ than the security guards arrived.|Apenas sonó la alarma, llegaron los guardias de seguridad.]]",
+      "options": [
+        "[[the alarm had sounded|la alarma había sonado]]",
+        "[[had the alarm sounded|había sonado la alarma]]",
+        "[[did the alarm sounded|sonó la alarma]]"
+      ],
+      "correctAnswer": "had the alarm sounded",
+      "explanation": "Con 'No sooner' usamos Past Perfect con inversión (had + sujeto).",
+      "audio": "audio/b2/unit-26/e32.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-26/e32.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u26-e48",
-    type: "word-formation",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "It was a violent crime.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[It was a ___ (VIOLENCE) crime that shocked the community.|Fue un crimen violento.]]",
-      correctAnswer: "violent",
-      explanation: "Adjective form of 'violence'.",
-      translation: "Fue un crimen violento.",
-      hint: "Adjective form."
+    "id": "b2-u26-e33",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "Vandalism is often considered a petty crime, but it costs a lot to fix.",
+    "content": {
+      "title": "Delitos menores",
+      "instructions": "Elige el término para un delito poco grave.",
+      "question": "[[Vandalism is often considered a ___ crime.|El vandalismo suele considerarse un delito menor.]]",
+      "options": [
+        "[[felony|delito grave]]",
+        "[[petty|menor / poco importante]]",
+        "[[capital|capital (de muerte)]]"
+      ],
+      "correctAnswer": "petty",
+      "explanation": "Un 'petty crime' es un delito menor, como el vandalismo o el hurto pequeño.",
+      "audio": "audio/b2/unit-26/e33.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-26/e33.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u26-e49",
-    type: "word-formation",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "The burglar entered through the window.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The ___ (BURGLARY) entered through the back window.|El ladrón entró por la ventana trasera.]]",
-      correctAnswer: "burglar",
-      explanation: "Noun for a person who commits burglary.",
-      translation: "El ladrón entró por la ventana trasera.",
-      hint: "Person form."
+    "id": "b2-u26-e34",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "Only after months of investigation did they identify the culprit.",
+    "content": {
+      "title": "Identificando al culpable",
+      "instructions": "Elige la opción que complete correctamente la inversión.",
+      "question": "[[Only after months of investigation ___ the culprit.|Solo tras meses de investigación identificaron al culpable.]]",
+      "options": [
+        "[[they identified|ellos identificaron]]",
+        "[[did they identify|identificaron ellos]]",
+        "[[had they identified|habían identificado]]"
+      ],
+      "correctAnswer": "did they identify",
+      "explanation": "La inversión ocurre tras la frase introductoria con 'Only after'.",
+      "audio": "audio/b2/unit-26/e34.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-26/e34.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u26-e50",
-    type: "word-formation",
-    level: "B2",
-    topic: "Crime and Punishment",
-    difficulty: "medium",
-    transcript: "He made a fraudulent claim.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[He made a ___ (FRAUD) insurance claim.|Hizo una reclamación de seguro fraudulenta.]]",
-      correctAnswer: "fraudulent",
-      explanation: "Adjective form of 'fraud'.",
-      translation: "Hizo una reclamación de seguro fraudulenta.",
-      hint: "Adjective form."
+    "id": "b2-u26-e35",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "The suspect was acquitted because the evidence was circumstantial.",
+    "content": {
+      "title": "Absolución",
+      "instructions": "Elige el término legal para ser declarado no culpable.",
+      "question": "[[The suspect was ___ because the evidence was circumstantial.|El sospechoso fue absuelto porque las pruebas eran circunstanciales.]]",
+      "options": [
+        "[[convicted|condenado]]",
+        "[[acquitted|absuelto]]",
+        "[[sentenced|sentenciado]]"
+      ],
+      "correctAnswer": "acquitted",
+      "explanation": "'Acquitted' significa ser declarado inocente o libre de cargos.",
+      "audio": "audio/b2/unit-26/e35.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-26/e35.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u26-e36",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "Seldom do we see such a high level of police cooperation.",
+    "content": {
+      "title": "Cooperación policial",
+      "instructions": "Completa la frase con la estructura de inversión correcta.",
+      "question": "[[Seldom ___ such a high level of police cooperation.|Rara vez vemos tal nivel de cooperación policial.]]",
+      "options": [
+        "[[we see|vemos]]",
+        "[[do we see|vemos nosotros]]",
+        "[[we do see|sí vemos]]"
+      ],
+      "correctAnswer": "do we see",
+      "explanation": "'Seldom' requiere inversión del presente simple (do + sujeto + verbo).",
+      "audio": "audio/b2/unit-26/e36.mp3"
+    },
+    "audioUrl": "audio/b2/unit-26/e36.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u26-e37",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "Bribery is the act of offering money to influence a public official.",
+    "content": {
+      "title": "Soborno",
+      "instructions": "Elige el nombre del delito.",
+      "question": "[[___ is the act of offering money to influence a public official.|El soborno es el acto de ofrecer dinero para influir en un funcionario público.]]",
+      "options": [
+        "[[Blackmail|Chantaje]]",
+        "[[Bribery|Soborno]]",
+        "[[Arson|Incendio provocado]]"
+      ],
+      "correctAnswer": "Bribery",
+      "explanation": "'Bribery' se refiere específicamente a corromper con dinero o favores.",
+      "audio": "audio/b2/unit-26/e37.mp3"
+    },
+    "audioUrl": "audio/b2/unit-26/e37.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u26-e38",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "Little did he realize that his phone had been tapped by the police.",
+    "content": {
+      "title": "Teléfono intervenido",
+      "instructions": "Elige la opción correcta para completar la inversión.",
+      "question": "[[Little ___ that his phone had been tapped.|Poco se dio cuenta de que su teléfono había sido intervenido.]]",
+      "options": [
+        "[[he realized|él se dio cuenta]]",
+        "[[did he realize|se dio cuenta él]]",
+        "[[realized he|se dio cuenta él]]"
+      ],
+      "correctAnswer": "did he realize",
+      "explanation": "Con 'Little' al principio, usamos inversión con 'did'.",
+      "audio": "audio/b2/unit-26/e38.mp3"
+    },
+    "audioUrl": "audio/b2/unit-26/e38.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u26-e39",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "The defendant chose to plead guilty in exchange for a lighter sentence.",
+    "content": {
+      "title": "Declararse culpable",
+      "instructions": "Elige el verbo correcto para el contexto legal.",
+      "question": "[[The defendant chose to ___ guilty in exchange for a lighter sentence.|El acusado eligió declararse culpable a cambio de una condena más leve.]]",
+      "options": [
+        "[[say|decir]]",
+        "[[plead|declararse / alegar]]",
+        "[[admit|admitir]]"
+      ],
+      "correctAnswer": "plead",
+      "explanation": "En un tribunal, se usa 'plead guilty' o 'plead not guilty'.",
+      "audio": "audio/b2/unit-26/e39.mp3"
+    },
+    "audioUrl": "audio/b2/unit-26/e39.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u26-e40",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "Not until the DNA evidence was found was the suspect arrested.",
+    "content": {
+      "title": "Pruebas de ADN",
+      "instructions": "Elige la estructura de inversión adecuada.",
+      "question": "[[Not until the DNA evidence was found ___ the suspect arrested.|No fue hasta que se encontró el ADN que el sospechoso fue arrestado.]]",
+      "options": [
+        "[[was|fue]]",
+        "[[did|hizo]]",
+        "[[is|es]]"
+      ],
+      "correctAnswer": "was",
+      "explanation": "'Not until...' requiere la inversión en la cláusula principal (was the suspect arrested).",
+      "audio": "audio/b2/unit-26/e40.mp3"
+    },
+    "audioUrl": "audio/b2/unit-26/e40.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u26-e41",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "Rehabilitation is a key goal of the modern prison system.",
+    "content": {
+      "title": "Rehabilitación",
+      "instructions": "Elige el concepto correcto.",
+      "question": "[[___ is a key goal of the modern prison system.|La rehabilitación es un objetivo clave del sistema penitenciario moderno.]]",
+      "options": [
+        "[[Retribution|Retribución]]",
+        "[[Deterrence|Disuasión]]",
+        "[[Rehabilitation|Rehabilitación]]"
+      ],
+      "correctAnswer": "Rehabilitation",
+      "explanation": "La rehabilitación busca reinsertar al delincuente en la sociedad.",
+      "audio": "audio/b2/unit-26/e41.mp3"
+    },
+    "audioUrl": "audio/b2/unit-26/e41.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u26-e42",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "Only by working together can we stop organized crime.",
+    "content": {
+      "title": "Crimen organizado",
+      "instructions": "Elige la inversión correcta para 'Only by'.",
+      "question": "[[Only by working together ___ stop organized crime.|Solo trabajando juntos podemos detener el crimen organizado.]]",
+      "options": [
+        "[[we can|nosotros podemos]]",
+        "[[can we|podemos nosotros]]",
+        "[[do we can|hacemos nosotros podemos]]"
+      ],
+      "correctAnswer": "can we",
+      "explanation": "'Only by' seguido de gerundio requiere inversión del modal (can we).",
+      "audio": "audio/b2/unit-26/e42.mp3"
+    },
+    "audioUrl": "audio/b2/unit-26/e42.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u26-e43",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "He was found guilty of assault and battery.",
+    "content": {
+      "title": "Agresión",
+      "instructions": "Elige el término legal para agresión física.",
+      "question": "[[He was found guilty of ___ and battery.|Fue declarado culpable de agresión física.]]",
+      "options": [
+        "[[assault|agresión]]",
+        "[[insult|insulto]]",
+        "[[theft|robo]]"
+      ],
+      "correctAnswer": "assault",
+      "explanation": "'Assault and battery' es una pareja legal común para referirse a ataques físicos.",
+      "audio": "audio/b2/unit-26/e43.mp3"
+    },
+    "audioUrl": "audio/b2/unit-26/e43.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u26-e44",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "Rarely does the parole board grant early release to violent offenders.",
+    "content": {
+      "title": "Libertad condicional",
+      "instructions": "Elige la forma de inversión correcta.",
+      "question": "[[Rarely ___ the parole board grant early release to violent offenders.|Rara vez la junta de libertad condicional concede la liberación anticipada.]]",
+      "options": [
+        "[[does|hace (auxiliar)]]",
+        "[[is|es]]",
+        "[[has|ha]]"
+      ],
+      "correctAnswer": "does",
+      "explanation": "Usamos 'does' para invertir el presente simple con el sujeto 'parole board'.",
+      "audio": "audio/b2/unit-26/e44.mp3"
+    },
+    "audioUrl": "audio/b2/unit-26/e44.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u26-e45",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "A life sentence is the maximum penalty in many countries.",
+    "content": {
+      "title": "Cadena perpetua",
+      "instructions": "Elige el término para la condena de por vida.",
+      "question": "[[A ___ sentence is the maximum penalty in many countries.|La cadena perpetua es la pena máxima en muchos países.]]",
+      "options": [
+        "[[long|larga]]",
+        "[[life|de por vida / perpetua]]",
+        "[[death|de muerte]]"
+      ],
+      "correctAnswer": "life",
+      "explanation": "'A life sentence' significa pasar el resto de la vida en prisión.",
+      "audio": "audio/b2/unit-26/e45.mp3"
+    },
+    "audioUrl": "audio/b2/unit-26/e45.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u26-e46",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "Hardly had the witness started speaking when the lawyer interrupted.",
+    "content": {
+      "title": "Interrupción del abogado",
+      "instructions": "Elige la inversión correcta para 'Hardly'.",
+      "question": "[[Hardly ___ the witness started speaking when the lawyer interrupted.|Apenas había empezado a hablar el testigo cuando el abogado le interrumpió.]]",
+      "options": [
+        "[[the witness had|el testigo había]]",
+        "[[had the witness|había el testigo]]",
+        "[[did the witness|hizo el testigo]]"
+      ],
+      "correctAnswer": "had the witness",
+      "explanation": "Con 'Hardly' usamos Past Perfect con inversión (had + sujeto).",
+      "audio": "audio/b2/unit-26/e46.mp3"
+    },
+    "audioUrl": "audio/b2/unit-26/e46.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u26-e47",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "Cyberbullying is a growing concern in schools worldwide.",
+    "content": {
+      "title": "Ciberacoso",
+      "instructions": "Elige el término correcto.",
+      "question": "[[___ is a growing concern in schools worldwide.|El ciberacoso es una preocupación creciente.]]",
+      "options": [
+        "[[Cyberbullying|Ciberacoso]]",
+        "[[Cybercrime|Cibercrimen]]",
+        "[[Cyberspace|Ciberespacio]]"
+      ],
+      "correctAnswer": "Cyberbullying",
+      "explanation": "'Cyberbullying' es el acoso a través de medios digitales.",
+      "audio": "audio/b2/unit-26/e47.mp3"
+    },
+    "audioUrl": "audio/b2/unit-26/e47.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u26-e48",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "Scarcely ever do we hear about such a successful police operation.",
+    "content": {
+      "title": "Operación policial",
+      "instructions": "Elige la inversión correcta para 'Scarcely ever'.",
+      "question": "[[Scarcely ever ___ about such a successful police operation.|Casi nunca oímos hablar de una operación policial tan exitosa.]]",
+      "options": [
+        "[[we hear|oímos]]",
+        "[[do we hear|oímos nosotros]]",
+        "[[heard we|oímos nosotros]]"
+      ],
+      "correctAnswer": "do we hear",
+      "explanation": "'Scarcely ever' requiere inversión del presente simple (do + sujeto + verbo).",
+      "audio": "audio/b2/unit-26/e48.mp3"
+    },
+    "audioUrl": "audio/b2/unit-26/e48.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u26-e49",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "Capital punishment is still practiced in some parts of the world.",
+    "content": {
+      "title": "Pena capital",
+      "instructions": "Elige el sinónimo de pena de muerte.",
+      "question": "[[___ punishment is still practiced in some parts of the world.|La pena capital se sigue practicando en algunas partes del mundo.]]",
+      "options": [
+        "[[Severe|Severa]]",
+        "[[Capital|Capital (de muerte)]]",
+        "[[Physical|Física]]"
+      ],
+      "correctAnswer": "Capital",
+      "explanation": "'Capital punishment' es el término formal para la pena de muerte.",
+      "audio": "audio/b2/unit-26/e49.mp3"
+    },
+    "audioUrl": "audio/b2/unit-26/e49.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u26-e50",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Crime & Punishment",
+    "difficulty": "medium",
+    "transcript": "Only in this way could the authorities solve the kidnapping.",
+    "content": {
+      "title": "Resolución del secuestro",
+      "instructions": "Elige la inversión correcta para 'Only in this way'.",
+      "question": "[[Only in this way ___ solve the kidnapping.|Solo de esta manera pudieron las autoridades resolver el secuestro.]]",
+      "options": [
+        "[[could the authorities|pudieron las autoridades]]",
+        "[[the authorities could|las autoridades pudieron]]",
+        "[[did the authorities could|hicieron las autoridades pudieron]]"
+      ],
+      "correctAnswer": "could the authorities",
+      "explanation": "'Only in this way' requiere inversión del verbo modal (could) antes del sujeto.",
+      "audio": "audio/b2/unit-26/e50.mp3"
+    },
+    "audioUrl": "audio/b2/unit-26/e50.mp3",
+    "topicName": "Grammar"
   }
 ];

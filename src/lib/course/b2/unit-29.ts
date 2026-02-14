@@ -1,953 +1,1312 @@
 import { Exercise } from "@/types/course";
 
 export const UNIT_29_EXERCISES: Exercise[] = [
-  // 1-10: Grammar - Participle Clauses (Present and Past)
+  // 1-25: Sentence Building (Grammar - Relative Clauses & Vocabulary - Arts & Literature)
   {
-    id: "b2-u29-e1",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "Feeling tired, she went to bed.",
-    content: {
-      title: "Participle Clauses",
-      instructions: "Choose the correct participle to start the clause.",
-      question: "[[___ tired, she went to bed.|Sintiéndose cansada, se fue a la cama.]]",
-      options: ["Felt", "Having feel", "Feeling"],
-      correctAnswer: "Feeling",
-      explanation: "Use the present participle (-ing) to describe a reason or simultaneous action with an active meaning.",
-      translation: "Sintiéndose cansada, se fue a la cama.",
-      hint: "Reason for action."
+    "id": "b2-u29-e1",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "The author, whose latest book became a bestseller, is visiting our city.",
+    "content": {
+      "title": "Autor de éxito",
+      "instructions": "Ordena las palabras usando una cláusula relativa no definitoria con 'whose'.",
+      "correctSentence": "[[The|El]] [[author,|autor,]] [[whose|cuyo]] [[latest|último]] [[book|libro]] [[became|se convirtió]] [[a|en]] [[bestseller,|un éxito de ventas,]] [[is|está]] [[visiting|visitando]] [[our|nuestra]] [[city.|ciudad.]]",
+      "words": [
+        "[[author,|autor,]]",
+        "[[book|libro]]",
+        "[[city.|ciudad.]]",
+        "[[whose|cuyo]]",
+        "[[visiting|visitando]]",
+        "[[became|se convirtió]]",
+        "[[The|El]]",
+        "[[latest|último]]",
+        "[[is|está]]",
+        "[[bestseller,|un éxito de ventas,]]",
+        "[[our|nuestra]]",
+        "[[a|en]]"
+      ],
+      "explanation": "'Whose' indica posesión en cláusulas relativas.",
+      "audio": "audio/b2/unit-29/e1.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-29/e1.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u29-e2",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "Built in 1900, the house is very old.",
-    content: {
-      title: "Participle Clauses",
-      instructions: "Choose the correct participle.",
-      question: "[[___ in 1900, the house is very old.|Construida en 1900, la casa es muy antigua.]]",
-      options: ["Building", "Having built", "Built"],
-      correctAnswer: "Built",
-      explanation: "Use the past participle (-ed/3rd form) for a passive meaning.",
-      translation: "Construida en 1900, la casa es muy antigua.",
-      hint: "Passive meaning."
+    "id": "b2-u29-e2",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "The masterpiece, painted in the eighteenth century, was restored recently.",
+    "content": {
+      "title": "Obra maestra restaurada",
+      "instructions": "Ordena las palabras usando una cláusula relativa reducida (participio).",
+      "correctSentence": "[[The|La]] [[masterpiece,|obra maestra,]] [[painted|pintada]] [[in|en]] [[the|el]] [[eighteenth|siglo]] [[century,|dieciocho,]] [[was|fue]] [[restored|restaurada]] [[recently.|recientemente.]]",
+      "words": [
+        "[[eighteenth|siglo]]",
+        "[[masterpiece,|obra maestra,]]",
+        "[[recently.|recientemente.]]",
+        "[[century,|dieciocho,]]",
+        "[[restored|restaurada]]",
+        "[[The|La]]",
+        "[[painted|pintada]]",
+        "[[in|en]]",
+        "[[was|fue]]",
+        "[[the|el]]"
+      ],
+      "explanation": "'Painted in...' es una forma reducida de 'which was painted in...'.",
+      "audio": "audio/b2/unit-29/e2.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-29/e2.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u29-e3",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "Opening the door, he saw a ghost.",
-    content: {
-      title: "Participle Clauses",
-      instructions: "Choose the correct participle.",
-      question: "[[___ the door, he saw a ghost.|Al abrir la puerta, vio un fantasma.]]",
-      options: ["Opening", "Opened", "Having opened"],
-      correctAnswer: "Opening",
-      explanation: "Simultaneous actions: Opening the door and seeing the ghost.",
-      translation: "Al abrir la puerta, vio un fantasma.",
-      hint: "Simultaneous action."
+    "id": "b2-u29-e3",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "A gripping plot is essential for a successful mystery novel.",
+    "content": {
+      "title": "Trama fascinante",
+      "instructions": "Ordena las palabras sobre literatura.",
+      "correctSentence": "[[A|Una]] [[gripping|trama]] [[plot|fascinante]] [[is|es]] [[essential|esencial]] [[for|para]] [[a|una]] [[successful|novela]] [[mystery|de misterio]] [[novel.|exitosa.]]",
+      "words": [
+        "[[plot|fascinante]]",
+        "[[mystery|de misterio]]",
+        "[[gripping|trama]]",
+        "[[essential|esencial]]",
+        "[[successful|novela]]",
+        "[[is|es]]",
+        "[[A|Una]]",
+        "[[novel.|exitosa.]]",
+        "[[for|para]]",
+        "[[a|una]]"
+      ],
+      "explanation": "'Gripping' describe algo tan interesante que mantiene tu atención constante.",
+      "audio": "audio/b2/unit-29/e3.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-29/e3.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u29-e4",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "Having finished my homework, I went out.",
-    content: {
-      title: "Participle Clauses",
-      instructions: "Choose the correct perfect participle.",
-      question: "[[___ my homework, I went out.|Habiendo terminado mis deberes, salí.]]",
-      options: ["Having finished", "Finishing", "Finished"],
-      correctAnswer: "Having finished",
-      explanation: "Use 'Having + past participle' to show one action happened before another.",
-      translation: "Habiendo terminado mis deberes, salí.",
-      hint: "Completed before."
+    "id": "b2-u29-e4",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "The exhibition, which features local artists, will open on Friday.",
+    "content": {
+      "title": "Exposición de arte",
+      "instructions": "Ordena las palabras usando una cláusula relativa con 'which'.",
+      "correctSentence": "[[The|La]] [[exhibition,|exposición,]] [[which|que]] [[features|presenta]] [[local|artistas]] [[artists,|locales,]] [[will|se]] [[open|abrirá]] [[on|el]] [[Friday.|viernes.]]",
+      "words": [
+        "[[exhibition,|exposición,]]",
+        "[[local|artistas]]",
+        "[[Friday.|viernes.]]",
+        "[[which|que]]",
+        "[[open|abrirá]]",
+        "[[The|La]]",
+        "[[features|presenta]]",
+        "[[will|se]]",
+        "[[on|el]]",
+        "[[artists,|locales,]]"
+      ],
+      "explanation": "'Which' se usa para dar información extra sobre cosas o eventos.",
+      "audio": "audio/b2/unit-29/e4.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-29/e4.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u29-e5",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "Not knowing the answer, I kept quiet.",
-    content: {
-      title: "Participle Clauses",
-      instructions: "Choose the correct negative participle.",
-      question: "[[___ the answer, I kept quiet.|Al no saber la respuesta, me quedé callado.]]",
-      options: ["Not knowing", "Knowing not", "Not known"],
-      correctAnswer: "Not knowing",
-      explanation: "Negative present participle for a reason.",
-      translation: "Al no saber la respuesta, me quedé callado.",
-      hint: "Negative reason."
+    "id": "b2-u29-e5",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "The protagonist undergoes a profound transformation throughout the story.",
+    "content": {
+      "title": "El protagonista",
+      "instructions": "Ordena las palabras sobre el desarrollo de personajes.",
+      "correctSentence": "[[The|El]] [[protagonist|protagonista]] [[undergoes|experimenta]] [[a|una]] [[profound|transformación]] [[transformation|profunda]] [[throughout|a lo largo de]] [[the|la]] [[story.|historia.]]",
+      "words": [
+        "[[transformation|profunda]]",
+        "[[undergoes|experimenta]]",
+        "[[story.|historia.]]",
+        "[[profound|transformación]]",
+        "[[The|El]]",
+        "[[throughout|a lo largo de]]",
+        "[[protagonist|protagonista]]",
+        "[[the|la]]",
+        "[[a|una]]"
+      ],
+      "explanation": "'Undergoes' significa experimentar o pasar por un proceso.",
+      "audio": "audio/b2/unit-29/e5.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-29/e5.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u29-e6",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "Written by a famous author, the book is a bestseller.",
-    content: {
-      title: "Participle Clauses",
-      instructions: "Choose the correct participle.",
-      question: "[[___ by a famous author, the book is a bestseller.|Escrito por un autor famoso, el libro es un éxito de ventas.]]",
-      options: ["Having written", "Written", "Writing"],
-      correctAnswer: "Written",
-      explanation: "Passive participle clause describing the book.",
-      translation: "Escrito por un autor famoso, el libro es un éxito de ventas.",
-      hint: "Passive description."
+    "id": "b2-u29-e6",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "Students applying for the scholarship must submit a portfolio.",
+    "content": {
+      "title": "Becas de arte",
+      "instructions": "Ordena las palabras usando una cláusula relativa reducida (gerundio).",
+      "correctSentence": "[[Students|Los estudiantes]] [[applying|que solicitan]] [[for|la]] [[the|beca]] [[scholarship|deben]] [[must|presentar]] [[submit|un]] [[a|portfolio.]] [[portfolio.|]]",
+      "words": [
+        "[[applying|que solicitan]]",
+        "[[portfolio.|]]",
+        "[[must|presentar]]",
+        "[[Students|Los estudiantes]]",
+        "[[scholarship|deben]]",
+        "[[submit|un]]",
+        "[[for|la]]",
+        "[[a|portfolio.]]",
+        "[[the|beca]]"
+      ],
+      "explanation": "'Applying for...' es una forma reducida de 'who are applying for...'.",
+      "audio": "audio/b2/unit-29/e6.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-29/e6.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u29-e7",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "Waiting for the bus, I read a magazine.",
-    content: {
-      title: "Participle Clauses",
-      instructions: "Choose the correct participle.",
-      question: "[[___ for the bus, I read a magazine.|Esperando el autobús, leí una revista.]]",
-      options: ["Waiting", "Waited", "Having waited"],
-      correctAnswer: "Waiting",
-      explanation: "Simultaneous action in the present participle.",
-      translation: "Esperando el autobús, leí una revista.",
-      hint: "While doing this."
+    "id": "b2-u29-e7",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "Abstract art often conveys emotions through colors and shapes.",
+    "content": {
+      "title": "Arte abstracto",
+      "instructions": "Ordena las palabras sobre estilos artísticos.",
+      "correctSentence": "[[Abstract|El arte]] [[art|abstracto]] [[often|suele]] [[conveys|transmitir]] [[emotions|emociones]] [[through|a través de]] [[colors|colores]] [[and|y]] [[shapes.|formas.]]",
+      "words": [
+        "[[conveys|transmitir]]",
+        "[[shapes.|formas.]]",
+        "[[Abstract|El arte]]",
+        "[[often|suele]]",
+        "[[colors|colores]]",
+        "[[art|abstracto]]",
+        "[[through|a través de]]",
+        "[[emotions|emociones]]",
+        "[[and|y]]"
+      ],
+      "explanation": "'Convey' significa comunicar o expresar un pensamiento o sentimiento.",
+      "audio": "audio/b2/unit-29/e7.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-29/e7.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u29-e8",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "Scared by the noise, the cat ran away.",
-    content: {
-      title: "Participle Clauses",
-      instructions: "Choose the correct participle.",
-      question: "[[___ by the noise, the cat ran away.|Asustado por el ruido, el gato huyó.]]",
-      options: ["Having scared", "Scaring", "Scared"],
-      correctAnswer: "Scared",
-      explanation: "Passive/state participle describing the subject's feeling caused by an external factor.",
-      translation: "Asustado por el ruido, el gato huyó.",
-      hint: "Passive state."
+    "id": "b2-u29-e8",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "The museum, where I spent the afternoon, has a vast collection.",
+    "content": {
+      "title": "Tarde en el museo",
+      "instructions": "Ordena las palabras usando 'where' en una cláusula relativa.",
+      "correctSentence": "[[The|El]] [[museum,|museo,]] [[where|donde]] [[I|pasé]] [[spent|la]] [[the|tarde,]] [[afternoon,|tiene]] [[has|una]] [[a|colección]] [[vast|vasta.]] [[collection.|]]",
+      "words": [
+        "[[spent|la]]",
+        "[[collection.|]]",
+        "[[where|donde]]",
+        "[[afternoon,|tarde,]]",
+        "[[museum,|museo,]]",
+        "[[has|una]]",
+        "[[The|El]]",
+        "[[the|tarde,]]",
+        "[[vast|vasta.]]",
+        "[[I|pasé]]",
+        "[[a|colección]]"
+      ],
+      "explanation": "'Where' se usa para dar información sobre lugares.",
+      "audio": "audio/b2/unit-29/e8.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-29/e8.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u29-e9",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "Having lived there for years, she knew the city well.",
-    content: {
-      title: "Participle Clauses",
-      instructions: "Choose the correct perfect participle.",
-      question: "[[___ there for years, she knew the city well.|Habiendo vivido allí durante años, conocía bien la ciudad.]]",
-      options: ["Having lived", "Living", "Lived"],
-      correctAnswer: "Having lived",
-      explanation: "Action completed over time before the state of knowing the city.",
-      translation: "Habiendo vivido allí durante años, conocía bien la ciudad.",
-      hint: "Completed before."
+    "id": "b2-u29-e9",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "Poetry allows writers to express complex ideas in a concise way.",
+    "content": {
+      "title": "La poesía",
+      "instructions": "Ordena las palabras sobre géneros literarios.",
+      "correctSentence": "[[Poetry|La poesía]] [[allows|permite]] [[writers|a los escritores]] [[to|expresar]] [[express|ideas]] [[complex|complejas]] [[ideas|de]] [[in|manera]] [[a|concisa.]] [[concise|]] [[way.|]]",
+      "words": [
+        "[[express|ideas]]",
+        "[[way.|]]",
+        "[[writers|a los escritores]]",
+        "[[Poetry|La poesía]]",
+        "[[concise|]]",
+        "[[allows|permite]]",
+        "[[ideas|de]]",
+        "[[complex|complejas]]",
+        "[[in|manera]]",
+        "[[to|expresar]]",
+        "[[a|concisa.]]"
+      ],
+      "explanation": "'Concise' significa dar mucha información de forma clara y en pocas palabras.",
+      "audio": "audio/b2/unit-29/e9.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-29/e9.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u29-e10",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "Using a sharp knife, he cut the bread.",
-    content: {
-      title: "Participle Clauses",
-      instructions: "Choose the correct participle.",
-      question: "[[___ a sharp knife, he cut the bread.|Usando un cuchillo afilado, cortó el pan.]]",
-      options: ["Having used", "Used", "Using"],
-      correctAnswer: "Using",
-      explanation: "Describing the method or simultaneous action.",
-      translation: "Usando un cuchillo afilado, cortó el pan.",
-      hint: "Simultaneous action."
+    "id": "b2-u29-e10",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "The woman sitting over there is a famous sculptor.",
+    "content": {
+      "title": "La escultora",
+      "instructions": "Ordena las palabras usando una cláusula de participio presente.",
+      "correctSentence": "[[The|La]] [[woman|mujer]] [[sitting|sentada]] [[over|allí]] [[there|es]] [[is|una]] [[a|famosa]] [[famous|escultora.]] [[sculptor.|]]",
+      "words": [
+        "[[sitting|sentada]]",
+        "[[sculptor.|]]",
+        "[[woman|mujer]]",
+        "[[is|una]]",
+        "[[over|allí]]",
+        "[[there|es]]",
+        "[[The|La]]",
+        "[[a|famosa]]",
+        "[[famous|escultora.]]"
+      ],
+      "explanation": "'Sitting' identifica a la mujer mediante una acción en curso (reducida de 'who is sitting').",
+      "audio": "audio/b2/unit-29/e10.mp3"
     },
-    topicName: "Grammar"
-  },
-
-  // 11-20: Vocabulary - Fine Arts
-  {
-    id: "b2-u29-e11",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "The artist painted a beautiful landscape.",
-    content: {
-      title: "Fine Arts",
-      instructions: "Choose the correct word.",
-      question: "[[The artist painted a beautiful ___ (landscape) showing the countryside.|El artista pintó un hermoso paisaje.]]",
-      options: ["[[landscape|paisaje]]", "[[landmark|hito / monumento]]", "[[landslide|corrimiento de tierras / victoria arrolladora]]"],
-      correctAnswer: "landscape",
-      explanation: "A landscape is a painting of natural scenery.",
-      translation: "El artista pintó un hermoso paisaje.",
-      hint: "Natural scenery painting."
-    },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-29/e10.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u29-e12",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "The portrait looks just like him.",
-    content: {
-      title: "Fine Arts",
-      instructions: "Choose the correct word.",
-      question: "[[The ___ (portrait) looks just like him; it's a great likeness.|El retrato se parece mucho a él.]]",
-      options: ["[[portrayal|representación]]", "[[portion|porción]]", "[[portrait|retrato]]"],
-      correctAnswer: "portrait",
-      explanation: "A portrait is a painting or photograph of a person.",
-      translation: "El retrato se parece mucho a él.",
-      hint: "Painting of a person."
+    "id": "b2-u29-e11",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "His works are characterized by their intricate details and vivid colors.",
+    "content": {
+      "title": "Estilo artístico",
+      "instructions": "Ordena las palabras sobre características del arte.",
+      "correctSentence": "[[His|Sus]] [[works|obras]] [[are|se]] [[characterized|caracterizan]] [[by|por]] [[their|sus]] [[intricate|detalles]] [[details|intrincados]] [[and|y]] [[vivid|colores]] [[colors.|vivos.]]",
+      "words": [
+        "[[characterized|caracterizan]]",
+        "[[colors.|vivos.]]",
+        "[[works|obras]]",
+        "[[their|sus]]",
+        "[[and|y]]",
+        "[[His|Sus]]",
+        "[[intricate|detalles]]",
+        "[[vivid|colores]]",
+        "[[are|se]]",
+        "[[details|intrincados]]",
+        "[[by|por]]"
+      ],
+      "explanation": "'Intricate' significa que tiene muchas partes pequeñas y complejas.",
+      "audio": "audio/b2/unit-29/e11.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-29/e11.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u29-e13",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "The sculpture is made of marble.",
-    content: {
-      title: "Fine Arts",
-      instructions: "Choose the correct word.",
-      question: "[[The ___ (sculpture) is made of white marble.|La escultura está hecha de mármol.]]",
-      options: ["[[sculpture|escultura]]", "[[sculptor|escultor]]", "[[scrip|vale / certificado]]"],
-      correctAnswer: "sculpture",
-      explanation: "A sculpture is a three-dimensional work of art.",
-      translation: "La escultura está hecha de mármol.",
-      hint: "3D work of art."
+    "id": "b2-u29-e12",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "The book, the cover of which is torn, belongs to the library.",
+    "content": {
+      "title": "Libro de la biblioteca",
+      "instructions": "Ordena las palabras usando 'of which' para posesión formal.",
+      "correctSentence": "[[The|El]] [[book,|libro,]] [[the|cuya]] [[cover|portada]] [[of|está]] [[which|rota,]] [[is|pertenece]] [[torn,|a]] [[belongs|la]] [[to|biblioteca.]] [[the|]] [[library.|]]",
+      "words": [
+        "[[cover|portada]]",
+        "[[library.|]]",
+        "[[which|rota,]]",
+        "[[torn,|a]]",
+        "[[book,|libro,]]",
+        "[[belongs|la]]",
+        "[[The|El]]",
+        "[[the|cuya]]",
+        "[[of|está]]",
+        "[[to|biblioteca.]]",
+        "[[is|pertenece]]",
+        "[[the|]]"
+      ],
+      "explanation": "'The cover of which' es una forma muy formal de decir 'whose cover'.",
+      "audio": "audio/b2/unit-29/e12.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-29/e12.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u29-e14",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "The gallery is hosting a new exhibition.",
-    content: {
-      title: "Fine Arts",
-      instructions: "Choose the correct word.",
-      question: "[[The gallery is hosting a new ___ (exhibition) of modern art.|La galería alberga una nueva exposición.]]",
-      options: ["[[exhibition|exhibición / exposición]]", "[[exhaustion|agotamiento]]", "[[excitement|emoción]]"],
-      correctAnswer: "exhibition",
-      explanation: "An exhibition is a public display of works of art.",
-      translation: "La galería alberga una nueva exposición.",
-      hint: "Public display."
+    "id": "b2-u29-e13",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "Many critics praised the playwright for his innovative approach to drama.",
+    "content": {
+      "title": "El dramaturgo",
+      "instructions": "Ordena las palabras sobre teatro y crítica.",
+      "correctSentence": "[[Many|Muchos]] [[critics|críticos]] [[praised|elogiaron]] [[the|al]] [[playwright|dramaturgo]] [[for|por]] [[his|su]] [[innovative|enfoque]] [[approach|innovador]] [[to|del]] [[drama.|drama.]]",
+      "words": [
+        "[[praised|elogiaron]]",
+        "[[drama.|drama.]]",
+        "[[critics|críticos]]",
+        "[[playwright|dramaturgo]]",
+        "[[approach|innovador]]",
+        "[[Many|Muchos]]",
+        "[[innovative|enfoque]]",
+        "[[his|su]]",
+        "[[the|al]]",
+        "[[to|del]]",
+        "[[for|por]]"
+      ],
+      "explanation": "Un 'playwright' es una persona que escribe obras de teatro.",
+      "audio": "audio/b2/unit-29/e13.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-29/e13.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u29-e15",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "He is a master of abstract art.",
-    content: {
-      title: "Fine Arts",
-      instructions: "Choose the correct word.",
-      question: "[[He is a master of ___ (abstract) art, which doesn't represent reality literally.|Es un maestro del arte abstracto.]]",
-      options: ["[[abundant|abundante]]", "[[abstract|abstracto]]", "[[absent|ausente]]"],
-      correctAnswer: "abstract",
-      explanation: "Abstract art uses shapes, colors, and forms to achieve its effect.",
-      translation: "Es un maestro del arte abstracto.",
-      hint: "Non-literal art."
+    "id": "b2-u29-e14",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "The reason why he left the stage so suddenly is still unknown.",
+    "content": {
+      "title": "Escena inesperada",
+      "instructions": "Ordena las palabras usando 'why' en una cláusula relativa.",
+      "correctSentence": "[[The|La]] [[reason|razón]] [[why|por]] [[he|la]] [[left|que]] [[the|abandonó]] [[stage|el]] [[so|escenario]] [[suddenly|tan]] [[is|repentinamente]] [[still|sigue]] [[unknown.|siendo desconocida.]]",
+      "words": [
+        "[[left|que]]",
+        "[[unknown.|siendo desconocida.]]",
+        "[[reason|razón]]",
+        "[[still|sigue]]",
+        "[[stage|el]]",
+        "[[The|La]]",
+        "[[suddenly|tan]]",
+        "[[why|por]]",
+        "[[is|repentinamente]]",
+        "[[he|la]]",
+        "[[the|abandonó]]",
+        "[[so|escenario]]"
+      ],
+      "explanation": "'Reason why' explica el motivo de algo.",
+      "audio": "audio/b2/unit-29/e14.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-29/e14.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u29-e16",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "The canvas was blank before he started.",
-    content: {
-      title: "Fine Arts",
-      instructions: "Choose the correct word.",
-      question: "[[The ___ (canvas) was blank before he started to paint.|El lienzo estaba en blanco antes de que empezara.]]",
-      options: ["[[canvas|lienzo]]", "[[canopy|toldo / dosel]]", "[[canyon|cañón]]"],
-      correctAnswer: "canvas",
-      explanation: "A canvas is the cloth surface used for painting.",
-      translation: "El lienzo estaba en blanco antes de que empezara.",
-      hint: "Painting surface."
+    "id": "b2-u29-e15",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "Contemporary literature reflects the diversity of modern society.",
+    "content": {
+      "title": "Literatura contemporánea",
+      "instructions": "Ordena las palabras sobre literatura actual.",
+      "correctSentence": "[[Contemporary|La literatura]] [[literature|contemporánea]] [[reflects|refleja]] [[the|la]] [[diversity|diversidad]] [[of|de]] [[the|la]] [[modern|sociedad]] [[society.|moderna.]]",
+      "words": [
+        "[[reflects|refleja]]",
+        "[[society.|moderna.]]",
+        "[[literature|contemporánea]]",
+        "[[modern|sociedad]]",
+        "[[Contemporary|La literatura]]",
+        "[[diversity|diversidad]]",
+        "[[the|la]]",
+        "[[the|la]]",
+        "[[of|de]]"
+      ],
+      "explanation": "'Contemporary' se refiere a lo que pertenece al tiempo presente.",
+      "audio": "audio/b2/unit-29/e15.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-29/e15.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u29-e17",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "The brushwork is very delicate.",
-    content: {
-      title: "Fine Arts",
-      instructions: "Choose the correct word.",
-      question: "[[The ___ (brushwork) in this painting is very delicate and precise.|La pincelada es muy delicada.]]",
-      options: ["[[brushwork|pincelada / técnica del pincel]]", "[[brickwork|albañilería]]", "[[framework|marco / estructura]]"],
-      correctAnswer: "brushwork",
-      explanation: "Brushwork refers to the way paint is applied with a brush.",
-      translation: "La pincelada es muy delicada.",
-      hint: "Way of using a brush."
+    "id": "b2-u29-e16",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "Most of the students invited to the gallery were impressed.",
+    "content": {
+      "title": "Visita a la galería",
+      "instructions": "Ordena las palabras usando una cláusula de participio pasado.",
+      "correctSentence": "[[Most|La mayoría]] [[of|de]] [[the|los]] [[students|estudiantes]] [[invited|invitados]] [[to|a]] [[the|la]] [[gallery|galería]] [[were|quedaron]] [[impressed.|impresionados.]]",
+      "words": [
+        "[[invited|invitados]]",
+        "[[impressed.|impresionados.]]",
+        "[[the|los]]",
+        "[[gallery|galería]]",
+        "[[Most|La mayoría]]",
+        "[[were|quedaron]]",
+        "[[of|de]]",
+        "[[the|la]]",
+        "[[to|a]]",
+        "[[students|estudiantes]]"
+      ],
+      "explanation": "'Invited to...' es una forma reducida de 'who were invited to...'.",
+      "audio": "audio/b2/unit-29/e16.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-29/e16.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u29-e18",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "Masterpiece is his best work.",
-    content: {
-      title: "Fine Arts",
-      instructions: "Choose the correct word.",
-      question: "[[This painting is considered a ___ (masterpiece).|Esta pintura se considera una obra maestra.]]",
-      options: ["[[masterpiece|obra maestra]]", "[[mastery|maestría]]", "[[mastermind|cerebro (de un plan)]]"],
-      correctAnswer: "masterpiece",
-      explanation: "A masterpiece is an artist's best or most famous work.",
-      translation: "Esta pintura se considera una obra maestra.",
-      hint: "Artist's best work."
+    "id": "b2-u29-e17",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "The novel was adapted into a movie that won several awards.",
+    "content": {
+      "title": "Adaptación al cine",
+      "instructions": "Ordena las palabras sobre cine y literatura.",
+      "correctSentence": "[[The|La]] [[novel|novela]] [[was|fue]] [[adapted|adaptada]] [[into|al]] [[a|cine]] [[movie|que]] [[that|ganó]] [[won|varios]] [[several|premios.]] [[awards.|]]",
+      "words": [
+        "[[adapted|adaptada]]",
+        "[[awards.|]]",
+        "[[novel|novela]]",
+        "[[won|varios]]",
+        "[[The|La]]",
+        "[[that|ganó]]",
+        "[[movie|que]]",
+        "[[into|al]]",
+        "[[a|cine]]",
+        "[[several|premios.]]",
+        "[[was|fue]]"
+      ],
+      "explanation": "'Adapted into' se usa cuando una obra literaria se convierte en una película o serie.",
+      "audio": "audio/b2/unit-29/e17.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-29/e17.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u29-e19",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "The museum is full of artifacts.",
-    content: {
-      title: "Fine Arts",
-      instructions: "Choose the correct word.",
-      question: "[[The museum is full of ancient ___ (artifacts) from Egypt.|El museo está lleno de artefactos.]]",
-      options: ["[[artifacts|artefactos / objetos arqueológicos]]", "[[artifices|artimañas]]", "[[articles|artículos]]"],
-      correctAnswer: "artifacts",
-      explanation: "Artifacts are objects made by humans, typically of historical interest.",
-      translation: "El museo está lleno de artefactos.",
-      hint: "Historical objects."
+    "id": "b2-u29-e18",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "The town in which the festival is held is very picturesque.",
+    "content": {
+      "title": "Pueblo pintoresco",
+      "instructions": "Ordena las palabras usando 'in which' en lugar de 'where'.",
+      "correctSentence": "[[The|El]] [[town|pueblo]] [[in|en]] [[which|el]] [[the|que]] [[festival|se]] [[is|celebra]] [[held|el]] [[is|festival]] [[very|es]] [[picturesque.|muy pintoresco.]]",
+      "words": [
+        "[[which|el]]",
+        "[[picturesque.|muy pintoresco.]]",
+        "[[town|pueblo]]",
+        "[[held|el]]",
+        "[[is|es]]",
+        "[[The|El]]",
+        "[[festival|se]]",
+        "[[in|en]]",
+        "[[is|celebra]]",
+        "[[the|que]]",
+        "[[very|es]]"
+      ],
+      "explanation": "'In which' es una alternativa más formal a 'where'.",
+      "audio": "audio/b2/unit-29/e18.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-29/e18.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u29-e20",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "Modern art can be controversial.",
-    content: {
-      title: "Fine Arts",
-      instructions: "Choose the correct word.",
-      question: "[[___ (Modern) art can sometimes be controversial and hard to understand.|El arte moderno puede ser polémico.]]",
-      options: ["[[Moderate|Moderado]]", "[[Modern|Moderno]]", "[[Modest|Modesto]]"],
-      correctAnswer: "Modern",
-      explanation: "Art from the late 19th to mid-20th century.",
-      translation: "El arte moderno puede ser polémico.",
-      hint: "Recent era art."
+    "id": "b2-u29-e19",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "A rehearsal is a practice session for a play or concert.",
+    "content": {
+      "title": "El ensayo",
+      "instructions": "Ordena las palabras sobre artes escénicas.",
+      "correctSentence": "[[A|Un]] [[rehearsal|ensayo]] [[is|es]] [[a|una]] [[practice|sesión]] [[session|de]] [[for|práctica]] [[a|para]] [[play|una]] [[or|obra]] [[concert.|o concierto.]]",
+      "words": [
+        "[[practice|sesión]]",
+        "[[concert.|o concierto.]]",
+        "[[rehearsal|ensayo]]",
+        "[[session|de]]",
+        "[[for|práctica]]",
+        "[[A|Un]]",
+        "[[or|obra]]",
+        "[[play|una]]",
+        "[[is|es]]",
+        "[[a|para]]",
+        "[[a|una]]"
+      ],
+      "explanation": "'Rehearsal' es el ensayo previo a la actuación final.",
+      "audio": "audio/b2/unit-29/e19.mp3"
     },
-    topicName: "Vocabulary"
-  },
-
-  // 21-30: Vocabulary - Literature
-  {
-    id: "b2-u29-e21",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "The novel has a complex plot.",
-    content: {
-      title: "Literature",
-      instructions: "Choose the correct word.",
-      question: "[[The novel has a very complex ___ (plot) with many twists.|La novela tiene una trama compleja.]]",
-      options: ["[[play|obra de teatro]]", "[[plot|trama / argumento]]", "[[plan|plan]]"],
-      correctAnswer: "plot",
-      explanation: "The plot is the sequence of events in a story.",
-      translation: "La novela tiene una trama compleja.",
-      hint: "Story sequence."
-    },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-29/e19.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u29-e22",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "The protagonist is a brave young woman.",
-    content: {
-      title: "Literature",
-      instructions: "Choose the correct word.",
-      question: "[[The ___ (protagonist) is the main character in the story.|La protagonista es el personaje principal de la historia.]]",
-      options: ["[[protagonist|protagonista]]", "[[provider|proveedor]]", "[[producer|productor]]"],
-      correctAnswer: "protagonist",
-      explanation: "The protagonist is the leading character.",
-      translation: "La protagonista es el personaje principal de la historia.",
-      hint: "Main character."
+    "id": "b2-u29-e20",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "The book published last month has already sold out.",
+    "content": {
+      "title": "Libro agotado",
+      "instructions": "Ordena las palabras usando una cláusula de participio pasado.",
+      "correctSentence": "[[The|El]] [[book|libro]] [[published|publicado]] [[last|el]] [[month|mes]] [[has|pasado]] [[already|ya]] [[sold|se]] [[out.|ha agotado.]]",
+      "words": [
+        "[[published|publicado]]",
+        "[[out.|ha agotado.]]",
+        "[[book|libro]]",
+        "[[sold|se]]",
+        "[[last|el]]",
+        "[[The|El]]",
+        "[[already|ya]]",
+        "[[month|mes]]",
+        "[[has|pasado]]"
+      ],
+      "explanation": "'Published last month' es una cláusula reducida que actúa como adjetivo.",
+      "audio": "audio/b2/unit-29/e20.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-29/e20.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u29-e23",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "The setting of the story is Victorian London.",
-    content: {
-      title: "Literature",
-      instructions: "Choose the correct word.",
-      question: "[[The ___ (setting) of the story is Victorian London.|El escenario de la historia es el Londres victoriano.]]",
-      options: ["[[seating|asientos]]", "[[setting|escenario / ambientación]]", "[[sending|envío]]"],
-      correctAnswer: "setting",
-      explanation: "The setting is the time and place of a story.",
-      translation: "El escenario de la historia es el Londres victoriano.",
-      hint: "Time and place."
+    "id": "b2-u29-e21",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "Street art provides a platform for social and political commentary.",
+    "content": {
+      "title": "Arte callejero",
+      "instructions": "Ordena las palabras sobre arte urbano.",
+      "correctSentence": "[[Street|El arte]] [[art|callejero]] [[provides|proporciona]] [[a|una]] [[platform|plataforma]] [[for|para]] [[social|el comentario]] [[and|social]] [[political|y]] [[commentary.|político.]]",
+      "words": [
+        "[[provides|proporciona]]",
+        "[[commentary.|político.]]",
+        "[[art|callejero]]",
+        "[[social|el comentario]]",
+        "[[political|y]]",
+        "[[Street|El arte]]",
+        "[[and|social]]",
+        "[[platform|plataforma]]",
+        "[[for|para]]",
+        "[[a|una]]"
+      ],
+      "explanation": "'Street art' incluye grafitis y otras formas de expresión en lugares públicos.",
+      "audio": "audio/b2/unit-29/e21.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-29/e21.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u29-e24",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "The narrator is unreliable.",
-    content: {
-      title: "Literature",
-      instructions: "Choose the correct word.",
-      question: "[[The ___ (narrator) tells the story from their perspective.|El narrador nos cuenta la historia desde su perspectiva.]]",
-      options: ["[[navigator|navegador]]", "[[narrator|narrador]]", "[[narrative|narrativa]]"],
-      correctAnswer: "narrator",
-      explanation: "The person telling the story.",
-      translation: "El narrador cuenta la historia desde su perspectiva.",
-      hint: "Storyteller."
+    "id": "b2-u29-e22",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "The man to whom she was speaking is a renowned curator.",
+    "content": {
+      "title": "El curador",
+      "instructions": "Ordena las palabras usando una estructura formal con 'to whom'.",
+      "correctSentence": "[[The|El]] [[man|hombre]] [[to|con]] [[whom|el]] [[she|que]] [[was|ella]] [[speaking|estaba]] [[is|hablando]] [[a|es]] [[renowned|un]] [[curator.|renombrado curador.]]",
+      "words": [
+        "[[whom|el]]",
+        "[[curator.|renombrado curador.]]",
+        "[[man|hombre]]",
+        "[[speaking|estaba]]",
+        "[[is|hablando]]",
+        "[[The|El]]",
+        "[[a|es]]",
+        "[[renowned|un]]",
+        "[[to|con]]",
+        "[[she|que]]",
+        "[[was|ella]]"
+      ],
+      "explanation": "'To whom' es muy formal; en lenguaje hablado solemos poner la preposición al final.",
+      "audio": "audio/b2/unit-29/e22.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-29/e22.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u29-e25",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "The theme of the book is love and loss.",
-    content: {
-      title: "Literature",
-      instructions: "Choose the correct word.",
-      question: "[[The central ___ (theme) of the book is love and sacrifice.|El tema central del libro es el amor y el sacrificio.]]",
-      options: ["[[theme|tema]]", "[[theory|teoría]]", "[[theater|teatro]]"],
-      correctAnswer: "theme",
-      explanation: "A theme is a main idea or underlying message in a work of literature.",
-      translation: "El tema central del libro es el amor y el sacrificio.",
-      hint: "Central idea."
+    "id": "b2-u29-e23",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "The trilogy reached its climax in the final volume.",
+    "content": {
+      "title": "Clímax de la trilogía",
+      "instructions": "Ordena las palabras sobre estructuras narrativas.",
+      "correctSentence": "[[The|La]] [[trilogy|trilogía]] [[reached|alcanzó]] [[its|su]] [[climax|punto]] [[in|máximo]] [[the|en]] [[final|el]] [[volume.|último volumen.]]",
+      "words": [
+        "[[reached|alcanzó]]",
+        "[[volume.|último volumen.]]",
+        "[[trilogy|trilogía]]",
+        "[[final|el]]",
+        "[[climax|punto]]",
+        "[[The|La]]",
+        "[[the|en]]",
+        "[[in|máximo]]",
+        "[[its|su]]"
+      ],
+      "explanation": "El 'climax' es el momento de mayor intensidad en una historia.",
+      "audio": "audio/b2/unit-29/e23.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-29/e23.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u29-e26",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "The imagery in the poem is vivid.",
-    content: {
-      title: "Literature",
-      instructions: "Choose the correct word.",
-      question: "[[The ___ (imagery) in the poem creates a clear picture in the reader's mind.|Las imágenes del poema crean una imagen clara en la mente del lector.]]",
-      options: ["[[imagery|imágenes / lenguaje descriptivo]]", "[[imagination|imaginación]]", "[[image|imagen]]"],
-      correctAnswer: "imagery",
-      explanation: "Imagery is visually descriptive or figurative language.",
-      translation: "Las imágenes en el poema crean una imagen clara.",
-      hint: "Visual language."
+    "id": "b2-u29-e24",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "This is the spot where the artist used to paint.",
+    "content": {
+      "title": "Lugar de inspiración",
+      "instructions": "Ordena las palabras usando 'where' en una cláusula relativa definitoria.",
+      "correctSentence": "[[This|Este]] [[is|es]] [[the|el]] [[spot|lugar]] [[where|donde]] [[the|el]] [[artist|artista]] [[used|solía]] [[to|pintar.]] [[paint.|]]",
+      "words": [
+        "[[artist|artista]]",
+        "[[paint.|]]",
+        "[[spot|lugar]]",
+        "[[where|donde]]",
+        "[[is|es]]",
+        "[[This|Este]]",
+        "[[the|el]]",
+        "[[used|solía]]",
+        "[[to|pintar.]]"
+      ],
+      "explanation": "'Spot' es un término informal para referirse a un lugar o sitio específico.",
+      "audio": "audio/b2/unit-29/e24.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-29/e24.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u29-e27",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "Genre fiction is very popular.",
-    content: {
-      title: "Literature",
-      instructions: "Choose the correct word.",
-      question: "[[Science fiction is a popular literary ___ (genre).|La ciencia ficción es un género literario popular.]]",
-      options: ["[[gender|género (biológico)]]", "[[genre|género (artístico)]]", "[[general|general]]"],
-      correctAnswer: "genre",
-      explanation: "A genre is a category of artistic composition.",
-      translation: "La ciencia ficción es un género literario popular.",
-      hint: "Category."
+    "id": "b2-u29-e25",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "Her latest collection of short stories received rave reviews.",
+    "content": {
+      "title": "Críticas entusiastas",
+      "instructions": "Ordena las palabras sobre éxito literario.",
+      "correctSentence": "[[Her|Su]] [[latest|última]] [[collection|colección]] [[of|de]] [[short|relatos]] [[stories|cortos]] [[received|recibió]] [[rave|críticas]] [[reviews.|entusiastas.]]",
+      "words": [
+        "[[collection|colección]]",
+        "[[reviews.|entusiastas.]]",
+        "[[short|relatos]]",
+        "[[received|recibió]]",
+        "[[latest|última]]",
+        "[[Her|Su]]",
+        "[[rave|críticas]]",
+        "[[stories|cortos]]",
+        "[[of|de]]"
+      ],
+      "explanation": "'Rave reviews' son críticas extremadamente positivas y elogiosas.",
+      "audio": "audio/b2/unit-29/e25.mp3"
     },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u29-e28",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "Metaphor is used throughout the play.",
-    content: {
-      title: "Literature",
-      instructions: "Choose the correct word.",
-      question: "[[A ___ (metaphor) is a figure of speech that describes an object in a way that isn't literally true.|La metáfora se utiliza en toda la obra.]]",
-      options: ["[[metaphor|metáfora]]", "[[method|método]]", "[[metal|metal]]"],
-      correctAnswer: "metaphor",
-      explanation: "Comparison without using 'like' or 'as'.",
-      translation: "La metáfora se utiliza en toda la obra.",
-      hint: "Symbolic comparison."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u29-e29",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "Anthology of short stories.",
-    content: {
-      title: "Literature",
-      instructions: "Choose the correct word.",
-      question: "[[An ___ (anthology) is a collection of poems or other pieces of writing.|Una antología es una colección de poemas u otros escritos.]]",
-      options: ["[[anthology|antología / colección]]", "[[anthropology|antropología]]", "[[apology|disculpa]]"],
-      correctAnswer: "anthology",
-      explanation: "Collection of works.",
-      translation: "Una antología es una colección de escritos.",
-      hint: "Collection of works."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u29-e30",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "Prose is ordinary written language.",
-    content: {
-      title: "Literature",
-      instructions: "Choose the correct word.",
-      question: "[[___ (Prose) is written or spoken language in its ordinary form, without metrical structure.|La prosa es el lenguaje escrito u hablado en su forma ordinaria.]]",
-      options: ["[[Prose|Prosa]]", "[[Poem|Poema]]", "[[Phrase|Frase]]"],
-      correctAnswer: "Prose",
-      explanation: "Regular writing (not poetry).",
-      translation: "La prosa es el lenguaje escrito ordinario.",
-      hint: "Non-poetic writing."
-    },
-    topicName: "Vocabulary"
-  },
-
-  // 31-40: Vocabulary - Performing Arts
-  {
-    id: "b2-u29-e31",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "The performance was outstanding.",
-    content: {
-      title: "Performing Arts",
-      instructions: "Choose the correct term.",
-      question: "[[The actor's ___ was rewarded with a standing ovation.|La actuación fue sobresaliente.]]",
-      options: ["performance", "showing", "display"],
-      correctAnswer: "performance",
-      explanation: "An act of staging or presenting a play, concert, or other form of entertainment.",
-      translation: "La actuación fue sobresaliente.",
-      hint: "Act of acting."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u29-e32",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "The script was well-written.",
-    content: {
-      title: "Performing Arts",
-      instructions: "Choose the correct term.",
-      question: "[[The ___ for the movie was adapted from a novel.|El guion estaba bien escrito.]]",
-      options: ["book", "text", "script"],
-      correctAnswer: "script",
-      explanation: "The written text of a play, movie, or broadcast.",
-      translation: "El guion estaba bien escrito.",
-      hint: "Written text of a play/movie."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u29-e33",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "The stage was beautifully decorated.",
-    content: {
-      title: "Performing Arts",
-      instructions: "Choose the correct term.",
-      question: "[[The actors walked onto the ___ to begin the play.|El escenario estaba bellamente decorado.]]",
-      options: ["floor", "ground", "stage"],
-      correctAnswer: "stage",
-      explanation: "A raised floor or platform, typically in a theater, on which actors, entertainers, or speakers perform.",
-      translation: "El escenario estaba bellamente decorado.",
-      hint: "Performance platform."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u29-e34",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "The audience clapped loudly.",
-    content: {
-      title: "Performing Arts",
-      instructions: "Choose the correct term.",
-      question: "[[The ___ loved the show and cheered at the end.|El público aplaudió fuertemente.]]",
-      options: ["audience", "public", "people"],
-      correctAnswer: "audience",
-      explanation: "The assembled spectators or listeners at a public event.",
-      translation: "El público aplaudió fuertemente.",
-      hint: "People watching."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u29-e35",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "The rehearsal lasted all day.",
-    content: {
-      title: "Performing Arts",
-      instructions: "Choose the correct term.",
-      question: "[[We have a dress ___ today before the opening night.|El ensayo duró todo el día.]]",
-      options: ["training", "practice", "rehearsal"],
-      correctAnswer: "rehearsal",
-      explanation: "A practice or trial performance of a play or other work for later public performance.",
-      translation: "El ensayo duró todo el día.",
-      hint: "Practice session."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u29-e36",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "The cast includes several famous actors.",
-    content: {
-      title: "Performing Arts",
-      instructions: "Choose the correct term.",
-      question: "[[The ___ of the play worked together for months.|El elenco incluye a varios actores famosos.]]",
-      options: ["group", "team", "cast"],
-      correctAnswer: "cast",
-      explanation: "The actors in a play, movie, or show.",
-      translation: "El elenco incluye a varios actores famosos.",
-      hint: "Group of actors."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u29-e37",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "The costumes were elaborate.",
-    content: {
-      title: "Performing Arts",
-      instructions: "Choose the correct term.",
-      question: "[[The actors wore traditional ___ for the historical drama.|El vestuario era elaborado.]]",
-      options: ["outfits", "costumes", "clothes"],
-      correctAnswer: "costumes",
-      explanation: "A set of clothes worn by an actor or other performer for a particular role or for an occasion.",
-      translation: "El vestuario era elaborado.",
-      hint: "Performers' clothes."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u29-e38",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "The lighting created a mysterious atmosphere.",
-    content: {
-      title: "Performing Arts",
-      instructions: "Choose the correct term.",
-      question: "[[The ___ was dim to create a spooky effect.|La iluminación creó una atmósfera misteriosa.]]",
-      options: ["shining", "light", "lighting"],
-      correctAnswer: "lighting",
-      explanation: "The arrangement or effect of lights.",
-      translation: "La iluminación creó una atmósfera misteriosa.",
-      hint: "Use of lights."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u29-e39",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "The director gave instructions to the actors.",
-    content: {
-      title: "Performing Arts",
-      instructions: "Choose the correct term.",
-      question: "[[The ___ is responsible for the creative aspects of the production.|El director dio instrucciones a los actores.]]",
-      options: ["boss", "manager", "director"],
-      correctAnswer: "director",
-      explanation: "A person who supervises the actors and other staff in a production.",
-      translation: "El director dio instrucciones a los actores.",
-      hint: "Creative head."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u29-e40",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "Opening night was a huge success.",
-    content: {
-      title: "Performing Arts",
-      instructions: "Choose the correct term.",
-      question: "[[___ night is always the most stressful for the actors.|La noche del estreno fue un gran éxito.]]",
-      options: ["Starting", "First", "Opening"],
-      correctAnswer: "Opening",
-      explanation: "The first performance of a run of a play or show.",
-      translation: "La noche del estreno fue un gran éxito.",
-      hint: "Premiere."
-    },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-29/e25.mp3",
+    "topicName": "Vocabulary"
   },
 
-  // 41-50: Word Formation
+  // 26-50: Multiple Choice (Grammar & Vocabulary)
   {
-    id: "b2-u29-e41",
-    type: "word-formation",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "The artistic value of the work is high.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The ___ (ART) value of the work is high.|El valor artístico de la obra es alto.]]",
-      correctAnswer: "artistic",
-      explanation: "Adjective form of 'art'.",
-      translation: "El valor artístico de la obra es alto.",
-      hint: "Adjective form."
+    "id": "b2-u29-e26",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "The novelist, whose debut was a success, is writing a sequel.",
+    "content": {
+      "title": "La secuela",
+      "instructions": "Elige el pronombre relativo adecuado.",
+      "question": "[[The novelist, ___ debut was a success, is writing a sequel.|El novelista, cuyo debut fue un éxito, está escribiendo una secuela.]]",
+      "options": [
+        "[[who|quien]]",
+        "[[whose|cuyo / cuya]]",
+        "[[which|el cual]]"
+      ],
+      "correctAnswer": "whose",
+      "explanation": "Usamos 'whose' para indicar posesión (el debut del novelista).",
+      "audio": "audio/b2/unit-29/e26.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-29/e26.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u29-e42",
-    type: "word-formation",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "He is a very creative person.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[He is a very ___ (CREATE) person.|Es una persona muy creativa.]]",
-      correctAnswer: "creative",
-      explanation: "Adjective form of 'create'.",
-      translation: "Es una persona muy creativa.",
-      hint: "Adjective form."
+    "id": "b2-u29-e27",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "A masterpiece is a work of outstanding artistry or skill.",
+    "content": {
+      "title": "Obra maestra",
+      "instructions": "Elige el término para una obra excepcional.",
+      "question": "[[A ___ is a work of outstanding artistry or skill.|Una obra maestra es una obra de arte o habilidad excepcional.]]",
+      "options": [
+        "[[masterpiece|obra maestra]]",
+        "[[draft|borrador]]",
+        "[[sketch|boceto]]"
+      ],
+      "correctAnswer": "masterpiece",
+      "explanation": "'Masterpiece' se refiere a la mejor obra de un artista o una obra excelente.",
+      "audio": "audio/b2/unit-29/e27.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-29/e27.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u29-e43",
-    type: "word-formation",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "The literary style is unique.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The ___ (LITERATURE) style is unique.|El estilo literario es único.]]",
-      correctAnswer: "literary",
-      explanation: "Adjective form of 'literature'.",
-      translation: "El estilo literario es único.",
-      hint: "Adjective form."
+    "id": "b2-u29-e28",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "The paintings stolen from the museum have not been found yet.",
+    "content": {
+      "title": "Cuadros robados",
+      "instructions": "Elige la forma de la cláusula relativa reducida correcta.",
+      "question": "[[The paintings ___ from the museum have not been found yet.|Los cuadros robados del museo no han sido encontrados todavía.]]",
+      "options": [
+        "[[stealing|robando]]",
+        "[[stolen|robados]]",
+        "[[steal|robar]]"
+      ],
+      "correctAnswer": "stolen",
+      "explanation": "Usamos el participio pasado (stolen) para reducir una cláusula relativa pasiva (which were stolen).",
+      "audio": "audio/b2/unit-29/e28.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-29/e28.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u29-e44",
-    type: "word-formation",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "The performance was amazing.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The ___ (PERFORM) was amazing.|La actuación fue increíble.]]",
-      correctAnswer: "performance",
-      explanation: "Noun form of 'perform'.",
-      translation: "La actuación fue increíble.",
-      hint: "Noun form."
+    "id": "b2-u29-e29",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "A landscape is a painting depicting natural scenery.",
+    "content": {
+      "title": "Paisajismo",
+      "instructions": "Elige el tipo de pintura.",
+      "question": "[[A ___ is a painting depicting natural scenery.|Un paisaje es una pintura que representa escenas naturales.]]",
+      "options": [
+        "[[portrait|retrato]]",
+        "[[landscape|paisaje]]",
+        "[[still life|bodegón / naturaleza muerta]]"
+      ],
+      "correctAnswer": "landscape",
+      "explanation": "'Landscape' se centra en la naturaleza (montañas, valles, árboles, etc.).",
+      "audio": "audio/b2/unit-29/e29.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-29/e29.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u29-e45",
-    type: "word-formation",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "She is a talented musician.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[She is a ___ (TALENT) musician.|Es una música talentosa.]]",
-      correctAnswer: "talented",
-      explanation: "Adjective form of 'talent'.",
-      translation: "Es una música talentosa.",
-      hint: "Adjective form."
+    "id": "b2-u29-e30",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "Is that the actor who you were telling me about?",
+    "content": {
+      "title": "El actor",
+      "instructions": "Elige el pronombre relativo para personas.",
+      "question": "[[Is that the actor ___ you were telling me about?|¿Es ese el actor del que me estabas hablando?]]",
+      "options": [
+        "[[which|el cual]]",
+        "[[who|quien / que]]",
+        "[[where|donde]]"
+      ],
+      "correctAnswer": "who",
+      "explanation": "Usamos 'who' para personas en cláusulas relativas.",
+      "audio": "audio/b2/unit-29/e30.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-29/e30.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u29-e46",
-    type: "word-formation",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "The exhibition was very popular.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The ___ (EXHIBIT) was very popular.|La exposición fue muy popular.]]",
-      correctAnswer: "exhibition",
-      explanation: "Noun form of 'exhibit'.",
-      translation: "La exposición fue muy popular.",
-      hint: "Noun form."
+    "id": "b2-u29-e31",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "The setting of the story is a small village in the nineteenth century.",
+    "content": {
+      "title": "Ambientación",
+      "instructions": "Elige el término para el lugar y tiempo de una historia.",
+      "question": "[[The ___ of the story is a small village in the nineteenth century.|La ambientación de la historia es un pequeño pueblo en el siglo XIX.]]",
+      "options": [
+        "[[setting|ambientación / escenario]]",
+        "[[sitting|sentado]]",
+        "[[settling|asentamiento]]"
+      ],
+      "correctAnswer": "setting",
+      "explanation": "'Setting' incluye tanto el lugar geográfico como el periodo histórico.",
+      "audio": "audio/b2/unit-29/e31.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-29/e31.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u29-e47",
-    type: "word-formation",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "He is a famous playwright.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[He is a famous ___ (PLAY).|Es un dramaturgo famoso.]]",
-      correctAnswer: "playwright",
-      explanation: "Noun for a person who writes plays.",
-      translation: "Es un dramaturgo famoso.",
-      hint: "Person who writes plays."
+    "id": "b2-u29-e32",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "Anyone wanting to join the choir should sign up today.",
+    "content": {
+      "title": "Coro municipal",
+      "instructions": "Elige la forma de participio correcta para reducir la cláusula.",
+      "question": "[[Anyone ___ to join the choir should sign up today.|Cualquiera que quiera unirse al coro debería apuntarse hoy.]]",
+      "options": [
+        "[[wanting|que quiera / queriendo]]",
+        "[[wanted|querido]]",
+        "[[wants|quiere]]"
+      ],
+      "correctAnswer": "wanting",
+      "explanation": "Usamos el participio de presente (wanting) para reducir una cláusula activa (who wants).",
+      "audio": "audio/b2/unit-29/e32.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-29/e32.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u29-e48",
-    type: "word-formation",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "The sculpture is impressive.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The ___ (SCULPT) is impressive.|La escultura es impresionante.]]",
-      correctAnswer: "sculpture",
-      explanation: "Noun form of 'sculpt'.",
-      translation: "La escultura es impresionante.",
-      hint: "Noun form."
+    "id": "b2-u29-e33",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "A sketch is a rough or unfinished drawing or painting.",
+    "content": {
+      "title": "El boceto",
+      "instructions": "Elige el término para un dibujo preliminar.",
+      "question": "[[A ___ is a rough or unfinished drawing or painting.|Un boceto es un dibujo o pintura rápida o sin terminar.]]",
+      "options": [
+        "[[sketch|boceto]]",
+        "[[frame|marco]]",
+        "[[canvas|lienzo]]"
+      ],
+      "correctAnswer": "sketch",
+      "explanation": "'Sketch' se usa para capturar las ideas principales de una obra.",
+      "audio": "audio/b2/unit-29/e33.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-29/e33.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u29-e49",
-    type: "word-formation",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "She writes beautifully.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[She writes ___ (BEAUTY).|Escribe bellamente.]]",
-      correctAnswer: "beautifully",
-      explanation: "Adverb form of 'beauty/beautiful'.",
-      translation: "Escribe bellamente.",
-      hint: "Adverb form."
+    "id": "b2-u29-e34",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "The hotel where we stayed was once a palace.",
+    "content": {
+      "title": "El palacio",
+      "instructions": "Elige el adverbio relativo de lugar.",
+      "question": "[[The hotel ___ we stayed was once a palace.|El hotel donde nos quedamos fue una vez un palacio.]]",
+      "options": [
+        "[[when|cuando]]",
+        "[[where|donde]]",
+        "[[which|el cual]]"
+      ],
+      "correctAnswer": "where",
+      "explanation": "'Where' vincula la cláusula relativa con un lugar (hotel).",
+      "audio": "audio/b2/unit-29/e34.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-29/e34.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u29-e50",
-    type: "word-formation",
-    level: "B2",
-    topic: "Arts and Literature",
-    difficulty: "medium",
-    transcript: "The imagery is powerful.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The ___ (IMAGE) is powerful.|Las imágenes son poderosas.]]",
-      correctAnswer: "imagery",
-      explanation: "Noun form indicating a collection of images.",
-      translation: "Las imágenes son poderosas.",
-      hint: "Noun form."
+    "id": "b2-u29-e35",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "A sculptor is an artist who creates three-dimensional works of art.",
+    "content": {
+      "title": "Escultura",
+      "instructions": "Elige el nombre del artista.",
+      "question": "[[A ___ is an artist who creates three-dimensional works of art.|Un escultor es un artista que crea obras tridimensionales.]]",
+      "options": [
+        "[[painter|pintor]]",
+        "[[sculptor|escultor]]",
+        "[[conductor|director de orquesta]]"
+      ],
+      "correctAnswer": "sculptor",
+      "explanation": "Los escultores suelen trabajar con materiales como piedra, metal o madera.",
+      "audio": "audio/b2/unit-29/e35.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-29/e35.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u29-e36",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "He is the director with whom I worked on the last project.",
+    "content": {
+      "title": "El director",
+      "instructions": "Elige la forma formal del pronombre relativo.",
+      "question": "[[He is the director with ___ I worked on the last project.|Es el director con el que trabajé en el último proyecto.]]",
+      "options": [
+        "[[who|quien]]",
+        "[[whom|quien (después de preposición)]]",
+        "[[which|el cual]]"
+      ],
+      "correctAnswer": "whom",
+      "explanation": "Usamos 'whom' tras preposiciones en contextos formales.",
+      "audio": "audio/b2/unit-29/e36.mp3"
+    },
+    "audioUrl": "audio/b2/unit-29/e36.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u29-e37",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "The script is the written text of a play, movie, or broadcast.",
+    "content": {
+      "title": "El guion",
+      "instructions": "Elige el término para el texto de una película.",
+      "question": "[[The ___ is the written text of a play, movie, or broadcast.|El guion es el texto escrito de una obra, película o programa.]]",
+      "options": [
+        "[[script|guion]]",
+        "[[score|partitura]]",
+        "[[canvas|lienzo]]"
+      ],
+      "correctAnswer": "script",
+      "explanation": "'Script' contiene los diálogos y las instrucciones de escena.",
+      "audio": "audio/b2/unit-29/e37.mp3"
+    },
+    "audioUrl": "audio/b2/unit-29/e37.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u29-e38",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "The book, containing many illustrations, is very expensive.",
+    "content": {
+      "title": "Libro ilustrado",
+      "instructions": "Elige la forma de participio de presente para reducir la cláusula.",
+      "question": "[[The book, ___ many illustrations, is very expensive.|El libro, que contiene muchas ilustraciones, es muy caro.]]",
+      "options": [
+        "[[contained|contenido]]",
+        "[[containing|que contiene / conteniendo]]",
+        "[[contains|contiene]]"
+      ],
+      "correctAnswer": "containing",
+      "explanation": "'Containing' reduce la cláusula activa 'which contains'.",
+      "audio": "audio/b2/unit-29/e38.mp3"
+    },
+    "audioUrl": "audio/b2/unit-29/e38.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u29-e39",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "A portrait is a painting, photograph, or statue of a person.",
+    "content": {
+      "title": "Retratos",
+      "instructions": "Elige el término artístico adecuado.",
+      "question": "[[A ___ is a painting, photograph, or statue of a person.|Un retrato es una pintura, foto o estatua de una persona.]]",
+      "options": [
+        "[[portrait|retrato]]",
+        "[[landscape|paisaje]]",
+        "[[mural|mural]]"
+      ],
+      "correctAnswer": "portrait",
+      "explanation": "'Portrait' se enfoca en la cara y expresión de la persona.",
+      "audio": "audio/b2/unit-29/e39.mp3"
+    },
+    "audioUrl": "audio/b2/unit-29/e39.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u29-e40",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "This is the time when the museum is least crowded.",
+    "content": {
+      "title": "Visita tranquila",
+      "instructions": "Elige el adverbio relativo de tiempo.",
+      "question": "[[This is the time ___ the museum is least crowded.|Este es el momento en que el museo está menos lleno.]]",
+      "options": [
+        "[[where|donde]]",
+        "[[when|cuando / en que]]",
+        "[[which|el cual]]"
+      ],
+      "correctAnswer": "when",
+      "explanation": "'When' se usa para referirse a momentos o periodos de tiempo.",
+      "audio": "audio/b2/unit-29/e40.mp3"
+    },
+    "audioUrl": "audio/b2/unit-29/e40.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u29-e41",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "A novel is a long fictional narrative in literary prose.",
+    "content": {
+      "title": "La novela",
+      "instructions": "Elige el término literario.",
+      "question": "[[A ___ is a long fictional narrative in literary prose.|Una novela es una larga narrativa de ficción en prosa.]]",
+      "options": [
+        "[[short story|relato corto]]",
+        "[[novel|novela]]",
+        "[[essay|ensayo]]"
+      ],
+      "correctAnswer": "novel",
+      "explanation": "A diferencia del 'short story', la 'novel' tiene una extensión considerable.",
+      "audio": "audio/b2/unit-29/e41.mp3"
+    },
+    "audioUrl": "audio/b2/unit-29/e41.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u29-e42",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "The artist whose works are on display is very talented.",
+    "content": {
+      "title": "Talento artístico",
+      "instructions": "Elige el pronombre de posesión adecuado.",
+      "question": "[[The artist ___ works are on display is very talented.|El artista cuyas obras están expuestas tiene mucho talento.]]",
+      "options": [
+        "[[who|quien]]",
+        "[[whose|cuyas]]",
+        "[[which|las cuales]]"
+      ],
+      "correctAnswer": "whose",
+      "explanation": "Usamos 'whose' para referirnos a las obras (works) del artista.",
+      "audio": "audio/b2/unit-29/e42.mp3"
+    },
+    "audioUrl": "audio/b2/unit-29/e42.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u29-e43",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "Vivid colors are bright, intense, and very clear.",
+    "content": {
+      "title": "Colores vivos",
+      "instructions": "Elige el adjetivo que describe colores brillantes.",
+      "question": "[[___ colors are bright, intense, and very clear.|Los colores vivos son brillantes, intensos y muy claros.]]",
+      "options": [
+        "[[Dull|Apagados]]",
+        "[[Vivid|Vivos / Intensos]]",
+        "[[Pale|Pálidos]]"
+      ],
+      "correctAnswer": "vivid",
+      "explanation": "'Vivid' se usa para algo que produce una impresión fuerte y clara en la mente.",
+      "audio": "audio/b2/unit-29/e43.mp3"
+    },
+    "audioUrl": "audio/b2/unit-29/e43.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u29-e44",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "The letter, written in a hurry, was hard to read.",
+    "content": {
+      "title": "Carta apresurada",
+      "instructions": "Elige la forma de participio pasado correcta.",
+      "question": "[[The letter, ___ in a hurry, was hard to read.|La carta, escrita con prisa, era difícil de leer.]]",
+      "options": [
+        "[[writing|escribiendo]]",
+        "[[written|escrita]]",
+        "[[wrote|escribió]]"
+      ],
+      "correctAnswer": "written",
+      "explanation": "'Written' reduce la cláusula pasiva 'which was written'.",
+      "audio": "audio/b2/unit-29/e44.mp3"
+    },
+    "audioUrl": "audio/b2/unit-29/e44.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u29-e45",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "A bestseller is a book that sells in very large numbers.",
+    "content": {
+      "title": "Éxito de ventas",
+      "instructions": "Elige el término literario.",
+      "question": "[[A ___ is a book that sells in very large numbers.|Un éxito de ventas es un libro que se vende en grandes cantidades.]]",
+      "options": [
+        "[[bestseller|éxito de ventas]]",
+        "[[manuscript|manuscrito]]",
+        "[[anthology|antología]]"
+      ],
+      "correctAnswer": "bestseller",
+      "explanation": "'Bestseller' indica popularidad comercial masiva.",
+      "audio": "audio/b2/unit-29/e45.mp3"
+    },
+    "audioUrl": "audio/b2/unit-29/e45.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u29-e46",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "The reason why she avoids the camera is unknown.",
+    "content": {
+      "title": "Timidez",
+      "instructions": "Elige el pronombre relativo adecuado para razones.",
+      "question": "[[The reason ___ she avoids the camera is unknown.|La razón por la que evita la cámara es desconocida.]]",
+      "options": [
+        "[[why|por la que]]",
+        "[[how|cómo]]",
+        "[[when|cuando]]"
+      ],
+      "correctAnswer": "why",
+      "explanation": "'Why' es el adverbio relativo estándar para 'reason'.",
+      "audio": "audio/b2/unit-29/e46.mp3"
+    },
+    "audioUrl": "audio/b2/unit-29/e46.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u29-e47",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "A canvas is a strong, coarse unbleached cloth used as a surface for painting.",
+    "content": {
+      "title": "El lienzo",
+      "instructions": "Elige el término para la superficie de pintura.",
+      "question": "[[A ___ is a strong cloth used as a surface for painting.|Un lienzo es una tela fuerte usada como superficie para pintar.]]",
+      "options": [
+        "[[brush|pincel]]",
+        "[[easel|caballete]]",
+        "[[canvas|lienzo]]"
+      ],
+      "correctAnswer": "canvas",
+      "explanation": "'Canvas' es el soporte más común para pinturas al óleo o acrílico.",
+      "audio": "audio/b2/unit-29/e47.mp3"
+    },
+    "audioUrl": "audio/b2/unit-29/e47.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u29-e48",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "The artifacts found during the excavation are on display.",
+    "content": {
+      "title": "Artefactos antiguos",
+      "instructions": "Elige el participio pasado para reducir la cláusula.",
+      "question": "[[The artifacts ___ during the excavation are on display.|Los artefactos encontrados durante la excavación están expuestos.]]",
+      "options": [
+        "[[finding|encontrando]]",
+        "[[found|encontrados]]",
+        "[[find|encontrar]]"
+      ],
+      "correctAnswer": "found",
+      "explanation": "'Found' es el participio de 'find' y reduce 'which were found'.",
+      "audio": "audio/b2/unit-29/e48.mp3"
+    },
+    "audioUrl": "audio/b2/unit-29/e48.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u29-e49",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "An anthology is a published collection of poems or other pieces of writing.",
+    "content": {
+      "title": "Antología",
+      "instructions": "Elige el término para una colección de obras.",
+      "question": "[[An ___ is a published collection of poems or stories.|Una antología es una colección publicada de poemas o relatos.]]",
+      "options": [
+        "[[encyclopedia|enciclopedia]]",
+        "[[anthology|antología]]",
+        "[[glossary|glosario]]"
+      ],
+      "correctAnswer": "anthology",
+      "explanation": "Las antologías suelen reunir obras de diferentes autores sobre un mismo tema.",
+      "audio": "audio/b2/unit-29/e49.mp3"
+    },
+    "audioUrl": "audio/b2/unit-29/e49.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u29-e50",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Arts & Literature",
+    "difficulty": "medium",
+    "transcript": "The city, whose history is rich, attracts many artists.",
+    "content": {
+      "title": "Ciudad inspiradora",
+      "instructions": "Elige el pronombre relativo de posesión.",
+      "question": "[[The city, ___ history is rich, attracts many artists.|La ciudad, cuya historia es rica, atrae a muchos artistas.]]",
+      "options": [
+        "[[which|la cual]]",
+        "[[whose|cuya]]",
+        "[[that|que]]"
+      ],
+      "correctAnswer": "whose",
+      "explanation": "Usamos 'whose' para referirnos a la historia de la ciudad.",
+      "audio": "audio/b2/unit-29/e50.mp3"
+    },
+    "audioUrl": "audio/b2/unit-29/e50.mp3",
+    "topicName": "Grammar"
   }
 ];

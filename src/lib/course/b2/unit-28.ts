@@ -1,953 +1,1318 @@
 import { Exercise } from "@/types/course";
 
 export const UNIT_28_EXERCISES: Exercise[] = [
-  // 1-10: Grammar - Had and Should Inversion (Conditionals)
+  // 1-25: Sentence Building (Grammar - Passive Voice & Vocabulary - Nature & Wildlife)
   {
-    id: "b2-u28-e1",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "hard",
-    transcript: "Had I known about the storm, I wouldn't have gone out.",
-    content: {
-      title: "Had Inversion",
-      instructions: "Choose the correct word order to replace 'If I had known'.",
-      question: "[[___ about the storm, I wouldn't have gone out.|Si hubiera sabido de la tormenta, no habría salido.]]",
-      options: ["If had I known", "I had known", "Had I known"],
-      correctAnswer: "Had I known",
-      explanation: "In formal English, you can invert 'had' and the subject to replace 'if' in third conditionals.",
-      translation: "Si hubiera sabido de la tormenta, no habría salido.",
-      hint: "Replace 'If I had'."
+    "id": "b2-u28-e1",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "Thousands of species are being threatened by habitat destruction.",
+    "content": {
+      "title": "Especies amenazadas",
+      "instructions": "Ordena las palabras usando la voz pasiva continua.",
+      "correctSentence": "[[Thousands|Miles]] [[of|de]] [[species|especies]] [[are|están]] [[being|siendo]] [[threatened|amenazadas]] [[by|por]] [[habitat|la destrucción]] [[destruction.|del hábitat.]]",
+      "words": [
+        "[[being|siendo]]",
+        "[[destruction.|del hábitat.]]",
+        "[[Thousands|Miles]]",
+        "[[threatened|amenazadas]]",
+        "[[are|están]]",
+        "[[species|especies]]",
+        "[[habitat|la destrucción]]",
+        "[[of|de]]",
+        "[[by|por]]"
+      ],
+      "explanation": "'Are being threatened' es la pasiva continua para acciones en progreso.",
+      "audio": "audio/b2/unit-28/e1.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-28/e1.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u28-e2",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "hard",
-    transcript: "Should you need any help, let me know.",
-    content: {
-      title: "Should Inversion",
-      instructions: "Choose the correct word order to replace 'If you should need'.",
-      question: "[[___ any help, let me know.|Si necesitas ayuda, dímelo.]]",
-      options: ["Should you need", "If should you need", "You should need"],
-      correctAnswer: "Should you need",
-      explanation: "In formal English, use 'should' + subject + verb to replace 'if' in first conditionals.",
-      translation: "Si necesitas ayuda, dímelo.",
-      hint: "Replace 'If you should'."
+    "id": "b2-u28-e2",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "It is believed that many plants have yet to be discovered in the rainforest.",
+    "content": {
+      "title": "Plantas por descubrir",
+      "instructions": "Ordena las palabras usando un verbo de reporte pasivo.",
+      "correctSentence": "[[It|Se]] [[is|cree]] [[believed|que]] [[that|muchas]] [[many|plantas]] [[plants|aún]] [[have|no]] [[yet|han]] [[to|sido]] [[be|descubiertas]] [[discovered|en]] [[in|la]] [[the|selva]] [[rainforest.|tropical.]]",
+      "words": [
+        "[[yet|han]]",
+        "[[many|muchas]]",
+        "[[discovered|en]]",
+        "[[that|que]]",
+        "[[believed|que]]",
+        "[[plants|aún]]",
+        "[[be|descubiertas]]",
+        "[[have|no]]",
+        "[[is|cree]]",
+        "[[It|Se]]",
+        "[[the|selva]]",
+        "[[rainforest.|tropical.]]",
+        "[[to|sido]]",
+        "[[in|la]]"
+      ],
+      "explanation": "'It is believed that' es una forma impersonal de reportar creencias.",
+      "audio": "audio/b2/unit-28/e2.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-28/e2.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u28-e3",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "hard",
-    transcript: "Were I you, I would protect the environment.",
-    content: {
-      title: "Were Inversion",
-      instructions: "Choose the correct word order to replace 'If I were you'.",
-      question: "[[___ you, I would protect the environment.|Si yo fuera tú, protegería el medio ambiente.]]",
-      options: ["If were I", "Were I", "I were"],
-      correctAnswer: "Were I",
-      explanation: "In formal English, invert 'were' and the subject to replace 'if' in second conditionals.",
-      translation: "Si yo fuera tú, protegería el medio ambiente.",
-      hint: "Replace 'If I were'."
+    "id": "b2-u28-e3",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "The ecosystem is highly sensitive to changes in temperature.",
+    "content": {
+      "title": "Ecosistemas sensibles",
+      "instructions": "Ordena las palabras sobre el medio ambiente.",
+      "correctSentence": "[[The|El]] [[ecosystem|ecosistema]] [[is|es]] [[highly|altamente]] [[sensitive|sensible]] [[to|a]] [[changes|los cambios]] [[in|de]] [[temperature.|temperatura.]]",
+      "words": [
+        "[[sensitive|sensible]]",
+        "[[changes|los cambios]]",
+        "[[highly|altamente]]",
+        "[[is|es]]",
+        "[[The|El]]",
+        "[[in|de]]",
+        "[[ecosystem|ecosistema]]",
+        "[[temperature.|temperatura.]]",
+        "[[to|a]]"
+      ],
+      "explanation": "'Sensitive to' significa que algo reacciona fácilmente ante ciertos estímulos.",
+      "audio": "audio/b2/unit-28/e3.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-28/e3.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u28-e4",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "hard",
-    transcript: "Had the animals not been rescued, they would have died.",
-    content: {
-      title: "Had Inversion",
-      instructions: "Choose the correct word order.",
-      question: "[[___ not been rescued, they would have died.|Si los animales no hubieran sido rescatados, habrían muerto.]]",
-      options: ["The animals had", "If had the animals", "Had the animals"],
-      correctAnswer: "Had the animals",
-      explanation: "Formal inversion in third conditional.",
-      translation: "Si los animales no hubieran sido rescatados, habrían muerto.",
-      hint: "Inversion for third conditional."
+    "id": "b2-u28-e4",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "Strict laws must be enforced to protect endangered wildlife.",
+    "content": {
+      "title": "Leyes de protección",
+      "instructions": "Ordena las palabras usando la voz pasiva con modales (must be).",
+      "correctSentence": "[[Strict|Se]] [[laws|deben]] [[must|aplicar]] [[be|leyes]] [[enforced|estrictas]] [[to|para]] [[protect|proteger]] [[endangered|la fauna]] [[wildlife.|en peligro.]]",
+      "words": [
+        "[[must|aplicar]]",
+        "[[protect|proteger]]",
+        "[[wildlife.|en peligro.]]",
+        "[[be|leyes]]",
+        "[[laws|deben]]",
+        "[[Strict|Se]]",
+        "[[enforced|estrictas]]",
+        "[[to|para]]",
+        "[[endangered|la fauna]]"
+      ],
+      "explanation": "'Enforce laws' significa hacer cumplir las leyes de forma efectiva.",
+      "audio": "audio/b2/unit-28/e4.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-28/e4.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u28-e5",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "hard",
-    transcript: "Should it rain, the trip will be cancelled.",
-    content: {
-      title: "Should Inversion",
-      instructions: "Choose the correct word order.",
-      question: "[[___ rain, the trip will be cancelled.|Si llueve, el viaje se cancelará.]]",
-      options: ["It should", "If should it", "Should it"],
-      correctAnswer: "Should it",
-      explanation: "Formal inversion in first conditional.",
-      translation: "Si llueve, el viaje se cancelará.",
-      hint: "Inversion for first conditional."
+    "id": "b2-u28-e5",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "Deforestation has led to a dramatic loss of biodiversity.",
+    "content": {
+      "title": "Pérdida de biodiversidad",
+      "instructions": "Ordena las palabras sobre problemas ambientales.",
+      "correctSentence": "[[Deforestation|La deforestación]] [[has|ha]] [[led|llevado]] [[to|a]] [[a|una]] [[dramatic|pérdida]] [[loss|dramática]] [[of|de]] [[biodiversity.|biodiversidad.]]",
+      "words": [
+        "[[led|llevado]]",
+        "[[dramatic|pérdida]]",
+        "[[biodiversity.|biodiversidad.]]",
+        "[[has|ha]]",
+        "[[Deforestation|La deforestación]]",
+        "[[loss|dramática]]",
+        "[[of|de]]",
+        "[[a|una]]",
+        "[[to|a]]"
+      ],
+      "explanation": "'Biodiversity' es la variedad de seres vivos en un ecosistema.",
+      "audio": "audio/b2/unit-28/e5.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-28/e5.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u28-e6",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "hard",
-    transcript: "Were the project to fail, it would be a disaster.",
-    content: {
-      title: "Were Inversion",
-      instructions: "Choose the correct word order.",
-      question: "[[___ to fail, it would be a disaster.|Si el proyecto fallara, sería un desastre.]]",
-      options: ["The project were", "If were the project", "Were the project"],
-      correctAnswer: "Were the project",
-      explanation: "Formal inversion using 'were + subject + to-infinitive'.",
-      translation: "Si el proyecto fallara, sería un desastre.",
-      hint: "Inversion for second conditional."
+    "id": "b2-u28-e6",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "The animal is thought to have gone extinct centuries ago.",
+    "content": {
+      "title": "Especies extintas",
+      "instructions": "Ordena las palabras usando la estructura personal de reporte pasivo.",
+      "correctSentence": "[[The|Se]] [[animal|cree]] [[is|que]] [[thought|el]] [[to|animal]] [[have|se]] [[gone|extinguió]] [[extinct|hace]] [[centuries|siglos.]] [[ago.|]]",
+      "words": [
+        "[[thought|el]]",
+        "[[extinct|hace]]",
+        "[[ago.|]]",
+        "[[is|que]]",
+        "[[animal|cree]]",
+        "[[gone|extinguió]]",
+        "[[The|Se]]",
+        "[[have|se]]",
+        "[[to|animal]]",
+        "[[centuries|siglos.]]"
+      ],
+      "explanation": "'Is thought to have gone' es una forma avanzada de expresar una creencia sobre el pasado.",
+      "audio": "audio/b2/unit-28/e6.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-28/e6.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u28-e7",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "hard",
-    transcript: "Had we arrived earlier, we would have seen the cubs.",
-    content: {
-      title: "Had Inversion",
-      instructions: "Choose the correct word order.",
-      question: "[[___ earlier, we would have seen the cubs.|Si hubiéramos llegado antes, habríamos visto a los cachorros.]]",
-      options: ["If had we arrived", "We had arrived", "Had we arrived"],
-      correctAnswer: "Had we arrived",
-      explanation: "Third conditional inversion.",
-      translation: "Si hubiéramos llegado antes, habríamos visto a los cachorros.",
-      hint: "Inversion for third conditional."
+    "id": "b2-u28-e7",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "Conservationists are working hard to restore the natural habitat.",
+    "content": {
+      "title": "Conservacionistas",
+      "instructions": "Ordena las palabras sobre el cuidado de la naturaleza.",
+      "correctSentence": "[[Conservationists|Los conservacionistas]] [[are|están]] [[working|trabajando]] [[hard|duro]] [[to|para]] [[restore|restaurar]] [[the|el]] [[natural|hábitat]] [[habitat.|natural.]]",
+      "words": [
+        "[[are|están]]",
+        "[[habitat.|natural.]]",
+        "[[working|trabajando]]",
+        "[[restore|restaurar]]",
+        "[[Conservationists|Los conservacionistas]]",
+        "[[natural|hábitat]]",
+        "[[the|el]]",
+        "[[hard|duro]]",
+        "[[to|para]]"
+      ],
+      "explanation": "'Restore' significa devolver algo a su estado original.",
+      "audio": "audio/b2/unit-28/e7.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-28/e7.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u28-e8",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "hard",
-    transcript: "Should you see a bear, stay calm.",
-    content: {
-      title: "Should Inversion",
-      instructions: "Choose the correct word order.",
-      question: "[[___ a bear, stay calm.|Si ves un oso, mantén la calma.]]",
-      options: ["You should see", "Should you see", "If should you see"],
-      correctAnswer: "Should you see",
-      explanation: "First conditional inversion.",
-      translation: "Si ves un oso, mantén la calma.",
-      hint: "Inversion for first conditional."
+    "id": "b2-u28-e8",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "Pollutants are being released into the river by the factory.",
+    "content": {
+      "title": "Contaminantes",
+      "instructions": "Ordena las palabras en voz pasiva continua.",
+      "correctSentence": "[[Pollutants|Los contaminantes]] [[are|están]] [[being|siendo]] [[released|vertidos]] [[into|al]] [[the|río]] [[river|por]] [[by|la]] [[the|fábrica.]] [[factory.|]]",
+      "words": [
+        "[[being|siendo]]",
+        "[[factory.|]]",
+        "[[river|por]]",
+        "[[are|están]]",
+        "[[released|vertidos]]",
+        "[[Pollutants|Los contaminantes]]",
+        "[[the|fábrica.]]",
+        "[[into|al]]",
+        "[[the|río]]",
+        "[[by|la]]"
+      ],
+      "explanation": "'Released into' se usa para gases o líquidos que se vierten al medio ambiente.",
+      "audio": "audio/b2/unit-28/e8.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-28/e8.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u28-e9",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "hard",
-    transcript: "Were there more trees, the air would be cleaner.",
-    content: {
-      title: "Were Inversion",
-      instructions: "Choose the correct word order.",
-      question: "[[___ more trees, the air would be cleaner.|Si hubiera más árboles, el aire estaría más limpio.]]",
-      options: ["There were", "Were there", "If were there"],
-      correctAnswer: "Were there",
-      explanation: "Second conditional inversion.",
-      translation: "Si hubiera más árboles, el aire estaría más limpio.",
-      hint: "Inversion for second conditional."
+    "id": "b2-u28-e9",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "The preservation of national parks is essential for future generations.",
+    "content": {
+      "title": "Parques nacionales",
+      "instructions": "Ordena las palabras sobre el cuidado del entorno.",
+      "correctSentence": "[[The|La]] [[preservation|preservación]] [[of|de]] [[national|los parques]] [[parks|nacionales]] [[is|es]] [[essential|esencial]] [[for|para]] [[future|las futuras]] [[generations.|generaciones.]]",
+      "words": [
+        "[[preservation|preservación]]",
+        "[[future|las futuras]]",
+        "[[parks|nacionales]]",
+        "[[The|La]]",
+        "[[essential|esencial]]",
+        "[[generations.|generaciones.]]",
+        "[[is|es]]",
+        "[[of|de]]",
+        "[[for|para]]",
+        "[[national|los parques]]"
+      ],
+      "explanation": "'Preservation' es el acto de mantener algo a salvo de daños o cambios.",
+      "audio": "audio/b2/unit-28/e9.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-28/e9.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u28-e10",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "hard",
-    transcript: "Had he followed the path, he wouldn't have got lost.",
-    content: {
-      title: "Had Inversion",
-      instructions: "Choose the correct word order.",
-      question: "[[___ the path, he wouldn't have got lost.|Si hubiera seguido el camino, no se habría perdido.]]",
-      options: ["Had he followed", "He had followed", "If had he followed"],
-      correctAnswer: "Had he followed",
-      explanation: "Third conditional inversion.",
-      translation: "Si hubiera seguido el camino, no se habría perdido.",
-      hint: "Inversion for third conditional."
+    "id": "b2-u28-e10",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "Whales are said to communicate with each other over long distances.",
+    "content": {
+      "title": "Comunicación de las ballenas",
+      "instructions": "Ordena las palabras usando la pasiva de reporte (are said to).",
+      "correctSentence": "[[Whales|Se]] [[are|dice]] [[said|que]] [[to|las]] [[communicate|ballenas]] [[with|se]] [[each|comunican]] [[other|entre]] [[over|sí]] [[long|a]] [[distances.|largas distancias.]]",
+      "words": [
+        "[[said|que]]",
+        "[[distances.|largas distancias.]]",
+        "[[are|dice]]",
+        "[[each|comunican]]",
+        "[[Whales|Se]]",
+        "[[over|a]]",
+        "[[other|entre]]",
+        "[[long|a]]",
+        "[[with|se]]",
+        "[[to|las]]",
+        "[[communicate|ballenas]]"
+      ],
+      "explanation": "'Are said to communicate' es equivalente a 'It is said that whales communicate'.",
+      "audio": "audio/b2/unit-28/e10.mp3"
     },
-    topicName: "Grammar"
-  },
-
-  // 11-20: Vocabulary - Ecosystems and Wildlife
-  {
-    id: "b2-u28-e11",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "The Amazon is a vast ecosystem.",
-    content: {
-      title: "Wildlife",
-      instructions: "Choose the correct word.",
-      question: "[[The Amazon is a vast ___ (ecosystem) that supports millions of species.|El Amazonas es un ecosistema vasto.]]",
-      options: ["[[ecosystem|ecosistema]]", "[[economics|economía]]", "[[ecology|ecología]]"],
-      correctAnswer: "ecosystem",
-      explanation: "An ecosystem is a biological community of interacting organisms and their physical environment.",
-      translation: "El Amazonas es un ecosistema vasto.",
-      hint: "Biological community."
-    },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-28/e10.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u28-e12",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "Many species are facing extinction.",
-    content: {
-      title: "Wildlife",
-      instructions: "Choose the correct word.",
-      question: "[[Many species are facing ___ (extinction) due to habitat loss.|Muchas especies se enfrentan a la extinción.]]",
-      options: ["[[extinction|extinción]]", "[[extension|extensión]]", "[[exhaustion|agotamiento]]"],
-      correctAnswer: "extinction",
-      explanation: "Extinction is the state or process of a species, family, or larger group being or becoming extinct.",
-      translation: "Muchas especies se enfrentan a la extinción.",
-      hint: "Dying out."
+    "id": "b2-u28-e11",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "Sustainable tourism helps to minimize the impact on fragile ecosystems.",
+    "content": {
+      "title": "Turismo sostenible",
+      "instructions": "Ordena las palabras sobre viajes responsables.",
+      "correctSentence": "[[Sustainable|El turismo]] [[tourism|sostenible]] [[helps|ayuda]] [[to|a]] [[minimize|minimizar]] [[the|el]] [[impact|impacto]] [[on|en]] [[fragile|ecosistemas]] [[ecosystems.|frágiles.]]",
+      "words": [
+        "[[minimize|minimizar]]",
+        "[[fragile|ecosistemas]]",
+        "[[Sustainable|El turismo]]",
+        "[[impact|impacto]]",
+        "[[ecosystems.|frágiles.]]",
+        "[[the|el]]",
+        "[[on|en]]",
+        "[[tourism|sostenible]]",
+        "[[helps|ayuda]]",
+        "[[to|a]]"
+      ],
+      "explanation": "'Sustainable tourism' busca no dañar el entorno natural que se visita.",
+      "audio": "audio/b2/unit-28/e11.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-28/e11.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u28-e13",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "We must protect the natural habitat.",
-    content: {
-      title: "Wildlife",
-      instructions: "Choose the correct word.",
-      question: "[[We must protect the natural ___ (habitat) of the tigers.|Debemos proteger el hábitat natural.]]",
-      options: ["[[habit|hábito]]", "[[habitat|hábitat]]", "[[harbor|puerto / refugio]]"],
-      correctAnswer: "habitat",
-      explanation: "A habitat is the natural home or environment of an animal, plant, or other organism.",
-      translation: "Debemos proteger el hábitat natural.",
-      hint: "Natural home."
+    "id": "b2-u28-e12",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "The project was being completed when the budget was cut.",
+    "content": {
+      "title": "Proyecto interrumpido",
+      "instructions": "Ordena las palabras usando la pasiva de pasado continuo.",
+      "correctSentence": "[[The|El]] [[project|proyecto]] [[was|estaba]] [[being|siendo]] [[completed|finalizado]] [[when|cuando]] [[the|se]] [[budget|recortó]] [[was|el]] [[cut.|presupuesto.]]",
+      "words": [
+        "[[being|siendo]]",
+        "[[cut.|presupuesto.]]",
+        "[[was|el]]",
+        "[[completed|finalizado]]",
+        "[[The|El]]",
+        "[[project|proyecto]]",
+        "[[when|cuando]]",
+        "[[was|estaba]]",
+        "[[budget|recortó]]",
+        "[[the|se]]"
+      ],
+      "explanation": "'Was being completed' indica una acción pasiva que estaba en progreso.",
+      "audio": "audio/b2/unit-28/e12.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-28/e12.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u28-e14",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "Biodiversity is essential for health.",
-    content: {
-      title: "Wildlife",
-      instructions: "Choose the correct word.",
-      question: "[[___ (Biodiversity) is the variety of life in the world or in a particular habitat or ecosystem.|La biodiversidad es esencial para la salud.]]",
-      options: ["[[Biodiversity|Biodiversidad]]", "[[Biotechnology|Biotecnología]]", "[[Biology|Biología]]"],
-      correctAnswer: "Biodiversity",
-      explanation: "Variety of life.",
-      translation: "La biodiversidad es esencial para la salud.",
-      hint: "Variety of life."
+    "id": "b2-u28-e13",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "Global warming is causing the polar ice caps to melt at an alarming rate.",
+    "content": {
+      "title": "Calentamiento global",
+      "instructions": "Ordena las palabras sobre el cambio climático.",
+      "correctSentence": "[[Global|El calentamiento]] [[warming|global]] [[is|está]] [[causing|haciendo]] [[the|que]] [[polar|los casquetes]] [[ice|polares]] [[caps|se]] [[to|derritan]] [[melt|a]] [[at|un]] [[an|ritmo]] [[alarming|alarmante.]] [[rate.|]]",
+      "words": [
+        "[[ice|polares]]",
+        "[[Global|El calentamiento]]",
+        "[[alarming|alarmante.]]",
+        "[[causing|haciendo]]",
+        "[[rate.|]]",
+        "[[warming|global]]",
+        "[[melt|a]]",
+        "[[an|ritmo]]",
+        "[[to|derritan]]",
+        "[[polar|los casquetes]]",
+        "[[is|está]]",
+        "[[the|que]]",
+        "[[caps|se]]",
+        "[[at|un]]"
+      ],
+      "explanation": "'At an alarming rate' es una expresión para decir que algo sucede muy rápido y preocupa.",
+      "audio": "audio/b2/unit-28/e13.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-28/e13.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u28-e15",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "Conservation efforts are paying off.",
-    content: {
-      title: "Wildlife",
-      instructions: "Choose the correct word.",
-      question: "[[___ (Conservation) efforts are essential to save endangered species.|Los esfuerzos de conservación están dando sus frutos.]]",
-      options: ["[[Conversation|Conversación]]", "[[Conservation|Conservación]]", "[[Construction|Construcción]]"],
-      correctAnswer: "Conservation",
-      explanation: "Conservation is the protection of plants and animals, natural areas, and interesting and important structures and buildings, especially from the damaging effects of human activity.",
-      translation: "Los esfuerzos de conservación están dando sus frutos.",
-      hint: "Protection/Preservation."
+    "id": "b2-u28-e14",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "These rare birds are expected to migrate south in early October.",
+    "content": {
+      "title": "Migración de aves",
+      "instructions": "Ordena las palabras con la pasiva de expectativa (are expected to).",
+      "correctSentence": "[[These|Se]] [[rare|espera]] [[birds|que]] [[are|estas]] [[expected|aves]] [[to|raras]] [[migrate|migren]] [[south|al]] [[in|sur]] [[early|a]] [[October.|principios de octubre.]]",
+      "words": [
+        "[[expected|aves]]",
+        "[[October.|principios de octubre.]]",
+        "[[rare|espera]]",
+        "[[are|estas]]",
+        "[[migrate|migren]]",
+        "[[These|Se]]",
+        "[[in|a]]",
+        "[[birds|que]]",
+        "[[south|al]]",
+        "[[to|raras]]",
+        "[[early|a]]"
+      ],
+      "explanation": "'Are expected to' se usa para hablar de lo que se cree que ocurrirá según los planes o la naturaleza.",
+      "audio": "audio/b2/unit-28/e14.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-28/e14.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u28-e16",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "Poaching is a major threat to wildlife.",
-    content: {
-      title: "Wildlife",
-      instructions: "Choose the correct word.",
-      question: "[[___ (Poaching) is the illegal hunting or capturing of wild animals.|La caza furtiva es una gran amenaza para la vida silvestre.]]",
-      options: ["[[Poaching|Caza furtiva]]", "[[Preaching|Predicación]]", "[[Purchasing|Compra]]"],
-      correctAnswer: "Poaching",
-      explanation: "Illegal hunting.",
-      translation: "La caza furtiva es una gran amenaza para la vida silvestre.",
-      hint: "Illegal hunting."
+    "id": "b2-u28-e15",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "Natural resources should be used responsibly to avoid depletion.",
+    "content": {
+      "title": "Recursos naturales",
+      "instructions": "Ordena las palabras usando la pasiva modal 'should be used'.",
+      "correctSentence": "[[Natural|Los recursos]] [[resources|naturales]] [[should|deben]] [[be|usarse]] [[used|responsablemente]] [[responsibly|para]] [[to|evitar]] [[avoid|su]] [[depletion.|agotamiento.]]",
+      "words": [
+        "[[be|usarse]]",
+        "[[depletion.|agotamiento.]]",
+        "[[should|deben]]",
+        "[[Natural|Los recursos]]",
+        "[[avoid|su]]",
+        "[[used|responsablemente]]",
+        "[[to|evitar]]",
+        "[[responsibly|para]]",
+        "[[resources|naturales]]"
+      ],
+      "explanation": "'Depletion' es la reducción drástica de la cantidad de algo disponible.",
+      "audio": "audio/b2/unit-28/e15.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-28/e15.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u28-e17",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "Endangered species need protection.",
-    content: {
-      title: "Wildlife",
-      instructions: "Choose the correct word.",
-      question: "[[___ (Endangered) species are those at serious risk of extinction.|Las especies en peligro de extinción necesitan protección.]]",
-      options: ["[[Encouraged|Alentado]]", "[[Endangered|En peligro de extinción]]", "[[Engaged|Comprometido]]"],
-      correctAnswer: "Endangered",
-      explanation: "At risk of extinction.",
-      translation: "Las especies en peligro de extinción necesitan protección.",
-      hint: "At risk."
+    "id": "b2-u28-e16",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "The forest had been destroyed by a wildfire before the rain arrived.",
+    "content": {
+      "title": "Incendio forestal",
+      "instructions": "Ordena las palabras usando la pasiva de pasado perfecto.",
+      "correctSentence": "[[The|El]] [[forest|bosque]] [[had|había]] [[been|sido]] [[destroyed|destruido]] [[by|por]] [[a|un]] [[wildfire|incendio]] [[before|antes]] [[the|de que]] [[rain|llegara]] [[arrived.|la lluvia.]]",
+      "words": [
+        "[[been|sido]]",
+        "[[arrived.|la lluvia.]]",
+        "[[had|había]]",
+        "[[destroyed|destruido]]",
+        "[[The|El]]",
+        "[[wildfire|incendio]]",
+        "[[before|antes]]",
+        "[[rain|llegara]]",
+        "[[a|un]]",
+        "[[forest|bosque]]",
+        "[[the|de que]]",
+        "[[by|por]]"
+      ],
+      "explanation": "'Had been destroyed' indica una acción que se completó antes de otro momento en el pasado.",
+      "audio": "audio/b2/unit-28/e16.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-28/e16.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u28-e18",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "The food chain is balanced.",
-    content: {
-      title: "Wildlife",
-      instructions: "Choose the correct word.",
-      question: "[[The food ___ (chain) shows how each living thing gets food.|La cadena alimentaria está equilibrada.]]",
-      options: ["[[chair|silla]]", "[[choice|elección]]", "[[chain|cadena]]"],
-      correctAnswer: "chain",
-      explanation: "Sequence of who eats whom.",
-      translation: "La cadena alimentaria está equilibrada.",
-      hint: "Eating sequence."
+    "id": "b2-u28-e17",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "Overfishing poses a significant threat to marine ecosystems worldwide.",
+    "content": {
+      "title": "Sobrepesca",
+      "instructions": "Ordena las palabras sobre problemas marinos.",
+      "correctSentence": "[[Overfishing|La sobrepesca]] [[poses|representa]] [[a|una]] [[significant|amenaza]] [[threat|significativa]] [[to|para]] [[marine|los ecosistemas]] [[ecosystems|marinos]] [[worldwide.|en todo el mundo.]]",
+      "words": [
+        "[[threat|significativa]]",
+        "[[Overfishing|La sobrepesca]]",
+        "[[worldwide.|en todo el mundo.]]",
+        "[[poses|representa]]",
+        "[[marine|los ecosistemas]]",
+        "[[a|una]]",
+        "[[significant|amenaza]]",
+        "[[ecosystems|marinos]]",
+        "[[to|para]]"
+      ],
+      "explanation": "'Pose a threat' es la combinación común para decir que algo representa un peligro.",
+      "audio": "audio/b2/unit-28/e17.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-28/e17.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u28-e19",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "Sustainable development is the goal.",
-    content: {
-      title: "Wildlife",
-      instructions: "Choose the correct word.",
-      question: "[[___ (Sustainable) development meets the needs of the present without compromising the future.|El desarrollo sostenible es el objetivo.]]",
-      options: ["[[Sustainable|Sostenible]]", "[[Suitable|Adecuado]]", "[[Substantial|Sustancial]]"],
-      correctAnswer: "Sustainable",
-      explanation: "Eco-friendly/long-term.",
-      translation: "El desarrollo sostenible es el objetivo.",
-      hint: "Eco-friendly."
+    "id": "b2-u28-e18",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "New measures are thought to be necessary to combat carbon emissions.",
+    "content": {
+      "title": "Emisiones de carbono",
+      "instructions": "Ordena las palabras usando la pasiva de reporte personal.",
+      "correctSentence": "[[New|Se]] [[measures|cree]] [[are|que]] [[thought|son]] [[to|necesarias]] [[be|nuevas]] [[necessary|medidas]] [[to|para]] [[combat|combatir]] [[carbon|las emisiones]] [[emissions.|de carbono.]]",
+      "words": [
+        "[[thought|son]]",
+        "[[emissions.|de carbono.]]",
+        "[[are|que]]",
+        "[[necessary|medidas]]",
+        "[[New|Se]]",
+        "[[combat|combatir]]",
+        "[[carbon|las emisiones]]",
+        "[[be|nuevas]]",
+        "[[to|necesarias]]",
+        "[[measures|cree]]"
+      ],
+      "explanation": "'Are thought to be necessary' expresa una opinión generalizada sobre la necesidad de algo.",
+      "audio": "audio/b2/unit-28/e18.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-28/e18.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u28-e20",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "Global warming affects all ecosystems.",
-    content: {
-      title: "Wildlife",
-      instructions: "Choose the correct word.",
-      question: "[[Global ___ (warming) is the long-term rise in the average temperature of the Earth's climate system.|El calentamiento global afecta a todos los ecosistemas.]]",
-      options: ["[[warning|advertencia]]", "[[warming|calentamiento]]", "[[wearing|desgaste]]"],
-      correctAnswer: "warming",
-      explanation: "Rise in temperature.",
-      translation: "El calentamiento global afecta a todos los ecosistemas.",
-      hint: "Rise in temperature."
+    "id": "b2-u28-e19",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "Organic farming avoids the use of synthetic pesticides and fertilizers.",
+    "content": {
+      "title": "Agricultura orgánica",
+      "instructions": "Ordena las palabras sobre agricultura sostenible.",
+      "correctSentence": "[[Organic|La agricultura]] [[farming|orgánica]] [[avoids|evita]] [[the|el]] [[use|uso]] [[of|de]] [[synthetic|pesticidas]] [[pesticides|sintéticos]] [[and|y]] [[fertilizers.|fertilizantes.]]",
+      "words": [
+        "[[pesticides|sintéticos]]",
+        "[[Organic|La agricultura]]",
+        "[[fertilizers.|fertilizantes.]]",
+        "[[use|uso]]",
+        "[[avoids|evita]]",
+        "[[the|el]]",
+        "[[of|de]]",
+        "[[synthetic|pesticidas]]",
+        "[[and|y]]",
+        "[[farming|orgánica]]"
+      ],
+      "explanation": "'Pesticides' se usan para matar plagas y 'fertilizers' para ayudar a las plantas a crecer.",
+      "audio": "audio/b2/unit-28/e19.mp3"
     },
-    topicName: "Vocabulary"
-  },
-
-  // 21-30: Vocabulary - Environmental Issues
-  {
-    id: "b2-u28-e21",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "Deforestation leads to soil erosion.",
-    content: {
-      title: "Environment",
-      instructions: "Choose the correct word.",
-      question: "[[___ (Deforestation) is the clearing of trees, transforming a forest into cleared land.|La deforestación provoca la erosión del suelo.]]",
-      options: ["[[Deforestation|Deforestación]]", "[[Deformation|Deformación]]", "[[Decoration|Decoración]]"],
-      correctAnswer: "Deforestation",
-      explanation: "Clearing trees.",
-      translation: "La deforestación provoca la erosión del suelo.",
-      hint: "Tree clearing."
-    },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-28/e19.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u28-e22",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "Pollution is harming the oceans.",
-    content: {
-      title: "Environment",
-      instructions: "Choose the correct word.",
-      question: "[[___ (Pollution) is the presence in or introduction into the environment of a substance or thing that has harmful or poisonous effects.|La contaminación está dañando los océanos.]]",
-      options: ["[[Population|Población]]", "[[Pollution|Contaminación]]", "[[Portion|Porción]]"],
-      correctAnswer: "Pollution",
-      explanation: "Harmful substances.",
-      translation: "La contaminación está dañando los océanos.",
-      hint: "Contamination."
+    "id": "b2-u28-e20",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "Large areas of the rainforest will be replanted with native trees.",
+    "content": {
+      "title": "Reforestación",
+      "instructions": "Ordena las palabras usando la pasiva de futuro 'will be replanted'.",
+      "correctSentence": "[[Large|Grandes]] [[areas|áreas]] [[of|de]] [[the|la]] [[rainforest|selva]] [[will|serán]] [[be|reforestadas]] [[replanted|con]] [[with|árboles]] [[native|nativos.]] [[trees.|]]",
+      "words": [
+        "[[be|reforestadas]]",
+        "[[trees.|]]",
+        "[[will|serán]]",
+        "[[areas|áreas]]",
+        "[[Large|Grandes]]",
+        "[[replanted|con]]",
+        "[[native|nativos.]]",
+        "[[the|la]]",
+        "[[rainforest|selva]]",
+        "[[with|árboles]]",
+        "[[of|de]]"
+      ],
+      "explanation": "'Native trees' son aquellos que crecen de forma natural en una zona determinada.",
+      "audio": "audio/b2/unit-28/e20.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-28/e20.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u28-e23",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "Renewable energy is cleaner.",
-    content: {
-      title: "Environment",
-      instructions: "Choose the correct word.",
-      question: "[[___ (Renewable) energy comes from natural sources that are constantly replenished.|La energía renovable es más limpia.]]",
-      options: ["[[Renewable|Renovable]]", "[[Reusable|Reutilizable]]", "[[Remarkable|Notable]]"],
-      correctAnswer: "Renewable",
-      explanation: "Energy from sources like sun or wind.",
-      translation: "La energía renovable es más limpia.",
-      hint: "Infinite energy source."
+    "id": "b2-u28-e21",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "Ecological awareness has grown among the youth in recent decades.",
+    "content": {
+      "title": "Conciencia ecológica",
+      "instructions": "Ordena las palabras sobre valores sociales.",
+      "correctSentence": "[[Ecological|La conciencia]] [[awareness|ecológica]] [[has|ha]] [[grown|crecido]] [[among|entre]] [[the|los]] [[youth|jóvenes]] [[in|en]] [[recent|las últimas]] [[decades.|décadas.]]",
+      "words": [
+        "[[awareness|ecológica]]",
+        "[[recent|las últimas]]",
+        "[[youth|jóvenes]]",
+        "[[Ecological|La conciencia]]",
+        "[[decades.|décadas.]]",
+        "[[has|ha]]",
+        "[[the|los]]",
+        "[[grown|crecido]]",
+        "[[in|en]]",
+        "[[among|entre]]"
+      ],
+      "explanation": "'Ecological awareness' es estar informado y preocupado por el medio ambiente.",
+      "audio": "audio/b2/unit-28/e21.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-28/e21.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u28-e24",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "The carbon footprint must be reduced.",
-    content: {
-      title: "Environment",
-      instructions: "Choose the correct word.",
-      question: "[[A carbon ___ (footprint) is the total amount of greenhouse gases produced by an individual or organization.|La huella de carbono debe ser reducida.]]",
-      options: ["[[footprint|huella]]", "[[footstep|paso]]", "[[foothold|punto de apoyo]]"],
-      correctAnswer: "footprint",
-      explanation: "Measure of impact.",
-      translation: "La huella de carbono debe ser reducida.",
-      hint: "Impact measure."
+    "id": "b2-u28-e22",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "The animals were being fed by the zookeepers during the tour.",
+    "content": {
+      "title": "Alimentación en el zoo",
+      "instructions": "Ordena las palabras usando la pasiva continua en pasado.",
+      "correctSentence": "[[The|Los]] [[animals|animales]] [[were|estaban]] [[being|siendo]] [[fed|alimentados]] [[by|por]] [[the|los]] [[zookeepers|cuidadores]] [[during|durante]] [[the|el]] [[tour.|recorrido.]]",
+      "words": [
+        "[[being|siendo]]",
+        "[[tour.|recorrido.]]",
+        "[[were|estaban]]",
+        "[[animals|animales]]",
+        "[[The|Los]]",
+        "[[zookeepers|cuidadores]]",
+        "[[fed|alimentados]]",
+        "[[during|durante]]",
+        "[[the|los]]",
+        "[[by|por]]",
+        "[[the|el]]"
+      ],
+      "explanation": "'Fed' es el participio de 'feed' (alimentar).",
+      "audio": "audio/b2/unit-28/e22.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-28/e22.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u28-e25",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "Greenhouse gases trap heat.",
-    content: {
-      title: "Environment",
-      instructions: "Choose the correct word.",
-      question: "[[Greenhouse ___ (gases) contribute to the greenhouse effect.|Los gases de efecto invernadero atrapan el calor.]]",
-      options: ["[[gases|gases]]", "[[grasses|hierbas]]", "[[glasses|gafas / vasos]]"],
-      correctAnswer: "gases",
-      explanation: "Gases that trap heat.",
-      translation: "Los gases de efecto invernadero atrapan el calor.",
-      hint: "Heat-trapping air."
+    "id": "b2-u28-e23",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "Erosion of the coastline is being accelerated by the rising sea levels.",
+    "content": {
+      "title": "Erosión costera",
+      "instructions": "Ordena las palabras usando la voz pasiva continua.",
+      "correctSentence": "[[Erosion|La erosión]] [[of|de]] [[the|la]] [[coastline|costa]] [[is|está]] [[being|siendo]] [[accelerated|acelerada]] [[by|por]] [[the|el]] [[rising|ascenso]] [[sea|del nivel]] [[levels.|del mar.]]",
+      "words": [
+        "[[being|siendo]]",
+        "[[levels.|del mar.]]",
+        "[[coastline|costa]]",
+        "[[is|está]]",
+        "[[accelerated|acelerada]]",
+        "[[Erosion|La erosión]]",
+        "[[rising|ascenso]]",
+        "[[the|el]]",
+        "[[sea|del nivel]]",
+        "[[of|de]]",
+        "[[the|la]]",
+        "[[by|por]]"
+      ],
+      "explanation": "'Rising sea levels' es una de las consecuencias directas del calentamiento global.",
+      "audio": "audio/b2/unit-28/e23.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-28/e23.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u28-e26",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "Recycling reduces waste.",
-    content: {
-      title: "Environment",
-      instructions: "Choose the correct word.",
-      question: "[[___ (Recycling) is the process of converting waste materials into new materials.|El reciclaje reduce los residuos.]]",
-      options: ["[[Reciting|Recitando]]", "[[Recycling|Reciclaje]]", "[[Replacing|Reemplazo]]"],
-      correctAnswer: "Recycling",
-      explanation: "Processing waste.",
-      translation: "El reciclaje reduce los residuos.",
-      hint: "Processing waste."
+    "id": "b2-u28-e24",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "It is understood that the new policy will benefit local wildlife.",
+    "content": {
+      "title": "Nueva política ambiental",
+      "instructions": "Ordena las palabras usando la pasiva de reporte impersonal.",
+      "correctSentence": "[[It|Se]] [[is|entiende]] [[understood|que]] [[that|la]] [[the|nueva]] [[new|política]] [[policy|beneficiará]] [[will|a]] [[benefit|la]] [[local|fauna]] [[wildlife.|local.]]",
+      "words": [
+        "[[understood|que]]",
+        "[[wildlife.|local.]]",
+        "[[is|entiende]]",
+        "[[benefit|la]]",
+        "[[It|Se]]",
+        "[[new|política]]",
+        "[[policy|beneficiará]]",
+        "[[the|nueva]]",
+        "[[that|la]]",
+        "[[will|a]]",
+        "[[local|fauna]]"
+      ],
+      "explanation": "'It is understood that' se usa para expresar algo que se acepta como cierto.",
+      "audio": "audio/b2/unit-28/e24.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-28/e24.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u28-e27",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "Climate change is a global crisis.",
-    content: {
-      title: "Environment",
-      instructions: "Choose the correct word.",
-      question: "[[Climate ___ (change) refers to long-term shifts in temperatures and weather patterns.|El cambio climático es una crisis global.]]",
-      options: ["[[charge|carga]]", "[[chance|oportunidad]]", "[[change|cambio]]"],
-      correctAnswer: "change",
-      explanation: "Shift in climate.",
-      translation: "El cambio climático es una crisis global.",
-      hint: "Climate shift."
+    "id": "b2-u28-e25",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "Many migratory species rely on specific habitats to survive their journeys.",
+    "content": {
+      "title": "Especies migratorias",
+      "instructions": "Ordena las palabras sobre el comportamiento animal.",
+      "correctSentence": "[[Many|Muchas]] [[migratory|especies]] [[species|migratorias]] [[rely|dependen]] [[on|de]] [[specific|hábitats]] [[habitats|específicos]] [[to|para]] [[survive|sobrevivir]] [[their|a sus]] [[journeys.|viajes.]]",
+      "words": [
+        "[[species|migratorias]]",
+        "[[survive|sobrevivir]]",
+        "[[Many|Muchas]]",
+        "[[rely|dependen]]",
+        "[[journeys.|viajes.]]",
+        "[[migratory|especies]]",
+        "[[on|de]]",
+        "[[habitats|específicos]]",
+        "[[to|para]]",
+        "[[their|a sus]]",
+        "[[specific|hábitats]]"
+      ],
+      "explanation": "'Rely on' es un 'phrasal verb' que significa depender de algo o alguien.",
+      "audio": "audio/b2/unit-28/e25.mp3"
     },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u28-e28",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "The ozone layer protects us.",
-    content: {
-      title: "Environment",
-      instructions: "Choose the correct word.",
-      question: "[[The ___ (ozone) layer is a region of Earth's stratosphere that absorbs most of the Sun's ultraviolet radiation.|La capa de ozono nos protege.]]",
-      options: ["[[ocean|océano]]", "[[ozone|ozono]]", "[[orbit|órbita]]"],
-      correctAnswer: "ozone",
-      explanation: "Protective layer.",
-      translation: "La capa de ozono nos protege.",
-      hint: "Protective layer."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u28-e29",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "Eco-friendly products are better.",
-    content: {
-      title: "Environment",
-      instructions: "Choose the correct word.",
-      question: "[[___ (Eco-friendly) products are not harmful to the environment.|Los productos ecológicos son mejores.]]",
-      options: ["[[Eco-friendly|Respetuoso con el medio ambiente / Ecológico]]", "[[Ego-friendly|Egoísta]]", "[[Eco-logical|Ecológico (pero no se usa así)]]"],
-      correctAnswer: "Eco-friendly",
-      explanation: "Good for the environment.",
-      translation: "Los productos ecológicos son mejores.",
-      hint: "Green products."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u28-e30",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "Waste management is crucial.",
-    content: {
-      title: "Environment",
-      instructions: "Choose the correct word.",
-      question: "[[Waste ___ (management) is the collection, transport, processing, and disposal of waste materials.|La gestión de residuos es crucial.]]",
-      options: ["[[movement|movimiento]]", "[[management|gestión]]", "[[moment|momento]]"],
-      correctAnswer: "management",
-      explanation: "Dealing with waste.",
-      translation: "La gestión de residuos es crucial.",
-      hint: "Dealing with trash."
-    },
-    topicName: "Vocabulary"
-  },
-
-  // 31-40: Vocabulary - Animals and Plants
-  {
-    id: "b2-u28-e31",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "Predators hunt other animals.",
-    content: {
-      title: "Animals",
-      instructions: "Choose the correct term.",
-      question: "[[A ___ is an animal that naturally preys on others.|Los depredadores cazan a otros animales.]]",
-      options: ["herbivore", "predator", "prey"],
-      correctAnswer: "predator",
-      explanation: "Animal that hunts.",
-      translation: "Los depredadores cazan a otros animales.",
-      hint: "Hunter."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u28-e32",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "Prey animals are hunted.",
-    content: {
-      title: "Animals",
-      instructions: "Choose the correct term.",
-      question: "[[___ is an animal that is hunted and killed by another for food.|Las presas son cazadas.]]",
-      options: ["Predator", "Prey", "Scavenger"],
-      correctAnswer: "Prey",
-      explanation: "Animal being hunted.",
-      translation: "Las presas son cazadas.",
-      hint: "Hunted animal."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u28-e33",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "Mammals give birth to live young.",
-    content: {
-      title: "Animals",
-      instructions: "Choose the correct term.",
-      question: "[[___ are warm-blooded vertebrate animals that have hair or fur.|Los mamíferos dan a luz crías vivas.]]",
-      options: ["Birds", "Reptiles", "Mammals"],
-      correctAnswer: "Mammals",
-      explanation: "Group including humans, dogs, etc.",
-      translation: "Los mamíferos dan a luz crías vivas.",
-      hint: "Hair/fur group."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u28-e34",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "Reptiles have scales.",
-    content: {
-      title: "Animals",
-      instructions: "Choose the correct term.",
-      question: "[[___ are cold-blooded vertebrates that include snakes and lizards.|Los reptiles tienen escamas.]]",
-      options: ["Fish", "Amphibians", "Reptiles"],
-      correctAnswer: "Reptiles",
-      explanation: "Scaly cold-blooded animals.",
-      translation: "Los reptiles tienen escamas.",
-      hint: "Scaly group."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u28-e35",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "Birds have feathers.",
-    content: {
-      title: "Animals",
-      instructions: "Choose the correct term.",
-      question: "[[___ are vertebrate animals characterized by feathers and laying eggs.|Las aves tienen plumas.]]",
-      options: ["Mammals", "Insects", "Birds"],
-      correctAnswer: "Birds",
-      explanation: "Feathered animals.",
-      translation: "Las aves tienen plumas.",
-      hint: "Feathered group."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u28-e36",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "Insects have six legs.",
-    content: {
-      title: "Animals",
-      instructions: "Choose the correct term.",
-      question: "[[___ are small arthropod animals with six legs.|Los insectos tienen seis patas.]]",
-      options: ["Crabs", "Spiders", "Insects"],
-      correctAnswer: "Insects",
-      explanation: "Small creatures with six legs.",
-      translation: "Los insectos tienen seis patas.",
-      hint: "Six-legged group."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u28-e37",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "Domesticated animals live with humans.",
-    content: {
-      title: "Animals",
-      instructions: "Choose the correct term.",
-      question: "[[___ animals have been tamed and kept by humans as work animals or pets.|Los animales domesticados viven con los humanos.]]",
-      options: ["Domesticated", "Feral", "Wild"],
-      correctAnswer: "Domesticated",
-      explanation: "Tamed animals.",
-      translation: "Los animales domesticados viven con los humanos.",
-      hint: "Tamed."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u28-e38",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "Wild animals live in nature.",
-    content: {
-      title: "Animals",
-      instructions: "Choose the correct term.",
-      question: "[[___ animals live or grow in the natural environment.|Los animales salvajes viven en la naturaleza.]]",
-      options: ["Pet", "Wild", "Farm"],
-      correctAnswer: "Wild",
-      explanation: "Animals in nature.",
-      translation: "Los animales salvajes viven en la naturaleza.",
-      hint: "In nature."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u28-e39",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "Photosynthesis is how plants make food.",
-    content: {
-      title: "Plants",
-      instructions: "Choose the correct term.",
-      question: "[[___ is the process by which green plants use sunlight to synthesize foods.|La fotosíntesis es cómo las plantas fabrican su alimento.]]",
-      options: ["Respiration", "Photosynthesis", "Digestion"],
-      correctAnswer: "Photosynthesis",
-      explanation: "Plant food making process.",
-      translation: "La fotosíntesis es cómo las plantas fabrican su alimento.",
-      hint: "Sunlight to food."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u28-e40",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "Native plants belong in an area.",
-    content: {
-      title: "Plants",
-      instructions: "Choose the correct term.",
-      question: "[[___ plants are those that occur naturally in a particular region.|Las plantas nativas pertenecen a una zona.]]",
-      options: ["Invasive", "Native", "Exotic"],
-      correctAnswer: "Native",
-      explanation: "Naturally occurring in a place.",
-      translation: "Las plantas nativas pertenecen a una zona.",
-      hint: "Naturally occurring."
-    },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-28/e25.mp3",
+    "topicName": "Vocabulary"
   },
 
-  // 41-50: Word Formation
+  // 26-50: Multiple Choice (Grammar & Vocabulary)
   {
-    id: "b2-u28-e41",
-    type: "word-formation",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "Environmental protection is vital.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[___ (ENVIRONMENT) protection is vital for our future.|La protección ambiental es vital.]]",
-      correctAnswer: "Environmental",
-      explanation: "Adjective form of 'environment'.",
-      translation: "La protección ambiental es vital.",
-      hint: "Adjective form."
+    "id": "b2-u28-e26",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "The forest is being protected from illegal logging activities.",
+    "content": {
+      "title": "Protección forestal",
+      "instructions": "Elige la forma correcta de la voz pasiva.",
+      "question": "[[The forest ___ from illegal logging activities.|El bosque está siendo protegido de actividades de tala ilegal.]]",
+      "options": [
+        "[[is protecting|está protegiendo]]",
+        "[[is being protected|está siendo protegido]]",
+        "[[has protected|ha protegido]]"
+      ],
+      "correctAnswer": "is being protected",
+      "explanation": "Usamos la pasiva continua (is being + participio) para acciones en progreso.",
+      "audio": "audio/b2/unit-28/e26.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-28/e26.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u28-e42",
-    type: "word-formation",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "The extinction of the dinosaurs happened long ago.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The ___ (EXTINCT) of the dinosaurs happened millions of years ago.|La extinción de los dinosaurios ocurrió hace mucho tiempo.]]",
-      correctAnswer: "extinction",
-      explanation: "Noun form of 'extinct'.",
-      translation: "La extinción de los dinosaurios ocurrió hace mucho tiempo.",
-      hint: "Noun form."
+    "id": "b2-u28-e27",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "Endangered species are those that are at risk of extinction.",
+    "content": {
+      "title": "Especies en peligro",
+      "instructions": "Elige el adjetivo correcto.",
+      "question": "[[___ species are those that are at risk of extinction.|Las especies en peligro son aquellas en riesgo de extinción.]]",
+      "options": [
+        "[[Dangerous|Peligrosas]]",
+        "[[Endangered|En peligro (de extinción)]]",
+        "[[Extinct|Extintas]]"
+      ],
+      "correctAnswer": "Endangered",
+      "explanation": "'Endangered' se usa específicamente para especies cuya supervivencia está amenazada.",
+      "audio": "audio/b2/unit-28/e27.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-28/e27.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u28-e43",
-    type: "word-formation",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "Conservationists work to save species.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[___ (CONSERVE) work hard to protect endangered species.|Los conservacionistas trabajan para salvar especies.]]",
-      correctAnswer: "Conservationists",
-      explanation: "Noun for people working in conservation (plural).",
-      translation: "Los conservacionistas trabajan para salvar especies.",
-      hint: "People form (plural)."
+    "id": "b2-u28-e28",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "It is said that elephants have a remarkable memory.",
+    "content": {
+      "title": "Memoria de elefante",
+      "instructions": "Elige la estructura de reporte pasivo correcta.",
+      "question": "[[It ___ that elephants have a remarkable memory.|Se dice que los elefantes tienen una memoria notable.]]",
+      "options": [
+        "[[is said|se dice]]",
+        "[[says|dice]]",
+        "[[is saying|está diciendo]]"
+      ],
+      "correctAnswer": "is said",
+      "explanation": "'It is said that' es la forma impersonal de reporte pasivo.",
+      "audio": "audio/b2/unit-28/e28.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-28/e28.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u28-e44",
-    type: "word-formation",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "Pollution is a serious problem.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[___ (POLLUTE) is a serious problem in many cities.|La contaminación es un problema serio.]]",
-      correctAnswer: "Pollution",
-      explanation: "Noun form of 'pollute'.",
-      translation: "La contaminación es un problema serio.",
-      hint: "Noun form."
+    "id": "b2-u28-e29",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "Logging is the activity of cutting down trees for lumber.",
+    "content": {
+      "title": "Tala de árboles",
+      "instructions": "Elige el término correcto.",
+      "question": "[[___ is the activity of cutting down trees for lumber.|La tala es la actividad de cortar árboles para madera.]]",
+      "options": [
+        "[[Logging|Tala]]",
+        "[[Farming|Agricultura]]",
+        "[[Mining|Minería]]"
+      ],
+      "correctAnswer": "Logging",
+      "explanation": "'Logging' se refiere específicamente a la industria de la madera y la tala.",
+      "audio": "audio/b2/unit-28/e29.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-28/e29.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u28-e45",
-    type: "word-formation",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "The air is very polluted.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The air in this city is very ___ (POLLUTE).|El aire está muy contaminado.]]",
-      correctAnswer: "polluted",
-      explanation: "Adjective form of 'pollute'.",
-      translation: "El aire está muy contaminado.",
-      hint: "Adjective form."
+    "id": "b2-u28-e30",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "The animal is believed to have escaped from the local zoo.",
+    "content": {
+      "title": "Animal escapado",
+      "instructions": "Elige la forma de infinitivo pasivo adecuada.",
+      "question": "[[The animal is believed ___ from the local zoo.|Se cree que el animal se escapó del zoo local.]]",
+      "options": [
+        "[[to escape|que escapa]]",
+        "[[to have escaped|que se ha escapado / escapó]]",
+        "[[escaping|escapando]]"
+      ],
+      "correctAnswer": "to have escaped",
+      "explanation": "Usamos el infinitivo perfecto (to have + participio) para hablar de un hecho pasado con un verbo de reporte.",
+      "audio": "audio/b2/unit-28/e30.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-28/e30.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u28-e46",
-    type: "word-formation",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "Sustainable energy is the way forward.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[___ (SUSTAIN) energy is the way forward.|La energía sostenible es el camino a seguir.]]",
-      correctAnswer: "Sustainable",
-      explanation: "Adjective form of 'sustain'.",
-      translation: "La energía sostenible es el camino a seguir.",
-      hint: "Adjective form."
+    "id": "b2-u28-e31",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "Poaching is the illegal hunting or capturing of wild animals.",
+    "content": {
+      "title": "Caza furtiva",
+      "instructions": "Elige el nombre del delito ambiental.",
+      "question": "[[___ is the illegal hunting or capturing of wild animals.|La caza furtiva es la caza o captura ilegal de animales salvajes.]]",
+      "options": [
+        "[[Smuggling|Contrabando]]",
+        "[[Poaching|Caza furtiva]]",
+        "[[Shoplifting|Hurto]]"
+      ],
+      "correctAnswer": "Poaching",
+      "explanation": "'Poaching' es el término específico para la caza ilegal.",
+      "audio": "audio/b2/unit-28/e31.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-28/e31.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u28-e47",
-    type: "word-formation",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "The biodiversity of the rainforest is amazing.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The ___ (DIVERSE) of the rainforest is amazing.|La biodiversidad de la selva es asombrosa.]]",
-      correctAnswer: "biodiversity",
-      explanation: "Compound noun: bio + diversity.",
-      translation: "La biodiversidad de la selva es asombrosa.",
-      hint: "Compound noun."
+    "id": "b2-u28-e32",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "The results of the study will be published in a scientific journal.",
+    "content": {
+      "title": "Publicación científica",
+      "instructions": "Elige la pasiva de futuro correcta.",
+      "question": "[[The results of the study ___ in a scientific journal.|Los resultados del estudio se publicarán en una revista científica.]]",
+      "options": [
+        "[[will publish|publicarán]]",
+        "[[will be published|serán publicados]]",
+        "[[are publishing|están publicando]]"
+      ],
+      "correctAnswer": "will be published",
+      "explanation": "La pasiva de futuro se forma con 'will be' + participio.",
+      "audio": "audio/b2/unit-28/e32.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-28/e32.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u28-e48",
-    type: "word-formation",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "Global warming is getting worse.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[Global ___ (WARM) is getting worse every year.|El calentamiento global está empeorando.]]",
-      correctAnswer: "warming",
-      explanation: "Gerund acting as a noun.",
-      translation: "El calentamiento global está empeorando.",
-      hint: "Gerund form."
+    "id": "b2-u28-e33",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "Habitat loss is the primary cause of species decline.",
+    "content": {
+      "title": "Pérdida de hábitat",
+      "instructions": "Elige el término correcto.",
+      "question": "[[___ loss is the primary cause of species decline.|La pérdida de hábitat es la causa principal de la disminución de especies.]]",
+      "options": [
+        "[[Habitat|Hábitat]]",
+        "[[Habit|Hábito]]",
+        "[[Inhabit|Habitar]]"
+      ],
+      "correctAnswer": "Habitat",
+      "explanation": "'Habitat' es el lugar donde vive naturalmente un animal o planta.",
+      "audio": "audio/b2/unit-28/e33.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-28/e33.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u28-e49",
-    type: "word-formation",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "Deforestation is clearing the land.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[___ (FOREST) is clearing the land for agriculture.|La deforestación está despejando la tierra.]]",
-      correctAnswer: "Deforestation",
-      explanation: "Noun form of 'deforest'.",
-      translation: "La deforestación está despejando la tierra.",
-      hint: "Noun form."
+    "id": "b2-u28-e34",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "He is expected to arrive at the research station by noon.",
+    "content": {
+      "title": "Llegada esperada",
+      "instructions": "Elige la forma de reporte pasivo adecuada.",
+      "question": "[[He is expected ___ at the research station by noon.|Se espera que llegue a la estación de investigación al mediodía.]]",
+      "options": [
+        "[[to arrive|llegar]]",
+        "[[arriving|llegando]]",
+        "[[arrive|llegar (sin to)]]"
+      ],
+      "correctAnswer": "to arrive",
+      "explanation": "Tras 'be expected', usamos el infinitivo con 'to'.",
+      "audio": "audio/b2/unit-28/e34.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-28/e34.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u28-e50",
-    type: "word-formation",
-    level: "B2",
-    topic: "Nature and Wildlife",
-    difficulty: "medium",
-    transcript: "The protection of animals is important.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The ___ (PROTECT) of animals is our responsibility.|La protección de los animales es importante.]]",
-      correctAnswer: "protection",
-      explanation: "Noun form of 'protect'.",
-      translation: "La protección de los animales es importante.",
-      hint: "Noun form."
+    "id": "b2-u28-e35",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "Marine life refers to the animals and plants in the sea.",
+    "content": {
+      "title": "Vida marina",
+      "instructions": "Elige el adjetivo correcto.",
+      "question": "[[___ life refers to the animals and plants in the sea.|La vida marina se refiere a los animales y plantas del mar.]]",
+      "options": [
+        "[[Marine|Marina]]",
+        "[[Maritime|Marítimo]]",
+        "[[Marsh|Marisma]]"
+      ],
+      "correctAnswer": "Marine",
+      "explanation": "'Marine life' es el término estándar para los seres vivos en el océano.",
+      "audio": "audio/b2/unit-28/e35.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-28/e35.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u28-e36",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "The specimens had been collected before the storm started.",
+    "content": {
+      "title": "Recolección de especímenes",
+      "instructions": "Elige la pasiva de pasado perfecto correcta.",
+      "question": "[[The specimens ___ before the storm started.|Los especímenes habían sido recogidos antes de que empezara la tormenta.]]",
+      "options": [
+        "[[had been collected|habían sido recogidos]]",
+        "[[have been collected|han sido recogidos]]",
+        "[[were being collected|estaban siendo recogidos]]"
+      ],
+      "correctAnswer": "had been collected",
+      "explanation": "La pasiva de pasado perfecto (had been + participio) indica anterioridad en el pasado.",
+      "audio": "audio/b2/unit-28/e36.mp3"
+    },
+    "audioUrl": "audio/b2/unit-28/e36.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u28-e37",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "The drought has caused a severe water shortage in the region.",
+    "content": {
+      "title": "Sequía",
+      "instructions": "Elige el término para la falta de agua.",
+      "question": "[[The ___ has caused a severe water shortage in the region.|La sequía ha causado una grave escasez de agua en la región.]]",
+      "options": [
+        "[[Drought|Sequía]]",
+        "[[Flood|Inundación]]",
+        "[[Breeze|Brisa]]"
+      ],
+      "correctAnswer": "Drought",
+      "explanation": "'Drought' es un periodo prolongado de falta de lluvia.",
+      "audio": "audio/b2/unit-28/e37.mp3"
+    },
+    "audioUrl": "audio/b2/unit-28/e37.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u28-e38",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "Tigers are reported to be increasing in numbers in some areas.",
+    "content": {
+      "title": "Población de tigres",
+      "instructions": "Elige la forma de reporte pasivo personal.",
+      "question": "[[Tigers ___ to be increasing in numbers in some areas.|Se informa de que los tigres están aumentando en número.]]",
+      "options": [
+        "[[are reported|se informa de que (ellos)]]",
+        "[[report|informan]]",
+        "[[have reported|han informado]]"
+      ],
+      "correctAnswer": "are reported",
+      "explanation": "Usamos la estructura de reporte pasivo personal para hechos de actualidad.",
+      "audio": "audio/b2/unit-28/e38.mp3"
+    },
+    "audioUrl": "audio/b2/unit-28/e38.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u28-e39",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "A sanctuary is a place where animals are protected from hunting.",
+    "content": {
+      "title": "Santuario de animales",
+      "instructions": "Elige el término para un refugio seguro.",
+      "question": "[[A ___ is a place where animals are protected from hunting.|Un santuario es un lugar donde los animales están protegidos.]]",
+      "options": [
+        "[[sanctuary|santuario / refugio]]",
+        "[[slaughterhouse|matadero]]",
+        "[[stadium|estadio]]"
+      ],
+      "correctAnswer": "sanctuary",
+      "explanation": "Un 'sanctuary' es un refugio para animales rescatados o protegidos.",
+      "audio": "audio/b2/unit-28/e39.mp3"
+    },
+    "audioUrl": "audio/b2/unit-28/e39.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u28-e40",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "The damage was said to be caused by the extreme weather conditions.",
+    "content": {
+      "title": "Clima extremo",
+      "instructions": "Elige la estructura pasiva de reporte correcta.",
+      "question": "[[The damage was said ___ by the extreme weather conditions.|Se dijo que el daño fue causado por el clima extremo.]]",
+      "options": [
+        "[[to be caused|ser causado]]",
+        "[[to have been caused|haber sido causado]]",
+        "[[being caused|siendo causado]]"
+      ],
+      "correctAnswer": "to be caused",
+      "explanation": "'Was said to be caused' se usa para referirse a la causa de algo en el pasado.",
+      "audio": "audio/b2/unit-28/e40.mp3"
+    },
+    "audioUrl": "audio/b2/unit-28/e40.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u28-e41",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "The ozone layer protects the Earth from harmful ultraviolet radiation.",
+    "content": {
+      "title": "Capa de ozono",
+      "instructions": "Elige el término correcto.",
+      "question": "[[The ___ layer protects the Earth from harmful radiation.|La capa de ozono protege la Tierra de la radiación dañina.]]",
+      "options": [
+        "[[ozone|ozono]]",
+        "[[ocean|océano]]",
+        "[[organic|orgánico]]"
+      ],
+      "correctAnswer": "ozone",
+      "explanation": "La 'ozone layer' es fundamental para la vida en la Tierra.",
+      "audio": "audio/b2/unit-28/e41.mp3"
+    },
+    "audioUrl": "audio/b2/unit-28/e41.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u28-e42",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "It has been estimated that the project will take three years to complete.",
+    "content": {
+      "title": "Estimaciones",
+      "instructions": "Elige la forma de pasiva de reporte impersonal.",
+      "question": "[[It ___ that the project will take three years to complete.|Se ha estimado que el proyecto tardará tres años en completarse.]]",
+      "options": [
+        "[[has been estimated|se ha estimado]]",
+        "[[is estimating|está estimando]]",
+        "[[has estimated|ha estimado]]"
+      ],
+      "correctAnswer": "has been estimated",
+      "explanation": "Usamos el Present Perfect pasivo para reportar estimaciones recientes.",
+      "audio": "audio/b2/unit-28/e42.mp3"
+    },
+    "audioUrl": "audio/b2/unit-28/e42.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u28-e43",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "A greenhouse is a structure used to grow plants in controlled conditions.",
+    "content": {
+      "title": "Invernadero",
+      "instructions": "Elige el término correcto.",
+      "question": "[[A ___ is a structure used to grow plants in controlled conditions.|Un invernadero es una estructura usada para cultivar plantas.]]",
+      "options": [
+        "[[greenhouse|invernadero]]",
+        "[[lighthouse|faro]]",
+        "[[warehouse|almacén]]"
+      ],
+      "correctAnswer": "greenhouse",
+      "explanation": "Un 'greenhouse' atrapa el calor para permitir el crecimiento de plantas.",
+      "audio": "audio/b2/unit-28/e43.mp3"
+    },
+    "audioUrl": "audio/b2/unit-28/e43.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u28-e44",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "New species are still being discovered in the depths of the ocean.",
+    "content": {
+      "title": "Nuevos descubrimientos",
+      "instructions": "Elige la forma pasiva continua correcta.",
+      "question": "[[New species are still ___ in the depths of the ocean.|Nuevas especies se siguen descubriendo en las profundidades.]]",
+      "options": [
+        "[[being discovered|siendo descubiertas]]",
+        "[[been discovered|sido descubiertas]]",
+        "[[discovering|descubriendo]]"
+      ],
+      "correctAnswer": "being discovered",
+      "explanation": "Usamos 'being discovered' para enfatizar que el proceso continúa hoy.",
+      "audio": "audio/b2/unit-28/e44.mp3"
+    },
+    "audioUrl": "audio/b2/unit-28/e44.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u28-e45",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "Fossil fuels are non-renewable energy sources like coal and oil.",
+    "content": {
+      "title": "Combustibles fósiles",
+      "instructions": "Elige el término correcto.",
+      "question": "[[___ fuels are non-renewable energy sources like coal and oil.|Los combustibles fósiles son fuentes de energía no renovables.]]",
+      "options": [
+        "[[Fossil|Fósiles]]",
+        "[[Fusion|Fusión]]",
+        "[[Forest|Forestales]]"
+      ],
+      "correctAnswer": "Fossil",
+      "explanation": "'Fossil fuels' provienen de restos orgánicos antiguos.",
+      "audio": "audio/b2/unit-28/e45.mp3"
+    },
+    "audioUrl": "audio/b2/unit-28/e45.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u28-e46",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "The site is considered to be one of the most biodiverse on Earth.",
+    "content": {
+      "title": "Biodiversidad",
+      "instructions": "Elige la forma de reporte pasivo correcta.",
+      "question": "[[The site is considered ___ one of the most biodiverse on Earth.|El sitio es considerado uno de los más biodiversos de la Tierra.]]",
+      "options": [
+        "[[to be|ser / estar]]",
+        "[[being|siendo]]",
+        "[[to been|incorrecto]]"
+      ],
+      "correctAnswer": "to be",
+      "explanation": "Tras 'be considered', usamos el infinitivo con 'to'.",
+      "audio": "audio/b2/unit-28/e46.mp3"
+    },
+    "audioUrl": "audio/b2/unit-28/e46.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u28-e47",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "An ecosystem is a community of living organisms and their environment.",
+    "content": {
+      "title": "Ecosistema",
+      "instructions": "Elige el término para la comunidad de seres vivos.",
+      "question": "[[An ___ is a community of living organisms and their environment.|Un ecosistema es una comunidad de organismos vivos y su entorno.]]",
+      "options": [
+        "[[ecosystem|ecosistema]]",
+        "[[economy|economía]]",
+        "[[equation|ecuación]]"
+      ],
+      "correctAnswer": "ecosystem",
+      "explanation": "Un 'ecosystem' incluye tanto factores bióticos como abióticos.",
+      "audio": "audio/b2/unit-28/e47.mp3"
+    },
+    "audioUrl": "audio/b2/unit-28/e47.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u28-e48",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "The decision will be made after the impact assessment is completed.",
+    "content": {
+      "title": "Evaluación de impacto",
+      "instructions": "Elige la forma de pasiva de futuro.",
+      "question": "[[The decision ___ after the impact assessment is completed.|La decisión se tomará tras completarse la evaluación de impacto.]]",
+      "options": [
+        "[[will be made|se tomará / será tomada]]",
+        "[[will make|tomará]]",
+        "[[is made|se toma]]"
+      ],
+      "correctAnswer": "will be made",
+      "explanation": "Voz pasiva de futuro: 'will be' + participio del verbo 'make'.",
+      "audio": "audio/b2/unit-28/e48.mp3"
+    },
+    "audioUrl": "audio/b2/unit-28/e48.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u28-e49",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "Marine conservation aims to protect oceans and the life within them.",
+    "content": {
+      "title": "Conservación marina",
+      "instructions": "Elige el término para la protección de los océanos.",
+      "question": "[[Marine ___ aims to protect oceans and the life within them.|La conservación marina busca proteger los océanos.]]",
+      "options": [
+        "[[conservation|conservación]]",
+        "[[conversation|conversación]]",
+        "[[constellation|constelación]]"
+      ],
+      "correctAnswer": "conservation",
+      "explanation": "'Conservation' es el uso cuidadoso y la protección de los recursos naturales.",
+      "audio": "audio/b2/unit-28/e49.mp3"
+    },
+    "audioUrl": "audio/b2/unit-28/e49.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u28-e50",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Nature & Wildlife",
+    "difficulty": "medium",
+    "transcript": "She is reported to have discovered a new species of orchid.",
+    "content": {
+      "title": "Descubrimiento de orquídea",
+      "instructions": "Elige la forma de reporte pasivo personal para el pasado.",
+      "question": "[[She is reported ___ a new species of orchid.|Se informa de que ella descubrió una nueva especie de orquídea.]]",
+      "options": [
+        "[[to have discovered|haber descubierto]]",
+        "[[to discover|descubrir]]",
+        "[[discovering|descubriendo]]"
+      ],
+      "correctAnswer": "to have discovered",
+      "explanation": "Usamos el infinitivo perfecto tras el verbo de reporte para indicar que la acción ya ocurrió.",
+      "audio": "audio/b2/unit-28/e50.mp3"
+    },
+    "audioUrl": "audio/b2/unit-28/e50.mp3",
+    "topicName": "Grammar"
   }
 ];

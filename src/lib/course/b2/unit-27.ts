@@ -1,953 +1,1315 @@
 import { Exercise } from "@/types/course";
 
 export const UNIT_27_EXERCISES: Exercise[] = [
-  // 1-10: Grammar - Fronting for Emphasis
+  // 1-25: Sentence Building (Grammar - Formal Subjunctive & Vocabulary - Science & Technology)
   {
-    id: "b2-u27-e1",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "hard",
-    transcript: "Deep in the forest lives a rare species.",
-    content: {
-      title: "Fronting",
-      instructions: "Choose the correct word order for fronting emphasis.",
-      question: "[[Deep in the forest ___ a rare species.|En lo profundo del bosque vive una especie rara.]]",
-      options: ["does live", "living", "lives"],
-      correctAnswer: "lives",
-      explanation: "Place the verb before the subject when fronting a prepositional phrase.",
-      translation: "En lo profundo del bosque vive una especie rara.",
-      hint: "Verb before subject."
+    "id": "b2-u27-e1",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "It is essential that every scientist remain objective during experiments.",
+    "content": {
+      "title": "Objetividad científica",
+      "instructions": "Ordena las palabras usando el subjuntivo formal (base form).",
+      "correctSentence": "[[It|Es]] [[is|esencial]] [[essential|que]] [[that|cada]] [[every|científico]] [[scientist|se mantenga]] [[remain|objetivo]] [[objective|durante]] [[during|los]] [[experiments.|experimentos.]]",
+      "words": [
+        "[[scientist|se mantenga]]",
+        "[[It|Es]]",
+        "[[during|los]]",
+        "[[experiments.|experimentos.]]",
+        "[[essential|que]]",
+        "[[objective|objetivo]]",
+        "[[remain|objetivo]]",
+        "[[is|esencial]]",
+        "[[that|cada]]",
+        "[[every|científico]]"
+      ],
+      "explanation": "En el subjuntivo formal tras 'essential that', usamos la forma base (remain) sin 's'.",
+      "audio": "audio/b2/unit-27/e1.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-27/e1.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u27-e2",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "hard",
-    transcript: "Beautiful it was.",
-    content: {
-      title: "Fronting",
-      instructions: "Choose the correct word order.",
-      question: "[[Beautiful ___.|Hermoso era.]]",
-      options: ["was it", "be it", "it was"],
-      correctAnswer: "it was",
-      explanation: "Adjective fronting: Adjective + subject + verb (usually 'be').",
-      translation: "Hermoso era.",
-      hint: "Subject + Verb after adj."
+    "id": "b2-u27-e2",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "The committee recommended that the research be funded immediately.",
+    "content": {
+      "title": "Financiación de la investigación",
+      "instructions": "Ordena las palabras sobre una recomendación oficial.",
+      "correctSentence": "[[The|El]] [[committee|comité]] [[recommended|recomendó]] [[that|que]] [[the|la]] [[research|investigación]] [[be|sea]] [[funded|financiada]] [[immediately.|inmediatamente.]]",
+      "words": [
+        "[[research|investigación]]",
+        "[[immediately.|inmediatamente.]]",
+        "[[that|que]]",
+        "[[be|sea]]",
+        "[[funded|financiada]]",
+        "[[The|El]]",
+        "[[the|la]]",
+        "[[committee|comité]]",
+        "[[recommended|recomendó]]"
+      ],
+      "explanation": "Tras 'recommended that', usamos 'be' como forma base del subjuntivo pasivo.",
+      "audio": "audio/b2/unit-27/e2.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-27/e2.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u27-e3",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "hard",
-    transcript: "On the table sat a laptop.",
-    content: {
-      title: "Fronting",
-      instructions: "Choose the correct word order.",
-      question: "[[On the table ___ a laptop.|Sobre la mesa había un portátil.]]",
-      options: ["sat", "did sit", "siting"],
-      correctAnswer: "sat",
-      explanation: "Prepositional phrase fronting: Phrase + verb + subject.",
-      translation: "Sobre la mesa había un portátil.",
-      hint: "Verb before subject."
+    "id": "b2-u27-e3",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Breakthroughs in artificial intelligence are reshaping the global economy.",
+    "content": {
+      "title": "Avances en IA",
+      "instructions": "Ordena las palabras sobre tecnología moderna.",
+      "correctSentence": "[[Breakthroughs|Los avances]] [[in|en]] [[artificial|inteligencia]] [[intelligence|artificial]] [[are|están]] [[reshaping|remodelando]] [[the|la]] [[global|economía]] [[economy.|global.]]",
+      "words": [
+        "[[artificial|inteligencia]]",
+        "[[are|están]]",
+        "[[economy.|global.]]",
+        "[[intelligence|artificial]]",
+        "[[the|la]]",
+        "[[global|economía]]",
+        "[[reshaping|remodelando]]",
+        "[[in|en]]",
+        "[[Breakthroughs|Los avances]]"
+      ],
+      "explanation": "Un 'breakthrough' es un descubrimiento o avance importante.",
+      "audio": "audio/b2/unit-27/e3.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-27/e3.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u27-e4",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "hard",
-    transcript: "Out came the sun.",
-    content: {
-      title: "Fronting",
-      instructions: "Choose the correct word order.",
-      question: "[[Out ___ the sun.|Salió el sol.]]",
-      options: ["came", "did come", "come"],
-      correctAnswer: "came",
-      explanation: "Adverbial particle fronting: Particle + verb + subject.",
-      translation: "Salió el sol.",
-      hint: "Verb before subject."
+    "id": "b2-u27-e4",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "I suggest that she consult a specialist before proceeding with the trial.",
+    "content": {
+      "title": "Consulta de expertos",
+      "instructions": "Ordena las palabras usando el subjuntivo formal con 'suggest'.",
+      "correctSentence": "[[I|Sugiero]] [[suggest|que]] [[that|ella]] [[she|consulte]] [[consult|a]] [[a|un]] [[specialist|especialista]] [[before|antes]] [[proceeding|de]] [[with|proceder]] [[the|con]] [[trial.|el ensayo.]]",
+      "words": [
+        "[[she|consulte]]",
+        "[[suggest|que]]",
+        "[[trial.|el ensayo.]]",
+        "[[proceeding|de]]",
+        "[[consult|a]]",
+        "[[a|un]]",
+        "[[I|Sugiero]]",
+        "[[specialist|especialista]]",
+        "[[before|antes]]",
+        "[[with|proceder]]",
+        "[[that|ella]]",
+        "[[the|con]]"
+      ],
+      "explanation": "Tras 'suggest that', usamos la forma base 'consult' (sin 's').",
+      "audio": "audio/b2/unit-27/e4.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-27/e4.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u27-e5",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "hard",
-    transcript: "In front of the house stood a giant robot.",
-    content: {
-      title: "Fronting",
-      instructions: "Choose the correct word order.",
-      question: "[[In front of the house ___ a giant robot.|Frente a la casa se alzaba un robot gigante.]]",
-      options: ["standing", "did stand", "stood"],
-      correctAnswer: "stood",
-      explanation: "Place + verb + subject.",
-      translation: "Frente a la casa se alzaba un robot gigante.",
-      hint: "Verb before subject."
+    "id": "b2-u27-e5",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Renewable energy sources are becoming more efficient and affordable.",
+    "content": {
+      "title": "Energías renovables",
+      "instructions": "Ordena las palabras sobre sostenibilidad.",
+      "correctSentence": "[[Renewable|Las fuentes]] [[energy|de energía]] [[sources|renovable]] [[are|se están]] [[becoming|volviendo]] [[more|más]] [[efficient|eficientes]] [[and|y]] [[affordable.|asequibles.]]",
+      "words": [
+        "[[efficient|eficientes]]",
+        "[[and|y]]",
+        "[[affordable.|asequibles.]]",
+        "[[are|se están]]",
+        "[[Renewable|Las fuentes]]",
+        "[[becoming|volviendo]]",
+        "[[energy|de energía]]",
+        "[[more|más]]",
+        "[[sources|renovable]]"
+      ],
+      "explanation": "'Affordable' significa que algo tiene un precio razonable o fácil de pagar.",
+      "audio": "audio/b2/unit-27/e5.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-27/e5.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u27-e6",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "hard",
-    transcript: "Strange as it may seem, it worked.",
-    content: {
-      title: "Fronting",
-      instructions: "Choose the correct word order.",
-      question: "[[Strange ___ it may seem, it worked.|Por extraño que parezca, funcionó.]]",
-      options: ["how", "that", "as"],
-      correctAnswer: "as",
-      explanation: "Adjective + as/though + subject + verb for concession.",
-      translation: "Por extraño que parezca, funcionó.",
-      hint: "Concession connector."
+    "id": "b2-u27-e6",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "It is vital that we protect our data from cyber attacks.",
+    "content": {
+      "title": "Protección de datos",
+      "instructions": "Ordena las palabras usando el subjuntivo con 'vital that'.",
+      "correctSentence": "[[It|Es]] [[is|vital]] [[vital|que]] [[that|protejamos]] [[we|nuestros]] [[protect|datos]] [[our|de]] [[data|los]] [[from|ciberataques.]] [[cyber|]] [[attacks.|]]",
+      "words": [
+        "[[vital|que]]",
+        "[[data|los]]",
+        "[[It|Es]]",
+        "[[protect|datos]]",
+        "[[is|vital]]",
+        "[[attacks.|]]",
+        "[[we|nuestros]]",
+        "[[cyber|]]",
+        "[[from|ciberataques.]]",
+        "[[that|protejamos]]",
+        "[[our|de]]"
+      ],
+      "explanation": "El subjuntivo se usa para expresar importancia o urgencia.",
+      "audio": "audio/b2/unit-27/e6.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-27/e6.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u27-e7",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "hard",
-    transcript: "Down the hill they ran.",
-    content: {
-      title: "Fronting",
-      instructions: "Choose the correct word order.",
-      question: "[[Down the hill ___.|Cuesta abajo corrieron.]]",
-      options: ["they ran", "ran they", "did they run"],
-      correctAnswer: "they ran",
-      explanation: "When the subject is a pronoun, it comes before the verb in fronting.",
-      translation: "Cuesta abajo corrieron.",
-      hint: "Pronoun before verb."
+    "id": "b2-u27-e7",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "The laboratory has state-of-the-art equipment for genetic testing.",
+    "content": {
+      "title": "Equipo de vanguardia",
+      "instructions": "Ordena las palabras sobre instalaciones científicas.",
+      "correctSentence": "[[The|El]] [[laboratory|laboratorio]] [[has|tiene]] [[state-of-the-art|equipo]] [[equipment|de vanguardia]] [[for|para]] [[genetic|pruebas]] [[testing.|genéticas.]]",
+      "words": [
+        "[[state-of-the-art|equipo]]",
+        "[[genetic|pruebas]]",
+        "[[laboratory|laboratorio]]",
+        "[[has|tiene]]",
+        "[[equipment|de vanguardia]]",
+        "[[The|El]]",
+        "[[testing.|genéticas.]]",
+        "[[for|para]]"
+      ],
+      "explanation": "'State-of-the-art' significa lo más moderno o avanzado técnicamente.",
+      "audio": "audio/b2/unit-27/e7.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-27/e7.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u27-e8",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "hard",
-    transcript: "Away they went.",
-    content: {
-      title: "Fronting",
-      instructions: "Choose the correct word order.",
-      question: "[[Away ___.|Se fueron.]]",
-      options: ["they went", "did they go", "went they"],
-      correctAnswer: "they went",
-      explanation: "Pronoun subject after fronted adverb.",
-      translation: "Se fueron.",
-      hint: "Pronoun before verb."
+    "id": "b2-u27-e8",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "He proposed that the project be completed by the end of the month.",
+    "content": {
+      "title": "Propuesta de finalización",
+      "instructions": "Ordena las palabras con el subjuntivo formal 'be completed'.",
+      "correctSentence": "[[He|Él]] [[proposed|propuso]] [[that|que]] [[the|el]] [[project|proyecto]] [[be|sea]] [[completed|finalizado]] [[by|para]] [[the|final]] [[end|de]] [[of|mes.]] [[the|]] [[month.|]]",
+      "words": [
+        "[[that|que]]",
+        "[[proposed|propuso]]",
+        "[[month.|]]",
+        "[[completed|finalizado]]",
+        "[[by|para]]",
+        "[[the|final]]",
+        "[[end|de]]",
+        "[[be|sea]]",
+        "[[the|el]]",
+        "[[of|mes.]]",
+        "[[He|Él]]",
+        "[[project|proyecto]]",
+        "[[the|]]"
+      ],
+      "explanation": "'Proposed that' requiere la forma base del verbo (be).",
+      "audio": "audio/b2/unit-27/e8.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-27/e8.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u27-e9",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "hard",
-    transcript: "Into the room walked the scientist.",
-    content: {
-      title: "Fronting",
-      instructions: "Choose the correct word order.",
-      question: "[[Into the room ___ the scientist.|En la habitación entró el científico.]]",
-      options: ["walk", "walked", "walking"],
-      correctAnswer: "walked",
-      explanation: "Noun subject after verb with fronted phrase.",
-      translation: "En la habitación entró el científico.",
-      hint: "Verb before noun subject."
+    "id": "b2-u27-e9",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Space exploration provides valuable insights into the origin of our solar system.",
+    "content": {
+      "title": "Exploración espacial",
+      "instructions": "Ordena las palabras sobre ciencia espacial.",
+      "correctSentence": "[[Space|La exploración]] [[exploration|espacial]] [[provides|proporciona]] [[valuable|información]] [[insights|valiosa]] [[into|sobre]] [[the|el]] [[origin|origen]] [[of|de]] [[our|nuestro]] [[solar|sistema]] [[system.|solar.]]",
+      "words": [
+        "[[origin|origen]]",
+        "[[insights|valiosa]]",
+        "[[Space|La exploración]]",
+        "[[our|nuestro]]",
+        "[[system.|solar.]]",
+        "[[provides|proporciona]]",
+        "[[exploration|espacial]]",
+        "[[the|el]]",
+        "[[solar|sistema]]",
+        "[[into|sobre]]",
+        "[[valuable|información]]",
+        "[[of|de]]"
+      ],
+      "explanation": "'Insights' se refiere a una comprensión profunda o nueva información sobre algo.",
+      "audio": "audio/b2/unit-27/e9.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-27/e9.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u27-e10",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "hard",
-    transcript: "Especially important is the safety protocol.",
-    content: {
-      title: "Fronting",
-      instructions: "Choose the correct word order.",
-      question: "[[Especially important ___ the safety protocol.|Especialmente importante es el protocolo de seguridad.]]",
-      options: ["are", "it is", "is"],
-      correctAnswer: "is",
-      explanation: "Adjective phrase + verb + subject.",
-      translation: "Especialmente importante es el protocolo de seguridad.",
-      hint: "Verb before subject."
+    "id": "b2-u27-e10",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "It is imperative that the government invest more in research and development.",
+    "content": {
+      "title": "Inversión en I+D",
+      "instructions": "Ordena las palabras usando 'imperative that'.",
+      "correctSentence": "[[It|Es]] [[is|imperativo]] [[imperative|que]] [[that|el]] [[the|gobierno]] [[government|invierta]] [[invest|más]] [[more|en]] [[in|investigación]] [[research|y]] [[and|desarrollo.]] [[development.|]]",
+      "words": [
+        "[[research|investigación]]",
+        "[[invest|invierta]]",
+        "[[development.|desarrollo.]]",
+        "[[is|imperativo]]",
+        "[[government|invierta]]",
+        "[[It|Es]]",
+        "[[and|y]]",
+        "[[more|más]]",
+        "[[imperative|que]]",
+        "[[in|en]]",
+        "[[the|el]]",
+        "[[government|gobierno]]"
+      ],
+      "explanation": "'Invest' se mantiene en forma base por el subjuntivo.",
+      "audio": "audio/b2/unit-27/e10.mp3"
     },
-    topicName: "Grammar"
-  },
-
-  // 11-20: Vocabulary - Tech Innovation
-  {
-    id: "b2-u27-e11",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "The breakthrough was unexpected.",
-    content: {
-      title: "Innovation",
-      instructions: "Choose the correct word.",
-      question: "[[A scientific ___ (breakthrough) is a sudden, dramatic, and important discovery or development.|El avance fue inesperado.]]",
-      options: ["[[breakdown|avería / colapso]]", "[[breakthrough|avance / descubrimiento]]", "[[breakup|ruptura]]"],
-      correctAnswer: "breakthrough",
-      explanation: "A breakthrough marks a major progress.",
-      translation: "El avance fue inesperado.",
-      hint: "Major discovery."
-    },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-27/e10.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u27-e12",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "We are on the cutting edge of technology.",
-    content: {
-      title: "Innovation",
-      instructions: "Choose the correct word.",
-      question: "[[We are on the ___ (cutting) edge of technology.|Estamos a la vanguardia de la tecnología.]]",
-      options: ["[[sharp|afilado]]", "[[blunt|romo / desafilado]]", "[[cutting|vanguardia (con edge)]]"],
-      correctAnswer: "cutting",
-      explanation: "'Cutting edge' means the latest or most advanced stage.",
-      translation: "Estamos a la vanguardia de la tecnología.",
-      hint: "The very latest."
+    "id": "b2-u27-e11",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "The software update fixed several bugs and improved overall performance.",
+    "content": {
+      "title": "Actualización de software",
+      "instructions": "Ordena las palabras sobre tecnología.",
+      "correctSentence": "[[The|La]] [[software|actualización]] [[update|de]] [[fixed|software]] [[several|corrigió]] [[bugs|varios]] [[and|errores]] [[improved|y]] [[overall|mejoró]] [[performance.|el rendimiento general.]]",
+      "words": [
+        "[[fixed|corrigió]]",
+        "[[overall|mejoró]]",
+        "[[software|actualización]]",
+        "[[performance.|el rendimiento general.]]",
+        "[[update|de]]",
+        "[[and|y]]",
+        "[[The|La]]",
+        "[[bugs|varios]]",
+        "[[and|errores]]",
+        "[[several|corrigió]]"
+      ],
+      "explanation": "'Bugs' son errores de programación y 'performance' es el rendimiento.",
+      "audio": "audio/b2/unit-27/e11.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-27/e11.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u27-e13",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "Artificial Intelligence is transforming industries.",
-    content: {
-      title: "Innovation",
-      instructions: "Choose the correct word.",
-      question: "[[Artificial ___ (Intelligence) (AI) is transforming many industries.|La inteligencia artificial está transformando las industrias.]]",
-      options: ["[[Information|Información]]", "[[Intelligence|Inteligencia]]", "[[Integration|Integración]]"],
-      correctAnswer: "Intelligence",
-      explanation: "AI refers to computer systems performing tasks that normally require human intelligence.",
-      translation: "La inteligencia artificial está transformando las industrias.",
-      hint: "Machine smarts."
+    "id": "b2-u27-e12",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "They insisted that he provide a detailed explanation of the results.",
+    "content": {
+      "title": "Explicación detallada",
+      "instructions": "Ordena las palabras con el subjuntivo 'provide'.",
+      "correctSentence": "[[They|Insistieron]] [[insisted|en]] [[that|que]] [[he|él]] [[provide|proporcionara]] [[a|una]] [[detailed|explicación]] [[explanation|detallada]] [[of|de]] [[the|los]] [[results.|resultados.]]",
+      "words": [
+        "[[that|que]]",
+        "[[explanation|detallada]]",
+        "[[insisted|en]]",
+        "[[provide|proporcionara]]",
+        "[[the|los]]",
+        "[[of|de]]",
+        "[[results.|resultados.]]",
+        "[[a|una]]",
+        "[[he|él]]",
+        "[[They|Insistieron]]",
+        "[[detailed|explicación]]"
+      ],
+      "explanation": "'Insisted that' va seguido de la forma base 'provide'.",
+      "audio": "audio/b2/unit-27/e12.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-27/e12.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u27-e14",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "The prototype is ready for testing.",
-    content: {
-      title: "Innovation",
-      instructions: "Choose the correct word.",
-      question: "[[The ___ (prototype) is the first model of something, from which other forms are developed.|El prototipo está listo para las pruebas.]]",
-      options: ["[[prototype|prototipo]]", "[[production|producción]]", "[[proposal|propuesta]]"],
-      correctAnswer: "prototype",
-      explanation: "Prototypes are used to test concepts.",
-      translation: "El prototipo está listo para las pruebas.",
-      hint: "First model."
+    "id": "b2-u27-e13",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Ethical considerations are crucial when developing new biotechnologies.",
+    "content": {
+      "title": "Ética en biotecnología",
+      "instructions": "Ordena las palabras sobre dilemas científicos.",
+      "correctSentence": "[[Ethical|Las consideraciones]] [[considerations|éticas]] [[are|son]] [[crucial|cruciales]] [[when|al]] [[developing|desarrollar]] [[new|nuevas]] [[biotechnologies.|biotecnologías.]]",
+      "words": [
+        "[[new|nuevas]]",
+        "[[developing|desarrollar]]",
+        "[[Ethical|Las consideraciones]]",
+        "[[are|son]]",
+        "[[biotechnologies.|biotecnologías.]]",
+        "[[crucial|cruciales]]",
+        "[[when|al]]",
+        "[[considerations|éticas]]"
+      ],
+      "explanation": "'Ethical considerations' se refiere a lo que es moralmente correcto en la ciencia.",
+      "audio": "audio/b2/unit-27/e13.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-27/e13.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u27-e15",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "State-of-the-art equipment is necessary.",
-    content: {
-      title: "Innovation",
-      instructions: "Choose the correct word.",
-      question: "[[___ (State-of-the-art) equipment refers to the most recent and advanced stage of development.|Es necesario contar con equipos de última generación.]]",
-      options: ["[[Old-fashioned|Anticuado]]", "[[State-of-the-art|De última generación]]", "[[Second-hand|De segunda mano]]"],
-      correctAnswer: "State-of-the-art",
-      explanation: "Synonym for cutting-edge.",
-      translation: "Es necesario contar con equipos de última generación.",
-      hint: "Most advanced."
+    "id": "b2-u27-e14",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "It is important that a researcher document every step of the process.",
+    "content": {
+      "title": "Documentación rigurosa",
+      "instructions": "Ordena las palabras usando el subjuntivo formal con 'document'.",
+      "correctSentence": "[[It|Es]] [[is|importante]] [[important|que]] [[that|un]] [[a|investigador]] [[researcher|documente]] [[document|cada]] [[every|paso]] [[step|del]] [[of|proceso.]] [[the|]] [[process.|]]",
+      "words": [
+        "[[document|cada]]",
+        "[[is|importante]]",
+        "[[process.|]]",
+        "[[It|Es]]",
+        "[[researcher|documente]]",
+        "[[every|paso]]",
+        "[[a|investigador]]",
+        "[[step|del]]",
+        "[[important|que]]",
+        "[[the|]]",
+        "[[of|proceso.]]",
+        "[[that|un]]"
+      ],
+      "explanation": "'Document' es la forma base del subjuntivo para 'researcher' (3ª pers. sing.).",
+      "audio": "audio/b2/unit-27/e14.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-27/e14.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u27-e16",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "Automation reduces manual labor.",
-    content: {
-      title: "Innovation",
-      instructions: "Choose the correct word.",
-      question: "[[___ (Automation) is the use of automatic equipment in manufacturing or other processes.|La automatización reduce el trabajo manual.]]",
-      options: ["[[Automation|Automatización]]", "[[Alteration|Alteración]]", "[[Aviation|Aviación]]"],
-      correctAnswer: "Automation",
-      explanation: "Replacing human work with machines.",
-      translation: "La automatización reduce el trabajo manual.",
-      hint: "Using machines for tasks."
+    "id": "b2-u27-e15",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Cutting-edge technology allows us to explore deep-sea environments.",
+    "content": {
+      "title": "Tecnología de punta",
+      "instructions": "Ordena las palabras sobre exploración marina.",
+      "correctSentence": "[[Cutting-edge|La tecnología]] [[technology|punta]] [[allows|nos]] [[us|permite]] [[to|explorar]] [[explore|entornos]] [[deep-sea|de]] [[environments.|aguas profundas.]]",
+      "words": [
+        "[[deep-sea|de]]",
+        "[[technology|punta]]",
+        "[[us|permite]]",
+        "[[explore|entornos]]",
+        "[[Cutting-edge|La tecnología]]",
+        "[[to|explorar]]",
+        "[[allows|nos]]",
+        "[[environments.|aguas profundas.]]"
+      ],
+      "explanation": "'Cutting-edge' es un sinónimo de 'state-of-the-art'.",
+      "audio": "audio/b2/unit-27/e15.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-27/e15.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u27-e17",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "A patent protects your invention.",
-    content: {
-      title: "Innovation",
-      instructions: "Choose the correct word.",
-      question: "[[A ___ (patent) gives you the legal right to exclude others from making or selling your invention.|Una patente protege tu invento.]]",
-      options: ["[[payment|pago]]", "[[pattern|patrón]]", "[[patent|patente]]"],
-      correctAnswer: "patent",
-      explanation: "Legal protection for inventors.",
-      translation: "Una patente protege tu invento.",
-      hint: "Legal invention right."
+    "id": "b2-u27-e16",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "I demand that he be held accountable for the data breach.",
+    "content": {
+      "title": "Responsabilidad",
+      "instructions": "Ordena las palabras usando el subjuntivo pasivo 'be held'.",
+      "correctSentence": "[[I|Exijo]] [[demand|que]] [[that|él]] [[he|sea]] [[be|considerado]] [[held|responsable]] [[accountable|de]] [[for|la]] [[the|filtración]] [[data|de]] [[breach.|datos.]]",
+      "words": [
+        "[[data|de]]",
+        "[[held|responsable]]",
+        "[[demand|que]]",
+        "[[breach.|datos.]]",
+        "[[be|sea]]",
+        "[[accountable|de]]",
+        "[[for|la]]",
+        "[[I|Exijo]]",
+        "[[the|filtración]]",
+        "[[that|que]]",
+        "[[he|él]]"
+      ],
+      "explanation": "'Demand that' requiere el subjuntivo 'be held'.",
+      "audio": "audio/b2/unit-27/e16.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-27/e16.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u27-e18",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "Nanotechnology works at a molecular level.",
-    content: {
-      title: "Innovation",
-      instructions: "Choose the correct word.",
-      question: "[[___ (Nanotechnology) deals with dimensions of less than 100 nanometers.|La nanotecnología trabaja a nivel molecular.]]",
-      options: ["[[Nanotechnology|Nanotecnología]]", "[[Numerology|Numerología]]", "[[Nebulosity|Nebulosidad]]"],
-      correctAnswer: "Nanotechnology",
-      explanation: "Science at a very small scale.",
-      translation: "La nanotecnología trabaja a nivel molecular.",
-      hint: "Microscopic science."
+    "id": "b2-u27-e17",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "The invention of the internet revolutionized how we access information.",
+    "content": {
+      "title": "La revolución de internet",
+      "instructions": "Ordena las palabras sobre hitos tecnológicos.",
+      "correctSentence": "[[The|La]] [[invention|invención]] [[of|de]] [[the|internet]] [[internet|revolucionó]] [[revolutionized|cómo]] [[how|accedemos]] [[we|a]] [[access|la]] [[information.|información.]]",
+      "words": [
+        "[[internet|revolucionó]]",
+        "[[The|La]]",
+        "[[how|cómo]]",
+        "[[invention|invención]]",
+        "[[information.|información.]]",
+        "[[of|de]]",
+        "[[the|internet]]",
+        "[[access|la]]",
+        "[[we|a]]",
+        "[[revolutionized|cómo]]"
+      ],
+      "explanation": "'Revolutionized' significa cambiar algo de forma drástica y positiva.",
+      "audio": "audio/b2/unit-27/e17.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-27/e17.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u27-e19",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "Biotechnology is used in medicine.",
-    content: {
-      title: "Innovation",
-      instructions: "Choose the correct word.",
-      question: "[[___ (Biotechnology) uses biological systems or living organisms to develop products.|La biotecnología se utiliza en medicina.]]",
-      options: ["[[Biography|Biografía]]", "[[Biotechnology|Biotecnología]]", "[[Biology|Biología]]"],
-      correctAnswer: "Biotechnology",
-      explanation: "Combining biology and technology.",
-      translation: "La biotecnología se utiliza en medicina.",
-      hint: "Biology + Tech."
+    "id": "b2-u27-e18",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "It is desirable that the test results be verified by a third party.",
+    "content": {
+      "title": "Verificación externa",
+      "instructions": "Ordena las palabras con 'desirable that'.",
+      "correctSentence": "[[It|Es]] [[is|deseable]] [[desirable|que]] [[that|los]] [[the|resultados]] [[test|de]] [[results|la]] [[be|prueba]] [[verified|sean]] [[by|verificados]] [[a|por]] [[third|un]] [[party.|tercero.]]",
+      "words": [
+        "[[results|la]]",
+        "[[desirable|que]]",
+        "[[third|un]]",
+        "[[party.|tercero.]]",
+        "[[be|prueba]]",
+        "[[It|Es]]",
+        "[[verified|sean]]",
+        "[[the|resultados]]",
+        "[[is|deseable]]",
+        "[[test|de]]",
+        "[[by|verificados]]",
+        "[[a|por]]",
+        "[[that|los]]"
+      ],
+      "explanation": "El subjuntivo pasivo 'be verified' se usa para formalidad.",
+      "audio": "audio/b2/unit-27/e18.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-27/e18.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u27-e20",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "Sustainable technology is the future.",
-    content: {
-      title: "Innovation",
-      instructions: "Choose the correct word.",
-      question: "[[___ (Sustainable) technology aims to meet current needs without compromising future generations.|La tecnología sostenible es el futuro.]]",
-      options: ["[[Substantial|Sustancial]]", "[[Sustainable|Sostenible]]", "[[Suspicious|Sospechoso]]"],
-      correctAnswer: "Sustainable",
-      explanation: "Environmentally friendly technology.",
-      translation: "La tecnología sostenible es el futuro.",
-      hint: "Eco-friendly."
+    "id": "b2-u27-e19",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Technological advancements have led to significant improvements in healthcare.",
+    "content": {
+      "title": "Avances médicos",
+      "instructions": "Ordena las palabras sobre tecnología y salud.",
+      "correctSentence": "[[Technological|Los avances]] [[advancements|tecnológicos]] [[have|han]] [[led|llevado]] [[to|a]] [[significant|mejoras]] [[improvements|significativas]] [[in|en]] [[healthcare.|la atención médica.]]",
+      "words": [
+        "[[led|llevado]]",
+        "[[advancements|tecnológicos]]",
+        "[[healthcare.|la atención médica.]]",
+        "[[have|han]]",
+        "[[Technological|Los avances]]",
+        "[[improvements|significativas]]",
+        "[[significant|mejoras]]",
+        "[[to|a]]",
+        "[[in|en]]"
+      ],
+      "explanation": "'Healthcare' es el conjunto de servicios para la salud.",
+      "audio": "audio/b2/unit-27/e19.mp3"
     },
-    topicName: "Vocabulary"
-  },
-
-  // 21-30: Vocabulary - Digital World
-  {
-    id: "b2-u27-e21",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "Cybersecurity is essential for businesses.",
-    content: {
-      title: "Digital World",
-      instructions: "Choose the correct word.",
-      question: "[[___ (Cybersecurity) is the practice of protecting systems and networks from digital attacks.|La ciberseguridad es esencial para las empresas.]]",
-      options: ["[[Cybernetics|Cibernética]]", "[[Cybersecurity|Ciberseguridad]]", "[[Cyberspace|Ciberespacio]]"],
-      correctAnswer: "Cybersecurity",
-      explanation: "Protecting data online.",
-      translation: "La ciberseguridad es esencial para las empresas.",
-      hint: "Online protection."
-    },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-27/e19.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u27-e22",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "Data encryption keeps your messages private.",
-    content: {
-      title: "Digital World",
-      instructions: "Choose the correct word.",
-      question: "[[Data ___ (encryption) is the process of converting information into a code to prevent unauthorized access.|El cifrado de datos mantiene tus mensajes privados.]]",
-      options: ["[[Encryption|Cifrado / Encriptación]]", "[[Description|Descripción]]", "[[Inspiration|Inspiración]]"],
-      correctAnswer: "encryption",
-      explanation: "Securing data with codes.",
-      translation: "El cifrado de datos mantiene tus mensajes privados.",
-      hint: "Coding information."
+    "id": "b2-u27-e20",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "The director requested that all files be encrypted for security.",
+    "content": {
+      "title": "Cifrado de archivos",
+      "instructions": "Ordena las palabras con el subjuntivo 'be encrypted'.",
+      "correctSentence": "[[The|El]] [[director|director]] [[requested|solicitó]] [[that|que]] [[all|todos]] [[files|los]] [[be|archivos]] [[encrypted|sean]] [[for|cifrados]] [[for|por]] [[security.|seguridad.]]",
+      "words": [
+        "[[requested|solicitó]]",
+        "[[encrypted|sean]]",
+        "[[director|director]]",
+        "[[security.|seguridad.]]",
+        "[[for|cifrados]]",
+        "[[all|todos]]",
+        "[[files|los]]",
+        "[[The|El]]",
+        "[[be|archivos]]",
+        "[[that|que]]",
+        "[[for|por]]"
+      ],
+      "explanation": "'Encrypted' significa convertir información en un código secreto.",
+      "audio": "audio/b2/unit-27/e20.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-27/e20.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u27-e23",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "The algorithm decides what you see.",
-    content: {
-      title: "Digital World",
-      instructions: "Choose the correct word.",
-      question: "[[An ___ (algorithm) is a set of rules to be followed in calculations or problem-solving.|El algoritmo decide lo que ves.]]",
-      options: ["[[algebra|álgebra]]", "[[algorithm|algoritmo]]", "[[altruism|altruismo]]"],
-      correctAnswer: "algorithm",
-      explanation: "Rules for computer processing.",
-      translation: "El algoritmo decide lo que ves.",
-      hint: "Computer rules."
+    "id": "b2-u27-e21",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Digital literacy is an essential skill in the twenty-first century.",
+    "content": {
+      "title": "Alfabetización digital",
+      "instructions": "Ordena las palabras sobre habilidades modernas.",
+      "correctSentence": "[[Digital|La alfabetización]] [[literacy|digital]] [[is|es]] [[an|una]] [[essential|habilidad]] [[skill|esencial]] [[in|en]] [[the|el]] [[twenty-first|siglo]] [[century.|veintiuno.]]",
+      "words": [
+        "[[literacy|digital]]",
+        "[[century.|veintiuno.]]",
+        "[[essential|habilidad]]",
+        "[[Digital|La alfabetización]]",
+        "[[twenty-first|siglo]]",
+        "[[skill|esencial]]",
+        "[[is|es]]",
+        "[[the|el]]",
+        "[[an|una]]",
+        "[[in|en]]"
+      ],
+      "explanation": "'Digital literacy' es la capacidad de usar tecnologías de la información.",
+      "audio": "audio/b2/unit-27/e21.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-27/e21.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u27-e24",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "Cloud computing allows remote data storage.",
-    content: {
-      title: "Digital World",
-      instructions: "Choose the correct word.",
-      question: "[[___ (Cloud) computing is the practice of using remote servers to store and process data.|La computación en la nube permite el almacenamiento remoto de datos.]]",
-      options: ["[[Cloud|Nube]]", "[[Rain|Lluvia]]", "[[Mist|Niebla]]"],
-      correctAnswer: "Cloud",
-      explanation: "Storing and accessing data over the internet.",
-      translation: "La computación en la nube permite el almacenamiento remoto de datos.",
-      hint: "Internet servers."
+    "id": "b2-u27-e22",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "It is crucial that the hypothesis be tested thoroughly before publishing.",
+    "content": {
+      "title": "Prueba de hipótesis",
+      "instructions": "Ordena las palabras usando el subjuntivo pasivo con 'crucial that'.",
+      "correctSentence": "[[It|Es]] [[is|crucial]] [[crucial|que]] [[that|la]] [[the|hipótesis]] [[hypothesis|sea]] [[be|probada]] [[tested|a]] [[thoroughly|fondo]] [[before|antes]] [[publishing.|de publicarla.]]",
+      "words": [
+        "[[hypothesis|sea]]",
+        "[[tested|probada]]",
+        "[[It|Es]]",
+        "[[publishing.|de publicarla.]]",
+        "[[the|hipótesis]]",
+        "[[before|antes]]",
+        "[[thoroughly|fondo]]",
+        "[[be|probada]]",
+        "[[crucial|que]]",
+        "[[is|crucial]]",
+        "[[that|la]]"
+      ],
+      "explanation": "'Thoroughly' significa de manera completa y cuidadosa.",
+      "audio": "audio/b2/unit-27/e22.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-27/e22.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u27-e25",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "A user-friendly interface is important.",
-    content: {
-      title: "Digital World",
-      instructions: "Choose the correct word.",
-      question: "[[A ___ (user-friendly) interface is easy to use and understand.|Una interfaz fácil de usar es importante.]]",
-      options: ["[[user-friendly|fácil de usar]]", "[[user-defined|definido por el usuario]]", "[[user-led|dirigido por el usuario]]"],
-      correctAnswer: "user-friendly",
-      explanation: "Easy for people to use.",
-      translation: "Una interfaz fácil de usar es importante.",
-      hint: "Easy to use."
+    "id": "b2-u27-e23",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Automation of repetitive tasks has increased productivity in factories.",
+    "content": {
+      "title": "Automatización",
+      "instructions": "Ordena las palabras sobre procesos industriales.",
+      "correctSentence": "[[Automation|La automatización]] [[of|de]] [[repetitive|tareas]] [[tasks|repetitivas]] [[has|ha]] [[increased|aumentado]] [[productivity|la productividad]] [[in|en]] [[factories.|las fábricas.]]",
+      "words": [
+        "[[repetitive|tareas]]",
+        "[[increased|aumentado]]",
+        "[[factories.|las fábricas.]]",
+        "[[has|ha]]",
+        "[[Automation|La automatización]]",
+        "[[productivity|la productividad]]",
+        "[[of|de]]",
+        "[[in|en]]",
+        "[[tasks|repetitivas]]"
+      ],
+      "explanation": "'Automation' es el uso de sistemas o máquinas para realizar tareas.",
+      "audio": "audio/b2/unit-27/e23.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-27/e23.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u27-e26",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "Broadband connection is fast.",
-    content: {
-      title: "Digital World",
-      instructions: "Choose the correct word.",
-      question: "[[___ (Broadband) refers to high-capacity transmission technique using a wide range of frequencies.|La conexión de banda ancha es rápida.]]",
-      options: ["[[Broadcast|Transmisión]]", "[[Broadband|Banda ancha]]", "[[Broadside|Costado]]"],
-      correctAnswer: "Broadband",
-      explanation: "Fast internet connection.",
-      translation: "La conexión de banda ancha es rápida.",
-      hint: "Fast internet."
+    "id": "b2-u27-e24",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "She suggested that he upgrade his computer for better performance.",
+    "content": {
+      "title": "Sugerencia técnica",
+      "instructions": "Ordena las palabras con el subjuntivo 'upgrade'.",
+      "correctSentence": "[[She|Ella]] [[suggested|sugirió]] [[that|que]] [[he|él]] [[upgrade|actualizara]] [[his|su]] [[computer|ordenador]] [[for|para]] [[better|un mejor]] [[performance.|rendimiento.]]",
+      "words": [
+        "[[upgrade|actualizara]]",
+        "[[performance.|rendimiento.]]",
+        "[[that|que]]",
+        "[[better|un mejor]]",
+        "[[computer|ordenador]]",
+        "[[for|para]]",
+        "[[he|él]]",
+        "[[suggested|sugirió]]",
+        "[[his|su]]",
+        "[[She|Ella]]"
+      ],
+      "explanation": "'Upgrade' significa mejorar algo a una versión más reciente o potente.",
+      "audio": "audio/b2/unit-27/e24.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-27/e24.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u27-e27",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "A firewall blocks unauthorized access.",
-    content: {
-      title: "Digital World",
-      instructions: "Choose the correct word.",
-      question: "[[A ___ (firewall) is a security system that monitors and controls network traffic.|Un cortafuegos bloquea el acceso no autorizado.]]",
-      options: ["[[firewall|cortafuegos]]", "[[fireplace|chimenea]]", "[[firework|fuego artificial]]"],
-      correctAnswer: "firewall",
-      explanation: "Digital security barrier.",
-      translation: "Un cortafuegos bloquea el acceso no autorizado.",
-      hint: "Security barrier."
+    "id": "b2-u27-e25",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "It is necessary that all users change their passwords regularly.",
+    "content": {
+      "title": "Cambio de contraseñas",
+      "instructions": "Ordena las palabras con el subjuntivo 'change'.",
+      "correctSentence": "[[It|Es]] [[is|necesario]] [[necessary|que]] [[that|todos]] [[all|los]] [[users|usuarios]] [[change|cambien]] [[their|sus]] [[passwords|contraseñas]] [[regularly.|regularmente.]]",
+      "words": [
+        "[[change|cambien]]",
+        "[[regularly.|regularmente.]]",
+        "[[necessary|que]]",
+        "[[users|usuarios]]",
+        "[[all|los]]",
+        "[[passwords|contraseñas]]",
+        "[[is|necesario]]",
+        "[[that|todos]]",
+        "[[their|sus]]",
+        "[[It|Es]]"
+      ],
+      "explanation": "El subjuntivo formal 'change' no lleva 's' ni cambia con el sujeto.",
+      "audio": "audio/b2/unit-27/e25.mp3"
     },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u27-e28",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "Virtual Reality is immersive.",
-    content: {
-      title: "Digital World",
-      instructions: "Choose the correct word.",
-      question: "[[___ (Virtual) Reality (VR) provides an immersive computer-generated experience.|La realidad virtual es inmersiva.]]",
-      options: ["[[Virtual|Virtual]]", "[[Visual|Visual]]", "[[Vital|Vital]]"],
-      correctAnswer: "Virtual",
-      explanation: "Computer-simulated environment.",
-      translation: "La realidad virtual es inmersiva.",
-      hint: "Simulated reality."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u27-e29",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "Open-source software is free to use.",
-    content: {
-      title: "Digital World",
-      instructions: "Choose the correct word.",
-      question: "[[___ (Open-source) software has source code that anyone can inspect, modify, and enhance.|El software de código abierto es de uso gratuito.]]",
-      options: ["[[Open-source|Código abierto]]", "[[Open-door|Puertas abiertas]]", "[[Open-minded|Mente abierta]]"],
-      correctAnswer: "Open-source",
-      explanation: "Free and collaborative software.",
-      translation: "El software de código abierto es de uso gratuito.",
-      hint: "Public code."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u27-e30",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "Software updates fix bugs.",
-    content: {
-      title: "Digital World",
-      instructions: "Choose the correct word.",
-      question: "[[Software updates often fix ___ (bugs) or errors in the code.|Las actualizaciones de software corrigen errores.]]",
-      options: ["[[bugs|errores (en software)]]", "[[bees|abejas]]", "[[bags|bolsas]]"],
-      correctAnswer: "bugs",
-      explanation: "Errors in a program.",
-      translation: "Las actualizaciones de software corrigen errores.",
-      hint: "Coding errors."
-    },
-    topicName: "Vocabulary"
-  },
-
-  // 31-40: Vocabulary - Scientific Method
-  {
-    id: "b2-u27-e31",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "The hypothesis was tested in the lab.",
-    content: {
-      title: "Scientific Method",
-      instructions: "Choose the correct term.",
-      question: "[[A ___ is a proposed explanation based on limited evidence.|La hipótesis fue probada en el laboratorio.]]",
-      options: ["hypothesis", "fact", "result"],
-      correctAnswer: "hypothesis",
-      explanation: "Starting point for an investigation.",
-      translation: "La hipótesis fue probada en el laboratorio.",
-      hint: "Initial theory."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u27-e32",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "We need empirical evidence.",
-    content: {
-      title: "Scientific Method",
-      instructions: "Choose the correct term.",
-      question: "[[___ evidence is information acquired by observation or experimentation.|Necesitamos evidencia empírica.]]",
-      options: ["Empirical", "False", "Anecdotal"],
-      correctAnswer: "Empirical",
-      explanation: "Based on observation or experience.",
-      translation: "Necesitamos evidencia empírica.",
-      hint: "Observed/Tested."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u27-e33",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "The experiment was conducted under controlled conditions.",
-    content: {
-      title: "Scientific Method",
-      instructions: "Choose the correct term.",
-      question: "[[A variable that is kept constant in an experiment is a ___ variable.|El experimento se llevó a cabo bajo condiciones controladas.]]",
-      options: ["random", "dependent", "control"],
-      correctAnswer: "control",
-      explanation: "Standard for comparison.",
-      translation: "El experimento se llevó a cabo bajo condiciones controladas.",
-      hint: "Constant factor."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u27-e34",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "The findings were published in a journal.",
-    content: {
-      title: "Scientific Method",
-      instructions: "Choose the correct term.",
-      question: "[[Scientific ___ are the results or conclusions of an investigation.|Los hallazgos fueron publicados en una revista.]]",
-      options: ["findings", "questions", "starts"],
-      correctAnswer: "findings",
-      explanation: "Results of research.",
-      translation: "Los hallazgos fueron publicados en una revista.",
-      hint: "Results."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u27-e35",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "Analysis of the data took months.",
-    content: {
-      title: "Scientific Method",
-      instructions: "Choose the correct term.",
-      question: "[[The process of examining data in detail is called ___.|El análisis de los datos llevó meses.]]",
-      options: ["summary", "listing", "analysis"],
-      correctAnswer: "analysis",
-      explanation: "Detailed examination.",
-      translation: "El análisis de los datos llevó meses.",
-      hint: "Detailed study."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u27-e36",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "The study was peer-reviewed.",
-    content: {
-      title: "Scientific Method",
-      instructions: "Choose the correct term.",
-      question: "[[___ means evaluated by others in the same field.|El estudio fue revisado por pares.]]",
-      options: ["Self-published", "Public", "Peer-reviewed"],
-      correctAnswer: "Peer-reviewed",
-      explanation: "Ensuring quality through expert evaluation.",
-      translation: "El estudio fue revisado por pares.",
-      hint: "Expert evaluation."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u27-e37",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "The results must be replicable.",
-    content: {
-      title: "Scientific Method",
-      instructions: "Choose the correct term.",
-      question: "[[If a study can be repeated with the same results, it is ___.|Los resultados deben ser replicables.]]",
-      options: ["random", "unique", "replicable"],
-      correctAnswer: "replicable",
-      explanation: "Ability to be copied or repeated.",
-      translation: "Los resultados deben ser replicables.",
-      hint: "Repeatable."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u27-e38",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "Data collection is the first step.",
-    content: {
-      title: "Scientific Method",
-      instructions: "Choose the correct term.",
-      question: "[[The gathering of information is called data ___.|La recopilación de datos es el primer paso.]]",
-      options: ["collection", "cleaning", "ending"],
-      correctAnswer: "collection",
-      explanation: "Gathering information.",
-      translation: "La recopilación de datos es el primer paso.",
-      hint: "Gathering."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u27-e39",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "A theory explains why something happens.",
-    content: {
-      title: "Scientific Method",
-      instructions: "Choose the correct term.",
-      question: "[[A scientific ___ is a well-substantiated explanation of some aspect of the natural world.|Una teoría explica por qué sucede algo.]]",
-      options: ["story", "theory", "guess"],
-      correctAnswer: "theory",
-      explanation: "Proven explanation.",
-      translation: "Una teoría explica por qué sucede algo.",
-      hint: "Proven explanation."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u27-e40",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "Ethical guidelines must be followed.",
-    content: {
-      title: "Scientific Method",
-      instructions: "Choose the correct term.",
-      question: "[[___ guidelines ensure that research is done morally.|Deben seguirse las pautas éticas.]]",
-      options: ["Quick", "Money", "Ethical"],
-      correctAnswer: "Ethical",
-      explanation: "Relating to moral principles.",
-      translation: "Deben seguirse las pautas éticas.",
-      hint: "Moral rules."
-    },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-27/e25.mp3",
+    "topicName": "Grammar"
   },
 
-  // 41-50: Word Formation
+  // 26-50: Multiple Choice (Grammar & Vocabulary)
   {
-    id: "b2-u27-e41",
-    type: "word-formation",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "Technical skills are important.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[___ (TECHNOLOGY) skills are highly valued in the job market.|Las habilidades técnicas son importantes.]]",
-      correctAnswer: "Technical",
-      explanation: "Adjective form relating to technology.",
-      translation: "Las habilidades técnicas son importantes.",
-      hint: "Adjective from technology."
+    "id": "b2-u27-e26",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "It is essential that he be informed of the discovery immediately.",
+    "content": {
+      "title": "Descubrimiento",
+      "instructions": "Elige la forma correcta del subjuntivo.",
+      "question": "[[It is essential that he ___ of the discovery immediately.|Es esencial que sea informado del descubrimiento inmediatamente.]]",
+      "options": [
+        "[[is informed|es informado]]",
+        "[[be informed|sea informado]]",
+        "[[was informed|fue informado]]"
+      ],
+      "correctAnswer": "be informed",
+      "explanation": "Tras 'essential that', usamos la forma base 'be' para el subjuntivo pasivo.",
+      "audio": "audio/b2/unit-27/e26.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-27/e26.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u27-e42",
-    type: "word-formation",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "The inventor was brilliant.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The ___ (INVENT) was awarded for his creativity.|El inventor fue brillante.]]",
-      correctAnswer: "inventor",
-      explanation: "Noun for a person who invents.",
-      translation: "El inventor fue brillante.",
-      hint: "Person from invent."
+    "id": "b2-u27-e27",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "A major breakthrough in renewable energy was announced yesterday.",
+    "content": {
+      "title": "Avance importante",
+      "instructions": "Elige el término para un gran descubrimiento.",
+      "question": "[[A major ___ in renewable energy was announced yesterday.|Se anunció un importante avance en energía renovable ayer.]]",
+      "options": [
+        "[[breakthrough|avance / descubrimiento]]",
+        "[[breakdown|avería]]",
+        "[[outbreak|brote]]"
+      ],
+      "correctAnswer": "breakthrough",
+      "explanation": "'Breakthrough' es un avance decisivo en el conocimiento.",
+      "audio": "audio/b2/unit-27/e27.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-27/e27.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u27-e43",
-    type: "word-formation",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "Scientific research takes time.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[___ (SCIENCE) research takes a lot of time and resources.|La investigación científica lleva tiempo.]]",
-      correctAnswer: "Scientific",
-      explanation: "Adjective form of 'science'.",
-      translation: "La investigación científica lleva tiempo.",
-      hint: "Adjective from science."
+    "id": "b2-u27-e28",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "The committee suggests that the researcher resubmit the proposal.",
+    "content": {
+      "title": "Nueva propuesta",
+      "instructions": "Elige la forma verbal correcta del subjuntivo.",
+      "question": "[[The committee suggests that the researcher ___ the proposal.|El comité sugiere que el investigador vuelva a presentar la propuesta.]]",
+      "options": [
+        "[[resubmits|vuelve a presentar (indicativo)]]",
+        "[[resubmit|vuelva a presentar (subjuntivo)]]",
+        "[[resubmitted|volvió a presentar]]"
+      ],
+      "correctAnswer": "resubmit",
+      "explanation": "Tras 'suggests that', usamos la forma base del verbo sin 's'.",
+      "audio": "audio/b2/unit-27/e28.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-27/e28.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u27-e44",
-    type: "word-formation",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "Automation is increasing.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[___ (AUTOMATIC) is increasing in the manufacturing sector.|La automatización está aumentando.]]",
-      correctAnswer: "Automation",
-      explanation: "Noun form of 'automatic'.",
-      translation: "La automatización está aumentando.",
-      hint: "Noun from automatic."
+    "id": "b2-u27-e29",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Cybersecurity is the practice of protecting systems from digital attacks.",
+    "content": {
+      "title": "Ciberseguridad",
+      "instructions": "Elige el término correcto.",
+      "question": "[[___ is the practice of protecting systems from digital attacks.|La ciberseguridad es la práctica de proteger sistemas de ataques digitales.]]",
+      "options": [
+        "[[Cybersecurity|Ciberseguridad]]",
+        "[[Cyberspace|Ciberespacio]]",
+        "[[Cyberbullying|Ciberacoso]]"
+      ],
+      "correctAnswer": "Cybersecurity",
+      "explanation": "'Cybersecurity' se enfoca en la protección de redes y datos.",
+      "audio": "audio/b2/unit-27/e29.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-27/e29.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u27-e45",
-    type: "word-formation",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "The discovery was historical.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The ___ (DISCOVER) of penicillin changed medicine forever.|El descubrimiento fue histórico.]]",
-      correctAnswer: "discovery",
-      explanation: "Noun form of 'discover'.",
-      translation: "El descubrimiento fue histórico.",
-      hint: "Noun from discover."
+    "id": "b2-u27-e30",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "It is vital that all experiments be conducted under strict supervision.",
+    "content": {
+      "title": "Supervisión estricta",
+      "instructions": "Elige la forma correcta del subjuntivo pasivo.",
+      "question": "[[It is vital that all experiments ___ under strict supervision.|Es vital que todos los experimentos se realicen bajo supervisión estricta.]]",
+      "options": [
+        "[[are conducted|son realizados]]",
+        "[[be conducted|sean realizados]]",
+        "[[were conducted|fueron realizados]]"
+      ],
+      "correctAnswer": "be conducted",
+      "explanation": "Usamos 'be' + participio tras 'vital that'.",
+      "audio": "audio/b2/unit-27/e30.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-27/e30.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u27-e46",
-    type: "word-formation",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "Digital communication is fast.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[___ (DIGIT) communication has replaced many traditional methods.|La comunicación digital es rápida.]]",
-      correctAnswer: "Digital",
-      explanation: "Adjective form of 'digit'.",
-      translation: "La comunicación digital es rápida.",
-      hint: "Adjective from digit."
+    "id": "b2-u27-e31",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Artificial Intelligence is used to analyze large amounts of data.",
+    "content": {
+      "title": "Inteligencia Artificial",
+      "instructions": "Elige el término correcto.",
+      "question": "[[___ is used to analyze large amounts of data.|La inteligencia artificial se usa para analizar grandes cantidades de datos.]]",
+      "options": [
+        "[[Virtual Reality|Realidad Virtual]]",
+        "[[Artificial Intelligence|Inteligencia Artificial]]",
+        "[[Machine Learning|Aprendizaje Automático]]"
+      ],
+      "correctAnswer": "Artificial Intelligence",
+      "explanation": "IA es el campo general de máquinas que imitan la inteligencia humana.",
+      "audio": "audio/b2/unit-27/e31.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-27/e31.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u27-e47",
-    type: "word-formation",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "The exploration of space is exciting.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The ___ (EXPLORE) of space is exciting.|La exploración del espacio es emocionante.]]",
-      correctAnswer: "exploration",
-      explanation: "Noun form of 'explore'.",
-      translation: "La exploración del espacio es emocionante.",
-      hint: "Noun from explore."
+    "id": "b2-u27-e32",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "The professor requested that the student provide a source for the data.",
+    "content": {
+      "title": "Fuentes de datos",
+      "instructions": "Elige la forma verbal correcta.",
+      "question": "[[The professor requested that the student ___ a source for the data.|El profesor solicitó que el estudiante proporcionara una fuente para los datos.]]",
+      "options": [
+        "[[provides|proporciona (indicativo)]]",
+        "[[provide|proporcione (subjuntivo)]]",
+        "[[provided|proporcionó]]"
+      ],
+      "correctAnswer": "provide",
+      "explanation": "Tras 'requested that', el verbo va en forma base.",
+      "audio": "audio/b2/unit-27/e32.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-27/e32.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u27-e48",
-    type: "word-formation",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "This is a revolutionary idea.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[This is a ___ (REVOLUTION) idea that could change everything.|Esta es una idea revolucionaria.]]",
-      correctAnswer: "revolutionary",
-      explanation: "Adjective form of 'revolution'.",
-      translation: "Esta es una idea revolucionaria.",
-      hint: "Adjective from revolution."
+    "id": "b2-u27-e33",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Cutting-edge technology is expensive but worth the investment.",
+    "content": {
+      "title": "Tecnología de vanguardia",
+      "instructions": "Elige el sinónimo de lo más moderno.",
+      "question": "[[___ technology is expensive but worth the investment.|La tecnología de vanguardia es cara pero vale la inversión.]]",
+      "options": [
+        "[[Old-fashioned|Pasada de moda]]",
+        "[[Cutting-edge|De vanguardia]]",
+        "[[Outdated|Anticuada]]"
+      ],
+      "correctAnswer": "Cutting-edge",
+      "explanation": "'Cutting-edge' se usa para lo más nuevo y avanzado.",
+      "audio": "audio/b2/unit-27/e33.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-27/e33.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u27-e49",
-    type: "word-formation",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "Practical application is key.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The practical ___ (APPLY) of this theory is difficult.|La aplicación práctica es clave.]]",
-      correctAnswer: "application",
-      explanation: "Noun form of 'apply'.",
-      translation: "La aplicación práctica es clave.",
-      hint: "Noun from apply."
+    "id": "b2-u27-e34",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "It is desirable that the software be user-friendly for non-experts.",
+    "content": {
+      "title": "Fácil de usar",
+      "instructions": "Elige la forma de subjuntivo correcta.",
+      "question": "[[It is desirable that the software ___ user-friendly for non-experts.|Es deseable que el software sea fácil de usar para no expertos.]]",
+      "options": [
+        "[[is|es]]",
+        "[[be|sea]]",
+        "[[will be|será]]"
+      ],
+      "correctAnswer": "be",
+      "explanation": "'Desirable that' requiere el subjuntivo 'be'.",
+      "audio": "audio/b2/unit-27/e34.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-27/e34.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u27-e50",
-    type: "word-formation",
-    level: "B2",
-    topic: "Science and Technology",
-    difficulty: "medium",
-    transcript: "He is a computer programmer.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[He is a computer ___ (PROGRAM).|Es un programador de computadoras.]]",
-      correctAnswer: "programmer",
-      explanation: "Noun for a person who programs.",
-      translation: "Es un programador de computadoras.",
-      hint: "Person from program."
+    "id": "b2-u27-e35",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Ethical dilemmas arise when science moves faster than legislation.",
+    "content": {
+      "title": "Dilemas éticos",
+      "instructions": "Elige el término para problemas morales.",
+      "question": "[[Ethical ___ arise when science moves faster than legislation.|Dilemas éticos surgen cuando la ciencia avanza más rápido que la ley.]]",
+      "options": [
+        "[[solutions|soluciones]]",
+        "[[dilemmas|dilemas]]",
+        "[[benefits|beneficios]]"
+      ],
+      "correctAnswer": "dilemmas",
+      "explanation": "Un 'dilemma' es una situación con una elección difícil entre dos opciones.",
+      "audio": "audio/b2/unit-27/e35.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-27/e35.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u27-e36",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "The law demands that every citizen have equal access to the internet.",
+    "content": {
+      "title": "Acceso igualitario",
+      "instructions": "Elige la forma de subjuntivo correcta para 'have'.",
+      "question": "[[The law demands that every citizen ___ equal access to the internet.|La ley exige que cada ciudadano tenga igual acceso a internet.]]",
+      "options": [
+        "[[has|tiene (indicativo)]]",
+        "[[have|tenga (subjuntivo)]]",
+        "[[had|tenía]]"
+      ],
+      "correctAnswer": "have",
+      "explanation": "Tras 'demands that', usamos la forma base 'have' incluso con sujetos singulares.",
+      "audio": "audio/b2/unit-27/e36.mp3"
+    },
+    "audioUrl": "audio/b2/unit-27/e36.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u27-e37",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "The encryption makes the message unreadable to unauthorized parties.",
+    "content": {
+      "title": "Cifrado",
+      "instructions": "Elige el término para proteger mensajes.",
+      "question": "[[The ___ makes the message unreadable to unauthorized parties.|El cifrado hace que el mensaje sea ilegible para partes no autorizadas.]]",
+      "options": [
+        "[[description|descripción]]",
+        "[[encryption|cifrado]]",
+        "[[subscription|suscripción]]"
+      ],
+      "correctAnswer": "encryption",
+      "explanation": "'Encryption' es la técnica de codificar datos.",
+      "audio": "audio/b2/unit-27/e37.mp3"
+    },
+    "audioUrl": "audio/b2/unit-27/e37.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u27-e38",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "It is imperative that she finish the report before the deadline.",
+    "content": {
+      "title": "Plazo de entrega",
+      "instructions": "Elige la forma de subjuntivo correcta.",
+      "question": "[[It is imperative that she ___ the report before the deadline.|Es imperativo que ella termine el informe antes del plazo.]]",
+      "options": [
+        "[[finishes|termina (indicativo)]]",
+        "[[finish|termine (subjuntivo)]]",
+        "[[finished|terminó]]"
+      ],
+      "correctAnswer": "finish",
+      "explanation": "Forma base 'finish' por el subjuntivo formal.",
+      "audio": "audio/b2/unit-27/e38.mp3"
+    },
+    "audioUrl": "audio/b2/unit-27/e38.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u27-e39",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Many industries use automation to increase productivity.",
+    "content": {
+      "title": "Productividad",
+      "instructions": "Elige el término para el uso de máquinas.",
+      "question": "[[Many industries use ___ to increase productivity.|Muchas industrias usan la automatización para aumentar la productividad.]]",
+      "options": [
+        "[[automation|automatización]]",
+        "[[speculation|especulación]]",
+        "[[negotiation|negociación]]"
+      ],
+      "correctAnswer": "automation",
+      "explanation": "'Automation' permite producir más con menos intervención humana.",
+      "audio": "audio/b2/unit-27/e39.mp3"
+    },
+    "audioUrl": "audio/b2/unit-27/e39.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u27-e40",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "The judge ordered that the evidence be examined again.",
+    "content": {
+      "title": "Orden judicial",
+      "instructions": "Elige la forma de subjuntivo pasivo.",
+      "question": "[[The judge ordered that the evidence ___ again.|El juez ordenó que las pruebas fueran examinadas de nuevo.]]",
+      "options": [
+        "[[be examined|sean examinadas]]",
+        "[[is examined|es examinada]]",
+        "[[was examined|fue examinada]]"
+      ],
+      "correctAnswer": "be examined",
+      "explanation": "Tras 'ordered that', usamos 'be' + participio.",
+      "audio": "audio/b2/unit-27/e40.mp3"
+    },
+    "audioUrl": "audio/b2/unit-27/e40.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u27-e41",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Gadgets like smartphones have changed our daily lives.",
+    "content": {
+      "title": "Dispositivos",
+      "instructions": "Elige el término para pequeños aparatos electrónicos.",
+      "question": "[[___ like smartphones have changed our daily lives.|Los aparatos como los smartphones han cambiado nuestras vidas diarias.]]",
+      "options": [
+        "[[Gadgets|Aparatos / Artilugios]]",
+        "[[Structures|Estructuras]]",
+        "[[Garages|Garajes]]"
+      ],
+      "correctAnswer": "Gadgets",
+      "explanation": "'Gadgets' se refiere a dispositivos electrónicos pequeños y útiles.",
+      "audio": "audio/b2/unit-27/e41.mp3"
+    },
+    "audioUrl": "audio/b2/unit-27/e41.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u27-e42",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "It is essential that a scientist be objective in their analysis.",
+    "content": {
+      "title": "Objetividad",
+      "instructions": "Elige la forma de subjuntivo para 'be'.",
+      "question": "[[It is essential that a scientist ___ objective in their analysis.|Es esencial que un científico sea objetivo en su análisis.]]",
+      "options": [
+        "[[is|es]]",
+        "[[be|sea]]",
+        "[[has been|ha sido]]"
+      ],
+      "correctAnswer": "be",
+      "explanation": "Forma base 'be' requerida por 'essential that'.",
+      "audio": "audio/b2/unit-27/e42.mp3"
+    },
+    "audioUrl": "audio/b2/unit-27/e42.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u27-e43",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Broadband internet allows for faster downloading of large files.",
+    "content": {
+      "title": "Banda ancha",
+      "instructions": "Elige el término para conexión rápida.",
+      "question": "[[___ internet allows for faster downloading of large files.|El internet de banda ancha permite una descarga más rápida.]]",
+      "options": [
+        "[[Broadband|Banda ancha]]",
+        "[[Broadcast|Transmisión]]",
+        "[[Boarding|Embarque]]"
+      ],
+      "correctAnswer": "Broadband",
+      "explanation": "'Broadband' es la conexión de alta velocidad a internet.",
+      "audio": "audio/b2/unit-27/e43.mp3"
+    },
+    "audioUrl": "audio/b2/unit-27/e43.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u27-e44",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "I suggest that she not participate in the experiment.",
+    "content": {
+      "title": "Negación en subjuntivo",
+      "instructions": "Elige la forma negativa del subjuntivo.",
+      "question": "[[I suggest that she ___ in the experiment.|Sugiero que ella no participe en el experimento.]]",
+      "options": [
+        "[[not participate|no participe (subjuntivo)]]",
+        "[[doesn't participate|no participa (indicativo)]]",
+        "[[not participates|no participe (incorrecto)]]"
+      ],
+      "correctAnswer": "not participate",
+      "explanation": "En el subjuntivo formal, negamos con 'not' directamente antes de la forma base.",
+      "audio": "audio/b2/unit-27/e44.mp3"
+    },
+    "audioUrl": "audio/b2/unit-27/e44.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u27-e45",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "State-of-the-art labs are necessary for advanced research.",
+    "content": {
+      "title": "Laboratorios modernos",
+      "instructions": "Elige el adjetivo correcto.",
+      "question": "[[___ labs are necessary for advanced research.|Los laboratorios de última generación son necesarios.]]",
+      "options": [
+        "[[State-of-the-art|De última generación]]",
+        "[[Art-of-the-state|Incorrecto]]",
+        "[[Old-school|De la vieja escuela]]"
+      ],
+      "correctAnswer": "State-of-the-art",
+      "explanation": "'State-of-the-art' describe tecnología muy avanzada.",
+      "audio": "audio/b2/unit-27/e45.mp3"
+    },
+    "audioUrl": "audio/b2/unit-27/e45.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u27-e46",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "The report recommended that the project be abandoned.",
+    "content": {
+      "title": "Abandono de proyecto",
+      "instructions": "Elige el subjuntivo pasivo correcto.",
+      "question": "[[The report recommended that the project ___ abandoned.|El informe recomendó que el proyecto fuera abandonado.]]",
+      "options": [
+        "[[be|sea]]",
+        "[[is|es]]",
+        "[[was|fue]]"
+      ],
+      "correctAnswer": "be",
+      "explanation": "Forma 'be' para el subjuntivo tras 'recommended that'.",
+      "audio": "audio/b2/unit-27/e46.mp3"
+    },
+    "audioUrl": "audio/b2/unit-27/e46.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u27-e47",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "A solar panel converts sunlight into electricity.",
+    "content": {
+      "title": "Paneles solares",
+      "instructions": "Elige el término técnico.",
+      "question": "[[A solar ___ converts sunlight into electricity.|Un panel solar convierte la luz solar en electricidad.]]",
+      "options": [
+        "[[panel|panel]]",
+        "[[channel|canal]]",
+        "[[tunnel|túnel]]"
+      ],
+      "correctAnswer": "panel",
+      "explanation": "'Solar panel' es el dispositivo que capta la energía solar.",
+      "audio": "audio/b2/unit-27/e47.mp3"
+    },
+    "audioUrl": "audio/b2/unit-27/e47.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u27-e48",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "It is essential that everyone be aware of the security risks.",
+    "content": {
+      "title": "Riesgos de seguridad",
+      "instructions": "Elige la forma de subjuntivo para 'be'.",
+      "question": "[[It is essential that everyone ___ aware of the security risks.|Es esencial que todos sean conscientes de los riesgos.]]",
+      "options": [
+        "[[be|sea / sean]]",
+        "[[is|es]]",
+        "[[are|son]]"
+      ],
+      "correctAnswer": "be",
+      "explanation": "El subjuntivo 'be' se usa independientemente de si el sujeto es singular o plural.",
+      "audio": "audio/b2/unit-27/e48.mp3"
+    },
+    "audioUrl": "audio/b2/unit-27/e48.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u27-e49",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "User-friendly interfaces make technology accessible to everyone.",
+    "content": {
+      "title": "Interfaz amigable",
+      "instructions": "Elige el adjetivo para algo fácil de usar.",
+      "question": "[[___ interfaces make technology accessible to everyone.|Las interfaces fáciles de usar hacen la tecnología accesible.]]",
+      "options": [
+        "[[User-friendly|Fácil de usar]]",
+        "[[User-hostile|Hostil al usuario]]",
+        "[[User-manual|Manual de usuario]]"
+      ],
+      "correctAnswer": "User-friendly",
+      "explanation": "'User-friendly' significa intuitivo y sencillo de manejar.",
+      "audio": "audio/b2/unit-27/e49.mp3"
+    },
+    "audioUrl": "audio/b2/unit-27/e49.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u27-e50",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "They requested that the data breach be investigated by experts.",
+    "content": {
+      "title": "Investigación técnica",
+      "instructions": "Elige el subjuntivo pasivo correcto.",
+      "question": "[[They requested that the data breach ___ by experts.|Solicitaron que la filtración de datos fuera investigada por expertos.]]",
+      "options": [
+        "[[be investigated|sea investigada]]",
+        "[[is investigated|es investigada]]",
+        "[[was investigated|fue investigada]]"
+      ],
+      "correctAnswer": "be investigated",
+      "explanation": "'Requested that' requiere el subjuntivo pasivo 'be investigated'.",
+      "audio": "audio/b2/unit-27/e50.mp3"
+    },
+    "audioUrl": "audio/b2/unit-27/e50.mp3",
+    "topicName": "Grammar"
   }
 ];

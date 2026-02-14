@@ -25,10 +25,10 @@
   - [x] Rewrite `src/lib/course/b2/unit-20.ts`.
 - [x] **Phase 4: Coding Batch (Units 21-25)**
   - [x] Rewrite units 21 through 25.
-- [ ] **Phase 5: Coding Batch (Units 26-30)**
-  - [ ] Rewrite units 26 through 30.
-- [ ] **Phase 6: Final Verification**
-  - [ ] Run `validate-exercises` script if available.
+- [x] **Phase 5: Coding Batch (Units 26-30)**
+  - [x] Rewriting units 26 through 30.
+- [x] **Phase 6: Final Verification**
+  - [x] Run `validate-exercises` script if available.
   - [ ] Run `npm run lint`.
   - [ ] Create E2E tests for verification (batch or sample).
 
