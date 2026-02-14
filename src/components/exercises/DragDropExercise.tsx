@@ -148,9 +148,9 @@ export default function DragDropExercise({ content, vocabulary, onComplete }: Dr
             </span>
           )}
         </div>
-        <p className="text-slate-600">
+        <div className="text-slate-600">
           <Markdown content={content.instructions || 'Selecciona las palabras en el orden correcto.'} vocabulary={vocabulary} />
-        </p>
+        </div>
       </div>
 
       {/* Target Area */}

@@ -44,8 +44,8 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
       return shuffled;
     };
 
-    setLeftItems(shuffle(content.pairs.map(p => p.left)));
-    setRightItems(shuffle(content.pairs.map(p => p.right)));
+    setLeftItems(shuffle(content.pairs.map(p => (p as any).left || (p as any).front)));
+    setRightItems(shuffle(content.pairs.map(p => (p as any).right || (p as any).back)));
     setMatches({});
     setSubmitted(false);
     setIsCorrect(false);
@@ -95,7 +95,9 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
       allCorrect = false;
     } else {
       for (const pair of content.pairs) {
-        if (matches[pair.left] !== pair.right) {
+        const left = (pair as any).left || (pair as any).front;
+        const right = (pair as any).right || (pair as any).back;
+        if (matches[left] !== right) {
           allCorrect = false;
           break;
         }
@@ -115,9 +117,9 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
     <div className="w-full max-w-4xl mx-auto p-6 bg-white rounded-3xl shadow-lg border border-slate-200">
       <div className="mb-8">
         <h2 className="text-2xl font-black text-slate-900">{content.title || 'Une las parejas'}</h2>
-        <p className="text-slate-600">
+        <div className="text-slate-600">
           <Markdown content={content.instructions || 'Une cada elemento de la izquierda con su correspondiente a la derecha.'} vocabulary={vocabulary} />
-        </p>
+        </div>
       </div>
 
       <div className="grid grid-cols-2 gap-8 mb-8">
@@ -126,21 +128,33 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
           {leftItems.map((item) => {
             const isMatched = !!matches[item];
             const isSelected = selectedLeft === item;
+            
+            const matchedPair = content.pairs.find(p => ((p as any).left || (p as any).front) === item);
+            const expectedRight = matchedPair ? ((matchedPair as any).right || (matchedPair as any).back) : undefined;
+            const isCorrectMatch = submitted && isMatched && matches[item] === expectedRight;
+            const isIncorrectMatch = submitted && isMatched && matches[item] !== expectedRight;
+
             return (
-              <button
+              <div
+                role="button"
+                tabIndex={0}
                 key={item}
                 onClick={() => handleLeftClick(item)}
-                disabled={submitted}
-                className={`w-full p-4 rounded-xl border-2 font-bold text-lg transition-all text-left ${
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' || e.key === ' ') {
+                    handleLeftClick(item);
+                  }
+                }}
+                className={`w-full p-4 rounded-xl border-2 font-bold text-lg transition-all text-left cursor-pointer ${
                   isSelected 
                     ? 'border-orange-500 bg-orange-50 text-orange-700' 
                     : isMatched
                       ? 'border-blue-200 bg-blue-50 text-blue-700'
                       : 'border-slate-100 bg-slate-50 hover:border-slate-300 text-slate-700'
-                } ${submitted && isMatched && (matches[item] === content.pairs.find(p => p.left === item)?.right ? 'border-green-500 bg-green-50' : 'border-red-500 bg-red-50')}`}
+                } ${isCorrectMatch ? 'border-green-500 bg-green-50' : ''} ${isIncorrectMatch ? 'border-red-500 bg-red-50' : ''} ${submitted ? 'cursor-default' : ''}`}
               >
                 <Markdown content={item} vocabulary={vocabulary} />
-              </button>
+              </div>
             );
           })}
         </div>
@@ -151,39 +165,60 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
             const matchedLeft = Object.keys(matches).find(left => matches[left] === item);
             const isMatched = !!matchedLeft;
             const isSelected = selectedRight === item;
+
+            const matchedPair = matchedLeft ? content.pairs.find(p => ((p as any).left || (p as any).front) === matchedLeft) : undefined;
+            const expectedRight = matchedPair ? ((matchedPair as any).right || (matchedPair as any).back) : undefined;
+            const isCorrectMatch = submitted && isMatched && item === expectedRight;
+            const isIncorrectMatch = submitted && isMatched && item !== expectedRight;
+
             return (
-              <button
+              <div
+                role="button"
+                tabIndex={0}
                 key={item}
                 onClick={() => handleRightClick(item)}
-                disabled={submitted}
-                className={`w-full p-4 rounded-xl border-2 font-bold text-lg transition-all text-left flex items-center justify-between ${
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' || e.key === ' ') {
+                    handleRightClick(item);
+                  }
+                }}
+                className={`w-full p-4 rounded-xl border-2 font-bold text-lg transition-all text-left flex items-center justify-between cursor-pointer ${
                   isSelected 
                     ? 'border-orange-500 bg-orange-50 text-orange-700' 
                     : isMatched
                       ? 'border-blue-200 bg-blue-50 text-blue-700'
                       : 'border-slate-100 bg-slate-50 hover:border-slate-300 text-slate-700'
-                } ${submitted && isMatched && (item === content.pairs.find(p => p.left === matchedLeft)?.right ? 'border-green-500 bg-green-50' : 'border-red-500 bg-red-50')}`}
+                } ${isCorrectMatch ? 'border-green-500 bg-green-50' : ''} ${isIncorrectMatch ? 'border-red-500 bg-red-50' : ''} ${submitted ? 'cursor-default' : ''}`}
               >
                 <Markdown content={item} vocabulary={vocabulary} />
                 {(() => {
-                  const pair = content.pairs.find(p => p.right === item);
+                  const pair = content.pairs.find(p => ((p as any).right || (p as any).back) === item);
                   if (pair?.audio) {
                     return (
-                      <button
+                      <div
+                        role="button"
+                        tabIndex={0}
                         onClick={(e) => {
                           e.stopPropagation();
                           const audio = new Audio(pair.audio);
                           audio.play().catch(err => console.error('Error playing audio:', err));
                         }}
-                        className="p-2 bg-orange-100 text-orange-600 rounded-full hover:bg-orange-200 transition-all transform hover:scale-110 active:scale-95 ml-2"
+                        onKeyDown={(e) => {
+                          if (e.key === 'Enter' || e.key === ' ') {
+                            e.stopPropagation();
+                            const audio = new Audio(pair.audio);
+                            audio.play().catch(err => console.error('Error playing audio:', err));
+                          }
+                        }}
+                        className="p-2 bg-orange-100 text-orange-600 rounded-full hover:bg-orange-200 transition-all transform hover:scale-110 active:scale-95 ml-2 cursor-pointer"
                       >
                         <Volume2 className="w-4 h-4" />
-                      </button>
+                      </div>
                     );
                   }
                   return null;
                 })()}
-              </button>
+              </div>
             );
           })}
         </div>
