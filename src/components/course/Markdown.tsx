@@ -48,10 +48,12 @@ function useApplyTooltips() {
   const ctx = useContext(VocabularyContext);
   
   return (children: React.ReactNode): React.ReactNode => {
-    if (!ctx || !ctx.vocabulary || ctx.vocabulary.length === 0) return children;
+    // If no context, just return as is
+    if (!ctx) return children;
 
+    const hasVocab = ctx.vocabulary && ctx.vocabulary.length > 0;
     // Sort vocabulary by length (longest first) to handle overlapping terms (e.g., "online banking" before "banking")
-    const sortedVocab = [...ctx.vocabulary].sort((a, b) => b.word.length - a.word.length);
+    const sortedVocab = hasVocab ? [...ctx.vocabulary].sort((a, b) => b.word.length - a.word.length) : [];
 
     return React.Children.map(children, (child) => {
       // ONLY process strings or numbers to prevent double tooltips in nested elements
@@ -62,51 +64,60 @@ function useApplyTooltips() {
       
       let foundAnyMatch = false;
 
-      sortedVocab.forEach((vocab) => {
-        const newParts: (string | React.ReactNode)[] = [];
-        // Escape special chars and use word boundaries
-        const escapedWord = vocab.word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-        const regex = new RegExp(`\\b(${escapedWord})\\b`, "gi");
+      if (hasVocab) {
+        sortedVocab.forEach((vocab) => {
+          const newParts: (string | React.ReactNode)[] = [];
+          // Escape special chars and use word boundaries
+          const escapedWord = vocab.word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+          const regex = new RegExp(`\\b(${escapedWord})\\b`, "gi");
 
-        parts.forEach((part) => {
-          if (typeof part !== "string") {
-            newParts.push(part);
-            return;
-          }
+          parts.forEach((part) => {
+            if (typeof part !== "string") {
+              newParts.push(part);
+              return;
+            }
 
-          const splitText = part.split(regex);
-          if (splitText.length > 1) {
-            splitText.forEach((t, i) => {
-              // split with capture group (match) results in [prefix, match, suffix, match, suffix...]
-              // but we only want to wrap the parts that EXACTLY match the word
-              if (t.toLowerCase() === vocab.word.toLowerCase()) {
-                foundAnyMatch = true;
-                newParts.push(
-                  <VocabularyTooltip 
-                    key={`${vocab.word}-${i}-${parts.length}`} 
-                    word={vocab.word} 
-                    definition={vocab.definition}
-                    position={isFirst ? 'bottom' : 'top'}
-                  >
-                    {t}
-                  </VocabularyTooltip>
-                );
-              } else if (t) {
-                newParts.push(t);
-              }
-            });
-          } else {
-            newParts.push(part);
-          }
+            const splitText = part.split(regex);
+            if (splitText.length > 1) {
+              splitText.forEach((t, i) => {
+                // split with capture group (match) results in [prefix, match, suffix, match, suffix...]
+                // but we only want to wrap the parts that EXACTLY match the word
+                if (t.toLowerCase() === vocab.word.toLowerCase()) {
+                  foundAnyMatch = true;
+                  newParts.push(
+                    <VocabularyTooltip 
+                      key={`${vocab.word}-${i}-${parts.length}`} 
+                      word={vocab.word} 
+                      definition={vocab.definition}
+                      position={isFirst ? 'bottom' : 'top'}
+                    >
+                      {t}
+                    </VocabularyTooltip>
+                  );
+                } else if (t) {
+                  newParts.push(t);
+                }
+              });
+            } else {
+              newParts.push(part);
+            }
+          });
+          parts = newParts;
         });
-        parts = newParts;
-      });
+      }
 
       if (foundAnyMatch) {
         ctx.isFirstRef.current = false;
       }
 
-      return <>{parts.map((p, i) => typeof p === 'string' ? <TranslatedText key={i} text={p} /> : p)}</>;
+      // ALWAYS apply TranslatedText to string parts to handle [[word|translation]]
+      return (
+        <>
+          {parts.map((p, i) => (
+            typeof p === 'string' ? <TranslatedText key={i} text={p} /> : p
+          ))}
+        </>
+      );
     });
   };
 }

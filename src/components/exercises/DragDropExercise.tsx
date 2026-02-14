@@ -141,7 +141,9 @@ export default function DragDropExercise({ content, vocabulary, onComplete }: Dr
     <div className="w-full max-w-2xl mx-auto p-6 bg-white rounded-3xl shadow-lg border border-slate-200">
       <div className="mb-8">
         <div className="flex justify-between items-center mb-2">
-          <h2 className="text-2xl font-black text-slate-900">{content.title || 'Ordena la oración'}</h2>
+          <h2 className="text-2xl font-black text-slate-900">
+            <TranslatedText text={content.title || 'Ordena la oración'} />
+          </h2>
           {isMultiSentence && (
             <span className="bg-slate-100 text-slate-600 px-3 py-1 rounded-full text-sm font-bold">
               {currentSentenceIndex + 1} / {sentences.length}

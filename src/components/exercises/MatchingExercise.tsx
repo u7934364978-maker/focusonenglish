@@ -116,7 +116,9 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
   return (
     <div className="w-full max-w-4xl mx-auto p-6 bg-white rounded-3xl shadow-lg border border-slate-200">
       <div className="mb-8">
-        <h2 className="text-2xl font-black text-slate-900">{content.title || 'Une las parejas'}</h2>
+        <h2 className="text-2xl font-black text-slate-900">
+          <TranslatedText text={content.title || 'Une las parejas'} />
+        </h2>
         <div className="text-slate-600">
           <Markdown content={content.instructions || 'Une cada elemento de la izquierda con su correspondiente a la derecha.'} vocabulary={vocabulary} />
         </div>
