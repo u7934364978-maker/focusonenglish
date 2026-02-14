@@ -12,7 +12,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Third Conditional",
       instructions: "Choose the correct verb form for a past hypothetical situation.",
-      question: "If I ___ (know) about the meeting, I would have attended.",
+      question: "[[If I ___ (know) about the meeting, I would have attended.|Si hubiera sabido lo de la reunión, habría asistido.]]",
       options: ["had known", "knew", "would know"],
       correctAnswer: "had known",
       explanation: "The third conditional uses 'if + past perfect' to talk about a hypothetical past condition.",
@@ -31,7 +31,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Third Conditional",
       instructions: "Choose the correct verb form.",
-      question: "We ___ (not/be) late if we had taken the train.",
+      question: "[[We ___ (not/be) late if we had taken the train.|No habríamos llegado tarde si hubiéramos cogido el tren.]]",
       options: ["wouldn't have been", "weren't", "won't be"],
       correctAnswer: "wouldn't have been",
       explanation: "The main clause of the third conditional uses 'would have + past participle'.",
@@ -50,7 +50,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Third Conditional",
       instructions: "Choose the correct verb form.",
-      question: "If they ___ (study) harder, they would have passed the exam.",
+      question: "[[If they ___ (study) harder, they would have passed the exam.|Si hubieran estudiado más, habrían aprobado el examen.]]",
       options: ["had studied", "studied", "were studying"],
       correctAnswer: "had studied",
       explanation: "Use past perfect for the condition that didn't happen in the past.",
@@ -69,7 +69,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Third Conditional",
       instructions: "Choose the correct verb form.",
-      question: "I would have called you if I ___ (have) your number.",
+      question: "[[I would have called you if I ___ (have) your number.|Te habría llamado si hubiera tenido tu número.]]",
       options: ["had had", "had", "would have"],
       correctAnswer: "had had",
       explanation: "The past perfect of 'have' is 'had had'.",
@@ -88,7 +88,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Third Conditional",
       instructions: "Choose the correct verb form.",
-      question: "If she ___ (not/forgot) her passport, she would have traveled.",
+      question: "[[If she ___ (not/forgot) her passport, she would have traveled.|Si no hubiera olvidado su pasaporte, habría viajado.]]",
       options: ["hadn't forgotten", "didn't forget", "not forget"],
       correctAnswer: "hadn't forgotten",
       explanation: "Negative third conditional: if + had not + past participle.",
@@ -107,7 +107,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Third Conditional",
       instructions: "Choose the correct verb form.",
-      question: "We ___ (buy) the house if it had been cheaper.",
+      question: "[[We ___ (buy) the house if it had been cheaper.|Habríamos comprado la casa si hubiera sido más barata.]]",
       options: ["would have bought", "bought", "will buy"],
       correctAnswer: "would have bought",
       explanation: "Main clause: would have + past participle.",
@@ -126,7 +126,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Third Conditional",
       instructions: "Choose the correct verb form.",
-      question: "If you ___ (ask) me, I would have helped you.",
+      question: "[[If you ___ (ask) me, I would have helped you.|Si me hubieras preguntado, te habría ayudado.]]",
       options: ["had asked", "asked", "ask"],
       correctAnswer: "had asked",
       explanation: "Hypothetical past condition.",
@@ -145,7 +145,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Third Conditional",
       instructions: "Choose the correct verb form.",
-      question: "I would have been angry if he ___ (not/apologize).",
+      question: "[[I would have been angry if he ___ (not/apologize).|Me habría enfadado si él no se hubiera disculpado.]]",
       options: ["hadn't apologized", "didn't apologize", "not apologize"],
       correctAnswer: "hadn't apologized",
       explanation: "Past perfect negative in the if-clause.",
@@ -164,7 +164,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Third Conditional",
       instructions: "Choose the correct verb form.",
-      question: "If we ___ (leave) earlier, we wouldn't have missed the bus.",
+      question: "[[If we ___ (leave) earlier, we wouldn't have missed the bus.|Si nos hubiéramos ido antes, no habríamos perdido el autobús.]]",
       options: ["had left", "left", "were leaving"],
       correctAnswer: "had left",
       explanation: "Past perfect for a condition that didn't happen.",
@@ -183,7 +183,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Third Conditional",
       instructions: "Choose the correct verb form.",
-      question: "They ___ (win) the match if the captain had played.",
+      question: "[[They ___ (win) the match if the captain had played.|Habrían ganado el partido si el capitán hubiera jugado.]]",
       options: ["would have won", "won", "will win"],
       correctAnswer: "would have won",
       explanation: "Result in the third conditional.",
@@ -204,7 +204,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Wish for Regret",
       instructions: "Fill in the correct form of the verb to express a past regret.",
-      question: "I wish I ___ (not/say) that to him.",
+      question: "[[I wish I ___ (not/say) that to him.|Ojalá no le hubiera dicho eso.]]",
       correctAnswer: "hadn't said",
       explanation: "Use 'wish + past perfect' for regrets about the past.",
       translation: "Ojalá no le hubiera dicho eso.",
@@ -222,7 +222,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "If Only for Regret",
       instructions: "Fill in the correct form of the verb.",
-      question: "If only we ___ (take) a map with us.",
+      question: "[[If only we ___ (take) a map with us.|Si tan solo hubiéramos llevado un mapa con nosotros.]]",
       correctAnswer: "had taken",
       explanation: "Use 'if only + past perfect' for strong past regrets.",
       translation: "Si tan solo hubiéramos llevado un mapa con nosotros.",
@@ -240,7 +240,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Wish for Regret",
       instructions: "Fill in the correct form of the verb.",
-      question: "She wishes she ___ (study) medicine at university.",
+      question: "[[She wishes she ___ (study) medicine at university.|Ella desearía haber estudiado medicina en la universidad.]]",
       correctAnswer: "had studied",
       explanation: "Expressing a regret about a past choice.",
       translation: "Ella desearía haber estudiado medicina en la universidad.",
@@ -258,7 +258,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Wish for Regret",
       instructions: "Fill in the correct form of the verb.",
-      question: "I wish I ___ (save) more money when I was younger.",
+      question: "[[I wish I ___ (save) more money when I was younger.|Ojalá hubiera ahorrado más dinero cuando era más joven.]]",
       correctAnswer: "had saved",
       explanation: "Regret about a past situation.",
       translation: "Ojalá hubiera ahorrado más dinero cuando era más joven.",
@@ -276,7 +276,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "If Only for Regret",
       instructions: "Fill in the correct form of the verb.",
-      question: "If only you ___ (tell) me the truth earlier.",
+      question: "[[If only you ___ (tell) me the truth earlier.|Si tan solo me hubieras dicho la verdad antes.]]",
       correctAnswer: "had told",
       explanation: "Strong regret about the past.",
       translation: "Si tan solo me hubieras dicho la verdad antes.",
@@ -294,7 +294,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Wish for Regret",
       instructions: "Fill in the correct form of the verb.",
-      question: "They wish they ___ (not/sell) their old house.",
+      question: "[[They wish they ___ (not/sell) their old house.|Desearían no haber vendido su antigua casa.]]",
       correctAnswer: "hadn't sold",
       explanation: "Regretting a past action.",
       translation: "Desearían no haber vendido su antigua casa.",
@@ -312,7 +312,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "If Only for Regret",
       instructions: "Fill in the correct form of the verb.",
-      question: "If only it ___ (not/rain) yesterday.",
+      question: "[[If only it ___ (not/rain) yesterday.|Si tan solo no hubiera llovido ayer.]]",
       correctAnswer: "hadn't rained",
       explanation: "Regretting something that was out of our control in the past.",
       translation: "Si tan solo no hubiera llovido ayer.",
@@ -330,7 +330,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Wish for Regret",
       instructions: "Fill in the correct form of the verb.",
-      question: "He wishes he ___ (not/quit) his job.",
+      question: "[[He wishes he ___ (not/quit) his job.|Él desearía no haber dejado su trabajo.]]",
       correctAnswer: "hadn't quit",
       explanation: "Regretting a past decision.",
       translation: "Él desearía no haber dejado su trabajo.",
@@ -348,7 +348,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Wish for Regret",
       instructions: "Fill in the correct form of the verb.",
-      question: "I wish I ___ (know) you were in town.",
+      question: "[[I wish I ___ (know) you were in town.|Ojalá hubiera sabido que estabas en la ciudad.]]",
       correctAnswer: "had known",
       explanation: "Regretting lack of knowledge in the past.",
       translation: "Ojalá hubiera sabido que estabas en la ciudad.",
@@ -366,7 +366,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "If Only for Regret",
       instructions: "Fill in the correct form of the verb.",
-      question: "If only she ___ (listen) to my advice.",
+      question: "[[If only she ___ (listen) to my advice.|Si tan solo ella hubiera escuchado mi consejo.]]",
       correctAnswer: "had listened",
       explanation: "Strong regret about someone else's past action.",
       translation: "Si tan solo ella hubiera escuchado mi consejo.",
@@ -386,7 +386,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Social Issues",
       instructions: "Fill in the blank with the correct term.",
-      question: "___ (Poverty) is a major issue in many developing countries.",
+      question: "[[___ (Poverty) is a major issue in many developing countries.|La pobreza es un problema importante en muchos países en desarrollo.]]",
       correctAnswer: "Poverty",
       explanation: "Poverty is the state of being extremely poor.",
       translation: "La pobreza es un problema importante en muchos países en desarrollo.",
@@ -404,7 +404,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Social Issues",
       instructions: "Fill in the blank.",
-      question: "We need to combat ___ (inequality) in the workplace.",
+      question: "[[We need to combat ___ (inequality) in the workplace.|Necesitamos combatir la desigualdad en el lugar de trabajo.]]",
       correctAnswer: "inequality",
       explanation: "Inequality is the lack of equality.",
       translation: "Necesitamos combatir la desigualdad en el lugar de trabajo.",
@@ -422,7 +422,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Social Issues",
       instructions: "Fill in the blank.",
-      question: "___ (Homelessness) has increased in big cities.",
+      question: "[[___ (Homelessness) has increased in big cities.|La falta de vivienda ha aumentado en las grandes ciudades.]]",
       correctAnswer: "Homelessness",
       explanation: "Homelessness is the state of having no home.",
       translation: "La falta de vivienda ha aumentado en las grandes ciudades.",
@@ -440,7 +440,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Social Issues",
       instructions: "Fill in the blank.",
-      question: "The government is tackling ___ (unemployment) with new schemes.",
+      question: "[[The government is tackling ___ (unemployment) with new schemes.|El gobierno está abordando el desempleo con nuevos planes.]]",
       correctAnswer: "unemployment",
       explanation: "Unemployment is the state of being without a job.",
       translation: "El gobierno está abordando el desempleo con nuevos planes.",
@@ -458,7 +458,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Social Issues",
       instructions: "Fill in the blank.",
-      question: "___ (Discrimination) based on gender is illegal.",
+      question: "[[___ (Discrimination) based on gender is illegal.|La discriminación por motivos de género es ilegal.]]",
       correctAnswer: "Discrimination",
       explanation: "Discrimination is the unjust treatment of different categories of people.",
       translation: "La discriminación por motivos de género es ilegal.",
@@ -476,7 +476,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Social Issues",
       instructions: "Fill in the blank.",
-      question: "Access to ___ (education) should be a universal right.",
+      question: "[[Access to ___ (education) should be a universal right.|El acceso a la educación debería ser un derecho universal.]]",
       correctAnswer: "education",
       explanation: "Education is the process of receiving or giving systematic instruction.",
       translation: "El acceso a la educación debería ser un derecho universal.",
@@ -494,7 +494,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Social Issues",
       instructions: "Fill in the blank.",
-      question: "The ___ (healthcare) system is under a lot of pressure.",
+      question: "[[The ___ (healthcare) system is under a lot of pressure.|El sistema de salud está bajo mucha presión.]]",
       correctAnswer: "healthcare",
       explanation: "Healthcare is the organized provision of medical care.",
       translation: "El sistema de salud está bajo mucha presión.",
@@ -512,7 +512,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Social Issues",
       instructions: "Fill in the blank.",
-      question: "___ (Corruption) is undermining the country's economy.",
+      question: "[[___ (Corruption) is undermining the country's economy.|La corrupción está socavando la economía del país.]]",
       correctAnswer: "Corruption",
       explanation: "Corruption is dishonest or fraudulent conduct by those in power.",
       translation: "La corrupción está socavando la economía del país.",
@@ -530,7 +530,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Social Issues",
       instructions: "Fill in the blank.",
-      question: "We must protect the ___ (environment) for future generations.",
+      question: "[[We must protect the ___ (environment) for future generations.|Debemos proteger el medio ambiente para las generaciones futuras.]]",
       correctAnswer: "environment",
       explanation: "The environment is the surroundings in which a person, animal, or plant lives.",
       translation: "Debemos proteger el medio ambiente para las generaciones futuras.",
@@ -548,7 +548,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Social Issues",
       instructions: "Fill in the blank.",
-      question: "___ (Migration) is a complex and sensitive topic.",
+      question: "[[___ (Migration) is a complex and sensitive topic.|La migración es un tema complejo y delicado.]]",
       correctAnswer: "Migration",
       explanation: "Migration is movement from one part of something to another.",
       translation: "La migración es un tema complejo y delicado.",
@@ -568,7 +568,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Activism",
       instructions: "Choose the correct term.",
-      question: "She is a passionate ___ for human rights.",
+      question: "[[She is a passionate ___ for human rights.|Ella es una activista apasionada por los derechos humanos.]]",
       options: ["activist", "worker", "leader"],
       correctAnswer: "activist",
       explanation: "An activist is a person who campaigns to bring about political or social change.",
@@ -587,7 +587,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Activism",
       instructions: "Choose the correct term.",
-      question: "We joined a ___ against the new law.",
+      question: "[[We joined a ___ against the new law.|Nos unimos a una protesta contra la nueva ley.]]",
       options: ["protest", "meeting", "party"],
       correctAnswer: "protest",
       explanation: "A protest is a statement or action expressing disapproval of something.",
@@ -606,7 +606,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Activism",
       instructions: "Choose the correct verb.",
-      question: "The charity ___ thousands of dollars for the cause.",
+      question: "[[The charity ___ thousands of dollars for the cause.|La organización benéfica recaudó miles de dólares para la causa.]]",
       options: ["raised", "won", "took"],
       correctAnswer: "raised",
       explanation: "To raise money means to collect it for a specific purpose.",
@@ -625,7 +625,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Activism",
       instructions: "Choose the correct term.",
-      question: "We need to raise ___ about mental health.",
+      question: "[[We need to raise ___ about mental health.|Necesitamos concienciar sobre la salud mental.]]",
       options: ["awareness", "knowledge", "news"],
       correctAnswer: "awareness",
       explanation: "Awareness is knowledge or perception of a situation or fact.",
@@ -644,7 +644,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Activism",
       instructions: "Choose the correct term.",
-      question: "He works as a ___ at the local shelter.",
+      question: "[[He works as a ___ at the local shelter.|Trabaja como voluntario en el refugio local.]]",
       options: ["volunteer", "staff", "boss"],
       correctAnswer: "volunteer",
       explanation: "A volunteer is a person who freely offers to take part in an enterprise or undertake a task.",
@@ -663,7 +663,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Activism",
       instructions: "Choose the correct term.",
-      question: "The ___ aims to reduce plastic waste.",
+      question: "[[The ___ aims to reduce plastic waste.|La campaña pretende reducir los residuos plásticos.]]",
       options: ["campaign", "battle", "war"],
       correctAnswer: "campaign",
       explanation: "A campaign is an organized course of action to achieve a goal.",
@@ -682,7 +682,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Activism",
       instructions: "Choose the correct verb.",
-      question: "We should ___ for better social policies.",
+      question: "[[We should ___ for better social policies.|Deberíamos abogar por mejores políticas sociales.]]",
       options: ["advocate", "talk", "tell"],
       correctAnswer: "advocate",
       explanation: "To advocate means to publicly recommend or support.",
@@ -701,7 +701,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Activism",
       instructions: "Choose the correct term.",
-      question: "They signed a ___ to save the park.",
+      question: "[[They signed a ___ to save the park.|Firmaron una petición para salvar el parque.]]",
       options: ["petition", "paper", "letter"],
       correctAnswer: "petition",
       explanation: "A petition is a formal written request, typically signed by many people.",
@@ -720,7 +720,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Activism",
       instructions: "Choose the correct term.",
-      question: "The non-profit ___ helps refugees.",
+      question: "[[The non-profit ___ helps refugees.|La organización sin ánimo de lucro ayuda a los refugiados.]]",
       options: ["organization", "group", "club"],
       correctAnswer: "organization",
       explanation: "An organization is an organized body of people with a particular purpose.",
@@ -739,7 +739,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Activism",
       instructions: "Choose the correct term.",
-      question: "We can all make a ___ in our community.",
+      question: "[[We can all make a ___ in our community.|Todos podemos marcar la diferencia en nuestra comunidad.]]",
       options: ["difference", "change", "move"],
       correctAnswer: "difference",
       explanation: "To make a difference means to have a significant effect on a person or situation.",
@@ -760,7 +760,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (EQUAL) of opportunity is vital.",
+      question: "[[The ___ (EQUAL) of opportunity is vital.|La igualdad de oportunidades es vital.]]",
       correctAnswer: "equality",
       explanation: "Noun form of 'equal'.",
       translation: "La igualdad de oportunidades es vital.",
@@ -778,7 +778,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "___ (POOR) is a systemic problem.",
+      question: "[[___ (POOR) is a systemic problem.|La pobreza es un problema sistémico.]]",
       correctAnswer: "poverty",
       explanation: "Noun form of 'poor'.",
       translation: "La pobreza es un problema sistémico.",
@@ -796,7 +796,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (JUST) system needs reform.",
+      question: "[[The ___ (JUST) system needs reform.|El sistema de justicia necesita una reforma.]]",
       correctAnswer: "justice",
       explanation: "Noun form of 'just'.",
       translation: "El sistema de justicia necesita una reforma.",
@@ -814,7 +814,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "We must fight against ___ (RACIAL) and bias.",
+      question: "[[We must fight against ___ (RACIAL) and bias.|Debemos luchar contra el racismo y los prejuicios.]]",
       correctAnswer: "racism",
       explanation: "Noun form related to 'race/racial'.",
       translation: "Debemos luchar contra el racismo y los prejuicios.",
@@ -832,7 +832,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "His ___ (GENEROUS) towards the charity was touching.",
+      question: "[[His ___ (GENEROUS) towards the charity was touching.|Su generosidad hacia la organización benéfica fue conmovedora.]]",
       correctAnswer: "generosity",
       explanation: "Noun form of 'generous'.",
       translation: "Su generosidad hacia la organización benéfica fue conmovedora.",
@@ -850,7 +850,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (SOLVE) to homelessness is complex.",
+      question: "[[The ___ (SOLVE) to homelessness is complex.|La solución a la falta de vivienda es compleja.]]",
       correctAnswer: "solution",
       explanation: "Noun form of 'solve'.",
       translation: "La solución a la falta de vivienda es compleja.",
@@ -868,7 +868,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "She is a very ___ (INFLUENCE) activist.",
+      question: "[[She is a very ___ (INFLUENCE) activist.|Es una activista muy influyente.]]",
       correctAnswer: "influential",
       explanation: "Adjective form of 'influence'.",
       translation: "Es una activista muy influyente.",
@@ -886,7 +886,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (CONSTRUCT) of new housing is a priority.",
+      question: "[[The ___ (CONSTRUCT) of new housing is a priority.|La construcción de nuevas viviendas es una prioridad.]]",
       correctAnswer: "construction",
       explanation: "Noun form of 'construct'.",
       translation: "La construcción de nuevas viviendas es una prioridad.",
@@ -904,7 +904,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "He showed great ___ (COMPASSIONATE) for the victims.",
+      question: "[[He showed great ___ (COMPASSIONATE) for the victims.|Mostró una gran compasión por las víctimas.]]",
       correctAnswer: "compassion",
       explanation: "Noun form of 'compassionate'.",
       translation: "Mostró una gran compasión por las víctimas.",
@@ -922,7 +922,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (AWARE) of the issue is growing.",
+      question: "[[The ___ (AWARE) of the issue is growing.|La conciencia sobre el problema está creciendo.]]",
       correctAnswer: "awareness",
       explanation: "Noun form of 'aware'.",
       translation: "La conciencia sobre el problema está creciendo.",
