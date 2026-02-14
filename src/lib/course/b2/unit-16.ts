@@ -12,7 +12,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "It-Cleft Sentences",
       instructions: "Choose the correct relative pronoun for emphasis.",
-      question: "John started the company. -> It was John ___ started the company.",
+      question: "[[John started the company. -> It was John ___ started the company.|John empezó la empresa. -> Fue John quien empezó la empresa.]]",
       options: ["who", "which", "what"],
       correctAnswer: "who",
       explanation: "Use 'who' or 'that' to focus on a person in an it-cleft sentence.",
@@ -31,7 +31,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "It-Cleft Sentences",
       instructions: "Choose the correct relative pronoun for emphasis.",
-      question: "We need innovation. -> It is innovation ___ we need.",
+      question: "[[We need innovation. -> It is innovation ___ we need.|Necesitamos innovación. -> Es la innovación lo que necesitamos.]]",
       options: ["that", "who", "what"],
       correctAnswer: "that",
       explanation: "Use 'that' or 'which' to focus on a thing in an it-cleft sentence.",
@@ -50,7 +50,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "It-Cleft Sentences",
       instructions: "Choose the correct relative pronoun for emphasis.",
-      question: "The market changed in 2008. -> It was in 2008 ___ the market changed.",
+      question: "[[The market changed in 2008. -> It was in 2008 ___ the market changed.|El mercado cambió en 2008. -> Fue en 2008 cuando el mercado cambió.]]",
       options: ["that", "when", "which"],
       correctAnswer: "that",
       explanation: "In it-clefts focusing on time, 'that' is preferred over 'when'.",
@@ -69,7 +69,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "It-Cleft Sentences",
       instructions: "Choose the correct relative pronoun for emphasis.",
-      question: "They failed because of lack of funding. -> It was lack of funding ___ caused the failure.",
+      question: "[[They failed because of lack of funding. -> It was lack of funding ___ caused the failure.|Fallaron por falta de financiación. -> Fue la falta de financiación lo que causó el fracaso.]]",
       options: ["that", "what", "who"],
       correctAnswer: "that",
       explanation: "Use 'that' to link the subject focus to the rest of the sentence.",
@@ -88,7 +88,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "It-Cleft Sentences",
       instructions: "Choose the correct relative pronoun for emphasis.",
-      question: "I want to talk to the manager. -> It is the manager ___ I want to talk to.",
+      question: "[[I want to talk to the manager. -> It is the manager ___ I want to talk to.|Quiero hablar con el gerente. -> Es con el gerente con quien quiero hablar.]]",
       options: ["that", "what", "who"],
       correctAnswer: "that",
       explanation: "Use 'that' or 'whom' (formal) to focus on the object of the sentence.",
@@ -107,7 +107,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "It-Cleft Sentences",
       instructions: "Choose the correct relative pronoun for emphasis.",
-      question: "The CEO made the decision. -> It was the CEO ___ made the decision.",
+      question: "[[The CEO made the decision. -> It was the CEO ___ made the decision.|El CEO tomó la decisión. -> Fue el CEO quien tomó la decisión.]]",
       options: ["who", "which", "that"],
       correctAnswer: "who",
       explanation: "Focusing on a person (The CEO) requires 'who' or 'that'.",
@@ -126,7 +126,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "It-Cleft Sentences",
       instructions: "Choose the correct relative pronoun for emphasis.",
-      question: "We met at the startup hub. -> It was at the startup hub ___ we met.",
+      question: "[[We met at the startup hub. -> It was at the startup hub ___ we met.|Nos conocimos en el centro de startups. -> Fue en el centro de startups donde nos conocimos.]]",
       options: ["that", "where", "which"],
       correctAnswer: "that",
       explanation: "In it-clefts focusing on place, 'that' is standard.",
@@ -145,7 +145,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "It-Cleft Sentences",
       instructions: "Choose the correct relative pronoun for emphasis.",
-      question: "She came up with the idea. -> It was she ___ came up with the idea.",
+      question: "[[She came up with the idea. -> It was she ___ came up with the idea.|A ella se le ocurrió la idea. -> Fue ella quien tuvo la idea.]]",
       options: ["who", "which", "what"],
       correctAnswer: "who",
       explanation: "Focus on 'she' (subject pronoun) followed by 'who'.",
@@ -164,7 +164,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "It-Cleft Sentences",
       instructions: "Choose the correct relative pronoun for emphasis.",
-      question: "He won the prize for his app. -> It was for his app ___ he won the prize.",
+      question: "[[He won the prize for his app. -> It was for his app ___ he won the prize.|Ganó el premio por su aplicación. -> Fue por su aplicación que ganó el premio.]]",
       options: ["that", "which", "what"],
       correctAnswer: "that",
       explanation: "Focusing on the reason/object 'for his app'.",
@@ -183,7 +183,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "It-Cleft Sentences",
       instructions: "Choose the correct relative pronoun for emphasis.",
-      question: "The team worked all night. -> It was the team ___ worked all night.",
+      question: "[[The team worked all night. -> It was the team ___ worked all night.|El equipo trabajó toda la noche. -> Fue el equipo el que trabajó toda la noche.]]",
       options: ["that", "who", "which"],
       correctAnswer: "that",
       explanation: "Groups can be referred to with 'that' or 'who'.",
@@ -204,7 +204,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Wh-Cleft Sentences",
       instructions: "Start the sentence with the correct Wh-word for emphasis.",
-      question: "I need a holiday. -> ___ I need is a holiday.",
+      question: "[[I need a holiday. -> ___ I need is a holiday.|Necesito unas vacaciones. -> Lo que necesito son unas vacaciones.]]",
       correctAnswer: "What",
       explanation: "Wh-cleft sentences often start with 'What' to emphasize the object or action.",
       translation: "Necesito unas vacaciones. -> Lo que necesito son unas vacaciones.",
@@ -222,7 +222,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Wh-Cleft Sentences",
       instructions: "Start the sentence with the correct Wh-word for emphasis.",
-      question: "She wants more responsibility. -> ___ she wants is more responsibility.",
+      question: "[[She wants more responsibility. -> ___ she wants is more responsibility.|Ella quiere más responsabilidad. -> Lo que ella quiere es más responsabilidad.]]",
       correctAnswer: "What",
       explanation: "Emphasizing the thing desired.",
       translation: "Ella quiere más responsabilidad. -> Lo que ella quiere es más responsabilidad.",
@@ -240,7 +240,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Wh-Cleft Sentences",
       instructions: "Fill in the correct Wh-word.",
-      question: "___ we love about the job is the flexibility.",
+      question: "[[___ we love about the job is the flexibility.|Lo que nos encanta del trabajo es la flexibilidad.]]",
       correctAnswer: "What",
       explanation: "'What' functions as the subject relative pronoun here.",
       translation: "Lo que nos encanta del trabajo es la flexibilidad.",
@@ -258,7 +258,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Wh-Cleft Sentences",
       instructions: "Fill in the correct Wh-word.",
-      question: "___ he said was 'no'.",
+      question: "[[___ he said was 'no'.|Lo que dijo fue 'no'.]]",
       correctAnswer: "What",
       explanation: "Emphasizing the statement made.",
       translation: "Lo que dijo fue 'no'.",
@@ -276,7 +276,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Wh-Cleft Sentences",
       instructions: "Fill in the correct Wh-word.",
-      question: "___ they did was start a new brand.",
+      question: "[[___ they did was start a new brand.|Lo que hicieron fue lanzar una nueva marca.]]",
       correctAnswer: "What",
       explanation: "Emphasizing the action performed.",
       translation: "Lo que hicieron fue lanzar una nueva marca.",
@@ -294,7 +294,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Wh-Cleft Sentences",
       instructions: "Fill in the correct Wh-word.",
-      question: "___ the company needs is better marketing.",
+      question: "[[___ the company needs is better marketing.|Lo que la empresa necesita es un mejor marketing.]]",
       correctAnswer: "What",
       explanation: "Emphasizing the requirement.",
       translation: "Lo que la empresa necesita es un mejor marketing.",
@@ -312,7 +312,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Wh-Cleft Sentences",
       instructions: "Fill in the correct Wh-word.",
-      question: "___ I hate is being late.",
+      question: "[[___ I hate is being late.|Lo que odio es llegar tarde.]]",
       correctAnswer: "What",
       explanation: "Emphasizing the dislike.",
       translation: "Lo que odio es llegar tarde.",
@@ -330,7 +330,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Wh-Cleft Sentences",
       instructions: "Fill in the correct Wh-word.",
-      question: "___ we discussed was the budget.",
+      question: "[[___ we discussed was the budget.|Lo que discutimos fue el presupuesto.]]",
       correctAnswer: "What",
       explanation: "Emphasizing the topic of discussion.",
       translation: "Lo que discutimos fue el presupuesto.",
@@ -348,7 +348,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Wh-Cleft Sentences",
       instructions: "Fill in the correct Wh-word.",
-      question: "___ he forgot was the meeting time.",
+      question: "[[___ he forgot was the meeting time.|Lo que olvidó fue la hora de la reunión.]]",
       correctAnswer: "What",
       explanation: "Emphasizing the forgotten item.",
       translation: "Lo que olvidó fue la hora de la reunión.",
@@ -366,7 +366,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Wh-Cleft Sentences",
       instructions: "Fill in the correct Wh-word.",
-      question: "___ she realized was that she needed help.",
+      question: "[[___ she realized was that she needed help.|Lo que se dio cuenta fue que necesitaba ayuda.]]",
       correctAnswer: "What",
       explanation: "Emphasizing the realization.",
       translation: "Lo que se dio cuenta fue que necesitaba ayuda.",
@@ -386,7 +386,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Startup Terms",
       instructions: "Fill in the blank.",
-      question: "He is a successful serial ___ (entrepreneur).",
+      question: "[[He is a successful serial ___ (entrepreneur).|Es un emprendedor en serie de éxito.]]",
       correctAnswer: "entrepreneur",
       explanation: "An entrepreneur is someone who starts a business.",
       translation: "Es un emprendedor en serie de éxito.",
@@ -404,7 +404,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Startup Terms",
       instructions: "Fill in the blank.",
-      question: "The startup secured a seed ___ (funding) round.",
+      question: "[[The startup secured a seed ___ (funding) round.|La startup aseguró una ronda de financiación semilla.]]",
       correctAnswer: "funding",
       explanation: "Funding refers to the money provided for a business.",
       translation: "La startup aseguró una ronda de financiación semilla.",
@@ -422,7 +422,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Startup Terms",
       instructions: "Fill in the blank.",
-      question: "We need to pitch our idea to venture ___ (capitalists).",
+      question: "[[We need to pitch our idea to venture ___ (capitalists).|Necesitamos presentar nuestra idea a los capitalistas de riesgo.]]",
       correctAnswer: "capitalists",
       explanation: "Venture capitalists are investors who provide capital to startups.",
       translation: "Necesitamos presentar nuestra idea a los capitalistas de riesgo.",
@@ -440,7 +440,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Startup Terms",
       instructions: "Fill in the blank.",
-      question: "The company has a very high ___ (valuation).",
+      question: "[[The company has a very high ___ (valuation).|La empresa tiene una valoración muy alta.]]",
       correctAnswer: "valuation",
       explanation: "Valuation is the estimated worth of a company.",
       translation: "La empresa tiene una valoración muy alta.",
@@ -458,7 +458,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Startup Terms",
       instructions: "Fill in the blank.",
-      question: "They are looking for an angel ___ (investor).",
+      question: "[[They are looking for an angel ___ (investor).|Están buscando un inversor ángel.]]",
       correctAnswer: "investor",
       explanation: "An angel investor provides capital for a business start-up.",
       translation: "Están buscando un inversor ángel.",
@@ -476,7 +476,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Startup Terms",
       instructions: "Fill in the blank.",
-      question: "The app has a lot of ___ (potential) for growth.",
+      question: "[[The app has a lot of ___ (potential) for growth.|La aplicación tiene mucho potencial de crecimiento.]]",
       correctAnswer: "potential",
       explanation: "Potential means having the capacity to develop into something in the future.",
       translation: "La aplicación tiene mucho potencial de crecimiento.",
@@ -494,7 +494,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Startup Terms",
       instructions: "Fill in the blank.",
-      question: "We need to find our niche ___ (market).",
+      question: "[[We need to find our niche ___ (market).|Necesitamos encontrar nuestro nicho de mercado.]]",
       correctAnswer: "market",
       explanation: "A niche market is a specialized segment of the market.",
       translation: "Necesitamos encontrar nuestro nicho de mercado.",
@@ -512,7 +512,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Startup Terms",
       instructions: "Fill in the blank.",
-      question: "The startup is based in a tech ___ (incubator).",
+      question: "[[The startup is based in a tech ___ (incubator).|La startup tiene su sede en una incubadora tecnológica.]]",
       correctAnswer: "incubator",
       explanation: "An incubator helps new startups to develop.",
       translation: "La startup tiene su sede en una incubadora tecnológica.",
@@ -530,7 +530,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Startup Terms",
       instructions: "Fill in the blank.",
-      question: "They developed a ___ (prototype) of the product.",
+      question: "[[They developed a ___ (prototype) of the product.|Desarrollaron un prototipo del producto.]]",
       correctAnswer: "prototype",
       explanation: "A prototype is a first or preliminary model of something.",
       translation: "Desarrollaron un prototipo del producto.",
@@ -548,7 +548,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Startup Terms",
       instructions: "Fill in the blank.",
-      question: "The company went ___ (public) last year.",
+      question: "[[The company went ___ (public) last year.|La empresa salió a bolsa el año pasado.]]",
       correctAnswer: "public",
       explanation: "To 'go public' means to start selling shares to the general public.",
       translation: "La empresa salió a bolsa el año pasado.",
@@ -568,7 +568,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Business Strategy",
       instructions: "Choose the correct term.",
-      question: "We need a solid business ___.",
+      question: "[[We need a solid business ___.|Necesitamos un plan de negocios sólido.]]",
       options: ["plan", "map", "path"],
       correctAnswer: "plan",
       explanation: "A business plan describes the goals and strategy of a business.",
@@ -587,7 +587,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Business Strategy",
       instructions: "Choose the correct term.",
-      question: "The goal is to ___ the business quickly.",
+      question: "[[The goal is to ___ the business quickly.|El objetivo es escalar el negocio rápidamente.]]",
       options: ["scale", "grow", "make"],
       correctAnswer: "scale",
       explanation: "To scale means to grow a business in a proportional way.",
@@ -606,7 +606,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Business Strategy",
       instructions: "Choose the correct term.",
-      question: "We are trying to ___ the industry.",
+      question: "[[We are trying to ___ the industry.|Estamos tratando de irrumpir en la industria.]]",
       options: ["disrupt", "break", "change"],
       correctAnswer: "disrupt",
       explanation: "To disrupt an industry means to change it radically.",
@@ -625,7 +625,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Business Strategy",
       instructions: "Choose the correct term.",
-      question: "Customer ___ is our top priority.",
+      question: "[[Customer ___ is our top priority.|La adquisición de clientes es nuestra máxima prioridad.]]",
       options: ["acquisition", "buying", "taking"],
       correctAnswer: "acquisition",
       explanation: "Customer acquisition is the process of getting new customers.",
@@ -644,7 +644,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Business Strategy",
       instructions: "Choose the correct term.",
-      question: "We need to improve our ___ awareness.",
+      question: "[[We need to improve our ___ awareness.|Necesitamos mejorar nuestro reconocimiento de marca.]]",
       options: ["brand", "name", "face"],
       correctAnswer: "brand",
       explanation: "Brand awareness is how much people know about a brand.",
@@ -663,7 +663,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Business Strategy",
       instructions: "Choose the correct term.",
-      question: "The company has a competitive ___.",
+      question: "[[The company has a competitive ___.|La empresa tiene una ventaja competitiva.]]",
       options: ["edge", "side", "point"],
       correctAnswer: "edge",
       explanation: "A competitive edge is an advantage over competitors.",
@@ -682,7 +682,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Business Strategy",
       instructions: "Choose the correct term.",
-      question: "We are looking for a strategic ___.",
+      question: "[[We are looking for a strategic ___.|Estamos buscando una asociación estratégica.]]",
       options: ["partnership", "friendship", "link"],
       correctAnswer: "partnership",
       explanation: "A strategic partnership is a collaboration between two companies.",
@@ -701,7 +701,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Business Strategy",
       instructions: "Choose the correct term.",
-      question: "Our ___ has increased by 20%.",
+      question: "[[Our ___ has increased by 20%.|Nuestros ingresos han aumentado un 20%.]]",
       options: ["revenue", "money", "cash"],
       correctAnswer: "revenue",
       explanation: "Revenue is the total income produced by a business.",
@@ -720,7 +720,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Business Strategy",
       instructions: "Choose the correct term.",
-      question: "The ___ margin is quite low.",
+      question: "[[The ___ margin is quite low.|El margen de beneficio es bastante bajo.]]",
       options: ["profit", "gain", "win"],
       correctAnswer: "profit",
       explanation: "Profit is the amount of money made after costs.",
@@ -739,7 +739,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Business Strategy",
       instructions: "Choose the correct term.",
-      question: "We need to ___ our strategy.",
+      question: "[[We need to ___ our strategy.|Necesitamos pivotar nuestra estrategia.]]",
       options: ["pivot", "turn", "move"],
       correctAnswer: "pivot",
       explanation: "To pivot means to change direction in business strategy.",
@@ -760,7 +760,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (ENTREPRENEUR) spirit is strong here.",
+      question: "[[The ___ (ENTREPRENEUR) spirit is strong here.|El espíritu emprendedor es fuerte aquí.]]",
       correctAnswer: "entrepreneurial",
       explanation: "Adjective form of 'entrepreneur'.",
       translation: "El espíritu emprendedor es fuerte aquí.",
@@ -778,7 +778,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "We are looking for ___ (INNOVATE) solutions.",
+      question: "[[We are looking for ___ (INNOVATE) solutions.|Estamos buscando soluciones innovadoras.]]",
       correctAnswer: "innovative",
       explanation: "Adjective form of 'innovate'.",
       translation: "Estamos buscando soluciones innovadoras.",
@@ -796,7 +796,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (INVEST) was a huge success.",
+      question: "[[The ___ (INVEST) was a huge success.|La inversión fue un gran éxito.]]",
       correctAnswer: "investment",
       explanation: "Noun form of 'invest'.",
       translation: "La inversión fue un gran éxito.",
@@ -814,7 +814,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "There is a lot of ___ (COMPETE) in the market.",
+      question: "[[There is a lot of ___ (COMPETE) in the market.|Hay mucha competencia en el mercado.]]",
       correctAnswer: "competition",
       explanation: "Noun form of 'compete'.",
       translation: "Hay mucha competencia en el mercado.",
@@ -832,7 +832,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (GROWTH) of the company was rapid.",
+      question: "[[The ___ (GROWTH) of the company was rapid.|El crecimiento de la empresa fue rápido.]]",
       correctAnswer: "growth",
       explanation: "Noun form of 'grow' (provided as GROWTH in brackets, but sometimes asked to transform GROW).",
       translation: "El crecimiento de la empresa fue rápido.",
@@ -850,7 +850,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "He is a very ___ (AMBIT) founder.",
+      question: "[[He is a very ___ (AMBIT) founder.|Es un fundador muy ambicioso.]]",
       correctAnswer: "ambitious",
       explanation: "Adjective form of 'ambition'.",
       translation: "Es un fundador muy ambicioso.",
@@ -868,7 +868,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (PROFIT) of the venture is unclear.",
+      question: "[[The ___ (PROFIT) of the venture is unclear.|La rentabilidad del proyecto no está clara.]]",
       correctAnswer: "profitability",
       explanation: "The state of being profitable.",
       translation: "La rentabilidad del proyecto no está clara.",
@@ -886,7 +886,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "We need to improve our ___ (MARKET) strategy.",
+      question: "[[We need to improve our ___ (MARKET) strategy.|Necesitamos mejorar nuestra estrategia de marketing.]]",
       correctAnswer: "marketing",
       explanation: "The action of promoting and selling products.",
       translation: "Necesitamos mejorar nuestra estrategia de marketing.",
@@ -904,7 +904,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (PRODUCT) of the team is impressive.",
+      question: "[[The ___ (PRODUCT) of the team is impressive.|La productividad del equipo es impresionante.]]",
       correctAnswer: "productivity",
       explanation: "The effectiveness of productive effort.",
       translation: "La productividad del equipo es impresionante.",
@@ -922,7 +922,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "She showed great ___ (LEAD) in the crisis.",
+      question: "[[She showed great ___ (LEAD) in the crisis.|Mostró un gran liderazgo en la crisis.]]",
       correctAnswer: "leadership",
       explanation: "The action of leading a group.",
       translation: "Mostró un gran liderazgo en la crisis.",
