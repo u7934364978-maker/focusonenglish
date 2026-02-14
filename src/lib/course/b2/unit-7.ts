@@ -727,11 +727,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           "question": "[[She|Ella]] [[is|está]] [[looking|con]] [[forward|muchas]] [[to|ganas de]] _______ [[from| ]] [[university|graduarse]] [[next|el]] [[summer.|próximo verano.]]",
           "options": [
-            "[[graduating|graduarse]]",
+            "[[graduates|graduarse]]",
             "[[graduate|graduarse]]",
-            "[[graduates|graduarse]]"
+            "[[graduating|graduarse]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Looking forward to' va seguido siempre de un gerundio (-ing) o un sustantivo.",
           "audio": "audio/b2/unit-7/e26.mp3"
         }
@@ -781,11 +781,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           "question": "[[The|La]] [[university|universidad]] [[has|tiene]] [[a|una]] _______ [[for|por]] [[academic|su]] [[excellence.|excelencia académica.]]",
           "options": [
-            "[[reputation|reputación]]",
+            "[[repealing|derogación]]",
             "[[report|informe]]",
-            "[[repealing|derogación]]"
+            "[[reputation|reputación]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "A 'reputation' is the opinion that people have about someone or something.",
           "audio": "audio/b2/unit-7/e28.mp3"
         }
@@ -809,8 +809,8 @@ export const UNIT_7_EXERCISES: Exercise[] = [
           "question": "[[You|Deberías]] [[should|centrarte]] [[focus|en]] [[on|tus]] _______ [[rather|en]] [[than|lugar]] [[your|de]] [[weaknesses.|en tus debilidades.]]",
           "options": [
             "[[strengths|fortalezas]]",
-            "[[strangers|extraños]]",
-            "[[stresses|tensiones]]"
+            "[[stresses|tensiones]]",
+            "[[strangers|extraños]]"
           ],
           "correctAnswer": 0,
           "explanation": "'Strengths' son las cualidades o habilidades en las que alguien es particularmente bueno.",
@@ -835,11 +835,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           "question": "[[Despite|A pesar]] [[being|de]] [[tired,|estar cansada,]] [[she|ella]] _______ [[to|logró]] [[complete|completar]] [[the|la]] [[assignment.|tarea.]]",
           "options": [
-            "[[managed|logró]]",
             "[[succeeded|tuvo éxito]]",
+            "[[managed|logró]]",
             "[[achieved|alcanzó]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Manage' va seguido de 'to' + infinitivo, mientras que 'succeed' va seguido de 'in' + gerundio.",
           "audio": "audio/b2/unit-7/e30.mp3"
         }
@@ -862,11 +862,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           "question": "[[The|El]] [[teacher|profesor]] [[provided|nos]] [[us|dio]] [[with| ]] [[some| ]] [[useful|útiles]] _______ [[on|sobre]] [[our|nuestros]] [[essays.|ensayos.]]",
           "options": [
-            "[[feedback|comentarios/retroalimentación]]",
             "[[feedbag|bolsa de comida]]",
-            "[[backfeed|retroalimentación (técnico)]]"
+            "[[backfeed|retroalimentación (técnico)]]",
+            "[[feedback|comentarios/retroalimentación]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Feedback' es información sobre algo que has hecho que te dice lo bien que lo hiciste.",
           "audio": "audio/b2/unit-7/e31.mp3"
         }
@@ -889,11 +889,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           "question": "[[Neither|Ni]] [[the|los]] [[students|estudiantes]] _______ [[the|el]] [[teacher|profesor]] [[was|estaban]] [[aware|al tanto]] [[of|del]] [[the|cambio.]] [[change.| ]]",
           "options": [
-            "[[nor|ni]]",
+            "[[and|y]]",
             "[[or|o]]",
-            "[[and|y]]"
+            "[[nor|ni]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Neither' siempre se empareja con 'nor'.",
           "audio": "audio/b2/unit-7/e32.mp3"
         }
@@ -916,11 +916,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           "question": "[[It|Es]] [[is|es]] [[essential|esencial]] [[to| ]] [[take|participar]] [[part|en]] [[in| ]] _______ [[activities.|actividades.]]",
           "options": [
-            "[[extracurricular|extraescolares]]",
             "[[extraordinary|extraordinarias]]",
-            "[[extravagant|extravagantes]]"
+            "[[extravagant|extravagantes]]",
+            "[[extracurricular|extraescolares]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Las actividades 'extracurricular' son aquellas que no forman parte del plan de estudios normal.",
           "audio": "audio/b2/unit-7/e33.mp3"
         }
@@ -943,11 +943,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           "question": "[[I'd|Prefiero]] [[rather| ]] _______ [[in|en]] [[the|la]] [[library|biblioteca]] [[than|que]] [[at|en]] [[home.|casa.]]",
           "options": [
+            "[[studying|estudiar]]",
             "[[study|estudiar]]",
-            "[[to study|estudiar]]",
-            "[[studying|estudiar]]"
+            "[[to study|estudiar]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Would rather' va seguido del infinitivo sin 'to' (bare infinitive).",
           "audio": "audio/b2/unit-7/e34.mp3"
         }
@@ -970,11 +970,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           "question": "[[The|El]] [[course|curso]] _______ [[a|una]] [[wide|amplia]] [[range|gama]] [[of|de]] [[subjects...|temas...]]",
           "options": [
-            "[[covers|cubre]]",
             "[[uncovers|descubre]]",
-            "[[discovers|descubre]]"
+            "[[discovers|descubre]]",
+            "[[covers|cubre]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "En este contexto, 'covers' significa incluir o tratar un tema.",
           "audio": "audio/b2/unit-7/e35.mp3"
         }
@@ -997,11 +997,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           "question": "[[By|Para]] [[next|el]] [[month,|próximo mes,]] [[I|habré]] _______ [[English|inglés]] [[for|durante]] [[ten|diez]] [[years.|años.]]",
           "options": [
-            "[[will have been learning|habré estado aprendiendo]]",
             "[[will have learned|habré aprendido]]",
-            "[[will be learning|estaré aprendiendo]]"
+            "[[will be learning|estaré aprendiendo]]",
+            "[[will have been learning|habré estado aprendiendo]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "El futuro perfecto continuo se usa para mostrar cuánto tiempo habrá estado ocurriendo una acción en un punto del futuro.",
           "audio": "audio/b2/unit-7/e36.mp3"
         }
@@ -1051,11 +1051,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           "question": "_______ [[had|había]] [[the|entrado]] [[teacher|el]] [[entered|profesor]] [[the|en la]] [[room|habitación]] [[when...|cuando...]]",
           "options": [
-            "[[Hardly|Apenas]]",
+            "[[Hardest|Más duro]]",
             "[[Hard|Duro]]",
-            "[[Hardest|Más duro]]"
+            "[[Hardly|Apenas]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Hardly' seguido de inversión se usa para mostrar que una cosa sucedió casi inmediatamente después de otra.",
           "audio": "audio/b2/unit-7/e38.mp3"
         }
@@ -1078,11 +1078,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           "question": "[[She|Ella]] [[is|está]] _______ [[motivated|motivada]] [[to|para]] [[succeed|tener éxito]] [[in|en]] [[her|su]] [[academic|carrera]] [[career.|académica.]]",
           "options": [
+            "[[strongly|fuertemente]]",
             "[[highly|muy/altamente]]",
-            "[[deeply|profundamente]]",
-            "[[strongly|fuertemente]]"
+            "[[deeply|profundamente]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Highly' es la colocación más natural con 'motivated'.",
           "audio": "audio/b2/unit-7/e39.mp3"
         }
@@ -1106,8 +1106,8 @@ export const UNIT_7_EXERCISES: Exercise[] = [
           "question": "[[I|Sugiero]] [[suggest|que]] [[that|él]] [[he|él]] _______ [[a|un]] [[gap|año]] [[year|sabático]] [[before|antes de]] [[starting|empezar la]] [[university.|universidad.]]",
           "options": [
             "[[take|tome]]",
-            "[[takes|toma]]",
-            "[[taking|tomando]]"
+            "[[taking|tomando]]",
+            "[[takes|toma]]"
           ],
           "correctAnswer": 0,
           "explanation": "En inglés formal, 'suggest' puede ir seguido de una cláusula con la forma base del verbo (subjuntivo).",
@@ -1132,11 +1132,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           "question": "[[The|El]] [[student|estudiante]] [[was|fue]] _______ [[for|por]] [[cheating|hacer trampas]] [[during|durante]] [[the|el]] [[final|examen]] [[exam.|final.]]",
           "options": [
-            "[[expelled|expulsado]]",
+            "[[suspended|suspendido]]",
             "[[excluded|excluido]]",
-            "[[suspended|suspendido]]"
+            "[[expelled|expulsado]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Expelled' significa ser obligado oficialmente a abandonar una escuela u organización.",
           "audio": "audio/b2/unit-7/e41.mp3"
         }
@@ -1160,8 +1160,8 @@ export const UNIT_7_EXERCISES: Exercise[] = [
           "question": "_______ [[I|yo]] [[in|en]] [[your|tu]] [[position,|posición,]] [[I|yo]] [[would|elegiría]] [[choose|una]] [[a|carrera]] [[different|diferente.]] [[major.| ]]",
           "options": [
             "[[Were|Si fuera]]",
-            "[[Was|Si fuera]]",
-            "[[Am|Si fuera]]"
+            "[[Am|Si fuera]]",
+            "[[Was|Si fuera]]"
           ],
           "correctAnswer": 0,
           "explanation": "'Were I' es una forma más formal y literaria de decir 'If I were'.",
@@ -1186,11 +1186,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           "question": "[[The|Las]] _______ [[fees|tasas]] [[for|del]] [[the|nuevo]] [[new|curso]] [[course|son]] [[are|bastante]] [[quite|razonables.]] [[reasonable.| ]]",
           "options": [
-            "[[tuition|matrícula/enseñanza]]",
+            "[[intuition|intuición]]",
             "[[tutoring|tutoría]]",
-            "[[intuition|intuición]]"
+            "[[tuition|matrícula/enseñanza]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Tuition fees' es el término estándar para el coste de la enseñanza universitaria.",
           "audio": "audio/b2/unit-7/e43.mp3"
         }
@@ -1213,11 +1213,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           "question": "[[He|Él]] [[is|es]] [[capable|capaz]] _______ [[solving|de resolver]] [[complex|problemas]] [[mathematical|matemáticos]] [[problems.|complejos.]]",
           "options": [
-            "[[of|de]]",
+            "[[for|de]]",
             "[[to|de]]",
-            "[[for|de]]"
+            "[[of|de]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "El adjetivo 'capable' siempre va seguido de la preposición 'of' + gerundio.",
           "audio": "audio/b2/unit-7/e44.mp3"
         }
@@ -1241,8 +1241,8 @@ export const UNIT_7_EXERCISES: Exercise[] = [
           "question": "[[The|La]] [[student|estudiantil]] _______ [[represents|representa]] [[the|los]] [[interests|intereses]] [[of|de]] [[all|todos los]] [[students.|estudiantes.]]",
           "options": [
             "[[union|sindicato/unión]]",
-            "[[unit|unidad]]",
-            "[[uniform|uniforme]]"
+            "[[uniform|uniforme]]",
+            "[[unit|unidad]]"
           ],
           "correctAnswer": 0,
           "explanation": "El 'student union' es la organización que defiende los derechos de los alumnos.",
@@ -1267,11 +1267,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           "question": "_______ [[you|te]] [[were|ofrecieran]] [[offered|una]] [[a|beca,]] [[scholarship,|¿la]] [[would|aceptarías?]] [[you| ]] [[accept| ]] [[it?| ]]",
           "options": [
-            "[[Suppose|Supón/Supongamos]]",
             "[[Assuming|Asumiendo]]",
+            "[[Suppose|Supón/Supongamos]]",
             "[[Providing|Siempre que]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Suppose' se usa para pedir a alguien que imagine una situación hipotética.",
           "audio": "audio/b2/unit-7/e46.mp3"
         }
@@ -1294,11 +1294,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           "question": "[[The|El]] [[campus|campus]] [[has|tiene]] _______ [[facilities|instalaciones]] [[for|para]] [[sports.|deportes.]]",
           "options": [
-            "[[state-of-the-art|de última generación]]",
             "[[out-of-date|anticuadas]]",
-            "[[well-known|conocidas]]"
+            "[[well-known|conocidas]]",
+            "[[state-of-the-art|de última generación]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'State-of-the-art' describe algo que utiliza la tecnología o los métodos más modernos.",
           "audio": "audio/b2/unit-7/e47.mp3"
         }
@@ -1321,11 +1321,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           "question": "[[It|Vale]] [[is|la]] [[worth|pena]] _______ [[that|que]] [[the|el]] [[deadline|plazo]] [[has|ha]] [[been|sido]] [[extended.|ampliado.]]",
           "options": [
-            "[[noting|señalar]]",
             "[[to note|señalar]]",
+            "[[noting|señalar]]",
             "[[note|señalar]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "La expresión 'It is worth' siempre va seguida de un gerundio (-ing).",
           "audio": "audio/b2/unit-7/e48.mp3"
         }
@@ -1348,11 +1348,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           "question": "[[She|Ella]] [[has|tiene]] [[a|un]] _______ [[degree|título de máster]] [[in|en]] [[environmental|ciencias]] [[science.|ambientales.]]",
           "options": [
-            "[[master's|máster]]",
             "[[bachelor's|grado/licenciatura]]",
-            "[[doctoral|doctorado]]"
+            "[[doctoral|doctorado]]",
+            "[[master's|máster]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Un 'master's degree' es el siguiente nivel académico después del 'bachelor's degree'.",
           "audio": "audio/b2/unit-7/e49.mp3"
         }
@@ -1375,11 +1375,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           "question": "_______ [[that|que]] [[you|estudies]] [[study|mucho,]] [[hard,|aprobarás]] [[you|el]] [[will|examen.]] [[pass| ]] [[the| ]] [[exam.| ]]",
           "options": [
-            "[[Provided|Siempre que]]",
+            "[[Despite|A pesar de]]",
             "[[Unless|A menos que]]",
-            "[[Despite|A pesar de]]"
+            "[[Provided|Siempre que]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Provided that' se usa para establecer una condición necesaria.",
           "audio": "audio/b2/unit-7/e50.mp3"
         }

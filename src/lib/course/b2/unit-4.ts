@@ -761,11 +761,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           "question": "[[I've|He]] [[been|estado]] [[feeling|sintiéndome]] [[_______|un poco mal]] [[lately,|últimamente...]]",
           "options": [
-            "[[under the weather|un poco mal]]",
             "[[over the moon|muy feliz]]",
+            "[[under the weather|un poco mal]]",
             "[[on the mend|recuperándome]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Under the weather' is an idiom meaning slightly unwell or in low spirits.",
           "audio": "audio/b2/unit-4/e26.mp3"
         }
@@ -788,11 +788,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           "question": "[[You|Deberías]] [[_______|ir a]] [[to| ]] [[see|ver]] [[a|a un]] [[specialist...|especialista...]]",
           "options": [
-            "[[ought|deberías]]",
             "[[must|debes]]",
-            "[[should|deberías]]"
+            "[[should|deberías]]",
+            "[[ought|deberías]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Ought to' is used to give advice or make recommendations.",
           "audio": "audio/b2/unit-4/e27.mp3"
         }
@@ -815,11 +815,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           "question": "[[It's|Es]] [[hard|difícil]] [[to| ]] [[_______|recuperarse de]] [[a|un]] [[cold|resfriado]] [[during|durante]] [[the|los]] [[winter|meses]] [[months.|de invierno.]]",
           "options": [
-            "[[get over|recuperarse]]",
             "[[get through|pasar por]]",
+            "[[get over|recuperarse]]",
             "[[get by|apañárselas]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Get over' means to recover from an illness or a difficult experience.",
           "audio": "audio/b2/unit-4/e28.mp3"
         }
@@ -842,11 +842,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           "question": "[[You|No]] [[_______|hace falta]] [[worry|que te preocupes]] [[about|por]] [[the|los]] [[test|resultados]] [[results;|de la prueba.]]",
           "options": [
+            "[[shouldn't|no deberías]]",
             "[[needn't|no es necesario]]",
-            "[[mustn't|está prohibido]]",
-            "[[shouldn't|no deberías]]"
+            "[[mustn't|está prohibido]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Needn't' is used to show that there is no obligation or necessity.",
           "audio": "audio/b2/unit-4/e29.mp3"
         }
@@ -923,11 +923,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           "question": "[[Regular|Los]] [[_______|chequeos]] [[are|regulares]] [[essential|son]] [[to|esenciales]] [[catch|para detectar]] [[any|problemas.]] [[problems| ]] [[early.| ]]",
           "options": [
-            "[[check-ups|revisiones]]",
             "[[check-ins|registros]]",
+            "[[check-ups|revisiones]]",
             "[[check-outs|salidas]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "A 'check-up' is a general medical examination to ensure you are healthy.",
           "audio": "audio/b2/unit-4/e32.mp3"
         }
@@ -951,8 +951,8 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           "question": "[[It's|Ya]] [[about|va]] [[time|siendo]] [[you|hora]] [[_______|que empezaras]] [[taking|a tomarte]] [[your|tu]] [[health|salud]] [[seriously.|en serio.]]",
           "options": [
             "[[started|empezaras]]",
-            "[[start|empieces]]",
-            "[[will start|empezarás]]"
+            "[[will start|empezarás]]",
+            "[[start|empieces]]"
           ],
           "correctAnswer": 0,
           "explanation": "'It's (about/high) time' is followed by the past simple to express that something should have happened already.",
@@ -1031,11 +1031,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           "question": "[[The|El]] [[surgeon|cirujano]] [[_______|realizó]] [[a|una]] [[life-saving|operación]] [[operation|que salvó la vida]] [[on|al]] [[the|paciente.]] [[patient.| ]]",
           "options": [
+            "[[did|hizo]]",
             "[[performed|realizó]]",
-            "[[made|hizo]]",
-            "[[did|hizo]]"
+            "[[made|hizo]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Perform' is the formal verb used for operations or medical procedures.",
           "audio": "audio/b2/unit-4/e36.mp3"
         }
@@ -1058,11 +1058,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           "question": "[[He|Es]] [[is|_______]] [[likely|probable]] [[to|que]] [[make|se]] [[a|recupere]] [[full|totalmente.]] [[recovery.| ]]",
           "options": [
-            "[[likely|probable]]",
             "[[possibly|posiblemente]]",
+            "[[likely|probable]]",
             "[[maybe|tal vez]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Is likely to' is a common structure to express probability.",
           "audio": "audio/b2/unit-4/e37.mp3"
         }
@@ -1085,11 +1085,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           "question": "[[I've|Me]] [[been|he]] [[feeling|estado]] [[quite|sintiendo]] [[_______|lento y sin energía]] [[lately.|últimamente.]]",
           "options": [
-            "[[sluggish|apático]]",
             "[[sleazy|descuidado]]",
-            "[[slender|esbelto]]"
+            "[[slender|esbelto]]",
+            "[[sluggish|apático]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Sluggish' describes a lack of energy or alertness.",
           "audio": "audio/b2/unit-4/e38.mp3"
         }
@@ -1113,8 +1113,8 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           "question": "[[_______|Supongamos]] [[you|que]] [[were|fueras]] [[unable|incapaz]] [[to|de]] [[walk,|caminar...]]",
           "options": [
             "[[Suppose|Supongamos]]",
-            "[[Imagine|Imagina]]",
-            "[[Think|Piensa]]"
+            "[[Think|Piensa]]",
+            "[[Imagine|Imagina]]"
           ],
           "correctAnswer": 0,
           "explanation": "'Suppose' is used to ask someone to imagine a hypothetical situation.",
@@ -1140,8 +1140,8 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           "question": "[[The|El]] [[patient's|estado]] [[condition|del]] [[is|paciente]] [[_______|es estable.]]",
           "options": [
             "[[stable|estable]]",
-            "[[static|estático]]",
-            "[[steady|constante]]"
+            "[[steady|constante]]",
+            "[[static|estático]]"
           ],
           "correctAnswer": 0,
           "explanation": "In medical terms, 'stable' means the condition is not getting worse.",
@@ -1167,8 +1167,8 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           "question": "[[_______|Siempre]] [[that|que]] [[you|sigas]] [[follow|el]] [[the|tratamiento,]] [[treatment,|te recuperarás.]]",
           "options": [
             "[[Provided|Siempre que]]",
-            "[[Unless|A menos que]]",
-            "[[Whether|Si]]"
+            "[[Whether|Si]]",
+            "[[Unless|A menos que]]"
           ],
           "correctAnswer": 0,
           "explanation": "'Provided that' expresses a condition necessary for a result.",
@@ -1221,8 +1221,8 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           "question": "[[If|Ojalá]] [[only|no]] [[I|me]] [[_______|hubiera saltado]] [[skipped|mi]] [[my|entrenamiento...]]",
           "options": [
             "[[hadn't|no me hubiera]]",
-            "[[haven't|no me haya]]",
-            "[[didn't|no me]]"
+            "[[didn't|no me]]",
+            "[[haven't|no me haya]]"
           ],
           "correctAnswer": 0,
           "explanation": "'If only' + past perfect is used to express regret about a past situation.",
@@ -1247,11 +1247,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           "question": "[[Many|Mucha]] [[people|gente]] [[use|usa]] [[_______|remedios herbales]] [[to|para]] [[complement|complementar]] [[conventional|la medicina]] [[medicine.|convencional.]]",
           "options": [
+            "[[urban remedies|remedios urbanos]]",
             "[[herbal remedies|remedios herbales]]",
-            "[[verbal remedies|remedios verbales]]",
-            "[[urban remedies|remedios urbanos]]"
+            "[[verbal remedies|remedios verbales]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Herbal remedies' are medicines made from plants.",
           "audio": "audio/b2/unit-4/e44.mp3"
         }
@@ -1274,11 +1274,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           "question": "[[_______|A menos que]] [[you|tomes]] [[take|medidas]] [[steps|para]] [[to|reducir]] [[reduce|el]] [[stress,|estrés...]]",
           "options": [
-            "[[Unless|A menos que]]",
+            "[[Whether|Si]]",
             "[[If|Si]]",
-            "[[Whether|Si]]"
+            "[[Unless|A menos que]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Unless' is used to say that something will happen if another thing does not happen.",
           "audio": "audio/b2/unit-4/e45.mp3"
         }
@@ -1301,11 +1301,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           "question": "[[The|El]] [[patient|paciente]] [[is|está]] [[responding|respondiendo]] [[well|bien]] [[_______|al]] [[the|nuevo]] [[new|tratamiento.]] [[treatment.| ]]",
           "options": [
-            "[[to|al]]",
+            "[[with| ]]",
             "[[at| ]]",
-            "[[with| ]]"
+            "[[to|al]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "The verb 'respond' is followed by the preposition 'to'.",
           "audio": "audio/b2/unit-4/e46.mp3"
         }
@@ -1328,11 +1328,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           "question": "[[I'd|Preferiría]] [[rather|que]] [[you|no]] [[_______|hablaras]] [[about|de mi]] [[my|historial]] [[medical|médico...]]",
           "options": [
+            "[[not talk|hables]]",
             "[[didn't talk|hablaras]]",
-            "[[don't talk|hables]]",
-            "[[not talk|hables]]"
+            "[[don't talk|hables]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "We use 'would rather' + subject + past simple to talk about current preferences for someone else.",
           "audio": "audio/b2/unit-4/e47.mp3"
         }
@@ -1355,11 +1355,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           "question": "[[_______|El autocuidado]] [[is|es]] [[vital|vital]] [[for|para]] [[maintaining|mantener]] [[a|un]] [[healthy|equilibrio.]] [[balance.| ]]",
           "options": [
-            "[[Self-care|Autocuidado]]",
             "[[Self-help|Autoayuda]]",
-            "[[Self-worth|Autoestima]]"
+            "[[Self-worth|Autoestima]]",
+            "[[Self-care|Autocuidado]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Self-care' is the practice of taking an active role in protecting one's own well-being and happiness.",
           "audio": "audio/b2/unit-4/e48.mp3"
         }
@@ -1382,11 +1382,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           "question": "[[_______|Supongamos]] [[we|que]] [[were|fuéramos]] [[to|a]] [[increase|aumentar]] [[funding|los fondos...]]",
           "options": [
-            "[[Suppose|Supongamos]]",
             "[[Believe|Cree]]",
+            "[[Suppose|Supongamos]]",
             "[[Forget|Olvida]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Suppose' can be used to introduce a suggestion or a hypothesis.",
           "audio": "audio/b2/unit-4/e49.mp3"
         }
@@ -1409,11 +1409,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           "question": "[[She's|Ella]] [[finally|finalmente]] [[_______|está recuperándose]] [[after|después]] [[a|de]] [[long|una]] [[illness.|enfermedad.]]",
           "options": [
-            "[[on the mend|recuperándose]]",
             "[[under the weather|enferma]]",
-            "[[on the run|huyendo]]"
+            "[[on the run|huyendo]]",
+            "[[on the mend|recuperándose]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'On the mend' is an idiom meaning improving in health or condition; recovering.",
           "audio": "audio/b2/unit-4/e50.mp3"
         }

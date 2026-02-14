@@ -789,11 +789,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           "question": "[[I've|Siempre]] [[always|he]] [[wanted|querido]] [[to|hacer]] [[go|un]] [[on|viaje]] [[a| ]] [[_______|alrededor del mundo]] [[trip.|.]]",
           "options": [
+            "[[round-the-clock|las 24 horas]]",
             "[[round-the-world|alrededor del mundo]]",
-            "[[round-the-block|alrededor de la manzana]]",
-            "[[round-the-clock|las 24 horas]]"
+            "[[round-the-block|alrededor de la manzana]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "A 'round-the-world' trip covers many countries across the globe.",
           "audio": "audio/b2/unit-5/e26.mp3"
         }
@@ -816,11 +816,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           "question": "[[By|Para]] [[next|la]] [[week,|semana que viene,]] [[we|nosotros]] [[_______|habremos estado viajando]] [[for|durante]] [[three|tres]] [[months.|meses.]]",
           "options": [
-            "[[will have been traveling|habremos estado viajando]]",
+            "[[will have traveled|habremos viajado]]",
             "[[will be traveling|estaremos viajando]]",
-            "[[will have traveled|habremos viajado]]"
+            "[[will have been traveling|habremos estado viajando]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Future Perfect Continuous is used to show the duration of an action at a certain time in the future.",
           "audio": "audio/b2/unit-5/e27.mp3"
         }
@@ -843,11 +843,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           "question": "[[The|El]] [[resort|complejo]] [[offers|ofrece]] [[a|una]] [[wide|amplia]] [[range|gama]] [[of|de]] [[_______| ]] [[activities.|actividades de ocio.]]",
           "options": [
-            "[[leisure|ocio]]",
             "[[labor|trabajo]]",
-            "[[lecture|conferencia]]"
+            "[[lecture|conferencia]]",
+            "[[leisure|ocio]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Leisure' refers to time when you are not working and can relax.",
           "audio": "audio/b2/unit-5/e28.mp3"
         }
@@ -870,11 +870,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] [[wish|desearía]] [[_______|haber traído]] [[a|una]] [[warmer|chaqueta]] [[jacket|más]] [[for|abrigada]] [[this|para]] [[trip.|este viaje.]]",
           "options": [
-            "[[I had brought|haber traído]]",
             "[[I brought|traer]]",
-            "[[I would bring|traería]]"
+            "[[I would bring|traería]]",
+            "[[I had brought|haber traído]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Wish + Past Perfect' is used for regrets about the past.",
           "audio": "audio/b2/unit-5/e29.mp3"
         }
@@ -898,8 +898,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           "question": "[[We|Nosotros]] [[_______|partimos]] [[early|temprano]] [[in|por]] [[the|la]] [[morning|mañana]] [[to|para]] [[beat|evitar]] [[the|el]] [[traffic.|tráfico.]]",
           "options": [
             "[[set off|partimos/salimos]]",
-            "[[set up|configuramos]]",
-            "[[set in|se estableció]]"
+            "[[set in|se estableció]]",
+            "[[set up|configuramos]]"
           ],
           "correctAnswer": 0,
           "explanation": "'Set off' means to begin a journey.",
@@ -952,8 +952,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           "question": "[[The|La]] [[city|ciudad]] [[is|es]] [[famous|famosa]] [[_______|por]] [[its|su]] [[vibrant|vibrante]] [[nightlife.|vida nocturna.]]",
           "options": [
             "[[for|por]]",
-            "[[of|de]]",
-            "[[with|con]]"
+            "[[with|con]]",
+            "[[of|de]]"
           ],
           "correctAnswer": 0,
           "explanation": "'Famous' is always followed by the preposition 'for'.",
@@ -978,11 +978,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           "question": "[[_______|A menos que]] [[we|nos]] [[leave|vayamos]] [[now,|ahora,]] [[we|perderemos]] [[will|nuestra]] [[miss|conexión.]] [[our| ]] [[connection.| ]]",
           "options": [
-            "[[Unless|A menos que]]",
             "[[If|Si]]",
-            "[[Provided|Siempre que]]"
+            "[[Provided|Siempre que]]",
+            "[[Unless|A menos que]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Unless' introduces a negative condition.",
           "audio": "audio/b2/unit-5/e33.mp3"
         }
@@ -1005,11 +1005,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           "question": "[[I'm|Voy]] [[going|a]] [[to|comprar]] [[get|un]] [[a| ]] [[_______|recuerdo]] [[for|para]] [[my|mi]] [[family.|familia.]]",
           "options": [
-            "[[souvenir|recuerdo/souvenir]]",
             "[[signature|firma]]",
-            "[[standard|estándar]]"
+            "[[standard|estándar]]",
+            "[[souvenir|recuerdo/souvenir]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "A 'souvenir' is something you buy to help you remember a place you have visited.",
           "audio": "audio/b2/unit-5/e34.mp3"
         }
@@ -1032,11 +1032,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           "question": "[[Would|¿Te]] [[you|importaría]] [[mind| ]] [[_______|mostrarme]] [[me|dónde]] [[where|está]] [[the|la]] [[nearest|estación]] [[metro|de metro]] [[station|más]] [[is?|cercana?]]",
           "options": [
+            "[[show|mostrarme]]",
             "[[showing|mostrarme]]",
-            "[[to show|mostrarme]]",
-            "[[show|mostrarme]]"
+            "[[to show|mostrarme]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Mind' is followed by a gerund (-ing).",
           "audio": "audio/b2/unit-5/e35.mp3"
         }
@@ -1059,11 +1059,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           "question": "[[We|Necesitamos]] [[need| ]] [[to| ]] [[_______|dejar el hotel]] [[before|antes]] [[noon.|del mediodía.]]",
           "options": [
-            "[[check out|dejar el hotel]]",
+            "[[check through|revisar]]",
             "[[check in|registrarse]]",
-            "[[check through|revisar]]"
+            "[[check out|dejar el hotel]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Check out' means to leave a hotel after paying the bill.",
           "audio": "audio/b2/unit-5/e36.mp3"
         }
@@ -1086,11 +1086,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           "question": "[[It's|Ya]] [[high|va]] [[time|siendo]] [[you|hora de que]] [[_______|visitaras]] [[your|a tus]] [[grandparents...|abuelos...]]",
           "options": [
+            "[[will visit|visitarás]]",
             "[[visited|visitaras]]",
-            "[[visit|visites]]",
-            "[[will visit|visitarás]]"
+            "[[visit|visites]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'It's high time' is followed by the past simple to show that something should have happened already.",
           "audio": "audio/b2/unit-5/e37.mp3"
         }
@@ -1113,11 +1113,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           "question": "[[The|El]] [[flight|vuelo]] [[was|fue]] [[canceled|cancelado]] [[_______|debido]] [[to|al]] [[bad|mal]] [[weather.|tiempo.]]",
           "options": [
-            "[[due|debido]]",
             "[[owing|debido]]",
+            "[[due|debido]]",
             "[[because|porque]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Due to' is used to give a reason for something.",
           "audio": "audio/b2/unit-5/e38.mp3"
         }
@@ -1140,11 +1140,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           "question": "[[_______|Supongamos]] [[you|que]] [[could|pudieras]] [[travel|viajar]] [[anywhere...|a cualquier lugar...]]",
           "options": [
-            "[[Suppose|Supongamos]]",
             "[[Imagine|Imagina]]",
+            "[[Suppose|Supongamos]]",
             "[[Think|Piensa]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Suppose' is used to ask someone to imagine a hypothetical situation.",
           "audio": "audio/b2/unit-5/e39.mp3"
         }
@@ -1168,8 +1168,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           "question": "[[We|Hicimos]] [[went|un]] [[on| ]] [[a| ]] [[_______|tour guiado]] [[of|por]] [[the|el]] [[historic|centro]] [[city| ]] [[center.|histórico.]]",
           "options": [
             "[[guided tour|tour guiado]]",
-            "[[guided trip|viaje guiado]]",
-            "[[guided walk|caminata guiada]]"
+            "[[guided walk|caminata guiada]]",
+            "[[guided trip|viaje guiado]]"
           ],
           "correctAnswer": 0,
           "explanation": "A 'guided tour' is a short journey through a place with someone who explains what you are seeing.",
@@ -1195,8 +1195,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           "question": "[[_______|Siempre que]] [[that|que]] [[the|el]] [[weather|tiempo]] [[stays|se]] [[clear,|mantenga despejado,]] [[we|iremos]] [[will|de]] [[go|senderismo.]] [[hiking.| ]]",
           "options": [
             "[[Provided|Siempre que]]",
-            "[[Unless|A menos que]]",
-            "[[Whether|Si]]"
+            "[[Whether|Si]]",
+            "[[Unless|A menos que]]"
           ],
           "correctAnswer": 0,
           "explanation": "'Provided that' means 'if' or 'only if'.",
@@ -1221,11 +1221,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           "question": "[[The|Los]] [[local|habitantes]] [[inhabitants|locales]] [[were|fueron]] [[extremely|extremadamente]] [[_______|hospitalarios]] [[to|con]] [[the|los]] [[travelers.|viajeros.]]",
           "options": [
-            "[[hospitable|hospitalarios]]",
             "[[hostile|hostiles]]",
-            "[[hospitalized|hospitalizados]]"
+            "[[hospitalized|hospitalizados]]",
+            "[[hospitable|hospitalarios]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Hospitable' means friendly and welcoming to guests.",
           "audio": "audio/b2/unit-5/e42.mp3"
         }
@@ -1248,11 +1248,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           "question": "[[_______|Si]] [[you|tú]] [[need|necesitara]] [[any|alguna]] [[assistance,|asistencia...]]",
           "options": [
+            "[[Could|Si]]",
             "[[Should|Si]]",
-            "[[Would|Si]]",
-            "[[Could|Si]]"
+            "[[Would|Si]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Should' at the beginning of a sentence is a formal conditional.",
           "audio": "audio/b2/unit-5/e43.mp3"
         }
@@ -1302,11 +1302,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           "question": "[[It|No]] [[is|sirve]] [[no|de]] [[use|nada]] [[_______|esperar]] [[for|al]] [[the|autobús.]] [[bus;| ]]",
           "options": [
-            "[[waiting|esperar]]",
             "[[to wait|esperar]]",
-            "[[wait|esperar]]"
+            "[[wait|esperar]]",
+            "[[waiting|esperar]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'It is no use' is followed by a gerund (-ing).",
           "audio": "audio/b2/unit-5/e45.mp3"
         }
@@ -1329,11 +1329,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           "question": "[[_______|Las opciones de viaje ecológico]] [[are|se están]] [[becoming|volviendo]] [[more|más]] [[accessible.|accesibles.]]",
           "options": [
-            "[[eco-friendly| ]]",
+            "[[echo-sounding| ]]",
             "[[economy| ]]",
-            "[[echo-sounding| ]]"
+            "[[eco-friendly| ]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Eco-friendly' means not harmful to the environment.",
           "audio": "audio/b2/unit-5/e46.mp3"
         }
@@ -1356,11 +1356,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           "question": "[[_______|De no ser por]] [[the|el]] [[GPS,|GPS,]] [[we|nos]] [[would|habríamos]] [[have|perdido.]] [[got| ]] [[lost| ]]",
           "options": [
+            "[[Save for|A salvo de]]",
             "[[But for|De no ser por]]",
-            "[[Except for|Excepto por]]",
-            "[[Save for|A salvo de]]"
+            "[[Except for|Excepto por]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'But for' is a formal conditional structure.",
           "audio": "audio/b2/unit-5/e47.mp3"
         }
@@ -1384,8 +1384,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           "question": "[[The|El]] [[hotel|hotel]] [[provides|proporciona]] [[a|un]] [[_______|servicio de traslado.]]",
           "options": [
             "[[shuttle service|servicio de traslado]]",
-            "[[shuffle service|servicio de barajado]]",
-            "[[shatter service|servicio de rotura]]"
+            "[[shatter service|servicio de rotura]]",
+            "[[shuffle service|servicio de barajado]]"
           ],
           "correctAnswer": 0,
           "explanation": "A 'shuttle service' is a regular transport service that travels between two places.",
@@ -1410,11 +1410,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           "question": "[[_______|Apenas]] [[had|habíamos]] [[we|nosotros]] [[boarded|subido]] [[the|al]] [[plane|avión]] [[when|cuando...]]",
           "options": [
+            "[[Barely|Apenas]]",
             "[[Hardly|Apenas]]",
-            "[[Rarely|Rara vez]]",
-            "[[Barely|Apenas]]"
+            "[[Rarely|Rara vez]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Hardly had we...' is a formal inversion structure.",
           "audio": "audio/b2/unit-5/e49.mp3"
         }
@@ -1437,11 +1437,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           "question": "[[Exploring|Explorar]] [[the|el]] [[world|mundo]] [[helps|ayuda]] [[to|a]] [[_______|ampliar]] [[your|tus]] [[horizons.|horizontes.]]",
           "options": [
-            "[[broaden|ampliar]]",
             "[[brighten|iluminar]]",
-            "[[break|romper]]"
+            "[[break|romper]]",
+            "[[broaden|ampliar]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "To 'broaden your horizons' means to expand your knowledge, experience, or range of activities.",
           "audio": "audio/b2/unit-5/e50.mp3"
         }
