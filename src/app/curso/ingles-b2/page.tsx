@@ -57,7 +57,7 @@ export default async function B2CoursePage() {
               Curso <span className="text-[#FF6B6B]">Inglés B2</span>
             </h1>
             <p className="text-xl text-slate-600">
-              60 Unidades y 6,000 Ejercicios de nivel Real B2 (Upper Intermediate).
+              30 Unidades y 1,500 Ejercicios de nivel Real B2 (Upper Intermediate).
             </p>
           </div>
 
@@ -180,7 +180,7 @@ export default async function B2CoursePage() {
                 <div className="relative z-10">
                   <h3 className="text-2xl font-black mb-4">Práctica Aleatoria</h3>
                   <p className="text-blue-100 text-sm mb-6">
-                    Mezclamos ejercicios de las 60 unidades para un desafío extra.
+                    Mezclamos ejercicios de las 30 unidades para un desafío extra.
                   </p>
                   
                   <Link 
