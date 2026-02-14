@@ -39,8 +39,11 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
     details?: string;
   } | null>(null);
 
+  const [mounted, setMounted] = useState(false);
+
   // Animación de entrada y reset de estado cuando cambia el ejercicio
   useEffect(() => {
+    setMounted(true);
     // Reset completo del estado solo cuando cambia el ejercicio
     setUserAnswer(null);
     setSubmitted(false);
@@ -464,16 +467,25 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                                 <TranslatedText text={typeof option === 'string' ? option : option.text} />
                               </div>
                               {typeof option === 'object' && option.audio && (
-                                <button
+                                <div
+                                  role="button"
+                                  tabIndex={0}
                                   onClick={(e) => {
                                     e.stopPropagation();
                                     const audio = new Audio(option.audio);
                                     audio.play().catch(err => console.error('Error playing audio:', err));
                                   }}
-                                  className="p-2 bg-orange-100 text-orange-600 rounded-full hover:bg-orange-200 transition-all transform hover:scale-110 active:scale-95"
+                                  onKeyDown={(e) => {
+                                    if (e.key === 'Enter' || e.key === ' ') {
+                                      e.stopPropagation();
+                                      const audio = new Audio(option.audio);
+                                      audio.play().catch(err => console.error('Error playing audio:', err));
+                                    }
+                                  }}
+                                  className="p-2 bg-orange-100 text-orange-600 rounded-full hover:bg-orange-200 transition-all transform hover:scale-110 active:scale-95 cursor-pointer"
                                 >
                                   <Volume2 className="w-4 h-4" />
-                                </button>
+                                </div>
                               )}
                               {showAsCorrect && <CheckCircle className="ml-2 w-6 h-6 text-green-500 flex-shrink-0" />}
                               {showAsIncorrect && <XCircle className="ml-2 w-6 h-6 text-red-500 flex-shrink-0" />}
@@ -695,7 +707,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
       <div className="mt-6 bg-white rounded-lg shadow p-4 border border-gray-200">
         <div className="flex items-center justify-between text-sm text-gray-600">
           <span>⏱️ Tiempo estimado: {exercise.estimatedTime} minutos</span>
-          <span>📅 {exercise.createdAt ? (exercise.createdAt instanceof Date ? exercise.createdAt.toLocaleDateString() : new Date(exercise.createdAt).toLocaleDateString()) : new Date().toLocaleDateString()}</span>
+          <span>📅 {mounted && (exercise.createdAt ? (exercise.createdAt instanceof Date ? exercise.createdAt.toLocaleDateString() : new Date(exercise.createdAt).toLocaleDateString()) : new Date().toLocaleDateString())}</span>
         </div>
       </div>
     </div>

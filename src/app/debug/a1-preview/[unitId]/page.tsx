@@ -17,7 +17,7 @@ export default function UnitPreviewPage() {
     async function loadUnit() {
       try {
         const unitNumber = unitId.replace('unit-', '');
-        const module = await import(`@/lib/course/a1/unit-${unitNumber}`);
+        const module = await import(`../../../../lib/course/a1/unit-${unitNumber}`);
         const unitExercises = module[`UNIT_${unitNumber}_EXERCISES`];
         setExercises(unitExercises);
       } catch (error) {

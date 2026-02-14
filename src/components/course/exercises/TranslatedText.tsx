@@ -106,7 +106,7 @@ interface TooltipProps {
 const Tooltip: React.FC<TooltipProps> = ({ word, translation, useStrong }) => (
   <span className="group relative inline-block border-b border-dotted border-slate-400 cursor-help mx-0.5">
     <span className={useStrong ? "font-bold text-indigo-600" : "text-indigo-600"}>{word}</span>
-    <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-48 p-2 bg-slate-900 text-white text-[10px] rounded-lg opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-[100] shadow-xl border border-slate-700">
+    <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-48 p-2 bg-slate-900 text-white text-[10px] rounded-lg opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-[100] shadow-xl border border-slate-700" aria-hidden="true">
       <span className="block font-black text-indigo-400 mb-0.5 uppercase tracking-tighter text-[9px]">
         {word}
       </span>
