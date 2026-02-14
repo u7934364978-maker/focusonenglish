@@ -61,13 +61,13 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[My|traducción]] [[house|traducción]] [[(tener)|traducción]] _______ [[three|traducción]] [[bedrooms|traducción]]",
+          "question": "[[My|Mi/mis]] [[house|house]] ([[tener|tener]]) _______ [[three|three]] [[bedrooms|bedrooms]].",
           "options": [
-            "[[has|has]]",
             "[[is|es]]",
+            "[[has|has]]",
             "[[are|están]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -87,7 +87,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|traducción]] [[am|traducción]] [[(en)|traducción]] _______ [[the|traducción]] [[kitchen|traducción]]",
+          "question": "[[I|Yo]] [[am|soy/estoy]] ([[en|en]]) _______ [[the|el/la/los/las]] [[kitchen|kitchen]].",
           "options": [
             "[[in|in]]",
             "[[is|es]]",
@@ -113,7 +113,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[The|traducción]] [[car|traducción]] [[(ser/estar|traducción]] [[-|traducción]] [[ello)|traducción]] _______ [[in|traducción]] [[the|traducción]] [[garage|traducción]]",
+          "question": "[[The|El/la/los/las]] [[car|car]] ([[ser/estar|ser/estar]] [[-|-]] [[ello|ello]]) _______ [[in|en]] [[the|el/la/los/las]] [[garage|garage]].",
           "options": [
             "[[is|is]]",
             "[[is|es]]",
@@ -139,10 +139,10 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|traducción]] [[have|traducción]] [[a|traducción]] [[(grande)|traducción]] _______ [[garden|traducción]]",
+          "question": "[[We|Nosotros]] [[have|tener/haber]] [[a|un/una]] ([[grande|grande]]) _______ [[garden|garden]].",
           "options": [
-            "[[is|es]]",
             "[[are|están]]",
+            "[[is|es]]",
             "[[big|big]]"
           ],
           "correctAnswer": 2,
@@ -163,12 +163,12 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|...]] [[love|...]] [[my|...]] [[bedroom.|...]]",
+      "correctSentence": "[[I|Yo]] [[love|love]] [[my|mi/mis]] [[bedroom|bedroom]].",
       "words": [
-        "[[my|...]]",
-        "[[bedroom.|...]]",
-        "[[I|...]]",
-        "[[love|...]]"
+        "[[love|love]]",
+        "[[bedroom|bedroom]].",
+        "[[I|Yo]]",
+        "[[my|mi/mis]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -185,14 +185,14 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|...]] [[eat|...]] [[in|...]] [[the|...]] [[dining|...]] [[room.|...]]",
+      "correctSentence": "[[We|Nosotros]] [[eat|eat]] [[in|en]] [[the|el/la/los/las]] [[dining|dining]] [[room|room]].",
       "words": [
-        "[[the|...]]",
-        "[[We|...]]",
-        "[[dining|...]]",
-        "[[eat|...]]",
-        "[[in|...]]",
-        "[[room.|...]]"
+        "[[room|room]].",
+        "[[We|Nosotros]]",
+        "[[eat|eat]]",
+        "[[dining|dining]]",
+        "[[in|en]]",
+        "[[the|el/la/los/las]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -209,13 +209,13 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|...]] [[kitchen|...]] [[is|...]] [[very|...]] [[small.|...]]",
+      "correctSentence": "[[The|El/la/los/las]] [[kitchen|kitchen]] [[is|es/está]] [[very|muy]] [[small|pequeño/pequeña]].",
       "words": [
-        "[[small.|...]]",
-        "[[very|...]]",
-        "[[is|...]]",
-        "[[kitchen|...]]",
-        "[[The|...]]"
+        "[[The|El/la/los/las]]",
+        "[[small|pequeño/pequeña]].",
+        "[[kitchen|kitchen]]",
+        "[[is|es/está]]",
+        "[[very|muy]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -232,14 +232,14 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My|...]] [[house|...]] [[has|...]] [[a|...]] [[beautiful|...]] [[garden.|...]]",
+      "correctSentence": "[[My|Mi/mis]] [[house|house]] [[has|tiene/ha]] [[a|un/una]] [[beautiful|beautiful]] [[garden|garden]].",
       "words": [
-        "[[a|...]]",
-        "[[has|...]]",
-        "[[beautiful|...]]",
-        "[[garden.|...]]",
-        "[[house|...]]",
-        "[[My|...]]"
+        "[[garden|garden]].",
+        "[[My|Mi/mis]]",
+        "[[house|house]]",
+        "[[a|un/una]]",
+        "[[has|tiene/ha]]",
+        "[[beautiful|beautiful]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -256,13 +256,13 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|...]] [[am|...]] [[in|...]] [[the|...]] [[bathroom.|...]]",
+      "correctSentence": "[[I|Yo]] [[am|soy/estoy]] [[in|en]] [[the|el/la/los/las]] [[bathroom|bathroom]].",
       "words": [
-        "[[I|...]]",
-        "[[bathroom.|...]]",
-        "[[in|...]]",
-        "[[am|...]]",
-        "[[the|...]]"
+        "[[I|Yo]]",
+        "[[the|el/la/los/las]]",
+        "[[in|en]]",
+        "[[bathroom|bathroom]].",
+        "[[am|soy/estoy]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

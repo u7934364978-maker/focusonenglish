@@ -1,0 +1,134 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic: © 2026 Focus English
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=e6]
+        - 'heading "B2 Preview: Unidad 13Ejercicio 1 de 50" [level=1] [ref=e9]':
+          - text: "B2 Preview: Unidad 13"
+          - generic [ref=e10]: Ejercicio 1 de 50
+      - generic [ref=e11]:
+        - button [disabled] [ref=e12]:
+          - img [ref=e13]
+        - button [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+    - main [ref=e18]:
+      - generic [ref=e21]:
+        - generic [ref=e23]:
+          - generic [ref=e24]:
+            - heading "Cambio climático" [level=2] [ref=e26]
+            - paragraph [ref=e29]: Ordena las palabras para hablar de un problema global.
+          - generic [ref=e30]:
+            - heading "Tu oración:" [level=3] [ref=e31]
+            - paragraph [ref=e33]: Pulsa sobre las palabras de abajo...
+          - generic [ref=e34]:
+            - heading "Palabras disponibles:" [level=3] [ref=e35]
+            - generic [ref=e36]:
+              - button "of" [ref=e37] [cursor=pointer]:
+                - generic [ref=e40]:
+                  - text: of
+                  - generic:
+                    - generic: of
+                    - text: de
+                - img [ref=e41]
+              - button "our" [ref=e42] [cursor=pointer]:
+                - generic [ref=e45]:
+                  - text: our
+                  - generic:
+                    - generic: our
+                    - text: nuestro
+                - img [ref=e46]
+              - button "pressing" [ref=e47] [cursor=pointer]:
+                - generic [ref=e50]:
+                  - text: pressing
+                  - generic:
+                    - generic: pressing
+                    - text: más
+                - img [ref=e51]
+              - button "Climate" [ref=e52] [cursor=pointer]:
+                - generic [ref=e55]:
+                  - text: Climate
+                  - generic:
+                    - generic: Climate
+                    - text: El cambio
+                - img [ref=e56]
+              - button "one" [ref=e57] [cursor=pointer]:
+                - generic [ref=e60]:
+                  - text: one
+                  - generic:
+                    - generic: one
+                    - text: uno
+                - img [ref=e61]
+              - button "time." [ref=e62] [cursor=pointer]:
+                - generic [ref=e65]:
+                  - text: time.
+                  - generic:
+                    - generic: time.
+                    - text: tiempo.
+                - img [ref=e66]
+              - button "change" [ref=e67] [cursor=pointer]:
+                - generic [ref=e70]:
+                  - text: change
+                  - generic:
+                    - generic: change
+                    - text: climático
+                - img [ref=e71]
+              - button "most" [ref=e72] [cursor=pointer]:
+                - generic [ref=e75]:
+                  - text: most
+                  - generic:
+                    - generic: most
+                    - text: desafíos
+                - img [ref=e76]
+              - button "challenges" [ref=e77] [cursor=pointer]:
+                - generic [ref=e80]:
+                  - text: challenges
+                  - generic:
+                    - generic: challenges
+                    - text: urgentes
+                - img [ref=e81]
+              - button "of" [ref=e82] [cursor=pointer]:
+                - generic [ref=e85]:
+                  - text: of
+                  - generic:
+                    - generic: of
+                    - text: de
+                - img [ref=e86]
+              - button "is" [ref=e87] [cursor=pointer]:
+                - generic [ref=e90]:
+                  - text: is
+                  - generic:
+                    - generic: is
+                    - text: es
+                - img [ref=e91]
+          - generic [ref=e93]:
+            - button "Comprobar" [disabled] [ref=e94]:
+              - img [ref=e95]
+              - text: Comprobar
+            - button "Reiniciar" [ref=e97] [cursor=pointer]:
+              - img [ref=e98]
+        - generic [ref=e102]:
+          - generic [ref=e103]: "⏱️ Tiempo estimado: minutos"
+          - generic [ref=e104]: 📅 2/14/2026
+    - generic [ref=e105]:
+      - generic [ref=e106]:
+        - img [ref=e107]
+        - generic [ref=e116]: Debug Mode
+      - generic [ref=e117]:
+        - button "Completar Unidad" [ref=e118] [cursor=pointer]:
+          - img [ref=e119]
+          - text: Completar Unidad
+        - button "Completar Curso B2 (30 Unidades)" [ref=e122] [cursor=pointer]:
+          - img [ref=e123]
+          - text: Completar Curso B2 (30 Unidades)
+  - button "Open Next.js Dev Tools" [ref=e130] [cursor=pointer]:
+    - img [ref=e131]
+  - alert [ref=e134]
+  - iframe [ref=e135]:
+    
+```

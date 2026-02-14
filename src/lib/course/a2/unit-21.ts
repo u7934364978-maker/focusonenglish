@@ -61,7 +61,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
           "back": "Quedarse"
         },
         {
-          "front": "[[Work|Trabajar]]",
+          "front": "[[Work|Trabajo/trabajar]]",
           "back": "Trabajar"
         },
         {
@@ -89,7 +89,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|traducción]] [[(be)|traducción]] _______ [[at|traducción]] [[home|traducción]] [[yesterday|traducción]]",
+          "question": "[[I|Yo]] ([[be|be]]) _______ [[at|en]] [[home|casa/hogar]] [[yesterday|yesterday]].",
           "options": [
             "[[was|was]]",
             "[[to|a]]",
@@ -115,13 +115,13 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|traducción]] [[(be)|traducción]] _______ [[very|traducción]] [[tired|traducción]] [[last|traducción]] [[night|traducción]]",
+          "question": "[[They|Ellos]] ([[be|be]]) _______ [[very|muy]] [[tired|tired]] [[last|last]] [[night|night]].",
           "options": [
+            "[[it|lo]]",
             "[[to|a]]",
-            "[[were|were]]",
-            "[[it|lo]]"
+            "[[were|were]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -141,7 +141,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|traducción]] [[(work)|traducción]] _______ [[until|traducción]] [[8|traducción]] [[PM|traducción]]",
+          "question": "[[She|Ella]] ([[work|trabajo/trabajar]]) _______ [[until|until]] [[8|8]] [[PM|PM]].",
           "options": [
             "[[worked|worked]]",
             "[[to|a]]",
@@ -167,11 +167,11 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|traducción]] [[(not/be)|traducción]] _______ [[at|traducción]] [[the|traducción]] [[party|traducción]]",
+          "question": "[[He|Él]] ([[not/be|not/be]]) _______ [[at|en]] [[the|el/la/los/las]] [[party|party]].",
           "options": [
             "[[was not|was not]]",
-            "[[it|lo]]",
-            "[[to|a]]"
+            "[[to|a]]",
+            "[[it|lo]]"
           ],
           "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
@@ -193,13 +193,13 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|traducción]] [[(watch)|traducción]] _______ [[a|traducción]] [[movie|traducción]] [[on|traducción]] [[Friday|traducción]]",
+          "question": "[[We|Nosotros]] ([[watch|watch]]) _______ [[a|un/una]] [[movie|movie]] [[on|en/sobre]] [[Friday|Friday]].",
           "options": [
-            "[[watched|watched]]",
+            "[[it|lo]]",
             "[[to|a]]",
-            "[[it|lo]]"
+            "[[watched|watched]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -219,7 +219,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Did|traducción]] [[you|traducción]] _______ [[(visit)|traducción]] [[your|traducción]] [[parents|traducción]]",
+          "question": "[[Did|Did]] [[you|tú/usted/vosotros]] _______ ([[visit|visit]]) [[your|tu/tus]] [[parents|parents]]?",
           "options": [
             "[[to|a]]",
             "[[visit|visit]]",
@@ -245,7 +245,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|traducción]] [[(stay)|traducción]] _______ [[in|traducción]] [[a|traducción]] [[hotel|traducción]]",
+          "question": "[[They|Ellos]] ([[stay|stay]]) _______ [[in|en]] [[a|un/una]] [[hotel|hotel]].",
           "options": [
             "[[stayed|stayed]]",
             "[[to|a]]",
@@ -271,13 +271,13 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[It|traducción]] [[(not/rain)|traducción]] _______ [[much|traducción]] [[last|traducción]] [[week|traducción]]",
+          "question": "[[It|Esto/eso]] ([[not/rain|not/rain]]) _______ [[much|much]] [[last|last]] [[week|semana]].",
           "options": [
+            "[[it|lo]]",
             "[[to|a]]",
-            "[[didn't rain|didn't rain]]",
-            "[[it|lo]]"
+            "[[didn't rain|didn't rain]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -297,13 +297,13 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|traducción]] [[(clean)|traducción]] _______ [[my|traducción]] [[room|traducción]] [[on|traducción]] [[Saturday|traducción]]",
+          "question": "[[I|Yo]] ([[clean|clean]]) _______ [[my|mi/mis]] [[room|room]] [[on|en/sobre]] [[Saturday|Saturday]].",
           "options": [
-            "[[it|lo]]",
             "[[to|a]]",
-            "[[cleaned|cleaned]]"
+            "[[cleaned|cleaned]]",
+            "[[it|lo]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -323,13 +323,13 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Where|traducción]] _______ [[you|traducción]] [[yesterday|traducción]] [[morning|traducción]]",
+          "question": "[[Where|Dónde]] _______ [[you|tú/usted/vosotros]] [[yesterday|yesterday]] [[morning|morning]]?",
           "options": [
-            "[[were|were]]",
+            "[[it|lo]]",
             "[[to|a]]",
-            "[[it|lo]]"
+            "[[were|were]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -347,13 +347,13 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|...]] [[was|...]] [[very|...]] [[busy|...]] [[yesterday.|...]]",
+      "correctSentence": "[[I|Yo]] [[was|was]] [[very|muy]] [[busy|busy]] [[yesterday|yesterday]].",
       "words": [
-        "[[I|...]]",
-        "[[was|...]]",
-        "[[busy|...]]",
-        "[[yesterday.|...]]",
-        "[[very|...]]"
+        "[[yesterday|yesterday]].",
+        "[[busy|busy]]",
+        "[[very|muy]]",
+        "[[was|was]]",
+        "[[I|Yo]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -370,15 +370,15 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|...]] [[watched|...]] [[a|...]] [[great|...]] [[film|...]] [[last|...]] [[night.|...]]",
+      "correctSentence": "[[We|Nosotros]] [[watched|watched]] [[a|un/una]] [[great|great]] [[film|film]] [[last|last]] [[night|night]].",
       "words": [
-        "[[last|...]]",
-        "[[great|...]]",
-        "[[watched|...]]",
-        "[[film|...]]",
-        "[[night.|...]]",
-        "[[a|...]]",
-        "[[We|...]]"
+        "[[film|film]]",
+        "[[We|Nosotros]]",
+        "[[a|un/una]]",
+        "[[last|last]]",
+        "[[watched|watched]]",
+        "[[great|great]]",
+        "[[night|night]]."
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -395,15 +395,15 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|...]] [[visited|...]] [[her|...]] [[grandmother|...]] [[in|...]] [[the|...]] [[afternoon.|...]]",
+      "correctSentence": "[[She|Ella]] [[visited|visited]] [[her|su (de ella)]] [[grandmother|grandmother]] [[in|en]] [[the|el/la/los/las]] [[afternoon|afternoon]].",
       "words": [
-        "[[afternoon.|...]]",
-        "[[in|...]]",
-        "[[She|...]]",
-        "[[visited|...]]",
-        "[[her|...]]",
-        "[[grandmother|...]]",
-        "[[the|...]]"
+        "[[afternoon|afternoon]].",
+        "[[She|Ella]]",
+        "[[visited|visited]]",
+        "[[her|su (de ella)]]",
+        "[[grandmother|grandmother]]",
+        "[[in|en]]",
+        "[[the|el/la/los/las]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -420,14 +420,14 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|...]] [[stayed|...]] [[in|...]] [[a|...]] [[small|...]] [[village.|...]]",
+      "correctSentence": "[[They|Ellos]] [[stayed|stayed]] [[in|en]] [[a|un/una]] [[small|pequeño/pequeña]] [[village|village]].",
       "words": [
-        "[[village.|...]]",
-        "[[small|...]]",
-        "[[They|...]]",
-        "[[stayed|...]]",
-        "[[a|...]]",
-        "[[in|...]]"
+        "[[village|village]].",
+        "[[a|un/una]]",
+        "[[stayed|stayed]]",
+        "[[They|Ellos]]",
+        "[[in|en]]",
+        "[[small|pequeño/pequeña]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -444,13 +444,13 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|...]] [[worked|...]] [[late|...]] [[on|...]] [[Tuesday.|...]]",
+      "correctSentence": "[[He|Él]] [[worked|worked]] [[late|late]] [[on|en/sobre]] [[Tuesday|Tuesday]].",
       "words": [
-        "[[He|...]]",
-        "[[worked|...]]",
-        "[[late|...]]",
-        "[[on|...]]",
-        "[[Tuesday.|...]]"
+        "[[Tuesday|Tuesday]].",
+        "[[He|Él]]",
+        "[[worked|worked]]",
+        "[[late|late]]",
+        "[[on|en/sobre]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -467,15 +467,15 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[It|...]] [[didn't|...]] [[rain|...]] [[at|...]] [[all|...]] [[last|...]] [[weekend.|...]]",
+      "correctSentence": "[[It|Esto/eso]] [[didn't|didn't]] [[rain|rain]] [[at|en]] [[all|all]] [[last|last]] [[weekend|weekend]].",
       "words": [
-        "[[didn't|...]]",
-        "[[It|...]]",
-        "[[rain|...]]",
-        "[[all|...]]",
-        "[[last|...]]",
-        "[[at|...]]",
-        "[[weekend.|...]]"
+        "[[rain|rain]]",
+        "[[didn't|didn't]]",
+        "[[last|last]]",
+        "[[all|all]]",
+        "[[at|en]]",
+        "[[It|Esto/eso]]",
+        "[[weekend|weekend]]."
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -492,14 +492,14 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|...]] [[played|...]] [[football|...]] [[in|...]] [[the|...]] [[park.|...]]",
+      "correctSentence": "[[We|Nosotros]] [[played|played]] [[football|football]] [[in|en]] [[the|el/la/los/las]] [[park|park]].",
       "words": [
-        "[[We|...]]",
-        "[[played|...]]",
-        "[[football|...]]",
-        "[[in|...]]",
-        "[[the|...]]",
-        "[[park.|...]]"
+        "[[park|park]].",
+        "[[the|el/la/los/las]]",
+        "[[in|en]]",
+        "[[football|football]]",
+        "[[played|played]]",
+        "[[We|Nosotros]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -516,15 +516,15 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|...]] [[cleaned|...]] [[the|...]] [[house|...]] [[on|...]] [[Saturday|...]] [[morning.|...]]",
+      "correctSentence": "[[I|Yo]] [[cleaned|cleaned]] [[the|el/la/los/las]] [[house|house]] [[on|en/sobre]] [[Saturday|Saturday]] [[morning|morning]].",
       "words": [
-        "[[morning.|...]]",
-        "[[the|...]]",
-        "[[house|...]]",
-        "[[cleaned|...]]",
-        "[[on|...]]",
-        "[[I|...]]",
-        "[[Saturday|...]]"
+        "[[Saturday|Saturday]]",
+        "[[house|house]]",
+        "[[I|Yo]]",
+        "[[morning|morning]].",
+        "[[on|en/sobre]]",
+        "[[cleaned|cleaned]]",
+        "[[the|el/la/los/las]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -541,13 +541,13 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Were|...]] [[you|...]] [[at|...]] [[school|...]] [[yesterday?|...]]",
+      "correctSentence": "[[Were|Were]] [[you|tú/usted/vosotros]] [[at|en]] [[school|escuela]] [[yesterday|yesterday]]?",
       "words": [
-        "[[Were|...]]",
-        "[[yesterday?|...]]",
-        "[[you|...]]",
-        "[[at|...]]",
-        "[[school|...]]"
+        "[[you|tú/usted/vosotros]]",
+        "[[school|escuela]]",
+        "[[yesterday|yesterday]]?",
+        "[[Were|Were]]",
+        "[[at|en]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -564,15 +564,15 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|...]] [[were|...]] [[very|...]] [[happy|...]] [[with|...]] [[the|...]] [[results.|...]]",
+      "correctSentence": "[[They|Ellos]] [[were|were]] [[very|muy]] [[happy|feliz]] [[with|con]] [[the|el/la/los/las]] [[results|results]].",
       "words": [
-        "[[very|...]]",
-        "[[happy|...]]",
-        "[[were|...]]",
-        "[[with|...]]",
-        "[[They|...]]",
-        "[[the|...]]",
-        "[[results.|...]]"
+        "[[the|el/la/los/las]]",
+        "[[happy|feliz]]",
+        "[[very|muy]]",
+        "[[were|were]]",
+        "[[with|con]]",
+        "[[They|Ellos]]",
+        "[[results|results]]."
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -589,13 +589,13 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|...]] [[cooked|...]] [[a|...]] [[delicious|...]] [[dinner.|...]]",
+      "correctSentence": "[[She|Ella]] [[cooked|cooked]] [[a|un/una]] [[delicious|delicious]] [[dinner|dinner]].",
       "words": [
-        "[[a|...]]",
-        "[[delicious|...]]",
-        "[[dinner.|...]]",
-        "[[cooked|...]]",
-        "[[She|...]]"
+        "[[She|Ella]]",
+        "[[cooked|cooked]]",
+        "[[a|un/una]]",
+        "[[dinner|dinner]].",
+        "[[delicious|delicious]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -612,15 +612,15 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|...]] [[traveled|...]] [[to|...]] [[London|...]] [[two|...]] [[years|...]] [[ago.|...]]",
+      "correctSentence": "[[I|Yo]] [[traveled|traveled]] [[to|a/para]] [[London|London]] [[two|two]] [[years|years]] [[ago|ago]].",
       "words": [
-        "[[years|...]]",
-        "[[ago.|...]]",
-        "[[traveled|...]]",
-        "[[two|...]]",
-        "[[I|...]]",
-        "[[to|...]]",
-        "[[London|...]]"
+        "[[years|years]]",
+        "[[to|a/para]]",
+        "[[traveled|traveled]]",
+        "[[I|Yo]]",
+        "[[two|two]]",
+        "[[London|London]]",
+        "[[ago|ago]]."
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -637,13 +637,13 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Did|...]] [[he|...]] [[finish|...]] [[his|...]] [[homework?|...]]",
+      "correctSentence": "[[Did|Did]] [[he|él]] [[finish|finish]] [[his|su (de él)]] [[homework|homework]]?",
       "words": [
-        "[[finish|...]]",
-        "[[he|...]]",
-        "[[Did|...]]",
-        "[[his|...]]",
-        "[[homework?|...]]"
+        "[[his|su (de él)]]",
+        "[[Did|Did]]",
+        "[[homework|homework]]?",
+        "[[he|él]]",
+        "[[finish|finish]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -660,16 +660,16 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|...]] [[stayed|...]] [[at|...]] [[home|...]] [[because|...]] [[it|...]] [[was|...]] [[cold.|...]]",
+      "correctSentence": "[[We|Nosotros]] [[stayed|stayed]] [[at|en]] [[home|casa/hogar]] [[because|because]] [[it|esto/eso]] [[was|was]] [[cold|cold]].",
       "words": [
-        "[[cold.|...]]",
-        "[[We|...]]",
-        "[[stayed|...]]",
-        "[[at|...]]",
-        "[[it|...]]",
-        "[[was|...]]",
-        "[[because|...]]",
-        "[[home|...]]"
+        "[[stayed|stayed]]",
+        "[[We|Nosotros]]",
+        "[[it|esto/eso]]",
+        "[[because|because]]",
+        "[[at|en]]",
+        "[[home|casa/hogar]]",
+        "[[cold|cold]].",
+        "[[was|was]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -686,13 +686,13 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|...]] [[party|...]] [[was|...]] [[very|...]] [[fun.|...]]",
+      "correctSentence": "[[The|El/la/los/las]] [[party|party]] [[was|was]] [[very|muy]] [[fun|fun]].",
       "words": [
-        "[[The|...]]",
-        "[[party|...]]",
-        "[[fun.|...]]",
-        "[[was|...]]",
-        "[[very|...]]"
+        "[[fun|fun]].",
+        "[[The|El/la/los/las]]",
+        "[[party|party]]",
+        "[[very|muy]]",
+        "[[was|was]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },

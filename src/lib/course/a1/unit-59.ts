@@ -53,11 +53,11 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|traducción]] [[(pagar)|traducción]] _______ [[by|traducción]] [[card|traducción]]",
+          "question": "[[I|Yo]] ([[pagar|pagar]]) _______ [[by|por]] [[card|card]].",
           "options": [
-            "[[is|es]]",
+            "[[are|están]]",
             "[[pay|pay]]",
-            "[[are|están]]"
+            "[[is|es]]"
           ],
           "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
@@ -79,7 +79,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[(Hay)|traducción]] _______ [[an|traducción]] [[ATM|traducción]] [[near|traducción]] [[here|traducción]]",
+          "question": "([[Hay|Hay]]) _______ [[an|un/una]] [[ATM|ATM]] [[near|near]] [[here|here]]?",
           "options": [
             "[[is|es]]",
             "[[are|están]]",
@@ -105,13 +105,13 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|traducción]] [[need|traducción]] [[to|traducción]] [[(cambiar)|traducción]] _______ [[some|traducción]] [[money|traducción]]",
+          "question": "[[I|Yo]] [[need|need]] [[to|a/para]] ([[cambiar|cambiar]]) _______ [[some|some]] [[money|money]].",
           "options": [
-            "[[are|están]]",
+            "[[exchange|exchange]]",
             "[[is|es]]",
-            "[[exchange|exchange]]"
+            "[[are|están]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -131,7 +131,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Where|traducción]] [[(ser/estar|traducción]] [[-|traducción]] [[ello)|traducción]] _______ [[my|traducción]] [[wallet|traducción]]",
+          "question": "[[Where|Dónde]] ([[ser/estar|ser/estar]] [[-|-]] [[ello|ello]]) _______ [[my|mi/mis]] [[wallet|wallet]]?",
           "options": [
             "[[are|están]]",
             "[[is|es]]",
@@ -155,13 +155,13 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|...]] [[don't|...]] [[have|...]] [[any|...]] [[cash.|...]]",
+      "correctSentence": "[[I|Yo]] [[don't|no]] [[have|tener/haber]] [[any|any]] [[cash|cash]].",
       "words": [
-        "[[have|...]]",
-        "[[any|...]]",
-        "[[don't|...]]",
-        "[[cash.|...]]",
-        "[[I|...]]"
+        "[[cash|cash]].",
+        "[[I|Yo]]",
+        "[[have|tener/haber]]",
+        "[[any|any]]",
+        "[[don't|no]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -178,12 +178,12 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My|...]] [[wallet|...]] [[is|...]] [[empty.|...]]",
+      "correctSentence": "[[My|Mi/mis]] [[wallet|wallet]] [[is|es/está]] [[empty|empty]].",
       "words": [
-        "[[empty.|...]]",
-        "[[is|...]]",
-        "[[My|...]]",
-        "[[wallet|...]]"
+        "[[empty|empty]].",
+        "[[is|es/está]]",
+        "[[wallet|wallet]]",
+        "[[My|Mi/mis]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -200,12 +200,12 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|...]] [[bank|...]] [[is|...]] [[closed.|...]]",
+      "correctSentence": "[[The|El/la/los/las]] [[bank|bank]] [[is|es/está]] [[closed|closed]].",
       "words": [
-        "[[The|...]]",
-        "[[bank|...]]",
-        "[[is|...]]",
-        "[[closed.|...]]"
+        "[[is|es/está]]",
+        "[[bank|bank]]",
+        "[[The|El/la/los/las]]",
+        "[[closed|closed]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -222,13 +222,13 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Where|...]] [[is|...]] [[the|...]] [[nearest|...]] [[ATM?|...]]",
+      "correctSentence": "[[Where|Dónde]] [[is|es/está]] [[the|el/la/los/las]] [[nearest|nearest]] [[ATM|ATM]]?",
       "words": [
-        "[[ATM?|...]]",
-        "[[Where|...]]",
-        "[[nearest|...]]",
-        "[[is|...]]",
-        "[[the|...]]"
+        "[[the|el/la/los/las]]",
+        "[[Where|Dónde]]",
+        "[[nearest|nearest]]",
+        "[[ATM|ATM]]?",
+        "[[is|es/está]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -245,13 +245,13 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|...]] [[exchange|...]] [[rate|...]] [[is|...]] [[good.|...]]",
+      "correctSentence": "[[The|El/la/los/las]] [[exchange|exchange]] [[rate|rate]] [[is|es/está]] [[good|bueno/buena]].",
       "words": [
-        "[[rate|...]]",
-        "[[is|...]]",
-        "[[good.|...]]",
-        "[[The|...]]",
-        "[[exchange|...]]"
+        "[[is|es/está]]",
+        "[[rate|rate]]",
+        "[[good|bueno/buena]].",
+        "[[exchange|exchange]]",
+        "[[The|El/la/los/las]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

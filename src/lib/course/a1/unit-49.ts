@@ -57,13 +57,13 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|traducción]] [[(hacer|traducción]] [[la|traducción]] [[maleta)|traducción]] _______ [[my|traducción]] [[suitcase|traducción]]",
+          "question": "[[I|Yo]] ([[hacer|hacer]] [[la|la]] [[maleta|maleta]]) _______ [[my|mi/mis]] [[suitcase|suitcase]].",
           "options": [
-            "[[are|están]]",
+            "[[pack|pack]]",
             "[[is|es]]",
-            "[[pack|pack]]"
+            "[[are|están]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -83,7 +83,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Don't|traducción]] [[forget|traducción]] [[your|traducción]] [[(protector|traducción]] [[solar)|traducción]] [[_______|traducción]]",
+          "question": "[[Don't|No]] [[forget|forget]] [[your|tu/tus]] ([[protector|protector]] [[solar|solar]]) [[_______|_______]].",
           "options": [
             "[[sunscreen|sunscreen]]",
             "[[is|es]]",
@@ -109,7 +109,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|traducción]] [[need|traducción]] [[a|traducción]] [[(cargador)|traducción]] _______ [[for|traducción]] [[my|traducción]] [[phone|traducción]]",
+          "question": "[[I|Yo]] [[need|need]] [[a|un/una]] ([[cargador|cargador]]) _______ [[for|para/por]] [[my|mi/mis]] [[phone|phone]].",
           "options": [
             "[[are|están]]",
             "[[is|es]]",
@@ -135,13 +135,13 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Put|traducción]] [[your|traducción]] [[clothes|traducción]] [[(en)|traducción]] _______ [[the|traducción]] [[bag|traducción]]",
+          "question": "[[Put|Put]] [[your|tu/tus]] [[clothes|clothes]] ([[en|en]]) _______ [[the|el/la/los/las]] [[bag|bag]].",
           "options": [
             "[[are|están]]",
-            "[[is|es]]",
-            "[[in|in]]"
+            "[[in|in]]",
+            "[[is|es]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -159,13 +159,13 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My|...]] [[suitcase|...]] [[is|...]] [[too|...]] [[full.|...]]",
+      "correctSentence": "[[My|Mi/mis]] [[suitcase|suitcase]] [[is|es/está]] [[too|too]] [[full|full]].",
       "words": [
-        "[[My|...]]",
-        "[[is|...]]",
-        "[[full.|...]]",
-        "[[too|...]]",
-        "[[suitcase|...]]"
+        "[[suitcase|suitcase]]",
+        "[[is|es/está]]",
+        "[[My|Mi/mis]]",
+        "[[full|full]].",
+        "[[too|too]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -182,12 +182,12 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|...]] [[need|...]] [[my|...]] [[sunglasses.|...]]",
+      "correctSentence": "[[I|Yo]] [[need|need]] [[my|mi/mis]] [[sunglasses|sunglasses]].",
       "words": [
-        "[[I|...]]",
-        "[[sunglasses.|...]]",
-        "[[need|...]]",
-        "[[my|...]]"
+        "[[my|mi/mis]]",
+        "[[need|need]]",
+        "[[I|Yo]]",
+        "[[sunglasses|sunglasses]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -204,14 +204,14 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Pack|...]] [[your|...]] [[swimsuit|...]] [[for|...]] [[the|...]] [[beach.|...]]",
+      "correctSentence": "[[Pack|Pack]] [[your|tu/tus]] [[swimsuit|swimsuit]] [[for|para/por]] [[the|el/la/los/las]] [[beach|beach]].",
       "words": [
-        "[[swimsuit|...]]",
-        "[[Pack|...]]",
-        "[[beach.|...]]",
-        "[[the|...]]",
-        "[[for|...]]",
-        "[[your|...]]"
+        "[[beach|beach]].",
+        "[[Pack|Pack]]",
+        "[[your|tu/tus]]",
+        "[[swimsuit|swimsuit]]",
+        "[[the|el/la/los/las]]",
+        "[[for|para/por]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -228,13 +228,13 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Where|...]] [[is|...]] [[my|...]] [[phone|...]] [[charger?|...]]",
+      "correctSentence": "[[Where|Dónde]] [[is|es/está]] [[my|mi/mis]] [[phone|phone]] [[charger|charger]]?",
       "words": [
-        "[[phone|...]]",
-        "[[my|...]]",
-        "[[Where|...]]",
-        "[[charger?|...]]",
-        "[[is|...]]"
+        "[[phone|phone]]",
+        "[[my|mi/mis]]",
+        "[[charger|charger]]?",
+        "[[is|es/está]]",
+        "[[Where|Dónde]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -251,12 +251,12 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Don't|...]] [[forget|...]] [[your|...]] [[toiletries.|...]]",
+      "correctSentence": "[[Don't|No]] [[forget|forget]] [[your|tu/tus]] [[toiletries|toiletries]].",
       "words": [
-        "[[your|...]]",
-        "[[toiletries.|...]]",
-        "[[forget|...]]",
-        "[[Don't|...]]"
+        "[[toiletries|toiletries]].",
+        "[[your|tu/tus]]",
+        "[[forget|forget]]",
+        "[[Don't|No]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

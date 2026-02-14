@@ -53,7 +53,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|traducción]] [[(ser/estar|traducción]] [[-|traducción]] [[yo)|traducción]] _______ [[from|traducción]] [[Italy|traducción]]",
+          "question": "[[I|Yo]] ([[ser/estar|ser/estar]] [[-|-]] [[yo|yo]]) _______ [[from|de/desde]] [[Italy|Italy]].",
           "options": [
             "[[are|están]]",
             "[[is|es]]",
@@ -79,11 +79,11 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[This|traducción]] [[is|traducción]] [[(mi)|traducción]] _______ [[family|traducción]]",
+          "question": "[[This|Este/esta]] [[is|es/está]] ([[mi|mi]]) _______ [[family|family]].",
           "options": [
             "[[my|my]]",
-            "[[are|están]]",
-            "[[is|es]]"
+            "[[is|es]]",
+            "[[are|están]]"
           ],
           "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
@@ -105,13 +105,13 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[How|traducción]] [[(viejo/edad)|traducción]] _______ [[are|traducción]] [[you|traducción]]",
+          "question": "[[How|Cómo]] ([[viejo/edad|viejo/edad]]) _______ [[are|somos/estamos/son/están]] [[you|tú/usted/vosotros]]?",
           "options": [
-            "[[are|están]]",
+            "[[old|old]]",
             "[[is|es]]",
-            "[[old|old]]"
+            "[[are|están]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -131,7 +131,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[(Dónde)|traducción]] _______ [[are|traducción]] [[you|traducción]] [[from|traducción]]",
+          "question": "([[Dónde|Dónde]]) _______ [[are|somos/estamos/son/están]] [[you|tú/usted/vosotros]] [[from|de/desde]]?",
           "options": [
             "[[are|están]]",
             "[[is|es]]",
@@ -155,15 +155,15 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[This|...]] [[is|...]] [[a|...]] [[review|...]] [[of|...]] [[module|...]] [[one.|...]]",
+      "correctSentence": "[[This|Este/esta]] [[is|es/está]] [[a|un/una]] [[review|review]] [[of|of]] [[module|module]] [[one|one]].",
       "words": [
-        "[[review|...]]",
-        "[[of|...]]",
-        "[[module|...]]",
-        "[[This|...]]",
-        "[[one.|...]]",
-        "[[is|...]]",
-        "[[a|...]]"
+        "[[This|Este/esta]]",
+        "[[module|module]]",
+        "[[is|es/está]]",
+        "[[a|un/una]]",
+        "[[one|one]].",
+        "[[review|review]]",
+        "[[of|of]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -180,12 +180,12 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Answer|...]] [[the|...]] [[questions|...]] [[carefully.|...]]",
+      "correctSentence": "[[Answer|Answer]] [[the|el/la/los/las]] [[questions|questions]] [[carefully|carefully]].",
       "words": [
-        "[[questions|...]]",
-        "[[the|...]]",
-        "[[Answer|...]]",
-        "[[carefully.|...]]"
+        "[[Answer|Answer]]",
+        "[[the|el/la/los/las]]",
+        "[[carefully|carefully]].",
+        "[[questions|questions]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -202,11 +202,11 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Check|...]] [[your|...]] [[answers.|...]]",
+      "correctSentence": "[[Check|Check]] [[your|tu/tus]] [[answers|answers]].",
       "words": [
-        "[[Check|...]]",
-        "[[your|...]]",
-        "[[answers.|...]]"
+        "[[Check|Check]]",
+        "[[your|tu/tus]]",
+        "[[answers|answers]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -223,11 +223,11 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Is|...]] [[this|...]] [[correct?|...]]",
+      "correctSentence": "[[Is|Es/está]] [[this|este/esta]] [[correct|correct]]?",
       "words": [
-        "[[correct?|...]]",
-        "[[this|...]]",
-        "[[Is|...]]"
+        "[[correct|correct]]?",
+        "[[this|este/esta]]",
+        "[[Is|Es/está]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -244,14 +244,14 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|...]] [[am|...]] [[ready|...]] [[for|...]] [[the|...]] [[test.|...]]",
+      "correctSentence": "[[I|Yo]] [[am|soy/estoy]] [[ready|ready]] [[for|para/por]] [[the|el/la/los/las]] [[test|test]].",
       "words": [
-        "[[am|...]]",
-        "[[I|...]]",
-        "[[the|...]]",
-        "[[for|...]]",
-        "[[ready|...]]",
-        "[[test.|...]]"
+        "[[I|Yo]]",
+        "[[for|para/por]]",
+        "[[am|soy/estoy]]",
+        "[[the|el/la/los/las]]",
+        "[[test|test]].",
+        "[[ready|ready]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

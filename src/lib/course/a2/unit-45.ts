@@ -69,7 +69,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
           "back": "Necesario"
         },
         {
-          "front": "[[Helpful|Útil/De ayuda]]",
+          "front": "[[Helpful|Servicial]]",
           "back": "Útil/De ayuda"
         }
       ]
@@ -89,13 +89,13 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[You|traducción]] [[(should)|traducción]] _______ [[see|traducción]] [[a|traducción]] [[doctor|traducción]]",
+          "question": "[[You|Tú/usted/vosotros]] ([[should|should]]) _______ [[see|see]] [[a|un/una]] [[doctor|doctor]].",
           "options": [
-            "[[to|a]]",
             "[[should|should]]",
+            "[[to|a]]",
             "[[it|lo]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -115,7 +115,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|traducción]] [[(should/not)|traducción]] _______ [[eat|traducción]] [[so|traducción]] [[much|traducción]] [[sugar|traducción]]",
+          "question": "[[He|Él]] ([[should/not|should/not]]) _______ [[eat|eat]] [[so|tan/así que]] [[much|much]] [[sugar|sugar]].",
           "options": [
             "[[should not|should not]]",
             "[[to|a]]",
@@ -141,7 +141,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[What|traducción]] [[(should)|traducción]] _______ [[I|traducción]] [[do|traducción]] [[about|traducción]] [[this|traducción]] [[problem|traducción]]",
+          "question": "[[What|Qué]] ([[should|should]]) _______ [[I|Yo]] [[do|hacer]] [[about|about]] [[this|este/esta]] [[problem|problem]]?",
           "options": [
             "[[it|lo]]",
             "[[to|a]]",
@@ -167,13 +167,13 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|traducción]] [[(should)|traducción]] _______ [[study|traducción]] [[more|traducción]] [[for|traducción]] [[the|traducción]] [[exam|traducción]]",
+          "question": "[[They|Ellos]] ([[should|should]]) _______ [[study|study]] [[more|more]] [[for|para/por]] [[the|el/la/los/las]] [[exam|exam]].",
           "options": [
-            "[[it|lo]]",
+            "[[should|should]]",
             "[[to|a]]",
-            "[[should|should]]"
+            "[[it|lo]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -193,13 +193,13 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|traducción]] [[(should/not)|traducción]] _______ [[go|traducción]] [[to|traducción]] [[bed|traducción]] [[so|traducción]] [[late|traducción]]",
+          "question": "[[She|Ella]] ([[should/not|should/not]]) _______ [[go|go]] [[to|a/para]] [[bed|bed]] [[so|tan/así que]] [[late|late]].",
           "options": [
-            "[[it|lo]]",
+            "[[shouldn't|shouldn't]]",
             "[[to|a]]",
-            "[[shouldn't|shouldn't]]"
+            "[[it|lo]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -219,7 +219,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "_______ [[I|traducción]] [[tell|traducción]] [[him|traducción]] [[the|traducción]] [[truth|traducción]]",
+          "question": "_______ [[I|Yo]] [[tell|tell]] [[him|him]] [[the|el/la/los/las]] [[truth|truth]]?",
           "options": [
             "[[it|lo]]",
             "[[to|a]]",
@@ -245,7 +245,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|traducción]] [[(should)|traducción]] _______ [[buy|traducción]] [[some|traducción]] [[more|traducción]] [[bread|traducción]]",
+          "question": "[[We|Nosotros]] ([[should|should]]) _______ [[buy|buy]] [[some|some]] [[more|more]] [[bread|bread]].",
           "options": [
             "[[should|should]]",
             "[[to|a]]",
@@ -271,13 +271,13 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[You|traducción]] [[(should/not)|traducción]] _______ [[worry|traducción]] [[so|traducción]] [[much|traducción]]",
+          "question": "[[You|Tú/usted/vosotros]] ([[should/not|should/not]]) _______ [[worry|worry]] [[so|tan/así que]] [[much|much]].",
           "options": [
             "[[to|a]]",
-            "[[shouldn't|shouldn't]]",
-            "[[it|lo]]"
+            "[[it|lo]]",
+            "[[shouldn't|shouldn't]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -297,13 +297,13 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Where|traducción]] [[(should)|traducción]] _______ [[we|traducción]] [[meet|traducción]] [[tonight|traducción]]",
+          "question": "[[Where|Dónde]] ([[should|should]]) _______ [[we|nosotros]] [[meet|meet]] [[tonight|tonight]]?",
           "options": [
-            "[[should|should]]",
             "[[to|a]]",
-            "[[it|lo]]"
+            "[[it|lo]]",
+            "[[should|should]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -323,11 +323,11 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|traducción]] [[(should)|traducción]] _______ [[take|traducción]] [[a|traducción]] [[break|traducción]]",
+          "question": "[[He|Él]] ([[should|should]]) _______ [[take|take]] [[a|un/una]] [[break|break]].",
           "options": [
             "[[should|should]]",
-            "[[to|a]]",
-            "[[it|lo]]"
+            "[[it|lo]]",
+            "[[to|a]]"
           ],
           "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
@@ -347,16 +347,16 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[You|...]] [[should|...]] [[wear|...]] [[a|...]] [[coat,|...]] [[it's|...]] [[cold|...]] [[outside.|...]]",
+      "correctSentence": "[[You|Tú/usted/vosotros]] [[should|should]] [[wear|wear]] [[a|un/una]] [[coat|coat]], [[it's|it's]] [[cold|cold]] [[outside|outside]].",
       "words": [
-        "[[You|...]]",
-        "[[coat,|...]]",
-        "[[wear|...]]",
-        "[[it's|...]]",
-        "[[a|...]]",
-        "[[should|...]]",
-        "[[outside.|...]]",
-        "[[cold|...]]"
+        "[[should|should]]",
+        "[[a|un/una]]",
+        "[[it's|it's]]",
+        "[[You|Tú/usted/vosotros]]",
+        "[[wear|wear]]",
+        "[[cold|cold]]",
+        "[[outside|outside]].",
+        "[[coat|coat]],"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -373,17 +373,17 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|...]] [[think|...]] [[you|...]] [[should|...]] [[tell|...]] [[her|...]] [[how|...]] [[you|...]] [[feel.|...]]",
+      "correctSentence": "[[I|Yo]] [[think|pensar/creer]] [[you|tú/usted/vosotros]] [[should|should]] [[tell|tell]] [[her|su (de ella)]] [[how|cómo]] [[you|tú/usted/vosotros]] [[feel|feel]].",
       "words": [
-        "[[you|...]]",
-        "[[should|...]]",
-        "[[feel.|...]]",
-        "[[you|...]]",
-        "[[I|...]]",
-        "[[think|...]]",
-        "[[her|...]]",
-        "[[tell|...]]",
-        "[[how|...]]"
+        "[[should|should]]",
+        "[[I|Yo]]",
+        "[[how|cómo]]",
+        "[[think|pensar/creer]]",
+        "[[you|tú/usted/vosotros]]",
+        "[[you|tú/usted/vosotros]]",
+        "[[feel|feel]].",
+        "[[tell|tell]]",
+        "[[her|su (de ella)]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -400,17 +400,17 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|...]] [[shouldn't|...]] [[work|...]] [[so|...]] [[hard;|...]] [[he|...]] [[needs|...]] [[a|...]] [[rest.|...]]",
+      "correctSentence": "[[He|Él]] [[shouldn't|shouldn't]] [[work|trabajo/trabajar]] [[so|tan/así que]] [[hard|hard]]; [[he|él]] [[needs|needs]] [[a|un/una]] [[rest|rest]].",
       "words": [
-        "[[hard;|...]]",
-        "[[shouldn't|...]]",
-        "[[so|...]]",
-        "[[work|...]]",
-        "[[He|...]]",
-        "[[he|...]]",
-        "[[a|...]]",
-        "[[rest.|...]]",
-        "[[needs|...]]"
+        "[[a|un/una]]",
+        "[[rest|rest]].",
+        "[[He|Él]]",
+        "[[shouldn't|shouldn't]]",
+        "[[hard|hard]];",
+        "[[work|trabajo/trabajar]]",
+        "[[so|tan/así que]]",
+        "[[needs|needs]]",
+        "[[he|él]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -427,15 +427,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[What|...]] [[should|...]] [[I|...]] [[wear|...]] [[to|...]] [[the|...]] [[wedding?|...]]",
+      "correctSentence": "[[What|Qué]] [[should|should]] [[I|Yo]] [[wear|wear]] [[to|a/para]] [[the|el/la/los/las]] [[wedding|wedding]]?",
       "words": [
-        "[[should|...]]",
-        "[[What|...]]",
-        "[[wear|...]]",
-        "[[I|...]]",
-        "[[to|...]]",
-        "[[the|...]]",
-        "[[wedding?|...]]"
+        "[[What|Qué]]",
+        "[[to|a/para]]",
+        "[[should|should]]",
+        "[[I|Yo]]",
+        "[[wear|wear]]",
+        "[[wedding|wedding]]?",
+        "[[the|el/la/los/las]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -452,15 +452,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[You|...]] [[should|...]] [[try|...]] [[this|...]] [[cake,|...]] [[it's|...]] [[delicious!|...]]",
+      "correctSentence": "[[You|Tú/usted/vosotros]] [[should|should]] [[try|try]] [[this|este/esta]] [[cake|cake]], [[it's|it's]] [[delicious|delicious]]!",
       "words": [
-        "[[it's|...]]",
-        "[[try|...]]",
-        "[[this|...]]",
-        "[[should|...]]",
-        "[[cake,|...]]",
-        "[[You|...]]",
-        "[[delicious!|...]]"
+        "[[You|Tú/usted/vosotros]]",
+        "[[should|should]]",
+        "[[try|try]]",
+        "[[this|este/esta]]",
+        "[[cake|cake]],",
+        "[[it's|it's]]",
+        "[[delicious|delicious]]!"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -477,14 +477,14 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|...]] [[shouldn't|...]] [[drink|...]] [[so|...]] [[much|...]] [[coffee.|...]]",
+      "correctSentence": "[[She|Ella]] [[shouldn't|shouldn't]] [[drink|drink]] [[so|tan/así que]] [[much|much]] [[coffee|coffee]].",
       "words": [
-        "[[drink|...]]",
-        "[[shouldn't|...]]",
-        "[[She|...]]",
-        "[[much|...]]",
-        "[[so|...]]",
-        "[[coffee.|...]]"
+        "[[so|tan/así que]]",
+        "[[She|Ella]]",
+        "[[coffee|coffee]].",
+        "[[much|much]]",
+        "[[shouldn't|shouldn't]]",
+        "[[drink|drink]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -501,16 +501,16 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|...]] [[should|...]] [[leave|...]] [[now|...]] [[or|...]] [[we'll|...]] [[be|...]] [[late.|...]]",
+      "correctSentence": "[[We|Nosotros]] [[should|should]] [[leave|leave]] [[now|now]] [[or|o]] [[we'll|we'll]] [[be|be]] [[late|late]].",
       "words": [
-        "[[now|...]]",
-        "[[leave|...]]",
-        "[[we'll|...]]",
-        "[[should|...]]",
-        "[[We|...]]",
-        "[[late.|...]]",
-        "[[or|...]]",
-        "[[be|...]]"
+        "[[We|Nosotros]]",
+        "[[should|should]]",
+        "[[late|late]].",
+        "[[we'll|we'll]]",
+        "[[be|be]]",
+        "[[or|o]]",
+        "[[leave|leave]]",
+        "[[now|now]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -527,16 +527,16 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Where|...]] [[should|...]] [[we|...]] [[go|...]] [[on|...]] [[holiday|...]] [[this|...]] [[year?|...]]",
+      "correctSentence": "[[Where|Dónde]] [[should|should]] [[we|nosotros]] [[go|go]] [[on|en/sobre]] [[holiday|holiday]] [[this|este/esta]] [[year|año]]?",
       "words": [
-        "[[holiday|...]]",
-        "[[Where|...]]",
-        "[[this|...]]",
-        "[[should|...]]",
-        "[[go|...]]",
-        "[[year?|...]]",
-        "[[on|...]]",
-        "[[we|...]]"
+        "[[holiday|holiday]]",
+        "[[this|este/esta]]",
+        "[[go|go]]",
+        "[[on|en/sobre]]",
+        "[[year|año]]?",
+        "[[we|nosotros]]",
+        "[[should|should]]",
+        "[[Where|Dónde]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -553,16 +553,16 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|...]] [[don't|...]] [[think|...]] [[you|...]] [[should|...]] [[buy|...]] [[that|...]] [[car.|...]]",
+      "correctSentence": "[[I|Yo]] [[don't|no]] [[think|pensar/creer]] [[you|tú/usted/vosotros]] [[should|should]] [[buy|buy]] [[that|ese/esa/aquel]] [[car|car]].",
       "words": [
-        "[[should|...]]",
-        "[[I|...]]",
-        "[[don't|...]]",
-        "[[buy|...]]",
-        "[[think|...]]",
-        "[[you|...]]",
-        "[[car.|...]]",
-        "[[that|...]]"
+        "[[I|Yo]]",
+        "[[don't|no]]",
+        "[[think|pensar/creer]]",
+        "[[you|tú/usted/vosotros]]",
+        "[[car|car]].",
+        "[[buy|buy]]",
+        "[[should|should]]",
+        "[[that|ese/esa/aquel]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -579,15 +579,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Should|...]] [[I|...]] [[call|...]] [[him|...]] [[now|...]] [[or|...]] [[later?|...]]",
+      "correctSentence": "[[Should|Should]] [[I|Yo]] [[call|call]] [[him|him]] [[now|now]] [[or|o]] [[later|later]]?",
       "words": [
-        "[[Should|...]]",
-        "[[later?|...]]",
-        "[[or|...]]",
-        "[[him|...]]",
-        "[[I|...]]",
-        "[[call|...]]",
-        "[[now|...]]"
+        "[[Should|Should]]",
+        "[[I|Yo]]",
+        "[[call|call]]",
+        "[[now|now]]",
+        "[[him|him]]",
+        "[[later|later]]?",
+        "[[or|o]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -604,16 +604,16 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[You|...]] [[should|...]] [[be|...]] [[more|...]] [[careful|...]] [[with|...]] [[your|...]] [[money.|...]]",
+      "correctSentence": "[[You|Tú/usted/vosotros]] [[should|should]] [[be|be]] [[more|more]] [[careful|careful]] [[with|con]] [[your|tu/tus]] [[money|money]].",
       "words": [
-        "[[be|...]]",
-        "[[more|...]]",
-        "[[with|...]]",
-        "[[money.|...]]",
-        "[[should|...]]",
-        "[[your|...]]",
-        "[[You|...]]",
-        "[[careful|...]]"
+        "[[should|should]]",
+        "[[more|more]]",
+        "[[your|tu/tus]]",
+        "[[money|money]].",
+        "[[with|con]]",
+        "[[be|be]]",
+        "[[You|Tú/usted/vosotros]]",
+        "[[careful|careful]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -630,14 +630,14 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|...]] [[shouldn't|...]] [[make|...]] [[so|...]] [[much|...]] [[noise.|...]]",
+      "correctSentence": "[[They|Ellos]] [[shouldn't|shouldn't]] [[make|make]] [[so|tan/así que]] [[much|much]] [[noise|noise]].",
       "words": [
-        "[[noise.|...]]",
-        "[[They|...]]",
-        "[[shouldn't|...]]",
-        "[[make|...]]",
-        "[[much|...]]",
-        "[[so|...]]"
+        "[[so|tan/así que]]",
+        "[[much|much]]",
+        "[[noise|noise]].",
+        "[[make|make]]",
+        "[[They|Ellos]]",
+        "[[shouldn't|shouldn't]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -654,15 +654,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|...]] [[think|...]] [[we|...]] [[should|...]] [[ask|...]] [[for|...]] [[directions.|...]]",
+      "correctSentence": "[[I|Yo]] [[think|pensar/creer]] [[we|nosotros]] [[should|should]] [[ask|ask]] [[for|para/por]] [[directions|directions]].",
       "words": [
-        "[[should|...]]",
-        "[[we|...]]",
-        "[[for|...]]",
-        "[[think|...]]",
-        "[[directions.|...]]",
-        "[[I|...]]",
-        "[[ask|...]]"
+        "[[should|should]]",
+        "[[ask|ask]]",
+        "[[for|para/por]]",
+        "[[think|pensar/creer]]",
+        "[[directions|directions]].",
+        "[[I|Yo]]",
+        "[[we|nosotros]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -679,16 +679,16 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[You|...]] [[should|...]] [[talk|...]] [[to|...]] [[your|...]] [[teacher|...]] [[about|...]] [[it.|...]]",
+      "correctSentence": "[[You|Tú/usted/vosotros]] [[should|should]] [[talk|talk]] [[to|a/para]] [[your|tu/tus]] [[teacher|profesor/profesora]] [[about|about]] [[it|esto/eso]].",
       "words": [
-        "[[teacher|...]]",
-        "[[about|...]]",
-        "[[talk|...]]",
-        "[[should|...]]",
-        "[[You|...]]",
-        "[[to|...]]",
-        "[[it.|...]]",
-        "[[your|...]]"
+        "[[teacher|profesor/profesora]]",
+        "[[it|esto/eso]].",
+        "[[talk|talk]]",
+        "[[should|should]]",
+        "[[your|tu/tus]]",
+        "[[to|a/para]]",
+        "[[You|Tú/usted/vosotros]]",
+        "[[about|about]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -705,16 +705,16 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|...]] [[should|...]] [[take|...]] [[some|...]] [[medicine|...]] [[for|...]] [[her|...]] [[cough.|...]]",
+      "correctSentence": "[[She|Ella]] [[should|should]] [[take|take]] [[some|some]] [[medicine|medicine]] [[for|para/por]] [[her|su (de ella)]] [[cough|cough]].",
       "words": [
-        "[[She|...]]",
-        "[[medicine|...]]",
-        "[[take|...]]",
-        "[[cough.|...]]",
-        "[[her|...]]",
-        "[[for|...]]",
-        "[[should|...]]",
-        "[[some|...]]"
+        "[[some|some]]",
+        "[[medicine|medicine]]",
+        "[[take|take]]",
+        "[[cough|cough]].",
+        "[[for|para/por]]",
+        "[[should|should]]",
+        "[[She|Ella]]",
+        "[[her|su (de ella)]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },

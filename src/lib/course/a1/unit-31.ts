@@ -61,13 +61,13 @@ export const UNIT_31_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|traducción]] [[(poder)|traducción]] _______ [[swim|traducción]]",
+          "question": "[[I|Yo]] ([[poder|poder]]) _______ [[swim|swim]].",
           "options": [
+            "[[is|es]]",
             "[[can|can]]",
-            "[[are|están]]",
-            "[[is|es]]"
+            "[[are|están]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -87,13 +87,13 @@ export const UNIT_31_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|traducción]] [[(no|traducción]] [[-|traducción]] [[poder)|traducción]] _______ [[drive|traducción]]",
+          "question": "[[He|Él]] ([[no|no]] [[-|-]] [[poder|poder]]) _______ [[drive|drive]].",
           "options": [
+            "[[can't|can't]]",
             "[[is|es]]",
-            "[[are|están]]",
-            "[[can't|can't]]"
+            "[[are|están]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -113,7 +113,7 @@ export const UNIT_31_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[(Poder|traducción]] [[-|traducción]] [[tú)|traducción]] _______ [[you|traducción]] [[dance|traducción]]",
+          "question": "([[Poder|Poder]]? [[-|-]] [[tú|tú]]) _______ [[you|tú/usted/vosotros]] [[dance|dance]]?",
           "options": [
             "[[Can|Can]]",
             "[[is|es]]",
@@ -139,13 +139,13 @@ export const UNIT_31_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|traducción]] [[(poder)|traducción]] _______ [[speak|traducción]] [[English|traducción]]",
+          "question": "[[They|Ellos]] ([[poder|poder]]) _______ [[speak|hablar]] [[English|English]].",
           "options": [
+            "[[can|can]]",
             "[[are|están]]",
-            "[[is|es]]",
-            "[[can|can]]"
+            "[[is|es]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -163,12 +163,12 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|...]] [[can't|...]] [[speak|...]] [[French.|...]]",
+      "correctSentence": "[[I|Yo]] [[can't|can't]] [[speak|hablar]] [[French|French]].",
       "words": [
-        "[[speak|...]]",
-        "[[I|...]]",
-        "[[French.|...]]",
-        "[[can't|...]]"
+        "[[I|Yo]]",
+        "[[can't|can't]]",
+        "[[speak|hablar]]",
+        "[[French|French]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -185,13 +185,13 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|...]] [[can|...]] [[play|...]] [[the|...]] [[guitar.|...]]",
+      "correctSentence": "[[She|Ella]] [[can|poder]] [[play|play]] [[the|el/la/los/las]] [[guitar|guitar]].",
       "words": [
-        "[[can|...]]",
-        "[[guitar.|...]]",
-        "[[She|...]]",
-        "[[the|...]]",
-        "[[play|...]]"
+        "[[can|poder]]",
+        "[[She|Ella]]",
+        "[[guitar|guitar]].",
+        "[[the|el/la/los/las]]",
+        "[[play|play]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -208,14 +208,14 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My|...]] [[dog|...]] [[can|...]] [[run|...]] [[very|...]] [[fast.|...]]",
+      "correctSentence": "[[My|Mi/mis]] [[dog|dog]] [[can|poder]] [[run|run]] [[very|muy]] [[fast|fast]].",
       "words": [
-        "[[dog|...]]",
-        "[[fast.|...]]",
-        "[[My|...]]",
-        "[[run|...]]",
-        "[[can|...]]",
-        "[[very|...]]"
+        "[[fast|fast]].",
+        "[[can|poder]]",
+        "[[very|muy]]",
+        "[[run|run]]",
+        "[[dog|dog]]",
+        "[[My|Mi/mis]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -232,13 +232,13 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Can|...]] [[you|...]] [[help|...]] [[me,|...]] [[please?|...]]",
+      "correctSentence": "[[Can|Poder]] [[you|tú/usted/vosotros]] [[help|help]] [[me|me]], [[please|por favor]]?",
       "words": [
-        "[[me,|...]]",
-        "[[help|...]]",
-        "[[please?|...]]",
-        "[[you|...]]",
-        "[[Can|...]]"
+        "[[you|tú/usted/vosotros]]",
+        "[[Can|Poder]]",
+        "[[help|help]]",
+        "[[me|me]],",
+        "[[please|por favor]]?"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -255,13 +255,13 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|...]] [[can|...]] [[draw|...]] [[beautiful|...]] [[pictures.|...]]",
+      "correctSentence": "[[They|Ellos]] [[can|poder]] [[draw|draw]] [[beautiful|beautiful]] [[pictures|pictures]].",
       "words": [
-        "[[draw|...]]",
-        "[[pictures.|...]]",
-        "[[beautiful|...]]",
-        "[[can|...]]",
-        "[[They|...]]"
+        "[[beautiful|beautiful]]",
+        "[[pictures|pictures]].",
+        "[[draw|draw]]",
+        "[[can|poder]]",
+        "[[They|Ellos]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

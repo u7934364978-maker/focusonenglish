@@ -65,10 +65,19 @@ Resolve build errors caused by temporary/backup files.
 
 ---
 
-### [ ] Step: UI Fixes (Translation Syntax & Hydration)
+### [x] Step: UI Fixes (Translation Syntax & Hydration)
 
 Fix visible `[[text|translation]]` syntax and remaining hydration issues.
 
 1. [x] **Markdown Component**: Refactored `Markdown.tsx` to always apply `TranslatedText` to text nodes, ensuring `[[text|translation]]` is parsed even when vocabulary is empty.
 2. [x] **Exercise Titles**: Updated `DragDropExercise.tsx` and `MatchingExercise.tsx` to wrap titles in `TranslatedText`.
 3. [x] **Final Deployment**: Commit and push the fixes.
+
+---
+
+### [x] Step: Remove Speaking Exercises (Units 1-30)
+
+Remove all exercises of type `speaking-analysis` from the A1 course files.
+
+1. [x] **Unit-by-Unit Removal**: Iterate through all 30 units and remove speaking exercises.
+2. [x] **Commit & Push**: Commit and push changes for each unit individually.

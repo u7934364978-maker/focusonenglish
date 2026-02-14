@@ -57,13 +57,13 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|traducción]] [[have|traducción]] [[a|traducción]] [[(reserva)|traducción]] [[_______|traducción]]",
+          "question": "[[I|Yo]] [[have|tener/haber]] [[a|un/una]] ([[reserva|reserva]]) [[_______|_______]].",
           "options": [
-            "[[reservation|reservation]]",
+            "[[are|están]]",
             "[[is|es]]",
-            "[[are|están]]"
+            "[[reservation|reservation]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -83,13 +83,13 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Where|traducción]] [[(ser/estar|traducción]] [[-|traducción]] [[ello)|traducción]] _______ [[the|traducción]] [[elevator|traducción]]",
+          "question": "[[Where|Dónde]] ([[ser/estar|ser/estar]] [[-|-]] [[ello|ello]]) _______ [[the|el/la/los/las]] [[elevator|elevator]]?",
           "options": [
-            "[[is|is]]",
             "[[is|es]]",
-            "[[are|están]]"
+            "[[are|están]]",
+            "[[is|is]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -109,7 +109,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[My|traducción]] [[room|traducción]] [[(ser/estar|traducción]] [[-|traducción]] [[ello)|traducción]] _______ [[on|traducción]] [[the|traducción]] [[third|traducción]] [[floor|traducción]]",
+          "question": "[[My|Mi/mis]] [[room|room]] ([[ser/estar|ser/estar]] [[-|-]] [[ello|ello]]) _______ [[on|en/sobre]] [[the|el/la/los/las]] [[third|third]] [[floor|floor]].",
           "options": [
             "[[is|is]]",
             "[[is|es]]",
@@ -135,13 +135,13 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Here|traducción]] [[(ser/estar|traducción]] [[-|traducción]] [[ello)|traducción]] _______ [[your|traducción]] [[key|traducción]]",
+          "question": "[[Here|Here]] ([[ser/estar|ser/estar]] [[-|-]] [[ello|ello]]) _______ [[your|tu/tus]] [[key|key]].",
           "options": [
-            "[[are|están]]",
             "[[is|es]]",
-            "[[is|is]]"
+            "[[is|is]]",
+            "[[are|están]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -159,13 +159,13 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|...]] [[want|...]] [[a|...]] [[double|...]] [[room.|...]]",
+      "correctSentence": "[[I|Yo]] [[want|want]] [[a|un/una]] [[double|double]] [[room|room]].",
       "words": [
-        "[[a|...]]",
-        "[[double|...]]",
-        "[[room.|...]]",
-        "[[want|...]]",
-        "[[I|...]]"
+        "[[a|un/una]]",
+        "[[room|room]].",
+        "[[double|double]]",
+        "[[I|Yo]]",
+        "[[want|want]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -182,14 +182,14 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|...]] [[reception|...]] [[is|...]] [[open|...]] [[24|...]] [[hours.|...]]",
+      "correctSentence": "[[The|El/la/los/las]] [[reception|reception]] [[is|es/está]] [[open|open]] [[24|24]] [[hours|hours]].",
       "words": [
-        "[[is|...]]",
-        "[[reception|...]]",
-        "[[The|...]]",
-        "[[open|...]]",
-        "[[hours.|...]]",
-        "[[24|...]]"
+        "[[hours|hours]].",
+        "[[24|24]]",
+        "[[The|El/la/los/las]]",
+        "[[reception|reception]]",
+        "[[is|es/está]]",
+        "[[open|open]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -206,11 +206,11 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Is|...]] [[breakfast|...]] [[included?|...]]",
+      "correctSentence": "[[Is|Es/está]] [[breakfast|breakfast]] [[included|included]]?",
       "words": [
-        "[[Is|...]]",
-        "[[breakfast|...]]",
-        "[[included?|...]]"
+        "[[included|included]]?",
+        "[[breakfast|breakfast]]",
+        "[[Is|Es/está]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -227,13 +227,13 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|...]] [[room|...]] [[is|...]] [[very|...]] [[clean.|...]]",
+      "correctSentence": "[[The|El/la/los/las]] [[room|room]] [[is|es/está]] [[very|muy]] [[clean|clean]].",
       "words": [
-        "[[The|...]]",
-        "[[clean.|...]]",
-        "[[room|...]]",
-        "[[very|...]]",
-        "[[is|...]]"
+        "[[clean|clean]].",
+        "[[room|room]]",
+        "[[The|El/la/los/las]]",
+        "[[very|muy]]",
+        "[[is|es/está]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -250,13 +250,13 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|...]] [[need|...]] [[an|...]] [[extra|...]] [[towel.|...]]",
+      "correctSentence": "[[I|Yo]] [[need|need]] [[an|un/una]] [[extra|extra]] [[towel|towel]].",
       "words": [
-        "[[I|...]]",
-        "[[need|...]]",
-        "[[extra|...]]",
-        "[[towel.|...]]",
-        "[[an|...]]"
+        "[[towel|towel]].",
+        "[[an|un/una]]",
+        "[[need|need]]",
+        "[[extra|extra]]",
+        "[[I|Yo]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

@@ -17,7 +17,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
           "back": "Solicitud de empleo"
         },
         {
-          "front": "[[CV (Curriculum Vitae)|Currículum]]",
+          "front": "[[CV (Curriculum Vitae|Currículum]])",
           "back": "Currículum"
         },
         {
@@ -109,7 +109,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|traducción]] [[(apply)|traducción]] _______ [[for|traducción]] [[three|traducción]] [[jobs|traducción]] [[last|traducción]] [[week|traducción]]",
+          "question": "[[I|Yo]] ([[apply|apply]]) _______ [[for|para/por]] [[three|three]] [[jobs|jobs]] [[last|last]] [[week|semana]].",
           "options": [
             "[[applied|applied]]",
             "[[to|a]]",
@@ -135,13 +135,13 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|traducción]] [[(be)|traducción]] _______ [[preparing|traducción]] [[her|traducción]] [[CV|traducción]]",
+          "question": "[[She|Ella]] ([[be|be]]) _______ [[preparing|preparing]] [[her|su (de ella)]] [[CV|CV]].",
           "options": [
-            "[[it|lo]]",
+            "[[is|is]]",
             "[[to|a]]",
-            "[[is|is]]"
+            "[[it|lo]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -161,7 +161,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|traducción]] [[(not/call)|traducción]] _______ [[me|traducción]] [[back|traducción]] [[yet|traducción]]",
+          "question": "[[They|Ellos]] ([[not/call|not/call]]) _______ [[me|me]] [[back|back]] [[yet|yet]].",
           "options": [
             "[[it|lo]]",
             "[[to|a]]",
@@ -187,7 +187,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|traducción]] [[(have)|traducción]] _______ [[an|traducción]] [[interview|traducción]] [[yesterday|traducción]]",
+          "question": "[[He|Él]] ([[have|tener/haber]]) _______ [[an|un/una]] [[interview|interview]] [[yesterday|yesterday]].",
           "options": [
             "[[had|had]]",
             "[[to|a]]",
@@ -213,13 +213,13 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[What|traducción]] _______ [[I|traducción]] [[wear|traducción]] [[to|traducción]] [[the|traducción]] [[interview|traducción]]",
+          "question": "[[What|Qué]] _______ [[I|Yo]] [[wear|wear]] [[to|a/para]] [[the|el/la/los/las]] [[interview|interview]]?",
           "options": [
-            "[[should|should]]",
+            "[[it|lo]]",
             "[[to|a]]",
-            "[[it|lo]]"
+            "[[should|should]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -239,7 +239,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|traducción]] [[(need)|traducción]] _______ [[to|traducción]] [[find|traducción]] [[a|traducción]] [[new|traducción]] [[employee|traducción]]",
+          "question": "[[We|Nosotros]] ([[need|need]]) _______ [[to|a/para]] [[find|find]] [[a|un/una]] [[new|new]] [[employee|employee]].",
           "options": [
             "[[need|need]]",
             "[[to|a]]",
@@ -265,13 +265,13 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|traducción]] [[(be)|traducción]] _______ [[writing|traducción]] [[a|traducción]] [[cover|traducción]] [[letter|traducción]]",
+          "question": "[[I|Yo]] ([[be|be]]) _______ [[writing|writing]] [[a|un/una]] [[cover|cover]] [[letter|letter]].",
           "options": [
+            "[[it|lo]]",
             "[[to|a]]",
-            "[[am|am]]",
-            "[[it|lo]]"
+            "[[am|am]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -291,13 +291,13 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|traducción]] [[(not/have)|traducción]] _______ [[much|traducción]] [[experience|traducción]]",
+          "question": "[[She|Ella]] ([[not/have|not/have]]) _______ [[much|much]] [[experience|experience]].",
           "options": [
-            "[[it|lo]]",
+            "[[doesn't have|doesn't have]]",
             "[[to|a]]",
-            "[[doesn't have|doesn't have]]"
+            "[[it|lo]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -317,13 +317,13 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|traducción]] [[(offer)|traducción]] _______ [[me|traducción]] [[the|traducción]] [[position|traducción]]",
+          "question": "[[They|Ellos]] ([[offer|offer]]) _______ [[me|me]] [[the|el/la/los/las]] [[position|position]].",
           "options": [
+            "[[it|lo]]",
             "[[to|a]]",
-            "[[offered|offered]]",
-            "[[it|lo]]"
+            "[[offered|offered]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -343,13 +343,13 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "_______ [[you|traducción]] [[have|traducción]] [[any|traducción]] [[references|traducción]]",
+          "question": "_______ [[you|tú/usted/vosotros]] [[have|tener/haber]] [[any|any]] [[references|references]]?",
           "options": [
             "[[it|lo]]",
-            "[[Do|Do]]",
-            "[[to|a]]"
+            "[[to|a]]",
+            "[[Do|Do]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -367,17 +367,17 @@ export const UNIT_53_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I'm|...]] [[updating|...]] [[my|...]] [[CV|...]] [[for|...]] [[a|...]] [[new|...]] [[job|...]] [[application.|...]]",
+      "correctSentence": "[[I'm|I'm]] [[updating|updating]] [[my|mi/mis]] [[CV|CV]] [[for|para/por]] [[a|un/una]] [[new|new]] [[job|job]] [[application|application]].",
       "words": [
-        "[[my|...]]",
-        "[[I'm|...]]",
-        "[[updating|...]]",
-        "[[CV|...]]",
-        "[[for|...]]",
-        "[[a|...]]",
-        "[[job|...]]",
-        "[[new|...]]",
-        "[[application.|...]]"
+        "[[I'm|I'm]]",
+        "[[updating|updating]]",
+        "[[a|un/una]]",
+        "[[my|mi/mis]]",
+        "[[application|application]].",
+        "[[job|job]]",
+        "[[for|para/por]]",
+        "[[CV|CV]]",
+        "[[new|new]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -394,15 +394,15 @@ export const UNIT_53_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|...]] [[wrote|...]] [[a|...]] [[very|...]] [[professional|...]] [[cover|...]] [[letter.|...]]",
+      "correctSentence": "[[She|Ella]] [[wrote|wrote]] [[a|un/una]] [[very|muy]] [[professional|professional]] [[cover|cover]] [[letter|letter]].",
       "words": [
-        "[[She|...]]",
-        "[[very|...]]",
-        "[[wrote|...]]",
-        "[[professional|...]]",
-        "[[letter.|...]]",
-        "[[a|...]]",
-        "[[cover|...]]"
+        "[[wrote|wrote]]",
+        "[[She|Ella]]",
+        "[[a|un/una]]",
+        "[[letter|letter]].",
+        "[[professional|professional]]",
+        "[[cover|cover]]",
+        "[[very|muy]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -419,18 +419,18 @@ export const UNIT_53_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|...]] [[had|...]] [[a|...]] [[job|...]] [[interview|...]] [[with|...]] [[a|...]] [[large|...]] [[law|...]] [[firm.|...]]",
+      "correctSentence": "[[He|Él]] [[had|had]] [[a|un/una]] [[job|job]] [[interview|interview]] [[with|con]] [[a|un/una]] [[large|large]] [[law|law]] [[firm|firm]].",
       "words": [
-        "[[had|...]]",
-        "[[job|...]]",
-        "[[He|...]]",
-        "[[law|...]]",
-        "[[with|...]]",
-        "[[firm.|...]]",
-        "[[interview|...]]",
-        "[[a|...]]",
-        "[[a|...]]",
-        "[[large|...]]"
+        "[[interview|interview]]",
+        "[[firm|firm]].",
+        "[[a|un/una]]",
+        "[[had|had]]",
+        "[[He|Él]]",
+        "[[law|law]]",
+        "[[large|large]]",
+        "[[a|un/una]]",
+        "[[with|con]]",
+        "[[job|job]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -447,15 +447,15 @@ export const UNIT_53_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|...]] [[need|...]] [[to|...]] [[gain|...]] [[more|...]] [[work|...]] [[experience.|...]]",
+      "correctSentence": "[[I|Yo]] [[need|need]] [[to|a/para]] [[gain|gain]] [[more|more]] [[work|trabajo/trabajar]] [[experience|experience]].",
       "words": [
-        "[[I|...]]",
-        "[[gain|...]]",
-        "[[more|...]]",
-        "[[work|...]]",
-        "[[need|...]]",
-        "[[to|...]]",
-        "[[experience.|...]]"
+        "[[gain|gain]]",
+        "[[to|a/para]]",
+        "[[more|more]]",
+        "[[need|need]]",
+        "[[I|Yo]]",
+        "[[experience|experience]].",
+        "[[work|trabajo/trabajar]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -472,15 +472,15 @@ export const UNIT_53_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[What|...]] [[are|...]] [[your|...]] [[main|...]] [[skills|...]] [[and|...]] [[qualifications?|...]]",
+      "correctSentence": "[[What|Qué]] [[are|somos/estamos/son/están]] [[your|tu/tus]] [[main|main]] [[skills|skills]] [[and|y]] [[qualifications|qualifications]]?",
       "words": [
-        "[[What|...]]",
-        "[[skills|...]]",
-        "[[your|...]]",
-        "[[are|...]]",
-        "[[and|...]]",
-        "[[main|...]]",
-        "[[qualifications?|...]]"
+        "[[your|tu/tus]]",
+        "[[main|main]]",
+        "[[What|Qué]]",
+        "[[skills|skills]]",
+        "[[are|somos/estamos/son/están]]",
+        "[[and|y]]",
+        "[[qualifications|qualifications]]?"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -497,17 +497,17 @@ export const UNIT_53_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Do|...]] [[you|...]] [[have|...]] [[any|...]] [[references|...]] [[from|...]] [[your|...]] [[previous|...]] [[job?|...]]",
+      "correctSentence": "[[Do|Hacer]] [[you|tú/usted/vosotros]] [[have|tener/haber]] [[any|any]] [[references|references]] [[from|de/desde]] [[your|tu/tus]] [[previous|previous]] [[job|job]]?",
       "words": [
-        "[[references|...]]",
-        "[[you|...]]",
-        "[[any|...]]",
-        "[[Do|...]]",
-        "[[from|...]]",
-        "[[previous|...]]",
-        "[[have|...]]",
-        "[[your|...]]",
-        "[[job?|...]]"
+        "[[previous|previous]]",
+        "[[Do|Hacer]]",
+        "[[you|tú/usted/vosotros]]",
+        "[[any|any]]",
+        "[[your|tu/tus]]",
+        "[[references|references]]",
+        "[[from|de/desde]]",
+        "[[job|job]]?",
+        "[[have|tener/haber]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -524,17 +524,17 @@ export const UNIT_53_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|...]] [[offered|...]] [[her|...]] [[a|...]] [[full-time|...]] [[position|...]] [[as|...]] [[a|...]] [[manager.|...]]",
+      "correctSentence": "[[They|Ellos]] [[offered|offered]] [[her|su (de ella)]] [[a|un/una]] [[full-time|full-time]] [[position|position]] [[as|as]] [[a|un/una]] [[manager|manager]].",
       "words": [
-        "[[a|...]]",
-        "[[as|...]]",
-        "[[offered|...]]",
-        "[[her|...]]",
-        "[[They|...]]",
-        "[[full-time|...]]",
-        "[[position|...]]",
-        "[[manager.|...]]",
-        "[[a|...]]"
+        "[[position|position]]",
+        "[[They|Ellos]]",
+        "[[as|as]]",
+        "[[offered|offered]]",
+        "[[full-time|full-time]]",
+        "[[a|un/una]]",
+        "[[a|un/una]]",
+        "[[manager|manager]].",
+        "[[her|su (de ella)]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -551,17 +551,17 @@ export const UNIT_53_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|...]] [[applied|...]] [[for|...]] [[a|...]] [[part-time|...]] [[job|...]] [[at|...]] [[the|...]] [[supermarket.|...]]",
+      "correctSentence": "[[I|Yo]] [[applied|applied]] [[for|para/por]] [[a|un/una]] [[part-time|part-time]] [[job|job]] [[at|en]] [[the|el/la/los/las]] [[supermarket|supermarket]].",
       "words": [
-        "[[I|...]]",
-        "[[part-time|...]]",
-        "[[applied|...]]",
-        "[[supermarket.|...]]",
-        "[[at|...]]",
-        "[[the|...]]",
-        "[[job|...]]",
-        "[[a|...]]",
-        "[[for|...]]"
+        "[[part-time|part-time]]",
+        "[[supermarket|supermarket]].",
+        "[[a|un/una]]",
+        "[[the|el/la/los/las]]",
+        "[[job|job]]",
+        "[[for|para/por]]",
+        "[[applied|applied]]",
+        "[[at|en]]",
+        "[[I|Yo]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -578,16 +578,16 @@ export const UNIT_53_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|...]] [[employer|...]] [[was|...]] [[very|...]] [[impressed|...]] [[with|...]] [[his|...]] [[CV.|...]]",
+      "correctSentence": "[[The|El/la/los/las]] [[employer|employer]] [[was|was]] [[very|muy]] [[impressed|impressed]] [[with|con]] [[his|su (de él)]] [[CV|CV]].",
       "words": [
-        "[[with|...]]",
-        "[[employer|...]]",
-        "[[very|...]]",
-        "[[The|...]]",
-        "[[his|...]]",
-        "[[was|...]]",
-        "[[CV.|...]]",
-        "[[impressed|...]]"
+        "[[impressed|impressed]]",
+        "[[CV|CV]].",
+        "[[very|muy]]",
+        "[[The|El/la/los/las]]",
+        "[[his|su (de él)]]",
+        "[[employer|employer]]",
+        "[[was|was]]",
+        "[[with|con]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -604,13 +604,13 @@ export const UNIT_53_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|...]] [[signed|...]] [[the|...]] [[contract|...]] [[yesterday.|...]]",
+      "correctSentence": "[[I|Yo]] [[signed|signed]] [[the|el/la/los/las]] [[contract|contract]] [[yesterday|yesterday]].",
       "words": [
-        "[[I|...]]",
-        "[[signed|...]]",
-        "[[the|...]]",
-        "[[contract|...]]",
-        "[[yesterday.|...]]"
+        "[[the|el/la/los/las]]",
+        "[[contract|contract]]",
+        "[[signed|signed]]",
+        "[[yesterday|yesterday]].",
+        "[[I|Yo]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -627,18 +627,18 @@ export const UNIT_53_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|...]] [[is|...]] [[looking|...]] [[for|...]] [[a|...]] [[temporary|...]] [[job|...]] [[for|...]] [[the|...]] [[summer.|...]]",
+      "correctSentence": "[[He|Él]] [[is|es/está]] [[looking|looking]] [[for|para/por]] [[a|un/una]] [[temporary|temporary]] [[job|job]] [[for|para/por]] [[the|el/la/los/las]] [[summer|summer]].",
       "words": [
-        "[[job|...]]",
-        "[[temporary|...]]",
-        "[[a|...]]",
-        "[[the|...]]",
-        "[[for|...]]",
-        "[[for|...]]",
-        "[[looking|...]]",
-        "[[summer.|...]]",
-        "[[is|...]]",
-        "[[He|...]]"
+        "[[looking|looking]]",
+        "[[job|job]]",
+        "[[a|un/una]]",
+        "[[He|Él]]",
+        "[[summer|summer]].",
+        "[[for|para/por]]",
+        "[[the|el/la/los/las]]",
+        "[[temporary|temporary]]",
+        "[[for|para/por]]",
+        "[[is|es/está]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -655,15 +655,15 @@ export const UNIT_53_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[How|...]] [[should|...]] [[I|...]] [[prepare|...]] [[for|...]] [[the|...]] [[interview?|...]]",
+      "correctSentence": "[[How|Cómo]] [[should|should]] [[I|Yo]] [[prepare|prepare]] [[for|para/por]] [[the|el/la/los/las]] [[interview|interview]]?",
       "words": [
-        "[[interview?|...]]",
-        "[[should|...]]",
-        "[[How|...]]",
-        "[[the|...]]",
-        "[[for|...]]",
-        "[[I|...]]",
-        "[[prepare|...]]"
+        "[[I|Yo]]",
+        "[[prepare|prepare]]",
+        "[[the|el/la/los/las]]",
+        "[[should|should]]",
+        "[[How|Cómo]]",
+        "[[for|para/por]]",
+        "[[interview|interview]]?"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -680,17 +680,17 @@ export const UNIT_53_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|...]] [[has|...]] [[all|...]] [[the|...]] [[necessary|...]] [[qualifications|...]] [[for|...]] [[the|...]] [[post.|...]]",
+      "correctSentence": "[[She|Ella]] [[has|tiene/ha]] [[all|all]] [[the|el/la/los/las]] [[necessary|necessary]] [[qualifications|qualifications]] [[for|para/por]] [[the|el/la/los/las]] [[post|post]].",
       "words": [
-        "[[qualifications|...]]",
-        "[[for|...]]",
-        "[[necessary|...]]",
-        "[[She|...]]",
-        "[[has|...]]",
-        "[[all|...]]",
-        "[[post.|...]]",
-        "[[the|...]]",
-        "[[the|...]]"
+        "[[the|el/la/los/las]]",
+        "[[all|all]]",
+        "[[has|tiene/ha]]",
+        "[[post|post]].",
+        "[[the|el/la/los/las]]",
+        "[[She|Ella]]",
+        "[[necessary|necessary]]",
+        "[[qualifications|qualifications]]",
+        "[[for|para/por]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -707,16 +707,16 @@ export const UNIT_53_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|...]] [[are|...]] [[looking|...]] [[to|...]] [[hire|...]] [[a|...]] [[new|...]] [[receptionist.|...]]",
+      "correctSentence": "[[They|Ellos]] [[are|somos/estamos/son/están]] [[looking|looking]] [[to|a/para]] [[hire|hire]] [[a|un/una]] [[new|new]] [[receptionist|receptionist]].",
       "words": [
-        "[[to|...]]",
-        "[[They|...]]",
-        "[[looking|...]]",
-        "[[hire|...]]",
-        "[[new|...]]",
-        "[[receptionist.|...]]",
-        "[[are|...]]",
-        "[[a|...]]"
+        "[[a|un/una]]",
+        "[[to|a/para]]",
+        "[[They|Ellos]]",
+        "[[new|new]]",
+        "[[hire|hire]]",
+        "[[looking|looking]]",
+        "[[receptionist|receptionist]].",
+        "[[are|somos/estamos/son/están]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -733,14 +733,14 @@ export const UNIT_53_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|...]] [[hope|...]] [[I|...]] [[get|...]] [[the|...]] [[job!|...]]",
+      "correctSentence": "[[I|Yo]] [[hope|hope]] [[I|Yo]] [[get|get]] [[the|el/la/los/las]] [[job|job]]!",
       "words": [
-        "[[job!|...]]",
-        "[[the|...]]",
-        "[[hope|...]]",
-        "[[I|...]]",
-        "[[get|...]]",
-        "[[I|...]]"
+        "[[I|Yo]]",
+        "[[hope|hope]]",
+        "[[job|job]]!",
+        "[[I|Yo]]",
+        "[[get|get]]",
+        "[[the|el/la/los/las]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },

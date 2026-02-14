@@ -57,13 +57,13 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|traducción]] [[(querer)|traducción]] _______ [[to|traducción]] [[order|traducción]] [[please|traducción]]",
+          "question": "[[I|Yo]] ([[querer|querer]]) _______ [[to|a/para]] [[order|order]], [[please|por favor]].",
           "options": [
+            "[[are|están]]",
             "[[want|want]]",
-            "[[is|es]]",
-            "[[are|están]]"
+            "[[is|es]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -83,7 +83,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Can|traducción]] [[I|traducción]] [[have|traducción]] [[the|traducción]] [[(cuenta)|traducción]] [[_______|traducción]]",
+          "question": "[[Can|Poder]] [[I|Yo]] [[have|tener/haber]] [[the|el/la/los/las]] ([[cuenta|cuenta]]) [[_______|_______]]?",
           "options": [
             "[[are|están]]",
             "[[is|es]]",
@@ -109,13 +109,13 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Would|traducción]] [[you|traducción]] [[like|traducción]] [[a|traducción]] [[(postre)|traducción]] [[_______|traducción]]",
+          "question": "[[Would|Would]] [[you|tú/usted/vosotros]] [[like|gustar/como]] [[a|un/una]] ([[postre|postre]]) [[_______|_______]]?",
           "options": [
-            "[[dessert|dessert]]",
             "[[are|están]]",
+            "[[dessert|dessert]]",
             "[[is|es]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -135,7 +135,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[(Nosotros)|traducción]] _______ [[have|traducción]] [[a|traducción]] [[reservation|traducción]]",
+          "question": "([[Nosotros|Nosotros]]) _______ [[have|tener/haber]] [[a|un/una]] [[reservation|reservation]].",
           "options": [
             "[[are|están]]",
             "[[is|es]]",
@@ -159,12 +159,12 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|...]] [[waiter|...]] [[is|...]] [[coming.|...]]",
+      "correctSentence": "[[The|El/la/los/las]] [[waiter|waiter]] [[is|es/está]] [[coming|coming]].",
       "words": [
-        "[[The|...]]",
-        "[[waiter|...]]",
-        "[[coming.|...]]",
-        "[[is|...]]"
+        "[[The|El/la/los/las]]",
+        "[[coming|coming]].",
+        "[[is|es/está]]",
+        "[[waiter|waiter]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -181,14 +181,14 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|...]] [[want|...]] [[to|...]] [[pay|...]] [[the|...]] [[bill.|...]]",
+      "correctSentence": "[[I|Yo]] [[want|want]] [[to|a/para]] [[pay|pay]] [[the|el/la/los/las]] [[bill|bill]].",
       "words": [
-        "[[pay|...]]",
-        "[[I|...]]",
-        "[[the|...]]",
-        "[[want|...]]",
-        "[[to|...]]",
-        "[[bill.|...]]"
+        "[[I|Yo]]",
+        "[[want|want]]",
+        "[[to|a/para]]",
+        "[[pay|pay]]",
+        "[[the|el/la/los/las]]",
+        "[[bill|bill]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -205,12 +205,12 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Don't|...]] [[forget|...]] [[the|...]] [[tip.|...]]",
+      "correctSentence": "[[Don't|No]] [[forget|forget]] [[the|el/la/los/las]] [[tip|tip]].",
       "words": [
-        "[[Don't|...]]",
-        "[[forget|...]]",
-        "[[the|...]]",
-        "[[tip.|...]]"
+        "[[the|el/la/los/las]]",
+        "[[forget|forget]]",
+        "[[Don't|No]]",
+        "[[tip|tip]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -227,11 +227,11 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[What's|...]] [[for|...]] [[dessert?|...]]",
+      "correctSentence": "[[What's|What's]] [[for|para/por]] [[dessert|dessert]]?",
       "words": [
-        "[[dessert?|...]]",
-        "[[What's|...]]",
-        "[[for|...]]"
+        "[[dessert|dessert]]?",
+        "[[for|para/por]]",
+        "[[What's|What's]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -248,13 +248,13 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I'd|...]] [[like|...]] [[a|...]] [[cold|...]] [[drink.|...]]",
+      "correctSentence": "[[I'd|I'd]] [[like|gustar/como]] [[a|un/una]] [[cold|cold]] [[drink|drink]].",
       "words": [
-        "[[drink.|...]]",
-        "[[I'd|...]]",
-        "[[like|...]]",
-        "[[cold|...]]",
-        "[[a|...]]"
+        "[[drink|drink]].",
+        "[[cold|cold]]",
+        "[[a|un/una]]",
+        "[[like|gustar/como]]",
+        "[[I'd|I'd]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

@@ -21,7 +21,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
           "back": "Bienvenido"
         },
         {
-          "front": "[[Friend|Amigo/a]]",
+          "front": "[[Friend|Amigo/amiga]]",
           "back": "Amigo/a"
         },
         {
@@ -69,7 +69,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|traducción]] [[(ser/estar|traducción]] [[-|traducción]] [[él)|traducción]] _______ [[my|traducción]] [[friend|traducción]]",
+          "question": "[[He|Él]] ([[ser/estar|ser/estar]] [[-|-]] [[él|él]]) _______ [[my|mi/mis]] [[friend|amigo/amiga]].",
           "options": [
             "[[is|es]]",
             "[[are|están]]",
@@ -95,13 +95,13 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|traducción]] [[(ser/estar|traducción]] [[-|traducción]] [[ella)|traducción]] _______ [[a|traducción]] [[doctor|traducción]]",
+          "question": "[[She|Ella]] ([[ser/estar|ser/estar]] [[-|-]] [[ella|ella]]) _______ [[a|un/una]] [[doctor|doctor]].",
           "options": [
-            "[[is|is]]",
             "[[is|es]]",
+            "[[is|is]]",
             "[[are|están]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -121,13 +121,13 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|traducción]] [[(ser/estar|traducción]] [[-|traducción]] [[nosotros)|traducción]] _______ [[happy|traducción]]",
+          "question": "[[We|Nosotros]] ([[ser/estar|ser/estar]] [[-|-]] [[nosotros|nosotros]]) _______ [[happy|feliz]].",
           "options": [
-            "[[are|are]]",
             "[[is|es]]",
+            "[[are|are]]",
             "[[are|están]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -147,13 +147,13 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|traducción]] [[(ser/estar|traducción]] [[-|traducción]] [[ellos)|traducción]] _______ [[students|traducción]]",
+          "question": "[[They|Ellos]] ([[ser/estar|ser/estar]] [[-|-]] [[ellos|ellos]]) _______ [[students|students]].",
           "options": [
-            "[[are|están]]",
+            "[[are|are]]",
             "[[is|es]]",
-            "[[are|are]]"
+            "[[are|están]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -173,7 +173,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[(Ser/Estar|traducción]] [[-|traducción]] [[tú)|traducción]] _______ [[you|traducción]] [[a|traducción]] [[student|traducción]]",
+          "question": "([[Ser/Estar|Ser/Estar]] [[-|-]] [[tú|tú]]) _______ [[you|tú/usted/vosotros]] [[a|un/una]] [[student|student]]?",
           "options": [
             "[[are|están]]",
             "[[is|es]]",
@@ -197,13 +197,13 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|...]] [[is|...]] [[my|...]] [[best|...]] [[friend.|...]]",
+      "correctSentence": "[[He|Él]] [[is|es/está]] [[my|mi/mis]] [[best|best]] [[friend|amigo/amiga]].",
       "words": [
-        "[[best|...]]",
-        "[[my|...]]",
-        "[[is|...]]",
-        "[[He|...]]",
-        "[[friend.|...]]"
+        "[[best|best]]",
+        "[[my|mi/mis]]",
+        "[[friend|amigo/amiga]].",
+        "[[is|es/está]]",
+        "[[He|Él]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -220,14 +220,14 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|...]] [[is|...]] [[a|...]] [[very|...]] [[good|...]] [[girl.|...]]",
+      "correctSentence": "[[She|Ella]] [[is|es/está]] [[a|un/una]] [[very|muy]] [[good|bueno/buena]] [[girl|girl]].",
       "words": [
-        "[[She|...]]",
-        "[[a|...]]",
-        "[[very|...]]",
-        "[[is|...]]",
-        "[[girl.|...]]",
-        "[[good|...]]"
+        "[[is|es/está]]",
+        "[[very|muy]]",
+        "[[She|Ella]]",
+        "[[girl|girl]].",
+        "[[good|bueno/buena]]",
+        "[[a|un/una]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -244,12 +244,12 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|...]] [[are|...]] [[from|...]] [[London.|...]]",
+      "correctSentence": "[[They|Ellos]] [[are|somos/estamos/son/están]] [[from|de/desde]] [[London|London]].",
       "words": [
-        "[[They|...]]",
-        "[[are|...]]",
-        "[[from|...]]",
-        "[[London.|...]]"
+        "[[London|London]].",
+        "[[from|de/desde]]",
+        "[[are|somos/estamos/son/están]]",
+        "[[They|Ellos]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -266,12 +266,12 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Welcome|...]] [[to|...]] [[our|...]] [[school.|...]]",
+      "correctSentence": "[[Welcome|Welcome]] [[to|a/para]] [[our|nuestro]] [[school|escuela]].",
       "words": [
-        "[[school.|...]]",
-        "[[our|...]]",
-        "[[to|...]]",
-        "[[Welcome|...]]"
+        "[[school|escuela]].",
+        "[[our|nuestro]]",
+        "[[to|a/para]]",
+        "[[Welcome|Welcome]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -288,12 +288,12 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Is|...]] [[she|...]] [[your|...]] [[classmate?|...]]",
+      "correctSentence": "[[Is|Es/está]] [[she|ella]] [[your|tu/tus]] [[classmate|classmate]]?",
       "words": [
-        "[[Is|...]]",
-        "[[she|...]]",
-        "[[your|...]]",
-        "[[classmate?|...]]"
+        "[[classmate|classmate]]?",
+        "[[she|ella]]",
+        "[[Is|Es/está]]",
+        "[[your|tu/tus]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

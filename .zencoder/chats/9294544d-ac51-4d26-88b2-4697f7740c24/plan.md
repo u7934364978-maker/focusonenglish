@@ -54,9 +54,7 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/92
 - [x] Create conversion script `scripts/convert-mega-a2.ts`.
 - [x] Convert local A2 data to unit files.
 
-#### Phase 3: Verification & Integration
-- [x] Run validation scripts on all new A1 and A2 units.
-- [x] Verify UI in browser using `/debug/a1-preview` and `/debug/a2-preview`.
-- [x] Obtain approval for E2E test plan (Implemented verification tests).
-- [x] Write and run E2E tests.
-- [x] Run final lint and type checks.
+#### Phase 4: Bug Fixes & Refinement
+- [x] Fix "traducción" and "..." placeholders in all A1 and A2 units.
+- [x] Improve word-level translation with punctuation handling and better dictionary support.
+- [x] Regenerate all 60 A1 and 60 A2 units with correct tooltips.

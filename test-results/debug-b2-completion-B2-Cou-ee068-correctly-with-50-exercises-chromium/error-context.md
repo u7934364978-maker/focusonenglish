@@ -1,0 +1,133 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic: © 2026 Focus English
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=e6]
+        - 'heading "B2 Preview: Unidad 30Ejercicio 1 de 50" [level=1] [ref=e9]':
+          - text: "B2 Preview: Unidad 30"
+          - generic [ref=e10]: Ejercicio 1 de 50
+      - generic [ref=e11]:
+        - button [disabled] [ref=e12]:
+          - img [ref=e13]
+        - button [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+    - main [ref=e18]:
+      - generic [ref=e21]:
+        - generic [ref=e23]:
+          - generic [ref=e24]:
+            - heading "Infraestructura futura" [level=2] [ref=e26]
+            - paragraph [ref=e29]: Ordena las palabras usando el futuro perfecto.
+          - generic [ref=e30]:
+            - heading "Tu oración:" [level=3] [ref=e31]
+            - paragraph [ref=e33]: Pulsa sobre las palabras de abajo...
+          - generic [ref=e34]:
+            - heading "Palabras disponibles:" [level=3] [ref=e35]
+            - generic [ref=e36]:
+              - button "they" [ref=e37] [cursor=pointer]:
+                - generic [ref=e40]:
+                  - text: they
+                  - generic:
+                    - generic: they
+                    - text: habrán
+                - img [ref=e41]
+              - button "completed" [ref=e42] [cursor=pointer]:
+                - generic [ref=e45]:
+                  - text: completed
+                  - generic:
+                    - generic: completed
+                    - text: nuevo
+                - img [ref=e46]
+              - button "infrastructure" [ref=e47] [cursor=pointer]:
+                - generic [ref=e50]:
+                  - text: infrastructure
+                  - generic:
+                    - generic: infrastructure
+                    - text: infraestructura.
+                - img [ref=e51]
+              - button "project." [ref=e52] [cursor=pointer]:
+                - generic [ref=e55]:
+                  - text: project.
+                  - generic:
+                    - generic: project.
+                - img [ref=e56]
+              - button "the" [ref=e57] [cursor=pointer]:
+                - generic [ref=e60]:
+                  - text: the
+                  - generic:
+                    - generic: the
+                    - text: proyecto
+                - img [ref=e61]
+              - button "will" [ref=e62] [cursor=pointer]:
+                - generic [ref=e65]:
+                  - text: will
+                  - generic:
+                    - generic: will
+                    - text: completado
+                - img [ref=e66]
+              - button "year," [ref=e67] [cursor=pointer]:
+                - generic [ref=e70]:
+                  - text: year,
+                  - generic:
+                    - generic: year,
+                    - text: próximo año,
+                - img [ref=e71]
+              - button "new" [ref=e72] [cursor=pointer]:
+                - generic [ref=e75]:
+                  - text: new
+                  - generic:
+                    - generic: new
+                    - text: de
+                - img [ref=e76]
+              - button "have" [ref=e77] [cursor=pointer]:
+                - generic [ref=e80]:
+                  - text: have
+                  - generic:
+                    - generic: have
+                    - text: el
+                - img [ref=e81]
+              - button "By" [ref=e82] [cursor=pointer]:
+                - generic [ref=e85]:
+                  - text: By
+                  - generic:
+                    - generic: By
+                    - text: Para
+                - img [ref=e86]
+              - button "next" [ref=e87] [cursor=pointer]:
+                - generic [ref=e90]:
+                  - text: next
+                  - generic:
+                    - generic: next
+                    - text: el
+                - img [ref=e91]
+          - generic [ref=e93]:
+            - button "Comprobar" [disabled] [ref=e94]:
+              - img [ref=e95]
+              - text: Comprobar
+            - button "Reiniciar" [ref=e97] [cursor=pointer]:
+              - img [ref=e98]
+        - generic [ref=e102]:
+          - generic [ref=e103]: "⏱️ Tiempo estimado: minutos"
+          - generic [ref=e104]: 📅 2/14/2026
+    - generic [ref=e105]:
+      - generic [ref=e106]:
+        - img [ref=e107]
+        - generic [ref=e116]: Debug Mode
+      - generic [ref=e117]:
+        - button "Completar Unidad" [ref=e118] [cursor=pointer]:
+          - img [ref=e119]
+          - text: Completar Unidad
+        - button "Completar Curso B2 (30 Unidades)" [ref=e122] [cursor=pointer]:
+          - img [ref=e123]
+          - text: Completar Curso B2 (30 Unidades)
+  - button "Open Next.js Dev Tools" [ref=e130] [cursor=pointer]:
+    - img [ref=e131]
+  - alert [ref=e134]
+  - iframe [ref=e135]:
+    
+```

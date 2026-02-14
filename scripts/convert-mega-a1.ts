@@ -4,6 +4,45 @@ import path from 'path';
 const pythonFilePath = path.join(process.cwd(), 'scripts/generate_a1_mega_course_data.py');
 const UNIT_DATA_RAW = fs.readFileSync(pythonFilePath, 'utf-8');
 
+// Basic dictionary for word-level tooltips
+const dictionary: Record<string, string> = {
+    "i": "yo", "am": "soy/estoy", "is": "es/está", "are": "somos/estamos/son/están",
+    "you": "tú/usted/vosotros", "he": "él", "she": "ella", "it": "esto/eso",
+    "we": "nosotros", "they": "ellos", "my": "mi/mis", "your": "tu/tus",
+    "his": "su (de él)", "her": "su (de ella)", "its": "su (de ello)",
+    "our": "nuestro", "their": "su (de ellos)", "the": "el/la/los/las",
+    "a": "un/una", "an": "un/una", "this": "este/esta", "that": "ese/esa/aquel",
+    "very": "muy", "quite": "bastante", "always": "siempre", "often": "a menudo",
+    "never": "nunca", "sometimes": "a veces", "than": "que (comparativo)",
+    "person": "persona", "people": "gente/personas", "man": "hombre", "woman": "mujer",
+    "child": "niño/niña", "children": "niños/niñas", "friend": "amigo/amiga",
+    "teacher": "profesor/profesora", "sister": "hermana", "brother": "hermano",
+    "know": "saber/conocer", "think": "pensar/creer", "seem": "parecer",
+    "like": "gustar/como", "have": "tener/haber", "has": "tiene/ha",
+    "do": "hacer", "does": "hace", "don't": "no", "doesn't": "no",
+    "can": "poder", "with": "con", "for": "para/por", "to": "a/para",
+    "in": "en", "on": "en/sobre", "at": "en", "from": "de/desde",
+    "by": "por", "who": "quién/que", "what": "qué", "why": "por qué",
+    "where": "dónde", "how": "cómo", "when": "cuándo", "so": "tan/así que",
+    "both": "ambos", "and": "y", "but": "pero", "or": "o",
+    "good": "bueno/buena", "bad": "malo/mala", "big": "grande", "small": "pequeño/pequeña",
+    "happy": "feliz", "sad": "triste", "angry": "enfadado/enojado",
+    "kind": "amable", "friendly": "simpático/amigable", "funny": "divertido",
+    "clever": "listo/inteligente", "lazy": "perezoso/vago", "patient": "paciente",
+    "shy": "tímido", "outgoing": "extrovertido", "rude": "maleducado",
+    "helpful": "servicial", "serious": "serio", "quiet": "tranquilo",
+    "honest": "honesto", "polite": "educado", "hard-working": "trabajador",
+    "work": "trabajo/trabajar", "home": "casa/hogar", "school": "escuela",
+    "university": "universidad", "city": "ciudad", "town": "pueblo",
+    "country": "país", "world": "mundo", "time": "tiempo", "day": "día",
+    "week": "semana", "month": "mes", "year": "año", "life": "vida",
+    "hello": "hola", "bye": "adiós", "goodbye": "adiós", "please": "por favor",
+    "thanks": "gracias", "thank": "agradecer", "sorry": "lo siento",
+    "yes": "sí", "no": "no", "name": "nombre", "old": "viejo/anciano",
+    "years": "años", "live": "vivir", "study": "estudiar", "read": "leer",
+    "write": "escribir", "speak": "hablar", "listen": "escuchar", "watch": "ver/mirar"
+};
+
 function parsePythonUnitData(content: string) {
     const units: any = {};
     const unitRegex = /(\d+): \{([\s\S]*?)\n    \}/g;
@@ -48,14 +87,28 @@ function parseStringList(listStr: string) {
     return items;
 }
 
-function translateWordLevel(english: string, spanish: string): string {
+function translateWordLevel(english: string, spanishHint?: string): string {
     if (!english) return "";
-    const words = english.split(" ");
-    if (words.length === 1) return `[[${english}|${spanish}]]`;
     
-    // Heuristic: wrap each word if it's a short phrase
-    // For now, let's just wrap the whole thing to be safe and simple
-    return `[[${english}|${spanish}]]`;
+    const startPunct = english.match(/^[¡¿"'(]+/);
+    const endPunct = english.match(/[.,!?;:"')]+$/);
+    
+    const prefix = startPunct ? startPunct[0] : "";
+    const suffix = endPunct ? endPunct[0] : "";
+    
+    let core = english;
+    if (prefix) core = core.slice(prefix.length);
+    if (suffix) core = core.slice(0, -suffix.length);
+
+    const cleanCore = core.toLowerCase().replace(/[()]/g, "");
+    
+    let translation = dictionary[cleanCore] || spanishHint || core;
+    
+    if (core[0] === core[0].toUpperCase() && translation[0]) {
+        translation = translation[0].toUpperCase() + translation.slice(1);
+    }
+
+    return `${prefix}[[${core}|${translation}]]${suffix}`;
 }
 
 function generateExercises(unitId: number, data: any) {
@@ -101,14 +154,14 @@ function generateExercises(unitId: number, data: any) {
                 questions: [{
                     question: questionText.split(" ").map((word: string) => {
                         if (word === "_______") return word;
-                        return `[[${word.replace(/[.,!?;:]/g, "")}|traducción]]`;
+                        return translateWordLevel(word);
                     }).join(" "),
                     options: [
                         `[[${g.es}|${g.es}]]`,
                         `[[is|es]]`,
                         `[[are|están]]`
                     ].sort(() => Math.random() - 0.5),
-                    correctAnswer: 0, // Simplified: first one is correct in our data
+                    correctAnswer: 0,
                     explanation: "Práctica de la estructura gramatical básica."
                 }]
             },
@@ -116,7 +169,6 @@ function generateExercises(unitId: number, data: any) {
             topicName: "Grammar"
         });
         
-        // Find correct answer index
         const ex = exercises[exercises.length - 1];
         const correctOpt = `[[${g.es}|${g.es}]]`;
         ex.content.questions[0].correctAnswer = ex.content.questions[0].options.indexOf(correctOpt);
@@ -137,8 +189,8 @@ function generateExercises(unitId: number, data: any) {
             content: {
                 title: "Construcción de Oraciones",
                 instructions: "Ordena las palabras para formar una oración correcta.",
-                correctSentence: words.map((w: string) => `[[${w}|...]]`).join(" "),
-                words: words.map((w: string) => `[[${w}|...]]`).sort(() => Math.random() - 0.5),
+                correctSentence: words.map((w: string) => translateWordLevel(w)).join(" "),
+                words: words.map((w: string) => translateWordLevel(w)).sort(() => Math.random() - 0.5),
                 explanation: "Practica el orden de las palabras en inglés."
             },
             audioUrl: `audio/a1/unit-${unitId}/e${exerciseIndex}.mp3`,

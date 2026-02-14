@@ -49,11 +49,11 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[How|traducción]] [[(mucho)|traducción]] _______ [[milk|traducción]]",
+          "question": "[[How|Cómo]] ([[mucho|mucho]]) _______ [[milk|milk]]?",
           "options": [
             "[[much|much]]",
-            "[[are|están]]",
-            "[[is|es]]"
+            "[[is|es]]",
+            "[[are|están]]"
           ],
           "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
@@ -75,7 +75,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|traducción]] [[have|traducción]] [[(algo|traducción]] [[de)|traducción]] _______ [[cheese|traducción]]",
+          "question": "[[I|Yo]] [[have|tener/haber]] ([[algo|algo]] [[de|de]]) _______ [[cheese|cheese]].",
           "options": [
             "[[some|some]]",
             "[[is|es]]",
@@ -101,13 +101,13 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|traducción]] [[(sentirse)|traducción]] _______ [[sick|traducción]]",
+          "question": "[[I|Yo]] ([[sentirse|sentirse]]) _______ [[sick|sick]].",
           "options": [
+            "[[are|están]]",
             "[[is|es]]",
-            "[[feel|feel]]",
-            "[[are|están]]"
+            "[[feel|feel]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -127,13 +127,13 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|traducción]] [[(pagar)|traducción]] _______ [[by|traducción]] [[card|traducción]]",
+          "question": "[[I|Yo]] ([[pagar|pagar]]) _______ [[by|por]] [[card|card]].",
           "options": [
+            "[[pay|pay]]",
             "[[are|están]]",
-            "[[is|es]]",
-            "[[pay|pay]]"
+            "[[is|es]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -151,13 +151,13 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[This|...]] [[is|...]] [[the|...]] [[final|...]] [[review.|...]]",
+      "correctSentence": "[[This|Este/esta]] [[is|es/está]] [[the|el/la/los/las]] [[final|final]] [[review|review]].",
       "words": [
-        "[[This|...]]",
-        "[[is|...]]",
-        "[[final|...]]",
-        "[[the|...]]",
-        "[[review.|...]]"
+        "[[This|Este/esta]]",
+        "[[review|review]].",
+        "[[final|final]]",
+        "[[the|el/la/los/las]]",
+        "[[is|es/está]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -174,13 +174,13 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Talk|...]] [[about|...]] [[shopping|...]] [[and|...]] [[food.|...]]",
+      "correctSentence": "[[Talk|Talk]] [[about|about]] [[shopping|shopping]] [[and|y]] [[food|food]].",
       "words": [
-        "[[Talk|...]]",
-        "[[and|...]]",
-        "[[about|...]]",
-        "[[food.|...]]",
-        "[[shopping|...]]"
+        "[[food|food]].",
+        "[[and|y]]",
+        "[[shopping|shopping]]",
+        "[[about|about]]",
+        "[[Talk|Talk]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -197,12 +197,12 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Order|...]] [[in|...]] [[a|...]] [[restaurant.|...]]",
+      "correctSentence": "[[Order|Order]] [[in|en]] [[a|un/una]] [[restaurant|restaurant]].",
       "words": [
-        "[[a|...]]",
-        "[[in|...]]",
-        "[[restaurant.|...]]",
-        "[[Order|...]]"
+        "[[Order|Order]]",
+        "[[restaurant|restaurant]].",
+        "[[in|en]]",
+        "[[a|un/una]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -219,11 +219,11 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Describe|...]] [[health|...]] [[issues.|...]]",
+      "correctSentence": "[[Describe|Describe]] [[health|health]] [[issues|issues]].",
       "words": [
-        "[[issues.|...]]",
-        "[[health|...]]",
-        "[[Describe|...]]"
+        "[[health|health]]",
+        "[[Describe|Describe]]",
+        "[[issues|issues]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -240,12 +240,12 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Manage|...]] [[money|...]] [[and|...]] [[payments.|...]]",
+      "correctSentence": "[[Manage|Manage]] [[money|money]] [[and|y]] [[payments|payments]].",
       "words": [
-        "[[and|...]]",
-        "[[money|...]]",
-        "[[Manage|...]]",
-        "[[payments.|...]]"
+        "[[and|y]]",
+        "[[money|money]]",
+        "[[Manage|Manage]]",
+        "[[payments|payments]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

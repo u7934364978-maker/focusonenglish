@@ -89,13 +89,13 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[The|traducción]] [[wheel|traducción]] [[(be)|traducción]] _______ [[a|traducción]] [[very|traducción]] [[old|traducción]] [[invention|traducción]]",
+          "question": "[[The|El/la/los/las]] [[wheel|wheel]] ([[be|be]]) _______ [[a|un/una]] [[very|muy]] [[old|old]] [[invention|invention]].",
           "options": [
-            "[[it|lo]]",
+            "[[is|is]]",
             "[[to|a]]",
-            "[[is|is]]"
+            "[[it|lo]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -115,13 +115,13 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Penicillin|traducción]] [[(be)|traducción]] _______ [[discovered|traducción]] [[by|traducción]] [[Alexander|traducción]] [[Fleming|traducción]]",
+          "question": "[[Penicillin|Penicillin]] ([[be|be]]) _______ [[discovered|discovered]] [[by|por]] [[Alexander|Alexander]] [[Fleming|Fleming]].",
           "options": [
             "[[it|lo]]",
-            "[[to|a]]",
-            "[[was|was]]"
+            "[[was|was]]",
+            "[[to|a]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -141,13 +141,13 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Scientists|traducción]] [[(work)|traducción]] _______ [[on|traducción]] [[a|traducción]] [[new|traducción]] [[cure|traducción]]",
+          "question": "[[Scientists|Scientists]] ([[work|trabajo/trabajar]]) _______ [[on|en/sobre]] [[a|un/una]] [[new|new]] [[cure|cure]].",
           "options": [
-            "[[are working|are working]]",
             "[[it|lo]]",
-            "[[to|a]]"
+            "[[to|a]]",
+            "[[are working|are working]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -167,7 +167,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Who|traducción]] [[(invent)|traducción]] _______ [[the|traducción]] [[telephone|traducción]]",
+          "question": "[[Who|Quién/que]] ([[invent|invent]]) _______ [[the|el/la/los/las]] [[telephone|telephone]]?",
           "options": [
             "[[it|lo]]",
             "[[to|a]]",
@@ -193,7 +193,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|traducción]] [[(make)|traducción]] _______ [[an|traducción]] [[important|traducción]] [[discovery|traducción]]",
+          "question": "[[They|Ellos]] ([[make|make]]) _______ [[an|un/una]] [[important|important]] [[discovery|discovery]].",
           "options": [
             "[[it|lo]]",
             "[[to|a]]",
@@ -219,13 +219,13 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[The|traducción]] [[internet|traducción]] [[(change)|traducción]] _______ [[the|traducción]] [[world|traducción]]",
+          "question": "[[The|El/la/los/las]] [[internet|internet]] ([[change|change]]) _______ [[the|el/la/los/las]] [[world|mundo]].",
           "options": [
-            "[[has changed|has changed]]",
             "[[it|lo]]",
-            "[[to|a]]"
+            "[[to|a]]",
+            "[[has changed|has changed]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -245,13 +245,13 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|traducción]] [[(not/have)|traducción]] _______ [[electricity|traducción]] [[in|traducción]] [[the|traducción]] [[past|traducción]]",
+          "question": "[[We|Nosotros]] ([[not/have|not/have]]) _______ [[electricity|electricity]] [[in|en]] [[the|el/la/los/las]] [[past|past]].",
           "options": [
-            "[[didn't have|didn't have]]",
+            "[[it|lo]]",
             "[[to|a]]",
-            "[[it|lo]]"
+            "[[didn't have|didn't have]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -271,13 +271,13 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Computers|traducción]] [[(be)|traducción]] _______ [[getting|traducción]] [[smaller|traducción]] [[and|traducción]] [[faster|traducción]]",
+          "question": "[[Computers|Computers]] ([[be|be]]) _______ [[getting|getting]] [[smaller|smaller]] [[and|y]] [[faster|faster]].",
           "options": [
-            "[[are|are]]",
             "[[to|a]]",
-            "[[it|lo]]"
+            "[[it|lo]]",
+            "[[are|are]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -297,13 +297,13 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[What|traducción]] [[(be)|traducción]] _______ [[the|traducción]] [[most|traducción]] [[important|traducción]] [[invention|traducción]]",
+          "question": "[[What|Qué]] ([[be|be]]) _______ [[the|el/la/los/las]] [[most|most]] [[important|important]] [[invention|invention]]?",
           "options": [
+            "[[it|lo]]",
             "[[is|is]]",
-            "[[to|a]]",
-            "[[it|lo]]"
+            "[[to|a]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -323,13 +323,13 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[The|traducción]] [[light|traducción]] [[bulb|traducción]] [[(be)|traducción]] _______ [[invented|traducción]] [[by|traducción]] [[Edison|traducción]]",
+          "question": "[[The|El/la/los/las]] [[light|light]] [[bulb|bulb]] ([[be|be]]) _______ [[invented|invented]] [[by|por]] [[Edison|Edison]].",
           "options": [
+            "[[it|lo]]",
             "[[was|was]]",
-            "[[to|a]]",
-            "[[it|lo]]"
+            "[[to|a]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -347,15 +347,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|...]] [[printing|...]] [[press|...]] [[was|...]] [[a|...]] [[revolutionary|...]] [[invention.|...]]",
+      "correctSentence": "[[The|El/la/los/las]] [[printing|printing]] [[press|press]] [[was|was]] [[a|un/una]] [[revolutionary|revolutionary]] [[invention|invention]].",
       "words": [
-        "[[printing|...]]",
-        "[[was|...]]",
-        "[[revolutionary|...]]",
-        "[[press|...]]",
-        "[[a|...]]",
-        "[[The|...]]",
-        "[[invention.|...]]"
+        "[[invention|invention]].",
+        "[[The|El/la/los/las]]",
+        "[[printing|printing]]",
+        "[[press|press]]",
+        "[[was|was]]",
+        "[[a|un/una]]",
+        "[[revolutionary|revolutionary]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -372,15 +372,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|...]] [[discovery|...]] [[of|...]] [[fire|...]] [[changed|...]] [[human|...]] [[history.|...]]",
+      "correctSentence": "[[The|El/la/los/las]] [[discovery|discovery]] [[of|of]] [[fire|fire]] [[changed|changed]] [[human|human]] [[history|history]].",
       "words": [
-        "[[of|...]]",
-        "[[fire|...]]",
-        "[[human|...]]",
-        "[[The|...]]",
-        "[[changed|...]]",
-        "[[discovery|...]]",
-        "[[history.|...]]"
+        "[[fire|fire]]",
+        "[[of|of]]",
+        "[[changed|changed]]",
+        "[[discovery|discovery]]",
+        "[[The|El/la/los/las]]",
+        "[[human|human]]",
+        "[[history|history]]."
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -397,16 +397,16 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Who|...]] [[do|...]] [[you|...]] [[think|...]] [[was|...]] [[the|...]] [[greatest|...]] [[inventor?|...]]",
+      "correctSentence": "[[Who|Quién/que]] [[do|hacer]] [[you|tú/usted/vosotros]] [[think|pensar/creer]] [[was|was]] [[the|el/la/los/las]] [[greatest|greatest]] [[inventor|inventor]]?",
       "words": [
-        "[[greatest|...]]",
-        "[[do|...]]",
-        "[[Who|...]]",
-        "[[think|...]]",
-        "[[you|...]]",
-        "[[inventor?|...]]",
-        "[[was|...]]",
-        "[[the|...]]"
+        "[[you|tú/usted/vosotros]]",
+        "[[think|pensar/creer]]",
+        "[[inventor|inventor]]?",
+        "[[greatest|greatest]]",
+        "[[do|hacer]]",
+        "[[the|el/la/los/las]]",
+        "[[Who|Quién/que]]",
+        "[[was|was]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -423,14 +423,14 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Scientists|...]] [[are|...]] [[constantly|...]] [[making|...]] [[new|...]] [[discoveries.|...]]",
+      "correctSentence": "[[Scientists|Scientists]] [[are|somos/estamos/son/están]] [[constantly|constantly]] [[making|making]] [[new|new]] [[discoveries|discoveries]].",
       "words": [
-        "[[are|...]]",
-        "[[constantly|...]]",
-        "[[making|...]]",
-        "[[Scientists|...]]",
-        "[[new|...]]",
-        "[[discoveries.|...]]"
+        "[[constantly|constantly]]",
+        "[[are|somos/estamos/son/están]]",
+        "[[discoveries|discoveries]].",
+        "[[making|making]]",
+        "[[Scientists|Scientists]]",
+        "[[new|new]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -447,16 +447,16 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|...]] [[telephone|...]] [[was|...]] [[invented|...]] [[in|...]] [[the|...]] [[nineteenth|...]] [[century.|...]]",
+      "correctSentence": "[[The|El/la/los/las]] [[telephone|telephone]] [[was|was]] [[invented|invented]] [[in|en]] [[the|el/la/los/las]] [[nineteenth|nineteenth]] [[century|century]].",
       "words": [
-        "[[in|...]]",
-        "[[invented|...]]",
-        "[[was|...]]",
-        "[[telephone|...]]",
-        "[[century.|...]]",
-        "[[the|...]]",
-        "[[The|...]]",
-        "[[nineteenth|...]]"
+        "[[invented|invented]]",
+        "[[was|was]]",
+        "[[in|en]]",
+        "[[telephone|telephone]]",
+        "[[century|century]].",
+        "[[nineteenth|nineteenth]]",
+        "[[The|El/la/los/las]]",
+        "[[the|el/la/los/las]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -473,17 +473,17 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|...]] [[internet|...]] [[is|...]] [[a|...]] [[very|...]] [[useful|...]] [[tool|...]] [[for|...]] [[learning.|...]]",
+      "correctSentence": "[[The|El/la/los/las]] [[internet|internet]] [[is|es/está]] [[a|un/una]] [[very|muy]] [[useful|useful]] [[tool|tool]] [[for|para/por]] [[learning|learning]].",
       "words": [
-        "[[internet|...]]",
-        "[[The|...]]",
-        "[[is|...]]",
-        "[[learning.|...]]",
-        "[[for|...]]",
-        "[[a|...]]",
-        "[[tool|...]]",
-        "[[very|...]]",
-        "[[useful|...]]"
+        "[[tool|tool]]",
+        "[[for|para/por]]",
+        "[[internet|internet]]",
+        "[[The|El/la/los/las]]",
+        "[[learning|learning]].",
+        "[[is|es/está]]",
+        "[[useful|useful]]",
+        "[[very|muy]]",
+        "[[a|un/una]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -500,16 +500,16 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|...]] [[developed|...]] [[a|...]] [[new|...]] [[way|...]] [[to|...]] [[produce|...]] [[energy.|...]]",
+      "correctSentence": "[[He|Él]] [[developed|developed]] [[a|un/una]] [[new|new]] [[way|way]] [[to|a/para]] [[produce|produce]] [[energy|energy]].",
       "words": [
-        "[[produce|...]]",
-        "[[He|...]]",
-        "[[developed|...]]",
-        "[[way|...]]",
-        "[[new|...]]",
-        "[[a|...]]",
-        "[[energy.|...]]",
-        "[[to|...]]"
+        "[[He|Él]]",
+        "[[developed|developed]]",
+        "[[a|un/una]]",
+        "[[new|new]]",
+        "[[way|way]]",
+        "[[to|a/para]]",
+        "[[produce|produce]]",
+        "[[energy|energy]]."
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -526,15 +526,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[This|...]] [[device|...]] [[helps|...]] [[people|...]] [[to|...]] [[communicate|...]] [[better.|...]]",
+      "correctSentence": "[[This|Este/esta]] [[device|device]] [[helps|helps]] [[people|gente/personas]] [[to|a/para]] [[communicate|communicate]] [[better|better]].",
       "words": [
-        "[[This|...]]",
-        "[[device|...]]",
-        "[[helps|...]]",
-        "[[better.|...]]",
-        "[[people|...]]",
-        "[[to|...]]",
-        "[[communicate|...]]"
+        "[[device|device]]",
+        "[[to|a/para]]",
+        "[[people|gente/personas]]",
+        "[[communicate|communicate]]",
+        "[[This|Este/esta]]",
+        "[[better|better]].",
+        "[[helps|helps]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -551,14 +551,14 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Electricity|...]] [[is|...]] [[essential|...]] [[for|...]] [[modern|...]] [[life.|...]]",
+      "correctSentence": "[[Electricity|Electricity]] [[is|es/está]] [[essential|essential]] [[for|para/por]] [[modern|modern]] [[life|vida]].",
       "words": [
-        "[[modern|...]]",
-        "[[for|...]]",
-        "[[essential|...]]",
-        "[[is|...]]",
-        "[[Electricity|...]]",
-        "[[life.|...]]"
+        "[[Electricity|Electricity]]",
+        "[[is|es/está]]",
+        "[[life|vida]].",
+        "[[essential|essential]]",
+        "[[for|para/por]]",
+        "[[modern|modern]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -575,14 +575,14 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|...]] [[wheel|...]] [[made|...]] [[transportation|...]] [[much|...]] [[easier.|...]]",
+      "correctSentence": "[[The|El/la/los/las]] [[wheel|wheel]] [[made|made]] [[transportation|transportation]] [[much|much]] [[easier|easier]].",
       "words": [
-        "[[made|...]]",
-        "[[much|...]]",
-        "[[easier.|...]]",
-        "[[wheel|...]]",
-        "[[The|...]]",
-        "[[transportation|...]]"
+        "[[transportation|transportation]]",
+        "[[The|El/la/los/las]]",
+        "[[easier|easier]].",
+        "[[wheel|wheel]]",
+        "[[much|much]]",
+        "[[made|made]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -599,14 +599,14 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Vaccines|...]] [[have|...]] [[saved|...]] [[millions|...]] [[of|...]] [[lives.|...]]",
+      "correctSentence": "[[Vaccines|Vaccines]] [[have|tener/haber]] [[saved|saved]] [[millions|millions]] [[of|of]] [[lives|lives]].",
       "words": [
-        "[[lives.|...]]",
-        "[[of|...]]",
-        "[[millions|...]]",
-        "[[saved|...]]",
-        "[[have|...]]",
-        "[[Vaccines|...]]"
+        "[[Vaccines|Vaccines]]",
+        "[[saved|saved]]",
+        "[[lives|lives]].",
+        "[[millions|millions]]",
+        "[[have|tener/haber]]",
+        "[[of|of]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -623,16 +623,16 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|...]] [[microscope|...]] [[allows|...]] [[us|...]] [[to|...]] [[see|...]] [[tiny|...]] [[things.|...]]",
+      "correctSentence": "[[The|El/la/los/las]] [[microscope|microscope]] [[allows|allows]] [[us|us]] [[to|a/para]] [[see|see]] [[tiny|tiny]] [[things|things]].",
       "words": [
-        "[[to|...]]",
-        "[[tiny|...]]",
-        "[[microscope|...]]",
-        "[[things.|...]]",
-        "[[us|...]]",
-        "[[The|...]]",
-        "[[allows|...]]",
-        "[[see|...]]"
+        "[[microscope|microscope]]",
+        "[[to|a/para]]",
+        "[[The|El/la/los/las]]",
+        "[[us|us]]",
+        "[[see|see]]",
+        "[[things|things]].",
+        "[[allows|allows]]",
+        "[[tiny|tiny]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -649,13 +649,13 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Inventions|...]] [[often|...]] [[solve|...]] [[difficult|...]] [[problems.|...]]",
+      "correctSentence": "[[Inventions|Inventions]] [[often|a menudo]] [[solve|solve]] [[difficult|difficult]] [[problems|problems]].",
       "words": [
-        "[[problems.|...]]",
-        "[[Inventions|...]]",
-        "[[difficult|...]]",
-        "[[often|...]]",
-        "[[solve|...]]"
+        "[[Inventions|Inventions]]",
+        "[[often|a menudo]]",
+        "[[problems|problems]].",
+        "[[difficult|difficult]]",
+        "[[solve|solve]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -672,14 +672,14 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|...]] [[is|...]] [[a|...]] [[very|...]] [[talented|...]] [[scientist.|...]]",
+      "correctSentence": "[[She|Ella]] [[is|es/está]] [[a|un/una]] [[very|muy]] [[talented|talented]] [[scientist|scientist]].",
       "words": [
-        "[[talented|...]]",
-        "[[a|...]]",
-        "[[scientist.|...]]",
-        "[[very|...]]",
-        "[[is|...]]",
-        "[[She|...]]"
+        "[[She|Ella]]",
+        "[[very|muy]]",
+        "[[scientist|scientist]].",
+        "[[a|un/una]]",
+        "[[is|es/está]]",
+        "[[talented|talented]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -696,15 +696,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|...]] [[airplane|...]] [[was|...]] [[a|...]] [[major|...]] [[technological|...]] [[achievement.|...]]",
+      "correctSentence": "[[The|El/la/los/las]] [[airplane|airplane]] [[was|was]] [[a|un/una]] [[major|major]] [[technological|technological]] [[achievement|achievement]].",
       "words": [
-        "[[The|...]]",
-        "[[technological|...]]",
-        "[[airplane|...]]",
-        "[[achievement.|...]]",
-        "[[major|...]]",
-        "[[was|...]]",
-        "[[a|...]]"
+        "[[was|was]]",
+        "[[airplane|airplane]]",
+        "[[The|El/la/los/las]]",
+        "[[achievement|achievement]].",
+        "[[major|major]]",
+        "[[a|un/una]]",
+        "[[technological|technological]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
