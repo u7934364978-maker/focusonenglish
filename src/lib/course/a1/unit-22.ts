@@ -107,27 +107,6 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u22-e6',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Shopping',
-    topicName: 'Shopping Time',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Cheap',
-      instructions: 'Di la palabra para "barato".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Cheap',
-          phonetic: '/tʃiːp/',
-          translation: 'Barato',
-          explanation: 'La "ch" suena fuerte y la "ea" como una "i" larga.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u22-e7',
     type: 'matching',
     level: 'A1',
@@ -285,27 +264,6 @@ export const UNIT_22_EXERCISES: Exercise[] = [
           question: 'Put the food in the ________.',
           correctAnswer: 'cart',
           explanation: '"Cart" (o "trolley" en UK) es el carro del supermercado.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u22-e15',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Shopping',
-    topicName: 'Shopping Time',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Clerk',
-      instructions: 'Di la palabra para "dependiente".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Clerk',
-          phonetic: '/klɜːrk/',
-          translation: 'Dependiente',
-          explanation: 'En US suena más como "clerk" y en UK como "clark".'
         }
       ]
     } as any
@@ -473,27 +431,6 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u22-e24',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Shopping',
-    topicName: 'Shopping Time',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Receipt',
-      instructions: 'Di la palabra para "recibo".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Receipt',
-          phonetic: '/rɪˈsiːt/',
-          translation: 'Recibo',
-          explanation: 'La "p" es totalmente muda.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u22-e25',
     type: 'matching',
     level: 'A1',
@@ -656,27 +593,6 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u22-e33',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Shopping',
-    topicName: 'Shopping Time',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Souvenir',
-      instructions: 'Di la palabra para "recuerdo".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Souvenir',
-          phonetic: '/ˌsuːvəˈnɪər/',
-          translation: 'Recuerdo',
-          explanation: 'Viene del francés, por eso su pronunciación es especial.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u22-e34',
     type: 'matching',
     level: 'A1',
@@ -834,27 +750,6 @@ export const UNIT_22_EXERCISES: Exercise[] = [
           question: 'Anything ________?',
           correctAnswer: 'else',
           explanation: '"Anything else?" sirve para saber si el cliente quiere algo más.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u22-e42',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Shopping',
-    topicName: 'Shopping Time',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Cash',
-      instructions: 'Di la palabra para "efectivo".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Cash',
-          phonetic: '/kæʃ/',
-          translation: 'Efectivo',
-          explanation: 'La "sh" final suena como pidiendo silencio.'
         }
       ]
     } as any
