@@ -89,26 +89,6 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u5-e5',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Numbers',
-    topicName: 'Counting Sheep',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Three',
-      instructions: 'Di la palabra para "tres".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Three',
-          correctAnswer: 'Three',
-          explanation: 'La "th" requiere que pongas la lengua entre los dientes y dejes pasar el aire.'
-        }
-      ]
-    }
-  },
-  {
     id: 'a1-u5-e6',
     type: 'matching',
     level: 'A1',
@@ -227,26 +207,6 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           options: ['Nine', 'Ten', 'Seven'],
           correctAnswer: 0,
           explanation: '"Nine" es nueve. La "e" final es muda.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u5-e12',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Numbers',
-    topicName: 'Counting Sheep',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Five',
-      instructions: 'Di la palabra para "cinco".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Five',
-          correctAnswer: 'Five',
-          explanation: 'La "i" suena larga (/faɪ/) y la "v" debe vibrar suavemente.'
         }
       ]
     }
@@ -375,26 +335,6 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u5-e19',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Numbers',
-    topicName: 'Counting Sheep',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Eight',
-      instructions: 'Di la palabra para "ocho".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Eight',
-          correctAnswer: 'Eight',
-          explanation: 'La combinación "gh" no se pronuncia. Se dice /eɪt/.'
-        }
-      ]
-    }
-  },
-  {
     id: 'a1-u5-e20',
     type: 'matching',
     level: 'A1',
@@ -513,26 +453,6 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           options: ['fifteen', 'fifty', 'five'],
           correctAnswer: 0,
           explanation: '"Fifteen" es quince. ¡No lo confundas con fifty (cincuenta)!'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u5-e26',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Numbers',
-    topicName: 'Counting Sheep',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Twelve',
-      instructions: 'Di la palabra para "doce".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Twelve',
-          correctAnswer: 'Twelve',
-          explanation: 'La "w" suena como una "u" y la "v" final es muy importante.'
         }
       ]
     }
@@ -661,26 +581,6 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u5-e33',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Numbers',
-    topicName: 'Counting Sheep',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Twenty',
-      instructions: 'Di la palabra para "veinte".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Twenty',
-          correctAnswer: 'Twenty',
-          explanation: 'La "y" final suena como una "i" corta y feliz.'
-        }
-      ]
-    }
-  },
-  {
     id: 'a1-u5-e34',
     type: 'matching',
     level: 'A1',
@@ -804,26 +704,6 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u5-e40',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Numbers',
-    topicName: 'Counting Sheep',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Fourteen',
-      instructions: 'Di la palabra para "catorce".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Fourteen',
-          correctAnswer: 'Fourteen',
-          explanation: 'Asegúrate de acentuar la última sílaba: four-TEEN.'
-        }
-      ]
-    }
-  },
-  {
     id: 'a1-u5-e41',
     type: 'matching',
     level: 'A1',
@@ -942,26 +822,6 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           options: ['twenty-one', 'twentyone', 'one-twenty'],
           correctAnswer: 0,
           explanation: 'A partir del 21, usamos un guion para unir las decenas y las unidades.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u5-e47',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Numbers',
-    topicName: 'Counting Sheep',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Zero',
-      instructions: 'Di la palabra para "cero".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Zero',
-          correctAnswer: 'Zero',
-          explanation: 'La "z" debe sonar como el zumbido de una abeja.'
         }
       ]
     }
