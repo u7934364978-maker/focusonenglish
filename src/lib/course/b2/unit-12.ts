@@ -12,7 +12,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Voice: Present",
       instructions: "Choose the correct passive form.",
-      question: "[[The|Los]] [[reports|informes]] [[are|se]] [[sent|envían]] [[every|cada]] [[Monday|lunes]] [[morning.|por la mañana.]]",
+      question: "[[The|Los]] [[reports|informes]] [[_______|_______]] [[every|cada]] [[Monday|lunes]] [[morning.|por la mañana.]]",
       options: ["[[are sent|se envían]]", "[[were sent|se enviaron]]", "[[is sent|se envía]]"],
       correctAnswer: "are sent",
       explanation: "Present simple passive: am/is/are + past participle.",
@@ -31,7 +31,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Voice: Past",
       instructions: "Choose the correct passive form.",
-      question: "[[The|La]] [[company|empresa]] [[was|fue]] [[founded|fundada]] [[in|en]] [[1995.|1995.]]",
+      question: "[[The|La]] [[company|empresa]] [[_______|_______]] [[in|en]] [[1995.|1995.]]",
       options: ["[[is founded|es fundada]]", "[[were founded|fueron fundadas]]", "[[was founded|fue fundada]]"],
       correctAnswer: "was founded",
       explanation: "Past simple passive: was/were + past participle.",
@@ -50,7 +50,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Voice: Present",
       instructions: "Choose the correct passive form.",
-      question: "[[Coffee|El café]] [[is|se]] [[served|sirve]] [[in|en]] [[the|la]] [[break|sala de]] [[room.|descanso.]]",
+      question: "[[Coffee|El café]] [[_______|_______]] [[in|en]] [[the|la]] [[break|sala de]] [[room.|descanso.]]",
       options: ["[[was served|se sirvió]]", "[[is served|se sirve]]", "[[are served|se sirven]]"],
       correctAnswer: "is served",
       explanation: "Present simple passive for routine actions.",
@@ -69,7 +69,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Voice: Past",
       instructions: "Choose the correct passive form.",
-      question: "[[The|La]] [[new|nueva]] [[office|oficina]] [[was|fue]] [[painted|pintada]] [[last|el pasado]] [[weekend.|fin de semana.]]",
+      question: "[[The|La]] [[new|nueva]] [[office|oficina]] [[_______|_______]] [[last|el pasado]] [[weekend.|fin de semana.]]",
       options: ["[[was painted|fue pintada]]", "[[were painted|fueron pintadas]]", "[[is painted|es pintada]]"],
       correctAnswer: "was painted",
       explanation: "Past simple passive for a completed action.",
@@ -88,7 +88,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Voice: Present",
       instructions: "Choose the correct passive form.",
-      question: "[[These|Estos]] [[products|productos]] [[are|se]] [[manufactured|fabrican]] [[in|en]] [[Germany.|Alemania.]]",
+      question: "[[These|Estos]] [[products|productos]] [[_______|_______]] [[in|en]] [[Germany.|Alemania.]]",
       options: ["[[was manufactured|se fabricó]]", "[[is manufactured|se fabrica]]", "[[are manufactured|se fabrican]]"],
       correctAnswer: "are manufactured",
       explanation: "Present simple passive for facts.",
