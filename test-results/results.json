@@ -128,161 +128,61 @@
   },
   "suites": [
     {
-      "title": "b2-unit-12-debug.spec.ts",
-      "file": "b2-unit-12-debug.spec.ts",
+      "title": "b2-u12-verify.spec.ts",
+      "file": "b2-u12-verify.spec.ts",
       "column": 0,
       "line": 0,
-      "specs": [
+      "specs": [],
+      "suites": [
         {
-          "title": "verify multiple choice in B2 unit 12 (A/B/C/D format)",
-          "ok": true,
-          "tags": [],
-          "tests": [
+          "title": "B2 Unit 12 Preview",
+          "file": "b2-u12-verify.spec.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
             {
-              "timeout": 120000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
+              "title": "should display blanks in exercises 1-5",
+              "ok": true,
+              "tags": [],
+              "tests": [
                 {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 15494,
-                  "errors": [],
-                  "stdout": [
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
                     {
-                      "text": "--- At Exercise 1 ---\n"
-                    },
-                    {
-                      "text": "Is Option A correct? true\n"
-                    },
-                    {
-                      "text": "Feedback: ¡Excelente! 🎉Present simple passive: am/is/are + ...\n"
-                    },
-                    {
-                      "text": "--- At Exercise 2 ---\n"
-                    },
-                    {
-                      "text": "Is Option A correct? false\n"
-                    },
-                    {
-                      "text": "Feedback: Inténtalo de nuevoPast simple passive: was/were + ...\n"
-                    },
-                    {
-                      "text": "Correct option found: C\n"
-                    },
-                    {
-                      "text": "--- At Exercise 3 ---\n"
-                    },
-                    {
-                      "text": "Is Option A correct? false\n"
-                    },
-                    {
-                      "text": "Feedback: Inténtalo de nuevoPresent simple passive for routi...\n"
-                    },
-                    {
-                      "text": "Correct option found: B\n"
-                    },
-                    {
-                      "text": "--- At Exercise 4 ---\n"
-                    },
-                    {
-                      "text": "Is Option A correct? true\n"
-                    },
-                    {
-                      "text": "Feedback: ¡Excelente! 🎉Past simple passive for a completed ...\n"
-                    },
-                    {
-                      "text": "--- At Exercise 5 ---\n"
-                    },
-                    {
-                      "text": "Is Option A correct? false\n"
-                    },
-                    {
-                      "text": "Feedback: Inténtalo de nuevoPresent simple passive for facts...\n"
-                    },
-                    {
-                      "text": "Correct option found: C\n"
-                    },
-                    {
-                      "text": "--- At Exercise 6 ---\n"
-                    },
-                    {
-                      "text": "Is Option A correct? false\n"
-                    },
-                    {
-                      "text": "Feedback: Inténtalo de nuevoPast simple passive with 'by' fo...\n"
-                    },
-                    {
-                      "text": "Correct option found: C\n"
-                    },
-                    {
-                      "text": "--- At Exercise 7 ---\n"
-                    },
-                    {
-                      "text": "Is Option A correct? false\n"
-                    },
-                    {
-                      "text": "Feedback: Inténtalo de nuevoNegative present simple passive....\n"
-                    },
-                    {
-                      "text": "Correct option found: B\n"
-                    },
-                    {
-                      "text": "--- At Exercise 8 ---\n"
-                    },
-                    {
-                      "text": "Is Option A correct? true\n"
-                    },
-                    {
-                      "text": "Feedback: ¡Excelente! 🎉Past simple passive.Respuesta correc...\n"
-                    },
-                    {
-                      "text": "--- At Exercise 9 ---\n"
-                    },
-                    {
-                      "text": "Is Option A correct? true\n"
-                    },
-                    {
-                      "text": "Feedback: ¡Excelente! 🎉Present simple passive for regular l...\n"
-                    },
-                    {
-                      "text": "--- At Exercise 10 ---\n"
-                    },
-                    {
-                      "text": "Is Option A correct? false\n"
-                    },
-                    {
-                      "text": "Feedback: Inténtalo de nuevoPast simple passive.Respuesta co...\n"
-                    },
-                    {
-                      "text": "Correct option found: C\n"
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1332,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-14T17:15:21.560Z",
+                      "annotations": [],
+                      "attachments": []
                     }
                   ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-02-14T16:46:39.576Z",
-                  "annotations": [],
-                  "attachments": []
+                  "status": "expected"
                 }
               ],
-              "status": "expected"
+              "id": "5f1e3c784062959a878b-82fbe35ea81645005a79",
+              "file": "b2-u12-verify.spec.ts",
+              "line": 4,
+              "column": 7
             }
-          ],
-          "id": "21008c07ce0c2e48bca7-24b56b79c31269d797e6",
-          "file": "b2-unit-12-debug.spec.ts",
-          "line": 3,
-          "column": 5
+          ]
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-02-14T16:46:38.851Z",
-    "duration": 16520.264,
+    "startTime": "2026-02-14T17:15:20.944Z",
+    "duration": 2336.178,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
