@@ -63,6 +63,42 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
     content: exercise.content
   });
 
+  const normalizeAnswer = (s: any) => {
+    if (typeof s !== 'string') return s;
+    // Remove translation tags [[word|translation]] -> word
+    return s.replace(/\[\[(.*?)\|(.*?)\]\]/g, '$1').toLowerCase().trim();
+  };
+
+  const checkMultipleChoiceCorrect = (q: any, selectedIdx: number) => {
+    if (q.correctAnswer === undefined) return false;
+    
+    // If it's a number, compare indices
+    if (typeof q.correctAnswer === 'number') {
+      return q.correctAnswer === selectedIdx;
+    }
+    
+    // If it's a string, it could be "A", "B", "C" or the actual option text
+    const answers = Array.isArray(q.correctAnswer) 
+      ? q.correctAnswer.map(a => String(a).trim()) 
+      : [String(q.correctAnswer).trim()];
+    
+    for (const answer of answers) {
+      // Case 1: "A", "B", "C", "D"
+      if (/^[A-D]$/i.test(answer)) {
+        const answerIdx = answer.toUpperCase().charCodeAt(0) - 65;
+        if (answerIdx === selectedIdx) return true;
+      }
+      
+      // Case 2: Actual option text (normalized)
+      const selectedOption = q.options[selectedIdx];
+      const selectedText = typeof selectedOption === 'string' ? selectedOption : selectedOption.text;
+      
+      if (normalizeAnswer(answer) === normalizeAnswer(selectedText)) return true;
+    }
+    
+    return false;
+  };
+
   const handleSubmit = () => {
     setSubmitted(true);
     
@@ -72,8 +108,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
       
       if (currentQuestion.options && Array.isArray(currentQuestion.options)) {
         // Multiple choice evaluation
-        const selectedOption = currentQuestion.options[userAnswer.answer];
-        const correct = currentQuestion.correctAnswer === (typeof currentQuestion.correctAnswer === 'number' ? userAnswer.answer : selectedOption);
+        const correct = checkMultipleChoiceCorrect(currentQuestion, userAnswer.answer);
         setIsCorrect(correct);
         
         const evalResult = {
@@ -123,7 +158,16 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
       }
     } else {
       // Legacy single question format or other types
-      const correct = userAnswer !== null && userAnswer !== '';
+      let correct = false;
+      
+      if (exercise.content.options && Array.isArray(exercise.content.options) && userAnswer !== null) {
+        // Single multiple choice
+        correct = checkMultipleChoiceCorrect(exercise.content, userAnswer);
+      } else {
+        // Other types
+        correct = userAnswer !== null && userAnswer !== '';
+      }
+      
       setIsCorrect(correct);
       if (correct) {
         setShowConfetti(true);
@@ -387,7 +431,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                     <div className="space-y-3">
                       {q.options.map((option: any, optIndex: number) => {
                         const isUserAnswer = userAnswer?.questionIndex === qIndex && userAnswer?.answer === optIndex;
-                        const isCorrectAnswer = q.correctAnswer === (typeof q.correctAnswer === 'number' ? optIndex : option);
+                        const isCorrectAnswer = checkMultipleChoiceCorrect(q, optIndex);
                         const showAsCorrect = submitted && isCorrectAnswer;
                         const showAsIncorrect = submitted && isUserAnswer && !isCorrectAnswer;
                         
@@ -533,11 +577,11 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                       ? 'border-orange-500 bg-orange-50 shadow-md'
                       : 'border-gray-200 hover:border-gray-300 bg-white hover:shadow-sm'
                   } ${
-                    submitted && index === exercise.content.correctAnswer
+                    submitted && checkMultipleChoiceCorrect(exercise.content, index)
                       ? 'border-green-500 bg-green-50 shadow-md'
                       : ''
                   } ${
-                    submitted && userAnswer === index && index !== exercise.content.correctAnswer
+                    submitted && userAnswer === index && !checkMultipleChoiceCorrect(exercise.content, index)
                       ? 'border-red-500 bg-red-50 shadow-md'
                       : ''
                   } disabled:cursor-not-allowed disabled:transform-none`}
