@@ -52,8 +52,8 @@ export const UNIT_60_EXERCISES: Exercise[] = [
           "question": "[[How|Cómo]] ([[mucho|mucho]]) _______ [[milk|milk]]?",
           "options": [
             "[[much|much]]",
-            "[[is|es/está]]",
-            "[[are|son/están]]"
+            "[[are|son/están]]",
+            "[[is|es/está]]"
           ],
           "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
@@ -77,11 +77,11 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] [[have|tener/haber]] ([[algo|algo]] [[de|de]]) _______ [[cheese|queso]].",
           "options": [
+            "[[are|son/están]]",
             "[[is|es/está]]",
-            "[[some|some]]",
-            "[[are|son/están]]"
+            "[[some|some]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -104,8 +104,8 @@ export const UNIT_60_EXERCISES: Exercise[] = [
           "question": "[[I|Yo]] ([[sentirse|sentirse]]) _______ [[sick|sick]].",
           "options": [
             "[[feel|feel]]",
-            "[[are|son/están]]",
-            "[[is|es/está]]"
+            "[[is|es/está]]",
+            "[[are|son/están]]"
           ],
           "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
@@ -129,11 +129,11 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] ([[pagar|pagar]]) _______ [[by|por]] [[card|card]].",
           "options": [
-            "[[are|son/están]]",
+            "[[pay|pay]]",
             "[[is|es/está]]",
-            "[[pay|pay]]"
+            "[[are|son/están]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -153,11 +153,11 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[This|Este/esta]] [[is|es/está]] [[the|el/la/los/las]] [[final|final]] [[review|review]].",
       "words": [
+        "[[This|Este/esta]]",
         "[[is|es/está]]",
         "[[the|el/la/los/las]]",
         "[[final|final]]",
-        "[[review|review]].",
-        "[[This|Este/esta]]"
+        "[[review|review]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -176,11 +176,11 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Talk|Talk]] [[about|sobre/acerca de]] [[shopping|shopping]] [[and|and]] [[food|comida]].",
       "words": [
-        "[[about|sobre/acerca de]]",
-        "[[food|comida]].",
-        "[[shopping|shopping]]",
+        "[[Talk|Talk]]",
         "[[and|and]]",
-        "[[Talk|Talk]]"
+        "[[shopping|shopping]]",
+        "[[about|sobre/acerca de]]",
+        "[[food|comida]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -200,8 +200,8 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "correctSentence": "[[Order|Pedir/pedido]] [[in|en]] [[a|un/una]] [[restaurant|restaurante]].",
       "words": [
         "[[Order|Pedir/pedido]]",
-        "[[a|un/una]]",
         "[[in|en]]",
+        "[[a|un/una]]",
         "[[restaurant|restaurante]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
@@ -221,9 +221,9 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Describe|Describe]] [[health|health]] [[issues|issues]].",
       "words": [
+        "[[issues|issues]].",
         "[[Describe|Describe]]",
-        "[[health|health]]",
-        "[[issues|issues]]."
+        "[[health|health]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -242,8 +242,8 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Manage|Manage]] [[money|dinero]] [[and|and]] [[payments|payments]].",
       "words": [
-        "[[money|dinero]]",
         "[[Manage|Manage]]",
+        "[[money|dinero]]",
         "[[and|and]]",
         "[[payments|payments]]."
       ],

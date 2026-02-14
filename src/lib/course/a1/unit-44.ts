@@ -61,13 +61,13 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[It|Eso]] ([[ser/estar|ser/estar]] [[-|-]] [[ello|ello]]) _______ [[sunny|sunny]] [[today|hoy]].",
+          "question": "[[It|Eso]] ([[be|ser/estar]]) _______ [[sunny|sunny]] [[today|hoy]].",
           "options": [
+            "[[are|son/están]]",
             "[[is|es/está]]",
-            "[[is|es/está]]",
-            "[[are|son/están]]"
+            "[[is|es/está]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -89,11 +89,11 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "([[Está|Está]]) _______ [[raining|raining]].",
           "options": [
+            "[[It is|It is]]",
             "[[is|es/está]]",
-            "[[are|son/están]]",
-            "[[It is|It is]]"
+            "[[are|son/están]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -113,13 +113,13 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[It|Eso]] ([[ser/estar|ser/estar]] [[-|-]] [[ello|ello]]) _______ [[very|muy]] [[cold|frío]].",
+          "question": "[[It|Eso]] ([[be|ser/estar]]) _______ [[very|muy]] [[cold|frío]].",
           "options": [
+            "[[are|son/están]]",
             "[[is|es/está]]",
-            "[[is|es/está]]",
-            "[[are|son/están]]"
+            "[[is|es/está]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -139,11 +139,11 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[The|El/la/los/las]] [[weather|weather]] ([[ser/estar|ser/estar]] [[-|-]] [[ello|ello]]) _______ [[beautiful|hermoso/a]].",
+          "question": "[[The|El/la/los/las]] [[weather|weather]] ([[be|ser/estar]]) _______ [[beautiful|hermoso/a]].",
           "options": [
             "[[is|es/está]]",
-            "[[are|son/están]]",
-            "[[is|es/está]]"
+            "[[is|es/está]]",
+            "[[are|son/están]]"
           ],
           "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
@@ -165,9 +165,9 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[love|love]] [[sunny|sunny]] [[days|days]].",
       "words": [
-        "[[days|days]].",
         "[[sunny|sunny]]",
         "[[love|love]]",
+        "[[days|days]].",
         "[[I|Yo]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
@@ -187,11 +187,11 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Take|Tomar/llevar]] [[an|un/una]] [[umbrella|umbrella]], [[it's|it's]] [[rainy|rainy]].",
       "words": [
-        "[[umbrella|umbrella]],",
-        "[[Take|Tomar/llevar]]",
         "[[it's|it's]]",
         "[[rainy|rainy]].",
-        "[[an|un/una]]"
+        "[[umbrella|umbrella]],",
+        "[[an|un/una]]",
+        "[[Take|Tomar/llevar]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -210,11 +210,11 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[It's|It's]] [[snowy|snowy]] [[in|en]] [[the|el/la/los/las]] [[mountains|mountains]].",
       "words": [
+        "[[mountains|mountains]].",
         "[[It's|It's]]",
         "[[snowy|snowy]]",
         "[[in|en]]",
-        "[[the|el/la/los/las]]",
-        "[[mountains|mountains]]."
+        "[[the|el/la/los/las]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -233,11 +233,11 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[wind|wind]] [[is|es/está]] [[very|muy]] [[strong|fuerte]].",
       "words": [
-        "[[The|El/la/los/las]]",
-        "[[very|muy]]",
+        "[[is|es/está]]",
         "[[strong|fuerte]].",
+        "[[very|muy]]",
         "[[wind|wind]]",
-        "[[is|es/está]]"
+        "[[The|El/la/los/las]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -256,10 +256,10 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[It's|It's]] [[a|un/una]] [[warm|warm]] [[afternoon|tarde]].",
       "words": [
-        "[[afternoon|tarde]].",
         "[[a|un/una]]",
-        "[[warm|warm]]",
-        "[[It's|It's]]"
+        "[[It's|It's]]",
+        "[[afternoon|tarde]].",
+        "[[warm|warm]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

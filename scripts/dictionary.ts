@@ -31,15 +31,18 @@ export const SHARED_DICTIONARY: Record<string, string> = {
     "is not": "no es/está", "are not": "no son/están", "am not": "no soy/estoy",
     "isn't": "no es/está", "aren't": "no son/están", "not/be": "no ser/estar",
     "go": "ir", "come": "venir", "see": "ver", "look": "mirar",
-    "get": "conseguir/obtener", "make": "hacer", "take": "tomar/llevar",
+    "get": "conseguir/obtener", "got": "tienes/conseguido", "make": "hacer", "take": "tomar/llevar",
     "give": "dar", "work": "trabajo/trabajar", "live": "vivir",
     "study": "estudiar", "read": "leer", "write": "escribir",
     "speak": "hablar", "listen": "escuchar", "watch": "ver/mirar",
     "eat": "comer", "drink": "beber", "sleep": "dormir", "buy": "comprar",
     "help": "ayudar", "play": "jugar/tocar", "be": "ser/estar",
     "was": "era/fue/estaba/estuvo", "were": "eran/fueron/estaban/estuvieron",
+    "was not": "no era/fue/estaba", "wasn't": "no era/fue/estaba",
+    "were not": "no eran/fueron/estaban", "weren't": "no eran/fueron/estaban",
     "will": "hará (futuro)", "would": "haría (condicional)",
     "meet": "conocer/encontrar", "live in": "vivir en",
+    "spend": "gastar/pasar", "spent": "gastado/pasado",
 
     // Family & People
     "person": "persona", "people": "gente/personas", "man": "hombre", "woman": "mujer",
@@ -81,6 +84,9 @@ export const SHARED_DICTIONARY: Record<string, string> = {
     "restaurant": "restaurante", "hospital": "hospital", "bank": "banco",
     "store": "tienda", "shop": "tienda", "office": "oficina",
     "spain": "España", "london": "Londres", "madrid": "Madrid",
+    "nature": "naturaleza", "childhood": "infancia", "beach": "playa",
+    "mountain": "montaña", "hobby": "afición/pasatiempo", "novel": "novela",
+    "software": "software/programa", "updated": "actualizado",
 
     // Things
     "name": "nombre", "book": "libro", "car": "coche", "food": "comida",
@@ -89,6 +95,11 @@ export const SHARED_DICTIONARY: Record<string, string> = {
     "room": "habitación", "bed": "cama", "kitchen": "cocina", "bathroom": "baño",
     "street": "calle", "road": "camino", "city": "ciudad", "country": "país",
     "language": "idioma", "word": "palabra", "sentence": "oración",
+    "pen": "bolígrafo/pluma", "pencil": "lápiz", "paper": "papel",
+    "notebook": "cuaderno", "bag": "bolsa/mochila", "receipt": "recibo/ticket",
+    "museum": "museo", "library": "biblioteca", "jacket": "chaqueta",
+    "leather": "cuero", "tidy": "ordenado", "any": "alguno/a",
+    "there": "allí/ahí",
 
     // Basic Social
     "hello": "hola", "hi": "hola", "bye": "adiós", "goodbye": "adiós",

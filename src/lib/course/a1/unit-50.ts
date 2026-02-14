@@ -51,11 +51,11 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] [[go|ir]] ([[en|en]]) _______ [[train|train]].",
           "options": [
-            "[[by|por]]",
             "[[is|es/está]]",
-            "[[are|son/están]]"
+            "[[are|son/están]]",
+            "[[by|por]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -75,7 +75,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[It|Eso]] ([[ser/estar|ser/estar]] [[-|-]] [[ello|ello]]) _______ [[sunny|sunny]].",
+          "question": "[[It|Eso]] ([[be|ser/estar]]) _______ [[sunny|sunny]].",
           "options": [
             "[[are|son/están]]",
             "[[is|es/está]]",
@@ -127,7 +127,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Where|Dónde]] ([[ser/estar|ser/estar]] [[-|-]] [[ello|ello]]) _______ [[my|mi/mis]] [[key|key]]?",
+          "question": "[[Where|Dónde]] ([[be|ser/estar]]) _______ [[my|mi/mis]] [[key|key]]?",
           "options": [
             "[[are|son/están]]",
             "[[is|es/está]]",
@@ -153,13 +153,13 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[This|Este/esta]] [[is|es/está]] [[a|un/una]] [[review|review]] [[of|de]] [[module|module]] [[five|cinco]].",
       "words": [
-        "[[a|un/una]]",
-        "[[review|review]]",
         "[[is|es/está]]",
-        "[[This|Este/esta]]",
+        "[[five|cinco]].",
+        "[[review|review]]",
         "[[module|module]]",
         "[[of|de]]",
-        "[[five|cinco]]."
+        "[[This|Este/esta]]",
+        "[[a|un/una]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -178,10 +178,10 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Talk|Talk]] [[about|sobre/acerca de]] [[transport|transport]] [[and|and]] [[travel|travel]].",
       "words": [
-        "[[Talk|Talk]]",
         "[[travel|travel]].",
-        "[[about|sobre/acerca de]]",
         "[[transport|transport]]",
+        "[[about|sobre/acerca de]]",
+        "[[Talk|Talk]]",
         "[[and|and]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
@@ -201,11 +201,11 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Describe|Describe]] [[the|el/la/los/las]] [[weather|weather]] [[and|and]] [[seasons|seasons]].",
       "words": [
-        "[[and|and]]",
-        "[[Describe|Describe]]",
         "[[the|el/la/los/las]]",
+        "[[Describe|Describe]]",
+        "[[weather|weather]]",
         "[[seasons|seasons]].",
-        "[[weather|weather]]"
+        "[[and|and]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -246,10 +246,10 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Prepare|Prepare]] [[for|para/por]] [[a|un/una]] [[holiday|holiday]].",
       "words": [
-        "[[Prepare|Prepare]]",
-        "[[for|para/por]]",
         "[[holiday|holiday]].",
-        "[[a|un/una]]"
+        "[[for|para/por]]",
+        "[[a|un/una]]",
+        "[[Prepare|Prepare]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

@@ -69,13 +69,13 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[There|Allí]] ([[be|ser/estar]]) _______ [[a|un/una]] [[library|library]] [[near|near]] [[here|aquí]].",
+          "question": "[[There|Allí/ahí]] ([[be|ser/estar]]) _______ [[a|un/una]] [[library|biblioteca]] [[near|near]] [[here|aquí]].",
           "options": [
-            "[[is|es/está]]",
             "[[to|a/para]]",
-            "[[it|eso]]"
+            "[[it|eso]]",
+            "[[is|es/está]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -123,9 +123,9 @@ export const UNIT_20_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] ([[not/eat|not/eat]]) _______ [[meat|carne]].",
           "options": [
-            "[[it|eso]]",
+            "[[to|a/para]]",
             "[[don't eat|don't eat]]",
-            "[[to|a/para]]"
+            "[[it|eso]]"
           ],
           "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical A2."
@@ -149,11 +149,11 @@ export const UNIT_20_EXERCISES: Exercise[] = [
         {
           "question": "[[She|Ella]] ([[would|haría (condicional)]] [[like|gustar/como]]) _______ [[a|un/una]] [[coffee|coffee]].",
           "options": [
-            "[[it|eso]]",
+            "[[would like|would like]]",
             "[[to|a/para]]",
-            "[[would like|would like]]"
+            "[[it|eso]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -175,11 +175,11 @@ export const UNIT_20_EXERCISES: Exercise[] = [
         {
           "question": "[[They|Ellos]] ([[play|jugar/tocar]]) _______ [[tennis|tennis]] [[now|ahora]].",
           "options": [
-            "[[it|eso]]",
+            "[[are playing|are playing]]",
             "[[to|a/para]]",
-            "[[are playing|are playing]]"
+            "[[it|eso]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -201,11 +201,11 @@ export const UNIT_20_EXERCISES: Exercise[] = [
         {
           "question": "[[He|Él]] ([[have|tener/haber]]) _______ [[a|un/una]] [[headache|headache]].",
           "options": [
+            "[[it|eso]]",
             "[[to|a/para]]",
-            "[[has|tiene/ha]]",
-            "[[it|eso]]"
+            "[[has|tiene/ha]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -227,11 +227,11 @@ export const UNIT_20_EXERCISES: Exercise[] = [
         {
           "question": "[[The|El/la/los/las]] [[lion|lion]] ([[be|ser/estar]]) _______ [[very|muy]] [[big|grande]].",
           "options": [
+            "[[it|eso]]",
             "[[to|a/para]]",
-            "[[is|es/está]]",
-            "[[it|eso]]"
+            "[[is|es/está]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -253,11 +253,11 @@ export const UNIT_20_EXERCISES: Exercise[] = [
         {
           "question": "[[It|Eso]] ([[rain|rain]]) _______ [[yesterday|ayer]].",
           "options": [
-            "[[rained|rained]]",
+            "[[it|eso]]",
             "[[to|a/para]]",
-            "[[it|eso]]"
+            "[[rained|rained]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -279,11 +279,11 @@ export const UNIT_20_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] ([[be|ser/estar]]) _______ [[wearing|wearing]] [[a|un/una]] [[hat|hat]].",
           "options": [
-            "[[to|a/para]]",
             "[[am|soy/estoy]]",
+            "[[to|a/para]]",
             "[[it|eso]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -327,13 +327,13 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[library|library]] [[is|es/está]] [[open|open]] [[now|ahora]].",
+      "correctSentence": "[[The|El/la/los/las]] [[library|biblioteca]] [[is|es/está]] [[open|open]] [[now|ahora]].",
       "words": [
-        "[[library|library]]",
-        "[[open|open]]",
-        "[[now|ahora]].",
+        "[[library|biblioteca]]",
         "[[The|El/la/los/las]]",
-        "[[is|es/está]]"
+        "[[is|es/está]]",
+        "[[open|open]]",
+        "[[now|ahora]]."
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -352,14 +352,14 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[This|Este/esta]] [[dress|dress]] [[is|es/está]] [[more|más]] [[expensive|caro]] [[than|que (comparativo)]] [[that|ese/esa/aquel]] [[one|uno]].",
       "words": [
+        "[[that|ese/esa/aquel]]",
+        "[[than|que (comparativo)]]",
         "[[This|Este/esta]]",
         "[[dress|dress]]",
-        "[[than|que (comparativo)]]",
-        "[[one|uno]].",
-        "[[that|ese/esa/aquel]]",
-        "[[expensive|caro]]",
         "[[is|es/está]]",
-        "[[more|más]]"
+        "[[one|uno]].",
+        "[[more|más]]",
+        "[[expensive|caro]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -378,13 +378,13 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[need|necesitar]] [[some|some]] [[milk|milk]] [[for|para/por]] [[the|el/la/los/las]] [[recipe|recipe]].",
       "words": [
+        "[[some|some]]",
         "[[for|para/por]]",
-        "[[need|necesitar]]",
-        "[[recipe|recipe]].",
-        "[[I|Yo]]",
         "[[milk|milk]]",
-        "[[the|el/la/los/las]]",
-        "[[some|some]]"
+        "[[recipe|recipe]].",
+        "[[need|necesitar]]",
+        "[[I|Yo]]",
+        "[[the|el/la/los/las]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -403,11 +403,11 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[waiter|camarero/a]] [[was|era/fue/estaba/estuvo]] [[very|muy]] [[polite|educado]].",
       "words": [
+        "[[polite|educado]].",
         "[[waiter|camarero/a]]",
         "[[The|El/la/los/las]]",
-        "[[polite|educado]].",
-        "[[very|muy]]",
-        "[[was|era/fue/estaba/estuvo]]"
+        "[[was|era/fue/estaba/estuvo]]",
+        "[[very|muy]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -427,10 +427,10 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "correctSentence": "[[It's|It's]] [[important|important]] [[to|a/para]] [[be|ser/estar]] [[healthy|healthy]].",
       "words": [
         "[[important|important]]",
-        "[[It's|It's]]",
-        "[[healthy|healthy]].",
+        "[[be|ser/estar]]",
         "[[to|a/para]]",
-        "[[be|ser/estar]]"
+        "[[healthy|healthy]].",
+        "[[It's|It's]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -449,11 +449,11 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[medicine|medicine]] [[will|hará (futuro)]] [[help|ayudar]] [[you|tú/usted]].",
       "words": [
-        "[[you|tú/usted]].",
-        "[[The|El/la/los/las]]",
-        "[[medicine|medicine]]",
         "[[help|ayudar]]",
-        "[[will|hará (futuro)]]"
+        "[[will|hará (futuro)]]",
+        "[[you|tú/usted]].",
+        "[[medicine|medicine]]",
+        "[[The|El/la/los/las]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -473,10 +473,10 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "correctSentence": "[[Lions|Lions]] [[live|vivir]] [[in|en]] [[the|el/la/los/las]] [[jungle|jungle]].",
       "words": [
         "[[the|el/la/los/las]]",
-        "[[in|en]]",
+        "[[Lions|Lions]]",
         "[[live|vivir]]",
-        "[[jungle|jungle]].",
-        "[[Lions|Lions]]"
+        "[[in|en]]",
+        "[[jungle|jungle]]."
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -495,10 +495,10 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[It's|It's]] [[a|un/una]] [[sunny|sunny]] [[day|día]].",
       "words": [
-        "[[sunny|sunny]]",
-        "[[day|día]].",
+        "[[It's|It's]]",
         "[[a|un/una]]",
-        "[[It's|It's]]"
+        "[[day|día]].",
+        "[[sunny|sunny]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -517,12 +517,12 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[This|Este/esta]] [[shirt|shirt]] [[is|es/está]] [[made|made]] [[of|de]] [[cotton|cotton]].",
       "words": [
-        "[[shirt|shirt]]",
-        "[[of|de]]",
         "[[This|Este/esta]]",
+        "[[shirt|shirt]]",
+        "[[cotton|cotton]].",
         "[[made|made]]",
         "[[is|es/está]]",
-        "[[cotton|cotton]]."
+        "[[of|de]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -541,12 +541,12 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[We|Nosotros]] [[are|son/están]] [[going|going]] [[to|a/para]] [[the|el/la/los/las]] [[market|market]].",
       "words": [
-        "[[to|a/para]]",
-        "[[market|market]].",
-        "[[We|Nosotros]]",
-        "[[are|son/están]]",
         "[[going|going]]",
-        "[[the|el/la/los/las]]"
+        "[[the|el/la/los/las]]",
+        "[[market|market]].",
+        "[[are|son/están]]",
+        "[[to|a/para]]",
+        "[[We|Nosotros]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },

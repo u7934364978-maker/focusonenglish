@@ -89,7 +89,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[The|El/la/los/las]] [[mountain|mountain]] [[is|es/está]] _______ ([[high|high]]) [[than|que (comparativo)]] [[the|el/la/los/las]] [[hill|hill]].",
+          "question": "[[The|El/la/los/las]] [[mountain|montaña]] [[is|es/está]] _______ ([[high|high]]) [[than|que (comparativo)]] [[the|el/la/los/las]] [[hill|hill]].",
           "options": [
             "[[higher|higher]]",
             "[[to|a/para]]",
@@ -117,11 +117,11 @@ export const UNIT_27_EXERCISES: Exercise[] = [
         {
           "question": "[[This|Este/esta]] [[lake|lake]] [[is|es/está]] [[the|el/la/los/las]] _______ ([[deep|deep]]) [[in|en]] [[the|el/la/los/las]] [[country|país]].",
           "options": [
-            "[[deepest|deepest]]",
+            "[[it|eso]]",
             "[[to|a/para]]",
-            "[[it|eso]]"
+            "[[deepest|deepest]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -143,11 +143,11 @@ export const UNIT_27_EXERCISES: Exercise[] = [
         {
           "question": "[[The|El/la/los/las]] [[forest|forest]] ([[be|ser/estar]]) _______ [[full|full]] [[of|de]] [[trees|trees]].",
           "options": [
-            "[[to|a/para]]",
             "[[is|es/está]]",
+            "[[to|a/para]]",
             "[[it|eso]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -167,13 +167,13 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[There|Allí]] ([[be|ser/estar]]) _______ [[a|un/una]] [[beautiful|hermoso/a]] [[river|river]] [[here|aquí]].",
+          "question": "[[There|Allí/ahí]] ([[be|ser/estar]]) _______ [[a|un/una]] [[beautiful|hermoso/a]] [[river|river]] [[here|aquí]].",
           "options": [
             "[[it|eso]]",
-            "[[to|a/para]]",
-            "[[is|es/está]]"
+            "[[is|es/está]]",
+            "[[to|a/para]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -193,13 +193,13 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Are|Son/están]] _______ [[any|any]] [[animals|animals]] [[in|en]] [[the|el/la/los/las]] [[woods|woods]]?",
+          "question": "[[Are|Son/están]] _______ [[any|alguno/a]] [[animals|animals]] [[in|en]] [[the|el/la/los/las]] [[woods|woods]]?",
           "options": [
-            "[[there|allí]]",
             "[[to|a/para]]",
-            "[[it|eso]]"
+            "[[it|eso]]",
+            "[[there|allí/ahí]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -219,13 +219,13 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[The|El/la/los/las]] [[scenery|scenery]] [[is|es/está]] _______ ([[beautiful|hermoso/a]]) [[in|en]] [[autumn|autumn]].",
+          "question": "[[The|El/la/los/las]] [[scenery|scenery]] [[is|es/está]] _______ ([[be|ser/estar]]) [[in|en]] [[autumn|autumn]].",
           "options": [
-            "[[to|a/para]]",
             "[[more beautiful|more beautiful]]",
+            "[[to|a/para]]",
             "[[it|eso]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -273,11 +273,11 @@ export const UNIT_27_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] ([[love|love]]) _______ [[walking|walking]] [[by|por]] [[the|el/la/los/las]] [[coast|coast]].",
           "options": [
+            "[[love|love]]",
             "[[to|a/para]]",
-            "[[it|eso]]",
-            "[[love|love]]"
+            "[[it|eso]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -325,11 +325,11 @@ export const UNIT_27_EXERCISES: Exercise[] = [
         {
           "question": "[[They|Ellos]] ([[be|ser/estar]]) _______ [[hiking|hiking]] [[in|en]] [[the|el/la/los/las]] [[valley|valley]].",
           "options": [
-            "[[it|eso]]",
+            "[[are|son/están]]",
             "[[to|a/para]]",
-            "[[are|son/están]]"
+            "[[it|eso]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -349,13 +349,13 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[scenery|scenery]] [[in|en]] [[the|el/la/los/las]] [[mountains|mountains]] [[is|es/está]] [[breathtaking|breathtaking]].",
       "words": [
-        "[[scenery|scenery]]",
-        "[[is|es/está]]",
         "[[the|el/la/los/las]]",
         "[[in|en]]",
-        "[[The|El/la/los/las]]",
+        "[[is|es/está]]",
         "[[breathtaking|breathtaking]].",
-        "[[mountains|mountains]]"
+        "[[scenery|scenery]]",
+        "[[mountains|mountains]]",
+        "[[The|El/la/los/las]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -374,12 +374,12 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[We|Nosotros]] [[walked|walked]] [[through|through]] [[a|un/una]] [[dense|dense]] [[forest|forest]].",
       "words": [
+        "[[a|un/una]]",
         "[[We|Nosotros]]",
         "[[dense|dense]]",
         "[[walked|walked]]",
-        "[[a|un/una]]",
-        "[[through|through]]",
-        "[[forest|forest]]."
+        "[[forest|forest]].",
+        "[[through|through]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -398,13 +398,13 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[river|river]] [[is|es/está]] [[very|muy]] [[long|largo]] [[and|and]] [[deep|deep]].",
       "words": [
-        "[[The|El/la/los/las]]",
         "[[river|river]]",
-        "[[and|and]]",
-        "[[is|es/está]]",
         "[[very|muy]]",
+        "[[long|largo]]",
+        "[[The|El/la/los/las]]",
         "[[deep|deep]].",
-        "[[long|largo]]"
+        "[[is|es/está]]",
+        "[[and|and]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -421,16 +421,16 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[There|Allí]] [[is|es/está]] [[a|un/una]] [[beautiful|hermoso/a]] [[waterfall|waterfall]] [[near|near]] [[the|el/la/los/las]] [[village|village]].",
+      "correctSentence": "[[There|Allí/ahí]] [[is|es/está]] [[a|un/una]] [[beautiful|hermoso/a]] [[waterfall|waterfall]] [[near|near]] [[the|el/la/los/las]] [[village|village]].",
       "words": [
-        "[[near|near]]",
-        "[[the|el/la/los/las]]",
-        "[[is|es/está]]",
-        "[[There|Allí]]",
-        "[[village|village]].",
+        "[[beautiful|hermoso/a]]",
         "[[a|un/una]]",
+        "[[near|near]]",
+        "[[is|es/está]]",
+        "[[There|Allí/ahí]]",
         "[[waterfall|waterfall]]",
-        "[[beautiful|hermoso/a]]"
+        "[[the|el/la/los/las]]",
+        "[[village|village]]."
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -449,14 +449,14 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[valley|valley]] [[is|es/está]] [[very|muy]] [[green|green]] [[in|en]] [[the|el/la/los/las]] [[spring|spring]].",
       "words": [
-        "[[the|el/la/los/las]]",
         "[[spring|spring]].",
         "[[The|El/la/los/las]]",
-        "[[green|green]]",
         "[[very|muy]]",
-        "[[in|en]]",
         "[[valley|valley]]",
-        "[[is|es/está]]"
+        "[[green|green]]",
+        "[[is|es/está]]",
+        "[[the|el/la/los/las]]",
+        "[[in|en]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -473,16 +473,16 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[love|love]] [[the|el/la/los/las]] [[peace|peace]] [[and|and]] [[quiet|tranquilo/callado]] [[of|de]] [[nature|nature]].",
+      "correctSentence": "[[I|Yo]] [[love|love]] [[the|el/la/los/las]] [[peace|peace]] [[and|and]] [[quiet|tranquilo/callado]] [[of|de]] [[nature|naturaleza]].",
       "words": [
+        "[[I|Yo]]",
+        "[[love|love]]",
+        "[[the|el/la/los/las]]",
+        "[[peace|peace]]",
         "[[and|and]]",
         "[[quiet|tranquilo/callado]]",
-        "[[I|Yo]]",
         "[[of|de]]",
-        "[[love|love]]",
-        "[[nature|nature]].",
-        "[[the|el/la/los/las]]",
-        "[[peace|peace]]"
+        "[[nature|naturaleza]]."
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -499,15 +499,15 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Is|Es/está]] [[it|eso]] [[the|el/la/los/las]] [[highest|highest]] [[mountain|mountain]] [[in|en]] [[Europe|Europe]]?",
+      "correctSentence": "[[Is|Es/está]] [[it|eso]] [[the|el/la/los/las]] [[highest|highest]] [[mountain|montaña]] [[in|en]] [[Europe|Europe]]?",
       "words": [
         "[[highest|highest]]",
-        "[[it|eso]]",
-        "[[Europe|Europe]]?",
-        "[[mountain|mountain]]",
-        "[[Is|Es/está]]",
+        "[[the|el/la/los/las]]",
         "[[in|en]]",
-        "[[the|el/la/los/las]]"
+        "[[Europe|Europe]]?",
+        "[[it|eso]]",
+        "[[mountain|montaña]]",
+        "[[Is|Es/está]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -524,15 +524,15 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[spent|spent]] [[the|el/la/los/las]] [[day|día]] [[at|en]] [[the|el/la/los/las]] [[coast|coast]].",
+      "correctSentence": "[[We|Nosotros]] [[spent|gastado/pasado]] [[the|el/la/los/las]] [[day|día]] [[at|en]] [[the|el/la/los/las]] [[coast|coast]].",
       "words": [
-        "[[day|día]]",
-        "[[We|Nosotros]]",
         "[[coast|coast]].",
-        "[[spent|spent]]",
-        "[[at|en]]",
         "[[the|el/la/los/las]]",
-        "[[the|el/la/los/las]]"
+        "[[the|el/la/los/las]]",
+        "[[We|Nosotros]]",
+        "[[spent|gastado/pasado]]",
+        "[[at|en]]",
+        "[[day|día]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -551,13 +551,13 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[island|island]] [[is|es/está]] [[only|only]] [[accessible|accessible]] [[by|por]] [[boat|boat]].",
       "words": [
-        "[[only|only]]",
-        "[[The|El/la/los/las]]",
-        "[[island|island]]",
-        "[[accessible|accessible]]",
-        "[[by|por]]",
         "[[boat|boat]].",
-        "[[is|es/está]]"
+        "[[by|por]]",
+        "[[accessible|accessible]]",
+        "[[only|only]]",
+        "[[is|es/está]]",
+        "[[island|island]]",
+        "[[The|El/la/los/las]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -578,9 +578,9 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "words": [
         "[[The|El/la/los/las]]",
         "[[environment|environment]]",
-        "[[must|must]]",
+        "[[protected|protected]].",
         "[[be|ser/estar]]",
-        "[[protected|protected]]."
+        "[[must|must]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -599,13 +599,13 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[lake|lake]] [[is|es/está]] [[perfect|perfect]] [[for|para/por]] [[swimming|swimming]] [[in|en]] [[summer|summer]].",
       "words": [
-        "[[summer|summer]].",
         "[[The|El/la/los/las]]",
-        "[[for|para/por]]",
-        "[[perfect|perfect]]",
-        "[[lake|lake]]",
-        "[[swimming|swimming]]",
         "[[in|en]]",
+        "[[summer|summer]].",
+        "[[lake|lake]]",
+        "[[perfect|perfect]]",
+        "[[swimming|swimming]]",
+        "[[for|para/por]]",
         "[[is|es/está]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
@@ -625,13 +625,13 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[trees|trees]] [[are|son/están]] [[changing|changing]] [[color|color]] [[in|en]] [[the|el/la/los/las]] [[woods|woods]].",
       "words": [
+        "[[are|son/están]]",
         "[[trees|trees]]",
-        "[[in|en]]",
+        "[[The|El/la/los/las]]",
         "[[woods|woods]].",
         "[[changing|changing]]",
+        "[[in|en]]",
         "[[color|color]]",
-        "[[are|son/están]]",
-        "[[The|El/la/los/las]]",
         "[[the|el/la/los/las]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
@@ -652,11 +652,11 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "correctSentence": "[[The|El/la/los/las]] [[sea|sea]] [[was|era/fue/estaba/estuvo]] [[very|muy]] [[calm|calm]] [[today|hoy]].",
       "words": [
         "[[The|El/la/los/las]]",
-        "[[very|muy]]",
-        "[[sea|sea]]",
-        "[[today|hoy]].",
+        "[[calm|calm]]",
         "[[was|era/fue/estaba/estuvo]]",
-        "[[calm|calm]]"
+        "[[very|muy]]",
+        "[[today|hoy]].",
+        "[[sea|sea]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -675,13 +675,13 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[He|Él]] [[is|es/está]] [[an|un/una]] [[expert|expert]] [[on|en/sobre]] [[local|local]] [[wildlife|wildlife]].",
       "words": [
-        "[[wildlife|wildlife]].",
         "[[He|Él]]",
-        "[[expert|expert]]",
         "[[is|es/está]]",
-        "[[on|en/sobre]]",
+        "[[local|local]]",
+        "[[expert|expert]]",
         "[[an|un/una]]",
-        "[[local|local]]"
+        "[[on|en/sobre]]",
+        "[[wildlife|wildlife]]."
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -701,9 +701,9 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "correctSentence": "[[What|Qué]] [[a|un/una]] [[beautiful|hermoso/a]] [[landscape|landscape]]!",
       "words": [
         "[[What|Qué]]",
-        "[[landscape|landscape]]!",
+        "[[a|un/una]]",
         "[[beautiful|hermoso/a]]",
-        "[[a|un/una]]"
+        "[[landscape|landscape]]!"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },

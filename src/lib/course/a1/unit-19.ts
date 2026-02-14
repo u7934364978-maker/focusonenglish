@@ -77,13 +77,13 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[My|Mi/mis]] [[birthday|birthday]] ([[ser/estar|ser/estar]] [[-|-]] [[ello|ello]]) _______ [[in|en]] [[June|June]].",
+          "question": "[[My|Mi/mis]] [[birthday|birthday]] ([[be|ser/estar]]) _______ [[in|en]] [[June|June]].",
           "options": [
-            "[[are|son/están]]",
             "[[is|es/está]]",
+            "[[are|son/están]]",
             "[[is|es/está]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -103,13 +103,13 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Christmas|Christmas]] ([[ser/estar|ser/estar]] [[-|-]] [[ello|ello]]) _______ [[on|en/sobre]] [[December|December]] [[25th|25th]].",
+          "question": "[[Christmas|Christmas]] ([[be|ser/estar]]) _______ [[on|en/sobre]] [[December|December]] [[25th|25th]].",
           "options": [
+            "[[are|son/están]]",
             "[[is|es/está]]",
-            "[[is|es/está]]",
-            "[[are|son/están]]"
+            "[[is|es/está]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -131,11 +131,11 @@ export const UNIT_19_EXERCISES: Exercise[] = [
         {
           "question": "([[En|En]]) _______ [[May|May]], [[it|eso]] [[is|es/está]] [[spring|spring]].",
           "options": [
+            "[[In|En]]",
             "[[are|son/están]]",
-            "[[is|es/está]]",
-            "[[In|En]]"
+            "[[is|es/está]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -155,13 +155,13 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[The|El/la/los/las]] [[first|first]] [[month|mes]] ([[ser/estar|ser/estar]] [[-|-]] [[ello|ello]]) _______ [[January|January]].",
+          "question": "[[The|El/la/los/las]] [[first|first]] [[month|mes]] ([[be|ser/estar]]) _______ [[January|January]].",
           "options": [
+            "[[are|son/están]]",
             "[[is|es/está]]",
-            "[[is|es/está]]",
-            "[[are|son/están]]"
+            "[[is|es/está]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -179,15 +179,15 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[There|Allí]] [[are|son/están]] [[twelve|twelve]] [[months|months]] [[in|en]] [[a|un/una]] [[year|año]].",
+      "correctSentence": "[[There|Allí/ahí]] [[are|son/están]] [[twelve|twelve]] [[months|months]] [[in|en]] [[a|un/una]] [[year|año]].",
       "words": [
         "[[a|un/una]]",
-        "[[year|año]].",
-        "[[There|Allí]]",
+        "[[There|Allí/ahí]]",
         "[[are|son/están]]",
+        "[[in|en]]",
         "[[months|months]]",
-        "[[twelve|twelve]]",
-        "[[in|en]]"
+        "[[year|año]].",
+        "[[twelve|twelve]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -206,11 +206,11 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[My|Mi/mis]] [[favorite|favorite]] [[month|mes]] [[is|es/está]] [[August|August]].",
       "words": [
-        "[[My|Mi/mis]]",
-        "[[favorite|favorite]]",
-        "[[month|mes]]",
         "[[is|es/está]]",
-        "[[August|August]]."
+        "[[month|mes]]",
+        "[[August|August]].",
+        "[[favorite|favorite]]",
+        "[[My|Mi/mis]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -229,11 +229,11 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[February|February]] [[is|es/está]] [[the|el/la/los/las]] [[shortest|el más bajo]] [[month|mes]].",
       "words": [
-        "[[shortest|el más bajo]]",
-        "[[February|February]]",
+        "[[the|el/la/los/las]]",
         "[[month|mes]].",
         "[[is|es/está]]",
-        "[[the|el/la/los/las]]"
+        "[[February|February]]",
+        "[[shortest|el más bajo]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -252,12 +252,12 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[July|July]] [[and|and]] [[August|August]] [[are|son/están]] [[very|muy]] [[hot|caliente]].",
       "words": [
-        "[[August|August]]",
-        "[[are|son/están]]",
+        "[[July|July]]",
         "[[and|and]]",
-        "[[very|muy]]",
         "[[hot|caliente]].",
-        "[[July|July]]"
+        "[[very|muy]]",
+        "[[August|August]]",
+        "[[are|son/están]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -276,12 +276,12 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[am|soy/estoy]] [[going|going]] [[on|en/sobre]] [[holiday|holiday]] [[in|en]] [[September|September]].",
       "words": [
-        "[[I|Yo]]",
-        "[[am|soy/estoy]]",
-        "[[holiday|holiday]]",
-        "[[going|going]]",
         "[[in|en]]",
+        "[[going|going]]",
+        "[[I|Yo]]",
+        "[[holiday|holiday]]",
         "[[on|en/sobre]]",
+        "[[am|soy/estoy]]",
         "[[September|September]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."

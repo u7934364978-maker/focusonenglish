@@ -63,11 +63,11 @@ export const UNIT_52_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] [[have|tener/haber]] ([[un|un]]) _______ [[apple|apple]].",
           "options": [
-            "[[are|son/están]]",
             "[[is|es/está]]",
-            "[[an|un/una]]"
+            "[[an|un/una]]",
+            "[[are|son/están]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -89,11 +89,11 @@ export const UNIT_52_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] [[have|tener/haber]] ([[algo|algo]] [[de|de]]) _______ [[milk|milk]].",
           "options": [
-            "[[are|son/están]]",
             "[[is|es/está]]",
-            "[[some|some]]"
+            "[[some|some]]",
+            "[[are|son/están]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -141,8 +141,8 @@ export const UNIT_52_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] [[have|tener/haber]] ([[algo|algo]] [[de|de]]) _______ [[rice|rice]].",
           "options": [
-            "[[are|son/están]]",
             "[[is|es/está]]",
+            "[[are|son/están]]",
             "[[some|some]]"
           ],
           "correctAnswer": 2,
@@ -165,9 +165,9 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Apples|Apples]] [[are|son/están]] [[countable|countable]].",
       "words": [
-        "[[countable|countable]].",
+        "[[Apples|Apples]]",
         "[[are|son/están]]",
-        "[[Apples|Apples]]"
+        "[[countable|countable]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -187,8 +187,8 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "correctSentence": "[[Water|Agua]] [[is|es/está]] [[uncountable|uncountable]].",
       "words": [
         "[[uncountable|uncountable]].",
-        "[[Water|Agua]]",
-        "[[is|es/está]]"
+        "[[is|es/está]]",
+        "[[Water|Agua]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -207,10 +207,10 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[need|necesitar]] [[an|un/una]] [[orange|orange]].",
       "words": [
-        "[[orange|orange]].",
         "[[an|un/una]]",
         "[[need|necesitar]]",
-        "[[I|Yo]]"
+        "[[I|Yo]]",
+        "[[orange|orange]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -229,10 +229,10 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[We|Nosotros]] [[have|tener/haber]] [[some|some]] [[bread|pan]].",
       "words": [
-        "[[bread|pan]].",
         "[[some|some]]",
-        "[[have|tener/haber]]",
-        "[[We|Nosotros]]"
+        "[[bread|pan]].",
+        "[[We|Nosotros]]",
+        "[[have|tener/haber]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -249,12 +249,12 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[There|Allí]] [[are|son/están]] [[five|cinco]] [[eggs|eggs]].",
+      "correctSentence": "[[There|Allí/ahí]] [[are|son/están]] [[five|cinco]] [[eggs|eggs]].",
       "words": [
-        "[[There|Allí]]",
-        "[[eggs|eggs]].",
+        "[[There|Allí/ahí]]",
+        "[[are|son/están]]",
         "[[five|cinco]]",
-        "[[are|son/están]]"
+        "[[eggs|eggs]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

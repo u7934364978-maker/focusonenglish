@@ -117,11 +117,11 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "[[She|Ella]] [[ran|ran]] _______ [[the|el/la/los/las]] [[hill|hill]].",
           "options": [
-            "[[up|up]]",
             "[[to|a/para]]",
+            "[[up|up]]",
             "[[it|eso]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -169,11 +169,11 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "[[He|Él]] [[jumped|jumped]] _______ [[the|el/la/los/las]] [[fence|fence]].",
           "options": [
+            "[[to|a/para]]",
             "[[it|eso]]",
-            "[[over|over]]",
-            "[[to|a/para]]"
+            "[[over|over]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -221,11 +221,11 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "[[They|Ellos]] [[went|went]] _______ [[the|el/la/los/las]] [[stairs|stairs]].",
           "options": [
-            "[[to|a/para]]",
             "[[down|down]]",
+            "[[to|a/para]]",
             "[[it|eso]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -273,11 +273,11 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "[[She|Ella]] [[walked|walked]] _______ [[the|el/la/los/las]] [[park|park]] [[every|every]] [[morning|mañana]].",
           "options": [
-            "[[it|eso]]",
             "[[to|a/para]]",
-            "[[through|through]]"
+            "[[through|through]]",
+            "[[it|eso]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -299,8 +299,8 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "[[The|El/la/los/las]] [[car|coche]] [[drove|drove]] _______ [[the|el/la/los/las]] [[corner|corner]].",
           "options": [
-            "[[to|a/para]]",
             "[[it|eso]]",
+            "[[to|a/para]]",
             "[[round/around|round/around]]"
           ],
           "correctAnswer": 2,
@@ -323,13 +323,13 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] [[got|got]] _______ [[the|el/la/los/las]] [[bus|bus]] [[at|en]] [[the|el/la/los/las]] [[station|station]].",
+          "question": "[[He|Él]] [[got|tienes/conseguido]] _______ [[the|el/la/los/las]] [[bus|bus]] [[at|en]] [[the|el/la/los/las]] [[station|station]].",
           "options": [
-            "[[off|off]]",
+            "[[it|eso]]",
             "[[to|a/para]]",
-            "[[it|eso]]"
+            "[[off|off]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -349,14 +349,14 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[He|Él]] [[walked|walked]] [[into|into]] [[the|el/la/los/las]] [[office|oficina]] [[and|and]] [[sat|sat]] [[down|down]].",
       "words": [
-        "[[He|Él]]",
-        "[[office|oficina]]",
-        "[[into|into]]",
         "[[down|down]].",
-        "[[and|and]]",
-        "[[the|el/la/los/las]]",
+        "[[He|Él]]",
         "[[walked|walked]]",
-        "[[sat|sat]]"
+        "[[the|el/la/los/las]]",
+        "[[and|and]]",
+        "[[sat|sat]]",
+        "[[into|into]]",
+        "[[office|oficina]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -375,14 +375,14 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[She|Ella]] [[ran|ran]] [[up|up]] [[the|el/la/los/las]] [[stairs|stairs]] [[to|a/para]] [[her|su (de ella)]] [[bedroom|bedroom]].",
       "words": [
-        "[[bedroom|bedroom]].",
-        "[[ran|ran]]",
-        "[[her|su (de ella)]]",
         "[[stairs|stairs]]",
-        "[[to|a/para]]",
-        "[[up|up]]",
+        "[[bedroom|bedroom]].",
         "[[the|el/la/los/las]]",
-        "[[She|Ella]]"
+        "[[her|su (de ella)]]",
+        "[[She|Ella]]",
+        "[[ran|ran]]",
+        "[[up|up]]",
+        "[[to|a/para]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -401,16 +401,16 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[They|Ellos]] [[drove|drove]] [[through|through]] [[the|el/la/los/las]] [[tunnel|tunnel]] [[to|a/para]] [[get|conseguir/obtener]] [[to|a/para]] [[the|el/la/los/las]] [[city|ciudad]].",
       "words": [
-        "[[drove|drove]]",
-        "[[to|a/para]]",
-        "[[the|el/la/los/las]]",
-        "[[through|through]]",
         "[[They|Ellos]]",
-        "[[get|conseguir/obtener]]",
         "[[the|el/la/los/las]]",
-        "[[to|a/para]]",
+        "[[drove|drove]]",
+        "[[through|through]]",
+        "[[the|el/la/los/las]]",
         "[[city|ciudad]].",
-        "[[tunnel|tunnel]]"
+        "[[get|conseguir/obtener]]",
+        "[[to|a/para]]",
+        "[[tunnel|tunnel]]",
+        "[[to|a/para]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -430,11 +430,11 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "correctSentence": "[[The|El/la/los/las]] [[horse|horse]] [[jumped|jumped]] [[over|over]] [[the|el/la/los/las]] [[fence|fence]].",
       "words": [
         "[[the|el/la/los/las]]",
-        "[[horse|horse]]",
-        "[[fence|fence]].",
+        "[[over|over]]",
         "[[jumped|jumped]]",
+        "[[horse|horse]]",
         "[[The|El/la/los/las]]",
-        "[[over|over]]"
+        "[[fence|fence]]."
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -453,14 +453,14 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[We|Nosotros]] [[walked|walked]] [[along|along]] [[the|el/la/los/las]] [[river|river]] [[for|para/por]] [[two|dos]] [[hours|hours]].",
       "words": [
-        "[[We|Nosotros]]",
-        "[[two|dos]]",
-        "[[hours|hours]].",
-        "[[walked|walked]]",
-        "[[river|river]]",
-        "[[along|along]]",
         "[[for|para/por]]",
-        "[[the|el/la/los/las]]"
+        "[[two|dos]]",
+        "[[We|Nosotros]]",
+        "[[the|el/la/los/las]]",
+        "[[walked|walked]]",
+        "[[hours|hours]].",
+        "[[river|river]]",
+        "[[along|along]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -481,8 +481,8 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "words": [
         "[[The|El/la/los/las]]",
         "[[dog|dog]]",
-        "[[towards|towards]]",
         "[[ran|ran]]",
+        "[[towards|towards]]",
         "[[me|me/mí]]."
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
@@ -502,13 +502,13 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[She|Ella]] [[walked|walked]] [[past|past]] [[the|el/la/los/las]] [[shop|tienda]] [[without|without]] [[stopping|stopping]].",
       "words": [
-        "[[She|Ella]]",
-        "[[shop|tienda]]",
-        "[[walked|walked]]",
+        "[[without|without]]",
+        "[[the|el/la/los/las]]",
         "[[stopping|stopping]].",
         "[[past|past]]",
-        "[[without|without]]",
-        "[[the|el/la/los/las]]"
+        "[[shop|tienda]]",
+        "[[walked|walked]]",
+        "[[She|Ella]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -527,12 +527,12 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[children|niños/niñas]] [[went|went]] [[down|down]] [[the|el/la/los/las]] [[slide|slide]].",
       "words": [
-        "[[The|El/la/los/las]]",
-        "[[children|niños/niñas]]",
-        "[[went|went]]",
+        "[[the|el/la/los/las]]",
         "[[down|down]]",
         "[[slide|slide]].",
-        "[[the|el/la/los/las]]"
+        "[[children|niños/niñas]]",
+        "[[The|El/la/los/las]]",
+        "[[went|went]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -551,15 +551,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[We|Nosotros]] [[flew|flew]] [[across|across]] [[the|el/la/los/las]] [[mountains|mountains]] [[in|en]] [[a|un/una]] [[small|pequeño/pequeña]] [[plane|plane]].",
       "words": [
+        "[[flew|flew]]",
+        "[[in|en]]",
+        "[[plane|plane]].",
+        "[[a|un/una]]",
         "[[the|el/la/los/las]]",
         "[[mountains|mountains]]",
-        "[[a|un/una]]",
-        "[[across|across]]",
-        "[[in|en]]",
-        "[[We|Nosotros]]",
-        "[[plane|plane]].",
         "[[small|pequeño/pequeña]]",
-        "[[flew|flew]]"
+        "[[across|across]]",
+        "[[We|Nosotros]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -579,11 +579,11 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "correctSentence": "[[The|El/la/los/las]] [[cat|cat]] [[jumped|jumped]] [[off|off]] [[the|el/la/los/las]] [[table|mesa]].",
       "words": [
         "[[off|off]]",
-        "[[jumped|jumped]]",
-        "[[cat|cat]]",
         "[[The|El/la/los/las]]",
+        "[[table|mesa]].",
+        "[[cat|cat]]",
         "[[the|el/la/los/las]]",
-        "[[table|mesa]]."
+        "[[jumped|jumped]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -600,17 +600,17 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[got|got]] [[out|out]] [[of|de]] [[the|el/la/los/las]] [[car|coche]] [[and|and]] [[locked|locked]] [[the|el/la/los/las]] [[door|puerta]].",
+      "correctSentence": "[[He|Él]] [[got|tienes/conseguido]] [[out|out]] [[of|de]] [[the|el/la/los/las]] [[car|coche]] [[and|and]] [[locked|locked]] [[the|el/la/los/las]] [[door|puerta]].",
       "words": [
-        "[[He|Él]]",
         "[[and|and]]",
         "[[the|el/la/los/las]]",
-        "[[door|puerta]].",
-        "[[locked|locked]]",
-        "[[of|de]]",
-        "[[the|el/la/los/las]]",
         "[[out|out]]",
-        "[[got|got]]",
+        "[[got|tienes/conseguido]]",
+        "[[door|puerta]].",
+        "[[He|Él]]",
+        "[[of|de]]",
+        "[[locked|locked]]",
+        "[[the|el/la/los/las]]",
         "[[car|coche]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
@@ -630,12 +630,12 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[train|train]] [[goes|goes]] [[through|through]] [[the|el/la/los/las]] [[mountains|mountains]].",
       "words": [
-        "[[The|El/la/los/las]]",
-        "[[through|through]]",
-        "[[mountains|mountains]].",
-        "[[train|train]]",
         "[[the|el/la/los/las]]",
-        "[[goes|goes]]"
+        "[[through|through]]",
+        "[[goes|goes]]",
+        "[[train|train]]",
+        "[[The|El/la/los/las]]",
+        "[[mountains|mountains]]."
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -655,13 +655,13 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "correctSentence": "[[They|Ellos]] [[walked|walked]] [[around|around]] [[the|el/la/los/las]] [[lake|lake]] [[in|en]] [[the|el/la/los/las]] [[afternoon|tarde]].",
       "words": [
         "[[They|Ellos]]",
-        "[[walked|walked]]",
         "[[the|el/la/los/las]]",
-        "[[around|around]]",
         "[[lake|lake]]",
+        "[[in|en]]",
+        "[[walked|walked]]",
+        "[[around|around]]",
         "[[afternoon|tarde]].",
-        "[[the|el/la/los/las]]",
-        "[[in|en]]"
+        "[[the|el/la/los/las]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -680,12 +680,12 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[ball|ball]] [[rolled|rolled]] [[under|debajo de]] [[the|el/la/los/las]] [[sofa|sofa]].",
       "words": [
+        "[[under|debajo de]]",
+        "[[sofa|sofa]].",
         "[[The|El/la/los/las]]",
         "[[ball|ball]]",
-        "[[rolled|rolled]]",
-        "[[sofa|sofa]].",
-        "[[under|debajo de]]",
-        "[[the|el/la/los/las]]"
+        "[[the|el/la/los/las]]",
+        "[[rolled|rolled]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -704,16 +704,16 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[She|Ella]] [[walked|walked]] [[across|across]] [[the|el/la/los/las]] [[bridge|bridge]] [[to|a/para]] [[get|conseguir/obtener]] [[to|a/para]] [[the|el/la/los/las]] [[station|station]].",
       "words": [
-        "[[get|conseguir/obtener]]",
-        "[[walked|walked]]",
-        "[[the|el/la/los/las]]",
-        "[[to|a/para]]",
-        "[[station|station]].",
-        "[[to|a/para]]",
-        "[[She|Ella]]",
         "[[bridge|bridge]]",
+        "[[the|el/la/los/las]]",
+        "[[the|el/la/los/las]]",
+        "[[get|conseguir/obtener]]",
+        "[[station|station]].",
         "[[across|across]]",
-        "[[the|el/la/los/las]]"
+        "[[walked|walked]]",
+        "[[She|Ella]]",
+        "[[to|a/para]]",
+        "[[to|a/para]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },

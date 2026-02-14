@@ -59,11 +59,11 @@ export const UNIT_33_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] ([[siempre|siempre]]) _______ [[wake|wake]] [[up|up]] [[at|en]] [[7|7]].",
           "options": [
+            "[[are|son/están]]",
             "[[is|es/está]]",
-            "[[always|siempre]]",
-            "[[are|son/están]]"
+            "[[always|siempre]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -85,8 +85,8 @@ export const UNIT_33_EXERCISES: Exercise[] = [
         {
           "question": "[[He|Él]] ([[nunca|nunca]]) _______ [[eats|eats]] [[breakfast|breakfast]].",
           "options": [
-            "[[are|son/están]]",
             "[[is|es/está]]",
+            "[[are|son/están]]",
             "[[never|nunca]]"
           ],
           "correctAnswer": 2,
@@ -111,11 +111,11 @@ export const UNIT_33_EXERCISES: Exercise[] = [
         {
           "question": "[[We|Nosotros]] ([[a|un/una]] [[veces|veces]]) _______ [[go|ir]] [[to|a/para]] [[the|el/la/los/las]] [[cinema|cinema]].",
           "options": [
-            "[[sometimes|a veces]]",
+            "[[are|son/están]]",
             "[[is|es/está]]",
-            "[[are|son/están]]"
+            "[[sometimes|a veces]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -137,11 +137,11 @@ export const UNIT_33_EXERCISES: Exercise[] = [
         {
           "question": "[[She|Ella]] ([[normalmente|normalmente]]) _______ [[studies|studies]] [[at|en]] [[night|noche]].",
           "options": [
+            "[[usually|usually]]",
             "[[is|es/está]]",
-            "[[are|son/están]]",
-            "[[usually|usually]]"
+            "[[are|son/están]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -161,10 +161,10 @@ export const UNIT_33_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[never|nunca]] [[drink|beber]] [[coffee|coffee]].",
       "words": [
+        "[[I|Yo]]",
         "[[never|nunca]]",
-        "[[coffee|coffee]].",
         "[[drink|beber]]",
-        "[[I|Yo]]"
+        "[[coffee|coffee]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -184,10 +184,10 @@ export const UNIT_33_EXERCISES: Exercise[] = [
       "correctSentence": "[[He|Él]] [[usually|usually]] [[goes|goes]] [[to|a/para]] [[bed|cama]] [[late|late]].",
       "words": [
         "[[late|late]].",
-        "[[to|a/para]]",
-        "[[He|Él]]",
-        "[[usually|usually]]",
         "[[goes|goes]]",
+        "[[usually|usually]]",
+        "[[He|Él]]",
+        "[[to|a/para]]",
         "[[bed|cama]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
@@ -207,10 +207,10 @@ export const UNIT_33_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[We|Nosotros]] [[often|a menudo]] [[visit|visit]] [[our|nuestro]] [[grandparents|grandparents]].",
       "words": [
-        "[[often|a menudo]]",
         "[[We|Nosotros]]",
-        "[[our|nuestro]]",
+        "[[often|a menudo]]",
         "[[visit|visit]]",
+        "[[our|nuestro]]",
         "[[grandparents|grandparents]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
@@ -230,11 +230,11 @@ export const UNIT_33_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[sometimes|a veces]] [[play|jugar/tocar]] [[video|video]] [[games|games]].",
       "words": [
-        "[[I|Yo]]",
-        "[[games|games]].",
-        "[[video|video]]",
+        "[[play|jugar/tocar]]",
         "[[sometimes|a veces]]",
-        "[[play|jugar/tocar]]"
+        "[[I|Yo]]",
+        "[[video|video]]",
+        "[[games|games]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -253,12 +253,12 @@ export const UNIT_33_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[She|Ella]] [[always|siempre]] [[speaks|speaks]] [[English|English]] [[in|en]] [[class|clase]].",
       "words": [
+        "[[in|en]]",
         "[[speaks|speaks]]",
-        "[[She|Ella]]",
-        "[[English|English]]",
-        "[[always|siempre]]",
         "[[class|clase]].",
-        "[[in|en]]"
+        "[[English|English]]",
+        "[[She|Ella]]",
+        "[[always|siempre]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

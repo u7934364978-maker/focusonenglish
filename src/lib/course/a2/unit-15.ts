@@ -117,11 +117,11 @@ export const UNIT_15_EXERCISES: Exercise[] = [
         {
           "question": "[[She|Ella]] ([[go|ir]]) _______ [[swimming|swimming]] [[on|en/sobre]] [[Tuesdays|Tuesdays]].",
           "options": [
-            "[[goes|goes]]",
+            "[[it|eso]]",
             "[[to|a/para]]",
-            "[[it|eso]]"
+            "[[goes|goes]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -143,11 +143,11 @@ export const UNIT_15_EXERCISES: Exercise[] = [
         {
           "question": "[[They|Ellos]] ([[not/do|not/do]]) _______ [[yoga|yoga]].",
           "options": [
-            "[[it|eso]]",
+            "[[don't do|don't do]]",
             "[[to|a/para]]",
-            "[[don't do|don't do]]"
+            "[[it|eso]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -170,8 +170,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
           "question": "[[He|Él]] ([[be|ser/estar]]) _______ [[very|muy]] [[good|bueno/buena]] [[at|en]] [[tennis|tennis]].",
           "options": [
             "[[is|es/está]]",
-            "[[to|a/para]]",
-            "[[it|eso]]"
+            "[[it|eso]]",
+            "[[to|a/para]]"
           ],
           "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
@@ -196,8 +196,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
           "question": "[[We|Nosotros]] ([[win|win]]) _______ [[the|el/la/los/las]] [[match|match]] [[yesterday|ayer]].",
           "options": [
             "[[won|won]]",
-            "[[to|a/para]]",
-            "[[it|eso]]"
+            "[[it|eso]]",
+            "[[to|a/para]]"
           ],
           "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
@@ -221,11 +221,11 @@ export const UNIT_15_EXERCISES: Exercise[] = [
         {
           "question": "[[Are|Son/están]] [[you|tú/usted]] _______ ([[interested|interested]]) [[in|en]] [[basketball|basketball]]?",
           "options": [
-            "[[it|eso]]",
+            "[[interested|interested]]",
             "[[to|a/para]]",
-            "[[interested|interested]]"
+            "[[it|eso]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -247,8 +247,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
         {
           "question": "[[She|Ella]] ([[want|querer]]) _______ [[to|a/para]] [[run|run]] [[a|un/una]] [[marathon|marathon]].",
           "options": [
-            "[[to|a/para]]",
             "[[it|eso]]",
+            "[[to|a/para]]",
             "[[wants|wants]]"
           ],
           "correctAnswer": 2,
@@ -273,11 +273,11 @@ export const UNIT_15_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] ([[be|ser/estar]]) _______ [[training|training]] [[for|para/por]] [[a|un/una]] [[competition|competition]].",
           "options": [
-            "[[it|eso]]",
             "[[to|a/para]]",
-            "[[am|soy/estoy]]"
+            "[[am|soy/estoy]]",
+            "[[it|eso]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -299,11 +299,11 @@ export const UNIT_15_EXERCISES: Exercise[] = [
         {
           "question": "[[He|Él]] ([[not/can|not/can]]) _______ [[swim|swim]] [[very|muy]] [[fast|fast]].",
           "options": [
+            "[[it|eso]]",
             "[[can't|can't]]",
-            "[[to|a/para]]",
-            "[[it|eso]]"
+            "[[to|a/para]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -325,11 +325,11 @@ export const UNIT_15_EXERCISES: Exercise[] = [
         {
           "question": "[[They|Ellos]] ([[practice|practice]]) _______ [[every|every]] [[day|día]].",
           "options": [
+            "[[it|eso]]",
             "[[practice|practice]]",
-            "[[to|a/para]]",
-            "[[it|eso]]"
+            "[[to|a/para]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -349,15 +349,15 @@ export const UNIT_15_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[go|ir]] [[to|a/para]] [[the|el/la/los/las]] [[gym|gym]] [[three|tres]] [[times|times]] [[a|un/una]] [[week|semana]].",
       "words": [
-        "[[go|ir]]",
-        "[[times|times]]",
-        "[[gym|gym]]",
-        "[[week|semana]].",
-        "[[the|el/la/los/las]]",
+        "[[three|tres]]",
         "[[I|Yo]]",
-        "[[to|a/para]]",
+        "[[times|times]]",
         "[[a|un/una]]",
-        "[[three|tres]]"
+        "[[go|ir]]",
+        "[[week|semana]].",
+        "[[gym|gym]]",
+        "[[the|el/la/los/las]]",
+        "[[to|a/para]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -376,14 +376,14 @@ export const UNIT_15_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[He|Él]] [[is|es/está]] [[the|el/la/los/las]] [[best|mejor]] [[player|player]] [[in|en]] [[the|el/la/los/las]] [[team|team]].",
       "words": [
+        "[[in|en]]",
         "[[the|el/la/los/las]]",
         "[[He|Él]]",
-        "[[team|team]].",
+        "[[the|el/la/los/las]]",
         "[[player|player]]",
-        "[[in|en]]",
-        "[[best|mejor]]",
+        "[[team|team]].",
         "[[is|es/está]]",
-        "[[the|el/la/los/las]]"
+        "[[best|mejor]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -402,11 +402,11 @@ export const UNIT_15_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[We|Nosotros]] [[won|won]] [[the|el/la/los/las]] [[match|match]] [[two-zero|two-zero]].",
       "words": [
+        "[[the|el/la/los/las]]",
+        "[[won|won]]",
         "[[We|Nosotros]]",
         "[[match|match]]",
-        "[[the|el/la/los/las]]",
-        "[[two-zero|two-zero]].",
-        "[[won|won]]"
+        "[[two-zero|two-zero]]."
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -425,15 +425,15 @@ export const UNIT_15_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[She|Ella]] [[loves|loves]] [[going|going]] [[for|para/por]] [[a|un/una]] [[run|run]] [[in|en]] [[the|el/la/los/las]] [[morning|mañana]].",
       "words": [
-        "[[morning|mañana]].",
-        "[[She|Ella]]",
-        "[[a|un/una]]",
-        "[[run|run]]",
-        "[[loves|loves]]",
-        "[[the|el/la/los/las]]",
         "[[in|en]]",
+        "[[run|run]]",
+        "[[a|un/una]]",
+        "[[for|para/por]]",
+        "[[morning|mañana]].",
         "[[going|going]]",
-        "[[for|para/por]]"
+        "[[loves|loves]]",
+        "[[She|Ella]]",
+        "[[the|el/la/los/las]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -450,14 +450,14 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Do|Hacer]] [[you|tú/usted]] [[play|jugar/tocar]] [[any|any]] [[team|team]] [[sports|sports]]?",
+      "correctSentence": "[[Do|Hacer]] [[you|tú/usted]] [[play|jugar/tocar]] [[any|alguno/a]] [[team|team]] [[sports|sports]]?",
       "words": [
-        "[[team|team]]",
         "[[play|jugar/tocar]]",
+        "[[any|alguno/a]]",
+        "[[team|team]]",
         "[[you|tú/usted]]",
-        "[[any|any]]",
-        "[[Do|Hacer]]",
-        "[[sports|sports]]?"
+        "[[sports|sports]]?",
+        "[[Do|Hacer]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -476,11 +476,11 @@ export const UNIT_15_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[It's|It's]] [[important|important]] [[to|a/para]] [[exercise|exercise]] [[regularly|regularly]].",
       "words": [
-        "[[It's|It's]]",
         "[[important|important]]",
-        "[[to|a/para]]",
+        "[[exercise|exercise]]",
+        "[[It's|It's]]",
         "[[regularly|regularly]].",
-        "[[exercise|exercise]]"
+        "[[to|a/para]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -499,14 +499,14 @@ export const UNIT_15_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[coach|coach]] [[was|era/fue/estaba/estuvo]] [[very|muy]] [[happy|feliz]] [[with|con]] [[the|el/la/los/las]] [[results|results]].",
       "words": [
-        "[[The|El/la/los/las]]",
-        "[[very|muy]]",
-        "[[results|results]].",
-        "[[happy|feliz]]",
         "[[with|con]]",
+        "[[very|muy]]",
         "[[was|era/fue/estaba/estuvo]]",
+        "[[coach|coach]]",
+        "[[results|results]].",
         "[[the|el/la/los/las]]",
-        "[[coach|coach]]"
+        "[[The|El/la/los/las]]",
+        "[[happy|feliz]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -525,10 +525,10 @@ export const UNIT_15_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[They|Ellos]] [[lost|lost]] [[the|el/la/los/las]] [[game|game]] [[last|last]] [[night|noche]].",
       "words": [
-        "[[the|el/la/los/las]]",
         "[[last|last]]",
-        "[[night|noche]].",
         "[[game|game]]",
+        "[[night|noche]].",
+        "[[the|el/la/los/las]]",
         "[[lost|lost]]",
         "[[They|Ellos]]"
       ],
@@ -549,12 +549,12 @@ export const UNIT_15_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I'm|I'm]] [[training|training]] [[for|para/por]] [[a|un/una]] [[cycling|cycling]] [[competition|competition]].",
       "words": [
-        "[[a|un/una]]",
-        "[[cycling|cycling]]",
-        "[[I'm|I'm]]",
-        "[[competition|competition]].",
         "[[training|training]]",
-        "[[for|para/por]]"
+        "[[competition|competition]].",
+        "[[I'm|I'm]]",
+        "[[cycling|cycling]]",
+        "[[for|para/por]]",
+        "[[a|un/una]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -573,12 +573,12 @@ export const UNIT_15_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Swimming|Swimming]] [[is|es/está]] [[great|great]] [[for|para/por]] [[your|tu/tus]] [[health|health]].",
       "words": [
-        "[[Swimming|Swimming]]",
-        "[[health|health]].",
-        "[[your|tu/tus]]",
         "[[for|para/por]]",
+        "[[great|great]]",
         "[[is|es/está]]",
-        "[[great|great]]"
+        "[[your|tu/tus]]",
+        "[[Swimming|Swimming]]",
+        "[[health|health]]."
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -597,12 +597,12 @@ export const UNIT_15_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[He|Él]] [[is|es/está]] [[a|un/una]] [[professional|professional]] [[tennis|tennis]] [[player|player]].",
       "words": [
-        "[[is|es/está]]",
-        "[[player|player]].",
         "[[professional|professional]]",
-        "[[tennis|tennis]]",
+        "[[a|un/una]]",
+        "[[is|es/está]]",
         "[[He|Él]]",
-        "[[a|un/una]]"
+        "[[player|player]].",
+        "[[tennis|tennis]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -621,13 +621,13 @@ export const UNIT_15_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[We|Nosotros]] [[have|tener/haber]] [[football|football]] [[practice|practice]] [[at|en]] [[5|5]] [[PM|PM]].",
       "words": [
-        "[[5|5]]",
-        "[[PM|PM]].",
         "[[We|Nosotros]]",
         "[[have|tener/haber]]",
-        "[[football|football]]",
+        "[[5|5]]",
+        "[[practice|practice]]",
         "[[at|en]]",
-        "[[practice|practice]]"
+        "[[PM|PM]].",
+        "[[football|football]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -646,12 +646,12 @@ export const UNIT_15_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I'm|I'm]] [[not|not]] [[very|muy]] [[good|bueno/buena]] [[at|en]] [[basketball|basketball]].",
       "words": [
+        "[[basketball|basketball]].",
+        "[[good|bueno/buena]]",
         "[[very|muy]]",
         "[[not|not]]",
-        "[[basketball|basketball]].",
         "[[I'm|I'm]]",
-        "[[at|en]]",
-        "[[good|bueno/buena]]"
+        "[[at|en]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -670,11 +670,11 @@ export const UNIT_15_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[She|Ella]] [[wants|wants]] [[to|a/para]] [[join|join]] [[a|un/una]] [[yoga|yoga]] [[class|clase]].",
       "words": [
-        "[[She|Ella]]",
         "[[wants|wants]]",
+        "[[She|Ella]]",
         "[[join|join]]",
-        "[[a|un/una]]",
         "[[yoga|yoga]]",
+        "[[a|un/una]]",
         "[[class|clase]].",
         "[[to|a/para]]"
       ],
@@ -695,11 +695,11 @@ export const UNIT_15_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Who|Quién/que]] [[won|won]] [[the|el/la/los/las]] [[gold|gold]] [[medal|medal]]?",
       "words": [
-        "[[Who|Quién/que]]",
-        "[[won|won]]",
         "[[medal|medal]]?",
+        "[[gold|gold]]",
         "[[the|el/la/los/las]]",
-        "[[gold|gold]]"
+        "[[won|won]]",
+        "[[Who|Quién/que]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },

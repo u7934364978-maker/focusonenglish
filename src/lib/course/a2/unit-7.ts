@@ -91,8 +91,8 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           "question": "[[He|Él]] ([[be|ser/estar]]) _______ [[a|un/una]] [[manager|manager]].",
           "options": [
-            "[[to|a/para]]",
             "[[it|eso]]",
+            "[[to|a/para]]",
             "[[is|es/está]]"
           ],
           "correctAnswer": 2,
@@ -117,11 +117,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           "question": "[[She|Ella]] ([[work|trabajo/trabajar]]) _______ [[in|en]] [[a|un/una]] [[big|grande]] [[office|oficina]].",
           "options": [
+            "[[works|works]]",
             "[[it|eso]]",
-            "[[to|a/para]]",
-            "[[works|works]]"
+            "[[to|a/para]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -143,11 +143,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           "question": "[[They|Ellos]] ([[not/have|not/have]]) _______ [[much|much]] [[free|free]] [[time|tiempo/hora]].",
           "options": [
+            "[[it|eso]]",
             "[[don't have|don't have]]",
-            "[[to|a/para]]",
-            "[[it|eso]]"
+            "[[to|a/para]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -273,11 +273,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           "question": "[[She|Ella]] ([[want|querer]]) _______ [[to|a/para]] [[be|ser/estar]] [[a|un/una]] [[pilot|pilot]].",
           "options": [
-            "[[to|a/para]]",
             "[[wants|wants]]",
-            "[[it|eso]]"
+            "[[it|eso]]",
+            "[[to|a/para]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -299,11 +299,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] ([[start|start]]) _______ [[my|mi/mis]] [[shift|shift]] [[at|en]] [[8|8]] [[PM|PM]].",
           "options": [
-            "[[it|eso]]",
             "[[start|start]]",
-            "[[to|a/para]]"
+            "[[to|a/para]]",
+            "[[it|eso]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -325,11 +325,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         {
           "question": "[[They|Ellos]] ([[be|ser/estar]]) _______ [[very|muy]] [[professional|professional]].",
           "options": [
-            "[[to|a/para]]",
             "[[are|son/están]]",
-            "[[it|eso]]"
+            "[[it|eso]]",
+            "[[to|a/para]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -349,12 +349,12 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[He|Él]] [[works|works]] [[for|para/por]] [[a|un/una]] [[large|large]] [[company|company]].",
       "words": [
+        "[[a|un/una]]",
+        "[[works|works]]",
+        "[[company|company]].",
         "[[for|para/por]]",
         "[[He|Él]]",
-        "[[large|large]]",
-        "[[company|company]].",
-        "[[works|works]]",
-        "[[a|un/una]]"
+        "[[large|large]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -373,12 +373,12 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[have|tener/haber]] [[a|un/una]] [[job|job]] [[interview|interview]] [[tomorrow|mañana]].",
       "words": [
-        "[[have|tener/haber]]",
-        "[[interview|interview]]",
-        "[[I|Yo]]",
         "[[job|job]]",
+        "[[tomorrow|mañana]].",
+        "[[I|Yo]]",
+        "[[have|tener/haber]]",
         "[[a|un/una]]",
-        "[[tomorrow|mañana]]."
+        "[[interview|interview]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -399,8 +399,8 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "words": [
         "[[She|Ella]]",
         "[[is|es/está]]",
-        "[[a|un/una]]",
         "[[nurse|nurse]].",
+        "[[a|un/una]]",
         "[[experienced|experienced]]",
         "[[very|muy]]"
       ],
@@ -421,11 +421,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[My|Mi/mis]] [[colleagues|colleagues]] [[are|son/están]] [[very|muy]] [[friendly|simpático/amigable]].",
       "words": [
-        "[[friendly|simpático/amigable]].",
+        "[[very|muy]]",
         "[[are|son/están]]",
-        "[[My|Mi/mis]]",
+        "[[friendly|simpático/amigable]].",
         "[[colleagues|colleagues]]",
-        "[[very|muy]]"
+        "[[My|Mi/mis]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -446,8 +446,8 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "words": [
         "[[What|Qué]]",
         "[[mother|madre]]",
-        "[[does|hace]]",
         "[[your|tu/tus]]",
+        "[[does|hace]]",
         "[[do|hacer]]?"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
@@ -493,8 +493,8 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "correctSentence": "[[He|Él]] [[earns|earns]] [[a|un/una]] [[good|bueno/buena]] [[salary|salary]].",
       "words": [
         "[[He|Él]]",
-        "[[salary|salary]].",
         "[[earns|earns]]",
+        "[[salary|salary]].",
         "[[a|un/una]]",
         "[[good|bueno/buena]]"
       ],
@@ -515,11 +515,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[We|Nosotros]] [[have|tener/haber]] [[a|un/una]] [[meeting|meeting]] [[every|every]] [[Monday|Monday]] [[morning|mañana]].",
       "words": [
+        "[[meeting|meeting]]",
         "[[We|Nosotros]]",
         "[[have|tener/haber]]",
-        "[[every|every]]",
         "[[a|un/una]]",
-        "[[meeting|meeting]]",
+        "[[every|every]]",
         "[[morning|mañana]].",
         "[[Monday|Monday]]"
       ],
@@ -540,12 +540,12 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[She|Ella]] [[wears|wears]] [[a|un/una]] [[uniform|uniform]] [[at|en]] [[work|trabajo/trabajar]].",
       "words": [
-        "[[wears|wears]]",
-        "[[a|un/una]]",
         "[[She|Ella]]",
-        "[[uniform|uniform]]",
+        "[[wears|wears]]",
+        "[[work|trabajo/trabajar]].",
         "[[at|en]]",
-        "[[work|trabajo/trabajar]]."
+        "[[a|un/una]]",
+        "[[uniform|uniform]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -564,14 +564,14 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[am|soy/estoy]] [[very|muy]] [[busy|ocupado]] [[at|en]] [[the|el/la/los/las]] [[office|oficina]] [[today|hoy]].",
       "words": [
-        "[[at|en]]",
-        "[[I|Yo]]",
-        "[[the|el/la/los/las]]",
-        "[[office|oficina]]",
-        "[[am|soy/estoy]]",
         "[[today|hoy]].",
+        "[[the|el/la/los/las]]",
+        "[[busy|ocupado]]",
+        "[[am|soy/estoy]]",
+        "[[I|Yo]]",
         "[[very|muy]]",
-        "[[busy|ocupado]]"
+        "[[office|oficina]]",
+        "[[at|en]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -590,13 +590,13 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[He|Él]] [[is|es/está]] [[looking|looking]] [[for|para/por]] [[a|un/una]] [[part-time|part-time]] [[job|job]].",
       "words": [
+        "[[a|un/una]]",
         "[[job|job]].",
-        "[[for|para/por]]",
+        "[[is|es/está]]",
+        "[[looking|looking]]",
         "[[part-time|part-time]]",
         "[[He|Él]]",
-        "[[is|es/está]]",
-        "[[a|un/una]]",
-        "[[looking|looking]]"
+        "[[for|para/por]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -615,11 +615,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[They|Ellos]] [[work|trabajo/trabajar]] [[in|en]] [[a|un/una]] [[factory|factory]].",
       "words": [
+        "[[a|un/una]]",
         "[[in|en]]",
         "[[work|trabajo/trabajar]]",
-        "[[They|Ellos]]",
         "[[factory|factory]].",
-        "[[a|un/una]]"
+        "[[They|Ellos]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -661,10 +661,10 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[start|start]] [[work|trabajo/trabajar]] [[at|en]] [[nine|nueve]] [[o'clock|o'clock]].",
       "words": [
-        "[[work|trabajo/trabajar]]",
-        "[[start|start]]",
         "[[at|en]]",
+        "[[work|trabajo/trabajar]]",
         "[[o'clock|o'clock]].",
+        "[[start|start]]",
         "[[I|Yo]]",
         "[[nine|nueve]]"
       ],
@@ -685,11 +685,11 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[boss|boss]] [[is|es/está]] [[very|muy]] [[kind|amable]].",
       "words": [
-        "[[very|muy]]",
         "[[The|El/la/los/las]]",
+        "[[boss|boss]]",
         "[[is|es/está]]",
-        "[[kind|amable]].",
-        "[[boss|boss]]"
+        "[[very|muy]]",
+        "[[kind|amable]]."
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },

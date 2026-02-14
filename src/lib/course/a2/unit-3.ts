@@ -91,11 +91,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           "question": "[[He|Él]] ([[be|ser/estar]]) _______ [[very|muy]] [[kind|amable]].",
           "options": [
-            "[[is|es/está]]",
             "[[it|eso]]",
+            "[[is|es/está]]",
             "[[to|a/para]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -117,11 +117,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           "question": "[[She|Ella]] ([[not/be|no ser/estar]]) _______ [[very|muy]] [[patient|paciente]].",
           "options": [
-            "[[it|eso]]",
+            "[[is not|no es/está]]",
             "[[to|a/para]]",
-            "[[is not|no es/está]]"
+            "[[it|eso]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -143,11 +143,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           "question": "[[They|Ellos]] ([[be|ser/estar]]) _______ [[always|siempre]] [[helpful|servicial]].",
           "options": [
-            "[[it|eso]]",
+            "[[are|son/están]]",
             "[[to|a/para]]",
-            "[[are|son/están]]"
+            "[[it|eso]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -169,11 +169,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           "question": "[[Are|Son/están]] [[you|tú/usted]] _______ ([[lazy|perezoso/vago]]) [[than|que (comparativo)]] [[your|tu/tus]] [[sister|hermana]]?",
           "options": [
+            "[[lazier|más perezoso]]",
             "[[to|a/para]]",
-            "[[it|eso]]",
-            "[[lazier|más perezoso]]"
+            "[[it|eso]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -195,11 +195,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           "question": "[[He|Él]] [[is|es/está]] [[the|el/la/los/las]] _______ ([[funny|divertido]]) [[person|persona]] [[I|Yo]] [[know|saber/conocer]].",
           "options": [
-            "[[it|eso]]",
             "[[to|a/para]]",
-            "[[funniest|el más divertido]]"
+            "[[funniest|el más divertido]]",
+            "[[it|eso]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -221,11 +221,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] ([[think|pensar/creer]]) _______ [[she|ella]] [[is|es/está]] [[very|muy]] [[clever|listo/inteligente]].",
           "options": [
-            "[[think|pensar/creer]]",
             "[[to|a/para]]",
+            "[[think|pensar/creer]]",
             "[[it|eso]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -247,11 +247,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           "question": "[[We|Nosotros]] ([[be|ser/estar]]) _______ [[both|both]] [[quite|bastante]] [[shy|tímido]].",
           "options": [
-            "[[are|son/están]]",
             "[[it|eso]]",
-            "[[to|a/para]]"
+            "[[to|a/para]]",
+            "[[are|son/están]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -274,8 +274,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           "question": "[[She|Ella]] ([[not/like|not/like]]) _______ [[rude|maleducado]] [[people|gente/personas]].",
           "options": [
             "[[doesn't like|doesn't like]]",
-            "[[it|eso]]",
-            "[[to|a/para]]"
+            "[[to|a/para]]",
+            "[[it|eso]]"
           ],
           "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
@@ -299,11 +299,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           "question": "[[Why|Por qué]] _______ [[he|él]] [[so|tan/así que]] [[angry|enfadado/enojado]]?",
           "options": [
-            "[[it|eso]]",
+            "[[is|es/está]]",
             "[[to|a/para]]",
-            "[[is|es/está]]"
+            "[[it|eso]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -326,8 +326,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           "question": "[[They|Ellos]] ([[seem|parecer]]) _______ [[very|muy]] [[friendly|simpático/amigable]].",
           "options": [
             "[[seem|parecer]]",
-            "[[it|eso]]",
-            "[[to|a/para]]"
+            "[[to|a/para]]",
+            "[[it|eso]]"
           ],
           "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
@@ -349,11 +349,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[My|Mi/mis]] [[teacher|profesor/profesora]] [[is|es/está]] [[very|muy]] [[patient|paciente]].",
       "words": [
-        "[[patient|paciente]].",
-        "[[very|muy]]",
         "[[is|es/está]]",
         "[[teacher|profesor/profesora]]",
-        "[[My|Mi/mis]]"
+        "[[patient|paciente]].",
+        "[[My|Mi/mis]]",
+        "[[very|muy]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -373,11 +373,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "correctSentence": "[[He|Él]] [[is|es/está]] [[a|un/una]] [[very|muy]] [[funny|divertido]] [[man|hombre]].",
       "words": [
         "[[He|Él]]",
+        "[[man|hombre]].",
         "[[is|es/está]]",
         "[[a|un/una]]",
         "[[very|muy]]",
-        "[[funny|divertido]]",
-        "[[man|hombre]]."
+        "[[funny|divertido]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -396,12 +396,12 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[She|Ella]] [[is|es/está]] [[shy|tímido]] [[with|con]] [[new|nuevo]] [[people|gente/personas]].",
       "words": [
-        "[[people|gente/personas]].",
-        "[[new|nuevo]]",
         "[[with|con]]",
-        "[[shy|tímido]]",
         "[[is|es/está]]",
-        "[[She|Ella]]"
+        "[[new|nuevo]]",
+        "[[shy|tímido]]",
+        "[[She|Ella]]",
+        "[[people|gente/personas]]."
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -420,12 +420,12 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[He|Él]] [[is|es/está]] [[the|el/la/los/las]] [[most|most]] [[hard-working|trabajador]] [[student|estudiante]].",
       "words": [
-        "[[most|most]]",
-        "[[hard-working|trabajador]]",
         "[[the|el/la/los/las]]",
-        "[[is|es/está]]",
+        "[[most|most]]",
+        "[[student|estudiante]].",
         "[[He|Él]]",
-        "[[student|estudiante]]."
+        "[[hard-working|trabajador]]",
+        "[[is|es/está]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -444,12 +444,12 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Don't|No]] [[be|ser/estar]] [[rude|maleducado]] [[to|a/para]] [[your|tu/tus]] [[parents|padres]].",
       "words": [
-        "[[Don't|No]]",
-        "[[be|ser/estar]]",
-        "[[your|tu/tus]]",
         "[[to|a/para]]",
         "[[parents|padres]].",
-        "[[rude|maleducado]]"
+        "[[Don't|No]]",
+        "[[your|tu/tus]]",
+        "[[rude|maleducado]]",
+        "[[be|ser/estar]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -468,10 +468,10 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Is|Es/está]] [[your|tu/tus]] [[brother|hermano]] [[outgoing|extrovertido]]?",
       "words": [
-        "[[your|tu/tus]]",
-        "[[outgoing|extrovertido]]?",
         "[[Is|Es/está]]",
-        "[[brother|hermano]]"
+        "[[your|tu/tus]]",
+        "[[brother|hermano]]",
+        "[[outgoing|extrovertido]]?"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -490,12 +490,12 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[She|Ella]] [[is|es/está]] [[cleverer|más listo]] [[than|que (comparativo)]] [[her|su (de ella)]] [[cousin|cousin]].",
       "words": [
-        "[[cleverer|más listo]]",
-        "[[her|su (de ella)]]",
         "[[She|Ella]]",
-        "[[than|que (comparativo)]]",
+        "[[cousin|cousin]].",
         "[[is|es/está]]",
-        "[[cousin|cousin]]."
+        "[[cleverer|más listo]]",
+        "[[than|que (comparativo)]]",
+        "[[her|su (de ella)]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -537,10 +537,10 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "correctSentence": "[[I|Yo]] [[am|soy/estoy]] [[a|un/una]] [[quiet|tranquilo/callado]] [[person|persona]].",
       "words": [
         "[[person|persona]].",
-        "[[quiet|tranquilo/callado]]",
         "[[a|un/una]]",
         "[[am|soy/estoy]]",
-        "[[I|Yo]]"
+        "[[I|Yo]]",
+        "[[quiet|tranquilo/callado]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -561,8 +561,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "words": [
         "[[He|Él]]",
         "[[is|es/está]]",
-        "[[always|siempre]]",
-        "[[honest|honesto]]."
+        "[[honest|honesto]].",
+        "[[always|siempre]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -581,9 +581,9 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Are|Son/están]] [[they|ellos]] [[friendly|simpático/amigable]]?",
       "words": [
+        "[[friendly|simpático/amigable]]?",
         "[[Are|Son/están]]",
-        "[[they|ellos]]",
-        "[[friendly|simpático/amigable]]?"
+        "[[they|ellos]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -603,8 +603,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "correctSentence": "[[She|Ella]] [[isn't|no es/está]] [[lazy|perezoso/vago]] [[at|en]] [[all|all]].",
       "words": [
         "[[at|en]]",
-        "[[all|all]].",
         "[[lazy|perezoso/vago]]",
+        "[[all|all]].",
         "[[isn't|no es/está]]",
         "[[She|Ella]]"
       ],
@@ -625,10 +625,10 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[You|Tú/usted]] [[seem|parecer]] [[very|muy]] [[serious|serio]] [[today|hoy]].",
       "words": [
-        "[[You|Tú/usted]]",
-        "[[serious|serio]]",
-        "[[seem|parecer]]",
         "[[very|muy]]",
+        "[[seem|parecer]]",
+        "[[serious|serio]]",
+        "[[You|Tú/usted]]",
         "[[today|hoy]]."
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
@@ -649,10 +649,10 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "correctSentence": "[[He|Él]] [[is|es/está]] [[polite|educado]] [[to|a/para]] [[everyone|everyone]].",
       "words": [
         "[[He|Él]]",
-        "[[to|a/para]]",
+        "[[is|es/está]]",
         "[[everyone|everyone]].",
-        "[[polite|educado]]",
-        "[[is|es/está]]"
+        "[[to|a/para]]",
+        "[[polite|educado]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -672,9 +672,9 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "correctSentence": "[[We|Nosotros]] [[are|son/están]] [[all|all]] [[very|muy]] [[different|different]].",
       "words": [
         "[[We|Nosotros]]",
-        "[[very|muy]]",
-        "[[all|all]]",
         "[[are|son/están]]",
+        "[[all|all]]",
+        "[[very|muy]]",
         "[[different|different]]."
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."

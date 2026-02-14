@@ -112,9 +112,9 @@ function generateExercises(unitId: number, data: any) {
         let questionText = g.en.replace("________", "_______");
         
         // If the generator left a complex hint like (be) - I or (not/be) - He, simplify it
-        questionText = questionText.replace(/\(.*?\)\s*-\s*[^\s]+/g, (match: string) => {
-            const m = match.match(/\(.*?\)/);
-            return m ? m[0] : match;
+        questionText = questionText.replace(/\((?:be|not\/be|ser\/estar|not\/be)[^)]*\)(?:\s*-\s*[^\s]+)?/gi, (match: string) => {
+            if (match.toLowerCase().includes("not/be")) return "(not/be)";
+            return "(be)";
         });
         
         exercises.push({

@@ -51,11 +51,11 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "[[How|Cómo]] ([[mucho|mucho]]) _______ [[milk|milk]] [[do|hacer]] [[you|tú/usted]] [[want|querer]]?",
           "options": [
-            "[[is|es/está]]",
             "[[are|son/están]]",
-            "[[much|much]]"
+            "[[much|much]]",
+            "[[is|es/está]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -77,11 +77,11 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "[[How|Cómo]] ([[muchos|muchos]]) _______ [[eggs|eggs]] [[do|hacer]] [[we|nosotros]] [[have|tener/haber]]?",
           "options": [
-            "[[many|many]]",
+            "[[are|son/están]]",
             "[[is|es/está]]",
-            "[[are|son/están]]"
+            "[[many|many]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -104,10 +104,10 @@ export const UNIT_54_EXERCISES: Exercise[] = [
           "question": "[[I|Yo]] [[have|tener/haber]] ([[mucho|mucho]]) _______ [[water|agua]].",
           "options": [
             "[[is|es/está]]",
-            "[[are|son/están]]",
-            "[[a lot of|a lot of]]"
+            "[[a lot of|a lot of]]",
+            "[[are|son/están]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -129,11 +129,11 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] [[have|tener/haber]] ([[un|un]] [[poco|poco]] [[de|de]]) _______ [[coffee|coffee]].",
           "options": [
+            "[[are|son/están]]",
             "[[a little|a little]]",
-            "[[is|es/está]]",
-            "[[are|son/están]]"
+            "[[is|es/está]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -153,8 +153,8 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[don't|no]] [[have|tener/haber]] [[much|much]] [[time|tiempo/hora]].",
       "words": [
-        "[[I|Yo]]",
         "[[don't|no]]",
+        "[[I|Yo]]",
         "[[time|tiempo/hora]].",
         "[[much|much]]",
         "[[have|tener/haber]]"
@@ -174,15 +174,15 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[There|Allí]] [[are|son/están]] [[many|many]] [[people|gente/personas]] [[in|en]] [[the|el/la/los/las]] [[park|park]].",
+      "correctSentence": "[[There|Allí/ahí]] [[are|son/están]] [[many|many]] [[people|gente/personas]] [[in|en]] [[the|el/la/los/las]] [[park|park]].",
       "words": [
-        "[[are|son/están]]",
-        "[[There|Allí]]",
-        "[[the|el/la/los/las]]",
+        "[[many|many]]",
         "[[park|park]].",
+        "[[the|el/la/los/las]]",
         "[[in|en]]",
         "[[people|gente/personas]]",
-        "[[many|many]]"
+        "[[are|son/están]]",
+        "[[There|Allí/ahí]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -201,12 +201,12 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[We|Nosotros]] [[have|tener/haber]] [[a|un/una]] [[lot|lot]] [[of|de]] [[books|books]].",
       "words": [
-        "[[of|de]]",
+        "[[have|tener/haber]]",
+        "[[We|Nosotros]]",
+        "[[a|un/una]]",
         "[[lot|lot]]",
         "[[books|books]].",
-        "[[a|un/una]]",
-        "[[have|tener/haber]]",
-        "[[We|Nosotros]]"
+        "[[of|de]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -225,11 +225,11 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[only|only]] [[have|tener/haber]] [[a|un/una]] [[little|little]] [[sugar|azúcar]].",
       "words": [
-        "[[I|Yo]]",
-        "[[only|only]]",
         "[[little|little]]",
-        "[[have|tener/haber]]",
         "[[a|un/una]]",
+        "[[have|tener/haber]]",
+        "[[only|only]]",
+        "[[I|Yo]]",
         "[[sugar|azúcar]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
@@ -249,11 +249,11 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[need|necesitar]] [[a|un/una]] [[few|few]] [[minutes|minutes]].",
       "words": [
-        "[[I|Yo]]",
+        "[[minutes|minutes]].",
         "[[need|necesitar]]",
-        "[[a|un/una]]",
         "[[few|few]]",
-        "[[minutes|minutes]]."
+        "[[I|Yo]]",
+        "[[a|un/una]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

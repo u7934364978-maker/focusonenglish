@@ -58,3 +58,5 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/92
 - [x] Fix "traducción" and "..." placeholders in all A1 and A2 units.
 - [x] Improve word-level translation with punctuation handling and better dictionary support.
 - [x] Regenerate all 60 A1 and 60 A2 units with correct tooltips.
+- [x] Fix missing translations (e.g., "pen") and simplify auxiliary verb hints.
+- [x] Review A1 Unit 1 translations.

@@ -59,11 +59,11 @@ export const UNIT_36_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] [[can|poder]] [[play|jugar/tocar]] [[the|el/la/los/las]] ([[piano|piano]]) [[_______|_______]].",
           "options": [
-            "[[piano|piano]]",
             "[[is|es/está]]",
+            "[[piano|piano]]",
             "[[are|son/están]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -85,11 +85,11 @@ export const UNIT_36_EXERCISES: Exercise[] = [
         {
           "question": "[[She|Ella]] ([[tocar|tocar]]) _______ [[the|el/la/los/las]] [[guitar|guitar]].",
           "options": [
-            "[[plays|plays]]",
             "[[are|son/están]]",
-            "[[is|es/está]]"
+            "[[is|es/está]]",
+            "[[plays|plays]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -111,11 +111,11 @@ export const UNIT_36_EXERCISES: Exercise[] = [
         {
           "question": "[[He|Él]] ([[no|no]] [[-|-]] [[poder|poder]]) _______ [[play|jugar/tocar]] [[the|el/la/los/las]] [[drums|drums]].",
           "options": [
-            "[[can't|can't]]",
             "[[is|es/está]]",
-            "[[are|son/están]]"
+            "[[are|son/están]]",
+            "[[can't|can't]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -135,7 +135,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "([[Tocar|Tocar]]? [[-|-]] [[tú|tú]]) _______ [[you|tú/usted]] [[play|jugar/tocar]] [[any|any]] [[instrument|instrument]]?",
+          "question": "([[Tocar|Tocar]]? [[-|-]] [[tú|tú]]) _______ [[you|tú/usted]] [[play|jugar/tocar]] [[any|alguno/a]] [[instrument|instrument]]?",
           "options": [
             "[[Do|Hacer]]",
             "[[is|es/está]]",
@@ -162,11 +162,11 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "correctSentence": "[[The|El/la/los/las]] [[piano|piano]] [[is|es/está]] [[a|un/una]] [[beautiful|hermoso/a]] [[instrument|instrument]].",
       "words": [
         "[[instrument|instrument]].",
-        "[[is|es/está]]",
         "[[The|El/la/los/las]]",
         "[[piano|piano]]",
-        "[[beautiful|hermoso/a]]",
-        "[[a|un/una]]"
+        "[[a|un/una]]",
+        "[[is|es/está]]",
+        "[[beautiful|hermoso/a]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -185,13 +185,13 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[He|Él]] [[is|es/está]] [[learning|learning]] [[to|a/para]] [[play|jugar/tocar]] [[the|el/la/los/las]] [[violin|violin]].",
       "words": [
-        "[[He|Él]]",
         "[[to|a/para]]",
-        "[[play|jugar/tocar]]",
-        "[[violin|violin]].",
-        "[[the|el/la/los/las]]",
         "[[is|es/está]]",
-        "[[learning|learning]]"
+        "[[He|Él]]",
+        "[[the|el/la/los/las]]",
+        "[[play|jugar/tocar]]",
+        "[[learning|learning]]",
+        "[[violin|violin]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -211,12 +211,12 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "correctSentence": "[[She|Ella]] [[plays|plays]] [[the|el/la/los/las]] [[flute|flute]] [[in|en]] [[the|el/la/los/las]] [[orchestra|orchestra]].",
       "words": [
         "[[She|Ella]]",
-        "[[plays|plays]]",
-        "[[the|el/la/los/las]]",
-        "[[in|en]]",
         "[[flute|flute]]",
+        "[[plays|plays]]",
+        "[[orchestra|orchestra]].",
         "[[the|el/la/los/las]]",
-        "[[orchestra|orchestra]]."
+        "[[the|el/la/los/las]]",
+        "[[in|en]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -235,13 +235,13 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[want|querer]] [[to|a/para]] [[buy|comprar]] [[a|un/una]] [[new|nuevo]] [[guitar|guitar]].",
       "words": [
+        "[[I|Yo]]",
+        "[[want|querer]]",
+        "[[new|nuevo]]",
         "[[to|a/para]]",
         "[[guitar|guitar]].",
-        "[[a|un/una]]",
         "[[buy|comprar]]",
-        "[[new|nuevo]]",
-        "[[I|Yo]]",
-        "[[want|querer]]"
+        "[[a|un/una]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -260,10 +260,10 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Drums|Drums]] [[are|son/están]] [[very|muy]] [[loud|loud]].",
       "words": [
-        "[[are|son/están]]",
-        "[[loud|loud]].",
         "[[Drums|Drums]]",
-        "[[very|muy]]"
+        "[[are|son/están]]",
+        "[[very|muy]]",
+        "[[loud|loud]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

@@ -61,13 +61,13 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[There|Allí]] ([[ser/estar|ser/estar]] [[-|-]] [[ello|ello]]) _______ [[a|un/una]] [[big|grande]] [[park|park]].",
+          "question": "[[There|Allí/ahí]] ([[be|ser/estar]]) _______ [[a|un/una]] [[big|grande]] [[park|park]].",
           "options": [
+            "[[are|son/están]]",
             "[[is|es/está]]",
-            "[[is|es/está]]",
-            "[[are|son/están]]"
+            "[[is|es/está]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -87,7 +87,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[My|Mi/mis]] [[house|casa]] ([[ser/estar|ser/estar]] [[-|-]] [[ello|ello]]) _______ [[on|en/sobre]] [[Main|Principal]] [[Street|Calle]].",
+          "question": "[[My|Mi/mis]] [[house|casa]] ([[be|ser/estar]]) _______ [[on|en/sobre]] [[Main|Principal]] [[Street|Calle]].",
           "options": [
             "[[are|son/están]]",
             "[[is|es/está]]",
@@ -113,7 +113,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[There|Allí]] ([[ser/estar|ser/estar]] [[-|-]] [[ellos|ellos]]) _______ [[three|tres]] [[shops|shops]].",
+          "question": "[[There|Allí/ahí]] ([[be|ser/estar]]) _______ [[three|tres]] [[shops|shops]].",
           "options": [
             "[[are|son/están]]",
             "[[is|es/está]]",
@@ -139,13 +139,13 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[The|El/la/los/las]] [[bank|banco]] ([[ser/estar|ser/estar]] [[-|-]] [[ello|ello]]) _______ [[near|near]] [[here|aquí]].",
+          "question": "[[The|El/la/los/las]] [[bank|banco]] ([[be|ser/estar]]) _______ [[near|near]] [[here|aquí]].",
           "options": [
-            "[[are|son/están]]",
             "[[is|es/está]]",
-            "[[is|es/está]]"
+            "[[is|es/está]]",
+            "[[are|son/están]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -166,10 +166,10 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "correctSentence": "[[My|Mi/mis]] [[neighborhood|neighborhood]] [[is|es/está]] [[very|muy]] [[quiet|tranquilo/callado]].",
       "words": [
         "[[neighborhood|neighborhood]]",
-        "[[is|es/está]]",
         "[[My|Mi/mis]]",
+        "[[quiet|tranquilo/callado]].",
         "[[very|muy]]",
-        "[[quiet|tranquilo/callado]]."
+        "[[is|es/está]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -186,15 +186,15 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[There|Allí]] [[is|es/está]] [[a|un/una]] [[small|pequeño/pequeña]] [[pharmacy|pharmacy]] [[near|near]] [[the|el/la/los/las]] [[hospital|hospital]].",
+      "correctSentence": "[[There|Allí/ahí]] [[is|es/está]] [[a|un/una]] [[small|pequeño/pequeña]] [[pharmacy|pharmacy]] [[near|near]] [[the|el/la/los/las]] [[hospital|hospital]].",
       "words": [
-        "[[There|Allí]]",
-        "[[small|pequeño/pequeña]]",
-        "[[a|un/una]]",
         "[[pharmacy|pharmacy]]",
-        "[[is|es/está]]",
-        "[[the|el/la/los/las]]",
+        "[[small|pequeño/pequeña]]",
         "[[near|near]]",
+        "[[is|es/está]]",
+        "[[There|Allí/ahí]]",
+        "[[a|un/una]]",
+        "[[the|el/la/los/las]]",
         "[[hospital|hospital]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
@@ -215,12 +215,12 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "correctSentence": "[[I|Yo]] [[go|ir]] [[to|a/para]] [[the|el/la/los/las]] [[park|park]] [[every|every]] [[day|día]].",
       "words": [
         "[[I|Yo]]",
+        "[[day|día]].",
         "[[go|ir]]",
+        "[[every|every]]",
         "[[to|a/para]]",
         "[[the|el/la/los/las]]",
-        "[[park|park]]",
-        "[[every|every]]",
-        "[[day|día]]."
+        "[[park|park]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -239,12 +239,12 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[supermarket|supermarket]] [[is|es/está]] [[open|open]] [[on|en/sobre]] [[Sundays|Sundays]].",
       "words": [
-        "[[is|es/está]]",
-        "[[The|El/la/los/las]]",
+        "[[Sundays|Sundays]].",
         "[[supermarket|supermarket]]",
         "[[on|en/sobre]]",
+        "[[The|El/la/los/las]]",
         "[[open|open]]",
-        "[[Sundays|Sundays]]."
+        "[[is|es/está]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -261,14 +261,14 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[There|Allí]] [[are|son/están]] [[many|many]] [[trees|trees]] [[in|en]] [[this|este/esta]] [[street|calle]].",
+      "correctSentence": "[[There|Allí/ahí]] [[are|son/están]] [[many|many]] [[trees|trees]] [[in|en]] [[this|este/esta]] [[street|calle]].",
       "words": [
         "[[trees|trees]]",
         "[[many|many]]",
-        "[[this|este/esta]]",
         "[[are|son/están]]",
+        "[[There|Allí/ahí]]",
+        "[[this|este/esta]]",
         "[[street|calle]].",
-        "[[There|Allí]]",
         "[[in|en]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
