@@ -89,26 +89,6 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u3-e5',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Family',
-    topicName: 'My Tribe',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Father',
-      instructions: 'Di la palabra para "padre".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Father',
-          correctAnswer: 'Father',
-          explanation: 'La "th" suena como una "d" muy suave con aire entre los dientes.'
-        }
-      ]
-    }
-  },
-  {
     id: 'a1-u3-e6',
     type: 'matching',
     level: 'A1',
@@ -227,26 +207,6 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           options: ['daughter', 'son', 'brother'],
           correctAnswer: 0,
           explanation: '"Daughter" es hija.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u3-e12',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Family',
-    topicName: 'My Tribe',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Mother',
-      instructions: 'Di la palabra para "madre".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Mother',
-          correctAnswer: 'Mother',
-          explanation: 'La "o" suena como una "a" corta y relajada.'
         }
       ]
     }
@@ -375,26 +335,6 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u3-e19',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Family',
-    topicName: 'My Tribe',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Sister',
-      instructions: 'Di la palabra para "hermana".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Sister',
-          correctAnswer: 'Sister',
-          explanation: 'Recuerda que la "r" final en inglés británico apenas se oye, mientras que en americano es más marcada.'
-        }
-      ]
-    }
-  },
-  {
     id: 'a1-u3-e20',
     type: 'matching',
     level: 'A1',
@@ -513,26 +453,6 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           options: ['uncle', 'aunt', 'sister'],
           correctAnswer: 1,
           explanation: '"Aunt" es tía.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u3-e26',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Family',
-    topicName: 'My Tribe',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Brother',
-      instructions: 'Di la palabra para "hermano".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Brother',
-          correctAnswer: 'Brother',
-          explanation: 'La "o" suena como una "a" corta y la "th" es suave.'
         }
       ]
     }
@@ -661,26 +581,6 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u3-e33',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Family',
-    topicName: 'My Tribe',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Husband',
-      instructions: 'Di la palabra para "esposo".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Husband',
-          correctAnswer: 'Husband',
-          explanation: 'Cuidado con la "u", suena como una "a" corta y seca.'
-        }
-      ]
-    }
-  },
-  {
     id: 'a1-u3-e34',
     type: 'matching',
     level: 'A1',
@@ -804,26 +704,6 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u3-e40',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Family',
-    topicName: 'My Tribe',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Parents',
-      instructions: 'Di la palabra para "padres".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Parents',
-          correctAnswer: 'Parents',
-          explanation: 'Se pronuncia /ˈpeərənts/. La primera sílaba suena como "pair" (par).'
-        }
-      ]
-    }
-  },
-  {
     id: 'a1-u3-e41',
     type: 'matching',
     level: 'A1',
@@ -942,26 +822,6 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           options: ['grandson', 'granddaughter', 'son'],
           correctAnswer: 0,
           explanation: 'Usamos el prefijo "grand-" sobre "son".'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u3-e47',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Possessives',
-    topicName: 'My Tribe',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Their',
-      instructions: 'Di la palabra para "su" (de ellos).',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Their',
-          correctAnswer: 'Their',
-          explanation: 'Se pronuncia igual que "there" o "they\'re".'
         }
       ]
     }
