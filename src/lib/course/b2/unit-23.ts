@@ -12,7 +12,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Mixed Conditionals: Past to Present",
       instructions: "Choose the correct verb form for a present result of a past condition.",
-      question: "If we had taken action earlier, the planet ___ (be) in better shape now.",
+      question: "[[If we had taken action earlier, the planet ___ (be) in better shape now.|Si hubiéramos tomado medidas antes, el planeta estaría en mejor forma ahora.]]",
       options: ["would be", "would have been", "will be"],
       correctAnswer: "would be",
       explanation: "Use 'if + past perfect' for the past condition and 'would + infinitive' for the present result.",
@@ -31,7 +31,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Mixed Conditionals: Past to Present",
       instructions: "Choose the correct verb form.",
-      question: "I ___ (not/be) so tired if I had gone to bed early.",
+      question: "[[I ___ (not/be) so tired if I had gone to bed early.|No estaría tan cansado si me hubiera ido a la cama temprano.]]",
       options: ["wouldn't be", "wouldn't have been", "weren't"],
       correctAnswer: "wouldn't be",
       explanation: "A past condition (not going to bed early) affecting the present state (being tired).",
@@ -50,7 +50,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Mixed Conditionals: Past to Present",
       instructions: "Choose the correct verb form.",
-      question: "If she had studied botany, she ___ (work) in a lab today.",
+      question: "[[If she had studied botany, she ___ (work) in a lab today.|Si hubiera estudiado botánica, trabajaría en un laboratorio hoy.]]",
       options: ["would work", "would have worked", "works"],
       correctAnswer: "would work",
       explanation: "Past choice affecting current job.",
@@ -69,7 +69,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Mixed Conditionals: Past to Present",
       instructions: "Choose the correct verb form.",
-      question: "We ___ (have) more water if it had rained last month.",
+      question: "[[We ___ (have) more water if it had rained last month.|Tendríamos más agua si hubiera llovido el mes pasado.]]",
       options: ["would have", "would have had", "will have"],
       correctAnswer: "would have",
       explanation: "Past event (no rain) affecting current supply.",
@@ -88,7 +88,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Mixed Conditionals: Past to Present",
       instructions: "Choose the correct verb form.",
-      question: "If the law had been passed, the air ___ (be) cleaner now.",
+      question: "[[If the law had been passed, the air ___ (be) cleaner now.|Si se hubiera aprobado la ley, el aire estaría más limpio ahora.]]",
       options: ["would be", "would have been", "is"],
       correctAnswer: "would be",
       explanation: "Past failure affecting current air quality.",
@@ -107,7 +107,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Mixed Conditionals: Past to Present",
       instructions: "Choose the correct verb form.",
-      question: "I ___ (know) how to use this app if I had read the manual.",
+      question: "[[I ___ (know) how to use this app if I had read the manual.|Sabría cómo usar esta aplicación si hubiera leído el manual.]]",
       options: ["would know", "would have known", "know"],
       correctAnswer: "would know",
       explanation: "Past inaction (not reading) affecting current knowledge.",
@@ -126,7 +126,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Mixed Conditionals: Past to Present",
       instructions: "Choose the correct verb form.",
-      question: "If they had invested in solar, they ___ (save) money now.",
+      question: "[[If they had invested in solar, they ___ (save) money now.|Si hubieran invertido en energía solar, ahorrarían dinero ahora.]]",
       options: ["would save", "would have saved", "save"],
       correctAnswer: "would save",
       explanation: "Past investment affecting current savings.",
@@ -145,7 +145,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Mixed Conditionals: Past to Present",
       instructions: "Choose the correct verb form.",
-      question: "We ___ (be) lost if we hadn't brought a map.",
+      question: "[[We ___ (be) lost if we hadn't brought a map.|Estaríamos perdidos si no hubiéramos traído un mapa.]]",
       options: ["would be", "would have been", "are"],
       correctAnswer: "would be",
       explanation: "Past action (bringing a map) preventing a current problem (being lost).",
@@ -164,7 +164,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Mixed Conditionals: Past to Present",
       instructions: "Choose the correct verb form.",
-      question: "If he had been more careful, he ___ (not/be) in hospital today.",
+      question: "[[If he had been more careful, he ___ (not/be) in hospital today.|Si hubiera tenido más cuidado, no estaría en el hospital hoy.]]",
       options: ["wouldn't be", "wouldn't have been", "isn't"],
       correctAnswer: "wouldn't be",
       explanation: "Past behavior affecting current situation.",
@@ -183,7 +183,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Mixed Conditionals: Past to Present",
       instructions: "Choose the correct verb form.",
-      question: "If I had finished my work, I ___ (go) out tonight.",
+      question: "[[If I had finished my work, I ___ (go) out tonight.|Si hubiera terminado mi trabajo, saldría esta noche.]]",
       options: ["would go", "would have gone", "will go"],
       correctAnswer: "would go",
       explanation: "Past completion (hypothetical) affecting a near future/present possibility.",
@@ -204,7 +204,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Mixed Conditionals: Present to Past",
       instructions: "Fill in the correct form of the verb for a present state affecting a past result.",
-      question: "If I ___ (be) braver, I would have spoken to him yesterday.",
+      question: "[[If I ___ (be) braver, I would have spoken to him yesterday.|Si fuera más valiente, habría hablado con él ayer.]]",
       correctAnswer: "were",
       explanation: "Use 'if + past simple' for a general/present hypothetical state and 'would have + past participle' for the past result.",
       translation: "Si fuera más valiente, habría hablado con él ayer.",
@@ -222,7 +222,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Mixed Conditionals: Present to Past",
       instructions: "Fill in the correct form of the verb.",
-      question: "If she ___ (speak) French, she would have got the job in Paris.",
+      question: "[[If she ___ (speak) French, she would have got the job in Paris.|Si hablara francés, habría conseguido el trabajo en París.]]",
       correctAnswer: "spoke",
       explanation: "General ability (not speaking French) affected a past outcome.",
       translation: "Si hablara francés, habría conseguido el trabajo en París.",
@@ -240,7 +240,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Mixed Conditionals: Present to Past",
       instructions: "Fill in the correct form of the verb.",
-      question: "If we ___ (be) richer, we would have bought that house.",
+      question: "[[If we ___ (be) richer, we would have bought that house.|Si fuéramos más ricos, habríamos comprado esa casa.]]",
       correctAnswer: "were",
       explanation: "Hypothetical present state (wealth) and its past result.",
       translation: "Si fuéramos más ricos, habríamos comprado esa casa.",
@@ -258,7 +258,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Mixed Conditionals: Present to Past",
       instructions: "Fill in the correct form of the verb.",
-      question: "I would have called you if I ___ (not/be) so busy these days.",
+      question: "[[I would have called you if I ___ (not/be) so busy these days.|Te habría llamado si no estuviera tan ocupado estos días.]]",
       correctAnswer: "weren't",
       explanation: "Present situation (being busy) prevented a past action (calling).",
       translation: "Te habría llamado si no estuviera tan ocupado estos días.",
@@ -276,7 +276,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Mixed Conditionals: Present to Past",
       instructions: "Fill in the correct form of the verb.",
-      question: "If he ___ (not/be) so lazy, he would have finished the project.",
+      question: "[[If he ___ (not/be) so lazy, he would have finished the project.|Si no fuera tan vago, habría terminado el proyecto.]]",
       correctAnswer: "weren't",
       explanation: "General character trait affecting past performance.",
       translation: "Si no fuera tan vago, habría terminado el proyecto.",
@@ -294,7 +294,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Mixed Conditionals: Present to Past",
       instructions: "Fill in the correct form of the verb.",
-      question: "If they ___ (have) more time, they would have visited us.",
+      question: "[[If they ___ (have) more time, they would have visited us.|Si tuvieran más tiempo, nos habrían visitado.]]",
       correctAnswer: "had",
       explanation: "Hypothetical present possession (time) and past result.",
       translation: "Si tuvieran más tiempo, nos habrían visitado.",
@@ -312,7 +312,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Mixed Conditionals: Present to Past",
       instructions: "Fill in the correct form of the verb.",
-      question: "We would have gone to the beach if the weather ___ (be) better lately.",
+      question: "[[We would have gone to the beach if the weather ___ (be) better lately.|Habríamos ido a la playa si el tiempo hubiera sido mejor últimamente.]]",
       correctAnswer: "were",
       explanation: "The state of the weather lately affecting a past decision.",
       translation: "Habríamos ido a la playa si el tiempo hubiera sido mejor últimamente.",
@@ -330,7 +330,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Mixed Conditionals: Present to Past",
       instructions: "Fill in the correct form of the verb.",
-      question: "If I ___ (know) the answer, I would have told you.",
+      question: "[[If I ___ (know) the answer, I would have told you.|Si supiera la respuesta, te la habría dicho.]]",
       correctAnswer: "knew",
       explanation: "Hypothetical present knowledge and its past result.",
       translation: "Si supiera la respuesta, te la habría dicho.",
@@ -348,7 +348,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Mixed Conditionals: Present to Past",
       instructions: "Fill in the correct form of the verb.",
-      question: "If she ___ (be) taller, she would have played basketball.",
+      question: "[[If she ___ (be) taller, she would have played basketball.|Si fuera más alta, habría jugado al baloncesto.]]",
       correctAnswer: "were",
       explanation: "Permanent physical state affecting past opportunity.",
       translation: "Si fuera más alta, habría jugado al baloncesto.",
@@ -366,7 +366,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Mixed Conditionals: Present to Past",
       instructions: "Fill in the correct form of the verb.",
-      question: "If we ___ (live) in the city, we would have gone to the theater.",
+      question: "[[If we ___ (live) in the city, we would have gone to the theater.|Si viviéramos en la ciudad, habríamos ido al teatro.]]",
       correctAnswer: "lived",
       explanation: "Present living situation affecting a past event.",
       translation: "Si viviéramos en la ciudad, habríamos ido al teatro.",
@@ -386,7 +386,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Environmental Crisis",
       instructions: "Fill in the blank.",
-      question: "The ___ (depletion) of natural resources is a major concern.",
+      question: "[[The ___ (depletion) of natural resources is a major concern.|El agotamiento de los recursos naturales es una gran preocupación.]]",
       correctAnswer: "depletion",
       explanation: "Depletion means reduction in the number or quantity of something.",
       translation: "El agotamiento de los recursos naturales es una gran preocupación.",
@@ -404,7 +404,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Environmental Crisis",
       instructions: "Fill in the blank.",
-      question: "___ (Overfishing) is destroying marine ecosystems.",
+      question: "[[___ (Overfishing) is destroying marine ecosystems.|La sobrepesca está destruyendo los ecosistemas marinos.]]",
       correctAnswer: "Overfishing",
       explanation: "Overfishing is catching too many fish, so that there are not enough to maintain the population.",
       translation: "La sobrepesca está destruyendo los ecosistemas marinos.",
@@ -422,7 +422,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Environmental Crisis",
       instructions: "Fill in the blank.",
-      question: "The ___ (scarcity) of water is affecting millions.",
+      question: "[[The ___ (scarcity) of water is affecting millions.|La escasez de agua está afectando a millones.]]",
       correctAnswer: "scarcity",
       explanation: "Scarcity is the state of being scarce or in short supply.",
       translation: "La escasez de agua está afectando a millones.",
@@ -440,7 +440,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Environmental Crisis",
       instructions: "Fill in the blank.",
-      question: "___ (Deforestation) leads to habitat loss.",
+      question: "[[___ (Deforestation) leads to habitat loss.|La deforestación conlleva la pérdida de hábitat.]]",
       correctAnswer: "Deforestation",
       explanation: "Deforestation is the removal of a forest or stand of trees.",
       translation: "La deforestación conlleva la pérdida de hábitat.",
@@ -458,7 +458,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Environmental Crisis",
       instructions: "Fill in the blank.",
-      question: "We need to reduce our ___ (dependence) on fossil fuels.",
+      question: "[[We need to reduce our ___ (dependence) on fossil fuels.|Necesitamos reducir nuestra dependencia de los combustibles fósiles.]]",
       correctAnswer: "dependence",
       explanation: "Dependence is the state of relying on or being controlled by someone or something else.",
       translation: "Necesitamos reducir nuestra dependencia de los combustibles fósiles.",
@@ -476,7 +476,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Environmental Crisis",
       instructions: "Fill in the blank.",
-      question: "The ___ (contamination) of the soil is a serious problem.",
+      question: "[[The ___ (contamination) of the soil is a serious problem.|La contaminación del suelo es un problema grave.]]",
       correctAnswer: "contamination",
       explanation: "Contamination is the action or state of making or being made impure by polluting.",
       translation: "La contaminación del suelo es un problema grave.",
@@ -494,7 +494,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Environmental Crisis",
       instructions: "Fill in the blank.",
-      question: "___ (Desertification) is turning fertile land into desert.",
+      question: "[[___ (Desertification) is turning fertile land into desert.|La desertificación está convirtiendo la tierra fértil en desierto.]]",
       correctAnswer: "Desertification",
       explanation: "Desertification is the process by which fertile land becomes desert.",
       translation: "La desertificación está convirtiendo la tierra fértil en desierto.",
@@ -512,7 +512,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Environmental Crisis",
       instructions: "Fill in the blank.",
-      question: "The ___ (extinction) of species is accelerating.",
+      question: "[[The ___ (extinction) of species is accelerating.|La extinción de las especies se está acelerando.]]",
       correctAnswer: "extinction",
       explanation: "Extinction is the state or process of a species, family, or larger group being or becoming extinct.",
       translation: "La extinción de las especies se está acelerando.",
@@ -530,7 +530,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Environmental Crisis",
       instructions: "Fill in the blank.",
-      question: "___ (Pollution) levels are rising in the oceans.",
+      question: "[[___ (Pollution) levels are rising in the oceans.|Los niveles de contaminación están aumentando en los océanos.]]",
       correctAnswer: "Pollution",
       explanation: "Pollution is the presence in or introduction into the environment of a substance or thing that has harmful or poisonous effects.",
       translation: "Los niveles de contaminación están aumentando en los océanos.",
@@ -548,7 +548,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Environmental Crisis",
       instructions: "Fill in the blank.",
-      question: "The ___ (imbalance) in the ecosystem is dangerous.",
+      question: "[[The ___ (imbalance) in the ecosystem is dangerous.|El desequilibrio en el ecosistema es peligroso.]]",
       correctAnswer: "imbalance",
       explanation: "Imbalance is lack of proportion or relation between corresponding things.",
       translation: "El desequilibrio en el ecosistema es peligroso.",
@@ -568,7 +568,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Ecological Solutions",
       instructions: "Choose the correct verb.",
-      question: "We need to ___ the natural habitat.",
+      question: "[[We need to ___ the natural habitat.|Necesitamos restaurar el hábitat natural.]]",
       options: ["restore", "make", "fix"],
       correctAnswer: "restore",
       explanation: "To restore means to bring back to a former condition.",
@@ -587,7 +587,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Ecological Solutions",
       instructions: "Choose the correct term.",
-      question: "___ is key to capturing carbon.",
+      question: "[[___ is key to capturing carbon.|La reforestación es clave para capturar carbono.]]",
       options: ["Reforestation", "Gardening", "Planting"],
       correctAnswer: "Reforestation",
       explanation: "Reforestation is the action of renewing forest cover by planting seeds or young trees.",
@@ -606,7 +606,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Ecological Solutions",
       instructions: "Choose the correct term.",
-      question: "The ___ to renewable energy is essential.",
+      question: "[[The ___ to renewable energy is essential.|La transición a las energías renovables es esencial.]]",
       options: ["transition", "move", "shift"],
       correctAnswer: "transition",
       explanation: "Transition is the process or a period of changing from one state or condition to another.",
@@ -625,7 +625,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Ecological Solutions",
       instructions: "Choose the correct verb.",
-      question: "We must ___ water during the drought.",
+      question: "[[We must ___ water during the drought.|Debemos conservar el agua durante la sequía.]]",
       options: ["conserve", "save", "hold"],
       correctAnswer: "conserve",
       explanation: "To conserve means to protect from harm or destruction.",
@@ -644,7 +644,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Ecological Solutions",
       instructions: "Choose the correct term.",
-      question: "___ should be at the heart of policy.",
+      question: "[[___ should be at the heart of policy.|La sostenibilidad debe estar en el centro de la política.]]",
       options: ["Sustainability", "Strength", "Power"],
       correctAnswer: "Sustainability",
       explanation: "Sustainability is the ability to be maintained at a certain rate or level.",
@@ -663,7 +663,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Ecological Solutions",
       instructions: "Choose the correct verb.",
-      question: "We need to ___ the effects of climate change.",
+      question: "[[We need to ___ the effects of climate change.|Necesitamos mitigar los efectos del cambio climático.]]",
       options: ["mitigate", "lessen", "stop"],
       correctAnswer: "mitigate",
       explanation: "To mitigate means to make less severe, serious, or painful.",
@@ -682,7 +682,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Ecological Solutions",
       instructions: "Choose the correct term.",
-      question: "___ of the rainforest is vital.",
+      question: "[[___ of the rainforest is vital.|La preservación de la selva tropical es vital.]]",
       options: ["Preservation", "Saving", "Keeping"],
       correctAnswer: "Preservation",
       explanation: "Preservation is the action of preserving something.",
@@ -701,7 +701,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Ecological Solutions",
       instructions: "Choose the correct verb.",
-      question: "We should ___ eco-friendly tourism.",
+      question: "[[We should ___ eco-friendly tourism.|Deberíamos promover el turismo ecológico.]]",
       options: ["promote", "show", "make"],
       correctAnswer: "promote",
       explanation: "To promote means to further the progress of something.",
@@ -720,7 +720,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Ecological Solutions",
       instructions: "Choose the correct term.",
-      question: "___ energy sources are becoming cheaper.",
+      question: "[[___ energy sources are becoming cheaper.|Las fuentes de energía alternativas son cada vez más baratas.]]",
       options: ["Alternative", "New", "Other"],
       correctAnswer: "Alternative",
       explanation: "Alternative energy is energy fueled in ways that do not use up natural resources or harm the environment.",
@@ -739,7 +739,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Ecological Solutions",
       instructions: "Choose the correct term.",
-      question: "The ___ of endangered species is a priority.",
+      question: "[[The ___ of endangered species is a priority.|La protección de las especies en peligro es una prioridad.]]",
       options: ["protection", "safety", "guard"],
       correctAnswer: "protection",
       explanation: "Protection is the action of protecting someone or something.",
@@ -760,7 +760,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (DESTRUCT) of the reefs is tragic.",
+      question: "[[The ___ (DESTRUCT) of the reefs is tragic.|La destrucción de los arrecifes es trágica.]]",
       correctAnswer: "destruction",
       explanation: "Noun form of 'destruct/destroy'.",
       translation: "La destrucción de los arrecifes es trágica.",
@@ -778,7 +778,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "We need to improve our ___ (EFFICIENT) in water use.",
+      question: "[[We need to improve our ___ (EFFICIENT) in water use.|Necesitamos mejorar nuestra eficiencia en el uso del agua.]]",
       correctAnswer: "efficiency",
       explanation: "Noun form of 'efficient'.",
       translation: "Necesitamos mejorar nuestra eficiencia en el uso del agua.",
@@ -796,7 +796,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (STABLE) of the climate is at stake.",
+      question: "[[The ___ (STABLE) of the climate is at stake.|La estabilidad del clima está en juego.]]",
       correctAnswer: "stability",
       explanation: "Noun form of 'stable'.",
       translation: "La estabilidad del clima está en juego.",
@@ -814,7 +814,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "There is a lot of ___ (VULNERABLE) in coastal areas.",
+      question: "[[There is a lot of ___ (VULNERABLE) in coastal areas.|Hay mucha vulnerabilidad en las zonas costeras.]]",
       correctAnswer: "vulnerability",
       explanation: "Noun form of 'vulnerable'.",
       translation: "Hay mucha vulnerabilidad en las zonas costeras.",
@@ -832,7 +832,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "___ (AWARE) is the first step to change.",
+      question: "[[___ (AWARE) is the first step to change.|La conciencia es el primer paso para el cambio.]]",
       correctAnswer: "Awareness",
       explanation: "Noun form of 'aware'.",
       translation: "La conciencia es el primer paso para el cambio.",
@@ -850,7 +850,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (SURVIVE) of the species is in danger.",
+      question: "[[The ___ (SURVIVE) of the species is in danger.|La supervivencia de la especie está en peligro.]]",
       correctAnswer: "survival",
       explanation: "Noun form of 'survive'.",
       translation: "La supervivencia de la especie está en peligro.",
@@ -868,7 +868,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (BENEFIT) effects of trees are well-known.",
+      question: "[[The ___ (BENEFIT) effects of trees are well-known.|Los efectos beneficiosos de los árboles son bien conocidos.]]",
       correctAnswer: "beneficial",
       explanation: "Adjective form of 'benefit'.",
       translation: "Los efectos beneficiosos de los árboles son bien conocidos.",
@@ -886,7 +886,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (GROWTH) of the green sector is positive.",
+      question: "[[The ___ (GROWTH) of the green sector is positive.|El crecimiento del sector verde es positivo.]]",
       correctAnswer: "growth",
       explanation: "Noun form from 'grow' (GROWTH provided).",
       translation: "El crecimiento del sector verde es positivo.",
@@ -904,7 +904,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "We need an ___ (OBJECT) view on the data.",
+      question: "[[We need an ___ (OBJECT) view on the data.|Necesitamos una visión objetiva de los datos.]]",
       correctAnswer: "objective",
       explanation: "Adjective form of 'object'.",
       translation: "Necesitamos una visión objetiva de los datos.",
@@ -922,7 +922,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (SIGNIFICANT) of this discovery is huge.",
+      question: "[[The ___ (SIGNIFICANT) of this discovery is huge.|La importancia de este descubrimiento es enorme.]]",
       correctAnswer: "significance",
       explanation: "Noun form of 'significant'.",
       translation: "La importancia de este descubrimiento es enorme.",
