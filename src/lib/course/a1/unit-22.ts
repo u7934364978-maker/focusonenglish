@@ -1,5 +1,9 @@
 import { Exercise } from '@/lib/exercise-generator';
 
+/**
+ * Unit 22: Shopping
+ */
+
 export const UNIT_22_EXERCISES: Exercise[] = [
   {
     id: 'a1-u22-e1',
