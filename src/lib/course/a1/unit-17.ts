@@ -128,27 +128,6 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u17-e7',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Technology',
-    topicName: 'Tech Savvy',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Laptop',
-      instructions: 'Di la palabra para "ordenador portátil".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Laptop',
-          phonetic: '/ˈlæp.tɒp/',
-          translation: 'Portátil',
-          explanation: 'Viene de "lap" (regazo) y "top" (encima).'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u17-e8',
     type: 'matching',
     level: 'A1',
@@ -307,27 +286,6 @@ export const UNIT_17_EXERCISES: Exercise[] = [
           question: 'Enter your ________ here.',
           correctAnswer: 'password',
           explanation: 'Casi todos los servicios online requieren un "password".'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u17-e16',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Technology',
-    topicName: 'Tech Savvy',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Internet',
-      instructions: 'Di la palabra "internet".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Internet',
-          phonetic: '/ˈɪn.tə.net/',
-          translation: 'Internet',
-          explanation: 'La primera sílaba es la más fuerte: "IN-ter-net".'
         }
       ]
     } as any
@@ -496,27 +454,6 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u17-e25',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Technology',
-    topicName: 'Tech Savvy',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Password',
-      instructions: 'Di la palabra para "contraseña".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Password',
-          phonetic: '/ˈpɑːs.wɜːd/',
-          translation: 'Contraseña',
-          explanation: 'Asegúrate de pronunciar la "w" claramente.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u17-e26',
     type: 'matching',
     level: 'A1',
@@ -680,27 +617,6 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u17-e34',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Technology',
-    topicName: 'Tech Savvy',
-    difficulty: 'hard',
-    content: {
-      title: 'Pronunciación: Keyboard',
-      instructions: 'Di la palabra para "teclado".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Keyboard',
-          phonetic: '/ˈkiː.bɔːd/',
-          translation: 'Teclado',
-          explanation: '"Key" (tecla/llave) + "board" (tabla).'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u17-e35',
     type: 'matching',
     level: 'A1',
@@ -859,27 +775,6 @@ export const UNIT_17_EXERCISES: Exercise[] = [
           question: 'I want to ________ a video.',
           correctAnswer: 'watch',
           explanation: 'Usamos "watch" para vídeos, películas o TV.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u17-e43',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Technology',
-    topicName: 'Tech Savvy',
-    difficulty: 'hard',
-    content: {
-      title: 'Pronunciación: Message',
-      instructions: 'Di la palabra para "mensaje".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Message',
-          phonetic: '/ˈmes.ɪdʒ/',
-          translation: 'Mensaje',
-          explanation: 'La "g" suena como una "j" suave inglesa.'
         }
       ]
     } as any
