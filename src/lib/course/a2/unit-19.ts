@@ -91,11 +91,11 @@ export const UNIT_19_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] ([[wear|wear]]) _______ [[a|un/una]] [[blue|blue]] [[shirt|shirt]] [[today|hoy]].",
           "options": [
-            "[[am wearing|am wearing]]",
-            "[[to|a]]",
-            "[[it|lo]]"
+            "[[it|eso]]",
+            "[[to|a/para]]",
+            "[[am wearing|am wearing]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -117,11 +117,11 @@ export const UNIT_19_EXERCISES: Exercise[] = [
         {
           "question": "[[She|Ella]] ([[buy|comprar]]) _______ [[a|un/una]] [[new|nuevo]] [[pair|pair]] [[of|de]] [[jeans|jeans]].",
           "options": [
-            "[[it|lo]]",
-            "[[to|a]]",
-            "[[bought|bought]]"
+            "[[to|a/para]]",
+            "[[bought|bought]]",
+            "[[it|eso]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -141,13 +141,13 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] ([[not/be|not/be]]) _______ [[very|muy]] [[fashionable|fashionable]].",
+          "question": "[[They|Ellos]] ([[not/be|no ser/estar]]) _______ [[very|muy]] [[fashionable|fashionable]].",
           "options": [
-            "[[to|a]]",
-            "[[it|lo]]",
-            "[[are not|are not]]"
+            "[[it|eso]]",
+            "[[are not|no son/están]]",
+            "[[to|a/para]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -167,13 +167,13 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[What|Qué]] _______ [[you|tú/usted/vosotros]] [[wearing|wearing]] [[for|para/por]] [[the|el/la/los/las]] [[party|party]]?",
+          "question": "[[What|Qué]] _______ [[you|tú/usted]] [[wearing|wearing]] [[for|para/por]] [[the|el/la/los/las]] [[party|party]]?",
           "options": [
-            "[[it|lo]]",
-            "[[to|a]]",
-            "[[are|are]]"
+            "[[are|son/están]]",
+            "[[to|a/para]]",
+            "[[it|eso]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -195,11 +195,11 @@ export const UNIT_19_EXERCISES: Exercise[] = [
         {
           "question": "[[This|Este/esta]] [[sweater|sweater]] [[is|es/está]] _______ ([[soft|soft]]) [[than|que (comparativo)]] [[that|ese/esa/aquel]] [[one|uno]].",
           "options": [
-            "[[it|lo]]",
             "[[softer|softer]]",
-            "[[to|a]]"
+            "[[to|a/para]]",
+            "[[it|eso]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -221,11 +221,11 @@ export const UNIT_19_EXERCISES: Exercise[] = [
         {
           "question": "[[He|Él]] ([[be|ser/estar]]) _______ [[looking|looking]] [[for|para/por]] [[a|un/una]] [[leather|leather]] [[belt|belt]].",
           "options": [
-            "[[is|is]]",
-            "[[it|lo]]",
-            "[[to|a]]"
+            "[[it|eso]]",
+            "[[is|es/está]]",
+            "[[to|a/para]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -247,9 +247,9 @@ export const UNIT_19_EXERCISES: Exercise[] = [
         {
           "question": "[[Does|Hace]] [[she|ella]] _______ ([[like|gustar/como]]) [[wearing|wearing]] [[dresses|dresses]]?",
           "options": [
-            "[[it|lo]]",
-            "[[to|a]]",
-            "[[like|like]]"
+            "[[to|a/para]]",
+            "[[it|eso]]",
+            "[[like|gustar/como]]"
           ],
           "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
@@ -273,11 +273,11 @@ export const UNIT_19_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] ([[need|necesitar]]) _______ [[to|a/para]] [[buy|comprar]] [[some|some]] [[cotton|cotton]] [[socks|socks]].",
           "options": [
-            "[[need|need]]",
-            "[[to|a]]",
-            "[[it|lo]]"
+            "[[to|a/para]]",
+            "[[need|necesitar]]",
+            "[[it|eso]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -299,9 +299,9 @@ export const UNIT_19_EXERCISES: Exercise[] = [
         {
           "question": "[[They|Ellos]] ([[be|ser/estar]]) _______ [[very|muy]] [[expensive|caro]] [[shoes|shoes]].",
           "options": [
-            "[[are|are]]",
-            "[[to|a]]",
-            "[[it|lo]]"
+            "[[are|son/están]]",
+            "[[to|a/para]]",
+            "[[it|eso]]"
           ],
           "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
@@ -323,13 +323,13 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[It|Esto/eso]] ([[be|ser/estar]]) _______ [[made|made]] [[of|de]] [[silk|silk]].",
+          "question": "[[It|Eso]] ([[be|ser/estar]]) _______ [[made|made]] [[of|de]] [[silk|silk]].",
           "options": [
-            "[[is|is]]",
-            "[[to|a]]",
-            "[[it|lo]]"
+            "[[to|a/para]]",
+            "[[is|es/está]]",
+            "[[it|eso]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -351,11 +351,11 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "words": [
         "[[She|Ella]]",
         "[[is|es/está]]",
-        "[[red|red]]",
-        "[[a|un/una]]",
-        "[[dress|dress]].",
         "[[wearing|wearing]]",
-        "[[beautiful|hermoso/a]]"
+        "[[a|un/una]]",
+        "[[beautiful|hermoso/a]]",
+        "[[dress|dress]].",
+        "[[red|red]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -374,14 +374,14 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[need|necesitar]] [[a|un/una]] [[new|nuevo]] [[coat|coat]] [[for|para/por]] [[the|el/la/los/las]] [[winter|winter]].",
       "words": [
-        "[[new|nuevo]]",
         "[[I|Yo]]",
-        "[[need|necesitar]]",
-        "[[a|un/una]]",
+        "[[new|nuevo]]",
+        "[[for|para/por]]",
         "[[winter|winter]].",
-        "[[coat|coat]]",
         "[[the|el/la/los/las]]",
-        "[[for|para/por]]"
+        "[[need|necesitar]]",
+        "[[coat|coat]]",
+        "[[a|un/una]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -398,14 +398,14 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[These|Estos/estas]] [[shoes|shoes]] [[are|somos/estamos/son/están]] [[made|made]] [[of|de]] [[leather|leather]].",
+      "correctSentence": "[[These|Estos/estas]] [[shoes|shoes]] [[are|son/están]] [[made|made]] [[of|de]] [[leather|leather]].",
       "words": [
         "[[These|Estos/estas]]",
         "[[shoes|shoes]]",
-        "[[are|somos/estamos/son/están]]",
-        "[[leather|leather]].",
         "[[of|de]]",
-        "[[made|made]]"
+        "[[are|son/están]]",
+        "[[made|made]]",
+        "[[leather|leather]]."
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -424,13 +424,13 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[He|Él]] [[always|siempre]] [[wears|wears]] [[a|un/una]] [[tie|tie]] [[at|en]] [[work|trabajo/trabajar]].",
       "words": [
-        "[[a|un/una]]",
-        "[[He|Él]]",
+        "[[tie|tie]]",
         "[[always|siempre]]",
-        "[[work|trabajo/trabajar]].",
-        "[[at|en]]",
+        "[[He|Él]]",
         "[[wears|wears]]",
-        "[[tie|tie]]"
+        "[[work|trabajo/trabajar]].",
+        "[[a|un/una]]",
+        "[[at|en]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -451,10 +451,10 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "words": [
         "[[This|Este/esta]]",
         "[[cotton|cotton]]",
-        "[[comfortable|comfortable]].",
         "[[T-shirt|T-shirt]]",
+        "[[very|muy]]",
         "[[is|es/está]]",
-        "[[very|muy]]"
+        "[[comfortable|comfortable]]."
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -474,10 +474,10 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "correctSentence": "[[I|Yo]] [[love|love]] [[your|tu/tus]] [[new|nuevo]] [[boots|boots]]!",
       "words": [
         "[[new|nuevo]]",
-        "[[your|tu/tus]]",
+        "[[I|Yo]]",
         "[[boots|boots]]!",
         "[[love|love]]",
-        "[[I|Yo]]"
+        "[[your|tu/tus]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -496,10 +496,10 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Is|Es/está]] [[that|ese/esa/aquel]] [[sweater|sweater]] [[made|made]] [[of|de]] [[wool|wool]]?",
       "words": [
-        "[[sweater|sweater]]",
-        "[[Is|Es/está]]",
-        "[[wool|wool]]?",
         "[[that|ese/esa/aquel]]",
+        "[[Is|Es/está]]",
+        "[[sweater|sweater]]",
+        "[[wool|wool]]?",
         "[[of|de]]",
         "[[made|made]]"
       ],
@@ -521,11 +521,11 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "correctSentence": "[[She|Ella]] [[bought|bought]] [[a|un/una]] [[silk|silk]] [[scarf|scarf]] [[yesterday|ayer]].",
       "words": [
         "[[silk|silk]]",
-        "[[yesterday|ayer]].",
-        "[[a|un/una]]",
         "[[bought|bought]]",
+        "[[She|Ella]]",
         "[[scarf|scarf]]",
-        "[[She|Ella]]"
+        "[[yesterday|ayer]].",
+        "[[a|un/una]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -542,13 +542,13 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Fashionable|Fashionable]] [[clothes|clothes]] [[are|somos/estamos/son/están]] [[often|a menudo]] [[expensive|caro]].",
+      "correctSentence": "[[Fashionable|Fashionable]] [[clothes|clothes]] [[are|son/están]] [[often|a menudo]] [[expensive|caro]].",
       "words": [
-        "[[often|a menudo]]",
         "[[Fashionable|Fashionable]]",
+        "[[often|a menudo]]",
         "[[expensive|caro]].",
         "[[clothes|clothes]]",
-        "[[are|somos/estamos/son/están]]"
+        "[[are|son/están]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -567,12 +567,12 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I'm|I'm]] [[looking|looking]] [[for|para/por]] [[some|some]] [[blue|blue]] [[socks|socks]].",
       "words": [
-        "[[I'm|I'm]]",
+        "[[for|para/por]]",
         "[[looking|looking]]",
         "[[socks|socks]].",
         "[[some|some]]",
         "[[blue|blue]]",
-        "[[for|para/por]]"
+        "[[I'm|I'm]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -591,13 +591,13 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[He|Él]] [[wears|wears]] [[a|un/una]] [[suit|suit]] [[for|para/por]] [[important|important]] [[meetings|meetings]].",
       "words": [
-        "[[He|Él]]",
-        "[[wears|wears]]",
-        "[[important|important]]",
-        "[[for|para/por]]",
+        "[[meetings|meetings]].",
         "[[a|un/una]]",
         "[[suit|suit]]",
-        "[[meetings|meetings]]."
+        "[[important|important]]",
+        "[[He|Él]]",
+        "[[for|para/por]]",
+        "[[wears|wears]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -616,11 +616,11 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[dress|dress]] [[fits|fits]] [[her|su (de ella)]] [[perfectly|perfectly]].",
       "words": [
-        "[[dress|dress]]",
         "[[The|El/la/los/las]]",
-        "[[perfectly|perfectly]].",
+        "[[dress|dress]]",
+        "[[fits|fits]]",
         "[[her|su (de ella)]]",
-        "[[fits|fits]]"
+        "[[perfectly|perfectly]]."
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -639,13 +639,13 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[prefer|prefer]] [[casual|casual]] [[clothes|clothes]] [[to|a/para]] [[formal|formal]] [[ones|ones]].",
       "words": [
-        "[[formal|formal]]",
-        "[[to|a/para]]",
-        "[[clothes|clothes]]",
+        "[[ones|ones]].",
         "[[casual|casual]]",
-        "[[prefer|prefer]]",
+        "[[clothes|clothes]]",
         "[[I|Yo]]",
-        "[[ones|ones]]."
+        "[[to|a/para]]",
+        "[[prefer|prefer]]",
+        "[[formal|formal]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -664,12 +664,12 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Don't|No]] [[forget|forget]] [[your|tu/tus]] [[hat|hat]] [[and|and]] [[gloves|gloves]]!",
       "words": [
+        "[[hat|hat]]",
         "[[your|tu/tus]]",
-        "[[Don't|No]]",
-        "[[forget|forget]]",
         "[[and|and]]",
+        "[[forget|forget]]",
         "[[gloves|gloves]]!",
-        "[[hat|hat]]"
+        "[[Don't|No]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -688,11 +688,11 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[This|Este/esta]] [[material|material]] [[is|es/está]] [[very|muy]] [[soft|soft]].",
       "words": [
-        "[[is|es/está]]",
         "[[very|muy]]",
-        "[[This|Este/esta]]",
+        "[[is|es/está]]",
+        "[[material|material]]",
         "[[soft|soft]].",
-        "[[material|material]]"
+        "[[This|Este/esta]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },

@@ -67,11 +67,11 @@ export const UNIT_17_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] ([[comer|comer]]) _______ [[cereal|cereal]] [[for|para/por]] [[breakfast|breakfast]].",
           "options": [
-            "[[is|es]]",
-            "[[eat|eat]]",
-            "[[are|están]]"
+            "[[eat|comer]]",
+            "[[is|es/está]]",
+            "[[are|son/están]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -93,11 +93,11 @@ export const UNIT_17_EXERCISES: Exercise[] = [
         {
           "question": "[[She|Ella]] ([[no|no]] [[-|-]] [[gustar|gustar]]) _______ [[fish|pescado]].",
           "options": [
-            "[[doesn't like|doesn't like]]",
-            "[[is|es]]",
-            "[[are|están]]"
+            "[[is|es/está]]",
+            "[[are|son/están]]",
+            "[[doesn't like|doesn't like]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -119,11 +119,11 @@ export const UNIT_17_EXERCISES: Exercise[] = [
         {
           "question": "[[We|Nosotros]] ([[tener|tener]]) _______ [[chicken|pollo]] [[for|para/por]] [[dinner|dinner]].",
           "options": [
-            "[[have|have]]",
-            "[[is|es]]",
-            "[[are|están]]"
+            "[[is|es/está]]",
+            "[[have|tener/haber]]",
+            "[[are|son/están]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -145,9 +145,9 @@ export const UNIT_17_EXERCISES: Exercise[] = [
         {
           "question": "[[They|Ellos]] ([[beber|beber]]) _______ [[water|agua]] [[with|con]] [[lunch|lunch]].",
           "options": [
-            "[[drink|drink]]",
-            "[[is|es]]",
-            "[[are|están]]"
+            "[[drink|beber]]",
+            "[[is|es/está]]",
+            "[[are|son/están]]"
           ],
           "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
@@ -169,12 +169,12 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Breakfast|Breakfast]] [[is|es/está]] [[the|el/la/los/las]] [[most|most]] [[important|important]] [[meal|meal]].",
       "words": [
-        "[[most|most]]",
         "[[meal|meal]].",
         "[[is|es/está]]",
         "[[Breakfast|Breakfast]]",
+        "[[the|el/la/los/las]]",
         "[[important|important]]",
-        "[[the|el/la/los/las]]"
+        "[[most|most]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -193,12 +193,12 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[usually|usually]] [[have|tener/haber]] [[a|un/una]] [[sandwich|sandwich]] [[for|para/por]] [[lunch|lunch]].",
       "words": [
-        "[[I|Yo]]",
-        "[[for|para/por]]",
-        "[[usually|usually]]",
         "[[a|un/una]]",
-        "[[sandwich|sandwich]]",
+        "[[for|para/por]]",
         "[[have|tener/haber]]",
+        "[[usually|usually]]",
+        "[[sandwich|sandwich]]",
+        "[[I|Yo]]",
         "[[lunch|lunch]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
@@ -219,11 +219,11 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "correctSentence": "[[They|Ellos]] [[eat|comer]] [[dinner|dinner]] [[at|en]] [[8|8]] [[o'clock|o'clock]].",
       "words": [
         "[[8|8]]",
-        "[[They|Ellos]]",
-        "[[eat|comer]]",
-        "[[o'clock|o'clock]].",
+        "[[at|en]]",
         "[[dinner|dinner]]",
-        "[[at|en]]"
+        "[[o'clock|o'clock]].",
+        "[[eat|comer]]",
+        "[[They|Ellos]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -242,9 +242,9 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[He|Él]] [[likes|likes]] [[eggs|eggs]] [[and|and]] [[toast|toast]].",
       "words": [
+        "[[toast|toast]].",
         "[[and|and]]",
         "[[eggs|eggs]]",
-        "[[toast|toast]].",
         "[[likes|likes]]",
         "[[He|Él]]"
       ],
@@ -265,12 +265,12 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[We|Nosotros]] [[eat|comer]] [[a|un/una]] [[lot|lot]] [[of|de]] [[fruit|fruta]].",
       "words": [
-        "[[fruit|fruta]].",
         "[[of|de]]",
-        "[[lot|lot]]",
-        "[[a|un/una]]",
+        "[[We|Nosotros]]",
+        "[[fruit|fruta]].",
         "[[eat|comer]]",
-        "[[We|Nosotros]]"
+        "[[a|un/una]]",
+        "[[lot|lot]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

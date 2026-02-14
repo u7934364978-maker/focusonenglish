@@ -13,7 +13,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Aprende las palabras más importantes de la unidad.",
       "items": [
         {
-          "front": "[[Head|Cabeza]]",
+          "front": "[[Head|Ser/estar]]",
           "back": "Cabeza"
         },
         {
@@ -71,9 +71,9 @@ export const UNIT_28_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] [[have|tener/haber]] ([[dos|dos]]) _______ [[eyes|eyes]].",
           "options": [
-            "[[two|two]]",
-            "[[is|es]]",
-            "[[are|están]]"
+            "[[two|dos]]",
+            "[[is|es/está]]",
+            "[[are|son/están]]"
           ],
           "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
@@ -97,9 +97,9 @@ export const UNIT_28_EXERCISES: Exercise[] = [
         {
           "question": "[[He|Él]] [[has|tiene/ha]] [[a|un/una]] ([[grande|grande]]) _______ [[mouth|mouth]].",
           "options": [
-            "[[big|big]]",
-            "[[is|es]]",
-            "[[are|están]]"
+            "[[big|grande]]",
+            "[[is|es/está]]",
+            "[[are|son/están]]"
           ],
           "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
@@ -121,13 +121,13 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[My|Mi/mis]] ([[piernas|piernas]]) _______ [[are|somos/estamos/son/están]] [[tired|cansado]].",
+          "question": "[[My|Mi/mis]] ([[piernas|piernas]]) _______ [[are|son/están]] [[tired|cansado]].",
           "options": [
-            "[[are|están]]",
-            "[[is|es]]",
-            "[[legs|legs]]"
+            "[[legs|legs]]",
+            "[[is|es/está]]",
+            "[[are|son/están]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -149,9 +149,9 @@ export const UNIT_28_EXERCISES: Exercise[] = [
         {
           "question": "[[She|Ella]] [[has|tiene/ha]] ([[largo|largo]]) _______ [[hair|hair]].",
           "options": [
-            "[[long|long]]",
-            "[[is|es]]",
-            "[[are|están]]"
+            "[[long|largo]]",
+            "[[is|es/está]]",
+            "[[are|son/están]]"
           ],
           "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
@@ -194,10 +194,10 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Open|Open]] [[your|tu/tus]] [[mouth|mouth]], [[please|por favor]].",
       "words": [
-        "[[please|por favor]].",
-        "[[your|tu/tus]]",
         "[[Open|Open]]",
-        "[[mouth|mouth]],"
+        "[[your|tu/tus]]",
+        "[[mouth|mouth]],",
+        "[[please|por favor]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -218,8 +218,8 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "words": [
         "[[He|Él]]",
         "[[has|tiene/ha]]",
-        "[[eyes|eyes]].",
-        "[[blue|blue]]"
+        "[[blue|blue]]",
+        "[[eyes|eyes]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -238,10 +238,10 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Her|Su (de ella)]] [[hair|hair]] [[is|es/está]] [[blonde|blonde]].",
       "words": [
-        "[[hair|hair]]",
         "[[is|es/está]]",
+        "[[blonde|blonde]].",
         "[[Her|Su (de ella)]]",
-        "[[blonde|blonde]]."
+        "[[hair|hair]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -258,12 +258,12 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My|Mi/mis]] [[ears|ears]] [[are|somos/estamos/son/están]] [[small|pequeño/pequeña]].",
+      "correctSentence": "[[My|Mi/mis]] [[ears|ears]] [[are|son/están]] [[small|pequeño/pequeña]].",
       "words": [
-        "[[My|Mi/mis]]",
         "[[ears|ears]]",
+        "[[My|Mi/mis]]",
         "[[small|pequeño/pequeña]].",
-        "[[are|somos/estamos/son/están]]"
+        "[[are|son/están]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

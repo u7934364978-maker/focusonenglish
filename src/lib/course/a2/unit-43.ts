@@ -111,11 +111,11 @@ export const UNIT_43_EXERCISES: Exercise[] = [
         {
           "question": "[[The|El/la/los/las]] [[doctor|médico/a]] ([[examine|examine]]) _______ [[the|el/la/los/las]] [[patient|paciente]].",
           "options": [
-            "[[to|a]]",
             "[[examined|examined]]",
-            "[[it|lo]]"
+            "[[to|a/para]]",
+            "[[it|eso]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -137,11 +137,11 @@ export const UNIT_43_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] ([[have|tener/haber]]) _______ [[an|un/una]] [[appointment|appointment]] [[at|en]] [[4|4]] [[PM|PM]].",
           "options": [
-            "[[have|have]]",
-            "[[to|a]]",
-            "[[it|lo]]"
+            "[[it|eso]]",
+            "[[to|a/para]]",
+            "[[have|tener/haber]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -163,11 +163,11 @@ export const UNIT_43_EXERCISES: Exercise[] = [
         {
           "question": "[[She|Ella]] ([[not/like|not/like]]) _______ [[going|going]] [[to|a/para]] [[the|el/la/los/las]] [[doctor|médico/a]].",
           "options": [
-            "[[doesn't like|doesn't like]]",
-            "[[to|a]]",
-            "[[it|lo]]"
+            "[[it|eso]]",
+            "[[to|a/para]]",
+            "[[doesn't like|doesn't like]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -189,11 +189,11 @@ export const UNIT_43_EXERCISES: Exercise[] = [
         {
           "question": "_______ [[I|Yo]] [[take|tomar/llevar]] [[this|este/esta]] [[medicine|medicine]] [[before|antes]] [[meals|meals]]?",
           "options": [
-            "[[it|lo]]",
-            "[[Should|Should]]",
-            "[[to|a]]"
+            "[[it|eso]]",
+            "[[to|a/para]]",
+            "[[Should|Should]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -215,9 +215,9 @@ export const UNIT_43_EXERCISES: Exercise[] = [
         {
           "question": "[[They|Ellos]] ([[be|ser/estar]]) _______ [[waiting|waiting]] [[in|en]] [[the|el/la/los/las]] [[surgery|surgery]].",
           "options": [
-            "[[are|are]]",
-            "[[to|a]]",
-            "[[it|lo]]"
+            "[[are|son/están]]",
+            "[[to|a/para]]",
+            "[[it|eso]]"
           ],
           "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
@@ -241,11 +241,11 @@ export const UNIT_43_EXERCISES: Exercise[] = [
         {
           "question": "[[He|Él]] ([[tell|tell]]) _______ [[me|me/mí]] [[to|a/para]] [[rest|rest]].",
           "options": [
-            "[[to|a]]",
-            "[[it|lo]]",
-            "[[told|told]]"
+            "[[told|told]]",
+            "[[to|a/para]]",
+            "[[it|eso]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -267,11 +267,11 @@ export const UNIT_43_EXERCISES: Exercise[] = [
         {
           "question": "[[We|Nosotros]] ([[need|necesitar]]) _______ [[a|un/una]] [[blood|blood]] [[test|test]].",
           "options": [
-            "[[need|need]]",
-            "[[to|a]]",
-            "[[it|lo]]"
+            "[[it|eso]]",
+            "[[need|necesitar]]",
+            "[[to|a/para]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -293,8 +293,8 @@ export const UNIT_43_EXERCISES: Exercise[] = [
         {
           "question": "[[The|El/la/los/las]] [[nurse|nurse]] ([[take|tomar/llevar]]) _______ [[my|mi/mis]] [[temperature|temperature]].",
           "options": [
-            "[[it|lo]]",
-            "[[to|a]]",
+            "[[it|eso]]",
+            "[[to|a/para]]",
             "[[took|took]]"
           ],
           "correctAnswer": 2,
@@ -317,13 +317,13 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[How|Cómo]] _______ [[I|Yo]] [[help|ayudar]] [[you|tú/usted/vosotros]] [[today|hoy]]?",
+          "question": "[[How|Cómo]] _______ [[I|Yo]] [[help|ayudar]] [[you|tú/usted]] [[today|hoy]]?",
           "options": [
-            "[[can|can]]",
-            "[[to|a]]",
-            "[[it|lo]]"
+            "[[to|a/para]]",
+            "[[can|poder]]",
+            "[[it|eso]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -343,13 +343,13 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[You|Tú/usted/vosotros]] ([[must/not|must/not]]) _______ [[drive|drive]] [[after|después]] [[taking|taking]] [[these|estos/estas]] [[pills|pills]].",
+          "question": "[[You|Tú/usted]] ([[must/not|must/not]]) _______ [[drive|drive]] [[after|después]] [[taking|taking]] [[these|estos/estas]] [[pills|pills]].",
           "options": [
+            "[[it|eso]]",
             "[[must not|must not]]",
-            "[[to|a]]",
-            "[[it|lo]]"
+            "[[to|a/para]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -370,15 +370,15 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "correctSentence": "[[I|Yo]] [[have|tener/haber]] [[an|un/una]] [[appointment|appointment]] [[with|con]] [[Dr|Dr]]. [[Smith|Smith]] [[at|en]] [[three|tres]] [[o'clock|o'clock]].",
       "words": [
         "[[Dr|Dr]].",
-        "[[o'clock|o'clock]].",
-        "[[at|en]]",
-        "[[with|con]]",
-        "[[appointment|appointment]]",
-        "[[three|tres]]",
         "[[an|un/una]]",
+        "[[three|tres]]",
+        "[[o'clock|o'clock]].",
+        "[[Smith|Smith]]",
         "[[have|tener/haber]]",
+        "[[appointment|appointment]]",
+        "[[with|con]]",
         "[[I|Yo]]",
-        "[[Smith|Smith]]"
+        "[[at|en]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -397,14 +397,14 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[doctor|médico/a]] [[is|es/está]] [[seeing|seeing]] [[a|un/una]] [[patient|paciente]] [[right|right]] [[now|ahora]].",
       "words": [
-        "[[now|ahora]].",
         "[[seeing|seeing]]",
-        "[[right|right]]",
-        "[[is|es/está]]",
         "[[doctor|médico/a]]",
-        "[[a|un/una]]",
         "[[patient|paciente]]",
-        "[[The|El/la/los/las]]"
+        "[[now|ahora]].",
+        "[[a|un/una]]",
+        "[[The|El/la/los/las]]",
+        "[[right|right]]",
+        "[[is|es/está]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -426,8 +426,8 @@ export const UNIT_43_EXERCISES: Exercise[] = [
         "[[Please|Por favor]]",
         "[[wait|wait]]",
         "[[room|habitación]].",
-        "[[in|en]]",
         "[[waiting|waiting]]",
+        "[[in|en]]",
         "[[the|el/la/los/las]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
@@ -447,13 +447,13 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[nurse|nurse]] [[will|hará (futuro)]] [[take|tomar/llevar]] [[your|tu/tus]] [[blood|blood]] [[pressure|pressure]].",
       "words": [
-        "[[your|tu/tus]]",
-        "[[nurse|nurse]]",
-        "[[pressure|pressure]].",
         "[[take|tomar/llevar]]",
+        "[[pressure|pressure]].",
         "[[will|hará (futuro)]]",
+        "[[nurse|nurse]]",
         "[[The|El/la/los/las]]",
-        "[[blood|blood]]"
+        "[[blood|blood]]",
+        "[[your|tu/tus]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -470,12 +470,12 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[What|Qué]] [[are|somos/estamos/son/están]] [[your|tu/tus]] [[symptoms|symptoms]]?",
+      "correctSentence": "[[What|Qué]] [[are|son/están]] [[your|tu/tus]] [[symptoms|symptoms]]?",
       "words": [
-        "[[What|Qué]]",
-        "[[are|somos/estamos/son/están]]",
         "[[symptoms|symptoms]]?",
-        "[[your|tu/tus]]"
+        "[[your|tu/tus]]",
+        "[[are|son/están]]",
+        "[[What|Qué]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -494,14 +494,14 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[doctor|médico/a]] [[gave|gave]] [[me|me/mí]] [[a|un/una]] [[prescription|prescription]] [[for|para/por]] [[some|some]] [[antibiotics|antibiotics]].",
       "words": [
-        "[[for|para/por]]",
-        "[[antibiotics|antibiotics]].",
-        "[[some|some]]",
-        "[[prescription|prescription]]",
-        "[[a|un/una]]",
         "[[me|me/mí]]",
+        "[[some|some]]",
         "[[gave|gave]]",
+        "[[a|un/una]]",
+        "[[for|para/por]]",
         "[[doctor|médico/a]]",
+        "[[prescription|prescription]]",
+        "[[antibiotics|antibiotics]].",
         "[[The|El/la/los/las]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
@@ -519,19 +519,19 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[You|Tú/usted/vosotros]] [[need|necesitar]] [[to|a/para]] [[go|ir]] [[to|a/para]] [[the|el/la/los/las]] [[pharmacy|pharmacy]] [[to|a/para]] [[get|conseguir/obtener]] [[your|tu/tus]] [[medicine|medicine]].",
+      "correctSentence": "[[You|Tú/usted]] [[need|necesitar]] [[to|a/para]] [[go|ir]] [[to|a/para]] [[the|el/la/los/las]] [[pharmacy|pharmacy]] [[to|a/para]] [[get|conseguir/obtener]] [[your|tu/tus]] [[medicine|medicine]].",
       "words": [
-        "[[go|ir]]",
+        "[[medicine|medicine]].",
         "[[the|el/la/los/las]]",
         "[[to|a/para]]",
-        "[[get|conseguir/obtener]]",
+        "[[to|a/para]]",
+        "[[go|ir]]",
         "[[your|tu/tus]]",
         "[[pharmacy|pharmacy]]",
         "[[to|a/para]]",
         "[[need|necesitar]]",
-        "[[You|Tú/usted/vosotros]]",
-        "[[to|a/para]]",
-        "[[medicine|medicine]]."
+        "[[You|Tú/usted]]",
+        "[[get|conseguir/obtener]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -550,14 +550,14 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I'm|I'm]] [[going|going]] [[to|a/para]] [[the|el/la/los/las]] [[doctor|médico/a]] [[for|para/por]] [[a|un/una]] [[check-up|check-up]].",
       "words": [
-        "[[the|el/la/los/las]]",
-        "[[for|para/por]]",
-        "[[I'm|I'm]]",
-        "[[doctor|médico/a]]",
-        "[[a|un/una]]",
         "[[check-up|check-up]].",
+        "[[the|el/la/los/las]]",
+        "[[doctor|médico/a]]",
+        "[[I'm|I'm]]",
         "[[going|going]]",
-        "[[to|a/para]]"
+        "[[a|un/una]]",
+        "[[to|a/para]]",
+        "[[for|para/por]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -576,15 +576,15 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[He|Él]] [[needs|needs]] [[a|un/una]] [[blood|blood]] [[test|test]] [[to|a/para]] [[confirm|confirm]] [[the|el/la/los/las]] [[diagnosis|diagnosis]].",
       "words": [
-        "[[He|Él]]",
+        "[[the|el/la/los/las]]",
         "[[needs|needs]]",
-        "[[a|un/una]]",
         "[[diagnosis|diagnosis]].",
         "[[blood|blood]]",
         "[[test|test]]",
-        "[[to|a/para]]",
         "[[confirm|confirm]]",
-        "[[the|el/la/los/las]]"
+        "[[He|Él]]",
+        "[[a|un/una]]",
+        "[[to|a/para]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -603,13 +603,13 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[treatment|treatment]] [[will|hará (futuro)]] [[last|last]] [[for|para/por]] [[two|dos]] [[weeks|weeks]].",
       "words": [
-        "[[weeks|weeks]].",
-        "[[last|last]]",
+        "[[treatment|treatment]]",
         "[[for|para/por]]",
         "[[will|hará (futuro)]]",
-        "[[treatment|treatment]]",
         "[[two|dos]]",
-        "[[The|El/la/los/las]]"
+        "[[The|El/la/los/las]]",
+        "[[weeks|weeks]].",
+        "[[last|last]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -629,12 +629,12 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "correctSentence": "[[The|El/la/los/las]] [[doctor's|doctor's]] [[surgery|surgery]] [[is|es/está]] [[closed|closed]] [[on|en/sobre]] [[weekends|weekends]].",
       "words": [
         "[[on|en/sobre]]",
-        "[[The|El/la/los/las]]",
-        "[[doctor's|doctor's]]",
-        "[[surgery|surgery]]",
-        "[[closed|closed]]",
         "[[is|es/está]]",
-        "[[weekends|weekends]]."
+        "[[surgery|surgery]]",
+        "[[weekends|weekends]].",
+        "[[closed|closed]]",
+        "[[doctor's|doctor's]]",
+        "[[The|El/la/los/las]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -653,14 +653,14 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[She|Ella]] [[gave|gave]] [[me|me/mí]] [[some|some]] [[good|bueno/buena]] [[advice|advice]] [[about|sobre/acerca de]] [[my|mi/mis]] [[health|health]].",
       "words": [
-        "[[my|mi/mis]]",
+        "[[good|bueno/buena]]",
         "[[She|Ella]]",
         "[[gave|gave]]",
+        "[[my|mi/mis]]",
+        "[[about|sobre/acerca de]]",
+        "[[some|some]]",
         "[[me|me/mí]]",
         "[[advice|advice]]",
-        "[[some|some]]",
-        "[[good|bueno/buena]]",
-        "[[about|sobre/acerca de]]",
         "[[health|health]]."
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
@@ -678,13 +678,13 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[It|Esto/eso]] [[was|era/fue/estaba/estuvo]] [[a|un/una]] [[medical|medical]] [[emergency|emergency]].",
+      "correctSentence": "[[It|Eso]] [[was|era/fue/estaba/estuvo]] [[a|un/una]] [[medical|medical]] [[emergency|emergency]].",
       "words": [
-        "[[medical|medical]]",
-        "[[a|un/una]]",
         "[[was|era/fue/estaba/estuvo]]",
         "[[emergency|emergency]].",
-        "[[It|Esto/eso]]"
+        "[[It|Eso]]",
+        "[[medical|medical]]",
+        "[[a|un/una]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -703,13 +703,13 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Can|Poder]] [[I|Yo]] [[make|hacer]] [[an|un/una]] [[appointment|appointment]] [[for|para/por]] [[tomorrow|mañana]]?",
       "words": [
-        "[[appointment|appointment]]",
-        "[[Can|Poder]]",
-        "[[for|para/por]]",
         "[[I|Yo]]",
+        "[[appointment|appointment]]",
         "[[tomorrow|mañana]]?",
+        "[[Can|Poder]]",
+        "[[an|un/una]]",
         "[[make|hacer]]",
-        "[[an|un/una]]"
+        "[[for|para/por]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -728,14 +728,14 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[chemist|chemist]] [[explained|explained]] [[how|cómo]] [[to|a/para]] [[take|tomar/llevar]] [[the|el/la/los/las]] [[pills|pills]].",
       "words": [
+        "[[The|El/la/los/las]]",
+        "[[chemist|chemist]]",
+        "[[pills|pills]].",
+        "[[take|tomar/llevar]]",
+        "[[how|cómo]]",
         "[[the|el/la/los/las]]",
         "[[to|a/para]]",
-        "[[pills|pills]].",
-        "[[how|cómo]]",
-        "[[take|tomar/llevar]]",
-        "[[explained|explained]]",
-        "[[chemist|chemist]]",
-        "[[The|El/la/los/las]]"
+        "[[explained|explained]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },

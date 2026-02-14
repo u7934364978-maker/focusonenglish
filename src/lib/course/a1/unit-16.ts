@@ -67,9 +67,9 @@ export const UNIT_16_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] ([[querer|querer]]) _______ [[a|un/una]] [[coffee|coffee]], [[please|por favor]].",
           "options": [
-            "[[are|están]]",
-            "[[is|es]]",
-            "[[want|want]]"
+            "[[are|son/están]]",
+            "[[is|es/está]]",
+            "[[want|querer]]"
           ],
           "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
@@ -93,11 +93,11 @@ export const UNIT_16_EXERCISES: Exercise[] = [
         {
           "question": "([[Poder|Poder]] [[-|-]] [[yo|yo]]) _______ [[I|Yo]] [[have|tener/haber]] [[a|un/una]] [[sandwich|sandwich]]?",
           "options": [
-            "[[are|están]]",
-            "[[is|es]]",
-            "[[Can|Can]]"
+            "[[Can|Poder]]",
+            "[[is|es/está]]",
+            "[[are|son/están]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -120,8 +120,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
           "question": "([[Hay|Hay]]) _______ [[any|any]] [[sugar|azúcar]]?",
           "options": [
             "[[Is there|Is there]]",
-            "[[is|es]]",
-            "[[are|están]]"
+            "[[is|es/está]]",
+            "[[are|son/están]]"
           ],
           "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
@@ -143,10 +143,10 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[How|Cómo]] ([[mucho|mucho]]) _______ [[is|es/está]] [[it|esto/eso]]?",
+          "question": "[[How|Cómo]] ([[mucho|mucho]]) _______ [[is|es/está]] [[it|eso]]?",
           "options": [
-            "[[are|están]]",
-            "[[is|es]]",
+            "[[are|son/están]]",
+            "[[is|es/está]]",
             "[[much|much]]"
           ],
           "correctAnswer": 2,
@@ -169,11 +169,11 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[like|gustar/como]] [[my|mi/mis]] [[coffee|coffee]] [[with|con]] [[milk|milk]].",
       "words": [
-        "[[I|Yo]]",
-        "[[like|gustar/como]]",
-        "[[my|mi/mis]]",
         "[[with|con]]",
         "[[coffee|coffee]]",
+        "[[my|mi/mis]]",
+        "[[like|gustar/como]]",
+        "[[I|Yo]]",
         "[[milk|milk]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
@@ -193,11 +193,11 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[cake|cake]] [[is|es/está]] [[very|muy]] [[delicious|delicioso/a]].",
       "words": [
-        "[[very|muy]]",
         "[[is|es/está]]",
+        "[[delicious|delicioso/a]].",
         "[[cake|cake]]",
-        "[[The|El/la/los/las]]",
-        "[[delicious|delicioso/a]]."
+        "[[very|muy]]",
+        "[[The|El/la/los/las]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -216,12 +216,12 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[A|Un/una]] [[sandwich|sandwich]] [[and|and]] [[a|un/una]] [[juice|juice]], [[please|por favor]].",
       "words": [
-        "[[and|and]]",
-        "[[a|un/una]]",
         "[[please|por favor]].",
+        "[[a|un/una]]",
+        "[[and|and]]",
+        "[[juice|juice]],",
         "[[sandwich|sandwich]]",
-        "[[A|Un/una]]",
-        "[[juice|juice]],"
+        "[[A|Un/una]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -240,12 +240,12 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[How|Cómo]] [[much|much]] [[is|es/está]] [[a|un/una]] [[bottle|bottle]] [[of|de]] [[water|agua]]?",
       "words": [
-        "[[How|Cómo]]",
-        "[[much|much]]",
-        "[[of|de]]",
         "[[bottle|bottle]]",
         "[[is|es/está]]",
+        "[[much|much]]",
         "[[a|un/una]]",
+        "[[How|Cómo]]",
+        "[[of|de]]",
         "[[water|agua]]?"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
@@ -265,12 +265,12 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[menu|carta/menú]] [[is|es/está]] [[on|en/sobre]] [[the|el/la/los/las]] [[table|mesa]].",
       "words": [
-        "[[The|El/la/los/las]]",
-        "[[menu|carta/menú]]",
+        "[[the|el/la/los/las]]",
+        "[[table|mesa]].",
         "[[is|es/está]]",
         "[[on|en/sobre]]",
-        "[[the|el/la/los/las]]",
-        "[[table|mesa]]."
+        "[[menu|carta/menú]]",
+        "[[The|El/la/los/las]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

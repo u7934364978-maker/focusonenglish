@@ -59,9 +59,9 @@ export const UNIT_51_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] ([[necesitar|necesitar]]) _______ [[some|some]] [[milk|milk]].",
           "options": [
-            "[[is|es]]",
-            "[[need|need]]",
-            "[[are|están]]"
+            "[[is|es/está]]",
+            "[[need|necesitar]]",
+            "[[are|son/están]]"
           ],
           "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
@@ -85,11 +85,11 @@ export const UNIT_51_EXERCISES: Exercise[] = [
         {
           "question": "[[Where|Dónde]] ([[ser/estar|ser/estar]] [[-|-]] [[ello|ello]]) _______ [[the|el/la/los/las]] [[bread|pan]]?",
           "options": [
-            "[[are|están]]",
-            "[[is|es]]",
-            "[[is|is]]"
+            "[[are|son/están]]",
+            "[[is|es/está]]",
+            "[[is|es/está]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -109,11 +109,11 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Put|Put]] [[it|esto/eso]] ([[en|en]]) _______ [[the|el/la/los/las]] [[trolley|trolley]].",
+          "question": "[[Put|Put]] [[it|eso]] ([[en|en]]) _______ [[the|el/la/los/las]] [[trolley|trolley]].",
           "options": [
-            "[[in|in]]",
-            "[[is|es]]",
-            "[[are|están]]"
+            "[[in|en]]",
+            "[[is|es/está]]",
+            "[[are|son/están]]"
           ],
           "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
@@ -137,11 +137,11 @@ export const UNIT_51_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] ([[ir|ir]]) _______ [[to|a/para]] [[the|el/la/los/las]] [[checkout|checkout]].",
           "options": [
-            "[[go|go]]",
-            "[[is|es]]",
-            "[[are|están]]"
+            "[[are|son/están]]",
+            "[[is|es/está]]",
+            "[[go|ir]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -161,11 +161,11 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[supermarket|supermarket]] [[is|es/está]] [[very|muy]] [[big|grande]].",
       "words": [
-        "[[The|El/la/los/las]]",
-        "[[very|muy]]",
         "[[supermarket|supermarket]]",
         "[[is|es/está]]",
-        "[[big|grande]]."
+        "[[The|El/la/los/las]]",
+        "[[big|grande]].",
+        "[[very|muy]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -184,12 +184,12 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Put|Put]] [[the|el/la/los/las]] [[apples|apples]] [[in|en]] [[the|el/la/los/las]] [[basket|basket]].",
       "words": [
-        "[[apples|apples]]",
-        "[[Put|Put]]",
         "[[in|en]]",
         "[[the|el/la/los/las]]",
-        "[[the|el/la/los/las]]",
-        "[[basket|basket]]."
+        "[[basket|basket]].",
+        "[[apples|apples]]",
+        "[[Put|Put]]",
+        "[[the|el/la/los/las]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -208,12 +208,12 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[receipt|receipt]] [[is|es/está]] [[in|en]] [[the|el/la/los/las]] [[bag|bag]].",
       "words": [
-        "[[receipt|receipt]]",
-        "[[is|es/está]]",
         "[[The|El/la/los/las]]",
-        "[[in|en]]",
+        "[[receipt|receipt]]",
         "[[bag|bag]].",
-        "[[the|el/la/los/las]]"
+        "[[the|el/la/los/las]]",
+        "[[in|en]]",
+        "[[is|es/está]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -232,12 +232,12 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Which|Cuál/cuáles]] [[aisle|aisle]] [[is|es/está]] [[the|el/la/los/las]] [[rice|rice]] [[in|en]]?",
       "words": [
-        "[[Which|Cuál/cuáles]]",
-        "[[aisle|aisle]]",
+        "[[the|el/la/los/las]]",
+        "[[is|es/está]]",
         "[[in|en]]?",
         "[[rice|rice]]",
-        "[[the|el/la/los/las]]",
-        "[[is|es/está]]"
+        "[[aisle|aisle]]",
+        "[[Which|Cuál/cuáles]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -256,9 +256,9 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[checkout|checkout]] [[is|es/está]] [[busy|ocupado]].",
       "words": [
-        "[[checkout|checkout]]",
         "[[is|es/está]]",
         "[[busy|ocupado]].",
+        "[[checkout|checkout]]",
         "[[The|El/la/los/las]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."

@@ -71,11 +71,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         {
           "question": "[[This|Este/esta]] [[is|es/está]] ([[mi|mi]]) _______ [[mother|madre]].",
           "options": [
-            "[[my|my]]",
-            "[[is|es]]",
-            "[[are|están]]"
+            "[[are|son/están]]",
+            "[[is|es/está]]",
+            "[[my|mi/mis]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -97,11 +97,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         {
           "question": "([[Su|Su]] [[-|-]] [[de|de]] [[ella|ella]]) _______ [[name|nombre]] [[is|es/está]] [[Ana|Ana]].",
           "options": [
-            "[[are|están]]",
-            "[[is|es]]",
-            "[[Her|Her]]"
+            "[[is|es/está]]",
+            "[[Her|Su (de ella)]]",
+            "[[are|son/están]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -123,11 +123,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         {
           "question": "([[Su|Su]] [[-|-]] [[de|de]] [[él|él]]) _______ [[brother|hermano]] [[is|es/está]] [[tall|alto]].",
           "options": [
-            "[[is|es]]",
-            "[[His|His]]",
-            "[[are|están]]"
+            "[[His|Su (de él)]]",
+            "[[is|es/está]]",
+            "[[are|son/están]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -149,9 +149,9 @@ export const UNIT_6_EXERCISES: Exercise[] = [
         {
           "question": "([[Nuestra|Nuestra]]) _______ [[family|familia]] [[is|es/está]] [[big|grande]].",
           "options": [
-            "[[Our|Our]]",
-            "[[is|es]]",
-            "[[are|están]]"
+            "[[Our|Nuestro]]",
+            "[[is|es/está]]",
+            "[[are|son/están]]"
           ],
           "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
@@ -173,13 +173,13 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[are|somos/estamos/son/están]] ([[su|su]] [[-|-]] [[de|de]] [[ellos|ellos]]) _______ [[children|niños/niñas]].",
+          "question": "[[They|Ellos]] [[are|son/están]] ([[su|su]] [[-|-]] [[de|de]] [[ellos|ellos]]) _______ [[children|niños/niñas]].",
           "options": [
-            "[[are|están]]",
-            "[[is|es]]",
-            "[[their|their]]"
+            "[[is|es/está]]",
+            "[[their|su (de ellos)]]",
+            "[[are|son/están]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -199,10 +199,10 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[My|Mi/mis]] [[family|familia]] [[is|es/está]] [[very|muy]] [[small|pequeño/pequeña]].",
       "words": [
-        "[[My|Mi/mis]]",
+        "[[very|muy]]",
         "[[family|familia]]",
         "[[is|es/está]]",
-        "[[very|muy]]",
+        "[[My|Mi/mis]]",
         "[[small|pequeño/pequeña]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
@@ -222,11 +222,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[His|Su (de él)]] [[father|padre]] [[is|es/está]] [[a|un/una]] [[doctor|médico/a]].",
       "words": [
-        "[[is|es/está]]",
+        "[[His|Su (de él)]]",
         "[[a|un/una]]",
         "[[father|padre]]",
-        "[[His|Su (de él)]]",
-        "[[doctor|médico/a]]."
+        "[[doctor|médico/a]].",
+        "[[is|es/está]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -247,8 +247,8 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "words": [
         "[[Her|Su (de ella)]]",
         "[[sister|hermana]]",
-        "[[is|es/está]]",
         "[[student|estudiante]].",
+        "[[is|es/está]]",
         "[[a|un/una]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
@@ -268,12 +268,12 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Our|Nuestro]] [[grandmother|abuela]] [[is|es/está]] [[eighty|eighty]] [[years|years]] [[old|viejo/antiguo]].",
       "words": [
-        "[[eighty|eighty]]",
-        "[[is|es/está]]",
-        "[[old|viejo/antiguo]].",
         "[[grandmother|abuela]]",
+        "[[Our|Nuestro]]",
         "[[years|years]]",
-        "[[Our|Nuestro]]"
+        "[[old|viejo/antiguo]].",
+        "[[is|es/está]]",
+        "[[eighty|eighty]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -290,15 +290,15 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Do|Hacer]] [[you|tú/usted/vosotros]] [[have|tener/haber]] [[any|any]] [[brothers|brothers]] [[or|or]] [[sisters|sisters]]?",
+      "correctSentence": "[[Do|Hacer]] [[you|tú/usted]] [[have|tener/haber]] [[any|any]] [[brothers|brothers]] [[or|or]] [[sisters|sisters]]?",
       "words": [
-        "[[have|tener/haber]]",
-        "[[you|tú/usted/vosotros]]",
-        "[[any|any]]",
-        "[[brothers|brothers]]",
         "[[Do|Hacer]]",
+        "[[brothers|brothers]]",
+        "[[you|tú/usted]]",
         "[[or|or]]",
-        "[[sisters|sisters]]?"
+        "[[sisters|sisters]]?",
+        "[[any|any]]",
+        "[[have|tener/haber]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

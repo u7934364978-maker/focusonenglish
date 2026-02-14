@@ -91,11 +91,11 @@ export const UNIT_35_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] ([[meet|conocer/encontrar]]) _______ [[my|mi/mis]] [[friend|amigo/amiga]] [[at|en]] [[6|6]] [[PM|PM]].",
           "options": [
-            "[[to|a]]",
-            "[[it|lo]]",
-            "[[am meeting|am meeting]]"
+            "[[it|eso]]",
+            "[[am meeting|am meeting]]",
+            "[[to|a/para]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -118,8 +118,8 @@ export const UNIT_35_EXERCISES: Exercise[] = [
           "question": "[[She|Ella]] ([[fly|fly]]) _______ [[to|a/para]] [[Paris|Paris]] [[tomorrow|mañana]].",
           "options": [
             "[[is flying|is flying]]",
-            "[[to|a]]",
-            "[[it|lo]]"
+            "[[to|a/para]]",
+            "[[it|eso]]"
           ],
           "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
@@ -143,11 +143,11 @@ export const UNIT_35_EXERCISES: Exercise[] = [
         {
           "question": "[[We|Nosotros]] ([[not/work|not/work]]) _______ [[this|este/esta]] [[Saturday|Saturday]].",
           "options": [
-            "[[to|a]]",
-            "[[are not working|are not working]]",
-            "[[it|lo]]"
+            "[[it|eso]]",
+            "[[to|a/para]]",
+            "[[are not working|are not working]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -167,13 +167,13 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[time|tiempo/hora]] _______ [[you|tú/usted/vosotros]] [[leaving|leaving]]?",
+          "question": "[[What|Qué]] [[time|tiempo/hora]] _______ [[you|tú/usted]] [[leaving|leaving]]?",
           "options": [
-            "[[are|are]]",
-            "[[to|a]]",
-            "[[it|lo]]"
+            "[[it|eso]]",
+            "[[to|a/para]]",
+            "[[are|son/están]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -195,11 +195,11 @@ export const UNIT_35_EXERCISES: Exercise[] = [
         {
           "question": "[[They|Ellos]] ([[have|tener/haber]]) _______ [[a|un/una]] [[party|party]] [[on|en/sobre]] [[Friday|Friday]] [[night|noche]].",
           "options": [
-            "[[to|a]]",
-            "[[are having|are having]]",
-            "[[it|lo]]"
+            "[[it|eso]]",
+            "[[to|a/para]]",
+            "[[are having|are having]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -221,8 +221,8 @@ export const UNIT_35_EXERCISES: Exercise[] = [
         {
           "question": "[[He|Él]] ([[see|ver]]) _______ [[the|el/la/los/las]] [[doctor|médico/a]] [[tomorrow|mañana]] [[morning|mañana]].",
           "options": [
-            "[[it|lo]]",
-            "[[to|a]]",
+            "[[to|a/para]]",
+            "[[it|eso]]",
             "[[is seeing|is seeing]]"
           ],
           "correctAnswer": 2,
@@ -248,8 +248,8 @@ export const UNIT_35_EXERCISES: Exercise[] = [
           "question": "[[I|Yo]] ([[not/doing|not/doing]]) _______ [[anything|anything]] [[special|special]] [[tonight|tonight]].",
           "options": [
             "[[am not doing|am not doing]]",
-            "[[to|a]]",
-            "[[it|lo]]"
+            "[[to|a/para]]",
+            "[[it|eso]]"
           ],
           "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
@@ -274,8 +274,8 @@ export const UNIT_35_EXERCISES: Exercise[] = [
           "question": "[[We|Nosotros]] ([[stay|stay]]) _______ [[in|en]] [[a|un/una]] [[hotel|hotel]] [[by|por]] [[the|el/la/los/las]] [[beach|beach]].",
           "options": [
             "[[are staying|are staying]]",
-            "[[it|lo]]",
-            "[[to|a]]"
+            "[[to|a/para]]",
+            "[[it|eso]]"
           ],
           "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
@@ -299,11 +299,11 @@ export const UNIT_35_EXERCISES: Exercise[] = [
         {
           "question": "[[She|Ella]] ([[start|start]]) _______ [[her|su (de ella)]] [[new|nuevo]] [[course|plato/curso]] [[on|en/sobre]] [[Monday|Monday]].",
           "options": [
-            "[[it|lo]]",
-            "[[to|a]]",
-            "[[is starting|is starting]]"
+            "[[it|eso]]",
+            "[[is starting|is starting]]",
+            "[[to|a/para]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -325,9 +325,9 @@ export const UNIT_35_EXERCISES: Exercise[] = [
         {
           "question": "_______ [[they|ellos]] [[coming|coming]] [[to|a/para]] [[the|el/la/los/las]] [[wedding|wedding]]?",
           "options": [
-            "[[to|a]]",
-            "[[Are|Are]]",
-            "[[it|lo]]"
+            "[[to|a/para]]",
+            "[[Are|Son/están]]",
+            "[[it|eso]]"
           ],
           "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical A2."
@@ -349,15 +349,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[am|soy/estoy]] [[meeting|meeting]] [[my|mi/mis]] [[boss|boss]] [[at|en]] [[ten|diez]] [[o'clock|o'clock]] [[tomorrow|mañana]].",
       "words": [
-        "[[meeting|meeting]]",
-        "[[o'clock|o'clock]]",
-        "[[I|Yo]]",
-        "[[at|en]]",
-        "[[my|mi/mis]]",
         "[[boss|boss]]",
-        "[[tomorrow|mañana]].",
+        "[[my|mi/mis]]",
+        "[[ten|diez]]",
+        "[[I|Yo]]",
+        "[[o'clock|o'clock]]",
         "[[am|soy/estoy]]",
-        "[[ten|diez]]"
+        "[[at|en]]",
+        "[[meeting|meeting]]",
+        "[[tomorrow|mañana]]."
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -376,13 +376,13 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[She|Ella]] [[is|es/está]] [[flying|flying]] [[to|a/para]] [[New|Nuevo]] [[York|York]] [[next|next]] [[Tuesday|Tuesday]].",
       "words": [
-        "[[to|a/para]]",
         "[[She|Ella]]",
-        "[[York|York]]",
-        "[[Tuesday|Tuesday]].",
         "[[is|es/está]]",
+        "[[York|York]]",
         "[[New|Nuevo]]",
+        "[[Tuesday|Tuesday]].",
         "[[flying|flying]]",
+        "[[to|a/para]]",
         "[[next|next]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
@@ -400,17 +400,17 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[are|somos/estamos/son/están]] [[having|having]] [[a|un/una]] [[big|grande]] [[family|familia]] [[dinner|dinner]] [[on|en/sobre]] [[Sunday|Sunday]].",
+      "correctSentence": "[[We|Nosotros]] [[are|son/están]] [[having|having]] [[a|un/una]] [[big|grande]] [[family|familia]] [[dinner|dinner]] [[on|en/sobre]] [[Sunday|Sunday]].",
       "words": [
-        "[[family|familia]]",
-        "[[We|Nosotros]]",
-        "[[big|grande]]",
-        "[[are|somos/estamos/son/están]]",
-        "[[Sunday|Sunday]].",
-        "[[having|having]]",
-        "[[a|un/una]]",
         "[[dinner|dinner]]",
-        "[[on|en/sobre]]"
+        "[[Sunday|Sunday]].",
+        "[[are|son/están]]",
+        "[[a|un/una]]",
+        "[[family|familia]]",
+        "[[on|en/sobre]]",
+        "[[big|grande]]",
+        "[[We|Nosotros]]",
+        "[[having|having]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -427,15 +427,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[What|Qué]] [[time|tiempo/hora]] [[are|somos/estamos/son/están]] [[you|tú/usted/vosotros]] [[arriving|arriving]] [[at|en]] [[the|el/la/los/las]] [[station|station]]?",
+      "correctSentence": "[[What|Qué]] [[time|tiempo/hora]] [[are|son/están]] [[you|tú/usted]] [[arriving|arriving]] [[at|en]] [[the|el/la/los/las]] [[station|station]]?",
       "words": [
         "[[station|station]]?",
-        "[[What|Qué]]",
-        "[[you|tú/usted/vosotros]]",
-        "[[the|el/la/los/las]]",
         "[[arriving|arriving]]",
+        "[[the|el/la/los/las]]",
+        "[[you|tú/usted]]",
+        "[[are|son/están]]",
         "[[time|tiempo/hora]]",
-        "[[are|somos/estamos/son/están]]",
+        "[[What|Qué]]",
         "[[at|en]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
@@ -453,14 +453,14 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[are|somos/estamos/son/están]] [[playing|playing]] [[tennis|tennis]] [[this|este/esta]] [[afternoon|tarde]].",
+      "correctSentence": "[[They|Ellos]] [[are|son/están]] [[playing|playing]] [[tennis|tennis]] [[this|este/esta]] [[afternoon|tarde]].",
       "words": [
+        "[[They|Ellos]]",
         "[[playing|playing]]",
+        "[[are|son/están]]",
         "[[tennis|tennis]]",
         "[[afternoon|tarde]].",
-        "[[this|este/esta]]",
-        "[[are|somos/estamos/son/están]]",
-        "[[They|Ellos]]"
+        "[[this|este/esta]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -479,13 +479,13 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[am|soy/estoy]] [[seeing|seeing]] [[the|el/la/los/las]] [[dentist|dentist]] [[on|en/sobre]] [[Wednesday|Wednesday]].",
       "words": [
-        "[[the|el/la/los/las]]",
-        "[[seeing|seeing]]",
-        "[[Wednesday|Wednesday]].",
+        "[[I|Yo]]",
+        "[[on|en/sobre]]",
         "[[am|soy/estoy]]",
         "[[dentist|dentist]]",
-        "[[I|Yo]]",
-        "[[on|en/sobre]]"
+        "[[seeing|seeing]]",
+        "[[the|el/la/los/las]]",
+        "[[Wednesday|Wednesday]]."
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -502,18 +502,18 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[are|somos/estamos/son/están]] [[staying|staying]] [[at|en]] [[my|mi/mis]] [[aunt's|aunt's]] [[house|casa]] [[for|para/por]] [[the|el/la/los/las]] [[weekend|weekend]].",
+      "correctSentence": "[[We|Nosotros]] [[are|son/están]] [[staying|staying]] [[at|en]] [[my|mi/mis]] [[aunt's|aunt's]] [[house|casa]] [[for|para/por]] [[the|el/la/los/las]] [[weekend|weekend]].",
       "words": [
-        "[[are|somos/estamos/son/están]]",
+        "[[aunt's|aunt's]]",
+        "[[staying|staying]]",
+        "[[the|el/la/los/las]]",
+        "[[are|son/están]]",
         "[[We|Nosotros]]",
         "[[for|para/por]]",
-        "[[the|el/la/los/las]]",
-        "[[staying|staying]]",
-        "[[house|casa]]",
         "[[at|en]]",
         "[[my|mi/mis]]",
         "[[weekend|weekend]].",
-        "[[aunt's|aunt's]]"
+        "[[house|casa]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -532,14 +532,14 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[She|Ella]] [[is|es/está]] [[starting|starting]] [[her|su (de ella)]] [[new|nuevo]] [[job|job]] [[next|next]] [[month|mes]].",
       "words": [
-        "[[new|nuevo]]",
-        "[[her|su (de ella)]]",
-        "[[starting|starting]]",
-        "[[month|mes]].",
-        "[[is|es/está]]",
-        "[[She|Ella]]",
         "[[job|job]]",
-        "[[next|next]]"
+        "[[next|next]]",
+        "[[month|mes]].",
+        "[[her|su (de ella)]]",
+        "[[She|Ella]]",
+        "[[starting|starting]]",
+        "[[is|es/está]]",
+        "[[new|nuevo]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -556,16 +556,16 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Are|Somos/estamos/son/están]] [[they|ellos]] [[coming|coming]] [[to|a/para]] [[visit|visit]] [[us|nos/nosotros]] [[at|en]] [[Christmas|Christmas]]?",
+      "correctSentence": "[[Are|Son/están]] [[they|ellos]] [[coming|coming]] [[to|a/para]] [[visit|visit]] [[us|nos/nosotros]] [[at|en]] [[Christmas|Christmas]]?",
       "words": [
-        "[[coming|coming]]",
-        "[[they|ellos]]",
-        "[[at|en]]",
-        "[[Are|Somos/estamos/son/están]]",
         "[[Christmas|Christmas]]?",
-        "[[to|a/para]]",
+        "[[they|ellos]]",
+        "[[us|nos/nosotros]]",
+        "[[at|en]]",
+        "[[coming|coming]]",
         "[[visit|visit]]",
-        "[[us|nos/nosotros]]"
+        "[[to|a/para]]",
+        "[[Are|Son/están]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -582,18 +582,18 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[am|soy/estoy]] [[not|not]] [[doing|doing]] [[anything|anything]] [[tonight|tonight]], [[so|tan/así que]] [[I|Yo]] [[can|poder]] [[help|ayudar]] [[you|tú/usted/vosotros]].",
+      "correctSentence": "[[I|Yo]] [[am|soy/estoy]] [[not|not]] [[doing|doing]] [[anything|anything]] [[tonight|tonight]], [[so|tan/así que]] [[I|Yo]] [[can|poder]] [[help|ayudar]] [[you|tú/usted]].",
       "words": [
-        "[[not|not]]",
-        "[[help|ayudar]]",
-        "[[am|soy/estoy]]",
-        "[[I|Yo]]",
-        "[[anything|anything]]",
-        "[[you|tú/usted/vosotros]].",
-        "[[can|poder]]",
-        "[[tonight|tonight]],",
         "[[doing|doing]]",
+        "[[help|ayudar]]",
+        "[[not|not]]",
+        "[[you|tú/usted]].",
         "[[so|tan/así que]]",
+        "[[tonight|tonight]],",
+        "[[I|Yo]]",
+        "[[can|poder]]",
+        "[[am|soy/estoy]]",
+        "[[anything|anything]]",
         "[[I|Yo]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
@@ -613,13 +613,13 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[He|Él]] [[is|es/está]] [[giving|giving]] [[a|un/una]] [[presentation|presentation]] [[tomorrow|mañana]] [[afternoon|tarde]].",
       "words": [
-        "[[a|un/una]]",
-        "[[is|es/está]]",
         "[[presentation|presentation]]",
-        "[[He|Él]]",
-        "[[afternoon|tarde]].",
+        "[[a|un/una]]",
+        "[[tomorrow|mañana]]",
         "[[giving|giving]]",
-        "[[tomorrow|mañana]]"
+        "[[is|es/está]]",
+        "[[afternoon|tarde]].",
+        "[[He|Él]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -636,17 +636,17 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[are|somos/estamos/son/están]] [[taking|taking]] [[the|el/la/los/las]] [[train|train]] [[to|a/para]] [[London|Londres]] [[on|en/sobre]] [[Friday|Friday]].",
+      "correctSentence": "[[We|Nosotros]] [[are|son/están]] [[taking|taking]] [[the|el/la/los/las]] [[train|train]] [[to|a/para]] [[London|Londres]] [[on|en/sobre]] [[Friday|Friday]].",
       "words": [
-        "[[to|a/para]]",
         "[[We|Nosotros]]",
-        "[[on|en/sobre]]",
-        "[[are|somos/estamos/son/están]]",
-        "[[train|train]]",
-        "[[the|el/la/los/las]]",
-        "[[taking|taking]]",
+        "[[are|son/están]]",
         "[[London|Londres]]",
-        "[[Friday|Friday]]."
+        "[[Friday|Friday]].",
+        "[[to|a/para]]",
+        "[[on|en/sobre]]",
+        "[[the|el/la/los/las]]",
+        "[[train|train]]",
+        "[[taking|taking]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -663,14 +663,14 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[What|Qué]] [[are|somos/estamos/son/están]] [[you|tú/usted/vosotros]] [[doing|doing]] [[this|este/esta]] [[weekend|weekend]]?",
+      "correctSentence": "[[What|Qué]] [[are|son/están]] [[you|tú/usted]] [[doing|doing]] [[this|este/esta]] [[weekend|weekend]]?",
       "words": [
-        "[[weekend|weekend]]?",
-        "[[this|este/esta]]",
-        "[[are|somos/estamos/son/están]]",
+        "[[you|tú/usted]]",
         "[[doing|doing]]",
-        "[[What|Qué]]",
-        "[[you|tú/usted/vosotros]]"
+        "[[this|este/esta]]",
+        "[[weekend|weekend]]?",
+        "[[are|son/están]]",
+        "[[What|Qué]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -689,15 +689,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[am|soy/estoy]] [[going|going]] [[to|a/para]] [[the|el/la/los/las]] [[cinema|cinema]] [[with|con]] [[Sarah|Sarah]] [[tonight|tonight]].",
       "words": [
-        "[[cinema|cinema]]",
+        "[[the|el/la/los/las]]",
+        "[[to|a/para]]",
+        "[[going|going]]",
+        "[[Sarah|Sarah]]",
+        "[[am|soy/estoy]]",
+        "[[I|Yo]]",
         "[[tonight|tonight]].",
         "[[with|con]]",
-        "[[I|Yo]]",
-        "[[am|soy/estoy]]",
-        "[[Sarah|Sarah]]",
-        "[[the|el/la/los/las]]",
-        "[[going|going]]",
-        "[[to|a/para]]"
+        "[[cinema|cinema]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -717,13 +717,13 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "correctSentence": "[[She|Ella]] [[is|es/está]] [[moving|moving]] [[into|into]] [[her|su (de ella)]] [[new|nuevo]] [[apartment|apartment]] [[tomorrow|mañana]].",
       "words": [
         "[[new|nuevo]]",
-        "[[apartment|apartment]]",
-        "[[She|Ella]]",
-        "[[is|es/está]]",
-        "[[moving|moving]]",
-        "[[into|into]]",
         "[[tomorrow|mañana]].",
-        "[[her|su (de ella)]]"
+        "[[her|su (de ella)]]",
+        "[[into|into]]",
+        "[[apartment|apartment]]",
+        "[[moving|moving]]",
+        "[[is|es/está]]",
+        "[[She|Ella]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },

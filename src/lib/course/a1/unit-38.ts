@@ -59,11 +59,11 @@ export const UNIT_38_EXERCISES: Exercise[] = [
         {
           "question": "([[Puedo|Puedo]]) _______ [[I|Yo]] [[come|venir]] [[in|en]]?",
           "options": [
-            "[[are|están]]",
-            "[[is|es]]",
-            "[[May|May]]"
+            "[[is|es/está]]",
+            "[[May|May]]",
+            "[[are|son/están]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -85,11 +85,11 @@ export const UNIT_38_EXERCISES: Exercise[] = [
         {
           "question": "([[Puedo|Puedo]]) _______ [[I|Yo]] [[use|use]] [[your|tu/tus]] [[pen|pen]]?",
           "options": [
-            "[[are|están]]",
-            "[[is|es]]",
-            "[[Can|Can]]"
+            "[[Can|Poder]]",
+            "[[are|son/están]]",
+            "[[is|es/está]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -111,9 +111,9 @@ export const UNIT_38_EXERCISES: Exercise[] = [
         {
           "question": "([[Por|Por]] [[favor|favor]]) [[_______|_______]], [[help|ayudar]] [[me|me/mí]].",
           "options": [
-            "[[Please|Please]]",
-            "[[is|es]]",
-            "[[are|están]]"
+            "[[Please|Por favor]]",
+            "[[is|es/está]]",
+            "[[are|son/están]]"
           ],
           "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
@@ -135,13 +135,13 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[No|No]], [[you|tú/usted/vosotros]] ([[no|no]] [[-|-]] [[poder|poder]]) [[_______|_______]].",
+          "question": "[[No|No]], [[you|tú/usted]] ([[no|no]] [[-|-]] [[poder|poder]]) [[_______|_______]].",
           "options": [
-            "[[are|están]]",
-            "[[is|es]]",
-            "[[can't|can't]]"
+            "[[can't|can't]]",
+            "[[are|son/están]]",
+            "[[is|es/está]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -161,14 +161,14 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Can|Poder]] [[I|Yo]] [[have|tener/haber]] [[a|un/una]] [[glass|glass]] [[of|de]] [[water|agua]], [[please|por favor]]?",
       "words": [
-        "[[I|Yo]]",
         "[[please|por favor]]?",
         "[[Can|Poder]]",
-        "[[of|de]]",
-        "[[a|un/una]]",
+        "[[I|Yo]]",
         "[[glass|glass]]",
         "[[water|agua]],",
-        "[[have|tener/haber]]"
+        "[[have|tener/haber]]",
+        "[[of|de]]",
+        "[[a|un/una]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -190,8 +190,8 @@ export const UNIT_38_EXERCISES: Exercise[] = [
         "[[May|May]]",
         "[[I|Yo]]",
         "[[ask|ask]]",
-        "[[question|question]]?",
-        "[[a|un/una]]"
+        "[[a|un/una]]",
+        "[[question|question]]?"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -208,14 +208,14 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I'm|I'm]] [[sorry|lo siento]], [[you|tú/usted/vosotros]] [[can't|can't]] [[smoke|smoke]] [[here|aquí]].",
+      "correctSentence": "[[I'm|I'm]] [[sorry|lo siento]], [[you|tú/usted]] [[can't|can't]] [[smoke|smoke]] [[here|aquí]].",
       "words": [
-        "[[here|aquí]].",
-        "[[smoke|smoke]]",
-        "[[can't|can't]]",
-        "[[you|tú/usted/vosotros]]",
+        "[[you|tú/usted]]",
         "[[sorry|lo siento]],",
-        "[[I'm|I'm]]"
+        "[[smoke|smoke]]",
+        "[[I'm|I'm]]",
+        "[[here|aquí]].",
+        "[[can't|can't]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -234,11 +234,11 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Can|Poder]] [[I|Yo]] [[borrow|borrow]] [[your|tu/tus]] [[book|libro]]?",
       "words": [
-        "[[borrow|borrow]]",
-        "[[I|Yo]]",
         "[[Can|Poder]]",
-        "[[your|tu/tus]]",
-        "[[book|libro]]?"
+        "[[I|Yo]]",
+        "[[book|libro]]?",
+        "[[borrow|borrow]]",
+        "[[your|tu/tus]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -258,8 +258,8 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "correctSentence": "[[Go|Ir]] [[ahead|ahead]] [[and|and]] [[start|start]].",
       "words": [
         "[[start|start]].",
-        "[[ahead|ahead]]",
         "[[and|and]]",
+        "[[ahead|ahead]]",
         "[[Go|Ir]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."

@@ -47,9 +47,9 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] ([[poder|poder]]) _______ [[swim|swim]].",
           "options": [
-            "[[are|están]]",
-            "[[is|es]]",
-            "[[can|can]]"
+            "[[are|son/están]]",
+            "[[is|es/está]]",
+            "[[can|poder]]"
           ],
           "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
@@ -73,11 +73,11 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] ([[siempre|siempre]]) _______ [[study|estudiar]].",
           "options": [
-            "[[always|always]]",
-            "[[is|es]]",
-            "[[are|están]]"
+            "[[are|son/están]]",
+            "[[is|es/está]]",
+            "[[always|siempre]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -99,11 +99,11 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] [[like|gustar/como]] [[coffee|coffee]] ([[pero|pero]]) _______ [[not|not]] [[tea|tea]].",
           "options": [
-            "[[are|están]]",
-            "[[is|es]]",
-            "[[but|but]]"
+            "[[are|son/están]]",
+            "[[but|but]]",
+            "[[is|es/está]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -125,11 +125,11 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "[[He|Él]] ([[tocar|tocar]]) _______ [[the|el/la/los/las]] [[piano|piano]].",
           "options": [
-            "[[plays|plays]]",
-            "[[is|es]]",
-            "[[are|están]]"
+            "[[are|son/están]]",
+            "[[is|es/está]]",
+            "[[plays|plays]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -149,13 +149,13 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[This|Este/esta]] [[is|es/está]] [[a|un/una]] [[review|review]] [[of|de]] [[module|module]] [[four|cuatro]].",
       "words": [
-        "[[review|review]]",
         "[[four|cuatro]].",
-        "[[a|un/una]]",
         "[[of|de]]",
-        "[[This|Este/esta]]",
         "[[is|es/está]]",
-        "[[module|module]]"
+        "[[review|review]]",
+        "[[module|module]]",
+        "[[This|Este/esta]]",
+        "[[a|un/una]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -174,12 +174,12 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Talk|Talk]] [[about|sobre/acerca de]] [[your|tu/tus]] [[abilities|abilities]] [[and|and]] [[skills|skills]].",
       "words": [
-        "[[abilities|abilities]]",
         "[[Talk|Talk]]",
-        "[[skills|skills]].",
         "[[about|sobre/acerca de]]",
+        "[[and|and]]",
         "[[your|tu/tus]]",
-        "[[and|and]]"
+        "[[abilities|abilities]]",
+        "[[skills|skills]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -220,12 +220,12 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Connect|Connect]] [[sentences|sentences]] [[with|con]] '[[and|and]]', '[[but|but]]', [[and|and]] '[[because|because]]'.",
       "words": [
-        "'[[and|and]]',",
         "[[with|con]]",
-        "[[sentences|sentences]]",
-        "'[[because|because]]'.",
         "[[Connect|Connect]]",
         "'[[but|but]]',",
+        "'[[because|because]]'.",
+        "[[sentences|sentences]]",
+        "'[[and|and]]',",
         "[[and|and]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
@@ -245,10 +245,10 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Ask|Ask]] [[for|para/por]] [[permission|permission]] [[politely|politely]].",
       "words": [
-        "[[for|para/por]]",
         "[[politely|politely]].",
         "[[permission|permission]]",
-        "[[Ask|Ask]]"
+        "[[Ask|Ask]]",
+        "[[for|para/por]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

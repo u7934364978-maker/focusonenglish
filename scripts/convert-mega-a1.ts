@@ -68,6 +68,11 @@ function translateWordLevel(english: string, spanishHint?: string): string {
 
     const cleanCore = core.toLowerCase().replace(/[()]/g, "");
     let translation = SHARED_DICTIONARY[cleanCore] || spanishHint || core;
+
+    // Special handling for (be) or (not/be) hints that might come from the generator
+    if (spanishHint && (spanishHint.includes("ser/estar") || spanishHint.includes("be") || spanishHint.includes("-"))) {
+        translation = "ser/estar";
+    }
     
     if (core.length > 0 && core[0] === core[0].toUpperCase() && translation[0]) {
         translation = translation[0].toUpperCase() + translation.slice(1);
@@ -104,7 +109,13 @@ function generateExercises(unitId: number, data: any) {
     // 2. Multiple Choice (Grammar)
     data.grammar.forEach((g: any, index: number) => {
         const exerciseIndex = exercises.length + 1;
-        const questionText = g.en.replace("________", "_______");
+        let questionText = g.en.replace("________", "_______");
+        
+        // If the generator left a complex hint like (be) - I or (not/be) - He, simplify it
+        questionText = questionText.replace(/\(.*?\)\s*-\s*[^\s]+/g, (match: string) => {
+            const m = match.match(/\(.*?\)/);
+            return m ? m[0] : match;
+        });
         
         exercises.push({
             id: `a1-u${unitId}-e${exerciseIndex}`,
@@ -117,14 +128,14 @@ function generateExercises(unitId: number, data: any) {
                 title: "Practica la Gramática",
                 instructions: "Completa la oración con la opción correcta.",
                 questions: [{
-                    question: questionText.split(" ").map((word: string) => {
-                        if (word === "_______") return word;
+                    question: questionText.split(/(\s+)/).map((word: string) => {
+                        if (word.trim() === "_______" || word.trim() === "") return word;
                         return translateWordLevel(word);
-                    }).join(" "),
+                    }).join(""),
                     options: [
-                        `[[${g.es}|${g.es}]]`,
-                        `[[is|es]]`,
-                        `[[are|están]]`
+                        translateWordLevel(g.es),
+                        translateWordLevel("is"),
+                        translateWordLevel("are")
                     ].sort(() => Math.random() - 0.5),
                     correctAnswer: 0,
                     explanation: "Práctica de la estructura gramatical básica."
@@ -135,14 +146,14 @@ function generateExercises(unitId: number, data: any) {
         });
         
         const ex = exercises[exercises.length - 1];
-        const correctOpt = `[[${g.es}|${g.es}]]`;
+        const correctOpt = translateWordLevel(g.es);
         ex.content.questions[0].correctAnswer = ex.content.questions[0].options.indexOf(correctOpt);
     });
     
     // 3. Sentence Building
     data.sentences.forEach((s: string, index: number) => {
         const exerciseIndex = exercises.length + 1;
-        const words = s.split(" ");
+        const words = s.split(/(\s+)/).filter(w => w.trim() !== "");
         
         exercises.push({
             id: `a1-u${unitId}-e${exerciseIndex}`,

@@ -63,11 +63,11 @@ export const UNIT_32_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] ([[jugar|jugar]]) _______ [[football|football]] [[on|en/sobre]] [[Sundays|Sundays]].",
           "options": [
-            "[[is|es]]",
-            "[[play|play]]",
-            "[[are|están]]"
+            "[[are|son/están]]",
+            "[[is|es/está]]",
+            "[[play|jugar/tocar]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -89,11 +89,11 @@ export const UNIT_32_EXERCISES: Exercise[] = [
         {
           "question": "[[She|Ella]] ([[gustar|gustar]]) _______ [[swimming|swimming]].",
           "options": [
-            "[[are|están]]",
-            "[[is|es]]",
-            "[[likes|likes]]"
+            "[[likes|likes]]",
+            "[[is|es/está]]",
+            "[[are|son/están]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -115,8 +115,8 @@ export const UNIT_32_EXERCISES: Exercise[] = [
         {
           "question": "[[We|Nosotros]] ([[disfrutar|disfrutar]]) _______ [[reading|reading]] [[books|books]].",
           "options": [
-            "[[are|están]]",
-            "[[is|es]]",
+            "[[are|son/están]]",
+            "[[is|es/está]]",
             "[[enjoy|enjoy]]"
           ],
           "correctAnswer": 2,
@@ -141,8 +141,8 @@ export const UNIT_32_EXERCISES: Exercise[] = [
         {
           "question": "[[They|Ellos]] ([[no|no]] [[-|-]] [[gustar|gustar]]) _______ [[tennis|tennis]].",
           "options": [
-            "[[are|están]]",
-            "[[is|es]]",
+            "[[are|son/están]]",
+            "[[is|es/está]]",
             "[[don't like|don't like]]"
           ],
           "correctAnswer": 2,
@@ -165,12 +165,12 @@ export const UNIT_32_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[play|jugar/tocar]] [[basketball|basketball]] [[with|con]] [[my|mi/mis]] [[friends|friends]].",
       "words": [
+        "[[friends|friends]].",
         "[[basketball|basketball]]",
+        "[[I|Yo]]",
         "[[play|jugar/tocar]]",
         "[[with|con]]",
-        "[[friends|friends]].",
-        "[[my|mi/mis]]",
-        "[[I|Yo]]"
+        "[[my|mi/mis]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -189,12 +189,12 @@ export const UNIT_32_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Swimming|Swimming]] [[is|es/está]] [[good|bueno/buena]] [[for|para/por]] [[your|tu/tus]] [[health|health]].",
       "words": [
+        "[[your|tu/tus]]",
         "[[Swimming|Swimming]]",
         "[[is|es/está]]",
-        "[[good|bueno/buena]]",
-        "[[your|tu/tus]]",
         "[[for|para/por]]",
-        "[[health|health]]."
+        "[[health|health]].",
+        "[[good|bueno/buena]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -213,11 +213,11 @@ export const UNIT_32_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[He|Él]] [[enjoys|enjoys]] [[listening|listening]] [[to|a/para]] [[music|music]].",
       "words": [
-        "[[to|a/para]]",
-        "[[listening|listening]]",
-        "[[enjoys|enjoys]]",
         "[[He|Él]]",
-        "[[music|music]]."
+        "[[enjoys|enjoys]]",
+        "[[music|music]].",
+        "[[to|a/para]]",
+        "[[listening|listening]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -236,10 +236,10 @@ export const UNIT_32_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Reading|Reading]] [[is|es/está]] [[my|mi/mis]] [[favorite|favorite]] [[hobby|hobby]].",
       "words": [
-        "[[hobby|hobby]].",
-        "[[is|es/está]]",
-        "[[Reading|Reading]]",
         "[[my|mi/mis]]",
+        "[[is|es/está]]",
+        "[[hobby|hobby]].",
+        "[[Reading|Reading]]",
         "[[favorite|favorite]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
@@ -259,9 +259,9 @@ export const UNIT_32_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[We|Nosotros]] [[travel|travel]] [[every|every]] [[summer|summer]].",
       "words": [
-        "[[We|Nosotros]]",
-        "[[travel|travel]]",
         "[[every|every]]",
+        "[[travel|travel]]",
+        "[[We|Nosotros]]",
         "[[summer|summer]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."

@@ -61,13 +61,13 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[It|Esto/eso]] ([[ser/estar|ser/estar]] [[-|-]] [[ello|ello]]) _______ [[five|cinco]] [[o'clock|o'clock]].",
+          "question": "[[It|Eso]] ([[ser/estar|ser/estar]] [[-|-]] [[ello|ello]]) _______ [[five|cinco]] [[o'clock|o'clock]].",
           "options": [
-            "[[is|is]]",
-            "[[is|es]]",
-            "[[are|están]]"
+            "[[are|son/están]]",
+            "[[is|es/está]]",
+            "[[is|es/está]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -87,13 +87,13 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[time|tiempo/hora]] ([[ser/estar|ser/estar]] [[-|-]] [[ello|ello]]) _______ [[it|esto/eso]]?",
+          "question": "[[What|Qué]] [[time|tiempo/hora]] ([[ser/estar|ser/estar]] [[-|-]] [[ello|ello]]) _______ [[it|eso]]?",
           "options": [
-            "[[are|están]]",
-            "[[is|es]]",
-            "[[is|is]]"
+            "[[is|es/está]]",
+            "[[are|son/están]]",
+            "[[is|es/está]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -113,13 +113,13 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[It|Esto/eso]] [[is|es/está]] [[half|half]] ([[pasado|pasado]]) _______ [[six|seis]].",
+          "question": "[[It|Eso]] [[is|es/está]] [[half|half]] ([[pasado|pasado]]) _______ [[six|seis]].",
           "options": [
-            "[[are|están]]",
-            "[[is|es]]",
-            "[[past|past]]"
+            "[[past|past]]",
+            "[[is|es/está]]",
+            "[[are|son/están]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -139,13 +139,13 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[It|Esto/eso]] [[is|es/está]] [[a|un/una]] [[quarter|quarter]] ([[para|para]]) _______ [[eight|ocho]].",
+          "question": "[[It|Eso]] [[is|es/está]] [[a|un/una]] [[quarter|quarter]] ([[para|para]]) _______ [[eight|ocho]].",
           "options": [
-            "[[is|es]]",
-            "[[are|están]]",
-            "[[to|to]]"
+            "[[is|es/está]]",
+            "[[to|a/para]]",
+            "[[are|son/están]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -165,11 +165,11 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[wake|wake]] [[up|up]] [[at|en]] [[seven|siete]] [[o'clock|o'clock]].",
       "words": [
-        "[[at|en]]",
-        "[[up|up]]",
-        "[[seven|siete]]",
-        "[[wake|wake]]",
         "[[I|Yo]]",
+        "[[wake|wake]]",
+        "[[up|up]]",
+        "[[at|en]]",
+        "[[seven|siete]]",
         "[[o'clock|o'clock]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
@@ -212,10 +212,10 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[It's|It's]] [[half|half]] [[past|past]] [[nine|nueve]].",
       "words": [
-        "[[half|half]]",
-        "[[It's|It's]]",
         "[[past|past]]",
-        "[[nine|nueve]]."
+        "[[nine|nueve]].",
+        "[[It's|It's]]",
+        "[[half|half]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -234,12 +234,12 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[A|Un/una]] [[quarter|quarter]] [[to|a/para]] [[ten|diez]] [[is|es/está]] [[9:45|9:45]].",
       "words": [
-        "[[is|es/está]]",
-        "[[to|a/para]]",
         "[[ten|diez]]",
-        "[[9:45|9:45]].",
+        "[[to|a/para]]",
+        "[[quarter|quarter]]",
+        "[[is|es/está]]",
         "[[A|Un/una]]",
-        "[[quarter|quarter]]"
+        "[[9:45|9:45]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

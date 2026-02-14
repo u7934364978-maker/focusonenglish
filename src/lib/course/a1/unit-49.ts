@@ -59,9 +59,9 @@ export const UNIT_49_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] ([[hacer|hacer]] [[la|la]] [[maleta|maleta]]) _______ [[my|mi/mis]] [[suitcase|suitcase]].",
           "options": [
-            "[[is|es]]",
+            "[[are|son/están]]",
             "[[pack|pack]]",
-            "[[are|están]]"
+            "[[is|es/está]]"
           ],
           "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
@@ -85,11 +85,11 @@ export const UNIT_49_EXERCISES: Exercise[] = [
         {
           "question": "[[Don't|No]] [[forget|forget]] [[your|tu/tus]] ([[protector|protector]] [[solar|solar]]) [[_______|_______]].",
           "options": [
-            "[[is|es]]",
             "[[sunscreen|sunscreen]]",
-            "[[are|están]]"
+            "[[is|es/está]]",
+            "[[are|son/están]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -111,8 +111,8 @@ export const UNIT_49_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] [[need|necesitar]] [[a|un/una]] ([[cargador|cargador]]) _______ [[for|para/por]] [[my|mi/mis]] [[phone|teléfono]].",
           "options": [
-            "[[are|están]]",
-            "[[is|es]]",
+            "[[is|es/está]]",
+            "[[are|son/están]]",
             "[[charger|charger]]"
           ],
           "correctAnswer": 2,
@@ -137,9 +137,9 @@ export const UNIT_49_EXERCISES: Exercise[] = [
         {
           "question": "[[Put|Put]] [[your|tu/tus]] [[clothes|clothes]] ([[en|en]]) _______ [[the|el/la/los/las]] [[bag|bag]].",
           "options": [
-            "[[are|están]]",
-            "[[is|es]]",
-            "[[in|in]]"
+            "[[are|son/están]]",
+            "[[is|es/está]]",
+            "[[in|en]]"
           ],
           "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
@@ -161,11 +161,11 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[My|Mi/mis]] [[suitcase|suitcase]] [[is|es/está]] [[too|demasiado/también]] [[full|full]].",
       "words": [
-        "[[suitcase|suitcase]]",
-        "[[full|full]].",
-        "[[My|Mi/mis]]",
         "[[too|demasiado/también]]",
-        "[[is|es/está]]"
+        "[[is|es/está]]",
+        "[[full|full]].",
+        "[[suitcase|suitcase]]",
+        "[[My|Mi/mis]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -184,10 +184,10 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[need|necesitar]] [[my|mi/mis]] [[sunglasses|sunglasses]].",
       "words": [
-        "[[I|Yo]]",
+        "[[my|mi/mis]]",
         "[[need|necesitar]]",
-        "[[sunglasses|sunglasses]].",
-        "[[my|mi/mis]]"
+        "[[I|Yo]]",
+        "[[sunglasses|sunglasses]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -206,12 +206,12 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Pack|Pack]] [[your|tu/tus]] [[swimsuit|swimsuit]] [[for|para/por]] [[the|el/la/los/las]] [[beach|beach]].",
       "words": [
-        "[[Pack|Pack]]",
-        "[[your|tu/tus]]",
         "[[beach|beach]].",
+        "[[the|el/la/los/las]]",
+        "[[Pack|Pack]]",
         "[[for|para/por]]",
-        "[[swimsuit|swimsuit]]",
-        "[[the|el/la/los/las]]"
+        "[[your|tu/tus]]",
+        "[[swimsuit|swimsuit]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -230,11 +230,11 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Where|Dónde]] [[is|es/está]] [[my|mi/mis]] [[phone|teléfono]] [[charger|charger]]?",
       "words": [
-        "[[charger|charger]]?",
+        "[[Where|Dónde]]",
         "[[phone|teléfono]]",
         "[[is|es/está]]",
-        "[[my|mi/mis]]",
-        "[[Where|Dónde]]"
+        "[[charger|charger]]?",
+        "[[my|mi/mis]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -254,9 +254,9 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "correctSentence": "[[Don't|No]] [[forget|forget]] [[your|tu/tus]] [[toiletries|toiletries]].",
       "words": [
         "[[forget|forget]]",
-        "[[your|tu/tus]]",
+        "[[toiletries|toiletries]].",
         "[[Don't|No]]",
-        "[[toiletries|toiletries]]."
+        "[[your|tu/tus]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

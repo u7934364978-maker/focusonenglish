@@ -91,11 +91,11 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "[[She|Ella]] [[runs|runs]] [[very|muy]] _______ ([[quick|quick]]).",
           "options": [
+            "[[to|a/para]]",
             "[[quickly|quickly]]",
-            "[[to|a]]",
-            "[[it|lo]]"
+            "[[it|eso]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -117,11 +117,11 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "[[He|Él]] [[speaks|speaks]] [[English|English]] [[very|muy]] _______ ([[good|bueno/buena]]).",
           "options": [
-            "[[well|well]]",
-            "[[to|a]]",
-            "[[it|lo]]"
+            "[[to|a/para]]",
+            "[[it|eso]]",
+            "[[well|bien]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -143,11 +143,11 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "[[Please|Por favor]] [[walk|walk]] _______ ([[quiet|tranquilo/callado]]) [[in|en]] [[the|el/la/los/las]] [[library|library]].",
           "options": [
-            "[[to|a]]",
-            "[[quietly|quietly]]",
-            "[[it|lo]]"
+            "[[to|a/para]]",
+            "[[it|eso]]",
+            "[[quietly|quietly]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -169,11 +169,11 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "[[They|Ellos]] [[worked|worked]] _______ ([[hard|hard]]) [[to|a/para]] [[finish|finish]] [[the|el/la/los/las]] [[project|project]].",
           "options": [
-            "[[it|lo]]",
-            "[[to|a]]",
-            "[[hard|hard]]"
+            "[[hard|hard]]",
+            "[[to|a/para]]",
+            "[[it|eso]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -195,11 +195,11 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "[[She|Ella]] [[smiled|smiled]] _______ ([[happy|feliz]]) [[at|en]] [[him|le/él]].",
           "options": [
-            "[[it|lo]]",
-            "[[to|a]]",
-            "[[happily|happily]]"
+            "[[happily|happily]]",
+            "[[to|a/para]]",
+            "[[it|eso]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -221,11 +221,11 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "[[He|Él]] [[drove|drove]] _______ ([[careful|careful]]) [[through|through]] [[the|el/la/los/las]] [[rain|rain]].",
           "options": [
-            "[[carefully|carefully]]",
-            "[[to|a]]",
-            "[[it|lo]]"
+            "[[it|eso]]",
+            "[[to|a/para]]",
+            "[[carefully|carefully]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -245,13 +245,13 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[You|Tú/usted/vosotros]] [[should|should]] [[speak|hablar]] _______ ([[clear|clear]]) [[when|cuándo]] [[you|tú/usted/vosotros]] [[give|dar]] [[a|un/una]] [[talk|talk]].",
+          "question": "[[You|Tú/usted]] [[should|should]] [[speak|hablar]] _______ ([[clear|clear]]) [[when|cuándo]] [[you|tú/usted]] [[give|dar]] [[a|un/una]] [[talk|talk]].",
           "options": [
-            "[[clearly|clearly]]",
-            "[[it|lo]]",
-            "[[to|a]]"
+            "[[it|eso]]",
+            "[[to|a/para]]",
+            "[[clearly|clearly]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -273,11 +273,11 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "[[They|Ellos]] [[laughed|laughed]] _______ ([[loud|loud]]) [[at|en]] [[the|el/la/los/las]] [[joke|joke]].",
           "options": [
-            "[[to|a]]",
             "[[loudly|loudly]]",
-            "[[it|lo]]"
+            "[[to|a/para]]",
+            "[[it|eso]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
         }
       ]
@@ -300,8 +300,8 @@ export const UNIT_56_EXERCISES: Exercise[] = [
           "question": "[[He|Él]] [[writes|writes]] _______ ([[beautiful|hermoso/a]]).",
           "options": [
             "[[beautifully|beautifully]]",
-            "[[to|a]]",
-            "[[it|lo]]"
+            "[[to|a/para]]",
+            "[[it|eso]]"
           ],
           "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
@@ -326,8 +326,8 @@ export const UNIT_56_EXERCISES: Exercise[] = [
           "question": "[[Please|Por favor]] [[listen|escuchar]] _______ ([[attentive|attentive]]).",
           "options": [
             "[[attentively|attentively]]",
-            "[[to|a]]",
-            "[[it|lo]]"
+            "[[to|a/para]]",
+            "[[it|eso]]"
           ],
           "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical A2."
@@ -349,12 +349,12 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[She|Ella]] [[finished|finished]] [[her|su (de ella)]] [[homework|homework]] [[very|muy]] [[quickly|quickly]].",
       "words": [
-        "[[her|su (de ella)]]",
-        "[[homework|homework]]",
-        "[[finished|finished]]",
-        "[[very|muy]]",
         "[[She|Ella]]",
-        "[[quickly|quickly]]."
+        "[[very|muy]]",
+        "[[finished|finished]]",
+        "[[her|su (de ella)]]",
+        "[[quickly|quickly]].",
+        "[[homework|homework]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -373,11 +373,11 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[He|Él]] [[speaks|speaks]] [[Spanish|Spanish]] [[very|muy]] [[well|bien]].",
       "words": [
-        "[[He|Él]]",
         "[[speaks|speaks]]",
-        "[[Spanish|Spanish]]",
         "[[very|muy]]",
-        "[[well|bien]]."
+        "[[He|Él]]",
+        "[[well|bien]].",
+        "[[Spanish|Spanish]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -394,16 +394,16 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Please|Por favor]] [[speak|hablar]] [[slowly|slowly]] [[so|tan/así que]] [[I|Yo]] [[can|poder]] [[understand|understand]] [[you|tú/usted/vosotros]].",
+      "correctSentence": "[[Please|Por favor]] [[speak|hablar]] [[slowly|slowly]] [[so|tan/así que]] [[I|Yo]] [[can|poder]] [[understand|understand]] [[you|tú/usted]].",
       "words": [
-        "[[so|tan/así que]]",
         "[[understand|understand]]",
-        "[[you|tú/usted/vosotros]].",
-        "[[slowly|slowly]]",
-        "[[can|poder]]",
-        "[[speak|hablar]]",
         "[[I|Yo]]",
-        "[[Please|Por favor]]"
+        "[[so|tan/así que]]",
+        "[[Please|Por favor]]",
+        "[[slowly|slowly]]",
+        "[[speak|hablar]]",
+        "[[you|tú/usted]].",
+        "[[can|poder]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -420,16 +420,16 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[are|somos/estamos/son/están]] [[working|working]] [[hard|hard]] [[to|a/para]] [[win|win]] [[the|el/la/los/las]] [[game|game]].",
+      "correctSentence": "[[They|Ellos]] [[are|son/están]] [[working|working]] [[hard|hard]] [[to|a/para]] [[win|win]] [[the|el/la/los/las]] [[game|game]].",
       "words": [
-        "[[to|a/para]]",
-        "[[They|Ellos]]",
         "[[game|game]].",
-        "[[are|somos/estamos/son/están]]",
-        "[[working|working]]",
-        "[[hard|hard]]",
         "[[the|el/la/los/las]]",
-        "[[win|win]]"
+        "[[hard|hard]]",
+        "[[They|Ellos]]",
+        "[[win|win]]",
+        "[[to|a/para]]",
+        "[[are|son/están]]",
+        "[[working|working]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -448,13 +448,13 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[children|niños/niñas]] [[played|played]] [[happily|happily]] [[in|en]] [[the|el/la/los/las]] [[garden|garden]].",
       "words": [
-        "[[in|en]]",
         "[[happily|happily]]",
-        "[[the|el/la/los/las]]",
-        "[[played|played]]",
-        "[[children|niños/niñas]]",
+        "[[garden|garden]].",
         "[[The|El/la/los/las]]",
-        "[[garden|garden]]."
+        "[[in|en]]",
+        "[[the|el/la/los/las]]",
+        "[[children|niños/niñas]]",
+        "[[played|played]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -473,13 +473,13 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[He|Él]] [[drives|drives]] [[very|muy]] [[carefully|carefully]] [[in|en]] [[the|el/la/los/las]] [[city|ciudad]].",
       "words": [
-        "[[city|ciudad]].",
-        "[[the|el/la/los/las]]",
-        "[[in|en]]",
         "[[very|muy]]",
+        "[[the|el/la/los/las]]",
+        "[[drives|drives]]",
         "[[He|Él]]",
+        "[[in|en]]",
         "[[carefully|carefully]]",
-        "[[drives|drives]]"
+        "[[city|ciudad]]."
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -498,9 +498,9 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[She|Ella]] [[sings|sings]] [[beautifully|beautifully]].",
       "words": [
-        "[[beautifully|beautifully]].",
+        "[[She|Ella]]",
         "[[sings|sings]]",
-        "[[She|Ella]]"
+        "[[beautifully|beautifully]]."
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -519,13 +519,13 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[teacher|profesor/profesora]] [[explained|explained]] [[the|el/la/los/las]] [[lesson|lesson]] [[very|muy]] [[clearly|clearly]].",
       "words": [
-        "[[The|El/la/los/las]]",
         "[[teacher|profesor/profesora]]",
-        "[[explained|explained]]",
-        "[[the|el/la/los/las]]",
-        "[[very|muy]]",
+        "[[The|El/la/los/las]]",
         "[[lesson|lesson]]",
-        "[[clearly|clearly]]."
+        "[[the|el/la/los/las]]",
+        "[[clearly|clearly]].",
+        "[[explained|explained]]",
+        "[[very|muy]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -544,13 +544,13 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[can|poder]] [[easily|easily]] [[finish|finish]] [[this|este/esta]] [[work|trabajo/trabajar]] [[today|hoy]].",
       "words": [
-        "[[easily|easily]]",
-        "[[I|Yo]]",
-        "[[can|poder]]",
-        "[[finish|finish]]",
         "[[this|este/esta]]",
+        "[[easily|easily]]",
+        "[[today|hoy]].",
         "[[work|trabajo/trabajar]]",
-        "[[today|hoy]]."
+        "[[finish|finish]]",
+        "[[can|poder]]",
+        "[[I|Yo]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -569,16 +569,16 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[He|Él]] [[walked|walked]] [[quietly|quietly]] [[so|tan/así que]] [[as|as]] [[not|not]] [[to|a/para]] [[wake|wake]] [[the|el/la/los/las]] [[baby|bebé]].",
       "words": [
-        "[[walked|walked]]",
-        "[[to|a/para]]",
-        "[[baby|bebé]].",
-        "[[the|el/la/los/las]]",
-        "[[wake|wake]]",
         "[[so|tan/así que]]",
-        "[[He|Él]]",
-        "[[as|as]]",
         "[[quietly|quietly]]",
-        "[[not|not]]"
+        "[[as|as]]",
+        "[[wake|wake]]",
+        "[[walked|walked]]",
+        "[[He|Él]]",
+        "[[not|not]]",
+        "[[baby|bebé]].",
+        "[[to|a/para]]",
+        "[[the|el/la/los/las]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -597,14 +597,14 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[They|Ellos]] [[were|eran/fueron/estaban/estuvieron]] [[talking|talking]] [[very|muy]] [[loudly|loudly]] [[in|en]] [[the|el/la/los/las]] [[restaurant|restaurante]].",
       "words": [
-        "[[in|en]]",
-        "[[very|muy]]",
-        "[[the|el/la/los/las]]",
         "[[They|Ellos]]",
-        "[[restaurant|restaurante]].",
         "[[were|eran/fueron/estaban/estuvieron]]",
+        "[[restaurant|restaurante]].",
+        "[[in|en]]",
         "[[talking|talking]]",
-        "[[loudly|loudly]]"
+        "[[loudly|loudly]]",
+        "[[very|muy]]",
+        "[[the|el/la/los/las]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -623,12 +623,12 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[She|Ella]] [[handled|handled]] [[the|el/la/los/las]] [[situation|situation]] [[very|muy]] [[professionally|professionally]].",
       "words": [
-        "[[She|Ella]]",
-        "[[professionally|professionally]].",
-        "[[handled|handled]]",
-        "[[the|el/la/los/las]]",
         "[[situation|situation]]",
-        "[[very|muy]]"
+        "[[She|Ella]]",
+        "[[handled|handled]]",
+        "[[very|muy]]",
+        "[[the|el/la/los/las]]",
+        "[[professionally|professionally]]."
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -647,12 +647,12 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[He|Él]] [[wrote|wrote]] [[the|el/la/los/las]] [[letter|letter]] [[very|muy]] [[carefully|carefully]].",
       "words": [
-        "[[He|Él]]",
-        "[[wrote|wrote]]",
-        "[[carefully|carefully]].",
         "[[letter|letter]]",
+        "[[He|Él]]",
+        "[[carefully|carefully]].",
         "[[very|muy]]",
-        "[[the|el/la/los/las]]"
+        "[[the|el/la/los/las]]",
+        "[[wrote|wrote]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -671,12 +671,12 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[rain|rain]] [[fell|fell]] [[heavily|heavily]] [[all|all]] [[night|noche]].",
       "words": [
-        "[[The|El/la/los/las]]",
+        "[[heavily|heavily]]",
+        "[[fell|fell]]",
+        "[[all|all]]",
         "[[rain|rain]]",
         "[[night|noche]].",
-        "[[all|all]]",
-        "[[fell|fell]]",
-        "[[heavily|heavily]]"
+        "[[The|El/la/los/las]]"
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },
@@ -695,10 +695,10 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[They|Ellos]] [[danced|danced]] [[beautifully|beautifully]] [[together|together]].",
       "words": [
-        "[[together|together]].",
+        "[[They|Ellos]]",
         "[[danced|danced]]",
         "[[beautifully|beautifully]]",
-        "[[They|Ellos]]"
+        "[[together|together]]."
       ],
       "explanation": "Practica el orden de las palabras en nivel A2."
     },

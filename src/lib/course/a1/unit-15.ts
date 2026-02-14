@@ -63,8 +63,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
         {
           "question": "[[He|Él]] ([[trabajar|trabajar]]) _______ [[in|en]] [[a|un/una]] [[bank|banco]].",
           "options": [
-            "[[are|están]]",
-            "[[is|es]]",
+            "[[are|son/están]]",
+            "[[is|es/está]]",
             "[[works|works]]"
           ],
           "correctAnswer": 2,
@@ -89,8 +89,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
         {
           "question": "[[She|Ella]] ([[estudiar|estudiar]]) _______ [[history|history]].",
           "options": [
-            "[[are|están]]",
-            "[[is|es]]",
+            "[[are|son/están]]",
+            "[[is|es/está]]",
             "[[studies|studies]]"
           ],
           "correctAnswer": 2,
@@ -113,11 +113,11 @@ export const UNIT_15_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[It|Esto/eso]] ([[jugar|jugar]]) _______ [[with|con]] [[the|el/la/los/las]] [[ball|ball]].",
+          "question": "[[It|Eso]] ([[jugar|jugar]]) _______ [[with|con]] [[the|el/la/los/las]] [[ball|ball]].",
           "options": [
             "[[plays|plays]]",
-            "[[is|es]]",
-            "[[are|están]]"
+            "[[is|es/está]]",
+            "[[are|son/están]]"
           ],
           "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
@@ -141,8 +141,8 @@ export const UNIT_15_EXERCISES: Exercise[] = [
         {
           "question": "[[He|Él]] ([[no|no]] [[-|-]] [[gustar|gustar]]) _______ [[coffee|coffee]].",
           "options": [
-            "[[are|están]]",
-            "[[is|es]]",
+            "[[are|son/están]]",
+            "[[is|es/está]]",
             "[[doesn't like|doesn't like]]"
           ],
           "correctAnswer": 2,
@@ -167,9 +167,9 @@ export const UNIT_15_EXERCISES: Exercise[] = [
         {
           "question": "[[She|Ella]] ([[tener|tener]]) _______ [[a|un/una]] [[car|coche]].",
           "options": [
-            "[[are|están]]",
-            "[[is|es]]",
-            "[[has|has]]"
+            "[[is|es/está]]",
+            "[[are|son/están]]",
+            "[[has|tiene/ha]]"
           ],
           "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
@@ -191,11 +191,11 @@ export const UNIT_15_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[My|Mi/mis]] [[brother|hermano]] [[works|works]] [[in|en]] [[London|Londres]].",
       "words": [
-        "[[My|Mi/mis]]",
-        "[[brother|hermano]]",
-        "[[works|works]]",
         "[[in|en]]",
-        "[[London|Londres]]."
+        "[[works|works]]",
+        "[[London|Londres]].",
+        "[[brother|hermano]]",
+        "[[My|Mi/mis]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -215,9 +215,9 @@ export const UNIT_15_EXERCISES: Exercise[] = [
       "correctSentence": "[[She|Ella]] [[speaks|speaks]] [[three|tres]] [[languages|languages]].",
       "words": [
         "[[languages|languages]].",
-        "[[speaks|speaks]]",
+        "[[three|tres]]",
         "[[She|Ella]]",
-        "[[three|tres]]"
+        "[[speaks|speaks]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -237,12 +237,12 @@ export const UNIT_15_EXERCISES: Exercise[] = [
       "correctSentence": "[[He|Él]] [[goes|goes]] [[to|a/para]] [[the|el/la/los/las]] [[gym|gym]] [[every|every]] [[day|día]].",
       "words": [
         "[[the|el/la/los/las]]",
+        "[[day|día]].",
         "[[He|Él]]",
         "[[goes|goes]]",
-        "[[every|every]]",
-        "[[gym|gym]]",
         "[[to|a/para]]",
-        "[[day|día]]."
+        "[[every|every]]",
+        "[[gym|gym]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -261,12 +261,12 @@ export const UNIT_15_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[dog|dog]] [[plays|plays]] [[in|en]] [[the|el/la/los/las]] [[garden|garden]].",
       "words": [
-        "[[dog|dog]]",
-        "[[the|el/la/los/las]]",
-        "[[The|El/la/los/las]]",
+        "[[garden|garden]].",
         "[[plays|plays]]",
         "[[in|en]]",
-        "[[garden|garden]]."
+        "[[The|El/la/los/las]]",
+        "[[the|el/la/los/las]]",
+        "[[dog|dog]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -285,11 +285,11 @@ export const UNIT_15_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[She|Ella]] [[wants|wants]] [[a|un/una]] [[new|nuevo]] [[computer|ordenador]].",
       "words": [
+        "[[wants|wants]]",
+        "[[She|Ella]]",
         "[[computer|ordenador]].",
         "[[new|nuevo]]",
-        "[[a|un/una]]",
-        "[[wants|wants]]",
-        "[[She|Ella]]"
+        "[[a|un/una]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

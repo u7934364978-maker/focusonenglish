@@ -67,9 +67,9 @@ export const UNIT_27_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] ([[tener|tener]]) _______ [[a|un/una]] [[small|pequeño/pequeña]] [[dog|dog]].",
           "options": [
-            "[[are|están]]",
-            "[[is|es]]",
-            "[[have|have]]"
+            "[[are|son/están]]",
+            "[[is|es/está]]",
+            "[[have|tener/haber]]"
           ],
           "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
@@ -93,11 +93,11 @@ export const UNIT_27_EXERCISES: Exercise[] = [
         {
           "question": "[[She|Ella]] ([[tener|tener]]) _______ [[two|dos]] [[cats|cats]].",
           "options": [
-            "[[has|has]]",
-            "[[is|es]]",
-            "[[are|están]]"
+            "[[is|es/está]]",
+            "[[are|son/están]]",
+            "[[has|tiene/ha]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -119,9 +119,9 @@ export const UNIT_27_EXERCISES: Exercise[] = [
         {
           "question": "[[The|El/la/los/las]] [[elephant|elephant]] ([[ser/estar|ser/estar]] [[-|-]] [[ello|ello]]) _______ [[big|grande]].",
           "options": [
-            "[[are|están]]",
-            "[[is|is]]",
-            "[[is|es]]"
+            "[[are|son/están]]",
+            "[[is|es/está]]",
+            "[[is|es/está]]"
           ],
           "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
@@ -145,9 +145,9 @@ export const UNIT_27_EXERCISES: Exercise[] = [
         {
           "question": "[[Birds|Birds]] ([[poder|poder]]) _______ [[fly|fly]].",
           "options": [
-            "[[are|están]]",
-            "[[is|es]]",
-            "[[can|can]]"
+            "[[are|son/están]]",
+            "[[is|es/está]]",
+            "[[can|poder]]"
           ],
           "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
@@ -169,11 +169,11 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[My|Mi/mis]] [[dog's|dog's]] [[name|nombre]] [[is|es/está]] [[Max|Max]].",
       "words": [
-        "[[My|Mi/mis]]",
-        "[[dog's|dog's]]",
         "[[name|nombre]]",
-        "[[is|es/está]]",
-        "[[Max|Max]]."
+        "[[dog's|dog's]]",
+        "[[Max|Max]].",
+        "[[My|Mi/mis]]",
+        "[[is|es/está]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -192,11 +192,11 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[have|tener/haber]] [[a|un/una]] [[gold|gold]] [[fish|pescado]].",
       "words": [
-        "[[I|Yo]]",
         "[[fish|pescado]].",
-        "[[have|tener/haber]]",
         "[[gold|gold]]",
-        "[[a|un/una]]"
+        "[[a|un/una]]",
+        "[[have|tener/haber]]",
+        "[[I|Yo]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -215,8 +215,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Cats|Cats]] [[like|gustar/como]] [[milk|milk]].",
       "words": [
-        "[[like|gustar/como]]",
         "[[Cats|Cats]]",
+        "[[like|gustar/como]]",
         "[[milk|milk]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
@@ -237,8 +237,8 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "correctSentence": "[[The|El/la/los/las]] [[horse|horse]] [[is|es/está]] [[very|muy]] [[fast|fast]].",
       "words": [
         "[[very|muy]]",
-        "[[The|El/la/los/las]]",
         "[[horse|horse]]",
+        "[[The|El/la/los/las]]",
         "[[fast|fast]].",
         "[[is|es/está]]"
       ],
@@ -259,9 +259,9 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Lions|Lions]] [[live|vivir]] [[in|en]] [[Africa|Africa]].",
       "words": [
-        "[[live|vivir]]",
-        "[[Lions|Lions]]",
         "[[Africa|Africa]].",
+        "[[Lions|Lions]]",
+        "[[live|vivir]]",
         "[[in|en]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."

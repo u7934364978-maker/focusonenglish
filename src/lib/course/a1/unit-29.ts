@@ -67,11 +67,11 @@ export const UNIT_29_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] [[am|soy/estoy]] ([[llevar|llevar]] [[puesto|puesto]]) _______ [[a|un/una]] [[blue|blue]] [[shirt|shirt]].",
           "options": [
-            "[[wearing|wearing]]",
-            "[[is|es]]",
-            "[[are|están]]"
+            "[[are|son/están]]",
+            "[[is|es/está]]",
+            "[[wearing|wearing]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -93,8 +93,8 @@ export const UNIT_29_EXERCISES: Exercise[] = [
         {
           "question": "[[She|Ella]] ([[llevar|llevar]] [[puesto|puesto]]) _______ [[a|un/una]] [[red|red]] [[dress|dress]].",
           "options": [
-            "[[are|están]]",
-            "[[is|es]]",
+            "[[are|son/están]]",
+            "[[is|es/está]]",
             "[[is wearing|is wearing]]"
           ],
           "correctAnswer": 2,
@@ -119,11 +119,11 @@ export const UNIT_29_EXERCISES: Exercise[] = [
         {
           "question": "[[These|Estos/estas]] ([[ser/estar|ser/estar]] [[-|-]] [[ellos|ellos]]) _______ [[my|mi/mis]] [[shoes|shoes]].",
           "options": [
-            "[[are|están]]",
-            "[[is|es]]",
-            "[[are|are]]"
+            "[[are|son/están]]",
+            "[[is|es/está]]",
+            "[[are|son/están]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -145,11 +145,11 @@ export const UNIT_29_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] [[need|necesitar]] [[a|un/una]] ([[nuevo|nuevo]]) _______ [[coat|coat]].",
           "options": [
-            "[[new|new]]",
-            "[[is|es]]",
-            "[[are|están]]"
+            "[[are|son/están]]",
+            "[[new|nuevo]]",
+            "[[is|es/está]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -167,13 +167,13 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My|Mi/mis]] [[shoes|shoes]] [[are|somos/estamos/son/están]] [[very|muy]] [[comfortable|comfortable]].",
+      "correctSentence": "[[My|Mi/mis]] [[shoes|shoes]] [[are|son/están]] [[very|muy]] [[comfortable|comfortable]].",
       "words": [
-        "[[My|Mi/mis]]",
-        "[[shoes|shoes]]",
-        "[[are|somos/estamos/son/están]]",
+        "[[are|son/están]]",
         "[[very|muy]]",
-        "[[comfortable|comfortable]]."
+        "[[comfortable|comfortable]].",
+        "[[My|Mi/mis]]",
+        "[[shoes|shoes]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -193,10 +193,10 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "correctSentence": "[[I|Yo]] [[like|gustar/como]] [[your|tu/tus]] [[new|nuevo]] [[dress|dress]].",
       "words": [
         "[[new|nuevo]]",
-        "[[your|tu/tus]]",
         "[[I|Yo]]",
         "[[dress|dress]].",
-        "[[like|gustar/como]]"
+        "[[like|gustar/como]]",
+        "[[your|tu/tus]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -215,12 +215,12 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[He|Él]] [[is|es/está]] [[wearing|wearing]] [[a|un/una]] [[black|black]] [[hat|hat]].",
       "words": [
-        "[[hat|hat]].",
-        "[[a|un/una]]",
-        "[[black|black]]",
         "[[He|Él]]",
+        "[[is|es/está]]",
+        "[[hat|hat]].",
         "[[wearing|wearing]]",
-        "[[is|es/está]]"
+        "[[a|un/una]]",
+        "[[black|black]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -237,13 +237,13 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[These|Estos/estas]] [[socks|socks]] [[are|somos/estamos/son/están]] [[very|muy]] [[warm|warm]].",
+      "correctSentence": "[[These|Estos/estas]] [[socks|socks]] [[are|son/están]] [[very|muy]] [[warm|warm]].",
       "words": [
+        "[[warm|warm]].",
         "[[very|muy]]",
-        "[[These|Estos/estas]]",
+        "[[are|son/están]]",
         "[[socks|socks]]",
-        "[[are|somos/estamos/son/están]]",
-        "[[warm|warm]]."
+        "[[These|Estos/estas]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -262,10 +262,10 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[need|necesitar]] [[new|nuevo]] [[trousers|trousers]].",
       "words": [
-        "[[trousers|trousers]].",
-        "[[I|Yo]]",
+        "[[new|nuevo]]",
         "[[need|necesitar]]",
-        "[[new|nuevo]]"
+        "[[I|Yo]]",
+        "[[trousers|trousers]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

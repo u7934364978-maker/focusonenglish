@@ -52,8 +52,8 @@ export const UNIT_34_EXERCISES: Exercise[] = [
           "question": "[[I|Yo]] [[like|gustar/como]] [[coffee|coffee]] ([[y|y]]) _______ [[tea|tea]].",
           "options": [
             "[[and|and]]",
-            "[[is|es]]",
-            "[[are|están]]"
+            "[[is|es/está]]",
+            "[[are|son/están]]"
           ],
           "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
@@ -77,11 +77,11 @@ export const UNIT_34_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] [[want|querer]] [[to|a/para]] [[go|ir]] ([[pero|pero]]) _______ [[I|Yo]] [[am|soy/estoy]] [[tired|cansado]].",
           "options": [
-            "[[are|están]]",
             "[[but|but]]",
-            "[[is|es]]"
+            "[[is|es/está]]",
+            "[[are|son/están]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -101,13 +101,13 @@ export const UNIT_34_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[am|soy/estoy]] [[happy|feliz]] ([[porque|porque]]) _______ [[it|esto/eso]] [[is|es/está]] [[Friday|Friday]].",
+          "question": "[[I|Yo]] [[am|soy/estoy]] [[happy|feliz]] ([[porque|porque]]) _______ [[it|eso]] [[is|es/está]] [[Friday|Friday]].",
           "options": [
-            "[[are|están]]",
-            "[[is|es]]",
-            "[[because|because]]"
+            "[[are|son/están]]",
+            "[[because|because]]",
+            "[[is|es/está]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -127,13 +127,13 @@ export const UNIT_34_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Do|Hacer]] [[you|tú/usted/vosotros]] [[want|querer]] [[juice|juice]] ([[o|o]]) _______ [[water|agua]]?",
+          "question": "[[Do|Hacer]] [[you|tú/usted]] [[want|querer]] [[juice|juice]] ([[o|o]]) _______ [[water|agua]]?",
           "options": [
-            "[[or|or]]",
-            "[[are|están]]",
-            "[[is|es]]"
+            "[[are|son/están]]",
+            "[[is|es/está]]",
+            "[[or|or]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -153,12 +153,12 @@ export const UNIT_34_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[can|poder]] [[speak|hablar]] [[English|English]] [[and|and]] [[Spanish|Spanish]].",
       "words": [
-        "[[English|English]]",
         "[[I|Yo]]",
-        "[[and|and]]",
         "[[can|poder]]",
         "[[speak|hablar]]",
-        "[[Spanish|Spanish]]."
+        "[[English|English]]",
+        "[[Spanish|Spanish]].",
+        "[[and|and]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -177,14 +177,14 @@ export const UNIT_34_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[He|Él]] [[is|es/está]] [[tall|alto]] [[but|but]] [[his|su (de él)]] [[brother|hermano]] [[is|es/está]] [[short|bajo/corto]].",
       "words": [
-        "[[short|bajo/corto]].",
+        "[[is|es/está]]",
+        "[[brother|hermano]]",
         "[[his|su (de él)]]",
         "[[but|but]]",
         "[[tall|alto]]",
         "[[is|es/está]]",
-        "[[brother|hermano]]",
-        "[[He|Él]]",
-        "[[is|es/está]]"
+        "[[short|bajo/corto]].",
+        "[[He|Él]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -204,13 +204,13 @@ export const UNIT_34_EXERCISES: Exercise[] = [
       "correctSentence": "[[I|Yo]] [[am|soy/estoy]] [[studying|studying]] [[because|because]] [[I|Yo]] [[have|tener/haber]] [[a|un/una]] [[test|test]].",
       "words": [
         "[[I|Yo]]",
-        "[[studying|studying]]",
-        "[[have|tener/haber]]",
         "[[test|test]].",
         "[[a|un/una]]",
+        "[[because|because]]",
+        "[[studying|studying]]",
         "[[am|soy/estoy]]",
         "[[I|Yo]]",
-        "[[because|because]]"
+        "[[have|tener/haber]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -229,13 +229,13 @@ export const UNIT_34_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[She|Ella]] [[likes|likes]] [[music|music]] [[and|and]] [[she|ella]] [[can|poder]] [[dance|dance]].",
       "words": [
-        "[[She|Ella]]",
-        "[[likes|likes]]",
-        "[[music|music]]",
-        "[[and|and]]",
-        "[[she|ella]]",
         "[[can|poder]]",
-        "[[dance|dance]]."
+        "[[she|ella]]",
+        "[[likes|likes]]",
+        "[[dance|dance]].",
+        "[[music|music]]",
+        "[[She|Ella]]",
+        "[[and|and]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -254,15 +254,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[am|soy/estoy]] [[tired|cansado]] [[so|tan/así que]] [[I|Yo]] [[am|soy/estoy]] [[going|going]] [[to|a/para]] [[bed|cama]].",
       "words": [
-        "[[I|Yo]]",
-        "[[am|soy/estoy]]",
-        "[[am|soy/estoy]]",
-        "[[tired|cansado]]",
-        "[[so|tan/así que]]",
-        "[[I|Yo]]",
-        "[[bed|cama]].",
         "[[going|going]]",
-        "[[to|a/para]]"
+        "[[bed|cama]].",
+        "[[to|a/para]]",
+        "[[am|soy/estoy]]",
+        "[[I|Yo]]",
+        "[[so|tan/así que]]",
+        "[[tired|cansado]]",
+        "[[am|soy/estoy]]",
+        "[[I|Yo]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

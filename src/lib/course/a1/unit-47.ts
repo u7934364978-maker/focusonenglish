@@ -59,9 +59,9 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] [[am|soy/estoy]] ([[en|en]]) _______ [[holiday|holiday]].",
           "options": [
-            "[[on|on]]",
-            "[[is|es]]",
-            "[[are|están]]"
+            "[[on|en/sobre]]",
+            "[[is|es/está]]",
+            "[[are|son/están]]"
           ],
           "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
@@ -85,11 +85,11 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         {
           "question": "[[We|Nosotros]] ([[ir|ir]]) _______ [[to|a/para]] [[the|el/la/los/las]] [[beach|beach]].",
           "options": [
-            "[[is|es]]",
-            "[[go|go]]",
-            "[[are|están]]"
+            "[[are|son/están]]",
+            "[[is|es/está]]",
+            "[[go|ir]]"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -111,11 +111,11 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         {
           "question": "[[She|Ella]] ([[disfrutar|disfrutar]]) _______ [[her|su (de ella)]] [[vacation|vacation]].",
           "options": [
-            "[[enjoys|enjoys]]",
-            "[[is|es]]",
-            "[[are|están]]"
+            "[[is|es/está]]",
+            "[[are|son/están]]",
+            "[[enjoys|enjoys]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -137,11 +137,11 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] [[want|querer]] [[to|a/para]] ([[relajarse|relajarse]]) [[_______|_______]].",
           "options": [
-            "[[are|están]]",
-            "[[is|es]]",
-            "[[relax|relax]]"
+            "[[relax|relax]]",
+            "[[is|es/está]]",
+            "[[are|son/están]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -162,9 +162,9 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "correctSentence": "[[I|Yo]] [[love|love]] [[summer|summer]] [[holidays|holidays]].",
       "words": [
         "[[I|Yo]]",
+        "[[holidays|holidays]].",
         "[[love|love]]",
-        "[[summer|summer]]",
-        "[[holidays|holidays]]."
+        "[[summer|summer]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -181,14 +181,14 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[are|somos/estamos/son/están]] [[going|going]] [[sightseeing|sightseeing]] [[in|en]] [[Paris|Paris]].",
+      "correctSentence": "[[We|Nosotros]] [[are|son/están]] [[going|going]] [[sightseeing|sightseeing]] [[in|en]] [[Paris|Paris]].",
       "words": [
-        "[[going|going]]",
-        "[[Paris|Paris]].",
-        "[[sightseeing|sightseeing]]",
         "[[in|en]]",
-        "[[are|somos/estamos/son/están]]",
-        "[[We|Nosotros]]"
+        "[[going|going]]",
+        "[[are|son/están]]",
+        "[[sightseeing|sightseeing]]",
+        "[[We|Nosotros]]",
+        "[[Paris|Paris]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -207,11 +207,11 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[A|Un/una]] [[holiday|holiday]] [[is|es/está]] [[for|para/por]] [[relaxing|relaxing]].",
       "words": [
-        "[[A|Un/una]]",
-        "[[holiday|holiday]]",
-        "[[is|es/está]]",
+        "[[relaxing|relaxing]].",
         "[[for|para/por]]",
-        "[[relaxing|relaxing]]."
+        "[[is|es/está]]",
+        "[[holiday|holiday]]",
+        "[[A|Un/una]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -231,10 +231,10 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "correctSentence": "[[He|Él]] [[wants|wants]] [[an|un/una]] [[adventure|adventure]] [[vacation|vacation]].",
       "words": [
         "[[adventure|adventure]]",
-        "[[wants|wants]]",
-        "[[He|Él]]",
+        "[[an|un/una]]",
         "[[vacation|vacation]].",
-        "[[an|un/una]]"
+        "[[wants|wants]]",
+        "[[He|Él]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -253,11 +253,11 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[The|El/la/los/las]] [[beach|beach]] [[is|es/está]] [[very|muy]] [[crowded|crowded]].",
       "words": [
-        "[[crowded|crowded]].",
-        "[[very|muy]]",
+        "[[The|El/la/los/las]]",
         "[[is|es/está]]",
-        "[[beach|beach]]",
-        "[[The|El/la/los/las]]"
+        "[[very|muy]]",
+        "[[crowded|crowded]].",
+        "[[beach|beach]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },

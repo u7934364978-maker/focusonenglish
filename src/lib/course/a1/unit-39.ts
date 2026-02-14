@@ -55,11 +55,11 @@ export const UNIT_39_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] [[love|love]] ([[ir|ir]]) _______ [[hiking|hiking]].",
           "options": [
-            "[[are|están]]",
-            "[[is|es]]",
-            "[[going|going]]"
+            "[[is|es/está]]",
+            "[[going|going]]",
+            "[[are|son/están]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -81,11 +81,11 @@ export const UNIT_39_EXERCISES: Exercise[] = [
         {
           "question": "[[We|Nosotros]] ([[ir|ir]]) _______ [[camping|camping]] [[in|en]] [[summer|summer]].",
           "options": [
-            "[[go|go]]",
-            "[[is|es]]",
-            "[[are|están]]"
+            "[[are|son/están]]",
+            "[[is|es/está]]",
+            "[[go|ir]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -107,8 +107,8 @@ export const UNIT_39_EXERCISES: Exercise[] = [
         {
           "question": "[[He|Él]] ([[disfrutar|disfrutar]]) _______ [[cycling|cycling]].",
           "options": [
-            "[[are|están]]",
-            "[[is|es]]",
+            "[[are|son/están]]",
+            "[[is|es/está]]",
             "[[enjoys|enjoys]]"
           ],
           "correctAnswer": 2,
@@ -133,11 +133,11 @@ export const UNIT_39_EXERCISES: Exercise[] = [
         {
           "question": "[[Let's|Let's]] [[have|tener/haber]] [[a|un/una]] ([[merienda|merienda]]) [[_______|_______]].",
           "options": [
-            "[[are|están]]",
-            "[[is|es]]",
-            "[[picnic|picnic]]"
+            "[[picnic|picnic]]",
+            "[[is|es/está]]",
+            "[[are|son/están]]"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
         }
       ]
@@ -157,13 +157,13 @@ export const UNIT_39_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Walking|Walking]] [[is|es/está]] [[very|muy]] [[good|bueno/buena]] [[for|para/por]] [[your|tu/tus]] [[heart|heart]].",
       "words": [
+        "[[good|bueno/buena]]",
         "[[very|muy]]",
-        "[[Walking|Walking]]",
-        "[[is|es/está]]",
-        "[[heart|heart]].",
         "[[for|para/por]]",
         "[[your|tu/tus]]",
-        "[[good|bueno/buena]]"
+        "[[Walking|Walking]]",
+        "[[heart|heart]].",
+        "[[is|es/está]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -183,11 +183,11 @@ export const UNIT_39_EXERCISES: Exercise[] = [
       "correctSentence": "[[We|Nosotros]] [[go|ir]] [[fishing|fishing]] [[on|en/sobre]] [[the|el/la/los/las]] [[lake|lake]].",
       "words": [
         "[[We|Nosotros]]",
-        "[[the|el/la/los/las]]",
-        "[[on|en/sobre]]",
-        "[[lake|lake]].",
         "[[go|ir]]",
-        "[[fishing|fishing]]"
+        "[[fishing|fishing]]",
+        "[[on|en/sobre]]",
+        "[[the|el/la/los/las]]",
+        "[[lake|lake]]."
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -206,12 +206,12 @@ export const UNIT_39_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[Camping|Camping]] [[is|es/está]] [[a|un/una]] [[lot|lot]] [[of|de]] [[fun|fun]].",
       "words": [
-        "[[fun|fun]].",
-        "[[of|de]]",
-        "[[lot|lot]]",
         "[[a|un/una]]",
         "[[is|es/está]]",
-        "[[Camping|Camping]]"
+        "[[Camping|Camping]]",
+        "[[fun|fun]].",
+        "[[of|de]]",
+        "[[lot|lot]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -230,13 +230,13 @@ export const UNIT_39_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una oración correcta.",
       "correctSentence": "[[I|Yo]] [[have|tener/haber]] [[a|un/una]] [[picnic|picnic]] [[in|en]] [[the|el/la/los/las]] [[park|park]].",
       "words": [
-        "[[picnic|picnic]]",
-        "[[the|el/la/los/las]]",
-        "[[a|un/una]]",
         "[[have|tener/haber]]",
         "[[park|park]].",
+        "[[a|un/una]]",
+        "[[picnic|picnic]]",
         "[[I|Yo]]",
-        "[[in|en]]"
+        "[[in|en]]",
+        "[[the|el/la/los/las]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -257,9 +257,9 @@ export const UNIT_39_EXERCISES: Exercise[] = [
       "words": [
         "[[Cycling|Cycling]]",
         "[[walking|walking]].",
-        "[[than|que (comparativo)]]",
+        "[[is|es/está]]",
         "[[faster|faster]]",
-        "[[is|es/está]]"
+        "[[than|que (comparativo)]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
