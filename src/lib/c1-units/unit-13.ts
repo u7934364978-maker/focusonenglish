@@ -16,7 +16,7 @@ export const C1_U13_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 1),
       type: 'fill-blank',
-      question: 'The ___ (much) we [[invest|invertimos]], the better the [[results|resultados]] will be.',
+      question: 'The ___ we [[invest|invertimos]], the better the [[results|resultados]] will be.',
       correctAnswer: 'more',
       explanation: 'Use "The more" for [[countable|contables]] or [[uncountable|incontables]] increases.',
       points: 1
@@ -24,7 +24,7 @@ export const C1_U13_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 2),
       type: 'fill-blank',
-      question: 'The ___ (soon) you [[finish|terminas]] the [[report|informe]], the [[sooner|más pronto]] we can [[leave|irnos]].',
+      question: 'The ___ you [[finish|terminas]] the [[report|informe]], the [[sooner|más pronto]] we can [[leave|irnos]].',
       correctAnswer: 'sooner',
       explanation: 'Comparative form of "soon".',
       points: 1
@@ -32,7 +32,7 @@ export const C1_U13_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 3),
       type: 'fill-blank',
-      question: 'The ___ (hard) you [[work|trabajas]], the [[luckier|más afortunado]] you [[get|te vuelves]].',
+      question: 'The ___ you [[work|trabajas]], the [[luckier|más afortunado]] you [[get|te vuelves]].',
       correctAnswer: 'harder',
       explanation: 'Comparative form of "hard".',
       points: 1
@@ -40,7 +40,7 @@ export const C1_U13_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 4),
       type: 'fill-blank',
-      question: 'The ___ (complex) the [[issue|problema]], the more [[careful|cuidadosos]] we must be.',
+      question: 'The ___ the [[issue|problema]], the more [[careful|cuidadosos]] we must be.',
       correctAnswer: 'more complex',
       explanation: 'Long adjectives use "more" in this structure.',
       points: 1
@@ -48,7 +48,7 @@ export const C1_U13_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 5),
       type: 'fill-blank',
-      question: 'The ___ (little) you [[spend|gastas]], the more you [[save|ahorras]].',
+      question: 'The ___ you [[spend|gastas]], the more you [[save|ahorras]].',
       correctAnswer: 'less',
       explanation: '"Less" is the comparative of "little".',
       points: 1
@@ -56,7 +56,7 @@ export const C1_U13_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 6),
       type: 'fill-blank',
-      question: 'The ___ (high) you [[climb|escalas]], the ___ (thin) the [[air|aire]] [[becomes|se vuelve]].',
+      question: 'The ___ you [[climb|escalas]], the ___ the [[air|aire]] [[becomes|se vuelve]].',
       correctAnswer: 'higher, thinner',
       explanation: 'Both parts of the [[sentence|oración]] need a comparative.',
       points: 1
@@ -64,7 +64,7 @@ export const C1_U13_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 7),
       type: 'fill-blank',
-      question: 'The ___ (big) the [[risk|riesgo]], the ___ (great) the [[reward|recompensa]].',
+      question: 'The ___ the [[risk|riesgo]], the ___ the [[reward|recompensa]].',
       correctAnswer: 'bigger, greater',
       explanation: 'Parallel increase structure.',
       points: 1
@@ -72,7 +72,7 @@ export const C1_U13_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 8),
       type: 'fill-blank',
-      question: 'The ___ (far) we [[go|vamos]], the more [[expensive|caro]] it [[gets|se vuelve]].',
+      question: 'The ___ we [[go|vamos]], the more [[expensive|caro]] it [[gets|se vuelve]].',
       correctAnswer: 'farther',
       explanation: '"Farther" or "further" for [[distance|distancia]].',
       points: 1
@@ -80,7 +80,7 @@ export const C1_U13_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 9),
       type: 'fill-blank',
-      question: 'The ___ (heavy) the [[load|carga]], the ___ (slow) the [[truck|camión]] [[moves|se mueve]].',
+      question: 'The ___ the [[load|carga]], the ___ the [[truck|camión]] [[moves|se mueve]].',
       correctAnswer: 'heavier, slower',
       explanation: 'Comparative forms of heavy and slow.',
       points: 1
@@ -88,7 +88,7 @@ export const C1_U13_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 10),
       type: 'fill-blank',
-      question: 'The ___ (well) you [[prepare|preparas]], the ___ (easy) the [[exam|examen]] will be.',
+      question: 'The ___ you [[prepare|preparas]], the ___ the [[exam|examen]] will be.',
       correctAnswer: 'better, easier',
       explanation: '"Better" is the comparative of "well".',
       points: 1

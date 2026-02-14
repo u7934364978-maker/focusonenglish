@@ -52,3 +52,10 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
 - [x] Verify hover translations across all 30 units.
 - [x] Run final type-check and lint (verified core C1 units).
 - [x] Final verification of unit exports and index.ts.
+
+#### Phase 4: Content Leak Correction
+- [x] Remove answers from `fill-blank` and `multiple-choice` questions (no hints in parentheses).
+- [x] Ensure `___` is used consistently in all questions.
+- [x] Verify that translations `[[word|translation]]` are preserved for context words but not for the answer words themselves.
+- [x] Fix Unit 6 and apply the pattern to all 60 units.
+- [x] Final verification of all units.

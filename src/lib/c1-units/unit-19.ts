@@ -16,7 +16,7 @@ export const C1_U19_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 1),
       type: 'fill-blank',
-      question: '___ (the) [[life|vida]] of a [[musician|músico]] is often [[difficult|difícil]].',
+      question: '___ [[life|vida]] of a [[musician|músico]] is often [[difficult|difícil]].',
       correctAnswer: 'The',
       explanation: 'Use "the" when talking about a [[specific|específica]] life or the [[concept|concepto]] of a particular life.',
       points: 1
@@ -24,7 +24,7 @@ export const C1_U19_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 2),
       type: 'fill-blank',
-      question: '___ (zero) [[life|vida]] exists on [[Mars|Marte]].',
+      question: '___ [[life|vida]] exists on [[Mars|Marte]].',
       correctAnswer: 'no',
       explanation: 'General [[uncountable|incontable]] nouns often take the [[zero article|artículo cero]] or a [[quantifier|cuantificador]].',
       points: 1
@@ -32,7 +32,7 @@ export const C1_U19_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 3),
       type: 'fill-blank',
-      question: 'He was [[elected|elegido]] ___ (zero) [[President|presidente]].',
+      question: 'He was [[elected|elegido]] ___ [[President|presidente]].',
       correctAnswer: '',
       explanation: 'Articles are often omitted before [[titles|títulos]] expressing a [[unique|único]] [[rank|rango]].',
       points: 1
@@ -40,7 +40,7 @@ export const C1_U19_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 4),
       type: 'fill-blank',
-      question: '___ (the) [[rich|ricos]] should [[help|ayudar]] the [[poor|pobres]].',
+      question: '___ [[rich|ricos]] should [[help|ayudar]] the [[poor|pobres]].',
       correctAnswer: 'The',
       explanation: '"The + adjective" refers to a [[group|grupo]] of people.',
       points: 1
@@ -48,7 +48,7 @@ export const C1_U19_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 5),
       type: 'fill-blank',
-      question: 'I love listening to ___ (the) [[violin|violín]].',
+      question: 'I love listening to ___ [[violin|violín]].',
       correctAnswer: 'the',
       explanation: 'Use "the" with [[musical instruments|instrumentos musicales]] in a general sense.',
       points: 1
@@ -56,7 +56,7 @@ export const C1_U19_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 6),
       type: 'fill-blank',
-      question: 'He is in ___ (zero) [[prison|prisión]] for [[theft|robo]].',
+      question: 'He is in ___ [[prison|prisión]] for [[theft|robo]].',
       correctAnswer: '',
       explanation: 'Zero article is used when referring to the [[purpose|propósito]] of an institution (prison, school, church).',
       points: 1
@@ -64,7 +64,7 @@ export const C1_U19_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 7),
       type: 'fill-blank',
-      question: 'She went to ___ (the) [[prison|prisión]] to [[visit|visitar]] him.',
+      question: 'She went to ___ [[prison|prisión]] to [[visit|visitar]] him.',
       correctAnswer: 'the',
       explanation: 'Use "the" when referring to the [[building|edificio]] itself.',
       points: 1
@@ -72,7 +72,7 @@ export const C1_U19_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 8),
       type: 'fill-blank',
-      question: '___ (the) [[nature|naturaleza]] is beautiful in the [[spring|primavera]].',
+      question: '___ [[nature|naturaleza]] is beautiful in the [[spring|primavera]].',
       correctAnswer: '',
       explanation: '"Nature" (the environment) usually takes the [[zero article|artículo cero]].',
       points: 1
@@ -80,7 +80,7 @@ export const C1_U19_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 9),
       type: 'fill-blank',
-      question: 'We need to [[protect|proteger]] ___ (the) [[environment|medio ambiente]].',
+      question: 'We need to [[protect|proteger]] ___ [[environment|medio ambiente]].',
       correctAnswer: 'the',
       explanation: '"The environment" is a specific concept that requires "the".',
       points: 1
@@ -88,7 +88,7 @@ export const C1_U19_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 10),
       type: 'fill-blank',
-      question: 'He works as ___ (an) [[engineer|ingeniero]].',
+      question: 'He works as ___ [[engineer|ingeniero]].',
       correctAnswer: 'an',
       explanation: 'Use "a/an" with [[professions|profesiones]].',
       points: 1
@@ -109,7 +109,7 @@ export const C1_U19_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 1),
       type: 'fill-blank',
-      question: 'The ___ (discover) of the [[virus|virus]] was a [[turning|punto de]] point.',
+      question: 'The ___ of the [[virus|virus]] was a [[turning|punto de]] point.',
       correctAnswer: 'discovery',
       explanation: 'Noun form of "discover".',
       points: 1
@@ -117,7 +117,7 @@ export const C1_U19_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 2),
       type: 'fill-blank',
-      question: 'His ___ (refuse) to [[comply|cumplir]] [[led|llevó]] to his [[arrest|arresto]].',
+      question: 'His ___ to [[comply|cumplir]] [[led|llevó]] to his [[arrest|arresto]].',
       correctAnswer: 'refusal',
       explanation: 'Noun form of "refuse".',
       points: 1
@@ -125,7 +125,7 @@ export const C1_U19_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 3),
       type: 'fill-blank',
-      question: 'The ___ (unlikely) of the [[event|evento]] [[surprised|sorprendió]] us.',
+      question: 'The ___ of the [[event|evento]] [[surprised|sorprendió]] us.',
       correctAnswer: 'unlikelihood',
       explanation: 'Noun form of "unlikely".',
       points: 1
@@ -133,7 +133,7 @@ export const C1_U19_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 4),
       type: 'fill-blank',
-      question: 'The ___ (grow) of the [[economy|economía]] has [[slowed|ralentizado]].',
+      question: 'The ___ of the [[economy|economía]] has [[slowed|ralentizado]].',
       correctAnswer: 'growth',
       explanation: 'Noun form of "grow".',
       points: 1
@@ -141,7 +141,7 @@ export const C1_U19_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 5),
       type: 'fill-blank',
-      question: 'There is a ___ (short) of [[skilled|cualificados]] [[workers|trabajadores]].',
+      question: 'There is a ___ of [[skilled|cualificados]] [[workers|trabajadores]].',
       correctAnswer: 'shortage',
       explanation: 'Noun form of "short".',
       points: 1
@@ -149,7 +149,7 @@ export const C1_U19_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 6),
       type: 'fill-blank',
-      question: 'Her ___ (perform) was [[outstanding|sobresaliente]].',
+      question: 'Her ___ was [[outstanding|sobresaliente]].',
       correctAnswer: 'performance',
       explanation: 'Noun form of "perform".',
       points: 1
@@ -157,7 +157,7 @@ export const C1_U19_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 7),
       type: 'fill-blank',
-      question: 'The ___ (intend) of the [[law|ley]] is [[clear|clara]].',
+      question: 'The ___ of the [[law|ley]] is [[clear|clara]].',
       correctAnswer: 'intention',
       explanation: 'Noun form of "intend".',
       points: 1
@@ -165,7 +165,7 @@ export const C1_U19_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 8),
       type: 'fill-blank',
-      question: '___ (fail) to [[disclose|revelar]] [[information|información]] is an [[offence|delito]].',
+      question: '___ to [[disclose|revelar]] [[information|información]] is an [[offence|delito]].',
       correctAnswer: 'Failure',
       explanation: 'Noun form of "fail".',
       points: 1
@@ -173,7 +173,7 @@ export const C1_U19_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 9),
       type: 'fill-blank',
-      question: 'The ___ (high) of the [[mountain|montaña]] is [[daunting|desalentadora]].',
+      question: 'The ___ of the [[mountain|montaña]] is [[daunting|desalentadora]].',
       correctAnswer: 'height',
       explanation: 'Noun form of "high".',
       points: 1
@@ -181,7 +181,7 @@ export const C1_U19_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 10),
       type: 'fill-blank',
-      question: 'His ___ (rely) on [[luck|suerte]] is [[concerning|preocupante]].',
+      question: 'His ___ on [[luck|suerte]] is [[concerning|preocupante]].',
       correctAnswer: 'reliance',
       explanation: 'Noun form of "rely".',
       points: 1
@@ -202,7 +202,7 @@ export const C1_U19_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 1),
       type: 'multiple-choice',
-      question: 'He sailed across ___ (the) [[Atlantic|Atlántico]].',
+      question: 'He sailed across ___ [[Atlantic|Atlántico]].',
       options: ['the', 'a', 'zero'],
       correctAnswer: 'the',
       explanation: 'Use "the" with [[oceans|océanos]].',
@@ -211,7 +211,7 @@ export const C1_U19_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 2),
       type: 'multiple-choice',
-      question: 'She lives in ___ (the) [[Netherlands|Países Bajos]].',
+      question: 'She lives in ___ [[Netherlands|Países Bajos]].',
       options: ['the', 'zero', 'a'],
       correctAnswer: 'the',
       explanation: 'Plural [[country names|nombres de países]] take "the".',
@@ -220,7 +220,7 @@ export const C1_U19_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 3),
       type: 'multiple-choice',
-      question: 'He climbed ___ (zero) [[Mount|Monte]] [[Everest|Everest]].',
+      question: 'He climbed ___ [[Mount|Monte]] [[Everest|Everest]].',
       options: ['zero', 'the', 'a'],
       correctAnswer: 'zero',
       explanation: 'Single [[mountains|montañas]] take the zero article.',
@@ -229,7 +229,7 @@ export const C1_U19_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 4),
       type: 'multiple-choice',
-      question: '___ (the) [[Andes|Andes]] are in [[South America|Sudamérica]].',
+      question: '___ [[Andes|Andes]] are in [[South America|Sudamérica]].',
       options: ['The', 'Zero', 'A'],
       correctAnswer: 'The',
       explanation: '[[Mountain ranges|Cordilleras]] take "the".',
@@ -238,7 +238,7 @@ export const C1_U19_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 5),
       type: 'multiple-choice',
-      question: 'They visited ___ (the) [[Louvre|Louvre]].',
+      question: 'They visited ___ [[Louvre|Louvre]].',
       options: ['the', 'zero', 'a'],
       correctAnswer: 'the',
       explanation: '[[Museums|Museos]] and [[galleries|galerías]] take "the".',
@@ -247,7 +247,7 @@ export const C1_U19_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 6),
       type: 'multiple-choice',
-      question: 'We had lunch at ___ (zero) [[Claridge\'s|Claridge\'s]].',
+      question: 'We had lunch at ___ [[Claridge\'s|Claridge\'s]].',
       options: ['zero', 'the', 'a'],
       correctAnswer: 'zero',
       explanation: 'Names ending in -\'s often take the zero article.',
@@ -256,7 +256,7 @@ export const C1_U19_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 7),
       type: 'multiple-choice',
-      question: '___ (the) [[United|Estados]] [[States|Unidos]] is a large [[country|país]].',
+      question: '___ [[United|Estados]] [[States|Unidos]] is a large [[country|país]].',
       options: ['The', 'Zero', 'A'],
       correctAnswer: 'The',
       explanation: 'Countries with "United", "Republic", or "Kingdom" take "the".',
@@ -265,7 +265,7 @@ export const C1_U19_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 8),
       type: 'multiple-choice',
-      question: '___ (the) [[Hague|Haya]] is in the Netherlands.',
+      question: '___ [[Hague|Haya]] is in the Netherlands.',
       options: ['The', 'Zero', 'A'],
       correctAnswer: 'The',
       explanation: 'Some [[cities|ciudades]] require "the" as part of their name.',
@@ -274,7 +274,7 @@ export const C1_U19_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 9),
       type: 'multiple-choice',
-      question: 'He is from ___ (zero) [[South|Sudáfrica]] [[Africa|Sudáfrica]].',
+      question: 'He is from ___ [[South|Sudáfrica]] [[Africa|Sudáfrica]].',
       options: ['zero', 'the', 'a'],
       correctAnswer: 'zero',
       explanation: 'Most countries take the zero article.',
@@ -283,7 +283,7 @@ export const C1_U19_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 10),
       type: 'multiple-choice',
-      question: 'They crossed ___ (the) [[Sahara|Sáhara]].',
+      question: 'They crossed ___ [[Sahara|Sáhara]].',
       options: ['the', 'zero', 'a'],
       correctAnswer: 'the',
       explanation: '[[Deserts|Desiertos]] take "the".',
@@ -305,7 +305,7 @@ export const C1_U19_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 1),
       type: 'multiple-choice',
-      question: '___ (Each) [[student|estudiante]] [[has|tiene]] a unique [[ID|identificación]].',
+      question: '___ [[student|estudiante]] [[has|tiene]] a unique [[ID|identificación]].',
       options: ['Each', 'All', 'Every'],
       correctAnswer: 'Each',
       explanation: '"Each" emphasizes [[individual|individuales]] members.',
@@ -314,7 +314,7 @@ export const C1_U19_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 2),
       type: 'multiple-choice',
-      question: '___ (All) the [[students|estudiantes]] [[have|tienen]] finished.',
+      question: '___ the [[students|estudiantes]] [[have|tienen]] finished.',
       options: ['All', 'Every', 'Each'],
       correctAnswer: 'All',
       explanation: '"All" takes a [[plural|plural]] verb.',
@@ -323,7 +323,7 @@ export const C1_U19_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 3),
       type: 'multiple-choice',
-      question: '___ (None) of the [[work|trabajo]] has been [[done|hecho]].',
+      question: '___ of the [[work|trabajo]] has been [[done|hecho]].',
       options: ['None', 'No', 'Neither'],
       correctAnswer: 'None',
       explanation: '"None of" can be followed by an [[uncountable|incontable]] noun.',
@@ -332,7 +332,7 @@ export const C1_U19_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 4),
       type: 'multiple-choice',
-      question: '___ (Neither) of my [[parents|padres]] is [[here|aquí]].',
+      question: '___ of my [[parents|padres]] is [[here|aquí]].',
       options: ['Neither', 'None', 'Either'],
       correctAnswer: 'Neither',
       explanation: '"Neither" refers to [[two|dos]] people/things.',
@@ -341,7 +341,7 @@ export const C1_U19_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 5),
       type: 'multiple-choice',
-      question: 'I have ___ (little) [[patience|paciencia]] for this.',
+      question: 'I have ___ [[patience|paciencia]] for this.',
       options: ['little', 'few', 'small'],
       correctAnswer: 'little',
       explanation: '"Little" is used with [[uncountable|incontables]].',
@@ -350,7 +350,7 @@ export const C1_U19_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 6),
       type: 'multiple-choice',
-      question: 'There were ___ (few) [[people|personas]] at the [[party|fiesta]].',
+      question: 'There were ___ [[people|personas]] at the [[party|fiesta]].',
       options: ['few', 'little', 'less'],
       correctAnswer: 'few',
       explanation: '"Few" is used with [[countable|contables]].',
@@ -359,7 +359,7 @@ export const C1_U19_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 7),
       type: 'multiple-choice',
-      question: 'I had ___ (a little) [[time|tiempo]], so I [[read|leí]].',
+      question: 'I had ___ [[time|tiempo]], so I [[read|leí]].',
       options: ['a little', 'little', 'few'],
       correctAnswer: 'a little',
       explanation: '"A little" means [[some|algo]], while "little" means [[not enough|no suficiente]].',
@@ -368,7 +368,7 @@ export const C1_U19_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 8),
       type: 'multiple-choice',
-      question: '___ (Every) [[one|uno]] of the [[books|libros]] [[was|fue]] [[signed|firmado]].',
+      question: '___ [[one|uno]] of the [[books|libros]] [[was|fue]] [[signed|firmado]].',
       options: ['Every', 'All', 'Each'],
       correctAnswer: 'Every',
       explanation: '"Every one of" is followed by a [[plural|plural]] noun but takes a [[singular|singular]] verb.',
@@ -377,7 +377,7 @@ export const C1_U19_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 9),
       type: 'multiple-choice',
-      question: 'I don\'t have ___ (any) [[money|dinero]].',
+      question: 'I don\'t have ___ [[money|dinero]].',
       options: ['any', 'some', 'no'],
       correctAnswer: 'any',
       explanation: 'Use "any" in [[negative|negativas]] sentences.',
@@ -386,7 +386,7 @@ export const C1_U19_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 10),
       type: 'multiple-choice',
-      question: '___ (Both) [[cities|ciudades]] are beautiful.',
+      question: '___ [[cities|ciudades]] are beautiful.',
       options: ['Both', 'Either', 'Neither'],
       correctAnswer: 'Both',
       explanation: '"Both" refers to two and takes a [[plural|plural]] verb.',

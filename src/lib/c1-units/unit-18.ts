@@ -16,7 +16,7 @@ export const C1_U18_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 1),
       type: 'multiple-choice',
-      question: 'The [[view|vista]] from the [[top|cima]] was ___ (absolutely) [[stunning|impresionante]].',
+      question: 'The [[view|vista]] from the [[top|cima]] was ___ [[stunning|impresionante]].',
       options: ['absolutely', 'very', 'fairly'],
       correctAnswer: 'absolutely',
       explanation: '"Stunning" is non-gradable (extreme), so it pairs with "absolutely".',
@@ -25,7 +25,7 @@ export const C1_U18_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 2),
       type: 'multiple-choice',
-      question: 'It was a ___ (very) [[cold|frío]] [[day|día]].',
+      question: 'It was a ___ [[cold|frío]] [[day|día]].',
       options: ['very', 'completely', 'utterly'],
       correctAnswer: 'very',
       explanation: '"Cold" is gradable, so it takes "very".',
@@ -34,7 +34,7 @@ export const C1_U18_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 3),
       type: 'multiple-choice',
-      question: 'The [[results|resultados]] were ___ (utterly) [[ridiculous|ridículos]].',
+      question: 'The [[results|resultados]] were ___ [[ridiculous|ridículos]].',
       options: ['utterly', 'slightly', 'bit'],
       correctAnswer: 'utterly',
       explanation: '"Ridiculous" is non-gradable.',
@@ -43,7 +43,7 @@ export const C1_U18_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 4),
       type: 'multiple-choice',
-      question: 'I am ___ (completely) [[exhausted|exhausto]].',
+      question: 'I am ___ [[exhausted|exhausto]].',
       options: ['completely', 'very', 'fairly'],
       correctAnswer: 'completely',
       explanation: '"Exhausted" is the non-gradable version of "tired".',
@@ -52,7 +52,7 @@ export const C1_U18_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 5),
       type: 'multiple-choice',
-      question: 'The [[movie|película]] was ___ (quite) [[good|buena]].',
+      question: 'The [[movie|película]] was ___ [[good|buena]].',
       options: ['quite', 'utterly', 'completely'],
       correctAnswer: 'quite',
       explanation: '"Good" is gradable.',
@@ -61,7 +61,7 @@ export const C1_U18_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 6),
       type: 'multiple-choice',
-      question: 'The [[food|comida]] was ___ (totally) [[delicious|deliciosa]].',
+      question: 'The [[food|comida]] was ___ [[delicious|deliciosa]].',
       options: ['totally', 'very', 'extremely'],
       correctAnswer: 'totally',
       explanation: '"Delicious" is non-gradable.',
@@ -70,7 +70,7 @@ export const C1_U18_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 7),
       type: 'multiple-choice',
-      question: 'He was ___ (extremely) [[angry|enojado]].',
+      question: 'He was ___ [[angry|enojado]].',
       options: ['extremely', 'absolutely', 'utterly'],
       correctAnswer: 'extremely',
       explanation: '"Angry" is gradable.',
@@ -79,7 +79,7 @@ export const C1_U18_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 8),
       type: 'multiple-choice',
-      question: 'It is ___ (perfectly) [[reasonable|razonable]].',
+      question: 'It is ___ [[reasonable|razonable]].',
       options: ['perfectly', 'utterly', 'bit'],
       correctAnswer: 'perfectly',
       explanation: '"Reasonable" often pairs with "perfectly".',
@@ -88,7 +88,7 @@ export const C1_U18_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 9),
       type: 'multiple-choice',
-      question: 'The [[house|casa]] was ___ (fairly) [[big|grande]].',
+      question: 'The [[house|casa]] was ___ [[big|grande]].',
       options: ['fairly', 'absolutely', 'totally'],
       correctAnswer: 'fairly',
       explanation: '"Big" is gradable.',
@@ -97,7 +97,7 @@ export const C1_U18_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 10),
       type: 'multiple-choice',
-      question: 'That is ___ (purely) [[speculative|especulativo]].',
+      question: 'That is ___ [[speculative|especulativo]].',
       options: ['purely', 'very', 'slightly'],
       correctAnswer: 'purely',
       explanation: '"Speculative" is often modified by "purely" at a C1 level.',
@@ -119,7 +119,7 @@ export const C1_U18_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 1),
       type: 'multiple-choice',
-      question: 'He is a ___ (well-known) [[author|autor]].',
+      question: 'He is a ___ [[author|autor]].',
       options: ['well-known', 'good-known', 'better-known'],
       correctAnswer: 'well-known',
       explanation: '"Well-known" is a standard compound adjective.',
@@ -128,7 +128,7 @@ export const C1_U18_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 2),
       type: 'multiple-choice',
-      question: 'It was a ___ (ten-minute) [[walk|caminata]].',
+      question: 'It was a ___ [[walk|caminata]].',
       options: ['ten-minute', 'ten-minutes', 'ten-minutely'],
       correctAnswer: 'ten-minute',
       explanation: 'In compound adjectives, nouns are [[singular|singulares]].',
@@ -137,7 +137,7 @@ export const C1_U18_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 3),
       type: 'multiple-choice',
-      question: 'She is a ___ (highly-skilled) [[worker|trabajadora]].',
+      question: 'She is a ___ [[worker|trabajadora]].',
       options: ['highly-skilled', 'high-skilled', 'skilled-high'],
       correctAnswer: 'highly-skilled',
       explanation: 'Adverb + past participle structure.',
@@ -146,7 +146,7 @@ export const C1_U18_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 4),
       type: 'multiple-choice',
-      question: 'This is a ___ (brand-new) [[car|coche]].',
+      question: 'This is a ___ [[car|coche]].',
       options: ['brand-new', 'fire-new', 'fresh-new'],
       correctAnswer: 'brand-new',
       explanation: '"Brand-new" means [[completely|completamente]] new.',
@@ -155,7 +155,7 @@ export const C1_U18_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 5),
       type: 'multiple-choice',
-      question: 'He is very ___ (short-tempered).',
+      question: 'He is very ___.',
       options: ['short-tempered', 'small-tempered', 'low-tempered'],
       correctAnswer: 'short-tempered',
       explanation: '"Short-tempered" means [[getting|ponerse]] [[angry|enojado]] easily.',
@@ -164,7 +164,7 @@ export const C1_U18_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 6),
       type: 'multiple-choice',
-      question: 'It was an ___ (eye-opening) [[experience|experiencia]].',
+      question: 'It was an ___ [[experience|experiencia]].',
       options: ['eye-opening', 'eye-opened', 'eye-open'],
       correctAnswer: 'eye-opening',
       explanation: '"Eye-opening" means revealing something [[surprising|sorprendente]].',
@@ -173,7 +173,7 @@ export const C1_U18_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 7),
       type: 'multiple-choice',
-      question: 'The [[meeting|reunión]] was ___ (time-consuming).',
+      question: 'The [[meeting|reunión]] was ___.',
       options: ['time-consuming', 'time-spent', 'time-waste'],
       correctAnswer: 'time-consuming',
       explanation: '"Time-consuming" means taking a lot of [[time|tiempo]].',
@@ -182,7 +182,7 @@ export const C1_U18_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 8),
       type: 'multiple-choice',
-      question: 'He is a ___ (middle-aged) [[man|hombre]].',
+      question: 'He is a ___ [[man|hombre]].',
       options: ['middle-aged', 'mid-aged', 'middle-age'],
       correctAnswer: 'middle-aged',
       explanation: 'Using the -ed form for compound adjectives describing states.',
@@ -191,7 +191,7 @@ export const C1_U18_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 9),
       type: 'multiple-choice',
-      question: 'It was a ___ (record-breaking) [[performance|actuación]].',
+      question: 'It was a ___ [[performance|actuación]].',
       options: ['record-breaking', 'record-broken', 'record-break'],
       correctAnswer: 'record-breaking',
       explanation: 'Noun + present participle.',
@@ -200,7 +200,7 @@ export const C1_U18_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 10),
       type: 'multiple-choice',
-      question: 'They are ___ (world-famous).',
+      question: 'They are ___.',
       options: ['world-famous', 'earth-famous', 'globe-famous'],
       correctAnswer: 'world-famous',
       explanation: 'Standard compound for global recognition.',
@@ -222,7 +222,7 @@ export const C1_U18_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 1),
       type: 'fill-blank',
-      question: 'The [[task|tarea]] is ___ (virtually) [[impossible|imposible]].',
+      question: 'The [[task|tarea]] is ___ [[impossible|imposible]].',
       correctAnswer: 'virtually',
       explanation: '"Virtually" means [[almost|casi]] or [[nearly|casi]].',
       points: 2
@@ -230,7 +230,7 @@ export const C1_U18_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 2),
       type: 'fill-blank',
-      question: 'He ___ (hardly) [[spoke|habló]] [[during|durante]] the [[interview|entrevista]].',
+      question: 'He ___ [[spoke|habló]] [[during|durante]] the [[interview|entrevista]].',
       correctAnswer: 'hardly',
       explanation: '"Hardly" means [[almost|casi]] not.',
       points: 2
@@ -238,7 +238,7 @@ export const C1_U18_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 3),
       type: 'fill-blank',
-      question: 'The [[results|resultados]] were ___ (remarkably) [[good|buenos]].',
+      question: 'The [[results|resultados]] were ___ [[good|buenos]].',
       correctAnswer: 'remarkably',
       explanation: '"Remarkably" shows [[surprise|sorpresa]] or [[emphasis|énfasis]].',
       points: 2
@@ -246,7 +246,7 @@ export const C1_U18_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 4),
       type: 'fill-blank',
-      question: 'He ___ (barely) [[managed|logró]] to [[finish|terminar]].',
+      question: 'He ___ [[managed|logró]] to [[finish|terminar]].',
       correctAnswer: 'barely',
       explanation: '"Barely" means [[only|solo]] just.',
       points: 2
@@ -254,7 +254,7 @@ export const C1_U18_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 5),
       type: 'fill-blank',
-      question: 'I ___ (strongly) [[disagree|en desacuerdo]] with that [[statement|afirmación]].',
+      question: 'I ___ [[disagree|en desacuerdo]] with that [[statement|afirmación]].',
       correctAnswer: 'strongly',
       explanation: '"Strongly" collocates with "disagree".',
       points: 2
@@ -262,7 +262,7 @@ export const C1_U18_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 6),
       type: 'fill-blank',
-      question: 'The [[prices|precios]] have [[risen|subido]] ___ (sharply).',
+      question: 'The [[prices|precios]] have [[risen|subido]] ___.',
       correctAnswer: 'sharply',
       explanation: '"Sharply" means [[quickly|rápidamente]] and by a [[large|gran]] [[amount|cantidad]].',
       points: 2
@@ -270,7 +270,7 @@ export const C1_U18_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 7),
       type: 'fill-blank',
-      question: 'He is ___ (widely) [[considered|considerado]] the [[best|mejor]].',
+      question: 'He is ___ [[considered|considerado]] the [[best|mejor]].',
       correctAnswer: 'widely',
       explanation: '"Widely" means by a [[lot|muchas]] of [[people|personas]].',
       points: 2
@@ -278,7 +278,7 @@ export const C1_U18_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 8),
       type: 'fill-blank',
-      question: 'I am ___ (fully) [[aware|consciente]] of the [[risks|riesgos]].',
+      question: 'I am ___ [[aware|consciente]] of the [[risks|riesgos]].',
       correctAnswer: 'fully',
       explanation: '"Fully" collocates with "aware".',
       points: 2
@@ -286,7 +286,7 @@ export const C1_U18_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 9),
       type: 'fill-blank',
-      question: 'The [[plan|plan]] was ___ (carefully) [[thought|pensado]] [[out|del todo]].',
+      question: 'The [[plan|plan]] was ___ [[thought|pensado]] [[out|del todo]].',
       correctAnswer: 'carefully',
       explanation: '"Carefully" describes the [[manner|manera]].',
       points: 2
@@ -294,7 +294,7 @@ export const C1_U18_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 10),
       type: 'fill-blank',
-      question: 'It was ___ (totally) [[unexpected|inesperado]].',
+      question: 'It was ___ [[unexpected|inesperado]].',
       correctAnswer: 'totally',
       explanation: '"Totally" for [[total|total]] [[emphasis|énfasis]].',
       points: 2
@@ -315,7 +315,7 @@ export const C1_U18_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 1),
       type: 'multiple-choice',
-      question: '___ (Regrettably), the [[event|evento]] was [[cancelled|cancelado]].',
+      question: '___, the [[event|evento]] was [[cancelled|cancelado]].',
       options: ['Regrettably', 'Sadly', 'Unluckily'],
       correctAnswer: 'Regrettably',
       explanation: '"Regrettably" is more formal than "sadly".',
@@ -324,7 +324,7 @@ export const C1_U18_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 2),
       type: 'multiple-choice',
-      question: '___ (Presumably), they [[forgot|olvidaron]] the [[time|hora]].',
+      question: '___, they [[forgot|olvidaron]] the [[time|hora]].',
       options: ['Presumably', 'Probably', 'Maybe'],
       correctAnswer: 'Presumably',
       explanation: '"Presumably" means [[based|basado]] on what is [[likely|probable]].',
@@ -333,7 +333,7 @@ export const C1_U18_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 3),
       type: 'multiple-choice',
-      question: '___ (Admittedly), I made a [[mistake|error]].',
+      question: '___, I made a [[mistake|error]].',
       options: ['Admittedly', 'Truly', 'Honestly'],
       correctAnswer: 'Admittedly',
       explanation: '"Admittedly" is used when [[conceding|concediendo]] a [[point|punto]].',
@@ -342,7 +342,7 @@ export const C1_U18_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 4),
       type: 'multiple-choice',
-      question: '___ (Coincidentally), we [[met|encontramos]] the [[same|mismo]] [[day|día]].',
+      question: '___, we [[met|encontramos]] the [[same|mismo]] [[day|día]].',
       options: ['Coincidentally', 'Luckily', 'Happily'],
       correctAnswer: 'Coincidentally',
       explanation: '"Coincidentally" shows it was a [[coincidence|coincidencia]].',
@@ -351,7 +351,7 @@ export const C1_U18_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 5),
       type: 'multiple-choice',
-      question: '___ (Understandably), she was [[upset|molesta]].',
+      question: '___, she was [[upset|molesta]].',
       options: ['Understandably', 'Actually', 'Basically'],
       correctAnswer: 'Understandably',
       explanation: '"Understandably" means it is [[easy|fácil]] to understand why.',
@@ -360,7 +360,7 @@ export const C1_U18_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 6),
       type: 'multiple-choice',
-      question: '___ (Fortunately), no one was [[hurt|herido]].',
+      question: '___, no one was [[hurt|herido]].',
       options: ['Fortunately', 'Luckily', 'Happily'],
       correctAnswer: 'Fortunately',
       explanation: 'Formal version of "luckily".',
@@ -369,7 +369,7 @@ export const C1_U18_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 7),
       type: 'multiple-choice',
-      question: '___ (Curiously), the [[door|puerta]] was [[unlocked|abierta]].',
+      question: '___, the [[door|puerta]] was [[unlocked|abierta]].',
       options: ['Curiously', 'Strangely', 'Oddly'],
       correctAnswer: 'Curiously',
       explanation: '"Curiously" shows it was [[interesting|interesante]] or [[strange|extraño]].',
@@ -378,7 +378,7 @@ export const C1_U18_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 8),
       type: 'multiple-choice',
-      question: '___ (Apparently), they have [[moved|mudado]] [[away|lejos]].',
+      question: '___, they have [[moved|mudado]] [[away|lejos]].',
       options: ['Apparently', 'Seemingly', 'Presumably'],
       correctAnswer: 'Apparently',
       explanation: '"Apparently" means [[based|basado]] on what you have [[heard|oído]].',
@@ -387,7 +387,7 @@ export const C1_U18_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 9),
       type: 'multiple-choice',
-      question: '___ (Paradoxically), the [[more|más]] he [[studied|estudió]], the [[worse|peor]] he [[did|hizo]].',
+      question: '___, the [[more|más]] he [[studied|estudió]], the [[worse|peor]] he [[did|hizo]].',
       options: ['Paradoxically', 'Incredibly', 'Amazingly'],
       correctAnswer: 'Paradoxically',
       explanation: '"Paradoxically" shows a [[contradictory|contradictoria]] situation.',
@@ -396,7 +396,7 @@ export const C1_U18_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 10),
       type: 'multiple-choice',
-      question: '___ (Briefly), the project was a [[success|éxito]].',
+      question: '___, the project was a [[success|éxito]].',
       options: ['Briefly', 'Shortly', 'Quickly'],
       correctAnswer: 'Briefly',
       explanation: '"Briefly" is used to [[summarize|resumir]].',

@@ -16,7 +16,7 @@ export const C1_U15_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 1),
       type: 'fill-blank',
-      question: '___ (whereas) some [[people|personas]] [[prefer|prefieren]] [[city|ciudad]] life, others [[crave|anhelan]] the [[quiet|tranquilidad]] of the [[countryside|campo]].',
+      question: '___ some [[people|personas]] [[prefer|prefieren]] [[city|ciudad]] life, others [[crave|anhelan]] the [[quiet|tranquilidad]] of the [[countryside|campo]].',
       correctAnswer: 'Whereas',
       explanation: '"Whereas" is used to [[contrast|contrastar]] two [[facts|hechos]].',
       points: 1
@@ -24,7 +24,7 @@ export const C1_U15_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 2),
       type: 'fill-blank',
-      question: 'The [[project|proyecto]] will [[succeed|tener éxito]] ___ (provided) that [[everyone|todos]] [[cooperates|cooperan]].',
+      question: 'The [[project|proyecto]] will [[succeed|tener éxito]] ___ that [[everyone|todos]] [[cooperates|cooperan]].',
       correctAnswer: 'provided',
       explanation: '"Provided that" means "only if".',
       points: 1
@@ -32,7 +32,7 @@ export const C1_U15_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 3),
       type: 'fill-blank',
-      question: '___ (inasmuch) as the [[deadline|fecha límite]] is [[approaching|acercándose]], we should [[start|empezar]] now.',
+      question: '___ as the [[deadline|fecha límite]] is [[approaching|acercándose]], we should [[start|empezar]] now.',
       correctAnswer: 'Inasmuch',
       explanation: '"Inasmuch as" is a formal way to say [[since|ya que]] or [[because|porque]].',
       points: 1
@@ -40,7 +40,7 @@ export const C1_U15_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 4),
       type: 'fill-blank',
-      question: 'You can [[borrow|tomar prestado]] the [[car|coche]] so ___ (long) as you [[refuel|repostas]].',
+      question: 'You can [[borrow|tomar prestado]] the [[car|coche]] so ___ as you [[refuel|repostas]].',
       correctAnswer: 'long',
       explanation: '"So long as" is a [[synonym|sinónimo]] for "as long as".',
       points: 1
@@ -48,7 +48,7 @@ export const C1_U15_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 5),
       type: 'fill-blank',
-      question: '___ (lest) anyone should [[forget|olvide]], the [[meeting|reunión]] is at 9 AM.',
+      question: '___ anyone should [[forget|olvide]], the [[meeting|reunión]] is at 9 AM.',
       correctAnswer: 'Lest',
       explanation: '"Lest" is used to [[prevent|prevenir]] something [[negative|negativo]].',
       points: 1
@@ -56,7 +56,7 @@ export const C1_U15_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 6),
       type: 'fill-blank',
-      question: 'We will [[go|ir]] ___ (whether) it [[rains|llueve]] or [[shines|hace sol]].',
+      question: 'We will [[go|ir]] ___ it [[rains|llueve]] or [[shines|hace sol]].',
       correctAnswer: 'whether',
       explanation: '"Whether... or" expresses [[alternatives|alternativas]].',
       points: 1
@@ -64,7 +64,7 @@ export const C1_U15_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 7),
       type: 'fill-blank',
-      question: 'The [[bill|ley]] was [[passed|aprobada]], ___ (albeit) with some [[minor|menores]] [[amendments|enmiendas]].',
+      question: 'The [[bill|ley]] was [[passed|aprobada]], ___ with some [[minor|menores]] [[amendments|enmiendas]].',
       correctAnswer: 'albeit',
       explanation: '"Albeit" means [[even though|aunque]].',
       points: 1
@@ -72,7 +72,7 @@ export const C1_U15_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 8),
       type: 'fill-blank',
-      question: '___ (seeing) as you are [[here|aquí]], you might as well [[help|ayudar]].',
+      question: '___ as you are [[here|aquí]], you might as well [[help|ayudar]].',
       correctAnswer: 'Seeing',
       explanation: '"Seeing as" is an [[informal|informal]] [[causal|causal]] [[connector|conector]].',
       points: 1
@@ -80,7 +80,7 @@ export const C1_U15_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 9),
       type: 'fill-blank',
-      question: '___ (now) that the [[elections|elecciones]] are [[over|terminadas]], we can [[focus|enfocarnos]] on [[work|trabajo]].',
+      question: '___ that the [[elections|elecciones]] are [[over|terminadas]], we can [[focus|enfocarnos]] on [[work|trabajo]].',
       correctAnswer: 'Now',
       explanation: '"Now that" [[indicates|indica]] a [[change|cambio]] in [[situation|situación]].',
       points: 1
@@ -88,7 +88,7 @@ export const C1_U15_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 10),
       type: 'fill-blank',
-      question: '___ (notwithstanding) the fact that he was [[tired|cansado]], he [[finished|terminó]].',
+      question: '___ the fact that he was [[tired|cansado]], he [[finished|terminó]].',
       correctAnswer: 'Notwithstanding',
       explanation: '"Notwithstanding the fact that" is a formal [[concession|concesión]].',
       points: 1
@@ -266,7 +266,7 @@ export const C1_U15_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 7),
       type: 'multiple-choice',
-      question: 'The [[prices|precios]] [[dropped|bajaron]], and ___ (thus) [[demand|demanda]] [[increased|aumentó]].',
+      question: 'The [[prices|precios]] [[dropped|bajaron]], and ___ [[demand|demanda]] [[increased|aumentó]].',
       options: ['thus', 'otherwise', 'instead'],
       correctAnswer: 'thus',
       explanation: '"Thus" means "in this way" or "therefore".',
@@ -293,7 +293,7 @@ export const C1_U15_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 10),
       type: 'multiple-choice',
-      question: 'The [[weather|tiempo]] was [[bad|malo]], ___ (yet) we [[enjoyed|disfrutamos]] the [[trip|viaje]].',
+      question: 'The [[weather|tiempo]] was [[bad|malo]], ___ we [[enjoyed|disfrutamos]] the [[trip|viaje]].',
       options: ['yet', 'so', 'for'],
       correctAnswer: 'yet',
       explanation: '"Yet" shows [[unexpected|inesperado]] contrast.',
@@ -417,7 +417,7 @@ export const C1_U15_BLOCK5: Exercise = {
     {
       id: genId(UNIT_ID, 'b5', 2),
       type: 'multiple-choice',
-      question: '___ (Inasmuch) as the data is [[flawed|defectuoso]], the [[conclusion|conclusión]] is [[invalid|inválida]].',
+      question: '___ as the data is [[flawed|defectuoso]], the [[conclusion|conclusión]] is [[invalid|inválida]].',
       options: ['Inasmuch', 'Since', 'Because'],
       correctAnswer: 'Inasmuch',
       explanation: 'Most formal option for a cause.',
@@ -435,7 +435,7 @@ export const C1_U15_BLOCK5: Exercise = {
     {
       id: genId(UNIT_ID, 'b5', 4),
       type: 'multiple-choice',
-      question: '___ (Lest) the [[situation|situación]] [[worsen|empeore]], we must act now.',
+      question: '___ the [[situation|situación]] [[worsen|empeore]], we must act now.',
       options: ['Lest', 'For fear', 'So that'],
       correctAnswer: 'Lest',
       explanation: 'Formal connector for avoiding negative outcomes.',
@@ -453,7 +453,7 @@ export const C1_U15_BLOCK5: Exercise = {
     {
       id: genId(UNIT_ID, 'b5', 6),
       type: 'multiple-choice',
-      question: 'The [[test|prueba]] was [[successful|exitosa]], ___ (albeit) [[expensive|cara]].',
+      question: 'The [[test|prueba]] was [[successful|exitosa]], ___ [[expensive|cara]].',
       options: ['albeit', 'although', 'but'],
       correctAnswer: 'albeit',
       explanation: '"Albeit" is concise and formal.',
@@ -462,7 +462,7 @@ export const C1_U15_BLOCK5: Exercise = {
     {
       id: genId(UNIT_ID, 'b5', 7),
       type: 'multiple-choice',
-      question: '___ (Conversely), those who [[invest|invierten]] early [[reap|cosechan]] [[benefits|beneficios]].',
+      question: '___, those who [[invest|invierten]] early [[reap|cosechan]] [[benefits|beneficios]].',
       options: ['Conversely', 'Actually', 'Anyway'],
       correctAnswer: 'Conversely',
       explanation: 'Formal contrast of two [[opposing|opuestas]] situations.',
@@ -471,7 +471,7 @@ export const C1_U15_BLOCK5: Exercise = {
     {
       id: genId(UNIT_ID, 'b5', 8),
       type: 'multiple-choice',
-      question: 'The [[laws|leyes]] were [[changed|cambiadas]]. ___ (Subsequently), [[crime|crimen]] [[rates|tasas]] [[fell|cayeron]].',
+      question: 'The [[laws|leyes]] were [[changed|cambiadas]]. ___, [[crime|crimen]] [[rates|tasas]] [[fell|cayeron]].',
       options: ['Subsequently', 'Later', 'Then'],
       correctAnswer: 'Subsequently',
       explanation: 'Formal temporal connector.',
@@ -480,7 +480,7 @@ export const C1_U15_BLOCK5: Exercise = {
     {
       id: genId(UNIT_ID, 'b5', 9),
       type: 'multiple-choice',
-      question: '___ (Notwithstanding) the [[risks|riesgos]], the [[venture|empresa]] was [[funded|financiada]].',
+      question: '___ the [[risks|riesgos]], the [[venture|empresa]] was [[funded|financiada]].',
       options: ['Notwithstanding', 'Despite of', 'Even though'],
       correctAnswer: 'Notwithstanding',
       explanation: 'Formal concession.',
@@ -489,7 +489,7 @@ export const C1_U15_BLOCK5: Exercise = {
     {
       id: genId(UNIT_ID, 'b5', 10),
       type: 'multiple-choice',
-      question: 'It is essential to [[verify|verificar]] the data. ___ (Hence), the [[need|necesidad]] for a [[second|segunda]] [[opinion|opinión]].',
+      question: 'It is essential to [[verify|verificar]] the data. ___, the [[need|necesidad]] for a [[second|segunda]] [[opinion|opinión]].',
       options: ['Hence', 'So', 'For this'],
       correctAnswer: 'Hence',
       explanation: 'Formal result connector.',

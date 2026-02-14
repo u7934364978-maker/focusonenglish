@@ -16,16 +16,16 @@ export const C1_U5_BLOCK1: Exercise = {
     id: genId(UNIT_ID, 'b1', i + 1),
     type: 'fill-blank',
     question: [
-      'It is ___ (believe) that the company is facing financial difficulties.',
-      'He is ___ (think) to be hiding somewhere in the city.',
-      'The [[protesters|manifestantes]] are ___ (report) to have blocked the main road.',
-      'It is ___ (expect) that the new law will be [[passed|aprobada]] next month.',
-      'The painting is ___ (allege) to be a [[fake|falsificación]].',
-      'She is ___ (rumour) to be planning a comeback.',
-      'It was ___ (claim) that the medicine had [[harmful|dañinos]] side effects.',
-      'They are ___ (understand) to have reached an agreement.',
-      'He is ___ (say) to be the richest man in the country.',
-      'It is ___ (estimate) that the project will cost millions.'
+      'It is ___ that the company is facing financial difficulties.',
+      'He is ___ to be hiding somewhere in the city.',
+      'The [[protesters|manifestantes]] are ___ to have blocked the main road.',
+      'It is ___ that the new law will be [[passed|aprobada]] next month.',
+      'The painting is ___ to be a [[fake|falsificación]].',
+      'She is ___ to be planning a comeback.',
+      'It was ___ that the medicine had [[harmful|dañinos]] side effects.',
+      'They are ___ to have reached an agreement.',
+      'He is ___ to be the richest man in the country.',
+      'It is ___ that the project will cost millions.'
     ][i],
     correctAnswer: [
       'believed',

@@ -16,7 +16,7 @@ export const C1_U20_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 1),
       type: 'fill-blank',
-      question: 'The [[company|empresa]] [[found|encontró]] ___ (itself) in a [[difficult|difícil]] [[position|posición]].',
+      question: 'The [[company|empresa]] [[found|encontró]] ___ in a [[difficult|difícil]] [[position|posición]].',
       correctAnswer: 'itself',
       explanation: 'Use "itself" when the [[subject|sujeto]] and [[object|objeto]] are the same.',
       points: 1
@@ -24,7 +24,7 @@ export const C1_U20_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 2),
       type: 'fill-blank',
-      question: 'They [[helped|ayudaron]] ___ (one another) during the [[crisis|crisis]].',
+      question: 'They [[helped|ayudaron]] ___ during the [[crisis|crisis]].',
       correctAnswer: 'one another',
       explanation: '"One another" is slightly more [[formal|formal]] than "each other".',
       points: 1
@@ -32,7 +32,7 @@ export const C1_U20_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 3),
       type: 'fill-blank',
-      question: 'You should [[pride|enorgullecerse]] ___ (yourself) on your [[achievements|logros]].',
+      question: 'You should [[pride|enorgullecerse]] ___ on your [[achievements|logros]].',
       correctAnswer: 'yourself',
       explanation: '"Pride oneself on" is a reflexive [[collocation|colocación]].',
       points: 1
@@ -40,7 +40,7 @@ export const C1_U20_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 4),
       type: 'fill-blank',
-      question: 'The [[problem|problema]] [[resolved|resolvió]] ___ (itself) [[eventually|finalmente]].',
+      question: 'The [[problem|problema]] [[resolved|resolvió]] ___ [[eventually|finalmente]].',
       correctAnswer: 'itself',
       explanation: 'Reflexive used for [[automatic|automáticas]] or [[natural|naturales]] actions.',
       points: 1
@@ -48,7 +48,7 @@ export const C1_U20_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 5),
       type: 'fill-blank',
-      question: 'We [[reminded|recordamos]] ___ (ourselves) of the [[goal|objetivo]].',
+      question: 'We [[reminded|recordamos]] ___ of the [[goal|objetivo]].',
       correctAnswer: 'ourselves',
       explanation: 'Plural reflexive pronoun.',
       points: 1
@@ -56,7 +56,7 @@ export const C1_U20_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 6),
       type: 'fill-blank',
-      question: 'They [[blamed|culparon]] [[each|cada]] ___ (other) for the [[failure|fracaso]].',
+      question: 'They [[blamed|culparon]] [[each|cada]] ___ for the [[failure|fracaso]].',
       correctAnswer: 'other',
       explanation: '"Each other" for reciprocal [[blame|culpa]].',
       points: 1
@@ -64,7 +64,7 @@ export const C1_U20_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 7),
       type: 'fill-blank',
-      question: 'The [[building|edificio]] ___ (itself) is not [[old|viejo]], but the [[site|lugar]] is.',
+      question: 'The [[building|edificio]] ___ is not [[old|viejo]], but the [[site|lugar]] is.',
       correctAnswer: 'itself',
       explanation: 'Reflexive used for [[emphasis|énfasis]].',
       points: 1
@@ -72,7 +72,7 @@ export const C1_U20_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 8),
       type: 'fill-blank',
-      question: 'She [[taught|enseñó]] ___ (herself) how to [[code|programar]].',
+      question: 'She [[taught|enseñó]] ___ how to [[code|programar]].',
       correctAnswer: 'herself',
       explanation: '"Teach oneself" means to be [[self-taught|autodidacta]].',
       points: 1
@@ -80,7 +80,7 @@ export const C1_U20_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 9),
       type: 'fill-blank',
-      question: 'He [[behaved|comportó]] ___ (himself) at the [[party|fiesta]].',
+      question: 'He [[behaved|comportó]] ___ at the [[party|fiesta]].',
       correctAnswer: 'himself',
       explanation: '"Behave oneself" is a common reflexive phrase.',
       points: 1
@@ -88,7 +88,7 @@ export const C1_U20_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 10),
       type: 'fill-blank',
-      question: 'The [[two|dos]] [[countries|países]] [[respect|respetan]] ___ (one another).',
+      question: 'The [[two|dos]] [[countries|países]] [[respect|respetan]] ___.',
       correctAnswer: 'one another',
       explanation: 'Reciprocal relationship.',
       points: 1
@@ -109,7 +109,7 @@ export const C1_U20_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 1),
       type: 'multiple-choice',
-      question: '___ (Anyone) could have [[done|hecho]] it; it was [[easy|fácil]].',
+      question: '___ could have [[done|hecho]] it; it was [[easy|fácil]].',
       options: ['Anyone', 'Someone', 'No one'],
       correctAnswer: 'Anyone',
       explanation: '"Anyone" implies it doesn\'t [[matter|importar]] who.',
@@ -118,7 +118,7 @@ export const C1_U20_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 2),
       type: 'multiple-choice',
-      question: '___ (Someone) [[called|llamó]] while you were [[out|fuera]].',
+      question: '___ [[called|llamó]] while you were [[out|fuera]].',
       options: ['Someone', 'Anyone', 'No one'],
       correctAnswer: 'Someone',
       explanation: '"Someone" refers to a [[specific|específica]] but [[unidentified|no identificada]] person.',
@@ -127,7 +127,7 @@ export const C1_U20_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 3),
       type: 'multiple-choice',
-      question: 'There is ___ (nothing) we can do [[now|ahora]].',
+      question: 'There is ___ we can do [[now|ahora]].',
       options: ['nothing', 'anything', 'something'],
       correctAnswer: 'nothing',
       explanation: '"Nothing" is for [[negative|negativa]] certainty.',
@@ -136,7 +136,7 @@ export const C1_U20_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 4),
       type: 'multiple-choice',
-      question: '___ (None) of the [[staff|personal]] [[were|estaban]] [[informed|informados]].',
+      question: '___ of the [[staff|personal]] [[were|estaban]] [[informed|informados]].',
       options: ['None', 'No one', 'Nothing'],
       correctAnswer: 'None',
       explanation: '"None" can be used for [[people|personas]] or [[things|cosas]] in a group.',
@@ -145,7 +145,7 @@ export const C1_U20_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 5),
       type: 'multiple-choice',
-      question: 'Does ___ (anyone) [[know|sabe]] the [[answer|respuesta]]?',
+      question: 'Does ___ [[know|sabe]] the [[answer|respuesta]]?',
       options: ['anyone', 'someone', 'no one'],
       correctAnswer: 'anyone',
       explanation: 'Use "anyone" in [[questions|preguntas]].',
@@ -154,7 +154,7 @@ export const C1_U20_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 6),
       type: 'multiple-choice',
-      question: 'I have ___ (something) to [[tell|decir]] you.',
+      question: 'I have ___ to [[tell|decir]] you.',
       options: ['something', 'anything', 'nothing'],
       correctAnswer: 'something',
       explanation: '"Something" in [[affirmative|afirmativas]] sentences.',
@@ -163,7 +163,7 @@ export const C1_U20_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 7),
       type: 'multiple-choice',
-      question: '___ (Everyone) [[was|estaba]] [[surprised|sorprendido]].',
+      question: '___ [[was|estaba]] [[surprised|sorprendido]].',
       options: ['Everyone', 'Every', 'All'],
       correctAnswer: 'Everyone',
       explanation: '"Everyone" takes a [[singular|singular]] verb.',
@@ -172,7 +172,7 @@ export const C1_U20_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 8),
       type: 'multiple-choice',
-      question: '___ (Everything) is [[ready|listo]].',
+      question: '___ is [[ready|listo]].',
       options: ['Everything', 'Every', 'All'],
       correctAnswer: 'Everything',
       explanation: 'Indefinite pronoun for things.',
@@ -181,7 +181,7 @@ export const C1_U20_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 9),
       type: 'multiple-choice',
-      question: 'I searched [[everywhere|todas partes]], but found ___ (nothing).',
+      question: 'I searched [[everywhere|todas partes]], but found ___.',
       options: ['nothing', 'anything', 'something'],
       correctAnswer: 'nothing',
       explanation: 'Negative outcome.',
@@ -190,7 +190,7 @@ export const C1_U20_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 10),
       type: 'multiple-choice',
-      question: 'Is there ___ (anybody) [[else|más]] [[coming|viniendo]]?',
+      question: 'Is there ___ [[else|más]] [[coming|viniendo]]?',
       options: ['anybody', 'somebody', 'nobody'],
       correctAnswer: 'anybody',
       explanation: '"Anybody" in a question.',
@@ -212,7 +212,7 @@ export const C1_U20_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 1),
       type: 'fill-blank',
-      question: 'He [[arrived|llegó]] late, ___ (which) [[annoyed|molestó]] everyone.',
+      question: 'He [[arrived|llegó]] late, ___ [[annoyed|molestó]] everyone.',
       correctAnswer: 'which',
       explanation: '"Which" can refer back to the [[entire|toda]] [[previous|anterior]] clause.',
       points: 2
@@ -220,7 +220,7 @@ export const C1_U20_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 2),
       type: 'fill-blank',
-      question: 'They [[failed|fallaron]] to [[act|actuar]]. ___ (This) [[led|llevó]] to [[disaster|desastre]].',
+      question: 'They [[failed|fallaron]] to [[act|actuar]]. ___ [[led|llevó]] to [[disaster|desastre]].',
       correctAnswer: 'This',
       explanation: '"This" at the [[start|inicio]] of a sentence refers to the [[previous|anterior]] idea.',
       points: 2
@@ -228,7 +228,7 @@ export const C1_U20_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 3),
       type: 'fill-blank',
-      question: 'I [[saw|vi]] a [[car|coche]] and a [[bike|bici]]; the ___ (former) was [[red|rojo]].',
+      question: 'I [[saw|vi]] a [[car|coche]] and a [[bike|bici]]; the ___ was [[red|rojo]].',
       correctAnswer: 'former',
       explanation: '"The former" refers to the [[first|primero]] of two mentioned items.',
       points: 2
@@ -236,7 +236,7 @@ export const C1_U20_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 4),
       type: 'fill-blank',
-      question: 'I [[saw|vi]] a [[car|coche]] and a [[bike|bici]]; the ___ (latter) was [[blue|azul]].',
+      question: 'I [[saw|vi]] a [[car|coche]] and a [[bike|bici]]; the ___ was [[blue|azul]].',
       correctAnswer: 'latter',
       explanation: '"The latter" refers to the [[second|segundo]] of two mentioned items.',
       points: 2
@@ -244,7 +244,7 @@ export const C1_U20_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 5),
       type: 'fill-blank',
-      question: 'He [[loves|ama]] [[coding|programar]]; ___ (it) is his [[passion|pasión]].',
+      question: 'He [[loves|ama]] [[coding|programar]]; ___ is his [[passion|pasión]].',
       correctAnswer: 'it',
       explanation: '"It" replaces the [[gerund|gerundio]].',
       points: 2
@@ -252,7 +252,7 @@ export const C1_U20_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 6),
       type: 'fill-blank',
-      question: 'The [[results|resultados]] were [[poor|pobres]]. ___ (Such) was the [[impact|impacto]] of the [[storm|tormenta]].',
+      question: 'The [[results|resultados]] were [[poor|pobres]]. ___ was the [[impact|impacto]] of the [[storm|tormenta]].',
       correctAnswer: 'Such',
       explanation: '"Such" can refer back to a [[situation|situación]] already [[described|descrita]].',
       points: 2
@@ -260,7 +260,7 @@ export const C1_U20_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 7),
       type: 'fill-blank',
-      question: 'She [[spoke|habló]] [[quickly|rápido]], and ___ (so) did [[he|él]].',
+      question: 'She [[spoke|habló]] [[quickly|rápido]], and ___ did [[he|él]].',
       correctAnswer: 'so',
       explanation: '"So" refers back to the [[verb phrase|frase verbal]].',
       points: 2
@@ -268,7 +268,7 @@ export const C1_U20_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 8),
       type: 'fill-blank',
-      question: 'He said he would [[help|ayudar]], but he [[didn\'t|no lo hizo]] do ___ (so).',
+      question: 'He said he would [[help|ayudar]], but he [[didn\'t|no lo hizo]] do ___.',
       correctAnswer: 'so',
       explanation: '"Do so" is a formal way to [[refer back|referirse atrás]] to an action.',
       points: 2
@@ -276,7 +276,7 @@ export const C1_U20_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 9),
       type: 'fill-blank',
-      question: 'The [[manager|gerente]] [[resigned|renunció]], ___ (that) is [[why|por qué]] we are [[hiring|contratando]].',
+      question: 'The [[manager|gerente]] [[resigned|renunció]], ___ is [[why|por qué]] we are [[hiring|contratando]].',
       correctAnswer: 'that',
       explanation: '"That" links a [[cause|causa]] to an [[effect|efecto]].',
       points: 2
@@ -284,7 +284,7 @@ export const C1_U20_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 10),
       type: 'fill-blank',
-      question: 'One should [[always|siempre]] [[respect|respetar]] ___ (oneself).',
+      question: 'One should [[always|siempre]] [[respect|respetar]] ___.',
       correctAnswer: 'oneself',
       explanation: 'Reflexive for the [[impersonal|impersonal]] "one".',
       points: 2
@@ -305,7 +305,7 @@ export const C1_U20_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 1),
       type: 'multiple-choice',
-      question: 'To ___ (whom) should I [[address|dirigir]] the [[letter|carta]]?',
+      question: 'To ___ should I [[address|dirigir]] the [[letter|carta]]?',
       options: ['whom', 'who', 'whose'],
       correctAnswer: 'whom',
       explanation: 'Use "whom" after a [[preposition|preposición]].',
@@ -314,7 +314,7 @@ export const C1_U20_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 2),
       type: 'multiple-choice',
-      question: 'The [[woman|mujer]] ___ (whose) [[car|coche]] was [[stolen|robado]] is my [[neighbor|vecina]].',
+      question: 'The [[woman|mujer]] ___ [[car|coche]] was [[stolen|robado]] is my [[neighbor|vecina]].',
       options: ['whose', 'whom', 'who'],
       correctAnswer: 'whose',
       explanation: '"Whose" expresses [[possession|posesión]].',
@@ -323,7 +323,7 @@ export const C1_U20_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 3),
       type: 'multiple-choice',
-      question: 'The [[process|proceso]] ___ (whereby) we [[learn|aprendemos]] is [[complex|complejo]].',
+      question: 'The [[process|proceso]] ___ we [[learn|aprendemos]] is [[complex|complejo]].',
       options: ['whereby', 'wherein', 'wherefore'],
       correctAnswer: 'whereby',
       explanation: '"Whereby" means "by which".',
@@ -332,7 +332,7 @@ export const C1_U20_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 4),
       type: 'multiple-choice',
-      question: 'The [[reason|razón]] ___ (why) I am [[here|aquí]] is [[secret|secreta]].',
+      question: 'The [[reason|razón]] ___ I am [[here|aquí]] is [[secret|secreta]].',
       options: ['why', 'where', 'when'],
       correctAnswer: 'why',
       explanation: '"Why" refers to a reason.',
@@ -341,7 +341,7 @@ export const C1_U20_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 5),
       type: 'multiple-choice',
-      question: 'The [[town|pueblo]] ___ (where) I was [[born|nacido]] is [[small|pequeño]].',
+      question: 'The [[town|pueblo]] ___ I was [[born|nacido]] is [[small|pequeño]].',
       options: ['where', 'which', 'that'],
       correctAnswer: 'where',
       explanation: '"Where" refers to a [[place|lugar]].',
@@ -350,7 +350,7 @@ export const C1_U20_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 6),
       type: 'multiple-choice',
-      question: 'The [[time|momento]] ___ (when) he [[arrived|llegó]] was [[midnight|medianoche]].',
+      question: 'The [[time|momento]] ___ he [[arrived|llegó]] was [[midnight|medianoche]].',
       options: ['when', 'where', 'which'],
       correctAnswer: 'when',
       explanation: '"When" refers to a [[time|tiempo]].',
@@ -359,7 +359,7 @@ export const C1_U20_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 7),
       type: 'multiple-choice',
-      question: 'He is the [[man|hombre]] ___ (who) [[won|ganó]].',
+      question: 'He is the [[man|hombre]] ___ [[won|ganó]].',
       options: ['who', 'whom', 'which'],
       correctAnswer: 'who',
       explanation: '"Who" as the [[subject|sujeto]].',
@@ -368,7 +368,7 @@ export const C1_U20_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 8),
       type: 'multiple-choice',
-      question: 'They [[offered|ofrecieron]] two [[options|opciones]], [[neither|ninguna]] of ___ (which) was [[suitable|adecuada]].',
+      question: 'They [[offered|ofrecieron]] two [[options|opciones]], [[neither|ninguna]] of ___ was [[suitable|adecuada]].',
       options: ['which', 'whom', 'that'],
       correctAnswer: 'which',
       explanation: 'Use "which" for things after a [[prepositional phrase|frase preposicional]].',
@@ -377,7 +377,7 @@ export const C1_U20_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 9),
       type: 'multiple-choice',
-      question: 'I met several [[people|personas]], [[one|una]] of ___ (whom) was a [[doctor|médico]].',
+      question: 'I met several [[people|personas]], [[one|una]] of ___ was a [[doctor|médico]].',
       options: ['whom', 'who', 'which'],
       correctAnswer: 'whom',
       explanation: 'Use "whom" for people after a [[prepositional phrase|frase preposicional]].',
@@ -386,7 +386,7 @@ export const C1_U20_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 10),
       type: 'multiple-choice',
-      question: 'The [[book|libro]] ___ (that) I [[read|leí]] was [[fascinating|fascinante]].',
+      question: 'The [[book|libro]] ___ I [[read|leí]] was [[fascinating|fascinante]].',
       options: ['that', 'who', 'whom'],
       correctAnswer: 'that',
       explanation: '"That" for things in [[defining|definitorias]] clauses.',

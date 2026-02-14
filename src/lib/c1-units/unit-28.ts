@@ -16,7 +16,7 @@ export const C1_U28_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 1),
       type: 'fill-blank',
-      question: '___ (Honestly), I [[don\'t|no]] [[know|sé]] what to [[say|decir]].',
+      question: '___, I [[don\'t|no]] [[know|sé]] what to [[say|decir]].',
       correctAnswer: 'Honestly',
       explanation: 'Sentence adverb at the front for emphasis.',
       points: 1
@@ -24,7 +24,7 @@ export const C1_U28_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 2),
       type: 'fill-blank',
-      question: 'He ___ (slowly) [[opened|abrió]] the [[door|puerta]].',
+      question: 'He ___ [[opened|abrió]] the [[door|puerta]].',
       correctAnswer: 'slowly',
       explanation: 'Adverb of manner in mid-position.',
       points: 1
@@ -32,7 +32,7 @@ export const C1_U28_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 3),
       type: 'fill-blank',
-      question: 'She was [[clearly|claramente]] ___ (upset) by the [[news|noticias]].',
+      question: 'She was [[clearly|claramente]] ___ by the [[news|noticias]].',
       correctAnswer: 'upset',
       explanation: 'Adverb of degree/opinion before adjective.',
       points: 1
@@ -40,7 +40,7 @@ export const C1_U28_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 4),
       type: 'fill-blank',
-      question: '___ (Clearly), there has been a [[mistake|error]].',
+      question: '___, there has been a [[mistake|error]].',
       correctAnswer: 'Clearly',
       explanation: 'Comment adverb at the start.',
       points: 1
@@ -48,7 +48,7 @@ export const C1_U28_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 5),
       type: 'fill-blank',
-      question: 'I ___ (only) [[saw|vi]] him for a [[minute|minuto]].',
+      question: 'I ___ [[saw|vi]] him for a [[minute|minuto]].',
       correctAnswer: 'only',
       explanation: '"Only" positioning is crucial for focus.',
       points: 1
@@ -56,7 +56,7 @@ export const C1_U28_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 6),
       type: 'fill-blank',
-      question: 'He [[works|trabaja]] ___ (exceptionally) [[hard|duro]].',
+      question: 'He [[works|trabaja]] ___ [[hard|duro]].',
       correctAnswer: 'exceptionally',
       explanation: 'Intensifying adverb.',
       points: 1
@@ -64,7 +64,7 @@ export const C1_U28_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 7),
       type: 'fill-blank',
-      question: '___ (Actually), I [[prefer|prefiero]] the [[other|otro]] one.',
+      question: '___, I [[prefer|prefiero]] the [[other|otro]] one.',
       correctAnswer: 'Actually',
       explanation: 'Discourse marker position.',
       points: 1
@@ -72,7 +72,7 @@ export const C1_U28_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 8),
       type: 'fill-blank',
-      question: 'They [[arrived|llegaron]] ___ (unexpectedly) [[late|tarde]].',
+      question: 'They [[arrived|llegaron]] ___ [[late|tarde]].',
       correctAnswer: 'unexpectedly',
       explanation: 'Adverb modifying another adverb.',
       points: 1
@@ -80,7 +80,7 @@ export const C1_U28_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 9),
       type: 'fill-blank',
-      question: 'I ___ (never) [[expected|esperé]] such a [[result|resultado]].',
+      question: 'I ___ [[expected|esperé]] such a [[result|resultado]].',
       correctAnswer: 'never',
       explanation: 'Frequency adverb position.',
       points: 1
@@ -88,7 +88,7 @@ export const C1_U28_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 10),
       type: 'fill-blank',
-      question: 'He ___ (carefully) [[prepared|preparó]] the [[report|informe]].',
+      question: 'He ___ [[prepared|preparó]] the [[report|informe]].',
       correctAnswer: 'carefully',
       explanation: 'Manner adverb position.',
       points: 1
@@ -109,7 +109,7 @@ export const C1_U28_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 1),
       type: 'multiple-choice',
-      question: '___ (That) I can [[believe|creer]].',
+      question: '___ I can [[believe|creer]].',
       options: ['That', 'It', 'What'],
       correctAnswer: 'That',
       explanation: 'Fronting the object for focus.',
@@ -118,7 +118,7 @@ export const C1_U28_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 2),
       type: 'multiple-choice',
-      question: '___ (Into) the [[room|habitación]] [[walked|caminó]] the [[CEO|director]].',
+      question: '___ the [[room|habitación]] [[walked|caminó]] the [[CEO|director]].',
       options: ['Into', 'To', 'At'],
       correctAnswer: 'Into',
       explanation: 'Prepositional fronting with inversion.',
@@ -127,7 +127,7 @@ export const C1_U28_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 3),
       type: 'multiple-choice',
-      question: '___ (So) [[scared|asustado]] was he that he [[couldn\'t|no pudo]] [[speak|hablar]].',
+      question: '___ [[scared|asustado]] was he that he [[couldn\'t|no pudo]] [[speak|hablar]].',
       options: ['So', 'Such', 'Very'],
       correctAnswer: 'So',
       explanation: '"So + adjective" fronting.',
@@ -136,7 +136,7 @@ export const C1_U28_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 4),
       type: 'multiple-choice',
-      question: '___ (Down) [[came|vino]] the [[rain|lluvia]].',
+      question: '___ [[came|vino]] the [[rain|lluvia]].',
       options: ['Down', 'Up', 'Off'],
       correctAnswer: 'Down',
       explanation: 'Adverbial particle fronting.',
@@ -145,7 +145,7 @@ export const C1_U28_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 5),
       type: 'multiple-choice',
-      question: '___ (Great) was her [[surprise|sorpresa]] [[when|cuando]] she saw him.',
+      question: '___ was her [[surprise|sorpresa]] [[when|cuando]] she saw him.',
       options: ['Great', 'Such', 'Very'],
       correctAnswer: 'Great',
       explanation: 'Adjective fronting for rhetorical effect.',
@@ -154,7 +154,7 @@ export const C1_U28_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 6),
       type: 'multiple-choice',
-      question: '___ (There) [[goes|va]] our last [[chance|oportunidad]].',
+      question: '___ [[goes|va]] our last [[chance|oportunidad]].',
       options: ['There', 'Here', 'Where'],
       correctAnswer: 'There',
       explanation: '"There" fronting with inversion.',
@@ -163,7 +163,7 @@ export const C1_U28_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 7),
       type: 'multiple-choice',
-      question: '___ (Rarely) had they [[seen|visto]] such [[beauty|belleza]].',
+      question: '___ had they [[seen|visto]] such [[beauty|belleza]].',
       options: ['Rarely', 'Seldom', 'Never'],
       correctAnswer: 'Rarely',
       explanation: 'Negative fronting with inversion.',
@@ -172,7 +172,7 @@ export const C1_U28_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 8),
       type: 'multiple-choice',
-      question: '___ (Hidden) in the [[attic|ático]] was a [[map|mapa]].',
+      question: '___ in the [[attic|ático]] was a [[map|mapa]].',
       options: ['Hidden', 'Lost', 'Found'],
       correctAnswer: 'Hidden',
       explanation: 'Participle fronting.',
@@ -181,7 +181,7 @@ export const C1_U28_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 9),
       type: 'multiple-choice',
-      question: '___ (On) the [[table|mesa]] sat a [[laptop|portátil]].',
+      question: '___ the [[table|mesa]] sat a [[laptop|portátil]].',
       options: ['On', 'At', 'In'],
       correctAnswer: 'On',
       explanation: 'Place adjunct fronting.',
@@ -190,7 +190,7 @@ export const C1_U28_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 10),
       type: 'multiple-choice',
-      question: '___ (Try) as he [[might|pudiera]], he [[couldn\'t|no pudo]] [[win|ganar]].',
+      question: '___ as he [[might|pudiera]], he [[couldn\'t|no pudo]] [[win|ganar]].',
       options: ['Try', 'Work', 'Do'],
       correctAnswer: 'Try',
       explanation: 'Verb fronting for concession.',
@@ -212,7 +212,7 @@ export const C1_U28_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 1),
       type: 'fill-blank',
-      question: 'The [[award|premio]] was [[given|dado]] ___ (to) the [[student|estudiante]].',
+      question: 'The [[award|premio]] was [[given|dado]] ___ the [[student|estudiante]].',
       correctAnswer: 'to',
       explanation: 'Passive used to keep the recipient at the end (new info).',
       points: 2
@@ -220,7 +220,7 @@ export const C1_U28_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 2),
       type: 'fill-blank',
-      question: '___ (What) I [[found|encontré]] was a [[key|llave]].',
+      question: '___ I [[found|encontré]] was a [[key|llave]].',
       correctAnswer: 'What',
       explanation: 'Cleft used to place new information at the end.',
       points: 2
@@ -228,7 +228,7 @@ export const C1_U28_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 3),
       type: 'fill-blank',
-      question: 'It was the [[money|dinero]] ___ (that) he [[stole|robó]].',
+      question: 'It was the [[money|dinero]] ___ he [[stole|robó]].',
       correctAnswer: 'that',
       explanation: 'It-cleft for focus.',
       points: 2
@@ -236,7 +236,7 @@ export const C1_U28_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 4),
       type: 'fill-blank',
-      question: 'The [[reason|razón]] ___ (why) I am [[here|aquí]] is to [[help|ayudar]].',
+      question: 'The [[reason|razón]] ___ I am [[here|aquí]] is to [[help|ayudar]].',
       correctAnswer: 'why',
       explanation: 'Focusing on the purpose at the end.',
       points: 2
@@ -244,7 +244,7 @@ export const C1_U28_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 5),
       type: 'fill-blank',
-      question: '___ (Attached) is the [[document|documento]].',
+      question: '___ is the [[document|documento]].',
       correctAnswer: 'Attached',
       explanation: 'Fronting for flow.',
       points: 2
@@ -252,7 +252,7 @@ export const C1_U28_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 6),
       type: 'fill-blank',
-      question: 'At the ___ (top) of the [[hill|colina]] [[stood|estaba]] a [[castle|castillo]].',
+      question: 'At the ___ of the [[hill|colina]] [[stood|estaba]] a [[castle|castillo]].',
       correctAnswer: 'top',
       explanation: 'Establishing scene (given) then subject (new).',
       points: 2
@@ -260,7 +260,7 @@ export const C1_U28_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 7),
       type: 'fill-blank',
-      question: 'There ___ (remains) one [[problem|problema]].',
+      question: 'There ___ one [[problem|problema]].',
       correctAnswer: 'remains',
       explanation: 'Existential "there" to introduce new info.',
       points: 2
@@ -268,7 +268,7 @@ export const C1_U28_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 8),
       type: 'fill-blank',
-      question: '___ (Hardly) had I [[finished|terminado]] [[when|cuando]] the [[bell|campana]] [[rang|sonó]].',
+      question: '___ had I [[finished|terminado]] [[when|cuando]] the [[bell|campana]] [[rang|sonó]].',
       correctAnswer: 'Hardly',
       explanation: 'Focusing on the time sequence.',
       points: 2
@@ -276,7 +276,7 @@ export const C1_U28_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 9),
       type: 'fill-blank',
-      question: 'Only by ___ (working) hard can you [[succeed|lograrlo]].',
+      question: 'Only by ___ hard can you [[succeed|lograrlo]].',
       correctAnswer: 'working',
       explanation: 'Focusing on the method.',
       points: 2
@@ -284,7 +284,7 @@ export const C1_U28_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 10),
       type: 'fill-blank',
-      question: '___ (Never) again will I [[go|ir]] [[there|allí]].',
+      question: '___ again will I [[go|ir]] [[there|allí]].',
       correctAnswer: 'Never',
       explanation: 'Focusing on the negative frequency.',
       points: 2
@@ -305,7 +305,7 @@ export const C1_U28_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 1),
       type: 'multiple-choice',
-      question: 'A ___ (beautiful large old) [[house|casa]].',
+      question: 'A ___ [[house|casa]].',
       options: ['beautiful large old', 'old large beautiful', 'large old beautiful'],
       correctAnswer: 'beautiful large old',
       explanation: 'Opinion, Size, Age.',
@@ -314,7 +314,7 @@ export const C1_U28_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 2),
       type: 'multiple-choice',
-      question: 'A ___ (small round red) [[ball|pelota]].',
+      question: 'A ___ [[ball|pelota]].',
       options: ['small round red', 'red round small', 'round small red'],
       correctAnswer: 'small round red',
       explanation: 'Size, Shape, Color.',
@@ -323,7 +323,7 @@ export const C1_U28_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 3),
       type: 'multiple-choice',
-      question: 'An ___ (ancient Greek marble) [[statue|estatua]].',
+      question: 'An ___ [[statue|estatua]].',
       options: ['ancient Greek marble', 'marble Greek ancient', 'Greek ancient marble'],
       correctAnswer: 'ancient Greek marble',
       explanation: 'Age, Origin, Material.',
@@ -332,7 +332,7 @@ export const C1_U28_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 4),
       type: 'multiple-choice',
-      question: 'A ___ (long wooden dining) [[table|mesa]].',
+      question: 'A ___ [[table|mesa]].',
       options: ['long wooden dining', 'dining long wooden', 'wooden dining long'],
       correctAnswer: 'long wooden dining',
       explanation: 'Size, Material, Purpose.',
@@ -341,7 +341,7 @@ export const C1_U28_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 5),
       type: 'multiple-choice',
-      question: 'A ___ (cheap plastic Japanese) [[watch|reloj]].',
+      question: 'A ___ [[watch|reloj]].',
       options: ['cheap plastic Japanese', 'cheap Japanese plastic', 'Japanese cheap plastic'],
       correctAnswer: 'cheap Japanese plastic',
       explanation: 'Opinion, Origin, Material.',
@@ -350,7 +350,7 @@ export const C1_U28_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 6),
       type: 'multiple-choice',
-      question: '___ (Some interesting new) [[books|libros]].',
+      question: '___ [[books|libros]].',
       options: ['Some interesting new', 'Some new interesting', 'Interesting some new'],
       correctAnswer: 'Some interesting new',
       explanation: 'Determiner, Opinion, Age.',
@@ -359,7 +359,7 @@ export const C1_U28_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 7),
       type: 'multiple-choice',
-      question: 'A ___ (disgusting large black) [[spider|araña]].',
+      question: 'A ___ [[spider|araña]].',
       options: ['disgusting large black', 'large disgusting black', 'black large disgusting'],
       correctAnswer: 'disgusting large black',
       explanation: 'Opinion, Size, Color.',
@@ -368,7 +368,7 @@ export const C1_U28_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 8),
       type: 'multiple-choice',
-      question: 'A ___ (stunning blue silk) [[dress|vestido]].',
+      question: 'A ___ [[dress|vestido]].',
       options: ['stunning blue silk', 'blue stunning silk', 'silk blue stunning'],
       correctAnswer: 'stunning blue silk',
       explanation: 'Opinion, Color, Material.',
@@ -377,7 +377,7 @@ export const C1_U28_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 9),
       type: 'multiple-choice',
-      question: 'An ___ (ugly old leather) [[jacket|chaqueta]].',
+      question: 'An ___ [[jacket|chaqueta]].',
       options: ['ugly old leather', 'old ugly leather', 'leather old ugly'],
       correctAnswer: 'ugly old leather',
       explanation: 'Opinion, Age, Material.',
@@ -386,7 +386,7 @@ export const C1_U28_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 10),
       type: 'multiple-choice',
-      question: 'A ___ (tiny square metal) [[box|caja]].',
+      question: 'A ___ [[box|caja]].',
       options: ['tiny square metal', 'metal square tiny', 'square metal tiny'],
       correctAnswer: 'tiny square metal',
       explanation: 'Size, Shape, Material.',

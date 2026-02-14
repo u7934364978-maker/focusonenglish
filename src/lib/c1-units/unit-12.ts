@@ -119,7 +119,7 @@ export const C1_U12_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 1),
       type: 'fill-blank',
-      question: 'We need to find a ___ (common) [[ground|terreno]] to [[move|mover]] [[forward|adelante]].',
+      question: 'We need to find a ___ [[ground|terreno]] to [[move|mover]] [[forward|adelante]].',
       correctAnswer: 'common',
       explanation: '"Common ground" is where both [[parties|partes]] [[agree|están de acuerdo]].',
       points: 1
@@ -127,7 +127,7 @@ export const C1_U12_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 2),
       type: 'fill-blank',
-      question: 'After [[hours|horas]] of [[talks|conversaciones]], they [[finally|finalmente]] [[reached|alcanzaron]] a ___ (compromise).',
+      question: 'After [[hours|horas]] of [[talks|conversaciones]], they [[finally|finalmente]] [[reached|alcanzaron]] a ___.',
       correctAnswer: 'compromise',
       explanation: 'A "compromise" is an [[agreement|acuerdo]] where both sides [[give|dan]] up something.',
       points: 1
@@ -135,7 +135,7 @@ export const C1_U12_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 3),
       type: 'fill-blank',
-      question: 'The [[negotiations|negociaciones]] are [[currently|actualmente]] at a ___ (deadlock).',
+      question: 'The [[negotiations|negociaciones]] are [[currently|actualmente]] at a ___.',
       correctAnswer: 'deadlock',
       explanation: 'A "deadlock" or "stalemate" is a [[situation|situación]] where no [[progress|progreso]] is [[possible|posible]].',
       points: 1
@@ -143,7 +143,7 @@ export const C1_U12_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 4),
       type: 'fill-blank',
-      question: 'We are [[looking|buscando]] for a ___ (mutually) [[beneficial|beneficioso]] [[solution|solución]].',
+      question: 'We are [[looking|buscando]] for a ___ [[beneficial|beneficioso]] [[solution|solución]].',
       correctAnswer: 'mutually',
       explanation: '"Mutually beneficial" means [[good|bueno]] for [[everyone|todos]] involved.',
       points: 1
@@ -151,7 +151,7 @@ export const C1_U12_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 5),
       type: 'fill-blank',
-      question: 'The [[contract|contrato]] is [[legally|legalmente]] ___ (binding).',
+      question: 'The [[contract|contrato]] is [[legally|legalmente]] ___.',
       correctAnswer: 'binding',
       explanation: '"Binding" means it [[must|debe]] be [[obeyed|obedecido]] by law.',
       points: 1
@@ -159,7 +159,7 @@ export const C1_U12_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 6),
       type: 'fill-blank',
-      question: 'They [[made|hicieron]] a [[significant|significativa]] ___ (concession) [[during|durante]] the [[talks|charlas]].',
+      question: 'They [[made|hicieron]] a [[significant|significativa]] ___ [[during|durante]] the [[talks|charlas]].',
       correctAnswer: 'concession',
       explanation: 'A "concession" is [[granting|otorgar]] something [[requested|solicitado]].',
       points: 1
@@ -167,7 +167,7 @@ export const C1_U12_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 7),
       type: 'fill-blank',
-      question: 'We need to ___ (leverage) our [[strengths|fortalezas]] [[during|durante]] the [[deal|trato]].',
+      question: 'We need to ___ our [[strengths|fortalezas]] [[during|durante]] the [[deal|trato]].',
       correctAnswer: 'leverage',
       explanation: '"Leverage" means to [[use|usar]] something to [[maximum|máximo]] [[advantage|ventaja]].',
       points: 1
@@ -175,7 +175,7 @@ export const C1_U12_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 8),
       type: 'fill-blank',
-      question: 'The ___ (outcome) of the [[summit|cumbre]] was [[highly|altamente]] [[positive|positivo]].',
+      question: 'The ___ of the [[summit|cumbre]] was [[highly|altamente]] [[positive|positivo]].',
       correctAnswer: 'outcome',
       explanation: '"Outcome" is the [[result|resultado]] of a [[process|proceso]].',
       points: 1
@@ -183,7 +183,7 @@ export const C1_U12_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 9),
       type: 'fill-blank',
-      question: 'He is a [[shrewd|astuto]] ___ (negotiator) who [[never|nunca]] [[backs|retrocede]] [[down|abajo]].',
+      question: 'He is a [[shrewd|astuto]] ___ who [[never|nunca]] [[backs|retrocede]] [[down|abajo]].',
       correctAnswer: 'negotiator',
       explanation: '"Negotiator" is the [[person|persona]] who [[conducts|lleva a cabo]] negotiations.',
       points: 1
@@ -191,7 +191,7 @@ export const C1_U12_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 10),
       type: 'fill-blank',
-      question: 'We should [[avoid|evitar]] [[any|cualquier]] ___ (confrontational) [[language|lenguaje]].',
+      question: 'We should [[avoid|evitar]] [[any|cualquier]] ___ [[language|lenguaje]].',
       correctAnswer: 'confrontational',
       explanation: '"Confrontational" means [[likely|probable]] to cause an [[argument|discusión]].',
       points: 1

@@ -145,7 +145,7 @@ export const C1_U17_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 5),
       type: 'multiple-choice',
-      question: 'I can\'t ___ (make) out what he is [[saying|diciendo]].',
+      question: 'I can\'t ___ out what he is [[saying|diciendo]].',
       options: ['make', 'take', 'give'],
       correctAnswer: 'make',
       explanation: '"Make out" means to [[discern|discernir]] or [[understand|entender]] with [[difficulty|dificultad]].',
@@ -314,7 +314,7 @@ export const C1_U17_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 2),
       type: 'multiple-choice',
-      question: 'He has a ___ (chip) on his [[shoulder|hombro]].',
+      question: 'He has a ___ on his [[shoulder|hombro]].',
       options: ['chip', 'bird', 'stone'],
       correctAnswer: 'chip',
       explanation: '"A chip on one\'s shoulder" means being [[angry|enojado]] about something in the [[past|pasado]].',
@@ -323,7 +323,7 @@ export const C1_U17_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 3),
       type: 'multiple-choice',
-      question: 'We will [[cross|cruzar]] that ___ (bridge) when we [[come|lleguemos]] to it.',
+      question: 'We will [[cross|cruzar]] that ___ when we [[come|lleguemos]] to it.',
       options: ['bridge', 'road', 'river'],
       correctAnswer: 'bridge',
       explanation: 'Don\'t [[worry|preocuparse]] about a problem before it happens.',
@@ -332,7 +332,7 @@ export const C1_U17_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 4),
       type: 'multiple-choice',
-      question: 'She is the [[spitting|escupitajo]] ___ (image) of her father.',
+      question: 'She is the [[spitting|escupitajo]] ___ of her father.',
       options: ['image', 'picture', 'photo'],
       correctAnswer: 'image',
       explanation: '"Spitting image" means [[looking|verse]] exactly like someone.',
@@ -341,7 +341,7 @@ export const C1_U17_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 5),
       type: 'multiple-choice',
-      question: 'Don\'t [[beat|golpear]] around the ___ (bush).',
+      question: 'Don\'t [[beat|golpear]] around the ___.',
       options: ['bush', 'tree', 'wall'],
       correctAnswer: 'bush',
       explanation: '"Beat around the bush" means avoiding the [[main|principal]] [[topic|tema]].',
@@ -350,7 +350,7 @@ export const C1_U17_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 6),
       type: 'multiple-choice',
-      question: 'It cost an ___ (arm) and a [[leg|pierna]].',
+      question: 'It cost an ___ and a [[leg|pierna]].',
       options: ['arm', 'eye', 'ear'],
       correctAnswer: 'arm',
       explanation: '"An arm and a leg" means very [[expensive|caro]].',
@@ -359,7 +359,7 @@ export const C1_U17_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 7),
       type: 'multiple-choice',
-      question: 'That was the [[last|última]] ___ (straw) for her.',
+      question: 'That was the [[last|última]] ___ for her.',
       options: ['straw', 'stick', 'stone'],
       correctAnswer: 'straw',
       explanation: '"The last straw" is the final problem that makes you [[lose|perder]] [[patience|paciencia]].',
@@ -368,7 +368,7 @@ export const C1_U17_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 8),
       type: 'multiple-choice',
-      question: 'He is a [[bit|poco]] under the ___ (weather).',
+      question: 'He is a [[bit|poco]] under the ___.',
       options: ['weather', 'cloud', 'rain'],
       correctAnswer: 'weather',
       explanation: '"Under the weather" means feeling [[ill|enfermo]].',
@@ -377,7 +377,7 @@ export const C1_U17_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 9),
       type: 'multiple-choice',
-      question: 'Let\'s [[call|llamar]] it a ___ (day).',
+      question: 'Let\'s [[call|llamar]] it a ___.',
       options: ['day', 'night', 'time'],
       correctAnswer: 'day',
       explanation: '"Call it a day" means to [[stop|parar]] working.',
@@ -386,7 +386,7 @@ export const C1_U17_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 10),
       type: 'multiple-choice',
-      question: 'You should take it with a ___ (pinch) of [[salt|sal]].',
+      question: 'You should take it with a ___ of [[salt|sal]].',
       options: ['pinch', 'grain', 'bit'],
       correctAnswer: 'pinch',
       explanation: '"With a pinch of salt" means not [[completely|completamente]] [[believing|creyendo]] something.',

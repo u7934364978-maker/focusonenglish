@@ -16,7 +16,7 @@ export const C1_U6_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 1),
       type: 'fill-blank',
-      question: 'After the [[scandal|escándalo]], the minister was forced to [[come|venir]] [[down|abajo]] heavily [[on|sobre]] his staff.',
+      question: 'After the [[scandal|escándalo]], the minister was forced to [[come|venir]] [[down|abajo]] heavily ___ his staff.',
       correctAnswer: 'on',
       explanation: '"Come down on" means to [[punish|castigar]] or [[criticize|criticar]] severely.',
       points: 1
@@ -24,7 +24,7 @@ export const C1_U6_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 2),
       type: 'fill-blank',
-      question: 'I simply cannot [[put|poner]] [[up|arriba]] [[with|con]] such [[outrageous|indignante]] behavior any longer.',
+      question: 'I simply cannot [[put|poner]] [[up|arriba]] ___ such [[outrageous|indignante]] behavior any longer.',
       correctAnswer: 'with',
       explanation: '"Put up with" means to [[tolerate|tolerar]] something [[unpleasant|desagradable]].',
       points: 1
@@ -32,7 +32,7 @@ export const C1_U6_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 3),
       type: 'fill-blank',
-      question: 'The CEO has [[come|venido]] [[in|dentro]] [[for|para]] a lot of [[criticism|crítica]] lately.',
+      question: 'The CEO has [[come|venido]] [[in|dentro]] ___ a lot of [[criticism|crítica]] lately.',
       correctAnswer: 'for',
       explanation: '"Come in for" is used when [[receiving|recibir]] something [[negative|negativo]] like [[blame|culpa]] or criticism.',
       points: 1
@@ -40,7 +40,7 @@ export const C1_U6_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 4),
       type: 'fill-blank',
-      question: 'We need to [[face|enfrentar]] [[up|arriba]] [[to|a]] the fact that our [[resources|recursos]] are [[depleted|agotados]].',
+      question: 'We need to [[face|enfrentar]] [[up|arriba]] ___ the fact that our [[resources|recursos]] are [[depleted|agotados]].',
       correctAnswer: 'to',
       explanation: '"Face up to" means to [[accept|aceptar]] and [[deal|lidiar]] with a [[difficult|difícil]] situation.',
       points: 1
@@ -48,7 +48,7 @@ export const C1_U6_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 5),
       type: 'fill-blank',
-      question: 'He managed to [[get|conseguir]] [[away|lejos]] [[with|con]] cheating on the [[exam|examen]].',
+      question: 'He managed to [[get|conseguir]] [[away|lejos]] ___ cheating on the [[exam|examen]].',
       correctAnswer: 'with',
       explanation: '"Get away with" means to [[escape|escapar]] [[punishment|castigo]] for a [[wrongdoing|fechoría]].',
       points: 1
@@ -56,7 +56,7 @@ export const C1_U6_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 6),
       type: 'fill-blank',
-      question: 'You should [[look|mirar]] [[up|arriba]] [[to|a]] those who have [[achieved|logrado]] great things through [[integrity|integridad]].',
+      question: 'You should [[look|mirar]] [[up|arriba]] ___ those who have [[achieved|logrado]] great things through [[integrity|integridad]].',
       correctAnswer: 'to',
       explanation: '"Look up to" means to [[admire|admirar]] or [[respect|respetar]] someone.',
       points: 1
@@ -64,7 +64,7 @@ export const C1_U6_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 7),
       type: 'fill-blank',
-      question: 'It\'s hard to [[keep|mantener]] [[up|arriba]] [[with|con]] the [[rapid|rápido]] [[pace|ritmo]] of [[technological|tecnológico]] [[change|cambio]].',
+      question: 'It\'s hard to [[keep|mantener]] [[up|arriba]] ___ the [[rapid|rápido]] [[pace|ritmo]] of [[technological|tecnológico]] [[change|cambio]].',
       correctAnswer: 'with',
       explanation: '"Keep up with" means to [[stay|mantenerse]] at the same [[level|nivel]] or [[speed|velocidad]].',
       points: 1
@@ -72,7 +72,7 @@ export const C1_U6_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 8),
       type: 'fill-blank',
-      question: 'We have [[run|corrido]] [[out|fuera]] [[of|de]] [[patience|paciencia]] with the [[constant|constante]] [[delays|retrasos]].',
+      question: 'We have [[run|corrido]] [[out|fuera]] ___ [[patience|paciencia]] with the [[constant|constante]] [[delays|retrasos]].',
       correctAnswer: 'of',
       explanation: '"Run out of" means to have [[none|nada]] [[left|restante]].',
       points: 1
@@ -80,7 +80,7 @@ export const C1_U6_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 9),
       type: 'fill-blank',
-      question: 'She decided to [[cut|cortar]] [[back|atrás]] [[on|sobre]] her [[spending|gastos]] to [[save|ahorrar]] for a [[house|casa]].',
+      question: 'She decided to [[cut|cortar]] [[back|atrás]] ___ her [[spending|gastos]] to [[save|ahorrar]] for a [[house|casa]].',
       correctAnswer: 'on',
       explanation: '"Cut back on" means to [[reduce|reducir]] the [[amount|cantidad]] of something.',
       points: 1
@@ -88,7 +88,7 @@ export const C1_U6_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 10),
       type: 'fill-blank',
-      question: 'How did you [[get|conseguir]] [[round|alrededor]] [[to|a]] [[finishing|terminar]] the report so [[quickly|rápidamente]]?',
+      question: 'How did you [[get|conseguir]] [[round|alrededor]] ___ [[finishing|terminar]] the report so [[quickly|rápidamente]]?',
       correctAnswer: 'to',
       explanation: '"Get round to" means to [[finally|finalmente]] find the [[time|tiempo]] to do something.',
       points: 1

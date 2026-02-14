@@ -16,7 +16,7 @@ export const C1_U29_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 1),
       type: 'multiple-choice',
-      question: 'The [[company|empresa]] decided to ___ (terminate) the [[contract|contrato]].',
+      question: 'The [[company|empresa]] decided to ___ the [[contract|contrato]].',
       options: ['terminate', 'end', 'stop'],
       correctAnswer: 'terminate',
       explanation: '"Terminate" is formal.',
@@ -25,7 +25,7 @@ export const C1_U29_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 2),
       type: 'multiple-choice',
-      question: 'We need to ___ (address) this [[issue|asunto]] [[immediately|inmediatamente]].',
+      question: 'We need to ___ this [[issue|asunto]] [[immediately|inmediatamente]].',
       options: ['address', 'deal with', 'fix'],
       correctAnswer: 'address',
       explanation: '"Address" is formal.',
@@ -34,7 +34,7 @@ export const C1_U29_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 3),
       type: 'multiple-choice',
-      question: 'The [[event|evento]] was ___ (postponed) due to [[rain|lluvia]].',
+      question: 'The [[event|evento]] was ___ due to [[rain|lluvia]].',
       options: ['postponed', 'put off', 'delayed'],
       correctAnswer: 'postponed',
       explanation: '"Postponed" is the formal equivalent of "put off".',
@@ -43,7 +43,7 @@ export const C1_U29_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 4),
       type: 'multiple-choice',
-      question: 'Please ___ (ensure) that all [[lights|luces]] are [[off|apagadas]].',
+      question: 'Please ___ that all [[lights|luces]] are [[off|apagadas]].',
       options: ['ensure', 'make sure', 'see'],
       correctAnswer: 'ensure',
       explanation: '"Ensure" is formal.',
@@ -52,7 +52,7 @@ export const C1_U29_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 5),
       type: 'multiple-choice',
-      question: 'They are ___ (commencing) the [[project|proyecto]] [[next|próxima]] [[week|semana]].',
+      question: 'They are ___ the [[project|proyecto]] [[next|próxima]] [[week|semana]].',
       options: ['commencing', 'starting', 'beginning'],
       correctAnswer: 'commencing',
       explanation: '"Commence" is highly formal.',
@@ -61,7 +61,7 @@ export const C1_U29_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 6),
       type: 'multiple-choice',
-      question: 'The [[evidence|evidencia]] ___ (indicates) a [[rise|subida]] in [[crime|crimen]].',
+      question: 'The [[evidence|evidencia]] ___ a [[rise|subida]] in [[crime|crimen]].',
       options: ['indicates', 'shows', 'says'],
       correctAnswer: 'indicates',
       explanation: '"Indicate" is formal.',
@@ -70,7 +70,7 @@ export const C1_U29_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 7),
       type: 'multiple-choice',
-      question: 'He was ___ (granted) [[permission|permiso]] to [[leave|irse]].',
+      question: 'He was ___ [[permission|permiso]] to [[leave|irse]].',
       options: ['granted', 'given', 'allowed'],
       correctAnswer: 'granted',
       explanation: '"Grant" is formal.',
@@ -79,7 +79,7 @@ export const C1_U29_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 8),
       type: 'multiple-choice',
-      question: 'The [[system|sistema]] is ___ (deficient) in several [[areas|áreas]].',
+      question: 'The [[system|sistema]] is ___ in several [[areas|áreas]].',
       options: ['deficient', 'bad', 'poor'],
       correctAnswer: 'deficient',
       explanation: '"Deficient" is a formal academic word.',
@@ -88,7 +88,7 @@ export const C1_U29_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 9),
       type: 'multiple-choice',
-      question: 'I ___ (request) your [[assistance|asistencia]] in this [[matter|asunto]].',
+      question: 'I ___ your [[assistance|asistencia]] in this [[matter|asunto]].',
       options: ['request', 'ask for', 'want'],
       correctAnswer: 'request',
       explanation: '"Request" is formal.',
@@ -97,7 +97,7 @@ export const C1_U29_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 10),
       type: 'multiple-choice',
-      question: 'The [[plan|plan]] was ___ (implemented) [[last|pasado]] [[month|mes]].',
+      question: 'The [[plan|plan]] was ___ [[last|pasado]] [[month|mes]].',
       options: ['implemented', 'done', 'started'],
       correctAnswer: 'implemented',
       explanation: '"Implement" is formal business/academic Lexis.',
@@ -119,7 +119,7 @@ export const C1_U29_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 1),
       type: 'fill-blank',
-      question: 'Instead of "They analyzed the data", use: "The ___ (analysis) of the [[data|datos]] was [[thorough|exhaustivo]]."',
+      question: 'Instead of "They analyzed the data", use: "The ___ of the [[data|datos]] was [[thorough|exhaustivo]]."',
       correctAnswer: 'analysis',
       explanation: 'Analyze (verb) -> Analysis (noun).',
       points: 2
@@ -127,7 +127,7 @@ export const C1_U29_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 2),
       type: 'fill-blank',
-      question: 'Instead of "The temperatures rose", use: "A ___ (rise) in [[temperatures|temperaturas]] was [[observed|observado]]."',
+      question: 'Instead of "The temperatures rose", use: "A ___ in [[temperatures|temperaturas]] was [[observed|observado]]."',
       correctAnswer: 'rise',
       explanation: 'Rise (verb) -> Rise (noun).',
       points: 2
@@ -135,7 +135,7 @@ export const C1_U29_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 3),
       type: 'fill-blank',
-      question: 'Instead of "The project failed", use: "The ___ (failure) of the [[project|proyecto]] was [[unexpected|inesperado]]."',
+      question: 'Instead of "The project failed", use: "The ___ of the [[project|proyecto]] was [[unexpected|inesperado]]."',
       correctAnswer: 'failure',
       explanation: 'Fail (verb) -> Failure (noun).',
       points: 2
@@ -143,7 +143,7 @@ export const C1_U29_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 4),
       type: 'fill-blank',
-      question: 'Instead of "We decided to wait", use: "The ___ (decision) to [[wait|esperar]] was [[difficult|difícil]]."',
+      question: 'Instead of "We decided to wait", use: "The ___ to [[wait|esperar]] was [[difficult|difícil]]."',
       correctAnswer: 'decision',
       explanation: 'Decide (verb) -> Decision (noun).',
       points: 2
@@ -151,7 +151,7 @@ export const C1_U29_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 5),
       type: 'fill-blank',
-      question: 'Instead of "People migrated", use: "The ___ (migration) of [[people|gente]] [[increased|aumentó]]."',
+      question: 'Instead of "People migrated", use: "The ___ of [[people|gente]] [[increased|aumentó]]."',
       correctAnswer: 'migration',
       explanation: 'Migrate (verb) -> Migration (noun).',
       points: 2
@@ -159,7 +159,7 @@ export const C1_U29_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 6),
       type: 'fill-blank',
-      question: 'Instead of "The machine was efficient", use: "The ___ (efficiency) of the [[machine|máquina]] was [[clear|clara]]."',
+      question: 'Instead of "The machine was efficient", use: "The ___ of the [[machine|máquina]] was [[clear|clara]]."',
       correctAnswer: 'efficiency',
       explanation: 'Efficient (adj) -> Efficiency (noun).',
       points: 2
@@ -167,7 +167,7 @@ export const C1_U29_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 7),
       type: 'fill-blank',
-      question: 'Instead of "They refused to help", use: "Their ___ (refusal) to [[help|ayudar]] was [[surprising|sorprendente]]."',
+      question: 'Instead of "They refused to help", use: "Their ___ to [[help|ayudar]] was [[surprising|sorprendente]]."',
       correctAnswer: 'refusal',
       explanation: 'Refuse (verb) -> Refusal (noun).',
       points: 2
@@ -175,7 +175,7 @@ export const C1_U29_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 8),
       type: 'fill-blank',
-      question: 'Instead of "He responded quickly", use: "His ___ (response) was [[quick|rápida]]."',
+      question: 'Instead of "He responded quickly", use: "His ___ was [[quick|rápida]]."',
       correctAnswer: 'response',
       explanation: 'Respond (verb) -> Response (noun).',
       points: 2
@@ -183,7 +183,7 @@ export const C1_U29_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 9),
       type: 'fill-blank',
-      question: 'Instead of "The area was beautiful", use: "The ___ (beauty) of the [[area|área]] was [[stunning|asombrosa]]."',
+      question: 'Instead of "The area was beautiful", use: "The ___ of the [[area|área]] was [[stunning|asombrosa]]."',
       correctAnswer: 'beauty',
       explanation: 'Beautiful (adj) -> Beauty (noun).',
       points: 2
@@ -191,7 +191,7 @@ export const C1_U29_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 10),
       type: 'fill-blank',
-      question: 'Instead of "Prices fluctuated", use: "___ (Fluctuation) in [[prices|precios]] was [[evident|evidente]]."',
+      question: 'Instead of "Prices fluctuated", use: "___ in [[prices|precios]] was [[evident|evidente]]."',
       correctAnswer: 'Fluctuation',
       explanation: 'Fluctuate (verb) -> Fluctuation (noun).',
       points: 2
@@ -230,7 +230,7 @@ export const C1_U29_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 3),
       type: 'multiple-choice',
-      question: '[[Profits|Beneficios]] [[fell|cayeron]]. ___ (Conversely), [[spending|gasto]] [[increased|aumentó]].',
+      question: '[[Profits|Beneficios]] [[fell|cayeron]]. ___, [[spending|gasto]] [[increased|aumentó]].',
       options: ['Conversely', 'Likewise', 'Indeed'],
       correctAnswer: 'Conversely',
       explanation: '"Conversely" shows an opposite relationship.',
@@ -266,7 +266,7 @@ export const C1_U29_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 7),
       type: 'multiple-choice',
-      question: 'He is [[rich|rico]]. ___ (Notwithstanding), he is [[unhappy|infeliz]].',
+      question: 'He is [[rich|rico]]. ___, he is [[unhappy|infeliz]].',
       options: ['Notwithstanding', 'Moreover', 'Hence'],
       correctAnswer: 'Notwithstanding',
       explanation: '"Notwithstanding" means "despite this".',
@@ -284,7 +284,7 @@ export const C1_U29_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 9),
       type: 'multiple-choice',
-      question: 'I [[like|amo]] [[apples|manzanas]]. ___ (Likewise), I [[enjoy|disfruto]] [[pears|peras]].',
+      question: 'I [[like|amo]] [[apples|manzanas]]. ___, I [[enjoy|disfruto]] [[pears|peras]].',
       options: ['Likewise', 'Conversely', 'Yet'],
       correctAnswer: 'Likewise',
       explanation: '"Likewise" shows similarity.',
@@ -293,7 +293,7 @@ export const C1_U29_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 10),
       type: 'multiple-choice',
-      question: 'We must [[act|actuar]]. ___ (Otherwise), we [[will|vamos a]] [[lose|perder]].',
+      question: 'We must [[act|actuar]]. ___, we [[will|vamos a]] [[lose|perder]].',
       options: ['Otherwise', 'Thus', 'Moreover'],
       correctAnswer: 'Otherwise',
       explanation: '"Otherwise" shows the consequence of not acting.',
@@ -315,7 +315,7 @@ export const C1_U29_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 1),
       type: 'fill-blank',
-      question: '___ (It) is [[believed|creído]] that [[prices|precios]] will [[rise|subir]].',
+      question: '___ is [[believed|creído]] that [[prices|precios]] will [[rise|subir]].',
       correctAnswer: 'It',
       explanation: 'Impersonal passive structure.',
       points: 1
@@ -323,7 +323,7 @@ export const C1_U29_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 2),
       type: 'fill-blank',
-      question: '___ (There) is [[no|ninguna]] [[doubt|duda]] that [[climate|clima]] is [[changing|cambiando]].',
+      question: '___ is [[no|ninguna]] [[doubt|duda]] that [[climate|clima]] is [[changing|cambiando]].',
       correctAnswer: 'There',
       explanation: 'Existential "there" for objectivity.',
       points: 1
@@ -331,7 +331,7 @@ export const C1_U29_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 3),
       type: 'fill-blank',
-      question: '[[Research|Investigación]] ___ (suggests) that [[exercise|ejercicio]] is [[good|bueno]].',
+      question: '[[Research|Investigación]] ___ that [[exercise|ejercicio]] is [[good|bueno]].',
       correctAnswer: 'suggests',
       explanation: 'Using the subject of study as the agent.',
       points: 1
@@ -339,7 +339,7 @@ export const C1_U29_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 4),
       type: 'fill-blank',
-      question: 'The ___ (aim) of this [[report|informe]] is to [[analyze|analizar]] [[sales|ventas]].',
+      question: 'The ___ of this [[report|informe]] is to [[analyze|analizar]] [[sales|ventas]].',
       correctAnswer: 'aim',
       explanation: 'Focusing on the purpose, not the writer.',
       points: 1
@@ -347,7 +347,7 @@ export const C1_U29_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 5),
       type: 'fill-blank',
-      question: 'It ___ (has) been [[argued|argumentado]] that [[laws|leyes]] should [[change|cambiar]].',
+      question: 'It ___ been [[argued|argumentado]] that [[laws|leyes]] should [[change|cambiar]].',
       correctAnswer: 'has',
       explanation: 'Present perfect impersonal passive.',
       points: 1
@@ -355,7 +355,7 @@ export const C1_U29_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 6),
       type: 'fill-blank',
-      question: 'One ___ (should) [[consider|considerar]] all [[options|opciones]].',
+      question: 'One ___ [[consider|considerar]] all [[options|opciones]].',
       correctAnswer: 'should',
       explanation: 'Using "one" as a generic pronoun.',
       points: 1
@@ -363,7 +363,7 @@ export const C1_U29_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 7),
       type: 'fill-blank',
-      question: 'The [[results|resultados]] ___ (are) [[presented|presentados]] in [[Table|Tabla]] 1.',
+      question: 'The [[results|resultados]] ___ [[presented|presentados]] in [[Table|Tabla]] 1.',
       correctAnswer: 'are',
       explanation: 'Passive for objective reporting.',
       points: 1
@@ -371,7 +371,7 @@ export const C1_U29_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 8),
       type: 'fill-blank',
-      question: '___ (It) remains to be [[seen|visto]] whether it [[works|funciona]].',
+      question: '___ remains to be [[seen|visto]] whether it [[works|funciona]].',
       correctAnswer: 'It',
       explanation: 'Impersonal phrase for uncertainty.',
       points: 1
@@ -379,7 +379,7 @@ export const C1_U29_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 9),
       type: 'fill-blank',
-      question: 'Attention ___ (must) be [[paid|prestada]] to [[detail|detalle]].',
+      question: 'Attention ___ be [[paid|prestada]] to [[detail|detalle]].',
       correctAnswer: 'must',
       explanation: 'Passive for instructions/requirements.',
       points: 1
@@ -387,7 +387,7 @@ export const C1_U29_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 10),
       type: 'fill-blank',
-      question: 'This ___ (paper) [[examines|examina]] the [[effects|efectos]] of [[tax|impuestos]].',
+      question: 'This ___ [[examines|examina]] the [[effects|efectos]] of [[tax|impuestos]].',
       correctAnswer: 'paper',
       explanation: 'Using the document as the subject.',
       points: 1

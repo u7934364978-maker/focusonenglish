@@ -16,7 +16,7 @@ export const C1_U26_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 1),
       type: 'fill-blank',
-      question: 'The ___ (harder) you [[work|trabajas]], the [[better|mejor]] you [[get|te vuelves]].',
+      question: 'The ___ you [[work|trabajas]], the [[better|mejor]] you [[get|te vuelves]].',
       correctAnswer: 'harder',
       explanation: 'The + comparative, the + comparative.',
       points: 1
@@ -24,7 +24,7 @@ export const C1_U26_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 2),
       type: 'fill-blank',
-      question: 'The ___ (more) [[expensive|caro]] it is, the [[higher|más alto]] the [[quality|calidad]].',
+      question: 'The ___ [[expensive|caro]] it is, the [[higher|más alto]] the [[quality|calidad]].',
       correctAnswer: 'more',
       explanation: 'Proportional comparison with adjectives.',
       points: 1
@@ -32,7 +32,7 @@ export const C1_U26_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 3),
       type: 'fill-blank',
-      question: 'This [[car|coche]] is [[nowhere|ninguna parte]] ___ (near) as [[fast|rápido]] as the [[other|otro]] one.',
+      question: 'This [[car|coche]] is [[nowhere|ninguna parte]] ___ as [[fast|rápido]] as the [[other|otro]] one.',
       correctAnswer: 'near',
       explanation: '"Nowhere near as... as" means not at all close.',
       points: 1
@@ -40,7 +40,7 @@ export const C1_U26_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 4),
       type: 'fill-blank',
-      question: 'The [[film|película]] was ___ (nothing) like as [[good|buena]] as the [[book|libro]].',
+      question: 'The [[film|película]] was ___ like as [[good|buena]] as the [[book|libro]].',
       correctAnswer: 'nothing',
       explanation: '"Nothing like as... as" is an emphatic negative comparison.',
       points: 1
@@ -48,7 +48,7 @@ export const C1_U26_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 5),
       type: 'fill-blank',
-      question: 'The ___ (sooner) [[done|hecho]], the [[better|mejor]].',
+      question: 'The ___ [[done|hecho]], the [[better|mejor]].',
       correctAnswer: 'sooner',
       explanation: 'Common short double comparative.',
       points: 1
@@ -56,7 +56,7 @@ export const C1_U26_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 6),
       type: 'fill-blank',
-      question: 'He is [[every|cada]] ___ (bit) as [[talented|talentoso]] as his [[brother|hermano]].',
+      question: 'He is [[every|cada]] ___ as [[talented|talentoso]] as his [[brother|hermano]].',
       correctAnswer: 'bit',
       explanation: '"Every bit as... as" means exactly as.',
       points: 1
@@ -64,7 +64,7 @@ export const C1_U26_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 7),
       type: 'fill-blank',
-      question: 'It was ___ (by) [[far|lejos]] the [[most|más]] [[difficult|difícil]] [[test|test]].',
+      question: 'It was ___ [[far|lejos]] the [[most|más]] [[difficult|difícil]] [[test|test]].',
       correctAnswer: 'by',
       explanation: '"By far" + superlative.',
       points: 1
@@ -72,7 +72,7 @@ export const C1_U26_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 8),
       type: 'fill-blank',
-      question: 'The ___ (more) I [[think|pienso]] [[about|sobre]] it, the [[less|menos]] I [[understand|entiendo]].',
+      question: 'The ___ I [[think|pienso]] [[about|sobre]] it, the [[less|menos]] I [[understand|entiendo]].',
       correctAnswer: 'more',
       explanation: 'Double comparative with verbs.',
       points: 1
@@ -80,7 +80,7 @@ export const C1_U26_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 9),
       type: 'fill-blank',
-      question: 'She is [[slightly|ligeramente]] ___ (taller) than me.',
+      question: 'She is [[slightly|ligeramente]] ___ than me.',
       correctAnswer: 'taller',
       explanation: 'Modifier + comparative.',
       points: 1
@@ -88,7 +88,7 @@ export const C1_U26_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 10),
       type: 'fill-blank',
-      question: 'This is [[considerably|considerablemente]] ___ (cheaper) than that.',
+      question: 'This is [[considerably|considerablemente]] ___ than that.',
       correctAnswer: 'cheaper',
       explanation: 'Adverb of degree + comparative.',
       points: 1
@@ -109,7 +109,7 @@ export const C1_U26_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 1),
       type: 'multiple-choice',
-      question: 'The [[new|nuevo]] [[model|modelo]] is ___ (significantly) [[better|mejor]] than the [[old|viejo]] one.',
+      question: 'The [[new|nuevo]] [[model|modelo]] is ___ [[better|mejor]] than the [[old|viejo]] one.',
       options: ['significantly', 'big', 'very'],
       correctAnswer: 'significantly',
       explanation: '"Significantly" is formal for a large difference.',
@@ -118,7 +118,7 @@ export const C1_U26_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 2),
       type: 'multiple-choice',
-      question: 'The [[difference|diferencia]] is ___ (marginally) [[smaller|más pequeña]].',
+      question: 'The [[difference|diferencia]] is ___ [[smaller|más pequeña]].',
       options: ['marginally', 'vastly', 'greatly'],
       correctAnswer: 'marginally',
       explanation: '"Marginally" means a very small amount.',
@@ -127,7 +127,7 @@ export const C1_U26_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 3),
       type: 'multiple-choice',
-      question: 'This [[city|ciudad]] is ___ (vastly) [[overrated|sobrevalorada]].',
+      question: 'This [[city|ciudad]] is ___ [[overrated|sobrevalorada]].',
       options: ['vastly', 'little', 'slightly'],
       correctAnswer: 'vastly',
       explanation: '"Vastly" shows a huge degree.',
@@ -136,7 +136,7 @@ export const C1_U26_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 4),
       type: 'multiple-choice',
-      question: 'He is ___ (infinitely) [[more|más]] [[experienced|experimentado]].',
+      question: 'He is ___ [[more|más]] [[experienced|experimentado]].',
       options: ['infinitely', 'marginally', 'somewhat'],
       correctAnswer: 'infinitely',
       explanation: 'Hyperbolic but formal emphasis.',
@@ -145,7 +145,7 @@ export const C1_U26_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 5),
       type: 'multiple-choice',
-      question: 'The [[result|resultado]] was ___ (altogether) [[different|diferente]].',
+      question: 'The [[result|resultado]] was ___ [[different|diferente]].',
       options: ['altogether', 'all', 'quite'],
       correctAnswer: 'altogether',
       explanation: '"Altogether" means completely.',
@@ -154,7 +154,7 @@ export const C1_U26_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 6),
       type: 'multiple-choice',
-      question: 'She is ___ (somewhat) [[shorter|más baja]] than her [[sister|hermana]].',
+      question: 'She is ___ [[shorter|más baja]] than her [[sister|hermana]].',
       options: ['somewhat', 'greatly', 'highly'],
       correctAnswer: 'somewhat',
       explanation: '"Somewhat" means a bit.',
@@ -163,7 +163,7 @@ export const C1_U26_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 7),
       type: 'multiple-choice',
-      question: 'The [[prices|precios]] are ___ (way) [[higher|más altos]] than [[last|pasado]] [[year|año]].',
+      question: 'The [[prices|precios]] are ___ [[higher|más altos]] than [[last|pasado]] [[year|año]].',
       options: ['way', 'very', 'much'],
       correctAnswer: 'way',
       explanation: '"Way" is informal but common for large degrees.',
@@ -172,7 +172,7 @@ export const C1_U26_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 8),
       type: 'multiple-choice',
-      question: 'It is ___ (considerably) [[more|más]] [[difficult|difícil]] than it [[looks|parece]].',
+      question: 'It is ___ [[more|más]] [[difficult|difícil]] than it [[looks|parece]].',
       options: ['considerably', 'marginally', 'slightly'],
       correctAnswer: 'considerably',
       explanation: 'Formal for a large degree.',
@@ -181,7 +181,7 @@ export const C1_U26_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 9),
       type: 'multiple-choice',
-      question: 'The [[gap|brecha]] is ___ (widening) [[daily|diariamente]].',
+      question: 'The [[gap|brecha]] is ___ [[daily|diariamente]].',
       options: ['widening', 'growing', 'increasing'],
       correctAnswer: 'widening',
       explanation: 'Collocation with "gap".',
@@ -190,7 +190,7 @@ export const C1_U26_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 10),
       type: 'multiple-choice',
-      question: 'The [[two|dos]] [[plans|planes]] are ___ (identical).',
+      question: 'The [[two|dos]] [[plans|planes]] are ___.',
       options: ['identical', 'same', 'equal'],
       correctAnswer: 'identical',
       explanation: 'No degree, they are the same.',
@@ -212,7 +212,7 @@ export const C1_U26_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 1),
       type: 'fill-blank',
-      question: 'His [[performance|actuación]] was a [[far|lejos]] ___ (cry) from his [[last|último]] one.',
+      question: 'His [[performance|actuación]] was a [[far|lejos]] ___ from his [[last|último]] one.',
       correctAnswer: 'cry',
       explanation: '"A far cry from" means very different from.',
       points: 2
@@ -220,7 +220,7 @@ export const C1_U26_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 2),
       type: 'fill-blank',
-      question: 'She is [[head|cabeza]] and ___ (shoulders) [[above|encima]] the [[rest|resto]].',
+      question: 'She is [[head|cabeza]] and ___ [[above|encima]] the [[rest|resto]].',
       correctAnswer: 'shoulders',
       explanation: '"Head and shoulders above" means much better than.',
       points: 2
@@ -228,7 +228,7 @@ export const C1_U26_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 3),
       type: 'fill-blank',
-      question: 'This [[team|equipo]] is in a ___ (league) of their [[own|propia]].',
+      question: 'This [[team|equipo]] is in a ___ of their [[own|propia]].',
       correctAnswer: 'league',
       explanation: '"In a league of one\'s own" means uniquely excellent.',
       points: 2
@@ -236,7 +236,7 @@ export const C1_U26_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 4),
       type: 'fill-blank',
-      question: 'The [[two|dos]] [[problems|problemas]] are as [[different|diferentes]] as ___ (night) and [[day|día]].',
+      question: 'The [[two|dos]] [[problems|problemas]] are as [[different|diferentes]] as ___ and [[day|día]].',
       correctAnswer: 'night',
       explanation: 'Comparing total opposites.',
       points: 2
@@ -244,7 +244,7 @@ export const C1_U26_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 5),
       type: 'fill-blank',
-      question: 'He is as [[cool|fresco]] as a ___ (cucumber).',
+      question: 'He is as [[cool|fresco]] as a ___.',
       correctAnswer: 'cucumber',
       explanation: 'Idiom for being very calm.',
       points: 2
@@ -252,7 +252,7 @@ export const C1_U26_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 6),
       type: 'fill-blank',
-      question: 'It [[cost|costó]] next to ___ (nothing).',
+      question: 'It [[cost|costó]] next to ___.',
       correctAnswer: 'nothing',
       explanation: 'Almost free.',
       points: 2
@@ -260,7 +260,7 @@ export const C1_U26_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 7),
       type: 'fill-blank',
-      question: 'The [[two|dos]] [[cars|coches]] are as [[like|parecidos]] as two ___ (peas) in a [[pod|vaina]].',
+      question: 'The [[two|dos]] [[cars|coches]] are as [[like|parecidos]] as two ___ in a [[pod|vaina]].',
       correctAnswer: 'peas',
       explanation: 'Exactly alike.',
       points: 2
@@ -268,7 +268,7 @@ export const C1_U26_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 8),
       type: 'fill-blank',
-      question: 'She is as [[sharp|afilada]] as a ___ (needle).',
+      question: 'She is as [[sharp|afilada]] as a ___.',
       correctAnswer: 'needle',
       explanation: 'Very intelligent/observant.',
       points: 2
@@ -276,7 +276,7 @@ export const C1_U26_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 9),
       type: 'fill-blank',
-      question: 'They are like [[chalk|tiza]] and ___ (cheese).',
+      question: 'They are like [[chalk|tiza]] and ___.',
       correctAnswer: 'cheese',
       explanation: 'Completely different.',
       points: 2
@@ -284,7 +284,7 @@ export const C1_U26_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 10),
       type: 'fill-blank',
-      question: 'He is as [[blind|ciego]] as a ___ (bat).',
+      question: 'He is as [[blind|ciego]] as a ___.',
       correctAnswer: 'bat',
       explanation: 'Common comparison for poor vision.',
       points: 2
@@ -305,7 +305,7 @@ export const C1_U26_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 1),
       type: 'multiple-choice',
-      question: 'The [[food|comida]] was ___ (absolutely) [[delicious|deliciosa]].',
+      question: 'The [[food|comida]] was ___ [[delicious|deliciosa]].',
       options: ['absolutely', 'very', 'fairly'],
       correctAnswer: 'absolutely',
       explanation: '"Delicious" is ungradable.',
@@ -314,7 +314,7 @@ export const C1_U26_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 2),
       type: 'multiple-choice',
-      question: 'I was ___ (very) [[tired|cansado]].',
+      question: 'I was ___ [[tired|cansado]].',
       options: ['very', 'absolutely', 'utterly'],
       correctAnswer: 'very',
       explanation: '"Tired" is gradable.',
@@ -323,7 +323,7 @@ export const C1_U26_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 3),
       type: 'multiple-choice',
-      question: 'The [[view|vista]] was ___ (totally) [[breathtaking|asombrosa]].',
+      question: 'The [[view|vista]] was ___ [[breathtaking|asombrosa]].',
       options: ['totally', 'slightly', 'very'],
       correctAnswer: 'totally',
       explanation: '"Breathtaking" is ungradable.',
@@ -332,7 +332,7 @@ export const C1_U26_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 4),
       type: 'multiple-choice',
-      question: 'He was ___ (extremely) [[lucky|afortunado]].',
+      question: 'He was ___ [[lucky|afortunado]].',
       options: ['extremely', 'completely', 'absolutely'],
       correctAnswer: 'extremely',
       explanation: '"Lucky" is gradable.',
@@ -341,7 +341,7 @@ export const C1_U26_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 5),
       type: 'multiple-choice',
-      question: 'The [[room|habitación]] was ___ (utterly) [[filthy|asquerosa]].',
+      question: 'The [[room|habitación]] was ___ [[filthy|asquerosa]].',
       options: ['utterly', 'fairly', 'quite'],
       correctAnswer: 'utterly',
       explanation: '"Filthy" is ungradable.',
@@ -350,7 +350,7 @@ export const C1_U26_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 6),
       type: 'multiple-choice',
-      question: 'It was ___ (completely) [[ridiculous|ridículo]].',
+      question: 'It was ___ [[ridiculous|ridículo]].',
       options: ['completely', 'very', 'somewhat'],
       correctAnswer: 'completely',
       explanation: '"Ridiculous" is ungradable.',
@@ -359,7 +359,7 @@ export const C1_U26_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 7),
       type: 'multiple-choice',
-      question: 'The [[water|agua]] was ___ (freezing) [[cold|fría]].',
+      question: 'The [[water|agua]] was ___ [[cold|fría]].',
       options: ['freezing', 'very', 'slightly'],
       correctAnswer: 'freezing',
       explanation: 'Modifier + adjective.',
@@ -368,7 +368,7 @@ export const C1_U26_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 8),
       type: 'multiple-choice',
-      question: 'I am ___ (perfectly) [[happy|feliz]] [[here|aquí]].',
+      question: 'I am ___ [[happy|feliz]] [[here|aquí]].',
       options: ['perfectly', 'utterly', 'totally'],
       correctAnswer: 'perfectly',
       explanation: '"Happy" with specific modifier.',
@@ -377,7 +377,7 @@ export const C1_U26_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 9),
       type: 'multiple-choice',
-      question: 'The [[task|tarea]] was ___ (virtually) [[impossible|imposible]].',
+      question: 'The [[task|tarea]] was ___ [[impossible|imposible]].',
       options: ['virtually', 'fairly', 'very'],
       correctAnswer: 'virtually',
       explanation: '"Virtually" means almost.',
@@ -386,7 +386,7 @@ export const C1_U26_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 10),
       type: 'multiple-choice',
-      question: 'She was ___ (deeply) [[offended|ofendida]].',
+      question: 'She was ___ [[offended|ofendida]].',
       options: ['deeply', 'absolutely', 'utterly'],
       correctAnswer: 'deeply',
       explanation: '"Deeply" with emotional adjectives.',

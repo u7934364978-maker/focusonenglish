@@ -1,0 +1,58 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic: © 2026 Focus English
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=e6]
+        - 'heading "B2 Preview: Unidad 10Ejercicio 1 de 50" [level=1] [ref=e9]':
+          - text: "B2 Preview: Unidad 10"
+          - generic [ref=e10]: Ejercicio 1 de 50
+      - generic [ref=e11]:
+        - button [disabled] [ref=e12]:
+          - img [ref=e13]
+        - button [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+    - main [ref=e18]:
+      - generic [ref=e21]:
+        - generic [ref=e23]:
+          - generic [ref=e24]:
+            - heading "Ahorro para la vivienda" [level=2] [ref=e26]
+            - paragraph [ref=e27]:
+              - paragraph [ref=e29]: Ordena las palabras para hablar de planes financieros.
+          - generic [ref=e30]:
+            - heading "Tu oración:" [level=3] [ref=e31]
+            - paragraph [ref=e33]: Pulsa sobre las palabras de abajo...
+          - generic [ref=e34]:
+            - heading "Palabras disponibles:" [level=3] [ref=e35]
+            - paragraph [ref=e37]: Has usado todas las palabras.
+          - generic [ref=e39]:
+            - button "Comprobar" [disabled] [ref=e40]:
+              - img [ref=e41]
+              - text: Comprobar
+            - button "Reiniciar" [ref=e43] [cursor=pointer]:
+              - img [ref=e44]
+        - generic [ref=e48]:
+          - generic [ref=e49]: "⏱️ Tiempo estimado: minutos"
+          - generic [ref=e50]: 📅 2/14/2026
+    - generic [ref=e51]:
+      - generic [ref=e52]:
+        - img [ref=e53]
+        - generic [ref=e62]: Debug Mode
+      - generic [ref=e63]:
+        - button "Completar Unidad" [ref=e64] [cursor=pointer]:
+          - img [ref=e65]
+          - text: Completar Unidad
+        - button "Completar Curso B2 (30 Unidades)" [ref=e68] [cursor=pointer]:
+          - img [ref=e69]
+          - text: Completar Curso B2 (30 Unidades)
+  - button "Open Next.js Dev Tools" [ref=e76] [cursor=pointer]:
+    - img [ref=e77]
+  - alert [ref=e80]
+  - iframe [ref=e81]:
+    
+```

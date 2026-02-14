@@ -48,7 +48,7 @@ export const C1_U14_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 5),
       type: 'fill-blank',
-      question: 'In ___ (light) of the [[new|nueva]] [[evidence|evidencia]], the [[case|caso]] was [[reopened|reabierto]].',
+      question: 'In ___ of the [[new|nueva]] [[evidence|evidencia]], the [[case|caso]] was [[reopened|reabierto]].',
       correctAnswer: 'light',
       explanation: '"In light of" means [[considering|considerando]] or [[taking into account|teniendo en cuenta]].',
       points: 1
@@ -64,7 +64,7 @@ export const C1_U14_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 7),
       type: 'fill-blank',
-      question: 'The [[project|proyecto]] is [[ahead|adelante]] of [[schedule|horario]] ___ (regard) to the [[original|original]] [[plan|plan]].',
+      question: 'The [[project|proyecto]] is [[ahead|adelante]] of [[schedule|horario]] ___ to the [[original|original]] [[plan|plan]].',
       correctAnswer: 'with regard',
       explanation: '"With regard to" is a formal [[connector|conector]].',
       points: 1
@@ -305,7 +305,7 @@ export const C1_U14_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 1),
       type: 'multiple-choice',
-      question: 'In addition to ___ (study), she also [[works|trabaja]] full-time.',
+      question: 'In addition to ___, she also [[works|trabaja]] full-time.',
       options: ['studying', 'study', 'to study'],
       correctAnswer: 'studying',
       explanation: 'After "In addition to", use the [[gerund|gerundio]].',
@@ -314,7 +314,7 @@ export const C1_U14_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 2),
       type: 'multiple-choice',
-      question: 'He [[succeeded|logró]] by virtue of ___ (be) very [[persistent|persistente]].',
+      question: 'He [[succeeded|logró]] by virtue of ___ very [[persistent|persistente]].',
       options: ['being', 'be', 'been'],
       correctAnswer: 'being',
       explanation: 'Prepositions are followed by the -ing form.',
@@ -323,7 +323,7 @@ export const C1_U14_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 3),
       type: 'multiple-choice',
-      question: 'Instead of ___ (complain), why don\'t you [[help|ayudas]]?',
+      question: 'Instead of ___, why don\'t you [[help|ayudas]]?',
       options: ['complaining', 'complain', 'to complain'],
       correctAnswer: 'complaining',
       explanation: '"Instead of" + gerund.',
@@ -332,7 +332,7 @@ export const C1_U14_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 4),
       type: 'multiple-choice',
-      question: 'For the sake of ___ (avoid) [[confusion|confusión]], let\'s [[clarify|aclarar]] this.',
+      question: 'For the sake of ___ [[confusion|confusión]], let\'s [[clarify|aclarar]] this.',
       options: ['avoiding', 'avoid', 'to avoid'],
       correctAnswer: 'avoiding',
       explanation: '"For the sake of" + gerund.',
@@ -341,7 +341,7 @@ export const C1_U14_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 5),
       type: 'multiple-choice',
-      question: 'They [[entered|entraron]] without ___ (knock) on the door.',
+      question: 'They [[entered|entraron]] without ___ on the door.',
       options: ['knocking', 'knock', 'to knock'],
       correctAnswer: 'knocking',
       explanation: '"Without" acts as a preposition here.',
@@ -350,7 +350,7 @@ export const C1_U14_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 6),
       type: 'multiple-choice',
-      question: 'She is [[used|acostumbrada]] to ___ (work) [[long|largas]] [[hours|horas]].',
+      question: 'She is [[used|acostumbrada]] to ___ [[long|largas]] [[hours|horas]].',
       options: ['working', 'work', 'worked'],
       correctAnswer: 'working',
       explanation: 'In "be used to", "to" is a [[preposition|preposición]], so it takes -ing.',
@@ -359,7 +359,7 @@ export const C1_U14_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 7),
       type: 'multiple-choice',
-      question: 'We are [[looking|buscando]] [[forward|adelante]] to ___ (meet) you.',
+      question: 'We are [[looking|buscando]] [[forward|adelante]] to ___ you.',
       options: ['meeting', 'meet', 'to meet'],
       correctAnswer: 'meeting',
       explanation: '"Look forward to" + gerund.',
@@ -368,7 +368,7 @@ export const C1_U14_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 8),
       type: 'multiple-choice',
-      question: 'He was [[prevented|impedido]] from ___ (leave) the [[country|país]].',
+      question: 'He was [[prevented|impedido]] from ___ the [[country|país]].',
       options: ['leaving', 'leave', 'left'],
       correctAnswer: 'leaving',
       explanation: '"From" + gerund.',
@@ -377,7 +377,7 @@ export const C1_U14_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 9),
       type: 'multiple-choice',
-      question: 'Apart from ___ (be) a bit [[expensive|caro]], it was [[perfect|perfecto]].',
+      question: 'Apart from ___ a bit [[expensive|caro]], it was [[perfect|perfecto]].',
       options: ['being', 'be', 'to be'],
       correctAnswer: 'being',
       explanation: '"Apart from" + gerund.',
@@ -386,7 +386,7 @@ export const C1_U14_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 10),
       type: 'multiple-choice',
-      question: 'On ___ (hear) the news, he [[immediately|inmediatamente]] [[called|llamó]] her.',
+      question: 'On ___ the news, he [[immediately|inmediatamente]] [[called|llamó]] her.',
       options: ['hearing', 'hear', 'heard'],
       correctAnswer: 'hearing',
       explanation: '"On" meaning "as soon as" + gerund.',

@@ -16,16 +16,16 @@ export const C1_U2_BLOCK1: Exercise = {
     id: genId(UNIT_ID, 'b1', i + 1),
     type: 'fill-blank',
     question: [
-      'They ___ (work) on the project for months before it was finally [[approved|aprobado]].',
-      'By the time the fire [[brigade|brigada]] arrived, the building ___ (already/collapse).',
-      'I ___ (hope) to see you at the party, but I had to work late.',
-      'She ___ (always/complain) about the [[noise|ruido]], even before we moved in.',
-      'We ___ (walk) for nearly three hours when we saw the [[village|pueblo]].',
-      'He ___ (just/finish) his lunch when the phone rang.',
-      'The [[scientists|científicos]] ___ (conduct) experiments for years before they found a [[cure|cura]].',
-      'I ___ (think) of calling you when your message arrived.',
-      'They ___ (live) in a small flat until they won the [[lottery|lotería]].',
-      'The rain ___ (stop) by the time we left the house.'
+      'They ___ on the project for months before it was finally [[approved|aprobado]].',
+      'By the time the fire [[brigade|brigada]] arrived, the building ___.',
+      'I ___ to see you at the party, but I had to work late.',
+      'She ___ about the [[noise|ruido]], even before we moved in.',
+      'We ___ for nearly three hours when we saw the [[village|pueblo]].',
+      'He ___ his lunch when the phone rang.',
+      'The [[scientists|científicos]] ___ experiments for years before they found a [[cure|cura]].',
+      'I ___ of calling you when your message arrived.',
+      'They ___ in a small flat until they won the [[lottery|lotería]].',
+      'The rain ___ by the time we left the house.'
     ][i],
     correctAnswer: [
       'had been working',
@@ -108,16 +108,16 @@ export const C1_U2_BLOCK3: Exercise = {
     id: genId(UNIT_ID, 'b3', i + 1),
     type: 'fill-blank',
     question: [
-      'The abandoned house had a very ___ (scary) atmosphere.',
-      'The view from the top of the mountain was ___ (beautiful).',
-      'The streets were ___ (very crowded) during the [[festival|festival]].',
-      'The hotel room was ___ (very clean) and modern.',
-      'The [[silence|silencio]] in the library was ___ (complete).',
-      'The storm was ___ (very strong), causing much [[damage|daño]].',
-      'The cave was ___ (very dark) and damp.',
-      'The market was full of ___ (very colorful) [[exotic|exóticas]] fruits.',
-      'The old man told a ___ (very interesting) story about the war.',
-      'The task ahead of us was ___ (very difficult).'
+      'The abandoned house had a very ___ atmosphere.',
+      'The view from the top of the mountain was ___.',
+      'The streets were ___ during the [[festival|festival]].',
+      'The hotel room was ___ and modern.',
+      'The [[silence|silencio]] in the library was ___.',
+      'The storm was ___, causing much [[damage|daño]].',
+      'The cave was ___ and damp.',
+      'The market was full of ___ [[exotic|exóticas]] fruits.',
+      'The old man told a ___ story about the war.',
+      'The task ahead of us was ___.'
     ][i],
     correctAnswer: [
       'eerie',

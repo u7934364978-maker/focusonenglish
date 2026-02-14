@@ -16,16 +16,16 @@ export const C1_U3_BLOCK1: Exercise = {
     id: genId(UNIT_ID, 'b1', i + 1),
     type: 'fill-blank',
     question: [
-      'If I ___ (study) harder at school, I would have a better job now.',
-      'If she ___ (not/be) so [[stubborn|terca]], she would have admitted her mistake.',
-      'We would be on the plane now if we ___ (not/miss) the train.',
-      'If I ___ (know) you were coming, I would have baked a [[cake|pastel]].',
-      'If they ___ (be) more careful, they wouldn\'t be in this [[mess|lío]] now.',
-      'If he ___ (not/spend) all his money, he could buy that car today.',
-      'If I ___ (speak) better English, I would have got the job.',
-      'If she ___ (not/lose) her [[passport|pasaporte]], she would be in Paris now.',
-      'If we ___ (not/buy) that house, we would be much [[wealthier|más ricos]] today.',
-      'If I ___ (not/have) to work today, I would have gone to the [[beach|playa]] yesterday.'
+      'If I ___ harder at school, I would have a better job now.',
+      'If she ___ so [[stubborn|terca]], she would have admitted her mistake.',
+      'We would be on the plane now if we ___ the train.',
+      'If I ___ you were coming, I would have baked a [[cake|pastel]].',
+      'If they ___ more careful, they wouldn\'t be in this [[mess|lío]] now.',
+      'If he ___ all his money, he could buy that car today.',
+      'If I ___ better English, I would have got the job.',
+      'If she ___ her [[passport|pasaporte]], she would be in Paris now.',
+      'If we ___ that house, we would be much [[wealthier|más ricos]] today.',
+      'If I ___ to work today, I would have gone to the [[beach|playa]] yesterday.'
     ][i],
     correctAnswer: [
       'had studied',
@@ -212,7 +212,7 @@ export const C1_U3_BLOCK5: Exercise = {
     id: genId(UNIT_ID, 'b5', i + 1),
     type: 'multiple-choice',
     question: [
-      'The [[likelihood|probabilidad]] of success is quite high.',
+      'The ___ of success is quite high.',
       'It was a ___ decision that paid off in the end.',
       'There is a ___ chance that we will win.',
       'He is ___ to win the competition.',

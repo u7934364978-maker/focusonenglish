@@ -109,16 +109,16 @@ export const C1_U1_BLOCK3: Exercise = {
     id: genId(UNIT_ID, 'b3', i + 1),
     type: 'fill-blank',
     question: [
-      'He\'s always beating around the [[bush|arbusto]] instead of being direct.',
-      'Don\'t worry, it\'s not [[rocket science|ciencia espacial]].',
-      'I\'m feeling a bit under the [[weather|clima]] today.',
-      'Let\'s call it a [[day|día]] and go home.',
-      'You hit the [[nail|clavo]] on the head with that comment.',
-      'We need to get our [[ducks|patos]] in a row before the presentation.',
-      'I heard it straight from the horse\'s [[mouth|boca]].',
-      'That\'s the last [[straw|paja]]! I can\'t take it anymore.',
-      'He has a chip on his [[shoulder|hombro]] about his background.',
-      'Let\'s play it by [[ear|oído]] and see what happens.'
+      'He\'s always beating around the ___ instead of being direct.',
+      'Don\'t worry, it\'s not ___ .',
+      'I\'m feeling a bit under the ___ today.',
+      'Let\'s call it a ___ and go home.',
+      'You hit the ___ on the head with that comment.',
+      'We need to get our ___ in a row before the presentation.',
+      'I heard it straight from the horse\'s ___ .',
+      'That\'s the last ___ ! I can\'t take it anymore.',
+      'He has a chip on his ___ about his background.',
+      'Let\'s play it by ___ and see what happens.'
     ][i],
     correctAnswer: [
       'bush',
@@ -149,16 +149,16 @@ export const C1_U1_BLOCK4: Exercise = {
     id: genId(UNIT_ID, 'b4', i + 1),
     type: 'multiple-choice',
     question: [
-      'The research provides [[compelling|convincente]] evidence for the theory.',
-      'There is a [[striking|llamativa]] difference between the two approaches.',
-      'The government needs to [[take action|tomar medidas]] immediately.',
-      'He made a [[significant|significativa]] contribution to the field.',
-      'The results [[support|respaldan]] the hypothesis.',
-      'We need to [[address|abordar]] the underlying causes.',
-      'The project is [[behind schedule|retrasado]].',
-      'She has a [[profound|profundo]] knowledge of the subject.',
-      'The data [[reveals|revela]] a clear trend.',
-      'It is of [[paramount|primordial]] importance to remain objective.'
+      'The research provides ___ evidence for the theory.',
+      'There is a ___ difference between the two approaches.',
+      'The government needs to ___ action immediately.',
+      'He made a ___ contribution to the field.',
+      'The results ___ the hypothesis.',
+      'We need to ___ the underlying causes.',
+      'The project is ___ schedule.',
+      'She has a ___ knowledge of the subject.',
+      'The data ___ a clear trend.',
+      'It is of ___ importance to remain objective.'
     ][i],
     options: [
       ['compelling', 'strong', 'big'],

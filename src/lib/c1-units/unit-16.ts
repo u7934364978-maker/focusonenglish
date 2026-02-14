@@ -16,7 +16,7 @@ export const C1_U16_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 1),
       type: 'fill-blank',
-      question: 'He ___ (must) be [[exhausted|exhausto]] after [[working|trabajar]] for 12 [[hours|horas]].',
+      question: 'He ___ be [[exhausted|exhausto]] after [[working|trabajar]] for 12 [[hours|horas]].',
       correctAnswer: 'must',
       explanation: '"Must" expresses a strong [[logical|lógica]] [[deduction|deducción]] in the present.',
       points: 1
@@ -24,7 +24,7 @@ export const C1_U16_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 2),
       type: 'fill-blank',
-      question: 'The [[documents|documentos]] ___ (might) have been [[lost|perdidos]] in the [[mail|correo]].',
+      question: 'The [[documents|documentos]] ___ have been [[lost|perdidos]] in the [[mail|correo]].',
       correctAnswer: 'might',
       explanation: '"Might have + past participle" expresses a [[possibility|posibilidad]] in the past.',
       points: 1
@@ -32,7 +32,7 @@ export const C1_U16_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 3),
       type: 'fill-blank',
-      question: 'It ___ (cannot) be [[true|verdad]] that he [[resigned|renunció]]!',
+      question: 'It ___ be [[true|verdad]] that he [[resigned|renunció]]!',
       correctAnswer: 'cannot',
       explanation: '"Cannot" (can\'t) expresses [[disbelief|incredulidad]] or logical [[impossibility|imposibilidad]].',
       points: 1
@@ -40,7 +40,7 @@ export const C1_U16_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 4),
       type: 'fill-blank',
-      question: 'They ___ (should) have [[arrived|llegado]] by now; the [[flight|vuelo]] was on time.',
+      question: 'They ___ have [[arrived|llegado]] by now; the [[flight|vuelo]] was on time.',
       correctAnswer: 'should',
       explanation: '"Should have" expresses an [[expectation|expectativa]] about the past/present.',
       points: 1
@@ -48,7 +48,7 @@ export const C1_U16_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 5),
       type: 'fill-blank',
-      question: 'You ___ (could) have [[told|dicho]] me you were [[coming|viniendo]]!',
+      question: 'You ___ have [[told|dicho]] me you were [[coming|viniendo]]!',
       correctAnswer: 'could',
       explanation: '"Could have" here expresses [[criticism|crítica]] about a missed opportunity.',
       points: 1
@@ -56,7 +56,7 @@ export const C1_U16_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 6),
       type: 'fill-blank',
-      question: 'She ___ (may) well be the [[best|mejor]] [[candidate|candidata]] for the [[job|puesto]].',
+      question: 'She ___ well be the [[best|mejor]] [[candidate|candidata]] for the [[job|puesto]].',
       correctAnswer: 'may',
       explanation: '"May well" expresses a [[strong|fuerte]] [[possibility|posibilidad]].',
       points: 1
@@ -64,7 +64,7 @@ export const C1_U16_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 7),
       type: 'fill-blank',
-      question: 'The [[keys|llaves]] ___ (bound) to be [[somewhere|en algún lugar]] in the [[house|casa]].',
+      question: 'The [[keys|llaves]] ___ to be [[somewhere|en algún lugar]] in the [[house|casa]].',
       correctAnswer: 'are bound',
       explanation: '"Be bound to" means something is [[certain|seguro]] to happen or be true.',
       points: 1
@@ -72,7 +72,7 @@ export const C1_U16_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 8),
       type: 'fill-blank',
-      question: 'It is highly ___ (unlikely) that they will [[finish|terminar]] by [[Friday|viernes]].',
+      question: 'It is highly ___ that they will [[finish|terminar]] by [[Friday|viernes]].',
       correctAnswer: 'unlikely',
       explanation: '"Unlikely" expresses low [[probability|probabilidad]].',
       points: 1
@@ -80,7 +80,7 @@ export const C1_U16_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 9),
       type: 'fill-blank',
-      question: 'He ___ (can) be very [[difficult|difícil]] when he is [[tired|cansado]].',
+      question: 'He ___ be very [[difficult|difícil]] when he is [[tired|cansado]].',
       correctAnswer: 'can',
       explanation: '"Can" expresses a [[characteristic|característica]] or [[tendency|tendencia]].',
       points: 1
@@ -88,7 +88,7 @@ export const C1_U16_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 10),
       type: 'fill-blank',
-      question: 'There ___ (ought) to be more [[police|policía]] on the [[streets|calles]].',
+      question: 'There ___ to be more [[police|policía]] on the [[streets|calles]].',
       correctAnswer: 'ought',
       explanation: '"Ought to" expresses [[obligation|obligación]] or strong [[probability|probabilidad]].',
       points: 1
@@ -212,7 +212,7 @@ export const C1_U16_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 1),
       type: 'fill-blank',
-      question: 'I ___ (should) have [[studied|estudiado]] harder for the [[exam|examen]].',
+      question: 'I ___ have [[studied|estudiado]] harder for the [[exam|examen]].',
       correctAnswer: 'should',
       explanation: '"Should have" expresses [[regret|arrepentimiento]].',
       points: 2
@@ -220,7 +220,7 @@ export const C1_U16_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 2),
       type: 'fill-blank',
-      question: 'He ___ (cannot) have [[stolen|robado]] the [[money|dinero]]; he was with me.',
+      question: 'He ___ have [[stolen|robado]] the [[money|dinero]]; he was with me.',
       correctAnswer: 'cannot',
       explanation: '"Cannot have" expresses strong past [[disbelief|incredulidad]].',
       points: 2
@@ -228,7 +228,7 @@ export const C1_U16_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 3),
       type: 'fill-blank',
-      question: 'They ___ (must) have [[missed|perdido]] the [[turn|giro]].',
+      question: 'They ___ have [[missed|perdido]] the [[turn|giro]].',
       correctAnswer: 'must',
       explanation: '"Must have" expresses strong past [[deduction|deducción]].',
       points: 2
@@ -236,7 +236,7 @@ export const C1_U16_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 4),
       type: 'fill-blank',
-      question: 'You ___ (need not) have [[bought|comprado]] [[flowers|flores]], but thank you!',
+      question: 'You ___ have [[bought|comprado]] [[flowers|flores]], but thank you!',
       correctAnswer: 'need not',
       explanation: '"Need not have" means an [[action|acción]] was performed but was [[unnecessary|innecesaria]].',
       points: 2
@@ -244,7 +244,7 @@ export const C1_U16_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 5),
       type: 'fill-blank',
-      question: '___ (may) they have [[decided|decidido]] to [[stay|quedarse]] [[longer|más tiempo]]?',
+      question: '___ they have [[decided|decidido]] to [[stay|quedarse]] [[longer|más tiempo]]?',
       correctAnswer: 'Could',
       explanation: '"Could" is more common than "may" in [[questions|preguntas]] about possibility.',
       points: 2
@@ -252,7 +252,7 @@ export const C1_U16_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 6),
       type: 'fill-blank',
-      question: 'It ___ (might) have been [[worse|peor]] than it [[was|fue]].',
+      question: 'It ___ have been [[worse|peor]] than it [[was|fue]].',
       correctAnswer: 'might',
       explanation: '"Might have" for past [[possibility|posibilidad]].',
       points: 2
@@ -260,7 +260,7 @@ export const C1_U16_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 7),
       type: 'fill-blank',
-      question: 'She ___ (should) have been [[informed|informada]] [[earlier|antes]].',
+      question: 'She ___ have been [[informed|informada]] [[earlier|antes]].',
       correctAnswer: 'should',
       explanation: '"Should have been" (passive) expresses a missed [[obligation|obligación]].',
       points: 2
@@ -268,7 +268,7 @@ export const C1_U16_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 8),
       type: 'fill-blank',
-      question: 'They ___ (would) have [[helped|ayudado]] if we had [[asked|pedido]].',
+      question: 'They ___ have [[helped|ayudado]] if we had [[asked|pedido]].',
       correctAnswer: 'would',
       explanation: 'Third [[conditional|condicional]] speculation.',
       points: 2
@@ -276,7 +276,7 @@ export const C1_U16_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 9),
       type: 'fill-blank',
-      question: 'He ___ (can) have been [[waiting|esperando]] for [[hours|horas]].',
+      question: 'He ___ have been [[waiting|esperando]] for [[hours|horas]].',
       correctAnswer: 'could',
       explanation: '"Could have been -ing" for continuous past [[possibility|posibilidad]].',
       points: 2
@@ -284,7 +284,7 @@ export const C1_U16_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 10),
       type: 'fill-blank',
-      question: 'You ___ (ought) to have [[checked|revisado]] the [[oil|aceite]].',
+      question: 'You ___ to have [[checked|revisado]] the [[oil|aceite]].',
       correctAnswer: 'ought',
       explanation: '"Ought to have" is a synonym for [[should have|deberías haber]].',
       points: 2
@@ -305,7 +305,7 @@ export const C1_U16_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 1),
       type: 'multiple-choice',
-      question: 'I ___ (must) remember to [[buy|comprar]] [[milk|leche]].',
+      question: 'I ___ remember to [[buy|comprar]] [[milk|leche]].',
       options: ['must', 'have to', 'should'],
       correctAnswer: 'must',
       explanation: '"Must" is often for [[personal|personales]] obligations.',
@@ -332,7 +332,7 @@ export const C1_U16_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 4),
       type: 'multiple-choice',
-      question: 'I ___ (need) not have [[worried|preocupado]]; the [[test|test]] was easy.',
+      question: 'I ___ not have [[worried|preocupado]]; the [[test|test]] was easy.',
       options: ['need', 'must', 'should'],
       correctAnswer: 'need',
       explanation: '"Need not have" (performed action was unnecessary).',
@@ -341,7 +341,7 @@ export const C1_U16_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 5),
       type: 'multiple-choice',
-      question: 'I ___ (did not need) to [[buy|comprar]] [[bread|pan]], so I [[didn\'t|no lo hice]].',
+      question: 'I ___ to [[buy|comprar]] [[bread|pan]], so I [[didn\'t|no lo hice]].',
       options: ['didn\'t need', 'needn\'t have', 'mustn\'t have'],
       correctAnswer: 'didn\'t need',
       explanation: '"Didn\'t need to" (action was not performed).',
@@ -350,7 +350,7 @@ export const C1_U16_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 6),
       type: 'multiple-choice',
-      question: '___ (May) I [[be|ser]] so [[bold|atrevido]] as to [[suggest|sugerir]] a [[change|cambio]]?',
+      question: '___ I [[be|ser]] so [[bold|atrevido]] as to [[suggest|sugerir]] a [[change|cambio]]?',
       options: ['May', 'Can', 'Should'],
       correctAnswer: 'May',
       explanation: '"May" is very [[formal|formal]] for permission.',
@@ -368,7 +368,7 @@ export const C1_U16_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 8),
       type: 'multiple-choice',
-      question: 'He ___ (shall) not be [[denied|negado]] his [[rights|derechos]].',
+      question: 'He ___ not be [[denied|negado]] his [[rights|derechos]].',
       options: ['shall', 'must', 'ought'],
       correctAnswer: 'shall',
       explanation: '"Shall" expresses [[strong|fuerte]] [[determination|determinación]] or legal command.',
@@ -386,7 +386,7 @@ export const C1_U16_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 10),
       type: 'multiple-choice',
-      question: 'If you ___ (will) [[insist|insistir]] on [[being|ser]] [[rude|grosero]], you must [[leave|irte]].',
+      question: 'If you ___ [[insist|insistir]] on [[being|ser]] [[rude|grosero]], you must [[leave|irte]].',
       options: ['will', 'must', 'should'],
       correctAnswer: 'will',
       explanation: '"Will" here expresses [[stubborn|obstinada]] [[persistence|persistencia]].',

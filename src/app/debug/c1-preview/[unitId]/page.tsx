@@ -7,6 +7,7 @@ import { ArrowLeft, ArrowRight, Home, Bug, CheckCheck, Zap, Loader2 } from 'luci
 import Link from 'next/link';
 import { supabase } from '@/lib/supabase-client';
 import { markUnitAsCompleted, markFullC1CourseAsCompleted } from '@/lib/debug/course-utils';
+import { c1Units } from '@/lib/c1-units';
 
 export default function C1UnitPreviewPage() {
   const params = useParams();
@@ -31,21 +32,16 @@ export default function C1UnitPreviewPage() {
   }, []);
 
   useEffect(() => {
-    async function loadUnit() {
+    function loadUnit() {
       try {
-        const unitNumber = unitId.replace('unit-', '');
-        const module = await import(`@/lib/c1-units/unit-${unitNumber}`);
-        // C1 units use C1_UNIT_X or unitX naming convention in index, 
-        // but individual files export specific blocks or a main object.
-        // We look for the main unit object exported as C1_UNIT_X
-        const unitKey = `C1_UNIT_${unitNumber}`;
-        const unitData = module[unitKey] || module[`unit${unitNumber}`];
+        const unitNumber = parseInt(unitId.replace('unit-', ''));
+        const unitData = c1Units[unitNumber - 1];
         
         if (unitData && unitData.exercises) {
           // Flatten exercises if they are structured in blocks with questions
           const flattenedExercises = unitData.exercises.flatMap((block: any) => 
-            block.questions.map((q: any) => ({
-              id: q.id,
+            (block.questions || []).map((q: any) => ({
+              id: q.id || `${block.id}-${Math.random()}`,
               type: q.type || block.type,
               level: 'C1',
               topic: block.title,

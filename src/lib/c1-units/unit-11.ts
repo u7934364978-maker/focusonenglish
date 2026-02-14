@@ -16,7 +16,7 @@ export const C1_U11_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 1),
       type: 'fill-blank',
-      question: 'The ___ (analyze) of the [[results|resultados]] [[revealed|reveló]] several [[anomalies|anomalías]].',
+      question: 'The ___ of the [[results|resultados]] [[revealed|reveló]] several [[anomalies|anomalías]].',
       correctAnswer: 'analysis',
       explanation: '"Analysis" is the noun form of "analyze".',
       points: 1
@@ -24,7 +24,7 @@ export const C1_U11_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 2),
       type: 'fill-blank',
-      question: 'The ___ (refuse) of the [[proposal|propuesta]] was [[entirely|enteramente]] [[unexpected|inesperada]].',
+      question: 'The ___ of the [[proposal|propuesta]] was [[entirely|enteramente]] [[unexpected|inesperada]].',
       correctAnswer: 'refusal',
       explanation: '"Refusal" is the noun form of "refuse".',
       points: 1
@@ -32,7 +32,7 @@ export const C1_U11_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 3),
       type: 'fill-blank',
-      question: 'There is an [[urgent|urgente]] [[need|necesidad]] for the ___ (maintain) of the [[infrastructure|infraestructura]].',
+      question: 'There is an [[urgent|urgente]] [[need|necesidad]] for the ___ of the [[infrastructure|infraestructura]].',
       correctAnswer: 'maintenance',
       explanation: 'Note the spelling [[change|cambio]] in "maintenance".',
       points: 1
@@ -40,7 +40,7 @@ export const C1_U11_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 4),
       type: 'fill-blank',
-      question: 'Her ___ (depart) [[triggered|desencadenó]] a [[series|serie]] of [[resignations|renuncias]].',
+      question: 'Her ___ [[triggered|desencadenó]] a [[series|serie]] of [[resignations|renuncias]].',
       correctAnswer: 'departure',
       explanation: '"Departure" is the noun form of "depart".',
       points: 1
@@ -48,7 +48,7 @@ export const C1_U11_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 5),
       type: 'fill-blank',
-      question: 'The ___ (interfere) of the [[government|gobierno]] was [[highly|altamente]] [[controversial|controversial]].',
+      question: 'The ___ of the [[government|gobierno]] was [[highly|altamente]] [[controversial|controversial]].',
       correctAnswer: 'interference',
       explanation: '"Interference" is the noun form of "interfere".',
       points: 1
@@ -56,7 +56,7 @@ export const C1_U11_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 6),
       type: 'fill-blank',
-      question: 'We are [[awaiting|esperando]] ___ (confirm) of the [[meeting|reunión]] [[date|fecha]].',
+      question: 'We are [[awaiting|esperando]] ___ of the [[meeting|reunión]] [[date|fecha]].',
       correctAnswer: 'confirmation',
       explanation: 'Noun form: confirmation.',
       points: 1
@@ -64,7 +64,7 @@ export const C1_U11_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 7),
       type: 'fill-blank',
-      question: 'The ___ (fail) of the [[negotiations|negociaciones]] [[led|condujo]] to a [[strike|huelga]].',
+      question: 'The ___ of the [[negotiations|negociaciones]] [[led|condujo]] to a [[strike|huelga]].',
       correctAnswer: 'failure',
       explanation: '"Failure" is the noun form of "fail".',
       points: 1
@@ -72,7 +72,7 @@ export const C1_U11_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 8),
       type: 'fill-blank',
-      question: 'His ___ (propose) for a [[new|nuevo]] [[system|sistema]] was [[well-received|bien recibida]].',
+      question: 'His ___ for a [[new|nuevo]] [[system|sistema]] was [[well-received|bien recibida]].',
       correctAnswer: 'proposal',
       explanation: 'Noun form: proposal.',
       points: 1
@@ -80,7 +80,7 @@ export const C1_U11_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 9),
       type: 'fill-blank',
-      question: 'The ___ (occur) of such [[events|eventos]] is [[extremely|extremadamente]] [[rare|raro]].',
+      question: 'The ___ of such [[events|eventos]] is [[extremely|extremadamente]] [[rare|raro]].',
       correctAnswer: 'occurrence',
       explanation: 'Note the double "r" and "c" in "occurrence".',
       points: 1
@@ -88,7 +88,7 @@ export const C1_U11_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 10),
       type: 'fill-blank',
-      question: 'A [[thorough|minuciosa]] ___ (examine) of the [[documents|documentos]] is [[required|requerida]].',
+      question: 'A [[thorough|minuciosa]] ___ of the [[documents|documentos]] is [[required|requerida]].',
       correctAnswer: 'examination',
       explanation: 'Noun form: examination.',
       points: 1
@@ -109,7 +109,7 @@ export const C1_U11_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 1),
       type: 'fill-blank',
-      question: 'The ___ (stable) of the [[market|mercado]] is [[essential|esencial]] for [[investors|inversores]].',
+      question: 'The ___ of the [[market|mercado]] is [[essential|esencial]] for [[investors|inversores]].',
       correctAnswer: 'stability',
       explanation: '"Stability" is the noun form of "stable".',
       points: 1
@@ -117,7 +117,7 @@ export const C1_U11_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 2),
       type: 'fill-blank',
-      question: 'We must [[consider|considerar]] the ___ (feasible) of the [[project|proyecto]].',
+      question: 'We must [[consider|considerar]] the ___ of the [[project|proyecto]].',
       correctAnswer: 'feasibility',
       explanation: '"Feasibility" means whether something is [[possible|posible]] to do.',
       points: 1
@@ -125,7 +125,7 @@ export const C1_U11_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 3),
       type: 'fill-blank',
-      question: 'The ___ (frequent) of [[accidents|accidentes]] has [[decreased|disminuido]].',
+      question: 'The ___ of [[accidents|accidentes]] has [[decreased|disminuido]].',
       correctAnswer: 'frequency',
       explanation: 'Noun form: frequency.',
       points: 1
@@ -133,7 +133,7 @@ export const C1_U11_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 4),
       type: 'fill-blank',
-      question: 'There is a [[lack|falta]] of ___ (scarce) of [[fresh|fresca]] [[water|agua]] in the [[region|región]].',
+      question: 'There is a [[lack|falta]] of ___ of [[fresh|fresca]] [[water|agua]] in the [[region|región]].',
       correctAnswer: 'scarcity',
       explanation: '"Scarcity" is the noun form of "scarce".',
       points: 1
@@ -141,7 +141,7 @@ export const C1_U11_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 5),
       type: 'fill-blank',
-      question: 'The ___ (relevant) of his [[research|investigación]] is [[undeniable|innegable]].',
+      question: 'The ___ of his [[research|investigación]] is [[undeniable|innegable]].',
       correctAnswer: 'relevance',
       explanation: 'Noun form: relevance.',
       points: 1
@@ -149,7 +149,7 @@ export const C1_U11_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 6),
       type: 'fill-blank',
-      question: 'I was [[impressed|impresionado]] by the ___ (complex) of the [[puzzle|rompecabezas]].',
+      question: 'I was [[impressed|impresionado]] by the ___ of the [[puzzle|rompecabezas]].',
       correctAnswer: 'complexity',
       explanation: 'Noun form: complexity.',
       points: 1
@@ -157,7 +157,7 @@ export const C1_U11_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 7),
       type: 'fill-blank',
-      question: '___ (generous) is a [[trait|rasgo]] highly [[valued|valorado]] in this [[culture|cultura]].',
+      question: '___ is a [[trait|rasgo]] highly [[valued|valorado]] in this [[culture|cultura]].',
       correctAnswer: 'Generosity',
       explanation: 'Noun form: generosity.',
       points: 1
@@ -165,7 +165,7 @@ export const C1_U11_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 8),
       type: 'fill-blank',
-      question: 'The ___ (vulnerable) of the [[system|sistema]] was [[exposed|expuesta]].',
+      question: 'The ___ of the [[system|sistema]] was [[exposed|expuesta]].',
       correctAnswer: 'vulnerability',
       explanation: 'Noun form: vulnerability.',
       points: 1
@@ -173,7 +173,7 @@ export const C1_U11_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 9),
       type: 'fill-blank',
-      question: 'We need to [[ensure|asegurar]] the ___ (accurate) of the [[data|datos]].',
+      question: 'We need to [[ensure|asegurar]] the ___ of the [[data|datos]].',
       correctAnswer: 'accuracy',
       explanation: '"Accuracy" is the noun form of "accurate".',
       points: 1
@@ -181,7 +181,7 @@ export const C1_U11_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 10),
       type: 'fill-blank',
-      question: 'The ___ (brief) of the [[meeting|reunión]] was [[appreciated|apreciada]].',
+      question: 'The ___ of the [[meeting|reunión]] was [[appreciated|apreciada]].',
       correctAnswer: 'brevity',
       explanation: '"Brevity" is the noun form of "brief".',
       points: 1

@@ -16,7 +16,7 @@ export const C1_U22_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 1),
       type: 'multiple-choice',
-      question: 'The [[lawyer|abogado]] ___ (alleged) that the [[evidence|evidencia]] was [[fake|falsa]].',
+      question: 'The [[lawyer|abogado]] ___ that the [[evidence|evidencia]] was [[fake|falsa]].',
       options: ['alleged', 'told', 'urged'],
       correctAnswer: 'alleged',
       explanation: '"Allege" means to [[claim|afirmar]] something without [[proof|prueba]].',
@@ -25,7 +25,7 @@ export const C1_U22_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 2),
       type: 'multiple-choice',
-      question: 'She ___ (conceded) that the [[other|otro]] [[team|equipo]] [[played|jugó]] better.',
+      question: 'She ___ that the [[other|otro]] [[team|equipo]] [[played|jugó]] better.',
       options: ['conceded', 'insisted', 'denied'],
       correctAnswer: 'conceded',
       explanation: '"Concede" means to [[admit|admitir]] that something is [[true|verdad]], often [[unwillingly|a regañadientes]].',
@@ -34,7 +34,7 @@ export const C1_U22_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 3),
       type: 'multiple-choice',
-      question: 'He ___ (urged) the [[audience|público]] to [[take|tomar]] [[action|acción]].',
+      question: 'He ___ the [[audience|público]] to [[take|tomar]] [[action|acción]].',
       options: ['urged', 'said', 'informed'],
       correctAnswer: 'urged',
       explanation: '"Urge" means to [[strongly|fuertemente]] [[advise|aconsejar]] or [[encourage|animar]].',
@@ -43,7 +43,7 @@ export const C1_U22_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 4),
       type: 'multiple-choice',
-      question: 'The [[official|oficial]] ___ (refuted) the [[claims|afirmaciones]] made by the [[press|prensa]].',
+      question: 'The [[official|oficial]] ___ the [[claims|afirmaciones]] made by the [[press|prensa]].',
       options: ['refuted', 'requested', 'reminded'],
       correctAnswer: 'refuted',
       explanation: '"Refute" means to [[prove|probar]] that something is [[wrong|incorrecto]].',
@@ -52,7 +52,7 @@ export const C1_U22_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 5),
       type: 'multiple-choice',
-      question: 'He ___ (boasted) about his [[recent|reciente]] [[success|éxito]].',
+      question: 'He ___ about his [[recent|reciente]] [[success|éxito]].',
       options: ['boasted', 'complained', 'confessed'],
       correctAnswer: 'boasted',
       explanation: '"Boast" means to [[brag|alardear]].',
@@ -61,7 +61,7 @@ export const C1_U22_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 6),
       type: 'multiple-choice',
-      question: 'She ___ (implored) him to [[stay|quedarse]].',
+      question: 'She ___ him to [[stay|quedarse]].',
       options: ['implored', 'demanded', 'ordered'],
       correctAnswer: 'implored',
       explanation: '"Implore" is a very [[strong|fuerte]] and [[emotional|emocional]] way to ask.',
@@ -70,7 +70,7 @@ export const C1_U22_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 7),
       type: 'multiple-choice',
-      question: 'The [[report|informe]] ___ (highlights) the [[need|necesidad]] for [[change|cambio]].',
+      question: 'The [[report|informe]] ___ the [[need|necesidad]] for [[change|cambio]].',
       options: ['highlights', 'speaks', 'mentions'],
       correctAnswer: 'highlights',
       explanation: '"Highlight" means to [[emphasize|enfatizar]].',
@@ -79,7 +79,7 @@ export const C1_U22_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 8),
       type: 'multiple-choice',
-      question: 'He ___ (denied) [[having|haber]] any [[knowledge|conocimiento]] of the [[affair|asunto]].',
+      question: 'He ___ [[having|haber]] any [[knowledge|conocimiento]] of the [[affair|asunto]].',
       options: ['denied', 'refused', 'rejected'],
       correctAnswer: 'denied',
       explanation: '"Deny" is used for [[facts|hechos]], usually followed by [[-ing|gerundio]].',
@@ -88,7 +88,7 @@ export const C1_U22_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 9),
       type: 'multiple-choice',
-      question: 'She ___ (refused) to [[answer|responder]] the [[question|pregunta]].',
+      question: 'She ___ to [[answer|responder]] the [[question|pregunta]].',
       options: ['refused', 'denied', 'conceded'],
       correctAnswer: 'refused',
       explanation: '"Refuse" is used for [[actions|acciones]], followed by an [[infinitive|infinitivo]].',
@@ -97,7 +97,7 @@ export const C1_U22_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 10),
       type: 'multiple-choice',
-      question: 'He ___ (threatened) to [[call|llamar]] the [[police|policía]].',
+      question: 'He ___ to [[call|llamar]] the [[police|policía]].',
       options: ['threatened', 'warned', 'promised'],
       correctAnswer: 'threatened',
       explanation: '"Threaten" means to say you will [[harm|dañar]] or do something [[unpleasant|desagradable]].',
@@ -119,7 +119,7 @@ export const C1_U22_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 1),
       type: 'fill-blank',
-      question: 'He [[suggested|sugirió]] ___ (go) to the [[cinema|cine]].',
+      question: 'He [[suggested|sugirió]] ___ to the [[cinema|cine]].',
       correctAnswer: 'going',
       explanation: '"Suggest" is followed by the [[gerund|gerundio]].',
       points: 1
@@ -127,7 +127,7 @@ export const C1_U22_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 2),
       type: 'fill-blank',
-      question: 'They [[offered|ofrecieron]] ___ (help) us with the [[bags|maletas]].',
+      question: 'They [[offered|ofrecieron]] ___ us with the [[bags|maletas]].',
       correctAnswer: 'to help',
       explanation: '"Offer" is followed by the [[infinitive|infinitivo]].',
       points: 1
@@ -135,7 +135,7 @@ export const C1_U22_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 3),
       type: 'fill-blank',
-      question: 'She [[denied|negó]] ___ (break) the [[window|ventana]].',
+      question: 'She [[denied|negó]] ___ the [[window|ventana]].',
       correctAnswer: 'breaking',
       explanation: '"Deny" + gerund.',
       points: 1
@@ -143,7 +143,7 @@ export const C1_U22_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 4),
       type: 'fill-blank',
-      question: 'The [[doctor|médico]] [[advised|aconsejó]] me ___ (take) a [[rest|descanso]].',
+      question: 'The [[doctor|médico]] [[advised|aconsejó]] me ___ a [[rest|descanso]].',
       correctAnswer: 'to take',
       explanation: '"Advise + object + infinitive".',
       points: 1
@@ -151,7 +151,7 @@ export const C1_U22_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 5),
       type: 'fill-blank',
-      question: 'He [[blamed|culpó]] her ___ (lose) the [[keys|llaves]].',
+      question: 'He [[blamed|culpó]] her ___ the [[keys|llaves]].',
       correctAnswer: 'for losing',
       explanation: '"Blame someone for doing something".',
       points: 1
@@ -159,7 +159,7 @@ export const C1_U22_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 6),
       type: 'fill-blank',
-      question: 'She [[congratulated|felicitó]] him ___ (pass) the [[exam|examen]].',
+      question: 'She [[congratulated|felicitó]] him ___ the [[exam|examen]].',
       correctAnswer: 'on passing',
       explanation: '"Congratulate someone on doing something".',
       points: 1
@@ -167,7 +167,7 @@ export const C1_U22_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 7),
       type: 'fill-blank',
-      question: 'They [[insisted|insistieron]] ___ (pay) for [[dinner|cena]].',
+      question: 'They [[insisted|insistieron]] ___ for [[dinner|cena]].',
       correctAnswer: 'on paying',
       explanation: '"Insist on doing something".',
       points: 1
@@ -175,7 +175,7 @@ export const C1_U22_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 8),
       type: 'fill-blank',
-      question: 'He [[reminded|recordó]] me ___ (lock) the [[door|puerta]].',
+      question: 'He [[reminded|recordó]] me ___ the [[door|puerta]].',
       correctAnswer: 'to lock',
       explanation: '"Remind someone to do something".',
       points: 1
@@ -183,7 +183,7 @@ export const C1_U22_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 9),
       type: 'fill-blank',
-      question: 'She [[apologized|se disculpó]] ___ (be) late.',
+      question: 'She [[apologized|se disculpó]] ___ late.',
       correctAnswer: 'for being',
       explanation: '"Apologize for doing something".',
       points: 1
@@ -191,7 +191,7 @@ export const C1_U22_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 10),
       type: 'fill-blank',
-      question: 'The [[police|policía]] [[accused|acusó]] him ___ (steal) the [[car|coche]].',
+      question: 'The [[police|policía]] [[accused|acusó]] him ___ the [[car|coche]].',
       correctAnswer: 'of stealing',
       explanation: '"Accuse someone of doing something".',
       points: 1
@@ -220,7 +220,7 @@ export const C1_U22_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 2),
       type: 'fill-blank',
-      question: '"Do you [[like|gusta]] [[coffee|café]]?" \n She asked me ___ (if) I [[liked|gustaba]] [[coffee|café]].',
+      question: '"Do you [[like|gusta]] [[coffee|café]]?" \n She asked me ___ I [[liked|gustaba]] [[coffee|café]].',
       correctAnswer: 'if',
       explanation: 'Use "if" or "whether" for yes/no questions.',
       points: 2
@@ -228,7 +228,7 @@ export const C1_U22_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 3),
       type: 'fill-blank',
-      question: '"[[Sit|Siéntate]] down!" \n He ordered me ___ (sit) down.',
+      question: '"[[Sit|Siéntate]] down!" \n He ordered me ___ down.',
       correctAnswer: 'to sit',
       explanation: 'Commands use "to-infinitive".',
       points: 2
@@ -236,7 +236,7 @@ export const C1_U22_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 4),
       type: 'fill-blank',
-      question: '"Don\'t [[touch|toques]] that!" \n She told me ___ (not/touch) that.',
+      question: '"Don\'t [[touch|toques]] that!" \n She told me ___ that.',
       correctAnswer: 'not to touch',
       explanation: 'Negative commands use "not to".',
       points: 2
@@ -268,7 +268,7 @@ export const C1_U22_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 8),
       type: 'fill-blank',
-      question: '"[[Please|Por favor]] [[wait|espera]]." \n She asked me ___ (wait).',
+      question: '"[[Please|Por favor]] [[wait|espera]]." \n She asked me ___.',
       correctAnswer: 'to wait',
       explanation: 'Polite requests are reported like commands.',
       points: 2
@@ -305,7 +305,7 @@ export const C1_U22_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 1),
       type: 'fill-blank',
-      question: 'It is ___ (say) that the [[castle|castillo]] is [[haunted|embrujado]].',
+      question: 'It is ___ that the [[castle|castillo]] is [[haunted|embrujado]].',
       correctAnswer: 'said',
       explanation: '"It is said that" is a formal impersonal structure.',
       points: 1
@@ -313,7 +313,7 @@ export const C1_U22_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 2),
       type: 'fill-blank',
-      question: 'He is [[thought|pensado]] ___ (be) the richest [[man|hombre]] in the world.',
+      question: 'He is [[thought|pensado]] ___ the richest [[man|hombre]] in the world.',
       correctAnswer: 'to be',
       explanation: '"Subject + be thought + to-infinitive".',
       points: 1
@@ -321,7 +321,7 @@ export const C1_U22_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 3),
       type: 'fill-blank',
-      question: 'The [[thief|ladrón]] is [[believed|creído]] ___ (escape) across the [[border|frontera]].',
+      question: 'The [[thief|ladrón]] is [[believed|creído]] ___ across the [[border|frontera]].',
       correctAnswer: 'to have escaped',
       explanation: 'Use "to have + past participle" for a past [[action|acción]].',
       points: 1
@@ -329,7 +329,7 @@ export const C1_U22_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 4),
       type: 'fill-blank',
-      question: 'It is ___ (estimate) that [[thousands|miles]] were [[affected|afectados]].',
+      question: 'It is ___ that [[thousands|miles]] were [[affected|afectados]].',
       correctAnswer: 'estimated',
       explanation: 'Formal estimation.',
       points: 1
@@ -337,7 +337,7 @@ export const C1_U22_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 5),
       type: 'fill-blank',
-      question: 'They are ___ (report) to be [[considering|considerando]] a [[merger|fusión]].',
+      question: 'They are ___ to be [[considering|considerando]] a [[merger|fusión]].',
       correctAnswer: 'reported',
       explanation: '"Be reported + to-infinitive".',
       points: 1
@@ -345,7 +345,7 @@ export const C1_U22_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 6),
       type: 'fill-blank',
-      question: 'It is widely ___ (believe) that [[education|educación]] is [[key|clave]].',
+      question: 'It is widely ___ that [[education|educación]] is [[key|clave]].',
       correctAnswer: 'believed',
       explanation: 'General belief.',
       points: 1
@@ -353,7 +353,7 @@ export const C1_U22_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 7),
       type: 'fill-blank',
-      question: 'The [[painting|cuadro]] is ___ (allege) to be a [[forgery|falsificación]].',
+      question: 'The [[painting|cuadro]] is ___ to be a [[forgery|falsificación]].',
       correctAnswer: 'alleged',
       explanation: 'Formal allegation about a state.',
       points: 1
@@ -361,7 +361,7 @@ export const C1_U22_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 8),
       type: 'fill-blank',
-      question: 'He is [[understood|entendido]] ___ (resign) [[next|próxima]] [[week|semana]].',
+      question: 'He is [[understood|entendido]] ___ [[next|próxima]] [[week|semana]].',
       correctAnswer: 'to be resigning',
       explanation: 'Reporting a future/continuous action.',
       points: 1
@@ -369,7 +369,7 @@ export const C1_U22_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 9),
       type: 'fill-blank',
-      question: 'It was ___ (announce) that the [[war|guerra]] had [[ended|terminado]].',
+      question: 'It was ___ that the [[war|guerra]] had [[ended|terminado]].',
       correctAnswer: 'announced',
       explanation: 'Past announcement.',
       points: 1
@@ -377,7 +377,7 @@ export const C1_U22_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 10),
       type: 'fill-blank',
-      question: 'The [[new|nuevo]] [[law|ley]] is [[expected|esperada]] ___ (pass) [[soon|pronto]].',
+      question: 'The [[new|nuevo]] [[law|ley]] is [[expected|esperada]] ___ [[soon|pronto]].',
       correctAnswer: 'to pass',
       explanation: 'Reporting expectations.',
       points: 1

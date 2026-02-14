@@ -68,16 +68,16 @@ export const C1_U4_BLOCK2: Exercise = {
     id: genId(UNIT_ID, 'b2', i + 1),
     type: 'fill-blank',
     question: [
-      'I can\'t find my keys. I ___ (must/leave) them at the office.',
-      'He didn\'t come to the party. He ___ (might/forget) about it.',
-      'She ___ (can\'t/see) him. She was in a different city.',
-      'You ___ (must/be) very surprised when you heard the news.',
-      'The report ___ (should/arrive) by now. I sent it days ago.',
-      'The team ___ (must/work) hard to achieve these results.',
-      'He ___ (might/not/see) the email. I\'ve had no response.',
-      'The burglar ___ (couldn\'t/come) through the window; it was locked.',
-      'I ___ (may/leave) my phone in the taxi.',
-      'They ___ (can\'t/get) lost. They have a GPS.'
+      'I can\'t find my keys. I ___ them at the office.',
+      'He didn\'t come to the party. He ___ about it.',
+      'She ___ him. She was in a different city.',
+      'You ___ very surprised when you heard the news.',
+      'The report ___ by now. I sent it days ago.',
+      'The team ___ hard to achieve these results.',
+      'He ___ the email. I\'ve had no response.',
+      'The burglar ___ through the window; it was locked.',
+      'I ___ my phone in the taxi.',
+      'They ___ lost. They have a GPS.'
     ][i],
     correctAnswer: [
       'must have left',

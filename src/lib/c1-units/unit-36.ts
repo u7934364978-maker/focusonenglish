@@ -105,7 +105,7 @@ export const C1_U36_BLOCK3: Exercise = {
       'The data is thought ___ have been compromised.',
       'It is expected ___ that the product will launch soon.',
       'The breakthrough is considered ___ a major step forward.',
-      'It is estimated ___ that millions will be affected.',
+      'It is estimated ___ millions will be affected.',
       'The system is understood ___ be highly complex.',
       'It is suggested ___ that we need more regulation.'
     ][i],

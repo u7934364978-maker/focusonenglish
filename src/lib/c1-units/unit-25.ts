@@ -16,7 +16,7 @@ export const C1_U25_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 1),
       type: 'fill-blank',
-      question: '___ (It) was John who [[broke|rompió]] the [[window|ventana]].',
+      question: '___ was John who [[broke|rompió]] the [[window|ventana]].',
       correctAnswer: 'It',
       explanation: 'Basic it-cleft structure.',
       points: 1
@@ -24,7 +24,7 @@ export const C1_U25_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 2),
       type: 'fill-blank',
-      question: 'It was [[yesterday|ayer]] ___ (that) we [[met|nos conocimos]].',
+      question: 'It was [[yesterday|ayer]] ___ we [[met|nos conocimos]].',
       correctAnswer: 'that',
       explanation: 'Using "that" or "when" for time focus.',
       points: 1
@@ -32,7 +32,7 @@ export const C1_U25_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 3),
       type: 'fill-blank',
-      question: 'It is [[money|dinero]] that she ___ (needs) most.',
+      question: 'It is [[money|dinero]] that she ___ most.',
       correctAnswer: 'needs',
       explanation: 'Focusing on the object.',
       points: 1
@@ -40,7 +40,7 @@ export const C1_U25_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 4),
       type: 'fill-blank',
-      question: 'It was ___ (because) of the [[rain|lluvia]] that the [[match|partido]] was [[cancelled|cancelado]].',
+      question: 'It was ___ of the [[rain|lluvia]] that the [[match|partido]] was [[cancelled|cancelado]].',
       correctAnswer: 'because',
       explanation: 'Focusing on the reason.',
       points: 1
@@ -48,7 +48,7 @@ export const C1_U25_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 5),
       type: 'fill-blank',
-      question: 'It ___ (is) your [[attitude|actitud]], not your [[talent|talento]], that [[matters|importa]].',
+      question: 'It ___ your [[attitude|actitud]], not your [[talent|talento]], that [[matters|importa]].',
       correctAnswer: 'is',
       explanation: 'Present tense focus.',
       points: 1
@@ -56,7 +56,7 @@ export const C1_U25_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 6),
       type: 'fill-blank',
-      question: 'It was in [[London|Londres]] ___ (where) the [[event|evento]] took [[place|lugar]].',
+      question: 'It was in [[London|Londres]] ___ the [[event|evento]] took [[place|lugar]].',
       correctAnswer: 'where',
       explanation: 'Focusing on location.',
       points: 1
@@ -64,7 +64,7 @@ export const C1_U25_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 7),
       type: 'fill-blank',
-      question: '___ (It) wasn\'t until [[midnight|medianoche]] that he [[arrived|llegó]].',
+      question: '___ wasn\'t until [[midnight|medianoche]] that he [[arrived|llegó]].',
       correctAnswer: 'It',
       explanation: 'Negative time focus.',
       points: 1
@@ -72,7 +72,7 @@ export const C1_U25_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 8),
       type: 'fill-blank',
-      question: 'It is the ___ (lack) of [[resources|recursos]] that [[worries|preocupa]] me.',
+      question: 'It is the ___ of [[resources|recursos]] that [[worries|preocupa]] me.',
       correctAnswer: 'lack',
       explanation: 'Focusing on a noun phrase.',
       points: 1
@@ -80,7 +80,7 @@ export const C1_U25_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 9),
       type: 'fill-blank',
-      question: 'It was with [[great|gran]] ___ (difficulty) that she [[finished|terminó]].',
+      question: 'It was with [[great|gran]] ___ that she [[finished|terminó]].',
       correctAnswer: 'difficulty',
       explanation: 'Focusing on manner.',
       points: 1
@@ -88,7 +88,7 @@ export const C1_U25_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 10),
       type: 'fill-blank',
-      question: 'It is the [[truth|verdad]] that I ___ (seek).',
+      question: 'It is the [[truth|verdad]] that I ___.',
       correctAnswer: 'seek',
       explanation: 'Formal object focus.',
       points: 1
@@ -109,7 +109,7 @@ export const C1_U25_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 1),
       type: 'fill-blank',
-      question: '___ (What) I [[need|necesito]] is a [[vacation|vacación]].',
+      question: '___ I [[need|necesito]] is a [[vacation|vacación]].',
       correctAnswer: 'What',
       explanation: 'Basic wh-cleft.',
       points: 1
@@ -117,7 +117,7 @@ export const C1_U25_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 2),
       type: 'fill-blank',
-      question: 'What she [[did|hizo]] ___ (was) to [[resign|dimitir]].',
+      question: 'What she [[did|hizo]] ___ to [[resign|dimitir]].',
       correctAnswer: 'was',
       explanation: 'Focusing on an action.',
       points: 1
@@ -125,7 +125,7 @@ export const C1_U25_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 3),
       type: 'fill-blank',
-      question: 'What [[annoyed|molestó]] me most was his ___ (rudeness).',
+      question: 'What [[annoyed|molestó]] me most was his ___.',
       correctAnswer: 'rudeness',
       explanation: 'Focusing on a noun.',
       points: 1
@@ -133,7 +133,7 @@ export const C1_U25_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 4),
       type: 'fill-blank',
-      question: 'What [[happened|pasó]] was ___ (that) the [[car|coche]] [[broke|rompió]] down.',
+      question: 'What [[happened|pasó]] was ___ the [[car|coche]] [[broke|rompió]] down.',
       correctAnswer: 'that',
       explanation: 'Focusing on a whole event.',
       points: 1
@@ -141,7 +141,7 @@ export const C1_U25_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 5),
       type: 'fill-blank',
-      question: '___ (All) I want is a [[quiet|tranquila]] [[life|vida]].',
+      question: '___ I want is a [[quiet|tranquila]] [[life|vida]].',
       correctAnswer: 'All',
       explanation: '"All" can replace "What" for stronger emphasis.',
       points: 1
@@ -149,7 +149,7 @@ export const C1_U25_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 6),
       type: 'fill-blank',
-      question: 'The only [[thing|cosa]] I ___ (like) is [[music|música]].',
+      question: 'The only [[thing|cosa]] I ___ is [[music|música]].',
       correctAnswer: 'like',
       explanation: 'Cleft with "The only thing".',
       points: 1
@@ -157,7 +157,7 @@ export const C1_U25_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 7),
       type: 'fill-blank',
-      question: 'The [[place|lugar]] ___ (where) I [[live|vivo]] is [[small|pequeño]].',
+      question: 'The [[place|lugar]] ___ I [[live|vivo]] is [[small|pequeño]].',
       correctAnswer: 'where',
       explanation: 'Place focus.',
       points: 1
@@ -165,7 +165,7 @@ export const C1_U25_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 8),
       type: 'fill-blank',
-      question: 'The [[reason|razón]] ___ (why) I [[left|me fui]] was the [[noise|ruido]].',
+      question: 'The [[reason|razón]] ___ I [[left|me fui]] was the [[noise|ruido]].',
       correctAnswer: 'why',
       explanation: 'Reason focus.',
       points: 1
@@ -173,7 +173,7 @@ export const C1_U25_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 9),
       type: 'fill-blank',
-      question: 'What I [[really|realmente]] ___ (enjoy) is [[cooking|cocinar]].',
+      question: 'What I [[really|realmente]] ___ is [[cooking|cocinar]].',
       correctAnswer: 'enjoy',
       explanation: 'Emphasizing preference.',
       points: 1
@@ -181,7 +181,7 @@ export const C1_U25_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 10),
       type: 'fill-blank',
-      question: '___ (What) happened next was [[incredible|increíble]].',
+      question: '___ happened next was [[incredible|increíble]].',
       correctAnswer: 'What',
       explanation: 'Event focus.',
       points: 1
@@ -202,7 +202,7 @@ export const C1_U25_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 1),
       type: 'multiple-choice',
-      question: '___ (Never) have I [[seen|visto]] such [[beauty|belleza]].',
+      question: '___ have I [[seen|visto]] such [[beauty|belleza]].',
       options: ['Never', 'Rarely', 'Seldom'],
       correctAnswer: 'Never',
       explanation: 'Negative inversion for strong emphasis.',
@@ -211,7 +211,7 @@ export const C1_U25_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 2),
       type: 'multiple-choice',
-      question: '___ (Rarely) does he [[complain|quejarse]].',
+      question: '___ does he [[complain|quejarse]].',
       options: ['Rarely', 'Never', 'Always'],
       correctAnswer: 'Rarely',
       explanation: 'Adverbial inversion.',
@@ -220,7 +220,7 @@ export const C1_U25_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 3),
       type: 'multiple-choice',
-      question: '___ (Only) then did I [[realize|darme cuenta]] the [[truth|verdad]].',
+      question: '___ then did I [[realize|darme cuenta]] the [[truth|verdad]].',
       options: ['Only', 'But', 'So'],
       correctAnswer: 'Only',
       explanation: 'Time phrase inversion.',
@@ -229,7 +229,7 @@ export const C1_U25_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 4),
       type: 'multiple-choice',
-      question: '___ (Little) did they [[know|saber]] what was [[coming|viniendo]].',
+      question: '___ did they [[know|saber]] what was [[coming|viniendo]].',
       options: ['Little', 'Few', 'Small'],
       correctAnswer: 'Little',
       explanation: 'Negative adverb inversion.',
@@ -238,7 +238,7 @@ export const C1_U25_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 5),
       type: 'multiple-choice',
-      question: '___ (Under) no [[circumstances|circunstancias]] [[should|deberías]] you [[leave|irte]].',
+      question: '___ no [[circumstances|circunstancias]] [[should|deberías]] you [[leave|irte]].',
       options: ['Under', 'In', 'By'],
       correctAnswer: 'Under',
       explanation: 'Formal prohibition inversion.',
@@ -247,7 +247,7 @@ export const C1_U25_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 6),
       type: 'multiple-choice',
-      question: '___ (Not) only was it [[cold|frío]], but it also [[rained|llovió]].',
+      question: '___ only was it [[cold|frío]], but it also [[rained|llovió]].',
       options: ['Not', 'Only', 'No'],
       correctAnswer: 'Not',
       explanation: '"Not only" inversion.',
@@ -256,7 +256,7 @@ export const C1_U25_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 7),
       type: 'multiple-choice',
-      question: '___ (Hardly) had I [[arrived|llegado]] [[when|cuando]] the [[phone|teléfono]] [[rang|sonó]].',
+      question: '___ had I [[arrived|llegado]] [[when|cuando]] the [[phone|teléfono]] [[rang|sonó]].',
       options: ['Hardly', 'Almost', 'Nearly'],
       correctAnswer: 'Hardly',
       explanation: '"Hardly... when" inversion.',
@@ -265,7 +265,7 @@ export const C1_U25_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 8),
       type: 'multiple-choice',
-      question: '___ (Such) was the [[force|fuerza]] of the [[wind|viento]] that [[trees|árboles]] [[fell|cayeron]].',
+      question: '___ was the [[force|fuerza]] of the [[wind|viento]] that [[trees|árboles]] [[fell|cayeron]].',
       options: ['Such', 'So', 'Very'],
       correctAnswer: 'Such',
       explanation: '"Such" inversion.',
@@ -274,7 +274,7 @@ export const C1_U25_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 9),
       type: 'multiple-choice',
-      question: '___ (So) [[loud|fuerte]] was the [[noise|ruido]] that I [[couldn\'t|no pude]] [[sleep|dormir]].',
+      question: '___ [[loud|fuerte]] was the [[noise|ruido]] that I [[couldn\'t|no pude]] [[sleep|dormir]].',
       options: ['So', 'Such', 'Very'],
       correctAnswer: 'So',
       explanation: '"So" + adjective inversion.',
@@ -283,7 +283,7 @@ export const C1_U25_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 10),
       type: 'multiple-choice',
-      question: '___ (Should) you [[need|necesitar]] [[help|ayuda]], please [[call|llama]].',
+      question: '___ you [[need|necesitar]] [[help|ayuda]], please [[call|llama]].',
       options: ['Should', 'If', 'Unless'],
       correctAnswer: 'Should',
       explanation: 'Formal conditional inversion.',
@@ -305,7 +305,7 @@ export const C1_U25_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 1),
       type: 'fill-blank',
-      question: 'I ___ (do) [[believe|creer]] that [[honesty|honestidad]] is [[best|mejor]].',
+      question: 'I ___ [[believe|creer]] that [[honesty|honestidad]] is [[best|mejor]].',
       correctAnswer: 'do',
       explanation: 'Emphatic "do" in affirmative.',
       points: 1
@@ -313,7 +313,7 @@ export const C1_U25_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 2),
       type: 'fill-blank',
-      question: 'She ___ (did) [[tell|decir]] us [[about|sobre]] it [[yesterday|ayer]].',
+      question: 'She ___ [[tell|decir]] us [[about|sobre]] it [[yesterday|ayer]].',
       correctAnswer: 'did',
       explanation: 'Past emphatic "do".',
       points: 1
@@ -321,7 +321,7 @@ export const C1_U25_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 3),
       type: 'fill-blank',
-      question: 'I was [[absolutely|absolutamente]] ___ (devastated) by the [[news|noticias]].',
+      question: 'I was [[absolutely|absolutamente]] ___ by the [[news|noticias]].',
       correctAnswer: 'devastated',
       explanation: 'Extreme adjective for emphasis.',
       points: 1
@@ -329,7 +329,7 @@ export const C1_U25_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 4),
       type: 'fill-blank',
-      question: 'It was ___ (utterly) [[ridiculous|ridículo]] to [[suggest|sugerir]] that.',
+      question: 'It was ___ [[ridiculous|ridículo]] to [[suggest|sugerir]] that.',
       correctAnswer: 'utterly',
       explanation: 'Strong intensifying adverb.',
       points: 1
@@ -337,7 +337,7 @@ export const C1_U25_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 5),
       type: 'fill-blank',
-      question: 'I ___ (strongly) [[disagree|en desacuerdo]] with your [[proposal|propuesta]].',
+      question: 'I ___ [[disagree|en desacuerdo]] with your [[proposal|propuesta]].',
       correctAnswer: 'strongly',
       explanation: 'Adverb for emphatic opinion.',
       points: 1
@@ -345,7 +345,7 @@ export const C1_U25_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 6),
       type: 'fill-blank',
-      question: 'Do ___ (sit) [[down|abajo]] and [[relax|relájate]].',
+      question: 'Do ___ [[down|abajo]] and [[relax|relájate]].',
       correctAnswer: 'sit',
       explanation: 'Emphatic imperative.',
       points: 1
@@ -353,7 +353,7 @@ export const C1_U25_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 7),
       type: 'fill-blank',
-      question: 'The [[film|película]] was ___ (downright) [[boring|aburrida]].',
+      question: 'The [[film|película]] was ___ [[boring|aburrida]].',
       correctAnswer: 'downright',
       explanation: 'Informal but strong emphasis.',
       points: 1
@@ -361,7 +361,7 @@ export const C1_U25_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 8),
       type: 'fill-blank',
-      question: 'He is [[by|por]] ___ (far) the [[best|mejor]] [[player|jugador]].',
+      question: 'He is [[by|por]] ___ the [[best|mejor]] [[player|jugador]].',
       correctAnswer: 'far',
       explanation: '"By far" for superlative emphasis.',
       points: 1
@@ -369,7 +369,7 @@ export const C1_U25_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 9),
       type: 'fill-blank',
-      question: 'I am ___ (truly) [[sorry|lo siento]] for the [[delay|retraso]].',
+      question: 'I am ___ [[sorry|lo siento]] for the [[delay|retraso]].',
       correctAnswer: 'truly',
       explanation: 'Sincere emphasis.',
       points: 1
@@ -377,7 +377,7 @@ export const C1_U25_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 10),
       type: 'fill-blank',
-      question: 'It was ___ (pure) [[luck|suerte]] that we [[survived|sobrevivimos]].',
+      question: 'It was ___ [[luck|suerte]] that we [[survived|sobrevivimos]].',
       correctAnswer: 'pure',
       explanation: 'Emphatic adjective.',
       points: 1

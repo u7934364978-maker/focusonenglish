@@ -212,7 +212,7 @@ export const C1_U8_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 1),
       type: 'fill-blank',
-      question: 'The [[painting|pintura]], ___ (paint) by Picasso, is worth [[millions|millones]].',
+      question: 'The [[painting|pintura]], ___ by Picasso, is worth [[millions|millones]].',
       correctAnswer: 'painted',
       explanation: 'Reduced [[passive|pasiva]] relative clause using a [[past participle|participio pasado]].',
       points: 2
@@ -220,7 +220,7 @@ export const C1_U8_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 2),
       type: 'fill-blank',
-      question: 'Anyone ___ (wish) to leave may do so now.',
+      question: 'Anyone ___ to leave may do so now.',
       correctAnswer: 'wishing',
       explanation: 'Reduced [[active|activa]] relative clause using a [[present participle|participio presente]].',
       points: 2
@@ -228,7 +228,7 @@ export const C1_U8_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 3),
       type: 'fill-blank',
-      question: 'The [[book|libro]] ___ (lie) on the table is mine.',
+      question: 'The [[book|libro]] ___ on the table is mine.',
       correctAnswer: 'lying',
       explanation: 'Reduced active clause.',
       points: 2
@@ -236,7 +236,7 @@ export const C1_U8_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 4),
       type: 'fill-blank',
-      question: 'The [[cars|coches]] ___ (produce) in this [[factory|fábrica]] are [[exported|exportados]].',
+      question: 'The [[cars|coches]] ___ in this [[factory|fábrica]] are [[exported|exportados]].',
       correctAnswer: 'produced',
       explanation: 'Reduced passive clause.',
       points: 2
@@ -244,7 +244,7 @@ export const C1_U8_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 5),
       type: 'fill-blank',
-      question: 'A [[man|hombre]] ___ (call) Smith [[phoned|llamó]] earlier.',
+      question: 'A [[man|hombre]] ___ Smith [[phoned|llamó]] earlier.',
       correctAnswer: 'called',
       explanation: 'Reduced passive: "who is called" -> "called".',
       points: 2
@@ -252,7 +252,7 @@ export const C1_U8_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 6),
       type: 'fill-blank',
-      question: 'The [[results|resultados]] ___ (obtain) from the [[study|estudio]] were [[surprising|sorprendentes]].',
+      question: 'The [[results|resultados]] ___ from the [[study|estudio]] were [[surprising|sorprendentes]].',
       correctAnswer: 'obtained',
       explanation: 'Reduced passive clause.',
       points: 2
@@ -260,7 +260,7 @@ export const C1_U8_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 7),
       type: 'fill-blank',
-      question: '[[Houses|Casas]] ___ (build) of wood are [[common|comunes]] here.',
+      question: '[[Houses|Casas]] ___ of wood are [[common|comunes]] here.',
       correctAnswer: 'built',
       explanation: 'Reduced passive relative clause.',
       points: 2
@@ -268,7 +268,7 @@ export const C1_U8_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 8),
       type: 'fill-blank',
-      question: 'People ___ (live) in glass [[houses|casas]] shouldn\'t [[throw|tirar]] [[stones|piedras]].',
+      question: 'People ___ in glass [[houses|casas]] shouldn\'t [[throw|tirar]] [[stones|piedras]].',
       correctAnswer: 'living',
       explanation: 'Reduced active relative clause.',
       points: 2
@@ -276,7 +276,7 @@ export const C1_U8_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 9),
       type: 'fill-blank',
-      question: 'The [[man|hombre]] ___ (wait) outside is my [[uncle|tío]].',
+      question: 'The [[man|hombre]] ___ outside is my [[uncle|tío]].',
       correctAnswer: 'waiting',
       explanation: 'Reduced active clause: "who is waiting" -> "waiting".',
       points: 2
@@ -284,7 +284,7 @@ export const C1_U8_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 10),
       type: 'fill-blank',
-      question: 'The [[law|ley]] ___ (pass) yesterday will [[change|cambiar]] [[everything|todo]].',
+      question: 'The [[law|ley]] ___ yesterday will [[change|cambiar]] [[everything|todo]].',
       correctAnswer: 'passed',
       explanation: 'Reduced passive clause.',
       points: 2

@@ -16,7 +16,7 @@ export const C1_U23_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 1),
       type: 'fill-blank',
-      question: 'The [[project|proyecto]] was a [[success|éxito]], ___ (albeit) an [[expensive|caro]] one.',
+      question: 'The [[project|proyecto]] was a [[success|éxito]], ___ an [[expensive|caro]] one.',
       correctAnswer: 'albeit',
       explanation: '"Albeit" is a formal synonym for [[although|aunque]], often used before adjectives or noun phrases.',
       points: 1
@@ -24,7 +24,7 @@ export const C1_U23_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 2),
       type: 'fill-blank',
-      question: '___ (Notwithstanding) the [[weather|tiempo]], the [[match|partido]] went [[ahead|adelante]].',
+      question: '___ the [[weather|tiempo]], the [[match|partido]] went [[ahead|adelante]].',
       correctAnswer: 'Notwithstanding',
       explanation: '"Notwithstanding" is a formal way to say [[despite|a pesar de]].',
       points: 1
@@ -32,7 +32,7 @@ export const C1_U23_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 3),
       type: 'fill-blank',
-      question: 'It was [[raining|lloviendo]] [[hard|fuerte]]. ___ (Even so), we [[decided|decidimos]] to [[go|ir]] out.',
+      question: 'It was [[raining|lloviendo]] [[hard|fuerte]]. ___, we [[decided|decidimos]] to [[go|ir]] out.',
       correctAnswer: 'Even so',
       explanation: '"Even so" links two sentences to show [[contrast|contraste]].',
       points: 1
@@ -40,7 +40,7 @@ export const C1_U23_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 4),
       type: 'fill-blank',
-      question: "[[Much|Mucho]] ___ (as) I [[like|gusta]] him, I [[can't|no puedo]] [[trust|confiar]] him.",
+      question: "[[Much|Mucho]] ___ I [[like|gusta]] him, I [[can't|no puedo]] [[trust|confiar]] him.",
       correctAnswer: 'as',
       explanation: '"Much as" is a strong concessive [[opener|apertura]].',
       points: 1
@@ -48,7 +48,7 @@ export const C1_U23_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 5),
       type: 'fill-blank',
-      question: '___ (Expensive) [[though|aunque]] it was, she [[bought|compró]] it.',
+      question: '___ [[though|aunque]] it was, she [[bought|compró]] it.',
       correctAnswer: 'though',
       explanation: '"Adjective + though + subject + verb" is a common C1 structure.',
       points: 1
@@ -56,7 +56,7 @@ export const C1_U23_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 6),
       type: 'fill-blank',
-      question: '___ (Whatever) you [[say|digas]], I won\'t [[change|cambiar]] my [[mind|opinión]].',
+      question: '___ you [[say|digas]], I won\'t [[change|cambiar]] my [[mind|opinión]].',
       correctAnswer: 'Whatever',
       explanation: '"Whatever" introduces a [[total|total]] concession.',
       points: 1
@@ -64,7 +64,7 @@ export const C1_U23_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 7),
       type: 'fill-blank',
-      question: '___ (In spite) of his [[lack|falta]] of [[experience|experiencia]], he [[got|consiguió]] the [[job|trabajo]].',
+      question: '___ of his [[lack|falta]] of [[experience|experiencia]], he [[got|consiguió]] the [[job|trabajo]].',
       correctAnswer: 'In spite',
       explanation: '"In spite of" is synonymous with [[despite|a pesar de]].',
       points: 1
@@ -80,7 +80,7 @@ export const C1_U23_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 9),
       type: 'fill-blank',
-      question: '___ (While) I [[agree|de acuerdo]] with you [[in principle|en principio]], I [[disagree|en desacuerdo]] with the [[method|método]].',
+      question: '___ I [[agree|de acuerdo]] with you [[in principle|en principio]], I [[disagree|en desacuerdo]] with the [[method|método]].',
       correctAnswer: 'While',
       explanation: '"While" used for concession at the [[start|inicio]] of a sentence.',
       points: 1
@@ -88,7 +88,7 @@ export const C1_U23_BLOCK1: Exercise = {
     {
       id: genId(UNIT_ID, 'b1', 10),
       type: 'fill-blank',
-      question: '___ (Hard) as he [[tried|intentó]], he [[couldn\'t|no pudo]] [[solve|resolver]] the [[puzzle|rompecabezas]].',
+      question: '___ as he [[tried|intentó]], he [[couldn\'t|no pudo]] [[solve|resolver]] the [[puzzle|rompecabezas]].',
       correctAnswer: 'Hard',
       explanation: '"Adverb + as + subject + verb" for concession.',
       points: 1
@@ -127,7 +127,7 @@ export const C1_U23_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 3),
       type: 'multiple-choice',
-      question: '"You [[must|debes]] be [[happy|feliz]]." "___ (On the contrary), I am [[miserable|miserable]]."',
+      question: '"You [[must|debes]] be [[happy|feliz]]." "___, I am [[miserable|miserable]]."',
       options: ['On the contrary', 'In contrast', 'Otherwise'],
       correctAnswer: 'On the contrary',
       explanation: '"On the contrary" [[denies|niega]] a previous [[statement|afirmación]].',
@@ -136,7 +136,7 @@ export const C1_U23_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 4),
       type: 'multiple-choice',
-      question: 'The [[west|oeste]] is [[wet|húmedo]], ___ (whereas) the [[east|este]] is [[dry|seco]].',
+      question: 'The [[west|oeste]] is [[wet|húmedo]], ___ the [[east|este]] is [[dry|seco]].',
       options: ['whereas', 'despite', 'nevertheless'],
       correctAnswer: 'whereas',
       explanation: '"Whereas" links two [[balanced|equilibradas]] clauses.',
@@ -154,7 +154,7 @@ export const C1_U23_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 6),
       type: 'multiple-choice',
-      question: 'He is very [[rich|rico]], ___ (yet) he is very [[frugal|frugal]].',
+      question: 'He is very [[rich|rico]], ___ he is very [[frugal|frugal]].',
       options: ['yet', 'so', 'for'],
       correctAnswer: 'yet',
       explanation: '"Yet" shows an [[unexpected|inesperado]] contrast.',
@@ -163,7 +163,7 @@ export const C1_U23_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 7),
       type: 'multiple-choice',
-      question: '___ (Unlike) his brother, he is very [[shy|tímido]].',
+      question: '___ his brother, he is very [[shy|tímido]].',
       options: ['Unlike', 'Contrary', 'Different'],
       correctAnswer: 'Unlike',
       explanation: '"Unlike" compares two [[nouns|sustantivos]].',
@@ -190,7 +190,7 @@ export const C1_U23_BLOCK2: Exercise = {
     {
       id: genId(UNIT_ID, 'b2', 10),
       type: 'multiple-choice',
-      question: 'He is [[brilliant|brillante]], ___ (but) [[disorganized|desorganizado]].',
+      question: 'He is [[brilliant|brillante]], ___ [[disorganized|desorganizado]].',
       options: ['but', 'although', 'despite'],
       correctAnswer: 'but',
       explanation: 'Basic coordinating conjunction for contrast.',
@@ -212,7 +212,7 @@ export const C1_U23_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 1),
       type: 'fill-blank',
-      question: 'He didn\'t [[just|solo]] [[win|ganar]]; he ___ (actually) [[broke|rompió]] the [[record|récord]].',
+      question: 'He didn\'t [[just|solo]] [[win|ganar]]; he ___ [[broke|rompió]] the [[record|récord]].',
       correctAnswer: 'actually',
       explanation: '"Actually" emphasizes a surprising [[fact|hecho]].',
       points: 2
@@ -220,7 +220,7 @@ export const C1_U23_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 2),
       type: 'fill-blank',
-      question: 'The [[film|película]] was [[not|no]] [[good|buena]]. [[Indeed|De hecho]], it was ___ (terrible).',
+      question: 'The [[film|película]] was [[not|no]] [[good|buena]]. [[Indeed|De hecho]], it was ___.',
       correctAnswer: 'terrible',
       explanation: '"Indeed" adds [[weight|peso]] to a previous [[point|punto]].',
       points: 2
@@ -228,7 +228,7 @@ export const C1_U23_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 3),
       type: 'fill-blank',
-      question: 'She didn\'t [[cry|llorar]]. ___ (Instead), she [[laughed|rio]].',
+      question: 'She didn\'t [[cry|llorar]]. ___, she [[laughed|rio]].',
       correctAnswer: 'Instead',
       explanation: '"Instead" emphasizes the [[substitution|sustitución]] of actions.',
       points: 2
@@ -236,7 +236,7 @@ export const C1_U23_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 4),
       type: 'fill-blank',
-      question: '___ (Even) if he [[apologizes|se disculpa]], I won\'t [[forgive|perdonar]] him.',
+      question: '___ if he [[apologizes|se disculpa]], I won\'t [[forgive|perdonar]] him.',
       correctAnswer: 'Even',
       explanation: '"Even if" emphasizes the [[limit|límite]] of a condition.',
       points: 2
@@ -244,7 +244,7 @@ export const C1_U23_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 5),
       type: 'fill-blank',
-      question: 'He was so [[tired|cansado]] that he ___ (even) [[forgot|olvidó]] his [[name|nombre]].',
+      question: 'He was so [[tired|cansado]] that he ___ [[forgot|olvidó]] his [[name|nombre]].',
       correctAnswer: 'even',
       explanation: '"Even" adds emphasis to an extreme case.',
       points: 2
@@ -252,7 +252,7 @@ export const C1_U23_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 6),
       type: 'fill-blank',
-      question: 'I was [[surprised|sorprendido]] that he [[came|vino]] ___ (at all).',
+      question: 'I was [[surprised|sorprendido]] that he [[came|vino]] ___.',
       correctAnswer: 'at all',
       explanation: '"At all" emphasizes a [[negative|negativa]] or [[question|pregunta]].',
       points: 2
@@ -260,7 +260,7 @@ export const C1_U23_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 7),
       type: 'fill-blank',
-      question: 'It was a [[difficult|difícil]] [[year|año]], but we [[survived|sobrevivimos]] ___ (nonetheless).',
+      question: 'It was a [[difficult|difícil]] [[year|año]], but we [[survived|sobrevivimos]] ___.',
       correctAnswer: 'nonetheless',
       explanation: '"Nonetheless" is a formal way to say [[anyway|de todas formas]].',
       points: 2
@@ -268,7 +268,7 @@ export const C1_U23_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 8),
       type: 'fill-blank',
-      question: 'The [[offer|oferta]] was [[good|buena]]. ___ (Mind you), the [[risks|riesgos]] were [[high|altos]].',
+      question: 'The [[offer|oferta]] was [[good|buena]]. ___, the [[risks|riesgos]] were [[high|altos]].',
       correctAnswer: 'Mind you',
       explanation: '"Mind you" adds a [[counter-point|contrapunto]] or [[warning|advertencia]].',
       points: 2
@@ -276,7 +276,7 @@ export const C1_U23_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 9),
       type: 'fill-blank',
-      question: 'He is a [[great|gran]] [[player|jugador]]. ___ (That said), he [[needs|necesita]] more [[discipline|disciplina]].',
+      question: 'He is a [[great|gran]] [[player|jugador]]. ___, he [[needs|necesita]] more [[discipline|disciplina]].',
       correctAnswer: 'That said',
       explanation: '"That said" introduces a [[balancing|equilibrante]] contrast.',
       points: 2
@@ -284,7 +284,7 @@ export const C1_U23_BLOCK3: Exercise = {
     {
       id: genId(UNIT_ID, 'b3', 10),
       type: 'fill-blank',
-      question: 'She is very [[kind|amable]]. ___ (Conversely), she can be very [[strict|estricta]].',
+      question: 'She is very [[kind|amable]]. ___, she can be very [[strict|estricta]].',
       correctAnswer: 'Conversely',
       explanation: 'Formal direct contrast.',
       points: 2
@@ -305,7 +305,7 @@ export const C1_U23_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 1),
       type: 'multiple-choice',
-      question: '___ (Much) as I [[hate|odio]] to [[admit|admitir]] it, you were [[right|razón]].',
+      question: '___ as I [[hate|odio]] to [[admit|admitir]] it, you were [[right|razón]].',
       options: ['Much', 'Many', 'Strong'],
       correctAnswer: 'Much',
       explanation: '"Much as" is a fixed concessive structure.',
@@ -314,7 +314,7 @@ export const C1_U23_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 2),
       type: 'multiple-choice',
-      question: "[[Try|Intentar]] ___ (as) he [[might|pudiera]], he [[couldn't|no pudo]] [[open|abrir]] it.",
+      question: "[[Try|Intentar]] ___ he [[might|pudiera]], he [[couldn't|no pudo]] [[open|abrir]] it.",
       options: ['as', 'though', 'while'],
       correctAnswer: 'as',
       explanation: '"Verb + as + subject + modal" for concession.',
@@ -323,7 +323,7 @@ export const C1_U23_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 3),
       type: 'multiple-choice',
-      question: '___ (Be) that as it [[may|pueda]], we [[must|debemos]] [[continue|continuar]].',
+      question: '___ that as it [[may|pueda]], we [[must|debemos]] [[continue|continuar]].',
       options: ['Be', 'Is', 'Are'],
       correctAnswer: 'Be',
       explanation: '"Be that as it may" is a formal [[idiom|idiom]] for concession.',
@@ -332,7 +332,7 @@ export const C1_U23_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 4),
       type: 'multiple-choice',
-      question: '[[Tired|Cansado]] ___ (though) she [[was|estaba]], she [[finished|terminó]] the [[report|informe]].',
+      question: '[[Tired|Cansado]] ___ she [[was|estaba]], she [[finished|terminó]] the [[report|informe]].',
       options: ['though', 'even', 'but'],
       correctAnswer: 'though',
       explanation: 'Adjective + though.',
@@ -341,7 +341,7 @@ export const C1_U23_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 5),
       type: 'multiple-choice',
-      question: '___ (Notwithstanding) the [[fact|hecho]] [[that|que]] it was [[late|tarde]], they [[stayed|quedaron]].',
+      question: '___ the [[fact|hecho]] [[that|que]] it was [[late|tarde]], they [[stayed|quedaron]].',
       options: ['Notwithstanding', 'Despite', 'Regardless'],
       correctAnswer: 'Notwithstanding',
       explanation: 'Formal connector used with "the fact that".',
@@ -350,7 +350,7 @@ export const C1_U23_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 6),
       type: 'multiple-choice',
-      question: '___ (Strange) as it [[seems|parece]], I [[actually|realmente]] [[enjoyed|disfruté]] it.',
+      question: '___ as it [[seems|parece]], I [[actually|realmente]] [[enjoyed|disfruté]] it.',
       options: ['Strange', 'Strangely', 'Stranger'],
       correctAnswer: 'Strange',
       explanation: 'Adjective + as + subject + verb.',
@@ -359,7 +359,7 @@ export const C1_U23_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 7),
       type: 'multiple-choice',
-      question: "___ (However) [[hard|duro]] you [[try|intentes]], you [[can't|no puedes]] [[win|ganar]].",
+      question: "___ [[hard|duro]] you [[try|intentes]], you [[can't|no puedes]] [[win|ganar]].",
       options: ['However', 'Whatever', 'Wherever'],
       correctAnswer: 'However',
       explanation: '"However + adjective/adverb" for concession.',
@@ -368,7 +368,7 @@ export const C1_U23_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 8),
       type: 'multiple-choice',
-      question: 'The [[weather|tiempo]] was [[bad|malo]]. ___ (All) [[the same|lo mismo]], it was a [[good|buen]] [[trip|viaje]].',
+      question: 'The [[weather|tiempo]] was [[bad|malo]]. ___ [[the same|lo mismo]], it was a [[good|buen]] [[trip|viaje]].',
       options: ['All', 'Even', 'Still'],
       correctAnswer: 'All',
       explanation: '"All the same" means [[nevertheless|de todas formas]].',
@@ -377,7 +377,7 @@ export const C1_U23_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 9),
       type: 'multiple-choice',
-      question: '___ (Hard) though they [[fought|lucharon]], they [[lost|perdieron]].',
+      question: '___ though they [[fought|lucharon]], they [[lost|perdieron]].',
       options: ['Hard', 'Hardly', 'Harder'],
       correctAnswer: 'Hard',
       explanation: 'Adverb + though.',
@@ -386,7 +386,7 @@ export const C1_U23_BLOCK4: Exercise = {
     {
       id: genId(UNIT_ID, 'b4', 10),
       type: 'multiple-choice',
-      question: '___ (Despite) [[being|ser]] [[rich|rico]], he is [[miserable|miserable]].',
+      question: '___ [[being|ser]] [[rich|rico]], he is [[miserable|miserable]].',
       options: ['Despite', 'Although', 'Even'],
       correctAnswer: 'Despite',
       explanation: '"Despite" is followed by [[-ing|gerundio]].',
