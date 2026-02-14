@@ -578,7 +578,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Speech",
       instructions: "Choose the correct reported form.",
-      question: "[[\|\]]"I am tired,\" he said. -> He said that he ___ tired.",
+      question: "\"I am tired,\" he said. -> He said that he ___ tired.",
       options: ["was", "is", "be"],
       correctAnswer: "was",
       explanation: "Present simple shifts to past simple.",
@@ -597,7 +597,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Questions",
       instructions: "Choose the correct reported form.",
-      question: "[[\|\]]"Will you come?\" she asked. -> She asked me if I ___ come.",
+      question: "\"Will you come?\" she asked. -> She asked me if I ___ come.",
       options: ["would", "will", "did"],
       correctAnswer: "would",
       explanation: "Will shifts to would in reported speech.",
@@ -616,7 +616,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Commands",
       instructions: "Choose the correct reported form.",
-      question: "[[\|\]]"Don't touch that,\" he said. -> He told me ___ touch that.",
+      question: "\"Don't touch that,\" he said. -> He told me ___ touch that.",
       options: ["not to", "to not", "don't"],
       correctAnswer: "not to",
       explanation: "Negative commands use 'not to + infinitive'.",
@@ -635,7 +635,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Speech",
       instructions: "Choose the correct reported form.",
-      question: "[[\|\]]"I have seen it,\" they said. -> They said that they ___ seen it.",
+      question: "\"I have seen it,\" they said. -> They said that they ___ seen it.",
       options: ["had", "have", "did"],
       correctAnswer: "had",
       explanation: "Present perfect shifts to past perfect.",
@@ -654,7 +654,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Questions",
       instructions: "Choose the correct reported form.",
-      question: "[[\|\]]"Where is it?\" she asked. -> She asked me where it ___.",
+      question: "\"Where is it?\" she asked. -> She asked me where it ___.",
       options: ["was", "is", "were"],
       correctAnswer: "was",
       explanation: "Reported questions use statement word order and backshifting.",

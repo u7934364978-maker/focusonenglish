@@ -12,7 +12,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Speech: Statements",
       instructions: "Choose the correct backshifted form.",
-      question: "[[\|\]]"I am busy,\" he said. -> He said that he ___ busy.",
+      question: "\"I am busy,\" he said. -> He said that he ___ busy.",
       options: ["was", "is", "be"],
       correctAnswer: "was",
       explanation: "Present simple 'am' shifts to past simple 'was' in reported speech.",
@@ -31,7 +31,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Speech: Statements",
       instructions: "Choose the correct backshifted form.",
-      question: "[[\|\]]"We have finished,\" they said. -> They said that they ___ finished.",
+      question: "\"We have finished,\" they said. -> They said that they ___ finished.",
       options: ["had", "have", "has"],
       correctAnswer: "had",
       explanation: "Present perfect 'have finished' shifts to past perfect 'had finished'.",
@@ -50,7 +50,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Speech: Statements",
       instructions: "Choose the correct backshifted form.",
-      question: "[[\|\]]"I will call you,\" she said. -> She said that she ___ call me.",
+      question: "\"I will call you,\" she said. -> She said that she ___ call me.",
       options: ["would", "will", "shall"],
       correctAnswer: "would",
       explanation: "'Will' shifts to 'would' in reported speech.",
@@ -69,7 +69,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Speech: Statements",
       instructions: "Choose the correct backshifted form.",
-      question: "[[\|\]]"I worked late,\" he said. -> He said that he ___ late.",
+      question: "\"I worked late,\" he said. -> He said that he ___ late.",
       options: ["had worked", "worked", "works"],
       correctAnswer: "had worked",
       explanation: "Past simple 'worked' often shifts to past perfect 'had worked'.",
@@ -88,7 +88,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Speech: Statements",
       instructions: "Choose the correct backshifted form.",
-      question: "[[\|\]]"I can help,\" she said. -> She said that she ___ help.",
+      question: "\"I can help,\" she said. -> She said that she ___ help.",
       options: ["could", "can", "may"],
       correctAnswer: "could",
       explanation: "Modal 'can' shifts to 'could'.",
@@ -107,7 +107,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Speech: Modals",
       instructions: "Choose the correct backshifted form.",
-      question: "[[\|\]]"I must go now,\" he said. -> He said that he ___ to go then.",
+      question: "\"I must go now,\" he said. -> He said that he ___ to go then.",
       options: ["had", "must", "has"],
       correctAnswer: "had",
       explanation: "In reported speech, 'must' usually shifts to 'had to'.",
@@ -126,7 +126,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Speech: Modals",
       instructions: "Choose the correct backshifted form.",
-      question: "[[\|\]]"I may arrive late,\" she said. -> She said that she ___ arrive late.",
+      question: "\"I may arrive late,\" she said. -> She said that she ___ arrive late.",
       options: ["might", "may", "will"],
       correctAnswer: "might",
       explanation: "Modal 'may' shifts to 'might' in reported speech.",
@@ -145,7 +145,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Speech: Place and Time",
       instructions: "Choose the correct word.",
-      question: "[[\|\]]"We are meeting here,\" they said. -> They said that they were meeting ___.",
+      question: "\"We are meeting here,\" they said. -> They said that they were meeting ___.",
       options: ["there", "here", "then"],
       correctAnswer: "there",
       explanation: "'Here' shifts to 'there' in reported speech.",
@@ -164,7 +164,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Speech: Place and Time",
       instructions: "Choose the correct phrase.",
-      question: "[[\|\]]"I'll see you tomorrow,\" she said. -> She said she'd see me ___.",
+      question: "\"I'll see you tomorrow,\" she said. -> She said she'd see me ___.",
       options: ["the next day", "tomorrow", "yesterday"],
       correctAnswer: "the next day",
       explanation: "'Tomorrow' shifts to 'the next day' or 'the following day'.",
@@ -183,7 +183,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Speech: Continuous",
       instructions: "Choose the correct backshifted form.",
-      question: "[[\|\]]"I was working,\" he said. -> He said that he ___ working.",
+      question: "\"I was working,\" he said. -> He said that he ___ working.",
       options: ["had been", "was", "has been"],
       correctAnswer: "had been",
       explanation: "Past continuous 'was working' shifts to past perfect continuous 'had been working'.",
@@ -203,7 +203,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Questions",
       instructions: "Fill in the blank with the correct verb form.",
-      question: "[[\|\]]"Where do you work?\" -> He asked me where I ___ (work).",
+      question: "\"Where do you work?\" -> He asked me where I ___ (work).",
       correctAnswer: "worked",
       explanation: "The direct question in present simple shifts to past simple in reported form.",
       translation: "\"¿Dónde trabajas?\" -> Me preguntó dónde trabajaba.",
@@ -221,7 +221,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Questions",
       instructions: "Fill in the blank with the correct word.",
-      question: "[[\|\]]"Do you like your job?\" -> She asked me ___ I liked my job.",
+      question: "\"Do you like your job?\" -> She asked me ___ I liked my job.",
       correctAnswer: "if",
       explanation: "Use 'if' or 'whether' for yes/no questions in reported speech.",
       translation: "\"¿Te gusta tu trabajo?\" -> Ella me preguntó si me gustaba mi trabajo.",
@@ -239,7 +239,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Commands",
       instructions: "Fill in the blank with the correct infinitive form.",
-      question: "[[\|\]]"Sit down,\" the boss said. -> The boss told me ___ (sit) down.",
+      question: "\"Sit down,\" the boss said. -> The boss told me ___ (sit) down.",
       correctAnswer: "to sit",
       explanation: "Commands are reported using 'told/asked + someone + to + infinitive'.",
       translation: "\"Siéntate\", dijo el jefe. El jefe me dijo que me sentara.",
@@ -257,7 +257,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Commands",
       instructions: "Fill in the blank.",
-      question: "[[\|\]]"Don't forget the meeting,\" he said. -> He told me ___ (not/forget) the meeting.",
+      question: "\"Don't forget the meeting,\" he said. -> He told me ___ (not/forget) the meeting.",
       correctAnswer: "not to forget",
       explanation: "Negative commands use 'not to + infinitive'.",
       translation: "\"No olvides la reunión\", dijo él. Me dijo que no olvidara la reunión.",
@@ -275,7 +275,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Questions",
       instructions: "Fill in the blank.",
-      question: "[[\|\]]"Have you seen the report?\" -> She asked me if I ___ (see) the report.",
+      question: "\"Have you seen the report?\" -> She asked me if I ___ (see) the report.",
       correctAnswer: "had seen",
       explanation: "Present perfect 'have seen' shifts to past perfect 'had seen'.",
       translation: "\"¿Has visto el informe?\" -> Ella me preguntó si había visto el informe.",
@@ -293,7 +293,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Questions",
       instructions: "Fill in the blank.",
-      question: "[[\|\]]"What are you doing?\" -> She asked me what I ___ doing.",
+      question: "\"What are you doing?\" -> She asked me what I ___ doing.",
       correctAnswer: "was",
       explanation: "Present continuous 'are you doing' shifts to past continuous 'I was doing'.",
       translation: "\"¿Qué estás haciendo?\" -> Ella me preguntó qué estaba haciendo.",
@@ -311,7 +311,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Questions",
       instructions: "Fill in the blank.",
-      question: "[[\|\]]"Will you attend?\" -> He asked me if I ___ attend.",
+      question: "\"Will you attend?\" -> He asked me if I ___ attend.",
       correctAnswer: "would",
       explanation: "Future 'will attend' shifts to 'would attend' in reported questions.",
       translation: "\"¿Asistirás?\" -> Me preguntó si asistiría.",
@@ -329,7 +329,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Commands",
       instructions: "Fill in the blank.",
-      question: "[[\|\]]"Finish the project,\" she told me. -> She told me ___ finish the project.",
+      question: "\"Finish the project,\" she told me. -> She told me ___ finish the project.",
       correctAnswer: "to",
       explanation: "Reported commands use the infinitive structure 'to + verb'.",
       translation: "\"Termina el proyecto\", me dijo ella. Me dijo que terminara el proyecto.",
@@ -347,7 +347,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Requests",
       instructions: "Fill in the blank.",
-      question: "[[\|\]]"Please don't be late,\" he said. -> He asked me ___ to be late.",
+      question: "\"Please don't be late,\" he said. -> He asked me ___ to be late.",
       correctAnswer: "not",
       explanation: "Negative requests/commands use 'not to + verb'.",
       translation: "\"Por favor, no llegues tarde\", dijo él. Me pidió que no llegara tarde.",
@@ -365,7 +365,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     content: {
       title: "Reported Requests",
       instructions: "Fill in the blank.",
-      question: "[[\|\]]"Can you sign this?\" -> She asked me ___ (sign) it.",
+      question: "\"Can you sign this?\" -> She asked me ___ (sign) it.",
       correctAnswer: "to sign",
       explanation: "A request for action is often reported as a command/request structure 'to + infinitive'.",
       translation: "\"¿Puedes firmar esto?\" -> Ella me pidió que lo firmara.",
