@@ -88,27 +88,6 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u9-e5',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Food',
-    topicName: 'Foodie Life',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Chocolate',
-      instructions: 'Di la palabra para "chocolate".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Chocolate',
-          phonetic: '/ˈtʃɒk.lət/',
-          translation: 'Chocolate',
-          explanation: 'Cuidado: aunque se escribe igual que en español, se pronuncia muy diferente.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u9-e6',
     type: 'fill-blank',
     level: 'A1',
@@ -252,27 +231,6 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u9-e13',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Food',
-    topicName: 'Foodie Life',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Banana',
-      instructions: 'Di la palabra para "plátano".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Banana',
-          phonetic: '/bəˈnɑː.nə/',
-          translation: 'Plátano',
-          explanation: 'La sílaba tónica es la segunda: ba-NA-na.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u9-e14',
     type: 'sentence-building',
     level: 'A1',
@@ -396,27 +354,6 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u9-e20',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Food',
-    topicName: 'Foodie Life',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Salad',
-      instructions: 'Di la palabra para "ensalada".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Salad',
-          phonetic: '/ˈsæl.əd/',
-          translation: 'Ensalada',
-          explanation: 'La primera "a" es abierta y la segunda es casi imperceptible.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u9-e21',
     type: 'sentence-building',
     level: 'A1',
@@ -516,27 +453,6 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         { id: 'p5', left: 'Sour', right: 'Ácido/Agrio' }
       ],
       explanation: 'Saber los sabores básicos te ayudará a describir lo que comes.'
-    } as any
-  },
-  {
-    id: 'a1-u9-e26',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Food',
-    topicName: 'Foodie Life',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Pizza',
-      instructions: 'Di la palabra "pizza".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Pizza',
-          phonetic: '/ˈpiːt.sə/',
-          translation: 'Pizza',
-          explanation: 'Se pronuncia con un sonido de "ts" en el medio.'
-        }
-      ]
     } as any
   },
   {
@@ -663,27 +579,6 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u9-e33',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Food',
-    topicName: 'Foodie Life',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Chicken',
-      instructions: 'Di la palabra para "pollo".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Chicken',
-          phonetic: '/ˈtʃɪk.ɪn/',
-          translation: 'Pollo',
-          explanation: 'Asegúrate de pronunciar bien el sonido "ch" inicial.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u9-e34',
     type: 'sentence-building',
     level: 'A1',
@@ -783,27 +678,6 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         { id: 'p5', left: 'Glass', right: 'Vaso' }
       ],
       explanation: 'Saber los nombres de los cubiertos es vital para comer fuera.'
-    } as any
-  },
-  {
-    id: 'a1-u9-e39',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Food',
-    topicName: 'Foodie Life',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Meat',
-      instructions: 'Di la palabra para "carne".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Meat',
-          phonetic: '/miːt/',
-          translation: 'Carne',
-          explanation: 'La "ea" suena como una "i" larga.'
-        }
-      ]
     } as any
   },
   {
@@ -927,27 +801,6 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         { id: 'p5', left: 'The table', right: 'La mesa' }
       ],
       explanation: 'Estos términos son esenciales para desenvolverse en un restaurante.'
-    } as any
-  },
-  {
-    id: 'a1-u9-e46',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Food',
-    topicName: 'Foodie Life',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Sugar',
-      instructions: 'Di la palabra para "azúcar".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Sugar',
-          phonetic: '/ˈʃʊɡ.ər/',
-          translation: 'Azúcar',
-          explanation: 'La "s" inicial suena como "sh" (/ʃ/).'
-        }
-      ]
     } as any
   },
   {
