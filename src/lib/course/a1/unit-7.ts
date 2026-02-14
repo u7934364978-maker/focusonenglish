@@ -1,5 +1,9 @@
 import { Exercise } from '@/lib/exercise-generator';
 
+/**
+ * Unit 7: Days of the week
+ */
+
 export const UNIT_7_EXERCISES: Exercise[] = [
   {
     id: 'a1-u7-e1',
