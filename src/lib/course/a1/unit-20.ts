@@ -107,27 +107,6 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u20-e6',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Prepositions',
-    topicName: 'Where is it?',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Behind',
-      instructions: 'Di la palabra para "detrás".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Behind',
-          phonetic: '/bɪˈhaɪnd/',
-          translation: 'Detrás',
-          explanation: 'La "h" se pronuncia como una aspiración suave.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u20-e7',
     type: 'matching',
     level: 'A1',
@@ -285,27 +264,6 @@ export const UNIT_20_EXERCISES: Exercise[] = [
           question: 'The key is ________ the rug.',
           correctAnswer: 'under',
           explanation: '"Under" significa que algo está cubierto por otra cosa en una posición inferior.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u20-e15',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Prepositions',
-    topicName: 'Where is it?',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Between',
-      instructions: 'Di la palabra para "entre".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Between',
-          phonetic: '/bɪˈtwiːn/',
-          translation: 'Entre',
-          explanation: 'La "ee" se pronuncia como una "i" larga.'
         }
       ]
     } as any
@@ -473,27 +431,6 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u20-e24',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Prepositions',
-    topicName: 'Where is it?',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Fridge',
-      instructions: 'Di la palabra para "nevera".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Fridge',
-          phonetic: '/frɪdʒ/',
-          translation: 'Nevera',
-          explanation: 'La "dge" suena como una "y" fuerte o "j" en inglés.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u20-e25',
     type: 'matching',
     level: 'A1',
@@ -656,27 +593,6 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u20-e33',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Prepositions',
-    topicName: 'Where is it?',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Near',
-      instructions: 'Di la palabra para "cerca".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Near',
-          phonetic: '/nɪər/',
-          translation: 'Cerca',
-          explanation: 'Se pronuncia como "níar".'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u20-e34',
     type: 'matching',
     level: 'A1',
@@ -834,27 +750,6 @@ export const UNIT_20_EXERCISES: Exercise[] = [
           question: 'The towel is ________ the door.',
           correctAnswer: 'behind',
           explanation: "A veces colgamos las toallas detrás de la puerta."
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u20-e42',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Prepositions',
-    topicName: 'Where is it?',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Shower',
-      instructions: 'Di la palabra para "ducha".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Shower',
-          phonetic: '/ˈʃaʊər/',
-          translation: 'Ducha',
-          explanation: 'La "sh" suena como pidiendo silencio.'
         }
       ]
     } as any
