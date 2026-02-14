@@ -157,23 +157,6 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u29-9',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Graduation',
-    topicName: 'Final Graduation',
-    difficulty: 'medium',
-    content: {
-      questions: [
-        {
-          question: 'I drink coffee every morning.',
-          spanish: 'Bebo café todas las mañanas.',
-          explanation: 'Practica la pronunciación de un hábito común.'
-        }
-      ]
-    }
-  },
-  {
     id: 'a1-u29-10',
     type: 'fill-blank',
     level: 'A1',
@@ -377,23 +360,6 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       ]
     }
   },
-  {
-    id: 'a1-u29-21',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Graduation',
-    topicName: 'Final Graduation',
-    difficulty: 'medium',
-    content: {
-      questions: [
-        {
-          question: 'I went to London last summer.',
-          spanish: 'Fui a Londres el verano pasado.',
-          explanation: '"Went" es el pasado irregular de "go".'
-        }
-      ]
-    }
-  },
 
   // 10. Future Plans: Going to (Unit 27)
   {
@@ -522,23 +488,6 @@ export const UNIT_29_EXERCISES: Exercise[] = [
           text: 'I have a _______ (head). I need an aspirin.',
           correctAnswers: ['headache'],
           explanation: 'Un dolor de cabeza se dice "headache".'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u29-29',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Graduation',
-    topicName: 'Final Graduation',
-    difficulty: 'medium',
-    content: {
-      questions: [
-        {
-          question: 'I love playing football on Saturdays.',
-          spanish: 'Me encanta jugar al fútbol los sábados.',
-          explanation: 'Practica expresar tus gustos y aficiones.'
         }
       ]
     }
@@ -706,23 +655,6 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u29-39',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Graduation',
-    topicName: 'Final Graduation',
-    difficulty: 'medium',
-    content: {
-      questions: [
-        {
-          question: 'My favorite color is green.',
-          spanish: 'Mi color favorito es el verde.',
-          explanation: 'Una frase sencilla para practicar fluidez.'
-        }
-      ]
-    }
-  },
-  {
     id: 'a1-u29-40',
     type: 'matching',
     level: 'A1',
@@ -877,23 +809,6 @@ export const UNIT_29_EXERCISES: Exercise[] = [
           spanish: 'El supermercado está detrás del parque.',
           words: ['The', 'supermarket', 'is', 'behind', 'the', 'park.'],
           explanation: '"Behind" significa "detrás de".'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u29-49',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Graduation',
-    topicName: 'Final Graduation',
-    difficulty: 'medium',
-    content: {
-      questions: [
-        {
-          question: 'I can speak a little English now.',
-          spanish: 'Ahora puedo hablar un poco de inglés.',
-          explanation: '¡Felicidades! Estás terminando el nivel A1.'
         }
       ]
     }
