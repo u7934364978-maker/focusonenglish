@@ -89,26 +89,6 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u6-e5',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Colors',
-    topicName: 'Rainbow Colors',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Yellow',
-      instructions: 'Pronuncia la palabra para "amarillo".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Yellow',
-          correctAnswer: 'Yellow',
-          explanation: 'En "Yellow", la "Y" suena como una "i" muy suave, no como la "y" fuerte del español.'
-        }
-      ]
-    }
-  },
-  {
     id: 'a1-u6-e6',
     type: 'matching',
     level: 'A1',
@@ -226,26 +206,6 @@ export const UNIT_6_EXERCISES: Exercise[] = [
           options: ['small', 'big', 'fast'],
           correctAnswer: 0,
           explanation: '"Small" significa pequeño. La "a" suena como una "o" abierta: /smɔːl/.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u6-e12',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Colors',
-    topicName: 'Rainbow Colors',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Orange',
-      instructions: 'Pronuncia la palabra para "naranja".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Orange',
-          correctAnswer: 'Orange',
-          explanation: 'La terminación "-ge" suena suave, parecida a una "y" castellana en "yo".'
         }
       ]
     }
@@ -373,26 +333,6 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u6-e19',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Colors',
-    topicName: 'Rainbow Colors',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Green',
-      instructions: 'Di el color verde en inglés.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Green',
-          correctAnswer: 'Green',
-          explanation: 'Asegúrate de alargar la "ee" para que suene como una "i" española clara y larga.'
-        }
-      ]
-    }
-  },
-  {
     id: 'a1-u6-e20',
     type: 'matching',
     level: 'A1',
@@ -510,26 +450,6 @@ export const UNIT_6_EXERCISES: Exercise[] = [
           options: ['happy', 'sad', 'angry'],
           correctAnswer: 0,
           explanation: '"Happy" es feliz. La "h" inicial se aspira, como echando aire.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u6-e26',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Adjectives',
-    topicName: 'Rainbow Colors',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Beautiful',
-      instructions: 'Pronuncia la palabra para "hermoso".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Beautiful',
-          correctAnswer: 'Beautiful',
-          explanation: 'Divide la palabra: beau-ti-ful. El énfasis está al principio.'
         }
       ]
     }
@@ -657,26 +577,6 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u6-e33',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Colors',
-    topicName: 'Rainbow Colors',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: White',
-      instructions: 'Pronuncia el color blanco en inglés.',
-      questions: [
-        {
-          id: 'q1',
-          text: 'White',
-          correctAnswer: 'White',
-          explanation: 'La "w" inicial suena como una "u". No pronuncies la "h".'
-        }
-      ]
-    }
-  },
-  {
     id: 'a1-u6-e34',
     type: 'matching',
     level: 'A1',
@@ -799,26 +699,6 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u6-e40',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Adjectives',
-    topicName: 'Rainbow Colors',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Happy',
-      instructions: 'Pronuncia la palabra "feliz".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Happy',
-          correctAnswer: 'Happy',
-          explanation: 'Recuerda que la "H" debe sonar como un suspiro fuerte.'
-        }
-      ]
-    }
-  },
-  {
     id: 'a1-u6-e41',
     type: 'matching',
     level: 'A1',
@@ -936,26 +816,6 @@ export const UNIT_6_EXERCISES: Exercise[] = [
           options: ['orange', 'purple', 'black'],
           correctAnswer: 0,
           explanation: '"Orange" es naranja. Las zanahorias son el ejemplo perfecto de este color.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u6-e47',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Colors',
-    topicName: 'Rainbow Colors',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Purple',
-      instructions: 'Pronuncia la palabra para "morado".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Purple',
-          correctAnswer: 'Purple',
-          explanation: 'La primera sílaba tiene una "u" que suena como una "e" cerrada.'
         }
       ]
     }
