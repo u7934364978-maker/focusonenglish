@@ -386,7 +386,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Meeting Terms",
       instructions: "Fill in the blank.",
-      question: "[[We need to set an ___ (agenda) for the meeting.|Necesitamos establecer un orden del día para la reunión.]]",
+      question: "[[We|Nosotros]] [[need|necesitamos]] [[to| ]] [[set|establecer]] [[an|un]] [[___ (agenda)|orden del día]] [[for|para]] [[the|la]] [[meeting.|reunión.]]",
       correctAnswer: "agenda",
       explanation: "An agenda is a list of items to be discussed at a meeting.",
       translation: "Necesitamos establecer un orden del día para la reunión.",
@@ -404,7 +404,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Meeting Terms",
       instructions: "Fill in the blank.",
-      question: "[[Who is going to take the ___ (minutes)?|¿Quién va a tomar el acta?]]",
+      question: "[[Who|¿Quién]] [[is|va]] [[going|a]] [[to| ]] [[take|tomar]] [[the|el]] [[___ (minutes)?|acta?]]",
       correctAnswer: "minutes",
       explanation: "Minutes are the official written record of a meeting.",
       translation: "¿Quién va a tomar el acta?",
@@ -422,7 +422,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Meeting Terms",
       instructions: "Fill in the blank.",
-      question: "[[The meeting was ___ (chaired) by the CEO.|La reunión fue presidida por el CEO.]]",
+      question: "[[The|La]] [[meeting|reunión]] [[was|fue]] [[___ (chaired)|presidida]] [[by|por]] [[the|el]] [[CEO.|CEO.]]",
       correctAnswer: "chaired",
       explanation: "To chair a meeting means to lead it.",
       translation: "La reunión fue presidida por el CEO.",
@@ -440,7 +440,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Meeting Terms",
       instructions: "Fill in the blank.",
-      question: "[[We had a very ___ (productive) discussion.|Tuvimos una discusión muy productiva.]]",
+      question: "[[We|Nosotros]] [[had|tuvimos]] [[a|una]] [[very|muy]] [[___ (productive)|productiva]] [[discussion.|discusión.]]",
       correctAnswer: "productive",
       explanation: "Productive means achieving or producing a significant amount or result.",
       translation: "Tuvimos una discusión muy productiva.",
@@ -458,7 +458,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Meeting Terms",
       instructions: "Fill in the blank.",
-      question: "[[There were several ___ (action) points to follow up on.|Hubo varios puntos de acción para hacer seguimiento.]]",
+      question: "[[There|Hubo]] [[were|varios]] [[several| ]] [[___ (action)|puntos de acción]] [[points| ]] [[to|para]] [[follow|hacer]] [[up|seguimiento.]] [[on.| ]]",
       correctAnswer: "action",
       explanation: "An action point is a specific task to be completed after a meeting.",
       translation: "Hubo varios puntos de acción para hacer seguimiento.",
