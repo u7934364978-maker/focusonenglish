@@ -1,5 +1,9 @@
 import { Exercise } from '@/lib/exercise-generator';
 
+/**
+ * Unit 25: Past Tense
+ */
+
 export const UNIT_25_EXERCISES: Exercise[] = [
   {
     id: 'a1-u25-e1',
