@@ -107,27 +107,6 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u25-e6',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Past Tense',
-    topicName: 'Past Memories',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Were',
-      instructions: 'Di la palabra para "eras/estaba/eran".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Were',
-          phonetic: '/wɜːr/',
-          translation: 'Eras / Estaba / Eran',
-          explanation: 'Se pronuncia similar a "u-er", no confundir con "where".'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u25-e7',
     type: 'matching',
     level: 'A1',
@@ -285,27 +264,6 @@ export const UNIT_25_EXERCISES: Exercise[] = [
           question: 'They ________ here yesterday.',
           correctAnswer: "weren't",
           explanation: '"Weren\'t" es la contracción de "were not".'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u25-e15',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Past Tense',
-    topicName: 'Past Memories',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Wasn\'t',
-      instructions: 'Di la palabra para "no era/estaba".',
-      questions: [
-        {
-          id: 'q1',
-          text: "Wasn't",
-          phonetic: '/ˈwɒznt/',
-          translation: 'No era / estaba',
-          explanation: 'La "t" final debe sonar de forma breve y clara.'
         }
       ]
     } as any
@@ -473,27 +431,6 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u25-e24',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Past Tense',
-    topicName: 'Past Memories',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Museum',
-      instructions: 'Di la palabra para "museo".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Museum',
-          phonetic: '/mjuˈziːəm/',
-          translation: 'Museo',
-          explanation: 'El acento recae en la segunda sílaba: mu-SE-um.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u25-e25',
     type: 'matching',
     level: 'A1',
@@ -656,27 +593,6 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u25-e33',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Past Tense',
-    topicName: 'Past Memories',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Yesterday',
-      instructions: 'Di la palabra para "ayer".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Yesterday',
-          phonetic: '/ˈjestərdeɪ/',
-          translation: 'Ayer',
-          explanation: 'La "y" inicial suena como una "i" muy breve.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u25-e34',
     type: 'matching',
     level: 'A1',
@@ -834,27 +750,6 @@ export const UNIT_25_EXERCISES: Exercise[] = [
           question: 'It was a long time ________.',
           correctAnswer: 'ago',
           explanation: '"Ago" se refiere a cuánto tiempo hace que ocurrió algo.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u25-e42',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Past Tense',
-    topicName: 'Past Memories',
-    difficulty: 'hard',
-    content: {
-      title: 'Pronunciación: Weren\'t',
-      instructions: 'Di la palabra para "no eran/estaban".',
-      questions: [
-        {
-          id: 'q1',
-          text: "Weren't",
-          phonetic: '/wɜːrnt/',
-          translation: 'No eran / estaban',
-          explanation: 'Es una sola sílaba, rima con "burnt".'
         }
       ]
     } as any
