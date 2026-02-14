@@ -12,7 +12,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Gerunds vs Infinitives",
       instructions: "Choose the correct form.",
-      question: "[[I enjoy ___ (work) in a team.|Disfruto trabajando en equipo.]]",
+      question: "[[I|Disfruto]] [[enjoy| ]] [[___|___]] [[(work)|(trabajando)]] [[in|en]] [[a|equipo.]] [[team.| ]]",
       options: ["working", "to work", "work"],
       correctAnswer: "working",
       explanation: "The verb 'enjoy' is always followed by a gerund (-ing).",
@@ -31,7 +31,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Gerunds vs Infinitives",
       instructions: "Choose the correct form.",
-      question: "[[He decided ___ (apply) for the senior position.|Él decidió postularse para el puesto senior.]]",
+      question: "[[He|Él]] [[decided|decidió]] [[___|___]] [[(apply)|(postularse)]] [[for|para]] [[the|el]] [[senior|puesto]] [[position.|senior.]]",
       options: ["to apply", "applying", "apply"],
       correctAnswer: "to apply",
       explanation: "The verb 'decide' is followed by a to-infinitive.",
@@ -50,7 +50,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Gerunds vs Infinitives",
       instructions: "Choose the correct form.",
-      question: "[[They suggested ___ (wait) until the results arrive.|Sugerieron esperar hasta que lleguen los resultados.]]",
+      question: "[[They|Sugerieron]] [[suggested| ]] [[___|___]] [[(wait)|(esperar)]] [[until|hasta]] [[the|que]] [[results|lleguen los]] [[arrive.|resultados.]]",
       options: ["waiting", "to wait", "wait"],
       correctAnswer: "waiting",
       explanation: "'Suggest' is followed by a gerund.",
@@ -69,7 +69,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Gerunds vs Infinitives",
       instructions: "Choose the correct form.",
-      question: "[[Avoid ___ (interrupt) people during the meeting.|Evita interrumpir a la gente durante la reunión.]]",
+      question: "[[Avoid|Evita]] [[___|___]] [[(interrupt)|(interrumpir)]] [[people|a la gente]] [[during|durante]] [[the|la]] [[meeting.|reunión.]]",
       options: ["interrupting", "to interrupt", "interrupt"],
       correctAnswer: "interrupting",
       explanation: "'Avoid' is followed by a gerund.",
@@ -88,7 +88,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Gerunds vs Infinitives",
       instructions: "Choose the correct form.",
-      question: "[[I hope ___ (get) a promotion next year.|Espero conseguir un ascenso el año que viene.]]",
+      question: "[[I|Espero]] [[hope| ]] [[___|___]] [[(get)|(conseguir)]] [[a|un]] [[promotion|ascenso]] [[next|el año]] [[year.|que viene.]]",
       options: ["to get", "getting", "get"],
       correctAnswer: "to get",
       explanation: "'Hope' is followed by a to-infinitive.",
@@ -107,7 +107,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Gerunds vs Infinitives",
       instructions: "Choose the correct form.",
-      question: "[[I don't mind ___ (commute) if the job is interesting.|No me importa desplazarme al trabajo si el empleo es interesante.]]",
+      question: "[[I|No]] [[don't|me]] [[mind|importa]] [[___|___]] [[(commute)|(desplazarme al trabajo)]] [[if|si]] [[the|el]] [[job|empleo]] [[is|es]] [[interesting.|interesante.]]",
       options: ["commuting", "to commute", "commute"],
       correctAnswer: "commuting",
       explanation: "The phrase 'don't mind' is followed by a gerund.",
@@ -126,7 +126,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Gerunds vs Infinitives",
       instructions: "Choose the correct form.",
-      question: "[[We can afford ___ (hire) a new developer.|Podemos permitirnos contratar a un nuevo desarrollador.]]",
+      question: "[[We|Podemos]] [[can|permitirnos]] [[afford| ]] [[___|___]] [[(hire)|(contratar)]] [[a|a]] [[new|un nuevo]] [[developer.|desarrollador.]]",
       options: ["to hire", "hiring", "hire"],
       correctAnswer: "to hire",
       explanation: "The verb 'afford' is followed by a to-infinitive.",
@@ -145,7 +145,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Gerunds vs Infinitives",
       instructions: "Choose the correct form.",
-      question: "[[I've finished ___ (write) the report.|He terminado de escribir el informe.]]",
+      question: "[[I've|He]] [[finished|terminado de]] [[___|___]] [[(write)|(escribir)]] [[the|el]] [[report.|informe.]]",
       options: ["writing", "to write", "write"],
       correctAnswer: "writing",
       explanation: "The verb 'finish' is followed by a gerund.",
@@ -164,7 +164,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Gerunds vs Infinitives",
       instructions: "Choose the correct form.",
-      question: "[[She promised ___ (send) the documents.|Ella prometió enviar los documentos al mediodía.]]",
+      question: "[[She|Ella]] [[promised|prometió]] [[___|___]] [[(send)|(enviar)]] [[the|los]] [[documents.|documentos al mediodía.]]",
       options: ["to send", "sending", "send"],
       correctAnswer: "to send",
       explanation: "The verb 'promise' is followed by a to-infinitive.",
@@ -183,7 +183,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Gerunds vs Infinitives",
       instructions: "Choose the correct form.",
-      question: "[[Keep ___ (practice) your presentation skills.|Sigue practicando tus habilidades de presentación.]]",
+      question: "[[Keep|Sigue]] [[___|___]] [[(practice)|(practicando)]] [[your|tus]] [[presentation|habilidades de]] [[skills.|presentación.]]",
       options: ["practicing", "to practice", "practice"],
       correctAnswer: "practicing",
       explanation: "The verb 'keep' (meaning continue) is followed by a gerund.",
@@ -203,7 +203,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Verbs with Change in Meaning",
       instructions: "Fill in the blank.",
-      question: "[[I remember ___ (lock) the door, I'm sure of it.|Recuerdo haber cerrado la puerta con llave, estoy seguro de ello.]]",
+      question: "[[I|Recuerdo]] [[remember| ]] [[___|___]] [[(lock)|(haber cerrado)]] [[the|la]] [[door,|puerta con llave,]] [[I'm|estoy]] [[sure|seguro]] [[of|de]] [[it.|ello.]]",
       correctAnswer: "locking",
       explanation: "Remember + gerund refers to a memory of a past action.",
       translation: "Recuerdo haber cerrado la puerta con llave, estoy seguro de ello.",
@@ -221,7 +221,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Verbs with Change in Meaning",
       instructions: "Fill in the blank.",
-      question: "[[Remember ___ (lock) the door before you leave.|Recuerda cerrar la puerta antes de salir.]]",
+      question: "[[Remember|Recuerda]] [[___|___]] [[(lock)|(cerrar)]] [[the|la]] [[door|puerta]] [[before|antes de]] [[you| ]] [[leave.|salir.]]",
       correctAnswer: "to lock",
       explanation: "Remember + infinitive refers to an obligation or task to do.",
       translation: "Recuerda cerrar la puerta antes de salir.",
@@ -239,7 +239,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Verbs with Change in Meaning",
       instructions: "Fill in the blank.",
-      question: "[[He stopped ___ (smoke) last year for health reasons.|Dejó de fumar el año pasado por razones de salud.]]",
+      question: "[[He|Dejó de]] [[stopped| ]] [[___|___]] [[(smoke)|(fumar)]] [[last|el año]] [[year|pasado]] [[for|por]] [[health|razones de]] [[reasons.|salud.]]",
       correctAnswer: "smoking",
       explanation: "Stop + gerund means to quit a habit or action completely.",
       translation: "Dejó de fumar el año pasado por razones de salud.",
@@ -257,7 +257,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Verbs with Change in Meaning",
       instructions: "Fill in the blank.",
-      question: "[[I regret ___ (tell) him the secret; now everyone knows.|Lamento haberle contado el secreto; ahora todo el mundo lo sabe.]]",
+      question: "[[I|Lamento]] [[regret| ]] [[___|___]] [[(tell)|(haberle contado)]] [[him| ]] [[the|el]] [[secret;|secreto;]] [[now|ahora]] [[everyone|todo el mundo]] [[knows.|lo sabe.]]",
       correctAnswer: "telling",
       explanation: "Regret + gerund means to be sorry about something done in the past.",
       translation: "Lamento haberle contado el secreto; ahora todo el mundo lo sabe.",
@@ -275,7 +275,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Verbs with Change in Meaning",
       instructions: "Fill in the blank.",
-      question: "[[Try ___ (restart) your computer; that might fix it.|Prueba a reiniciar tu ordenador; eso podría solucionarlo.]]",
+      question: "[[Try|Prueba a]] [[___|___]] [[(restart)|(reiniciar)]] [[your|tu]] [[computer;|ordenador;]] [[that|eso]] [[might|podría]] [[fix|solucionarlo.]] [[it.| ]]",
       correctAnswer: "restarting",
       explanation: "Try + gerund means to do something as an experiment or solution.",
       translation: "Prueba a reiniciar tu ordenador; eso podría solucionarlo.",
@@ -293,7 +293,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Verbs with Change in Meaning",
       instructions: "Fill in the blank.",
-      question: "[[We tried ___ (open) the file, but it was corrupted.|Intentamos abrir el archivo, pero estaba corrupto.]]",
+      question: "[[We|Intentamos]] [[tried| ]] [[___|___]] [[(open)|(abrir)]] [[the|el]] [[file,|archivo,]] [[but|pero]] [[it|estaba]] [[was| ]] [[corrupted.|corrupto.]]",
       correctAnswer: "to open",
       explanation: "Try + infinitive means to make an effort to do something difficult.",
       translation: "Intentamos abrir el archivo, pero estaba corrupto.",
@@ -311,7 +311,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Verbs with Change in Meaning",
       instructions: "Fill in the blank.",
-      question: "[[I'll never forget ___ (meet) the CEO for the first time.|Nunca olvidaré cuando conocí al CEO por primera vez.]]",
+      question: "[[I'll|Nunca]] [[never| ]] [[forget|olvidaré cuando]] [[___|___]] [[(meet)|(conocí)]] [[the|al]] [[CEO|CEO]] [[for|por]] [[the| ]] [[first|primera]] [[time.|vez.]]",
       correctAnswer: "meeting",
       explanation: "Forget + gerund refers to a memory of a past event.",
       translation: "Nunca olvidaré cuando conocí al CEO por primera vez.",
@@ -329,7 +329,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Verbs with Change in Meaning",
       instructions: "Fill in the blank.",
-      question: "[[Don't forget ___ (send) the invoice today.|No olvides enviar la factura hoy.]]",
+      question: "[[Don't|No]] [[forget|olvides]] [[___|___]] [[(send)|(enviar)]] [[the|la]] [[invoice|factura]] [[today.|hoy.]]",
       correctAnswer: "to send",
       explanation: "Forget + infinitive means to fail to do something you intended.",
       translation: "No olvides enviar la factura hoy.",
@@ -347,7 +347,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Verbs with Change in Meaning",
       instructions: "Fill in the blank.",
-      question: "[[I regret ___ (inform) you that your application was unsuccessful.|Lamento informarle que su solicitud no tuvo éxito.]]",
+      question: "[[I|Lamento]] [[regret| ]] [[___|___]] [[(inform)|(informarle)]] [[you| ]] [[that|que]] [[your|su]] [[application|solicitud]] [[was|no tuvo]] [[unsuccessful.|éxito.]]",
       correctAnswer: "to inform",
       explanation: "Regret + infinitive is used to give bad news politely.",
       translation: "Lamento informarle que su solicitud no tuvo éxito.",
@@ -365,7 +365,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Verbs with Change in Meaning",
       instructions: "Fill in the blank.",
-      question: "[[He went on ___ (become) the director.|Continuó hasta convertirse en el director de la empresa.]]",
+      question: "[[He|Continuó hasta]] [[went| ]] [[on| ]] [[___|___]] [[(become)|(convertirse)]] [[the|en el]] [[director.|director de la empresa.]]",
       correctAnswer: "to become",
       explanation: "Go on + infinitive means to do something new after finishing something else.",
       translation: "Continuó hasta convertirse en el director de la empresa.",
@@ -384,7 +384,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Career Vocabulary",
       instructions: "Fill in the blank.",
-      question: "[[He climbed the corporate ___ (ladder) very quickly.|Subió el escalafón corporativo muy rápidamente.]]",
+      question: "[[He|Subió el]] [[climbed| ]] [[the| ]] [[corporate|escalafón]] [[___|___]] [[(ladder)|(corporativo)]] [[very|muy]] [[quickly.|rápidamente.]]",
       correctAnswer: "ladder",
       explanation: "The 'corporate ladder' is a metaphor for the hierarchy of a company.",
       translation: "Subió el escalafón corporativo muy rápidamente.",
@@ -402,7 +402,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Career Vocabulary",
       instructions: "Fill in the blank.",
-      question: "[[I need to improve my soft ___ (skills) like communication.|Necesito mejorar mis habilidades blandas como la comunicación.]]",
+      question: "[[I|Necesito]] [[need| ]] [[to| ]] [[improve|mejorar]] [[my|mis]] [[soft|habilidades]] [[___|___]] [[(skills)|(blandas)]] [[like|como la]] [[communication.|comunicación.]]",
       correctAnswer: "skills",
       explanation: "Soft skills are personal attributes that enable effective interaction.",
       translation: "Necesito mejorar mis habilidades blandas como la comunicación.",
@@ -420,7 +420,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Career Vocabulary",
       instructions: "Fill in the blank.",
-      question: "[[He took a ___ (sabbatical) to travel around the world.|Se tomó un año sabático para viajar por todo el mundo.]]",
+      question: "[[He|Se]] [[took|tomó]] [[a|un]] [[___|___]] [[(sabbatical)|(año sabático)]] [[to|para]] [[travel|viajar]] [[around|por todo]] [[the|el]] [[world.|mundo.]]",
       correctAnswer: "sabbatical",
       explanation: "A sabbatical is a period of paid or unpaid leave for study or travel.",
       translation: "Se tomó un año sabático para viajar por todo el mundo.",
@@ -438,7 +438,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Career Vocabulary",
       instructions: "Fill in the blank.",
-      question: "[[I am looking for a job with good ___ (prospects).|Estoy buscando un trabajo con buenas perspectivas.]]",
+      question: "[[I|Estoy]] [[am| ]] [[looking|buscando]] [[for|un]] [[a|trabajo]] [[job|con]] [[with|buenas]] [[good| ]] [[___|___]] [[(prospects).|(perspectivas.)]]",
       correctAnswer: "prospects",
       explanation: "Prospects are the possibility of future success or promotion.",
       translation: "Estoy buscando un trabajo con buenas perspectivas.",
@@ -456,7 +456,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Career Vocabulary",
       instructions: "Fill in the blank.",
-      question: "[[He has a very impressive ___ (resume).|Él tiene un currículum muy impresionante.]]",
+      question: "[[He|Él]] [[has|tiene]] [[a|un]] [[very|currículum]] [[impressive|muy]] [[___|___]] [[(resume).|(impresionante.)]]",
       correctAnswer: "resume",
       explanation: "A resume (or CV) is a document listing experience and skills.",
       translation: "Él tiene un currículum muy impresionante.",
@@ -474,7 +474,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Career Vocabulary",
       instructions: "Fill in the blank.",
-      question: "[[She is a ___ (seasoned) professional.|Ella es una profesional experimentada con años de experiencia.]]",
+      question: "[[She|Ella]] [[is|es]] [[a|una]] [[___|___]] [[(seasoned)|(profesional experimentada)]] [[professional.|con años de experiencia.]]",
       correctAnswer: "seasoned",
       explanation: "A 'seasoned' professional is someone with a lot of experience.",
       translation: "Ella es una profesional experimentada con años de experiencia.",
@@ -492,7 +492,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Career Vocabulary",
       instructions: "Fill in the blank.",
-      question: "[[Networking is essential for career ___ (advancement).|El networking es esencial para el avance profesional.]]",
+      question: "[[Networking|El networking]] [[is|es]] [[essential|esencial]] [[for|para el]] [[career|avance]] [[___|___]] [[(advancement).|(profesional.)]]",
       correctAnswer: "advancement",
       explanation: "Advancement refers to moving forward or rising in rank.",
       translation: "El networking es esencial para el avance profesional.",
@@ -510,7 +510,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Career Vocabulary",
       instructions: "Fill in the blank.",
-      question: "[[He has a very diverse ___ (skill) set.|Él tiene un conjunto de habilidades muy diverso.]]",
+      question: "[[He|Él]] [[has|tiene]] [[a|un]] [[very|conjunto de]] [[diverse|habilidades]] [[___|___]] [[(skill)|(muy)]] [[set.|diverso.]]",
       correctAnswer: "skill",
       explanation: "A 'skill set' is a person's range of skills or abilities.",
       translation: "Él tiene un conjunto de habilidades muy diverso.",
@@ -528,7 +528,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Career Vocabulary",
       instructions: "Fill in the blank.",
-      question: "[[The job ___ (market) is very competitive.|El mercado laboral es muy competitivo en este momento.]]",
+      question: "[[The|El]] [[job|mercado]] [[___|___]] [[(market)|(laboral)]] [[is|es]] [[very|muy]] [[competitive.|competitivo en este momento.]]",
       correctAnswer: "market",
       explanation: "The 'job market' refers to the supply and demand for jobs.",
       translation: "El mercado laboral es muy competitivo en este momento.",
@@ -546,7 +546,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Career Vocabulary",
       instructions: "Fill in the blank.",
-      question: "[[She received a generous ___ (severance) package.|Ella recibió un generoso paquete de indemnización.]]",
+      question: "[[She|Ella]] [[received|recibió]] [[a|un]] [[generous|generoso]] [[___|___]] [[(severance)|(paquete de indemnización.)]] [[package.| ]]",
       correctAnswer: "severance",
       explanation: "Severance pay is given to an employee whose employment is ended.",
       translation: "Ella recibió un generoso paquete de indemnización.",
@@ -565,7 +565,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Skills",
       instructions: "Choose the correct term.",
-      question: "[[Empathy is a crucial ___ (soft) skill for managers.|La empatía es una habilidad blanda crucial para los gerentes.]]",
+      question: "[[Empathy|La empatía]] [[is|es]] [[a|una]] [[crucial|habilidad]] [[___|___]] [[(soft)|(blanda)]] [[skill|crucial]] [[for|para los]] [[managers.|gerentes.]]",
       options: ["soft", "hard", "basic"],
       correctAnswer: "soft",
       explanation: "Interpersonal skills are called 'soft skills'.",
@@ -584,7 +584,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Skills",
       instructions: "Choose the correct term.",
-      question: "[[Coding is a ___ (hard) skill that is in high demand.|La programación es una habilidad dura que tiene mucha demanda.]]",
+      question: "[[Coding|La programación]] [[is|es]] [[a|una]] [[___|___]] [[(hard)|(habilidad dura)]] [[skill| ]] [[that|que]] [[is|tiene]] [[in|mucha]] [[high| ]] [[demand.|demanda.]]",
       options: ["hard", "soft", "manual"],
       correctAnswer: "hard",
       explanation: "Technical, teachable abilities are called 'hard skills'.",
@@ -603,7 +603,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Skills",
       instructions: "Choose the correct term.",
-      question: "[[He has excellent time ___ (management) skills.|Él tiene excelentes habilidades de gestión del tiempo.]]",
+      question: "[[He|Él]] [[has|tiene]] [[excellent|excelentes]] [[time|habilidades de]] [[___|___]] [[(management)|(gestión del tiempo.)]] [[skills.| ]]",
       options: ["management", "control", "timing"],
       correctAnswer: "management",
       explanation: "The ability to use time effectively is 'time management'.",
@@ -622,7 +622,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Skills",
       instructions: "Choose the correct term.",
-      question: "[[Critical ___ (thinking) is vital for problem-solving.|El pensamiento crítico es vital para la resolución de problemas.]]",
+      question: "[[Critical|El pensamiento]] [[___|___]] [[(thinking)|(crítico)]] [[is|es]] [[vital|vital]] [[for|para la]] [[problem-solving.|resolución de problemas.]]",
       options: ["thinking", "thought", "mind"],
       correctAnswer: "thinking",
       explanation: "Objective analysis of an issue is 'critical thinking'.",
@@ -641,7 +641,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Skills",
       instructions: "Choose the correct term.",
-      question: "[[Strong ___ (negotiation) skills can help in sales.|Unas fuertes habilidades de negociación pueden ayudar en las ventas.]]",
+      question: "[[Strong|Unas fuertes]] [[___|___]] [[(negotiation)|(habilidades de negociación)]] [[skills| ]] [[can|pueden]] [[help|ayudar]] [[in|en las]] [[sales.|ventas.]]",
       options: ["negotiation", "talking", "selling"],
       correctAnswer: "negotiation",
       explanation: "Discussion aimed at reaching an agreement is 'negotiation'.",
@@ -660,7 +660,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Soft Skills",
       instructions: "Choose the correct term.",
-      question: "[[___ (Adaptability) is the ability to adjust to new conditions.|La adaptabilidad es una habilidad blanda clave en un mundo cambiante.]]",
+      question: "[[___|___]] [[(Adaptability)|(La adaptabilidad)]] [[is|es]] [[the|la]] [[ability|capacidad de]] [[to| ]] [[adjust|ajustarse]] [[to|a]] [[new|nuevas]] [[conditions.|condiciones.]]",
       options: ["Adaptability", "Rigidity", "Speed"],
       correctAnswer: "Adaptability",
       explanation: "Being able to change and adjust is called adaptability.",
@@ -679,7 +679,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Hard Skills",
       instructions: "Choose the correct term.",
-      question: "[[___ (Proficiency) in a language is a hard skill.|El dominio de una lengua extranjera es una habilidad dura valiosa.]]",
+      question: "[[___|___]] [[(Proficiency)|(El dominio)]] [[in|en]] [[a|una]] [[language|lengua extranjera]] [[is|es]] [[a|una]] [[hard|habilidad]] [[skill.|dura valiosa.]]",
       options: ["Proficiency", "Liking", "Interest"],
       correctAnswer: "Proficiency",
       explanation: "Proficiency is the degree of skill or expertise.",
@@ -698,7 +698,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Soft Skills",
       instructions: "Choose the correct term.",
-      question: "[[___ (Leadership) involves guiding a group of people.|El liderazgo es la capacidad de inspirar y guiar a un equipo.]]",
+      question: "[[___|___]] [[(Leadership)|(El liderazgo)]] [[involves|implica]] [[guiding|guiar]] [[a|a un]] [[group|grupo]] [[of|de]] [[people.|personas.]]",
       options: ["Leadership", "Followership", "Solitude"],
       correctAnswer: "Leadership",
       explanation: "The action of leading a group or organization.",
@@ -717,7 +717,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Hard Skills",
       instructions: "Choose the correct term.",
-      question: "[[Data ___ (analysis) is a hard skill.|El análisis de datos es una habilidad dura muy buscada.]]",
+      question: "[[Data|El]] [[___|___]] [[(analysis)|(análisis de datos)]] [[is|es]] [[a|una]] [[hard|habilidad]] [[skill.|dura muy buscada.]]",
       options: ["analysis", "chat", "look"],
       correctAnswer: "analysis",
       explanation: "The process of examining data to find useful information.",
@@ -736,7 +736,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Soft Skills",
       instructions: "Choose the correct term.",
-      question: "[[Public ___ (speaking) is a common soft skill.|Hablar en público es una habilidad blanda que se puede desarrollar.]]",
+      question: "[[Public|Hablar en]] [[___|___]] [[(speaking)|(público)]] [[is|es]] [[a|una]] [[common|habilidad]] [[soft|blanda]] [[skill.|común.]]",
       options: ["speaking", "reading", "writing"],
       correctAnswer: "speaking",
       explanation: "The process of communicating information to an audience.",
@@ -756,7 +756,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[He is a very ___ (PROFESSION) worker.|Él es un trabajador muy profesional.]]",
+      question: "[[He|Él]] [[is|es]] [[a|un]] [[very|trabajador]] [[___|___]] [[(PROFESSION)|(muy profesional.)]] [[worker.| ]]",
       correctAnswer: "professional",
       explanation: "The adjective form of 'profession' is 'professional'.",
       translation: "Él es un trabajador muy profesional.",
@@ -774,7 +774,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[We need to increase ___ (PRODUCT) in the office.|Necesitamos aumentar la productividad en la oficina.]]",
+      question: "[[We|Necesitamos]] [[need| ]] [[to| ]] [[increase|aumentar]] [[___|___]] [[(PRODUCT)|(la productividad)]] [[in|en]] [[the|la]] [[office.|oficina.]]",
       correctAnswer: "productivity",
       explanation: "The noun form from 'produce' for office efficiency is 'productivity'.",
       translation: "Necesitamos aumentar la productividad en la oficina.",
@@ -792,7 +792,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Lifelong Learning",
       instructions: "Read and answer the question.",
-      question: "[[Why is lifelong learning important today?|Las habilidades se vuelven obsoletas rápidamente, por lo que el aprendizaje continuo es esencial.]]",
+      question: "[[Why|¿Por qué]] [[is|es]] [[lifelong|importante]] [[learning|el aprendizaje]] [[important|continuo]] [[today?|hoy?]]",
       options: ["Skills become obsolete fast", "It is fun", "It is free", "Jobs are easy"],
       correctAnswer: "Skills become obsolete fast",
       explanation: "The text explains that rapid changes make continuous learning necessary.",
@@ -811,7 +811,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Cover Letter Phrases",
       instructions: "Choose the best formal phrase.",
-      question: "[[To express interest in a role in a cover letter:|Le escribo para expresarle mi interés en el puesto...]]",
+      question: "[[To|Para]] [[express|expresar]] [[interest|interés]] [[in|en]] [[a|un]] [[role|puesto]] [[in|en]] [[a|una]] [[cover|carta de]] [[letter:|presentación:]]",
       options: ["I am writing to express my interest in...", "I want the job.", "Hello!"],
       correctAnswer: "I am writing to express my interest in...",
       explanation: "A standard professional way to start a cover letter.",
@@ -830,7 +830,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Talking about Ambition",
       instructions: "Identify the natural professional phrase.",
-      question: "[[How would you naturally say you want to improve?|Tengo mucho interés en ampliar mi conjunto de habilidades.]]",
+      question: "[[How|¿Cómo]] [[would|dirías]] [[you| ]] [[naturally|naturalmente]] [[say|que]] [[you|quieres]] [[want|mejorar?]] [[to| ]] [[improve?| ]]",
       options: ["I am keen to expand my skill set.", "I want to learn more.", "I need better skills.", "I will improve."],
       correctAnswer: "I am keen to expand my skill set.",
       explanation: "'Expand my skill set' is a sophisticated way to talk about professional growth.",
@@ -849,7 +849,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Mixed Review",
       instructions: "Choose the correct form.",
-      question: "[[I remember ___ (talk) to him about this.|Recuerdo haber hablado con él sobre esto.]]",
+      question: "[[I|Recuerdo]] [[remember|haber]] [[___|___]] [[(talk)|(hablado)]] [[to|con]] [[him|él]] [[about|sobre]] [[this.|esto.]]",
       options: ["talking", "to talk", "talk"],
       correctAnswer: "talking",
       explanation: "Remembering a past conversation uses the gerund.",
@@ -868,7 +868,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Mixed Review",
       instructions: "Complete the term.",
-      question: "[[Critical ___ is vital for problem-solving.|El pensamiento crítico es vital para la resolución de problemas.]]",
+      question: "[[Critical|El pensamiento]] [[___|___]] [[is|es]] [[vital|vital]] [[for|para la]] [[problem-solving.|resolución de problemas.]]",
       correctAnswer: "thinking",
       explanation: "'Critical thinking' is the complete term.",
       translation: "El pensamiento crítico es vital para la resolución de problemas.",
@@ -886,7 +886,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[She is known for her ___ (RELIABLE).|Ella es conocida por su confiabilidad.]]",
+      question: "[[She|Ella]] [[is|es]] [[known|conocida]] [[for|por]] [[her|su]] [[___|___]] [[(RELIABLE).|(confiabilidad.)]]",
       correctAnswer: "reliability",
       explanation: "The noun form of 'reliable' is 'reliability'.",
       translation: "Ella es conocida por su confiabilidad.",
@@ -904,7 +904,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Mixed Review",
       instructions: "Fill in the blank.",
-      question: "[[I'll never forget ___ (meet) the CEO.|Nunca olvidaré haber conocido al CEO.]]",
+      question: "[[I'll|Nunca]] [[never|olvidaré]] [[forget| ]] [[___|___]] [[(meet)|(haber conocido)]] [[the|al]] [[CEO.|CEO.]]",
       correctAnswer: "meeting",
       explanation: "Forgetting a past event uses the gerund.",
       translation: "Nunca olvidaré haber conocido al CEO.",
@@ -922,7 +922,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     content: {
       title: "Mixed Review",
       instructions: "Choose the correct term.",
-      question: "[[He has a very impressive ___.|Él tiene un currículum muy impresionante.]]",
+      question: "[[He|Él]] [[has|tiene]] [[a|un]] [[very|currículum]] [[impressive|muy]] [[___|___]] [[.|impresionante.]]",
       options: ["resume", "paper", "note"],
       correctAnswer: "resume",
       explanation: "Resume is the document used for job applications.",
