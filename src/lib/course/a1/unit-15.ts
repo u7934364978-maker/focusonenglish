@@ -88,27 +88,6 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u15-e5',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Animals',
-    topicName: 'Pets & Wildlife',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Bird',
-      instructions: 'Di la palabra para "pájaro".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Bird',
-          phonetic: '/bɜːd/',
-          translation: 'Pájaro',
-          explanation: 'La "ir" suena como una "e" larga y sorda.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u15-e6',
     type: 'fill-blank',
     level: 'A1',
@@ -252,27 +231,6 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u15-e13',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Animals',
-    topicName: 'Pets & Wildlife',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Snake',
-      instructions: 'Di la palabra para "serpiente".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Snake',
-          phonetic: '/sneɪk/',
-          translation: 'Serpiente',
-          explanation: 'La "a" suena como "ei" (/eɪ/).'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u15-e14',
     type: 'sentence-building',
     level: 'A1',
@@ -396,27 +354,6 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u15-e20',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Animals',
-    topicName: 'Pets & Wildlife',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Horse',
-      instructions: 'Di la palabra para "caballo".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Horse',
-          phonetic: '/hɔːs/',
-          translation: 'Caballo',
-          explanation: 'La "h" se pronuncia como una aspiración suave.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u15-e21',
     type: 'sentence-building',
     level: 'A1',
@@ -516,27 +453,6 @@ export const UNIT_15_EXERCISES: Exercise[] = [
         { id: 'p5', left: 'Squirrel', right: 'Ardilla' }
       ],
       explanation: 'Estos animales viven habitualmente en zonas boscosas o de montaña.'
-    } as any
-  },
-  {
-    id: 'a1-u15-e26',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Animals',
-    topicName: 'Pets & Wildlife',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Bear',
-      instructions: 'Di la palabra para "oso".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Bear',
-          phonetic: '/beər/',
-          translation: 'Oso',
-          explanation: '¡Cuidado! Se pronuncia igual que "bare" (desnudo), no como "beer" (cerveza).'
-        }
-      ]
     } as any
   },
   {
@@ -663,27 +579,6 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u15-e33',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Animals',
-    topicName: 'Pets & Wildlife',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Butterfly',
-      instructions: 'Di la palabra para "mariposa".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Butterfly',
-          phonetic: '/ˈbʌt.ə.flaɪ/',
-          translation: 'Mariposa',
-          explanation: 'Viene de "butter" (mantequilla) y "fly" (volar/mosca).'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u15-e34',
     type: 'sentence-building',
     level: 'A1',
@@ -783,27 +678,6 @@ export const UNIT_15_EXERCISES: Exercise[] = [
         { id: 'p5', left: 'Beak', right: 'Pico' }
       ],
       explanation: 'Estas palabras te ayudan a describir cómo es un animal.'
-    } as any
-  },
-  {
-    id: 'a1-u15-e39',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Animals',
-    topicName: 'Pets & Wildlife',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Tail',
-      instructions: 'Di la palabra para "cola".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Tail',
-          phonetic: '/teɪl/',
-          translation: 'Cola',
-          explanation: 'La "ai" suena como "ei" (/eɪ/).'
-        }
-      ]
     } as any
   },
   {
@@ -927,27 +801,6 @@ export const UNIT_15_EXERCISES: Exercise[] = [
         { id: 'p5', left: 'Koala', right: 'Coala' }
       ],
       explanation: 'Estos son animales exóticos de diferentes partes del planeta.'
-    } as any
-  },
-  {
-    id: 'a1-u15-e46',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Animals',
-    topicName: 'Pets & Wildlife',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Penguin',
-      instructions: 'Di la palabra para "pingüino".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Penguin',
-          phonetic: '/ˈpeŋ.ɡwɪn/',
-          translation: 'Pingüino',
-          explanation: 'La acentuación está en la primera sílaba: PEN-guin.'
-        }
-      ]
     } as any
   },
   {
