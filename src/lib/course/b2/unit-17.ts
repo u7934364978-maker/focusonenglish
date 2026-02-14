@@ -12,7 +12,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Impersonal",
       instructions: "Choose the correct past participle.",
-      question: "[[It is ___ (believe) that the data was leaked.|Se cree que los datos fueron filtrados.]]",
+      question: "[[It|Se]] [[is| ]] [[___ (believe)|cree]] [[that|que]] [[the|los]] [[data|datos]] [[was|fueron]] [[leaked|filtrados]].",
       options: ["believed", "believe", "believing"],
       correctAnswer: "believed",
       explanation: "Use 'It is + past participle + that' for impersonal reporting.",
@@ -31,7 +31,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Impersonal",
       instructions: "Choose the correct past participle.",
-      question: "[[It is ___ (say) that the hackers are in Europe.|Se dice que los hackers están en Europa.]]",
+      question: "[[It|Se]] [[is| ]] [[___ (say)|dice]] [[that|que]] [[the|los]] [[hackers|hackers]] [[are|están]] [[in|en]] [[Europe|Europa]].",
       options: ["said", "say", "saying"],
       correctAnswer: "said",
       explanation: "Passive reporting structure: 'It is said that...'.",
@@ -50,7 +50,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Impersonal",
       instructions: "Choose the correct past participle.",
-      question: "[[It is ___ (claim) that the software is secure.|Se afirma que el software es seguro.]]",
+      question: "[[It|Se]] [[is| ]] [[___ (claim)|afirma]] [[that|que]] [[the|el]] [[software|software]] [[is|es]] [[secure|seguro]].",
       options: ["claimed", "claim", "claiming"],
       correctAnswer: "claimed",
       explanation: "Passive reporting structure: 'It is claimed that...'.",
@@ -69,7 +69,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Impersonal",
       instructions: "Choose the correct past participle.",
-      question: "[[It is ___ (think) that the system crashed due to a bug.|Se piensa que el sistema se bloqueó debido a un error.]]",
+      question: "[[It|Se]] [[is| ]] [[___ (think)|piensa]] [[that|que]] [[the|el]] [[system|sistema]] [[crashed|se bloqueó]] [[due|debido]] [[to|a]] [[a|un]] [[bug|error]].",
       options: ["thought", "think", "thinking"],
       correctAnswer: "thought",
       explanation: "Passive reporting structure: 'It is thought that...'.",
@@ -88,7 +88,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Impersonal",
       instructions: "Choose the correct past participle.",
-      question: "[[It is ___ (estimate) that 10,000 accounts were affected.|Se estima que 10.000 cuentas se vieron afectadas.]]",
+      question: "[[It|Se]] [[is| ]] [[___ (estimate)|estima]] [[that|que]] [[10,000|10.000]] [[accounts|cuentas]] [[were|se vieron]] [[affected|afectadas]].",
       options: ["estimated", "estimate", "estimating"],
       correctAnswer: "estimated",
       explanation: "Passive reporting structure: 'It is estimated that...'.",
@@ -107,7 +107,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Impersonal",
       instructions: "Choose the correct past participle.",
-      question: "[[It is ___ (report) that a new law will be passed.|Se informa que se aprobará una nueva ley.]]",
+      question: "[[It|Se]] [[is| ]] [[___ (report)|informa]] [[that|que]] [[a|una]] [[new|nueva]] [[law|ley]] [[will|se]] [[be| ]] [[passed|aprobará]].",
       options: ["reported", "report", "reporting"],
       correctAnswer: "reported",
       explanation: "Passive reporting structure: 'It is reported that...'.",
@@ -126,7 +126,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Impersonal",
       instructions: "Choose the correct past participle.",
-      question: "[[It is ___ (consider) that the update is mandatory.|Se considera que la actualización es obligatoria.]]",
+      question: "[[It|Se]] [[is| ]] [[___ (consider)|considera]] [[that|que]] [[the|la]] [[update|actualización]] [[is|es]] [[mandatory|obligatoria]].",
       options: ["considered", "consider", "considering"],
       correctAnswer: "considered",
       explanation: "Passive reporting structure: 'It is considered that...'.",
@@ -145,7 +145,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Impersonal",
       instructions: "Choose the correct past participle.",
-      question: "[[It is ___ (know) that cybercrime is on the rise.|Es sabido que el cibercrimen está en aumento.]]",
+      question: "[[It|Es]] [[is| ]] [[___ (know)|sabido]] [[that|que]] [[cybercrime|el cibercrimen]] [[is|está]] [[on|en]] [[the| ]] [[rise|aumento]].",
       options: ["known", "know", "knowing"],
       correctAnswer: "known",
       explanation: "Passive reporting structure: 'It is known that...'.",
@@ -164,7 +164,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Impersonal",
       instructions: "Choose the correct past participle.",
-      question: "[[It is ___ (assume) that the password was stolen.|Se asume que la contraseña fue robada.]]",
+      question: "[[It|Se]] [[is| ]] [[___ (assume)|asume]] [[that|que]] [[the|la]] [[password|contraseña]] [[was|fue]] [[stolen|robada]].",
       options: ["assumed", "assume", "assuming"],
       correctAnswer: "assumed",
       explanation: "Passive reporting structure: 'It is assumed that...'.",
@@ -183,7 +183,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Impersonal",
       instructions: "Choose the correct past participle.",
-      question: "[[It is ___ (understand) that the company will pay a fine.|Se entiende que la empresa pagará una multa.]]",
+      question: "[[It|Se]] [[is| ]] [[___ (understand)|entiende]] [[that|que]] [[the|la]] [[company|empresa]] [[will|pagará]] [[pay| ]] [[a|una]] [[fine|multa]].",
       options: ["understood", "understand", "understanding"],
       correctAnswer: "understood",
       explanation: "Passive reporting structure: 'It is understood that...'.",
@@ -204,7 +204,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Personal",
       instructions: "Fill in the blank with the correct infinitive.",
-      question: "[[The hackers are said ___ (be) very talented.|Se dice que los hackers son muy talentosos.]]",
+      question: "[[The|Los]] [[hackers|hackers]] [[are| ]] [[said|se dice]] [[___ (be)|que son]] [[very|muy]] [[talented|talentosos]].",
       correctAnswer: "to be",
       explanation: "Use 'Subject + passive verb + to-infinitive' for personal reporting.",
       translation: "Se dice que los hackers son muy talentosos.",
@@ -222,7 +222,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Personal",
       instructions: "Fill in the blank with the correct infinitive.",
-      question: "[[The company is believed ___ (lose) millions.|Se cree que la empresa ha perdido millones.]]",
+      question: "[[The|La]] [[company|empresa]] [[is| ]] [[believed|se cree]] [[___ (lose)|que ha perdido]] [[millions|millones]].",
       correctAnswer: "to have lost",
       explanation: "Use 'to have + past participle' for an action that happened before the reporting time.",
       translation: "Se cree que la empresa ha perdido millones.",
@@ -240,7 +240,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Personal",
       instructions: "Fill in the blank with the correct infinitive.",
-      question: "[[She is thought ___ (live) in a secret location.|Se piensa que vive en un lugar secreto.]]",
+      question: "[[She|Ella]] [[is| ]] [[thought|se piensa]] [[___ (live)|que vive]] [[in|en]] [[a|un]] [[secret|secreto]] [[location|lugar]].",
       correctAnswer: "to live",
       explanation: "Simple infinitive for current state.",
       translation: "Se piensa que vive en un lugar secreto.",
@@ -258,7 +258,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Personal",
       instructions: "Fill in the blank with the correct infinitive.",
-      question: "[[The virus is known ___ (spread) quickly.|Se sabe que el virus se propaga rápidamente.]]",
+      question: "[[The|El]] [[virus|virus]] [[is| ]] [[known|se sabe]] [[___ (spread)|que se propaga]] [[quickly|rápidamente]].",
       correctAnswer: "to spread",
       explanation: "General truth uses simple infinitive.",
       translation: "Se sabe que el virus se propaga rápidamente.",
@@ -276,7 +276,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Personal",
       instructions: "Fill in the blank with the correct infinitive.",
-      question: "[[The data is reported ___ (be) stored on encrypted servers.|Se informa que los datos están almacenados en servidores encriptados.]]",
+      question: "[[The|Los]] [[data|datos]] [[is| ]] [[reported|se informa]] [[___ (be)|que están]] [[stored|almacenados]] [[on|en]] [[encrypted|encriptados]] [[servers|servidores]].",
       correctAnswer: "to be",
       explanation: "Passive infinitive 'to be stored'.",
       translation: "Se informa que los datos están almacenados en servidores encriptados.",
@@ -294,7 +294,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Personal",
       instructions: "Fill in the blank with the correct infinitive.",
-      question: "[[He is claimed ___ (steal) the information.|Se afirma que él robó la información.]]",
+      question: "[[He|Él]] [[is| ]] [[claimed|se afirma]] [[___ (steal)|que robó]] [[the|la]] [[information|información]].",
       correctAnswer: "to have stolen",
       explanation: "Use perfect infinitive for a past action.",
       translation: "Se afirma que él robó la información.",
@@ -312,7 +312,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Personal",
       instructions: "Fill in the blank.",
-      question: "[[They are estimated ___ (earn) a lot of money.|Se estima que ganan mucho dinero.]]",
+      question: "[[They|Ellos]] [[are| ]] [[estimated|se estima]] [[___ (earn)|que ganan]] [[a| ]] [[lot|mucho]] [[of| ]] [[money|dinero]].",
       correctAnswer: "to earn",
       explanation: "Simple infinitive for habitual action or current estimation.",
       translation: "Se estima que ganan mucho dinero.",
@@ -330,7 +330,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Personal",
       instructions: "Fill in the blank.",
-      question: "[[The law is expected ___ (change) next year.|Se espera que la ley cambie el próximo año.]]",
+      question: "[[The|La]] [[law|ley]] [[is| ]] [[expected|se espera]] [[___ (change)|que cambie]] [[next|el próximo]] [[year|año]].",
       correctAnswer: "to change",
       explanation: "Future expectation uses simple infinitive.",
       translation: "Se espera que la ley cambie el próximo año.",
@@ -348,7 +348,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Personal",
       instructions: "Fill in the blank.",
-      question: "[[The system is considered ___ (be) vulnerable.|Se considera que el sistema es vulnerable.]]",
+      question: "[[The|El]] [[system|sistema]] [[is| ]] [[considered|se considera]] [[___ (be)|que es]] [[vulnerable|vulnerable]].",
       correctAnswer: "to be",
       explanation: "Simple infinitive for current state.",
       translation: "Se considera que el sistema es vulnerable.",
@@ -366,7 +366,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Personal",
       instructions: "Fill in the blank.",
-      question: "[[The files are assumed ___ (delete).|Se asume que los archivos han sido eliminados.]]",
+      question: "[[The|Los]] [[files|archivos]] [[are| ]] [[assumed|se asume]] [[___ (delete)|que han sido eliminados]].",
       correctAnswer: "to have been deleted",
       explanation: "Passive perfect infinitive for a completed past action.",
       translation: "Se asume que los archivos han sido eliminados.",
@@ -386,7 +386,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Digital Security",
       instructions: "Fill in the blank.",
-      question: "[[You should use strong ___ (passwords) for all accounts.|Debes usar contraseñas seguras para todas las cuentas.]]",
+      question: "[[You|Debes]] [[should| ]] [[use|usar]] [[strong|seguras]] [[___ (passwords)|contraseñas]] [[for|para]] [[all|todas]] [[accounts|las cuentas]].",
       correctAnswer: "passwords",
       explanation: "A password is a secret word or phrase used to gain access.",
       translation: "Debes usar contraseñas seguras para todas las cuentas.",
@@ -404,7 +404,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Digital Security",
       instructions: "Fill in the blank.",
-      question: "[[Two-___ (factor) authentication adds an extra layer of security.|La autenticación de dos factores añade una capa extra de seguridad.]]",
+      question: "[[Two-|Dos-]] [[___ (factor)|factores]] [[authentication|autenticación]] [[adds|añade]] [[an|una]] [[extra|extra]] [[layer|capa]] [[of|de]] [[security|seguridad]].",
       correctAnswer: "factor",
       explanation: "Two-factor authentication (2FA) requires two forms of identification.",
       translation: "La autenticación de dos factores añade una capa extra de seguridad.",
@@ -422,7 +422,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Digital Security",
       instructions: "Fill in the blank.",
-      question: "[[___ (Encryption) makes your data unreadable to others.|El cifrado hace que tus datos sean ilegibles para otros.]]",
+      question: "[[___ (Encryption)|El cifrado]] [[makes|hace]] [[your|tus]] [[data|datos]] [[unreadable|ilegibles]] [[to|para]] [[others|otros]].",
       correctAnswer: "Encryption",
       explanation: "Encryption is the process of converting information into code.",
       translation: "El cifrado hace que tus datos sean ilegibles para otros.",
@@ -440,7 +440,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Digital Security",
       instructions: "Fill in the blank.",
-      question: "[[We must protect our personal ___ (identity) online.|Debemos proteger nuestra identidad personal en línea.]]",
+      question: "[[We|Debemos]] [[must| ]] [[protect|proteger]] [[our|nuestra]] [[personal|personal]] [[___ (identity)|identidad]] [[online|en línea]].",
       correctAnswer: "identity",
       explanation: "Digital identity is the information used by computer systems to represent an agent.",
       translation: "Debemos proteger nuestra identidad personal en línea.",
@@ -458,7 +458,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Digital Security",
       instructions: "Fill in the blank.",
-      question: "[[Be careful with your ___ (privacy) settings on social media.|Ten cuidado con tus ajustes de privacidad en las redes sociales.]]",
+      question: "[[Be|Ten]] [[careful|cuidado]] [[with|con]] [[your|tus]] [[___ (privacy)|privacidad]] [[settings|ajustes]] [[on|en]] [[social|redes]] [[media|sociales]].",
       correctAnswer: "privacy",
       explanation: "Privacy settings allow you to control who sees your information.",
       translation: "Ten cuidado con tus ajustes de privacidad en las redes sociales.",
@@ -476,7 +476,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Digital Security",
       instructions: "Fill in the blank.",
-      question: "[[Data ___ (breaches) are becoming more common.|Las brechas de datos son cada vez más comunes.]]",
+      question: "[[Data|de datos]] [[___ (breaches)|Brechas]] [[are| ]] [[becoming|cada vez son]] [[more|más]] [[common|comunes]].",
       correctAnswer: "breaches",
       explanation: "A data breach is the unauthorized access of sensitive data.",
       translation: "Las brechas de datos son cada vez más comunes.",
@@ -494,7 +494,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Digital Security",
       instructions: "Fill in the blank.",
-      question: "[[A ___ (VPN) can help hide your online activity.|Una VPN puede ayudar a ocultar tu actividad en línea.]]",
+      question: "[[A|Una]] [[___ (VPN)|VPN]] [[can|puede]] [[help|ayudar]] [[hide|a ocultar]] [[your|tu]] [[online|en línea]] [[activity|actividad]].",
       correctAnswer: "VPN",
       explanation: "A Virtual Private Network (VPN) encrypts your internet traffic.",
       translation: "Una VPN puede ayudar a ocultar tu actividad en línea.",
@@ -512,7 +512,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Digital Security",
       instructions: "Fill in the blank.",
-      question: "[[Do not share sensitive ___ (information) with strangers.|No compartas información sensible con extraños.]]",
+      question: "[[Do|No]] [[not| ]] [[share|compartas]] [[sensitive|información]] [[___ (information)|sensible]] [[with|con]] [[strangers|extraños]].",
       correctAnswer: "information",
       explanation: "Sensitive information must be kept private to avoid harm.",
       translation: "No compartas información sensible con extraños.",
@@ -530,7 +530,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Digital Security",
       instructions: "Fill in the blank.",
-      question: "[[The app requests ___ (permission) to access your contacts.|La aplicación solicita permiso para acceder a tus contactos.]]",
+      question: "[[The|La]] [[app|aplicación]] [[requests|solicita]] [[___ (permission)|permiso]] [[to|para]] [[access|acceder]] [[your|tus]] [[contacts|contactos]].",
       correctAnswer: "permission",
       explanation: "Permission is the authorization to do something.",
       translation: "La aplicación solicita permiso para acceder a tus contactos.",
@@ -548,7 +548,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Digital Security",
       instructions: "Fill in the blank.",
-      question: "[[You have the right to be ___ (forgotten) online.|Tienes derecho al olvido en línea.]]",
+      question: "[[You|Tienes]] [[have| ]] [[the|el]] [[right|derecho]] [[to|al]] [[be| ]] [[___ (forgotten)|olvido]] [[online|en línea]].",
       correctAnswer: "forgotten",
       explanation: "The 'right to be forgotten' is the right to have personal data removed from the internet.",
       translation: "Tienes derecho al olvido en línea.",
@@ -568,7 +568,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Cyber Threats",
       instructions: "Choose the correct term.",
-      question: "[[___ emails try to steal your login info by pretending to be legitimate.|Los correos electrónicos de phishing intentan robar tu información de inicio de sesión.]]",
+      question: "[[Phishing|de phishing]] [[emails|Los correos electrónicos]] [[try|intentan]] [[to| ]] [[steal|robar]] [[your|tu]] [[login|de inicio de sesión]] [[info|información]] [[by| ]] [[pretending|al pretender]] [[to| ]] [[be|ser]] [[legitimate|legítimos]].",
       options: ["Phishing", "Fishing", "Wishing"],
       correctAnswer: "Phishing",
       explanation: "Phishing is the fraudulent practice of sending emails to induce individuals to reveal personal information.",
@@ -587,7 +587,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Cyber Threats",
       instructions: "Choose the correct term.",
-      question: "[[A computer ___ can damage your files and spread to other devices.|Un virus informático puede dañar tus archivos.]]",
+      question: "[[A|Un]] [[computer|informático]] [[virus|virus]] [[can|puede]] [[damage|dañar]] [[your|tus]] [[files|archivos]] [[and|y]] [[spread|propagarse]] [[to|a]] [[other|otros]] [[devices|dispositivos]].",
       options: ["virus", "bug", "error"],
       correctAnswer: "virus",
       explanation: "A computer virus is a malicious program that replicates itself.",
@@ -606,7 +606,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Cyber Threats",
       instructions: "Choose the correct term.",
-      question: "[[___ is a general term for any type of malicious software.|Malware es un término general para el software malicioso.]]",
+      question: "[[Malware|Malware]] [[is|es]] [[a|un]] [[general|general]] [[term|término]] [[for|para]] [[any|cualquier]] [[type|tipo]] [[of|de]] [[malicious|malicioso]] [[software|software]].",
       options: ["Malware", "Software", "Hardware"],
       correctAnswer: "Malware",
       explanation: "Malware stands for 'malicious software'.",
@@ -625,7 +625,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Cyber Threats",
       instructions: "Choose the correct term.",
-      question: "[[___ tracks your online activity without your knowledge.|El spyware rastrea tu actividad sin tu conocimiento.]]",
+      question: "[[Spyware|El spyware]] [[tracks|rastrea]] [[your|tu]] [[online|en línea]] [[activity|actividad]] [[without|sin]] [[your|tu]] [[knowledge|conocimiento]].",
       options: ["Spyware", "Adware", "Firmware"],
       correctAnswer: "Spyware",
       explanation: "Spyware is software that enables a user to obtain information about another's computer activities.",
@@ -644,7 +644,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Cyber Threats",
       instructions: "Choose the correct term.",
-      question: "[[___ locks your files and demands payment to release them.|El ransomware bloquea tus archivos y pide dinero.]]",
+      question: "[[Ransomware|El ransomware]] [[locks|bloquea]] [[your|tus]] [[files|archivos]] [[and|y]] [[demands|pide]] [[payment|dinero]] [[to|para]] [[release|liberarlos]] [[them| ]].",
       options: ["Ransomware", "Goldware", "Paidware"],
       correctAnswer: "Ransomware",
       explanation: "Ransomware is malware that threatens to publish the victim's data or perpetually block access to it unless a ransom is paid.",
@@ -663,7 +663,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Cyber Threats",
       instructions: "Choose the correct term.",
-      question: "[[The hacker used a ___ horse to gain access to the system.|El hacker utilizó un troyano para obtener acceso.]]",
+      question: "[[The|El]] [[hacker|hacker]] [[used|utilizó]] [[a|un]] [[trojan|troyano]] [[horse| ]] [[to|para]] [[gain|obtener]] [[access|acceso]] [[to|a]] [[the|el]] [[system|sistema]].",
       options: ["trojan", "greek", "hidden"],
       correctAnswer: "trojan",
       explanation: "A Trojan horse is a type of malware that is often disguised as legitimate software.",
@@ -682,7 +682,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Cyber Threats",
       instructions: "Choose the correct term.",
-      question: "[[The website suffered a ___ attack, making it unavailable.|El sitio web sufrió un ataque DDoS.]]",
+      question: "[[The|El]] [[website|sitio web]] [[suffered|sufrió]] [[a|un]] [[DDoS|DDoS]] [[attack|ataque]], [[making|haciéndolo]] [[it| ]] [[unavailable|no disponible]].",
       options: ["DDoS", "DOD", "DOA"],
       correctAnswer: "DDoS",
       explanation: "Distributed Denial of Service (DDoS) attack aims to crash a website by flooding it with traffic.",
@@ -701,7 +701,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Cyber Threats",
       instructions: "Choose the correct term.",
-      question: "[[He is a victim of identity ___.|Él es víctima de robo de identidad.]]",
+      question: "[[He|Él]] [[is|es]] [[a|una]] [[victim|víctima]] [[of|de]] [[identity|identidad]] [[theft|robo]].",
       options: ["theft", "loss", "game"],
       correctAnswer: "theft",
       explanation: "Identity theft is the fraudulent acquisition and use of a person's private identifying information.",
@@ -720,7 +720,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Cyber Threats",
       instructions: "Choose the correct term.",
-      question: "[[The system has a ___ that was exploited by hackers.|El sistema tiene una vulnerabilidad que fue explotada.]]",
+      question: "[[The|El]] [[system|sistema]] [[has|tiene]] [[a|una]] [[vulnerability|vulnerabilidad]] [[that|que]] [[was|fue]] [[exploited|explotada]] [[by|por]] [[hackers|hackers]].",
       options: ["vulnerability", "hole", "gap"],
       correctAnswer: "vulnerability",
       explanation: "A vulnerability is a weakness in a system that can be exploited.",
@@ -739,7 +739,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Cyber Threats",
       instructions: "Choose the correct term.",
-      question: "[[___ is software that automatically displays unwanted advertisements.|El adware muestra anuncios no deseados.]]",
+      question: "[[Adware|El adware]] [[is|es]] [[software|software]] [[that|que]] [[automatically|automáticamente]] [[displays|muestra]] [[unwanted|no deseados]] [[advertisements|anuncios]].",
       options: ["Adware", "Spyware", "Malware"],
       correctAnswer: "Adware",
       explanation: "Adware is software that generates revenue for its developer by automatically generating online advertisements.",
@@ -760,7 +760,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[The ___ (SECURE) of the website is high.|La seguridad del sitio web es alta.]]",
+      question: "[[The|La]] [[___ (SECURE)|seguridad]] [[of|del]] [[the| ]] [[website|sitio web]] [[is|es]] [[high|alta]].",
       correctAnswer: "security",
       explanation: "Noun form of 'secure'.",
       translation: "La seguridad del sitio web es alta.",
@@ -778,7 +778,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[We need to protect our ___ (PRIVATE) at all costs.|Debemos proteger nuestra privacidad a toda costa.]]",
+      question: "[[We|Debemos]] [[need| ]] [[to|proteger]] [[protect| ]] [[our|nuestra]] [[___ (PRIVATE)|privacidad]] [[at|a]] [[all|toda]] [[costs|costa]].",
       correctAnswer: "privacy",
       explanation: "Noun form of 'private'.",
       translation: "Debemos proteger nuestra privacidad a toda costa.",
@@ -796,7 +796,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[The ___ (ENCRYPT) of the message was successful.|El cifrado del mensaje fue exitoso.]]",
+      question: "[[The|El]] [[___ (ENCRYPT)|cifrado]] [[of|del]] [[the| ]] [[message|mensaje]] [[was|fue]] [[successful|exitoso]].",
       correctAnswer: "encryption",
       explanation: "Noun form of 'encrypt'.",
       translation: "El cifrado del mensaje fue exitoso.",
@@ -814,7 +814,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[He is an expert in ___ (CRIME) forensics.|Es un experto en forense criminal.]]",
+      question: "[[He|Él]] [[is|es]] [[an|un]] [[expert|experto]] [[in|en]] [[___ (CRIME)|criminal]] [[forensics|forense]].",
       correctAnswer: "criminal",
       explanation: "Adjective form of 'crime'.",
       translation: "Es un experto en forense criminal.",
@@ -832,7 +832,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[The ___ (PROTECT) of data is essential.|La protección de datos es esencial.]]",
+      question: "[[The|La]] [[___ (PROTECT)|protección]] [[of|de]] [[data|datos]] [[is|es]] [[essential|esencial]].",
       correctAnswer: "protection",
       explanation: "Noun form of 'protect'.",
       translation: "La protección de datos es esencial.",
@@ -850,7 +850,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[The ___ (IDENTIFY) of the hacker is unknown.|La identidad del hacker es desconocida.]]",
+      question: "[[The|La]] [[___ (IDENTIFY)|identidad]] [[of|del]] [[the| ]] [[hacker|hacker]] [[is|es]] [[unknown|desconocida]].",
       correctAnswer: "identity",
       explanation: "Noun form of 'identify'.",
       translation: "La identidad del hacker es desconocida.",
@@ -868,7 +868,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[We must be ___ (VIGIL) against threats.|Debemos estar vigilantes ante las amenazas.]]",
+      question: "[[We|Debemos]] [[must| ]] [[be|estar]] [[___ (VIGIL)|vigilantes]] [[against|ante]] [[threats|las amenazas]].",
       correctAnswer: "vigilant",
       explanation: "Adjective form of 'vigil'.",
       translation: "Debemos estar vigilantes ante las amenazas.",
@@ -886,7 +886,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[The ___ (VULNERABLE) of the system was shocking.|La vulnerabilidad del sistema fue impactante.]]",
+      question: "[[The|La]] [[___ (VULNERABLE)|vulnerabilidad]] [[of|del]] [[the| ]] [[system|sistema]] [[was|fue]] [[shocking|impactante]].",
       correctAnswer: "vulnerability",
       explanation: "Noun form of 'vulnerable'.",
       translation: "La vulnerabilidad del sistema fue impactante.",
@@ -904,7 +904,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[He was ___ (SUSPECT) of cybercrime.|Fue sospechoso de cibercrimen.]]",
+      question: "[[He|Él]] [[was|fue]] [[___ (SUSPECT)|sospechoso]] [[of|de]] [[cybercrime|cibercrimen]].",
       correctAnswer: "suspected",
       explanation: "Past participle of 'suspect' used in passive voice.",
       translation: "Fue sospechoso de cibercrimen.",
@@ -922,7 +922,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "[[The ___ (LEGAL) of this action is questionable.|La legalidad de esta acción es cuestionable.]]",
+      question: "[[The|La]] [[___ (LEGAL)|legalidad]] [[of|de]] [[this|esta]] [[action|acción]] [[is|es]] [[questionable|cuestionable]].",
       correctAnswer: "legality",
       explanation: "Noun form of 'legal'.",
       translation: "La legalidad de esta acción es cuestionable.",
