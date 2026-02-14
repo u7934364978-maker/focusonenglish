@@ -7,6 +7,7 @@ import { ArrowLeft, ArrowRight, Home, Bug, CheckCheck, Zap, Loader2 } from 'luci
 import Link from 'next/link';
 import { supabase } from '@/lib/supabase-client';
 import { markUnitAsCompleted, markFullB2CourseAsCompleted } from '@/lib/debug/course-utils';
+import { B2_COURSE } from '@/lib/course/b2';
 
 export default function B2UnitPreviewPage() {
   const params = useParams();
@@ -32,11 +33,18 @@ export default function B2UnitPreviewPage() {
   }, []);
 
   useEffect(() => {
-    async function loadUnit() {
+    function loadUnit() {
       try {
-        const unitNumber = unitId.replace('unit-', '');
-        const module = await import(`@/lib/course/b2/unit-${unitNumber}`);
-        const unitExercises = module[`UNIT_${unitNumber}_EXERCISES`];
+        const unitNumber = parseInt(unitId.replace('unit-', ''));
+        const unitData = B2_COURSE.units.find(u => u.id === unitNumber);
+        
+        if (!unitData) {
+          setExercises([]);
+          setLoading(false);
+          return;
+        }
+
+        const unitExercises = unitData.exercises;
         setExercises(unitExercises);
 
         // Extract vocabulary if available (similar to B1 logic)
@@ -80,7 +88,7 @@ export default function B2UnitPreviewPage() {
       alert('Debe iniciar sesión primero');
       return;
     }
-    if (!confirm('¿Estás seguro de que quieres completar TODAS las 30 unidades del curso B2?')) return;
+    if (!confirm(`¿Estás seguro de que quieres completar TODAS las ${B2_COURSE.units.length} unidades del curso B2?`)) return;
     
     setDebugLoading(true);
     const result = await markFullB2CourseAsCompleted(userId);
@@ -164,7 +172,7 @@ export default function B2UnitPreviewPage() {
             className="flex items-center gap-2 bg-orange-600 hover:bg-orange-500 px-4 py-2 rounded-xl text-sm font-bold transition-all active:scale-95 disabled:opacity-50"
           >
             {debugLoading ? <Loader2 className="w-4 h-4 animate-spin" /> : <Zap className="w-4 h-4" />}
-            Completar Curso B2 (30 Unidades)
+            Completar Curso B2 ({B2_UNITS.length} Unidades)
           </button>
         </div>
       </div>

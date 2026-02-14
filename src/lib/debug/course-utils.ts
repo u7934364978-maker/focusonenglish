@@ -1,4 +1,5 @@
 import { supabase } from '@/lib/supabase-client';
+import { B2_COURSE } from '@/lib/course/b2';
 
 export interface CompletionResult {
   success: boolean;
@@ -70,38 +71,17 @@ export async function markFullB2CourseAsCompleted(userId: string): Promise<Compl
     const goal = 'trabajo';
     const moduleId = 'debug-b2';
     
-    // Total units to complete
-    const totalUnits = 30;
     let completedCount = 0;
 
-    for (let i = 1; i <= totalUnits; i++) {
-      const unitId = `unit-${i}`;
-      let exercises: any[] = [];
-
-      try {
-        if (i <= 11) {
-          // Load from TS files
-          const module = await import(`@/lib/course/b2/unit-${i}`);
-          exercises = module[`UNIT_${i}_EXERCISES`];
-        } else {
-          // Load from JSON files
-          const response = await fetch(`/content/cursos/ingles-b2/unit${i}.json`);
-          if (response.ok) {
-            const data = await response.json();
-            // JSON structure is different
-            exercises = data.blocks.flatMap((b: any) => b.content).map((ex: any) => ({
-              id: ex.interaction_id || ex.id
-            }));
-          }
-        }
-
-        const exerciseIds = exercises.map(ex => ex.id || ex.interaction_id);
-        if (exerciseIds.length > 0) {
-          await markUnitAsCompleted(userId, level, goal, moduleId, unitId, exerciseIds);
-          completedCount++;
-        }
-      } catch (err) {
-        console.error(`Error processing unit ${i}:`, err);
+    for (let i = 0; i < B2_COURSE.units.length; i++) {
+      const unit = B2_COURSE.units[i];
+      const unitId = `unit-${unit.id}`;
+      
+      const exerciseIds = unit.exercises.map((ex: any) => ex.id);
+      
+      if (exerciseIds.length > 0) {
+        await markUnitAsCompleted(userId, level, goal, moduleId, unitId, exerciseIds);
+        completedCount++;
       }
     }
 
