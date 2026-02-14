@@ -20,7 +20,7 @@
           "type": "fill_blanks",
           "prompt_es": "Fill in the blanks with the correct perfect modal verb.",
           "mastery_tag": "grammar:b2-perfect-modals",
-          "main_text": "She ___ (must) have taken the wrong train; she is late again.",
+          "main_text": "1. She (1)___ (must) have taken the wrong train; she is late again.\n2. They (2)___ (should) have completed the project by now.\n3. He (3)___ (could) have called me if he needed help.\n4. She (4)___ (might) have seen her at the party last night.\n5. They (5)___ (must) have heard the news by now.",
           "correct_answer": [
             "must",
             "should",

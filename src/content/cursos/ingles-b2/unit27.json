@@ -202,27 +202,27 @@
           "type": "multiple_choice",
           "prompt_es": "Choose the correct option to complete the sentences using participle clauses.",
           "mastery_tag": "grammar:b2-participle-clauses",
-          "explanation": "La opción correcta es 'Although' porque indica una contrariedad entre el clima y la decisión de ir de excursión.",
-          "stimulus_en": "___ the weather was terrible, we decided to go for a hike.",
+          "explanation": "La opción correcta es 'Not knowing' porque es una cláusula de participio que explica la razón por la que se perdieron.",
+          "stimulus_en": "___ the way to the station, we got lost.",
           "options": [
             {
               "id": "o1",
-              "text": "Despite"
+              "text": "Not knowing"
             },
             {
               "id": "o2",
-              "text": "Because"
+              "text": "Not known"
             },
             {
               "id": "o3",
-              "text": "Although"
+              "text": "To not know"
             },
             {
               "id": "o4",
-              "text": "Since"
+              "text": "Knowing not"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "complexity": 3,
           "concept_tags": [
             "grammar",
@@ -304,8 +304,8 @@
           "type": "multiple_choice",
           "prompt_es": "Choose the correct option to complete the sentences using participle clauses.",
           "mastery_tag": "grammar:b2-participle-clauses",
-          "explanation": "'Finished' aquí indica una acción completada antes de que él saliera a jugar.",
-          "stimulus_en": "Having finished his homework, he went out to play.",
+          "explanation": "'Having finished' indica una acción que se completó antes de otra acción en el pasado.",
+          "stimulus_en": "___ his homework, he went out to play.",
           "options": [
             {
               "id": "o1",
@@ -313,7 +313,7 @@
             },
             {
               "id": "o2",
-              "text": "Finished"
+              "text": "Having finished"
             },
             {
               "id": "o3",
@@ -321,7 +321,7 @@
             },
             {
               "id": "o4",
-              "text": "Having finish"
+              "text": "Finished"
             }
           ],
           "correct_answer": "o2",

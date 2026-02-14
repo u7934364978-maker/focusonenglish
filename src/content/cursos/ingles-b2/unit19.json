@@ -20,12 +20,12 @@
           "type": "fill_blanks",
           "prompt_es": "Complete the sentences with the correct form of the verbs in parentheses.",
           "mastery_tag": "grammar:b2-wish-regret",
-          "main_text": "I (1)___ I had studied harder for the exam. (wish)\n\nIf only she (2)___ more time to travel last summer. (have)\n\nI (3)___ I had taken that job offer. (regret)\n\nIf only they (4)___ the meeting last week. (miss)\n\nI (5)___ I knew how to play the piano. (wish)",
+          "main_text": "I (1)___ I had studied harder for the exam. (wish)\n\nIf only she (2)___ more time to travel last summer. (have)\n\nI (3)___ taking that job offer. (regret)\n\nIf only they (4)___ the meeting last week. (not/miss)\n\nI (5)___ I knew how to play the piano. (wish)",
           "correct_answer": [
             "wish",
-            "had",
+            "had had",
             "regret",
-            "had missed",
+            "hadn't missed",
             "wish"
           ],
           "explanation": "(1) La estructura 'I wish' se utiliza para expresar un deseo sobre el pasado que no se puede cambiar.\n(2) Se utiliza 'had' para expresar un deseo sobre algo que no ocurrió en el pasado.\n(3) Se usa 'regret' para expresar remordimiento sobre una decisión pasada.\n(4) La frase implica un arrepentimiento sobre una acción que no deberían haber hecho.\n(5) Se utiliza 'wish' para expresar un deseo sobre el presente que no puede ser realizado.",
@@ -77,7 +77,7 @@
           "type": "fill_blanks",
           "prompt_es": "Complete the sentences with the correct words.",
           "mastery_tag": "speaking:b2-debate",
-          "main_text": "In a debate, it is important to clearly state your ___ to persuade others.",
+          "main_text": "1. In a debate, it is important to clearly state your (1)___ to persuade others.\n2. You should always show (2)___ for your opponent's perspective.\n3. Solid (3)___ is necessary to back up your claims.\n4. Try not to get too (4)___ during the discussion.\n5. Be prepared to respond to your opponent's (5)___.",
           "correct_answer": [
             "point of view",
             "respect",

@@ -20,7 +20,7 @@
           "type": "fill_blanks",
           "prompt_es": "Complete the sentences with the correct words related to debate and discussion.",
           "mastery_tag": "speaking:b2-debate",
-          "main_text": "In a debate, it is important to ___ your point of view clearly and confidently.",
+          "main_text": "1. In a debate, it is important to (1)___ your point of view clearly.\n2. You should be prepared to (2)___ your opponent's claims.\n3. Make sure to provide strong (3)___ to support your position.\n4. Always listen carefully so you can (4)___ effectively.\n5. It is crucial to remain (5)___ throughout the entire discussion.",
           "correct_answer": [
             "express",
             "challenge",

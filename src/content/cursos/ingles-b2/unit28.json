@@ -49,13 +49,13 @@
           "type": "fill_blanks",
           "prompt_es": "Complete the sentences by filling in the blanks with the correct form of the verbs in parentheses.",
           "mastery_tag": "grammar:b2-mixed-conditionals",
-          "main_text": "If I (1)___ (know) about the meeting, I would have come earlier.",
+          "main_text": "1. If I (1)___ (know) about the meeting, I would be there now.\n2. If she (2)___ (not/break) her leg, she would be skiing with us today.\n3. If he (3)___ (study) harder in school, he would have a better job now.\n4. If I (4)___ (be) you, I would have accepted the offer yesterday.\n5. If it (5)___ (not/rain) so much here, we would have gone for a walk earlier.",
           "correct_answer": [
             "had known",
             "hadn't broken",
             "had studied",
             "were",
-            "rains"
+            "didn't rain"
           ],
           "explanation": "(1) Esta oración es un condicional mixto que expresa una acción en el pasado que no ocurrió y su resultado en el presente.\n(2) Aquí, el pasado influye en una situación presente. Se usa la tercera condicional para el pasado.\n(3) Este ejemplo muestra cómo un esfuerzo en el pasado afecta el presente.\n(4) En esta oración, se usa 'were' en un contexto hipotético que refleja una decisión no tomada en el pasado.\n(5) Este ejemplo combina el potencial futuro con un resultado pasado, mostrando una relación compleja entre el tiempo.",
           "complexity": 3,

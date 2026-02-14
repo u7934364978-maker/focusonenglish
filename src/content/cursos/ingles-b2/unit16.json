@@ -234,9 +234,9 @@
           "type": "fill_blanks",
           "prompt_es": "Complete the sentences with the correct words or phrases to express wishes and regrets.",
           "mastery_tag": "grammar:b2-wish-regret",
-          "explanation": "Aquí expresamos un sentimiento de arrepentimiento sobre una acción pasada.",
+          "explanation": "Aquí estamos expresando un deseo sobre algo que ya sucedió.",
           "stimulus_en": "Fill in the blanks with appropriate expressions of wish or regret.\n\nI ___ I hadn't said that during the meeting.",
-          "correct_answer": "regret",
+          "correct_answer": "wish",
           "complexity": 3,
           "concept_tags": [
             "grammar",
@@ -250,9 +250,9 @@
           "type": "fill_blanks",
           "prompt_es": "Complete the sentences with the correct words or phrases to express wishes and regrets.",
           "mastery_tag": "grammar:b2-wish-regret",
-          "explanation": "Utilizamos 'knew' para expresar un deseo sobre una situación que no se cumplió en el pasado.",
+          "explanation": "Utilizamos 'had known' para expresar un deseo sobre una situación que no se cumplió en el pasado.",
           "stimulus_en": "Fill in the blanks with appropriate expressions of wish or regret.\n\nIf only she ___ the truth earlier.",
-          "correct_answer": "knew",
+          "correct_answer": "had known",
           "complexity": 3,
           "concept_tags": [
             "grammar",

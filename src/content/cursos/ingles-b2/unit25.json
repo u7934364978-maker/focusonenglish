@@ -48,7 +48,7 @@
           "type": "fill_blanks",
           "prompt_es": "Fill in the blanks with the correct words related to debate and discussion.",
           "mastery_tag": "speaking:b2-debate",
-          "main_text": "During a debate, it is important to (1)___ your arguments clearly and effectively.",
+          "main_text": "1. During a debate, it is important to (1)___ your arguments clearly and effectively.\n2. A good debater should be able to (2)___ their point of view with solid evidence.\n3. It is essential to (3)___ opposing views respectfully to maintain a constructive discussion.\n4. In a formal debate, participants often (4)___ their ideas before presenting them to the audience.\n5. To succeed in a discussion, one must be (5)___ and open to different perspectives.",
           "correct_answer": [
             "articulate",
             "support",

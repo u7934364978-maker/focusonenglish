@@ -21,8 +21,8 @@
           "prompt_es": "Reescribe la frase usando la palabra clave 'BETTER':",
           "mastery_tag": "grammar:b2-mixed-conditionals",
           "explanation": "Esta oración usa una mezcla de tiempos: el pasado (tercera condicional) y el presente (segunda condicional).",
-          "stimulus_en": "If he had studied harder, he would be better at math.\n\nIf he had studied harder, ...",
-          "correct_answer": "he would have been better at math.",
+          "stimulus_en": "He didn't study hard in the past, so he isn't good at math now.\n\nIf he had studied harder, ...",
+          "correct_answer": "he would be better at math.",
           "example": "BETTER",
           "complexity": 3,
           "concept_tags": [
@@ -72,8 +72,8 @@
           "prompt_es": "Reescribe la frase usando la palabra clave 'KNOWN':",
           "mastery_tag": "grammar:b2-mixed-conditionals",
           "explanation": "El tiempo pasado perfecto se utiliza aquí para referirse a una falta de conocimiento en el pasado que causó no asistir.",
-          "stimulus_en": "If I had known about the meeting, I would come.\n\nIf I had known about the meeting, ...",
-          "correct_answer": "I would have come.",
+          "stimulus_en": "I am not a fan of that singer, so I didn't go to the concert last night.\n\nIf I were a fan of that singer, ...",
+          "correct_answer": "I would have gone to the concert.",
           "example": "KNOWN",
           "complexity": 3,
           "concept_tags": [
@@ -112,7 +112,7 @@
           "type": "fill_blanks",
           "prompt_es": "Complete the sentences by filling in the blanks with the correct participle form.",
           "mastery_tag": "grammar:b2-participle-clauses",
-          "main_text": "___ by the unexpected news, she decided to take a break.",
+          "main_text": "1. (1)___ by the unexpected news, she decided to take a break.\n2. The book, (2)___ in the 19th century, is still very popular today.\n3. (3)___ up the steep hill, they finally reached the summit.\n4. (4)___ by the recent changes, the company decided to restructure.\n5. (5)___ for the new project, he spent many hours researching.",
           "correct_answer": [
             "Shocked",
             "written",
@@ -141,7 +141,7 @@
           "type": "fill_blanks",
           "prompt_es": "Complete the sentences with the correct perfect modal verb.",
           "mastery_tag": "grammar:b2-perfect-modals",
-          "main_text": "She ___ (study) harder for the exam; she didn't pass.",
+          "main_text": "1. She (1)___ harder for the exam; she didn't pass.\n2. They (2)___ by now; the party started an hour ago.\n3. He (3)___ me if he had known I was in trouble.\n4. We (4)___ to lock the door before we left.\n5. It (5)___ a mistake to trust him with such a secret.",
           "correct_answer": [
             "should have studied",
             "must have left",

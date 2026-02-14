@@ -225,27 +225,27 @@
           "type": "multiple_choice",
           "prompt_es": "Choose the correct answer for each mixed conditional sentence.",
           "mastery_tag": "grammar:b2-mixed-conditionals",
-          "explanation": "Esta oración muestra una condición en el pasado que no se cumplió y su resultado en el pasado.",
-          "stimulus_en": "If she had studied harder, she ___ the exam.",
+          "explanation": "Esta oración mezcla una condición pasada (3rd conditional) con un resultado presente (2nd conditional).",
+          "stimulus_en": "If she had studied harder, she ___ more knowledgeable now.",
           "options": [
             {
               "id": "o1",
-              "text": "would pass"
+              "text": "would be"
             },
             {
               "id": "o2",
-              "text": "would have passed"
+              "text": "would have been"
             },
             {
               "id": "o3",
-              "text": "would be passing"
+              "text": "will be"
             },
             {
               "id": "o4",
-              "text": "passed"
+              "text": "is"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "complexity": 3,
           "concept_tags": [
             "grammar",
@@ -259,24 +259,24 @@
           "type": "multiple_choice",
           "prompt_es": "Choose the correct answer for each mixed conditional sentence.",
           "mastery_tag": "grammar:b2-mixed-conditionals",
-          "explanation": "Este es un ejemplo de un futuro condicional basado en una condición presente.",
-          "stimulus_en": "If we arrive early, we ___ a good spot for the concert.",
+          "explanation": "Aquí se mezcla una condición permanente o presente (2nd conditional) con un resultado pasado (3rd conditional).",
+          "stimulus_en": "If I were faster, I ___ the race yesterday.",
           "options": [
             {
               "id": "o1",
-              "text": "would find"
+              "text": "would win"
             },
             {
               "id": "o2",
-              "text": "will find"
+              "text": "would have won"
             },
             {
               "id": "o3",
-              "text": "would have found"
+              "text": "will win"
             },
             {
               "id": "o4",
-              "text": "found"
+              "text": "won"
             }
           ],
           "correct_answer": "o2",
@@ -293,24 +293,24 @@
           "type": "multiple_choice",
           "prompt_es": "Choose the correct answer for each mixed conditional sentence.",
           "mastery_tag": "grammar:b2-mixed-conditionals",
-          "explanation": "Se refiere a una situación real en el presente que tiene un impacto en el futuro.",
-          "stimulus_en": "If he were more organized, he ___ his deadlines.",
+          "explanation": "Esta oración mezcla una condición pasada que no ocurrió con un resultado en el presente.",
+          "stimulus_en": "If they hadn't lost their keys, they ___ waiting outside now.",
           "options": [
             {
               "id": "o1",
-              "text": "would meet"
+              "text": "wouldn't be"
             },
             {
               "id": "o2",
-              "text": "would have met"
+              "text": "wouldn't have been"
             },
             {
               "id": "o3",
-              "text": "will meet"
+              "text": "won't be"
             },
             {
               "id": "o4",
-              "text": "met"
+              "text": "weren't"
             }
           ],
           "correct_answer": "o1",
@@ -327,24 +327,24 @@
           "type": "multiple_choice",
           "prompt_es": "Choose the correct answer for each mixed conditional sentence.",
           "mastery_tag": "grammar:b2-mixed-conditionals",
-          "explanation": "Esto indica que una acción pasada afecta a una situación pasada.",
-          "stimulus_en": "If they had taken the earlier flight, they ___ in time for dinner.",
+          "explanation": "Se usa una condición presente (2nd conditional) para un resultado en el pasado (3rd conditional).",
+          "stimulus_en": "If he spoke French, he ___ the lecture this morning.",
           "options": [
             {
               "id": "o1",
-              "text": "would be"
+              "text": "would understand"
             },
             {
               "id": "o2",
-              "text": "would have been"
+              "text": "would have understood"
             },
             {
               "id": "o3",
-              "text": "will be"
+              "text": "will understand"
             },
             {
               "id": "o4",
-              "text": "were"
+              "text": "understood"
             }
           ],
           "correct_answer": "o2",
@@ -361,27 +361,27 @@
           "type": "multiple_choice",
           "prompt_es": "Choose the correct answer for each mixed conditional sentence.",
           "mastery_tag": "grammar:b2-mixed-conditionals",
-          "explanation": "Esta oración describe una situación hipotética en el presente que implica una acción futura.",
-          "stimulus_en": "If I knew his address, I ___ him a letter.",
+          "explanation": "Esta oración mezcla una condición pasada (3rd conditional) con un resultado presente (2nd conditional).",
+          "stimulus_en": "If we had left earlier, we ___ stuck in traffic now.",
           "options": [
             {
               "id": "o1",
-              "text": "will send"
+              "text": "wouldn't be"
             },
             {
               "id": "o2",
-              "text": "would send"
+              "text": "wouldn't have been"
             },
             {
               "id": "o3",
-              "text": "would have sent"
+              "text": "won't be"
             },
             {
               "id": "o4",
-              "text": "have sent"
+              "text": "weren't"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "complexity": 3,
           "concept_tags": [
             "grammar",

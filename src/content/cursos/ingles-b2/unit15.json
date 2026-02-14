@@ -20,7 +20,7 @@
           "type": "fill_blanks",
           "prompt_es": "Complete each sentence with the correct perfect modal verb.",
           "mastery_tag": "grammar:b2-perfect-modals",
-          "main_text": "She ___ (not/attend) the meeting; I didn't see her there.",
+          "main_text": "1. She (1)___ (not/attend) the meeting; I didn't see her there.\n2. The train (2)___ (arrive) an hour ago, but it's still not here.\n3. You (3)___ (call) me if you were going to be late.\n4. I (4)___ (tell) you about the change, but I forgot.\n5. They (5)___ (finish) the project by now; they started weeks ago.",
           "correct_answer": [
             "must not have attended",
             "should have arrived",

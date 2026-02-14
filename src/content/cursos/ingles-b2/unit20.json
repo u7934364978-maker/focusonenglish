@@ -20,7 +20,7 @@
           "type": "fill_blanks",
           "prompt_es": "Fill in the blanks with the correct form of the verbs in parentheses to complete the mixed conditional sentences.",
           "mastery_tag": "grammar:b2-mixed-conditionals",
-          "main_text": "If she had studied harder, she ___ (not fail) the exam last year.",
+          "main_text": "1. If she had studied harder, she (1)___ (not fail) the exam last year.\n2. If I (2)___ (be) you, I would have taken that opportunity.\n3. If they had known about the party, they (3)___ (attend).\n4. If he (4)___ (speak) better English, he would have understood the lecture.\n5. If she (5)___ (not miss) the train, she would be here now.",
           "correct_answer": [
             "would not have failed",
             "were",
@@ -186,7 +186,7 @@
           "type": "fill_blanks",
           "prompt_es": "Complete the sentences with the correct words to effectively discuss reviews and articles.",
           "mastery_tag": "writing:b2-reviews-articles",
-          "main_text": "In a good review, it is important to provide a thorough ___ of the product's features.",
+          "main_text": "1. In a good review, it is important to provide a thorough (1)___ of the product's features.\n2. An article must have a clear (2)___ to guide the reader.\n3. From my point of (3)___, the author's argument is compelling.\n4. Use an interesting (4)___ at the beginning to grab attention.\n5. In the conclusion, summarize your final (5)___ on the topic.",
           "correct_answer": [
             "evaluation",
             "structure",
