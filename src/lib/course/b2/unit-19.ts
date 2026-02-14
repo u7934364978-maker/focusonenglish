@@ -12,7 +12,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Advanced Articles: The",
       instructions: "Choose the correct article.",
-      question: "[[___ economy of the Eurozone is recovering.|La economía de la Eurozona se está recuperando.]]",
+      question: "[[___|La]] [[economy|economía]] [[of|de]] [[the|la]] [[Eurozone|Eurozona]] [[is|se está]] [[recovering.|recuperando.]]",
       options: ["The", "A", "(zero)"],
       correctAnswer: "The",
       explanation: "Use 'the' for specific economies or entities followed by 'of'.",
@@ -31,7 +31,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Advanced Articles: The",
       instructions: "Choose the correct article.",
-      question: "[[___ IMF has predicted a slowdown.|El FMI ha predicho una desaceleración.]]",
+      question: "[[___|El]] [[IMF|FMI]] [[has|ha]] [[predicted|predicho]] [[a|una]] [[slowdown.|desaceleración.]]",
       options: ["The", "An", "(zero)"],
       correctAnswer: "The",
       explanation: "Use 'the' for abbreviations of international organizations.",
@@ -50,7 +50,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Advanced Articles: The",
       instructions: "Choose the correct article.",
-      question: "[[___ United States is a major player in trade.|Estados Unidos es un actor importante en el comercio.]]",
+      question: "[[___|El]] [[United|Estados]] [[States|Unidos]] [[is|es]] [[a|un]] [[major|actor]] [[player|importante]] [[in|en]] [[trade.|el comercio.]]",
       options: ["The", "A", "(zero)"],
       correctAnswer: "The",
       explanation: "Use 'the' with country names that are plural or contain 'United/Republic/Kingdom'.",
@@ -69,7 +69,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Advanced Articles: The",
       instructions: "Choose the correct article.",
-      question: "[[___ Pacific Ocean is vast.|El Océano Pacífico es vasto.]]",
+      question: "[[___|El]] [[Pacific|Océano]] [[Ocean|Pacífico]] [[is|es]] [[vast.|vasto.]]",
       options: ["The", "A", "(zero)"],
       correctAnswer: "The",
       explanation: "Use 'the' for names of oceans and seas.",
@@ -88,7 +88,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Advanced Articles: The",
       instructions: "Choose the correct article.",
-      question: "[[We visited ___ Netherlands last year.|Visitamos los Países Bajos el año pasado.]]",
+      question: "[[We|Nosotros]] [[visited|visitamos]] [[___|los]] [[Netherlands|Países Bajos]] [[last|el año]] [[year.|pasado.]]",
       options: ["the", "a", "(zero)"],
       correctAnswer: "the",
       explanation: "Some country names like 'The Netherlands' always use 'the'.",
@@ -107,7 +107,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Advanced Articles: The",
       instructions: "Choose the correct article.",
-      question: "[[___ rich should pay more taxes.|Los ricos deberían pagar más impuestos.]]",
+      question: "[[___|Los]] [[rich|ricos]] [[should|deberían]] [[pay|pagar]] [[more|más]] [[taxes.|impuestos.]]",
       options: ["The", "A", "(zero)"],
       correctAnswer: "The",
       explanation: "Use 'the + adjective' to refer to a whole group of people.",
@@ -126,7 +126,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Advanced Articles: The",
       instructions: "Choose the correct article.",
-      question: "[[He is ___ best economist in the country.|Es el mejor economista del país.]]",
+      question: "[[He|Él]] [[is|es]] [[___|el]] [[best|mejor]] [[economist|economista]] [[in|en]] [[the|el]] [[country.|país.]]",
       options: ["the", "a", "an"],
       correctAnswer: "the",
       explanation: "Always use 'the' with superlative adjectives.",
@@ -145,7 +145,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Advanced Articles: The",
       instructions: "Choose the correct article.",
-      question: "[[I live in ___ city center.|Vivo en el centro de la ciudad.]]",
+      question: "[[I|Yo]] [[live|vivo]] [[in|en]] [[___|el]] [[city|centro]] [[center.|de la ciudad.]]",
       options: ["the", "a", "(zero)"],
       correctAnswer: "the",
       explanation: "Use 'the' for specific parts of a town or city.",
@@ -164,7 +164,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Advanced Articles: The",
       instructions: "Choose the correct article.",
-      question: "[[___ environment is a global priority.|El medio ambiente es una prioridad global.]]",
+      question: "[[___|El]] [[environment|medio ambiente]] [[is|es]] [[a|una]] [[global|prioridad]] [[priority.|global.]]",
       options: ["The", "An", "(zero)"],
       correctAnswer: "The",
       explanation: "Use 'the' for the environment as a unique global concept.",
@@ -183,7 +183,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Advanced Articles: The",
       instructions: "Choose the correct article.",
-      question: "[[___ sun rises in the east.|El sol sale por el este.]]",
+      question: "[[___|El]] [[sun|sol]] [[rises|sale]] [[in|por]] [[the|el]] [[east.|este.]]",
       options: ["The", "A", "(zero)"],
       correctAnswer: "The",
       explanation: "Use 'the' for unique objects in nature.",
@@ -204,7 +204,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Zero Article",
       instructions: "Fill in 'a', 'an' or leave blank for zero article.",
-      question: "[[___ (zero) globalization has changed the world.|La globalización ha cambiado el mundo.]]",
+      question: "[[___ (zero)| ]] [[globalization|globalización]] [[has|ha]] [[changed|cambiado]] [[the|el]] [[world.|mundo.]]",
       correctAnswer: "",
       explanation: "Use the zero article for abstract nouns in a general sense.",
       translation: "La globalización ha cambiado el mundo.",
@@ -222,7 +222,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Indefinite Article",
       instructions: "Fill in 'a', 'an' or leave blank.",
-      question: "[[He is ___ (an) expert in macroeconomics.|Es un experto en macroeconomía.]]",
+      question: "[[He|Él]] [[is|es]] [[___ (an)|un]] [[expert|experto]] [[in|en]] [[macroeconomics.|macroeconomía.]]",
       correctAnswer: "an",
       explanation: "Use 'an' before a noun starting with a vowel sound.",
       translation: "Es un experto en macroeconomía.",
@@ -240,7 +240,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Zero Article",
       instructions: "Fill in 'a', 'an' or leave blank.",
-      question: "[[___ (zero) interest rates are low.|Las tasas de interés son bajas.]]",
+      question: "[[___ (zero)| ]] [[interest|tasas]] [[rates|de interés]] [[are|son]] [[low.|bajas.]]",
       correctAnswer: "",
       explanation: "Use zero article for plural countable nouns in a general sense.",
       translation: "Las tasas de interés son bajas.",
@@ -258,7 +258,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Indefinite Article",
       instructions: "Fill in 'a', 'an' or leave blank.",
-      question: "[[I have ___ (a) question about the budget.|Tengo una pregunta sobre el presupuesto.]]",
+      question: "[[I|Yo]] [[have|tengo]] [[___ (a)|una]] [[question|pregunta]] [[about|sobre]] [[the|el]] [[budget.|presupuesto.]]",
       correctAnswer: "a",
       explanation: "Use 'a' for singular countable nouns starting with a consonant sound.",
       translation: "Tengo una pregunta sobre el presupuesto.",
@@ -276,7 +276,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Zero Article",
       instructions: "Fill in 'a', 'an' or leave blank.",
-      question: "[[___ (zero) money doesn't buy happiness.|El dinero no compra la felicidad.]]",
+      question: "[[___ (zero)| ]] [[money|dinero]] [[doesn't|no]] [[buy|compra]] [[happiness.|felicidad.]]",
       correctAnswer: "",
       explanation: "Use zero article for uncountable nouns in a general sense.",
       translation: "El dinero no compra la felicidad.",
@@ -294,7 +294,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Indefinite Article",
       instructions: "Fill in 'a', 'an' or leave blank.",
-      question: "[[She is ___ (a) consultant for the government.|Ella es consultora para el gobierno.]]",
+      question: "[[She|Ella]] [[is|es]] [[___ (a)|una]] [[consultant|consultora]] [[for|para]] [[the|el]] [[government.|gobierno.]]",
       correctAnswer: "a",
       explanation: "Use 'a' for singular jobs/professions.",
       translation: "Ella es consultora para el gobierno.",
@@ -312,7 +312,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Zero Article",
       instructions: "Fill in 'a', 'an' or leave blank.",
-      question: "[[We need ___ (zero) information before we decide.|Necesitamos información antes de decidir.]]",
+      question: "[[We|Necesitamos]] [[need| ]] [[___ (zero)| ]] [[information|información]] [[before|antes]] [[we|de]] [[decide.|decidir.]]",
       correctAnswer: "",
       explanation: "'Information' is uncountable and used here in a general sense.",
       translation: "Necesitamos información antes de decidir.",
@@ -330,7 +330,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Zero Article",
       instructions: "Fill in 'a', 'an' or leave blank.",
-      question: "[[___ (zero) technology is evolving fast.|La tecnología está evolucionando rápido.]]",
+      question: "[[___ (zero)| ]] [[technology|tecnología]] [[is|está]] [[evolving|evolucionando]] [[fast.|rápido.]]",
       correctAnswer: "",
       explanation: "Use zero article for abstract nouns like 'technology' in general.",
       translation: "La tecnología está evolucionando rápido.",
@@ -348,7 +348,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Indefinite Article",
       instructions: "Fill in 'a', 'an' or leave blank.",
-      question: "[[It was ___ (an) honor to meet him.|Fue un honor conocerle.]]",
+      question: "[[It|Fue]] [[was| ]] [[___ (an)|un]] [[honor|honor]] [[to| ]] [[meet|conocerle.]] [[him.| ]]",
       correctAnswer: "an",
       explanation: "Use 'an' before 'honor' because the 'h' is silent and it starts with a vowel sound.",
       translation: "Fue un honor conocerle.",
@@ -366,7 +366,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     content: {
       title: "Zero Article",
       instructions: "Fill in 'a', 'an' or leave blank.",
-      question: "[[___ (zero) people are worried about inflation.|La gente está preocupada por la inflación.]]",
+      question: "[[___ (zero)| ]] [[people|gente]] [[are|está]] [[worried|preocupada]] [[about|por]] [[inflation.|inflación.]]",
       correctAnswer: "",
       explanation: "Use zero article for people in general.",
       translation: "La gente está preocupada por la inflación.",
