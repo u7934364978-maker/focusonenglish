@@ -128,20 +128,20 @@
   },
   "suites": [
     {
-      "title": "b2-u12-verify.spec.ts",
-      "file": "b2-u12-verify.spec.ts",
+      "title": "unit-12-verification.spec.ts",
+      "file": "unit-12-verification.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
-          "title": "B2 Unit 12 Preview",
-          "file": "b2-u12-verify.spec.ts",
+          "title": "Unit 12 Verification",
+          "file": "unit-12-verification.spec.ts",
           "line": 3,
           "column": 6,
           "specs": [
             {
-              "title": "should display blanks in exercises 1-5",
+              "title": "should load Unit 12 and display exercises",
               "ok": true,
               "tags": [],
               "tests": [
@@ -156,12 +156,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1332,
+                      "duration": 1043,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-14T17:15:21.560Z",
+                      "startTime": "2026-02-14T18:18:38.606Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -169,8 +169,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "5f1e3c784062959a878b-82fbe35ea81645005a79",
-              "file": "b2-u12-verify.spec.ts",
+              "id": "2ff887b4edb31dc7cecf-b5a61005660007a2369e",
+              "file": "unit-12-verification.spec.ts",
               "line": 4,
               "column": 7
             }
@@ -181,8 +181,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-02-14T17:15:20.944Z",
-    "duration": 2336.178,
+    "startTime": "2026-02-14T18:18:38.064Z",
+    "duration": 1984.9350000000002,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
