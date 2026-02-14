@@ -12,7 +12,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Fronting",
       instructions: "Choose the correct word order for fronting emphasis.",
-      question: "Deep in the forest ___ a rare species.",
+      question: "[[Deep in the forest ___ a rare species.|En lo profundo del bosque vive una especie rara.]]",
       options: ["lives", "does live", "living"],
       correctAnswer: "lives",
       explanation: "Place the verb before the subject when fronting a prepositional phrase.",
@@ -31,7 +31,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Fronting",
       instructions: "Choose the correct word order.",
-      question: "Beautiful ___.",
+      question: "[[Beautiful ___.|Hermoso era.]]",
       options: ["it was", "was it", "be it"],
       correctAnswer: "it was",
       explanation: "Adjective fronting: Adjective + subject + verb (usually 'be').",
@@ -50,7 +50,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Fronting",
       instructions: "Choose the correct word order.",
-      question: "On the table ___ a laptop.",
+      question: "[[On the table ___ a laptop.|Sobre la mesa había un portátil.]]",
       options: ["sat", "did sit", "siting"],
       correctAnswer: "sat",
       explanation: "Prepositional phrase fronting: Phrase + verb + subject.",
@@ -69,7 +69,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Fronting",
       instructions: "Choose the correct word order.",
-      question: "Out ___ the sun.",
+      question: "[[Out ___ the sun.|Salió el sol.]]",
       options: ["came", "did come", "come"],
       correctAnswer: "came",
       explanation: "Adverbial particle fronting: Particle + verb + subject.",
@@ -88,7 +88,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Fronting",
       instructions: "Choose the correct word order.",
-      question: "In front of the house ___ a giant robot.",
+      question: "[[In front of the house ___ a giant robot.|Frente a la casa se alzaba un robot gigante.]]",
       options: ["stood", "did stand", "standing"],
       correctAnswer: "stood",
       explanation: "Place + verb + subject.",
@@ -107,7 +107,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Fronting",
       instructions: "Choose the correct word order.",
-      question: "Strange ___ it may seem, it worked.",
+      question: "[[Strange ___ it may seem, it worked.|Por extraño que parezca, funcionó.]]",
       options: ["as", "that", "how"],
       correctAnswer: "as",
       explanation: "Adjective + as/though + subject + verb for concession.",
@@ -126,7 +126,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Fronting",
       instructions: "Choose the correct word order.",
-      question: "Down the hill ___.",
+      question: "[[Down the hill ___.|Cuesta abajo corrieron.]]",
       options: ["they ran", "ran they", "did they run"],
       correctAnswer: "they ran",
       explanation: "When the subject is a pronoun, it comes before the verb in fronting.",
@@ -145,7 +145,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Fronting",
       instructions: "Choose the correct word order.",
-      question: "Away ___.",
+      question: "[[Away ___.|Se fueron.]]",
       options: ["they went", "went they", "did they go"],
       correctAnswer: "they went",
       explanation: "Pronoun subject after fronted adverb.",
@@ -164,7 +164,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Fronting",
       instructions: "Choose the correct word order.",
-      question: "Into the room ___ the scientist.",
+      question: "[[Into the room ___ the scientist.|En la habitación entró el científico.]]",
       options: ["walked", "walk", "walking"],
       correctAnswer: "walked",
       explanation: "Noun subject after verb with fronted phrase.",
@@ -183,7 +183,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Fronting",
       instructions: "Choose the correct word order.",
-      question: "Especially important ___ the safety protocol.",
+      question: "[[Especially important ___ the safety protocol.|Especialmente importante es el protocolo de seguridad.]]",
       options: ["is", "it is", "are"],
       correctAnswer: "is",
       explanation: "Adjective phrase + verb + subject.",
@@ -204,7 +204,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Innovation",
       instructions: "Fill in the blank.",
-      question: "A scientific ___ (breakthrough) is a sudden, dramatic, and important discovery or development.",
+      question: "[[A scientific ___ (breakthrough) is a sudden, dramatic, and important discovery or development.|El avance fue inesperado.]]",
       correctAnswer: "breakthrough",
       explanation: "A breakthrough marks a major progress.",
       translation: "El avance fue inesperado.",
@@ -222,7 +222,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Innovation",
       instructions: "Fill in the blank.",
-      question: "We are on the ___ (cutting) edge of technology.",
+      question: "[[We are on the ___ (cutting) edge of technology.|Estamos a la vanguardia de la tecnología.]]",
       correctAnswer: "cutting",
       explanation: "'Cutting edge' means the latest or most advanced stage.",
       translation: "Estamos a la vanguardia de la tecnología.",
@@ -240,7 +240,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Innovation",
       instructions: "Fill in the blank.",
-      question: "Artificial ___ (Intelligence) (AI) is transforming many industries.",
+      question: "[[Artificial ___ (Intelligence) (AI) is transforming many industries.|La inteligencia artificial está transformando las industrias.]]",
       correctAnswer: "Intelligence",
       explanation: "AI refers to computer systems performing tasks that normally require human intelligence.",
       translation: "La inteligencia artificial está transformando las industrias.",
@@ -258,7 +258,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Innovation",
       instructions: "Fill in the blank.",
-      question: "The ___ (prototype) is the first model of something, from which other forms are developed.",
+      question: "[[The ___ (prototype) is the first model of something, from which other forms are developed.|El prototipo está listo para las pruebas.]]",
       correctAnswer: "prototype",
       explanation: "Prototypes are used to test concepts.",
       translation: "El prototipo está listo para las pruebas.",
@@ -276,7 +276,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Innovation",
       instructions: "Fill in the blank.",
-      question: "___ (State-of-the-art) equipment refers to the most recent and advanced stage of development.",
+      question: "[[___ (State-of-the-art) equipment refers to the most recent and advanced stage of development.|Es necesario contar con equipos de última generación.]]",
       correctAnswer: "State-of-the-art",
       explanation: "Synonym for cutting-edge.",
       translation: "Es necesario contar con equipos de última generación.",
@@ -294,7 +294,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Innovation",
       instructions: "Fill in the blank.",
-      question: "___ (Automation) is the use of automatic equipment in manufacturing or other processes.",
+      question: "[[___ (Automation) is the use of automatic equipment in manufacturing or other processes.|La automatización reduce el trabajo manual.]]",
       correctAnswer: "Automation",
       explanation: "Replacing human work with machines.",
       translation: "La automatización reduce el trabajo manual.",
@@ -312,7 +312,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Innovation",
       instructions: "Fill in the blank.",
-      question: "A ___ (patent) gives you the legal right to exclude others from making or selling your invention.",
+      question: "[[A ___ (patent) gives you the legal right to exclude others from making or selling your invention.|Una patente protege tu invento.]]",
       correctAnswer: "patent",
       explanation: "Legal protection for inventors.",
       translation: "Una patente protege tu invento.",
@@ -330,7 +330,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Innovation",
       instructions: "Fill in the blank.",
-      question: "___ (Nanotechnology) deals with dimensions of less than 100 nanometers.",
+      question: "[[___ (Nanotechnology) deals with dimensions of less than 100 nanometers.|La nanotecnología trabaja a nivel molecular.]]",
       correctAnswer: "Nanotechnology",
       explanation: "Science at a very small scale.",
       translation: "La nanotecnología trabaja a nivel molecular.",
@@ -348,7 +348,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Innovation",
       instructions: "Fill in the blank.",
-      question: "___ (Biotechnology) uses biological systems or living organisms to develop products.",
+      question: "[[___ (Biotechnology) uses biological systems or living organisms to develop products.|La biotecnología se utiliza en medicina.]]",
       correctAnswer: "Biotechnology",
       explanation: "Combining biology and technology.",
       translation: "La biotecnología se utiliza en medicina.",
@@ -366,7 +366,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Innovation",
       instructions: "Fill in the blank.",
-      question: "___ (Sustainable) technology aims to meet current needs without compromising future generations.",
+      question: "[[___ (Sustainable) technology aims to meet current needs without compromising future generations.|La tecnología sostenible es el futuro.]]",
       correctAnswer: "Sustainable",
       explanation: "Environmentally friendly technology.",
       translation: "La tecnología sostenible es el futuro.",
@@ -386,7 +386,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Digital World",
       instructions: "Fill in the blank.",
-      question: "___ (Cybersecurity) is the practice of protecting systems and networks from digital attacks.",
+      question: "[[___ (Cybersecurity) is the practice of protecting systems and networks from digital attacks.|La ciberseguridad es esencial para las empresas.]]",
       correctAnswer: "Cybersecurity",
       explanation: "Protecting data online.",
       translation: "La ciberseguridad es esencial para las empresas.",
@@ -404,7 +404,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Digital World",
       instructions: "Fill in the blank.",
-      question: "Data ___ (encryption) is the process of converting information into a code to prevent unauthorized access.",
+      question: "[[Data ___ (encryption) is the process of converting information into a code to prevent unauthorized access.|El cifrado de datos mantiene tus mensajes privados.]]",
       correctAnswer: "encryption",
       explanation: "Securing data with codes.",
       translation: "El cifrado de datos mantiene tus mensajes privados.",
@@ -422,7 +422,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Digital World",
       instructions: "Fill in the blank.",
-      question: "An ___ (algorithm) is a set of rules to be followed in calculations or problem-solving.",
+      question: "[[An ___ (algorithm) is a set of rules to be followed in calculations or problem-solving.|El algoritmo decide lo que ves.]]",
       correctAnswer: "algorithm",
       explanation: "Rules for computer processing.",
       translation: "El algoritmo decide lo que ves.",
@@ -440,7 +440,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Digital World",
       instructions: "Fill in the blank.",
-      question: "___ (Cloud) computing is the practice of using remote servers to store and process data.",
+      question: "[[___ (Cloud) computing is the practice of using remote servers to store and process data.|La computación en la nube permite el almacenamiento remoto de datos.]]",
       correctAnswer: "Cloud",
       explanation: "Remote internet-based storage.",
       translation: "La computación en la nube permite el almacenamiento remoto de datos.",
@@ -458,7 +458,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Digital World",
       instructions: "Fill in the blank.",
-      question: "A ___ (user-friendly) interface is easy to use and understand.",
+      question: "[[A ___ (user-friendly) interface is easy to use and understand.|Una interfaz fácil de usar es importante.]]",
       correctAnswer: "user-friendly",
       explanation: "Easy for people to use.",
       translation: "Una interfaz fácil de usar es importante.",
@@ -476,7 +476,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Digital World",
       instructions: "Fill in the blank.",
-      question: "___ (Broadband) refers to high-capacity transmission technique using a wide range of frequencies.",
+      question: "[[___ (Broadband) refers to high-capacity transmission technique using a wide range of frequencies.|La conexión de banda ancha es rápida.]]",
       correctAnswer: "Broadband",
       explanation: "Fast internet connection.",
       translation: "La conexión de banda ancha es rápida.",
@@ -494,7 +494,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Digital World",
       instructions: "Fill in the blank.",
-      question: "A ___ (firewall) is a security system that monitors and controls network traffic.",
+      question: "[[A ___ (firewall) is a security system that monitors and controls network traffic.|Un cortafuegos bloquea el acceso no autorizado.]]",
       correctAnswer: "firewall",
       explanation: "Digital security barrier.",
       translation: "Un cortafuegos bloquea el acceso no autorizado.",
@@ -512,7 +512,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Digital World",
       instructions: "Fill in the blank.",
-      question: "___ (Virtual) Reality (VR) provides an immersive computer-generated experience.",
+      question: "[[___ (Virtual) Reality (VR) provides an immersive computer-generated experience.|La realidad virtual es inmersiva.]]",
       correctAnswer: "Virtual",
       explanation: "Computer-simulated environment.",
       translation: "La realidad virtual es inmersiva.",
@@ -530,7 +530,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Digital World",
       instructions: "Fill in the blank.",
-      question: "___ (Open-source) software has source code that anyone can inspect, modify, and enhance.",
+      question: "[[___ (Open-source) software has source code that anyone can inspect, modify, and enhance.|El software de código abierto es de uso gratuito.]]",
       correctAnswer: "Open-source",
       explanation: "Free and collaborative software.",
       translation: "El software de código abierto es de uso gratuito.",
@@ -548,7 +548,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Digital World",
       instructions: "Fill in the blank.",
-      question: "Software updates often fix ___ (bugs) or errors in the code.",
+      question: "[[Software updates often fix ___ (bugs) or errors in the code.|Las actualizaciones de software corrigen errores.]]",
       correctAnswer: "bugs",
       explanation: "Errors in a program.",
       translation: "Las actualizaciones de software corrigen errores.",
@@ -568,7 +568,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Scientific Method",
       instructions: "Choose the correct term.",
-      question: "A ___ is a proposed explanation based on limited evidence.",
+      question: "[[A ___ is a proposed explanation based on limited evidence.|La hipótesis fue probada en el laboratorio.]]",
       options: ["hypothesis", "fact", "result"],
       correctAnswer: "hypothesis",
       explanation: "Starting point for an investigation.",
@@ -587,7 +587,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Scientific Method",
       instructions: "Choose the correct term.",
-      question: "___ evidence is information acquired by observation or experimentation.",
+      question: "[[___ evidence is information acquired by observation or experimentation.|Necesitamos evidencia empírica.]]",
       options: ["Empirical", "Anecdotal", "False"],
       correctAnswer: "Empirical",
       explanation: "Based on observation or experience.",
@@ -606,7 +606,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Scientific Method",
       instructions: "Choose the correct term.",
-      question: "A variable that is kept constant in an experiment is a ___ variable.",
+      question: "[[A variable that is kept constant in an experiment is a ___ variable.|El experimento se llevó a cabo bajo condiciones controladas.]]",
       options: ["control", "dependent", "random"],
       correctAnswer: "control",
       explanation: "Standard for comparison.",
@@ -625,7 +625,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Scientific Method",
       instructions: "Choose the correct term.",
-      question: "Scientific ___ are the results or conclusions of an investigation.",
+      question: "[[Scientific ___ are the results or conclusions of an investigation.|Los hallazgos fueron publicados en una revista.]]",
       options: ["findings", "questions", "starts"],
       correctAnswer: "findings",
       explanation: "Results of research.",
@@ -644,7 +644,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Scientific Method",
       instructions: "Choose the correct term.",
-      question: "The process of examining data in detail is called ___.",
+      question: "[[The process of examining data in detail is called ___.|El análisis de los datos llevó meses.]]",
       options: ["analysis", "summary", "listing"],
       correctAnswer: "analysis",
       explanation: "Detailed examination.",
@@ -663,7 +663,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Scientific Method",
       instructions: "Choose the correct term.",
-      question: "___ means evaluated by others in the same field.",
+      question: "[[___ means evaluated by others in the same field.|El estudio fue revisado por pares.]]",
       options: ["Peer-reviewed", "Self-published", "Public"],
       correctAnswer: "Peer-reviewed",
       explanation: "Ensuring quality through expert evaluation.",
@@ -682,7 +682,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Scientific Method",
       instructions: "Choose the correct term.",
-      question: "If a study can be repeated with the same results, it is ___.",
+      question: "[[If a study can be repeated with the same results, it is ___.|Los resultados deben ser replicables.]]",
       options: ["replicable", "unique", "random"],
       correctAnswer: "replicable",
       explanation: "Ability to be copied or repeated.",
@@ -701,7 +701,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Scientific Method",
       instructions: "Choose the correct term.",
-      question: "The gathering of information is called data ___.",
+      question: "[[The gathering of information is called data ___.|La recopilación de datos es el primer paso.]]",
       options: ["collection", "cleaning", "ending"],
       correctAnswer: "collection",
       explanation: "Gathering information.",
@@ -720,7 +720,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Scientific Method",
       instructions: "Choose the correct term.",
-      question: "A scientific ___ is a well-substantiated explanation of some aspect of the natural world.",
+      question: "[[A scientific ___ is a well-substantiated explanation of some aspect of the natural world.|Una teoría explica por qué sucede algo.]]",
       options: ["theory", "guess", "story"],
       correctAnswer: "theory",
       explanation: "Proven explanation.",
@@ -739,7 +739,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Scientific Method",
       instructions: "Choose the correct term.",
-      question: "___ guidelines ensure that research is done morally.",
+      question: "[[___ guidelines ensure that research is done morally.|Deben seguirse las pautas éticas.]]",
       options: ["Ethical", "Money", "Quick"],
       correctAnswer: "Ethical",
       explanation: "Relating to moral principles.",
@@ -760,7 +760,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "___ (TECHNOLOGY) skills are highly valued in the job market.",
+      question: "[[___ (TECHNOLOGY) skills are highly valued in the job market.|Las habilidades técnicas son importantes.]]",
       correctAnswer: "Technical",
       explanation: "Adjective form relating to technology.",
       translation: "Las habilidades técnicas son importantes.",
@@ -778,7 +778,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (INVENT) was awarded for his creativity.",
+      question: "[[The ___ (INVENT) was awarded for his creativity.|El inventor fue brillante.]]",
       correctAnswer: "inventor",
       explanation: "Noun for a person who invents.",
       translation: "El inventor fue brillante.",
@@ -796,7 +796,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "___ (SCIENCE) research takes a lot of time and resources.",
+      question: "[[___ (SCIENCE) research takes a lot of time and resources.|La investigación científica lleva tiempo.]]",
       correctAnswer: "Scientific",
       explanation: "Adjective form of 'science'.",
       translation: "La investigación científica lleva tiempo.",
@@ -814,7 +814,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "___ (AUTOMATIC) is increasing in the manufacturing sector.",
+      question: "[[___ (AUTOMATIC) is increasing in the manufacturing sector.|La automatización está aumentando.]]",
       correctAnswer: "Automation",
       explanation: "Noun form of 'automatic'.",
       translation: "La automatización está aumentando.",
@@ -832,7 +832,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (DISCOVER) of penicillin changed medicine forever.",
+      question: "[[The ___ (DISCOVER) of penicillin changed medicine forever.|El descubrimiento fue histórico.]]",
       correctAnswer: "discovery",
       explanation: "Noun form of 'discover'.",
       translation: "El descubrimiento fue histórico.",
@@ -850,7 +850,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "___ (DIGIT) communication has replaced many traditional methods.",
+      question: "[[___ (DIGIT) communication has replaced many traditional methods.|La comunicación digital es rápida.]]",
       correctAnswer: "Digital",
       explanation: "Adjective form of 'digit'.",
       translation: "La comunicación digital es rápida.",
@@ -868,7 +868,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (EXPLORE) of space is exciting.",
+      question: "[[The ___ (EXPLORE) of space is exciting.|La exploración del espacio es emocionante.]]",
       correctAnswer: "exploration",
       explanation: "Noun form of 'explore'.",
       translation: "La exploración del espacio es emocionante.",
@@ -886,7 +886,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "This is a ___ (REVOLUTION) idea that could change everything.",
+      question: "[[This is a ___ (REVOLUTION) idea that could change everything.|Esta es una idea revolucionaria.]]",
       correctAnswer: "revolutionary",
       explanation: "Adjective form of 'revolution'.",
       translation: "Esta es una idea revolucionaria.",
@@ -904,7 +904,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The practical ___ (APPLY) of this theory is difficult.",
+      question: "[[The practical ___ (APPLY) of this theory is difficult.|La aplicación práctica es clave.]]",
       correctAnswer: "application",
       explanation: "Noun form of 'apply'.",
       translation: "La aplicación práctica es clave.",
@@ -922,7 +922,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "He is a computer ___ (PROGRAM).",
+      question: "[[He is a computer ___ (PROGRAM).|Es un programador de computadoras.]]",
       correctAnswer: "programmer",
       explanation: "Noun for a person who programs.",
       translation: "Es un programador de computadoras.",
