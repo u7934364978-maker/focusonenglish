@@ -1,31 +1,36 @@
-# Plan - Rebuild B2 Unit 12
+# Plan - Rebuild B2 Units 12-30
 
 ## Workflow Steps
 
-### [x] Step: Technical Specification
-- Technical context (language, dependencies)
-- Implementation approach
-- Source code structure changes
-- Data model / API / interface changes
-- Verification approach
+### [x] Step: Rebuild B2 Unit 12
+- [x] Technical Specification
+- [x] Phase 1: Preparation
+- [x] Phase 2: Coding Unit 12
+- [x] Phase 3: Verification
+- [x] Report
 
-### [x] Step: Implementation
+### [ ] Step: Rebuild B2 Units 13-30
+- [x] **Phase 1: Batch Preparation**
+  - [x] Define themes and grammar for units 13-30 based on `src/lib/course/b2/index.ts`.
+  - [x] Generate/Prepare content for 50 exercises per unit (25 sentence-building, 25 multiple-choice).
+- [x] **Phase 2: Coding Batch (Units 13-15)**
+  - [x] Rewrite `src/lib/course/b2/unit-13.ts`.
+  - [x] Rewrite `src/lib/course/b2/unit-14.ts`.
+  - [x] Rewrite `src/lib/course/b2/unit-15.ts`.
+- [x] **Phase 3: Coding Batch (Units 16-20)**
+  - [x] Rewrite `src/lib/course/b2/unit-16.ts`.
+  - [x] Rewrite `src/lib/course/b2/unit-17.ts`.
+  - [x] Rewrite `src/lib/course/b2/unit-18.ts`.
+  - [x] Rewrite `src/lib/course/b2/unit-19.ts`.
+  - [x] Rewrite `src/lib/course/b2/unit-20.ts`.
+- [x] **Phase 4: Coding Batch (Units 21-25)**
+  - [x] Rewrite units 21 through 25.
+- [ ] **Phase 5: Coding Batch (Units 26-30)**
+  - [ ] Rewrite units 26 through 30.
+- [ ] **Phase 6: Final Verification**
+  - [ ] Run `validate-exercises` script if available.
+  - [ ] Run `npm run lint`.
+  - [ ] Create E2E tests for verification (batch or sample).
 
-#### Phase 1: Preparation
-- [x] Define the content for 50 exercises (25 sentence-building, 25 multiple-choice) about "The Modern Workplace".
-- [x] Ensure grammar points (Passive, Inversion, Subjunctive) and vocabulary (Roles, Actions) are covered.
-
-#### Phase 2: Coding Unit 12
-- [x] Rewrite `src/lib/course/b2/unit-12.ts` exercises 1-25 as `sentence-building`.
-- [x] Rewrite `src/lib/course/b2/unit-12.ts` exercises 26-50 as `multiple-choice`.
-- [x] Ensure all `id`, `audio`, `audioUrl` and bilingual blocks are correct.
-
-#### Phase 3: Verification
-- [x] Start the dev server.
-- [x] Manually verify the unit in the browser (via E2E test).
-- [x] Run `npm run lint`.
-- [x] Obtain approval for E2E tests.
-- [x] Write and run E2E tests.
-
-### [x] Step: Report
-- Describe implementation and testing.
+### [ ] Step: Report
+- Describe implementation and testing for units 13-30.

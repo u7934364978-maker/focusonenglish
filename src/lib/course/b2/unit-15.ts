@@ -1,954 +1,1293 @@
 import { Exercise } from "@/types/course";
 
 export const UNIT_15_EXERCISES: Exercise[] = [
-  // 1-10: Grammar - Reported Speech (Statements)
+  // 1-25: Sentence Building (Grammar & Vocabulary - Art, Culture & Literature)
   {
-    id: "b2-u15-e1",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "\"I am busy,\" he said. He said that he was busy.",
-    content: {
-      title: "Reported Speech: Statements",
-      instructions: "Choose the correct backshifted form.",
-      question: "[[\"I|\"Estoy]] [[am|ocupado\",]] [[busy,\"| ]] [[he|dijo]] [[said.|él.]] [[->|->]] [[He|Él]] [[said|dijo]] [[that|que]] [[he|estaba]] [[___|___]] [[busy.|ocupado.]]",
-      options: ["is", "be", "was"],
-      correctAnswer: "was",
-      explanation: "Present simple 'am' shifts to past simple 'was' in reported speech.",
-      translation: "\"Estoy ocupado\", dijo él. Él dijo que estaba ocupado.",
-      hint: "Shift am -> was."
+    "id": "b2-u15-e1",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "The exhibition showcases a diverse range of contemporary art.",
+    "content": {
+      "title": "Exposición de arte",
+      "instructions": "Ordena las palabras para hablar de una exposición.",
+      "correctSentence": "[[The|La]] [[exhibition|exposición]] [[showcases|presenta]] [[a|una]] [[diverse|gama]] [[range|diversa]] [[of|de]] [[contemporary|arte]] [[art.|contemporáneo.]]",
+      "words": [
+        "[[exhibition|exposición]]",
+        "[[art.|contemporáneo.]]",
+        "[[diverse|gama]]",
+        "[[range|diversa]]",
+        "[[showcases|presenta]]",
+        "[[contemporary|arte]]",
+        "[[The|La]]",
+        "[[of|de]]",
+        "[[a|una]]"
+      ],
+      "explanation": "'Showcase' significa exhibir o presentar algo de manera que se resalten sus mejores cualidades.",
+      "audio": "audio/b2/unit-15/e1.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-15/e1.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u15-e2",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "\"We have finished,\" they said. They said that they had finished.",
-    content: {
-      title: "Reported Speech: Statements",
-      instructions: "Choose the correct backshifted form.",
-      question: "[[\"We|\"Hemos]] [[have|terminado\",]] [[finished,\"| ]] [[they|dijeron]] [[said.|ellos.]] [[->|->]] [[They|Dijeron]] [[said|que]] [[that| ]] [[they|habían]] [[___|___]] [[finished.|terminado.]]",
-      options: ["has", "have", "had"],
-      correctAnswer: "had",
-      explanation: "Present perfect 'have finished' shifts to past perfect 'had finished'.",
-      translation: "\"Hemos terminado\", dijeron ellos. Dijeron que habían terminado.",
-      hint: "Present perfect shifts to past perfect."
+    "id": "b2-u15-e2",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "While I was reading the novel, I felt completely immersed.",
+    "content": {
+      "title": "Lectura inmersiva",
+      "instructions": "Ordena las palabras usando tiempos narrativos.",
+      "correctSentence": "[[While|Mientras]] [[I|leía]] [[was|la]] [[reading|novela,]] [[the|me]] [[novel,|sentí]] [[I|completamente]] [[felt|inmerso.]] [[completely| ]] [[immersed.| ]]",
+      "words": [
+        "[[novel,|novela,]]",
+        "[[immersed.| ]]",
+        "[[completely| ]]",
+        "[[reading|novela,]]",
+        "[[While|Mientras]]",
+        "[[felt|inmerso.]]",
+        "[[I|leía]]",
+        "[[was|la]]",
+        "[[the|me]]",
+        "[[I|completamente]]"
+      ],
+      "explanation": "El pasado continuo (was reading) describe una acción en progreso cuando otra ocurrió (felt).",
+      "audio": "audio/b2/unit-15/e2.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-15/e2.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u15-e3",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "\"I will call you,\" she said. She said that she would call me.",
-    content: {
-      title: "Reported Speech: Statements",
-      instructions: "Choose the correct backshifted form.",
-      question: "[[\"I|\"Te]] [[will|llamaré\",]] [[call| ]] [[you,\"| ]] [[she|dijo]] [[said.|ella.]] [[->|->]] [[She|Ella]] [[said|dijo]] [[that|que]] [[she|me]] [[___|___]] [[call|llamaría.]] [[me.| ]]",
-      options: ["would", "will", "shall"],
-      correctAnswer: "would",
-      explanation: "'Will' shifts to 'would' in reported speech.",
-      translation: "\"Te llamaré\", dijo ella. Ella dijo que me llamaría.",
-      hint: "will -> would."
+    "id": "b2-u15-e3",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "The author, who won the prize, is giving a talk tonight.",
+    "content": {
+      "title": "Autor premiado",
+      "instructions": "Ordena las palabras usando una oración de relativo no definitoria.",
+      "correctSentence": "[[The|El]] [[author,|autor,]] [[who|que]] [[won|ganó]] [[the|el]] [[prize,|premio,]] [[is|dará]] [[giving|una]] [[a|charla]] [[talk|esta]] [[tonight.|noche.]]",
+      "words": [
+        "[[won|ganó]]",
+        "[[prize,|premio,]]",
+        "[[tonight.|noche.]]",
+        "[[giving|una]]",
+        "[[author,|autor,]]",
+        "[[is|dará]]",
+        "[[who|que]]",
+        "[[The|El]]",
+        "[[talk|esta]]",
+        "[[the|el]]",
+        "[[a|charla]]"
+      ],
+      "explanation": "Las oraciones de relativo no definitorias añaden información extra entre comas.",
+      "audio": "audio/b2/unit-15/e3.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-15/e3.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u15-e4",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "\"I worked late,\" he said. He said that he had worked late.",
-    content: {
-      title: "Reported Speech: Statements",
-      instructions: "Choose the correct backshifted form.",
-      question: "[[\"I|\"Trabajé]] [[worked|hasta]] [[late,\"|tarde\",]] [[he|dijo]] [[said.|él.]] [[->|->]] [[He|Él]] [[said|dijo]] [[that|que]] [[he|había]] [[___|___]] [[late.|trabajado hasta tarde.]]",
-      options: ["works", "worked", "had worked"],
-      correctAnswer: "had worked",
-      explanation: "Past simple 'worked' often shifts to past perfect 'had worked'.",
-      translation: "\"Trabajé hasta tarde\", dijo él. Él dijo que había trabajado hasta tarde.",
-      hint: "Past simple -> Past perfect."
+    "id": "b2-u15-e4",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "Cultural heritage should be protected for future generations.",
+    "content": {
+      "title": "Patrimonio cultural",
+      "instructions": "Ordena las palabras para hablar de preservación.",
+      "correctSentence": "[[Cultural|El patrimonio]] [[heritage|cultural]] [[should|debe]] [[be|ser]] [[protected|protegido]] [[for|para]] [[future|las futuras]] [[generations.|generaciones.]]",
+      "words": [
+        "[[heritage|cultural]]",
+        "[[generations.|generaciones.]]",
+        "[[be|ser]]",
+        "[[Cultural|El patrimonio]]",
+        "[[future|las futuras]]",
+        "[[should|debe]]",
+        "[[protected|protegido]]",
+        "[[for|para]]"
+      ],
+      "explanation": "'Cultural heritage' incluye monumentos, obras de arte y tradiciones de un pueblo.",
+      "audio": "audio/b2/unit-15/e4.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-15/e4.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u15-e5",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "\"I can help,\" she said. She said that she could help.",
-    content: {
-      title: "Reported Speech: Statements",
-      instructions: "Choose the correct backshifted form.",
-      question: "[[\"I|\"Puedo]] [[can|ayudar\",]] [[help,\"| ]] [[she|dijo]] [[said.|ella.]] [[->|->]] [[She|Ella]] [[said|dijo]] [[that|que]] [[she|podía]] [[___|___]] [[help.|ayudar.]]",
-      options: ["can", "may", "could"],
-      correctAnswer: "could",
-      explanation: "Modal 'can' shifts to 'could'.",
-      translation: "\"Puedo ayudar\", dijo ella. Ella dijo que podía ayudar.",
-      hint: "can -> could."
+    "id": "b2-u15-e5",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "She claimed that she had never seen such a beautiful painting.",
+    "content": {
+      "title": "Opinión sobre arte",
+      "instructions": "Ordena las palabras usando estilo indirecto (reported speech).",
+      "correctSentence": "[[She|Ella]] [[claimed|afirmó]] [[that|que]] [[she|nunca]] [[had|había]] [[never|visto]] [[seen|un]] [[such|cuadro]] [[a|tan]] [[beautiful|hermoso.]] [[painting.| ]]",
+      "words": [
+        "[[claimed|afirmó]]",
+        "[[painting.| ]]",
+        "[[beautiful|hermoso.]]",
+        "[[seen|visto]]",
+        "[[she|nunca]]",
+        "[[She|Ella]]",
+        "[[such|cuadro]]",
+        "[[that|que]]",
+        "[[had|había]]",
+        "[[a|tan]]"
+      ],
+      "explanation": "En estilo indirecto, el pasado perfecto (had seen) se usa para reportar algo que ocurrió antes del momento de hablar.",
+      "audio": "audio/b2/unit-15/e5.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-15/e5.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u15-e6",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "\"I must go now,\" he said. He said that he had to go then.",
-    content: {
-      title: "Reported Speech: Modals",
-      instructions: "Choose the correct backshifted form.",
-      question: "[[\"I|\"Debo]] [[must|irme]] [[go|ahora\",]] [[now,\"| ]] [[he|dijo]] [[said.|él.]] [[->|->]] [[He|Él]] [[said|dijo]] [[that|que]] [[he|tenía]] [[___|___]] [[to|que]] [[go|irse]] [[then.|entonces.]]",
-      options: ["must", "had", "has"],
-      correctAnswer: "had",
-      explanation: "In reported speech, 'must' usually shifts to 'had to'.",
-      translation: "\"Debo irme ahora\", dijo él. Él dijo que tenía que irse entonces.",
-      hint: "must -> had to."
+    "id": "b2-u15-e6",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "The play was a masterpiece that explored the human condition.",
+    "content": {
+      "title": "Obra maestra",
+      "instructions": "Ordena las palabras para hablar de teatro.",
+      "correctSentence": "[[The|La]] [[play|obra]] [[was|fue]] [[a|una]] [[masterpiece|obra maestra]] [[that|que]] [[explored|exploró]] [[the|la]] [[human|condición]] [[condition.|humana.]]",
+      "words": [
+        "[[play|obra]]",
+        "[[masterpiece|obra maestra]]",
+        "[[condition.|humana.]]",
+        "[[explored|exploró]]",
+        "[[The|La]]",
+        "[[human|condición]]",
+        "[[that|que]]",
+        "[[was|fue]]",
+        "[[a|una]]",
+        "[[the|la]]"
+      ],
+      "explanation": "Una 'masterpiece' es una obra de arte de valor excepcional.",
+      "audio": "audio/b2/unit-15/e6.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-15/e6.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u15-e7",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "\"I may arrive late,\" she said. She said that she might arrive late.",
-    content: {
-      title: "Reported Speech: Modals",
-      instructions: "Choose the correct backshifted form.",
-      question: "[[\"I|\"Puede]] [[may|que]] [[arrive|llegue]] [[late,\"|tarde\",]] [[she|dijo]] [[said.|ella.]] [[->|->]] [[She|Ella]] [[said|dijo]] [[that|que]] [[she|podría]] [[___|___]] [[arrive|llegar]] [[late.|tarde.]]",
-      options: ["will", "might", "may"],
-      correctAnswer: "might",
-      explanation: "Modal 'may' shifts to 'might' in reported speech.",
-      translation: "\"Puede que llegue tarde\", dijo ella. Ella dijo que podría llegar tarde.",
-      hint: "may -> might."
+    "id": "b2-u15-e7",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "By the time the museum opened, a queue had already formed.",
+    "content": {
+      "title": "Visita al museo",
+      "instructions": "Ordena las palabras usando pasado perfecto.",
+      "correctSentence": "[[By|Para]] [[the|cuando]] [[time|el]] [[the|museo]] [[museum|abrió,]] [[opened,|ya]] [[a|se]] [[queue|había]] [[had|formado]] [[already|una]] [[formed.|cola.]]",
+      "words": [
+        "[[museum|abrió,]]",
+        "[[already|una]]",
+        "[[formed.|cola.]]",
+        "[[had|formado]]",
+        "[[opened,|ya]]",
+        "[[By|Para]]",
+        "[[queue|había]]",
+        "[[the|cuando]]",
+        "[[time|el]]",
+        "[[the|museo]]",
+        "[[a|se]]"
+      ],
+      "explanation": "El pasado perfecto (had formed) indica una acción que ocurrió antes de otra en el pasado (opened).",
+      "audio": "audio/b2/unit-15/e7.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-15/e7.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u15-e8",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "\"We are meeting here,\" they said. They said that they were meeting there.",
-    content: {
-      title: "Reported Speech: Place and Time",
-      instructions: "Choose the correct word.",
-      question: "[[\"We|\"Nos]] [[are|reunimos]] [[meeting|aquí\",]] [[here,\"| ]] [[they|dijeron.]] [[said.| ]] [[->|->]] [[They|Dijeron]] [[said|que]] [[that|se]] [[they|reunían]] [[were| ]] [[meeting| ]] [[___|___]] [[.|allí.]]",
-      options: ["there", "here", "then"],
-      correctAnswer: "there",
-      explanation: "'Here' shifts to 'there' in reported speech.",
-      translation: "\"Nos reunimos aquí\", dijeron. Dijeron que se reunían allí.",
-      hint: "here -> there."
+    "id": "b2-u15-e8",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "Literature has the power to bridge gaps between cultures.",
+    "content": {
+      "title": "Literatura y cultura",
+      "instructions": "Ordena las palabras para hablar de la función de la literatura.",
+      "correctSentence": "[[Literature|La literatura]] [[has|tiene]] [[the|el]] [[power|poder]] [[to|de]] [[bridge|cerrar]] [[gaps|brechas]] [[between|entre]] [[cultures.|culturas.]]",
+      "words": [
+        "[[has|tiene]]",
+        "[[bridge|cerrar]]",
+        "[[cultures.|culturas.]]",
+        "[[power|poder]]",
+        "[[Literature|La literatura]]",
+        "[[between|entre]]",
+        "[[the|el]]",
+        "[[to|de]]",
+        "[[gaps|brechas]]"
+      ],
+      "explanation": "La expresión 'bridge gaps' significa superar diferencias o malentendidos.",
+      "audio": "audio/b2/unit-15/e8.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-15/e8.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u15-e9",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "\"I'll see you tomorrow,\" she said. She said she'd see me the next day.",
-    content: {
-      title: "Reported Speech: Place and Time",
-      instructions: "Choose the correct phrase.",
-      question: "[[\"I'll|\"Te]] [[see|veré]] [[you|mañana\",]] [[tomorrow,\"| ]] [[she|dijo]] [[said.|ella.]] [[->|->]] [[She|Dijo]] [[said|que]] [[she'd|me]] [[see|vería]] [[me|al]] [[___|___]] [[.|día siguiente.]]",
-      options: ["tomorrow", "yesterday", "the next day"],
-      correctAnswer: "the next day",
-      explanation: "'Tomorrow' shifts to 'the next day' or 'the following day'.",
-      translation: "\"Te veré mañana\", dijo ella. Dijo que me vería al día siguiente.",
-      hint: "tomorrow -> the next day."
+    "id": "b2-u15-e9",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "He asked me if I had ever visited the Louvre in Paris.",
+    "content": {
+      "title": "Pregunta sobre viajes",
+      "instructions": "Ordena las palabras usando estilo indirecto para preguntas.",
+      "correctSentence": "[[He|Él]] [[asked|me]] [[me|preguntó]] [[if|si]] [[I|alguna vez]] [[had|había]] [[ever|visitado]] [[visited|el]] [[the|Louvre]] [[Louvre|en]] [[in|París.]] [[Paris.| ]]",
+      "words": [
+        "[[asked|me]]",
+        "[[Paris.| ]]",
+        "[[Louvre|en]]",
+        "[[ever|visitado]]",
+        "[[I|alguna vez]]",
+        "[[He|Él]]",
+        "[[the|Louvre]]",
+        "[[if|si]]",
+        "[[had|había]]",
+        "[[visited|el]]",
+        "[[me|preguntó]]",
+        "[[in|París.]]"
+      ],
+      "explanation": "Las preguntas 'Yes/No' en estilo indirecto usan 'if' o 'whether' y el orden de frase afirmativa.",
+      "audio": "audio/b2/unit-15/e9.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-15/e9.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u15-e10",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "\"I was working,\" he said. He said that he had been working.",
-    content: {
-      title: "Reported Speech: Continuous",
-      instructions: "Choose the correct backshifted form.",
-      question: "[[\"I|\"Estaba]] [[was|trabajando\",]] [[working,\"| ]] [[he|dijo]] [[said.|él.]] [[->|->]] [[He|Él]] [[said|dijo]] [[that|que]] [[he|había]] [[___|___]] [[working.|estado trabajando.]]",
-      options: ["has been", "had been", "was"],
-      correctAnswer: "had been",
-      explanation: "Past continuous 'was working' shifts to past perfect continuous 'had been working'.",
-      translation: "\"Estaba trabajando\", dijo él. Él dijo que había estado trabajando.",
-      hint: "was working -> had been working."
+    "id": "b2-u15-e10",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "Sculpture is an art form that requires immense patience.",
+    "content": {
+      "title": "Escultura",
+      "instructions": "Ordena las palabras para hablar de técnicas artísticas.",
+      "correctSentence": "[[Sculpture|La escultura]] [[is|es]] [[an|una]] [[art|forma]] [[form|de arte]] [[that|que]] [[requires|requiere]] [[immense|una paciencia]] [[patience.|inmensa.]]",
+      "words": [
+        "[[is|es]]",
+        "[[art|forma]]",
+        "[[patience.|inmensa.]]",
+        "[[requires|requiere]]",
+        "[[Sculpture|La escultura]]",
+        "[[immense|una paciencia]]",
+        "[[an|una]]",
+        "[[form|de arte]]",
+        "[[that|que]]"
+      ],
+      "explanation": "'Sculpture' es el arte de modelar barro, tallar piedra o madera, etc.",
+      "audio": "audio/b2/unit-15/e10.mp3"
     },
-    topicName: "Grammar"
-  },
-  // 11-20: Grammar - Questions & Commands
-  {
-    id: "b2-u15-e11",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "hard",
-    transcript: "\"Where do you work?\" He asked me where I worked.",
-    content: {
-      title: "Reported Questions",
-      instructions: "Choose the correct verb form.",
-      question: "[[\"Where|\"¿Dónde]] [[do|trabajas?\"]] [[you| ]] [[work?\"| ]] [[->|->]] [[He|Me]] [[asked|preguntó]] [[me| ]] [[where|dónde]] [[I| ]] [[___|trabajaba.]] [[(work).| ]]",
-      options: ["[[worked|trabajaba]]", "[[work|trabajar]]", "[[working|trabajando]]"],
-      correctAnswer: "worked",
-      explanation: "The direct question in present simple shifts to past simple in reported form.",
-      translation: "\"¿Dónde trabajas?\" -> Me preguntó dónde trabajaba.",
-      hint: "Shift work -> worked."
-    },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-15/e10.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u15-e12",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "hard",
-    transcript: "\"Do you like your job?\" She asked me if I liked my job.",
-    content: {
-      title: "Reported Questions",
-      instructions: "Choose the correct word.",
-      question: "[[\"Do|\"¿Te]] [[you|gusta]] [[like|tu]] [[your|trabajo?\"]] [[job?\"| ]] [[->|->]] [[She|Ella]] [[asked|me]] [[me|preguntó]] [[___|si]] [[I|me]] [[liked|gustaba]] [[my|mi]] [[job.|trabajo.]]",
-      options: ["[[if|si]]", "[[that|que]]", "[[whether|si (formal)]]", "[[what|qué]]"],
-      correctAnswer: "if",
-      explanation: "Use 'if' or 'whether' for yes/no questions in reported speech.",
-      translation: "\"¿Te gusta tu trabajo?\" -> Ella me preguntó si me gustaba mi trabajo.",
-      hint: "Link for yes/no questions."
+    "id": "b2-u15-e11",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "Had I known about the concert, I would have gone.",
+    "content": {
+      "title": "Concierto perdido",
+      "instructions": "Ordena las palabras usando inversión en el tercer condicional.",
+      "correctSentence": "[[Had|Si]] [[I|hubiera]] [[known|sabido]] [[about|lo]] [[the|del]] [[concert,|concierto,]] [[I|habría]] [[would|ido.]] [[have| ]] [[gone.| ]]",
+      "words": [
+        "[[I|hubiera]]",
+        "[[concert,|concierto,]]",
+        "[[gone.| ]]",
+        "[[would|ido.]]",
+        "[[known|sabido]]",
+        "[[Had|Si]]",
+        "[[have| ]]",
+        "[[about|lo]]",
+        "[[I|habría]]",
+        "[[the|del]]"
+      ],
+      "explanation": "Estructura formal del tercer condicional: 'Had + sujeto + participio'.",
+      "audio": "audio/b2/unit-15/e11.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-15/e11.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u15-e13",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "hard",
-    transcript: "\"Sit down,\" the boss said. The boss told me to sit down.",
-    content: {
-      title: "Reported Commands",
-      instructions: "Choose the correct infinitive form.",
-      question: "[[\"Sit|\"Siéntate\",]] [[down,\"| ]] [[the|dijo]] [[boss|el]] [[said.|jefe.]] [[->|->]] [[The|El]] [[boss|jefe]] [[told|me]] [[me|dijo]] [[___|que]] [[(sit)|me]] [[down.|sentara.]]",
-      options: ["[[to sit|sentara]]", "[[sitting|sentando]]", "[[sat|sentó]]"],
-      correctAnswer: "to sit",
-      explanation: "Commands are reported using 'told/asked + someone + to + infinitive'.",
-      translation: "\"Siéntate\", dijo el jefe. El jefe me dijo que me sentara.",
-      hint: "Use to + verb."
+    "id": "b2-u15-e12",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "Folklore consists of traditional stories passed down orally.",
+    "content": {
+      "title": "Folclore",
+      "instructions": "Ordena las palabras para hablar de tradiciones.",
+      "correctSentence": "[[Folklore|El folclore]] [[consists|consiste]] [[of|en]] [[traditional|historias]] [[stories|tradicionales]] [[passed|transmitidas]] [[down|oralmente.]] [[orally.| ]]",
+      "words": [
+        "[[consists|consiste]]",
+        "[[stories|tradicionales]]",
+        "[[orally.| ]]",
+        "[[passed|transmitidas]]",
+        "[[Folklore|El folclore]]",
+        "[[down|oralmente.]]",
+        "[[of|en]]",
+        "[[traditional|historias]]"
+      ],
+      "explanation": "'Folklore' son las creencias y cuentos tradicionales de una comunidad.",
+      "audio": "audio/b2/unit-15/e12.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-15/e12.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u15-e14",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "hard",
-    transcript: "\"Don't forget the meeting,\" he said. He told me not to forget the meeting.",
-    content: {
-      title: "Reported Commands",
-      instructions: "Choose the correct form.",
-      question: "[[\"Don't|\"No]] [[forget|olvides]] [[the|la]] [[meeting,\"|reunión\",]] [[he|dijo]] [[said.|él.]] [[->|->]] [[He|Me]] [[told|dijo]] [[me|que]] [[___|no]] [[(not/forget)|olvidara]] [[the|la]] [[meeting.|reunión.]]",
-      options: ["[[not to forget|no olvidara]]", "[[to not forget|para no olvidar]]", "[[don't forget|no olvides]]"],
-      correctAnswer: "not to forget",
-      explanation: "Negative commands use 'not to + infinitive'.",
-      translation: "\"No olvides la reunión\", dijo él. Me dijo que no olvidara la reunión.",
-      hint: "Negative + to + verb."
+    "id": "b2-u15-e13",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "The gallery, which opened recently, features local artists.",
+    "content": {
+      "title": "Nueva galería",
+      "instructions": "Ordena las palabras usando una oración de relativo.",
+      "correctSentence": "[[The|La]] [[gallery,|galería,]] [[which|que]] [[opened|abrió]] [[recently,|recientemente,]] [[features|presenta]] [[local|artistas]] [[artists.|locales.]]",
+      "words": [
+        "[[recently,|recientemente,]]",
+        "[[artists.|locales.]]",
+        "[[opened|abrió]]",
+        "[[The|La]]",
+        "[[features|presenta]]",
+        "[[gallery,|galería,]]",
+        "[[local|artistas]]",
+        "[[which|que]]"
+      ],
+      "explanation": "Uso de 'which' para añadir información sobre la galería.",
+      "audio": "audio/b2/unit-15/e13.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-15/e13.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u15-e15",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "hard",
-    transcript: "\"Have you seen the report?\" She asked me if I had seen the report.",
-    content: {
-      title: "Reported Questions",
-      instructions: "Choose the correct form.",
-      question: "[[\"Have|\"¿Has]] [[you|visto]] [[seen|el]] [[the|informe?\"]] [[report?\"| ]] [[->|->]] [[She|Ella]] [[asked|me]] [[me|preguntó]] [[if|si]] [[I|había]] [[___|visto]] [[(see)|el]] [[the| ]] [[report.|informe.]]",
-      options: ["[[had seen|había visto]]", "[[have seen|has visto]]", "[[saw|viste]]"],
-      correctAnswer: "had seen",
-      explanation: "Present perfect 'have seen' shifts to past perfect 'had seen'.",
-      translation: "\"¿Has visto el informe?\" -> Ella me preguntó si había visto el informe.",
-      hint: "have seen -> had seen."
+    "id": "b2-u15-e14",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "Classical music evokes a wide range of human emotions.",
+    "content": {
+      "title": "Música clásica",
+      "instructions": "Ordena las palabras para hablar de música.",
+      "correctSentence": "[[Classical|La música]] [[music|clásica]] [[evokes|evoca]] [[a|una]] [[wide|amplia]] [[range|gama]] [[of|de]] [[human|emociones]] [[emotions.|humanas.]]",
+      "words": [
+        "[[music|clásica]]",
+        "[[wide|amplia]]",
+        "[[emotions.|humanas.]]",
+        "[[evokes|evoca]]",
+        "[[human|emociones]]",
+        "[[Classical|La música]]",
+        "[[range|gama]]",
+        "[[of|de]]",
+        "[[a|una]]"
+      ],
+      "explanation": "'Evoke' significa traer a la mente o provocar una respuesta emocional.",
+      "audio": "audio/b2/unit-15/e14.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-15/e14.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u15-e16",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "hard",
-    transcript: "\"What are you doing?\" she asked. She asked me what I was doing.",
-    content: {
-      title: "Reported Questions",
-      instructions: "Choose the correct form.",
-      question: "[[\"What|\"¿Qué]] [[are|estás]] [[you|haciendo?\"]] [[doing?\"| ]] [[she|dijo]] [[asked.|ella.]] [[->|->]] [[She|Ella]] [[asked|me]] [[me|preguntó]] [[what|qué]] [[I|estaba]] [[___|haciendo.]] [[doing.| ]]",
-      options: ["[[was|estaba]]", "[[am|estoy]]", "[[did|hice]]"],
-      correctAnswer: "was",
-      explanation: "Present continuous 'are you doing' shifts to past continuous 'I was doing'.",
-      translation: "\"¿Qué estás haciendo?\" -> Ella me preguntó qué estaba haciendo.",
-      hint: "are doing -> was doing."
+    "id": "b2-u15-e15",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "She told me that she would attend the book signing.",
+    "content": {
+      "title": "Firma de libros",
+      "instructions": "Ordena las palabras usando estilo indirecto.",
+      "correctSentence": "[[She|Ella]] [[told|me]] [[me|dijo]] [[that|que]] [[she|asistiría]] [[would|a]] [[attend|la]] [[the|firma]] [[book|de]] [[signing.|libros.]]",
+      "words": [
+        "[[told|me]]",
+        "[[signing.|libros.]]",
+        "[[the|firma]]",
+        "[[would|a]]",
+        "[[she|asistiría]]",
+        "[[She|Ella]]",
+        "[[book|de]]",
+        "[[that|que]]",
+        "[[me|dijo]]",
+        "[[attend|la]]"
+      ],
+      "explanation": "El futuro 'will' cambia a 'would' en estilo indirecto.",
+      "audio": "audio/b2/unit-15/e15.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-15/e15.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u15-e17",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "hard",
-    transcript: "\"Will you attend?\" he asked. He asked me if I would attend.",
-    content: {
-      title: "Reported Questions",
-      instructions: "Choose the correct form.",
-      question: "[[\"Will|\"¿Asistirás?\"]] [[you| ]] [[attend?\"| ]] [[he|preguntó]] [[asked.|él.]] [[->|->]] [[He|Me]] [[asked|preguntó]] [[me| ]] [[if|si]] [[I|asistiría.]] [[___| ]] [[attend.| ]]",
-      options: ["[[would|asistiría]]", "[[will|asistirás]]", "[[shall|asistiré]]"],
-      correctAnswer: "would",
-      explanation: "Future 'will attend' shifts to 'would attend' in reported questions.",
-      translation: "\"¿Asistirás?\" -> Me preguntó si asistiría.",
-      hint: "will -> would."
+    "id": "b2-u15-e16",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "Graffiti is often considered a form of urban expression.",
+    "content": {
+      "title": "Graffiti",
+      "instructions": "Ordena las palabras para hablar de arte callejero.",
+      "correctSentence": "[[Graffiti|El graffiti]] [[is|se]] [[often|considera]] [[considered|a menudo]] [[a|una]] [[form|forma]] [[of|de]] [[urban|expresión]] [[expression.|urbana.]]",
+      "words": [
+        "[[often|considera]]",
+        "[[form|forma]]",
+        "[[expression.|urbana.]]",
+        "[[considered|a menudo]]",
+        "[[of|de]]",
+        "[[Graffiti|El graffiti]]",
+        "[[urban|expresión]]",
+        "[[is|se]]",
+        "[[a|una]]"
+      ],
+      "explanation": "El graffiti puede ser visto como vandalismo o como una forma de arte legítima.",
+      "audio": "audio/b2/unit-15/e16.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-15/e16.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u15-e18",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "hard",
-    transcript: "\"Finish the project,\" she told me. She told me to finish the project.",
-    content: {
-      title: "Reported Commands",
-      instructions: "Choose the correct word.",
-      question: "[[\"Finish|\"Termina]] [[the|el]] [[project,\"|proyecto\",]] [[she|me]] [[told|dijo]] [[me.|ella.]] [[->|->]] [[She|Me]] [[told|dijo]] [[me|que]] [[___|terminara]] [[finish|el]] [[the|proyecto.]] [[project.| ]]",
-      options: ["[[to|que]]", "[[that|que (conjunción)]]", "[[for|para]]"],
-      correctAnswer: "to",
-      explanation: "Reported commands use the infinitive structure 'to + verb'.",
-      translation: "\"Termina el proyecto\", me dijo ella. Me dijo que terminara el proyecto.",
-      hint: "Use the infinitive link."
+    "id": "b2-u15-e17",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "Only when the lights dimmed did the play begin.",
+    "content": {
+      "title": "Comienzo de la obra",
+      "instructions": "Ordena las palabras usando inversión con 'Only when'.",
+      "correctSentence": "[[Only|Solo]] [[when|cuando]] [[the|las]] [[lights|luces]] [[dimmed|se]] [[did|atenuaron]] [[the|comenzó]] [[play|la]] [[begin.|obra.]]",
+      "words": [
+        "[[lights|luces]]",
+        "[[play|la]]",
+        "[[begin.|obra.]]",
+        "[[dimmed|se]]",
+        "[[Only|Solo]]",
+        "[[did|atenuaron]]",
+        "[[the|las]]",
+        "[[the|comenzó]]",
+        "[[when|cuando]]"
+      ],
+      "explanation": "Inversión 'Only when + cláusula + auxiliar + sujeto + verbo'.",
+      "audio": "audio/b2/unit-15/e17.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-15/e17.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u15-e19",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "hard",
-    transcript: "\"Please don't be late,\" he said. He asked me not to be late.",
-    content: {
-      title: "Reported Requests",
-      instructions: "Choose the correct word.",
-      question: "[[\"Please|\"Por]] [[don't|favor,]] [[be|no]] [[late,\"|llegues]] [[he|tarde\",]] [[said.|dijo él.]] [[->|->]] [[He|Me]] [[asked|pidió]] [[me|que]] [[___|no]] [[to|llegara]] [[be|tarde.]] [[late.| ]]",
-      options: ["[[not|no]]", "[[don't|no (directo)]]", "[[never|nunca]]"],
-      correctAnswer: "not",
-      explanation: "Negative requests/commands use 'not to + verb'.",
-      translation: "\"Por favor, no llegues tarde\", dijo él. Me pidió que no llegara tarde.",
-      hint: "Negative link."
+    "id": "b2-u15-e18",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "Metaphor is a literary device used to compare ideas.",
+    "content": {
+      "title": "Metáfora",
+      "instructions": "Ordena las palabras para hablar de literatura.",
+      "correctSentence": "[[Metaphor|La metáfora]] [[is|es]] [[a|un]] [[literary|recurso]] [[device|literario]] [[used|utilizado]] [[to|para]] [[compare|comparar]] [[ideas.|ideas.]]",
+      "words": [
+        "[[is|es]]",
+        "[[device|literario]]",
+        "[[ideas.|ideas.]]",
+        "[[compare|comparar]]",
+        "[[Metaphor|La metáfora]]",
+        "[[used|utilizado]]",
+        "[[literary|recurso]]",
+        "[[to|para]]",
+        "[[a|un]]"
+      ],
+      "explanation": "Una 'metaphor' describe algo refiriéndose a otra cosa que tiene cualidades similares.",
+      "audio": "audio/b2/unit-15/e18.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-15/e18.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u15-e20",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "hard",
-    transcript: "\"Can you sign this?\" she asked. She asked me to sign it.",
-    content: {
-      title: "Reported Requests",
-      instructions: "Choose the correct form.",
-      question: "[[\"Can|\"¿Puedes]] [[you|firmar]] [[sign|esto?\"]] [[this?\"| ]] [[she|preguntó]] [[asked.|ella.]] [[->|->]] [[She|Ella]] [[asked|me]] [[me|pidió]] [[___|que]] [[(sign)|lo]] [[it.|firmara.]]",
-      options: ["[[to sign|lo firmara]]", "[[signed|firmó]]", "[[signing|firmando]]"],
-      correctAnswer: "to sign",
-      explanation: "A request for action is often reported as a command/request structure 'to + infinitive'.",
-      translation: "\"¿Puedes firmar esto?\" -> Ella me pidió que lo firmara.",
-      hint: "to + verb."
+    "id": "b2-u15-e19",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "No sooner had the artist arrived than the crowd cheered.",
+    "content": {
+      "title": "Llegada del artista",
+      "instructions": "Ordena las palabras usando inversión con 'No sooner'.",
+      "correctSentence": "[[No|Apenas]] [[sooner|había]] [[had|llegado]] [[the|el]] [[artist|artista]] [[arrived|cuando]] [[than|la]] [[the|multitud]] [[crowd|vitoreó.]] [[cheered.| ]]",
+      "words": [
+        "[[had|llegado]]",
+        "[[artist|artista]]",
+        "[[cheered.| ]]",
+        "[[than|la]]",
+        "[[the|el]]",
+        "[[sooner|había]]",
+        "[[crowd|vitoreó.]]",
+        "[[No|Apenas]]",
+        "[[arrived|cuando]]",
+        "[[the|multitud]]"
+      ],
+      "explanation": "Inversión 'No sooner... than' para indicar acciones sucesivas inmediatas.",
+      "audio": "audio/b2/unit-15/e19.mp3"
     },
-    topicName: "Grammar"
-  },
-  // 21-30: Vocabulary - Professional Communication
-  {
-    id: "b2-u15-e21",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "Effective communication is key to success.",
-    content: {
-      title: "Business Terms",
-      instructions: "Choose the correct word.",
-      question: "[[Effective|La comunicación]] [[___|___]] [[(communication)|efectiva]] [[is|es]] [[key|clave]] [[to|para el]] [[success.|éxito.]]",
-      options: ["[[communication|comunicación]]", "[[transportation|transporte]]", "[[translation|traducción]]"],
-      correctAnswer: "communication",
-      explanation: "The act of exchanging information is communication.",
-      translation: "La comunicación efectiva es clave para el éxito.",
-      hint: "Exchanging information."
-    },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-15/e19.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u15-e22",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "We need to provide regular feedback to the team.",
-    content: {
-      title: "Business Terms",
-      instructions: "Choose the correct word.",
-      question: "[[We|Necesitamos]] [[need|proporcionar]] [[to|comentarios]] [[provide|regulares]] [[regular|al]] [[___|___]] [[(feedback)|equipo.]] [[to| ]] [[the| ]] [[team.| ]]",
-      options: ["[[feedback|comentarios / retroalimentación]]", "[[food|comida]]", "[[backlog|tareas pendientes]]"],
-      correctAnswer: "feedback",
-      explanation: "Information about a person's performance used as a basis for improvement.",
-      translation: "Necesitamos proporcionar comentarios regulares al equipo.",
-      hint: "Comments on performance."
+    "id": "b2-u15-e20",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "Opera combines music, singing, and drama in a unique way.",
+    "content": {
+      "title": "Ópera",
+      "instructions": "Ordena las palabras para hablar de artes escénicas.",
+      "correctSentence": "[[Opera|La ópera]] [[combines|combina]] [[music,|música,]] [[singing,|canto]] [[and|y]] [[drama|drama]] [[in|de]] [[a|una]] [[unique|forma]] [[way.|única.]]",
+      "words": [
+        "[[combines|combina]]",
+        "[[singing,|canto]]",
+        "[[way.|única.]]",
+        "[[drama|drama]]",
+        "[[music,|música,]]",
+        "[[unique|forma]]",
+        "[[Opera|La ópera]]",
+        "[[and|y]]",
+        "[[in|de]]",
+        "[[a|una]]"
+      ],
+      "explanation": "La ópera es un género teatral donde la acción se desarrolla con música y canto.",
+      "audio": "audio/b2/unit-15/e20.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-15/e20.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u15-e23",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "The agenda for the meeting was sent yesterday.",
-    content: {
-      title: "Business Terms",
-      instructions: "Choose the correct word.",
-      question: "[[The|El orden del día]] [[___|___]] [[(agenda)|de la]] [[for|reunión]] [[the|se]] [[meeting|envió]] [[was| ]] [[sent| ]] [[yesterday.|ayer.]]",
-      options: ["[[agenda|orden del día]]", "[[calendar|calendario]]", "[[notebook|cuaderno]]"],
-      correctAnswer: "agenda",
-      explanation: "An agenda is a list of items to be discussed at a meeting.",
-      translation: "El orden del día de la reunión se envió ayer.",
-      hint: "List of meeting topics."
+    "id": "b2-u15-e21",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "Rarely have I seen a performance as powerful as this one.",
+    "content": {
+      "title": "Actuación potente",
+      "instructions": "Ordena las palabras usando inversión negativa con 'Rarely'.",
+      "correctSentence": "[[Rarely|Rara vez]] [[have|he]] [[I|visto]] [[seen|una]] [[a|actuación]] [[performance|tan]] [[as|potente]] [[powerful|como]] [[as|esta.]] [[this| ]] [[one.| ]]",
+      "words": [
+        "[[have|he]]",
+        "[[performance|tan]]",
+        "[[one.| ]]",
+        "[[as|potente]]",
+        "[[seen|visto]]",
+        "[[Rarely|Rara vez]]",
+        "[[this| ]]",
+        "[[a|actuación]]",
+        "[[I|visto]]",
+        "[[as|como]]",
+        "[[powerful|como]]"
+      ],
+      "explanation": "Inversión 'Rarely + have + I + participio' para dar énfasis.",
+      "audio": "audio/b2/unit-15/e21.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-15/e21.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u15-e24",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "She is a great negotiator.",
-    content: {
-      title: "Business Terms",
-      instructions: "Choose the correct word.",
-      question: "[[She|Ella]] [[is|es]] [[a|una]] [[great|gran]] [[___|___]] [[(negotiator).|(negociadora.)]]",
-      options: ["[[negotiator|negociadora]]", "[[neighbor|vecina]]", "[[navigator|navegante]]"],
-      correctAnswer: "negotiator",
-      explanation: "A person who conducts negotiations.",
-      translation: "Ella es una gran negociadora.",
-      hint: "Someone who negotiates."
+    "id": "b2-u15-e22",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "Mythology often explains natural phenomena through gods.",
+    "content": {
+      "title": "Mitología",
+      "instructions": "Ordena las palabras para hablar de mitos.",
+      "correctSentence": "[[Mythology|La mitología]] [[often|a menudo]] [[explains|explica]] [[natural|fenómenos]] [[phenomena|naturales]] [[through|mediante]] [[gods.|dioses.]]",
+      "words": [
+        "[[often|a menudo]]",
+        "[[phenomena|naturales]]",
+        "[[gods.|dioses.]]",
+        "[[explains|explica]]",
+        "[[Mythology|La mitología]]",
+        "[[through|mediante]]",
+        "[[natural|fenómenos]]"
+      ],
+      "explanation": "'Mythology' es el conjunto de mitos de un pueblo o cultura.",
+      "audio": "audio/b2/unit-15/e22.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-15/e22.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u15-e25",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "We reached a compromise after a long talk.",
-    content: {
-      title: "Business Terms",
-      instructions: "Choose the correct word.",
-      question: "[[We|Llegamos]] [[reached|a un]] [[a|compromiso]] [[___|___]] [[(compromise)|después de]] [[after|una]] [[a|larga]] [[long|charla.]] [[talk.| ]]",
-      options: ["[[compromise|compromiso]]", "[[promise|promesa]]", "[[premise|premisa]]"],
-      correctAnswer: "compromise",
-      explanation: "A compromise is an agreement reached by each side making concessions.",
-      translation: "Llegamos a un compromiso después de una larga charla.",
-      hint: "Middle ground agreement."
+    "id": "b2-u15-e23",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "The portrait, whose frame was antique, hung in the study.",
+    "content": {
+      "title": "El retrato",
+      "instructions": "Ordena las palabras usando 'whose' para posesión.",
+      "correctSentence": "[[The|El]] [[portrait,|retrato,]] [[whose|cuyo]] [[frame|marco]] [[was|era]] [[antique,|antiguo,]] [[hung|estaba colgado]] [[in|en]] [[the|el]] [[study.|estudio.]]",
+      "words": [
+        "[[portrait,|retrato,]]",
+        "[[antique,|antiguo,]]",
+        "[[study.|estudio.]]",
+        "[[was|era]]",
+        "[[The|El]]",
+        "[[hung|estaba colgado]]",
+        "[[whose|cuyo]]",
+        "[[in|en]]",
+        "[[the|el]]",
+        "[[frame|marco]]"
+      ],
+      "explanation": "'Whose' se usa para indicar posesión en oraciones de relativo.",
+      "audio": "audio/b2/unit-15/e23.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-15/e23.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u15-e26",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "He has excellent rapport with his clients.",
-    content: {
-      title: "Business Terms",
-      instructions: "Choose the correct word.",
-      question: "[[He|Tiene]] [[has|una]] [[excellent|excelente]] [[___|___]] [[(rapport)|relación]] [[with|con sus]] [[his|clientes.]] [[clients.| ]]",
-      options: ["[[rapport|relación / compenetración]]", "[[report|informe]]", "[[support|apoyo]]"],
-      correctAnswer: "rapport",
-      explanation: "Rapport is a close and harmonious relationship.",
-      translation: "Tiene una excelente relación con sus clientes.",
-      hint: "Harmonious relationship."
+    "id": "b2-u15-e24",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "Architecture reflects the values and history of a society.",
+    "content": {
+      "title": "Arquitectura",
+      "instructions": "Ordena las palabras para hablar de edificios y cultura.",
+      "correctSentence": "[[Architecture|La arquitectura]] [[reflects|refleja]] [[the|los]] [[values|valores]] [[and|y]] [[history|la historia]] [[of|de]] [[a|una]] [[society.|sociedad.]]",
+      "words": [
+        "[[reflects|refleja]]",
+        "[[history|la historia]]",
+        "[[society.|sociedad.]]",
+        "[[values|valores]]",
+        "[[Architecture|La arquitectura]]",
+        "[[and|y]]",
+        "[[of|de]]",
+        "[[the|los]]",
+        "[[a|una]]"
+      ],
+      "explanation": "La arquitectura es el arte y técnica de proyectar y construir edificios.",
+      "audio": "audio/b2/unit-15/e24.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-15/e24.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u15-e27",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "We need to align our goals for the next year.",
-    content: {
-      title: "Business Terms",
-      instructions: "Choose the correct word.",
-      question: "[[We|Necesitamos]] [[need|alinear]] [[to|nuestros]] [[___|___]] [[(align)|objetivos]] [[our|para el]] [[goals.|próximo año.]]",
-      options: ["[[align|alinear]]", "[[line|línea]]", "[[assign|asignar]]"],
-      correctAnswer: "align",
-      explanation: "To align means to bring into agreement or cooperation.",
-      translation: "Necesitamos alinear nuestros objetivos para el próximo año.",
-      hint: "Bring into agreement."
+    "id": "b2-u15-e25",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "They suggested that the mural be restored soon.",
+    "content": {
+      "title": "Restauración de mural",
+      "instructions": "Ordena las palabras usando el subjuntivo tras 'suggested'.",
+      "correctSentence": "[[They|Sugerieron]] [[suggested|que]] [[that|el]] [[the|mural]] [[mural|fuera]] [[be|restaurado]] [[restored|pronto.]] [[soon.| ]]",
+      "words": [
+        "[[suggested|que]]",
+        "[[restored|pronto.]]",
+        "[[mural|fuera]]",
+        "[[They|Sugerieron]]",
+        "[[soon.| ]]",
+        "[[be|restaurado]]",
+        "[[the|el]]",
+        "[[that|que]]"
+      ],
+      "explanation": "Tras 'suggested that', se usa la forma base del verbo (subjuntivo) en inglés formal.",
+      "audio": "audio/b2/unit-15/e25.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-15/e25.mp3",
+    "topicName": "Grammar"
+  },
+
+  // 26-50: Multiple Choice (Vocabulary & Grammar - Art, Culture & Literature)
+  {
+    "id": "b2-u15-e26",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "Abstract art often challenges the viewer's perception.",
+    "content": {
+      "title": "Arte abstracto",
+      "instructions": "Elige el término para el arte que no representa la realidad visual.",
+      "questions": [
+        {
+          "question": "_______ [[art|arte]] [[often|a menudo]] [[challenges|desafía]] [[the|la]] [[viewer's|percepción]] [[perception.|del espectador.]]",
+          "options": ["[[Abstract|Abstracto]]", "[[Realistic|Realista]]", "[[Classical|Clásico]]"],
+          "correctAnswer": 0,
+          "explanation": "El arte abstracto usa formas y colores para expresar ideas o sentimientos sin copiar la realidad.",
+          "audio": "audio/b2/unit-15/e26.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-15/e26.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u15-e28",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "Clear objectives are necessary for any project.",
-    content: {
-      title: "Business Terms",
-      instructions: "Choose the correct word.",
-      question: "[[Clear|Los]] [[___|___]] [[(objectives)|objetivos claros]] [[are|son]] [[necessary.|necesarios para cualquier proyecto.]]",
-      options: ["[[objectives|objetivos]]", "[[objections|objeciones]]", "[[objects|objetos]]"],
-      correctAnswer: "objectives",
-      explanation: "Objectives are goals or aims.",
-      translation: "Los objetivos claros son necesarios para cualquier proyecto.",
-      hint: "Goals."
+    "id": "b2-u15-e27",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "By the time I reached the end, I had forgotten the beginning.",
+    "content": {
+      "title": "Novela larga",
+      "instructions": "Elige la forma verbal para una acción anterior en el pasado.",
+      "questions": [
+        {
+          "question": "[[By|Para]] [[the|cuando]] [[time|llegué]] [[I| ]] [[reached|al]] [[the|final,]] [[end,| ]] [[I|ya]] _______ [[the|había]] [[beginning.|olvidado el principio.]]",
+          "options": ["[[had forgotten|había olvidado]]", "[[forgot|olvidé]]", "[[was forgetting|estaba olvidando]]"],
+          "correctAnswer": 0,
+          "explanation": "Uso del pasado perfecto para una acción previa a otra en el pasado.",
+          "audio": "audio/b2/unit-15/e27.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-15/e27.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u15-e29",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "The stakeholder meeting is scheduled for Friday.",
-    content: {
-      title: "Business Terms",
-      instructions: "Choose the correct word.",
-      question: "[[The|La reunión]] [[___|___]] [[(stakeholder)|de las partes]] [[meeting|interesadas]] [[is|está]] [[on|programada]] [[Friday.|para el viernes.]]",
-      options: ["[[stakeholder|parte interesada]]", "[[steerholder|timonel]]", "[[shareholder|accionista]]"],
-      correctAnswer: "stakeholder",
-      explanation: "A stakeholder is a person with an interest or concern in something.",
-      translation: "La reunión de las partes interesadas está programada para el viernes.",
-      hint: "Interested party."
+    "id": "b2-u15-e28",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "The protagonist in the novel undergoes a profound transformation.",
+    "content": {
+      "title": "Protagonista",
+      "instructions": "Elige el término para el personaje principal.",
+      "questions": [
+        {
+          "question": "[[The|El]] _______ [[in|de]] [[the|la]] [[novel|novela]] [[undergoes|experimenta]] [[a|una]] [[profound|profunda]] [[transformation.|transformación.]]",
+          "options": ["[[protagonist|protagonista]]", "[[antagonist|antagonista]]", "[[narrator|narrador]]"],
+          "correctAnswer": 0,
+          "explanation": "El protagonista es el personaje central o más importante de una historia.",
+          "audio": "audio/b2/unit-15/e28.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-15/e28.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u15-e30",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "Active listening is a vital communication skill.",
-    content: {
-      title: "Business Terms",
-      instructions: "Choose the correct word.",
-      question: "[[Active|La escucha]] [[___|___]] [[(listening)|activa]] [[is|es]] [[a|una]] [[vital|habilidad de]] [[skill.|comunicación vital.]]",
-      options: ["[[listening|escucha]]", "[[hearing|oído]]", "[[talking|habla]]"],
-      correctAnswer: "listening",
-      explanation: "Active listening involves fully concentrating on what is being said.",
-      translation: "La escucha activa es una habilidad de comunicación vital.",
-      hint: "Hearing with attention."
+    "id": "b2-u15-e29",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "He told the director that he had finished the script.",
+    "content": {
+      "title": "El guion",
+      "instructions": "Elige la forma verbal correcta en estilo indirecto.",
+      "questions": [
+        {
+          "question": "[[He|Le]] [[told|dijo]] [[the|al]] [[director|director]] [[that|que]] [[he|había]] _______ [[the|terminado]] [[script.|el guion.]]",
+          "options": ["[[had finished|había terminado]]", "[[finished|terminó]]", "[[has finished|ha terminado]]"],
+          "correctAnswer": 0,
+          "explanation": "El presente perfecto 'have finished' cambia a pasado perfecto 'had finished' en estilo indirecto.",
+          "audio": "audio/b2/unit-15/e29.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
-  },
-  // 31-40: Vocabulary - Networking
-  {
-    id: "b2-u15-e31",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "I attended a business conference last week.",
-    content: {
-      title: "Networking",
-      instructions: "Choose the correct term.",
-      question: "[[I|Asistí]] [[attended|a]] [[a|una]] [[business|conferencia]] [[___|___]] [[(conference)|de negocios]] [[last|la semana]] [[week.|pasada.]]",
-      options: ["party", "conference", "meeting"],
-      correctAnswer: "conference",
-      explanation: "A large meeting for discussion, often over several days.",
-      translation: "Asistí a una conferencia de negocios la semana pasada.",
-      hint: "A large formal gathering."
-    },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-15/e29.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u15-e32",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "She handed out her business card to everyone.",
-    content: {
-      title: "Networking",
-      instructions: "Choose the correct term.",
-      question: "[[She|Ella]] [[handed|repartió]] [[out|su]] [[her|tarjeta]] [[business|de]] [[___|___]] [[(card)|presentación]] [[to|a]] [[everyone.|todos.]]",
-      options: ["paper", "card", "note"],
-      correctAnswer: "card",
-      explanation: "A small card printed with one's name and professional details.",
-      translation: "Ella repartió su tarjeta de presentación a todos.",
-      hint: "Standard business tool."
+    "id": "b2-u15-e30",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "A fresco is a mural painting technique on wet plaster.",
+    "content": {
+      "title": "Fresco",
+      "instructions": "Elige el término para la técnica de pintura mural.",
+      "questions": [
+        {
+          "question": "[[A|Un]] _______ [[is|es]] [[a|una]] [[mural|técnica]] [[painting|de]] [[technique|pintura]] [[on|mural]] [[wet|sobre]] [[plaster.|yeso húmedo.]]",
+          "options": ["[[fresco|fresco]]", "[[sketch|boceto]]", "[[canvas|lienzo]]"],
+          "correctAnswer": 0,
+          "explanation": "El fresco es una técnica de pintura que se realiza sobre una superficie cubierta de cal húmeda.",
+          "audio": "audio/b2/unit-15/e30.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-15/e30.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u15-e33",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "It's important to follow up after an event.",
-    content: {
-      title: "Networking",
-      instructions: "Choose the correct phrasal verb.",
-      question: "[[It's|Es]] [[important|importante]] [[to|hacer]] [[___|___]] [[(follow)|un seguimiento]] [[up| ]] [[after|después de]] [[an|un]] [[event.|evento.]]",
-      options: ["take", "follow", "get"],
-      correctAnswer: "follow",
-      explanation: "To 'follow up' means to pursue or investigate something further.",
-      translation: "Es importante hacer un seguimiento después de un evento.",
-      hint: "Follow + up."
+    "id": "b2-u15-e31",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "I asked her where she had bought that unique vase.",
+    "content": {
+      "title": "Jarrón único",
+      "instructions": "Elige la forma verbal para una pregunta indirecta.",
+      "questions": [
+        {
+          "question": "[[I|Le]] [[asked|preguntó]] [[her|dónde]] [[where|había]] [[she|comprado]] _______ [[that|ese]] [[unique|jarrón]] [[vase.|único.]]",
+          "options": ["[[had bought|había comprado]]", "[[bought|compró]]", "[[did buy|compró (enfático)]]"],
+          "correctAnswer": 0,
+          "explanation": "En estilo indirecto, las preguntas pierden la inversión y el auxiliar 'did'.",
+          "audio": "audio/b2/unit-15/e31.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-15/e31.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u15-e34",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "You should have a short elevator pitch ready.",
-    content: {
-      title: "Networking",
-      instructions: "Choose the correct term.",
-      question: "[[You|Deberías]] [[should|tener]] [[have|listo]] [[a|un]] [[short|breve]] [[elevator|discurso]] [[___|___]] [[(pitch)|de ascensor.]] [[ready.| ]]",
-      options: ["talk", "pitch", "speech"],
-      correctAnswer: "pitch",
-      explanation: "An 'elevator pitch' is a short description of an idea or product.",
-      translation: "Deberías tener listo un breve discurso de ascensor.",
-      hint: "Common networking term."
+    "id": "b2-u15-e32",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "Symphony is a long musical composition for a full orchestra.",
+    "content": {
+      "title": "Sinfonía",
+      "instructions": "Elige el término para una gran composición musical.",
+      "questions": [
+        {
+          "question": "_______ [[is|es]] [[a|una]] [[long|larga]] [[musical|composición]] [[composition|musical]] [[for|para]] [[a|una]] [[full|orquesta]] [[orchestra.|completa.]]",
+          "options": ["[[Symphony|Sinfonía]]", "[[Solo|Solo]]", "[[Chorus|Coro]]"],
+          "correctAnswer": 0,
+          "explanation": "Una sinfonía es una composición musical extensa escrita para orquesta.",
+          "audio": "audio/b2/unit-15/e32.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-15/e32.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u15-e35",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "It is vital to maintain your reputation.",
-    content: {
-      title: "Networking",
-      instructions: "Choose the correct term.",
-      question: "[[It|Es]] [[is|vital]] [[vital|mantener]] [[to|tu]] [[maintain|reputación.]] [[your| ]] [[___|___]] [[(reputation).| ]]",
-      options: ["reputation", "face", "name"],
-      correctAnswer: "reputation",
-      explanation: "The beliefs or opinions held about someone.",
-      translation: "Es vital mantener tu reputación.",
-      hint: "What people think of you."
+    "id": "b2-u15-e33",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "The house where the poet lived is now a museum.",
+    "content": {
+      "title": "Casa del poeta",
+      "instructions": "Elige el pronombre relativo de lugar.",
+      "questions": [
+        {
+          "question": "[[The|La]] [[house|casa]] _______ [[the|donde]] [[poet|vivía]] [[lived|el]] [[is|poeta]] [[now|es]] [[a|ahora]] [[museum.|un museo.]]",
+          "options": ["[[where|donde]]", "[[which|que]]", "[[when|cuando]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'where' para referirnos a un lugar en una oración de relativo.",
+          "audio": "audio/b2/unit-15/e33.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-15/e33.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u15-e36",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "I need to broaden my professional network.",
-    content: {
-      title: "Networking",
-      instructions: "Choose the correct verb.",
-      question: "[[I|Necesito]] [[need|ampliar]] [[to|mi]] [[___|___]] [[(broaden)|red]] [[my|profesional.]] [[professional| ]] [[network.| ]]",
-      options: ["widen", "increase", "broaden"],
-      correctAnswer: "broaden",
-      explanation: "To 'broaden your network' means to expand your connections.",
-      translation: "Necesito ampliar mi red profesional.",
-      hint: "Make it broader."
+    "id": "b2-u15-e34",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "A bibliography is a list of books used in a report.",
+    "content": {
+      "title": "Bibliografía",
+      "instructions": "Elige el término para la lista de fuentes consultadas.",
+      "questions": [
+        {
+          "question": "[[A|Una]] _______ [[is|es]] [[a|una]] [[list|lista]] [[of|de]] [[books|libros]] [[used|usados]] [[in|en]] [[a|un]] [[report.|informe.]]",
+          "options": ["[[bibliography|bibliografía]]", "[[biography|biografía]]", "[[biology|biología]]"],
+          "correctAnswer": 0,
+          "explanation": "La 'bibliography' enumera las obras consultadas para realizar un trabajo escrito.",
+          "audio": "audio/b2/unit-15/e34.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-15/e34.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u15-e37",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "We exchanged contact information at the mixer.",
-    content: {
-      title: "Networking",
-      instructions: "Choose the correct term.",
-      question: "[[We|Intercambiamos]] [[exchanged|información]] [[contact|de]] [[information|contacto]] [[at|en]] [[the|la]] [[___|___]] [[(mixer).|(reunión social.)]]",
-      options: ["mixer", "blender", "shaker"],
-      correctAnswer: "mixer",
-      explanation: "A 'mixer' is an informal social event for people to meet.",
-      translation: "Intercambiamos información de contacto en la reunión social.",
-      hint: "Social event for networking."
+    "id": "b2-u15-e35",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "Hardly had the curtains closed when the audience stood up.",
+    "content": {
+      "title": "Ovación",
+      "instructions": "Elige la forma verbal correcta para la inversión con 'Hardly'.",
+      "questions": [
+        {
+          "question": "[[Hardly|Apenas]] _______ [[the|se]] [[curtains|habían]] [[closed|cerrado]] [[when|las]] [[the|cortinas]] [[audience|cuando]] [[stood|el público]] [[up.|se puso de pie.]]",
+          "options": ["[[had|habían]]", "[[did|hicieron]]", "[[was|fueron]]"],
+          "correctAnswer": 0,
+          "explanation": "Uso de la inversión: 'Hardly + had + sujeto + participio'.",
+          "audio": "audio/b2/unit-15/e35.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-15/e35.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u15-e38",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "A cold email is a way to reach out to new contacts.",
-    content: {
-      title: "Networking",
-      instructions: "Choose the correct term.",
-      question: "[[A|Un]] [[___|___]] [[(cold)|correo en frío]] [[email|es]] [[is|una]] [[a|forma]] [[way|de]] [[to|contactar]] [[reach|con]] [[out|nuevos]] [[to|contactos.]] [[new| ]] [[contacts.| ]]",
-      options: ["hot", "warm", "cold"],
-      correctAnswer: "cold",
-      explanation: "A 'cold email' is an unsolicited email sent without prior contact.",
-      translation: "Un correo en frío es una forma de contactar con nuevos contactos.",
-      hint: "Without previous contact."
+    "id": "b2-u15-e36",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "A memoir is a historical account written from personal knowledge.",
+    "content": {
+      "title": "Memorias",
+      "instructions": "Elige el término para el relato basado en la experiencia personal.",
+      "questions": [
+        {
+          "question": "[[A|Una]] _______ [[is|es]] [[a|un]] [[historical|relato]] [[account|histórico]] [[written|escrito]] [[from|desde]] [[personal|el conocimiento]] [[knowledge.|personal.]]",
+          "options": ["[[memoir|memoria]]", "[[novel|novela]]", "[[myth|mito]]"],
+          "correctAnswer": 0,
+          "explanation": "Un 'memoir' es un relato autobiográfico sobre un periodo específico de la vida de alguien.",
+          "audio": "audio/b2/unit-15/e36.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-15/e36.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u15-e39",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "Mutual acquaintances can provide introductions.",
-    content: {
-      title: "Networking",
-      instructions: "Choose the correct term.",
-      question: "[[Mutual|Los]] [[___|___]] [[(acquaintances)|conocidos mutuos]] [[can|pueden]] [[provide|facilitar]] [[introductions.|presentaciones.]]",
-      options: ["acquaintances", "peers", "friends"],
-      correctAnswer: "acquaintances",
-      explanation: "An acquaintance is someone you know slightly but is not a close friend.",
-      translation: "Los conocidos mutuos pueden facilitar presentaciones.",
-      hint: "People you know slightly."
+    "id": "b2-u15-e37",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "I wish I could paint as well as you do.",
+    "content": {
+      "title": "Deseo de pintar",
+      "instructions": "Elige la forma correcta para un deseo sobre una habilidad.",
+      "questions": [
+        {
+          "question": "[[I|Ojalá]] [[wish| ]] [[I|pudiera]] _______ [[as|pintar]] [[well|tan]] [[as|bien]] [[you|como]] [[do.|tú.]]",
+          "options": ["[[could paint|pudiera pintar]]", "[[can paint|pueda pintar]]", "[[would paint|pintaría]]"],
+          "correctAnswer": 0,
+          "explanation": "Tras 'I wish', usamos 'could' para hablar de habilidades que desearíamos tener.",
+          "audio": "audio/b2/unit-15/e37.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-15/e37.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u15-e40",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "Mentorship can be very beneficial for career growth.",
-    content: {
-      title: "Networking",
-      instructions: "Choose the correct term.",
-      question: "[[___|___]] [[(Mentorship)|(La mentoría)]] [[can|puede]] [[be|ser]] [[very|muy]] [[beneficial|beneficiosa]] [[for|para el]] [[career|crecimiento]] [[growth.|profesional.]]",
-      options: ["Coaching", "Mentorship", "Teaching"],
-      correctAnswer: "Mentorship",
-      explanation: "Mentorship is a professional relationship in which an experienced person assists a less experienced person.",
-      translation: "La mentoría puede ser muy beneficiosa para el crecimiento profesional.",
-      hint: "Guidance from a senior."
+    "id": "b2-u15-e38",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "An artifact is an object made by a human being.",
+    "content": {
+      "title": "Artefacto",
+      "instructions": "Elige el término para un objeto histórico.",
+      "questions": [
+        {
+          "question": "[[An|Un]] _______ [[is|es]] [[an|un]] [[object|objeto]] [[made|hecho]] [[by|por]] [[a|un]] [[human|ser]] [[being.|humano.]]",
+          "options": ["[[artifact|artefacto]]", "[[fact|hecho]]", "[[impact|impacto]]"],
+          "correctAnswer": 0,
+          "explanation": "Un 'artifact' es un objeto de interés histórico o cultural hecho por humanos.",
+          "audio": "audio/b2/unit-15/e38.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
-  },
-  // 41-50: Mixed Review & Analysis
-  {
-    id: "b2-u15-e41",
-    type: "word-formation",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "She has a very persuasive speaking style.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[She|Ella]] [[has|tiene]] [[a|un]] [[very|estilo]] [[___|___]] [[(PERSUADE)|(de hablar)]] [[speaking|muy]] [[style.|persuasivo.]]",
-      correctAnswer: "persuasive",
-      explanation: "Adjective form of 'persuade' is 'persuasive'.",
-      translation: "Ella tiene un estilo de hablar muy persuasivo.",
-      hint: "Good at persuading."
-    },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-15/e38.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u15-e42",
-    type: "reading-comprehension",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "Face-to-face contact remains crucial because it builds trust in a way digital tools cannot.",
-    content: {
-      title: "The Art of Networking",
-      instructions: "Read and answer.",
-      question: "[[Why|¿Por qué]] [[is|es]] [[face-to-face|el contacto]] [[contact|cara a cara]] [[still|sigue siendo]] [[important?|crucial?]]",
-      options: ["Builds trust", "No internet needed", "It is faster", "It is cheaper"],
-      correctAnswer: "Builds trust",
-      explanation: "The text emphasizes trust-building as a key benefit of physical meetings.",
-      translation: "El contacto cara a cara sigue siendo crucial porque genera confianza de una manera que las herramientas digitales no pueden.",
-      hint: "Look for interpersonal benefits."
+    "id": "b2-u15-e39",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "Little did he suspect that his book would become a bestseller.",
+    "content": {
+      "title": "Bestseller",
+      "instructions": "Elige la forma verbal para completar la inversión con 'Little'.",
+      "questions": [
+        {
+          "question": "[[Little|Poco]] _______ [[he|sospechaba]] [[suspect| ]] [[that|que]] [[his|su]] [[book|libro]] [[would|se convertiría]] [[become|en]] [[a|un]] [[bestseller.|éxito de ventas.]]",
+          "options": ["[[did|sospechaba]]", "[[had|había]]", "[[was|fue]]"],
+          "correctAnswer": 0,
+          "explanation": "Inversión 'Little + did + sujeto + infinitivo' para indicar falta de sospecha o conocimiento.",
+          "audio": "audio/b2/unit-15/e39.mp3"
+        }
+      ]
     },
-    topicName: "Reading"
+    "audioUrl": "audio/b2/unit-15/e39.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u15-e43",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "It was agreed that we would launch the project in June.",
-    content: {
-      title: "Summarizing Meetings",
-      instructions: "Choose the best formal way to report a decision.",
-      question: "[[To|Para]] [[report|informar]] [[a|sobre una]] [[decision|decisión]] [[in|en las]] [[meeting|actas de]] [[minutes:|la reunión:]]",
-      options: ["We said yes.", "Decision:", "It was agreed that..."],
-      correctAnswer: "It was agreed that...",
-      explanation: "Formal passive structure for reporting official decisions.",
-      translation: "Se acordó que lanzaríamos el proyecto en junio.",
-      hint: "Use passive formal structure."
+    "id": "b2-u15-e40",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "A parody is a work that mimics another to create a comic effect.",
+    "content": {
+      "title": "Parodia",
+      "instructions": "Elige el término para la imitación cómica.",
+      "questions": [
+        {
+          "question": "[[A|Una]] _______ [[is|es]] [[a|una]] [[work|obra]] [[that|que]] [[mimics|imita]] [[another|a otra]] [[to|para]] [[create|crear]] [[a|un]] [[comic|efecto]] [[effect.|cómico.]]",
+          "options": ["[[parody|parodia]]", "[[tragedy|tragedia]]", "[[comedy|comedia]]"],
+          "correctAnswer": 0,
+          "explanation": "La 'parody' exagera rasgos de una obra para burlarse de ella o entretener.",
+          "audio": "audio/b2/unit-15/e40.mp3"
+        }
+      ]
     },
-    topicName: "Writing"
+    "audioUrl": "audio/b2/unit-15/e40.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u15-e44",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "Have you been to this conference before? is a good icebreaker.",
-    content: {
-      title: "Breaking the Ice",
-      instructions: "Identify a natural way to start a conversation.",
-      question: "[[What|¿Cuál]] [[is|es]] [[a|una]] [[good|buena]] [[way|manera]] [[to|de]] [[start|empezar]] [[a|una]] [[conversation|conversación]] [[with|con]] [[someone|alguien]] [[new?|nuevo?]]",
-      options: ["Do you like this party?", "Have you been to this conference before?", "Tell me about yourself.", "What is your job?"],
-      correctAnswer: "Have you been to this conference before?",
-      explanation: "Asking about the shared event is a non-intrusive way to start small talk.",
-      translation: "¿Has estado en esta conferencia antes?",
-      hint: "Related to the current situation."
+    "id": "b2-u15-e41",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "I suggest that the painting be analyzed by an expert.",
+    "content": {
+      "title": "Análisis de experto",
+      "instructions": "Elige la forma verbal del subjuntivo.",
+      "questions": [
+        {
+          "question": "[[I|Sugiero]] [[suggest|que]] [[that|la]] [[the|pintura]] [[painting|fuera]] _______ [[by|por]] [[an|un]] [[expert.|experto.]]",
+          "options": ["[[be analyzed|analizada]]", "[[is analyzed|es analizada]]", "[[analyzed|analizó]]"],
+          "correctAnswer": 0,
+          "explanation": "Tras 'suggest that', el verbo se usa en su forma base (be) para el subjuntivo pasivo.",
+          "audio": "audio/b2/unit-15/e41.mp3"
+        }
+      ]
     },
-    topicName: "Speaking"
+    "audioUrl": "audio/b2/unit-15/e41.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u15-e45",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "He asked me if I had seen the news.",
-    content: {
-      title: "Mixed Review",
-      instructions: "Choose the correct reported form.",
-      question: "[[He|Me]] [[asked|preguntó]] [[me| ]] [[if|si]] [[I|había]] [[___|visto]] [[(see)|las]] [[the| ]] [[news.|noticias.]]",
-      options: ["saw", "had seen", "see"],
-      correctAnswer: "had seen",
-      explanation: "Reported yes/no question using past perfect for past simple or present perfect.",
-      translation: "Me preguntó si había visto las noticias.",
-      hint: "Past perfect backshift."
+    "id": "b2-u15-e42",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "Calligraphy is the art of beautiful handwriting.",
+    "content": {
+      "title": "Caligrafía",
+      "instructions": "Elige el término para el arte de escribir a mano.",
+      "questions": [
+        {
+          "question": "_______ [[is|es]] [[the|el]] [[art|arte]] [[of|de]] [[beautiful|la letra]] [[handwriting.|hermosa.]]",
+          "options": ["[[Calligraphy|La caligrafía]]", "[[Photography|La fotografía]]", "[[Geography|La geografía]]"],
+          "correctAnswer": 0,
+          "explanation": "'Calligraphy' es el arte de formar signos de escritura de manera estética.",
+          "audio": "audio/b2/unit-15/e42.mp3"
+        }
+      ]
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-15/e42.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u15-e46",
-    type: "fill-blank",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "Active listening is a vital skill.",
-    content: {
-      title: "Business Terms",
-      instructions: "Fill in the blank.",
-      question: "[[Active|La escucha]] [[___|___]] [[is|es]] [[a|una]] [[vital|habilidad]] [[skill.|vital.]]",
-      correctAnswer: "listening",
-      explanation: "'Active listening' is a core communication concept.",
-      translation: "La escucha activa es una habilidad vital.",
-      hint: "Hearing with attention."
+    "id": "b2-u15-e43",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "Providing that the weather holds, the festival will continue.",
+    "content": {
+      "title": "Festival al aire libre",
+      "instructions": "Elige el conector condicional formal.",
+      "questions": [
+        {
+          "question": "_______ [[that|Siempre]] [[the|que]] [[weather|el tiempo]] [[holds,|se mantenga,]] [[the|el]] [[festival|festival]] [[will|continuará.]] [[continue.| ]]",
+          "options": ["[[Providing|Siempre que]]", "[[Unless|A menos que]]", "[[Whether|Si (elección)]]"],
+          "correctAnswer": 0,
+          "explanation": "'Providing that' establece una condición necesaria para el futuro.",
+          "audio": "audio/b2/unit-15/e43.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-15/e43.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u15-e47",
-    type: "fill-blank",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "We reached a compromise.",
-    content: {
-      title: "Business Terms",
-      instructions: "Fill in the blank.",
-      question: "[[We|Llegamos]] [[reached|a un]] [[a| ]] [[___|___]] [[.|compromiso.]]",
-      correctAnswer: "compromise",
-      explanation: "To reach a compromise means to settle a dispute by mutual concession.",
-      translation: "Llegamos a un compromiso.",
-      hint: "Middle ground."
+    "id": "b2-u15-e44",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "A trilogy is a set of three related works of art.",
+    "content": {
+      "title": "Trilogía",
+      "instructions": "Elige el término para una serie de tres obras.",
+      "questions": [
+        {
+          "question": "[[A|Una]] _______ [[is|es]] [[a|un]] [[set|conjunto]] [[of|de]] [[three|tres]] [[related|obras]] [[works|relacionadas.]] [[of| ]] [[art.| ]]",
+          "options": ["[[trilogy|trilogía]]", "[[duology|duología]]", "[[anthology|antología]]"],
+          "correctAnswer": 0,
+          "explanation": "Una 'trilogy' consiste en tres libros, películas, etc., que forman una serie.",
+          "audio": "audio/b2/unit-15/e44.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-15/e44.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u15-e48",
-    type: "word-formation",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "The collaboration between the teams was vital.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The|La]] [[___|___]] [[(COLLABORATE)|(colaboración)]] [[between|entre]] [[the|los]] [[teams|equipos]] [[was|fue]] [[vital.|vital.]]",
-      correctAnswer: "collaboration",
-      explanation: "The noun form of 'collaborate' is 'collaboration'.",
-      translation: "La colaboración entre los equipos fue vital.",
-      hint: "Working together."
+    "id": "b2-u15-e45",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "Were they to discover a lost city, it would be amazing.",
+    "content": {
+      "title": "Ciudad perdida",
+      "instructions": "Elige la forma verbal para completar la inversión hipotética.",
+      "questions": [
+        {
+          "question": "_______ [[they|Si]] [[to|ellos]] [[discover|descubrieran]] [[a|una]] [[lost|ciudad]] [[city,|perdida,]] [[it|sería]] [[would|increíble.]] [[be| ]] [[amazing.| ]]",
+          "options": ["[[Were|Si]]", "[[Did|Hizo]]", "[[Had|Había]]"],
+          "correctAnswer": 0,
+          "explanation": "Inversión 'Were + sujeto + to + infinitivo' para situaciones hipotéticas formales.",
+          "audio": "audio/b2/unit-15/e45.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-15/e45.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u15-e49",
-    type: "word-formation",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "The effectiveness of the meeting was clear.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The|La]] [[___|___]] [[(EFFECT)|(efectividad)]] [[of|de la]] [[the| ]] [[meeting|reunión]] [[was|fue]] [[clear.|clara.]]",
-      correctAnswer: "effectiveness",
-      explanation: "The noun form of 'effect' indicating quality is 'effectiveness'.",
-      translation: "La efectividad de la reunión fue clara.",
-      hint: "How effective it was."
+    "id": "b2-u15-e46",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "A pseudonym is a fictitious name used by an author.",
+    "content": {
+      "title": "Seudónimo",
+      "instructions": "Elige el término para un nombre falso.",
+      "questions": [
+        {
+          "question": "[[A|Un]] _______ [[is|es]] [[a|un]] [[fictitious|nombre]] [[name|ficticio]] [[used|utilizado]] [[by|por]] [[an|un]] [[author.|autor.]]",
+          "options": ["[[pseudonym|seudónimo]]", "[[synonym|sinónimo]]", "[[antonym|antónimo]]"],
+          "correctAnswer": 0,
+          "explanation": "Muchos autores usan un 'pseudonym' para ocultar su identidad o por marketing.",
+          "audio": "audio/b2/unit-15/e46.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-15/e46.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u15-e50",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Business Communication",
-    difficulty: "medium",
-    transcript: "She told me to wait for the email.",
-    content: {
-      title: "Mixed Review",
-      instructions: "Choose the correct form.",
-      question: "[[She|Ella]] [[told|me]] [[me|dijo]] [[___|que]] [[(wait)|esperara]] [[for|el]] [[the|correo]] [[email.|electrónico.]]",
-      options: ["waiting", "to wait", "wait"],
-      correctAnswer: "to wait",
-      explanation: "Reported command: tell someone to do something.",
-      translation: "Ella me dijo que esperara el correo electrónico.",
-      hint: "to + verb."
+    "id": "b2-u15-e47",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "No sooner had the movie ended than the credits rolled.",
+    "content": {
+      "title": "Créditos",
+      "instructions": "Elige la palabra para completar la inversión con 'No sooner'.",
+      "questions": [
+        {
+          "question": "[[No|Apenas]] [[sooner|había]] _______ [[the|terminado]] [[movie|la]] [[ended|película]] [[than|cuando]] [[the|aparecieron]] [[credits|los]] [[rolled.|créditos.]]",
+          "options": ["[[had|había]]", "[[did|hizo]]", "[[was|fue]]"],
+          "correctAnswer": 0,
+          "explanation": "Inversión 'No sooner + had + sujeto + participio'.",
+          "audio": "audio/b2/unit-15/e47.mp3"
+        }
+      ]
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-15/e47.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u15-e48",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "A mural is a painting applied directly to a wall.",
+    "content": {
+      "title": "Mural",
+      "instructions": "Elige el término para la pintura en una pared.",
+      "questions": [
+        {
+          "question": "[[A|Un]] _______ [[is|es]] [[a|una]] [[painting|pintura]] [[applied|aplicada]] [[directly|directamente]] [[to|a]] [[a|una]] [[wall.|pared.]]",
+          "options": ["[[mural|mural]]", "[[easel|caballete]]", "[[pallet|paleta]]"],
+          "correctAnswer": 0,
+          "explanation": "Los murales son obras de arte de gran escala que usan la arquitectura como soporte.",
+          "audio": "audio/b2/unit-15/e48.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-15/e48.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u15-e49",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "I'd rather the museum didn't charge for admission.",
+    "content": {
+      "title": "Entrada al museo",
+      "instructions": "Elige la forma negativa tras 'I'd rather'.",
+      "questions": [
+        {
+          "question": "[[I'd|Preferiría]] [[rather|que]] [[the|el]] [[museum|museo]] _______ [[for|no cobrara]] [[admission.|la entrada.]]",
+          "options": ["[[didn't charge|no cobrara]]", "[[not charge|no cobrar]]", "[[doesn't charge|no cobra]]"],
+          "correctAnswer": 0,
+          "explanation": "Con un sujeto distinto, usamos past simple negativo para preferencias sobre el presente.",
+          "audio": "audio/b2/unit-15/e49.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-15/e49.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u15-e50",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Art, Culture & Literature",
+    "difficulty": "medium",
+    "transcript": "An anthology is a collection of poems or stories.",
+    "content": {
+      "title": "Antología",
+      "instructions": "Elige el término para una colección de obras.",
+      "questions": [
+        {
+          "question": "[[An|Una]] _______ [[is|es]] [[a|una]] [[collection|colección]] [[of|de]] [[poems|poemas]] [[or|o]] [[stories.|historias.]]",
+          "options": ["[[anthology|antología]]", "[[apology|disculpa]]", "[[astrology|astrología]]"],
+          "correctAnswer": 0,
+          "explanation": "Una 'anthology' reúne trabajos de varios autores en un solo volumen.",
+          "audio": "audio/b2/unit-15/e50.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-15/e50.mp3",
+    "topicName": "Vocabulary"
   }
 ];

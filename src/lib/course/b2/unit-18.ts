@@ -1,953 +1,1311 @@
 import { Exercise } from "@/types/course";
 
 export const UNIT_18_EXERCISES: Exercise[] = [
-  // 1-10: Grammar - Reporting Verbs (That-Clauses)
+  // 1-25: Sentence Building (Grammar & Vocabulary - Travel & Exploration)
   {
-    id: "b2-u18-e1",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "He denied that he had not seen the report.",
-    content: {
-      title: "Reporting Verbs: That-Clauses",
-      instructions: "Choose the correct reporting verb.",
-      question: "[[He|Él]] [[___|negó]] [[that|que]] [[he| ]] [[had| ]] [[not|no]] [[seen|hubiera visto]] [[the|el]] [[report.|informe.]]",
-      options: ["refused", "offered", "denied"],
-      correctAnswer: "denied",
-      explanation: "Use 'denied' when saying something is not true.",
-      translation: "Él negó que no hubiera visto el informe.",
-      hint: "To say something isn't true."
+    "id": "b2-u18-e1",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "The ancient city is thought to have been built in the third century.",
+    "content": {
+      "title": "Ciudad antigua",
+      "instructions": "Ordena las palabras usando la pasiva personal para creencias.",
+      "correctSentence": "[[The|La]] [[ancient|antigua]] [[city|ciudad]] [[is|se]] [[thought|cree]] [[to|que]] [[have|fue]] [[been|construida]] [[built|en]] [[in|el]] [[the|tercer]] [[third|siglo.]] [[century.| ]]",
+      "words": [
+        "[[thought|cree]]",
+        "[[third|siglo.]]",
+        "[[ancient|antigua]]",
+        "[[The|La]]",
+        "[[century.| ]]",
+        "[[in|el]]",
+        "[[built|en]]",
+        "[[been|construida]]",
+        "[[is|se]]",
+        "[[have|fue]]",
+        "[[city|ciudad]]",
+        "[[to|que]]",
+        "[[the|tercer]]"
+      ],
+      "explanation": "'Is thought to have been built' es una estructura pasiva avanzada para hablar de hechos no confirmados.",
+      "audio": "audio/b2/unit-18/e1.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-18/e1.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u18-e2",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "She suggested that we should start earlier.",
-    content: {
-      title: "Reporting Verbs: That-Clauses",
-      instructions: "Choose the correct reporting verb.",
-      question: "[[She|Ella]] [[___|sugirió]] [[that|que]] [[we|nosotros]] [[should|deberíamos]] [[start|empezar]] [[earlier.|antes.]]",
-      options: ["told", "suggested", "ordered"],
-      correctAnswer: "suggested",
-      explanation: "Use 'suggested' to propose an idea.",
-      translation: "Ella sugirió que deberíamos empezar antes.",
-      hint: "Propose an idea."
+    "id": "b2-u18-e2",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "Backpacking through Southeast Asia is a life-changing experience.",
+    "content": {
+      "title": "Mochilear por Asia",
+      "instructions": "Ordena las palabras para hablar de viajes de aventura.",
+      "correctSentence": "[[Backpacking|Viajar de mochilero]] [[through|por el]] [[Southeast|Sudeste]] [[Asia|Asiático]] [[is|es]] [[a|una]] [[life-changing|experiencia]] [[experience.|que cambia la vida.]]",
+      "words": [
+        "[[through|por el]]",
+        "[[Asia|Asiático]]",
+        "[[experience.|que cambia la vida.]]",
+        "[[is|es]]",
+        "[[Southeast|Sudeste]]",
+        "[[Backpacking|Viajar de mochilero]]",
+        "[[life-changing|experiencia]]",
+        "[[a|una]]"
+      ],
+      "explanation": "'Life-changing' es un adjetivo compuesto que describe algo que transforma tu vida.",
+      "audio": "audio/b2/unit-18/e2.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-18/e2.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u18-e3",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "The manager insisted that the project be finished by Friday.",
-    content: {
-      title: "Reporting Verbs: That-Clauses",
-      instructions: "Choose the correct reporting verb.",
-      question: "[[The|El]] [[manager|gerente]] [[___|insistió]] [[that|en que]] [[the|el]] [[project|proyecto]] [[be|se]] [[finished|terminara]] [[by|para]] [[Friday.|el viernes.]]",
-      options: ["asked", "said", "insisted"],
-      correctAnswer: "insisted",
-      explanation: "Use 'insisted' for a firm demand.",
-      translation: "El gerente insistió en que el proyecto se terminara para el viernes.",
-      hint: "Firm demand."
+    "id": "b2-u18-e3",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "Arriving at the summit, the climbers felt a sense of triumph.",
+    "content": {
+      "title": "Cima de la montaña",
+      "instructions": "Ordena las palabras usando una cláusula de participio de presente.",
+      "correctSentence": "[[Arriving|Al llegar]] [[at|a]] [[the|la]] [[summit,|cima,]] [[the|los]] [[climbers|escaladores]] [[felt|sintieron]] [[a|una]] [[sense|sensación]] [[of|de]] [[triumph.|triunfo.]]",
+      "words": [
+        "[[the|la]]",
+        "[[climbers|escaladores]]",
+        "[[triumph.|triunfo.]]",
+        "[[at|a]]",
+        "[[Arriving|Al llegar]]",
+        "[[felt|sintieron]]",
+        "[[sense|sensación]]",
+        "[[the|los]]",
+        "[[summit,|cima,]]",
+        "[[a|una]]",
+        "[[of|de]]"
+      ],
+      "explanation": "Las cláusulas de participio (-ing) pueden indicar acciones simultáneas o inmediatas.",
+      "audio": "audio/b2/unit-18/e3.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-18/e3.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u18-e4",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "They claimed that the system was perfectly safe.",
-    content: {
-      title: "Reporting Verbs: That-Clauses",
-      instructions: "Choose the correct reporting verb.",
-      question: "[[They|Ellos]] [[___|afirmaron]] [[that|que]] [[the|el]] [[system|sistema]] [[was|era]] [[perfectly|perfectamente]] [[safe.|seguro.]]",
-      options: ["denied", "wanted", "claimed"],
-      correctAnswer: "claimed",
-      explanation: "Use 'claimed' when stating something as a fact (often without proof).",
-      translation: "Afirmaron que el sistema era perfectamente seguro.",
-      hint: "State as fact."
+    "id": "b2-u18-e4",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "The itinerary includes visits to several off-the-beaten-path villages.",
+    "content": {
+      "title": "Lugares poco conocidos",
+      "instructions": "Ordena las palabras para hablar de rutas turísticas alternativas.",
+      "correctSentence": "[[The|El]] [[itinerary|itinerario]] [[includes|incluye]] [[visits|visitas]] [[to|a]] [[several|varios]] [[off-the-beaten-path|pueblos]] [[villages.|poco transitados.]]",
+      "words": [
+        "[[itinerary|itinerario]]",
+        "[[to|a]]",
+        "[[off-the-beaten-path|pueblos]]",
+        "[[The|El]]",
+        "[[includes|incluye]]",
+        "[[villages.|poco transitados.]]",
+        "[[several|varios]]",
+        "[[visits|visitas]]"
+      ],
+      "explanation": "'Off-the-beaten-path' se refiere a lugares que no son visitados por muchos turistas.",
+      "audio": "audio/b2/unit-18/e4.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-18/e4.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u18-e5",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "I explained that there had been a misunderstanding.",
-    content: {
-      title: "Reporting Verbs: That-Clauses",
-      instructions: "Choose the correct reporting verb.",
-      question: "[[I|Yo]] [[___|expliqué]] [[that|que]] [[there|había]] [[had|habido]] [[been| ]] [[a|un]] [[misunderstanding.|malentendido.]]",
-      options: ["told", "asked", "explained"],
-      correctAnswer: "explained",
-      explanation: "Use 'explained' to give a reason or clarify a situation.",
-      translation: "Expliqué que había habido un malentendido.",
-      hint: "Clarify a situation."
+    "id": "b2-u18-e5",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "Having lost his passport, he had to go to the embassy.",
+    "content": {
+      "title": "Pasaporte perdido",
+      "instructions": "Ordena las palabras usando un participio perfecto para indicar causa.",
+      "correctSentence": "[[Having|Al haber]] [[lost|perdido]] [[his|su]] [[passport,|pasaporte,]] [[he|él]] [[had|tuvo]] [[to|que]] [[go|ir]] [[to|a]] [[the|la]] [[embassy.|embajada.]]",
+      "words": [
+        "[[lost|perdido]]",
+        "[[had|tuvo]]",
+        "[[embassy.|embajada.]]",
+        "[[Having|Al haber]]",
+        "[[to|a]]",
+        "[[passport,|pasaporte,]]",
+        "[[he|él]]",
+        "[[go|ir]]",
+        "[[his|su]]",
+        "[[the|la]]",
+        "[[to|que]]"
+      ],
+      "explanation": "'Having + participio' indica que una acción ocurrió antes que la principal.",
+      "audio": "audio/b2/unit-18/e5.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-18/e5.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u18-e6",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "He boasted that he was the best person for the job.",
-    content: {
-      title: "Reporting Verbs: That-Clauses",
-      instructions: "Choose the correct reporting verb.",
-      question: "[[He|Él]] [[___|presumió]] [[that|de que]] [[he|él]] [[was|era]] [[the|la]] [[best|mejor]] [[person|persona]] [[for|para]] [[the|el]] [[job.|trabajo.]]",
-      options: ["said", "boasted", "informed"],
-      correctAnswer: "boasted",
-      explanation: "Use 'boasted' when someone speaks too proudly about themselves.",
-      translation: "Presumió de ser la mejor persona para el trabajo.",
-      hint: "Speak with too much pride."
+    "id": "b2-u18-e6",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "Sustainable tourism aims to minimize the impact on the environment.",
+    "content": {
+      "title": "Turismo sostenible",
+      "instructions": "Ordena las palabras para hablar de viajes responsables.",
+      "correctSentence": "[[Sustainable|El turismo]] [[tourism|sostenible]] [[aims|pretende]] [[to|minimizar]] [[minimize|el]] [[the|impacto]] [[impact|en]] [[on|el]] [[the|medio]] [[environment.|ambiente.]]",
+      "words": [
+        "[[tourism|sostenible]]",
+        "[[to|minimizar]]",
+        "[[environment.|ambiente.]]",
+        "[[aims|pretende]]",
+        "[[Sustainable|El turismo]]",
+        "[[impact|en]]",
+        "[[the|el]]",
+        "[[minimize|el]]",
+        "[[the|medio]]",
+        "[[on|el]]"
+      ],
+      "explanation": "'Sustainable tourism' busca el equilibrio entre el disfrute del turista y la protección del lugar.",
+      "audio": "audio/b2/unit-18/e6.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-18/e6.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u18-e7",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "She warned that she would be late.",
-    content: {
-      title: "Reporting Verbs: That-Clauses",
-      instructions: "Choose the correct reporting verb.",
-      question: "[[She|Ella]] [[___|advirtió]] [[that|que]] [[she|ella]] [[would|llegaría]] [[be| ]] [[late.|tarde.]]",
-      options: ["warned", "ordered", "asked"],
-      correctAnswer: "warned",
-      explanation: "Use 'warned' to tell someone about a possible problem.",
-      translation: "Advirtió que llegaría tarde.",
-      hint: "Tell about a problem."
+    "id": "b2-u18-e7",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "It is reported that the flight has been delayed by two hours.",
+    "content": {
+      "title": "Vuelo retrasado",
+      "instructions": "Ordena las palabras usando la pasiva impersonal con 'It'.",
+      "correctSentence": "[[It|Se]] [[is|informa]] [[reported|que]] [[that|el]] [[the|vuelo]] [[flight|se ha]] [[has|retrasado]] [[been|dos]] [[delayed|horas.]] [[by| ]] [[two| ]] [[hours.| ]]",
+      "words": [
+        "[[is|informa]]",
+        "[[flight|se ha]]",
+        "[[hours.| ]]",
+        "[[reported|que]]",
+        "[[It|Se]]",
+        "[[two| ]]",
+        "[[that|el]]",
+        "[[delayed|horas.]]",
+        "[[has|retrasado]]",
+        "[[the|vuelo]]",
+        "[[been|dos]]",
+        "[[by| ]]"
+      ],
+      "explanation": "'It is reported that' es una forma impersonal de dar noticias o información.",
+      "audio": "audio/b2/unit-18/e7.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-18/e7.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u18-e8",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "They announced that the deal was off.",
-    content: {
-      title: "Reporting Verbs: That-Clauses",
-      instructions: "Choose the correct reporting verb.",
-      question: "[[They|Ellos]] [[___|anunciaron]] [[that|que]] [[the|el]] [[deal|trato]] [[was|se había]] [[off.|cancelado.]]",
-      options: ["said", "told", "announced"],
-      correctAnswer: "announced",
-      explanation: "Use 'announced' to give important information publicly.",
-      translation: "Anunciaron que el trato se había cancelado.",
-      hint: "Publicly inform."
+    "id": "b2-u18-e8",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "Many globetrotters prefer to travel light with only a carry-on.",
+    "content": {
+      "title": "Trotamundos",
+      "instructions": "Ordena las palabras para hablar de estilos de viaje.",
+      "correctSentence": "[[Many|Muchos]] [[globetrotters|trotamundos]] [[prefer|prefieren]] [[to|viajar]] [[travel|ligeros]] [[light|solo]] [[with|con]] [[only|un]] [[a|equipaje]] [[carry-on.|de mano.]]",
+      "words": [
+        "[[globetrotters|trotamundos]]",
+        "[[travel|ligeros]]",
+        "[[carry-on.|de mano.]]",
+        "[[prefer|prefieren]]",
+        "[[Many|Muchos]]",
+        "[[only|un]]",
+        "[[with|con]]",
+        "[[to|viajar]]",
+        "[[light|solo]]",
+        "[[a|equipaje]]"
+      ],
+      "explanation": "'Globetrotter' es una persona que viaja con frecuencia por todo el mundo.",
+      "audio": "audio/b2/unit-18/e8.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-18/e8.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u18-e9",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "He admitted that he had made a mistake.",
-    content: {
-      title: "Reporting Verbs: That-Clauses",
-      instructions: "Choose the correct reporting verb.",
-      question: "[[He|Él]] [[___|admitió]] [[that|que]] [[he|él]] [[had|había]] [[made|cometido]] [[a|un]] [[mistake.|error.]]",
-      options: ["refused", "admitted", "offered"],
-      correctAnswer: "admitted",
-      explanation: "Use 'admitted' when agreeing that something is true (often reluctantly).",
-      translation: "Admitió que había cometido un error.",
-      hint: "Agree it is true."
+    "id": "b2-u18-e9",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "Built in the Middle Ages, the castle attracts thousands of tourists.",
+    "content": {
+      "title": "Castillo medieval",
+      "instructions": "Ordena las palabras usando una cláusula de participio de pasado.",
+      "correctSentence": "[[Built|Construido]] [[in|en]] [[the|la]] [[Middle|Edad]] [[Ages,|Media,]] [[the|el]] [[castle|castillo]] [[attracts|atrae]] [[thousands|a miles]] [[of|de]] [[tourists.|turistas.]]",
+      "words": [
+        "[[in|en]]",
+        "[[castle|castillo]]",
+        "[[tourists.|turistas.]]",
+        "[[the|la]]",
+        "[[Built|Construido]]",
+        "[[thousands|a miles]]",
+        "[[Middle|Edad]]",
+        "[[the|el]]",
+        "[[Ages,|Media,]]",
+        "[[of|de]]",
+        "[[attracts|atrae]]"
+      ],
+      "explanation": "El participio pasado (Built) actúa como una cláusula adjetiva abreviada.",
+      "audio": "audio/b2/unit-18/e9.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-18/e9.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u18-e10",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "She promised that everything would be fine.",
-    content: {
-      title: "Reporting Verbs: That-Clauses",
-      instructions: "Choose the correct reporting verb.",
-      question: "[[She|Ella]] [[___|prometió]] [[that|que]] [[everything|todo]] [[would|estaría]] [[be| ]] [[fine.|bien.]]",
-      options: ["asked", "ordered", "promised"],
-      correctAnswer: "promised",
-      explanation: "Use 'promised' to say that you will certainly do something.",
-      translation: "Ella prometió que todo estaría bien.",
-      hint: "Give your word."
+    "id": "b2-u18-e10",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "We decided to take a detour to see the breathtaking waterfall.",
+    "content": {
+      "title": "Desvío paisajístico",
+      "instructions": "Ordena las palabras para hablar de cambios en la ruta.",
+      "correctSentence": "[[We|Decidimos]] [[decided|hacer]] [[to|un]] [[take|desvío]] [[a|para]] [[detour|ver]] [[to|la]] [[see|impresionante]] [[the|cascada.]] [[breathtaking| ]] [[waterfall.| ]]",
+      "words": [
+        "[[decided|hacer]]",
+        "[[detour|desvío]]",
+        "[[waterfall.| ]]",
+        "[[take|desvío]]",
+        "[[We|Decidimos]]",
+        "[[breathtaking| ]]",
+        "[[to|un]]",
+        "[[the|cascada.]]",
+        "[[to|para]]",
+        "[[a|un]]",
+        "[[see|ver]]"
+      ],
+      "explanation": "'Breathtaking' describe algo tan hermoso que te quita el aliento.",
+      "audio": "audio/b2/unit-18/e10.mp3"
     },
-    topicName: "Grammar"
-  },
-
-  // 11-20: Grammar - Reporting Verbs (-ing / to)
-  {
-    id: "b2-u18-e11",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "hard",
-    transcript: "He suggested going to the new Italian restaurant.",
-    content: {
-      title: "Reporting Verbs: Patterns",
-      instructions: "Choose the correct form of the verb.",
-      question: "[[He|Él]] [[suggested|sugirió]] [[___ (go)|ir]] [[to|al]] [[the| ]] [[new|nuevo]] [[Italian|italiano]] [[restaurant.|restaurante.]]",
-      options: ["[[going|ir (gerundio)]]", "[[to go|ir (infinitivo)]]", "[[go|ir (base)]]"],
-      correctAnswer: "going",
-      explanation: "Suggest is followed by the -ing form.",
-      translation: "Él sugirió ir al nuevo restaurante italiano.",
-      hint: "Suggest + -ing."
-    },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-18/e10.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u18-e12",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "hard",
-    transcript: "She offered to help me with the bags.",
-    content: {
-      title: "Reporting Verbs: Patterns",
-      instructions: "Choose the correct form of the verb.",
-      question: "[[She|Ella]] [[offered|se ofreció]] [[___ (help)|a ayudarme]] [[me| ]] [[with|con]] [[the|las]] [[bags.|maletas.]]",
-      options: ["[[to help|ayudar]]", "[[helping|ayudando]]", "[[help|ayuda]]"],
-      correctAnswer: "to help",
-      explanation: "Offer is followed by the to-infinitive.",
-      translation: "Ella se ofreció a ayudarme con las maletas.",
-      hint: "Offer + to-infinitive."
+    "id": "b2-u18-e11",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "He is alleged to have stolen several valuable artifacts from the site.",
+    "content": {
+      "title": "Presunto robo",
+      "instructions": "Ordena las palabras usando la pasiva personal para alegaciones.",
+      "correctSentence": "[[He|Se]] [[is|alega]] [[alleged|que]] [[to|él]] [[have|ha]] [[stolen|robado]] [[several|varios]] [[valuable|artefactos]] [[artifacts|valiosos]] [[from|del]] [[the|sitio.]] [[site.| ]]",
+      "words": [
+        "[[is|alega]]",
+        "[[have|ha]]",
+        "[[artifacts|valiosos]]",
+        "[[alleged|que]]",
+        "[[He|Se]]",
+        "[[site.| ]]",
+        "[[to|él]]",
+        "[[stolen|robado]]",
+        "[[several|varios]]",
+        "[[from|del]]",
+        "[[valuable|artefactos]]",
+        "[[the|sitio.]]"
+      ],
+      "explanation": "'Is alleged to have stolen' se usa para hablar de acusaciones no probadas.",
+      "audio": "audio/b2/unit-18/e11.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-18/e11.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u18-e13",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "hard",
-    transcript: "They refused to sign the contract.",
-    content: {
-      title: "Reporting Verbs: Patterns",
-      instructions: "Choose the correct form of the verb.",
-      question: "[[They|Se]] [[refused|negaron]] [[___ (sign)|a firmar]] [[the|el]] [[contract.|contrato.]]",
-      options: ["[[to sign|firmar]]", "[[signing|firmando]]", "[[signed|firmó]]"],
-      correctAnswer: "to sign",
-      explanation: "Refuse is followed by the to-infinitive.",
-      translation: "Se negaron a firmar el contrato.",
-      hint: "Refuse + to-infinitive."
+    "id": "b2-u18-e12",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "Cultural immersion is essential for understanding a new country.",
+    "content": {
+      "title": "Inmersión cultural",
+      "instructions": "Ordena las palabras para hablar de experiencias profundas.",
+      "correctSentence": "[[Cultural|La inmersión]] [[immersion|cultural]] [[is|es]] [[essential|esencial]] [[for|para]] [[understanding|entender]] [[a|un]] [[new|país]] [[country.|nuevo.]]",
+      "words": [
+        "[[immersion|cultural]]",
+        "[[essential|esencial]]",
+        "[[country.|nuevo.]]",
+        "[[is|es]]",
+        "[[Cultural|La inmersión]]",
+        "[[understanding|entender]]",
+        "[[a|un]]",
+        "[[new|país]]",
+        "[[for|para]]"
+      ],
+      "explanation": "'Cultural immersion' implica vivir como los locales para aprender su cultura.",
+      "audio": "audio/b2/unit-18/e12.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-18/e12.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u18-e14",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "hard",
-    transcript: "He denied stealing the watch.",
-    content: {
-      title: "Reporting Verbs: Patterns",
-      instructions: "Choose the correct form of the verb.",
-      question: "[[He|Él]] [[denied|negó]] [[___ (steal)|haber robado]] [[the|el]] [[watch.|reloj.]]",
-      options: ["[[stealing|haber robado]]", "[[to steal|robar]]", "[[stolen|robado]]"],
-      correctAnswer: "stealing",
-      explanation: "Deny is followed by the -ing form.",
-      translation: "Él negó haber robado el reloj.",
-      hint: "Deny + -ing."
+    "id": "b2-u18-e13",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "Not knowing the language, she found it hard to navigate the city.",
+    "content": {
+      "title": "Barrera del idioma",
+      "instructions": "Ordena las palabras usando una cláusula de participio negativa.",
+      "correctSentence": "[[Not|Al no]] [[knowing|saber]] [[the|el]] [[language,|idioma,]] [[she|le]] [[found|resultó]] [[it|difícil]] [[hard|moverse]] [[to|por]] [[navigate|la]] [[the|ciudad.]] [[city.| ]]",
+      "words": [
+        "[[knowing|saber]]",
+        "[[language,|idioma,]]",
+        "[[it|difícil]]",
+        "[[found|resultó]]",
+        "[[Not|Al no]]",
+        "[[city.| ]]",
+        "[[the|el]]",
+        "[[hard|moverse]]",
+        "[[to|por]]",
+        "[[navigate|la]]",
+        "[[the|ciudad.]]",
+        "[[she|le]]"
+      ],
+      "explanation": "'Not + -ing' expresa la razón por la cual ocurre la acción principal.",
+      "audio": "audio/b2/unit-18/e13.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-18/e13.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u18-e15",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "hard",
-    transcript: "She admitted being wrong.",
-    content: {
-      title: "Reporting Verbs: Patterns",
-      instructions: "Choose the correct form of the verb.",
-      question: "[[She|Ella]] [[admitted|admitió]] [[___ (be)|estar]] [[wrong.|equivocada.]]",
-      options: ["[[being|estar]]", "[[to be|ser/estar]]", "[[was|era]]"],
-      correctAnswer: "being",
-      explanation: "Admit is followed by the -ing form.",
-      translation: "Ella admitió estar equivocada.",
-      hint: "Admit + -ing."
+    "id": "b2-u18-e14",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "Local delicacies are often the highlight of a trip abroad.",
+    "content": {
+      "title": "Delicias locales",
+      "instructions": "Ordena las palabras para hablar de gastronomía en viajes.",
+      "correctSentence": "[[Local|Las delicias]] [[delicacies|locales]] [[are|son]] [[often|a menudo]] [[the|lo más]] [[highlight|destacado]] [[of|de]] [[a|un]] [[trip|viaje]] [[abroad.|al extranjero.]]",
+      "words": [
+        "[[delicacies|locales]]",
+        "[[often|a menudo]]",
+        "[[trip|viaje]]",
+        "[[are|son]]",
+        "[[Local|Las delicias]]",
+        "[[abroad.|al extranjero.]]",
+        "[[the|lo más]]",
+        "[[highlight|destacado]]",
+        "[[a|un]]",
+        "[[of|de]]"
+      ],
+      "explanation": "'Delicacy' se refiere a una comida especial o rara que es muy apreciada.",
+      "audio": "audio/b2/unit-18/e14.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-18/e14.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u18-e16",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "hard",
-    transcript: "They agreed to meet at 10 AM.",
-    content: {
-      title: "Reporting Verbs: Patterns",
-      instructions: "Choose the correct form of the verb.",
-      question: "[[They|Ellos]] [[agreed|acordaron]] [[___ (meet)|reunirse]] [[at|a las]] [[10|10]] [[AM.|AM.]]",
-      options: ["[[to meet|reunirse]]", "[[meeting|reunión]]", "[[meet|reunir]]"],
-      correctAnswer: "to meet",
-      explanation: "Agree is followed by the to-infinitive.",
-      translation: "Acordaron reunirse a las 10 AM.",
-      hint: "Agree + to-infinitive."
+    "id": "b2-u18-e15",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "The missing explorers are feared to have run out of supplies.",
+    "content": {
+      "title": "Exploradores perdidos",
+      "instructions": "Ordena las palabras usando pasiva con verbos de temor.",
+      "correctSentence": "[[The|Se]] [[missing|teme]] [[explorers|que los exploradores]] [[are|desaparecidos]] [[feared|se hayan]] [[to|quedado]] [[have|sin]] [[run|suministros.]] [[out| ]] [[of| ]] [[supplies.| ]]",
+      "words": [
+        "[[missing|teme]]",
+        "[[feared|se hayan]]",
+        "[[supplies.| ]]",
+        "[[explorers|que los exploradores]]",
+        "[[The|Se]]",
+        "[[of| ]]",
+        "[[are|desaparecidos]]",
+        "[[run|suministros.]]",
+        "[[have|sin]]",
+        "[[to|quedado]]",
+        "[[out| ]]"
+      ],
+      "explanation": "'Are feared to have' expresa una preocupación sobre un estado pasado o presente.",
+      "audio": "audio/b2/unit-18/e15.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-18/e15.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u18-e17",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "hard",
-    transcript: "He promised to be home by midnight.",
-    content: {
-      title: "Reporting Verbs: Patterns",
-      instructions: "Choose the correct form of the verb.",
-      question: "[[He|Él]] [[promised|prometió]] [[___ (be)|estar]] [[home|en casa]] [[by|para]] [[midnight.|medianoche.]]",
-      options: ["[[to be|estar]]", "[[being|siendo]]", "[[be|estar (base)]]"],
-      correctAnswer: "to be",
-      explanation: "Promise is followed by the to-infinitive.",
-      translation: "Prometió estar en casa para medianoche.",
-      hint: "Promise + to-infinitive."
+    "id": "b2-u18-e16",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "Jet lag can ruin the first few days of your vacation.",
+    "content": {
+      "title": "Jet lag",
+      "instructions": "Ordena las palabras para hablar de efectos de vuelos largos.",
+      "correctSentence": "[[Jet|El jet]] [[lag|lag]] [[can|puede]] [[ruin|arruinar]] [[the|los]] [[first|primeros]] [[few|pocos]] [[days|días]] [[of|de]] [[your|tus]] [[vacation.|vacaciones.]]",
+      "words": [
+        "[[lag|lag]]",
+        "[[ruin|arruinar]]",
+        "[[vacation.|vacaciones.]]",
+        "[[can|puede]]",
+        "[[Jet|El jet]]",
+        "[[days|días]]",
+        "[[the|los]]",
+        "[[first|primeros]]",
+        "[[of|de]]",
+        "[[your|tus]]",
+        "[[few|pocos]]"
+      ],
+      "explanation": "'Jet lag' es el cansancio causado por viajar a través de diferentes zonas horarias.",
+      "audio": "audio/b2/unit-18/e16.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-18/e16.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u18-e18",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "hard",
-    transcript: "She apologized for being late.",
-    content: {
-      title: "Reporting Verbs: Patterns",
-      instructions: "Choose the correct form of the verb.",
-      question: "[[She|Ella]] [[apologized|se disculpó]] [[for|por]] [[___ (be)|llegar]] [[late.|tarde.]]",
-      options: ["[[being|llegar (gerundio)]]", "[[to be|llegar (infinitivo)]]", "[[been|llegado]]"],
-      correctAnswer: "being",
-      explanation: "After a preposition (for), use the -ing form.",
-      translation: "Ella se disculpó por llegar tarde.",
-      hint: "Preposition + -ing."
+    "id": "b2-u18-e17",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "Having reached the destination, they finally relaxed.",
+    "content": {
+      "title": "Llegada al destino",
+      "instructions": "Ordena las palabras usando participio perfecto.",
+      "correctSentence": "[[Having|Al haber]] [[reached|llegado]] [[the|al]] [[destination,|destino,]] [[they|ellos]] [[finally|finalmente]] [[relaxed.|se relajaron.]]",
+      "words": [
+        "[[reached|llegado]]",
+        "[[destination,|destino,]]",
+        "[[relaxed.|se relajaron.]]",
+        "[[Having|Al haber]]",
+        "[[they|ellos]]",
+        "[[finally|finalmente]]",
+        "[[the|al]]"
+      ],
+      "explanation": "El participio perfecto enfatiza que una acción se completó antes que la otra.",
+      "audio": "audio/b2/unit-18/e17.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-18/e17.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u18-e19",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "hard",
-    transcript: "He recommended reading this book.",
-    content: {
-      title: "Reporting Verbs: Patterns",
-      instructions: "Choose the correct form of the verb.",
-      question: "[[He|Él]] [[recommended|recomendó]] [[___ (read)|leer]] [[this|este]] [[book.|libro.]]",
-      options: ["[[reading|leer (gerundio)]]", "[[to read|leer (infinitivo)]]", "[[read|leído]]"],
-      correctAnswer: "reading",
-      explanation: "Recommend is followed by the -ing form.",
-      translation: "Él recomendó leer este libro.",
-      hint: "Recommend + -ing."
+    "id": "b2-u18-e18",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "Wanderlust is the strong desire to travel and explore the world.",
+    "content": {
+      "title": "Pasión por viajar",
+      "instructions": "Ordena las palabras para definir el deseo de aventura.",
+      "correctSentence": "[[Wanderlust|Wanderlust]] [[is|es]] [[the|el]] [[strong|fuerte]] [[desire|deseo]] [[to|de]] [[travel|viajar]] [[and|y]] [[explore|explorar]] [[the|el]] [[world.|mundo.]]",
+      "words": [
+        "[[is|es]]",
+        "[[desire|deseo]]",
+        "[[world.|mundo.]]",
+        "[[strong|fuerte]]",
+        "[[Wanderlust|Wanderlust]]",
+        "[[explore|explorar]]",
+        "[[to|de]]",
+        "[[travel|viajar]]",
+        "[[the|el]]",
+        "[[and|y]]"
+      ],
+      "explanation": "'Wanderlust' es una palabra de origen alemán muy usada en inglés para la pasión por viajar.",
+      "audio": "audio/b2/unit-18/e18.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-18/e18.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u18-e20",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "hard",
-    transcript: "She threatened to call the police.",
-    content: {
-      title: "Reporting Verbs: Patterns",
-      instructions: "Choose the correct form of the verb.",
-      question: "[[She|Ella]] [[threatened|amenazó]] [[___ (call)|con llamar]] [[the|a la]] [[police.|policía.]]",
-      options: ["[[to call|llamar]]", "[[calling|llamando]]", "[[called|llamó]]"],
-      correctAnswer: "to call",
-      explanation: "Threaten is followed by the to-infinitive.",
-      translation: "Ella amenazó con llamar a la policía.",
-      hint: "Threaten + to-infinitive."
+    "id": "b2-u18-e19",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "It is understood that the border will remain closed.",
+    "content": {
+      "title": "Frontera cerrada",
+      "instructions": "Ordena las palabras usando pasiva impersonal.",
+      "correctSentence": "[[It|Se]] [[is|entiende]] [[understood|que]] [[that|la]] [[the|frontera]] [[border|permanecerá]] [[will|cerrada.]] [[remain| ]] [[closed.| ]]",
+      "words": [
+        "[[is|entiende]]",
+        "[[border|permanecerá]]",
+        "[[closed.| ]]",
+        "[[understood|que]]",
+        "[[It|Se]]",
+        "[[remain| ]]",
+        "[[that|la]]",
+        "[[will|cerrada.]]",
+        "[[the|frontera]]"
+      ],
+      "explanation": "'It is understood that' se usa para indicar lo que se asume o se sabe de forma general.",
+      "audio": "audio/b2/unit-18/e19.mp3"
     },
-    topicName: "Grammar"
-  },
-
-  // 21-30: Vocabulary - Meetings
-  {
-    id: "b2-u18-e21",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "We need to set an agenda for the meeting.",
-    content: {
-      title: "Meeting Terms",
-      instructions: "Choose the correct word.",
-      question: "[[We|Nosotros]] [[need|necesitamos]] [[to| ]] [[set|establecer]] [[an|un]] [[___ (agenda)|orden del día]] [[for|para]] [[the|la]] [[meeting.|reunión.]]",
-      options: ["[[agenda|orden del día]]", "[[calendar|calendario]]", "[[notebook|cuaderno]]"],
-      correctAnswer: "agenda",
-      explanation: "An agenda is a list of items to be discussed at a meeting.",
-      translation: "Necesitamos establecer un orden del día para la reunión.",
-      hint: "List of topics."
-    },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-18/e19.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u18-e22",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "Who is going to take the minutes?",
-    content: {
-      title: "Meeting Terms",
-      instructions: "Choose the correct word.",
-      question: "[[Who|¿Quién]] [[is|va]] [[going|a]] [[to| ]] [[take|tomar]] [[the|el]] [[___ (minutes)?|acta?]]",
-      options: ["[[minutes|acta / minutos]]", "[[seconds|segundos]]", "[[hours|horas]]"],
-      correctAnswer: "minutes",
-      explanation: "Minutes are the official written record of a meeting.",
-      translation: "¿Quién va a tomar el acta?",
-      hint: "Written record."
+    "id": "b2-u18-e20",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "Ecotourism promotes conservation and respects local cultures.",
+    "content": {
+      "title": "Ecoturismo",
+      "instructions": "Ordena las palabras para hablar de viajes ecológicos.",
+      "correctSentence": "[[Ecotourism|El ecoturismo]] [[promotes|promueve]] [[conservation|la conservación]] [[and|y]] [[respects|respeta]] [[local|las culturas]] [[cultures.|locales.]]",
+      "words": [
+        "[[promotes|promueve]]",
+        "[[respects|respeta]]",
+        "[[cultures.|locales.]]",
+        "[[conservation|la conservación]]",
+        "[[Ecotourism|El ecoturismo]]",
+        "[[local|las culturas]]",
+        "[[and|y]]"
+      ],
+      "explanation": "'Ecotourism' se centra en la naturaleza y la sostenibilidad.",
+      "audio": "audio/b2/unit-18/e20.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-18/e20.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u18-e23",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "The meeting was chaired by the CEO.",
-    content: {
-      title: "Meeting Terms",
-      instructions: "Choose the correct word.",
-      question: "[[The|La]] [[meeting|reunión]] [[was|fue]] [[___ (chaired)|presidida]] [[by|por]] [[the|el]] [[CEO.|CEO.]]",
-      options: ["[[chaired|presidida]]", "[[tabled|presentada]]", "[[floored|derribada]]"],
-      correctAnswer: "chaired",
-      explanation: "To chair a meeting means to lead it.",
-      translation: "La reunión fue presidida por el CEO.",
-      hint: "Led by."
+    "id": "b2-u18-e21",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "Taken by surprise, the tourists didn't know how to react.",
+    "content": {
+      "title": "Sorpresa",
+      "instructions": "Ordena las palabras usando participio pasado como causa.",
+      "correctSentence": "[[Taken|Tomados]] [[by|por]] [[surprise,|sorpresa,]] [[the|los]] [[tourists|turistas]] [[didn't|no]] [[know|supieron]] [[how|cómo]] [[to|reaccionar.]] [[react.| ]]",
+      "words": [
+        "[[by|por]]",
+        "[[tourists|turistas]]",
+        "[[react.| ]]",
+        "[[surprise,|sorpresa,]]",
+        "[[Taken|Tomados]]",
+        "[[know|supieron]]",
+        "[[didn't|no]]",
+        "[[how|cómo]]",
+        "[[the|los]]",
+        "[[to|reaccionar.]]"
+      ],
+      "explanation": "El participio pasado (Taken) puede introducir una razón o circunstancia.",
+      "audio": "audio/b2/unit-18/e21.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-18/e21.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u18-e24",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "We had a very productive discussion.",
-    content: {
-      title: "Meeting Terms",
-      instructions: "Choose the correct word.",
-      question: "[[We|Nosotros]] [[had|tuvimos]] [[a|una]] [[very|muy]] [[___ (productive)|productiva]] [[discussion.|discusión.]]",
-      options: ["[[productive|productiva]]", "[[provocative|provocativa]]", "[[protective|protectora]]"],
-      correctAnswer: "productive",
-      explanation: "Productive means achieving or producing a significant amount or result.",
-      translation: "Tuvimos una discusión muy productiva.",
-      hint: "Achieving results."
+    "id": "b2-u18-e22",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "A layover is a break in a journey between two flights.",
+    "content": {
+      "title": "Escala",
+      "instructions": "Ordena las palabras para definir una parada técnica.",
+      "correctSentence": "[[A|Una]] [[layover|escala]] [[is|es]] [[a|un]] [[break|descanso]] [[in|en]] [[a|un]] [[journey|viaje]] [[between|entre]] [[two|dos]] [[flights.|vuelos.]]",
+      "words": [
+        "[[layover|escala]]",
+        "[[break|descanso]]",
+        "[[flights.|vuelos.]]",
+        "[[is|es]]",
+        "[[A|Una]]",
+        "[[journey|viaje]]",
+        "[[between|entre]]",
+        "[[two|dos]]",
+        "[[in|en]]",
+        "[[a|un]]"
+      ],
+      "explanation": "'Layover' o 'stopover' es el tiempo que pasas en un aeropuerto esperando tu próximo vuelo.",
+      "audio": "audio/b2/unit-18/e22.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-18/e22.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u18-e25",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "There were several action points to follow up on.",
-    content: {
-      title: "Meeting Terms",
-      instructions: "Choose the correct word.",
-      question: "[[There|Hubo]] [[were|varios]] [[several| ]] [[___ (action)|puntos de acción]] [[points| ]] [[to|para]] [[follow|hacer]] [[up|seguimiento.]] [[on.| ]]",
-      options: ["[[action|acción]]", "[[acting|actuando]]", "[[active|activo]]"],
-      correctAnswer: "action",
-      explanation: "An action point is a specific task to be completed after a meeting.",
-      translation: "Hubo varios puntos de acción para hacer seguimiento.",
-      hint: "Tasks to do."
+    "id": "b2-u18-e23",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "The hotel is said to be the most luxurious in the city.",
+    "content": {
+      "title": "Hotel lujoso",
+      "instructions": "Ordena las palabras usando pasiva personal.",
+      "correctSentence": "[[The|Se]] [[hotel|dice]] [[is|que]] [[said|el]] [[to|hotel]] [[be|es]] [[the|el]] [[most|más]] [[luxurious|lujoso]] [[in|de]] [[the|la]] [[city.|ciudad.]]",
+      "words": [
+        "[[is|que]]",
+        "[[be|es]]",
+        "[[city.|ciudad.]]",
+        "[[said|el]]",
+        "[[The|Se]]",
+        "[[luxurious|lujoso]]",
+        "[[most|más]]",
+        "[[hotel|dice]]",
+        "[[the|el]]",
+        "[[to|hotel]]",
+        "[[in|de]]",
+        "[[the|la]]"
+      ],
+      "explanation": "'Is said to be' se usa para transmitir opiniones generales.",
+      "audio": "audio/b2/unit-18/e23.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-18/e23.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u18-e26",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "I'd like to raise a point about the budget.",
-    content: {
-      title: "Meeting Terms",
-      instructions: "Choose the correct word.",
-      question: "[[I'd|Me]] [[like|gustaría]] [[to| ]] [[___ (raise)|plantear]] [[a|un]] [[point|punto]] [[about|sobre]] [[the|el]] [[budget.|presupuesto.]]",
-      options: ["[[raise|plantear / subir]]", "[[rise|subir (intransitivo)]]", "[[raze|arrasar]]"],
-      correctAnswer: "raise",
-      explanation: "To raise a point means to bring up a topic for discussion.",
-      translation: "Me gustaría plantear un punto sobre el presupuesto.",
-      hint: "Bring up."
+    "id": "b2-u18-e24",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "Travel insurance provides peace of mind during your adventures.",
+    "content": {
+      "title": "Seguro de viaje",
+      "instructions": "Ordena las palabras para hablar de seguridad.",
+      "correctSentence": "[[Travel|El seguro]] [[insurance|de viaje]] [[provides|proporciona]] [[peace|tranquilidad]] [[of| ]] [[mind| ]] [[during|durante]] [[your|tus]] [[adventures.|aventuras.]]",
+      "words": [
+        "[[insurance|de viaje]]",
+        "[[peace|tranquilidad]]",
+        "[[adventures.|aventuras.]]",
+        "[[provides|proporciona]]",
+        "[[Travel|El seguro]]",
+        "[[mind| ]]",
+        "[[during|durante]]",
+        "[[your|tus]]",
+        "[[of| ]]"
+      ],
+      "explanation": "'Peace of mind' es una expresión que significa estar libre de preocupaciones.",
+      "audio": "audio/b2/unit-18/e24.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-18/e24.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u18-e27",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "Let's stay on track and avoid distractions.",
-    content: {
-      title: "Meeting Terms",
-      instructions: "Choose the correct word.",
-      question: "[[Let's|Mantengámonos]] [[stay|en]] [[on|el]] [[___ (track)|camino]] [[and|y]] [[avoid|evitemos]] [[distractions.|distracciones.]]",
-      options: ["[[track|camino / vía]]", "[[truck|camión]]", "[[trick|truco]]"],
-      correctAnswer: "track",
-      explanation: "To stay on track means to continue as planned or expected.",
-      translation: "Mantengámonos en el camino y evitemos distracciones.",
-      hint: "On the right path."
+    "id": "b2-u18-e25",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "The site, discovered by accident, became a world heritage site.",
+    "content": {
+      "title": "Patrimonio mundial",
+      "instructions": "Ordena las palabras usando una cláusula de participio insertada.",
+      "correctSentence": "[[The|El]] [[site,|sitio,]] [[discovered|descubierto]] [[by|por]] [[accident,|accidente,]] [[became|se convirtió]] [[a|en]] [[world|patrimonio]] [[heritage|de la]] [[site.|humanidad.]]",
+      "words": [
+        "[[discovered|descubierto]]",
+        "[[accident,|accidente,]]",
+        "[[site.|humanidad.]]",
+        "[[became|se convirtió]]",
+        "[[The|El]]",
+        "[[heritage|de la]]",
+        "[[by|por]]",
+        "[[site,|sitio,]]",
+        "[[world|patrimonio]]",
+        "[[a|en]]"
+      ],
+      "explanation": "La cláusula 'discovered by accident' añade información extra sobre el sujeto.",
+      "audio": "audio/b2/unit-18/e25.mp3"
     },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u18-e28",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "We need to reach a consensus before we leave.",
-    content: {
-      title: "Meeting Terms",
-      instructions: "Choose the correct word.",
-      question: "[[We|Necesitamos]] [[need|llegar]] [[to| ]] [[reach|a]] [[a|un]] [[___ (consensus)|consenso]] [[before|antes]] [[we|de]] [[leave.|irnos.]]",
-      options: ["[[consensus|consenso]]", "[[consequence|consecuencia]]", "[[consciousness|conciencia]]"],
-      correctAnswer: "consensus",
-      explanation: "Consensus is a general agreement.",
-      translation: "Necesitamos llegar a un consenso antes de irnos.",
-      hint: "General agreement."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u18-e29",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "The meeting was adjourned until tomorrow.",
-    content: {
-      title: "Meeting Terms",
-      instructions: "Choose the correct word.",
-      question: "[[The|La]] [[meeting|reunión]] [[was|fue]] [[___ (adjourned)|suspendida]] [[until|hasta]] [[tomorrow.|mañana.]]",
-      options: ["[[adjourned|suspendida / levantada]]", "[[adjoined|contigua]]", "[[adjusted|ajustada]]"],
-      correctAnswer: "adjourned",
-      explanation: "To adjourn a meeting means to break it off with the intention of resuming it later.",
-      translation: "La reunión se suspendió hasta mañana.",
-      hint: "Postponed/suspended."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u18-e30",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "Can we summarize what we have agreed so far?",
-    content: {
-      title: "Meeting Terms",
-      instructions: "Choose the correct word.",
-      question: "[[Can|¿Podemos]] [[we| ]] [[___ (summarize)|resumir]] [[what|lo que]] [[we| ]] [[have|hemos]] [[agreed|acordado]] [[so|hasta]] [[far?|ahora?]]",
-      options: ["[[summarize|resumir]]", "[[summer|verano]]", "[[somber|sombrío]]"],
-      correctAnswer: "summarize",
-      explanation: "To summarize means to give a brief statement of the main points.",
-      translation: "¿Podemos resumir lo que hemos acordado hasta ahora?",
-      hint: "Give a summary."
-    },
-    topicName: "Vocabulary"
-  },
-
-  // 31-40: Vocabulary - Negotiation
-  {
-    id: "b2-u18-e31",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "We are looking for a win-win situation.",
-    content: {
-      title: "Negotiation Terms",
-      instructions: "Choose the correct term.",
-      question: "[[We|Estamos]] [[are| ]] [[looking|buscando]] [[for| ]] [[a|una]] [[___|ganar-ganar]] [[situation|situación]] [[where|donde]] [[both|ambas]] [[sides|partes]] [[benefit.|se beneficien.]]",
-      options: ["best-best", "win-win", "good-good"],
-      correctAnswer: "win-win",
-      explanation: "A win-win situation is one in which each party benefits in some way.",
-      translation: "Estamos buscando una situación de ganar-ganar.",
-      hint: "Both sides benefit."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u18-e32",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "The negotiation reached a deadlock.",
-    content: {
-      title: "Negotiation Terms",
-      instructions: "Choose the correct term.",
-      question: "[[The|La]] [[negotiation|negociación]] [[reached|llegó]] [[a|a]] [[___,|un punto muerto,]] [[with| ]] [[neither|sin que ninguna]] [[side|parte]] [[willing|estuviera dispuesta]] [[to|a]] [[move.|ceder.]]",
-      options: ["deadlock", "stop", "wall"],
-      correctAnswer: "deadlock",
-      explanation: "A deadlock is a situation in which no progress can be made.",
-      translation: "La negociación llegó a un punto muerto.",
-      hint: "Stalemate."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u18-e33",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "We need to make a concession to close the deal.",
-    content: {
-      title: "Negotiation Terms",
-      instructions: "Choose the correct term.",
-      question: "[[We|Necesitamos]] [[need|hacer]] [[to| ]] [[make|una]] [[a| ]] [[___|concesión]] [[to|para]] [[close|cerrar]] [[the|el]] [[deal.|trato.]]",
-      options: ["gift", "concession", "prize"],
-      correctAnswer: "concession",
-      explanation: "A concession is something given up in order to reach an agreement.",
-      translation: "Necesitamos hacer una concesión para cerrar el trato.",
-      hint: "Giving something up."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u18-e34",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "He is a very tough negotiator.",
-    content: {
-      title: "Negotiation Terms",
-      instructions: "Choose the correct term.",
-      question: "[[He|Él]] [[is|es]] [[a|un]] [[very|muy]] [[tough|duro]] [[___|negociador.]]",
-      options: ["negotiator", "talker", "dealer"],
-      correctAnswer: "negotiator",
-      explanation: "A negotiator is a person who conducts negotiations.",
-      translation: "Él es un negociador muy duro.",
-      hint: "Person who negotiates."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u18-e35",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "The terms of the contract are very clear.",
-    content: {
-      title: "Negotiation Terms",
-      instructions: "Choose the correct term.",
-      question: "[[The|Los]] [[___|términos]] [[of|del]] [[the| ]] [[contract|contrato]] [[are|son]] [[very|muy]] [[clear.|claros.]]",
-      options: ["words", "terms", "lines"],
-      correctAnswer: "terms",
-      explanation: "Terms are the conditions that are part of an agreement.",
-      translation: "Los términos del contrato son muy claros.",
-      hint: "Conditions."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u18-e36",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "We managed to iron out the details.",
-    content: {
-      title: "Negotiation Terms",
-      instructions: "Choose the correct verb.",
-      question: "[[We|Logramos]] [[managed| ]] [[to| ]] [[___| ]] [[out|resolver]] [[the|los]] [[details.|detalles.]]",
-      options: ["clean", "wash", "iron"],
-      correctAnswer: "iron",
-      explanation: "To 'iron out' means to solve small problems or settle details.",
-      translation: "Logramos resolver los detalles.",
-      hint: "Remove wrinkles/problems."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u18-e37",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "The deal is still up in the air.",
-    content: {
-      title: "Negotiation Terms",
-      instructions: "Choose the correct noun.",
-      question: "[[The|El]] [[deal|trato]] [[is|está]] [[still|todavía]] [[up|en]] [[in|el]] [[the| ]] [[___.|aire.]]",
-      options: ["cloud", "air", "sky"],
-      correctAnswer: "air",
-      explanation: "To be 'up in the air' means to be uncertain or undecided.",
-      translation: "El trato todavía está en el aire.",
-      hint: "Uncertain."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u18-e38",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "We need to find common ground.",
-    content: {
-      title: "Negotiation Terms",
-      instructions: "Choose the correct noun.",
-      question: "[[We|Necesitamos]] [[need|encontrar]] [[to| ]] [[find|un]] [[common|terreno]] [[___.|común.]]",
-      options: ["place", "ground", "land"],
-      correctAnswer: "ground",
-      explanation: "Common ground refers to shared interests or opinions.",
-      translation: "Necesitamos encontrar un terreno común.",
-      hint: "Shared interests."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u18-e39",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "They gave us a take-it-or-leave-it offer.",
-    content: {
-      title: "Negotiation Terms",
-      instructions: "Choose the correct verb.",
-      question: "[[They|Nos]] [[gave|dieron]] [[us|una]] [[a|oferta]] [[take-it-or-___-it|de tómalo o déjalo.]] [[offer.| ]]",
-      options: ["leave", "take", "make"],
-      correctAnswer: "leave",
-      explanation: "A take-it-or-leave-it offer is one that will not be changed.",
-      translation: "Nos dieron una oferta de tómalo o déjalo.",
-      hint: "No negotiation possible."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u18-e40",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "The negotiation was very intense.",
-    content: {
-      title: "Negotiation Terms",
-      instructions: "Choose the correct adjective.",
-      question: "[[The|La]] [[negotiation|negociación]] [[was|fue]] [[very|muy]] [[___.|intensa.]]",
-      options: ["strong", "intense", "hard"],
-      correctAnswer: "intense",
-      explanation: "Intense means involving a lot of effort or strong feelings.",
-      translation: "La negociación fue muy intensa.",
-      hint: "Very strong."
-    },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-18/e25.mp3",
+    "topicName": "Grammar"
   },
 
-  // 41-50: Word Formation
+  // 26-50: Multiple Choice (Vocabulary & Grammar - Travel & Exploration)
   {
-    id: "b2-u18-e41",
-    type: "word-formation",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "The agreement was signed yesterday.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The|El]] [[___ (AGREE)|acuerdo]] [[was|se]] [[signed|firmó]] [[yesterday.|ayer.]]",
-      correctAnswer: "agreement",
-      explanation: "Noun form of 'agree'.",
-      translation: "El acuerdo se firmó ayer.",
-      hint: "Noun from agree."
+    "id": "b2-u18-e26",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "She is believed to have reached the summit yesterday.",
+    "content": {
+      "title": "Creencia sobre la cima",
+      "instructions": "Elige la forma verbal para la pasiva personal.",
+      "questions": [
+        {
+          "question": "[[She|Se]] [[is|cree]] [[believed|que ella]] _______ _______ [[the|alcanzó la]] [[summit|cima]] [[yesterday.|ayer.]]",
+          "options": ["[[to have reached|que alcanzó]]", "[[to reach|alcanzar]]", "[[reached|alcanzó]]"],
+          "correctAnswer": 0,
+          "explanation": "'Is believed to have + participio' para un hecho pasado.",
+          "audio": "audio/b2/unit-18/e26.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-18/e26.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u18-e42",
-    type: "word-formation",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "We had a very constructive meeting.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[We|Tuvimos]] [[had|una]] [[a|reunión]] [[very|muy]] [[___ (CONSTRUCT)|constructiva]] [[meeting.| ]]",
-      correctAnswer: "constructive",
-      explanation: "Adjective form of 'construct'.",
-      translation: "Tuvimos una reunión muy constructiva.",
-      hint: "Useful/helpful."
+    "id": "b2-u18-e27",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "A souvenir is something you buy to remember your holiday.",
+    "content": {
+      "title": "Recuerdo de viaje",
+      "instructions": "Elige el término para un objeto de recuerdo.",
+      "questions": [
+        {
+          "question": "[[A|Un]] _______ [[is|es]] [[something|algo]] [[you|que]] [[buy|compras]] [[to|para]] [[remember|recordar]] [[your|tus]] [[holiday.|vacaciones.]]",
+          "options": ["[[souvenir|souvenir]]", "[[landmark|punto de referencia]]", "[[custom|costumbre]]"],
+          "correctAnswer": 0,
+          "explanation": "'Souvenir' es una palabra francesa integrada en el inglés.",
+          "audio": "audio/b2/unit-18/e27.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-18/e27.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u18-e43",
-    type: "word-formation",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "The negotiation process was long.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The|El]] [[___ (NEGOTIATE)|proceso de negociación]] [[process| ]] [[was|fue]] [[long.|largo.]]",
-      correctAnswer: "negotiation",
-      explanation: "Noun form of 'negotiate'.",
-      translation: "El proceso de negociación fue largo.",
-      hint: "Noun from negotiate."
+    "id": "b2-u18-e28",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "Looking through the window, I saw the majestic mountains.",
+    "content": {
+      "title": "Vista desde la ventana",
+      "instructions": "Elige la forma de participio adecuada.",
+      "questions": [
+        {
+          "question": "_______ [[through|Mirando por]] [[the|la]] [[window,|ventana,]] [[I|vi]] [[saw|las]] [[the|majestuosas]] [[majestic|montañas.]] [[mountains.| ]]",
+          "options": ["[[Looking|Mirando]]", "[[Looked|Mirado]]", "[[Having look|Habiendo mirado]]"],
+          "correctAnswer": 0,
+          "explanation": "Participio de presente (-ing) para acciones simultáneas.",
+          "audio": "audio/b2/unit-18/e28.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-18/e28.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u18-e44",
-    type: "word-formation",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "He showed great flexibility during the talk.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[He|Él]] [[showed|mostró]] [[great|gran]] [[___ (FLEXIBLE)|flexibilidad]] [[during|durante]] [[the|la]] [[talk.|charla.]]",
-      correctAnswer: "flexibility",
-      explanation: "Noun form of 'flexible'.",
-      translation: "Mostró gran flexibilidad durante la charla.",
-      hint: "Ability to change."
+    "id": "b2-u18-e29",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "A landmark is a recognizable feature of a city or landscape.",
+    "content": {
+      "title": "Monumento emblemático",
+      "instructions": "Elige el término para un sitio de referencia.",
+      "questions": [
+        {
+          "question": "[[A|Un]] _______ [[is|es]] [[a|una]] [[recognizable|característica]] [[feature|reconocible]] [[of|de]] [[a|una]] [[city|ciudad]] [[or|o]] [[landscape.|paisaje.]]",
+          "options": ["[[landmark|punto de referencia]]", "[[itinerary|itinerario]]", "[[detour|desvío]]"],
+          "correctAnswer": 0,
+          "explanation": "La Torre Eiffel es un 'landmark' de París.",
+          "audio": "audio/b2/unit-18/e29.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-18/e29.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u18-e45",
-    type: "word-formation",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "The clarity of his points was appreciated.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The|La]] [[___ (CLARIFY)|claridad]] [[of|de]] [[his|sus]] [[points|puntos]] [[was|fue]] [[appreciated.|apreciada.]]",
-      correctAnswer: "clarity",
-      explanation: "Noun form of 'clear' (CLARIFY is the verb, but often these tasks ask for the noun).",
-      translation: "Se agradeció la claridad de sus puntos.",
-      hint: "State of being clear."
+    "id": "b2-u18-e30",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "Having finished his work, he went to explore the city.",
+    "content": {
+      "title": "Explorar tras el trabajo",
+      "instructions": "Elige el participio para indicar secuencia temporal.",
+      "questions": [
+        {
+          "question": "_______ _______ [[his|Habiendo terminado su]] [[work,|trabajo,]] [[he|él]] [[went|fue]] [[to|a]] [[explore|explorar]] [[the|la]] [[city.|ciudad.]]",
+          "options": ["[[Having finished|Habiendo terminado]]", "[[Finishing|Terminando]]", "[[Finished|Terminado]]"],
+          "correctAnswer": 0,
+          "explanation": "'Having finished' indica que la acción se completó antes de ir a explorar.",
+          "audio": "audio/b2/unit-18/e30.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-18/e30.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u18-e46",
-    type: "word-formation",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "We need a decisive leader for this project.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[We|Necesitamos]] [[need|un]] [[a|líder]] [[___ (DECIDE)|decisivo]] [[leader| ]] [[for|para]] [[this|este]] [[project.|proyecto.]]",
-      correctAnswer: "decisive",
-      explanation: "Adjective form of 'decide'.",
-      translation: "Necesitamos un líder decisivo para este proyecto.",
-      hint: "Able to make decisions."
+    "id": "b2-u18-e31",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "Customs is the place at a port or airport where baggage is checked.",
+    "content": {
+      "title": "Aduanas",
+      "instructions": "Elige el término para el control de equipaje.",
+      "questions": [
+        {
+          "question": "_______ [[is|La aduana]] [[the|es el]] [[place|lugar]] [[at|en]] [[a|un]] [[port|puerto]] [[or|o]] [[airport|aeropuerto]] [[where|donde]] [[baggage|el equipaje]] [[is|es]] [[checked.|revisado.]]",
+          "options": ["[[Customs|Aduanas]]", "[[Boarding|Embarque]]", "[[Lounge|Sala VIP]]"],
+          "correctAnswer": 0,
+          "explanation": "'Customs' es la autoridad que controla la entrada de bienes en un país.",
+          "audio": "audio/b2/unit-18/e31.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-18/e31.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u18-e47",
-    type: "word-formation",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "The organization of the meeting was poor.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The|La]] [[___ (ORGANIZE)|organización]] [[of|de]] [[the|la]] [[meeting|reunión]] [[was|fue]] [[poor.|deficiente.]]",
-      correctAnswer: "organization",
-      explanation: "Noun form of 'organize'.",
-      translation: "La organización de la reunión fue deficiente.",
-      hint: "Noun from organize."
+    "id": "b2-u18-e32",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "It is thought that the explorers are safe.",
+    "content": {
+      "title": "Pensamiento impersonal",
+      "instructions": "Elige la forma correcta de la pasiva impersonal.",
+      "questions": [
+        {
+          "question": "_______ _______ _______ [[that|Se cree que]] [[the|los]] [[explorers|exploradores]] [[are|están]] [[safe.|a salvo.]]",
+          "options": ["[[It is thought|Se cree]]", "[[He is thought|Él se cree]]", "[[They are thought|Se cree de ellos]]"],
+          "correctAnswer": 0,
+          "explanation": "Pasiva impersonal con 'It' para ideas generales.",
+          "audio": "audio/b2/unit-18/e32.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-18/e32.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u18-e48",
-    type: "word-formation",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "She is a very persuasive speaker.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[She|Ella]] [[is|es]] [[a|una]] [[very|muy]] [[___ (PERSUADE)|oradora persuasiva.]] [[speaker.| ]]",
-      correctAnswer: "persuasive",
-      explanation: "Adjective form of 'persuade'.",
-      translation: "Ella es una oradora muy persuasiva.",
-      hint: "Good at persuading."
+    "id": "b2-u18-e33",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "A travelogue is a film or book about a person's travels.",
+    "content": {
+      "title": "Cuaderno de viaje",
+      "instructions": "Elige el término para un relato de viajes.",
+      "questions": [
+        {
+          "question": "[[A|Un]] _______ [[is|es]] [[a|una]] [[film|película]] [[or|o]] [[book|libro]] [[about|sobre]] [[a|los]] [[person's|viajes de]] [[travels.|una persona.]]",
+          "options": ["[[travelogue|relato de viajes]]", "[[brochure|folleto]]", "[[manual|manual]]"],
+          "correctAnswer": 0,
+          "explanation": "Los 'travelogues' pueden ser blogs, documentales o libros.",
+          "audio": "audio/b2/unit-18/e33.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-18/e33.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u18-e49",
-    type: "word-formation",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "The efficiency of the team improved.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The|La]] [[___ (EFFICIENT)|eficiencia]] [[of|del]] [[the|equipo]] [[team|mejoró.]] [[improved.| ]]",
-      correctAnswer: "efficiency",
-      explanation: "Noun form of 'efficient'.",
-      translation: "La eficiencia del equipo mejoró.",
-      hint: "Noun from efficient."
+    "id": "b2-u18-e34",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "Surrounded by mountains, the village was very peaceful.",
+    "content": {
+      "title": "Pueblo entre montañas",
+      "instructions": "Elige el participio pasado para describir el entorno.",
+      "questions": [
+        {
+          "question": "_______ [[by|Rodeado por]] [[mountains,|montañas,]] [[the|el]] [[village|pueblo]] [[was|era]] [[very|muy]] [[peaceful.|tranquilo.]]",
+          "options": ["[[Surrounded|Rodeado]]", "[[Surrounding|Rodeando]]", "[[Having surround|Habiendo rodeado]]"],
+          "correctAnswer": 0,
+          "explanation": "Participio pasado para expresar un estado pasivo.",
+          "audio": "audio/b2/unit-18/e34.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-18/e34.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u18-e50",
-    type: "word-formation",
-    level: "B2",
-    topic: "Meetings & Negotiations",
-    difficulty: "medium",
-    transcript: "His contribution to the discussion was vital.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[His|Su]] [[___ (CONTRIBUTE)|contribución]] [[to|a]] [[the|la]] [[discussion|discusión]] [[was|fue]] [[vital.|vital.]]",
-      correctAnswer: "contribution",
-      explanation: "Noun form of 'contribute'.",
-      translation: "Su contribución a la discusión fue vital.",
-      hint: "Noun from contribute."
+    "id": "b2-u18-e35",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "Hospitality refers to the friendly reception of guests and travelers.",
+    "content": {
+      "title": "Hospitalidad",
+      "instructions": "Elige el término para la acogida amable.",
+      "questions": [
+        {
+          "question": "_______ [[refers|La hospitalidad se refiere]] [[to|a]] [[the|la]] [[friendly|recepción]] [[reception|amable]] [[of|de]] [[guests|huéspedes]] [[and|y]] [[travelers.|viajeros.]]",
+          "options": ["[[Hospitality|Hospitalidad]]", "[[Hostility|Hostilidad]]", "[[Curiosity|Curiosidad]]"],
+          "correctAnswer": 0,
+          "explanation": "'Hospitality' es clave en la industria del turismo.",
+          "audio": "audio/b2/unit-18/e35.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-18/e35.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u18-e36",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "They are said to have discovered a new cave system.",
+    "content": {
+      "title": "Nueva cueva",
+      "instructions": "Elige la forma de pasiva personal para un descubrimiento.",
+      "questions": [
+        {
+          "question": "[[They|Se]] [[are|dice]] [[said|que ellos]] _______ _______ [[a|han descubierto]] [[new|un nuevo]] [[cave|sistema de]] [[system.|cuevas.]]",
+          "options": ["[[to have discovered|que han descubierto]]", "[[to discover|descubrir]]", "[[discovered|descubrieron]]"],
+          "correctAnswer": 0,
+          "explanation": "'Are said to have + participio' para un hecho pasado comunicado.",
+          "audio": "audio/b2/unit-18/e36.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-18/e36.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u18-e37",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "A trek is a long, arduous journey, typically on foot.",
+    "content": {
+      "title": "Caminata larga",
+      "instructions": "Elige el término para un viaje largo y difícil.",
+      "questions": [
+        {
+          "question": "[[A|Una]] _______ [[is|es]] [[a|un]] [[long,|viaje largo y]] [[arduous|arduo,]] [[journey,| ]] [[typically|típicamente]] [[on|a]] [[foot.|pie.]]",
+          "options": ["[[trek|trekking]]", "[[stroll|paseo]]", "[[commute|trayecto al trabajo]]"],
+          "correctAnswer": 0,
+          "explanation": "'Trek' implica esfuerzo físico y aventura.",
+          "audio": "audio/b2/unit-18/e37.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-18/e37.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u18-e38",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "Knowing the risks, the explorer decided to continue.",
+    "content": {
+      "title": "Conocer los riesgos",
+      "instructions": "Elige la forma de participio para expresar condición.",
+      "questions": [
+        {
+          "question": "_______ [[the|Conociendo los]] [[risks,|riesgos,]] [[the|el]] [[explorer|explorador]] [[decided|decidió]] [[to|continuar.]] [[continue.| ]]",
+          "options": ["[[Knowing|Conociendo]]", "[[Known|Conocido]]", "[[To know|Saber]]"],
+          "correctAnswer": 0,
+          "explanation": "Participio de presente para indicar que el sujeto conoce la situación.",
+          "audio": "audio/b2/unit-18/e38.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-18/e38.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u18-e39",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "Domestic tourism is traveling within one's own country.",
+    "content": {
+      "title": "Turismo nacional",
+      "instructions": "Elige el término para viajar por el propio país.",
+      "questions": [
+        {
+          "question": "_______ [[tourism|El turismo nacional]] [[is|es]] [[traveling|viajar]] [[within|dentro de]] [[one's|el]] [[own|propio]] [[country.|país.]]",
+          "options": ["[[Domestic|Nacional]]", "[[International|Internacional]]", "[[Space|Espacial]]"],
+          "correctAnswer": 0,
+          "explanation": "'Domestic' se opone a 'international'.",
+          "audio": "audio/b2/unit-18/e39.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-18/e39.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u18-e40",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "It is expected that tourism will increase next year.",
+    "content": {
+      "title": "Previsión turística",
+      "instructions": "Elige la forma de pasiva impersonal para el futuro.",
+      "questions": [
+        {
+          "question": "_______ _______ _______ [[that|Se espera que]] [[tourism|el turismo]] [[will|aumente el]] [[increase|próximo]] [[next|año.]] [[year.| ]]",
+          "options": ["[[It is expected|Se espera]]", "[[It is expecting|Está esperando]]", "[[It has expected|Ha esperado]]"],
+          "correctAnswer": 0,
+          "explanation": "Estructura pasiva impersonal para predicciones.",
+          "audio": "audio/b2/unit-18/e40.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-18/e40.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u18-e41",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "A tourist trap is a place that attracts many tourists and overcharges.",
+    "content": {
+      "title": "Trampa para turistas",
+      "instructions": "Elige el término para un sitio que abusa de los turistas.",
+      "questions": [
+        {
+          "question": "[[A|Una]] _______ _______ [[is|es]] [[a|un]] [[place|lugar]] [[that|que]] [[attracts|atrae]] [[many|muchos]] [[tourists|turistas]] [[and|y]] [[overcharges.|cobra de más.]]",
+          "options": ["[[tourist trap|trampa para turistas]]", "[[resort|resort]]", "[[museum|museo]]"],
+          "correctAnswer": 0,
+          "explanation": "'Tourist trap' tiene una connotación negativa de explotación económica.",
+          "audio": "audio/b2/unit-18/e41.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-18/e41.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u18-e42",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "Exhausted after the long flight, she fell asleep instantly.",
+    "content": {
+      "title": "Agotamiento tras vuelo",
+      "instructions": "Elige el participio pasado para describir un estado.",
+      "questions": [
+        {
+          "question": "_______ [[after|Agotada tras]] [[the|el]] [[long|largo]] [[flight,|vuelo,]] [[she|ella]] [[fell|se quedó]] [[asleep|dormida]] [[instantly.|al instante.]]",
+          "options": ["[[Exhausted|Agotada]]", "[[Exhausting|Agotador]]", "[[Having exhaust|Habiendo agotado]]"],
+          "correctAnswer": 0,
+          "explanation": "Participio pasado para expresar cómo se siente el sujeto.",
+          "audio": "audio/b2/unit-18/e42.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-18/e42.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u18-e43",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "To embark on a journey means to start a trip.",
+    "content": {
+      "title": "Embarcarse",
+      "instructions": "Elige el verbo que significa comenzar un viaje.",
+      "questions": [
+        {
+          "question": "[[To| ]] _______ [[on|embarcarse]] [[a|en]] [[journey|un viaje]] [[means|significa]] [[to|comenzar]] [[start|un]] [[a|trayecto.]] [[trip.| ]]",
+          "options": ["[[embark|embarcarse]]", "[[arrive|llegar]]", "[[postpone|posponer]]"],
+          "correctAnswer": 0,
+          "explanation": "'Embark on' se usa frecuentemente para viajes o proyectos importantes.",
+          "audio": "audio/b2/unit-18/e43.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-18/e43.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u18-e44",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "The site is considered to be of great historical importance.",
+    "content": {
+      "title": "Importancia histórica",
+      "instructions": "Elige la forma de pasiva personal adecuada.",
+      "questions": [
+        {
+          "question": "[[The|El]] [[site|sitio]] _______ _______ _______ [[to|se considera]] [[be|que]] [[of|es]] [[great|de gran]] [[historical|importancia]] [[importance.|histórica.]]",
+          "options": ["[[is considered|se considera]]", "[[considers|considera]]", "[[has considered|ha considerado]]"],
+          "correctAnswer": 0,
+          "explanation": "Pasiva personal para expresar una opinión general sobre un objeto.",
+          "audio": "audio/b2/unit-18/e44.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-18/e44.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u18-e45",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "A nomad is a person who has no fixed residence and moves from place to place.",
+    "content": {
+      "title": "Nómada",
+      "instructions": "Elige el término para alguien sin residencia fija.",
+      "questions": [
+        {
+          "question": "[[A|Un]] _______ [[is|es]] [[a|una]] [[person|persona]] [[who|que]] [[has|no tiene]] [[no|residencia]] [[fixed|fija]] [[residence|y se]] [[and|mueve de]] [[moves|lugar]] [[from|en]] [[place|lugar.]] [[to| ]] [[place.| ]]",
+          "options": ["[[nomad|nómada]]", "[[settler|colono]]", "[[citizen|ciudadano]]"],
+          "correctAnswer": 0,
+          "explanation": "Hoy en día también existen los 'digital nomads'.",
+          "audio": "audio/b2/unit-18/e45.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-18/e45.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u18-e46",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "Having seen the monument before, I didn't join the tour.",
+    "content": {
+      "title": "Ya visto",
+      "instructions": "Elige el participio perfecto para una razón pasada.",
+      "questions": [
+        {
+          "question": "_______ _______ [[the|Habiendo visto el]] [[monument|monumento]] [[before,|antes,]] [[I|no]] [[didn't|me uní al]] [[join|tour.]] [[the| ]] [[tour.| ]]",
+          "options": ["[[Having seen|Habiendo visto]]", "[[Seeing|Viendo]]", "[[Seen|Visto]]"],
+          "correctAnswer": 0,
+          "explanation": "'Having seen' indica que la acción de ver ocurrió antes de la decisión de no unirse.",
+          "audio": "audio/b2/unit-18/e46.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-18/e46.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u18-e47",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "An expedition is a journey undertaken by a group of people with a particular purpose.",
+    "content": {
+      "title": "Expedición",
+      "instructions": "Elige el término para un viaje con propósito específico.",
+      "questions": [
+        {
+          "question": "[[An|Una]] _______ [[is|es]] [[a|un]] [[journey|viaje]] [[undertaken|realizado]] [[by|por]] [[a|un]] [[group|grupo]] [[of|de]] [[people|personas]] [[with|con]] [[a|un]] [[particular|propósito]] [[purpose.|determinado.]]",
+          "options": ["[[expedition|expedición]]", "[[vacation|vacaciones]]", "[[commute|desplazamiento]]"],
+          "correctAnswer": 0,
+          "explanation": "'Expedition' suele implicar investigación científica o exploración.",
+          "audio": "audio/b2/unit-18/e47.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-18/e47.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u18-e48",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "The missing plane is reported to have landed safely elsewhere.",
+    "content": {
+      "title": "Avión localizado",
+      "instructions": "Elige la forma de pasiva personal para un informe.",
+      "questions": [
+        {
+          "question": "[[The|Se]] [[missing|informa]] [[plane|que el avión]] [[is|desaparecido]] _______ _______ [[to|ha]] [[have|aterrizado]] [[landed|a salvo]] [[safely|en otro]] [[elsewhere.|lugar.]]",
+          "options": ["[[is reported|se informa]]", "[[reports|informa]]", "[[has reported|ha informado]]"],
+          "correctAnswer": 0,
+          "explanation": "'Is reported to have + participio' para transmitir noticias sobre un sujeto.",
+          "audio": "audio/b2/unit-18/e48.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-18/e48.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u18-e49",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "Infrastructure includes the basic physical systems of a country like roads.",
+    "content": {
+      "title": "Infraestructura",
+      "instructions": "Elige el término para los sistemas básicos de un país.",
+      "questions": [
+        {
+          "question": "_______ [[includes|La infraestructura incluye]] [[the|los]] [[basic|sistemas]] [[physical|físicos]] [[systems|básicos]] [[of|de]] [[a|un]] [[country|país]] [[like|como]] [[roads.|las carreteras.]]",
+          "options": ["[[Infrastructure|Infraestructura]]", "[[Architecture|Arquitectura]]", "[[Agriculture|Agricultura]]"],
+          "correctAnswer": 0,
+          "explanation": "'Infrastructure' es vital para el desarrollo del turismo.",
+          "audio": "audio/b2/unit-18/e49.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-18/e49.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u18-e50",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Travel & Exploration",
+    "difficulty": "medium",
+    "transcript": "Having been warned about the weather, we postponed the climb.",
+    "content": {
+      "title": "Aviso meteorológico",
+      "instructions": "Elige el participio perfecto pasivo.",
+      "questions": [
+        {
+          "question": "_______ _______ _______ [[about|Habiendo sido advertidos]] [[the|sobre]] [[weather,|el clima,]] [[we|pospusimos]] [[postponed|la]] [[the|escalada.]] [[climb.| ]]",
+          "options": ["[[Having been warned|Habiendo sido advertidos]]", "[[Having warned|Habiendo advertido]]", "[[Being warned|Siendo advertidos]]"],
+          "correctAnswer": 0,
+          "explanation": "'Having been + participio' expresa una acción pasiva completada antes que la principal.",
+          "audio": "audio/b2/unit-18/e50.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-18/e50.mp3",
+    "topicName": "Grammar"
   }
 ];

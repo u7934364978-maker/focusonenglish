@@ -1,953 +1,1325 @@
 import { Exercise } from "@/types/course";
 
 export const UNIT_21_EXERCISES: Exercise[] = [
-  // 1-10: Grammar - Third Conditional
+  // 1-25: Sentence Building (Advanced Grammar Review - Mix of B2 topics)
   {
-    id: "b2-u21-e1",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "If I had known about the meeting, I would have attended.",
-    content: {
-      title: "Third Conditional",
-      instructions: "Choose the correct verb form for a past hypothetical situation.",
-      question: "[[If I ___ (know) about the meeting, I would have attended.|Si hubiera sabido lo de la reunión, habría asistido.]]",
-      options: ["had known", "knew", "would know"],
-      correctAnswer: "had known",
-      explanation: "The third conditional uses 'if + past perfect' to talk about a hypothetical past condition.",
-      translation: "Si hubiera sabido lo de la reunión, habría asistido.",
-      hint: "Past perfect in the if-clause."
+    "id": "b2-u21-e1",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "Had I been informed, I would have changed my plans.",
+    "content": {
+      "title": "Inversión en el pasado",
+      "instructions": "Ordena las palabras usando la inversión formal del tercer condicional.",
+      "correctSentence": "[[Had|Si]] [[I|me]] [[been|hubieran]] [[informed,|informado,]] [[I|habría]] [[would|cambiado]] [[have|mis]] [[changed|planes.]] [[my| ]] [[plans.| ]]",
+      "words": [
+        "[[I|me]]",
+        "[[informed,|informado,]]",
+        "[[Had|Si]]",
+        "[[would|cambiado]]",
+        "[[plans.| ]]",
+        "[[been|hubieran]]",
+        "[[have|mis]]",
+        "[[changed|planes.]]",
+        "[[my| ]]",
+        "[[I|habría]]"
+      ],
+      "explanation": "'Had I been' es una alternativa formal a 'If I had been'.",
+      "audio": "audio/b2/unit-21/e1.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-21/e1.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u21-e2",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "We wouldn't have been late if we had taken the train.",
-    content: {
-      title: "Third Conditional",
-      instructions: "Choose the correct verb form.",
-      question: "[[We ___ (not/be) late if we had taken the train.|No habríamos llegado tarde si hubiéramos cogido el tren.]]",
-      options: ["wouldn't have been", "weren't", "won't be"],
-      correctAnswer: "wouldn't have been",
-      explanation: "The main clause of the third conditional uses 'would have + past participle'.",
-      translation: "No habríamos llegado tarde si hubiéramos cogido el tren.",
-      hint: "Would have + participle."
+    "id": "b2-u21-e2",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "It is high time we addressed the issue of plastic pollution.",
+    "content": {
+      "title": "Ya va siendo hora",
+      "instructions": "Ordena las palabras usando 'It is high time' seguido de pasado simple.",
+      "correctSentence": "[[It|Ya]] [[is|va]] [[high|siendo]] [[time|hora]] [[we|de que]] [[addressed|abordemos]] [[the|el]] [[issue|problema]] [[of|de la]] [[plastic|contaminación]] [[pollution.|por plástico.]]",
+      "words": [
+        "[[is|va]]",
+        "[[issue|problema]]",
+        "[[pollution.|por plástico.]]",
+        "[[high|siendo]]",
+        "[[It|Ya]]",
+        "[[addressed|abordemos]]",
+        "[[plastic|contaminación]]",
+        "[[time|hora]]",
+        "[[of|de la]]",
+        "[[the|el]]",
+        "[[we|de que]]"
+      ],
+      "explanation": "'It is high time' se usa con pasado simple para expresar que algo debería haber ocurrido ya.",
+      "audio": "audio/b2/unit-21/e2.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-21/e2.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u21-e3",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "If they had studied harder, they would have passed the exam.",
-    content: {
-      title: "Third Conditional",
-      instructions: "Choose the correct verb form.",
-      question: "[[If they ___ (study) harder, they would have passed the exam.|Si hubieran estudiado más, habrían aprobado el examen.]]",
-      options: ["were studying", "had studied", "studied"],
-      correctAnswer: "had studied",
-      explanation: "Use past perfect for the condition that didn't happen in the past.",
-      translation: "Si hubieran estudiado más, habrían aprobado el examen.",
-      hint: "If + past perfect."
+    "id": "b2-u21-e3",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "Despite being exhausted, she managed to finish the race.",
+    "content": {
+      "title": "Contraste con 'Despite'",
+      "instructions": "Ordena las palabras para expresar contraste usando gerundio.",
+      "correctSentence": "[[Despite|A pesar de]] [[being|estar]] [[exhausted,|agotada,]] [[she|consiguió]] [[managed|terminar]] [[to|la]] [[finish|carrera.]] [[the| ]] [[race.| ]]",
+      "words": [
+        "[[being|estar]]",
+        "[[managed|terminar]]",
+        "[[race.| ]]",
+        "[[Despite|A pesar de]]",
+        "[[exhausted,|agotada,]]",
+        "[[finish|carrera.]]",
+        "[[the| ]]",
+        "[[to|la]]",
+        "[[she|consiguió]]"
+      ],
+      "explanation": "'Despite' puede ir seguido de un sustantivo o de un gerundio (-ing).",
+      "audio": "audio/b2/unit-21/e3.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-21/e3.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u21-e4",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "I would have called you if I had had your number.",
-    content: {
-      title: "Third Conditional",
-      instructions: "Choose the correct verb form.",
-      question: "[[I would have called you if I ___ (have) your number.|Te habría llamado si hubiera tenido tu número.]]",
-      options: ["had", "would have", "had had"],
-      correctAnswer: "had had",
-      explanation: "The past perfect of 'have' is 'had had'.",
-      translation: "Te habría llamado si hubiera tenido tu número.",
-      hint: "Past perfect of have."
+    "id": "b2-u21-e4",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "Hardly had I opened the door when the phone rang.",
+    "content": {
+      "title": "Inversión con 'Hardly'",
+      "instructions": "Ordena las palabras para una acción que ocurre inmediatamente después de otra.",
+      "correctSentence": "[[Hardly|Apenas]] [[had|había]] [[I|abierto]] [[opened|la]] [[the|puerta]] [[door|cuando]] [[when|sonó]] [[the|el]] [[phone|teléfono.]] [[rang.| ]]",
+      "words": [
+        "[[had|había]]",
+        "[[door|cuando]]",
+        "[[phone|teléfono.]]",
+        "[[Hardly|Apenas]]",
+        "[[the|la]]",
+        "[[rang.| ]]",
+        "[[I|abierto]]",
+        "[[when|sonó]]",
+        "[[the|el]]"
+      ],
+      "explanation": "Inversión negativa: Adverbio negativo + auxiliar + sujeto + verbo.",
+      "audio": "audio/b2/unit-21/e4.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-21/e4.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u21-e5",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "If she hadn't forgotten her passport, she would have traveled.",
-    content: {
-      title: "Third Conditional",
-      instructions: "Choose the correct verb form.",
-      question: "[[If she ___ (not/forgot) her passport, she would have traveled.|Si no hubiera olvidado su pasaporte, habría viajado.]]",
-      options: ["not forget", "didn't forget", "hadn't forgotten"],
-      correctAnswer: "hadn't forgotten",
-      explanation: "Negative third conditional: if + had not + past participle.",
-      translation: "Si no hubiera olvidado su pasaporte, habría viajado.",
-      hint: "Negative past perfect."
+    "id": "b2-u21-e5",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "I would rather you didn't smoke in the house.",
+    "content": {
+      "title": "Preferencia sobre otros",
+      "instructions": "Ordena las palabras para expresar lo que prefieres que haga otra persona.",
+      "correctSentence": "[[I|Preferiría]] [[would|que]] [[rather|no]] [[you|fumases]] [[didn't|en]] [[smoke|la]] [[in|casa.]] [[the| ]] [[house.| ]]",
+      "words": [
+        "[[would|que]]",
+        "[[you|fumases]]",
+        "[[house.| ]]",
+        "[[rather|no]]",
+        "[[I|Preferiría]]",
+        "[[smoke|en]]",
+        "[[the| ]]",
+        "[[didn't|en]]",
+        "[[in|casa.]]"
+      ],
+      "explanation": "'I would rather' + sujeto + pasado simple se usa para expresar preferencias sobre otros.",
+      "audio": "audio/b2/unit-21/e5.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-21/e5.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u21-e6",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "We would have bought the house if it had been cheaper.",
-    content: {
-      title: "Third Conditional",
-      instructions: "Choose the correct verb form.",
-      question: "[[We ___ (buy) the house if it had been cheaper.|Habríamos comprado la casa si hubiera sido más barata.]]",
-      options: ["would have bought", "bought", "will buy"],
-      correctAnswer: "would have bought",
-      explanation: "Main clause: would have + past participle.",
-      translation: "Habríamos comprado la casa si hubiera sido más barata.",
-      hint: "Result of a past condition."
+    "id": "b2-u21-e6",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "By the time we got there, the concert had already started.",
+    "content": {
+      "title": "Pasado perfecto",
+      "instructions": "Ordena las palabras para hablar de una acción terminada antes de otra en el pasado.",
+      "correctSentence": "[[By|Para]] [[the|cuando]] [[time|llegamos]] [[we|allí,]] [[got|el]] [[there,|concierto]] [[the|ya]] [[concert|había]] [[had|comenzado.]] [[already| ]] [[started.| ]]",
+      "words": [
+        "[[the|cuando]]",
+        "[[there,|allí,]]",
+        "[[started.| ]]",
+        "[[By|Para]]",
+        "[[concert|había]]",
+        "[[had|comenzado.]]",
+        "[[time|llegamos]]",
+        "[[already| ]]",
+        "[[we|allí,]]",
+        "[[the|el]]",
+        "[[got|el]]"
+      ],
+      "explanation": "'By the time' suele introducir una referencia temporal en pasado simple.",
+      "audio": "audio/b2/unit-21/e6.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-21/e6.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u21-e7",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "If you had asked me, I would have helped you.",
-    content: {
-      title: "Third Conditional",
-      instructions: "Choose the correct verb form.",
-      question: "[[If you ___ (ask) me, I would have helped you.|Si me hubieras preguntado, te habría ayudado.]]",
-      options: ["asked", "had asked", "ask"],
-      correctAnswer: "had asked",
-      explanation: "Hypothetical past condition.",
-      translation: "Si me hubieras preguntado, te habría ayudado.",
-      hint: "If + past perfect."
+    "id": "b2-u21-e7",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "Rarely do we see such amazing talent in a young artist.",
+    "content": {
+      "title": "Inversión con 'Rarely'",
+      "instructions": "Ordena las palabras para enfatizar la rareza de un hecho.",
+      "correctSentence": "[[Rarely|Rara vez]] [[do|vemos]] [[we|un]] [[see|talento]] [[such|tan]] [[amazing|increíble]] [[talent|en]] [[in|un]] [[a|artista]] [[young|joven.]] [[artist.| ]]",
+      "words": [
+        "[[do|vemos]]",
+        "[[amazing|increíble]]",
+        "[[artist.| ]]",
+        "[[Rarely|Rara vez]]",
+        "[[talent|en]]",
+        "[[young|joven.]]",
+        "[[we|un]]",
+        "[[see|talento]]",
+        "[[in|un]]",
+        "[[such|tan]]",
+        "[[a|artista]]"
+      ],
+      "explanation": "Inversión con adverbios de frecuencia negativos al principio de la frase.",
+      "audio": "audio/b2/unit-21/e7.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-21/e7.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u21-e8",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "I would have been angry if he hadn't apologized.",
-    content: {
-      title: "Third Conditional",
-      instructions: "Choose the correct verb form.",
-      question: "[[I would have been angry if he ___ (not/apologize).|Me habría enfadado si él no se hubiera disculpado.]]",
-      options: ["not apologize", "didn't apologize", "hadn't apologized"],
-      correctAnswer: "hadn't apologized",
-      explanation: "Past perfect negative in the if-clause.",
-      translation: "Me habría enfadado si él no se hubiera disculpado.",
-      hint: "Negative hypothetical condition."
+    "id": "b2-u21-e8",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "Not only was the hotel expensive, but it was also very dirty.",
+    "content": {
+      "title": "Inversión con 'Not only'",
+      "instructions": "Ordena las palabras para añadir información negativa con énfasis.",
+      "correctSentence": "[[Not|No solo]] [[only|era]] [[was|caro]] [[the|el]] [[hotel|hotel,]] [[expensive,|sino que]] [[but|también]] [[it|estaba]] [[was|muy]] [[also|sucio.]] [[very| ]] [[dirty.| ]]",
+      "words": [
+        "[[only|era]]",
+        "[[expensive,|sino que]]",
+        "[[dirty.| ]]",
+        "[[Not|No solo]]",
+        "[[it|estaba]]",
+        "[[hotel|hotel,]]",
+        "[[was|caro]]",
+        "[[also|sucio.]]",
+        "[[was|muy]]",
+        "[[but|también]]",
+        "[[very| ]]",
+        "[[the|el]]"
+      ],
+      "explanation": "Inversión: 'Not only + auxiliar + sujeto + pero también...'",
+      "audio": "audio/b2/unit-21/e8.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-21/e8.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u21-e9",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "If we had left earlier, we wouldn't have missed the bus.",
-    content: {
-      title: "Third Conditional",
-      instructions: "Choose the correct verb form.",
-      question: "[[If we ___ (leave) earlier, we wouldn't have missed the bus.|Si nos hubiéramos ido antes, no habríamos perdido el autobús.]]",
-      options: ["left", "were leaving", "had left"],
-      correctAnswer: "had left",
-      explanation: "Past perfect for a condition that didn't happen.",
-      translation: "Si nos hubiéramos ido antes, no habríamos perdido el autobús.",
-      hint: "If + past perfect."
+    "id": "b2-u21-e9",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "I wish I hadn't spent all my money on that car.",
+    "content": {
+      "title": "Arrepentimiento pasado",
+      "instructions": "Ordena las palabras para expresar un deseo sobre el pasado.",
+      "correctSentence": "[[I|Ojalá]] [[wish|no]] [[I|hubiera]] [[hadn't|gastado]] [[spent|todo]] [[all|mi]] [[my|dinero]] [[money|en]] [[on|aquel]] [[that|coche.]] [[car.| ]]",
+      "words": [
+        "[[wish|no]]",
+        "[[spent|todo]]",
+        "[[car.| ]]",
+        "[[I|Ojalá]]",
+        "[[money|en]]",
+        "[[hadn't|gastado]]",
+        "[[all|mi]]",
+        "[[that|coche.]]",
+        "[[I|hubiera]]",
+        "[[on|aquel]]",
+        "[[my|dinero]]"
+      ],
+      "explanation": "'I wish' + pasado perfecto se usa para arrepentimientos sobre el pasado.",
+      "audio": "audio/b2/unit-21/e9.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-21/e9.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u21-e10",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "They would have won the match if the captain had played.",
-    content: {
-      title: "Third Conditional",
-      instructions: "Choose the correct verb form.",
-      question: "[[They ___ (win) the match if the captain had played.|Habrían ganado el partido si el capitán hubiera jugado.]]",
-      options: ["won", "would have won", "will win"],
-      correctAnswer: "would have won",
-      explanation: "Result in the third conditional.",
-      translation: "Habrían ganado el partido si el capitán hubiera jugado.",
-      hint: "Would have + participle."
+    "id": "b2-u21-e10",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "Having seen the film before, I didn't want to go again.",
+    "content": {
+      "title": "Cláusula de participio",
+      "instructions": "Ordena las palabras para dar una razón usando el participio perfecto.",
+      "correctSentence": "[[Having|Habiendo]] [[seen|visto]] [[the|la]] [[film|película]] [[before,|antes,]] [[I|no]] [[didn't|quería]] [[want|ir]] [[to|de]] [[go|nuevo.]] [[again.| ]]",
+      "words": [
+        "[[seen|visto]]",
+        "[[before,|antes,]]",
+        "[[again.| ]]",
+        "[[Having|Habiendo]]",
+        "[[didn't|quería]]",
+        "[[film|película]]",
+        "[[to|de]]",
+        "[[go|nuevo.]]",
+        "[[the|la]]",
+        "[[want|ir]]",
+        "[[I|no]]"
+      ],
+      "explanation": "Las cláusulas de participio perfecto indican que una acción ocurrió antes que la principal.",
+      "audio": "audio/b2/unit-21/e10.mp3"
     },
-    topicName: "Grammar"
-  },
-
-  // 11-20: Grammar - Wish and If Only (Past Regrets)
-  {
-    id: "b2-u21-e11",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "hard",
-    transcript: "I wish I hadn't said that to him.",
-    content: {
-      title: "Wish for Regret",
-      instructions: "Choose the correct form of the verb to express a past regret.",
-      question: "[[I wish I ___ (not/say) that to him.|Ojalá no le hubiera dicho eso.]]",
-      options: ["didn't say", "hadn't said", "not say"],
-      correctAnswer: "hadn't said",
-      explanation: "Use 'wish + past perfect' for regrets about the past.",
-      translation: "Ojalá no le hubiera dicho eso.",
-      hint: "Negative past perfect."
-    },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-21/e10.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u21-e12",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "hard",
-    transcript: "If only we had taken a map with us.",
-    content: {
-      title: "If Only for Regret",
-      instructions: "Choose the correct form of the verb.",
-      question: "[[If only we ___ (take) a map with us.|Si tan solo hubiéramos llevado un mapa con nosotros.]]",
-      options: ["took", "had taken", "take"],
-      correctAnswer: "had taken",
-      explanation: "Use 'if only + past perfect' for strong past regrets.",
-      translation: "Si tan solo hubiéramos llevado un mapa con nosotros.",
-      hint: "Past perfect."
+    "id": "b2-u21-e11",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "No sooner had he left the house than it started raining.",
+    "content": {
+      "title": "Inversión con 'No sooner'",
+      "instructions": "Ordena las palabras para hablar de dos acciones sucesivas rápidas.",
+      "correctSentence": "[[No|Apenas]] [[sooner|había]] [[had|salido]] [[he|él]] [[left|de]] [[the|casa]] [[house|cuando]] [[than|empezó]] [[it|a]] [[started|llover.]] [[raining.| ]]",
+      "words": [
+        "[[sooner|había]]",
+        "[[he|él]]",
+        "[[raining.| ]]",
+        "[[No|Apenas]]",
+        "[[house|cuando]]",
+        "[[started|llover.]]",
+        "[[had|salido]]",
+        "[[than|empezó]]",
+        "[[the|casa]]",
+        "[[it|a]]",
+        "[[left|de]]"
+      ],
+      "explanation": "'No sooner... than' es una estructura formal similar a 'Hardly... when'.",
+      "audio": "audio/b2/unit-21/e11.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-21/e11.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u21-e13",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "hard",
-    transcript: "She wishes she had studied medicine at university.",
-    content: {
-      title: "Wish for Regret",
-      instructions: "Choose the correct form of the verb.",
-      question: "[[She wishes she ___ (study) medicine at university.|Ella desearía haber estudiado medicina en la universidad.]]",
-      options: ["studied", "had studied", "studies"],
-      correctAnswer: "had studied",
-      explanation: "Expressing a regret about a past choice.",
-      translation: "Ella desearía haber estudiado medicina en la universidad.",
-      hint: "Past perfect."
+    "id": "b2-u21-e12",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "Suppose you won the lottery, what would you do first?",
+    "content": {
+      "title": "Hipótesis futura",
+      "instructions": "Ordena las palabras para preguntar por una situación imaginaria.",
+      "correctSentence": "[[Suppose|Supón]] [[you|que]] [[won|ganaras]] [[the|la]] [[lottery,|lotería,]] [[what|¿qué]] [[would|harías]] [[you|primero?]] [[do| ]] [[first?| ]]",
+      "words": [
+        "[[you|que]]",
+        "[[lottery,|lotería,]]",
+        "[[first?| ]]",
+        "[[won|ganaras]]",
+        "[[Suppose|Supón]]",
+        "[[do| ]]",
+        "[[would|harías]]",
+        "[[the|la]]",
+        "[[you|primero?]]"
+      ],
+      "explanation": "'Suppose' se usa seguido de pasado simple para imaginar situaciones hipotéticas.",
+      "audio": "audio/b2/unit-21/e12.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-21/e12.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u21-e14",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "hard",
-    transcript: "I wish I had saved more money when I was younger.",
-    content: {
-      title: "Wish for Regret",
-      instructions: "Choose the correct form of the verb.",
-      question: "[[I wish I ___ (save) more money when I was younger.|Ojalá hubiera ahorrado más dinero cuando era más joven.]]",
-      options: ["saved", "had saved", "save"],
-      correctAnswer: "had saved",
-      explanation: "Regret about a past situation.",
-      translation: "Ojalá hubiera ahorrado más dinero cuando era más joven.",
-      hint: "Past perfect."
+    "id": "b2-u21-e13",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "She is likely to get the job because of her experience.",
+    "content": {
+      "title": "Probabilidad con 'Likely'",
+      "instructions": "Ordena las palabras para expresar probabilidad.",
+      "correctSentence": "[[She|Es]] [[is|probable]] [[likely|que]] [[to|consiga]] [[get|el]] [[the|empleo]] [[job|debido]] [[because|a]] [[of|su]] [[her|experiencia.]] [[experience.| ]]",
+      "words": [
+        "[[is|probable]]",
+        "[[get|el]]",
+        "[[experience.| ]]",
+        "[[likely|que]]",
+        "[[She|Es]]",
+        "[[of|su]]",
+        "[[the|empleo]]",
+        "[[to|consiga]]",
+        "[[because|a]]",
+        "[[her|experiencia.]]",
+        "[[job|debido]]"
+      ],
+      "explanation": "'Be likely to + infinitivo' es la estructura para expresar probabilidad.",
+      "audio": "audio/b2/unit-21/e13.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-21/e13.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u21-e15",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "hard",
-    transcript: "If only you had told me the truth earlier.",
-    content: {
-      title: "If Only for Regret",
-      instructions: "Choose the correct form of the verb.",
-      question: "[[If only you ___ (tell) me the truth earlier.|Si tan solo me hubieras dicho la verdad antes.]]",
-      options: ["told", "had told", "tell"],
-      correctAnswer: "had told",
-      explanation: "Strong regret about the past.",
-      translation: "Si tan solo me hubieras dicho la verdad antes.",
-      hint: "Past perfect."
+    "id": "b2-u21-e14",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "Unless it stops raining, we won't be able to go for a walk.",
+    "content": {
+      "title": "Condición con 'Unless'",
+      "instructions": "Ordena las palabras para expresar una condición negativa.",
+      "correctSentence": "[[Unless|A menos]] [[it|que]] [[stops|deje]] [[raining,|de llover,]] [[we|no]] [[won't|podremos]] [[be|ir]] [[able|a]] [[to|dar]] [[go|un]] [[for|paseo.]] [[a| ]] [[walk.| ]]",
+      "words": [
+        "[[it|que]]",
+        "[[raining,|de llover,]]",
+        "[[walk.| ]]",
+        "[[stops|deje]]",
+        "[[Unless|A menos]]",
+        "[[for|paseo.]]",
+        "[[be|ir]]",
+        "[[we|no]]",
+        "[[go|un]]",
+        "[[to|dar]]",
+        "[[a| ]]",
+        "[[won't|podremos]]",
+        "[[able|a]]"
+      ],
+      "explanation": "'Unless' significa 'si no' o 'a menos que'.",
+      "audio": "audio/b2/unit-21/e14.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-21/e14.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u21-e16",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "hard",
-    transcript: "They wish they hadn't sold their old house.",
-    content: {
-      title: "Wish for Regret",
-      instructions: "Choose the correct form of the verb.",
-      question: "[[They wish they ___ (not/sell) their old house.|Desearían no haber vendido su antigua casa.]]",
-      options: ["didn't sell", "hadn't sold", "haven't sold"],
-      correctAnswer: "hadn't sold",
-      explanation: "Regretting a past action.",
-      translation: "Desearían no haber vendido su antigua casa.",
-      hint: "Negative past perfect."
+    "id": "b2-u21-e15",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "Providing that you work hard, you will succeed in life.",
+    "content": {
+      "title": "Condición con 'Providing'",
+      "instructions": "Ordena las palabras para una condición positiva.",
+      "correctSentence": "[[Providing|Siempre]] [[that|que]] [[you|trabajes]] [[work|duro,]] [[hard,|tendrás]] [[you|éxito]] [[will|en]] [[succeed|la]] [[in|vida.]] [[life.| ]]",
+      "words": [
+        "[[that|que]]",
+        "[[hard,|tendrás]]",
+        "[[life.|vida.]]",
+        "[[work|duro,]]",
+        "[[Providing|Siempre]]",
+        "[[in|vida.]]",
+        "[[you|trabajes]]",
+        "[[succeed|la]]",
+        "[[will|en]]",
+        "[[you|éxito]]"
+      ],
+      "explanation": "'Providing that' es un conector condicional más formal que 'if'.",
+      "audio": "audio/b2/unit-21/e15.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-21/e15.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u21-e17",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "hard",
-    transcript: "If only it hadn't rained yesterday.",
-    content: {
-      title: "If Only for Regret",
-      instructions: "Choose the correct form of the verb.",
-      question: "[[If only it ___ (not/rain) yesterday.|Si tan solo no hubiera llovido ayer.]]",
-      options: ["didn't rain", "hadn't rained", "won't rain"],
-      correctAnswer: "hadn't rained",
-      explanation: "Regretting something that was out of our control in the past.",
-      translation: "Si tan solo no hubiera llovido ayer.",
-      hint: "Negative past perfect."
+    "id": "b2-u21-e16",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "Under no circumstances are you allowed to use your phone during the exam.",
+    "content": {
+      "title": "Inversión prohibitiva",
+      "instructions": "Ordena las palabras para expresar una prohibición estricta.",
+      "correctSentence": "[[Under|Bajo]] [[no|ninguna]] [[circumstances|circunstancia]] [[are|se]] [[you|le]] [[allowed|permite]] [[to|usar]] [[use|el]] [[your|móvil]] [[phone|durante]] [[during|el]] [[the|examen.]] [[exam.| ]]",
+      "words": [
+        "[[no|ninguna]]",
+        "[[are|se]]",
+        "[[exam.| ]]",
+        "[[circumstances|circunstancia]]",
+        "[[Under|Bajo]]",
+        "[[the|examen.]]",
+        "[[allowed|permite]]",
+        "[[phone|durante]]",
+        "[[during|el]]",
+        "[[your|móvil]]",
+        "[[you|le]]",
+        "[[use|el]]",
+        "[[to|usar]]"
+      ],
+      "explanation": "Inversión con expresiones preposicionales negativas: Preposición + no + sustantivo + auxiliar + sujeto.",
+      "audio": "audio/b2/unit-21/e16.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-21/e16.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u21-e18",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "hard",
-    transcript: "He wishes he hadn't quit his job.",
-    content: {
-      title: "Wish for Regret",
-      instructions: "Choose the correct form of the verb.",
-      question: "[[He wishes he ___ (not/quit) his job.|Él desearía no haber dejado su trabajo.]]",
-      options: ["didn't quit", "hadn't quit", "doesn't quit"],
-      correctAnswer: "hadn't quit",
-      explanation: "Regretting a past decision.",
-      translation: "Él desearía no haber dejado su trabajo.",
-      hint: "Negative past perfect."
+    "id": "b2-u21-e17",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "The more you practice, the easier it becomes.",
+    "content": {
+      "title": "Comparativos dobles",
+      "instructions": "Ordena las palabras para expresar causa y efecto proporcional.",
+      "correctSentence": "[[The|Cuanto]] [[more|más]] [[you|practiques,]] [[practice,|más]] [[the|fácil]] [[easier|se]] [[it|vuelve.]] [[becomes.| ]]",
+      "words": [
+        "[[more|más]]",
+        "[[easier|se]]",
+        "[[becomes.| ]]",
+        "[[practice,|más]]",
+        "[[The|Cuanto]]",
+        "[[it|vuelve.]]",
+        "[[you|practiques,]]",
+        "[[the|fácil]]"
+      ],
+      "explanation": "Estructura 'The + comparativo, the + comparativo'.",
+      "audio": "audio/b2/unit-21/e17.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-21/e17.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u21-e19",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "hard",
-    transcript: "I wish I had known you were in town.",
-    content: {
-      title: "Wish for Regret",
-      instructions: "Choose the correct form of the verb.",
-      question: "[[I wish I ___ (know) you were in town.|Ojalá hubiera sabido que estabas en la ciudad.]]",
-      options: ["knew", "had known", "know"],
-      correctAnswer: "had known",
-      explanation: "Regretting lack of knowledge in the past.",
-      translation: "Ojalá hubiera sabido que estabas en la ciudad.",
-      hint: "Past perfect."
+    "id": "b2-u21-e18",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "She was so tired that she fell asleep on the bus.",
+    "content": {
+      "title": "Causa y consecuencia",
+      "instructions": "Ordena las palabras usando 'so... that'.",
+      "correctSentence": "[[She|Ella]] [[was|estaba]] [[so|tan]] [[tired|cansada]] [[that|que]] [[she|se]] [[fell|quedó]] [[asleep|dormida]] [[on|en]] [[the|el]] [[bus.|autobús.]]",
+      "words": [
+        "[[was|estaba]]",
+        "[[that|que]]",
+        "[[bus.|autobús.]]",
+        "[[so|tan]]",
+        "[[She|Ella]]",
+        "[[asleep|dormida]]",
+        "[[the|el]]",
+        "[[fell|quedó]]",
+        "[[on|en]]",
+        "[[she|se]]",
+        "[[tired|cansada]]"
+      ],
+      "explanation": "'So + adjetivo + that' se usa para expresar consecuencias.",
+      "audio": "audio/b2/unit-21/e18.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-21/e18.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u21-e20",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "hard",
-    transcript: "If only she had listened to my advice.",
-    content: {
-      title: "If Only for Regret",
-      instructions: "Choose the correct form of the verb.",
-      question: "[[If only she ___ (listen) to my advice.|Si tan solo ella hubiera escuchado mi consejo.]]",
-      options: ["listened", "had listened", "listens"],
-      correctAnswer: "had listened",
-      explanation: "Strong regret about someone else's past action.",
-      translation: "Si tan solo ella hubiera escuchado mi consejo.",
-      hint: "Past perfect."
+    "id": "b2-u21-e19",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "It was such a boring meeting that I almost fell asleep.",
+    "content": {
+      "title": "Causa con sustantivo",
+      "instructions": "Ordena las palabras usando 'such a... that'.",
+      "correctSentence": "[[It|Fue]] [[was|una]] [[such|reunión]] [[a|tan]] [[boring|aburrida]] [[meeting|que]] [[that|casi]] [[I|me]] [[almost|quedo]] [[fell|dormido.]] [[asleep.| ]]",
+      "words": [
+        "[[was|una]]",
+        "[[meeting|que]]",
+        "[[asleep.| ]]",
+        "[[such|reunión]]",
+        "[[It|Fue]]",
+        "[[fell|dormido.]]",
+        "[[almost|quedo]]",
+        "[[boring|aburrida]]",
+        "[[that|casi]]",
+        "[[I|me]]",
+        "[[a|tan]]"
+      ],
+      "explanation": "'Such a + adjetivo + sustantivo + that' se usa para enfatizar una cualidad de algo.",
+      "audio": "audio/b2/unit-21/e19.mp3"
     },
-    topicName: "Grammar"
-  },
-
-  // 21-30: Vocabulary - Global Social Issues
-  {
-    id: "b2-u21-e21",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "Poverty is a major issue in many developing countries.",
-    content: {
-      title: "Social Issues",
-      instructions: "Choose the correct term.",
-      question: "[[___ (Poverty) is a major issue in many developing countries.|La pobreza es un problema importante en muchos países en desarrollo.]]",
-      options: ["[[Poverty|Pobreza]]", "[[Property|Propiedad]]", "[[Priority|Prioridad]]"],
-      correctAnswer: "Poverty",
-      explanation: "Poverty is the state of being extremely poor.",
-      translation: "La pobreza es un problema importante en muchos países en desarrollo.",
-      hint: "State of being poor."
-    },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-21/e19.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u21-e22",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "We need to combat inequality in the workplace.",
-    content: {
-      title: "Social Issues",
-      instructions: "Choose the correct term.",
-      question: "[[We need to combat ___ (inequality) in the workplace.|Necesitamos combatir la desigualdad en el lugar de trabajo.]]",
-      options: ["[[inequality|desigualdad]]", "[[equality|igualdad]]", "[[iniquity|iniquidad]]"],
-      correctAnswer: "inequality",
-      explanation: "Inequality is the lack of equality.",
-      translation: "Necesitamos combatir la desigualdad en el lugar de trabajo.",
-      hint: "Opposite of equality."
+    "id": "b2-u21-e20",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "In spite of the rain, we went out for a walk.",
+    "content": {
+      "title": "Contraste con 'In spite of'",
+      "instructions": "Ordena las palabras para contrastar hechos.",
+      "correctSentence": "[[In|A]] [[spite|pesar]] [[of|de]] [[the|la]] [[rain,|lluvia,]] [[we|salimos]] [[went|a]] [[out|dar]] [[for|un]] [[a|paseo.]] [[walk.| ]]",
+      "words": [
+        "[[spite|pesar]]",
+        "[[rain,|lluvia,]]",
+        "[[walk.| ]]",
+        "[[of|de]]",
+        "[[In|A]]",
+        "[[for|un]]",
+        "[[went|a]]",
+        "[[out|dar]]",
+        "[[we|salimos]]",
+        "[[the|la]]",
+        "[[a|paseo.]]"
+      ],
+      "explanation": "'In spite of' es sinónimo de 'despite' y va seguido de sustantivo o gerundio.",
+      "audio": "audio/b2/unit-21/e20.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-21/e20.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u21-e23",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "Homelessness has increased in big cities.",
-    content: {
-      title: "Social Issues",
-      instructions: "Choose the correct term.",
-      question: "[[___ (Homelessness) has increased in big cities.|La falta de vivienda ha aumentado en las grandes ciudades.]]",
-      options: ["[[Homelessness|Falta de vivienda]]", "[[Homesickness|Nostalgia]]", "[[Homeliness|Sencillez]]"],
-      correctAnswer: "Homelessness",
-      explanation: "Homelessness is the state of having no home.",
-      translation: "La falta de vivienda ha aumentado en las grandes ciudades.",
-      hint: "Having no home."
+    "id": "b2-u21-e21",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "Had you told me earlier, I would have helped you.",
+    "content": {
+      "title": "Ayuda a tiempo",
+      "instructions": "Ordena las palabras con inversión formal en el pasado.",
+      "correctSentence": "[[Had|Si]] [[you|me]] [[told|hubieras]] [[me|dicho]] [[earlier,|antes,]] [[I|te]] [[would|habría]] [[have|ayudado.]] [[helped| ]] [[you.| ]]",
+      "words": [
+        "[[you|me]]",
+        "[[me|dicho]]",
+        "[[you.| ]]",
+        "[[told|hubieras]]",
+        "[[Had|Si]]",
+        "[[helped| ]]",
+        "[[earlier,|antes,]]",
+        "[[have|ayudado.]]",
+        "[[I|te]]",
+        "[[would|habría]]"
+      ],
+      "explanation": "Otro ejemplo de inversión en el tercer condicional.",
+      "audio": "audio/b2/unit-21/e21.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-21/e21.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u21-e24",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "The government is tackling unemployment with new schemes.",
-    content: {
-      title: "Social Issues",
-      instructions: "Choose the correct term.",
-      question: "[[The government is tackling ___ (unemployment) with new schemes.|El gobierno está abordando el desempleo con nuevos planes.]]",
-      options: ["[[unemployment|desempleo]]", "[[employment|empleo]]", "[[employer|empleador]]"],
-      correctAnswer: "unemployment",
-      explanation: "Unemployment is the state of being without a job.",
-      translation: "El gobierno está abordando el desempleo con nuevos planes.",
-      hint: "Not having a job."
+    "id": "b2-u21-e22",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "I am not used to driving on the left side of the road.",
+    "content": {
+      "title": "Acostumbrarse",
+      "instructions": "Ordena las palabras para hablar de falta de hábito.",
+      "correctSentence": "[[I|No]] [[am|estoy]] [[not|acostumbrado]] [[used|a]] [[to|conducir]] [[driving|por]] [[on|la]] [[the|izquierda]] [[left|de]] [[side|la]] [[of|carretera.]] [[the| ]] [[road.| ]]",
+      "words": [
+        "[[am|estoy]]",
+        "[[driving|por]]",
+        "[[road.| ]]",
+        "[[not|acostumbrado]]",
+        "[[I|No]]",
+        "[[the|izquierda]]",
+        "[[side|la]]",
+        "[[to|conducir]]",
+        "[[left|de]]",
+        "[[the| ]]",
+        "[[of|carretera.]]",
+        "[[used|a]]",
+        "[[on|la]]"
+      ],
+      "explanation": "'Be used to + gerundio' significa estar acostumbrado a algo.",
+      "audio": "audio/b2/unit-21/e22.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-21/e22.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u21-e25",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "Discrimination based on gender is illegal.",
-    content: {
-      title: "Social Issues",
-      instructions: "Choose the correct term.",
-      question: "[[___ (Discrimination) based on gender is illegal.|La discriminación por motivos de género es ilegal.]]",
-      options: ["[[Discrimination|Discriminación]]", "[[Description|Descripción]]", "[[Discretion|Discreción]]"],
-      correctAnswer: "Discrimination",
-      explanation: "Discrimination is the unjust treatment of different categories of people.",
-      translation: "La discriminación por motivos de género es ilegal.",
-      hint: "Unjust treatment."
+    "id": "b2-u21-e23",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "Little did she know that a surprise was waiting for her.",
+    "content": {
+      "title": "Inversión con 'Little'",
+      "instructions": "Ordena las palabras para expresar falta total de conocimiento sobre algo.",
+      "correctSentence": "[[Little|Poco]] [[did|sabía]] [[she|ella]] [[know|que]] [[that|una]] [[a|sorpresa]] [[surprise|la]] [[was|estaba]] [[waiting|esperando.]] [[for| ]] [[her.| ]]",
+      "words": [
+        "[[did|sabía]]",
+        "[[surprise|la]]",
+        "[[her.| ]]",
+        "[[she|ella]]",
+        "[[Little|Poco]]",
+        "[[waiting|esperando.]]",
+        "[[a|sorpresa]]",
+        "[[that|una]]",
+        "[[was|estaba]]",
+        "[[know|que]]",
+        "[[for| ]]"
+      ],
+      "explanation": "'Little did she know' es una expresión literaria que significa que no tenía ni idea.",
+      "audio": "audio/b2/unit-21/e23.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-21/e23.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u21-e26",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "Access to education should be a universal right.",
-    content: {
-      title: "Social Issues",
-      instructions: "Choose the correct term.",
-      question: "[[Access to ___ (education) should be a universal right.|El acceso a la educación debería ser un derecho universal.]]",
-      options: ["[[education|educación]]", "[[edition|edición]]", "[[addiction|adicción]]"],
-      correctAnswer: "education",
-      explanation: "Education is the process of receiving or giving systematic instruction.",
-      translation: "El acceso a la educación debería ser un derecho universal.",
-      hint: "Learning/instruction."
+    "id": "b2-u21-e24",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "Should you see Mark, tell him I need to talk to him.",
+    "content": {
+      "title": "Inversión con 'Should'",
+      "instructions": "Ordena las palabras para dar un recado condicional.",
+      "correctSentence": "[[Should|Si]] [[you|ves]] [[see|a]] [[Mark,|Mark,]] [[tell|dile]] [[him|que]] [[I|necesito]] [[need|hablar]] [[to|con]] [[talk|él.]] [[to| ]] [[him.| ]]",
+      "words": [
+        "[[you|ves]]",
+        "[[Mark,|Mark,]]",
+        "[[him.| ]]",
+        "[[see|a]]",
+        "[[Should|Si]]",
+        "[[talk|él.]]",
+        "[[need|hablar]]",
+        "[[him|que]]",
+        "[[to|con]]",
+        "[[tell|dile]]",
+        "[[to| ]]",
+        "[[I|necesito]]"
+      ],
+      "explanation": "'Should you' es una forma cortés y formal de decir 'If you see'.",
+      "audio": "audio/b2/unit-21/e24.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-21/e24.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u21-e27",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "The healthcare system is under a lot of pressure.",
-    content: {
-      title: "Social Issues",
-      instructions: "Choose the correct term.",
-      question: "[[The ___ (healthcare) system is under a lot of pressure.|El sistema de salud está bajo mucha presión.]]",
-      options: ["[[healthcare|salud / asistencia sanitaria]]", "[[daycare|guardería]]", "[[skincare|cuidado de la piel]]"],
-      correctAnswer: "healthcare",
-      explanation: "Healthcare is the organized provision of medical care.",
-      translation: "El sistema de salud está bajo mucha presión.",
-      hint: "Medical care system."
+    "id": "b2-u21-e25",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "I'd rather you stayed home tonight instead of going out.",
+    "content": {
+      "title": "En casa o fuera",
+      "instructions": "Ordena las palabras usando 'rather' con cambio de sujeto.",
+      "correctSentence": "[[I'd|Preferiría]] [[rather|que]] [[you|te]] [[stayed|quedases]] [[home|en]] [[tonight|casa]] [[instead|esta]] [[of|noche]] [[going|en]] [[out.|lugar de salir.]]",
+      "words": [
+        "[[rather|que]]",
+        "[[stayed|quedases]]",
+        "[[out.|lugar de salir.]]",
+        "[[you|te]]",
+        "[[I'd|Preferiría]]",
+        "[[instead|esta]]",
+        "[[tonight|casa]]",
+        "[[going|en]]",
+        "[[home|en]]",
+        "[[of|noche]]"
+      ],
+      "explanation": "'I'd rather you + pasado simple' para deseos sobre el presente/futuro de otros.",
+      "audio": "audio/b2/unit-21/e25.mp3"
     },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u21-e28",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "Corruption is undermining the country's economy.",
-    content: {
-      title: "Social Issues",
-      instructions: "Choose the correct term.",
-      question: "[[___ (Corruption) is undermining the country's economy.|La corrupción está socavando la economía del país.]]",
-      options: ["[[Corruption|Corrupción]]", "[[Correction|Corrección]]", "[[Connection|Conexión]]"],
-      correctAnswer: "Corruption",
-      explanation: "Corruption is dishonest or fraudulent conduct by those in power.",
-      translation: "La corrupción está socavando la economía del país.",
-      hint: "Dishonesty in power."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u21-e29",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "We must protect the environment for future generations.",
-    content: {
-      title: "Social Issues",
-      instructions: "Choose the correct term.",
-      question: "[[We must protect the ___ (environment) for future generations.|Debemos proteger el medio ambiente para las generaciones futuras.]]",
-      options: ["[[environment|medio ambiente]]", "[[enjoyment|disfrute]]", "[[enlargement|ampliación]]"],
-      correctAnswer: "environment",
-      explanation: "The environment is the surroundings in which a person, animal, or plant lives.",
-      translation: "Debemos proteger el medio ambiente para las generaciones futuras.",
-      hint: "Nature/surroundings."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u21-e30",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "Migration is a complex and sensitive topic.",
-    content: {
-      title: "Social Issues",
-      instructions: "Choose the correct term.",
-      question: "[[___ (Migration) is a complex and sensitive topic.|La migración es un tema complejo y delicado.]]",
-      options: ["[[Migration|Migración]]", "[[Mitigation|Mitigación]]", "[[Mutation|Mutación]]"],
-      correctAnswer: "Migration",
-      explanation: "Migration is movement from one part of something to another.",
-      translation: "La migración es un tema complejo y delicado.",
-      hint: "Movement of people."
-    },
-    topicName: "Vocabulary"
-  },
-
-  // 31-40: Vocabulary - Social Activism
-  {
-    id: "b2-u21-e31",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "She is a passionate activist for human rights.",
-    content: {
-      title: "Activism",
-      instructions: "Choose the correct term.",
-      question: "[[She is a passionate ___ for human rights.|Ella es una activista apasionada por los derechos humanos.]]",
-      options: ["worker", "activist", "leader"],
-      correctAnswer: "activist",
-      explanation: "An activist is a person who campaigns to bring about political or social change.",
-      translation: "Ella es una activista apasionada por los derechos humanos.",
-      hint: "Someone who campaigns."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u21-e32",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "We joined a protest against the new law.",
-    content: {
-      title: "Activism",
-      instructions: "Choose the correct term.",
-      question: "[[We joined a ___ against the new law.|Nos unimos a una protesta contra la nueva ley.]]",
-      options: ["party", "meeting", "protest"],
-      correctAnswer: "protest",
-      explanation: "A protest is a statement or action expressing disapproval of something.",
-      translation: "Nos unimos a una protesta contra la nueva ley.",
-      hint: "Expressing disapproval."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u21-e33",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "The charity raised thousands of dollars for the cause.",
-    content: {
-      title: "Activism",
-      instructions: "Choose the correct verb.",
-      question: "[[The charity ___ thousands of dollars for the cause.|La organización benéfica recaudó miles de dólares para la causa.]]",
-      options: ["won", "raised", "took"],
-      correctAnswer: "raised",
-      explanation: "To raise money means to collect it for a specific purpose.",
-      translation: "La organización benéfica recaudó miles de dólares para la causa.",
-      hint: "Collected money."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u21-e34",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "We need to raise awareness about mental health.",
-    content: {
-      title: "Activism",
-      instructions: "Choose the correct term.",
-      question: "[[We need to raise ___ about mental health.|Necesitamos concienciar sobre la salud mental.]]",
-      options: ["knowledge", "news", "awareness"],
-      correctAnswer: "awareness",
-      explanation: "Awareness is knowledge or perception of a situation or fact.",
-      translation: "Necesitamos concienciar sobre la salud mental.",
-      hint: "Consciousness/knowledge."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u21-e35",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "He works as a volunteer at the local shelter.",
-    content: {
-      title: "Activism",
-      instructions: "Choose the correct term.",
-      question: "[[He works as a ___ at the local shelter.|Trabaja como voluntario en el refugio local.]]",
-      options: ["boss", "staff", "volunteer"],
-      correctAnswer: "volunteer",
-      explanation: "A volunteer is a person who freely offers to take part in an enterprise or undertake a task.",
-      translation: "Trabaja como voluntario en el refugio local.",
-      hint: "Unpaid worker."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u21-e36",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "The campaign aims to reduce plastic waste.",
-    content: {
-      title: "Activism",
-      instructions: "Choose the correct term.",
-      question: "[[The ___ aims to reduce plastic waste.|La campaña pretende reducir los residuos plásticos.]]",
-      options: ["battle", "war", "campaign"],
-      correctAnswer: "campaign",
-      explanation: "A campaign is an organized course of action to achieve a goal.",
-      translation: "La campaña pretende reducir los residuos plásticos.",
-      hint: "Organized action."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u21-e37",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "We should advocate for better social policies.",
-    content: {
-      title: "Activism",
-      instructions: "Choose the correct verb.",
-      question: "[[We should ___ for better social policies.|Deberíamos abogar por mejores políticas sociales.]]",
-      options: ["talk", "advocate", "tell"],
-      correctAnswer: "advocate",
-      explanation: "To advocate means to publicly recommend or support.",
-      translation: "Deberíamos abogar por mejores políticas sociales.",
-      hint: "Support/recommend."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u21-e38",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "They signed a petition to save the park.",
-    content: {
-      title: "Activism",
-      instructions: "Choose the correct term.",
-      question: "[[They signed a ___ to save the park.|Firmaron una petición para salvar el parque.]]",
-      options: ["petition", "letter", "paper"],
-      correctAnswer: "petition",
-      explanation: "A petition is a formal written request, typically signed by many people.",
-      translation: "Firmaron una petición para salvar el parque.",
-      hint: "Signed request."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u21-e39",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "The non-profit organization helps refugees.",
-    content: {
-      title: "Activism",
-      instructions: "Choose the correct term.",
-      question: "[[The non-profit ___ helps refugees.|La organización sin ánimo de lucro ayuda a los refugiados.]]",
-      options: ["club", "group", "organization"],
-      correctAnswer: "organization",
-      explanation: "An organization is an organized body of people with a particular purpose.",
-      translation: "La organización sin ánimo de lucro ayuda a los refugiados.",
-      hint: "Body of people."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u21-e40",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "We can all make a difference in our community.",
-    content: {
-      title: "Activism",
-      instructions: "Choose the correct term.",
-      question: "[[We can all make a ___ in our community.|Todos podemos marcar la diferencia en nuestra comunidad.]]",
-      options: ["change", "difference", "move"],
-      correctAnswer: "difference",
-      explanation: "To make a difference means to have a significant effect on a person or situation.",
-      translation: "Todos podemos marcar la diferencia en nuestra comunidad.",
-      hint: "Significant effect."
-    },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-21/e25.mp3",
+    "topicName": "Grammar"
   },
 
-  // 41-50: Word Formation
+  // 26-50: Multiple Choice (Advanced Grammar Review - Mix of B2 topics)
   {
-    id: "b2-u21-e41",
-    type: "word-formation",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "The equality of opportunity is vital.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The ___ (EQUAL) of opportunity is vital.|La igualdad de oportunidades es vital.]]",
-      correctAnswer: "equality",
-      explanation: "Noun form of 'equal'.",
-      translation: "La igualdad de oportunidades es vital.",
-      hint: "Noun from equal."
+    "id": "b2-u21-e26",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "By the end of next month, I will have been working here for a year.",
+    "content": {
+      "title": "Un año de trabajo",
+      "instructions": "Elige la forma verbal correcta para el futuro perfecto continuo.",
+      "questions": [
+        {
+          "question": "[[By|Para]] [[the|final]] [[end|del]] [[of|mes]] [[next|que]] [[month,|viene,]] [[I| ]] _______ _______ _______ _______ [[here|aquí]] [[for|durante]] [[a|un]] [[year.|año.]]",
+          "options": ["[[will have been working|habré estado trabajando]]", "[[will be working|estaré trabajando]]", "[[have been working|he estado trabajando]]"],
+          "correctAnswer": 0,
+          "explanation": "Futuro perfecto continuo para enfatizar la duración hasta un punto futuro.",
+          "audio": "audio/b2/unit-21/e26.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-21/e26.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u21-e42",
-    type: "word-formation",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "Poverty is a systemic problem.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[___ (POOR) is a systemic problem.|La pobreza es un problema sistémico.]]",
-      correctAnswer: "poverty",
-      explanation: "Noun form of 'poor'.",
-      translation: "La pobreza es un problema sistémico.",
-      hint: "Noun from poor."
+    "id": "b2-u21-e27",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "If only I had more free time to travel!",
+    "content": {
+      "title": "Deseo presente",
+      "instructions": "Elige la forma verbal tras 'If only' para un deseo presente.",
+      "questions": [
+        {
+          "question": "_______ _______ [[I|¡Ojalá]] [[had|tuviera]] [[more|más]] [[free|tiempo]] [[time|libre]] [[to|para]] [[travel!|viajar!]]",
+          "options": ["[[If only|Ojalá]]", "[[If I wish|Si deseara]]", "[[I hope|Espero]]"],
+          "correctAnswer": 0,
+          "explanation": "'If only' es más fuerte que 'I wish' y sigue las mismas reglas gramaticales.",
+          "audio": "audio/b2/unit-21/e27.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-21/e27.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u21-e43",
-    type: "word-formation",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "The justice system needs reform.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The ___ (JUST) system needs reform.|El sistema de justicia necesita una reforma.]]",
-      correctAnswer: "justice",
-      explanation: "Noun form of 'just'.",
-      translation: "El sistema de justicia necesita una reforma.",
-      hint: "Noun from just."
+    "id": "b2-u21-e28",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "You are supposed to turn off the lights when you leave.",
+    "content": {
+      "title": "Obligación suave",
+      "instructions": "Elige la expresión para lo que se supone que debes hacer.",
+      "questions": [
+        {
+          "question": "[[You|Se supone]] _______ _______ _______ [[to|que]] [[turn|debes]] [[off|apagar]] [[the|las]] [[lights|luces]] [[when|cuando]] [[you|te]] [[leave.|vayas.]]",
+          "options": ["[[are supposed|debes / se supone]]", "[[suppose|supones]]", "[[are supposing|estás suponiendo]]"],
+          "correctAnswer": 0,
+          "explanation": "'Be supposed to' se usa para reglas, costumbres o expectativas.",
+          "audio": "audio/b2/unit-21/e28.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-21/e28.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u21-e44",
-    type: "word-formation",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "We must fight against racism and bias.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[We must fight against ___ (RACIAL) and bias.|Debemos luchar contra el racismo y los prejuicios.]]",
-      correctAnswer: "racism",
-      explanation: "Noun form related to 'race/racial'.",
-      translation: "Debemos luchar contra el racismo y los prejuicios.",
-      hint: "Discrimination based on race."
+    "id": "b2-u21-e29",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "I'll help you with the project as long as you provide the data.",
+    "content": {
+      "title": "Siempre que",
+      "instructions": "Elige el conector condicional de condición necesaria.",
+      "questions": [
+        {
+          "question": "[[I'll|Te]] [[help|ayudaré]] [[you|con]] [[with|el]] [[the|proyecto]] _______ _______ _______ [[you|siempre]] [[provide|que]] [[the|proporciones]] [[data.|los datos.]]",
+          "options": ["[[as long as|siempre que]]", "[[as far as|por lo que]]", "[[as soon as|tan pronto como]]"],
+          "correctAnswer": 0,
+          "explanation": "'As long as' introduce una condición que debe cumplirse.",
+          "audio": "audio/b2/unit-21/e29.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-21/e29.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u21-e45",
-    type: "word-formation",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "His generosity towards the charity was touching.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[His ___ (GENEROUS) towards the charity was touching.|Su generosidad hacia la organización benéfica fue conmovedora.]]",
-      correctAnswer: "generosity",
-      explanation: "Noun form of 'generous'.",
-      translation: "Su generosidad hacia la organización benéfica fue conmovedora.",
-      hint: "Noun from generous."
+    "id": "b2-u21-e30",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "He denied having stolen the jewelry.",
+    "content": {
+      "title": "Negar un hecho",
+      "instructions": "Elige la forma verbal adecuada tras el verbo 'deny'.",
+      "questions": [
+        {
+          "question": "[[He|Él]] [[denied|negó]] _______ [[the|haber]] [[jewelry.|robado las joyas.]]",
+          "options": ["[[having stolen|haber robado]]", "[[to steal|robar]]", "[[that he steals|que roba]]"],
+          "correctAnswer": 0,
+          "explanation": "'Deny' puede ir seguido de gerundio o de participio perfecto para enfatizar el pasado.",
+          "audio": "audio/b2/unit-21/e30.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-21/e30.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u21-e46",
-    type: "word-formation",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "The solution to homelessness is complex.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The ___ (SOLVE) to homelessness is complex.|La solución a la falta de vivienda es compleja.]]",
-      correctAnswer: "solution",
-      explanation: "Noun form of 'solve'.",
-      translation: "La solución a la falta de vivienda es compleja.",
-      hint: "Noun from solve."
+    "id": "b2-u21-e31",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "Despite the cold weather, they went swimming in the lake.",
+    "content": {
+      "title": "Contraste con sustantivo",
+      "instructions": "Elige el conector de contraste que va seguido de sustantivo.",
+      "questions": [
+        {
+          "question": "_______ [[the|A pesar del]] [[cold|tiempo]] [[weather,|frío,]] [[they|fueron]] [[went|a]] [[swimming|nadar]] [[in|al]] [[the|lago.]] [[lake.| ]]",
+          "options": ["[[Despite|A pesar de]]", "[[Although|Aunque]]", "[[Even though|Incluso aunque]]"],
+          "correctAnswer": 0,
+          "explanation": "'Despite' e 'In spite of' van seguidos de sustantivo, mientras que 'Although' va seguido de una oración completa.",
+          "audio": "audio/b2/unit-21/e31.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-21/e31.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u21-e47",
-    type: "word-formation",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "She is a very influential activist.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[She is a very ___ (INFLUENCE) activist.|Es una activista muy influyente.]]",
-      correctAnswer: "influential",
-      explanation: "Adjective form of 'influence'.",
-      translation: "Es una activista muy influyente.",
-      hint: "Having influence."
+    "id": "b2-u21-e32",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "You had better see a doctor about that cough.",
+    "content": {
+      "title": "Mejor que...",
+      "instructions": "Elige la expresión para dar un consejo fuerte.",
+      "questions": [
+        {
+          "question": "[[You|Sería mejor]] _______ _______ [[see|que]] [[a|vieras a]] [[doctor|un médico]] [[about|por]] [[that|esa]] [[cough.|tos.]]",
+          "options": ["[[had better|sería mejor]]", "[[would better|mejoraría]]", "[[should better|debería mejor]]"],
+          "correctAnswer": 0,
+          "explanation": "'Had better' va seguido de infinitivo sin 'to' y se usa para consejos urgentes.",
+          "audio": "audio/b2/unit-21/e32.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-21/e32.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u21-e48",
-    type: "word-formation",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "The construction of new housing is a priority.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The ___ (CONSTRUCT) of new housing is a priority.|La construcción de nuevas viviendas es una prioridad.]]",
-      correctAnswer: "construction",
-      explanation: "Noun form of 'construct'.",
-      translation: "La construcción de nuevas viviendas es una prioridad.",
-      hint: "Noun from construct."
+    "id": "b2-u21-e33",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "Never have I heard such a ridiculous story.",
+    "content": {
+      "title": "Nunca jamás",
+      "instructions": "Elige la inversión para esta frase enfática.",
+      "questions": [
+        {
+          "question": "[[Never|Nunca]] _______ _______ _______ [[such|he oído una]] [[a|historia]] [[ridiculous|tan]] [[story.|ridícula.]]",
+          "options": ["[[have I heard|he oído]]", "[[I have heard|he oído (normal)]]", "[[did I hear|oí]]"],
+          "correctAnswer": 0,
+          "explanation": "Inversión con 'Never' al principio para dar un tono dramático o formal.",
+          "audio": "audio/b2/unit-21/e33.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-21/e33.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u21-e49",
-    type: "word-formation",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "He showed great compassion for the victims.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[He showed great ___ (COMPASSIONATE) for the victims.|Mostró una gran compasión por las víctimas.]]",
-      correctAnswer: "compassion",
-      explanation: "Noun form of 'compassionate'.",
-      translation: "Mostró una gran compasión por las víctimas.",
-      hint: "Noun from compassionate."
+    "id": "b2-u21-e34",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "If she hadn't missed the train, she would be here by now.",
+    "content": {
+      "title": "Llegar tarde",
+      "instructions": "Elige la forma verbal para el resultado en este condicional mixto.",
+      "questions": [
+        {
+          "question": "[[If|Si]] [[she|ella]] [[hadn't|no]] [[missed|hubiera]] [[the|perdido]] [[train,|el tren,]] [[she| ]] _______ _______ [[here|estaría aquí]] [[by|ya.]] [[now.| ]]",
+          "options": ["[[would be|estaría]]", "[[would have been|habría estado]]", "[[will be|estará]]"],
+          "correctAnswer": 0,
+          "explanation": "Condición pasada (perder el tren) con resultado presente (estar aquí).",
+          "audio": "audio/b2/unit-21/e34.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-21/e34.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u21-e50",
-    type: "word-formation",
-    level: "B2",
-    topic: "Social Issues",
-    difficulty: "medium",
-    transcript: "The awareness of the issue is growing.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The ___ (AWARE) of the issue is growing.|La conciencia sobre el problema está creciendo.]]",
-      correctAnswer: "awareness",
-      explanation: "Noun form of 'aware'.",
-      translation: "La conciencia sobre el problema está creciendo.",
-      hint: "Noun from aware."
+    "id": "b2-u21-e35",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "It's about time you started taking your studies seriously.",
+    "content": {
+      "title": "Hora de estudiar",
+      "instructions": "Elige la forma verbal tras 'It's about time'.",
+      "questions": [
+        {
+          "question": "[[It's|Ya va]] [[about|siendo]] [[time|hora de]] [[you|que te]] _______ [[taking|tomes]] [[your|tus]] [[studies|estudios]] [[seriously.|en serio.]]",
+          "options": ["[[started|empezaras / tomases]]", "[[start|empieces]]", "[[have started|hayas empezado]]"],
+          "correctAnswer": 0,
+          "explanation": "'It's about time' requiere pasado simple para referirse al presente.",
+          "audio": "audio/b2/unit-21/e35.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-21/e35.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u21-e36",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "No sooner had we reached the summit than the storm broke.",
+    "content": {
+      "title": "Tormenta en la cima",
+      "instructions": "Elige el conector que acompaña a 'No sooner'.",
+      "questions": [
+        {
+          "question": "[[No|Apenas]] [[sooner|habíamos]] [[had|llegado]] [[we|a]] [[reached|la]] [[the|cima]] _______ [[the|cuando]] [[storm|estalló la]] [[broke.|tormenta.]]",
+          "options": ["[[than|que / cuando]]", "[[when|cuando]]", "[[that|que]]"],
+          "correctAnswer": 0,
+          "explanation": "'No sooner' siempre se empareja con 'than'.",
+          "audio": "audio/b2/unit-21/e36.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-21/e36.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u21-e37",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "I'd sooner stay home than go to that party.",
+    "content": {
+      "title": "Preferencias personales",
+      "instructions": "Elige la expresión para decir 'prefiero' en comparación.",
+      "questions": [
+        {
+          "question": "[[I'd|Preferiría]] _______ [[stay|quedarme]] [[home|en]] [[than|casa]] [[go|que ir]] [[to|a]] [[that|esa]] [[party.|fiesta.]]",
+          "options": ["[[sooner|preferiría / antes]]", "[[rather|antes]]", "[[prefer|prefiero]]"],
+          "correctAnswer": 0,
+          "explanation": "'I'd sooner' es muy similar a 'I'd rather' para comparar dos acciones.",
+          "audio": "audio/b2/unit-21/e37.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-21/e37.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u21-e38",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "Rarely have I seen such a beautiful sunset.",
+    "content": {
+      "title": "Atardecer único",
+      "instructions": "Elige la inversión correcta para el presente perfecto.",
+      "questions": [
+        {
+          "question": "[[Rarely|Rara vez]] _______ _______ _______ [[such|he visto un]] [[a|atardecer]] [[beautiful|tan]] [[sunset.|hermoso.]]",
+          "options": ["[[have I seen|he visto]]", "[[I have seen|he visto (normal)]]", "[[had I seen|había visto]]"],
+          "correctAnswer": 0,
+          "explanation": "La inversión con 'Rarely' requiere adelantar el auxiliar 'have'.",
+          "audio": "audio/b2/unit-21/e38.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-21/e38.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u21-e39",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "Unless you hurry up, we will miss the beginning of the play.",
+    "content": {
+      "title": "Darse prisa",
+      "instructions": "Elige el conector condicional adecuado.",
+      "questions": [
+        {
+          "question": "_______ [[you|A menos que te]] [[hurry|des]] [[up,|prisa,]] [[we|nos]] [[will|perderemos]] [[miss|el]] [[the|comienzo]] [[beginning|de]] [[of|la]] [[the|obra.]] [[play.| ]]",
+          "options": ["[[Unless|A menos que]]", "[[Provided|Siempre que]]", "[[If|Si]]"],
+          "correctAnswer": 0,
+          "explanation": "'Unless' introduce la condición necesaria para que no ocurra algo negativo.",
+          "audio": "audio/b2/unit-21/e39.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-21/e39.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u21-e40",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "Supposing he fails the exam, what will he do?",
+    "content": {
+      "title": "Fracaso hipotético",
+      "instructions": "Elige la forma verbal tras 'Supposing' para una posibilidad futura.",
+      "questions": [
+        {
+          "question": "[[Supposing|Supongamos que]] [[he|suspendiera]] _______ [[the|el]] [[exam,|examen,]] [[what|¿qué]] [[will|hará?]] [[he| ]] [[do?| ]]",
+          "options": ["[[fails|suspende]]", "[[will fail|suspenderá]]", "[[has failed|ha suspendido]]"],
+          "correctAnswer": 0,
+          "explanation": "'Supposing' puede ir seguido de presente simple para situaciones que consideramos posibles.",
+          "audio": "audio/b2/unit-21/e40.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-21/e40.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u21-e41",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "Had the weather been better, we would have stayed longer.",
+    "content": {
+      "title": "Mejor tiempo",
+      "instructions": "Elige la inversión para el tercer condicional.",
+      "questions": [
+        {
+          "question": "_______ [[the|Si el tiempo hubiera]] [[weather|sido]] [[been|mejor,]] [[better,|nos]] [[we|habríamos]] [[would|quedado]] [[have|más]] [[stayed|tiempo.]] [[longer.| ]]",
+          "options": ["[[Had|Si]]", "[[If|Si (normal)]]", "[[Were|Si (presente)]]"],
+          "correctAnswer": 0,
+          "explanation": "'Had + sujeto + participio' reemplaza a 'If + sujeto + had + participio'.",
+          "audio": "audio/b2/unit-21/e41.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-21/e41.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u21-e42",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "I am looking forward to meeting you next week.",
+    "content": {
+      "title": "Ganas de conocerte",
+      "instructions": "Elige la forma verbal correcta tras 'looking forward to'.",
+      "questions": [
+        {
+          "question": "[[I|Tengo]] [[am|muchas]] [[looking|ganas]] [[forward|de]] [[to|conocerte]] _______ [[you|la]] [[next|semana]] [[week.|que viene.]]",
+          "options": ["[[meeting|conocerte / quedar]]", "[[meet|conocer]]", "[[to meet|conocer]]"],
+          "correctAnswer": 0,
+          "explanation": "'Look forward to' es una de las pocas expresiones con 'to' que va seguida de gerundio (-ing).",
+          "audio": "audio/b2/unit-21/e42.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-21/e42.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u21-e43",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "She recommended that he apply for the scholarship.",
+    "content": {
+      "title": "Subjuntivo en inglés",
+      "instructions": "Elige la forma verbal adecuada tras el verbo 'recommend'.",
+      "questions": [
+        {
+          "question": "[[She|Ella]] [[recommended|recomendó]] [[that|que]] [[he|él]] _______ [[for|la]] [[the|beca.]] [[scholarship.| ]]",
+          "options": ["[[apply|solicite]]", "[[applies|solicita]]", "[[applying|solicitando]]"],
+          "correctAnswer": 0,
+          "explanation": "Tras ciertos verbos de influencia, se usa el subjuntivo (infinitivo sin 'to' ni -s).",
+          "audio": "audio/b2/unit-21/e43.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-21/e43.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u21-e44",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "It is essential that everyone be on time for the meeting.",
+    "content": {
+      "title": "Puntualidad esencial",
+      "instructions": "Elige la forma del verbo 'be' para este caso de subjuntivo.",
+      "questions": [
+        {
+          "question": "[[It|Es]] [[is|esencial]] [[essential|que]] [[that|todos]] [[everyone|estén]] _______ [[on|a]] [[time|tiempo]] [[for|en]] [[the|la]] [[meeting.|reunión.]]",
+          "options": ["[[be|estén / ser]]", "[[is|es]]", "[[are|son / están]]"],
+          "correctAnswer": 0,
+          "explanation": "Tras 'It is essential that', se usa la forma base 'be'.",
+          "audio": "audio/b2/unit-21/e44.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-21/e44.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u21-e45",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "In spite of being the better team, they lost the game.",
+    "content": {
+      "title": "Perder a pesar de todo",
+      "instructions": "Elige la forma verbal adecuada tras 'In spite of'.",
+      "questions": [
+        {
+          "question": "[[In|A]] [[spite|pesar]] [[of|de]] _______ [[the|ser el]] [[better|mejor]] [[team,|equipo,]] [[they|perdieron]] [[lost|el]] [[the|partido.]] [[game.| ]]",
+          "options": ["[[being|ser]]", "[[to be|ser]]", "[[be|ser]]"],
+          "correctAnswer": 0,
+          "explanation": "Tras preposición ('of'), siempre usamos gerundio (-ing).",
+          "audio": "audio/b2/unit-21/e45.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-21/e45.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u21-e46",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "No sooner had I started eating than the doorbell rang.",
+    "content": {
+      "title": "Interrupción en la cena",
+      "instructions": "Elige el conector que falta en esta estructura de inversión.",
+      "questions": [
+        {
+          "question": "[[No|Apenas]] [[sooner|había]] [[had|empezado]] [[I|a]] [[started|comer]] [[eating| ]] _______ [[the|cuando]] [[doorbell|sonó el]] [[rang.|timbre.]]",
+          "options": ["[[than|que / cuando]]", "[[when|cuando]]", "[[before|antes]]"],
+          "correctAnswer": 0,
+          "explanation": "Recuerda: 'No sooner' va con 'than'.",
+          "audio": "audio/b2/unit-21/e46.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-21/e46.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u21-e47",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "Little did I imagine that I would one day be living in Tokyo.",
+    "content": {
+      "title": "Viviendo en Tokio",
+      "instructions": "Elige la inversión para expresar sorpresa.",
+      "questions": [
+        {
+          "question": "[[Little|Poco]] _______ _______ _______ [[that|imaginaba que]] [[I|un]] [[would|día]] [[one|estaría]] [[day|viviendo]] [[be|en]] [[living|Tokio.]] [[in| ]] [[Tokyo.| ]]",
+          "options": ["[[did I imagine|imaginaba]]", "[[I imagined|imaginé]]", "[[I would imagine|imaginaría]]"],
+          "correctAnswer": 0,
+          "explanation": "Inversión con 'Little' para hechos sorprendentes que el sujeto no previó.",
+          "audio": "audio/b2/unit-21/e47.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-21/e47.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u21-e48",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "Provided that we leave now, we should make it on time.",
+    "content": {
+      "title": "Llegar a tiempo",
+      "instructions": "Elige el conector de condición positiva.",
+      "questions": [
+        {
+          "question": "_______ [[that|Siempre que]] [[we|nos]] [[leave|vayamos]] [[now,|ahora,]] [[we|deberíamos]] [[should|llegar]] [[make|a]] [[it|tiempo.]] [[on| ]] [[time.| ]]",
+          "options": ["[[Provided|Siempre que]]", "[[Supposing|Suponiendo]]", "[[Whether|Si]]"],
+          "correctAnswer": 0,
+          "explanation": "'Provided that' (o 'Providing that') introduce una condición que garantiza el resultado.",
+          "audio": "audio/b2/unit-21/e48.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-21/e48.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u21-e49",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "Had it not been for the GPS, we would have gotten lost.",
+    "content": {
+      "title": "Gracias al GPS",
+      "instructions": "Elige la forma negativa de la inversión en tercer condicional.",
+      "questions": [
+        {
+          "question": "_______ _______ _______ _______ _______ [[for|Si no hubiera sido por]] [[the|el]] [[GPS,|GPS,]] [[we|nos]] [[would|habríamos]] [[have|perdido.]] [[gotten| ]] [[lost.| ]]",
+          "options": ["[[Had it not been|Si no hubiera sido]]", "[[If it wasn't|Si no fuera]]", "[[Hadn't it been|Si no hubiera sido (incorrecto)]]"],
+          "correctAnswer": 0,
+          "explanation": "La inversión negativa es 'Had + sujeto + not + been'.",
+          "audio": "audio/b2/unit-21/e49.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-21/e49.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u21-e50",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Grammar Review",
+    "difficulty": "medium",
+    "transcript": "I would rather go by train than fly.",
+    "content": {
+      "title": "Tren o avión",
+      "instructions": "Elige la estructura correcta para comparar preferencias.",
+      "questions": [
+        {
+          "question": "[[I|Preferiría]] [[would|ir]] [[rather|en]] [[go|tren]] [[by|que]] [[train|volar.]] [[than| ]] [[fly.| ]]",
+          "options": ["[[than|que]]", "[[to|a]]", "[[instead|en lugar]]"],
+          "correctAnswer": 0,
+          "explanation": "'Would rather' siempre se usa con 'than' para comparar dos opciones.",
+          "audio": "audio/b2/unit-21/e50.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-21/e50.mp3",
+    "topicName": "Grammar"
   }
 ];

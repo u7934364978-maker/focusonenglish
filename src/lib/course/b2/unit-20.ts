@@ -1,953 +1,1320 @@
 import { Exercise } from "@/types/course";
 
 export const UNIT_20_EXERCISES: Exercise[] = [
-  // 1-10: Grammar Review - Future Tenses
+  // 1-25: Sentence Building (Grammar & Vocabulary - Science & Technology)
   {
-    id: "b2-u20-e1",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "This time next week, I will be sunbathing in Bali.",
-    content: {
-      title: "Future Continuous",
-      instructions: "Choose the correct future form.",
-      question: "[[This time next week, I ___ (sunbathe) in Bali.|A esta hora la semana que viene, estaré tomando el sol en Bali.]]",
-      options: ["will sunbathe", "will have sunbathed", "will be sunbathing"],
-      correctAnswer: "will be sunbathing",
-      explanation: "Use the future continuous for an action that will be in progress at a specific time in the future.",
-      translation: "A esta hora la semana que viene, estaré tomando el sol en Bali.",
-      hint: "Action in progress in the future."
+    "id": "b2-u20-e1",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "By 2050, scientists will have discovered a cure for many diseases.",
+    "content": {
+      "title": "Futuro perfecto",
+      "instructions": "Ordena las palabras para hablar de logros científicos futuros.",
+      "correctSentence": "[[By|Para]] [[2050,|2050,]] [[scientists|los científicos]] [[will|habrán]] [[have|descubierto]] [[discovered|una]] [[a|cura]] [[cure|para]] [[for|muchas]] [[many|enfermedades.]] [[diseases.| ]]",
+      "words": [
+        "[[scientists|los científicos]]",
+        "[[discovered|una]]",
+        "[[diseases.| ]]",
+        "[[will|habrán]]",
+        "[[By|Para]]",
+        "[[for|muchas]]",
+        "[[2050,|2050,]]",
+        "[[have|descubierto]]",
+        "[[cure|para]]",
+        "[[many|enfermedades.]]",
+        "[[a|cura]]"
+      ],
+      "explanation": "Futuro Perfecto: 'will have + participio' indica una acción completada antes de un tiempo determinado.",
+      "audio": "audio/b2/unit-20/e1.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-20/e1.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u20-e2",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "By the end of the month, I will have finished the project.",
-    content: {
-      title: "Future Perfect",
-      instructions: "Choose the correct future form.",
-      question: "[[By the end of the month, I ___ (finish) the project.|Para finales de mes, habré terminado el proyecto.]]",
-      options: ["will finish", "will be finishing", "will have finished"],
-      correctAnswer: "will have finished",
-      explanation: "Use the future perfect for an action that will be completed by a specific point in the future.",
-      translation: "Para finales de mes, habré terminado el proyecto.",
-      hint: "Action completed by a future point."
+    "id": "b2-u20-e2",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Artificial Intelligence is revolutionizing the way we process data.",
+    "content": {
+      "title": "Inteligencia Artificial",
+      "instructions": "Ordena las palabras para hablar de tecnología moderna.",
+      "correctSentence": "[[Artificial|La Inteligencia]] [[Intelligence|Artificial]] [[is|está]] [[revolutionizing|revolucionando]] [[the|la]] [[way|forma]] [[we|en que]] [[process|procesamos]] [[data.|los datos.]]",
+      "words": [
+        "[[Intelligence|Artificial]]",
+        "[[revolutionizing|revolucionando]]",
+        "[[data.|los datos.]]",
+        "[[is|está]]",
+        "[[Artificial|La Inteligencia]]",
+        "[[process|procesamos]]",
+        "[[way|forma]]",
+        "[[we|en que]]",
+        "[[the|la]]"
+      ],
+      "explanation": "'Artificial Intelligence' (AI) se refiere a sistemas que imitan la inteligencia humana.",
+      "audio": "audio/b2/unit-20/e2.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-20/e2.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u20-e3",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "At 8 PM tonight, she will be working in the library.",
-    content: {
-      title: "Future Continuous",
-      instructions: "Choose the correct future form.",
-      question: "[[At 8 PM tonight, she ___ (work) in the library.|A las 8 de esta noche, ella estará trabajando en la biblioteca.]]",
-      options: ["will be working", "will work", "will have worked"],
-      correctAnswer: "will be working",
-      explanation: "Action in progress at a specific future time.",
-      translation: "A las 8 de esta noche, ella estará trabajando en la biblioteca.",
-      hint: "Specific time + progress."
+    "id": "b2-u20-e3",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "This time next year, I will be working on a new software project.",
+    "content": {
+      "title": "Futuro continuo",
+      "instructions": "Ordena las palabras para hablar de una acción en progreso en el futuro.",
+      "correctSentence": "[[This|El año]] [[time|que viene]] [[next|a]] [[year,|estas alturas,]] [[I|estaré]] [[will|trabajando]] [[be|en]] [[working|un]] [[on|nuevo]] [[a|proyecto]] [[new|de]] [[software|software.]] [[project.| ]]",
+      "words": [
+        "[[time|que viene]]",
+        "[[working|un]]",
+        "[[software|software.]]",
+        "[[next|a]]",
+        "[[I|estaré]]",
+        "[[project.| ]]",
+        "[[will|trabajando]]",
+        "[[new|de]]",
+        "[[a|proyecto]]",
+        "[[year,|estas alturas,]]",
+        "[[be|en]]",
+        "[[on|nuevo]]",
+        "[[This|El año]]"
+      ],
+      "explanation": "Futuro Continuo: 'will be + -ing' indica una acción que estará ocurriendo en un momento dado.",
+      "audio": "audio/b2/unit-20/e3.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-20/e3.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u20-e4",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "They will have lived here for ten years by June.",
-    content: {
-      title: "Future Perfect",
-      instructions: "Choose the correct future form.",
-      question: "[[They ___ (live) here for ten years by June.|Habrán vivido aquí durante diez años para junio.]]",
-      options: ["will live", "will be living", "will have lived"],
-      correctAnswer: "will have lived",
-      explanation: "Looking back from a point in the future at a completed period or action.",
-      translation: "Habrán vivido aquí durante diez años para junio.",
-      hint: "Look back from a future point."
+    "id": "b2-u20-e4",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "A breakthrough in renewable energy could solve the climate crisis.",
+    "content": {
+      "title": "Gran avance",
+      "instructions": "Ordena las palabras para hablar de descubrimientos.",
+      "correctSentence": "[[A|Un]] [[breakthrough|gran avance]] [[in|en]] [[renewable|energía]] [[energy|renovable]] [[could|podría]] [[solve|resolver]] [[the|la]] [[climate|crisis]] [[crisis.|climática.]]",
+      "words": [
+        "[[breakthrough|gran avance]]",
+        "[[energy|renovable]]",
+        "[[crisis.|climática.]]",
+        "[[could|podría]]",
+        "[[A|Un]]",
+        "[[climate|crisis]]",
+        "[[renewable|energía]]",
+        "[[in|en]]",
+        "[[solve|resolver]]",
+        "[[the|la]]"
+      ],
+      "explanation": "'Breakthrough' es un descubrimiento o desarrollo muy importante.",
+      "audio": "audio/b2/unit-20/e4.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-20/e4.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u20-e5",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "Don't call me at 2 PM, I'll be having a meeting.",
-    content: {
-      title: "Future Continuous",
-      instructions: "Choose the correct future form.",
-      question: "[[Don't call me at 2 PM, I ___ (have) a meeting.|No me llames a las 2 PM, estaré teniendo una reunión.]]",
-      options: ["will have", "will be having", "will have had"],
-      correctAnswer: "will be having",
-      explanation: "Action in progress at a specific future time.",
-      translation: "No me llames a las 2 PM, estaré teniendo una reunión.",
-      hint: "Action in progress."
+    "id": "b2-u20-e5",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Will they have finished building the lab by the end of the month?",
+    "content": {
+      "title": "Pregunta en futuro perfecto",
+      "instructions": "Ordena las palabras para preguntar por una tarea completada.",
+      "correctSentence": "[[Will|¿Habrán]] [[they|ellos]] [[have|terminado]] [[finished|de]] [[building|construir]] [[the|el]] [[lab|laboratorio]] [[by|para]] [[the|final]] [[end|de]] [[of|mes?]] [[the| ]] [[month?| ]]",
+      "words": [
+        "[[they|ellos]]",
+        "[[building|construir]]",
+        "[[month?| ]]",
+        "[[finished|de]]",
+        "[[Will|¿Habrán]]",
+        "[[the|final]]",
+        "[[lab|laboratorio]]",
+        "[[end|de]]",
+        "[[by|para]]",
+        "[[have|terminado]]",
+        "[[the|el]]",
+        "[[of|mes?]]",
+        "[[the| ]]"
+      ],
+      "explanation": "En las preguntas, 'Will' va al principio, seguido del sujeto y 'have + participio'.",
+      "audio": "audio/b2/unit-20/e5.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-20/e5.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u20-e6",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "I'll have read the book by tomorrow.",
-    content: {
-      title: "Future Perfect",
-      instructions: "Choose the correct future form.",
-      question: "[[I ___ (read) the book by tomorrow.|Habré leído el libro para mañana.]]",
-      options: ["will be reading", "will read", "will have read"],
-      correctAnswer: "will have read",
-      explanation: "Completion by a certain future time.",
-      translation: "Habré leído el libro para mañana.",
-      hint: "Completed action."
+    "id": "b2-u20-e6",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "The algorithm predicts user behavior based on past interactions.",
+    "content": {
+      "title": "Algoritmo",
+      "instructions": "Ordena las palabras para describir una función tecnológica.",
+      "correctSentence": "[[The|El]] [[algorithm|algoritmo]] [[predicts|predice]] [[user|el comportamiento]] [[behavior|del usuario]] [[based|basándose]] [[on|en]] [[past|interacciones]] [[interactions.|pasadas.]]",
+      "words": [
+        "[[algorithm|algoritmo]]",
+        "[[behavior|del usuario]]",
+        "[[interactions.|pasadas.]]",
+        "[[predicts|predice]]",
+        "[[The|El]]",
+        "[[on|en]]",
+        "[[user|el comportamiento]]",
+        "[[based|basándose]]",
+        "[[past|interacciones]]"
+      ],
+      "explanation": "Un 'algorithm' es un conjunto de reglas que sigue un ordenador.",
+      "audio": "audio/b2/unit-20/e6.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-20/e6.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u20-e7",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "Next year, they will be traveling across Europe.",
-    content: {
-      title: "Future Continuous",
-      instructions: "Choose the correct future form.",
-      question: "[[Next year, they ___ (travel) across Europe.|El año que viene, estarán viajando por Europa.]]",
-      options: ["will be traveling", "will travel", "will have traveled"],
-      correctAnswer: "will be traveling",
-      explanation: "Action in progress over a period in the future.",
-      translation: "El año que viene, estarán viajando por Europa.",
-      hint: "Future progress."
+    "id": "b2-u20-e7",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "In ten years, most people will be driving electric vehicles.",
+    "content": {
+      "title": "Vehículos eléctricos",
+      "instructions": "Ordena las palabras para hablar de una tendencia futura.",
+      "correctSentence": "[[In|En]] [[ten|diez]] [[years,|años,]] [[most|la mayoría]] [[people|de la gente]] [[will|estará]] [[be|conduciendo]] [[driving|vehículos]] [[electric|eléctricos.]] [[vehicles.| ]]",
+      "words": [
+        "[[ten|diez]]",
+        "[[people|de la gente]]",
+        "[[vehicles.| ]]",
+        "[[will|estará]]",
+        "[[In|En]]",
+        "[[electric|eléctricos.]]",
+        "[[years,|años,]]",
+        "[[most|la mayoría]]",
+        "[[be|conduciendo]]",
+        "[[driving|vehículos]]"
+      ],
+      "explanation": "Uso del futuro continuo para describir hábitos o situaciones normales en el futuro.",
+      "audio": "audio/b2/unit-20/e7.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-20/e7.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u20-e8",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "He will have saved enough money by the end of the year.",
-    content: {
-      title: "Future Perfect",
-      instructions: "Choose the correct future form.",
-      question: "[[He ___ (save) enough money by the end of the year.|Habrá ahorrado suficiente dinero para finales de año.]]",
-      options: ["will have saved", "will save", "will be saving"],
-      correctAnswer: "will have saved",
-      explanation: "Completion by a future point.",
-      translation: "Habrá ahorrado suficiente dinero para finales de año.",
-      hint: "Action completed."
+    "id": "b2-u20-e8",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Genetic engineering allows scientists to modify the DNA of organisms.",
+    "content": {
+      "title": "Ingeniería genética",
+      "instructions": "Ordena las palabras para hablar de biotecnología.",
+      "correctSentence": "[[Genetic|La ingeniería]] [[engineering|genética]] [[allows|permite]] [[scientists|a los científicos]] [[to| ]] [[modify|modificar]] [[the|el]] [[DNA|ADN]] [[of|de los]] [[organisms.|organismos.]]",
+      "words": [
+        "[[engineering|genética]]",
+        "[[scientists|a los científicos]]",
+        "[[organisms.|organismos.]]",
+        "[[allows|permite]]",
+        "[[Genetic|La ingeniería]]",
+        "[[DNA|ADN]]",
+        "[[modify|modificar]]",
+        "[[the|el]]",
+        "[[of|de los]]",
+        "[[to| ]]"
+      ],
+      "explanation": "'DNA' son las siglas de 'Deoxyribonucleic acid' (ácido desoxirribonucleico).",
+      "audio": "audio/b2/unit-20/e8.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-20/e8.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u20-e9",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "We will be waiting for you at the airport.",
-    content: {
-      title: "Future Continuous",
-      instructions: "Choose the correct future form.",
-      question: "[[We ___ (wait) for you at the airport.|Estaremos esperándote en el aeropuerto.]]",
-      options: ["will have waited", "will wait", "will be waiting"],
-      correctAnswer: "will be waiting",
-      explanation: "Action in progress in the future.",
-      translation: "Estaremos esperándote en el aeropuerto.",
-      hint: "Waiting in progress."
+    "id": "b2-u20-e9",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "By the time you arrive, the experiment will have concluded.",
+    "content": {
+      "title": "Experimento concluido",
+      "instructions": "Ordena las palabras usando futuro perfecto.",
+      "correctSentence": "[[By|Para]] [[the|cuando]] [[time|llegues,]] [[you|el]] [[arrive,|experimento]] [[the|habrá]] [[experiment|concluido.]] [[will| ]] [[have| ]] [[concluded.| ]]",
+      "words": [
+        "[[the|cuando]]",
+        "[[experiment|concluido.]]",
+        "[[concluded.| ]]",
+        "[[time|llegues,]]",
+        "[[By|Para]]",
+        "[[will| ]]",
+        "[[arrive,|experimento]]",
+        "[[have| ]]",
+        "[[the|habrá]]",
+        "[[you|el]]"
+      ],
+      "explanation": "Combinación de presente simple (referencia temporal) y futuro perfecto.",
+      "audio": "audio/b2/unit-20/e9.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-20/e9.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u20-e10",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "The movie will have started by the time we get there.",
-    content: {
-      title: "Future Perfect",
-      instructions: "Choose the correct future form.",
-      question: "[[The movie ___ (start) by the time we get there.|La película habrá empezado para cuando lleguemos allí.]]",
-      options: ["will start", "will be starting", "will have started"],
-      correctAnswer: "will have started",
-      explanation: "Action completed before another action in the future.",
-      translation: "La película habrá empezado para cuando lleguemos allí.",
-      hint: "Completion before another event."
+    "id": "b2-u20-e10",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Cybersecurity is essential for protecting sensitive information online.",
+    "content": {
+      "title": "Ciberseguridad",
+      "instructions": "Ordena las palabras para hablar de protección digital.",
+      "correctSentence": "[[Cybersecurity|La ciberseguridad]] [[is|es]] [[essential|esencial]] [[for|para]] [[protecting|proteger]] [[sensitive|información]] [[information|sensible]] [[online.|en línea.]]",
+      "words": [
+        "[[is|es]]",
+        "[[information|sensible]]",
+        "[[online.|en línea.]]",
+        "[[essential|esencial]]",
+        "[[Cybersecurity|La ciberseguridad]]",
+        "[[sensitive|información]]",
+        "[[protecting|proteger]]",
+        "[[for|para]]"
+      ],
+      "explanation": "'Sensitive information' se refiere a datos privados o confidenciales.",
+      "audio": "audio/b2/unit-20/e10.mp3"
     },
-    topicName: "Grammar"
-  },
-
-  // 11-20: Grammar Review - Passive Voice
-  {
-    id: "b2-u20-e11",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "The house was built in 1920.",
-    content: {
-      title: "Passive Voice",
-      instructions: "Choose the correct passive form.",
-      question: "[[The house ___ (build) in 1920.|La casa fue construida en 1920.]]",
-      options: ["is built", "was built", "has been built"],
-      correctAnswer: "was built",
-      explanation: "Past simple passive: was/were + past participle.",
-      translation: "La casa fue construida en 1920.",
-      hint: "Past simple passive."
-    },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-20/e10.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u20-e12",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "A new bridge is being constructed at the moment.",
-    content: {
-      title: "Passive Voice",
-      instructions: "Choose the correct passive form.",
-      question: "[[A new bridge ___ (construct) at the moment.|Se está construyendo un nuevo puente en este momento.]]",
-      options: ["is constructed", "was being constructed", "is being constructed"],
-      correctAnswer: "is being constructed",
-      explanation: "Present continuous passive: am/is/are + being + past participle.",
-      translation: "Se está construyendo un nuevo puente en este momento.",
-      hint: "Present continuous passive."
+    "id": "b2-u20-e11",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "How long will you have been studying this theory by June?",
+    "content": {
+      "title": "Futuro perfecto continuo",
+      "instructions": "Ordena las palabras para preguntar por la duración de una acción futura.",
+      "correctSentence": "[[How|¿Cuánto]] [[long|tiempo]] [[will|habrás]] [[you|estado]] [[have|estudiando]] [[been|esta]] [[studying|teoría]] [[this|para]] [[theory|junio?]] [[by| ]] [[June?| ]]",
+      "words": [
+        "[[long|tiempo]]",
+        "[[been|esta]]",
+        "[[June?| ]]",
+        "[[you|estado]]",
+        "[[How|¿Cuánto]]",
+        "[[theory|junio?]]",
+        "[[will|habrás]]",
+        "[[studying|teoría]]",
+        "[[this|para]]",
+        "[[have|estudiando]]",
+        "[[by| ]]"
+      ],
+      "explanation": "Futuro Perfecto Continuo: 'will have been + -ing' para enfatizar la duración hasta un punto futuro.",
+      "audio": "audio/b2/unit-20/e11.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-20/e11.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u20-e13",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "The email has already been sent.",
-    content: {
-      title: "Passive Voice",
-      instructions: "Choose the correct passive form.",
-      question: "[[The email ___ (already/send).|El correo electrónico ya ha sido enviado.]]",
-      options: ["has already been sent", "was already sent", "is already sent"],
-      correctAnswer: "has already been sent",
-      explanation: "Present perfect passive: have/has + been + past participle.",
-      translation: "El correo electrónico ya ha sido enviado.",
-      hint: "Present perfect passive."
+    "id": "b2-u20-e12",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "A solar panel converts sunlight directly into electricity.",
+    "content": {
+      "title": "Panel solar",
+      "instructions": "Ordena las palabras para describir cómo funciona una tecnología.",
+      "correctSentence": "[[A|Un]] [[solar|panel]] [[panel|solar]] [[converts|convierte]] [[sunlight|la luz solar]] [[directly|directamente]] [[into|en]] [[electricity.|electricidad.]]",
+      "words": [
+        "[[panel|solar]]",
+        "[[sunlight|la luz solar]]",
+        "[[electricity.|electricidad.]]",
+        "[[converts|convierte]]",
+        "[[A|Un]]",
+        "[[into|en]]",
+        "[[directly|directamente]]",
+        "[[solar|panel]]"
+      ],
+      "explanation": "El verbo 'convert into' se usa para transformaciones.",
+      "audio": "audio/b2/unit-20/e12.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-20/e12.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u20-e14",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "The car was being repaired when I arrived.",
-    content: {
-      title: "Passive Voice",
-      instructions: "Choose the correct passive form.",
-      question: "[[The car ___ (repair) when I arrived.|El coche estaba siendo reparado cuando llegué.]]",
-      options: ["was repaired", "was being repaired", "is being repaired"],
-      correctAnswer: "was being repaired",
-      explanation: "Past continuous passive: was/were + being + past participle.",
-      translation: "El coche estaba siendo reparado cuando llegué.",
-      hint: "Past continuous passive."
+    "id": "b2-u20-e13",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Researchers will be presenting their findings at the conference next week.",
+    "content": {
+      "title": "Presentación de hallazgos",
+      "instructions": "Ordena las palabras para hablar de un evento programado en el futuro.",
+      "correctSentence": "[[Researchers|Los investigadores]] [[will|estarán]] [[be|presentando]] [[presenting|sus]] [[their|hallazgos]] [[findings|en]] [[at|la]] [[the|conferencia]] [[conference|la]] [[next|semana]] [[week.|próxima.]]",
+      "words": [
+        "[[will|estarán]]",
+        "[[their|hallazgos]]",
+        "[[week.|próxima.]]",
+        "[[presenting|sus]]",
+        "[[Researchers|Los investigadores]]",
+        "[[next|semana]]",
+        "[[be|presentando]]",
+        "[[conference|la]]",
+        "[[the|conferencia]]",
+        "[[findings|en]]",
+        "[[at|la]]"
+      ],
+      "explanation": "Futuro continuo para planes establecidos o eventos que durarán cierto tiempo.",
+      "audio": "audio/b2/unit-20/e13.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-20/e13.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u20-e15",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "The files must be saved before closing.",
-    content: {
-      title: "Passive Voice",
-      instructions: "Choose the correct passive form.",
-      question: "[[The files ___ (must/save) before closing.|Los archivos deben ser guardados antes de cerrar.]]",
-      options: ["must be saved", "must save", "must being saved"],
-      correctAnswer: "must be saved",
-      explanation: "Modal passive: modal + be + past participle.",
-      translation: "Los archivos deben ser guardados antes de cerrar.",
-      hint: "Modal passive."
+    "id": "b2-u20-e14",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Data mining involves analyzing large sets of information to find patterns.",
+    "content": {
+      "title": "Minería de datos",
+      "instructions": "Ordena las palabras para definir un proceso informático.",
+      "correctSentence": "[[Data|La minería]] [[mining|de datos]] [[involves|implica]] [[analyzing|analizar]] [[large|grandes]] [[sets|conjuntos]] [[of|de]] [[information|información]] [[to|para]] [[find|encontrar]] [[patterns.|patrones.]]",
+      "words": [
+        "[[mining|de datos]]",
+        "[[analyzing|analizar]]",
+        "[[patterns.|patrones.]]",
+        "[[involves|implica]]",
+        "[[Data|La minería]]",
+        "[[find|encontrar]]",
+        "[[large|grandes]]",
+        "[[of|de]]",
+        "[[sets|conjuntos]]",
+        "[[information|información]]",
+        "[[to|para]]"
+      ],
+      "explanation": "'Data mining' es una técnica clave en el 'Big Data'.",
+      "audio": "audio/b2/unit-20/e14.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-20/e14.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u20-e16",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "The meeting is held in the main hall.",
-    content: {
-      title: "Passive Voice",
-      instructions: "Choose the correct passive form.",
-      question: "[[The meeting ___ (hold) in the main hall.|La reunión se lleva a cabo en la sala principal.]]",
-      options: ["is held", "is holding", "was held"],
-      correctAnswer: "is held",
-      explanation: "Present simple passive for regular events.",
-      translation: "La reunión se lleva a cabo en la sala principal.",
-      hint: "Present simple passive."
+    "id": "b2-u20-e15",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "I won't have finished the data analysis by tomorrow morning.",
+    "content": {
+      "title": "Análisis incompleto",
+      "instructions": "Ordena las palabras para una frase negativa en futuro perfecto.",
+      "correctSentence": "[[I|No]] [[won't|habré]] [[have|terminado]] [[finished|el]] [[the|análisis]] [[data|de]] [[analysis|datos]] [[by|para]] [[tomorrow|mañana]] [[morning.|por la mañana.]]",
+      "words": [
+        "[[won't|habré]]",
+        "[[finished|el]]",
+        "[[morning.|por la mañana.]]",
+        "[[have|terminado]]",
+        "[[I|No]]",
+        "[[tomorrow|mañana]]",
+        "[[analysis|datos]]",
+        "[[the|análisis]]",
+        "[[data|de]]",
+        "[[by|para]]"
+      ],
+      "explanation": "'Won't have' + participio para expresar algo que no estará listo.",
+      "audio": "audio/b2/unit-20/e15.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-20/e15.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u20-e17",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "The results have not been published yet.",
-    content: {
-      title: "Passive Voice",
-      instructions: "Choose the correct passive form.",
-      question: "[[The results ___ (not/publish) yet.|Los resultados aún no han sido publicados.]]",
-      options: ["have not been published", "were not published", "are not published"],
-      correctAnswer: "have not been published",
-      explanation: "Negative present perfect passive.",
-      translation: "Los resultados aún no han sido publicados.",
-      hint: "Present perfect passive negative."
+    "id": "b2-u20-e16",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Virtual reality creates an immersive experience through computer simulation.",
+    "content": {
+      "title": "Realidad virtual",
+      "instructions": "Ordena las palabras para hablar de experiencias inmersivas.",
+      "correctSentence": "[[Virtual|La realidad]] [[reality|virtual]] [[creates|crea]] [[an|una]] [[immersive|experiencia]] [[experience|inmersiva]] [[through|a través de]] [[computer|simulación]] [[simulation.|por ordenador.]]",
+      "words": [
+        "[[reality|virtual]]",
+        "[[an|una]]",
+        "[[simulation.|por ordenador.]]",
+        "[[creates|crea]]",
+        "[[Virtual|La realidad]]",
+        "[[computer|simulación]]",
+        "[[immersive|experiencia]]",
+        "[[through|a través de]]",
+        "[[experience|inmersiva]]"
+      ],
+      "explanation": "'Immersive' significa que rodea completamente al usuario.",
+      "audio": "audio/b2/unit-20/e16.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-20/e16.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u20-e18",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "The winner will be announced tomorrow.",
-    content: {
-      title: "Passive Voice",
-      instructions: "Choose the correct passive form.",
-      question: "[[The winner ___ (announce) tomorrow.|El ganador será anunciado mañana.]]",
-      options: ["will announce", "will be announced", "is announced"],
-      correctAnswer: "will be announced",
-      explanation: "Future simple passive: will + be + past participle.",
-      translation: "El ganador será anunciado mañana.",
-      hint: "Future simple passive."
+    "id": "b2-u20-e17",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Scientists will be monitoring the satellite's position continuously.",
+    "content": {
+      "title": "Monitorizar el satélite",
+      "instructions": "Ordena las palabras usando futuro continuo.",
+      "correctSentence": "[[Scientists|Los científicos]] [[will|estarán]] [[be|monitorizando]] [[monitoring|la]] [[the|posición]] [[satellite's|del]] [[position|satélite]] [[continuously.|continuamente.]]",
+      "words": [
+        "[[will|estarán]]",
+        "[[position|satélite]]",
+        "[[continuously.|continuamente.]]",
+        "[[be|monitorizando]]",
+        "[[Scientists|Los científicos]]",
+        "[[satellite's|del]]",
+        "[[monitoring|la]]",
+        "[[the|posición]]"
+      ],
+      "explanation": "El futuro continuo se usa aquí para una acción persistente en el futuro.",
+      "audio": "audio/b2/unit-20/e17.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-20/e17.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u20-e19",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "My bike was stolen last night.",
-    content: {
-      title: "Passive Voice",
-      instructions: "Choose the correct passive form.",
-      question: "[[My bike ___ (steal) last night.|Mi bicicleta fue robada anoche.]]",
-      options: ["was stolen", "is stolen", "has been stolen"],
-      correctAnswer: "was stolen",
-      explanation: "Past simple passive for completed past action.",
-      translation: "Mi bicicleta fue robada anoche.",
-      hint: "Past simple passive."
+    "id": "b2-u20-e18",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "The cloud allows users to store and access data over the internet.",
+    "content": {
+      "title": "La nube",
+      "instructions": "Ordena las palabras para hablar de almacenamiento remoto.",
+      "correctSentence": "[[The|La]] [[cloud|nube]] [[allows|permite]] [[users|a los usuarios]] [[to|almacenar]] [[store|y]] [[and|acceder a]] [[access|datos]] [[data|a través de]] [[over|internet.]] [[the| ]] [[internet.| ]]",
+      "words": [
+        "[[cloud|nube]]",
+        "[[store|y]]",
+        "[[internet.| ]]",
+        "[[allows|permite]]",
+        "[[The|La]]",
+        "[[data|a través de]]",
+        "[[users|a los usuarios]]",
+        "[[access|datos]]",
+        "[[over|internet.]]",
+        "[[and|acceder a]]",
+        "[[the| ]]",
+        "[[to|almacenar]]"
+      ],
+      "explanation": "'The cloud' se refiere a servidores remotos accesibles por internet.",
+      "audio": "audio/b2/unit-20/e18.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-20/e18.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u20-e20",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "English is spoken all over the world.",
-    content: {
-      title: "Passive Voice",
-      instructions: "Choose the correct passive form.",
-      question: "[[English ___ (speak) all over the world.|El inglés se habla en todo el mundo.]]",
-      options: ["is speaking", "is spoken", "was spoken"],
-      correctAnswer: "is spoken",
-      explanation: "Present simple passive for general facts.",
-      translation: "El inglés se habla en todo el mundo.",
-      hint: "Present simple passive."
+    "id": "b2-u20-e19",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Will robots have replaced most manual labor by then?",
+    "content": {
+      "title": "Robots y trabajo",
+      "instructions": "Ordena las palabras para preguntar por una sustitución futura.",
+      "correctSentence": "[[Will|¿Habrán]] [[robots|reemplazado]] [[have|los robots]] [[replaced|la mayoría]] [[most|del]] [[manual|trabajo]] [[labor|manual]] [[by|para]] [[then?|entonces?]]",
+      "words": [
+        "[[have|los robots]]",
+        "[[manual|trabajo]]",
+        "[[then?|entonces?]]",
+        "[[Will|¿Habrán]]",
+        "[[labor|manual]]",
+        "[[robots|reemplazado]]",
+        "[[replaced|la mayoría]]",
+        "[[most|del]]",
+        "[[by|para]]"
+      ],
+      "explanation": "Pregunta en futuro perfecto sobre una transformación social.",
+      "audio": "audio/b2/unit-20/e19.mp3"
     },
-    topicName: "Grammar"
-  },
-
-  // 21-30: Grammar Review - Modals of Deduction
-  {
-    id: "b2-u20-e21",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "He is not here. He might be at home.",
-    content: {
-      title: "Modals of Deduction",
-      instructions: "Choose the correct modal.",
-      question: "[[He is not here. He ___ be at home.|No está aquí. Podría estar en casa.]]",
-      options: ["must", "can't", "might"],
-      correctAnswer: "might",
-      explanation: "Use 'might' when you are not sure about something in the present.",
-      translation: "No está aquí. Podría estar en casa.",
-      hint: "Uncertainty."
-    },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-20/e19.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u20-e22",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "He looks sad. He must have had bad news.",
-    content: {
-      title: "Modals of Deduction",
-      instructions: "Choose the correct modal.",
-      question: "[[He looks sad. He ___ (have) bad news.|Parece triste. Debe haber tenido malas noticias.]]",
-      options: ["might not have had", "can't have had", "must have had"],
-      correctAnswer: "must have had",
-      explanation: "Use 'must have + past participle' when you are almost certain something happened in the past.",
-      translation: "Parece triste. Debe haber tenido malas noticias.",
-      hint: "Almost certain past."
+    "id": "b2-u20-e20",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "A semiconductor is a material used in the manufacturing of electronic chips.",
+    "content": {
+      "title": "Semiconductor",
+      "instructions": "Ordena las palabras para hablar de componentes electrónicos.",
+      "correctSentence": "[[A|Un]] [[semiconductor|semiconductor]] [[is|es]] [[a|un]] [[material|material]] [[used|utilizado]] [[in|en]] [[the|la]] [[manufacturing|fabricación]] [[of|de]] [[electronic|chips]] [[chips.|electrónicos.]]",
+      "words": [
+        "[[semiconductor|semiconductor]]",
+        "[[material|material]]",
+        "[[chips.|electrónicos.]]",
+        "[[is|es]]",
+        "[[A|Un]]",
+        "[[manufacturing|fabricación]]",
+        "[[electronic|chips]]",
+        "[[the|la]]",
+        "[[used|utilizado]]",
+        "[[of|de]]",
+        "[[a|un]]"
+      ],
+      "explanation": "Los semiconductores son la base de toda la electrónica moderna.",
+      "audio": "audio/b2/unit-20/e20.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-20/e20.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u20-e23",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "She can't be at work; her office is closed.",
-    content: {
-      title: "Modals of Deduction",
-      instructions: "Choose the correct modal.",
-      question: "[[She ___ be at work; her office is closed.|No puede estar en el trabajo; su oficina está cerrada.]]",
-      options: ["might", "must", "can't"],
-      correctAnswer: "can't",
-      explanation: "Use 'can't' when you are almost certain something is not true.",
-      translation: "No puede estar en el trabajo; su oficina está cerrada.",
-      hint: "Almost certain NOT true."
+    "id": "b2-u20-e21",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "At this rate, we will have run out of fossil fuels in a few decades.",
+    "content": {
+      "title": "Combustibles fósiles",
+      "instructions": "Ordena las palabras usando futuro perfecto.",
+      "correctSentence": "[[At|A]] [[this|este]] [[rate,|paso,]] [[we|nos]] [[will|habremos]] [[have|quedado]] [[run|sin]] [[out|combustibles]] [[of|fósiles]] [[fossil|en]] [[fuels|unas]] [[in|pocas]] [[a|décadas.]] [[few| ]] [[decades.| ]]",
+      "words": [
+        "[[this|este]]",
+        "[[have|quedado]]",
+        "[[decades.| ]]",
+        "[[will|habremos]]",
+        "[[At|A]]",
+        "[[fuels|en]]",
+        "[[rate,|paso,]]",
+        "[[out|combustibles]]",
+        "[[fossil|en]]",
+        "[[in|unas]]",
+        "[[few| ]]",
+        "[[run|sin]]",
+        "[[of|fósiles]]",
+        "[[we|nos]]",
+        "[[a|décadas.]]"
+      ],
+      "explanation": "'Run out of' es un phrasal verb que significa agotar las existencias de algo.",
+      "audio": "audio/b2/unit-20/e21.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-20/e21.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u20-e24",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "The lights are on. They must be home.",
-    content: {
-      title: "Modals of Deduction",
-      instructions: "Choose the correct modal.",
-      question: "[[The lights are on. They ___ be home.|Las luces están encendidas. Deben estar en casa.]]",
-      options: ["might", "can't", "must"],
-      correctAnswer: "must",
-      explanation: "Use 'must' when you are almost certain something is true.",
-      translation: "Las luces están encendidas. Deben estar en casa.",
-      hint: "Almost certain TRUE."
+    "id": "b2-u20-e22",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Nanotechnology deals with structures at the atomic and molecular scale.",
+    "content": {
+      "title": "Nanotecnología",
+      "instructions": "Ordena las palabras para hablar de ciencia a pequeña escala.",
+      "correctSentence": "[[Nanotechnology|La nanotecnología]] [[deals|trata]] [[with|con]] [[structures|estructuras]] [[at|a]] [[the|la]] [[atomic|escala]] [[and|atómica]] [[molecular|y]] [[scale.|molecular.]]",
+      "words": [
+        "[[deals|trata]]",
+        "[[molecular|y]]",
+        "[[scale.|molecular.]]",
+        "[[structures|estructuras]]",
+        "[[Nanotechnology|La nanotecnología]]",
+        "[[and|atómica]]",
+        "[[atomic|escala]]",
+        "[[with|con]]",
+        "[[at|a]]",
+        "[[the|la]]"
+      ],
+      "explanation": "'Deals with' significa encargarse o ocuparse de un tema.",
+      "audio": "audio/b2/unit-20/e22.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-20/e22.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u20-e25",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "They might have forgotten the meeting.",
-    content: {
-      title: "Modals of Deduction",
-      instructions: "Choose the correct modal.",
-      question: "[[The office is empty. They ___ (forget) the meeting.|La oficina está vacía. Puede que hayan olvidado la reunión.]]",
-      options: ["mustn't have forgotten", "might have forgotten", "can't have forgotten"],
-      correctAnswer: "might have forgotten",
-      explanation: "Use 'might have' when you are not sure about a past event.",
-      translation: "La oficina está vacía. Puede que hayan olvidado la reunión.",
-      hint: "Uncertain past."
+    "id": "b2-u20-e23",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "They will have been testing the prototype for months before the launch.",
+    "content": {
+      "title": "Pruebas del prototipo",
+      "instructions": "Ordena las palabras usando futuro perfecto continuo.",
+      "correctSentence": "[[They|Habrán]] [[will|estado]] [[have|probando]] [[been|el]] [[testing|prototipo]] [[the|durante]] [[prototype|meses]] [[for|antes]] [[months|del]] [[before|lanzamiento.]] [[the| ]] [[launch.| ]]",
+      "words": [
+        "[[will|estado]]",
+        "[[prototype|meses]]",
+        "[[launch.| ]]",
+        "[[testing|prototipo]]",
+        "[[They|Habrán]]",
+        "[[before|lanzamiento.]]",
+        "[[have|probando]]",
+        "[[months|del]]",
+        "[[the|durante]]",
+        "[[for|antes]]",
+        "[[the| ]]",
+        "[[been|el]]"
+      ],
+      "explanation": "Enfatiza el proceso de prueba prolongado que culmina en el lanzamiento.",
+      "audio": "audio/b2/unit-20/e23.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-20/e23.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u20-e26",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "It can't have been John; he is on holiday.",
-    content: {
-      title: "Modals of Deduction",
-      instructions: "Choose the correct modal.",
-      question: "[[I saw someone, but it ___ (be) John; he is on holiday.|No pudo haber sido John; está de vacaciones.]]",
-      options: ["might have been", "can't have been", "must have been"],
-      correctAnswer: "can't have been",
-      explanation: "Use 'can't have + past participle' when you are certain something didn't happen in the past.",
-      translation: "No pudo haber sido John; está de vacaciones.",
-      hint: "Certain it didn't happen."
+    "id": "b2-u20-e24",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Wireless charging is becoming a standard feature in high-end smartphones.",
+    "content": {
+      "title": "Carga inalámbrica",
+      "instructions": "Ordena las palabras para hablar de características tecnológicas.",
+      "correctSentence": "[[Wireless|La carga]] [[charging|inalámbrica]] [[is|se]] [[becoming|está]] [[a|convirtiendo]] [[standard|en]] [[feature|una]] [[in|característica]] [[high-end|estándar]] [[smartphones.|en smartphones de gama alta.]]",
+      "words": [
+        "[[charging|inalámbrica]]",
+        "[[standard|en]]",
+        "[[smartphones.|en smartphones de gama alta.]]",
+        "[[becoming|está]]",
+        "[[Wireless|La carga]]",
+        "[[feature|una]]",
+        "[[is|se]]",
+        "[[high-end|estándar]]",
+        "[[in|característica]]",
+        "[[a|convirtiendo]]"
+      ],
+      "explanation": "'High-end' se refiere a productos de la mejor calidad y precio más alto.",
+      "audio": "audio/b2/unit-20/e24.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-20/e24.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u20-e27",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "You've been working all day. You must be exhausted.",
-    content: {
-      title: "Modals of Deduction",
-      instructions: "Choose the correct modal.",
-      question: "[[You've been working all day. You ___ be exhausted.|Has estado trabajando todo el día. Debes estar agotado.]]",
-      options: ["might", "can't", "must"],
-      correctAnswer: "must",
-      explanation: "Almost certain deduction about the present.",
-      translation: "Has estado trabajando todo el día. Debes estar agotado.",
-      hint: "Certain deduction."
+    "id": "b2-u20-e25",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "By next week, we will have updated all the servers in the network.",
+    "content": {
+      "title": "Actualización de servidores",
+      "instructions": "Ordena las palabras usando futuro perfecto.",
+      "correctSentence": "[[By|Para]] [[next|la]] [[week,|semana]] [[we|que]] [[will|viene,]] [[have|habremos]] [[updated|actualizado]] [[all|todos]] [[the|los]] [[servers|servidores]] [[in|de]] [[the|la]] [[network.|red.]]",
+      "words": [
+        "[[next|la]]",
+        "[[have|habremos]]",
+        "[[network.|red.]]",
+        "[[week,|semana]]",
+        "[[By|Para]]",
+        "[[servers|servidores]]",
+        "[[will|viene,]]",
+        "[[the|la]]",
+        "[[updated|actualizado]]",
+        "[[we|que]]",
+        "[[all|todos]]",
+        "[[the|los]]",
+        "[[in|de]]"
+      ],
+      "explanation": "Uso de futuro perfecto para garantizar que un trabajo técnico estará terminado.",
+      "audio": "audio/b2/unit-20/e25.mp3"
     },
-    topicName: "Grammar"
-  },
-  {
-    id: "b2-u20-e28",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "She might not have received the email.",
-    content: {
-      title: "Modals of Deduction",
-      instructions: "Choose the correct modal.",
-      question: "[[She hasn't replied. She ___ (not/receive) the email.|No ha respondido. Puede que no haya recibido el correo.]]",
-      options: ["might not have received", "mustn't have received", "can't have received"],
-      correctAnswer: "might not have received",
-      explanation: "Uncertainty about a past negative event.",
-      translation: "No ha respondido. Puede que no haya recibido el correo.",
-      hint: "Possible past negative."
-    },
-    topicName: "Grammar"
-  },
-  {
-    id: "b2-u20-e29",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "That can't be true!",
-    content: {
-      title: "Modals of Deduction",
-      instructions: "Choose the correct modal.",
-      question: "[[That ___ be true! It's impossible.|¡Eso no puede ser verdad!]]",
-      options: ["might", "can't", "must"],
-      correctAnswer: "can't",
-      explanation: "Showing strong disbelief.",
-      translation: "¡Eso no puede ser verdad!",
-      hint: "Impossible."
-    },
-    topicName: "Grammar"
-  },
-  {
-    id: "b2-u20-e30",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "He must have left early to catch his flight.",
-    content: {
-      title: "Modals of Deduction",
-      instructions: "Choose the correct modal.",
-      question: "[[He's gone. He ___ (leave) early to catch his flight.|Se ha ido. Debe haberse ido temprano para coger su vuelo.]]",
-      options: ["can't have left", "might not have left", "must have left"],
-      correctAnswer: "must have left",
-      explanation: "Logical deduction about a past event.",
-      translation: "Se ha ido. Debe haberse ido temprano para coger su vuelo.",
-      hint: "Logical past deduction."
-    },
-    topicName: "Grammar"
-  },
-
-  // 31-40: Grammar Review - Reported Speech
-  {
-    id: "b2-u20-e31",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "\"I am tired,\" he said. He said that he was tired.",
-    content: {
-      title: "Reported Speech",
-      instructions: "Choose the correct reported form.",
-      question: "\"I am tired,\" he said. -> He said that he ___ tired.",
-      options: ["is", "be", "was"],
-      correctAnswer: "was",
-      explanation: "Present simple shifts to past simple.",
-      translation: "\"Estoy cansado\", dijo. Dijo que estaba cansado.",
-      hint: "am -> was."
-    },
-    topicName: "Grammar"
-  },
-  {
-    id: "b2-u20-e32",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "\"Will you come?\" she asked. She asked me if I would come.",
-    content: {
-      title: "Reported Questions",
-      instructions: "Choose the correct reported form.",
-      question: "\"Will you come?\" she asked. -> She asked me if I ___ come.",
-      options: ["will", "did", "would"],
-      correctAnswer: "would",
-      explanation: "Will shifts to would in reported speech.",
-      translation: "\"¿Vendrás?\", preguntó. Me preguntó si yo vendría.",
-      hint: "will -> would."
-    },
-    topicName: "Grammar"
-  },
-  {
-    id: "b2-u20-e33",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "\"Don't touch that,\" he said. He told me not to touch that.",
-    content: {
-      title: "Reported Commands",
-      instructions: "Choose the correct reported form.",
-      question: "\"Don't touch that,\" he said. -> He told me ___ touch that.",
-      options: ["to not", "don't", "not to"],
-      correctAnswer: "not to",
-      explanation: "Negative commands use 'not to + infinitive'.",
-      translation: "\"No toques eso\", dijo. Me dijo que no tocara eso.",
-      hint: "Negative command."
-    },
-    topicName: "Grammar"
-  },
-  {
-    id: "b2-u20-e34",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "\"I have seen it,\" they said. They said that they had seen it.",
-    content: {
-      title: "Reported Speech",
-      instructions: "Choose the correct reported form.",
-      question: "\"I have seen it,\" they said. -> They said that they ___ seen it.",
-      options: ["did", "have", "had"],
-      correctAnswer: "had",
-      explanation: "Present perfect shifts to past perfect.",
-      translation: "\"Lo he visto\", dijeron. Dijeron que lo habían visto.",
-      hint: "have -> had."
-    },
-    topicName: "Grammar"
-  },
-  {
-    id: "b2-u20-e35",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "\"Where is it?\" she asked. She asked me where it was.",
-    content: {
-      title: "Reported Questions",
-      instructions: "Choose the correct reported form.",
-      question: "\"Where is it?\" she asked. -> She asked me where it ___.",
-      options: ["is", "were", "was"],
-      correctAnswer: "was",
-      explanation: "Reported questions use statement word order and backshifting.",
-      translation: "\"¿Dónde está?\", preguntó. Me preguntó dónde estaba.",
-      hint: "Statement order + past."
-    },
-    topicName: "Grammar"
-  },
-  {
-    id: "b2-u20-e36",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "He suggested taking a break.",
-    content: {
-      title: "Reporting Verbs",
-      instructions: "Choose the correct form.",
-      question: "[[He suggested ___ (take) a break.|Sugirió tomar un descanso.]]",
-      options: ["taking", "take", "to take"],
-      correctAnswer: "taking",
-      explanation: "Suggest is followed by -ing.",
-      translation: "Sugirió tomar un descanso.",
-      hint: "Suggest + -ing."
-    },
-    topicName: "Grammar"
-  },
-  {
-    id: "b2-u20-e37",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "They refused to sign.",
-    content: {
-      title: "Reporting Verbs",
-      instructions: "Choose the correct form.",
-      question: "[[They refused ___ (sign).|Se negaron a firmar.]]",
-      options: ["sign", "signing", "to sign"],
-      correctAnswer: "to sign",
-      explanation: "Refuse is followed by to-infinitive.",
-      translation: "Se negaron a firmar.",
-      hint: "Refuse + to."
-    },
-    topicName: "Grammar"
-  },
-  {
-    id: "b2-u20-e38",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "She admitted being wrong.",
-    content: {
-      title: "Reporting Verbs",
-      instructions: "Choose the correct form.",
-      question: "[[She admitted ___ (be) wrong.|Admitió estar equivocada.]]",
-      options: ["to be", "being", "be"],
-      correctAnswer: "being",
-      explanation: "Admit is followed by -ing.",
-      translation: "Admitió estar equivocada.",
-      hint: "Admit + -ing."
-    },
-    topicName: "Grammar"
-  },
-  {
-    id: "b2-u20-e39",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "They agreed to meet.",
-    content: {
-      title: "Reporting Verbs",
-      instructions: "Choose the correct form.",
-      question: "[[They agreed ___ (meet).|Acordaron reunirse.]]",
-      options: ["meeting", "meet", "to meet"],
-      correctAnswer: "to meet",
-      explanation: "Agree is followed by to-infinitive.",
-      translation: "Acordaron reunirse.",
-      hint: "Agree + to."
-    },
-    topicName: "Grammar"
-  },
-  {
-    id: "b2-u20-e40",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "He denied stealing it.",
-    content: {
-      title: "Reporting Verbs",
-      instructions: "Choose the correct form.",
-      question: "[[He denied ___ (steal) it.|Él negó haberlo robado.]]",
-      options: ["steal", "stealing", "to steal"],
-      correctAnswer: "stealing",
-      explanation: "Deny is followed by -ing.",
-      translation: "Él negó haberlo robado.",
-      hint: "Deny + -ing."
-    },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-20/e25.mp3",
+    "topicName": "Grammar"
   },
 
-  // 41-50: Grammar Review - Cleft Sentences & Articles
+  // 26-50: Multiple Choice (Vocabulary & Grammar - Science & Technology)
   {
-    id: "b2-u20-e41",
-    type: "fill-blank",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "What I want is a coffee.",
-    content: {
-      title: "Cleft Sentences",
-      instructions: "Fill in the blank.",
-      question: "[[___ I want is a coffee.|Lo que quiero es un café.]]",
-      correctAnswer: "What",
-      explanation: "Wh-cleft for emphasis.",
-      translation: "Lo que quiero es un café.",
-      hint: "The thing that..."
+    "id": "b2-u20-e26",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "I will have finished my PhD by this time next year.",
+    "content": {
+      "title": "Terminar el doctorado",
+      "instructions": "Elige la forma verbal correcta para el futuro perfecto.",
+      "questions": [
+        {
+          "question": "[[I| ]] _______ _______ _______ [[my|mi]] [[PhD|doctorado]] [[by|para]] [[this|estas]] [[time|alturas]] [[next|del]] [[year.|año que viene.]]",
+          "options": ["[[will have finished|habré terminado]]", "[[will be finishing|estaré terminando]]", "[[will finish|terminaré]]"],
+          "correctAnswer": 0,
+          "explanation": "Expresa una meta completada antes de un plazo específico.",
+          "audio": "audio/b2/unit-20/e26.mp3"
+        }
+      ]
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-20/e26.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u20-e42",
-    type: "fill-blank",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "It was Jane who called you.",
-    content: {
-      title: "Cleft Sentences",
-      instructions: "Fill in the blank.",
-      question: "[[It was Jane ___ called you.|Fue Jane quien te llamó.]]",
-      correctAnswer: "who",
-      explanation: "It-cleft for person focus.",
-      translation: "Fue Jane quien te llamó.",
-      hint: "Relative pronoun for person."
+    "id": "b2-u20-e27",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Biotechnology uses biological systems to develop products.",
+    "content": {
+      "title": "Biotecnología",
+      "instructions": "Elige el término para el uso de sistemas biológicos en tecnología.",
+      "questions": [
+        {
+          "question": "_______ [[uses|usa]] [[biological|sistemas]] [[systems|biológicos]] [[to|para]] [[develop|desarrollar]] [[products.|productos.]]",
+          "options": ["[[Biotechnology|Biotecnología]]", "[[Geology|Geología]]", "[[Archaeology|Arqueología]]"],
+          "correctAnswer": 0,
+          "explanation": "La biotecnología se aplica en medicina, agricultura y más.",
+          "audio": "audio/b2/unit-20/e27.mp3"
+        }
+      ]
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-20/e27.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u20-e43",
-    type: "fill-blank",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "The internet has changed everything.",
-    content: {
-      title: "Articles",
-      instructions: "Fill in the correct article or leave blank.",
-      question: "[[___ (The/A) internet has changed everything.|El internet lo ha cambiado todo.]]",
-      correctAnswer: "The",
-      explanation: "Use 'the' for the internet.",
-      translation: "El internet lo ha cambiado todo.",
-      hint: "Specific noun."
+    "id": "b2-u20-e28",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "They will be performing the test when we arrive at the lab.",
+    "content": {
+      "title": "En el laboratorio",
+      "instructions": "Elige la forma verbal para una acción en curso en el futuro.",
+      "questions": [
+        {
+          "question": "[[They|Ellos]] _______ _______ _______ [[the|la]] [[test|prueba]] [[when|cuando]] [[we|nosotros]] [[arrive|lleguemos]] [[at|al]] [[the|laboratorio.]] [[lab.| ]]",
+          "options": ["[[will be performing|estarán realizando]]", "[[will have performed|habrán realizado]]", "[[will perform|realizarán]]"],
+          "correctAnswer": 0,
+          "explanation": "Futuro continuo para algo que estará sucediendo en el momento de nuestra llegada.",
+          "audio": "audio/b2/unit-20/e28.mp3"
+        }
+      ]
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-20/e28.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u20-e44",
-    type: "fill-blank",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "He is an honest man.",
-    content: {
-      title: "Articles",
-      instructions: "Fill in the correct article.",
-      question: "[[He is ___ (a/an) honest man.|Es un hombre honesto.]]",
-      correctAnswer: "an",
-      explanation: "Use 'an' before silent 'h'.",
-      translation: "Es un hombre honesto.",
-      hint: "Silent 'h'."
+    "id": "b2-u20-e29",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Innovation is the key to maintaining a competitive edge in technology.",
+    "content": {
+      "title": "Innovación",
+      "instructions": "Elige el término para la creación de nuevas ideas o métodos.",
+      "questions": [
+        {
+          "question": "_______ [[is|La innovación es]] [[the|la]] [[key|clave]] [[to|para]] [[maintaining|mantener]] [[a|una]] [[competitive|ventaja]] [[edge|competitiva]] [[in|en]] [[technology.|tecnología.]]",
+          "options": ["[[Innovation|Innovación]]", "[[Stagnation|Estancamiento]]", "[[Tradition|Tradición]]"],
+          "correctAnswer": 0,
+          "explanation": "'Innovation' implica mejora y novedad.",
+          "audio": "audio/b2/unit-20/e29.mp3"
+        }
+      ]
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-20/e29.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u20-e45",
-    type: "fill-blank",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "Money is important.",
-    content: {
-      title: "Articles",
-      instructions: "Fill in the article or leave blank.",
-      question: "[[___ (zero/the) money is important.|El dinero es importante.]]",
-      correctAnswer: "",
-      explanation: "Zero article for uncountable nouns in general.",
-      translation: "El dinero es importante.",
-      hint: "General uncountable."
+    "id": "b2-u20-e30",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "By tomorrow, I will have been working on this code for 48 hours.",
+    "content": {
+      "title": "48 horas de código",
+      "instructions": "Elige la forma verbal para durar hasta el futuro.",
+      "questions": [
+        {
+          "question": "[[By|Para]] [[tomorrow,|mañana,]] [[I| ]] _______ _______ _______ _______ [[on|en]] [[this|este]] [[code|código]] [[for|durante]] [[48|48]] [[hours.|horas.]]",
+          "options": ["[[will have been working|habré estado trabajando]]", "[[will be working|estaré trabajando]]", "[[will have worked|habré trabajado]]"],
+          "correctAnswer": 0,
+          "explanation": "Futuro perfecto continuo para enfatizar la duración ininterrumpida.",
+          "audio": "audio/b2/unit-20/e30.mp3"
+        }
+      ]
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-20/e30.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u20-e46",
-    type: "fill-blank",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "What I love is the weather here.",
-    content: {
-      title: "Cleft Sentences",
-      instructions: "Fill in the blank.",
-      question: "[[___ I love is the weather here.|Lo que me encanta es el clima aquí.]]",
-      correctAnswer: "What",
-      explanation: "Wh-cleft for emphasis.",
-      translation: "Lo que me encanta es el clima aquí.",
-      hint: "The thing that..."
+    "id": "b2-u20-e31",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Encryption is the process of converting information into a secret code.",
+    "content": {
+      "title": "Cifrado",
+      "instructions": "Elige el término para proteger datos mediante códigos.",
+      "questions": [
+        {
+          "question": "_______ [[is|El cifrado es]] [[the|el]] [[process|proceso]] [[of|de]] [[converting|convertir]] [[information|información]] [[into|en]] [[a|un]] [[secret|código]] [[code.|secreto.]]",
+          "options": ["[[Encryption|Cifrado / Encriptación]]", "[[Deletion|Borrado]]", "[[Broadcasting|Radiodifusión]]"],
+          "correctAnswer": 0,
+          "explanation": "'Encryption' es vital para la seguridad en internet.",
+          "audio": "audio/b2/unit-20/e31.mp3"
+        }
+      ]
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-20/e31.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u20-e47",
-    type: "fill-blank",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "It was in Paris that we met.",
-    content: {
-      title: "Cleft Sentences",
-      instructions: "Fill in the blank.",
-      question: "[[It was in Paris ___ we met.|Fue en París donde nos conocimos.]]",
-      correctAnswer: "that",
-      explanation: "It-cleft for place focus.",
-      translation: "Fue en París donde nos conocimos.",
-      hint: "Linker for it-cleft."
+    "id": "b2-u20-e32",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Will the software have been updated by the time we restart?",
+    "content": {
+      "title": "Software actualizado",
+      "instructions": "Elige la estructura correcta de la pregunta en futuro perfecto pasivo.",
+      "questions": [
+        {
+          "question": "_______ [[the|¿Habrá sido]] [[software|actualizado el]] [[have|software]] _______ _______ [[by|para]] [[the|cuando]] [[time|reiniciemos?]] [[we| ]] [[restart?| ]]",
+          "options": ["[[Will / been updated|actualizado]]", "[[Does / updated|actualizado]]", "[[Has / being updated|siendo actualizado]]"],
+          "correctAnswer": 0,
+          "explanation": "Pregunta en futuro perfecto pasivo: 'Will + sujeto + have been + participio'.",
+          "audio": "audio/b2/unit-20/e32.mp3"
+        }
+      ]
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-20/e32.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u20-e48",
-    type: "fill-blank",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "The United Kingdom is in Europe.",
-    content: {
-      title: "Articles",
-      instructions: "Fill in the article.",
-      question: "[[___ (The/A) United Kingdom is in Europe.|El Reino Unido está en Europa.]]",
-      correctAnswer: "The",
-      explanation: "Use 'the' for UK.",
-      translation: "El Reino Unido está en Europa.",
-      hint: "Specific country name."
+    "id": "b2-u20-e33",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Software engineering focuses on the development and maintenance of software systems.",
+    "content": {
+      "title": "Ingeniería de software",
+      "instructions": "Elige el término para la creación de sistemas informáticos.",
+      "questions": [
+        {
+          "question": "_______ _______ [[focuses|se enfoca]] [[on|en]] [[the|el]] [[development|desarrollo]] [[and|y]] [[maintenance|mantenimiento]] [[of|de]] [[software|sistemas de]] [[systems.|software.]]",
+          "options": ["[[Software engineering|Ingeniería de software]]", "[[Civil engineering|Ingeniería civil]]", "[[Social engineering|Ingeniería social]]"],
+          "correctAnswer": 0,
+          "explanation": "Combina principios de ingeniería con programación.",
+          "audio": "audio/b2/unit-20/e33.mp3"
+        }
+      ]
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-20/e33.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u20-e49",
-    type: "fill-blank",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "I need an umbrella.",
-    content: {
-      title: "Articles",
-      instructions: "Fill in the article.",
-      question: "[[I need ___ (a/an) umbrella.|Necesito un paraguas.]]",
-      correctAnswer: "an",
-      explanation: "Use 'an' before a vowel sound.",
-      translation: "Necesito un paraguas.",
-      hint: "Vowel sound."
+    "id": "b2-u20-e34",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Next week, they will be launching the first commercial space flight.",
+    "content": {
+      "title": "Vuelo espacial",
+      "instructions": "Elige la forma verbal para un evento futuro importante.",
+      "questions": [
+        {
+          "question": "[[Next|La]] [[week,|semana que viene,]] [[they|ellos]] _______ _______ [[the|lanzarán el]] [[first|primer]] [[commercial|vuelo]] [[space|espacial]] [[flight.|comercial.]]",
+          "options": ["[[will be launching|estarán lanzando]]", "[[will have launched|habrán lanzado]]", "[[launch|lanzan]]"],
+          "correctAnswer": 0,
+          "explanation": "Futuro continuo para algo planeado que durará cierto tiempo (el proceso de lanzamiento).",
+          "audio": "audio/b2/unit-20/e34.mp3"
+        }
+      ]
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-20/e34.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u20-e50",
-    type: "fill-blank",
-    level: "B2",
-    topic: "Module 2 Review",
-    difficulty: "medium",
-    transcript: "Happiness is vital.",
-    content: {
-      title: "Articles",
-      instructions: "Fill in the article or leave blank.",
-      question: "[[___ (zero/the) happiness is vital.|La felicidad es vital.]]",
-      correctAnswer: "",
-      explanation: "Zero article for abstract nouns in general.",
-      translation: "La felicidad es vital.",
-      hint: "General abstract."
+    "id": "b2-u20-e35",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "A database is an organized collection of structured information.",
+    "content": {
+      "title": "Base de datos",
+      "instructions": "Elige el término para el almacenamiento de información estructurada.",
+      "questions": [
+        {
+          "question": "[[A|Una]] _______ [[is|es]] [[an|una]] [[organized|colección]] [[collection|organizada]] [[of|de]] [[structured|información]] [[information.|estructurada.]]",
+          "options": ["[[database|base de datos]]", "[[spreadsheet|hoja de cálculo]]", "[[hard drive|disco duro]]"],
+          "correctAnswer": 0,
+          "explanation": "'Database' (DB) es donde las aplicaciones guardan sus datos.",
+          "audio": "audio/b2/unit-20/e35.mp3"
+        }
+      ]
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-20/e35.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u20-e36",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "By the end of the year, researchers will have collected all the samples.",
+    "content": {
+      "title": "Recogida de muestras",
+      "instructions": "Elige la forma verbal para una meta científica completada.",
+      "questions": [
+        {
+          "question": "[[By|Para]] [[the|final]] [[end|de]] [[of|año,]] [[the|los]] [[year,|investigadores]] [[researchers| ]] _______ _______ _______ [[all|todas]] [[the|las]] [[samples.|muestras.]]",
+          "options": ["[[will have collected|habrán recogido]]", "[[will be collecting|estarán recogiendo]]", "[[will collect|recogerán]]"],
+          "correctAnswer": 0,
+          "explanation": "Futuro perfecto para una tarea finalizada antes de fin de año.",
+          "audio": "audio/b2/unit-20/e36.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-20/e36.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u20-e37",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Quantum computing uses the principles of quantum mechanics to process data.",
+    "content": {
+      "title": "Computación cuántica",
+      "instructions": "Elige el término para la informática basada en física cuántica.",
+      "questions": [
+        {
+          "question": "_______ _______ [[uses|usa]] [[the|los]] [[principles|principios]] [[of|de]] [[quantum|la mecánica]] [[mechanics|cuántica]] [[to|para]] [[process|procesar]] [[data.|datos.]]",
+          "options": ["[[Quantum computing|Computación cuántica]]", "[[Cloud computing|Computación en la nube]]", "[[Binary logic|Lógica binaria]]"],
+          "correctAnswer": 0,
+          "explanation": "Es mucho más potente que la computación tradicional para ciertos problemas.",
+          "audio": "audio/b2/unit-20/e37.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-20/e37.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u20-e38",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "This time next week, we will be testing the new algorithm.",
+    "content": {
+      "title": "Probando el algoritmo",
+      "instructions": "Elige la forma verbal para una actividad futura en curso.",
+      "questions": [
+        {
+          "question": "[[This|La semana]] [[time|que viene]] [[next|a]] [[week,|estas horas,]] _______ _______ _______ [[the|estaremos probando el]] [[new|nuevo]] [[algorithm.|algoritmo.]]",
+          "options": ["[[we will be testing|estaremos probando]]", "[[we will have tested|habremos probado]]", "[[we test|probamos]]"],
+          "correctAnswer": 0,
+          "explanation": "Futuro continuo para describir lo que estaremos haciendo exactamente en siete días.",
+          "audio": "audio/b2/unit-20/e38.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-20/e38.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u20-e39",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "A firewall is a security system that monitors network traffic.",
+    "content": {
+      "title": "Cortafuegos",
+      "instructions": "Elige el término para la barrera de seguridad de red.",
+      "questions": [
+        {
+          "question": "[[A|Un]] _______ [[is|es]] [[a|un]] [[security|sistema de]] [[system|seguridad]] [[that|que]] [[monitors|monitoriza el]] [[network|tráfico de]] [[traffic.|red.]]",
+          "options": ["[[firewall|cortafuegos]]", "[[browser|navegador]]", "[[modem|módem]]"],
+          "correctAnswer": 0,
+          "explanation": "'Firewall' protege contra accesos no autorizados.",
+          "audio": "audio/b2/unit-20/e39.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-20/e39.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u20-e40",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "In two years, the mission will have reached Mars.",
+    "content": {
+      "title": "Llegada a Marte",
+      "instructions": "Elige la forma verbal para completar la frase.",
+      "questions": [
+        {
+          "question": "[[In|En]] [[two|dos]] [[years,|años,]] [[the|la]] [[mission|misión]] _______ _______ _______ [[Mars.|Marte.]]",
+          "options": ["[[will have reached|habrá llegado a]]", "[[will be reaching|estará llegando a]]", "[[will reach|llegará a]]"],
+          "correctAnswer": 0,
+          "explanation": "Futuro perfecto para un evento puntual que habrá ocurrido en dos años.",
+          "audio": "audio/b2/unit-20/e40.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-20/e40.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u20-e41",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Bandwidth is the maximum data transfer rate of a network.",
+    "content": {
+      "title": "Ancho de banda",
+      "instructions": "Elige el término para la capacidad de transmisión de datos.",
+      "questions": [
+        {
+          "question": "_______ [[is|El ancho de banda es]] [[the|la]] [[maximum|tasa]] [[data|máxima de]] [[transfer|transferencia]] [[rate|de]] [[of|datos de]] [[a|una]] [[network.|red.]]",
+          "options": ["[[Bandwidth|Ancho de banda]]", "[[Latency|Latencia]]", "[[Resolution|Resolución]]"],
+          "correctAnswer": 0,
+          "explanation": "A mayor 'bandwidth', más datos se pueden descargar a la vez.",
+          "audio": "audio/b2/unit-20/e41.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-20/e41.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u20-e42",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Will you have been living here for a decade by next month?",
+    "content": {
+      "title": "Una década aquí",
+      "instructions": "Elige la forma verbal para una duración futura acumulada.",
+      "questions": [
+        {
+          "question": "_______ [[you|¿Habrás estado]] _______ _______ _______ [[here|viviendo aquí]] [[for|durante]] [[a|una]] [[decade|década]] [[by|para]] [[next|el mes]] [[month?|que viene?]]",
+          "options": ["[[Will / have been living|viviendo]]", "[[Do / be living|viviendo]]", "[[Have / lived|vivido]]"],
+          "correctAnswer": 0,
+          "explanation": "Futuro perfecto continuo en forma interrogativa.",
+          "audio": "audio/b2/unit-20/e42.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-20/e42.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u20-e43",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "To debug is to identify and remove errors from computer software.",
+    "content": {
+      "title": "Depurar / Debuguear",
+      "instructions": "Elige el verbo que significa corregir fallos en el código.",
+      "questions": [
+        {
+          "question": "[[To| ]] _______ [[is|es]] [[to|identificar]] [[identify|y]] [[and|eliminar]] [[remove|errores]] [[errors|del]] [[from|software.]] [[computer| ]] [[software.| ]]",
+          "options": ["[[debug|depurar]]", "[[install|instalar]]", "[[format|formatear]]"],
+          "correctAnswer": 0,
+          "explanation": "'Debugging' viene de quitar 'bugs' (bichos/errores) del sistema.",
+          "audio": "audio/b2/unit-20/e43.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-20/e43.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u20-e44",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Soon, we will be using augmented reality for everyday tasks.",
+    "content": {
+      "title": "Realidad aumentada",
+      "instructions": "Elige la forma verbal para una tendencia futura.",
+      "questions": [
+        {
+          "question": "[[Soon,|Pronto,]] [[we|nosotros]] _______ _______ _______ [[augmented|usando realidad]] [[reality|aumentada]] [[for|para]] [[everyday|tareas]] [[tasks.|cotidianas.]]",
+          "options": ["[[will be using|estaremos usando]]", "[[will have used|habremos usado]]", "[[are using|estamos usando]]"],
+          "correctAnswer": 0,
+          "explanation": "Futuro continuo para una situación que se volverá habitual.",
+          "audio": "audio/b2/unit-20/e44.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-20/e44.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u20-e45",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Robotics involves the design, construction, and operation of robots.",
+    "content": {
+      "title": "Robótica",
+      "instructions": "Elige el término para la ciencia de los robots.",
+      "questions": [
+        {
+          "question": "_______ [[involves|implica]] [[the|el]] [[design,|diseño,]] [[construction,|construcción]] [[and|y]] [[operation|manejo]] [[of|de]] [[robots.|robots.]]",
+          "options": ["[[Robotics|Robótica]]", "[[Mechanics|Mecánica]]", "[[Electronics|Electrónica]]"],
+          "correctAnswer": 0,
+          "explanation": "La robótica es una rama multidisciplinar de la tecnología.",
+          "audio": "audio/b2/unit-20/e45.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-20/e45.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u20-e46",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "I will have saved enough data by the end of the session.",
+    "content": {
+      "title": "Guardar datos",
+      "instructions": "Elige el futuro perfecto para completar la frase.",
+      "questions": [
+        {
+          "question": "[[I|Yo]] _______ _______ _______ [[enough|suficientes]] [[data|datos]] [[by|para]] [[the|final]] [[end|de]] [[of|la]] [[the|sesión.]] [[session.| ]]",
+          "options": ["[[will have saved|habré guardado]]", "[[will be saving|estaré guardando]]", "[[will save|guardaré]]"],
+          "correctAnswer": 0,
+          "explanation": "Meta cumplida al final de un periodo de tiempo determinado.",
+          "audio": "audio/b2/unit-20/e46.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-20/e46.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u20-e47",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "An operating system manages the computer's hardware and software resources.",
+    "content": {
+      "title": "Sistema operativo",
+      "instructions": "Elige el término para el software principal que gestiona el hardware.",
+      "questions": [
+        {
+          "question": "[[An|Un]] _______ _______ [[manages|gestiona]] [[the|los]] [[computer's|recursos de]] [[hardware|hardware y]] [[and|software del]] [[software|ordenador.]] [[resources.| ]]",
+          "options": ["[[operating system|sistema operativo]]", "[[application suite|paquete de aplicaciones]]", "[[utility tool|herramienta de utilidad]]"],
+          "correctAnswer": 0,
+          "explanation": "Ejemplos de 'operating system' (OS) son Windows, macOS o Linux.",
+          "audio": "audio/b2/unit-20/e47.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-20/e47.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u20-e48",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "By 5 PM, they will have been coding for eight hours straight.",
+    "content": {
+      "title": "Codificando sin parar",
+      "instructions": "Elige la forma verbal para durar hasta un punto en el futuro.",
+      "questions": [
+        {
+          "question": "[[By|Para]] [[5|las]] [[PM,|5,]] [[they|ellos]] _______ _______ _______ _______ [[for|durante]] [[eight|ocho]] [[hours|horas]] [[straight.|seguidas.]]",
+          "options": ["[[will have been coding|habrán estado programando]]", "[[will be coding|estarán programando]]", "[[will have coded|habrán programado]]"],
+          "correctAnswer": 0,
+          "explanation": "Futuro perfecto continuo para enfatizar la persistencia hasta una hora fija.",
+          "audio": "audio/b2/unit-20/e48.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-20/e48.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u20-e49",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Bandwidth limit is the maximum amount of data allowed in a period.",
+    "content": {
+      "title": "Límite de datos",
+      "instructions": "Elige el término para el límite de descarga.",
+      "questions": [
+        {
+          "question": "_______ _______ [[is|El límite de datos es]] [[the|la]] [[maximum|cantidad]] [[amount|máxima]] [[of|de]] [[data|datos]] [[allowed|permitidos]] [[in|en]] [[a|un]] [[period.|periodo.]]",
+          "options": ["[[Bandwidth limit|Límite de datos / ancho de banda]]", "[[Screen resolution|Resolución de pantalla]]", "[[Battery life|Vida de la batería]]"],
+          "correctAnswer": 0,
+          "explanation": "Si superas el 'bandwidth limit', tu conexión puede ir más lenta.",
+          "audio": "audio/b2/unit-20/e49.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-20/e49.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u20-e50",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Science & Technology",
+    "difficulty": "medium",
+    "transcript": "Will the new servers have been installed by next Monday?",
+    "content": {
+      "title": "Servidores listos",
+      "instructions": "Elige la forma verbal para preguntar por una tarea terminada en pasiva.",
+      "questions": [
+        {
+          "question": "[[Will|¿Habrán]] [[the|sido]] [[new|instalados]] [[servers|los nuevos]] _______ _______ _______ [[by|servidores para]] [[next|el lunes]] [[Monday?|que viene?]]",
+          "options": ["[[have been installed|instalados]]", "[[be installed|instalados]]", "[[be installing|instalando]]"],
+          "correctAnswer": 0,
+          "explanation": "Futuro perfecto pasivo interrogativo: 'Will + sujeto + have been + participio'.",
+          "audio": "audio/b2/unit-20/e50.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-20/e50.mp3",
+    "topicName": "Grammar"
   }
 ];

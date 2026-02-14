@@ -1,953 +1,1307 @@
 import { Exercise } from "@/types/course";
 
 export const UNIT_23_EXERCISES: Exercise[] = [
-  // 1-10: Grammar - Mixed Conditionals (Type 3/2: Past Condition -> Present Result)
+  // 1-25: Sentence Building (Grammar & Vocabulary - Social Issues)
   {
-    id: "b2-u23-e1",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "hard",
-    transcript: "If we had taken action earlier, the planet would be in better shape now.",
-    content: {
-      title: "Mixed Conditionals: Past to Present",
-      instructions: "Choose the correct verb form for a present result of a past condition.",
-      question: "[[If we had taken action earlier, the planet ___ (be) in better shape now.|Si hubiéramos tomado medidas antes, el planeta estaría en mejor forma ahora.]]",
-      options: ["would have been", "will be", "would be"],
-      correctAnswer: "would be",
-      explanation: "Use 'if + past perfect' for the past condition and 'would + infinitive' for the present result.",
-      translation: "Si hubiéramos tomado medidas antes, el planeta estaría en mejor forma ahora.",
-      hint: "Present result of past action."
+    "id": "b2-u23-e1",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "It is estimated that millions of people are affected by poverty.",
+    "content": {
+      "title": "Estimación de pobreza",
+      "instructions": "Ordena las palabras para usar la pasiva impersonal.",
+      "correctSentence": "[[It|Se]] [[is|estima]] [[estimated|que]] [[that|millones]] [[millions|de]] [[of|personas]] [[people|están]] [[are|afectadas]] [[affected|por la]] [[by|pobreza.]] [[poverty.| ]]",
+      "words": [
+        "[[estimated|que]]",
+        "[[poverty.| ]]",
+        "[[people|están]]",
+        "[[millions|de]]",
+        "[[It|Se]]",
+        "[[is|estima]]",
+        "[[affected|por la]]",
+        "[[by|pobreza.]]",
+        "[[of|personas]]",
+        "[[are|afectadas]]",
+        "[[that|millones]]"
+      ],
+      "explanation": "La pasiva impersonal 'It is estimated that...' se usa para reportar creencias generales.",
+      "audio": "audio/b2/unit-23/e1.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-23/e1.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u23-e2",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "hard",
-    transcript: "I wouldn't be so tired if I had gone to bed early.",
-    content: {
-      title: "Mixed Conditionals: Past to Present",
-      instructions: "Choose the correct verb form.",
-      question: "[[I ___ (not/be) so tired if I had gone to bed early.|No estaría tan cansado si me hubiera ido a la cama temprano.]]",
-      options: ["weren't", "wouldn't be", "wouldn't have been"],
-      correctAnswer: "wouldn't be",
-      explanation: "A past condition (not going to bed early) affecting the present state (being tired).",
-      translation: "No estaría tan cansado si me hubiera ido a la cama temprano.",
-      hint: "Current state from past action."
+    "id": "b2-u23-e2",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "Homelessness is a complex issue with no single solution.",
+    "content": {
+      "title": "Personas sin hogar",
+      "instructions": "Ordena las palabras para hablar de una problemática social.",
+      "correctSentence": "[[Homelessness|El sinhogarismo]] [[is|es]] [[a|un]] [[complex|problema]] [[issue|complejo]] [[with|sin]] [[no|una]] [[single|única]] [[solution.|solución.]]",
+      "words": [
+        "[[is|es]]",
+        "[[solution.|solución.]]",
+        "[[issue|complejo]]",
+        "[[Homelessness|El sinhogarismo]]",
+        "[[single|única]]",
+        "[[a|un]]",
+        "[[complex|problema]]",
+        "[[with|sin]]",
+        "[[no|una]]"
+      ],
+      "explanation": "'Homelessness' es el sustantivo abstracto para la condición de no tener hogar.",
+      "audio": "audio/b2/unit-23/e2.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-23/e2.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u23-e3",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "hard",
-    transcript: "If she had studied botany, she would work in a lab today.",
-    content: {
-      title: "Mixed Conditionals: Past to Present",
-      instructions: "Choose the correct verb form.",
-      question: "[[If she had studied botany, she ___ (work) in a lab today.|Si hubiera estudiado botánica, trabajaría en un laboratorio hoy.]]",
-      options: ["works", "would have worked", "would work"],
-      correctAnswer: "would work",
-      explanation: "Past choice affecting current job.",
-      translation: "Si hubiera estudiado botánica, trabajaría en un laboratorio hoy.",
-      hint: "Current job from past study."
+    "id": "b2-u23-e3",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "The government needs to have the infrastructure improved.",
+    "content": {
+      "title": "Mejora de infraestructura",
+      "instructions": "Ordena las palabras usando la estructura causal 'have something done'.",
+      "correctSentence": "[[The|El]] [[government|gobierno]] [[needs|necesita]] [[to|que]] [[have|se]] [[the|mejore]] [[infrastructure|la]] [[improved.|infraestructura.]]",
+      "words": [
+        "[[government|gobierno]]",
+        "[[infrastructure|la]]",
+        "[[have|se]]",
+        "[[The|El]]",
+        "[[improved.|infraestructura.]]",
+        "[[needs|necesita]]",
+        "[[the|mejore]]",
+        "[[to|que]]"
+      ],
+      "explanation": "'Have something improved' indica que el gobierno organiza la mejora, no que la haga físicamente.",
+      "audio": "audio/b2/unit-23/e3.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-23/e3.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u23-e4",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "hard",
-    transcript: "We would have more water if it had rained last month.",
-    content: {
-      title: "Mixed Conditionals: Past to Present",
-      instructions: "Choose the correct verb form.",
-      question: "[[We ___ (have) more water if it had rained last month.|Tendríamos más agua si hubiera llovido el mes pasado.]]",
-      options: ["would have had", "will have", "would have"],
-      correctAnswer: "would have",
-      explanation: "Past event (no rain) affecting current supply.",
-      translation: "Tendríamos más agua si hubiera llovido el mes pasado.",
-      hint: "Current availability from past event."
+    "id": "b2-u23-e4",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "Sustainable development aims to balance economic growth and environmental protection.",
+    "content": {
+      "title": "Desarrollo sostenible",
+      "instructions": "Ordena las palabras para hablar de sostenibilidad.",
+      "correctSentence": "[[Sustainable|El desarrollo]] [[development|sostenible]] [[aims|aspira]] [[to|a]] [[balance|equilibrar]] [[economic|el crecimiento]] [[growth|económico]] [[and|y]] [[environmental|la protección]] [[protection.|ambiental.]]",
+      "words": [
+        "[[development|sostenible]]",
+        "[[growth|económico]]",
+        "[[protection.|ambiental.]]",
+        "[[aims|aspira]]",
+        "[[Sustainable|El desarrollo]]",
+        "[[environmental|la protección]]",
+        "[[balance|equilibrar]]",
+        "[[economic|el crecimiento]]",
+        "[[and|y]]",
+        "[[to|a]]"
+      ],
+      "explanation": "'Sustainable development' es un concepto clave en ecología y economía moderna.",
+      "audio": "audio/b2/unit-23/e4.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-23/e4.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u23-e5",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "hard",
-    transcript: "If the law had been passed, the air would be cleaner now.",
-    content: {
-      title: "Mixed Conditionals: Past to Present",
-      instructions: "Choose the correct verb form.",
-      question: "[[If the law had been passed, the air ___ (be) cleaner now.|Si se hubiera aprobado la ley, el aire estaría más limpio ahora.]]",
-      options: ["is", "would have been", "would be"],
-      correctAnswer: "would be",
-      explanation: "Past failure affecting current air quality.",
-      translation: "Si se hubiera aprobado la ley, el aire estaría más limpio ahora.",
-      hint: "Current quality from past law."
+    "id": "b2-u23-e5",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "New laws are being implemented to tackle gender inequality.",
+    "content": {
+      "title": "Igualdad de género",
+      "instructions": "Ordena las palabras usando la pasiva continua.",
+      "correctSentence": "[[New|Se]] [[laws|están]] [[are|implementando]] [[being|nuevas]] [[implemented|leyes]] [[to|para]] [[tackle|abordar]] [[gender|la desigualdad]] [[inequality.|de género.]]",
+      "words": [
+        "[[laws|están]]",
+        "[[inequality.|de género.]]",
+        "[[being|nuevas]]",
+        "[[are|implementando]]",
+        "[[New|Se]]",
+        "[[gender|la desigualdad]]",
+        "[[tackle|abordar]]",
+        "[[implemented|leyes]]",
+        "[[to|para]]"
+      ],
+      "explanation": "La pasiva continua 'are being implemented' describe una acción en proceso.",
+      "audio": "audio/b2/unit-23/e5.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-23/e5.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u23-e6",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "hard",
-    transcript: "I would know how to use this app if I had read the manual.",
-    content: {
-      title: "Mixed Conditionals: Past to Present",
-      instructions: "Choose the correct verb form.",
-      question: "[[I ___ (know) how to use this app if I had read the manual.|Sabría cómo usar esta aplicación si hubiera leído el manual.]]",
-      options: ["would have known", "know", "would know"],
-      correctAnswer: "would know",
-      explanation: "Past inaction (not reading) affecting current knowledge.",
-      translation: "Sabría cómo usar esta aplicación si hubiera leído el manual.",
-      hint: "Current knowledge from past action."
+    "id": "b2-u23-e6",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "Volunteering is a great way to contribute to the local community.",
+    "content": {
+      "title": "Voluntariado",
+      "instructions": "Ordena las palabras para hablar de labor social.",
+      "correctSentence": "[[Volunteering|El voluntariado]] [[is|es]] [[a|una]] [[great|forma]] [[way|excelente]] [[to|de]] [[contribute|contribuir]] [[to|a]] [[the|la]] [[local|comunidad]] [[community.|local.]]",
+      "words": [
+        "[[is|es]]",
+        "[[community.|local.]]",
+        "[[way|excelente]]",
+        "[[Volunteering|El voluntariado]]",
+        "[[local|comunidad]]",
+        "[[a|una]]",
+        "[[contribute|contribuir]]",
+        "[[great|forma]]",
+        "[[to|a]]",
+        "[[to|de]]",
+        "[[the|la]]"
+      ],
+      "explanation": "'Volunteering' es el acto de trabajar sin cobrar por una causa benéfica.",
+      "audio": "audio/b2/unit-23/e6.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-23/e6.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u23-e7",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "hard",
-    transcript: "If they had invested in solar, they would save money now.",
-    content: {
-      title: "Mixed Conditionals: Past to Present",
-      instructions: "Choose the correct verb form.",
-      question: "[[If they had invested in solar, they ___ (save) money now.|Si hubieran invertido en energía solar, ahorrarían dinero ahora.]]",
-      options: ["would have saved", "would save", "save"],
-      correctAnswer: "would save",
-      explanation: "Past investment affecting current savings.",
-      translation: "Si hubieran invertido en energía solar, ahorrarían dinero ahora.",
-      hint: "Current saving from past investment."
+    "id": "b2-u23-e7",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "Citizens should get their voices heard through peaceful protest.",
+    "content": {
+      "title": "Hacerse oír",
+      "instructions": "Ordena las palabras usando 'get something done'.",
+      "correctSentence": "[[Citizens|Los ciudadanos]] [[should|deberían]] [[get|hacer]] [[their|que]] [[voices|sus]] [[heard|voces]] [[through|sean oídas]] [[peaceful|a través de]] [[protest.|la protesta pacífica.]]",
+      "words": [
+        "[[should|deberían]]",
+        "[[protest.|la protesta pacífica.]]",
+        "[[their|que]]",
+        "[[get|hacer]]",
+        "[[Citizens|Los ciudadanos]]",
+        "[[peaceful|a través de]]",
+        "[[heard|voces]]",
+        "[[voices|sean oídas]]",
+        "[[through|a través de]]"
+      ],
+      "explanation": "'Get your voice heard' significa lograr que otros escuchen lo que tienes que decir.",
+      "audio": "audio/b2/unit-23/e7.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-23/e7.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u23-e8",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "hard",
-    transcript: "We would be lost if we hadn't brought a map.",
-    content: {
-      title: "Mixed Conditionals: Past to Present",
-      instructions: "Choose the correct verb form.",
-      question: "[[We ___ (be) lost if we hadn't brought a map.|Estaríamos perdidos si no hubiéramos traído un mapa.]]",
-      options: ["would be", "are", "would have been"],
-      correctAnswer: "would be",
-      explanation: "Past action (bringing a map) preventing a current problem (being lost).",
-      translation: "Estaríamos perdidos si no hubiéramos traído un mapa.",
-      hint: "Current state from past action."
+    "id": "b2-u23-e8",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "Social media can play a significant role in raising awareness.",
+    "content": {
+      "title": "Concienciación",
+      "instructions": "Ordena las palabras para hablar del papel de las redes sociales.",
+      "correctSentence": "[[Social|Las redes]] [[media|sociales]] [[can|pueden]] [[play|desempeñar]] [[a|un]] [[significant|papel]] [[role|importante]] [[in|en]] [[raising|concienciar.]] [[awareness.| ]]",
+      "words": [
+        "[[media|sociales]]",
+        "[[role|importante]]",
+        "[[awareness.| ]]",
+        "[[play|desempeñar]]",
+        "[[Social|Las redes]]",
+        "[[raising|concienciar.]]",
+        "[[significant|papel]]",
+        "[[can|pueden]]",
+        "[[in|en]]",
+        "[[a|un]]"
+      ],
+      "explanation": "'Raise awareness' es la expresión habitual para sensibilizar sobre un tema.",
+      "audio": "audio/b2/unit-23/e8.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-23/e8.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u23-e9",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "hard",
-    transcript: "If he had been more careful, he wouldn't be in hospital today.",
-    content: {
-      title: "Mixed Conditionals: Past to Present",
-      instructions: "Choose the correct verb form.",
-      question: "[[If he had been more careful, he ___ (not/be) in hospital today.|Si hubiera tenido más cuidado, no estaría en el hospital hoy.]]",
-      options: ["wouldn't have been", "wouldn't be", "isn't"],
-      correctAnswer: "wouldn't be",
-      explanation: "Past behavior affecting current situation.",
-      translation: "Si hubiera tenido más cuidado, no estaría en el hospital hoy.",
-      hint: "Current location from past behavior."
+    "id": "b2-u23-e9",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "The protesters claim that their human rights have been violated.",
+    "content": {
+      "title": "Derechos humanos",
+      "instructions": "Ordena las palabras usando la pasiva perfecta.",
+      "correctSentence": "[[The|Los]] [[protesters|manifestantes]] [[claim|afirman]] [[that|que]] [[their|sus]] [[human|derechos]] [[rights|humanos]] [[have|han]] [[been|sido]] [[violated.|violentados.]]",
+      "words": [
+        "[[protesters|manifestantes]]",
+        "[[rights|humanos]]",
+        "[[violated.|violentados.]]",
+        "[[have|han]]",
+        "[[The|Los]]",
+        "[[been|sido]]",
+        "[[claim|afirman]]",
+        "[[human|derechos]]",
+        "[[their|sus]]",
+        "[[that|que]]"
+      ],
+      "explanation": "La pasiva perfecta 'have been violated' se refiere a una acción ocurrida en el pasado.",
+      "audio": "audio/b2/unit-23/e9.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-23/e9.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u23-e10",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "hard",
-    transcript: "If I had finished my work, I would go out tonight.",
-    content: {
-      title: "Mixed Conditionals: Past to Present",
-      instructions: "Choose the correct verb form.",
-      question: "[[If I had finished my work, I ___ (go) out tonight.|Si hubiera terminado mi trabajo, saldría esta noche.]]",
-      options: ["would go", "would have gone", "will go"],
-      correctAnswer: "would go",
-      explanation: "Past completion (hypothetical) affecting a near future/present possibility.",
-      translation: "Si hubiera terminado mi trabajo, saldría esta noche.",
-      hint: "Future/present possibility from past work."
+    "id": "b2-u23-e10",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "Affordable housing is one of the most pressing urban challenges.",
+    "content": {
+      "title": "Vivienda asequible",
+      "instructions": "Ordena las palabras para hablar de retos urbanos.",
+      "correctSentence": "[[Affordable|La vivienda]] [[housing|asequible]] [[is|es]] [[one|uno]] [[of|de]] [[the|los]] [[most|retos]] [[pressing|urbanos]] [[urban|más]] [[challenges.|urgentes.]]",
+      "words": [
+        "[[housing|asequible]]",
+        "[[one|uno]]",
+        "[[challenges.|urgentes.]]",
+        "[[pressing|urbanos]]",
+        "[[Affordable|La vivienda]]",
+        "[[urban|más]]",
+        "[[is|es]]",
+        "[[most|retos]]",
+        "[[the|los]]",
+        "[[of|de]]"
+      ],
+      "explanation": "'Affordable housing' se refiere a viviendas con precios que la gente común puede pagar.",
+      "audio": "audio/b2/unit-23/e10.mp3"
     },
-    topicName: "Grammar"
-  },
-
-  // 11-20: Grammar - Mixed Conditionals (Type 2/3: Present State -> Past Result)
-  {
-    id: "b2-u23-e11",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "hard",
-    transcript: "If I were braver, I would have spoken to him yesterday.",
-    content: {
-      title: "Mixed Conditionals: Present to Past",
-      instructions: "Choose the correct form of the verb for a present state affecting a past result.",
-      question: "[[If I ___ (be) braver, I would have spoken to him yesterday.|Si fuera más valiente, habría hablado con él ayer.]]",
-      options: ["am", "were", "had been"],
-      correctAnswer: "were",
-      explanation: "Use 'if + past simple' for a general/present hypothetical state and 'would have + past participle' for the past result.",
-      translation: "Si fuera más valiente, habría hablado con él ayer.",
-      hint: "Hypothetical present state."
-    },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-23/e10.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u23-e12",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "hard",
-    transcript: "If she spoke French, she would have got the job in Paris.",
-    content: {
-      title: "Mixed Conditionals: Present to Past",
-      instructions: "Choose the correct form of the verb.",
-      question: "[[If she ___ (speak) French, she would have got the job in Paris.|Si hablara francés, habría conseguido el trabajo en París.]]",
-      options: ["speaks", "spoke", "had spoken"],
-      correctAnswer: "spoke",
-      explanation: "General ability (not speaking French) affected a past outcome.",
-      translation: "Si hablara francés, habría conseguido el trabajo en París.",
-      hint: "Hypothetical ability."
+    "id": "b2-u23-e11",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "It is thought that the new policy will reduce crime rates.",
+    "content": {
+      "title": "Reducción de criminalidad",
+      "instructions": "Ordena las palabras usando la pasiva impersonal con 'It is thought'.",
+      "correctSentence": "[[It|Se]] [[is|piensa]] [[thought|que]] [[that|la]] [[the|nueva]] [[new|política]] [[policy|reducirá]] [[will|los]] [[reduce|índices]] [[crime|de]] [[rates.|criminalidad.]]",
+      "words": [
+        "[[is|piensa]]",
+        "[[policy|reducirá]]",
+        "[[rates.|criminalidad.]]",
+        "[[thought|que]]",
+        "[[It|Se]]",
+        "[[crime|de]]",
+        "[[new|política]]",
+        "[[will|los]]",
+        "[[the|nueva]]",
+        "[[reduce|índices]]",
+        "[[that|la]]"
+      ],
+      "explanation": "Estructura pasiva para reportar opiniones: 'It is thought that...'.",
+      "audio": "audio/b2/unit-23/e11.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-23/e11.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u23-e13",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "hard",
-    transcript: "If we were richer, we would have bought that house.",
-    content: {
-      title: "Mixed Conditionals: Present to Past",
-      instructions: "Choose the correct form of the verb.",
-      question: "[[If we ___ (be) richer, we would have bought that house.|Si fuéramos más ricos, habríamos comprado esa casa.]]",
-      options: ["are", "were", "had been"],
-      correctAnswer: "were",
-      explanation: "Hypothetical present state (wealth) and its past result.",
-      translation: "Si fuéramos más ricos, habríamos comprado esa casa.",
-      hint: "Hypothetical state."
+    "id": "b2-u23-e12",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "Discrimination in the workplace must be strictly prohibited.",
+    "content": {
+      "title": "Discriminación laboral",
+      "instructions": "Ordena las palabras para hablar de derechos laborales.",
+      "correctSentence": "[[Discrimination|La discriminación]] [[in|en]] [[the|el]] [[workplace|lugar de trabajo]] [[must|debe]] [[be|ser]] [[strictly|estrictamente]] [[prohibited.|prohibida.]]",
+      "words": [
+        "[[in|en]]",
+        "[[workplace|lugar de trabajo]]",
+        "[[prohibited.|prohibida.]]",
+        "[[be|ser]]",
+        "[[Discrimination|La discriminación]]",
+        "[[strictly|estrictamente]]",
+        "[[the|el]]",
+        "[[must|debe]]"
+      ],
+      "explanation": "'Workplace' es el término común para el entorno donde uno trabaja.",
+      "audio": "audio/b2/unit-23/e12.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-23/e12.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u23-e14",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "hard",
-    transcript: "I would have called you if I weren't so busy these days.",
-    content: {
-      title: "Mixed Conditionals: Present to Past",
-      instructions: "Choose the correct form of the verb.",
-      question: "[[I would have called you if I ___ (not/be) so busy these days.|Te habría llamado si no estuviera tan ocupado estos días.]]",
-      options: ["wasn't", "weren't", "hadn't been"],
-      correctAnswer: "weren't",
-      explanation: "Present situation (being busy) prevented a past action (calling).",
-      translation: "Te habría llamado si no estuviera tan ocupado estos días.",
-      hint: "Negative present state."
+    "id": "b2-u23-e13",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "We need to have the laws regarding plastic waste updated.",
+    "content": {
+      "title": "Residuos plásticos",
+      "instructions": "Ordena las palabras usando 'have something done' para leyes.",
+      "correctSentence": "[[We|Necesitamos]] [[need|que]] [[to|se]] [[have|actualicen]] [[the|las]] [[laws|leyes]] [[regarding|relativas]] [[plastic|a los]] [[waste|residuos]] [[updated.|plásticos.]]",
+      "words": [
+        "[[need|que]]",
+        "[[laws|leyes]]",
+        "[[updated.|plásticos.]]",
+        "[[have|actualicen]]",
+        "[[We|Necesitamos]]",
+        "[[plastic|a los]]",
+        "[[the|las]]",
+        "[[regarding|relativas]]",
+        "[[waste|residuos]]",
+        "[[to|se]]"
+      ],
+      "explanation": "'Regarding' funciona como una preposición que significa 'en relación con'.",
+      "audio": "audio/b2/unit-23/e13.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-23/e13.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u23-e15",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "hard",
-    transcript: "If he weren't so lazy, he would have finished the project.",
-    content: {
-      title: "Mixed Conditionals: Present to Past",
-      instructions: "Choose the correct form of the verb.",
-      question: "[[If he ___ (not/be) so lazy, he would have finished the project.|Si no fuera tan vago, habría terminado el proyecto.]]",
-      options: ["wasn't", "weren't", "hadn't been"],
-      correctAnswer: "weren't",
-      explanation: "General character trait affecting past performance.",
-      translation: "Si no fuera tan vago, habría terminado el proyecto.",
-      hint: "Negative present trait."
+    "id": "b2-u23-e14",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "Refugees often face significant barriers when seeking asylum.",
+    "content": {
+      "title": "Refugiados y asilo",
+      "instructions": "Ordena las palabras para hablar de migración.",
+      "correctSentence": "[[Refugees|Los refugiados]] [[often|a menudo]] [[face|enfrentan]] [[significant|barreras]] [[barriers|importantes]] [[when|al]] [[seeking|solicitar]] [[asylum.|asilo.]]",
+      "words": [
+        "[[often|a menudo]]",
+        "[[barriers|importantes]]",
+        "[[asylum.|asilo.]]",
+        "[[face|enfrentan]]",
+        "[[Refugees|Los refugiados]]",
+        "[[seeking|solicitar]]",
+        "[[significant|barreras]]",
+        "[[when|al]]"
+      ],
+      "explanation": "'Seek asylum' es el proceso legal de pedir protección en otro país.",
+      "audio": "audio/b2/unit-23/e14.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-23/e14.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u23-e16",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "hard",
-    transcript: "If they had more time, they would have visited us.",
-    content: {
-      title: "Mixed Conditionals: Present to Past",
-      instructions: "Choose the correct form of the verb.",
-      question: "[[If they ___ (have) more time, they would have visited us.|Si tuvieran más tiempo, nos habrían visitado.]]",
-      options: ["have", "had", "had had"],
-      correctAnswer: "had",
-      explanation: "Hypothetical present possession (time) and past result.",
-      translation: "Si tuvieran más tiempo, nos habrían visitado.",
-      hint: "Hypothetical possession."
+    "id": "b2-u23-e15",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "A lot of progress has been made in the field of renewable energy.",
+    "content": {
+      "title": "Energías renovables",
+      "instructions": "Ordena las palabras usando la pasiva perfecta.",
+      "correctSentence": "[[A|Se]] [[lot|ha]] [[of|hecho]] [[progress|mucho]] [[has|progreso]] [[been|en]] [[made|el]] [[in|campo]] [[the|de]] [[field|las]] [[of|energías]] [[renewable|renovables.]] [[energy.| ]]",
+      "words": [
+        "[[lot|ha]]",
+        "[[progress|mucho]]",
+        "[[made|el]]",
+        "[[energy.| ]]",
+        "[[A|Se]]",
+        "[[renewable|renovables.]]",
+        "[[has|progreso]]",
+        "[[field|las]]",
+        "[[been|en]]",
+        "[[of|hecho]]",
+        "[[in|campo]]",
+        "[[the|de]]",
+        "[[of|energías]]"
+      ],
+      "explanation": "'Make progress' es una colocación fija; en pasiva: 'progress has been made'.",
+      "audio": "audio/b2/unit-23/e15.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-23/e15.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u23-e17",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "hard",
-    transcript: "We would have gone to the beach if the weather were better lately.",
-    content: {
-      title: "Mixed Conditionals: Present to Past",
-      instructions: "Choose the correct form of the verb.",
-      question: "[[We would have gone to the beach if the weather ___ (be) better lately.|Habríamos ido a la playa si el tiempo hubiera sido mejor últimamente.]]",
-      options: ["was", "were", "had been"],
-      correctAnswer: "were",
-      explanation: "The state of the weather lately affecting a past decision.",
-      translation: "Habríamos ido a la playa si el tiempo hubiera sido mejor últimamente.",
-      hint: "Hypothetical recent state."
+    "id": "b2-u23-e16",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "Unemployment rates vary significantly between different regions.",
+    "content": {
+      "title": "Tasa de desempleo",
+      "instructions": "Ordena las palabras para hablar de estadísticas laborales.",
+      "correctSentence": "[[Unemployment|Las tasas]] [[rates|de desempleo]] [[vary|varían]] [[significantly|significativamente]] [[between|entre]] [[different|diferentes]] [[regions.|regiones.]]",
+      "words": [
+        "[[rates|de desempleo]]",
+        "[[significantly|significativamente]]",
+        "[[regions.|regiones.]]",
+        "[[vary|varían]]",
+        "[[Unemployment|Las tasas]]",
+        "[[different|diferentes]]",
+        "[[between|entre]]"
+      ],
+      "explanation": "'Unemployment' es la falta de trabajo remunerado.",
+      "audio": "audio/b2/unit-23/e16.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-23/e16.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u23-e18",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "hard",
-    transcript: "If I knew the answer, I would have told you.",
-    content: {
-      title: "Mixed Conditionals: Present to Past",
-      instructions: "Choose the correct form of the verb.",
-      question: "[[If I ___ (know) the answer, I would have told you.|Si supiera la respuesta, te la habría dicho.]]",
-      options: ["know", "knew", "had known"],
-      correctAnswer: "knew",
-      explanation: "Hypothetical present knowledge and its past result.",
-      translation: "Si supiera la respuesta, te la habría dicho.",
-      hint: "Hypothetical knowledge."
+    "id": "b2-u23-e17",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "The charity is having a new shelter built for the needy.",
+    "content": {
+      "title": "Refugio caritativo",
+      "instructions": "Ordena las palabras usando la forma causal continua.",
+      "correctSentence": "[[The|La]] [[charity|organización benéfica]] [[is|está]] [[having|haciendo]] [[a|que]] [[new|se]] [[shelter|construya]] [[built|un]] [[for|nuevo]] [[the|refugio]] [[needy.|para los necesitados.]]",
+      "words": [
+        "[[charity|organización benéfica]]",
+        "[[having|haciendo]]",
+        "[[needy.|para los necesitados.]]",
+        "[[new|se]]",
+        "[[The|La]]",
+        "[[for|nuevo]]",
+        "[[is|está]]",
+        "[[shelter|construya]]",
+        "[[built|un]]",
+        "[[the|refugio]]",
+        "[[a|que]]"
+      ],
+      "explanation": "'The needy' es un adjetivo usado como sustantivo plural para referirse a un grupo social.",
+      "audio": "audio/b2/unit-23/e17.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-23/e17.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u23-e19",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "hard",
-    transcript: "If she were taller, she would have played basketball.",
-    content: {
-      title: "Mixed Conditionals: Present to Past",
-      instructions: "Choose the correct form of the verb.",
-      question: "[[If she ___ (be) taller, she would have played basketball.|Si fuera más alta, habría jugado al baloncesto.]]",
-      options: ["is", "were", "had been"],
-      correctAnswer: "were",
-      explanation: "Permanent physical state affecting past opportunity.",
-      translation: "Si fuera más alta, habría jugado al baloncesto.",
-      hint: "Hypothetical physical state."
+    "id": "b2-u23-e18",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "Globalization has both positive and negative impacts on culture.",
+    "content": {
+      "title": "Globalización",
+      "instructions": "Ordena las palabras para hablar de impacto cultural.",
+      "correctSentence": "[[Globalization|La globalización]] [[has|tiene]] [[both|tanto]] [[positive|impactos]] [[and|positivos]] [[negative|como]] [[impacts|negativos]] [[on|en]] [[culture.|la cultura.]]",
+      "words": [
+        "[[has|tiene]]",
+        "[[negative|como]]",
+        "[[culture.|la cultura.]]",
+        "[[positive|impactos]]",
+        "[[Globalization|La globalización]]",
+        "[[on|en]]",
+        "[[both|tanto]]",
+        "[[impacts|negativos]]",
+        "[[and|positivos]]"
+      ],
+      "explanation": "'Both... and...' se usa para enfatizar dos aspectos diferentes.",
+      "audio": "audio/b2/unit-23/e18.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-23/e18.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u23-e20",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "hard",
-    transcript: "If we lived in the city, we would have gone to the theater.",
-    content: {
-      title: "Mixed Conditionals: Present to Past",
-      instructions: "Choose the correct form of the verb.",
-      question: "[[If we ___ (live) in the city, we would have gone to the theater.|Si viviéramos en la ciudad, habríamos ido al teatro.]]",
-      options: ["live", "lived", "had lived"],
-      correctAnswer: "lived",
-      explanation: "Present living situation affecting a past event.",
-      translation: "Si viviéramos en la ciudad, habríamos ido al teatro.",
-      hint: "Hypothetical location."
+    "id": "b2-u23-e19",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "Thousands of documents were leaked to the press last night.",
+    "content": {
+      "title": "Filtración de documentos",
+      "instructions": "Ordena las palabras usando la pasiva simple.",
+      "correctSentence": "[[Thousands|Miles]] [[of|de]] [[documents|documentos]] [[were|fueron]] [[leaked|filtrados]] [[to|a]] [[the|la]] [[press|prensa]] [[last|anoche.]] [[night.| ]]",
+      "words": [
+        "[[of|de]]",
+        "[[leaked|filtrados]]",
+        "[[night.| ]]",
+        "[[were|fueron]]",
+        "[[Thousands|Miles]]",
+        "[[last|anoche.]]",
+        "[[press|prensa]]",
+        "[[documents|documentos]]",
+        "[[the|la]]",
+        "[[to|a]]"
+      ],
+      "explanation": "'Leak' significa filtrar información confidencial.",
+      "audio": "audio/b2/unit-23/e19.mp3"
     },
-    topicName: "Grammar"
-  },
-
-  // 21-30: Vocabulary - Environmental Challenges
-  {
-    id: "b2-u23-e21",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "medium",
-    transcript: "The depletion of natural resources is a major concern.",
-    content: {
-      title: "Environmental Crisis",
-      instructions: "Choose the correct term.",
-      question: "[[The ___ (depletion) of natural resources is a major concern.|El agotamiento de los recursos naturales es una gran preocupación.]]",
-      options: ["[[depletion|agotamiento]]", "[[completion|finalización]]", "[[repletion|plenitud]]"],
-      correctAnswer: "depletion",
-      explanation: "Depletion means reduction in the number or quantity of something.",
-      translation: "El agotamiento de los recursos naturales es una gran preocupación.",
-      hint: "Reduction in quantity."
-    },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-23/e19.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u23-e22",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "medium",
-    transcript: "Overfishing is destroying marine ecosystems.",
-    content: {
-      title: "Environmental Crisis",
-      instructions: "Choose the correct term.",
-      question: "[[___ (Overfishing) is destroying marine ecosystems.|La sobrepesca está destruyendo los ecosistemas marinos.]]",
-      options: ["[[Overfishing|Sobrepesca]]", "[[Overheating|Sobrecalentamiento]]", "[[Overacting|Sobreactuación]]"],
-      correctAnswer: "Overfishing",
-      explanation: "Overfishing is catching too many fish, so that there are not enough to maintain the population.",
-      translation: "La sobrepesca está destruyendo los ecosistemas marinos.",
-      hint: "Catching too many fish."
+    "id": "b2-u23-e20",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "Freedom of speech is considered a fundamental pillar of democracy.",
+    "content": {
+      "title": "Libertad de expresión",
+      "instructions": "Ordena las palabras para hablar de valores democráticos.",
+      "correctSentence": "[[Freedom|La libertad]] [[of|de]] [[speech|expresión]] [[is|es]] [[considered|considerada]] [[a|un]] [[fundamental|pilar]] [[pillar|fundamental]] [[of|de]] [[democracy.|la democracia.]]",
+      "words": [
+        "[[of|de]]",
+        "[[considered|considerada]]",
+        "[[democracy.|la democracia.]]",
+        "[[is|es]]",
+        "[[Freedom|La libertad]]",
+        "[[of|de]]",
+        "[[speech|expresión]]",
+        "[[fundamental|pilar]]",
+        "[[pillar|fundamental]]",
+        "[[a|un]]"
+      ],
+      "explanation": "'Freedom of speech' es el derecho legal a expresar opiniones.",
+      "audio": "audio/b2/unit-23/e20.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-23/e20.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u23-e23",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "medium",
-    transcript: "The scarcity of water is affecting millions.",
-    content: {
-      title: "Environmental Crisis",
-      instructions: "Choose the correct term.",
-      question: "[[The ___ (scarcity) of water is affecting millions.|La escasez de agua está afectando a millones.]]",
-      options: ["[[scarcity|escasez]]", "[[clarity|claridad]]", "[[severity|severidad]]"],
-      correctAnswer: "scarcity",
-      explanation: "Scarcity is the state of being scarce or in short supply.",
-      translation: "La escasez de agua está afectando a millones.",
-      hint: "Short supply."
+    "id": "b2-u23-e21",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "They had their house damaged during the violent riots.",
+    "content": {
+      "title": "Daños por disturbios",
+      "instructions": "Ordena las palabras usando 'have something done' para experiencias negativas.",
+      "correctSentence": "[[They|Su]] [[had|casa]] [[their|resultó]] [[house|dañada]] [[damaged|durante]] [[during|los]] [[the|violentos]] [[violent|disturbios.]] [[riots.| ]]",
+      "words": [
+        "[[had|casa]]",
+        "[[house|dañada]]",
+        "[[riots.| ]]",
+        "[[during|los]]",
+        "[[They|Su]]",
+        "[[violent|disturbios.]]",
+        "[[their|resultó]]",
+        "[[damaged|dañada]]",
+        "[[the|violentos]]"
+      ],
+      "explanation": "'Have something done' también se usa cuando algo malo le sucede a lo que uno posee.",
+      "audio": "audio/b2/unit-23/e21.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-23/e21.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u23-e24",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "medium",
-    transcript: "Deforestation leads to habitat loss.",
-    content: {
-      title: "Environmental Crisis",
-      instructions: "Choose the correct term.",
-      question: "[[___ (Deforestation) leads to habitat loss.|La deforestación conlleva la pérdida de hábitat.]]",
-      options: ["[[Deforestation|Deforestación]]", "[[Decoration|Decoración]]", "[[Demonstration|Demostración]]"],
-      correctAnswer: "Deforestation",
-      explanation: "Deforestation is the removal of a forest or stand of trees.",
-      translation: "La deforestación conlleva la pérdida de hábitat.",
-      hint: "Removal of trees."
+    "id": "b2-u23-e22",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "A food bank is a place where free food is given to people in need.",
+    "content": {
+      "title": "Banco de alimentos",
+      "instructions": "Ordena las palabras para definir una labor social.",
+      "correctSentence": "[[A|Un]] [[food|banco]] [[bank|de alimentos]] [[is|es]] [[a|un]] [[place|lugar]] [[where|donde]] [[free|se da]] [[food|comida]] [[is|gratis]] [[given|a personas]] [[to|necesitadas.]] [[people| ]] [[in| ]] [[need.| ]]",
+      "words": [
+        "[[food|banco]]",
+        "[[place|lugar]]",
+        "[[need.| ]]",
+        "[[is|es]]",
+        "[[A|Un]]",
+        "[[people| ]]",
+        "[[given|a personas]]",
+        "[[food|comida]]",
+        "[[bank|de alimentos]]",
+        "[[where|donde]]",
+        "[[free|se da]]",
+        "[[to|necesitadas.]]",
+        "[[in| ]]",
+        "[[is|gratis]]",
+        "[[a|un]]"
+      ],
+      "explanation": "'People in need' se refiere a personas que pasan penurias económicas.",
+      "audio": "audio/b2/unit-23/e22.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-23/e22.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u23-e25",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "medium",
-    transcript: "We need to reduce our dependence on fossil fuels.",
-    content: {
-      title: "Environmental Crisis",
-      instructions: "Choose the correct term.",
-      question: "[[We need to reduce our ___ (dependence) on fossil fuels.|Necesitamos reducir nuestra dependencia de los combustibles fósiles.]]",
-      options: ["[[dependence|dependencia]]", "[[defiance|desafío]]", "[[difference|diferencia]]"],
-      correctAnswer: "dependence",
-      explanation: "Dependence is the state of relying on or being controlled by someone or something else.",
-      translation: "Necesitamos reducir nuestra dependencia de los combustibles fósiles.",
-      hint: "Relying on something."
+    "id": "b2-u23-e23",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "It is being said that the social security system is failing.",
+    "content": {
+      "title": "Rumores sobre seguridad social",
+      "instructions": "Ordena las palabras usando la pasiva continua impersonal.",
+      "correctSentence": "[[It|Se]] [[is|está]] [[being|diciendo]] [[said|que]] [[that|el]] [[the|sistema]] [[social|de seguridad]] [[security|social]] [[system|está]] [[is|fallando.]] [[failing.| ]]",
+      "words": [
+        "[[is|está]]",
+        "[[said|que]]",
+        "[[failing.| ]]",
+        "[[being|diciendo]]",
+        "[[It|Se]]",
+        "[[system|está]]",
+        "[[social|de seguridad]]",
+        "[[that|el]]",
+        "[[security|social]]",
+        "[[the|sistema]]",
+        "[[is|fallando.]]"
+      ],
+      "explanation": "'It is being said that...' se usa para reportar un rumor actual.",
+      "audio": "audio/b2/unit-23/e23.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-23/e23.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u23-e26",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "medium",
-    transcript: "The contamination of the soil is a serious problem.",
-    content: {
-      title: "Environmental Crisis",
-      instructions: "Choose the correct term.",
-      question: "[[The ___ (contamination) of the soil is a serious problem.|La contaminación del suelo es un problema grave.]]",
-      options: ["[[contamination|contaminación]]", "[[combination|combinación]]", "[[compensation|compensación]]"],
-      correctAnswer: "contamination",
-      explanation: "Contamination is the action or state of making or being made impure by polluting.",
-      translation: "La contaminación del suelo es un problema grave.",
-      hint: "Polluting/impure state."
+    "id": "b2-u23-e24",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "Civic engagement is crucial for a healthy and functioning society.",
+    "content": {
+      "title": "Compromiso cívico",
+      "instructions": "Ordena las palabras para hablar de participación ciudadana.",
+      "correctSentence": "[[Civic|El compromiso]] [[engagement|cívico]] [[is|es]] [[crucial|crucial]] [[for|para]] [[a|una]] [[healthy|sociedad]] [[and|sana]] [[functioning|y que]] [[society.|funcione.]]",
+      "words": [
+        "[[engagement|cívico]]",
+        "[[crucial|crucial]]",
+        "[[society.|funcione.]]",
+        "[[is|es]]",
+        "[[Civic|El compromiso]]",
+        "[[functioning|y que]]",
+        "[[healthy|sociedad]]",
+        "[[and|sana]]",
+        "[[for|para]]",
+        "[[a|una]]"
+      ],
+      "explanation": "'Civic engagement' implica participar en la vida de la comunidad.",
+      "audio": "audio/b2/unit-23/e24.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-23/e24.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u23-e27",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "medium",
-    transcript: "Desertification is turning fertile land into desert.",
-    content: {
-      title: "Environmental Crisis",
-      instructions: "Choose the correct term.",
-      question: "[[___ (Desertification) is turning fertile land into desert.|La desertificación está convirtiendo la tierra fértil en desierto.]]",
-      options: ["[[Desertification|Desertificación]]", "[[Definition|Definición]]", "[[Decolonization|Descolonización]]"],
-      correctAnswer: "Desertification",
-      explanation: "Desertification is the process by which fertile land becomes desert.",
-      translation: "La desertificación está convirtiendo la tierra fértil en desierto.",
-      hint: "Becoming desert."
+    "id": "b2-u23-e25",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "Local authorities are having the graffiti removed from the city center.",
+    "content": {
+      "title": "Limpieza urbana",
+      "instructions": "Ordena las palabras usando la forma causal continua.",
+      "correctSentence": "[[Local|Las autoridades]] [[authorities|locales]] [[are|están]] [[having|haciendo]] [[the|que]] [[graffiti|se eliminen]] [[removed|los]] [[from|grafitis]] [[the|del]] [[city|centro]] [[center.|de la ciudad.]]",
+      "words": [
+        "[[authorities|locales]]",
+        "[[having|haciendo]]",
+        "[[center.|de la ciudad.]]",
+        "[[the|que]]",
+        "[[Local|Las autoridades]]",
+        "[[city|centro]]",
+        "[[are|están]]",
+        "[[from|grafitis]]",
+        "[[graffiti|se eliminen]]",
+        "[[removed|los]]",
+        "[[the|del]]"
+      ],
+      "explanation": "Uso de 'have something done' para servicios municipales.",
+      "audio": "audio/b2/unit-23/e25.mp3"
     },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u23-e28",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "medium",
-    transcript: "The extinction of species is accelerating.",
-    content: {
-      title: "Environmental Crisis",
-      instructions: "Choose the correct term.",
-      question: "[[The ___ (extinction) of species is accelerating.|La extinción de las especies se está acelerando.]]",
-      options: ["[[extinction|extinción]]", "[[distinction|distinción]]", "[[expectation|expectativa]]"],
-      correctAnswer: "extinction",
-      explanation: "Extinction is the state or process of a species, family, or larger group being or becoming extinct.",
-      translation: "La extinción de las especies se está acelerando.",
-      hint: "Dying out."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u23-e29",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "medium",
-    transcript: "Pollution levels are rising in the oceans.",
-    content: {
-      title: "Environmental Crisis",
-      instructions: "Choose the correct term.",
-      question: "[[___ (Pollution) levels are rising in the oceans.|Los niveles de contaminación están aumentando en los océanos.]]",
-      options: ["[[Pollution|Contaminación]]", "[[Population|Población]]", "[[Position|Posición]]"],
-      correctAnswer: "Pollution",
-      explanation: "Pollution is the presence in or introduction into the environment of a substance or thing that has harmful or poisonous effects.",
-      translation: "Los niveles de contaminación están aumentando en los océanos.",
-      hint: "Harmful substances."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u23-e30",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "medium",
-    transcript: "The imbalance in the ecosystem is dangerous.",
-    content: {
-      title: "Environmental Crisis",
-      instructions: "Choose the correct term.",
-      question: "[[The ___ (imbalance) in the ecosystem is dangerous.|El desequilibrio en el ecosistema es peligroso.]]",
-      options: ["[[imbalance|desequilibrio]]", "[[importance|importancia]]", "[[insurance|seguro]]"],
-      correctAnswer: "imbalance",
-      explanation: "Imbalance is lack of proportion or relation between corresponding things.",
-      translation: "El desequilibrio en el ecosistema es peligroso.",
-      hint: "Lack of balance."
-    },
-    topicName: "Vocabulary"
-  },
-
-  // 31-40: Vocabulary - Ecological Solutions
-  {
-    id: "b2-u23-e31",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "medium",
-    transcript: "We need to restore the natural habitat.",
-    content: {
-      title: "Ecological Solutions",
-      instructions: "Choose the correct verb.",
-      question: "[[We need to ___ the natural habitat.|Necesitamos restaurar el hábitat natural.]]",
-      options: ["fix", "make", "restore"],
-      correctAnswer: "restore",
-      explanation: "To restore means to bring back to a former condition.",
-      translation: "Necesitamos restaurar el hábitat natural.",
-      hint: "Bring back."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u23-e32",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "medium",
-    transcript: "Reforestation is key to capturing carbon.",
-    content: {
-      title: "Ecological Solutions",
-      instructions: "Choose the correct term.",
-      question: "[[___ is key to capturing carbon.|La reforestación es clave para capturar carbono.]]",
-      options: ["Gardening", "Reforestation", "Planting"],
-      correctAnswer: "Reforestation",
-      explanation: "Reforestation is the action of renewing forest cover by planting seeds or young trees.",
-      translation: "La reforestación es clave para capturar carbono.",
-      hint: "Planting forests."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u23-e33",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "medium",
-    transcript: "The transition to renewable energy is essential.",
-    content: {
-      title: "Ecological Solutions",
-      instructions: "Choose the correct term.",
-      question: "[[The ___ to renewable energy is essential.|La transición a las energías renovables es esencial.]]",
-      options: ["transition", "shift", "move"],
-      correctAnswer: "transition",
-      explanation: "Transition is the process or a period of changing from one state or condition to another.",
-      translation: "La transición a las energías renovables es esencial.",
-      hint: "Process of change."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u23-e34",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "medium",
-    transcript: "We must conserve water during the drought.",
-    content: {
-      title: "Ecological Solutions",
-      instructions: "Choose the correct verb.",
-      question: "[[We must ___ water during the drought.|Debemos conservar el agua durante la sequía.]]",
-      options: ["hold", "save", "conserve"],
-      correctAnswer: "conserve",
-      explanation: "To conserve means to protect from harm or destruction.",
-      translation: "Debemos conservar el agua durante la sequía.",
-      hint: "Protect/save."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u23-e35",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "medium",
-    transcript: "Sustainability should be at the heart of policy.",
-    content: {
-      title: "Ecological Solutions",
-      instructions: "Choose the correct term.",
-      question: "[[___ should be at the heart of policy.|La sostenibilidad debe estar en el centro de la política.]]",
-      options: ["Strength", "Power", "Sustainability"],
-      correctAnswer: "Sustainability",
-      explanation: "Sustainability is the ability to be maintained at a certain rate or level.",
-      translation: "La sostenibilidad debe estar en el centro de la política.",
-      hint: "Mantenibilidad."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u23-e36",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "medium",
-    transcript: "We need to mitigate the effects of climate change.",
-    content: {
-      title: "Ecological Solutions",
-      instructions: "Choose the correct verb.",
-      question: "[[We need to ___ the effects of climate change.|Necesitamos mitigar los efectos del cambio climático.]]",
-      options: ["lessen", "stop", "mitigate"],
-      correctAnswer: "mitigate",
-      explanation: "To mitigate means to make less severe, serious, or painful.",
-      translation: "Necesitamos mitigar los efectos del cambio climático.",
-      hint: "Make less severe."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u23-e37",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "medium",
-    transcript: "Preservation of the rainforest is vital.",
-    content: {
-      title: "Ecological Solutions",
-      instructions: "Choose the correct term.",
-      question: "[[___ of the rainforest is vital.|La preservación de la selva tropical es vital.]]",
-      options: ["Keeping", "Preservation", "Saving"],
-      correctAnswer: "Preservation",
-      explanation: "Preservation is the action of preserving something.",
-      translation: "La preservación de la selva tropical es vital.",
-      hint: "Maintaining."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u23-e38",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "medium",
-    transcript: "We should promote eco-friendly tourism.",
-    content: {
-      title: "Ecological Solutions",
-      instructions: "Choose the correct verb.",
-      question: "[[We should ___ eco-friendly tourism.|Deberíamos promover el turismo ecológico.]]",
-      options: ["promote", "show", "make"],
-      correctAnswer: "promote",
-      explanation: "To promote means to further the progress of something.",
-      translation: "Deberíamos promover el turismo ecológico.",
-      hint: "Further progress."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u23-e39",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "medium",
-    transcript: "Alternative energy sources are becoming cheaper.",
-    content: {
-      title: "Ecological Solutions",
-      instructions: "Choose the correct term.",
-      question: "[[___ energy sources are becoming cheaper.|Las fuentes de energía alternativas son cada vez más baratas.]]",
-      options: ["Alternative", "New", "Other"],
-      correctAnswer: "Alternative",
-      explanation: "Alternative energy is energy fueled in ways that do not use up natural resources or harm the environment.",
-      translation: "Las fuentes de energía alternativas son cada vez más baratas.",
-      hint: "Other than traditional."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u23-e40",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "medium",
-    transcript: "The protection of endangered species is a priority.",
-    content: {
-      title: "Ecological Solutions",
-      instructions: "Choose the correct term.",
-      question: "[[The ___ of endangered species is a priority.|La protección de las especies en peligro es una prioridad.]]",
-      options: ["protection", "safety", "guard"],
-      correctAnswer: "protection",
-      explanation: "Protection is the action of protecting someone or something.",
-      translation: "La protección de las especies en peligro es una prioridad.",
-      hint: "Keeping safe."
-    },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-23/e25.mp3",
+    "topicName": "Grammar"
   },
 
-  // 41-50: Word Formation
+  // 26-50: Multiple Choice (Vocabulary & Grammar - Social Issues)
   {
-    id: "b2-u23-e41",
-    type: "word-formation",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "medium",
-    transcript: "The destruction of the reefs is tragic.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The ___ (DESTRUCT) of the reefs is tragic.|La destrucción de los arrecifes es trágica.]]",
-      correctAnswer: "destruction",
-      explanation: "Noun form of 'destruct/destroy'.",
-      translation: "La destrucción de los arrecifes es trágica.",
-      hint: "Noun from destruct."
+    "id": "b2-u23-e26",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "It is believed that the protest was organized by student groups.",
+    "content": {
+      "title": "Organización de la protesta",
+      "instructions": "Elige la forma pasiva impersonal correcta.",
+      "questions": [
+        {
+          "question": "_______ _______ [[believed|Se cree]] [[that|que]] [[the|la]] [[protest|protesta]] [[was|fue]] [[organized|organizada]] [[by|por]] [[student|grupos]] [[groups.|estudiantiles.]]",
+          "options": ["[[It is|Se (pasiva impersonal)]]", "[[They are|Ellos son]]", "[[There is|Hay]]"],
+          "correctAnswer": 0,
+          "explanation": "'It is believed that' es la forma estándar para reportar creencias sin especificar quién cree.",
+          "audio": "audio/b2/unit-23/e26.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-23/e26.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u23-e42",
-    type: "word-formation",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "medium",
-    transcript: "We need to improve our efficiency in water use.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[We need to improve our ___ (EFFICIENT) in water use.|Necesitamos mejorar nuestra eficiencia en el uso del agua.]]",
-      correctAnswer: "efficiency",
-      explanation: "Noun form of 'efficient'.",
-      translation: "Necesitamos mejorar nuestra eficiencia en el uso del agua.",
-      hint: "Noun from efficient."
+    "id": "b2-u23-e27",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "The divide between the rich and the poor is widening.",
+    "content": {
+      "title": "Brecha social",
+      "instructions": "Elige el término para la separación entre clases sociales.",
+      "questions": [
+        {
+          "question": "[[The|La]] _______ [[between|entre]] [[the|los]] [[rich|ricos]] [[and|y]] [[the|los]] [[poor|pobres]] [[is|se está]] [[widening.|ensanchando.]]",
+          "options": ["[[divide|brecha / división]]", "[[bridge|puente]]", "[[merger|fusión]]"],
+          "correctAnswer": 0,
+          "explanation": "'The divide' se refiere a la gran diferencia socioeconómica.",
+          "audio": "audio/b2/unit-23/e27.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-23/e27.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u23-e43",
-    type: "word-formation",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "medium",
-    transcript: "The stability of the climate is at stake.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The ___ (STABLE) of the climate is at stake.|La estabilidad del clima está en juego.]]",
-      correctAnswer: "stability",
-      explanation: "Noun form of 'stable'.",
-      translation: "La estabilidad del clima está en juego.",
-      hint: "Noun from stable."
+    "id": "b2-u23-e28",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "The activists got the mayor to sign the new environmental pact.",
+    "content": {
+      "title": "Pacto ambiental",
+      "instructions": "Elige la forma correcta con 'get someone to do'.",
+      "questions": [
+        {
+          "question": "[[The|Los]] [[activists|activistas]] [[got|lograron]] [[the|que el]] [[mayor|alcalde]] _______ [[sign|firmara]] [[the|el]] [[new|nuevo]] [[environmental|pacto]] [[pact.|ambiental.]]",
+          "options": ["[[to sign|firmara (infinitivo con to)]]", "[[signing|firmando]]", "[[signed|firmado]]"],
+          "correctAnswer": 0,
+          "explanation": "La estructura causal 'get + persona' requiere 'to + infinitivo'.",
+          "audio": "audio/b2/unit-23/e28.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-23/e28.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u23-e44",
-    type: "word-formation",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "medium",
-    transcript: "There is a lot of vulnerability in coastal areas.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[There is a lot of ___ (VULNERABLE) in coastal areas.|Hay mucha vulnerabilidad en las zonas costeras.]]",
-      correctAnswer: "vulnerability",
-      explanation: "Noun form of 'vulnerable'.",
-      translation: "Hay mucha vulnerabilidad en las zonas costeras.",
-      hint: "Noun from vulnerable."
+    "id": "b2-u23-e29",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "Welfare refers to government programs that help people in need.",
+    "content": {
+      "title": "Bienestar social",
+      "instructions": "Elige el término para las ayudas estatales.",
+      "questions": [
+        {
+          "question": "_______ [[refers|El bienestar social]] [[to|se refiere]] [[government|a programas]] [[programs|del gobierno]] [[that|que]] [[help|ayudan]] [[people|a personas]] [[in| ]] [[need.|necesitadas.]]",
+          "options": ["[[Welfare|Bienestar social]]", "[[Taxation|Impuestos]]", "[[Profit|Beneficio]]"],
+          "correctAnswer": 0,
+          "explanation": "'Welfare' son las ayudas económicas y servicios para los menos favorecidos.",
+          "audio": "audio/b2/unit-23/e29.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-23/e29.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u23-e45",
-    type: "word-formation",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "medium",
-    transcript: "Awareness is the first step to change.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[___ (AWARE) is the first step to change.|La conciencia es el primer paso para el cambio.]]",
-      correctAnswer: "Awareness",
-      explanation: "Noun form of 'aware'.",
-      translation: "La conciencia es el primer paso para el cambio.",
-      hint: "Noun from aware."
+    "id": "b2-u23-e30",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "A new hospital is being built to serve the rural community.",
+    "content": {
+      "title": "Nuevo hospital",
+      "instructions": "Elige la forma de pasiva continua.",
+      "questions": [
+        {
+          "question": "[[A|Un]] [[new|nuevo]] [[hospital|hospital]] _______ _______ _______ [[to|para]] [[serve|servir]] [[the|a la]] [[rural|comunidad]] [[community.|rural.]]",
+          "options": ["[[is being built|está siendo construido]]", "[[is building|está construyendo]]", "[[has built|ha construido]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'is being built' para algo que está en construcción en este momento.",
+          "audio": "audio/b2/unit-23/e30.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-23/e30.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u23-e46",
-    type: "word-formation",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "medium",
-    transcript: "The survival of the species is in danger.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The ___ (SURVIVE) of the species is in danger.|La supervivencia de la especie está en peligro.]]",
-      correctAnswer: "survival",
-      explanation: "Noun form of 'survive'.",
-      translation: "La supervivencia de la especie está en peligro.",
-      hint: "Noun from survive."
+    "id": "b2-u23-e31",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "Censorship is the suppression of speech or public communication.",
+    "content": {
+      "title": "Censura",
+      "instructions": "Elige el término para la supresión de la libertad de expresión.",
+      "questions": [
+        {
+          "question": "_______ [[is|La censura]] [[the|es la]] [[suppression|supresión]] [[of|de la]] [[speech|palabra]] [[or|o]] [[public|comunicación]] [[communication.|pública.]]",
+          "options": ["[[Censorship|Censura]]", "[[Leadership|Liderazgo]]", "[[Sponsorship|Patrocinio]]"],
+          "correctAnswer": 0,
+          "explanation": "'Censorship' impide la libre circulación de ideas.",
+          "audio": "audio/b2/unit-23/e31.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-23/e31.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u23-e47",
-    type: "word-formation",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "medium",
-    transcript: "The beneficial effects of trees are well-known.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The ___ (BENEFIT) effects of trees are well-known.|Los efectos beneficiosos de los árboles son bien conocidos.]]",
-      correctAnswer: "beneficial",
-      explanation: "Adjective form of 'benefit'.",
-      translation: "Los efectos beneficiosos de los árboles son bien conocidos.",
-      hint: "Adjective from benefit."
+    "id": "b2-u23-e32",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "The company had its reputation ruined by the environmental scandal.",
+    "content": {
+      "title": "Reputación arruinada",
+      "instructions": "Elige la forma correcta de 'have something done'.",
+      "questions": [
+        {
+          "question": "[[The|La]] [[company|empresa]] _______ [[its|vio su]] [[reputation|reputación]] _______ [[by|arruinada por]] [[the|el]] [[environmental|escándalo]] [[scandal.|ambiental.]]",
+          "options": ["[[had / ruined|tuvo / arruinada]]", "[[has / ruin|tiene / arruinar]]", "[[is / ruining|está / arruinando]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'had + algo + participio' para reportar un infortunio.",
+          "audio": "audio/b2/unit-23/e32.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-23/e32.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u23-e48",
-    type: "word-formation",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "medium",
-    transcript: "The growth of the green sector is positive.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The ___ (GROWTH) of the green sector is positive.|El crecimiento del sector verde es positivo.]]",
-      correctAnswer: "growth",
-      explanation: "Noun form from 'grow' (GROWTH provided).",
-      translation: "El crecimiento del sector verde es positivo.",
-      hint: "Increase."
+    "id": "b2-u23-e33",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "Prejudice can lead to unfair treatment of certain groups.",
+    "content": {
+      "title": "Prejuicio",
+      "instructions": "Elige el término que significa opinión negativa preconcebida.",
+      "questions": [
+        {
+          "question": "_______ [[can|El prejuicio]] [[lead|puede]] [[to|llevar]] [[unfair|al trato]] [[treatment|injusto]] [[of|de]] [[certain|ciertos]] [[groups.|grupos.]]",
+          "options": ["[[Prejudice|Prejuicio]]", "[[Justice|Justicia]]", "[[Kindness|Bondad]]"],
+          "correctAnswer": 0,
+          "explanation": "'Prejudice' es juzgar a alguien antes de conocerlo, basándose en estereotipos.",
+          "audio": "audio/b2/unit-23/e33.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-23/e33.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u23-e49",
-    type: "word-formation",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "medium",
-    transcript: "We need an objective view on the data.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[We need an ___ (OBJECT) view on the data.|Necesitamos una visión objetiva de los datos.]]",
-      correctAnswer: "objective",
-      explanation: "Adjective form of 'object'.",
-      translation: "Necesitamos una visión objetiva de los datos.",
-      hint: "Adjective from object."
+    "id": "b2-u23-e34",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "It has been reported that the situation is now under control.",
+    "content": {
+      "title": "Situación bajo control",
+      "instructions": "Elige la forma de pasiva perfecta impersonal.",
+      "questions": [
+        {
+          "question": "[[It|Se]] _______ _______ _______ [[that|informado]] [[the|que]] [[situation|la situación]] [[is|está]] [[now|ahora]] [[under|bajo]] [[control.|control.]]",
+          "options": ["[[has been reported|ha sido informado]]", "[[was reported|fue informado]]", "[[is reported|es informado]]"],
+          "correctAnswer": 0,
+          "explanation": "'It has been reported that' se usa para noticias recientes.",
+          "audio": "audio/b2/unit-23/e34.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-23/e34.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u23-e50",
-    type: "word-formation",
-    level: "B2",
-    topic: "Environmental Crisis",
-    difficulty: "medium",
-    transcript: "The significance of this discovery is huge.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The ___ (SIGNIFICANT) of this discovery is huge.|La importancia de este descubrimiento es enorme.]]",
-      correctAnswer: "significance",
-      explanation: "Noun form of 'significant'.",
-      translation: "La importancia de este descubrimiento es enorme.",
-      hint: "Noun from significant."
+    "id": "b2-u23-e35",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "A boycott is an act of voluntary abstention from using a product.",
+    "content": {
+      "title": "Boicot",
+      "instructions": "Elige el término para la protesta comercial.",
+      "questions": [
+        {
+          "question": "[[A|Un]] _______ [[is|es]] [[an|un]] [[act|acto]] [[of|de]] [[voluntary|abstención]] [[abstention|voluntaria]] [[from|del]] [[using|uso de]] [[a|un]] [[product.|producto.]]",
+          "options": ["[[boycott|boicot]]", "[[purchase|compra]]", "[[donation|donación]]"],
+          "correctAnswer": 0,
+          "explanation": "'Boycott' se usa a menudo como herramienta de presión política o social.",
+          "audio": "audio/b2/unit-23/e35.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-23/e35.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u23-e36",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "The president should have his security team increased.",
+    "content": {
+      "title": "Seguridad presidencial",
+      "instructions": "Elige la forma correcta de 'have something done'.",
+      "questions": [
+        {
+          "question": "[[The|El]] [[president|presidente]] [[should|debería]] [[have|hacer]] [[his|que su]] [[security|equipo de]] [[team|seguridad]] _______ [[increased.|sea aumentado.]]",
+          "options": ["[[increased|aumentado (participio)]]", "[[increase|aumentar]]", "[[increasing|aumentando]]"],
+          "correctAnswer": 0,
+          "explanation": "Estructura causal: 'have + object + past participle'.",
+          "audio": "audio/b2/unit-23/e36.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-23/e36.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u23-e37",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "Corruption undermines the trust of the citizens in the government.",
+    "content": {
+      "title": "Corrupción",
+      "instructions": "Elige el verbo que significa debilitar o socavar.",
+      "questions": [
+        {
+          "question": "[[Corruption|La corrupción]] _______ [[the|la]] [[trust|confianza]] [[of|de]] [[the|los]] [[citizens.|ciudadanos.]]",
+          "options": ["[[undermines|socava / debilita]]", "[[strengthens|fortalece]]", "[[creates|crea]]"],
+          "correctAnswer": 0,
+          "explanation": "'Undermine' se usa figuradamente para decir que algo daña los cimientos de otra cosa.",
+          "audio": "audio/b2/unit-23/e37.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-23/e37.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u23-e38",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "Millions of tons of CO2 are being emitted into the atmosphere.",
+    "content": {
+      "title": "Emisiones de CO2",
+      "instructions": "Elige la forma pasiva continua correcta.",
+      "questions": [
+        {
+          "question": "[[Millions|Millones]] [[of|de]] [[tons|toneladas]] [[of|de]] [[CO2|CO2]] _______ _______ _______ [[into|a]] [[the|la]] [[atmosphere.|atmósfera.]]",
+          "options": ["[[are being emitted|están siendo emitidas]]", "[[have emitted|han emitido]]", "[[were emitting|estaban emitiendo]]"],
+          "correctAnswer": 0,
+          "explanation": "Pasiva continua para un proceso global en curso.",
+          "audio": "audio/b2/unit-23/e38.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-23/e38.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u23-e39",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "Poverty alleviation is a major goal for international organizations.",
+    "content": {
+      "title": "Alivio de la pobreza",
+      "instructions": "Elige el término que significa reducción del sufrimiento o gravedad.",
+      "questions": [
+        {
+          "question": "[[Poverty|La]] _______ [[of|de la]] [[poverty|pobreza]] [[is|es]] [[a|una]] [[major|gran]] [[goal.|meta.]]",
+          "options": ["[[alleviation|alivio / mitigación]]", "[[acceleration|aceleración]]", "[[celebration|celebración]]"],
+          "correctAnswer": 0,
+          "explanation": "'Alleviation' viene del verbo 'alleviate' (aliviar).",
+          "audio": "audio/b2/unit-23/e39.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-23/e39.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u23-e40",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "The activists had the billboard removed by the authorities.",
+    "content": {
+      "title": "Retirada de valla publicitaria",
+      "instructions": "Elige la forma correcta de 'have something done'.",
+      "questions": [
+        {
+          "question": "[[The|Los]] [[activists|activistas]] _______ [[the|hicieron]] [[billboard|que la valla]] _______ _______ [[by|por]] [[the|las]] [[authorities.|autoridades.]]",
+          "options": ["[[had / removed|tuvieron / retirada]]", "[[got / remove|lograron / retirar]]", "[[made / remove|hicieron / retirar]]"],
+          "correctAnswer": 0,
+          "explanation": "'Had + object + past participle' indica que causaron que otro hiciera el trabajo.",
+          "audio": "audio/b2/unit-23/e40.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-23/e40.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u23-e41",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "Literacy rates are an indicator of the educational level of a country.",
+    "content": {
+      "title": "Tasa de alfabetización",
+      "instructions": "Elige el término para la capacidad de leer y escribir.",
+      "questions": [
+        {
+          "question": "_______ [[rates|Las tasas de alfabetización]] [[are|son]] [[an|un]] [[indicator|indicador]] [[of|del]] [[educational|nivel]] [[level.|educativo.]]",
+          "options": ["[[Literacy|Alfabetización]]", "[[Illiteracy|Analfabetismo]]", "[[Arithmetic|Aritmética]]"],
+          "correctAnswer": 0,
+          "explanation": "'Literacy' es la habilidad de leer y escribir.",
+          "audio": "audio/b2/unit-23/e41.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-23/e41.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u23-e42",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "It is understood that the treaty will be signed next month.",
+    "content": {
+      "title": "Tratado inminente",
+      "instructions": "Elige la forma pasiva impersonal correcta.",
+      "questions": [
+        {
+          "question": "[[It|Se]] _______ _______ [[that|entiende]] [[the|que el]] [[treaty|tratado]] [[will|será]] [[be|firmado]] [[signed|el]] [[next|próximo]] [[month.|mes.]]",
+          "options": ["[[is understood|entiende (pasiva)]]", "[[has understood|ha entendido]]", "[[understands|entiende (activa)]]"],
+          "correctAnswer": 0,
+          "explanation": "'It is understood that' indica una creencia basada en información disponible.",
+          "audio": "audio/b2/unit-23/e42.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-23/e42.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u23-e43",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "Humanitarian aid is provided to countries in times of crisis.",
+    "content": {
+      "title": "Ayuda humanitaria",
+      "instructions": "Elige el adjetivo para la ayuda basada en la compasión humana.",
+      "questions": [
+        {
+          "question": "_______ [[aid|La ayuda humanitaria]] [[is|es]] [[provided|proporcionada]] [[to|a]] [[countries|países]] [[in|en]] [[times|tiempos]] [[of|de]] [[crisis.|crisis.]]",
+          "options": ["[[Humanitarian|Humanitaria]]", "[[Military|Militar]]", "[[Financial|Financiera]]"],
+          "correctAnswer": 0,
+          "explanation": "'Humanitarian aid' incluye comida, refugio y medicinas.",
+          "audio": "audio/b2/unit-23/e43.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-23/e43.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u23-e44",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "The neighborhood is having its park renovated by volunteers.",
+    "content": {
+      "title": "Parque renovado",
+      "instructions": "Elige la forma correcta de 'have something done'.",
+      "questions": [
+        {
+          "question": "[[The|El]] [[neighborhood|barrio]] _______ _______ _______ [[park|su parque]] _______ [[by|renovado por]] [[volunteers.|voluntarios.]]",
+          "options": ["[[is having its / renovated|está haciendo / renovado]]", "[[has its / renovate|tiene su / renovar]]", "[[is renovating its / park|está renovando su / parque]]"],
+          "correctAnswer": 0,
+          "explanation": "'Is having something renovated' indica que la acción está en curso.",
+          "audio": "audio/b2/unit-23/e44.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-23/e44.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u23-e45",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "Empowerment is the process of becoming stronger and more confident.",
+    "content": {
+      "title": "Empoderamiento",
+      "instructions": "Elige el término para el proceso de ganar confianza y poder.",
+      "questions": [
+        {
+          "question": "_______ [[is|El empoderamiento]] [[the|es el]] [[process|proceso]] [[of|de]] [[becoming|volverse]] [[stronger.|más fuerte.]]",
+          "options": ["[[Empowerment|Empoderamiento]]", "[[Discouragement|Desánimo]]", "[[Management|Gestión]]"],
+          "correctAnswer": 0,
+          "explanation": "'Empowerment' se usa mucho en contextos de igualdad y derechos civiles.",
+          "audio": "audio/b2/unit-23/e45.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-23/e45.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u23-e46",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "It is alleged that the funds were misused by the official.",
+    "content": {
+      "title": "Presunto mal uso",
+      "instructions": "Elige el participio correcto para reportar una acusación sin pruebas.",
+      "questions": [
+        {
+          "question": "[[It|Se]] [[is| ]] _______ [[that|alega que]] [[the|los]] [[funds|fondos]] [[were|fueron]] [[misused.|mal utilizados.]]",
+          "options": ["[[alleged|alega (presuntamente)]]", "[[denied|niega]]", "[[known|sabe]]"],
+          "correctAnswer": 0,
+          "explanation": "'It is alleged that' se usa cuando se hace una acusación que aún no ha sido probada.",
+          "audio": "audio/b2/unit-23/e46.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-23/e46.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u23-e47",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "Sanitation is the provision of clean water and waste disposal.",
+    "content": {
+      "title": "Saneamiento",
+      "instructions": "Elige el término para la higiene pública y eliminación de residuos.",
+      "questions": [
+        {
+          "question": "_______ [[is|El saneamiento]] [[the|es la]] [[provision|provisión]] [[of|de]] [[clean|agua]] [[water|limpia.]]",
+          "options": ["[[Sanitation|Saneamiento]]", "[[Pollution|Contaminación]]", "[[Congestion|Congestión]]"],
+          "correctAnswer": 0,
+          "explanation": "'Sanitation' es fundamental para la salud pública.",
+          "audio": "audio/b2/unit-23/e47.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-23/e47.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u23-e48",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "The residents got the company to stop the noise pollution.",
+    "content": {
+      "title": "Contaminación acústica",
+      "instructions": "Elige la forma correcta tras 'got + person'.",
+      "questions": [
+        {
+          "question": "[[The|Los]] [[residents|residentes]] [[got|lograron]] [[the|que la]] [[company|empresa]] _______ [[stop|parara]] [[the|el]] [[noise|ruido.]]",
+          "options": ["[[to stop|parara (infinitivo con to)]]", "[[stopping|parando]]", "[[stopped|parado]]"],
+          "correctAnswer": 0,
+          "explanation": "Causal 'get someone TO do something'.",
+          "audio": "audio/b2/unit-23/e48.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-23/e48.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u23-e49",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "Advocacy is public support for or recommendation of a particular cause.",
+    "content": {
+      "title": "Defensa de una causa",
+      "instructions": "Elige el término para el apoyo activo a una causa social.",
+      "questions": [
+        {
+          "question": "_______ [[is|La defensa / apoyo]] [[public|es el]] [[support|apoyo público]] [[for|a]] [[a|una]] [[cause.|causa.]]",
+          "options": ["[[Advocacy|Defensa / Apoyo activo]]", "[[Apathy|Apatía]]", "[[Hostility|Hostilidad]]"],
+          "correctAnswer": 0,
+          "explanation": "'Advocacy' implica actuar a favor de los derechos de otros.",
+          "audio": "audio/b2/unit-23/e49.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-23/e49.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u23-e50",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Issues",
+    "difficulty": "medium",
+    "transcript": "It is known that the climate change is accelerating.",
+    "content": {
+      "title": "Cambio climático",
+      "instructions": "Elige la forma pasiva impersonal correcta.",
+      "questions": [
+        {
+          "question": "[[It|Se]] _______ [[known|sabe]] [[that|que]] [[the|el]] [[climate|cambio]] [[change|climático]] [[is|se está]] [[accelerating.|acelerando.]]",
+          "options": ["[[is|es (pasiva)]]", "[[has|ha]]", "[[was|fue]]"],
+          "correctAnswer": 0,
+          "explanation": "'It is known that' se usa para hechos científicos o verdades aceptadas.",
+          "audio": "audio/b2/unit-23/e50.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-23/e50.mp3",
+    "topicName": "Grammar"
   }
 ];

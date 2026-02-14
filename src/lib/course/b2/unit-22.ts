@@ -1,953 +1,1307 @@
 import { Exercise } from "@/types/course";
 
 export const UNIT_22_EXERCISES: Exercise[] = [
-  // 1-10: Grammar - Passive Reporting (Perfect Infinitive)
+  // 1-25: Sentence Building (Grammar & Vocabulary - Professional Development)
   {
-    id: "b2-u22-e1",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "The glacier is thought to have melted significantly over the last decade.",
-    content: {
-      title: "Passive Reporting: Perfect Infinitive",
-      instructions: "Choose the correct infinitive form to report a past action.",
-      question: "[[The glacier is thought ___ (melt) significantly over the last decade.|Se piensa que el glaciar se ha derretido significativamente durante la última década.]]",
-      options: ["to have melted", "to melt", "to be melting"],
-      correctAnswer: "to have melted",
-      explanation: "Use the perfect infinitive (to have + past participle) to report an action that happened before the reporting time.",
-      translation: "Se piensa que el glaciar se ha derretido significativamente durante la última década.",
-      hint: "Reported past action."
+    "id": "b2-u22-e1",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "The manager suggested that we should postpone the meeting.",
+    "content": {
+      "title": "Sugerencia del gerente",
+      "instructions": "Ordena las palabras para reportar una sugerencia formal.",
+      "correctSentence": "[[The|El]] [[manager|gerente]] [[suggested|sugirió]] [[that|que]] [[we|pospusiéramos]] [[should|la]] [[postpone|reunión.]] [[the| ]] [[meeting.| ]]",
+      "words": [
+        "[[manager|gerente]]",
+        "[[postpone|reunión.]]",
+        "[[The|El]]",
+        "[[suggested|sugirió]]",
+        "[[meeting.| ]]",
+        "[[should|la]]",
+        "[[we|pospusiéramos]]",
+        "[[the| ]]",
+        "[[that|que]]"
+      ],
+      "explanation": "'Suggest' suele ir seguido de una cláusula con 'that' y a menudo 'should' o subjuntivo.",
+      "audio": "audio/b2/unit-22/e1.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-22/e1.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u22-e2",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "The fire is believed to have started by a lightning strike.",
-    content: {
-      title: "Passive Reporting: Perfect Infinitive",
-      instructions: "Choose the correct infinitive form.",
-      question: "[[The fire is believed ___ (start) by a lightning strike.|Se cree que el incendio se inició por el impacto de un rayo.]]",
-      options: ["to have started", "to start", "to be starting"],
-      correctAnswer: "to have started",
-      explanation: "Perfect infinitive for a completed past event.",
-      translation: "Se cree que el incendio se inició por el impacto de un rayo.",
-      hint: "Past event."
+    "id": "b2-u22-e2",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "Climbing the corporate ladder requires both skill and ambition.",
+    "content": {
+      "title": "Escalafón corporativo",
+      "instructions": "Ordena las palabras para hablar de ascenso profesional.",
+      "correctSentence": "[[Climbing|Subir]] [[the|por]] [[corporate|el]] [[ladder|escalafón]] [[requires|corporativo]] [[both|requiere]] [[skill|tanto]] [[and|habilidad]] [[ambition.|como ambición.]]",
+      "words": [
+        "[[the|por]]",
+        "[[ladder|corporativo]]",
+        "[[ambition.|como ambición.]]",
+        "[[requires|requiere]]",
+        "[[Climbing|Subir]]",
+        "[[corporate|el]]",
+        "[[skill|tanto]]",
+        "[[both|requiere]]",
+        "[[and|habilidad]]"
+      ],
+      "explanation": "'Corporate ladder' es una metáfora para la jerarquía de una empresa.",
+      "audio": "audio/b2/unit-22/e2.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-22/e2.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u22-e3",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "The species is reported to have disappeared from the region.",
-    content: {
-      title: "Passive Reporting: Perfect Infinitive",
-      instructions: "Choose the correct infinitive form.",
-      question: "[[The species is reported ___ (disappear) from the region.|Se informa que la especie ha desaparecido de la región.]]",
-      options: ["to have disappeared", "to be disappearing", "to disappear"],
-      correctAnswer: "to have disappeared",
-      explanation: "Reporting something that happened in the past.",
-      translation: "Se informa que la especie ha desaparecido de la región.",
-      hint: "Completed past action."
+    "id": "b2-u22-e3",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "He denied having any involvement in the financial scandal.",
+    "content": {
+      "title": "Negar implicación",
+      "instructions": "Ordena las palabras para reportar una negación en pasado.",
+      "correctSentence": "[[He|Él]] [[denied|negó]] [[having|tener]] [[any|ninguna]] [[involvement|implicación]] [[in|en]] [[the|el]] [[financial|escándalo]] [[scandal.|financiero.]]",
+      "words": [
+        "[[denied|negó]]",
+        "[[involvement|implicación]]",
+        "[[scandal.|financiero.]]",
+        "[[He|Él]]",
+        "[[financial|escándalo]]",
+        "[[having|tener]]",
+        "[[any|ninguna]]",
+        "[[the|el]]",
+        "[[in|en]]"
+      ],
+      "explanation": "'Deny + -ing' se usa para negar una acción pasada.",
+      "audio": "audio/b2/unit-22/e3.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-22/e3.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u22-e4",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "The government is claimed to have hidden the real data.",
-    content: {
-      title: "Passive Reporting: Perfect Infinitive",
-      instructions: "Choose the correct infinitive form.",
-      question: "[[The government is claimed ___ (hide) the real data.|Se afirma que el gobierno ha ocultado los datos reales.]]",
-      options: ["to have hidden", "to be hiding", "to hide"],
-      correctAnswer: "to have hidden",
-      explanation: "Use perfect infinitive for an alleged past action.",
-      translation: "Se afirma que el gobierno ha ocultado los datos reales.",
-      hint: "Past allegation."
+    "id": "b2-u22-e4",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "Soft skills like empathy are increasingly valued by recruiters.",
+    "content": {
+      "title": "Habilidades blandas",
+      "instructions": "Ordena las palabras para hablar de competencias interpersonales.",
+      "correctSentence": "[[Soft|Las habilidades]] [[skills|blandas]] [[like|como]] [[empathy|la empatía]] [[are|son]] [[increasingly|cada vez]] [[valued|más valoradas]] [[by|por]] [[recruiters.|los reclutadores.]]",
+      "words": [
+        "[[skills|blandas]]",
+        "[[empathy|la empatía]]",
+        "[[recruiters.|los reclutadores.]]",
+        "[[are|son]]",
+        "[[Soft|Las habilidades]]",
+        "[[valued|más valoradas]]",
+        "[[increasingly|cada vez]]",
+        "[[like|como]]",
+        "[[by|por]]"
+      ],
+      "explanation": "'Soft skills' son habilidades no técnicas relacionadas con la personalidad.",
+      "audio": "audio/b2/unit-22/e4.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-22/e4.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u22-e5",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "The factory is suspected to have dumped waste into the river.",
-    content: {
-      title: "Passive Reporting: Perfect Infinitive",
-      instructions: "Choose the correct infinitive form.",
-      question: "[[The factory is suspected ___ (dump) waste into the river.|Se sospecha que la fábrica ha vertido residuos al río.]]",
-      options: ["to dump", "to be dumping", "to have dumped"],
-      correctAnswer: "to have dumped",
-      explanation: "Suspected past action requires perfect infinitive.",
-      translation: "Se sospecha que la fábrica ha vertido residuos al río.",
-      hint: "Past suspicion."
+    "id": "b2-u22-e5",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "She asked me if I had ever considered working abroad.",
+    "content": {
+      "title": "Pregunta indirecta",
+      "instructions": "Ordena las palabras para reportar una pregunta de sí o no.",
+      "correctSentence": "[[She|Ella]] [[asked|me]] [[me|preguntó]] [[if|si]] [[I|alguna vez]] [[had|había]] [[ever|considerado]] [[considered|trabajar]] [[working|en el]] [[abroad.|extranjero.]]",
+      "words": [
+        "[[asked|me]]",
+        "[[ever|considerado]]",
+        "[[abroad.|extranjero.]]",
+        "[[had|había]]",
+        "[[She|Ella]]",
+        "[[working|en el]]",
+        "[[if|si]]",
+        "[[I|alguna vez]]",
+        "[[considered|trabajar]]",
+        "[[me|preguntó]]"
+      ],
+      "explanation": "Reported questions: Usamos 'if' o 'whether' y el orden de frase afirmativa.",
+      "audio": "audio/b2/unit-22/e5.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-22/e5.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u22-e6",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "The levels of CO2 are estimated to have risen by 5%.",
-    content: {
-      title: "Passive Reporting: Perfect Infinitive",
-      instructions: "Choose the correct infinitive form.",
-      question: "[[The levels of CO2 are estimated ___ (rise) by 5%.|Se estima que los niveles de CO2 han aumentado un 5%.]]",
-      options: ["to have risen", "to rise", "to be rising"],
-      correctAnswer: "to have risen",
-      explanation: "Reported increase that has already occurred.",
-      translation: "Se estima que los niveles de CO2 han aumentado un 5%.",
-      hint: "Past increase."
+    "id": "b2-u22-e6",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "Mentoring provides young professionals with guidance and support.",
+    "content": {
+      "title": "Mentoría",
+      "instructions": "Ordena las palabras para describir el papel de un mentor.",
+      "correctSentence": "[[Mentoring|La mentoría]] [[provides|proporciona]] [[young|a los jóvenes]] [[professionals|profesionales]] [[with| ]] [[guidance|orientación]] [[and|y]] [[support.|apoyo.]]",
+      "words": [
+        "[[provides|proporciona]]",
+        "[[professionals|profesionales]]",
+        "[[support.|apoyo.]]",
+        "[[guidance|orientación]]",
+        "[[Mentoring|La mentoría]]",
+        "[[young|a los jóvenes]]",
+        "[[and|y]]",
+        "[[with| ]]"
+      ],
+      "explanation": "'Provide someone with something' es la estructura correcta en inglés.",
+      "audio": "audio/b2/unit-22/e6.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-22/e6.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u22-e7",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "The disaster is known to have affected thousands of people.",
-    content: {
-      title: "Passive Reporting: Perfect Infinitive",
-      instructions: "Choose the correct infinitive form.",
-      question: "[[The disaster is known ___ (affect) thousands of people.|Se sabe que el desastre ha afectado a miles de personas.]]",
-      options: ["to be affecting", "to affect", "to have affected"],
-      correctAnswer: "to have affected",
-      explanation: "Known past effect.",
-      translation: "Se sabe que el desastre ha afectado a miles de personas.",
-      hint: "Past knowledge."
+    "id": "b2-u22-e7",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "They congratulated him on winning the Employee of the Year award.",
+    "content": {
+      "title": "Felicitaciones",
+      "instructions": "Ordena las palabras para reportar una felicitación.",
+      "correctSentence": "[[They|Ellos]] [[congratulated|le]] [[him|felicitaron]] [[on|por]] [[winning|ganar]] [[the|el]] [[Employee|premio]] [[of|de]] [[the|Empleado]] [[Year|del]] [[award.|Año.]]",
+      "words": [
+        "[[congratulated|le]]",
+        "[[winning|ganar]]",
+        "[[award.|Año.]]",
+        "[[the|Empleado]]",
+        "[[They|Ellos]]",
+        "[[Year|del]]",
+        "[[Employee|premio]]",
+        "[[of|de]]",
+        "[[on|por]]",
+        "[[the|el]]",
+        "[[him|felicitaron]]"
+      ],
+      "explanation": "'Congratulate someone ON + -ing' es la preposición necesaria.",
+      "audio": "audio/b2/unit-22/e7.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-22/e7.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u22-e8",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "The island is assumed to have been inhabited once.",
-    content: {
-      title: "Passive Reporting: Perfect Infinitive",
-      instructions: "Choose the correct infinitive form.",
-      question: "[[The island is assumed ___ (be) inhabited once.|Se asume que la isla estuvo habitada una vez.]]",
-      options: ["to have been", "to be", "to have being"],
-      correctAnswer: "to have been",
-      explanation: "Perfect infinitive of 'be' for a past state.",
-      translation: "Se asume que la isla estuvo habitada una vez.",
-      hint: "Past state."
+    "id": "b2-u22-e8",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "Workshops and seminars are great for continuous professional growth.",
+    "content": {
+      "title": "Talleres y seminarios",
+      "instructions": "Ordena las palabras para hablar de formación continua.",
+      "correctSentence": "[[Workshops|Los talleres]] [[and|y]] [[seminars|seminarios]] [[are|son]] [[great|ideales]] [[for|para]] [[continuous|el crecimiento]] [[professional|profesional]] [[growth.|continuo.]]",
+      "words": [
+        "[[and|y]]",
+        "[[are|son]]",
+        "[[growth.|continuo.]]",
+        "[[seminars|seminarios]]",
+        "[[Workshops|Los talleres]]",
+        "[[professional|profesional]]",
+        "[[continuous|el crecimiento]]",
+        "[[great|ideales]]",
+        "[[for|para]]"
+      ],
+      "explanation": "'Workshops' son sesiones prácticas de aprendizaje intensivo.",
+      "audio": "audio/b2/unit-22/e8.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-22/e8.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u22-e9",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "The trees are said to have been planted by local volunteers.",
-    content: {
-      title: "Passive Reporting: Perfect Passive Infinitive",
-      instructions: "Choose the correct passive infinitive form.",
-      question: "[[The trees are said ___ (plant) by local volunteers.|Se dice que los árboles fueron plantados por voluntarios locales.]]",
-      options: ["to be planted", "to have been planted", "to plant"],
-      correctAnswer: "to have been planted",
-      explanation: "Use perfect passive infinitive (to have been + past participle) for past actions done to the subject.",
-      translation: "Se dice que los árboles fueron plantados por voluntarios locales.",
-      hint: "Past passive action."
+    "id": "b2-u22-e9",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "My boss warned me not to be late for the client presentation.",
+    "content": {
+      "title": "Advertencia del jefe",
+      "instructions": "Ordena las palabras para reportar una advertencia negativa.",
+      "correctSentence": "[[My|Mi]] [[boss|jefe]] [[warned|me]] [[me|advirtió]] [[not|que]] [[to|no]] [[be|llegara]] [[late|tarde]] [[for|a]] [[the|la]] [[client|presentación]] [[presentation.|con el cliente.]]",
+      "words": [
+        "[[boss|jefe]]",
+        "[[not|que]]",
+        "[[presentation.|con el cliente.]]",
+        "[[late|tarde]]",
+        "[[My|Mi]]",
+        "[[client|presentación]]",
+        "[[be|llegara]]",
+        "[[warned|me]]",
+        "[[the|la]]",
+        "[[for|a]]",
+        "[[me|advirtió]]",
+        "[[to|no]]"
+      ],
+      "explanation": "'Warn someone (not) to do something' para reportar advertencias.",
+      "audio": "audio/b2/unit-22/e9.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-22/e9.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u22-e10",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "The law is understood to have changed in 2010.",
-    content: {
-      title: "Passive Reporting: Perfect Infinitive",
-      instructions: "Choose the correct infinitive form.",
-      question: "[[The law is understood ___ (change) in 2010.|Se entiende que la ley cambió en 2010.]]",
-      options: ["to change", "to have been changed", "to have changed"],
-      correctAnswer: "to have changed",
-      explanation: "Reporting a past change.",
-      translation: "Se entiende que la ley cambió en 2010.",
-      hint: "Action in 2010."
+    "id": "b2-u22-e10",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "A internship is a temporary position with an emphasis on on-the-job training.",
+    "content": {
+      "title": "Prácticas / Pasantía",
+      "instructions": "Ordena las palabras para definir una pasantía.",
+      "correctSentence": "[[A|Una]] [[internship|pasantía]] [[is|es]] [[a|un]] [[temporary|puesto]] [[position|temporal]] [[with|con]] [[an|énfasis]] [[emphasis|en]] [[on|la]] [[on-the-job|formación]] [[training.|en el trabajo.]]",
+      "words": [
+        "[[internship|pasantía]]",
+        "[[temporary|puesto]]",
+        "[[training.|en el trabajo.]]",
+        "[[emphasis|en]]",
+        "[[A|Una]]",
+        "[[on-the-job|formación]]",
+        "[[position|temporal]]",
+        "[[is|es]]",
+        "[[on|la]]",
+        "[[an|énfasis]]",
+        "[[with|con]]",
+        "[[a|un]]"
+      ],
+      "explanation": "'On-the-job training' significa aprender mientras se realiza el trabajo.",
+      "audio": "audio/b2/unit-22/e10.mp3"
     },
-    topicName: "Grammar"
-  },
-
-  // 11-20: Grammar - Passive Reporting (Continuous Infinitive)
-  {
-    id: "b2-u22-e11",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "hard",
-    transcript: "The temperatures are thought to be rising at an alarming rate.",
-    content: {
-      title: "Passive Reporting: Continuous Infinitive",
-      instructions: "Choose the correct continuous infinitive form (to be + -ing).",
-      question: "[[The temperatures are thought ___ (rise) at an alarming rate.|Se piensa que las temperaturas están aumentando a un ritmo alarmante.]]",
-      options: ["to rise", "to be rising", "to have risen"],
-      correctAnswer: "to be rising",
-      explanation: "Use the continuous infinitive to report an action in progress at the time of reporting.",
-      translation: "Se piensa que las temperaturas están aumentando a un ritmo alarmante.",
-      hint: "Action in progress."
-    },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-22/e10.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u22-e12",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "hard",
-    transcript: "The scientist is believed to be working on a new discovery.",
-    content: {
-      title: "Passive Reporting: Continuous Infinitive",
-      instructions: "Choose the correct continuous infinitive form.",
-      question: "[[The scientist is believed ___ (work) on a new discovery.|Se cree que el científico está trabajando en un nuevo descubrimiento.]]",
-      options: ["to work", "to be working", "to have worked"],
-      correctAnswer: "to be working",
-      explanation: "Reporting an ongoing action.",
-      translation: "Se cree que el científico está trabajando en un nuevo descubrimiento.",
-      hint: "Ongoing work."
+    "id": "b2-u22-e11",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "The HR department explained how we could access the new portal.",
+    "content": {
+      "title": "Explicación de RRHH",
+      "instructions": "Ordena las palabras para reportar una explicación.",
+      "correctSentence": "[[The|El]] [[HR|departamento]] [[department|de RRHH]] [[explained|explicó]] [[how|cómo]] [[we|podíamos]] [[could|acceder]] [[access|al]] [[the|nuevo]] [[new|portal.]] [[portal.| ]]",
+      "words": [
+        "[[HR|departamento]]",
+        "[[how|cómo]]",
+        "[[portal.| ]]",
+        "[[explained|explicó]]",
+        "[[The|El]]",
+        "[[new|portal.]]",
+        "[[department|de RRHH]]",
+        "[[access|al]]",
+        "[[could|acceder]]",
+        "[[the|nuevo]]",
+        "[[we|podíamos]]"
+      ],
+      "explanation": "'Explain' no suele llevar objeto indirecto directo (no se dice 'explained us').",
+      "audio": "audio/b2/unit-22/e11.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-22/e11.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u22-e13",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "hard",
-    transcript: "The company is reported to be investing in green energy.",
-    content: {
-      title: "Passive Reporting: Continuous Infinitive",
-      instructions: "Choose the correct continuous infinitive form.",
-      question: "[[The company is reported ___ (invest) in green energy.|Se informa que la empresa está invirtiendo en energía verde.]]",
-      options: ["to be investing", "to invest", "to have invested"],
-      correctAnswer: "to be investing",
-      explanation: "Current activity reported.",
-      translation: "Se informa que la empresa está invirtiendo en energía verde.",
-      hint: "Current activity."
+    "id": "b2-u22-e12",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "Leadership skills involve the ability to inspire and motivate a team.",
+    "content": {
+      "title": "Habilidades de liderazgo",
+      "instructions": "Ordena las palabras para hablar de capacidades directivas.",
+      "correctSentence": "[[Leadership|Las habilidades]] [[skills|de liderazgo]] [[involve|implican]] [[the|la]] [[ability|capacidad]] [[to|de]] [[inspire|inspirar]] [[and|y]] [[motivate|motivar]] [[a|a un]] [[team.|equipo.]]",
+      "words": [
+        "[[skills|de liderazgo]]",
+        "[[ability|capacidad]]",
+        "[[team.|equipo.]]",
+        "[[inspire|inspirar]]",
+        "[[Leadership|Las habilidades]]",
+        "[[motivate|motivar]]",
+        "[[involve|implican]]",
+        "[[and|y]]",
+        "[[the|la]]",
+        "[[a|a un]]",
+        "[[to|de]]"
+      ],
+      "explanation": "'Ability to + infinitivo' es la forma habitual de expresar capacidad.",
+      "audio": "audio/b2/unit-22/e12.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-22/e12.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u22-e14",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "hard",
-    transcript: "The sea level is estimated to be increasing every year.",
-    content: {
-      title: "Passive Reporting: Continuous Infinitive",
-      instructions: "Choose the correct continuous infinitive form.",
-      question: "[[The sea level is estimated ___ (increase) every year.|Se estima que el nivel del mar está aumentando cada año.]]",
-      options: ["to increase", "to be increasing", "to have increased"],
-      correctAnswer: "to be increasing",
-      explanation: "Reporting a continuous trend.",
-      translation: "Se estima que el nivel del mar está aumentando cada año.",
-      hint: "Continuous trend."
+    "id": "b2-u22-e13",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "He promised that he would send the feedback by Monday morning.",
+    "content": {
+      "title": "Promesa de feedback",
+      "instructions": "Ordena las palabras para reportar una promesa futura.",
+      "correctSentence": "[[He|Él]] [[promised|prometió]] [[that|que]] [[he|enviaría]] [[would|los]] [[send|comentarios]] [[the|antes]] [[feedback|del]] [[by|lunes]] [[Monday|por la]] [[morning.|mañana.]]",
+      "words": [
+        "[[promised|prometió]]",
+        "[[would|los]]",
+        "[[morning.|mañana.]]",
+        "[[he|enviaría]]",
+        "[[He|Él]]",
+        "[[Monday|por la]]",
+        "[[that|que]]",
+        "[[feedback|comentarios]]",
+        "[[send|comentarios]]",
+        "[[the|antes]]",
+        "[[by|lunes]]"
+      ],
+      "explanation": "El futuro 'will' cambia a 'would' en el estilo indirecto.",
+      "audio": "audio/b2/unit-22/e13.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-22/e13.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u22-e15",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "hard",
-    transcript: "The animals are known to be migrating south right now.",
-    content: {
-      title: "Passive Reporting: Continuous Infinitive",
-      instructions: "Choose the correct continuous infinitive form.",
-      question: "[[The animals are known ___ (migrate) south right now.|Se sabe que los animales están migrando hacia el sur en este momento.]]",
-      options: ["to be migrating", "to migrate", "to have migrated"],
-      correctAnswer: "to be migrating",
-      explanation: "Reporting an action happening 'right now'.",
-      translation: "Se sabe que los animales están migrando hacia el sur en este momento.",
-      hint: "Right now."
+    "id": "b2-u22-e14",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "A job description outlines the duties and responsibilities of a role.",
+    "content": {
+      "title": "Descripción del puesto",
+      "instructions": "Ordena las palabras para hablar de especificaciones laborales.",
+      "correctSentence": "[[A|La]] [[job|descripción]] [[description|del puesto]] [[outlines|resume]] [[the|los]] [[duties|deberes]] [[and|y]] [[responsibilities|responsabilidades]] [[of|de]] [[a|un]] [[role.|cargo.]]",
+      "words": [
+        "[[job|descripción]]",
+        "[[duties|deberes]]",
+        "[[role.|cargo.]]",
+        "[[outlines|resume]]",
+        "[[A|La]]",
+        "[[responsibilities|responsabilidades]]",
+        "[[description|del puesto]]",
+        "[[and|y]]",
+        "[[the|los]]",
+        "[[of|de]]",
+        "[[a|un]]"
+      ],
+      "explanation": "'Outline' significa dar una idea general o resumir los puntos principales.",
+      "audio": "audio/b2/unit-22/e14.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-22/e14.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u22-e16",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "hard",
-    transcript: "The pollution is said to be causing serious health issues.",
-    content: {
-      title: "Passive Reporting: Continuous Infinitive",
-      instructions: "Choose the correct continuous infinitive form.",
-      question: "[[The pollution is said ___ (cause) serious health issues.|Se dice que la contaminación está causando graves problemas de salud.]]",
-      options: ["to cause", "to be causing", "to have caused"],
-      correctAnswer: "to be causing",
-      explanation: "Ongoing cause and effect reporting.",
-      translation: "Se dice que la contaminación está causando graves problemas de salud.",
-      hint: "Ongoing cause."
+    "id": "b2-u22-e15",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "She wondered why the recruitment process was taking so long.",
+    "content": {
+      "title": "Pregunta con 'Why'",
+      "instructions": "Ordena las palabras para reportar una duda.",
+      "correctSentence": "[[She|Ella]] [[wondered|se preguntaba]] [[why|por qué]] [[the|el]] [[recruitment|proceso]] [[process|de selección]] [[was|estaba]] [[taking|tardando]] [[so|tanto]] [[long.|tiempo.]]",
+      "words": [
+        "[[wondered|se preguntaba]]",
+        "[[the|el]]",
+        "[[long.|tiempo.]]",
+        "[[recruitment|proceso]]",
+        "[[She|Ella]]",
+        "[[so|tanto]]",
+        "[[process|de selección]]",
+        "[[taking|tardando]]",
+        "[[why|por qué]]",
+        "[[was|estaba]]"
+      ],
+      "explanation": "'Wonder why' seguido de orden de frase afirmativa (sujeto + verbo).",
+      "audio": "audio/b2/unit-22/e15.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-22/e15.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u22-e17",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "hard",
-    transcript: "The forest is thought to be shrinking due to logging.",
-    content: {
-      title: "Passive Reporting: Continuous Infinitive",
-      instructions: "Choose the correct continuous infinitive form.",
-      question: "[[The forest is thought ___ (shrink) due to logging.|Se piensa que el bosque se está reduciendo debido a la tala.]]",
-      options: ["to be shrinking", "to shrink", "to have shrunk"],
-      correctAnswer: "to be shrinking",
-      explanation: "Reporting an ongoing reduction.",
-      translation: "Se piensa que el bosque se está reduciendo debido a la tala.",
-      hint: "Ongoing reduction."
+    "id": "b2-u22-e16",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "Negotiation skills are essential for closing successful business deals.",
+    "content": {
+      "title": "Habilidades de negociación",
+      "instructions": "Ordena las palabras para hablar de acuerdos comerciales.",
+      "correctSentence": "[[Negotiation|Las habilidades]] [[skills|de negociación]] [[are|son]] [[essential|esenciales]] [[for|para]] [[closing|cerrar]] [[successful|acuerdos]] [[business|comerciales]] [[deals.|exitosos.]]",
+      "words": [
+        "[[skills|de negociación]]",
+        "[[essential|esenciales]]",
+        "[[deals.|exitosos.]]",
+        "[[closing|cerrar]]",
+        "[[Negotiation|Las habilidades]]",
+        "[[business|comerciales]]",
+        "[[are|son]]",
+        "[[successful|acuerdos]]",
+        "[[for|para]]"
+      ],
+      "explanation": "'Closing a deal' es la expresión idiomática para finalizar un acuerdo.",
+      "audio": "audio/b2/unit-22/e16.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-22/e16.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u22-e18",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "hard",
-    transcript: "They are claimed to be building a new solar farm.",
-    content: {
-      title: "Passive Reporting: Continuous Infinitive",
-      instructions: "Choose the correct continuous infinitive form.",
-      question: "[[They are claimed ___ (build) a new solar farm.|Se afirma que están construyendo un nuevo parque solar.]]",
-      options: ["to build", "to be building", "to have built"],
-      correctAnswer: "to be building",
-      explanation: "Alleged ongoing construction.",
-      translation: "Se afirma que están construyendo un nuevo parque solar.",
-      hint: "Alleged ongoing action."
+    "id": "b2-u22-e17",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "The director recommended attending the upcoming leadership workshop.",
+    "content": {
+      "title": "Recomendación del director",
+      "instructions": "Ordena las palabras para reportar una recomendación usando gerundio.",
+      "correctSentence": "[[The|El]] [[director|director]] [[recommended|recomendó]] [[attending|asistir]] [[the|al]] [[upcoming|próximo]] [[leadership|taller]] [[workshop.|de liderazgo.]]",
+      "words": [
+        "[[director|director]]",
+        "[[the|al]]",
+        "[[workshop.|de liderazgo.]]",
+        "[[attending|asistir]]",
+        "[[The|El]]",
+        "[[leadership|taller]]",
+        "[[recommended|recomendó]]",
+        "[[upcoming|próximo]]"
+      ],
+      "explanation": "'Recommend + -ing' se usa cuando no mencionamos a quién se le recomienda.",
+      "audio": "audio/b2/unit-22/e17.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-22/e17.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u22-e19",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "hard",
-    transcript: "The situation is assumed to be improving slowly.",
-    content: {
-      title: "Passive Reporting: Continuous Infinitive",
-      instructions: "Choose the correct continuous infinitive form.",
-      question: "[[The situation is assumed ___ (improve) slowly.|Se asume que la situación está mejorando lentamente.]]",
-      options: ["to be improving", "to improve", "to have improved"],
-      correctAnswer: "to be improving",
-      explanation: "Assumption about an ongoing process.",
-      translation: "Se asume que la situación está mejorando lentamente.",
-      hint: "Ongoing improvement."
+    "id": "b2-u22-e18",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "Performance appraisals help evaluate an employee's contribution to the company.",
+    "content": {
+      "title": "Evaluación de desempeño",
+      "instructions": "Ordena las palabras para hablar de revisiones laborales.",
+      "correctSentence": "[[Performance|Las evaluaciones]] [[appraisals|de desempeño]] [[help|ayudan a]] [[evaluate|evaluar]] [[an|la]] [[employee's|contribución de]] [[contribution|un empleado]] [[to|a]] [[the|la]] [[company.|empresa.]]",
+      "words": [
+        "[[appraisals|de desempeño]]",
+        "[[evaluate|evaluar]]",
+        "[[company.|empresa.]]",
+        "[[employee's|contribución de]]",
+        "[[Performance|Las evaluaciones]]",
+        "[[contribution|un empleado]]",
+        "[[help|ayudan a]]",
+        "[[to|a]]",
+        "[[the|la]]",
+        "[[an|la]]"
+      ],
+      "explanation": "'Performance appraisal' es el término formal para la evaluación periódica del trabajo.",
+      "audio": "audio/b2/unit-22/e18.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-22/e18.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u22-e20",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "hard",
-    transcript: "The data is understood to be showing a clear trend.",
-    content: {
-      title: "Passive Reporting: Continuous Infinitive",
-      instructions: "Choose the correct continuous infinitive form.",
-      question: "[[The data is understood ___ (show) a clear trend.|Se entiende que los datos muestran una tendencia clara.]]",
-      options: ["to show", "to be showing", "to have shown"],
-      correctAnswer: "to be showing",
-      explanation: "Reporting what the data indicates currently.",
-      translation: "Se entiende que los datos muestran una tendencia clara.",
-      hint: "Current indication."
+    "id": "b2-u22-e19",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "He admitted that he had made a mistake in the budget.",
+    "content": {
+      "title": "Admitir un error",
+      "instructions": "Ordena las palabras para reportar una confesión.",
+      "correctSentence": "[[He|Él]] [[admitted|admitió]] [[that|que]] [[he|había]] [[had|cometido]] [[made|un]] [[a|error]] [[mistake|en]] [[in|el]] [[the|presupuesto.]] [[budget.| ]]",
+      "words": [
+        "[[admitted|admitió]]",
+        "[[had|cometido]]",
+        "[[budget.| ]]",
+        "[[made|un]]",
+        "[[He|Él]]",
+        "[[the|presupuesto.]]",
+        "[[that|que]]",
+        "[[mistake|en]]",
+        "[[he|había]]",
+        "[[a|error]]",
+        "[[in|el]]"
+      ],
+      "explanation": "Reported speech: 'made' (pasado) cambia a 'had made' (pasado perfecto).",
+      "audio": "audio/b2/unit-22/e19.mp3"
     },
-    topicName: "Grammar"
-  },
-
-  // 21-30: Vocabulary - Climate Change
-  {
-    id: "b2-u22-e21",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "The greenhouse effect is causing global warming.",
-    content: {
-      title: "Climate Terms",
-      instructions: "Choose the correct term.",
-      question: "[[The ___ (greenhouse) effect is causing global warming.|El efecto invernadero está causando el calentamiento global.]]",
-      options: ["[[greenhouse|invernadero]]", "[[glasshouse|invernadero (vidrio)]]", "[[boathouse|cobertizo]]"],
-      correctAnswer: "greenhouse",
-      explanation: "The greenhouse effect is the trapping of the sun's warmth in a planet's lower atmosphere.",
-      translation: "El efecto invernadero está causando el calentamiento global.",
-      hint: "Invernadero."
-    },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-22/e19.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u22-e22",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "Carbon emissions must be reduced significantly.",
-    content: {
-      title: "Climate Terms",
-      instructions: "Choose the correct term.",
-      question: "[[Carbon ___ (emissions) must be reduced significantly.|Las emisiones de carbono deben reducirse significativamente.]]",
-      options: ["[[emissions|emisiones]]", "[[omissions|omisiones]]", "[[admissions|admisiones]]"],
-      correctAnswer: "emissions",
-      explanation: "Emissions are the production and discharge of something, especially gas or radiation.",
-      translation: "Las emisiones de carbono deben reducirse significativamente.",
-      hint: "Discharge of gas."
+    "id": "b2-u22-e20",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "A career path is the series of jobs that lead to your goal.",
+    "content": {
+      "title": "Trayectoria profesional",
+      "instructions": "Ordena las palabras para definir el progreso laboral.",
+      "correctSentence": "[[A|Una]] [[career|trayectoria]] [[path|profesional]] [[is|es]] [[the|la]] [[series|serie]] [[of|de]] [[jobs|trabajos]] [[that|que]] [[lead|llevan]] [[to|a]] [[your|tu]] [[goal.|meta.]]",
+      "words": [
+        "[[career|trayectoria]]",
+        "[[series|serie]]",
+        "[[goal.|meta.]]",
+        "[[jobs|trabajos]]",
+        "[[A|Una]]",
+        "[[lead|llevan]]",
+        "[[path|profesional]]",
+        "[[is|es]]",
+        "[[your|tu]]",
+        "[[that|que]]",
+        "[[to|a]]",
+        "[[of|de]]",
+        "[[the|la]]"
+      ],
+      "explanation": "'Career path' se refiere al camino que sigues en tu vida laboral.",
+      "audio": "audio/b2/unit-22/e20.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-22/e20.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u22-e23",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "The melting of glaciers is a serious concern.",
-    content: {
-      title: "Climate Terms",
-      instructions: "Choose the correct term.",
-      question: "[[The melting of ___ (glaciers) is a serious concern.|El derretimiento de los glaciares es una seria preocupación.]]",
-      options: ["[[glaciers|glaciares]]", "[[icebergs|icebergs]]", "[[mountains|montañas]]"],
-      correctAnswer: "glaciers",
-      explanation: "Glaciers are slowly moving masses or rivers of ice formed by the accumulation and compaction of snow on mountains or near the poles.",
-      translation: "El derretimiento de los glaciares es una seria preocupación.",
-      hint: "Large masses of ice."
+    "id": "b2-u22-e21",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "They reminded us that the deadline was final and non-negotiable.",
+    "content": {
+      "title": "Recordatorio del plazo",
+      "instructions": "Ordena las palabras para reportar una advertencia sobre fechas.",
+      "correctSentence": "[[They|Ellos]] [[reminded|nos]] [[us|recordaron]] [[that|que]] [[the|el]] [[deadline|plazo]] [[was|era]] [[final|definitivo]] [[and|y]] [[non-negotiable.|no negociable.]]",
+      "words": [
+        "[[reminded|nos]]",
+        "[[deadline|plazo]]",
+        "[[non-negotiable.|no negociable.]]",
+        "[[was|era]]",
+        "[[They|Ellos]]",
+        "[[and|y]]",
+        "[[us|recordaron]]",
+        "[[final|definitivo]]",
+        "[[that|que]]",
+        "[[the|el]]"
+      ],
+      "explanation": "'Remind someone that...' se usa para reportar recordatorios.",
+      "audio": "audio/b2/unit-22/e21.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-22/e21.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u22-e24",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "We are facing an ecological disaster.",
-    content: {
-      title: "Climate Terms",
-      instructions: "Choose the correct term.",
-      question: "[[We are facing an ___ (ecological) disaster.|Nos enfrentamos a un desastre ecológico.]]",
-      options: ["[[ecological|ecológico]]", "[[economical|económico]]", "[[electrical|eléctrico]]"],
-      correctAnswer: "ecological",
-      explanation: "Ecological means relating to or concerned with the relation of living organisms to one another and to their physical surroundings.",
-      translation: "Nos enfrentamos a un desastre ecológico.",
-      hint: "Related to ecology."
+    "id": "b2-u22-e22",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "Professional networking can open doors to new career opportunities.",
+    "content": {
+      "title": "Contactos profesionales",
+      "instructions": "Ordena las palabras para hablar de redes de contacto.",
+      "correctSentence": "[[Professional|El networking]] [[networking|profesional]] [[can|puede]] [[open|abrir]] [[doors|puertas]] [[to|a]] [[new|nuevas]] [[career|oportunidades]] [[opportunities.|laborales.]]",
+      "words": [
+        "[[networking|profesional]]",
+        "[[open|abrir]]",
+        "[[opportunities.|laborales.]]",
+        "[[can|puede]]",
+        "[[Professional|El networking]]",
+        "[[career|oportunidades]]",
+        "[[doors|puertas]]",
+        "[[new|nuevas]]",
+        "[[to|a]]"
+      ],
+      "explanation": "'Open doors' es una metáfora común para crear oportunidades.",
+      "audio": "audio/b2/unit-22/e22.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-22/e22.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u22-e25",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "The ozone layer protects us from UV rays.",
-    content: {
-      title: "Climate Terms",
-      instructions: "Choose the correct term.",
-      question: "[[The ___ (ozone) layer protects us from UV rays.|La capa de ozono nos protege de los rayos UV.]]",
-      options: ["[[ozone|ozono]]", "[[oxygen|oxígeno]]", "[[ocean|océano]]"],
-      correctAnswer: "ozone",
-      explanation: "The ozone layer is a layer in the earth's stratosphere at an altitude of about 10 km.",
-      translation: "La capa de ozono nos protege de los rayos UV.",
-      hint: "O3 layer."
+    "id": "b2-u22-e23",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "She insisted on handling the client relations herself.",
+    "content": {
+      "title": "Insistencia",
+      "instructions": "Ordena las palabras para reportar una insistencia.",
+      "correctSentence": "[[She|Ella]] [[insisted|insistió]] [[on|en]] [[handling|encargarse]] [[the|de las]] [[client|relaciones]] [[relations|con los clientes]] [[herself.|ella misma.]]",
+      "words": [
+        "[[insisted|insistió]]",
+        "[[the|de las]]",
+        "[[herself.|ella misma.]]",
+        "[[handling|encargarse]]",
+        "[[She|Ella]]",
+        "[[relations|con los clientes]]",
+        "[[on|en]]",
+        "[[client|relaciones]]"
+      ],
+      "explanation": "'Insist ON + -ing' es la estructura para reportar este tipo de acciones.",
+      "audio": "audio/b2/unit-22/e23.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-22/e23.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u22-e26",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "Deforestation leads to a loss of biodiversity.",
-    content: {
-      title: "Climate Terms",
-      instructions: "Choose the correct term.",
-      question: "[[Deforestation leads to a loss of ___ (biodiversity).|La deforestación conlleva una pérdida de biodiversidad.]]",
-      options: ["[[biodiversity|biodiversidad]]", "[[adversity|adversidad]]", "[[university|universidad]]"],
-      correctAnswer: "biodiversity",
-      explanation: "Biodiversity is the variety of life in the world or in a particular habitat or ecosystem.",
-      translation: "La deforestación conlleva una pérdida de biodiversidad.",
-      hint: "Variety of life."
+    "id": "b2-u22-e24",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "Public speaking is a crucial skill for any business leader.",
+    "content": {
+      "title": "Hablar en público",
+      "instructions": "Ordena las palabras para hablar de oratoria.",
+      "correctSentence": "[[Public|Hablar]] [[speaking|en público]] [[is|es]] [[a|una]] [[crucial|habilidad]] [[skill|crucial]] [[for|para]] [[any|cualquier]] [[business|líder]] [[leader.|de negocios.]]",
+      "words": [
+        "[[speaking|en público]]",
+        "[[crucial|habilidad]]",
+        "[[leader.|de negocios.]]",
+        "[[is|es]]",
+        "[[Public|Hablar]]",
+        "[[business|líder]]",
+        "[[skill|crucial]]",
+        "[[any|cualquier]]",
+        "[[for|para]]",
+        "[[a|una]]"
+      ],
+      "explanation": "'Public speaking' es el gerundio usado como sustantivo para la oratoria.",
+      "audio": "audio/b2/unit-22/e24.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-22/e24.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u22-e27",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "Extreme weather events are becoming more frequent.",
-    content: {
-      title: "Climate Terms",
-      instructions: "Choose the correct term.",
-      question: "[[___ (Extreme) weather events are becoming more frequent.|Los eventos meteorológicos extremos son cada vez más frecuentes.]]",
-      options: ["[[Extreme|Extremos]]", "[[External|Externos]]", "[[Extra|Extra]]"],
-      correctAnswer: "Extreme",
-      explanation: "Extreme weather includes unexpected, unusual, severe, or unseasonal weather.",
-      translation: "Los eventos meteorológicos extremos son cada vez más frecuentes.",
-      hint: "Very severe."
+    "id": "b2-u22-e25",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "The committee asked whether we had achieved our quarterly targets.",
+    "content": {
+      "title": "Objetivos trimestrales",
+      "instructions": "Ordena las palabras para reportar una pregunta sobre resultados.",
+      "correctSentence": "[[The|El]] [[committee|comité]] [[asked|preguntó]] [[whether|si]] [[we|habíamos]] [[had|logrado]] [[achieved|nuestros]] [[our|objetivos]] [[quarterly|trimestrales.]] [[targets.| ]]",
+      "words": [
+        "[[committee|comité]]",
+        "[[had|logrado]]",
+        "[[targets.| ]]",
+        "[[achieved|nuestros]]",
+        "[[The|El]]",
+        "[[quarterly|trimestrales.]]",
+        "[[asked|preguntó]]",
+        "[[our|objetivos]]",
+        "[[whether|si]]",
+        "[[we|habíamos]]"
+      ],
+      "explanation": "'Whether' es más formal que 'if' para reportar preguntas de sí/no.",
+      "audio": "audio/b2/unit-22/e25.mp3"
     },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u22-e28",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "The rising sea levels threaten coastal cities.",
-    content: {
-      title: "Climate Terms",
-      instructions: "Choose the correct term.",
-      question: "[[The ___ (rising) sea levels threaten coastal cities.|El aumento del nivel del mar amenaza a las ciudades costeras.]]",
-      options: ["[[rising|en aumento]]", "[[raising|en crianza]]", "[[racing|de carreras]]"],
-      correctAnswer: "rising",
-      explanation: "Rising means moving upward or increasing in amount.",
-      translation: "El aumento del nivel del mar amenaza a las ciudades costeras.",
-      hint: "Going up."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u22-e29",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "Fossil fuels are a major source of pollution.",
-    content: {
-      title: "Climate Terms",
-      instructions: "Choose the correct term.",
-      question: "[[___ (Fossil) fuels are a major source of pollution.|Los combustibles fósiles son una de las principales fuentes de contaminación.]]",
-      options: ["[[Fossil|Fósiles]]", "[[Facile|Fáciles]]", "[[Floral|Florales]]"],
-      correctAnswer: "fossil",
-      explanation: "Fossil fuels are natural fuels such as coal or gas, formed in the geological past from the remains of living organisms.",
-      translation: "Los combustibles fósiles son una de las principales fuentes de contaminación.",
-      hint: "Coal, oil, gas."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u22-e30",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "The Earth's atmosphere is changing.",
-    content: {
-      title: "Climate Terms",
-      instructions: "Choose the correct term.",
-      question: "[[The Earth's ___ (atmosphere) is changing.|La atmósfera de la Tierra está cambiando.]]",
-      options: ["[[atmosphere|atmósfera]]", "[[sphere|esfera]]", "[[hemisphere|hemisferio]]"],
-      correctAnswer: "atmosphere",
-      explanation: "The atmosphere is the envelope of gases surrounding the earth or another planet.",
-      translation: "La atmósfera de la Tierra está cambiando.",
-      hint: "Gases around Earth."
-    },
-    topicName: "Vocabulary"
-  },
-
-  // 31-40: Vocabulary - Sustainability
-  {
-    id: "b2-u22-e31",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "We should use more renewable energy.",
-    content: {
-      title: "Sustainability",
-      instructions: "Choose the correct term.",
-      question: "[[We should use more ___ energy.|Deberíamos utilizar más energías renovables.]]",
-      options: ["fixed", "reusable", "renewable"],
-      correctAnswer: "renewable",
-      explanation: "Renewable energy is energy from a source that is not depleted when used.",
-      translation: "Deberíamos utilizar más energías renovables.",
-      hint: "Wind, solar, etc."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u22-e32",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "Solar panels are a great source of power.",
-    content: {
-      title: "Sustainability",
-      instructions: "Choose the correct term.",
-      question: "[[Solar panels are a great source of ___.|Los paneles solares son una gran fuente de energía.]]",
-      options: ["power", "strength", "force"],
-      correctAnswer: "power",
-      explanation: "Power is energy that is produced by mechanical, electrical, or other means.",
-      translation: "Los paneles solares son una gran fuente de energía.",
-      hint: "Energy/Electricity."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u22-e33",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "Sustainable development is key to the future.",
-    content: {
-      title: "Sustainability",
-      instructions: "Choose the correct term.",
-      question: "[[___ development is key to the future.|El desarrollo sostenible es clave para el futuro.]]",
-      options: ["Long", "Sustainable", "Strong"],
-      correctAnswer: "Sustainable",
-      explanation: "Sustainable development meets the needs of the present without compromising future generations.",
-      translation: "El desarrollo sostenible es clave para el futuro.",
-      hint: "Mantenible."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u22-e34",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "We need to reduce our carbon footprint.",
-    content: {
-      title: "Sustainability",
-      instructions: "Choose the correct term.",
-      question: "[[We need to reduce our carbon ___.|Necesitamos reducir nuestra huella de carbono.]]",
-      options: ["footprint", "step", "mark"],
-      correctAnswer: "footprint",
-      explanation: "A carbon footprint is the total amount of greenhouse gases produced by an individual, event, organization, or product.",
-      translation: "Necesitamos reducir nuestra huella de carbono.",
-      hint: "Environmental mark."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u22-e35",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "Organic farming is better for the soil.",
-    content: {
-      title: "Sustainability",
-      instructions: "Choose the correct term.",
-      question: "[[Organic farming is better for the ___.|La agricultura ecológica es mejor para el suelo.]]",
-      options: ["ground", "dirt", "soil"],
-      correctAnswer: "soil",
-      explanation: "Soil is the upper layer of earth in which plants grow.",
-      translation: "La agricultura ecológica es mejor para el suelo.",
-      hint: "The earth where plants grow."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u22-e36",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "Conservation efforts are vital for rare species.",
-    content: {
-      title: "Sustainability",
-      instructions: "Choose the correct term.",
-      question: "[[___ efforts are vital for rare species.|Los esfuerzos de conservación son vitales para las especies raras.]]",
-      options: ["Conservation", "Saving", "Protection"],
-      correctAnswer: "Conservation",
-      explanation: "Conservation is the preservation, protection, or restoration of the natural environment and of wildlife.",
-      translation: "Los esfuerzos de conservación son vitales para las especies raras.",
-      hint: "Preservation."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u22-e37",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "We should recycle and reuse materials.",
-    content: {
-      title: "Sustainability",
-      instructions: "Choose the correct term.",
-      question: "[[We should recycle and ___ materials.|Deberíamos reciclar y reutilizar los materiales.]]",
-      options: ["reuse", "redo", "remake"],
-      correctAnswer: "reuse",
-      explanation: "To reuse means to use something again or more than once.",
-      translation: "Deberíamos reciclar y reutilizar los materiales.",
-      hint: "Use again."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u22-e38",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "Composting is a good way to reduce waste.",
-    content: {
-      title: "Sustainability",
-      instructions: "Choose the correct term.",
-      question: "[[___ is a good way to reduce organic waste.|El compostaje es una buena forma de reducir los residuos.]]",
-      options: ["Composting", "Cleaning", "Burning"],
-      correctAnswer: "Composting",
-      explanation: "Composting is the process of recycling organic waste into fertilizer.",
-      translation: "El compostaje es una buena forma de reducir los residuos.",
-      hint: "Making fertilizer from waste."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u22-e39",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "We must protect our natural resources.",
-    content: {
-      title: "Sustainability",
-      instructions: "Choose the correct term.",
-      question: "[[We must protect our natural ___.|Debemos proteger nuestros recursos naturales.]]",
-      options: ["tools", "resources", "things"],
-      correctAnswer: "resources",
-      explanation: "Natural resources are materials or substances such as minerals, forests, water, and fertile land that occur in nature.",
-      translation: "Debemos proteger nuestros recursos naturales.",
-      hint: "Nature's materials."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u22-e40",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "Eco-friendly products are becoming more popular.",
-    content: {
-      title: "Sustainability",
-      instructions: "Choose the correct term.",
-      question: "[[Eco-friendly products are becoming more ___.|Los productos ecológicos son cada vez más populares.]]",
-      options: ["cheap", "easy", "popular"],
-      correctAnswer: "popular",
-      explanation: "Popular means liked, admired, or enjoyed by many people.",
-      translation: "Los productos ecológicos son cada vez más populares.",
-      hint: "Liked by many."
-    },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-22/e25.mp3",
+    "topicName": "Grammar"
   },
 
-  // 41-50: Word Formation
+  // 26-50: Multiple Choice (Vocabulary & Grammar - Professional Development)
   {
-    id: "b2-u22-e41",
-    type: "word-formation",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "Environmental damage is irreversible.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The ___ (ENVIRONMENT) damage is irreversible.|El daño ambiental es irreversible.]]",
-      correctAnswer: "environmental",
-      explanation: "Adjective form of 'environment'.",
-      translation: "El daño ambiental es irreversible.",
-      hint: "Related to environment."
+    "id": "b2-u22-e26",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "She told me that she had already applied for the position.",
+    "content": {
+      "title": "Solicitud enviada",
+      "instructions": "Elige la forma verbal correcta para el estilo indirecto.",
+      "questions": [
+        {
+          "question": "[[She|Ella]] [[told|me]] [[me|dijo]] [[that|que]] [[she|ya]] _______ _______ [[applied|había solicitado]] [[for|el]] [[the|puesto.]] [[position.| ]]",
+          "options": ["[[had already|había ya]]", "[[has already|ha ya]]", "[[already|ya]]"],
+          "correctAnswer": 0,
+          "explanation": "El pasado simple cambia a pasado perfecto en el estilo indirecto.",
+          "audio": "audio/b2/unit-22/e26.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-22/e26.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u22-e42",
-    type: "word-formation",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "We need to find sustainable solutions.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[We need to find ___ (SUSTAIN) solutions.|Necesitamos encontrar soluciones sostenibles.]]",
-      correctAnswer: "sustainable",
-      explanation: "Adjective form of 'sustain'.",
-      translation: "Necesitamos encontrar soluciones sostenibles.",
-      hint: "Adjective from sustain."
+    "id": "b2-u22-e27",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "A CV should highlight your key achievements and skills.",
+    "content": {
+      "title": "Currículum Vitae",
+      "instructions": "Elige el verbo que significa destacar algo importante.",
+      "questions": [
+        {
+          "question": "[[A|Un]] [[CV|CV]] [[should|debería]] _______ [[your|destacar]] [[key|tus]] [[achievements|logros]] [[and|y]] [[skills.|habilidades.]]",
+          "options": ["[[highlight|destacar]]", "[[hide|esconder]]", "[[ignore|ignorar]]"],
+          "correctAnswer": 0,
+          "explanation": "'Highlight' se usa para llamar la atención sobre los puntos fuertes.",
+          "audio": "audio/b2/unit-22/e27.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-22/e27.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u22-e43",
-    type: "word-formation",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "Pollution levels are high in cities.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[___ (POLLUTE) levels are high in cities.|Los niveles de contaminación son altos en las ciudades.]]",
-      correctAnswer: "Pollution",
-      explanation: "Noun form of 'pollute'.",
-      translation: "Los niveles de contaminación son altos en las ciudades.",
-      hint: "Noun from pollute."
+    "id": "b2-u22-e28",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "He asked where the nearest conference room was.",
+    "content": {
+      "title": "Sala de conferencias",
+      "instructions": "Elige el orden correcto de las palabras en una pregunta indirecta.",
+      "questions": [
+        {
+          "question": "[[He|Él]] [[asked|preguntó]] [[where|dónde]] _______ _______ _______ _______ _______.",
+          "options": ["[[the nearest conference room was|estaba la sala más cercana]]", "[[was the nearest conference room|estaba la sala más cercana (orden pregunta)]]", "[[is the nearest conference room|está la sala más cercana]]"],
+          "correctAnswer": 0,
+          "explanation": "En el estilo indirecto, las preguntas pierden el orden invertido y pasan a orden de frase afirmativa.",
+          "audio": "audio/b2/unit-22/e28.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-22/e28.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u22-e44",
-    type: "word-formation",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "The protection of wildlife is crucial.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The ___ (PROTECT) of wildlife is crucial.|La protección de la vida silvestre es crucial.]]",
-      correctAnswer: "protection",
-      explanation: "Noun form of 'protect'.",
-      translation: "La protección de la vida silvestre es crucial.",
-      hint: "Noun from protect."
+    "id": "b2-u22-e29",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "To resign is to leave a job permanently and formally.",
+    "content": {
+      "title": "Dimitir",
+      "instructions": "Elige el verbo correcto para dejar un trabajo.",
+      "questions": [
+        {
+          "question": "[[To| ]] _______ [[is|es]] [[to|dejar]] [[leave|un]] [[a|trabajo]] [[job|de forma]] [[permanently|permanente]] [[and|y]] [[formally.|formal.]]",
+          "options": ["[[resign|dimitir]]", "[[recruit|contratar]]", "[[promote|ascender]]"],
+          "correctAnswer": 0,
+          "explanation": "'Resign' es la acción voluntaria de dejar el empleo.",
+          "audio": "audio/b2/unit-22/e29.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-22/e29.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u22-e45",
-    type: "word-formation",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "The project was an ecological success.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The project was an ___ (ECOLOGY) success.|El proyecto fue un éxito ecológico.]]",
-      correctAnswer: "ecological",
-      explanation: "Adjective form of 'ecology'.",
-      translation: "El proyecto fue un éxito ecológico.",
-      hint: "Adjective from ecology."
+    "id": "b2-u22-e30",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "The recruiter asked whether I could start immediately.",
+    "content": {
+      "title": "Incorporación inmediata",
+      "instructions": "Elige el conector correcto para esta pregunta indirecta.",
+      "questions": [
+        {
+          "question": "[[The|El]] [[recruiter|reclutador]] [[asked|preguntó]] _______ [[I|si]] [[could|podía]] [[start|empezar]] [[immediately.|de inmediato.]]",
+          "options": ["[[whether|si]]", "[[weather|tiempo (clima)]]", "[[how|cómo]]"],
+          "correctAnswer": 0,
+          "explanation": "'Whether' se usa para reportar preguntas que se responden con sí o no.",
+          "audio": "audio/b2/unit-22/e30.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-22/e30.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u22-e46",
-    type: "word-formation",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "Deforestation is a major cause of CO2 rise.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[___ (DEFOREST) is a major cause of CO2 rise.|La deforestación es una de las principales causas del aumento del CO2.]]",
-      correctAnswer: "Deforestation",
-      explanation: "Noun form of 'deforest'.",
-      translation: "La deforestación es una de las principales causas del aumento del CO2.",
-      hint: "Noun from deforest."
+    "id": "b2-u22-e31",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "A salary expectation is the amount of money you hope to earn.",
+    "content": {
+      "title": "Expectativa salarial",
+      "instructions": "Elige el término para el sueldo deseado.",
+      "questions": [
+        {
+          "question": "[[A|Una]] _______ _______ [[is|es]] [[the|la]] [[amount|cantidad]] [[of|de]] [[money|dinero]] [[you|que]] [[hope|esperas]] [[to|ganar.]] [[earn.| ]]",
+          "options": ["[[salary expectation|expectativa salarial]]", "[[tax return|declaración de impuestos]]", "[[job security|seguridad laboral]]"],
+          "correctAnswer": 0,
+          "explanation": "Es común que te pregunten esto en una entrevista de trabajo.",
+          "audio": "audio/b2/unit-22/e31.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-22/e31.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u22-e47",
-    type: "word-formation",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "We are looking for renewable energy.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[We are looking for ___ (RENEW) energy.|Estamos buscando energía renovable.]]",
-      correctAnswer: "renewable",
-      explanation: "Adjective form of 'renew'.",
-      translation: "Estamos buscando energía renovable.",
-      hint: "Adjective from renew."
+    "id": "b2-u22-e32",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "He suggested meeting at 10 AM to discuss the results.",
+    "content": {
+      "title": "Reunión sugerida",
+      "instructions": "Elige la forma verbal adecuada tras 'suggest'.",
+      "questions": [
+        {
+          "question": "[[He|Él]] [[suggested|sugirió]] _______ [[at|quedar a]] [[10|las]] [[AM|10]] [[to|para]] [[discuss|discutir]] [[the|los]] [[results.|resultados.]]",
+          "options": ["[[meeting|quedar / reunirse]]", "[[to meet|quedar]]", "[[meet|quedar]]"],
+          "correctAnswer": 0,
+          "explanation": "'Suggest' nunca va seguido de infinitivo con 'to'. Se usa gerundio o 'that' clause.",
+          "audio": "audio/b2/unit-22/e32.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-22/e32.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u22-e48",
-    type: "word-formation",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "The awareness of climate change is high.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The ___ (AWARE) of climate change is high.|La conciencia sobre el cambio climático es alta.]]",
-      correctAnswer: "awareness",
-      explanation: "Noun form of 'aware'.",
-      translation: "La conciencia sobre el cambio climático es alta.",
-      hint: "Noun from aware."
+    "id": "b2-u22-e33",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "Reliability is a highly valued trait in any professional environment.",
+    "content": {
+      "title": "Fiabilidad",
+      "instructions": "Elige el sustantivo que significa ser digno de confianza.",
+      "questions": [
+        {
+          "question": "_______ [[is|La fiabilidad]] [[a|es]] [[highly|un]] [[valued|rasgo]] [[trait|muy]] [[in|valorado]] [[any|en]] [[professional|cualquier]] [[environment.|entorno profesional.]]",
+          "options": ["[[Reliability|Fiabilidad]]", "[[Anxiety|Ansiedad]]", "[[Laziness|Pereza]]"],
+          "correctAnswer": 0,
+          "explanation": "'Reliability' viene del adjetivo 'reliable'.",
+          "audio": "audio/b2/unit-22/e33.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-22/e33.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u22-e49",
-    type: "word-formation",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "The survival of the planet depends on us.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The ___ (SURVIVE) of the planet depends on us.|La supervivencia del planeta depende de nosotros.]]",
-      correctAnswer: "survival",
-      explanation: "Noun form of 'survive'.",
-      translation: "La supervivencia del planeta depende de nosotros.",
-      hint: "Noun from survive."
+    "id": "b2-u22-e34",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "The assistant reminded the CEO that the flight had been delayed.",
+    "content": {
+      "title": "Vuelo retrasado",
+      "instructions": "Elige la forma verbal correcta para reportar un hecho pasado.",
+      "questions": [
+        {
+          "question": "[[The|El]] [[assistant|asistente]] [[reminded|le]] [[the|recordó]] [[CEO|al director]] [[that|que]] [[the|el]] [[flight|vuelo]] _______ _______ _______ [[delayed.|había sido retrasado.]]",
+          "options": ["[[had been|había sido]]", "[[was|fue / era]]", "[[has been|ha sido]]"],
+          "correctAnswer": 0,
+          "explanation": "El pasado simple o el presente perfecto cambian a pasado perfecto en estilo indirecto.",
+          "audio": "audio/b2/unit-22/e34.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-22/e34.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u22-e50",
-    type: "word-formation",
-    level: "B2",
-    topic: "Climate Change",
-    difficulty: "medium",
-    transcript: "He is a well-known conservation expert.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[He is a well-known ___ (CONSERVE) expert.|Es un conocido experto en conservación.]]",
-      correctAnswer: "conservation",
-      explanation: "Noun form of 'conserve'.",
-      translation: "Es un conocido experto en conservación.",
-      hint: "Noun from conserve."
+    "id": "b2-u22-e35",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "A headhunter is a recruiter who seeks out high-level professionals.",
+    "content": {
+      "title": "Cazatalentos",
+      "instructions": "Elige el término para el reclutador que busca perfiles específicos.",
+      "questions": [
+        {
+          "question": "[[A|Un]] _______ [[is|es]] [[a|un]] [[recruiter|reclutador]] [[who|que]] [[seeks|busca]] [[out| ]] [[high-level|profesionales de]] [[professionals.|alto nivel.]]",
+          "options": ["[[headhunter|cazatalentos]]", "[[trainee|aprendiz]]", "[[competitor|competidor]]"],
+          "correctAnswer": 0,
+          "explanation": "'Headhunter' literalmente significa 'cazador de cabezas'.",
+          "audio": "audio/b2/unit-22/e35.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-22/e35.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u22-e36",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "He denied that he was responsible for the error.",
+    "content": {
+      "title": "Negar responsabilidad",
+      "instructions": "Elige la estructura correcta con 'deny'.",
+      "questions": [
+        {
+          "question": "[[He|Él]] [[denied|negó]] _______ [[he|que]] [[was|fuera]] [[responsible|responsable]] [[for|del]] [[the|error.]] [[error.| ]]",
+          "options": ["[[that|que]]", "[[what|qué]]", "[[whether|si]]"],
+          "correctAnswer": 0,
+          "explanation": "'Deny' puede ir seguido de una cláusula con 'that'.",
+          "audio": "audio/b2/unit-22/e36.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-22/e36.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u22-e37",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "A redundancy package is compensation given when a job is cut.",
+    "content": {
+      "title": "Paquete de indemnización",
+      "instructions": "Elige el término para la compensación por despido.",
+      "questions": [
+        {
+          "question": "[[A|Un]] _______ _______ [[is|es]] [[compensation|dinero]] [[given|dado]] [[when|cuando]] [[a|un]] [[job|puesto]] [[is|es]] [[cut.|eliminado.]]",
+          "options": ["[[redundancy package|paquete de indemnización]]", "[[bonus scheme|sistema de bonos]]", "[[pension fund|fondo de pensiones]]"],
+          "correctAnswer": 0,
+          "explanation": "'Redundancy' se refiere al despido por razones económicas o estructurales.",
+          "audio": "audio/b2/unit-22/e37.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-22/e37.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u22-e38",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "She asked whether I had finished the task yet.",
+    "content": {
+      "title": "Tarea terminada",
+      "instructions": "Elige la forma verbal correcta para el estilo indirecto.",
+      "questions": [
+        {
+          "question": "[[She|Ella]] [[asked|preguntó]] [[whether|si]] [[I|yo]] _______ _______ [[the|había terminado]] [[task|la]] [[yet.|tarea ya.]]",
+          "options": ["[[had finished|había terminado]]", "[[have finished|he terminado]]", "[[finish|termino]]"],
+          "correctAnswer": 0,
+          "explanation": "El presente perfecto 'have finished' cambia a pasado perfecto 'had finished'.",
+          "audio": "audio/b2/unit-22/e38.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-22/e38.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u22-e39",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "The glass ceiling is an invisible barrier to advancement for women and minorities.",
+    "content": {
+      "title": "Techo de cristal",
+      "instructions": "Elige la metáfora para la barrera invisible de ascenso.",
+      "questions": [
+        {
+          "question": "[[The|El]] _______ _______ [[is|es]] [[an|una]] [[invisible|barrera]] [[barrier|invisible]] [[to|al]] [[advancement|progreso]] [[for|de]] [[women.|mujeres.]]",
+          "options": ["[[glass ceiling|techo de cristal]]", "[[open door|puerta abierta]]", "[[safety net|red de seguridad]]"],
+          "correctAnswer": 0,
+          "explanation": "'Glass ceiling' impide que ciertos grupos lleguen a los puestos más altos.",
+          "audio": "audio/b2/unit-22/e39.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-22/e39.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u22-e40",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "They congratulated me on getting the scholarship.",
+    "content": {
+      "title": "Beca conseguida",
+      "instructions": "Elige la preposición correcta tras 'congratulate'.",
+      "questions": [
+        {
+          "question": "[[They|Ellos]] [[congratulated|me]] [[me|felicitaron]] _______ [[getting|por]] [[the|conseguir]] [[scholarship.|la beca.]]",
+          "options": ["[[on|por]]", "[[for|por]]", "[[about|sobre]]"],
+          "correctAnswer": 0,
+          "explanation": "'Congratulate someone ON something'.",
+          "audio": "audio/b2/unit-22/e40.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-22/e40.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u22-e41",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "A freelancer is a person who works independently rather than for an employer.",
+    "content": {
+      "title": "Autónomo / Freelance",
+      "instructions": "Elige el término para quien trabaja por su cuenta.",
+      "questions": [
+        {
+          "question": "[[A|Un]] _______ [[is|es]] [[a|una]] [[person|persona]] [[who|que]] [[works|trabaja]] [[independently|independientemente.]]",
+          "options": ["[[freelancer|autónomo]]", "[[employee|empleado]]", "[[intern|pasante]]"],
+          "correctAnswer": 0,
+          "explanation": "'Freelancer' gestiona sus propios clientes y horarios.",
+          "audio": "audio/b2/unit-22/e41.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-22/e41.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u22-e42",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "The manager apologized for being late to the interview.",
+    "content": {
+      "title": "Disculpa formal",
+      "instructions": "Elige la estructura correcta tras 'apologize'.",
+      "questions": [
+        {
+          "question": "[[The|El]] [[manager|gerente]] [[apologized|se]] _______ _______ [[late|disculpó por]] [[to|llegar]] [[the|tarde]] [[interview.|a la entrevista.]]",
+          "options": ["[[for being|por ser / estar]]", "[[to be|por ser]]", "[[that he is|que es]]"],
+          "correctAnswer": 0,
+          "explanation": "'Apologize FOR + -ing'.",
+          "audio": "audio/b2/unit-22/e42.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-22/e42.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u22-e43",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "To outsource is to contract work to an outside supplier.",
+    "content": {
+      "title": "Subcontratación",
+      "instructions": "Elige el verbo que significa contratar servicios externos.",
+      "questions": [
+        {
+          "question": "[[To| ]] _______ [[is|es]] [[to|contratar]] [[contract|trabajo]] [[work|con]] [[to|un]] [[an|proveedor]] [[outside|externo.]] [[supplier.| ]]",
+          "options": ["[[outsource|subcontratar]]", "[[automate|automatizar]]", "[[centralize|centralizar]]"],
+          "correctAnswer": 0,
+          "explanation": "'Outsourcing' permite a las empresas centrarse en su actividad principal.",
+          "audio": "audio/b2/unit-22/e43.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-22/e43.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u22-e44",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "He warned us that the market was becoming very competitive.",
+    "content": {
+      "title": "Mercado competitivo",
+      "instructions": "Elige la forma verbal para reportar una situación en curso.",
+      "questions": [
+        {
+          "question": "[[He|Él]] [[warned|nos]] [[us|advirtió]] [[that|que]] [[the|el]] [[market|mercado]] _______ _______ [[very|se estaba volviendo]] [[competitive.|muy competitivo.]]",
+          "options": ["[[was becoming|se estaba volviendo]]", "[[is becoming|se está volviendo]]", "[[has become|se ha vuelto]]"],
+          "correctAnswer": 0,
+          "explanation": "El presente continuo cambia a pasado continuo en el estilo indirecto.",
+          "audio": "audio/b2/unit-22/e44.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-22/e44.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u22-e45",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "A probation period is a trial period for new employees.",
+    "content": {
+      "title": "Periodo de prueba",
+      "instructions": "Elige el término para el tiempo inicial de prueba.",
+      "questions": [
+        {
+          "question": "[[A|Un]] _______ _______ [[is|es]] [[a|un]] [[trial|periodo]] [[period|de prueba]] [[for|para]] [[new|nuevos]] [[employees.|empleados.]]",
+          "options": ["[[probation period|periodo de prueba]]", "[[notice period|periodo de preaviso]]", "[[sick leave|baja por enfermedad]]"],
+          "correctAnswer": 0,
+          "explanation": "Durante el 'probation period', ambas partes evalúan si el puesto es adecuado.",
+          "audio": "audio/b2/unit-22/e45.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-22/e45.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u22-e46",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "She asked me what I would do if I were her.",
+    "content": {
+      "title": "Consejo indirecto",
+      "instructions": "Elige la forma verbal correcta para reportar una hipótesis.",
+      "questions": [
+        {
+          "question": "[[She|Ella]] [[asked|me]] [[me|preguntó]] [[what|qué]] [[I| ]] _______ _______ [[if|si]] [[I|fuera]] [[were|ella.]] [[her.| ]]",
+          "options": ["[[would do|haría]]", "[[will do|haré]]", "[[did|hice]]"],
+          "correctAnswer": 0,
+          "explanation": "Los condicionales de tipo 2 suelen mantenerse igual en estilo indirecto.",
+          "audio": "audio/b2/unit-22/e46.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-22/e46.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u22-e47",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "Workplace diversity fosters a more innovative and creative environment.",
+    "content": {
+      "title": "Diversidad laboral",
+      "instructions": "Elige el verbo que significa fomentar o promover.",
+      "questions": [
+        {
+          "question": "[[Workplace|La diversidad]] [[diversity|laboral]] _______ [[a|fomenta]] [[more|un entorno]] [[innovative|más]] [[and|innovador]] [[creative|y]] [[environment.|creativo.]]",
+          "options": ["[[fosters|fomenta]]", "[[prevents|impide]]", "[[limits|limita]]"],
+          "correctAnswer": 0,
+          "explanation": "'Foster' se usa para indicar que algo ayuda al desarrollo de otra cosa positiva.",
+          "audio": "audio/b2/unit-22/e47.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-22/e47.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u22-e48",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "The consultant suggested that the company restructure its operations.",
+    "content": {
+      "title": "Restructuración",
+      "instructions": "Elige la forma verbal de subjuntivo tras 'suggest'.",
+      "questions": [
+        {
+          "question": "[[The|El]] [[consultant|consultor]] [[suggested|sugirió]] [[that|que]] [[the|la]] [[company|empresa]] _______ [[its|sus]] [[operations.|operaciones.]]",
+          "options": ["[[restructure|reestructure]]", "[[restructures|reestructura]]", "[[to restructure|reestructurar]]"],
+          "correctAnswer": 0,
+          "explanation": "En inglés formal, se usa el infinitivo sin 'to' (subjuntivo) tras 'suggest that'.",
+          "audio": "audio/b2/unit-22/e48.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-22/e48.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u22-e49",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "A vocational course provides skills for a specific job or trade.",
+    "content": {
+      "title": "Curso de formación profesional",
+      "instructions": "Elige el adjetivo que describe la formación técnica.",
+      "questions": [
+        {
+          "question": "[[A|Un]] _______ [[course|curso]] [[provides|proporciona]] [[skills|habilidades]] [[for|para]] [[a|un]] [[specific|oficio]] [[job.|específico.]]",
+          "options": ["[[vocational|profesional / vocacional]]", "[[academic|académico]]", "[[optional|opcional]]"],
+          "correctAnswer": 0,
+          "explanation": "'Vocational training' se enfoca en habilidades prácticas para el mercado laboral.",
+          "audio": "audio/b2/unit-22/e49.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-22/e49.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u22-e50",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Professional Development",
+    "difficulty": "medium",
+    "transcript": "The HR manager asked me how I had heard about the opening.",
+    "content": {
+      "title": "Puesto vacante",
+      "instructions": "Elige la forma verbal correcta para reportar una pregunta sobre el pasado.",
+      "questions": [
+        {
+          "question": "[[The|El]] [[HR|responsable]] [[manager|de RRHH]] [[asked|me]] [[me|preguntó]] [[how|cómo]] [[I|yo]] _______ _______ [[about|me había]] [[the|enterado]] [[opening.|de la vacante.]]",
+          "options": ["[[had heard|había oído / enterado]]", "[[have heard|he oído]]", "[[hear|oigo]]"],
+          "correctAnswer": 0,
+          "explanation": "El pasado simple 'heard' cambia a pasado perfecto 'had heard'.",
+          "audio": "audio/b2/unit-22/e50.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-22/e50.mp3",
+    "topicName": "Grammar"
   }
 ];

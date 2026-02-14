@@ -1,953 +1,1313 @@
 import { Exercise } from "@/types/course";
 
 export const UNIT_25_EXERCISES: Exercise[] = [
-  // 1-10: Grammar - Nominal Clauses (That-clauses)
+  // 1-25: Sentence Building (Grammar & Vocabulary - Environment & Nature)
   {
-    id: "b2-u25-e1",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "I believe that everyone should be honest.",
-    content: {
-      title: "Nominal Clauses",
-      instructions: "Choose the correct word to complete the nominal clause.",
-      question: "[[I believe ___ everyone should be honest.|Creo que todo el mundo debería ser honesto.]]",
-      options: ["what", "which", "that"],
-      correctAnswer: "that",
-      explanation: "'That' introduces a noun clause after verbs like believe, think, say.",
-      translation: "Creo que todo el mundo debería ser honesto.",
-      hint: "Connects a belief."
+    "id": "b2-u25-e1",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "Solar energy, which is renewable, is becoming more affordable.",
+    "content": {
+      "title": "Energía solar",
+      "instructions": "Ordena las palabras usando una cláusula relativa no explicativa.",
+      "correctSentence": "[[Solar|La energía]] [[energy,|solar,]] [[which|que]] [[is|es]] [[renewable,|renovable,]] [[is|se está]] [[becoming|volviendo]] [[more|más]] [[affordable.|asequible.]]",
+      "words": [
+        "[[energy,|solar,]]",
+        "[[renewable,|renovable,]]",
+        "[[affordable.|asequible.]]",
+        "[[is|se está]]",
+        "[[Solar|La energía]]",
+        "[[becoming|volviendo]]",
+        "[[which|que]]",
+        "[[more|más]]",
+        "[[is|es]]"
+      ],
+      "explanation": "Las 'non-defining relative clauses' van entre comas y añaden información extra.",
+      "audio": "audio/b2/unit-25/e1.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-25/e1.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u25-e2",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "It is important that we act ethically.",
-    content: {
-      title: "Nominal Clauses",
-      instructions: "Choose the correct word.",
-      question: "[[It is important ___ we act ethically.|Es importante que actuemos éticamente.]]",
-      options: ["how", "that", "if"],
-      correctAnswer: "that",
-      explanation: "'That' clauses often follow 'It is + adjective'.",
-      translation: "Es importante que actuemos éticamente.",
-      hint: "Connects an importance."
+    "id": "b2-u25-e2",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "Deforestation leads to the loss of biodiversity and habitat destruction.",
+    "content": {
+      "title": "Deforestación",
+      "instructions": "Ordena las palabras para hablar de problemas ambientales.",
+      "correctSentence": "[[Deforestation|La deforestación]] [[leads|conduce]] [[to|a]] [[the|la]] [[loss|pérdida]] [[of|de]] [[biodiversity|biodiversidad]] [[and|y]] [[habitat|destrucción del]] [[destruction.|hábitat.]]",
+      "words": [
+        "[[leads|conduce]]",
+        "[[biodiversity|biodiversidad]]",
+        "[[habitat|destrucción del]]",
+        "[[Deforestation|La deforestación]]",
+        "[[destruction.|hábitat.]]",
+        "[[the|la]]",
+        "[[loss|pérdida]]",
+        "[[and|y]]",
+        "[[of|de]]",
+        "[[to|a]]"
+      ],
+      "explanation": "'Biodiversity' se refiere a la variedad de vida en un ecosistema.",
+      "audio": "audio/b2/unit-25/e2.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-25/e2.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u25-e3",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "The fact that he lied is the main issue.",
-    content: {
-      title: "Nominal Clauses",
-      instructions: "Choose the correct word.",
-      question: "[[The fact ___ he lied is the main issue.|El hecho de que mintiera es el problema principal.]]",
-      options: ["whose", "that", "which"],
-      correctAnswer: "that",
-      explanation: "'The fact that' is a common way to use a noun clause as a subject.",
-      translation: "El hecho de que mintiera es el problema principal.",
-      hint: "Connects a fact."
+    "id": "b2-u25-e3",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "The scientists whose research focused on glaciers won the prize.",
+    "content": {
+      "title": "Científicos y glaciares",
+      "instructions": "Ordena las palabras usando el pronombre relativo posesivo 'whose'.",
+      "correctSentence": "[[The|Los]] [[scientists|científicos]] [[whose|cuya]] [[research|investigación]] [[focused|se centró]] [[on|en los]] [[glaciers|glaciares]] [[won|ganaron]] [[the|el]] [[prize.|premio.]]",
+      "words": [
+        "[[scientists|científicos]]",
+        "[[glaciers|glaciares]]",
+        "[[prize.|premio.]]",
+        "[[focused|se centró]]",
+        "[[The|Los]]",
+        "[[research|investigación]]",
+        "[[whose|cuya]]",
+        "[[on|en los]]",
+        "[[won|ganaron]]",
+        "[[the|el]]"
+      ],
+      "explanation": "'Whose' indica posesión (de los cuales / cuya).",
+      "audio": "audio/b2/unit-25/e3.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-25/e3.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u25-e4",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "I hope that you understand the situation.",
-    content: {
-      title: "Nominal Clauses",
-      instructions: "Choose the correct word.",
-      question: "[[I hope ___ you understand the situation.|Espero que entiendas la situación.]]",
-      options: ["what", "where", "that"],
-      correctAnswer: "that",
-      explanation: "Using 'that' to introduce the object of the verb 'hope'.",
-      translation: "Espero que entiendas la situación.",
-      hint: "Connects a hope."
+    "id": "b2-u25-e4",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "Sustainable agriculture minimizes the use of harmful pesticides.",
+    "content": {
+      "title": "Agricultura sostenible",
+      "instructions": "Ordena las palabras para hablar de prácticas agrícolas.",
+      "correctSentence": "[[Sustainable|La agricultura]] [[agriculture|sostenible]] [[minimizes|minimiza]] [[the|el]] [[use|uso]] [[of|de]] [[harmful|pesticidas]] [[pesticides.|dañinos.]]",
+      "words": [
+        "[[agriculture|sostenible]]",
+        "[[use|uso]]",
+        "[[pesticides.|dañinos.]]",
+        "[[minimizes|minimiza]]",
+        "[[Sustainable|La agricultura]]",
+        "[[harmful|pesticidas]]",
+        "[[the|el]]",
+        "[[of|de]]"
+      ],
+      "explanation": "'Harmful' significa que causa daño o perjuicio.",
+      "audio": "audio/b2/unit-25/e4.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-25/e4.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u25-e5",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "He suggested that we should discuss it further.",
-    content: {
-      title: "Nominal Clauses",
-      instructions: "Choose the correct word.",
-      question: "[[He suggested ___ we should discuss it further.|Sugirió que deberíamos discutirlo más a fondo.]]",
-      options: ["how", "that", "what"],
-      correctAnswer: "that",
-      explanation: "Introducing a suggestion.",
-      translation: "Sugirió que deberíamos discutirlo más a fondo.",
-      hint: "Connects a suggestion."
+    "id": "b2-u25-e5",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "This is the national park where many endangered species live.",
+    "content": {
+      "title": "Especies en peligro",
+      "instructions": "Ordena las palabras usando el relativo de lugar 'where'.",
+      "correctSentence": "[[This|Este]] [[is|es]] [[the|el]] [[national|parque]] [[park|nacional]] [[where|donde]] [[many|muchas]] [[endangered|especies]] [[species|en peligro]] [[live.|viven.]]",
+      "words": [
+        "[[national|parque]]",
+        "[[where|donde]]",
+        "[[live.|viven.]]",
+        "[[endangered|especies]]",
+        "[[This|Este]]",
+        "[[species|en peligro]]",
+        "[[is|es]]",
+        "[[the|el]]",
+        "[[park|nacional]]",
+        "[[many|muchas]]"
+      ],
+      "explanation": "'Endangered species' son animales o plantas en riesgo de extinción.",
+      "audio": "audio/b2/unit-25/e5.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-25/e5.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u25-e6",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "Is it true that they are closing?",
-    content: {
-      title: "Nominal Clauses",
-      instructions: "Choose the correct word.",
-      question: "[[Is it true ___ they are closing?|¿Es verdad que van a cerrar?]]",
-      options: ["whose", "that", "which"],
-      correctAnswer: "that",
-      explanation: "Introducing a clause after 'true'.",
-      translation: "¿Es verdad que van a cerrar?",
-      hint: "Connects a truth claim."
+    "id": "b2-u25-e6",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "Carbon footprint is the amount of greenhouse gases we produce.",
+    "content": {
+      "title": "Huella de carbono",
+      "instructions": "Ordena las palabras para definir un concepto ecológico.",
+      "correctSentence": "[[Carbon|La huella]] [[footprint|de carbono]] [[is|es]] [[the|la]] [[amount|cantidad]] [[of|de]] [[greenhouse|gases de]] [[gases|efecto]] [[we|invernadero]] [[produce.|que producimos.]]",
+      "words": [
+        "[[footprint|de carbono]]",
+        "[[amount|cantidad]]",
+        "[[produce.|que producimos.]]",
+        "[[greenhouse|gases de]]",
+        "[[Carbon|La huella]]",
+        "[[gases|efecto]]",
+        "[[is|es]]",
+        "[[we|invernadero]]",
+        "[[the|la]]",
+        "[[of|de]]"
+      ],
+      "explanation": "'Greenhouse gases' atrapan el calor en la atmósfera.",
+      "audio": "audio/b2/unit-25/e6.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-25/e6.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u25-e7",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "I noticed that the price was wrong.",
-    content: {
-      title: "Nominal Clauses",
-      instructions: "Choose the correct word.",
-      question: "[[I noticed ___ the price was wrong.|Me di cuenta de que el precio estaba mal.]]",
-      options: ["what", "how", "that"],
-      correctAnswer: "that",
-      explanation: "Introducing what was noticed.",
-      translation: "Me di cuenta de que el precio estaba mal.",
-      hint: "Connects an observation."
+    "id": "b2-u25-e7",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "The policy, which was approved yesterday, aims to reduce emissions.",
+    "content": {
+      "title": "Reducción de emisiones",
+      "instructions": "Ordena las palabras usando una cláusula relativa no explicativa.",
+      "correctSentence": "[[The|La]] [[policy,|política,]] [[which|que]] [[was|fue]] [[approved|aprobada]] [[yesterday,|ayer,]] [[aims|aspira]] [[to|a]] [[reduce|reducir las]] [[emissions.|emisiones.]]",
+      "words": [
+        "[[policy,|política,]]",
+        "[[approved|aprobada]]",
+        "[[emissions.|emisiones.]]",
+        "[[aims|aspira]]",
+        "[[The|La]]",
+        "[[reduce|reducir las]]",
+        "[[which|que]]",
+        "[[yesterday,|ayer,]]",
+        "[[was|fue]]",
+        "[[to|a]]"
+      ],
+      "explanation": "Nuevamente, 'which' añade información sobre la política.",
+      "audio": "audio/b2/unit-25/e7.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-25/e7.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u25-e8",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "It's a pity that he couldn't come.",
-    content: {
-      title: "Nominal Clauses",
-      instructions: "Choose the correct word.",
-      question: "[[It's a pity ___ he couldn't come.|Es una pena que no pudiera venir.]]",
-      options: ["what", "that", "which"],
-      correctAnswer: "that",
-      explanation: "Introducing a clause after 'It's a pity'.",
-      translation: "Es una pena que no pudiera venir.",
-      hint: "Connects a regret."
+    "id": "b2-u25-e8",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "Eco-friendly products are designed to have little impact on the environment.",
+    "content": {
+      "title": "Productos ecológicos",
+      "instructions": "Ordena las palabras para hablar de consumo responsable.",
+      "correctSentence": "[[Eco-friendly|Los productos]] [[products|ecológicos]] [[are|están]] [[designed|diseñados]] [[to|para]] [[have|tener]] [[little|poco]] [[impact|impacto]] [[on|en]] [[the|el]] [[environment.|medio ambiente.]]",
+      "words": [
+        "[[products|ecológicos]]",
+        "[[designed|diseñados]]",
+        "[[environment.|medio ambiente.]]",
+        "[[have|tener]]",
+        "[[Eco-friendly|Los productos]]",
+        "[[impact|impacto]]",
+        "[[are|están]]",
+        "[[little|poco]]",
+        "[[the|el]]",
+        "[[on|en]]",
+        "[[to|para]]"
+      ],
+      "explanation": "'Eco-friendly' significa respetuoso con el medio ambiente.",
+      "audio": "audio/b2/unit-25/e8.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-25/e8.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u25-e9",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "I'm sure that we will find a solution.",
-    content: {
-      title: "Nominal Clauses",
-      instructions: "Choose the correct word.",
-      question: "[[I'm sure ___ we will find a solution.|Estoy seguro de que encontraremos una solución.]]",
-      options: ["that", "what", "who"],
-      correctAnswer: "that",
-      explanation: "Introducing a clause after 'sure'.",
-      translation: "Estoy seguro de que encontraremos una solución.",
-      hint: "Connects a certainty."
+    "id": "b2-u25-e9",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "That is the chemical factory whose waste polluted the river.",
+    "content": {
+      "title": "Contaminación del río",
+      "instructions": "Ordena las palabras usando el relativo posesivo 'whose'.",
+      "correctSentence": "[[That|Esa]] [[is|es]] [[the|la]] [[chemical|fábrica]] [[factory|química]] [[whose|cuyos]] [[waste|residuos]] [[polluted|contaminaron]] [[the|el]] [[river.|río.]]",
+      "words": [
+        "[[chemical|fábrica]]",
+        "[[waste|residuos]]",
+        "[[river.|río.]]",
+        "[[polluted|contaminaron]]",
+        "[[That|Esa]]",
+        "[[whose|cuyos]]",
+        "[[is|es]]",
+        "[[factory|química]]",
+        "[[the|la]]",
+        "[[the|el]]"
+      ],
+      "explanation": "'Waste' en este contexto se refiere a los desechos industriales.",
+      "audio": "audio/b2/unit-25/e9.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-25/e9.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u25-e10",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "He denied that he had stolen the money.",
-    content: {
-      title: "Nominal Clauses",
-      instructions: "Choose the correct word.",
-      question: "[[He denied ___ he had stolen the money.|Negó que hubiera robado el dinero.]]",
-      options: ["that", "whether", "what"],
-      correctAnswer: "that",
-      explanation: "Introducing a denial.",
-      translation: "Negó que hubiera robado el dinero.",
-      hint: "Connects a denial."
+    "id": "b2-u25-e10",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "Renewable energy sources like wind and water are inexhaustible.",
+    "content": {
+      "title": "Energías inagotables",
+      "instructions": "Ordena las palabras para hablar de recursos renovables.",
+      "correctSentence": "[[Renewable|Las fuentes]] [[energy|de energía]] [[sources|renovable]] [[like|como]] [[wind|el viento]] [[and|y]] [[water|el agua]] [[are|son]] [[inexhaustible.|inagotables.]]",
+      "words": [
+        "[[energy|de energía]]",
+        "[[wind|el viento]]",
+        "[[inexhaustible.|inagotables.]]",
+        "[[like|como]]",
+        "[[Renewable|Las fuentes]]",
+        "[[water|el agua]]",
+        "[[sources|renovable]]",
+        "[[are|son]]",
+        "[[and|y]]"
+      ],
+      "explanation": "'Inexhaustible' significa que no se puede agotar.",
+      "audio": "audio/b2/unit-25/e10.mp3"
     },
-    topicName: "Grammar"
-  },
-
-  // 11-20: Grammar - Nominal Clauses (Wh-clauses)
-  {
-    id: "b2-u25-e11",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "hard",
-    transcript: "I don't know what he wants.",
-    content: {
-      title: "Nominal Clauses",
-      instructions: "Choose the correct wh-word.",
-      question: "[[I don't know ___ (what) he wants.|No sé qué quiere.]]",
-      options: ["that", "what", "which"],
-      correctAnswer: "what",
-      explanation: "'What' introduces a noun clause acting as the object.",
-      translation: "No sé qué quiere.",
-      hint: "The thing that."
-    },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-25/e10.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u25-e12",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "hard",
-    transcript: "Do you know where they live?",
-    content: {
-      title: "Nominal Clauses",
-      instructions: "Choose the correct wh-word.",
-      question: "[[Do you know ___ (where) they live?|¿Sabes dónde viven?]]",
-      options: ["when", "how", "where"],
-      correctAnswer: "where",
-      explanation: "'Where' introduces a noun clause about location.",
-      translation: "¿Sabes dónde viven?",
-      hint: "The place that."
+    "id": "b2-u25-e11",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "Do you remember the time when the drought lasted for months?",
+    "content": {
+      "title": "Sequía prolongada",
+      "instructions": "Ordena las palabras usando el relativo de tiempo 'when'.",
+      "correctSentence": "[[Do|¿Te]] [[you|acuerdas]] [[remember|de]] [[the|la]] [[time|vez]] [[when|en que]] [[the|la]] [[drought|sequía]] [[lasted|duró]] [[for|durante]] [[months?|meses?]]",
+      "words": [
+        "[[you|acuerdas]]",
+        "[[the|la]]",
+        "[[months?|meses?]]",
+        "[[lasted|duró]]",
+        "[[Do|¿Te]]",
+        "[[drought|sequía]]",
+        "[[remember|de]]",
+        "[[when|en que]]",
+        "[[the|la]]",
+        "[[for|durante]]",
+        "[[time|vez]]"
+      ],
+      "explanation": "'Drought' es un periodo largo sin lluvia.",
+      "audio": "audio/b2/unit-25/e11.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-25/e11.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u25-e13",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "hard",
-    transcript: "I wonder why she is late.",
-    content: {
-      title: "Nominal Clauses",
-      instructions: "Choose the correct wh-word.",
-      question: "[[I wonder ___ (why) she is late.|Me pregunto por qué llega tarde.]]",
-      options: ["how", "why", "that"],
-      correctAnswer: "why",
-      explanation: "'Why' introduces a noun clause about reason.",
-      translation: "Me pregunto por qué llega tarde.",
-      hint: "The reason that."
+    "id": "b2-u25-e12",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "Composting is an effective way to recycle organic waste at home.",
+    "content": {
+      "title": "Compostaje",
+      "instructions": "Ordena las palabras para hablar de reciclaje doméstico.",
+      "correctSentence": "[[Composting|El compostaje]] [[is|es]] [[an|una]] [[effective|forma]] [[way|eficaz]] [[to|de]] [[recycle|reciclar]] [[organic|residuos]] [[waste|orgánicos]] [[at|en]] [[home.|casa.]]",
+      "words": [
+        "[[is|es]]",
+        "[[effective|forma]]",
+        "[[home.|casa.]]",
+        "[[recycle|reciclar]]",
+        "[[Composting|El compostaje]]",
+        "[[waste|orgánicos]]",
+        "[[way|eficaz]]",
+        "[[organic|residuos]]",
+        "[[an|una]]",
+        "[[at|en]]",
+        "[[to|de]]"
+      ],
+      "explanation": "'Composting' convierte restos de comida en abono.",
+      "audio": "audio/b2/unit-25/e12.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-25/e12.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u25-e14",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "hard",
-    transcript: "Can you tell me how to get there?",
-    content: {
-      title: "Nominal Clauses",
-      instructions: "Choose the correct wh-word.",
-      question: "[[Can you tell me ___ (how) to get there?|¿Puedes decirme cómo llegar allí?]]",
-      options: ["why", "where", "how"],
-      correctAnswer: "how",
-      explanation: "'How' introduces a noun clause about manner or method.",
-      translation: "¿Puedes decirme cómo llegar allí?",
-      hint: "The way that."
+    "id": "b2-u25-e13",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "The species that were affected by the oil spill are recovering.",
+    "content": {
+      "title": "Derrame de petróleo",
+      "instructions": "Ordena las palabras usando una cláusula relativa explicativa.",
+      "correctSentence": "[[The|Las]] [[species|especies]] [[that|que]] [[were|fueron]] [[affected|afectadas]] [[by|por]] [[the|el]] [[oil|derrame de]] [[spill|petróleo]] [[are|se están]] [[recovering.|recuperando.]]",
+      "words": [
+        "[[species|especies]]",
+        "[[were|fueron]]",
+        "[[recovering.|recuperando.]]",
+        "[[the|el]]",
+        "[[The|Las]]",
+        "[[oil|derrame de]]",
+        "[[that|que]]",
+        "[[affected|afectadas]]",
+        "[[are|se están]]",
+        "[[spill|petróleo]]",
+        "[[by|por]]"
+      ],
+      "explanation": "'Oil spill' es un desastre ambiental causado por el vertido de crudo al mar.",
+      "audio": "audio/b2/unit-25/e13.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-25/e13.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u25-e15",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "hard",
-    transcript: "I remember when we first met.",
-    content: {
-      title: "Nominal Clauses",
-      instructions: "Choose the correct wh-word.",
-      question: "[[I remember ___ (when) we first met.|Recuerdo cuándo nos conocimos por primera vez.]]",
-      options: ["where", "how", "when"],
-      correctAnswer: "when",
-      explanation: "'When' introduces a noun clause about time.",
-      translation: "Recuerdo cuándo nos conocimos por primera vez.",
-      hint: "The time that."
+    "id": "b2-u25-e14",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "Conservation efforts aim to protect natural resources for future generations.",
+    "content": {
+      "title": "Esfuerzos de conservación",
+      "instructions": "Ordena las palabras para hablar de protección ambiental.",
+      "correctSentence": "[[Conservation|Los esfuerzos]] [[efforts|de conservación]] [[aim|aspiran]] [[to|a]] [[protect|proteger los]] [[natural|recursos]] [[resources|naturales]] [[for|para]] [[future|generaciones]] [[generations.|futuras.]]",
+      "words": [
+        "[[efforts|de conservación]]",
+        "[[protect|proteger los]]",
+        "[[generations.|futuras.]]",
+        "[[aim|aspiran]]",
+        "[[Conservation|Los esfuerzos]]",
+        "[[future|generaciones]]",
+        "[[natural|recursos]]",
+        "[[resources|naturales]]",
+        "[[for|para]]",
+        "[[to|a]]"
+      ],
+      "explanation": "'Conservation' implica el uso cuidadoso y protección de los recursos naturales.",
+      "audio": "audio/b2/unit-25/e14.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-25/e14.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u25-e16",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "hard",
-    transcript: "I'm not sure which one to choose.",
-    content: {
-      title: "Nominal Clauses",
-      instructions: "Choose the correct wh-word.",
-      question: "[[I'm not sure ___ (which) one to choose.|No estoy seguro de cuál elegir.]]",
-      options: ["what", "which", "whose"],
-      correctAnswer: "which",
-      explanation: "'Which' introduces a noun clause about choice.",
-      translation: "No estoy seguro de cuál elegir.",
-      hint: "The specific one."
+    "id": "b2-u25-e15",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "The Amazon rainforest, which is the largest in the world, is under threat.",
+    "content": {
+      "title": "Selva amazónica",
+      "instructions": "Ordena las palabras usando una cláusula relativa no explicativa.",
+      "correctSentence": "[[The|La]] [[Amazon|selva]] [[rainforest,|amazónica,]] [[which|que]] [[is|es]] [[the|la]] [[largest|más grande]] [[in|del]] [[the|mundo,]] [[world,| ]] [[is|está]] [[under|bajo]] [[threat.|amenaza.]]",
+      "words": [
+        "[[Amazon|selva]]",
+        "[[the|la]]",
+        "[[world,| ]]",
+        "[[threat.|amenaza.]]",
+        "[[rainforest,|amazónica,]]",
+        "[[largest|más grande]]",
+        "[[is|está]]",
+        "[[The|La]]",
+        "[[under|bajo]]",
+        "[[which|que]]",
+        "[[the|mundo,]]",
+        "[[in|del]]",
+        "[[is|es]]"
+      ],
+      "explanation": "'Rainforest' es un bosque tropical denso con mucha lluvia.",
+      "audio": "audio/b2/unit-25/e15.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-25/e15.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u25-e17",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "hard",
-    transcript: "They asked who was responsible.",
-    content: {
-      title: "Nominal Clauses",
-      instructions: "Choose the correct wh-word.",
-      question: "[[They asked ___ (who) was responsible.|Preguntaron quién era el responsable.]]",
-      options: ["whom", "who", "whose"],
-      correctAnswer: "who",
-      explanation: "'Who' introduces a noun clause about a person.",
-      translation: "Preguntaron quién era el responsable.",
-      hint: "The person."
+    "id": "b2-u25-e16",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "Global warming causes the polar ice caps to melt at an alarming rate.",
+    "content": {
+      "title": "Calentamiento global",
+      "instructions": "Ordena las palabras para hablar del deshielo polar.",
+      "correctSentence": "[[Global|El calentamiento]] [[warming|global]] [[causes|hace]] [[the|que]] [[polar|los casquetes]] [[ice|polares]] [[caps|se derritan]] [[to|a]] [[melt|un]] [[at|ritmo]] [[an|alarmante.]] [[alarming| ]] [[rate.| ]]",
+      "words": [
+        "[[warming|global]]",
+        "[[polar|los casquetes]]",
+        "[[rate.| ]]",
+        "[[melt|un]]",
+        "[[Global|El calentamiento]]",
+        "[[alarming| ]] [[at|ritmo]]",
+        "[[ice|polares]]",
+        "[[causes|hace]]",
+        "[[caps|se derritan]]",
+        "[[the|que]]",
+        "[[to|a]]",
+        "[[an|alarmante.]]"
+      ],
+      "explanation": "'Polar ice caps' son las grandes masas de hielo en los polos.",
+      "audio": "audio/b2/unit-25/e16.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-25/e16.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u25-e18",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "hard",
-    transcript: "It depends on whether they arrive on time.",
-    content: {
-      title: "Nominal Clauses",
-      instructions: "Choose the correct word.",
-      question: "[[It depends on ___ (whether) they arrive on time.|Depende de si llegan a tiempo.]]",
-      options: ["if", "whether", "that"],
-      correctAnswer: "whether",
-      explanation: "'Whether' introduces a noun clause about alternatives or conditions.",
-      translation: "Depende de si llegan a tiempo.",
-      hint: "If or not."
+    "id": "b2-u25-e17",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "The region whose wildlife is most varied is strictly protected.",
+    "content": {
+      "title": "Fauna variada",
+      "instructions": "Ordena las palabras usando el relativo posesivo 'whose'.",
+      "correctSentence": "[[The|La]] [[region|región]] [[whose|cuya]] [[wildlife|fauna]] [[is|es]] [[most|la más]] [[varied|variada]] [[is|está]] [[strictly|estrictamente]] [[protected.|protegida.]]",
+      "words": [
+        "[[region|región]]",
+        "[[wildlife|fauna]]",
+        "[[protected.|protegida.]]",
+        "[[is|es]]",
+        "[[The|La]]",
+        "[[varied|variada]]",
+        "[[whose|cuya]]",
+        "[[most|la más]]",
+        "[[strictly|estrictamente]]",
+        "[[is|está]]"
+      ],
+      "explanation": "'Wildlife' se refiere a los animales que viven en la naturaleza.",
+      "audio": "audio/b2/unit-25/e17.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-25/e17.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u25-e19",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "hard",
-    transcript: "I don't care what they think.",
-    content: {
-      title: "Nominal Clauses",
-      instructions: "Choose the correct wh-word.",
-      question: "[[I don't care ___ (what) they think.|No me importa lo que piensen.]]",
-      options: ["that", "what", "which"],
-      correctAnswer: "what",
-      explanation: "Using 'what' to introduce the object of 'care'.",
-      translation: "No me importa lo que piensen.",
-      hint: "The thing."
+    "id": "b2-u25-e18",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "Natural habitats are being destroyed to make room for urban expansion.",
+    "content": {
+      "title": "Hábitats naturales",
+      "instructions": "Ordena las palabras para hablar de expansión urbana.",
+      "correctSentence": "[[Natural|Los hábitats]] [[habitats|naturales]] [[are|están]] [[being|siendo]] [[destroyed|destruidos]] [[to|para]] [[make|hacer]] [[room|sitio]] [[for|a la]] [[urban|expansión]] [[expansion.|urbana.]]",
+      "words": [
+        "[[habitats|naturales]]",
+        "[[being|siendo]]",
+        "[[expansion.|urbana.]]",
+        "[[to|para]]",
+        "[[Natural|Los hábitats]]",
+        "[[urban|expansión]]",
+        "[[destroyed|destruidos]]",
+        "[[make|hacer]]",
+        "[[are|están]]",
+        "[[room|sitio]]",
+        "[[for|a la]]"
+      ],
+      "explanation": "'Make room' significa crear espacio libre.",
+      "audio": "audio/b2/unit-25/e18.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-25/e18.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u25-e20",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "hard",
-    transcript: "He explained how he solved the problem.",
-    content: {
-      title: "Nominal Clauses",
-      instructions: "Choose the correct wh-word.",
-      question: "[[He explained ___ (how) he solved the problem.|Explicó cómo resolvió el problema.]]",
-      options: ["why", "how", "what"],
-      correctAnswer: "how",
-      explanation: "Introducing a clause explaining the method.",
-      translation: "Explicó cómo resolvió el problema.",
-      hint: "The way."
+    "id": "b2-u25-e19",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "I visited the sanctuary where injured animals are cared for.",
+    "content": {
+      "title": "Santuario de animales",
+      "instructions": "Ordena las palabras usando el relativo de lugar 'where'.",
+      "correctSentence": "[[I|Visité]] [[visited|el]] [[the|santuario]] [[sanctuary|donde]] [[where|se]] [[injured|cuida]] [[animals|a los]] [[are|animales]] [[cared|heridos.]] [[for.| ]]",
+      "words": [
+        "[[visited|el]]",
+        "[[sanctuary|donde]]",
+        "[[for.| ]]",
+        "[[injured|cuida]]",
+        "[[I|Visité]]",
+        "[[animals|a los]]",
+        "[[the|santuario]]",
+        "[[where|se]]",
+        "[[are|animales]]",
+        "[[cared|heridos.]]"
+      ],
+      "explanation": "'Care for' es el phrasal verb para cuidar a alguien o algo.",
+      "audio": "audio/b2/unit-25/e19.mp3"
     },
-    topicName: "Grammar"
-  },
-
-  // 21-30: Vocabulary - Ethical Terms
-  {
-    id: "b2-u25-e21",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "An ethical dilemma is a difficult choice.",
-    content: {
-      title: "Ethics",
-      instructions: "Choose the correct word.",
-      question: "[[An ethical ___ (dilemma) is a difficult choice between two options.|Un dilema ético es una elección difícil.]]",
-      options: ["[[dilemma|dilema]]", "[[delusion|ilusión]]", "[[decision|decisión]]"],
-      correctAnswer: "dilemma",
-      explanation: "A dilemma is a situation in which a difficult choice has to be made between two or more alternatives.",
-      translation: "Un dilema ético es una elección difícil.",
-      hint: "Difficult choice."
-    },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-25/e19.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u25-e22",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "Morality refers to principles of right and wrong.",
-    content: {
-      title: "Ethics",
-      instructions: "Choose the correct word.",
-      question: "[[___ (Morality) refers to principles concerning the distinction between right and wrong.|La moralidad se refiere a los principios de lo correcto y lo incorrecto.]]",
-      options: ["[[Morality|Moralidad]]", "[[Mortality|Mortalidad]]", "[[Majority|Mayoría]]"],
-      correctAnswer: "Morality",
-      explanation: "Morality is the system of values and principles of conduct.",
-      translation: "La moralidad se refiere a los principios de lo correcto y lo incorrecto.",
-      hint: "Right and wrong principles."
+    "id": "b2-u25-e20",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "Organic farming prohibits the use of synthetic chemicals and GMOs.",
+    "content": {
+      "title": "Agricultura orgánica",
+      "instructions": "Ordena las palabras para hablar de prohibiciones en el campo.",
+      "correctSentence": "[[Organic|La agricultura]] [[farming|orgánica]] [[prohibits|prohíbe]] [[the|el]] [[use|uso]] [[of|de]] [[synthetic|químicos]] [[chemicals|sintéticos]] [[and|y]] [[GMOs.|transgénicos.]]",
+      "words": [
+        "[[farming|orgánica]]",
+        "[[use|uso]]",
+        "[[GMOs.|transgénicos.]]",
+        "[[prohibits|prohíbe]]",
+        "[[Organic|La agricultura]]",
+        "[[chemicals|sintéticos]]",
+        "[[the|el]]",
+        "[[synthetic|químicos]]",
+        "[[and|y]]",
+        "[[of|de]]"
+      ],
+      "explanation": "GMO significa 'Genetically Modified Organism' (transgénico).",
+      "audio": "audio/b2/unit-25/e20.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-25/e20.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u25-e23",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "Integrity is doing the right thing even when no one is looking.",
-    content: {
-      title: "Ethics",
-      instructions: "Choose the correct word.",
-      question: "[[___ (Integrity) is the quality of being honest and having strong moral principles.|La integridad es hacer lo correcto incluso cuando nadie está mirando.]]",
-      options: ["[[Integrity|Integridad]]", "[[Intensity|Intensidad]]", "[[Identity|Identidad]]"],
-      correctAnswer: "Integrity",
-      explanation: "Integrity involves consistency of actions, values, methods, measures, principles, expectations, and outcomes.",
-      translation: "La integridad es hacer lo correcto incluso cuando nadie está mirando.",
-      hint: "Honesty/Strong principles."
+    "id": "b2-u25-e21",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "Wind turbines, which generate electricity, are installed on the coast.",
+    "content": {
+      "title": "Turbinas eólicas",
+      "instructions": "Ordena las palabras usando una cláusula relativa no explicativa.",
+      "correctSentence": "[[Wind|Las turbinas]] [[turbines,|eólicas,]] [[which|que]] [[generate|generan]] [[electricity,|electricidad,]] [[are|están]] [[installed|instaladas]] [[on|en]] [[the|la]] [[coast.|costa.]]",
+      "words": [
+        "[[turbines,|eólicas,]]",
+        "[[generate|generan]]",
+        "[[coast.|costa.]]",
+        "[[are|están]]",
+        "[[Wind|Las turbinas]]",
+        "[[installed|instaladas]]",
+        "[[which|que]]",
+        "[[electricity,|electricidad,]]",
+        "[[the|la]]",
+        "[[on|en]]"
+      ],
+      "explanation": "Las turbinas eólicas aprovechan la fuerza del viento para producir energía.",
+      "audio": "audio/b2/unit-25/e21.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-25/e21.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u25-e24",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "Empathy is the ability to understand others' feelings.",
-    content: {
-      title: "Ethics",
-      instructions: "Choose the correct word.",
-      question: "[[___ (Empathy) is the ability to understand and share the feelings of another.|La empatía es la capacidad de entender los sentimientos de los demás.]]",
-      options: ["[[Empathy|Empatía]]", "[[Apathy|Apatía]]", "[[Sympathy|Simpatía]]"],
-      correctAnswer: "Empathy",
-      explanation: "Empathy is crucial for ethical decision-making.",
-      translation: "La empatía es la capacidad de entender los sentimientos de los demás.",
-      hint: "Understand feelings."
+    "id": "b2-u25-e22",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "Poaching is the illegal hunting of wild animals.",
+    "content": {
+      "title": "Caza furtiva",
+      "instructions": "Ordena las palabras para definir una actividad ilegal.",
+      "correctSentence": "[[Poaching|La caza furtiva]] [[is|es]] [[the|la]] [[illegal|caza]] [[hunting|ilegal]] [[of|de]] [[wild|animales]] [[animals.|salvajes.]]",
+      "words": [
+        "[[is|es]]",
+        "[[hunting|ilegal]]",
+        "[[animals.|salvajes.]]",
+        "[[the|la]]",
+        "[[Poaching|La caza furtiva]]",
+        "[[wild|animales]]",
+        "[[of|de]]",
+        "[[illegal|caza]]"
+      ],
+      "explanation": "'Poaching' pone en peligro a muchas especies protegidas.",
+      "audio": "audio/b2/unit-25/e22.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-25/e22.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u25-e25",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "Conscience is your inner sense of right and wrong.",
-    content: {
-      title: "Ethics",
-      instructions: "Choose the correct word.",
-      question: "[[Your ___ (conscience) is your inner sense of right and wrong.|La conciencia es tu sentido interno de lo correcto y lo incorrecto.]]",
-      options: ["[[conscience|conciencia (moral)]]", "[[consciousness|conciencia (estar despierto)]]", "[[confidence|confianza]]"],
-      correctAnswer: "conscience",
-      explanation: "Conscience is an inner feeling or voice acting as a guide to the rightness or wrongness of one's behavior.",
-      translation: "La conciencia es tu sentido interno de lo correcto y lo incorrecto.",
-      hint: "Inner moral voice."
+    "id": "b2-u25-e23",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "The time when the sun is strongest is during the afternoon.",
+    "content": {
+      "title": "Radiación solar",
+      "instructions": "Ordena las palabras usando el relativo de tiempo 'when'.",
+      "correctSentence": "[[The|El]] [[time|momento]] [[when|en el que]] [[the|el]] [[sun|sol]] [[is|es]] [[strongest|más fuerte]] [[is|es]] [[during|durante]] [[the|la]] [[afternoon.|tarde.]]",
+      "words": [
+        "[[time|momento]]",
+        "[[sun|sol]]",
+        "[[afternoon.|tarde.]]",
+        "[[is|es]]",
+        "[[The|El]]",
+        "[[strongest|más fuerte]]",
+        "[[when|en el que]]",
+        "[[the|la]]",
+        "[[is|es]]",
+        "[[during|durante]]"
+      ],
+      "explanation": "Estructura estándar para enfatizar un momento específico.",
+      "audio": "audio/b2/unit-25/e23.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-25/e23.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u25-e26",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "Virtue is behavior showing high moral standards.",
-    content: {
-      title: "Ethics",
-      instructions: "Choose the correct word.",
-      question: "[[___ (Virtue) is behavior showing high moral standards.|La virtud es un comportamiento que muestra altos estándares morales.]]",
-      options: ["[[Virtue|Virtud]]", "[[Value|Valor]]", "[[Victory|Victoria]]"],
-      correctAnswer: "Virtue",
-      explanation: "Virtues are qualities considered morally good or desirable.",
-      translation: "La virtud es un comportamiento que muestra altos estándares morales.",
-      hint: "Moral excellence."
+    "id": "b2-u25-e24",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "An ecosystem is a community of living organisms interacting with their environment.",
+    "content": {
+      "title": "Ecosistema",
+      "instructions": "Ordena las palabras para definir el ecosistema.",
+      "correctSentence": "[[An|Un]] [[ecosystem|ecosistema]] [[is|es]] [[a|una]] [[community|comunidad]] [[of|de]] [[living|organismos]] [[organisms|vivos]] [[interacting|que interactúan]] [[with|con]] [[their|su]] [[environment.|entorno.]]",
+      "words": [
+        "[[ecosystem|ecosistema]]",
+        "[[community|comunidad]]",
+        "[[environment.|entorno.]]",
+        "[[is|es]]",
+        "[[An|Un]]",
+        "[[living|organismos]]",
+        "[[interacting|que interactúan]]",
+        "[[their|su]]",
+        "[[organisms|vivos]]",
+        "[[of|de]]",
+        "[[with|con]]",
+        "[[a|una]]"
+      ],
+      "explanation": "'Living organisms' incluye animales, plantas y microorganismos.",
+      "audio": "audio/b2/unit-25/e24.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-25/e24.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u25-e27",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "Altruism is the belief in or practice of disinterested concern for the well-being of others.",
-    content: {
-      title: "Ethics",
-      instructions: "Choose the correct word.",
-      question: "[[___ (Altruism) is the practice of helping others without expecting anything in return.|El altruismo es la creencia o práctica del interés desinteresado por el bienestar de los demás.]]",
-      options: ["[[Altruism|Altruismo]]", "[[Egoism|Egoísmo]]", "[[Optimism|Optimismo]]"],
-      correctAnswer: "Altruism",
-      explanation: "Altruism is a key concept in many philosophical traditions.",
-      translation: "El altruismo es la creencia o práctica del interés desinteresado por el bienestar de los demás.",
-      hint: "Helping others selflessly."
+    "id": "b2-u25-e25",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "The woman whose foundation protects elephants spoke at the summit.",
+    "content": {
+      "title": "Cumbre ambiental",
+      "instructions": "Ordena las palabras usando el relativo posesivo 'whose'.",
+      "correctSentence": "[[The|La]] [[woman|mujer]] [[whose|cuya]] [[foundation|fundación]] [[protects|protege]] [[elephants|elefantes]] [[spoke|habló]] [[at|en]] [[the|la]] [[summit.|cumbre.]]",
+      "words": [
+        "[[woman|mujer]]",
+        "[[foundation|fundación]]",
+        "[[summit.|cumbre.]]",
+        "[[spoke|habló]]",
+        "[[The|La]]",
+        "[[protects|protege]]",
+        "[[whose|cuya]]",
+        "[[elephants|elefantes]]",
+        "[[at|en]]",
+        "[[the|la]]"
+      ],
+      "explanation": "'Summit' es una reunión formal de líderes o expertos de alto nivel.",
+      "audio": "audio/b2/unit-25/e25.mp3"
     },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u25-e28",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "Duty is a moral or legal obligation.",
-    content: {
-      title: "Ethics",
-      instructions: "Choose the correct word.",
-      question: "[[A ___ (duty) is a moral or legal obligation.|El deber es una obligación moral o legal.]]",
-      options: ["[[duty|deber / obligación]]", "[[deal|trato]]", "[[doubt|duda]]"],
-      correctAnswer: "duty",
-      explanation: "Duty is what one is required to do by moral or legal standards.",
-      translation: "El deber es una obligación moral o legal.",
-      hint: "Obligation."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u25-e29",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "Accountability means being responsible for your actions.",
-    content: {
-      title: "Ethics",
-      instructions: "Choose the correct word.",
-      question: "[[___ (Accountability) means being responsible for your actions and decisions.|La rendición de cuentas significa ser responsable de tus acciones.]]",
-      options: ["[[Accountability|Rendición de cuentas / Responsabilidad]]", "[[Adaptability|Adaptabilidad]]", "[[Accessibility|Accesibilidad]]"],
-      correctAnswer: "Accountability",
-      explanation: "Accountability is the fact or condition of being accountable; responsibility.",
-      translation: "La rendición de cuentas significa ser responsable de tus acciones.",
-      hint: "Taking responsibility."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u25-e30",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "Values are the things that you believe are important.",
-    content: {
-      title: "Ethics",
-      instructions: "Choose the correct word.",
-      question: "[[Personal ___ (values) are the things that you believe are important in the way you live.|Los valores son las cosas que crees que son importantes.]]",
-      options: ["[[values|valores]]", "[[views|vistas / opiniones]]", "[[voices|voces]]"],
-      correctAnswer: "values",
-      explanation: "Values guide our behavior and choices.",
-      translation: "Los valores son las cosas que crees que son importantes.",
-      hint: "Important beliefs."
-    },
-    topicName: "Vocabulary"
-  },
-
-  // 31-40: Vocabulary - Philosophical Concepts
-  {
-    id: "b2-u25-e31",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "Utilitarianism focuses on the greatest good for the greatest number.",
-    content: {
-      title: "Philosophy",
-      instructions: "Choose the correct term.",
-      question: "[[___ focuses on the greatest good for the greatest number of people.|El utilitarismo se centra en el mayor bien para el mayor número.]]",
-      options: ["Existentialism", "Skepticism", "Utilitarianism"],
-      correctAnswer: "Utilitarianism",
-      explanation: "Utilitarianism is an ethical theory that determines right from wrong by focusing on outcomes.",
-      translation: "El utilitarismo se centra en el mayor bien para el mayor número.",
-      hint: "Greatest good focus."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u25-e32",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "Skepticism involves questioning accepted beliefs.",
-    content: {
-      title: "Philosophy",
-      instructions: "Choose the correct term.",
-      question: "[[___ is a philosophical position that involves questioning accepted beliefs.|El escepticismo implica cuestionar las creencias aceptadas.]]",
-      options: ["Optimism", "Skepticism", "Realism"],
-      correctAnswer: "Skepticism",
-      explanation: "Skepticism is the attitude of doubting knowledge claims.",
-      translation: "El escepticismo implica cuestionar las creencias aceptadas.",
-      hint: "Doubt/Questioning."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u25-e33",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "Existentialism emphasizes individual freedom and choice.",
-    content: {
-      title: "Philosophy",
-      instructions: "Choose the correct term.",
-      question: "[[___ emphasizes individual freedom, choice, and responsibility.|El existencialismo enfatiza la libertad y elección individual.]]",
-      options: ["Existentialism", "Idealism", "Socialism"],
-      correctAnswer: "Existentialism",
-      explanation: "Existentialism is a philosophy that emphasizes the existence of the individual person as a free and responsible agent.",
-      translation: "El existencialismo enfatiza la libertad y elección individual.",
-      hint: "Individual focus."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u25-e34",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "Logic is the study of reasoning.",
-    content: {
-      title: "Philosophy",
-      instructions: "Choose the correct term.",
-      question: "[[___ is the branch of philosophy that studies the principles of valid reasoning.|La lógica es el estudio del razonamiento.]]",
-      options: ["Ethics", "Metaphysics", "Logic"],
-      correctAnswer: "Logic",
-      explanation: "Logic is the systematic study of the forms of inference.",
-      translation: "La lógica es el estudio del razonamiento.",
-      hint: "Reasoning study."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u25-e35",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "Epistemology is the study of knowledge.",
-    content: {
-      title: "Philosophy",
-      instructions: "Choose the correct term.",
-      question: "[[___ is the study of knowledge and justified belief.|La epistemología es el estudio del conocimiento.]]",
-      options: ["Ontology", "Aesthetics", "Epistemology"],
-      correctAnswer: "Epistemology",
-      explanation: "Epistemology investigates the origin, nature, methods, and limits of human knowledge.",
-      translation: "La epistemología es el estudio del conocimiento.",
-      hint: "Knowledge study."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u25-e36",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "Aesthetics is the study of beauty and art.",
-    content: {
-      title: "Philosophy",
-      instructions: "Choose the correct term.",
-      question: "[[___ is the branch of philosophy dealing with the nature of beauty and art.|La estética es el estudio de la belleza y el arte.]]",
-      options: ["Aesthetics", "Logic", "Ethics"],
-      correctAnswer: "Aesthetics",
-      explanation: "Aesthetics explores the nature of art, beauty, and taste.",
-      translation: "La estética es el estudio de la belleza y el arte.",
-      hint: "Beauty study."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u25-e37",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "Determinism is the belief that all events are determined by causes.",
-    content: {
-      title: "Philosophy",
-      instructions: "Choose the correct term.",
-      question: "[[___ is the belief that all events, including human action, are determined by causes.|El determinismo es la creencia de que todos los eventos están determinados por causas.]]",
-      options: ["Determinism", "Relativism", "Free will"],
-      correctAnswer: "Determinism",
-      explanation: "Determinism suggests that human beings have no free will.",
-      translation: "El determinismo es la creencia de que todos los eventos están determinados por causas.",
-      hint: "Causality belief."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u25-e38",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "Relativism suggests that truth and morality are not absolute.",
-    content: {
-      title: "Philosophy",
-      instructions: "Choose the correct term.",
-      question: "[[___ is the doctrine that knowledge, truth, and morality exist in relation to culture, society, or historical context.|El relativismo sugiere que la verdad y la moralidad no son absolutas.]]",
-      options: ["Absolutism", "Relativism", "Pluralism"],
-      correctAnswer: "Relativism",
-      explanation: "Relativism denies the existence of absolute universal truths.",
-      translation: "El relativismo sugiere que la verdad y la moralidad no son absolutas.",
-      hint: "Context-based truth."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u25-e39",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "Dualism is the belief that reality consists of two separate substances.",
-    content: {
-      title: "Philosophy",
-      instructions: "Choose the correct term.",
-      question: "[[___ is the theory that the mental and the physical are separate and distinct.|El dualismo es la creencia de que la realidad consta de dos sustancias separadas.]]",
-      options: ["Materialism", "Dualism", "Monism"],
-      correctAnswer: "Dualism",
-      explanation: "Dualism often refers to the separation of mind and body.",
-      translation: "El dualismo es la creencia de que la realidad consta de dos sustancias separadas.",
-      hint: "Two separate parts."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u25-e40",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "Metaphysics explores the nature of being and the world.",
-    content: {
-      title: "Philosophy",
-      instructions: "Choose the correct term.",
-      question: "[[___ is the branch of philosophy that examines the fundamental nature of reality.|La metafísica explora la naturaleza del ser y del mundo.]]",
-      options: ["Sociology", "Biology", "Metaphysics"],
-      correctAnswer: "Metaphysics",
-      explanation: "Metaphysics studies concepts like existence, time, and space.",
-      translation: "La metafísica explora la naturaleza del ser y del mundo.",
-      hint: "Reality study."
-    },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-25/e25.mp3",
+    "topicName": "Grammar"
   },
 
-  // 41-50: Word Formation
+  // 26-50: Multiple Choice (Vocabulary & Grammar - Environment & Nature)
   {
-    id: "b2-u25-e41",
-    type: "word-formation",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "Act ethically in all your dealings.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[Act ___ (ETHIC) in all your dealings.|Actúa éticamente en todos tus tratos.]]",
-      correctAnswer: "ethically",
-      explanation: "Adverb form of 'ethic/ethical'.",
-      translation: "Actúa éticamente en todos tus tratos.",
-      hint: "Adverb from ethic."
+    "id": "b2-u25-e26",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "Recycling, which saves energy, is easy to do at home.",
+    "content": {
+      "title": "Ahorro de energía",
+      "instructions": "Elige el pronombre relativo correcto para esta cláusula no explicativa.",
+      "questions": [
+        {
+          "question": "[[Recycling,|El reciclaje,]] _______ [[saves|que ahorra]] [[energy,|energía,]] [[is|es]] [[easy|fácil]] [[to|de]] [[do|hacer]] [[at|en]] [[home.|casa.]]",
+          "options": ["[[which|que (relativo cosas)]]", "[[who|quien]]", "[[where|donde]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'which' para referirnos a objetos o ideas (reciclaje) en cláusulas no explicativas.",
+          "audio": "audio/b2/unit-25/e26.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-25/e26.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u25-e42",
-    type: "word-formation",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "Philosophical thinking is important.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[___ (PHILOSOPHY) thinking is important for deep understanding.|El pensamiento filosófico es importante.]]",
-      correctAnswer: "Philosophical",
-      explanation: "Adjective form of 'philosophy'.",
-      translation: "El pensamiento filosófico es importante.",
-      hint: "Adjective from philosophy."
+    "id": "b2-u25-e27",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "A spill of oil can be devastating for marine life.",
+    "content": {
+      "title": "Vida marina",
+      "instructions": "Elige el término para el vertido accidental de líquidos.",
+      "questions": [
+        {
+          "question": "[[A|Un]] _______ [[of|de]] [[oil|petróleo]] [[can|puede]] [[be|ser]] [[devastating|devastador]] [[for|para]] [[marine|la vida]] [[life.|marina.]]",
+          "options": ["[[spill|derrame / vertido]]", "[[pile|pila / montón]]", "[[lake|lago]]"],
+          "correctAnswer": 0,
+          "explanation": "'Spill' se usa habitualmente para derrames de petróleo o productos químicos.",
+          "audio": "audio/b2/unit-25/e27.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-25/e27.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u25-e43",
-    type: "word-formation",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "He is a famous philosopher.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[He is a famous ___ (PHILOSOPHY).|Es un filósofo famoso.]]",
-      correctAnswer: "philosopher",
-      explanation: "Noun for a person practicing philosophy.",
-      translation: "Es un filósofo famoso.",
-      hint: "Person from philosophy."
+    "id": "b2-u25-e28",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "The valley where we went hiking is a protected area.",
+    "content": {
+      "title": "Área protegida",
+      "instructions": "Elige el pronombre relativo de lugar.",
+      "questions": [
+        {
+          "question": "[[The|El]] [[valley|valle]] _______ [[we|donde]] [[went|fuimos]] [[hiking|de excursión]] [[is|es]] [[a|una]] [[protected|área]] [[area.|protegida.]]",
+          "options": ["[[where|donde]]", "[[when|cuando]]", "[[which|cual]]"],
+          "correctAnswer": 0,
+          "explanation": "'Where' se utiliza para referirse a lugares.",
+          "audio": "audio/b2/unit-25/e28.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-25/e28.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u25-e44",
-    type: "word-formation",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "The moral responsibility is yours.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The ___ (MORALITY) responsibility is yours.|La responsabilidad moral es tuya.]]",
-      correctAnswer: "moral",
-      explanation: "Adjective form of 'morality'.",
-      translation: "La responsabilidad moral es tuya.",
-      hint: "Adjective from morality."
+    "id": "b2-u25-e29",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "Landfills are places where waste is buried in the ground.",
+    "content": {
+      "title": "Vertederos",
+      "instructions": "Elige el término para el depósito de basura bajo tierra.",
+      "questions": [
+        {
+          "question": "_______ [[are|Los vertederos]] [[places|son lugares]] [[where|donde]] [[waste|la basura]] [[is|es]] [[buried.|enterrada.]]",
+          "options": ["[[Landfills|Vertederos]]", "[[Gardens|Jardines]]", "[[Factories|Fábricas]]"],
+          "correctAnswer": 0,
+          "explanation": "'Landfill' proviene de 'land' (tierra) y 'fill' (llenar).",
+          "audio": "audio/b2/unit-25/e29.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-25/e29.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u25-e45",
-    type: "word-formation",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "They made a logical argument.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[They made a ___ (LOGIC) argument.|Hicieron un argumento lógico.]]",
-      correctAnswer: "logical",
-      explanation: "Adjective form of 'logic'.",
-      translation: "Hicieron un argumento lógico.",
-      hint: "Adjective from logic."
+    "id": "b2-u25-e30",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "The children whose future we are discussing deserve a clean planet.",
+    "content": {
+      "title": "El futuro de los niños",
+      "instructions": "Elige el pronombre relativo posesivo.",
+      "questions": [
+        {
+          "question": "[[The|Los]] [[children|niños]] _______ [[future|cuyo]] [[we|futuro]] [[are|estamos]] [[discussing|debatiendo]] [[deserve|merecen]] [[a|un]] [[clean|planeta]] [[planet.|limpio.]]",
+          "options": ["[[whose|cuyo]]", "[[who|quien]]", "[[which|cual]]"],
+          "correctAnswer": 0,
+          "explanation": "'Whose' indica que el futuro pertenece a los niños.",
+          "audio": "audio/b2/unit-25/e30.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-25/e30.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u25-e46",
-    type: "word-formation",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "Existential crisis is a common theme.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[___ (EXIST) crisis is a common theme in literature.|La crisis existencial es un tema común.]]",
-      correctAnswer: "Existential",
-      explanation: "Adjective form of 'exist/existence'.",
-      translation: "La crisis existencial es un tema común.",
-      hint: "Adjective from exist."
+    "id": "b2-u25-e31",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "Extinction occurs when a species dies out completely.",
+    "content": {
+      "title": "Extinción",
+      "instructions": "Elige el phrasal verb que significa extinguirse poco a poco.",
+      "questions": [
+        {
+          "question": "[[Extinction|La extinción]] [[occurs|ocurre]] [[when|cuando]] [[a|una]] [[species|especie]] _______ _______ [[completely.|del todo.]]",
+          "options": ["[[dies out|se extingue / muere poco a poco]]", "[[gives up|se rinde]]", "[[turns off|se apaga]]"],
+          "correctAnswer": 0,
+          "explanation": "'Die out' se usa específicamente para la desaparición de especies.",
+          "audio": "audio/b2/unit-25/e31.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-25/e31.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u25-e47",
-    type: "word-formation",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "Truthfulness is a virtue.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[___ (TRUE) is a virtue.|La veracidad es una virtud.]]",
-      correctAnswer: "Truthfulness",
-      explanation: "Noun form indicating the quality of being true/honest.",
-      translation: "La veracidad es una virtud.",
-      hint: "Noun from true."
+    "id": "b2-u25-e32",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "Summer is the season when forest fires are most common.",
+    "content": {
+      "title": "Incendios forestales",
+      "instructions": "Elige el relativo de tiempo correcto.",
+      "questions": [
+        {
+          "question": "[[Summer|El verano]] [[is|es]] [[the|la]] [[season|estación]] _______ [[forest|cuando los]] [[fires|incendios forestales]] [[are|son]] [[most|más]] [[common.|comunes.]]",
+          "options": ["[[when|cuando]]", "[[where|donde]]", "[[that|que]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'when' tras sustantivos de tiempo como 'season'.",
+          "audio": "audio/b2/unit-25/e32.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-25/e32.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u25-e48",
-    type: "word-formation",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "A virtuous person is respected.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[A ___ (VIRTUE) person is respected.|Una persona virtuosa es respetada.]]",
-      correctAnswer: "virtuous",
-      explanation: "Adjective form of 'virtue'.",
-      translation: "Una persona virtuosa es respetada.",
-      hint: "Adjective from virtue."
+    "id": "b2-u25-e33",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "A habitat is the natural home of an animal or plant.",
+    "content": {
+      "title": "Hábitat",
+      "instructions": "Elige la definición correcta de hábitat.",
+      "questions": [
+        {
+          "question": "[[A|Un]] _______ [[is|es]] [[the|el]] [[natural|hogar]] [[home|natural]] [[of|de]] [[an|un]] [[animal.|animal.]]",
+          "options": ["[[habitat|hábitat]]", "[[laboratory|laboratorio]]", "[[shelter|refugio]]"],
+          "correctAnswer": 0,
+          "explanation": "'Habitat' incluye todo lo que un ser vivo necesita para sobrevivir (comida, agua, etc.).",
+          "audio": "audio/b2/unit-25/e33.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-25/e33.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u25-e49",
-    type: "word-formation",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "His skepticism was obvious.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[His ___ (SKEPTIC) was obvious.|Su escepticismo era obvio.]]",
-      correctAnswer: "skepticism",
-      explanation: "Noun form of 'skeptic'.",
-      translation: "Su escepticismo era obvio.",
-      hint: "Noun from skeptic."
+    "id": "b2-u25-e34",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "The person to whom we gave the donation is a conservationist.",
+    "content": {
+      "title": "Donación ambiental",
+      "instructions": "Elige la estructura formal con preposición + pronombre relativo.",
+      "questions": [
+        {
+          "question": "[[The|La]] [[person|persona]] _______ _______ [[we|a la que]] [[gave|dimos]] [[the|la]] [[donation|donación]] [[is|es]] _______.",
+          "options": ["[[to whom|a quien]]", "[[who to|quien a]]", "[[to which|a la cual (cosas)]]"],
+          "correctAnswer": 0,
+          "explanation": "En lenguaje formal, se usa 'preposición + whom' para referirse a personas.",
+          "audio": "audio/b2/unit-25/e34.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-25/e34.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u25-e50",
-    type: "word-formation",
-    level: "B2",
-    topic: "Ethics and Philosophy",
-    difficulty: "medium",
-    transcript: "Everything is relatively simple.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[Everything is ___ (RELATIVE) simple if you understand the basics.|Todo es relativamente sencillo.]]",
-      correctAnswer: "relatively",
-      explanation: "Adverb form of 'relative'.",
-      translation: "Todo es relativamente sencillo.",
-      hint: "Adverb from relative."
+    "id": "b2-u25-e35",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "Biodegradable materials can be broken down by bacteria.",
+    "content": {
+      "title": "Biodegradable",
+      "instructions": "Elige el adjetivo que significa capaz de descomponerse naturalmente.",
+      "questions": [
+        {
+          "question": "_______ [[materials|Los materiales biodegradables]] [[can|pueden]] [[be|ser]] [[broken|descompuestos]] [[down.| ]] ",
+          "options": ["[[Biodegradable|Biodegradables]]", "[[Everlasting|Eternos]]", "[[Synthetic|Sintéticos]]"],
+          "correctAnswer": 0,
+          "explanation": "'Biodegradable' significa que no daña el medio ambiente al descomponerse.",
+          "audio": "audio/b2/unit-25/e35.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-25/e35.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u25-e36",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "The river, which was heavily polluted, is now clean again.",
+    "content": {
+      "title": "Río recuperado",
+      "instructions": "Elige el relativo para una cláusula no explicativa sobre un objeto.",
+      "questions": [
+        {
+          "question": "[[The|El]] [[river,|río,]] _______ [[was|que]] [[heavily|muy]] [[polluted,|contaminado,]] [[is|está]] [[now|ahora]] [[clean|limpio]] [[again.|de nuevo.]]",
+          "options": ["[[which|que / el cual]]", "[[that|que (no se usa tras coma)]]", "[[who|quien]]"],
+          "correctAnswer": 0,
+          "explanation": "No se puede usar 'that' en cláusulas relativas no explicativas (las que van entre comas).",
+          "audio": "audio/b2/unit-25/e36.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-25/e36.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u25-e37",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "Overfishing is a major problem for the world's oceans.",
+    "content": {
+      "title": "Sobrepesca",
+      "instructions": "Elige el término para la pesca excesiva.",
+      "questions": [
+        {
+          "question": "_______ [[is|La sobrepesca]] [[a|es]] [[major|gran]] [[problem.|problema.]]",
+          "options": ["[[Overfishing|Sobrepesca]]", "[[Sailing|Navegación]]", "[[Diving|Buceo]]"],
+          "correctAnswer": 0,
+          "explanation": "'Overfishing' agota las poblaciones de peces más rápido de lo que pueden reproducirse.",
+          "audio": "audio/b2/unit-25/e37.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-25/e37.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u25-e38",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "He is the author whose books about nature are very popular.",
+    "content": {
+      "title": "Autor de libros de naturaleza",
+      "instructions": "Elige el pronombre relativo posesivo.",
+      "questions": [
+        {
+          "question": "[[He|Él]] [[is|es]] [[the|el]] [[author|autor]] _______ [[books|cuyos libros]] [[about|sobre]] [[nature|la naturaleza]] [[are|son]] [[very|muy]] [[popular.|populares.]]",
+          "options": ["[[whose|cuyos]]", "[[who|quien]]", "[[that|que]]"],
+          "correctAnswer": 0,
+          "explanation": "'Whose' indica que los libros pertenecen al autor.",
+          "audio": "audio/b2/unit-25/e38.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-25/e38.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u25-e39",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "Sustainable tourism aims to minimize the impact on local cultures.",
+    "content": {
+      "title": "Turismo sostenible",
+      "instructions": "Elige el término para el turismo responsable.",
+      "questions": [
+        {
+          "question": "_______ _______ [[aims|El turismo sostenible]] [[to|aspira a]] [[minimize|minimizar]] [[the|el]] [[impact.|impacto.]]",
+          "options": ["[[Sustainable tourism|Turismo sostenible]]", "[[Mass tourism|Turismo de masas]]", "[[Virtual tourism|Turismo virtual]]"],
+          "correctAnswer": 0,
+          "explanation": "'Sustainable tourism' busca el equilibrio entre el viajero, el entorno y la población local.",
+          "audio": "audio/b2/unit-25/e39.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-25/e39.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u25-e40",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "The island where the volcano erupted was evacuated.",
+    "content": {
+      "title": "Erupción volcánica",
+      "instructions": "Elige el relativo de lugar adecuado.",
+      "questions": [
+        {
+          "question": "[[The|La]] [[island|isla]] _______ [[the|donde]] [[volcano|el volcán]] [[erupted|hizo erupción]] [[was|fue]] [[evacuated.|evacuada.]]",
+          "options": ["[[where|donde]]", "[[which|la cual]]", "[[when|cuando]]"],
+          "correctAnswer": 0,
+          "explanation": "'Where' se usa para referirse al lugar físico (la isla).",
+          "audio": "audio/b2/unit-25/e40.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-25/e40.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u25-e41",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "Deforestation is the permanent removal of trees to make room for something else.",
+    "content": {
+      "title": "Eliminación de árboles",
+      "instructions": "Elige el término para la tala masiva de árboles.",
+      "questions": [
+        {
+          "question": "_______ [[is|La deforestación]] [[the|es la]] [[permanent|eliminación]] [[removal|permanente]] [[of|de]] [[trees.|árboles.]]",
+          "options": ["[[Deforestation|Deforestación]]", "[[Afforestation|Reforestación]]", "[[Landscaping|Paisajismo]]"],
+          "correctAnswer": 0,
+          "explanation": "'Deforestation' es una de las causas principales del cambio climático.",
+          "audio": "audio/b2/unit-25/e41.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-25/e41.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u25-e42",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "All the people who participated in the clean-up were volunteers.",
+    "content": {
+      "title": "Limpieza de playas",
+      "instructions": "Elige el pronombre relativo de persona.",
+      "questions": [
+        {
+          "question": "[[All|Toda]] [[the|la]] [[people|gente]] _______ [[participated|que participó]] [[in|en]] [[the|la]] [[clean-up|limpieza]] [[were|eran]] [[volunteers.|voluntarios.]]",
+          "options": ["[[who|que (personas)]]", "[[which|que (cosas)]]", "[[whose|cuya]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'who' o 'that' para referirnos a personas en cláusulas explicativas.",
+          "audio": "audio/b2/unit-25/e42.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-25/e42.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u25-e43",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "Emissions of pollutants are strictly regulated in many countries.",
+    "content": {
+      "title": "Contaminantes",
+      "instructions": "Elige el término para las sustancias que contaminan.",
+      "questions": [
+        {
+          "question": "[[Emissions|Las emisiones]] [[of|de]] _______ [[are|están]] [[strictly|estrictamente]] [[regulated.|reguladas.]]",
+          "options": ["[[pollutants|contaminantes]]", "[[nutrients|nutrientes]]", "[[scents|aromas]]"],
+          "correctAnswer": 0,
+          "explanation": "'Pollutants' son sustancias que hacen que el aire, agua o tierra dejen de ser puros.",
+          "audio": "audio/b2/unit-25/e43.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-25/e43.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u25-e44",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "The solar panels, which generate green energy, are very efficient.",
+    "content": {
+      "title": "Energía verde",
+      "instructions": "Elige el relativo para una cláusula no explicativa sobre cosas.",
+      "questions": [
+        {
+          "question": "[[The|Los]] [[solar|paneles]] [[panels,|solares,]] _______ [[generate|que generan]] [[green|energía]] [[energy,|verde,]] [[are|son]] [[very|muy]] [[efficient.|eficientes.]]",
+          "options": ["[[which|que / los cuales]]", "[[who|quien]]", "[[where|donde]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'which' para añadir información no esencial sobre los paneles solares.",
+          "audio": "audio/b2/unit-25/e44.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-25/e44.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u25-e45",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "Urban sprawl is the uncontrolled expansion of urban areas.",
+    "content": {
+      "title": "Expansión urbana descontrolada",
+      "instructions": "Elige el término para el crecimiento horizontal de las ciudades.",
+      "questions": [
+        {
+          "question": "_______ _______ [[is|La expansión urbana]] [[the|es la]] [[uncontrolled|expansión]] [[expansion.|descontrolada.]]",
+          "options": ["[[Urban sprawl|Expansión urbana]]", "[[City center|Centro ciudad]]", "[[Skyline|Perfil de la ciudad]]"],
+          "correctAnswer": 0,
+          "explanation": "'Urban sprawl' suele asociarse con problemas de tráfico y pérdida de espacios naturales.",
+          "audio": "audio/b2/unit-25/e45.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-25/e45.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u25-e46",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "The reason why I support renewable energy is its long-term benefit.",
+    "content": {
+      "title": "Beneficio a largo plazo",
+      "instructions": "Elige el relativo que indica motivo.",
+      "questions": [
+        {
+          "question": "[[The|La]] [[reason|razón]] _______ [[I|por la que]] [[support|apoyo la]] [[renewable|energía]] [[energy|renovable]] [[is|es]] _______.",
+          "options": ["[[why|por la que / por qué]]", "[[which|cual]]", "[[who|quien]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'why' tras el sustantivo 'reason' para introducir una cláusula relativa.",
+          "audio": "audio/b2/unit-25/e46.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-25/e46.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u25-e47",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "An endangered species is a group of organisms which is at risk of extinction.",
+    "content": {
+      "title": "Riesgo de extinción",
+      "instructions": "Elige el término para las especies amenazadas.",
+      "questions": [
+        {
+          "question": "[[An|Una]] _______ [[species|especie]] [[is|es]] [[at|un]] [[risk|grupo]] [[of|en riesgo de]] [[extinction.|extinción.]]",
+          "options": ["[[endangered|en peligro]]", "[[flourishing|próspera]]", "[[common|común]]"],
+          "correctAnswer": 0,
+          "explanation": "'Endangered' significa que el número de individuos es tan bajo que podrían desaparecer.",
+          "audio": "audio/b2/unit-25/e47.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-25/e47.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u25-e48",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "The animals whose habitats were destroyed had to relocate.",
+    "content": {
+      "title": "Reubicación de fauna",
+      "instructions": "Elige el pronombre relativo posesivo.",
+      "questions": [
+        {
+          "question": "[[The|Los]] [[animals|animales]] _______ [[habitats|cuyos hábitats]] [[were|fueron]] [[destroyed|destruidos]] [[had|tuvieron]] [[to|que]] [[relocate.|reubicarse.]]",
+          "options": ["[[whose|cuyos]]", "[[who|quien]]", "[[which|cual]]"],
+          "correctAnswer": 0,
+          "explanation": "'Whose' vincula a los animales con sus hábitats.",
+          "audio": "audio/b2/unit-25/e48.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-25/e48.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u25-e49",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "A conservationist is a person who advocates for the protection of wildlife.",
+    "content": {
+      "title": "Conservacionista",
+      "instructions": "Elige el término para la persona que defiende la naturaleza.",
+      "questions": [
+        {
+          "question": "[[A|Un]] _______ [[is|es]] [[a|una]] [[person|persona]] [[who|que]] [[advocates|defiende]] [[for|la]] [[protection.|protección.]]",
+          "options": ["[[conservationist|conservacionista]]", "[[polluter|contaminador]]", "[[developer|promotor]]"],
+          "correctAnswer": 0,
+          "explanation": "'Conservationists' trabajan para preservar la naturaleza para el futuro.",
+          "audio": "audio/b2/unit-25/e49.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-25/e49.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u25-e50",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Environment & Nature",
+    "difficulty": "medium",
+    "transcript": "This is the town where the annual environmental conference is held.",
+    "content": {
+      "title": "Conferencia ambiental",
+      "instructions": "Elige el relativo de lugar correcto.",
+      "questions": [
+        {
+          "question": "[[This|Este]] [[is|es]] [[the|el]] [[town|pueblo]] _______ [[the|donde]] [[conference|la conferencia]] [[is|se]] [[held.|celebra.]]",
+          "options": ["[[where|donde]]", "[[when|cuando]]", "[[which|el cual]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'where' para referirnos a la ubicación del evento.",
+          "audio": "audio/b2/unit-25/e50.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-25/e50.mp3",
+    "topicName": "Grammar"
   }
 ];

@@ -1,953 +1,1294 @@
 import { Exercise } from "@/types/course";
 
 export const UNIT_16_EXERCISES: Exercise[] = [
-  // 1-10: Grammar - It-Cleft Sentences
+  // 1-25: Sentence Building (Grammar & Vocabulary - Social Media & Communication)
   {
-    id: "b2-u16-e1",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "John started the company. It was John who started the company.",
-    content: {
-      title: "It-Cleft Sentences",
-      instructions: "Choose the correct relative pronoun for emphasis.",
-      question: "[[John|John]] [[started|empezó]] [[the|la]] [[company.|empresa.]] [[->|->]] [[It|Fue]] [[was|John]] [[John|quien]] [[___|___]] [[(who)| ]] [[started|empezó]] [[the|la]] [[company.|empresa.]]",
-      options: ["who", "which", "what"],
-      correctAnswer: "who",
-      explanation: "Use 'who' or 'that' to focus on a person in an it-cleft sentence.",
-      translation: "John empezó la empresa. -> Fue John quien empezó la empresa.",
-      hint: "Focus on the person."
+    "id": "b2-u16-e1",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "Social media has fundamentally changed how we interact with others.",
+    "content": {
+      "title": "Redes sociales",
+      "instructions": "Ordena las palabras para hablar de comunicación moderna.",
+      "correctSentence": "[[Social|Las redes]] [[media|sociales]] [[has|han]] [[fundamentally|cambiado]] [[changed|fundamentalmente]] [[how|cómo]] [[we|interactuamos]] [[interact|con]] [[with|los]] [[others.|demás.]]",
+      "words": [
+        "[[media|sociales]]",
+        "[[changed|fundamentalmente]]",
+        "[[interact|con]]",
+        "[[others.|demás.]]",
+        "[[has|han]]",
+        "[[fundamentally|cambiado]]",
+        "[[how|cómo]]",
+        "[[Social|Las redes]]",
+        "[[with|los]]",
+        "[[we|interactuamos]]"
+      ],
+      "explanation": "El presente perfecto (has changed) se usa para acciones con resultados en el presente.",
+      "audio": "audio/b2/unit-16/e1.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-16/e1.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u16-e2",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "We need innovation. It is innovation that we need.",
-    content: {
-      title: "It-Cleft Sentences",
-      instructions: "Choose the correct relative pronoun for emphasis.",
-      question: "[[We|Necesitamos]] [[need|innovación.]] [[innovation.| ]] [[->|->]] [[It|Es]] [[is|la]] [[innovation|innovación]] [[___|___]] [[(that)|lo que]] [[we|necesitamos.]] [[need.| ]]",
-      options: ["what", "that", "who"],
-      correctAnswer: "that",
-      explanation: "Use 'that' or 'which' to focus on a thing in an it-cleft sentence.",
-      translation: "Necesitamos innovación. -> Es la innovación lo que necesitamos.",
-      hint: "Focus on the thing."
+    "id": "b2-u16-e2",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "I enjoy scrolling through my feed to stay updated on news.",
+    "content": {
+      "title": "Feed de noticias",
+      "instructions": "Ordena las palabras usando gerundios tras verbos de preferencia.",
+      "correctSentence": "[[I|Disfruto]] [[enjoy|deslizarme]] [[scrolling|por]] [[through|mi]] [[my|feed]] [[feed|para]] [[to|estar]] [[stay|al]] [[updated|día]] [[on|de]] [[news.|las noticias.]]",
+      "words": [
+        "[[enjoy|deslizarme]]",
+        "[[feed|para]]",
+        "[[news.|las noticias.]]",
+        "[[through|mi]]",
+        "[[updated|día]]",
+        "[[I|Disfruto]]",
+        "[[to|estar]]",
+        "[[stay|al]]",
+        "[[on|de]]",
+        "[[scrolling|por]]",
+        "[[my|feed]]"
+      ],
+      "explanation": "El verbo 'enjoy' siempre va seguido de gerundio (-ing).",
+      "audio": "audio/b2/unit-16/e2.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-16/e2.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u16-e3",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "The market changed in 2008. It was in 2008 that the market changed.",
-    content: {
-      title: "It-Cleft Sentences",
-      instructions: "Choose the correct relative pronoun for emphasis.",
-      question: "[[The|El]] [[market|mercado]] [[changed|cambió]] [[in|en]] [[2008.|2008.]] [[->|->]] [[It|Fue]] [[was|en]] [[in|2008]] [[2008|cuando]] [[___|___]] [[(that)| ]] [[the|el]] [[market|mercado]] [[changed.|cambió.]]",
-      options: ["that", "when", "which"],
-      correctAnswer: "that",
-      explanation: "In it-clefts focusing on time, 'that' is preferred over 'when'.",
-      translation: "El mercado cambió en 2008. -> Fue en 2008 cuando el mercado cambió.",
-      hint: "Time focus usually uses 'that'."
+    "id": "b2-u16-e3",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "If I were you, I would limit my screen time daily.",
+    "content": {
+      "title": "Tiempo de pantalla",
+      "instructions": "Ordena las palabras usando el segundo condicional para consejos.",
+      "correctSentence": "[[If|Si]] [[I|yo]] [[were|fuera]] [[you,|tú,]] [[I|limitaría]] [[would|mi]] [[limit|tiempo]] [[my|de]] [[screen|pantalla]] [[time|diario.]] [[daily.| ]]",
+      "words": [
+        "[[were|fuera]]",
+        "[[limit|tiempo]]",
+        "[[daily.| ]]",
+        "[[would|mi]]",
+        "[[I|yo]]",
+        "[[If|Si]]",
+        "[[screen|pantalla]]",
+        "[[my|de]]",
+        "[[you,|tú,]]",
+        "[[I|limitaría]]",
+        "[[time|diario.]]"
+      ],
+      "explanation": "Estructura para dar consejos: 'If I were you, I would...'.",
+      "audio": "audio/b2/unit-16/e3.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-16/e3.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u16-e4",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "They failed because of lack of funding. It was lack of funding that caused the failure.",
-    content: {
-      title: "It-Cleft Sentences",
-      instructions: "Choose the correct relative pronoun for emphasis.",
-      question: "[[They|Fallaron]] [[failed|por]] [[because|falta]] [[of|de]] [[lack|financiación.]] [[of| ]] [[funding.| ]] [[->|->]] [[It|Fue]] [[was|la]] [[lack|falta]] [[of|de]] [[funding|financiación]] [[___|___]] [[(that)|lo que]] [[caused|causó]] [[the|el]] [[failure.|fracaso.]]",
-      options: ["who", "what", "that"],
-      correctAnswer: "that",
-      explanation: "Use 'that' to link the subject focus to the rest of the sentence.",
-      translation: "Fallaron por falta de financiación. -> Fue la falta de financiación lo que causó el fracaso.",
-      hint: "Standard it-cleft linker."
+    "id": "b2-u16-e4",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "Influencers play a significant role in modern marketing strategies.",
+    "content": {
+      "title": "Influencers",
+      "instructions": "Ordena las palabras para hablar de marketing digital.",
+      "correctSentence": "[[Influencers|Los influencers]] [[play|desempeñan]] [[a|un]] [[significant|papel]] [[role|importante]] [[in|en]] [[modern|las estrategias]] [[marketing|de marketing]] [[strategies.|modernas.]]",
+      "words": [
+        "[[play|desempeñan]]",
+        "[[role|importante]]",
+        "[[strategies.|modernas.]]",
+        "[[significant|papel]]",
+        "[[Influencers|Los influencers]]",
+        "[[marketing|de marketing]]",
+        "[[in|en]]",
+        "[[modern|las estrategias]]",
+        "[[a|un]]"
+      ],
+      "explanation": "'Play a role' es una expresión que significa participar o tener influencia en algo.",
+      "audio": "audio/b2/unit-16/e4.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-16/e4.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u16-e5",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "I want to talk to the manager. It is the manager that I want to talk to.",
-    content: {
-      title: "It-Cleft Sentences",
-      instructions: "Choose the correct relative pronoun for emphasis.",
-      question: "[[I|Quiero]] [[want|hablar]] [[to|con]] [[talk|el]] [[to|gerente.]] [[the| ]] [[manager.| ]] [[->|->]] [[It|Es]] [[is|con]] [[the|el]] [[manager|gerente]] [[___|___]] [[(that)|con quien]] [[I|quiero]] [[want|hablar.]] [[to| ]] [[talk| ]] [[to.| ]]",
-      options: ["what", "who", "that"],
-      correctAnswer: "that",
-      explanation: "Use 'that' or 'whom' (formal) to focus on the object of the sentence.",
-      translation: "Quiero hablar con el gerente. -> Es con el gerente con quien quiero hablar.",
-      hint: "Object focus."
+    "id": "b2-u16-e5",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "Don't forget to check the privacy settings on your profile.",
+    "content": {
+      "title": "Privacidad",
+      "instructions": "Ordena las palabras usando infinitivo tras 'forget'.",
+      "correctSentence": "[[Don't|No]] [[forget|olvides]] [[to|revisar]] [[check|los]] [[the|ajustes]] [[privacy|de]] [[settings|privacidad]] [[on|de]] [[your|tu]] [[profile.|perfil.]]",
+      "words": [
+        "[[forget|olvides]]",
+        "[[the|ajustes]]",
+        "[[profile.|perfil.]]",
+        "[[privacy|de]]",
+        "[[Don't|No]]",
+        "[[on|de]]",
+        "[[check|los]]",
+        "[[to|revisar]]",
+        "[[settings|privacidad]]",
+        "[[your|tu]]"
+      ],
+      "explanation": "'Forget + to-infinitive' significa no recordar realizar una tarea pendiente.",
+      "audio": "audio/b2/unit-16/e5.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-16/e5.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u16-e6",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "The CEO made the decision. It was the CEO who made the decision.",
-    content: {
-      title: "It-Cleft Sentences",
-      instructions: "Choose the correct relative pronoun for emphasis.",
-      question: "[[The|El]] [[CEO|CEO]] [[made|tomó]] [[the|la]] [[decision.|decisión.]] [[->|->]] [[It|Fue]] [[was|el]] [[the|CEO]] [[CEO|quien]] [[___|___]] [[(who)| ]] [[made|tomó]] [[the|la]] [[decision.|decisión.]]",
-      options: ["that", "which", "who"],
-      correctAnswer: "who",
-      explanation: "Focusing on a person (The CEO) requires 'who' or 'that'.",
-      translation: "El CEO tomó la decisión. -> Fue el CEO quien tomó la decisión.",
-      hint: "Focus on the person."
+    "id": "b2-u16-e6",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "Cyberbullying is a serious issue that needs more attention.",
+    "content": {
+      "title": "Ciberacoso",
+      "instructions": "Ordena las palabras para hablar de problemas en red.",
+      "correctSentence": "[[Cyberbullying|El ciberacoso]] [[is|es]] [[a|un]] [[serious|problema]] [[issue|grave]] [[that|que]] [[needs|necesita]] [[more|más]] [[attention.|atención.]]",
+      "words": [
+        "[[is|es]]",
+        "[[issue|grave]]",
+        "[[attention.|atención.]]",
+        "[[serious|problema]]",
+        "[[Cyberbullying|El ciberacoso]]",
+        "[[that|que]]",
+        "[[needs|necesita]]",
+        "[[more|más]]",
+        "[[a|un]]"
+      ],
+      "explanation": "'Cyberbullying' es el uso de medios digitales para acosar a una persona.",
+      "audio": "audio/b2/unit-16/e6.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-16/e6.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u16-e7",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "We met at the startup hub. It was at the startup hub that we met.",
-    content: {
-      title: "It-Cleft Sentences",
-      instructions: "Choose the correct relative pronoun for emphasis.",
-      question: "[[We|Nos]] [[met|conocimos]] [[at|en]] [[the|el]] [[startup|centro]] [[hub.|de startups.]] [[->|->]] [[It|Fue]] [[was|en]] [[at|el]] [[the|centro]] [[startup|de]] [[hub|startups]] [[___|___]] [[(that)|donde]] [[we|nos]] [[met.|conocimos.]]",
-      options: ["which", "that", "where"],
-      correctAnswer: "that",
-      explanation: "In it-clefts focusing on place, 'that' is standard.",
-      translation: "Nos conocimos en el centro de startups. -> Fue en el centro de startups donde nos conocimos.",
-      hint: "Place focus."
+    "id": "b2-u16-e7",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "I stopped using that app because it was too distracting.",
+    "content": {
+      "title": "Dejar una app",
+      "instructions": "Ordena las palabras usando 'stop + -ing' para cesar un hábito.",
+      "correctSentence": "[[I|Dejé]] [[stopped|de]] [[using|usar]] [[that|esa]] [[app|aplicación]] [[because|porque]] [[it|era]] [[was|demasiado]] [[too|distrayente.]] [[distracting.| ]]",
+      "words": [
+        "[[stopped|de]]",
+        "[[app|aplicación]]",
+        "[[distracting.| ]]",
+        "[[because|porque]]",
+        "[[I|Dejé]]",
+        "[[using|usar]]",
+        "[[too|distrayente.]]",
+        "[[that|esa]]",
+        "[[it|era]]",
+        "[[was|demasiado]]"
+      ],
+      "explanation": "'Stop + gerundio' significa dejar de realizar una actividad definitivamente o por un tiempo.",
+      "audio": "audio/b2/unit-16/e7.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-16/e7.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u16-e8",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "She came up with the idea. It was she who came up with the idea.",
-    content: {
-      title: "It-Cleft Sentences",
-      instructions: "Choose the correct relative pronoun for emphasis.",
-      question: "[[She|A ella]] [[came|se]] [[up|le]] [[with|ocurrió]] [[the|la]] [[idea.|idea.]] [[->|->]] [[It|Fue]] [[was|ella]] [[she|quien]] [[___|___]] [[(who)| ]] [[came|tuvo]] [[up|la]] [[with|idea.]] [[the| ]] [[idea.| ]]",
-      options: ["which", "who", "what"],
-      correctAnswer: "who",
-      explanation: "Focus on 'she' (subject pronoun) followed by 'who'.",
-      translation: "A ella se le ocurrió la idea. -> Fue ella quien tuvo la idea.",
-      hint: "Person focus."
+    "id": "b2-u16-e8",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "Instant messaging has made communication faster and more efficient.",
+    "content": {
+      "title": "Mensajería instantánea",
+      "instructions": "Ordena las palabras para hablar de herramientas de comunicación.",
+      "correctSentence": "[[Instant|La mensajería]] [[messaging|instantánea]] [[has|ha]] [[made|hecho]] [[communication|que la comunicación]] [[faster|sea más rápida]] [[and|y]] [[more|más]] [[efficient.|eficiente.]]",
+      "words": [
+        "[[messaging|instantánea]]",
+        "[[made|hecho]]",
+        "[[efficient.|eficiente.]]",
+        "[[communication|que la comunicación]]",
+        "[[Instant|La mensajería]]",
+        "[[more|más]]",
+        "[[has|ha]]",
+        "[[and|y]]",
+        "[[faster|sea más rápida]]"
+      ],
+      "explanation": "'Instant messaging' se refiere a aplicaciones como WhatsApp o Telegram.",
+      "audio": "audio/b2/unit-16/e8.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-16/e8.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u16-e9",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "He won the prize for his app. It was for his app that he won the prize.",
-    content: {
-      title: "It-Cleft Sentences",
-      instructions: "Choose the correct relative pronoun for emphasis.",
-      question: "[[He|Ganó]] [[won|el]] [[the|premio]] [[prize|por]] [[for|su]] [[his|aplicación.]] [[app.| ]] [[->|->]] [[It|Fue]] [[was|por]] [[for|su]] [[his|aplicación]] [[app|que]] [[___|___]] [[(that)| ]] [[he|ganó]] [[won|el]] [[the|premio.]] [[prize.| ]]",
-      options: ["which", "that", "what"],
-      correctAnswer: "that",
-      explanation: "Focusing on the reason/object 'for his app'.",
-      translation: "Ganó el premio por su aplicación. -> Fue por su aplicación que ganó el premio.",
-      hint: "Focus on the cause."
+    "id": "b2-u16-e9",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "Had I known it was a scam, I wouldn't have clicked.",
+    "content": {
+      "title": "Estafa en línea",
+      "instructions": "Ordena las palabras usando inversión en el tercer condicional.",
+      "correctSentence": "[[Had|Si]] [[I|hubiera]] [[known|sabido]] [[it|que]] [[was|era]] [[a|una]] [[scam,|estafa,]] [[I|no]] [[wouldn't|habría]] [[have|hecho]] [[clicked.|clic.]]",
+      "words": [
+        "[[I|hubiera]]",
+        "[[scam,|estafa,]]",
+        "[[clicked.|clic.]]",
+        "[[was|era]]",
+        "[[Had|Si]]",
+        "[[wouldn't|habría]]",
+        "[[known|sabido]]",
+        "[[have|hecho]]",
+        "[[I|no]]",
+        "[[it|que]]",
+        "[[a|una]]"
+      ],
+      "explanation": "La inversión 'Had I known' sustituye a 'If I had known' en contextos formales o enfáticos.",
+      "audio": "audio/b2/unit-16/e9.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-16/e9.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u16-e10",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "The team worked all night. It was the team that worked all night.",
-    content: {
-      title: "It-Cleft Sentences",
-      instructions: "Choose the correct relative pronoun for emphasis.",
-      question: "[[The|El]] [[team|equipo]] [[worked|trabajó]] [[all|toda]] [[night.|la noche.]] [[->|->]] [[It|Fue]] [[was|el]] [[the|equipo]] [[team|el]] [[___|___]] [[(that)|que]] [[worked|trabajó]] [[all|toda]] [[night.|la noche.]]",
-      options: ["which", "that", "who"],
-      correctAnswer: "that",
-      explanation: "Groups can be referred to with 'that' or 'who'.",
-      translation: "El equipo trabajó toda la noche. -> Fue el equipo el que trabajó toda la noche.",
-      hint: "Focus on the group."
+    "id": "b2-u16-e10",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "Going viral can provide a huge boost to small businesses.",
+    "content": {
+      "title": "Hacerse viral",
+      "instructions": "Ordena las palabras para hablar de visibilidad online.",
+      "correctSentence": "[[Going|Hacerse]] [[viral|viral]] [[can|puede]] [[provide|proporcionar]] [[a|un]] [[huge|gran]] [[boost|impulso]] [[to|a]] [[small|pequeñas]] [[businesses.|empresas.]]",
+      "words": [
+        "[[viral|viral]]",
+        "[[provide|proporcionar]]",
+        "[[businesses.|empresas.]]",
+        "[[huge|gran]]",
+        "[[Going|Hacerse]]",
+        "[[to|a]]",
+        "[[can|puede]]",
+        "[[small|pequeñas]]",
+        "[[boost|impulso]]",
+        "[[a|un]]"
+      ],
+      "explanation": "'Go viral' significa que algo se comparte masivamente en Internet en poco tiempo.",
+      "audio": "audio/b2/unit-16/e10.mp3"
     },
-    topicName: "Grammar"
-  },
-
-  // 11-20: Grammar - Wh-Cleft Sentences
-  {
-    id: "b2-u16-e11",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "hard",
-    transcript: "I need a holiday. What I need is a holiday.",
-    content: {
-      title: "Wh-Cleft Sentences",
-      instructions: "Choose the correct Wh-word for emphasis.",
-      question: "[[I|Necesito]] [[need|unas]] [[a|vacaciones.]] [[holiday.| ]] [[->|->]] [[___|___]] [[(What)|Lo que]] [[I|necesito]] [[need|son]] [[is|unas]] [[a|vacaciones.]] [[holiday.| ]]",
-      options: ["[[What|Lo que]]", "[[Who|Quien]]", "[[Where|Donde]]"],
-      correctAnswer: "What",
-      explanation: "Wh-cleft sentences often start with 'What' to emphasize the object or action.",
-      translation: "Necesito unas vacaciones. -> Lo que necesito son unas vacaciones.",
-      hint: "Start with 'W'."
-    },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-16/e10.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u16-e12",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "hard",
-    transcript: "She wants more responsibility. What she wants is more responsibility.",
-    content: {
-      title: "Wh-Cleft Sentences",
-      instructions: "Choose the correct Wh-word for emphasis.",
-      question: "[[She|Ella]] [[wants|quiere]] [[more|más]] [[responsibility.|responsabilidad.]] [[->|->]] [[___|___]] [[(What)|Lo que]] [[she|ella]] [[wants|quiere]] [[is|es]] [[more|más]] [[responsibility.|responsabilidad.]]",
-      options: ["[[What|Lo que]]", "[[Which|Cual]]", "[[That|Ese]]"],
-      correctAnswer: "What",
-      explanation: "Emphasizing the thing desired.",
-      translation: "Ella quiere más responsabilidad. -> Lo que ella quiere es más responsabilidad.",
-      hint: "Start with 'W'."
+    "id": "b2-u16-e11",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "It is essential that users report any abusive content immediately.",
+    "content": {
+      "title": "Reportar abusos",
+      "instructions": "Ordena las palabras usando el subjuntivo formal.",
+      "correctSentence": "[[It|Es]] [[is|esencial]] [[essential|que]] [[that|los]] [[users|usuarios]] [[report|denuncien]] [[any|cualquier]] [[abusive|contenido]] [[content|abusivo]] [[immediately.|de inmediato.]]",
+      "words": [
+        "[[essential|que]]",
+        "[[report|denuncien]]",
+        "[[immediately.|de inmediato.]]",
+        "[[users|usuarios]]",
+        "[[is|esencial]]",
+        "[[It|Es]]",
+        "[[abusive|contenido]]",
+        "[[that|los]]",
+        "[[content|abusivo]]",
+        "[[any|cualquier]]"
+      ],
+      "explanation": "Tras 'essential that', el verbo va en forma base (report) para el subjuntivo.",
+      "audio": "audio/b2/unit-16/e11.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-16/e11.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u16-e13",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "hard",
-    transcript: "What we love about the job is the flexibility.",
-    content: {
-      title: "Wh-Cleft Sentences",
-      instructions: "Choose the correct Wh-word.",
-      question: "[[___|___]] [[(What)|Lo que]] [[we|nos]] [[love|encanta]] [[about|del]] [[the|trabajo]] [[job|es]] [[is|la]] [[the|flexibilidad.]] [[flexibility.| ]]",
-      options: ["[[What|Lo que]]", "[[How|Cómo]]", "[[Why|Por qué]]"],
-      correctAnswer: "What",
-      explanation: "'What' functions as the subject relative pronoun here.",
-      translation: "Lo que nos encanta del trabajo es la flexibilidad.",
-      hint: "The thing that..."
+    "id": "b2-u16-e12",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "Algorithms determine what content we see on our feeds.",
+    "content": {
+      "title": "Algoritmos",
+      "instructions": "Ordena las palabras para hablar de personalización.",
+      "correctSentence": "[[Algorithms|Los algoritmos]] [[determine|determinan]] [[what|qué]] [[content|contenido]] [[we|vemos]] [[see|en]] [[on|nuestros]] [[our|feeds.]] [[feeds.| ]]",
+      "words": [
+        "[[determine|determinan]]",
+        "[[content|contenido]]",
+        "[[feeds.| ]]",
+        "[[Algorithms|Los algoritmos]]",
+        "[[on|nuestros]]",
+        "[[what|qué]]",
+        "[[see|en]]",
+        "[[we|vemos]]",
+        "[[our|feeds.]]"
+      ],
+      "explanation": "Los algoritmos de las redes sociales filtran la información que se muestra a cada usuario.",
+      "audio": "audio/b2/unit-16/e12.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-16/e12.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u16-e14",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "hard",
-    transcript: "What he said was 'no'.",
-    content: {
-      title: "Wh-Cleft Sentences",
-      instructions: "Choose the correct Wh-word.",
-      question: "[[___|___]] [[(What)|Lo que]] [[he|dijo]] [[said|fue]] [[was|'no'.]] [['no'.| ]]",
-      options: ["[[What|Lo que]]", "[[Whatever|Lo que sea]]", "[[That|Eso]]"],
-      correctAnswer: "What",
-      explanation: "Emphasizing the statement made.",
-      translation: "Lo que dijo fue 'no'.",
-      hint: "The thing that..."
+    "id": "b2-u16-e13",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "I regret posting that comment during the heated argument.",
+    "content": {
+      "title": "Arrepentimiento online",
+      "instructions": "Ordena las palabras usando 'regret + -ing' para el pasado.",
+      "correctSentence": "[[I|Me]] [[regret|arrepiento]] [[posting|de haber]] [[that|publicado]] [[comment|ese]] [[during|comentario]] [[the|durante]] [[heated|la acalorada]] [[argument.|discusión.]]",
+      "words": [
+        "[[regret|arrepiento]]",
+        "[[comment|ese]]",
+        "[[argument.|discusión.]]",
+        "[[posting|de haber]]",
+        "[[I|Me]]",
+        "[[heated|la acalorada]]",
+        "[[during|durante]]",
+        "[[that|publicado]]",
+        "[[the|la acalorada]]"
+      ],
+      "explanation": "'Regret + gerundio' indica arrepentimiento por algo ya hecho.",
+      "audio": "audio/b2/unit-16/e13.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-16/e13.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u16-e15",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "hard",
-    transcript: "What they did was start a new brand.",
-    content: {
-      title: "Wh-Cleft Sentences",
-      instructions: "Choose the correct Wh-word.",
-      question: "[[___|___]] [[(What)|Lo que]] [[they|hicieron]] [[did|fue]] [[was|lanzar]] [[start|una]] [[a|nueva]] [[new|marca.]] [[brand.| ]]",
-      options: ["[[What|Lo que]]", "[[When|Cuando]]", "[[Where|Donde]]"],
-      correctAnswer: "What",
-      explanation: "Emphasizing the action performed.",
-      translation: "Lo que hicieron fue lanzar una nueva marca.",
-      hint: "The action that..."
+    "id": "b2-u16-e14",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "Verification badges help distinguish official accounts from parodies.",
+    "content": {
+      "title": "Cuentas verificadas",
+      "instructions": "Ordena las palabras para hablar de autenticidad.",
+      "correctSentence": "[[Verification|Las insignias]] [[badges|de verificación]] [[help|ayudan a]] [[distinguish|distinguir]] [[official|las cuentas]] [[accounts|oficiales]] [[from|de las]] [[parodies.|parodias.]]",
+      "words": [
+        "[[badges|de verificación]]",
+        "[[distinguish|distinguir]]",
+        "[[parodies.|parodias.]]",
+        "[[official|las cuentas]]",
+        "[[Verification|Las insignias]]",
+        "[[from|de las]]",
+        "[[help|ayudan a]]",
+        "[[accounts|oficiales]]"
+      ],
+      "explanation": "Los 'verification badges' son iconos (como el check azul) que confirman la identidad de un perfil.",
+      "audio": "audio/b2/unit-16/e14.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-16/e14.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u16-e16",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "hard",
-    transcript: "What the company needs is better marketing.",
-    content: {
-      title: "Wh-Cleft Sentences",
-      instructions: "Choose the correct Wh-word.",
-      question: "[[___|___]] [[(What)|Lo que]] [[the|la]] [[company|empresa]] [[needs|necesita]] [[is|es]] [[better|un mejor]] [[marketing.|marketing.]]",
-      options: ["[[What|Lo que]]", "[[Who|Quien]]", "[[Which|Cual]]"],
-      correctAnswer: "What",
-      explanation: "Emphasizing the requirement.",
-      translation: "Lo que la empresa necesita es un mejor marketing.",
-      hint: "The thing that..."
+    "id": "b2-u16-e15",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "Only by being careful can we avoid online scams.",
+    "content": {
+      "title": "Evitar estafas",
+      "instructions": "Ordena las palabras usando inversión con 'Only by'.",
+      "correctSentence": "[[Only|Solo]] [[by|siendo]] [[being|cuidadosos]] [[careful|podemos]] [[can|evitar]] [[we|las]] [[avoid|estafas]] [[online|en]] [[scams.|línea.]]",
+      "words": [
+        "[[by|siendo]]",
+        "[[careful|cuidadosos]]",
+        "[[online|en]]",
+        "[[can|podemos]]",
+        "[[Only|Solo]]",
+        "[[scams.|línea.]]",
+        "[[avoid|estafas]]",
+        "[[being|cuidadosos]]",
+        "[[we|las]]"
+      ],
+      "explanation": "Tras 'Only by' + gerundio, se invierte el auxiliar (can) y el sujeto (we).",
+      "audio": "audio/b2/unit-16/e15.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-16/e15.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u16-e17",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "hard",
-    transcript: "What I hate is being late.",
-    content: {
-      title: "Wh-Cleft Sentences",
-      instructions: "Choose the correct Wh-word.",
-      question: "[[___|___]] [[(What)|Lo que]] [[I|odio]] [[hate|es]] [[is|llegar]] [[being|tarde.]] [[late.| ]]",
-      options: ["[[What|Lo que]]", "[[Whom|A quien]]", "[[How|Cómo]]"],
-      correctAnswer: "What",
-      explanation: "Emphasizing the dislike.",
-      translation: "Lo que odio es llegar tarde.",
-      hint: "The thing that..."
+    "id": "b2-u16-e16",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "The hashtag allows users to find related content easily.",
+    "content": {
+      "title": "Uso de hashtags",
+      "instructions": "Ordena las palabras para hablar de búsqueda de contenido.",
+      "correctSentence": "[[The|El]] [[hashtag|hashtag]] [[allows|permite]] [[users|a los usuarios]] [[to|encontrar]] [[find|contenido]] [[related|relacionado]] [[content|fácilmente.]] [[easily.| ]]",
+      "words": [
+        "[[hashtag|hashtag]]",
+        "[[find|contenido]]",
+        "[[easily.| ]]",
+        "[[allows|permite]]",
+        "[[The|El]]",
+        "[[related|relacionado]]",
+        "[[to|encontrar]]",
+        "[[users|a los usuarios]]",
+        "[[content|fácilmente.]]"
+      ],
+      "explanation": "Un 'hashtag' es una palabra precedida por # que agrupa temas en redes sociales.",
+      "audio": "audio/b2/unit-16/e16.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-16/e16.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u16-e18",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "hard",
-    transcript: "What we discussed was the budget.",
-    content: {
-      title: "Wh-Cleft Sentences",
-      instructions: "Choose the correct Wh-word.",
-      question: "[[___|___]] [[(What)|Lo que]] [[we|discutimos]] [[discussed|fue]] [[was|el]] [[the|presupuesto.]] [[budget.| ]]",
-      options: ["[[What|Lo que]]", "[[Whether|Si]]", "[[Wait|Espera]]"],
-      correctAnswer: "What",
-      explanation: "Emphasizing the topic of discussion.",
-      translation: "Lo que discutimos fue el presupuesto.",
-      hint: "The topic that..."
+    "id": "b2-u16-e17",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "I'd rather you didn't share my personal photos online.",
+    "content": {
+      "title": "Compartir fotos",
+      "instructions": "Ordena las palabras usando 'I'd rather' para preferencias sobre otros.",
+      "correctSentence": "[[I'd|Preferiría]] [[rather|que]] [[you|no]] [[didn't|compartieras]] [[share|mis]] [[my|fotos]] [[personal|personales]] [[photos|en]] [[online.|línea.]]",
+      "words": [
+        "[[rather|que]]",
+        "[[my|fotos]]",
+        "[[online.|línea.]]",
+        "[[didn't|compartieras]]",
+        "[[I'd|Preferiría]]",
+        "[[personal|personales]]",
+        "[[share|mis]]",
+        "[[you|no]]",
+        "[[photos|en]]"
+      ],
+      "explanation": "Con un sujeto distinto, 'I'd rather' requiere past simple para situaciones presentes.",
+      "audio": "audio/b2/unit-16/e17.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-16/e17.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u16-e19",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "hard",
-    transcript: "What he forgot was the meeting time.",
-    content: {
-      title: "Wh-Cleft Sentences",
-      instructions: "Choose the correct Wh-word.",
-      question: "[[___|___]] [[(What)|Lo que]] [[he|olvidó]] [[forgot|fue]] [[was|la]] [[the|hora]] [[meeting|de la]] [[time.|reunión.]]",
-      options: ["[[What|Lo que]]", "[[Why|Por qué]]", "[[How|Cómo]]"],
-      correctAnswer: "What",
-      explanation: "Emphasizing the forgotten item.",
-      translation: "Lo que olvidó fue la hora de la reunión.",
-      hint: "The thing that..."
+    "id": "b2-u16-e18",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "The app's interface is very intuitive and user-friendly.",
+    "content": {
+      "title": "Interfaz de usuario",
+      "instructions": "Ordena las palabras para hablar de diseño de apps.",
+      "correctSentence": "[[The|La]] [[app's|interfaz]] [[interface|de la app]] [[is|es]] [[very|muy]] [[intuitive|intuitiva]] [[and|y]] [[user-friendly.|fácil de usar.]]",
+      "words": [
+        "[[interface|de la app]]",
+        "[[intuitive|intuitiva]]",
+        "[[user-friendly.|fácil de usar.]]",
+        "[[is|es]]",
+        "[[The|La]]",
+        "[[app's|interfaz]]",
+        "[[very|muy]]",
+        "[[and|y]]"
+      ],
+      "explanation": "'User-friendly' describe un sistema que es fácil de manejar para el usuario.",
+      "audio": "audio/b2/unit-16/e18.mp3"
     },
-    topicName: "Grammar"
+    "audioUrl": "audio/b2/unit-16/e18.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u16-e20",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "hard",
-    transcript: "What she realized was that she needed help.",
-    content: {
-      title: "Wh-Cleft Sentences",
-      instructions: "Choose the correct Wh-word.",
-      question: "[[___|___]] [[(What)|Lo que]] [[she|se]] [[realized|dio]] [[was|cuenta]] [[that|fue]] [[she|que]] [[needed|necesitaba]] [[help.|ayuda.]]",
-      options: ["[[What|Lo que]]", "[[When|Cuando]]", "[[Which|Cual]]"],
-      correctAnswer: "What",
-      explanation: "Emphasizing the realization.",
-      translation: "Lo que se dio cuenta fue que necesitaba ayuda.",
-      hint: "The thing that..."
+    "id": "b2-u16-e19",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "Supposing you lost your phone, how would you contact me?",
+    "content": {
+      "title": "Pérdida de móvil",
+      "instructions": "Ordena las palabras usando 'Supposing' para hipótesis.",
+      "correctSentence": "[[Supposing|Suponiendo]] [[you|que]] [[lost|perdieras]] [[your|tu]] [[phone,|teléfono,]] [[how|¿cómo]] [[would|te]] [[you|pondrías]] [[contact|en contacto]] [[me?|conmigo?]]",
+      "words": [
+        "[[you|que]]",
+        "[[phone,|teléfono,]]",
+        "[[me?|conmigo?]]",
+        "[[would|te]]",
+        "[[Supposing|Suponiendo]]",
+        "[[contact|en contacto]]",
+        "[[lost|perdieras]]",
+        "[[how|¿cómo]]",
+        "[[your|tu]]",
+        "[[you|pondrías]]"
+      ],
+      "explanation": "'Supposing' + past simple plantea situaciones hipotéticas en el presente o futuro.",
+      "audio": "audio/b2/unit-16/e19.mp3"
     },
-    topicName: "Grammar"
-  },
-
-  // 21-30: Vocabulary - Startups
-  {
-    id: "b2-u16-e21",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "He is a successful serial entrepreneur.",
-    content: {
-      title: "Startup Terms",
-      instructions: "Choose the correct word.",
-      question: "[[He|Es]] [[is|un]] [[a|emprendedor]] [[successful|de éxito]] [[serial|en serie]] [[___|___]] [[(entrepreneur).| ]]",
-      options: ["[[entrepreneur|emprendedor]]", "[[employer|empleador]]", "[[employee|empleado]]"],
-      correctAnswer: "entrepreneur",
-      explanation: "An entrepreneur is someone who starts a business.",
-      translation: "Es un emprendedor en serie de éxito.",
-      hint: "Someone who starts businesses."
-    },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-16/e19.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u16-e22",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "The startup secured a seed funding round.",
-    content: {
-      title: "Startup Terms",
-      instructions: "Choose the correct word.",
-      question: "[[The|La]] [[startup|startup]] [[secured|aseguró]] [[a|una]] [[seed|ronda]] [[___|___]] [[(funding)|de financiación]] [[round.|semilla.]]",
-      options: ["[[funding|financiación]]", "[[finding|hallazgo]]", "[[founding|fundación]]"],
-      correctAnswer: "funding",
-      explanation: "Funding refers to the money provided for a business.",
-      translation: "La startup aseguró una ronda de financiación semilla.",
-      hint: "Financial support."
+    "id": "b2-u16-e20",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "Data breaches can expose sensitive information to hackers.",
+    "content": {
+      "title": "Filtración de datos",
+      "instructions": "Ordena las palabras para hablar de seguridad informática.",
+      "correctSentence": "[[Data|Las filtraciones]] [[breaches|de datos]] [[can|pueden]] [[expose|exponer]] [[sensitive|información]] [[information|sensible]] [[to|a]] [[hackers.|los hackers.]]",
+      "words": [
+        "[[breaches|de datos]]",
+        "[[expose|exponer]]",
+        "[[hackers.|los hackers.]]",
+        "[[sensitive|información]]",
+        "[[Data|Las filtraciones]]",
+        "[[to|a]]",
+        "[[can|pueden]]",
+        "[[information|sensible]]"
+      ],
+      "explanation": "A 'data breach' es un incidente donde se accede a información privada sin permiso.",
+      "audio": "audio/b2/unit-16/e20.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-16/e20.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u16-e23",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "We need to pitch our idea to venture capitalists.",
-    content: {
-      title: "Startup Terms",
-      instructions: "Choose the correct word.",
-      question: "[[We|Necesitamos]] [[need|presentar]] [[to|nuestra]] [[pitch|idea]] [[our|a]] [[idea|los]] [[to|capitalistas]] [[venture|de]] [[___|___]] [[(capitalists).|riesgo.]]",
-      options: ["[[capitalists|capitalistas]]", "[[candidates|candidatos]]", "[[captains|capitanes]]"],
-      correctAnswer: "capitalists",
-      explanation: "Venture capitalists are investors who provide capital to startups.",
-      translation: "Necesitamos presentar nuestra idea a los capitalistas de riesgo.",
-      hint: "Professional investors."
+    "id": "b2-u16-e21",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "Providing that the internet is stable, we can start the meeting.",
+    "content": {
+      "title": "Reunión online",
+      "instructions": "Ordena las palabras usando 'Providing that'.",
+      "correctSentence": "[[Providing|Siempre]] [[that|que]] [[the|el]] [[internet|internet]] [[is|esté]] [[stable,|estable,]] [[we|podemos]] [[can|empezar]] [[start|la]] [[the|reunión.]] [[meeting.| ]]",
+      "words": [
+        "[[that|que]]",
+        "[[stable,|estable,]]",
+        "[[meeting.| ]]",
+        "[[Providing|Siempre]]",
+        "[[start|la]]",
+        "[[internet|internet]]",
+        "[[can|empezar]]",
+        "[[is|esté]]",
+        "[[the|el]]",
+        "[[we|podemos]]"
+      ],
+      "explanation": "'Providing that' es una alternativa formal a 'if'.",
+      "audio": "audio/b2/unit-16/e21.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-16/e21.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u16-e24",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "The company has a very high valuation.",
-    content: {
-      title: "Startup Terms",
-      instructions: "Choose the correct word.",
-      question: "[[The|La]] [[company|empresa]] [[has|tiene]] [[a|una]] [[very|valoración]] [[high|muy]] [[___|___]] [[(valuation).|alta.]]",
-      options: ["[[valuation|valoración]]", "[[evaluation|evaluación]]", "[[validation|validación]]"],
-      correctAnswer: "valuation",
-      explanation: "Valuation is the estimated worth of a company.",
-      translation: "La empresa tiene una valoración muy alta.",
-      hint: "Estimated worth."
+    "id": "b2-u16-e22",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "Engagement is a key metric for measuring social media success.",
+    "content": {
+      "title": "Engagement",
+      "instructions": "Ordena las palabras para hablar de métricas digitales.",
+      "correctSentence": "[[Engagement|El compromiso]] [[is|es]] [[a|una]] [[key|métrica]] [[metric|clave]] [[for|para]] [[measuring|medir el]] [[social|éxito en las]] [[media|redes]] [[success.|sociales.]]",
+      "words": [
+        "[[is|es]]",
+        "[[metric|clave]]",
+        "[[success.|sociales.]]",
+        "[[key|métrica]]",
+        "[[Engagement|El compromiso]]",
+        "[[media|redes]]",
+        "[[for|para]]",
+        "[[measuring|medir el]]",
+        "[[social|éxito en las]]",
+        "[[a|una]]"
+      ],
+      "explanation": "'Engagement' se refiere al nivel de interacción (likes, comentarios) que recibe el contenido.",
+      "audio": "audio/b2/unit-16/e22.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-16/e22.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u16-e25",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "They are looking for an angel investor.",
-    content: {
-      title: "Startup Terms",
-      instructions: "Choose the correct word.",
-      question: "[[They|Están]] [[are|buscando]] [[looking|un]] [[for|inversor]] [[an|ángel.]] [[angel| ]] [[___|___]] [[(investor).| ]]",
-      options: ["[[investor|inversor]]", "[[inventor|inventor]]", "[[investigator|investigador]]"],
-      correctAnswer: "investor",
-      explanation: "An angel investor provides capital for a business start-up.",
-      translation: "Están buscando un inversor ángel.",
-      hint: "Early stage investor."
+    "id": "b2-u16-e23",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "I'll call you as soon as the video finishes uploading.",
+    "content": {
+      "title": "Subir video",
+      "instructions": "Ordena las palabras usando 'as soon as'.",
+      "correctSentence": "[[I'll|Te]] [[call|llamaré]] [[you|en cuanto]] [[as|el]] [[soon|video]] [[as|termine]] [[the|de]] [[video|subirse.]] [[finishes| ]] [[uploading.| ]]",
+      "words": [
+        "[[call|llamaré]]",
+        "[[as|el]]",
+        "[[uploading.| ]]",
+        "[[soon|video]]",
+        "[[I'll|Te]]",
+        "[[finishes| ]]",
+        "[[as|termine]]",
+        "[[video|subirse.]]",
+        "[[you|en cuanto]]",
+        "[[the|de]]"
+      ],
+      "explanation": "Usamos el presente simple (finishes) tras 'as soon as' para referirnos al futuro.",
+      "audio": "audio/b2/unit-16/e23.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-16/e23.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u16-e26",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "The app has a lot of potential for growth.",
-    content: {
-      title: "Startup Terms",
-      instructions: "Choose the correct word.",
-      question: "[[The|La]] [[app|aplicación]] [[has|tiene]] [[a|mucho]] [[lot| ]] [[of| ]] [[_______|_______]] [[(potential)|(potencial)]] [[for|de]] [[growth.|crecimiento.]]",
-      options: ["[[potential|potencial]]", "[[possible|posible]]", "[[powerful|poderoso]]"],
-      correctAnswer: "potential",
-      explanation: "Potential means having the capacity to develop into something in the future.",
-      translation: "La aplicación tiene mucho potencial de crecimiento.",
-      hint: "Capacity for growth."
+    "id": "b2-u16-e24",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "Direct messages allow for private conversations on public platforms.",
+    "content": {
+      "title": "Mensajes directos",
+      "instructions": "Ordena las palabras para hablar de privacidad en redes.",
+      "correctSentence": "[[Direct|Los mensajes]] [[messages|directos]] [[allow|permiten]] [[for|conversaciones]] [[private|privadas]] [[conversations|en]] [[on|plataformas]] [[public|públicas.]] [[platforms.| ]]",
+      "words": [
+        "[[messages|directos]]",
+        "[[private|privadas]]",
+        "[[platforms.| ]]",
+        "[[allow|permiten]]",
+        "[[Direct|Los mensajes]]",
+        "[[public|públicas.]]",
+        "[[on|plataformas]]",
+        "[[for|conversaciones]]",
+        "[[conversations|en]]"
+      ],
+      "explanation": "'Direct messages' (DMs) son chats privados dentro de una red social.",
+      "audio": "audio/b2/unit-16/e24.mp3"
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-16/e24.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u16-e27",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "We need to find our niche market.",
-    content: {
-      title: "Startup Terms",
-      instructions: "Choose the correct word.",
-      question: "[[We|Necesitamos]] [[need| ]] [[to|encontrar]] [[find|nuestro]] [[our|nicho]] [[niche|de]] [[_______|_______]] [[(market).|mercado.]]",
-      options: ["[[market|mercado]]", "[[shop|tienda]]", "[[office|oficina]]"],
-      correctAnswer: "market",
-      explanation: "A niche market is a specialized segment of the market.",
-      translation: "Necesitamos encontrar nuestro nicho de mercado.",
-      hint: "Specialized segment."
+    "id": "b2-u16-e25",
+    "type": "sentence-building",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "Unless you turn off notifications, you will be distracted.",
+    "content": {
+      "title": "Notificaciones",
+      "instructions": "Ordena las palabras usando 'Unless'.",
+      "correctSentence": "[[Unless|A menos]] [[you|que]] [[turn|desactives]] [[off|las]] [[notifications,|notificaciones,]] [[you|te]] [[will|distraerás.]] [[be| ]] [[distracted.| ]]",
+      "words": [
+        "[[you|que]]",
+        "[[notifications,|notificaciones,]]",
+        "[[distracted.| ]]",
+        "[[will|distraerás.]]",
+        "[[Unless|A menos]]",
+        "[[be| ]]",
+        "[[turn|desactives]]",
+        "[[off|las]]",
+        "[[you|te]]"
+      ],
+      "explanation": "'Unless' significa 'if not' (a menos que).",
+      "audio": "audio/b2/unit-16/e25.mp3"
     },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u16-e28",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "The startup is based in a tech incubator.",
-    content: {
-      title: "Startup Terms",
-      instructions: "Choose the correct word.",
-      question: "[[The|La]] [[startup|startup]] [[is|tiene]] [[based|su]] [[in|sede]] [[a|en]] [[tech|una]] [[_______|_______]] [[(incubator).|incubadora tecnológica.]]",
-      options: ["[[incubator|incubadora]]", "[[indicator|indicador]]", "[[instrument|instrumento]]"],
-      correctAnswer: "incubator",
-      explanation: "An incubator helps new startups to develop.",
-      translation: "La startup tiene su sede en una incubadora tecnológica.",
-      hint: "Support organization for startups."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u16-e29",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "They developed a prototype of the product.",
-    content: {
-      title: "Startup Terms",
-      instructions: "Choose the correct word.",
-      question: "[[They|Desarrollaron]] [[developed|un]] [[a| ]] [[_______|_______]] [[(prototype)|(prototipo)]] [[of|del]] [[the| ]] [[product.|producto.]]",
-      options: ["[[prototype|prototipo]]", "[[professional|profesional]]", "[[promotion|promoción]]"],
-      correctAnswer: "prototype",
-      explanation: "A prototype is a first or preliminary model of something.",
-      translation: "Desarrollaron un prototipo del producto.",
-      hint: "Early model."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u16-e30",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "The company went public last year.",
-    content: {
-      title: "Startup Terms",
-      instructions: "Choose the correct word.",
-      question: "[[The|La]] [[company|empresa]] [[went|salió]] [[_______|_______]] [[(public)|(a bolsa)]] [[last|el]] [[year.|año pasado.]]",
-      options: ["[[public|a bolsa / público]]", "[[private|privado]]", "[[popular|popular]]"],
-      correctAnswer: "public",
-      explanation: "To 'go public' means to start selling shares to the general public.",
-      translation: "La empresa salió a bolsa el año pasado.",
-      hint: "Opposite of private."
-    },
-    topicName: "Vocabulary"
-  },
-
-  // 31-40: Vocabulary - Business Strategy
-  {
-    id: "b2-u16-e31",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "We need a solid business plan.",
-    content: {
-      title: "Business Strategy",
-      instructions: "Choose the correct term.",
-      question: "[[We|Necesitamos]] [[need|un]] [[a|plan]] [[solid|de]] [[business|negocios]] [[_______|_______]].",
-      options: ["[[plan|plan]]", "[[path|camino]]", "[[map|mapa]]"],
-      correctAnswer: "plan",
-      explanation: "A business plan describes the goals and strategy of a business.",
-      translation: "Necesitamos un plan de negocios sólido.",
-      hint: "Strategy document."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u16-e32",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "The goal is to scale the business quickly.",
-    content: {
-      title: "Business Strategy",
-      instructions: "Choose the correct term.",
-      question: "[[The|El]] [[goal|objetivo]] [[is|es]] [[to|escalar]] [[_______|_______]] [[the|el]] [[business|negocio]] [[quickly.|rápidamente.]]",
-      options: ["[[grow|crecer]]", "[[make|hacer]]", "[[scale|escalar]]"],
-      correctAnswer: "scale",
-      explanation: "To scale means to grow a business in a proportional way.",
-      translation: "El objetivo es escalar el negocio rápidamente.",
-      hint: "Grow proportionally."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u16-e33",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "We are trying to disrupt the industry.",
-    content: {
-      title: "Business Strategy",
-      instructions: "Choose the correct term.",
-      question: "[[We|Estamos]] [[are|tratando]] [[trying|de]] [[to|irrumpir]] [[_______|_______]] [[the|en la]] [[industry.|industria.]]",
-      options: ["[[break|romper]]", "[[change|cambiar]]", "[[disrupt|irrumpir]]"],
-      correctAnswer: "disrupt",
-      explanation: "To disrupt an industry means to change it radically.",
-      translation: "Estamos tratando de irrumpir en la industria.",
-      hint: "Radical change."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u16-e34",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "Customer acquisition is our top priority.",
-    content: {
-      title: "Business Strategy",
-      instructions: "Choose the correct term.",
-      question: "[[Customer|La adquisición]] [[_______|_______]] [[is|de clientes]] [[our|es]] [[top|nuestra]] [[priority.|máxima prioridad.]]",
-      options: ["[[buying|compra]]", "[[taking|toma]]", "[[acquisition|adquisición]]"],
-      correctAnswer: "acquisition",
-      explanation: "Customer acquisition is the process of getting new customers.",
-      translation: "La adquisición de clientes es nuestra máxima prioridad.",
-      hint: "Getting new clients."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u16-e35",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "We need to improve our brand awareness.",
-    content: {
-      title: "Business Strategy",
-      instructions: "Choose the correct term.",
-      question: "[[We|Necesitamos]] [[need|mejorar]] [[to|nuestro]] [[improve|reconocimiento]] [[our|de]] [[_______|_______]] [[awareness.|marca.]]",
-      options: ["[[brand|marca]]", "[[face|cara]]", "[[name|nombre]]"],
-      correctAnswer: "brand",
-      explanation: "Brand awareness is how much people know about a brand.",
-      translation: "Necesitamos mejorar nuestro reconocimiento de marca.",
-      hint: "Company identity."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u16-e36",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "The company has a competitive edge.",
-    content: {
-      title: "Business Strategy",
-      instructions: "Choose the correct term.",
-      question: "[[The|La]] [[company|empresa]] [[has|tiene]] [[a|una]] [[competitive|ventaja]] [[_______|_______]].",
-      options: ["[[point|punto]]", "[[edge|ventaja/filo]]", "[[side|lado]]"],
-      correctAnswer: "edge",
-      explanation: "A competitive edge is an advantage over competitors.",
-      translation: "La empresa tiene una ventaja competitiva.",
-      hint: "Advantage."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u16-e37",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "We are looking for a strategic partnership.",
-    content: {
-      title: "Business Strategy",
-      instructions: "Choose the correct term.",
-      question: "[[We|Estamos]] [[are|buscando]] [[looking|una]] [[for|asociación]] [[a|estratégica.]] [[strategic| ]] [[_______|_______]].",
-      options: ["[[partnership|asociación]]", "[[link|enlace]]", "[[friendship|amistad]]"],
-      correctAnswer: "partnership",
-      explanation: "A strategic partnership is a collaboration between two companies.",
-      translation: "Estamos buscando una asociación estratégica.",
-      hint: "Collaboration."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u16-e38",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "Our revenue has increased by 20%.",
-    content: {
-      title: "Business Strategy",
-      instructions: "Choose the correct term.",
-      question: "[[Our|Nuestros]] [[_______|_______]] [[has|ingresos]] [[increased|han]] [[by|aumentado]] [[20%.|un 20%.]]",
-      options: ["[[money|dinero]]", "[[revenue|ingresos]]", "[[cash|efectivo]]"],
-      correctAnswer: "revenue",
-      explanation: "Revenue is the total income produced by a business.",
-      translation: "Nuestros ingresos han aumentado un 20%.",
-      hint: "Total income."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u16-e39",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "The profit margin is quite low.",
-    content: {
-      title: "Business Strategy",
-      instructions: "Choose the correct term.",
-      question: "[[The|El]] [[_______|_______]] [[margin|margen]] [[is|de beneficio]] [[quite|es]] [[low.|bastante bajo.]]",
-      options: ["[[profit|beneficio]]", "[[win|victoria]]", "[[gain|ganancia]]"],
-      correctAnswer: "profit",
-      explanation: "Profit is the amount of money made after costs.",
-      translation: "El margen de beneficio es bastante bajo.",
-      hint: "Earnings after costs."
-    },
-    topicName: "Vocabulary"
-  },
-  {
-    id: "b2-u16-e40",
-    type: "multiple-choice",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "We need to pivot our strategy.",
-    content: {
-      title: "Business Strategy",
-      instructions: "Choose the correct term.",
-      question: "[[We|Necesitamos]] [[need|pivotar]] [[to|nuestra]] [[_______|_______]] [[our| ]] [[strategy.|estrategia.]]",
-      options: ["[[pivot|pivotar]]", "[[move|mover]]", "[[turn|girar]]"],
-      correctAnswer: "pivot",
-      explanation: "To pivot means to change direction in business strategy.",
-      translation: "Necesitamos pivotar nuestra estrategia.",
-      hint: "Change direction."
-    },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-16/e25.mp3",
+    "topicName": "Grammar"
   },
 
-  // 41-50: Use of English - Word Formation
+  // 26-50: Multiple Choice (Vocabulary & Grammar - Social Media & Communication)
   {
-    id: "b2-u16-e41",
-    type: "word-formation",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "The entrepreneurial spirit is strong here.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The|El]] [[_______|_______]] [[(ENTREPRENEUR)|(emprendedor)]] [[spirit|espíritu]] [[is|es]] [[strong|fuerte]] [[here.|aquí.]]",
-      correctAnswer: "entrepreneurial",
-      explanation: "Adjective form of 'entrepreneur'.",
-      translation: "El espíritu emprendedor es fuerte aquí.",
-      hint: "Related to entrepreneurship."
+    "id": "b2-u16-e26",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "I suggest trying a different app for video editing.",
+    "content": {
+      "title": "Sugerencia de app",
+      "instructions": "Elige la forma verbal correcta tras 'suggest'.",
+      "questions": [
+        {
+          "question": "[[I|Sugiero]] [[suggest| ]] _______ [[a|probar]] [[different|una]] [[app|aplicación]] [[for|diferente]] [[video|para]] [[editing.|edición de video.]]",
+          "options": ["[[trying|probar]]", "[[to try|probar (inf)]]", "[[tried|probó]]"],
+          "correctAnswer": 0,
+          "explanation": "'Suggest' suele ir seguido de gerundio si no hay un sujeto intermedio.",
+          "audio": "audio/b2/unit-16/e26.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-16/e26.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u16-e42",
-    type: "word-formation",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "We are looking for innovative solutions.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[We|Estamos]] [[are|buscando]] [[looking| ]] [[for| ]] [[_______|_______]] [[(INNOVATE)|(innovadoras)]] [[solutions.|soluciones.]]",
-      correctAnswer: "innovative",
-      explanation: "Adjective form of 'innovate'.",
-      translation: "Estamos buscando soluciones innovadoras.",
-      hint: "New and creative."
+    "id": "b2-u16-e27",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "Misinformation can spread very quickly through social networks.",
+    "content": {
+      "title": "Desinformación",
+      "instructions": "Elige el término para información falsa.",
+      "questions": [
+        {
+          "question": "_______ [[can|puede]] [[spread|extenderse]] [[very|muy]] [[quickly|rápido]] [[through|a través de]] [[social|las redes]] [[networks.|sociales.]]",
+          "options": ["[[Misinformation|La desinformación]]", "[[Verification|La verificación]]", "[[Collaboration|La colaboración]]"],
+          "correctAnswer": 0,
+          "explanation": "'Misinformation' es información falsa o inexacta que se difunde, a veces sin mala intención.",
+          "audio": "audio/b2/unit-16/e27.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-16/e27.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u16-e43",
-    type: "word-formation",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "The investment was a huge success.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The|La]] [[_______|_______]] [[(INVEST)|(inversión)]] [[was|fue]] [[a|un]] [[huge|gran]] [[success.|éxito.]]",
-      correctAnswer: "investment",
-      explanation: "Noun form of 'invest'.",
-      translation: "La inversión fue un gran éxito.",
-      hint: "Money put into a business."
+    "id": "b2-u16-e28",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "Had the link been broken, I wouldn't have been able to see it.",
+    "content": {
+      "title": "Enlace roto",
+      "instructions": "Elige la forma correcta para la inversión en el tercer condicional.",
+      "questions": [
+        {
+          "question": "_______ [[the|Si]] [[link|el]] [[been|enlace]] [[broken,|hubiera estado roto,]] [[I|no]] [[wouldn't|habría]] [[have|podido]] [[been|verlo.]] [[able| ]] [[to| ]] [[see| ]] [[it.| ]]",
+          "options": ["[[Had|Si]]", "[[If|Si (normal)]]", "[[Was|Era]]"],
+          "correctAnswer": 0,
+          "explanation": "Inversión 'Had + sujeto + participio' para el tercer condicional.",
+          "audio": "audio/b2/unit-16/e28.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-16/e28.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u16-e44",
-    type: "word-formation",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "There is a lot of competition in the market.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[There|Hay]] [[is|mucha]] [[a| ]] [[lot| ]] [[of| ]] [[_______|_______]] [[(COMPETE)|(competencia)]] [[in|en]] [[the|el]] [[market.|mercado.]]",
-      correctAnswer: "competition",
-      explanation: "Noun form of 'compete'.",
-      translation: "Hay mucha competencia en el mercado.",
-      hint: "Rivalry."
+    "id": "b2-u16-e29",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "User-generated content is crucial for online communities.",
+    "content": {
+      "title": "Contenido del usuario",
+      "instructions": "Elige el término para contenido creado por usuarios.",
+      "questions": [
+        {
+          "question": "_______ [[content|El contenido]] [[is|generado]] [[crucial|por el usuario]] [[for|es]] [[online|crucial para]] [[communities.|las comunidades online.]]",
+          "options": ["[[User-generated|Generado por el usuario]]", "[[Algorithm-driven|Guiado por algoritmos]]", "[[Corporate-owned|De propiedad corporativa]]"],
+          "correctAnswer": 0,
+          "explanation": "'User-generated content' (UGC) incluye blogs, videos, fotos y posts creados por usuarios.",
+          "audio": "audio/b2/unit-16/e29.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-16/e29.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u16-e45",
-    type: "word-formation",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "The growth of the company was rapid.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The|El]] [[_______|_______]] [[(GROWTH)|(crecimiento)]] [[of|de]] [[the|la]] [[company|empresa]] [[was|fue]] [[rapid.|rápido.]]",
-      correctAnswer: "growth",
-      explanation: "Noun form of 'grow' (provided as GROWTH in brackets, but sometimes asked to transform GROW).",
-      translation: "El crecimiento de la empresa fue rápido.",
-      hint: "Increase in size."
+    "id": "b2-u16-e30",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "I'll never forget seeing that viral video for the first time.",
+    "content": {
+      "title": "Video memorable",
+      "instructions": "Elige la forma verbal para un recuerdo del pasado.",
+      "questions": [
+        {
+          "question": "[[I'll|Nunca]] [[never| ]] [[forget|olvidaré haber visto]] _______ [[that|ese]] [[viral|video]] [[video|viral]] [[for|por]] [[the|primera]] [[first|vez.]] [[time.| ]]",
+          "options": ["[[seeing|haber visto]]", "[[to see|ver (futuro)]]", "[[saw|visto]]"],
+          "correctAnswer": 0,
+          "explanation": "'Forget + -ing' se refiere a un recuerdo de una acción pasada.",
+          "audio": "audio/b2/unit-16/e30.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-16/e30.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u16-e46",
-    type: "word-formation",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "He is a very ambitious founder.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[He|Es]] [[is|un]] [[a|fundador]] [[very|muy]] [[_______|_______]] [[(AMBIT)|(ambicioso)]] [[founder.|.]]",
-      correctAnswer: "ambitious",
-      explanation: "Adjective form of 'ambition'.",
-      translation: "Es un fundador muy ambicioso.",
-      hint: "Having strong desire for success."
+    "id": "b2-u16-e31",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "A status update is a post that tells others what you are doing.",
+    "content": {
+      "title": "Actualización de estado",
+      "instructions": "Elige el término para una publicación de estado.",
+      "questions": [
+        {
+          "question": "[[A|Una]] _______ _______ [[is|es]] [[a|un]] [[post|post]] [[that|que]] [[tells|dice a]] [[others|otros]] [[what|qué]] [[you|estás]] [[are|haciendo.]] [[doing.| ]]",
+          "options": ["[[status update|actualización de estado]]", "[[password reset|reinicio de contraseña]]", "[[backup file|copia de seguridad]]"],
+          "correctAnswer": 0,
+          "explanation": "'Status update' es una función común en redes sociales para compartir pensamientos o actividades.",
+          "audio": "audio/b2/unit-16/e31.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-16/e31.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u16-e47",
-    type: "word-formation",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "The profitability of the venture is unclear.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The|La]] [[_______|_______]] [[(PROFIT)|(rentabilidad)]] [[of|del]] [[the|proyecto]] [[venture|no]] [[is|está]] [[unclear.|clara.]]",
-      correctAnswer: "profitability",
-      explanation: "The state of being profitable.",
-      translation: "La rentabilidad del proyecto no está clara.",
-      hint: "Ability to make profit."
+    "id": "b2-u16-e32",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "Suppose they deleted your account, what would you do?",
+    "content": {
+      "title": "Cuenta eliminada",
+      "instructions": "Elige la forma verbal correcta tras 'Suppose'.",
+      "questions": [
+        {
+          "question": "[[Suppose|Imagina]] [[they|que]] _______ [[your|eliminaran]] [[account,|tu cuenta,]] [[what|¿qué]] [[would|harías?]] [[you| ]] [[do?| ]]",
+          "options": ["[[deleted|eliminaran]]", "[[delete|eliminen]]", "[[will delete|eliminarán]]"],
+          "correctAnswer": 0,
+          "explanation": "'Suppose' se sigue de past simple para situaciones imaginarias en el presente o futuro.",
+          "audio": "audio/b2/unit-16/e32.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-16/e32.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u16-e48",
-    type: "word-formation",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "We need to improve our marketing strategy.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[We|Necesitamos]] [[need|mejorar]] [[to|nuestra]] [[improve|estrategia]] [[our|de]] [[_______|_______]] [[(MARKET)|(marketing)]] [[strategy.|.]]",
-      correctAnswer: "marketing",
-      explanation: "The action of promoting and selling products.",
-      translation: "Necesitamos mejorar nuestra estrategia de marketing.",
-      hint: "Promoting products."
+    "id": "b2-u16-e33",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "To block someone means to stop them from contacting you.",
+    "content": {
+      "title": "Bloquear",
+      "instructions": "Elige el término para impedir el contacto.",
+      "questions": [
+        {
+          "question": "[[To| ]] _______ [[someone|bloquear a alguien]] [[means|significa]] [[to|impedirle]] [[stop| ]] [[them| ]] [[from|que]] [[contacting|se ponga en]] [[you.|contacto contigo.]]",
+          "options": ["[[block|bloquear]]", "[[tag|etiquetar]]", "[[follow|seguir]]"],
+          "correctAnswer": 0,
+          "explanation": "'Block' es una medida de seguridad para evitar interacciones no deseadas.",
+          "audio": "audio/b2/unit-16/e33.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-16/e33.mp3",
+    "topicName": "Vocabulary"
   },
   {
-    id: "b2-u16-e49",
-    type: "word-formation",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "The productivity of the team is impressive.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[The|La]] [[_______|_______]] [[(PRODUCT)|(productividad)]] [[of|del]] [[the|equipo]] [[team|es]] [[is|impresionante.]] [[impressive.| ]]",
-      correctAnswer: "productivity",
-      explanation: "The effectiveness of productive effort.",
-      translation: "La productividad del equipo es impresionante.",
-      hint: "Efficiency of production."
+    "id": "b2-u16-e34",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "Were users to be more aware, there would be fewer issues.",
+    "content": {
+      "title": "Conciencia de usuario",
+      "instructions": "Elige la forma para la inversión en el segundo condicional.",
+      "questions": [
+        {
+          "question": "_______ [[users|Si los usuarios]] [[to|fueran]] [[be|más]] [[more|conscientes,]] [[aware,|habría]] [[there|menos]] [[would|problemas.]] [[be| ]] [[fewer| ]] [[issues.| ]]",
+          "options": ["[[Were|Si]]", "[[Was|Era]]", "[[Did|Hizo]]"],
+          "correctAnswer": 0,
+          "explanation": "Inversión 'Were + sujeto + to + infinitivo' para el segundo condicional formal.",
+          "audio": "audio/b2/unit-16/e34.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-16/e34.mp3",
+    "topicName": "Grammar"
   },
   {
-    id: "b2-u16-e50",
-    type: "word-formation",
-    level: "B2",
-    topic: "Entrepreneurship & Startups",
-    difficulty: "medium",
-    transcript: "She showed great leadership in the crisis.",
-    content: {
-      title: "Word Formation",
-      instructions: "Transform the word in brackets.",
-      question: "[[She|Mostró]] [[showed|un]] [[great|gran]] [[_______|_______]] [[(LEAD)|(liderazgo)]] [[in|en]] [[the|la]] [[crisis.|crisis.]]",
-      correctAnswer: "leadership",
-      explanation: "The action of leading a group.",
-      translation: "Mostró un gran liderazgo en la crisis.",
-      hint: "Ability to lead."
+    "id": "b2-u16-e35",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "To tag someone is to link their profile in a post or photo.",
+    "content": {
+      "title": "Etiquetar",
+      "instructions": "Elige el término para enlazar un perfil.",
+      "questions": [
+        {
+          "question": "[[To| ]] _______ [[someone|etiquetar a alguien]] [[is|es]] [[to|enlazar]] [[link|su]] [[their|perfil]] [[profile|en]] [[in|un]] [[a|post]] [[post|o]] [[or|foto.]] [[photo.| ]]",
+          "options": ["[[tag|etiquetar]]", "[[hide|ocultar]]", "[[mute|silenciar]]"],
+          "correctAnswer": 0,
+          "explanation": "'Tagging' permite que otras personas vean quién aparece en una publicación.",
+          "audio": "audio/b2/unit-16/e35.mp3"
+        }
+      ]
     },
-    topicName: "Vocabulary"
+    "audioUrl": "audio/b2/unit-16/e35.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u16-e36",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "Providing they follow the rules, they can stay in the group.",
+    "content": {
+      "title": "Reglas del grupo",
+      "instructions": "Elige el conector condicional formal.",
+      "questions": [
+        {
+          "question": "_______ [[they|siempre que]] [[follow|sigan]] [[the|las]] [[rules,|normas,]] [[they|pueden]] [[can|quedarse]] [[stay|en]] [[in|el]] [[the|grupo.]] [[group.| ]]",
+          "options": ["[[Providing|Siempre que]]", "[[Unless|A menos que]]", "[[Whether|Si (elección)]]"],
+          "correctAnswer": 0,
+          "explanation": "'Providing' se usa para indicar una condición necesaria.",
+          "audio": "audio/b2/unit-16/e36.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-16/e36.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u16-e37",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "An influencer is someone who can affect purchase decisions.",
+    "content": {
+      "title": "Definición de influencer",
+      "instructions": "Elige el término para una persona influyente en redes.",
+      "questions": [
+        {
+          "question": "[[An|Un]] _______ [[is|es]] [[someone|alguien]] [[who|que]] [[can|puede]] [[affect|afectar]] [[purchase|las decisiones]] [[decisions.|de compra.]]",
+          "options": ["[[influencer|influencer]]", "[[follower|seguidor]]", "[[subscriber|suscriptor]]"],
+          "correctAnswer": 0,
+          "explanation": "Los 'influencers' tienen autoridad o conocimiento sobre temas específicos ante su audiencia.",
+          "audio": "audio/b2/unit-16/e37.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-16/e37.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u16-e38",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "I wish I hadn't spent so much time on my phone today.",
+    "content": {
+      "title": "Deseo sobre el pasado",
+      "instructions": "Elige la forma del subjuntivo para un arrepentimiento.",
+      "questions": [
+        {
+          "question": "[[I|Ojalá]] [[wish| ]] [[I|no]] _______ [[spent|hubiera pasado]] [[so|tanto]] [[much|tiempo]] [[time|con]] [[on|el]] [[my|móvil]] [[phone|hoy.]] [[today.| ]]",
+          "options": ["[[hadn't|no hubiera]]", "[[didn't|no]]", "[[wouldn't|no habría]]"],
+          "correctAnswer": 0,
+          "explanation": "Tras 'I wish', usamos el past perfect (hadn't spent) para arrepentimientos sobre el pasado.",
+          "audio": "audio/b2/unit-16/e38.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-16/e38.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u16-e39",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "Notifications can be silenced to avoid interruptions.",
+    "content": {
+      "title": "Silenciar notificaciones",
+      "instructions": "Elige el verbo que significa 'quitar el sonido'.",
+      "questions": [
+        {
+          "question": "[[Notifications|Las notificaciones]] [[can|pueden]] [[be|ser]] _______ [[to|para]] [[avoid|evitar]] [[interruptions.|interrupciones.]]",
+          "options": ["[[silenced|silenciadas]]", "[[enhanced|mejoradas]]", "[[deleted|borradas]]"],
+          "correctAnswer": 0,
+          "explanation": "'Silence' o 'mute' se usan para desactivar avisos sonoros.",
+          "audio": "audio/b2/unit-16/e39.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-16/e39.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u16-e40",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "Little did I know that my post would reach so many people.",
+    "content": {
+      "title": "Alcance inesperado",
+      "instructions": "Elige la palabra para completar la inversión con 'Little'.",
+      "questions": [
+        {
+          "question": "[[Little|Poco]] _______ [[I|sabía]] [[know|que]] [[that|mi]] [[my|post]] [[post|llegaría]] [[would|a]] [[reach|tanta]] [[so|gente.]] [[many| ]] [[people.| ]]",
+          "options": ["[[did|sabía]]", "[[had|había]]", "[[do|sé]]"],
+          "correctAnswer": 0,
+          "explanation": "Inversión 'Little + did + sujeto + infinitivo' para expresar falta total de conocimiento.",
+          "audio": "audio/b2/unit-16/e40.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-16/e40.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u16-e41",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "A follower is someone who subscribes to see your updates.",
+    "content": {
+      "title": "Seguidor",
+      "instructions": "Elige el término para alguien que se suscribe a un perfil.",
+      "questions": [
+        {
+          "question": "[[A|Un]] _______ [[is|es]] [[someone|alguien]] [[who|que]] [[subscribes|se suscribe]] [[to|para]] [[see|ver]] [[your|tus]] [[updates.|actualizaciones.]]",
+          "options": ["[[follower|seguidor]]", "[[hater|odiador]]", "[[stranger|extraño]]"],
+          "correctAnswer": 0,
+          "explanation": "Un 'follower' es un usuario que elige ver el contenido de otro en su feed.",
+          "audio": "audio/b2/unit-16/e41.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-16/e41.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u16-e42",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "I'd rather you didn't tag me in that embarrassing photo.",
+    "content": {
+      "title": "Foto vergonzosa",
+      "instructions": "Elige la forma correcta tras 'I'd rather' para otra persona.",
+      "questions": [
+        {
+          "question": "[[I'd|Preferiría]] [[rather|que]] [[you|no]] _______ [[me|me etiquetaras]] [[in|en]] [[that|esa]] [[embarrassing|foto]] [[photo.|vergonzosa.]]",
+          "options": ["[[didn't tag|no etiquetaras]]", "[[not tag|no etiquetar]]", "[[don't tag|no etiquetes]]"],
+          "correctAnswer": 0,
+          "explanation": "Con un sujeto distinto, usamos past simple para una preferencia negativa sobre el presente.",
+          "audio": "audio/b2/unit-16/e42.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-16/e42.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u16-e43",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "Trending topics are the most popular subjects at the moment.",
+    "content": {
+      "title": "Tendencias",
+      "instructions": "Elige el término para los temas más populares.",
+      "questions": [
+        {
+          "question": "_______ _______ [[are|son]] [[the|los]] [[most|temas]] [[popular|más]] [[subjects|populares]] [[at|en]] [[the|este]] [[moment.|momento.]]",
+          "options": ["[[Trending topics|Temas de tendencia]]", "[[Breaking news|Noticias de última hora]]", "[[Public records|Registros públicos]]"],
+          "correctAnswer": 0,
+          "explanation": "'Trending topics' son los temas que están recibiendo más atención en una red social en tiempo real.",
+          "audio": "audio/b2/unit-16/e43.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-16/e43.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u16-e44",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "Hardly had I posted the photo when I got ten likes.",
+    "content": {
+      "title": "Likes inmediatos",
+      "instructions": "Elige la forma verbal para la inversión con 'Hardly'.",
+      "questions": [
+        {
+          "question": "[[Hardly|Apenas]] _______ [[I|había]] [[posted|publicado]] [[the|la]] [[photo|foto]] [[when|cuando]] [[I|obtuve]] [[got|diez]] [[ten|likes.]] [[likes.| ]]",
+          "options": ["[[had|había]]", "[[did|hice]]", "[[was|fui]]"],
+          "correctAnswer": 0,
+          "explanation": "Inversión 'Hardly + had + sujeto + participio'.",
+          "audio": "audio/b2/unit-16/e44.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-16/e44.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u16-e45",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "To subscribe is to sign up to receive content regularly.",
+    "content": {
+      "title": "Suscribirse",
+      "instructions": "Elige el término para registrarse para recibir contenido.",
+      "questions": [
+        {
+          "question": "[[To| ]] _______ [[is|es]] [[to|registrarse]] [[sign|para]] [[up|recibir]] [[to|contenido]] [[receive|regularmente.]] [[content| ]] [[regularly.| ]]",
+          "options": ["[[subscribe|suscribirse]]", "[[unsubscribe|cancelar suscripción]]", "[[describe|describir]]"],
+          "correctAnswer": 0,
+          "explanation": "'Subscribe' permite recibir notificaciones o acceso a contenido nuevo de un canal o creador.",
+          "audio": "audio/b2/unit-16/e45.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-16/e45.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u16-e46",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "No sooner had she started the stream than the chat went wild.",
+    "content": {
+      "title": "Stream en vivo",
+      "instructions": "Elige la palabra para completar la inversión con 'No sooner'.",
+      "questions": [
+        {
+          "question": "[[No|Apenas]] [[sooner|había]] _______ [[she|comenzado]] [[started|el]] [[the|stream]] [[stream|cuando]] [[than|el]] [[the|chat]] [[chat|se]] [[went|volvió]] [[wild.|loco.]]",
+          "options": ["[[had|había]]", "[[did|hizo]]", "[[was|fue]]"],
+          "correctAnswer": 0,
+          "explanation": "Inversión 'No sooner + had + sujeto + participio'.",
+          "audio": "audio/b2/unit-16/e46.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-16/e46.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u16-e47",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "End-to-end encryption ensures that only the sender and receiver can read.",
+    "content": {
+      "title": "Cifrado",
+      "instructions": "Elige el término para el cifrado de extremo a extremo.",
+      "questions": [
+        {
+          "question": "_______ _______ _______ [[ensures|asegura]] [[that|que]] [[only|solo]] [[the|el]] [[sender|emisor]] [[and|y]] [[receiver|el receptor]] [[can|puedan]] [[read.|leer.]]",
+          "options": ["[[End-to-end encryption|Cifrado de extremo a extremo]]", "[[Cloud storage access|Acceso a la nube]]", "[[Data mining policy|Política de minería de datos]]"],
+          "correctAnswer": 0,
+          "explanation": "'End-to-end encryption' (E2EE) protege la privacidad de los mensajes digitales.",
+          "audio": "audio/b2/unit-16/e47.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-16/e47.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u16-e48",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "Unless you verify your account, you cannot access all features.",
+    "content": {
+      "title": "Verificar cuenta",
+      "instructions": "Elige el conector condicional adecuado.",
+      "questions": [
+        {
+          "question": "_______ [[you|a menos que]] [[verify|verifiques]] [[your|tu]] [[account,|cuenta,]] [[you|no]] [[cannot|puedes]] [[access|acceder a]] [[all|todas las]] [[features.|funciones.]]",
+          "options": ["[[Unless|A menos que]]", "[[If|Si]]", "[[Whether|Si (elección)]]"],
+          "correctAnswer": 0,
+          "explanation": "'Unless' introduce una condición negativa (si no verificas...).",
+          "audio": "audio/b2/unit-16/e48.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-16/e48.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "b2-u16-e49",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "Two-factor authentication adds an extra layer of security.",
+    "content": {
+      "title": "Doble factor",
+      "instructions": "Elige el término para la autenticación de dos pasos.",
+      "questions": [
+        {
+          "question": "_______ _______ _______ [[adds|añade]] [[an|una]] [[extra|capa]] [[layer|extra]] [[of|de]] [[security.|seguridad.]]",
+          "options": ["[[Two-factor authentication|Autenticación de dos factores]]", "[[Single sign-on|Inicio de sesión único]]", "[[Automatic login|Inicio automático]]"],
+          "correctAnswer": 0,
+          "explanation": "2FA requiere dos formas de identificación para acceder a una cuenta.",
+          "audio": "audio/b2/unit-16/e49.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-16/e49.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "b2-u16-e50",
+    "type": "multiple-choice",
+    "level": "B2",
+    "topic": "Social Media & Communication",
+    "difficulty": "medium",
+    "transcript": "I recommend that you change your password every three months.",
+    "content": {
+      "title": "Cambio de contraseña",
+      "instructions": "Elige la forma del subjuntivo tras 'recommend'.",
+      "questions": [
+        {
+          "question": "[[I|Recomiendo]] [[recommend|que]] [[that| ]] [[you| ]] _______ [[your|cambies]] [[password|tu]] [[every|contraseña]] [[three|cada tres]] [[months.|meses.]]",
+          "options": ["[[change|cambies]]", "[[changes|cambias]]", "[[to change|cambiar]]"],
+          "correctAnswer": 0,
+          "explanation": "Tras 'recommend that', usamos la forma base del verbo (subjuntivo) en inglés formal.",
+          "audio": "audio/b2/unit-16/e50.mp3"
+        }
+      ]
+    },
+    "audioUrl": "audio/b2/unit-16/e50.mp3",
+    "topicName": "Grammar"
   }
 ];
