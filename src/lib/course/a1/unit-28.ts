@@ -1,5 +1,9 @@
 import { Exercise } from '@/lib/exercise-generator';
 
+/**
+ * Unit 28: Comparatives
+ */
+
 export const UNIT_28_EXERCISES: Exercise[] = [
   {
     id: 'a1-u28-e1',
