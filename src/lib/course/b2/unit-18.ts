@@ -12,7 +12,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: That-Clauses",
       instructions: "Choose the correct reporting verb.",
-      question: "[[He ___ that he had not seen the report.|Él negó que no hubiera visto el informe.]]",
+      question: "[[He|Él]] [[___|negó]] [[that|que]] [[he| ]] [[had| ]] [[not|no]] [[seen|hubiera visto]] [[the|el]] [[report.|informe.]]",
       options: ["denied", "refused", "offered"],
       correctAnswer: "denied",
       explanation: "Use 'denied' when saying something is not true.",
@@ -31,7 +31,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: That-Clauses",
       instructions: "Choose the correct reporting verb.",
-      question: "[[She ___ that we should start earlier.|Ella sugirió que deberíamos empezar antes.]]",
+      question: "[[She|Ella]] [[___|sugirió]] [[that|que]] [[we|nosotros]] [[should|deberíamos]] [[start|empezar]] [[earlier.|antes.]]",
       options: ["suggested", "ordered", "told"],
       correctAnswer: "suggested",
       explanation: "Use 'suggested' to propose an idea.",
@@ -50,7 +50,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: That-Clauses",
       instructions: "Choose the correct reporting verb.",
-      question: "[[The manager ___ that the project be finished by Friday.|El gerente insistió en que el proyecto se terminara para el viernes.]]",
+      question: "[[The|El]] [[manager|gerente]] [[___|insistió]] [[that|en que]] [[the|el]] [[project|proyecto]] [[be|se]] [[finished|terminara]] [[by|para]] [[Friday.|el viernes.]]",
       options: ["insisted", "said", "asked"],
       correctAnswer: "insisted",
       explanation: "Use 'insisted' for a firm demand.",
@@ -69,7 +69,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: That-Clauses",
       instructions: "Choose the correct reporting verb.",
-      question: "[[They ___ that the system was perfectly safe.|Afirmaron que el sistema era perfectamente seguro.]]",
+      question: "[[They|Ellos]] [[___|afirmaron]] [[that|que]] [[the|el]] [[system|sistema]] [[was|era]] [[perfectly|perfectamente]] [[safe.|seguro.]]",
       options: ["claimed", "wanted", "denied"],
       correctAnswer: "claimed",
       explanation: "Use 'claimed' when stating something as a fact (often without proof).",
@@ -88,7 +88,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: That-Clauses",
       instructions: "Choose the correct reporting verb.",
-      question: "[[I ___ that there had been a misunderstanding.|Expliqué que había habido un malentendido.]]",
+      question: "[[I|Yo]] [[___|expliqué]] [[that|que]] [[there|había]] [[had|habido]] [[been| ]] [[a|un]] [[misunderstanding.|malentendido.]]",
       options: ["explained", "told", "asked"],
       correctAnswer: "explained",
       explanation: "Use 'explained' to give a reason or clarify a situation.",
@@ -107,7 +107,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: That-Clauses",
       instructions: "Choose the correct reporting verb.",
-      question: "[[He ___ that he was the best person for the job.|Presumió de ser la mejor persona para el trabajo.]]",
+      question: "[[He|Él]] [[___|presumió]] [[that|de que]] [[he|él]] [[was|era]] [[the|la]] [[best|mejor]] [[person|persona]] [[for|para]] [[the|el]] [[job.|trabajo.]]",
       options: ["boasted", "said", "informed"],
       correctAnswer: "boasted",
       explanation: "Use 'boasted' when someone speaks too proudly about themselves.",
@@ -126,7 +126,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: That-Clauses",
       instructions: "Choose the correct reporting verb.",
-      question: "[[She ___ that she would be late.|Advirtió que llegaría tarde.]]",
+      question: "[[She|Ella]] [[___|advirtió]] [[that|que]] [[she|ella]] [[would|llegaría]] [[be| ]] [[late.|tarde.]]",
       options: ["warned", "ordered", "asked"],
       correctAnswer: "warned",
       explanation: "Use 'warned' to tell someone about a possible problem.",
@@ -145,7 +145,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: That-Clauses",
       instructions: "Choose the correct reporting verb.",
-      question: "[[They ___ that the deal was off.|Anunciaron que el trato se había cancelado.]]",
+      question: "[[They|Ellos]] [[___|anunciaron]] [[that|que]] [[the|el]] [[deal|trato]] [[was|se había]] [[off.|cancelado.]]",
       options: ["announced", "said", "told"],
       correctAnswer: "announced",
       explanation: "Use 'announced' to give important information publicly.",
@@ -164,7 +164,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: That-Clauses",
       instructions: "Choose the correct reporting verb.",
-      question: "[[He ___ that he had made a mistake.|Admitió que había cometido un error.]]",
+      question: "[[He|Él]] [[___|admitió]] [[that|que]] [[he|él]] [[had|había]] [[made|cometido]] [[a|un]] [[mistake.|error.]]",
       options: ["admitted", "refused", "offered"],
       correctAnswer: "admitted",
       explanation: "Use 'admitted' when agreeing that something is true (often reluctantly).",
@@ -183,7 +183,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: That-Clauses",
       instructions: "Choose the correct reporting verb.",
-      question: "[[She ___ that everything would be fine.|Ella prometió que todo estaría bien.]]",
+      question: "[[She|Ella]] [[___|prometió]] [[that|que]] [[everything|todo]] [[would|estaría]] [[be| ]] [[fine.|bien.]]",
       options: ["promised", "ordered", "asked"],
       correctAnswer: "promised",
       explanation: "Use 'promised' to say that you will certainly do something.",
@@ -204,7 +204,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: Patterns",
       instructions: "Fill in the correct form of the verb.",
-      question: "[[He suggested ___ (go) to the new Italian restaurant.|Él sugirió ir al nuevo restaurante italiano.]]",
+      question: "[[He|Él]] [[suggested|sugirió]] [[___ (go)|ir]] [[to|al]] [[the| ]] [[new|nuevo]] [[Italian|italiano]] [[restaurant.|restaurante.]]",
       correctAnswer: "going",
       explanation: "Suggest is followed by the -ing form.",
       translation: "Él sugirió ir al nuevo restaurante italiano.",
@@ -222,7 +222,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: Patterns",
       instructions: "Fill in the correct form of the verb.",
-      question: "[[She offered ___ (help) me with the bags.|Ella se ofreció a ayudarme con las maletas.]]",
+      question: "[[She|Ella]] [[offered|se ofreció]] [[___ (help)|a ayudarme]] [[me| ]] [[with|con]] [[the|las]] [[bags.|maletas.]]",
       correctAnswer: "to help",
       explanation: "Offer is followed by the to-infinitive.",
       translation: "Ella se ofreció a ayudarme con las maletas.",
@@ -240,7 +240,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: Patterns",
       instructions: "Fill in the correct form of the verb.",
-      question: "[[They refused ___ (sign) the contract.|Se negaron a firmar el contrato.]]",
+      question: "[[They|Se]] [[refused|negaron]] [[___ (sign)|a firmar]] [[the|el]] [[contract.|contrato.]]",
       correctAnswer: "to sign",
       explanation: "Refuse is followed by the to-infinitive.",
       translation: "Se negaron a firmar el contrato.",
@@ -258,7 +258,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: Patterns",
       instructions: "Fill in the correct form of the verb.",
-      question: "[[He denied ___ (steal) the watch.|Él negó haber robado el reloj.]]",
+      question: "[[He|Él]] [[denied|negó]] [[___ (steal)|haber robado]] [[the|el]] [[watch.|reloj.]]",
       correctAnswer: "stealing",
       explanation: "Deny is followed by the -ing form.",
       translation: "Él negó haber robado el reloj.",
@@ -276,7 +276,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: Patterns",
       instructions: "Fill in the correct form of the verb.",
-      question: "[[She admitted ___ (be) wrong.|Ella admitió estar equivocada.]]",
+      question: "[[She|Ella]] [[admitted|admitió]] [[___ (be)|estar]] [[wrong.|equivocada.]]",
       correctAnswer: "being",
       explanation: "Admit is followed by the -ing form.",
       translation: "Ella admitió estar equivocada.",
@@ -294,7 +294,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: Patterns",
       instructions: "Fill in the correct form of the verb.",
-      question: "[[They agreed ___ (meet) at 10 AM.|Acordaron reunirse a las 10 AM.]]",
+      question: "[[They|Ellos]] [[agreed|acordaron]] [[___ (meet)|reunirse]] [[at|a las]] [[10|10]] [[AM.|AM.]]",
       correctAnswer: "to meet",
       explanation: "Agree is followed by the to-infinitive.",
       translation: "Acordaron reunirse a las 10 AM.",
@@ -312,7 +312,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: Patterns",
       instructions: "Fill in the correct form of the verb.",
-      question: "[[He promised ___ (be) home by midnight.|Prometió estar en casa para medianoche.]]",
+      question: "[[He|Él]] [[promised|prometió]] [[___ (be)|estar]] [[home|en casa]] [[by|para]] [[midnight.|medianoche.]]",
       correctAnswer: "to be",
       explanation: "Promise is followed by the to-infinitive.",
       translation: "Prometió estar en casa para medianoche.",
@@ -330,7 +330,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: Patterns",
       instructions: "Fill in the correct form of the verb.",
-      question: "[[She apologized for ___ (be) late.|Ella se disculpó por llegar tarde.]]",
+      question: "[[She|Ella]] [[apologized|se disculpó]] [[for|por]] [[___ (be)|llegar]] [[late.|tarde.]]",
       correctAnswer: "being",
       explanation: "After a preposition (for), use the -ing form.",
       translation: "Ella se disculpó por llegar tarde.",
@@ -348,7 +348,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: Patterns",
       instructions: "Fill in the correct form of the verb.",
-      question: "[[He recommended ___ (read) this book.|Él recomendó leer este libro.]]",
+      question: "[[He|Él]] [[recommended|recomendó]] [[___ (read)|leer]] [[this|este]] [[book.|libro.]]",
       correctAnswer: "reading",
       explanation: "Recommend is followed by the -ing form.",
       translation: "Él recomendó leer este libro.",
@@ -366,7 +366,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     content: {
       title: "Reporting Verbs: Patterns",
       instructions: "Fill in the correct form of the verb.",
-      question: "[[She threatened ___ (call) the police.|Ella amenazó con llamar a la policía.]]",
+      question: "[[She|Ella]] [[threatened|amenazó]] [[___ (call)|con llamar]] [[the|a la]] [[police.|policía.]]",
       correctAnswer: "to call",
       explanation: "Threaten is followed by the to-infinitive.",
       translation: "Ella amenazó con llamar a la policía.",

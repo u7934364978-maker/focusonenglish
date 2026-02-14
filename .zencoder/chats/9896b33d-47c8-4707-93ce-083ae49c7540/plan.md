@@ -21,8 +21,14 @@ Create a technical specification based on the PRD.
 #### [x] Task 8: Translate Unit 13 (Word-by-word)
 - Status: Completed. Manually tokenized all 50 exercises.
 
-#### [ ] Task 9: Translate Unit 14 (Word-by-word)
-- Status: Pending.
+#### [x] Task 9: Translate Unit 14 (Word-by-word)
+- Status: Completed. Manually tokenized all 50 exercises.
+
+#### [ ] Task 10: Translate Units 15-30 (Word-by-word)
+- Status: In Progress.
+- Units completed: 15, 16, 17.
+- Units in progress: 18 (1-20 done).
+- Units pending: 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30.
 
 ### [ ] Step: Verification
 - Run dev server and verify tooltips visually.
