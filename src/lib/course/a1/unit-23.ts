@@ -107,27 +107,6 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u23-e6',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Health',
-    topicName: 'Healthy Life',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Health',
-      instructions: 'Di la palabra para "salud".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Health',
-          phonetic: '/helθ/',
-          translation: 'Salud',
-          explanation: 'La "th" final se pronuncia poniendo la lengua entre los dientes.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u23-e7',
     type: 'matching',
     level: 'A1',
@@ -285,27 +264,6 @@ export const UNIT_23_EXERCISES: Exercise[] = [
           question: 'I have a ________.',
           correctAnswer: 'backache',
           explanation: '"Back" (espalda) + "ache" (dolor).'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u23-e15',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Health',
-    topicName: 'Healthy Life',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Headache',
-      instructions: 'Di la palabra para "dolor de cabeza".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Headache',
-          phonetic: '/ˈhedeɪk/',
-          translation: 'Dolor de cabeza',
-          explanation: 'La terminación "ache" se pronuncia como "eik".'
         }
       ]
     } as any
@@ -473,27 +431,6 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u23-e24',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Health',
-    topicName: 'Healthy Life',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Vegetables',
-      instructions: 'Di la palabra para "verduras".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Vegetables',
-          phonetic: '/ˈvedʒtəblz/',
-          translation: 'Verduras',
-          explanation: 'Cuidado: se pronuncian solo tres sílabas: "VEJ-ta-blz".'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u23-e25',
     type: 'matching',
     level: 'A1',
@@ -656,27 +593,6 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u23-e33',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Health',
-    topicName: 'Healthy Life',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Patient',
-      instructions: 'Di la palabra para "paciente".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Patient',
-          phonetic: '/ˈpeɪʃnt/',
-          translation: 'Paciente',
-          explanation: 'La "ti" suena como una "sh".'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u23-e34',
     type: 'matching',
     level: 'A1',
@@ -834,27 +750,6 @@ export const UNIT_23_EXERCISES: Exercise[] = [
           question: 'Drink a lot of ________.',
           correctAnswer: 'water',
           explanation: '"Water" es esencial para la recuperación.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u23-e42',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Health',
-    topicName: 'Healthy Life',
-    difficulty: 'hard',
-    content: {
-      title: 'Pronunciación: Hospital',
-      instructions: 'Di la palabra para "hospital".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Hospital',
-          phonetic: '/ˈhɒspɪtl/',
-          translation: 'Hospital',
-          explanation: 'La "h" se pronuncia como una aspiración, como en "hola" pero más suave.'
         }
       ]
     } as any
