@@ -107,27 +107,6 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u19-e6',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Action',
-    topicName: 'Action!',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Can',
-      instructions: 'Di la palabra para "poder".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Can',
-          phonetic: '/kæn/',
-          translation: 'Poder',
-          explanation: 'La "a" es corta y abierta.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u19-e7',
     type: 'matching',
     level: 'A1',
@@ -285,27 +264,6 @@ export const UNIT_19_EXERCISES: Exercise[] = [
           question: 'Can you _________ soccer?',
           correctAnswer: 'play',
           explanation: "Usamos 'play' para deportes que usan pelota o son competitivos."
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u19-e15',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Action',
-    topicName: 'Action!',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Guitar',
-      instructions: 'Di la palabra para "guitarra".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Guitar',
-          phonetic: '/ɡɪˈtɑːr/',
-          translation: 'Guitarra',
-          explanation: 'El acento recae en la segunda sílaba.'
         }
       ]
     } as any
@@ -473,27 +431,6 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u19-e24',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Action',
-    topicName: 'Action!',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Help',
-      instructions: 'Di la palabra para "ayudar".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Help',
-          phonetic: '/help/',
-          translation: 'Ayudar',
-          explanation: 'Asegúrate de pronunciar la "l" y la "p" claramente.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u19-e25',
     type: 'matching',
     level: 'A1',
@@ -656,27 +593,6 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u19-e33',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Action',
-    topicName: 'Action!',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Remember',
-      instructions: 'Di la palabra para "recordar".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Remember',
-          phonetic: '/rɪˈmembər/',
-          translation: 'Recordar',
-          explanation: 'Pon el acento en la segunda sílaba: re-MEM-ber.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u19-e34',
     type: 'matching',
     level: 'A1',
@@ -834,27 +750,6 @@ export const UNIT_19_EXERCISES: Exercise[] = [
           question: "I can't _________.",
           correctAnswer: 'stop',
           explanation: '"Stop" es detenerse o parar.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: 'a1-u19-e42',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Action',
-    topicName: 'Action!',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Walk',
-      instructions: 'Di la palabra para "caminar".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Walk',
-          phonetic: '/wɔːk/',
-          translation: 'Caminar',
-          explanation: 'La "l" es muda. Suena como "uok".'
         }
       ]
     } as any
