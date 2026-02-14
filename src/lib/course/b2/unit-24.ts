@@ -12,7 +12,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "All-Cleft Sentences",
       instructions: "Choose the correct word to start the cleft sentence for emphasis.",
-      question: "I want justice. -> ___ I want is justice.",
+      question: "[[I want justice. -> ___ I want is justice.|Quiero justicia. -> Todo lo que quiero es justicia.]]",
       options: ["All", "What", "That"],
       correctAnswer: "All",
       explanation: "Use 'All' to emphasize that only one thing is needed or desired.",
@@ -31,7 +31,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "All-Cleft Sentences",
       instructions: "Choose the correct word.",
-      question: "He said 'hello'. -> ___ he said was 'hello'.",
+      question: "[[He said 'hello'. -> ___ he said was 'hello'.|Dijo 'hola'. -> Todo lo que dijo fue 'hola'.]]",
       options: ["All", "What", "That"],
       correctAnswer: "All",
       explanation: "Emphasizing that the only thing said was a greeting.",
@@ -50,7 +50,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "All-Cleft Sentences",
       instructions: "Choose the correct word.",
-      question: "She did was cry. -> ___ she did was cry.",
+      question: "[[She did was cry. -> ___ she did was cry.|Lo que hizo fue llorar. -> Todo lo que hizo fue llorar.]]",
       options: ["All", "What", "That"],
       correctAnswer: "All",
       explanation: "Emphasizing the single action performed.",
@@ -69,7 +69,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "All-Cleft Sentences",
       instructions: "Choose the correct word.",
-      question: "They need is a chance. -> ___ they need is a chance.",
+      question: "[[They need is a chance. -> ___ they need is a chance.|Necesitan una oportunidad. -> Todo lo que necesitan es una oportunidad.]]",
       options: ["All", "What", "That"],
       correctAnswer: "All",
       explanation: "Emphasizing the sole requirement.",
@@ -88,7 +88,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "All-Cleft Sentences",
       instructions: "Choose the correct word.",
-      question: "I heard was a loud noise. -> ___ I heard was a loud noise.",
+      question: "[[I heard was a loud noise. -> ___ I heard was a loud noise.|Escuché un ruido fuerte. -> Todo lo que escuché fue un ruido fuerte.]]",
       options: ["All", "What", "That"],
       correctAnswer: "All",
       explanation: "Emphasizing the only thing heard.",
@@ -107,7 +107,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "All-Cleft Sentences",
       instructions: "Choose the correct word.",
-      question: "He wants is to be heard. -> ___ he wants is to be heard.",
+      question: "[[He wants is to be heard. -> ___ he wants is to be heard.|Quiere ser escuchado. -> Todo lo que quiere es ser escuchado.]]",
       options: ["All", "What", "That"],
       correctAnswer: "All",
       explanation: "Emphasizing the desire.",
@@ -126,7 +126,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "All-Cleft Sentences",
       instructions: "Choose the correct word.",
-      question: "She wrote was a short note. -> ___ she wrote was a short note.",
+      question: "[[She wrote was a short note. -> ___ she wrote was a short note.|Escribió una nota corta. -> Todo lo que escribió fue una nota corta.]]",
       options: ["All", "What", "That"],
       correctAnswer: "All",
       explanation: "Emphasizing the limited output.",
@@ -145,7 +145,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "All-Cleft Sentences",
       instructions: "Choose the correct word.",
-      question: "We saw was a bird. -> ___ we saw was a bird.",
+      question: "[[We saw was a bird. -> ___ we saw was a bird.|Vimos un pájaro. -> Todo lo que vimos fue un pájaro.]]",
       options: ["All", "What", "That"],
       correctAnswer: "All",
       explanation: "Emphasizing the single sighting.",
@@ -164,7 +164,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "All-Cleft Sentences",
       instructions: "Choose the correct word.",
-      question: "He does is complain. -> ___ he does is complain.",
+      question: "[[He does is complain. -> ___ he does is complain.|Solo se queja. -> Todo lo que hace es quejarse.]]",
       options: ["All", "What", "That"],
       correctAnswer: "All",
       explanation: "Emphasizing the repetitive and sole action.",
@@ -183,7 +183,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "All-Cleft Sentences",
       instructions: "Choose the correct word.",
-      question: "___ I want for Christmas is you.",
+      question: "[[___ I want for Christmas is you.|Todo lo que quiero para Navidad eres tú.]]",
       options: ["All", "What", "That"],
       correctAnswer: "All",
       explanation: "Common use of 'All' for emphasis in a famous context.",
@@ -204,7 +204,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Reason Clefts",
       instructions: "Fill in the missing words to create a reason cleft.",
-      question: "___ I am here is to help.",
+      question: "[[___ I am here is to help.|La razón por la que estoy aquí es para ayudar.]]",
       correctAnswer: "The reason",
       explanation: "Use 'The reason (+ why) ... is/was' to focus on purpose.",
       translation: "La razón por la que estoy aquí es para ayudar.",
@@ -222,7 +222,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Time Clefts",
       instructions: "Fill in the missing words to create a time cleft.",
-      question: "___ I saw him was last Sunday.",
+      question: "[[___ I saw him was last Sunday.|La vez que lo vi fue el domingo pasado.]]",
       correctAnswer: "The time",
       explanation: "Use 'The time (+ when) ... is/was' to focus on time.",
       translation: "La vez que lo vi fue el domingo pasado.",
@@ -240,7 +240,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Place Clefts",
       instructions: "Fill in the missing words to create a place cleft.",
-      question: "___ we met was in London.",
+      question: "[[___ we met was in London.|El lugar donde nos conocimos fue en Londres.]]",
       correctAnswer: "The place",
       explanation: "Use 'The place (+ where) ... is/was' to focus on location.",
       translation: "El lugar donde nos conocimos fue en Londres.",
@@ -258,7 +258,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Reason Clefts",
       instructions: "Fill in the missing words.",
-      question: "___ she left was the noise.",
+      question: "[[___ she left was the noise.|La razón por la que se fue fue el ruido.]]",
       correctAnswer: "The reason",
       explanation: "Focusing on the cause of an action.",
       translation: "La razón por la que se fue fue el ruido.",
@@ -276,7 +276,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Time Clefts",
       instructions: "Fill in the missing words.",
-      question: "___ the accident happened was at night.",
+      question: "[[___ the accident happened was at night.|La hora en que ocurrió el accidente fue de noche.]]",
       correctAnswer: "The time",
       explanation: "Focusing on the timing of an event.",
       translation: "La hora en que ocurrió el accidente fue de noche.",
@@ -294,7 +294,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Place Clefts",
       instructions: "Fill in the missing words.",
-      question: "___ I grew up was a small village.",
+      question: "[[___ I grew up was a small village.|El lugar donde crecí fue un pequeño pueblo.]]",
       correctAnswer: "The place",
       explanation: "Focusing on the origin or growth location.",
       translation: "El lugar donde crecí fue un pequeño pueblo.",
@@ -312,7 +312,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Reason Clefts",
       instructions: "Fill in the missing words.",
-      question: "___ they failed was lack of planning.",
+      question: "[[___ they failed was lack of planning.|La razón por la que fracasaron fue la falta de planificación.]]",
       correctAnswer: "The reason",
       explanation: "Focusing on the cause of failure.",
       translation: "La razón por la que fracasaron fue la falta de planificación.",
@@ -330,7 +330,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Time Clefts",
       instructions: "Fill in the missing words.",
-      question: "___ I finish work is at 5 PM.",
+      question: "[[___ I finish work is at 5 PM.|La hora a la que termino de trabajar es a las 5 de la tarde.]]",
       correctAnswer: "The time",
       explanation: "Focusing on a regular schedule time.",
       translation: "La hora a la que termino de trabajar es a las 5 de la tarde.",
@@ -348,7 +348,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Place Clefts",
       instructions: "Fill in the missing words.",
-      question: "___ he lives is very quiet.",
+      question: "[[___ he lives is very quiet.|El lugar donde vive es muy tranquilo.]]",
       correctAnswer: "The place",
       explanation: "Focusing on his residence.",
       translation: "El lugar donde vive es muy tranquilo.",
@@ -366,7 +366,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Reason Clefts",
       instructions: "Fill in the missing words.",
-      question: "___ I am calling is to confirm.",
+      question: "[[___ I am calling is to confirm.|La razón por la que llamo es para confirmar.]]",
       correctAnswer: "The reason",
       explanation: "Common formal way to open a call.",
       translation: "La razón por la que llamo es para confirmar.",
@@ -386,7 +386,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Social Concepts",
       instructions: "Fill in the blank.",
-      question: "We must strive for social ___ (justice).",
+      question: "[[We must strive for social ___ (justice).|Debemos luchar por la justicia social.]]",
       correctAnswer: "justice",
       explanation: "Social justice is the fair treatment of all people.",
       translation: "Debemos luchar por la justicia social.",
@@ -404,7 +404,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Social Concepts",
       instructions: "Fill in the blank.",
-      question: "Human ___ (rights) are universal.",
+      question: "[[Human ___ (rights) are universal.|Los derechos humanos son universales.]]",
       correctAnswer: "rights",
       explanation: "Human rights belong to every person.",
       translation: "Los derechos humanos son universales.",
@@ -422,7 +422,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Social Concepts",
       instructions: "Fill in the blank.",
-      question: "We need to fight for ___ (equality) for all.",
+      question: "[[We need to fight for ___ (equality) for all.|Necesitamos luchar por la igualdad para todos.]]",
       correctAnswer: "equality",
       explanation: "Equality means having the same status, rights, and opportunities.",
       translation: "Necesitamos luchar por la igualdad para todos.",
@@ -440,7 +440,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Social Concepts",
       instructions: "Fill in the blank.",
-      question: "Economic ___ (inequality) is a global problem.",
+      question: "[[Economic ___ (inequality) is a global problem.|La desigualdad económica es un problema global.]]",
       correctAnswer: "inequality",
       explanation: "Inequality is the difference in wealth or status between groups.",
       translation: "La desigualdad económica es un problema global.",
@@ -458,7 +458,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Social Concepts",
       instructions: "Fill in the blank.",
-      question: "___ (Fairness) is the foundation of a good society.",
+      question: "[[___ (Fairness) is the foundation of a good society.|La justicia/equidad es la base de una buena sociedad.]]",
       correctAnswer: "Fairness",
       explanation: "Fairness means behaving without favoritism or discrimination.",
       translation: "La justicia/equidad es la base de una buena sociedad.",
@@ -476,7 +476,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Social Concepts",
       instructions: "Fill in the blank.",
-      question: "We should protect the most ___ (vulnerable) members of society.",
+      question: "[[We should protect the most ___ (vulnerable) members of society.|Debemos proteger a los miembros más vulnerables de la sociedad.]]",
       correctAnswer: "vulnerable",
       explanation: "Vulnerable people are those easily hurt or in need of protection.",
       translation: "Debemos proteger a los miembros más vulnerables de la sociedad.",
@@ -494,7 +494,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Social Concepts",
       instructions: "Fill in the blank.",
-      question: "___ (Privilege) often goes unnoticed by those who have it.",
+      question: "[[___ (Privilege) often goes unnoticed by those who have it.|El privilegio a menudo pasa desapercibido para quienes lo tienen.]]",
       correctAnswer: "Privilege",
       explanation: "Privilege is a special right or advantage available only to a particular person or group.",
       translation: "El privilegio a menudo pasa desapercibido para quienes lo tienen.",
@@ -512,7 +512,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Social Concepts",
       instructions: "Fill in the blank.",
-      question: "We must promote ___ (inclusion) in all areas of life.",
+      question: "[[We must promote ___ (inclusion) in all areas of life.|Debemos promover la inclusión en todos los ámbitos de la vida.]]",
       correctAnswer: "inclusion",
       explanation: "Inclusion is the practice of providing equal access to opportunities and resources.",
       translation: "Debemos promover la inclusión en todos los ámbitos de la vida.",
@@ -530,7 +530,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Social Concepts",
       instructions: "Fill in the blank.",
-      question: "___ (Diversity) makes our community stronger.",
+      question: "[[___ (Diversity) makes our community stronger.|La diversidad hace que nuestra comunidad sea más fuerte.]]",
       correctAnswer: "Diversity",
       explanation: "Diversity is the state of being diverse; variety.",
       translation: "La diversidad hace que nuestra comunidad sea más fuerte.",
@@ -548,7 +548,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Social Concepts",
       instructions: "Fill in the blank.",
-      question: "We need to address the root ___ (causes) of poverty.",
+      question: "[[We need to address the root ___ (causes) of poverty.|Necesitamos abordar las causas fundamentales de la pobreza.]]",
       correctAnswer: "causes",
       explanation: "Root causes are the basic reasons for a problem.",
       translation: "Necesitamos abordar las causas fundamentales de la pobreza.",
@@ -568,7 +568,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Inequality",
       instructions: "Choose the correct term.",
-      question: "___ is still a reality for many who are treated unfairly.",
+      question: "[[___ is still a reality for many who are treated unfairly.|La discriminación sigue siendo una realidad para muchos.]]",
       options: ["Discrimination", "Inclusion", "Fairness"],
       correctAnswer: "Discrimination",
       explanation: "Discrimination is the unjust or prejudicial treatment of different categories of people.",
@@ -587,7 +587,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Inequality",
       instructions: "Choose the correct term.",
-      question: "We must eliminate ___ and bias from our society.",
+      question: "[[We must eliminate ___ and bias from our society.|Debemos eliminar los prejuicios y el sesgo.]]",
       options: ["prejudice", "friendship", "kindness"],
       correctAnswer: "prejudice",
       explanation: "Prejudice is an unfair opinion formed without enough thought or knowledge.",
@@ -606,7 +606,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Inequality",
       instructions: "Choose the correct term.",
-      question: "The ___ pay gap is a form of inequality between men and women.",
+      question: "[[The ___ pay gap is a form of inequality between men and women.|La brecha salarial de género es una forma de desigualdad.]]",
       options: ["gender", "job", "money"],
       correctAnswer: "gender",
       explanation: "Gender refers to the socially constructed characteristics of women and men.",
@@ -625,7 +625,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Inequality",
       instructions: "Choose the correct term.",
-      question: "___ racism is built into the structures of our institutions.",
+      question: "[[___ racism is built into the structures of our institutions.|El racismo sistémico está integrado en las instituciones.]]",
       options: ["Systemic", "Personal", "Small"],
       correctAnswer: "Systemic",
       explanation: "Systemic means relating to a system as a whole.",
@@ -644,7 +644,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Inequality",
       instructions: "Choose the correct term.",
-      question: "Many people face ___ to education, such as high costs.",
+      question: "[[Many people face ___ to education, such as high costs.|Muchas personas se enfrentan a barreras para la educación.]]",
       options: ["barriers", "doors", "gates"],
       correctAnswer: "barriers",
       explanation: "A barrier is a circumstance or obstacle that keeps people apart or prevents communication or progress.",
@@ -663,7 +663,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Inequality",
       instructions: "Choose the correct term.",
-      question: "___ groups often lack a voice in the decision-making process.",
+      question: "[[___ groups often lack a voice in the decision-making process.|Los grupos marginados a menudo carecen de voz.]]",
       options: ["Marginalized", "Large", "Rich"],
       correctAnswer: "Marginalized",
       explanation: "To marginalize is to treat a person or group as insignificant or peripheral.",
@@ -682,7 +682,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Inequality",
       instructions: "Choose the correct term.",
-      question: "We need to overcome social ___ around mental health.",
+      question: "[[We need to overcome social ___ around mental health.|Necesitamos superar el estigma social.]]",
       options: ["stigma", "mark", "name"],
       correctAnswer: "stigma",
       explanation: "A stigma is a mark of disgrace associated with a particular circumstance, quality, or person.",
@@ -701,7 +701,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Inequality",
       instructions: "Choose the correct term.",
-      question: "___ has many forms, ranging from political to economic.",
+      question: "[[___ has many forms, ranging from political to economic.|La opresión tiene muchas formas.]]",
       options: ["Oppression", "Freedom", "Peace"],
       correctAnswer: "Oppression",
       explanation: "Oppression is prolonged cruel or unjust treatment or control.",
@@ -720,7 +720,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Inequality",
       instructions: "Choose the correct term.",
-      question: "The ___ between the rich and poor is widening every year.",
+      question: "[[The ___ between the rich and poor is widening every year.|La brecha entre ricos y pobres se está ampliando.]]",
       options: ["gap", "hole", "door"],
       correctAnswer: "gap",
       explanation: "A gap is a break or hole in an object or between two objects; here it refers to a difference.",
@@ -739,7 +739,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Inequality",
       instructions: "Choose the correct term.",
-      question: "We must stand up against ___ whenever we see it.",
+      question: "[[We must stand up against ___ whenever we see it.|Debemos alzarnos contra la injusticia.]]",
       options: ["injustice", "justice", "right"],
       correctAnswer: "injustice",
       explanation: "Injustice is lack of fairness or justice.",
@@ -760,7 +760,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (EQUAL) of all people is a basic principle.",
+      question: "[[The ___ (EQUAL) of all people is a basic principle.|La igualdad de todas las personas es un principio básico.]]",
       correctAnswer: "equality",
       explanation: "Noun form of 'equal'.",
       translation: "La igualdad de todas las personas es un principio básico.",
@@ -778,7 +778,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "We must fight against ___ (JUST).",
+      question: "[[We must fight against ___ (JUST).|Debemos luchar contra la injusticia.]]",
       correctAnswer: "injustice",
       explanation: "Negative noun form of 'just/justice'.",
       translation: "Debemos luchar contra la injusticia.",
@@ -796,7 +796,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "Her ___ (GENEROUS) was inspiring.",
+      question: "[[Her ___ (GENEROUS) was inspiring.|Su generosidad fue inspiradora.]]",
       correctAnswer: "generosity",
       explanation: "Noun form of 'generous'.",
       translation: "Su generosidad fue inspiradora.",
@@ -814,7 +814,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (POOR) in this area is shocking.",
+      question: "[[The ___ (POOR) in this area is shocking.|La pobreza en esta zona es impactante.]]",
       correctAnswer: "poverty",
       explanation: "Noun form of 'poor'.",
       translation: "La pobreza en esta zona es impactante.",
@@ -832,7 +832,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "We need a more ___ (INCLUSION) society.",
+      question: "[[We need a more ___ (INCLUSION) society.|Necesitamos una sociedad más inclusiva.]]",
       correctAnswer: "inclusive",
       explanation: "Adjective form of 'inclusion'.",
       translation: "Necesitamos una sociedad más inclusiva.",
@@ -850,7 +850,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (DIVERSE) of the city is its strength.",
+      question: "[[The ___ (DIVERSE) of the city is its strength.|La diversidad de la ciudad es su fuerza.]]",
       correctAnswer: "diversity",
       explanation: "Noun form of 'diverse'.",
       translation: "La diversidad de la ciudad es su fuerza.",
@@ -868,7 +868,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "He is a very ___ (INFLUENCE) speaker on human rights.",
+      question: "[[He is a very ___ (INFLUENCE) speaker on human rights.|Es un orador muy influyente sobre los derechos humanos.]]",
       correctAnswer: "influential",
       explanation: "Adjective form of 'influence'.",
       translation: "Es un orador muy influyente sobre los derechos humanos.",
@@ -886,7 +886,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (RESPONSIBLE) of the government is clear.",
+      question: "[[The ___ (RESPONSIBLE) of the government is clear.|La responsabilidad del gobierno es clara.]]",
       correctAnswer: "responsibility",
       explanation: "Noun form of 'responsible'.",
       translation: "La responsabilidad del gobierno es clara.",
@@ -904,7 +904,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (VULNERABLE) of children must be protected.",
+      question: "[[The ___ (VULNERABLE) of children must be protected.|La vulnerabilidad de los niños debe ser protegida.]]",
       correctAnswer: "vulnerability",
       explanation: "Noun form of 'vulnerable'.",
       translation: "La vulnerabilidad de los niños debe ser protegida.",
@@ -922,7 +922,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "She showed great ___ (BRAVE) in the face of adversity.",
+      question: "[[She showed great ___ (BRAVE) in the face of adversity.|Mostró una gran valentía ante la adversidad.]]",
       correctAnswer: "bravery",
       explanation: "Noun form of 'brave'.",
       translation: "Mostró una gran valentía ante la adversidad.",
