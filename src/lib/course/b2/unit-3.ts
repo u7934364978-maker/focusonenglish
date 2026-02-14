@@ -901,7 +901,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa mantener algo en su estado original.",
       "questions": [
         {
-          "question": "[[We|Debemos]] [[must|_______]] [[preserve|la]] [[the|belleza]] [[natural|natural]] [[beauty|de nuestros]] [[of|parques]] [[our|nacionales.]] [[parks.| ]]",
+          "question": "[[We|Debemos]] [[must|deber]] [[_______|preservar]] [[the|la]] [[natural|natural]] [[beauty|belleza]] [[of|de]] [[our|nuestros]] [[parks.|parques.]]",
           "options": [
             "[[preserve|preservar]]",
             "[[prevent|prevenir]]",
@@ -928,7 +928,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector que expresa una condición.",
       "questions": [
         {
-          "question": "[[I'll|Iré]] [[go|a la]] [[to|playa]] [[the|mañana]] [[beach|_______]] [[tomorrow|que no]] [[provided|llueva.]] [[that| ]]",
+          "question": "[[I'll|Iré]] [[go|a la]] [[to|playa]] [[the|la]] [[beach|playa]] [[tomorrow|mañana]] [[_______|siempre que]]",
           "options": [
             "[[provided that|siempre]]",
             "[[unless|a menos]]",
@@ -955,7 +955,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra para productos químicos usados contra plagas.",
       "questions": [
         {
-          "question": "[[Organic|La agricultura]] [[farming|orgánica]] [[avoids|evita]] [[the|el]] [[use|uso]] [[of|de]] [[synthetic|_______]].",
+          "question": "[[Organic|La agricultura]] [[farming|orgánica]] [[avoids|evita]] [[the|el]] [[use|uso]] [[of|de]] [[synthetic|sintéticos]] [[_______|pesticidas]].",
           "options": [
             "[[pesticides|pesticidas]]",
             "[[particles|partículas]]",
@@ -1171,7 +1171,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma formal de expresar una condición posible.",
       "questions": [
         {
-          "question": "[[_______|Si]] [[you|vieras]] [[see|a]] [[someone|alguien]] [[littering,|tirando basura,]] [[you|deberías]] [[should|decirle]] [[que la recoja.]]",
+          "question": "[[_______|Si]] [[you|vieras]] [[see|a]] [[someone|alguien]] [[littering,|tirando basura,]] [[you|deberías]] [[should|decirle que la recoja.]]",
           "options": [
             "[[Should|Si]]",
             "[[Could|Si]]",
