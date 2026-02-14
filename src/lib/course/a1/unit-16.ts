@@ -88,27 +88,6 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u16-e5',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Weather',
-    topicName: 'Sunny or Rainy?',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Sunny',
-      instructions: 'Di la palabra para "soleado".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Sunny',
-          phonetic: '/ˈsʌn.i/',
-          translation: 'Soleado',
-          explanation: 'La "u" suena como una "a" corta y seca.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u16-e6',
     type: 'fill-blank',
     level: 'A1',
@@ -252,27 +231,6 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u16-e13',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Weather',
-    topicName: 'Sunny or Rainy?',
-    difficulty: 'easy',
-    content: {
-      title: 'Pronunciación: Rain',
-      instructions: 'Di la palabra para "lluvia".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Rain',
-          phonetic: '/reɪn/',
-          translation: 'Lluvia',
-          explanation: 'La combinación "ai" suena como "ei".'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u16-e14',
     type: 'sentence-building',
     level: 'A1',
@@ -394,27 +352,6 @@ export const UNIT_16_EXERCISES: Exercise[] = [
         }
       ]
     }
-  },
-  {
-    id: 'a1-u16-e20',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Weather',
-    topicName: 'Sunny or Rainy?',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Storm',
-      instructions: 'Di la palabra para "tormenta".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Storm',
-          phonetic: '/stɔːrm/',
-          translation: 'Tormenta',
-          explanation: 'Asegúrate de pronunciar la "r" suavemente.'
-        }
-      ]
-    } as any
   },
   {
     id: 'a1-u16-e21',
@@ -643,27 +580,6 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u16-e32',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Weather',
-    topicName: 'Sunny or Rainy?',
-    difficulty: 'hard',
-    content: {
-      title: 'Pronunciación: Lightning',
-      instructions: 'Di la palabra para "relámpago".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Lightning',
-          phonetic: '/ˈlaɪt.nɪŋ/',
-          translation: 'Relámpago',
-          explanation: 'La "gh" es muda.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'a1-u16-e33',
     type: 'multiple-choice',
     level: 'A1',
@@ -887,27 +803,6 @@ export const UNIT_16_EXERCISES: Exercise[] = [
         }
       ]
     }
-  },
-  {
-    id: 'a1-u16-e44',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Weather',
-    topicName: 'Sunny or Rainy?',
-    difficulty: 'medium',
-    content: {
-      title: 'Pronunciación: Forecast',
-      instructions: 'Di la palabra para "pronóstico".',
-      questions: [
-        {
-          id: 'q1',
-          text: 'Forecast',
-          phonetic: '/ˈfɔːr.kæst/',
-          translation: 'Pronóstico',
-          explanation: 'Acentúa la primera sílaba: "FORE-cast".'
-        }
-      ]
-    } as any
   },
   {
     id: 'a1-u16-e45',
