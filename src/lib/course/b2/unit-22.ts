@@ -12,7 +12,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Perfect Infinitive",
       instructions: "Choose the correct infinitive form to report a past action.",
-      question: "The glacier is thought ___ (melt) significantly over the last decade.",
+      question: "[[The glacier is thought ___ (melt) significantly over the last decade.|Se piensa que el glaciar se ha derretido significativamente durante la última década.]]",
       options: ["to have melted", "to melt", "to be melting"],
       correctAnswer: "to have melted",
       explanation: "Use the perfect infinitive (to have + past participle) to report an action that happened before the reporting time.",
@@ -31,7 +31,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Perfect Infinitive",
       instructions: "Choose the correct infinitive form.",
-      question: "The fire is believed ___ (start) by a lightning strike.",
+      question: "[[The fire is believed ___ (start) by a lightning strike.|Se cree que el incendio se inició por el impacto de un rayo.]]",
       options: ["to have started", "to start", "to be starting"],
       correctAnswer: "to have started",
       explanation: "Perfect infinitive for a completed past event.",
@@ -50,7 +50,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Perfect Infinitive",
       instructions: "Choose the correct infinitive form.",
-      question: "The species is reported ___ (disappear) from the region.",
+      question: "[[The species is reported ___ (disappear) from the region.|Se informa que la especie ha desaparecido de la región.]]",
       options: ["to have disappeared", "to disappear", "to be disappearing"],
       correctAnswer: "to have disappeared",
       explanation: "Reporting something that happened in the past.",
@@ -69,7 +69,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Perfect Infinitive",
       instructions: "Choose the correct infinitive form.",
-      question: "The government is claimed ___ (hide) the real data.",
+      question: "[[The government is claimed ___ (hide) the real data.|Se afirma que el gobierno ha ocultado los datos reales.]]",
       options: ["to have hidden", "to hide", "to be hiding"],
       correctAnswer: "to have hidden",
       explanation: "Use perfect infinitive for an alleged past action.",
@@ -88,7 +88,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Perfect Infinitive",
       instructions: "Choose the correct infinitive form.",
-      question: "The factory is suspected ___ (dump) waste into the river.",
+      question: "[[The factory is suspected ___ (dump) waste into the river.|Se sospecha que la fábrica ha vertido residuos al río.]]",
       options: ["to have dumped", "to dump", "to be dumping"],
       correctAnswer: "to have dumped",
       explanation: "Suspected past action requires perfect infinitive.",
@@ -107,7 +107,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Perfect Infinitive",
       instructions: "Choose the correct infinitive form.",
-      question: "The levels of CO2 are estimated ___ (rise) by 5%.",
+      question: "[[The levels of CO2 are estimated ___ (rise) by 5%.|Se estima que los niveles de CO2 han aumentado un 5%.]]",
       options: ["to have risen", "to rise", "to be rising"],
       correctAnswer: "to have risen",
       explanation: "Reported increase that has already occurred.",
@@ -126,7 +126,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Perfect Infinitive",
       instructions: "Choose the correct infinitive form.",
-      question: "The disaster is known ___ (affect) thousands of people.",
+      question: "[[The disaster is known ___ (affect) thousands of people.|Se sabe que el desastre ha afectado a miles de personas.]]",
       options: ["to have affected", "to affect", "to be affecting"],
       correctAnswer: "to have affected",
       explanation: "Known past effect.",
@@ -145,7 +145,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Perfect Infinitive",
       instructions: "Choose the correct infinitive form.",
-      question: "The island is assumed ___ (be) inhabited once.",
+      question: "[[The island is assumed ___ (be) inhabited once.|Se asume que la isla estuvo habitada una vez.]]",
       options: ["to have been", "to be", "to have being"],
       correctAnswer: "to have been",
       explanation: "Perfect infinitive of 'be' for a past state.",
@@ -164,7 +164,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Perfect Passive Infinitive",
       instructions: "Choose the correct passive infinitive form.",
-      question: "The trees are said ___ (plant) by local volunteers.",
+      question: "[[The trees are said ___ (plant) by local volunteers.|Se dice que los árboles fueron plantados por voluntarios locales.]]",
       options: ["to have been planted", "to plant", "to be planted"],
       correctAnswer: "to have been planted",
       explanation: "Use perfect passive infinitive (to have been + past participle) for past actions done to the subject.",
@@ -183,7 +183,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Perfect Infinitive",
       instructions: "Choose the correct infinitive form.",
-      question: "The law is understood ___ (change) in 2010.",
+      question: "[[The law is understood ___ (change) in 2010.|Se entiende que la ley cambió en 2010.]]",
       options: ["to have changed", "to change", "to have been changed"],
       correctAnswer: "to have changed",
       explanation: "Reporting a past change.",
@@ -204,7 +204,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Continuous Infinitive",
       instructions: "Fill in the correct continuous infinitive form (to be + -ing).",
-      question: "The temperatures are thought ___ (rise) at an alarming rate.",
+      question: "[[The temperatures are thought ___ (rise) at an alarming rate.|Se piensa que las temperaturas están aumentando a un ritmo alarmante.]]",
       correctAnswer: "to be rising",
       explanation: "Use the continuous infinitive to report an action in progress at the time of reporting.",
       translation: "Se piensa que las temperaturas están aumentando a un ritmo alarmante.",
@@ -222,7 +222,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Continuous Infinitive",
       instructions: "Fill in the correct continuous infinitive form.",
-      question: "The scientist is believed ___ (work) on a new discovery.",
+      question: "[[The scientist is believed ___ (work) on a new discovery.|Se cree que el científico está trabajando en un nuevo descubrimiento.]]",
       correctAnswer: "to be working",
       explanation: "Reporting an ongoing action.",
       translation: "Se cree que el científico está trabajando en un nuevo descubrimiento.",
@@ -240,7 +240,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Continuous Infinitive",
       instructions: "Fill in the correct continuous infinitive form.",
-      question: "The company is reported ___ (invest) in green energy.",
+      question: "[[The company is reported ___ (invest) in green energy.|Se informa que la empresa está invirtiendo en energía verde.]]",
       correctAnswer: "to be investing",
       explanation: "Current activity reported.",
       translation: "Se informa que la empresa está invirtiendo en energía verde.",
@@ -258,7 +258,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Continuous Infinitive",
       instructions: "Fill in the correct continuous infinitive form.",
-      question: "The sea level is estimated ___ (increase) every year.",
+      question: "[[The sea level is estimated ___ (increase) every year.|Se estima que el nivel del mar está aumentando cada año.]]",
       correctAnswer: "to be increasing",
       explanation: "Reporting a continuous trend.",
       translation: "Se estima que el nivel del mar está aumentando cada año.",
@@ -276,7 +276,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Continuous Infinitive",
       instructions: "Fill in the correct continuous infinitive form.",
-      question: "The animals are known ___ (migrate) south right now.",
+      question: "[[The animals are known ___ (migrate) south right now.|Se sabe que los animales están migrando hacia el sur en este momento.]]",
       correctAnswer: "to be migrating",
       explanation: "Reporting an action happening 'right now'.",
       translation: "Se sabe que los animales están migrando hacia el sur en este momento.",
@@ -294,7 +294,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Continuous Infinitive",
       instructions: "Fill in the correct continuous infinitive form.",
-      question: "The pollution is said ___ (cause) serious health issues.",
+      question: "[[The pollution is said ___ (cause) serious health issues.|Se dice que la contaminación está causando graves problemas de salud.]]",
       correctAnswer: "to be causing",
       explanation: "Ongoing cause and effect reporting.",
       translation: "Se dice que la contaminación está causando graves problemas de salud.",
@@ -312,7 +312,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Continuous Infinitive",
       instructions: "Fill in the correct continuous infinitive form.",
-      question: "The forest is thought ___ (shrink) due to logging.",
+      question: "[[The forest is thought ___ (shrink) due to logging.|Se piensa que el bosque se está reduciendo debido a la tala.]]",
       correctAnswer: "to be shrinking",
       explanation: "Reporting an ongoing reduction.",
       translation: "Se piensa que el bosque se está reduciendo debido a la tala.",
@@ -330,7 +330,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Continuous Infinitive",
       instructions: "Fill in the correct continuous infinitive form.",
-      question: "They are claimed ___ (build) a new solar farm.",
+      question: "[[They are claimed ___ (build) a new solar farm.|Se afirma que están construyendo un nuevo parque solar.]]",
       correctAnswer: "to be building",
       explanation: "Alleged ongoing construction.",
       translation: "Se afirma que están construyendo un nuevo parque solar.",
@@ -348,7 +348,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Continuous Infinitive",
       instructions: "Fill in the correct continuous infinitive form.",
-      question: "The situation is assumed ___ (improve) slowly.",
+      question: "[[The situation is assumed ___ (improve) slowly.|Se asume que la situación está mejorando lentamente.]]",
       correctAnswer: "to be improving",
       explanation: "Assumption about an ongoing process.",
       translation: "Se asume que la situación está mejorando lentamente.",
@@ -366,7 +366,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Passive Reporting: Continuous Infinitive",
       instructions: "Fill in the correct continuous infinitive form.",
-      question: "The data is understood ___ (show) a clear trend.",
+      question: "[[The data is understood ___ (show) a clear trend.|Se entiende que los datos muestran una tendencia clara.]]",
       correctAnswer: "to be showing",
       explanation: "Reporting what the data indicates currently.",
       translation: "Se entiende que los datos muestran una tendencia clara.",
@@ -386,7 +386,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Climate Terms",
       instructions: "Fill in the blank.",
-      question: "The ___ (greenhouse) effect is causing global warming.",
+      question: "[[The ___ (greenhouse) effect is causing global warming.|El efecto invernadero está causando el calentamiento global.]]",
       correctAnswer: "greenhouse",
       explanation: "The greenhouse effect is the trapping of the sun's warmth in a planet's lower atmosphere.",
       translation: "El efecto invernadero está causando el calentamiento global.",
@@ -404,7 +404,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Climate Terms",
       instructions: "Fill in the blank.",
-      question: "Carbon ___ (emissions) must be reduced significantly.",
+      question: "[[Carbon ___ (emissions) must be reduced significantly.|Las emisiones de carbono deben reducirse significativamente.]]",
       correctAnswer: "emissions",
       explanation: "Emissions are the production and discharge of something, especially gas or radiation.",
       translation: "Las emisiones de carbono deben reducirse significativamente.",
@@ -422,7 +422,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Climate Terms",
       instructions: "Fill in the blank.",
-      question: "The melting of ___ (glaciers) is a serious concern.",
+      question: "[[The melting of ___ (glaciers) is a serious concern.|El derretimiento de los glaciares es una seria preocupación.]]",
       correctAnswer: "glaciers",
       explanation: "Glaciers are slowly moving masses or rivers of ice formed by the accumulation and compaction of snow on mountains or near the poles.",
       translation: "El derretimiento de los glaciares es una seria preocupación.",
@@ -440,7 +440,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Climate Terms",
       instructions: "Fill in the blank.",
-      question: "We are facing an ___ (ecological) disaster.",
+      question: "[[We are facing an ___ (ecological) disaster.|Nos enfrentamos a un desastre ecológico.]]",
       correctAnswer: "ecological",
       explanation: "Ecological means relating to or concerned with the relation of living organisms to one another and to their physical surroundings.",
       translation: "Nos enfrentamos a un desastre ecológico.",
@@ -458,7 +458,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Climate Terms",
       instructions: "Fill in the blank.",
-      question: "The ___ (ozone) layer protects us from UV rays.",
+      question: "[[The ___ (ozone) layer protects us from UV rays.|La capa de ozono nos protege de los rayos UV.]]",
       correctAnswer: "ozone",
       explanation: "The ozone layer is a layer in the earth's stratosphere at an altitude of about 10 km.",
       translation: "La capa de ozono nos protege de los rayos UV.",
@@ -476,7 +476,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Climate Terms",
       instructions: "Fill in the blank.",
-      question: "Deforestation leads to a loss of ___ (biodiversity).",
+      question: "[[Deforestation leads to a loss of ___ (biodiversity).|La deforestación conlleva una pérdida de biodiversidad.]]",
       correctAnswer: "biodiversity",
       explanation: "Biodiversity is the variety of life in the world or in a particular habitat or ecosystem.",
       translation: "La deforestación conlleva una pérdida de biodiversidad.",
@@ -494,7 +494,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Climate Terms",
       instructions: "Fill in the blank.",
-      question: "___ (Extreme) weather events are becoming more frequent.",
+      question: "[[___ (Extreme) weather events are becoming more frequent.|Los eventos meteorológicos extremos son cada vez más frecuentes.]]",
       correctAnswer: "Extreme",
       explanation: "Extreme weather includes unexpected, unusual, severe, or unseasonal weather.",
       translation: "Los eventos meteorológicos extremos son cada vez más frecuentes.",
@@ -512,7 +512,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Climate Terms",
       instructions: "Fill in the blank.",
-      question: "The ___ (rising) sea levels threaten coastal cities.",
+      question: "[[The ___ (rising) sea levels threaten coastal cities.|El aumento del nivel del mar amenaza a las ciudades costeras.]]",
       correctAnswer: "rising",
       explanation: "Rising means moving upward or increasing in amount.",
       translation: "El aumento del nivel del mar amenaza a las ciudades costeras.",
@@ -530,7 +530,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Climate Terms",
       instructions: "Fill in the blank.",
-      question: "___ (Fossil) fuels are a major source of pollution.",
+      question: "[[___ (Fossil) fuels are a major source of pollution.|Los combustibles fósiles son una de las principales fuentes de contaminación.]]",
       correctAnswer: "fossil",
       explanation: "Fossil fuels are natural fuels such as coal or gas, formed in the geological past from the remains of living organisms.",
       translation: "Los combustibles fósiles son una de las principales fuentes de contaminación.",
@@ -548,7 +548,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Climate Terms",
       instructions: "Fill in the blank.",
-      question: "The Earth's ___ (atmosphere) is changing.",
+      question: "[[The Earth's ___ (atmosphere) is changing.|La atmósfera de la Tierra está cambiando.]]",
       correctAnswer: "atmosphere",
       explanation: "The atmosphere is the envelope of gases surrounding the earth or another planet.",
       translation: "La atmósfera de la Tierra está cambiando.",
@@ -568,7 +568,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Sustainability",
       instructions: "Choose the correct term.",
-      question: "We should use more ___ energy.",
+      question: "[[We should use more ___ energy.|Deberíamos utilizar más energías renovables.]]",
       options: ["renewable", "reusable", "fixed"],
       correctAnswer: "renewable",
       explanation: "Renewable energy is energy from a source that is not depleted when used.",
@@ -587,7 +587,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Sustainability",
       instructions: "Choose the correct term.",
-      question: "Solar panels are a great source of ___.",
+      question: "[[Solar panels are a great source of ___.|Los paneles solares son una gran fuente de energía.]]",
       options: ["power", "strength", "force"],
       correctAnswer: "power",
       explanation: "Power is energy that is produced by mechanical, electrical, or other means.",
@@ -606,7 +606,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Sustainability",
       instructions: "Choose the correct term.",
-      question: "___ development is key to the future.",
+      question: "[[___ development is key to the future.|El desarrollo sostenible es clave para el futuro.]]",
       options: ["Sustainable", "Strong", "Long"],
       correctAnswer: "Sustainable",
       explanation: "Sustainable development meets the needs of the present without compromising future generations.",
@@ -625,7 +625,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Sustainability",
       instructions: "Choose the correct term.",
-      question: "We need to reduce our carbon ___.",
+      question: "[[We need to reduce our carbon ___.|Necesitamos reducir nuestra huella de carbono.]]",
       options: ["footprint", "step", "mark"],
       correctAnswer: "footprint",
       explanation: "A carbon footprint is the total amount of greenhouse gases produced by an individual, event, organization, or product.",
@@ -644,7 +644,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Sustainability",
       instructions: "Choose the correct term.",
-      question: "Organic farming is better for the ___.",
+      question: "[[Organic farming is better for the ___.|La agricultura ecológica es mejor para el suelo.]]",
       options: ["soil", "ground", "dirt"],
       correctAnswer: "soil",
       explanation: "Soil is the upper layer of earth in which plants grow.",
@@ -663,7 +663,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Sustainability",
       instructions: "Choose the correct term.",
-      question: "___ efforts are vital for rare species.",
+      question: "[[___ efforts are vital for rare species.|Los esfuerzos de conservación son vitales para las especies raras.]]",
       options: ["Conservation", "Protection", "Saving"],
       correctAnswer: "Conservation",
       explanation: "Conservation is the preservation, protection, or restoration of the natural environment and of wildlife.",
@@ -682,7 +682,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Sustainability",
       instructions: "Choose the correct term.",
-      question: "We should recycle and ___ materials.",
+      question: "[[We should recycle and ___ materials.|Deberíamos reciclar y reutilizar los materiales.]]",
       options: ["reuse", "redo", "remake"],
       correctAnswer: "reuse",
       explanation: "To reuse means to use something again or more than once.",
@@ -701,7 +701,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Sustainability",
       instructions: "Choose the correct term.",
-      question: "___ is a good way to reduce organic waste.",
+      question: "[[___ is a good way to reduce organic waste.|El compostaje es una buena forma de reducir los residuos.]]",
       options: ["Composting", "Cleaning", "Burning"],
       correctAnswer: "Composting",
       explanation: "Composting is the process of recycling organic waste into fertilizer.",
@@ -720,7 +720,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Sustainability",
       instructions: "Choose the correct term.",
-      question: "We must protect our natural ___.",
+      question: "[[We must protect our natural ___.|Debemos proteger nuestros recursos naturales.]]",
       options: ["resources", "tools", "things"],
       correctAnswer: "resources",
       explanation: "Natural resources are materials or substances such as minerals, forests, water, and fertile land that occur in nature.",
@@ -739,7 +739,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Sustainability",
       instructions: "Choose the correct term.",
-      question: "Eco-friendly products are becoming more ___.",
+      question: "[[Eco-friendly products are becoming more ___.|Los productos ecológicos son cada vez más populares.]]",
       options: ["popular", "cheap", "easy"],
       correctAnswer: "popular",
       explanation: "Popular means liked, admired, or enjoyed by many people.",
@@ -760,7 +760,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (ENVIRONMENT) damage is irreversible.",
+      question: "[[The ___ (ENVIRONMENT) damage is irreversible.|El daño ambiental es irreversible.]]",
       correctAnswer: "environmental",
       explanation: "Adjective form of 'environment'.",
       translation: "El daño ambiental es irreversible.",
@@ -778,7 +778,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "We need to find ___ (SUSTAIN) solutions.",
+      question: "[[We need to find ___ (SUSTAIN) solutions.|Necesitamos encontrar soluciones sostenibles.]]",
       correctAnswer: "sustainable",
       explanation: "Adjective form of 'sustain'.",
       translation: "Necesitamos encontrar soluciones sostenibles.",
@@ -796,7 +796,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "___ (POLLUTE) levels are high in cities.",
+      question: "[[___ (POLLUTE) levels are high in cities.|Los niveles de contaminación son altos en las ciudades.]]",
       correctAnswer: "Pollution",
       explanation: "Noun form of 'pollute'.",
       translation: "Los niveles de contaminación son altos en las ciudades.",
@@ -814,7 +814,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (PROTECT) of wildlife is crucial.",
+      question: "[[The ___ (PROTECT) of wildlife is crucial.|La protección de la vida silvestre es crucial.]]",
       correctAnswer: "protection",
       explanation: "Noun form of 'protect'.",
       translation: "La protección de la vida silvestre es crucial.",
@@ -832,7 +832,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The project was an ___ (ECOLOGY) success.",
+      question: "[[The project was an ___ (ECOLOGY) success.|El proyecto fue un éxito ecológico.]]",
       correctAnswer: "ecological",
       explanation: "Adjective form of 'ecology'.",
       translation: "El proyecto fue un éxito ecológico.",
@@ -850,7 +850,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "___ (DEFOREST) is a major cause of CO2 rise.",
+      question: "[[___ (DEFOREST) is a major cause of CO2 rise.|La deforestación es una de las principales causas del aumento del CO2.]]",
       correctAnswer: "Deforestation",
       explanation: "Noun form of 'deforest'.",
       translation: "La deforestación es una de las principales causas del aumento del CO2.",
@@ -868,7 +868,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "We are looking for ___ (RENEW) energy.",
+      question: "[[We are looking for ___ (RENEW) energy.|Estamos buscando energía renovable.]]",
       correctAnswer: "renewable",
       explanation: "Adjective form of 'renew'.",
       translation: "Estamos buscando energía renovable.",
@@ -886,7 +886,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (AWARE) of climate change is high.",
+      question: "[[The ___ (AWARE) of climate change is high.|La conciencia sobre el cambio climático es alta.]]",
       correctAnswer: "awareness",
       explanation: "Noun form of 'aware'.",
       translation: "La conciencia sobre el cambio climático es alta.",
@@ -904,7 +904,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "The ___ (SURVIVE) of the planet depends on us.",
+      question: "[[The ___ (SURVIVE) of the planet depends on us.|La supervivencia del planeta depende de nosotros.]]",
       correctAnswer: "survival",
       explanation: "Noun form of 'survive'.",
       translation: "La supervivencia del planeta depende de nosotros.",
@@ -922,7 +922,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     content: {
       title: "Word Formation",
       instructions: "Transform the word in brackets.",
-      question: "He is a well-known ___ (CONSERVE) expert.",
+      question: "[[He is a well-known ___ (CONSERVE) expert.|Es un conocido experto en conservación.]]",
       correctAnswer: "conservation",
       explanation: "Noun form of 'conserve'.",
       translation: "Es un conocido experto en conservación.",
