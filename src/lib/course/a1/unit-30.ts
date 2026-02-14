@@ -1,5 +1,9 @@
 import { Exercise } from '@/lib/exercise-generator';
 
+/**
+ * Unit 30: The Final Step
+ */
+
 export const UNIT_30_EXERCISES: Exercise[] = [
   // --- BONUS CHALLENGE: ADVANCED MIX ---
   
@@ -13,11 +17,11 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     difficulty: 'hard',
     content: {
       pairs: [
-        { front: 'I am better than him.', back: 'Soy mejor que él.' },
-        { front: 'She was going to call.', back: 'Ella iba a llamar.' },
-        { front: 'Can you help me now?', back: '¿Puedes ayudarme ahora?' },
-        { front: 'They were not there.', back: 'Ellos no estaban allí.' },
-        { front: 'It is the best day!', back: '¡Es el mejor día!' }
+        { left: 'I am better than him.', right: 'Soy mejor que él.' },
+        { left: 'She was going to call.', right: 'Ella iba a llamar.' },
+        { left: 'Can you help me now?', right: '¿Puedes ayudarme ahora?' },
+        { left: 'They were not there.', right: 'Ellos no estaban allí.' },
+        { left: 'It is the best day!', right: '¡Es el mejor día!' }
       ],
       explanation: 'Un reto que mezcla comparativos, pasado del verbo to be y planes futuros.'
     }
@@ -110,11 +114,11 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     difficulty: 'hard',
     content: {
       pairs: [
-        { front: 'Wake up', back: 'Despertarse' },
-        { front: 'Get up', back: 'Levantarse' },
-        { front: 'Sit down', back: 'Sentarse' },
-        { front: 'Stand up', back: 'Ponerse de pie' },
-        { front: 'Turn on', back: 'Encender' }
+        { left: 'Wake up', right: 'Despertarse' },
+        { left: 'Get up', right: 'Levantarse' },
+        { left: 'Sit down', right: 'Sentarse' },
+        { left: 'Stand up', right: 'Ponerse de pie' },
+        { left: 'Turn on', right: 'Encender' }
       ],
       explanation: 'Phrasal verbs básicos que todo estudiante de nivel A1 debe conocer.'
     }
@@ -204,11 +208,11 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     difficulty: 'hard',
     content: {
       pairs: [
-        { front: 'Beautiful city', back: 'Ciudad hermosa' },
-        { front: 'Modern building', back: 'Edificio moderno' },
-        { front: 'Ancient ruins', back: 'Ruinas antiguas' },
-        { front: 'Friendly people', back: 'Gente amable' },
-        { front: 'Local food', back: 'Comida local' }
+        { left: 'Beautiful city', right: 'Ciudad hermosa' },
+        { left: 'Modern building', right: 'Edificio moderno' },
+        { left: 'Ancient ruins', right: 'Ruinas antiguas' },
+        { left: 'Friendly people', right: 'Gente amable' },
+        { left: 'Local food', right: 'Comida local' }
       ],
       explanation: 'Combinaciones de adjetivos y sustantivos para describir lugares.'
     }
@@ -292,11 +296,11 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     difficulty: 'hard',
     content: {
       pairs: [
-        { front: 'Always', back: 'Siempre' },
-        { front: 'Sometimes', back: 'A veces' },
-        { front: 'Hardly ever', back: 'Casi nunca' },
-        { front: 'Rarely', back: 'Raramente' },
-        { front: 'Never', back: 'Nunca' }
+        { left: 'Always', right: 'Siempre' },
+        { left: 'Sometimes', right: 'A veces' },
+        { left: 'Hardly ever', right: 'Casi nunca' },
+        { left: 'Rarely', right: 'Raramente' },
+        { left: 'Never', right: 'Nunca' }
       ],
       explanation: 'Adverbios de frecuencia desde lo más habitual a lo menos.'
     }
@@ -380,11 +384,11 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     difficulty: 'hard',
     content: {
       pairs: [
-        { front: 'Spring', back: 'Primavera' },
-        { front: 'Summer', back: 'Verano' },
-        { front: 'Autumn', back: 'Otoño' },
-        { front: 'Winter', back: 'Invierno' },
-        { front: 'Season', back: 'Estación' }
+        { left: 'Spring', right: 'Primavera' },
+        { left: 'Summer', right: 'Verano' },
+        { left: 'Autumn', right: 'Otoño' },
+        { left: 'Winter', right: 'Invierno' },
+        { left: 'Season', right: 'Estación' }
       ],
       explanation: 'Las cuatro estaciones del año.'
     }
@@ -468,11 +472,11 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     difficulty: 'hard',
     content: {
       pairs: [
-        { front: 'Doctor', back: 'Médico' },
-        { front: 'Nurse', back: 'Enfermero/a' },
-        { front: 'Dentist', back: 'Dentista' },
-        { front: 'Surgeon', back: 'Cirujano' },
-        { front: 'Patient', back: 'Paciente' }
+        { left: 'Doctor', right: 'Médico' },
+        { left: 'Nurse', right: 'Enfermero/a' },
+        { left: 'Dentist', right: 'Dentista' },
+        { left: 'Surgeon', right: 'Cirujano' },
+        { left: 'Patient', right: 'Paciente' }
       ],
       explanation: 'Vocabulario relacionado con la salud y profesiones médicas.'
     }
@@ -556,11 +560,11 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     difficulty: 'hard',
     content: {
       pairs: [
-        { front: 'Laptop', back: 'Ordenador portátil' },
-        { front: 'Keyboard', back: 'Teclado' },
-        { front: 'Mouse', back: 'Ratón' },
-        { front: 'Screen', back: 'Pantalla' },
-        { front: 'Headphones', back: 'Auriculares' }
+        { left: 'Laptop', right: 'Ordenador portátil' },
+        { left: 'Keyboard', right: 'Teclado' },
+        { left: 'Mouse', right: 'Ratón' },
+        { left: 'Screen', right: 'Pantalla' },
+        { left: 'Headphones', right: 'Auriculares' }
       ],
       explanation: 'Vocabulario tecnológico esencial.'
     }
@@ -644,11 +648,11 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     difficulty: 'hard',
     content: {
       pairs: [
-        { front: 'Speak - Spoke', back: 'Hablar - Habló' },
-        { front: 'Write - Wrote', back: 'Escribir - Escribió' },
-        { front: 'Read - Read', back: 'Leer - Leyó' },
-        { front: 'Sing - Sang', back: 'Cantar - Cantó' },
-        { front: 'Run - Ran', back: 'Correr - Corrió' }
+        { left: 'Speak - Spoke', right: 'Hablar - Habló' },
+        { left: 'Write - Wrote', right: 'Escribir - Escribió' },
+        { left: 'Read - Read', right: 'Leer - Leyó' },
+        { left: 'Sing - Sang', right: 'Cantar - Cantó' },
+        { left: 'Run - Ran', right: 'Correr - Corrió' }
       ],
       explanation: 'Más verbos irregulares en su forma de presente y pasado.'
     }
@@ -732,11 +736,11 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     difficulty: 'hard',
     content: {
       pairs: [
-        { front: 'Slowly', back: 'Lentamente' },
-        { front: 'Quickly', back: 'Rápidamente' },
-        { front: 'Happily', back: 'Felizmente' },
-        { front: 'Carefully', back: 'Cuidadosamente' },
-        { front: 'Quietly', back: 'Silenciosamente' }
+        { left: 'Slowly', right: 'Lentamente' },
+        { left: 'Quickly', right: 'Rápidamente' },
+        { left: 'Happily', right: 'Felizmente' },
+        { left: 'Carefully', right: 'Cuidadosamente' },
+        { left: 'Quietly', right: 'Silenciosamente' }
       ],
       explanation: 'Adverbios de modo formados a partir de adjetivos (+ ly).'
     }
@@ -820,11 +824,11 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     difficulty: 'hard',
     content: {
       pairs: [
-        { front: 'In front of', back: 'Delante de' },
-        { front: 'Behind', back: 'Detrás de' },
-        { front: 'Between', back: 'Entre' },
-        { front: 'Above', back: 'Encima de' },
-        { front: 'Below', back: 'Debajo de' }
+        { left: 'In front of', right: 'Delante de' },
+        { left: 'Behind', right: 'Detrás de' },
+        { left: 'Between', right: 'Entre' },
+        { left: 'Above', right: 'Encima de' },
+        { left: 'Below', right: 'Debajo de' }
       ],
       explanation: 'Preposiciones de lugar para indicar posición exacta.'
     }
