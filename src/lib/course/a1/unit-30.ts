@@ -86,23 +86,6 @@ export const UNIT_30_EXERCISES: Exercise[] = [
       ]
     }
   },
-  {
-    id: 'a1-u30-5',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Bonus',
-    topicName: 'Bonus Challenge',
-    difficulty: 'hard',
-    content: {
-      questions: [
-        {
-          question: 'I would like to order a large pizza, please.',
-          spanish: 'Me gustaría pedir una pizza grande, por favor.',
-          explanation: 'Practica una frase cortés y natural para pedir comida.'
-        }
-      ]
-    }
-  },
 
   // 3. Phrasal Verbs & Expressions
   {
@@ -271,23 +254,6 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u30-15',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Bonus',
-    topicName: 'Bonus Challenge',
-    difficulty: 'hard',
-    content: {
-      questions: [
-        {
-          question: 'Where were you born?',
-          spanish: '¿Dónde naciste?',
-          explanation: 'Una pregunta fundamental que usa el pasado del verbo to be.'
-        }
-      ]
-    }
-  },
-  {
     id: 'a1-u30-16',
     type: 'matching',
     level: 'A1',
@@ -354,23 +320,6 @@ export const UNIT_30_EXERCISES: Exercise[] = [
           spanish: 'No vi a mis amigos ayer.',
           words: ['I', 'did', 'not', 'see', 'my', 'friends', 'yesterday.'],
           explanation: 'Negación en pasado simple: did not + verbo base.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u30-20',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Bonus',
-    topicName: 'Bonus Challenge',
-    difficulty: 'hard',
-    content: {
-      questions: [
-        {
-          question: 'What time do you usually wake up?',
-          spanish: '¿A qué hora sueles despertarte?',
-          explanation: 'Pregunta sobre la rutina diaria.'
         }
       ]
     }
@@ -535,23 +484,6 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u30-30',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Bonus',
-    topicName: 'Bonus Challenge',
-    difficulty: 'hard',
-    content: {
-      questions: [
-        {
-          question: 'Could you tell me the way to the station?',
-          spanish: '¿Podría decirme el camino a la estación?',
-          explanation: 'Frase útil y educada para pedir direcciones.'
-        }
-      ]
-    }
-  },
-  {
     id: 'a1-u30-31',
     type: 'matching',
     level: 'A1',
@@ -711,23 +643,6 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u30-40',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Bonus',
-    topicName: 'Bonus Challenge',
-    difficulty: 'hard',
-    content: {
-      questions: [
-        {
-          question: "I'm sorry, I don't understand. Can you repeat that?",
-          spanish: 'Lo siento, no entiendo. ¿Puedes repetir eso?',
-          explanation: 'Frases esenciales para la comunicación cuando no comprendemos algo.'
-        }
-      ]
-    }
-  },
-  {
     id: 'a1-u30-41',
     type: 'matching',
     level: 'A1',
@@ -882,23 +797,6 @@ export const UNIT_30_EXERCISES: Exercise[] = [
           spanish: '¡Creo que estás haciendo un gran trabajo!',
           words: ['I', 'think', 'you', 'are', 'doing', 'a', 'great', 'job!'],
           explanation: 'Una frase de ánimo para terminar el curso.'
-        }
-      ]
-    }
-  },
-  {
-    id: 'a1-u30-50',
-    type: 'speaking-analysis',
-    level: 'A1',
-    topic: 'Bonus',
-    topicName: 'Bonus Challenge',
-    difficulty: 'hard',
-    content: {
-      questions: [
-        {
-          question: 'Congratulations! You have finished the A1 course.',
-          spanish: '¡Felicidades! Has terminado el curso A1.',
-          explanation: '¡Lo lograste! Has completado las 30 unidades del nivel A1.'
         }
       ]
     }
