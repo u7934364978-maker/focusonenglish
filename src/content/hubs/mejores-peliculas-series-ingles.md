@@ -1,6 +1,8 @@
 ---
-title: "Las Mejores Películas y Series para Aprender Inglés en 2026"
-description: "Guía para mejorar tu listening con cine y televisión. Recomendaciones por niveles, acentos y técnicas de visionado activo para la fluidez."
+title: Las Mejores Películas y Series para Aprender Inglés en 2026
+description: >-
+  Guía para mejorar tu listening con cine y televisión. Recomendaciones por
+  niveles, acentos y técnicas de visionado activo para la fluidez.
 ---
 
 # Las Mejores Películas y Series para Aprender Inglés en 2026: Tu Pantalla es tu Aula
@@ -65,7 +67,6 @@ En **Focus English**, no queremos que seas un espectador pasivo. Queremos que tu
 1. **Pre-visionado:** Lee un resumen corto del episodio en inglés (en IMDb o Wikipedia). Esto crea "anclajes mentales" para que tu cerebro sepa qué esperar.
 2. **Visionado con "Shadowing":** Elige una frase que te guste y repítela imitando la entonación exacta del actor. Hazlo tres veces. Siente cómo se mueve tu lengua.
 3. **El Diario de Slang:** Ten una nota en tu móvil llamada "TV Slang". Anota expresiones como *"I'm down"* (me apunto), *"I can't even"* (no puedo con esto) o *"Break a leg"* (buena suerte).
-4. **Resumen Oral:** Al terminar, intenta explicar en voz alta (o a tu IA de confianza como ChatGPT) de qué trataba el episodio en 2 minutos.
 
 ---
 

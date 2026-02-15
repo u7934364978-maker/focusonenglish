@@ -1,26 +1,38 @@
 ---
-title: "Correos Profesionales en Inglés: Guía y Plantillas"
-date: "2026-01-30"
-author: "Focus English Team"
-excerpt: "Domina la comunicación escrita en el trabajo. Aprende las frases clave, saludos y despedidas para escribir correos profesionales en inglés que generen impacto."
-category: "trabajo"
-readTime: "15 min"
-image: "https://images.pexels.com/photos/1181605/pexels-photo-1181605.jpeg?auto=compress&cs=tinysrgb&w=1200"
-alt: "Persona escribiendo un correo electrónico profesional en su laptop"
+title: 'Correos Profesionales en Inglés: Guía y Plantillas'
+date: '2026-01-30'
+author: Focus English Team
+excerpt: >-
+  Domina la comunicación escrita en el trabajo. Aprende las frases clave,
+  saludos y despedidas para escribir correos profesionales en inglés que generen
+  impacto.
+category: trabajo
+readTime: 15 min
+image: >-
+  https://images.pexels.com/photos/1181605/pexels-photo-1181605.jpeg?auto=compress&cs=tinysrgb&w=1200
+alt: Persona escribiendo un correo electrónico profesional en su laptop
 keywords:
-  - "correos en inglés"
-  - "emails profesionales inglés"
-  - "frases para correos inglés"
-  - "inglés para negocios"
-  - "business english emails"
-  - "plantillas correos inglés"
+  - correos en inglés
+  - emails profesionales inglés
+  - frases para correos inglés
+  - inglés para negocios
+  - business english emails
+  - plantillas correos inglés
 faqs:
-  - question: "¿Cómo se dice 'quedo a la espera de su respuesta' en inglés?"
-    answer: "La forma más profesional es 'I look forward to hearing from you' o 'I look forward to your reply'."
-  - question: "¿Cuál es la diferencia entre 'Best regards' y 'Sincerely'?"
-    answer: "'Best regards' es el estándar profesional más común y versátil. 'Sincerely' es más formal y se suele usar cuando no conoces personalmente al destinatario."
-  - question: "¿Cómo empezar un correo en inglés si no sé el nombre de la persona?"
-    answer: "Se recomienda usar 'Dear Hiring Manager' o 'To whom it may concern', aunque hoy en día es preferible investigar el nombre o usar un saludo más neutro como 'Dear Team'."
+  - question: ¿Cómo se dice 'quedo a la espera de su respuesta' en inglés?
+    answer: >-
+      La forma más profesional es 'I look forward to hearing from you' o 'I look
+      forward to your reply'.
+  - question: ¿Cuál es la diferencia entre 'Best regards' y 'Sincerely'?
+    answer: >-
+      'Best regards' es el estándar profesional más común y versátil.
+      'Sincerely' es más formal y se suele usar cuando no conoces personalmente
+      al destinatario.
+  - question: ¿Cómo empezar un correo en inglés si no sé el nombre de la persona?
+    answer: >-
+      Se recomienda usar 'Dear Hiring Manager' o 'To whom it may concern',
+      aunque hoy en día es preferible investigar el nombre o usar un saludo más
+      neutro como 'Dear Team'.
 ---
 
 ## Domina los correos profesionales en inglés en 2026
@@ -41,7 +53,6 @@ Es el filtro de entrada. Un asunto vago puede hacer que tu email termine en la p
 - ✅ **Right:** Meeting Request: Quarterly Performance Review
 
 ### 2. El Saludo (Greeting)
-El saludo establece el tono de toda la conversación.
 - **Muy Formal:** Dear Mr./Ms. [Last Name], (Úsalo en cartas de presentación o cuando contactes con alguien de alto rango por primera vez).
 - **Profesional Estándar:** Dear [First Name], (El más común en el día a día corporativo en EE.UU. y Reino Unido).
 - **Neutral/Equipo:** Hi Team, / Hi Everyone, (Ideal para comunicaciones internas o grupos de trabajo).

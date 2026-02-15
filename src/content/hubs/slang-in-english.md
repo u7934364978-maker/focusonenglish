@@ -1,6 +1,8 @@
 ---
-title: "Slang in English: Guía de Jerga y Expresiones Modernas 2026"
-description: "Domina el slang más actual del inglés. Desde términos de redes sociales hasta expresiones de la calle. Suena como un nativo en cualquier conversación."
+title: 'Slang in English: Guía de Jerga y Expresiones Modernas 2026'
+description: >-
+  Domina el slang más actual del inglés. Desde términos de redes sociales hasta
+  expresiones de la calle. Suena como un nativo en cualquier conversación.
 ---
 
 # Slang in English: Habla como un Nativo en 2026
@@ -92,9 +94,7 @@ Usar slang puede ser un campo minado si no conoces el contexto. Sigue estas regl
 
 ---
 
-## 8. El Impacto de la IA en el Slang
 
-En 2026, estamos viendo como términos técnicos de la IA se filtran al lenguaje común. Palabras como *prompting* (dar instrucciones claras), *hallucinating* (decir cosas sin sentido) o *fine-tuning* (ajustar detalles) se usan ahora para describir comportamientos humanos.
 
 ## Conclusión
 

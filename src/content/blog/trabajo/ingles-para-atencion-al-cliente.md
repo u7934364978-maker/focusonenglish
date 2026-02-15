@@ -1,12 +1,25 @@
 ---
-category: "trabajo"
-date: "2026-02-07"
-author: "Focus English"
-title: "Inglés para Atención al Cliente y Customer Service Internacional"
-description: "Domina el inglés para soporte y atención al cliente internacional. Aprende frases clave para gestionar llamadas, resolver problemas y ofrecer un servicio excelente."
-keywords: ["inglés para atención al cliente", "inglés para soporte", "customer service english", "frases atención al cliente inglés", "soporte técnico inglés", "atención al cliente inglés", "reclamaciones en ingles", "atención telefónica ingles"]
-canonical: "https://www.focus-on-english.com/blog/trabajo/ingles-para-atencion-al-cliente"
-related_routes: ["ingles-para-trabajo", "ingles-b1"]
+category: trabajo
+date: '2026-02-07'
+author: Focus English
+title: Inglés para Atención al Cliente y Customer Service Internacional
+description: >-
+  Domina el inglés para soporte y atención al cliente internacional. Aprende
+  frases clave para gestionar llamadas, resolver problemas y ofrecer un servicio
+  excelente.
+keywords:
+  - inglés para atención al cliente
+  - inglés para soporte
+  - customer service english
+  - frases atención al cliente inglés
+  - soporte técnico inglés
+  - atención al cliente inglés
+  - reclamaciones en ingles
+  - atención telefónica ingles
+canonical: 'https://www.focus-on-english.com/blog/trabajo/ingles-para-atencion-al-cliente'
+related_routes:
+  - ingles-para-trabajo
+  - ingles-b1
 ---
 
 # Curso de Inglés para Atención al Cliente: Excelencia en el Servicio Global
@@ -27,13 +40,12 @@ La **atención al cliente inglés** empieza por una primera impresión impecable
 
 ### Por Teléfono (Phone Support):
 *   *"Thank you for calling [Company Name] support. My name is [Your Name]. How can I make your day better?"*
-*   *"Good morning, you're speaking with [Your Name]. Could I start with your order number, please?"*
 
 ---
 
 ## 2. Escucha Activa y Empatía: Las Claves del Soporte
 
-Cuando un cliente tiene un problema, lo primero que busca es ser escuchado y comprendido. Usa estas **[frases de atención al cliente inglés](/blog/trabajo/ingles-para-atencion-al-cliente)** para validar sus sentimientos y reducir la tensión:
+Cuando un cliente tiene un problema, lo primero que busca es ser escuchado y comprendido. Usa estas **frases de atención al cliente inglés** para validar sus sentimientos y reducir la tensión:
 
 *   **Validación y Empatía**: *"I completely understand why you're frustrated. I would feel the same way if I were in your position."*
 *   **Clarificación Activa**: *"Just to make sure I've got this right, you're saying that the software is crashing every time you export a file, correct?"*

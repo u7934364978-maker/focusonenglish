@@ -1,12 +1,21 @@
 ---
-title: "IELTS vs TOEFL: Diferencias y Cuál deberías elegir"
-description: "Comparamos los dos exámenes de inglés más importantes del mundo. Descubre cuál es más fácil, cuál aceptan en tu destino y cómo prepararte con éxito."
-excerpt: "¿Vas a estudiar fuera o necesitas un visado? Te ayudamos a decidir entre IELTS y TOEFL analizando sus formatos, costes y niveles de dificultad."
-keywords: ["ielts vs toefl diferencias", "cual es mas facil ielts o toefl", "examen de ingles para estados unidos", "ielts para reino unido", "certificaciones oficiales ingles"]
-date: "2025-02-05"
-category: "examenes"
-author: "Focus English"
-image: "https://images.pexels.com/photos/5905710/pexels-photo-5905710.jpeg"
+title: 'IELTS vs TOEFL: Diferencias y Cuál deberías elegir'
+description: >-
+  Comparamos los dos exámenes de inglés más importantes del mundo. Descubre cuál
+  es más fácil, cuál aceptan en tu destino y cómo prepararte con éxito.
+excerpt: >-
+  ¿Vas a estudiar fuera o necesitas un visado? Te ayudamos a decidir entre IELTS
+  y TOEFL analizando sus formatos, costes y niveles de dificultad.
+keywords:
+  - ielts vs toefl diferencias
+  - cual es mas facil ielts o toefl
+  - examen de ingles para estados unidos
+  - ielts para reino unido
+  - certificaciones oficiales ingles
+date: '2025-02-05'
+category: examenes
+author: Focus English
+image: 'https://images.pexels.com/photos/5905710/pexels-photo-5905710.jpeg'
 ---
 
 # IELTS vs TOEFL: La Guía Definitiva para Elegir tu Examen
@@ -23,7 +32,6 @@ Antes de entrar en detalles técnicos, lo primero que debes hacer es consultar c
 El IELTS es propiedad conjunta del British Council, IDP: IELTS Australia y Cambridge University Press & Assessment. Es, por excelencia, el preferido en el **Reino Unido, Australia, Nueva Zelanda y Canadá**.
 
 - **Formato**: Puedes elegir entre la versión en papel o en ordenador.
-- **Speaking**: Esta es su característica más distintiva: se realiza cara a cara con un examinador real, lo que permite una interacción humana más natural.
 - **Enfoque**: Es un examen más "realista". Los textos y audios reflejan situaciones cotidianas, noticias y entornos laborales mixtos.
 - **Tipos**: Existe el *IELTS Academic* (para estudios universitarios) y el *IELTS General Training* (para inmigración y trabajo).
 
@@ -31,7 +39,6 @@ El IELTS es propiedad conjunta del British Council, IDP: IELTS Australia y Cambr
 El TOEFL es desarrollado por ETS (Educational Testing Service), una organización estadounidense. Es el estándar de oro en **Estados Unidos** y es aceptado por prácticamente todas las universidades del país.
 
 - **Formato**: Casi exclusivamente por internet (iBT - internet-Based Test).
-- **Speaking**: A diferencia del IELTS, aquí hablas frente a un micrófono. Tu voz se graba y es evaluada posteriormente por un equipo de expertos.
 - **Enfoque**: Es un examen puramente académico. Las lecturas parecen sacadas de un libro de texto universitario y los audios suelen ser fragmentos de conferencias o discusiones en un campus.
 
 ## Comparativa Detallada por Secciones
@@ -41,18 +48,6 @@ Para saber **cuál es más fácil, si el IELTS o el TOEFL**, debemos analizar c�
 ### Reading (Lectura)
 En el **TOEFL**, te enfrentarás a 3 o 4 textos académicos seguidos de preguntas de opción múltiple. Es un formato muy predecible pero denso.
 En el **IELTS**, los tipos de preguntas varían mucho: completar huecos, emparejar encabezados, verdadero/falso/no mencionado. Requiere una mayor agilidad mental para cambiar de estrategia de lectura.
-
-### Listening (Escucha)
-El **TOEFL** utiliza audios más largos de conferencias universitarias donde debes tomar notas para responder después. El acento suele ser mayoritariamente estadounidense.
-El **IELTS** te hace responder preguntas a medida que escuchas. Los acentos son internacionales (británico, australiano, americano, escocés), lo que puede ser un reto si solo estás acostumbrado al inglés de las series de Hollywood.
-
-### Writing (Escritura)
-En ambos deberás escribir dos textos. La diferencia clave es que el **TOEFL** requiere que sintetices información de un audio y un texto previo para uno de los ejercicios. En el **IELTS**, el reto suele ser describir un gráfico o diagrama de forma técnica y precisa.
-
-### Speaking (Habla)
-Aquí reside la mayor diferencia psicológica. 
-- Si te pones nervioso hablando con un desconocido, el **TOEFL** (hablarle a una máquina) podría ser mejor para ti. 
-- Si prefieres el lenguaje no verbal, el contacto visual y la capacidad de pedir una aclaración si no entiendes algo, el **IELTS** es sin duda tu mejor opción.
 
 ## Sistema de Puntuación
 

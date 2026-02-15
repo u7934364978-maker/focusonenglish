@@ -1,39 +1,54 @@
 ---
-title: "LinkedIn en Inglés: Guía Definitiva para Optimizar tu Perfil y Atraer Reclutadores"
-date: "2026-01-30"
-author: "Focus English Team"
-excerpt: "Transforma tu presencia profesional en 2026. Aprende a redactar un titular de impacto, un extracto convincente y a hacer networking efectivo en LinkedIn usando inglés profesional."
-category: "trabajo"
-readTime: "20 min"
-image: "https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=1200"
-alt: "Primer plano de la aplicación LinkedIn en un smartphone sostenido por una persona"
+title: >-
+  LinkedIn en Inglés: Guía Definitiva para Optimizar tu Perfil y Atraer
+  Reclutadores
+date: '2026-01-30'
+author: Focus English Team
+excerpt: >-
+  Transforma tu presencia profesional en 2026. Aprende a redactar un titular de
+  impacto, un extracto convincente y a hacer networking efectivo en LinkedIn
+  usando inglés profesional.
+category: trabajo
+readTime: 20 min
+image: >-
+  https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=1200
+alt: >-
+  Primer plano de la aplicación LinkedIn en un smartphone sostenido por una
+  persona
 keywords:
-  - "LinkedIn en inglés"
-  - "perfil LinkedIn inglés"
-  - "headline LinkedIn inglés"
-  - "networking en inglés"
-  - "career advice"
-  - "optimizar linkedin inglés"
-  - "verbos de acción linkedin"
-canonical: "https://www.focus-on-english.com/blog/trabajo/linkedin-ingles-guia"
+  - LinkedIn en inglés
+  - perfil LinkedIn inglés
+  - headline LinkedIn inglés
+  - networking en inglés
+  - career advice
+  - optimizar linkedin inglés
+  - verbos de acción linkedin
+canonical: 'https://www.focus-on-english.com/blog/trabajo/linkedin-ingles-guia'
 faqs:
-  - question: "¿Cómo pongo mi perfil de LinkedIn en dos idiomas?"
-    answer: "LinkedIn tiene una función específica de 'Añadir perfil en otro idioma'. Esto permite que los reclutadores vean tu perfil en el idioma que tengan configurado, mejorando tu visibilidad global."
-  - question: "¿Debo traducir mi nombre o cargos actuales?"
-    answer: "Tu nombre no se traduce nunca. Los cargos deben adaptarse a términos equivalentes en la industria anglosajona (ej. 'Administrativo' -> 'Administrative Assistant' o 'Account Manager')."
-  - question: "¿Es importante publicar contenido en inglés?"
-    answer: "Sí, publicar en inglés demuestra tu fluidez y te posiciona como un experto en tu sector a nivel internacional, más allá de lo que diga tu CV."
+  - question: ¿Cómo pongo mi perfil de LinkedIn en dos idiomas?
+    answer: >-
+      LinkedIn tiene una función específica de 'Añadir perfil en otro idioma'.
+      Esto permite que los reclutadores vean tu perfil en el idioma que tengan
+      configurado, mejorando tu visibilidad global.
+  - question: ¿Debo traducir mi nombre o cargos actuales?
+    answer: >-
+      Tu nombre no se traduce nunca. Los cargos deben adaptarse a términos
+      equivalentes en la industria anglosajona (ej. 'Administrativo' ->
+      'Administrative Assistant' o 'Account Manager').
+  - question: ¿Es importante publicar contenido en inglés?
+    answer: >-
+      Sí, publicar en inglés demuestra tu fluidez y te posiciona como un experto
+      en tu sector a nivel internacional, más allá de lo que diga tu CV.
 ---
 
 # LinkedIn en Inglés: Tu Escaparate Profesional al Mundo
 
-En el mercado laboral de 2026, tu perfil de LinkedIn es mucho más que un currículum estático; es tu marca personal operando 24/7 en un ecosistema global. Tener un **[perfil de LinkedIn en inglés](/blog/trabajo/linkedin-ingles-guia)** no es solo para quienes buscan trabajo en el extranjero, sino para cualquier profesional que quiera ser visible para multinacionales, socios internacionales o clientes de alto nivel.
+En el mercado laboral de 2026, tu perfil de LinkedIn es mucho más que un currículum estático; es tu marca personal operando 24/7 en un ecosistema global. Tener un **perfil de LinkedIn en inglés** no es solo para quienes buscan trabajo en el extranjero, sino para cualquier profesional que quiera ser visible para multinacionales, socios internacionales o clientes de alto nivel.
 
 Si tu objetivo es escalar posiciones en una empresa global, te recomendamos visitar nuestro **[hub de inglés para el trabajo](/blog/trabajo/ingles-para-trabajo)**, donde encontrarás herramientas específicas para cada etapa de tu carrera.
 
 ## 🎯 El Titular (Headline): Tu Propuesta de Valor en 120 Caracteres
 
-Tu titular es lo primero que ve un reclutador en los resultados de búsqueda. Si solo pones tu cargo actual (ej. *"Software Engineer"*), estás perdiendo una oportunidad de oro. Los algoritmos de LinkedIn priorizan las palabras clave.
 
 Usa esta fórmula ganadora:
 **[Cargo Actual] + [Especialidad/Keywords] + [Valor Diferencial o Logro Principal]**
@@ -76,7 +91,6 @@ El networking efectivo en LinkedIn requiere personalización. Nunca envíes una 
 
 ## 💡 Estrategias Avanzadas para el Éxito
 
-1.  **Habilidades y Validaciones (Skills & Endorsements):** Asegúrate de que tus 10 habilidades principales estén en inglés. Pide a colegas internacionales que las validen; esto aumenta enormemente tu credibilidad ante el algoritmo.
 2.  **Publicaciones en Inglés:** No necesitas escribir artículos de 2000 palabras. Comparte una noticia de tu sector y añade un comentario breve en inglés: *"Interesting take on the future of [Topic]. I especially agree with the point about..."*. Esto demuestra que no solo hablas inglés, sino que piensas en inglés.
 3.  **URL Personalizada:** Limpia tu URL de LinkedIn (ej. linkedin.com/in/tu-nombre) para que se vea profesional en tu firma de email y CV.
 

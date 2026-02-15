@@ -1,28 +1,45 @@
 ---
-title: "Redacción de Emails Profesionales en Inglés: Guía Definitiva y Mejores Prácticas"
-date: "2026-01-30"
-author: "Focus English Team"
-excerpt: "¿Pasas horas redactando un correo en inglés? Aprende las estructuras clave, frases de poder y los errores comunes que debes evitar para comunicarte con éxito."
-category: "trabajo"
-readTime: "15 min"
-image: "https://images.pexels.com/photos/3184297/pexels-photo-3184297.jpeg?auto=compress&cs=tinysrgb&w=1200"
-alt: "Primer plano de manos escribiendo en un teclado de laptop en un ambiente de oficina"
-canonical: "https://www.focus-on-english.com/blog/trabajo/redaccion-emails-profesionales-ingles"
+title: >-
+  Redacción de Emails Profesionales en Inglés: Guía Definitiva y Mejores
+  Prácticas
+date: '2026-01-30'
+author: Focus English Team
+excerpt: >-
+  ¿Pasas horas redactando un correo en inglés? Aprende las estructuras clave,
+  frases de poder y los errores comunes que debes evitar para comunicarte con
+  éxito.
+category: trabajo
+readTime: 15 min
+image: >-
+  https://images.pexels.com/photos/3184297/pexels-photo-3184297.jpeg?auto=compress&cs=tinysrgb&w=1200
+alt: >-
+  Primer plano de manos escribiendo en un teclado de laptop en un ambiente de
+  oficina
+canonical: >-
+  https://www.focus-on-english.com/blog/trabajo/redaccion-emails-profesionales-ingles
 keywords:
-  - "clases de inglés"
-  - "emails profesionales inglés"
-  - "redacción comercial inglés"
-  - "inglés para negocios"
-  - "frases para correos inglés"
-  - "business english emails"
-  - "comunicación escrita profesional"
+  - clases de inglés
+  - emails profesionales inglés
+  - redacción comercial inglés
+  - inglés para negocios
+  - frases para correos inglés
+  - business english emails
+  - comunicación escrita profesional
 faqs:
-  - question: "¿Cómo empiezo un email si no conozco a la persona?"
-    answer: "Usa 'Dear [First Name]' si quieres ser cercano pero profesional. Si es muy formal, 'Dear Mr./Ms. [Last Name]'. Evita el genérico 'To whom it may concern'."
-  - question: "¿Cuál es la mejor forma de despedirse en un email de negocios?"
-    answer: "Para la mayoría de los casos, 'Kind regards' o 'Best regards' son las opciones más seguras y profesionales."
-  - question: "¿Cómo puedo sonar más natural y menos robótico?"
-    answer: "Usa verbos modales y evita traducir literalmente del español. En nuestras clases de inglés, practicamos la redacción contextual para que tu estilo sea fluido."
+  - question: ¿Cómo empiezo un email si no conozco a la persona?
+    answer: >-
+      Usa 'Dear [First Name]' si quieres ser cercano pero profesional. Si es muy
+      formal, 'Dear Mr./Ms. [Last Name]'. Evita el genérico 'To whom it may
+      concern'.
+  - question: ¿Cuál es la mejor forma de despedirse en un email de negocios?
+    answer: >-
+      Para la mayoría de los casos, 'Kind regards' o 'Best regards' son las
+      opciones más seguras y profesionales.
+  - question: ¿Cómo puedo sonar más natural y menos robótico?
+    answer: >-
+      Usa verbos modales y evita traducir literalmente del español. En nuestras
+      clases de inglés, practicamos la redacción contextual para que tu estilo
+      sea fluido.
 ---
 
 ## La Importancia de la Comunicación Escrita en la Era Digital
@@ -91,9 +108,7 @@ Saber redactar es fácil cuando todo va bien, pero ¿qué pasa cuando tienes que
 ### Para decir "No" de forma diplomática:
 *"While I appreciate the offer, I'm afraid we are unable to proceed with this proposal at this time due to budget constraints."*
 
-## 🤖 El Impacto de la IA en la Redacción Profesional
 
-En 2026, herramientas como ChatGPT o Grammarly son aliados potentes, pero tienen trampas. Un email generado 100% por IA a menudo suena genérico y carece de ese "toque personal" que cierra acuerdos. Usa la IA para corregir la gramática o pedir sugerencias de vocabulario, pero asegúrate de que la voz final sea la tuya. En Focus English, te enseñamos a usar la IA como un copiloto, no como el conductor.
 
 ## 🎓 Conclusión: Escribe con Autoridad
 

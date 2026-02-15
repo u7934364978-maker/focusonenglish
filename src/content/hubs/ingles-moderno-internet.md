@@ -1,6 +1,9 @@
 ---
-title: "Inglés Moderno e Internet: Guía de Comunicación Digital 2026"
-description: "Descubre cómo internet ha transformado el inglés. Aprende acrónimos, etiqueta digital y cómo comunicarte de forma efectiva en la era de la IA y las redes sociales."
+title: 'Inglés Moderno e Internet: Guía de Comunicación Digital 2026'
+description: >-
+  Descubre cómo internet ha transformado el inglés. Aprende acrónimos, etiqueta
+  digital y cómo comunicarte de forma efectiva en la era de la IA y las redes
+  sociales.
 ---
 
 # Inglés Moderno e Internet: La Revolución del Idioma en 2026
@@ -60,7 +63,6 @@ Los memes han introducido estructuras gramaticales propias en el inglés estánd
 
 ---
 
-## 5. El Inglés de la IA (AI-Speak)
 
 En 2026, la interacción con inteligencias artificiales ha filtrado términos técnicos al habla común.
 

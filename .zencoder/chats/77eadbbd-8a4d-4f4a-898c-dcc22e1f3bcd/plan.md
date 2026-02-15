@@ -198,7 +198,7 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
     - Ran `npx playwright test e2e/unit-13-expansion.spec.ts --project=chromium`.
     - Results: All tests passed.
 
-### [ ] Step: Expand Unit 14 (A1)
+### [x] Step: Expand Unit 14 (A1)
 1. **Analyze Unit 14**: Current content.
 2. **Expand to 60 exercises**:
     - Theme: "My Hobbies and Free Time" (Interests, sports, frequency).
@@ -206,6 +206,32 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
     - Add Grammar: Like/Love/Hate + -ing, Adverbs of frequency (review and expansion).
     - Add Reading Comprehension: Interview about a person's weekend activities and hobbies.
 3. **Verify Implementation**:
-    - Check `/debug/a1-preview/unit-14` in the browser.
+    - Checked `/debug/a1-preview/unit-14` in the browser.
 4. **Test Plan Approval**:
-    - Verify that `/debug/a1-preview/unit-14` contains 60 exercises.
+    - Verified that `/debug/a1-preview/unit-14` contains 60 exercises.
+
+### [x] Step: Expand Unit 15 (A1)
+1. **Analyze Unit 15**: Current content has 11 exercises on "Present Simple: He, She, It".
+2. **Expand to 60 exercises**:
+    - Theme: "People and their Routines (3rd Person)" (Jobs, daily habits of others, descriptions).
+    - Add Vocabulary: Jobs (chef, engineer, nurse), 3rd person verbs (works, studies, teaches), lifestyle verbs.
+    - Add Grammar: Present Simple (He/She/It - spelling rules for -s/-es/-ies), Negatives (Doesn't), Questions (Does).
+    - Add Reading Comprehension: Biographies or descriptions of someone's day.
+3. **Verify Implementation**:
+    - Checked `/debug/a1-preview/unit-15` in the browser.
+4. **Test Plan Approval**:
+    - Verified that `/debug/a1-preview/unit-15` contains 60 exercises.
+    - Ran `npx playwright test e2e/unit-15-expansion.spec.ts --project=chromium`.
+    - Results: All tests passed.
+
+### [ ] Step: Expand Unit 16 (A1)
+1. **Analyze Unit 16**: Current content has 10 exercises on "At the Cafe".
+2. **Expand to 60 exercises**:
+    - Theme: "At the Cafe & Ordering" (Ordering drinks/snacks, cafe environment, social interaction).
+    - Add Vocabulary: Coffee types (latte, cappuccino), snacks (croissant, muffin), cafe items (mug, napkin, receipt).
+    - Add Grammar: Polite requests ("Can I have...?", "I'd like..."), Questions about prices, "Is there/Are there" for availability.
+    - Add Reading Comprehension: Dialogues between a customer and a barista, cafe reviews.
+3. **Verify Implementation**:
+    - Check `/debug/a1-preview/unit-16` in the browser.
+4. **Test Plan Approval**:
+    - Verify that `/debug/a1-preview/unit-16` contains 60 exercises.

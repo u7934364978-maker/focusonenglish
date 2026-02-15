@@ -1,6 +1,8 @@
 ---
-title: "Inglés para Ligar y Citas: Guía Completa de Supervivencia Romántica"
-description: "Aprende el vocabulario y las frases esenciales para ligar en inglés. Desde apps de citas hasta la primera cena, domina el lenguaje del amor en 2026."
+title: 'Inglés para Ligar y Citas: Guía Completa de Supervivencia Romántica'
+description: >-
+  Aprende el vocabulario y las frases esenciales para ligar en inglés. Desde
+  apps de citas hasta la primera cena, domina el lenguaje del amor en 2026.
 ---
 
 # Inglés para Ligar y Citas: Domina el Arte de la Seducción en 2026
@@ -13,7 +15,6 @@ En esta guía exhaustiva de **Focus English**, te proporcionaremos todas las her
 
 ## 1. La Era Digital: Diccionario de las Apps de Citas (Tinder, Bumble, Hinge)
 
-En 2026, la mayoría de las relaciones comienzan con un algoritmo. Entender el lenguaje de las aplicaciones es el primer paso para conseguir esa primera cita.
 
 ### Términos de la Interfaz y del "Juego":
 - **To Swipe (Right/Left):** Deslizar a la derecha (me gusta) o a la izquierda (no me gusta).

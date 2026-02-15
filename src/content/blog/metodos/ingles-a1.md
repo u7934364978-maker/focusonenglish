@@ -1,26 +1,56 @@
 ---
-category: "metodos"
-date: "2026-02-07"
-author: "Focus English"
-title: "Curso de Inglés A1 para Principiantes: Aprende desde Cero"
-description: "Empieza a aprender inglés desde cero hoy mismo. Curso de nivel A1 para principiantes absolutos con lecciones interactivas, plataforma de ejercicios y certificación oficial."
-keywords: ["curso inglés a1", "aprender inglés desde cero", "inglés para principiantes", "nivel a1 inglés", "gramática básica inglés", "inglés básico online", "ingles a1 vs a2", "nivel ingles a1", "nivel ingles a2", "diferencia a1 y a2 ingles", "como pasar de nivel ingles", "cuanto se tarda en aprender ingles", "tiempo para aprender ingles", "niveles ingles mcer", "aprender ingles rapido", "horas para aprender ingles", "mejorar ingles"]
-canonical: "https://www.focus-on-english.com/blog/metodos/ingles-a1"
-related_routes: ["ingles-a2", "aprender-ingles", "gramatica-ingles-b1-guia"]
+category: metodos
+date: '2026-02-07'
+author: Focus English
+title: 'Curso de Inglés A1 para Principiantes: Aprende desde Cero'
+description: >-
+  Empieza a aprender inglés desde cero hoy mismo. Curso de nivel A1 para
+  principiantes absolutos con lecciones interactivas, plataforma de ejercicios y
+  certificación oficial.
+keywords:
+  - curso inglés a1
+  - aprender inglés desde cero
+  - inglés para principiantes
+  - nivel a1 inglés
+  - gramática básica inglés
+  - inglés básico online
+  - ingles a1 vs a2
+  - nivel ingles a1
+  - nivel ingles a2
+  - diferencia a1 y a2 ingles
+  - como pasar de nivel ingles
+  - cuanto se tarda en aprender ingles
+  - tiempo para aprender ingles
+  - niveles ingles mcer
+  - aprender ingles rapido
+  - horas para aprender ingles
+  - mejorar ingles
+canonical: 'https://www.focus-on-english.com/blog/metodos/ingles-a1'
+related_routes:
+  - ingles-a2
+  - aprender-ingles
+  - gramatica-ingles-b1-guia
 faqs:
-  - question: "¿Qué se aprende en el nivel A1 de inglés?"
-    answer: "El nivel A1 es la base. Aprenderás a presentarte, saludar, los números, los días de la semana y a formar frases sencillas en presente sobre tu vida diaria."
-  - question: "¿Cuánto tiempo se tarda en completar el nivel A1?"
-    answer: "Con nuestra metodología optimizada, la mayoría de los estudiantes completan el nivel A1 en unas 60-80 horas de estudio constante."
-  - question: "¿Es difícil empezar desde cero de adulto?"
-    answer: "Para nada. Nuestra plataforma está diseñada para adultos, con ejemplos prácticos y una progresión lógica que evita la fragilidad."
+  - question: ¿Qué se aprende en el nivel A1 de inglés?
+    answer: >-
+      El nivel A1 es la base. Aprenderás a presentarte, saludar, los números,
+      los días de la semana y a formar frases sencillas en presente sobre tu
+      vida diaria.
+  - question: ¿Cuánto tiempo se tarda en completar el nivel A1?
+    answer: >-
+      Con nuestra metodología optimizada, la mayoría de los estudiantes
+      completan el nivel A1 en unas 60-80 horas de estudio constante.
+  - question: ¿Es difícil empezar desde cero de adulto?
+    answer: >-
+      Para nada. Nuestra plataforma está diseñada para adultos, con ejemplos
+      prácticos y una progresión lógica que evita la fragilidad.
 ---
 
 # Curso de Inglés A1: Construye los Cimientos de tu Futuro
 
 El **Nivel A1** (Acceso) es el peldaño más importante de tu aprendizaje: es el momento en el que decides que el inglés dejará de ser una asignatura pendiente para convertirse en una habilidad real. 
 
-Si estás buscando un **[curso de inglés para principiantes](/blog/metodos/ingles-a1)** o quieres **[aprender inglés desde cero](/blog/metodos/ingles-a1)**, has llegado al lugar correcto. En **Focus English**, hemos diseñado este curso para que pierdas el miedo desde el primer minuto y construyas una base sólida sobre la cual crecer.
+Si estás buscando un **curso de inglés para principiantes** o quieres **aprender inglés desde cero**, has llegado al lugar correcto. En **Focus English**, hemos diseñado este curso para que pierdas el miedo desde el primer minuto y construyas una base sólida sobre la cual crecer.
 
 ## 1. ¿Qué habilidades adquirirás en este nivel?
 
@@ -67,7 +97,7 @@ Dominar los números del 1 al 100 es esencial para comprar, dar tu número de te
 
 ## 4. Fonética y Pronunciación para Principiantes
 
-Uno de los mayores obstáculos al **[aprender inglés desde cero](/blog/metodos/ingles-a1)** es la pronunciación. En el nivel A1, nos enfocamos en que te sientas cómodo con los sonidos básicos:
+Uno de los mayores obstáculos al **aprender inglés desde cero** es la pronunciación. En el nivel A1, nos enfocamos en que te sientas cómodo con los sonidos básicos:
 
 *   **Vowels (Vocales)**: El inglés tiene más sonidos vocálicos que el español. Aprenderás a diferenciar entre sonidos largos y cortos (ej: *ship* vs *sheep*).
 *   **Word Stress (Acento de palabra)**: Aprenderás dónde poner la fuerza en las palabras básicas para que los nativos te entiendan a la primera.
@@ -102,7 +132,6 @@ Al principio es normal cometer errores. Aquí te ayudamos a anticiparlos para qu
 
 En **Focus English**, hemos reinventado el aprendizaje para principiantes:
 
-1.  **IA Tutoría 24/7**: Nuestra inteligencia artificial te escucha y te corrige la pronunciación de forma privada y sin juicios, eliminando la vergüenza inicial.
 2.  **Aprendizaje por Objetivos Reales**: Cada lección tiene un propósito práctico. No estudias "gramática", aprendes a "pedir una dirección" o "reservar un hotel".
 3.  **Gamificación Motivadora**: Gana puntos, completa desafíos diarios y mantén la racha. La constancia es el único secreto para pasar del A1 al A2.
 4.  **Módulos de 'Survival English'**: Lecciones rápidas de 5 minutos diseñadas para situaciones de emergencia durante un viaje o una mudanza al extranjero.

@@ -1,20 +1,30 @@
 ---
-title: "Preparar el B1 de Cambridge por tu cuenta en 2025"
-description: "Guía completa para aprobar el examen B1 de Cambridge estudiando solo. Recursos, consejos para el Speaking y cómo organizar tu plan de estudio."
-excerpt: "Aprende a preparar el B1 de Cambridge por tu cuenta. Te damos las claves para dominar el Reading, Writing y cómo usar la IA para practicar el Speaking sin profesor."
-keywords: ["preparar b1 cambridge solo", "examen pet cambridge guia", "recursos gratis b1 ingles", "practicar speaking b1 solo", "focus english b1 preparation"]
-date: "2025-02-05"
-category: "examenes"
-author: "Focus English"
-image: "https://images.pexels.com/photos/5905709/pexels-photo-5905709.jpeg"
-canonical: "https://www.focus-on-english.com/blog/examenes/preparar-b1-cambridge-por-cuenta-propia"
+title: Preparar el B1 de Cambridge por tu cuenta en 2025
+description: >-
+  Guía completa para aprobar el examen B1 de Cambridge estudiando solo.
+  Recursos, consejos para el Speaking y cómo organizar tu plan de estudio.
+excerpt: >-
+  Aprende a preparar el B1 de Cambridge por tu cuenta. Te damos las claves para
+  dominar el Reading, Writing y cómo usar la IA para practicar el Speaking sin
+  profesor.
+keywords:
+  - preparar b1 cambridge solo
+  - examen pet cambridge guia
+  - recursos gratis b1 ingles
+  - practicar speaking b1 solo
+  - focus english b1 preparation
+date: '2025-02-05'
+category: examenes
+author: Focus English
+image: 'https://images.pexels.com/photos/5905709/pexels-photo-5905709.jpeg'
+canonical: >-
+  https://www.focus-on-english.com/blog/examenes/preparar-b1-cambridge-por-cuenta-propia
 ---
 
 # Preparar el B1 de Cambridge por tu cuenta: Guía Completa
 
 La respuesta corta es: **Sí, es totalmente posible.** El nivel B1 Preliminary (PET) de Cambridge certifica que tienes las bases necesarias para comunicarte en situaciones cotidianas, tanto de forma oral como escrita. Es un título clave para estudiantes universitarios, profesionales que buscan su primer empleo internacional y viajeros que quieren autonomía.
 
-Si tienes disciplina, curiosidad y los recursos adecuados, puedes ahorrarte cientos de euros en academias y obtener tu certificado oficial estudiando desde casa. Sin embargo, estudiar solo no significa estudiar sin rumbo. Requiere una estrategia clara para entender no solo el idioma, sino la mecánica específica de las pruebas de Cambridge.
 
 ---
 
@@ -37,19 +47,6 @@ Para preparar el B1 por tu cuenta, necesitas fuentes fiables y actualizadas a lo
 *   **Libros de Gramática**: El *"English Grammar in Use"* de Raymond Murphy (nivel intermedio) es considerado por muchos la "biblia" del autoestudio por sus explicaciones claras y ejercicios prácticos.
 *   **Plataformas Digitales**: Las [aplicaciones para aprender inglés](/blog/metodos/mejor-app-aprender-ingles) modernas ofrecen ahora rutas curriculares específicas para exámenes oficiales, cubriendo exactamente el vocabulario y las estructuras que Cambridge exige.
 
-## 3. Estrategia Ganadora para el Speaking y Listening
-
-Aquí es donde la mayoría de los estudiantes que van por libre suelen fallar. Es fácil leer un libro, pero ¿cómo practicas una conversación real sin un profesor o un compañero?
-
-### La Solución de Focus English
-
-En **Focus English**, hemos diseñado un simulador de examen constante. Nuestra **IA Tutor** te permite:
-*   **Simular la Parte 2 del Speaking**: La IA te presenta una imagen y escucha tu descripción en tiempo real, dándote feedback instantáneo sobre si has usado las preposiciones de lugar correctas y si tu fluidez es la adecuada para el nivel B1.
-*   **Practicar la Interacción**: En la parte colaborativa del examen, la IA te propone un escenario (ej. *"Debemos elegir un regalo para un amigo que se muda"*) y tú debes negociar con ella, aceptando o rechazando sus sugerencias.
-*   **Entrenamiento del Oído**: Nuestro sistema de listening inmersivo incluye diferentes acentos nativos (británico, americano, australiano), preparándote para la diversidad de voces que encontrarás en la grabación oficial.
-
----
-
 ## 4. Crea un Calendario de 12 Semanas
 
 La organización es la diferencia entre el éxito y el abandono. No intentes aprenderlo todo en una noche. Divide tu preparación en fases:
@@ -64,7 +61,6 @@ La organización es la diferencia entre el éxito y el abandono. No intentes apr
 
 *   **Lee las instrucciones dos veces**: El estrés puede jugarte malas pasadas. Asegúrate de entender qué se pide en cada sección del Writing.
 *   **Gestión del Tiempo**: En la prueba combinada de Reading/Writing, el tiempo vuela. No te quedes atascado más de 2 minutos en una pregunta del Reading; pasa a la siguiente y vuelve al final.
-*   **En el Speaking, colabora**: Los examinadores valoran mucho que escuches a tu compañero y reacciones a lo que dice. Usa frases como *"That's a good point, but..."* o *"What do you think about...?"*.
 
 ## Conclusión: Tu Certificado B1 está a tu Alcance
 

@@ -1,25 +1,39 @@
 ---
-title: "Curso de Inglés para Viajar: Pasaporte a la Fluidez"
-date: "2026-01-30"
-author: "Focus English Team"
-excerpt: "¿Planeas un viaje al extranjero? Un curso de inglés para viajar es la clave para moverte con seguridad. Aprende frases esenciales y practica situaciones reales antes de despegar."
-category: "viajes"
-readTime: "12 min"
-image: "https://images.pexels.com/photos/3769138/pexels-photo-3769138.jpeg?auto=compress&cs=tinysrgb&w=1200"
-alt: "Persona sentada en una roca mirando un mapa con el mar de fondo durante un viaje"
+title: 'Curso de Inglés para Viajar: Pasaporte a la Fluidez'
+date: '2026-01-30'
+author: Focus English Team
+excerpt: >-
+  ¿Planeas un viaje al extranjero? Un curso de inglés para viajar es la clave
+  para moverte con seguridad. Aprende frases esenciales y practica situaciones
+  reales antes de despegar.
+category: viajes
+readTime: 12 min
+image: >-
+  https://images.pexels.com/photos/3769138/pexels-photo-3769138.jpeg?auto=compress&cs=tinysrgb&w=1200
+alt: >-
+  Persona sentada en una roca mirando un mapa con el mar de fondo durante un
+  viaje
 keywords:
-  - "curso de ingles para viajar"
-  - "aprender ingles para viajar"
-  - "ingles para turistas"
-  - "frases en ingles para viajar"
-  - "mejor curso de ingles para viajar"
+  - curso de ingles para viajar
+  - aprender ingles para viajar
+  - ingles para turistas
+  - frases en ingles para viajar
+  - mejor curso de ingles para viajar
 faqs:
-  - question: "¿Qué nivel de inglés necesito para viajar?"
-    answer: "No necesitas ser bilingüe. Con un nivel básico-intermedio enfocado en situaciones prácticas (aeropuerto, hotel, restaurante), puedes manejarte con éxito en la mayoría de los países."
-  - question: "¿Cuánto tiempo toma un curso de inglés para viajar?"
-    answer: "Nuestros cursos intensivos están diseñados para darte las herramientas clave en 4 a 8 semanas, dependiendo de tu dedicación diaria."
-  - question: "¿Por qué es mejor un curso específico para viajes?"
-    answer: "A diferencia del inglés general, un curso para viajar se centra en el vocabulario y las situaciones que realmente enfrentarás, ahorrándote tiempo y dándote confianza inmediata."
+  - question: ¿Qué nivel de inglés necesito para viajar?
+    answer: >-
+      No necesitas ser bilingüe. Con un nivel básico-intermedio enfocado en
+      situaciones prácticas (aeropuerto, hotel, restaurante), puedes manejarte
+      con éxito en la mayoría de los países.
+  - question: ¿Cuánto tiempo toma un curso de inglés para viajar?
+    answer: >-
+      Nuestros cursos intensivos están diseñados para darte las herramientas
+      clave en 4 a 8 semanas, dependiendo de tu dedicación diaria.
+  - question: ¿Por qué es mejor un curso específico para viajes?
+    answer: >-
+      A diferencia del inglés general, un curso para viajar se centra en el
+      vocabulario y las situaciones que realmente enfrentarás, ahorrándote
+      tiempo y dándote confianza inmediata.
 ---
 
 ## Prepárate para el viaje de tu vida en 2026
@@ -83,16 +97,13 @@ El inglés se habla de forma diferente en Londres que en Nueva York o Sídney. A
 
 ---
 
-## 🤖 Practica sin miedo con IA antes de tu vuelo
 
 El mayor problema de los métodos tradicionales es que no te preparan para la "vida real". Puedes saber la teoría, pero bloquearte al llegar al mostrador de inmigración de la Terminal 5 de Heathrow.
 
-En **Focus English**, utilizamos simulaciones avanzadas de IA para que puedas practicar:
 *   **Diálogos de Inmigración:** Responde a preguntas reales de un oficial simulado.
 *   **Check-in de Hotel:** Practica cómo pedir una habitación más tranquila o una cama extra.
 *   **Conversaciones de Restaurante:** Practica cómo pedir platos complejos y gestionar el pago.
 
-> 🌍 **Dato Curioso:** Los estudiantes que practican con simuladores de IA reportan un 60% menos de ansiedad al hablar con nativos durante sus viajes, ya que han "vivido" la situación previamente en un entorno seguro.
 
 ---
 

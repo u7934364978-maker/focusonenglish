@@ -1,11 +1,12 @@
 ---
-title: "CV en Inglés: Guía y Ejemplos para el Mercado Internacional 2026"
-description: "Aprende cómo hacer un CV en inglés ganador. Diferencias entre CV y Resume, optimización para ATS (IA) y ejemplos prácticos de cada sección."
+title: 'CV en Inglés: Guía y Ejemplos para el Mercado Internacional 2026'
+description: >-
+  Aprende cómo hacer un CV en inglés ganador. Diferencias entre CV y Resume,
+  optimización para ATS (IA) y ejemplos prácticos de cada sección.
 ---
 
 # CV en Inglés: Tu Puerta al Mundo Profesional en 2026
 
-Tu currículum (CV) es tu primera herramienta de marketing. En un mercado laboral globalizado y dominado por la Inteligencia Artificial, un CV en inglés ya no es una opción, sino un requisito. En 2026, la forma en que presentamos nuestra experiencia ha cambiado: ahora debe ser más concisa, orientada a datos y, sobre todo, optimizada para los algoritmos de lectura automática (ATS).
 
 En esta guía de **Focus English**, te enseñamos a transformar tu trayectoria en un documento que atraiga la atención de los reclutadores internacionales.
 
@@ -53,7 +54,6 @@ Menciona tus certificaciones oficiales (Cambridge, IELTS, certificaciones de sof
 
 En 2026, el 90% de las grandes empresas usan software para filtrar CVs antes de que los vea un humano.
 - **Palabras Clave:** Usa los mismos términos que la descripción del puesto. Si piden *"Data Analysis"*, no pongas solo *"Statistics"*.
-- **Formato Simple:** Evita gráficos complejos, columnas raras o imágenes dentro del CV. La IA prefiere texto limpio y fuentes estándar (Arial, Calibri, Roboto).
 - **Formatos de archivo:** Usa PDF a menos que te pidan explícitamente un archivo .doc.
 
 ---
@@ -80,7 +80,6 @@ En inglés, el uso de verbos potentes marca la diferencia.
 ## 6. Errores Fatales que debes Evitar
 
 1. **Traducción Literal:** No traduzcas tus títulos o cargos palabra por palabra. Busca el equivalente en el país de destino.
-2. **Typos:** Un error de ortografía en un CV en inglés es una señal de falta de atención al detalle. Usa correctores y pide a alguien (o a una IA de confianza) que lo revise.
 3. **Emails poco profesionales:** Usa siempre `nombre.apellido@email.com`.
 4. **Usar el mismo CV para todo:** Debes adaptar (tailor) tu CV para cada oferta de trabajo específica.
 
@@ -90,7 +89,6 @@ En inglés, el uso de verbos potentes marca la diferencia.
 
 **Senior Software Engineer | TechCorp Solutions | Jan 2022 – Present**
 - **Spearheaded** the migration of legacy systems to a cloud-based architecture, reducing latency by 40%.
-- **Collaborated** with international teams to integrate AI-driven chatbots, improving customer satisfaction scores by 15%.
 - **Mentored** 5 junior developers, resulting in a 20% increase in team productivity.
 
 ---

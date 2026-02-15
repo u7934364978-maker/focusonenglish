@@ -1,17 +1,36 @@
 ---
-category: "trabajo"
-date: "2026-02-07"
-author: "Focus English"
-title: "Curso de Inglés para Hostelería y Turismo: Guía Esencial de Servicio"
-description: "Mejora tu carrera en hostelería y turismo. Domina el inglés para hoteles y restaurantes, desde la recepción hasta el servicio de mesa con una atención al cliente top."
-keywords: ["inglés para hostelería", "inglés para hoteles", "inglés para camareros", "inglés para recepción", "vocabulario turismo inglés", "frases camarero inglés", "vocabulario restaurante inglés", "frases recepción inglés", "atención al cliente inglés", "inglés para restaurantes", "inglés para bares", "atención al cliente internacional", "ingles para eventos"]
-canonical: "https://www.focus-on-english.com/blog/trabajo/ingles-para-hosteleria"
-related_routes: ["ingles-para-viajar", "ingles-a2", "ingles-restaurantes-guia"]
+category: trabajo
+date: '2026-02-07'
+author: Focus English
+title: 'Curso de Inglés para Hostelería y Turismo: Guía Esencial de Servicio'
+description: >-
+  Mejora tu carrera en hostelería y turismo. Domina el inglés para hoteles y
+  restaurantes, desde la recepción hasta el servicio de mesa con una atención al
+  cliente top.
+keywords:
+  - inglés para hostelería
+  - inglés para hoteles
+  - inglés para camareros
+  - inglés para recepción
+  - vocabulario turismo inglés
+  - frases camarero inglés
+  - vocabulario restaurante inglés
+  - frases recepción inglés
+  - atención al cliente inglés
+  - inglés para restaurantes
+  - inglés para bares
+  - atención al cliente internacional
+  - ingles para eventos
+canonical: 'https://www.focus-on-english.com/blog/trabajo/ingles-para-hosteleria'
+related_routes:
+  - ingles-para-viajar
+  - ingles-a2
+  - ingles-restaurantes-guia
 ---
 
 # Curso de Inglés para Hostelería: Excelencia en el Servicio Internacional
 
-En el dinámico sector de la hostelería y el turismo, la primera impresión no es solo importante; es determinante. Si trabajas en un hotel, un restaurante, un bar o una agencia de viajes, el inglés ha dejado de ser una opción para convertirse en tu principal herramienta de trabajo. No se trata simplemente de "hacerse entender", sino de ofrecer una **[atención al cliente en inglés](/blog/trabajo/ingles-para-hosteleria)** que transmita profesionalismo, calidez y eficiencia.
+En el dinámico sector de la hostelería y el turismo, la primera impresión no es solo importante; es determinante. Si trabajas en un hotel, un restaurante, un bar o una agencia de viajes, el inglés ha dejado de ser una opción para convertirse en tu principal herramienta de trabajo. No se trata simplemente de "hacerse entender", sino de ofrecer una **atención al cliente en inglés** que transmita profesionalismo, calidez y eficiencia.
 
 En esta guía, exploraremos las situaciones más comunes del sector y te proporcionaremos las estructuras necesarias para destacar en tu carrera internacional.
 
@@ -81,7 +100,6 @@ No. En el sector servicios internacional, la claridad y la cortesía son mucho m
 
 El sector servicios no se aprende con libros de gramática, sino con práctica situacional. En **Focus English**, te ofrecemos:
 
-*   **Simulaciones de Situaciones Reales**: Nuestra IA recrea escenarios como un overbooking en el hotel o una confusión con la cuenta en el restaurante para que practiques tu respuesta bajo presión.
 *   **Enfoque en la 'Polite Grammar'**: Aprende a usar las estructuras indirectas (*"I was wondering if..."*) que son la marca de un servicio de lujo.
 *   **Vocabulario de Nicho**: Listas de términos para sumilleres, baristas y técnicos de mantenimiento.
 *   **Micro-learning**: Lecciones de 5 minutos diseñadas para que puedas estudiar entre turnos o en el transporte público.

@@ -1,21 +1,46 @@
 ---
-title: "¿Cuánto se tarda en aprender inglés realmente? La Guía Definitiva"
-description: "Descubre el tiempo real que necesitas para aprender inglés según tu nivel actual, objetivos y dedicación semanal. Roadmap claro para alcanzar la fluidez."
-excerpt: "¿Quieres saber cuánto se tarda en aprender inglés? Desglosamos las horas necesarias por nivel (A1-C1) y te damos las claves científicas para acelerar tu fluidez."
-keywords: ["cuanto se tarda en aprender ingles", "tiempo para aprender ingles", "niveles ingles mcer", "aprender ingles rapido", "horas para aprender ingles", "ingles b2 tiempo", "aprender ingles en 6 meses"]
-date: "2024-02-03"
-category: "metodos"
-author: "Focus English"
-image: "https://images.pexels.com/photos/7092400/pexels-photo-7092400.jpeg"
+title: ¿Cuánto se tarda en aprender inglés realmente? La Guía Definitiva
+description: >-
+  Descubre el tiempo real que necesitas para aprender inglés según tu nivel
+  actual, objetivos y dedicación semanal. Roadmap claro para alcanzar la
+  fluidez.
+excerpt: >-
+  ¿Quieres saber cuánto se tarda en aprender inglés? Desglosamos las horas
+  necesarias por nivel (A1-C1) y te damos las claves científicas para acelerar
+  tu fluidez.
+keywords:
+  - cuanto se tarda en aprender ingles
+  - tiempo para aprender ingles
+  - niveles ingles mcer
+  - aprender ingles rapido
+  - horas para aprender ingles
+  - ingles b2 tiempo
+  - aprender ingles en 6 meses
+date: '2024-02-03'
+category: metodos
+author: Focus English
+image: 'https://images.pexels.com/photos/7092400/pexels-photo-7092400.jpeg'
 faqs:
-  - question: "¿Es posible aprender inglés en 3 meses?"
-    answer: "Depende de tu punto de partida. Puedes alcanzar un nivel de supervivencia (A1-A2) en 3 meses con dedicación intensa, pero la fluidez profesional (B2) requiere más tiempo de maduración cerebral."
-  - question: "¿Cuántas horas al día debo estudiar?"
-    answer: "La ciencia sugiere que la constancia es mejor que la intensidad extrema. 30 a 45 minutos diarios son más efectivos que 5 horas seguidas una vez a la semana debido a cómo funciona la memoria a largo plazo."
-  - question: "¿Cuánto tiempo se tarda en pasar de B1 a B2?"
-    answer: "Generalmente se requieren entre 150 y 200 horas de estudio guiado y práctica activa. Es un nivel crítico porque implica pasar de frases sencillas a estructuras complejas y abstractas."
-  - question: "¿Ayuda la IA a aprender más rápido?"
-    answer: "Sí, la IA puede reducir el tiempo de aprendizaje hasta en un 30% al proporcionar feedback instantáneo y personalización absoluta, eliminando los tiempos muertos de las clases grupales tradicionales."
+  - question: ¿Es posible aprender inglés en 3 meses?
+    answer: >-
+      Depende de tu punto de partida. Puedes alcanzar un nivel de supervivencia
+      (A1-A2) en 3 meses con dedicación intensa, pero la fluidez profesional
+      (B2) requiere más tiempo de maduración cerebral.
+  - question: ¿Cuántas horas al día debo estudiar?
+    answer: >-
+      La ciencia sugiere que la constancia es mejor que la intensidad extrema.
+      30 a 45 minutos diarios son más efectivos que 5 horas seguidas una vez a
+      la semana debido a cómo funciona la memoria a largo plazo.
+  - question: ¿Cuánto tiempo se tarda en pasar de B1 a B2?
+    answer: >-
+      Generalmente se requieren entre 150 y 200 horas de estudio guiado y
+      práctica activa. Es un nivel crítico porque implica pasar de frases
+      sencillas a estructuras complejas y abstractas.
+  - question: ¿Ayuda la IA a aprender más rápido?
+    answer: >-
+      Sí, la IA puede reducir el tiempo de aprendizaje hasta en un 30% al
+      proporcionar feedback instantáneo y personalización absoluta, eliminando
+      los tiempos muertos de las clases grupales tradicionales.
 ---
 
 # ¿Cuánto se tarda en aprender inglés realmente? La Guía Definitiva
@@ -70,14 +95,12 @@ La razón es técnica: en los niveles iniciales, aprender 100 palabras nuevas du
 
 En 2026, ya no estamos limitados por los métodos de los años 90. Aquí te explicamos cómo reducir esos tiempos de aprendizaje hasta en un 30%:
 
-### IA y Feedback Instantáneo
 El mayor retraso en el aprendizaje tradicional es esperar a que un profesor corrija tus errores. Con plataformas como **Focus English**, recibes correcciones al instante mientras hablas con una IA. Esto acorta el ciclo de aprendizaje: Error -> Corrección -> Mejora.
 
 ### La Regla del 80/20 (Ley de Pareto)
 No intentes aprenderte todo el diccionario. El 80% de la comunicación diaria en inglés utiliza solo el 20% del vocabulario disponible (unas 1.500-2.000 palabras). Enfócate en dominar ese núcleo antes de pasar a tecnicismos.
 
 ### Repetición Espaciada (Spaced Repetition)
-Nuestra memoria tiene una "curva del olvido". Los algoritmos modernos identifican cuándo estás a punto de olvidar una palabra y te la muestran justo en ese momento. Esto garantiza que el vocabulario pase de la memoria a corto plazo a la memoria a largo plazo.
 
 ---
 

@@ -1,12 +1,19 @@
 ---
-category: "trabajo"
-date: "2026-02-07"
-author: "Focus English"
-title: "Vocabulario Inglés B1: Trabajo, Viajes y Vida Cotidiana"
-description: "Lista de vocabulario esencial para el nivel B1 de inglés. Aprende las palabras y expresiones clave para el trabajo, viajar y situaciones sociales."
-keywords: ["vocabulario ingles b1", "palabras ingles b1", "expresiones ingles b1", "vocabulario trabajo ingles b1"]
-canonical: "https://www.focus-on-english.com/blog/trabajo/vocabulario-b1-ingles-trabajo"
-related_routes: ["ingles-b1"]
+category: trabajo
+date: '2026-02-07'
+author: Focus English
+title: 'Vocabulario Inglés B1: Trabajo, Viajes y Vida Cotidiana'
+description: >-
+  Lista de vocabulario esencial para el nivel B1 de inglés. Aprende las palabras
+  y expresiones clave para el trabajo, viajar y situaciones sociales.
+keywords:
+  - vocabulario ingles b1
+  - palabras ingles b1
+  - expresiones ingles b1
+  - vocabulario trabajo ingles b1
+canonical: 'https://www.focus-on-english.com/blog/trabajo/vocabulario-b1-ingles-trabajo'
+related_routes:
+  - ingles-b1
 ---
 
 # Vocabulario Esencial Inglés B1: Domina la Comunicación
@@ -128,7 +135,6 @@ Aprender vocabulario no consiste en leer una lista y esperar recordarla al día 
 
 - **Usa el contexto**: Nunca aprendas palabras sueltas. Aprende la frase completa (*collocations*). Por ejemplo, no aprendas "flight", aprende "to miss a flight".
 - **Agrupa por campos semánticos**: Estudia todo lo relacionado con el trabajo un día y todo lo relacionado con la salud otro.
-- **Repetición Espaciada**: Nuestra plataforma en **Focus English** utiliza IA para detectar qué palabras te cuestan más y recordártelas justo antes de que las olvides.
 - **Escucha activa**: Ve series o escucha podcasts en inglés B1. Cuando oigas una palabra que conoces, pero en un contexto nuevo, anótala.
 
 ## Conclusión

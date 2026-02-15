@@ -1,19 +1,40 @@
 ---
-title: "Present Perfect vs Past Simple: Guía y Diferencias"
-description: "Aprende la diferencia entre Present Perfect y Past Simple en inglés. Guía definitiva con reglas, ejemplos avanzados, comparativa de marcadores y lista descargable."
-excerpt: "¿Dudas entre el Present Perfect y el Past Simple? En este artículo te explicamos las reglas de nivel Cambridge, los marcadores temporales y ejemplos prácticos para dominarlos."
-keywords: ["present perfect and past simple", "present perfect tense examples", "difference between present perfect and past simple", "ejemplos present perfect vs past simple", "gramatica inglesa", "ejercicios gramatica ingles", "clases de gramatica en ingles gratis"]
-date: "2026-02-06"
-category: "gramatica"
-author: "Focus English"
-image: "https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg"
+title: 'Present Perfect vs Past Simple: Guía y Diferencias'
+description: >-
+  Aprende la diferencia entre Present Perfect y Past Simple en inglés. Guía
+  definitiva con reglas, ejemplos avanzados, comparativa de marcadores y lista
+  descargable.
+excerpt: >-
+  ¿Dudas entre el Present Perfect y el Past Simple? En este artículo te
+  explicamos las reglas de nivel Cambridge, los marcadores temporales y ejemplos
+  prácticos para dominarlos.
+keywords:
+  - present perfect and past simple
+  - present perfect tense examples
+  - difference between present perfect and past simple
+  - ejemplos present perfect vs past simple
+  - gramatica inglesa
+  - ejercicios gramatica ingles
+  - clases de gramatica en ingles gratis
+date: '2026-02-06'
+category: gramatica
+author: Focus English
+image: 'https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg'
 faqs:
-  - question: "¿Cuál es la diferencia principal entre Present Perfect y Past Simple?"
-    answer: "La diferencia principal es el tiempo. El Past Simple se usa para acciones terminadas en un tiempo específico, mientras que el Present Perfect conecta el pasado con el presente o se usa cuando el tiempo no es importante."
-  - question: "¿Qué palabras clave indican el uso de Past Simple?"
-    answer: "Palabras como yesterday, last week, in 1995 o two days ago siempre requieren Past Simple."
-  - question: "¿Qué palabras clave indican el uso de Present Perfect?"
-    answer: "Palabras como ever, never, just, already, yet, so far y since suelen ir acompañadas de Present Perfect."
+  - question: ¿Cuál es la diferencia principal entre Present Perfect y Past Simple?
+    answer: >-
+      La diferencia principal es el tiempo. El Past Simple se usa para acciones
+      terminadas en un tiempo específico, mientras que el Present Perfect
+      conecta el pasado con el presente o se usa cuando el tiempo no es
+      importante.
+  - question: ¿Qué palabras clave indican el uso de Past Simple?
+    answer: >-
+      Palabras como yesterday, last week, in 1995 o two days ago siempre
+      requieren Past Simple.
+  - question: ¿Qué palabras clave indican el uso de Present Perfect?
+    answer: >-
+      Palabras como ever, never, just, already, yet, so far y since suelen ir
+      acompañadas de Present Perfect.
 ---
 
 ## Domina el Present Perfect vs Past Simple (Nivel A1-C1)
@@ -111,4 +132,3 @@ Copia o imprime esta tabla para repasar antes de tus exámenes.
 
 Dominar la **difference between present perfect and past simple** requiere práctica constante. Recuerda: si el tiempo está "muerto" (terminado), usa Past Simple. Si el tiempo está "vivo" (sigue teniendo efecto), usa Present Perfect.
 
-¿Quieres poner a prueba lo aprendido? En **Focus English** hemos desarrollado simuladores de conversación con IA que te corrigen en tiempo real. [**Únete gratis y domina la gramática inglesa.**](/cuenta/registro)

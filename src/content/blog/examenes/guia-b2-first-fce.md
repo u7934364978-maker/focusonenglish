@@ -1,19 +1,38 @@
 ---
-title: "Guía Completa para el B2 First (FCE) de Cambridge"
-description: "Prepárate para el examen B2 First (FCE) de Cambridge. Descubre la estructura del examen, consejos prácticos, puntuación y recursos para aprobar a la primera."
-excerpt: "¿Pensando en presentarte al B2 First? En esta guía maestra te explicamos la estructura del FCE, cómo se puntúa y los mejores consejos para dominar cada sección del examen de Cambridge."
-keywords: ["fce first certificate in english exam", "b2 first cambridge", "examen cambridge first", "first certificate exam fce", "cambridge certificate", "preparacion b2 first"]
-date: "2024-02-04"
-category: "examenes"
-author: "Focus English"
-image: "https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg"
+title: Guía Completa para el B2 First (FCE) de Cambridge
+description: >-
+  Prepárate para el examen B2 First (FCE) de Cambridge. Descubre la estructura
+  del examen, consejos prácticos, puntuación y recursos para aprobar a la
+  primera.
+excerpt: >-
+  ¿Pensando en presentarte al B2 First? En esta guía maestra te explicamos la
+  estructura del FCE, cómo se puntúa y los mejores consejos para dominar cada
+  sección del examen de Cambridge.
+keywords:
+  - fce first certificate in english exam
+  - b2 first cambridge
+  - examen cambridge first
+  - first certificate exam fce
+  - cambridge certificate
+  - preparacion b2 first
+date: '2024-02-04'
+category: examenes
+author: Focus English
+image: 'https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg'
 faqs:
-  - question: "¿Qué nivel de inglés es el B2 First?"
-    answer: "El B2 First, anteriormente conocido como FCE (First Certificate in English), corresponde al nivel intermedio-alto del Marco Común Europeo de Referencia (MCER)."
-  - question: "¿Cuánto dura el examen B2 First?"
-    answer: "El examen tiene una duración total aproximada de 3.5 horas, divididas en cuatro secciones principales."
-  - question: "¿Caduca el título del B2 First?"
-    answer: "No, los certificados de Cambridge English no tienen fecha de caducidad. Una vez obtenido, el título es válido de por vida."
+  - question: ¿Qué nivel de inglés es el B2 First?
+    answer: >-
+      El B2 First, anteriormente conocido como FCE (First Certificate in
+      English), corresponde al nivel intermedio-alto del Marco Común Europeo de
+      Referencia (MCER).
+  - question: ¿Cuánto dura el examen B2 First?
+    answer: >-
+      El examen tiene una duración total aproximada de 3.5 horas, divididas en
+      cuatro secciones principales.
+  - question: ¿Caduca el título del B2 First?
+    answer: >-
+      No, los certificados de Cambridge English no tienen fecha de caducidad.
+      Una vez obtenido, el título es válido de por vida.
 ---
 
 ## ¿Qué es el B2 First (FCE) de Cambridge?
@@ -35,39 +54,10 @@ Es la parte más temida por los estudiantes y pesa el 40% de la nota final. Eval
 *   **Partes 1-4 (Use of English)**: Se centran en la gramática y el vocabulario. Aquí encontrarás el *Multiple-choice cloze*, el *Open cloze*, la *Word formation* y las famosas *Key word transformations* (donde debes reescribir una frase usando una palabra clave sin cambiar el significado).
 *   **Partes 5-7 (Reading)**: Evalúan tu capacidad para entender la opinión, el propósito y el tono de textos largos, así como la estructura del texto (*Gapped text*).
 
-### 2. Writing (80 minutos)
-Debes redactar dos textos de entre 140 y 190 palabras cada uno.
-*   **Part 1 (Essay)**: Es obligatorio. Debes discutir un tema basándote en dos puntos dados y añadir una idea propia. Se evalúa tu capacidad para argumentar y organizar ideas.
-*   **Part 2 (Choice)**: Puedes elegir entre un artículo, un email/carta (formal o informal), un informe (*report*) o una reseña (*review*). Es vital dominar el registro de cada uno. Consulta nuestros **[trucos para el Writing B2](/blog/examenes/cambridge-b2-first-guia)**.
-
-### 3. Listening (40 minutos aproximadamente)
-Consta de 4 partes y 30 preguntas. Escucharás audios dos veces.
-*   **Part 1**: 8 extractos cortos con preguntas de opción múltiple.
-*   **Part 2**: *Sentence completion*. Debes rellenar huecos con información específica del audio.
-*   **Part 3**: Unir 5 hablantes con 8 opciones de lo que están diciendo.
-*   **Part 4**: Entrevista larga con 7 preguntas de opción múltiple.
-
-### 4. Speaking (14 minutos por pareja)
-Esta prueba se realiza cara a cara con otro candidato y dos examinadores (uno interactúa contigo y el otro evalúa sin hablar).
-*   **Part 1 (Interview)**: Preguntas personales sobre tus hobbies, trabajo o estudios.
-*   **Part 2 (Long Turn)**: Comparar dos fotos durante 1 minuto y responder una pregunta corta sobre las fotos de tu compañero.
-*   **Part 3 (Collaborative Task)**: Conversación con tu compañero sobre una tarea visual. Deben llegar a un acuerdo.
-*   **Part 4 (Discussion)**: Debate más profundo sobre los temas de la parte 3.
-
----
-
 ## Estrategias Ganadoras por Sección
 
 ### Cómo dominar el Use of English
 La clave aquí son las **Collocations** (combinaciones de palabras) y los **Phrasal Verbs**. Cambridge no evalúa palabras sueltas, sino cómo encajan entre sí. Practica mucho las *Transformations*, ya que son matemáticas aplicadas al lenguaje.
-
-### El secreto del Writing
-No intentes escribir como un novelista. Cambridge busca claridad y estructura. Usa **conectores** (*linkers*) de forma estratégica: *"Furthermore"*, *"In addition"*, *"On the other hand"*, *"To conclude"*. Asegúrate de que tu ensayo tenga una introducción, dos párrafos de cuerpo y una conclusión clara.
-
-### Sobrevivir al Listening
-No intentes entender cada palabra. Enfócate en los **sinónimos**. Si en la pregunta lees *"He was happy"*, es muy probable que en el audio escuches *"He was over the moon"* o *"He was delighted"*. Cambridge usa "distractores" (información que parece la respuesta correcta pero no lo es).
-
----
 
 ## Errores Comunes que te quitan puntos
 
@@ -81,7 +71,6 @@ No intentes entender cada palabra. Enfócate en los **sinónimos**. Si en la pre
 ## Computer-Based vs Paper-Based: ¿Cuál elegir?
 
 En 2026, la mayoría de los centros ofrecen ambas opciones.
-*   **Computer-Based**: Los resultados llegan más rápido (2-3 semanas), puedes editar el Writing fácilmente y tienes auriculares para el Listening (mejor concentración).
 *   **Paper-Based**: Ideal si prefieres subrayar físicamente los textos y te sientes más cómodo escribiendo a mano. Los resultados tardan unas 6 semanas.
 
 ---
@@ -101,4 +90,3 @@ El **B2 First Cambridge** utiliza la *Cambridge English Scale*. Para obtener el 
 
 Obtener el **Cambridge Certificate** de nivel B2 es un paso fundamental para tu carrera profesional y académica. No solo es un título; es la prueba de que puedes desenvolverte con éxito en el mundo anglosajón.
 
-[**¿Quieres prepararte para el B2 First? Descubre cómo nuestro curso online con IA puede ayudarte a aprobar a la primera.**](/cuenta/registro)

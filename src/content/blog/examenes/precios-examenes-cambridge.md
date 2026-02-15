@@ -1,19 +1,32 @@
 ---
-category: "examenes"
-date: "2026-02-07"
-author: "Focus English"
-title: "Precios Exámenes Cambridge 2026: Tasas, Gastos Extra y Comparativa"
-description: "Consulta los precios actualizados de los exámenes Cambridge para 2026. Tasas del First (FCE), Advanced (CAE) y PET. Descubre cuánto cuesta certificarse hoy mismo."
-keywords: ["precios examenes cambridge", "precio certificacion cambridge", "tasas cambridge 2026", "cuanto cuesta el examen first", "tasas fce 2026", "precios b2 first", "precios c1 advanced", "comparativa precios examenes ingles"]
-canonical: "https://www.focus-on-english.com/blog/examenes/precios-examenes-cambridge"
-related_routes: ["certificaciones-ingles", "preparacion-examen-b1-cambridge"]
+category: examenes
+date: '2026-02-07'
+author: Focus English
+title: 'Precios Exámenes Cambridge 2026: Tasas, Gastos Extra y Comparativa'
+description: >-
+  Consulta los precios actualizados de los exámenes Cambridge para 2026. Tasas
+  del First (FCE), Advanced (CAE) y PET. Descubre cuánto cuesta certificarse hoy
+  mismo.
+keywords:
+  - precios examenes cambridge
+  - precio certificacion cambridge
+  - tasas cambridge 2026
+  - cuanto cuesta el examen first
+  - tasas fce 2026
+  - precios b2 first
+  - precios c1 advanced
+  - comparativa precios examenes ingles
+canonical: 'https://www.focus-on-english.com/blog/examenes/precios-examenes-cambridge'
+related_routes:
+  - certificaciones-ingles
+  - preparacion-examen-b1-cambridge
 ---
 
 # Precios Exámenes Cambridge 2026: Guía Completa de Tasas e Inversión
 
 Si has decidido certificar tu nivel de inglés, una de las primeras y más importantes preguntas que te harás es: **¿cuánto cuesta el examen de Cambridge?**. Obtener una certificación oficial no es solo un reto académico, sino también una inversión económica significativa que requiere planificación.
 
-Las **[tasas Cambridge 2026](/blog/examenes/precios-examenes-cambridge)** no son fijas a nivel global; varían según el nivel del examen, el centro examinador elegido y la modalidad (papel u ordenador). En esta guía, desglosamos todos los costes directos e indirectos para que no te lleves sorpresas al matricularte.
+Las **tasas Cambridge 2026** no son fijas a nivel global; varían según el nivel del examen, el centro examinador elegido y la modalidad (papel u ordenador). En esta guía, desglosamos todos los costes directos e indirectos para que no te lleves sorpresas al matricularte.
 
 Si quieres conocer más sobre la preparación, visita nuestra guía de **[preparación B1 Cambridge](/blog/examenes/preparacion-examen-b1-cambridge)**.
 
@@ -30,7 +43,7 @@ Los precios que mostramos a continuación son una media de los centros examinado
 | **C2 Proficiency (CPE)** | C2 | 255€ - 280€ |
 
 ### ¿Cuánto cuesta el examen First (FCE) en 2026?
-El **[precio del examen First](/blog/examenes/precios-examenes-cambridge)** es el más demandado. En 2026, la tasa estándar en la mayoría de centros es de **225€**. Este precio suele incluir los derechos de examen y la emisión del certificado físico.
+El **precio del examen First** es el más demandado. En 2026, la tasa estándar en la mayoría de centros es de **225€**. Este precio suele incluir los derechos de examen y la emisión del certificado físico.
 
 ## 2. Gastos Extra: Lo que nadie te cuenta
 

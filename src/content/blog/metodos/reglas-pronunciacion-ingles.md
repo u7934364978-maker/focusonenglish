@@ -1,12 +1,23 @@
 ---
-title: "Reglas de Pronunciación en Inglés: Guía de Estudio"
-description: "Domina la fonética inglesa con nuestras reglas de pronunciación en inglés. Incluye Magic E, Silent Letters, terminaciones -ED y lista imprimible."
-excerpt: "Mejora tu acento y claridad al hablar. Guía académica con las reglas de pronunciación fundamentales, ejemplos de nivel Cambridge y lista de práctica."
-keywords: ["reglas de pronunciacion en ingles", "pronunciacion ingles", "como pronunciar ingles", "letras mudas ingles", "fonetica inglesa", "ejercicios de deletreo en ingles online", "reglas pronunciacion ingles"]
-author: "Equipo Focus English"
-date: "2026-02-06"
-image: "https://images.pexels.com/photos/1036622/pexels-photo-1036622.jpeg"
-category: "metodos"
+title: 'Reglas de Pronunciación en Inglés: Guía de Estudio'
+description: >-
+  Domina la fonética inglesa con nuestras reglas de pronunciación en inglés.
+  Incluye Magic E, Silent Letters, terminaciones -ED y lista imprimible.
+excerpt: >-
+  Mejora tu acento y claridad al hablar. Guía académica con las reglas de
+  pronunciación fundamentales, ejemplos de nivel Cambridge y lista de práctica.
+keywords:
+  - reglas de pronunciacion en ingles
+  - pronunciacion ingles
+  - como pronunciar ingles
+  - letras mudas ingles
+  - fonetica inglesa
+  - ejercicios de deletreo en ingles online
+  - reglas pronunciacion ingles
+author: Equipo Focus English
+date: '2026-02-06'
+image: 'https://images.pexels.com/photos/1036622/pexels-photo-1036622.jpeg'
+category: metodos
 ---
 
 La pronunciación es la "cara" de tu inglés. Como profesor de Cambridge, he comprobado que muchos alumnos tienen una gramática excelente pero no logran comunicarse con eficacia debido a la falta de claridad fonética. El inglés no es un idioma fonético (no se lee como se escribe), pero sí es un idioma de **patrones**.
@@ -31,7 +42,6 @@ La posición de las vocales cambia radicalmente su sonido. El patrón más impor
 
 ## 2. 📥 Material de Estudio: Guía de Letras Mudas (Silent Letters)
 
-Copia o imprime esta lista. Es una de las mayores fuentes de error en los exámenes de Speaking.
 
 | Letra Muda | Regla / Patrón | Ejemplos Clave |
 | :--- | :--- | :--- |
@@ -111,4 +121,3 @@ En inglés, el acento es impredecible, pero hay una regla general: en nombres y 
 
 ---
 
-¿Quieres que un profesor de IA escuche tu pronunciación y te corrija? En **Focus English** hemos desarrollado la tecnología de Speaking más avanzada para estudiantes de español. [**Empieza gratis hoy mismo.**](/cuenta/registro)

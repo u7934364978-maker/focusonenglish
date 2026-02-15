@@ -1,24 +1,36 @@
 ---
-title: "Guía 2026: Cómo hacer presentaciones en inglés con impacto"
-date: "2026-01-30"
-author: "Focus English Team"
-excerpt: "Domina el arte de hablar en público en inglés. Aprende las frases clave para estructurar tu discurso, describir gráficos y manejar preguntas con seguridad en 2026."
-category: "trabajo"
-readTime: "18 min"
-image: "https://images.pexels.com/photos/3184315/pexels-photo-3184315.jpeg?auto=compress&cs=tinysrgb&w=1200"
-alt: "Persona realizando una presentación educativa frente a una pizarra en un aula moderna"
+title: 'Guía 2026: Cómo hacer presentaciones en inglés con impacto'
+date: '2026-01-30'
+author: Focus English Team
+excerpt: >-
+  Domina el arte de hablar en público en inglés. Aprende las frases clave para
+  estructurar tu discurso, describir gráficos y manejar preguntas con seguridad
+  en 2026.
+category: trabajo
+readTime: 18 min
+image: >-
+  https://images.pexels.com/photos/3184315/pexels-photo-3184315.jpeg?auto=compress&cs=tinysrgb&w=1200
+alt: >-
+  Persona realizando una presentación educativa frente a una pizarra en un aula
+  moderna
 keywords:
-  - "presentaciones en inglés"
-  - "frases para presentaciones inglés"
-  - "hablar en público inglés"
-  - "vocabulario presentaciones profesionales"
+  - presentaciones en inglés
+  - frases para presentaciones inglés
+  - hablar en público inglés
+  - vocabulario presentaciones profesionales
 faqs:
-  - question: "¿Cómo empiezo una presentación en inglés de forma natural?"
-    answer: "Puedes usar: 'Good morning/afternoon everyone, thank you for being here. Today, I’d like to talk to you about...'"
-  - question: "¿Qué frases puedo usar para pasar de un punto a otro?"
-    answer: "Usa conectores como: 'Moving on to my next point...', 'Now, let’s look at...', o 'This leads me to...'"
-  - question: "¿Cómo manejo una pregunta que no sé responder?"
-    answer: "Una frase salvavidas es: 'That’s a great question. I don’t have the specific data right now, but I’ll get back to you by the end of the day.'"
+  - question: ¿Cómo empiezo una presentación en inglés de forma natural?
+    answer: >-
+      Puedes usar: 'Good morning/afternoon everyone, thank you for being here.
+      Today, I’d like to talk to you about...'
+  - question: ¿Qué frases puedo usar para pasar de un punto a otro?
+    answer: >-
+      Usa conectores como: 'Moving on to my next point...', 'Now, let’s look
+      at...', o 'This leads me to...'
+  - question: ¿Cómo manejo una pregunta que no sé responder?
+    answer: >-
+      Una frase salvavidas es: 'That’s a great question. I don’t have the
+      specific data right now, but I’ll get back to you by the end of the day.'
 ---
 
 ## Brilla en tu próxima presentación internacional
@@ -110,7 +122,6 @@ Termina con fuerza y gestiona las dudas con elegancia profesional. No dejes que 
 
 ## 💡 Tip Focus English: El secreto está en el "Delivery"
 
-En 2026, la IA nos ayuda a perfeccionar nuestra oratoria. En nuestra plataforma, puedes practicar con nuestro **Analizador de Voz**:
 1.  **Pace (Velocidad):** ¿Hablas a 120 palabras por minuto (ideal) o a 180 (demasiado rápido)?
 2.  **Filler Words:** Identificamos tus "uhmms", "likes" y "soos" para que suenes más limpio.
 3.  **Intonation:** Evita el tono monótono que duerme a la audiencia. Te enseñamos a usar la *entusiasta entonación* del inglés profesional.

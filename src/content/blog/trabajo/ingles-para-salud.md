@@ -1,17 +1,32 @@
 ---
-category: "trabajo"
-date: "2026-02-07"
-author: "Focus English"
-title: "Curso de Inglés para el Sector Salud: Médico, Enfermería y Especialidades"
-description: "Especialízate en inglés médico y de enfermería. Domina el vocabulario clínico, la atención al paciente, redacción de informes y comunicación profesional sanitaria."
-keywords: ["inglés para salud", "inglés médico", "inglés para enfermería", "vocabulario clínico inglés", "atención al paciente inglés", "inglés médico online", "terminología médica inglés", "inglés para fisioterapia", "medical english vocabulary", "comunicación sanitaria inglés"]
-canonical: "https://www.focus-on-english.com/blog/trabajo/ingles-para-salud"
-related_routes: ["ingles-para-trabajo", "ingles-b2"]
+category: trabajo
+date: '2026-02-07'
+author: Focus English
+title: 'Curso de Inglés para el Sector Salud: Médico, Enfermería y Especialidades'
+description: >-
+  Especialízate en inglés médico y de enfermería. Domina el vocabulario clínico,
+  la atención al paciente, redacción de informes y comunicación profesional
+  sanitaria.
+keywords:
+  - inglés para salud
+  - inglés médico
+  - inglés para enfermería
+  - vocabulario clínico inglés
+  - atención al paciente inglés
+  - inglés médico online
+  - terminología médica inglés
+  - inglés para fisioterapia
+  - medical english vocabulary
+  - comunicación sanitaria inglés
+canonical: 'https://www.focus-on-english.com/blog/trabajo/ingles-para-salud'
+related_routes:
+  - ingles-para-trabajo
+  - ingles-b2
 ---
 
 # Curso de Inglés para el Sector Salud: Comunicación Crítica para Profesionales
 
-En el ámbito de la salud, la comunicación no es solo una habilidad complementaria; es un factor crítico para la seguridad del paciente y la eficacia del tratamiento. Si eres médico, enfermero, auxiliar, fisioterapeuta o estudiante de ciencias de la salud, dominar el **[inglés médico](/blog/trabajo/ingles-para-salud)** te abre las puertas a la comunidad científica global, te permite acceder a los últimos protocolos de la OMS o la Mayo Clinic, y te habilita para trabajar en entornos multiculturales con total seguridad.
+En el ámbito de la salud, la comunicación no es solo una habilidad complementaria; es un factor crítico para la seguridad del paciente y la eficacia del tratamiento. Si eres médico, enfermero, auxiliar, fisioterapeuta o estudiante de ciencias de la salud, dominar el **inglés médico** te abre las puertas a la comunidad científica global, te permite acceder a los últimos protocolos de la OMS o la Mayo Clinic, y te habilita para trabajar en entornos multiculturales con total seguridad.
 
 Esta guía ha sido diseñada para proporcionarte una base sólida en el lenguaje de la salud, desde el trato directo con el paciente hasta la redacción de informes técnicos de alta complejidad.
 
@@ -19,7 +34,7 @@ Visita nuestro **[hub de inglés profesional](/blog/trabajo)** para ver más esp
 
 ## 1. Atención al Paciente: El Puente entre el Rigor y la Empatía
 
-La **[atención al paciente en inglés](/blog/trabajo/ingles-para-salud)** requiere una habilidad dual: saber comunicarse con precisión técnica ante los colegas y saber traducir esos conceptos complejos a un lenguaje comprensible (*layman's terms*) para el paciente y su familia.
+La **atención al paciente en inglés** requiere una habilidad dual: saber comunicarse con precisión técnica ante los colegas y saber traducir esos conceptos complejos a un lenguaje comprensible (*layman's terms*) para el paciente y su familia.
 
 ### Términos Técnicos vs. Lenguaje Coloquial
 Es vital saber cuándo usar cada registro para no asustar al paciente:
@@ -44,7 +59,7 @@ En situaciones críticas, la estructura del mensaje es fundamental para mantener
 
 ## 2. Especialidades: Fisioterapia, Salud Mental y Enfermería
 
-Domina la terminología específica según tu área de trabajo en nuestro módulo de **[inglés para enfermería](/blog/trabajo/ingles-para-salud)** y otras especialidades:
+Domina la terminología específica según tu área de trabajo en nuestro módulo de **inglés para enfermería** y otras especialidades:
 
 ### Fisioterapia y Rehabilitación
 *   *"Can you tilt your head to the left? Does this movement trigger any pain?"*
@@ -68,7 +83,7 @@ Domina la terminología específica según tu área de trabajo en nuestro módul
 
 ## 3. Comunicación Interprofesional: El Handover y el Método SBAR
 
-En los hospitales internacionales, el traspaso de pacientes es un momento de alto riesgo. El uso de protocolos estandarizados de **[inglés para salud](/blog/trabajo/ingles-para-salud)** es vital para evitar errores médicos.
+En los hospitales internacionales, el traspaso de pacientes es un momento de alto riesgo. El uso de protocolos estandarizados de **inglés para salud** es vital para evitar errores médicos.
 
 ### El Método SBAR (Situation, Background, Assessment, Recommendation):
 *   **Situation**: *"I am calling about Mr. Smith in room 402. He is experiencing sudden chest pain and diaphoresis."*

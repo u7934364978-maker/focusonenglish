@@ -1,30 +1,33 @@
 ---
-title: "Superar una Entrevista de Trabajo en Inglés: Guía"
-date: "2026-01-30"
-author: "Expert HR"
-excerpt: "Los secretos para destacar en tu próxima entrevista internacional. Aprende a responder las preguntas difíciles y a demostrar tu valor profesional en inglés."
-category: "trabajo"
-readTime: "18 min"
-image: "https://images.pexels.com/photos/1311518/pexels-photo-1311518.jpeg?auto=compress&cs=tinysrgb&w=1200"
-alt: "Entrevista de trabajo profesional entre dos personas en una oficina luminosa"
+title: 'Superar una Entrevista de Trabajo en Inglés: Guía'
+date: '2026-01-30'
+author: Expert HR
+excerpt: >-
+  Los secretos para destacar en tu próxima entrevista internacional. Aprende a
+  responder las preguntas difíciles y a demostrar tu valor profesional en
+  inglés.
+category: trabajo
+readTime: 18 min
+image: >-
+  https://images.pexels.com/photos/1311518/pexels-photo-1311518.jpeg?auto=compress&cs=tinysrgb&w=1200
+alt: Entrevista de trabajo profesional entre dos personas en una oficina luminosa
 keywords:
-  - "entrevista en inglés"
-  - "inglés profesional"
-  - "preguntas entrevista trabajo"
-  - "career tips"
-  - "job interview english"
-  - "inglés para negocios"
+  - entrevista en inglés
+  - inglés profesional
+  - preguntas entrevista trabajo
+  - career tips
+  - job interview english
+  - inglés para negocios
 faqs:
-  - question: "¿Qué es el método STAR en una entrevista?"
-    answer: "El método STAR (Situación, Tarea, Acción, Resultado) es una técnica estructurada para responder preguntas de comportamiento en una entrevista, permitiéndote dar ejemplos concretos de tus habilidades."
-  - question: "¿Cómo hablar de debilidades en una entrevista en inglés?"
-    answer: "Lo ideal es mencionar una debilidad real pero que estés trabajando activamente en mejorar, mostrando autocrítica y proactividad."
----
-
-## Cómo superar una entrevista de trabajo en inglés en 2026
-
-En un mercado laboral globalizado, la entrevista en inglés es el último obstáculo entre tú y el puesto de tus sueños. No se trata solo de saber gramática; se trata de **comunicar tu valor, tu experiencia y tu personalidad** con seguridad.
-
+  - question: ¿Qué es el método STAR en una entrevista?
+    answer: >-
+      El método STAR (Situación, Tarea, Acción, Resultado) es una técnica
+      estructurada para responder preguntas de comportamiento en una entrevista,
+      permitiéndote dar ejemplos concretos de tus habilidades.
+  - question: ¿Cómo hablar de debilidades en una entrevista en inglés?
+    answer: >-
+      Lo ideal es mencionar una debilidad real pero que estés trabajando
+      activamente en mejorar, mostrando autocrítica y proactividad.
 ---
 
 ## 💼 Fase 1: Preparación Psicológica y Control de la Ansiedad
@@ -76,7 +79,6 @@ Sustituye verbos genéricos y débiles por palabras que denotan liderazgo, auton
 
 A veces, el entrevistador lanzará preguntas diseñadas para sacarte de tu zona de confort:
 
-*   **"What is your greatest weakness?"**: No digas que eres perfeccionista (es un cliché). Menciona una debilidad real y, lo más importante, qué pasos estás dando para mejorarla (*"I used to struggle with public speaking, so I joined a Toastmasters club..."*).
 *   **"Why should we hire you instead of other candidates?"**: Céntrate en tu propuesta única de valor (*Unique Value Proposition*). ¿Qué combinación de habilidades técnicas y blandas te hace especial para ESTE puesto concreto?
 *   **"Tell me about a time you had a conflict with a manager."**: Nunca hables mal de antiguos jefes. Enfócate en cómo gestionaste la situación de forma profesional y qué aprendiste del proceso de resolución.
 
@@ -88,7 +90,6 @@ La entrevista no termina cuando sales de la sala o cierras la pestaña de Zoom. 
 
 **Puntos clave del Follow-up:**
 1.  Agradece el tiempo del entrevistador.
-2.  Menciona algo específico de la conversación para demostrar que estabas atento.
 3.  Reitera tu entusiasmo por el puesto y por qué crees que encajas perfectamente.
 
 ---
@@ -106,7 +107,6 @@ No dejes que tu nivel de inglés sea el techo de tu carrera. En Focus English ay
 
 **Acceso Exclusivo Pro:**
 Prueba nuestra plataforma **gratis durante 7 días**.
-- Simulador de entrevistas con IA y feedback personalizado.
 - Banco de respuestas para más de 100 roles técnicos y creativos.
 - Plantillas de agradecimiento (Follow-up emails) post-entrevista.
 

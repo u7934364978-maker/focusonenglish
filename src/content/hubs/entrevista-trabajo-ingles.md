@@ -1,6 +1,8 @@
 ---
-title: "Entrevista de Trabajo en Inglés: Guía Definitiva 2026"
-description: "Prepárate para tu entrevista laboral en inglés. Preguntas típicas, respuestas ganadoras, lenguaje corporal y consejos para negociar tu salario."
+title: 'Entrevista de Trabajo en Inglés: Guía Definitiva 2026'
+description: >-
+  Prepárate para tu entrevista laboral en inglés. Preguntas típicas, respuestas
+  ganadoras, lenguaje corporal y consejos para negociar tu salario.
 ---
 
 # Entrevista de Trabajo en Inglés: Cómo Conseguir el Puesto en 2026
@@ -24,7 +26,6 @@ No puedes improvisar una entrevista en inglés. La preparación es el 90% del é
 
 ### 1. "Tell me about yourself."
 No cuentes tu vida personal. Enfócate en tu trayectoria profesional reciente y cómo te conecta con este puesto.
-*Respuesta ganadora:* *"I have over 5 years of experience in digital marketing, specifically focused on AI integration. In my last role, I led a team that increased conversion by 20%..."*
 
 ### 2. "What are your strengths and weaknesses?"
 Sé honesto pero estratégico. Una debilidad debe ser real, pero debes mostrar cómo estás trabajando para mejorarla.
@@ -90,11 +91,8 @@ Envía un correo breve unas 24 horas después de la entrevista.
 
 ---
 
-## 8. El papel de la IA en los Procesos de Selección de 2026
 
-En 2026, muchas empresas usan IA para el primer filtrado o incluso para entrevistas asíncronas.
 - **Usa palabras clave:** Asegúrate de que tu discurso contenga las palabras clave de la descripción del puesto.
-- **Claridad:** La IA prefiere frases claras y bien estructuradas. Evita el uso excesivo de modismos muy locales en estas fases iniciales.
 
 ## Conclusión
 

@@ -1,13 +1,26 @@
 ---
-title: "Reported Speech: Guía Completa del Estilo Indirecto en Inglés"
-description: "Aprende a dominar el Reported Speech en inglés. Incluye reglas de backshift, cambios en pronombres y expresiones de tiempo, ejemplos prácticos y FAQs para niveles B1, B2 y C1."
-excerpt: "Domina el estilo indirecto en inglés de una vez por todas. Descubre las reglas esenciales del backshift, cómo transformar preguntas y órdenes, y accede a ejemplos prácticos diseñados para mejorar tu fluidez y precisión gramatical."
-keywords: ["reported speech rules", "estilo indirecto ingles", "reported speech examples", "cambios verbales reported speech", "gramatica b2 c1", "backshift ingles", "reporting verbs list"]
-author: "Equipo Focus English"
-date: "2026-02-06"
-image: "https://images.pexels.com/photos/301920/pexels-photo-301920.jpeg"
-category: "gramatica"
-canonical: "https://www.focus-on-english.com/blog/gramatica/reported-speech-guia-uso"
+title: 'Reported Speech: Guía Completa del Estilo Indirecto en Inglés'
+description: >-
+  Aprende a dominar el Reported Speech en inglés. Incluye reglas de backshift,
+  cambios en pronombres y expresiones de tiempo, ejemplos prácticos y FAQs para
+  niveles B1, B2 y C1.
+excerpt: >-
+  Domina el estilo indirecto en inglés de una vez por todas. Descubre las reglas
+  esenciales del backshift, cómo transformar preguntas y órdenes, y accede a
+  ejemplos prácticos diseñados para mejorar tu fluidez y precisión gramatical.
+keywords:
+  - reported speech rules
+  - estilo indirecto ingles
+  - reported speech examples
+  - cambios verbales reported speech
+  - gramatica b2 c1
+  - backshift ingles
+  - reporting verbs list
+author: Equipo Focus English
+date: '2026-02-06'
+image: 'https://images.pexels.com/photos/301920/pexels-photo-301920.jpeg'
+category: gramatica
+canonical: 'https://www.focus-on-english.com/blog/gramatica/reported-speech-guia-uso'
 ---
 
 El **Reported Speech** (o estilo indirecto) es una de las herramientas más potentes y, a la vez, desafiantes de la gramática inglesa. Se utiliza fundamentalmente cuando queremos transmitir lo que otra persona ha dicho, pero sin repetir sus palabras exactas (lo que se conoce como *Direct Speech*). 
@@ -138,7 +151,6 @@ Aquí tienes 10 transformaciones de nivel avanzado para poner a prueba tu conoci
 
 El **Reported Speech** no es solo una lista de reglas mecánicas; es la clave para una comunicación fluida y profesional en inglés. Al dominar el backshift y elegir el *reporting verb* adecuado, tu nivel de inglés dará un salto cualitativo impresionante.
 
-¿Quieres practicar estas estructuras con ejercicios interactivos y recibir correcciones de nuestra IA entrenada por expertos de Cambridge? En **Focus English** hemos diseñado una plataforma donde la gramática se aprende a través de la práctica real.
 
 [**¡Regístrate gratis y empieza a hablar con precisión hoy mismo!**](/cuenta/registro)
 

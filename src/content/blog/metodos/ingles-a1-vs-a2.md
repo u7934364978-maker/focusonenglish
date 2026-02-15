@@ -1,12 +1,22 @@
 ---
-title: "Inglés A1 vs A2: Diferencias Clave y Cómo pasar de nivel"
-description: "¿Estás en el nivel A1 o ya has saltado al A2? Analizamos las diferencias reales entre el nivel principiante y el elemental según el MCER."
-excerpt: "Descubre las diferencias entre inglés A1 y A2. Guía completa para identificar tu nivel, dominar la gramática básica y pasar de nivel principiante a elemental."
-keywords: ["ingles a1 vs a2", "nivel ingles a1", "nivel ingles a2", "diferencia a1 y a2 ingles", "como pasar de nivel ingles"]
-date: "2024-02-03"
-category: "metodos"
-author: "Focus English"
-image: "https://images.pexels.com/photos/5905711/pexels-photo-5905711.jpeg"
+title: 'Inglés A1 vs A2: Diferencias Clave y Cómo pasar de nivel'
+description: >-
+  ¿Estás en el nivel A1 o ya has saltado al A2? Analizamos las diferencias
+  reales entre el nivel principiante y el elemental según el MCER.
+excerpt: >-
+  Descubre las diferencias entre inglés A1 y A2. Guía completa para identificar
+  tu nivel, dominar la gramática básica y pasar de nivel principiante a
+  elemental.
+keywords:
+  - ingles a1 vs a2
+  - nivel ingles a1
+  - nivel ingles a2
+  - diferencia a1 y a2 ingles
+  - como pasar de nivel ingles
+date: '2024-02-03'
+category: metodos
+author: Focus English
+image: 'https://images.pexels.com/photos/5905711/pexels-photo-5905711.jpeg'
 ---
 
 # Inglés A1 vs A2: ¿Cuál es tu Nivel Real y cómo Seguir Progresando?
@@ -23,7 +33,6 @@ El nivel A1 es para quienes están teniendo su primer contacto serio con el idio
 
 *   **Capacidad de Comunicación**: Puedes presentarte, deletrear palabras básicas, preguntar por una dirección sencilla y pedir comida en un restaurante si el camarero es paciente.
 *   **Gramática**: El centro de tu universo lingüístico es el verbo *To Be*, el presente simple para rutinas básicas y los pronombres personales. Usas artículos (*a, an, the*) y preposiciones de lugar muy elementales (*in, on, at*).
-*   **Comprensión Auditiva**: Entiendes frases hechas y palabras aisladas siempre que la otra persona hable extremadamente despacio, use gestos y esté dispuesta a repetir.
 *   **La Barrera**: Tus frases son cortas e inconexas: *"I am a doctor. I live in Madrid. I like coffee."*
 
 ## 2. Nivel A2: La Construcción de Historias y el Entorno Cotidiano
@@ -32,7 +41,6 @@ El nivel A2 es donde el inglés empieza a ser verdaderamente "usable". Aquí ya 
 
 *   **Capacidad de Comunicación**: Puedes contar qué hiciste ayer, hablar de tus planes para el próximo fin de semana y describir tu trabajo, tu familia o tus aficiones con cierto detalle. Eres capaz de realizar tareas cotidianas que requieren un intercambio directo de información.
 *   **Gramática**: Este es el salto más importante. Introduces el **Pasado Simple** (*I went, I saw, I worked*) y formas de futuro como el *Going to*. También empiezas a usar el Presente Continuo para acciones actuales y los comparativos (*This car is faster than that one*).
-*   **Comprensión Auditiva**: Eres capaz de entender la idea principal de mensajes breves y claros, como anuncios en un aeropuerto, instrucciones en una tienda o anécdotas sencillas de amigos.
 *   **El Salto**: Empiezas a conectar frases usando conectores básicos (*and, but, because, so*). Tu discurso suena más fluido y natural: *"I like my job because it is interesting, but yesterday I was very tired."*
 
 ---
@@ -60,9 +68,7 @@ Si sientes que te has estancado en las presentaciones básicas, aquí tienes el 
 
 ## 4. El Papel de Focus English en tu Progreso
 
-En nuestra plataforma, las rutas [**Inglés A1**](/blog/metodos/ingles-a1) e [**Inglés A2**](/blog/metodos/ingles-a2) están diseñadas para que la transición sea orgánica y sin frustraciones. Nuestra inteligencia artificial detecta en tiempo real cuándo dominas las estructuras del A1 y empieza a proponerte retos del A2 de forma progresiva.
 
-Nuestra IA evalúa no solo si conoces la palabra, sino si eres capaz de usar el pasado simple con la pronunciación correcta (especialmente la terminación *-ed* de los verbos regulares) y si eres capaz de conectar ideas sin pausas excesivas.
 
 [**¿Quieres saber en qué punto estás realmente? Regístrate en Focus English, realiza nuestro test de nivel y empieza tu camino hacia la fluidez hoy mismo.**](/cuenta/registro)
 

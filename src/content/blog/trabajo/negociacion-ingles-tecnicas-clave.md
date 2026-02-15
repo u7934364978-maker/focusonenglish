@@ -1,28 +1,42 @@
 ---
-title: "Negociación en Inglés: Estrategias y Frases Clave para el Éxito Comercial"
-date: "2026-01-30"
-author: "Focus English Team"
-excerpt: "Negociar en inglés requiere algo más que vocabulario: requiere sutileza, persuasión y conocimiento cultural. Descubre cómo cerrar acuerdos ganadores con nuestra guía completa."
-category: "trabajo"
-readTime: "14 min"
-image: "https://images.pexels.com/photos/3184325/pexels-photo-3184325.jpeg?auto=compress&cs=tinysrgb&w=1200"
-alt: "Dos profesionales estrechando la mano tras una exitosa negociación comercial"
-canonical: "https://www.focus-on-english.com/blog/trabajo/negociacion-ingles-tecnicas-clave"
+title: 'Negociación en Inglés: Estrategias y Frases Clave para el Éxito Comercial'
+date: '2026-01-30'
+author: Focus English Team
+excerpt: >-
+  Negociar en inglés requiere algo más que vocabulario: requiere sutileza,
+  persuasión y conocimiento cultural. Descubre cómo cerrar acuerdos ganadores
+  con nuestra guía completa.
+category: trabajo
+readTime: 14 min
+image: >-
+  https://images.pexels.com/photos/3184325/pexels-photo-3184325.jpeg?auto=compress&cs=tinysrgb&w=1200
+alt: Dos profesionales estrechando la mano tras una exitosa negociación comercial
+canonical: >-
+  https://www.focus-on-english.com/blog/trabajo/negociacion-ingles-tecnicas-clave
 keywords:
-  - "clases de inglés"
-  - "negociación en inglés"
-  - "inglés para ejecutivos"
-  - "cerrar acuerdos inglés"
-  - "business english negotiation"
-  - "frases persuasión inglés"
-  - "softeners inglés negocios"
+  - clases de inglés
+  - negociación en inglés
+  - inglés para ejecutivos
+  - cerrar acuerdos inglés
+  - business english negotiation
+  - frases persuasión inglés
+  - softeners inglés negocios
 faqs:
-  - question: "¿Cómo puedo sonar firme pero educado en una negociación?"
-    answer: "Usa verbos modales y estructuras condicionales. En lugar de decir 'I want a discount', di 'We would be looking for a more competitive price if we increase the volume'."
-  - question: "¿Qué importancia tiene el silencio en una negociación internacional?"
-    answer: "Muchísima. En las culturas anglosajonas, el silencio después de una propuesta presiona a la otra parte a hablar. Manejar la incomodidad del silencio es una habilidad que practicamos en nuestras clases de inglés."
-  - question: "¿Cómo rechazo una oferta sin ofender al socio comercial?"
-    answer: "Usa la técnica del 'Sandwich': algo positivo, el rechazo suavizado y una alternativa. 'I appreciate your offer, however, it's above our budget; perhaps we could adjust the delivery terms instead?'."
+  - question: ¿Cómo puedo sonar firme pero educado en una negociación?
+    answer: >-
+      Usa verbos modales y estructuras condicionales. En lugar de decir 'I want
+      a discount', di 'We would be looking for a more competitive price if we
+      increase the volume'.
+  - question: ¿Qué importancia tiene el silencio en una negociación internacional?
+    answer: >-
+      Muchísima. En las culturas anglosajonas, el silencio después de una
+      propuesta presiona a la otra parte a hablar. Manejar la incomodidad del
+      silencio es una habilidad que practicamos en nuestras clases de inglés.
+  - question: ¿Cómo rechazo una oferta sin ofender al socio comercial?
+    answer: >-
+      Usa la técnica del 'Sandwich': algo positivo, el rechazo suavizado y una
+      alternativa. 'I appreciate your offer, however, it's above our budget;
+      perhaps we could adjust the delivery terms instead?'.
 ---
 
 ## El Arte de la Negociación en un Mundo Globalizado
@@ -99,7 +113,6 @@ Este paso no solo demuestra profesionalismo, sino que también sirve como una pr
 En **Focus English**, no nos limitamos a enseñarte verbos. Nuestras **[clases de inglés de negocios](/blog/trabajo/vocabulario-negocios-ingles-profesional)** son laboratorios de persuasión.
 - Realizamos juegos de rol (Role-playing) basados en situaciones reales de tu industria.
 - Trabajamos en tu entonación para que tus propuestas suenen convincentes, no dubitativas.
-- Te enseñamos a usar el lenguaje para liderar la conversación y llevarla hacia tus objetivos.
 
 No permitas que una barrera lingüística te haga aceptar términos desfavorables. Toma el control de tus acuerdos internacionales.
 

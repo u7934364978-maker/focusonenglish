@@ -1,12 +1,25 @@
 ---
-category: "metodos"
-date: "2026-02-07"
-author: "Focus English"
-title: "Nivel de Inglés C2: La Guía Maestra para alcanzar la Excelencia Total"
-description: "Alcanza la maestría total del idioma inglés (CPE). Descubre qué significa el nivel C2, cómo prepararte para el Proficiency de Cambridge y cómo dominar el registro culto y profesional."
-keywords: ["curso ingles c2", "ingles proficiency", "preparacion cpe cambridge", "maestria ingles online", "focus english c2", "nivel c2 ingles que es", "diferencia c1 y c2 ingles"]
-canonical: "https://www.focus-on-english.com/blog/metodos/ingles-c2"
-related_routes: ["ingles-c1", "trucos-writing-c1-advanced", "mejores-certificados-ingles-2026"]
+category: metodos
+date: '2026-02-07'
+author: Focus English
+title: 'Nivel de Inglés C2: La Guía Maestra para alcanzar la Excelencia Total'
+description: >-
+  Alcanza la maestría total del idioma inglés (CPE). Descubre qué significa el
+  nivel C2, cómo prepararte para el Proficiency de Cambridge y cómo dominar el
+  registro culto y profesional.
+keywords:
+  - curso ingles c2
+  - ingles proficiency
+  - preparacion cpe cambridge
+  - maestria ingles online
+  - focus english c2
+  - nivel c2 ingles que es
+  - diferencia c1 y c2 ingles
+canonical: 'https://www.focus-on-english.com/blog/metodos/ingles-c2'
+related_routes:
+  - ingles-c1
+  - trucos-writing-c1-advanced
+  - mejores-certificados-ingles-2026
 ---
 
 El **Nivel C2 (Mastery)** representa la cumbre de la competencia lingüística según el Marco Común Europeo de Referencia (MCER). En 2026, poseer un certificado C2 no es simplemente "saber mucho inglés"; es demostrar que puedes usar el idioma con la misma precisión, riqueza y agilidad que un hablante nativo con una formación académica superior. 
@@ -40,18 +53,6 @@ A nivel C2, el objetivo es eliminar cualquier rastro de "extranjerismo". Esto se
 *   **Colocaciones Avanzadas**: No dices simplemente "it's very cold", dices "it's bitingly cold". No dices "a big problem", sino "a daunting challenge".
 *   **Cultural Idioms**: Comprensión de modismos basados en la historia o la cultura popular anglosajona que permiten conectar a un nivel más profundo.
 *   **Flexibilidad de Registro**: Capacidad de pasar de un informe técnico formal a una charla de bar con slang actual de manera impecable y adecuada.
-
----
-
-## 4. El Reto del Writing y el Speaking en el C2
-
-La producción en el nivel de maestría requiere un nivel de detalle que roza la perfección:
-
-### Writing de Alto Nivel
-Un usuario C2 debe ser capaz de redactar ensayos persuasivos, críticas literarias y reportes técnicos complejos. La clave aquí es la **cohesión y coherencia**. Se espera un uso magistral de conectores sofisticados (*notwithstanding, albeit, hitherto*) y una estructura que guíe al lector a través de argumentos complejos con elegancia.
-
-### Speaking Elocuente
-No se trata solo de hablar rápido. Se trata de **elocuencia**. Un C2 puede dar un discurso en un foro internacional o liderar una negociación de alto nivel detectando vacilaciones en la voz del oponente y respondiendo con precisión quirúrgica.
 
 ---
 

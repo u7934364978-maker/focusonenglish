@@ -1,28 +1,41 @@
 ---
-title: "Networking en Inglés: Guía para Conectar con Éxito en Eventos Internacionales"
-date: "2026-01-30"
-author: "Focus English Team"
-excerpt: "¿Te dan miedo las pausas incómodas en los eventos de networking? Domina el 'small talk', prepara tu elevator pitch y crea conexiones profesionales valiosas en inglés."
-category: "trabajo"
-readTime: "12 min"
-image: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=1200"
-alt: "Grupo de profesionales haciendo networking en un evento internacional corporativo"
-canonical: "https://www.focus-on-english.com/blog/trabajo/ingles-networking-eventos-internacionales"
+title: 'Networking en Inglés: Guía para Conectar con Éxito en Eventos Internacionales'
+date: '2026-01-30'
+author: Focus English Team
+excerpt: >-
+  ¿Te dan miedo las pausas incómodas en los eventos de networking? Domina el
+  'small talk', prepara tu elevator pitch y crea conexiones profesionales
+  valiosas en inglés.
+category: trabajo
+readTime: 12 min
+image: >-
+  https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=1200
+alt: >-
+  Grupo de profesionales haciendo networking en un evento internacional
+  corporativo
+canonical: >-
+  https://www.focus-on-english.com/blog/trabajo/ingles-networking-eventos-internacionales
 keywords:
-  - "clases de inglés"
-  - "networking en inglés"
-  - "small talk inglés"
-  - "eventos profesionales internacionales"
-  - "elevator pitch inglés"
-  - "inglés para negocios"
-  - "frases networking inglés"
+  - clases de inglés
+  - networking en inglés
+  - small talk inglés
+  - eventos profesionales internacionales
+  - elevator pitch inglés
+  - inglés para negocios
+  - frases networking inglés
 faqs:
-  - question: "¿De qué puedo hablar en el 'small talk'?"
-    answer: "El tiempo, el evento en sí, el viaje o la ciudad son temas seguros y amigables. Evita temas polémicos como política o religión."
-  - question: "¿Cómo me presento de forma rápida y efectiva?"
-    answer: "Prepara un 'Elevator Pitch' de 30 segundos: quién eres, qué problema resuelves y qué buscas en el evento."
-  - question: "¿Cómo puedo terminar una conversación de forma educada?"
-    answer: "Usa frases de cierre natural como: 'It was a pleasure meeting you. I'm going to circulate a bit more, but let's connect on LinkedIn'."
+  - question: ¿De qué puedo hablar en el 'small talk'?
+    answer: >-
+      El tiempo, el evento en sí, el viaje o la ciudad son temas seguros y
+      amigables. Evita temas polémicos como política o religión.
+  - question: ¿Cómo me presento de forma rápida y efectiva?
+    answer: >-
+      Prepara un 'Elevator Pitch' de 30 segundos: quién eres, qué problema
+      resuelves y qué buscas en el evento.
+  - question: ¿Cómo puedo terminar una conversación de forma educada?
+    answer: >-
+      Usa frases de cierre natural como: 'It was a pleasure meeting you. I'm
+      going to circulate a bit more, but let's connect on LinkedIn'.
 ---
 
 ## Conecta y Crece Profesionalmente: El Poder del Networking
@@ -49,23 +62,6 @@ No necesitas frases complejas, sino preguntas abiertas que inviten al otro a com
 
 ---
 
-## 🚀 Cómo Entrar y Salir de un Círculo de Conversación
-
-Uno de los mayores retos en el networking físico es saber cuándo un grupo está abierto a nuevos integrantes.
-
-### La Teoría del Círculo Abierto
-Observa los pies de las personas que hablan. Si forman un círculo cerrado, están en una conversación privada. Si los pies forman una "V" o hay espacio físico, es un **círculo abierto**.
-*   **Para entrar:** Acércate, espera una pausa mínima y di: *"Hi, do you mind if I join you? This conversation sounds very interesting."*
-*   **Para presentar a alguien:** *"John, have you met Sarah? She's also working on AI implementation in logistics."*
-
-### La Estrategia de Salida (The Exit Strategy)
-No te quedes atrapado en una conversación por cortesía si ya no hay flujo. Salir de forma elegante es una habilidad de alto nivel en **[inglés para el trabajo](/blog/trabajo/ingles-para-trabajo)**:
-*   *"It's been a pleasure chatting with you, but I don't want to take up all your time. I'm going to grab a coffee/circulate a bit more."*
-*   *"I've just spotted a colleague I need to catch up with. Let's exchange contacts before I head off."*
-*   *"I'm really looking forward to the next workshop, so I should probably find a seat. Let's connect on LinkedIn!"*
-
----
-
 ## 💻 Networking en la Era Digital e Híbrida
 
 En 2026, el networking no termina cuando sales del recinto del evento. Las fronteras entre lo físico y lo digital se han difuminado.
@@ -78,7 +74,6 @@ En 2026, el networking no termina cuando sales del recinto del evento. Las front
 ## 🌍 Contexto Cultural: Lo que no se dice
 
 En un evento internacional, el inglés es solo una parte de la ecuación. La inteligencia cultural (CQ) es lo que realmente cierra tratos.
-*   **Active Listening:** Usa "continuers" para mostrar que escuchas: *"Right"*, *"Exactly"*, *"That makes sense"*, *"I see where you're coming from"*.
 *   **Espacio Personal:** Recuerda que los estándares de proximidad física varían. Ante la duda, mantén una distancia de cortesía de aproximadamente un metro.
 
 ---

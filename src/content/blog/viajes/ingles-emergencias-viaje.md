@@ -1,17 +1,27 @@
 ---
-category: "viajes"
-date: "2026-02-07"
-author: "Focus English"
-title: "Emergencias en Inglés: Frases de Auxilio y Seguridad"
-description: "Guía de supervivencia para emergencias en inglés. Aprende frases clave de auxilio, cómo pedir ayuda médica y consejos de seguridad esenciales para tus viajes."
-keywords: ["emergencias en inglés", "frases de auxilio inglés", "seguridad en viajes inglés", "vocabulario médico básico inglés", "pedir ayuda en inglés"]
-canonical: "https://www.focus-on-english.com/blog/viajes/ingles-emergencias-viaje"
-related_routes: ["ingles-para-viajar-guia", "ingles-hoteles-guia"]
+category: viajes
+date: '2026-02-07'
+author: Focus English
+title: 'Emergencias en Inglés: Frases de Auxilio y Seguridad'
+description: >-
+  Guía de supervivencia para emergencias en inglés. Aprende frases clave de
+  auxilio, cómo pedir ayuda médica y consejos de seguridad esenciales para tus
+  viajes.
+keywords:
+  - emergencias en inglés
+  - frases de auxilio inglés
+  - seguridad en viajes inglés
+  - vocabulario médico básico inglés
+  - pedir ayuda en inglés
+canonical: 'https://www.focus-on-english.com/blog/viajes/ingles-emergencias-viaje'
+related_routes:
+  - ingles-para-viajar-guia
+  - ingles-hoteles-guia
 ---
 
 # Emergencias en Inglés: Guía de Supervivencia y Seguridad
 
-Nadie quiere pensar en imprevistos negativos durante un viaje soñado, pero estar preparado para lo peor es la mejor manera de disfrutar de lo mejor. Conocer las **[emergencias en inglés](/blog/viajes/ingles-emergencias-viaje)** más comunes y saber cómo reaccionar bajo presión puede marcar la diferencia entre un susto pasajero y una situación crítica.
+Nadie quiere pensar en imprevistos negativos durante un viaje soñado, pero estar preparado para lo peor es la mejor manera de disfrutar de lo mejor. Conocer las **emergencias en inglés** más comunes y saber cómo reaccionar bajo presión puede marcar la diferencia entre un susto pasajero y una situación crítica.
 
 En esta guía exhaustiva, cubriremos no solo el vocabulario básico, sino también los protocolos y frases específicas que te permitirán comunicarte con claridad con la policía, servicios médicos y autoridades consulares en cualquier país de habla inglesa.
 
@@ -19,7 +29,7 @@ Para más recursos de seguridad, visita nuestro **[hub de inglés para viajar](/
 
 ## 1. Frases de Auxilio en Inglés: Lo más Urgente
 
-Cuando ocurre algo grave, no hay tiempo para gramática compleja. Necesitas ser directo, ruidoso y claro. Estas son las **[frases de auxilio en inglés](/blog/viajes/ingles-emergencias-viaje)** que debes tener grabadas en tu memoria:
+Cuando ocurre algo grave, no hay tiempo para gramática compleja. Necesitas ser directo, ruidoso y claro. Estas son las **frases de auxilio en inglés** que debes tener grabadas en tu memoria:
 
 *   **"Help! Call an ambulance!"** (¡Ayuda! ¡Llamen a una ambulancia!)
 *   **"I need a doctor immediately."** (Necesito un médico inmediatamente.)
@@ -49,7 +59,7 @@ Si te sientes mal, has tenido un accidente o estás presenciando uno, los param�
 
 ## 3. Pérdidas y Robos: Manteniendo la Seguridad en Viajes Inglés
 
-Ser víctima de un delito en el extranjero es estresante. Para realizar la denuncia correctamente y proteger tu **[seguridad en viajes inglés](/blog/viajes/ingles-emergencias-viaje)**, usa estas estructuras:
+Ser víctima de un delito en el extranjero es estresante. Para realizar la denuncia correctamente y proteger tu **seguridad en viajes inglés**, usa estas estructuras:
 
 ### Denunciando un Robo
 *   **"I’ve been robbed. My bag was stolen."** (He sido robado. Mi bolso fue robado.)

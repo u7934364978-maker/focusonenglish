@@ -1,12 +1,24 @@
 ---
-title: "Phrasal Verbs B2: Lista Definitiva y Guía de Uso"
-description: "Domina los phrasal verbs de nivel B2 para el First Certificate (FCE). Incluye lista completa de más de 150 phrasal verbs, ejemplos y trucos de memorización."
-excerpt: "Domina los phrasal verbs de nivel B2 para el First Certificate (FCE). Aprende los verbos más usados y trucos para memorizarlos sin esfuerzo con nuestra lista completa."
-keywords: ["phrasal verbs b2", "lista phrasal verbs", "phrasal verbs with take", "phrasal verbs mas usados", "gramatica b2", "ejercicios de verbos en ingles", "aprender vocabulario ingles"]
-author: "Equipo Focus English"
-date: "2026-02-06"
-image: "https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg"
-category: "gramatica"
+title: 'Phrasal Verbs B2: Lista Definitiva y Guía de Uso'
+description: >-
+  Domina los phrasal verbs de nivel B2 para el First Certificate (FCE). Incluye
+  lista completa de más de 150 phrasal verbs, ejemplos y trucos de memorización.
+excerpt: >-
+  Domina los phrasal verbs de nivel B2 para el First Certificate (FCE). Aprende
+  los verbos más usados y trucos para memorizarlos sin esfuerzo con nuestra
+  lista completa.
+keywords:
+  - phrasal verbs b2
+  - lista phrasal verbs
+  - phrasal verbs with take
+  - phrasal verbs mas usados
+  - gramatica b2
+  - ejercicios de verbos en ingles
+  - aprender vocabulario ingles
+author: Equipo Focus English
+date: '2026-02-06'
+image: 'https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg'
+category: gramatica
 ---
 
 Los **phrasal verbs** son el "talón de Aquiles" de muchos estudiantes que preparan el nivel B2. Sin embargo, en el nivel **Intermedio-Alto (B2 First)**, dejar de usarlos no es una opción si quieres sonar natural y aprobar el *Use of English* del First Certificate (FCE).
@@ -187,4 +199,3 @@ Existen miles, pero para un nivel B2, dominar entre **150 y 200** de los más co
 En el nivel B2, se recomienda usar phrasal verbs más formales en el Writing (*carry out*, *point out*, *look into*) y dejar los más coloquiales (*hang out*, *chill out*) para el Speaking o el Informal Letter/Email.
 
 ### ¿Cómo puedo practicar estos verbos gratis?
-En **Focus English** tenemos herramientas de IA diseñadas específicamente para que practiques estos verbos en contextos reales. [Regístrate gratis](/cuenta/registro) y empieza a mejorar hoy mismo.

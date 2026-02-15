@@ -1,12 +1,22 @@
 ---
-title: "Vocabulario de Negocios en Inglés para Profesionales"
-description: "Mejora tu carrera con el mejor vocabulario de negocios en inglés. Frases para reuniones, emails, negociaciones y lista imprimible de términos esenciales."
-excerpt: "Domina el inglés profesional. Aprende más de 100 frases y términos clave para reuniones, presentaciones y networking internacional con nuestra guía completa."
-keywords: ["vocabulario de negocios en ingles", "business english phrases", "ingles comercial gratis", "frases para reuniones en ingles", "vocabulario empresarial ingles"]
-author: "Equipo Focus English"
-date: "2026-02-06"
-image: "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg"
-category: "trabajo"
+title: Vocabulario de Negocios en Inglés para Profesionales
+description: >-
+  Mejora tu carrera con el mejor vocabulario de negocios en inglés. Frases para
+  reuniones, emails, negociaciones y lista imprimible de términos esenciales.
+excerpt: >-
+  Domina el inglés profesional. Aprende más de 100 frases y términos clave para
+  reuniones, presentaciones y networking internacional con nuestra guía
+  completa.
+keywords:
+  - vocabulario de negocios en ingles
+  - business english phrases
+  - ingles comercial gratis
+  - frases para reuniones en ingles
+  - vocabulario empresarial ingles
+author: Equipo Focus English
+date: '2026-02-06'
+image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg'
+category: trabajo
 ---
 
 En el mundo globalizado de hoy, el inglés no es solo un idioma, es la herramienta de trabajo más potente que puedes tener. Dominar el **vocabulario de negocios en inglés** (Business English) te abrirá puertas a mejores puestos, negociaciones internacionales y una comunicación más fluida con colegas de todo el mundo.
@@ -22,7 +32,6 @@ En las empresas tecnológicas, startups y multinacionales de 2026, se utilizan t
 *   **Deep dive**: Analizar un problema o dato con gran nivel de detalle. *"We need to do a deep dive into the Q3 metrics to understand the churn rate."*
 *   **Pivot**: Cambiar de estrategia o modelo de negocio de forma ágil ante un cambio de mercado. *"Due to new regulations, we must pivot our focus towards renewable energy."*
 *   **Scalable**: Capacidad de un proceso o sistema para manejar el crecimiento sin perder calidad o eficiencia. *"Is this software architecture truly scalable for a global rollout?"*
-*   **Disruptive**: Innovación que rompe con lo establecido, creando un nuevo mercado. *"Our AI solution is a disruptive technology in the traditional accounting sector."*
 *   **Bandwidth**: Capacidad mental, tiempo o recursos para asumir una nueva tarea. *"I'd love to help, but I don't have the bandwidth for another project this week."*
 *   **Low-hanging fruit**: Tareas o metas fáciles de alcanzar que ofrecen resultados inmediatos. *"Let's focus on the low-hanging fruit first to show some quick wins to the board."*
 
@@ -53,7 +62,6 @@ En una mesa de negociación, la precisión léxica es tu mejor defensa. No solo 
 Si gestionas personas o estás en un proceso de selección, estas frases te ayudarán a definir perfiles y culturas de trabajo.
 
 *   **Onboarding**: El proceso de integración de un nuevo empleado. *"Our onboarding process takes three days and covers all company policies."*
-*   **Upskilling / Reskilling**: Mejorar las habilidades actuales de un trabajador o enseñarle habilidades totalmente nuevas. *"Upskilling our staff in AI tools is our top priority for 2026."*
 *   **Soft skills**: Habilidades interpersonales (empatía, liderazgo, comunicación). *"We value soft skills just as much as technical expertise."*
 *   **Work-life balance**: Equilibrio entre la vida profesional y personal. *"Focus English promotes a healthy work-life balance through flexible remote work."*
 *   **Performance review**: Evaluación periódica del desempeño de un empleado. *"Your annual performance review is scheduled for next Tuesday."*

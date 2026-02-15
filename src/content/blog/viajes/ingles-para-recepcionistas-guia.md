@@ -1,36 +1,55 @@
 ---
-title: "Inglés para Recepcionistas: La Guía Definitiva para una Atención de 5 Estrellas"
-date: "2026-02-06"
-author: "Focus English Team"
-excerpt: "Domina el inglés para recepcionistas de hotel. Aprende a gestionar reservas, check-ins, reclamaciones y peticiones de huéspedes con elegancia y profesionalidad."
-category: "viajes"
-readTime: "15 min"
-image: "https://images.pexels.com/photos/70441/pexels-photo-70441.jpeg?auto=compress&cs=tinysrgb&w=1200"
-alt: "Recepcionista de hotel profesional atendiendo una llamada y sonriendo"
+title: >-
+  Inglés para Recepcionistas: La Guía Definitiva para una Atención de 5
+  Estrellas
+date: '2026-02-06'
+author: Focus English Team
+excerpt: >-
+  Domina el inglés para recepcionistas de hotel. Aprende a gestionar reservas,
+  check-ins, reclamaciones y peticiones de huéspedes con elegancia y
+  profesionalidad.
+category: viajes
+readTime: 15 min
+image: >-
+  https://images.pexels.com/photos/70441/pexels-photo-70441.jpeg?auto=compress&cs=tinysrgb&w=1200
+alt: Recepcionista de hotel profesional atendiendo una llamada y sonriendo
 keywords:
-  - "inglés para recepcionistas"
-  - "inglés para hoteles"
-  - "frases recepción inglés"
-  - "atención al cliente inglés"
-  - "vocabulario hotelero inglés"
-  - "check-in inglés hotel"
-  - "gestión de reclamaciones hotel inglés"
+  - inglés para recepcionistas
+  - inglés para hoteles
+  - frases recepción inglés
+  - atención al cliente inglés
+  - vocabulario hotelero inglés
+  - check-in inglés hotel
+  - gestión de reclamaciones hotel inglés
 faqs:
-  - question: "¿Cómo pido el pasaporte de forma educada?"
-    answer: "Usa: 'Could I have your passport and credit card for registration, please?'"
-  - question: "¿Cómo informo sobre el horario del desayuno?"
-    answer: "Usa: 'Breakfast is served in the main restaurant on the first floor from 7:00 AM to 10:30 AM.'"
-  - question: "¿Qué hago si la habitación no está lista?"
-    answer: "Usa: 'I'm afraid your room isn't quite ready yet as our standard check-in is at 2 PM. However, we can store your luggage in our secure cloakroom and notify you as soon as it's prepared.'"
-  - question: "¿Cómo doy direcciones dentro del hotel?"
-    answer: "Usa: 'The elevators are just around the corner to your left' o 'The wellness area is located on the basement level, accessible via the main stairs.'"
-  - question: "¿Cómo manejo una queja por ruido?"
-    answer: "Usa: 'I am very sorry to hear that. I will look into it immediately and, if necessary, I can offer you a room change to a quieter area of the hotel.'"
+  - question: ¿Cómo pido el pasaporte de forma educada?
+    answer: >-
+      Usa: 'Could I have your passport and credit card for registration,
+      please?'
+  - question: ¿Cómo informo sobre el horario del desayuno?
+    answer: >-
+      Usa: 'Breakfast is served in the main restaurant on the first floor from
+      7:00 AM to 10:30 AM.'
+  - question: ¿Qué hago si la habitación no está lista?
+    answer: >-
+      Usa: 'I'm afraid your room isn't quite ready yet as our standard check-in
+      is at 2 PM. However, we can store your luggage in our secure cloakroom and
+      notify you as soon as it's prepared.'
+  - question: ¿Cómo doy direcciones dentro del hotel?
+    answer: >-
+      Usa: 'The elevators are just around the corner to your left' o 'The
+      wellness area is located on the basement level, accessible via the main
+      stairs.'
+  - question: ¿Cómo manejo una queja por ruido?
+    answer: >-
+      Usa: 'I am very sorry to hear that. I will look into it immediately and,
+      if necessary, I can offer you a room change to a quieter area of the
+      hotel.'
 ---
 
 # Inglés para Recepcionistas: La Guía Definitiva para una Atención de 5 Estrellas
 
-Como recepcionista, eres mucho más que un empleado; eres el "corazón" del hotel y el primer punto de contacto real para cualquier viajero. Tu capacidad para comunicarte con fluidez y cortesía en inglés no solo determina la satisfacción inmediata del huésped, sino que también influye en la reputación global del establecimiento. En esta guía avanzada de **[inglés para recepcionistas](/blog/viajes/ingles-para-recepcionistas-guia)**, exploraremos todos los escenarios posibles, desde la bienvenida hasta la resolución de conflictos complejos.
+Como recepcionista, eres mucho más que un empleado; eres el "corazón" del hotel y el primer punto de contacto real para cualquier viajero. Tu capacidad para comunicarte con fluidez y cortesía en inglés no solo determina la satisfacción inmediata del huésped, sino que también influye en la reputación global del establecimiento. En esta guía avanzada de **inglés para recepcionistas**, exploraremos todos los escenarios posibles, desde la bienvenida hasta la resolución de conflictos complejos.
 
 ---
 
@@ -96,7 +115,6 @@ Resolver un problema con éxito puede convertir a un cliente insatisfecho en un 
 
 El teléfono es el medio donde más fallos de comunicación ocurren por la falta de lenguaje corporal.
 
-- **Saludo Corporativo:** *"Good afternoon, [Hotel Name], Maria speaking. How may I assist you today?"*
 - **Poner en espera:** *"Could you hold for a moment while I check our availability, please?"*
 - **Confirmar detalles:** *"Just to confirm, that is a double room for two nights, arriving on the 14th of March. Is that correct?"*
 - **Transferir llamadas:** *"One moment, I'll put you through to the reservations department."*
@@ -136,6 +154,5 @@ El check-out es la última oportunidad para causar una buena impresión y pedir 
 
 ## Especialízate en Focus English
 
-Si quieres destacar en el sector turístico internacional, dominar estas frases es solo el principio. En **Focus English**, ofrecemos rutas específicas de [inglés para atención al cliente](/blog/trabajo/ingles-para-atencion-al-cliente) donde podrás practicar estas situaciones con nuestra IA avanzada, recibiendo correcciones al instante.
 
 [👉 Regístrate ahora y transforma tu carrera profesional](/cuenta/registro?plan=viajes)

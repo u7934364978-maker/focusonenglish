@@ -1,30 +1,49 @@
 ---
-title: "Cultura y Etiqueta: Guía Maestra para tus Viajes por Países Anglosajones"
-date: "2026-01-30"
-author: "Focus English Team"
-excerpt: "Hablar inglés es solo la mitad del camino. Entender las normas sociales en países anglosajones te abrirá muchas más puertas. Descubre los secretos de la etiqueta internacional."
-category: "viajes"
-readTime: "15 min"
-image: "https://images.pexels.com/photos/1450340/pexels-photo-1450340.jpeg?auto=compress&cs=tinysrgb&w=1200"
-alt: "Vista icónica del Big Ben y el Parlamento en Londres representando la cultura británica"
-canonical: "https://www.focus-on-english.com/blog/viajes/cultura-y-etiqueta-paises-anglosajones"
+title: 'Cultura y Etiqueta: Guía Maestra para tus Viajes por Países Anglosajones'
+date: '2026-01-30'
+author: Focus English Team
+excerpt: >-
+  Hablar inglés es solo la mitad del camino. Entender las normas sociales en
+  países anglosajones te abrirá muchas más puertas. Descubre los secretos de la
+  etiqueta internacional.
+category: viajes
+readTime: 15 min
+image: >-
+  https://images.pexels.com/photos/1450340/pexels-photo-1450340.jpeg?auto=compress&cs=tinysrgb&w=1200
+alt: >-
+  Vista icónica del Big Ben y el Parlamento en Londres representando la cultura
+  británica
+canonical: >-
+  https://www.focus-on-english.com/blog/viajes/cultura-y-etiqueta-paises-anglosajones
 keywords:
-  - "clases de inglés"
-  - "cultura anglosajona"
-  - "etiqueta en viajes"
-  - "costumbres reino unido estados unidos"
-  - "normas sociales ingles"
-  - "choque cultural ingles"
-  - "protocolo internacional"
+  - clases de inglés
+  - cultura anglosajona
+  - etiqueta en viajes
+  - costumbres reino unido estados unidos
+  - normas sociales ingles
+  - choque cultural ingles
+  - protocolo internacional
 faqs:
-  - question: "¿Por qué los británicos dicen tanto 'sorry'?"
-    answer: "En la cultura británica, 'sorry' se usa a menudo como una forma de cortesía general o para suavizar una petición, no solo para pedir perdón. Es un mecanismo de armonía social."
-  - question: "¿Cuánto debo dejar de propina en EE. UU.?"
-    answer: "Lo normal en restaurantes es entre un 18% y un 25%. En 2026, los terminales de pago suelen sugerir estas opciones. No dejar propina se considera una ofensa al trabajador."
-  - question: "¿Es importante el 'small talk'?"
-    answer: "Es fundamental. En países como EE. UU., Canadá o Australia, saltarse el 'small talk' y entrar directo en materia puede percibirse como agresivo o maleducado."
-  - question: "¿Qué temas debo evitar en una conversación casual?"
-    answer: "Por norma general, evita hablar de política, religión o dinero (salarios, costes de casas) hasta que tengas una relación muy estrecha con la persona."
+  - question: ¿Por qué los británicos dicen tanto 'sorry'?
+    answer: >-
+      En la cultura británica, 'sorry' se usa a menudo como una forma de
+      cortesía general o para suavizar una petición, no solo para pedir perdón.
+      Es un mecanismo de armonía social.
+  - question: ¿Cuánto debo dejar de propina en EE. UU.?
+    answer: >-
+      Lo normal en restaurantes es entre un 18% y un 25%. En 2026, los
+      terminales de pago suelen sugerir estas opciones. No dejar propina se
+      considera una ofensa al trabajador.
+  - question: ¿Es importante el 'small talk'?
+    answer: >-
+      Es fundamental. En países como EE. UU., Canadá o Australia, saltarse el
+      'small talk' y entrar directo en materia puede percibirse como agresivo o
+      maleducado.
+  - question: ¿Qué temas debo evitar en una conversación casual?
+    answer: >-
+      Por norma general, evita hablar de política, religión o dinero (salarios,
+      costes de casas) hasta que tengas una relación muy estrecha con la
+      persona.
 ---
 
 ## El Idioma es Cultura: Por qué las palabras no bastan
@@ -80,7 +99,6 @@ Para evitar el "choque cultural", usa estas herramientas que habrás practicado 
 
 *   **Pregunta siempre:** Ante la duda, la humildad es tu mejor arma. *"I'm not sure how this works here, could you help me?"*.
 *   **Observa y mimetiza:** Mira cómo se comportan los locales en una cafetería o en una reunión.
-*   **Domina el 'Small Talk':** No subestimes hablar sobre el tiempo (*"Lovely day, isn't it?"*) o sobre el evento en el que estás. Es el lubricante necesario antes de cualquier transacción o conversación seria.
 
 ## 🎓 Aprende con Contexto Real en Focus English
 

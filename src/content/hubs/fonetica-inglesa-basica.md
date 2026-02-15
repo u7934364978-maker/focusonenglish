@@ -1,6 +1,8 @@
 ---
-title: "Fonética Inglesa Básica: El Alfabeto del Sonido"
-description: "Aprende los símbolos del API (IPA) para mejorar tu pronunciación en inglés de forma científica y definitiva."
+title: 'Fonética Inglesa Básica: El Alfabeto del Sonido'
+description: >-
+  Aprende los símbolos del API (IPA) para mejorar tu pronunciación en inglés de
+  forma científica y definitiva.
 ---
 
 # Fonética Inglesa Básica: Decodificando los Sonidos del Inglés
@@ -93,9 +95,7 @@ Ignorar el acento tónico es el error número uno que dificulta que los nativos 
 
 ---
 
-## 7. El Futuro de la Fonética: IA y Personalización
 
-En 2026, estamos viendo herramientas de IA que analizan tu voz y te dicen exactamente qué fonema estás pronunciando mal. *"Estás diciendo /i:/ en lugar de /ɪ/"*. Esta retroalimentación instantánea es la clave para una mejora acelerada.
 
 ## Conclusión
 

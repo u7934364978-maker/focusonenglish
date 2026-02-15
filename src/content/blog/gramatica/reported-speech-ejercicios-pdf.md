@@ -1,16 +1,24 @@
 ---
-category: "gramatica"
-date: "2026-02-08"
-author: "Focus English"
-title: "Reported Speech Ejercicios PDF: Practica y Descarga"
-description: "Descarga los mejores ejercicios de Reported Speech en PDF. Hojas de trabajo para niveles B1, B2, C1 y C2 con soluciones incluidas para practicar el estilo indirecto."
-keywords: ["reporting verbs exercises pdf","reported speech c1 exercises pdf","ejercicios reported speech pdf","reporting verbs exercises with answers pdf","reported speech questions pdf"]
-canonical: "https://www.focus-on-english.com/blog/gramatica/reported-speech-ejercicios-pdf"
+category: gramatica
+date: '2026-02-08'
+author: Focus English
+title: 'Reported Speech Ejercicios PDF: Practica y Descarga'
+description: >-
+  Descarga los mejores ejercicios de Reported Speech en PDF. Hojas de trabajo
+  para niveles B1, B2, C1 y C2 con soluciones incluidas para practicar el estilo
+  indirecto.
+keywords:
+  - reporting verbs exercises pdf
+  - reported speech c1 exercises pdf
+  - ejercicios reported speech pdf
+  - reporting verbs exercises with answers pdf
+  - reported speech questions pdf
+canonical: 'https://www.focus-on-english.com/blog/gramatica/reported-speech-ejercicios-pdf'
 ---
 
 # Reported Speech Ejercicios PDF: Practica y Descarga
 
-Dominar el **Reported Speech** (o estilo indirecto) es uno de los mayores hitos en el aprendizaje del inglés. No basta con conocer las reglas teóricas sobre el cambio de tiempos verbales; la clave reside en la automatización de esas reglas a través de la práctica constante. En el **[estilo indirecto en inglés](/blog/gramatica/reported-speech-ejercicios-pdf)**, cada detalle cuenta: desde el tiempo verbal hasta los adverbios de tiempo y lugar.
+Dominar el **Reported Speech** (o estilo indirecto) es uno de los mayores hitos en el aprendizaje del inglés. No basta con conocer las reglas teóricas sobre el cambio de tiempos verbales; la clave reside en la automatización de esas reglas a través de la práctica constante. En el **estilo indirecto en inglés**, cada detalle cuenta: desde el tiempo verbal hasta los adverbios de tiempo y lugar.
 
 En esta guía, no solo te ofrecemos una serie de recursos y ejercicios descargables en PDF, sino que te enseñamos cómo utilizarlos de manera efectiva para que dejes de cometer los errores típicos que restan puntos en los exámenes oficiales de Cambridge, IELTS o TOEFL.
 
@@ -20,7 +28,7 @@ Hoy en día tenemos multitud de aplicaciones y herramientas interactivas, pero e
 *   **Concentración**: Al imprimir un ejercicio, eliminas las distracciones del móvil o el ordenador, permitiendo un enfoque profundo en las estructuras gramaticales.
 *   **Escritura manual**: Escribir las oraciones a mano ayuda a fijar las estructuras del Reported Speech en la memoria a largo plazo de forma mucho más efectiva que teclear.
 *   **Simulación de examen**: La mayoría de los exámenes internacionales de certificación aún se realizan en papel o requieren una producción escrita manual similar.
-*   **Portabilidad**: Puedes estudiar y practicar tus **[reporting verbs exercises PDF](/blog/gramatica/reported-speech-ejercicios-pdf)** en cualquier lugar, sin depender de la conexión a internet.
+*   **Portabilidad**: Puedes estudiar y practicar tus **reporting verbs exercises PDF** en cualquier lugar, sin depender de la conexión a internet.
 
 ## 2. Ejercicios por Niveles: Encuentra tu Reto
 
@@ -66,8 +74,6 @@ Para que estos ejercicios de Reported Speech realmente surtan efecto, te recomen
 
 Aunque los PDFs son excelentes, a veces necesitas un feedback instantáneo para progresar más rápido. En **Focus English**, hemos desarrollado la herramienta definitiva para dominar la gramática:
 
-*   **IA de Corrección Gramatical**: Escribe tus ejercicios de estilo indirecto en nuestra plataforma y nuestra IA analizará tu respuesta, explicando no solo el error sino la regla gramatical que lo sustenta.
-*   **Simulaciones de Conversación**: Practica cómo contar lo que te ha dicho un amigo o un jefe en una conversación real con nuestro tutor virtual.
 *   **Exámenes Interactivos de Nivel**: Pon a prueba tus conocimientos con tests que se adaptan a tu nivel y te preparan para las certificaciones oficiales.
 *   **Comunidad de Estudiantes**: Comparte tus dudas y aprende de los errores más comunes de otros estudiantes en nuestros foros especializados.
 

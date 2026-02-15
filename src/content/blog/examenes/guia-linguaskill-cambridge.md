@@ -1,19 +1,36 @@
 ---
-title: "Linguaskill de Cambridge: Guía para prepararlo con éxito"
-description: "Descubre todo sobre Linguaskill de Cambridge: el examen multinivel rápido y preciso. Conoce su estructura, ventajas y cómo obtener tu certificado en 48 horas."
-excerpt: "¿Necesitas un certificado de inglés rápido? Linguaskill de Cambridge es la solución. Te explicamos cómo funciona este test multinivel por ordenador y cómo prepararlo."
-keywords: ["linguaskill", "linguaskill cambridge", "linguaskill english live", "examen multinivel ingles", "certificacion rapida ingles"]
-date: "2024-02-04"
-category: "examenes"
-author: "Focus English"
-image: "https://images.pexels.com/photos/5905709/pexels-photo-5905709.jpeg"
+title: 'Linguaskill de Cambridge: Guía para prepararlo con éxito'
+description: >-
+  Descubre todo sobre Linguaskill de Cambridge: el examen multinivel rápido y
+  preciso. Conoce su estructura, ventajas y cómo obtener tu certificado en 48
+  horas.
+excerpt: >-
+  ¿Necesitas un certificado de inglés rápido? Linguaskill de Cambridge es la
+  solución. Te explicamos cómo funciona este test multinivel por ordenador y
+  cómo prepararlo.
+keywords:
+  - linguaskill
+  - linguaskill cambridge
+  - linguaskill english live
+  - examen multinivel ingles
+  - certificacion rapida ingles
+date: '2024-02-04'
+category: examenes
+author: Focus English
+image: 'https://images.pexels.com/photos/5905709/pexels-photo-5905709.jpeg'
 faqs:
-  - question: "¿Qué niveles evalúa Linguaskill?"
-    answer: "Linguaskill evalúa todos los niveles desde el A1 hasta el C1 o superior, según el Marco Común Europeo de Referencia (MCER)."
-  - question: "¿Cuánto tardan los resultados de Linguaskill?"
-    answer: "Una de sus grandes ventajas es la rapidez: los resultados suelen estar disponibles en un plazo de 48 horas laborables."
-  - question: "¿Dónde puedo hacer el examen Linguaskill?"
-    answer: "Se puede realizar de forma presencial en centros autorizados o incluso desde casa con supervisión remota (proctoring)."
+  - question: ¿Qué niveles evalúa Linguaskill?
+    answer: >-
+      Linguaskill evalúa todos los niveles desde el A1 hasta el C1 o superior,
+      según el Marco Común Europeo de Referencia (MCER).
+  - question: ¿Cuánto tardan los resultados de Linguaskill?
+    answer: >-
+      Una de sus grandes ventajas es la rapidez: los resultados suelen estar
+      disponibles en un plazo de 48 horas laborables.
+  - question: ¿Dónde puedo hacer el examen Linguaskill?
+    answer: >-
+      Se puede realizar de forma presencial en centros autorizados o incluso
+      desde casa con supervisión remota (proctoring).
 ---
 
 ## ¿Qué es Linguaskill de Cambridge?
@@ -22,11 +39,9 @@ faqs:
 
 Es una prueba modular y adaptativa realizada íntegramente por ordenador, ideal para universidades, empresas y personas que necesitan una certificación rápida y fiable.
 
-## ¿Cómo funciona el test adaptativo? La IA de Cambridge al detalle
 
 Lo más innovador de **Linguaskill Cambridge** es su tecnología adaptativa. A diferencia de un examen de papel donde todos los candidatos responden a las mismas preguntas, aquí el examen es único para ti.
 *   **Ahorro de tiempo:** Al no tener que pasar por preguntas que son demasiado fáciles o demasiado difíciles para ti, el examen es mucho más corto (puedes terminar en poco más de 2 horas).
-*   **Precisión quirúrgica:** El algoritmo es capaz de determinar si estás en un B2 sólido o si raspas el C1 analizando patrones de respuesta, no solo aciertos y errores.
 *   **Menos frustración:** Nunca te sentirás completamente perdido ante preguntas imposibles, ni aburrido con contenidos que ya dominas.
 
 ---
@@ -34,26 +49,6 @@ Lo más innovador de **Linguaskill Cambridge** es su tecnología adaptativa. A d
 ## Estructura de Linguaskill: Los 3 Módulos a Fondo
 
 El examen se divide en tres bloques que puedes realizar en el orden que prefieras o incluso en días diferentes.
-
-### 1. Reading & Listening (Lectura y Comprensión Auditiva)
-Es el bloque más largo (60-85 min) y el que mejor aprovecha la tecnología adaptativa.
-*   **Reading:** Incluye tareas como completar espacios en blanco con opciones (*Multiple Choice*), rellenar huecos sin opciones y lectura extendida para identificar el propósito del autor.
-*   **Listening:** Escucharás grabaciones cortas y largas. Lo mejor de Linguaskill es que, aunque sea por ordenador, puedes escuchar cada audio **dos veces**, permitiéndote verificar tus respuestas.
-
-### 2. Writing (Expresión Escrita)
-Aquí la rapidez de corrección es clave. El sistema de IA de Cambridge, entrenado con millones de ejemplos reales, evalúa tu gramática, vocabulario y coherencia.
-*   **Parte 1:** Escribir un correo electrónico de al menos 50 palabras respondiendo a una situación cotidiana o laboral.
-*   **Parte 2:** Un texto más extenso (mínimo 180 palabras). Puede ser una carta, una reseña o un artículo de opinión. Se valora especialmente el uso de conectores avanzados y una estructura lógica.
-
-### 3. Speaking (Expresión Oral)
-Se realiza con auriculares y micrófono. No hay examinador humano en directo, lo cual es ideal para personas tímidas.
-*   **Tarea 1:** Preguntas personales básicas.
-*   **Tarea 2:** Leer frases en voz alta (evalúa tu pronunciación y fluidez rítmica).
-*   **Tarea 3:** Presentación corta sobre un tema propuesto (tienes 40 segundos para preparar y 1 minuto para hablar).
-*   **Tarea 4:** Describir un gráfico o imagen técnica.
-*   **Tarea 5:** Dar tu opinión sobre una situación problemática planteada.
-
----
 
 ## 📊 Entendiendo la Cambridge English Scale en Linguaskill
 
@@ -87,7 +82,6 @@ La mayoría de las universidades españolas aceptan Linguaskill para:
 *   **Becas Erasmus:** La rapidez de Linguaskill permite obtener el certificado en 48 horas cuando las plazas de Erasmus salen a última hora.
 *   **Acceso a Máster:** Demostrar el nivel de inglés necesario de forma inmediata sin esperar convocatorias trimestrales.
 
-En **Focus English**, hemos diseñado un curso intensivo de 2 semanas que te prepara específicamente para las trampas del algoritmo de Linguaskill.
 
 [**¿Quieres ver en qué nivel estás ahora mismo? Haz nuestro simulacro adaptativo y recibe tu nota estimada en minutos.**](/cuenta/registro)
 
@@ -102,7 +96,6 @@ En **Focus English**, hemos diseñado un curso intensivo de 2 semanas que te pre
 
 Al ser un examen por ordenador, la mejor forma de prepararlo es mediante herramientas digitales. En **Focus English**, hemos desarrollado módulos específicos que imitan la interfaz y el tipo de tareas de Linguaskill.
 
-*   **Practica el Speaking**: Pierde el miedo a hablarle al ordenador con nuestro plataforma de ejercicios.
 *   **Mejora tu Writing**: Recibe correcciones instantáneas sobre la estructura y el vocabulario de tus ensayos.
 *   **Simulacros adaptativos**: Entrena con ejercicios que suben de nivel conforme mejoras.
 

@@ -1,12 +1,37 @@
 ---
-category: "examenes"
-date: "2026-02-07"
-author: "Focus English"
-title: "Preparación Examen B1 Inglés: Guía Completa PET, Aptis y Linguaskill"
-description: "Descubre cómo aprobar el examen B1 de inglés en 2026. Guía detallada para Cambridge PET, Aptis y Linguaskill con estrategias de estudio, recursos gratuitos y consejos de examinadores."
-keywords: ["preparacion examen b1 ingles", "cambridge pet b1", "aptis general b1", "examen b1 ingles consejos", "preparar b1 cambridge solo", "examen pet cambridge guia", "recursos gratis b1 ingles", "practicar speaking b1 solo", "título b1 ingles online", "ingles b1 online gratis", "ejercicios b1 ingles", "examen aptis", "puntuacion aptis", "preparacion aptis online", "precios examenes cambridge", "linguaskill cambridge", "certificacion rapida ingles"]
-canonical: "https://www.focus-on-english.com/blog/examenes/preparacion-examen-b1-cambridge"
-related_routes: ["certificaciones-ingles", "ingles-b1", "cursos-online-ingles-b1"]
+category: examenes
+date: '2026-02-07'
+author: Focus English
+image: "https://images.pexels.com/photos/5905709/pexels-photo-5905709.jpeg?auto=compress&cs=tinysrgb&w=1200"
+alt: "Estudiante preparando su examen de nivel B1 de inglés"
+title: 'Preparación Examen B1 Inglés: Guía Completa PET, Aptis y Linguaskill'
+description: >-
+  Descubre cómo aprobar el examen B1 de inglés en 2026. Guía detallada para
+  Cambridge PET, Aptis y Linguaskill con estrategias de estudio, recursos
+  gratuitos y consejos de examinadores.
+keywords:
+  - preparacion examen b1 ingles
+  - cambridge pet b1
+  - aptis general b1
+  - examen b1 ingles consejos
+  - preparar b1 cambridge solo
+  - examen pet cambridge guia
+  - recursos gratis b1 ingles
+  - practicar speaking b1 solo
+  - título b1 ingles online
+  - ingles b1 online gratis
+  - ejercicios b1 ingles
+  - examen aptis
+  - puntuacion aptis
+  - preparacion aptis online
+  - precios examenes cambridge
+  - linguaskill cambridge
+  - certificacion rapida ingles
+canonical: 'https://www.focus-on-english.com/blog/examenes/preparacion-examen-b1-cambridge'
+related_routes:
+  - certificaciones-ingles
+  - ingles-b1
+  - cursos-online-ingles-b1
 ---
 
 Obtener el **título B1 de inglés** (nivel intermedio) es uno de los hitos más importantes para cualquier estudiante o profesional. Según el Marco Común Europeo de Referencia para las lenguas (MCER), alcanzar este nivel significa que eres un "usuario independiente", capaz de desenvolverte en situaciones cotidianas, laborales y de viaje sin depender de traducciones constantes.
@@ -24,34 +49,17 @@ En el nivel B1, el Reading evalúa si puedes entender información pública (se�
 *   **Estrategia**: No leas palabra por palabra. Aprende a identificar los *distractores* (opciones que parecen correctas porque usan la misma palabra que el texto, pero con un significado diferente).
 *   **Tip**: Practica el *skimming* para captar la idea general y el *scanning* para encontrar datos específicos como horas, lugares o nombres.
 
-### Writing (45 minutos)
-Consta de un email obligatorio y la elección entre un artículo o una historia.
-*   **La clave**: Usa conectores de nivel B1. Deja de usar solo "and" y "but". Empieza a integrar **"however", "although", "even though", "because of"** e **"in order to"**.
-*   **Checklist**: Asegúrate de que tu email tiene un inicio y cierre formal/informal adecuado y que respondes a los tres puntos requeridos en el enunciado.
-
-### Listening (30 minutos)
-Cambridge suele utilizar audios con acentos variados (británico, australiano, americano).
-*   **Consejo**: Usa la primera escucha para entender el contexto y la segunda para confirmar detalles técnicos. No te bloquees si pierdes una palabra; sigue escuchando.
-
-### Speaking (12 minutos)
-Se realiza por parejas. Debes describir una fotografía y discutir un escenario con tu compañero.
-*   **Estrategia**: Interactúa con tu compañero. Usa frases como **"What do you think about...?"** o **"I agree with you, but..."**. No intentes hablar más que el otro, sino demostrar que puedes mantener una conversación fluida.
-
----
-
 ## 2. Aptis General: Rapidez y Resultados para Oposiciones
 
 El examen **Aptis** del British Council se ha convertido en el favorito de los opositores y estudiantes universitarios en España por su agilidad y su precio competitivo.
 
 *   **Componente Core**: Gramática y Vocabulario. Es el corazón del examen. Si dominas los tiempos verbales básicos (Present Perfect, Pasado Simple) y los verbos modales, tienes medio camino hecho.
-*   **Speaking por Ordenador**: Al contrario que Cambridge, en Aptis hablas a un micrófono. Debes **practicar el speaking B1 solo** grabando tus respuestas para acostumbrarte al cronómetro. La fluidez es más valorada que la perfección gramatical extrema.
 *   **Writing**: Se divide en cuatro partes, desde respuestas cortas en redes sociales hasta un email formal. Es vital ajustar el registro (*formal vs. informal*) según el destinatario.
 
 ---
 
 ## 3. Linguaskill: El Examen Adaptativo de Cambridge
 
-Si necesitas el certificado "para ayer", **Linguaskill** es la opción ideal. Es un test multinivel que utiliza inteligencia artificial para ajustar la dificultad de las preguntas según tus respuestas.
 
 *   **Ventaja**: Si lo haces bien, el sistema te propone retos de nivel B2, permitiéndote certificar un nivel superior si demuestras la competencia.
 *   **Estrategia**: Mantén la concentración. Al ser adaptativo, fallar preguntas fáciles al principio puede "condenar" tu puntuación a un nivel inferior.
@@ -74,16 +82,16 @@ Si quieres preparar el examen por tu cuenta, sigue este esquema:
 No necesitas comprar libros caros para aprobar. Aquí tienes los mejores **recursos gratis B1 ingles**:
 *   **Cambridge English**: Ofrece actividades online gratuitas en su sección de "Learning English".
 *   **Focus English Blog**: Nuestras guías de **[gramática B1](/blog/gramatica/gramatica-ingles-b1-guia)** y **[vocabulario de trabajo](/blog/trabajo/vocabulario-b1-ingles-trabajo)** están diseñadas para este nivel.
-*   **YouTube**: Canales como *English with Lucy* o *Learn English with TV Series* son excelentes para el Listening y la pronunciación.
 
 ---
 
 ## Conclusión: Tu Certificado B1 con Focus English
 
-Aprobar el B1 es una cuestión de técnica de examen y constancia. En **Focus English**, hemos diseñado una plataforma que te permite:
+Aprobar el B1 es una cuestión de técnica de examen y constancia. Además de nuestros niveles A1-C2, ofrecemos cursos especializados en Hostelería, Administración, Logística y Viajes, con miles de ejercicios prácticos de gramática, vocabulario y comprensión lectora para asegurar tu éxito.
 
-*   **Simulacros con IA**: Practica el Speaking y el Writing y recibe una nota estimada y correcciones detalladas al instante.
-*   **Rutas de Aprendizaje**: Si fallas en los condicionales, nuestra plataforma te asigna automáticamente ejercicios de refuerzo.
-*   **Tutoría 24/7**: Nuestra inteligencia artificial está entrenada con miles de exámenes reales para resolver cualquier duda gramatical en segundos.
+En **Focus English**, hemos diseñado una plataforma que te permite:
 
-[**¡Consigue tu título B1 este mes! Empieza tu preparación gratuita con Focus English hoy.**](/cuenta/registro)
+*   **Rutas de Aprendizaje**: Ejercicios de refuerzo adaptados para que domines cada punto gramatical necesario para el B1.
+*   **Enfoque en Vocabulario Práctico**: Listas y actividades enfocadas en los temas que realmente aparecen en el examen.
+
+[**¡Consigue tu título B1 este mes! Empieza tu preparación con Focus English hoy.**](/cuenta/registro)

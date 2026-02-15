@@ -1,11 +1,20 @@
 ---
-category: "gramatica"
-date: "2026-02-08"
-author: "Focus English"
-title: "Guia Maestra de Reported Speech y Reporting Verbs: De B2 a C2"
-description: "Domina el Reported Speech y los Reporting Verbs con nuestra guía completa para niveles B2, C1 y C2. Aprende reglas, estructuras y prepárate para tus exámenes de Cambridge."
-keywords: ["reported speech estructura","reporting verbs en ingles","reported speech teoria","reported speech verbos","reported speech que es","introductory verbs in reported speech"]
-canonical: "https://www.focus-on-english.com/blog/gramatica/guia-maestra-reported-speech"
+category: gramatica
+date: '2026-02-08'
+author: Focus English
+title: 'Guia Maestra de Reported Speech y Reporting Verbs: De B2 a C2'
+description: >-
+  Domina el Reported Speech y los Reporting Verbs con nuestra guía completa para
+  niveles B2, C1 y C2. Aprende reglas, estructuras y prepárate para tus exámenes
+  de Cambridge.
+keywords:
+  - reported speech estructura
+  - reporting verbs en ingles
+  - reported speech teoria
+  - reported speech verbos
+  - reported speech que es
+  - introductory verbs in reported speech
+canonical: 'https://www.focus-on-english.com/blog/gramatica/guia-maestra-reported-speech'
 ---
 
 # Guía Maestra de Reported Speech y Reporting Verbs: De B2 a C2
@@ -107,6 +116,5 @@ Para convertirte en un experto total en esta materia, te recomendamos explorar l
 5. [**Preguntas y Órdenes en Estilo Indirecto**](/blog/gramatica/reported-speech-questions-commands): Guía paso a paso para reportar interrogativas e imperativos.
 
 ---
-En **Focus English**, entendemos que la gramática avanzada se aprende mejor con práctica real y feedback inmediato. Por eso, nuestra plataforma utiliza IA para analizar tus textos y ayudarte a perfeccionar el uso del Reported Speech en contextos profesionales y académicos.
 
 [**Regístrate gratis hoy y empieza a escribir inglés con la confianza de un experto.**](/cuenta/registro)

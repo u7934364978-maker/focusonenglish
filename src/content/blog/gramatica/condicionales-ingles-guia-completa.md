@@ -1,12 +1,23 @@
 ---
-title: "Condicionales en Inglés: Guía Zero, 1st, 2nd y 3rd"
-description: "Domina todos los tipos de condicionales en inglés. Guía definitiva con reglas, ejemplos claros y lista imprimible para exámenes Cambridge."
-excerpt: "¿Te lían los condicionales? Aprende cuándo usar Zero, First, Second y Third Conditional con esta guía académica paso a paso y más de 50 ejemplos."
-keywords: ["condicionales en ingles", "zero conditional", "first conditional", "second conditional", "third conditional", "gramatica inglesa", "ejercicios condicionales ingles"]
-author: "Equipo Focus English"
-date: "2026-02-06"
-image: "https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg"
-category: "gramatica"
+title: 'Condicionales en Inglés: Guía Zero, 1st, 2nd y 3rd'
+description: >-
+  Domina todos los tipos de condicionales en inglés. Guía definitiva con reglas,
+  ejemplos claros y lista imprimible para exámenes Cambridge.
+excerpt: >-
+  ¿Te lían los condicionales? Aprende cuándo usar Zero, First, Second y Third
+  Conditional con esta guía académica paso a paso y más de 50 ejemplos.
+keywords:
+  - condicionales en ingles
+  - zero conditional
+  - first conditional
+  - second conditional
+  - third conditional
+  - gramatica inglesa
+  - ejercicios condicionales ingles
+author: Equipo Focus English
+date: '2026-02-06'
+image: 'https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg'
+category: gramatica
 ---
 
 Los **condicionales en inglés** son estructuras que utilizamos para hablar de situaciones reales o imaginarias y sus consecuencias. En el nivel académico (B1 a C1), dominar estas formas es crucial para expresar hipótesis, arrepentimientos o verdades universales.
@@ -117,4 +128,3 @@ En el lenguaje formal y en exámenes Cambridge, se utiliza *were* para todas las
 
 ---
 
-¿Quieres practicar estos condicionales con nuestra IA en tiempo real? [Regístrate en Focus English](/cuenta/registro) y accede a lecciones personalizadas según tu nivel.
