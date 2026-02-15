@@ -34,7 +34,7 @@ Sin embargo, para un estudiante que aspira a niveles avanzados como el C1 (Advan
 
 ## 1. Las Apps: Flexibilidad y Micro-aprendizaje
 
-Las **[aplicaciones para aprender inglés efectivas](/blog/metodos/mejores-apps-ingles-ia-2026)** han revolucionado el mercado. Su propuesta es clara: conveniencia total.
+Las **[aplicaciones para aprender inglés efectivas](/blog/metodos/mejor-app-aprender-ingles)** han revolucionado el mercado. Su propuesta es clara: conveniencia total.
 
 ### Ventajas de las apps
 *   **Flexibilidad absoluta**: Puedes estudiar 5 minutos en el metro o mientras esperas el café. Son ideales para quienes tienen agendas impredecibles.

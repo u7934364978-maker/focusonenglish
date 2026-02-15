@@ -12,12 +12,10 @@ export const SEO_KEYWORD_LINKS: KeywordLink[] = [
   { keyword: "ingles para el trabajo", url: "/blog/trabajo" },
   { keyword: "ingles para viajar", url: "/blog/viajes" },
   { keyword: "ingles desde cero", url: "/blog/metodos/ingles-a1" },
-  { keyword: "ejercicios de ingles", url: "/blog/metodos/aprender-ingles-ia-guia" },
-  { keyword: "gramatica inglesa", url: "/blog/metodos" },
-  { keyword: "vocabulario ingles", url: "/blog/metodos" },
-  { keyword: "ia para aprender ingles", url: "/blog/metodos/aprender-ingles-ia-guia" },
-  { keyword: "inteligencia artificial", url: "/blog/metodos/aprender-ingles-ia-guia" },
-  { keyword: "entrevista de trabajo", url: "/blog/trabajo/entrevista-trabajo-ingles-preguntas" },
+  { keyword: "ejercicios de ingles", url: "/blog/gramatica/gramatica-ingles-b1-guia" },
+  { keyword: "gramatica inglesa", url: "/blog/gramatica/gramatica-ingles-b1-guia" },
+  { keyword: "vocabulario ingles", url: "/blog/trabajo/vocabulario-b1-ingles-trabajo" },
+  { keyword: "entrevista de trabajo", url: "/blog/trabajo/entrevista-trabajo-exito" },
 ];
 
 /**
