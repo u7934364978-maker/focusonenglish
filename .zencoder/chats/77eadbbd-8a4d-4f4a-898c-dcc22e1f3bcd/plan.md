@@ -224,14 +224,163 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
     - Ran `npx playwright test e2e/unit-15-expansion.spec.ts --project=chromium`.
     - Results: All tests passed.
 
-### [ ] Step: Expand Unit 16 (A1)
-1. **Analyze Unit 16**: Current content has 10 exercises on "At the Cafe".
+### [x] Step: Expand Unit 16 (A1)
+1. **Analyze Unit 16**: Expanded to 60 exercises.
 2. **Expand to 60 exercises**:
     - Theme: "At the Cafe & Ordering" (Ordering drinks/snacks, cafe environment, social interaction).
     - Add Vocabulary: Coffee types (latte, cappuccino), snacks (croissant, muffin), cafe items (mug, napkin, receipt).
     - Add Grammar: Polite requests ("Can I have...?", "I'd like..."), Questions about prices, "Is there/Are there" for availability.
     - Add Reading Comprehension: Dialogues between a customer and a barista, cafe reviews.
 3. **Verify Implementation**:
-    - Check `/debug/a1-preview/unit-16` in the browser.
+    - Checked `/debug/a1-preview/unit-16` in the browser.
 4. **Test Plan Approval**:
-    - Verify that `/debug/a1-preview/unit-16` contains 60 exercises.
+    - Verified that `/debug/a1-preview/unit-16` contains 60 exercises.
+
+### [x] Step: Expand Unit 17 (A1)
+1. **Analyze Unit 17**: Expanded to 60 exercises.
+2. **Expand to 60 exercises**:
+    - Theme: "Transport and Travel" (Types of transport, buying tickets, travel verbs).
+    - Add Vocabulary: Transport (bus, train, plane, taxi, bicycle), stations (airport, bus stop, platform), verbs (travel, arrive, leave, take).
+    - Add Grammar: Present Simple for schedules, Prepositions of movement (to, from), "How do you get to...?".
+    - Add Reading Comprehension: Short travel stories or a travel itinerary description.
+3. **Verify Implementation**:
+    - Checked `/debug/a1-preview/unit-17` in the browser.
+4. **Test Plan Approval**:
+    - Verified that `/debug/a1-preview/unit-17` contains 60 exercises.
+    - Ran `npx playwright test e2e/unit-17-expansion.spec.ts --project=chromium`.
+    - Results: All tests passed.
+
+### [x] Step: Expand Unit 18 (A1)
+1. **Analyze Unit 18**: Expanded to 60 exercises.
+2. **Expand to 60 exercises**:
+    - Theme: "Likes & Dislikes" (Interests, hobbies, expressing preferences).
+    - Add Vocabulary: Love, like, enjoy, don't like, hate, prefer, favorite, hobby words (reading, swimming, gaming).
+    - Add Grammar: Like/Love/Hate + -ing, questions with "What" and "Do you".
+    - Add Reading Comprehension: Descriptions of people's favorite things and activities.
+3. **Verify Implementation**:
+    - Checked `/debug/a1-preview/unit-18` in the browser.
+4. **Test Plan Approval**:
+    - Verified that `/debug/a1-preview/unit-18` contains 60 exercises.
+    - Ran `npx playwright test e2e/unit-18-expansion.spec.ts --project=chromium`.
+    - Results: All tests passed.
+
+### [x] Step: Expand Unit 19 (A1)
+1. **Analyze Unit 19**: Expanded to 60 exercises.
+2. **Expand to 60 exercises**:
+    - Theme: "The World of Work" (Jobs, workplaces, daily tasks).
+    - Add Vocabulary: Job titles (doctor, engineer, waiter), workplaces (hospital, office, restaurant), work activities (meetings, emails, phone calls).
+    - Add Grammar: Present Simple for work routines, "What do you do?", "Where do you work?".
+    - Add Reading Comprehension: Profiles of different professionals and their work days.
+3. **Verify Implementation**:
+    - Checked `/debug/a1-preview/unit-19` in the browser.
+    - **Fix**: Resolved critical rendering bug in `TranslatedText.tsx` where reading texts were blank due to global regex `lastIndex` conflicts.
+    - **Pedagogical Fix**: Standardized exercise instruction rendering using Markdown for consistent formatting and tooltip support.
+4. **Test Plan Approval**:
+    - Verified that `/debug/a1-preview/unit-19` contains 60 exercises.
+
+### [x] Step: Expand Unit 21 (A1)
+1. **Analyze Unit 21**: Expanded to 60 exercises.
+2. **Expand to 60 exercises**:
+    - Theme: "Rooms in a House" (My Home & Furniture).
+    - Add Vocabulary: Furniture (sofa, table, bed, chair, desk), Appliances (fridge, oven, microwave, TV).
+    - Add Grammar: There is / There are (Review), Prepositions of Place (in, on, under, next to, behind).
+    - Add Reading Comprehension: Descriptions of a house or an apartment.
+3. **Verify Implementation**:
+    - Checked `/debug/a1-preview/unit-21` in the browser.
+4. **Test Plan Approval**:
+    - Verified that `/debug/a1-preview/unit-21` contains 60 exercises.
+
+### [x] Step: Expand Unit 22 (A1)
+1. **Analyze Unit 22**: Expand to 60 exercises.
+2. **Expand to 60 exercises**:
+    - Theme: "Objects in a House" (Common household items, electronics, kitchenware).
+    - Add Vocabulary: Clock, mirror, pillow, blanket, plate, spoon, fork, knife, glass, computer, telephone.
+    - Add Grammar: Demonstratives (this, that, these, those) Review, Possessive 's Review.
+    - Add Reading Comprehension: A text about "My favorite object at home".
+3. **Verify Implementation**:
+    - Checked `/debug/a1-preview/unit-22` in the browser.
+4. **Test Plan Approval**:
+    - Verified that `/debug/a1-preview/unit-22` contains 60 exercises.
+
+### [x] Step: Expand Unit 23 (A1)
+1. **Analyze Unit 23**: Expanded to 60 exercises.
+2. **Expand to 60 exercises**:
+    - Theme: "Family Members" (Extended family, family tree, relationships).
+    - Add Vocabulary: Mother, father, brother, sister, grandfather, grandmother, aunt, uncle, cousin, nephew, niece.
+    - Add Grammar: Possessive adjectives (my, your, his, her, its, our, their) Review, Genitive 's.
+    - Add Reading Comprehension: A text describing a family tree or a family gathering.
+3. **Verify Implementation**:
+    - Checked `/debug/a1-preview/unit-23` in the browser.
+4. **Test Plan Approval**:
+    - Verify that `/debug/a1-preview/unit-23` contains 60 exercises.
+    - Ran `npx playwright test e2e/unit-23-expansion.spec.ts --project=chromium`.
+    - Results: All tests passed.
+
+### [x] Step: Expand Unit 24 (A1)
+1. **Analyze Unit 24**: Expanded to 60 exercises.
+2. **Expand to 60 exercises**:
+    - Theme: "Describing People (Appearance)" (Physical attributes, hair, eyes, height, age).
+    - Add Vocabulary: Tall, short, slim, fat, young, old, hair colors/styles (blond, dark, curly, straight), eye colors.
+    - Add Grammar: Have/Has got for physical descriptions, Verbs "to be" vs "to have" for descriptions.
+    - Add Reading Comprehension: Descriptions of friends or family members.
+3. **Verify Implementation**:
+    - Checked `/debug/a1-preview/unit-24` in the browser.
+
+### [ ] Step: Expand Unit 25 (A1)
+1. **Analyze Unit 25**: Expand to 60 exercises.
+2. **Expand to 60 exercises**:
+    - Theme: "Describing People (Personality)" (Adjectives to describe character, feelings).
+    - Add Vocabulary: Kind, funny, serious, intelligent, shy, friendly, happy, sad, angry, tired, bored.
+    - Add Grammar: Question "What is he/she like?" vs "What does he/she look like?".
+    - Add Reading Comprehension: Profiles of different people describing their personality.
+3. **Verify Implementation**:
+    - Check `/debug/a1-preview/unit-25` in the browser.
+
+### [ ] Step: Expand Unit 26 (A1)
+1. **Analyze Unit 26**: Expand to 60 exercises.
+2. **Expand to 60 exercises**:
+    - Theme: "Abilities (Can/Can't)" (Talking about skills and what you can do).
+    - Add Vocabulary: Action verbs (sing, dance, swim, play an instrument, speak a language, drive).
+    - Add Grammar: Can / Can't (Ability/Possibility), Questions and Short Answers with Can.
+    - Add Reading Comprehension: A talent show description or a job application mentioning skills.
+3. **Verify Implementation**:
+    - Check `/debug/a1-preview/unit-26` in the browser.
+
+### [ ] Step: Expand Unit 27 (A1)
+1. **Analyze Unit 27**: Expand to 60 exercises.
+2. **Expand to 60 exercises**:
+    - Theme: "My Town (Places and Directions)" (Buildings, asking for and giving directions).
+    - Add Vocabulary: Post office, pharmacy, supermarket, cinema, hospital, police station, square, bridge.
+    - Add Grammar: Prepositions of place (Review), Giving directions (Go straight, turn left/right).
+    - Add Reading Comprehension: A map description or a tourist guide for a small town.
+3. **Verify Implementation**:
+    - Check `/debug/a1-preview/unit-27` in the browser.
+
+### [ ] Step: Expand Unit 28 (A1)
+1. **Analyze Unit 28**: Expand to 60 exercises.
+2. **Expand to 60 exercises**:
+    - Theme: "Weather and Seasons" (Describing the weather, climate, the four seasons).
+    - Add Vocabulary: Sunny, rainy, cloudy, snowy, windy, hot, cold, warm, spring, summer, autumn, winter.
+    - Add Grammar: "What's the weather like?", Use of "It" for weather (It is sunny).
+    - Add Reading Comprehension: A weather report or a description of favorite seasons.
+3. **Verify Implementation**:
+    - Check `/debug/a1-preview/unit-28` in the browser.
+
+### [ ] Step: Expand Unit 29 (A1)
+1. **Analyze Unit 29**: Expand to 60 exercises.
+2. **Expand to 60 exercises**:
+    - Theme: "Months and Dates" (Calendar, ordinal numbers, birthdays).
+    - Add Vocabulary: Months of the year, Ordinal numbers (1st to 31st), Special days (birthday, holiday).
+    - Add Grammar: Prepositions of time (in + month, on + date), Questions with "When".
+    - Add Reading Comprehension: A calendar of events or a birthday party invitation.
+3. **Verify Implementation**:
+    - Check `/debug/a1-preview/unit-29` in the browser.
+
+### [ ] Step: Expand Unit 30 (A1)
+1. **Analyze Unit 30**: Expand to 60 exercises.
+2. **Expand to 60 exercises**:
+    - Theme: "Module 3 Review" (Reviewing units 21-29).
+    - Content: Mixed practice of all grammar and vocabulary from Module 3.
+    - Reading Comprehension: Longer texts integrating House, Family, Descriptions, Abilities, Town, and Dates.
+3. **Verify Implementation**:
+    - Check `/debug/a1-preview/unit-30` in the browser.
