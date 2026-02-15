@@ -5,23 +5,25 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "id": "a1-u19-e1",
     "type": "flashcard",
     "level": "A1",
-    "topic": "Jobs",
+    "topic": "Months of the Year",
     "difficulty": "easy",
-    "transcript": "Doctor. Nurse. Teacher. Student. Engineer. Waiter. Waitress. Driver. Police officer. Shop assistant.",
+    "transcript": "January. February. March. April. May. June. July. August. September. October. November. December.",
     "content": {
-      "title": "Vocabulario: Profesiones",
-      "instructions": "Aprende los nombres de diferentes profesiones.",
+      "title": "Los Meses del Año",
+      "instructions": "Aprende los doce meses del año.",
       "items": [
-        { "front": "[[Doctor|Médico]]", "back": "Doctor / Médico" },
-        { "front": "[[Nurse|Enfermero]]", "back": "Enfermero/a" },
-        { "front": "[[Teacher|Profesor]]", "back": "Profesor/a" },
-        { "front": "[[Student|Estudiante]]", "back": "Estudiante" },
-        { "front": "[[Engineer|Ingeniero]]", "back": "Ingeniero/a" },
-        { "front": "[[Waiter|Camarero]]", "back": "Camarero (hombre)" },
-        { "front": "[[Waitress|Camarera]]", "back": "Camarera (mujer)" },
-        { "front": "[[Driver|Conductor]]", "back": "Conductor/a" },
-        { "front": "[[Police officer|Policía]]", "back": "Oficial de policía" },
-        { "front": "[[Shop assistant|Dependiente]]", "back": "Dependiente/a" }
+        { "front": "[[January|Enero]]", "back": "Enero" },
+        { "front": "[[February|Febrero]]", "back": "Febrero" },
+        { "front": "[[March|Marzo]]", "back": "Marzo" },
+        { "front": "[[April|Abril]]", "back": "Abril" },
+        { "front": "[[May|Mayo]]", "back": "Mayo" },
+        { "front": "[[June|Junio]]", "back": "Junio" },
+        { "front": "[[July|Julio]]", "back": "Julio" },
+        { "front": "[[August|Agosto]]", "back": "Agosto" },
+        { "front": "[[September|Septiembre]]", "back": "Septiembre" },
+        { "front": "[[October|Octubre]]", "back": "Octubre" },
+        { "front": "[[November|Noviembre]]", "back": "Noviembre" },
+        { "front": "[[December|Diciembre]]", "back": "Diciembre" }
       ]
     },
     "audioUrl": "audio/a1/unit-19/e1.mp3",
@@ -29,25 +31,21 @@ export const UNIT_19_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u19-e2",
-    "type": "flashcard",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Workplaces",
+    "topic": "Months",
     "difficulty": "easy",
-    "transcript": "Hospital. School. Office. Restaurant. Shop. Factory. Bank. Garage. Hotel. Studio.",
+    "transcript": "January is the first month of the year.",
     "content": {
-      "title": "Vocabulario: Lugares de Trabajo",
-      "instructions": "Aprende dónde trabajan diferentes personas.",
-      "items": [
-        { "front": "[[Hospital|Hospital]]", "back": "Hospital" },
-        { "front": "[[School|Escuela]]", "back": "Escuela / Colegio" },
-        { "front": "[[Office|Oficina]]", "back": "Oficina" },
-        { "front": "[[Restaurant|Restaurante]]", "back": "Restaurante" },
-        { "front": "[[Shop|Tienda]]", "back": "Tienda" },
-        { "front": "[[Factory|Fábrica]]", "back": "Fábrica" },
-        { "front": "[[Bank|Banco]]", "back": "Banco" },
-        { "front": "[[Garage|Taller]]", "back": "Taller / Garaje" },
-        { "front": "[[Hotel|Hotel]]", "back": "Hotel" },
-        { "front": "[[Studio|Estudio]]", "back": "Estudio" }
+      "title": "El Primer Mes",
+      "instructions": "Elige el mes correcto.",
+      "questions": [
+        {
+          "question": "_______ [[is|es]] [[the|el]] [[first|primer]] [[month|mes]] [[of|del]] [[the|el]] [[year|año]].",
+          "options": ["[[January|Enero]]", "[[February|Febrero]]", "[[March|Marzo]]"],
+          "correctAnswer": 0,
+          "explanation": "Enero (January) es el primer mes del año."
+        }
       ]
     },
     "audioUrl": "audio/a1/unit-19/e2.mp3",
@@ -57,102 +55,101 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "id": "a1-u19-e3",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Asking about Jobs",
+    "topic": "Months",
     "difficulty": "easy",
-    "transcript": "What do you do?",
+    "transcript": "December is the last month of the year.",
     "content": {
-      "title": "Preguntar la Profesión",
-      "instructions": "Elige la pregunta correcta para saber a qué se dedica alguien.",
+      "title": "El Último Mes",
+      "instructions": "Elige el mes correcto.",
       "questions": [
         {
-          "question": "_______ [[do|do]] [[you|tú]] [[do|hacer]]?",
-          "options": ["[[What|Qué]]", "[[Where|Dónde]]", "[[Who|Quién]]"],
-          "correctAnswer": 0,
-          "explanation": "'What do you do?' es la pregunta estándar para preguntar por el trabajo."
+          "question": "_______ [[is|es]] [[the|el]] [[last|último]] [[month|mes]] [[of|del]] [[the|el]] [[year|año]].",
+          "options": ["[[November|Noviembre]]", "[[December|Diciembre]]", "[[October|Octubre]]"],
+          "correctAnswer": 1,
+          "explanation": "Diciembre (December) es el último mes del año."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-19/e3.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u19-e4",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Workplace",
+    "topic": "Months",
     "difficulty": "easy",
-    "transcript": "Where do you work?",
+    "transcript": "February comes after January.",
     "content": {
-      "title": "Preguntar el Lugar",
-      "instructions": "Completa la pregunta sobre el lugar de trabajo.",
-      "questions": [
-        {
-          "question": "_______ [[do|do]] [[you|tú]] [[work|trabajar]]?",
-          "options": ["[[Where|Dónde]]", "[[What|Qué]]", "[[When|Cuándo]]"],
-          "correctAnswer": 0,
-          "explanation": "'Where do you work?' sirve para preguntar por la ubicación del empleo."
-        }
-      ]
+      "title": "Orden de los Meses",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[February|Febrero]] [[comes|viene]] [[after|después de]] [[January|Enero]].",
+      "words": ["[[February|Febrero]]", "[[comes|viene]]", "[[after|después de]]", "[[January|Enero]]."],
+      "explanation": "Febrero va después de Enero."
     },
     "audioUrl": "audio/a1/unit-19/e4.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u19-e5",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Routine",
-    "difficulty": "easy",
-    "transcript": "I work in a big office.",
-    "content": {
-      "title": "Describir el Trabajo",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[I|Yo]] [[work|trabajo]] [[in|en]] [[a|una]] [[big|grande]] [[office|oficina]].",
-      "words": ["[[I|Yo]]", "[[work|trabajo]]", "[[in|en]]", "[[a|una]]", "[[big|grande]]", "[[office|oficina]]."],
-      "explanation": "Estructura básica: Sujeto + Verbo + Lugar."
-    },
-    "audioUrl": "audio/a1/unit-19/e5.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u19-e6",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Third Person",
+    "topic": "Months",
     "difficulty": "medium",
-    "transcript": "He works in a hospital.",
+    "transcript": "Which month has twenty-eight days?",
     "content": {
-      "title": "Tercera Persona",
-      "instructions": "Elige la forma correcta del verbo.",
+      "title": "Días del Mes",
+      "instructions": "Responde a la pregunta.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[in|en]] [[a|un]] [[hospital|hospital]].",
-          "options": ["[[works|trabaja]]", "[[work|trabaja]]", "[[working|trabajando]]"],
-          "correctAnswer": 0,
-          "explanation": "Añadimos -s al verbo en tercera persona singular (He/She/It)."
+          "question": "[[Which|Qué]] [[month|mes]] [[has|tiene]] [[twenty-eight|veintiocho]] [[days|días]]?",
+          "options": ["[[January|Enero]]", "[[February|Febrero]]", "[[March|Marzo]]"],
+          "correctAnswer": 1,
+          "explanation": "Febrero es el único mes con 28 días (o 29 en años bisiestos)."
         }
       ]
     },
+    "audioUrl": "audio/a1/unit-19/e5.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u19-e6",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Months",
+    "difficulty": "medium",
+    "transcript": "July and August are very hot months.",
+    "content": {
+      "title": "Meses Calurosos",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[July|Julio]] [[and|y]] [[August|Agosto]] [[are|son]] [[very|muy]] [[hot|calurosos]] [[months|meses]].",
+      "words": ["[[July|Julio]]", "[[and|y]]", "[[August|Agosto]]", "[[are|son]]", "[[very|muy]]", "[[hot|calurosos]]", "[[months|meses]]."],
+      "explanation": "Julio y Agosto son meses de verano en el hemisferio norte."
+    },
     "audioUrl": "audio/a1/unit-19/e6.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u19-e7",
-    "type": "multiple-choice",
+    "type": "flashcard",
     "level": "A1",
-    "topic": "Jobs",
+    "topic": "Ordinal Numbers",
     "difficulty": "easy",
-    "transcript": "A doctor helps sick people.",
+    "transcript": "First. Second. Third. Fourth. Fifth. Sixth. Seventh. Eighth. Ninth. Tenth.",
     "content": {
-      "title": "Funciones",
-      "instructions": "Elige la profesión correcta.",
-      "questions": [
-        {
-          "question": "[[A|Un]] _______ [[helps|ayuda]] [[sick|enfermas]] [[people|personas]].",
-          "options": ["[[doctor|médico]]", "[[driver|conductor]]", "[[waiter|camarero]]"],
-          "correctAnswer": 0,
-          "explanation": "Los médicos ayudan a las personas enfermas."
-        }
+      "title": "Números Ordinales (1-10)",
+      "instructions": "Aprende los números para las fechas.",
+      "items": [
+        { "front": "[[First|Primero]] (1st)", "back": "Primero" },
+        { "front": "[[Second|Segundo]] (2nd)", "back": "Segundo" },
+        { "front": "[[Third|Tercero]] (3rd)", "back": "Tercero" },
+        { "front": "[[Fourth|Cuarto]] (4th)", "back": "Cuarto" },
+        { "front": "[[Fifth|Quinto]] (5th)", "back": "Quinto" },
+        { "front": "[[Sixth|Sexto]] (6th)", "back": "Sexto" },
+        { "front": "[[Seventh|Séptimo]] (7th)", "back": "Séptimo" },
+        { "front": "[[Eighth|Octavo]] (8th)", "back": "Octavo" },
+        { "front": "[[Ninth|Noveno]] (9th)", "back": "Noveno" },
+        { "front": "[[Tenth|Décimo]] (10th)", "back": "Décimo" }
       ]
     },
     "audioUrl": "audio/a1/unit-19/e7.mp3",
@@ -160,59 +157,59 @@ export const UNIT_19_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u19-e8",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Questions",
-    "difficulty": "medium",
-    "transcript": "Does she work in a school?",
-    "content": {
-      "title": "Pregunta: Tercera Persona",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Does|Does]] [[she|ella]] [[work|trabajar]] [[in|en]] [[a|una]] [[school|escuela]]?",
-      "words": ["[[Does|Does]]", "[[she|ella]]", "[[work|trabajar]]", "[[in|en]]", "[[a|una]]", "[[school|escuela]]?"],
-      "explanation": "Usamos 'Does' para preguntas con 'she'."
-    },
-    "audioUrl": "audio/a1/unit-19/e8.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u19-e9",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Negative",
-    "difficulty": "medium",
-    "transcript": "I don't work on Saturdays.",
+    "topic": "Ordinal Numbers",
+    "difficulty": "easy",
+    "transcript": "March is the third month.",
     "content": {
-      "title": "Negación",
-      "instructions": "Elige la forma negativa.",
+      "title": "El Tercer Mes",
+      "instructions": "Elige el número ordinal correcto.",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[work|trabajar]] [[on|en]] [[Saturdays|sábados]].",
-          "options": ["[[don't|no]]", "[[doesn't|no]]", "[[not|no]]"],
+          "question": "[[March|Marzo]] [[is|es]] [[the|el]] _______ [[month|mes]].",
+          "options": ["[[third|tercer]]", "[[second|segundo]]", "[[fourth|cuarto]]"],
           "correctAnswer": 0,
-          "explanation": "Usamos 'don't' para negaciones con 'I'."
+          "explanation": "Marzo es el tercer mes (third month)."
         }
       ]
     },
+    "audioUrl": "audio/a1/unit-19/e8.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u19-e9",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Ordinal Numbers",
+    "difficulty": "easy",
+    "transcript": "Monday is the first day of the week.",
+    "content": {
+      "title": "Días y Números",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[Monday|Lunes]] [[is|es]] [[the|el]] [[first|primer]] [[day|día]] [[of|de]] [[the|la]] [[week|semana]].",
+      "words": ["[[Monday|Lunes]]", "[[is|es]]", "[[the|el]]", "[[first|primer]]", "[[day|día]]", "[[of|de]]", "[[the|la]]", "[[week|semana]]."],
+      "explanation": "Lunes se considera el primer día de la semana laboral."
+    },
     "audioUrl": "audio/a1/unit-19/e9.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u19-e10",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Work",
-    "difficulty": "easy",
-    "transcript": "A waiter works in a restaurant.",
+    "topic": "Ordinal Numbers",
+    "difficulty": "medium",
+    "transcript": "October is the tenth month.",
     "content": {
-      "title": "¿Dónde trabaja?",
-      "instructions": "Completa con el lugar de trabajo.",
+      "title": "Mes Diez",
+      "instructions": "Elige el número ordinal correcto.",
       "questions": [
         {
-          "question": "[[A|Un]] [[waiter|camarero]] [[works|trabaja]] [[in|en]] [[a|un]] _______.",
-          "options": ["[[restaurant|restaurante]]", "[[bank|banco]]", "[[garage|taller]]"],
+          "question": "[[October|Octubre]] [[is|es]] [[the|el]] _______ [[month|mes]].",
+          "options": ["[[tenth|décimo]]", "[[ninth|noveno]]", "[[eighth|octavo]]"],
           "correctAnswer": 0,
-          "explanation": "Los camareros trabajan en restaurantes."
+          "explanation": "Octubre es el décimo mes."
         }
       ]
     },
@@ -221,130 +218,125 @@ export const UNIT_19_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u19-e11",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Jobs",
-    "difficulty": "medium",
-    "transcript": "My father is a taxi driver.",
+    "topic": "Prepositions of Time",
+    "difficulty": "easy",
+    "transcript": "My birthday is in June.",
     "content": {
-      "title": "Mi Padre",
-      "instructions": "Ordena la oración sobre el trabajo de tu padre.",
-      "correctSentence": "[[My|Mi]] [[father|padre]] [[is|es]] [[a|un]] [[taxi|taxi]] [[driver|conductor]].",
-      "words": ["[[My|Mi]]", "[[father|padre]]", "[[is|es]]", "[[a|un]]", "[[taxi|taxi]]", "[[driver|conductor]]."],
-      "explanation": "Estructura para decir la profesión de alguien."
+      "title": "Preposición: Meses",
+      "instructions": "Elige la preposición correcta.",
+      "questions": [
+        {
+          "question": "[[My|Mi]] [[birthday|cumpleaños]] [[is|es]] _______ [[June|Junio]].",
+          "options": ["[[in|en]]", "[[on|el]]", "[[at|a]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'in' con los meses del año."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-19/e11.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u19-e12",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Actions",
-    "difficulty": "medium",
-    "transcript": "I use a computer at work.",
+    "topic": "Prepositions of Time",
+    "difficulty": "easy",
+    "transcript": "My birthday is on June 15th.",
     "content": {
-      "title": "Herramientas",
-      "instructions": "Elige el objeto.",
+      "title": "Preposición: Fechas",
+      "instructions": "Elige la preposición correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[use|uso]] [[a|un]] _______ [[at|en]] [[work|trabajo]].",
-          "options": ["[[computer|ordenador]]", "[[bicycle|bicicleta]]", "[[bed|cama]]"],
+          "question": "[[My|Mi]] [[birthday|cumpleaños]] [[is|es]] _______ [[June|Junio]] [[15th|15]].",
+          "options": ["[[on|el]]", "[[in|en]]", "[[at|a]]"],
           "correctAnswer": 0,
-          "explanation": "Muchas personas usan ordenadores en el trabajo."
+          "explanation": "Usamos 'on' para fechas específicas (mes + día)."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-19/e12.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u19-e13",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Prepositions of Time",
     "difficulty": "medium",
-    "transcript": "This is Peter. He is 35 years old. Peter is an engineer. He works in a large factory in Manchester. He goes to work by car. Every day, he has meetings and talks to many people. He loves his job because it is interesting.",
+    "transcript": "Christmas is on December 25th.",
     "content": {
-      "title": "Lectura: El Trabajo de Peter",
-      "instructions": "Lee el texto y responde.\n\n*\"This is Peter. He is 35 years old. Peter is an engineer. He works in a large factory in Manchester. He goes to work by car. Every day, he has meetings and talks to many people. He loves his job because it is interesting.\"*",
-      "questions": [
-        {
-          "question": "[[What|Qué]] [[is|es]] [[Peter's|de Peter]] [[job|trabajo]]?",
-          "options": ["[[Engineer|Ingeniero]]", "[[Doctor|Médico]]", "[[Teacher|Profesor]]"],
-          "correctAnswer": 0,
-          "explanation": "Peter es ingeniero."
-        }
-      ]
+      "title": "Navidad",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[Christmas|Navidad]] [[is|es]] [[on|el]] [[December|Diciembre]] [[25th|25]].",
+      "words": ["[[Christmas|Navidad]]", "[[is|es]]", "[[on|el]]", "[[December|Diciembre]]", "[[25th|25]]."],
+      "explanation": "Usamos 'on' porque es una fecha específica."
     },
     "audioUrl": "audio/a1/unit-19/e13.mp3",
-    "topicName": "Reading"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u19-e14",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "medium",
-    "transcript": "This is Peter. He is 35 years old. Peter is an engineer. He works in a large factory in Manchester. He goes to work by car. Every day, he has meetings and talks to many people. He loves his job because it is interesting.",
+    "topic": "Asking about Dates",
+    "difficulty": "easy",
+    "transcript": "When is your birthday?",
     "content": {
-      "title": "Lectura: El Trabajo de Peter",
-      "instructions": "Lee el texto y responde.\n\n*\"This is Peter. He is 35 years old. Peter is an engineer. He works in a large factory in Manchester. He goes to work by car. Every day, he has meetings and talks to many people. He loves his job because it is interesting.\"*",
+      "title": "Preguntar el Cumpleaños",
+      "instructions": "Elige la palabra interrogativa correcta.",
       "questions": [
         {
-          "question": "[[Where|Dónde]] [[does|does]] [[he|él]] [[work|trabajar]]?",
-          "options": ["[[In a factory|En una fábrica]]", "[[In a school|En una escuela]]", "[[In a hospital|En un hospital]]"],
+          "question": "_______ [[is|es]] [[your|tu]] [[birthday|cumpleaños]]?",
+          "options": ["[[When|Cuándo]]", "[[Where|Dónde]]", "[[What|Qué]]"],
           "correctAnswer": 0,
-          "explanation": "Peter trabaja en una fábrica."
+          "explanation": "Usamos 'When' para preguntar por el tiempo o fechas."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-19/e14.mp3",
-    "topicName": "Reading"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u19-e15",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "medium",
-    "transcript": "This is Peter. He is 35 years old. Peter is an engineer. He works in a large factory in Manchester. He goes to work by car. Every day, he has meetings and talks to many people. He loves his job because it is interesting.",
+    "topic": "Asking about Dates",
+    "difficulty": "easy",
+    "transcript": "What is the date today?",
     "content": {
-      "title": "Lectura: El Trabajo de Peter",
-      "instructions": "Lee el texto y responde.\n\n*\"This is Peter. He is 35 years old. Peter is an engineer. He works in a large factory in Manchester. He goes to work by car. Every day, he has meetings and talks to many people. He loves his job because it is interesting.\"*",
-      "questions": [
-        {
-          "question": "[[How|Cómo]] [[does|does]] [[he|él]] [[go|ir]] [[to|a]] [[work|trabajo]]?",
-          "options": ["[[By car|En coche]]", "[[By train|En tren]]", "[[On foot|A pie]]"],
-          "correctAnswer": 0,
-          "explanation": "Peter va al trabajo en coche."
-        }
-      ]
+      "title": "La Fecha de Hoy",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[What|Cuál]] [[is|es]] [[the|la]] [[date|fecha]] [[today|hoy]]?",
+      "words": ["[[What|Cuál]]", "[[is|es]]", "[[the|la]]", "[[date|fecha]]", "[[today|hoy]]?"],
+      "explanation": "Pregunta estándar para saber la fecha."
     },
     "audioUrl": "audio/a1/unit-19/e15.mp3",
-    "topicName": "Reading"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u19-e16",
     "type": "flashcard",
     "level": "A1",
-    "topic": "Work Activities",
+    "topic": "Ordinal Numbers",
     "difficulty": "medium",
-    "transcript": "Answer emails. Have a meeting. Talk to customers. Make phone calls. Clean the floor. Cook food. Drive a bus. Sell products. Fix cars. Teach students.",
+    "transcript": "Eleventh. Twelfth. Thirteenth. Fourteenth. Fifteenth. Sixteenth. Seventeenth. Eighteenth. Nineteenth. Twentieth.",
     "content": {
-      "title": "Vocabulario: Tareas del Trabajo",
-      "instructions": "Aprende acciones comunes en el trabajo.",
+      "title": "Números Ordinales (11-20)",
+      "instructions": "Aprende los números del 11 al 20.",
       "items": [
-        { "front": "[[Answer emails|Responder emails]]", "back": "Responder correos electrónicos" },
-        { "front": "[[Have a meeting|Tener una reunión]]", "back": "Tener una reunión" },
-        { "front": "[[Talk to customers|Hablar con clientes]]", "back": "Hablar con clientes" },
-        { "front": "[[Make phone calls|Hacer llamadas]]", "back": "Hacer llamadas telefónicas" },
-        { "front": "[[Clean the floor|Limpiar el suelo]]", "back": "Limpiar el suelo" },
-        { "front": "[[Cook food|Cocinar comida]]", "back": "Cocinar comida" },
-        { "front": "[[Drive a bus|Conducir un bus]]", "back": "Conducir un autobús" },
-        { "front": "[[Sell products|Vender productos]]", "back": "Vender productos" },
-        { "front": "[[Fix cars|Arreglar coches]]", "back": "Arreglar coches / mecánicas" },
-        { "front": "[[Teach students|Enseñar alumnos]]", "back": "Enseñar a estudiantes" }
+        { "front": "[[Eleventh|Undécimo]] (11th)", "back": "11º" },
+        { "front": "[[Twelfth|Duodécimo]] (12th)", "back": "12º" },
+        { "front": "[[Thirteenth|Decimotercero]] (13th)", "back": "13º" },
+        { "front": "[[Fourteenth|Decimocuarto]] (14th)", "back": "14º" },
+        { "front": "[[Fifteenth|Decimoquinto]] (15th)", "back": "15º" },
+        { "front": "[[Sixteenth|Decimosexto]] (16th)", "back": "16º" },
+        { "front": "[[Seventeenth|Decimoséptimo]] (17th)", "back": "17º" },
+        { "front": "[[Eighteenth|Decimoctavo]] (18th)", "back": "18º" },
+        { "front": "[[Nineteenth|Decimonoveno]] (19th)", "back": "19º" },
+        { "front": "[[Twentieth|Vigésimo]] (20th)", "back": "20º" }
       ]
     },
     "audioUrl": "audio/a1/unit-19/e16.mp3",
@@ -354,18 +346,18 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "id": "a1-u19-e17",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Work Activities",
+    "topic": "Ordinal Numbers",
     "difficulty": "medium",
-    "transcript": "I have a meeting at 10 AM.",
+    "transcript": "Today is May twelfth.",
     "content": {
-      "title": "Reunión",
-      "instructions": "Completa la oración.",
+      "title": "Doce de Mayo",
+      "instructions": "Elige la escritura correcta de 12th.",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[a|una]] [[meeting|reunión]] [[at|a las]] [[10|10]] [[AM|AM]].",
-          "options": ["[[have|tengo]]", "[[do|hago]]", "[[make|hago]]"],
+          "question": "[[Today|Hoy]] [[is|es]] [[May|Mayo]] _______.",
+          "options": ["[[twelfth|12º]]", "[[twelve|12]]", "[[twelveth|12º]]"],
           "correctAnswer": 0,
-          "explanation": "Usamos 'have a meeting' para decir que tenemos una reunión."
+          "explanation": "El ordinal de 12 es 'twelfth' (con 'f')."
         }
       ]
     },
@@ -376,15 +368,15 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "id": "a1-u19-e18",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Work",
+    "topic": "Dates",
     "difficulty": "medium",
-    "transcript": "She answers emails all morning.",
+    "transcript": "His party is on July 4th.",
     "content": {
-      "title": "Responder Correos",
+      "title": "Fiesta de Julio",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[She|Ella]] [[answers|responde]] [[emails|emails]] [[all|toda]] [[morning|mañana]].",
-      "words": ["[[She|Ella]]", "[[answers|responde]]", "[[emails|emails]]", "[[all|toda]]", "[[morning|mañana]]."],
-      "explanation": "Verbo en tercera persona: 'answers'."
+      "correctSentence": "[[His|Su]] [[party|fiesta]] [[is|es]] [[on|el]] [[July|Julio]] [[4th|4]].",
+      "words": ["[[His|Su]]", "[[party|fiesta]]", "[[is|es]]", "[[on|el]]", "[[July|Julio]]", "[[4th|4]]."],
+      "explanation": "Usamos 'on' para fechas concretas."
     },
     "audioUrl": "audio/a1/unit-19/e18.mp3",
     "topicName": "Grammar"
@@ -393,18 +385,18 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "id": "a1-u19-e19",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Negative",
+    "topic": "Dates",
     "difficulty": "medium",
-    "transcript": "He doesn't like his job.",
+    "transcript": "The meeting is in September.",
     "content": {
-      "title": "No le gusta",
-      "instructions": "Elige la forma negativa correcta.",
+      "title": "Reunión en Septiembre",
+      "instructions": "Elige la preposición.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[like|gustar]] [[his|su]] [[job|trabajo]].",
-          "options": ["[[doesn't|no]]", "[[don't|no]]", "[[not|no]]"],
+          "question": "[[The|La]] [[meeting|reunión]] [[is|es]] _______ [[September|Septiembre]].",
+          "options": ["[[in|en]]", "[[on|el]]", "[[at|a]]"],
           "correctAnswer": 0,
-          "explanation": "Usamos 'doesn't' para negaciones con 'he'."
+          "explanation": "Usamos 'in' solo con el mes."
         }
       ]
     },
@@ -413,59 +405,60 @@ export const UNIT_19_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u19-e20",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Workplace",
-    "difficulty": "easy",
-    "transcript": "A teacher works in a school.",
+    "topic": "Dates",
+    "difficulty": "medium",
+    "transcript": "School starts in September.",
     "content": {
-      "title": "La Escuela",
-      "instructions": "Completa con el lugar correcto.",
-      "questions": [
-        {
-          "question": "[[A|Un]] [[teacher|profesor]] [[works|trabaja]] [[in|en]] [[a|una]] _______.",
-          "options": ["[[school|escuela]]", "[[office|oficina]]", "[[bank|banco]]"],
-          "correctAnswer": 0,
-          "explanation": "Los profesores trabajan en escuelas."
-        }
-      ]
+      "title": "Inicio de Clases",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[School|La escuela]] [[starts|comienza]] [[in|en]] [[September|Septiembre]].",
+      "words": ["[[School|La escuela]]", "[[starts|comienza]]", "[[in|en]]", "[[September|Septiembre]]."],
+      "explanation": "Estructura simple para eventos recurrentes."
     },
     "audioUrl": "audio/a1/unit-19/e20.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u19-e21",
-    "type": "sentence-building",
+    "type": "flashcard",
     "level": "A1",
-    "topic": "Questions",
+    "topic": "Ordinal Numbers",
     "difficulty": "medium",
-    "transcript": "Do you talk to customers?",
+    "transcript": "Twenty-first. Twenty-second. Twenty-third. Twenty-fourth. Twenty-fifth. Thirtieth. Thirty-first.",
     "content": {
-      "title": "Hablar con Clientes",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Do|Do]] [[you|tú]] [[talk|hablar]] [[to|a]] [[customers|clientes]]?",
-      "words": ["[[Do|Do]]", "[[you|tú]]", "[[talk|hablar]]", "[[to|a]]", "[[customers|clientes]]?"],
-      "explanation": "Pregunta de rutina laboral."
+      "title": "Números Ordinales (21-31)",
+      "instructions": "Aprende los números finales del mes.",
+      "items": [
+        { "front": "[[Twenty-first|Vigesimoprimero]] (21st)", "back": "21º" },
+        { "front": "[[Twenty-second|Vigesisegundo]] (22nd)", "back": "22º" },
+        { "front": "[[Twenty-third|Vigesitercero]] (23rd)", "back": "23º" },
+        { "front": "[[Twenty-fourth|Vigesicuarto]] (24th)", "back": "24º" },
+        { "front": "[[Twenty-fifth|Vigesiquinto]] (25th)", "back": "25º" },
+        { "front": "[[Thirtieth|Trigésimo]] (30th)", "back": "30º" },
+        { "front": "[[Thirty-first|Trigésimo primero]] (31st)", "back": "31º" }
+      ]
     },
     "audioUrl": "audio/a1/unit-19/e21.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u19-e22",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Jobs",
-    "difficulty": "easy",
-    "transcript": "An artist works in a studio.",
+    "topic": "Ordinal Numbers",
+    "difficulty": "medium",
+    "transcript": "Today is the twenty-first of March.",
     "content": {
-      "title": "El Estudio",
-      "instructions": "Elige el lugar de trabajo.",
+      "title": "21 de Marzo",
+      "instructions": "Elige la forma correcta del ordinal.",
       "questions": [
         {
-          "question": "[[An|Un]] [[artist|artista]] [[works|trabaja]] [[in|en]] [[a|un]] _______.",
-          "options": ["[[studio|estudio]]", "[[garage|taller]]", "[[shop|tienda]]"],
+          "question": "[[Today|Hoy]] [[is|es]] [[the|el]] _______ [[of|de]] [[March|Marzo]].",
+          "options": ["[[twenty-first|21º]]", "[[twenty-one|21]]", "[[twenty-onest|21º]]"],
           "correctAnswer": 0,
-          "explanation": "Los artistas suelen trabajar en estudios (studios)."
+          "explanation": "21st se escribe 'twenty-first'."
         }
       ]
     },
@@ -474,86 +467,76 @@ export const UNIT_19_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u19-e23",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Dates",
     "difficulty": "medium",
-    "transcript": "Maria is a nurse. She works at Night City Hospital. She works from 8 PM to 6 AM. She is very busy. Maria helps the doctors and talks to the patients. She doesn't like working at night, but she likes her colleagues. They are very friendly.",
+    "transcript": "Halloween is on October 31st.",
     "content": {
-      "title": "Lectura: La Enfermera Maria",
-      "instructions": "Lee el texto y responde.\n\n*\"Maria is a nurse. She works at Night City Hospital. She works from 8 PM to 6 AM. She is very busy. Maria helps the doctors and talks to the patients. She doesn't like working at night, but she likes her colleagues. They are very friendly.\"*",
-      "questions": [
-        {
-          "question": "[[Where|Dónde]] [[does|does]] [[Maria|Maria]] [[work|trabajar]]?",
-          "options": ["[[In a hospital|En un hospital]]", "[[In a school|En una escuela]]", "[[In a shop|En una tienda]]"],
-          "correctAnswer": 0,
-          "explanation": "Maria trabaja en un hospital."
-        }
-      ]
+      "title": "Halloween",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[Halloween|Halloween]] [[is|es]] [[on|el]] [[October|Octubre]] [[31st|31]].",
+      "words": ["[[Halloween|Halloween]]", "[[is|es]]", "[[on|el]]", "[[October|Octubre]]", "[[31st|31]]."],
+      "explanation": "Último día de octubre."
     },
     "audioUrl": "audio/a1/unit-19/e23.mp3",
-    "topicName": "Reading"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u19-e24",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Asking about Dates",
     "difficulty": "medium",
-    "transcript": "Maria is a nurse. She works at Night City Hospital. She works from 8 PM to 6 AM. She is very busy. Maria helps the doctors and talks to the patients. She doesn't like working at night, but she likes her colleagues. They are very friendly.",
+    "transcript": "When is the exam?",
     "content": {
-      "title": "Lectura: La Enfermera Maria",
-      "instructions": "Lee el texto y responde.\n\n*\"Maria is a nurse. She works at Night City Hospital. She works from 8 PM to 6 AM. She is very busy. Maria helps the doctors and talks to the patients. She doesn't like working at night, but she likes her colleagues. They are very friendly.\"*",
+      "title": "El Examen",
+      "instructions": "Completa la pregunta.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[time|hora]] [[does|does]] [[she|ella]] [[start|empezar]] [[work|trabajo]]?",
-          "options": ["[[8 PM|8 PM]]", "[[6 AM|6 AM]]", "[[10 PM|10 PM]]"],
+          "question": "_______ [[is|es]] [[the|el]] [[exam|examen]]?",
+          "options": ["[[When|Cuándo]]", "[[What|Qué]]", "[[Where|Dónde]]"],
           "correctAnswer": 0,
-          "explanation": "Maria empieza a trabajar a las 8 PM."
+          "explanation": "Preguntamos por la fecha del examen."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-19/e24.mp3",
-    "topicName": "Reading"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u19-e25",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Dates",
     "difficulty": "medium",
-    "transcript": "Maria is a nurse. She works at Night City Hospital. She works from 8 PM to 6 AM. She is very busy. Maria helps the doctors and talks to the patients. She doesn't like working at night, but she likes her colleagues. They are very friendly.",
+    "transcript": "The exam is on April 2nd.",
     "content": {
-      "title": "Lectura: La Enfermera Maria",
-      "instructions": "Lee el texto y responde.\n\n*\"Maria is a nurse. She works at Night City Hospital. She works from 8 PM to 6 AM. She is very busy. Maria helps the doctors and talks to the patients. She doesn't like working at night, but she likes her colleagues. They are very friendly.\"*",
-      "questions": [
-        {
-          "question": "[[Does|Does]] [[she|ella]] [[like|gustar]] [[her|sus]] [[colleagues|compañeros]]?",
-          "options": ["[[Yes, she does|Sí]]", "[[No, she doesn't|No]]", "[[She doesn't have colleagues|No tiene]]"],
-          "correctAnswer": 0,
-          "explanation": "A Maria le gustan sus compañeros porque son amigables."
-        }
-      ]
+      "title": "Fecha del Examen",
+      "instructions": "Ordena la respuesta.",
+      "correctSentence": "[[The|El]] [[exam|examen]] [[is|es]] [[on|el]] [[April|Abril]] [[2nd|2]].",
+      "words": ["[[The|El]]", "[[exam|examen]]", "[[is|es]]", "[[on|el]]", "[[April|Abril]]", "[[2nd|2]]."],
+      "explanation": "Usamos el ordinal 'second' para el día 2."
     },
     "audioUrl": "audio/a1/unit-19/e25.mp3",
-    "topicName": "Reading"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u19-e26",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Jobs",
-    "difficulty": "easy",
-    "transcript": "A driver drives a taxi.",
+    "topic": "Months",
+    "difficulty": "medium",
+    "transcript": "Next month is August.",
     "content": {
-      "title": "Conductor",
-      "instructions": "Completa con el verbo correcto.",
+      "title": "Mes Próximo",
+      "instructions": "Si ahora es Julio, ¿qué mes es el siguiente?",
       "questions": [
         {
-          "question": "[[A|Un]] [[driver|conductor]] _______ [[a|un]] [[taxi|taxi]].",
-          "options": ["[[drives|conduce]]", "[[flies|vuela]]", "[[teaches|enseña]]"],
+          "question": "[[Next|Próximo]] [[month|mes]] [[is|es]] _______.",
+          "options": ["[[August|Agosto]]", "[[September|Septiembre]]", "[[June|Junio]]"],
           "correctAnswer": 0,
-          "explanation": "Los conductores conducen (drive)."
+          "explanation": "August sigue a July."
         }
       ]
     },
@@ -564,18 +547,18 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "id": "a1-u19-e27",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Actions",
+    "topic": "Months",
     "difficulty": "medium",
-    "transcript": "I make phone calls every morning.",
+    "transcript": "Last month was April.",
     "content": {
-      "title": "Llamadas",
-      "instructions": "Elige el verbo adecuado.",
+      "title": "Mes Pasado",
+      "instructions": "Si ahora es Mayo, ¿cuál fue el mes pasado?",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[phone|teléfono]] [[calls|llamadas]] [[every|cada]] [[morning|mañana]].",
-          "options": ["[[make|hago]]", "[[do|hago]]", "[[have|tengo]]"],
+          "question": "[[Last|Pasado]] [[month|mes]] [[was|fue]] _______.",
+          "options": ["[[April|Abril]]", "[[March|Marzo]]", "[[June|Junio]]"],
           "correctAnswer": 0,
-          "explanation": "Decimos 'make phone calls'."
+          "explanation": "April va antes que May."
         }
       ]
     },
@@ -586,15 +569,15 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "id": "a1-u19-e28",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Work",
+    "topic": "Dates",
     "difficulty": "medium",
-    "transcript": "They sell clothes in a shop.",
+    "transcript": "I have a doctor's appointment in June.",
     "content": {
-      "title": "Ventas",
+      "title": "Cita Médica",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[They|Ellos]] [[sell|venden]] [[clothes|ropa]] [[in|en]] [[a|una]] [[shop|tienda]].",
-      "words": ["[[They|Ellos]]", "[[sell|venden]]", "[[clothes|ropa]]", "[[in|en]]", "[[a|una]]", "[[shop|tienda]]."],
-      "explanation": "Estructura Sujeto + Verbo + Objeto + Lugar."
+      "correctSentence": "[[I|Yo]] [[have|tengo]] [[a|una]] [[doctor's|del médico]] [[appointment|cita]] [[in|en]] [[June|Junio]].",
+      "words": ["[[I|Yo]]", "[[have|tengo]]", "[[a|una]]", "[[doctor's|del médico]]", "[[appointment|cita]]", "[[in|en]]", "[[June|Junio]]."],
+      "explanation": "Usamos 'in' con meses."
     },
     "audioUrl": "audio/a1/unit-19/e28.mp3",
     "topicName": "Vocabulary"
@@ -603,172 +586,158 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "id": "a1-u19-e29",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Questions",
-    "difficulty": "medium",
-    "transcript": "Does your brother work in a bank?",
+    "topic": "Seasons",
+    "difficulty": "easy",
+    "transcript": "Winter starts in December.",
     "content": {
-      "title": "Tu Hermano",
-      "instructions": "Completa con el auxiliar.",
+      "title": "Invierno",
+      "instructions": "Completa con la estación.",
       "questions": [
         {
-          "question": "_______ [[your|tu]] [[brother|hermano]] [[work|trabajar]] [[in|en]] [[a|un]] [[bank|banco]]?",
-          "options": ["[[Does|Does]]", "[[Do|Do]]", "[[Is|Is]]"],
+          "question": "_______ [[starts|comienza]] [[in|en]] [[December|Diciembre]].",
+          "options": ["[[Winter|Invierno]]", "[[Summer|Verano]]", "[[Spring|Primavera]]"],
           "correctAnswer": 0,
-          "explanation": "Usamos 'Does' porque 'your brother' es tercera persona singular (he)."
+          "explanation": "El invierno empieza en diciembre."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-19/e29.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u19-e30",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Negative",
-    "difficulty": "medium",
-    "transcript": "She doesn't answer the phone.",
+    "topic": "Seasons",
+    "difficulty": "easy",
+    "transcript": "Summer starts in June.",
     "content": {
-      "title": "No Contesta",
-      "instructions": "Elige la forma negativa.",
-      "questions": [
-        {
-          "question": "[[She|Ella]] _______ [[answer|contestar]] [[the|el]] [[phone|teléfono]].",
-          "options": ["[[doesn't|no]]", "[[don't|no]]", "[[not|no]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'doesn't' para 'she'."
-        }
-      ]
+      "title": "Verano",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[Summer|Verano]] [[starts|comienza]] [[in|en]] [[June|Junio]].",
+      "words": ["[[Summer|Verano]]", "[[starts|comienza]]", "[[in|en]]", "[[June|Junio]]."],
+      "explanation": "El verano empieza en junio."
     },
     "audioUrl": "audio/a1/unit-19/e30.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u19-e31",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Work Routine",
+    "topic": "Dates",
     "difficulty": "medium",
-    "transcript": "We have lunch at one o'clock.",
+    "transcript": "My birthday is on March 22nd.",
     "content": {
-      "title": "Almuerzo",
-      "instructions": "Ordena la oración sobre la rutina.",
-      "correctSentence": "[[We|Nosotros]] [[have|tenemos]] [[lunch|comida]] [[at|a]] [[one|una]] [[o'clock|en punto]].",
-      "words": ["[[We|Nosotros]]", "[[have|tenemos]]", "[[lunch|comida]]", "[[at|a]]", "[[one|una]]", "[[o'clock|en punto]]."],
-      "explanation": "Decimos 'have lunch' para almorzar."
+      "title": "Fecha de Cumpleaños",
+      "instructions": "Elige la forma correcta.",
+      "questions": [
+        {
+          "question": "[[My|Mi]] [[birthday|cumpleaños]] [[is|es]] [[on|el]] [[March|Marzo]] _______.",
+          "options": ["[[22nd|22º]]", "[[22th|22º]]", "[[22st|22º]]"],
+          "correctAnswer": 0,
+          "explanation": "Para el 22 usamos el sufijo 'nd' (second)."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-19/e31.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u19-e32",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Jobs",
-    "difficulty": "easy",
-    "transcript": "A police officer wears a uniform.",
+    "topic": "Dates",
+    "difficulty": "medium",
+    "transcript": "Valentine's Day is on February 14th.",
     "content": {
-      "title": "Uniforme",
-      "instructions": "Elige el objeto.",
+      "title": "San Valentín",
+      "instructions": "Completa la fecha.",
       "questions": [
         {
-          "question": "[[A|Un]] [[police|policía]] [[officer|oficial]] [[wears|lleva]] [[a|un]] _______.",
-          "options": ["[[uniform|uniforme]]", "[[hat|sombrero]]", "[[car|coche]]"],
+          "question": "[[Valentine's|De San Valentín]] [[Day|Día]] [[is|es]] [[on|el]] [[February|Febrero]] _______.",
+          "options": ["[[14th|14]]", "[[14st|14]]", "[[14rd|14]]"],
           "correctAnswer": 0,
-          "explanation": "Los policías suelen llevar uniforme."
+          "explanation": "La mayoría de los números terminan en 'th'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-19/e32.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u19-e33",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Dates",
     "difficulty": "medium",
-    "transcript": "Tom is a shop assistant. He works in a small clothes shop. He works from Tuesday to Saturday. He helps customers and sells shirts and pants. On Sundays and Mondays, he is at home. He likes his job because he likes fashion.",
+    "transcript": "Today is Friday, January 13th.",
     "content": {
-      "title": "Lectura: Tom el Dependiente",
-      "instructions": "Lee el texto y responde.\n\n*\"Tom is a shop assistant. He works in a small clothes shop. He works from Tuesday to Saturday. He helps customers and sells shirts and pants. On Sundays and Mondays, he is at home. He likes his job because he likes fashion.\"*",
-      "questions": [
-        {
-          "question": "[[What|Qué]] [[does|does]] [[Tom|Tom]] [[sell|vender]]?",
-          "options": ["[[Clothes|Ropa]]", "[[Food|Comida]]", "[[Cars|Coches]]"],
-          "correctAnswer": 0,
-          "explanation": "Tom vende ropa (camisas y pantalones)."
-        }
-      ]
+      "title": "Fecha Completa",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[Today|Hoy]] [[is|es]] [[Friday,|viernes,]] [[January|enero]] [[13th|13]].",
+      "words": ["[[Today|Hoy]]", "[[is|es]]", "[[Friday,|viernes,]]", "[[January|enero]]", "[[13th|13]]."],
+      "explanation": "Estructura: Día de la semana, Mes + Día ordinal."
     },
     "audioUrl": "audio/a1/unit-19/e33.mp3",
-    "topicName": "Reading"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u19-e34",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Dates",
     "difficulty": "medium",
-    "transcript": "Tom is a shop assistant. He works in a small clothes shop. He works from Tuesday to Saturday. He helps customers and sells shirts and pants. On Sundays and Mondays, he is at home. He likes his job because he likes fashion.",
+    "transcript": "My favorite day is December 24th.",
     "content": {
-      "title": "Lectura: Tom el Dependiente",
-      "instructions": "Lee el texto y responde.\n\n*\"Tom is a shop assistant. He works in a small clothes shop. He works from Tuesday to Saturday. He helps customers and sells shirts and pants. On Sundays and Mondays, he is at home. He likes his job because he likes fashion.\"*",
-      "questions": [
-        {
-          "question": "[[When|Cuándo]] [[is|está]] [[he|él]] [[at|en]] [[home|casa]]?",
-          "options": ["[[Sundays and Mondays|Domingos y lunes]]", "[[Tuesdays|Martes]]", "[[Saturdays|Sábados]]"],
-          "correctAnswer": 0,
-          "explanation": "Tom está en casa los domingos y lunes."
-        }
-      ]
+      "title": "Día Favorito",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[My|Mi]] [[favorite|favorito]] [[day|día]] [[is|es]] [[December|Diciembre]] [[24th|24]].",
+      "words": ["[[My|Mi]]", "[[favorite|favorito]]", "[[day|día]]", "[[is|es]]", "[[December|Diciembre]]", "[[24th|24]]."],
+      "explanation": "Nochebuena (Christmas Eve) es el 24 de diciembre."
     },
     "audioUrl": "audio/a1/unit-19/e34.mp3",
-    "topicName": "Reading"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u19-e35",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "medium",
-    "transcript": "Tom is a shop assistant. He works in a small clothes shop. He works from Tuesday to Saturday. He helps customers and sells shirts and pants. On Sundays and Mondays, he is at home. He likes his job because he likes fashion.",
+    "topic": "Ordinal Numbers",
+    "difficulty": "hard",
+    "transcript": "Twentieth.",
     "content": {
-      "title": "Lectura: Tom el Dependiente",
-      "instructions": "Lee el texto y responde.\n\n*\"Tom is a shop assistant. He works in a small clothes shop. He works from Tuesday to Saturday. He helps customers and sells shirts and pants. On Sundays and Mondays, he is at home. He likes his job because he likes fashion.\"*",
+      "title": "Escritura de Ordinales",
+      "instructions": "Elige la forma correcta de 20º.",
       "questions": [
         {
-          "question": "[[Why|Por qué]] [[does|does]] [[he|él]] [[like|gustar]] [[his|su]] [[job|trabajo]]?",
-          "options": ["[[He likes fashion|Le gusta la moda]]", "[[He likes the money|Le gusta el dinero]]", "[[He likes his boss|Le gusta su jefe]]"],
+          "question": "[[The|El]] [[twentieth|vigésimo]] [[day|día]].",
+          "options": ["[[twentieth|vigésimo]]", "[[twentyth|vigésimo]]", "[[twentith|vigésimo]]"],
           "correctAnswer": 0,
-          "explanation": "Le gusta el trabajo porque le gusta la moda (fashion)."
+          "explanation": "Se cambia la 'y' por 'ie' antes de añadir 'th'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-19/e35.mp3",
-    "topicName": "Reading"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u19-e36",
-    "type": "flashcard",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Work Conditions",
-    "difficulty": "medium",
-    "transcript": "Part-time job. Full-time job. Salary. Boss. Manager. Colleague. Team. Break. Vacation. Overtime.",
+    "topic": "Ordinal Numbers",
+    "difficulty": "hard",
+    "transcript": "Thirty-first.",
     "content": {
-      "title": "Vocabulario: Condiciones de Trabajo",
-      "instructions": "Aprende términos sobre la situación laboral.",
-      "items": [
-        { "front": "[[Part-time job|Trabajo a tiempo parcial]]", "back": "Trabajo a media jornada / tiempo parcial" },
-        { "front": "[[Full-time job|Trabajo a tiempo completo]]", "back": "Trabajo a jornada completa" },
-        { "front": "[[Salary|Salario]]", "back": "Salario / Sueldo" },
-        { "front": "[[Boss|Jefe]]", "back": "Jefe/a" },
-        { "front": "[[Manager|Gerente]]", "back": "Gerente / Manager" },
-        { "front": "[[Colleague|Compañero]]", "back": "Compañero/a de trabajo" },
-        { "front": "[[Team|Equipo]]", "back": "Equipo" },
-        { "front": "[[Break|Descanso]]", "back": "Descanso / Pausa" },
-        { "front": "[[Vacation|Vacaciones]]", "back": "Vacaciones" },
-        { "front": "[[Overtime|Horas extra]]", "back": "Horas extraordinarias" }
+      "title": "Escritura de Ordinales",
+      "instructions": "Elige la forma correcta de 31º.",
+      "questions": [
+        {
+          "question": "[[The|El]] [[thirty-first|trigésimo primero]] [[day|día]].",
+          "options": ["[[thirty-first|31º]]", "[[thirty-one|31]]", "[[thirty-onest|31º]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'first' para el número uno en ordinales compuestos."
+        }
       ]
     },
     "audioUrl": "audio/a1/unit-19/e36.mp3",
@@ -776,81 +745,76 @@ export const UNIT_19_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u19-e37",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Conditions",
+    "topic": "Dates",
     "difficulty": "medium",
-    "transcript": "I have a full-time job.",
+    "transcript": "The party is on June 23rd.",
     "content": {
-      "title": "Jornada Completa",
-      "instructions": "Completa la oración.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] [[have|tengo]] [[a|un]] _______ [[job|trabajo]].",
-          "options": ["[[full-time|tiempo completo]]", "[[break|descanso]]", "[[salary|salario]]"],
-          "correctAnswer": 0,
-          "explanation": "'Full-time job' es un trabajo a jornada completa."
-        }
-      ]
+      "title": "La Fiesta",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[The|La]] [[party|fiesta]] [[is|es]] [[on|el]] [[June|Junio]] [[23rd|23]].",
+      "words": ["[[The|La]]", "[[party|fiesta]]", "[[is|es]]", "[[on|el]]", "[[June|Junio]]", "[[23rd|23]]."],
+      "explanation": "Usamos 'rd' para el número 3."
     },
     "audioUrl": "audio/a1/unit-19/e37.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u19-e38",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Colleagues",
-    "difficulty": "easy",
-    "transcript": "My colleagues are very nice.",
+    "topic": "Dates",
+    "difficulty": "medium",
+    "transcript": "His birthday is on August 30th.",
     "content": {
-      "title": "Compañeros",
-      "instructions": "Elige la palabra para compañeros.",
-      "questions": [
-        {
-          "question": "[[My|Mis]] _______ [[are|son]] [[very|muy]] [[nice|majos]].",
-          "options": ["[[colleagues|compañeros]]", "[[bosses|jefes]]", "[[managers|gerentes]]"],
-          "correctAnswer": 0,
-          "explanation": "'Colleagues' son las personas con las que trabajas."
-        }
-      ]
+      "title": "Cumpleaños de Él",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[His|Su]] [[birthday|cumpleaños]] [[is|es]] [[on|el]] [[August|Agosto]] [[30th|30]].",
+      "words": ["[[His|Su]]", "[[birthday|cumpleaños]]", "[[is|es]]", "[[on|el]]", "[[August|Agosto]]", "[[30th|30]]."],
+      "explanation": "Usamos 'on' para la fecha."
     },
     "audioUrl": "audio/a1/unit-19/e38.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u19-e39",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Routine",
+    "topic": "Prepositions",
     "difficulty": "medium",
-    "transcript": "I take a break at 11 o'clock.",
+    "transcript": "I was born in 1990.",
     "content": {
-      "title": "Tomar un Descanso",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[I|Yo]] [[take|tomo]] [[a|un]] [[break|descanso]] [[at|a las]] [[11|11]] [[o'clock|en punto]].",
-      "words": ["[[I|Yo]]", "[[take|tomo]]", "[[a|un]]", "[[break|descanso]]", "[[at|a las]]", "[[11|11]]", "[[o'clock|en punto]]."],
-      "explanation": "Usamos 'take a break' para decir descansar."
+      "title": "Años",
+      "instructions": "Elige la preposición para el año.",
+      "questions": [
+        {
+          "question": "[[I|Yo]] [[was|fui/era]] [[born|nacido]] _______ [[1990|1990]].",
+          "options": ["[[in|en]]", "[[on|el]]", "[[at|a]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'in' para años, meses y estaciones."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-19/e39.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u19-e40",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Third Person",
+    "topic": "Prepositions",
     "difficulty": "medium",
-    "transcript": "My manager speaks English and Spanish.",
+    "transcript": "The concert is on Saturday night.",
     "content": {
-      "title": "Idiomas",
-      "instructions": "Completa con el verbo en tercera persona.",
+      "title": "Días",
+      "instructions": "Elige la preposición para el día.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[manager|gerente]] _______ [[English|inglés]] [[and|y]] [[Spanish|español]].",
-          "options": ["[[speaks|habla]]", "[[speak|habla]]", "[[speaking|hablando]]"],
+          "question": "[[The|El]] [[concert|concierto]] [[is|es]] _______ [[Saturday|Sábado]] [[night|noche]].",
+          "options": ["[[on|el]]", "[[in|en]]", "[[at|a]]"],
           "correctAnswer": 0,
-          "explanation": "'My manager' es tercera persona singular (he/she), por eso 'speaks'."
+          "explanation": "Usamos 'on' para días de la semana."
         }
       ]
     },
@@ -863,16 +827,16 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Questions",
     "difficulty": "easy",
-    "transcript": "Do you like your boss?",
+    "transcript": "When is your birthday?",
     "content": {
-      "title": "El Jefe",
+      "title": "¿Cuándo?",
       "instructions": "Completa la pregunta.",
       "questions": [
         {
-          "question": "_______ [[you|tú]] [[like|gustar]] [[your|tu]] [[boss|jefe]]?",
-          "options": ["[[Do|Do]]", "[[Does|Does]]", "[[Are|Are]]"],
+          "question": "_______ [[is|es]] [[your|tu]] [[birthday|cumpleaños]]?",
+          "options": ["[[When|Cuándo]]", "[[How|Cómo]]", "[[Who|Quién]]"],
           "correctAnswer": 0,
-          "explanation": "Usamos 'Do' para 'you'."
+          "explanation": "When se usa para tiempo."
         }
       ]
     },
@@ -881,103 +845,98 @@ export const UNIT_19_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u19-e42",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Work",
-    "difficulty": "medium",
-    "transcript": "I don't have a job right now.",
+    "topic": "Questions",
+    "difficulty": "easy",
+    "transcript": "When is New Year's Day?",
     "content": {
-      "title": "Sin Trabajo",
-      "instructions": "Ordena la oración negativa.",
-      "correctSentence": "[[I|Yo]] [[don't|no]] [[have|tengo]] [[a|un]] [[job|trabajo]] [[right|ahora]] [[now|mismo]].",
-      "words": ["[[I|Yo]]", "[[don't|no]]", "[[have|tengo]]", "[[a|un]]", "[[job|trabajo]]", "[[right|ahora]]", "[[now|mismo]]."],
-      "explanation": "Estructura negativa para 'I'."
+      "title": "Año Nuevo",
+      "instructions": "Responde a la pregunta.",
+      "questions": [
+        {
+          "question": "[[When|Cuándo]] [[is|es]] [[New|Nuevo]] [[Year's|de Año]] [[Day|Día]]?",
+          "options": ["[[January|Enero]] [[1st|1]]", "[[December|Diciembre]] [[31st|31]]", "[[January|Enero]] [[31st|31]]"],
+          "correctAnswer": 0,
+          "explanation": "El día de Año Nuevo es el 1 de enero."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-19/e42.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u19-e43",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Dates",
     "difficulty": "medium",
-    "transcript": "Anna and Mark work in the same office. Anna is a manager and Mark is a designer. They work in a creative team. Anna answers many emails and has meetings every day. Mark works on his computer and creates beautiful images. They have a coffee break at 10:30.",
+    "transcript": "It is on January 1st.",
     "content": {
-      "title": "Lectura: Anna y Mark",
-      "instructions": "Lee el texto y responde.\n\n*\"Anna and Mark work in the same office. Anna is a manager and Mark is a designer. They work in a creative team. Anna answers many emails and has meetings every day. Mark works on his computer and creates beautiful images. They have a coffee break at 10:30.\"*",
-      "questions": [
-        {
-          "question": "[[What|Qué]] [[is|es]] [[Mark's|de Mark]] [[job|trabajo]]?",
-          "options": ["[[Designer|Diseñador]]", "[[Manager|Gerente]]", "[[Doctor|Médico]]"],
-          "correctAnswer": 0,
-          "explanation": "Mark es diseñador."
-        }
-      ]
+      "title": "Respuesta Corta",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[It|Eso]] [[is|es]] [[on|el]] [[January|Enero]] [[1st|1]].",
+      "words": ["[[It|Eso]]", "[[is|es]]", "[[on|el]]", "[[January|Enero]]", "[[1st|1]]."],
+      "explanation": "Estructura para responder sobre una fecha."
     },
     "audioUrl": "audio/a1/unit-19/e43.mp3",
-    "topicName": "Reading"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u19-e44",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Dates",
     "difficulty": "medium",
-    "transcript": "Anna and Mark work in the same office. Anna is a manager and Mark is a designer. They work in a creative team. Anna answers many emails and has meetings every day. Mark works on his computer and creates beautiful images. They have a coffee break at 10:30.",
+    "transcript": "Valentine's Day is in February.",
     "content": {
-      "title": "Lectura: Anna y Mark",
-      "instructions": "Lee el texto y responde.\n\n*\"Anna and Mark work in the same office. Anna is a manager and Mark is a designer. They work in a creative team. Anna answers many emails and has meetings every day. Mark works on his computer and creates beautiful images. They have a coffee break at 10:30.\"*",
-      "questions": [
-        {
-          "question": "[[What|Qué]] [[does|does]] [[Anna|Anna]] [[do|hacer]]?",
-          "options": ["[[Emails and meetings|Emails y reuniones]]", "[[Creates images|Crea imágenes]]", "[[Drives a taxi|Conduce un taxi]]"],
-          "correctAnswer": 0,
-          "explanation": "Anna responde correos y tiene reuniones."
-        }
-      ]
+      "title": "Mes de San Valentín",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[Valentine's|San Valentín]] [[Day|Día]] [[is|es]] [[in|en]] [[February|Febrero]].",
+      "words": ["[[Valentine's|San Valentín]]", "[[Day|Día]]", "[[is|es]]", "[[in|en]]", "[[February|Febrero]]."],
+      "explanation": "Usamos 'in' solo con el mes."
     },
     "audioUrl": "audio/a1/unit-19/e44.mp3",
-    "topicName": "Reading"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u19-e45",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "medium",
-    "transcript": "Anna and Mark work in the same office. Anna is a manager and Mark is a designer. They work in a creative team. Anna answers many emails and has meetings every day. Mark works on his computer and creates beautiful images. They have a coffee break at 10:30.",
+    "topic": "Seasons",
+    "difficulty": "easy",
+    "transcript": "What is your favorite season?",
     "content": {
-      "title": "Lectura: Anna y Mark",
-      "instructions": "Lee el texto y responde.\n\n*\"Anna and Mark work in the same office. Anna is a manager and Mark is a designer. They work in a creative team. Anna answers many emails and has meetings every day. Mark works on his computer and creates beautiful images. They have a coffee break at 10:30.\"*",
+      "title": "Estación Favorita",
+      "instructions": "Completa la pregunta.",
       "questions": [
         {
-          "question": "[[When|Cuándo]] [[is|es]] [[their|su]] [[coffee|café]] [[break|descanso]]?",
-          "options": ["[[10:30|10:30]]", "[[12:00|12:00]]", "[[9:00|9:00]]"],
+          "question": "[[What|Cuál]] [[is|es]] [[your|tu]] [[favorite|favorita]] _______?",
+          "options": ["[[season|estación]]", "[[month|mes]]", "[[day|día]]"],
           "correctAnswer": 0,
-          "explanation": "Su descanso para el café es a las 10:30."
+          "explanation": "Season significa estación del año."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-19/e45.mp3",
-    "topicName": "Reading"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u19-e46",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Actions",
+    "topic": "Seasons",
     "difficulty": "easy",
-    "transcript": "I cook food in a kitchen.",
+    "transcript": "My favorite season is Spring.",
     "content": {
-      "title": "Cocinar",
-      "instructions": "Elige el verbo.",
+      "title": "Primavera",
+      "instructions": "Responde a la pregunta.",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[food|comida]] [[in|en]] [[a|una]] [[kitchen|cocina]].",
-          "options": ["[[cook|cocino]]", "[[drive|conduzco]]", "[[sell|vendo]]"],
+          "question": "[[My|Mi]] [[favorite|favorita]] [[season|estación]] [[is|es]] _______.",
+          "options": ["[[Spring|Primavera]]", "[[Winter|Invierno]]", "[[Autumn|Otoño]]"],
           "correctAnswer": 0,
-          "explanation": "Cocinamos (cook) en la cocina."
+          "explanation": "Spring es primavera."
         }
       ]
     },
@@ -986,39 +945,34 @@ export const UNIT_19_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u19-e47",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Actions",
+    "topic": "Seasons",
     "difficulty": "medium",
-    "transcript": "She teaches English at university.",
+    "transcript": "Spring starts in March.",
     "content": {
-      "title": "Enseñar",
-      "instructions": "Completa con el verbo correcto.",
-      "questions": [
-        {
-          "question": "[[She|Ella]] _______ [[English|inglés]] [[at|en la]] [[university|universidad]].",
-          "options": ["[[teaches|enseña]]", "[[teaches|enseña]]", "[[studying|estudiando]]"],
-          "correctAnswer": 0,
-          "explanation": "'She teaches' (ella enseña) - añadimos -es a verbos que acaban en ch."
-        }
-      ]
+      "title": "Inicio de Primavera",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[Spring|Primavera]] [[starts|comienza]] [[in|en]] [[March|Marzo]].",
+      "words": ["[[Spring|Primavera]]", "[[starts|comienza]]", "[[in|en]]", "[[March|Marzo]]."],
+      "explanation": "En el hemisferio norte empieza en marzo."
     },
     "audioUrl": "audio/a1/unit-19/e47.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u19-e48",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Work",
+    "topic": "Seasons",
     "difficulty": "medium",
-    "transcript": "They work in a bank from 9 to 5.",
+    "transcript": "Autumn starts in September.",
     "content": {
-      "title": "Horario Bancario",
+      "title": "Inicio de Otoño",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[They|Ellos]] [[work|trabajan]] [[in|en]] [[a|un]] [[bank|banco]] [[from|de]] [[9|9]] [[to|a]] [[5|5]].",
-      "words": ["[[They|Ellos]]", "[[work|trabajan]]", "[[in|en]]", "[[a|un]]", "[[bank|banco]]", "[[from|de]]", "[[9|9]]", "[[to|a]]", "[[5|5]]."],
-      "explanation": "Decimos 'from (time) to (time)' para horarios."
+      "correctSentence": "[[Autumn|Otoño]] [[starts|comienza]] [[in|en]] [[September|Septiembre]].",
+      "words": ["[[Autumn|Otoño]]", "[[starts|comienza]]", "[[in|en]]", "[[September|Septiembre]]."],
+      "explanation": "Autumn (Otoño) empieza en septiembre."
     },
     "audioUrl": "audio/a1/unit-19/e48.mp3",
     "topicName": "Vocabulary"
@@ -1027,40 +981,40 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "id": "a1-u19-e49",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Salary",
+    "topic": "Questions",
     "difficulty": "medium",
-    "transcript": "Do you have a good salary?",
+    "transcript": "When is her birthday?",
     "content": {
-      "title": "El Sueldo",
-      "instructions": "Completa la pregunta.",
+      "title": "Cumpleaños de Ella",
+      "instructions": "Completa la pregunta con el posesivo.",
       "questions": [
         {
-          "question": "[[Do|Do]] [[you|tú]] [[have|tener]] [[a|un]] [[good|buen]] _______?",
-          "options": ["[[salary|salario]]", "[[break|descanso]]", "[[team|equipo]]"],
+          "question": "[[When|Cuándo]] [[is|es]] _______ [[birthday|cumpleaños]]?",
+          "options": ["[[her|su (de ella)]]", "[[his|su (de él)]]", "[[your|tu]]"],
           "correctAnswer": 0,
-          "explanation": "'Salary' es el sueldo que recibes por tu trabajo."
+          "explanation": "Usamos 'her' para posesivo femenino singular."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-19/e49.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u19-e50",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Negative",
-    "difficulty": "easy",
-    "transcript": "We don't work at the weekend.",
+    "topic": "Dates",
+    "difficulty": "medium",
+    "transcript": "Her birthday is in July.",
     "content": {
-      "title": "Fines de Semana",
-      "instructions": "Elige la forma negativa.",
+      "title": "Respuesta: Mes",
+      "instructions": "Elige la respuesta correcta.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] _______ [[work|trabajar]] [[at|en]] [[the|el]] [[weekend|fin de semana]].",
-          "options": ["[[don't|no]]", "[[doesn't|no]]", "[[not|no]]"],
+          "question": "[[Her|Su]] [[birthday|cumpleaños]] [[is|es]] _______ [[July|Julio]].",
+          "options": ["[[in|en]]", "[[on|el]]", "[[at|a]]"],
           "correctAnswer": 0,
-          "explanation": "Usamos 'don't' para 'we'."
+          "explanation": "Usamos 'in' con meses."
         }
       ]
     },
@@ -1069,59 +1023,64 @@ export const UNIT_19_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u19-e51",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Job Search",
-    "difficulty": "medium",
-    "transcript": "I am looking for a new job.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "Sarah has a big family. Her birthday is in May. Her father's birthday is in January. Her mother's birthday is in October. Sarah loves family parties. This year, her party is on May 12th.",
     "content": {
-      "title": "Buscar Trabajo",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[I|Yo]] [[am|estoy]] [[looking|buscando]] [[for|por]] [[a|un]] [[new|nuevo]] [[job|trabajo]].",
-      "words": ["[[I|Yo]]", "[[am|estoy]]", "[[looking|buscando]]", "[[for|por]]", "[[a|un]]", "[[new|nuevo]]", "[[job|trabajo]]."],
-      "explanation": "'Look for' significa buscar."
+      "title": "Lectura: La Familia de Sarah",
+      "instructions": "Lee el texto y responde.\n\n*\"Sarah has a big family. Her birthday is in May. Her father's birthday is in January. Her mother's birthday is in October. Sarah loves family parties. This year, her party is on May 12th.\"*",
+      "questions": [
+        {
+          "question": "[[When|Cuándo]] [[is|es]] [[Sarah's|de Sarah]] [[birthday|cumpleaños]]?",
+          "options": ["[[In May|En mayo]]", "[[In January|En enero]]", "[[In October|En octubre]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'Her birthday is in May'."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-19/e51.mp3",
-    "topicName": "Grammar"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u19-e52",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Jobs",
-    "difficulty": "medium",
-    "transcript": "An engineer fixes machines.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "Sarah has a big family. Her birthday is in May. Her father's birthday is in January. Her mother's birthday is in October. Sarah loves family parties. This year, her party is on May 12th.",
     "content": {
-      "title": "Ingeniero",
-      "instructions": "Elige el verbo correcto.",
+      "title": "Lectura: La Familia de Sarah",
+      "instructions": "Lee el texto y responde.\n\n*\"Sarah has a big family. Her birthday is in May. Her father's birthday is in January. Her mother's birthday is in October. Sarah loves family parties. This year, her party is on May 12th.\"*",
       "questions": [
         {
-          "question": "[[An|Un]] [[engineer|ingeniero]] _______ [[machines|máquinas]].",
-          "options": ["[[fixes|arregla]]", "[[sells|vende]]", "[[drives|conduce]]"],
+          "question": "[[When|Cuándo]] [[is|es]] [[her|su]] [[father's|del padre]] [[birthday|cumpleaños]]?",
+          "options": ["[[In January|En enero]]", "[[In May|En mayo]]", "[[In October|En octubre]]"],
           "correctAnswer": 0,
-          "explanation": "Los ingenieros arreglan o diseñan máquinas (fixes)."
+          "explanation": "El texto dice: 'Her father's birthday is in January'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-19/e52.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u19-e53",
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading Comprehension",
-    "difficulty": "medium",
-    "transcript": "Meet Carlos. He is from Mexico but he lives in London. Carlos is a chef. He works in a famous Mexican restaurant. He works in the evenings from 4 PM to midnight. He makes delicious tacos and enchiladas. He works in a busy kitchen with five other chefs. He is tired after work, but he is happy.",
+    "difficulty": "hard",
+    "transcript": "Sarah has a big family. Her birthday is in May. Her father's birthday is in January. Her mother's birthday is in October. Sarah loves family parties. This year, her party is on May 12th.",
     "content": {
-      "title": "Lectura: Carlos el Chef",
-      "instructions": "Lee el texto y responde.\n\n*\"Meet Carlos. He is from Mexico but he lives in London. Carlos is a chef. He works in a famous Mexican restaurant. He works in the evenings from 4 PM to midnight. He makes delicious tacos and enchiladas. He works in a busy kitchen with five other chefs. He is tired after work, but he is happy.\"*",
+      "title": "Lectura: La Familia de Sarah",
+      "instructions": "Lee el texto y responde.\n\n*\"Sarah has a big family. Her birthday is in May. Her father's birthday is in January. Her mother's birthday is in October. Sarah loves family parties. This year, her party is on May 12th.\"*",
       "questions": [
         {
-          "question": "[[What|Qué]] [[is|es]] [[Carlos's|de Carlos]] [[job|trabajo]]?",
-          "options": ["[[Chef|Chef]]", "[[Waiter|Camarero]]", "[[Driver|Conductor]]"],
+          "question": "[[When|Cuándo]] [[is|es]] [[the|la]] [[party|fiesta]] [[this|este]] [[year|año]]?",
+          "options": ["[[On May 12th|El 12 de mayo]]", "[[On May 1st|El 1 de mayo]]", "[[In October|En octubre]]"],
           "correctAnswer": 0,
-          "explanation": "Carlos es chef."
+          "explanation": "El texto dice: 'her party is on May 12th'."
         }
       ]
     },
@@ -1133,17 +1092,17 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading Comprehension",
-    "difficulty": "medium",
-    "transcript": "Meet Carlos. He is from Mexico but he lives in London. Carlos is a chef. He works in a famous Mexican restaurant. He works in the evenings from 4 PM to midnight. He makes delicious tacos and enchiladas. He works in a busy kitchen with five other chefs. He is tired after work, but he is happy.",
+    "difficulty": "hard",
+    "transcript": "Our school has many holidays. We have a holiday in December for Christmas. We have another holiday in April for Spring. The long summer holiday starts on June 22nd and ends in September. I love holidays!",
     "content": {
-      "title": "Lectura: Carlos el Chef",
-      "instructions": "Lee el texto y responde.\n\n*\"Meet Carlos. He is from Mexico but he lives in London. Carlos is a chef. He works in a famous Mexican restaurant. He works in the evenings from 4 PM to midnight. He makes delicious tacos and enchiladas. He works in a busy kitchen with five other chefs. He is tired after work, but he is happy.\"*",
+      "title": "Lectura: Vacaciones Escolares",
+      "instructions": "Lee el texto y responde.\n\n*\"Our school has many holidays. We have a holiday in December for Christmas. We have another holiday in April for Spring. The long summer holiday starts on June 22nd and ends in September. I love holidays!\"*",
       "questions": [
         {
-          "question": "[[When|Cuándo]] [[does|does]] [[he|él]] [[work|trabajar]]?",
-          "options": ["[[In the evenings|Por las tardes/noches]]", "[[In the mornings|Por las mañanas]]", "[[All day|Todo el día]]"],
+          "question": "[[When|Cuándo]] [[is|es]] [[the|la]] [[Christmas|de Navidad]] [[holiday|vacación]]?",
+          "options": ["[[In December|En diciembre]]", "[[In April|En abril]]", "[[In June|En junio]]"],
           "correctAnswer": 0,
-          "explanation": "Carlos trabaja por las tardes/noches (evenings)."
+          "explanation": "El texto dice: 'holiday in December for Christmas'."
         }
       ]
     },
@@ -1155,17 +1114,17 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading Comprehension",
-    "difficulty": "medium",
-    "transcript": "Meet Carlos. He is from Mexico but he lives in London. Carlos is a chef. He works in a famous Mexican restaurant. He works in the evenings from 4 PM to midnight. He makes delicious tacos and enchiladas. He works in a busy kitchen with five other chefs. He is tired after work, but he is happy.",
+    "difficulty": "hard",
+    "transcript": "Our school has many holidays. We have a holiday in December for Christmas. We have another holiday in April for Spring. The long summer holiday starts on June 22nd and ends in September. I love holidays!",
     "content": {
-      "title": "Lectura: Carlos el Chef",
-      "instructions": "Lee el texto y responde.\n\n*\"Meet Carlos. He is from Mexico but he lives in London. Carlos is a chef. He works in a famous Mexican restaurant. He works in the evenings from 4 PM to midnight. He makes delicious tacos and enchiladas. He works in a busy kitchen with five other chefs. He is tired after work, but he is happy.\"*",
+      "title": "Lectura: Vacaciones Escolares",
+      "instructions": "Lee el texto y responde.\n\n*\"Our school has many holidays. We have a holiday in December for Christmas. We have another holiday in April for Spring. The long summer holiday starts on June 22nd and ends in September. I love holidays!\"*",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[does|does]] [[he|él]] [[feel|sentirse]] [[after|después de]] [[work|trabajo]]?",
-          "options": ["[[Tired|Cansado]]", "[[Bored|Aburrido]]", "[[Sad|Triste]]"],
+          "question": "[[When|Cuándo]] [[does|does]] [[the|la]] [[summer|de verano]] [[holiday|vacación]] [[start|empezar]]?",
+          "options": ["[[On June 22nd|El 22 de junio]]", "[[In April|En abril]]", "[[In September|En septiembre]]"],
           "correctAnswer": 0,
-          "explanation": "Carlos se siente cansado (tired) después del trabajo."
+          "explanation": "El texto dice: 'starts on June 22nd'."
         }
       ]
     },
@@ -1176,100 +1135,110 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "id": "a1-u19-e56",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vacation",
-    "difficulty": "easy",
-    "transcript": "I am on vacation this week.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "Our school has many holidays. We have a holiday in December for Christmas. We have another holiday in April for Spring. The long summer holiday starts on June 22nd and ends in September. I love holidays!",
     "content": {
-      "title": "Vacaciones",
-      "instructions": "Completa con la palabra correcta.",
+      "title": "Lectura: Vacaciones Escolares",
+      "instructions": "Lee el texto y responde.\n\n*\"Our school has many holidays. We have a holiday in December for Christmas. We have another holiday in April for Spring. The long summer holiday starts on June 22nd and ends in September. I love holidays!\"*",
       "questions": [
         {
-          "question": "[[I|Yo]] [[am|estoy]] [[on|en]] _______ [[this|esta]] [[week|semana]].",
-          "options": ["[[vacation|vacaciones]]", "[[salary|salario]]", "[[meeting|reunión]]"],
+          "question": "[[When|Cuándo]] [[does|does]] [[it|ello]] [[end|terminar]]?",
+          "options": ["[[In September|En septiembre]]", "[[In June|En junio]]", "[[In December|En diciembre]]"],
           "correctAnswer": 0,
-          "explanation": "Decimos 'on vacation' para estar de vacaciones."
+          "explanation": "El texto dice: 'ends in September'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-19/e56.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u19-e57",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Team",
-    "difficulty": "easy",
-    "transcript": "We work in a great team.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "David is going to the London Museum. The visit is on Friday, November 3rd. He is going with his friend Paul. They are meeting at 10 AM. David is very happy because he loves history. After the museum, they are having lunch.",
     "content": {
-      "title": "El Equipo",
-      "instructions": "Elige la palabra correcta.",
+      "title": "Lectura: Visita al Museo",
+      "instructions": "Lee el texto y responde.\n\n*\"David is going to the London Museum. The visit is on Friday, November 3rd. He is going with his friend Paul. They are meeting at 10 AM. David is very happy because he loves history. After the museum, they are having lunch.\"*",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[work|trabajamos]] [[in|en]] [[a|un]] [[great|gran]] _______.",
-          "options": ["[[team|equipo]]", "[[boss|jefe]]", "[[break|descanso]]"],
+          "question": "[[When|Cuándo]] [[is|es]] [[the|la]] [[visit|visita]]?",
+          "options": ["[[On November 3rd|El 3 de noviembre]]", "[[On November 10th|El 10 de noviembre]]", "[[On Friday night|El viernes noche]]"],
           "correctAnswer": 0,
-          "explanation": "Un 'team' es un grupo de personas que trabajan juntas."
+          "explanation": "El texto dice: 'visit is on Friday, November 3rd'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-19/e57.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u19-e58",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Routine",
-    "difficulty": "medium",
-    "transcript": "My sister works in a bank in Madrid.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "David is going to the London Museum. The visit is on Friday, November 3rd. He is going with his friend Paul. They are meeting at 10 AM. David is very happy because he loves history. After the museum, they are having lunch.",
     "content": {
-      "title": "Mi Hermana",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[My|Mi]] [[sister|hermana]] [[works|trabaja]] [[in|en]] [[a|un]] [[bank|banco]] [[in|en]] [[Madrid|Madrid]].",
-      "words": ["[[My|Mi]]", "[[sister|hermana]]", "[[works|trabaja]]", "[[in|en]]", "[[a|un]]", "[[bank|banco]]", "[[in|en]]", "[[Madrid|Madrid]]."],
-      "explanation": "Recuerda la -s en 'works' para tercera persona (she)."
+      "title": "Lectura: Visita al Museo",
+      "instructions": "Lee el texto y responde.\n\n*\"David is going to the London Museum. The visit is on Friday, November 3rd. He is going with his friend Paul. They are meeting at 10 AM. David is very happy because he loves history. After the museum, they are having lunch.\"*",
+      "questions": [
+        {
+          "question": "[[Who|Con quién]] [[is|está]] [[he|él]] [[going|yendo]] [[with|con]]?",
+          "options": ["[[With Paul|Con Paul]]", "[[With his mother|Con su madre]]", "[[Alone|Solo]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'going with his friend Paul'."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-19/e58.mp3",
-    "topicName": "Grammar"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u19-e59",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Office",
-    "difficulty": "easy",
-    "transcript": "Is there a meeting room?",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "David is going to the London Museum. The visit is on Friday, November 3rd. He is going with his friend Paul. They are meeting at 10 AM. David is very happy because he loves history. After the museum, they are having lunch.",
     "content": {
-      "title": "Sala de Reuniones",
-      "instructions": "Completa la pregunta.",
+      "title": "Lectura: Visita al Museo",
+      "instructions": "Lee el texto y responde.\n\n*\"David is going to the London Museum. The visit is on Friday, November 3rd. He is going with his friend Paul. They are meeting at 10 AM. David is very happy because he loves history. After the museum, they are having lunch.\"*",
       "questions": [
         {
-          "question": "_______ [[there|hay]] [[a|una]] [[meeting|reunión]] [[room|sala]]?",
-          "options": ["[[Is|Hay]]", "[[Are|Hay]]", "[[Do|Hacer]]"],
+          "question": "[[What|Qué]] [[time|hora]] [[are|están]] [[they|ellos]] [[meeting|quedando]]?",
+          "options": ["[[At 10 AM|A las 10 AM]]", "[[At 10 PM|A las 10 PM]]", "[[At lunch|En el almuerzo]]"],
           "correctAnswer": 0,
-          "explanation": "Usamos 'Is there' para preguntar por la existencia de algo en singular."
+          "explanation": "El texto dice: 'meeting at 10 AM'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-19/e59.mp3",
-    "topicName": "Grammar"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u19-e60",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Work",
-    "difficulty": "medium",
-    "transcript": "Do you want to work here?",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "David is going to the London Museum. The visit is on Friday, November 3rd. He is going with his friend Paul. They are meeting at 10 AM. David is very happy because he loves history. After the museum, they are having lunch.",
     "content": {
-      "title": "¿Quieres trabajar?",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Do|Do]] [[you|tú]] [[want|querer]] [[to|a]] [[work|trabajar]] [[here|aquí]]?",
-      "words": ["[[Do|Do]]", "[[you|tú]]", "[[want|querer]]", "[[to|a]]", "[[work|trabajar]]", "[[here|aquí]]?"],
-      "explanation": "Preguntar por el deseo de trabajar en un lugar."
+      "title": "Lectura: Visita al Museo",
+      "instructions": "Lee el texto y responde.\n\n*\"David is going to the London Museum. The visit is on Friday, November 3rd. He is going with his friend Paul. They are meeting at 10 AM. David is very happy because he loves history. After the museum, they are having lunch.\"*",
+      "questions": [
+        {
+          "question": "[[Why|Por qué]] [[is|está]] [[he|él]] [[happy|feliz]]?",
+          "options": ["[[Because he loves history|Porque ama la historia]]", "[[Because it's Friday|Porque es viernes]]", "[[Because he's having lunch|Porque va a almorzar]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'happy because he loves history'."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-19/e60.mp3",
-    "topicName": "Grammar"
+    "topicName": "Reading"
   }
 ];
