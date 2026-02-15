@@ -142,3 +142,17 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
     - Verified that `/debug/a1-preview/unit-8` contains 60 exercises.
     - Ran `npm run test:e2e:chromium e2e/unit-8-expansion.spec.ts`.
     - Results: All tests passed.
+
+### [x] Step: Expand Unit 9 (A1)
+1. **Analyze Unit 9**: Current content has 11 exercises.
+2. **Expand to 60 exercises**:
+    - Theme: "Jobs and Occupations" (Professions, workplaces, daily tasks at work).
+    - Add Vocabulary: More professions (Teacher, Artist, Waiter, Dentist, etc.), Workplaces (School, Restaurant, Lab, etc.).
+    - Add Grammar: Articles a/an (review), Present Simple for work routines (work/works), prepositions of place (in a hospital, at home).
+    - Add Reading Comprehension: Short biographies or job descriptions.
+3. **Verify Implementation**:
+    - Check `/debug/a1-preview/unit-9` in the browser.
+4. **Test Plan Approval**:
+    - Verify that `/debug/a1-preview/unit-9` contains 60 exercises.
+    - Ran `npm run test:e2e:chromium e2e/unit-9-expansion.spec.ts`.
+    - Results: All tests passed.
