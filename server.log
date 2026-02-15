@@ -1,6 +1,6 @@
 
 > focus-english@1.0.0 dev
-> next dev -p 5436 -H 127.0.0.1 -H 0.0.0.0
+> next dev -p 5436 -H 127.0.0.1
 
  ⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
  We detected multiple lockfiles and selected the directory of /Users/lidia/Documents/focusonenglish/package-lock.json as the root directory.
@@ -10,34 +10,16 @@
    * /Users/lidia/Documents/focusonenglish/focusonenglish/package-lock.json
 
    ▲ Next.js 15.5.11
-   - Local:        http://localhost:5436
-   - Network:      http://0.0.0.0:5436
+   - Local:        http://127.0.0.1:5436
+   - Network:      http://127.0.0.1:5436
    - Environments: .env
 
  ✓ Starting...
  ⚠ Mismatching @next/swc version, detected: 15.5.7 while Next.js is on 15.5.11. Please ensure these match
- ✓ Ready in 1571ms
- ✓ Compiled /middleware in 394ms (164 modules)
+ ✓ Ready in 2s
+ ✓ Compiled /middleware in 208ms (164 modules)
  ○ Compiling /debug/a1-preview/[unitId] ...
- ✓ Compiled /debug/a1-preview/[unitId] in 6.1s (2341 modules)
+ ✓ Compiled /debug/a1-preview/[unitId] in 5.3s (2341 modules)
 Supabase Browser Client Initializing with URL: https://nprqtjljoekoirlrjxlh.supabase.co
- GET /debug/a1-preview/unit-3 200 in 5070ms
- GET /debug/a1-preview/unit-3 200 in 7051ms
- GET /debug/a1-preview/unit-3 200 in 318ms
- GET /debug/a1-preview/unit-3 200 in 326ms
- GET /debug/a1-preview/unit-3 200 in 325ms
- ✓ Compiled in 1021ms (2341 modules)
-Supabase Browser Client Initializing with URL: https://nprqtjljoekoirlrjxlh.supabase.co
- GET /debug/a1-preview/unit-3 200 in 765ms
- GET /debug/a1-preview/unit-3 200 in 766ms
- GET /debug/a1-preview/unit-3 200 in 767ms
- GET /debug/a1-preview/unit-3 200 in 485ms
- GET /debug/a1-preview/unit-3 200 in 483ms
- GET /debug/a1-preview/unit-3 200 in 485ms
- GET /debug/a1-preview/unit-3 200 in 281ms
- GET /debug/a1-preview/unit-3 200 in 292ms
- GET /debug/a1-preview/unit-3 200 in 293ms
- GET /debug/a1-preview/unit-3 200 in 326ms
- GET /debug/a1-preview/unit-3 200 in 327ms
- GET /debug/a1-preview/unit-3 200 in 329ms
-[?25h
+ GET /debug/a1-preview/unit-7 200 in 6575ms
+ GET /debug/a1-preview/unit-7 200 in 6584ms

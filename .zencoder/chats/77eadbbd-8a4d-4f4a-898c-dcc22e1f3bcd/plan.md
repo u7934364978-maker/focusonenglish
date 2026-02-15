@@ -101,14 +101,28 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
     - Ran `npm run test:e2e:chromium e2e/unit-5-expansion.spec.ts`.
     - Results: All tests passed.
 
-### [ ] Step: Expand Unit 6 (A1)
+### [x] Step: Expand Unit 6 (A1)
 1. **Analyze Unit 6**: Current content has 11 exercises.
 2. **Expand to 60 exercises**:
     - Theme: "Food and Drink" (Common foods, drinks, ordering in a cafe).
     - Add Vocabulary: Fruits, vegetables, dairy, meat, common drinks, cafe menu items.
     - Add Grammar: Countable vs Uncountable nouns, Some / Any, "I would like...".
-    - Add Reading Comprehension: A recipe or a review of a restaurant.
+    - Add Reading Comprehension: Detailed descriptions of meals and cafe visits.
 3. **Verify Implementation**:
     - Check `/debug/a1-preview/unit-6` in the browser.
 4. **Test Plan Approval**:
     - Verify that `/debug/a1-preview/unit-6` contains 60 exercises.
+    - Ran `npm run test:e2e:chromium e2e/unit-6-expansion.spec.ts`.
+    - Results: All tests passed.
+
+### [x] Step: Expand Unit 7 (A1)
+1. **Analyze Unit 7**: Current content has 11 exercises.
+2. **Expand to 60 exercises**:
+    - Theme: "Leisure and Hobbies" (Sports, free time activities, abilities).
+    - Add Vocabulary: Common hobbies (reading, swimming, music), Sports.
+    - Add Grammar: Can / Can't for ability, Like / Love / Hate + -ing.
+    - Add Reading Comprehension: Interview with a person about their hobbies.
+3. **Verify Implementation**:
+    - Check `/debug/a1-preview/unit-7` in the browser.
+4. **Test Plan Approval**:
+    - Verify that `/debug/a1-preview/unit-7` contains 60 exercises.
