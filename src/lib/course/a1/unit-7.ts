@@ -5,23 +5,23 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e1",
     "type": "flashcard",
     "level": "A1",
-    "topic": "Hobbies",
+    "topic": "Family Members",
     "difficulty": "easy",
-    "transcript": "Playing football. Swimming. Reading. Dancing. Singing. Cooking. Painting. Running. Watching TV. Listening to music.",
+    "transcript": "Mother. Father. Parents. Son. Daughter. Brother. Sister. Siblings. Grandfather. Grandmother.",
     "content": {
-      "title": "Vocabulario: Pasatiempos",
-      "instructions": "Aprende los nombres de pasatiempos comunes.",
+      "title": "Vocabulario: La Familia (Básico)",
+      "instructions": "Aprende los miembros básicos de la familia.",
       "items": [
-        { "front": "[[Playing football|Jugar al fútbol]]", "back": "Jugar al fútbol" },
-        { "front": "[[Swimming|Nadar/Natación]]", "back": "Nadar/Natación" },
-        { "front": "[[Reading|Leer/Lectura]]", "back": "Leer/Lectura" },
-        { "front": "[[Dancing|Bailar/Baile]]", "back": "Bailar/Baile" },
-        { "front": "[[Singing|Cantar/Canto]]", "back": "Cantar/Canto" },
-        { "front": "[[Cooking|Cocinar/Cocina]]", "back": "Cocinar/Cocina" },
-        { "front": "[[Painting|Pintar/Pintura]]", "back": "Pintar/Pintura" },
-        { "front": "[[Running|Correr]]", "back": "Correr" },
-        { "front": "[[Watching TV|Ver la televisión]]", "back": "Ver la televisión" },
-        { "front": "[[Listening to music|Escuchar música]]", "back": "Escuchar música" }
+        { "front": "[[Mother|Madre]]", "back": "Madre" },
+        { "front": "[[Father|Padre]]", "back": "Padre" },
+        { "front": "[[Parents|Padres]]", "back": "Padres" },
+        { "front": "[[Son|Hijo]]", "back": "Hijo" },
+        { "front": "[[Daughter|Hija]]", "back": "Hija" },
+        { "front": "[[Brother|Hermano]]", "back": "Hermano" },
+        { "front": "[[Sister|Hermana]]", "back": "Hermana" },
+        { "front": "[[Siblings|Hermanos (en general)]]", "back": "Hermanos (en general)" },
+        { "front": "[[Grandfather|Abuelo]]", "back": "Abuelo" },
+        { "front": "[[Grandmother|Abuela]]", "back": "Abuela" }
       ]
     },
     "audioUrl": "audio/a1/unit-7/e1.mp3",
@@ -31,23 +31,23 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e2",
     "type": "flashcard",
     "level": "A1",
-    "topic": "Sports",
+    "topic": "Extended Family",
     "difficulty": "easy",
-    "transcript": "Tennis. Basketball. Volleyball. Baseball. Golf. Yoga. Karate. Cycling. Skiing. Surfing.",
+    "transcript": "Uncle. Aunt. Cousin. Nephew. Niece. Husband. Wife. Father-in-law. Mother-in-law. Relatives.",
     "content": {
-      "title": "Vocabulario: Deportes",
-      "instructions": "Aprende nombres de diferentes deportes.",
+      "title": "Vocabulario: Familia Extendida",
+      "instructions": "Aprende otros parientes comunes.",
       "items": [
-        { "front": "[[Tennis|Tenis]]", "back": "Tenis" },
-        { "front": "[[Basketball|Baloncesto]]", "back": "Baloncesto" },
-        { "front": "[[Volleyball|Voleibol]]", "back": "Voleibol" },
-        { "front": "[[Baseball|Béisbol]]", "back": "Béisbol" },
-        { "front": "[[Golf|Golf]]", "back": "Golf" },
-        { "front": "[[Yoga|Yoga]]", "back": "Yoga" },
-        { "front": "[[Karate|Kárate]]", "back": "Kárate" },
-        { "front": "[[Cycling|Ciclismo]]", "back": "Ciclismo" },
-        { "front": "[[Skiing|Esquí]]", "back": "Esquí" },
-        { "front": "[[Surfing|Surf]]", "back": "Surf" }
+        { "front": "[[Uncle|Tío]]", "back": "Tío" },
+        { "front": "[[Aunt|Tía]]", "back": "Tía" },
+        { "front": "[[Cousin|Primo/a]]", "back": "Primo/a" },
+        { "front": "[[Nephew|Sobrino]]", "back": "Sobrino" },
+        { "front": "[[Niece|Sobrina]]", "back": "Sobrina" },
+        { "front": "[[Husband|Esposo]]", "back": "Esposo" },
+        { "front": "[[Wife|Esposa]]", "back": "Esposa" },
+        { "front": "[[Father-in-law|Suegro]]", "back": "Suegro" },
+        { "front": "[[Mother-in-law|Suegra]]", "back": "Suegra" },
+        { "front": "[[Relatives|Parientes]]", "back": "Parientes" }
       ]
     },
     "audioUrl": "audio/a1/unit-7/e2.mp3",
@@ -57,59 +57,59 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e3",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Can/Can't",
+    "topic": "Family Vocabulary",
     "difficulty": "easy",
-    "transcript": "I can play the piano.",
+    "transcript": "My father's sister is my aunt.",
     "content": {
-      "title": "Habilidad con Can",
-      "instructions": "Completa la oración.",
+      "title": "Relaciones Familiares",
+      "instructions": "Elige la palabra correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[play|tocar]] [[the|el]] [[piano|piano]].",
-          "options": ["[[can|puedo]]", "[[am|soy]]", "[[do|hacer]]"],
+          "question": "[[My|Mi]] [[father's|de mi padre]] [[sister|hermana]] [[is|es]] [[my|mi]] (_____).",
+          "options": ["[[aunt|tía]]", "[[uncle|tío]]", "[[cousin|primo/a]]"],
           "correctAnswer": 0,
-          "explanation": "Usamos 'can' para expresar habilidad."
+          "explanation": "La hermana de tu padre es tu tía (aunt)."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-7/e3.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u7-e4",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Can/Can't",
+    "topic": "Family Vocabulary",
     "difficulty": "easy",
-    "transcript": "He can't swim very well.",
+    "transcript": "My mother's brother is my uncle.",
     "content": {
-      "title": "Incapacidad con Can't",
-      "instructions": "Completa la oración.",
+      "title": "Relaciones Familiares",
+      "instructions": "Elige la palabra correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] (_____) [[swim|nadar]] [[very|muy]] [[well|bien]].",
-          "options": ["[[can|puede]]", "[[can't|no puede]]", "[[doesn't|no]]"],
-          "correctAnswer": 1,
-          "explanation": "Usamos 'can't' (cannot) para expresar falta de habilidad."
+          "question": "[[My|Mi]] [[mother's|de mi madre]] [[brother|hermano]] [[is|es]] [[my|mi]] (_____).",
+          "options": ["[[uncle|tío]]", "[[nephew|sobrino]]", "[[grandfather|abuelo]]"],
+          "correctAnswer": 0,
+          "explanation": "El hermano de tu madre es tu tío (uncle)."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-7/e4.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u7-e5",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Like + -ing",
+    "topic": "Possessives",
     "difficulty": "easy",
-    "transcript": "I like reading books.",
+    "transcript": "This is my brother.",
     "content": {
-      "title": "Gustos con -ing",
+      "title": "Presentando a la Familia",
       "instructions": "Ordena las palabras.",
-      "correctSentence": "[[I|Yo]] [[like|gustar]] [[reading|leer]] [[books|libros]].",
-      "words": ["[[reading|leer]]", "[[books|libros]].", "[[like|gustar]]", "[[I|Yo]]"],
-      "explanation": "Después de 'like', el siguiente verbo suele ir con -ing."
+      "correctSentence": "[[This|Este]] [[is|es]] [[my|mi]] [[brother|hermano]].",
+      "words": ["[[brother|hermano]].", "[[is|es]]", "[[This|Este]]", "[[my|mi]]"],
+      "explanation": "Usamos 'This is my...' para presentar a alguien."
     },
     "audioUrl": "audio/a1/unit-7/e5.mp3",
     "topicName": "Grammar"
@@ -118,18 +118,18 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e6",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Can/Can't",
+    "topic": "Possessive Adjectives",
     "difficulty": "easy",
-    "transcript": "Can you speak English?",
+    "transcript": "His name is John.",
     "content": {
-      "title": "Preguntas con Can",
-      "instructions": "Elige la forma correcta.",
+      "title": "Adjetivos Posesivos",
+      "instructions": "Elige el posesivo correcto para un hombre.",
       "questions": [
         {
-          "question": "(_____) [[you|tú]] [[speak|hablar]] [[English|inglés]]?",
-          "options": ["[[Do|Hacer]]", "[[Are|Eres]]", "[[Can|Puedes]]"],
-          "correctAnswer": 2,
-          "explanation": "Para preguntar sobre habilidades usamos 'Can' al principio."
+          "question": "(_____) [[name|nombre]] [[is|es]] [[John|John]].",
+          "options": ["[[His|Su (de él)]]", "[[Her|Su (de ella)]]", "[[Your|Tu]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'His' para posesión masculina singular."
         }
       ]
     },
@@ -140,161 +140,157 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e7",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary",
+    "topic": "Possessive Adjectives",
     "difficulty": "easy",
-    "transcript": "What is your favorite sport?",
+    "transcript": "Her name is Mary.",
     "content": {
-      "title": "Deporte Favorito",
-      "instructions": "Completa la pregunta.",
+      "title": "Adjetivos Posesivos",
+      "instructions": "Elige el posesivo correcto para una mujer.",
       "questions": [
         {
-          "question": "[[What|Cuál]] [[is|es]] [[your|tu]] [[favorite|favorito]] (_____) ?",
-          "options": ["[[sport|deporte]]", "[[food|comida]]", "[[color|color]]"],
+          "question": "(_____) [[name|nombre]] [[is|es]] [[Mary|Mary]].",
+          "options": ["[[Her|Su (de ella)]]", "[[His|Su (de él)]]", "[[Our|Nuestro]]"],
           "correctAnswer": 0,
-          "explanation": "Estamos hablando de actividades físicas, por lo que es 'sport'."
+          "explanation": "Usamos 'Her' para posesión femenina singular."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-7/e7.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u7-e8",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Free Time",
+    "topic": "Family Questions",
     "difficulty": "easy",
-    "transcript": "In my free time, I play tennis.",
+    "transcript": "Do you have any brothers?",
     "content": {
-      "title": "Tiempo Libre",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[In|En]] [[my|mi]] [[free|libre]] [[time|tiempo]], [[I|yo]] [[play|juego]] [[tennis|tenis]].",
-      "words": ["[[time|tiempo]],", "[[tennis|tenis]].", "[[play|juego]]", "[[free|libre]]", "[[I|yo]]", "[[my|mi]]", "[[In|En]]"],
-      "explanation": "'Free time' significa tiempo libre."
+      "title": "Preguntas sobre Hermanos",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[Do|¿]] [[you|tú]] [[have|tienes]] [[any|algunos]] [[brothers|hermanos]]?",
+      "words": ["[[any|algunos]]", "[[brothers|hermanos]]?", "[[have|tienes]]", "[[Do|¿]]", "[[you|tú]]"],
+      "explanation": "Pregunta común sobre la familia."
     },
     "audioUrl": "audio/a1/unit-7/e8.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u7-e9",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar",
+    "topic": "Family Vocabulary",
     "difficulty": "easy",
-    "transcript": "I love dancing with my friends.",
+    "transcript": "My son's daughter is my granddaughter.",
     "content": {
-      "title": "Love + -ing",
-      "instructions": "Elige la forma correcta del verbo.",
+      "title": "Nietos",
+      "instructions": "Elige la palabra correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[love|amo/me encanta]] (_____) [[with|con]] [[my|mis]] [[friends|amigos]].",
-          "options": ["[[dance|bailar]]", "[[dancing|bailando/bailar]]", "[[dances|baila]]"],
-          "correctAnswer": 1,
-          "explanation": "Después de 'love', usamos la forma -ing."
+          "question": "[[My|Mi]] [[son's|de mi hijo]] [[daughter|hija]] [[is|es]] [[my|mi]] (_____).",
+          "options": ["[[granddaughter|nieta]]", "[[grandson|nieto]]", "[[niece|sobrina]]"],
+          "correctAnswer": 0,
+          "explanation": "La hija de tu hijo es tu nieta (granddaughter)."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-7/e9.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u7-e10",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Abilities",
+    "topic": "Possessives",
     "difficulty": "easy",
-    "transcript": "Can she cook Italian food?",
+    "transcript": "My grandparents live in Spain.",
     "content": {
-      "title": "Pregunta de Habilidad",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Can|Puede]] [[she|ella]] [[cook|cocinar]] [[Italian|italiana]] [[food|comida]]?",
-      "words": ["[[she|ella]]", "[[cook|cocinar]]", "[[food|comida]]?", "[[Italian|italiana]]", "[[Can|Puede]]"],
-      "explanation": "Estructura de pregunta con 'Can' para tercera persona (no cambia el verbo)."
+      "title": "Mis Abuelos",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[My|Mis]] [[grandparents|abuelos]] [[live|viven]] [[in|en]] [[Spain|España]].",
+      "words": ["[[live|viven]]", "[[Spain|España]].", "[[grandparents|abuelos]]", "[[My|Mis]]"],
+      "explanation": "Grandparents engloba a abuelo y abuela."
     },
     "audioUrl": "audio/a1/unit-7/e10.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u7-e11",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary",
-    "difficulty": "easy",
-    "transcript": "I enjoy listening to music.",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "transcript": "Is that your sister's car?",
     "content": {
-      "title": "Disfrutar la Música",
-      "instructions": "Completa con el verbo correcto.",
+      "title": "El Posesivo 's",
+      "instructions": "Elige la forma correcta del posesivo.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[enjoy|disfruto]] (_____) [[to|a]] [[music|música]].",
-          "options": ["[[watching|viendo]]", "[[listening|escuchando]]", "[[playing|jugando]]"],
-          "correctAnswer": 1,
-          "explanation": "Usamos 'listening' con 'music'."
+          "question": "[[Is|¿Es]] [[that|ese]] [[your|tu]] (_____) [[car|coche]]?",
+          "options": ["[[sister's|de tu hermana]]", "[[sisters|hermanas]]", "[[sister|hermana]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 's para indicar posesión: sister's car = el coche de la hermana."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-7/e11.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u7-e12",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Grammar",
+    "topic": "Family Relations",
     "difficulty": "easy",
-    "transcript": "We hate running in the rain.",
+    "transcript": "I have two sisters and one brother.",
     "content": {
-      "title": "Odiar algo",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[We|Nosotros]] [[hate|odiamos]] [[running|correr]] [[in|en]] [[the|la]] [[rain|lluvia]].",
-      "words": ["[[running|correr]]", "[[the|la]]", "[[rain|lluvia]].", "[[hate|odiamos]]", "[[in|en]]", "[[We|Nosotros]]"],
-      "explanation": "Después de 'hate', usamos -ing."
+      "title": "Contando Hermanos",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[I|Yo]] [[have|tengo]] [[two|dos]] [[sisters|hermanas]] [[and|y]] [[one|un]] [[brother|hermano]].",
+      "words": ["[[one|un]]", "[[brother|hermano]].", "[[sisters|hermanas]]", "[[and|y]]", "[[I|Yo]]", "[[have|tengo]]", "[[two|dos]]"],
+      "explanation": "Describiendo el tamaño de la familia inmediata."
     },
     "audioUrl": "audio/a1/unit-7/e12.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u7-e13",
-    "type": "flashcard",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Action Verbs",
+    "topic": "Possessive Adjectives",
     "difficulty": "easy",
-    "transcript": "Jump. Walk. Fly. Drive. Write. Draw. Study. Work. Sleep. Relax.",
+    "transcript": "We love our family.",
     "content": {
-      "title": "Vocabulario: Acciones",
-      "instructions": "Aprende verbos de acción.",
-      "items": [
-        { "front": "[[Jump|Saltar]]", "back": "Saltar" },
-        { "front": "[[Walk|Caminar]]", "back": "Caminar" },
-        { "front": "[[Fly|Volar]]", "back": "Volar" },
-        { "front": "[[Drive|Conducir]]", "back": "Conducir" },
-        { "front": "[[Write|Escribir]]", "back": "Escribir" },
-        { "front": "[[Draw|Dibujar]]", "back": "Dibujar" },
-        { "front": "[[Study|Estudiar]]", "back": "Estudiar" },
-        { "front": "[[Work|Trabajar]]", "back": "Trabajar" },
-        { "front": "[[Sleep|Dormir]]", "back": "Dormir" },
-        { "front": "[[Relax|Relajarse]]", "back": "Relajarse" }
+      "title": "Nuestro Posesivo",
+      "instructions": "Elige el posesivo para 'we'.",
+      "questions": [
+        {
+          "question": "[[We|Nosotros]] [[love|amamos]] (_____) [[family|familia]].",
+          "options": ["[[our|nuestra]]", "[[their|su (de ellos)]]", "[[your|vuestra]]"],
+          "correctAnswer": 0,
+          "explanation": "El posesivo de 'we' es 'our'."
+        }
       ]
     },
     "audioUrl": "audio/a1/unit-7/e13.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u7-e14",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Can/Can't",
+    "topic": "Possessive Adjectives",
     "difficulty": "easy",
-    "transcript": "Birds can fly.",
+    "transcript": "They live with their parents.",
     "content": {
-      "title": "Habilidades Naturales",
-      "instructions": "Completa la oración.",
+      "title": "Su Posesivo (Ellos)",
+      "instructions": "Elige el posesivo para 'they'.",
       "questions": [
         {
-          "question": "[[Birds|Pájaros]] (_____) [[fly|volar]].",
-          "options": ["[[can|pueden]]", "[[can't|no pueden]]", "[[are|son]]"],
+          "question": "[[They|Ellos]] [[live|viven]] [[with|con]] (_____) [[parents|padres]].",
+          "options": ["[[their|su (de ellos)]]", "[[his|su (de él)]]", "[[her|su (de ella)]]"],
           "correctAnswer": 0,
-          "explanation": "Los pájaros tienen la habilidad de volar."
+          "explanation": "El posesivo de 'they' es 'their'."
         }
       ]
     },
@@ -305,15 +301,15 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e15",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Abilities",
+    "topic": "Family Tree",
     "difficulty": "easy",
-    "transcript": "I can't drive a car.",
+    "transcript": "My mother's name is Anna.",
     "content": {
-      "title": "Negación de Habilidad",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[I|Yo]] [[can't|no puedo]] [[drive|conducir]] [[a|un]] [[car|coche]].",
-      "words": ["[[drive|conducir]]", "[[car|coche]].", "[[can't|no puedo]]", "[[I|Yo]]", "[[a|un]]"],
-      "explanation": "Estructura negativa con 'can't'."
+      "title": "Nombres de la Familia",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[My|Mi]] [[mother's|de mi madre]] [[name|nombre]] [[is|es]] [[Anna|Anna]].",
+      "words": ["[[Anna|Anna]].", "[[is|es]]", "[[name|nombre]]", "[[mother's|de mi madre]]", "[[My|Mi]]"],
+      "explanation": "Uso del posesivo 's para el nombre de alguien."
     },
     "audioUrl": "audio/a1/unit-7/e15.mp3",
     "topicName": "Grammar"
@@ -322,18 +318,18 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e16",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary",
+    "topic": "Family Vocabulary",
     "difficulty": "easy",
-    "transcript": "Do you like watching movies?",
+    "transcript": "My uncle's son is my cousin.",
     "content": {
-      "title": "Ver Películas",
+      "title": "Primos",
       "instructions": "Elige la palabra correcta.",
       "questions": [
         {
-          "question": "[[Do|Hacer]] [[you|tú]] [[like|gustar]] (_____) [[movies|películas]]?",
-          "options": ["[[watching|viendo]]", "[[reading|leyendo]]", "[[listening|escuchando]]"],
+          "question": "[[My|Mi]] [[uncle's|de mi tío]] [[son|hijo]] [[is|es]] [[my|mi]] (_____).",
+          "options": ["[[cousin|primo]]", "[[nephew|sobrino]]", "[[brother|hermano]]"],
           "correctAnswer": 0,
-          "explanation": "Usamos 'watching' para películas o televisión."
+          "explanation": "El hijo de tu tío es tu primo (cousin)."
         }
       ]
     },
@@ -344,74 +340,74 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e17",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Grammar",
+    "topic": "Marital Status",
     "difficulty": "easy",
-    "transcript": "My brother loves playing basketball.",
+    "transcript": "Is your brother married?",
     "content": {
-      "title": "Tercera Persona + Love",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[My|Mi]] [[brother|hermano]] [[loves|ama/le encanta]] [[playing|jugar]] [[basketball|baloncesto]].",
-      "words": ["[[playing|jugar]]", "[[basketball|baloncesto]].", "[[loves|ama/le encanta]]", "[[My|Mi]]", "[[brother|hermano]]"],
-      "explanation": "Tercera persona 'loves' seguido de -ing."
+      "title": "Estado Civil",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[Is|¿Es]] [[your|tu]] [[brother|hermano]] [[married|casado]]?",
+      "words": ["[[married|casado]]?", "[[brother|hermano]]", "[[Is|¿Es]]", "[[your|tu]]"],
+      "explanation": "Pregunta sobre el estado civil de un familiar."
     },
     "audioUrl": "audio/a1/unit-7/e17.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u7-e18",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Can/Can't",
+    "topic": "Vocabulary",
     "difficulty": "easy",
-    "transcript": "Can they swim? Yes, they can.",
+    "transcript": "I am an only child.",
     "content": {
-      "title": "Respuestas Cortas",
-      "instructions": "Elige la respuesta correcta.",
+      "title": "Hijo Único",
+      "instructions": "Elige la expresión para 'hijo único'.",
       "questions": [
         {
-          "question": "[[Can|Pueden]] [[they|ellos]] [[swim|nadar]]? [[Yes|Sí]], [[they|ellos]] (_____).",
-          "options": ["[[do|hacer]]", "[[can|pueden]]", "[[are|son]]"],
-          "correctAnswer": 1,
-          "explanation": "En respuestas cortas con 'Can', repetimos 'can'."
+          "question": "[[I|Yo]] [[am|soy]] [[an|un]] (_____).",
+          "options": ["[[only child|hijo único]]", "[[alone child|niño solo]]", "[[single child|niño soltero]]"],
+          "correctAnswer": 0,
+          "explanation": "'Only child' es la expresión correcta para hijo/a único/a."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-7/e18.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u7-e19",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Hobbies",
+    "topic": "Personal Info",
     "difficulty": "easy",
-    "transcript": "I like to paint in my room.",
+    "transcript": "How old is your sister?",
     "content": {
-      "title": "Pintar",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[I|Yo]] [[like|gustar]] [[to|a]] [[paint|pintar]] [[in|en]] [[my|mi]] [[room|habitación]].",
-      "words": ["[[paint|pintar]]", "[[in|en]]", "[[my|mi]]", "[[room|habitación]].", "[[like|gustar]]", "[[I|Yo]]", "[[to|a]]"],
-      "explanation": "También se puede usar 'like to + infinitivo'."
+      "title": "Edad de la Familia",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[How|Qué]] [[old|edad]] [[is|tiene]] [[your|tu]] [[sister|hermana]]?",
+      "words": ["[[sister|hermana]]?", "[[is|tiene]]", "[[your|tu]]", "[[old|edad]]", "[[How|Qué]]"],
+      "explanation": "Preguntar la edad de alguien."
     },
     "audioUrl": "audio/a1/unit-7/e19.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u7-e20",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary",
-    "difficulty": "easy",
-    "transcript": "She draws very beautiful pictures.",
+    "topic": "Family Vocabulary",
+    "difficulty": "medium",
+    "transcript": "My sister's husband is my brother-in-law.",
     "content": {
-      "title": "Dibujar",
-      "instructions": "Elige el verbo correcto.",
+      "title": "Familia Política",
+      "instructions": "Elige la palabra correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] (_____) [[very|muy]] [[beautiful|hermosos/as]] [[pictures|dibujos/cuadros]].",
-          "options": ["[[draws|dibuja]]", "[[cooks|cocina]]", "[[sings|canta]]"],
+          "question": "[[My|Mi]] [[sister's|de mi hermana]] [[husband|esposo]] [[is|es]] [[my|mi]] (_____).",
+          "options": ["[[brother-in-law|cuñado]]", "[[father-in-law|suegro]]", "[[nephew|sobrino]]"],
           "correctAnswer": 0,
-          "explanation": "Draws es el verbo para dibujar."
+          "explanation": "El esposo de tu hermana es tu cuñado (brother-in-law)."
         }
       ]
     },
@@ -422,427 +418,432 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e21",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Can/Can't",
+    "topic": "Family Size",
     "difficulty": "easy",
-    "transcript": "My baby sister can't walk yet.",
+    "transcript": "I have a big family.",
     "content": {
-      "title": "Bebés",
-      "instructions": "Elige la opción correcta.",
+      "title": "Familia Grande",
+      "instructions": "Elige el adjetivo correcto.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[baby|bebé]] [[sister|hermana]] (_____) [[walk|caminar]] [[yet|todavía]].",
-          "options": ["[[can|puede]]", "[[can't|no puede]]", "[[doesn't|no]]"],
-          "correctAnswer": 1,
-          "explanation": "Un bebé pequeño normalmente no puede caminar todavía."
+          "question": "[[I|Yo]] [[have|tengo]] [[a|una]] (_____) [[family|familia]].",
+          "options": ["[[big|grande]]", "[[small|pequeña]]", "[[new|nueva]]"],
+          "correctAnswer": 0,
+          "explanation": "Big family = Familia grande."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-7/e21.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u7-e22",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Sports",
+    "topic": "Family Size",
     "difficulty": "easy",
-    "transcript": "I play football every Saturday.",
+    "transcript": "She has a small family.",
     "content": {
-      "title": "Fútbol semanal",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[I|Yo]] [[play|juego]] [[football|fútbol]] [[every|cada]] [[Saturday|sábado]].",
-      "words": ["[[football|fútbol]]", "[[every|cada]]", "[[Saturday|sábado]].", "[[play|juego]]", "[[I|Yo]]"],
-      "explanation": "Estructura de rutina con deportes."
+      "title": "Familia Pequeña",
+      "instructions": "Elige el adjetivo correcto.",
+      "questions": [
+        {
+          "question": "[[She|Ella]] [[has|tiene]] [[a|una]] (_____) [[family|familia]].",
+          "options": ["[[small|pequeña]]", "[[tall|alta]]", "[[old|vieja]]"],
+          "correctAnswer": 0,
+          "explanation": "Small family = Familia pequeña."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-7/e22.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u7-e23",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Like + -ing",
+    "topic": "Possessives",
     "difficulty": "easy",
-    "transcript": "Do you like cooking?",
+    "transcript": "His father is fifty years old.",
     "content": {
-      "title": "Pregunta sobre Gustos",
-      "instructions": "Elige la forma correcta del verbo.",
-      "questions": [
-        {
-          "question": "[[Do|Hacer]] [[you|tú]] [[like|gustar]] (_____) ?",
-          "options": ["[[cook|cocinar]]", "[[cooking|cocinando/cocinar]]", "[[cooks|cocina]]"],
-          "correctAnswer": 1,
-          "explanation": "Después de 'like', usamos la forma -ing."
-        }
-      ]
+      "title": "Edad del Padre",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[His|Su (de él)]] [[father|padre]] [[is|tiene]] [[fifty|cincuenta]] [[years|años]] [[old|de edad]].",
+      "words": ["[[years|años]]", "[[is|tiene]]", "[[father|padre]]", "[[fifty|cincuenta]]", "[[His|Su (de él)]]", "[[old|de edad]]."],
+      "explanation": "Estructura para decir la edad de un familiar."
     },
     "audioUrl": "audio/a1/unit-7/e23.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u7-e24",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Hobbies",
-    "difficulty": "easy",
-    "transcript": "They love to go to the beach.",
+    "topic": "Family Vocabulary",
+    "difficulty": "medium",
+    "transcript": "My mother's mother is my grandmother.",
     "content": {
-      "title": "Ir a la playa",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[They|Ellos]] [[love|aman]] [[to|a]] [[go|ir]] [[to|a]] [[the|la]] [[beach|playa]].",
-      "words": ["[[to|a]]", "[[beach|playa]].", "[[go|ir]]", "[[love|aman]]", "[[the|la]]", "[[to|a]]", "[[They|Ellos]]"],
-      "explanation": "Uso de 'love to go'."
+      "title": "Abuela Materna",
+      "instructions": "Completa la relación.",
+      "questions": [
+        {
+          "question": "[[My|Mi]] [[mother's|de mi madre]] [[mother|madre]] [[is|es]] [[my|mi]] (_____).",
+          "options": ["[[grandmother|abuela]]", "[[aunt|tía]]", "[[sister|hermana]]"],
+          "correctAnswer": 0,
+          "explanation": "La madre de tu madre es tu abuela (grandmother)."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-7/e24.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u7-e25",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Can/Can't",
+    "topic": "Family Vocabulary",
     "difficulty": "easy",
-    "transcript": "Can you help me? Yes, I can.",
+    "transcript": "I live with my parents and my dog.",
     "content": {
-      "title": "Pedir Ayuda",
-      "instructions": "Completa la respuesta.",
-      "questions": [
-        {
-          "question": "[[Can|Puedes]] [[you|tú]] [[help|ayudar]] [[me|me]]? [[Yes|Sí]], [[I|yo]] (_____).",
-          "options": ["[[am|soy]]", "[[do|hacer]]", "[[can|puedo]]"],
-          "correctAnswer": 2,
-          "explanation": "Respuesta corta afirmativa con 'can'."
-        }
-      ]
+      "title": "Vivir con los Padres",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[I|Yo]] [[live|vivo]] [[with|con]] [[my|mis]] [[parents|padres]] [[and|y]] [[my|mi]] [[dog|perro]].",
+      "words": ["[[and|y]]", "[[dog|perro]].", "[[parents|padres]]", "[[live|vivo]]", "[[I|Yo]]", "[[with|con]]", "[[my|mis]]", "[[my|mi]]"],
+      "explanation": "Describiendo con quién vives."
     },
     "audioUrl": "audio/a1/unit-7/e25.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u7-e26",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary",
+    "topic": "Possessives",
     "difficulty": "easy",
-    "transcript": "She can sing very well.",
+    "transcript": "Is this your cousin's house?",
     "content": {
-      "title": "Cantar bien",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[She|Ella]] [[can|puede]] [[sing|cantar]] [[very|muy]] [[well|bien]].",
-      "words": ["[[sing|cantar]]", "[[well|bien]].", "[[can|puede]]", "[[very|muy]]", "[[She|Ella]]"],
-      "explanation": "Can + verbo en infinitivo sin 'to'."
+      "title": "Casa del Primo",
+      "instructions": "Elige el posesivo correcto.",
+      "questions": [
+        {
+          "question": "[[Is|¿Es]] [[this|esta]] [[your|tu]] (_____) [[house|casa]]?",
+          "options": ["[[cousin's|de tu primo]]", "[[cousin|primo]]", "[[cousins|primos]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 's para la posesión del primo."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-7/e26.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u7-e27",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Sports",
+    "topic": "Family Tree",
     "difficulty": "easy",
-    "transcript": "I go swimming on Fridays.",
+    "transcript": "Who is your favorite relative?",
     "content": {
-      "title": "Ir a Nadar",
-      "instructions": "Elige el verbo correcto.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] (_____) [[swimming|natación]] [[on|los]] [[Fridays|viernes]].",
-          "options": ["[[play|juego]]", "[[go|voy]]", "[[do|hago]]"],
-          "correctAnswer": 1,
-          "explanation": "Con deportes que terminan en -ing, solemos usar 'go'."
-        }
-      ]
+      "title": "Pariente Favorito",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[Who|Quién]] [[is|es]] [[your|tu]] [[favorite|favorito]] [[relative|pariente]]?",
+      "words": ["[[favorite|favorito]]", "[[relative|pariente]]?", "[[is|es]]", "[[your|tu]]", "[[Who|Quién]]"],
+      "explanation": "Preguntar por un familiar favorito."
     },
     "audioUrl": "audio/a1/unit-7/e27.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u7-e28",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar",
+    "topic": "Family Vocabulary",
     "difficulty": "easy",
-    "transcript": "Do you enjoy reading?",
+    "transcript": "My father's father is my grandfather.",
     "content": {
-      "title": "Pregunta con Enjoy",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Do|Hacer]] [[you|tú]] [[enjoy|disfrutar]] [[reading|leer]]?",
-      "words": ["[[reading|leer]]?", "[[enjoy|disfrutar]]", "[[you|tú]]", "[[Do|Hacer]]"],
-      "explanation": "Enjoy también va seguido de -ing."
+      "title": "Abuelo Paterno",
+      "instructions": "Completa la relación.",
+      "questions": [
+        {
+          "question": "[[My|Mi]] [[father's|de mi padre]] [[father|padre]] [[is|es]] [[my|mi]] (_____).",
+          "options": ["[[grandfather|abuelo]]", "[[grandson|nieto]]", "[[uncle|tío]]"],
+          "correctAnswer": 0,
+          "explanation": "El padre de tu padre es tu abuelo (grandfather)."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-7/e28.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u7-e29",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Vocabulary",
+    "topic": "Possessives",
     "difficulty": "easy",
-    "transcript": "My father plays golf.",
+    "transcript": "Her sister is very beautiful.",
     "content": {
-      "title": "Jugar al Golf",
-      "instructions": "Completa con el verbo adecuado.",
-      "questions": [
-        {
-          "question": "[[My|Mi]] [[father|padre]] (_____) [[golf|golf]].",
-          "options": ["[[plays|juega]]", "[[goes|va]]", "[[does|hace]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'play' para deportes con pelota."
-        }
-      ]
+      "title": "Descripción de la Hermana",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[Her|Su (de ella)]] [[sister|hermana]] [[is|es]] [[very|muy]] [[beautiful|hermosa]].",
+      "words": ["[[beautiful|hermosa]].", "[[is|es]]", "[[sister|hermana]]", "[[very|muy]]", "[[Her|Su (de ella)]]"],
+      "explanation": "Describiendo a un familiar."
     },
     "audioUrl": "audio/a1/unit-7/e29.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u7-e30",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Can/Can't",
-    "difficulty": "easy",
-    "transcript": "He can't speak French.",
-    "content": {
-      "title": "Idiomas",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[He|Él]] [[can't|no puede]] [[speak|hablar]] [[French|francés]].",
-      "words": ["[[French|francés]].", "[[speak|hablar]]", "[[can't|no puede]]", "[[He|Él]]"],
-      "explanation": "Habilidad lingüística negativa."
-    },
-    "audioUrl": "audio/a1/unit-7/e30.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u7-e31",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary",
-    "difficulty": "easy",
-    "transcript": "Do you like to travel?",
+    "topic": "Family Vocabulary",
+    "difficulty": "medium",
+    "transcript": "They have two sons and one daughter.",
     "content": {
-      "title": "Viajar",
-      "instructions": "Elige la palabra correcta.",
+      "title": "Hijos e Hijas",
+      "instructions": "Elige la combinación correcta.",
       "questions": [
         {
-          "question": "[[Do|Hacer]] [[you|tú]] [[like|gustar]] [[to|a]] (_____) ?",
-          "options": ["[[travel|viajar]]", "[[work|trabajar]]", "[[sleep|dormir]]"],
+          "question": "[[They|Ellos]] [[have|tienen]] [[two|dos]] (_____) [[and|y]] [[one|una]] (_____).",
+          "options": ["[[sons|hijos]] / [[daughter|hija]]", "[[daughters|hijas]] / [[son|hijo]]", "[[brothers|hermanos]] / [[sister|hermana]]"],
           "correctAnswer": 0,
-          "explanation": "Travel significa viajar."
+          "explanation": "Sons (hijos varones) y daughter (hija mujer)."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-7/e31.mp3",
+    "audioUrl": "audio/a1/unit-7/e30.mp3",
     "topicName": "Vocabulary"
   },
   {
-    "id": "a1-u7-e32",
+    "id": "a1-u7-e31",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Grammar",
-    "difficulty": "easy",
-    "transcript": "I hate washing the dishes.",
+    "topic": "Possessives",
+    "difficulty": "medium",
+    "transcript": "Is that your brother's bicycle?",
     "content": {
-      "title": "Tareas del Hogar",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[I|Yo]] [[hate|odio]] [[washing|lavar]] [[the|los]] [[dishes|platos]].",
-      "words": ["[[the|los]]", "[[dishes|platos]].", "[[washing|lavar]]", "[[hate|odio]]", "[[I|Yo]]"],
-      "explanation": "Hate + -ing."
+      "title": "Bici del Hermano",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[Is|¿Es]] [[that|esa]] [[your|tu]] [[brother's|de tu hermano]] [[bicycle|bicicleta]]?",
+      "words": ["[[bicycle|bicicleta]]?", "[[that|esa]]", "[[brother's|de tu hermano]]", "[[Is|¿Es]]", "[[your|tu]]"],
+      "explanation": "Estructura posesiva con 's."
+    },
+    "audioUrl": "audio/a1/unit-7/e31.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u7-e32",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Family Relations",
+    "difficulty": "easy",
+    "transcript": "How many cousins do you have?",
+    "content": {
+      "title": "Contando Primos",
+      "instructions": "Elige el interrogativo correcto.",
+      "questions": [
+        {
+          "question": "(_____) [[many|muchos]] [[cousins|primos]] [[do|aux]] [[you|tú]] [[have|tienes]]?",
+          "options": ["[[How|Cuántos]]", "[[Who|Quién]]", "[[Where|Dónde]]"],
+          "correctAnswer": 0,
+          "explanation": "'How many' se usa para preguntar por cantidad."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-7/e32.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u7-e33",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Can/Can't",
+    "topic": "Family Tree",
     "difficulty": "easy",
-    "transcript": "Can we go now?",
+    "transcript": "My aunt lives in London.",
     "content": {
-      "title": "Pedir Permiso",
-      "instructions": "Completa la pregunta.",
-      "questions": [
-        {
-          "question": "(_____) [[we|nosotros]] [[go|ir]] [[now|ahora]]?",
-          "options": ["[[Do|Hacer]]", "[[Can|Poder]]", "[[Are|Estar]]"],
-          "correctAnswer": 1,
-          "explanation": "'Can' también se usa para pedir permiso de manera informal."
-        }
-      ]
+      "title": "Tía en Londres",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[My|Mi]] [[aunt|tía]] [[lives|vive]] [[in|en]] [[London|Londres]].",
+      "words": ["[[London|Londres]].", "[[lives|vive]]", "[[in|en]]", "[[aunt|tía]]", "[[My|Mi]]"],
+      "explanation": "Sujeto singular (aunt) + verbo con 's' (lives)."
     },
     "audioUrl": "audio/a1/unit-7/e33.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u7-e34",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Hobbies",
+    "topic": "Family Vocabulary",
     "difficulty": "easy",
-    "transcript": "I like listening to podcasts.",
+    "transcript": "The father of my wife is my father-in-law.",
     "content": {
-      "title": "Podcasts",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[I|Yo]] [[like|gustar]] [[listening|escuchar]] [[to|a]] [[podcasts|podcasts]].",
-      "words": ["[[listening|escuchar]]", "[[to|a]]", "[[podcasts|podcasts]].", "[[like|gustar]]", "[[I|Yo]]"],
-      "explanation": "Hobby moderno."
+      "title": "Suegro",
+      "instructions": "Completa la relación.",
+      "questions": [
+        {
+          "question": "[[The|El]] [[father|padre]] [[of|de]] [[my|mi]] [[wife|esposa]] [[is|es]] [[my|mi]] (_____).",
+          "options": ["[[father-in-law|suegro]]", "[[stepfather|padrastro]]", "[[uncle|tío]]"],
+          "correctAnswer": 0,
+          "explanation": "El padre de tu esposa es tu suegro (father-in-law)."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-7/e34.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u7-e35",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Grammar",
+    "topic": "Possessives",
     "difficulty": "easy",
-    "transcript": "She likes playing with her dog.",
+    "transcript": "Our house is big and happy.",
     "content": {
-      "title": "Jugar con el perro",
-      "instructions": "Elige la forma verbal correcta.",
-      "questions": [
-        {
-          "question": "[[She|Ella]] [[likes|le gusta]] (_____) [[with|con]] [[her|su]] [[dog|perro]].",
-          "options": ["[[play|jugar]]", "[[playing|jugando/jugar]]", "[[plays|juega]]"],
-          "correctAnswer": 1,
-          "explanation": "Like + -ing."
-        }
-      ]
+      "title": "Casa Familiar",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[Our|Nuestra]] [[house|casa]] [[is|es]] [[big|grande]] [[and|y]] [[happy|feliz]].",
+      "words": ["[[happy|feliz]].", "[[and|y]]", "[[is|es]]", "[[big|grande]]", "[[house|casa]]", "[[Our|Nuestra]]"],
+      "explanation": "Adjetivos para describir el hogar familiar."
     },
     "audioUrl": "audio/a1/unit-7/e35.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u7-e36",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Abilities",
-    "difficulty": "easy",
-    "transcript": "They can't come to the party.",
+    "topic": "Family Vocabulary",
+    "difficulty": "medium",
+    "transcript": "My brother's son is my nephew.",
     "content": {
-      "title": "No poder venir",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[They|Ellos]] [[can't|no pueden]] [[come|venir]] [[to|a]] [[the|la]] [[party|fiesta]].",
-      "words": ["[[come|venir]]", "[[party|fiesta]].", "[[can't|no pueden]]", "[[They|Ellos]]", "[[the|la]]", "[[to|a]]"],
-      "explanation": "Negación de posibilidad/habilidad."
+      "title": "Sobrino",
+      "instructions": "Elige la palabra correcta.",
+      "questions": [
+        {
+          "question": "[[My|Mi]] [[brother's|de mi hermano]] [[son|hijo]] [[is|es]] [[my|mi]] (_____).",
+          "options": ["[[nephew|sobrino]]", "[[niece|sobrina]]", "[[cousin|primo]]"],
+          "correctAnswer": 0,
+          "explanation": "El hijo de tu hermano es tu sobrino (nephew)."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-7/e36.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u7-e37",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Vocabulary",
+    "topic": "Family Vocabulary",
     "difficulty": "easy",
-    "transcript": "I do yoga every morning.",
+    "transcript": "My niece is five years old.",
     "content": {
-      "title": "Hacer Yoga",
-      "instructions": "Elige el verbo correcto.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] (_____) [[yoga|yoga]] [[every|cada]] [[morning|mañana]].",
-          "options": ["[[play|juego]]", "[[go|voy]]", "[[do|hago]]"],
-          "correctAnswer": 2,
-          "explanation": "Usamos 'do' para actividades individuales o artes marciales/yoga."
-        }
-      ]
+      "title": "Edad de la Sobrina",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[My|Mi]] [[niece|sobrina]] [[is|tiene]] [[five|cinco]] [[years|años]] [[old|de edad]].",
+      "words": ["[[five|cinco]]", "[[years|años]]", "[[niece|sobrina]]", "[[is|tiene]]", "[[old|de edad]].", "[[My|Mi]]"],
+      "explanation": "Niece es la hija de un hermano o hermana."
     },
     "audioUrl": "audio/a1/unit-7/e37.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u7-e38",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar",
-    "difficulty": "easy",
-    "transcript": "Do they like running?",
+    "topic": "Possessives",
+    "difficulty": "medium",
+    "transcript": "Whose daughter is she?",
     "content": {
-      "title": "Pregunta: ¿Les gusta correr?",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Do|Hacer]] [[they|ellos]] [[like|gustar]] [[running|correr]]?",
-      "words": ["[[running|correr]]?", "[[like|gustar]]", "[[they|ellos]]", "[[Do|Hacer]]"],
-      "explanation": "Pregunta de gustos en plural."
+      "title": "De quién",
+      "instructions": "Elige el interrogativo de posesión.",
+      "questions": [
+        {
+          "question": "(_____) [[daughter|hija]] [[is|es]] [[she|ella]]?",
+          "options": ["[[Whose|De quién]]", "[[Who|Quién]]", "[[Which|Cuál]]"],
+          "correctAnswer": 0,
+          "explanation": "'Whose' se usa para preguntar a quién pertenece algo o alguien (en términos de parentesco)."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-7/e38.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u7-e39",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Vocabulary",
+    "topic": "Family Tree",
     "difficulty": "easy",
-    "transcript": "I take photos with my camera.",
+    "transcript": "This is a photo of my family.",
     "content": {
-      "title": "Fotografía",
-      "instructions": "Completa la oración.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] [[take|tomo]] (_____) [[with|con]] [[my|mi]] [[camera|cámara]].",
-          "options": ["[[photos|fotos]]", "[[music|música]]", "[[books|libros]]"],
-          "correctAnswer": 0,
-          "explanation": "Take photos es sacar fotos."
-        }
-      ]
+      "title": "Foto Familiar",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[This|Esta]] [[is|es]] [[a|una]] [[photo|foto]] [[of|de]] [[my|mi]] [[family|familia]].",
+      "words": ["[[photo|foto]]", "[[family|familia]].", "[[of|de]]", "[[my|mi]]", "[[is|es]]", "[[This|Esta]]", "[[a|una]]"],
+      "explanation": "Presentando una fotografía."
     },
     "audioUrl": "audio/a1/unit-7/e39.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u7-e40",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Abilities",
+    "topic": "Family Vocabulary",
     "difficulty": "easy",
-    "transcript": "Can he play the guitar?",
+    "transcript": "Do you have any pets? Yes, a dog.",
     "content": {
-      "title": "La Guitarra",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Can|Puede]] [[he|él]] [[play|tocar]] [[the|la]] [[guitar|guitarra]]?",
-      "words": ["[[he|él]]", "[[play|tocar]]", "[[guitar|guitarra]]?", "[[the|la]]", "[[Can|Puede]]"],
-      "explanation": "Habilidad musical."
+      "title": "Mascotas",
+      "instructions": "Elige la respuesta lógica.",
+      "questions": [
+        {
+          "question": "[[Do|¿]] [[you|tú]] [[have|tienes]] [[any|algunas]] [[pets|mascotas]]?",
+          "options": ["[[Yes, a dog|Sí, un perro]]", "[[Yes, a car|Sí, un coche]]", "[[Yes, a chair|Sí, una silla]]"],
+          "correctAnswer": 0,
+          "explanation": "Las mascotas (pets) son animales domésticos."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-7/e40.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u7-e41",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar",
-    "difficulty": "easy",
-    "transcript": "She enjoys painting landscapes.",
+    "topic": "Family Vocabulary",
+    "difficulty": "medium",
+    "transcript": "My father's second wife is my stepmother.",
     "content": {
-      "title": "Paisajes",
-      "instructions": "Elige la forma verbal.",
+      "title": "Madrastra",
+      "instructions": "Completa la relación.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[enjoys|disfruta]] (_____) [[landscapes|paisajes]].",
-          "options": ["[[paint|pintar]]", "[[painting|pintando/pintar]]", "[[paints|pinta]]"],
-          "correctAnswer": 1,
-          "explanation": "Enjoy + -ing."
+          "question": "[[My|Mi]] [[father's|de mi padre]] [[second|segunda]] [[wife|esposa]] [[is|es]] [[my|mi]] (_____).",
+          "options": ["[[stepmother|madrastra]]", "[[godmother|madrina]]", "[[mother-in-law|suegra]]"],
+          "correctAnswer": 0,
+          "explanation": "Stepmother es la madrastra."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-7/e41.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u7-e42",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Vocabulary",
-    "difficulty": "easy",
-    "transcript": "My hobby is playing video games.",
+    "topic": "Family Vocabulary",
+    "difficulty": "medium",
+    "transcript": "He is my half-brother.",
     "content": {
-      "title": "Videojuegos",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[My|Mi]] [[hobby|pasatiempo]] [[is|es]] [[playing|jugar]] [[video|video]] [[games|juegos]].",
-      "words": ["[[is|es]]", "[[playing|jugar]]", "[[video|video]]", "[[games|juegos]].", "[[hobby|pasatiempo]]", "[[My|Mi]]"],
-      "explanation": "Hobby común hoy en día."
+      "title": "Medio Hermano",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[He|Él]] [[is|es]] [[my|mi]] [[half-brother|medio hermano]].",
+      "words": ["[[half-brother|medio hermano]].", "[[is|es]]", "[[my|mi]]", "[[He|Él]]"],
+      "explanation": "Half-brother se usa cuando solo comparten un progenitor."
     },
     "audioUrl": "audio/a1/unit-7/e42.mp3",
     "topicName": "Vocabulary"
@@ -851,18 +852,18 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e43",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Can/Can't",
-    "difficulty": "easy",
-    "transcript": "Can you dance salsa?",
+    "topic": "Possessives",
+    "difficulty": "medium",
+    "transcript": "Whose toys are these? They are my children's toys.",
     "content": {
-      "title": "Bailar Salsa",
-      "instructions": "Elige la pregunta correcta.",
+      "title": "Juguetes de los Niños",
+      "instructions": "Elige el posesivo correcto para plural irregular.",
       "questions": [
         {
-          "question": "(_____) [[you|tú]] [[dance|bailar]] [[salsa|salsa]]?",
-          "options": ["[[Are|Eres]]", "[[Can|Puedes]]", "[[Do|Haces]]"],
-          "correctAnswer": 1,
-          "explanation": "Can para preguntar sobre habilidades como el baile."
+          "question": "[[They|Ellos]] [[are|son]] [[my|mis]] (_____) [[toys|juguetes]].",
+          "options": ["[[children's|de mis hijos/niños]]", "[[childrens|niños]]", "[[child's|de mi hijo]]"],
+          "correctAnswer": 0,
+          "explanation": "Para plurales irregulares como 'children', añadimos 's."
         }
       ]
     },
@@ -873,35 +874,35 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e44",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Likes",
-    "difficulty": "easy",
-    "transcript": "I don't like playing chess.",
+    "topic": "Family Description",
+    "difficulty": "medium",
+    "transcript": "My grandparents are very old but active.",
     "content": {
-      "title": "Ajedrez",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[I|Yo]] [[don't|no]] [[like|gustar]] [[playing|jugar]] [[chess|ajedrez]].",
-      "words": ["[[playing|jugar]]", "[[chess|ajedrez]].", "[[like|gustar]]", "[[don't|no]]", "[[I|Yo]]"],
-      "explanation": "Negación de gustos con -ing."
+      "title": "Abuelos Activos",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[My|Mis]] [[grandparents|abuelos]] [[are|son]] [[very|muy]] [[old|mayores]] [[but|pero]] [[active|activos]].",
+      "words": ["[[active|activos]].", "[[but|pero]]", "[[very|muy]]", "[[are|son]]", "[[grandparents|abuelos]]", "[[old|mayores]]", "[[My|Mis]]"],
+      "explanation": "Describiendo a los abuelos con adjetivos."
     },
     "audioUrl": "audio/a1/unit-7/e44.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u7-e45",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary",
+    "topic": "Family Vocabulary",
     "difficulty": "easy",
-    "transcript": "He is very good at swimming.",
+    "transcript": "My brother's wife is my sister-in-law.",
     "content": {
-      "title": "Bueno en algo",
-      "instructions": "Elige la preposición correcta.",
+      "title": "Cuñada",
+      "instructions": "Completa la relación.",
       "questions": [
         {
-          "question": "[[He|Él]] [[is|es]] [[very|muy]] [[good|bueno]] (_____) [[swimming|natación]].",
-          "options": ["[[at|en]]", "[[in|en]]", "[[on|en]]"],
+          "question": "[[My|Mi]] [[brother's|de mi hermano]] [[wife|esposa]] [[is|es]] [[my|mi]] (_____).",
+          "options": ["[[sister-in-law|cuñada]]", "[[mother-in-law|suegra]]", "[[daughter-in-law|nuera]]"],
           "correctAnswer": 0,
-          "explanation": "Usamos 'good at' para expresar que alguien es bueno en una actividad."
+          "explanation": "Sister-in-law es la cuñada."
         }
       ]
     },
@@ -912,93 +913,93 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e46",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Grammar",
+    "topic": "Personal Info",
     "difficulty": "easy",
-    "transcript": "Can they help us with the homework?",
+    "transcript": "I have a twin sister.",
     "content": {
-      "title": "Pedir ayuda con deberes",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Can|Pueden]] [[they|ellos]] [[help|ayudar]] [[us|nos]] [[with|con]] [[the|los]] [[homework|deberes]]?",
-      "words": ["[[help|ayudar]]", "[[homework|deberes]]?", "[[Can|Pueden]]", "[[they|ellos]]", "[[us|nos]]", "[[with|con]]", "[[the|los]]"],
-      "explanation": "Can para posibilidad/petición."
+      "title": "Hermana Gemela",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[I|Yo]] [[have|tengo]] [[a|una]] [[twin|gemela]] [[sister|hermana]].",
+      "words": ["[[sister|hermana]].", "[[twin|gemela]]", "[[have|tengo]]", "[[I|Yo]]", "[[a|una]]"],
+      "explanation": "Twin significa gemelo/a o mellizo/a."
     },
     "audioUrl": "audio/a1/unit-7/e46.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u7-e47",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary",
-    "difficulty": "easy",
-    "transcript": "I like to go hiking in the mountains.",
+    "topic": "Possessives",
+    "difficulty": "medium",
+    "transcript": "Our parents' house is in the village.",
     "content": {
-      "title": "Senderismo",
-      "instructions": "Elige la palabra correcta.",
+      "title": "Casa de los Padres",
+      "instructions": "Elige el posesivo para plural regular.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[like|gustar]] [[to|a]] [[go|ir]] (_____) [[in|en]] [[the|las]] [[mountains|montañas]].",
-          "options": ["[[hiking|senderismo]]", "[[swimming|natación]]", "[[dancing|bailando]]"],
+          "question": "(_____) [[house|casa]] [[is|está]] [[in|en]] [[the|el]] [[village|pueblo]].",
+          "options": ["[[Our parents'|De nuestros padres]]", "[[Our parent's|De nuestro padre/madre]]", "[[Our parents|Nuestros padres]]"],
           "correctAnswer": 0,
-          "explanation": "Hiking es senderismo, actividad típica de montaña."
+          "explanation": "Para plurales regulares terminados en 's', solo añadimos el apóstrofo: parents'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-7/e47.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u7-e48",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Grammar",
-    "difficulty": "easy",
-    "transcript": "She loves cooking dinner for her family.",
+    "topic": "Family Tree",
+    "difficulty": "medium",
+    "transcript": "Do you live with your extended family?",
     "content": {
-      "title": "Cocinar para la familia",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[She|Ella]] [[loves|ama]] [[cooking|cocinar]] [[dinner|la cena]] [[for|para]] [[her|su]] [[family|familia]].",
-      "words": ["[[cooking|cocinar]]", "[[dinner|la cena]]", "[[for|para]]", "[[her|su]]", "[[family|familia]].", "[[She|Ella]]", "[[loves|ama]]"],
-      "explanation": "Love + -ing."
+      "title": "Familia Extendida",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[Do|¿]] [[you|tú]] [[live|vives]] [[with|con]] [[your|tu]] [[extended|extendida]] [[family|familia]]?",
+      "words": ["[[extended|extendida]]", "[[family|familia]]?", "[[live|vives]]", "[[with|con]]", "[[Do|¿]]", "[[you|tú]]", "[[your|tu]]"],
+      "explanation": "Extended family incluye tíos, primos, abuelos, etc."
     },
     "audioUrl": "audio/a1/unit-7/e48.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u7-e49",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Can/Can't",
-    "difficulty": "easy",
-    "transcript": "My brother can play basketball very well.",
+    "topic": "Family Vocabulary",
+    "difficulty": "medium",
+    "transcript": "My daughter's husband is my son-in-law.",
     "content": {
-      "title": "Habilidad Deportiva",
-      "instructions": "Elige la palabra correcta.",
+      "title": "Yerno",
+      "instructions": "Completa la relación.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[brother|hermano]] (_____) [[play|jugar]] [[basketball|baloncesto]] [[very|muy]] [[well|bien]].",
-          "options": ["[[is|es]]", "[[can|puede]]", "[[does|hace]]"],
-          "correctAnswer": 1,
-          "explanation": "Can para habilidad deportiva."
+          "question": "[[My|Mi]] [[daughter's|de mi hija]] [[husband|esposo]] [[is|es]] [[my|mi]] (_____).",
+          "options": ["[[son-in-law|yerno]]", "[[brother-in-law|cuñado]]", "[[nephew|sobrino]]"],
+          "correctAnswer": 0,
+          "explanation": "Son-in-law es el yerno."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-7/e49.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u7-e50",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Vocabulary",
+    "topic": "Personal Info",
     "difficulty": "easy",
-    "transcript": "What are your hobbies?",
+    "transcript": "I love my family very much.",
     "content": {
-      "title": "Tus Pasatiempos",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[What|Cuáles]] [[are|son]] [[your|tus]] [[hobbies|pasatiempos]]?",
-      "words": ["[[are|son]]", "[[hobbies|pasatiempos]]?", "[[your|tus]]", "[[What|Cuáles]]"],
-      "explanation": "Pregunta básica sobre intereses."
+      "title": "Amor Familiar",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[I|Yo]] [[love|amo]] [[my|mi]] [[family|familia]] [[very|muy]] [[much|mucho]].",
+      "words": ["[[much|mucho]].", "[[very|muy]]", "[[family|familia]]", "[[love|amo]]", "[[my|mi]]", "[[I|Yo]]"],
+      "explanation": "Expresando afecto por la familia."
     },
     "audioUrl": "audio/a1/unit-7/e50.mp3",
     "topicName": "Vocabulary"
@@ -1007,18 +1008,18 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e51",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about hobbies.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "My name is Peter and I have a big family. I live with my parents, my two sisters, and my grandfather. My father is a doctor and my mother is a teacher. My sisters' names are Lucy and Emma. Lucy is ten years old and Emma is eight. My grandfather is seventy years old. He is very kind and he loves telling stories about our ancestors. We have a dog called Max. He is also part of our family.",
     "content": {
-      "title": "Lectura: Mark's Hobbies",
+      "title": "Lectura: La Familia de Peter",
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "What is Mark's favorite sport? *\"Mark has many hobbies. He loves playing football and tennis. His favorite sport is basketball. In his free time, he also likes reading books and listening to music. He can't sing, but he can play the guitar very well. Every Sunday, he goes swimming with his friends.\"*",
-          "options": ["[[Football|Fútbol]]", "[[Tennis|Tenis]]", "[[Basketball|Baloncesto]]"],
-          "correctAnswer": 2,
-          "explanation": "El texto dice 'His favorite sport is basketball'."
+          "question": "[[How|Cuántas]] [[many|muchas]] [[sisters|hermanas]] [[does|aux]] [[Peter|Peter]] [[have|tiene]]?",
+          "options": ["[[Two|Dos]]", "[[One|Una]]", "[[Three|Tres]]"],
+          "correctAnswer": 0,
+          "explanation": "Peter dice que vive con sus dos hermanas (two sisters)."
         }
       ]
     },
@@ -1029,84 +1030,84 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e52",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about hobbies.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "My name is Peter and I have a big family. I live with my parents, my two sisters, and my grandfather. My father is a doctor and my mother is a teacher. My sisters' names are Lucy and Emma. Lucy is ten years old and Emma is eight. My grandfather is seventy years old. He is very kind and he loves telling stories about our ancestors. We have a dog called Max. He is also part of our family.",
     "content": {
-      "title": "Lectura: Mark's Hobbies",
+      "title": "Lectura: Los Padres de Peter",
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "Can Mark sing? *\"Mark has many hobbies. He loves playing football and tennis. His favorite sport is basketball. In his free time, he also likes reading books and listening to music. He can't sing, but he can play the guitar very well. Every Sunday, he goes swimming with his friends.\"*",
-          "options": ["[[Yes, he can|Sí]]", "[[No, he can't|No]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto indica 'He can't sing'."
+          "question": "[[What|Qué]] [[is|es]] [[his|su (de él)]] [[mother's|de su madre]] [[job|trabajo]]?",
+          "options": ["[[Teacher|Profesora]]", "[[Doctor|Doctora]]", "[[Nurse|Enfermera]]"],
+          "correctAnswer": 0,
+          "explanation": "Peter menciona que su madre es profesora (teacher)."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-7/e51.mp3",
+    "audioUrl": "audio/a1/unit-7/e52.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u7-e53",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about hobbies.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "My name is Peter and I have a big family. I live with my parents, my two sisters, and my grandfather. My father is a doctor and my mother is a teacher. My sisters' names are Lucy and Emma. Lucy is ten years old and Emma is eight. My grandfather is seventy years old. He is very kind and he loves telling stories about our ancestors. We have a dog called Max. He is also part of our family.",
     "content": {
-      "title": "Lectura: Mark's Hobbies",
+      "title": "Lectura: El Abuelo de Peter",
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "What instrument can Mark play? *\"Mark has many hobbies. He loves playing football and tennis. His favorite sport is basketball. In his free time, he also likes reading books and listening to music. He can't sing, but he can play the guitar very well. Every Sunday, he goes swimming with his friends.\"*",
-          "options": ["[[Piano|Piano]]", "[[Guitar|Guitarra]]", "[[Drums|Batería]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto menciona 'he can play the guitar'."
+          "question": "[[How|Qué]] [[old|edad]] [[is|tiene]] [[the|el]] [[grandfather|abuelo]]?",
+          "options": ["[[Seventy|Setenta]]", "[[Sixty|Sesenta]]", "[[Eighty|Ochenta]]"],
+          "correctAnswer": 0,
+          "explanation": "El abuelo tiene setenta años (seventy years old)."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-7/e51.mp3",
+    "audioUrl": "audio/a1/unit-7/e53.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u7-e54",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about hobbies.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "Today is a special day. It is my cousin's birthday party. All my relatives are at my aunt's house. My uncle is cooking a barbecue in the garden. My cousins are playing with their new toys. My parents are talking to my father-in-law. Even my nephew and niece are here! We are a very united family and we love spending time together on weekends.",
     "content": {
-      "title": "Lectura: Mark's Hobbies",
+      "title": "Lectura: La Fiesta de Cumpleaños",
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "When does Mark go swimming? *\"Mark has many hobbies. He loves playing football and tennis. His favorite sport is basketball. In his free time, he also likes reading books and listening to music. He can't sing, but he can play the guitar very well. Every Sunday, he goes swimming with his friends.\"*",
-          "options": ["[[Every Friday|Cada viernes]]", "[[Every Saturday|Cada sábado]]", "[[Every Sunday|Cada domingo]]"],
-          "correctAnswer": 2,
-          "explanation": "El texto dice 'Every Sunday, he goes swimming'."
+          "question": "[[Where|Dónde]] [[is|está]] [[the|la]] [[party|fiesta]]?",
+          "options": ["[[At the aunt's house|En casa de la tía]]", "[[At the park|En el parque]]", "[[At a restaurant|En un restaurante]]"],
+          "correctAnswer": 0,
+          "explanation": "La fiesta es en casa de la tía (aunt's house)."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-7/e51.mp3",
+    "audioUrl": "audio/a1/unit-7/e54.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u7-e55",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about a hobby interview.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "Today is a special day. It is my cousin's birthday party. All my relatives are at my aunt's house. My uncle is cooking a barbecue in the garden. My cousins are playing with their new toys. My parents are talking to my father-in-law. Even my nephew and niece are here! We are a very united family and we love spending time together on weekends.",
     "content": {
-      "title": "Lectura: Interview with Sarah",
+      "title": "Lectura: ¿Quién cocina?",
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "What is Sarah's main hobby? *\"Reporter: Sarah, what do you do in your free time? Sarah: I love cooking. I cook for my family every day. I also like gardening. I have many flowers in my garden. Reporter: Can you play any sports? Sarah: Yes, I can play tennis. I play with my husband on Saturdays. I don't like running, but I enjoy walking in the park.\"*",
-          "options": ["[[Cooking|Cocinar]]", "[[Running|Correr]]", "[[Swimming|Nadar]]"],
+          "question": "[[Who|Quién]] [[is|está]] [[cooking|cocinando]]?",
+          "options": ["[[The uncle|El tío]]", "[[The aunt|La tía]]", "[[The father|El padre]]"],
           "correctAnswer": 0,
-          "explanation": "Sarah dice 'I love cooking'."
+          "explanation": "El tío (uncle) está cocinando una barbacoa."
         }
       ]
     },
@@ -1117,84 +1118,84 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e56",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about a hobby interview.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "Hello, I am Maria. I want to tell you about my family tree. My grandparents have three children: my father and my two aunts. My father is married to my mother, Sofia. They have two children: my brother Luis and me. My aunts are also married and I have four cousins. We visit our grandparents every Sunday. They live in a small house near the beach.",
     "content": {
-      "title": "Lectura: Interview with Sarah",
-      "instructions": "Lee el texto y responde.",
+      "title": "Lectura: El Árbol de Maria",
+      "instructions": "Lee sobre Maria y responde.",
       "questions": [
         {
-          "question": "What does Sarah have in her garden? *\"Reporter: Sarah, what do you do in your free time? Sarah: I love cooking. I cook for my family every day. I also like gardening. I have many flowers in my garden. Reporter: Can you play any sports? Sarah: Yes, I can play tennis. I play with my husband on Saturdays. I don't like running, but I enjoy walking in the park.\"*",
-          "options": ["[[Vegetables|Verduras]]", "[[Flowers|Flores]]", "[[Trees|Árboles]]"],
-          "correctAnswer": 1,
-          "explanation": "Ella menciona 'I have many flowers in my garden'."
+          "question": "[[How|Cuántos]] [[many|muchos]] [[children|hijos]] [[do|aux]] [[Maria's|de Maria]] [[grandparents|abuelos]] [[have|tienen]]?",
+          "options": ["[[Three|Tres]]", "[[Two|Dos]]", "[[Four|Cuatro]]"],
+          "correctAnswer": 0,
+          "explanation": "Los abuelos tienen tres hijos (her father and two aunts)."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-7/e55.mp3",
+    "audioUrl": "audio/a1/unit-7/e56.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u7-e57",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about a hobby interview.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "Hello, I am Maria. I want to tell you about my family tree. My grandparents have three children: my father and my two aunts. My father is married to my mother, Sofia. They have two children: my brother Luis and me. My aunts are also married and I have four cousins. We visit our grandparents every Sunday. They live in a small house near the beach.",
     "content": {
-      "title": "Lectura: Interview with Sarah",
-      "instructions": "Lee el texto y responde.",
+      "title": "Lectura: ¿Dónde viven los abuelos?",
+      "instructions": "Lee sobre Maria y responde.",
       "questions": [
         {
-          "question": "Who does Sarah play tennis with? *\"Reporter: Sarah, what do you do in your free time? Sarah: I love cooking. I cook for my family every day. I also like gardening. I have many flowers in my garden. Reporter: Can you play any sports? Sarah: Yes, I can play tennis. I play with my husband on Saturdays. I don't like running, but I enjoy walking in the park.\"*",
-          "options": ["[[Her sister|Su hermana]]", "[[Her husband|Su marido]]", "[[Her friend|Su amigo]]"],
-          "correctAnswer": 1,
-          "explanation": "Ella dice 'I play with my husband'."
+          "question": "[[Where|Dónde]] [[do|aux]] [[the|los]] [[grandparents|abuelos]] [[live|viven]]?",
+          "options": ["[[Near the beach|Cerca de la playa]]", "[[In the city|En la ciudad]]", "[[In a big farm|En una granja grande]]"],
+          "correctAnswer": 0,
+          "explanation": "Viven en una casa pequeña cerca de la playa (near the beach)."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-7/e55.mp3",
+    "audioUrl": "audio/a1/unit-7/e57.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u7-e58",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about a hobby interview.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "Meet the Robinsons. They are a typical family from England. Mr. Robinson is a lawyer and Mrs. Robinson is an artist. They have one daughter, Lily, who is five. They don't have a son, but they have a cat and a dog. On weekends, they visit their relatives in the countryside. Lily loves playing with her cousins and her grandparents.",
     "content": {
-      "title": "Lectura: Interview with Sarah",
-      "instructions": "Lee el texto y responde.",
+      "title": "Lectura: Los Robinson",
+      "instructions": "Lee sobre los Robinson y responde.",
       "questions": [
         {
-          "question": "Does Sarah like running? *\"Reporter: Sarah, what do you do in your free time? Sarah: I love cooking. I cook for my family every day. I also like gardening. I have many flowers in my garden. Reporter: Can you play any sports? Sarah: Yes, I can play tennis. I play with my husband on Saturdays. I don't like running, but I enjoy walking in the park.\"*",
-          "options": ["[[Yes, she does|Sí]]", "[[No, she doesn't|No]]"],
-          "correctAnswer": 1,
-          "explanation": "Ella afirma 'I don't like running'."
+          "question": "[[Does|¿Tiene]] [[the|la]] [[family|familia]] [[have|una]] [[a|una]] [[son|hijo]]?",
+          "options": ["[[No, they don't|No, no tienen]]", "[[Yes, they do|Sí, tienen]]", "[[They have two sons|Tienen dos hijos]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice 'They don't have a son'."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-7/e55.mp3",
+    "audioUrl": "audio/a1/unit-7/e58.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u7-e59",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about free time.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "Meet the Robinsons. They are a typical family from England. Mr. Robinson is a lawyer and Mrs. Robinson is an artist. They have one daughter, Lily, who is five. They don't have a son, but they have a cat and a dog. On weekends, they visit their relatives in the countryside. Lily loves playing with her cousins and her grandparents.",
     "content": {
-      "title": "Lectura: David's Weekend",
-      "instructions": "Lee el texto y responde.",
+      "title": "Lectura: Mascotas Robinson",
+      "instructions": "Lee sobre los Robinson y responde.",
       "questions": [
         {
-          "question": "What does David do on Saturdays? *\"On Saturdays, David is very active. He gets up early and goes for a run. Then, he meets his friends and they play basketball. In the afternoon, he relaxes and watches TV. On Sundays, he is more quiet. He stays at home and reads books. He doesn't like going out on Sundays. He prefers to cook a nice dinner and prepare for the week.\"*",
-          "options": ["[[He reads books|Lee libros]]", "[[He plays basketball|Juega al baloncesto]]", "[[He cooks dinner|Cocina la cena]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice que los sábados 'they play basketball'."
+          "question": "[[What|Qué]] [[pets|mascotas]] [[do|aux]] [[they|ellos]] [[have|tienen]]?",
+          "options": ["[[A cat and a dog|Un gato y un perro]]", "[[Two cats|Dos gatos]]", "[[A bird|Un pájaro]]"],
+          "correctAnswer": 0,
+          "explanation": "Tienen un gato y un perro (a cat and a dog)."
         }
       ]
     },
@@ -1205,22 +1206,23 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e60",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about free time.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "Meet the Robinsons. They are a typical family from England. Mr. Robinson is a lawyer and Mrs. Robinson is an artist. They have one daughter, Lily, who is five. They don't have a son, but they have a cat and a dog. On weekends, they visit their relatives in the countryside. Lily loves playing with her cousins and her grandparents.",
     "content": {
-      "title": "Lectura: David's Weekend",
-      "instructions": "Lee el texto y responde.",
+      "title": "Lectura: El Trabajo de Mrs. Robinson",
+      "instructions": "Lee sobre los Robinson y responde.",
       "questions": [
         {
-          "question": "What does David do on Sundays? *\"On Saturdays, David is very active. He gets up early and goes for a run. Then, he meets his friends and they play basketball. In the afternoon, he relaxes and watches TV. On Sundays, he is more quiet. He stays at home and reads books. He doesn't like going out on Sundays. He prefers to cook a nice dinner and prepare for the week.\"*",
-          "options": ["[[He goes for a run|Va a correr]]", "[[He reads books|Lee libros]]", "[[He plays basketball|Juega al baloncesto]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice que los domingos 'He stays at home and reads books'."
+          "question": "[[What|Qué]] [[is|es]] [[Mrs.|la Sra.]] [[Robinson's|de Robinson]] [[job|trabajo]]?",
+          "options": ["[[Artist|Artista]]", "[[Lawyer|Abogada]]", "[[Doctor|Doctora]]"],
+          "correctAnswer": 0,
+          "explanation": "Mrs. Robinson is an artist (artista)."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-7/e59.mp3",
+    "audioUrl": "audio/a1/unit-7/e60.mp3",
     "topicName": "Reading"
   }
 ];
+
