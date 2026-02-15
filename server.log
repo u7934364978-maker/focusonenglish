@@ -30,3 +30,73 @@ Supabase Browser Client Initializing with URL: https://nprqtjljoekoirlrjxlh.supa
  GET /debug/a1-preview/unit-15 200 in 281ms
  GET /debug/a1-preview/unit-15 200 in 283ms
  ✓ Compiled in 1356ms (2341 modules)
+ ✓ Compiled in 1686ms (1090 modules)
+Supabase Browser Client Initializing with URL: https://nprqtjljoekoirlrjxlh.supabase.co
+ GET /debug/a1-preview/unit-16 200 in 429ms
+ GET /debug/a1-preview/unit-16 200 in 435ms
+ ○ Compiling / ...
+ ✓ Compiled / in 4.4s (2424 modules)
+Supabase Browser Client Initializing with URL: https://nprqtjljoekoirlrjxlh.supabase.co
+ ⨯ Failed to generate static paths for /debug/a1-preview/[unitId]:
+[Error: Cannot find module './vendor-chunks/@supabase.js'
+Require stack:
+- /Users/lidia/Documents/focusonenglish/focusonenglish/.next/server/webpack-runtime.js
+- /Users/lidia/Documents/focusonenglish/focusonenglish/.next/server/app/debug/a1-preview/[unitId]/page.js
+- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/server/require.js
+- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/server/load-components.js
+- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/build/utils.js
+- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/server/dev/static-paths-worker.js
+- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/compiled/jest-worker/processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Failed to generate static paths for /debug/a1-preview/[unitId]:
+[Error: Cannot find module './vendor-chunks/@supabase.js'
+Require stack:
+- /Users/lidia/Documents/focusonenglish/focusonenglish/.next/server/webpack-runtime.js
+- /Users/lidia/Documents/focusonenglish/focusonenglish/.next/server/app/debug/a1-preview/[unitId]/page.js
+- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/server/require.js
+- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/server/load-components.js
+- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/build/utils.js
+- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/server/dev/static-paths-worker.js
+- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/compiled/jest-worker/processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ GET /debug/a1-preview/unit-16 200 in 2878ms
+ GET /debug/a1-preview/unit-16 200 in 2959ms
+ ⨯ [Error: Cannot find module './vendor-chunks/@supabase.js'
+Require stack:
+- /Users/lidia/Documents/focusonenglish/focusonenglish/.next/server/webpack-runtime.js
+- /Users/lidia/Documents/focusonenglish/focusonenglish/.next/server/app/debug/a1-preview/[unitId]/page.js
+- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/server/require.js
+- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/server/load-components.js
+- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/build/utils.js
+- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/server/dev/static-paths-worker.js
+- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/compiled/jest-worker/processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/debug/a1-preview/unit-16'
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/@supabase.js'
+Require stack:
+- /Users/lidia/Documents/focusonenglish/focusonenglish/.next/server/webpack-runtime.js
+- /Users/lidia/Documents/focusonenglish/focusonenglish/.next/server/app/debug/a1-preview/[unitId]/page.js
+- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/server/require.js
+- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/server/load-components.js
+- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/build/utils.js
+- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/server/dev/static-paths-worker.js
+- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/compiled/jest-worker/processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/debug/a1-preview/unit-16'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 1410ms (2770 modules)
+ GET /debug/a1-preview/unit-16 500 in 2409ms
+ GET /debug/a1-preview/unit-16 500 in 2409ms
+[?25h

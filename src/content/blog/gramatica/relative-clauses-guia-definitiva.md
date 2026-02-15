@@ -1,12 +1,21 @@
 ---
-title: "Relative Clauses en Inglés: Guía Defining y Non-Defining"
-description: "Aprende a usar Who, Which, That, Whose y Whom. Diferencias entre defining y non-defining relative clauses con ejemplos y lista imprimible."
-excerpt: "Domina las oraciones de relativo en inglés. Aprende cuándo usar comas, cuándo omitir el pronombre y descarga nuestra guía de referencia rápida."
-keywords: ["relative clauses examples", "defining and non defining relative clauses", "relative pronouns english", "uso de who whom whose", "gramatica b2 c1"]
-author: "Equipo Focus English"
-date: "2026-02-06"
-image: "https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg"
-category: "gramatica"
+title: 'Relative Clauses en Inglés: Guía Defining y Non-Defining'
+description: >-
+  Aprende a usar Who, Which, That, Whose y Whom. Diferencias entre defining y
+  non-defining relative clauses con ejemplos y lista imprimible.
+excerpt: >-
+  Domina las oraciones de relativo en inglés. Aprende cuándo usar comas, cuándo
+  omitir el pronombre y descarga nuestra guía de referencia rápida.
+keywords:
+  - relative clauses examples
+  - defining and non defining relative clauses
+  - relative pronouns english
+  - uso de who whom whose
+  - gramatica b2 c1
+author: Equipo Focus English
+date: '2026-02-06'
+image: 'https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg'
+category: gramatica
 ---
 
 Las **Relative Clauses** (oraciones de relativo) son fundamentales para unir ideas y dar información adicional sobre personas, cosas o lugares sin tener que empezar una frase nueva. En el nivel académico, su uso correcto es señal de una escritura fluida y madura.

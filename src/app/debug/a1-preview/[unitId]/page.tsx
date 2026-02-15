@@ -1,13 +1,14 @@
 'use client';
 
-import { useParams } from 'next/navigation';
-import { useEffect, useState } from 'react';
+import { useParams, useSearchParams } from 'next/navigation';
+import { useEffect, useState, Suspense } from 'react';
 import ExerciseRenderer from '@/components/ExerciseRenderer';
 import { ArrowLeft, ArrowRight, Home } from 'lucide-react';
 import Link from 'next/link';
 
-export default function UnitPreviewPage() {
+function UnitPreviewContent() {
   const params = useParams();
+  const searchParams = useSearchParams();
   const unitId = params.unitId as string; // e.g., "1"
   const [exercises, setExercises] = useState<any[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -20,6 +21,15 @@ export default function UnitPreviewPage() {
         const module = await import(`../../../../lib/course/a1/unit-${unitNumber}`);
         const unitExercises = module[`UNIT_${unitNumber}_EXERCISES`];
         setExercises(unitExercises);
+        
+        // Handle index from query param
+        const indexParam = searchParams.get('index');
+        if (indexParam) {
+          const idx = parseInt(indexParam);
+          if (!isNaN(idx) && idx >= 0 && idx < unitExercises.length) {
+            setCurrentIndex(idx);
+          }
+        }
       } catch (error) {
         console.error('Error loading unit:', error);
       } finally {
@@ -27,7 +37,7 @@ export default function UnitPreviewPage() {
       }
     }
     loadUnit();
-  }, [unitId]);
+  }, [unitId, searchParams]);
 
   if (loading) return <div className="p-8 text-center">Cargando Unidad {unitId}...</div>;
   if (exercises.length === 0) return <div className="p-8 text-center text-red-500">No se encontraron ejercicios para la {unitId}</div>;
@@ -86,5 +96,13 @@ export default function UnitPreviewPage() {
         />
       </main>
     </div>
+  );
+}
+
+export default function UnitPreviewPage() {
+  return (
+    <Suspense fallback={<div className="p-8 text-center">Cargando vista previa...</div>}>
+      <UnitPreviewContent />
+    </Suspense>
   );
 }

@@ -1,49 +1,23 @@
 import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_25_EXERCISES: Exercise[] = [
+  // FLASHCARDS (1-10)
   {
     "id": "a1-u25-e1",
     "type": "flashcard",
     "level": "A1",
-    "topic": "My Neighborhood",
+    "topic": "Positive Personality Traits",
     "difficulty": "easy",
-    "transcript": "Park. Shop. Supermarket. Bank. Pharmacy. Hospital. Cinema. Street",
+    "transcript": "Kind. Friendly. Funny. Intelligent. Generous",
     "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
+      "title": "Rasgos Positivos",
+      "instructions": "Aprende adjetivos positivos para describir la personalidad.",
       "items": [
-        {
-          "front": "[[Park|Parque]]",
-          "back": "Parque"
-        },
-        {
-          "front": "[[Shop|Tienda]]",
-          "back": "Tienda"
-        },
-        {
-          "front": "[[Supermarket|Supermercado]]",
-          "back": "Supermercado"
-        },
-        {
-          "front": "[[Bank|Banco]]",
-          "back": "Banco"
-        },
-        {
-          "front": "[[Pharmacy|Farmacia]]",
-          "back": "Farmacia"
-        },
-        {
-          "front": "[[Hospital|Hospital]]",
-          "back": "Hospital"
-        },
-        {
-          "front": "[[Cinema|Cine]]",
-          "back": "Cine"
-        },
-        {
-          "front": "[[Street|Calle]]",
-          "back": "Calle"
-        }
+        { "front": "[[Kind|Amable/Bondadoso]]", "back": "Amable/Bondadoso" },
+        { "front": "[[Friendly|Simpático/Amigable]]", "back": "Simpático/Amigable" },
+        { "front": "[[Funny|Divertido/Gracioso]]", "back": "Divertido/Gracioso" },
+        { "front": "[[Intelligent|Inteligente]]", "back": "Inteligente" },
+        { "front": "[[Generous|Generoso/a]]", "back": "Generoso/a" }
       ]
     },
     "audioUrl": "audio/a1/unit-25/e1.mp3",
@@ -51,229 +25,1247 @@ export const UNIT_25_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u25-e2",
-    "type": "multiple-choice",
+    "type": "flashcard",
     "level": "A1",
-    "topic": "My Neighborhood",
+    "topic": "Other Personality Traits",
     "difficulty": "easy",
-    "transcript": "There  is a big park.",
+    "transcript": "Serious. Shy. Quiet. Talkative. Lazy",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
-      "questions": [
-        {
-          "question": "[[There|Allí/ahí]] ([[be|ser/estar]]) _______ [[a|un/una]] [[big|grande]] [[park|park]].",
-          "options": [
-            "[[are|son/están]]",
-            "[[is|es/está]]",
-            "[[is|es/está]]"
-          ],
-          "correctAnswer": 1,
-          "explanation": "Práctica de la estructura gramatical básica."
-        }
+      "title": "Otros Rasgos",
+      "instructions": "Adjetivos comunes para describir cómo es alguien.",
+      "items": [
+        { "front": "[[Serious|Serio/a]]", "back": "Serio/a" },
+        { "front": "[[Shy|Tímido/a]]", "back": "Tímido/a" },
+        { "front": "[[Quiet|Callado/a]]", "back": "Callado/a" },
+        { "front": "[[Talkative|Hablador/a]]", "back": "Hablador/a" },
+        { "front": "[[Lazy|Perezoso/a]]", "back": "Perezoso/a" }
       ]
     },
     "audioUrl": "audio/a1/unit-25/e2.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u25-e3",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "My Neighborhood",
-    "difficulty": "easy",
-    "transcript": "My house  is on Main Street.",
-    "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
-      "questions": [
-        {
-          "question": "[[My|Mi/mis]] [[house|casa]] ([[be|ser/estar]]) _______ [[on|en/sobre]] [[Main|Principal]] [[Street|Calle]].",
-          "options": [
-            "[[are|son/están]]",
-            "[[is|es/está]]",
-            "[[is|es/está]]"
-          ],
-          "correctAnswer": 1,
-          "explanation": "Práctica de la estructura gramatical básica."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-25/e3.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u25-e4",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "My Neighborhood",
-    "difficulty": "easy",
-    "transcript": "There  are three shops.",
-    "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
-      "questions": [
-        {
-          "question": "[[There|Allí/ahí]] ([[be|ser/estar]]) _______ [[three|tres]] [[shops|shops]].",
-          "options": [
-            "[[are|son/están]]",
-            "[[is|es/está]]",
-            "[[are|son/están]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Práctica de la estructura gramatical básica."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-25/e4.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u25-e5",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "My Neighborhood",
-    "difficulty": "easy",
-    "transcript": "The bank  is near here.",
-    "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
-      "questions": [
-        {
-          "question": "[[The|El/la/los/las]] [[bank|banco]] ([[be|ser/estar]]) _______ [[near|near]] [[here|aquí]].",
-          "options": [
-            "[[is|es/está]]",
-            "[[is|es/está]]",
-            "[[are|son/están]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Práctica de la estructura gramatical básica."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-25/e5.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u25-e6",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "My Neighborhood",
-    "difficulty": "easy",
-    "transcript": "My neighborhood is very quiet.",
-    "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My|Mi/mis]] [[neighborhood|neighborhood]] [[is|es/está]] [[very|muy]] [[quiet|tranquilo/callado]].",
-      "words": [
-        "[[neighborhood|neighborhood]]",
-        "[[My|Mi/mis]]",
-        "[[quiet|tranquilo/callado]].",
-        "[[very|muy]]",
-        "[[is|es/está]]"
-      ],
-      "explanation": "Practica el orden de las palabras en inglés."
-    },
-    "audioUrl": "audio/a1/unit-25/e6.mp3",
     "topicName": "Vocabulary"
   },
   {
-    "id": "a1-u25-e7",
-    "type": "sentence-building",
+    "id": "a1-u25-e3",
+    "type": "flashcard",
     "level": "A1",
-    "topic": "My Neighborhood",
+    "topic": "Feelings and States",
     "difficulty": "easy",
-    "transcript": "There is a small pharmacy near the hospital.",
+    "transcript": "Happy. Sad. Angry. Tired. Bored",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[There|Allí/ahí]] [[is|es/está]] [[a|un/una]] [[small|pequeño/pequeña]] [[pharmacy|pharmacy]] [[near|near]] [[the|el/la/los/las]] [[hospital|hospital]].",
-      "words": [
-        "[[pharmacy|pharmacy]]",
-        "[[small|pequeño/pequeña]]",
-        "[[near|near]]",
-        "[[is|es/está]]",
-        "[[There|Allí/ahí]]",
-        "[[a|un/una]]",
-        "[[the|el/la/los/las]]",
-        "[[hospital|hospital]]."
-      ],
-      "explanation": "Practica el orden de las palabras en inglés."
+      "title": "Sentimientos y Estados",
+      "instructions": "Cómo nos sentimos en un momento determinado.",
+      "items": [
+        { "front": "[[Happy|Feliz]]", "back": "Feliz" },
+        { "front": "[[Sad|Triste]]", "back": "Triste" },
+        { "front": "[[Angry|Enfadado/a]]", "back": "Enfadado/a" },
+        { "front": "[[Tired|Cansado/a]]", "back": "Cansado/a" },
+        { "front": "[[Bored|Aburrido/a]]", "back": "Aburrido/a" }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e3.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e4",
+    "type": "flashcard",
+    "level": "A1",
+    "topic": "More Feelings",
+    "difficulty": "medium",
+    "transcript": "Excited. Nervous. Worried. Surprised. Scared",
+    "content": {
+      "title": "Más Sentimientos",
+      "instructions": "Adjetivos para emociones más complejas.",
+      "items": [
+        { "front": "[[Excited|Emocionado/a]]", "back": "Emocionado/a" },
+        { "front": "[[Nervous|Nervioso/a]]", "back": "Nervioso/a" },
+        { "front": "[[Worried|Preocupado/a]]", "back": "Preocupado/a" },
+        { "front": "[[Surprised|Sorprendido/a]]", "back": "Sorprendido/a" },
+        { "front": "[[Scared|Asustado/a]]", "back": "Asustado/a" }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e4.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e5",
+    "type": "flashcard",
+    "level": "A1",
+    "topic": "Work Personality",
+    "difficulty": "medium",
+    "transcript": "Hard-working. Creative. Patient. Reliable. Helpful",
+    "content": {
+      "title": "Personalidad en el Trabajo",
+      "instructions": "Adjetivos útiles para el entorno laboral.",
+      "items": [
+        { "front": "[[Hard-working|Trabajador/a]]", "back": "Trabajador/a" },
+        { "front": "[[Creative|Creativo/a]]", "back": "Creativo/a" },
+        { "front": "[[Patient|Paciente]]", "back": "Paciente" },
+        { "front": "[[Reliable|Fiable]]", "back": "Fiable" },
+        { "front": "[[Helpful|Servicial]]", "back": "Servicial" }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e5.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e6",
+    "type": "flashcard",
+    "level": "A1",
+    "topic": "Grammar: Questions",
+    "difficulty": "medium",
+    "transcript": "What is he like? How do you feel? What is the matter?",
+    "content": {
+      "title": "Preguntas Clave",
+      "instructions": "Frases para preguntar por la personalidad o el estado de ánimo.",
+      "items": [
+        { "front": "[[What is he like?|¿Cómo es él (personalidad)?]]", "back": "¿Cómo es él (personalidad)?" },
+        { "front": "[[How do you feel?|¿Cómo te sientes?]]", "back": "¿Cómo te sientes?" },
+        { "front": "[[What is the matter?|¿Qué pasa? / ¿Qué te ocurre?]]", "back": "¿Qué pasa? / ¿Qué te ocurre?" },
+        { "front": "[[Are you okay?|¿Estás bien?]]", "back": "¿Estás bien?" },
+        { "front": "[[Is she nice?|¿Es ella simpática?]]", "back": "¿Es ella simpática?" }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e6.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u25-e7",
+    "type": "flashcard",
+    "level": "A1",
+    "topic": "Social Adjectives",
+    "difficulty": "medium",
+    "transcript": "Polite. Rude. Honest. Selfish. Brave",
+    "content": {
+      "title": "Adjetivos Sociales",
+      "instructions": "Palabras para describir el comportamiento social.",
+      "items": [
+        { "front": "[[Polite|Educado/a]]", "back": "Educado/a" },
+        { "front": "[[Rude|Maleducado/a]]", "back": "Maleducado/a" },
+        { "front": "[[Honest|Honesto/a]]", "back": "Honesto/a" },
+        { "front": "[[Selfish|Egoísta]]", "back": "Egoísta" },
+        { "front": "[[Brave|Valiente]]", "back": "Valiente" }
+      ]
     },
     "audioUrl": "audio/a1/unit-25/e7.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u25-e8",
-    "type": "sentence-building",
+    "type": "flashcard",
     "level": "A1",
-    "topic": "My Neighborhood",
-    "difficulty": "easy",
-    "transcript": "I go to the park every day.",
+    "topic": "States of Mind",
+    "difficulty": "medium",
+    "transcript": "Calm. Stressed. Confident. Active. Lonely",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[go|ir]] [[to|a/para]] [[the|el/la/los/las]] [[park|park]] [[every|every]] [[day|día]].",
-      "words": [
-        "[[I|Yo]]",
-        "[[day|día]].",
-        "[[go|ir]]",
-        "[[every|every]]",
-        "[[to|a/para]]",
-        "[[the|el/la/los/las]]",
-        "[[park|park]]"
-      ],
-      "explanation": "Practica el orden de las palabras en inglés."
+      "title": "Estados Mentales",
+      "instructions": "Adjetivos para describir el estado mental o social.",
+      "items": [
+        { "front": "[[Calm|Tranquilo/a (calmado)]]", "back": "Tranquilo/a (calmado)" },
+        { "front": "[[Stressed|Estresado/a]]", "back": "Estresado/a" },
+        { "front": "[[Confident|Seguro/a de sí mismo]]", "back": "Seguro/a de sí mismo" },
+        { "front": "[[Active|Activo/a]]", "back": "Activo/a" },
+        { "front": "[[Lonely|Solo/a (sentirse solo)]]", "back": "Solo/a (sentirse solo)" }
+      ]
     },
     "audioUrl": "audio/a1/unit-25/e8.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u25-e9",
-    "type": "sentence-building",
+    "type": "flashcard",
     "level": "A1",
-    "topic": "My Neighborhood",
-    "difficulty": "easy",
-    "transcript": "The supermarket is open on Sundays.",
+    "topic": "Expressing Emotions",
+    "difficulty": "medium",
+    "transcript": "I am happy because... I feel sad when... He is angry with me.",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[supermarket|supermarket]] [[is|es/está]] [[open|open]] [[on|en/sobre]] [[Sundays|Sundays]].",
-      "words": [
-        "[[Sundays|Sundays]].",
-        "[[supermarket|supermarket]]",
-        "[[on|en/sobre]]",
-        "[[The|El/la/los/las]]",
-        "[[open|open]]",
-        "[[is|es/está]]"
-      ],
-      "explanation": "Practica el orden de las palabras en inglés."
+      "title": "Expresar Emociones",
+      "instructions": "Frases para explicar cómo nos sentimos.",
+      "items": [
+        { "front": "[[I am happy because...|Estoy feliz porque...]]", "back": "Estoy feliz porque..." },
+        { "front": "[[I feel sad when...|Me siento triste cuando...]]", "back": "Me siento triste cuando..." },
+        { "front": "[[He is angry with me.|Él está enfadado conmigo.]]", "back": "Él está enfadado conmigo." },
+        { "front": "[[Don't be scared.|No tengas miedo.]]", "back": "No tengas miedo." },
+        { "front": "[[Why are you nervous?|¿Por qué estás nervioso/a?]]", "back": "¿Por qué estás nervioso/a?" }
+      ]
     },
     "audioUrl": "audio/a1/unit-25/e9.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u25-e10",
-    "type": "sentence-building",
+    "type": "flashcard",
     "level": "A1",
-    "topic": "My Neighborhood",
-    "difficulty": "easy",
-    "transcript": "There are many trees in this street.",
+    "topic": "Summary",
+    "difficulty": "medium",
+    "transcript": "Personality. Character. Mood. Emotion. Feeling",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[There|Allí/ahí]] [[are|son/están]] [[many|many]] [[trees|trees]] [[in|en]] [[this|este/esta]] [[street|calle]].",
-      "words": [
-        "[[trees|trees]]",
-        "[[many|many]]",
-        "[[are|son/están]]",
-        "[[There|Allí/ahí]]",
-        "[[this|este/esta]]",
-        "[[street|calle]].",
-        "[[in|en]]"
-      ],
-      "explanation": "Practica el orden de las palabras en inglés."
+      "title": "Resumen",
+      "instructions": "Conceptos generales de la unidad.",
+      "items": [
+        { "front": "[[Personality|Personalidad]]", "back": "Personalidad" },
+        { "front": "[[Character|Carácter]]", "back": "Carácter" },
+        { "front": "[[Mood|Estado de ánimo]]", "back": "Estado de ánimo" },
+        { "front": "[[Emotion|Emoción]]", "back": "Emoción" },
+        { "front": "[[Feeling|Sentimiento]]", "back": "Sentimiento" }
+      ]
     },
     "audioUrl": "audio/a1/unit-25/e10.mp3",
     "topicName": "Vocabulary"
+  },
+
+  // MULTIPLE CHOICE (11-40)
+  {
+    "id": "a1-u25-e11",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Grammar: What is he like?",
+    "difficulty": "easy",
+    "transcript": "What is your best friend like? She is very kind.",
+    "content": {
+      "title": "¿Cómo es ella?",
+      "instructions": "Elige la pregunta correcta para la personalidad.",
+      "questions": [
+        {
+          "question": "_______ [[is|es]] [[your|tu]] [[best|mejor]] [[friend|amigo/a]] [[like|como]]?",
+          "options": ["[[What|Qué/Cómo]]", "[[How|Cómo (estado)]]", "[[Who|Quién]]"],
+          "correctAnswer": 0,
+          "explanation": "'What is he/she like?' se usa para preguntar por la personalidad."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e11.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u25-e12",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Vocabulary: Positive Traits",
+    "difficulty": "easy",
+    "transcript": "My teacher is very intelligent and helpful.",
+    "content": {
+      "title": "Mi Profesor",
+      "instructions": "Elige el adjetivo positivo.",
+      "questions": [
+        {
+          "question": "[[My|Mi]] [[teacher|profesor/a]] [[is|es]] [[very|muy]] _______ [[and|y]] [[helpful|servicial]].",
+          "options": ["[[intelligent|inteligente]]", "[[lazy|perezoso]]", "[[angry|enfadado]]"],
+          "correctAnswer": 0,
+          "explanation": "Intelligent es una característica positiva para un profesor."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e12.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e13",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Grammar: How do you feel?",
+    "difficulty": "easy",
+    "transcript": "How do you feel today? I feel very happy.",
+    "content": {
+      "title": "¿Cómo te sientes?",
+      "instructions": "Completa la pregunta sobre el estado de ánimo.",
+      "questions": [
+        {
+          "question": "_______ [[do|auxiliar]] [[you|tú]] [[feel|sentirse]] [[today|hoy]]?",
+          "options": ["[[How|Cómo]]", "[[What|Qué]]", "[[Is|Es]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'How' para preguntar por el estado de ánimo actual."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e13.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u25-e14",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Vocabulary: Negative Traits",
+    "difficulty": "medium",
+    "transcript": "He never works, he is very lazy.",
+    "content": {
+      "title": "Perezoso",
+      "instructions": "Elige el adjetivo que describe a alguien que no trabaja.",
+      "questions": [
+        {
+          "question": "[[He|Él]] [[never|nunca]] [[works|trabaja]], [[he|él]] [[is|es]] [[very|muy]] _______.",
+          "options": ["[[lazy|perezoso]]", "[[hard-working|trabajador]]", "[[funny|divertido]]"],
+          "correctAnswer": 0,
+          "explanation": "'Lazy' significa perezoso o vago."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e14.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e15",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Vocabulary: Feelings",
+    "difficulty": "easy",
+    "transcript": "I need a coffee. I am very tired.",
+    "content": {
+      "title": "Cansado",
+      "instructions": "Completa con el estado físico/mental.",
+      "questions": [
+        {
+          "question": "[[I|Yo]] [[need|necesito]] [[a|un]] [[coffee|café]]. [[I|Yo]] [[am|estoy]] [[very|muy]] _______.",
+          "options": ["[[tired|cansado]]", "[[excited|emocionado]]", "[[generous|generoso]]"],
+          "correctAnswer": 0,
+          "explanation": "Cuando necesitamos café, solemos estar cansados (tired)."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e15.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e16",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Vocabulary: Social",
+    "difficulty": "medium",
+    "transcript": "Please say thank you. Be polite.",
+    "content": {
+      "title": "Educación",
+      "instructions": "Elige el adjetivo de comportamiento.",
+      "questions": [
+        {
+          "question": "[[Please|Por favor]] [[say|di]] [[thank|gracias]] [[you|a ti]]. [[Be|Sé]] _______.",
+          "options": ["[[polite|educado]]", "[[rude|grosero]]", "[[shy|tímido]]"],
+          "correctAnswer": 0,
+          "explanation": "Dar las gracias es un acto de educación (polite)."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e16.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e17",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Grammar: Adjectives",
+    "difficulty": "easy",
+    "transcript": "She isn't shy, she is very talkative.",
+    "content": {
+      "title": "Hablador",
+      "instructions": "Elige lo opuesto a 'shy'.",
+      "questions": [
+        {
+          "question": "[[She|Ella]] [[isn't|no es]] [[shy|tímida]], [[she|ella]] [[is|es]] [[very|muy]] _______.",
+          "options": ["[[talkative|habladora]]", "[[quiet|callada]]", "[[sad|triste]]"],
+          "correctAnswer": 0,
+          "explanation": "'Talkative' es alguien que habla mucho, lo opuesto a alguien tímido o callado."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e17.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e18",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Vocabulary: Feelings",
+    "difficulty": "medium",
+    "transcript": "I have an exam tomorrow. I am very nervous.",
+    "content": {
+      "title": "Antes de un Examen",
+      "instructions": "Completa con la emoción adecuada.",
+      "questions": [
+        {
+          "question": "[[I|Yo]] [[have|tengo]] [[an|un]] [[exam|examen]] [[tomorrow|mañana]]. [[I|Yo]] [[am|estoy]] [[very|muy]] _______.",
+          "options": ["[[nervous|nervioso]]", "[[bored|aburrido]]", "[[brave|valiente]]"],
+          "correctAnswer": 0,
+          "explanation": "Es normal sentirse nervioso antes de un examen."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e18.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e19",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Grammar: Why/Because",
+    "difficulty": "medium",
+    "transcript": "Why are you sad? Because I lost my keys.",
+    "content": {
+      "title": "¿Por qué?",
+      "instructions": "Completa con la palabra de pregunta.",
+      "questions": [
+        {
+          "question": "_______ [[are|estás]] [[you|tú]] [[sad|triste]]? [[Because|Porque]] [[I|yo]] [[lost|perdí]] [[my|mis]] [[keys|llaves]].",
+          "options": ["[[Why|Por qué]]", "[[What|Qué]]", "[[When|Cuándo]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'Why' para preguntar el motivo de algo."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e19.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u25-e20",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Vocabulary: General",
+    "difficulty": "easy",
+    "transcript": "My brother is a funny person. He makes me laugh.",
+    "content": {
+      "title": "Gracioso",
+      "instructions": "Elige el adjetivo que describe a alguien que hace reír.",
+      "questions": [
+        {
+          "question": "[[My|Mi]] [[brother|hermano]] [[is|es]] [[a|una]] _______ [[person|persona]]. [[He|Él]] [[makes|hace]] [[me|me]] [[laugh|reír]].",
+          "options": ["[[funny|graciosa]]", "[[serious|seria]]", "[[scared|asustada]]"],
+          "correctAnswer": 0,
+          "explanation": "'Funny' es alguien que tiene gracia o hace reír."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e20.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e21",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Vocabulary: Emotions",
+    "difficulty": "medium",
+    "transcript": "Today is my birthday! I am so excited!",
+    "content": {
+      "title": "Emocionado",
+      "instructions": "Elige la emoción positiva e intensa.",
+      "questions": [
+        {
+          "question": "[[Today|Hoy]] [[is|es]] [[my|mi]] [[birthday|cumpleaños]]! [[I|Yo]] [[am|estoy]] [[so|tan]] _______!",
+          "options": ["[[excited|emocionado]]", "[[worried|preocupado]]", "[[lonely|solo]]"],
+          "correctAnswer": 0,
+          "explanation": "En un cumpleaños es normal estar emocionado (excited)."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e21.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e22",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Vocabulary: Traits",
+    "difficulty": "medium",
+    "transcript": "She is very patient with children.",
+    "content": {
+      "title": "Paciente",
+      "instructions": "Elige el adjetivo de personalidad.",
+      "questions": [
+        {
+          "question": "[[She|Ella]] [[is|es]] [[very|muy]] _______ [[with|con]] [[children|niños]].",
+          "options": ["[[patient|paciente]]", "[[rude|grosera]]", "[[stressed|estresada]]"],
+          "correctAnswer": 0,
+          "explanation": "Ser paciente es una gran cualidad al tratar con niños."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e22.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e23",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Grammar: Be",
+    "difficulty": "easy",
+    "transcript": "Are you angry with me?",
+    "content": {
+      "title": "¿Estás Enfadado?",
+      "instructions": "Completa la pregunta con el verbo to be.",
+      "questions": [
+        {
+          "question": "_______ [[you|tú]] [[angry|enfadado]] [[with|con]] [[me|migo]]?",
+          "options": ["[[Are|Estás]]", "[[Do|Haces]]", "[[Is|Está]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'Are you...?' para preguntar por un estado emocional."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e23.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u25-e24",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Vocabulary: Negative",
+    "difficulty": "medium",
+    "transcript": "Don't be rude to the waiter.",
+    "content": {
+      "title": "Sin Mala Educación",
+      "instructions": "Elige el adjetivo de comportamiento negativo.",
+      "questions": [
+        {
+          "question": "[[Don't|No]] [[be|seas]] _______ [[to|con]] [[the|el]] [[waiter|camarero]].",
+          "options": ["[[rude|grosero]]", "[[kind|amable]]", "[[helpful|servicial]]"],
+          "correctAnswer": 0,
+          "explanation": "'Rude' es ser grosero o maleducado."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e24.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e25",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Vocabulary: Positive",
+    "difficulty": "easy",
+    "transcript": "My neighbor is very friendly.",
+    "content": {
+      "title": "Un Buen Vecino",
+      "instructions": "Describe a un vecino simpático.",
+      "questions": [
+        {
+          "question": "[[My|Mi]] [[neighbor|vecino]] [[is|es]] [[very|muy]] _______.",
+          "options": ["[[friendly|amigable]]", "[[selfish|egoísta]]", "[[scared|asustado]]"],
+          "correctAnswer": 0,
+          "explanation": "'Friendly' significa que alguien es amigable o simpático."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e25.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e26",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Vocabulary: Emotions",
+    "difficulty": "medium",
+    "transcript": "There is a big spider! I am scared!",
+    "content": {
+      "title": "¡Qué Miedo!",
+      "instructions": "Completa con el sentimiento de miedo.",
+      "questions": [
+        {
+          "question": "[[There|Allí]] [[is|hay]] [[a|una]] [[big|grande]] [[spider|araña]]! [[I|Yo]] [[am|estoy]] _______!",
+          "options": ["[[scared|asustado]]", "[[confident|seguro]]", "[[creative|creativo]]"],
+          "correctAnswer": 0,
+          "explanation": "'Scared' significa tener miedo o estar asustado."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e26.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e27",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Vocabulary: Traits",
+    "difficulty": "medium",
+    "transcript": "He always shares his toys. He is very generous.",
+    "content": {
+      "title": "Generoso",
+      "instructions": "Elige el adjetivo para alguien que comparte.",
+      "questions": [
+        {
+          "question": "[[He|Él]] [[always|siempre]] [[shares|comparte]] [[his|sus]] [[toys|juguetes]]. [[He|Él]] [[is|es]] [[very|muy]] _______.",
+          "options": ["[[generous|generoso]]", "[[selfish|egoísta]]", "[[honest|honesto]]"],
+          "correctAnswer": 0,
+          "explanation": "Alguien que comparte es generoso (generous)."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e27.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e28",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Grammar: Feel",
+    "difficulty": "medium",
+    "transcript": "I feel stressed because I have too much work.",
+    "content": {
+      "title": "Estresado",
+      "instructions": "Completa con el verbo de estado.",
+      "questions": [
+        {
+          "question": "[[I|Yo]] _______ [[stressed|estresado]] [[because|porque]] [[I|yo]] [[have|tengo]] [[too|demasiado]] [[much|mucho]] [[work|trabajo]].",
+          "options": ["[[feel|siento]]", "[[look|veo]]", "[[am like|soy como]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'feel' para expresar cómo nos sentimos internamente."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e28.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e29",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Vocabulary: Honesty",
+    "difficulty": "medium",
+    "transcript": "Always tell the truth. Be honest.",
+    "content": {
+      "title": "Honesto",
+      "instructions": "Elige el adjetivo de sinceridad.",
+      "questions": [
+        {
+          "question": "[[Always|Siempre]] [[tell|di]] [[the|la]] [[truth|verdad]]. [[Be|Sé]] _______.",
+          "options": ["[[honest|honesto]]", "[[lazy|perezoso]]", "[[shy|tímido]]"],
+          "correctAnswer": 0,
+          "explanation": "'Honest' es alguien que dice la verdad."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e29.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e30",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Vocabulary: General",
+    "difficulty": "easy",
+    "transcript": "Is the new student nice? Yes, he is.",
+    "content": {
+      "title": "Simpático",
+      "instructions": "Completa con un adjetivo general positivo.",
+      "questions": [
+        {
+          "question": "[[Is|¿?]] [[the|el]] [[new|nuevo]] [[student|estudiante]] _______?",
+          "options": ["[[nice|agradable/simpático]]", "[[angry|enfadado]]", "[[stressed|estresado]]"],
+          "correctAnswer": 0,
+          "explanation": "'Nice' es un término muy común para decir que alguien es agradable."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e30.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e31",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Vocabulary: Boredom",
+    "difficulty": "easy",
+    "transcript": "This movie is long and slow. I am bored.",
+    "content": {
+      "title": "Aburrido",
+      "instructions": "Elige el estado emocional de falta de interés.",
+      "questions": [
+        {
+          "question": "[[This|Esta]] [[movie|película]] [[is|es]] [[long|larga]] [[and|y]] [[slow|lenta]]. [[I|Yo]] [[am|estoy]] _______.",
+          "options": ["[[bored|aburrido]]", "[[happy|feliz]]", "[[brave|valiente]]"],
+          "correctAnswer": 0,
+          "explanation": "Estar 'bored' es la consecuencia de algo que no nos interesa."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e31.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e32",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Vocabulary: Confidence",
+    "difficulty": "medium",
+    "transcript": "He is a very confident speaker.",
+    "content": {
+      "title": "Seguro de sí mismo",
+      "instructions": "Elige el adjetivo de seguridad personal.",
+      "questions": [
+        {
+          "question": "[[He|Él]] [[is|es]] [[a|un]] [[very|muy]] _______ [[speaker|hablante]].",
+          "options": ["[[confident|seguro]]", "[[shy|tímido]]", "[[sad|triste]]"],
+          "correctAnswer": 0,
+          "explanation": "'Confident' es tener confianza en uno mismo."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e32.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e33",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Vocabulary: Creative",
+    "difficulty": "medium",
+    "transcript": "My sister paints beautiful pictures. She is very creative.",
+    "content": {
+      "title": "Creativa",
+      "instructions": "Describe a alguien con talento artístico.",
+      "questions": [
+        {
+          "question": "[[My|Mi]] [[sister|hermana]] [[paints|pinta]] [[beautiful|hermosos]] [[pictures|cuadros]]. [[She|Ella]] [[is|es]] [[very|muy]] _______.",
+          "options": ["[[creative|creativa]]", "[[lazy|perezosa]]", "[[polite|educada]]"],
+          "correctAnswer": 0,
+          "explanation": "Alguien con talento para crear cosas es creativo (creative)."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e33.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e34",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Grammar: Question",
+    "difficulty": "medium",
+    "transcript": "What's the matter? You look worried.",
+    "content": {
+      "title": "¿Qué Pasa?",
+      "instructions": "Completa la pregunta sobre un problema.",
+      "questions": [
+        {
+          "question": "[[What's|Qué es]] [[the|el]] _______? [[You|Tú]] [[look|pareces]] [[worried|preocupado]].",
+          "options": ["[[matter|asunto/problema]]", "[[like|como]]", "[[feel|sentir]]"],
+          "correctAnswer": 0,
+          "explanation": "'What's the matter?' es una frase fija para preguntar qué ocurre."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e34.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u25-e35",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Vocabulary: Bravery",
+    "difficulty": "medium",
+    "transcript": "Firefighters are very brave.",
+    "content": {
+      "title": "Valiente",
+      "instructions": "Elige el adjetivo de valor.",
+      "questions": [
+        {
+          "question": "[[Firefighters|Bomberos]] [[are|son]] [[very|muy]] _______.",
+          "options": ["[[brave|valientes]]", "[[scared|asustados]]", "[[quiet|callados]]"],
+          "correctAnswer": 0,
+          "explanation": "Los bomberos demuestran valentía (bravery)."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e35.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e36",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Vocabulary: Social",
+    "difficulty": "easy",
+    "transcript": "She doesn't like to talk much. She is quiet.",
+    "content": {
+      "title": "Callada",
+      "instructions": "Describe a alguien que no habla mucho.",
+      "questions": [
+        {
+          "question": "[[She|Ella]] [[doesn't|no]] [[like|gusta]] [[to|a]] [[talk|hablar]] [[much|mucho]]. [[She|Ella]] [[is|es]] _______.",
+          "options": ["[[quiet|callada]]", "[[talkative|habladora]]", "[[funny|graciosa]]"],
+          "correctAnswer": 0,
+          "explanation": "'Quiet' describe a una persona silenciosa o callada."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e36.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e37",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Vocabulary: States",
+    "difficulty": "medium",
+    "transcript": "The sea is very calm today.",
+    "content": {
+      "title": "Calma",
+      "instructions": "Elige el adjetivo de tranquilidad.",
+      "questions": [
+        {
+          "question": "[[The|El]] [[sea|mar]] [[is|está]] [[very|muy]] _______ [[today|hoy]].",
+          "options": ["[[calm|calmado]]", "[[angry|enfadado]]", "[[nervous|nervioso]]"],
+          "correctAnswer": 0,
+          "explanation": "'Calm' significa tranquilo o en paz."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e37.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e38",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Vocabulary: Negative",
+    "difficulty": "medium",
+    "transcript": "He only thinks about himself. He is selfish.",
+    "content": {
+      "title": "Egoísta",
+      "instructions": "Describe a alguien que no piensa en los demás.",
+      "questions": [
+        {
+          "question": "[[He|Él]] [[only|solo]] [[thinks|piensa]] [[about|en]] [[himself|sí mismo]]. [[He|Él]] [[is|es]] _______.",
+          "options": ["[[selfish|egoísta]]", "[[generous|generoso]]", "[[helpful|servicial]]"],
+          "correctAnswer": 0,
+          "explanation": "'Selfish' es alguien egoísta."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e38.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e39",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Vocabulary: States",
+    "difficulty": "easy",
+    "transcript": "Are you alone? No, but I feel lonely.",
+    "content": {
+      "title": "Sentirse Solo",
+      "instructions": "Elige el adjetivo de soledad emocional.",
+      "questions": [
+        {
+          "question": "[[Are|¿?]] [[you|tú]] [[alone|solo (físicamente)]]? [[No|No]], [[but|pero]] [[I|yo]] [[feel|siento]] _______.",
+          "options": ["[[lonely|solo (emocionalmente)]]", "[[happy|feliz]]", "[[active|activo]]"],
+          "correctAnswer": 0,
+          "explanation": "'Lonely' describe el sentimiento de soledad."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e39.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e40",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Grammar: Contrast",
+    "difficulty": "medium",
+    "transcript": "My father is serious, but my mother is very funny.",
+    "content": {
+      "title": "Serio vs Divertido",
+      "instructions": "Elige el adjetivo contrastante.",
+      "questions": [
+        {
+          "question": "[[My|Mi]] [[father|padre]] [[is|es]] [[serious|serio]], [[but|pero]] [[my|mi]] [[mother|madre]] [[is|es]] [[very|muy]] _______.",
+          "options": ["[[funny|divertida]]", "[[shy|tímida]]", "[[tired|cansada]]"],
+          "correctAnswer": 0,
+          "explanation": "'Funny' contrasta bien con 'serious'."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e40.mp3",
+    "topicName": "Vocabulary"
+  },
+
+  // SENTENCE BUILDING (41-50)
+  {
+    "id": "a1-u25-e41",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Personality",
+    "difficulty": "easy",
+    "transcript": "My brother is very kind.",
+    "content": {
+      "title": "Él es Amable",
+      "instructions": "Ordena las palabras para describir a alguien.",
+      "correctSentence": "[[My|Mi]] [[brother|hermano]] [[is|es]] [[very|muy]] [[kind|amable]].",
+      "words": ["[[kind|amable]].", "[[very|muy]]", "[[is|es]]", "[[brother|hermano]]", "[[My|Mi]]"],
+      "explanation": "Sujeto + verbo + adverbio + adjetivo."
+    },
+    "audioUrl": "audio/a1/unit-25/e41.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e42",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Personality Question",
+    "difficulty": "medium",
+    "transcript": "What is your new teacher like?",
+    "content": {
+      "title": "El Nuevo Profesor",
+      "instructions": "Pregunta por la personalidad del profesor.",
+      "correctSentence": "[[What|Cómo]] [[is|es]] [[your|tu]] [[new|nuevo]] [[teacher|profesor]] [[like|como]]?",
+      "words": ["[[like|como]]?", "[[teacher|profesor]]", "[[new|nuevo]]", "[[your|tu]]", "[[is|es]]", "[[What|Cómo]]"],
+      "explanation": "Estructura para preguntar por rasgos de carácter."
+    },
+    "audioUrl": "audio/a1/unit-25/e42.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u25-e43",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Feelings",
+    "difficulty": "easy",
+    "transcript": "I feel very tired today.",
+    "content": {
+      "title": "Cansancio",
+      "instructions": "Expresa cómo te sientes hoy.",
+      "correctSentence": "[[I|Yo]] [[feel|siento]] [[very|muy]] [[tired|cansado]] [[today|hoy]].",
+      "words": ["[[today|hoy]].", "[[tired|cansado]]", "[[very|muy]]", "[[feel|siento]]", "[[I|Yo]]"],
+      "explanation": "Uso del verbo 'feel' para estados actuales."
+    },
+    "audioUrl": "audio/a1/unit-25/e43.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e44",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Reason for Feelings",
+    "difficulty": "medium",
+    "transcript": "She is happy because she has a new job.",
+    "content": {
+      "title": "Nueva Empleada",
+      "instructions": "Explica por qué ella está feliz.",
+      "correctSentence": "[[She|Ella]] [[is|está]] [[happy|feliz]] [[because|porque]] [[she|ella]] [[has|tiene]] [[a|un]] [[new|nuevo]] [[job|trabajo]].",
+      "words": ["[[job|trabajo]].", "[[new|nuevo]]", "[[a|un]]", "[[has|tiene]]", "[[she|ella]]", "[[because|porque]]", "[[happy|feliz]]", "[[She|Ella]] [[is|está]]"],
+      "explanation": "Uniendo sentimientos con motivos usando 'because'."
+    },
+    "audioUrl": "audio/a1/unit-25/e44.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e45",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Work Character",
+    "difficulty": "medium",
+    "transcript": "They are very hard-working people.",
+    "content": {
+      "title": "Gente Trabajadora",
+      "instructions": "Describe a un grupo de personas.",
+      "correctSentence": "[[They|Ellos]] [[are|son]] [[very|muy]] [[hard-working|trabajadores]] [[people|personas]].",
+      "words": ["[[people|personas]].", "[[hard-working|trabajadores]]", "[[very|muy]]", "[[are|son]]", "[[They|Ellos]]"],
+      "explanation": "Adjetivos compuestos en plural."
+    },
+    "audioUrl": "audio/a1/unit-25/e45.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e46",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Emotions Question",
+    "difficulty": "medium",
+    "transcript": "Why are you so angry?",
+    "content": {
+      "title": "¿Por qué tan Enfadado?",
+      "instructions": "Pregunta el motivo de un enfado.",
+      "correctSentence": "[[Why|Por qué]] [[are|estás]] [[you|tú]] [[so|tan]] [[angry|enfadado]]?",
+      "words": ["[[angry|enfadado]]?", "[[so|tan]]", "[[you|tú]]", "[[are|estás]]", "[[Why|Por qué]]"],
+      "explanation": "Estructura de pregunta con 'Why' y 'so'."
+    },
+    "audioUrl": "audio/a1/unit-25/e46.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u25-e47",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Personality Contrast",
+    "difficulty": "hard",
+    "transcript": "My sister is shy but very creative.",
+    "content": {
+      "title": "Tímida pero Creativa",
+      "instructions": "Describe el carácter contrastante de tu hermana.",
+      "correctSentence": "[[My|Mi]] [[sister|hermana]] [[is|es]] [[shy|tímida]] [[but|pero]] [[very|muy]] [[creative|creativa]].",
+      "words": ["[[creative|creativa]].", "[[very|muy]]", "[[but|pero]]", "[[shy|tímida]]", "[[is|es]]", "[[sister|hermana]]", "[[My|Mi]]"],
+      "explanation": "Uso de 'but' para contrastar adjetivos."
+    },
+    "audioUrl": "audio/a1/unit-25/e47.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e48",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Current State",
+    "difficulty": "medium",
+    "transcript": "Are you worried about the exam?",
+    "content": {
+      "title": "Preocupación",
+      "instructions": "Pregunta si alguien está preocupado.",
+      "correctSentence": "[[Are|¿?]] [[you|tú]] [[worried|preocupado]] [[about|por]] [[the|el]] [[exam|examen]]?",
+      "words": ["[[exam|examen]]?", "[[the|el]]", "[[about|por]]", "[[worried|preocupado]]", "[[you|tú]]", "[[Are|¿?]]"],
+      "explanation": "Uso de 'worried about'."
+    },
+    "audioUrl": "audio/a1/unit-25/e48.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e49",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Social Behavior",
+    "difficulty": "medium",
+    "transcript": "He is a very polite child.",
+    "content": {
+      "title": "Un Niño Educado",
+      "instructions": "Describe el comportamiento del niño.",
+      "correctSentence": "[[He|Él]] [[is|es]] [[a|un]] [[very|muy]] [[polite|educado]] [[child|niño]].",
+      "words": ["[[child|niño]].", "[[polite|educado]]", "[[very|muy]]", "[[a|un]]", "[[is|es]]", "[[He|Él]]"],
+      "explanation": "Adjetivos antes del sustantivo."
+    },
+    "audioUrl": "audio/a1/unit-25/e49.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e50",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Problem",
+    "difficulty": "easy",
+    "transcript": "What is the matter with him?",
+    "content": {
+      "title": "¿Qué le Pasa?",
+      "instructions": "Pregunta qué le ocurre a otra persona.",
+      "correctSentence": "[[What|Qué]] [[is|es]] [[the|el]] [[matter|asunto]] [[with|con]] [[him|él]]?",
+      "words": ["[[him|él]]?", "[[with|con]]", "[[matter|asunto]]", "[[the|el]]", "[[is|es]]", "[[What|Qué]]"],
+      "explanation": "Variante de 'What is the matter?' para terceros."
+    },
+    "audioUrl": "audio/a1/unit-25/e50.mp3",
+    "topicName": "Grammar"
+  },
+
+  // READING COMPREHENSION (51-60)
+  {
+    "id": "a1-u25-e51",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Reading: Character Profile",
+    "difficulty": "medium",
+    "transcript": "Mark is my best friend. He is twenty-five years old. He is a very funny and talkative person. Everybody likes him because he is very kind and helpful. He is also a very hard-working student at the university.",
+    "content": {
+      "title": "Mi Mejor Amigo Mark",
+      "instructions": "Lee el perfil de Mark y responde.",
+      "questions": [
+        {
+          "question": "*\"[[Mark|Mark]] [[is|es]] [[my|mi]] [[best|mejor]] [[friend|amigo]]. [[He|Él]] [[is|es]] [[a|una]] [[very|muy]] [[funny|graciosa]] [[and|y]] [[talkative|habladora]] [[person|persona]]. [[Everybody|A todo el mundo]] [[likes|le gusta]] [[him|él]] [[because|porque]] [[he|él]] [[is|es]] [[very|muy]] [[kind|amable]] [[and|y]] [[helpful|servicial]]. [[He|Él]] [[is|es]] [[also|también]] [[a|un]] [[very|muy]] [[hard-working|trabajador]] [[student|estudiante]].\"*\n\n[[How|Cómo]] [[is|es]] [[Mark|Mark]]'[[s|de]] [[personality|personalidad]]?",
+          "options": ["[[Serious and quiet|Serio y callado]]", "[[Funny and talkative|Gracioso y hablador]]", "[[Lazy and rude|Perezoso y grosero]]"],
+          "correctAnswer": 1,
+          "explanation": "El texto dice que es 'funny and talkative'."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e51.mp3",
+    "topicName": "Reading"
+  },
+  {
+    "id": "a1-u25-e52",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Reading: Character Profile",
+    "difficulty": "medium",
+    "transcript": "Mark is my best friend. He is twenty-five years old. He is a very funny and talkative person. Everybody likes him because he is very kind and helpful. He is also a very hard-working student at the university.",
+    "content": {
+      "title": "Mi Mejor Amigo Mark",
+      "instructions": "Lee y responde.",
+      "questions": [
+        {
+          "question": "*\"[[Mark|Mark]] [[is|es]] [[my|mi]] [[best|mejor]] [[friend|amigo]]. [[He|Él]] [[is|es]] [[a|una]] [[very|muy]] [[funny|graciosa]] [[and|y]] [[talkative|habladora]] [[person|persona]]. [[Everybody|A todo el mundo]] [[likes|le gusta]] [[him|él]] [[because|porque]] [[he|él]] [[is|es]] [[very|muy]] [[kind|amable]] [[and|y]] [[helpful|servicial]]. [[He|Él]] [[is|es]] [[also|también]] [[a|un]] [[very|muy]] [[hard-working|trabajador]] [[student|estudiante]].\"*\n\n[[Is|Es]] [[Mark|Mark]] [[a|un]] [[lazy|perezoso]] [[student|estudiante]]?",
+          "options": ["[[Yes, he is|Sí]]", "[[No, he is hard-working|No, es trabajador]]", "[[We don't know|No lo sabemos]]"],
+          "correctAnswer": 1,
+          "explanation": "El texto especifica que es 'hard-working'."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e52.mp3",
+    "topicName": "Reading"
+  },
+  {
+    "id": "a1-u25-e53",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Reading: Emotions at Work",
+    "difficulty": "medium",
+    "transcript": "Sarah works in a big office. She is a very creative designer. Today, she is a bit stressed because she has many meetings. But she is usually a very calm and patient person with her colleagues.",
+    "content": {
+      "title": "Sarah en la Oficina",
+      "instructions": "Lee sobre Sarah y responde.",
+      "questions": [
+        {
+          "question": "*\"[[Sarah|Sarah]] [[is|es]] [[a|una]] [[very|muy]] [[creative|creativa]] [[designer|diseñadora]]. [[Today|Hoy]], [[she|ella]] [[is|está]] [[a|un]] [[bit|poco]] [[stressed|estresada]] [[because|porque]] [[she|ella]] [[has|tiene]] [[many|muchas]] [[meetings|reuniones]]. [[But|Pero]] [[she|ella]] [[is|es]] [[usually|normalmente]] [[a|una]] [[very|muy]] [[calm|calmada]] [[and|y]] [[patient|paciente]] [[person|persona]].\"*\n\n[[Why|Por qué]] [[is|está]] [[Sarah|Sarah]] [[stressed|estresada]] [[today|hoy]]?",
+          "options": ["[[Because she is lazy|Porque es perezosa]]", "[[Because she has many meetings|Porque tiene muchas reuniones]]", "[[Because she is bored|Porque está aburrida]]"],
+          "correctAnswer": 1,
+          "explanation": "El texto indica que el estrés se debe a las reuniones."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e53.mp3",
+    "topicName": "Reading"
+  },
+  {
+    "id": "a1-u25-e54",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Reading: Emotions at Work",
+    "difficulty": "medium",
+    "transcript": "Sarah works in a big office. She is a very creative designer. Today, she is a bit stressed because she has many meetings. But she is usually a very calm and patient person with her colleagues.",
+    "content": {
+      "title": "Sarah en la Oficina",
+      "instructions": "Lee y responde.",
+      "questions": [
+        {
+          "question": "*\"[[Sarah|Sarah]] [[is|es]] [[a|una]] [[very|muy]] [[creative|creativa]] [[designer|diseñadora]]. [[Today|Hoy]], [[she|ella]] [[is|está]] [[a|un]] [[bit|poco]] [[stressed|estresada]] [[because|porque]] [[she|ella]] [[has|tiene]] [[many|muchas]] [[meetings|reuniones]]. [[But|Pero]] [[she|ella]] [[is|es]] [[usually|normalmente]] [[a|una]] [[very|muy]] [[calm|calmada]] [[and|y]] [[patient|paciente]] [[person|persona]].\"*\n\n[[How|Cómo]] [[is|es]] [[Sarah|Sarah]] [[usually|normalmente]]?",
+          "options": ["[[Nervous and rude|Nerviosa y grosera]]", "[[Calm and patient|Calmada y paciente]]", "[[Angry and sad|Enfadada y triste]]"],
+          "correctAnswer": 1,
+          "explanation": "El texto dice que suele ser 'calm and patient'."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e54.mp3",
+    "topicName": "Reading"
+  },
+  {
+    "id": "a1-u25-e55",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Reading: A Shy Student",
+    "difficulty": "medium",
+    "transcript": "Pablo is a new student in my class. He is from Spain. He is quite shy and quiet, so he doesn't talk much. But he is very honest and kind. We think he is a very intelligent boy.",
+    "content": {
+      "title": "El Nuevo Estudiante",
+      "instructions": "Lee sobre Pablo y responde.",
+      "questions": [
+        {
+          "question": "*\"[[Pablo|Pablo]] [[is|es]] [[quite|bastante]] [[shy|tímido]] [[and|y]] [[quiet|callado]], [[so|así que]] [[he|él]] [[doesn't|no]] [[talk|habla]] [[much|mucho]]. [[But|Pero]] [[he|él]] [[is|es]] [[very|muy]] [[honest|honesto]] [[and|y]] [[kind|amable]].\"*\n\n[[Does|Auxiliar]] [[Pablo|Pablo]] [[talk|habla]] [[a|un]] [[lot|montón]]?",
+          "options": ["[[Yes, he is talkative|Sí, es hablador]]", "[[No, he is quiet|No, es callado]]", "[[Sometimes|A veces]]"],
+          "correctAnswer": 1,
+          "explanation": "El texto dice que es 'quiet' y 'doesn't talk much'."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e55.mp3",
+    "topicName": "Reading"
+  },
+  {
+    "id": "a1-u25-e56",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Reading: A Shy Student",
+    "difficulty": "medium",
+    "transcript": "Pablo is a new student in my class. He is from Spain. He is quite shy and quiet, so he doesn't talk much. But he is very honest and kind. We think he is a very intelligent boy.",
+    "content": {
+      "title": "El Nuevo Estudiante",
+      "instructions": "Lee y responde.",
+      "questions": [
+        {
+          "question": "*\"[[Pablo|Pablo]] [[is|es]] [[quite|bastante]] [[shy|tímido]] [[and|y]] [[quiet|callado]]. [[But|Pero]] [[he|él]] [[is|es]] [[very|muy]] [[honest|honesto]] [[and|y]] [[kind|amable]]. [[We|Nosotros]] [[think|pensamos]] [[he|él]] [[is|es]] [[very|muy]] [[intelligent|inteligente]].\"*\n\n[[What|Qué]] [[positive|positivo]] [[traits|rasgos]] [[does|tiene]] [[Pablo|Pablo]] [[have|tiene]]?",
+          "options": ["[[He is funny|Es gracioso]]", "[[He is honest and kind|Es honesto y amable]]", "[[He is selfish|Es egoísta]]"],
+          "correctAnswer": 1,
+          "explanation": "El texto menciona que es 'honest and kind'."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e56.mp3",
+    "topicName": "Reading"
+  },
+  {
+    "id": "a1-u25-e57",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Reading: Feeling Sad",
+    "difficulty": "medium",
+    "transcript": "My little sister is sad today. Her favorite doll is broken. She is crying in her bedroom. I want to be helpful, so I am going to fix her doll. I want her to be happy again.",
+    "content": {
+      "title": "Una Hermana Triste",
+      "instructions": "Lee y responde.",
+      "questions": [
+        {
+          "question": "*\"[[My|Mi]] [[little|pequeña]] [[sister|hermana]] [[is|está]] [[sad|triste]] [[today|hoy]]. [[Her|Su]] [[favorite|favorita]] [[doll|muñeca]] [[is|está]] [[broken|rota]]. [[I|Yo]] [[want|quiero]] [[to|a]] [[be|ser]] [[helpful|servicial]].\"*\n\n[[How|Cómo]] [[does|se siente]] [[the|la]] [[sister|hermana]] [[feel|sentirse]]?",
+          "options": ["[[Happy|Feliz]]", "[[Sad|Triste]]", "[[Angry|Enfadada]]"],
+          "correctAnswer": 1,
+          "explanation": "El texto comienza diciendo que ella está triste (sad)."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e57.mp3",
+    "topicName": "Reading"
+  },
+  {
+    "id": "a1-u25-e58",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Reading: Feeling Sad",
+    "difficulty": "medium",
+    "transcript": "My little sister is sad today. Her favorite doll is broken. She is crying in her bedroom. I want to be helpful, so I am going to fix her doll. I want her to be happy again.",
+    "content": {
+      "title": "Una Hermana Triste",
+      "instructions": "Lee y responde.",
+      "questions": [
+        {
+          "question": "*\"[[I|Yo]] [[want|quiero]] [[to|a]] [[be|ser]] [[helpful|servicial]], [[so|así que]] [[I|yo]] [[am|voy]] [[going|a]] [[to|a]] [[fix|arreglar]] [[her|su]] [[doll|muñeca]].\"*\n\n[[Is|Es]] [[the|el]] [[brother|hermano]] [[selfish|egoísta]]?",
+          "options": ["[[Yes, he is|Sí]]", "[[No, he is helpful|No, es servicial]]", "[[Maybe|Tal vez]]"],
+          "correctAnswer": 1,
+          "explanation": "El hermano quiere ayudar, por lo que es 'helpful', no 'selfish'."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e58.mp3",
+    "topicName": "Reading"
+  },
+  {
+    "id": "a1-u25-e59",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Reading: Brave Firefighters",
+    "difficulty": "medium",
+    "transcript": "Firefighters are very brave people. Their job is very dangerous, but they are not scared. They are always ready to help people in trouble. They are also very strong and fit because they train every day.",
+    "content": {
+      "title": "Bomberos Valientes",
+      "instructions": "Lee y responde.",
+      "questions": [
+        {
+          "question": "*\"[[Firefighters|Los bomberos]] [[are|son]] [[very|muy]] [[brave|valientes]] [[people|personas]]. [[They|Ellos]] [[are|están]] [[not|no]] [[scared|asustados]]. [[They|Ellos]] [[are|son]] [[also|también]] [[very|muy]] [[strong|fuertes]] [[and|y]] [[fit|en forma]].\"*\n\n[[Are|¿?]] [[firefighters|bomberos]] [[scared|asustados]] [[of|de]] [[their|su]] [[job|trabajo]]?",
+          "options": ["[[Yes, they are|Sí]]", "[[No, they are brave|No, son valientes]]", "[[Only sometimes|Solo a veces]]"],
+          "correctAnswer": 1,
+          "explanation": "El texto dice explícitamente 'they are not scared'."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e59.mp3",
+    "topicName": "Reading"
+  },
+  {
+    "id": "a1-u25-e60",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Reading: Brave Firefighters",
+    "difficulty": "medium",
+    "transcript": "Firefighters are very brave people. Their job is very dangerous, but they are not scared. They are always ready to help people in trouble. They are also very strong and fit because they train every day.",
+    "content": {
+      "title": "Bomberos Valientes",
+      "instructions": "Lee y responde.",
+      "questions": [
+        {
+          "question": "*\"[[They|Ellos]] [[are|son]] [[also|también]] [[very|muy]] [[strong|fuertes]] [[and|y]] [[fit|en forma]] [[because|porque]] [[they|ellos]] [[train|entrenan]] [[every|cada]] [[day|día]].\"*\n\n[[Why|Por qué]] [[are|están]] [[they|ellos]] [[fit|en forma]]?",
+          "options": ["[[Because they train every day|Porque entrenan cada día]]", "[[Because they eat a lot|Porque comen mucho]]", "[[Because they are brave|Porque son valientes]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto indica que están en forma porque entrenan a diario."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e60.mp3",
+    "topicName": "Reading"
   }
 ];

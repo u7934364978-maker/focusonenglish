@@ -336,14 +336,14 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "Do you have any sugar-free options?",
     "content": {
-      "title": "Sin Azúcar",
+      "title": "Sin [[Azúcar|Azúcar]]",
       "instructions": "Elige la palabra correcta.",
       "questions": [
         {
           "question": "[[Do|¿?]] [[you|tú]] [[have|tienes]] [[any|alguna]] _______ [[options|opciones]]?",
           "options": ["[[sugar-free|sin azúcar]]", "[[salt-free|sin sal]]", "[[fat-free|sin grasa]]"],
           "correctAnswer": 0,
-          "explanation": "'Sugar-free' significa sin azúcar."
+          "explanation": "'Sugar-free' significa sin [[azúcar|azúcar]]."
         }
       ]
     },
@@ -606,7 +606,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "Can I have some extra sugar?",
     "content": {
-      "title": "Más Azúcar",
+      "title": "Más [[Azúcar|Azúcar]]",
       "instructions": "Ordena la oración.",
       "correctSentence": "[[Can|Puedo]] [[I|yo]] [[have|tener]] [[some|algo]] [[extra|extra]] [[sugar|azúcar]]?",
       "words": ["[[extra|extra]]", "[[sugar|azúcar]]?", "[[have|tener]]", "[[I|yo]]", "[[some|algo]]", "[[Can|Puedo]]"],
@@ -1194,13 +1194,13 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "transcript": "I'd like a cappuccino with oat milk and no sugar, please.",
     "content": {
       "title": "Pedido Complejo",
-      "instructions": "Elige la opción correcta para el pedido.",
+      "instructions": "Pedido: 'Me gustaría un capuchino con leche de avena y sin [[azúcar|azúcar]], por favor'.",
       "questions": [
         {
           "question": "[[I'd|Me]] [[like|gustaría]] [[a|un]] [[cappuccino|capuchino]] [[with|con]] _______ [[milk|leche]] [[and|y]] _______ [[sugar|azúcar]], [[please|por favor]].",
           "options": ["[[oat|avena]] / [[no|sin]]", "[[soy|soja]] / [[extra|extra]]", "[[oat|avena]] / [[extra|extra]]"],
           "correctAnswer": 0,
-          "explanation": "Pedido personalizado con leche de avena y sin azúcar."
+          "explanation": "Pedido personalizado con leche de avena y sin [[azúcar|azúcar]]."
         }
       ]
     },

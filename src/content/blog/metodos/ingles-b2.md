@@ -35,6 +35,8 @@ faqs:
       Incluimos módulos específicos para cada parte del examen: Reading & Use of
       English, Writing, Listening y Speaking, con estrategias para maximizar tu
       puntuación.
+image: 'https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg'
+alt: Aprendiendo inglés nivel intermedio-alto B2
 ---
 
 # Curso de Inglés B2: El Salto a la Fluidez Profesional

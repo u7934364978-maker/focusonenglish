@@ -1,12 +1,29 @@
 ---
-category: "viajes"
-date: "2026-02-07"
-author: "Focus English"
-title: "Inglés para Viajar: La Guía de Supervivencia Definitiva en 2026"
-description: "Domina el inglés para tus viajes. Frases esenciales para aeropuertos, hoteles, restaurantes y emergencias. Viaja con total confianza por el mundo con Focus English."
-keywords: ["inglés para viajar", "frases básicas inglés viaje", "vocabulario aeropuerto inglés", "inglés para hoteles", "conversación inglés turismo", "guía inglés viajeros", "aprender ingles para viajar rapido", "ingles para situaciones de viaje"]
-canonical: "https://www.focus-on-english.com/blog/viajes/ingles-para-viajar"
-related_routes: ["ingles-a1", "ingles-a2", "ingles-b1", "frases-ingles-emergencias-viajes"]
+category: viajes
+date: '2026-02-07'
+author: Focus English
+title: 'Inglés para Viajar: La Guía de Supervivencia Definitiva en 2026'
+description: >-
+  Domina el inglés para tus viajes. Frases esenciales para aeropuertos, hoteles,
+  restaurantes y emergencias. Viaja con total confianza por el mundo con Focus
+  English.
+keywords:
+  - inglés para viajar
+  - frases básicas inglés viaje
+  - vocabulario aeropuerto inglés
+  - inglés para hoteles
+  - conversación inglés turismo
+  - guía inglés viajeros
+  - aprender ingles para viajar rapido
+  - ingles para situaciones de viaje
+canonical: 'https://www.focus-on-english.com/blog/viajes/ingles-para-viajar'
+related_routes:
+  - ingles-a1
+  - ingles-a2
+  - ingles-b1
+  - frases-ingles-emergencias-viajes
+image: 'https://images.pexels.com/photos/1051075/pexels-photo-1051075.jpeg'
+alt: Pareja viajando y comunicándose en inglés
 ---
 
 ¿Alguna vez has evitado preguntar algo en un aeropuerto extranjero por miedo a no entender la respuesta? ¿O has terminado comiendo algo que no querías porque no supiste descifrar el menú? El **inglés para viajar** no se trata de dominar reglas gramaticales complejas, sino de lograr una **comunicación efectiva**.

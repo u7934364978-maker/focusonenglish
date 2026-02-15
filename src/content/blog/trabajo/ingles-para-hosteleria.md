@@ -26,6 +26,8 @@ related_routes:
   - ingles-para-viajar
   - ingles-a2
   - ingles-restaurantes-guia
+image: 'https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg'
+alt: Camarero sirviendo en un restaurante internacional
 ---
 
 # Curso de Inglés para Hostelería: Excelencia en el Servicio Internacional

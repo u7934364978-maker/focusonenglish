@@ -1,23 +1,51 @@
 ---
-title: "¿Qué significa TBT? Guía Completa de Slang, Acrónimos y Redes Sociales"
-description: "Descubre qué significa TBT, POV, ASAP y otros términos de redes sociales en inglés. Guía completa de slang moderno para entender internet y sonar como un nativo."
-excerpt: "¿Ves hashtags como #TBT o #POV y no sabes qué significan? Te explicamos el origen, el uso y las reglas de los acrónimos y slang más populares de internet en inglés."
-keywords: ["que significa tbt", "tbt significado", "slang in english", "acronimos redes sociales ingles", "ingles moderno internet", "que es pov", "significado rizz", "terminos redes sociales 2026"]
-date: "2024-02-04"
-category: "metodos"
-author: "Focus English"
-image: "https://images.pexels.com/photos/5077067/pexels-photo-5077067.jpeg"
+title: '¿Qué significa TBT? Guía Completa de Slang, Acrónimos y Redes Sociales'
+description: >-
+  Descubre qué significa TBT, POV, ASAP y otros términos de redes sociales en
+  inglés. Guía completa de slang moderno para entender internet y sonar como un
+  nativo.
+excerpt: >-
+  ¿Ves hashtags como #TBT o #POV y no sabes qué significan? Te explicamos el
+  origen, el uso y las reglas de los acrónimos y slang más populares de internet
+  en inglés.
+keywords:
+  - que significa tbt
+  - tbt significado
+  - slang in english
+  - acronimos redes sociales ingles
+  - ingles moderno internet
+  - que es pov
+  - significado rizz
+  - terminos redes sociales 2026
+date: '2024-02-04'
+category: metodos
+author: Focus English
+image: 'https://images.pexels.com/photos/5077067/pexels-photo-5077067.jpeg'
 faqs:
-  - question: "¿Qué significa exactamente TBT?"
-    answer: "TBT significa 'Throwback Thursday', que se traduce como 'Jueves de volver al pasado'. Se usa para compartir fotos antiguas exclusivamente los jueves."
-  - question: "¿Qué significa POV?"
-    answer: "POV significa 'Point Of View' (Punto de Vista). En redes sociales, se usa para sumergir al espectador en una situación específica desde una perspectiva concreta."
-  - question: "¿Qué es 'Rizz' en el slang actual?"
-    answer: "Rizz es la abreviatura de 'Charisma'. Se usa para describir a alguien que tiene mucha facilidad para atraer o ligar con otras personas."
-  - question: "¿Qué significa IYKYK?"
-    answer: "Significa 'If You Know You Know' (Si lo sabes, lo sabes). Se usa para publicaciones que contienen chistes internos o referencias que solo un grupo específico entenderá."
-  - question: "¿Puedo usar TBT un miércoles?"
-    answer: "No es lo habitual. Para los miércoles se suele usar el hashtag #WayBackWednesday o simplemente esperar al jueves para seguir la tradición del #TBT."
+  - question: ¿Qué significa exactamente TBT?
+    answer: >-
+      TBT significa 'Throwback Thursday', que se traduce como 'Jueves de volver
+      al pasado'. Se usa para compartir fotos antiguas exclusivamente los
+      jueves.
+  - question: ¿Qué significa POV?
+    answer: >-
+      POV significa 'Point Of View' (Punto de Vista). En redes sociales, se usa
+      para sumergir al espectador en una situación específica desde una
+      perspectiva concreta.
+  - question: ¿Qué es 'Rizz' en el slang actual?
+    answer: >-
+      Rizz es la abreviatura de 'Charisma'. Se usa para describir a alguien que
+      tiene mucha facilidad para atraer o ligar con otras personas.
+  - question: ¿Qué significa IYKYK?
+    answer: >-
+      Significa 'If You Know You Know' (Si lo sabes, lo sabes). Se usa para
+      publicaciones que contienen chistes internos o referencias que solo un
+      grupo específico entenderá.
+  - question: ¿Puedo usar TBT un miércoles?
+    answer: >-
+      No es lo habitual. Para los miércoles se suele usar el hashtag
+      #WayBackWednesday o simplemente esperar al jueves para seguir la tradición
+      del #TBT.
 ---
 
 # ¿Qué significa TBT? Guía Completa de Slang, Acrónimos y Redes Sociales

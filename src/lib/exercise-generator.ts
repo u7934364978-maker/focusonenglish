@@ -13,6 +13,8 @@ export interface Exercise {
   topicName: string;
   difficulty?: 'easy' | 'medium' | 'hard';
   content: any;
+  transcript?: string;
+  audioUrl?: string;
   createdAt?: Date;
   estimatedTime?: number;
 }

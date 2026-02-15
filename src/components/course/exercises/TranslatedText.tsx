@@ -20,11 +20,9 @@ GLOBAL_LEXICON.forEach(item => {
 // Sort by length descending to match longer phrases first (e.g., "orange juice" before "orange")
 const sortedLexiconWords = Array.from(lexiconMap.keys()).sort((a, b) => b.length - a.length);
 
-// Create a single regex for all lexicon words
-// Using word boundaries \b to avoid matching parts of words
-// Escape special characters in words
-const lexiconRegex = sortedLexiconWords.length > 0 
-  ? new RegExp(`\\b(${sortedLexiconWords.map(w => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})\\b`, 'gi')
+// Create the regex pattern string once
+const lexiconRegexPattern = sortedLexiconWords.length > 0 
+  ? `\\b(${sortedLexiconWords.map(w => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})\\b`
   : null;
 
 export const TranslatedText: React.FC<TranslatedTextProps> = ({ text, className, useStrong = false }) => {
@@ -64,18 +62,17 @@ export const TranslatedText: React.FC<TranslatedTextProps> = ({ text, className,
       return;
     }
 
-    if (!lexiconRegex) {
+    if (!lexiconRegexPattern) {
       finalParts.push(part);
       return;
     }
 
+    // Create a local regex instance to be thread-safe (render-safe)
+    const localLexiconRegex = new RegExp(lexiconRegexPattern, 'gi');
     let currentLastIndex = 0;
     let lexiconMatch;
     
-    // Reset regex lastIndex because it's global
-    lexiconRegex.lastIndex = 0;
-
-    while ((lexiconMatch = lexiconRegex.exec(part)) !== null) {
+    while ((lexiconMatch = localLexiconRegex.exec(part)) !== null) {
       if (lexiconMatch.index > currentLastIndex) {
         finalParts.push(part.substring(currentLastIndex, lexiconMatch.index));
       }
@@ -86,7 +83,7 @@ export const TranslatedText: React.FC<TranslatedTextProps> = ({ text, className,
       finalParts.push(
         <Tooltip key={`lexicon-${partIndex}-${lexiconMatch.index}`} word={word} translation={translation} useStrong={useStrong} />
       );
-      currentLastIndex = lexiconRegex.lastIndex;
+      currentLastIndex = localLexiconRegex.lastIndex;
     }
 
     if (currentLastIndex < part.length) {

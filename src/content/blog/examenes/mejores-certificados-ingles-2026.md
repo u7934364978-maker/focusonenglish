@@ -19,6 +19,8 @@ canonical: >-
 related_routes:
   - cambridge-c1-advanced-guia
   - ielts-vs-toefl-diferencias-cual-elegir
+image: 'https://images.pexels.com/photos/5905709/pexels-photo-5905709.jpeg'
+alt: Varios certificados de inglés oficiales sobre una mesa
 ---
 
 # Mejores Certificados de Inglés 2026: ¿Cuál Necesitas para Tu Futuro?

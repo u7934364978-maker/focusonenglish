@@ -14,6 +14,8 @@ keywords:
   - reporting verbs exercises with answers pdf
   - reported speech questions pdf
 canonical: 'https://www.focus-on-english.com/blog/gramatica/reported-speech-ejercicios-pdf'
+image: 'https://images.pexels.com/photos/3184311/pexels-photo-3184311.jpeg'
+alt: Ejercicios de reported speech en formato PDF
 ---
 
 # Reported Speech Ejercicios PDF: Practica y Descarga

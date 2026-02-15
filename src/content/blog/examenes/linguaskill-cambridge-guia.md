@@ -17,6 +17,8 @@ related_routes:
   - certificaciones-ingles
   - precios-examenes-cambridge
   - guia-examen-aptis
+image: 'https://images.pexels.com/photos/3184328/pexels-photo-3184328.jpeg'
+alt: Estudiantes tomando el examen Linguaskill online
 ---
 
 

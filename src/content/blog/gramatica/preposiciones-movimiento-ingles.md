@@ -1,12 +1,23 @@
 ---
-title: "Preposiciones de Movimiento en Inglés: Guía de Uso"
-description: "Domina To, Into, Across, Through, Onto y más. Incluye guía visual de preposiciones de movimiento en inglés y ejemplos para exámenes Cambridge."
-excerpt: "Aprende a usar las preposiciones de movimiento en inglés con precisión. Guía académica con ejemplos prácticos, comparativas y lista imprimible."
-keywords: ["preposiciones de movimiento en ingles", "preposiciones en ingles", "gramatica inglesa", "to vs into", "across vs through", "ejercicios de gramatica en ingles", "aprender vocabulario ingles"]
-author: "Equipo Focus English"
-date: "2026-02-06"
-image: "https://images.pexels.com/photos/157811/pexels-photo-157811.jpeg"
-category: "gramatica"
+title: 'Preposiciones de Movimiento en Inglés: Guía de Uso'
+description: >-
+  Domina To, Into, Across, Through, Onto y más. Incluye guía visual de
+  preposiciones de movimiento en inglés y ejemplos para exámenes Cambridge.
+excerpt: >-
+  Aprende a usar las preposiciones de movimiento en inglés con precisión. Guía
+  académica con ejemplos prácticos, comparativas y lista imprimible.
+keywords:
+  - preposiciones de movimiento en ingles
+  - preposiciones en ingles
+  - gramatica inglesa
+  - to vs into
+  - across vs through
+  - ejercicios de gramatica en ingles
+  - aprender vocabulario ingles
+author: Equipo Focus English
+date: '2026-02-06'
+image: 'https://images.pexels.com/photos/157811/pexels-photo-157811.jpeg'
+category: gramatica
 ---
 
 Las **preposiciones de movimiento** (Prepositions of Movement) son fundamentales para dar dinamismo a tu inglés. Mientras que las preposiciones de lugar describen dónde está algo, las de movimiento describen **hacia dónde va**.

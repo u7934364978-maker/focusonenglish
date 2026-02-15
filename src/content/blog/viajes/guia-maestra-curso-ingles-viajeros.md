@@ -1,38 +1,57 @@
 ---
-title: "Curso de Inglés para Viajar: Guía para el Viajero"
-date: "2026-01-30"
-author: "Focus English Team"
-excerpt: "Viajar es descubrir, y el inglés es la llave. En esta guía de +2,000 palabras, exploramos cómo un curso de inglés especializado puede transformar tus vacaciones en experiencias inolvidables, seguras y auténticas."
-category: "viajes"
-readTime: "35 min"
-image: "https://images.pexels.com/photos/1051075/pexels-photo-1051075.jpeg?auto=compress&cs=tinysrgb&w=1200"
-alt: "Persona caminando por una calle pintoresca de una ciudad europea con una maleta"
+title: 'Curso de Inglés para Viajar: Guía para el Viajero'
+date: '2026-01-30'
+author: Focus English Team
+excerpt: >-
+  Viajar es descubrir, y el inglés es la llave. En esta guía de +2,000 palabras,
+  exploramos cómo un curso de inglés especializado puede transformar tus
+  vacaciones en experiencias inolvidables, seguras y auténticas.
+category: viajes
+readTime: 35 min
+image: >-
+  https://images.pexels.com/photos/1051075/pexels-photo-1051075.jpeg?auto=compress&cs=tinysrgb&w=1200
+alt: >-
+  Persona caminando por una calle pintoresca de una ciudad europea con una
+  maleta
 keywords:
-  - "curso de inglés"
-  - "curso de inglés para viajar"
-  - "aprender inglés para turistas"
-  - "inglés para viajeros"
-  - "mejor curso de inglés online 2026"
-  - "frases de viaje en inglés"
-  - "vocabulario turismo inglés"
-  - "curso de inglés para turistas"
-  - "mejor curso de inglés para viajar"
-  - "inglés para viajes largos"
-  - "aprender inglés para mochileros"
-  - "preparación idiomas viaje"
-  - "vocabulario de viaje avanzado"
-  - "emergencias en inglés"
-  - "frases de auxilio inglés"
-  - "seguridad en viajes inglés"
+  - curso de inglés
+  - curso de inglés para viajar
+  - aprender inglés para turistas
+  - inglés para viajeros
+  - mejor curso de inglés online 2026
+  - frases de viaje en inglés
+  - vocabulario turismo inglés
+  - curso de inglés para turistas
+  - mejor curso de inglés para viajar
+  - inglés para viajes largos
+  - aprender inglés para mochileros
+  - preparación idiomas viaje
+  - vocabulario de viaje avanzado
+  - emergencias en inglés
+  - frases de auxilio inglés
+  - seguridad en viajes inglés
 faqs:
-  - question: "¿Vale la pena hacer un curso de inglés solo para un viaje corto?"
-    answer: "Absolutamente. Incluso en un viaje de una semana, un curso de inglés te da la confianza para moverte fuera de las rutas turísticas trilladas, permitiéndote interactuar con locales y resolver imprevistos sin depender de traductores."
-  - question: "¿Qué diferencia a Focus English de otras apps de idiomas?"
-    answer: "Mientras que las apps enseñan palabras sueltas, nuestro curso de inglés se basa en simulaciones reales: desde hacer el check-in en un hotel boutique hasta pedir ayuda en una emergencia médica."
-  - question: "¿Puedo aprender lo suficiente en un mes?"
-    answer: "Con un curso de inglés intensivo enfocado en viajes, puedes adquirir las estructuras básicas necesarias para sobrevivir y disfrutar en cualquier país angloparlante en 4 semanas."
-  - question: "¿Es mejor el inglés británico o el americano para viajar?"
-    answer: "Lo ideal es un curso de inglés que te exponga a diversos acentos. El mundo es multicultural, y en tus viajes hablarás con personas de todo el mundo usando el inglés como lengua franca."
+  - question: ¿Vale la pena hacer un curso de inglés solo para un viaje corto?
+    answer: >-
+      Absolutamente. Incluso en un viaje de una semana, un curso de inglés te da
+      la confianza para moverte fuera de las rutas turísticas trilladas,
+      permitiéndote interactuar con locales y resolver imprevistos sin depender
+      de traductores.
+  - question: ¿Qué diferencia a Focus English de otras apps de idiomas?
+    answer: >-
+      Mientras que las apps enseñan palabras sueltas, nuestro curso de inglés se
+      basa en simulaciones reales: desde hacer el check-in en un hotel boutique
+      hasta pedir ayuda en una emergencia médica.
+  - question: ¿Puedo aprender lo suficiente en un mes?
+    answer: >-
+      Con un curso de inglés intensivo enfocado en viajes, puedes adquirir las
+      estructuras básicas necesarias para sobrevivir y disfrutar en cualquier
+      país angloparlante en 4 semanas.
+  - question: ¿Es mejor el inglés británico o el americano para viajar?
+    answer: >-
+      Lo ideal es un curso de inglés que te exponga a diversos acentos. El mundo
+      es multicultural, y en tus viajes hablarás con personas de todo el mundo
+      usando el inglés como lengua franca.
 ---
 
 ## El Mundo es Tuyo cuando Tienes las Palabras

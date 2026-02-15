@@ -44,6 +44,8 @@ faqs:
     answer: >-
       Para nada. Nuestra plataforma está diseñada para adultos, con ejemplos
       prácticos y una progresión lógica que evita la fragilidad.
+image: 'https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg'
+alt: Aprendiendo inglés desde cero nivel A1
 ---
 
 # Curso de Inglés A1: Construye los Cimientos de tu Futuro

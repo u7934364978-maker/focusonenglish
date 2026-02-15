@@ -1,19 +1,35 @@
 ---
-title: "Vocabulario de Ropa en Inglés: Guía y Material"
-description: "Domina el vocabulario de ropa en inglés, calzado y accesorios. Incluye verbos, adjetivos de estilo y lista imprimible para niveles A1-C1."
-excerpt: "Aprende los nombres de las prendas de ropa en inglés, accesorios y calzado. Guía académica con verbos de acción, descripción de estilos y material de práctica."
-keywords: ["prendas de ropa en ingles", "clothes in english", "vocabulario ropa ingles", "nombres de ropa en ingles", "verbos para ropa ingles", "vocabulario ropa ingles pdf", "aprender vocabulario ingles"]
-date: "2026-02-06"
-category: "metodos"
-author: "Focus English"
-image: "https://images.pexels.com/photos/1078958/pexels-photo-1078958.jpeg"
+title: 'Vocabulario de Ropa en Inglés: Guía y Material'
+description: >-
+  Domina el vocabulario de ropa en inglés, calzado y accesorios. Incluye verbos,
+  adjetivos de estilo y lista imprimible para niveles A1-C1.
+excerpt: >-
+  Aprende los nombres de las prendas de ropa en inglés, accesorios y calzado.
+  Guía académica con verbos de acción, descripción de estilos y material de
+  práctica.
+keywords:
+  - prendas de ropa en ingles
+  - clothes in english
+  - vocabulario ropa ingles
+  - nombres de ropa en ingles
+  - verbos para ropa ingles
+  - vocabulario ropa ingles pdf
+  - aprender vocabulario ingles
+date: '2026-02-06'
+category: metodos
+author: Focus English
+image: 'https://images.pexels.com/photos/1078958/pexels-photo-1078958.jpeg'
 faqs:
-  - question: "¿Cómo se dice 'ropa' en inglés?"
-    answer: "'Ropa' se dice 'clothes'. Es importante recordar que siempre es plural y no tiene forma singular ('clothe' no existe como sustantivo)."
-  - question: "¿Cuál es la diferencia entre 'wear' y 'dress'?"
-    answer: "'Wear' se usa para la ropa que llevas puesta (*I am wearing a coat*), mientras que 'dress' se refiere al acto de vestirse (*Get dressed!*)."
-  - question: "¿Cómo se dice 'probarse ropa' en inglés?"
-    answer: "Se utiliza el phrasal verb 'to try on'."
+  - question: ¿Cómo se dice 'ropa' en inglés?
+    answer: >-
+      'Ropa' se dice 'clothes'. Es importante recordar que siempre es plural y
+      no tiene forma singular ('clothe' no existe como sustantivo).
+  - question: ¿Cuál es la diferencia entre 'wear' y 'dress'?
+    answer: >-
+      'Wear' se usa para la ropa que llevas puesta (*I am wearing a coat*),
+      mientras que 'dress' se refiere al acto de vestirse (*Get dressed!*).
+  - question: ¿Cómo se dice 'probarse ropa' en inglés?
+    answer: Se utiliza el phrasal verb 'to try on'.
 ---
 
 Dominar el **vocabulario de ropa en inglés** es mucho más que saber decir "camiseta" o "pantalones". Como profesor de Cambridge, te aseguro que la precisión en las descripciones (materiales, estampados y ajustes) es lo que realmente demuestra un dominio fluido del idioma, especialmente en situaciones sociales y profesionales.

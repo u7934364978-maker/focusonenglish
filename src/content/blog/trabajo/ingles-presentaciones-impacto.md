@@ -1,28 +1,41 @@
 ---
-title: "Presentaciones de Impacto: Guía Completa para Brillar en Inglés Profesional"
-date: "2026-01-30"
-author: "Focus English Team"
-excerpt: "Hablar en público en inglés es un reto, pero con la estructura adecuada y las frases clave, puedes cautivar a cualquier audiencia. Domina el arte de las presentaciones de negocios."
-category: "trabajo"
-readTime: "13 min"
-image: "https://images.pexels.com/photos/1708912/pexels-photo-1708912.jpeg?auto=compress&cs=tinysrgb&w=1200"
-alt: "Ponente realizando una presentación profesional frente a una audiencia en una sala de conferencias"
-canonical: "https://www.focus-on-english.com/blog/trabajo/ingles-presentaciones-impacto"
+title: 'Presentaciones de Impacto: Guía Completa para Brillar en Inglés Profesional'
+date: '2026-01-30'
+author: Focus English Team
+excerpt: >-
+  Hablar en público en inglés es un reto, pero con la estructura adecuada y las
+  frases clave, puedes cautivar a cualquier audiencia. Domina el arte de las
+  presentaciones de negocios.
+category: trabajo
+readTime: 13 min
+image: >-
+  https://images.pexels.com/photos/1708912/pexels-photo-1708912.jpeg?auto=compress&cs=tinysrgb&w=1200
+alt: >-
+  Ponente realizando una presentación profesional frente a una audiencia en una
+  sala de conferencias
+canonical: 'https://www.focus-on-english.com/blog/trabajo/ingles-presentaciones-impacto'
 keywords:
-  - "clases de inglés"
-  - "presentaciones en inglés"
-  - "hablar en público inglés"
-  - "business english presentations"
-  - "frases para presentaciones inglés"
-  - "oratoria en inglés"
-  - "vocabulario gráficos inglés"
+  - clases de inglés
+  - presentaciones en inglés
+  - hablar en público inglés
+  - business english presentations
+  - frases para presentaciones inglés
+  - oratoria en inglés
+  - vocabulario gráficos inglés
 faqs:
-  - question: "¿Cómo puedo controlar los nervios al presentar en inglés?"
-    answer: "La práctica es clave. Memoriza solo la introducción y la conclusión; para el resto, apóyate en frases de transición que practicamos en nuestras clases de inglés."
-  - question: "¿Debo leer mis diapositivas?"
-    answer: "¡No! Tu audiencia puede leer más rápido de lo que hablas. Las diapositivas deben ser un apoyo visual, no un guion."
-  - question: "¿Qué hago si no entiendo una pregunta del público?"
-    answer: "No entres en pánico. Usa frases como: 'Could you please rephrase that?' o 'If I understand correctly, you're asking about...'"
+  - question: ¿Cómo puedo controlar los nervios al presentar en inglés?
+    answer: >-
+      La práctica es clave. Memoriza solo la introducción y la conclusión; para
+      el resto, apóyate en frases de transición que practicamos en nuestras
+      clases de inglés.
+  - question: ¿Debo leer mis diapositivas?
+    answer: >-
+      ¡No! Tu audiencia puede leer más rápido de lo que hablas. Las diapositivas
+      deben ser un apoyo visual, no un guion.
+  - question: ¿Qué hago si no entiendo una pregunta del público?
+    answer: >-
+      No entres en pánico. Usa frases como: 'Could you please rephrase that?' o
+      'If I understand correctly, you're asking about...'
 ---
 
 ## Conquista a tu Audiencia Global: El Poder de la Oratoria en Inglés

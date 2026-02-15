@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 2
+      "actualWorkers": 3
     },
     "preserveOutput": "always",
     "projects": [
@@ -20,7 +20,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 2
+          "actualWorkers": 3
         },
         "id": "chromium",
         "name": "chromium",
@@ -36,7 +36,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 2
+          "actualWorkers": 3
         },
         "id": "firefox",
         "name": "firefox",
@@ -52,7 +52,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 2
+          "actualWorkers": 3
         },
         "id": "webkit",
         "name": "webkit",
@@ -68,7 +68,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 2
+          "actualWorkers": 3
         },
         "id": "Mobile Chrome",
         "name": "Mobile Chrome",
@@ -84,7 +84,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 2
+          "actualWorkers": 3
         },
         "id": "Mobile Safari",
         "name": "Mobile Safari",
@@ -128,20 +128,20 @@
   },
   "suites": [
     {
-      "title": "unit-15-expansion.spec.ts",
-      "file": "unit-15-expansion.spec.ts",
+      "title": "unit-22-expansion.spec.ts",
+      "file": "unit-22-expansion.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
-          "title": "Unit 15 Expansion Verification",
-          "file": "unit-15-expansion.spec.ts",
+          "title": "Unit 22 Expansion",
+          "file": "unit-22-expansion.spec.ts",
           "line": 3,
           "column": 6,
           "specs": [
             {
-              "title": "should have 60 exercises in Unit 15",
+              "title": "should have 60 exercises in Unit 22",
               "ok": true,
               "tags": [],
               "tests": [
@@ -156,12 +156,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2157,
+                      "duration": 4068,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T12:40:36.020Z",
+                      "startTime": "2026-02-15T14:40:24.184Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -169,13 +169,13 @@
                   "status": "expected"
                 }
               ],
-              "id": "c83bc25d24b8d2c200aa-7b4f1da1816bb400486e",
-              "file": "unit-15-expansion.spec.ts",
+              "id": "4ebd07335fdcccc0e04d-bf764263e2b3240ebdfc",
+              "file": "unit-22-expansion.spec.ts",
               "line": 4,
               "column": 7
             },
             {
-              "title": "should show correct content for Unit 15",
+              "title": "should verify demonstratives (Exercise 11)",
               "ok": true,
               "tags": [],
               "tests": [
@@ -190,12 +190,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 2213,
+                      "duration": 4063,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T12:40:36.025Z",
+                      "startTime": "2026-02-15T14:40:24.192Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -203,9 +203,43 @@
                   "status": "expected"
                 }
               ],
-              "id": "c83bc25d24b8d2c200aa-1eeea7a2fce8d71831e9",
-              "file": "unit-15-expansion.spec.ts",
-              "line": 14,
+              "id": "4ebd07335fdcccc0e04d-b7a5c7b980dd04984d54",
+              "file": "unit-22-expansion.spec.ts",
+              "line": 10,
+              "column": 7
+            },
+            {
+              "title": "should verify possessives (Exercise 15)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 4047,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-15T14:40:24.192Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4ebd07335fdcccc0e04d-38bb94d30b873917d305",
+              "file": "unit-22-expansion.spec.ts",
+              "line": 17,
               "column": 7
             }
           ]
@@ -215,9 +249,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-02-15T12:40:35.273Z",
-    "duration": 3671.3259999999996,
-    "expected": 2,
+    "startTime": "2026-02-15T14:40:23.198Z",
+    "duration": 6169.556,
+    "expected": 3,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

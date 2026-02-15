@@ -77,6 +77,8 @@ canonical: 'https://www.focus-on-english.com/blog/gramatica/gramatica-ingles-b1-
 related_routes:
   - cursos-online-ingles-b1
   - ingles-b1
+image: 'https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg'
+alt: Libro de gramática inglesa nivel B1
 ---
 
 El nivel **B1 (Intermediate)** es el "ecuador" del aprendizaje del inglés. Es el momento en el que dejas de ser un principiante que sobrevive con frases hechas para convertirte en un usuario independiente. Según el Marco Común Europeo de Referencia (MCER), en este nivel ya debes ser capaz de describir experiencias, acontecimientos, deseos y aspiraciones, así como justificar brevemente tus opiniones.

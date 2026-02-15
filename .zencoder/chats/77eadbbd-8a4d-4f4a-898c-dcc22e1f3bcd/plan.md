@@ -326,7 +326,7 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
 3. **Verify Implementation**:
     - Checked `/debug/a1-preview/unit-24` in the browser.
 
-### [ ] Step: Expand Unit 25 (A1)
+### [x] Step: Expand Unit 25 (A1)
 1. **Analyze Unit 25**: Expand to 60 exercises.
 2. **Expand to 60 exercises**:
     - Theme: "Describing People (Personality)" (Adjectives to describe character, feelings).
@@ -335,6 +335,10 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
     - Add Reading Comprehension: Profiles of different people describing their personality.
 3. **Verify Implementation**:
     - Check `/debug/a1-preview/unit-25` in the browser.
+
+### [x] Step: Unit 16 and Unit 6 Fixes
+1. **Fix "azúcar" bug**: Shielded "azúcar" in `unit-16.ts` and `unit-6.ts` using `[[azúcar|azúcar]]` to prevent "car" parsing.
+2. **Improve Pedido Complejo**: Added Spanish prompt to instructions in Unit 16 Exercise 57.
 
 ### [ ] Step: Expand Unit 26 (A1)
 1. **Analyze Unit 26**: Expand to 60 exercises.

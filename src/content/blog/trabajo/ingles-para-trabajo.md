@@ -65,6 +65,8 @@ related_routes:
   - ingles-b1
   - ingles-b2
   - ingles-para-viajar
+image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg'
+alt: Reunión de negocios internacional en inglés
 ---
 
 # Curso de Inglés para el Trabajo: Domina el Entorno Profesional Internacional

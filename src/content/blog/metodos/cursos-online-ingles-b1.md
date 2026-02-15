@@ -38,6 +38,8 @@ faqs:
       Sí, nuestro temario está diseñado para cubrir los requisitos de exámenes
       como Cambridge (PET), Aptis, Oxford Test of English y los exámenes de la
       Escuela Oficial de Idiomas.
+image: 'https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg'
+alt: Curso online de inglés nivel B1
 ---
 
 # Cursos Online de Inglés B1: Domina el Nivel Intermedio

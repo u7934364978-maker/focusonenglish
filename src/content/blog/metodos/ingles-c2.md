@@ -20,6 +20,8 @@ related_routes:
   - ingles-c1
   - trucos-writing-c1-advanced
   - mejores-certificados-ingles-2026
+image: 'https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg'
+alt: Aprendiendo inglés nivel maestría C2
 ---
 
 El **Nivel C2 (Mastery)** representa la cumbre de la competencia lingüística según el Marco Común Europeo de Referencia (MCER). En 2026, poseer un certificado C2 no es simplemente "saber mucho inglés"; es demostrar que puedes usar el idioma con la misma precisión, riqueza y agilidad que un hablante nativo con una formación académica superior. 

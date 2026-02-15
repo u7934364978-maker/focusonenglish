@@ -14,6 +14,8 @@ keywords:
 canonical: 'https://www.focus-on-english.com/blog/trabajo/vocabulario-b1-ingles-trabajo'
 related_routes:
   - ingles-b1
+image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg'
+alt: Vocabulario de trabajo para nivel B1
 ---
 
 # Vocabulario Esencial Inglés B1: Domina la Comunicación

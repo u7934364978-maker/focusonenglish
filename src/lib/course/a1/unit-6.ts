@@ -383,14 +383,14 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "I take sugar in my tea.",
     "content": {
-      "title": "Azúcar",
-      "instructions": "Elige la palabra 'azúcar'.",
+      "title": "[[Azúcar|Azúcar]]",
+      "instructions": "Elige la palabra '[[azúcar|azúcar]]'.",
       "questions": [
         {
           "question": "[[I|Yo]] [[take|tomo]] (_____) [[in|en]] [[my|mi]] [[tea|té]].",
           "options": ["[[salt|sal]]", "[[sugar|azúcar]]", "[[pepper|pimienta]]"],
           "correctAnswer": 1,
-          "explanation": "Sugar es azúcar."
+          "explanation": "Sugar es [[azúcar|azúcar]]."
         }
       ]
     },

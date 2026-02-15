@@ -1,11 +1,20 @@
 ---
-category: "examenes"
-date: "2026-02-08"
-author: "Focus English"
-title: "Reported Speech Cambridge Exams: Guía de Rephrasing (B2-C2)"
-description: "Aprende a resolver ejercicios de Reported Speech en los exámenes de Cambridge First (B2), Advanced (C1) y Proficiency (C2). Guía de Key Word Transformation."
-keywords: ["reported speech cambridge","report c1 examples pdf","reported speech rephrasing","report b2 examples","report structure b2"]
-canonical: "https://www.focus-on-english.com/blog/examenes/reported-speech-cambridge-exams"
+category: examenes
+date: '2026-02-08'
+author: Focus English
+title: 'Reported Speech Cambridge Exams: Guía de Rephrasing (B2-C2)'
+description: >-
+  Aprende a resolver ejercicios de Reported Speech en los exámenes de Cambridge
+  First (B2), Advanced (C1) y Proficiency (C2). Guía de Key Word Transformation.
+keywords:
+  - reported speech cambridge
+  - report c1 examples pdf
+  - reported speech rephrasing
+  - report b2 examples
+  - report structure b2
+canonical: 'https://www.focus-on-english.com/blog/examenes/reported-speech-cambridge-exams'
+image: 'https://images.pexels.com/photos/3184311/pexels-photo-3184311.jpeg'
+alt: Personas hablando representando el reported speech
 ---
 
 # Reported Speech Cambridge Exams: Guía de Rephrasing (B2-C2)

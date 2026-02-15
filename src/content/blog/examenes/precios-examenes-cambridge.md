@@ -20,6 +20,8 @@ canonical: 'https://www.focus-on-english.com/blog/examenes/precios-examenes-camb
 related_routes:
   - certificaciones-ingles
   - preparacion-examen-b1-cambridge
+image: 'https://images.pexels.com/photos/4386339/pexels-photo-4386339.jpeg'
+alt: Calculadora y dinero representando los precios de exámenes
 ---
 
 # Precios Exámenes Cambridge 2026: Guía Completa de Tasas e Inversión

@@ -1,12 +1,23 @@
 ---
-title: "Verbos Modales en Inglés: Guía y Esquema de Uso"
-description: "Domina Can, Could, Must, Should, May y los Modales Perfectos. Incluye esquema de verbos modales en inglés pdf-friendly y ejemplos académicos."
-excerpt: "Aprende a usar Can, Could, Must, Should y May. Incluye esquema de verbos modales en inglés y ejemplos prácticos para niveles A1 a C1."
-keywords: ["verbos modales ingles", "verbos modales ingles pdf", "verbos modales ingles esquema", "verbos modales en ingles pdf", "gramatica inglesa b1", "ejercicios de gramatica en ingles", "practicar verbos en ingles online gratis"]
-author: "Equipo Focus English"
-date: "2026-02-06"
-image: "https://images.pexels.com/photos/301920/pexels-photo-301920.jpeg"
-category: "gramatica"
+title: 'Verbos Modales en Inglés: Guía y Esquema de Uso'
+description: >-
+  Domina Can, Could, Must, Should, May y los Modales Perfectos. Incluye esquema
+  de verbos modales en inglés pdf-friendly y ejemplos académicos.
+excerpt: >-
+  Aprende a usar Can, Could, Must, Should y May. Incluye esquema de verbos
+  modales en inglés y ejemplos prácticos para niveles A1 a C1.
+keywords:
+  - verbos modales ingles
+  - verbos modales ingles pdf
+  - verbos modales ingles esquema
+  - verbos modales en ingles pdf
+  - gramatica inglesa b1
+  - ejercicios de gramatica en ingles
+  - practicar verbos en ingles online gratis
+author: Equipo Focus English
+date: '2026-02-06'
+image: 'https://images.pexels.com/photos/301920/pexels-photo-301920.jpeg'
+category: gramatica
 ---
 
 Los **verbos modales** son piezas angulares de la fluidez en inglés. Como profesor de Cambridge, a menudo veo que los alumnos dominan el significado básico pero fallan en los matices de cortesía o en las deducciones lógicas.

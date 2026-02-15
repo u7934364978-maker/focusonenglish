@@ -1,28 +1,40 @@
 ---
-title: "Frases de Emergencia en Inglés: Guía de Supervivencia para Viajeros"
-date: "2026-01-30"
-author: "Focus English Team"
-excerpt: "Estar preparado para lo inesperado es vital al viajar. Aprende las frases clave para emergencias médicas, robos y extravíos, y viaja con total tranquilidad."
-category: "viajes"
-readTime: "15 min"
-image: "https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg?auto=compress&cs=tinysrgb&w=1200"
-alt: "Primer plano de equipamiento médico representando seguridad y salud en el viaje"
-canonical: "https://www.focus-on-english.com/blog/viajes/frases-ingles-emergencias-viajes"
+title: 'Frases de Emergencia en Inglés: Guía de Supervivencia para Viajeros'
+date: '2026-01-30'
+author: Focus English Team
+excerpt: >-
+  Estar preparado para lo inesperado es vital al viajar. Aprende las frases
+  clave para emergencias médicas, robos y extravíos, y viaja con total
+  tranquilidad.
+category: viajes
+readTime: 15 min
+image: >-
+  https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg?auto=compress&cs=tinysrgb&w=1200
+alt: >-
+  Primer plano de equipamiento médico representando seguridad y salud en el
+  viaje
+canonical: 'https://www.focus-on-english.com/blog/viajes/frases-ingles-emergencias-viajes'
 keywords:
-  - "clases de inglés"
-  - "emergencias en inglés"
-  - "frases de auxilio inglés"
-  - "seguridad en viajes inglés"
-  - "inglés para viajeros"
-  - "vocabulario médico inglés"
-  - "robos y pérdidas inglés"
+  - clases de inglés
+  - emergencias en inglés
+  - frases de auxilio inglés
+  - seguridad en viajes inglés
+  - inglés para viajeros
+  - vocabulario médico inglés
+  - robos y pérdidas inglés
 faqs:
-  - question: "¿Cómo pido ayuda médica urgente en inglés?"
-    answer: "Debes ser directo: 'I need a doctor' o 'Please call an ambulance'. Si es vital: 'It's an emergency!'"
-  - question: "¿Qué debo decir si pierdo mi pasaporte en el extranjero?"
-    answer: "Acude a la policía y luego a tu embajada. Di: 'My passport has been lost/stolen. I need to apply for an emergency travel document'."
-  - question: "¿Cómo ayuda practicar situaciones de estrés en clases de inglés?"
-    answer: "El estrés bloquea el lenguaje. Practicar simulacros en clases de inglés automatiza las respuestas para que salgan sin pensar en momentos críticos."
+  - question: ¿Cómo pido ayuda médica urgente en inglés?
+    answer: >-
+      Debes ser directo: 'I need a doctor' o 'Please call an ambulance'. Si es
+      vital: 'It's an emergency!'
+  - question: ¿Qué debo decir si pierdo mi pasaporte en el extranjero?
+    answer: >-
+      Acude a la policía y luego a tu embajada. Di: 'My passport has been
+      lost/stolen. I need to apply for an emergency travel document'.
+  - question: ¿Cómo ayuda practicar situaciones de estrés en clases de inglés?
+    answer: >-
+      El estrés bloquea el lenguaje. Practicar simulacros en clases de inglés
+      automatiza las respuestas para que salgan sin pensar en momentos críticos.
 ---
 
 ## La Seguridad es lo Primero: Por qué la Preparación Lingüística Salva Vidas

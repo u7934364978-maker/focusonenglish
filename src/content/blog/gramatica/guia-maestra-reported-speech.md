@@ -15,6 +15,8 @@ keywords:
   - reported speech que es
   - introductory verbs in reported speech
 canonical: 'https://www.focus-on-english.com/blog/gramatica/guia-maestra-reported-speech'
+image: 'https://images.pexels.com/photos/3184311/pexels-photo-3184311.jpeg'
+alt: Guía maestra sobre estilo indirecto en inglés
 ---
 
 # Guía Maestra de Reported Speech y Reporting Verbs: De B2 a C2

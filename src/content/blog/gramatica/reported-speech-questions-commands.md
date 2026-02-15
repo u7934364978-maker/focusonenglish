@@ -1,11 +1,22 @@
 ---
-category: "gramatica"
-date: "2026-02-08"
-author: "Focus English"
-title: "Reported Speech: Preguntas, Órdenes y Peticiones"
-description: "Guía completa sobre cómo reportar preguntas (interrogativas) y órdenes (imperativos) en inglés. Aprende a usar 'if/whether', 'ask' y estructuras de infinitivo."
-keywords: ["reported speech questions exercises pdf","reported speech commands exercises pdf","reported questions exercises pdf","reported speech commands and requests","reported questions"]
-canonical: "https://www.focus-on-english.com/blog/gramatica/reported-speech-questions-commands"
+category: gramatica
+date: '2026-02-08'
+author: Focus English
+title: 'Reported Speech: Preguntas, Órdenes y Peticiones'
+description: >-
+  Guía completa sobre cómo reportar preguntas (interrogativas) y órdenes
+  (imperativos) en inglés. Aprende a usar 'if/whether', 'ask' y estructuras de
+  infinitivo.
+keywords:
+  - reported speech questions exercises pdf
+  - reported speech commands exercises pdf
+  - reported questions exercises pdf
+  - reported speech commands and requests
+  - reported questions
+canonical: >-
+  https://www.focus-on-english.com/blog/gramatica/reported-speech-questions-commands
+image: 'https://images.pexels.com/photos/3184311/pexels-photo-3184311.jpeg'
+alt: Preguntas y órdenes en estilo indirecto
 ---
 
 # Reported Speech: Preguntas, Órdenes y Peticiones

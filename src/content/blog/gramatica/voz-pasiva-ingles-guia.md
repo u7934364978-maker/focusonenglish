@@ -1,12 +1,28 @@
 ---
-title: "La Voz Pasiva en Inglés: Guía Completa, Tiempos y Uso Académico"
-description: "Domina la voz pasiva en inglés de forma definitiva. Incluye fórmulas para todos los tiempos, pasivas con doble objeto, estructuras causativas, la pasiva impersonal y ejemplos prácticos para niveles B1 a C1."
-excerpt: "¿Te cuesta entender cuándo y cómo usar la voz pasiva en inglés? En esta guía exhaustiva te enseñamos desde las transformaciones básicas hasta las estructuras avanzadas como las pasivas impersonales y causativas, con ejemplos diseñados para exámenes oficiales."
-keywords: ["passive voice examples", "the passive voice", "examples of passive voice", "voz pasiva en ingles", "gramatica b1 b2", "ejercicios de gramatica en ingles", "practicar gramatica ingles", "causative have get", "impersonal passive english"]
-date: "2026-02-06"
-category: "gramatica"
-author: "Focus English"
-image: "https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg"
+title: 'La Voz Pasiva en Inglés: Guía Completa, Tiempos y Uso Académico'
+description: >-
+  Domina la voz pasiva en inglés de forma definitiva. Incluye fórmulas para
+  todos los tiempos, pasivas con doble objeto, estructuras causativas, la pasiva
+  impersonal y ejemplos prácticos para niveles B1 a C1.
+excerpt: >-
+  ¿Te cuesta entender cuándo y cómo usar la voz pasiva en inglés? En esta guía
+  exhaustiva te enseñamos desde las transformaciones básicas hasta las
+  estructuras avanzadas como las pasivas impersonales y causativas, con ejemplos
+  diseñados para exámenes oficiales.
+keywords:
+  - passive voice examples
+  - the passive voice
+  - examples of passive voice
+  - voz pasiva en ingles
+  - gramatica b1 b2
+  - ejercicios de gramatica en ingles
+  - practicar gramatica ingles
+  - causative have get
+  - impersonal passive english
+date: '2026-02-06'
+category: gramatica
+author: Focus English
+image: 'https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg'
 ---
 
 La **voz pasiva (The Passive Voice)** es una de las estructuras que marca la frontera entre un nivel básico y un nivel intermedio-avanzado en inglés. Mientras que en el nivel A2 nos centramos en quién hace qué (Voz Activa), a partir del nivel B1 y especialmente en el B2 (First) y C1 (Advanced), empezamos a dar prioridad a la **acción** o al **objeto** que la recibe.

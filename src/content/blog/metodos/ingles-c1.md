@@ -33,6 +33,8 @@ faqs:
     answer: >-
       Sí, los certificados de Cambridge no caducan, aunque algunas instituciones
       pueden pedir que el examen se haya realizado en los últimos 2 o 3 años.
+image: 'https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg'
+alt: Aprendiendo inglés nivel avanzado C1
 ---
 
 # Curso de Inglés C1: Domina la Comunicación Avanzada y Estratégica

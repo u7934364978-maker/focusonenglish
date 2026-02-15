@@ -408,8 +408,8 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
             <TranslatedText text={exercise.content.title || 'Exercise'} />
           </h2>
           {exercise.content.instructions && (
-            <div className="text-gray-600 mt-2">
-              <TranslatedText text={exercise.content.instructions} />
+            <div className="text-gray-600 mt-2 whitespace-pre-wrap">
+              <Markdown content={exercise.content.instructions} vocabulary={vocabulary} />
             </div>
           )}
         </div>

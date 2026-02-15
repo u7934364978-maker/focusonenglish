@@ -22,6 +22,9 @@ canonical: 'https://www.focus-on-english.com/blog/trabajo/ingles-para-salud'
 related_routes:
   - ingles-para-trabajo
   - ingles-b2
+image: >-
+  https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg
+alt: Médico atendiendo a un paciente en inglés
 ---
 
 # Curso de Inglés para el Sector Salud: Comunicación Crítica para Profesionales

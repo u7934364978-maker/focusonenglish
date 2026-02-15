@@ -1,12 +1,22 @@
 ---
-title: "Voz Pasiva Avanzada: Estructuras de Nivel C1 (Advanced)"
-description: "Domina la voz pasiva avanzada en inglés: impersonal passive, causative 'have something done' y verbos de opinión. Guía con ejemplos y lista imprimible."
-excerpt: "Lleva tu inglés al siguiente nivel. Aprende las estructuras pasivas que exigen los exámenes C1 Advanced y C2 Proficiency: 'it is said that', 'have something done' y más."
-keywords: ["voz pasiva avanzada ingles", "impersonal passive examples", "have something done grammar", "it is said that passive", "gramatica c1 advanced"]
-author: "Equipo Focus English"
-date: "2026-02-06"
-image: "https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg"
-category: "gramatica"
+title: 'Voz Pasiva Avanzada: Estructuras de Nivel C1 (Advanced)'
+description: >-
+  Domina la voz pasiva avanzada en inglés: impersonal passive, causative 'have
+  something done' y verbos de opinión. Guía con ejemplos y lista imprimible.
+excerpt: >-
+  Lleva tu inglés al siguiente nivel. Aprende las estructuras pasivas que exigen
+  los exámenes C1 Advanced y C2 Proficiency: 'it is said that', 'have something
+  done' y más.
+keywords:
+  - voz pasiva avanzada ingles
+  - impersonal passive examples
+  - have something done grammar
+  - it is said that passive
+  - gramatica c1 advanced
+author: Equipo Focus English
+date: '2026-02-06'
+image: 'https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg'
+category: gramatica
 ---
 
 Si ya dominas la pasiva básica (*The cake was eaten*), es hora de dar el salto al nivel **Advanced (C1)**. En este nivel, la voz pasiva no solo sirve para cambiar el sujeto, sino para sonar diplomático, objetivo y académicamente sofisticado.
