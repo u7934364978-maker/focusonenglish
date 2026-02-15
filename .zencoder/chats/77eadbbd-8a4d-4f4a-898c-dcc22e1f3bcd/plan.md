@@ -55,3 +55,17 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
     - Verify that `/debug/a1-preview/unit-2` contains 60 exercises.
     - Ran `npm run test:e2e e2e/unit-2-expansion.spec.ts`.
     - Results: All 3 tests passed in chromium.
+
+### [x] Step: Expand Unit 3 (A1)
+1. **Analyze Unit 3**: Current content has 11 exercises.
+2. **Expand to 60 exercises**:
+    - Theme: "Numbers and Quantities" (Numbers 1-100, age, phone numbers, quantities).
+    - Add Vocabulary: Numbers 21-100, common objects (plural), phone vocabulary.
+    - Add Grammar: Have/Has, Plural nouns (regular/irregular review), Questions with "How many".
+    - Add Reading Comprehension blocks.
+3. **Verify Implementation**:
+    - Check `/debug/a1-preview/unit-3` in the browser.
+4. **Test Plan Approval**:
+    - Verify that `/debug/a1-preview/unit-3` contains 60 exercises.
+    - Ran `npm run test:e2e e2e/unit-3-expansion.spec.ts`.
+    - Results: All 3 tests passed in chromium.
