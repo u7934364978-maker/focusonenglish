@@ -717,23 +717,23 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "id": "a1-u6-e36",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Ordering",
+    "topic": "Countable/Uncountable",
     "difficulty": "easy",
-    "transcript": "Can I help you? Yes, I want a salad.",
+    "transcript": "I would like some water, please.",
     "content": {
-      "title": "Atención",
-      "instructions": "Completa el pedido.",
+      "title": "Incontables: Water",
+      "instructions": "Completa el pedido con la opción correcta.",
       "questions": [
         {
-          "question": "[[Yes|Sí]], [[I|yo]] [[want|quiero]] [[a|una]] (_____) .",
-          "options": ["[[salad|ensalada]]", "[[water|agua]]", "[[wine|vino]]"],
-          "correctAnswer": 0,
-          "explanation": "Salad es ensalada."
+          "question": "[[I|Yo]] [[would|querría]] [[like|gustar]] (_____) [[water|agua]], [[please|por favor]].",
+          "options": ["[[a|una]]", "[[some|un poco de]]", "[[an|una]]"],
+          "correctAnswer": 1,
+          "explanation": "Usamos 'some' con sustantivos incontables como 'water' en oraciones afirmativas."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-6/e36.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u6-e37",
