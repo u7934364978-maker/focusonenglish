@@ -533,16 +533,16 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Jobs",
     "difficulty": "easy",
-    "transcript": "He is a pilot. He flies planes.",
+    "transcript": "He is a pilot. He pilots planes.",
     "content": {
       "title": "Definiciones",
       "instructions": "Elige el trabajo correcto.",
       "questions": [
         {
-          "question": "[[He|Él]] [[is|es]] [[a|un]] _______ . [[He|Él]] [[flies|vuela]] [[planes|aviones]].",
+          "question": "[[He|Él]] [[is|es]] [[a|un]] _______ . [[He|Él]] [[pilots|pilota]] [[planes|aviones]].",
           "options": ["[[pilot|piloto]]", "[[farmer|granjero]]", "[[dentist|dentista]]"],
           "correctAnswer": 0,
-          "explanation": "Los pilotos vuelan aviones."
+          "explanation": "Los pilotos pilotan aviones."
         }
       ]
     },
