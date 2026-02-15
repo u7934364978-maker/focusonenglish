@@ -184,14 +184,28 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
     - Ran `npx playwright test e2e/unit-12-expansion.spec.ts --project=chromium`.
     - Results: All tests passed.
 
-### [ ] Step: Expand Unit 13 (A1)
-1. **Analyze Unit 13**: Current content.
+### [x] Step: Expand Unit 13 (A1)
+1. **Analyze Unit 13**: Current content focused on Daily Routine.
 2. **Expand to 60 exercises**:
     - Theme: "Clothes and Fashion" (Types of clothes, colors, describing what someone is wearing).
     - Add Vocabulary: Clothes (shirt, dress, pants, jacket), colors (red, blue, green), patterns.
     - Add Grammar: Present Continuous (for wearing), possessive 's (review).
     - Add Reading Comprehension: Descriptions of people's outfits for different occasions.
 3. **Verify Implementation**:
-    - Check `/debug/a1-preview/unit-13` in the browser.
+    - Checked `/debug/a1-preview/unit-13` in the browser.
 4. **Test Plan Approval**:
-    - Verify that `/debug/a1-preview/unit-13` contains 60 exercises.
+    - Verified that `/debug/a1-preview/unit-13` contains 60 exercises.
+    - Ran `npx playwright test e2e/unit-13-expansion.spec.ts --project=chromium`.
+    - Results: All tests passed.
+
+### [ ] Step: Expand Unit 14 (A1)
+1. **Analyze Unit 14**: Current content.
+2. **Expand to 60 exercises**:
+    - Theme: "My Hobbies and Free Time" (Interests, sports, frequency).
+    - Add Vocabulary: Hobbies (reading, traveling, cooking), sports (basketball, swimming, tennis).
+    - Add Grammar: Like/Love/Hate + -ing, Adverbs of frequency (review and expansion).
+    - Add Reading Comprehension: Interview about a person's weekend activities and hobbies.
+3. **Verify Implementation**:
+    - Check `/debug/a1-preview/unit-14` in the browser.
+4. **Test Plan Approval**:
+    - Verify that `/debug/a1-preview/unit-14` contains 60 exercises.
