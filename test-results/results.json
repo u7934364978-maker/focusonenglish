@@ -128,25 +128,25 @@
   },
   "suites": [
     {
-      "title": "unit-2-expansion.spec.ts",
-      "file": "unit-2-expansion.spec.ts",
+      "title": "unit-4-expansion.spec.ts",
+      "file": "unit-4-expansion.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
-          "title": "A1 Course Expansion - Unit 2",
-          "file": "unit-2-expansion.spec.ts",
+          "title": "Unit 4 Expansion - Daily Life",
+          "file": "unit-4-expansion.spec.ts",
           "line": 3,
           "column": 6,
           "specs": [
             {
-              "title": "Unit 2 should have 60 exercises",
+              "title": "should have 60 exercises",
               "ok": true,
               "tags": [],
               "tests": [
                 {
-                  "timeout": 120000,
+                  "timeout": 60000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "chromium",
@@ -156,12 +156,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1448,
+                      "duration": 11510,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T07:12:54.049Z",
+                      "startTime": "2026-02-15T10:31:07.030Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -169,18 +169,18 @@
                   "status": "expected"
                 }
               ],
-              "id": "ab2ca94df3ed8762753a-8301c98bee656b27b729",
-              "file": "unit-2-expansion.spec.ts",
-              "line": 4,
+              "id": "ec75e8e5698d4808a5e4-6207c7352c32828ea59b",
+              "file": "unit-4-expansion.spec.ts",
+              "line": 9,
               "column": 7
             },
             {
-              "title": "Unit 1 reading exercises should not have blanks or verb hints",
+              "title": "reading exercises should have routine texts",
               "ok": true,
               "tags": [],
               "tests": [
                 {
-                  "timeout": 120000,
+                  "timeout": 60000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "chromium",
@@ -190,12 +190,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 2413,
+                      "duration": 12635,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T07:12:54.050Z",
+                      "startTime": "2026-02-15T10:31:07.015Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -203,18 +203,18 @@
                   "status": "expected"
                 }
               ],
-              "id": "ab2ca94df3ed8762753a-aedd0719e663273fb41a",
-              "file": "unit-2-expansion.spec.ts",
-              "line": 13,
+              "id": "ec75e8e5698d4808a5e4-6ba4dc150a6fc29735c0",
+              "file": "unit-4-expansion.spec.ts",
+              "line": 19,
               "column": 7
             },
             {
-              "title": "Unit 2 should have diverse exercise types",
+              "title": "vocabulary should cover daily verbs and frequency adverbs",
               "ok": true,
               "tags": [],
               "tests": [
                 {
-                  "timeout": 120000,
+                  "timeout": 60000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "chromium",
@@ -224,12 +224,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1942,
+                      "duration": 11188,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T07:12:54.039Z",
+                      "startTime": "2026-02-15T10:31:07.035Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -237,9 +237,9 @@
                   "status": "expected"
                 }
               ],
-              "id": "ab2ca94df3ed8762753a-0a8c619f1be5fbc0acd4",
-              "file": "unit-2-expansion.spec.ts",
-              "line": 33,
+              "id": "ec75e8e5698d4808a5e4-67d9f26bd2709d13fdcd",
+              "file": "unit-4-expansion.spec.ts",
+              "line": 31,
               "column": 7
             }
           ]
@@ -249,8 +249,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-02-15T07:12:53.378Z",
-    "duration": 3400.7789999999995,
+    "startTime": "2026-02-15T10:31:06.194Z",
+    "duration": 14034.190999999999,
     "expected": 3,
     "skipped": 0,
     "unexpected": 0,

@@ -83,3 +83,16 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
     - Verify that `/debug/a1-preview/unit-4` contains 60 exercises with the new theme.
     - Ran `npm run test:e2e:chromium e2e/unit-4-expansion.spec.ts`.
     - Results: All 3 tests passed in chromium.
+    - **Refinement**: Replaced "eat" with "have" for meals (breakfast, lunch, dinner) to be more idiomatic.
+
+### [ ] Step: Expand Unit 5 (A1)
+1. **Analyze Unit 5**: Current content has 11 exercises.
+2. **Expand to 60 exercises**:
+    - Theme: "My Home and Furniture" (Rooms in the house, furniture, describing a home).
+    - Add Vocabulary: Rooms (kitchen, living room, bedroom), Furniture (sofa, table, bed), Adjectives for home (comfortable, small, modern).
+    - Add Grammar: There is / There are, Prepositions of place (in, on, under, next to, between).
+    - Add Reading Comprehension: Description of a dream house or a famous apartment.
+3. **Verify Implementation**:
+    - Check `/debug/a1-preview/unit-5` in the browser.
+4. **Test Plan Approval**:
+    - Verify that `/debug/a1-preview/unit-5` contains 60 exercises.

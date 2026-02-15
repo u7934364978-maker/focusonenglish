@@ -7,7 +7,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Daily Verbs",
     "difficulty": "easy",
-    "transcript": "Wake up. Get up. Have breakfast. Go to work. Eat lunch. Finish work. Go home. Have dinner. Watch TV. Sleep.",
+    "transcript": "Wake up. Get up. Have breakfast. Go to work. Have lunch. Finish work. Go home. Have dinner. Watch TV. Sleep.",
     "content": {
       "title": "Vocabulario: Rutina Diaria",
       "instructions": "Aprende los verbos básicos para describir tu día.",
@@ -16,7 +16,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         { "front": "[[Get up|Levantarse]]", "back": "Levantarse" },
         { "front": "[[Have breakfast|Desayunar]]", "back": "Desayunar" },
         { "front": "[[Go to work|Ir al trabajo]]", "back": "Ir al trabajo" },
-        { "front": "[[Eat lunch|Almorzar]]", "back": "Almorzar" },
+        { "front": "[[Have lunch|Almorzar]]", "back": "Almorzar" },
         { "front": "[[Finish work|Terminar de trabajar]]", "back": "Terminar de trabajar" },
         { "front": "[[Go home|Ir a casa]]", "back": "Ir a casa" },
         { "front": "[[Have dinner|Cenar]]", "back": "Cenar" },
@@ -81,16 +81,16 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Present Simple",
     "difficulty": "easy",
-    "transcript": "We eat lunch at 1 PM.",
+    "transcript": "We have lunch at 1 PM.",
     "content": {
       "title": "Presente Simple: Nosotros",
       "instructions": "Completa la oración.",
       "questions": [
         {
           "question": "[[We|Nosotros]] (_____) [[lunch|almuerzo]] [[at|a la]] [[1|1]] [[PM|PM]].",
-          "options": ["[[eats|eats]]", "[[eat|eat]]", "[[eating|eating]]"],
+          "options": ["[[has|has]]", "[[have|have]]", "[[having|having]]"],
           "correctAnswer": 1,
-          "explanation": "Con 'We' el verbo no lleva 's'."
+          "explanation": "Con 'We' el verbo no lleva 's' ni 'es' (has)."
         }
       ]
     },
@@ -165,10 +165,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Elige el día correcto.",
       "questions": [
         {
-          "question": "[[Today|Hoy]] [[is|es]] (_____) [[Friday|Viernes]].",
-          "options": ["[[on|en]]", "[[a|un]]", "[[_______|_______]]"],
-          "correctAnswer": 2,
-          "explanation": "No usamos artículos ni preposiciones antes de los días cuando usamos 'is'."
+          "question": "[[Today|Hoy]] [[is|es]] (_____).",
+          "options": ["[[Friday|Viernes]]", "[[at|a las]]", "[[on|en]]"],
+          "correctAnswer": 0,
+          "explanation": "No usamos preposiciones antes del día cuando usamos 'is'."
         }
       ]
     },
@@ -552,12 +552,12 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Routine",
     "difficulty": "easy",
-    "transcript": "Do they eat dinner at home?",
+    "transcript": "Do they have dinner at home?",
     "content": {
       "title": "Cena en Casa",
       "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Do|Hacen]] [[they|ellos]] [[eat|comen]] [[dinner|cena]] [[at|en]] [[home|casa]]?",
-      "words": ["[[they|ellos]]", "[[dinner|cena]]", "[[eat|comen]]", "[[at|en]]", "[[home|casa]]?", "[[Do|Hacen]]"],
+      "correctSentence": "[[Do|Hacen]] [[they|ellos]] [[have|tienen]] [[dinner|cena]] [[at|en]] [[home|casa]]?",
+      "words": ["[[they|ellos]]", "[[dinner|cena]]", "[[have|tienen]]", "[[at|en]]", "[[home|casa]]?", "[[Do|Hacen]]"],
       "explanation": "Pregunta sobre hábitos de comida."
     },
     "audioUrl": "audio/a1/unit-4/e27.mp3",
@@ -735,13 +735,13 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Grammar",
     "difficulty": "easy",
-    "transcript": "We eat together on Sundays.",
+    "transcript": "We have lunch together on Sundays.",
     "content": {
       "title": "Juntos",
       "instructions": "Elige la palabra 'juntos'.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[eat|comemos]] (_____) [[on|en]] [[Sundays|domingos]].",
+          "question": "[[We|Nosotros]] [[have|almorzamos]] [[lunch|almuerzo]] (_____) [[on|en]] [[Sundays|domingos]].",
           "options": ["[[alone|solo]]", "[[together|juntos]]", "[[happy|feliz]]"],
           "correctAnswer": 1,
           "explanation": "Together significa juntos."
@@ -1183,7 +1183,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "When does Alex sleep? *\"Alex is a nurse. He works at night. He goes to the hospital at 8:00 PM and finishes at 6:00 AM. He eats breakfast at 7:00 AM and then he sleeps for seven hours. He usually wakes up at 3:00 PM. He has a snack and then he goes to the gym.\"*",
+          "question": "When does Alex sleep? *\"Alex is a nurse. He works at night. He goes to the hospital at 8:00 PM and finishes at 6:00 AM. He has breakfast at 7:00 AM and then he sleeps for seven hours. He usually wakes up at 3:00 PM. He has a snack and then he goes to the gym.\"*",
           "options": ["[[At night|Por la noche]]", "[[During the day|Durante el día]]", "[[He never sleeps|No duerme]]"],
           "correctAnswer": 1,
           "explanation": "Como trabaja de noche, duerme durante el día (después de desayunar a las 7:00 AM)."
@@ -1205,7 +1205,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "Where does Alex go after he wakes up? *\"Alex is a nurse. He works at night. He goes to the hospital at 8:00 PM and finishes at 6:00 AM. He eats breakfast at 7:00 AM and then he sleeps for seven hours. He usually wakes up at 3:00 PM. He has a snack and then he goes to the gym.\"*",
+          "question": "Where does Alex go after he wakes up? *\"Alex is a nurse. He works at night. He goes to the hospital at 8:00 PM and finishes at 6:00 AM. He has breakfast at 7:00 AM and then he sleeps for seven hours. He usually wakes up at 3:00 PM. He has a snack and then he goes to the gym.\"*",
           "options": ["[[To the hospital|Al hospital]]", "[[To the gym|Al gimnasio]]", "[[To bed|A la cama]]"],
           "correctAnswer": 1,
           "explanation": "El texto dice 'He usually wakes up at 3:00 PM... then he goes to the gym'."
@@ -1227,7 +1227,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "What is Alex's job? *\"Alex is a nurse. He works at night. He goes to the hospital at 8:00 PM and finishes at 6:00 AM. He eats breakfast at 7:00 AM and then he sleeps for seven hours. He usually wakes up at 3:00 PM. He has a snack and then he goes to the gym.\"*",
+          "question": "What is Alex's job? *\"Alex is a nurse. He works at night. He goes to the hospital at 8:00 PM and finishes at 6:00 AM. He has breakfast at 7:00 AM and then he sleeps for seven hours. He usually wakes up at 3:00 PM. He has a snack and then he goes to the gym.\"*",
           "options": ["[[Teacher|Profesor]]", "[[Doctor|Doctor]]", "[[Nurse|Enfermero]]"],
           "correctAnswer": 2,
           "explanation": "El texto comienza con 'Alex is a nurse'."
