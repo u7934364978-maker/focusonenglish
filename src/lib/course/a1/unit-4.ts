@@ -5,53 +5,23 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e1",
     "type": "flashcard",
     "level": "A1",
-    "topic": "Alphabet & Spelling",
+    "topic": "Daily Verbs",
     "difficulty": "easy",
-    "transcript": "Alphabet. Letter. Spell. Word. Vowel. Consonant. Apple. Ball. Cat. Dog",
+    "transcript": "Wake up. Get up. Have breakfast. Go to work. Eat lunch. Finish work. Go home. Have dinner. Watch TV. Sleep.",
     "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
+      "title": "Vocabulario: Rutina Diaria",
+      "instructions": "Aprende los verbos básicos para describir tu día.",
       "items": [
-        {
-          "front": "[[Alphabet|Ser/estar]]",
-          "back": "Alfabeto"
-        },
-        {
-          "front": "[[Letter|Letra]]",
-          "back": "Letra"
-        },
-        {
-          "front": "[[Spell|Deletrear]]",
-          "back": "Deletrear"
-        },
-        {
-          "front": "[[Word|Palabra]]",
-          "back": "Palabra"
-        },
-        {
-          "front": "[[Vowel|Vocal]]",
-          "back": "Vocal"
-        },
-        {
-          "front": "[[Consonant|Consonante]]",
-          "back": "Consonante"
-        },
-        {
-          "front": "[[Apple|Manzana]]",
-          "back": "Manzana"
-        },
-        {
-          "front": "[[Ball|Pelota]]",
-          "back": "Pelota"
-        },
-        {
-          "front": "[[Cat|Gato]]",
-          "back": "Gato"
-        },
-        {
-          "front": "[[Dog|Perro]]",
-          "back": "Perro"
-        }
+        { "front": "[[Wake up|Despertarse]]", "back": "Despertarse" },
+        { "front": "[[Get up|Levantarse]]", "back": "Levantarse" },
+        { "front": "[[Have breakfast|Desayunar]]", "back": "Desayunar" },
+        { "front": "[[Go to work|Ir al trabajo]]", "back": "Ir al trabajo" },
+        { "front": "[[Eat lunch|Almorzar]]", "back": "Almorzar" },
+        { "front": "[[Finish work|Terminar de trabajar]]", "back": "Terminar de trabajar" },
+        { "front": "[[Go home|Ir a casa]]", "back": "Ir a casa" },
+        { "front": "[[Have dinner|Cenar]]", "back": "Cenar" },
+        { "front": "[[Watch TV|Ver la tele]]", "back": "Ver la tele" },
+        { "front": "[[Sleep|Dormir]]", "back": "Dormir" }
       ]
     },
     "audioUrl": "audio/a1/unit-4/e1.mp3",
@@ -59,50 +29,46 @@ export const UNIT_4_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u4-e2",
-    "type": "multiple-choice",
+    "type": "flashcard",
     "level": "A1",
-    "topic": "Alphabet & Spelling",
+    "topic": "Days of the Week",
     "difficulty": "easy",
-    "transcript": "How do you  spell your name?",
+    "transcript": "Monday. Tuesday. Wednesday. Thursday. Friday. Saturday. Sunday. Week. Weekend. Today.",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
-      "questions": [
-        {
-          "question": "[[How|Cómo]] [[do|hacer]] [[you|tú/usted]] ([[deletrear|deletrear]]) _______ [[your|tu/tus]] [[name|nombre]]?",
-          "options": [
-            "[[is|es/está]]",
-            "[[spell|spell]]",
-            "[[are|son/están]]"
-          ],
-          "correctAnswer": 1,
-          "explanation": "Práctica de la estructura gramatical básica."
-        }
+      "title": "Vocabulario: Días de la Semana",
+      "instructions": "Aprende los días y conceptos temporales básicos.",
+      "items": [
+        { "front": "[[Monday|Lunes]]", "back": "Lunes" },
+        { "front": "[[Tuesday|Martes]]", "back": "Martes" },
+        { "front": "[[Wednesday|Miércoles]]", "back": "Miércoles" },
+        { "front": "[[Thursday|Jueves]]", "back": "Jueves" },
+        { "front": "[[Friday|Viernes]]", "back": "Viernes" },
+        { "front": "[[Saturday|Sábado]]", "back": "Sábado" },
+        { "front": "[[Sunday|Domingo]]", "back": "Domingo" },
+        { "front": "[[Week|Semana]]", "back": "Semana" },
+        { "front": "[[Weekend|Fin de semana]]", "back": "Fin de semana" },
+        { "front": "[[Today|Hoy]]", "back": "Hoy" }
       ]
     },
     "audioUrl": "audio/a1/unit-4/e2.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u4-e3",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Alphabet & Spelling",
+    "topic": "Present Simple",
     "difficulty": "easy",
-    "transcript": "'A' is a  vowel.",
+    "transcript": "I get up at 7 o'clock.",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
+      "title": "Presente Simple: Yo",
+      "instructions": "Completa la oración.",
       "questions": [
         {
-          "question": "'[[A|Un/una]]' [[is|es/está]] [[a|un/una]] ([[vocal|vocal]]) [[_______|_______]].",
-          "options": [
-            "[[is|es/está]]",
-            "[[vowel|vowel]]",
-            "[[are|son/están]]"
-          ],
-          "correctAnswer": 1,
-          "explanation": "Práctica de la estructura gramatical básica."
+          "question": "[[I|Yo]] (_____) [[up|arriba]] [[at|a las]] [[7|7]] [[o'clock|en punto]].",
+          "options": ["[[get|get]]", "[[gets|gets]]", "[[getting|getting]]"],
+          "correctAnswer": 0,
+          "explanation": "Con 'I' usamos la forma base del verbo."
         }
       ]
     },
@@ -113,22 +79,18 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e4",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Alphabet & Spelling",
+    "topic": "Present Simple",
     "difficulty": "easy",
-    "transcript": "There are 26  letters in English.",
+    "transcript": "We eat lunch at 1 PM.",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
+      "title": "Presente Simple: Nosotros",
+      "instructions": "Completa la oración.",
       "questions": [
         {
-          "question": "[[There|Allí/ahí]] [[are|son/están]] [[26|26]] ([[letras|letras]]) _______ [[in|en]] [[English|English]].",
-          "options": [
-            "[[letters|letters]]",
-            "[[is|es/está]]",
-            "[[are|son/están]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Práctica de la estructura gramatical básica."
+          "question": "[[We|Nosotros]] (_____) [[lunch|almuerzo]] [[at|a la]] [[1|1]] [[PM|PM]].",
+          "options": ["[[eats|eats]]", "[[eat|eat]]", "[[eating|eating]]"],
+          "correctAnswer": 1,
+          "explanation": "Con 'We' el verbo no lleva 's'."
         }
       ]
     },
@@ -139,22 +101,18 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e5",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Alphabet & Spelling",
+    "topic": "Time",
     "difficulty": "easy",
-    "transcript": "'B' is a  consonant.",
+    "transcript": "What time is it?",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
+      "title": "Preguntar la Hora",
+      "instructions": "Elige la pregunta correcta.",
       "questions": [
         {
-          "question": "'[[B|B]]' [[is|es/está]] [[a|un/una]] ([[consonante|consonante]]) [[_______|_______]].",
-          "options": [
-            "[[consonant|consonant]]",
-            "[[is|es/está]]",
-            "[[are|son/están]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Práctica de la estructura gramatical básica."
+          "question": "[[_______|_______]] [[time|tiempo]] [[is|es]] [[it|ello]]?",
+          "options": ["[[Who|Quién]]", "[[Where|Dónde]]", "[[What|Qué]]"],
+          "correctAnswer": 2,
+          "explanation": "'What time is it?' es la forma estándar de preguntar la hora."
         }
       ]
     },
@@ -165,21 +123,15 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e6",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Alphabet & Spelling",
+    "topic": "Routine",
     "difficulty": "easy",
-    "transcript": "Can you spell that, please?",
+    "transcript": "I have breakfast every day.",
     "content": {
       "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Can|Poder]] [[you|tú/usted]] [[spell|spell]] [[that|ese/esa/aquel]], [[please|por favor]]?",
-      "words": [
-        "[[that|ese/esa/aquel]],",
-        "[[spell|spell]]",
-        "[[please|por favor]]?",
-        "[[you|tú/usted]]",
-        "[[Can|Poder]]"
-      ],
-      "explanation": "Practica el orden de las palabras en inglés."
+      "instructions": "Ordena las palabras.",
+      "correctSentence": "[[I|Yo]] [[have|tengo]] [[breakfast|desayuno]] [[every|cada]] [[day|día]].",
+      "words": ["[[have|tengo]]", "[[day|día]].", "[[I|Yo]]", "[[breakfast|desayuno]]", "[[every|cada]]"],
+      "explanation": "Estructura: Sujeto + Verbo + Complemento."
     },
     "audioUrl": "audio/a1/unit-4/e6.mp3",
     "topicName": "Vocabulary"
@@ -188,167 +140,141 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e7",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Alphabet & Spelling",
+    "topic": "Routine",
     "difficulty": "easy",
-    "transcript": "English has five vowels.",
+    "transcript": "They go to work by bus.",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[English|English]] [[has|tiene/ha]] [[five|cinco]] [[vowels|vowels]].",
-      "words": [
-        "[[English|English]]",
-        "[[has|tiene/ha]]",
-        "[[five|cinco]]",
-        "[[vowels|vowels]]."
-      ],
-      "explanation": "Practica el orden de las palabras en inglés."
+      "title": "Ir al Trabajo",
+      "instructions": "Ordena las palabras.",
+      "correctSentence": "[[They|Ellos]] [[go|van]] [[to|a]] [[work|trabajo]] [[by|por]] [[bus|autobús]].",
+      "words": ["[[to|a]]", "[[work|trabajo]]", "[[They|Ellos]]", "[[bus|autobús]].", "[[by|por]]", "[[go|van]]"],
+      "explanation": "Describe cómo van al trabajo."
     },
     "audioUrl": "audio/a1/unit-4/e7.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u4-e8",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Alphabet & Spelling",
+    "topic": "Days",
     "difficulty": "easy",
-    "transcript": "How many letters are in this word?",
+    "transcript": "Today is Friday.",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[How|Cómo]] [[many|many]] [[letters|letters]] [[are|son/están]] [[in|en]] [[this|este/esta]] [[word|palabra]]?",
-      "words": [
-        "[[letters|letters]]",
-        "[[in|en]]",
-        "[[this|este/esta]]",
-        "[[are|son/están]]",
-        "[[many|many]]",
-        "[[word|palabra]]?",
-        "[[How|Cómo]]"
-      ],
-      "explanation": "Practica el orden de las palabras en inglés."
+      "title": "Días de la Semana",
+      "instructions": "Elige el día correcto.",
+      "questions": [
+        {
+          "question": "[[Today|Hoy]] [[is|es]] (_____) [[Friday|Viernes]].",
+          "options": ["[[on|en]]", "[[a|un]]", "[[_______|_______]]"],
+          "correctAnswer": 2,
+          "explanation": "No usamos artículos ni preposiciones antes de los días cuando usamos 'is'."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-4/e8.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u4-e9",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Alphabet & Spelling",
+    "topic": "Grammar",
     "difficulty": "easy",
-    "transcript": "Apple starts with A.",
+    "transcript": "I usually work on Monday.",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Apple|Apple]] [[starts|starts]] [[with|con]] [[A|Un/una]].",
-      "words": [
-        "[[with|con]]",
-        "[[Apple|Apple]]",
-        "[[A|Un/una]].",
-        "[[starts|starts]]"
-      ],
-      "explanation": "Practica el orden de las palabras en inglés."
+      "title": "Preposiciones de Tiempo",
+      "instructions": "Elige la preposición correcta.",
+      "questions": [
+        {
+          "question": "[[I|Yo]] [[usually|normalmente]] [[work|trabajo]] (_____) [[Monday|Lunes]].",
+          "options": ["[[in|en]]", "[[at|en]]", "[[on|en]]"],
+          "correctAnswer": 2,
+          "explanation": "Usamos 'on' con los días de la semana."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-4/e9.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u4-e10",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Alphabet & Spelling",
+    "topic": "Routine",
     "difficulty": "easy",
-    "transcript": "Spell your name for me.",
+    "transcript": "I watch TV in the evening.",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Spell|Spell]] [[your|tu/tus]] [[name|nombre]] [[for|para/por]] [[me|me/mí]].",
-      "words": [
-        "[[Spell|Spell]]",
-        "[[name|nombre]]",
-        "[[me|me/mí]].",
-        "[[your|tu/tus]]",
-        "[[for|para/por]]"
-      ],
-      "explanation": "Practica el orden de las palabras en inglés."
+      "title": "Momentos del Día",
+      "instructions": "Ordena las palabras.",
+      "correctSentence": "[[I|Yo]] [[watch|veo]] [[TV|tele]] [[in|en]] [[the|la]] [[evening|tarde/noche]].",
+      "words": ["[[TV|tele]]", "[[evening|tarde/noche]].", "[[I|Yo]]", "[[the|la]]", "[[watch|veo]]", "[[in|en]]"],
+      "explanation": "Uso de 'in the evening'."
     },
     "audioUrl": "audio/a1/unit-4/e10.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u4-e11",
-    "type": "flashcard",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Alphabet & Objects",
+    "topic": "Adverbs of Frequency",
     "difficulty": "easy",
-    "transcript": "Egg. Fish. Grape. Hat. Ice cream. Jacket. Key. Lemon. Mouse. Notebook.",
+    "transcript": "I always drink coffee.",
     "content": {
-      "title": "Vocabulario A-N",
-      "instructions": "Aprende nuevos objetos comunes.",
-      "items": [
-        { "front": "[[Egg|Huevo]]", "back": "Huevo" },
-        { "front": "[[Fish|Pez/Pescado]]", "back": "Pez/Pescado" },
-        { "front": "[[Grape|Uva]]", "back": "Uva" },
-        { "front": "[[Hat|Sombrero]]", "back": "Sombrero" },
-        { "front": "[[Ice cream|Helado]]", "back": "Helado" },
-        { "front": "[[Jacket|Chaqueta]]", "back": "Chaqueta" },
-        { "front": "[[Key|Llave]]", "back": "Llave" },
-        { "front": "[[Lemon|Limón]]", "back": "Limón" },
-        { "front": "[[Mouse|Ratón]]", "back": "Ratón" },
-        { "front": "[[Notebook|Libreta]]", "back": "Libreta" }
+      "title": "Adverbios de Frecuencia",
+      "instructions": "Elige la opción que significa 'siempre'.",
+      "questions": [
+        {
+          "question": "[[I|Yo]] (_____) [[drink|bebo]] [[coffee|café]].",
+          "options": ["[[never|nunca]]", "[[always|siempre]]", "[[sometimes|a veces]]"],
+          "correctAnswer": 1,
+          "explanation": "'Always' significa siempre."
+        }
       ]
     },
     "audioUrl": "audio/a1/unit-4/e11.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u4-e12",
-    "type": "flashcard",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Alphabet & Objects",
+    "topic": "Adverbs of Frequency",
     "difficulty": "easy",
-    "transcript": "Orange. Pencil. Queen. Rabbit. Snake. Table. Umbrella. Violin. Watch. Xylophone. Zebra.",
+    "transcript": "I never sleep late.",
     "content": {
-      "title": "Vocabulario O-Z",
-      "instructions": "Aprende nuevos objetos comunes.",
-      "items": [
-        { "front": "[[Orange|Naranja]]", "back": "Naranja" },
-        { "front": "[[Pencil|Lápiz]]", "back": "Lápiz" },
-        { "front": "[[Queen|Reina]]", "back": "Reina" },
-        { "front": "[[Rabbit|Conejo]]", "back": "Conejo" },
-        { "front": "[[Snake|Serpiente]]", "back": "Serpiente" },
-        { "front": "[[Table|Mesa]]", "back": "Mesa" },
-        { "front": "[[Umbrella|Paraguas]]", "back": "Paraguas" },
-        { "front": "[[Violin|Violín]]", "back": "Violín" },
-        { "front": "[[Watch|Reloj de pulsera]]", "back": "Reloj de pulsera" },
-        { "front": "[[Xylophone|Xilófono]]", "back": "Xilófono" },
-        { "front": "[[Zebra|Cebra]]", "back": "Cebra" }
+      "title": "Adverbios de Frecuencia",
+      "instructions": "Elige la opción que significa 'nunca'.",
+      "questions": [
+        {
+          "question": "[[I|Yo]] (_____) [[sleep|duermo]] [[late|tarde]].",
+          "options": ["[[never|nunca]]", "[[always|siempre]]", "[[usually|normalmente]]"],
+          "correctAnswer": 0,
+          "explanation": "'Never' significa nunca."
+        }
       ]
     },
     "audioUrl": "audio/a1/unit-4/e12.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u4-e13",
-    "type": "flashcard",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Spelling Verbs",
+    "topic": "Time",
     "difficulty": "easy",
-    "transcript": "Read. Write. Say. Listen. Repeat. Correct. Mistake. Check. Understand.",
+    "transcript": "It is half past eight.",
     "content": {
-      "title": "Verbos de Clase",
-      "instructions": "Verbos útiles para practicar deletreo y lenguaje.",
-      "items": [
-        { "front": "[[Read|Leer]]", "back": "Leer" },
-        { "front": "[[Write|Escribir]]", "back": "Escribir" },
-        { "front": "[[Say|Decir]]", "back": "Decir" },
-        { "front": "[[Listen|Escuchar]]", "back": "Escuchar" },
-        { "front": "[[Repeat|Repetir]]", "back": "Repetir" },
-        { "front": "[[Correct|Corregir]]", "back": "Corregir" },
-        { "front": "[[Mistake|Error]]", "back": "Error" },
-        { "front": "[[Check|Revisar]]", "back": "Revisar" },
-        { "front": "[[Understand|Entender]]", "back": "Entender" }
+      "title": "La Hora: Medias Horas",
+      "instructions": "¿Qué hora es las 8:30?",
+      "questions": [
+        {
+          "question": "[[It|Ello]] [[is|es]] (_____) [[past|pasado]] [[eight|ocho]].",
+          "options": ["[[quarter|cuarto]]", "[[half|media]]", "[[ten|diez]]"],
+          "correctAnswer": 1,
+          "explanation": "'Half past' se usa para las medias horas."
+        }
       ]
     },
     "audioUrl": "audio/a1/unit-4/e13.mp3",
@@ -358,62 +284,57 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e14",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Articles a/an",
+    "topic": "Time",
     "difficulty": "easy",
-    "transcript": "It is an apple.",
+    "transcript": "It is quarter past nine.",
     "content": {
-      "title": "Artículos: A / An",
-      "instructions": "Elige el artículo correcto.",
+      "title": "La Hora: Cuartos",
+      "instructions": "¿Qué hora es las 9:15?",
       "questions": [
         {
-          "question": "[[It|Eso]] [[is|es]] (_____) [[apple|manzana]].",
-          "options": ["[[a|un/una]]", "[[an|un/una]]"],
+          "question": "[[It|Ello]] [[is|es]] (_____) [[past|pasado]] [[nine|nueve]].",
+          "options": ["[[half|media]]", "[[quarter|cuarto]]", "[[five|cinco]]"],
           "correctAnswer": 1,
-          "explanation": "Usamos 'an' antes de sonidos vocálicos."
+          "explanation": "'Quarter past' significa 'y cuarto'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-4/e14.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u4-e15",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Articles a/an",
+    "topic": "Routine",
     "difficulty": "easy",
-    "transcript": "I have a book.",
+    "transcript": "I go to bed at midnight.",
     "content": {
-      "title": "Artículos: A / An",
-      "instructions": "Elige el artículo correcto.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] [[have|tengo]] (_____) [[book|libro]].",
-          "options": ["[[a|un/una]]", "[[an|un/una]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'a' antes de sonidos consonánticos."
-        }
-      ]
+      "title": "Ir a la Cama",
+      "instructions": "Ordena las palabras.",
+      "correctSentence": "[[I|Yo]] [[go|voy]] [[to|a]] [[bed|cama]] [[at|a]] [[midnight|medianoche]].",
+      "words": ["[[bed|cama]]", "[[I|Yo]]", "[[midnight|medianoche]].", "[[at|a]]", "[[go|voy]]", "[[to|a]]"],
+      "explanation": "Midnight significa las 12 de la noche."
     },
     "audioUrl": "audio/a1/unit-4/e15.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u4-e16",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Articles a/an",
+    "topic": "Routine",
     "difficulty": "easy",
-    "transcript": "She sees an orange.",
+    "transcript": "Do you work on Saturdays?",
     "content": {
-      "title": "Artículos: A / An",
-      "instructions": "Elige el artículo correcto.",
+      "title": "Preguntas de Rutina",
+      "instructions": "Completa la pregunta.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[sees|ve]] (_____) [[orange|naranja]].",
-          "options": ["[[a|un/una]]", "[[an|un/una]]"],
-          "correctAnswer": 1,
-          "explanation": "'Orange' empieza con sonido vocálico."
+          "question": "(_____) [[you|tú]] [[work|trabajas]] [[on|en]] [[Saturdays|sábados]]?",
+          "options": ["[[Do|Haces]]", "[[Does|Haces]]", "[[Are|Eres]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'Do' para preguntar con 'you'."
         }
       ]
     },
@@ -424,18 +345,18 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e17",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Articles a/an",
+    "topic": "Routine",
     "difficulty": "easy",
-    "transcript": "He is a student.",
+    "transcript": "I don't work on Sundays.",
     "content": {
-      "title": "Artículos: A / An",
-      "instructions": "Elige el artículo correcto.",
+      "title": "Negación",
+      "instructions": "Completa la oración negativa.",
       "questions": [
         {
-          "question": "[[He|Él]] [[is|es]] (_____) [[student|estudiante]].",
-          "options": ["[[a|un/una]]", "[[an|un/una]]"],
-          "correctAnswer": 0,
-          "explanation": "'Student' empieza con sonido consonántico."
+          "question": "[[I|Yo]] (_____) [[work|trabajo]] [[on|en]] [[Sundays|domingos]].",
+          "options": ["[[no|no]]", "[[not|no]]", "[[don't|no]]"],
+          "correctAnswer": 2,
+          "explanation": "Usamos 'don't' (do not) para negar en presente simple con 'I'."
         }
       ]
     },
@@ -444,64 +365,59 @@ export const UNIT_4_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u4-e18",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Articles a/an",
+    "topic": "Routine",
     "difficulty": "easy",
-    "transcript": "That is an umbrella.",
+    "transcript": "What do you do on weekends?",
     "content": {
-      "title": "Artículos: A / An",
-      "instructions": "Elige el artículo correcto.",
-      "questions": [
-        {
-          "question": "[[That|Ese]] [[is|es]] (_____) [[umbrella|paraguas]].",
-          "options": ["[[a|un/una]]", "[[an|un/una]]"],
-          "correctAnswer": 1,
-          "explanation": "'Umbrella' empieza con sonido vocálico."
-        }
-      ]
+      "title": "Fines de Semana",
+      "instructions": "Ordena las palabras.",
+      "correctSentence": "[[What|Qué]] [[do|haces]] [[you|tú]] [[do|hacer]] [[on|en]] [[weekends|fines de semana]]?",
+      "words": ["[[weekends|fines de semana]]?", "[[do|hacer]]", "[[do|haces]]", "[[you|tú]]", "[[What|Qué]]", "[[on|en]]"],
+      "explanation": "Pregunta común sobre tiempo libre."
     },
     "audioUrl": "audio/a1/unit-4/e18.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u4-e19",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Alphabet",
+    "topic": "Grammar",
     "difficulty": "easy",
-    "transcript": "Which letter comes after A?",
+    "transcript": "I sleep for eight hours.",
     "content": {
-      "title": "Orden del Alfabeto",
-      "instructions": "Elige la letra correcta.",
+      "title": "Duración",
+      "instructions": "Completa con la preposición correcta.",
       "questions": [
         {
-          "question": "[[Which|Cuál]] [[letter|letra]] [[comes|viene]] [[after|después de]] [[A|A]]?",
-          "options": ["[[B|B]]", "[[C|C]]", "[[D|D]]"],
+          "question": "[[I|Yo]] [[sleep|duermo]] (_____) [[eight|ocho]] [[hours|horas]].",
+          "options": ["[[for|por/durante]]", "[[at|a]]", "[[on|en]]"],
           "correctAnswer": 0,
-          "explanation": "B es la segunda letra del alfabeto."
+          "explanation": "Usamos 'for' para indicar duración."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-4/e19.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u4-e20",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Alphabet",
+    "topic": "Vocabulary",
     "difficulty": "easy",
-    "transcript": "Which letter comes before Z?",
+    "transcript": "I have a snack at 4 PM.",
     "content": {
-      "title": "Orden del Alfabeto",
-      "instructions": "Elige la letra correcta.",
+      "title": "Merienda",
+      "instructions": "Elige la palabra para 'merienda'.",
       "questions": [
         {
-          "question": "[[Which|Cuál]] [[letter|letra]] [[comes|viene]] [[before|antes de]] [[Z|Z]]?",
-          "options": ["[[X|X]]", "[[Y|Y]]", "[[W|W]]"],
+          "question": "[[I|Yo]] [[have|tengo]] [[a|un]] (_____) [[at|a las]] [[4|4]] [[PM|PM]].",
+          "options": ["[[dinner|cena]]", "[[snack|merienda/tentempié]]", "[[breakfast|desayuno]]"],
           "correctAnswer": 1,
-          "explanation": "Y es la letra anterior a la Z."
+          "explanation": "'Snack' es una comida pequeña entre horas."
         }
       ]
     },
@@ -510,42 +426,37 @@ export const UNIT_4_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u4-e21",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Spelling",
+    "topic": "Time",
     "difficulty": "easy",
-    "transcript": "Is 'Hello' spelled H-E-L-L-O?",
+    "transcript": "The meeting is at 10:30.",
     "content": {
-      "title": "Deletreo Correcto",
-      "instructions": "Responde a la pregunta.",
-      "questions": [
-        {
-          "question": "[[Is|Es]] '[[Hello|Hola]]' [[spelled|deletreado]] [[H-E-L-L-O|H-E-L-L-O]]?",
-          "options": ["[[Yes|Sí]]", "[[No|No]]"],
-          "correctAnswer": 0,
-          "explanation": "Hello se deletrea H-E-L-L-O."
-        }
-      ]
+      "title": "Horarios",
+      "instructions": "Ordena las palabras.",
+      "correctSentence": "[[The|La]] [[meeting|reunión]] [[is|es]] [[at|a las]] [[10:30|10:30]].",
+      "words": ["[[is|es]]", "[[meeting|reunión]]", "[[10:30|10:30]].", "[[The|La]]", "[[at|a las]]"],
+      "explanation": "Cómo decir a qué hora es un evento."
     },
     "audioUrl": "audio/a1/unit-4/e21.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u4-e22",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Spelling",
+    "topic": "Days",
     "difficulty": "easy",
-    "transcript": "What is the first letter of 'English'?",
+    "transcript": "What day is tomorrow?",
     "content": {
-      "title": "Letras Iniciales",
-      "instructions": "Identifica la primera letra.",
+      "title": "Mañana",
+      "instructions": "Completa la pregunta.",
       "questions": [
         {
-          "question": "[[What|Cuál]] [[is|es]] [[the|la]] [[first|primera]] [[letter|letra]] [[of|de]] '[[English|Inglés]]'?",
-          "options": ["[[A|A]]", "[[E|E]]", "[[I|I]]"],
-          "correctAnswer": 1,
-          "explanation": "English empieza con la letra E."
+          "question": "[[What|Qué]] [[day|día]] [[is|es]] (_____) ?",
+          "options": ["[[today|hoy]]", "[[yesterday|ayer]]", "[[tomorrow|mañana]]"],
+          "correctAnswer": 2,
+          "explanation": "Tomorrow significa mañana (el día después de hoy)."
         }
       ]
     },
@@ -556,42 +467,37 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e23",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Spelling",
+    "topic": "Routine",
     "difficulty": "easy",
-    "transcript": "How many vowels are in the word 'Apple'?",
+    "transcript": "I study English every Tuesday.",
     "content": {
-      "title": "Contando Vocales",
-      "instructions": "Cuenta las vocales en la palabra.",
+      "title": "Frecuencia",
+      "instructions": "Completa la oración.",
       "questions": [
         {
-          "question": "[[How|Cuántas]] [[many|muchas]] [[vowels|vocales]] [[are|hay]] [[in|en]] [[the|la]] [[word|palabra]] '[[Apple|Apple]]'?",
-          "options": ["[[One|Una]]", "[[Two|Dos]]", "[[Three|Tres]]"],
-          "correctAnswer": 1,
-          "explanation": "Las vocales son A y E."
+          "question": "[[I|Yo]] [[study|estudio]] [[English|Inglés]] (_____) [[Tuesday|Martes]].",
+          "options": ["[[every|cada]]", "[[all|todo]]", "[[on|en]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'every' para indicar repetición (cada)."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-4/e23.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u4-e24",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Spelling",
+    "topic": "Routine",
     "difficulty": "easy",
-    "transcript": "Is 'Cat' a short word?",
+    "transcript": "We sometimes go to the cinema.",
     "content": {
-      "title": "Longitud de Palabras",
-      "instructions": "Evalúa el tamaño de la palabra.",
-      "questions": [
-        {
-          "question": "[[Is|Es]] '[[Cat|Gato]]' [[a|una]] [[short|corta]] [[word|palabra]]?",
-          "options": ["[[Yes|Sí]]", "[[No|No]]"],
-          "correctAnswer": 0,
-          "explanation": "Cat solo tiene 3 letras."
-        }
-      ]
+      "title": "Cine",
+      "instructions": "Ordena las palabras.",
+      "correctSentence": "[[We|Nosotros]] [[sometimes|a veces]] [[go|vamos]] [[to|al]] [[the|la]] [[cinema|cine]].",
+      "words": ["[[cinema|cine]].", "[[sometimes|a veces]]", "[[go|vamos]]", "[[We|Nosotros]]", "[[to|al]]", "[[the|la]]"],
+      "explanation": "Posición del adverbio 'sometimes'."
     },
     "audioUrl": "audio/a1/unit-4/e24.mp3",
     "topicName": "Vocabulary"
@@ -600,18 +506,18 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e25",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Alphabet",
+    "topic": "Time",
     "difficulty": "easy",
-    "transcript": "Which is a capital letter?",
+    "transcript": "It's five past six.",
     "content": {
-      "title": "Mayúsculas y Minúsculas",
-      "instructions": "Elige la mayúscula.",
+      "title": "La Hora: Minutos",
+      "instructions": "¿Qué hora es las 6:05?",
       "questions": [
         {
-          "question": "[[Which|Cuál]] [[is|es]] [[a|una]] [[capital|mayúscula]] [[letter|letra]]?",
-          "options": ["[[a|a]]", "[[B|B]]", "[[c|c]]"],
-          "correctAnswer": 1,
-          "explanation": "B está en mayúscula."
+          "question": "[[It's|Es]] [[five|cinco]] (_____) [[six|seis]].",
+          "options": ["[[past|pasado]]", "[[to|para]]", "[[at|a]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'past' para minutos del 1 al 30."
         }
       ]
     },
@@ -622,18 +528,18 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e26",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Alphabet",
+    "topic": "Time",
     "difficulty": "easy",
-    "transcript": "Which is a small letter?",
+    "transcript": "It's ten to eight.",
     "content": {
-      "title": "Mayúsculas y Minúsculas",
-      "instructions": "Elige la minúscula.",
+      "title": "La Hora: Minutos",
+      "instructions": "¿Qué hora es las 7:50?",
       "questions": [
         {
-          "question": "[[Which|Cuál]] [[is|es]] [[a|una]] [[small|minúscula]] [[letter|letra]]?",
-          "options": ["[[D|D]]", "[[E|E]]", "[[f|f]]"],
-          "correctAnswer": 2,
-          "explanation": "f está en minúscula."
+          "question": "[[It's|Es]] [[ten|diez]] (_____) [[eight|ocho]].",
+          "options": ["[[past|pasado]]", "[[to|para]]", "[[at|a]]"],
+          "correctAnswer": 1,
+          "explanation": "Usamos 'to' para los minutos después del 30 (faltan para la siguiente)."
         }
       ]
     },
@@ -642,42 +548,37 @@ export const UNIT_4_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u4-e27",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Spelling",
+    "topic": "Routine",
     "difficulty": "easy",
-    "transcript": "Can you repeat the letter, please?",
+    "transcript": "Do they eat dinner at home?",
     "content": {
-      "title": "Peticiones en Clase",
-      "instructions": "Completa la petición.",
-      "questions": [
-        {
-          "question": "[[Can|Puedes]] [[you|tú]] (_____) [[the|la]] [[letter|letra]], [[please|por favor]]?",
-          "options": ["[[repeat|repeat]]", "[[read|read]]", "[[write|write]]"],
-          "correctAnswer": 0,
-          "explanation": "Repeat significa repetir."
-        }
-      ]
+      "title": "Cena en Casa",
+      "instructions": "Ordena las palabras.",
+      "correctSentence": "[[Do|Hacen]] [[they|ellos]] [[eat|comen]] [[dinner|cena]] [[at|en]] [[home|casa]]?",
+      "words": ["[[they|ellos]]", "[[dinner|cena]]", "[[eat|comen]]", "[[at|en]]", "[[home|casa]]?", "[[Do|Hacen]]"],
+      "explanation": "Pregunta sobre hábitos de comida."
     },
     "audioUrl": "audio/a1/unit-4/e27.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u4-e28",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Spelling",
+    "topic": "Grammar",
     "difficulty": "easy",
-    "transcript": "Please write your name.",
+    "transcript": "I read a book before bed.",
     "content": {
-      "title": "Instrucciones",
-      "instructions": "Elige el verbo correcto.",
+      "title": "Antes de",
+      "instructions": "Completa con 'antes de'.",
       "questions": [
         {
-          "question": "[[Please|Por favor]] (_____) [[your|tu]] [[name|nombre]].",
-          "options": ["[[say|say]]", "[[write|write]]", "[[listen|listen]]"],
+          "question": "[[I|Yo]] [[read|leo]] [[a|un]] [[book|libro]] (_____) [[bed|cama]].",
+          "options": ["[[after|después]]", "[[before|antes]]", "[[at|en]]"],
           "correctAnswer": 1,
-          "explanation": "Write significa escribir."
+          "explanation": "Before significa antes."
         }
       ]
     },
@@ -686,17 +587,22 @@ export const UNIT_4_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u4-e29",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Personal Info",
+    "topic": "Grammar",
     "difficulty": "easy",
-    "transcript": "What is your last name?",
+    "transcript": "I drink water after I wake up.",
     "content": {
-      "title": "Información Personal",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[What|Cuál]] [[is|es]] [[your|tu]] [[last|apellido]] [[name|nombre]]?",
-      "words": ["[[is|es]]", "[[your|tu]]", "[[What|Cuál]]", "[[name|nombre]]?", "[[last|apellido]]"],
-      "explanation": "Pregunta por el apellido."
+      "title": "Después de",
+      "instructions": "Completa con 'después de'.",
+      "questions": [
+        {
+          "question": "[[I|Yo]] [[drink|bebo]] [[water|agua]] (_____) [[I|yo]] [[wake|despierto]] [[up|arriba]].",
+          "options": ["[[before|antes]]", "[[after|después]]", "[[on|en]]"],
+          "correctAnswer": 1,
+          "explanation": "After significa después."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-4/e29.mp3",
     "topicName": "Grammar"
@@ -705,66 +611,81 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e30",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Spelling",
+    "topic": "Routine",
     "difficulty": "easy",
-    "transcript": "How do you spell your surname?",
+    "transcript": "You always listen to music.",
     "content": {
-      "title": "Deletreando Apellidos",
+      "title": "Música",
       "instructions": "Ordena las palabras.",
-      "correctSentence": "[[How|Cómo]] [[do|haces]] [[you|tú]] [[spell|deletreas]] [[your|tu]] [[surname|apellido]]?",
-      "words": ["[[surname|apellido]]?", "[[spell|deletreas]]", "[[do|haces]]", "[[How|Cómo]]", "[[your|tu]]", "[[you|tú]]"],
-      "explanation": "Surname es sinónimo de last name."
+      "correctSentence": "[[You|Tú]] [[always|siempre]] [[listen|escuchas]] [[to|a]] [[music|música]].",
+      "words": ["[[listen|escuchas]]", "[[always|siempre]]", "[[You|Tú]]", "[[to|a]]", "[[music|música]]."],
+      "explanation": "Listen to es la estructura correcta."
     },
     "audioUrl": "audio/a1/unit-4/e30.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u4-e31",
-    "type": "sentence-building",
+    "type": "flashcard",
     "level": "A1",
-    "topic": "Spelling",
+    "topic": "Adverbs",
     "difficulty": "easy",
-    "transcript": "My name is spelled S-A-M.",
+    "transcript": "Always. Usually. Often. Sometimes. Rarely. Never.",
     "content": {
-      "title": "Deletreando mi Nombre",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[My|Mi]] [[name|nombre]] [[is|es]] [[spelled|deletreado]] [[S-A-M|S-A-M]].",
-      "words": ["[[is|es]]", "[[spelled|deletreado]]", "[[S-A-M|S-A-M]].", "[[My|Mi]]", "[[name|nombre]]"],
-      "explanation": "Cómo se deletrea un nombre."
+      "title": "Adverbios de Frecuencia",
+      "instructions": "Aprende el orden de frecuencia.",
+      "items": [
+        { "front": "[[Always|100%]]", "back": "Siempre" },
+        { "front": "[[Usually|90%]]", "back": "Normalmente" },
+        { "front": "[[Often|70%]]", "back": "A menudo" },
+        { "front": "[[Sometimes|50%]]", "back": "A veces" },
+        { "front": "[[Rarely|10%]]", "back": "Rara vez" },
+        { "front": "[[Never|0%]]", "back": "Nunca" }
+      ]
     },
     "audioUrl": "audio/a1/unit-4/e31.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u4-e32",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Alphabet",
-    "difficulty": "easy",
-    "transcript": "There are five vowels in English.",
-    "content": {
-      "title": "Vocales en Inglés",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[There|Hay]] [[are|son]] [[five|cinco]] [[vowels|vocales]] [[in|en]] [[English|Inglés]].",
-      "words": ["[[are|son]]", "[[vowels|vocales]]", "[[There|Hay]]", "[[in|en]]", "[[English|Inglés]].", "[[five|cinco]]"],
-      "explanation": "A, E, I, O, U."
-    },
-    "audioUrl": "audio/a1/unit-4/e32.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u4-e33",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
     "topic": "Grammar",
     "difficulty": "easy",
-    "transcript": "Is this a pen or a pencil?",
+    "transcript": "We study in the afternoon.",
     "content": {
-      "title": "Preguntas de Objetos",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Is|Es]] [[this|esto]] [[a|un]] [[pen|bolígrafo]] [[or|o]] [[a|un]] [[pencil|lápiz]]?",
-      "words": ["[[this|esto]]", "[[a|un]]", "[[pen|bolígrafo]]", "[[pencil|lápiz]]?", "[[Is|Es]]", "[[or|o]]", "[[a|un]]"],
-      "explanation": "Elección entre dos objetos."
+      "title": "La Tarde",
+      "instructions": "Elige el momento del día.",
+      "questions": [
+        {
+          "question": "[[We|Nosotros]] [[study|estudiamos]] [[in|en]] [[the|la]] (_____) .",
+          "options": ["[[morning|mañana]]", "[[afternoon|tarde]]", "[[night|noche]]"],
+          "correctAnswer": 1,
+          "explanation": "Afternoon es el periodo después de comer hasta el atardecer."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-4/e32.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u4-e33",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Grammar",
+    "difficulty": "easy",
+    "transcript": "I drink milk at night.",
+    "content": {
+      "title": "La Noche",
+      "instructions": "Elige la preposición correcta.",
+      "questions": [
+        {
+          "question": "[[I|Yo]] [[drink|bebo]] [[milk|leche]] (_____) [[night|noche]].",
+          "options": ["[[in|en]]", "[[on|en]]", "[[at|en]]"],
+          "correctAnswer": 2,
+          "explanation": "Usamos 'at' con 'night'."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-4/e33.mp3",
     "topicName": "Grammar"
@@ -773,32 +694,37 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e34",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Grammar",
+    "topic": "Routine",
     "difficulty": "easy",
-    "transcript": "An orange is a fruit.",
+    "transcript": "I usually have a shower in the morning.",
     "content": {
-      "title": "Clasificación",
+      "title": "Ducha",
       "instructions": "Ordena las palabras.",
-      "correctSentence": "[[An|Una]] [[orange|naranja]] [[is|es]] [[a|una]] [[fruit|fruta]].",
-      "words": ["[[fruit|fruta]].", "[[is|es]]", "[[An|Una]]", "[[orange|naranja]]", "[[a|una]]"],
-      "explanation": "Uso de an y a."
+      "correctSentence": "[[I|Yo]] [[usually|normalmente]] [[have|tomo]] [[a|una]] [[shower|ducha]] [[in|en]] [[the|la]] [[morning|mañana]].",
+      "words": ["[[shower|ducha]]", "[[usually|normalmente]]", "[[the|la]]", "[[I|Yo]]", "[[morning|mañana]].", "[[have|tomo]]", "[[a|una]]", "[[in|en]]"],
+      "explanation": "Have a shower significa ducharse."
     },
     "audioUrl": "audio/a1/unit-4/e34.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u4-e35",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar",
+    "topic": "Routine",
     "difficulty": "easy",
-    "transcript": "This is a yellow ball.",
+    "transcript": "They don't have breakfast.",
     "content": {
-      "title": "Adjetivos y Artículos",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[This|Esto]] [[is|es]] [[a|una]] [[yellow|amarilla]] [[ball|pelota]].",
-      "words": ["[[is|es]]", "[[ball|pelota]].", "[[yellow|amarilla]]", "[[This|Esto]]", "[[a|una]]"],
-      "explanation": "El adjetivo va antes del sustantivo."
+      "title": "Sin Desayuno",
+      "instructions": "Completa la negación.",
+      "questions": [
+        {
+          "question": "[[They|Ellos]] (_____) [[have|tienen]] [[breakfast|desayuno]].",
+          "options": ["[[no|no]]", "[[don't|no]]", "[[doesn't|no]]"],
+          "correctAnswer": 1,
+          "explanation": "Don't es la forma negativa para 'they'."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-4/e35.mp3",
     "topicName": "Grammar"
@@ -807,18 +733,18 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e36",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Spelling",
+    "topic": "Grammar",
     "difficulty": "easy",
-    "transcript": "Can you spell 'book'?",
+    "transcript": "We eat together on Sundays.",
     "content": {
-      "title": "Prueba de Deletreo",
-      "instructions": "Elige el deletreo correcto.",
+      "title": "Juntos",
+      "instructions": "Elige la palabra 'juntos'.",
       "questions": [
         {
-          "question": "[[Can|Puedes]] [[you|tú]] [[spell|deletrear]] '[[book|libro]]'?",
-          "options": ["[[B-O-K|B-O-K]]", "[[B-O-O-K|B-O-O-K]]", "[[B-U-K|B-U-K]]"],
+          "question": "[[We|Nosotros]] [[eat|comemos]] (_____) [[on|en]] [[Sundays|domingos]].",
+          "options": ["[[alone|solo]]", "[[together|juntos]]", "[[happy|feliz]]"],
           "correctAnswer": 1,
-          "explanation": "Book se escribe con doble O."
+          "explanation": "Together significa juntos."
         }
       ]
     },
@@ -829,42 +755,37 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e37",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Spelling",
+    "topic": "Grammar",
     "difficulty": "easy",
-    "transcript": "How do you spell 'Apple'?",
+    "transcript": "Do you like Mondays?",
     "content": {
-      "title": "Prueba de Deletreo",
-      "instructions": "Elige el deletreo correcto.",
+      "title": "Gustos",
+      "instructions": "Completa la pregunta.",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[do|haces]] [[you|tú]] [[spell|deletrear]] '[[Apple|manzana]]'?",
-          "options": ["[[A-P-L-E|A-P-L-E]]", "[[A-P-P-E-L|A-P-P-E-L]]", "[[A-P-P-L-E|A-P-P-L-E]]"],
-          "correctAnswer": 2,
-          "explanation": "Apple tiene doble P."
+          "question": "(_____) [[you|tú]] [[like|gustar]] [[Mondays|lunes]]?",
+          "options": ["[[Do|Haces]]", "[[Is|Es]]", "[[Are|Son]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos el auxiliar 'Do' para preguntas de sí/no."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-4/e37.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u4-e38",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Spelling",
+    "topic": "Routine",
     "difficulty": "easy",
-    "transcript": "Is 'House' spelled with an S or a Z?",
+    "transcript": "I sometimes work from home.",
     "content": {
-      "title": "Dudas de Deletreo",
-      "instructions": "Elige la letra correcta.",
-      "questions": [
-        {
-          "question": "[[Is|Está]] '[[House|Casa]]' [[spelled|deletreado]] [[with|con]] [[an|una]] [[S|S]] [[or|o]] [[a|una]] [[Z|Z]]?",
-          "options": ["[[S|S]]", "[[Z|Z]]"],
-          "correctAnswer": 0,
-          "explanation": "House termina en S-E."
-        }
-      ]
+      "title": "Teletrabajo",
+      "instructions": "Ordena las palabras.",
+      "correctSentence": "[[I|Yo]] [[sometimes|a veces]] [[work|trabajo]] [[from|desde]] [[home|casa]].",
+      "words": ["[[work|trabajo]]", "[[home|casa]].", "[[sometimes|a veces]]", "[[from|desde]]", "[[I|Yo]]"],
+      "explanation": "Work from home significa trabajar desde casa."
     },
     "audioUrl": "audio/a1/unit-4/e38.mp3",
     "topicName": "Vocabulary"
@@ -873,18 +794,18 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e39",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Spelling",
+    "topic": "Vocabulary",
     "difficulty": "easy",
-    "transcript": "What is the last letter of 'Alphabet'?",
+    "transcript": "I am very busy today.",
     "content": {
-      "title": "Letras Finales",
-      "instructions": "Identifica la última letra.",
+      "title": "Ocupado",
+      "instructions": "Elige la palabra 'ocupado'.",
       "questions": [
         {
-          "question": "[[What|Cuál]] [[is|es]] [[the|la]] [[last|última]] [[letter|letra]] [[of|de]] '[[Alphabet|Alfabeto]]'?",
-          "options": ["[[T|T]]", "[[D|D]]", "[[E|E]]"],
-          "correctAnswer": 0,
-          "explanation": "Alphabet termina en T."
+          "question": "[[I|Yo]] [[am|estoy]] [[very|muy]] (_____) [[today|hoy]].",
+          "options": ["[[free|libre]]", "[[busy|ocupado]]", "[[late|tarde]]"],
+          "correctAnswer": 1,
+          "explanation": "Busy significa ocupado."
         }
       ]
     },
@@ -893,138 +814,144 @@ export const UNIT_4_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u4-e40",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Personal Info",
-    "difficulty": "easy",
-    "transcript": "My last name is Garcia.",
-    "content": {
-      "title": "Mi Apellido",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[My|Mi]] [[last|apellido]] [[name|nombre]] [[is|es]] [[Garcia|García]].",
-      "words": ["[[is|es]]", "[[My|Mi]]", "[[Garcia|García]].", "[[name|nombre]]", "[[last|apellido]]"],
-      "explanation": "Estructura básica para dar el apellido."
-    },
-    "audioUrl": "audio/a1/unit-4/e40.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u4-e41",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Spelling",
-    "difficulty": "easy",
-    "transcript": "Can you spell your email address?",
-    "content": {
-      "title": "Deletreando el Email",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Can|Puedes]] [[you|tú]] [[spell|deletrear]] [[your|tu]] [[email|correo]] [[address|dirección]]?",
-      "words": ["[[your|tu]]", "[[address|dirección]]?", "[[spell|deletrear]]", "[[Can|Puedes]]", "[[email|correo]]", "[[you|tú]]"],
-      "explanation": "Pregunta útil en contextos administrativos."
-    },
-    "audioUrl": "audio/a1/unit-4/e41.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u4-e42",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Spelling",
-    "difficulty": "easy",
-    "transcript": "I am a new student here.",
-    "content": {
-      "title": "Presentación",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[I|Yo]] [[am|soy]] [[a|un]] [[new|nuevo]] [[student|estudiante]] [[here|aquí]].",
-      "words": ["[[am|soy]]", "[[here|aquí]].", "[[I|Yo]]", "[[new|nuevo]]", "[[student|estudiante]]", "[[a|un]]"],
-      "explanation": "Uso del artículo 'a' antes de adjetivo."
-    },
-    "audioUrl": "audio/a1/unit-4/e42.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u4-e43",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar",
+    "topic": "Vocabulary",
     "difficulty": "easy",
-    "transcript": "Is it a cat?",
+    "transcript": "Wait for the bus.",
     "content": {
-      "title": "Preguntas de Sí/No",
-      "instructions": "Completa la pregunta.",
+      "title": "Esperar",
+      "instructions": "Completa la frase.",
       "questions": [
         {
-          "question": "(_____) [[it|ello]] [[a|un]] [[cat|gato]]?",
-          "options": ["[[Is|Es]]", "[[Are|Son]]", "[[Am|Soy]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'Is' para la tercera persona del singular (it)."
+          "question": "(_____) [[for|por]] [[the|el]] [[bus|autobús]].",
+          "options": ["[[Watch|Mirar]]", "[[Wait|Esperar]]", "[[Go|Ir]]"],
+          "correctAnswer": 1,
+          "explanation": "Wait for significa esperar a algo/alguien."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-4/e43.mp3",
+    "audioUrl": "audio/a1/unit-4/e40.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u4-e41",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Adverbs",
+    "difficulty": "easy",
+    "transcript": "Where do you always go?",
+    "content": {
+      "title": "Preguntas con Adverbios",
+      "instructions": "Completa la pregunta.",
+      "questions": [
+        {
+          "question": "[[Where|Dónde]] [[do|haces]] [[you|tú]] (_____) [[go|ir]]?",
+          "options": ["[[always|siempre]]", "[[every|cada]]", "[[never|nunca]]"],
+          "correctAnswer": 0,
+          "explanation": "Posición del adverbio entre sujeto y verbo."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-4/e41.mp3",
     "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u4-e42",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Adverbs",
+    "difficulty": "easy",
+    "transcript": "They usually arrive at 9:00.",
+    "content": {
+      "title": "Llegar",
+      "instructions": "Completa la oración.",
+      "questions": [
+        {
+          "question": "[[They|Ellos]] [[usually|normalmente]] (_____) [[at|a las]] [[9:00|9:00]].",
+          "options": ["[[finish|terminan]]", "[[arrive|llegan]]", "[[leave|salen]]"],
+          "correctAnswer": 1,
+          "explanation": "Arrive significa llegar."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-4/e42.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u4-e43",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Routine",
+    "difficulty": "easy",
+    "transcript": "I leave my office at 5 PM.",
+    "content": {
+      "title": "Salir del Trabajo",
+      "instructions": "Ordena las palabras.",
+      "correctSentence": "[[I|Yo]] [[leave|salgo de]] [[my|mi]] [[office|oficina]] [[at|a las]] [[5|5]] [[PM|PM]].",
+      "words": ["[[office|oficina]]", "[[leave|salgo de]]", "[[5|5]]", "[[at|a las]]", "[[I|Yo]]", "[[my|mi]]", "[[PM|PM]]."],
+      "explanation": "Leave significa salir o marcharse de un lugar."
+    },
+    "audioUrl": "audio/a1/unit-4/e43.mp3",
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u4-e44",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar",
+    "topic": "Routine",
     "difficulty": "easy",
-    "transcript": "You are a teacher.",
+    "transcript": "Do you eat meat?",
     "content": {
-      "title": "Afirmaciones",
-      "instructions": "Completa la oración.",
+      "title": "Hábitos Alimenticios",
+      "instructions": "Completa la pregunta.",
       "questions": [
         {
-          "question": "[[You|Tú]] (_____) [[a|un]] [[teacher|profesor]].",
-          "options": ["[[is|es]]", "[[are|eres]]", "[[am|soy]]"],
-          "correctAnswer": 1,
-          "explanation": "Usamos 'are' para la segunda persona (you)."
+          "question": "[[Do|Haces]] [[you|tú]] [[eat|comes]] (_____) ?",
+          "options": ["[[meat|carne]]", "[[water|agua]]", "[[tea|té]]"],
+          "correctAnswer": 0,
+          "explanation": "Meat es carne (alimento sólido)."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-4/e44.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u4-e45",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar",
+    "topic": "Routine",
     "difficulty": "easy",
-    "transcript": "I am an artist.",
+    "transcript": "We often walk to the park.",
     "content": {
-      "title": "Afirmaciones",
+      "title": "Caminar",
       "instructions": "Completa la oración.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[an|un]] [[artist|artista]].",
-          "options": ["[[is|es]]", "[[are|eres]]", "[[am|soy]]"],
-          "correctAnswer": 2,
-          "explanation": "Usamos 'am' para la primera persona (I)."
+          "question": "[[We|Nosotros]] [[often|a menudo]] (_____) [[to|al]] [[the|la]] [[park|parque]].",
+          "options": ["[[walk|caminamos]]", "[[drive|conducimos]]", "[[fly|volamos]]"],
+          "correctAnswer": 0,
+          "explanation": "Walk significa caminar o ir a pie."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-4/e45.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u4-e46",
-    "type": "flashcard",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Vowels",
+    "topic": "Routine",
     "difficulty": "easy",
-    "transcript": "A. E. I. O. U.",
+    "transcript": "I sometimes read the news.",
     "content": {
-      "title": "Las Vocales",
-      "instructions": "Escucha y repite las vocales.",
-      "items": [
-        { "front": "[[A|A]]", "back": "A" },
-        { "front": "[[E|E]]", "back": "E" },
-        { "front": "[[I|I]]", "back": "I" },
-        { "front": "[[O|O]]", "back": "O" },
-        { "front": "[[U|U]]", "back": "U" }
-      ]
+      "title": "Noticias",
+      "instructions": "Ordena las palabras.",
+      "correctSentence": "[[I|Yo]] [[sometimes|a veces]] [[read|leo]] [[the|las]] [[news|noticias]].",
+      "words": ["[[news|noticias]].", "[[read|leo]]", "[[sometimes|a veces]]", "[[I|Yo]]", "[[the|las]]"],
+      "explanation": "Read the news significa leer las noticias."
     },
     "audioUrl": "audio/a1/unit-4/e46.mp3",
     "topicName": "Vocabulary"
@@ -1033,18 +960,18 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e47",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Spelling",
+    "topic": "Routine",
     "difficulty": "easy",
-    "transcript": "What letter is this? 'G'.",
+    "transcript": "Do you go to the gym?",
     "content": {
-      "title": "Identificando Letras",
-      "instructions": "Elige el nombre de la letra.",
+      "title": "Deporte",
+      "instructions": "Completa la pregunta.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[letter|letra]] [[is|es]] [[this|esta]]? [[G|G]].",
-          "options": ["[[Gee|G]]", "[[Jee|J]]", "[[Hee|H]]"],
-          "correctAnswer": 0,
-          "explanation": "La letra G se pronuncia 'Gee'."
+          "question": "[[Do|Haces]] [[you|tú]] [[go|vas]] [[to|al]] [[the|el]] (_____) ?",
+          "options": ["[[office|oficina]]", "[[gym|gimnasio]]", "[[bed|cama]]"],
+          "correctAnswer": 1,
+          "explanation": "Gym es gimnasio."
         }
       ]
     },
@@ -1055,18 +982,18 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e48",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Spelling",
+    "topic": "Routine",
     "difficulty": "easy",
-    "transcript": "What letter is this? 'J'.",
+    "transcript": "I check my email every morning.",
     "content": {
-      "title": "Identificando Letras",
-      "instructions": "Elige el nombre de la letra.",
+      "title": "Correo Electrónico",
+      "instructions": "Completa la oración.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[letter|letra]] [[is|es]] [[this|esta]]? [[J|J]].",
-          "options": ["[[Gee|G]]", "[[Jay|J]]", "[[Kay|K]]"],
-          "correctAnswer": 1,
-          "explanation": "La letra J se pronuncia 'Jay'."
+          "question": "[[I|Yo]] (_____) [[my|mi]] [[email|correo]] [[every|cada]] [[morning|mañana]].",
+          "options": ["[[check|reviso]]", "[[write|escribo]]", "[[send|envío]]"],
+          "correctAnswer": 0,
+          "explanation": "Check significa revisar."
         }
       ]
     },
@@ -1075,42 +1002,42 @@ export const UNIT_4_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u4-e49",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Spelling",
+    "topic": "Routine",
     "difficulty": "easy",
-    "transcript": "What letter is this? 'H'.",
+    "transcript": "They usually talk on the phone.",
     "content": {
-      "title": "Identificando Letras",
-      "instructions": "Elige el nombre de la letra.",
-      "questions": [
-        {
-          "question": "[[What|Qué]] [[letter|letra]] [[is|es]] [[this|esta]]? [[H|H]].",
-          "options": ["[[Aitch|H]]", "[[Eight|8]]", "[[High|Alto]]"],
-          "correctAnswer": 0,
-          "explanation": "La letra H se pronuncia 'Aitch'."
-        }
-      ]
+      "title": "Teléfono",
+      "instructions": "Ordena las palabras.",
+      "correctSentence": "[[They|Ellos]] [[usually|normalmente]] [[talk|hablan]] [[on|en]] [[the|el]] [[phone|teléfono]].",
+      "words": ["[[phone|teléfono]].", "[[talk|hablan]]", "[[usually|normalmente]]", "[[They|Ellos]]", "[[on|en]]", "[[the|el]]"],
+      "explanation": "Talk on the phone significa hablar por teléfono."
     },
     "audioUrl": "audio/a1/unit-4/e49.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u4-e50",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Spelling",
+    "topic": "Routine",
     "difficulty": "easy",
-    "transcript": "Listen and spell the word.",
+    "transcript": "I never drink tea.",
     "content": {
-      "title": "Instrucción de Clase",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Listen|Escucha]] [[and|y]] [[spell|deletrea]] [[the|la]] [[word|palabra]].",
-      "words": ["[[and|y]]", "[[the|la]]", "[[Listen|Escucha]]", "[[word|palabra]].", "[[spell|deletrea]]"],
-      "explanation": "Instrucción común para ejercicios de escucha."
+      "title": "Nunca",
+      "instructions": "Completa la negación absoluta.",
+      "questions": [
+        {
+          "question": "[[I|Yo]] (_____) [[drink|bebo]] [[tea|té]].",
+          "options": ["[[don't|no]]", "[[never|nunca]]", "[[not|no]]"],
+          "correctAnswer": 1,
+          "explanation": "'Never' ya es una negación, no necesita 'don't'."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-4/e50.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u4-e51",
@@ -1118,16 +1045,16 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "easy",
-    "transcript": "Reading text about Mark.",
+    "transcript": "Reading text about David.",
     "content": {
-      "title": "Lectura: Mark's Information",
+      "title": "Lectura: David's Busy Day",
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "What is Mark's last name? *\"Hello! My name is Mark. My last name is Smith. It is spelled S-M-I-T-H. I am a doctor from London.\"*",
-          "options": ["[[Smith|Smith]]", "[[Smyth|Smyth]]", "[[Smit|Smit]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice 'My last name is Smith'."
+          "question": "What time does David get up? *\"David is a teacher. He gets up at 6:30 every morning. He has a coffee and then he goes to work by train. He usually arrives at school at 8:00. He finishes work at 4:00 PM. In the evening, David watches TV or reads a book. He goes to bed at 10:30.\"*",
+          "options": ["[[6:00|6:00]]", "[[6:30|6:30]]", "[[7:00|7:00]]"],
+          "correctAnswer": 1,
+          "explanation": "El texto dice 'He gets up at 6:30'."
         }
       ]
     },
@@ -1140,16 +1067,16 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "easy",
-    "transcript": "Reading text about Mark.",
+    "transcript": "Reading text about David.",
     "content": {
-      "title": "Lectura: Mark's Information",
+      "title": "Lectura: David's Busy Day",
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "How do you spell his last name? *\"Hello! My name is Mark. My last name is Smith. It is spelled S-M-I-T-H. I am a doctor from London.\"*",
-          "options": ["[[S-M-I-T-H|S-M-I-T-H]]", "[[S-M-Y-T-H|S-M-Y-T-H]]", "[[S-M-I-T|S-M-I-T]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto deletrea Smith como S-M-I-T-H."
+          "question": "How does David go to work? *\"David is a teacher. He gets up at 6:30 every morning. He has a coffee and then he goes to work by train. He usually arrives at school at 8:00. He finishes work at 4:00 PM. In the evening, David watches TV or reads a book. He goes to bed at 10:30.\"*",
+          "options": ["[[By bus|En autobús]]", "[[By car|En coche]]", "[[By train|En tren]]"],
+          "correctAnswer": 2,
+          "explanation": "El texto menciona 'he goes to work by train'."
         }
       ]
     },
@@ -1162,16 +1089,16 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "easy",
-    "transcript": "Reading text about Mark.",
+    "transcript": "Reading text about David.",
     "content": {
-      "title": "Lectura: Mark's Information",
+      "title": "Lectura: David's Busy Day",
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "Where is Mark from? *\"Hello! My name is Mark. My last name is Smith. It is spelled S-M-I-T-H. I am a doctor from London.\"*",
-          "options": ["[[Paris|París]]", "[[London|Londres]]", "[[New York|Nueva York]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice 'I am a doctor from London'."
+          "question": "When does David finish work? *\"David is a teacher. He gets up at 6:30 every morning. He has a coffee and then he goes to work by train. He usually arrives at school at 8:00. He finishes work at 4:00 PM. In the evening, David watches TV or reads a book. He goes to bed at 10:30.\"*",
+          "options": ["[[4:00 PM|4:00 PM]]", "[[5:00 PM|5:00 PM]]", "[[8:00 AM|8:00 AM]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice 'He finishes work at 4:00 PM'."
         }
       ]
     },
@@ -1184,16 +1111,16 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "easy",
-    "transcript": "Reading text about Elena.",
+    "transcript": "Reading text about Sarah.",
     "content": {
-      "title": "Lectura: Elena's New Job",
+      "title": "Lectura: Sarah's Weekend",
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "What is Elena's surname? *\"Elena is an artist. She is from Italy. Her surname is Rossi. It is R-O-S-S-I. She has an office in Milan. Elena is very happy today.\"*",
-          "options": ["[[Rossi|Rossi]]", "[[Rosa|Rosa]]", "[[Ruso|Ruso]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto indica 'Her surname is Rossi'."
+          "question": "Does Sarah work on weekends? *\"On Saturdays, Sarah gets up late, at 10:00 AM. She has a big breakfast with her family. In the afternoon, they sometimes go to the park or visit friends. On Sundays, she always stays at home and relaxes. She never works on the weekend. She loves her free time.\"*",
+          "options": ["[[Yes, she does|Sí]]", "[[No, she never works on weekends|No]]"],
+          "correctAnswer": 1,
+          "explanation": "El texto dice 'She never works on the weekend'."
         }
       ]
     },
@@ -1206,16 +1133,16 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "easy",
-    "transcript": "Reading text about Elena.",
+    "transcript": "Reading text about Sarah.",
     "content": {
-      "title": "Lectura: Elena's New Job",
+      "title": "Lectura: Sarah's Weekend",
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "Is Elena a doctor? *\"Elena is an artist. She is from Italy. Her surname is Rossi. It is R-O-S-S-I. She has an office in Milan. Elena is very happy today.\"*",
-          "options": ["[[Yes, she is|Sí]]", "[[No, she is an artist|No]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice 'Elena is an artist'."
+          "question": "What does Sarah do on Sunday? *\"On Saturdays, Sarah gets up late, at 10:00 AM. She has a big breakfast with her family. In the afternoon, they sometimes go to the park or visit friends. On Sundays, she always stays at home and relaxes. She never works on the weekend. She loves her free time.\"*",
+          "options": ["[[She goes to the park|Va al parque]]", "[[She visits friends|Visita amigos]]", "[[She stays at home and relaxes|Se queda en casa y se relaja]]"],
+          "correctAnswer": 2,
+          "explanation": "El texto dice 'On Sundays, she always stays at home and relaxes'."
         }
       ]
     },
@@ -1228,16 +1155,16 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "easy",
-    "transcript": "Reading text about Elena.",
+    "transcript": "Reading text about Sarah.",
     "content": {
-      "title": "Lectura: Elena's New Job",
+      "title": "Lectura: Sarah's Weekend",
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "Where is her office? *\"Elena is an artist. She is from Italy. Her surname is Rossi. It is R-O-S-S-I. She has an office in Milan. Elena is very happy today.\"*",
-          "options": ["[[Rome|Roma]]", "[[Milan|Milán]]", "[[Venice|Venecia]]"],
+          "question": "What time does she get up on Saturday? *\"On Saturdays, Sarah gets up late, at 10:00 AM. She has a big breakfast with her family. In the afternoon, they sometimes go to the park or visit friends. On Sundays, she always stays at home and relaxes. She never works on the weekend. She loves her free time.\"*",
+          "options": ["[[8:00 AM|8:00 AM]]", "[[10:00 AM|10:00 AM]]", "[[7:00 AM|7:00 AM]]"],
           "correctAnswer": 1,
-          "explanation": "El texto menciona 'She has an office in Milan'."
+          "explanation": "El texto indica 'Sarah gets up late, at 10:00 AM'."
         }
       ]
     },
@@ -1250,16 +1177,16 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "easy",
-    "transcript": "Reading text about Elena.",
+    "transcript": "Reading text about Alex.",
     "content": {
-      "title": "Lectura: Elena's New Job",
+      "title": "Lectura: Alex's Night Shift",
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "How do you spell her surname? *\"Elena is an artist. She is from Italy. Her surname is Rossi. It is R-O-S-S-I. She has an office in Milan. Elena is very happy today.\"*",
-          "options": ["[[R-O-S-I|R-O-S-I]]", "[[R-O-S-S-I|R-O-S-S-I]]", "[[R-O-Z-I|R-O-Z-I]]"],
+          "question": "When does Alex sleep? *\"Alex is a nurse. He works at night. He goes to the hospital at 8:00 PM and finishes at 6:00 AM. He eats breakfast at 7:00 AM and then he sleeps for seven hours. He usually wakes up at 3:00 PM. He has a snack and then he goes to the gym.\"*",
+          "options": ["[[At night|Por la noche]]", "[[During the day|Durante el día]]", "[[He never sleeps|No duerme]]"],
           "correctAnswer": 1,
-          "explanation": "El deletreo es R-O-S-S-I."
+          "explanation": "Como trabaja de noche, duerme durante el día (después de desayunar a las 7:00 AM)."
         }
       ]
     },
@@ -1272,20 +1199,20 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "easy",
-    "transcript": "Reading text about a classroom.",
+    "transcript": "Reading text about Alex.",
     "content": {
-      "title": "Lectura: The Classroom",
+      "title": "Lectura: Alex's Night Shift",
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "What is on the table? *\"This is a classroom. There is a teacher and ten students. On the table, there is a book and an orange. The teacher has a pencil. The word 'Alphabet' is on the board. It is a long word.\"*",
-          "options": ["[[A pencil|Un lápiz]]", "[[A book and an orange|Un libro y una naranja]]", "[[A student|Un estudiante]]"],
+          "question": "Where does Alex go after he wakes up? *\"Alex is a nurse. He works at night. He goes to the hospital at 8:00 PM and finishes at 6:00 AM. He eats breakfast at 7:00 AM and then he sleeps for seven hours. He usually wakes up at 3:00 PM. He has a snack and then he goes to the gym.\"*",
+          "options": ["[[To the hospital|Al hospital]]", "[[To the gym|Al gimnasio]]", "[[To bed|A la cama]]"],
           "correctAnswer": 1,
-          "explanation": "El texto dice 'On the table, there is a book and an orange'."
+          "explanation": "El texto dice 'He usually wakes up at 3:00 PM... then he goes to the gym'."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-4/e58.mp3",
+    "audioUrl": "audio/a1/unit-4/e57.mp3",
     "topicName": "Reading"
   },
   {
@@ -1294,20 +1221,20 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "easy",
-    "transcript": "Reading text about a classroom.",
+    "transcript": "Reading text about Alex.",
     "content": {
-      "title": "Lectura: The Classroom",
+      "title": "Lectura: Alex's Night Shift",
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "Is the word 'Alphabet' short? *\"This is a classroom. There is a teacher and ten students. On the table, there is a book and an orange. The teacher has a pencil. The word 'Alphabet' is on the board. It is a long word.\"*",
-          "options": ["[[Yes, it is|Sí]]", "[[No, it is a long word|No]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice 'It is a long word'."
+          "question": "What is Alex's job? *\"Alex is a nurse. He works at night. He goes to the hospital at 8:00 PM and finishes at 6:00 AM. He eats breakfast at 7:00 AM and then he sleeps for seven hours. He usually wakes up at 3:00 PM. He has a snack and then he goes to the gym.\"*",
+          "options": ["[[Teacher|Profesor]]", "[[Doctor|Doctor]]", "[[Nurse|Enfermero]]"],
+          "correctAnswer": 2,
+          "explanation": "El texto comienza con 'Alex is a nurse'."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-4/e59.mp3",
+    "audioUrl": "audio/a1/unit-4/e57.mp3",
     "topicName": "Reading"
   },
   {
@@ -1316,16 +1243,16 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "easy",
-    "transcript": "Reading text about a classroom.",
+    "transcript": "Reading text about a typical Monday.",
     "content": {
-      "title": "Lectura: The Classroom",
+      "title": "Lectura: A Typical Monday",
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "What does the teacher have? *\"This is a classroom. There is a teacher and ten students. On the table, there is a book and an orange. The teacher has a pencil. The word 'Alphabet' is on the board. It is a long word.\"*",
-          "options": ["[[An orange|Una naranja]]", "[[A pencil|Un lápiz]]", "[[A book|Un libro]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto menciona 'The teacher has a pencil'."
+          "question": "Is Monday a busy day? *\"Mondays are very busy for me. I wake up early and go to work at 8:30. I have many meetings and I check many emails. I don't have time for a big lunch, so I have a quick snack. I finish work late, at 6:30 PM. I am usually very tired on Monday night.\"*",
+          "options": ["[[Yes, it is|Sí]]", "[[No, it is a relax day|No]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto empieza diciendo 'Mondays are very busy for me'."
         }
       ]
     },
