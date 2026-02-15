@@ -29,11 +29,14 @@
 1. [x] Fix missing text in Reading Comprehension exercises by updating `ExerciseRenderer.tsx` to implement a two-phase display: Reading Phase (Text only) and Question Phase (Questions).
 2. [x] Ensure pedagogical logic in reading questions (avoiding triviality) and correct grouping of questions.
 
+### [x] Step: Course Specifications Documentation
+1. [x] Create `src/content/cursos/ingles-a1/course-specifications.md` with detailed academic objectives for all 60 units (Grammar, Vocabulary, Reading).
+
 ### [ ] Step: Audit and Fix Other Duplications
 1. [x] Audit Units 1-25 to identify content duplications or syllabus misalignments.
 2. [ ] Refactor identified units to match the syllabus (60 exercises each):
-    - [ ] **Unit 6**: Family Members & Personal Info (REFACTORING READING SECTION)
-    - [ ] **Unit 7**: Colors & Physical Descriptions
+    - [x] **Unit 6**: Family Members & Personal Info (Done)
+    - [x] **Unit 7**: Colors & Physical Descriptions (Done)
     - [x] **Unit 8**: Numbers 20-100 (Prices, Ages, Phone numbers) (Checked and aligned)
     - [ ] **Unit 9**: Jobs & Occupations
     - [ ] **Unit 10**: Module 1 Review & Assessment
