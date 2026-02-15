@@ -122,10 +122,9 @@ export async function middleware(request: NextRequest) {
     return response;
   }
 
-  // Protección para la zona /dashboard, /curso, /cursos, /aula, y /app
+  // Protección para la zona /dashboard, /cursos, /aula, y /app
   const isProtectedArea = 
     pathname.startsWith("/dashboard") || 
-    pathname.startsWith("/curso") || 
     pathname.startsWith("/cursos") || 
     pathname.startsWith("/aula") || 
     pathname.startsWith("/app");

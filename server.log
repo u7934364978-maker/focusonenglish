@@ -1,0 +1,36 @@
+
+> focus-english@1.0.0 dev
+> next dev -p 5436 -H 127.0.0.1
+
+ ⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /Users/lidia/Documents/focusonenglish/package-lock.json as the root directory.
+ To silence this warning, set `outputFileTracingRoot` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/output#caveats for more information.
+ Detected additional lockfiles: 
+   * /Users/lidia/Documents/focusonenglish/focusonenglish/package-lock.json
+
+   ▲ Next.js 15.5.11
+   - Local:        http://127.0.0.1:5436
+   - Network:      http://127.0.0.1:5436
+   - Environments: .env
+
+ ✓ Starting...
+ ⚠ Mismatching @next/swc version, detected: 15.5.7 while Next.js is on 15.5.11. Please ensure these match
+ ✓ Ready in 1531ms
+ ✓ Compiled /middleware in 177ms (164 modules)
+ ○ Compiling /debug/a1-preview/[unitId] ...
+ ✓ Compiled /debug/a1-preview/[unitId] in 1778ms (2331 modules)
+Supabase Browser Client Initializing with URL: https://nprqtjljoekoirlrjxlh.supabase.co
+ GET /curso/ingles-a1 404 in 2212ms
+ GET /debug/a1-preview/unit-1 200 in 3294ms
+ GET /debug/a1-preview/unit-1 200 in 3296ms
+ GET /curso/ingles-a2 404 in 166ms
+ ○ Compiling /cuenta/login ...
+ ✓ Compiled /cuenta/login in 1145ms (2345 modules)
+Supabase Browser Client Initializing with URL: https://nprqtjljoekoirlrjxlh.supabase.co
+ GET /cuenta/login?next=%2Fdashboard%2Fgeneral%2Fa1 200 in 1439ms
+ GET /debug/a1-preview/unit-1 200 in 466ms
+ GET /curso/ingles-a1 404 in 489ms
+ GET /debug/a1-preview/unit-1 200 in 433ms
+ GET /curso/ingles-a2 404 in 195ms
+[?25h

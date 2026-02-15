@@ -1,0 +1,43 @@
+# Full SDD workflow
+
+## Workflow Steps
+
+### [x] Step: Requirements
+
+Create a Product Requirements Document (PRD) based on the feature description.
+
+1. Review existing codebase to understand current architecture and patterns
+2. Analyze the feature definition and identify unclear aspects
+3. Ask the user for clarifications on aspects that significantly impact scope or user experience
+4. Make reasonable decisions for minor details based on context and conventions
+5. If user can't clarify, make a decision, state the assumption, and continue
+
+Save the PRD to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/77eadbbd-8a4d-4f4a-898c-dcc22e1f3bcd/requirements.md`.
+
+### [x] Step: Technical Specification
+
+Create a technical specification based on the PRD in `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/77eadbbd-8a4d-4f4a-898c-dcc22e1f3bcd/requirements.md`.
+
+### [x] Step: Planning
+
+Create a detailed implementation plan based on `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/77eadbbd-8a4d-4f4a-898c-dcc22e1f3bcd/spec.md`.
+
+### [x] Step: Implementation
+
+1. **Delete legacy routes**: Remove `src/app/curso` and `src/app/dashboard/general`.
+2. **Expand Unit 1 (A1)**:
+    - Update `src/lib/course/a1/unit-1.ts` to include 60 exercises.
+    - Add Reading Comprehension exercises (simple A1 texts).
+    - Maintain "Hello! Introductions" theme with expanded vocabulary (countries, professions, feelings).
+3. **Verify Implementation**:
+    - Check `/debug/a1-preview/unit-1` in the browser.
+    - Ensure all links in `/debug` are functional.
+
+### [x] Step: Test Plan Approval
+- **Framework**: Playwright.
+- **Scope**: Verify that `/debug/a1-preview/unit-1` contains 60 exercises and that legacy routes are gone (404).
+- **Primary Flows**: Navigation between exercises, completion of reading exercises.
+
+### [x] Step: Running Tests
+- Ran `npm run test:e2e e2e/unit-1-expansion.spec.ts`.
+- Results: All 3 tests passed in chromium.

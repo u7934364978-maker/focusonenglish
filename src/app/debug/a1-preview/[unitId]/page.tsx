@@ -38,7 +38,7 @@ export default function UnitPreviewPage() {
     <div className="min-h-screen bg-slate-50">
       <nav className="bg-white border-b p-4 flex justify-between items-center sticky top-0 z-50">
         <div className="flex items-center gap-4">
-          <Link href="/curso/ingles-a1" className="p-2 hover:bg-slate-100 rounded-full transition-colors">
+          <Link href="/" className="p-2 hover:bg-slate-100 rounded-full transition-colors">
             <Home className="w-6 h-6 text-slate-600" />
           </Link>
           <h1 className="font-black text-xl text-slate-800 uppercase tracking-tight">
