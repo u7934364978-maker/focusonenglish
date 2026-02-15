@@ -170,14 +170,28 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
     - Ran `npm run test:e2e:chromium e2e/unit-11-expansion.spec.ts`.
     - Results: All tests passed.
 
-### [ ] Step: Expand Unit 12 (A1)
-1. **Analyze Unit 12**: Current content.
+### [x] Step: Expand Unit 12 (A1)
+1. **Analyze Unit 12**: Current content focused on Days of the Week.
 2. **Expand to 60 exercises**:
     - Theme: "My City and Places" (City locations, directions, describing a city).
     - Add Vocabulary: Places (bank, park, library, museum, shop), direction words (left, right, straight).
     - Add Grammar: Imperatives for directions, Prepositions of place (next to, across from, behind).
     - Add Reading Comprehension: Description of a city tour or a neighborhood.
 3. **Verify Implementation**:
-    - Check `/debug/a1-preview/unit-12` in the browser.
+    - Checked `/debug/a1-preview/unit-12` in the browser.
 4. **Test Plan Approval**:
-    - Verify that `/debug/a1-preview/unit-12` contains 60 exercises.
+    - Verified that `/debug/a1-preview/unit-12` contains 60 exercises.
+    - Ran `npx playwright test e2e/unit-12-expansion.spec.ts --project=chromium`.
+    - Results: All tests passed.
+
+### [ ] Step: Expand Unit 13 (A1)
+1. **Analyze Unit 13**: Current content.
+2. **Expand to 60 exercises**:
+    - Theme: "Clothes and Fashion" (Types of clothes, colors, describing what someone is wearing).
+    - Add Vocabulary: Clothes (shirt, dress, pants, jacket), colors (red, blue, green), patterns.
+    - Add Grammar: Present Continuous (for wearing), possessive 's (review).
+    - Add Reading Comprehension: Descriptions of people's outfits for different occasions.
+3. **Verify Implementation**:
+    - Check `/debug/a1-preview/unit-13` in the browser.
+4. **Test Plan Approval**:
+    - Verify that `/debug/a1-preview/unit-13` contains 60 exercises.
