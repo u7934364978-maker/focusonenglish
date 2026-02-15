@@ -5,23 +5,23 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e1",
     "type": "flashcard",
     "level": "A1",
-    "topic": "Family Members",
+    "topic": "Colors",
     "difficulty": "easy",
-    "transcript": "Mother. Father. Parents. Son. Daughter. Brother. Sister. Siblings. Grandfather. Grandmother.",
+    "transcript": "Red. Blue. Green. Yellow. Black. White. Orange. Pink. Purple. Brown.",
     "content": {
-      "title": "Vocabulario: La Familia (Básico)",
-      "instructions": "Aprende los miembros básicos de la familia.",
+      "title": "Vocabulario: Colores Básicos",
+      "instructions": "Aprende los nombres de los colores principales.",
       "items": [
-        { "front": "[[Mother|Madre]]", "back": "Madre" },
-        { "front": "[[Father|Padre]]", "back": "Padre" },
-        { "front": "[[Parents|Padres]]", "back": "Padres" },
-        { "front": "[[Son|Hijo]]", "back": "Hijo" },
-        { "front": "[[Daughter|Hija]]", "back": "Hija" },
-        { "front": "[[Brother|Hermano]]", "back": "Hermano" },
-        { "front": "[[Sister|Hermana]]", "back": "Hermana" },
-        { "front": "[[Siblings|Hermanos (en general)]]", "back": "Hermanos (en general)" },
-        { "front": "[[Grandfather|Abuelo]]", "back": "Abuelo" },
-        { "front": "[[Grandmother|Abuela]]", "back": "Abuela" }
+        { "front": "[[Red|Rojo]]", "back": "Rojo" },
+        { "front": "[[Blue|Azul]]", "back": "Azul" },
+        { "front": "[[Green|Verde]]", "back": "Verde" },
+        { "front": "[[Yellow|Amarillo]]", "back": "Amarillo" },
+        { "front": "[[Black|Negro]]", "back": "Negro" },
+        { "front": "[[White|Blanco]]", "back": "Blanco" },
+        { "front": "[[Orange|Naranja]]", "back": "Naranja" },
+        { "front": "[[Pink|Rosa]]", "back": "Rosa" },
+        { "front": "[[Purple|Morado/Púrpura]]", "back": "Morado/Púrpura" },
+        { "front": "[[Brown|Marrón/Café]]", "back": "Marrón/Café" }
       ]
     },
     "audioUrl": "audio/a1/unit-7/e1.mp3",
@@ -31,23 +31,24 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e2",
     "type": "flashcard",
     "level": "A1",
-    "topic": "Extended Family",
+    "topic": "Descriptive Adjectives",
     "difficulty": "easy",
-    "transcript": "Uncle. Aunt. Cousin. Nephew. Niece. Husband. Wife. Father-in-law. Mother-in-law. Relatives.",
+    "transcript": "Big. Small. Tall. Short. Long. New. Old. Beautiful. Ugly. Heavy. Light.",
     "content": {
-      "title": "Vocabulario: Familia Extendida",
-      "instructions": "Aprende otros parientes comunes.",
+      "title": "Vocabulario: Adjetivos Descriptivos",
+      "instructions": "Aprende adjetivos para describir objetos y personas.",
       "items": [
-        { "front": "[[Uncle|Tío]]", "back": "Tío" },
-        { "front": "[[Aunt|Tía]]", "back": "Tía" },
-        { "front": "[[Cousin|Primo/a]]", "back": "Primo/a" },
-        { "front": "[[Nephew|Sobrino]]", "back": "Sobrino" },
-        { "front": "[[Niece|Sobrina]]", "back": "Sobrina" },
-        { "front": "[[Husband|Esposo]]", "back": "Esposo" },
-        { "front": "[[Wife|Esposa]]", "back": "Esposa" },
-        { "front": "[[Father-in-law|Suegro]]", "back": "Suegro" },
-        { "front": "[[Mother-in-law|Suegra]]", "back": "Suegra" },
-        { "front": "[[Relatives|Parientes]]", "back": "Parientes" }
+        { "front": "[[Big|Grande]]", "back": "Grande" },
+        { "front": "[[Small|Pequeño]]", "back": "Pequeño" },
+        { "front": "[[Tall|Alto]]", "back": "Tall" },
+        { "front": "[[Short|Bajo/Corto]]", "back": "Bajo/Corto" },
+        { "front": "[[Long|Largo]]", "back": "Largo" },
+        { "front": "[[New|Nuevo]]", "back": "Nuevo" },
+        { "front": "[[Old|Viejo]]", "back": "Viejo" },
+        { "front": "[[Beautiful|Hermoso/Bello]]", "back": "Hermoso/Bello" },
+        { "front": "[[Ugly|Feo]]", "back": "Ugly" },
+        { "front": "[[Heavy|Pesado]]", "back": "Heavy" },
+        { "front": "[[Light|Ligero/Claro]]", "back": "Ligero/Claro" }
       ]
     },
     "audioUrl": "audio/a1/unit-7/e2.mp3",
@@ -57,18 +58,18 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e3",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Family Vocabulary",
+    "topic": "Colors",
     "difficulty": "easy",
-    "transcript": "My father's sister is my aunt.",
+    "transcript": "The sky is blue.",
     "content": {
-      "title": "Relaciones Familiares",
-      "instructions": "Elige la palabra correcta.",
+      "title": "El Cielo",
+      "instructions": "Elige el color correcto.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[father's|de mi padre]] [[sister|hermana]] [[is|es]] [[my|mi]] (_____).",
-          "options": ["[[aunt|tía]]", "[[uncle|tío]]", "[[cousin|primo/a]]"],
+          "question": "[[The|El]] [[sky|cielo]] [[is|es]] (_____).",
+          "options": ["[[blue|azul]]", "[[red|rojo]]", "[[green|verde]]"],
           "correctAnswer": 0,
-          "explanation": "La hermana de tu padre es tu tía (aunt)."
+          "explanation": "El cielo es normalmente azul (blue)."
         }
       ]
     },
@@ -79,18 +80,18 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e4",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Family Vocabulary",
+    "topic": "Colors",
     "difficulty": "easy",
-    "transcript": "My mother's brother is my uncle.",
+    "transcript": "Apples are usually red or green.",
     "content": {
-      "title": "Relaciones Familiares",
-      "instructions": "Elige la palabra correcta.",
+      "title": "Manzanas",
+      "instructions": "Completa con los colores.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[mother's|de mi madre]] [[brother|hermano]] [[is|es]] [[my|mi]] (_____).",
-          "options": ["[[uncle|tío]]", "[[nephew|sobrino]]", "[[grandfather|abuelo]]"],
+          "question": "[[Apples|Las manzanas]] [[are|son]] [[red|rojas]] [[or|o]] (_____).",
+          "options": ["[[green|verdes]]", "[[black|negras]]", "[[purple|moradas]]"],
           "correctAnswer": 0,
-          "explanation": "El hermano de tu madre es tu tío (uncle)."
+          "explanation": "Las manzanas suelen ser rojas o verdes."
         }
       ]
     },
@@ -101,15 +102,15 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e5",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Possessives",
+    "topic": "Adjective Position",
     "difficulty": "easy",
-    "transcript": "This is my brother.",
+    "transcript": "I have a red car.",
     "content": {
-      "title": "Presentando a la Familia",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[This|Este]] [[is|es]] [[my|mi]] [[brother|hermano]].",
-      "words": ["[[brother|hermano]].", "[[is|es]]", "[[This|Este]]", "[[my|mi]]"],
-      "explanation": "Usamos 'This is my...' para presentar a alguien."
+      "title": "Adjetivo antes del Nombre",
+      "instructions": "Ordena las palabras correctamente.",
+      "correctSentence": "[[I|Yo]] [[have|tengo]] [[a|un]] [[red|rojo]] [[car|coche]].",
+      "words": ["[[car|coche]].", "[[red|rojo]]", "[[have|tengo]]", "[[I|Yo]]", "[[a|un]]"],
+      "explanation": "En inglés, el adjetivo (red) va antes del sustantivo (car)."
     },
     "audioUrl": "audio/a1/unit-7/e5.mp3",
     "topicName": "Grammar"
@@ -118,18 +119,18 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e6",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Possessive Adjectives",
+    "topic": "Adjective Position",
     "difficulty": "easy",
-    "transcript": "His name is John.",
+    "transcript": "She has a big house.",
     "content": {
-      "title": "Adjetivos Posesivos",
-      "instructions": "Elige el posesivo correcto para un hombre.",
+      "title": "Descripción de la Casa",
+      "instructions": "Elige la frase gramaticalmente correcta.",
       "questions": [
         {
-          "question": "(_____) [[name|nombre]] [[is|es]] [[John|John]].",
-          "options": ["[[His|Su (de él)]]", "[[Her|Su (de ella)]]", "[[Your|Tu]]"],
+          "question": "[[She|Ella]] [[has|tiene]] (_____).",
+          "options": ["[[a big house|una grande casa]]", "[[a house big|una casa grande]]", "[[big a house|grande una casa]]"],
           "correctAnswer": 0,
-          "explanation": "Usamos 'His' para posesión masculina singular."
+          "explanation": "El adjetivo 'big' debe ir antes de 'house'."
         }
       ]
     },
@@ -140,37 +141,37 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e7",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Possessive Adjectives",
+    "topic": "Colors",
     "difficulty": "easy",
-    "transcript": "Her name is Mary.",
+    "transcript": "What color is your pen? It is black.",
     "content": {
-      "title": "Adjetivos Posesivos",
-      "instructions": "Elige el posesivo correcto para una mujer.",
+      "title": "¿De qué color?",
+      "instructions": "Elige la respuesta lógica.",
       "questions": [
         {
-          "question": "(_____) [[name|nombre]] [[is|es]] [[Mary|Mary]].",
-          "options": ["[[Her|Su (de ella)]]", "[[His|Su (de él)]]", "[[Our|Nuestro]]"],
+          "question": "[[What|De qué]] [[color|color]] [[is|es]] [[your|tu]] [[pen|bolígrafo]]?",
+          "options": ["[[It is black|Es negro]]", "[[It is big|Es grande]]", "[[It is old|Es viejo]]"],
           "correctAnswer": 0,
-          "explanation": "Usamos 'Her' para posesión femenina singular."
+          "explanation": "Si preguntan por el color, la respuesta debe ser un color."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-7/e7.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u7-e8",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Family Questions",
+    "topic": "Demonstratives",
     "difficulty": "easy",
-    "transcript": "Do you have any brothers?",
+    "transcript": "This is a yellow flower.",
     "content": {
-      "title": "Preguntas sobre Hermanos",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Do|¿]] [[you|tú]] [[have|tienes]] [[any|algunos]] [[brothers|hermanos]]?",
-      "words": ["[[any|algunos]]", "[[brothers|hermanos]]?", "[[have|tienes]]", "[[Do|¿]]", "[[you|tú]]"],
-      "explanation": "Pregunta común sobre la familia."
+      "title": "Flor Amarilla",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[This|Esta]] [[is|es]] [[a|una]] [[yellow|amarilla]] [[flower|flor]].",
+      "words": ["[[flower|flor]].", "[[yellow|amarilla]]", "[[a|una]]", "[[is|es]]", "[[This|Esta]]"],
+      "explanation": "Usamos 'This is' para algo cercano en singular."
     },
     "audioUrl": "audio/a1/unit-7/e8.mp3",
     "topicName": "Grammar"
@@ -179,18 +180,18 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e9",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Family Vocabulary",
+    "topic": "Adjectives",
     "difficulty": "easy",
-    "transcript": "My son's daughter is my granddaughter.",
+    "transcript": "The elephant is big.",
     "content": {
-      "title": "Nietos",
-      "instructions": "Elige la palabra correcta.",
+      "title": "El Elefante",
+      "instructions": "Elige el adjetivo opuesto.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[son's|de mi hijo]] [[daughter|hija]] [[is|es]] [[my|mi]] (_____).",
-          "options": ["[[granddaughter|nieta]]", "[[grandson|nieto]]", "[[niece|sobrina]]"],
+          "question": "[[The|El]] [[elephant|elefante]] [[is|es]] (_____).",
+          "options": ["[[big|grande]]", "[[small|pequeño]]", "[[short|bajo]]"],
           "correctAnswer": 0,
-          "explanation": "La hija de tu hijo es tu nieta (granddaughter)."
+          "explanation": "Un elefante es característicamente grande (big)."
         }
       ]
     },
@@ -201,15 +202,15 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e10",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Possessives",
+    "topic": "Adjectives",
     "difficulty": "easy",
-    "transcript": "My grandparents live in Spain.",
+    "transcript": "My cat is white and small.",
     "content": {
-      "title": "Mis Abuelos",
+      "title": "Mi Gato",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[My|Mis]] [[grandparents|abuelos]] [[live|viven]] [[in|en]] [[Spain|España]].",
-      "words": ["[[live|viven]]", "[[Spain|España]].", "[[grandparents|abuelos]]", "[[My|Mis]]"],
-      "explanation": "Grandparents engloba a abuelo y abuela."
+      "correctSentence": "[[My|Mi]] [[cat|gato]] [[is|es]] [[white|blanco]] [[and|y]] [[small|pequeño]].",
+      "words": ["[[small|pequeño]].", "[[white|blanco]]", "[[and|y]]", "[[is|es]]", "[[cat|gato]]", "[[My|Mi]]"],
+      "explanation": "Combinando color y tamaño con 'and'."
     },
     "audioUrl": "audio/a1/unit-7/e10.mp3",
     "topicName": "Vocabulary"
@@ -218,18 +219,18 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e11",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar",
+    "topic": "Demonstratives",
     "difficulty": "medium",
-    "transcript": "Is that your sister's car?",
+    "transcript": "Those are my blue shoes.",
     "content": {
-      "title": "El Posesivo 's",
-      "instructions": "Elige la forma correcta del posesivo.",
+      "title": "Zapatos Azules",
+      "instructions": "Elige el demostrativo plural para algo lejano.",
       "questions": [
         {
-          "question": "[[Is|¿Es]] [[that|ese]] [[your|tu]] (_____) [[car|coche]]?",
-          "options": ["[[sister's|de tu hermana]]", "[[sisters|hermanas]]", "[[sister|hermana]]"],
+          "question": "(_____) [[are|son]] [[my|mis]] [[blue|azules]] [[shoes|zapatos]].",
+          "options": ["[[Those|Esos]]", "[[That|Ese]]", "[[This|Este]]"],
           "correctAnswer": 0,
-          "explanation": "Usamos 's para indicar posesión: sister's car = el coche de la hermana."
+          "explanation": "'Those' se usa para plural lejano."
         }
       ]
     },
@@ -240,96 +241,96 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e12",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Family Relations",
+    "topic": "Adjectives",
     "difficulty": "easy",
-    "transcript": "I have two sisters and one brother.",
+    "transcript": "Is that a new computer?",
     "content": {
-      "title": "Contando Hermanos",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[I|Yo]] [[have|tengo]] [[two|dos]] [[sisters|hermanas]] [[and|y]] [[one|un]] [[brother|hermano]].",
-      "words": ["[[one|un]]", "[[brother|hermano]].", "[[sisters|hermanas]]", "[[and|y]]", "[[I|Yo]]", "[[have|tengo]]", "[[two|dos]]"],
-      "explanation": "Describiendo el tamaño de la familia inmediata."
+      "title": "Ordenador Nuevo",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[Is|¿Es]] [[that|ese]] [[a|un]] [[new|nuevo]] [[computer|ordenador]]?",
+      "words": ["[[computer|ordenador]]?", "[[new|nuevo]]", "[[a|un]]", "[[that|ese]]", "[[Is|¿Es]]"],
+      "explanation": "Preguntando por una cualidad del objeto."
     },
     "audioUrl": "audio/a1/unit-7/e12.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u7-e13",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Possessive Adjectives",
+    "topic": "Colors",
     "difficulty": "easy",
-    "transcript": "We love our family.",
+    "transcript": "Milk is white.",
     "content": {
-      "title": "Nuestro Posesivo",
-      "instructions": "Elige el posesivo para 'we'.",
+      "title": "La Leche",
+      "instructions": "Completa con el color.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[love|amamos]] (_____) [[family|familia]].",
-          "options": ["[[our|nuestra]]", "[[their|su (de ellos)]]", "[[your|vuestra]]"],
+          "question": "[[Milk|La leche]] [[is|es]] (_____).",
+          "options": ["[[white|blanca]]", "[[yellow|amarilla]]", "[[pink|rosa]]"],
           "correctAnswer": 0,
-          "explanation": "El posesivo de 'we' es 'our'."
+          "explanation": "La leche es blanca."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-7/e13.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u7-e14",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Possessive Adjectives",
+    "topic": "Adjectives",
     "difficulty": "easy",
-    "transcript": "They live with their parents.",
+    "transcript": "This building is very tall.",
     "content": {
-      "title": "Su Posesivo (Ellos)",
-      "instructions": "Elige el posesivo para 'they'.",
+      "title": "Edificio Alto",
+      "instructions": "Elige el adjetivo correcto.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[live|viven]] [[with|con]] (_____) [[parents|padres]].",
-          "options": ["[[their|su (de ellos)]]", "[[his|su (de él)]]", "[[her|su (de ella)]]"],
+          "question": "[[This|Este]] [[building|edificio]] [[is|es]] [[very|muy]] (_____).",
+          "options": ["[[tall|alto]]", "[[short|bajo]]", "[[long|largo]]"],
           "correctAnswer": 0,
-          "explanation": "El posesivo de 'they' es 'their'."
+          "explanation": "Usamos 'tall' para la altura de edificios o personas."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-7/e14.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u7-e15",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Family Tree",
+    "topic": "Adjectives",
     "difficulty": "easy",
-    "transcript": "My mother's name is Anna.",
+    "transcript": "The long snake is green.",
     "content": {
-      "title": "Nombres de la Familia",
+      "title": "La Serpiente",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[My|Mi]] [[mother's|de mi madre]] [[name|nombre]] [[is|es]] [[Anna|Anna]].",
-      "words": ["[[Anna|Anna]].", "[[is|es]]", "[[name|nombre]]", "[[mother's|de mi madre]]", "[[My|Mi]]"],
-      "explanation": "Uso del posesivo 's para el nombre de alguien."
+      "correctSentence": "[[The|La]] [[long|larga]] [[snake|serpiente]] [[is|es]] [[green|verde]].",
+      "words": ["[[green|verde]].", "[[is|es]]", "[[snake|serpiente]]", "[[long|larga]]", "[[The|La]]"],
+      "explanation": "Combinando adjetivo de forma y color."
     },
     "audioUrl": "audio/a1/unit-7/e15.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u7-e16",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Family Vocabulary",
+    "topic": "Colors",
     "difficulty": "easy",
-    "transcript": "My uncle's son is my cousin.",
+    "transcript": "Strawberries are red.",
     "content": {
-      "title": "Primos",
-      "instructions": "Elige la palabra correcta.",
+      "title": "Fresas",
+      "instructions": "Elige el color.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[uncle's|de mi tío]] [[son|hijo]] [[is|es]] [[my|mi]] (_____).",
-          "options": ["[[cousin|primo]]", "[[nephew|sobrino]]", "[[brother|hermano]]"],
+          "question": "[[Strawberries|Las fresas]] [[are|son]] (_____).",
+          "options": ["[[red|rojas]]", "[[blue|azules]]", "[[orange|naranjas]]"],
           "correctAnswer": 0,
-          "explanation": "El hijo de tu tío es tu primo (cousin)."
+          "explanation": "Las fresas son rojas."
         }
       ]
     },
@@ -340,35 +341,35 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e17",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Marital Status",
-    "difficulty": "easy",
-    "transcript": "Is your brother married?",
+    "topic": "Demonstratives",
+    "difficulty": "medium",
+    "transcript": "These are my new books.",
     "content": {
-      "title": "Estado Civil",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Is|¿Es]] [[your|tu]] [[brother|hermano]] [[married|casado]]?",
-      "words": ["[[married|casado]]?", "[[brother|hermano]]", "[[Is|¿Es]]", "[[your|tu]]"],
-      "explanation": "Pregunta sobre el estado civil de un familiar."
+      "title": "Libros Nuevos",
+      "instructions": "Ordena la oración plural.",
+      "correctSentence": "[[These|Estos]] [[are|son]] [[my|mis]] [[new|nuevos]] [[books|libros]].",
+      "words": ["[[books|libros]].", "[[new|nuevos]]", "[[my|mis]]", "[[are|son]]", "[[These|Estos]]"],
+      "explanation": "Usamos 'These are' para plural cercano."
     },
     "audioUrl": "audio/a1/unit-7/e17.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u7-e18",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary",
+    "topic": "Adjectives",
     "difficulty": "easy",
-    "transcript": "I am an only child.",
+    "transcript": "An old man is walking.",
     "content": {
-      "title": "Hijo Único",
-      "instructions": "Elige la expresión para 'hijo único'.",
+      "title": "Hombre Mayor",
+      "instructions": "Elige el adjetivo correcto.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[am|soy]] [[an|un]] (_____).",
-          "options": ["[[only child|hijo único]]", "[[alone child|niño solo]]", "[[single child|niño soltero]]"],
+          "question": "[[An|Un]] (_____) [[man|hombre]] [[is|está]] [[walking|caminando]].",
+          "options": ["[[old|viejo/mayor]]", "[[new|nuevo]]", "[[purple|morado]]"],
           "correctAnswer": 0,
-          "explanation": "'Only child' es la expresión correcta para hijo/a único/a."
+          "explanation": "Usamos 'old' para personas mayores."
         }
       ]
     },
@@ -379,35 +380,35 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e19",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Personal Info",
+    "topic": "Colors",
     "difficulty": "easy",
-    "transcript": "How old is your sister?",
+    "transcript": "I like your purple shirt.",
     "content": {
-      "title": "Edad de la Familia",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[How|Qué]] [[old|edad]] [[is|tiene]] [[your|tu]] [[sister|hermana]]?",
-      "words": ["[[sister|hermana]]?", "[[is|tiene]]", "[[your|tu]]", "[[old|edad]]", "[[How|Qué]]"],
-      "explanation": "Preguntar la edad de alguien."
+      "title": "Camisa Morada",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[I|Me]] [[like|gusta]] [[your|tu]] [[purple|morada]] [[shirt|camisa]].",
+      "words": ["[[shirt|camisa]].", "[[purple|morada]]", "[[your|tu]]", "[[like|gusta]]", "[[I|Me]]"],
+      "explanation": "Posición del color morado antes de camisa."
     },
     "audioUrl": "audio/a1/unit-7/e19.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u7-e20",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Family Vocabulary",
-    "difficulty": "medium",
-    "transcript": "My sister's husband is my brother-in-law.",
+    "topic": "Adjectives",
+    "difficulty": "easy",
+    "transcript": "The flowers are beautiful.",
     "content": {
-      "title": "Familia Política",
-      "instructions": "Elige la palabra correcta.",
+      "title": "Flores Hermosas",
+      "instructions": "Elige el adjetivo positivo.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[sister's|de mi hermana]] [[husband|esposo]] [[is|es]] [[my|mi]] (_____).",
-          "options": ["[[brother-in-law|cuñado]]", "[[father-in-law|suegro]]", "[[nephew|sobrino]]"],
+          "question": "[[The|Las]] [[flowers|flores]] [[are|son]] (_____).",
+          "options": ["[[beautiful|hermosas]]", "[[ugly|feas]]", "[[heavy|pesadas]]"],
           "correctAnswer": 0,
-          "explanation": "El esposo de tu hermana es tu cuñado (brother-in-law)."
+          "explanation": "Normalmente describimos las flores como hermosas (beautiful)."
         }
       ]
     },
@@ -418,18 +419,18 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e21",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Family Size",
+    "topic": "Colors",
     "difficulty": "easy",
-    "transcript": "I have a big family.",
+    "transcript": "Oranges are orange.",
     "content": {
-      "title": "Familia Grande",
-      "instructions": "Elige el adjetivo correcto.",
+      "title": "Color Naranja",
+      "instructions": "Elige el color.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[have|tengo]] [[a|una]] (_____) [[family|familia]].",
-          "options": ["[[big|grande]]", "[[small|pequeña]]", "[[new|nueva]]"],
+          "question": "[[Oranges|Las naranjas]] [[are|son]] (_____).",
+          "options": ["[[orange|naranjas]]", "[[purple|moradas]]", "[[white|blancas]]"],
           "correctAnswer": 0,
-          "explanation": "Big family = Familia grande."
+          "explanation": "Las naranjas (fruta) son de color naranja."
         }
       ]
     },
@@ -438,39 +439,39 @@ export const UNIT_7_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u7-e22",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Family Size",
-    "difficulty": "easy",
-    "transcript": "She has a small family.",
+    "topic": "Adjectives",
+    "difficulty": "medium",
+    "transcript": "The heavy box is on the table.",
     "content": {
-      "title": "Familia Pequeña",
-      "instructions": "Elige el adjetivo correcto.",
-      "questions": [
-        {
-          "question": "[[She|Ella]] [[has|tiene]] [[a|una]] (_____) [[family|familia]].",
-          "options": ["[[small|pequeña]]", "[[tall|alta]]", "[[old|vieja]]"],
-          "correctAnswer": 0,
-          "explanation": "Small family = Familia pequeña."
-        }
-      ]
+      "title": "Caja Pesada",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[The|La]] [[heavy|pesada]] [[box|caja]] [[is|está]] [[on|sobre]] [[the|la]] [[table|mesa]].",
+      "words": ["[[table|mesa]].", "[[on|sobre]]", "[[is|está]]", "[[box|caja]]", "[[heavy|pesada]]", "[[the|la]]", "[[The|La]]"],
+      "explanation": "El adjetivo 'heavy' describe a la caja."
     },
     "audioUrl": "audio/a1/unit-7/e22.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u7-e23",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Possessives",
+    "topic": "Adjective Position",
     "difficulty": "easy",
-    "transcript": "His father is fifty years old.",
+    "transcript": "I see a green bird.",
     "content": {
-      "title": "Edad del Padre",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[His|Su (de él)]] [[father|padre]] [[is|tiene]] [[fifty|cincuenta]] [[years|años]] [[old|de edad]].",
-      "words": ["[[years|años]]", "[[is|tiene]]", "[[father|padre]]", "[[fifty|cincuenta]]", "[[His|Su (de él)]]", "[[old|de edad]]."],
-      "explanation": "Estructura para decir la edad de un familiar."
+      "title": "Pájaro Verde",
+      "instructions": "Elige la opción correcta.",
+      "questions": [
+        {
+          "question": "[[I|Yo]] [[see|veo]] (_____).",
+          "options": ["[[a green bird|un verde pájaro]]", "[[a bird green|un pájaro verde]]", "[[green bird a|verde pájaro un]]"],
+          "correctAnswer": 0,
+          "explanation": "El color va antes del animal."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-7/e23.mp3",
     "topicName": "Grammar"
@@ -479,18 +480,18 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e24",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Family Vocabulary",
-    "difficulty": "medium",
-    "transcript": "My mother's mother is my grandmother.",
+    "topic": "Adjectives",
+    "difficulty": "easy",
+    "transcript": "The mouse is small.",
     "content": {
-      "title": "Abuela Materna",
-      "instructions": "Completa la relación.",
+      "title": "El Ratón",
+      "instructions": "Elige el adjetivo lógico.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[mother's|de mi madre]] [[mother|madre]] [[is|es]] [[my|mi]] (_____).",
-          "options": ["[[grandmother|abuela]]", "[[aunt|tía]]", "[[sister|hermana]]"],
+          "question": "[[The|El]] [[mouse|ratón]] [[is|es]] (_____).",
+          "options": ["[[small|pequeño]]", "[[big|grande]]", "[[tall|alto]]"],
           "correctAnswer": 0,
-          "explanation": "La madre de tu madre es tu abuela (grandmother)."
+          "explanation": "Un ratón es un animal pequeño (small)."
         }
       ]
     },
@@ -501,74 +502,74 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e25",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Family Vocabulary",
+    "topic": "Demonstratives",
     "difficulty": "easy",
-    "transcript": "I live with my parents and my dog.",
+    "transcript": "That small dog is cute.",
     "content": {
-      "title": "Vivir con los Padres",
+      "title": "Perro Pequeño",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[I|Yo]] [[live|vivo]] [[with|con]] [[my|mis]] [[parents|padres]] [[and|y]] [[my|mi]] [[dog|perro]].",
-      "words": ["[[and|y]]", "[[dog|perro]].", "[[parents|padres]]", "[[live|vivo]]", "[[I|Yo]]", "[[with|con]]", "[[my|mis]]", "[[my|mi]]"],
-      "explanation": "Describiendo con quién vives."
+      "correctSentence": "[[That|Ese]] [[small|pequeño]] [[dog|perro]] [[is|es]] [[cute|lindo]].",
+      "words": ["[[cute|lindo]].", "[[is|es]]", "[[dog|perro]]", "[[small|pequeño]]", "[[That|Ese]]"],
+      "explanation": "Combinando demostrativo y adjetivo."
     },
     "audioUrl": "audio/a1/unit-7/e25.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u7-e26",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Possessives",
+    "topic": "Colors",
     "difficulty": "easy",
-    "transcript": "Is this your cousin's house?",
+    "transcript": "Grapes are often purple.",
     "content": {
-      "title": "Casa del Primo",
-      "instructions": "Elige el posesivo correcto.",
+      "title": "Uvas",
+      "instructions": "Elige el color.",
       "questions": [
         {
-          "question": "[[Is|¿Es]] [[this|esta]] [[your|tu]] (_____) [[house|casa]]?",
-          "options": ["[[cousin's|de tu primo]]", "[[cousin|primo]]", "[[cousins|primos]]"],
+          "question": "[[Grapes|Las uvas]] [[are|son]] [[often|a menudo]] (_____).",
+          "options": ["[[purple|moradas]]", "[[pink|rosas]]", "[[blue|azules]]"],
           "correctAnswer": 0,
-          "explanation": "Usamos 's para la posesión del primo."
+          "explanation": "Muchas uvas son de color morado (purple)."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-7/e26.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u7-e27",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Family Tree",
-    "difficulty": "easy",
-    "transcript": "Who is your favorite relative?",
+    "topic": "Adjectives",
+    "difficulty": "medium",
+    "transcript": "She wears a long dress.",
     "content": {
-      "title": "Pariente Favorito",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Who|Quién]] [[is|es]] [[your|tu]] [[favorite|favorito]] [[relative|pariente]]?",
-      "words": ["[[favorite|favorito]]", "[[relative|pariente]]?", "[[is|es]]", "[[your|tu]]", "[[Who|Quién]]"],
-      "explanation": "Preguntar por un familiar favorito."
+      "title": "Vestido Largo",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[She|Ella]] [[wears|lleva puesto]] [[a|un]] [[long|largo]] [[dress|vestido]].",
+      "words": ["[[dress|vestido]].", "[[long|largo]]", "[[a|un]]", "[[wears|lleva puesto]]", "[[She|Ella]]"],
+      "explanation": "Adjetivo 'long' antes de 'dress'."
     },
     "audioUrl": "audio/a1/unit-7/e27.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u7-e28",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Family Vocabulary",
+    "topic": "Colors",
     "difficulty": "easy",
-    "transcript": "My father's father is my grandfather.",
+    "transcript": "Coffee is usually brown or black.",
     "content": {
-      "title": "Abuelo Paterno",
-      "instructions": "Completa la relación.",
+      "title": "El Café",
+      "instructions": "Elige el color.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[father's|de mi padre]] [[father|padre]] [[is|es]] [[my|mi]] (_____).",
-          "options": ["[[grandfather|abuelo]]", "[[grandson|nieto]]", "[[uncle|tío]]"],
+          "question": "[[Coffee|El café]] [[is|es]] (_____).",
+          "options": ["[[brown|marrón]]", "[[yellow|amarillo]]", "[[green|verde]]"],
           "correctAnswer": 0,
-          "explanation": "El padre de tu padre es tu abuelo (grandfather)."
+          "explanation": "El café es de color marrón (brown)."
         }
       ]
     },
@@ -579,15 +580,15 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e29",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Possessives",
+    "topic": "Adjectives",
     "difficulty": "easy",
-    "transcript": "Her sister is very beautiful.",
+    "transcript": "My bike is old but good.",
     "content": {
-      "title": "Descripción de la Hermana",
+      "title": "Bicicleta Vieja",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[Her|Su (de ella)]] [[sister|hermana]] [[is|es]] [[very|muy]] [[beautiful|hermosa]].",
-      "words": ["[[beautiful|hermosa]].", "[[is|es]]", "[[sister|hermana]]", "[[very|muy]]", "[[Her|Su (de ella)]]"],
-      "explanation": "Describiendo a un familiar."
+      "correctSentence": "[[My|Mi]] [[bike|bici]] [[is|es]] [[old|vieja]] [[but|pero]] [[good|buena]].",
+      "words": ["[[good|buena]].", "[[but|pero]]", "[[old|vieja]]", "[[is|es]]", "[[bike|bici]]", "[[My|Mi]]"],
+      "explanation": "Contraste con 'but'."
     },
     "audioUrl": "audio/a1/unit-7/e29.mp3",
     "topicName": "Vocabulary"
@@ -596,96 +597,96 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e30",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Family Vocabulary",
-    "difficulty": "medium",
-    "transcript": "They have two sons and one daughter.",
+    "topic": "Adjective Position",
+    "difficulty": "easy",
+    "transcript": "He has short hair.",
     "content": {
-      "title": "Hijos e Hijas",
-      "instructions": "Elige la combinación correcta.",
+      "title": "Pelo Corto",
+      "instructions": "Elige la frase correcta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[have|tienen]] [[two|dos]] (_____) [[and|y]] [[one|una]] (_____).",
-          "options": ["[[sons|hijos]] / [[daughter|hija]]", "[[daughters|hijas]] / [[son|hijo]]", "[[brothers|hermanos]] / [[sister|hermana]]"],
+          "question": "[[He|Él]] [[has|tiene]] (_____).",
+          "options": ["[[short hair|pelo corto]]", "[[hair short|pelo corto]]", "[[short a hair|corto un pelo]]"],
           "correctAnswer": 0,
-          "explanation": "Sons (hijos varones) y daughter (hija mujer)."
+          "explanation": "El adjetivo 'short' precede al sustantivo 'hair'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-7/e30.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u7-e31",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Possessives",
+    "topic": "Adjectives",
     "difficulty": "medium",
-    "transcript": "Is that your brother's bicycle?",
+    "transcript": "The big mountains are very far.",
     "content": {
-      "title": "Bici del Hermano",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Is|¿Es]] [[that|esa]] [[your|tu]] [[brother's|de tu hermano]] [[bicycle|bicicleta]]?",
-      "words": ["[[bicycle|bicicleta]]?", "[[that|esa]]", "[[brother's|de tu hermano]]", "[[Is|¿Es]]", "[[your|tu]]"],
-      "explanation": "Estructura posesiva con 's."
+      "title": "Montañas Grandes",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[The|Las]] [[big|grandes]] [[mountains|montañas]] [[are|están]] [[very|muy]] [[far|lejos]].",
+      "words": ["[[far|lejos]].", "[[very|muy]]", "[[are|están]]", "[[mountains|montañas]]", "[[big|grandes]]", "[[The|Las]]"],
+      "explanation": "Adjetivo en plural (no cambia en inglés)."
     },
     "audioUrl": "audio/a1/unit-7/e31.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u7-e32",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Family Relations",
+    "topic": "Colors",
     "difficulty": "easy",
-    "transcript": "How many cousins do you have?",
+    "transcript": "What color are those flowers? They are pink.",
     "content": {
-      "title": "Contando Primos",
-      "instructions": "Elige el interrogativo correcto.",
+      "title": "Flores Rosas",
+      "instructions": "Elige el color plural.",
       "questions": [
         {
-          "question": "(_____) [[many|muchos]] [[cousins|primos]] [[do|aux]] [[you|tú]] [[have|tienes]]?",
-          "options": ["[[How|Cuántos]]", "[[Who|Quién]]", "[[Where|Dónde]]"],
+          "question": "[[They|Ellas]] [[are|son]] (_____).",
+          "options": ["[[pink|rosas]]", "[[black|negras]]", "[[white|blancas]]"],
           "correctAnswer": 0,
-          "explanation": "'How many' se usa para preguntar por cantidad."
+          "explanation": "Pink es el color rosa."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-7/e32.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u7-e33",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Family Tree",
-    "difficulty": "easy",
-    "transcript": "My aunt lives in London.",
+    "topic": "Demonstratives",
+    "difficulty": "medium",
+    "transcript": "I want those red apples.",
     "content": {
-      "title": "Tía en Londres",
+      "title": "Manzanas Rojas",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[My|Mi]] [[aunt|tía]] [[lives|vive]] [[in|en]] [[London|Londres]].",
-      "words": ["[[London|Londres]].", "[[lives|vive]]", "[[in|en]]", "[[aunt|tía]]", "[[My|Mi]]"],
-      "explanation": "Sujeto singular (aunt) + verbo con 's' (lives)."
+      "correctSentence": "[[I|Yo]] [[want|quiero]] [[those|esas]] [[red|rojas]] [[apples|manzanas]].",
+      "words": ["[[apples|manzanas]].", "[[red|rojas]]", "[[those|esas]]", "[[want|quiero]]", "[[I|Yo]]"],
+      "explanation": "Estructura: Demostrativo + Adjetivo + Sustantivo."
     },
     "audioUrl": "audio/a1/unit-7/e33.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u7-e34",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Family Vocabulary",
+    "topic": "Adjectives",
     "difficulty": "easy",
-    "transcript": "The father of my wife is my father-in-law.",
+    "transcript": "The book is not heavy, it is light.",
     "content": {
-      "title": "Suegro",
-      "instructions": "Completa la relación.",
+      "title": "Libro Ligero",
+      "instructions": "Elige el opuesto de 'heavy'.",
       "questions": [
         {
-          "question": "[[The|El]] [[father|padre]] [[of|de]] [[my|mi]] [[wife|esposa]] [[is|es]] [[my|mi]] (_____).",
-          "options": ["[[father-in-law|suegro]]", "[[stepfather|padrastro]]", "[[uncle|tío]]"],
+          "question": "[[The|El]] [[book|libro]] [[is|es]] (_____).",
+          "options": ["[[light|ligero]]", "[[heavy|pesado]]", "[[long|largo]]"],
           "correctAnswer": 0,
-          "explanation": "El padre de tu esposa es tu suegro (father-in-law)."
+          "explanation": "'Light' es el opuesto de 'heavy' cuando hablamos de peso."
         }
       ]
     },
@@ -696,35 +697,35 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e35",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Possessives",
-    "difficulty": "easy",
-    "transcript": "Our house is big and happy.",
+    "topic": "Adjectives",
+    "difficulty": "medium",
+    "transcript": "These small keys are for the car.",
     "content": {
-      "title": "Casa Familiar",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[Our|Nuestra]] [[house|casa]] [[is|es]] [[big|grande]] [[and|y]] [[happy|feliz]].",
-      "words": ["[[happy|feliz]].", "[[and|y]]", "[[is|es]]", "[[big|grande]]", "[[house|casa]]", "[[Our|Nuestra]]"],
-      "explanation": "Adjetivos para describir el hogar familiar."
+      "title": "Llaves Pequeñas",
+      "instructions": "Ordena la oración plural.",
+      "correctSentence": "[[These|Estas]] [[small|pequeñas]] [[keys|llaves]] [[are|son]] [[for|para]] [[the|el]] [[car|coche]].",
+      "words": ["[[car|coche]].", "[[the|el]]", "[[for|para]]", "[[are|son]]", "[[keys|llaves]]", "[[small|pequeñas]]", "[[These|Estas]]"],
+      "explanation": "El adjetivo 'small' no lleva 's' en plural."
     },
     "audioUrl": "audio/a1/unit-7/e35.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u7-e36",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Family Vocabulary",
+    "topic": "Colors",
     "difficulty": "medium",
-    "transcript": "My brother's son is my nephew.",
+    "transcript": "Look at the dark grey clouds.",
     "content": {
-      "title": "Sobrino",
-      "instructions": "Elige la palabra correcta.",
+      "title": "Nubes Grises",
+      "instructions": "Elige la descripción correcta.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[brother's|de mi hermano]] [[son|hijo]] [[is|es]] [[my|mi]] (_____).",
-          "options": ["[[nephew|sobrino]]", "[[niece|sobrina]]", "[[cousin|primo]]"],
+          "question": "[[The|Las]] [[clouds|nubes]] [[are|son]] (_____).",
+          "options": ["[[dark grey|gris oscuro]]", "[[light red|rojo claro]]", "[[bright pink|rosa brillante]]"],
           "correctAnswer": 0,
-          "explanation": "El hijo de tu hermano es tu sobrino (nephew)."
+          "explanation": "Nubes de tormenta suelen ser 'dark grey'."
         }
       ]
     },
@@ -735,54 +736,54 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e37",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Family Vocabulary",
+    "topic": "Adjective Position",
     "difficulty": "easy",
-    "transcript": "My niece is five years old.",
+    "transcript": "We have a beautiful garden.",
     "content": {
-      "title": "Edad de la Sobrina",
+      "title": "Jardín Hermoso",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[My|Mi]] [[niece|sobrina]] [[is|tiene]] [[five|cinco]] [[years|años]] [[old|de edad]].",
-      "words": ["[[five|cinco]]", "[[years|años]]", "[[niece|sobrina]]", "[[is|tiene]]", "[[old|de edad]].", "[[My|Mi]]"],
-      "explanation": "Niece es la hija de un hermano o hermana."
+      "correctSentence": "[[We|Nosotros]] [[have|tenemos]] [[a|un]] [[beautiful|hermoso]] [[garden|jardín]].",
+      "words": ["[[garden|jardín]].", "[[beautiful|hermoso]]", "[[a|un]]", "[[have|tenemos]]", "[[We|Nosotros]]"],
+      "explanation": "El adjetivo precede al sustantivo."
     },
     "audioUrl": "audio/a1/unit-7/e37.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u7-e38",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Possessives",
-    "difficulty": "medium",
-    "transcript": "Whose daughter is she?",
+    "topic": "Adjectives",
+    "difficulty": "easy",
+    "transcript": "Is your smartphone new? No, it is very old.",
     "content": {
-      "title": "De quién",
-      "instructions": "Elige el interrogativo de posesión.",
+      "title": "Móvil Viejo",
+      "instructions": "Elige la respuesta lógica.",
       "questions": [
         {
-          "question": "(_____) [[daughter|hija]] [[is|es]] [[she|ella]]?",
-          "options": ["[[Whose|De quién]]", "[[Who|Quién]]", "[[Which|Cuál]]"],
+          "question": "[[Is|¿Es]] [[your|tu]] [[smartphone|móvil]] [[new|nuevo]]?",
+          "options": ["[[No, it is old|No, es viejo]]", "[[No, it is blue|No, es azul]]", "[[No, it is big|No, es grande]]"],
           "correctAnswer": 0,
-          "explanation": "'Whose' se usa para preguntar a quién pertenece algo o alguien (en términos de parentesco)."
+          "explanation": "'Old' es el opuesto de 'new'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-7/e38.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u7-e39",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Family Tree",
-    "difficulty": "easy",
-    "transcript": "This is a photo of my family.",
+    "topic": "Adjectives",
+    "difficulty": "medium",
+    "transcript": "The ugly monster is in the movie.",
     "content": {
-      "title": "Foto Familiar",
+      "title": "Monstruo Feo",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[This|Esta]] [[is|es]] [[a|una]] [[photo|foto]] [[of|de]] [[my|mi]] [[family|familia]].",
-      "words": ["[[photo|foto]]", "[[family|familia]].", "[[of|de]]", "[[my|mi]]", "[[is|es]]", "[[This|Esta]]", "[[a|una]]"],
-      "explanation": "Presentando una fotografía."
+      "correctSentence": "[[The|El]] [[ugly|feo]] [[monster|monstruo]] [[is|está]] [[in|en]] [[the|la]] [[movie|película]].",
+      "words": ["[[movie|película]].", "[[the|la]]", "[[in|en]]", "[[is|está]]", "[[monster|monstruo]]", "[[ugly|feo]]", "[[The|El]]"],
+      "explanation": "Uso del adjetivo 'ugly'."
     },
     "audioUrl": "audio/a1/unit-7/e39.mp3",
     "topicName": "Vocabulary"
@@ -791,18 +792,18 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e40",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Family Vocabulary",
+    "topic": "Colors",
     "difficulty": "easy",
-    "transcript": "Do you have any pets? Yes, a dog.",
+    "transcript": "Yellow and blue make green.",
     "content": {
-      "title": "Mascotas",
-      "instructions": "Elige la respuesta lógica.",
+      "title": "Mezcla de Colores",
+      "instructions": "Completa el resultado de la mezcla.",
       "questions": [
         {
-          "question": "[[Do|¿]] [[you|tú]] [[have|tienes]] [[any|algunas]] [[pets|mascotas]]?",
-          "options": ["[[Yes, a dog|Sí, un perro]]", "[[Yes, a car|Sí, un coche]]", "[[Yes, a chair|Sí, una silla]]"],
+          "question": "[[Yellow|Amarillo]] [[and|y]] [[blue|azul]] [[make|hacen]] (_____).",
+          "options": ["[[green|verde]]", "[[purple|morado]]", "[[orange|naranja]]"],
           "correctAnswer": 0,
-          "explanation": "Las mascotas (pets) son animales domésticos."
+          "explanation": "Mezclar amarillo y azul da como resultado el color verde."
         }
       ]
     },
@@ -813,37 +814,37 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e41",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Family Vocabulary",
+    "topic": "Questions",
     "difficulty": "medium",
-    "transcript": "My father's second wife is my stepmother.",
+    "transcript": "What color is your new car? It is silver.",
     "content": {
-      "title": "Madrastra",
-      "instructions": "Completa la relación.",
+      "title": "Coche Plateado",
+      "instructions": "Elige la respuesta correcta.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[father's|de mi padre]] [[second|segunda]] [[wife|esposa]] [[is|es]] [[my|mi]] (_____).",
-          "options": ["[[stepmother|madrastra]]", "[[godmother|madrina]]", "[[mother-in-law|suegra]]"],
+          "question": "[[What color|¿De qué color]] [[is|es]] [[your|tu]] [[new|nuevo]] [[car|coche]]?",
+          "options": ["[[It is silver|Es plateado]]", "[[It is big|Es grande]]", "[[It is here|Está aquí]]"],
           "correctAnswer": 0,
-          "explanation": "Stepmother es la madrastra."
+          "explanation": "Silver es el color plateado."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-7/e41.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u7-e42",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Family Vocabulary",
+    "topic": "Adjectives",
     "difficulty": "medium",
-    "transcript": "He is my half-brother.",
+    "transcript": "The long snake is under the green tree.",
     "content": {
-      "title": "Medio Hermano",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[He|Él]] [[is|es]] [[my|mi]] [[half-brother|medio hermano]].",
-      "words": ["[[half-brother|medio hermano]].", "[[is|es]]", "[[my|mi]]", "[[He|Él]]"],
-      "explanation": "Half-brother se usa cuando solo comparten un progenitor."
+      "title": "Serpiente Larga",
+      "instructions": "Ordena la oración compleja.",
+      "correctSentence": "[[The|La]] [[long|larga]] [[snake|serpiente]] [[is|está]] [[under|debajo de]] [[the|el]] [[green|verde]] [[tree|árbol]].",
+      "words": ["[[tree|árbol]].", "[[green|verde]]", "[[the|el]]", "[[under|debajo de]]", "[[is|está]]", "[[snake|serpiente]]", "[[long|larga]]", "[[The|La]]"],
+      "explanation": "Uso de dos adjetivos y una preposición."
     },
     "audioUrl": "audio/a1/unit-7/e42.mp3",
     "topicName": "Vocabulary"
@@ -852,18 +853,18 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e43",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Possessives",
-    "difficulty": "medium",
-    "transcript": "Whose toys are these? They are my children's toys.",
+    "topic": "Adjectives",
+    "difficulty": "easy",
+    "transcript": "These shoes are too small for me.",
     "content": {
-      "title": "Juguetes de los Niños",
-      "instructions": "Elige el posesivo correcto para plural irregular.",
+      "title": "Zapatos Pequeños",
+      "instructions": "Elige el adjetivo plural.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[are|son]] [[my|mis]] (_____) [[toys|juguetes]].",
-          "options": ["[[children's|de mis hijos/niños]]", "[[childrens|niños]]", "[[child's|de mi hijo]]"],
+          "question": "[[These|Estos]] [[shoes|zapatos]] [[are|son]] [[too|demasiado]] (_____).",
+          "options": ["[[small|pequeños]]", "[[smalls|pequeños (incorrecto)]]", "[[a small|un pequeño]]"],
           "correctAnswer": 0,
-          "explanation": "Para plurales irregulares como 'children', añadimos 's."
+          "explanation": "Los adjetivos no se pluralizan en inglés."
         }
       ]
     },
@@ -874,15 +875,15 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e44",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Family Description",
-    "difficulty": "medium",
-    "transcript": "My grandparents are very old but active.",
+    "topic": "Colors",
+    "difficulty": "easy",
+    "transcript": "The sky is blue and the sun is yellow.",
     "content": {
-      "title": "Abuelos Activos",
+      "title": "Cielo y Sol",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[My|Mis]] [[grandparents|abuelos]] [[are|son]] [[very|muy]] [[old|mayores]] [[but|pero]] [[active|activos]].",
-      "words": ["[[active|activos]].", "[[but|pero]]", "[[very|muy]]", "[[are|son]]", "[[grandparents|abuelos]]", "[[old|mayores]]", "[[My|Mis]]"],
-      "explanation": "Describiendo a los abuelos con adjetivos."
+      "correctSentence": "[[The|El]] [[sky|cielo]] [[is|es]] [[blue|azul]] [[and|y]] [[the|el]] [[sun|sol]] [[is|es]] [[yellow|amarillo]].",
+      "words": ["[[yellow|amarillo]].", "[[is|es]]", "[[sun|sol]]", "[[the|el]]", "[[and|y]]", "[[blue|azul]]", "[[is|es]]", "[[sky|cielo]]", "[[The|El]]"],
+      "explanation": "Colores básicos de la naturaleza."
     },
     "audioUrl": "audio/a1/unit-7/e44.mp3",
     "topicName": "Vocabulary"
@@ -891,18 +892,18 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e45",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Family Vocabulary",
-    "difficulty": "easy",
-    "transcript": "My brother's wife is my sister-in-law.",
+    "topic": "Adjectives",
+    "difficulty": "medium",
+    "transcript": "Is the box heavy or light? It is very heavy.",
     "content": {
-      "title": "Cuñada",
-      "instructions": "Completa la relación.",
+      "title": "Peso",
+      "instructions": "Elige la descripción correcta.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[brother's|de mi hermano]] [[wife|esposa]] [[is|es]] [[my|mi]] (_____).",
-          "options": ["[[sister-in-law|cuñada]]", "[[mother-in-law|suegra]]", "[[daughter-in-law|nuera]]"],
+          "question": "[[Is|¿Es]] [[the|la]] [[box|caja]] [[heavy|pesada]] [[or|o]] [[light|ligera]]?",
+          "options": ["[[It is heavy|Es pesada]]", "[[It is purple|Es morada]]", "[[It is new|Es nueva]]"],
           "correctAnswer": 0,
-          "explanation": "Sister-in-law es la cuñada."
+          "explanation": "Respuesta directa a la pregunta sobre el peso."
         }
       ]
     },
@@ -913,15 +914,15 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e46",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Personal Info",
-    "difficulty": "easy",
-    "transcript": "I have a twin sister.",
+    "topic": "Colors",
+    "difficulty": "medium",
+    "transcript": "I have a light blue shirt.",
     "content": {
-      "title": "Hermana Gemela",
+      "title": "Camisa Azul Claro",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[I|Yo]] [[have|tengo]] [[a|una]] [[twin|gemela]] [[sister|hermana]].",
-      "words": ["[[sister|hermana]].", "[[twin|gemela]]", "[[have|tengo]]", "[[I|Yo]]", "[[a|una]]"],
-      "explanation": "Twin significa gemelo/a o mellizo/a."
+      "correctSentence": "[[I|Yo]] [[have|tenue]] [[a|una]] [[light blue|azul claro]] [[shirt|camisa]].",
+      "words": ["[[shirt|camisa]].", "[[light blue|azul claro]]", "[[a|una]]", "[[have|tenue]]", "[[I|Yo]]"],
+      "explanation": "'Light' modifica el color azul."
     },
     "audioUrl": "audio/a1/unit-7/e46.mp3",
     "topicName": "Vocabulary"
@@ -930,57 +931,57 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e47",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Possessives",
-    "difficulty": "medium",
-    "transcript": "Our parents' house is in the village.",
+    "topic": "Adjectives",
+    "difficulty": "easy",
+    "transcript": "My grandfather is very tall.",
     "content": {
-      "title": "Casa de los Padres",
-      "instructions": "Elige el posesivo para plural regular.",
+      "title": "Abuelo Alto",
+      "instructions": "Elige el adjetivo.",
       "questions": [
         {
-          "question": "(_____) [[house|casa]] [[is|está]] [[in|en]] [[the|el]] [[village|pueblo]].",
-          "options": ["[[Our parents'|De nuestros padres]]", "[[Our parent's|De nuestro padre/madre]]", "[[Our parents|Nuestros padres]]"],
+          "question": "[[My|Mi]] [[grandfather|abuelo]] [[is|es]] [[very|muy]] (_____).",
+          "options": ["[[tall|alto]]", "[[long|largo]]", "[[pink|rosa]]"],
           "correctAnswer": 0,
-          "explanation": "Para plurales regulares terminados en 's', solo añadimos el apóstrofo: parents'."
+          "explanation": "'Tall' se usa para personas, 'long' para objetos."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-7/e47.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u7-e48",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Family Tree",
+    "topic": "Demonstratives",
     "difficulty": "medium",
-    "transcript": "Do you live with your extended family?",
+    "transcript": "Are those yellow birds yours?",
     "content": {
-      "title": "Familia Extendida",
+      "title": "Pájaros Amarillos",
       "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Do|¿]] [[you|tú]] [[live|vives]] [[with|con]] [[your|tu]] [[extended|extendida]] [[family|familia]]?",
-      "words": ["[[extended|extendida]]", "[[family|familia]]?", "[[live|vives]]", "[[with|con]]", "[[Do|¿]]", "[[you|tú]]", "[[your|tu]]"],
-      "explanation": "Extended family incluye tíos, primos, abuelos, etc."
+      "correctSentence": "[[Are|¿Son]] [[those|esos]] [[yellow|amarillos]] [[birds|pájaros]] [[yours|tuyos]]?",
+      "words": ["[[yours|tuyos]]?", "[[birds|pájaros]]", "[[yellow|amarillos]]", "[[those|esos]]", "[[Are|¿Son]]"],
+      "explanation": "Pregunta con demostrativo plural y adjetivo."
     },
     "audioUrl": "audio/a1/unit-7/e48.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u7-e49",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Family Vocabulary",
-    "difficulty": "medium",
-    "transcript": "My daughter's husband is my son-in-law.",
+    "topic": "Colors",
+    "difficulty": "easy",
+    "transcript": "Milk is white.",
     "content": {
-      "title": "Yerno",
-      "instructions": "Completa la relación.",
+      "title": "Leche",
+      "instructions": "Elige el color.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[daughter's|de mi hija]] [[husband|esposo]] [[is|es]] [[my|mi]] (_____).",
-          "options": ["[[son-in-law|yerno]]", "[[brother-in-law|cuñado]]", "[[nephew|sobrino]]"],
+          "question": "[[Milk|La leche]] [[is|es]] (_____).",
+          "options": ["[[white|blanca]]", "[[black|negra]]", "[[yellow|amarilla]]"],
           "correctAnswer": 0,
-          "explanation": "Son-in-law es el yerno."
+          "explanation": "La leche es de color blanco."
         }
       ]
     },
@@ -991,15 +992,15 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "id": "a1-u7-e50",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Personal Info",
-    "difficulty": "easy",
-    "transcript": "I love my family very much.",
+    "topic": "Adjectives",
+    "difficulty": "medium",
+    "transcript": "The new house is big and beautiful.",
     "content": {
-      "title": "Amor Familiar",
+      "title": "Casa Nueva",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[I|Yo]] [[love|amo]] [[my|mi]] [[family|familia]] [[very|muy]] [[much|mucho]].",
-      "words": ["[[much|mucho]].", "[[very|muy]]", "[[family|familia]]", "[[love|amo]]", "[[my|mi]]", "[[I|Yo]]"],
-      "explanation": "Expresando afecto por la familia."
+      "correctSentence": "[[The|La]] [[new|nueva]] [[house|casa]] [[is|es]] [[big|grande]] [[and|y]] [[beautiful|hermosa]].",
+      "words": ["[[beautiful|hermosa]].", "[[and|y]]", "[[big|grande]]", "[[is|es]]", "[[house|casa]]", "[[new|nueva]]", "[[The|La]]"],
+      "explanation": "Combinando varios adjetivos."
     },
     "audioUrl": "audio/a1/unit-7/e50.mp3",
     "topicName": "Vocabulary"
@@ -1009,17 +1010,23 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading Comprehension",
-    "difficulty": "hard",
-    "transcript": "My name is Peter and I have a big family. I live with my parents, my two sisters, and my grandfather. My father is a doctor and my mother is a teacher. My sisters' names are Lucy and Emma. Lucy is ten years old and Emma is eight. My grandfather is seventy years old. He is very kind and he loves telling stories about our ancestors. We have a dog called Max. He is also part of our family.",
+    "difficulty": "medium",
+    "transcript": "My room is small but very comfortable. The walls are light blue and the curtains are white. I have a big brown desk near the window. On the desk, there is a new silver laptop. My bed is small and has a dark blue blanket.",
     "content": {
-      "title": "Lectura: La Familia de Peter",
-      "instructions": "Lee el texto y responde.",
+      "title": "Mi Habitación",
+      "instructions": "Lee sobre la habitación y responde.",
       "questions": [
         {
-          "question": "[[How|Cuántas]] [[many|muchas]] [[sisters|hermanas]] [[does|aux]] [[Peter|Peter]] [[have|tiene]]?",
-          "options": ["[[Two|Dos]]", "[[One|Una]]", "[[Three|Tres]]"],
+          "question": "[[What color|¿De qué color]] [[are|son]] [[the|las]] [[walls|paredes]]?",
+          "options": ["[[Light blue|Azul claro]]", "[[White|Blancas]]", "[[Dark blue|Azul oscuro]]"],
           "correctAnswer": 0,
-          "explanation": "Peter dice que vive con sus dos hermanas (two sisters)."
+          "explanation": "El texto dice: 'The walls are light blue'."
+        },
+        {
+          "question": "[[How|¿Cómo]] [[is|es]] [[the|el]] [[laptop|portátil]]?",
+          "options": ["[[New and silver|Nuevo y plateado]]", "[[Old and brown|Viejo y marrón]]", "[[Small and white|Pequeño y blanco]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto menciona: 'a new silver laptop'."
         }
       ]
     },
@@ -1031,17 +1038,23 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading Comprehension",
-    "difficulty": "hard",
-    "transcript": "My name is Peter and I have a big family. I live with my parents, my two sisters, and my grandfather. My father is a doctor and my mother is a teacher. My sisters' names are Lucy and Emma. Lucy is ten years old and Emma is eight. My grandfather is seventy years old. He is very kind and he loves telling stories about our ancestors. We have a dog called Max. He is also part of our family.",
+    "difficulty": "medium",
+    "transcript": "This is my favorite garden. There are red roses and yellow sunflowers. The grass is very green today because it is raining. In the middle of the garden, there is a big old tree with long branches. Under the tree, there is a small wooden bench.",
     "content": {
-      "title": "Lectura: Los Padres de Peter",
-      "instructions": "Lee el texto y responde.",
+      "title": "El Jardín",
+      "instructions": "Lee sobre el jardín y responde.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[is|es]] [[his|su (de él)]] [[mother's|de su madre]] [[job|trabajo]]?",
-          "options": ["[[Teacher|Profesora]]", "[[Doctor|Doctora]]", "[[Nurse|Enfermera]]"],
+          "question": "[[What color|¿De qué color]] [[are|son]] [[the|las]] [[roses|rosas]]?",
+          "options": ["[[Red|Rojas]]", "[[Yellow|Amarillas]]", "[[Green|Verdes]]"],
           "correctAnswer": 0,
-          "explanation": "Peter menciona que su madre es profesora (teacher)."
+          "explanation": "El texto dice: 'There are red roses'."
+        },
+        {
+          "question": "[[How|¿Cómo]] [[is|es]] [[the|el]] [[tree|árbol]]?",
+          "options": ["[[Big and old|Grande y viejo]]", "[[Small and new|Pequeño y nuevo]]", "[[Short and green|Bajo y verde]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto describe: 'a big old tree'."
         }
       ]
     },
@@ -1053,17 +1066,23 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading Comprehension",
-    "difficulty": "hard",
-    "transcript": "My name is Peter and I have a big family. I live with my parents, my two sisters, and my grandfather. My father is a doctor and my mother is a teacher. My sisters' names are Lucy and Emma. Lucy is ten years old and Emma is eight. My grandfather is seventy years old. He is very kind and he loves telling stories about our ancestors. We have a dog called Max. He is also part of our family.",
+    "difficulty": "medium",
+    "transcript": "Look at that big house on the hill. It is very old but it looks beautiful. The roof is dark grey and the windows are small and white. The front door is bright red. There is a long stone path leading to the entrance.",
     "content": {
-      "title": "Lectura: El Abuelo de Peter",
-      "instructions": "Lee el texto y responde.",
+      "title": "La Casa en la Colina",
+      "instructions": "Lee y elige la respuesta correcta.",
       "questions": [
         {
-          "question": "[[How|Qué]] [[old|edad]] [[is|tiene]] [[the|el]] [[grandfather|abuelo]]?",
-          "options": ["[[Seventy|Setenta]]", "[[Sixty|Sesenta]]", "[[Eighty|Ochenta]]"],
+          "question": "[[What color|¿De qué color]] [[is|es]] [[the|la]] [[front door|puerta principal]]?",
+          "options": ["[[Bright red|Rojo brillante]]", "[[Dark grey|Gris oscuro]]", "[[White|Blanca]]"],
           "correctAnswer": 0,
-          "explanation": "El abuelo tiene setenta años (seventy years old)."
+          "explanation": "El texto dice: 'The front door is bright red'."
+        },
+        {
+          "question": "[[Is|¿Es]] [[the|la]] [[house|casa]] [[new|nueva]]?",
+          "options": ["[[No, it is old|No, es vieja]]", "[[Yes, it is new|Sí, es nueva]]", "[[The text doesn't say|El texto no lo dice]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'It is very old'."
         }
       ]
     },
@@ -1075,17 +1094,23 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading Comprehension",
-    "difficulty": "hard",
-    "transcript": "Today is a special day. It is my cousin's birthday party. All my relatives are at my aunt's house. My uncle is cooking a barbecue in the garden. My cousins are playing with their new toys. My parents are talking to my father-in-law. Even my nephew and niece are here! We are a very united family and we love spending time together on weekends.",
+    "difficulty": "medium",
+    "transcript": "I have a small cat and a big dog. The cat is orange with white paws. It is very thin and fast. The dog is black and very heavy. It is old and slow, but it is very friendly. They are good friends.",
     "content": {
-      "title": "Lectura: La Fiesta de Cumpleaños",
-      "instructions": "Lee el texto y responde.",
+      "title": "Mis Mascotas",
+      "instructions": "Lee sobre las mascotas y responde.",
       "questions": [
         {
-          "question": "[[Where|Dónde]] [[is|está]] [[the|la]] [[party|fiesta]]?",
-          "options": ["[[At the aunt's house|En casa de la tía]]", "[[At the park|En el parque]]", "[[At a restaurant|En un restaurante]]"],
+          "question": "[[What color|¿De qué color]] [[is|es]] [[the|el]] [[cat|gato]]?",
+          "options": ["[[Orange and white|Naranja y blanco]]", "[[Black|Negro]]", "[[Grey|Gris]]"],
           "correctAnswer": 0,
-          "explanation": "La fiesta es en casa de la tía (aunt's house)."
+          "explanation": "El texto dice: 'The cat is orange with white paws'."
+        },
+        {
+          "question": "[[How|¿Cómo]] [[is|es]] [[the|el]] [[dog|perro]]?",
+          "options": ["[[Heavy and slow|Pesado y lento]]", "[[Thin and fast|Delgado y rápido]]", "[[Small and young|Pequeño y joven]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto describe al perro como 'heavy' y 'slow'."
         }
       ]
     },
@@ -1097,17 +1122,23 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading Comprehension",
-    "difficulty": "hard",
-    "transcript": "Today is a special day. It is my cousin's birthday party. All my relatives are at my aunt's house. My uncle is cooking a barbecue in the garden. My cousins are playing with their new toys. My parents are talking to my father-in-law. Even my nephew and niece are here! We are a very united family and we love spending time together on weekends.",
+    "difficulty": "medium",
+    "transcript": "This is my new car. It is a small blue car, but it is very fast. The seats inside are dark grey and the dashboard is black. It has a big trunk for my suitcases. I love driving it on sunny days.",
     "content": {
-      "title": "Lectura: ¿Quién cocina?",
-      "instructions": "Lee el texto y responde.",
+      "title": "Mi Coche Nuevo",
+      "instructions": "Lee y responde.",
       "questions": [
         {
-          "question": "[[Who|Quién]] [[is|está]] [[cooking|cocinando]]?",
-          "options": ["[[The uncle|El tío]]", "[[The aunt|La tía]]", "[[The father|El padre]]"],
+          "question": "[[What color|¿De qué color]] [[is|es]] [[the|el]] [[car|coche]]?",
+          "options": ["[[Blue|Azul]]", "[[Black|Negro]]", "[[Grey|Gris]]"],
           "correctAnswer": 0,
-          "explanation": "El tío (uncle) está cocinando una barbacoa."
+          "explanation": "El texto dice: 'It is a small blue car'."
+        },
+        {
+          "question": "[[Is|¿Es]] [[the|el]] [[trunk|maletero]] [[small|pequeño]]?",
+          "options": ["[[No, it is big|No, es grande]]", "[[Yes, it is small|Sí, es pequeño]]", "[[The text doesn't say|El texto no lo dice]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'It has a big trunk'."
         }
       ]
     },
@@ -1119,17 +1150,23 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading Comprehension",
-    "difficulty": "hard",
-    "transcript": "Hello, I am Maria. I want to tell you about my family tree. My grandparents have three children: my father and my two aunts. My father is married to my mother, Sofia. They have two children: my brother Luis and me. My aunts are also married and I have four cousins. We visit our grandparents every Sunday. They live in a small house near the beach.",
+    "difficulty": "medium",
+    "transcript": "The mountains in winter are beautiful. The peaks are white with snow, and the sky is a very light blue. The trees are dark green, but some are brown and dry. It is very cold, but the view is amazing.",
     "content": {
-      "title": "Lectura: El Árbol de Maria",
-      "instructions": "Lee sobre Maria y responde.",
+      "title": "Montañas en Invierno",
+      "instructions": "Lee sobre el paisaje y responde.",
       "questions": [
         {
-          "question": "[[How|Cuántos]] [[many|muchos]] [[children|hijos]] [[do|aux]] [[Maria's|de Maria]] [[grandparents|abuelos]] [[have|tienen]]?",
-          "options": ["[[Three|Tres]]", "[[Two|Dos]]", "[[Four|Cuatro]]"],
+          "question": "[[What color|¿De qué color]] [[are|son]] [[the|los]] [[peaks|picos]]?",
+          "options": ["[[White|Blancos]]", "[[Light blue|Azul claro]]", "[[Dark green|Verde oscuro]]"],
           "correctAnswer": 0,
-          "explanation": "Los abuelos tienen tres hijos (her father and two aunts)."
+          "explanation": "El texto dice: 'The peaks are white with snow'."
+        },
+        {
+          "question": "[[How|¿Cómo]] [[is|es]] [[the|el]] [[sky|cielo]]?",
+          "options": ["[[Light blue|Azul claro]]", "[[Dark grey|Gris oscuro]]", "[[Yellow|Amarillo]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'the sky is a very light blue'."
         }
       ]
     },
@@ -1141,17 +1178,23 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading Comprehension",
-    "difficulty": "hard",
-    "transcript": "Hello, I am Maria. I want to tell you about my family tree. My grandparents have three children: my father and my two aunts. My father is married to my mother, Sofia. They have two children: my brother Luis and me. My aunts are also married and I have four cousins. We visit our grandparents every Sunday. They live in a small house near the beach.",
+    "difficulty": "medium",
+    "transcript": "Sarah is wearing a long pink dress today. She has short blonde hair and blue eyes. Her shoes are small and silver. She looks very elegant for the party. Her bag is also pink, but it is a dark pink.",
     "content": {
-      "title": "Lectura: ¿Dónde viven los abuelos?",
-      "instructions": "Lee sobre Maria y responde.",
+      "title": "El Vestido de Sarah",
+      "instructions": "Lee sobre la ropa de Sarah y responde.",
       "questions": [
         {
-          "question": "[[Where|Dónde]] [[do|aux]] [[the|los]] [[grandparents|abuelos]] [[live|viven]]?",
-          "options": ["[[Near the beach|Cerca de la playa]]", "[[In the city|En la ciudad]]", "[[In a big farm|En una granja grande]]"],
+          "question": "[[What color|¿De qué color]] [[is|es]] [[her|su]] [[dress|vestido]]?",
+          "options": ["[[Pink|Rosa]]", "[[Silver|Plateado]]", "[[Blonde|Rubio]]"],
           "correctAnswer": 0,
-          "explanation": "Viven en una casa pequeña cerca de la playa (near the beach)."
+          "explanation": "El texto dice: 'Sarah is wearing a long pink dress'."
+        },
+        {
+          "question": "[[How|¿Cómo]] [[is|es]] [[her|su]] [[hair|pelo]]?",
+          "options": ["[[Short and blonde|Corto y rubio]]", "[[Long and blonde|Largo y rubio]]", "[[Short and black|Corto y negro]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'She has short blonde hair'."
         }
       ]
     },
@@ -1163,17 +1206,23 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading Comprehension",
-    "difficulty": "hard",
-    "transcript": "Meet the Robinsons. They are a typical family from England. Mr. Robinson is a lawyer and Mrs. Robinson is an artist. They have one daughter, Lily, who is five. They don't have a son, but they have a cat and a dog. On weekends, they visit their relatives in the countryside. Lily loves playing with her cousins and her grandparents.",
+    "difficulty": "medium",
+    "transcript": "This old book is very heavy. The cover is dark brown and the pages are yellow. It is a very long story about a big dragon and a small bird. The dragon is green and the bird is bright blue. I like this book.",
     "content": {
-      "title": "Lectura: Los Robinson",
-      "instructions": "Lee sobre los Robinson y responde.",
+      "title": "El Libro Viejo",
+      "instructions": "Lee sobre el libro y responde.",
       "questions": [
         {
-          "question": "[[Does|¿Tiene]] [[the|la]] [[family|familia]] [[have|una]] [[a|una]] [[son|hijo]]?",
-          "options": ["[[No, they don't|No, no tienen]]", "[[Yes, they do|Sí, tienen]]", "[[They have two sons|Tienen dos hijos]]"],
+          "question": "[[What color|¿De qué color]] [[is|es]] [[the|la]] [[cover|portada]]?",
+          "options": ["[[Dark brown|Marrón oscuro]]", "[[Yellow|Amarilla]]", "[[Green|Verde]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice 'They don't have a son'."
+          "explanation": "El texto dice: 'The cover is dark brown'."
+        },
+        {
+          "question": "[[Is|¿Es]] [[the|el]] [[book|libro]] [[light|ligero]]?",
+          "options": ["[[No, it is heavy|No, es pesado]]", "[[Yes, it is light|Sí, es ligero]]", "[[The text doesn't say|El texto no lo dice]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'This old book is very heavy'."
         }
       ]
     },
@@ -1185,17 +1234,23 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading Comprehension",
-    "difficulty": "hard",
-    "transcript": "Meet the Robinsons. They are a typical family from England. Mr. Robinson is a lawyer and Mrs. Robinson is an artist. They have one daughter, Lily, who is five. They don't have a son, but they have a cat and a dog. On weekends, they visit their relatives in the countryside. Lily loves playing with her cousins and her grandparents.",
+    "difficulty": "medium",
+    "transcript": "The fruit basket is full of colors. There are yellow bananas, red apples, and orange oranges. There is also a big green watermelon. Some grapes are purple and others are green. It is a very healthy and colorful snack.",
     "content": {
-      "title": "Lectura: Mascotas Robinson",
-      "instructions": "Lee sobre los Robinson y responde.",
+      "title": "Cesta de Frutas",
+      "instructions": "Lee sobre las frutas y responde.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[pets|mascotas]] [[do|aux]] [[they|ellos]] [[have|tienen]]?",
-          "options": ["[[A cat and a dog|Un gato y un perro]]", "[[Two cats|Dos gatos]]", "[[A bird|Un pájaro]]"],
+          "question": "[[What color|¿De qué color]] [[are|son]] [[the|las]] [[bananas|plátanos]]?",
+          "options": ["[[Yellow|Amarillos]]", "[[Red|Rojos]]", "[[Green|Verdes]]"],
           "correctAnswer": 0,
-          "explanation": "Tienen un gato y un perro (a cat and a dog)."
+          "explanation": "El texto dice: 'There are yellow bananas'."
+        },
+        {
+          "question": "[[How|¿Cómo]] [[is|es]] [[the|la]] [[watermelon|sandía]]?",
+          "options": ["[[Big and green|Grande y verde]]", "[[Small and red|Pequeña y roja]]", "[[Long and yellow|Larga y amarilla]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'There is also a big green watermelon'."
         }
       ]
     },
@@ -1207,17 +1262,23 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading Comprehension",
-    "difficulty": "hard",
-    "transcript": "Meet the Robinsons. They are a typical family from England. Mr. Robinson is a lawyer and Mrs. Robinson is an artist. They have one daughter, Lily, who is five. They don't have a son, but they have a cat and a dog. On weekends, they visit their relatives in the countryside. Lily loves playing with her cousins and her grandparents.",
+    "difficulty": "medium",
+    "transcript": "My city is very big and modern. There are many tall buildings and wide streets. Most buildings are grey or white, but some are very colorful. At night, there are many bright lights. I live in a small apartment in a big blue building.",
     "content": {
-      "title": "Lectura: El Trabajo de Mrs. Robinson",
-      "instructions": "Lee sobre los Robinson y responde.",
+      "title": "Mi Ciudad",
+      "instructions": "Lee sobre la ciudad y responde.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[is|es]] [[Mrs.|la Sra.]] [[Robinson's|de Robinson]] [[job|trabajo]]?",
-          "options": ["[[Artist|Artista]]", "[[Lawyer|Abogada]]", "[[Doctor|Doctora]]"],
+          "question": "[[Are|¿Son]] [[the|los]] [[buildings|edificios]] [[short|bajos]]?",
+          "options": ["[[No, they are tall|No, son altos]]", "[[Yes, they are short|Sí, son bajos]]", "[[They are small|Son pequeños]]"],
           "correctAnswer": 0,
-          "explanation": "Mrs. Robinson is an artist (artista)."
+          "explanation": "El texto dice: 'There are many tall buildings'."
+        },
+        {
+          "question": "[[What color|¿De qué color]] [[is|es]] [[the|el]] [[building|edificio]] [[of|de]] [[the|el]] [[apartment|apartamento]]?",
+          "options": ["[[Blue|Azul]]", "[[Grey|Gris]]", "[[White|Blanco]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'I live in a small apartment in a big blue building'."
         }
       ]
     },

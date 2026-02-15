@@ -5,23 +5,23 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "id": "a1-u6-e1",
     "type": "flashcard",
     "level": "A1",
-    "topic": "Common Food",
+    "topic": "Family Members",
     "difficulty": "easy",
-    "transcript": "Bread. Rice. Pasta. Chicken. Fish. Meat. Salad. Fruit. Vegetables. Cheese.",
+    "transcript": "Mother. Father. Parents. Son. Daughter. Brother. Sister. Siblings. Grandfather. Grandmother.",
     "content": {
-      "title": "Vocabulario: Comida Común",
-      "instructions": "Aprende los nombres de alimentos básicos.",
+      "title": "Vocabulario: La Familia (Básico)",
+      "instructions": "Aprende los miembros básicos de la familia.",
       "items": [
-        { "front": "[[Bread|Pan]]", "back": "Pan" },
-        { "front": "[[Rice|Arroz]]", "back": "Arroz" },
-        { "front": "[[Pasta|Pasta]]", "back": "Pasta" },
-        { "front": "[[Chicken|Pollo]]", "back": "Chicken" },
-        { "front": "[[Fish|Pescado]]", "back": "Pescado" },
-        { "front": "[[Meat|Carne]]", "back": "Carne" },
-        { "front": "[[Salad|Ensalada]]", "back": "Ensalada" },
-        { "front": "[[Fruit|Fruta]]", "back": "Fruta" },
-        { "front": "[[Vegetables|Verduras]]", "back": "Verduras" },
-        { "front": "[[Cheese|Queso]]", "back": "Queso" }
+        { "front": "[[Mother|Madre]]", "back": "Madre" },
+        { "front": "[[Father|Padre]]", "back": "Padre" },
+        { "front": "[[Parents|Padres]]", "back": "Padres" },
+        { "front": "[[Son|Hijo]]", "back": "Hijo" },
+        { "front": "[[Daughter|Hija]]", "back": "Hija" },
+        { "front": "[[Brother|Hermano]]", "back": "Hermano" },
+        { "front": "[[Sister|Hermana]]", "back": "Hermana" },
+        { "front": "[[Siblings|Hermanos (en general)]]", "back": "Hermanos (en general)" },
+        { "front": "[[Grandfather|Abuelo]]", "back": "Abuelo" },
+        { "front": "[[Grandmother|Abuela]]", "back": "Abuela" }
       ]
     },
     "audioUrl": "audio/a1/unit-6/e1.mp3",
@@ -31,23 +31,23 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "id": "a1-u6-e2",
     "type": "flashcard",
     "level": "A1",
-    "topic": "Common Drinks",
+    "topic": "Extended Family",
     "difficulty": "easy",
-    "transcript": "Water. Coffee. Tea. Milk. Juice. Beer. Wine. Soda. Lemonade. Hot chocolate.",
+    "transcript": "Uncle. Aunt. Cousin. Nephew. Niece. Husband. Wife. Father-in-law. Mother-in-law. Relatives.",
     "content": {
-      "title": "Vocabulario: Bebidas",
-      "instructions": "Aprende los nombres de bebidas comunes.",
+      "title": "Vocabulario: Familia Extendida",
+      "instructions": "Aprende otros parientes comunes.",
       "items": [
-        { "front": "[[Water|Agua]]", "back": "Agua" },
-        { "front": "[[Coffee|Café]]", "back": "Café" },
-        { "front": "[[Tea|Té]]", "back": "Tea" },
-        { "front": "[[Milk|Leche]]", "back": "Leche" },
-        { "front": "[[Juice|Zumo/Jugo]]", "back": "Zumo/Jugo" },
-        { "front": "[[Beer|Cerveza]]", "back": "Cerveza" },
-        { "front": "[[Wine|Vino]]", "back": "Wine" },
-        { "front": "[[Soda|Refresco]]", "back": "Refresco" },
-        { "front": "[[Lemonade|Limonada]]", "back": "Limonada" },
-        { "front": "[[Hot chocolate|Chocolate caliente]]", "back": "Hot chocolate" }
+        { "front": "[[Uncle|Tío]]", "back": "Tío" },
+        { "front": "[[Aunt|Tía]]", "back": "Tía" },
+        { "front": "[[Cousin|Primo/a]]", "back": "Primo/a" },
+        { "front": "[[Nephew|Sobrino]]", "back": "Sobrino" },
+        { "front": "[[Niece|Sobrina]]", "back": "Sobrina" },
+        { "front": "[[Husband|Esposo]]", "back": "Esposo" },
+        { "front": "[[Wife|Esposa]]", "back": "Esposa" },
+        { "front": "[[Father-in-law|Suegro]]", "back": "Suegro" },
+        { "front": "[[Mother-in-law|Suegra]]", "back": "Suegra" },
+        { "front": "[[Relatives|Parientes]]", "back": "Parientes" }
       ]
     },
     "audioUrl": "audio/a1/unit-6/e2.mp3",
@@ -57,59 +57,59 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "id": "a1-u6-e3",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Countable/Uncountable",
+    "topic": "Family Vocabulary",
     "difficulty": "easy",
-    "transcript": "I have an apple for lunch.",
+    "transcript": "My father's sister is my aunt.",
     "content": {
-      "title": "Contables: Singular",
-      "instructions": "Completa la oración.",
+      "title": "Relaciones Familiares",
+      "instructions": "Elige la palabra correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[have|tengo]] (_____) [[apple|manzana]] [[for|para]] [[lunch|almuerzo]].",
-          "options": ["[[a|una]]", "[[an|una (vocal)]]", "[[some|algunas]]"],
-          "correctAnswer": 1,
-          "explanation": "Usamos 'an' antes de sustantivos contables singulares que empiezan con vocal."
+          "question": "[[My|Mi]] [[father's|de mi padre]] [[sister|hermana]] [[is|es]] [[my|mi]] (_____).",
+          "options": ["[[aunt|tía]]", "[[uncle|tío]]", "[[cousin|primo/a]]"],
+          "correctAnswer": 0,
+          "explanation": "La hermana de tu padre es tu tía (aunt)."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-6/e3.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u6-e4",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Countable/Uncountable",
+    "topic": "Family Vocabulary",
     "difficulty": "easy",
-    "transcript": "I drink some water.",
+    "transcript": "My mother's brother is my uncle.",
     "content": {
-      "title": "Incontables",
-      "instructions": "Completa la oración.",
+      "title": "Relaciones Familiares",
+      "instructions": "Elige la palabra correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[drink|bebo]] (_____) [[water|agua]].",
-          "options": ["[[a|un]]", "[[an|un]]", "[[some|un poco de]]"],
-          "correctAnswer": 2,
-          "explanation": "Usamos 'some' con sustantivos incontables como 'water'."
+          "question": "[[My|Mi]] [[mother's|de mi madre]] [[brother|hermano]] [[is|es]] [[my|mi]] (_____).",
+          "options": ["[[uncle|tío]]", "[[nephew|sobrino]]", "[[grandfather|abuelo]]"],
+          "correctAnswer": 0,
+          "explanation": "El hermano de tu madre es tu tío (uncle)."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-6/e4.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u6-e5",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Ordering",
+    "topic": "Possessives",
     "difficulty": "easy",
-    "transcript": "I would like a coffee, please.",
+    "transcript": "This is my brother.",
     "content": {
-      "title": "Pedir en un Café",
+      "title": "Presentando a la Familia",
       "instructions": "Ordena las palabras.",
-      "correctSentence": "[[I|Yo]] [[would|querría]] [[like|gustar]] [[a|un]] [[coffee|café]], [[please|por favor]].",
-      "words": ["[[like|gustar]]", "[[please|por favor]].", "[[would|querría]]", "[[coffee|café]],", "[[I|Yo]]", "[[a|un]]"],
-      "explanation": "'I would like' es la forma educada de pedir algo."
+      "correctSentence": "[[This|Este]] [[is|es]] [[my|mi]] [[brother|hermano]].",
+      "words": ["[[brother|hermano]].", "[[is|es]]", "[[This|Este]]", "[[my|mi]]"],
+      "explanation": "Usamos 'This is my...' para presentar a alguien."
     },
     "audioUrl": "audio/a1/unit-6/e5.mp3",
     "topicName": "Grammar"
@@ -118,18 +118,18 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "id": "a1-u6-e6",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Some/Any",
+    "topic": "Possessive Adjectives",
     "difficulty": "easy",
-    "transcript": "Do you have any milk?",
+    "transcript": "His name is John.",
     "content": {
-      "title": "Preguntas con Any",
-      "instructions": "Elige la palabra correcta.",
+      "title": "Adjetivos Posesivos",
+      "instructions": "Elige el posesivo correcto para un hombre.",
       "questions": [
         {
-          "question": "(_____) [[you|tú]] [[have|tienes]] (_____) [[milk|leche]]?",
-          "options": ["[[Do|Hacer]] / [[some|algo]]", "[[Do|Hacer]] / [[any|algo]]", "[[Are|Ser]] / [[any|algo]]"],
-          "correctAnswer": 1,
-          "explanation": "Usamos 'any' en preguntas y negaciones."
+          "question": "(_____) [[name|nombre]] [[is|es]] [[John|John]].",
+          "options": ["[[His|Su (de él)]]", "[[Her|Su (de ella)]]", "[[Your|Tu]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'His' para posesión masculina singular."
         }
       ]
     },
@@ -140,76 +140,76 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "id": "a1-u6-e7",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary",
+    "topic": "Possessive Adjectives",
     "difficulty": "easy",
-    "transcript": "I eat breakfast at 8 AM.",
+    "transcript": "Her name is Mary.",
     "content": {
-      "title": "Comidas del Día",
-      "instructions": "Elige la comida correcta.",
+      "title": "Adjetivos Posesivos",
+      "instructions": "Elige el posesivo correcto para una mujer.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[eat|como]] (_____) [[at|a las]] [[8|8]] [[AM|AM]].",
-          "options": ["[[lunch|almuerzo]]", "[[dinner|cena]]", "[[breakfast|desayuno]]"],
-          "correctAnswer": 2,
-          "explanation": "Breakfast es el desayuno."
+          "question": "(_____) [[name|nombre]] [[is|es]] [[Mary|Mary]].",
+          "options": ["[[Her|Su (de ella)]]", "[[His|Su (de él)]]", "[[Our|Nuestro]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'Her' para posesión femenina singular."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-6/e7.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u6-e8",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Ordering",
+    "topic": "Family Questions",
     "difficulty": "easy",
-    "transcript": "Can I have the menu?",
+    "transcript": "Do you have any brothers?",
     "content": {
-      "title": "Pedir el Menú",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Can|Puedo]] [[I|yo]] [[have|tener]] [[the|el]] [[menu|menú]]?",
-      "words": ["[[have|tener]]", "[[menu|menú]]?", "[[the|el]]", "[[Can|Puedo]]", "[[I|yo]]"],
-      "explanation": "Forma común de pedir la carta."
+      "title": "Preguntas sobre Hermanos",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[Do|¿]] [[you|tú]] [[have|tienes]] [[any|algunos]] [[brothers|hermanos]]?",
+      "words": ["[[any|algunos]]", "[[brothers|hermanos]]?", "[[have|tienes]]", "[[Do|¿]]", "[[you|tú]]"],
+      "explanation": "Pregunta común sobre la familia."
     },
     "audioUrl": "audio/a1/unit-6/e8.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u6-e9",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Countable/Uncountable",
+    "topic": "Family Vocabulary",
     "difficulty": "easy",
-    "transcript": "There is some bread on the table.",
+    "transcript": "My son's daughter is my granddaughter.",
     "content": {
-      "title": "Pan: Incontable",
-      "instructions": "Completa con 'some'.",
+      "title": "Nietos",
+      "instructions": "Elige la palabra correcta.",
       "questions": [
         {
-          "question": "[[There|Allí]] [[is|hay]] (_____) [[bread|pan]] [[on|sobre]] [[the|la]] [[table|mesa]].",
-          "options": ["[[a|un]]", "[[some|algo de]]", "[[any|algo]]"],
-          "correctAnswer": 1,
-          "explanation": "Bread es incontable, usamos 'some' en afirmativo."
+          "question": "[[My|Mi]] [[son's|de mi hijo]] [[daughter|hija]] [[is|es]] [[my|mi]] (_____).",
+          "options": ["[[granddaughter|nieta]]", "[[grandson|nieto]]", "[[niece|sobrina]]"],
+          "correctAnswer": 0,
+          "explanation": "La hija de tu hijo es tu nieta (granddaughter)."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-6/e9.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u6-e10",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Likes",
+    "topic": "Possessives",
     "difficulty": "easy",
-    "transcript": "I really like Italian food.",
+    "transcript": "My grandparents live in Spain.",
     "content": {
-      "title": "Gustos",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[I|Yo]] [[really|realmente]] [[like|gustar]] [[Italian|italiana]] [[food|comida]].",
-      "words": ["[[Italian|italiana]]", "[[food|comida]].", "[[like|gustar]]", "[[I|Yo]]", "[[really|realmente]]"],
-      "explanation": "Expresando preferencias."
+      "title": "Mis Abuelos",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[My|Mis]] [[grandparents|abuelos]] [[live|viven]] [[in|en]] [[Spain|España]].",
+      "words": ["[[live|viven]]", "[[Spain|España]].", "[[grandparents|abuelos]]", "[[My|Mis]]"],
+      "explanation": "Grandparents engloba a abuelo y abuela."
     },
     "audioUrl": "audio/a1/unit-6/e10.mp3",
     "topicName": "Vocabulary"
@@ -218,79 +218,79 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "id": "a1-u6-e11",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary",
-    "difficulty": "easy",
-    "transcript": "What is your favorite fruit? My favorite fruit is banana.",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "transcript": "Is that your sister's car?",
     "content": {
-      "title": "Frutas",
-      "instructions": "Completa el nombre de la fruta.",
+      "title": "El Posesivo 's",
+      "instructions": "Elige la forma correcta del posesivo.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[favorite|favorita]] [[fruit|fruta]] [[is|es]] (_____) .",
-          "options": ["[[banana|plátano]]", "[[chicken|pollo]]", "[[rice|arroz]]"],
+          "question": "[[Is|¿Es]] [[that|ese]] [[your|tu]] (_____) [[car|coche]]?",
+          "options": ["[[sister's|de tu hermana]]", "[[sisters|hermanas]]", "[[sister|hermana]]"],
           "correctAnswer": 0,
-          "explanation": "Banana es una fruta."
+          "explanation": "Usamos 's para indicar posesión: sister's car = el coche de la hermana."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-6/e11.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u6-e12",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Ordering",
+    "topic": "Family Relations",
     "difficulty": "easy",
-    "transcript": "Would you like some tea?",
+    "transcript": "I have two sisters and one brother.",
     "content": {
-      "title": "Ofrecer",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Would|Querrías]] [[you|tú]] [[like|gustar]] [[some|algo de]] [[tea|té]]?",
-      "words": ["[[tea|té]]?", "[[like|gustar]]", "[[you|tú]]", "[[some|algo de]]", "[[Would|Querrías]]"],
-      "explanation": "Ofrecer algo educadamente."
+      "title": "Contando Hermanos",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[I|Yo]] [[have|tengo]] [[two|dos]] [[sisters|hermanas]] [[and|y]] [[one|un]] [[brother|hermano]].",
+      "words": ["[[one|un]]", "[[brother|hermano]].", "[[sisters|hermanas]]", "[[and|y]]", "[[I|Yo]]", "[[have|tengo]]", "[[two|dos]]"],
+      "explanation": "Describiendo el tamaño de la familia inmediata."
     },
     "audioUrl": "audio/a1/unit-6/e12.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u6-e13",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary",
+    "topic": "Possessive Adjectives",
     "difficulty": "easy",
-    "transcript": "The bill, please.",
+    "transcript": "We love our family.",
     "content": {
-      "title": "La Cuenta",
-      "instructions": "Elige la palabra para 'cuenta'.",
+      "title": "Nuestro Posesivo",
+      "instructions": "Elige el posesivo para 'we'.",
       "questions": [
         {
-          "question": "[[The|La]] (_____), [[please|por favor]].",
-          "options": ["[[bill|cuenta]]", "[[menu|menú]]", "[[order|pedido]]"],
+          "question": "[[We|Nosotros]] [[love|amamos]] (_____) [[family|familia]].",
+          "options": ["[[our|nuestra]]", "[[their|su (de ellos)]]", "[[your|vuestra]]"],
           "correctAnswer": 0,
-          "explanation": "Bill es la cuenta en un restaurante."
+          "explanation": "El posesivo de 'we' es 'our'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-6/e13.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u6-e14",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Some/Any",
+    "topic": "Possessive Adjectives",
     "difficulty": "easy",
-    "transcript": "We don't have any eggs.",
+    "transcript": "They live with their parents.",
     "content": {
-      "title": "Negación con Any",
-      "instructions": "Completa la negación.",
+      "title": "Su Posesivo (Ellos)",
+      "instructions": "Elige el posesivo para 'they'.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[don't|no]] [[have|tenemos]] (_____) [[eggs|huevos]].",
-          "options": ["[[some|algunos]]", "[[any|ningunos]]", "[[a|un]]"],
-          "correctAnswer": 1,
-          "explanation": "Any se usa en oraciones negativas."
+          "question": "[[They|Ellos]] [[live|viven]] [[with|con]] (_____) [[parents|padres]].",
+          "options": ["[[their|su (de ellos)]]", "[[his|su (de él)]]", "[[her|su (de ella)]]"],
+          "correctAnswer": 0,
+          "explanation": "El posesivo de 'they' es 'their'."
         }
       ]
     },
@@ -301,35 +301,35 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "id": "a1-u6-e15",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Vocabulary",
+    "topic": "Family Tree",
     "difficulty": "easy",
-    "transcript": "I eat a lot of vegetables.",
+    "transcript": "My mother's name is Anna.",
     "content": {
-      "title": "Verduras",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[I|Yo]] [[eat|como]] [[a|una]] [[lot|cantidad]] [[of|de]] [[vegetables|verduras]].",
-      "words": ["[[of|de]]", "[[vegetables|verduras]].", "[[eat|como]]", "[[I|Yo]]", "[[lot|cantidad]]", "[[a|una]]"],
-      "explanation": "A lot of significa mucho/a/os/as."
+      "title": "Nombres de la Familia",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[My|Mi]] [[mother's|de mi madre]] [[name|nombre]] [[is|es]] [[Anna|Anna]].",
+      "words": ["[[Anna|Anna]].", "[[is|es]]", "[[name|nombre]]", "[[mother's|de mi madre]]", "[[My|Mi]]"],
+      "explanation": "Uso del posesivo 's para el nombre de alguien."
     },
     "audioUrl": "audio/a1/unit-6/e15.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u6-e16",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary",
+    "topic": "Family Vocabulary",
     "difficulty": "easy",
-    "transcript": "Is the soup hot?",
+    "transcript": "My uncle's son is my cousin.",
     "content": {
-      "title": "Sopa",
-      "instructions": "Completa la pregunta.",
+      "title": "Primos",
+      "instructions": "Elige la palabra correcta.",
       "questions": [
         {
-          "question": "[[Is|Está]] [[the|la]] (_____) [[hot|caliente]]?",
-          "options": ["[[soup|sopa]]", "[[salad|ensalada]]", "[[fruit|fruta]]"],
+          "question": "[[My|Mi]] [[uncle's|de mi tío]] [[son|hijo]] [[is|es]] [[my|mi]] (_____).",
+          "options": ["[[cousin|primo]]", "[[nephew|sobrino]]", "[[brother|hermano]]"],
           "correctAnswer": 0,
-          "explanation": "La sopa es un plato que suele servirse caliente."
+          "explanation": "El hijo de tu tío es tu primo (cousin)."
         }
       ]
     },
@@ -338,78 +338,78 @@ export const UNIT_6_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u6-e17",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Grammar",
+    "topic": "Marital Status",
     "difficulty": "easy",
-    "transcript": "There aren't any tomatoes in the fridge.",
+    "transcript": "Is your brother married?",
     "content": {
-      "title": "Nevera",
-      "instructions": "Completa con 'any'.",
-      "questions": [
-        {
-          "question": "[[There|Allí]] [[aren't|no hay]] (_____) [[tomatoes|tomates]] [[in|en]] [[the|la]] [[fridge|nevera]].",
-          "options": ["[[some|algunos]]", "[[any|ningunos]]", "[[a|un]]"],
-          "correctAnswer": 1,
-          "explanation": "Any para plural negativo."
-        }
-      ]
+      "title": "Estado Civil",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[Is|¿Es]] [[your|tu]] [[brother|hermano]] [[married|casado]]?",
+      "words": ["[[married|casado]]?", "[[brother|hermano]]", "[[Is|¿Es]]", "[[your|tu]]"],
+      "explanation": "Pregunta sobre el estado civil de un familiar."
     },
     "audioUrl": "audio/a1/unit-6/e17.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u6-e18",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Likes",
-    "difficulty": "easy",
-    "transcript": "She doesn't like fish.",
-    "content": {
-      "title": "Gustos Negativos",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[She|Ella]] [[doesn't|no]] [[like|gustar]] [[fish|pescado]].",
-      "words": ["[[fish|pescado]].", "[[like|gustar]]", "[[doesn't|no]]", "[[She|Ella]]"],
-      "explanation": "Doesn't like para tercera persona."
-    },
-    "audioUrl": "audio/a1/unit-6/e18.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u6-e19",
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Vocabulary",
     "difficulty": "easy",
-    "transcript": "I take sugar in my tea.",
+    "transcript": "I am an only child.",
     "content": {
-      "title": "[[Azúcar|Azúcar]]",
-      "instructions": "Elige la palabra '[[azúcar|azúcar]]'.",
+      "title": "Hijo Único",
+      "instructions": "Elige la expresión para 'hijo único'.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[take|tomo]] (_____) [[in|en]] [[my|mi]] [[tea|té]].",
-          "options": ["[[salt|sal]]", "[[sugar|azúcar]]", "[[pepper|pimienta]]"],
-          "correctAnswer": 1,
-          "explanation": "Sugar es [[azúcar|azúcar]]."
+          "question": "[[I|Yo]] [[am|soy]] [[an|un]] (_____).",
+          "options": ["[[only child|hijo único]]", "[[alone child|niño solo]]", "[[single child|niño soltero]]"],
+          "correctAnswer": 0,
+          "explanation": "'Only child' es la expresión correcta para hijo/a único/a."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-6/e19.mp3",
+    "audioUrl": "audio/a1/unit-6/e18.mp3",
     "topicName": "Vocabulary"
   },
   {
-    "id": "a1-u6-e20",
+    "id": "a1-u6-e19",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Ordering",
+    "topic": "Personal Info",
     "difficulty": "easy",
-    "transcript": "Anything else? No, thank you.",
+    "transcript": "How old is your sister?",
     "content": {
-      "title": "¿Algo más?",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Anything|Algo]] [[else|más]]? [[No|No]], [[thank|gracias]] [[you|te]].",
-      "words": ["[[else|más]]?", "[[thank|gracias]]", "[[No|No]],", "[[you|te]].", "[[Anything|Algo]]"],
-      "explanation": "Pregunta típica de un camarero."
+      "title": "Edad de la Familia",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[How|Qué]] [[old|edad]] [[is|tiene]] [[your|tu]] [[sister|hermana]]?",
+      "words": ["[[sister|hermana]]?", "[[is|tiene]]", "[[your|tu]]", "[[old|edad]]", "[[How|Qué]]"],
+      "explanation": "Preguntar la edad de alguien."
+    },
+    "audioUrl": "audio/a1/unit-6/e19.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u6-e20",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Family Vocabulary",
+    "difficulty": "medium",
+    "transcript": "My sister's husband is my brother-in-law.",
+    "content": {
+      "title": "Familia Política",
+      "instructions": "Elige la palabra correcta.",
+      "questions": [
+        {
+          "question": "[[My|Mi]] [[sister's|de mi hermana]] [[husband|esposo]] [[is|es]] [[my|mi]] (_____).",
+          "options": ["[[brother-in-law|cuñado]]", "[[father-in-law|suegro]]", "[[nephew|sobrino]]"],
+          "correctAnswer": 0,
+          "explanation": "El esposo de tu hermana es tu cuñado (brother-in-law)."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-6/e20.mp3",
     "topicName": "Vocabulary"
@@ -418,18 +418,18 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "id": "a1-u6-e21",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary",
+    "topic": "Family Size",
     "difficulty": "easy",
-    "transcript": "Is this a bottle of wine?",
+    "transcript": "I have a big family.",
     "content": {
-      "title": "Botella",
-      "instructions": "Completa con 'botella'.",
+      "title": "Familia Grande",
+      "instructions": "Elige el adjetivo correcto.",
       "questions": [
         {
-          "question": "[[Is|Es]] [[this|esto]] [[a|una]] (_____) [[of|de]] [[wine|vino]]?",
-          "options": ["[[glass|vaso]]", "[[bottle|botella]]", "[[cup|taza]]"],
-          "correctAnswer": 1,
-          "explanation": "Bottle es botella."
+          "question": "[[I|Yo]] [[have|tengo]] [[a|una]] (_____) [[family|familia]].",
+          "options": ["[[big|grande]]", "[[small|pequeña]]", "[[new|nueva]]"],
+          "correctAnswer": 0,
+          "explanation": "Big family = Familia grande."
         }
       ]
     },
@@ -438,258 +438,254 @@ export const UNIT_6_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u6-e22",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Countable/Uncountable",
-    "difficulty": "easy",
-    "transcript": "There is an egg in the box.",
-    "content": {
-      "title": "Huevo: Contable",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[There|Hay]] [[is|allí]] [[an|un]] [[egg|huevo]] [[in|en]] [[the|la]] [[box|caja]].",
-      "words": ["[[egg|huevo]]", "[[box|caja]].", "[[an|un]]", "[[There|Hay]]", "[[in|en]]", "[[is|allí]]", "[[the|la]]"],
-      "explanation": "Egg empieza con vocal, usamos 'an'."
-    },
-    "audioUrl": "audio/a1/unit-6/e22.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u6-e23",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary",
+    "topic": "Family Size",
     "difficulty": "easy",
-    "transcript": "Do you want a glass of juice?",
+    "transcript": "She has a small family.",
     "content": {
-      "title": "Vaso de Zumo",
-      "instructions": "Elige la palabra 'vaso'.",
+      "title": "Familia Pequeña",
+      "instructions": "Elige el adjetivo correcto.",
       "questions": [
         {
-          "question": "[[Do|Hacer]] [[you|tú]] [[want|querer]] [[a|un]] (_____) [[of|de]] [[juice|zumo]]?",
-          "options": ["[[glass|vaso]]", "[[plate|plato]]", "[[fork|tenedor]]"],
+          "question": "[[She|Ella]] [[has|tiene]] [[a|una]] (_____) [[family|familia]].",
+          "options": ["[[small|pequeña]]", "[[tall|alta]]", "[[old|vieja]]"],
           "correctAnswer": 0,
-          "explanation": "Glass es vaso."
+          "explanation": "Small family = Familia pequeña."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-6/e23.mp3",
+    "audioUrl": "audio/a1/unit-6/e22.mp3",
     "topicName": "Vocabulary"
   },
   {
-    "id": "a1-u6-e24",
+    "id": "a1-u6-e23",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Grammar",
+    "topic": "Possessives",
     "difficulty": "easy",
-    "transcript": "I don't have any money for dinner.",
+    "transcript": "His father is fifty years old.",
     "content": {
-      "title": "Dinero: Incontable",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[I|Yo]] [[don't|no]] [[have|tener]] [[any|nada de]] [[money|dinero]] [[for|para]] [[dinner|cena]].",
-      "words": ["[[any|nada de]]", "[[money|dinero]]", "[[dinner|cena]].", "[[have|tener]]", "[[I|Yo]]", "[[for|para]]", "[[don't|no]]"],
-      "explanation": "Money es incontable y usamos any en negativo."
+      "title": "Edad del Padre",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[His|Su (de él)]] [[father|padre]] [[is|tiene]] [[fifty|cincuenta]] [[years|años]] [[old|de edad]].",
+      "words": ["[[years|años]]", "[[is|tiene]]", "[[father|padre]]", "[[fifty|cincuenta]]", "[[His|Su (de él)]]", "[[old|de edad]]."],
+      "explanation": "Estructura para decir la edad de un familiar."
     },
-    "audioUrl": "audio/a1/unit-6/e24.mp3",
+    "audioUrl": "audio/a1/unit-6/e23.mp3",
     "topicName": "Grammar"
   },
   {
-    "id": "a1-u6-e25",
+    "id": "a1-u6-e24",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary",
-    "difficulty": "easy",
-    "transcript": "I like to drink hot chocolate in winter.",
+    "topic": "Family Vocabulary",
+    "difficulty": "medium",
+    "transcript": "My mother's mother is my grandmother.",
     "content": {
-      "title": "Chocolate Caliente",
-      "instructions": "Completa la bebida.",
+      "title": "Abuela Materna",
+      "instructions": "Completa la relación.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[like|gustar]] [[to|a]] [[drink|beber]] [[hot|caliente]] (_____) [[in|en]] [[winter|invierno]].",
-          "options": ["[[water|agua]]", "[[chocolate|chocolate]]", "[[beer|cerveza]]"],
-          "correctAnswer": 1,
-          "explanation": "Hot chocolate es una bebida común de invierno."
+          "question": "[[My|Mi]] [[mother's|de mi madre]] [[mother|madre]] [[is|es]] [[my|mi]] (_____).",
+          "options": ["[[grandmother|abuela]]", "[[aunt|tía]]", "[[sister|hermana]]"],
+          "correctAnswer": 0,
+          "explanation": "La madre de tu madre es tu abuela (grandmother)."
         }
       ]
+    },
+    "audioUrl": "audio/a1/unit-6/e24.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u6-e25",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Family Vocabulary",
+    "difficulty": "easy",
+    "transcript": "I live with my parents and my dog.",
+    "content": {
+      "title": "Vivir con los Padres",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[I|Yo]] [[live|vivo]] [[with|con]] [[my|mis]] [[parents|padres]] [[and|y]] [[my|mi]] [[dog|perro]].",
+      "words": ["[[and|y]]", "[[dog|perro]].", "[[parents|padres]]", "[[live|vivo]]", "[[I|Yo]]", "[[with|con]]", "[[my|mis]]", "[[my|mi]]"],
+      "explanation": "Describiendo con quién vives."
     },
     "audioUrl": "audio/a1/unit-6/e25.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u6-e26",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Ordering",
+    "topic": "Possessives",
     "difficulty": "easy",
-    "transcript": "Can I have some more water?",
+    "transcript": "Is this your cousin's house?",
     "content": {
-      "title": "Pedir Más",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Can|Puedo]] [[I|yo]] [[have|tener]] [[some|un poco]] [[more|más]] [[water|agua]]?",
-      "words": ["[[more|más]]", "[[water|agua]]?", "[[Can|Puedo]]", "[[some|un poco]]", "[[I|yo]]", "[[have|tener]]"],
-      "explanation": "Cómo pedir más de algo."
+      "title": "Casa del Primo",
+      "instructions": "Elige el posesivo correcto.",
+      "questions": [
+        {
+          "question": "[[Is|¿Es]] [[this|esta]] [[your|tu]] (_____) [[house|casa]]?",
+          "options": ["[[cousin's|de tu primo]]", "[[cousin|primo]]", "[[cousins|primos]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 's para la posesión del primo."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-6/e26.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u6-e27",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Vocabulary",
+    "topic": "Family Tree",
     "difficulty": "easy",
-    "transcript": "Cheese is made from milk.",
+    "transcript": "Who is your favorite relative?",
     "content": {
-      "title": "Lácteos",
-      "instructions": "Completa la oración.",
-      "questions": [
-        {
-          "question": "(_____) [[is|está]] [[made|hecho]] [[from|de]] [[milk|leche]].",
-          "options": ["[[Cheese|Queso]]", "[[Chicken|Pollo]]", "[[Rice|Arroz]]"],
-          "correctAnswer": 0,
-          "explanation": "Cheese (queso) es un producto lácteo."
-        }
-      ]
+      "title": "Pariente Favorito",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[Who|Quién]] [[is|es]] [[your|tu]] [[favorite|favorito]] [[relative|pariente]]?",
+      "words": ["[[favorite|favorito]]", "[[relative|pariente]]?", "[[is|es]]", "[[your|tu]]", "[[Who|Quién]]"],
+      "explanation": "Preguntar por un familiar favorito."
     },
     "audioUrl": "audio/a1/unit-6/e27.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u6-e28",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary",
+    "topic": "Family Vocabulary",
     "difficulty": "easy",
-    "transcript": "There is a fly in my soup.",
+    "transcript": "My father's father is my grandfather.",
     "content": {
-      "title": "Problemas",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[There|Hay]] [[is|allí]] [[a|una]] [[fly|mosca]] [[in|en]] [[my|mi]] [[soup|sopa]].",
-      "words": ["[[soup|sopa]].", "[[in|en]]", "[[is|allí]]", "[[a|una]]", "[[There|Hay]]", "[[my|mi]]", "[[fly|mosca]]"],
-      "explanation": "Vocabulario de restaurante."
+      "title": "Abuelo Paterno",
+      "instructions": "Completa la relación.",
+      "questions": [
+        {
+          "question": "[[My|Mi]] [[father's|de mi padre]] [[father|padre]] [[is|es]] [[my|mi]] (_____).",
+          "options": ["[[grandfather|abuelo]]", "[[grandson|nieto]]", "[[uncle|tío]]"],
+          "correctAnswer": 0,
+          "explanation": "El padre de tu padre es tu abuelo (grandfather)."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-6/e28.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u6-e29",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Grammar",
+    "topic": "Possessives",
     "difficulty": "easy",
-    "transcript": "I would like an orange juice.",
+    "transcript": "Her sister is very beautiful.",
     "content": {
-      "title": "Zumo de Naranja",
-      "instructions": "Completa con 'an'.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] [[would|querría]] [[like|gustar]] (_____) [[orange|naranja]] [[juice|zumo]].",
-          "options": ["[[a|un]]", "[[an|un (vocal)]]", "[[some|algo]]"],
-          "correctAnswer": 1,
-          "explanation": "Orange empieza con vocal, usamos an."
-        }
-      ]
+      "title": "Descripción de la Hermana",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[Her|Su (de ella)]] [[sister|hermana]] [[is|es]] [[very|muy]] [[beautiful|hermosa]].",
+      "words": ["[[beautiful|hermosa]].", "[[is|es]]", "[[sister|hermana]]", "[[very|muy]]", "[[Her|Su (de ella)]]"],
+      "explanation": "Describiendo a un familiar."
     },
     "audioUrl": "audio/a1/unit-6/e29.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u6-e30",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Ordering",
-    "difficulty": "easy",
-    "transcript": "Here is your coffee.",
+    "topic": "Family Vocabulary",
+    "difficulty": "medium",
+    "transcript": "They have two sons and one daughter.",
     "content": {
-      "title": "Entrega",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Here|Aquí]] [[is|está]] [[your|tu]] [[coffee|café]].",
-      "words": ["[[is|está]]", "[[coffee|café]].", "[[your|tu]]", "[[Here|Aquí]]"],
-      "explanation": "Frase del camarero al servir."
+      "title": "Hijos e Hijas",
+      "instructions": "Elige la combinación correcta.",
+      "questions": [
+        {
+          "question": "[[They|Ellos]] [[have|tienen]] [[two|dos]] (_____) [[and|y]] [[one|una]] (_____).",
+          "options": ["[[sons|hijos]] / [[daughter|hija]]", "[[daughters|hijas]] / [[son|hijo]]", "[[brothers|hermanos]] / [[sister|hermana]]"],
+          "correctAnswer": 0,
+          "explanation": "Sons (hijos varones) y daughter (hija mujer)."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-6/e30.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u6-e31",
-    "type": "flashcard",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Cafe Items",
-    "difficulty": "easy",
-    "transcript": "Cup. Mug. Plate. Fork. Knife. Spoon. Napkin. Sugar. Salt. Pepper.",
+    "topic": "Possessives",
+    "difficulty": "medium",
+    "transcript": "Is that your brother's bicycle?",
     "content": {
-      "title": "Vocabulario: En la Mesa",
-      "instructions": "Aprende nombres de utensilios.",
-      "items": [
-        { "front": "[[Cup|Taza (pequeña)]]", "back": "Taza" },
-        { "front": "[[Mug|Taza (grande)]]", "back": "Jarra/Taza" },
-        { "front": "[[Plate|Plato]]", "back": "Plato" },
-        { "front": "[[Fork|Tenedor]]", "back": "Tenedor" },
-        { "front": "[[Knife|Cuchillo]]", "back": "Cuchillo" },
-        { "front": "[[Spoon|Cuchara]]", "back": "Cuchara" },
-        { "front": "[[Napkin|Servilleta]]", "back": "Servilleta" },
-        { "front": "[[Sugar|Azúcar]]", "back": "Azúcar" },
-        { "front": "[[Salt|Sal]]", "back": "Sal" },
-        { "front": "[[Pepper|Pimienta]]", "back": "Pimienta" }
-      ]
+      "title": "Bici del Hermano",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[Is|¿Es]] [[that|esa]] [[your|tu]] [[brother's|de tu hermano]] [[bicycle|bicicleta]]?",
+      "words": ["[[bicycle|bicicleta]]?", "[[that|esa]]", "[[brother's|de tu hermano]]", "[[Is|¿Es]]", "[[your|tu]]"],
+      "explanation": "Estructura posesiva con 's."
     },
     "audioUrl": "audio/a1/unit-6/e31.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u6-e32",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar",
+    "topic": "Family Relations",
     "difficulty": "easy",
-    "transcript": "There is a spoon on the plate.",
+    "transcript": "How many cousins do you have?",
     "content": {
-      "title": "Cubiertos",
-      "instructions": "Completa la oración.",
+      "title": "Contando Primos",
+      "instructions": "Elige el interrogativo correcto.",
       "questions": [
         {
-          "question": "[[There|Allí]] [[is|hay]] [[a|una]] (_____) [[on|sobre]] [[the|el]] [[plate|plato]].",
-          "options": ["[[spoon|cuchara]]", "[[soup|sopa]]", "[[juice|zumo]]"],
+          "question": "(_____) [[many|muchos]] [[cousins|primos]] [[do|aux]] [[you|tú]] [[have|tienes]]?",
+          "options": ["[[How|Cuántos]]", "[[Who|Quién]]", "[[Where|Dónde]]"],
           "correctAnswer": 0,
-          "explanation": "Spoon (cuchara) es un utensilio."
+          "explanation": "'How many' se usa para preguntar por cantidad."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-6/e32.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u6-e33",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Ordering",
+    "topic": "Family Tree",
     "difficulty": "easy",
-    "transcript": "Do you want some sugar in your coffee?",
+    "transcript": "My aunt lives in London.",
     "content": {
-      "title": "Preguntar Gustos",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Do|Hacer]] [[you|tú]] [[want|querer]] [[some|algo de]] [[sugar|azúcar]] [[in|en]] [[your|tu]] [[coffee|café]]?",
-      "words": ["[[sugar|azúcar]]", "[[want|querer]]", "[[coffee|café]]?", "[[some|algo de]]", "[[your|tu]]", "[[Do|Hacer]]", "[[in|en]]", "[[you|tú]]"],
-      "explanation": "Pregunta sobre aditivos."
+      "title": "Tía en Londres",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[My|Mi]] [[aunt|tía]] [[lives|vive]] [[in|en]] [[London|Londres]].",
+      "words": ["[[London|Londres]].", "[[lives|vive]]", "[[in|en]]", "[[aunt|tía]]", "[[My|Mi]]"],
+      "explanation": "Sujeto singular (aunt) + verbo con 's' (lives)."
     },
     "audioUrl": "audio/a1/unit-6/e33.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u6-e34",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary",
+    "topic": "Family Vocabulary",
     "difficulty": "easy",
-    "transcript": "This fish is very fresh.",
+    "transcript": "The father of my wife is my father-in-law.",
     "content": {
-      "title": "Frescura",
-      "instructions": "Completa con 'fresco'.",
+      "title": "Suegro",
+      "instructions": "Completa la relación.",
       "questions": [
         {
-          "question": "[[This|Este]] [[fish|pescado]] [[is|está]] [[very|muy]] (_____) .",
-          "options": ["[[fresh|fresco]]", "[[hot|caliente]]", "[[small|pequeño]]"],
+          "question": "[[The|El]] [[father|padre]] [[of|de]] [[my|mi]] [[wife|esposa]] [[is|es]] [[my|mi]] (_____).",
+          "options": ["[[father-in-law|suegro]]", "[[stepfather|padrastro]]", "[[uncle|tío]]"],
           "correctAnswer": 0,
-          "explanation": "Fresh significa fresco."
+          "explanation": "El padre de tu esposa es tu suegro (father-in-law)."
         }
       ]
     },
@@ -700,15 +696,15 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "id": "a1-u6-e35",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Likes",
+    "topic": "Possessives",
     "difficulty": "easy",
-    "transcript": "I love fresh fruit.",
+    "transcript": "Our house is big and happy.",
     "content": {
-      "title": "Gustos: Fruta",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[I|Yo]] [[love|amo]] [[fresh|fresca]] [[fruit|fruta]].",
-      "words": ["[[fruit|fruta]].", "[[love|amo]]", "[[I|Yo]]", "[[fresh|fresca]]"],
-      "explanation": "Love es más fuerte que like."
+      "title": "Casa Familiar",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[Our|Nuestra]] [[house|casa]] [[is|es]] [[big|grande]] [[and|y]] [[happy|feliz]].",
+      "words": ["[[happy|feliz]].", "[[and|y]]", "[[is|es]]", "[[big|grande]]", "[[house|casa]]", "[[Our|Nuestra]]"],
+      "explanation": "Adjetivos para describir el hogar familiar."
     },
     "audioUrl": "audio/a1/unit-6/e35.mp3",
     "topicName": "Vocabulary"
@@ -717,37 +713,37 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "id": "a1-u6-e36",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Countable/Uncountable",
-    "difficulty": "easy",
-    "transcript": "I would like some water, please.",
+    "topic": "Family Vocabulary",
+    "difficulty": "medium",
+    "transcript": "My brother's son is my nephew.",
     "content": {
-      "title": "Incontables: Water",
-      "instructions": "Completa el pedido con la opción correcta.",
+      "title": "Sobrino",
+      "instructions": "Elige la palabra correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[would|querría]] [[like|gustar]] (_____) [[water|agua]], [[please|por favor]].",
-          "options": ["[[a|una]]", "[[some|un poco de]]", "[[an|una]]"],
-          "correctAnswer": 1,
-          "explanation": "Usamos 'some' con sustantivos incontables como 'water' en oraciones afirmativas."
+          "question": "[[My|Mi]] [[brother's|de mi hermano]] [[son|hijo]] [[is|es]] [[my|mi]] (_____).",
+          "options": ["[[nephew|sobrino]]", "[[niece|sobrina]]", "[[cousin|primo]]"],
+          "correctAnswer": 0,
+          "explanation": "El hijo de tu hermano es tu sobrino (nephew)."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-6/e36.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u6-e37",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Ordering",
+    "topic": "Family Vocabulary",
     "difficulty": "easy",
-    "transcript": "How much is it?",
+    "transcript": "My niece is five years old.",
     "content": {
-      "title": "Preguntar el Precio",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[How|Cuánto]] [[much|mucho]] [[is|es]] [[it|ello]]?",
-      "words": ["[[much|mucho]]", "[[it|ello]]?", "[[is|es]]", "[[How|Cuánto]]"],
-      "explanation": "Pregunta estándar para el precio."
+      "title": "Edad de la Sobrina",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[My|Mi]] [[niece|sobrina]] [[is|tiene]] [[five|cinco]] [[years|años]] [[old|de edad]].",
+      "words": ["[[five|cinco]]", "[[years|años]]", "[[niece|sobrina]]", "[[is|tiene]]", "[[old|de edad]].", "[[My|Mi]]"],
+      "explanation": "Niece es la hija de un hermano o hermana."
     },
     "audioUrl": "audio/a1/unit-6/e37.mp3",
     "topicName": "Vocabulary"
@@ -756,57 +752,57 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "id": "a1-u6-e38",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary",
-    "difficulty": "easy",
-    "transcript": "I need a napkin.",
+    "topic": "Possessives",
+    "difficulty": "medium",
+    "transcript": "Whose daughter is she?",
     "content": {
-      "title": "Servilleta",
-      "instructions": "Completa con 'servilleta'.",
+      "title": "De quién",
+      "instructions": "Elige el interrogativo de posesión.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[need|necesito]] [[a|una]] (_____) .",
-          "options": ["[[napkin|servilleta]]", "[[fork|tenedor]]", "[[knife|cuchillo]]"],
+          "question": "(_____) [[daughter|hija]] [[is|es]] [[she|ella]]?",
+          "options": ["[[Whose|De quién]]", "[[Who|Quién]]", "[[Which|Cuál]]"],
           "correctAnswer": 0,
-          "explanation": "Napkin es servilleta."
+          "explanation": "'Whose' se usa para preguntar a quién pertenece algo o alguien (en términos de parentesco)."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-6/e38.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u6-e39",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Likes",
+    "topic": "Family Tree",
     "difficulty": "easy",
-    "transcript": "He doesn't eat meat.",
+    "transcript": "This is a photo of my family.",
     "content": {
-      "title": "Vegetariano",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[He|Él]] [[doesn't|no]] [[eat|come]] [[meat|carne]].",
-      "words": ["[[eat|come]]", "[[meat|carne]].", "[[doesn't|no]]", "[[He|Él]]"],
-      "explanation": "Negación en tercera persona."
+      "title": "Foto Familiar",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[This|Esta]] [[is|es]] [[a|una]] [[photo|foto]] [[of|de]] [[my|mi]] [[family|familia]].",
+      "words": ["[[photo|foto]]", "[[family|familia]].", "[[of|de]]", "[[my|mi]]", "[[is|es]]", "[[This|Esta]]", "[[a|una]]"],
+      "explanation": "Presentando una fotografía."
     },
     "audioUrl": "audio/a1/unit-6/e39.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u6-e40",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary",
+    "topic": "Family Vocabulary",
     "difficulty": "easy",
-    "transcript": "Would you like a glass of milk?",
+    "transcript": "Do you have any pets? Yes, a dog.",
     "content": {
-      "title": "Ofrecer Bebida",
-      "instructions": "Completa con 'vaso'.",
+      "title": "Mascotas",
+      "instructions": "Elige la respuesta lógica.",
       "questions": [
         {
-          "question": "[[Would|Querrías]] [[you|tú]] [[like|gustar]] [[a|un]] (_____) [[of|de]] [[milk|leche]]?",
-          "options": ["[[glass|vaso]]", "[[cup|taza]]", "[[mug|jarra]]"],
+          "question": "[[Do|¿]] [[you|tú]] [[have|tienes]] [[any|algunas]] [[pets|mascotas]]?",
+          "options": ["[[Yes, a dog|Sí, un perro]]", "[[Yes, a car|Sí, un coche]]", "[[Yes, a chair|Sí, una silla]]"],
           "correctAnswer": 0,
-          "explanation": "Glass se usa para leche."
+          "explanation": "Las mascotas (pets) son animales domésticos."
         }
       ]
     },
@@ -817,18 +813,18 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "id": "a1-u6-e41",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary",
-    "difficulty": "easy",
-    "transcript": "Rice is very common in Asia.",
+    "topic": "Family Vocabulary",
+    "difficulty": "medium",
+    "transcript": "My father's second wife is my stepmother.",
     "content": {
-      "title": "Arroz",
-      "instructions": "Completa con 'arroz'.",
+      "title": "Madrastra",
+      "instructions": "Completa la relación.",
       "questions": [
         {
-          "question": "(_____) [[is|es]] [[very|muy]] [[common|común]] [[in|en]] [[Asia|Asia]].",
-          "options": ["[[Rice|Arroz]]", "[[Pasta|Pasta]]", "[[Bread|Pan]]"],
+          "question": "[[My|Mi]] [[father's|de mi padre]] [[second|segunda]] [[wife|esposa]] [[is|es]] [[my|mi]] (_____).",
+          "options": ["[[stepmother|madrastra]]", "[[godmother|madrina]]", "[[mother-in-law|suegra]]"],
           "correctAnswer": 0,
-          "explanation": "Rice es el alimento básico en Asia."
+          "explanation": "Stepmother es la madrastra."
         }
       ]
     },
@@ -839,54 +835,54 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "id": "a1-u6-e42",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Countable/Uncountable",
-    "difficulty": "easy",
-    "transcript": "There is some cheese in the fridge.",
+    "topic": "Family Vocabulary",
+    "difficulty": "medium",
+    "transcript": "He is my half-brother.",
     "content": {
-      "title": "Queso: Incontable",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[There|Hay]] [[is|allí]] [[some|un poco de]] [[cheese|queso]] [[in|en]] [[the|la]] [[fridge|nevera]].",
-      "words": ["[[cheese|queso]]", "[[in|en]]", "[[fridge|nevera]].", "[[is|allí]]", "[[some|un poco de]]", "[[There|Hay]]", "[[the|la]]"],
-      "explanation": "Cheese es incontable."
+      "title": "Medio Hermano",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[He|Él]] [[is|es]] [[my|mi]] [[half-brother|medio hermano]].",
+      "words": ["[[half-brother|medio hermano]].", "[[is|es]]", "[[my|mi]]", "[[He|Él]]"],
+      "explanation": "Half-brother se usa cuando solo comparten un progenitor."
     },
     "audioUrl": "audio/a1/unit-6/e42.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u6-e43",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary",
-    "difficulty": "easy",
-    "transcript": "Do you want some salt?",
+    "topic": "Possessives",
+    "difficulty": "medium",
+    "transcript": "Whose toys are these? They are my children's toys.",
     "content": {
-      "title": "Sal",
-      "instructions": "Elige la palabra 'sal'.",
+      "title": "Juguetes de los Niños",
+      "instructions": "Elige el posesivo correcto para plural irregular.",
       "questions": [
         {
-          "question": "[[Do|Hacer]] [[you|tú]] [[want|querer]] [[some|algo de]] (_____) ?",
-          "options": ["[[salt|sal]]", "[[sugar|azúcar]]", "[[pepper|pimienta]]"],
+          "question": "[[They|Ellos]] [[are|son]] [[my|mis]] (_____) [[toys|juguetes]].",
+          "options": ["[[children's|de mis hijos/niños]]", "[[childrens|niños]]", "[[child's|de mi hijo]]"],
           "correctAnswer": 0,
-          "explanation": "Salt es sal."
+          "explanation": "Para plurales irregulares como 'children', añadimos 's."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-6/e43.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u6-e44",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Ordering",
-    "difficulty": "easy",
-    "transcript": "The bill is thirty Euros.",
+    "topic": "Family Description",
+    "difficulty": "medium",
+    "transcript": "My grandparents are very old but active.",
     "content": {
-      "title": "El Pago",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[The|La]] [[bill|cuenta]] [[is|es]] [[thirty|treinta]] [[Euros|Euros]].",
-      "words": ["[[bill|cuenta]]", "[[Euros|Euros]].", "[[thirty|treinta]]", "[[The|La]]", "[[is|es]]"],
-      "explanation": "Expresar el total de la cuenta."
+      "title": "Abuelos Activos",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[My|Mis]] [[grandparents|abuelos]] [[are|son]] [[very|muy]] [[old|mayores]] [[but|pero]] [[active|activos]].",
+      "words": ["[[active|activos]].", "[[but|pero]]", "[[very|muy]]", "[[are|son]]", "[[grandparents|abuelos]]", "[[old|mayores]]", "[[My|Mis]]"],
+      "explanation": "Describiendo a los abuelos con adjetivos."
     },
     "audioUrl": "audio/a1/unit-6/e44.mp3",
     "topicName": "Vocabulary"
@@ -895,18 +891,18 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "id": "a1-u6-e45",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary",
+    "topic": "Family Vocabulary",
     "difficulty": "easy",
-    "transcript": "I drink coffee with milk.",
+    "transcript": "My brother's wife is my sister-in-law.",
     "content": {
-      "title": "Café con Leche",
-      "instructions": "Completa la frase.",
+      "title": "Cuñada",
+      "instructions": "Completa la relación.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[drink|bebo]] [[coffee|café]] (_____) [[milk|leche]].",
-          "options": ["[[with|con]]", "[[without|sin]]", "[[and|y]]"],
+          "question": "[[My|Mi]] [[brother's|de mi hermano]] [[wife|esposa]] [[is|es]] [[my|mi]] (_____).",
+          "options": ["[[sister-in-law|cuñada]]", "[[mother-in-law|suegra]]", "[[daughter-in-law|nuera]]"],
           "correctAnswer": 0,
-          "explanation": "With significa con."
+          "explanation": "Sister-in-law es la cuñada."
         }
       ]
     },
@@ -917,15 +913,15 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "id": "a1-u6-e46",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Ordering",
+    "topic": "Personal Info",
     "difficulty": "easy",
-    "transcript": "Where is the waiter?",
+    "transcript": "I have a twin sister.",
     "content": {
-      "title": "El Camarero",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Where|Dónde]] [[is|está]] [[the|el]] [[waiter|camarero]]?",
-      "words": ["[[is|está]]", "[[waiter|camarero]]?", "[[the|el]]", "[[Where|Dónde]]"],
-      "explanation": "Waiter es camarero."
+      "title": "Hermana Gemela",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[I|Yo]] [[have|tengo]] [[a|una]] [[twin|gemela]] [[sister|hermana]].",
+      "words": ["[[sister|hermana]].", "[[twin|gemela]]", "[[have|tengo]]", "[[I|Yo]]", "[[a|una]]"],
+      "explanation": "Twin significa gemelo/a o mellizo/a."
     },
     "audioUrl": "audio/a1/unit-6/e46.mp3",
     "topicName": "Vocabulary"
@@ -934,37 +930,37 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "id": "a1-u6-e47",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary",
-    "difficulty": "easy",
-    "transcript": "Is this a cup of tea?",
+    "topic": "Possessives",
+    "difficulty": "medium",
+    "transcript": "Our parents' house is in the village.",
     "content": {
-      "title": "Taza de Té",
-      "instructions": "Elige 'taza'.",
+      "title": "Casa de los Padres",
+      "instructions": "Elige el posesivo para plural regular.",
       "questions": [
         {
-          "question": "[[Is|Es]] [[this|esto]] [[a|una]] (_____) [[of|de]] [[tea|té]]?",
-          "options": ["[[cup|taza]]", "[[glass|vaso]]", "[[bottle|botella]]"],
+          "question": "(_____) [[house|casa]] [[is|está]] [[in|en]] [[the|el]] [[village|pueblo]].",
+          "options": ["[[Our parents'|De nuestros padres]]", "[[Our parent's|De nuestro padre/madre]]", "[[Our parents|Nuestros padres]]"],
           "correctAnswer": 0,
-          "explanation": "Cup se usa para té o café caliente."
+          "explanation": "Para plurales regulares terminados en 's', solo añadimos el apóstrofo: parents'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-6/e47.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u6-e48",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Likes",
-    "difficulty": "easy",
-    "transcript": "They don't like spicy food.",
+    "topic": "Family Tree",
+    "difficulty": "medium",
+    "transcript": "Do you live with your extended family?",
     "content": {
-      "title": "Comida Picante",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[They|Ellos]] [[don't|no]] [[like|gustar]] [[spicy|picante]] [[food|comida]].",
-      "words": ["[[food|comida]].", "[[like|gustar]]", "[[They|Ellos]]", "[[spicy|picante]]", "[[don't|no]]"],
-      "explanation": "Spicy significa picante."
+      "title": "Familia Extendida",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[Do|¿]] [[you|tú]] [[live|vives]] [[with|con]] [[your|tu]] [[extended|extendida]] [[family|familia]]?",
+      "words": ["[[extended|extendida]]", "[[family|familia]]?", "[[live|vives]]", "[[with|con]]", "[[Do|¿]]", "[[you|tú]]", "[[your|tu]]"],
+      "explanation": "Extended family incluye tíos, primos, abuelos, etc."
     },
     "audioUrl": "audio/a1/unit-6/e48.mp3",
     "topicName": "Vocabulary"
@@ -973,18 +969,18 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "id": "a1-u6-e49",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Ordering",
-    "difficulty": "easy",
-    "transcript": "Would you like a dessert?",
+    "topic": "Family Vocabulary",
+    "difficulty": "medium",
+    "transcript": "My daughter's husband is my son-in-law.",
     "content": {
-      "title": "Postre",
-      "instructions": "Elige la palabra 'postre'.",
+      "title": "Yerno",
+      "instructions": "Completa la relación.",
       "questions": [
         {
-          "question": "[[Would|Querrías]] [[you|tú]] [[like|gustar]] [[a|un]] (_____) ?",
-          "options": ["[[dessert|postre]]", "[[soup|sopa]]", "[[salad|ensalada]]"],
+          "question": "[[My|Mi]] [[daughter's|de mi hija]] [[husband|esposo]] [[is|es]] [[my|mi]] (_____).",
+          "options": ["[[son-in-law|yerno]]", "[[brother-in-law|cuñado]]", "[[nephew|sobrino]]"],
           "correctAnswer": 0,
-          "explanation": "Dessert es el postre."
+          "explanation": "Son-in-law es el yerno."
         }
       ]
     },
@@ -995,35 +991,35 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "id": "a1-u6-e50",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Countable/Uncountable",
+    "topic": "Personal Info",
     "difficulty": "easy",
-    "transcript": "Do we have any potatoes?",
+    "transcript": "I love my family very much.",
     "content": {
-      "title": "Patatas: Contable",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Do|Hacer]] [[we|nosotros]] [[have|tener]] [[any|algunas]] [[potatoes|patatas]]?",
-      "words": ["[[have|tener]]", "[[potatoes|patatas]]?", "[[we|nosotros]]", "[[any|algunas]]", "[[Do|Hacer]]"],
-      "explanation": "Potatoes es contable plural."
+      "title": "Amor Familiar",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[I|Yo]] [[love|amo]] [[my|mi]] [[family|familia]] [[very|muy]] [[much|mucho]].",
+      "words": ["[[much|mucho]].", "[[very|muy]]", "[[family|familia]]", "[[love|amo]]", "[[my|mi]]", "[[I|Yo]]"],
+      "explanation": "Expresando afecto por la familia."
     },
     "audioUrl": "audio/a1/unit-6/e50.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u6-e51",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about a healthy breakfast.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "My name is Peter and I have a big family. I live with my parents, my two sisters, and my grandfather. My father is a doctor and my mother is a teacher. My sisters' names are Lucy and Emma. Lucy is ten years old and Emma is eight. My grandfather is seventy years old. He is very kind and he loves telling stories about our ancestors. We have a dog called Max. He is also part of our family.",
     "content": {
-      "title": "Lectura: A Healthy Breakfast",
+      "title": "Lectura: La Familia de Peter",
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "What does Mark drink? *\"Mark is a student. He always has a healthy breakfast. He eats an apple and some yogurt with cereal. He drinks a large glass of orange juice. He doesn't like coffee, so he never drinks it in the morning. Breakfast is his favorite meal because it gives him energy.\"*",
-          "options": ["[[Coffee|Café]]", "[[Orange juice|Zumo de naranja]]", "[[Tea|Té]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice 'He drinks a large glass of orange juice'."
+          "question": "[[How|Cuántas]] [[many|muchas]] [[sisters|hermanas]] [[does|aux]] [[Peter|Peter]] [[have|tiene]]?",
+          "options": ["[[Two|Dos]]", "[[One|Una]]", "[[Three|Tres]]"],
+          "correctAnswer": 0,
+          "explanation": "Peter dice que vive con sus dos hermanas (two sisters)."
         }
       ]
     },
@@ -1034,18 +1030,18 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "id": "a1-u6-e52",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about a healthy breakfast.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "My name is Peter and I have a big family. I live with my parents, my two sisters, and my grandfather. My father is a doctor and my mother is a teacher. My sisters' names are Lucy and Emma. Lucy is ten years old and Emma is eight. My grandfather is seventy years old. He is very kind and he loves telling stories about our ancestors. We have a dog called Max. He is also part of our family.",
     "content": {
-      "title": "Lectura: A Healthy Breakfast",
+      "title": "Lectura: Los Padres de Peter",
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "Does Mark like coffee? *\"Mark is a student. He always has a healthy breakfast. He eats an apple and some yogurt with cereal. He drinks a large glass of orange juice. He doesn't like coffee, so he never drinks it in the morning. Breakfast is his favorite meal because it gives him energy.\"*",
-          "options": ["[[Yes, he loves it|Sí]]", "[[No, he doesn't like it|No]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice 'He doesn't like coffee'."
+          "question": "[[What|Qué]] [[is|es]] [[his|su (de él)]] [[mother's|de su madre]] [[job|trabajo]]?",
+          "options": ["[[Teacher|Profesora]]", "[[Doctor|Doctora]]", "[[Nurse|Enfermera]]"],
+          "correctAnswer": 0,
+          "explanation": "Peter menciona que su madre es profesora (teacher)."
         }
       ]
     },
@@ -1056,18 +1052,18 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "id": "a1-u6-e53",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about a healthy breakfast.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "My name is Peter and I have a big family. I live with my parents, my two sisters, and my grandfather. My father is a doctor and my mother is a teacher. My sisters' names are Lucy and Emma. Lucy is ten years old and Emma is eight. My grandfather is seventy years old. He is very kind and he loves telling stories about our ancestors. We have a dog called Max. He is also part of our family.",
     "content": {
-      "title": "Lectura: A Healthy Breakfast",
+      "title": "Lectura: El Abuelo de Peter",
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "What food does he eat? *\"Mark is a student. He always has a healthy breakfast. He eats an apple and some yogurt with cereal. He drinks a large glass of orange juice. He doesn't like coffee, so he never drinks it in the morning. Breakfast is his favorite meal because it gives him energy.\"*",
-          "options": ["[[Eggs and bacon|Huevos y beicon]]", "[[Apple and yogurt|Manzana y yogur]]", "[[Bread and cheese|Pan y queso]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice 'He eats an apple and some yogurt'."
+          "question": "[[How|Qué]] [[old|edad]] [[is|tiene]] [[the|el]] [[grandfather|abuelo]]?",
+          "options": ["[[Seventy|Setenta]]", "[[Sixty|Sesenta]]", "[[Eighty|Ochenta]]"],
+          "correctAnswer": 0,
+          "explanation": "El abuelo tiene setenta años (seventy years old)."
         }
       ]
     },
@@ -1078,18 +1074,18 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "id": "a1-u6-e54",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about a cafe.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "Today is a special day. It is my cousin's birthday party. All my relatives are at my aunt's house. My uncle is cooking a barbecue in the garden. My cousins are playing with their new toys. My parents are talking to my father-in-law. Even my nephew and niece are here! We are a very united family and we love spending time together on weekends.",
     "content": {
-      "title": "Lectura: At the Sunny Cafe",
+      "title": "Lectura: La Fiesta de Cumpleaños",
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "What does Emma order to eat? *\"Emma is at the Sunny Cafe with her friend. Emma would like a chicken salad and a bottle of water. Her friend wants a Margherita pizza and a glass of lemonade. They are very hungry. For dessert, they would like to share a large piece of chocolate cake. The waiter is very friendly.\"*",
-          "options": ["[[Pizza|Pizza]]", "[[Chicken salad|Ensalada de pollo]]", "[[Fish|Pescado]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice 'Emma would like a chicken salad'."
+          "question": "[[Where|Dónde]] [[is|está]] [[the|la]] [[party|fiesta]]?",
+          "options": ["[[At the aunt's house|En casa de la tía]]", "[[At the park|En el parque]]", "[[At a restaurant|En un restaurante]]"],
+          "correctAnswer": 0,
+          "explanation": "La fiesta es en casa de la tía (aunt's house)."
         }
       ]
     },
@@ -1100,18 +1096,18 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "id": "a1-u6-e55",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about a cafe.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "Today is a special day. It is my cousin's birthday party. All my relatives are at my aunt's house. My uncle is cooking a barbecue in the garden. My cousins are playing with their new toys. My parents are talking to my father-in-law. Even my nephew and niece are here! We are a very united family and we love spending time together on weekends.",
     "content": {
-      "title": "Lectura: At the Sunny Cafe",
+      "title": "Lectura: ¿Quién cocina?",
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "What does the friend drink? *\"Emma is at the Sunny Cafe with her friend. Emma would like a chicken salad and a bottle of water. Her friend wants a Margherita pizza and a glass of lemonade. They are very hungry. For dessert, they would like to share a large piece of chocolate cake. The waiter is very friendly.\"*",
-          "options": ["[[Water|Agua]]", "[[Lemonade|Limonada]]", "[[Juice|Zumo]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice her friend wants 'a glass of lemonade'."
+          "question": "[[Who|Quién]] [[is|está]] [[cooking|cocinando]]?",
+          "options": ["[[The uncle|El tío]]", "[[The aunt|La tía]]", "[[The father|El padre]]"],
+          "correctAnswer": 0,
+          "explanation": "El tío (uncle) está cocinando una barbacoa."
         }
       ]
     },
@@ -1122,18 +1118,18 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "id": "a1-u6-e56",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about a cafe.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "Hello, I am Maria. I want to tell you about my family tree. My grandparents have three children: my father and my two aunts. My father is married to my mother, Sofia. They have two children: my brother Luis and me. My aunts are also married and I have four cousins. We visit our grandparents every Sunday. They live in a small house near the beach.",
     "content": {
-      "title": "Lectura: At the Sunny Cafe",
-      "instructions": "Lee el texto y responde.",
+      "title": "Lectura: El Árbol de Maria",
+      "instructions": "Lee sobre Maria y responde.",
       "questions": [
         {
-          "question": "What is the dessert? *\"Emma is at the Sunny Cafe with her friend. Emma would like a chicken salad and a bottle of water. Her friend wants a Margherita pizza and a glass of lemonade. They are very hungry. For dessert, they would like to share a large piece of chocolate cake. The waiter is very friendly.\"*",
-          "options": ["[[Fruit salad|Fruta]]", "[[Ice cream|Helado]]", "[[Chocolate cake|Pastel de chocolate]]"],
-          "correctAnswer": 2,
-          "explanation": "El texto dice 'a large piece of chocolate cake'."
+          "question": "[[How|Cuántos]] [[many|muchos]] [[children|hijos]] [[do|aux]] [[Maria's|de Maria]] [[grandparents|abuelos]] [[have|tienen]]?",
+          "options": ["[[Three|Tres]]", "[[Two|Dos]]", "[[Four|Cuatro]]"],
+          "correctAnswer": 0,
+          "explanation": "Los abuelos tienen tres hijos (her father and two aunts)."
         }
       ]
     },
@@ -1144,18 +1140,18 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "id": "a1-u6-e57",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about a market.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "Hello, I am Maria. I want to tell you about my family tree. My grandparents have three children: my father and my two aunts. My father is married to my mother, Sofia. They have two children: my brother Luis and me. My aunts are also married and I have four cousins. We visit our grandparents every Sunday. They live in a small house near the beach.",
     "content": {
-      "title": "Lectura: The Local Market",
-      "instructions": "Lee el texto y responde.",
+      "title": "Lectura: ¿Dónde viven los abuelos?",
+      "instructions": "Lee sobre Maria y responde.",
       "questions": [
         {
-          "question": "Does the market have fish? *\"Every Saturday, I go to the local market. I need to buy some food for the week. I buy some fresh bread, six eggs, and a lot of vegetables. The market has many fruits like bananas and oranges. I don't buy any meat or fish because I am a vegetarian. I love the market because the food is fresh and cheap.\"*",
-          "options": ["[[Yes, it has|Sí]]", "[[No, the person doesn't buy any|No (la persona no compra)]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice 'I don't buy any meat or fish'."
+          "question": "[[Where|Dónde]] [[do|aux]] [[the|los]] [[grandparents|abuelos]] [[live|viven]]?",
+          "options": ["[[Near the beach|Cerca de la playa]]", "[[In the city|En la ciudad]]", "[[In a big farm|En una granja grande]]"],
+          "correctAnswer": 0,
+          "explanation": "Viven en una casa pequeña cerca de la playa (near the beach)."
         }
       ]
     },
@@ -1166,62 +1162,62 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "id": "a1-u6-e58",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about a market.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "Meet the Robinsons. They are a typical family from England. Mr. Robinson is a lawyer and Mrs. Robinson is an artist. They have one daughter, Lily, who is five. They don't have a son, but they have a cat and a dog. On weekends, they visit their relatives in the countryside. Lily loves playing with her cousins and her grandparents.",
     "content": {
-      "title": "Lectura: The Local Market",
-      "instructions": "Lee el texto y responde.",
+      "title": "Lectura: Los Robinson",
+      "instructions": "Lee sobre los Robinson y responde.",
       "questions": [
         {
-          "question": "How many eggs does the person buy? *\"Every Saturday, I go to the local market. I need to buy some food for the week. I buy some fresh bread, six eggs, and a lot of vegetables. The market has many fruits like bananas and oranges. I don't buy any meat or fish because I am a vegetarian. I love the market because the food is fresh and cheap.\"*",
-          "options": ["[[Four|Cuatro]]", "[[Six|Seis]]", "[[Ten|Diez]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto indica 'six eggs'."
+          "question": "[[Does|¿Tiene]] [[the|la]] [[family|familia]] [[have|una]] [[a|una]] [[son|hijo]]?",
+          "options": ["[[No, they don't|No, no tienen]]", "[[Yes, they do|Sí, tienen]]", "[[They have two sons|Tienen dos hijos]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice 'They don't have a son'."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-6/e57.mp3",
+    "audioUrl": "audio/a1/unit-6/e58.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u6-e59",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about a market.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "Meet the Robinsons. They are a typical family from England. Mr. Robinson is a lawyer and Mrs. Robinson is an artist. They have one daughter, Lily, who is five. They don't have a son, but they have a cat and a dog. On weekends, they visit their relatives in the countryside. Lily loves playing with her cousins and her grandparents.",
     "content": {
-      "title": "Lectura: The Local Market",
-      "instructions": "Lee el texto y responde.",
+      "title": "Lectura: Mascotas Robinson",
+      "instructions": "Lee sobre los Robinson y responde.",
       "questions": [
         {
-          "question": "Why does the person love the market? *\"Every Saturday, I go to the local market. I need to buy some food for the week. I buy some fresh bread, six eggs, and a lot of vegetables. The market has many fruits like bananas and oranges. I don't buy any meat or fish because I am a vegetarian. I love the market because the food is fresh and cheap.\"*",
-          "options": ["[[It is near home|Está cerca]]", "[[The food is fresh and cheap|La comida es fresca y barata]]", "[[It is very big|Es grande]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto menciona 'because the food is fresh and cheap'."
+          "question": "[[What|Qué]] [[pets|mascotas]] [[do|aux]] [[they|ellos]] [[have|tienen]]?",
+          "options": ["[[A cat and a dog|Un gato y un perro]]", "[[Two cats|Dos gatos]]", "[[A bird|Un pájaro]]"],
+          "correctAnswer": 0,
+          "explanation": "Tienen un gato y un perro (a cat and a dog)."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-6/e57.mp3",
+    "audioUrl": "audio/a1/unit-6/e59.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u6-e60",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about a dinner party.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "Meet the Robinsons. They are a typical family from England. Mr. Robinson is a lawyer and Mrs. Robinson is an artist. They have one daughter, Lily, who is five. They don't have a son, but they have a cat and a dog. On weekends, they visit their relatives in the countryside. Lily loves playing with her cousins and her grandparents.",
     "content": {
-      "title": "Lectura: A Dinner Party",
-      "instructions": "Lee el texto y responde.",
+      "title": "Lectura: El Trabajo de Mrs. Robinson",
+      "instructions": "Lee sobre los Robinson y responde.",
       "questions": [
         {
-          "question": "Is there any pasta for dinner? *\"Tonight, my friends are coming to my house for dinner. I am cooking pasta with tomato sauce and a lot of cheese. I also have some red wine and some juice. For dessert, there are some apples and oranges. I hope they like the food!\"*",
-          "options": ["[[Yes, there is|Sí]]", "[[No, there is rice|No, hay arroz]]"],
+          "question": "[[What|Qué]] [[is|es]] [[Mrs.|la Sra.]] [[Robinson's|de Robinson]] [[job|trabajo]]?",
+          "options": ["[[Artist|Artista]]", "[[Lawyer|Abogada]]", "[[Doctor|Doctora]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice 'I am cooking pasta'."
+          "explanation": "Mrs. Robinson is an artist (artista)."
         }
       ]
     },
