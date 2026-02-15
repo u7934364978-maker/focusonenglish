@@ -126,3 +126,19 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
     - Check `/debug/a1-preview/unit-7` in the browser.
 4. **Test Plan Approval**:
     - Verify that `/debug/a1-preview/unit-7` contains 60 exercises.
+    - Ran `npm run test:e2e:chromium e2e/unit-7-expansion.spec.ts`.
+    - Results: All tests passed.
+
+### [x] Step: Expand Unit 8 (A1)
+1. **Analyze Unit 8**: Current content has 10 exercises focused on "Numbers 20-100".
+2. **Expand to 60 exercises**:
+    - Theme: "Shopping and Prices" (Money, buying clothes, asking for prices).
+    - Add Vocabulary: Clothing items (shirt, pants, dress, shoes), shopping verbs (buy, sell, pay), money (dollar, euro, cash, card).
+    - Add Grammar: Demonstratives (this, that, these, those), "How much is it?".
+    - Add Reading Comprehension: A dialogue in a clothing store or a text about a shopping trip.
+3. **Verify Implementation**:
+    - Checked `/debug/a1-preview/unit-8` in the browser.
+4. **Test Plan Approval**:
+    - Verified that `/debug/a1-preview/unit-8` contains 60 exercises.
+    - Ran `npm run test:e2e:chromium e2e/unit-8-expansion.spec.ts`.
+    - Results: All tests passed.
