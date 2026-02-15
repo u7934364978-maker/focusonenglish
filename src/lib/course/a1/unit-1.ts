@@ -505,7 +505,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "[[Where|Dónde]] ([[be|ser/estar]]) _______ [[Anna|Anna]] [[from|de/desde]]?\n\n*\"Hi! My name is Anna. I am from Italy. I am a student.\"*",
+          "question": "[[Where|Dónde]] [[is|es/está]] [[Anna|Anna]] [[from|de/desde]]?\n\n*\"Hi! My name is Anna. I am from Italy. I am a student.\"*",
           "options": ["[[Spain|España]]", "[[Italy|Italia]]", "[[Mexico|México]]"],
           "correctAnswer": 1,
           "explanation": "Anna dice: 'I am from Italy'."
@@ -526,7 +526,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "[[What|Qué]] ([[be|ser/estar]]) _______ [[her|su (de ella)]] [[job|trabajo]]?\n\n*\"Hi! My name is Anna. I am from Italy. I am a student.\"*",
+          "question": "[[What|Qué]] [[is|es/está]] [[her|su (de ella)]] [[job|trabajo]]?\n\n*\"Hi! My name is Anna. I am from Italy. I am a student.\"*",
           "options": ["[[Teacher|Profesor/profesora]]", "[[Doctor|Médico/a]]", "[[Student|Estudiante]]"],
           "correctAnswer": 2,
           "explanation": "Anna dice: 'I am a student'."
@@ -547,7 +547,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Lee y responde.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[nationality|nacionalidad]] ([[be|ser/estar]]) _______ [[Peter|Peter]]?\n\n*\"This is Peter. He is my teacher. He is British.\"*",
+          "question": "[[What|Qué]] [[is|es/está]] [[Peter|Peter]]'s [[nationality|nacionalidad]]?\n\n*\"This is Peter. He is my teacher. He is British.\"*",
           "options": ["[[American|Americano/a]]", "[[British|Británico/a]]", "[[Spanish|Español/a]]"],
           "correctAnswer": 1,
           "explanation": "El texto dice: 'He is British'."
@@ -568,7 +568,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Lee y responde.",
       "questions": [
         {
-          "question": "[[How|Cómo]] ([[be|ser/estar]]) _______ [[Peter|Peter]] [[today|hoy]]?\n\n*\"He is very happy today.\"*",
+          "question": "[[How|Cómo]] [[is|es/está]] [[Peter|Peter]] [[today|hoy]]?\n\n*\"He is very happy today.\"*",
           "options": ["[[Tired|Cansado/a]]", "[[Sad|Triste]]", "[[Happy|Feliz]]"],
           "correctAnswer": 2,
           "explanation": "El texto dice: 'He is very happy today'."

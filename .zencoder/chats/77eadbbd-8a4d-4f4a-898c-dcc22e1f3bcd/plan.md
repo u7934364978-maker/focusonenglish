@@ -41,3 +41,17 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
 ### [x] Step: Running Tests
 - Ran `npm run test:e2e e2e/unit-1-expansion.spec.ts`.
 - Results: All 3 tests passed in chromium.
+
+### [x] Step: Expand Unit 2 (A1)
+1. **Analyze Unit 2**: Current content has 11 exercises.
+2. **Expand to 60 exercises**:
+    - Theme: "Nice to meet you!" (Introductions, People, Relations).
+    - Add Vocabulary: Family, more relations (neighbor, boss), common adjectives.
+    - Add Grammar: Possessive adjectives (his, her, our, their), Plurals.
+    - Add Reading Comprehension blocks.
+3. **Verify Implementation**:
+    - Check `/debug/a1-preview/unit-2` in the browser.
+4. **Test Plan Approval**:
+    - Verify that `/debug/a1-preview/unit-2` contains 60 exercises.
+    - Ran `npm run test:e2e e2e/unit-2-expansion.spec.ts`.
+    - Results: All 3 tests passed in chromium.
