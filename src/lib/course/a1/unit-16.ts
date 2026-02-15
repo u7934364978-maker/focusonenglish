@@ -1059,16 +1059,16 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Welcome to 'The Green Cafe'. We have many types of coffee and tea. Our croissants are fresh every morning. You can sit inside or on the terrace. We have free wifi for all customers. Please order at the counter. Enjoy your visit!",
+    "transcript": "Every morning, Sarah goes to her favorite cafe near the office. She usually orders a large latte with oat milk and a blueberry muffin. The cafe is very quiet at eight o'clock, so she likes to read her book. The barista knows her name and always says hello. Sarah pays with her phone and finds a seat near the window.",
     "content": {
-      "title": "Lectura: El Café Verde",
+      "title": "Lectura: La Mañana de Sarah",
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "[[Where|Dónde]] [[can|pueden]] [[the|los]] [[customers|clientes]] [[sit|sentarse]]? *\"You can sit inside or on the terrace.\"*",
-          "options": ["[[Inside or on the terrace|Dentro o en la terraza]]", "[[Only outside|Solo fuera]]", "[[At home|En casa]]"],
+          "question": "[[What|Qué]] [[does|aux]] [[Sarah|Sarah]] [[usually|normalmente]] [[order|pedir]]? *\"She usually orders a large latte with oat milk and a blueberry muffin.\"*",
+          "options": ["[[Latte and muffin|Latte y muffin]]", "[[Black coffee and toast|Café solo y tostada]]", "[[Tea and cookie|Té y galleta]]"],
           "correctAnswer": 0,
-          "explanation": "El texto ofrece dos opciones para sentarse."
+          "explanation": "Sarah pide un latte y un muffin de arándanos."
         }
       ]
     },
@@ -1081,16 +1081,16 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Welcome to 'The Green Cafe'. We have many types of coffee and tea. Our croissants are fresh every morning. You can sit inside or on the terrace. We have free wifi for all customers. Please order at the counter. Enjoy your visit!",
+    "transcript": "Every morning, Sarah goes to her favorite cafe near the office. She usually orders a large latte with oat milk and a blueberry muffin. The cafe is very quiet at eight o'clock, so she likes to read her book. The barista knows her name and always says hello. Sarah pays with her phone and finds a seat near the window.",
     "content": {
-      "title": "Lectura: Normas del Café",
+      "title": "Lectura: El Ambiente del Café",
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "[[Where|Dónde]] [[do|aux]] [[you|tú]] [[order|pedir]]? *\"Please order at the counter.\"*",
-          "options": ["[[At the counter|En el mostrador]]", "[[At the table|En la mesa]]", "[[By phone|Por teléfono]]"],
+          "question": "[[Why|Por qué]] [[does|aux]] [[she|ella]] [[like|gustar]] [[the|el]] [[cafe|café]] [[at|a]] [[eight|ocho]] [[o'clock|en punto]]? *\"The cafe is very quiet at eight o'clock, so she likes to read her book.\"*",
+          "options": ["[[Because it is quiet|Porque está tranquilo]]", "[[Because it is loud|Porque hay ruido]]", "[[Because it is closed|Porque está cerrado]]"],
           "correctAnswer": 0,
-          "explanation": "Se debe pedir en el mostrador (counter)."
+          "explanation": "Le gusta porque es un ambiente tranquilo para leer."
         }
       ]
     },
@@ -1103,16 +1103,16 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Welcome to 'The Green Cafe'. We have many types of coffee and tea. Our croissants are fresh every morning. You can sit inside or on the terrace. We have free wifi for all customers. Please order at the counter. Enjoy your visit!",
+    "transcript": "Today, the cafe has a special menu for lunch. They have a delicious tomato soup with fresh bread for seven euros. For dessert, you can choose between a slice of cheesecake or a chocolate brownie. They also have a new green tea from Japan. If you buy a sandwich and a drink, you get a free cookie. Many customers are waiting at the counter to try the new food.",
     "content": {
-      "title": "Lectura: Wifi",
+      "title": "Lectura: El Menú Especial",
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "[[Is|Es]] [[the|el]] [[wifi|wifi]] [[free|gratis]]? *\"We have free wifi for all customers.\"*",
-          "options": ["[[Yes, it is|Sí]]", "[[No, it isn't|No]]", "[[Only for students|Solo estudiantes]]"],
+          "question": "[[How|Cuánto]] [[much|mucho]] [[is|es]] [[the|la]] [[tomato|tomate]] [[soup|sopa]]? *\"They have a delicious tomato soup with fresh bread for seven euros.\"*",
+          "options": ["[[7 euros|7 euros]]", "[[5 euros|5 euros]]", "[[10 euros|10 euros]]"],
           "correctAnswer": 0,
-          "explanation": "El wifi es gratuito para todos los clientes."
+          "explanation": "La sopa de tomate cuesta siete euros."
         }
       ]
     },
@@ -1125,16 +1125,16 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Customer: Hi! Can I have a large latte and a chocolate cookie, please? \n Barista: Sure. For here or to go? \n Customer: To go, please. \n Barista: That's six euros fifty. \n Customer: Here you go. \n Barista: Thank you. Your order will be ready in two minutes.",
+    "transcript": "Today, the cafe has a special menu for lunch. They have a delicious tomato soup with fresh bread for seven euros. For dessert, you can choose between a slice of cheesecake or a chocolate brownie. They also have a new green tea from Japan. If you buy a sandwich and a drink, you get a free cookie. Many customers are waiting at the counter to try the new food.",
     "content": {
-      "title": "Diálogo: Pidiendo Café",
-      "instructions": "Lee el diálogo y responde.",
+      "title": "Lectura: Ofertas del Menú",
+      "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[does|aux]] [[the|el]] [[customer|cliente]] [[order|pedir]]? *\"Can I have a large latte and a chocolate cookie, please?\"*",
-          "options": ["[[Latte and cookie|Latte y galleta]]", "[[Tea and muffin|Té y muffin]]", "[[Espresso and cake|Espresso y tarta]]"],
+          "question": "[[What|Qué]] [[do|aux]] [[you|tú]] [[get|obtener]] [[for|por]] [[free|gratis]] [[with|con]] [[a|un]] [[sandwich|sándwich]] [[and|y]] [[a|una]] [[drink|bebida]]? *\"If you buy a sandwich and a drink, you get a free cookie.\"*",
+          "options": ["[[A cookie|Una galleta]]", "[[A coffee|Un café]]", "[[A brownie|Un brownie]]"],
           "correctAnswer": 0,
-          "explanation": "El cliente pide un latte y una galleta de chocolate."
+          "explanation": "La oferta incluye una galleta gratis al comprar un sándwich y una bebida."
         }
       ]
     },
@@ -1147,16 +1147,16 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Customer: Hi! Can I have a large latte and a chocolate cookie, please? \n Barista: Sure. For here or to go? \n Customer: To go, please. \n Barista: That's six euros fifty. \n Customer: Here you go. \n Barista: Thank you. Your order will be ready in two minutes.",
+    "transcript": "John is meeting his friends at 'The Blue Bean' cafe this afternoon. They want to plan their weekend trip to the mountains. John arrives first and finds a large table with four chairs. He orders a cold smoothie because it is a very hot day. His friends arrive ten minutes later and they all order iced coffees. They use the free wifi to look at maps and photos.",
     "content": {
-      "title": "Diálogo: Para llevar",
-      "instructions": "Lee el diálogo y responde.",
+      "title": "Lectura: Quedar con Amigos",
+      "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "[[Is|¿Es]] [[the|el]] [[order|pedido]] [[for|para]] [[here|aquí]]? *\"To go, please.\"*",
-          "options": ["[[No, it's to go|No, es para llevar]]", "[[Yes, it is|Sí]]", "[[For the terrace|Para la terraza]]"],
+          "question": "[[What|Qué]] [[does|aux]] [[John|John]] [[order|pedir]]? *\"He orders a cold smoothie because it is a very hot day.\"*",
+          "options": ["[[A cold smoothie|Un batido de frutas frío]]", "[[A hot coffee|Un café caliente]]", "[[A soda|Un refresco]]"],
           "correctAnswer": 0,
-          "explanation": "El cliente dice que es para llevar (to go)."
+          "explanation": "John pide un smoothie frío debido al calor."
         }
       ]
     },
@@ -1169,16 +1169,16 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Customer: Hi! Can I have a large latte and a chocolate cookie, please? \n Barista: Sure. For here or to go? \n Customer: To go, please. \n Barista: That's six euros fifty. \n Customer: Here you go. \n Barista: Thank you. Your order will be ready in two minutes.",
+    "transcript": "John is meeting his friends at 'The Blue Bean' cafe this afternoon. They want to plan their weekend trip to the mountains. John arrives first and finds a large table with four chairs. He orders a cold smoothie because it is a very hot day. His friends arrive ten minutes later and they all order iced coffees. They use the free wifi to look at maps and photos.",
     "content": {
-      "title": "Diálogo: El Pago",
-      "instructions": "Lee el diálogo y responde.",
+      "title": "Lectura: Planes en el Café",
+      "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "[[How|Cuánto]] [[much|mucho]] [[is|es]] [[it|ello]]? *\"That's six euros fifty.\"*",
-          "options": ["[[€6.50|6,50€]]", "[[€5.60|5,60€]]", "[[€6.00|6,00€]]"],
+          "question": "[[What|Qué]] [[are|están]] [[they|ellos]] [[planning|planeando]]? *\"They want to plan their weekend trip to the mountains.\"*",
+          "options": ["[[A trip to the mountains|Un viaje a las montañas]]", "[[A birthday party|Una fiesta de cumpleaños]]", "[[A business meeting|Una reunión de trabajo]]"],
           "correctAnswer": 0,
-          "explanation": "El precio total es de 6,50 euros."
+          "explanation": "Están planeando un viaje a las montañas para el fin de semana."
         }
       ]
     },
@@ -1189,78 +1189,88 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "id": "a1-u16-e57",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Ordering",
-    "difficulty": "hard",
-    "transcript": "I'd like a cappuccino with oat milk and no sugar, please.",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "transcript": "Marco is a barista at a busy cafe in the city center. He starts his work at six in the morning to prepare the coffee machine. He makes many espressos and cappuccinos for people going to work. He also heats up croissants and muffins in the oven. Marco is very fast and friendly with all the customers. At the end of his shift, he cleans the tables and the counter.",
     "content": {
-      "title": "Pedido Complejo",
-      "instructions": "Pedido: 'Me gustaría un capuchino con leche de avena y sin [[azúcar|azúcar]], por favor'.",
+      "title": "Lectura: El Trabajo de Marco",
+      "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "[[I'd|Me]] [[like|gustaría]] [[a|un]] [[cappuccino|capuchino]] [[with|con]] _______ [[milk|leche]] [[and|y]] _______ [[sugar|azúcar]], [[please|por favor]].",
-          "options": ["[[oat|avena]] / [[no|sin]]", "[[soy|soja]] / [[extra|extra]]", "[[oat|avena]] / [[extra|extra]]"],
+          "question": "[[What|Qué]] [[time|hora]] [[does|aux]] [[Marco|Marco]] [[start|empezar]] [[work|trabajar]]? *\"He starts his work at six in the morning...\"*",
+          "options": ["[[6:00 AM|6:00 AM]]", "[[8:00 AM|8:00 AM]]", "[[10:00 AM|10:00 AM]]"],
           "correctAnswer": 0,
-          "explanation": "Pedido personalizado con leche de avena y sin [[azúcar|azúcar]]."
+          "explanation": "Marco empieza su jornada a las seis de la mañana."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-16/e57.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u16-e58",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Ordering",
-    "difficulty": "hard",
-    "transcript": "Would you like me to heat up your muffin?",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "transcript": "Marco is a barista at a busy cafe in the city center. He starts his work at six in the morning to prepare the coffee machine. He makes many espressos and cappuccinos for people going to work. He also heats up croissants and muffins in the oven. Marco is very fast and friendly with all the customers. At the end of his shift, he cleans the tables and the counter.",
     "content": {
-      "title": "Calentar comida",
-      "instructions": "Ordena la pregunta del barista.",
-      "correctSentence": "[[Would|¿Querría]] [[you|usted]] [[like|gustar]] [[me|que yo]] [[to|aux]] [[heat|caliente]] [[up|aux]] [[your|su]] [[muffin|muffin]]?",
-      "words": ["[[heat|caliente]]", "[[muffin|muffin]]?", "[[you|usted]]", "[[like|gustar]]", "[[up|aux]]", "[[Would|¿Querría]]", "[[to|aux]]", "[[your|su]]", "[[me|que yo]]"],
-      "explanation": "Preguntar si se desea calentar la comida."
+      "title": "Lectura: Tareas de Barista",
+      "instructions": "Lee el texto y responde.",
+      "questions": [
+        {
+          "question": "[[What|Qué]] [[does|aux]] [[he|él]] [[do|hacer]] [[at|al]] [[the|el]] [[end|final]] [[of|de]] [[his|su]] [[shift|turno]]? *\"At the end of his shift, he cleans the tables and the counter.\"*",
+          "options": ["[[Cleans tables and counter|Limpia mesas y mostrador]]", "[[Cooks lunch|Cocina el almuerzo]]", "[[Calls his friends|Llama a sus amigos]]"],
+          "correctAnswer": 0,
+          "explanation": "Al terminar su turno, limpia el local."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-16/e58.mp3",
-    "topicName": "Grammar"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u16-e59",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Social",
-    "difficulty": "hard",
-    "transcript": "Is this seat taken?",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "transcript": "It is raining outside, so the cafe is very crowded today. Many people are wearing coats and carrying umbrellas. Inside, it is warm and smells like fresh coffee and cinnamon. A young man is working on his laptop and drinking a hot chocolate. Two women are talking and sharing a piece of cake. There are no empty seats, so some customers are waiting for a table.",
     "content": {
-      "title": "Asientos",
-      "instructions": "Pregunta educada para sentarse.",
+      "title": "Lectura: Un Sábado Lluvioso",
+      "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "[[Is|¿Está]] [[this|este]] _______ [[taken|ocupado]]?",
-          "options": ["[[seat|asiento]]", "[[chair|silla]]", "[[table|mesa]]"],
+          "question": "[[Why|Por qué]] [[is|está]] [[the|el]] [[cafe|café]] [[crowded|lleno de gente]]? *\"It is raining outside, so the cafe is very crowded today.\"*",
+          "options": ["[[Because it is raining|Porque está lloviendo]]", "[[Because there is a party|Porque hay una fiesta]]", "[[Because coffee is free|Porque el café es gratis]]"],
           "correctAnswer": 0,
-          "explanation": "'Is this seat taken?' es la forma de preguntar si un asiento está libre."
+          "explanation": "El café está lleno porque llueve fuera."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-16/e59.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u16-e60",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Social",
-    "difficulty": "hard",
-    "transcript": "I'm meeting a friend here in ten minutes.",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "transcript": "It is raining outside, so the cafe is very crowded today. Many people are wearing coats and carrying umbrellas. Inside, it is warm and smells like fresh coffee and cinnamon. A young man is working on his laptop and drinking a hot chocolate. Two women are talking and sharing a piece of cake. There are no empty seats, so some customers are waiting for a table.",
     "content": {
-      "title": "Quedar en el café",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[I'm|He]] [[meeting|quedado con]] [[a|un]] [[friend|amigo]] [[here|aquí]] [[in|en]] [[ten|diez]] [[minutes|minutos]].",
-      "words": ["[[ten|diez]]", "[[friend|amigo]]", "[[here|aquí]]", "[[minutes|minutos]].", "[[meeting|quedado con]]", "[[I'm|He]]", "[[a|un]]", "[[in|en]]"],
-      "explanation": "Quedar con alguien en un café."
+      "title": "Lectura: En el Interior",
+      "instructions": "Lee el texto y responde.",
+      "questions": [
+        {
+          "question": "[[What|Qué]] [[are|están]] [[the|las]] [[two|dos]] [[women|mujeres]] [[doing|haciendo]]? *\"Two women are talking and sharing a piece of cake.\"*",
+          "options": ["[[Talking and sharing cake|Hablando y compartiendo tarta]]", "[[Working on laptops|Trabajando en portátiles]]", "[[Singing songs|Cantando canciones]]"],
+          "correctAnswer": 0,
+          "explanation": "Las dos mujeres están charlando y comiendo tarta juntas."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-16/e60.mp3",
-    "topicName": "Grammar"
+    "topicName": "Reading"
   }
 ];
