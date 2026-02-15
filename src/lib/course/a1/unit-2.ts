@@ -63,7 +63,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Nice to meet you!",
     "difficulty": "easy",
-    "transcript": "He  is my friend.",
+    "transcript": "He is my friend.",
     "content": {
       "title": "Practica la Gramática",
       "instructions": "Completa la oración con la opción correcta.",
@@ -72,7 +72,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
           "question": "[[He|Él]] ([[be|ser/estar]]) _______ [[my|mi/mis]] [[friend|amigo/amiga]].",
           "options": [
             "[[is|es/está]]",
-            "[[is|es/está]]",
+            "[[am|soy/estoy]]",
             "[[are|son/están]]"
           ],
           "correctAnswer": 0,
@@ -89,7 +89,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Nice to meet you!",
     "difficulty": "easy",
-    "transcript": "She  is a doctor.",
+    "transcript": "She is a doctor.",
     "content": {
       "title": "Practica la Gramática",
       "instructions": "Completa la oración con la opción correcta.",
@@ -98,7 +98,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
           "question": "[[She|Ella]] ([[be|ser/estar]]) _______ [[a|un/una]] [[doctor|médico/a]].",
           "options": [
             "[[is|es/está]]",
-            "[[is|es/está]]",
+            "[[am|soy/estoy]]",
             "[[are|son/están]]"
           ],
           "correctAnswer": 0,
@@ -115,7 +115,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Nice to meet you!",
     "difficulty": "easy",
-    "transcript": "We  are happy.",
+    "transcript": "We are happy.",
     "content": {
       "title": "Practica la Gramática",
       "instructions": "Completa la oración con la opción correcta.",
@@ -125,7 +125,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
           "options": [
             "[[is|es/está]]",
             "[[are|son/están]]",
-            "[[are|son/están]]"
+            "[[am|soy/estoy]]"
           ],
           "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
@@ -141,7 +141,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Nice to meet you!",
     "difficulty": "easy",
-    "transcript": "They  are students.",
+    "transcript": "They are students.",
     "content": {
       "title": "Practica la Gramática",
       "instructions": "Completa la oración con la opción correcta.",
@@ -151,7 +151,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
           "options": [
             "[[are|son/están]]",
             "[[is|es/está]]",
-            "[[are|son/están]]"
+            "[[am|soy/estoy]]"
           ],
           "correctAnswer": 0,
           "explanation": "Práctica de la estructura gramatical básica."
@@ -175,9 +175,9 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "([[be|ser/estar]]) _______ [[you|tú/usted]] [[a|un/una]] [[student|estudiante]]?",
           "options": [
-            "[[is|es/está]]",
+            "[[Is|Es/está]]",
             "[[Are|Son/están]]",
-            "[[are|son/están]]"
+            "[[Am|Soy/estoy]]"
           ],
           "correctAnswer": 1,
           "explanation": "Práctica de la estructura gramatical básica."
