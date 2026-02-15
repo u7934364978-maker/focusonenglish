@@ -143,16 +143,41 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
     - Ran `npm run test:e2e:chromium e2e/unit-8-expansion.spec.ts`.
     - Results: All tests passed.
 
-### [x] Step: Expand Unit 9 (A1)
-1. **Analyze Unit 9**: Current content has 11 exercises.
+### [x] Step: Expand Unit 10 (A1)
+1. **Analyze Unit 10**: Current content has 10 exercises.
 2. **Expand to 60 exercises**:
-    - Theme: "Jobs and Occupations" (Professions, workplaces, daily tasks at work).
-    - Add Vocabulary: More professions (Teacher, Artist, Waiter, Dentist, etc.), Workplaces (School, Restaurant, Lab, etc.).
-    - Add Grammar: Articles a/an (review), Present Simple for work routines (work/works), prepositions of place (in a hospital, at home).
-    - Add Reading Comprehension: Short biographies or job descriptions.
+    - Theme: "Module 1 Review" (Reviewing units 1-9).
+    - Content: Mixed practice of all grammar and vocabulary covered so far.
+    - Reading Comprehension: Longer texts integrating all concepts.
 3. **Verify Implementation**:
-    - Check `/debug/a1-preview/unit-9` in the browser.
+    - Checked `/debug/a1-preview/unit-10` in the browser.
 4. **Test Plan Approval**:
-    - Verify that `/debug/a1-preview/unit-9` contains 60 exercises.
-    - Ran `npm run test:e2e:chromium e2e/unit-9-expansion.spec.ts`.
+    - Verified that `/debug/a1-preview/unit-10` contains 60 exercises.
+    - Ran `npm run test:e2e:chromium e2e/unit-10-expansion.spec.ts`.
     - Results: All tests passed.
+
+### [x] Step: Expand Unit 11 (A1)
+1. **Analyze Unit 11**: Current content has 11 exercises.
+2. **Expand to 60 exercises**:
+    - Theme: "Telling the Time" (Clock times, parts of the day, daily routine timing).
+    - Add Vocabulary: Time measures (minute, hour, second), parts of the day (morning, afternoon, evening, night).
+    - Add Grammar: Prepositions of time (at, in, on), Frequency adverbs (always, sometimes, never).
+    - Add Reading Comprehension: Detailed daily routine schedules.
+3. **Verify Implementation**:
+    - Checked `/debug/a1-preview/unit-11` in the browser.
+4. **Test Plan Approval**:
+    - Verified that `/debug/a1-preview/unit-11` contains 60 exercises.
+    - Ran `npm run test:e2e:chromium e2e/unit-11-expansion.spec.ts`.
+    - Results: All tests passed.
+
+### [ ] Step: Expand Unit 12 (A1)
+1. **Analyze Unit 12**: Current content.
+2. **Expand to 60 exercises**:
+    - Theme: "My City and Places" (City locations, directions, describing a city).
+    - Add Vocabulary: Places (bank, park, library, museum, shop), direction words (left, right, straight).
+    - Add Grammar: Imperatives for directions, Prepositions of place (next to, across from, behind).
+    - Add Reading Comprehension: Description of a city tour or a neighborhood.
+3. **Verify Implementation**:
+    - Check `/debug/a1-preview/unit-12` in the browser.
+4. **Test Plan Approval**:
+    - Verify that `/debug/a1-preview/unit-12` contains 60 exercises.
