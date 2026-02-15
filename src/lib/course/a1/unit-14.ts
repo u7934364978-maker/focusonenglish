@@ -5,23 +5,19 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "id": "a1-u14-e1",
     "type": "flashcard",
     "level": "A1",
-    "topic": "Hobbies Vocabulary",
+    "topic": "Frequency Adverbs",
     "difficulty": "easy",
-    "transcript": "Reading. Traveling. Cooking. Swimming. Dancing. Singing. Drawing. Playing games. Watching movies. Listening to music.",
+    "transcript": "Always. Usually. Often. Sometimes. Hardly ever. Never.",
     "content": {
-      "title": "Vocabulario: Hobbies",
-      "instructions": "Aprende los nombres de actividades de tiempo libre comunes.",
+      "title": "Vocabulario: Frecuencia",
+      "instructions": "Aprende los adverbios de frecuencia más comunes.",
       "items": [
-        { "front": "[[Reading|Leer]]", "back": "Leer" },
-        { "front": "[[Traveling|Viajar]]", "back": "Viajar" },
-        { "front": "[[Cooking|Cocinar]]", "back": "Cocinar" },
-        { "front": "[[Swimming|Nadar]]", "back": "Nadar" },
-        { "front": "[[Dancing|Bailar]]", "back": "Bailar" },
-        { "front": "[[Singing|Cantar]]", "back": "Singing" },
-        { "front": "[[Drawing|Dibujar]]", "back": "Dibujar" },
-        { "front": "[[Playing games|Jugar juegos]]", "back": "Jugar juegos" },
-        { "front": "[[Watching movies|Ver películas]]", "back": "Ver películas" },
-        { "front": "[[Listening to music|Escuchar música]]", "back": "Escuchar música" }
+        { "front": "[[Always|Siempre (100%)]]", "back": "Siempre (100%)" },
+        { "front": "[[Usually|Normalmente (80-90%)]]", "back": "Normalmente (80-90%)" },
+        { "front": "[[Often|A menudo (60-70%)]]", "back": "A menudo (60-70%)" },
+        { "front": "[[Sometimes|A veces (50%)]]", "back": "A veces (50%)" },
+        { "front": "[[Hardly ever|Casi nunca (10-20%)]]", "back": "Casi nunca (10-20%)" },
+        { "front": "[[Never|Nunca (0%)]]", "back": "Nunca (0%)" }
       ]
     },
     "audioUrl": "audio/a1/unit-14/e1.mp3",
@@ -31,23 +27,17 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "id": "a1-u14-e2",
     "type": "flashcard",
     "level": "A1",
-    "topic": "Sports",
+    "topic": "Frequency Expressions",
     "difficulty": "easy",
-    "transcript": "Football. Basketball. Tennis. Volleyball. Baseball. Golf. Yoga. Cycling. Running. Hiking.",
+    "transcript": "Every day. Once a week. Twice a month. Three times a year.",
     "content": {
-      "title": "Vocabulario: Deportes",
-      "instructions": "Aprende los nombres de deportes populares.",
+      "title": "Expresiones de Frecuencia",
+      "instructions": "Otras formas de decir con qué frecuencia haces algo.",
       "items": [
-        { "front": "[[Football|Fútbol]]", "back": "Fútbol" },
-        { "front": "[[Basketball|Baloncesto]]", "back": "Baloncesto" },
-        { "front": "[[Tennis|Tenis]]", "back": "Tenis" },
-        { "front": "[[Volleyball|Voleibol]]", "back": "Voleibol" },
-        { "front": "[[Baseball|Béisbol]]", "back": "Béisbol" },
-        { "front": "[[Golf|Golf]]", "back": "Golf" },
-        { "front": "[[Yoga|Yoga]]", "back": "Yoga" },
-        { "front": "[[Cycling|Ciclismo]]", "back": "Cycling" },
-        { "front": "[[Running|Correr]]", "back": "Correr" },
-        { "front": "[[Hiking|Senderismo]]", "back": "Senderismo" }
+        { "front": "[[Every day|Todos los días]]", "back": "Todos los días" },
+        { "front": "[[Once a week|Una vez a la semana]]", "back": "Una vez a la semana" },
+        { "front": "[[Twice a month|Dos veces al mes]]", "back": "Dos veces al mes" },
+        { "front": "[[Three times a year|Tres veces al año]]", "back": "Tres veces al año" }
       ]
     },
     "audioUrl": "audio/a1/unit-14/e2.mp3",
@@ -57,18 +47,18 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "id": "a1-u14-e3",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Like/Love/Hate",
+    "topic": "Frequency Adverbs",
     "difficulty": "easy",
-    "transcript": "I love swimming in the sea.",
+    "transcript": "I always drink water.",
     "content": {
-      "title": "Expresando Gustos",
-      "instructions": "Completa la oración con la forma correcta del verbo.",
+      "title": "Posición del Adverbio",
+      "instructions": "Elige la oración correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[love|amo]] _______ [[in|en]] [[the|el]] [[sea|mar]].",
-          "options": ["[[swimming|nadar]]", "[[swim|nadar]]", "[[swims|nadar]]"],
+          "question": "[[I|Yo]] (_____) [[drink|bebo]] [[water|agua]].",
+          "options": ["[[always|siempre]]", "[[am always|siempre soy]]", "[[drink always|bebo siempre]]"],
           "correctAnswer": 0,
-          "explanation": "Después de love/like/hate se usa el gerundio (-ing)."
+          "explanation": "El adverbio va antes del verbo principal."
         }
       ]
     },
@@ -79,18 +69,18 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "id": "a1-u14-e4",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Sports",
+    "topic": "Frequency Adverbs",
     "difficulty": "easy",
-    "transcript": "We play football every Saturday.",
+    "transcript": "I am never late.",
     "content": {
-      "title": "Jugando Deportes",
-      "instructions": "Elige el verbo correcto para deportes de equipo.",
+      "title": "Adverbio con Verbo 'To Be'",
+      "instructions": "Elige la posición correcta con el verbo 'to be'.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] _______ [[football|fútbol]] [[every|cada]] [[Saturday|sábado]].",
-          "options": ["[[play|jugamos]]", "[[do|hacemos]]", "[[go|vamos]]"],
+          "question": "[[I|Yo]] [[am|soy/estoy]] (_____) [[late|tarde]].",
+          "options": ["[[never|nunca]]", "[[often|a menudo]]", "[[always|siempre]]"],
           "correctAnswer": 0,
-          "explanation": "Se usa 'play' para deportes con balón y competitivos."
+          "explanation": "Con el verbo 'to be', el adverbio va después del verbo."
         }
       ]
     },
@@ -99,22 +89,17 @@ export const UNIT_14_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u14-e5",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Like/Love/Hate",
+    "topic": "Frequency Adverbs",
     "difficulty": "medium",
-    "transcript": "Does she like cooking?",
+    "transcript": "We usually have lunch at home.",
     "content": {
-      "title": "Preguntando por gustos",
-      "instructions": "Completa la pregunta singular.",
-      "questions": [
-        {
-          "question": "_______ [[she|ella]] [[like|gustar]] [[cooking|cocinar]]?",
-          "options": ["[[Does|¿?]]", "[[Do|¿?]]", "[[Is|¿?]]"],
-          "correctAnswer": 0,
-          "explanation": "Auxiliar Does para preguntas de tercera persona singular."
-        }
-      ]
+      "title": "Normalmente",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[We|Nosotros]] [[usually|normalmente]] [[have|tenemos]] [[lunch|almuerzo]] [[at|en]] [[home|casa]].",
+      "words": ["[[home|casa]].", "[[at|en]]", "[[lunch|almuerzo]]", "[[have|tenemos]]", "[[usually|normalmente]]", "[[We|Nosotros]]"],
+      "explanation": "Usually indica una frecuencia alta, alrededor del 80%."
     },
     "audioUrl": "audio/a1/unit-14/e5.mp3",
     "topicName": "Grammar"
@@ -123,18 +108,18 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "id": "a1-u14-e6",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Frequency Adverbs",
-    "difficulty": "medium",
-    "transcript": "I always listen to music in the morning.",
+    "topic": "How often...?",
+    "difficulty": "easy",
+    "transcript": "How often do you go to the gym?",
     "content": {
-      "title": "Frecuencia",
-      "instructions": "Elige el adverbio de frecuencia 100%.",
+      "title": "Preguntar Frecuencia",
+      "instructions": "Completa la pregunta.",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[listen|escucho]] [[to|a]] [[music|música]] [[in|en]] [[the|la]] [[morning|mañana]].",
-          "options": ["[[always|siempre]]", "[[never|nunca]]", "[[sometimes|a veces]]"],
+          "question": "(_____) [[often|a menudo]] [[do|aux]] [[you|tú]] [[go|vas]] [[to|al]] [[the|el]] [[gym|gimnasio]]?",
+          "options": ["[[How|Cómo]]", "[[What|Qué]]", "[[When|Cuándo]]"],
           "correctAnswer": 0,
-          "explanation": "Always indica una frecuencia total."
+          "explanation": "'How often' es la expresión estándar para preguntar por frecuencia."
         }
       ]
     },
@@ -145,15 +130,15 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "id": "a1-u14-e7",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Hobbies",
+    "topic": "Frequency Adverbs",
     "difficulty": "medium",
-    "transcript": "They love watching horror movies.",
+    "transcript": "They sometimes watch horror movies.",
     "content": {
-      "title": "Películas de Terror",
+      "title": "A Veces",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[They|Ellos]] [[love|aman]] [[watching|ver]] [[horror|de terror]] [[movies|películas]].",
-      "words": ["[[love|aman]]", "[[watching|ver]]", "[[horror|de terror]]", "[[movies|películas]].", "[[They|Ellos]]"],
-      "explanation": "Práctica de la estructura love + -ing."
+      "correctSentence": "[[They|Ellos]] [[sometimes|a veces]] [[watch|ven]] [[horror|de terror]] [[movies|películas]].",
+      "words": ["[[movies|películas]].", "[[horror|de terror]]", "[[watch|ven]]", "[[sometimes|a veces]]", "[[They|Ellos]]"],
+      "explanation": "Sometimes indica que algo ocurre el 50% de las veces."
     },
     "audioUrl": "audio/a1/unit-14/e7.mp3",
     "topicName": "Grammar"
@@ -162,18 +147,18 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "id": "a1-u14-e8",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Sports",
-    "difficulty": "easy",
-    "transcript": "He does yoga every morning.",
+    "topic": "Frequency Adverbs",
+    "difficulty": "medium",
+    "transcript": "Does he often cook?",
     "content": {
-      "title": "Haciendo Yoga",
-      "instructions": "Elige el verbo correcto para actividades individuales.",
+      "title": "Pregunta con Adverbio",
+      "instructions": "Elige la forma correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[yoga|yoga]] [[every|cada]] [[morning|mañana]].",
-          "options": ["[[does|hace]]", "[[plays|juega]]", "[[goes|va]]"],
+          "question": "[[Does|Aux]] [[he|él]] (_____) [[cook|cocina]]?",
+          "options": ["[[often|a menudo]]", "[[always|siempre]]", "[[never|nunca]]"],
           "correctAnswer": 0,
-          "explanation": "Se usa 'do' para actividades como yoga, karate o gimnasia."
+          "explanation": "Often es muy común en preguntas sobre hábitos."
         }
       ]
     },
@@ -186,13 +171,13 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Frequency Adverbs",
     "difficulty": "medium",
-    "transcript": "I sometimes go running in the park.",
+    "transcript": "I hardly ever go to the cinema.",
     "content": {
-      "title": "Corriendo a veces",
-      "instructions": "Ordena la oración con adverbio de frecuencia.",
-      "correctSentence": "[[I|Yo]] [[sometimes|a veces]] [[go|voy]] [[running|a correr]] [[in|en]] [[the|el]] [[park|parque]].",
-      "words": ["[[sometimes|a veces]]", "[[go|voy]]", "[[running|a correr]]", "[[in|en]]", "[[park|parque]].", "[[the|el]]", "[[I|Yo]]"],
-      "explanation": "El adverbio de frecuencia va antes del verbo principal."
+      "title": "Casi Nunca",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[I|Yo]] [[hardly ever|casi nunca]] [[go|voy]] [[to|al]] [[the|el]] [[cinema|cine]].",
+      "words": ["[[cinema|cine]].", "[[the|el]]", "[[to|al]]", "[[go|voy]]", "[[hardly ever|casi nunca]]", "[[I|Yo]]"],
+      "explanation": "Hardly ever significa casi nunca."
     },
     "audioUrl": "audio/a1/unit-14/e9.mp3",
     "topicName": "Grammar"
@@ -201,46 +186,37 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "id": "a1-u14-e10",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Like/Love/Hate",
-    "difficulty": "medium",
-    "transcript": "I hate cleaning the house.",
+    "topic": "Frequency Adverbs",
+    "difficulty": "easy",
+    "transcript": "She is always happy.",
     "content": {
-      "title": "No me gusta",
-      "instructions": "Elige el verbo de desagrado extremo.",
+      "title": "Estado de Ánimo",
+      "instructions": "Elige el adverbio correcto.",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[cleaning|limpiar]] [[the|la]] [[house|casa]].",
-          "options": ["[[hate|odio]]", "[[love|amo]]", "[[like|me gusta]]"],
+          "question": "[[She|Ella]] [[is|está]] (_____) [[happy|feliz]].",
+          "options": ["[[always|siempre]]", "[[never|nunca]]", "[[often|a menudo]]"],
           "correctAnswer": 0,
-          "explanation": "Hate expresa un sentimiento negativo fuerte."
+          "explanation": "Uso de adverbio después de 'is'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-14/e10.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u14-e11",
-    "type": "flashcard",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Instruments",
-    "difficulty": "easy",
-    "transcript": "Guitar. Piano. Drums. Violin. Flute. Saxophone. Keyboard. Trumpet. Bass. Cello.",
+    "topic": "Frequency Expressions",
+    "difficulty": "medium",
+    "transcript": "I study English twice a week.",
     "content": {
-      "title": "Vocabulario: Instrumentos",
-      "instructions": "Aprende nombres de instrumentos musicales.",
-      "items": [
-        { "front": "[[Guitar|Guitarra]]", "back": "Guitarra" },
-        { "front": "[[Piano|Piano]]", "back": "Piano" },
-        { "front": "[[Drums|Batería]]", "back": "Batería" },
-        { "front": "[[Violin|Violín]]", "back": "Violín" },
-        { "front": "[[Flute|Flauta]]", "back": "Flauta" },
-        { "front": "[[Saxophone|Saxofón]]", "back": "Saxofón" },
-        { "front": "[[Keyboard|Teclado]]", "back": "Teclado" },
-        { "front": "[[Trumpet|Trompeta]]", "back": "Trompeta" },
-        { "front": "[[Bass|Bajo]]", "back": "Bajo" },
-        { "front": "[[Cello|Violonchelo]]", "back": "Violonchelo" }
-      ]
+      "title": "Dos veces",
+      "instructions": "Ordena la frase de frecuencia.",
+      "correctSentence": "[[I|Yo]] [[study|estudio]] [[English|inglés]] [[twice|dos veces]] [[a|a la]] [[week|semana]].",
+      "words": ["[[week|semana]].", "[[a|a la]]", "[[twice|dos veces]]", "[[English|inglés]]", "[[study|estudio]]", "[[I|Yo]]"],
+      "explanation": "Twice a week significa dos veces por semana."
     },
     "audioUrl": "audio/a1/unit-14/e11.mp3",
     "topicName": "Vocabulary"
@@ -249,18 +225,18 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "id": "a1-u14-e12",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Instruments",
-    "difficulty": "easy",
-    "transcript": "She plays the piano very well.",
+    "topic": "Frequency Adverbs",
+    "difficulty": "medium",
+    "transcript": "They never eat meat.",
     "content": {
-      "title": "Tocando el Piano",
-      "instructions": "Elige el verbo correcto para instrumentos.",
+      "title": "Dieta",
+      "instructions": "Completa con el adverbio negativo.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[the|el]] [[piano|piano]] [[very|muy]] [[well|bien]].",
-          "options": ["[[plays|toca]]", "[[does|hace]]", "[[is|es]]"],
+          "question": "[[They|Ellos]] (_____) [[eat|comen]] [[meat|carne]].",
+          "options": ["[[never|nunca]]", "[[always|siempre]]", "[[sometimes|a veces]]"],
           "correctAnswer": 0,
-          "explanation": "Se usa 'play' tanto para juegos como para instrumentos."
+          "explanation": "Never no necesita 'don't' para ser negativo."
         }
       ]
     },
@@ -269,144 +245,134 @@ export const UNIT_14_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u14-e13",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Hobbies",
-    "difficulty": "easy",
-    "transcript": "I go traveling every summer.",
+    "topic": "Frequency Adverbs",
+    "difficulty": "medium",
+    "transcript": "My father often plays tennis.",
     "content": {
-      "title": "Viajando",
-      "instructions": "Elige el verbo de movimiento adecuado.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] _______ [[traveling|viajar]] [[every|cada]] [[summer|verano]].",
-          "options": ["[[go|voy]]", "[[do|hago]]", "[[play|juego]]"],
-          "correctAnswer": 0,
-          "explanation": "Go + -ing se usa para actividades que implican desplazamiento."
-        }
-      ]
+      "title": "Tenis a Menudo",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[My|Mi]] [[father|padre]] [[often|a menudo]] [[plays|juega]] [[tennis|tenis]].",
+      "words": ["[[tennis|tenis]].", "[[plays|juega]]", "[[often|a menudo]]", "[[father|padre]]", "[[My|Mi]]"],
+      "explanation": "El verbo lleva 's' (plays) y el adverbio va antes."
     },
     "audioUrl": "audio/a1/unit-14/e13.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u14-e14",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Instruments",
+    "topic": "Frequency Adverbs",
     "difficulty": "medium",
-    "transcript": "Can you play the guitar?",
+    "transcript": "It is usually cold in January.",
     "content": {
-      "title": "Pregunta de Habilidad",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Can|Puedes]] [[you|tú]] [[play|tocar]] [[the|la]] [[guitar|guitarra]]?",
-      "words": ["[[play|tocar]]", "[[you|tú]]", "[[Can|Puedes]]", "[[guitar|guitarra]]?", "[[the|la]]"],
-      "explanation": "Estructura de pregunta con modal 'can'."
+      "title": "Clima",
+      "instructions": "Completa con el adverbio.",
+      "questions": [
+        {
+          "question": "[[It|Ello]] [[is|está]] (_____) [[cold|frío]] [[in|en]] [[January|enero]].",
+          "options": ["[[usually|normalmente]]", "[[hardly ever|casi nunca]]", "[[never|nunca]]"],
+          "correctAnswer": 0,
+          "explanation": "Uso de usually después de is."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-14/e14.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u14-e15",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Hobbies",
-    "difficulty": "easy",
-    "transcript": "My brother likes playing video games.",
+    "topic": "Frequency Adverbs",
+    "difficulty": "medium",
+    "transcript": "We always brush our teeth.",
     "content": {
-      "title": "Videojuegos",
-      "instructions": "Completa con la actividad.",
-      "questions": [
-        {
-          "question": "[[My|Mi]] [[brother|hermano]] [[likes|le gusta]] _______ [[video|video]] [[games|juegos]].",
-          "options": ["[[playing|jugar]]", "[[watching|ver]]", "[[reading|leer]]"],
-          "correctAnswer": 0,
-          "explanation": "Los videojuegos se juegan (play)."
-        }
-      ]
+      "title": "Higiene",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[We|Nosotros]] [[always|siempre]] [[brush|lavamos]] [[our|nuestros]] [[teeth|dientes]].",
+      "words": ["[[teeth|dientes]].", "[[our|nuestros]]", "[[brush|lavamos]]", "[[always|siempre]]", "[[We|Nosotros]]"],
+      "explanation": "Un hábito de 100% de frecuencia."
     },
     "audioUrl": "audio/a1/unit-14/e15.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u14-e16",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Frequency Adverbs",
-    "difficulty": "medium",
-    "transcript": "They never go to the cinema.",
+    "topic": "Frequency Expressions",
+    "difficulty": "easy",
+    "transcript": "I visit my parents once a month.",
     "content": {
-      "title": "Nunca",
-      "instructions": "Elige el adverbio de frecuencia 0%.",
+      "title": "Una Vez al Mes",
+      "instructions": "Elige la expresión correcta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[go|van]] [[to|al]] [[the|el]] [[cinema|cine]].",
-          "options": ["[[never|nunca]]", "[[always|siempre]]", "[[usually|normalmente]]"],
+          "question": "[[I|Yo]] [[visit|visito]] [[my|mis]] [[parents|padres]] (_____) [[a|al]] [[month|mes]].",
+          "options": ["[[once|una vez]]", "[[one|uno]]", "[[one time|una vez]]"],
           "correctAnswer": 0,
-          "explanation": "Never indica ausencia total de la acción."
+          "explanation": "'Once' es más común que 'one time'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-14/e16.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u14-e17",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Like/Love/Hate",
+    "topic": "How often...?",
     "difficulty": "medium",
-    "transcript": "I don't like dancing.",
+    "transcript": "How often do they play football?",
     "content": {
-      "title": "No me gusta bailar",
-      "instructions": "Completa la negación.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] _______ [[like|gustar]] [[dancing|bailar]].",
-          "options": ["[[don't|no]]", "[[doesn't|no]]", "[[am not|no]]"],
-          "correctAnswer": 0,
-          "explanation": "Don't se usa para negar el Present Simple con 'I'."
-        }
-      ]
+      "title": "Fútbol",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[How|Qué]] [[often|tan a menudo]] [[do|aux]] [[they|ellos]] [[play|juegan]] [[football|fútbol]]?",
+      "words": ["[[football|fútbol]]?", "[[play|juegan]]", "[[they|ellos]]", "[[do|aux]]", "[[often|tan a menudo]]", "[[How|Qué]]"],
+      "explanation": "Estructura de pregunta de frecuencia."
     },
     "audioUrl": "audio/a1/unit-14/e17.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u14-e18",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Hobbies",
+    "topic": "Frequency Adverbs",
     "difficulty": "medium",
-    "transcript": "My sister loves reading books in bed.",
+    "transcript": "I usually get up at seven.",
     "content": {
-      "title": "Leyendo en la cama",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[My|Mi]] [[sister|hermana]] [[loves|ama]] [[reading|leer]] [[books|libros]] [[in|en]] [[bed|cama]].",
-      "words": ["[[loves|ama]]", "[[reading|leer]]", "[[bed|cama]].", "[[sister|hermana]]", "[[My|Mi]]", "[[books|libros]]", "[[in|en]]"],
-      "explanation": "Estructura Sujeto + love + -ing + objeto + lugar."
+      "title": "Levantarse",
+      "instructions": "Posición del adverbio.",
+      "questions": [
+        {
+          "question": "[[I|Yo]] (_____) [[get|levanto]] [[up|me]] [[at|a las]] [[seven|siete]].",
+          "options": ["[[usually|normalmente]]", "[[get usually|me levanto normalmente]]", "[[am usually|normalmente soy]]"],
+          "correctAnswer": 0,
+          "explanation": "El adverbio va antes del verbo principal 'get'."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-14/e18.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u14-e19",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Present Simple",
+    "topic": "Frequency Adverbs",
     "difficulty": "medium",
-    "transcript": "Do you often go to the park?",
+    "transcript": "She sometimes listens to classical music.",
     "content": {
-      "title": "¿Vas a menudo?",
-      "instructions": "Completa la pregunta de frecuencia.",
-      "questions": [
-        {
-          "question": "[[Do|¿]] [[you|tú]] _______ [[go|vas]] [[to|al]] [[the|el]] [[park|parque]]?",
-          "options": ["[[often|a menudo]]", "[[never|nunca]]", "[[always|siempre]]"],
-          "correctAnswer": 0,
-          "explanation": "Often pregunta por una frecuencia habitual."
-        }
-      ]
+      "title": "Música Clásica",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[She|Ella]] [[sometimes|a veces]] [[listens|escucha]] [[to|a]] [[classical|clásica]] [[music|música]].",
+      "words": ["[[music|música]].", "[[classical|clásica]]", "[[to|a]]", "[[listens|escucha]]", "[[sometimes|a veces]]", "[[She|Ella]]"],
+      "explanation": "Recuerda la 's' en el verbo para 'she'."
     },
     "audioUrl": "audio/a1/unit-14/e19.mp3",
     "topicName": "Grammar"
@@ -415,18 +381,18 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "id": "a1-u14-e20",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Hobbies",
-    "difficulty": "easy",
-    "transcript": "What are your hobbies?",
+    "topic": "Frequency Adverbs",
+    "difficulty": "medium",
+    "transcript": "We are often very busy on Mondays.",
     "content": {
-      "title": "Tus Hobbies",
-      "instructions": "Elige la palabra interrogativa.",
+      "title": "Lunes Ocupados",
+      "instructions": "Elige la oración correcta con 'to be'.",
       "questions": [
         {
-          "question": "_______ [[are|son]] [[your|tus]] [[hobbies|hobbies]]?",
-          "options": ["[[What|Qué]]", "[[Who|Quién]]", "[[Where|Dónde]]"],
+          "question": "[[We|Nosotros]] (_____) [[very|muy]] [[busy|ocupados]] [[on|los]] [[Mondays|lunes]].",
+          "options": ["[[are often|estamos a menudo]]", "[[often are|a menudo estamos]]", "[[be often|ser a menudo]]"],
           "correctAnswer": 0,
-          "explanation": "What se usa para preguntar por cosas o actividades."
+          "explanation": "Después de 'are' va el adverbio."
         }
       ]
     },
@@ -435,37 +401,42 @@ export const UNIT_14_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u14-e21",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Sports",
-    "difficulty": "medium",
-    "transcript": "I like playing tennis with my friends.",
+    "topic": "Frequency Adverbs",
+    "difficulty": "easy",
+    "transcript": "100% Always. 80% Usually. 50% Sometimes. 0% Never.",
     "content": {
-      "title": "Tenis con amigos",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[I|Yo]] [[like|me gusta]] [[playing|jugar]] [[tennis|tenis]] [[with|con]] [[my|mis]] [[friends|amigos]].",
-      "words": ["[[playing|jugar]]", "[[tennis|tenis]]", "[[friends|amigos]].", "[[like|gusta]]", "[[I|Yo]]", "[[with|con]]", "[[my|mis]]"],
-      "explanation": "Práctica de like + -ing + compañía."
+      "title": "Porcentajes",
+      "instructions": "¿Qué adverbio corresponde al 0%?",
+      "questions": [
+        {
+          "question": "[[Zero|Cero]] [[percent|por ciento]] [[is|es]] (_____) .",
+          "options": ["[[Never|Nunca]]", "[[Always|Siempre]]", "[[Often|A menudo]]"],
+          "correctAnswer": 0,
+          "explanation": "Never indica que algo no ocurre nunca."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-14/e21.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u14-e22",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Hobbies",
-    "difficulty": "medium",
-    "transcript": "Is cooking fun?",
+    "topic": "Frequency Adverbs",
+    "difficulty": "easy",
+    "transcript": "100% Always.",
     "content": {
-      "title": "¿Es divertido?",
-      "instructions": "Elige el adjetivo de opinión.",
+      "title": "Porcentajes II",
+      "instructions": "¿Qué adverbio corresponde al 100%?",
       "questions": [
         {
-          "question": "[[Is|Es]] [[cooking|cocinar]] _______?",
-          "options": ["[[fun|divertido]]", "[[funny|gracioso]]", "[[fast|rápido]]"],
+          "question": "[[One hundred|Cien]] [[percent|por ciento]] [[is|es]] (_____) .",
+          "options": ["[[Always|Siempre]]", "[[Sometimes|A veces]]", "[[Usually|Normalmente]]"],
           "correctAnswer": 0,
-          "explanation": "Fun describe una actividad placentera."
+          "explanation": "Always indica totalidad."
         }
       ]
     },
@@ -476,15 +447,15 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "id": "a1-u14-e23",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Hobbies",
+    "topic": "Frequency Adverbs",
     "difficulty": "easy",
-    "transcript": "My hobby is drawing.",
+    "transcript": "I always drink tea.",
     "content": {
-      "title": "Mi Hobby",
-      "instructions": "Ordena la oración simple.",
-      "correctSentence": "[[My|Mi]] [[hobby|hobby]] [[is|es]] [[drawing|dibujar]].",
-      "words": ["[[is|es]]", "[[drawing|dibujar]].", "[[hobby|hobby]]", "[[My|Mi]]"],
-      "explanation": "Descripción del hobby principal."
+      "title": "Beber Té",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[I|Yo]] [[always|siempre]] [[drink|bebo]] [[tea|té]].",
+      "words": ["[[tea|té]].", "[[drink|bebo]]", "[[always|siempre]]", "[[I|Yo]]"],
+      "explanation": "Estructura básica de adverbio de frecuencia."
     },
     "audioUrl": "audio/a1/unit-14/e23.mp3",
     "topicName": "Grammar"
@@ -493,18 +464,18 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "id": "a1-u14-e24",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Hobbies",
-    "difficulty": "medium",
-    "transcript": "She is good at singing.",
+    "topic": "Frequency Adverbs",
+    "difficulty": "easy",
+    "transcript": "I sometimes play games.",
     "content": {
-      "title": "Buena en algo",
-      "instructions": "Completa con la preposición correcta.",
+      "title": "Juegos",
+      "instructions": "Completa con el adverbio.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[is|es]] [[good|buena]] _______ [[singing|cantar]].",
-          "options": ["[[at|en]]", "[[in|en]]", "[[on|en]]"],
+          "question": "[[I|Yo]] (_____) [[play|juego]] [[games|juegos]].",
+          "options": ["[[sometimes|a veces]]", "[[always|siempre]]", "[[never|nunca]]"],
           "correctAnswer": 0,
-          "explanation": "La expresión es 'good at' + actividad."
+          "explanation": "Sometimes para frecuencia media."
         }
       ]
     },
@@ -513,22 +484,17 @@ export const UNIT_14_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u14-e25",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Hobbies",
+    "topic": "Frequency Adverbs",
     "difficulty": "medium",
-    "transcript": "We love listening to pop music.",
+    "transcript": "My mother never watches TV.",
     "content": {
-      "title": "Escuchando Pop",
-      "instructions": "Completa con la preposición del verbo listen.",
-      "questions": [
-        {
-          "question": "[[We|Nosotros]] [[love|amamos]] [[listening|escuchar]] _______ [[pop|pop]] [[music|música]].",
-          "options": ["[[to|a]]", "[[at|a]]", "[[for|a]]"],
-          "correctAnswer": 0,
-          "explanation": "El verbo 'listen' siempre va seguido de 'to'."
-        }
-      ]
+      "title": "Mamá y la Tele",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[My|Mi]] [[mother|madre]] [[never|nunca]] [[watches|ve]] [[TV|la tele]].",
+      "words": ["[[TV|la tele]].", "[[watches|ve]]", "[[never|nunca]]", "[[mother|madre]]", "[[My|Mi]]"],
+      "explanation": "Recuerda la 'es' en watches."
     },
     "audioUrl": "audio/a1/unit-14/e25.mp3",
     "topicName": "Grammar"
@@ -537,59 +503,59 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "id": "a1-u14-e26",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Sports",
-    "difficulty": "easy",
-    "transcript": "Swimming is a great sport.",
+    "topic": "Frequency Adverbs",
+    "difficulty": "medium",
+    "transcript": "Do you often go out?",
     "content": {
-      "title": "Gran Deporte",
-      "instructions": "Elige el adjetivo positivo.",
+      "title": "Salir",
+      "instructions": "Pregunta de frecuencia.",
       "questions": [
         {
-          "question": "[[Swimming|Nadar]] [[is|es]] [[a|un]] _______ [[sport|deporte]].",
-          "options": ["[[great|gran]]", "[[bad|mal]]", "[[small|pequeño]]"],
+          "question": "[[Do|Aux]] [[you|tú]] (_____) [[go|vas]] [[out|fuera]]?",
+          "options": ["[[often|a menudo]]", "[[always|siempre]]", "[[never|nunca]]"],
           "correctAnswer": 0,
-          "explanation": "Great indica que el deporte es muy bueno."
+          "explanation": "Often es común en preguntas."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-14/e26.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u14-e27",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Like/Love/Hate",
-    "difficulty": "easy",
-    "transcript": "I like drawing people.",
+    "topic": "Frequency Adverbs",
+    "difficulty": "medium",
+    "transcript": "We usually go to the park.",
     "content": {
-      "title": "Dibujando personas",
-      "instructions": "Completa con el objeto del dibujo.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] [[like|me gusta]] [[drawing|dibujar]] _______.",
-          "options": ["[[people|personas]]", "[[water|agua]]", "[[music|música]]"],
-          "correctAnswer": 0,
-          "explanation": "Se pueden dibujar personas."
-        }
-      ]
+      "title": "Al Parque",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[We|Nosotros]] [[usually|normalmente]] [[go|vamos]] [[to|al]] [[the|el]] [[park|parque]].",
+      "words": ["[[park|parque]].", "[[the|el]]", "[[to|al]]", "[[go|vamos]]", "[[usually|normalmente]]", "[[We|Nosotros]]"],
+      "explanation": "Frecuencia alta con usually."
     },
     "audioUrl": "audio/a1/unit-14/e27.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u14-e28",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Hobbies",
+    "topic": "Frequency Adverbs",
     "difficulty": "medium",
-    "transcript": "My father usually goes hiking on Sundays.",
+    "transcript": "He is always late.",
     "content": {
-      "title": "Senderismo el domingo",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[My|Mi]] [[father|padre]] [[usually|normalmente]] [[goes|va]] [[hiking|a hacer senderismo]] [[on|los]] [[Sundays|domingos]].",
-      "words": ["[[hiking|a hacer senderismo]]", "[[father|padre]]", "[[goes|va]]", "[[Sundays|domingos]].", "[[usually|normalmente]]", "[[My|Mi]]", "[[on|los]]"],
-      "explanation": "Adverbio de frecuencia + verbo + actividad."
+      "title": "Tardanza",
+      "instructions": "Posición del adverbio con 'to be'.",
+      "questions": [
+        {
+          "question": "[[He|Él]] [[is|está]] (_____) [[late|tarde]].",
+          "options": ["[[always|siempre]]", "[[always is|siempre está]]", "[[never|nunca]]"],
+          "correctAnswer": 0,
+          "explanation": "El adverbio va después del verbo 'is'."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-14/e28.mp3",
     "topicName": "Grammar"
@@ -598,15 +564,15 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "id": "a1-u14-e29",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Hobbies",
+    "topic": "Frequency Adverbs",
     "difficulty": "medium",
-    "transcript": "She hates traveling by plane.",
+    "transcript": "They hardly ever eat pizza.",
     "content": {
-      "title": "Odio el avión",
+      "title": "Pizza",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[She|Ella]] [[hates|odia]] [[traveling|viajar]] [[by|por/en]] [[plane|avión]].",
-      "words": ["[[traveling|viajar]]", "[[hates|odia]]", "[[She|Ella]]", "[[plane|avión]].", "[[by|por/en]]"],
-      "explanation": "Estructura de odio hacia un medio de transporte."
+      "correctSentence": "[[They|Ellos]] [[hardly ever|casi nunca]] [[eat|comen]] [[pizza|pizza]].",
+      "words": ["[[pizza|pizza]].", "[[eat|comen]]", "[[hardly ever|casi nunca]]", "[[They|Ellos]]"],
+      "explanation": "Hardly ever para frecuencia muy baja."
     },
     "audioUrl": "audio/a1/unit-14/e29.mp3",
     "topicName": "Grammar"
@@ -615,42 +581,37 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "id": "a1-u14-e30",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Hobbies",
-    "difficulty": "easy",
-    "transcript": "Cooking is my passion.",
+    "topic": "Frequency Expressions",
+    "difficulty": "medium",
+    "transcript": "How often do you brush your teeth? Three times a day.",
     "content": {
-      "title": "Pasión por cocinar",
-      "instructions": "Elige la actividad.",
+      "title": "Frecuencia Diaria",
+      "instructions": "Responde la pregunta.",
       "questions": [
         {
-          "question": "_______ [[is|es]] [[my|mi]] [[passion|pasión]].",
-          "options": ["[[Cooking|Cocinar]]", "[[Apple|Manzana]]", "[[Table|Mesa]]"],
+          "question": "[[How|Qué]] [[often|tan a menudo]] [[do|aux]] [[you|tú]] [[brush|lavas]] [[your|tus]] [[teeth|dientes]]?",
+          "options": ["[[Three times a day|Tres veces al día]]", "[[Always|Siempre]]", "[[In the morning|Por la mañana]]"],
           "correctAnswer": 0,
-          "explanation": "Cooking puede ser un sujeto en la oración."
+          "explanation": "Respuesta específica de frecuencia."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-14/e30.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u14-e31",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Hobbies",
+    "topic": "Frequency Adverbs",
     "difficulty": "easy",
-    "transcript": "I am interested in history.",
+    "transcript": "I sometimes cook dinner.",
     "content": {
-      "title": "Interesado en...",
-      "instructions": "Elige la preposición correcta.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] [[am|estoy]] [[interested|interesado]] _______ [[history|historia]].",
-          "options": ["[[in|en]]", "[[at|en]]", "[[on|en]]"],
-          "correctAnswer": 0,
-          "explanation": "La expresión es 'interested in'."
-        }
-      ]
+      "title": "Cocinar",
+      "instructions": "Ordena la frase.",
+      "correctSentence": "[[I|Yo]] [[sometimes|a veces]] [[cook|cocino]] [[dinner|la cena]].",
+      "words": ["[[dinner|la cena]].", "[[cook|cocino]]", "[[sometimes|a veces]]", "[[I|Yo]]"],
+      "explanation": "Sometimes en medio de la oración."
     },
     "audioUrl": "audio/a1/unit-14/e31.mp3",
     "topicName": "Grammar"
@@ -659,59 +620,59 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "id": "a1-u14-e32",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Like/Love/Hate",
-    "difficulty": "medium",
-    "transcript": "They like playing the guitar together.",
+    "topic": "Frequency Adverbs",
+    "difficulty": "easy",
+    "transcript": "She always listens to me.",
     "content": {
-      "title": "Tocando Juntos",
-      "instructions": "Elige el adverbio de compañía.",
+      "title": "Escuchar",
+      "instructions": "Elige el adverbio.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[like|les gusta]] [[playing|tocar]] [[the|la]] [[guitar|guitarra]] _______.",
-          "options": ["[[together|juntos]]", "[[alone|solos]]", "[[well|bien]]"],
+          "question": "[[She|Ella]] (_____) [[listens|escucha]] [[to|a]] [[me|mí]].",
+          "options": ["[[always|siempre]]", "[[is always|siempre es]]", "[[listens always|siempre escucha]]"],
           "correctAnswer": 0,
-          "explanation": "Together significa en compañía de otros."
+          "explanation": "Adverbio antes del verbo listens."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-14/e32.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u14-e33",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Sports",
+    "topic": "Frequency Adverbs",
     "difficulty": "medium",
-    "transcript": "How often do you go cycling?",
+    "transcript": "We never go out on Sundays.",
     "content": {
-      "title": "¿Con qué frecuencia vas en bici?",
-      "instructions": "Completa la pregunta.",
-      "questions": [
-        {
-          "question": "_______ [[often|frecuencia]] [[do|¿]] [[you|tú]] [[go|vas]] [[cycling|en bici]]?",
-          "options": ["[[How|Cómo]]", "[[What|Qué]]", "[[When|Cuándo]]"],
-          "correctAnswer": 0,
-          "explanation": "How often es la estructura para preguntar frecuencia."
-        }
-      ]
+      "title": "Domingos",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[We|Nosotros]] [[never|nunca]] [[go|vamos]] [[out|fuera]] [[on|los]] [[Sundays|domingos]].",
+      "words": ["[[Sundays|domingos]].", "[[on|los]]", "[[out|fuera]]", "[[go|vamos]]", "[[never|nunca]]", "[[We|Nosotros]]"],
+      "explanation": "Never para hábito inexistente."
     },
     "audioUrl": "audio/a1/unit-14/e33.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u14-e34",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Hobbies",
+    "topic": "Frequency Adverbs",
     "difficulty": "medium",
-    "transcript": "My best friend is great at dancing.",
+    "transcript": "Do they usually study together?",
     "content": {
-      "title": "Bailarín Estrella",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[My|Mi]] [[best|mejor]] [[friend|amigo/a]] [[is|es]] [[great|bueno/a]] [[at|en]] [[dancing|bailar]].",
-      "words": ["[[dancing|bailar]].", "[[great|bueno/a]]", "[[best|mejor]]", "[[is|es]]", "[[friend|amigo/a]]", "[[at|en]]", "[[My|Mi]]"],
-      "explanation": "Práctica de 'great at' + -ing."
+      "title": "Estudiar",
+      "instructions": "Completa la pregunta.",
+      "questions": [
+        {
+          "question": "[[Do|Aux]] [[they|ellos]] (_____) [[study|estudian]] [[together|juntos]]?",
+          "options": ["[[usually|normalmente]]", "[[always|siempre]]", "[[often|a menudo]]"],
+          "correctAnswer": 0,
+          "explanation": "Usually es muy común en preguntas de hábito."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-14/e34.mp3",
     "topicName": "Grammar"
@@ -720,35 +681,35 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "id": "a1-u14-e35",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Hobbies",
+    "topic": "Frequency Expressions",
     "difficulty": "medium",
-    "transcript": "I love listening to rock music.",
+    "transcript": "I drink coffee three times a day.",
     "content": {
-      "title": "Música Rock",
+      "title": "Café",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[I|Yo]] [[love|amo]] [[listening|escuchar]] [[to|a]] [[rock|rock]] [[music|música]].",
-      "words": ["[[listening|escuchar]]", "[[to|a]]", "[[love|amo]]", "[[music|música]].", "[[rock|rock]]", "[[I|Yo]]"],
-      "explanation": "Práctica del verbo listen + to."
+      "correctSentence": "[[I|Yo]] [[drink|bebo]] [[coffee|café]] [[three|tres]] [[times|veces]] [[a|al]] [[day|día]].",
+      "words": ["[[day|día]].", "[[a|al]]", "[[times|veces]]", "[[three|tres]]", "[[coffee|café]]", "[[drink|bebo]]", "[[I|Yo]]"],
+      "explanation": "Tres veces al día."
     },
     "audioUrl": "audio/a1/unit-14/e35.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u14-e36",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Hobbies",
+    "topic": "Frequency Adverbs",
     "difficulty": "easy",
-    "transcript": "Is drawing your favorite hobby?",
+    "transcript": "I am often happy.",
     "content": {
-      "title": "Tu hobby favorito",
-      "instructions": "Elige el adjetivo posesivo.",
+      "title": "Felicidad",
+      "instructions": "Completa la frase.",
       "questions": [
         {
-          "question": "[[Is|Es]] [[drawing|dibujar]] _______ [[favorite|favorito]] [[hobby|hobby]]?",
-          "options": ["[[your|tu]]", "[[you|tú]]", "[[my|mi]]"],
+          "question": "[[I|Yo]] [[am|soy/estoy]] (_____) [[happy|feliz]].",
+          "options": ["[[often|a menudo]]", "[[never|nunca]]", "[[sometimes|a veces]]"],
           "correctAnswer": 0,
-          "explanation": "Your para preguntar por la propiedad del interlocutor."
+          "explanation": "Adverbio después de am."
         }
       ]
     },
@@ -757,42 +718,37 @@ export const UNIT_14_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u14-e37",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Sports",
+    "topic": "Frequency Adverbs",
     "difficulty": "medium",
-    "transcript": "I usually go running in the morning.",
+    "transcript": "He always reads a book before bed.",
     "content": {
-      "title": "Corriendo por la mañana",
-      "instructions": "Elige el momento del día.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] [[usually|normalmente]] [[go|voy]] [[running|a correr]] [[in|en]] [[the|la]] _______.",
-          "options": ["[[morning|mañana]]", "[[night|noche]]", "[[afternoon|tarde]]"],
-          "correctAnswer": 0,
-          "explanation": "Actividad matutina común."
-        }
-      ]
+      "title": "Lectura",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[He|Él]] [[always|siempre]] [[reads|lee]] [[a|un]] [[book|libro]] [[before|antes de]] [[bed|dormir]].",
+      "words": ["[[bed|dormir]].", "[[before|antes de]]", "[[book|libro]]", "[[a|un]]", "[[reads|lee]]", "[[always|siempre]]", "[[He|Él]]"],
+      "explanation": "Reads con 's' y adverbio antes."
     },
     "audioUrl": "audio/a1/unit-14/e37.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u14-e38",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Hobbies",
+    "topic": "Frequency Expressions",
     "difficulty": "easy",
-    "transcript": "Do you like watching movies?",
+    "transcript": "Every morning.",
     "content": {
-      "title": "¿Viendo Pelis?",
-      "instructions": "Completa con el gerundio de ver.",
+      "title": "Mañanas",
+      "instructions": "Elige la expresión.",
       "questions": [
         {
-          "question": "[[Do|¿]] [[you|tú]] [[like|gustar]] _______ [[movies|películas]]?",
-          "options": ["[[watching|ver]]", "[[reading|leer]]", "[[listening|escuchar]]"],
+          "question": "(_____) [[morning|mañana]] [[I|yo]] [[run|corro]].",
+          "options": ["[[Every|Cada]]", "[[All|Todo]]", "[[Always|Siempre]]"],
           "correctAnswer": 0,
-          "explanation": "Las películas se ven (watch)."
+          "explanation": "Every morning significa todas las mañanas."
         }
       ]
     },
@@ -803,32 +759,37 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "id": "a1-u14-e39",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Hobbies",
+    "topic": "How often...?",
     "difficulty": "medium",
-    "transcript": "We always go traveling in August.",
+    "transcript": "How often does she visit you?",
     "content": {
-      "title": "Viajes en Agosto",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[We|Nosotros]] [[always|siempre]] [[go|vamos]] [[traveling|de viaje]] [[in|en]] [[August|agosto]].",
-      "words": ["[[always|siempre]]", "[[go|vamos]]", "[[August|agosto]].", "[[traveling|de viaje]]", "[[We|Nosotros]]", "[[in|en]]"],
-      "explanation": "Frecuencia + verbo de movimiento + tiempo."
+      "title": "Visitas",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[How|Qué]] [[often|tan a menudo]] [[does|aux]] [[she|ella]] [[visit|visita]] [[you|te]]?",
+      "words": ["[[you|te]]?", "[[visit|visita]]", "[[she|ella]]", "[[does|aux]]", "[[often|tan a menudo]]", "[[How|Qué]]"],
+      "explanation": "Pregunta de frecuencia con tercera persona."
     },
     "audioUrl": "audio/a1/unit-14/e39.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u14-e40",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Hobbies",
+    "topic": "Frequency Adverbs",
     "difficulty": "medium",
-    "transcript": "What instrument do you play?",
+    "transcript": "Are you usually tired in the evening?",
     "content": {
-      "title": "¿Qué instrumento tocas?",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[What|Qué]] [[instrument|instrumento]] [[do|¿]] [[you|tú]] [[play|tocas]]?",
-      "words": ["[[instrument|instrumento]]", "[[you|tú]]", "[[What|Qué]]", "[[play|tocas]]?", "[[do|¿]]"],
-      "explanation": "Pregunta de objeto directo con auxiliar do."
+      "title": "Cansancio",
+      "instructions": "Responde la pregunta.",
+      "questions": [
+        {
+          "question": "[[Are|Estás]] [[you|tú]] (_____) [[tired|cansado]] [[in|en]] [[the|la]] [[evening|tarde]]?",
+          "options": ["[[usually|normalmente]]", "[[always|siempre]]", "[[often|a menudo]]"],
+          "correctAnswer": 0,
+          "explanation": "Adverbio después de are you."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-14/e40.mp3",
     "topicName": "Grammar"
@@ -837,18 +798,18 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "id": "a1-u14-e41",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Hobbies",
+    "topic": "Frequency Adverbs",
     "difficulty": "easy",
-    "transcript": "Traveling is very expensive but fun.",
+    "transcript": "Always. Often. Sometimes. Never.",
     "content": {
-      "title": "Viajes Caros",
-      "instructions": "Elige el adjetivo de costo.",
+      "title": "De más a menos",
+      "instructions": "¿Cuál es menos frecuente que 'often' pero más que 'never'?",
       "questions": [
         {
-          "question": "[[Traveling|Viajar]] [[is|es]] [[very|muy]] _______ [[but|pero]] [[fun|divertido]].",
-          "options": ["[[expensive|caro]]", "[[cheap|barato]]", "[[cold|frío]]"],
+          "question": "[[Often|A menudo]] > (_____) > [[Never|Nunca]].",
+          "options": ["[[Sometimes|A veces]]", "[[Always|Siempre]]", "[[Usually|Normalmente]]"],
           "correctAnswer": 0,
-          "explanation": "Viajar suele requerir mucho dinero."
+          "explanation": "Sometimes está en el medio."
         }
       ]
     },
@@ -857,120 +818,115 @@ export const UNIT_14_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u14-e42",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Hobbies",
-    "difficulty": "easy",
-    "transcript": "I like drawing animals.",
+    "topic": "Frequency Adverbs",
+    "difficulty": "medium",
+    "transcript": "My parents always eat together.",
     "content": {
-      "title": "Dibujando Animales",
-      "instructions": "Completa con el objeto del dibujo.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] [[like|me gusta]] [[drawing|dibujar]] _______.",
-          "options": ["[[animals|animales]]", "[[books|libros]]", "[[movies|películas]]"],
-          "correctAnswer": 0,
-          "explanation": "Los animales son un tema común de dibujo."
-        }
-      ]
+      "title": "Comer Juntos",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[My|Mis]] [[parents|padres]] [[always|siempre]] [[eat|comen]] [[together|juntos]].",
+      "words": ["[[together|juntos]].", "[[eat|comen]]", "[[always|siempre]]", "[[parents|padres]]", "[[My|Mis]]"],
+      "explanation": "Sujeto plural, verbo sin 's'."
     },
     "audioUrl": "audio/a1/unit-14/e42.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u14-e43",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Hobbies",
+    "topic": "Frequency Adverbs",
     "difficulty": "medium",
-    "transcript": "Do you like listening to classical music?",
+    "transcript": "Is she often at home?",
     "content": {
-      "title": "Música Clásica",
-      "instructions": "Elige el tipo de música.",
+      "title": "En Casa",
+      "instructions": "Completa la pregunta.",
       "questions": [
         {
-          "question": "[[Do|¿]] [[you|tú]] [[like|gustar]] [[listening|escuchar]] [[to|a]] _______ [[music|música]]?",
-          "options": ["[[classical|clásica]]", "[[fast|rápida]]", "[[new|nueva]]"],
+          "question": "[[Is|Está]] [[she|ella]] (_____) [[at|en]] [[home|casa]]?",
+          "options": ["[[often|a menudo]]", "[[always|siempre]]", "[[never|nunca]]"],
           "correctAnswer": 0,
-          "explanation": "Classical describe un género musical."
+          "explanation": "Adverbio después del sujeto en preguntas con 'is'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-14/e43.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u14-e44",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Hobbies",
+    "topic": "Frequency Adverbs",
     "difficulty": "medium",
-    "transcript": "I love cooking Italian food for my family.",
+    "transcript": "We hardly ever drink alcohol.",
     "content": {
-      "title": "Comida Italiana",
+      "title": "Bebidas",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[I|Yo]] [[love|amo]] [[cooking|cocinar]] [[Italian|italiana]] [[food|comida]] [[for|para]] [[my|mi]] [[family|familia]].",
-      "words": ["[[cooking|cocinar]]", "[[food|comida]]", "[[Italian|italiana]]", "[[family|familia]].", "[[love|amo]]", "[[I|Yo]]", "[[for|para]]", "[[my|mi]]"],
-      "explanation": "Práctica de love + -ing + objeto + destinatario."
+      "correctSentence": "[[We|Nosotros]] [[hardly ever|casi nunca]] [[drink|bebemos]] [[alcohol|alcohol]].",
+      "words": ["[[alcohol|alcohol]].", "[[drink|bebemos]]", "[[hardly ever|casi nunca]]", "[[We|Nosotros]]"],
+      "explanation": "Hardly ever para frecuencia muy baja."
     },
     "audioUrl": "audio/a1/unit-14/e44.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u14-e45",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Sports",
+    "topic": "Frequency Expressions",
     "difficulty": "medium",
-    "transcript": "Do you often go swimming in the pool?",
+    "transcript": "Do you study every day? Yes, I always study.",
     "content": {
-      "title": "Nadando en la piscina",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Do|¿]] [[you|tú]] [[often|a menudo]] [[go|vas]] [[swimming|a nadar]] [[in|en]] [[the|la]] [[pool|piscina]]?",
-      "words": ["[[often|a menudo]]", "[[go|vas]]", "[[swimming|a nadar]]", "[[pool|piscina]]?", "[[Do|¿]]", "[[you|tú]]", "[[in|en]]", "[[the|la]]"],
-      "explanation": "Estructura de pregunta de frecuencia con actividad."
+      "title": "Todos los días",
+      "instructions": "Responde la pregunta.",
+      "questions": [
+        {
+          "question": "[[Do|Aux]] [[you|tú]] [[study|estudias]] (_____) [[day|día]]?",
+          "options": ["[[every|cada]]", "[[all|todo]]", "[[each|cada]]"],
+          "correctAnswer": 0,
+          "explanation": "'Every day' es la forma más natural."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-14/e45.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u14-e46",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Hobbies",
-    "difficulty": "easy",
-    "transcript": "My hobby is very interesting.",
+    "topic": "Frequency Adverbs",
+    "difficulty": "medium",
+    "transcript": "I sometimes listen to podcasts in English.",
     "content": {
-      "title": "Hobby Interesante",
-      "instructions": "Elige el adjetivo descriptivo.",
-      "questions": [
-        {
-          "question": "[[My|Mi]] [[hobby|hobby]] [[is|es]] [[very|muy]] _______.",
-          "options": ["[[interesting|interesante]]", "[[boring|aburrido]]", "[[cold|frío]]"],
-          "correctAnswer": 0,
-          "explanation": "Interesting es una valoración positiva."
-        }
-      ]
+      "title": "Podcasts",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[I|Yo]] [[sometimes|a veces]] [[listen|escucho]] [[to|a]] [[podcasts|podcasts]] [[in|en]] [[English|inglés]].",
+      "words": ["[[English|inglés]].", "[[in|en]]", "[[podcasts|podcasts]]", "[[to|a]]", "[[listen|escucho]]", "[[sometimes|a veces]]", "[[I|Yo]]"],
+      "explanation": "Un hábito de aprendizaje."
     },
     "audioUrl": "audio/a1/unit-14/e46.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u14-e47",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Hobbies",
-    "difficulty": "medium",
-    "transcript": "Who do you play games with?",
+    "topic": "Frequency Adverbs",
+    "difficulty": "easy",
+    "transcript": "He is usually quiet.",
     "content": {
-      "title": "¿Con quién juegas?",
-      "instructions": "Elige el pronombre interrogativo.",
+      "title": "Personalidad",
+      "instructions": "Elige el adverbio.",
       "questions": [
         {
-          "question": "_______ [[do|¿]] [[you|tú]] [[play|juegas]] [[games|juegos]] [[with|con]]?",
-          "options": ["[[Who|Quién]]", "[[What|Qué]]", "[[Where|Dónde]]"],
+          "question": "[[He|Él]] [[is|es]] (_____) [[quiet|tranquilo]].",
+          "options": ["[[usually|normalmente]]", "[[usually is|normalmente es]]", "[[never|nunca]]"],
           "correctAnswer": 0,
-          "explanation": "Who... with pregunta por la compañía."
+          "explanation": "Adverbio después de is."
         }
       ]
     },
@@ -979,39 +935,39 @@ export const UNIT_14_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u14-e48",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Hobbies",
+    "topic": "Frequency Expressions",
     "difficulty": "medium",
-    "transcript": "Does he like drawing?",
+    "transcript": "They go to the beach three times a year.",
     "content": {
-      "title": "¿Le gusta dibujar?",
-      "instructions": "Completa con el auxiliar de tercera persona.",
-      "questions": [
-        {
-          "question": "_______ [[he|él]] [[like|gustar]] [[drawing|dibujar]]?",
-          "options": ["[[Does|¿?]]", "[[Do|¿?]]", "[[Is|¿?]]"],
-          "correctAnswer": 0,
-          "explanation": "Does para preguntas de tercera persona singular."
-        }
-      ]
+      "title": "La Playa",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[They|Ellos]] [[go|van]] [[to|a]] [[the|la]] [[beach|playa]] [[three|tres]] [[times|veces]] [[a|al]] [[year|año]].",
+      "words": ["[[year|año]].", "[[a|al]]", "[[times|veces]]", "[[three|tres]]", "[[beach|playa]]", "[[the|la]]", "[[to|a]]", "[[go|van]]", "[[They|Ellos]]"],
+      "explanation": "Frecuencia anual."
     },
     "audioUrl": "audio/a1/unit-14/e48.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u14-e49",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Sports",
+    "topic": "How often...?",
     "difficulty": "medium",
-    "transcript": "I like watching football on TV.",
+    "transcript": "How often do you travel?",
     "content": {
-      "title": "Fútbol en la Tele",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[I|Yo]] [[like|me gusta]] [[watching|ver]] [[football|fútbol]] [[on|en]] [[TV|la tele]].",
-      "words": ["[[watching|ver]]", "[[football|fútbol]]", "[[TV|la tele]].", "[[like|gusta]]", "[[I|Yo]]", "[[on|en]]"],
-      "explanation": "Estructura de gusto por ver deportes."
+      "title": "Viajar",
+      "instructions": "Completa la pregunta.",
+      "questions": [
+        {
+          "question": "[[How|Qué]] (_____) [[do|aux]] [[you|tú]] [[travel|viajas]]?",
+          "options": ["[[often|tan a menudo]]", "[[always|siempre]]", "[[usually|normalmente]]"],
+          "correctAnswer": 0,
+          "explanation": "Pregunta estándar de frecuencia."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-14/e49.mp3",
     "topicName": "Grammar"
@@ -1020,15 +976,15 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "id": "a1-u14-e50",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Hobbies",
+    "topic": "Frequency Adverbs",
     "difficulty": "medium",
-    "transcript": "Traveling is my favorite activity.",
+    "transcript": "The museum is always closed on Mondays.",
     "content": {
-      "title": "Actividad Favorita",
+      "title": "Museo",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[Traveling|Viajar]] [[is|es]] [[my|mi]] [[favorite|favorita]] [[activity|actividad]].",
-      "words": ["[[is|es]]", "[[activity|actividad]].", "[[favorite|favorita]]", "[[Traveling|Viajar]]", "[[my|mi]]"],
-      "explanation": "Gerundio como sujeto de la oración."
+      "correctSentence": "[[The|El]] [[museum|museo]] [[is|está]] [[always|siempre]] [[closed|cerrado]] [[on|los]] [[Mondays|lunes]].",
+      "words": ["[[Mondays|lunes]].", "[[on|los]]", "[[closed|cerrado]]", "[[always|siempre]]", "[[is|está]]", "[[museum|museo]]", "[[The|El]]"],
+      "explanation": "Adverbio después de 'is'."
     },
     "audioUrl": "audio/a1/unit-14/e50.mp3",
     "topicName": "Grammar"
@@ -1039,16 +995,22 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "My Free Time. Hi! I am Mike. I have many hobbies. I love playing the guitar. I play every day in my room. I also like sports. I go swimming on Tuesdays and Thursdays. At the weekend, I usually go hiking with my dog, Buster. I don't like watching TV. I prefer reading books. What about you?",
+    "transcript": "My health habits. I always drink water in the morning. I usually eat a salad for lunch. I sometimes go for a walk in the evening. I never smoke. I hardly ever eat junk food. I want to be healthy for a long time.",
     "content": {
-      "title": "Lectura: Mi Tiempo Libre",
-      "instructions": "Lee el texto y responde.",
+      "title": "Hábitos Saludables",
+      "instructions": "Lee sobre los hábitos y responde.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[instrument|instrumento]] [[does|hace]] [[Mike|Mike]] [[play|tocar]]? *\"I love playing the guitar.\"*",
-          "options": ["[[The guitar|La guitarra]]", "[[The piano|El piano]]", "[[The drums|La batería]]"],
+          "question": "[[When|Cuándo]] [[does|hace]] [[the|la]] [[person|persona]] [[drink|beber]] [[water|agua]]?",
+          "options": ["[[Always in the morning|Siempre por la mañana]]", "[[Never|Nunca]]", "[[Sometimes in the evening|A veces por la tarde]]"],
           "correctAnswer": 0,
-          "explanation": "Mike toca la guitarra."
+          "explanation": "El texto dice: 'I always drink water in the morning'."
+        },
+        {
+          "question": "[[How|Qué]] [[often|tan a menudo]] [[does|hace]] [[he|él]] [[smoke|fumar]]?",
+          "options": ["[[Never|Nunca]]", "[[Always|Siempre]]", "[[Hardly ever|Casi nunca]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'I never smoke'."
         }
       ]
     },
@@ -1061,16 +1023,22 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "My Free Time. Hi! I am Mike. I have many hobbies. I love playing the guitar. I play every day in my room. I also like sports. I go swimming on Tuesdays and Thursdays. At the weekend, I usually go hiking with my dog, Buster. I don't like watching TV. I prefer reading books. What about you?",
+    "transcript": "The busy teacher. Mr. Brown is a teacher. He is always busy. He usually arrives at school at seven-thirty. He often has meetings after school. He sometimes corrects homework at night. He hardly ever goes out on weekdays. He is usually very tired on Friday.",
     "content": {
-      "title": "Lectura: Mi Tiempo Libre",
-      "instructions": "Lee el texto y responde.",
+      "title": "El Profesor Ocupado",
+      "instructions": "Lee sobre Mr. Brown.",
       "questions": [
         {
-          "question": "[[When|Cuándo]] [[does|hace]] [[Mike|Mike]] [[go|va]] [[swimming|a nadar]]? *\"on Tuesdays and Thursdays\"*",
-          "options": ["[[On Tuesdays and Thursdays|Martes y jueves]]", "[[Every day|Cada día]]", "[[At the weekend|El fin de semana]]"],
+          "question": "[[What|A qué]] [[time|hora]] [[does|hace]] [[he|él]] [[usually|normalmente]] [[arrive|llegar]] [[at|a la]] [[school|escuela]]?",
+          "options": ["[[At seven-thirty|A las 7:30]]", "[[At seven|A las 7:00]]", "[[At eight|A las 8:00]]"],
           "correctAnswer": 0,
-          "explanation": "Nada los martes y jueves."
+          "explanation": "El texto dice: 'He usually arrives at school at seven-thirty'."
+        },
+        {
+          "question": "[[When|Cuándo]] [[does|hace]] [[he|él]] [[correct|corregir]] [[homework|deberes]]?",
+          "options": ["[[Sometimes at night|A veces por la noche]]", "[[Always in the morning|Siempre por la mañana]]", "[[Never|Nunca]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'He sometimes corrects homework at night'."
         }
       ]
     },
@@ -1083,16 +1051,22 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "My Free Time. Hi! I am Mike. I have many hobbies. I love playing the guitar. I play every day in my room. I also like sports. I go swimming on Tuesdays and Thursdays. At the weekend, I usually go hiking with my dog, Buster. I don't like watching TV. I prefer reading books. What about you?",
+    "transcript": "Our restaurant's frequency. We are always open from Tuesday to Sunday. We are never open on Monday. We usually have many people on Saturday night. We often have a special menu on Sunday. People sometimes call to book a table. We hardly ever have empty tables on weekends.",
     "content": {
-      "title": "Lectura: Mi Tiempo Libre",
-      "instructions": "Lee el texto y responde.",
+      "title": "Nuestro Restaurante",
+      "instructions": "Lee sobre el restaurante.",
       "questions": [
         {
-          "question": "[[Who|Con quién]] [[does|hace]] [[Mike|Mike]] [[go|va]] [[hiking|a caminar]] [[with|con]]? *\"with my dog, Buster\"*",
-          "options": ["[[With his dog|Con su perro]]", "[[With his friends|Con sus amigos]]", "[[With his sister|Con su hermana]]"],
+          "question": "[[When|Cuándo]] [[is|está]] [[the|el]] [[restaurant|restaurante]] [[open|abierto]]?",
+          "options": ["[[Tuesday to Sunday|De martes a domingo]]", "[[Every day|Todos los días]]", "[[Only on Monday|Solo el lunes]]"],
           "correctAnswer": 0,
-          "explanation": "Camina con su perro Buster."
+          "explanation": "El texto dice: 'We are always open from Tuesday to Sunday'."
+        },
+        {
+          "question": "[[Is|Está]] [[the|el]] [[restaurant|restaurante]] [[open|abierto]] [[on|el]] [[Monday|lunes]]?",
+          "options": ["[[No, never|No, nunca]]", "[[Yes, always|Sí, siempre]]", "[[Sometimes|A veces]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'We are never open on Monday'."
         }
       ]
     },
@@ -1105,16 +1079,22 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "My Free Time. Hi! I am Mike. I have many hobbies. I love playing the guitar. I play every day in my room. I also like sports. I go swimming on Tuesdays and Thursdays. At the weekend, I usually go hiking with my dog, Buster. I don't like watching TV. I prefer reading books. What about you?",
+    "transcript": "My sister's exercise. My sister is very active. She always goes to the gym in the morning. She usually runs for forty minutes. She often plays tennis with her friends on Wednesday. She sometimes goes swimming in the sea. She hardly ever relaxes on the weekend.",
     "content": {
-      "title": "Lectura: Mi Tiempo Libre",
-      "instructions": "Lee el texto y responde.",
+      "title": "El Ejercicio de mi Hermana",
+      "instructions": "Lee sobre la hermana.",
       "questions": [
         {
-          "question": "[[Does|Le gusta]] [[Mike|Mike]] [[like|gustar]] [[watching|ver]] [[TV|la tele]]? *\"I don't like watching TV.\"*",
-          "options": ["[[No, he doesn't|No]]", "[[Yes, he does|Sí]]", "[[He loves it|Le encanta]]"],
+          "question": "[[How|Qué]] [[often|tan a menudo]] [[does|hace]] [[she|ella]] [[go|ir]] [[to|al]] [[the|el]] [[gym|gimnasio]]?",
+          "options": ["[[Always in the morning|Siempre por la mañana]]", "[[Sometimes|A veces]]", "[[Never|Nunca]]"],
           "correctAnswer": 0,
-          "explanation": "A Mike no le gusta ver la televisión."
+          "explanation": "El texto dice: 'She always goes to the gym in the morning'."
+        },
+        {
+          "question": "[[When|Cuándo]] [[does|hace]] [[she|ella]] [[play|jugar]] [[tennis|tenis]]?",
+          "options": ["[[On Wednesday|El miércoles]]", "[[Every day|Cada día]]", "[[On Monday|El lunes]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'She often plays tennis with her friends on Wednesday'."
         }
       ]
     },
@@ -1127,16 +1107,22 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Sports in the Family. My family loves sports! My father plays tennis every morning. He is very good at it. My mother does yoga in the living room. It is very relaxing. My brother, Leo, plays basketball for the school team. I love dancing. I go to a dance class on Friday evenings. We are a very active family!",
+    "transcript": "Cleaning habits. We always clean our house on Saturday. I usually clean the kitchen. My husband often cleans the garden. Our children sometimes help us. We never clean on Sunday because we usually visit our grandparents. It is our weekly routine.",
     "content": {
-      "title": "Lectura: Deportes en Familia",
-      "instructions": "Lee el texto y responde.",
+      "title": "Hábitos de Limpieza",
+      "instructions": "Lee sobre la limpieza.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[does|hace]] [[the|el]] [[father|padre]] [[play|jugar]]? *\"My father plays tennis every morning.\"*",
-          "options": ["[[Tennis|Tenis]]", "[[Basketball|Baloncesto]]", "[[Yoga|Yoga]]"],
+          "question": "[[When|Cuándo]] [[do|aux]] [[they|ellos]] [[clean|limpiar]] [[the|la]] [[house|casa]]?",
+          "options": ["[[Always on Saturday|Siempre los sábados]]", "[[On Sunday|Los domingos]]", "[[Never|Nunca]]"],
           "correctAnswer": 0,
-          "explanation": "El padre juega al tenis."
+          "explanation": "El texto dice: 'We always clean our house on Saturday'."
+        },
+        {
+          "question": "[[Who|Quién]] [[cleans|limpia]] [[the|el]] [[garden|jardín]]?",
+          "options": ["[[The husband|El esposo]]", "[[The wife|La esposa]]", "[[The children|Los niños]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'My husband often cleans the garden'."
         }
       ]
     },
@@ -1149,16 +1135,22 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Sports in the Family. My family loves sports! My father plays tennis every morning. He is very good at it. My mother does yoga in the living room. It is very relaxing. My brother, Leo, plays basketball for the school team. I love dancing. I go to a dance class on Friday evenings. We are a very active family!",
+    "transcript": "My grandfather's coffee. My grandfather loves coffee. He always has a cup of coffee at seven AM. He usually has another cup at eleven. He often goes to a cafe with his friends in the afternoon. He never drinks coffee at night because he usually sleeps early.",
     "content": {
-      "title": "Lectura: Deportes en Familia",
-      "instructions": "Lee el texto y responde.",
+      "title": "El Café del Abuelo",
+      "instructions": "Lee sobre el abuelo.",
       "questions": [
         {
-          "question": "[[Where|Dónde]] [[does|hace]] [[the|la]] [[mother|madre]] [[do|hacer]] [[yoga|yoga]]? *\"in the living room\"*",
-          "options": ["[[In the living room|En el salón]]", "[[In the park|En el parque]]", "[[At the gym|En el gimnasio]]"],
+          "question": "[[When|Cuándo]] [[does|hace]] [[he|él]] [[have|tener]] [[his|su]] [[first|primer]] [[coffee|café]]?",
+          "options": ["[[At seven AM|A las 7 AM]]", "[[At eleven AM|A las 11 AM]]", "[[At night|Por la noche]]"],
           "correctAnswer": 0,
-          "explanation": "La madre hace yoga en el salón."
+          "explanation": "El texto dice: 'He always has a cup of coffee at seven AM'."
+        },
+        {
+          "question": "[[Does|Hace]] [[he|él]] [[drink|beber]] [[coffee|café]] [[at|por la]] [[night|noche]]?",
+          "options": ["[[No, never|No, nunca]]", "[[Yes, always|Sí, siempre]]", "[[Usually|Normalmente]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'He never drinks coffee at night'."
         }
       ]
     },
@@ -1171,16 +1163,22 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Sports in the Family. My family loves sports! My father plays tennis every morning. He is very good at it. My mother does yoga in the living room. It is very relaxing. My brother, Leo, plays basketball for the school team. I love dancing. I go to a dance class on Friday evenings. We are a very active family!",
+    "transcript": "English study. How often do you study English? I study every day. I usually study for one hour. I often listen to English songs in my car. I sometimes talk to my friends in English. I hardly ever watch movies in Spanish now. I always try to learn new words.",
     "content": {
-      "title": "Lectura: Deportes en Familia",
-      "instructions": "Lee el texto y responde.",
+      "title": "Estudio de Inglés",
+      "instructions": "Lee sobre el estudio.",
       "questions": [
         {
-          "question": "[[Who|Quién]] [[plays|juega]] [[basketball|baloncesto]]? *\"My brother, Leo, plays basketball\"*",
-          "options": ["[[Leo|Leo]]", "[[The father|El padre]]", "[[The mother|La madre]]"],
+          "question": "[[How|Qué]] [[often|tan a menudo]] [[does|hace]] [[the|la]] [[person|persona]] [[study|estudiar]]?",
+          "options": ["[[Every day|Cada día]]", "[[Once a week|Una vez a la semana]]", "[[Never|Nunca]]"],
           "correctAnswer": 0,
-          "explanation": "Leo juega al baloncesto."
+          "explanation": "El texto dice: 'I study every day'."
+        },
+        {
+          "question": "[[Where|Dónde]] [[does|hace]] [[he|él]] [[listen|escuchar]] [[to|a]] [[English|inglés]] [[songs|canciones]]?",
+          "options": ["[[In his car|En su coche]]", "[[At home|En casa]]", "[[At school|En la escuela]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'I often listen to English songs in my car'."
         }
       ]
     },
@@ -1193,16 +1191,22 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Sports in the Family. My family loves sports! My father plays tennis every morning. He is very good at it. My mother does yoga in the living room. It is very relaxing. My brother, Leo, plays basketball for the school team. I love dancing. I go to a dance class on Friday evenings. We are a very active family!",
+    "transcript": "My dog's routine. My dog, Max, is very happy. He always wakes up early. We usually go for a walk at six AM. He often plays with his ball in the park. He sometimes barks at the neighbors. He never eats chocolate because it is bad for him. I always give him good food.",
     "content": {
-      "title": "Lectura: Deportes en Familia",
-      "instructions": "Lee el texto y responde.",
+      "title": "La Rutina de mi Perro",
+      "instructions": "Lee sobre Max.",
       "questions": [
         {
-          "question": "[[When|Cuándo]] [[is|es]] [[the|la]] [[dance|danza]] [[class|clase]]? *\"on Friday evenings\"*",
-          "options": ["[[On Friday evenings|Viernes tarde/noche]]", "[[On Saturday mornings|Sábado mañana]]", "[[Every day|Cada día]]"],
+          "question": "[[What|A qué]] [[time|hora]] [[do|aux]] [[they|ellos]] [[usually|normalmente]] [[go|van]] [[for|a]] [[a|un]] [[walk|paseo]]?",
+          "options": ["[[At six AM|A las 6 AM]]", "[[At seven AM|A las 7 AM]]", "[[At night|Por la noche]]"],
           "correctAnswer": 0,
-          "explanation": "La clase de baile es los viernes tarde/noche."
+          "explanation": "El texto dice: 'We usually go for a walk at six AM'."
+        },
+        {
+          "question": "[[Does|Hace]] [[Max|Max]] [[eat|comer]] [[chocolate|chocolate]]?",
+          "options": ["[[No, never|No, nunca]]", "[[Yes, always|Sí, siempre]]", "[[Sometimes|A veces]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'He never eats chocolate'."
         }
       ]
     },
@@ -1215,16 +1219,22 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Sports in the Family. My family loves sports! My father plays tennis every morning. He is very good at it. My mother does yoga in the living room. It is very relaxing. My brother, Leo, plays basketball for the school team. I love dancing. I go to a dance class on Friday evenings. We are a very active family!",
+    "transcript": "Weather frequency. In my city, it is usually sunny in summer. It often rains in October. It hardly ever snows in winter. We always have a big festival in July. People sometimes travel to other cities for vacation. I usually stay at home and relax.",
     "content": {
-      "title": "Lectura: Deportes en Familia",
-      "instructions": "Lee el texto y responde.",
+      "title": "Frecuencia del Clima",
+      "instructions": "Lee sobre el clima.",
       "questions": [
         {
-          "question": "[[Is|Es]] [[the|la]] [[family|familia]] [[active|activa]]? *\"We are a very active family!\"*",
-          "options": ["[[Yes, they are|Sí]]", "[[No, they are lazy|No, son perezosos]]", "[[They are tired|Están cansados]]"],
+          "question": "[[When|Cuándo]] [[does|hace]] [[it|ello]] [[often|a menudo]] [[rain|llover]]?",
+          "options": ["[[In October|En octubre]]", "[[In July|En julio]]", "[[In summer|En verano]]"],
           "correctAnswer": 0,
-          "explanation": "Sí, es una familia muy activa."
+          "explanation": "El texto dice: 'It often rains in October'."
+        },
+        {
+          "question": "[[How|Qué]] [[often|tan a menudo]] [[does|hace]] [[it|ello]] [[snow|nevar]] [[in|en]] [[winter|invierno]]?",
+          "options": ["[[Hardly ever|Casi nunca]]", "[[Always|Siempre]]", "[[Usually|Normalmente]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'It hardly ever snows in winter'."
         }
       ]
     },
@@ -1237,16 +1247,22 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Sports in the Family. My family loves sports! My father plays tennis every morning. He is very good at it. My mother does yoga in the living room. It is very relaxing. My brother, Leo, plays basketball for the school team. I love dancing. I go to a dance class on Friday evenings. We are a very active family!",
+    "transcript": "Office habits. My boss is always on time. He usually arrives at eight-fifty AM. He often has coffee with us. We sometimes have lunch in the office. We never finish work late on Friday. We always leave at four PM. It is a good office culture.",
     "content": {
-      "title": "Lectura: Deportes en Familia",
-      "instructions": "Lee el texto y responde.",
+      "title": "Hábitos de Oficina",
+      "instructions": "Lee sobre la oficina.",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[is|es]] [[yoga|yoga]] [[according|según]] [[to|a]] [[the|el]] [[text|texto]]? *\"It is very relaxing.\"*",
-          "options": ["[[Relaxing|Relajante]]", "[[Difficult|Difícil]]", "[[Boring|Aburrido]]"],
+          "question": "[[Is|Está]] [[the|el]] [[boss|jefe]] [[on|a]] [[time|tiempo]]?",
+          "options": ["[[Yes, always|Sí, siempre]]", "[[No, never|No, nunca]]", "[[Sometimes|A veces]]"],
           "correctAnswer": 0,
-          "explanation": "El yoga es muy relajante según la madre."
+          "explanation": "El texto dice: 'My boss is always on time'."
+        },
+        {
+          "question": "[[When|Cuándo]] [[do|aux]] [[they|ellos]] [[finish|terminan]] [[work|trabajo]] [[on|el]] [[Friday|viernes]]?",
+          "options": ["[[At four PM|A las 4 PM]]", "[[At five PM|A las 5 PM]]", "[[At nine AM|A las 9 AM]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'We always leave at four PM'."
         }
       ]
     },

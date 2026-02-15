@@ -32,6 +32,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
   const [isEvaluating, setIsEvaluating] = useState(false);
   const [showFinishButton, setShowFinishButton] = useState(false);
   const [finishScore, setFinishScore] = useState(0);
+  const [showReadingText, setShowReadingText] = useState(true);
   const [evaluation, setEvaluation] = useState<{
     isCorrect: boolean;
     score: number;
@@ -40,6 +41,13 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
   } | null>(null);
 
   const [mounted, setMounted] = useState(false);
+
+  // Determine if it's a reading exercise
+  const isReadingExercise = (
+    exercise.topicName?.toLowerCase().includes('reading') || 
+    exercise.topic?.toLowerCase().includes('reading') || 
+    exercise.type === 'reading-comprehension'
+  ) && !!exercise.transcript;
 
   // Animación de entrada y reset de estado cuando cambia el ejercicio
   useEffect(() => {
@@ -54,6 +62,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
     setFinishScore(0);
     setEvaluation(null);
     setIsAnimating(true);
+    setShowReadingText(true);
     
     const timer = setTimeout(() => setIsAnimating(false), 300);
     return () => clearTimeout(timer);
@@ -414,11 +423,30 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
           )}
         </div>
 
-        <div className="space-y-4">
-          {/* Questions array - for exercises with multiple questions */}
-          {exercise.content.questions && Array.isArray(exercise.content.questions) && (
-            <div className="space-y-6">
-              {exercise.content.questions.map((q: any, qIndex: number) => (
+        {/* Reading Phase: Show only the text */}
+        {isReadingExercise && showReadingText ? (
+          <div className="space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500">
+            <div className="p-8 bg-slate-50 border-l-8 border-purple-500 rounded-r-3xl shadow-inner text-slate-800 text-xl leading-relaxed font-medium italic">
+              <Markdown content={exercise.transcript!} vocabulary={vocabulary} />
+            </div>
+            
+            <div className="flex justify-center pt-4">
+              <button
+                onClick={() => setShowReadingText(false)}
+                className="group bg-purple-600 text-white px-10 py-5 rounded-2xl font-black text-lg hover:bg-purple-700 transition-all shadow-xl hover:shadow-purple-200 flex items-center gap-3 transform hover:scale-105 active:scale-95"
+              >
+                Comprender texto y responder
+                <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
+              </button>
+            </div>
+          </div>
+        ) : (
+          /* Question Phase: Show questions */
+          <div className="space-y-4 animate-in fade-in duration-300">
+            {/* Questions array - for exercises with multiple questions */}
+            {exercise.content.questions && Array.isArray(exercise.content.questions) && (
+              <div className="space-y-6">
+                {exercise.content.questions.map((q: any, qIndex: number) => (
                 <div key={qIndex} className="bg-gray-50 rounded-lg p-4 sm:p-6 border border-gray-200 transition-all hover:shadow-md">
                   <div className="mb-4">
                     <span className="inline-block bg-orange-500 text-white px-3 py-1 rounded-full text-sm font-bold mb-3">
@@ -632,69 +660,70 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
               className="w-full p-4 border-2 border-gray-300 rounded-lg focus:border-orange-500 focus:ring-2 focus:ring-orange-200 focus:outline-none disabled:bg-gray-100 disabled:cursor-not-allowed resize-none transition-all"
             />
           )}
-        </div>
 
-        {/* Evaluation Loading */}
-        {isEvaluating && (
-          <div className="mt-6 p-6 bg-orange-50 border-2 border-orange-200 rounded-lg animate-pulse">
-            <div className="flex items-center gap-3">
-              <Loader2 className="w-6 h-6 text-orange-600 animate-spin" />
-              <p className="text-orange-800 font-semibold">Evaluando tu respuesta...</p>
+          {/* Evaluation Loading */}
+          {isEvaluating && (
+            <div className="mt-6 p-6 bg-orange-50 border-2 border-orange-200 rounded-lg animate-pulse">
+              <div className="flex items-center gap-3">
+                <Loader2 className="w-6 h-6 text-orange-600 animate-spin" />
+                <p className="text-orange-800 font-semibold">Evaluando tu respuesta...</p>
+              </div>
             </div>
-          </div>
-        )}
+          )}
 
-        {/* Fallback Feedback (if detailed evaluation not used) */}
-        {submitted && !isEvaluating && !evaluation && (
-          <div className={`mt-6 p-4 rounded-lg animate-slide-in ${
-            isCorrect ? 'bg-green-50 border border-green-200' : 'bg-red-50 border border-red-200'
-          } ${showConfetti ? 'animate-bounce' : ''}`}>
-            <div className="flex items-center gap-2 mb-2">
-              {isCorrect ? (
-                <>
-                  <CheckCircle className="w-5 h-5 text-green-600 animate-scale-in" />
-                  <Sparkles className="w-4 h-4 text-yellow-500 animate-pulse" />
-                  <span className="font-bold text-green-800">¡Excelente! 🎉</span>
-                </>
-              ) : (
-                <>
-                  <XCircle className="w-5 h-5 text-red-600" />
-                  <span className="font-bold text-red-800">Inténtalo de nuevo</span>
-                </>
+          {/* Fallback Feedback (if detailed evaluation not used) */}
+          {submitted && !isEvaluating && !evaluation && (
+            <div className={`mt-6 p-4 rounded-lg animate-slide-in ${
+              isCorrect ? 'bg-green-50 border border-green-200' : 'bg-red-50 border border-red-200'
+            } ${showConfetti ? 'animate-bounce' : ''}`}>
+              <div className="flex items-center gap-2 mb-2">
+                {isCorrect ? (
+                  <>
+                    <CheckCircle className="w-5 h-5 text-green-600 animate-scale-in" />
+                    <Sparkles className="w-4 h-4 text-yellow-500 animate-pulse" />
+                    <span className="font-bold text-green-800">¡Excelente! 🎉</span>
+                  </>
+                ) : (
+                  <>
+                    <XCircle className="w-5 h-5 text-red-600" />
+                    <span className="font-bold text-red-800">Inténtalo de nuevo</span>
+                  </>
+                )}
+              </div>
+              {exercise.content.explanation && (
+                <p className="text-gray-700">{exercise.content.explanation}</p>
+              )}
+              {exercise.content.correctAnswer && (
+                <p className="text-gray-700 mt-2">
+                  <span className="font-semibold">Respuesta correcta:</span> {exercise.content.correctAnswer}
+                </p>
               )}
             </div>
-            {exercise.content.explanation && (
-              <p className="text-gray-700">{exercise.content.explanation}</p>
-            )}
-            {exercise.content.correctAnswer && (
-              <p className="text-gray-700 mt-2">
-                <span className="font-semibold">Respuesta correcta:</span> {exercise.content.correctAnswer}
-              </p>
+          )}
+
+          {/* Action Buttons */}
+          <div className="mt-6 flex gap-3">
+            {!submitted ? (
+              <button
+                onClick={handleSubmit}
+                disabled={userAnswer === null || userAnswer === ''}
+                className="flex-1 bg-orange-500 text-white px-6 py-3 rounded-lg font-bold hover:bg-orange-600 transition-all duration-200 transform hover:scale-105 active:scale-95 disabled:bg-gray-300 disabled:cursor-not-allowed disabled:transform-none flex items-center justify-center gap-2"
+              >
+                <Zap className="w-5 h-5" />
+                <span>Verificar Respuesta</span>
+              </button>
+            ) : (
+              <button
+                onClick={handleNext}
+                className="flex-1 bg-orange-500 text-white px-6 py-3 rounded-lg font-bold hover:bg-orange-600 transition-all duration-200 transform hover:scale-105 active:scale-95 flex items-center justify-center gap-2"
+              >
+                <span>Siguiente Ejercicio</span>
+                <ArrowRight className="w-5 h-5 animate-pulse" />
+              </button>
             )}
           </div>
-        )}
-
-        {/* Action Buttons */}
-        <div className="mt-6 flex gap-3">
-          {!submitted ? (
-            <button
-              onClick={handleSubmit}
-              disabled={userAnswer === null || userAnswer === ''}
-              className="flex-1 bg-orange-500 text-white px-6 py-3 rounded-lg font-bold hover:bg-orange-600 transition-all duration-200 transform hover:scale-105 active:scale-95 disabled:bg-gray-300 disabled:cursor-not-allowed disabled:transform-none flex items-center justify-center gap-2"
-            >
-              <Zap className="w-5 h-5" />
-              <span>Verificar Respuesta</span>
-            </button>
-          ) : (
-            <button
-              onClick={handleNext}
-              className="flex-1 bg-orange-500 text-white px-6 py-3 rounded-lg font-bold hover:bg-orange-600 transition-all duration-200 transform hover:scale-105 active:scale-95 flex items-center justify-center gap-2"
-            >
-              <span>Siguiente Ejercicio</span>
-              <ArrowRight className="w-5 h-5 animate-pulse" />
-            </button>
-          )}
         </div>
+        )}
       </div>
     );
   };

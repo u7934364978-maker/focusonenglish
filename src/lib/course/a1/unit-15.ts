@@ -5,23 +5,23 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "id": "a1-u15-e1",
     "type": "flashcard",
     "level": "A1",
-    "topic": "Occupations",
+    "topic": "Hobbies Vocabulary",
     "difficulty": "easy",
-    "transcript": "Chef. Engineer. Nurse. Dentist. Pilot. Farmer. Artist. Musician. Waiter. Salesperson.",
+    "transcript": "Reading. Traveling. Cooking. Swimming. Dancing. Singing. Drawing. Painting. Gardening. Photography.",
     "content": {
-      "title": "Vocabulario: Profesiones",
-      "instructions": "Aprende los nombres de diferentes profesiones.",
+      "title": "Vocabulario: Hobbies",
+      "instructions": "Aprende los nombres de actividades de tiempo libre comunes.",
       "items": [
-        { "front": "[[Chef|Chef]]", "back": "Cocinero/a" },
-        { "front": "[[Engineer|Ingeniero]]", "back": "Ingeniero/a" },
-        { "front": "[[Nurse|Enfermera]]", "back": "Enfermero/a" },
-        { "front": "[[Dentist|Dentista]]", "back": "Dentista" },
-        { "front": "[[Pilot|Piloto]]", "back": "Piloto" },
-        { "front": "[[Farmer|Granjero]]", "back": "Granjero/a" },
-        { "front": "[[Artist|Artista]]", "back": "Artista" },
-        { "front": "[[Musician|Músico]]", "back": "Músico/a" },
-        { "front": "[[Waiter|Camarero]]", "back": "Camarero/a" },
-        { "front": "[[Salesperson|Vendedor]]", "back": "Vendedor/a" }
+        { "front": "[[Reading|Leer]]", "back": "Leer" },
+        { "front": "[[Traveling|Viajar]]", "back": "Viajar" },
+        { "front": "[[Cooking|Cocinar]]", "back": "Cocinar" },
+        { "front": "[[Swimming|Nadar]]", "back": "Nadar" },
+        { "front": "[[Dancing|Bailar]]", "back": "Bailar" },
+        { "front": "[[Singing|Cantar]]", "back": "Cantar" },
+        { "front": "[[Drawing|Dibujar]]", "back": "Dibujar" },
+        { "front": "[[Painting|Pintar]]", "back": "Pintar" },
+        { "front": "[[Gardening|Jardinería]]", "back": "Jardinería" },
+        { "front": "[[Photography|Fotografía]]", "back": "Fotografía" }
       ]
     },
     "audioUrl": "audio/a1/unit-15/e1.mp3",
@@ -31,23 +31,21 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "id": "a1-u15-e2",
     "type": "flashcard",
     "level": "A1",
-    "topic": "3rd Person Verbs",
+    "topic": "Sports & Games",
     "difficulty": "easy",
-    "transcript": "Works. Studies. Teaches. Cooks. Drives. Flies. Sells. Paints. Plays. Helps.",
+    "transcript": "Football. Basketball. Tennis. Chess. Video games. Running. Yoga. Cycling.",
     "content": {
-      "title": "Verbos en 3ª Persona",
-      "instructions": "Verbos comunes con terminación -s/-es.",
+      "title": "Deportes y Juegos",
+      "instructions": "Actividades recreativas y competitivas.",
       "items": [
-        { "front": "[[Works|Trabaja]]", "back": "Trabaja" },
-        { "front": "[[Studies|Estudia]]", "back": "Estudia" },
-        { "front": "[[Teaches|Enseña]]", "back": "Enseña" },
-        { "front": "[[Cooks|Cocina]]", "back": "Cocina" },
-        { "front": "[[Drives|Conduce]]", "back": "Conduce" },
-        { "front": "[[Flies|Vuela]]", "back": "Vuela" },
-        { "front": "[[Sells|Vende]]", "back": "Vende" },
-        { "front": "[[Paints|Pinta]]", "back": "Pinta" },
-        { "front": "[[Plays|Juega]]", "back": "Juega" },
-        { "front": "[[Helps|Ayuda]]", "back": "Ayuda" }
+        { "front": "[[Football|Fútbol]]", "back": "Fútbol" },
+        { "front": "[[Basketball|Baloncesto]]", "back": "Baloncesto" },
+        { "front": "[[Tennis|Tenis]]", "back": "Tenis" },
+        { "front": "[[Chess|Ajedrez]]", "back": "Ajedrez" },
+        { "front": "[[Video games|Videojuegos]]", "back": "Videojuegos" },
+        { "front": "[[Running|Correr]]", "back": "Correr" },
+        { "front": "[[Yoga|Yoga]]", "back": "Yoga" },
+        { "front": "[[Cycling|Ciclismo]]", "back": "Ciclismo" }
       ]
     },
     "audioUrl": "audio/a1/unit-15/e2.mp3",
@@ -55,42 +53,41 @@ export const UNIT_15_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u15-e3",
-    "type": "multiple-choice",
+    "type": "flashcard",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
+    "topic": "Musical Instruments",
     "difficulty": "easy",
-    "transcript": "He works in a hospital.",
+    "transcript": "Guitar. Piano. Drums. Violin. Flute.",
     "content": {
-      "title": "Lugar de Trabajo",
-      "instructions": "Completa con el verbo correcto.",
-      "questions": [
-        {
-          "question": "[[He|Él]] _______ [[in|en]] [[a|un]] [[hospital|hospital]].",
-          "options": ["[[works|trabaja]]", "[[work|trabajar]]", "[[working|trabajando]]"],
-          "correctAnswer": 0,
-          "explanation": "En 3ª persona singular (he/she/it) añadimos 's' al verbo."
-        }
+      "title": "Instrumentos Musicales",
+      "instructions": "Instrumentos que puedes tocar.",
+      "items": [
+        { "front": "[[Guitar|Guitarra]]", "back": "Guitarra" },
+        { "front": "[[Piano|Piano]]", "back": "Piano" },
+        { "front": "[[Drums|Batería]]", "back": "Batería" },
+        { "front": "[[Violin|Violín]]", "back": "Violín" },
+        { "front": "[[Flute|Flauta]]", "back": "Flauta" }
       ]
     },
     "audioUrl": "audio/a1/unit-15/e3.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u15-e4",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
+    "topic": "Like + -ing",
     "difficulty": "easy",
-    "transcript": "She teaches English at the school.",
+    "transcript": "I like reading books.",
     "content": {
-      "title": "La Profesora",
+      "title": "Gustos Básicos",
       "instructions": "Elige la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[English|inglés]] [[at|en]] [[the|la]] [[school|escuela]].",
-          "options": ["[[teaches|enseña]]", "[[teach|enseñar]]", "[[teachis|enseña]]"],
+          "question": "[[I|Yo]] [[like|gustar]] (_____) [[books|libros]].",
+          "options": ["[[reading|leer]]", "[[reads|lee]]", "[[read|lee]]"],
           "correctAnswer": 0,
-          "explanation": "Los verbos que terminan en 'ch' añaden 'es' en 3ª persona."
+          "explanation": "Después de 'like' usamos el gerundio (-ing) para actividades."
         }
       ]
     },
@@ -101,18 +98,18 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "id": "a1-u15-e5",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
-    "difficulty": "medium",
-    "transcript": "Does he drive a bus?",
+    "topic": "Love + -ing",
+    "difficulty": "easy",
+    "transcript": "She loves dancing.",
     "content": {
-      "title": "¿Conduce un autobús?",
-      "instructions": "Completa la pregunta.",
+      "title": "Encantar",
+      "instructions": "Completa la oración.",
       "questions": [
         {
-          "question": "_______ [[he|él]] [[drive|conducir]] [[a|un]] [[bus|autobús]]?",
-          "options": ["[[Does|¿?]]", "[[Do|¿?]]", "[[Is|¿?]]"],
+          "question": "[[She|Ella]] [[loves|ama/le encanta]] (_____) .",
+          "options": ["[[dancing|bailar]]", "[[dance|baila]]", "[[dances|baila]]"],
           "correctAnswer": 0,
-          "explanation": "Usamos 'Does' para preguntas con he/she/it."
+          "explanation": "'Love' también requiere la forma -ing para la actividad."
         }
       ]
     },
@@ -123,18 +120,18 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "id": "a1-u15-e6",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
-    "difficulty": "medium",
-    "transcript": "She doesn't like meat.",
+    "topic": "Hate + -ing",
+    "difficulty": "easy",
+    "transcript": "I hate cooking.",
     "content": {
-      "title": "Gustos",
-      "instructions": "Completa la oración negativa.",
+      "title": "Odio",
+      "instructions": "Elige la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[like|gustar]] [[meat|carne]].",
-          "options": ["[[doesn't|no]]", "[[don't|no]]", "[[not|no]]"],
+          "question": "[[I|Yo]] [[hate|odio]] (_____) .",
+          "options": ["[[cooking|cocinar]]", "[[cook|cocina]]", "[[cooks|cocina]]"],
           "correctAnswer": 0,
-          "explanation": "Usamos 'doesn't' para negaciones con he/she/it."
+          "explanation": "'Hate' sigue la misma regla: + -ing."
         }
       ]
     },
@@ -145,99 +142,92 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "id": "a1-u15-e7",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
+    "topic": "Like + -ing",
     "difficulty": "medium",
-    "transcript": "My mother studies French on Tuesdays.",
+    "transcript": "Do you like playing tennis?",
     "content": {
-      "title": "Estudios",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[My|Mi]] [[mother|madre]] [[studies|estudia]] [[French|francés]] [[on|los]] [[Tuesdays|martes]].",
-      "words": ["[[French|francés]]", "[[studies|estudia]]", "[[Tuesdays|martes]].", "[[mother|madre]]", "[[My|Mi]]", "[[on|los]]"],
-      "explanation": "Verbos terminados en consonante + y cambian la 'y' por 'ies'."
+      "title": "Preguntando por Gustos",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[Do|Aux]] [[you|tú]] [[like|gustar]] [[playing|jugar]] [[tennis|tenis]]?",
+      "words": ["[[tennis|tenis]]?", "[[playing|jugar]]", "[[like|gustar]]", "[[you|tú]]", "[[Do|Aux]]"],
+      "explanation": "Pregunta de 'yes/no' sobre un hobby."
     },
     "audioUrl": "audio/a1/unit-15/e7.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u15-e8",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
-    "difficulty": "easy",
-    "transcript": "A pilot flies planes.",
+    "topic": "Hobby + -ing",
+    "difficulty": "medium",
+    "transcript": "My brother likes playing video games.",
     "content": {
-      "title": "El Piloto",
-      "instructions": "Elige el verbo correcto.",
-      "questions": [
-        {
-          "question": "[[A|Un]] [[pilot|piloto]] _______ [[planes|aviones]].",
-          "options": ["[[flies|vuela]]", "[[fly|volar]]", "[[flys|vuela]]"],
-          "correctAnswer": 0,
-          "explanation": "Fly se convierte en flies para la 3ª persona."
-        }
-      ]
+      "title": "Hobby del Hermano",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[My|Mi]] [[brother|hermano]] [[likes|le gusta]] [[playing|jugar]] [[video games|videojuegos]].",
+      "words": ["[[video games|videojuegos]].", "[[playing|jugar]]", "[[likes|le gusta]]", "[[brother|hermano]]", "[[My|Mi]]"],
+      "explanation": "Tercera persona singular 'likes' + gerundio."
     },
     "audioUrl": "audio/a1/unit-15/e8.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u15-e9",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
-    "difficulty": "medium",
-    "transcript": "He doesn't have a big car.",
+    "topic": "Instruments",
+    "difficulty": "easy",
+    "transcript": "Can he play the guitar?",
     "content": {
-      "title": "Posesión",
-      "instructions": "Ordena la oración negativa.",
-      "correctSentence": "[[He|Él]] [[doesn't|no]] [[have|tiene]] [[a|un]] [[big|grande]] [[car|coche]].",
-      "words": ["[[doesn't|no]]", "[[have|tiene]]", "[[car|coche]].", "[[He|Él]]", "[[big|grande]]", "[[a|un]]"],
-      "explanation": "En negaciones con 'doesn't', el verbo vuelve a su forma base (have)."
+      "title": "Tocar Instrumentos",
+      "instructions": "Completa la pregunta.",
+      "questions": [
+        {
+          "question": "[[Can|Puede]] [[he|él]] (_____) [[the|la]] [[guitar|guitarra]]?",
+          "options": ["[[play|tocar]]", "[[playing|tocando]]", "[[do|hacer]]"],
+          "correctAnswer": 0,
+          "explanation": "Con el modal 'can' usamos el verbo en infinitivo sin 'to'."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-15/e9.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u15-e10",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Occupations",
-    "difficulty": "easy",
-    "transcript": "A dentist helps people with their teeth.",
+    "topic": "Love + -ing",
+    "difficulty": "medium",
+    "transcript": "They love listening to music in the car.",
     "content": {
-      "title": "El Dentista",
-      "instructions": "Elige la profesión correcta.",
-      "questions": [
-        {
-          "question": "[[A|Un]] _______ [[helps|ayuda]] [[people|personas]] [[with|con]] [[their|sus]] [[teeth|dientes]].",
-          "options": ["[[dentist|dentista]]", "[[doctor|doctor]]", "[[nurse|enfermera]]"],
-          "correctAnswer": 0,
-          "explanation": "El dentista se encarga de la salud dental."
-        }
-      ]
+      "title": "Música en el Coche",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[They|Ellos]] [[love|aman]] [[listening|escuchar]] [[to|a]] [[music|música]] [[in|en]] [[the|el]] [[car|coche]].",
+      "words": ["[[car|coche]].", "[[the|el]]", "[[in|en]]", "[[music|música]]", "[[to|a]]", "[[listening|escuchar]]", "[[love|aman]]", "[[They|Ellos]]"],
+      "explanation": "Combinando gustos con el lugar."
     },
     "audioUrl": "audio/a1/unit-15/e10.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u15-e11",
-    "type": "flashcard",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Daily Routine Verbs (3rd Person)",
-    "difficulty": "easy",
-    "transcript": "Wakes up. Has breakfast. Goes to work. Starts. Finishes. Eats lunch. Watches TV. Goes to bed.",
+    "topic": "Hate + -ing",
+    "difficulty": "medium",
+    "transcript": "I don't like traveling by plane. I hate it.",
     "content": {
-      "title": "Rutina Diaria (Él/Ella)",
-      "instructions": "Aprende verbos de rutina en 3ª persona.",
-      "items": [
-        { "front": "[[Wakes up|Se despierta]]", "back": "Se despierta" },
-        { "front": "[[Has breakfast|Desayuna]]", "back": "Desayuna" },
-        { "front": "[[Goes to work|Va a trabajar]]", "back": "Va a trabajar" },
-        { "front": "[[Starts|Empieza]]", "back": "Empieza" },
-        { "front": "[[Finishes|Termina]]", "back": "Termina" },
-        { "front": "[[Eats lunch|Almuerza]]", "back": "Almuerza" },
-        { "front": "[[Watches TV|Ve la tele]]", "back": "Ve la tele" },
-        { "front": "[[Goes to bed|Se va a la cama]]", "back": "Se va a la cama" }
+      "title": "Viajar en Avión",
+      "instructions": "Elige la expresión de disgusto.",
+      "questions": [
+        {
+          "question": "[[I|Yo]] [[don't|no]] [[like|gustar]] [[traveling|viajar]] [[by|en]] [[plane|avión]]. [[I|Yo]] (_____) [[it|lo]].",
+          "options": ["[[hate|odio]]", "[[love|amo]]", "[[like|me gusta]]"],
+          "correctAnswer": 0,
+          "explanation": "Hate refuerza el desagrado previo."
+        }
       ]
     },
     "audioUrl": "audio/a1/unit-15/e11.mp3",
@@ -245,22 +235,17 @@ export const UNIT_15_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u15-e12",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
-    "difficulty": "easy",
-    "transcript": "My dad has breakfast at 7 AM.",
+    "topic": "Like + -ing",
+    "difficulty": "medium",
+    "transcript": "Does she like swimming in the pool?",
     "content": {
-      "title": "El Desayuno",
-      "instructions": "Completa con la forma correcta de 'have'.",
-      "questions": [
-        {
-          "question": "[[My|Mi]] [[dad|papá]] _______ [[breakfast|desayuno]] [[at|a las]] [[7|7]] [[AM|AM]].",
-          "options": ["[[has|tiene]]", "[[have|tener]]", "[[haves|tiene]]"],
-          "correctAnswer": 0,
-          "explanation": "Have es irregular en 3ª persona singular: 'has'."
-        }
-      ]
+      "title": "Natación",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[Does|Aux]] [[she|ella]] [[like|gustar]] [[swimming|nadar]] [[in|en]] [[the|la]] [[pool|piscina]]?",
+      "words": ["[[pool|piscina]]?", "[[the|la]]", "[[in|en]]", "[[swimming|nadar]]", "[[like|gustar]]", "[[she|ella]]", "[[Does|Aux]]"],
+      "explanation": "Estructura de pregunta singular."
     },
     "audioUrl": "audio/a1/unit-15/e12.mp3",
     "topicName": "Grammar"
@@ -269,37 +254,37 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "id": "a1-u15-e13",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
+    "topic": "Hobbies",
     "difficulty": "easy",
-    "transcript": "She finishes work at 5 PM.",
+    "transcript": "What is your hobby? My hobby is painting.",
     "content": {
-      "title": "Fin de Jornada",
-      "instructions": "Elige la terminación correcta.",
+      "title": "¿Cuál es tu hobby?",
+      "instructions": "Responde la pregunta.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[work|trabajo]] [[at|a las]] [[5|5]] [[PM|PM]].",
-          "options": ["[[finishes|termina]]", "[[finish|terminar]]", "[[finishs|termina]]"],
+          "question": "[[What|Cuál]] [[is|es]] [[your|tu]] [[hobby|hobby]]?",
+          "options": ["[[My hobby is painting|Mi hobby es pintar]]", "[[I am a doctor|Soy doctor]]", "[[I live in Spain|Vivo en España]]"],
           "correctAnswer": 0,
-          "explanation": "Verbos que terminan en 'sh' añaden 'es'."
+          "explanation": "Painting es una respuesta adecuada para un hobby."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-15/e13.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u15-e14",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
+    "topic": "Like + -ing",
     "difficulty": "medium",
-    "transcript": "Does your sister live in Madrid?",
+    "transcript": "We like going to the cinema on Fridays.",
     "content": {
-      "title": "¿Viven en Madrid?",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Does|¿?]] [[your|tu]] [[sister|hermana]] [[live|vivir]] [[in|en]] [[Madrid|Madrid]]?",
-      "words": ["[[live|vivir]]", "[[your|tu]]", "[[Madrid|Madrid]]?", "[[sister|hermana]]", "[[Does|¿?]]", "[[in|en]]"],
-      "explanation": "Pregunta con 'Does' para 'your sister' (she)."
+      "title": "Ir al Cine",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[We|Nosotros]] [[like|nos gusta]] [[going|ir]] [[to|al]] [[the|el]] [[cinema|cine]] [[on|los]] [[Fridays|viernes]].",
+      "words": ["[[Fridays|viernes]].", "[[on|los]]", "[[cinema|cine]]", "[[the|el]]", "[[to|al]]", "[[going|ir]]", "[[like|nos gusta]]", "[[We|Nosotros]]"],
+      "explanation": "Uso de like + going."
     },
     "audioUrl": "audio/a1/unit-15/e14.mp3",
     "topicName": "Grammar"
@@ -308,18 +293,18 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "id": "a1-u15-e15",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
-    "difficulty": "medium",
-    "transcript": "My dog doesn't bark often.",
+    "topic": "Sports",
+    "difficulty": "easy",
+    "transcript": "I play basketball every Wednesday.",
     "content": {
-      "title": "Mi Perro",
-      "instructions": "Completa la negación para un animal.",
+      "title": "Baloncesto",
+      "instructions": "Elige el verbo correcto para deportes.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[dog|perro]] _______ [[bark|ladrar]] [[often|a menudo]].",
-          "options": ["[[doesn't|no]]", "[[don't|no]]", "[[isn't|no]]"],
+          "question": "[[I|Yo]] (_____) [[basketball|baloncesto]] [[every|cada]] [[Wednesday|miércoles]].",
+          "options": ["[[play|juego]]", "[[do|hago]]", "[[go|voy]]"],
           "correctAnswer": 0,
-          "explanation": "'My dog' es 'it', por lo que usamos 'doesn't'."
+          "explanation": "Usamos 'play' para deportes de equipo con pelota."
         }
       ]
     },
@@ -328,61 +313,56 @@ export const UNIT_15_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u15-e16",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Occupations",
-    "difficulty": "easy",
-    "transcript": "An artist paints pictures.",
+    "topic": "Like + -ing",
+    "difficulty": "medium",
+    "transcript": "My parents don't like listening to loud music.",
     "content": {
-      "title": "El Artista",
-      "instructions": "Elige la profesión.",
-      "questions": [
-        {
-          "question": "[[An|Un]] _______ [[paints|pinta]] [[pictures|cuadros]].",
-          "options": ["[[artist|artista]]", "[[musician|músico]]", "[[chef|chef]]"],
-          "correctAnswer": 0,
-          "explanation": "El artista es quien pinta cuadros."
-        }
-      ]
+      "title": "Música Fuerte",
+      "instructions": "Ordena la negación.",
+      "correctSentence": "[[My|Mis]] [[parents|padres]] [[don't|no]] [[like|les gusta]] [[listening|escuchar]] [[to|a]] [[loud|fuerte]] [[music|música]].",
+      "words": ["[[music|música]].", "[[loud|fuerte]]", "[[to|a]]", "[[listening|escuchar]]", "[[like|les gusta]]", "[[don't|no]]", "[[parents|padres]]", "[[My|Mis]]"],
+      "explanation": "Negativo con don't like."
     },
     "audioUrl": "audio/a1/unit-15/e16.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u15-e17",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
+    "topic": "Hobbies",
     "difficulty": "medium",
-    "transcript": "She goes to the gym on Mondays.",
+    "transcript": "Does he like gardening? Yes, he does.",
     "content": {
-      "title": "Gimnasio",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[She|Ella]] [[goes|va]] [[to|al]] [[the|el]] [[gym|gimnasio]] [[on|los]] [[Mondays|lunes]].",
-      "words": ["[[gym|gimnasio]]", "[[goes|va]]", "[[Mondays|lunes]].", "[[She|Ella]]", "[[to|al]]", "[[on|los]]", "[[the|el]]"],
-      "explanation": "Go añade 'es' en 3ª persona: 'goes'."
+      "title": "Jardinería",
+      "instructions": "Responde la pregunta corta.",
+      "questions": [
+        {
+          "question": "[[Does|Aux]] [[he|él]] [[like|gustar]] [[gardening|jardinería]]?",
+          "options": ["[[Yes, he does|Sí, le gusta]]", "[[Yes, he likes|Sí (incorrecto)]]", "[[Yes, he is|Sí (incorrecto)]]"],
+          "correctAnswer": 0,
+          "explanation": "Respuesta corta afirmativa con 'does'."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-15/e17.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u15-e18",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
+    "topic": "Like + -ing",
     "difficulty": "medium",
-    "transcript": "Where does he work?",
+    "transcript": "I like drawing people's faces.",
     "content": {
-      "title": "Pregunta de lugar",
-      "instructions": "Completa la pregunta con 'Where'.",
-      "questions": [
-        {
-          "question": "[[Where|Dónde]] _______ [[he|él]] [[work|trabajar]]?",
-          "options": ["[[does|¿?]]", "[[do|¿?]]", "[[is|¿?]]"],
-          "correctAnswer": 0,
-          "explanation": "Pregunta de información con auxiliares de Present Simple."
-        }
-      ]
+      "title": "Dibujar Caras",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[I|Yo]] [[like|gusta]] [[drawing|dibujar]] [[people's|de personas]] [[faces|caras]].",
+      "words": ["[[faces|caras]].", "[[people's|de personas]]", "[[drawing|dibujar]]", "[[like|gusta]]", "[[I|Yo]]"],
+      "explanation": "Drawing es el hobby de dibujar."
     },
     "audioUrl": "audio/a1/unit-15/e18.mp3",
     "topicName": "Grammar"
@@ -391,18 +371,18 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "id": "a1-u15-e19",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Occupations",
+    "topic": "Photography",
     "difficulty": "easy",
-    "transcript": "A farmer works on a farm.",
+    "transcript": "She takes beautiful photos. Her hobby is photography.",
     "content": {
-      "title": "El Granjero",
-      "instructions": "Elige el lugar de trabajo.",
+      "title": "Fotografía",
+      "instructions": "Elige el nombre del hobby.",
       "questions": [
         {
-          "question": "[[A|Un]] [[farmer|granjero]] [[works|trabaja]] [[on|en]] [[a|una]] _______.",
-          "options": ["[[farm|granja]]", "[[hospital|hospital]]", "[[office|oficina]]"],
+          "question": "[[Her|Su]] [[hobby|hobby]] [[is|es]] (_____) .",
+          "options": ["[[photography|fotografía]]", "[[photograph|fotografiar]]", "[[photos|fotos]]"],
           "correctAnswer": 0,
-          "explanation": "Los granjeros trabajan en granjas."
+          "explanation": "Photography es el nombre de la actividad."
         }
       ]
     },
@@ -413,38 +393,36 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "id": "a1-u15-e20",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
+    "topic": "Hobbies",
     "difficulty": "medium",
-    "transcript": "Does she like listening to music?",
+    "transcript": "What do you like doing in your free time?",
     "content": {
-      "title": "Gustos musicales",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Does|¿?]] [[she|ella]] [[like|gustar]] [[listening|escuchar]] [[to|a]] [[music|música]]?",
-      "words": ["[[listening|escuchar]]", "[[she|ella]]", "[[music|música]]?", "[[Does|¿?]]", "[[like|gustar]]", "[[to|a]]"],
-      "explanation": "Estructura de pregunta: Aux + Suj + Verbo + Complemento."
+      "title": "Tiempo Libre",
+      "instructions": "Ordena la pregunta abierta.",
+      "correctSentence": "[[What|Qué]] [[do|aux]] [[you|tú]] [[like|gustar]] [[doing|hacer]] [[in|en]] [[your|tu]] [[free|libre]] [[time|tiempo]]?",
+      "words": ["[[time|tiempo]]?", "[[free|libre]]", "[[your|tu]]", "[[in|en]]", "[[doing|hacer]]", "[[like|gustar]]", "[[you|tú]]", "[[do|aux]]", "[[What|Qué]]"],
+      "explanation": "Pregunta estándar para conocer los hobbies de alguien."
     },
     "audioUrl": "audio/a1/unit-15/e20.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u15-e21",
-    "type": "flashcard",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Actions",
+    "topic": "Hobbies",
     "difficulty": "easy",
-    "transcript": "Speaks. Listens. Writes. Reads. Watches. Learns. Forgets. Remembers.",
+    "transcript": "Reading. Traveling. Cooking. Swimming.",
     "content": {
-      "title": "Acciones Comunes (3ª Persona)",
-      "instructions": "Aprende más verbos de acción.",
-      "items": [
-        { "front": "[[Speaks|Habla]]", "back": "Habla" },
-        { "front": "[[Listens|Escucha]]", "back": "Escucha" },
-        { "front": "[[Writes|Escribe]]", "back": "Escribe" },
-        { "front": "[[Reads|Lee]]", "back": "Lee" },
-        { "front": "[[Watches|Mira]]", "back": "Mira (tele)" },
-        { "front": "[[Learns|Aprende]]", "back": "Aprende" },
-        { "front": "[[Forgets|Olvida]]", "back": "Olvida" },
-        { "front": "[[Remembers|Recuerda]]", "back": "Recuerda" }
+      "title": "Hobby Silencioso",
+      "instructions": "¿Cuál de estos es una actividad silenciosa?",
+      "questions": [
+        {
+          "question": "[[Which|Cuál]] [[is|es]] [[quiet|silencioso]]?",
+          "options": ["[[Reading|Leer]]", "[[Singing|Cantar]]", "[[Dancing|Bailar]]"],
+          "correctAnswer": 0,
+          "explanation": "Leer es una actividad que se hace en silencio."
+        }
       ]
     },
     "audioUrl": "audio/a1/unit-15/e21.mp3",
@@ -454,37 +432,37 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "id": "a1-u15-e22",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
+    "topic": "Hobbies",
     "difficulty": "easy",
-    "transcript": "He speaks three languages.",
+    "transcript": "Football. Basketball. Tennis.",
     "content": {
-      "title": "Idiomas",
-      "instructions": "Elige la forma del verbo.",
+      "title": "Deporte de Equipo",
+      "instructions": "¿Cuál es un deporte de equipo?",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[three|tres]] [[languages|idiomas]].",
-          "options": ["[[speaks|habla]]", "[[speak|hablar]]", "[[speakis|habla]]"],
+          "question": "[[Which|Cuál]] [[is|es]] [[a|un]] [[team|de equipo]] [[sport|deporte]]?",
+          "options": ["[[Football|Fútbol]]", "[[Tennis|Tenis]]", "[[Running|Correr]]"],
           "correctAnswer": 0,
-          "explanation": "Añadimos 's' al verbo speak para la 3ª persona."
+          "explanation": "El fútbol se juega en equipos de 11."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-15/e22.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u15-e23",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
-    "difficulty": "medium",
-    "transcript": "My sister reads a book every night.",
+    "topic": "Like + -ing",
+    "difficulty": "easy",
+    "transcript": "I like singing songs.",
     "content": {
-      "title": "Lectura Nocturna",
+      "title": "Cantar Canciones",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[My|Mi]] [[sister|hermana]] [[reads|lee]] [[a|un]] [[book|libro]] [[every|cada]] [[night|noche]].",
-      "words": ["[[book|libro]]", "[[reads|lee]]", "[[night|noche]].", "[[sister|hermana]]", "[[My|Mi]]", "[[every|cada]]", "[[a|un]]"],
-      "explanation": "Oración simple en 3ª persona."
+      "correctSentence": "[[I|Yo]] [[like|gusta]] [[singing|cantar]] [[songs|canciones]].",
+      "words": ["[[songs|canciones]].", "[[singing|cantar]]", "[[like|gusta]]", "[[I|Yo]]"],
+      "explanation": "Like + singing."
     },
     "audioUrl": "audio/a1/unit-15/e23.mp3",
     "topicName": "Grammar"
@@ -493,18 +471,18 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "id": "a1-u15-e24",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
+    "topic": "Like + -ing",
     "difficulty": "easy",
-    "transcript": "She watches movies on the weekend.",
+    "transcript": "We like traveling to Italy.",
     "content": {
-      "title": "Cine",
-      "instructions": "Elige la forma correcta de 'watch'.",
+      "title": "Viajar a Italia",
+      "instructions": "Completa con el verbo correcto.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[movies|películas]] [[on|el]] [[the|el]] [[weekend|fin de semana]].",
-          "options": ["[[watches|mira]]", "[[watchs|mira]]", "[[watch|mirar]]"],
+          "question": "[[We|Nosotros]] [[like|gusta]] (_____) [[to|a]] [[Italy|Italia]].",
+          "options": ["[[traveling|viajar]]", "[[travels|viaja]]", "[[travel|viaje]]"],
           "correctAnswer": 0,
-          "explanation": "Verbos terminados en 'ch' añaden 'es'."
+          "explanation": "Uso de traveling después de like."
         }
       ]
     },
@@ -513,61 +491,56 @@ export const UNIT_15_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u15-e25",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Occupations",
-    "difficulty": "easy",
-    "transcript": "A waiter serves food in a restaurant.",
+    "topic": "Love + -ing",
+    "difficulty": "medium",
+    "transcript": "My sister loves cooking for us.",
     "content": {
-      "title": "El Camarero",
-      "instructions": "Elige la profesión.",
-      "questions": [
-        {
-          "question": "[[A|Un]] _______ [[serves|sirve]] [[food|comida]] [[in|en]] [[a|un]] [[restaurant|restaurante]].",
-          "options": ["[[waiter|camarero]]", "[[chef|cocinero]]", "[[pilot|piloto]]"],
-          "correctAnswer": 0,
-          "explanation": "El camarero es quien sirve la comida."
-        }
-      ]
+      "title": "Cocina de la Hermana",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[My|Mi]] [[sister|hermana]] [[loves|ama]] [[cooking|cocinar]] [[for|para]] [[us|nosotros]].",
+      "words": ["[[us|nosotros]].", "[[for|para]]", "[[cooking|cocinar]]", "[[loves|ama]]", "[[sister|hermana]]", "[[My|Mi]]"],
+      "explanation": "Loves con 's' y cooking con -ing."
     },
     "audioUrl": "audio/a1/unit-15/e25.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u15-e26",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
+    "topic": "Hate + -ing",
     "difficulty": "medium",
-    "transcript": "Does your father drink coffee?",
+    "transcript": "Does he hate washing the car?",
     "content": {
-      "title": "Bebidas",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Does|¿?]] [[your|tu]] [[father|padre]] [[drink|beber]] [[coffee|café]]?",
-      "words": ["[[drink|beber]]", "[[your|tu]]", "[[coffee|café]]?", "[[father|padre]]", "[[Does|¿?]]"],
-      "explanation": "Pregunta con 'Does' para 'your father' (he)."
+      "title": "Lavar el Coche",
+      "instructions": "Completa la pregunta.",
+      "questions": [
+        {
+          "question": "[[Does|Aux]] [[he|él]] [[hate|odia]] (_____) [[the|el]] [[car|coche]]?",
+          "options": ["[[washing|lavar]]", "[[wash|lavar]]", "[[washs|lavar]]"],
+          "correctAnswer": 0,
+          "explanation": "Hate + washing."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-15/e26.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u15-e27",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
+    "topic": "Instruments",
     "difficulty": "medium",
-    "transcript": "He doesn't study on Sundays.",
+    "transcript": "They play the drums in a band.",
     "content": {
-      "title": "Día de descanso",
-      "instructions": "Completa la negación.",
-      "questions": [
-        {
-          "question": "[[He|Él]] _______ [[study|estudiar]] [[on|los]] [[Sundays|domingos]].",
-          "options": ["[[doesn't|no]]", "[[don't|no]]", "[[not|no]]"],
-          "correctAnswer": 0,
-          "explanation": "Negación en 3ª persona singular."
-        }
-      ]
+      "title": "La Batería",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[They|Ellos]] [[play|tocan]] [[the|la]] [[drums|batería]] [[in|en]] [[a|una]] [[band|banda]].",
+      "words": ["[[band|banda]].", "[[a|una]]", "[[in|en]]", "[[drums|batería]]", "[[the|la]]", "[[play|tocan]]", "[[They|Ellos]]"],
+      "explanation": "Play + the + instrument."
     },
     "audioUrl": "audio/a1/unit-15/e27.mp3",
     "topicName": "Grammar"
@@ -576,18 +549,18 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "id": "a1-u15-e28",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Occupations",
+    "topic": "Chess",
     "difficulty": "easy",
-    "transcript": "A salesperson sells things in a shop.",
+    "transcript": "He likes playing chess.",
     "content": {
-      "title": "El Vendedor",
-      "instructions": "Elige la profesión.",
+      "title": "Ajedrez",
+      "instructions": "Elige la actividad.",
       "questions": [
         {
-          "question": "[[A|Un]] _______ [[sells|vende]] [[things|cosas]] [[in|en]] [[a|una]] [[shop|tienda]].",
-          "options": ["[[salesperson|vendedor]]", "[[nurse|enfermera]]", "[[engineer|ingeniero]]"],
+          "question": "[[He|Él]] [[likes|le gusta]] [[playing|jugar]] (_____) .",
+          "options": ["[[chess|ajedrez]]", "[[cheese|queso]]", "[[chest|pecho]]"],
           "correctAnswer": 0,
-          "explanation": "Un vendedor (salesperson) vende productos."
+          "explanation": "Chess es ajedrez."
         }
       ]
     },
@@ -598,15 +571,15 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "id": "a1-u15-e29",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
+    "topic": "Like + -ing",
     "difficulty": "medium",
-    "transcript": "She lives with her parents.",
+    "transcript": "Do you like watching movies at home?",
     "content": {
-      "title": "Hogar",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[She|Ella]] [[lives|vive]] [[with|con]] [[her|sus]] [[parents|padres]].",
-      "words": ["[[parents|padres]].", "[[lives|vive]]", "[[her|sus]]", "[[with|con]]", "[[She|Ella]]"],
-      "explanation": "Añadimos 's' al verbo live."
+      "title": "Películas en Casa",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[Do|Aux]] [[you|tú]] [[like|gustar]] [[watching|ver]] [[movies|películas]] [[at|en]] [[home|casa]]?",
+      "words": ["[[home|casa]]?", "[[at|en]]", "[[movies|películas]]", "[[watching|ver]]", "[[like|gustar]]", "[[you|tú]]", "[[Do|Aux]]"],
+      "explanation": "Pregunta sobre preferencias de cine."
     },
     "audioUrl": "audio/a1/unit-15/e29.mp3",
     "topicName": "Grammar"
@@ -615,80 +588,76 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "id": "a1-u15-e30",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
+    "topic": "Free Time",
     "difficulty": "medium",
-    "transcript": "What does she want?",
+    "transcript": "What do you do in your free time? I go cycling.",
     "content": {
-      "title": "Deseos",
-      "instructions": "Completa la pregunta con 'What'.",
+      "title": "Ciclismo",
+      "instructions": "Responde la pregunta.",
       "questions": [
         {
-          "question": "[[What|Qué]] _______ [[she|ella]] [[want|querer]]?",
-          "options": ["[[does|¿?]]", "[[do|¿?]]", "[[is|¿?]]"],
+          "question": "[[What|Qué]] [[do|aux]] [[you|tú]] [[do|haces]] [[in|en]] [[your|tu]] [[free|libre]] [[time|tiempo]]?",
+          "options": ["[[I go cycling|Voy en bici]]", "[[I am tired|Estoy cansado]]", "[[It is Monday|Es lunes]]"],
           "correctAnswer": 0,
-          "explanation": "Estructura de pregunta objeto en 3ª persona."
+          "explanation": "Go cycling es una actividad de tiempo libre."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-15/e30.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u15-e31",
-    "type": "flashcard",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Skills & Abilities",
-    "difficulty": "medium",
-    "transcript": "Sings beautifully. Dances well. Cooks delicious food. Plays the violin. Paints landscapes.",
+    "topic": "Like + -ing",
+    "difficulty": "easy",
+    "transcript": "I like drawing animals.",
     "content": {
-      "title": "Habilidades (3ª Persona)",
-      "instructions": "Aprende a describir habilidades de otros.",
-      "items": [
-        { "front": "[[Sings beautifully|Canta maravillosamente]]", "back": "Canta maravillosamente" },
-        { "front": "[[Dances well|Baila bien]]", "back": "Baila bien" },
-        { "front": "[[Cooks delicious food|Cocina comida deliciosa]]", "back": "Cocina comida deliciosa" },
-        { "front": "[[Plays the violin|Toca el violín]]", "back": "Toca el violín" },
-        { "front": "[[Paints landscapes|Pinta paisajes]]", "back": "Pinta paisajes" }
-      ]
+      "title": "Dibujar Animales",
+      "instructions": "Ordena la frase.",
+      "correctSentence": "[[I|Yo]] [[like|gusta]] [[drawing|dibujar]] [[animals|animales]].",
+      "words": ["[[animals|animales]].", "[[drawing|dibujar]]", "[[like|gusta]]", "[[I|Yo]]"],
+      "explanation": "Like + drawing."
     },
     "audioUrl": "audio/a1/unit-15/e31.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u15-e32",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
+    "topic": "Sports",
     "difficulty": "easy",
-    "transcript": "My friend plays the guitar.",
+    "transcript": "They play volleyball on the beach.",
     "content": {
-      "title": "Música",
-      "instructions": "Elige la forma del verbo.",
+      "title": "Voleibol Playa",
+      "instructions": "Elige el deporte.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[friend|amigo]] _______ [[the|la]] [[guitar|guitarra]].",
-          "options": ["[[plays|toca]]", "[[play|tocar]]", "[[playes|toca]]"],
+          "question": "[[They|Ellos]] [[play|juegan]] (_____) [[on|en]] [[the|la]] [[beach|playa]].",
+          "options": ["[[volleyball|voleibol]]", "[[swimming|natación]]", "[[chess|ajedrez]]"],
           "correctAnswer": 0,
-          "explanation": "Verbos terminados en vocal + y solo añaden 's'."
+          "explanation": "El voleibol es común en la playa."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-15/e32.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u15-e33",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
+    "topic": "Love + -ing",
     "difficulty": "medium",
-    "transcript": "She doesn't drive to work.",
+    "transcript": "We love gardening in the spring.",
     "content": {
-      "title": "Transporte",
-      "instructions": "Ordena la oración negativa.",
-      "correctSentence": "[[She|Ella]] [[doesn't|no]] [[drive|conduce]] [[to|al]] [[work|trabajo]].",
-      "words": ["[[drive|conduce]]", "[[work|trabajo]].", "[[doesn't|no]]", "[[to|al]]", "[[She|Ella]]"],
-      "explanation": "Negación con he/she/it."
+      "title": "Jardinería en Primavera",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[We|Nosotros]] [[love|amamos]] [[gardening|la jardinería]] [[in|en]] [[the|la]] [[spring|primavera]].",
+      "words": ["[[spring|primavera]].", "[[the|la]]", "[[in|en]]", "[[gardening|la jardinería]]", "[[love|amamos]]", "[[We|Nosotros]]"],
+      "explanation": "Actividad estacional."
     },
     "audioUrl": "audio/a1/unit-15/e33.mp3",
     "topicName": "Grammar"
@@ -697,18 +666,18 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "id": "a1-u15-e34",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
+    "topic": "Like + -ing",
     "difficulty": "medium",
-    "transcript": "Does he speak Spanish?",
+    "transcript": "Do they like running in the rain? No, they don't.",
     "content": {
-      "title": "Idiomas",
-      "instructions": "Completa la pregunta.",
+      "title": "Correr en la Lluvia",
+      "instructions": "Responde la pregunta negativa.",
       "questions": [
         {
-          "question": "_______ [[he|él]] [[speak|hablar]] [[Spanish|español]]?",
-          "options": ["[[Does|¿?]]", "[[Do|¿?]]", "[[Is|¿?]]"],
+          "question": "[[Do|Aux]] [[they|ellos]] [[like|gustar]] [[running|correr]] [[in|en]] [[the|la]] [[rain|lluvia]]?",
+          "options": ["[[No, they don't|No, no les gusta]]", "[[No, they doesn't|No (incorrecto)]]", "[[No, they no like|No (incorrecto)]]"],
           "correctAnswer": 0,
-          "explanation": "Pregunta de sí/no en Present Simple."
+          "explanation": "Respuesta corta negativa para 'they'."
         }
       ]
     },
@@ -717,61 +686,56 @@ export const UNIT_15_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u15-e35",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Occupations",
-    "difficulty": "easy",
-    "transcript": "An engineer builds bridges.",
-    "content": {
-      "title": "El Ingeniero",
-      "instructions": "Elige la profesión.",
-      "questions": [
-        {
-          "question": "[[An|Un]] _______ [[builds|construye]] [[bridges|puentes]].",
-          "options": ["[[engineer|ingeniero]]", "[[pilot|piloto]]", "[[artist|artista]]"],
-          "correctAnswer": 0,
-          "explanation": "El ingeniero es quien diseña y construye puentes."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-15/e35.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u15-e36",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
+    "topic": "Instruments",
     "difficulty": "medium",
-    "transcript": "My cat sleeps all day.",
+    "transcript": "My father plays the flute very well.",
     "content": {
-      "title": "El gato",
+      "title": "La Flauta",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[My|Mi]] [[cat|gato]] [[sleeps|duerme]] [[all|todo]] [[day|día]].",
-      "words": ["[[sleeps|duerme]]", "[[day|día]].", "[[cat|gato]]", "[[all|todo]]", "[[My|Mi]]"],
-      "explanation": "'My cat' es 'it', usamos la 3ª persona del verbo."
+      "correctSentence": "[[My|Mi]] [[father|padre]] [[plays|toca]] [[the|la]] [[flute|flauta]] [[very|muy]] [[well|bien]].",
+      "words": ["[[well|bien]].", "[[very|muy]]", "[[flute|flauta]]", "[[the|la]]", "[[plays|toca]]", "[[father|padre]]", "[[My|Mi]]"],
+      "explanation": "Play + instrument con tercera persona."
     },
-    "audioUrl": "audio/a1/unit-15/e36.mp3",
+    "audioUrl": "audio/a1/unit-15/e35.mp3",
     "topicName": "Grammar"
   },
   {
-    "id": "a1-u15-e37",
+    "id": "a1-u15-e36",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
-    "difficulty": "medium",
-    "transcript": "Where does she live?",
+    "topic": "Photography",
+    "difficulty": "easy",
+    "transcript": "I like taking photos of flowers.",
     "content": {
-      "title": "Residencia",
-      "instructions": "Completa la pregunta.",
+      "title": "Fotos de Flores",
+      "instructions": "Completa con el verbo.",
       "questions": [
         {
-          "question": "[[Where|Dónde]] _______ [[she|ella]] [[live|vivir]]?",
-          "options": ["[[does|¿?]]", "[[do|¿?]]", "[[is|¿?]]"],
+          "question": "[[I|Yo]] [[like|gusta]] (_____) [[photos|fotos]] [[of|de]] [[flowers|flores]].",
+          "options": ["[[taking|tomar]]", "[[doing|hacer]]", "[[making|hacer]]"],
           "correctAnswer": 0,
-          "explanation": "Pregunta de información con 'Where'."
+          "explanation": "Usamos 'take photos' para sacar fotografías."
         }
       ]
+    },
+    "audioUrl": "audio/a1/unit-15/e36.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u15-e37",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Hate + -ing",
+    "difficulty": "medium",
+    "transcript": "She hates waiting for the bus.",
+    "content": {
+      "title": "Esperar el Bus",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[She|Ella]] [[hates|odia]] [[waiting|esperar]] [[for|por]] [[the|el]] [[bus|autobús]].",
+      "words": ["[[bus|autobús]].", "[[the|el]]", "[[for|por]]", "[[waiting|esperar]]", "[[hates|odia]]", "[[She|Ella]]"],
+      "explanation": "Hate + gerundio + preposition."
     },
     "audioUrl": "audio/a1/unit-15/e37.mp3",
     "topicName": "Grammar"
@@ -780,18 +744,18 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "id": "a1-u15-e38",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Occupations",
+    "topic": "Hobbies",
     "difficulty": "easy",
-    "transcript": "A nurse works in a hospital.",
+    "transcript": "I like cooking. It is fun.",
     "content": {
-      "title": "La Enfermera",
-      "instructions": "Elige el lugar de trabajo.",
+      "title": "Es divertido",
+      "instructions": "Elige el adjetivo.",
       "questions": [
         {
-          "question": "[[A|Una]] [[nurse|enfermera]] [[works|trabaja]] [[in|en]] [[a|un]] _______.",
-          "options": ["[[hospital|hospital]]", "[[school|escuela]]", "[[restaurant|restaurante]]"],
+          "question": "[[I|Yo]] [[like|gustar]] [[cooking|cocinar]]. [[It|Ello]] [[is|es]] (_____) .",
+          "options": ["[[fun|divertido]]", "[[funny|gracioso]]", "[[fan|ventilador/fan]]"],
           "correctAnswer": 0,
-          "explanation": "Las enfermeras trabajan en hospitales."
+          "explanation": "Fun significa divertido; funny significa que hace reír."
         }
       ]
     },
@@ -802,15 +766,15 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "id": "a1-u15-e39",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
+    "topic": "Like + -ing",
     "difficulty": "medium",
-    "transcript": "He doesn't want to study tonight.",
+    "transcript": "Does your brother like playing video games?",
     "content": {
-      "title": "Sin ganas",
-      "instructions": "Ordena la oración negativa.",
-      "correctSentence": "[[He|Él]] [[doesn't|no]] [[want|quiere]] [[to|a]] [[study|estudiar]] [[tonight|esta noche]].",
-      "words": ["[[study|estudiar]]", "[[tonight|esta noche]].", "[[doesn't|no]]", "[[He|Él]]", "[[want|quiere]]", "[[to|a]]"],
-      "explanation": "Negación compleja con infinitivo posterior."
+      "title": "Videojuegos",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[Does|Aux]] [[your|tu]] [[brother|hermano]] [[like|gustar]] [[playing|jugar]] [[video games|videojuegos]]?",
+      "words": ["[[video games|videojuegos]]?", "[[playing|jugar]]", "[[like|gustar]]", "[[brother|hermano]]", "[[your|tu]]", "[[Does|Aux]]"],
+      "explanation": "Pregunta de tercera persona singular."
     },
     "audioUrl": "audio/a1/unit-15/e39.mp3",
     "topicName": "Grammar"
@@ -819,40 +783,41 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "id": "a1-u15-e40",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Occupations",
-    "difficulty": "easy",
-    "transcript": "A musician plays an instrument.",
+    "topic": "Like + -ing",
+    "difficulty": "medium",
+    "transcript": "Do you like singing in the shower?",
     "content": {
-      "title": "El Músico",
-      "instructions": "Elige la profesión.",
+      "title": "Cantar en la Ducha",
+      "instructions": "Completa la pregunta.",
       "questions": [
         {
-          "question": "[[A|Un]] _______ [[plays|toca]] [[an|un]] [[instrument|instrumento]].",
-          "options": ["[[musician|músico]]", "[[salesperson|vendedor]]", "[[dentist|dentista]]"],
+          "question": "[[Do|Aux]] [[you|tú]] [[like|gustar]] (_____) [[in|en]] [[the|la]] [[shower|ducha]]?",
+          "options": ["[[singing|cantar]]", "[[sing|cantar]]", "[[sings|canta]]"],
           "correctAnswer": 0,
-          "explanation": "El músico toca instrumentos musicales."
+          "explanation": "Uso de gerundio después de like."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-15/e40.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u15-e41",
-    "type": "flashcard",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Feelings",
+    "topic": "Hobbies",
     "difficulty": "easy",
-    "transcript": "Feels happy. Seems tired. Looks sad. Smells good. Sounds interesting.",
+    "transcript": "Drawing. Painting. Gardening.",
     "content": {
-      "title": "Sentidos y Estados (3ª Persona)",
-      "instructions": "Verbos de estado en 3ª persona.",
-      "items": [
-        { "front": "[[Feels happy|Se siente feliz]]", "back": "Se siente feliz" },
-        { "front": "[[Seems tired|Parece cansado]]", "back": "Parece cansado" },
-        { "front": "[[Looks sad|Se ve triste]]", "back": "Se ve triste" },
-        { "front": "[[Smells good|Huele bien]]", "back": "Huele bien" },
-        { "front": "[[Sounds interesting|Suena interesante]]", "back": "Suena interesante" }
+      "title": "Actividad Artística",
+      "instructions": "¿Cuál de estos usa pinceles?",
+      "questions": [
+        {
+          "question": "[[Which|Cuál]] [[uses|usa]] [[brushes|pinceles]]?",
+          "options": ["[[Painting|Pintar]]", "[[Reading|Leer]]", "[[Swimming|Nadar]]"],
+          "correctAnswer": 0,
+          "explanation": "Pintar (painting) requiere pinceles."
+        }
       ]
     },
     "audioUrl": "audio/a1/unit-15/e41.mp3",
@@ -860,61 +825,56 @@ export const UNIT_15_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u15-e42",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
+    "topic": "Like + -ing",
     "difficulty": "medium",
-    "transcript": "The cake smells delicious.",
+    "transcript": "My friends like playing basketball on Saturdays.",
     "content": {
-      "title": "El Pastel",
-      "instructions": "Elige la forma del verbo.",
-      "questions": [
-        {
-          "question": "[[The|El]] [[cake|pastel]] _______ [[delicious|delicioso]].",
-          "options": ["[[smells|huele]]", "[[smell|oler]]", "[[smellies|huele]]"],
-          "correctAnswer": 0,
-          "explanation": "The cake es 'it', por lo que añadimos 's'."
-        }
-      ]
+      "title": "Amigos y Baloncesto",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[My|Mis]] [[friends|amigos]] [[like|les gusta]] [[playing|jugar]] [[basketball|baloncesto]] [[on|los]] [[Saturdays|sábados]].",
+      "words": ["[[Saturdays|sábados]].", "[[on|los]]", "[[basketball|baloncesto]]", "[[playing|jugar]]", "[[like|les gusta]]", "[[friends|amigos]]", "[[My|Mis]]"],
+      "explanation": "Sujeto plural, like sin 's'."
     },
     "audioUrl": "audio/a1/unit-15/e42.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u15-e43",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
+    "topic": "Like + -ing",
     "difficulty": "medium",
-    "transcript": "She looks beautiful today.",
+    "transcript": "Does she like drawing? Yes, she loves it.",
     "content": {
-      "title": "Apariencia",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[She|Ella]] [[looks|se ve]] [[beautiful|hermosa]] [[today|hoy]].",
-      "words": ["[[beautiful|hermosa]]", "[[today|hoy]].", "[[looks|se ve]]", "[[She|Ella]]"],
-      "explanation": "Añadimos 's' al verbo look."
+      "title": "Dibujo",
+      "instructions": "Elige la respuesta de intensidad.",
+      "questions": [
+        {
+          "question": "[[Does|Aux]] [[she|ella]] [[like|gustar]] [[drawing|dibujar]]?",
+          "options": ["[[Yes, she loves it|Sí, le encanta]]", "[[Yes, she is|Sí (incorrecto)]]", "[[No, she do|No (incorrecto)]]"],
+          "correctAnswer": 0,
+          "explanation": "Loves it expresa un grado mayor de gusto."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-15/e43.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u15-e44",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
+    "topic": "Love + -ing",
     "difficulty": "medium",
-    "transcript": "Does it sound okay?",
+    "transcript": "I love traveling to new countries.",
     "content": {
-      "title": "¿Suena bien?",
-      "instructions": "Completa la pregunta con 'Does'.",
-      "questions": [
-        {
-          "question": "_______ [[it|eso]] [[sound|sonar]] [[okay|bien]]?",
-          "options": ["[[Does|¿?]]", "[[Do|¿?]]", "[[Is|¿?]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'Does' para 'it' en preguntas."
-        }
-      ]
+      "title": "Nuevos Países",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[I|Yo]] [[love|amo]] [[traveling|viajar]] [[to|a]] [[new|nuevos]] [[countries|países]].",
+      "words": ["[[countries|países]].", "[[new|nuevos]]", "[[to|a]]", "[[traveling|viajar]]", "[[love|amo]]", "[[I|Yo]]"],
+      "explanation": "Estructura love + gerundio."
     },
     "audioUrl": "audio/a1/unit-15/e44.mp3",
     "topicName": "Grammar"
@@ -923,37 +883,37 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "id": "a1-u15-e45",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Occupations",
-    "difficulty": "easy",
-    "transcript": "A chef cooks in a kitchen.",
+    "topic": "Instruments",
+    "difficulty": "medium",
+    "transcript": "Do you play any instruments? I play the violin.",
     "content": {
-      "title": "El Cocinero",
-      "instructions": "Elige el lugar de trabajo.",
+      "title": "Cualquier Instrumento",
+      "instructions": "Completa con la palabra correcta.",
       "questions": [
         {
-          "question": "[[A|Un]] [[chef|chef]] [[cooks|cocina]] [[in|en]] [[a|una]] _______.",
-          "options": ["[[kitchen|cocina]]", "[[office|oficina]]", "[[garden|jardín]]"],
+          "question": "[[Do|Aux]] [[you|tú]] [[play|tocas]] (_____) [[instruments|instrumentos]]?",
+          "options": ["[[any|algún/cualquier]]", "[[some|algunos]]", "[[one|un]]"],
           "correctAnswer": 0,
-          "explanation": "Los chefs cocinan en cocinas profesionales."
+          "explanation": "Usamos 'any' en preguntas."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-15/e45.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u15-e46",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
+    "topic": "Like + -ing",
     "difficulty": "medium",
-    "transcript": "My brother doesn't play tennis.",
+    "transcript": "We don't like watching movies on our phones.",
     "content": {
-      "title": "Deportes",
-      "instructions": "Ordena la oración negativa.",
-      "correctSentence": "[[My|Mi]] [[brother|hermano]] [[doesn't|no]] [[play|juega]] [[tennis|tenis]].",
-      "words": ["[[play|juega]]", "[[tennis|tenis]].", "[[doesn't|no]]", "[[brother|hermano]]", "[[My|Mi]]"],
-      "explanation": "Negación en 3ª persona."
+      "title": "Películas en el Móvil",
+      "instructions": "Ordena la negación.",
+      "correctSentence": "[[We|Nosotros]] [[don't|no]] [[like|nos gusta]] [[watching|ver]] [[movies|películas]] [[on|en]] [[our|nuestros]] [[phones|teléfonos]].",
+      "words": ["[[phones|teléfonos]].", "[[our|nuestros]]", "[[on|en]]", "[[movies|películas]]", "[[watching|ver]]", "[[like|nos gusta]]", "[[don't|no]]", "[[We|Nosotros]]"],
+      "explanation": "Expresando una preferencia negativa sobre el dispositivo."
     },
     "audioUrl": "audio/a1/unit-15/e46.mp3",
     "topicName": "Grammar"
@@ -962,18 +922,18 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "id": "a1-u15-e47",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
-    "difficulty": "medium",
-    "transcript": "What time does he start?",
+    "topic": "Hate + -ing",
+    "difficulty": "easy",
+    "transcript": "He hates running in the morning.",
     "content": {
-      "title": "Horario",
-      "instructions": "Completa la pregunta con el auxiliar.",
+      "title": "Correr Temprano",
+      "instructions": "Elige el verbo correcto.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[time|hora]] _______ [[he|él]] [[start|empezar]]?",
-          "options": ["[[does|¿?]]", "[[do|¿?]]", "[[is|¿?]]"],
+          "question": "[[He|Él]] [[hates|odia]] (_____) [[in|en]] [[the|la]] [[morning|mañana]].",
+          "options": ["[[running|correr]]", "[[run|corre]]", "[[runs|corre]]"],
           "correctAnswer": 0,
-          "explanation": "Pregunta de horario en Present Simple."
+          "explanation": "Hates + running."
         }
       ]
     },
@@ -982,61 +942,56 @@ export const UNIT_15_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u15-e48",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Occupations",
-    "difficulty": "easy",
-    "transcript": "A pilot travels a lot.",
-    "content": {
-      "title": "El Piloto",
-      "instructions": "Elige el verbo adecuado.",
-      "questions": [
-        {
-          "question": "[[A|Un]] [[pilot|piloto]] _______ [[a|un]] [[lot|mucho]].",
-          "options": ["[[travels|viaja]]", "[[studies|estudia]]", "[[sells|vende]]"],
-          "correctAnswer": 0,
-          "explanation": "Los pilotos viajan frecuentemente por su trabajo."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-15/e48.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u15-e49",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
+    "topic": "Like + -ing",
     "difficulty": "medium",
-    "transcript": "She studies hard for the exam.",
+    "transcript": "What sports do you like playing?",
     "content": {
-      "title": "El Examen",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[She|Ella]] [[studies|estudia]] [[hard|mucho]] [[for|para]] [[the|el]] [[exam|examen]].",
-      "words": ["[[hard|mucho]]", "[[exam|examen]].", "[[studies|estudia]]", "[[She|Ella]]", "[[for|para]]", "[[the|el]]"],
-      "explanation": "Study se convierte en studies."
+      "title": "Qué Deportes",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[What|Qué]] [[sports|deportes]] [[do|aux]] [[you|tú]] [[like|gustar]] [[playing|jugar]]?",
+      "words": ["[[playing|jugar]]?", "[[like|gustar]]", "[[you|tú]]", "[[do|aux]]", "[[sports|deportes]]", "[[What|Qué]]"],
+      "explanation": "Preguntando por deportes específicos."
     },
-    "audioUrl": "audio/a1/unit-15/e49.mp3",
+    "audioUrl": "audio/a1/unit-15/e48.mp3",
     "topicName": "Grammar"
   },
   {
-    "id": "a1-u15-e50",
+    "id": "a1-u15-e49",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
+    "topic": "Hobbies",
     "difficulty": "medium",
-    "transcript": "Does your cat like milk?",
+    "transcript": "Is gardening difficult? No, it is relaxing.",
     "content": {
-      "title": "¿Le gusta la leche?",
-      "instructions": "Completa la pregunta.",
+      "title": "Jardinería Relajante",
+      "instructions": "Completa con el adjetivo.",
       "questions": [
         {
-          "question": "_______ [[your|tu]] [[cat|gato]] [[like|gustar]] [[milk|leche]]?",
-          "options": ["[[Does|¿?]]", "[[Do|¿?]]", "[[Is|¿?]]"],
+          "question": "[[Is|Es]] [[gardening|jardinería]] [[difficult|difícil]]? [[No|No]], [[it|ello]] [[is|es]] (_____) .",
+          "options": ["[[relaxing|relajante]]", "[[relaxed|relajado]]", "[[boring|aburrido]]"],
           "correctAnswer": 0,
-          "explanation": "Pregunta sobre un animal (it)."
+          "explanation": "Relaxing describe la actividad."
         }
       ]
+    },
+    "audioUrl": "audio/a1/unit-15/e49.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u15-e50",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Like + -ing",
+    "difficulty": "medium",
+    "transcript": "I like listening to classical music while I study.",
+    "content": {
+      "title": "Música para Estudiar",
+      "instructions": "Ordena la oración larga.",
+      "correctSentence": "[[I|Yo]] [[like|gusta]] [[listening|escuchar]] [[to|a]] [[classical|clásica]] [[music|música]] [[while|mientras]] [[I|yo]] [[study|estudio]].",
+      "words": ["[[study|estudio]].", "[[I|yo]]", "[[while|mientras]]", "[[music|música]]", "[[to|a]]", "[[classical|clásica]]", "[[listening|escuchar]]", "[[like|gusta]]", "[[I|Yo]]"],
+      "explanation": "Combinando un gusto con otra acción."
     },
     "audioUrl": "audio/a1/unit-15/e50.mp3",
     "topicName": "Grammar"
@@ -1047,16 +1002,22 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "David is a chef. He works in a famous Italian restaurant. He wakes up at 10 AM. He starts work at 2 PM. He cooks pasta and pizza. He finishes at 11 PM. He loves his job.",
+    "transcript": "My family's hobbies. We all like doing different things. I love reading books about history. My wife likes gardening in our backyard. She has beautiful flowers. Our son, Peter, likes playing video games with his friends. On Sundays, we all like walking in the park together.",
     "content": {
-      "title": "Lectura: El Trabajo de David",
-      "instructions": "Lee el texto y responde.",
+      "title": "Hobbies de mi Familia",
+      "instructions": "Lee y responde sobre los hobbies.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[is|es]] [[David's|de David]] [[job|trabajo]]? *\"David is a chef. He works in a famous Italian restaurant.\"*",
-          "options": ["[[Chef|Chef]]", "[[Waiter|Camarero]]", "[[Pilot|Piloto]]"],
+          "question": "[[What|Qué]] [[does|hace]] [[the|la]] [[wife|esposa]] [[like|gustar]] [[doing|hacer]]?",
+          "options": ["[[Gardening|Jardinería]]", "[[Reading|Leer]]", "[[Playing video games|Jugar videojuegos]]"],
           "correctAnswer": 0,
-          "explanation": "David es un chef."
+          "explanation": "El texto dice: 'My wife likes gardening in our backyard'."
+        },
+        {
+          "question": "[[What|Qué]] [[does|hace]] [[Peter|Peter]] [[like|gustar]] [[doing|hacer]]?",
+          "options": ["[[Playing video games|Jugar videojuegos]]", "[[Walking in the park|Caminar en el parque]]", "[[Reading history|Leer historia]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'Our son, Peter, likes playing video games'."
         }
       ]
     },
@@ -1069,16 +1030,22 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "David is a chef. He works in a famous Italian restaurant. He wakes up at 10 AM. He starts work at 2 PM. He cooks pasta and pizza. He finishes at 11 PM. He loves his job.",
+    "transcript": "Sarah and her music. Sarah is very musical. She loves playing the piano and the violin. She practices for two hours every day. She doesn't like singing because she is shy. Her dream is to play in a big orchestra one day.",
     "content": {
-      "title": "Lectura: El Horario de David",
-      "instructions": "Lee el texto y responde.",
+      "title": "Sarah y su Música",
+      "instructions": "Lee sobre Sarah.",
       "questions": [
         {
-          "question": "[[What|A qué]] [[time|hora]] [[does|¿?]] [[he|él]] [[start|empezar]] [[work|trabajo]]? *\"He starts work at 2 PM.\"*",
-          "options": ["[[2 PM|2 PM]]", "[[10 AM|10 AM]]", "[[11 PM|11 PM]]"],
+          "question": "[[Which|Qué]] [[instruments|instrumentos]] [[does|hace]] [[she|ella]] [[play|tocar]]?",
+          "options": ["[[Piano and violin|Piano y violín]]", "[[Guitar and drums|Guitarra y batería]]", "[[Flute|Flauta]]"],
           "correctAnswer": 0,
-          "explanation": "David empieza a las 2 de la tarde."
+          "explanation": "El texto dice: 'She loves playing the piano and the violin'."
+        },
+        {
+          "question": "[[Does|Hace]] [[Sarah|Sarah]] [[like|gustar]] [[singing|cantar]]?",
+          "options": ["[[No, she doesn't|No, no le gusta]]", "[[Yes, she loves it|Sí, le encanta]]", "[[Only with friends|Solo con amigos]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'She doesn't like singing because she is shy'."
         }
       ]
     },
@@ -1091,16 +1058,22 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "David is a chef. He works in a famous Italian restaurant. He wakes up at 10 AM. He starts work at 2 PM. He cooks pasta and pizza. He finishes at 11 PM. He loves his job.",
+    "transcript": "Tom's sports. Tom is a very active person. He likes running every morning before work. On Saturdays, he plays football with his local team. He doesn't like basketball because he is not very tall. In summer, he loves swimming in the sea.",
     "content": {
-      "title": "Lectura: David",
-      "instructions": "Lee el texto y responde.",
+      "title": "Los Deportes de Tom",
+      "instructions": "Lee sobre Tom.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[does|¿?]] [[he|él]] [[cook|cocinar]]? *\"He cooks pasta and pizza.\"*",
-          "options": ["[[Pasta and pizza|Pasta y pizza]]", "[[Burgers|Hamburguesas]]", "[[Salads|Ensaladas]]"],
+          "question": "[[When|Cuándo]] [[does|hace]] [[Tom|Tom]] [[go|ir]] [[running|correr]]?",
+          "options": ["[[Every morning|Cada mañana]]", "[[On Saturdays|Los sábados]]", "[[In the evening|Por la tarde]]"],
           "correctAnswer": 0,
-          "explanation": "Cocina platos italianos como pasta y pizza."
+          "explanation": "El texto dice: 'He likes running every morning before work'."
+        },
+        {
+          "question": "[[Why|Por qué]] [[doesn't|no]] [[he|él]] [[like|gustar]] [[basketball|baloncesto]]?",
+          "options": ["[[Because he is not tall|Porque no es alto]]", "[[Because it is boring|Porque es aburrido]]", "[[Because he doesn't have a ball|Porque no tiene pelota]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'He doesn't like basketball because he is not very tall'."
         }
       ]
     },
@@ -1113,16 +1086,22 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Maria is an engineer. She lives in New York. She works for a big company. She drives to work every morning. She has a daughter. Her name is Sarah. Maria studies German in the evening. She is very busy.",
+    "transcript": "Maria's creative hobbies. Maria is an artist. In her free time, she loves painting and drawing. She likes painting landscapes and drawing animals. She doesn't like watching TV because she thinks it is a waste of time. She always listens to the radio while she works.",
     "content": {
-      "title": "Lectura: La vida de Maria",
-      "instructions": "Lee el texto y responde.",
+      "title": "Creatividad de Maria",
+      "instructions": "Lee sobre Maria.",
       "questions": [
         {
-          "question": "[[Where|Dónde]] [[does|¿?]] [[Maria|Maria]] [[live|vivir]]? *\"Maria is an engineer. She lives in New York.\"*",
-          "options": ["[[New York|Nueva York]]", "[[London|Londres]]", "[[Madrid|Madrid]]"],
+          "question": "[[What|Qué]] [[does|hace]] [[Maria|Maria]] [[like|gustar]] [[painting|pintar]]?",
+          "options": ["[[Landscapes|Paisajes]]", "[[People|Personas]]", "[[Cities|Ciudades]]"],
           "correctAnswer": 0,
-          "explanation": "Maria vive en Nueva York."
+          "explanation": "El texto dice: 'She likes painting landscapes'."
+        },
+        {
+          "question": "[[Does|Hace]] [[she|ella]] [[like|gustar]] [[watching|ver]] [[TV|tele]]?",
+          "options": ["[[No, she doesn't|No, no le gusta]]", "[[Yes, every night|Sí, cada noche]]", "[[Only movies|Solo películas]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'She doesn't like watching TV'."
         }
       ]
     },
@@ -1135,16 +1114,22 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Maria is an engineer. She lives in New York. She works for a big company. She drives to work every morning. She has a daughter. Her name is Sarah. Maria studies German in the evening. She is very busy.",
+    "transcript": "My favorite weekend activity. I love traveling. Every month, I visit a different city. I like taking photos of old buildings and eating local food. I hate packing my suitcase, but I love being in new places. My next trip is to Rome.",
     "content": {
-      "title": "Lectura: Maria",
-      "instructions": "Lee el texto y responde.",
+      "title": "Actividad Favorita",
+      "instructions": "Lee sobre el viajero.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[does|¿?]] [[she|ella]] [[study|estudiar]]? *\"Maria studies German in the evening.\"*",
-          "options": ["[[German|Alemán]]", "[[English|Inglés]]", "[[French|Francés]]"],
+          "question": "[[How|Qué]] [[often|tan a menudo]] [[does|hace]] [[the|la]] [[person|persona]] [[travel|viajar]]?",
+          "options": ["[[Every month|Cada mes]]", "[[Every week|Cada semana]]", "[[Once a year|Una vez al año]]"],
           "correctAnswer": 0,
-          "explanation": "Ella estudia alemán por las tardes."
+          "explanation": "El texto dice: 'Every month, I visit a different city'."
+        },
+        {
+          "question": "[[What|Qué]] [[does|hace]] [[he/she|él/ella]] [[hate|odiar]] [[doing|hacer]]?",
+          "options": ["[[Packing the suitcase|Hacer la maleta]]", "[[Taking photos|Tomar fotos]]", "[[Eating local food|Comer comida local]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'I hate packing my suitcase'."
         }
       ]
     },
@@ -1157,16 +1142,22 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Maria is an engineer. She lives in New York. She works for a big company. She drives to work every morning. She has a daughter. Her name is Sarah. Maria studies German in the evening. She is very busy.",
+    "transcript": "Anna's cooking class. Anna likes cooking very much. Every Tuesday, she goes to a cooking class. She learns to make different types of pasta and bread. She loves making dinner for her friends on the weekend. They all think her food is delicious.",
     "content": {
-      "title": "Lectura: Familia de Maria",
-      "instructions": "Lee el texto y responde.",
+      "title": "Clase de Cocina",
+      "instructions": "Lee sobre Anna.",
       "questions": [
         {
-          "question": "[[What|Cómo]] [[is|es]] [[her|su]] [[daughter's|de su hija]] [[name|nombre]]? *\"She has a daughter. Her name is Sarah.\"*",
-          "options": ["[[Sarah|Sarah]]", "[[Maria|Maria]]", "[[Elena|Elena]]"],
+          "question": "[[When|Cuándo]] [[does|hace]] [[Anna|Anna]] [[go|ir]] [[to|a]] [[her|su]] [[class|clase]]?",
+          "options": ["[[On Tuesday|El martes]]", "[[On Wednesday|El miércoles]]", "[[Every day|Cada día]]"],
           "correctAnswer": 0,
-          "explanation": "Su hija se llama Sarah."
+          "explanation": "El texto dice: 'Every Tuesday, she goes to a cooking class'."
+        },
+        {
+          "question": "[[What|Qué]] [[does|hace]] [[she|ella]] [[learn|aprender]] [[to|a]] [[make|hacer]]?",
+          "options": ["[[Pasta and bread|Pasta y pan]]", "[[Pizza and cake|Pizza y pastel]]", "[[Salads|Ensaladas]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'She learns to make different types of pasta and bread'."
         }
       ]
     },
@@ -1177,78 +1168,112 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "id": "a1-u15-e57",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
-    "difficulty": "hard",
-    "transcript": "My sister usually goes to the cinema on Saturdays.",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "transcript": "My grandfather's hobby. My grandfather is seventy years old but he is very active. His favorite hobby is gardening. He spends three hours in his garden every morning. He likes growing vegetables like tomatoes and carrots. He loves being outside in the sun.",
     "content": {
-      "title": "Frecuencia y Rutina",
-      "instructions": "Elige la posición correcta del adverbio.",
+      "title": "Hobby del Abuelo",
+      "instructions": "Lee sobre el abuelo.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[sister|hermana]] _______ [[to|al]] [[the|el]] [[cinema|cine]] [[on|los]] [[Saturdays|sábados]].",
-          "options": ["[[usually goes|normalmente va]]", "[[goes usually|va normalmente]]", "[[usually go|normalmente ir]]"],
+          "question": "[[What|Qué]] [[does|hace]] [[the|el]] [[grandfather|abuelo]] [[grow|cultivar]]?",
+          "options": ["[[Vegetables|Verduras]]", "[[Flowers|Flores]]", "[[Fruit|Fruta]]"],
           "correctAnswer": 0,
-          "explanation": "El adverbio va antes del verbo principal, y el verbo debe estar en 3ª persona."
+          "explanation": "El texto dice: 'He likes growing vegetables like tomatoes and carrots'."
+        },
+        {
+          "question": "[[How|Cuánto]] [[much|mucho]] [[time|tiempo]] [[does|hace]] [[he|él]] [[spend|pasar]] [[in|en]] [[the|el]] [[garden|jardín]]?",
+          "options": ["[[Three hours|Tres horas]]", "[[One hour|Una hora]]", "[[All day|Todo el día]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'He spends three hours in his garden every morning'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-15/e57.mp3",
-    "topicName": "Grammar"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u15-e58",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
-    "difficulty": "hard",
-    "transcript": "Why does he want a new job?",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "transcript": "Video games. My brother and I love playing video games. We play together every Friday night. I like sports games like football and basketball. My brother likes action games. Our parents think we play too much, but we think it is very fun.",
     "content": {
-      "title": "Pregunta de razón",
-      "instructions": "Ordena la pregunta compleja.",
-      "correctSentence": "[[Why|Por qué]] [[does|¿?]] [[he|él]] [[want|querer]] [[a|un]] [[new|nuevo]] [[job|trabajo]]?",
-      "words": ["[[new|nuevo]]", "[[does|¿?]]", "[[job|trabajo]]?", "[[he|él]]", "[[Why|Por qué]]", "[[want|querer]]", "[[a|un]]"],
-      "explanation": "Estructura: Wh-word + Does + Suj + Verbo + Compl."
+      "title": "Videojuegos",
+      "instructions": "Lee sobre los hermanos.",
+      "questions": [
+        {
+          "question": "[[When|Cuándo]] [[do|aux]] [[they|ellos]] [[play|jugar]] [[together|juntos]]?",
+          "options": ["[[Friday night|Viernes por la noche]]", "[[Saturday morning|Sábado por la mañana]]", "[[Every day|Cada día]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'We play together every Friday night'."
+        },
+        {
+          "question": "[[What|Qué]] [[type|tipo]] [[of|de]] [[games|juegos]] [[does|hace]] [[the|el]] [[narrator|narrador]] [[like|gustar]]?",
+          "options": ["[[Sports games|Juegos de deportes]]", "[[Action games|Juegos de acción]]", "[[Chess|Ajedrez]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'I like sports games like football and basketball'."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-15/e58.mp3",
-    "topicName": "Grammar"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u15-e59",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
-    "difficulty": "hard",
-    "transcript": "It doesn't often rain in summer.",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "transcript": "Learning to play the guitar. I am taking guitar lessons. I have a class every Thursday afternoon. I like my teacher because he is very patient. I love playing old songs. Sometimes I sing while I play, but my voice is not very good. I practice every day.",
     "content": {
-      "title": "Clima",
-      "instructions": "Completa con la negación y el adverbio.",
+      "title": "Aprender Guitarra",
+      "instructions": "Lee sobre las clases de guitarra.",
       "questions": [
         {
-          "question": "[[It|Eso]] _______ [[rain|llover]] [[in|en]] [[summer|verano]].",
-          "options": ["[[doesn't often|no a menudo]]", "[[don't often|no a menudo]]", "[[doesn't never|no nunca]]"],
+          "question": "[[When|Cuándo]] [[is|es]] [[the|la]] [[class|clase]]?",
+          "options": ["[[Thursday afternoon|Jueves por la tarde]]", "[[Monday morning|Lunes por la mañana]]", "[[Friday night|Viernes por la noche]]"],
           "correctAnswer": 0,
-          "explanation": "Doesn't + adverbio + verbo base."
+          "explanation": "El texto dice: 'I have a class every Thursday afternoon'."
+        },
+        {
+          "question": "[[Does|Hace]] [[he/she|él/ella]] [[sing|cantar]] [[well|bien]]?",
+          "options": ["[[No, the voice is not very good|No, la voz no es muy buena]]", "[[Yes, very well|Sí, muy bien]]", "[[He/she doesn't sing|Él/ella no canta]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'my voice is not very good'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-15/e59.mp3",
-    "topicName": "Grammar"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u15-e60",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Present Simple 3rd Person",
-    "difficulty": "hard",
-    "transcript": "She always helps her friends with their homework.",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "transcript": "Dancing class. My friend Lisa and I go to a dancing class on Wednesday evening. We love dancing salsa. It is very energetic and fun. Our teacher is from Colombia. After the class, we go to a cafe and have a drink. We are always very happy after dancing.",
     "content": {
-      "title": "Ayuda",
-      "instructions": "Ordena la oración larga.",
-      "correctSentence": "[[She|Ella]] [[always|siempre]] [[helps|ayuda]] [[her|sus]] [[friends|amigos]] [[with|con]] [[their|sus]] [[homework|deberes]].",
-      "words": ["[[helps|ayuda]]", "[[friends|amigos]]", "[[homework|deberes]].", "[[She|Ella]]", "[[always|siempre]]", "[[their|sus]]", "[[her|sus]]", "[[with|con]]"],
-      "explanation": "Sujeto + Adverbio + Verbo(s) + Objeto + Complemento."
+      "title": "Clase de Baile",
+      "instructions": "Lee sobre Lisa y su amiga.",
+      "questions": [
+        {
+          "question": "[[What|Qué]] [[type|tipo]] [[of|de]] [[dance|baile]] [[do|aux]] [[they|ellos]] [[do|hacer]]?",
+          "options": ["[[Salsa|Salsa]]", "[[Tango|Tango]]", "[[Ballet|Ballet]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'We love dancing salsa'."
+        },
+        {
+          "question": "[[Where|De dónde]] [[is|es]] [[the|el]] [[teacher|profesor]] [[from|de]]?",
+          "options": ["[[Colombia|Colombia]]", "[[Spain|España]]", "[[Mexico|México]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'Our teacher is from Colombia'."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-15/e60.mp3",
-    "topicName": "Grammar"
+    "topicName": "Reading"
   }
 ];

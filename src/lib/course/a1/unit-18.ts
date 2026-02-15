@@ -5,23 +5,23 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "id": "a1-u18-e1",
     "type": "flashcard",
     "level": "A1",
-    "topic": "Expressing Likes",
+    "topic": "Clothing Items",
     "difficulty": "easy",
-    "transcript": "Love. Like. Enjoy. Favorite. Interest. Hobby. Fun. Great. Good. Nice.",
+    "transcript": "Shirt. T-shirt. Pants. Jeans. Dress. Skirt. Jacket. Coat. Sweater. Suit.",
     "content": {
-      "title": "Vocabulario: Gustos y Aficiones",
-      "instructions": "Aprende palabras para expresar lo que te gusta.",
+      "title": "Prendas de Vestir",
+      "instructions": "Aprende los nombres básicos de la ropa.",
       "items": [
-        { "front": "[[Love|Encantar]]", "back": "Encantar / Amar" },
-        { "front": "[[Like|Gustar]]", "back": "Gustar" },
-        { "front": "[[Enjoy|Disfrutar]]", "back": "Disfrutar" },
-        { "front": "[[Favorite|Favorito]]", "back": "Favorito" },
-        { "front": "[[Interest|Interés]]", "back": "Interés" },
-        { "front": "[[Hobby|Pasatiempo]]", "back": "Pasatiempo / Hobby" },
-        { "front": "[[Fun|Divertido]]", "back": "Diversión / Divertido" },
-        { "front": "[[Great|Genial]]", "back": "Genial / Grande" },
-        { "front": "[[Good|Bueno]]", "back": "Bueno" },
-        { "front": "[[Nice|Agradable]]", "back": "Agradable / Simpático" }
+        { "front": "[[Shirt|Camisa]]", "back": "Camisa" },
+        { "front": "[[T-shirt|Camiseta]]", "back": "Camiseta" },
+        { "front": "[[Pants|Pantalones]]", "back": "Pantalones" },
+        { "front": "[[Jeans|Vaqueros]]", "back": "Vaqueros" },
+        { "front": "[[Dress|Vestido]]", "back": "Vestido" },
+        { "front": "[[Skirt|Falda]]", "back": "Falda" },
+        { "front": "[[Jacket|Chaqueta]]", "back": "Chaqueta" },
+        { "front": "[[Coat|Abrigo]]", "back": "Abrigo" },
+        { "front": "[[Sweater|Jersey/Suéter]]", "back": "Jersey" },
+        { "front": "[[Suit|Traje]]", "back": "Traje" }
       ]
     },
     "audioUrl": "audio/a1/unit-18/e1.mp3",
@@ -31,21 +31,23 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "id": "a1-u18-e2",
     "type": "flashcard",
     "level": "A1",
-    "topic": "Expressing Dislikes",
+    "topic": "Shoes & Accessories",
     "difficulty": "easy",
-    "transcript": "Don't like. Hate. Dislike. Boring. Bad. Terrible. Horrible. Not my favorite.",
+    "transcript": "Shoes. Sneakers. Boots. Sandals. Hat. Scarf. Gloves. Belt. Glasses. Watch.",
     "content": {
-      "title": "Vocabulario: Lo que no nos gusta",
-      "instructions": "Aprende palabras para expresar desagrado.",
+      "title": "Calzado y Complementos",
+      "instructions": "Zapatos y accesorios comunes.",
       "items": [
-        { "front": "[[Don't like|No gustar]]", "back": "No me gusta" },
-        { "front": "[[Hate|Odiar]]", "back": "Odiar" },
-        { "front": "[[Dislike|No gustar]]", "back": "Desagradar / No gustar" },
-        { "front": "[[Boring|Aburrido]]", "back": "Aburrido" },
-        { "front": "[[Bad|Malo]]", "back": "Malo" },
-        { "front": "[[Terrible|Terrible]]", "back": "Terrible" },
-        { "front": "[[Horrible|Horrible]]", "back": "Horrible" },
-        { "front": "[[Not my favorite|No es mi favorito]]", "back": "No es mi favorito" }
+        { "front": "[[Shoes|Zapatos]]", "back": "Zapatos" },
+        { "front": "[[Sneakers|Zapatillas de deporte]]", "back": "Zapatillas" },
+        { "front": "[[Boots|Botas]]", "back": "Botas" },
+        { "front": "[[Sandals|Sandalias]]", "back": "Sandalias" },
+        { "front": "[[Hat|Sombrero/Gorro]]", "back": "Sombrero" },
+        { "front": "[[Scarf|Bufanda]]", "back": "Bufanda" },
+        { "front": "[[Gloves|Guantes]]", "back": "Guantes" },
+        { "front": "[[Belt|Cinturón]]", "back": "Cinturón" },
+        { "front": "[[Glasses|Gafas]]", "back": "Gafas" },
+        { "front": "[[Watch|Reloj de pulsera]]", "back": "Reloj" }
       ]
     },
     "audioUrl": "audio/a1/unit-18/e2.mp3",
@@ -53,42 +55,46 @@ export const UNIT_18_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u18-e3",
-    "type": "multiple-choice",
+    "type": "flashcard",
     "level": "A1",
-    "topic": "Like + -ing",
+    "topic": "Colors",
     "difficulty": "easy",
-    "transcript": "I like swimming in the sea.",
+    "transcript": "Red. Blue. Green. Yellow. Black. White. Grey. Brown. Pink. Orange.",
     "content": {
-      "title": "Gustos: Natación",
-      "instructions": "Completa la oración con la forma correcta del verbo.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] [[like|gustar]] _______ [[in|en]] [[the|el]] [[sea|mar]].",
-          "options": ["[[swimming|nadar]]", "[[swim|nadar]]", "[[swims|nadar]]"],
-          "correctAnswer": 0,
-          "explanation": "Después de 'like', usamos el verbo con -ing (gerundio)."
-        }
+      "title": "Colores",
+      "instructions": "Colores para describir la ropa.",
+      "items": [
+        { "front": "[[Red|Rojo]]", "back": "Rojo" },
+        { "front": "[[Blue|Azul]]", "back": "Azul" },
+        { "front": "[[Green|Verde]]", "back": "Verde" },
+        { "front": "[[Yellow|Amarillo]]", "back": "Amarillo" },
+        { "front": "[[Black|Negro]]", "back": "Negro" },
+        { "front": "[[White|Blanco]]", "back": "Blanco" },
+        { "front": "[[Grey|Gris]]", "back": "Gris" },
+        { "front": "[[Brown|Marrón]]", "back": "Marrón" },
+        { "front": "[[Pink|Rosa]]", "back": "Rosa" },
+        { "front": "[[Orange|Naranja]]", "back": "Naranja" }
       ]
     },
     "audioUrl": "audio/a1/unit-18/e3.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u18-e4",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Love + -ing",
+    "topic": "This/That",
     "difficulty": "easy",
-    "transcript": "She loves reading books.",
+    "transcript": "This shirt is very nice.",
     "content": {
-      "title": "Gustos: Lectura",
-      "instructions": "Elige la forma verbal correcta.",
+      "title": "Demostrativos Cerca",
+      "instructions": "Elige el demostrativo para algo que tienes cerca.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[loves|encantar]] _______ [[books|libros]].",
-          "options": ["[[reading|leer]]", "[[read|leer]]", "[[reads|leer]]"],
+          "question": "(_____) [[shirt|camisa]] [[is|es]] [[very|muy]] [[nice|bonita]].",
+          "options": ["[[This|Esta]]", "[[That|Esa]]", "[[These|Estas]]"],
           "correctAnswer": 0,
-          "explanation": "Después de 'love', el siguiente verbo suele ir en forma -ing."
+          "explanation": "Usamos 'This' para un objeto singular que está cerca."
         }
       ]
     },
@@ -97,17 +103,22 @@ export const UNIT_18_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u18-e5",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Hate + -ing",
+    "topic": "These/Those",
     "difficulty": "easy",
-    "transcript": "He hates waiting for the bus.",
+    "transcript": "I like those shoes over there.",
     "content": {
-      "title": "Odiar la espera",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[He|Él]] [[hates|odia]] [[waiting|esperar]] [[for|por]] [[the|el]] [[bus|autobús]].",
-      "words": ["[[He|Él]]", "[[hates|odia]]", "[[waiting|esperar]]", "[[for|por]]", "[[the|el]]", "[[bus|autobús]]."],
-      "explanation": "'Hate' también va seguido de la forma -ing."
+      "title": "Demostrativos Lejos",
+      "instructions": "Elige el demostrativo para objetos lejanos.",
+      "questions": [
+        {
+          "question": "[[I|Yo]] [[like|gustar]] (_____) [[shoes|zapatos]] [[over|por]] [[there|allí]].",
+          "options": ["[[those|esos]]", "[[these|estos]]", "[[that|ese]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'those' para objetos plurales que están lejos."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-18/e5.mp3",
     "topicName": "Grammar"
@@ -116,18 +127,18 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "id": "a1-u18-e6",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Questions about Likes",
+    "topic": "Wearing",
     "difficulty": "easy",
-    "transcript": "Do you like playing video games?",
+    "transcript": "He is wearing a blue jacket.",
     "content": {
-      "title": "Preguntar Gustos",
-      "instructions": "Completa la pregunta.",
+      "title": "Llevando Puesto",
+      "instructions": "Completa con la forma correcta del verbo 'wear'.",
       "questions": [
         {
-          "question": "_______ [[you|tú]] [[like|gustar]] [[playing|jugar]] [[video|video]] [[games|juegos]]?",
-          "options": ["[[Do|Do]]", "[[Does|Does]]", "[[Are|Are]]"],
+          "question": "[[He|Él]] [[is|está]] (_____) [[a|una]] [[blue|azul]] [[jacket|chaqueta]].",
+          "options": ["[[wearing|llevando puesto]]", "[[wear|lleva]]", "[[wears|lleva]]"],
           "correctAnswer": 0,
-          "explanation": "Usamos 'Do' para preguntas con 'you' en presente simple."
+          "explanation": "Usamos el presente continuo (is wearing) para describir la ropa que alguien lleva en este momento."
         }
       ]
     },
@@ -136,81 +147,76 @@ export const UNIT_18_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u18-e7",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Preferences",
-    "difficulty": "easy",
-    "transcript": "Which do you prefer, tea or coffee?",
+    "topic": "Adjective Order",
+    "difficulty": "medium",
+    "transcript": "I want a small red dress.",
     "content": {
-      "title": "Preferencias",
-      "instructions": "Elige la palabra de pregunta correcta.",
-      "questions": [
-        {
-          "question": "_______ [[do|do]] [[you|tú]] [[prefer|preferir]], [[tea|té]] [[or|o]] [[coffee|café]]?",
-          "options": ["[[Which|Cuál]]", "[[Who|Quién]]", "[[Where|Dónde]]"],
-          "correctAnswer": 0,
-          "explanation": "'Which' se usa cuando hay una selección limitada de opciones."
-        }
-      ]
+      "title": "Orden de Adjetivos",
+      "instructions": "Ordena la oración (tamaño + color + sustantivo).",
+      "correctSentence": "[[I|Yo]] [[want|querer]] [[a|un]] [[small|pequeño]] [[red|rojo]] [[dress|vestido]].",
+      "words": ["[[dress|vestido]].", "[[red|rojo]]", "[[small|pequeño]]", "[[a|un]]", "[[want|querer]]", "[[I|Yo]]"],
+      "explanation": "En inglés, el tamaño suele ir antes que el color."
     },
     "audioUrl": "audio/a1/unit-18/e7.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u18-e8",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Favorite things",
-    "difficulty": "easy",
-    "transcript": "My favorite color is blue.",
-    "content": {
-      "title": "Color Favorito",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[My|Mi]] [[favorite|favorito]] [[color|color]] [[is|es]] [[blue|azul]].",
-      "words": ["[[My|Mi]]", "[[favorite|favorito]]", "[[color|color]]", "[[is|es]]", "[[blue|azul]]."],
-      "explanation": "Estructura básica para hablar de cosas favoritas."
-    },
-    "audioUrl": "audio/a1/unit-18/e8.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u18-e9",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Adjectives",
-    "difficulty": "medium",
-    "transcript": "I think classical music is boring.",
+    "topic": "Shopping",
+    "difficulty": "easy",
+    "transcript": "How much is this belt? It is fifteen dollars.",
     "content": {
-      "title": "Opiniones",
-      "instructions": "Elige el adjetivo adecuado.",
+      "title": "¿Cuánto cuesta?",
+      "instructions": "Pregunta por el precio.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[think|creo]] [[classical|clásica]] [[music|música]] [[is|es]] _______.",
-          "options": ["[[boring|aburrida]]", "[[delicious|deliciosa]]", "[[hungry|hambrienta]]"],
+          "question": "(_____) [[is|es]] [[this|este]] [[belt|cinturón]]?",
+          "options": ["[[How much|Cuánto]]", "[[How many|Cuántos]]", "[[What|Qué]]"],
           "correctAnswer": 0,
-          "explanation": "'Boring' significa aburrido."
+          "explanation": "Usamos 'How much is...' para preguntar precios."
         }
       ]
     },
+    "audioUrl": "audio/a1/unit-18/e8.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u18-e9",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Present Continuous",
+    "difficulty": "medium",
+    "transcript": "What are you wearing today?",
+    "content": {
+      "title": "¿Qué llevas puesto?",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[What|Qué]] [[are|estás]] [[you|tú]] [[wearing|llevando]] [[today|hoy]]?",
+      "words": ["[[today|hoy]]?", "[[wearing|llevando]]", "[[you|tú]]", "[[are|estás]]", "[[What|Qué]]"],
+      "explanation": "Pregunta en presente continuo sobre la vestimenta actual."
+    },
     "audioUrl": "audio/a1/unit-18/e9.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u18-e10",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Adjectives",
-    "difficulty": "medium",
-    "transcript": "Traveling is very interesting.",
+    "topic": "Shopping Phrases",
+    "difficulty": "easy",
+    "transcript": "Can I try this on? Yes, the fitting room is there.",
     "content": {
-      "title": "Viajar",
-      "instructions": "Elige el adjetivo positivo.",
+      "title": "Probarse Ropa",
+      "instructions": "Elige la expresión correcta.",
       "questions": [
         {
-          "question": "[[Traveling|Viajar]] [[is|es]] [[very|muy]] _______.",
-          "options": ["[[interesting|interesante]]", "[[bad|malo]]", "[[short|corto]]"],
+          "question": "[[Can|Poder]] [[I|yo]] (_____) [[this|esto]] [[on|puesto]]?",
+          "options": ["[[try|probar]]", "[[wear|llevar]]", "[[buy|comprar]]"],
           "correctAnswer": 0,
-          "explanation": "'Interesting' significa interesante."
+          "explanation": "'Try on' es el phrasal verb para probarse una prenda."
         }
       ]
     },
@@ -221,15 +227,15 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "id": "a1-u18-e11",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Free time",
+    "topic": "Demonstratives",
     "difficulty": "medium",
-    "transcript": "What do you like doing at the weekend?",
+    "transcript": "These jeans are too tight.",
     "content": {
-      "title": "Fin de Semana",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[What|Qué]] [[do|do]] [[you|tú]] [[like|gustar]] [[doing|hacer]] [[at|en]] [[the|el]] [[weekend|fin de semana]]?",
-      "words": ["[[What|Qué]]", "[[do|do]]", "[[you|tú]]", "[[like|gustar]]", "[[doing|hacer]]", "[[at|en]]", "[[the|el]]", "[[weekend|fin de semana]]?"],
-      "explanation": "'Doing' es la forma -ing de 'do'."
+      "title": "Demasiado Ajustados",
+      "instructions": "Ordena la queja sobre la ropa.",
+      "correctSentence": "[[These|Estos]] [[jeans|vaqueros]] [[are|son]] [[too|demasiado]] [[tight|ajustados]].",
+      "words": ["[[tight|ajustados]].", "[[too|demasiado]]", "[[are|son]]", "[[jeans|vaqueros]]", "[[These|Estos]]"],
+      "explanation": "Jeans es siempre plural en inglés, requiere 'these' y 'are'."
     },
     "audioUrl": "audio/a1/unit-18/e11.mp3",
     "topicName": "Grammar"
@@ -238,106 +244,97 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "id": "a1-u18-e12",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Likes",
+    "topic": "Sizes",
     "difficulty": "easy",
-    "transcript": "We enjoy cooking for our friends.",
+    "transcript": "Small. Medium. Large. Extra-large.",
     "content": {
-      "title": "Disfrutar",
-      "instructions": "Completa con la forma -ing.",
+      "title": "Tallas",
+      "instructions": "Elige la talla grande.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[enjoy|disfrutar]] _______ [[for|para]] [[our|nuestros]] [[friends|amigos]].",
-          "options": ["[[cooking|cocinar]]", "[[cook|cocinar]]", "[[cooks|cocinar]]"],
+          "question": "[[I|Yo]] [[need|necesito]] [[a|una]] (_____) [[size|talla]].",
+          "options": ["[[large|grande]]", "[[small|pequeña]]", "[[long|larga]]"],
           "correctAnswer": 0,
-          "explanation": "'Enjoy' también requiere la forma -ing después."
+          "explanation": "Large es la talla L (grande)."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-18/e12.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u18-e13",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Preferences",
-    "difficulty": "easy",
-    "transcript": "They prefer pizza to pasta.",
-    "content": {
-      "title": "Preferir",
-      "instructions": "Completa la oración de preferencia.",
-      "questions": [
-        {
-          "question": "[[They|Ellos]] _______ [[pizza|pizza]] [[to|a]] [[pasta|pasta]].",
-          "options": ["[[prefer|prefieren]]", "[[like|gustan]]", "[[hate|odian]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'prefer (something) to (something)'."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-18/e13.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u18-e14",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Dislikes",
+    "topic": "Wearing",
     "difficulty": "medium",
-    "transcript": "I don't like getting up early.",
+    "transcript": "My sister is wearing a beautiful pink dress.",
     "content": {
-      "title": "No me gusta",
-      "instructions": "Ordena la oración negativa.",
-      "correctSentence": "[[I|Yo]] [[don't|no]] [[like|gustar]] [[getting|levantarse]] [[up|arriba]] [[early|temprano]].",
-      "words": ["[[I|Yo]]", "[[don't|no]]", "[[like|gustar]]", "[[getting|levantarse]]", "[[up|arriba]]", "[[early|temprano]]."],
-      "explanation": "La forma -ing se aplica también después de 'don't like'."
+      "title": "El Vestido de mi Hermana",
+      "instructions": "Ordena la descripción.",
+      "correctSentence": "[[My|Mi]] [[sister|hermana]] [[is|está]] [[wearing|llevando]] [[a|un]] [[beautiful|hermoso]] [[pink|rosa]] [[dress|vestido]].",
+      "words": ["[[dress|vestido]].", "[[pink|rosa]]", "[[beautiful|hermoso]]", "[[a|un]]", "[[wearing|llevando]]", "[[is|está]]", "[[sister|hermana]]", "[[My|Mi]]"],
+      "explanation": "Opinión (beautiful) + Color (pink) + Sustantivo (dress)."
     },
-    "audioUrl": "audio/a1/unit-18/e14.mp3",
+    "audioUrl": "audio/a1/unit-18/e13.mp3",
     "topicName": "Grammar"
   },
   {
-    "id": "a1-u18-e15",
+    "id": "a1-u18-e14",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Hobbies",
+    "topic": "Clothing",
     "difficulty": "easy",
-    "transcript": "My hobby is gardening.",
+    "transcript": "It is cold. I am wearing a heavy coat and a scarf.",
     "content": {
-      "title": "Pasatiempos",
-      "instructions": "Elige la actividad.",
+      "title": "Ropa de Invierno",
+      "instructions": "Elige la prenda adecuada para el frío.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[hobby|hobby]] [[is|es]] _______.",
-          "options": ["[[gardening|jardinería]]", "[[bus|autobús]]", "[[table|mesa]]"],
+          "question": "[[It|Hace]] [[is|está]] [[cold|frío]]. [[I|Yo]] [[wear|llevo]] [[a|un]] (_____) .",
+          "options": ["[[coat|abrigo]]", "[[T-shirt|camiseta]]", "[[skirt|falda]]"],
           "correctAnswer": 0,
-          "explanation": "'Gardening' es el hobby de cuidar el jardín."
+          "explanation": "El abrigo (coat) es para el frío."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-18/e15.mp3",
+    "audioUrl": "audio/a1/unit-18/e14.mp3",
     "topicName": "Vocabulary"
   },
   {
-    "id": "a1-u18-e16",
-    "type": "flashcard",
+    "id": "a1-u18-e15",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Common Hobbies",
+    "topic": "Questions Shopping",
     "difficulty": "medium",
-    "transcript": "Gardening. Painting. Fishing. Photography. Dancing. Singing. Gaming. Traveling. Running. Cycling.",
+    "transcript": "Do you have these shoes in size eight?",
     "content": {
-      "title": "Vocabulario: Hobbies comunes",
-      "instructions": "Aprende nombres de diferentes pasatiempos.",
-      "items": [
-        { "front": "[[Gardening|Jardinería]]", "back": "Jardinería" },
-        { "front": "[[Painting|Pintar]]", "back": "Pintura / Pintar" },
-        { "front": "[[Fishing|Pescar]]", "back": "Pesca / Pescar" },
-        { "front": "[[Photography|Fotografía]]", "back": "Fotografía" },
-        { "front": "[[Dancing|Bailar]]", "back": "Baile / Bailar" },
-        { "front": "[[Singing|Cantar]]", "back": "Canto / Cantar" },
-        { "front": "[[Gaming|Jugar]]", "back": "Jugar (videojuegos)" },
-        { "front": "[[Traveling|Viajar]]", "back": "Viajar" },
-        { "front": "[[Running|Correr]]", "back": "Correr" },
-        { "front": "[[Cycling|Ciclismo]]", "back": "Ciclismo / Montar en bici" }
+      "title": "Buscando Talla",
+      "instructions": "Ordena la pregunta en la tienda.",
+      "correctSentence": "[[Do|Aux]] [[you|tú]] [[have|tener]] [[these|estos]] [[shoes|zapatos]] [[in|en]] [[size|talla]] [[eight|ocho]]?",
+      "words": ["[[eight|ocho]]?", "[[size|talla]]", "[[in|en]]", "[[shoes|zapatos]]", "[[these|estos]]", "[[have|tener]]", "[[you|tú]]", "[[Do|Aux]]"],
+      "explanation": "Preguntando por una talla específica."
+    },
+    "audioUrl": "audio/a1/unit-18/e15.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u18-e16",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Accessories",
+    "difficulty": "easy",
+    "transcript": "I can't see well. I need my glasses.",
+    "content": {
+      "title": "Gafas",
+      "instructions": "Elige el accesorio necesario.",
+      "questions": [
+        {
+          "question": "[[I|Yo]] [[need|necesito]] [[my|mis]] (_____) [[to|para]] [[read|leer]].",
+          "options": ["[[glasses|gafas]]", "[[gloves|guantes]]", "[[belt|cinturón]]"],
+          "correctAnswer": 0,
+          "explanation": "Las gafas (glasses) se usan para ver/leer."
+        }
       ]
     },
     "audioUrl": "audio/a1/unit-18/e16.mp3",
@@ -345,61 +342,56 @@ export const UNIT_18_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u18-e17",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Opinions",
+    "topic": "That/Those",
     "difficulty": "medium",
-    "transcript": "Do you think photography is expensive?",
+    "transcript": "That jacket is very expensive.",
     "content": {
-      "title": "Opiniones: Costo",
-      "instructions": "Completa la pregunta.",
-      "questions": [
-        {
-          "question": "[[Do|Do]] [[you|tú]] [[think|creer]] [[photography|fotografía]] [[is|es]] _______?",
-          "options": ["[[expensive|caro]]", "[[cheap|barato]]", "[[fast|rápido]]"],
-          "correctAnswer": 0,
-          "explanation": "La fotografía puede ser un hobby caro (expensive)."
-        }
-      ]
+      "title": "Chaqueta Cara",
+      "instructions": "Ordena la oración sobre el precio.",
+      "correctSentence": "[[That|Esa]] [[jacket|chaqueta]] [[is|es]] [[very|muy]] [[expensive|cara]].",
+      "words": ["[[expensive|cara]].", "[[very|muy]]", "[[is|es]]", "[[jacket|chaqueta]]", "[[That|Esa]]"],
+      "explanation": "That + singular para algo alejado."
     },
     "audioUrl": "audio/a1/unit-18/e17.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u18-e18",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Hate",
+    "topic": "Footwear",
     "difficulty": "easy",
-    "transcript": "She hates washing the car.",
+    "transcript": "I am going to the gym. I'm wearing my sneakers.",
     "content": {
-      "title": "Odiar Tareas",
-      "instructions": "Elige la forma -ing.",
+      "title": "Al Gimnasio",
+      "instructions": "Elige el calzado deportivo.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[hates|odia]] _______ [[the|el]] [[car|coche]].",
-          "options": ["[[washing|lavar]]", "[[wash|lavar]]", "[[washed|lavado]]"],
+          "question": "[[I|Yo]] [[am|estoy]] [[wearing|llevando]] [[my|mis]] (_____) .",
+          "options": ["[[sneakers|zapatillas]]", "[[boots|botas]]", "[[sandals|sandalias]]"],
           "correctAnswer": 0,
-          "explanation": "'Hate' requiere la forma -ing."
+          "explanation": "Sneakers son para hacer deporte."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-18/e18.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u18-e19",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Likes",
+    "topic": "Present Continuous",
     "difficulty": "medium",
-    "transcript": "My parents love traveling to Spain.",
+    "transcript": "Why are you wearing a suit today?",
     "content": {
-      "title": "Viajar",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[My|Mis]] [[parents|padres]] [[love|aman]] [[traveling|viajar]] [[to|a]] [[Spain|España]].",
-      "words": ["[[My|Mis]]", "[[parents|padres]]", "[[love|aman]]", "[[traveling|viajar]]", "[[to|a]]", "[[Spain|España]]."],
-      "explanation": "El sujeto es plural (parents), así que 'love' no lleva 's'."
+      "title": "¿Por qué el traje?",
+      "instructions": "Ordena la pregunta de causa.",
+      "correctSentence": "[[Why|Por qué]] [[are|estás]] [[you|tú]] [[wearing|llevando]] [[a|un]] [[suit|traje]] [[today|hoy]]?",
+      "words": ["[[today|hoy]]?", "[[suit|traje]]", "[[a|un]]", "[[wearing|llevando]]", "[[you|tú]]", "[[are|estás]]", "[[Why|Por qué]]"],
+      "explanation": "Pregunta sobre una vestimenta formal inusual."
     },
     "audioUrl": "audio/a1/unit-18/e19.mp3",
     "topicName": "Grammar"
@@ -408,18 +400,18 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "id": "a1-u18-e20",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Free time",
+    "topic": "Shopping Phrases",
     "difficulty": "easy",
-    "transcript": "What is your favorite hobby?",
+    "transcript": "Can I help you? I'm just looking, thanks.",
     "content": {
-      "title": "Tu Hobby",
-      "instructions": "Elige el posesivo correcto.",
+      "title": "Solo Mirando",
+      "instructions": "Respuesta común en una tienda.",
       "questions": [
         {
-          "question": "_______ [[is|es]] [[your|tu]] [[favorite|favorito]] [[hobby|hobby]]?",
-          "options": ["[[What|Qué]]", "[[Where|Dónde]]", "[[How|Cómo]]"],
+          "question": "[[I'm|Estoy]] [[just|solo]] (_____) , [[thanks|gracias]].",
+          "options": ["[[looking|mirando]]", "[[buying|comprando]]", "[[wearing|llevando]]"],
           "correctAnswer": 0,
-          "explanation": "Preguntamos 'What is...?' para saber cuál es el hobby."
+          "explanation": "'Just looking' significa que no necesitas ayuda inmediata."
         }
       ]
     },
@@ -430,37 +422,37 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "id": "a1-u18-e21",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Dislikes",
-    "difficulty": "medium",
-    "transcript": "I don't enjoy doing housework.",
+    "topic": "Clothes",
+    "difficulty": "easy",
+    "transcript": "Skirt. Dress. Suit.",
     "content": {
-      "title": "Tareas del hogar",
-      "instructions": "Completa con el verbo en -ing.",
+      "title": "Ropa Formal",
+      "instructions": "¿Qué lleva un hombre a una boda?",
       "questions": [
         {
-          "question": "[[I|Yo]] [[don't|no]] [[enjoy|disfrutar]] _______ [[housework|tareas del hogar]].",
-          "options": ["[[doing|haciendo]]", "[[do|haciendo]]", "[[did|hice]]"],
+          "question": "[[A|Un]] [[man|hombre]] [[wears|lleva]] [[a|un]] (_____) [[to|a]] [[a|una]] [[wedding|boda]].",
+          "options": ["[[suit|traje]]", "[[skirt|falda]]", "[[dress|vestido]]"],
           "correctAnswer": 0,
-          "explanation": "'Enjoy' (y su forma negativa) va seguido de -ing."
+          "explanation": "Un traje (suit) es la opción formal masculina."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-18/e21.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u18-e22",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Hobbies",
+    "topic": "Demonstratives",
     "difficulty": "medium",
-    "transcript": "Do they like cycling in the park?",
+    "transcript": "Do you like this green t-shirt?",
     "content": {
-      "title": "Ciclismo",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Do|Do]] [[they|ellos]] [[like|gustar]] [[cycling|ciclismo]] [[in|en]] [[the|el]] [[park|parque]]?",
-      "words": ["[[Do|Do]]", "[[they|ellos]]", "[[like|gustar]]", "[[cycling|ciclismo]]", "[[in|en]]", "[[the|el]]", "[[park|parque]]?"],
-      "explanation": "Pregunta de sí/no sobre gustos."
+      "title": "Camiseta Verde",
+      "instructions": "Ordena la pregunta sobre gustos.",
+      "correctSentence": "[[Do|Aux]] [[you|tú]] [[like|gustar]] [[this|esta]] [[green|verde]] [[t-shirt|camiseta]]?",
+      "words": ["[[t-shirt|camiseta]]?", "[[green|verde]]", "[[this|esta]]", "[[like|gustar]]", "[[you|tú]]", "[[Do|Aux]]"],
+      "explanation": "This + color + noun."
     },
     "audioUrl": "audio/a1/unit-18/e22.mp3",
     "topicName": "Grammar"
@@ -469,86 +461,76 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "id": "a1-u18-e23",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "medium",
-    "transcript": "Meet Alex. Alex is 20 years old. He has many hobbies. He loves playing the guitar and singing. He also enjoys painting. He doesn't like sports very much, but he likes swimming in summer. His favorite hobby is photography. He has a new camera.",
+    "topic": "Accessories",
+    "difficulty": "easy",
+    "transcript": "My pants are too big. I need a belt.",
     "content": {
-      "title": "Lectura: Los Hobbies de Alex",
-      "instructions": "Lee el texto y responde.",
+      "title": "Cinturón",
+      "instructions": "Elige el accesorio para sujetar pantalones.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[does|does]] [[Alex|Alex]] [[love|amar]]? *\"He loves playing the guitar and singing.\"*",
-          "options": ["[[Music|Música]]", "[[Sports|Deportes]]", "[[Cooking|Cocinar]]"],
+          "question": "[[I|Yo]] [[need|necesito]] [[a|un]] (_____) .",
+          "options": ["[[belt|cinturón]]", "[[scarf|bufanda]]", "[[watch|reloj]]"],
           "correctAnswer": 0,
-          "explanation": "Alex ama tocar la guitarra y cantar (música)."
+          "explanation": "El cinturón (belt) sujeta los pantalones."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-18/e23.mp3",
-    "topicName": "Reading"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u18-e24",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Present Continuous",
     "difficulty": "medium",
-    "transcript": "Meet Alex. Alex is 20 years old. He has many hobbies. He loves playing the guitar and singing. He also enjoys painting. He doesn't like sports very much, but he likes swimming in summer. His favorite hobby is photography. He has a new camera.",
+    "transcript": "They are not wearing uniforms at school today.",
     "content": {
-      "title": "Lectura: Los Hobbies de Alex",
-      "instructions": "Lee el texto y responde.",
-      "questions": [
-        {
-          "question": "[[Does|Does]] [[he|él]] [[like|gustar]] [[sports|deportes]]? *\"He doesn't like sports very much...\"*",
-          "options": ["[[No, not very much|No mucho]]", "[[Yes, he loves them|Sí, le encantan]]", "[[He is a professional|Es profesional]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice que no le gustan mucho los deportes."
-        }
-      ]
+      "title": "Sin Uniforme",
+      "instructions": "Ordena la negación en presente continuo.",
+      "correctSentence": "[[They|Ellos]] [[are|están]] [[not|no]] [[wearing|llevando]] [[uniforms|uniformes]] [[at|en]] [[school|escuela]] [[today|hoy]].",
+      "words": ["[[today|hoy]].", "[[school|escuela]]", "[[at|en]]", "[[uniforms|uniformes]]", "[[wearing|llevando]]", "[[not|no]]", "[[are|están]]", "[[They|Ellos]]"],
+      "explanation": "Negativo de lo que se lleva puesto."
     },
     "audioUrl": "audio/a1/unit-18/e24.mp3",
-    "topicName": "Reading"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u18-e25",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Shopping",
     "difficulty": "medium",
-    "transcript": "Meet Alex. Alex is 20 years old. He has many hobbies. He loves playing the guitar and singing. He also enjoys painting. He doesn't like sports very much, but he likes swimming in summer. His favorite hobby is photography. He has a new camera.",
+    "transcript": "These boots are beautiful, but they are too expensive.",
     "content": {
-      "title": "Lectura: Los Hobbies de Alex",
-      "instructions": "Lee el texto y responde.",
+      "title": "Botas Caras",
+      "instructions": "Elige el conector y adjetivo.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[is|es]] [[his|su]] [[favorite|favorito]] [[hobby|hobby]]? *\"His favorite hobby is photography.\"*",
-          "options": ["[[Photography|Fotografía]]", "[[Painting|Pintura]]", "[[Singing|Canto]]"],
+          "question": "[[These|Estas]] [[boots|botas]] [[are|son]] [[beautiful|bonitas]], (_____) [[they|ellas]] [[are|son]] (_____) .",
+          "options": ["[[but / expensive|pero / caras]]", "[[and / cheap|y / baratas]]", "[[but / small|pero / pequeñas]]"],
           "correctAnswer": 0,
-          "explanation": "Su hobby favorito es la fotografía."
+          "explanation": "Indica contraste entre belleza y precio alto."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-18/e25.mp3",
-    "topicName": "Reading"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u18-e26",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Likes",
-    "difficulty": "easy",
-    "transcript": "I enjoy listening to music.",
+    "topic": "Demonstratives",
+    "difficulty": "medium",
+    "transcript": "I don't like those yellow pants.",
     "content": {
-      "title": "Música",
-      "instructions": "Elige la forma verbal.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] [[enjoy|disfrutar]] _______ [[to|a]] [[music|música]].",
-          "options": ["[[listening|escuchar]]", "[[listen|escuchar]]", "[[listens|escucha]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos la forma -ing después de 'enjoy'."
-        }
-      ]
+      "title": "Pantalones Amarillos",
+      "instructions": "Ordena la frase de desagrado.",
+      "correctSentence": "[[I|Yo]] [[don't|no]] [[like|gustar]] [[those|esos]] [[yellow|amarillos]] [[pants|pantalones]].",
+      "words": ["[[pants|pantalones]].", "[[yellow|amarillos]]", "[[those|esos]]", "[[like|gustar]]", "[[don't|no]]", "[[I|Yo]]"],
+      "explanation": "Demonstrativo plural + adjetivo + sustantivo."
     },
     "audioUrl": "audio/a1/unit-18/e26.mp3",
     "topicName": "Grammar"
@@ -557,57 +539,57 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "id": "a1-u18-e27",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Opinions",
-    "difficulty": "easy",
-    "transcript": "Is gardening fun?",
+    "topic": "Adjective order",
+    "difficulty": "medium",
+    "transcript": "She is wearing a long black skirt.",
     "content": {
-      "title": "¿Es divertido?",
-      "instructions": "Completa la pregunta con el adjetivo.",
+      "title": "Falda Larga",
+      "instructions": "Elige el orden correcto de adjetivos.",
       "questions": [
         {
-          "question": "[[Is|Es]] [[gardening|jardinería]] _______?",
-          "options": ["[[fun|divertido]]", "[[funny|gracioso]]", "[[angry|enfadado]]"],
+          "question": "[[She|Ella]] [[is|está]] [[wearing|llevando]] (_____) .",
+          "options": ["[[a long black skirt|una falda larga negra]]", "[[a black long skirt|una falda negra larga]]", "[[a skirt long black|una falda larga negra]]"],
           "correctAnswer": 0,
-          "explanation": "'Fun' significa divertido (actividad que se disfruta)."
+          "explanation": "Longitud (long) va antes del color (black)."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-18/e27.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u18-e28",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Hate",
+    "topic": "Shopping",
     "difficulty": "medium",
-    "transcript": "She hates cleaning the bathroom.",
+    "transcript": "Can I have a receipt, please?",
     "content": {
-      "title": "Limpiar",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[She|Ella]] [[hates|odia]] [[cleaning|limpiar]] [[the|el]] [[bathroom|baño]].",
-      "words": ["[[She|Ella]]", "[[hates|odia]]", "[[cleaning|limpiar]]", "[[the|el]]", "[[bathroom|baño]]."],
-      "explanation": "Forma -ing después de 'hates'."
+      "title": "El Recibo",
+      "instructions": "Ordena la petición después de pagar.",
+      "correctSentence": "[[Can|Poder]] [[I|yo]] [[have|tener]] [[a|un]] [[receipt|recibo]], [[please|por favor]]?",
+      "words": ["[[please|por favor]]?", "[[receipt|recibo]],", "[[a|un]]", "[[have|tener]]", "[[I|yo]]", "[[Can|Poder]]"],
+      "explanation": "Receipt (recibo/ticket) es necesario para cambios."
     },
     "audioUrl": "audio/a1/unit-18/e28.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u18-e29",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Interests",
-    "difficulty": "medium",
-    "transcript": "Are you interested in art?",
+    "topic": "Accessories",
+    "difficulty": "easy",
+    "transcript": "It is sunny. Don't forget your hat.",
     "content": {
-      "title": "Interesado",
-      "instructions": "Completa la pregunta.",
+      "title": "Hace Sol",
+      "instructions": "Accesorio para el sol.",
       "questions": [
         {
-          "question": "[[Are|Estás]] [[you|tú]] _______ [[in|en]] [[art|arte]]?",
-          "options": ["[[interested|interesado]]", "[[interesting|interesante]]", "[[interest|interés]]"],
+          "question": "[[It|Está]] [[is|está]] [[sunny|soleado]]. [[Wear|Lleva]] [[your|tu]] (_____) .",
+          "options": ["[[hat|sombrero]]", "[[scarf|bufanda]]", "[[gloves|guantes]]"],
           "correctAnswer": 0,
-          "explanation": "Usamos 'interested' para personas (adjetivo ed/ing)."
+          "explanation": "El sombrero (hat) protege del sol."
         }
       ]
     },
@@ -616,61 +598,56 @@ export const UNIT_18_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u18-e30",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Adjectives",
+    "topic": "Present Continuous",
     "difficulty": "medium",
-    "transcript": "This book is very interesting.",
+    "transcript": "Who is wearing the red sweater?",
     "content": {
-      "title": "Libro Interesante",
-      "instructions": "Elige el adjetivo correcto.",
-      "questions": [
-        {
-          "question": "[[This|Este]] [[book|libro]] [[is|es]] [[very|muy]] _______.",
-          "options": ["[[interesting|interesante]]", "[[interested|interesado]]", "[[boring|aburrido]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'interesting' para cosas que causan interés."
-        }
-      ]
+      "title": "¿Quién lleva el jersey?",
+      "instructions": "Ordena la pregunta de identificación.",
+      "correctSentence": "[[Who|Quién]] [[is|está]] [[wearing|llevando]] [[the|el]] [[red|rojo]] [[sweater|jersey]]?",
+      "words": ["[[sweater|jersey]]?", "[[red|rojo]]", "[[the|el]]", "[[wearing|llevando]]", "[[is|está]]", "[[Who|Quién]]"],
+      "explanation": "Preguntando por una persona a través de su ropa."
     },
     "audioUrl": "audio/a1/unit-18/e30.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u18-e31",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Free time",
-    "difficulty": "medium",
-    "transcript": "We like going to the cinema.",
+    "topic": "Sizes",
+    "difficulty": "easy",
+    "transcript": "This jacket is too small for me.",
     "content": {
-      "title": "El Cine",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[We|Nosotros]] [[like|gustar]] [[going|ir]] [[to|a]] [[the|el]] [[cinema|cine]].",
-      "words": ["[[We|Nosotros]]", "[[like|gustar]]", "[[going|ir]]", "[[to|a]]", "[[the|el]]", "[[cinema|cine]]."],
-      "explanation": "Actividad de ocio con 'like' + -ing."
+      "title": "Muy Pequeña",
+      "instructions": "Elige el adjetivo de tamaño.",
+      "questions": [
+        {
+          "question": "[[This|Esta]] [[jacket|chaqueta]] [[is|es]] (_____) [[small|pequeña]] [[for|para]] [[me|mí]].",
+          "options": ["[[too|demasiado]]", "[[very|muy]]", "[[some|algo]]"],
+          "correctAnswer": 0,
+          "explanation": "'Too' indica un exceso que causa un problema (no me sirve)."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-18/e31.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u18-e32",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Dislikes",
-    "difficulty": "easy",
-    "transcript": "Does he like dancing?",
+    "topic": "Demonstratives",
+    "difficulty": "medium",
+    "transcript": "I like these brown boots very much.",
     "content": {
-      "title": "Preguntar",
-      "instructions": "Completa con el auxiliar.",
-      "questions": [
-        {
-          "question": "_______ [[he|él]] [[like|gustar]] [[dancing|bailar]]?",
-          "options": ["[[Does|Does]]", "[[Do|Do]]", "[[Is|Is]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'Does' para 'he' en preguntas."
-        }
-      ]
+      "title": "Botas Marrones",
+      "instructions": "Ordena la oración de preferencia.",
+      "correctSentence": "[[I|Yo]] [[like|gustar]] [[these|estas]] [[brown|marrones]] [[boots|botas]] [[very|muy]] [[much|mucho]].",
+      "words": ["[[much|mucho]].", "[[very|muy]]", "[[boots|botas]]", "[[brown|marrones]]", "[[these|estas]]", "[[like|gustar]]", "[[I|Yo]]"],
+      "explanation": "These + color + plural noun."
     },
     "audioUrl": "audio/a1/unit-18/e32.mp3",
     "topicName": "Grammar"
@@ -679,110 +656,96 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "id": "a1-u18-e33",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "medium",
-    "transcript": "My family has different interests. My mother loves gardening and cooking. My father hates cooking, but he loves painting. My brother likes playing video games all day. I prefer reading and traveling. We all like going to the beach together.",
+    "topic": "Accessories",
+    "difficulty": "easy",
+    "transcript": "I have a new watch. It tells the time.",
     "content": {
-      "title": "Lectura: Intereses Familiares",
-      "instructions": "Lee el texto y responde.",
+      "title": "Reloj",
+      "instructions": "Identifica el objeto.",
       "questions": [
         {
-          "question": "[[Does|Does]] [[the|el]] [[father|padre]] [[like|gustar]] [[cooking|cocinar]]? *\"My father hates cooking...\"*",
-          "options": ["[[No, he hates it|No, lo odia]]", "[[Yes, he loves it|Sí, lo ama]]", "[[He is a chef|Es un chef]]"],
+          "question": "[[I|Yo]] [[have|tengo]] [[a|un]] [[new|nuevo]] (_____) [[on|en]] [[my|mi]] [[wrist|muñeca]].",
+          "options": ["[[watch|reloj]]", "[[belt|cinturón]]", "[[glasses|gafas]]"],
           "correctAnswer": 0,
-          "explanation": "El padre odia cocinar."
+          "explanation": "El reloj (watch) va en la muñeca."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-18/e33.mp3",
-    "topicName": "Reading"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u18-e34",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Shopping",
     "difficulty": "medium",
-    "transcript": "My family has different interests. My mother loves gardening and cooking. My father hates cooking, but he loves painting. My brother likes playing video games all day. I prefer reading and traveling. We all like going to the beach together.",
+    "transcript": "How much are those blue jeans?",
     "content": {
-      "title": "Lectura: Intereses Familiares",
-      "instructions": "Lee el texto y responde.",
-      "questions": [
-        {
-          "question": "[[What|Qué]] [[does|does]] [[the|el]] [[brother|hermano]] [[like|gustar]]? *\"My brother likes playing video games all day.\"*",
-          "options": ["[[Video games|Videojuegos]]", "[[Painting|Pintura]]", "[[Gardening|Jardinería]]"],
-          "correctAnswer": 0,
-          "explanation": "Al hermano le gustan los videojuegos."
-        }
-      ]
+      "title": "Precio de Vaqueros",
+      "instructions": "Ordena la pregunta de precio plural.",
+      "correctSentence": "[[How|Cómo]] [[much|mucho]] [[are|son]] [[those|esos]] [[blue|azules]] [[jeans|vaqueros]]?",
+      "words": ["[[jeans|vaqueros]]?", "[[blue|azules]]", "[[those|esos]]", "[[are|son]]", "[[much|mucho]]", "[[How|Cómo]]"],
+      "explanation": "Are + plural demonstrative para jeans."
     },
     "audioUrl": "audio/a1/unit-18/e34.mp3",
-    "topicName": "Reading"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u18-e35",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "medium",
-    "transcript": "My family has different interests. My mother loves gardening and cooking. My father hates cooking, but he loves painting. My brother likes playing video games all day. I prefer reading and traveling. We all like going to the beach together.",
+    "topic": "Clothing",
+    "difficulty": "easy",
+    "transcript": "Shirt. Tie. Suit.",
     "content": {
-      "title": "Lectura: Intereses Familiares",
-      "instructions": "Lee el texto y responde.",
+      "title": "Corbata",
+      "instructions": "¿Qué va con la camisa en un traje?",
       "questions": [
         {
-          "question": "[[What|Qué]] [[do|do]] [[they|ellos]] [[all|todos]] [[like|gustar]]? *\"We all like going to the beach together.\"*",
-          "options": ["[[The beach|La playa]]", "[[Cooking|Cocinar]]", "[[Video games|Videojuegos]]"],
+          "question": "[[He|Él]] [[is|está]] [[wearing|llevando]] [[a|una]] [[white|blanca]] [[shirt|camisa]] [[and|y]] [[a|una]] (_____) .",
+          "options": ["[[tie|corbata]]", "[[skirt|falda]]", "[[dress|vestido]]"],
           "correctAnswer": 0,
-          "explanation": "A todos les gusta ir a la playa juntos."
+          "explanation": "La corbata (tie) es el complemento de la camisa."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-18/e35.mp3",
-    "topicName": "Reading"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u18-e36",
-    "type": "flashcard",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Adjectives for opinions",
+    "topic": "Present Continuous",
     "difficulty": "medium",
-    "transcript": "Relaxing. Exciting. Creative. Healthy. Cheap. Expensive. Easy. Difficult. Social. Active.",
+    "transcript": "I am wearing my favorite sweater today.",
     "content": {
-      "title": "Vocabulario: Describir Hobbies",
-      "instructions": "Aprende adjetivos para opinar sobre actividades.",
-      "items": [
-        { "front": "[[Relaxing|Relajante]]", "back": "Relajante" },
-        { "front": "[[Exciting|Emocionante]]", "back": "Emocionante" },
-        { "front": "[[Creative|Creativo]]", "back": "Creativo" },
-        { "front": "[[Healthy|Saludable]]", "back": "Saludable" },
-        { "front": "[[Cheap|Barato]]", "back": "Barato" },
-        { "front": "[[Expensive|Caro]]", "back": "Caro" },
-        { "front": "[[Easy|Fácil]]", "back": "Fácil" },
-        { "front": "[[Difficult|Difícil]]", "back": "Difícil" },
-        { "front": "[[Social|Social]]", "back": "Social (con gente)" },
-        { "front": "[[Active|Activo]]", "back": "Activo (con movimiento)" }
-      ]
+      "title": "Jersey Favorito",
+      "instructions": "Ordena la descripción personal.",
+      "correctSentence": "[[I|Yo]] [[am|estoy]] [[wearing|llevando]] [[my|mi]] [[favorite|favorito]] [[sweater|jersey]] [[today|hoy]].",
+      "words": ["[[today|hoy]].", "[[sweater|jersey]]", "[[favorite|favorito]]", "[[my|mi]]", "[[wearing|llevando]]", "[[am|estoy]]", "[[I|Yo]]"],
+      "explanation": "Uso de am wearing + possessive."
     },
     "audioUrl": "audio/a1/unit-18/e36.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u18-e37",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Opinions",
-    "difficulty": "medium",
-    "transcript": "I think swimming is healthy.",
+    "topic": "Colors",
+    "difficulty": "easy",
+    "transcript": "Grey. Silver. Black.",
     "content": {
-      "title": "Natación",
-      "instructions": "Elige el adjetivo.",
+      "title": "Color Gris",
+      "instructions": "Elige el color de las nubes de lluvia.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[think|creo]] [[swimming|natación]] [[is|es]] _______.",
-          "options": ["[[healthy|saludable]]", "[[boring|aburrido]]", "[[expensive|caro]]"],
+          "question": "[[The|El]] [[sky|cielo]] [[is|es]] (_____) [[today|hoy]].",
+          "options": ["[[grey|gris]]", "[[pink|rosa]]", "[[yellow|amarillo]]"],
           "correctAnswer": 0,
-          "explanation": "La natación se considera una actividad saludable (healthy)."
+          "explanation": "Grey es el color gris."
         }
       ]
     },
@@ -791,61 +754,56 @@ export const UNIT_18_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u18-e38",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Opinions",
-    "difficulty": "medium",
-    "transcript": "Video games are exciting.",
-    "content": {
-      "title": "Videojuegos",
-      "instructions": "Elige el adjetivo.",
-      "questions": [
-        {
-          "question": "[[Video|Video]] [[games|juegos]] [[are|son]] _______.",
-          "options": ["[[exciting|emocionantes]]", "[[difficult|difíciles]]", "[[sad|tristes]]"],
-          "correctAnswer": 0,
-          "explanation": "'Exciting' significa emocionante."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-18/e38.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u18-e39",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Preferences",
+    "topic": "That/Those",
     "difficulty": "medium",
-    "transcript": "Do you prefer tea or coffee?",
+    "transcript": "That red dress looks great on you.",
     "content": {
-      "title": "Preferencias",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Do|Do]] [[you|tú]] [[prefer|preferir]] [[tea|té]] [[or|o]] [[coffee|café]]?",
-      "words": ["[[Do|Do]]", "[[you|tú]]", "[[prefer|preferir]]", "[[tea|té]]", "[[or|o]]", "[[coffee|café]]?"],
-      "explanation": "Pregunta de elección entre dos opciones."
+      "title": "Te queda bien",
+      "instructions": "Ordena el cumplido.",
+      "correctSentence": "[[That|Ese]] [[red|rojo]] [[dress|vestido]] [[looks|se ve]] [[great|genial]] [[on|en]] [[you|ti]].",
+      "words": ["[[you|ti]].", "[[on|en]]", "[[great|genial]]", "[[looks|se ve]]", "[[dress|vestido]]", "[[red|rojo]]", "[[That|Ese]]"],
+      "explanation": "'Looks great on you' significa que te queda muy bien."
     },
-    "audioUrl": "audio/a1/unit-18/e39.mp3",
+    "audioUrl": "audio/a1/unit-18/e38.mp3",
     "topicName": "Grammar"
   },
   {
-    "id": "a1-u18-e40",
+    "id": "a1-u18-e39",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Hate",
-    "difficulty": "easy",
-    "transcript": "They hate getting up early on Mondays.",
+    "topic": "Sizes",
+    "difficulty": "medium",
+    "transcript": "This t-shirt is too big. Do you have a small?",
     "content": {
-      "title": "Odiar Lunes",
-      "instructions": "Elige la forma -ing.",
+      "title": "Talla Pequeña",
+      "instructions": "Completa el diálogo de cambio.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[hate|odian]] _______ [[up|arriba]] [[early|temprano]].",
-          "options": ["[[getting|levantarse]]", "[[get|levantar]]", "[[gets|levanta]]"],
+          "question": "[[This|Esta]] [[t-shirt|camiseta]] [[is|es]] [[too|demasiado]] [[big|grande]]. [[Do|Aux]] [[you|tú]] [[have|tener]] [[a|una]] (_____) ?",
+          "options": ["[[small|pequeña]]", "[[medium|mediana]]", "[[large|grande]]"],
           "correctAnswer": 0,
-          "explanation": "Forma -ing tras 'hate'."
+          "explanation": "Si es 'too big', pides una 'small'."
         }
       ]
+    },
+    "audioUrl": "audio/a1/unit-18/e39.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u18-e40",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Present Continuous",
+    "difficulty": "medium",
+    "transcript": "Is she wearing her new coat today?",
+    "content": {
+      "title": "Nuevo Abrigo",
+      "instructions": "Ordena la pregunta en presente continuo.",
+      "correctSentence": "[[Is|Está]] [[she|ella]] [[wearing|llevando]] [[her|su]] [[new|nuevo]] [[coat|abrigo]] [[today|hoy]]?",
+      "words": ["[[today|hoy]]?", "[[coat|abrigo]]", "[[new|nuevo]]", "[[her|su]]", "[[wearing|llevando]]", "[[she|ella]]", "[[Is|Está]]"],
+      "explanation": "Pregunta de sí/no sobre la vestimenta."
     },
     "audioUrl": "audio/a1/unit-18/e40.mp3",
     "topicName": "Grammar"
@@ -854,57 +812,57 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "id": "a1-u18-e41",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Likes",
+    "topic": "Clothing",
     "difficulty": "easy",
-    "transcript": "She enjoys painting pictures.",
+    "transcript": "Gloves. Scarf. Jacket.",
     "content": {
-      "title": "Pintura",
-      "instructions": "Completa con -ing.",
+      "title": "Guantes",
+      "instructions": "¿Qué llevas en las manos?",
       "questions": [
         {
-          "question": "[[She|Ella]] [[enjoys|disfruta]] _______ [[pictures|cuadros]].",
-          "options": ["[[painting|pintar]]", "[[paint|pintar]]", "[[paints|pintar]]"],
+          "question": "[[I|Yo]] [[wear|llevo]] (_____) [[on|en]] [[my|mis]] [[hands|manos]].",
+          "options": ["[[gloves|guantes]]", "[[socks|calcetines]]", "[[shoes|zapatos]]"],
           "correctAnswer": 0,
-          "explanation": "'Enjoys' requiere -ing."
+          "explanation": "Gloves son guantes."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-18/e41.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u18-e42",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Opinions",
+    "topic": "Demonstratives",
     "difficulty": "medium",
-    "transcript": "I think gardening is very relaxing.",
+    "transcript": "I don't like these purple sneakers.",
     "content": {
-      "title": "Relajación",
-      "instructions": "Ordena la opinión.",
-      "correctSentence": "[[I|Yo]] [[think|creo]] [[gardening|jardinería]] [[is|es]] [[very|muy]] [[relaxing|relajante]].",
-      "words": ["[[I|Yo]]", "[[think|creo]]", "[[gardening|jardinería]]", "[[is|es]]", "[[very|muy]]", "[[relaxing|relajante]]."],
-      "explanation": "'Relaxing' describe la actividad."
+      "title": "Zapatillas Moradas",
+      "instructions": "Ordena la frase negativa.",
+      "correctSentence": "[[I|Yo]] [[don't|no]] [[like|gustar]] [[these|estas]] [[purple|moradas]] [[sneakers|zapatillas]].",
+      "words": ["[[sneakers|zapatillas]].", "[[purple|moradas]]", "[[these|estas]]", "[[like|gustar]]", "[[don't|no]]", "[[I|Yo]]"],
+      "explanation": "These + color + noun plural."
     },
     "audioUrl": "audio/a1/unit-18/e42.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u18-e43",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Hobbies",
-    "difficulty": "easy",
-    "transcript": "Is singing your favorite hobby?",
+    "topic": "Shopping",
+    "difficulty": "medium",
+    "transcript": "Where is the fitting room? It is next to the mirror.",
     "content": {
-      "title": "Canto",
-      "instructions": "Completa la pregunta.",
+      "title": "Probador",
+      "instructions": "Identifica el lugar para probarse ropa.",
       "questions": [
         {
-          "question": "[[Is|Es]] [[singing|cantar]] [[your|tu]] _______ [[hobby|hobby]]?",
-          "options": ["[[favorite|favorito]]", "[[great|grande]]", "[[nice|bueno]]"],
+          "question": "[[Where|Dónde]] [[is|es]] [[the|el]] (_____) [[room|sala]]?",
+          "options": ["[[fitting|probador]]", "[[sitting|estar]]", "[[dining|comedor]]"],
           "correctAnswer": 0,
-          "explanation": "Preguntamos por 'favorite hobby'."
+          "explanation": "'Fitting room' es el probador."
         }
       ]
     },
@@ -913,252 +871,277 @@ export const UNIT_18_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u18-e44",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Adjective order",
     "difficulty": "medium",
-    "transcript": "Hi! I'm Lucy. My favorite things are books and coffee. I love reading in a quiet cafe. I don't like noisy places. I also enjoy walking in the park with my dog. My dog's name is Rex. He loves running and playing with a ball. We are very happy together.",
+    "transcript": "She is wearing a beautiful long white dress.",
     "content": {
-      "title": "Lectura: Las Cosas de Lucy",
-      "instructions": "Lee el texto y responde.",
-      "questions": [
-        {
-          "question": "[[Where|Dónde]] [[does|does]] [[Lucy|Lucy]] [[love|amar]] [[reading|leer]]? *\"I love reading in a quiet cafe.\"*",
-          "options": ["[[In a quiet cafe|En un café tranquilo]]", "[[At school|En la escuela]]", "[[In a noisy bar|En un bar ruidoso]]"],
-          "correctAnswer": 0,
-          "explanation": "Le gusta leer en un café tranquilo."
-        }
-      ]
+      "title": "Vestido de Novia",
+      "instructions": "Ordena los adjetivos complejos.",
+      "correctSentence": "[[She|Ella]] [[is|está]] [[wearing|llevando]] [[a|un]] [[beautiful|hermoso]] [[long|largo]] [[white|blanco]] [[dress|vestido]].",
+      "words": ["[[dress|vestido]].", "[[white|blanco]]", "[[long|largo]]", "[[beautiful|hermoso]]", "[[a|un]]", "[[wearing|llevando]]", "[[is|está]]", "[[She|Ella]]"],
+      "explanation": "Opinión + Tamaño + Color + Sustantivo."
     },
     "audioUrl": "audio/a1/unit-18/e44.mp3",
-    "topicName": "Reading"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u18-e45",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "medium",
-    "transcript": "Hi! I'm Lucy. My favorite things are books and coffee. I love reading in a quiet cafe. I don't like noisy places. I also enjoy walking in the park with my dog. My dog's name is Rex. He loves running and playing with a ball. We are very happy together.",
+    "topic": "Accessories",
+    "difficulty": "easy",
+    "transcript": "It is very cold. Wear your scarf.",
     "content": {
-      "title": "Lectura: Las Cosas de Lucy",
-      "instructions": "Lee el texto y responde.",
+      "title": "Bufanda",
+      "instructions": "¿Qué va al cuello?",
       "questions": [
         {
-          "question": "[[What|Qué]] [[does|does]] [[the|el]] [[dog|perro]] [[love|amar]] [[doing|hacer]]? *\"He loves running and playing with a ball.\"*",
-          "options": ["[[Running and playing|Correr y jugar]]", "[[Sleeping|Dormir]]", "[[Eating|Comer]]"],
+          "question": "[[Wear|Lleva]] [[a|una]] (_____) [[around|alrededor]] [[your|tu]] [[neck|cuello]].",
+          "options": ["[[scarf|bufanda]]", "[[belt|cinturón]]", "[[hat|gorro]]"],
           "correctAnswer": 0,
-          "explanation": "Al perro (Rex) le encanta correr y jugar."
+          "explanation": "Scarf es bufanda."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-18/e45.mp3",
-    "topicName": "Reading"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u18-e46",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Present Continuous",
     "difficulty": "medium",
-    "transcript": "Hi! I'm Lucy. My favorite things are books and coffee. I love reading in a quiet cafe. I don't like noisy places. I also enjoy walking in the park with my dog. My dog's name is Rex. He loves running and playing with a ball. We are very happy together.",
+    "transcript": "Are they wearing coats today?",
     "content": {
-      "title": "Lectura: Las Cosas de Lucy",
-      "instructions": "Lee el texto y responde.",
-      "questions": [
-        {
-          "question": "[[Does|Does]] [[Lucy|Lucy]] [[like|gustar]] [[noisy|ruidosos]] [[places|lugares]]? *\"I don't like noisy places.\"*",
-          "options": ["[[No, she doesn't|No]]", "[[Yes, she loves them|Sí]]", "[[She is a DJ|Es DJ]]"],
-          "correctAnswer": 0,
-          "explanation": "A Lucy no le gustan los lugares ruidosos."
-        }
-      ]
+      "title": "¿Llevan abrigos?",
+      "instructions": "Ordena la pregunta plural.",
+      "correctSentence": "[[Are|Están]] [[they|ellos]] [[wearing|llevando]] [[coats|abrigos]] [[today|hoy]]?",
+      "words": ["[[today|hoy]]?", "[[coats|abrigos]]", "[[wearing|llevando]]", "[[they|ellos]]", "[[Are|Están]]"],
+      "explanation": "Pregunta de presente continuo para 'they'."
     },
     "audioUrl": "audio/a1/unit-18/e46.mp3",
-    "topicName": "Reading"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u18-e47",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Likes",
+    "topic": "Colors",
     "difficulty": "easy",
-    "transcript": "I don't like shopping.",
+    "transcript": "Brown. Black. White.",
     "content": {
-      "title": "Compras",
-      "instructions": "Elige la forma -ing.",
+      "title": "Color Marrón",
+      "instructions": "Elige el color del chocolate o la madera.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[don't|no]] [[like|gustar]] _______.",
-          "options": ["[[shopping|ir de compras]]", "[[shop|comprar]]", "[[shops|tiendas]]"],
+          "question": "[[My|Mis]] [[shoes|zapatos]] [[are|son]] (_____) .",
+          "options": ["[[brown|marrones]]", "[[blue|azules]]", "[[green|verdes]]"],
           "correctAnswer": 0,
-          "explanation": "Forma -ing después de 'don't like'."
+          "explanation": "Brown es marrón."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-18/e47.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u18-e48",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Likes",
+    "topic": "Demonstratives",
     "difficulty": "medium",
-    "transcript": "Does she enjoy dancing?",
+    "transcript": "Do you like those black boots?",
     "content": {
-      "title": "Disfrutar",
-      "instructions": "Completa la pregunta.",
-      "questions": [
-        {
-          "question": "[[Does|Does]] [[she|ella]] _______ [[dancing|bailar]]?",
-          "options": ["[[enjoy|disfrutar]]", "[[enjoys|disfruta]]", "[[is|está]]"],
-          "correctAnswer": 0,
-          "explanation": "Después de 'does', el verbo va en infinitivo sin 's'."
-        }
-      ]
+      "title": "Botas Negras",
+      "instructions": "Ordena la pregunta sobre calzado alejado.",
+      "correctSentence": "[[Do|Aux]] [[you|tú]] [[like|gustar]] [[those|esas]] [[black|negras]] [[boots|botas]]?",
+      "words": ["[[boots|botas]]?", "[[black|negras]]", "[[those|esas]]", "[[like|gustar]]", "[[you|tú]]", "[[Do|Aux]]"],
+      "explanation": "Those + color + plural noun."
     },
     "audioUrl": "audio/a1/unit-18/e48.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u18-e49",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Opinions",
-    "difficulty": "medium",
-    "transcript": "Traveling to different countries is exciting.",
-    "content": {
-      "title": "Viajes",
-      "instructions": "Ordena la oración larga.",
-      "correctSentence": "[[Traveling|Viajar]] [[to|a]] [[different|diferentes]] [[countries|países]] [[is|es]] [[exciting|emocionante]].",
-      "words": ["[[Traveling|Viajar]]", "[[to|a]]", "[[different|diferentes]]", "[[countries|países]]", "[[is|es]]", "[[exciting|emocionante]]."],
-      "explanation": "El gerundio 'Traveling' actúa como sujeto."
-    },
-    "audioUrl": "audio/a1/unit-18/e49.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u18-e50",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Dislikes",
-    "difficulty": "easy",
-    "transcript": "He hates video games.",
+    "topic": "Clothes",
+    "difficulty": "medium",
+    "transcript": "I have a job interview. I'm wearing a smart shirt.",
     "content": {
-      "title": "Odiar",
-      "instructions": "Completa con la forma correcta de 'hate'.",
+      "title": "Entrevista de Trabajo",
+      "instructions": "Elige el adjetivo de estilo.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[video|video]] [[games|juegos]].",
-          "options": ["[[hates|odia]]", "[[hate|odia]]", "[[hating|odiando]]"],
+          "question": "[[I|Yo]] [[need|necesito]] [[a|una]] (_____) [[shirt|camisa]].",
+          "options": ["[[smart|elegante]]", "[[dirty|sucia]]", "[[old|vieja]]"],
           "correctAnswer": 0,
-          "explanation": "Tercera persona singular (He hates)."
+          "explanation": "'Smart' en este contexto significa elegante o arreglado."
         }
       ]
     },
+    "audioUrl": "audio/a1/unit-18/e49.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u18-e50",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Shopping",
+    "difficulty": "medium",
+    "transcript": "Where can I pay for these clothes?",
+    "content": {
+      "title": "Dónde Pagar",
+      "instructions": "Ordena la pregunta para buscar la caja.",
+      "correctSentence": "[[Where|Dónde]] [[can|poder]] [[I|yo]] [[pay|pagar]] [[for|por]] [[these|estas]] [[clothes|ropas]]?",
+      "words": ["[[clothes|ropas]]?", "[[these|estas]]", "[[for|por]]", "[[pay|pagar]]", "[[I|yo]]", "[[can|poder]]", "[[Where|Dónde]]"],
+      "explanation": "Preguntando por el mostrador de pago."
+    },
     "audioUrl": "audio/a1/unit-18/e50.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u18-e51",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Favorite",
-    "difficulty": "easy",
-    "transcript": "Pizza is my favorite food.",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "transcript": "Shopping for clothes. Today, I am at the mall with my friend, Lisa. I am looking for a new dress for a party. I like this short red dress, but it is too small. Lisa is wearing a beautiful blue jacket and black pants. She is looking for some new sneakers. Everything is very expensive today!",
     "content": {
-      "title": "Comida Favorita",
-      "instructions": "Completa con el adjetivo.",
+      "title": "De Compras",
+      "instructions": "Lee sobre el día de compras.",
       "questions": [
         {
-          "question": "[[Pizza|Pizza]] [[is|es]] [[my|mi]] _______ [[food|comida]].",
-          "options": ["[[favorite|favorita]]", "[[good|buena]]", "[[nice|agradable]]"],
+          "question": "[[What|Qué]] [[is|está]] [[the|el]] [[narrator|narrador]] [[looking|buscando]] [[for|por]]?",
+          "options": ["[[A new dress|Un vestido nuevo]]", "[[New sneakers|Zapatillas nuevas]]", "[[A blue jacket|Una chaqueta azul]]"],
           "correctAnswer": 0,
-          "explanation": "'Favorite' significa favorita."
+          "explanation": "El texto dice: 'I am looking for a new dress for a party'."
+        },
+        {
+          "question": "[[What|Qué]] [[is|está]] [[Lisa|Lisa]] [[wearing|llevando]]?",
+          "options": ["[[A blue jacket and black pants|Chaqueta azul y pantalones negros]]", "[[A red dress|Un vestido rojo]]", "[[A green skirt|Una falda verde]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'Lisa is wearing a beautiful blue jacket and black pants'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-18/e51.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u18-e52",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Preferences",
+    "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Which sport do you prefer, tennis or football?",
+    "transcript": "My favorite clothes. I love comfortable clothes. Usually, I wear jeans and a grey t-shirt. Today is cold, so I am wearing a big brown sweater and a scarf. My shoes are old but very comfortable. I don't like wearing suits or ties.",
     "content": {
-      "title": "Deportes",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Which|Cuál]] [[sport|deporte]] [[do|do]] [[you|tú]] [[prefer|preferir]], [[tennis|tenis]] [[or|o]] [[football|fútbol]]?",
-      "words": ["[[Which|Cuál]]", "[[sport|deporte]]", "[[do|do]]", "[[you|tú]]", "[[prefer|preferir]],", "[[tennis|tenis]]", "[[or|o]]", "[[football|fútbol]]?"],
-      "explanation": "Preguntar por preferencias deportivas."
+      "title": "Mi Ropa Favorita",
+      "instructions": "Lee sobre los gustos de vestir.",
+      "questions": [
+        {
+          "question": "[[What|Qué]] [[does|hace]] [[the|la]] [[person|persona]] [[usually|normalmente]] [[wear|llevar]]?",
+          "options": ["[[Jeans and a t-shirt|Vaqueros y camiseta]]", "[[A suit and tie|Traje y corbata]]", "[[A dress|Un vestido]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'Usually, I wear jeans and a grey t-shirt'."
+        },
+        {
+          "question": "[[What|Qué]] [[is|está]] [[he/she|él/ella]] [[wearing|llevando]] [[today|hoy]]?",
+          "options": ["[[A sweater and a scarf|Un jersey y una bufanda]]", "[[A jacket|Una chaqueta]]", "[[A hat|Un sombrero]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'I am wearing a big brown sweater and a scarf'."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-18/e52.mp3",
-    "topicName": "Grammar"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u18-e53",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Hobby",
-    "difficulty": "easy",
-    "transcript": "Painting is very creative.",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "transcript": "At the clothing store. Clerk: Can I help you? Customer: Yes, I like these boots. Do you have them in black? Clerk: No, sorry, we only have them in brown and grey. Customer: That's okay. Can I try on the brown ones in size nine? Clerk: Yes, of course. The fitting room is over there.",
     "content": {
-      "title": "Pintura Creativa",
-      "instructions": "Elige el adjetivo.",
+      "title": "En la Zapatería",
+      "instructions": "Lee el diálogo en la tienda.",
       "questions": [
         {
-          "question": "[[Painting|Pintura]] [[is|es]] [[very|muy]] _______.",
-          "options": ["[[creative|creativa]]", "[[active|activa]]", "[[loud|ruidosa]]"],
+          "question": "[[What|Qué]] [[color|color]] [[does|hace]] [[the|el]] [[customer|cliente]] [[want|querer]]?",
+          "options": ["[[Black|Negro]]", "[[Brown|Marrón]]", "[[Grey|Gris]]"],
           "correctAnswer": 0,
-          "explanation": "'Creative' significa creativo."
+          "explanation": "El cliente pregunta: 'Do you have them in black?'."
+        },
+        {
+          "question": "[[What|Qué]] [[size|talla]] [[does|hace]] [[he|él]] [[need|necesitar]]?",
+          "options": ["[[Size nine|Talla nueve]]", "[[Size eight|Talla ocho]]", "[[Size ten|Talla diez]]"],
+          "correctAnswer": 0,
+          "explanation": "Pregunta: 'Can I try on the brown ones in size nine?'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-18/e53.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u18-e54",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Hobby",
-    "difficulty": "easy",
-    "transcript": "Running is very active.",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "transcript": "Work clothes. My father works in an office. He always wears a suit and a tie to work. Today, his suit is dark grey and his tie is blue. He wears black shoes. My mother is a nurse. She wears a white uniform and very comfortable white sneakers. She walks a lot at the hospital.",
     "content": {
-      "title": "Correr",
-      "instructions": "Elige el adjetivo.",
+      "title": "Ropa de Trabajo",
+      "instructions": "Lee sobre la ropa de los padres.",
       "questions": [
         {
-          "question": "[[Running|Correr]] [[is|es]] [[very|muy]] _______.",
-          "options": ["[[active|activo]]", "[[quiet|silencioso]]", "[[cheap|barato]]"],
+          "question": "[[What|Qué]] [[does|hace]] [[the|el]] [[father|padre]] [[wear|llevar]] [[to|al]] [[work|trabajo]]?",
+          "options": ["[[A suit and a tie|Traje y corbata]]", "[[A uniform|Un uniforme]]", "[[Jeans|Vaqueros]]"],
           "correctAnswer": 0,
-          "explanation": "'Active' implica movimiento físico."
+          "explanation": "El texto dice: 'He always wears a suit and a tie to work'."
+        },
+        {
+          "question": "[[What|Qué]] [[color|color]] [[is|es]] [[the|el]] [[mother's|de la madre]] [[uniform|uniforme]]?",
+          "options": ["[[White|Blanco]]", "[[Blue|Azul]]", "[[Grey|Gris]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'She wears a white uniform'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-18/e54.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u18-e55",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Hobby",
+    "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Is gardening cheap or expensive?",
+    "transcript": "Uniforms at school. In my school, we all wear uniforms. The boys wear grey pants and a white shirt. The girls wear a blue skirt and a white shirt. In winter, we all wear a dark blue sweater. I don't like the uniform, but it is easy to get ready in the morning.",
     "content": {
-      "title": "¿Es caro?",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Is|Es]] [[gardening|jardinería]] [[cheap|barato]] [[or|o]] [[expensive|caro]]?",
-      "words": ["[[Is|Es]]", "[[gardening|jardinería]]", "[[cheap|barato]]", "[[or|o]]", "[[expensive|caro]]?"],
-      "explanation": "Pregunta sobre el costo de una actividad."
+      "title": "Uniformes Escolares",
+      "instructions": "Lee sobre los uniformes.",
+      "questions": [
+        {
+          "question": "[[What|Qué]] [[color|color]] [[is|es]] [[the|la]] [[skirt|falda]] [[for|para]] [[girls|chicas]]?",
+          "options": ["[[Blue|Azul]]", "[[Grey|Gris]]", "[[White|Blanca]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'The girls wear a blue skirt'."
+        },
+        {
+          "question": "[[What|Qué]] [[do|aux]] [[they|ellos]] [[wear|llevar]] [[in|en]] [[winter|invierno]]?",
+          "options": ["[[A dark blue sweater|Un jersey azul oscuro]]", "[[A jacket|Una chaqueta]]", "[[A coat|Un abrigo]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'In winter, we all wear a dark blue sweater'."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-18/e55.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u18-e56",
@@ -1166,16 +1149,22 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Tom and Jerry are friends. Tom likes gaming and photography. Jerry hates video games. He prefers fishing and gardening. They both like cycling in the mountains on Sundays. Cycling is their favorite social activity.",
+    "transcript": "Summer clothes. I love summer because I can wear my favorite clothes. I usually wear shorts, a t-shirt, and sandals. When I go to the beach, I wear my sunglasses and a big hat. I don't like wearing socks or boots when it is hot.",
     "content": {
-      "title": "Lectura: Tom y Jerry",
-      "instructions": "Lee el texto y responde.",
+      "title": "Ropa de Verano",
+      "instructions": "Lee sobre la ropa de verano.",
       "questions": [
         {
-          "question": "[[Who|Quién]] [[likes|gusta]] [[gaming|jugar]]? *\"Tom likes gaming and photography.\"*",
-          "options": ["[[Tom|Tom]]", "[[Jerry|Jerry]]", "[[Both|Ambos]]"],
+          "question": "[[What|Qué]] [[does|hace]] [[the|la]] [[person|persona]] [[wear|llevar]] [[at|en]] [[the|la]] [[beach|playa]]?",
+          "options": ["[[Sunglasses and a hat|Gafas de sol y sombrero]]", "[[Boots and a scarf|Botas y bufanda]]", "[[A suit|Un traje]]"],
           "correctAnswer": 0,
-          "explanation": "A Tom le gustan los videojuegos (gaming)."
+          "explanation": "El texto dice: 'I wear my sunglasses and a big hat'."
+        },
+        {
+          "question": "[[What|Qué]] [[doesn't|no]] [[he/she|él/ella]] [[like|gustar]] [[when|cuando]] [[it|hace]] [[is|está]] [[hot|calor]]?",
+          "options": ["[[Socks or boots|Calcetines o botas]]", "[[Sandals|Sandalias]]", "[[Shorts|Pantalones cortos]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'I don't like wearing socks or boots when it is hot'."
         }
       ]
     },
@@ -1188,16 +1177,22 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Tom and Jerry are friends. Tom likes gaming and photography. Jerry hates video games. He prefers fishing and gardening. They both like cycling in the mountains on Sundays. Cycling is their favorite social activity.",
+    "transcript": "A new jacket. Tom has a new jacket. It is a black leather jacket. He thinks it is very cool. He is wearing it today with his blue jeans and a white t-shirt. His sister thinks the jacket is too big, but Tom likes it very much. It was a birthday gift from his parents.",
     "content": {
-      "title": "Lectura: Tom y Jerry",
-      "instructions": "Lee el texto y responde.",
+      "title": "Una Chaqueta Nueva",
+      "instructions": "Lee sobre la chaqueta de Tom.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[does|does]] [[Jerry|Jerry]] [[prefer|preferir]]? *\"He prefers fishing and gardening.\"*",
-          "options": ["[[Fishing and gardening|Pesca y jardinería]]", "[[Video games|Videojuegos]]", "[[Photography|Fotografía]]"],
+          "question": "[[What|De qué]] [[material|material]] [[is|es]] [[the|la]] [[jacket|chaqueta]]?",
+          "options": ["[[Leather|Cuero]]", "[[Cotton|Algodón]]", "[[Wool|Lana]]"],
           "correctAnswer": 0,
-          "explanation": "Jerry prefiere la pesca y la jardinería."
+          "explanation": "El texto dice: 'It is a black leather jacket'."
+        },
+        {
+          "question": "[[Why|Por qué]] [[has|tiene]] [[he|él]] [[the|la]] [[jacket|chaqueta]]?",
+          "options": ["[[It was a birthday gift|Fue un regalo de cumple]]", "[[He bought it today|La compró hoy]]", "[[It's his father's|Es de su padre]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'It was a birthday gift from his parents'."
         }
       ]
     },
@@ -1210,16 +1205,22 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Tom and Jerry are friends. Tom likes gaming and photography. Jerry hates video games. He prefers fishing and gardening. They both like cycling in the mountains on Sundays. Cycling is their favorite social activity.",
+    "transcript": "The lost scarf. Emma is at the park. She is looking for her scarf. It is a long, green wool scarf. She thinks she left it on the bench near the lake. It is cold today, and she needs it. Finally, she finds it. A small boy is holding it. She is very happy.",
     "content": {
-      "title": "Lectura: Tom y Jerry",
-      "instructions": "Lee el texto y responde.",
+      "title": "La Bufanda Perdida",
+      "instructions": "Lee sobre Emma.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[is|es]] [[their|su]] [[favorite|favorita]] [[social|social]] [[activity|actividad]]? *\"Cycling is their favorite social activity.\"*",
-          "options": ["[[Cycling|Ciclismo]]", "[[Gaming|Jugar]]", "[[Fishing|Pescar]]"],
+          "question": "[[What|Cómo]] [[is|es]] [[the|la]] [[scarf|bufanda]]?",
+          "options": ["[[Long, green and wool|Larga, verde y de lana]]", "[[Short, red and silk|Corta, roja y de seda]]", "[[Old and brown|Vieja y marrón]]"],
           "correctAnswer": 0,
-          "explanation": "El ciclismo es su actividad social favorita."
+          "explanation": "El texto dice: 'It is a long, green wool scarf'."
+        },
+        {
+          "question": "[[Where|Dónde]] [[did|aux]] [[she|ella]] [[find|encontrar]] [[it|la]]?",
+          "options": ["[[A boy was holding it|Un niño la tenía]]", "[[On the bench|En el banco]]", "[[In the lake|En el lago]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'A small boy is holding it'."
         }
       ]
     },
@@ -1228,41 +1229,58 @@ export const UNIT_18_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u18-e59",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Likes",
-    "difficulty": "easy",
-    "transcript": "I love my new hobby!",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "transcript": "Preparing for a party. Mark is getting ready for his sister's wedding. He is wearing a black suit and a very clean white shirt. He is looking for his black tie, but he can't find it. He asks his brother, and his brother has it! Now he is ready. He looks very smart.",
     "content": {
-      "title": "Encantar",
-      "instructions": "Ordena la frase emocional.",
-      "correctSentence": "[[I|Yo]] [[love|amo]] [[my|mi]] [[new|nuevo]] [[hobby|hobby]]!",
-      "words": ["[[I|Yo]]", "[[love|amo]]", "[[my|mi]]", "[[new|nuevo]]", "[[hobby|hobby]]!"],
-      "explanation": "'Love' expresa una emoción fuerte de agrado."
+      "title": "Preparándose para la Fiesta",
+      "instructions": "Lee sobre Mark.",
+      "questions": [
+        {
+          "question": "[[What|Qué]] [[is|está]] [[Mark|Mark]] [[looking|buscando]] [[for|por]]?",
+          "options": ["[[His black tie|Su corbata negra]]", "[[His white shirt|Su camisa blanca]]", "[[His shoes|Sus zapatos]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'He is looking for his black tie'."
+        },
+        {
+          "question": "[[Who|Quién]] [[had|tenía]] [[the|el]] [[item|objeto]]?",
+          "options": ["[[His brother|Su hermano]]", "[[His sister|Su hermana]]", "[[His mother|Su madre]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'his brother has it!'."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-18/e59.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u18-e60",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Hobbies",
+    "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Do you enjoy learning English?",
+    "transcript": "Winter morning. On a cold winter morning, I put on many clothes. First, I put on my socks and pants. Then, I put on a warm sweater. I wear my heavy coat, a hat, and gloves. Finally, I put on my boots. Now I am ready to go outside in the snow!",
     "content": {
-      "title": "Aprender Inglés",
-      "instructions": "Completa con la forma -ing.",
+      "title": "Mañana de Invierno",
+      "instructions": "Lee sobre la rutina de vestirse.",
       "questions": [
         {
-          "question": "[[Do|Do]] [[you|tú]] [[enjoy|disfrutar]] _______ [[English|inglés]]?",
-          "options": ["[[learning|aprender]]", "[[learn|aprender]]", "[[learned|aprendido]]"],
+          "question": "[[What|Qué]] [[is|es]] [[the|el]] [[weather|tiempo]] [[like|como]]?",
+          "options": ["[[Cold and snowy|Frío y con nieve]]", "[[Hot and sunny|Calor y sol]]", "[[Rainy|Lluvia]]"],
           "correctAnswer": 0,
-          "explanation": "'Enjoy' va seguido de la forma -ing."
+          "explanation": "El texto menciona 'cold winter morning' y 'snow'."
+        },
+        {
+          "question": "[[What|Qué]] [[is|es]] [[the|la]] [[last|última]] [[thing|cosa]] [[he/she|él/ella]] [[puts|pone]] [[on|puesto]]?",
+          "options": ["[[Boots|Botas]]", "[[Gloves|Guantes]]", "[[Sweater|Jersey]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'Finally, I put on my boots'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-18/e60.mp3",
-    "topicName": "Grammar"
+    "topicName": "Reading"
   }
 ];

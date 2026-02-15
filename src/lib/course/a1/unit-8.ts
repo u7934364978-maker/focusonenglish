@@ -5,23 +5,22 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "id": "a1-u8-e1",
     "type": "flashcard",
     "level": "A1",
-    "topic": "Clothing",
+    "topic": "Numbers 20-100",
     "difficulty": "easy",
-    "transcript": "Shirt. Pants. Dress. Shoes. T-shirt. Skirt. Jacket. Hat. Socks. Coat.",
+    "transcript": "Twenty. Thirty. Forty. Fifty. Sixty. Seventy. Eighty. Ninety. One hundred.",
     "content": {
-      "title": "Vocabulario: Ropa",
-      "instructions": "Aprende los nombres de prendas de vestir comunes.",
+      "title": "Vocabulario: Decenas (20-100)",
+      "instructions": "Aprende las decenas en inglés.",
       "items": [
-        { "front": "[[Shirt|Camisa]]", "back": "Camisa" },
-        { "front": "[[Pants|Pantalones]]", "back": "Pantalones" },
-        { "front": "[[Dress|Vestido]]", "back": "Vestido" },
-        { "front": "[[Shoes|Zapatos]]", "back": "Zapatos" },
-        { "front": "[[T-shirt|Camiseta]]", "back": "Camiseta" },
-        { "front": "[[Skirt|Falda]]", "back": "Falda" },
-        { "front": "[[Jacket|Chaqueta]]", "back": "Chaqueta" },
-        { "front": "[[Hat|Sombrero]]", "back": "Sombrero" },
-        { "front": "[[Socks|Calcetines]]", "back": "Calcetines" },
-        { "front": "[[Coat|Abrigo]]", "back": "Abrigo" }
+        { "front": "[[Twenty|Veinte]]", "back": "Veinte" },
+        { "front": "[[Thirty|Treinta]]", "back": "Treinta" },
+        { "front": "[[Forty|Cuarenta]]", "back": "Cuarenta" },
+        { "front": "[[Fifty|Cincuenta]]", "back": "Cincuenta" },
+        { "front": "[[Sixty|Sesenta]]", "back": "Sesenta" },
+        { "front": "[[Seventy|Setenta]]", "back": "Setenta" },
+        { "front": "[[Eighty|Ochenta]]", "back": "Ochenta" },
+        { "front": "[[Ninety|Noventa]]", "back": "Noventa" },
+        { "front": "[[One hundred|Cien]]", "back": "Cien" }
       ]
     },
     "audioUrl": "audio/a1/unit-8/e1.mp3",
@@ -31,23 +30,21 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "id": "a1-u8-e2",
     "type": "flashcard",
     "level": "A1",
-    "topic": "Money & Shopping",
+    "topic": "Numbers 20-100",
     "difficulty": "easy",
-    "transcript": "Money. Cash. Credit card. Price. Receipt. Sale. Discount. Buy. Sell. Pay.",
+    "transcript": "Twenty-one. Thirty-five. Forty-two. Fifty-seven. Sixty-three. Seventy-four. Eighty-nine. Ninety-six.",
     "content": {
-      "title": "Vocabulario: Compras y Dinero",
-      "instructions": "Aprende palabras relacionadas con ir de compras.",
+      "title": "Vocabulario: Números Compuestos",
+      "instructions": "Aprende cómo se forman los números entre las decenas.",
       "items": [
-        { "front": "[[Money|Dinero]]", "back": "Dinero" },
-        { "front": "[[Cash|Efectivo]]", "back": "Efectivo" },
-        { "front": "[[Credit card|Tarjeta de crédito]]", "back": "Tarjeta de crédito" },
-        { "front": "[[Price|Precio]]", "back": "Precio" },
-        { "front": "[[Receipt|Recibo/Ticket]]", "back": "Recibo/Ticket" },
-        { "front": "[[Sale|Rebajas/Venta]]", "back": "Rebajas/Venta" },
-        { "front": "[[Discount|Descuento]]", "back": "Descuento" },
-        { "front": "[[Buy|Comprar]]", "back": "Comprar" },
-        { "front": "[[Sell|Vender]]", "back": "Vender" },
-        { "front": "[[Pay|Pagar]]", "back": "Pagar" }
+        { "front": "[[Twenty-one|Veintiuno]]", "back": "Veintiuno" },
+        { "front": "[[Thirty-five|Treinta y cinco]]", "back": "Treinta y cinco" },
+        { "front": "[[Forty-two|Cuarenta y dos]]", "back": "Cuarenta y dos" },
+        { "front": "[[Fifty-seven|Cincuenta y siete]]", "back": "Cincuenta y siete" },
+        { "front": "[[Sixty-three|Sesenta y tres]]", "back": "Sesenta y tres" },
+        { "front": "[[Seventy-four|Setenta y cuatro]]", "back": "Setenta y cuatro" },
+        { "front": "[[Eighty-nine|Ochenta y nueve]]", "back": "Ochenta y nueve" },
+        { "front": "[[Ninety-six|Noventa y seis]]", "back": "Noventa y seis" }
       ]
     },
     "audioUrl": "audio/a1/unit-8/e2.mp3",
@@ -59,57 +56,57 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Prices",
     "difficulty": "easy",
-    "transcript": "How much is this shirt?",
+    "transcript": "This book is twenty-five dollars.",
     "content": {
-      "title": "Preguntar el Precio",
-      "instructions": "Completa la pregunta.",
+      "title": "Precios: 25",
+      "instructions": "Elige el número correcto.",
       "questions": [
         {
-          "question": "[[How|Cómo]] (_____) [[is|es]] [[this|esta]] [[shirt|camisa]]?",
-          "options": ["[[much|mucho]]", "[[many|muchos]]", "[[old|viejo]]"],
+          "question": "[[This|Este]] [[book|libro]] [[is|cuesta]] (_____) [[dollars|dólares]].",
+          "options": ["[[twenty-five|veinticinco]]", "[[thirty-five|treinticinco]]", "[[fifteen|quince]]"],
           "correctAnswer": 0,
-          "explanation": "Usamos 'How much' para preguntar el precio."
+          "explanation": "25 se dice 'twenty-five'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-8/e3.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u8-e4",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Demonstratives",
+    "topic": "Ages",
     "difficulty": "easy",
-    "transcript": "These shoes are very expensive.",
+    "transcript": "I am thirty years old.",
     "content": {
-      "title": "Demostrativos: Plural",
-      "instructions": "Elige la palabra correcta.",
+      "title": "Edad: 30",
+      "instructions": "Completa la frase sobre la edad.",
       "questions": [
         {
-          "question": "(_____) [[shoes|zapatos]] [[are|son]] [[very|muy]] [[expensive|caros]].",
-          "options": ["[[This|Este]]", "[[These|Estos]]", "[[That|Ese]]"],
-          "correctAnswer": 1,
-          "explanation": "Usamos 'These' para plurales cercanos."
+          "question": "[[I|Yo]] [[am|tengo]] (_____) [[years|años]] [[old|de edad]].",
+          "options": ["[[thirty|treinta]]", "[[thirteen|trece]]", "[[three|tres]]"],
+          "correctAnswer": 0,
+          "explanation": "30 se dice 'thirty'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-8/e4.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u8-e5",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Shopping",
+    "topic": "Prices",
     "difficulty": "easy",
-    "transcript": "I want to buy a new jacket.",
+    "transcript": "The shirt is forty-two euros.",
     "content": {
-      "title": "Querer Comprar",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[I|Yo]] [[want|querer]] [[to|a]] [[buy|comprar]] [[a|una]] [[new|nueva]] [[jacket|chaqueta]].",
-      "words": ["[[buy|comprar]]", "[[jacket|chaqueta]].", "[[new|nueva]]", "[[I|Yo]]", "[[want|querer]]", "[[to|a]]", "[[a|una]]"],
-      "explanation": "Uso de 'want to' + verbo en infinitivo."
+      "title": "Precio de la Camisa",
+      "instructions": "Ordena las palabras para decir el precio.",
+      "correctSentence": "[[The|La]] [[shirt|camisa]] [[is|cuesta]] [[forty-two|cuarenta y dos]] [[euros|euros]].",
+      "words": ["[[euros|euros]].", "[[forty-two|cuarenta y dos]]", "[[is|cuesta]]", "[[shirt|camisa]]", "[[The|La]]"],
+      "explanation": "Estructura básica para decir precios."
     },
     "audioUrl": "audio/a1/unit-8/e5.mp3",
     "topicName": "Grammar"
@@ -118,37 +115,37 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "id": "a1-u8-e6",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Prices",
+    "topic": "Numbers 20-100",
     "difficulty": "easy",
-    "transcript": "It costs twenty euros.",
+    "transcript": "Fifty plus ten is sixty.",
     "content": {
-      "title": "Decir el Precio",
-      "instructions": "Completa con el verbo correcto.",
+      "title": "Matemáticas Básicas",
+      "instructions": "Resuelve la suma.",
       "questions": [
         {
-          "question": "[[It|Esto]] (_____) [[twenty|veinte]] [[euros|euros]].",
-          "options": ["[[costs|cuesta]]", "[[pays|paga]]", "[[buys|compra]]"],
+          "question": "[[Fifty|Cincuenta]] [[plus|más]] [[ten|diez]] [[is|es]] (_____).",
+          "options": ["[[sixty|sesenta]]", "[[forty|cuarenta]]", "[[seventy|setenta]]"],
           "correctAnswer": 0,
-          "explanation": "'Costs' significa cuesta."
+          "explanation": "50 + 10 = 60 (sixty)."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-8/e6.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u8-e7",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Shopping",
+    "topic": "Phone Numbers",
     "difficulty": "easy",
-    "transcript": "Can I pay by credit card?",
+    "transcript": "My phone number is five-five-five-eight-zero.",
     "content": {
-      "title": "Pagar con Tarjeta",
+      "title": "Número de Teléfono",
       "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Can|Puedo]] [[I|yo]] [[pay|pagar]] [[by|con]] [[credit|crédito]] [[card|tarjeta]]?",
-      "words": ["[[pay|pagar]]", "[[card|tarjeta]]?", "[[Can|Puedo]]", "[[I|yo]]", "[[by|con]]", "[[credit|crédito]]"],
-      "explanation": "Forma común de preguntar si aceptan tarjeta."
+      "correctSentence": "[[My|Mi]] [[phone|teléfono]] [[number|número]] [[is|es]] [[55580|55580]].",
+      "words": ["[[55580|55580]].", "[[is|es]]", "[[number|número]]", "[[phone|teléfono]]", "[[My|Mi]]"],
+      "explanation": "Los números de teléfono se dicen cifra por cifra."
     },
     "audioUrl": "audio/a1/unit-8/e7.mp3",
     "topicName": "Vocabulary"
@@ -157,18 +154,18 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "id": "a1-u8-e8",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Demonstratives",
+    "topic": "Ages",
     "difficulty": "easy",
-    "transcript": "That dress is beautiful.",
+    "transcript": "How old is your father? He is fifty-five.",
     "content": {
-      "title": "Demostrativos: Singular Lejano",
-      "instructions": "Elige la opción correcta.",
+      "title": "Edad del Padre",
+      "instructions": "Elige la respuesta correcta.",
       "questions": [
         {
-          "question": "(_____) [[dress|vestido]] [[is|es]] [[beautiful|hermoso]].",
-          "options": ["[[This|Este]]", "[[That|Ese]]", "[[These|Estos]]"],
-          "correctAnswer": 1,
-          "explanation": "Usamos 'That' para algo singular que está lejos."
+          "question": "[[How|Qué]] [[old|tan viejo]] [[is|es]] [[your|tu]] [[father|padre]]?",
+          "options": ["[[He is fifty-five|Él tiene cincuenta y cinco]]", "[[He is fine|Él está bien]]", "[[He is at home|Él está en casa]]"],
+          "correctAnswer": 0,
+          "explanation": "Para preguntar la edad usamos 'How old'."
         }
       ]
     },
@@ -179,15 +176,15 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "id": "a1-u8-e9",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Shopping",
+    "topic": "Numbers 20-100",
     "difficulty": "easy",
-    "transcript": "Where is the dressing room?",
+    "transcript": "There are seventy students in the class.",
     "content": {
-      "title": "El Probador",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Where|Dónde]] [[is|está]] [[the|el]] [[dressing|vestidor]] [[room|habitación]]?",
-      "words": ["[[is|está]]", "[[room|habitación]]?", "[[dressing|vestidor]]", "[[the|el]]", "[[Where|Dónde]]"],
-      "explanation": "'Dressing room' es el probador."
+      "title": "Estudiantes",
+      "instructions": "Ordena la oración con el número 70.",
+      "correctSentence": "[[There|Hay]] [[are|son]] [[seventy|setenta]] [[students|estudiantes]] [[in|en]] [[the|la]] [[class|clase]].",
+      "words": ["[[class|clase]].", "[[the|la]]", "[[in|en]]", "[[students|estudiantes]]", "[[seventy|setenta]]", "[[are|son]]", "[[There|Hay]]"],
+      "explanation": "70 se escribe 'seventy'."
     },
     "audioUrl": "audio/a1/unit-8/e9.mp3",
     "topicName": "Vocabulary"
@@ -196,18 +193,18 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "id": "a1-u8-e10",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary",
+    "topic": "Prices",
     "difficulty": "easy",
-    "transcript": "Do you have a smaller size?",
+    "transcript": "The ticket costs eighty-four dollars.",
     "content": {
-      "title": "Tallas",
-      "instructions": "Elige la palabra para 'talla'.",
+      "title": "Precio del Ticket",
+      "instructions": "Elige el número 84 en inglés.",
       "questions": [
         {
-          "question": "[[Do|Hacer]] [[you|tú]] [[have|tienes]] [[a|una]] [[smaller|más pequeña]] (_____) ?",
-          "options": ["[[color|color]]", "[[size|talla]]", "[[price|precio]]"],
-          "correctAnswer": 1,
-          "explanation": "'Size' significa talla o tamaño."
+          "question": "[[The|El]] [[ticket|boleto]] [[costs|cuesta]] (_____) [[dollars|dólares]].",
+          "options": ["[[eighty-four|ochenta y cuatro]]", "[[forty-eight|cuarenta y ocho]]", "[[eighteen|dieciocho]]"],
+          "correctAnswer": 0,
+          "explanation": "84 se dice 'eighty-four'."
         }
       ]
     },
@@ -218,15 +215,15 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "id": "a1-u8-e11",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Shopping",
+    "topic": "Ages",
     "difficulty": "easy",
-    "transcript": "I need some blue socks.",
+    "transcript": "My grandmother is ninety-two years old.",
     "content": {
-      "title": "Necesitar",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[I|Yo]] [[need|necesitar]] [[some|algunos]] [[blue|azules]] [[socks|calcetines]].",
-      "words": ["[[blue|azules]]", "[[socks|calcetines]].", "[[need|necesitar]]", "[[some|algunos]]", "[[I|Yo]]"],
-      "explanation": "Expresando una necesidad de compra."
+      "title": "La Abuela",
+      "instructions": "Ordena la oración sobre la edad de la abuela.",
+      "correctSentence": "[[My|Mi]] [[grandmother|abuela]] [[is|tiene]] [[ninety-two|noventa y dos]] [[years|años]] [[old|de edad]].",
+      "words": ["[[old|de edad]].", "[[years|años]]", "[[ninety-two|noventa y dos]]", "[[is|tiene]]", "[[grandmother|abuela]]", "[[My|Mi]]"],
+      "explanation": "92 se dice 'ninety-two'."
     },
     "audioUrl": "audio/a1/unit-8/e11.mp3",
     "topicName": "Vocabulary"
@@ -235,18 +232,18 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "id": "a1-u8-e12",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Prices",
+    "topic": "Numbers 20-100",
     "difficulty": "easy",
-    "transcript": "These pants are on sale.",
+    "transcript": "Twenty, twenty-one, twenty-two, twenty-three.",
     "content": {
-      "title": "En Oferta",
-      "instructions": "Completa la oración.",
+      "title": "Secuencias",
+      "instructions": "¿Qué número sigue?",
       "questions": [
         {
-          "question": "[[These|Estos]] [[pants|pantalones]] [[are|están]] [[on|en]] (_____) .",
-          "options": ["[[sale|oferta]]", "[[cash|efectivo]]", "[[price|precio]]"],
+          "question": "[[Twenty-three|Veintitrés]], (_____).",
+          "options": ["[[twenty-four|veinticuatro]]", "[[twenty-two|veintidós]]", "[[thirty-four|treinticuatro]]"],
           "correctAnswer": 0,
-          "explanation": "'On sale' significa que está rebajado o en oferta."
+          "explanation": "Después de 23 (twenty-three) viene 24 (twenty-four)."
         }
       ]
     },
@@ -255,26 +252,17 @@ export const UNIT_8_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u8-e13",
-    "type": "flashcard",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Colors for Clothes",
+    "topic": "Prices",
     "difficulty": "easy",
-    "transcript": "Red shirt. Blue pants. Green hat. Black shoes. White t-shirt. Yellow skirt. Brown jacket. Gray coat. Pink dress. Orange socks.",
+    "transcript": "These shoes are sixty-nine euros.",
     "content": {
-      "title": "Colores en la Ropa",
-      "instructions": "Aprende a describir la ropa con colores.",
-      "items": [
-        { "front": "[[Red shirt|Camisa roja]]", "back": "Camisa roja" },
-        { "front": "[[Blue pants|Pantalones azules]]", "back": "Pantalones azules" },
-        { "front": "[[Green hat|Sombrero verde]]", "back": "Sombrero verde" },
-        { "front": "[[Black shoes|Zapatos negros]]", "back": "Zapatos negros" },
-        { "front": "[[White t-shirt|Camiseta blanca]]", "back": "Camiseta blanca" },
-        { "front": "[[Yellow skirt|Falda amarilla]]", "back": "Falda amarilla" },
-        { "front": "[[Brown jacket|Chaqueta marrón]]", "back": "Chaqueta marrón" },
-        { "front": "[[Gray coat|Abrigo gris]]", "back": "Abrigo gris" },
-        { "front": "[[Pink dress|Vestido rosa]]", "back": "Vestido rosa" },
-        { "front": "[[Orange socks|Calcetines naranjas]]", "back": "Calcetines naranjas" }
-      ]
+      "title": "Zapatos",
+      "instructions": "Ordena para decir el precio de los zapatos.",
+      "correctSentence": "[[These|Estos]] [[shoes|zapatos]] [[are|cuestan]] [[sixty-nine|sesenta y nueve]] [[euros|euros]].",
+      "words": ["[[euros|euros]].", "[[sixty-nine|sesenta y nueve]]", "[[are|cuestan]]", "[[shoes|zapatos]]", "[[These|Estos]]"],
+      "explanation": "69 se dice 'sixty-nine'."
     },
     "audioUrl": "audio/a1/unit-8/e13.mp3",
     "topicName": "Vocabulary"
@@ -283,76 +271,76 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "id": "a1-u8-e14",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Demonstratives",
-    "difficulty": "easy",
-    "transcript": "Those hats are very cheap.",
+    "topic": "Numbers 20-100",
+    "difficulty": "medium",
+    "transcript": "One hundred minus thirty is seventy.",
     "content": {
-      "title": "Demostrativos: Plural Lejano",
-      "instructions": "Elige la palabra correcta.",
+      "title": "Resta",
+      "instructions": "Resuelve la operación.",
       "questions": [
         {
-          "question": "(_____) [[hats|sombreros]] [[are|son]] [[very|muy]] [[cheap|baratos]].",
-          "options": ["[[These|Estos]]", "[[Those|Esos]]", "[[This|Este]]"],
-          "correctAnswer": 1,
-          "explanation": "Usamos 'Those' para plurales alejados."
+          "question": "[[One hundred|Cien]] [[minus|menos]] [[thirty|treinta]] [[is|es]] (_____).",
+          "options": ["[[seventy|setenta]]", "[[sixty|sesenta]]", "[[eighty|ochenta]]"],
+          "correctAnswer": 0,
+          "explanation": "100 - 30 = 70 (seventy)."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-8/e14.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u8-e15",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Shopping",
+    "topic": "Phone Numbers",
     "difficulty": "easy",
-    "transcript": "I pay in cash, please.",
+    "transcript": "What is your office number?",
     "content": {
-      "title": "Pagar en Efectivo",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[I|Yo]] [[pay|pagar]] [[in|en]] [[cash|efectivo]], [[please|por favor]].",
-      "words": ["[[cash|efectivo]],", "[[pay|pagar]]", "[[please|por favor]].", "[[I|Yo]]", "[[in|en]]"],
-      "explanation": "'In cash' significa en efectivo."
+      "title": "Número de Oficina",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[What|Cuál]] [[is|es]] [[your|tu]] [[office|oficina]] [[number|número]]?",
+      "words": ["[[number|número]]?", "[[office|oficina]]", "[[your|tu]]", "[[is|es]]", "[[What|Cuál]]"],
+      "explanation": "Preguntando por un número específico."
     },
     "audioUrl": "audio/a1/unit-8/e15.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u8-e16",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Prices",
+    "topic": "Numbers 20-100",
     "difficulty": "easy",
-    "transcript": "How much are these shoes?",
+    "transcript": "My house number is forty-seven.",
     "content": {
-      "title": "Precios en Plural",
-      "instructions": "Completa la pregunta.",
+      "title": "Número de Casa",
+      "instructions": "Elige el número 47.",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[much|mucho]] (_____) [[these|estos]] [[shoes|zapatos]]?",
-          "options": ["[[is|es]]", "[[are|son]]", "[[do|hacen]]"],
-          "correctAnswer": 1,
-          "explanation": "Usamos 'are' porque 'shoes' es plural."
+          "question": "[[My|Mi]] [[house|casa]] [[number|número]] [[is|es]] (_____).",
+          "options": ["[[forty-seven|cuarenta y siete]]", "[[seventy-four|setenta y cuatro]]", "[[fifty-seven|cincuenta y siete]]"],
+          "correctAnswer": 0,
+          "explanation": "47 se dice 'forty-seven'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-8/e16.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u8-e17",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Shopping",
+    "topic": "Ages",
     "difficulty": "easy",
-    "transcript": "This shirt is too small.",
+    "transcript": "She is twenty-eight years old.",
     "content": {
-      "title": "Demasiado Pequeño",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[This|Esta]] [[shirt|camisa]] [[is|es]] [[too|demasiado]] [[small|pequeña]].",
-      "words": ["[[shirt|camisa]]", "[[too|demasiado]]", "[[is|es]]", "[[small|pequeña]].", "[[This|Esta]]"],
-      "explanation": "'Too small' significa demasiado pequeño/a."
+      "title": "Edad de Ella",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[She|Ella]] [[is|tiene]] [[twenty-eight|veintiocho]] [[years|años]] [[old|de edad]].",
+      "words": ["[[old|de edad]].", "[[years|años]]", "[[twenty-eight|veintiocho]]", "[[is|tiene]]", "[[She|Ella]]"],
+      "explanation": "28 se dice 'twenty-eight'."
     },
     "audioUrl": "audio/a1/unit-8/e17.mp3",
     "topicName": "Vocabulary"
@@ -361,18 +349,18 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "id": "a1-u8-e18",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary",
-    "difficulty": "easy",
-    "transcript": "Can I have a discount?",
+    "topic": "Numbers 20-100",
+    "difficulty": "medium",
+    "transcript": "Forty plus forty is eighty.",
     "content": {
-      "title": "Descuento",
-      "instructions": "Completa con la palabra 'descuento'.",
+      "title": "Suma Doble",
+      "instructions": "Resuelve la suma.",
       "questions": [
         {
-          "question": "[[Can|Puedo]] [[I|yo]] [[have|tener]] [[a|un]] (_____) ?",
-          "options": ["[[discount|descuento]]", "[[price|precio]]", "[[receipt|recibo]]"],
+          "question": "[[Forty|Cuarenta]] [[plus|más]] [[forty|cuarenta]] [[is|es]] (_____).",
+          "options": ["[[eighty|ochenta]]", "[[sixty|sesenta]]", "[[ninety|noventa]]"],
           "correctAnswer": 0,
-          "explanation": "Discount es un descuento en el precio."
+          "explanation": "40 + 40 = 80 (eighty)."
         }
       ]
     },
@@ -383,15 +371,15 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "id": "a1-u8-e19",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Shopping",
-    "difficulty": "easy",
-    "transcript": "Where can I buy a hat?",
+    "topic": "Prices",
+    "difficulty": "medium",
+    "transcript": "The dinner is fifty-six dollars.",
     "content": {
-      "title": "Dónde Comprar",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Where|Dónde]] [[can|puedo]] [[I|yo]] [[buy|comprar]] [[a|un]] [[hat|sombrero]]?",
-      "words": ["[[I|yo]]", "[[hat|sombrero]]?", "[[buy|comprar]]", "[[Where|Dónde]]", "[[can|puedo]]", "[[a|un]]"],
-      "explanation": "Pregunta común para localizar tiendas."
+      "title": "La Cena",
+      "instructions": "Ordena la oración sobre el precio de la cena.",
+      "correctSentence": "[[The|La]] [[dinner|cena]] [[is|cuesta]] [[fifty-six|cincuenta y seis]] [[dollars|dólares]].",
+      "words": ["[[dollars|dólares]].", "[[fifty-six|cincuenta y seis]]", "[[is|cuesta]]", "[[dinner|cena]]", "[[The|La]]"],
+      "explanation": "56 se dice 'fifty-six'."
     },
     "audioUrl": "audio/a1/unit-8/e19.mp3",
     "topicName": "Vocabulary"
@@ -400,37 +388,42 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "id": "a1-u8-e20",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Demonstratives",
+    "topic": "Numbers 20-100",
     "difficulty": "easy",
-    "transcript": "This dress costs forty dollars.",
+    "transcript": "The bus number is thirty-two.",
     "content": {
-      "title": "Precio con Demostrativo",
-      "instructions": "Elige la opción correcta.",
+      "title": "Número de Autobús",
+      "instructions": "Elige el número 32.",
       "questions": [
         {
-          "question": "(_____) [[dress|vestido]] [[costs|cuesta]] [[forty|cuarenta]] [[dollars|dólares]].",
-          "options": ["[[This|Este]]", "[[These|Estos]]", "[[Those|Esos]]"],
+          "question": "[[The|El]] [[bus|autobús]] [[number|número]] [[is|es]] (_____).",
+          "options": ["[[thirty-two|treinta y dos]]", "[[twenty-three|veintitrés]]", "[[forty-two|cuarenta y dos]]"],
           "correctAnswer": 0,
-          "explanation": "Usamos 'This' para un objeto singular cercano."
+          "explanation": "32 se dice 'thirty-two'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-8/e20.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u8-e21",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Shopping",
+    "topic": "Numbers 20-100",
     "difficulty": "easy",
-    "transcript": "He sells beautiful clothes.",
+    "transcript": "Twenty. Thirty. Forty. Fifty. Sixty. Seventy. Eighty. Ninety. One hundred.",
     "content": {
-      "title": "Vender Ropa",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[He|Él]] [[sells|vende]] [[beautiful|hermosa]] [[clothes|ropa]].",
-      "words": ["[[clothes|ropa]].", "[[sells|vende]]", "[[beautiful|hermosa]]", "[[He|Él]]"],
-      "explanation": "'Sells' es la forma de tercera persona del verbo vender."
+      "title": "Decenas",
+      "instructions": "¿Cuál es el número 50?",
+      "questions": [
+        {
+          "question": "[[Number|Número]] [[50|50]] [[is|es]] (_____).",
+          "options": ["[[fifty|cincuenta]]", "[[fifteen|quince]]", "[[five|cinco]]"],
+          "correctAnswer": 0,
+          "explanation": "50 se dice 'fifty'."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-8/e21.mp3",
     "topicName": "Vocabulary"
@@ -439,18 +432,18 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "id": "a1-u8-e22",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary",
+    "topic": "Numbers 20-100",
     "difficulty": "easy",
-    "transcript": "I need my receipt, please.",
+    "transcript": "Number eighty.",
     "content": {
-      "title": "El Recibo",
-      "instructions": "Elige la palabra correcta.",
+      "title": "Decenas",
+      "instructions": "¿Cuál es el número 80?",
       "questions": [
         {
-          "question": "[[I|Yo]] [[need|necesito]] [[my|mi]] (_____) , [[please|por favor]].",
-          "options": ["[[receipt|recibo]]", "[[money|dinero]]", "[[card|tarjeta]]"],
+          "question": "[[Number|Número]] [[80|80]] [[is|es]] (_____).",
+          "options": ["[[eighty|ochenta]]", "[[eighteen|dieciocho]]", "[[eight|ocho]]"],
           "correctAnswer": 0,
-          "explanation": "Receipt es el ticket o recibo de compra."
+          "explanation": "80 se dice 'eighty'."
         }
       ]
     },
@@ -461,113 +454,113 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "id": "a1-u8-e23",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Grammar",
+    "topic": "Prices",
     "difficulty": "easy",
-    "transcript": "These shoes are on sale today.",
+    "transcript": "This hat is twenty-two dollars.",
     "content": {
-      "title": "Zapatos en Oferta",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[These|Estos]] [[shoes|zapatos]] [[are|están]] [[on|en]] [[sale|oferta]] [[today|hoy]].",
-      "words": ["[[shoes|zapatos]]", "[[today|hoy]].", "[[sale|oferta]]", "[[are|están]]", "[[These|Estos]]", "[[on|en]]"],
-      "explanation": "Estructura de plural con oferta."
+      "title": "El Sombrero",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[This|Este]] [[hat|sombrero]] [[is|cuesta]] [[twenty-two|veintidós]] [[dollars|dólares]].",
+      "words": ["[[dollars|dólares]].", "[[twenty-two|veintidós]]", "[[is|cuesta]]", "[[hat|sombrero]]", "[[This|Este]]"],
+      "explanation": "22 se dice 'twenty-two'."
     },
     "audioUrl": "audio/a1/unit-8/e23.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u8-e24",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Prices",
+    "topic": "Ages",
     "difficulty": "easy",
-    "transcript": "How much is the blue coat?",
+    "transcript": "How old is your sister? She is twenty-four.",
     "content": {
-      "title": "Precio del Abrigo",
-      "instructions": "Completa la pregunta.",
+      "title": "La Hermana",
+      "instructions": "Responde a la pregunta.",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[much|mucho]] [[is|es]] [[the|el]] [[blue|azul]] (_____) ?",
-          "options": ["[[coat|abrigo]]", "[[socks|calcetines]]", "[[shoes|zapatos]]"],
+          "question": "[[How|Qué]] [[old|tan vieja]] [[is|es]] [[your|tu]] [[sister|hermana]]?",
+          "options": ["[[She is twenty-four|Ella tiene veinticuatro]]", "[[She is small|Ella es pequeña]]", "[[She is happy|Ella está feliz]]"],
           "correctAnswer": 0,
-          "explanation": "Coat es abrigo."
+          "explanation": "24 se dice 'twenty-four'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-8/e24.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u8-e25",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Shopping",
-    "difficulty": "easy",
-    "transcript": "I would like to pay by card.",
+    "topic": "Numbers 20-100",
+    "difficulty": "medium",
+    "transcript": "Seventy-five plus five is eighty.",
     "content": {
-      "title": "Quisiera Pagar con Tarjeta",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[I|Yo]] [[would|quisiera]] [[like|gustar]] [[to|a]] [[pay|pagar]] [[by|por/con]] [[card|tarjeta]].",
-      "words": ["[[to|a]]", "[[card|tarjeta]].", "[[pay|pagar]]", "[[like|gustar]]", "[[I|Yo]]", "[[would|quisiera]]", "[[by|por/con]]"],
-      "explanation": "Forma educada de expresar cómo quieres pagar."
+      "title": "Suma",
+      "instructions": "Ordena la operación matemática.",
+      "correctSentence": "[[Seventy-five|Setenta y cinco]] [[plus|más]] [[five|cinco]] [[is|es]] [[eighty|ochenta]].",
+      "words": ["[[eighty|ochenta]].", "[[is|es]]", "[[five|cinco]]", "[[plus|más]]", "[[Seventy-five|Setenta y cinco]]"],
+      "explanation": "75 + 5 = 80."
     },
     "audioUrl": "audio/a1/unit-8/e25.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u8-e26",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Demonstratives",
+    "topic": "Prices",
     "difficulty": "easy",
-    "transcript": "Those pants are too long.",
+    "transcript": "The room is ninety dollars per night.",
     "content": {
-      "title": "Pantalones Largos",
-      "instructions": "Elige la palabra correcta.",
+      "title": "La Habitación",
+      "instructions": "Elige el número 90.",
       "questions": [
         {
-          "question": "(_____) [[pants|pantalones]] [[are|son]] [[too|demasiado]] [[long|largos]].",
-          "options": ["[[That|Ese]]", "[[Those|Esos]]", "[[This|Este]]"],
-          "correctAnswer": 1,
-          "explanation": "Pants siempre es plural, por eso usamos 'Those'."
+          "question": "[[The|La]] [[room|habitación]] [[is|cuesta]] (_____) [[dollars|dólares]].",
+          "options": ["[[ninety|noventa]]", "[[nineteen|diecinueve]]", "[[nine|nueve]]"],
+          "correctAnswer": 0,
+          "explanation": "90 se dice 'ninety'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-8/e26.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u8-e27",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Shopping",
-    "difficulty": "easy",
-    "transcript": "Is there a discount on this hat?",
+    "topic": "Phone Numbers",
+    "difficulty": "medium",
+    "transcript": "My mobile number is nine-eight-seven-six-five.",
     "content": {
-      "title": "Preguntar por Descuento",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Is|Hay]] [[there|allí]] [[a|un]] [[discount|descuento]] [[on|en]] [[this|este]] [[hat|sombrero]]?",
-      "words": ["[[discount|descuento]]", "[[hat|sombrero]]?", "[[Is|Hay]]", "[[there|allí]]", "[[this|este]]", "[[on|en]]", "[[a|un]]"],
-      "explanation": "Preguntar si algo tiene descuento."
+      "title": "Móvil",
+      "instructions": "Ordena el número de móvil.",
+      "correctSentence": "[[My|Mi]] [[mobile|móvil]] [[number|número]] [[is|es]] [[98765|98765]].",
+      "words": ["[[98765|98765]].", "[[is|es]]", "[[number|número]]", "[[mobile|móvil]]", "[[My|Mi]]"],
+      "explanation": "Dando el número de móvil."
     },
     "audioUrl": "audio/a1/unit-8/e27.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u8-e28",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary",
+    "topic": "Ages",
     "difficulty": "easy",
-    "transcript": "I love these leather shoes.",
+    "transcript": "He is sixty-one years old.",
     "content": {
-      "title": "Zapatos de Cuero",
-      "instructions": "Completa con la palabra 'cuero'.",
+      "title": "Edad",
+      "instructions": "Elige el número 61.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[love|amo]] [[these|estos]] (_____) [[shoes|zapatos]].",
-          "options": ["[[leather|cuero]]", "[[paper|papel]]", "[[water|agua]]"],
+          "question": "[[He|Él]] [[is|tiene]] (_____) [[years|años]] [[old|de edad]].",
+          "options": ["[[sixty-one|sesenta y uno]]", "[[sixteen|dieciséis]]", "[[sixty|sesenta]]"],
           "correctAnswer": 0,
-          "explanation": "Leather significa cuero."
+          "explanation": "61 se dice 'sixty-one'."
         }
       ]
     },
@@ -578,15 +571,15 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "id": "a1-u8-e29",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Prices",
+    "topic": "Numbers 20-100",
     "difficulty": "easy",
-    "transcript": "The price is very high.",
+    "transcript": "There are forty-four pages in the book.",
     "content": {
-      "title": "Precio Alto",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[The|El]] [[price|precio]] [[is|es]] [[very|muy]] [[high|alto]].",
-      "words": ["[[price|precio]]", "[[high|alto]].", "[[is|es]]", "[[The|El]]", "[[very|muy]]"],
-      "explanation": "'High' se usa para precios elevados."
+      "title": "Páginas",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[There|Hay]] [[are|son]] [[forty-four|cuarenta y cuatro]] [[pages|páginas]] [[in|en]] [[the|el]] [[book|libro]].",
+      "words": ["[[book|libro]].", "[[the|el]]", "[[in|en]]", "[[pages|páginas]]", "[[forty-four|cuarenta y cuatro]]", "[[are|son]]", "[[There|Hay]]"],
+      "explanation": "44 se dice 'forty-four'."
     },
     "audioUrl": "audio/a1/unit-8/e29.mp3",
     "topicName": "Vocabulary"
@@ -595,37 +588,37 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "id": "a1-u8-e30",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Demonstratives",
-    "difficulty": "easy",
-    "transcript": "These socks are cheap.",
+    "topic": "Prices",
+    "difficulty": "medium",
+    "transcript": "The jacket costs seventy-two pounds.",
     "content": {
-      "title": "Calcetines Baratos",
-      "instructions": "Elige la opción correcta.",
+      "title": "La Chaqueta",
+      "instructions": "Elige el número 72.",
       "questions": [
         {
-          "question": "(_____) [[socks|calcetines]] [[are|son]] [[cheap|baratos]].",
-          "options": ["[[This|Este]]", "[[These|Estos]]", "[[That|Ese]]"],
-          "correctAnswer": 1,
-          "explanation": "Socks es plural, por eso usamos 'These'."
+          "question": "[[The|La]] [[jacket|chaqueta]] [[costs|cuesta]] (_____) [[pounds|libras]].",
+          "options": ["[[seventy-two|setenta y dos]]", "[[twenty-seven|veintisiete]]", "[[seventeen|diecisiete]]"],
+          "correctAnswer": 0,
+          "explanation": "72 se dice 'seventy-two'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-8/e30.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u8-e31",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Shopping",
+    "topic": "Ages",
     "difficulty": "easy",
-    "transcript": "Can you show me that shirt?",
+    "transcript": "My brother is thirty-three.",
     "content": {
-      "title": "Mostrar algo",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Can|Puedes]] [[you|tú]] [[show|mostrar]] [[me|me]] [[that|esa]] [[shirt|camisa]]?",
-      "words": ["[[show|mostrar]]", "[[shirt|camisa]]?", "[[Can|Puedes]]", "[[you|tú]]", "[[that|esa]]", "[[me|me]]"],
-      "explanation": "Pedir que te muestren un artículo."
+      "title": "El Hermano",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[My|Mi]] [[brother|hermano]] [[is|tiene]] [[thirty-three|treinta y tres]].",
+      "words": ["[[thirty-three|treinta y tres]].", "[[is|tiene]]", "[[brother|hermano]]", "[[My|Mi]]"],
+      "explanation": "33 se dice 'thirty-three'."
     },
     "audioUrl": "audio/a1/unit-8/e31.mp3",
     "topicName": "Vocabulary"
@@ -634,18 +627,18 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "id": "a1-u8-e32",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Prices",
-    "difficulty": "easy",
-    "transcript": "How much is the total?",
+    "topic": "Numbers 20-100",
+    "difficulty": "medium",
+    "transcript": "One hundred.",
     "content": {
-      "title": "El Total",
-      "instructions": "Completa la pregunta.",
+      "title": "Cien",
+      "instructions": "¿Cuál es el número 100?",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[much|mucho]] [[is|es]] [[the|el]] (_____) ?",
-          "options": ["[[total|total]]", "[[size|talla]]", "[[color|color]]"],
+          "question": "[[Number|Número]] [[100|100]] [[is|es]] (_____).",
+          "options": ["[[one hundred|cien]]", "[[ten|diez]]", "[[fifty|cincuenta]]"],
           "correctAnswer": 0,
-          "explanation": "Preguntar por el total de la compra."
+          "explanation": "100 se dice 'one hundred'."
         }
       ]
     },
@@ -656,15 +649,15 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "id": "a1-u8-e33",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Demonstratives",
-    "difficulty": "easy",
-    "transcript": "This is my favorite store.",
+    "topic": "Prices",
+    "difficulty": "medium",
+    "transcript": "The bicycle is eighty-nine euros.",
     "content": {
-      "title": "Tienda Favorita",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[This|Esta]] [[is|es]] [[my|mi]] [[favorite|favorita]] [[store|tienda]].",
-      "words": ["[[is|es]]", "[[store|tienda]].", "[[This|Esta]]", "[[my|mi]]", "[[favorite|favorita]]"],
-      "explanation": "Store es tienda."
+      "title": "La Bicicleta",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[The|La]] [[bicycle|bicicleta]] [[is|cuesta]] [[eighty-nine|ochenta y nueve]] [[euros|euros]].",
+      "words": ["[[euros|euros]].", "[[eighty-nine|ochenta y nueve]]", "[[is|cuesta]]", "[[bicycle|bicicleta]]", "[[The|La]]"],
+      "explanation": "89 se dice 'eighty-nine'."
     },
     "audioUrl": "audio/a1/unit-8/e33.mp3",
     "topicName": "Vocabulary"
@@ -673,18 +666,18 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "id": "a1-u8-e34",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary",
+    "topic": "Numbers 20-100",
     "difficulty": "easy",
-    "transcript": "The store is open from 9 AM.",
+    "transcript": "Thirty-six.",
     "content": {
-      "title": "Abierto",
-      "instructions": "Elige la palabra 'abierto'.",
+      "title": "Número 36",
+      "instructions": "Elige el número correcto.",
       "questions": [
         {
-          "question": "[[The|La]] [[store|tienda]] [[is|está]] (_____) [[from|desde]] [[9|9]] [[AM|AM]].",
-          "options": ["[[open|abierta]]", "[[closed|cerrada]]", "[[sale|oferta]]"],
+          "question": "[[Thirty-six|Treinta y seis]] [[is|es]] (_____).",
+          "options": ["[[36|36]]", "[[63|63]]", "[[13|13]]"],
           "correctAnswer": 0,
-          "explanation": "Open significa abierto/a."
+          "explanation": "Thirty-six es 36."
         }
       ]
     },
@@ -695,35 +688,35 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "id": "a1-u8-e35",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Grammar",
-    "difficulty": "easy",
-    "transcript": "I need these pants in black.",
+    "topic": "Ages",
+    "difficulty": "medium",
+    "transcript": "My mother is fifty-one years old.",
     "content": {
-      "title": "Pantalones Negros",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[I|Yo]] [[need|necesito]] [[these|estos]] [[pants|pantalones]] [[in|en]] [[black|negro]].",
-      "words": ["[[black|negro]].", "[[pants|pantalones]]", "[[need|necesito]]", "[[I|Yo]]", "[[in|en]]", "[[these|estos]]"],
-      "explanation": "Especificar color de una prenda."
+      "title": "La Madre",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[My|Mi]] [[mother|madre]] [[is|tiene]] [[fifty-one|cincuenta y uno]] [[years|años]] [[old|de edad]].",
+      "words": ["[[old|de edad]].", "[[years|años]]", "[[fifty-one|cincuenta y uno]]", "[[is|tiene]]", "[[mother|madre]]", "[[My|Mi]]"],
+      "explanation": "51 se dice 'fifty-one'."
     },
     "audioUrl": "audio/a1/unit-8/e35.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u8-e36",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Shopping",
+    "topic": "Numbers 20-100",
     "difficulty": "easy",
-    "transcript": "Do you accept cash?",
+    "transcript": "Forty-five.",
     "content": {
-      "title": "Aceptar Efectivo",
-      "instructions": "Completa la pregunta.",
+      "title": "Número 45",
+      "instructions": "Elige el número correcto.",
       "questions": [
         {
-          "question": "[[Do|Hacer]] [[you|ustedes]] (_____) [[cash|efectivo]]?",
-          "options": ["[[accept|aceptar]]", "[[buy|comprar]]", "[[sell|vender]]"],
+          "question": "[[Forty-five|Cuarenta y cinco]] [[is|es]] (_____).",
+          "options": ["[[45|45]]", "[[54|54]]", "[[15|15]]"],
           "correctAnswer": 0,
-          "explanation": "Accept es el verbo para aceptar pagos."
+          "explanation": "Forty-five es 45."
         }
       ]
     },
@@ -734,35 +727,35 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "id": "a1-u8-e37",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Prices",
-    "difficulty": "easy",
-    "transcript": "The hat is only five dollars.",
+    "topic": "Phone Numbers",
+    "difficulty": "medium",
+    "transcript": "Is that your phone number?",
     "content": {
-      "title": "Sólo Cinco Dólares",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[The|El]] [[hat|sombrero]] [[is|está/es]] [[only|solo]] [[five|cinco]] [[dollars|dólares]].",
-      "words": ["[[dollars|dólares]].", "[[five|cinco]]", "[[is|está/es]]", "[[hat|sombrero]]", "[[only|solo]]", "[[The|El]]"],
-      "explanation": "'Only' significa solo o solamente."
+      "title": "Tu Número",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[Is|¿Es]] [[that|ese]] [[your|tu]] [[phone|teléfono]] [[number|número]]?",
+      "words": ["[[number|número]]?", "[[phone|teléfono]]", "[[your|tu]]", "[[that|ese]]", "[[Is|¿Es]]"],
+      "explanation": "Preguntando por el número de alguien."
     },
     "audioUrl": "audio/a1/unit-8/e37.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u8-e38",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary",
+    "topic": "Numbers 20-100",
     "difficulty": "easy",
-    "transcript": "This jacket is very warm.",
+    "transcript": "Seventy-seven.",
     "content": {
-      "title": "Chaqueta Caliente",
-      "instructions": "Completa la descripción.",
+      "title": "Número 77",
+      "instructions": "Elige el número correcto.",
       "questions": [
         {
-          "question": "[[This|Esta]] [[jacket|chaqueta]] [[is|es]] [[very|muy]] (_____) .",
-          "options": ["[[warm|caliente/abrigada]]", "[[cold|fría]]", "[[blue|azul]]"],
+          "question": "[[Seventy-seven|Setenta y siete]] [[is|es]] (_____).",
+          "options": ["[[77|77]]", "[[67|67]]", "[[17|17]]"],
           "correctAnswer": 0,
-          "explanation": "Warm significa que abriga bien."
+          "explanation": "Seventy-seven es 77."
         }
       ]
     },
@@ -773,232 +766,232 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "id": "a1-u8-e39",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Demonstratives",
-    "difficulty": "easy",
-    "transcript": "Those shoes are not my size.",
+    "topic": "Prices",
+    "difficulty": "medium",
+    "transcript": "The watch is sixty-five dollars.",
     "content": {
-      "title": "No es mi talla",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Those|Esos]] [[shoes|zapatos]] [[are|son]] [[not|no]] [[my|mi]] [[size|talla]].",
-      "words": ["[[size|talla]].", "[[not|no]]", "[[shoes|zapatos]]", "[[are|son]]", "[[my|mi]]", "[[Those|Esos]]"],
-      "explanation": "Negación con demostrativos y talla."
+      "title": "El Reloj",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[The|El]] [[watch|reloj]] [[is|cuesta]] [[sixty-five|sesenta y cinco]] [[dollars|dólares]].",
+      "words": ["[[dollars|dólares]].", "[[sixty-five|sesenta y cinco]]", "[[is|cuesta]]", "[[watch|reloj]]", "[[The|El]]"],
+      "explanation": "65 se dice 'sixty-five'."
     },
     "audioUrl": "audio/a1/unit-8/e39.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u8-e40",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Prices",
+    "topic": "Numbers 20-100",
     "difficulty": "easy",
-    "transcript": "How much does the dress cost?",
+    "transcript": "Ninety-nine.",
     "content": {
-      "title": "Costo del Vestido",
-      "instructions": "Completa la pregunta con el auxiliar correcto.",
+      "title": "Número 99",
+      "instructions": "Elige el número correcto.",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[much|mucho]] (_____) [[the|el]] [[dress|vestido]] [[cost|costar]]?",
-          "options": ["[[does|hacer]]", "[[do|hacer]]", "[[is|es]]"],
+          "question": "[[Ninety-nine|Noventa y nueve]] [[is|es]] (_____).",
+          "options": ["[[99|99]]", "[[89|89]]", "[[19|19]]"],
           "correctAnswer": 0,
-          "explanation": "Usamos 'does' para preguntas con el verbo 'cost' en singular."
+          "explanation": "Ninety-nine es 99."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-8/e40.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u8-e41",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Shopping",
-    "difficulty": "easy",
-    "transcript": "We have a sale this week.",
+    "topic": "Numbers 20-100",
+    "difficulty": "medium",
+    "transcript": "Twenty plus thirty is fifty.",
     "content": {
-      "title": "Rebajas esta semana",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[We|Nosotros]] [[have|tenemos]] [[a|unas]] [[sale|rebajas]] [[this|esta]] [[week|semana]].",
-      "words": ["[[week|semana]].", "[[sale|rebajas]]", "[[have|tenemos]]", "[[this|esta]]", "[[We|Nosotros]]", "[[a|unas]]"],
-      "explanation": "Anunciar rebajas."
+      "title": "Suma Simple",
+      "instructions": "Resuelve la suma.",
+      "questions": [
+        {
+          "question": "[[Twenty|Veinte]] [[plus|más]] [[thirty|treinta]] [[is|es]] (_____).",
+          "options": ["[[fifty|cincuenta]]", "[[sixty|sesenta]]", "[[forty|cuarenta]]"],
+          "correctAnswer": 0,
+          "explanation": "20 + 30 = 50 (fifty)."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-8/e41.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u8-e42",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Vocabulary",
-    "difficulty": "easy",
-    "transcript": "The department store is very big.",
+    "topic": "Prices",
+    "difficulty": "medium",
+    "transcript": "The camera costs eighty-five pounds.",
     "content": {
-      "title": "Grandes Almacenes",
-      "instructions": "Elige la palabra correcta.",
-      "questions": [
-        {
-          "question": "[[The|Los]] (_____) [[store|almacenes]] [[is|es]] [[very|muy]] [[big|grande]].",
-          "options": ["[[department|departamento]]", "[[small|pequeño]]", "[[clothes|ropa]]"],
-          "correctAnswer": 0,
-          "explanation": "Department store son los grandes almacenes."
-        }
-      ]
+      "title": "La Cámara",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[The|La]] [[camera|cámara]] [[costs|cuesta]] [[eighty-five|ochenta y cinco]] [[pounds|libras]].",
+      "words": ["[[pounds|libras]].", "[[eighty-five|ochenta y cinco]]", "[[costs|cuesta]]", "[[camera|cámara]]", "[[The|La]]"],
+      "explanation": "85 se dice 'eighty-five'."
     },
     "audioUrl": "audio/a1/unit-8/e42.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u8-e43",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Prices",
-    "difficulty": "easy",
-    "transcript": "The price includes the tax.",
-    "content": {
-      "title": "Impuestos Incluidos",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[The|El]] [[price|precio]] [[includes|incluye]] [[the|el]] [[tax|impuesto]].",
-      "words": ["[[tax|impuesto]].", "[[includes|incluye]]", "[[price|precio]]", "[[The|El]]", "[[the|el]]"],
-      "explanation": "Tax significa impuesto."
-    },
-    "audioUrl": "audio/a1/unit-8/e43.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u8-e44",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Demonstratives",
+    "topic": "Ages",
     "difficulty": "easy",
-    "transcript": "Are these pants yours?",
+    "transcript": "How old are you? I am twenty-six.",
     "content": {
-      "title": "Pregunta de Posesión",
-      "instructions": "Elige el demostrativo correcto.",
+      "title": "Tu Edad",
+      "instructions": "Responde la pregunta.",
       "questions": [
         {
-          "question": "[[Are|Son]] (_____) [[pants|pantalones]] [[yours|tuyos]]?",
-          "options": ["[[these|estos]]", "[[this|este]]", "[[that|ese]]"],
+          "question": "[[How|Qué]] [[old|tan viejo]] [[are|eres]] [[you|tú]]?",
+          "options": ["[[I am twenty-six|Tengo veintiséis]]", "[[I am from Spain|Soy de España]]", "[[I am a teacher|Soy profesor]]"],
           "correctAnswer": 0,
-          "explanation": "Pants es plural."
+          "explanation": "Para la edad usamos 'I am' + número."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-8/e44.mp3",
+    "audioUrl": "audio/a1/unit-8/e43.mp3",
     "topicName": "Grammar"
   },
   {
-    "id": "a1-u8-e45",
+    "id": "a1-u8-e44",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Shopping",
-    "difficulty": "easy",
-    "transcript": "I need to find a gift.",
+    "topic": "Numbers 20-100",
+    "difficulty": "medium",
+    "transcript": "There are thirty-seven chairs in the room.",
     "content": {
-      "title": "Buscar un Regalo",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[I|Yo]] [[need|necesito]] [[to|a]] [[find|encontrar]] [[a|un]] [[gift|regalo]].",
-      "words": ["[[find|encontrar]]", "[[gift|regalo]].", "[[need|necesito]]", "[[I|Yo]]", "[[to|a]]", "[[a|un]]"],
-      "explanation": "Gift significa regalo."
+      "title": "Sillas",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[There|Hay]] [[are|son]] [[thirty-seven|treinta y siete]] [[chairs|sillas]] [[in|en]] [[the|la]] [[room|habitación]].",
+      "words": ["[[room|habitación]].", "[[the|la]]", "[[in|en]]", "[[chairs|sillas]]", "[[thirty-seven|treinta y siete]]", "[[are|son]]", "[[There|Hay]]"],
+      "explanation": "37 se dice 'thirty-seven'."
+    },
+    "audioUrl": "audio/a1/unit-8/e44.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u8-e45",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Phone Numbers",
+    "difficulty": "medium",
+    "transcript": "Her number is zero-seven-two.",
+    "content": {
+      "title": "Su Número",
+      "instructions": "Elige el número correcto.",
+      "questions": [
+        {
+          "question": "[[Her|Su]] [[number|número]] [[is|es]] (_____).",
+          "options": ["[[zero-seven-two|cero-siete-dos]]", "[[zero-six-two|cero-seis-dos]]", "[[seven-zero-two|siete-cero-dos]]"],
+          "correctAnswer": 0,
+          "explanation": "0-7-2 se dice 'zero-seven-two'."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-8/e45.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u8-e46",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Vocabulary",
-    "difficulty": "easy",
-    "transcript": "Do you have this in a different color?",
+    "topic": "Ages",
+    "difficulty": "medium",
+    "transcript": "My cousin is forty-nine years old.",
     "content": {
-      "title": "Otro Color",
-      "instructions": "Completa la pregunta.",
-      "questions": [
-        {
-          "question": "[[Do|Hacer]] [[you|tú]] [[have|tienes]] [[this|esto]] [[in|en]] [[a|un]] (_____) [[color|color]]?",
-          "options": ["[[different|diferente]]", "[[same|mismo]]", "[[big|grande]]"],
-          "correctAnswer": 0,
-          "explanation": "Different color significa otro color."
-        }
-      ]
+      "title": "El Primo",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[My|Mi]] [[cousin|primo]] [[is|tiene]] [[forty-nine|cuarenta y nueve]] [[years|años]] [[old|de edad]].",
+      "words": ["[[old|de edad]].", "[[years|años]]", "[[forty-nine|cuarenta y nueve]]", "[[is|tiene]]", "[[cousin|primo]]", "[[My|Mi]]"],
+      "explanation": "49 se dice 'forty-nine'."
     },
     "audioUrl": "audio/a1/unit-8/e46.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u8-e47",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
     "topic": "Prices",
-    "difficulty": "easy",
-    "transcript": "That is too expensive for me.",
+    "difficulty": "medium",
+    "transcript": "The shoes cost thirty-eight dollars.",
     "content": {
-      "title": "Muy Caro",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[That|Ese]] [[is|es]] [[too|demasiado]] [[expensive|caro]] [[for|para]] [[me|mí]].",
-      "words": ["[[expensive|caro]]", "[[for|para]]", "[[me|mí]].", "[[is|es]]", "[[That|Ese]]", "[[too|demasiado]]"],
-      "explanation": "Expensive significa caro."
+      "title": "Precio Zapatos",
+      "instructions": "Elige el número 38.",
+      "questions": [
+        {
+          "question": "[[The|Los]] [[shoes|zapatos]] [[cost|cuestan]] (_____) [[dollars|dólares]].",
+          "options": ["[[thirty-eight|treinta y ocho]]", "[[eighty-three|ochenta y tres]]", "[[eighteen|dieciocho]]"],
+          "correctAnswer": 0,
+          "explanation": "38 se dice 'thirty-eight'."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-8/e47.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u8-e48",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Demonstratives",
-    "difficulty": "easy",
-    "transcript": "Look at that beautiful shirt over there.",
+    "topic": "Numbers 20-100",
+    "difficulty": "medium",
+    "transcript": "There are sixty-two pages left.",
     "content": {
-      "title": "Mira aquello",
-      "instructions": "Elige el demostrativo.",
-      "questions": [
-        {
-          "question": "[[Look|Mira]] [[at|a]] (_____) [[beautiful|hermosa]] [[shirt|camisa]] [[over|allí]] [[there|mismo]].",
-          "options": ["[[that|aquella]]", "[[this|esta]]", "[[these|estas]]"],
-          "correctAnswer": 0,
-          "explanation": "Over there indica distancia, usamos 'that'."
-        }
-      ]
+      "title": "Páginas Restantes",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[There|Hay]] [[are|son]] [[sixty-two|sesenta y dos]] [[pages|páginas]] [[left|restantes]].",
+      "words": ["[[left|restantes]].", "[[pages|páginas]]", "[[sixty-two|sesenta y dos]]", "[[are|son]]", "[[There|Hay]]"],
+      "explanation": "62 se dice 'sixty-two'."
     },
     "audioUrl": "audio/a1/unit-8/e48.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u8-e49",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Shopping",
-    "difficulty": "easy",
-    "transcript": "Where is the checkout?",
+    "topic": "Numbers 20-100",
+    "difficulty": "medium",
+    "transcript": "Seventy minus twenty is fifty.",
     "content": {
-      "title": "La Caja",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Where|Dónde]] [[is|está]] [[the|la]] [[checkout|caja]]?",
-      "words": ["[[is|está]]", "[[checkout|caja]]?", "[[the|la]]", "[[Where|Dónde]]"],
-      "explanation": "Checkout es donde se paga."
+      "title": "Resta Simple",
+      "instructions": "Resuelve la resta.",
+      "questions": [
+        {
+          "question": "[[Seventy|Setenta]] [[minus|menos]] [[twenty|veinte]] [[is|es]] (_____).",
+          "options": ["[[fifty|cincuenta]]", "[[sixty|sesenta]]", "[[forty|cuarenta]]"],
+          "correctAnswer": 0,
+          "explanation": "70 - 20 = 50 (fifty)."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-8/e49.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u8-e50",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Vocabulary",
-    "difficulty": "easy",
-    "transcript": "I like to go window shopping.",
+    "topic": "Prices",
+    "difficulty": "medium",
+    "transcript": "The total is ninety-five euros.",
     "content": {
-      "title": "Mirar escaparates",
-      "instructions": "Elige la expresión correcta.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] [[like|gustar]] [[to|a]] [[go|ir]] (_____) [[shopping|compras]].",
-          "options": ["[[window|ventana (mirar escaparates)]]", "[[door|puerta]]", "[[car|coche]]"],
-          "correctAnswer": 0,
-          "explanation": "Window shopping es mirar los escaparates sin comprar nada."
-        }
-      ]
+      "title": "El Total",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[The|El]] [[total|total]] [[is|es]] [[ninety-five|noventa y cinco]] [[euros|euros]].",
+      "words": ["[[euros|euros]].", "[[ninety-five|noventa y cinco]]", "[[is|es]]", "[[total|total]]", "[[The|El]]"],
+      "explanation": "95 se dice 'ninety-five'."
     },
     "audioUrl": "audio/a1/unit-8/e50.mp3",
     "topicName": "Vocabulary"
@@ -1007,18 +1000,24 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "id": "a1-u8-e51",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about shopping.",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "transcript": "In my family, everyone is different. My father is fifty-four years old and my mother is forty-eight. I have a big brother, he is twenty-one. My little sister is only six. We live in a house with the number thirty-five. My father's new car is very expensive, it costs eighty thousand dollars.",
     "content": {
-      "title": "Lectura: At the Clothing Store",
-      "instructions": "Lee el texto y responde.",
+      "title": "Mi Familia y los Números",
+      "instructions": "Lee y responde sobre las edades y números.",
       "questions": [
         {
-          "question": "What does Maria want to buy? *\"Maria is at a clothing store today. She wants to buy a new dress for a party. She sees a beautiful red dress. The price is fifty dollars. Maria thinks it is a bit expensive, but she loves the color. She also finds some black shoes that are on sale for twenty dollars. She decides to buy the dress and the shoes.\"*",
-          "options": ["[[A shirt|Una camisa]]", "[[A dress|Un vestido]]", "[[A jacket|Una chaqueta]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice 'She wants to buy a new dress'."
+          "question": "[[How|Qué]] [[old|tan viejo]] [[is|es]] [[the|el]] [[father|padre]]?",
+          "options": ["[[Fifty-four|Cincuenta y cuatro]]", "[[Forty-eight|Cuarenta y ocho]]", "[[Twenty-one|Veintiuno]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'My father is fifty-four years old'."
+        },
+        {
+          "question": "[[What|Cuál]] [[is|es]] [[the|el]] [[house|casa]] [[number|número]]?",
+          "options": ["[[Thirty-five|Treinta y cinco]]", "[[Fifty-four|Cincuenta y cuatro]]", "[[Six|Seis]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'house with the number thirty-five'."
         }
       ]
     },
@@ -1029,84 +1028,108 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "id": "a1-u8-e52",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about shopping.",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "transcript": "I am at the store today. I want to buy a new jacket and some shoes. The jacket is sixty-two euros and the shoes are thirty-nine euros. The total is one hundred and one euros. I have one hundred and ten euros in my wallet, so I can pay for everything.",
     "content": {
-      "title": "Lectura: At the Clothing Store",
-      "instructions": "Lee el texto y responde.",
+      "title": "De Compras",
+      "instructions": "Lee sobre los precios y responde.",
       "questions": [
         {
-          "question": "How much is the red dress? *\"Maria is at a clothing store today. She wants to buy a new dress for a party. She sees a beautiful red dress. The price is fifty dollars. Maria thinks it is a bit expensive, but she loves the color. She also finds some black shoes that are on sale for twenty dollars. She decides to buy the dress and the shoes.\"*",
-          "options": ["[[Thirty dollars|30 dólares]]", "[[Forty dollars|40 dólares]]", "[[Fifty dollars|50 dólares]]"],
-          "correctAnswer": 2,
-          "explanation": "El precio indicado es 'fifty dollars'."
+          "question": "[[How|Cuánto]] [[much|mucho]] [[is|es]] [[the|la]] [[jacket|chaqueta]]?",
+          "options": ["[[Sixty-two euros|Sesenta y dos euros]]", "[[Thirty-nine euros|Treinta y nueve euros]]", "[[One hundred euros|Cien euros]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'The jacket is sixty-two euros'."
+        },
+        {
+          "question": "[[How|Cuánto]] [[much|mucho]] [[money|dinero]] [[is|hay]] [[in|en]] [[the|la]] [[wallet|cartera]]?",
+          "options": ["[[One hundred and ten|Ciento diez]]", "[[One hundred and one|Ciento uno]]", "[[Sixty-two|Sesenta y dos]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'I have one hundred and ten euros in my wallet'."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-8/e51.mp3",
+    "audioUrl": "audio/a1/unit-8/e52.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u8-e53",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about shopping.",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "transcript": "Hello, my name is Mark. I am thirty-seven years old. My office phone number is five-five-five, sixty-four, twenty. I work in a big building on the eighty-second floor. There are ninety people in my department.",
     "content": {
-      "title": "Lectura: At the Clothing Store",
-      "instructions": "Lee el texto y responde.",
+      "title": "La Oficina de Mark",
+      "instructions": "Lee sobre Mark y responde.",
       "questions": [
         {
-          "question": "What color are the shoes? *\"Maria is at a clothing store today. She wants to buy a new dress for a party. She sees a beautiful red dress. The price is fifty dollars. Maria thinks it is a bit expensive, but she loves the color. She also finds some black shoes that are on sale for twenty dollars. She decides to buy the dress and the shoes.\"*",
-          "options": ["[[Red|Rojo]]", "[[Black|Negro]]", "[[Blue|Azul]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto menciona 'black shoes'."
+          "question": "[[How|Qué]] [[old|tan viejo]] [[is|es]] [[Mark|Mark]]?",
+          "options": ["[[Thirty-seven|Treinta y siete]]", "[[Eighty-two|Ochenta y dos]]", "[[Ninety|Noventa]]"],
+          "correctAnswer": 0,
+          "explanation": "Mark dice: 'I am thirty-seven years old'."
+        },
+        {
+          "question": "[[How|Cuántas]] [[many|muchas]] [[people|personas]] [[are|hay]] [[in|en]] [[the|el]] [[department|departamento]]?",
+          "options": ["[[Ninety|Noventa]]", "[[Eighty-two|Ochenta y dos]]", "[[Sixty-four|Sesenta y cuatro]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'There are ninety people in my department'."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-8/e51.mp3",
+    "audioUrl": "audio/a1/unit-8/e53.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u8-e54",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about shopping.",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "transcript": "This is a list for the party. We need forty-five sandwiches and thirty-two bottles of water. The price for the food is seventy-eight dollars. There are twenty-six guests coming to the house at eight o'clock.",
     "content": {
-      "title": "Lectura: At the Clothing Store",
-      "instructions": "Lee el texto y responde.",
+      "title": "Lista para la Fiesta",
+      "instructions": "Lee la lista y responde.",
       "questions": [
         {
-          "question": "Are the shoes on sale? *\"Maria is at a clothing store today. She wants to buy a new dress for a party. She sees a beautiful red dress. The price is fifty dollars. Maria thinks it is a bit expensive, but she loves the color. She also finds some black shoes that are on sale for twenty dollars. She decides to buy the dress and the shoes.\"*",
-          "options": ["[[Yes, they are|Sí]]", "[[No, they are not|No]]"],
+          "question": "[[How|Cuántos]] [[many|muchos]] [[sandwiches|sándwiches]] [[do|hacer]] [[they|ellos]] [[need|necesitar]]?",
+          "options": ["[[Forty-five|Cuarenta y cinco]]", "[[Thirty-two|Treinta y dos]]", "[[Seventy-eight|Setenta y ocho]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice 'shoes that are on sale'."
+          "explanation": "El texto dice: 'We need forty-five sandwiches'."
+        },
+        {
+          "question": "[[How|Cuántos]] [[many|muchos]] [[guests|invitados]] [[are|están]] [[coming|viniendo]]?",
+          "options": ["[[Twenty-six|Veintiséis]]", "[[Forty-five|Cuarenta y cinco]]", "[[Eight|Ocho]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'There are twenty-six guests coming'."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-8/e51.mp3",
+    "audioUrl": "audio/a1/unit-8/e54.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u8-e55",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about a market visit.",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "transcript": "My grandfather is very active. He is eighty-one years old but he walks five kilometers every day. He has twenty-four grandchildren. His house is old, it is seventy years old. He is a very happy man.",
     "content": {
-      "title": "Lectura: A Trip to the Market",
-      "instructions": "Lee el texto y responde.",
+      "title": "Mi Abuelo Activo",
+      "instructions": "Lee sobre el abuelo y responde.",
       "questions": [
         {
-          "question": "Where is John? *\"John is at the local market with his mother. They need some food and some new clothes. John wants a blue hat and a gray coat for the winter. His mother finds a beautiful silk scarf for thirty euros. They pay in cash at the small shop near the exit. They are happy with their new things.\"*",
-          "options": ["[[At the park|En el parque]]", "[[At the market|En el mercado]]", "[[At school|En la escuela]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto comienza diciendo 'John is at the local market'."
+          "question": "[[How|Qué]] [[old|tan viejo]] [[is|es]] [[the|el]] [[grandfather|abuelo]]?",
+          "options": ["[[Eighty-one|Ochenta y uno]]", "[[Seventy|Setenta]]", "[[Twenty-four|Veinticuatro]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'He is eighty-one years old'."
+        },
+        {
+          "question": "[[How|Cuántos]] [[many|muchos]] [[grandchildren|nietos]] [[does|hacer]] [[he|él]] [[have|tener]]?",
+          "options": ["[[Twenty-four|Veinticuatro]]", "[[Eighty-one|Ochenta y uno]]", "[[Five|Cinco]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'He has twenty-four grandchildren'."
         }
       ]
     },
@@ -1117,84 +1140,108 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "id": "a1-u8-e56",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about a market visit.",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "transcript": "This book is very long. It has ninety-eight chapters and four hundred pages. I am on page fifty-two. The book costs twenty-seven dollars at the local bookstore. I like reading for thirty minutes every night.",
     "content": {
-      "title": "Lectura: A Trip to the Market",
-      "instructions": "Lee el texto y responde.",
+      "title": "El Libro Largo",
+      "instructions": "Lee sobre el libro y responde.",
       "questions": [
         {
-          "question": "What color coat does John want? *\"John is at the local market with his mother. They need some food and some new clothes. John wants a blue hat and a gray coat for the winter. His mother finds a beautiful silk scarf for thirty euros. They pay in cash at the small shop near the exit. They are happy with their new things.\"*",
-          "options": ["[[Blue|Azul]]", "[[Gray|Gris]]", "[[Black|Negro]]"],
-          "correctAnswer": 1,
-          "explanation": "John quiere 'a gray coat'."
+          "question": "[[How|Cuántos]] [[many|muchos]] [[chapters|capítulos]] [[does|hacer]] [[the|el]] [[book|libro]] [[have|tener]]?",
+          "options": ["[[Ninety-eight|Noventa y ocho]]", "[[Fifty-two|Cincuenta y dos]]", "[[Twenty-seven|Veintisiete]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'It has ninety-eight chapters'."
+        },
+        {
+          "question": "[[What|Cuál]] [[page|página]] [[is|está]] [[the|el]] [[person|persona]] [[on|en]]?",
+          "options": ["[[Fifty-two|Cincuenta y dos]]", "[[Ninety-eight|Noventa y ocho]]", "[[Thirty|Treinta]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'I am on page fifty-two'."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-8/e55.mp3",
+    "audioUrl": "audio/a1/unit-8/e56.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u8-e57",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about a market visit.",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "transcript": "Our school bus is number sixty-four. It picks up forty-two students every morning. The trip to school takes twenty-five minutes. My seat number is twenty-three. The bus is always on time at seven-thirty AM.",
     "content": {
-      "title": "Lectura: A Trip to the Market",
-      "instructions": "Lee el texto y responde.",
+      "title": "El Autobús Escolar",
+      "instructions": "Lee sobre el autobús y responde.",
       "questions": [
         {
-          "question": "How much is the scarf? *\"John is at the local market with his mother. They need some food and some new clothes. John wants a blue hat and a gray coat for the winter. His mother finds a beautiful silk scarf for thirty euros. They pay in cash at the small shop near the exit. They are happy with their new things.\"*",
-          "options": ["[[Twenty euros|20 euros]]", "[[Thirty euros|30 euros]]", "[[Fifty euros|50 euros]]"],
-          "correctAnswer": 1,
-          "explanation": "La bufanda cuesta 'thirty euros'."
+          "question": "[[What|Cuál]] [[is|es]] [[the|el]] [[bus|autobús]] [[number|número]]?",
+          "options": ["[[Sixty-four|Sesenta y cuatro]]", "[[Forty-two|Cuarenta y dos]]", "[[Twenty-five|Veinticinco]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'Our school bus is number sixty-four'."
+        },
+        {
+          "question": "[[How|Cuántos]] [[many|muchos]] [[minutes|minutos]] [[is|dura]] [[the|el]] [[trip|viaje]]?",
+          "options": ["[[Twenty-five|Veinticinco]]", "[[Sixty-four|Sesenta y cuatro]]", "[[Twenty-three|Veintitrés]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'The trip to school takes twenty-five minutes'."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-8/e55.mp3",
+    "audioUrl": "audio/a1/unit-8/e57.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u8-e58",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about a market visit.",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "transcript": "The museum is very old. It is seventy-six years old. Today there are eighty-three people visiting the art gallery. The ticket for adults is fifteen euros, but for seniors over sixty-five it is only eight euros. The museum closes at nine PM.",
     "content": {
-      "title": "Lectura: A Trip to the Market",
-      "instructions": "Lee el texto y responde.",
+      "title": "Visita al Museo",
+      "instructions": "Lee sobre el museo y responde.",
       "questions": [
         {
-          "question": "How do they pay? *\"John is at the local market with his mother. They need some food and some new clothes. John wants a blue hat and a gray coat for the winter. His mother finds a beautiful silk scarf for thirty euros. They pay in cash at the small shop near the exit. They are happy with their new things.\"*",
-          "options": ["[[By card|Con tarjeta]]", "[[In cash|En efectivo]]", "[[By phone|Con el móvil]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto menciona 'They pay in cash'."
+          "question": "[[How|Qué]] [[old|tan viejo]] [[is|es]] [[the|el]] [[museum|museo]]?",
+          "options": ["[[Seventy-six|Setenta y seis]]", "[[Eighty-three|Ochenta y tres]]", "[[Sixty-five|Sesenta y cinco]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'It is seventy-six years old'."
+        },
+        {
+          "question": "[[How|Cuántas]] [[many|muchas]] [[people|personas]] [[are|están]] [[visiting|visitando]] [[today|hoy]]?",
+          "options": ["[[Eighty-three|Ochenta y tres]]", "[[Seventy-six|Setenta y seis]]", "[[Fifteen|Quince]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'Today there are eighty-three people visiting'."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-8/e55.mp3",
+    "audioUrl": "audio/a1/unit-8/e58.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u8-e59",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about a shopping dialogue.",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "transcript": "My new apartment is small but nice. The rent is seventy-five dollars a week. It is on the forty-third floor of a big building. There are thirty-two apartments on my floor. I live at number forty-seven.",
     "content": {
-      "title": "Lectura: Shopping Dialogue",
-      "instructions": "Lee el texto y responde.",
+      "title": "Mi Nuevo Apartamento",
+      "instructions": "Lee sobre el apartamento y responde.",
       "questions": [
         {
-          "question": "What is the problem with the pants? *\"Shop Assistant: Can I help you? Customer: Yes, I like these blue pants, but they are too long. Do you have a shorter pair? Shop Assistant: Yes, of course. Here you are. Customer: Thank you. How much are they? Shop Assistant: They are forty-five euros. Customer: Great. I will take them. Can I pay by card? Shop Assistant: Yes, certainly.\"*",
-          "options": ["[[They are too small|Son muy pequeños]]", "[[They are too long|Son muy largos]]", "[[They are the wrong color|Color equivocado]]"],
-          "correctAnswer": 1,
-          "explanation": "El cliente dice 'they are too long'."
+          "question": "[[How|Cuánto]] [[much|mucho]] [[is|es]] [[the|la]] [[rent|renta]] [[per|por]] [[week|semana]]?",
+          "options": ["[[Seventy-five dollars|Setenta y cinco dólares]]", "[[Forty-three dollars|Cuarenta y tres dólares]]", "[[Thirty-two dollars|Treinta y dos dólares]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'The rent is seventy-five dollars a week'."
+        },
+        {
+          "question": "[[What|Cuál]] [[is|es]] [[the|el]] [[apartment|apartamento]] [[number|número]]?",
+          "options": ["[[Forty-seven|Cuarenta y siete]]", "[[Forty-third|Cuadragésimo tercero]]", "[[Thirty-two|Treinta y dos]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'I live at number forty-seven'."
         }
       ]
     },
@@ -1205,22 +1252,28 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "id": "a1-u8-e60",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about a shopping dialogue.",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "transcript": "I have a lot of work today. I need to call fifty-two clients. My first call is at nine-forty AM. I have eighty-six emails in my inbox. I hope to finish my work by six-thirty PM. Then I can relax for forty minutes.",
     "content": {
-      "title": "Lectura: Shopping Dialogue",
-      "instructions": "Lee el texto y responde.",
+      "title": "Un Día Ocupado",
+      "instructions": "Lee sobre el día de trabajo y responde.",
       "questions": [
         {
-          "question": "Can the customer pay by card? *\"Shop Assistant: Can I help you? Customer: Yes, I like these blue pants, but they are too long. Do you have a shorter pair? Shop Assistant: Yes, of course. Here you are. Customer: Thank you. How much are they? Shop Assistant: They are forty-five euros. Customer: Great. I will take them. Can I pay by card? Shop Assistant: Yes, certainly.\"*",
-          "options": ["[[Yes|Sí]]", "[[No|No]]"],
+          "question": "[[How|Cuántos]] [[many|muchos]] [[clients|clientes]] [[does|hace]] [[the|la]] [[person|persona]] [[need|necesitar]] [[to|a]] [[call|llamar]]?",
+          "options": ["[[Fifty-two|Cincuenta y dos]]", "[[Eighty-six|Ochenta y seis]]", "[[Forty|Cuarenta]]"],
           "correctAnswer": 0,
-          "explanation": "El dependiente responde 'Yes, certainly'."
+          "explanation": "El texto dice: 'I need to call fifty-two clients'."
+        },
+        {
+          "question": "[[How|Cuántos]] [[many|muchos]] [[emails|correos]] [[are|hay]] [[in|en]] [[the|el]] [[inbox|bandeja de entrada]]?",
+          "options": ["[[Eighty-six|Ochenta y seis]]", "[[Fifty-two|Cincuenta y dos]]", "[[Sixty-three|Sesenta y tres]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'I have eighty-six emails in my inbox'."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-8/e59.mp3",
+    "audioUrl": "audio/a1/unit-8/e60.mp3",
     "topicName": "Reading"
   }
 ];

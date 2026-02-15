@@ -25,28 +25,33 @@
 4. [x] Verify unique IDs (`a1-u19-e1` to `a1-u19-e60`) and `[[English|Spanish]]` formatting.
 5. [x] Commit changes.
 
-### [ ] Step: Audit and Fix Other Duplications
+### [x] Step: Fix UI/UX Issues
+1. [x] Fix missing text in Reading Comprehension exercises by updating `ExerciseRenderer.tsx` to implement a two-phase display: Reading Phase (Text only) and Question Phase (Questions).
+2. [x] Ensure pedagogical logic in reading questions (avoiding triviality) and correct grouping of questions.
 
+### [ ] Step: Audit and Fix Other Duplications
 1. [x] Audit Units 1-25 to identify content duplications or syllabus misalignments.
 2. [ ] Refactor identified units to match the syllabus (60 exercises each):
-    - [x] **Unit 6**: Family Members (Syllabus alignment)
-    - [x] **Unit 7**: Colors & Describing Things (Syllabus alignment)
-    - [ ] **Unit 8**: Numbers 20-100 (Prices, Ages, Phone numbers)
+    - [ ] **Unit 6**: Family Members & Personal Info (REFACTORING READING SECTION)
+    - [ ] **Unit 7**: Colors & Physical Descriptions
+    - [x] **Unit 8**: Numbers 20-100 (Prices, Ages, Phone numbers) (Checked and aligned)
     - [ ] **Unit 9**: Jobs & Occupations
     - [ ] **Unit 10**: Module 1 Review & Assessment
     - [ ] **Unit 11**: Telling the Time
     - [ ] **Unit 12**: Days of the Week
     - [ ] **Unit 13**: Daily Routine
     - [ ] **Unit 14**: Present Simple: I, You, We, They
-    - [ ] **Unit 15**: Present Simple: He, She, It
-    - [ ] **Unit 16**: At the Cafe
+    - [ ] **Unit 15**: Present Simple: He, She, It (NEEDS REFACTOR)
+    - [ ] **Unit 16**: At the Cafe (NEEDS REFACTOR)
     - [x] **Unit 17**: Breakfast, Lunch & Dinner (Done)
-    - [ ] **Unit 18**: Likes & Dislikes
+    - [ ] **Unit 18**: Likes & Dislikes (NEEDS REFACTOR)
     - [x] **Unit 19**: Months & Dates (Done)
-    - [ ] **Unit 20**: Module 2 Review & Assessment
-    - [ ] **Unit 21**: Rooms in a House
-    - [ ] **Unit 22**: Furniture & Household Items
-    - [ ] **Unit 23**: There is / There are
-    - [ ] **Unit 24**: Prepositions of Place
+    - [x] **Unit 20**: Health & Body (Done)
+    - [ ] **Unit 21**: Rooms in a House (NEEDS REFACTOR - current Unit 5)
+    - [ ] **Unit 22**: Furniture & Household Items (NEEDS REFACTOR - current Unit 5)
+    - [ ] **Unit 23**: There is / There are (NEEDS REFACTOR - current Unit 5)
+    - [ ] **Unit 24**: Prepositions of Place (NEEDS REFACTOR - current Unit 5)
     - [ ] **Unit 25**: My Neighborhood
+    - [x] **Unit 4**: Numbers 1-10 & Objects (Done)
+    - [x] **Unit 5**: Simple Present Actions (Done)
 3. [ ] Audit and Refactor Units 26-60 (currently placeholders).

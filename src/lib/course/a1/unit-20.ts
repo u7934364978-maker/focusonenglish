@@ -1,23 +1,27 @@
 import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_20_EXERCISES: Exercise[] = [
-  // FLASHCARDS (1-10)
   {
     "id": "a1-u20-e1",
     "type": "flashcard",
     "level": "A1",
-    "topic": "Module 2 Review",
+    "topic": "Body Parts",
     "difficulty": "easy",
-    "transcript": "Routine. Month. Date. Meal. Preference",
+    "transcript": "Head. Eyes. Ears. Nose. Mouth. Hair. Face. Neck. Shoulder. Arm. Hand. Fingers. Leg. Foot. Toes.",
     "content": {
-      "title": "Vocabulario Clave: Revisión",
-      "instructions": "Aprende las palabras más importantes del módulo.",
+      "title": "Partes del Cuerpo",
+      "instructions": "Aprende los nombres de las partes del cuerpo humano.",
       "items": [
-        { "front": "[[Routine|Rutina]]", "back": "Rutina" },
-        { "front": "[[Month|Mes]]", "back": "Mes" },
-        { "front": "[[Date|Fecha]]", "back": "Fecha" },
-        { "front": "[[Meal|Comida]]", "back": "Comida" },
-        { "front": "[[Preference|Preferencia]]", "back": "Preferencia" }
+        { "front": "[[Head|Cabeza]]", "back": "Cabeza" },
+        { "front": "[[Eyes|Ojos]]", "back": "Ojos" },
+        { "front": "[[Ears|Orejas]]", "back": "Ears" },
+        { "front": "[[Nose|Nariz]]", "back": "Nariz" },
+        { "front": "[[Mouth|Boca]]", "back": "Mouth" },
+        { "front": "[[Neck|Cuello]]", "back": "Cuello" },
+        { "front": "[[Arm|Brazo]]", "back": "Brazo" },
+        { "front": "[[Hand|Mano]]", "back": "Mano" },
+        { "front": "[[Leg|Pierna]]", "back": "Pierna" },
+        { "front": "[[Foot|Pie]]", "back": "Pie" }
       ]
     },
     "audioUrl": "audio/a1/unit-20/e1.mp3",
@@ -27,18 +31,22 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "id": "a1-u20-e2",
     "type": "flashcard",
     "level": "A1",
-    "topic": "Module 2 Review",
+    "topic": "Health Problems",
     "difficulty": "easy",
-    "transcript": "Morning. Afternoon. Evening. Night. Midnight",
+    "transcript": "Headache. Stomach ache. Toothache. Backache. Cold. Fever. Cough. Sore throat. Tired. Sick.",
     "content": {
-      "title": "Partes del Día",
-      "instructions": "Repasa las partes del día.",
+      "title": "Problemas de Salud",
+      "instructions": "Vocabulario para síntomas y malestares.",
       "items": [
-        { "front": "[[Morning|Mañana]]", "back": "Mañana" },
-        { "front": "[[Afternoon|Tarde]]", "back": "Tarde" },
-        { "front": "[[Evening|Tarde/Noche]]", "back": "Tarde/Noche" },
-        { "front": "[[Night|Noche]]", "back": "Noche" },
-        { "front": "[[Midnight|Medianoche]]", "back": "Medianoche" }
+        { "front": "[[Headache|Dolor de cabeza]]", "back": "Dolor de cabeza" },
+        { "front": "[[Stomach ache|Dolor de estómago]]", "back": "Dolor de estómago" },
+        { "front": "[[Toothache|Dolor de muelas]]", "back": "Dolor de muelas" },
+        { "front": "[[Cold|Resfriado]]", "back": "Resfriado" },
+        { "front": "[[Fever|Fiebre]]", "back": "Fiebre" },
+        { "front": "[[Cough|Tos]]", "back": "Tos" },
+        { "front": "[[Sore throat|Dolor de garganta]]", "back": "Dolor de garganta" },
+        { "front": "[[Tired|Cansado]]", "back": "Cansado" },
+        { "front": "[[Sick|Enfermo]]", "back": "Enfermo" }
       ]
     },
     "audioUrl": "audio/a1/unit-20/e2.mp3",
@@ -46,104 +54,104 @@ export const UNIT_20_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u20-e3",
-    "type": "flashcard",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 2 Review",
+    "topic": "Have got symptoms",
     "difficulty": "easy",
-    "transcript": "Always. Sometimes. Never. Usually. Often",
+    "transcript": "I've got a headache.",
     "content": {
-      "title": "Adverbios de Frecuencia",
-      "instructions": "Repasa con qué frecuencia haces las cosas.",
-      "items": [
-        { "front": "[[Always|Siempre]]", "back": "Siempre" },
-        { "front": "[[Sometimes|A veces]]", "back": "A veces" },
-        { "front": "[[Never|Nunca]]", "back": "Nunca" },
-        { "front": "[[Usually|Normalmente]]", "back": "Normalmente" },
-        { "front": "[[Often|A menudo]]", "back": "A menudo" }
+      "title": "Tengo dolor",
+      "instructions": "Elige la forma contraída de 'I have got'.",
+      "questions": [
+        {
+          "question": "(_____) [[a|un]] [[headache|dolor de cabeza]].",
+          "options": ["[[I've got|Tengo]]", "[[I got|Tengo (incorrecto)]]", "[[I am got|Tengo (incorrecto)]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'I've got' (I have got) para síntomas médicos."
+        }
       ]
     },
     "audioUrl": "audio/a1/unit-20/e3.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u20-e4",
-    "type": "flashcard",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 2 Review",
+    "topic": "Should/Shouldn't",
     "difficulty": "easy",
-    "transcript": "Bank. Park. Hospital. Library. Supermarket",
+    "transcript": "You should see a doctor.",
     "content": {
-      "title": "Lugares en la Ciudad",
-      "instructions": "Repasa los lugares comunes.",
-      "items": [
-        { "front": "[[Bank|Banco]]", "back": "Banco" },
-        { "front": "[[Park|Parque]]", "back": "Parque" },
-        { "front": "[[Hospital|Hospital]]", "back": "Hospital" },
-        { "front": "[[Library|Biblioteca]]", "back": "Biblioteca" },
-        { "front": "[[Supermarket|Supermercado]]", "back": "Supermercado" }
+      "title": "Consejo Médico",
+      "instructions": "Elige el modal para dar un consejo positivo.",
+      "questions": [
+        {
+          "question": "[[You|Tú]] (_____) [[see|ver]] [[a|un]] [[doctor|médico]].",
+          "options": ["[[should|deberías]]", "[[shouldn't|no deberías]]", "[[can't|no puedes]]"],
+          "correctAnswer": 0,
+          "explanation": "'Should' se usa para dar consejos o sugerencias."
+        }
       ]
     },
     "audioUrl": "audio/a1/unit-20/e4.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u20-e5",
-    "type": "flashcard",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 2 Review",
+    "topic": "Shouldn't",
     "difficulty": "easy",
-    "transcript": "Shirt. Pants. Dress. Shoes. Jacket",
+    "transcript": "You shouldn't go to work if you are sick.",
     "content": {
-      "title": "Ropa",
-      "instructions": "Repasa las prendas de vestir.",
-      "items": [
-        { "front": "[[Shirt|Camisa]]", "back": "Camisa" },
-        { "front": "[[Pants|Pantalones]]", "back": "Pantalones" },
-        { "front": "[[Dress|Vestido]]", "back": "Vestido" },
-        { "front": "[[Shoes|Zapatos]]", "back": "Zapatos" },
-        { "front": "[[Jacket|Chaqueta]]", "back": "Chaqueta" }
+      "title": "No deberías",
+      "instructions": "Elige el modal para una prohibición o consejo negativo.",
+      "questions": [
+        {
+          "question": "[[You|Tú]] (_____) [[go|ir]] [[to|al]] [[work|trabajo]] [[if|si]] [[you|tú]] [[are|estás]] [[sick|enfermo]].",
+          "options": ["[[shouldn't|no deberías]]", "[[should|deberías]]", "[[must|debes]]"],
+          "correctAnswer": 0,
+          "explanation": "'Shouldn't' es la forma negativa para aconsejar no hacer algo."
+        }
       ]
     },
     "audioUrl": "audio/a1/unit-20/e5.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u20-e6",
-    "type": "flashcard",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Module 2 Review",
-    "difficulty": "easy",
-    "transcript": "Chef. Engineer. Nurse. Doctor. Waiter",
+    "topic": "Have got symptoms",
+    "difficulty": "medium",
+    "transcript": "She has got a sore throat.",
     "content": {
-      "title": "Profesiones",
-      "instructions": "Repasa los trabajos.",
-      "items": [
-        { "front": "[[Chef|Cocinero/a]]", "back": "Cocinero/a" },
-        { "front": "[[Engineer|Ingeniero/a]]", "back": "Ingeniero/a" },
-        { "front": "[[Nurse|Enfermero/a]]", "back": "Enfermero/a" },
-        { "front": "[[Doctor|Médico/a]]", "back": "Médico/a" },
-        { "front": "[[Waiter|Camarero/a]]", "back": "Camarero/a" }
-      ]
+      "title": "Dolor de Garganta",
+      "instructions": "Ordena la oración sobre el síntoma de ella.",
+      "correctSentence": "[[She|Ella]] [[has|tiene]] [[got|conseguido]] [[a|un]] [[sore|dolorida]] [[throat|garganta]].",
+      "words": ["[[throat|garganta]].", "[[sore|dolorida]]", "[[a|un]]", "[[got|conseguido]]", "[[has|tiene]]", "[[She|Ella]]"],
+      "explanation": "Tercera persona singular: She has got."
     },
     "audioUrl": "audio/a1/unit-20/e6.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u20-e7",
-    "type": "flashcard",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 2 Review",
+    "topic": "Body Parts",
     "difficulty": "easy",
-    "transcript": "Coffee. Tea. Juice. Water. Milk",
+    "transcript": "I use my hands to write.",
     "content": {
-      "title": "Bebidas",
-      "instructions": "Repasa las bebidas comunes.",
-      "items": [
-        { "front": "[[Coffee|Café]]", "back": "Café" },
-        { "front": "[[Tea|Té]]", "back": "Té" },
-        { "front": "[[Juice|Zumo/Jugo]]", "back": "Zumo/Jugo" },
-        { "front": "[[Water|Agua]]", "back": "Agua" },
-        { "front": "[[Milk|Leche]]", "back": "Leche" }
+      "title": "Uso de las Manos",
+      "instructions": "Completa con la parte del cuerpo correcta.",
+      "questions": [
+        {
+          "question": "[[I|Yo]] [[use|uso]] [[my|mis]] (_____) [[to|para]] [[write|escribir]].",
+          "options": ["[[hands|manos]]", "[[feet|pies]]", "[[ears|orejas]]"],
+          "correctAnswer": 0,
+          "explanation": "Escribimos con las manos."
+        }
       ]
     },
     "audioUrl": "audio/a1/unit-20/e7.mp3",
@@ -151,41 +159,38 @@ export const UNIT_20_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u20-e8",
-    "type": "flashcard",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Module 2 Review",
-    "difficulty": "easy",
-    "transcript": "Bus. Train. Plane. Taxi. Bicycle",
+    "topic": "Should for advice",
+    "difficulty": "medium",
+    "transcript": "You should drink more water.",
     "content": {
-      "title": "Transporte",
-      "instructions": "Repasa los medios de transporte.",
-      "items": [
-        { "front": "[[Bus|Autobús]]", "back": "Autobús" },
-        { "front": "[[Train|Tren]]", "back": "Tren" },
-        { "front": "[[Plane|Avión]]", "back": "Avión" },
-        { "front": "[[Taxi|Taxi]]", "back": "Taxi" },
-        { "front": "[[Bicycle|Bicicleta]]", "back": "Bicicleta" }
-      ]
+      "title": "Beber Agua",
+      "instructions": "Ordena el consejo saludable.",
+      "correctSentence": "[[You|Tú]] [[should|deberías]] [[drink|beber]] [[more|más]] [[water|agua]].",
+      "words": ["[[water|agua]].", "[[more|más]]", "[[drink|beber]]", "[[should|deberías]]", "[[You|Tú]]"],
+      "explanation": "Should + infinitivo sin 'to'."
     },
     "audioUrl": "audio/a1/unit-20/e8.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u20-e9",
-    "type": "flashcard",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 2 Review",
-    "difficulty": "easy",
-    "transcript": "Love. Like. Enjoy. Hate. Prefer",
+    "topic": "Health Problems",
+    "difficulty": "medium",
+    "transcript": "Does he have a fever? Yes, his head is very hot.",
     "content": {
-      "title": "Sentimientos y Preferencias",
-      "instructions": "Repasa cómo expresar tus gustos.",
-      "items": [
-        { "front": "[[Love|Amar/Encantar]]", "back": "Amar/Encantar" },
-        { "front": "[[Like|Gustar]]", "back": "Gustar" },
-        { "front": "[[Enjoy|Disfrutar]]", "back": "Disfrutar" },
-        { "front": "[[Hate|Odiar]]", "back": "Odiar" },
-        { "front": "[[Prefer|Preferir]]", "back": "Preferir" }
+      "title": "¿Tiene fiebre?",
+      "instructions": "Elige el síntoma por la descripción.",
+      "questions": [
+        {
+          "question": "[[His|Su]] [[head|cabeza]] [[is|está]] [[very|muy]] [[hot|caliente]]. [[He|Él]] [[has|tiene]] [[a|una]] (_____) .",
+          "options": ["[[fever|fiebre]]", "[[cold|resfriado]]", "[[toothache|dolor de muelas]]"],
+          "correctAnswer": 0,
+          "explanation": "La cabeza caliente es un signo de fiebre."
+        }
       ]
     },
     "audioUrl": "audio/a1/unit-20/e9.mp3",
@@ -193,43 +198,37 @@ export const UNIT_20_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u20-e10",
-    "type": "flashcard",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Module 2 Review",
-    "difficulty": "easy",
-    "transcript": "Meetings. Emails. Calls. Reports. Projects",
+    "topic": "Questions symptoms",
+    "difficulty": "medium",
+    "transcript": "What is the matter with you?",
     "content": {
-      "title": "Tareas de Trabajo",
-      "instructions": "Repasa las tareas comunes en el trabajo.",
-      "items": [
-        { "front": "[[Meetings|Reuniones]]", "back": "Reuniones" },
-        { "front": "[[Emails|Correos electrónicos]]", "back": "Correos electrónicos" },
-        { "front": "[[Calls|Llamadas]]", "back": "Llamadas" },
-        { "front": "[[Reports|Informes]]", "back": "Informes" },
-        { "front": "[[Projects|Proyectos]]", "back": "Proyectos" }
-      ]
+      "title": "¿Qué te pasa?",
+      "instructions": "Ordena la pregunta del médico.",
+      "correctSentence": "[[What|Qué]] [[is|es]] [[the|el]] [[matter|asunto]] [[with|con]] [[you|tigo]]?",
+      "words": ["[[you|tigo]]?", "[[with|con]]", "[[matter|asunto]]", "[[the|el]]", "[[is|es]]", "[[What|Qué]]"],
+      "explanation": "'What is the matter?' es una forma común de preguntar qué duele o qué ocurre."
     },
     "audioUrl": "audio/a1/unit-20/e10.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
-
-  // MULTIPLE CHOICE (11-40)
   {
     "id": "a1-u20-e11",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 2 Review",
-    "difficulty": "medium",
-    "transcript": "She works in a hospital.",
+    "topic": "Shouldn't advice",
+    "difficulty": "easy",
+    "transcript": "You shouldn't eat so much candy.",
     "content": {
-      "title": "Gramática: Presente Simple",
-      "instructions": "Elige la forma correcta del verbo.",
+      "title": "Menos Dulces",
+      "instructions": "Elige la forma negativa del consejo.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[in|en]] [[a|un/una]] [[hospital|hospital]].",
-          "options": ["[[work|trabajar]]", "[[works|trabaja]]", "[[working|trabajando]]"],
-          "correctAnswer": 1,
-          "explanation": "En la tercera persona (he, she, it) añadimos 's' al verbo."
+          "question": "[[You|Tú]] (_____) [[eat|comer]] [[so|tan]] [[much|muchos]] [[candy|caramelos]].",
+          "options": ["[[shouldn't|no deberías]]", "[[should|deberías]]", "[[can|puedes]]"],
+          "correctAnswer": 0,
+          "explanation": "Es un consejo para evitar algo poco saludable."
         }
       ]
     },
@@ -238,66 +237,56 @@ export const UNIT_20_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u20-e12",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Module 2 Review",
-    "difficulty": "easy",
-    "transcript": "What time is it?",
+    "topic": "Have got symptoms",
+    "difficulty": "medium",
+    "transcript": "They have got a bad cold.",
     "content": {
-      "title": "Expresiones de Tiempo",
-      "instructions": "Completa la pregunta.",
-      "questions": [
-        {
-          "question": "[[What|Qué]] _______ [[is|es]] [[it|ello]]?",
-          "options": ["[[hour|hora]]", "[[day|día]]", "[[time|tiempo/hora]]"],
-          "correctAnswer": 2,
-          "explanation": "'What time is it?' es la forma estándar de preguntar la hora."
-        }
-      ]
+      "title": "Resfriado Fuerte",
+      "instructions": "Ordena la oración plural.",
+      "correctSentence": "[[They|Ellos]] [[have|tienen]] [[got|conseguido]] [[a|un]] [[bad|mal]] [[cold|resfriado]].",
+      "words": ["[[cold|resfriado]].", "[[bad|mal]]", "[[a|un]]", "[[got|conseguido]]", "[[have|tienen]]", "[[They|Ellos]]"],
+      "explanation": "Have got para sujeto plural."
     },
     "audioUrl": "audio/a1/unit-20/e12.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u20-e13",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 2 Review",
-    "difficulty": "medium",
-    "transcript": "They usually go to the park on Sundays.",
+    "topic": "Body Parts",
+    "difficulty": "easy",
+    "transcript": "My feet hurt because I walk a lot.",
     "content": {
-      "title": "Adverbios de Frecuencia",
-      "instructions": "Elige la posición correcta del adverbio.",
+      "title": "Pies Cansados",
+      "instructions": "Elige el plural irregular.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[go|ir]] [[to|a]] [[the|el]] [[park|parque]] [[on|los]] [[Sundays|domingos]].",
-          "options": ["[[usually|normalmente]]", "[[usually go|suelen ir]]", "[[go usually|van normalmente]]"],
+          "question": "[[My|Mis]] (_____) [[hurt|duelen]].",
+          "options": ["[[feet|pies]]", "[[foots|pies (incorrecto)]]", "[[foot|pie]]"],
           "correctAnswer": 0,
-          "explanation": "Los adverbios de frecuencia suelen ir antes del verbo principal."
+          "explanation": "Foot (singular), feet (plural)."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-20/e13.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u20-e14",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Module 2 Review",
-    "difficulty": "easy",
-    "transcript": "He is wearing a blue shirt.",
+    "topic": "Should advice",
+    "difficulty": "medium",
+    "transcript": "Should I take some medicine?",
     "content": {
-      "title": "Presente Continuo",
-      "instructions": "Completa la oración sobre la ropa.",
-      "questions": [
-        {
-          "question": "[[He|Él]] [[is|está]] _______ [[a|una]] [[blue|azul]] [[shirt|camisa]].",
-          "options": ["[[wear|llevar puesto]]", "[[wears|lleva puesto]]", "[[wearing|llevando puesto]]"],
-          "correctAnswer": 2,
-          "explanation": "Usamos el presente continuo (is + -ing) para describir lo que alguien lleva puesto ahora."
-        }
-      ]
+      "title": "¿Tomo medicina?",
+      "instructions": "Ordena la pregunta pidiendo consejo.",
+      "correctSentence": "[[Should|Debería]] [[I|yo]] [[take|tomar]] [[some|algo de]] [[medicine|medicina]]?",
+      "words": ["[[medicine|medicina]]?", "[[some|algo de]]", "[[take|tomar]]", "[[I|yo]]", "[[Should|Debería]]"],
+      "explanation": "Pregunta invirtiendo el sujeto y 'should'."
     },
     "audioUrl": "audio/a1/unit-20/e14.mp3",
     "topicName": "Grammar"
@@ -306,42 +295,37 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "id": "a1-u20-e15",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 2 Review",
-    "difficulty": "medium",
-    "transcript": "I like swimming in the morning.",
+    "topic": "Health Advice",
+    "difficulty": "easy",
+    "transcript": "I'm very tired. You should go to bed early.",
     "content": {
-      "title": "Verbos de Gusto",
-      "instructions": "Completa la oración con la forma -ing.",
+      "title": "Cansancio",
+      "instructions": "Completa el consejo para alguien cansado.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[like|gustar]] _______ [[in|en]] [[the|la]] [[morning|mañana]].",
-          "options": ["[[swim|nadar]]", "[[swims|nada]]", "[[swimming|nadando]]"],
-          "correctAnswer": 2,
-          "explanation": "Después de 'like' solemos usar el verbo terminado en -ing."
+          "question": "[[I'm|Estoy]] [[very|muy]] [[tired|cansado]]. [[You|Tú]] [[should|deberías]] (_____) .",
+          "options": ["[[go to bed|ir a la cama]]", "[[run a marathon|correr una maratón]]", "[[eat a pizza|comer una pizza]]"],
+          "correctAnswer": 0,
+          "explanation": "Dormir es el mejor consejo para el cansancio."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-20/e15.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u20-e16",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Module 2 Review",
-    "difficulty": "easy",
-    "transcript": "Where is the library? It is next to the bank.",
+    "topic": "Have got symptoms",
+    "difficulty": "medium",
+    "transcript": "My brother has got a stomach ache.",
     "content": {
-      "title": "Preposiciones de Lugar",
-      "instructions": "Elige la preposición correcta.",
-      "questions": [
-        {
-          "question": "[[The|La]] [[library|biblioteca]] [[is|está]] _______ [[the|el]] [[bank|banco]].",
-          "options": ["[[in|en]]", "[[next to|al lado de]]", "[[on|en/sobre]]"],
-          "correctAnswer": 1,
-          "explanation": "'Next to' indica que un lugar está al lado de otro."
-        }
-      ]
+      "title": "Dolor de Estómago",
+      "instructions": "Ordena la oración sobre el hermano.",
+      "correctSentence": "[[My|Mi]] [[brother|hermano]] [[has|tiene]] [[got|conseguido]] [[a|un]] [[stomach|estómago]] [[ache|dolor]].",
+      "words": ["[[ache|dolor]].", "[[stomach|estómago]]", "[[a|un]]", "[[got|conseguido]]", "[[has|tiene]]", "[[brother|hermano]]", "[[My|Mi]]"],
+      "explanation": "Estructura de tercera persona para dolores físicos."
     },
     "audioUrl": "audio/a1/unit-20/e16.mp3",
     "topicName": "Grammar"
@@ -350,42 +334,37 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "id": "a1-u20-e17",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 2 Review",
-    "difficulty": "medium",
-    "transcript": "Do you like coffee? Yes, I do.",
+    "topic": "Body Parts",
+    "difficulty": "easy",
+    "transcript": "Open your mouth and say 'ah'.",
     "content": {
-      "title": "Preguntas de Sí/No",
-      "instructions": "Completa la pregunta con el auxiliar correcto.",
+      "title": "En el Médico",
+      "instructions": "Instrucción común del médico.",
       "questions": [
         {
-          "question": "_______ [[you|tú]] [[like|gustar]] [[coffee|café]]?",
-          "options": ["[[Do|Auxiliar]]", "[[Does|Auxiliar 3ª pers]]", "[[Are|Eres/estás]]"],
+          "question": "[[Open|Abre]] [[your|tu]] (_____) [[and|y]] [[say|di]] [[ah|ah]].",
+          "options": ["[[mouth|boca]]", "[[nose|nariz]]", "[[eye|ojo]]"],
           "correctAnswer": 0,
-          "explanation": "Usamos 'Do' para hacer preguntas en presente simple con 'you'."
+          "explanation": "El médico pide abrir la boca para revisar la garganta."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-20/e17.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u20-e18",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Module 2 Review",
+    "topic": "Shouldn't advice",
     "difficulty": "medium",
-    "transcript": "Does she speak English? No, she doesn't.",
+    "transcript": "You shouldn't drink cold drinks with a sore throat.",
     "content": {
-      "title": "Preguntas de Sí/No (3ª persona)",
-      "instructions": "Elige el auxiliar correcto.",
-      "questions": [
-        {
-          "question": "_______ [[she|ella]] [[speak|hablar]] [[English|inglés]]?",
-          "options": ["[[Do|Auxiliar]]", "[[Does|Auxiliar 3ª pers]]", "[[Is|Es/está]]"],
-          "correctAnswer": 1,
-          "explanation": "Usamos 'Does' para la tercera persona (he, she, it)."
-        }
-      ]
+      "title": "Bebidas Frías",
+      "instructions": "Ordena el consejo negativo largo.",
+      "correctSentence": "[[You|Tú]] [[shouldn't|no deberías]] [[drink|beber]] [[cold|frías]] [[drinks|bebidas]] [[with|con]] [[a|un]] [[sore|dolorida]] [[throat|garganta]].",
+      "words": ["[[throat|garganta]].", "[[sore|dolorida]]", "[[with|con]]", "[[drinks|bebidas]]", "[[cold|frías]]", "[[drink|beber]]", "[[shouldn't|no deberías]]", "[[You|Tú]]"],
+      "explanation": "Consejo para no empeorar el dolor de garganta."
     },
     "audioUrl": "audio/a1/unit-20/e18.mp3",
     "topicName": "Grammar"
@@ -394,18 +373,18 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "id": "a1-u20-e19",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 2 Review",
-    "difficulty": "easy",
-    "transcript": "I'd like a croissant, please.",
+    "topic": "Symptoms",
+    "difficulty": "medium",
+    "transcript": "I have a toothache. You should see a dentist.",
     "content": {
-      "title": "En la Cafetería",
-      "instructions": "Completa la petición cortés.",
+      "title": "Dolor de Muelas",
+      "instructions": "Elige el especialista adecuado.",
       "questions": [
         {
-          "question": "[[I'd|Me]] _______ [[a|un]] [[croissant|cruasán]], [[please|por favor]].",
-          "options": ["[[want|querer]]", "[[like|gustaría]]", "[[have|tener]]"],
-          "correctAnswer": 1,
-          "explanation": "'I'd like' es una forma educada de pedir algo."
+          "question": "[[I|Yo]] [[have|tengo]] [[a|un]] [[toothache|dolor de muelas]]. [[You|Tú]] [[should|deberías]] [[see|ver]] [[a|un]] (_____) .",
+          "options": ["[[dentist|dentista]]", "[[nurse|enfermero]]", "[[teacher|profesor]]"],
+          "correctAnswer": 0,
+          "explanation": "El dentista trata los problemas de los dientes."
         }
       ]
     },
@@ -414,22 +393,17 @@ export const UNIT_20_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u20-e20",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Module 2 Review",
+    "topic": "Have got symptoms",
     "difficulty": "medium",
-    "transcript": "How much is this shirt?",
+    "transcript": "Have you got any symptoms?",
     "content": {
-      "title": "De Compras",
-      "instructions": "Pregunta por el precio.",
-      "questions": [
-        {
-          "question": "[[How|Cómo]] _______ [[is|es]] [[this|esta]] [[shirt|camisa]]?",
-          "options": ["[[many|muchos]]", "[[much|mucho]]", "[[price|precio]]"],
-          "correctAnswer": 1,
-          "explanation": "'How much' se usa para preguntar el precio."
-        }
-      ]
+      "title": "Síntomas",
+      "instructions": "Ordena la pregunta del médico.",
+      "correctSentence": "[[Have|Tener]] [[you|tú]] [[got|conseguido]] [[any|algún]] [[symptoms|síntomas]]?",
+      "words": ["[[symptoms|síntomas]]?", "[[any|algún]]", "[[got|conseguido]]", "[[you|tú]]", "[[Have|Tener]]"],
+      "explanation": "Pregunta estándar sobre el estado de salud."
     },
     "audioUrl": "audio/a1/unit-20/e20.mp3",
     "topicName": "Grammar"
@@ -438,18 +412,18 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "id": "a1-u20-e21",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 2 Review",
+    "topic": "Body Parts",
     "difficulty": "easy",
-    "transcript": "I take the bus to work.",
+    "transcript": "My eyes are blue.",
     "content": {
-      "title": "Transporte",
-      "instructions": "Elige el verbo correcto para el transporte.",
+      "title": "Los Ojos",
+      "instructions": "Completa con la parte del cuerpo que permite ver.",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[the|el]] [[bus|autobús]] [[to|al]] [[work|trabajo]].",
-          "options": ["[[take|tomar/coger]]", "[[go|ir]]", "[[ride|montar]]"],
+          "question": "[[I|Yo]] [[see|veo]] [[with|con]] [[my|mis]] (_____) .",
+          "options": ["[[eyes|ojos]]", "[[ears|orejas]]", "[[nose|nariz]]"],
           "correctAnswer": 0,
-          "explanation": "Usamos 'take' con medios de transporte como bus, tren o taxi."
+          "explanation": "Vemos a través de los ojos."
         }
       ]
     },
@@ -458,22 +432,17 @@ export const UNIT_20_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u20-e22",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Module 2 Review",
+    "topic": "Should advice",
     "difficulty": "medium",
-    "transcript": "What do you do? I'm an engineer.",
+    "transcript": "You should stay at home and rest.",
     "content": {
-      "title": "Trabajo",
-      "instructions": "Completa la pregunta sobre la profesión.",
-      "questions": [
-        {
-          "question": "[[What|Qué]] _______ [[you|tú]] [[do|haces]]?",
-          "options": ["[[are|eres]]", "[[do|auxiliar]]", "[[doing|haciendo]]"],
-          "correctAnswer": 1,
-          "explanation": "'What do you do?' significa '¿A qué te dedicas?'."
-        }
-      ]
+      "title": "Descansar en Casa",
+      "instructions": "Ordena el consejo.",
+      "correctSentence": "[[You|Tú]] [[should|deberías]] [[stay|quedarte]] [[at|en]] [[home|casa]] [[and|y]] [[rest|descansar]].",
+      "words": ["[[rest|descansar]].", "[[and|y]]", "[[home|casa]]", "[[at|en]]", "[[stay|quedarte]]", "[[should|deberías]]", "[[You|Tú]]"],
+      "explanation": "Consejo común para alguien enfermo."
     },
     "audioUrl": "audio/a1/unit-20/e22.mp3",
     "topicName": "Grammar"
@@ -482,18 +451,18 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "id": "a1-u20-e23",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 2 Review",
+    "topic": "Health Problems",
     "difficulty": "easy",
-    "transcript": "I have breakfast at 8 o'clock.",
+    "transcript": "I have a cough and a cold.",
     "content": {
-      "title": "Rutina Diaria",
-      "instructions": "Elige el verbo correcto para la comida.",
+      "title": "Tos y Resfriado",
+      "instructions": "Completa la oración.",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[breakfast|desayuno]] [[at|a las]] [[8|8]].",
-          "options": ["[[eat|comer]]", "[[have|tomar]]", "[[take|tomar]]"],
-          "correctAnswer": 1,
-          "explanation": "Es más común usar 'have' para las comidas (have breakfast, have lunch, have dinner)."
+          "question": "[[I|Yo]] [[have|tengo]] [[a|una]] (_____) [[and|y]] [[a|un]] [[cold|resfriado]].",
+          "options": ["[[cough|tos]]", "[[cake|pastel]]", "[[car|coche]]"],
+          "correctAnswer": 0,
+          "explanation": "Cough (tos) es un síntoma de salud."
         }
       ]
     },
@@ -502,22 +471,17 @@ export const UNIT_20_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u20-e24",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Module 2 Review",
+    "topic": "Have got symptoms",
     "difficulty": "medium",
-    "transcript": "My birthday is in June.",
+    "transcript": "I've got a pain in my back.",
     "content": {
-      "title": "Meses y Preposiciones",
-      "instructions": "Elige la preposición de tiempo correcta.",
-      "questions": [
-        {
-          "question": "[[My|Mi]] [[birthday|cumpleaños]] [[is|es]] _______ [[June|junio]].",
-          "options": ["[[at|en/a las]]", "[[on|en/el]]", "[[in|en]]"],
-          "correctAnswer": 2,
-          "explanation": "Usamos 'in' para los meses del año."
-        }
-      ]
+      "title": "Dolor de Espalda",
+      "instructions": "Ordena la oración sobre el dolor.",
+      "correctSentence": "[[I've|Tengo]] [[got|conseguido]] [[a|un]] [[pain|dolor]] [[in|en]] [[my|mi]] [[back|espalda]].",
+      "words": ["[[back|espalda]].", "[[my|mi]]", "[[in|en]]", "[[pain|dolor]]", "[[got|conseguido]]", "[[I've|Tengo]]"],
+      "explanation": "Otra forma de decir 'I have a backache'."
     },
     "audioUrl": "audio/a1/unit-20/e24.mp3",
     "topicName": "Grammar"
@@ -526,174 +490,154 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "id": "a1-u20-e25",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 2 Review",
-    "difficulty": "medium",
-    "transcript": "The meeting is on Monday.",
+    "topic": "Body Parts",
+    "difficulty": "easy",
+    "transcript": "Wash your hands before dinner.",
     "content": {
-      "title": "Días y Preposiciones",
-      "instructions": "Elige la preposición de tiempo correcta.",
+      "title": "Lavar las Manos",
+      "instructions": "Completa con la parte del cuerpo adecuada.",
       "questions": [
         {
-          "question": "[[The|La]] [[meeting|reunión]] [[is|es]] _______ [[Monday|lunes]].",
-          "options": ["[[at|en/a las]]", "[[on|en/el]]", "[[in|en]]"],
-          "correctAnswer": 1,
-          "explanation": "Usamos 'on' para los días de la semana."
+          "question": "[[Wash|Lava]] [[your|tus]] (_____) [[before|antes de]] [[dinner|la cena]].",
+          "options": ["[[hands|manos]]", "[[ears|orejas]]", "[[knees|rodillas]]"],
+          "correctAnswer": 0,
+          "explanation": "Es importante lavarse las manos antes de comer."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-20/e25.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u20-e26",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Module 2 Review",
+    "topic": "Shouldn't advice",
     "difficulty": "medium",
-    "transcript": "I never drink alcohol.",
+    "transcript": "You shouldn't exercise when you have a fever.",
     "content": {
-      "title": "Adverbios de Frecuencia Negativos",
-      "instructions": "Elige el adverbio que indica 0% de frecuencia.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] _______ [[drink|bebo]] [[alcohol|alcohol]].",
-          "options": ["[[always|siempre]]", "[[sometimes|a veces]]", "[[never|nunca]]"],
-          "correctAnswer": 2,
-          "explanation": "'Never' significa que la acción no ocurre nunca."
-        }
-      ]
+      "title": "Ejercicio y Fiebre",
+      "instructions": "Ordena el consejo negativo.",
+      "correctSentence": "[[You|Tú]] [[shouldn't|no deberías]] [[exercise|ejercitarte]] [[when|cuando]] [[you|tú]] [[have|tienes]] [[a|una]] [[fever|fiebre]].",
+      "words": ["[[fever|fiebre]].", "[[a|una]]", "[[have|tienes]]", "[[you|tú]]", "[[when|cuando]]", "[[exercise|ejercitarte]]", "[[shouldn't|no deberías]]", "[[You|Tú]]"],
+      "explanation": "No es recomendable hacer ejercicio si se tiene fiebre."
     },
     "audioUrl": "audio/a1/unit-20/e26.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u20-e27",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 2 Review",
+    "topic": "Body Parts",
     "difficulty": "medium",
-    "transcript": "He doesn't have a job.",
+    "transcript": "I've got ten fingers and ten toes.",
     "content": {
-      "title": "Negación en Presente Simple",
-      "instructions": "Elige la forma negativa correcta.",
+      "title": "Dedos",
+      "instructions": "Elige la palabra para los dedos de los pies.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[have|tener]] [[a|un]] [[job|trabajo]].",
-          "options": ["[[don't|no]]", "[[doesn't|no]]", "[[no|no]]"],
-          "correctAnswer": 1,
-          "explanation": "Para la tercera persona (he, she, it), usamos 'doesn't' para negar."
+          "question": "[[I|Yo]] [[have|tengo]] [[ten|diez]] [[fingers|dedos (manos)]] [[and|y]] [[ten|diez]] (_____) .",
+          "options": ["[[toes|dedos (pies)]]", "[[foots|pies (incorrecto)]]", "[[hands|manos]]"],
+          "correctAnswer": 0,
+          "explanation": "En inglés, los dedos de los pies se llaman 'toes'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-20/e27.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u20-e28",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Module 2 Review",
-    "difficulty": "easy",
-    "transcript": "I'm looking for a pair of shoes.",
+    "topic": "Should for advice",
+    "difficulty": "medium",
+    "transcript": "Where should I go for a check-up?",
     "content": {
-      "title": "De Compras",
-      "instructions": "Completa la frase de compra.",
-      "questions": [
-        {
-          "question": "[[I'm|Estoy]] [[looking|buscando]] [[for|por]] [[a|un]] _______ [[of|de]] [[shoes|zapatos]].",
-          "options": ["[[two|dos]]", "[[pair|par]]", "[[some|algunos]]"],
-          "correctAnswer": 1,
-          "explanation": "Usamos 'pair' para artículos que vienen de dos en dos, como zapatos o pantalones."
-        }
-      ]
+      "title": "Chequeo Médico",
+      "instructions": "Ordena la pregunta pidiendo consejo sobre un lugar.",
+      "correctSentence": "[[Where|Dónde]] [[should|debería]] [[I|yo]] [[go|ir]] [[for|para]] [[a|un]] [[check-up|chequeo]]?",
+      "words": ["[[check-up|chequeo]]?", "[[a|un]]", "[[for|para]]", "[[go|ir]]", "[[I|yo]]", "[[should|debería]]", "[[Where|Dónde]]"],
+      "explanation": "Pregunta informativa con 'should'."
     },
     "audioUrl": "audio/a1/unit-20/e28.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u20-e29",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 2 Review",
+    "topic": "Symptoms",
     "difficulty": "medium",
-    "transcript": "We love traveling by train.",
+    "transcript": "I feel sick. I think I ate something bad.",
     "content": {
-      "title": "Preferencias de Viaje",
-      "instructions": "Elige el verbo correcto después de 'love'.",
+      "title": "Sentirse Enfermo",
+      "instructions": "Elige la expresión de malestar general.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[love|encantar]] _______ [[by|en]] [[train|tren]].",
-          "options": ["[[travel|viajar]]", "[[travels|viaja]]", "[[traveling|viajando]]"],
-          "correctAnswer": 2,
-          "explanation": "Después de 'love', el verbo suele ir en forma -ing."
+          "question": "[[I|Yo]] (_____) [[sick|enfermo]].",
+          "options": ["[[feel|me siento]]", "[[have|tengo]]", "[[am got|estoy (incorrecto)]]"],
+          "correctAnswer": 0,
+          "explanation": "'Feel sick' describe la sensación de estar enfermo o con náuseas."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-20/e29.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u20-e30",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Module 2 Review",
-    "difficulty": "easy",
-    "transcript": "Can I help you?",
+    "topic": "Have got symptoms",
+    "difficulty": "medium",
+    "transcript": "Has she got a toothache again?",
     "content": {
-      "title": "Interacción Social",
-      "instructions": "Completa el ofrecimiento de ayuda.",
-      "questions": [
-        {
-          "question": "_______ [[I|yo]] [[help|ayudar]] [[you|te]]?",
-          "options": ["[[Do|Auxiliar]]", "[[Can|Poder]]", "[[Am|Soy]]"],
-          "correctAnswer": 1,
-          "explanation": "'Can I help you?' es una forma común de ofrecer ayuda."
-        }
-      ]
+      "title": "¿Le duele la muela otra vez?",
+      "instructions": "Ordena la pregunta de tercera persona.",
+      "correctSentence": "[[Has|Tiene]] [[she|ella]] [[got|conseguido]] [[a|un]] [[toothache|dolor de muelas]] [[again|otra vez]]?",
+      "words": ["[[again|otra vez]]?", "[[toothache|dolor de muelas]]", "[[a|un]]", "[[got|conseguido]]", "[[she|ella]]", "[[Has|Tiene]]"],
+      "explanation": "Pregunta singular con 'Has... got'."
     },
     "audioUrl": "audio/a1/unit-20/e30.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u20-e31",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 2 Review",
-    "difficulty": "medium",
-    "transcript": "The bank is between the cafe and the supermarket.",
+    "topic": "Body Parts",
+    "difficulty": "easy",
+    "transcript": "My hair is brown and long.",
     "content": {
-      "title": "Preposiciones de Lugar Complejas",
-      "instructions": "Elige la preposición correcta.",
+      "title": "El Pelo",
+      "instructions": "Completa con la palabra adecuada.",
       "questions": [
         {
-          "question": "[[The|El]] [[bank|banco]] [[is|está]] _______ [[the|el]] [[cafe|café]] [[and|y]] [[the|el]] [[supermarket|supermercado]].",
-          "options": ["[[behind|detrás]]", "[[between|entre]]", "[[next to|al lado de]]"],
-          "correctAnswer": 1,
-          "explanation": "'Between' se usa cuando algo está en medio de dos cosas."
+          "question": "[[She|Ella]] [[has|tiene]] [[long|largo]] (_____) .",
+          "options": ["[[hair|pelo]]", "[[ears|orejas]]", "[[noses|narices]]"],
+          "correctAnswer": 0,
+          "explanation": "El pelo es lo que solemos describir como largo."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-20/e31.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u20-e32",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Module 2 Review",
+    "topic": "Should advice",
     "difficulty": "medium",
-    "transcript": "What are you doing? I am reading a book.",
+    "transcript": "You should sleep for eight hours every night.",
     "content": {
-      "title": "Presente Continuo: Preguntas",
-      "instructions": "Completa la pregunta sobre la acción actual.",
-      "questions": [
-        {
-          "question": "[[What|Qué]] _______ [[you|tú]] [[doing|haciendo]]?",
-          "options": ["[[do|haces]]", "[[are|estás]]", "[[is|está]]"],
-          "correctAnswer": 1,
-          "explanation": "Usamos 'are' con 'you' para formar el presente continuo."
-        }
-      ]
+      "title": "Dormir lo Suficiente",
+      "instructions": "Ordena el consejo de salud.",
+      "correctSentence": "[[You|Tú]] [[should|deberías]] [[sleep|dormir]] [[for|por]] [[eight|ocho]] [[hours|horas]] [[every|cada]] [[night|noche]].",
+      "words": ["[[night|noche]].", "[[every|cada]]", "[[hours|horas]]", "[[eight|ocho]]", "[[for|por]]", "[[sleep|dormir]]", "[[should|deberías]]", "[[You|Tú]]"],
+      "explanation": "Recomendación estándar de sueño."
     },
     "audioUrl": "audio/a1/unit-20/e32.mp3",
     "topicName": "Grammar"
@@ -702,42 +646,37 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "id": "a1-u20-e33",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 2 Review",
-    "difficulty": "medium",
-    "transcript": "I have a meeting at 10 AM.",
+    "topic": "Body Parts",
+    "difficulty": "easy",
+    "transcript": "I listen to music with my ears.",
     "content": {
-      "title": "Preposiciones de Tiempo: Horas",
-      "instructions": "Elige la preposición correcta para la hora.",
+      "title": "Oído",
+      "instructions": "Completa con el órgano del sentido.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[have|tengo]] [[a|una]] [[meeting|reunión]] _______ [[10|10]] [[AM|AM]].",
-          "options": ["[[in|en]]", "[[on|el]]", "[[at|a las]]"],
-          "correctAnswer": 2,
-          "explanation": "Usamos 'at' para las horas específicas."
+          "question": "[[I|Yo]] [[listen|escucho]] [[with|con]] [[my|mis]] (_____) .",
+          "options": ["[[ears|orejas]]", "[[eyes|ojos]]", "[[mouth|boca]]"],
+          "correctAnswer": 0,
+          "explanation": "Escuchamos a través de las orejas/oídos."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-20/e33.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u20-e34",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Module 2 Review",
-    "difficulty": "easy",
-    "transcript": "Is there a park near here?",
+    "topic": "Have got symptoms",
+    "difficulty": "medium",
+    "transcript": "We haven't got any medicine at home.",
     "content": {
-      "title": "Existencia: Singular",
-      "instructions": "Completa la pregunta de existencia.",
-      "questions": [
-        {
-          "question": "_______ [[there|allí]] [[a|un]] [[park|parque]] [[near|cerca]] [[here|aquí]]?",
-          "options": ["[[Is|Hay (singular)]]", "[[Are|Hay (plural)]]", "[[Do|Auxiliar]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'Is there' para preguntar si hay algo en singular."
-        }
-      ]
+      "title": "Sin Medicina",
+      "instructions": "Ordena la negación de posesión.",
+      "correctSentence": "[[We|Nosotros]] [[haven't|no tenemos]] [[got|conseguido]] [[any|nada de]] [[medicine|medicina]] [[at|en]] [[home|casa]].",
+      "words": ["[[home|casa]].", "[[at|en]]", "[[medicine|medicina]]", "[[any|nada de]]", "[[got|conseguido]]", "[[haven't|no tenemos]]", "[[We|Nosotros]]"],
+      "explanation": "Haven't got + any para negación."
     },
     "audioUrl": "audio/a1/unit-20/e34.mp3",
     "topicName": "Grammar"
@@ -746,42 +685,37 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "id": "a1-u20-e35",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 2 Review",
-    "difficulty": "medium",
-    "transcript": "Are there any cafes in this street?",
+    "topic": "Health Problems",
+    "difficulty": "easy",
+    "transcript": "My stomach hurts. I have a stomach ache.",
     "content": {
-      "title": "Existencia: Plural y Any",
-      "instructions": "Completa la pregunta en plural.",
+      "title": "Mal de Estómago",
+      "instructions": "Identifica el término médico.",
       "questions": [
         {
-          "question": "[[Are|Hay]] [[there|allí]] _______ [[cafes|cafeterías]] [[in|en]] [[this|esta]] [[street|calle]]?",
-          "options": ["[[some|algunas]]", "[[any|algunas (preg/neg)]]", "[[a|una]]"],
-          "correctAnswer": 1,
-          "explanation": "Usamos 'any' en preguntas y oraciones negativas con sustantivos en plural."
+          "question": "[[My|Mi]] [[stomach|estómago]] [[hurts|duele]]. [[I|Yo]] [[have|tengo]] [[a|un]] (_____) .",
+          "options": ["[[stomach ache|dolor de estómago]]", "[[headache|dolor de cabeza]]", "[[toothache|dolor de muelas]]"],
+          "correctAnswer": 0,
+          "explanation": "Stomach ache es el término para el dolor de tripa."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-20/e35.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u20-e36",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Module 2 Review",
+    "topic": "Should advice",
     "difficulty": "medium",
-    "transcript": "He doesn't like wearing hats.",
+    "transcript": "What should I eat to be healthy?",
     "content": {
-      "title": "Gustos Negativos",
-      "instructions": "Elige la forma correcta del verbo.",
-      "questions": [
-        {
-          "question": "[[He|Él]] [[doesn't|no]] [[like|gustar]] _______ [[hats|sombreros]].",
-          "options": ["[[wear|llevar]]", "[[wearing|llevando/el hecho de llevar]]", "[[wears|lleva]]"],
-          "correctAnswer": 1,
-          "explanation": "Después de 'like' (incluso en negativo), usamos la forma -ing."
-        }
-      ]
+      "title": "Comida Saludable",
+      "instructions": "Ordena la pregunta por consejo dietético.",
+      "correctSentence": "[[What|Qué]] [[should|debería]] [[I|yo]] [[eat|comer]] [[to|para]] [[be|ser]] [[healthy|saludable]]?",
+      "words": ["[[healthy|saludable]]?", "[[be|ser]]", "[[to|para]]", "[[eat|comer]]", "[[I|yo]]", "[[should|debería]]", "[[What|Qué]]"],
+      "explanation": "Pregunta informativa sobre nutrición."
     },
     "audioUrl": "audio/a1/unit-20/e36.mp3",
     "topicName": "Grammar"
@@ -790,18 +724,18 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "id": "a1-u20-e37",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 2 Review",
-    "difficulty": "medium",
-    "transcript": "What is the date today?",
+    "topic": "Body Parts",
+    "difficulty": "easy",
+    "transcript": "He has broad shoulders.",
     "content": {
-      "title": "Fechas",
-      "instructions": "Pregunta por la fecha.",
+      "title": "Hombros",
+      "instructions": "Completa con la parte superior del tronco.",
       "questions": [
         {
-          "question": "[[What|Cuál]] [[is|es]] [[the|la]] _______ [[today|hoy]]?",
-          "options": ["[[day|día]]", "[[date|fecha]]", "[[time|hora]]"],
-          "correctAnswer": 1,
-          "explanation": "'Date' se refiere a la fecha (día, mes, año)."
+          "question": "[[The|Los]] (_____) [[connect|conectan]] [[the|el]] [[neck|cuello]] [[to|a]] [[the|el]] [[arm|brazo]].",
+          "options": ["[[shoulders|hombros]]", "[[knees|rodillas]]", "[[legs|piernas]]"],
+          "correctAnswer": 0,
+          "explanation": "Los hombros (shoulders) están entre el cuello y los brazos."
         }
       ]
     },
@@ -810,42 +744,37 @@ export const UNIT_20_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u20-e38",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Module 2 Review",
+    "topic": "Shouldn't advice",
     "difficulty": "medium",
-    "transcript": "I sometimes have lunch with my boss.",
+    "transcript": "You shouldn't use your phone before sleeping.",
     "content": {
-      "title": "Personas y Trabajo",
-      "instructions": "Elige la palabra de vocabulario correcta.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] [[sometimes|a veces]] [[have|tomo]] [[lunch|el almuerzo]] [[with|con]] [[my|mi]] _______.",
-          "options": ["[[boss|jefe/a]]", "[[office|oficina]]", "[[work|trabajo]]"],
-          "correctAnswer": 0,
-          "explanation": "'Boss' es la persona que dirige en el trabajo."
-        }
-      ]
+      "title": "Móvil y Sueño",
+      "instructions": "Ordena el consejo para dormir mejor.",
+      "correctSentence": "[[You|Tú]] [[shouldn't|no deberías]] [[use|usar]] [[your|tu]] [[phone|teléfono]] [[before|antes de]] [[sleeping|dormir]].",
+      "words": ["[[sleeping|dormir]].", "[[before|antes de]]", "[[phone|teléfono]]", "[[your|tu]]", "[[use|usar]]", "[[shouldn't|no deberías]]", "[[You|Tú]]"],
+      "explanation": "Consejo moderno de higiene del sueño."
     },
     "audioUrl": "audio/a1/unit-20/e38.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u20-e39",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 2 Review",
+    "topic": "Symptoms",
     "difficulty": "medium",
-    "transcript": "The train leaves at 5:30.",
+    "transcript": "She is coughing a lot. She needs some cough syrup.",
     "content": {
-      "title": "Horarios y Verbos",
-      "instructions": "Elige el verbo de horario correcto.",
+      "title": "Jarabe para la tos",
+      "instructions": "Elige el remedio adecuado.",
       "questions": [
         {
-          "question": "[[The|El]] [[train|tren]] _______ [[at|a las]] [[5:30|5:30]].",
-          "options": ["[[goes|va]]", "[[leaves|sale/se va]]", "[[takes|toma]]"],
-          "correctAnswer": 1,
-          "explanation": "'Leaves' es el verbo adecuado para indicar que un transporte sale de una estación."
+          "question": "[[She|Ella]] [[has|tiene]] [[a|una]] [[bad|mala]] [[cough|tos]]. [[She|Ella]] [[needs|necesita]] (_____) .",
+          "options": ["[[cough syrup|jarabe para la tos]]", "[[glasses|gafas]]", "[[a hat|un sombrero]]"],
+          "correctAnswer": 0,
+          "explanation": "El jarabe es para la tos."
         }
       ]
     },
@@ -854,41 +783,39 @@ export const UNIT_20_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u20-e40",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Module 2 Review",
+    "topic": "Have got symptoms",
     "difficulty": "medium",
-    "transcript": "He studies in the library.",
+    "transcript": "I've got a very sore back today.",
     "content": {
-      "title": "Verbos de Acción",
-      "instructions": "Elige la forma correcta del verbo 'study'.",
-      "questions": [
-        {
-          "question": "[[He|Él]] _______ [[in|en]] [[the|la]] [[library|biblioteca]].",
-          "options": ["[[study|estudiar]]", "[[studies|estudia]]", "[[studyies|error ortográfico]]"],
-          "correctAnswer": 1,
-          "explanation": "Los verbos terminados en consonante + y cambian la 'y' por 'ies' en la 3ª persona."
-        }
-      ]
+      "title": "Espalda Dolorida",
+      "instructions": "Ordena la oración de malestar.",
+      "correctSentence": "[[I've|Tengo]] [[got|conseguido]] [[a|un]] [[very|muy]] [[sore|dolorida]] [[back|espalda]] [[today|hoy]].",
+      "words": ["[[today|hoy]].", "[[back|espalda]]", "[[sore|dolorida]]", "[[very|muy]]", "[[a|un]]", "[[got|conseguido]]", "[[I've|Tengo]]"],
+      "explanation": "Descripción de un dolor de espalda intenso."
     },
     "audioUrl": "audio/a1/unit-20/e40.mp3",
     "topicName": "Grammar"
   },
-
-  // SENTENCE BUILDING (41-50)
   {
     "id": "a1-u20-e41",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 2 Review",
-    "difficulty": "medium",
-    "transcript": "I always wake up early.",
+    "topic": "Body Parts",
+    "difficulty": "easy",
+    "transcript": "I smell flowers with my nose.",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[I|Yo]] [[always|siempre]] [[wake up|despertarse]] [[early|temprano]].",
-      "words": ["[[always|siempre]]", "[[early|temprano]].", "[[I|Yo]]", "[[wake up|despertarse]]"],
-      "explanation": "El adverbio de frecuencia va antes del verbo principal."
+      "title": "Olfato",
+      "instructions": "Completa con el órgano adecuado.",
+      "questions": [
+        {
+          "question": "[[I|Yo]] [[smell|huelo]] [[with|con]] [[my|mi]] (_____) .",
+          "options": ["[[nose|nariz]]", "[[mouth|boca]]", "[[head|cabeza]]"],
+          "correctAnswer": 0,
+          "explanation": "Olemos con la nariz."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-20/e41.mp3",
     "topicName": "Vocabulary"
@@ -897,100 +824,115 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "id": "a1-u20-e42",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Module 2 Review",
+    "topic": "Should advice",
     "difficulty": "medium",
-    "transcript": "She is wearing a red dress.",
+    "transcript": "You should take a warm shower to relax.",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[She|Ella]] [[is|está]] [[wearing|llevando puesto]] [[a|un]] [[red|rojo]] [[dress|vestido]].",
-      "words": ["[[red|rojo]]", "[[She|Ella]]", "[[dress|vestido]].", "[[wearing|llevando puesto]]", "[[is|está]]", "[[a|un]]"],
-      "explanation": "Estructura del Presente Continuo: Sujeto + is/are + verbo-ing + complemento."
+      "title": "Ducha Relajante",
+      "instructions": "Ordena el consejo de bienestar.",
+      "correctSentence": "[[You|Tú]] [[should|deberías]] [[take|tomar]] [[a|una]] [[warm|templada]] [[shower|ducha]] [[to|para]] [[relax|relajarte]].",
+      "words": ["[[relax|relajarte]].", "[[to|para]]", "[[shower|ducha]]", "[[warm|templada]]", "[[a|una]]", "[[take|tomar]]", "[[should|deberías]]", "[[You|Tú]]"],
+      "explanation": "Sugerencia para aliviar el estrés."
     },
     "audioUrl": "audio/a1/unit-20/e42.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u20-e43",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 2 Review",
-    "difficulty": "medium",
-    "transcript": "Do you want some coffee?",
+    "topic": "Health Problems",
+    "difficulty": "easy",
+    "transcript": "I feel very weak and tired.",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para preguntar.",
-      "correctSentence": "[[Do|Auxiliar]] [[you|tú]] [[want|querer]] [[some|un poco de]] [[coffee|café]]?",
-      "words": ["[[want|querer]]", "[[coffee|café]]?", "[[Do|Auxiliar]]", "[[some|un poco de]]", "[[you|tú]]"],
-      "explanation": "Estructura de pregunta: Auxiliar + Sujeto + Verbo + Complemento."
+      "title": "Debilidad",
+      "instructions": "Elige el adjetivo de falta de fuerza.",
+      "questions": [
+        {
+          "question": "[[I|Yo]] [[am|estoy]] [[sick|enfermo]]. [[I|Yo]] [[feel|me siento]] (_____) .",
+          "options": ["[[weak|débil]]", "[[strong|fuerte]]", "[[happy|feliz]]"],
+          "correctAnswer": 0,
+          "explanation": "'Weak' (débil) es lo opuesto a 'strong'."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-20/e43.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u20-e44",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Module 2 Review",
+    "topic": "Have got symptoms",
     "difficulty": "medium",
-    "transcript": "He goes to work by bus.",
+    "transcript": "The baby has got a high fever.",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[He|Él]] [[goes|va]] [[to|a]] [[work|trabajar]] [[by|en]] [[bus|autobús]].",
-      "words": ["[[to|a]]", "[[He|Él]]", "[[bus|autobús]].", "[[by|en]]", "[[work|trabajar]]", "[[goes|va]]"],
-      "explanation": "Usamos 'by' para indicar el medio de transporte."
+      "title": "Fiebre Alta",
+      "instructions": "Ordena la oración sobre el bebé.",
+      "correctSentence": "[[The|El]] [[baby|bebé]] [[has|tiene]] [[got|conseguido]] [[a|una]] [[high|alta]] [[fever|fiebre]].",
+      "words": ["[[fever|fiebre]].", "[[high|alta]]", "[[a|una]]", "[[got|conseguido]]", "[[has|tiene]]", "[[baby|bebé]]", "[[The|El]]"],
+      "explanation": "Descripción de un síntoma grave."
     },
     "audioUrl": "audio/a1/unit-20/e44.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u20-e45",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 2 Review",
-    "difficulty": "medium",
-    "transcript": "There is a park in the city.",
+    "topic": "Body Parts",
+    "difficulty": "easy",
+    "transcript": "My legs are tired after the walk.",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[There|Allí]] [[is|está/hay]] [[a|un]] [[park|parque]] [[in|en]] [[the|la]] [[city|ciudad]].",
-      "words": ["[[park|parque]]", "[[the|la]]", "[[is|está/hay]]", "[[There|Allí]]", "[[city|ciudad]].", "[[in|en]]", "[[a|un]]"],
-      "explanation": "'There is' se usa para indicar la existencia de algo en singular."
+      "title": "Piernas",
+      "instructions": "Parte del cuerpo usada para caminar.",
+      "questions": [
+        {
+          "question": "[[We|Nosotros]] [[walk|caminamos]] [[with|con]] [[our|nuestras]] (_____) .",
+          "options": ["[[legs|piernas]]", "[[arms|brazos]]", "[[shoulders|hombros]]"],
+          "correctAnswer": 0,
+          "explanation": "Caminamos usando las piernas."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-20/e45.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u20-e46",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Module 2 Review",
+    "topic": "Shouldn't advice",
     "difficulty": "medium",
-    "transcript": "What do you do in your free time?",
+    "transcript": "You shouldn't drink too much coffee.",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[What|Qué]] [[do|auxiliar]] [[you|tú]] [[do|haces]] [[in|en]] [[your|tu]] [[free|libre]] [[time|tiempo]]?",
-      "words": ["[[do|auxiliar]]", "[[you|tú]]", "[[free|libre]]", "[[do|haces]]", "[[time|tiempo]]?", "[[in|en]]", "[[What|Qué]]", "[[your|tu]]"],
-      "explanation": "Estructura de pregunta con 'Wh-'."
+      "title": "Evitar Cafeína",
+      "instructions": "Ordena el consejo negativo.",
+      "correctSentence": "[[You|Tú]] [[shouldn't|no deberías]] [[drink|beber]] [[too|demasiado]] [[much|mucho]] [[coffee|café]].",
+      "words": ["[[coffee|café]].", "[[much|mucho]]", "[[too|demasiado]]", "[[drink|beber]]", "[[shouldn't|no deberías]]", "[[You|Tú]]"],
+      "explanation": "Consejo de salud común."
     },
-    "audioUrl": "audio/a1/unit-20/e41.mp3",
-    "topicName": "Vocabulary"
+    "audioUrl": "audio/a1/unit-20/e46.mp3",
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u20-e47",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 2 Review",
+    "topic": "Symptoms",
     "difficulty": "medium",
-    "transcript": "I love playing soccer with my friends.",
+    "transcript": "I need some tissues for my nose.",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[I|Yo]] [[love|encantar]] [[playing|jugando/el jugar]] [[soccer|fútbol]] [[with|con]] [[my|mis]] [[friends|amigos]].",
-      "words": ["[[playing|jugando/el jugar]]", "[[soccer|fútbol]]", "[[with|con]]", "[[friends|amigos]].", "[[I|Yo]]", "[[my|mis]]", "[[love|encantar]]"],
-      "explanation": "Estructura: Sujeto + love + verbo-ing + complemento."
+      "title": "Pañuelos",
+      "instructions": "Identifica el objeto para el resfriado.",
+      "questions": [
+        {
+          "question": "[[I|Yo]] [[have|tengo]] [[a|un]] [[cold|resfriado]]. [[I|Yo]] [[need|necesito]] (_____) .",
+          "options": ["[[tissues|pañuelos de papel]]", "[[a book|un libro]]", "[[shoes|zapatos]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'tissues' (pañuelos) cuando estamos resfriados."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-20/e47.mp3",
     "topicName": "Vocabulary"
@@ -999,71 +941,80 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "id": "a1-u20-e48",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Module 2 Review",
+    "topic": "Should advice",
     "difficulty": "medium",
-    "transcript": "Where do you work?",
+    "transcript": "You should wear a coat, it's freezing.",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Where|Dónde]] [[do|auxiliar]] [[you|tú]] [[work|trabajas]]?",
-      "words": ["[[work|trabajas]]?", "[[Where|Dónde]]", "[[do|auxiliar]]", "[[you|tú]]"],
-      "explanation": "Pregunta simple en presente."
+      "title": "Abrígate",
+      "instructions": "Ordena el consejo de vestimenta.",
+      "correctSentence": "[[You|Tú]] [[should|deberías]] [[wear|llevar]] [[a|un]] [[coat|abrigo]], [[it's|está]] [[freezing|congelando]].",
+      "words": ["[[freezing|congelando]].", "[[it's|está]]", "[[coat|abrigo]],", "[[a|un]]", "[[wear|llevar]]", "[[should|deberías]]", "[[You|Tú]]"],
+      "explanation": "Consejo basado en el clima."
     },
     "audioUrl": "audio/a1/unit-20/e48.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u20-e49",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 2 Review",
-    "difficulty": "medium",
-    "transcript": "She doesn't usually drink tea.",
+    "topic": "Health Problems",
+    "difficulty": "easy",
+    "transcript": "I feel better today.",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[She|Ella]] [[doesn't|no]] [[usually|normalmente]] [[drink|beber]] [[tea|té]].",
-      "words": ["[[usually|normalmente]]", "[[tea|té]].", "[[doesn't|no]]", "[[She|Ella]]", "[[drink|beber]]"],
-      "explanation": "En oraciones negativas, el adverbio de frecuencia va entre 'doesn't' y el verbo principal."
+      "title": "Mejoría",
+      "instructions": "Elige el adjetivo de recuperación.",
+      "questions": [
+        {
+          "question": "[[Yesterday|Ayer]] [[I|yo]] [[was|estaba]] [[sick|enfermo]]. [[Today|Hoy]] [[I|yo]] [[feel|me siento]] (_____) .",
+          "options": ["[[better|mejor]]", "[[worse|peor]]", "[[angry|enfadado]]"],
+          "correctAnswer": 0,
+          "explanation": "'Better' indica que la salud ha mejorado."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-20/e49.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u20-e50",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Module 2 Review",
+    "topic": "Have got symptoms",
     "difficulty": "medium",
-    "transcript": "How much does it cost?",
+    "transcript": "My parents have both got a headache.",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[How|Cómo]] [[much|mucho]] [[does|auxiliar]] [[it|ello]] [[cost|costar]]?",
-      "words": ["[[cost|costar]]?", "[[much|mucho]]", "[[it|ello]]", "[[does|auxiliar]]", "[[How|Cómo]]"],
-      "explanation": "Forma común de preguntar el precio de algo."
+      "title": "Dolor Compartido",
+      "instructions": "Ordena la oración plural compleja.",
+      "correctSentence": "[[My|Mis]] [[parents|padres]] [[have|tienen]] [[both|ambos]] [[got|conseguido]] [[a|un]] [[headache|dolor de cabeza]].",
+      "words": ["[[headache|dolor de cabeza]].", "[[a|un]]", "[[got|conseguido]]", "[[both|ambos]]", "[[have|tienen]]", "[[parents|padres]]", "[[My|Mis]]"],
+      "explanation": "Uso de 'both' con 'have got'."
     },
     "audioUrl": "audio/a1/unit-20/e50.mp3",
     "topicName": "Grammar"
   },
-
-  // READING COMPREHENSION (51-60)
   {
     "id": "a1-u20-e51",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 2 Review",
+    "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Reading: A Busy Day. Mark is a doctor. He wakes up at 6 AM. He has breakfast at 6:30. He goes to the hospital by car. He works from 8 AM to 4 PM. In the evening, he enjoys reading books.",
+    "transcript": "A visit to the doctor. Today, I don't feel well. I have got a bad headache and a sore throat. I am also very tired. I am at the doctor's office now. The doctor says I should stay at home for two days. He says I should drink a lot of water and sleep. I shouldn't go to work until I feel better.",
     "content": {
-      "title": "Lectura: Un Día Ocupado",
-      "instructions": "Lee el texto y responde.",
+      "title": "Visita al Médico",
+      "instructions": "Lee sobre la consulta médica.",
       "questions": [
         {
-          "question": "*\"[[Mark|Mark]] [[is|es]] [[a|un]] [[doctor|doctor]]. [[He|Él]] [[wakes up|se despierta]] [[at|a las]] [[6|6]] [[AM|AM]]. [[He|Él]] [[has|toma]] [[breakfast|el desayuno]] [[at|a las]] [[6:30|6:30]]. [[He|Él]] [[goes|va]] [[to|al]] [[the|el]] [[hospital|hospital]] [[by|en]] [[car|coche]]. [[He|Él]] [[works|trabaja]] [[from|desde]] [[8|8]] [[AM|AM]] [[to|hasta]] [[4|4]] [[PM|PM]]. [[In|En]] [[the|la]] [[evening|tarde/noche]], [[he|él]] [[enjoys|disfruta]] [[reading|leyendo]] [[books|libros]].\"*\n\n[[What|Qué]] [[time|hora]] [[does|auxiliar]] [[Mark|Mark]] [[wake up|despertarse]]?",
-          "options": ["[[At|A las]] [[6:30|6:30]]", "[[At|A las]] [[6:00|6:00]]", "[[At|A las]] [[8:00|8:00]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice: 'He wakes up at 6 AM'."
+          "question": "[[What|Qué]] [[symptoms|síntomas]] [[does|tiene]] [[the|el]] [[patient|paciente]] [[have|tener]]?",
+          "options": ["[[Headache and sore throat|Dolor de cabeza y garganta]]", "[[Stomach ache|Dolor de estómago]]", "[[Toothache|Dolor de muelas]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'I have got a bad headache and a sore throat'."
+        },
+        {
+          "question": "[[What|Qué]] [[advice|consejo]] [[does|da]] [[the|el]] [[doctor|médico]] [[give|dar]]?",
+          "options": ["[[Stay at home and drink water|Quedarse en casa y beber agua]]", "[[Go to work|Ir a trabajar]]", "[[Exercise every day|Hacer ejercicio]]"],
+          "correctAnswer": 0,
+          "explanation": "El doctor dice: 'I should stay at home... drink a lot of water'."
         }
       ]
     },
@@ -1074,18 +1025,24 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "id": "a1-u20-e52",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 2 Review",
+    "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "How does Mark go to work? He goes by car.",
+    "transcript": "Healthy habits. To be healthy, you should eat a lot of fruit and vegetables. You should also drink two liters of water every day. Exercise is important, so you should walk or run for thirty minutes. You shouldn't smoke or eat too much sugar. Sleep is also very important for your body.",
     "content": {
-      "title": "Lectura: Un Día Ocupado",
-      "instructions": "Lee el texto anterior y responde.",
+      "title": "Hábitos Saludables",
+      "instructions": "Lee sobre los consejos de salud.",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[does|auxiliar]] [[Mark|Mark]] [[go|ir]] [[to|al]] [[work|trabajo]]?",
-          "options": ["[[By|En]] [[bus|autobús]]", "[[By|En]] [[train|tren]]", "[[By|En]] [[car|coche]]"],
-          "correctAnswer": 2,
-          "explanation": "El texto dice: 'He goes to the hospital by car'."
+          "question": "[[How|Cuánto]] [[much|mucho]] [[water|agua]] [[should|deberías]] [[you|tú]] [[drink|beber]]?",
+          "options": ["[[Two liters a day|Dos litros al día]]", "[[One glass a day|Un vaso al día]]", "[[Only when thirsty|Solo con sed]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'drink two liters of water every day'."
+        },
+        {
+          "question": "[[What|Qué]] [[shouldn't|no deberías]] [[you|tú]] [[do|hacer]]?",
+          "options": ["[[Smoke or eat too much sugar|Fumar o comer mucha azúcar]]", "[[Walk or run|Caminar o correr]]", "[[Sleep|Dormir]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'You shouldn't smoke or eat too much sugar'."
         }
       ]
     },
@@ -1096,18 +1053,24 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "id": "a1-u20-e53",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 2 Review",
+    "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Reading: At the Cafe. Sarah is at the cafe. She wants a cup of tea and a muffin. The tea is 3 dollars and the muffin is 2 dollars. She pays with cash.",
+    "transcript": "Tom's accident. Tom was playing football yesterday and he fell. Now his right leg hurts a lot. He has got a big purple bruise on his knee. His mother says he should put some ice on it. He shouldn't play football for a week. He feels very sad because he loves sports.",
     "content": {
-      "title": "Lectura: En la Cafetería",
-      "instructions": "Lee el texto y responde.",
+      "title": "El Accidente de Tom",
+      "instructions": "Lee sobre la lesión de Tom.",
       "questions": [
         {
-          "question": "*\"[[ Sarah|Sarah]] [[is|está]] [[at|en]] [[the|la]] [[cafe|cafetería]]. [[She|Ella]] [[wants|quiere]] [[a|una]] [[cup|taza]] [[of|de]] [[tea|té]] [[and|y]] [[a|un]] [[muffin|muffin]]. [[The|El]] [[tea|té]] [[is|cuesta]] [[3|3]] [[dollars|dólares]] [[and|y]] [[the|el]] [[muffin|muffin]] [[is|cuesta]] [[2|2]] [[dollars|dólares]]. [[She|Ella]] [[pays|paga]] [[with|con]] [[cash|efectivo]].\"*\n\n[[How|Cuánto]] [[much|mucho]] [[is|cuesta]] [[the|el]] [[tea|té]]?",
-          "options": ["[[2|2]] [[dollars|dólares]]", "[[3|3]] [[dollars|dólares]]", "[[5|5]] [[dollars|dólares]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice: 'The tea is 3 dollars'."
+          "question": "[[Where|Dónde]] [[does|le]] [[Tom|Tom]] [[have|tener]] [[pain|dolor]]?",
+          "options": ["[[In his right leg|En su pierna derecha]]", "[[In his arm|En su brazo]]", "[[In his head|En su cabeza]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'his right leg hurts a lot'."
+        },
+        {
+          "question": "[[What|Qué]] [[should|debería]] [[he|él]] [[do|hacer]]?",
+          "options": ["[[Put ice on his knee|Poner hielo en su rodilla]]", "[[Play more football|Jugar más fútbol]]", "[[Go to school|Ir a la escuela]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'he should put some ice on it'."
         }
       ]
     },
@@ -1118,18 +1081,24 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "id": "a1-u20-e54",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 2 Review",
+    "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "How does Sarah pay? She pays with cash.",
+    "transcript": "Anna's toothache. Anna has got a terrible toothache. She can't eat or sleep. She is very nervous because she doesn't like the dentist. Her father says, 'You should go today, Anna. It is important.' Anna takes some medicine, but her tooth still hurts. Finally, she calls the dentist.",
     "content": {
-      "title": "Lectura: En la Cafetería",
-      "instructions": "Lee el texto anterior y responde.",
+      "title": "Dolor de Muelas de Anna",
+      "instructions": "Lee sobre Anna.",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[does|auxiliar]] [[Sarah|Sarah]] [[pay|pagar]]?",
-          "options": ["[[With|Con]] [[card|tarjeta]]", "[[With|Con]] [[cash|efectivo]]", "[[She|Ella]] [[doesn't|no]] [[pay|paga]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice: 'She pays with cash'."
+          "question": "[[Why|Por qué]] [[can't|no puede]] [[Anna|Anna]] [[eat|comer]]?",
+          "options": ["[[Because she has a toothache|Porque le duele la muela]]", "[[Because she is not hungry|Porque no tiene hambre]]", "[[Because she is tired|Porque está cansada]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'Anna has got a terrible toothache. She can't eat...'."
+        },
+        {
+          "question": "[[How|Cómo]] [[does|se]] [[she|ella]] [[feel|sentir]] [[about|sobre]] [[the|el]] [[dentist|dentista]]?",
+          "options": ["[[She is nervous|Está nerviosa]]", "[[She is happy|Está feliz]]", "[[She is excited|Está emocionada]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'She is very nervous because she doesn't like the dentist'."
         }
       ]
     },
@@ -1140,40 +1109,52 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "id": "a1-u20-e55",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 2 Review",
+    "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Reading: My City. I live in a big city. There is a beautiful park near my house. There are many shops and cafes. I like walking in the park on Saturdays.",
+    "transcript": "The flu season. It is winter and many people have got the flu. My sister has got a high fever and a bad cough. She feels very weak. My mother says we should all wash our hands many times a day. We should also eat oranges because they have vitamin C. We shouldn't share glasses or towels.",
     "content": {
-      "title": "Lectura: Mi Ciudad",
-      "instructions": "Lee el texto y responde.",
+      "title": "Temporada de Gripe",
+      "instructions": "Lee sobre la gripe.",
       "questions": [
         {
-          "question": "*\"[[I|Yo]] [[live|vivo]] [[in|en]] [[a|una]] [[big|grande]] [[city|ciudad]]. [[There|Allí]] [[is|hay]] [[a|un]] [[beautiful|hermoso]] [[park|parque]] [[near|cerca de]] [[my|mi]] [[house|casa]]. [[There|Allí]] [[are|hay]] [[many|muchas]] [[shops|tiendas]] [[and|y]] [[cafes|cafeterías]]. [[I|Yo]] [[like|gustar]] [[walking|caminar]] [[in|en]] [[the|el]] [[park|parque]] [[on|los]] [[Saturdays|sábados]].\"*\n\n[[Where|Dónde]] [[does|auxiliar]] [[the|la]] [[person|persona]] [[live|vivir]]?",
-          "options": ["[[In|En]] [[a|un]] [[small|pequeño]] [[village|pueblo]]", "[[In|En]] [[a|una]] [[big|grande]] [[city|ciudad]]", "[[In|En]] [[the|el]] [[park|parque]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice: 'I live in a big city'."
+          "question": "[[What|Qué]] [[symptoms|síntomas]] [[does|tiene]] [[the|la]] [[sister|hermana]] [[have|tener]]?",
+          "options": ["[[Fever and cough|Fiebre y tos]]", "[[Stomach ache|Dolor de estómago]]", "[[Broken arm|Brazo roto]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'My sister has got a high fever and a bad cough'."
+        },
+        {
+          "question": "[[What|Qué]] [[should|deberían]] [[they|ellos]] [[eat|comer]]?",
+          "options": ["[[Oranges|Naranjas]]", "[[Apples|Manzanas]]", "[[Chocolate|Chocolate]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'We should also eat oranges'."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-20/e55.mp3",
+    "audioUrl": "audio/a1/unit-20/e51.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u20-e56",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 2 Review",
+    "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "What is near the house? A park.",
+    "transcript": "Working too much. Mr. Brown works twelve hours every day. He is very stressed. He has got a backache and his eyes are always red. His wife is worried. She says, 'You should work less and relax more. You should go for a walk in the park.' Mr. Brown thinks she is right.",
     "content": {
-      "title": "Lectura: Mi Ciudad",
-      "instructions": "Lee el texto anterior y responde.",
+      "title": "Trabajando Demasiado",
+      "instructions": "Lee sobre Mr. Brown.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[is|está]] [[near|cerca de]] [[the|la]] [[house|casa]]?",
-          "options": ["[[A|Un]] [[supermarket|supermercado]]", "[[A|Un]] [[park|parque]]", "[[A|Una]] [[library|biblioteca]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice: 'There is a beautiful park near my house'."
+          "question": "[[How|Cuántas]] [[many|muchas]] [[hours|horas]] [[does|hace]] [[he|él]] [[work|trabajar]]?",
+          "options": ["[[Twelve hours a day|Doce horas al día]]", "[[Eight hours a day|Ocho horas al día]]", "[[Five hours a day|Cinco horas al día]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'Mr. Brown works twelve hours every day'."
+        },
+        {
+          "question": "[[What|Qué]] [[is|está]] [[his|su]] [[problem|problema]]?",
+          "options": ["[[Backache and red eyes|Dolor de espalda y ojos rojos]]", "[[Toothache|Dolor de muelas]]", "[[Broken leg|Pierna rota]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'He has got a backache and his eyes are always red'."
         }
       ]
     },
@@ -1184,18 +1165,24 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "id": "a1-u20-e57",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 2 Review",
+    "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Reading: Clothing. Julia is wearing a white shirt and blue pants today. She is also wearing a black jacket because it is cold. Her shoes are brown.",
+    "transcript": "At the pharmacy. I'm at the pharmacy because my son is sick. He's got a sore throat and a cough. I need to buy some medicine. The pharmacist says I should give him this syrup twice a day. He also says my son should drink warm tea with honey. I shouldn't give him very cold water.",
     "content": {
-      "title": "Lectura: Ropa",
-      "instructions": "Lee el texto y responde.",
+      "title": "En la Farmacia",
+      "instructions": "Lee sobre la farmacia.",
       "questions": [
         {
-          "question": "*\"[[Julia|Julia]] [[is|está]] [[wearing|llevando puesto]] [[a|una]] [[white|blanca]] [[shirt|camisa]] [[and|y]] [[blue|azules]] [[pants|pantalones]] [[today|hoy]]. [[She|Ella]] [[is|está]] [[also|también]] [[wearing|llevando puesto]] [[a|una]] [[black|negra]] [[jacket|chaqueta]] [[because|porque]] [[it|ello]] [[is|está]] [[cold|frío]]. [[Her|Sus]] [[shoes|zapatos]] [[are|son]] [[brown|marrones]].\"*\n\n[[What|De qué]] [[color|color]] [[are|son]] [[Julia's|de Julia]] [[pants|pantalones]]?",
-          "options": ["[[White|Blancos]]", "[[Blue|Azules]]", "[[Brown|Marrones]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice: '...and blue pants today'."
+          "question": "[[Who|Quién]] [[is|está]] [[sick|enfermo]]?",
+          "options": ["[[The son|El hijo]]", "[[The father|El padre]]", "[[The pharmacist|El farmacéutico]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'my son is sick'."
+        },
+        {
+          "question": "[[What|Qué]] [[should|debería]] [[the|el]] [[boy|niño]] [[drink|beber]]?",
+          "options": ["[[Warm tea with honey|Té caliente con miel]]", "[[Cold water|Agua fría]]", "[[Orange juice|Zumo de naranja]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'my son should drink warm tea with honey'."
         }
       ]
     },
@@ -1206,18 +1193,24 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "id": "a1-u20-e58",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 2 Review",
+    "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Why is Julia wearing a jacket? Because it is cold.",
+    "transcript": "My grandmother's health. My grandmother is eighty years old. She's very healthy because she eats good food. She's got a little pain in her knees sometimes, but she walks every day. She says young people should eat less junk food. She thinks everyone should be active to feel happy.",
     "content": {
-      "title": "Lectura: Ropa",
-      "instructions": "Lee el texto anterior y responde.",
+      "title": "La Salud de la Abuela",
+      "instructions": "Lee sobre la abuela.",
       "questions": [
         {
-          "question": "[[Why|Por qué]] [[is|está]] [[Julia|Julia]] [[wearing|llevando puesto]] [[a|una]] [[jacket|chaqueta]]?",
-          "options": ["[[Because|Porque]] [[it|ello]] [[is|está]] [[hot|calor]]", "[[Because|Porque]] [[it|ello]] [[is|está]] [[cold|frío]]", "[[Because|Porque]] [[she|ella]] [[likes|gusta]] [[it|ello]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice: '...because it is cold'."
+          "question": "[[Why|Por qué]] [[is|es]] [[she|ella]] [[healthy|saludable]]?",
+          "options": ["[[Because she eats good food|Porque come buena comida]]", "[[Because she is young|Porque es joven]]", "[[Because she sleeps all day|Porque duerme todo el día]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'She's very healthy because she eats good food'."
+        },
+        {
+          "question": "[[What|Qué]] [[hurts|duele]] [[sometimes|a veces]]?",
+          "options": ["[[Her knees|Sus rodillas]]", "[[Her head|Su cabeza]]", "[[Her back|Su espalda]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'She's got a little pain in her knees sometimes'."
         }
       ]
     },
@@ -1228,18 +1221,24 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "id": "a1-u20-e59",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 2 Review",
+    "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Reading: Hobbies. Tom loves playing guitar. He practices every afternoon. On Sundays, he usually plays with his friends in a small band. They enjoy music very much.",
+    "transcript": "A summer cold. Many people think you can't get a cold in summer, but it's possible. My friend Lisa has got a cold now. She was using the air conditioning all day. Now she has a sore throat and she is sneezing. She should turn off the air conditioning and drink water. She shouldn't go to the beach today.",
     "content": {
-      "title": "Lectura: Pasatiempos",
-      "instructions": "Lee el texto y responde.",
+      "title": "Resfriado de Verano",
+      "instructions": "Lee sobre Lisa.",
       "questions": [
         {
-          "question": "*\"[[Tom|Tom]] [[loves|encanta]] [[playing|tocar]] [[guitar|guitarra]]. [[He|Él]] [[practices|practica]] [[every|cada]] [[afternoon|tarde]]. [[On|Los]] [[Sundays|domingos]], [[he|él]] [[usually|normalmente]] [[plays|toca]] [[with|con]] [[his|sus]] [[friends|amigos]] [[in|en]] [[a|una]] [[small|pequeña]] [[band|banda]]. [[They|Ellos]] [[enjoy|disfrutan]] [[music|música]] [[very|mucho]] [[much|mucho]].\"*\n\n[[When|Cuándo]] [[does|auxiliar]] [[Tom|Tom]] [[practice|practicar]]?",
-          "options": ["[[Every|Cada]] [[morning|mañana]]", "[[Every|Cada]] [[afternoon|tarde]]", "[[Only|Solo]] [[on|los]] [[Sundays|domingos]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice: 'He practices every afternoon'."
+          "question": "[[Why|Por qué]] [[has|tiene]] [[she|ella]] [[a|un]] [[cold|resfriado]]?",
+          "options": ["[[Because of air conditioning|Por el aire acondicionado]]", "[[Because of the rain|Por la lluvia]]", "[[Because of the sun|Por el sol]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'She was using the air conditioning all day'."
+        },
+        {
+          "question": "[[What|Qué]] [[is|está]] [[she|ella]] [[doing|haciendo]]?",
+          "options": ["[[Sneezing|Estornudando]]", "[[Coughing|Tosiendo]]", "[[Sleeping|Durmiendo]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'she is sneezing'."
         }
       ]
     },
@@ -1250,18 +1249,24 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "id": "a1-u20-e60",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 2 Review",
+    "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Who does Tom play with on Sundays? His friends.",
+    "transcript": "Gym and health. David goes to the gym three times a week. He wants to have a strong body. He works on his arms and legs. After the gym, his muscles often hurt. His coach says he should stretch more. He should also eat more protein like chicken and eggs. He shouldn't lift weights that are too heavy.",
     "content": {
-      "title": "Lectura: Pasatiempos",
-      "instructions": "Lee el texto anterior y responde.",
+      "title": "Gimnasio y Salud",
+      "instructions": "Lee sobre David.",
       "questions": [
         {
-          "question": "[[Who|Con quién]] [[does|auxiliar]] [[Tom|Tom]] [[play|tocar]] [[with|con]] [[on|los]] [[Sundays|domingos]]?",
-          "options": ["[[With|Con]] [[his|su]] [[family|familia]]", "[[With|Con]] [[his|sus]] [[friends|amigos]]", "[[He|Él]] [[plays|toca]] [[alone|solo]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice: '...he usually plays with his friends'."
+          "question": "[[How|Qué]] [[often|tan a menudo]] [[does|va]] [[he|él]] [[go|ir]] [[to|al]] [[the|el]] [[gym|gimnasio]]?",
+          "options": ["[[Three times a week|Tres veces por semana]]", "[[Every day|Cada día]]", "[[Once a month|Una vez al mes]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'David goes to the gym three times a week'."
+        },
+        {
+          "question": "[[What|Qué]] [[should|debería]] [[he|él]] [[eat|comer]] [[more|más]]?",
+          "options": ["[[Protein|Proteína]]", "[[Sugar|Azúcar]]", "[[Fruit|Fruta]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'He should also eat more protein'."
         }
       ]
     },

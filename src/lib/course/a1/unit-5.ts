@@ -5,23 +5,21 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "id": "a1-u5-e1",
     "type": "flashcard",
     "level": "A1",
-    "topic": "Rooms in the House",
+    "topic": "Everyday Verbs",
     "difficulty": "easy",
-    "transcript": "Living room. Kitchen. Bedroom. Bathroom. Dining room. Garden. Garage. Hall. Attic. Basement.",
+    "transcript": "Eat. Drink. Sleep. Work. Study. Play. Read. Write.",
     "content": {
-      "title": "Vocabulario: Habitaciones",
-      "instructions": "Aprende las partes de la casa.",
+      "title": "Verbos Cotidianos",
+      "instructions": "Aprende verbos de acciones diarias.",
       "items": [
-        { "front": "[[Living room|Salón]]", "back": "Salón" },
-        { "front": "[[Kitchen|Cocina]]", "back": "Cocina" },
-        { "front": "[[Bedroom|Dormitorio]]", "back": "Dormitorio" },
-        { "front": "[[Bathroom|Baño]]", "back": "Baño" },
-        { "front": "[[Dining room|Comedor]]", "back": "Comedor" },
-        { "front": "[[Garden|Jardín]]", "back": "Jardín" },
-        { "front": "[[Garage|Garaje]]", "back": "Garaje" },
-        { "front": "[[Hall|Pasillo/Entrada]]", "back": "Pasillo/Entrada" },
-        { "front": "[[Attic|Ático]]", "back": "Ático" },
-        { "front": "[[Basement|Sótano]]", "back": "Sótano" }
+        { "front": "[[Eat|Comer]]", "back": "Comer" },
+        { "front": "[[Drink|Beber]]", "back": "Beber" },
+        { "front": "[[Sleep|Dormir]]", "back": "Dormir" },
+        { "front": "[[Work|Trabajar]]", "back": "Trabajar" },
+        { "front": "[[Study|Estudiar]]", "back": "Estudiar" },
+        { "front": "[[Play|Jugar]]", "back": "Jugar" },
+        { "front": "[[Read|Leer]]", "back": "Leer" },
+        { "front": "[[Write|Escribir]]", "back": "Escribir" }
       ]
     },
     "audioUrl": "audio/a1/unit-5/e1.mp3",
@@ -29,48 +27,39 @@ export const UNIT_5_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u5-e2",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Furniture",
-    "difficulty": "easy",
-    "transcript": "Sofa. Table. Chair. Bed. Desk. Lamp. Cupboard. Wardrobe. Shelf. Mirror.",
-    "content": {
-      "title": "Vocabulario: Muebles",
-      "instructions": "Aprende los nombres de los muebles comunes.",
-      "items": [
-        { "front": "[[Sofa|Sofá]]", "back": "Sofá" },
-        { "front": "[[Table|Mesa]]", "back": "Mesa" },
-        { "front": "[[Chair|Silla]]", "back": "Silla" },
-        { "front": "[[Bed|Cama]]", "back": "Cama" },
-        { "front": "[[Desk|Escritorio]]", "back": "Escritorio" },
-        { "front": "[[Lamp|Lámpara]]", "back": "Lámpara" },
-        { "front": "[[Cupboard|Armario de cocina]]", "back": "Armario de cocina" },
-        { "front": "[[Wardrobe|Armario de ropa]]", "back": "Armario de ropa" },
-        { "front": "[[Shelf|Estantería]]", "back": "Estantería" },
-        { "front": "[[Mirror|Espejo]]", "back": "Espejo" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-5/e2.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u5-e3",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "There is / There are",
+    "topic": "Simple Present: I/You/We/They",
     "difficulty": "easy",
-    "transcript": "There is a sofa in the living room.",
+    "transcript": "I work every day.",
     "content": {
-      "title": "Habitaciones: El Salón",
+      "title": "Yo trabajo",
       "instructions": "Completa la oración.",
       "questions": [
         {
-          "question": "[[There|Allí]] (_____) [[a|un]] [[sofa|sofá]] [[in|en]] [[the|el]] [[living|estar]] [[room|habitación]].",
-          "options": ["[[is|es/está (singular)]]", "[[are|son/están (plural)]]", "[[am|soy/estoy]]"],
+          "question": "[[I|Yo]] (_____) [[every|cada]] [[day|día]].",
+          "options": ["[[work|trabajo]]", "[[works|trabaja]]"],
           "correctAnswer": 0,
-          "explanation": "Usamos 'There is' para un objeto singular (a sofa)."
+          "explanation": "Con 'I' usamos el verbo en su forma base."
         }
       ]
+    },
+    "audioUrl": "audio/a1/unit-5/e2.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u5-e3",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Simple Present: I/You/We/They",
+    "difficulty": "easy",
+    "transcript": "We eat pizza.",
+    "content": {
+      "title": "Comemos pizza",
+      "instructions": "Ordena las palabras.",
+      "correctSentence": "[[We|Nosotros]] [[eat|comemos]] [[pizza|pizza]].",
+      "words": ["[[pizza|pizza]].", "[[eat|comemos]]", "[[We|Nosotros]]"],
+      "explanation": "Sujeto + Verbo + Complemento."
     },
     "audioUrl": "audio/a1/unit-5/e3.mp3",
     "topicName": "Grammar"
@@ -79,37 +68,37 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "id": "a1-u5-e4",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "There is / There are",
+    "topic": "Everyday Verbs",
     "difficulty": "easy",
-    "transcript": "There are four chairs in the kitchen.",
+    "transcript": "They drink water.",
     "content": {
-      "title": "Habitaciones: La Cocina",
-      "instructions": "Completa la oración.",
+      "title": "Beber agua",
+      "instructions": "Elige el verbo correcto.",
       "questions": [
         {
-          "question": "[[There|Allí]] (_____) [[four|cuatro]] [[chairs|sillas]] [[in|en]] [[the|la]] [[kitchen|cocina]].",
-          "options": ["[[is|es/está]]", "[[are|son/están]]", "[[am|soy/estoy]]"],
-          "correctAnswer": 1,
-          "explanation": "Usamos 'There are' para objetos en plural (four chairs)."
+          "question": "[[They|Ellos]] (_____) [[water|agua]].",
+          "options": ["[[drink|beben]]", "[[eat|comen]]", "[[sleep|duermen]]"],
+          "correctAnswer": 0,
+          "explanation": "Drink es el verbo para líquidos."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-5/e4.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u5-e5",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Furniture",
+    "topic": "Simple Present: I/You/We/They",
     "difficulty": "easy",
-    "transcript": "The lamp is on the table.",
+    "transcript": "I sleep at night.",
     "content": {
-      "title": "Preposiciones: Sobre",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[The|La]] [[lamp|lámpara]] [[is|está]] [[on|sobre]] [[the|la]] [[table|mesa]].",
-      "words": ["[[table|mesa]].", "[[is|está]]", "[[The|La]]", "[[on|sobre]]", "[[the|la]]", "[[lamp|lámpara]]"],
-      "explanation": "Estructura: Sujeto + Verbo + Preposición + Lugar."
+      "title": "Duermo de noche",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[I|Yo]] [[sleep|duermo]] [[at|por la]] [[night|noche]].",
+      "words": ["[[night|noche]].", "[[at|por la]]", "[[sleep|duermo]]", "[[I|Yo]]"],
+      "explanation": "Acción habitual."
     },
     "audioUrl": "audio/a1/unit-5/e5.mp3",
     "topicName": "Grammar"
@@ -118,198 +107,193 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "id": "a1-u5-e6",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Prepositions of Place",
+    "topic": "Everyday Verbs",
     "difficulty": "easy",
-    "transcript": "My cat is under the bed.",
+    "transcript": "You study English.",
     "content": {
-      "title": "Preposiciones: Debajo",
-      "instructions": "Elige la preposición correcta.",
+      "title": "Estudiar Inglés",
+      "instructions": "Elige el verbo para 'estudiar'.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[cat|gato]] [[is|está]] (_____) [[the|la]] [[bed|cama]].",
-          "options": ["[[on|sobre]]", "[[under|debajo de]]", "[[between|entre]]"],
-          "correctAnswer": 1,
-          "explanation": "'Under' significa debajo de."
+          "question": "[[You|Tú]] (_____) [[English|inglés]].",
+          "options": ["[[study|estudias]]", "[[play|juegas]]", "[[read|lees]]"],
+          "correctAnswer": 0,
+          "explanation": "Study significa estudiar."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-5/e6.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u5-e7",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Furniture",
+    "topic": "Simple Present: I/You/We/They",
     "difficulty": "easy",
-    "transcript": "There isn't a TV in my bedroom.",
+    "transcript": "They play soccer.",
     "content": {
-      "title": "Forma Negativa",
-      "instructions": "Completa la oración negativa.",
-      "questions": [
-        {
-          "question": "[[There|Allí]] (_____) [[a|un]] [[TV|televisor]] [[in|en]] [[my|mi]] [[bedroom|dormitorio]].",
-          "options": ["[[is not|no hay]]", "[[are not|no hay (plural)]]", "[[no is|no es]]"],
-          "correctAnswer": 0,
-          "explanation": "'There is not' (o isn't) es la forma negativa singular."
-        }
-      ]
+      "title": "Juegan al fútbol",
+      "instructions": "Ordena las palabras.",
+      "correctSentence": "[[They|Ellos]] [[play|juegan]] [[soccer|fútbol]].",
+      "words": ["[[soccer|fútbol]].", "[[play|juegan]]", "[[They|Ellos]]"],
+      "explanation": "Play se usa para deportes y juegos."
     },
     "audioUrl": "audio/a1/unit-5/e7.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u5-e8",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Rooms",
+    "topic": "Everyday Verbs",
     "difficulty": "easy",
-    "transcript": "Is there a garden in your house?",
+    "transcript": "We read books.",
     "content": {
-      "title": "Preguntas",
-      "instructions": "Ordena las palabras para preguntar.",
-      "correctSentence": "[[Is|Hay]] [[there|allí]] [[a|un]] [[garden|jardín]] [[in|en]] [[your|tu]] [[house|casa]]?",
-      "words": ["[[a|un]]", "[[garden|jardín]]", "[[there|allí]]", "[[Is|Hay]]", "[[house|casa]]?", "[[in|en]]", "[[your|tu]]"],
-      "explanation": "En preguntas, invertimos el orden: 'Is there...?'"
+      "title": "Leer libros",
+      "instructions": "Elige el verbo correcto.",
+      "questions": [
+        {
+          "question": "[[We|Nosotros]] (_____) [[books|libros]].",
+          "options": ["[[read|leemos]]", "[[write|escribimos]]", "[[drink|bebemos]]"],
+          "correctAnswer": 0,
+          "explanation": "Read significa leer."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-5/e8.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u5-e9",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Prepositions",
+    "topic": "Simple Present: I/You/We/They",
     "difficulty": "easy",
-    "transcript": "The keys are in the drawer.",
+    "transcript": "I write a letter.",
     "content": {
-      "title": "Preposiciones: Dentro",
-      "instructions": "Elige la preposición correcta.",
-      "questions": [
-        {
-          "question": "[[The|Las]] [[keys|llaves]] [[are|están]] (_____) [[the|el]] [[drawer|cajón]].",
-          "options": ["[[on|sobre]]", "[[in|dentro de]]", "[[next to|al lado de]]"],
-          "correctAnswer": 1,
-          "explanation": "'In' se usa para algo que está dentro de un espacio."
-        }
-      ]
+      "title": "Escribo una carta",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[I|Yo]] [[write|escribo]] [[a|una]] [[letter|carta]].",
+      "words": ["[[letter|carta]].", "[[a|una]]", "[[write|escribo]]", "[[I|Yo]]"],
+      "explanation": "Write significa escribir."
     },
     "audioUrl": "audio/a1/unit-5/e9.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u5-e10",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Furniture",
-    "difficulty": "easy",
-    "transcript": "There are some books on the shelf.",
-    "content": {
-      "title": "Plural y Estantería",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[There|Hay]] [[are|allí (plural)]] [[some|algunos]] [[books|libros]] [[on|sobre]] [[the|la]] [[shelf|estantería]].",
-      "words": ["[[some|algunos]]", "[[on|sobre]]", "[[are|allí (plural)]]", "[[books|libros]]", "[[the|la]]", "[[There|Hay]]", "[[shelf|estantería]]."],
-      "explanation": "'There are' con 'some' para plurales afirmativos."
-    },
-    "audioUrl": "audio/a1/unit-5/e10.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u5-e11",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Rooms",
+    "topic": "Everyday Verbs",
     "difficulty": "easy",
-    "transcript": "Where is the microwave? It's in the kitchen.",
+    "transcript": "Do you drink coffee?",
     "content": {
-      "title": "Electrodomésticos",
-      "instructions": "¿Dónde está el microondas?",
+      "title": "Beber café",
+      "instructions": "Completa la pregunta.",
       "questions": [
         {
-          "question": "[[The|El]] [[microwave|microondas]] [[is|está]] [[in|en]] [[the|la]] (_____) .",
-          "options": ["[[bathroom|baño]]", "[[kitchen|cocina]]", "[[bedroom|dormitorio]]"],
-          "correctAnswer": 1,
-          "explanation": "El microondas normalmente está en la cocina."
+          "question": "[[Do|¿Aux]] [[you|tú]] (_____) [[coffee|café]]?",
+          "options": ["[[drink|bebes]]", "[[eat|comes]]"],
+          "correctAnswer": 0,
+          "explanation": "Coffee es una bebida, usamos 'drink'."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-5/e11.mp3",
+    "audioUrl": "audio/a1/unit-5/e10.mp3",
     "topicName": "Vocabulary"
   },
   {
-    "id": "a1-u5-e12",
+    "id": "a1-u5-e11",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Rooms",
+    "topic": "Simple Present: I/You/We/They",
     "difficulty": "easy",
-    "transcript": "My house is small but comfortable.",
+    "transcript": "You study every morning.",
     "content": {
-      "title": "Describiendo la Casa",
+      "title": "Estudias cada mañana",
       "instructions": "Ordena las palabras.",
-      "correctSentence": "[[My|Mi]] [[house|casa]] [[is|es]] [[small|pequeña]] [[but|pero]] [[comfortable|cómoda]].",
-      "words": ["[[comfortable|cómoda]].", "[[is|es]]", "[[small|pequeña]]", "[[My|Mi]]", "[[house|casa]]", "[[but|pero]]"],
-      "explanation": "Uso de adjetivos para describir viviendas."
+      "correctSentence": "[[You|Tú]] [[study|estudias]] [[every|cada]] [[morning|mañana]].",
+      "words": ["[[morning|mañana]].", "[[every|cada]]", "[[study|estudias]]", "[[You|Tú]]"],
+      "explanation": "Hablando de rutinas."
+    },
+    "audioUrl": "audio/a1/unit-5/e11.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u5-e12",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Everyday Verbs",
+    "difficulty": "easy",
+    "transcript": "I play video games.",
+    "content": {
+      "title": "Videojuegos",
+      "instructions": "Elige el verbo correcto.",
+      "questions": [
+        {
+          "question": "[[I|Yo]] (_____) [[video|video]] [[games|juegos]].",
+          "options": ["[[play|juego]]", "[[work|trabajo]]", "[[read|leo]]"],
+          "correctAnswer": 0,
+          "explanation": "Play se usa para juegos."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-5/e12.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u5-e13",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Furniture",
+    "topic": "Simple Present: I/You/We/They",
     "difficulty": "easy",
-    "transcript": "I sit on a chair.",
+    "transcript": "We work in an office.",
     "content": {
-      "title": "Uso de Muebles",
-      "instructions": "¿Dónde te sientas?",
-      "questions": [
-        {
-          "question": "[[I|Yo]] [[sit|me siento]] [[on|en]] [[a|una]] (_____) .",
-          "options": ["[[chair|silla]]", "[[bed|cama]]", "[[wardrobe|armario]]"],
-          "correctAnswer": 0,
-          "explanation": "Chair es la palabra para silla."
-        }
-      ]
+      "title": "Trabajamos en una oficina",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[We|Nosotros]] [[work|trabajamos]] [[in|en]] [[an|una]] [[office|oficina]].",
+      "words": ["[[office|oficina]].", "[[an|una]]", "[[in|en]]", "[[work|trabajamos]]", "[[We|Nosotros]]"],
+      "explanation": "Lugar de trabajo."
     },
     "audioUrl": "audio/a1/unit-5/e13.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u5-e14",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "There is / There are",
+    "topic": "Everyday Verbs",
     "difficulty": "easy",
-    "transcript": "Are there any windows in the hall?",
+    "transcript": "They eat breakfast at eight.",
     "content": {
-      "title": "Preguntas Plurales",
-      "instructions": "Completa la pregunta.",
+      "title": "Desayuno",
+      "instructions": "Elige el verbo para 'comer'.",
       "questions": [
         {
-          "question": "(_____) [[there|allí]] [[any|alguna]] [[windows|ventanas]] [[in|en]] [[the|el]] [[hall|pasillo]]?",
-          "options": ["[[Is|Hay (singular)]]", "[[Are|Hay (plural)]]", "[[Do|Hacer]]"],
-          "correctAnswer": 1,
-          "explanation": "'Are there any...?' se usa para preguntas en plural."
+          "question": "[[They|Ellos]] (_____) [[breakfast|desayuno]] [[at|a las]] [[eight|ocho]].",
+          "options": ["[[eat|comen]]", "[[sleep|duermen]]", "[[play|juegan]]"],
+          "correctAnswer": 0,
+          "explanation": "Eat breakfast significa desayunar."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-5/e14.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u5-e15",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Rooms",
+    "topic": "Simple Present: I/You/We/They",
     "difficulty": "easy",
-    "transcript": "The bathroom is next to the bedroom.",
+    "transcript": "I drink tea.",
     "content": {
-      "title": "Ubicación de Habitaciones",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[The|El]] [[bathroom|baño]] [[is|está]] [[next|al lado]] [[to|de]] [[the|el]] [[bedroom|dormitorio]].",
-      "words": ["[[bedroom|dormitorio]].", "[[bathroom|baño]]", "[[to|de]]", "[[next|al lado]]", "[[The|El]]", "[[is|está]]", "[[the|el]]"],
-      "explanation": "'Next to' significa al lado de."
+      "title": "Bebo té",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[I|Yo]] [[drink|bebo]] [[tea|té]].",
+      "words": ["[[tea|té]].", "[[drink|bebo]]", "[[I|Yo]]"],
+      "explanation": "Acción simple."
     },
     "audioUrl": "audio/a1/unit-5/e15.mp3",
     "topicName": "Grammar"
@@ -318,98 +302,98 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "id": "a1-u5-e16",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Prepositions",
+    "topic": "Everyday Verbs",
     "difficulty": "easy",
-    "transcript": "The mirror is between the windows.",
+    "transcript": "You read the newspaper.",
     "content": {
-      "title": "Preposiciones: Entre",
-      "instructions": "Elige la preposición correcta.",
+      "title": "Periódico",
+      "instructions": "¿Qué haces con el periódico?",
       "questions": [
         {
-          "question": "[[The|El]] [[mirror|espejo]] [[is|está]] (_____) [[the|las]] [[windows|ventanas]].",
-          "options": ["[[between|entre]]", "[[behind|detrás de]]", "[[under|debajo de]]"],
+          "question": "[[You|Tú]] (_____) [[the|el]] [[newspaper|periódico]].",
+          "options": ["[[read|lees]]", "[[drink|bebes]]", "[[sleep|duermes]]"],
           "correctAnswer": 0,
-          "explanation": "'Between' se usa para indicar algo entre dos cosas."
+          "explanation": "Read es leer."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-5/e16.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u5-e17",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Furniture",
-    "difficulty": "easy",
-    "transcript": "I sleep in a big bed.",
-    "content": {
-      "title": "El Dormitorio",
-      "instructions": "¿Dónde duermes?",
-      "questions": [
-        {
-          "question": "[[I|Yo]] [[sleep|duermo]] [[in|en]] [[a|una]] [[big|grande]] (_____) .",
-          "options": ["[[desk|escritorio]]", "[[bed|cama]]", "[[table|mesa]]"],
-          "correctAnswer": 1,
-          "explanation": "Bed es la palabra para cama."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-5/e17.mp3",
     "topicName": "Vocabulary"
   },
   {
-    "id": "a1-u5-e18",
+    "id": "a1-u5-e17",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "There is / There are",
+    "topic": "Simple Present: I/You/We/They",
     "difficulty": "easy",
-    "transcript": "There is a car in the garage.",
+    "transcript": "We study together.",
     "content": {
-      "title": "El Garaje",
+      "title": "Estudiamos juntos",
       "instructions": "Ordena las palabras.",
-      "correctSentence": "[[There|Hay]] [[is|allí (singular)]] [[a|un]] [[car|coche]] [[in|en]] [[the|el]] [[garage|garaje]].",
-      "words": ["[[garage|garaje]].", "[[a|un]]", "[[There|Hay]]", "[[in|en]]", "[[is|allí (singular)]]", "[[car|coche]]", "[[the|el]]"],
-      "explanation": "Uso de 'There is' para objetos en el garaje."
+      "correctSentence": "[[We|Nosotros]] [[study|estudiamos]] [[together|juntos]].",
+      "words": ["[[together|juntos]].", "[[study|estudiamos]]", "[[We|Nosotros]]"],
+      "explanation": "Together significa juntos."
     },
-    "audioUrl": "audio/a1/unit-5/e18.mp3",
+    "audioUrl": "audio/a1/unit-5/e17.mp3",
     "topicName": "Grammar"
   },
   {
-    "id": "a1-u5-e19",
+    "id": "a1-u5-e18",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Furniture",
+    "topic": "Everyday Verbs",
     "difficulty": "easy",
-    "transcript": "There aren't any chairs in the garden.",
+    "transcript": "I work from home.",
     "content": {
-      "title": "Negativo Plural",
-      "instructions": "Completa la oración negativa.",
+      "title": "Trabajo desde casa",
+      "instructions": "Completa con el verbo.",
       "questions": [
         {
-          "question": "[[There|Allí]] (_____) [[any|ninguna]] [[chairs|sillas]] [[in|en]] [[the|el]] [[garden|jardín]].",
-          "options": ["[[is not|no hay]]", "[[aren't|no hay (plural)]]", "[[don't have|no tienen]]"],
-          "correctAnswer": 1,
-          "explanation": "Aren't (are not) se usa para negaciones en plural."
+          "question": "[[I|Yo]] (_____) [[from|desde]] [[home|casa]].",
+          "options": ["[[work|trabajo]]", "[[play|juego]]"],
+          "correctAnswer": 0,
+          "explanation": "Work from home es trabajar desde casa."
         }
       ]
+    },
+    "audioUrl": "audio/a1/unit-5/e18.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u5-e19",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Simple Present: I/You/We/They",
+    "difficulty": "easy",
+    "transcript": "They sleep eight hours.",
+    "content": {
+      "title": "Duermen ocho horas",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[They|Ellos]] [[sleep|duermen]] [[eight|ocho]] [[hours|horas]].",
+      "words": ["[[hours|horas]].", "[[eight|ocho]]", "[[sleep|duermen]]", "[[They|Ellos]]"],
+      "explanation": "Sleep es dormir."
     },
     "audioUrl": "audio/a1/unit-5/e19.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u5-e20",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Furniture",
+    "topic": "Everyday Verbs",
     "difficulty": "easy",
-    "transcript": "My clothes are in the wardrobe.",
+    "transcript": "Do we play basketball?",
     "content": {
-      "title": "Ropa y Armario",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[My|Mis]] [[clothes|ropas]] [[are|están]] [[in|en]] [[the|el]] [[wardrobe|armario]].",
-      "words": ["[[wardrobe|armario]].", "[[are|están]]", "[[clothes|ropas]]", "[[in|en]]", "[[the|el]]", "[[My|Mis]]"],
-      "explanation": "'Wardrobe' es el armario específico para la ropa."
+      "title": "Baloncesto",
+      "instructions": "Elige el verbo para deportes.",
+      "questions": [
+        {
+          "question": "[[Do|¿Aux]] [[we|nosotros]] (_____) [[basketball|baloncesto]]?",
+          "options": ["[[play|jugamos]]", "[[read|leemos]]", "[[drink|bebemos]]"],
+          "correctAnswer": 0,
+          "explanation": "Play se usa para deportes."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-5/e20.mp3",
     "topicName": "Vocabulary"
@@ -418,59 +402,59 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "id": "a1-u5-e21",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Rooms",
+    "topic": "Simple Present: I/You/We/They",
     "difficulty": "easy",
-    "transcript": "We have dinner in the dining room.",
+    "transcript": "You eat a sandwich.",
     "content": {
-      "title": "Cenar",
-      "instructions": "¿Dónde cenamos?",
+      "title": "Sujeto y Verbo",
+      "instructions": "Elige el verbo correcto para 'You'.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[have|tenemos]] [[dinner|cena]] [[in|en]] [[the|el]] (_____) .",
-          "options": ["[[dining room|comedor]]", "[[bathroom|baño]]", "[[garage|garaje]]"],
+          "question": "[[You|Tú]] (_____) [[a|un]] [[sandwich|sándwich]].",
+          "options": ["[[eat|comes]]", "[[eats|come]]"],
           "correctAnswer": 0,
-          "explanation": "Dining room es la habitación para comer/cenar."
+          "explanation": "Con 'You' no añadimos 's' al verbo."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-5/e21.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u5-e22",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Prepositions",
-    "difficulty": "easy",
-    "transcript": "The dog is behind the sofa.",
-    "content": {
-      "title": "Preposiciones: Detrás",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[The|El]] [[dog|perro]] [[is|está]] [[behind|detrás de]] [[the|el]] [[sofa|sofá]].",
-      "words": ["[[sofa|sofá]].", "[[behind|detrás de]]", "[[dog|perro]]", "[[The|El]]", "[[is|está]]", "[[the|el]]"],
-      "explanation": "'Behind' significa detrás de algo."
-    },
-    "audioUrl": "audio/a1/unit-5/e22.mp3",
     "topicName": "Grammar"
   },
   {
-    "id": "a1-u5-e23",
+    "id": "a1-u5-e22",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Rooms",
+    "topic": "Everyday Verbs",
     "difficulty": "easy",
-    "transcript": "Is there a basement in this building?",
+    "transcript": "I write in my notebook.",
     "content": {
-      "title": "Sótano",
-      "instructions": "Completa la pregunta.",
+      "title": "Escribir",
+      "instructions": "Elige el verbo.",
       "questions": [
         {
-          "question": "(_____) [[there|allí]] [[a|un]] [[basement|sótano]] [[in|en]] [[this|este]] [[building|edificio]]?",
-          "options": ["[[Is|Hay]]", "[[Are|Hay (plural)]]", "[[Do|Hacer]]"],
+          "question": "[[I|Yo]] (_____) [[in|en]] [[my|mi]] [[notebook|libreta]].",
+          "options": ["[[write|escribo]]", "[[drink|bebo]]", "[[sleep|duermo]]"],
           "correctAnswer": 0,
-          "explanation": "Pregunta singular sobre el sótano."
+          "explanation": "Write es escribir."
         }
       ]
+    },
+    "audioUrl": "audio/a1/unit-5/e22.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u5-e23",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Simple Present: I/You/We/They",
+    "difficulty": "easy",
+    "transcript": "We drink orange juice.",
+    "content": {
+      "title": "Zumo de naranja",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[We|Nosotros]] [[drink|bebemos]] [[orange|naranja]] [[juice|zumo]].",
+      "words": ["[[juice|zumo]].", "[[orange|naranja]]", "[[drink|bebemos]]", "[[We|Nosotros]]"],
+      "explanation": "Drink es beber."
     },
     "audioUrl": "audio/a1/unit-5/e23.mp3",
     "topicName": "Grammar"
@@ -479,18 +463,18 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "id": "a1-u5-e24",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Adjectives",
+    "topic": "Everyday Verbs",
     "difficulty": "easy",
-    "transcript": "My new apartment is very modern.",
+    "transcript": "Do they work on Saturdays?",
     "content": {
-      "title": "Moderno",
-      "instructions": "Elige el adjetivo correcto.",
+      "title": "Sábados",
+      "instructions": "Completa la pregunta.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[new|nuevo]] [[apartment|apartamento]] [[is|es]] [[very|muy]] (_____) .",
-          "options": ["[[modern|moderno]]", "[[old|viejo]]", "[[small|pequeño]]"],
+          "question": "[[Do|¿Aux]] [[they|ellos]] (_____) [[on|los]] [[Saturdays|sábados]]?",
+          "options": ["[[work|trabajan]]", "[[play|juegan]]"],
           "correctAnswer": 0,
-          "explanation": "Modern describe algo nuevo y actual."
+          "explanation": "Pregunta sobre trabajo habitual."
         }
       ]
     },
@@ -501,15 +485,15 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "id": "a1-u5-e25",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Furniture",
+    "topic": "Simple Present: I/You/We/They",
     "difficulty": "easy",
-    "transcript": "There is a beautiful mirror in the hall.",
+    "transcript": "I study every day.",
     "content": {
-      "title": "El Pasillo",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[There|Hay]] [[is|allí]] [[a|un]] [[beautiful|hermoso]] [[mirror|espejo]] [[in|en]] [[the|el]] [[hall|pasillo]].",
-      "words": ["[[mirror|espejo]]", "[[hall|pasillo]].", "[[beautiful|hermoso]]", "[[is|allí]]", "[[in|en]]", "[[the|el]]", "[[There|Hay]]"],
-      "explanation": "Combinación de adjetivos y There is."
+      "title": "Estudio a diario",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[I|Yo]] [[study|estudio]] [[every|cada]] [[day|día]].",
+      "words": ["[[day|día]].", "[[every|cada]]", "[[study|estudio]]", "[[I|Yo]]"],
+      "explanation": "Estructura de rutina."
     },
     "audioUrl": "audio/a1/unit-5/e25.mp3",
     "topicName": "Grammar"
@@ -518,146 +502,137 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "id": "a1-u5-e26",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Prepositions",
+    "topic": "Everyday Verbs",
     "difficulty": "easy",
-    "transcript": "The desk is next to the window.",
+    "transcript": "We play music.",
     "content": {
-      "title": "Ubicación del Escritorio",
-      "instructions": "Completa con la preposición.",
+      "title": "Música",
+      "instructions": "¿Qué haces con la música?",
       "questions": [
         {
-          "question": "[[The|El]] [[desk|escritorio]] [[is|está]] (_____) [[the|la]] [[window|ventana]].",
-          "options": ["[[on|sobre]]", "[[next to|al lado de]]", "[[under|debajo de]]"],
-          "correctAnswer": 1,
-          "explanation": "Next to es al lado de."
+          "question": "[[We|Nosotros]] (_____) [[music|música]].",
+          "options": ["[[play|tocamos/reproducimos]]", "[[eat|comemos]]", "[[work|trabajamos]]"],
+          "correctAnswer": 0,
+          "explanation": "Play se usa para instrumentos o reproducir música."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-5/e26.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u5-e27",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Furniture",
-    "difficulty": "easy",
-    "transcript": "We need a new table.",
-    "content": {
-      "title": "Necesidades",
-      "instructions": "¿Qué necesitamos?",
-      "questions": [
-        {
-          "question": "[[We|Nosotros]] [[need|necesitamos]] [[a|una]] [[new|nueva]] (_____) .",
-          "options": ["[[table|mesa]]", "[[garden|jardín]]", "[[garage|garaje]]"],
-          "correctAnswer": 0,
-          "explanation": "Table es un mueble común necesario en casas."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-5/e27.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u5-e28",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "There is / There are",
+    "topic": "Simple Present: I/You/We/They",
     "difficulty": "easy",
-    "transcript": "Are there any flowers in the garden?",
+    "transcript": "They read a magazine.",
     "content": {
-      "title": "Flores en el Jardín",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Are|Hay]] [[there|allí]] [[any|algunas]] [[flowers|flores]] [[in|en]] [[the|el]] [[garden|jardín]]?",
-      "words": ["[[flowers|flores]]", "[[garden|jardín]]?", "[[in|en]]", "[[any|algunas]]", "[[there|allí]]", "[[Are|Hay]]", "[[the|el]]"],
-      "explanation": "Pregunta plural sobre flores."
+      "title": "Revista",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[They|Ellos]] [[read|leen]] [[a|una]] [[magazine|revista]].",
+      "words": ["[[magazine|revista]].", "[[a|una]]", "[[read|leen]]", "[[They|Ellos]]"],
+      "explanation": "Read es leer."
     },
-    "audioUrl": "audio/a1/unit-5/e28.mp3",
+    "audioUrl": "audio/a1/unit-5/e27.mp3",
     "topicName": "Grammar"
   },
   {
-    "id": "a1-u5-e29",
+    "id": "a1-u5-e28",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Adjectives",
+    "topic": "Everyday Verbs",
     "difficulty": "easy",
-    "transcript": "Our living room is very cozy.",
+    "transcript": "I drink milk.",
     "content": {
-      "title": "Acogedor",
-      "instructions": "Elige el adjetivo 'acogedor'.",
+      "title": "Leche",
+      "instructions": "Elige el verbo.",
       "questions": [
         {
-          "question": "[[Our|Nuestro]] [[living|estar]] [[room|habitación]] [[is|es]] [[very|muy]] (_____) .",
-          "options": ["[[cozy|acogedor]]", "[[cold|frío]]", "[[big|grande]]"],
+          "question": "[[I|Yo]] (_____) [[milk|leche]].",
+          "options": ["[[drink|bebo]]", "[[eat|como]]", "[[play|juego]]"],
           "correctAnswer": 0,
-          "explanation": "Cozy describe un ambiente cálido y agradable."
+          "explanation": "Milk es un líquido."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-5/e29.mp3",
+    "audioUrl": "audio/a1/unit-5/e28.mp3",
     "topicName": "Vocabulary"
   },
   {
-    "id": "a1-u5-e30",
+    "id": "a1-u5-e29",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Rooms",
+    "topic": "Simple Present: I/You/We/They",
     "difficulty": "easy",
-    "transcript": "The kitchen is clean and bright.",
+    "transcript": "You work very hard.",
     "content": {
-      "title": "Estado de la Cocina",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[The|La]] [[kitchen|cocina]] [[is|está]] [[clean|limpia]] [[and|y]] [[bright|luminosa]].",
-      "words": ["[[clean|limpia]]", "[[bright|luminosa]].", "[[is|está]]", "[[kitchen|cocina]]", "[[The|La]]", "[[and|y]]"],
-      "explanation": "Uso de adjetivos positivos para la cocina."
+      "title": "Trabajas mucho",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[You|Tú]] [[work|trabajas]] [[very|muy]] [[hard|duro]].",
+      "words": ["[[hard|duro]].", "[[very|muy]]", "[[work|trabajas]]", "[[You|Tú]]"],
+      "explanation": "Hard significa duro o mucho en este contexto."
+    },
+    "audioUrl": "audio/a1/unit-5/e29.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u5-e30",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Everyday Verbs",
+    "difficulty": "easy",
+    "transcript": "We sleep in a big bed.",
+    "content": {
+      "title": "Cama grande",
+      "instructions": "¿Qué haces en la cama?",
+      "questions": [
+        {
+          "question": "[[We|Nosotros]] (_____) [[in|en]] [[a|una]] [[big|grande]] [[bed|cama]].",
+          "options": ["[[sleep|dormimos]]", "[[work|trabajamos]]", "[[eat|comemos]]"],
+          "correctAnswer": 0,
+          "explanation": "Sleep es la acción para la cama."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-5/e30.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u5-e31",
-    "type": "flashcard",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Home Adjectives",
-    "difficulty": "easy",
-    "transcript": "Small. Big. Modern. Old. Comfortable. Cozy. Bright. Dark. Clean. Dirty.",
+    "topic": "Simple Present: Negatives",
+    "difficulty": "medium",
+    "transcript": "I do not eat meat. I don't eat meat.",
     "content": {
-      "title": "Adjetivos para la Casa",
-      "instructions": "Aprende adjetivos para describir lugares.",
-      "items": [
-        { "front": "[[Small|Pequeño]]", "back": "Pequeño" },
-        { "front": "[[Big|Grande]]", "back": "Grande" },
-        { "front": "[[Modern|Moderno]]", "back": "Moderno" },
-        { "front": "[[Old|Viejo]]", "back": "Viejo" },
-        { "front": "[[Comfortable|Cómodo]]", "back": "Cómodo" },
-        { "front": "[[Cozy|Acogedor]]", "back": "Acogedor" },
-        { "front": "[[Bright|Luminoso]]", "back": "Luminoso" },
-        { "front": "[[Dark|Oscuro]]", "back": "Oscuro" },
-        { "front": "[[Clean|Limpio]]", "back": "Limpio" },
-        { "front": "[[Dirty|Sucio]]", "back": "Sucio" }
+      "title": "Negación",
+      "instructions": "Elige la forma negativa.",
+      "questions": [
+        {
+          "question": "[[I|Yo]] (_____) [[eat|como]] [[meat|carne]].",
+          "options": ["[[don't|no]]", "[[not|no]]", "[[no|no]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'don't' para negar verbos en presente simple."
+        }
       ]
     },
     "audioUrl": "audio/a1/unit-5/e31.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u5-e32",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "There is / There are",
-    "difficulty": "easy",
-    "transcript": "Is there a lot of light in the bedroom?",
+    "topic": "Simple Present: Negatives",
+    "difficulty": "medium",
+    "transcript": "We do not drink soda.",
     "content": {
-      "title": "Luz en el Cuarto",
-      "instructions": "Completa la pregunta.",
-      "questions": [
-        {
-          "question": "(_____) [[there|allí]] [[a|mucha]] [[lot|cantidad]] [[of|de]] [[light|luz]] [[in|en]] [[the|el]] [[bedroom|dormitorio]]?",
-          "options": ["[[Is|Hay]]", "[[Are|Hay (plural)]]", "[[Has|Tiene]]"],
-          "correctAnswer": 0,
-          "explanation": "Light es incontable en este contexto, usamos 'Is there'."
-        }
-      ]
+      "title": "No bebemos refrescos",
+      "instructions": "Ordena la oración negativa.",
+      "correctSentence": "[[We|Nosotros]] [[do|aux]] [[not|no]] [[drink|bebemos]] [[soda|refresco]].",
+      "words": ["[[soda|refresco]].", "[[drink|bebemos]]", "[[not|no]]", "[[do|aux]]", "[[We|Nosotros]]"],
+      "explanation": "Estructura: Sujeto + do not + verbo."
     },
     "audioUrl": "audio/a1/unit-5/e32.mp3",
     "topicName": "Grammar"
@@ -666,18 +641,18 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "id": "a1-u5-e33",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Prepositions",
-    "difficulty": "easy",
-    "transcript": "The book is between the lamp and the clock.",
+    "topic": "Simple Present: Negatives",
+    "difficulty": "medium",
+    "transcript": "They do not play tennis.",
     "content": {
-      "title": "Entre dos objetos",
-      "instructions": "Completa con la preposición.",
+      "title": "Ellos no juegan",
+      "instructions": "Completa la negación.",
       "questions": [
         {
-          "question": "[[The|El]] [[book|libro]] [[is|está]] (_____) [[the|la]] [[lamp|lámpara]] [[and|y]] [[the|el]] [[clock|reloj]].",
-          "options": ["[[under|debajo de]]", "[[between|entre]]", "[[behind|detrás de]]"],
-          "correctAnswer": 1,
-          "explanation": "Between se usa para algo entre dos puntos o cosas."
+          "question": "[[They|Ellos]] [[don't|no]] (_____) [[tennis|tenis]].",
+          "options": ["[[play|juegan]]", "[[plays|juega]]"],
+          "correctAnswer": 0,
+          "explanation": "Después de 'don't', el verbo va en forma base."
         }
       ]
     },
@@ -688,98 +663,93 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "id": "a1-u5-e34",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Rooms",
-    "difficulty": "easy",
-    "transcript": "Our garden is very big and green.",
+    "topic": "Simple Present: Negatives",
+    "difficulty": "medium",
+    "transcript": "You do not work on Sundays.",
     "content": {
-      "title": "El Jardín",
+      "title": "No trabajas los domingos",
       "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Our|Nuestro]] [[garden|jardín]] [[is|es]] [[very|muy]] [[big|grande]] [[and|y]] [[green|verde]].",
-      "words": ["[[green|verde]].", "[[is|es]]", "[[big|grande]]", "[[garden|jardín]]", "[[Our|Nuestro]]", "[[very|muy]]", "[[and|y]]"],
-      "explanation": "Descripción del jardín con colores y tamaño."
+      "correctSentence": "[[You|Tú]] [[do|aux]] [[not|no]] [[work|trabajas]] [[on|los]] [[Sundays|domingos]].",
+      "words": ["[[Sundays|domingos]].", "[[on|los]]", "[[work|trabajas]]", "[[not|no]]", "[[do|aux]]", "[[You|Tú]]"],
+      "explanation": "Negando una rutina."
     },
     "audioUrl": "audio/a1/unit-5/e34.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u5-e35",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Furniture",
-    "difficulty": "easy",
-    "transcript": "There is a large cupboard in the kitchen.",
+    "topic": "Simple Present: Questions",
+    "difficulty": "medium",
+    "transcript": "Do you study here?",
     "content": {
-      "title": "Armario de Cocina",
-      "instructions": "Elige la palabra para armario de cocina.",
+      "title": "Preguntas",
+      "instructions": "Elige el auxiliar correcto.",
       "questions": [
         {
-          "question": "[[There|Allí]] [[is|hay]] [[a|un]] [[large|grande]] (_____) [[in|en]] [[the|la]] [[kitchen|cocina]].",
-          "options": ["[[cupboard|armario cocina]]", "[[wardrobe|armario ropa]]", "[[desk|escritorio]]"],
+          "question": "(_____) [[you|tú]] [[study|estudias]] [[here|aquí]]?",
+          "options": ["[[Do|¿Aux]]", "[[Does|¿Aux]]", "[[Are|¿Eres/Estás]]"],
           "correctAnswer": 0,
-          "explanation": "Cupboard es para la cocina o despensa."
+          "explanation": "Usamos 'Do' para preguntar con 'you'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-5/e35.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u5-e36",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Grammar",
-    "difficulty": "easy",
-    "transcript": "Is there a mirror in the bathroom?",
+    "topic": "Simple Present: Questions",
+    "difficulty": "medium",
+    "transcript": "Do we have class today?",
     "content": {
-      "title": "Espejo en el Baño",
-      "instructions": "Completa la pregunta.",
-      "questions": [
-        {
-          "question": "(_____) [[there|allí]] [[a|un]] [[mirror|espejo]] [[in|en]] [[the|el]] [[bathroom|baño]]?",
-          "options": ["[[Is|Hay]]", "[[Are|Hay (plural)]]", "[[Do|Hacer]]"],
-          "correctAnswer": 0,
-          "explanation": "Is there a mirror (singular)."
-        }
-      ]
+      "title": "¿Tenemos clase hoy?",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[Do|¿Aux]] [[we|nosotros]] [[have|tenemos]] [[class|clase]] [[today|hoy]]?",
+      "words": ["[[today|hoy]]?", "[[class|clase]]", "[[have|tenemos]]", "[[we|nosotros]]", "[[Do|¿Aux]]"],
+      "explanation": "Estructura: Do + sujeto + verbo + ?"
     },
     "audioUrl": "audio/a1/unit-5/e36.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u5-e37",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Rooms",
-    "difficulty": "easy",
-    "transcript": "The attic is very dark and old.",
+    "topic": "Simple Present: Questions",
+    "difficulty": "medium",
+    "transcript": "Do they eat lunch at school?",
     "content": {
-      "title": "El Ático",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[The|El]] [[attic|ático]] [[is|es]] [[very|muy]] [[dark|oscuro]] [[and|y]] [[old|viejo]].",
-      "words": ["[[attic|ático]]", "[[dark|oscuro]]", "[[is|es]]", "[[The|El]]", "[[old|viejo]].", "[[and|y]]", "[[very|muy]]"],
-      "explanation": "Uso de adjetivos para el ático."
+      "title": "Almuerzo",
+      "instructions": "Completa la pregunta.",
+      "questions": [
+        {
+          "question": "[[Do|¿Aux]] [[they|ellos]] (_____) [[lunch|almuerzo]] [[at|en]] [[school|la escuela]]?",
+          "options": ["[[eat|comen]]", "[[drink|beben]]", "[[sleep|duermen]]"],
+          "correctAnswer": 0,
+          "explanation": "Eat lunch significa almorzar."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-5/e37.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u5-e38",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Prepositions",
-    "difficulty": "easy",
-    "transcript": "My shoes are under the chair.",
+    "topic": "Simple Present: Questions",
+    "difficulty": "medium",
+    "transcript": "What do you drink?",
     "content": {
-      "title": "Zapatos",
-      "instructions": "¿Dónde están los zapatos?",
-      "questions": [
-        {
-          "question": "[[My|Mis]] [[shoes|zapatos]] [[are|están]] (_____) [[the|la]] [[chair|silla]].",
-          "options": ["[[on|sobre]]", "[[under|debajo de]]", "[[in|dentro de]]"],
-          "correctAnswer": 1,
-          "explanation": "Under es debajo de."
-        }
-      ]
+      "title": "¿Qué bebes?",
+      "instructions": "Ordena la pregunta con 'What'.",
+      "correctSentence": "[[What|Qué]] [[do|aux]] [[you|tú]] [[drink|bebes]]?",
+      "words": ["[[drink|bebes]]?", "[[you|tú]]", "[[do|aux]]", "[[What|Qué]]"],
+      "explanation": "Pregunta de información."
     },
     "audioUrl": "audio/a1/unit-5/e38.mp3",
     "topicName": "Grammar"
@@ -788,140 +758,135 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "id": "a1-u5-e39",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Rooms",
-    "difficulty": "easy",
-    "transcript": "We have a big garage for two cars.",
+    "topic": "Simple Present: Questions",
+    "difficulty": "medium",
+    "transcript": "Where do they work?",
     "content": {
-      "title": "Garaje",
-      "instructions": "Elige la palabra correcta.",
+      "title": "¿Dónde trabajan?",
+      "instructions": "Elige la palabra de pregunta.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[have|tenemos]] [[a|un]] [[big|grande]] (_____) [[for|para]] [[two|dos]] [[cars|coches]].",
-          "options": ["[[garage|garaje]]", "[[garden|jardín]]", "[[hall|pasillo]]"],
+          "question": "(_____) [[do|aux]] [[they|ellos]] [[work|trabajan]]?",
+          "options": ["[[Where|Dónde]]", "[[What|Qué]]", "[[How|Cómo]]"],
           "correctAnswer": 0,
-          "explanation": "Garage es el lugar para los coches."
+          "explanation": "Where pregunta por un lugar."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-5/e39.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u5-e40",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Furniture",
-    "difficulty": "easy",
-    "transcript": "There is a small desk in the bedroom.",
+    "topic": "Everyday Verbs",
+    "difficulty": "medium",
+    "transcript": "I read books every night.",
     "content": {
-      "title": "Escritorio Pequeño",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[There|Hay]] [[is|allí]] [[a|un]] [[small|pequeño]] [[desk|escritorio]] [[in|en]] [[the|el]] [[bedroom|dormitorio]].",
-      "words": ["[[bedroom|dormitorio]].", "[[small|pequeño]]", "[[is|allí]]", "[[There|Hay]]", "[[desk|escritorio]]", "[[a|un]]", "[[in|en]]", "[[the|el]]"],
-      "explanation": "Habitación con escritorio."
+      "title": "Lectura nocturna",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[I|Yo]] [[read|leo]] [[books|libros]] [[every|cada]] [[night|noche]].",
+      "words": ["[[night|noche]].", "[[every|cada]]", "[[books|libros]]", "[[read|leo]]", "[[I|Yo]]"],
+      "explanation": "Combinando verbo y frecuencia."
     },
     "audioUrl": "audio/a1/unit-5/e40.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u5-e41",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Prepositions",
-    "difficulty": "easy",
-    "transcript": "Is the cat on the sofa?",
+    "topic": "Everyday Verbs",
+    "difficulty": "medium",
+    "transcript": "We write emails at work.",
     "content": {
-      "title": "Gato en el Sofá",
-      "instructions": "Completa la pregunta.",
+      "title": "Correos electrónicos",
+      "instructions": "¿Qué haces con los emails?",
       "questions": [
         {
-          "question": "[[Is|Está]] [[the|el]] [[cat|gato]] (_____) [[the|el]] [[sofa|sofá]]?",
-          "options": ["[[on|sobre]]", "[[between|entre]]", "[[under|debajo de]]"],
-          "correctAnswer": 0,
-          "explanation": "On es sobre o encima de."
+          "question": "[[We|Nosotros]] (_____) [[emails|correos]] [[at|en el]] [[work|trabajo]].",
+          "options": ["[[write|escribimos]]", "[[read|leemos]]", "[[both are correct|ambos son correctos]]"],
+          "correctAnswer": 2,
+          "explanation": "Podemos escribir y leer correos electrónicos."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-5/e41.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u5-e42",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Rooms",
-    "difficulty": "easy",
-    "transcript": "The hall is between the kitchen and the living room.",
+    "topic": "Simple Present: I/You/We/They",
+    "difficulty": "medium",
+    "transcript": "They study in the library.",
     "content": {
-      "title": "El Pasillo: Ubicación",
-      "instructions": "Completa con la preposición.",
-      "questions": [
-        {
-          "question": "[[The|El]] [[hall|pasillo]] [[is|está]] (_____) [[the|la]] [[kitchen|cocina]] [[and|y]] [[the|el]] [[living|estar]] [[room|habitación]].",
-          "options": ["[[between|entre]]", "[[next to|al lado de]]", "[[behind|detrás de]]"],
-          "correctAnswer": 0,
-          "explanation": "Between para posición intermedia."
-        }
-      ]
+      "title": "En la biblioteca",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[They|Ellos]] [[study|estudian]] [[in|en]] [[the|la]] [[library|biblioteca]].",
+      "words": ["[[library|biblioteca]].", "[[the|la]]", "[[in|en]]", "[[study|estudian]]", "[[They|Ellos]]"],
+      "explanation": "Lugar de estudio."
     },
     "audioUrl": "audio/a1/unit-5/e42.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u5-e43",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Furniture",
-    "difficulty": "easy",
-    "transcript": "There are two lamps on my desk.",
-    "content": {
-      "title": "Lámparas",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[There|Hay]] [[are|allí (plural)]] [[two|dos]] [[lamps|lámparas]] [[on|sobre]] [[my|mi]] [[desk|escritorio]].",
-      "words": ["[[lamps|lámparas]]", "[[on|sobre]]", "[[There|Hay]]", "[[desk|escritorio]].", "[[my|mi]]", "[[are|allí (plural)]]", "[[two|dos]]"],
-      "explanation": "Plural con There are."
-    },
-    "audioUrl": "audio/a1/unit-5/e43.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u5-e44",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Furniture",
-    "difficulty": "easy",
-    "transcript": "Where are my socks? They're in the drawer.",
+    "topic": "Everyday Verbs",
+    "difficulty": "medium",
+    "transcript": "I play the guitar.",
     "content": {
-      "title": "Cajón",
-      "instructions": "Elige la palabra para 'cajón'.",
+      "title": "Instrumentos",
+      "instructions": "Elige el verbo correcto.",
       "questions": [
         {
-          "question": "[[They're|Están]] [[in|en]] [[the|el]] (_____) .",
-          "options": ["[[drawer|cajón]]", "[[shelf|estantería]]", "[[wardrobe|armario]]"],
+          "question": "[[I|Yo]] (_____) [[the|la]] [[guitar|guitarra]].",
+          "options": ["[[play|toco]]", "[[work|trabajo]]", "[[read|leo]]"],
           "correctAnswer": 0,
-          "explanation": "Drawer es cajón."
+          "explanation": "Play se usa para instrumentos musicales."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-5/e44.mp3",
+    "audioUrl": "audio/a1/unit-5/e43.mp3",
     "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u5-e44",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Simple Present: Negatives",
+    "difficulty": "medium",
+    "transcript": "You do not play video games.",
+    "content": {
+      "title": "No juegas",
+      "instructions": "Ordena la negación.",
+      "correctSentence": "[[You|Tú]] [[do|aux]] [[not|no]] [[play|juegas]] [[video|video]] [[games|juegos]].",
+      "words": ["[[games|juegos]].", "[[video|video]]", "[[play|juegas]]", "[[not|no]]", "[[do|aux]]", "[[You|Tú]]"],
+      "explanation": "Negando un pasatiempo."
+    },
+    "audioUrl": "audio/a1/unit-5/e44.mp3",
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u5-e45",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Furniture",
-    "difficulty": "easy",
-    "transcript": "I need a mirror for the bathroom.",
+    "topic": "Everyday Verbs",
+    "difficulty": "medium",
+    "transcript": "We drink water after exercise.",
     "content": {
-      "title": "Necesidades del Baño",
-      "instructions": "Elige la palabra correcta.",
+      "title": "Después de ejercicio",
+      "instructions": "Elige el verbo.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[need|necesito]] [[a|un]] (_____) [[for|para]] [[the|el]] [[bathroom|baño]].",
-          "options": ["[[mirror|espejo]]", "[[sofa|sofá]]", "[[bed|cama]]"],
+          "question": "[[We|Nosotros]] (_____) [[water|agua]] [[after|después de]] [[exercise|ejercicio]].",
+          "options": ["[[drink|bebemos]]", "[[eat|comemos]]", "[[sleep|dormimos]]"],
           "correctAnswer": 0,
-          "explanation": "Mirror es el espejo."
+          "explanation": "Drink es beber."
         }
       ]
     },
@@ -932,118 +897,119 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "id": "a1-u5-e46",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Adjectives",
-    "difficulty": "easy",
-    "transcript": "My apartment is very bright and sunny.",
+    "topic": "Simple Present: Questions",
+    "difficulty": "medium",
+    "transcript": "Do you eat fruit?",
     "content": {
-      "title": "Apartamento Luminoso",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[My|Mi]] [[apartment|apartamento]] [[is|es]] [[very|muy]] [[bright|luminoso]] [[and|y]] [[sunny|soleado]].",
-      "words": ["[[bright|luminoso]]", "[[sunny|soleado]].", "[[My|Mi]]", "[[apartment|apartamento]]", "[[is|es]]", "[[and|y]]", "[[very|muy]]"],
-      "explanation": "Uso de adjetivos positivos."
+      "title": "¿Comes fruta?",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[Do|¿Aux]] [[you|tú]] [[eat|comes]] [[fruit|fruta]]?",
+      "words": ["[[fruit|fruta]]?", "[[eat|comes]]", "[[you|tú]]", "[[Do|¿Aux]]"],
+      "explanation": "Pregunta simple sobre dieta."
     },
     "audioUrl": "audio/a1/unit-5/e46.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u5-e47",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Rooms",
-    "difficulty": "easy",
-    "transcript": "The basement is very cold in winter.",
+    "topic": "Simple Present: Negatives",
+    "difficulty": "medium",
+    "transcript": "I don't study at night.",
     "content": {
-      "title": "Frío en el Sótano",
-      "instructions": "Elige la habitación correcta.",
+      "title": "Estudio nocturno",
+      "instructions": "Completa la oración negativa.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is|está]] [[very|muy]] [[cold|frío]] [[in|en]] [[winter|invierno]].",
-          "options": ["[[basement|sótano]]", "[[attic|ático]]", "[[living room|salón]]"],
+          "question": "[[I|Yo]] [[don't|no]] (_____) [[at|por la]] [[night|noche]].",
+          "options": ["[[study|estudio]]", "[[studies|estudia]]"],
           "correctAnswer": 0,
-          "explanation": "Basement es el sótano."
+          "explanation": "Con 'don't' usamos la forma base 'study'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-5/e47.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u5-e48",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Prepositions",
-    "difficulty": "easy",
-    "transcript": "There is a shelf above the desk.",
+    "topic": "Everyday Verbs",
+    "difficulty": "medium",
+    "transcript": "They work in a restaurant.",
     "content": {
-      "title": "Encima (sin contacto)",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[There|Hay]] [[is|allí]] [[a|una]] [[shelf|estantería]] [[above|encima de]] [[the|el]] [[desk|escritorio]].",
-      "words": ["[[shelf|estantería]]", "[[above|encima de]]", "[[desk|escritorio]].", "[[There|Hay]]", "[[the|el]]", "[[is|allí]]", "[[a|una]]"],
-      "explanation": "Above significa por encima (generalmente sin tocar)."
+      "title": "Restaurante",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[They|Ellos]] [[work|trabajan]] [[in|en]] [[a|un]] [[restaurant|restaurante]].",
+      "words": ["[[restaurant|restaurante]].", "[[a|un]]", "[[in|en]]", "[[work|trabajan]]", "[[They|Ellos]]"],
+      "explanation": "Lugar de trabajo."
     },
     "audioUrl": "audio/a1/unit-5/e48.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u5-e49",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Furniture",
-    "difficulty": "easy",
-    "transcript": "I like your new sofa.",
+    "topic": "Simple Present: Questions",
+    "difficulty": "medium",
+    "transcript": "Do you work here?",
     "content": {
-      "title": "Sofá Nuevo",
-      "instructions": "Completa con el mueble.",
+      "title": "¿Trabajas aquí?",
+      "instructions": "Elige la respuesta corta correcta.",
       "questions": [
         {
-          "question": "[[I|Me]] [[like|gusta]] [[your|tu]] [[new|nuevo]] (_____) .",
-          "options": ["[[sofa|sofá]]", "[[garden|jardín]]", "[[attic|ático]]"],
+          "question": "[[Do|¿Aux]] [[you|tú]] [[work|trabajas]] [[here|aquí]]?",
+          "options": ["[[Yes, I do|Sí]]", "[[Yes, I work|Sí (incorrecto)]]", "[[Yes, I am|Sí (incorrecto)]]"],
           "correctAnswer": 0,
-          "explanation": "Sofa es el mueble principal del salón."
+          "explanation": "Usamos el auxiliar 'do' en respuestas cortas."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-5/e49.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u5-e50",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Adjectives",
-    "difficulty": "easy",
-    "transcript": "Is your room clean?",
+    "topic": "Simple Present: I/You/We/They",
+    "difficulty": "medium",
+    "transcript": "I read the newspaper in the morning.",
     "content": {
-      "title": "Limpieza",
-      "instructions": "Completa la pregunta.",
-      "questions": [
-        {
-          "question": "[[Is|Está]] [[your|tu]] [[room|habitación]] (_____) ?",
-          "options": ["[[clean|limpia]]", "[[bright|brillante]]", "[[comfortable|cómoda]]"],
-          "correctAnswer": 0,
-          "explanation": "Clean es limpio/a."
-        }
-      ]
+      "title": "Rutina de lectura",
+      "instructions": "Ordena la oración larga.",
+      "correctSentence": "[[I|Yo]] [[read|leo]] [[the|el]] [[newspaper|periódico]] [[in|en]] [[the|la]] [[morning|mañana]].",
+      "words": ["[[morning|mañana]].", "[[the|la]]", "[[in|en]]", "[[newspaper|periódico]]", "[[read|leo]]", "[[I|Yo]]"],
+      "explanation": "Combinando varios elementos."
     },
     "audioUrl": "audio/a1/unit-5/e50.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u5-e51",
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about Maria's apartment.",
+    "difficulty": "medium",
+    "transcript": "Hello! I am Mark. I work in an office every day. I start at nine and finish at five. I eat lunch with my friends at one. We drink coffee and talk. After work, I go home and eat dinner. I sleep eight hours every night. I am very busy but happy.",
     "content": {
-      "title": "Lectura: Maria's New Apartment",
-      "instructions": "Lee el texto y responde.",
+      "title": "La Rutina de Mark",
+      "instructions": "Lee sobre Mark y responde.",
       "questions": [
         {
-          "question": "How many bedrooms are there? *\"Maria has a new apartment. It is on the third floor. There are two bedrooms, a small kitchen, and a beautiful living room. The living room is very bright because there are two large windows. There is also a small balcony with some plants. She loves her new home.\"*",
-          "options": ["[[One|Uno]]", "[[Two|Dos]]", "[[Three|Tres]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice 'There are two bedrooms'."
+          "question": "[[Where|Dónde]] [[does|hace]] [[Mark|Mark]] [[work|trabajar]]?",
+          "options": ["[[In an office|En una oficina]]", "[[In a school|En una escuela]]", "[[In a restaurant|En un restaurante]]"],
+          "correctAnswer": 0,
+          "explanation": "Mark dice: 'I work in an office'."
+        },
+        {
+          "question": "[[How|Cuántas]] [[many|muchas]] [[hours|horas]] [[does|hace]] [[he|él]] [[sleep|dormir]]?",
+          "options": ["[[Eight hours|Ocho horas]]", "[[Six hours|Seis horas]]", "[[Ten hours|Diez horas]]"],
+          "correctAnswer": 0,
+          "explanation": "Él dice: 'I sleep eight hours'."
         }
       ]
     },
@@ -1055,17 +1021,23 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about Maria's apartment.",
+    "difficulty": "medium",
+    "transcript": "We are students. We study English at a language school. We have classes from Monday to Friday. We read books and write in our notebooks. We also play games to practice. We don't study on weekends. On Saturdays, we play soccer in the park.",
     "content": {
-      "title": "Lectura: Maria's New Apartment",
-      "instructions": "Lee el texto y responde.",
+      "title": "Vida de Estudiante",
+      "instructions": "Lee sobre los estudiantes y responde.",
       "questions": [
         {
-          "question": "Is the living room bright? *\"Maria has a new apartment. It is on the third floor. There are two bedrooms, a small kitchen, and a beautiful living room. The living room is very bright because there are two large windows. There is also a small balcony with some plants. She loves her new home.\"*",
-          "options": ["[[Yes, it is very bright|Sí, es muy luminosa]]", "[[No, it is dark|No, es oscura]]"],
+          "question": "[[When|Cuándo]] [[do|aux]] [[they|ellos]] [[study|estudiar]]?",
+          "options": ["[[Monday to Friday|Lunes a viernes]]", "[[On weekends|Fines de semana]]", "[[Every day|Cada día]]"],
           "correctAnswer": 0,
-          "explanation": "El texto menciona 'The living room is very bright'."
+          "explanation": "El texto dice: 'from Monday to Friday'."
+        },
+        {
+          "question": "[[What|Qué]] [[do|aux]] [[they|ellos]] [[do|hacer]] [[on|los]] [[Saturdays|sábados]]?",
+          "options": ["[[Play soccer|Jugar al fútbol]]", "[[Study English|Estudiar inglés]]", "[[Read books|Leer libros]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'On Saturdays, we play soccer'."
         }
       ]
     },
@@ -1077,17 +1049,23 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about Maria's apartment.",
+    "difficulty": "medium",
+    "transcript": "They live in a big city. They work in a bank. They drink tea in the morning and coffee in the afternoon. They eat dinner at seven. They don't watch television at night. They read the newspaper or books. They sleep at eleven.",
     "content": {
-      "title": "Lectura: Maria's New Apartment",
-      "instructions": "Lee el texto y responde.",
+      "title": "Vida en la Ciudad",
+      "instructions": "Lee sobre ellos y responde.",
       "questions": [
         {
-          "question": "What is on the balcony? *\"Maria has a new apartment. It is on the third floor. There are two bedrooms, a small kitchen, and a beautiful living room. The living room is very bright because there are two large windows. There is also a small balcony with some plants. She loves her new home.\"*",
-          "options": ["[[A chair|Una silla]]", "[[Some plants|Algunas plantas]]", "[[A table|Una mesa]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice 'a small balcony with some plants'."
+          "question": "[[Where|Dónde]] [[do|aux]] [[they|ellos]] [[work|trabajar]]?",
+          "options": ["[[In a bank|En un banco]]", "[[In a shop|En una tienda]]", "[[In an office|En una oficina]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'They work in a bank'."
+        },
+        {
+          "question": "[[What|Qué]] [[do|aux]] [[they|ellos]] [[drink|beber]] [[in|en]] [[the|la]] [[morning|mañana]]?",
+          "options": ["[[Tea|Té]]", "[[Coffee|Café]]", "[[Water|Agua]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'drink tea in the morning'."
         }
       ]
     },
@@ -1099,17 +1077,23 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about John's house.",
+    "difficulty": "medium",
+    "transcript": "My name is Sarah. I am a teacher. I work at a primary school. I don't work on Wednesdays. On Wednesdays, I stay at home. I read many books and write stories. I also play the piano. I eat a big lunch and drink a lot of water. I love my free time.",
     "content": {
-      "title": "Lectura: John's Big House",
-      "instructions": "Lee el texto y responde.",
+      "title": "El día libre de Sarah",
+      "instructions": "Lee sobre Sarah y responde.",
       "questions": [
         {
-          "question": "Where is the car? *\"John lives in a big house with a large garden. There is a garage for his car and a basement for old things. Inside the house, there are four bedrooms and three bathrooms. The kitchen is modern and it has a big table. In the living room, there is a large sofa and a TV on the wall.\"*",
-          "options": ["[[In the basement|En el sótano]]", "[[In the garage|En el garaje]]", "[[In the garden|En el jardín]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice 'There is a garage for his car'."
+          "question": "[[Does|Hacer]] [[Sarah|Sarah]] [[work|trabajar]] [[on|los]] [[Wednesdays|miércoles]]?",
+          "options": ["[[No, she doesn't|No]]", "[[Yes, she does|Sí]]", "[[She works at home|Trabaja en casa]]"],
+          "correctAnswer": 0,
+          "explanation": "Sarah dice: 'I don't work on Wednesdays'."
+        },
+        {
+          "question": "[[What|Qué]] [[instrument|instrumento]] [[does|hace]] [[she|ella]] [[play|tocar]]?",
+          "options": ["[[The piano|El piano]]", "[[The guitar|La guitarra]]", "[[The drums|La batería]]"],
+          "correctAnswer": 0,
+          "explanation": "Sarah dice: 'I also play the piano'."
         }
       ]
     },
@@ -1121,17 +1105,23 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about John's house.",
+    "difficulty": "medium",
+    "transcript": "Do you like sports? My friends and I play basketball every Thursday. We meet at the sports center at six. We play for two hours. After the game, we drink juice and talk about our day. We don't play if it rains. We are very active.",
     "content": {
-      "title": "Lectura: John's Big House",
-      "instructions": "Lee el texto y responde.",
+      "title": "Baloncesto los Jueves",
+      "instructions": "Lee y responde sobre el deporte.",
       "questions": [
         {
-          "question": "How many bathrooms are there? *\"John lives in a big house with a large garden. There is a garage for his car and a basement for old things. Inside the house, there are four bedrooms and three bathrooms. The kitchen is modern and it has a big table. In the living room, there is a large sofa and a TV on the wall.\"*",
-          "options": ["[[Two|Dos]]", "[[Three|Tres]]", "[[Four|Cuatro]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto indica 'three bathrooms'."
+          "question": "[[When|Cuándo]] [[do|aux]] [[they|ellos]] [[play|jugar]] [[basketball|baloncesto]]?",
+          "options": ["[[Every Thursday|Cada jueves]]", "[[Every Tuesday|Cada martes]]", "[[On weekends|Fines de semana]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'every Thursday'."
+        },
+        {
+          "question": "[[What|Qué]] [[do|aux]] [[they|ellos]] [[drink|beber]] [[after|después de]] [[the|el]] [[game|juego]]?",
+          "options": ["[[Juice|Zumo]]", "[[Water|Agua]]", "[[Coffee|Café]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'we drink juice'."
         }
       ]
     },
@@ -1143,17 +1133,23 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about John's house.",
+    "difficulty": "medium",
+    "transcript": "I have a big family. We eat dinner together every night. My parents talk about their work. My brothers and I talk about school. We don't use our phones at the table. We drink water or juice. After dinner, we read or play games. It is a nice time.",
     "content": {
-      "title": "Lectura: John's Big House",
-      "instructions": "Lee el texto y responde.",
+      "title": "Cena Familiar",
+      "instructions": "Lee sobre la cena y responde.",
       "questions": [
         {
-          "question": "Where is the TV? *\"John lives in a big house with a large garden. There is a garage for his car and a basement for old things. Inside the house, there are four bedrooms and three bathrooms. The kitchen is modern and it has a big table. In the living room, there is a large sofa and a TV on the wall.\"*",
-          "options": ["[[On the table|Sobre la mesa]]", "[[On the wall|En la pared]]", "[[In the bedroom|En el dormitorio]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice 'a TV on the wall'."
+          "question": "[[Do|Hacer]] [[they|ellos]] [[use|usar]] [[phones|teléfonos]] [[at|en]] [[the|la]] [[table|mesa]]?",
+          "options": ["[[No, they don't|No]]", "[[Yes, they do|Sí]]", "[[Only the parents|Solo los padres]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'We don't use our phones at the table'."
+        },
+        {
+          "question": "[[What|Qué]] [[do|aux]] [[they|ellos]] [[do|hacer]] [[after|después de]] [[dinner|la cena]]?",
+          "options": ["[[Read or play games|Leer o jugar]]", "[[Sleep|Dormir]]", "[[Work|Trabajar]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'we read or play games'."
         }
       ]
     },
@@ -1165,17 +1161,23 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about a studio apartment.",
+    "difficulty": "medium",
+    "transcript": "John and Mary work in a restaurant. They start work at four in the afternoon and finish at midnight. They eat a small meal at six. They drink a lot of water because they walk a lot. They don't work on Mondays. On Mondays, they sleep all day.",
     "content": {
-      "title": "Lectura: The Studio Apartment",
-      "instructions": "Lee el texto y responde.",
+      "title": "Trabajando en un Restaurante",
+      "instructions": "Lee sobre John y Mary y responde.",
       "questions": [
         {
-          "question": "Is the apartment big? *\"This is a small studio apartment. There is only one room for the bed, the desk, and the sofa. The kitchen is very small, but it is modern. There is a bathroom next to the main room. It is perfect for one person because it is cozy and cheap.\"*",
-          "options": ["[[Yes, it is very big|Sí, es muy grande]]", "[[No, it is small|No, es pequeño]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto empieza diciendo 'This is a small studio apartment'."
+          "question": "[[Where|Dónde]] [[do|aux]] [[they|ellos]] [[work|trabajar]]?",
+          "options": ["[[In a restaurant|En un restaurante]]", "[[In a bank|En un banco]]", "[[In a school|En una escuela]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'work in a restaurant'."
+        },
+        {
+          "question": "[[What|Qué]] [[do|aux]] [[they|ellos]] [[do|hacer]] [[on|los]] [[Mondays|lunes]]?",
+          "options": ["[[Sleep all day|Dormir todo el día]]", "[[Work all day|Trabajar todo el día]]", "[[Eat a lot|Comer mucho]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'On Mondays, they sleep all day'."
         }
       ]
     },
@@ -1187,17 +1189,23 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about a studio apartment.",
+    "difficulty": "medium",
+    "transcript": "Do you study a language? I study French and Italian. I have a French class on Tuesdays and an Italian class on Fridays. I read books in both languages. I don't write very well, but I understand a lot. I also listen to music in French. It is very interesting.",
     "content": {
-      "title": "Lectura: The Studio Apartment",
-      "instructions": "Lee el texto y responde.",
+      "title": "Estudiando Idiomas",
+      "instructions": "Lee sobre los idiomas y responde.",
       "questions": [
         {
-          "question": "Who is the apartment perfect for? *\"This is a small studio apartment. There is only one room for the bed, the desk, and the sofa. The kitchen is very small, but it is modern. There is a bathroom next to the main room. It is perfect for one person because it is cozy and cheap.\"*",
-          "options": ["[[A large family|Una familia grande]]", "[[One person|Una persona]]", "[[Three friends|Tres amigos]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice 'It is perfect for one person'."
+          "question": "[[What|Qué]] [[languages|idiomas]] [[does|hace]] [[the|la]] [[person|persona]] [[study|estudiar]]?",
+          "options": ["[[French and Italian|Francés e italiano]]", "[[French and English|Francés e inglés]]", "[[Spanish and Italian|Español e italiano]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'I study French and Italian'."
+        },
+        {
+          "question": "[[When|Cuándo]] [[is|es]] [[the|la]] [[Italian|italiano]] [[class|clase]]?",
+          "options": ["[[On Fridays|Los viernes]]", "[[On Tuesdays|Los martes]]", "[[On Mondays|Los lunes]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'Italian class on Fridays'."
         }
       ]
     },
@@ -1209,17 +1217,23 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about a studio apartment.",
+    "difficulty": "medium",
+    "transcript": "My friends and I go to the gym three times a week. We work out for one hour. We drink a lot of water. We don't eat junk food before the gym. We eat fruit or a salad. We feel very good after we exercise. We sleep very well at night.",
     "content": {
-      "title": "Lectura: The Studio Apartment",
-      "instructions": "Lee el texto y responde.",
+      "title": "En el Gimnasio",
+      "instructions": "Lee sobre el gimnasio y responde.",
       "questions": [
         {
-          "question": "Where is the bathroom? *\"This is a small studio apartment. There is only one room for the bed, the desk, and the sofa. The kitchen is very small, but it is modern. There is a bathroom next to the main room. It is perfect for one person because it is cozy and cheap.\"*",
-          "options": ["[[In the kitchen|En la cocina]]", "[[Next to the main room|Al lado de la habitación principal]]", "[[In the basement|En el sótano]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto indica 'There is a bathroom next to the main room'."
+          "question": "[[How|Cuántas]] [[many|muchas]] [[times|veces]] [[a|a la]] [[week|semana]] [[do|aux]] [[they|ellos]] [[go|ir]] [[to|al]] [[the|el]] [[gym|gimnasio]]?",
+          "options": ["[[Three times|Tres veces]]", "[[Two times|Dos veces]]", "[[Every day|Cada día]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'three times a week'."
+        },
+        {
+          "question": "[[What|Qué]] [[do|aux]] [[they|ellos]] [[eat|comer]] [[before|antes de]] [[the|el]] [[gym|gimnasio]]?",
+          "options": ["[[Fruit or salad|Fruta o ensalada]]", "[[Junk food|Comida basura]]", "[[Pizza|Pizza]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'We eat fruit or a salad'."
         }
       ]
     },
@@ -1231,17 +1245,23 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Reading text about a cottage.",
+    "difficulty": "medium",
+    "transcript": "I love my weekends. I don't work and I don't study. I sleep until ten. I drink coffee and read a book in the garden. In the afternoon, I play with my dog. We walk in the park. At night, I eat dinner with my family. It is a perfect weekend.",
     "content": {
-      "title": "Lectura: The Country Cottage",
-      "instructions": "Lee el texto y responde.",
+      "title": "Un Fin de Semana Perfecto",
+      "instructions": "Lee sobre el fin de semana y responde.",
       "questions": [
         {
-          "question": "Does the cottage have an attic? *\"My grandparents live in a beautiful cottage in the country. It has white walls and a red roof. There are three bedrooms and a cozy living room with a fireplace. Behind the house, there is a big garden with many fruit trees. It also has a small attic for old books and photos. It is a very quiet place.\"*",
-          "options": ["[[Yes, it has a small attic|Sí, tiene un pequeño ático]]", "[[No, it doesn't have an attic|No, no tiene ático]]"],
+          "question": "[[What|Qué]] [[time|hora]] [[does|hace]] [[the|la]] [[person|persona]] [[sleep|dormir]] [[until|hasta]]?",
+          "options": ["[[Ten|Diez]]", "[[Eight|Ocho]]", "[[Seven|Siete]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice 'It also has a small attic'."
+          "explanation": "Dice: 'I sleep until ten'."
+        },
+        {
+          "question": "[[Where|Dónde]] [[does|hace]] [[the|la]] [[person|persona]] [[read|leer]] [[a|un]] [[book|libro]]?",
+          "options": ["[[In the garden|En el jardín]]", "[[In the park|En el parque]]", "[[In the office|En la oficina]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'read a book in the garden'."
         }
       ]
     },

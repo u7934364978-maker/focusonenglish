@@ -5,12 +5,12 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "id": "a1-u12-e1",
     "type": "flashcard",
     "level": "A1",
-    "topic": "Days of the Week Review",
+    "topic": "Days of the Week",
     "difficulty": "easy",
-    "transcript": "Monday. Tuesday. Wednesday. Thursday. Friday. Saturday. Sunday. Week. Weekend",
+    "transcript": "Monday. Tuesday. Wednesday. Thursday. Friday. Saturday. Sunday.",
     "content": {
-      "title": "Repaso: Días de la Semana",
-      "instructions": "Repasa los días de la semana antes de empezar el nuevo tema.",
+      "title": "Vocabulario: Los Días",
+      "instructions": "Aprende los siete días de la semana.",
       "items": [
         { "front": "[[Monday|Lunes]]", "back": "Lunes" },
         { "front": "[[Tuesday|Martes]]", "back": "Martes" },
@@ -18,9 +18,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
         { "front": "[[Thursday|Jueves]]", "back": "Jueves" },
         { "front": "[[Friday|Viernes]]", "back": "Viernes" },
         { "front": "[[Saturday|Sábado]]", "back": "Sábado" },
-        { "front": "[[Sunday|Domingo]]", "back": "Domingo" },
-        { "front": "[[Week|Semana]]", "back": "Semana" },
-        { "front": "[[Weekend|Fin de semana]]", "back": "Fin de semana" }
+        { "front": "[[Sunday|Domingo]]", "back": "Domingo" }
       ]
     },
     "audioUrl": "audio/a1/unit-12/e1.mp3",
@@ -30,23 +28,19 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "id": "a1-u12-e2",
     "type": "flashcard",
     "level": "A1",
-    "topic": "Places in the City",
+    "topic": "Days of the Week",
     "difficulty": "easy",
-    "transcript": "Bank. Park. Hospital. School. Supermarket. Library. Restaurant. Museum. Cinema. Station.",
+    "transcript": "Week. Weekday. Weekend. Today. Tomorrow. Yesterday.",
     "content": {
-      "title": "Lugares en la Ciudad",
-      "instructions": "Aprende el nombre de los lugares más comunes en una ciudad.",
+      "title": "Vocabulario: Conceptos de Tiempo",
+      "instructions": "Palabras relacionadas con los días.",
       "items": [
-        { "front": "[[Bank|Banco]]", "back": "Banco" },
-        { "front": "[[Park|Parque]]", "back": "Parque" },
-        { "front": "[[Hospital|Hospital]]", "back": "Hospital" },
-        { "front": "[[School|Escuela]]", "back": "Escuela" },
-        { "front": "[[Supermarket|Supermercado]]", "back": "Supermercado" },
-        { "front": "[[Library|Biblioteca]]", "back": "Biblioteca" },
-        { "front": "[[Restaurant|Restaurante]]", "back": "Restaurante" },
-        { "front": "[[Museum|Museo]]", "back": "Museo" },
-        { "front": "[[Cinema|Cine]]", "back": "Cine" },
-        { "front": "[[Station|Estación]]", "back": "Estación" }
+        { "front": "[[Week|Semana]]", "back": "Semana" },
+        { "front": "[[Weekday|Día de semana]]", "back": "Día de semana" },
+        { "front": "[[Weekend|Fin de semana]]", "back": "Fin de semana" },
+        { "front": "[[Today|Hoy]]", "back": "Hoy" },
+        { "front": "[[Tomorrow|Mañana]]", "back": "Mañana" },
+        { "front": "[[Yesterday|Ayer]]", "back": "Ayer" }
       ]
     },
     "audioUrl": "audio/a1/unit-12/e2.mp3",
@@ -54,25 +48,21 @@ export const UNIT_12_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u12-e3",
-    "type": "flashcard",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Directions",
+    "topic": "Days of the Week",
     "difficulty": "easy",
-    "transcript": "Left. Right. Straight. Turn. Go. Near. Far. Next to. Across from. Between.",
+    "transcript": "Today is Monday.",
     "content": {
-      "title": "Direcciones",
-      "instructions": "Vocabulario básico para dar y recibir direcciones.",
-      "items": [
-        { "front": "[[Left|Izquierda]]", "back": "Izquierda" },
-        { "front": "[[Right|Derecha]]", "back": "Derecha" },
-        { "front": "[[Straight|Derecho/Recto]]", "back": "Derecho/Recto" },
-        { "front": "[[Turn|Girar/Doblar]]", "back": "Girar/Doblar" },
-        { "front": "[[Go|Ir]]", "back": "Ir" },
-        { "front": "[[Near|Cerca]]", "back": "Cerca" },
-        { "front": "[[Far|Lejos]]", "back": "Lejos" },
-        { "front": "[[Next to|Al lado de]]", "back": "Al lado de" },
-        { "front": "[[Across from|En frente de (cruzando la calle)]]", "back": "En frente de" },
-        { "front": "[[Between|Entre]]", "back": "Entre" }
+      "title": "Hoy es lunes",
+      "instructions": "Elige el día correcto.",
+      "questions": [
+        {
+          "question": "[[Today|Hoy]] [[is|es]] (_____).",
+          "options": ["[[Monday|lunes]]", "[[Morning|mañana]]", "[[Month|mes]]"],
+          "correctAnswer": 0,
+          "explanation": "Monday es el primer día de la semana laboral."
+        }
       ]
     },
     "audioUrl": "audio/a1/unit-12/e3.mp3",
@@ -82,18 +72,18 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "id": "a1-u12-e4",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Places in the City",
+    "topic": "Prepositions",
     "difficulty": "easy",
-    "transcript": "I go to the park on Sundays.",
+    "transcript": "I work on Tuesday.",
     "content": {
-      "title": "Lugares y Días",
-      "instructions": "Completa la oración con el lugar correcto.",
+      "title": "Preposición 'On'",
+      "instructions": "Elige la preposición correcta para los días.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[go|voy]] [[to|a]] [[the|el]] _______ [[on|los]] [[Sundays|domingos]].",
-          "options": ["[[park|parque]]", "[[bank|banco]]", "[[library|biblioteca]]"],
+          "question": "[[I|Yo]] [[work|trabajo]] (_____) [[Tuesday|martes]].",
+          "options": ["[[on|en]]", "[[at|a]]", "[[in|en]]"],
           "correctAnswer": 0,
-          "explanation": "El parque es un lugar común para ir los domingos."
+          "explanation": "Usamos 'on' con los días de la semana."
         }
       ]
     },
@@ -102,42 +92,37 @@ export const UNIT_12_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u12-e5",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Places in the City",
+    "topic": "Days of the Week",
     "difficulty": "easy",
-    "transcript": "Where is the hospital?",
+    "transcript": "Saturday and Sunday are the weekend.",
     "content": {
-      "title": "Preguntando por Lugares",
-      "instructions": "Elige la palabra interrogativa correcta.",
-      "questions": [
-        {
-          "question": "_______ [[is|está]] [[the|el]] [[hospital|hospital]]?",
-          "options": ["[[Where|Dónde]]", "[[What|Qué]]", "[[Who|Quién]]"],
-          "correctAnswer": 0,
-          "explanation": "Where se usa para preguntar por lugares."
-        }
-      ]
+      "title": "El Fin de Semana",
+      "instructions": "Ordena las palabras.",
+      "correctSentence": "[[Saturday|Sábado]] [[and|y]] [[Sunday|domingo]] [[are|son]] [[the|el]] [[weekend|fin de semana]].",
+      "words": ["[[weekend|fin de semana]].", "[[Sunday|domingo]]", "[[are|son]]", "[[and|y]]", "[[the|el]]", "[[Saturday|Sábado]]"],
+      "explanation": "El fin de semana lo componen el sábado y el domingo."
     },
     "audioUrl": "audio/a1/unit-12/e5.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u12-e6",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Directions",
+    "topic": "Days of the Week",
     "difficulty": "easy",
-    "transcript": "Turn left at the supermarket.",
+    "transcript": "What day is it today?",
     "content": {
-      "title": "Dando Direcciones",
-      "instructions": "Completa la instrucción.",
+      "title": "Preguntar el Día",
+      "instructions": "Completa la pregunta.",
       "questions": [
         {
-          "question": "[[Turn|Gira]] _______ [[at|en]] [[the|el]] [[supermarket|supermercado]].",
-          "options": ["[[left|izquierda]]", "[[straight|recto]]", "[[near|cerca]]"],
+          "question": "[[What|Qué]] (_____) [[is|es]] [[it|ello]] [[today|hoy]]?",
+          "options": ["[[day|día]]", "[[time|hora]]", "[[date|fecha]]"],
           "correctAnswer": 0,
-          "explanation": "Turn left es una instrucción de dirección común."
+          "explanation": "Preguntamos 'What day is it today?' para saber el día de la semana."
         }
       ]
     },
@@ -146,22 +131,17 @@ export const UNIT_12_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u12-e7",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Directions",
-    "difficulty": "medium",
-    "transcript": "The bank is next to the restaurant.",
+    "topic": "Prepositions",
+    "difficulty": "easy",
+    "transcript": "We have English class on Wednesday.",
     "content": {
-      "title": "Preposiciones de Lugar",
-      "instructions": "Elige la preposición correcta.",
-      "questions": [
-        {
-          "question": "[[The|El]] [[bank|banco]] [[is|está]] _______ [[the|el]] [[restaurant|restaurante]].",
-          "options": ["[[next to|al lado de]]", "[[between|entre]]", "[[straight|derecho]]"],
-          "correctAnswer": 0,
-          "explanation": "Next to indica proximidad lateral."
-        }
-      ]
+      "title": "Clase de Inglés",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[We|Nosotros]] [[have|tenemos]] [[English|inglés]] [[class|clase]] [[on|el]] [[Wednesday|miércoles]].",
+      "words": ["[[Wednesday|miércoles]].", "[[on|el]]", "[[class|clase]]", "[[English|inglés]]", "[[have|tenemos]]", "[[We|Nosotros]]"],
+      "explanation": "Recuerda usar 'on' antes del día."
     },
     "audioUrl": "audio/a1/unit-12/e7.mp3",
     "topicName": "Grammar"
@@ -170,18 +150,18 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "id": "a1-u12-e8",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Places in the City",
+    "topic": "Days of the Week",
     "difficulty": "easy",
-    "transcript": "I study at the library.",
+    "transcript": "Tomorrow is Friday.",
     "content": {
-      "title": "Acciones y Lugares",
-      "instructions": "Elige el lugar lógico para la acción.",
+      "title": "Mañana",
+      "instructions": "Elige la palabra correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[study|estudio]] [[at|en]] [[the|la]] _______.",
-          "options": ["[[library|biblioteca]]", "[[cinema|cine]]", "[[station|estación]]"],
+          "question": "(_____) [[is|es]] [[Friday|viernes]].",
+          "options": ["[[Tomorrow|Mañana]]", "[[Today|Hoy]]", "[[Yesterday|Ayer]]"],
           "correctAnswer": 0,
-          "explanation": "La biblioteca es el lugar habitual para estudiar."
+          "explanation": "Tomorrow significa mañana (el día después de hoy)."
         }
       ]
     },
@@ -190,22 +170,17 @@ export const UNIT_12_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u12-e9",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Directions",
-    "difficulty": "medium",
-    "transcript": "Go straight and turn right.",
+    "topic": "Days of the Week",
+    "difficulty": "easy",
+    "transcript": "I don't work on Sunday.",
     "content": {
-      "title": "Instrucciones Simples",
-      "instructions": "Completa la secuencia de dirección.",
-      "questions": [
-        {
-          "question": "[[Go|Ve]] [[straight|derecho]] [[and|y]] [[turn|gira]] _______.",
-          "options": ["[[right|a la derecha]]", "[[far|lejos]]", "[[near|cerca]]"],
-          "correctAnswer": 0,
-          "explanation": "Turn right completa la instrucción de movimiento."
-        }
-      ]
+      "title": "No trabajar",
+      "instructions": "Ordena la negación.",
+      "correctSentence": "[[I|Yo]] [[don't|no]] [[work|trabajo]] [[on|el]] [[Sunday|domingo]].",
+      "words": ["[[Sunday|domingo]].", "[[on|el]]", "[[work|trabajo]]", "[[don't|no]]", "[[I|Yo]]"],
+      "explanation": "Negativo del presente simple con un día de la semana."
     },
     "audioUrl": "audio/a1/unit-12/e9.mp3",
     "topicName": "Grammar"
@@ -214,93 +189,98 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "id": "a1-u12-e10",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Places in the City",
+    "topic": "Days of the Week",
     "difficulty": "easy",
-    "transcript": "There is a cinema near my house.",
+    "transcript": "Monday, Tuesday, Wednesday, Thursday.",
     "content": {
-      "title": "Hay en mi ciudad",
-      "instructions": "Elige la forma correcta de 'There is/are'.",
+      "title": "Secuencias",
+      "instructions": "¿Qué día sigue?",
       "questions": [
         {
-          "question": "_______ [[a|un]] [[cinema|cine]] [[near|cerca de]] [[my|mi]] [[house|casa]].",
-          "options": ["[[There is|Hay (singular)]]", "[[There are|Hay (plural)]]", "[[Is there|¿Hay?]]"],
+          "question": "[[Monday|Lunes]], [[Tuesday|martes]], [[Wednesday|miércoles]], (_____).",
+          "options": ["[[Thursday|jueves]]", "[[Friday|viernes]]", "[[Saturday|sábado]]"],
           "correctAnswer": 0,
-          "explanation": "Se usa There is para un solo objeto (a cinema)."
+          "explanation": "El jueves (Thursday) sigue al miércoles."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-12/e10.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u12-e11",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Places in the City",
+    "topic": "Days of the Week",
     "difficulty": "easy",
-    "transcript": "The school is very big.",
+    "transcript": "Friday is my favorite day.",
     "content": {
-      "title": "Describiendo Lugares",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[The|La]] [[school|escuela]] [[is|es]] [[very|muy]] [[big|grande]].",
-      "words": ["[[school|escuela]]", "[[The|La]]", "[[big|grande]].", "[[is|es]]", "[[very|muy]]"],
-      "explanation": "Estructura Sujeto + Verbo + Adjetivo."
+      "title": "Día Favorito",
+      "instructions": "Completa la frase.",
+      "questions": [
+        {
+          "question": "[[Friday|Viernes]] [[is|es]] [[my|mi]] (_____) [[day|día]].",
+          "options": ["[[favorite|favorito]]", "[[first|primero]]", "[[last|último]]"],
+          "correctAnswer": 0,
+          "explanation": "Favorite significa favorito."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-12/e11.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u12-e12",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Directions",
+    "topic": "Days of the Week",
     "difficulty": "medium",
-    "transcript": "The bank is across from the park.",
+    "transcript": "Is the museum open on Monday?",
     "content": {
-      "title": "Ubicación de Edificios",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[The|El]] [[bank|banco]] [[is|está]] [[across from|en frente de]] [[the|el]] [[park|parque]].",
-      "words": ["[[bank|banco]]", "[[is|está]]", "[[The|El]]", "[[park|parque]].", "[[the|el]]", "[[across from|en frente de]]"],
-      "explanation": "Práctica de preposiciones complejas."
+      "title": "El Museo",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[Is|Está]] [[the|el]] [[museum|museo]] [[open|abierto]] [[on|el]] [[Monday|lunes]]?",
+      "words": ["[[Monday|lunes]]?", "[[on|el]]", "[[open|abierto]]", "[[museum|museo]]", "[[Is|Está]]", "[[the|el]]"],
+      "explanation": "Preguntando por la disponibilidad en un día específico."
     },
     "audioUrl": "audio/a1/unit-12/e12.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u12-e13",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Directions",
+    "topic": "Days of the Week",
     "difficulty": "easy",
-    "transcript": "Go to the station.",
+    "transcript": "There are seven days in a week.",
     "content": {
-      "title": "Imperativos",
-      "instructions": "Ordena la instrucción.",
-      "correctSentence": "[[Go|Ve]] [[to|a]] [[the|la]] [[station|estación]].",
-      "words": ["[[to|a]]", "[[the|la]]", "[[station|estación]].", "[[Go|Ve]]"],
-      "explanation": "El imperativo empieza directamente con el verbo."
+      "title": "Días de la Semana",
+      "instructions": "¿Cuántos días hay?",
+      "questions": [
+        {
+          "question": "[[There|Hay]] [[are|son]] (_____) [[days|días]] [[in|en]] [[a|una]] [[week|semana]].",
+          "options": ["[[seven|siete]]", "[[six|seis]]", "[[five|cinco]]"],
+          "correctAnswer": 0,
+          "explanation": "Una semana tiene 7 días."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-12/e13.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u12-e14",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Places in the City",
+    "topic": "Days of the Week",
     "difficulty": "medium",
-    "transcript": "Are there any museums in the city?",
+    "transcript": "Yesterday was Sunday.",
     "content": {
-      "title": "Preguntas Plurales",
-      "instructions": "Completa la pregunta.",
-      "questions": [
-        {
-          "question": "_______ [[any|algunos]] [[museums|museos]] [[in|en]] [[the|la]] [[city|ciudad]]?",
-          "options": ["[[Are there|¿Hay? (plural)]]", "[[Is there|¿Hay? (singular)]]", "[[There are|Hay]]"],
-          "correctAnswer": 0,
-          "explanation": "Are there se usa para preguntas en plural."
-        }
-      ]
+      "title": "Ayer",
+      "instructions": "Ordena la oración en pasado simple.",
+      "correctSentence": "[[Yesterday|Ayer]] [[was|fue]] [[Sunday|domingo]].",
+      "words": ["[[Sunday|domingo]].", "[[was|fue]]", "[[Yesterday|Ayer]]"],
+      "explanation": "Usamos 'was' para el pasado del verbo to be."
     },
     "audioUrl": "audio/a1/unit-12/e14.mp3",
     "topicName": "Grammar"
@@ -309,42 +289,37 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "id": "a1-u12-e15",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Places in the City",
-    "difficulty": "easy",
-    "transcript": "My father works at the hospital.",
+    "topic": "Days of the Week",
+    "difficulty": "medium",
+    "transcript": "Do you study on Saturdays?",
     "content": {
-      "title": "Lugares de Trabajo",
-      "instructions": "Elige el lugar de trabajo correcto.",
+      "title": "¿Estudias los sábados?",
+      "instructions": "Completa la pregunta plural.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[father|padre]] [[works|trabaja]] [[at|en]] [[the|el]] _______.",
-          "options": ["[[hospital|hospital]]", "[[park|parque]]", "[[cinema|cine]]"],
+          "question": "[[Do|Aux]] [[you|tú]] [[study|estudias]] [[on|los]] (_____) ?",
+          "options": ["[[Saturdays|sábados]]", "[[Saturday|sábado]]", "[[Satur|Sat]]"],
           "correctAnswer": 0,
-          "explanation": "El hospital es un lugar de trabajo común."
+          "explanation": "Usamos el plural del día para referirnos a todos los sábados."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-12/e15.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u12-e16",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Directions",
-    "difficulty": "easy",
-    "transcript": "The cinema is far from here.",
+    "topic": "Days of the Week",
+    "difficulty": "medium",
+    "transcript": "My birthday is on Thursday.",
     "content": {
-      "title": "Cerca o Lejos",
-      "instructions": "Elige el adjetivo de distancia.",
-      "questions": [
-        {
-          "question": "[[The|El]] [[cinema|cine]] [[is|está]] _______ [[from|de]] [[here|aquí]].",
-          "options": ["[[far|lejos]]", "[[near|cerca]]", "[[next to|al lado]]"],
-          "correctAnswer": 0,
-          "explanation": "Far from indica que no está cerca."
-        }
-      ]
+      "title": "Mi Cumpleaños",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[My|Mi]] [[birthday|cumpleaños]] [[is|es]] [[on|el]] [[Thursday|jueves]].",
+      "words": ["[[Thursday|jueves]].", "[[on|el]]", "[[is|es]]", "[[birthday|cumpleaños]]", "[[My|Mi]]"],
+      "explanation": "Thursday es jueves."
     },
     "audioUrl": "audio/a1/unit-12/e16.mp3",
     "topicName": "Vocabulary"
@@ -353,62 +328,58 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "id": "a1-u12-e17",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Places in the City",
-    "difficulty": "medium",
-    "transcript": "There is a restaurant between the bank and the shop.",
+    "topic": "Days of the Week",
+    "difficulty": "easy",
+    "transcript": "See you on Tuesday!",
     "content": {
-      "title": "En el medio",
-      "instructions": "Elige la preposición correcta.",
+      "title": "Despedida",
+      "instructions": "Completa la despedida.",
       "questions": [
         {
-          "question": "[[There is|Hay]] [[a|un]] [[restaurant|restaurante]] _______ [[the|el]] [[bank|banco]] [[and|y]] [[the|la]] [[shop|tienda]].",
-          "options": ["[[between|entre]]", "[[next to|al lado de]]", "[[across from|enfrente de]]"],
+          "question": "[[See|Nos]] [[you|vemos]] [[on|el]] (_____) !",
+          "options": ["[[Tuesday|martes]]", "[[Today|hoy]]", "[[Tomorrow|mañana]]"],
           "correctAnswer": 0,
-          "explanation": "Between se usa para algo situado entre dos objetos."
+          "explanation": "Tuesday es martes."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-12/e17.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u12-e18",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Directions",
+    "topic": "Days of the Week",
     "difficulty": "medium",
-    "transcript": "Turn right at the station.",
+    "transcript": "The bank is closed on Sundays.",
     "content": {
-      "title": "Dando Direcciones",
-      "instructions": "Ordena la instrucción.",
-      "correctSentence": "[[Turn|Gira]] [[right|a la derecha]] [[at|en]] [[the|la]] [[station|estación]].",
-      "words": ["[[right|a la derecha]]", "[[station|estación]].", "[[Turn|Gira]]", "[[the|la]]", "[[at|en]]"],
-      "explanation": "Orden imperativo + dirección + lugar."
+      "title": "Banco Cerrado",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[The|El]] [[bank|banco]] [[is|está]] [[closed|cerrado]] [[on|los]] [[Sundays|domingos]].",
+      "words": ["[[Sundays|domingos]].", "[[on|los]]", "[[closed|cerrado]]", "[[is|está]]", "[[bank|banco]]", "[[The|El]]"],
+      "explanation": "Closed significa cerrado."
     },
     "audioUrl": "audio/a1/unit-12/e18.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u12-e19",
-    "type": "flashcard",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "City Vocabulary",
-    "difficulty": "easy",
-    "transcript": "Street. Avenue. Corner. Bridge. Building. Bus stop. Square. River. Library. Shop.",
+    "topic": "Days of the Week",
+    "difficulty": "medium",
+    "transcript": "What is the first day of the week? It is Monday.",
     "content": {
-      "title": "Más Vocabulario de Ciudad",
-      "instructions": "Amplía tu vocabulario sobre la ciudad.",
-      "items": [
-        { "front": "[[Street|Calle]]", "back": "Calle" },
-        { "front": "[[Avenue|Avenida]]", "back": "Avenida" },
-        { "front": "[[Corner|Esquina]]", "back": "Esquina" },
-        { "front": "[[Bridge|Puente]]", "back": "Puente" },
-        { "front": "[[Building|Edificio]]", "back": "Edificio" },
-        { "front": "[[Bus stop|Parada de autobús]]", "back": "Parada de autobús" },
-        { "front": "[[Square|Plaza]]", "back": "Plaza" },
-        { "front": "[[River|Río]]", "back": "Río" },
-        { "front": "[[Library|Biblioteca]]", "back": "Biblioteca" },
-        { "front": "[[Shop|Tienda]]", "back": "Tienda" }
+      "title": "El Primer Día",
+      "instructions": "Responde la pregunta.",
+      "questions": [
+        {
+          "question": "[[What|Cuál]] [[is|es]] [[the|el]] [[first|primer]] [[day|día]] [[of|de]] [[the|la]] [[week|semana]]?",
+          "options": ["[[It is Monday|Es lunes]]", "[[It is Sunday|Es domingo]]", "[[It is Friday|Es viernes]]"],
+          "correctAnswer": 0,
+          "explanation": "Monday es el primer día de la semana en la mayoría de los calendarios laborales."
+        }
       ]
     },
     "audioUrl": "audio/a1/unit-12/e19.mp3",
@@ -416,22 +387,17 @@ export const UNIT_12_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u12-e20",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Places in the City",
-    "difficulty": "easy",
-    "transcript": "The bus stop is on the corner.",
+    "topic": "Days of the Week",
+    "difficulty": "medium",
+    "transcript": "I go to the gym on Mondays and Thursdays.",
     "content": {
-      "title": "En la esquina",
-      "instructions": "Elige la ubicación correcta.",
-      "questions": [
-        {
-          "question": "[[The|La]] [[bus stop|parada de bus]] [[is|está]] _______ [[the|la]] [[corner|esquina]].",
-          "options": ["[[on|en]]", "[[in|dentro]]", "[[under|debajo]]"],
-          "correctAnswer": 0,
-          "explanation": "On the corner es la expresión correcta para 'en la esquina'."
-        }
-      ]
+      "title": "Ir al Gimnasio",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[I|Yo]] [[go|voy]] [[to|a]] [[the|el]] [[gym|gimnasio]] [[on|los]] [[Mondays|lunes]] [[and|y]] [[Thursdays|jueves]].",
+      "words": ["[[Thursdays|jueves]].", "[[and|y]]", "[[Mondays|lunes]]", "[[on|los]]", "[[gym|gimnasio]]", "[[the|el]]", "[[to|a]]", "[[go|voy]]", "[[I|Yo]]"],
+      "explanation": "Combinando dos días de la semana."
     },
     "audioUrl": "audio/a1/unit-12/e20.mp3",
     "topicName": "Grammar"
@@ -440,74 +406,79 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "id": "a1-u12-e21",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Places in the City",
-    "difficulty": "medium",
-    "transcript": "Is there a library in this building?",
+    "topic": "Days of the Week",
+    "difficulty": "easy",
+    "transcript": "Monday. Tuesday. Wednesday. Thursday. Friday. Saturday. Sunday.",
     "content": {
-      "title": "¿Hay una biblioteca?",
-      "instructions": "Completa la pregunta singular.",
+      "title": "Días Laborales",
+      "instructions": "¿Cuál de estos es un día de semana (weekday)?",
       "questions": [
         {
-          "question": "_______ [[a|una]] [[library|biblioteca]] [[in|en]] [[this|este]] [[building|edificio]]?",
-          "options": ["[[Is there|¿Hay? (singular)]]", "[[Are there|¿Hay? (plural)]]", "[[There is|Hay]]"],
+          "question": "[[Which|Cuál]] [[is|es]] [[a|un]] [[weekday|día de semana]]?",
+          "options": ["[[Wednesday|miércoles]]", "[[Sunday|domingo]]", "[[Weekend|fin de semana]]"],
           "correctAnswer": 0,
-          "explanation": "Is there se usa para preguntas en singular."
+          "explanation": "Wednesday es un día laborable (weekday)."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-12/e21.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u12-e22",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Directions",
-    "difficulty": "medium",
-    "transcript": "Go across the bridge.",
+    "topic": "Days of the Week",
+    "difficulty": "easy",
+    "transcript": "Weekend.",
     "content": {
-      "title": "Cruzando el Puente",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[Go|Ve]] [[across|a través de / cruza]] [[the|el]] [[bridge|puente]].",
-      "words": ["[[across|a través de]]", "[[bridge|puente]].", "[[the|el]]", "[[Go|Ve]]"],
-      "explanation": "Go across significa cruzar."
+      "title": "Fin de Semana",
+      "instructions": "¿Cuál de estos es parte del fin de semana?",
+      "questions": [
+        {
+          "question": "[[Which|Cuál]] [[is|es]] [[part|parte]] [[of|del]] [[weekend|fin de semana]]?",
+          "options": ["[[Saturday|sábado]]", "[[Tuesday|martes]]", "[[Friday|viernes]]"],
+          "correctAnswer": 0,
+          "explanation": "Saturday es parte del weekend."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-12/e22.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u12-e23",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Places in the City",
-    "difficulty": "medium",
-    "transcript": "There is a big museum in the square.",
+    "topic": "Days of the Week",
+    "difficulty": "easy",
+    "transcript": "Today is Tuesday.",
     "content": {
-      "title": "Descripción del lugar",
+      "title": "Hoy es Martes",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[There is|Hay]] [[a|un]] [[big|grande]] [[museum|museo]] [[in|en]] [[the|la]] [[square|plaza]].",
-      "words": ["[[big|grande]]", "[[museum|museo]]", "[[There is|Hay]]", "[[a|un]]", "[[the|la]]", "[[square|plaza]].", "[[in|en]]"],
-      "explanation": "Estructura There is + a + adjetivo + sustantivo + lugar."
+      "correctSentence": "[[Today|Hoy]] [[is|es]] [[Tuesday|martes]].",
+      "words": ["[[Tuesday|martes]].", "[[is|es]]", "[[Today|Hoy]]"],
+      "explanation": "Tuesday es martes."
     },
     "audioUrl": "audio/a1/unit-12/e23.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u12-e24",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Directions",
+    "topic": "Days of the Week",
     "difficulty": "easy",
-    "transcript": "Walk to the supermarket.",
+    "transcript": "Yesterday was Wednesday.",
     "content": {
-      "title": "Caminando",
-      "instructions": "Elige el verbo de movimiento.",
+      "title": "Ayer fue Miércoles",
+      "instructions": "Elige el día que fue ayer.",
       "questions": [
         {
-          "question": "_______ [[to|hacia]] [[the|el]] [[supermarket|supermercado]].",
-          "options": ["[[Walk|Camina]]", "[[Write|Escribe]]", "[[Eat|Come]]"],
+          "question": "[[Yesterday|Ayer]] [[was|fue]] (_____).",
+          "options": ["[[Wednesday|miércoles]]", "[[Monday|lunes]]", "[[Friday|viernes]]"],
           "correctAnswer": 0,
-          "explanation": "Walk es el verbo adecuado para moverse hacia un lugar."
+          "explanation": "Wednesday es miércoles."
         }
       ]
     },
@@ -516,22 +487,17 @@ export const UNIT_12_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u12-e25",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Places in the City",
+    "topic": "Days of the Week",
     "difficulty": "medium",
-    "transcript": "Is the museum open on Mondays?",
+    "transcript": "I have a meeting on Thursday afternoon.",
     "content": {
-      "title": "Días y Apertura",
-      "instructions": "Pregunta por el día de apertura.",
-      "questions": [
-        {
-          "question": "[[Is|Está]] [[the|el]] [[museum|museo]] [[open|abierto]] [[on|los]] _______?",
-          "options": ["[[Mondays|lunes]]", "[[Today|hoy]]", "[[Now|ahora]]"],
-          "correctAnswer": 0,
-          "explanation": "On Mondays pregunta por el hábito de apertura semanal."
-        }
-      ]
+      "title": "Reunión el Jueves",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[I|Yo]] [[have|tengo]] [[a|una]] [[meeting|reunión]] [[on|el]] [[Thursday|jueves]] [[afternoon|por la tarde]].",
+      "words": ["[[afternoon|por la tarde]].", "[[Thursday|jueves]]", "[[on|el]]", "[[meeting|reunión]]", "[[a|una]]", "[[have|tengo]]", "[[I|Yo]]"],
+      "explanation": "Combinando día y parte del día."
     },
     "audioUrl": "audio/a1/unit-12/e25.mp3",
     "topicName": "Grammar"
@@ -540,18 +506,18 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "id": "a1-u12-e26",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Places in the City",
+    "topic": "Days of the Week",
     "difficulty": "easy",
-    "transcript": "I need to go to the bank.",
+    "transcript": "Thursday follows Wednesday.",
     "content": {
-      "title": "Necesidades",
-      "instructions": "Elige el lugar lógico.",
+      "title": "Orden de los Días",
+      "instructions": "¿Qué día sigue al miércoles?",
       "questions": [
         {
-          "question": "[[I|Yo]] [[need|necesito]] [[to|de]] [[go|ir]] [[to|al]] _______.",
-          "options": ["[[bank|banco]]", "[[park|parque]]", "[[cinema|cine]]"],
+          "question": "[[Thursday|Jueves]] (_____) [[Wednesday|miércoles]].",
+          "options": ["[[follows|sigue a]]", "[[before|antes de]]", "[[is|es]]"],
           "correctAnswer": 0,
-          "explanation": "Normalmente se 'necesita' ir al banco para trámites."
+          "explanation": "Thursday viene después de Wednesday."
         }
       ]
     },
@@ -560,56 +526,56 @@ export const UNIT_12_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u12-e27",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Directions",
+    "topic": "Days of the Week",
     "difficulty": "medium",
-    "transcript": "Don't turn left, turn right.",
+    "transcript": "Tomorrow is Saturday, the weekend starts!",
     "content": {
-      "title": "Imperativos Negativos",
-      "instructions": "Completa la instrucción negativa.",
-      "questions": [
-        {
-          "question": "[[Don't|No]] _______ [[left|izquierda]], [[turn|gira]] [[right|derecha]].",
-          "options": ["[[turn|gires]]", "[[go|vayas]]", "[[walk|camines]]"],
-          "correctAnswer": 0,
-          "explanation": "Don't turn es la negación del imperativo 'turn'."
-        }
-      ]
+      "title": "Mañana es Sábado",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[Tomorrow|Mañana]] [[is|es]] [[Saturday|sábado]], [[the|el]] [[weekend|fin de semana]] [[starts|comienza]]!",
+      "words": ["[[starts|comienza]]!", "[[weekend|fin de semana]]", "[[the|el]]", "[[Saturday|sábado]],", "[[is|es]]", "[[Tomorrow|Mañana]]"],
+      "explanation": "Saturday es el comienzo del fin de semana."
     },
     "audioUrl": "audio/a1/unit-12/e27.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u12-e28",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Places in the City",
-    "difficulty": "medium",
-    "transcript": "Are there any good restaurants near here?",
+    "topic": "Days of the Week",
+    "difficulty": "easy",
+    "transcript": "Monday is the second day of the week for some.",
     "content": {
-      "title": "Buscando Restaurantes",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Are there|¿Hay?]] [[any|algunos]] [[good|buenos]] [[restaurants|restaurantes]] [[near|cerca de]] [[here|aquí]]?",
-      "words": ["[[good|buenos]]", "[[restaurants|restaurantes]]", "[[here|aquí]]?", "[[Are there|¿Hay?]]", "[[any|algunos]]", "[[near|cerca de]]"],
-      "explanation": "Estructura de pregunta plural con 'any'."
+      "title": "Lunes",
+      "instructions": "Completa con el día.",
+      "questions": [
+        {
+          "question": "(_____) [[is|es]] [[the|el]] [[day|día]] [[after|después de]] [[Sunday|domingo]].",
+          "options": ["[[Monday|lunes]]", "[[Tuesday|martes]]", "[[Saturday|sábado]]"],
+          "correctAnswer": 0,
+          "explanation": "El lunes sigue al domingo."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-12/e28.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u12-e29",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Directions",
+    "topic": "Days of the Week",
     "difficulty": "medium",
-    "transcript": "Go straight until the hospital.",
+    "transcript": "The shop is open from Monday to Friday.",
     "content": {
-      "title": "Hasta el hospital",
-      "instructions": "Ordena la instrucción.",
-      "correctSentence": "[[Go|Ve]] [[straight|derecho]] [[until|hasta]] [[the|el]] [[hospital|hospital]].",
-      "words": ["[[hospital|hospital]].", "[[straight|derecho]]", "[[the|el]]", "[[Go|Ve]]", "[[until|hasta]]"],
-      "explanation": "Until se usa para indicar el límite de una acción."
+      "title": "Horario de Tienda",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[The|La]] [[shop|tienda]] [[is|está]] [[open|abierta]] [[from|de]] [[Monday|lunes]] [[to|a]] [[Friday|viernes]].",
+      "words": ["[[Friday|viernes]].", "[[to|a]]", "[[Monday|lunes]]", "[[from|de]]", "[[open|abierta]]", "[[is|está]]", "[[shop|tienda]]", "[[The|La]]"],
+      "explanation": "Usamos 'from... to...' para periodos de tiempo."
     },
     "audioUrl": "audio/a1/unit-12/e29.mp3",
     "topicName": "Grammar"
@@ -618,42 +584,37 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "id": "a1-u12-e30",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Places in the City",
-    "difficulty": "easy",
-    "transcript": "The library is a quiet place.",
+    "topic": "Days of the Week",
+    "difficulty": "medium",
+    "transcript": "Do you go to church on Sundays?",
     "content": {
-      "title": "Lugares Tranquilos",
-      "instructions": "Elige el adjetivo descriptivo.",
+      "title": "Actividades de Domingo",
+      "instructions": "Completa la pregunta.",
       "questions": [
         {
-          "question": "[[The|La]] [[library|biblioteca]] [[is|es]] [[a|un]] _______ [[place|lugar]].",
-          "options": ["[[quiet|tranquilo]]", "[[noisy|ruidoso]]", "[[big|grande]]"],
+          "question": "[[Do|Aux]] [[you|tú]] [[go|vas]] [[to|a]] [[church|la iglesia]] [[on|los]] (_____) ?",
+          "options": ["[[Sundays|domingos]]", "[[Sunday|domingo]]", "[[Sun|dom]]"],
           "correctAnswer": 0,
-          "explanation": "Quiet es la característica principal de una biblioteca."
+          "explanation": "Plural para hábitos semanales."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-12/e30.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u12-e31",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Places in the City",
+    "topic": "Days of the Week",
     "difficulty": "easy",
-    "transcript": "I take the bus at the bus stop.",
+    "transcript": "I love Fridays!",
     "content": {
-      "title": "Tomando el Bus",
-      "instructions": "Elige el lugar correcto para el transporte.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] [[take|tomo]] [[the|el]] [[bus|autobús]] [[at|en]] [[the|la]] _______.",
-          "options": ["[[bus stop|parada de autobús]]", "[[hospital|hospital]]", "[[park|parque]]"],
-          "correctAnswer": 0,
-          "explanation": "El autobús se toma en la parada (bus stop)."
-        }
-      ]
+      "title": "Me Encantan los Viernes",
+      "instructions": "Ordena la frase.",
+      "correctSentence": "[[I|Yo]] [[love|amo]] [[Fridays|los viernes]]!",
+      "words": ["[[Fridays|los viernes]]!", "[[love|amo]]", "[[I|Yo]]"],
+      "explanation": "Expresando preferencia por un día."
     },
     "audioUrl": "audio/a1/unit-12/e31.mp3",
     "topicName": "Vocabulary"
@@ -662,76 +623,76 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "id": "a1-u12-e32",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Directions",
-    "difficulty": "medium",
-    "transcript": "The museum is behind the park.",
+    "topic": "Days of the Week",
+    "difficulty": "easy",
+    "transcript": "Tuesday comes after Monday.",
     "content": {
-      "title": "Detrás del parque",
-      "instructions": "Elige la preposición de lugar.",
+      "title": "Martes",
+      "instructions": "¿Qué día viene después del lunes?",
       "questions": [
         {
-          "question": "[[The|El]] [[museum|museo]] [[is|está]] _______ [[the|el]] [[park|parque]].",
-          "options": ["[[behind|detrás de]]", "[[next to|al lado de]]", "[[on|sobre]]"],
+          "question": "(_____) [[comes|viene]] [[after|después de]] [[Monday|lunes]].",
+          "options": ["[[Tuesday|martes]]", "[[Thursday|jueves]]", "[[Sunday|domingo]]"],
           "correctAnswer": 0,
-          "explanation": "Behind indica que está en la parte posterior."
+          "explanation": "Tuesday es el día después de Monday."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-12/e32.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u12-e33",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Directions",
-    "difficulty": "easy",
-    "transcript": "Excuse me, where is the station?",
-    "content": {
-      "title": "Pidiendo Ayuda",
-      "instructions": "Completa la frase de cortesía.",
-      "questions": [
-        {
-          "question": "_______ [[me|yo/mí]], [[where|dónde]] [[is|está]] [[the|la]] [[station|estación]]?",
-          "options": ["[[Excuse|Disculpe]]", "[[Hello|Hola]]", "[[Sorry|Perdón]]"],
-          "correctAnswer": 0,
-          "explanation": "Excuse me es la forma estándar de pedir ayuda a desconocidos."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-12/e33.mp3",
     "topicName": "Vocabulary"
   },
   {
-    "id": "a1-u12-e34",
+    "id": "a1-u12-e33",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Places in the City",
+    "topic": "Days of the Week",
     "difficulty": "medium",
-    "transcript": "There are three banks in this street.",
+    "transcript": "We study English on Tuesdays and Thursdays.",
     "content": {
-      "title": "Contando Edificios",
-      "instructions": "Ordena la oración plural.",
-      "correctSentence": "[[There are|Hay]] [[three|tres]] [[banks|bancos]] [[in|en]] [[this|esta]] [[street|calle]].",
-      "words": ["[[three|tres]]", "[[banks|bancos]]", "[[street|calle]].", "[[There are|Hay]]", "[[in|en]]", "[[this|esta]]"],
-      "explanation": "There are se usa para plurales específicos."
+      "title": "Horario de Clases",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[We|Nosotros]] [[study|estudiamos]] [[English|inglés]] [[on|los]] [[Tuesdays|martes]] [[and|y]] [[Thursdays|jueves]].",
+      "words": ["[[Thursdays|jueves]].", "[[and|y]]", "[[Tuesdays|martes]]", "[[on|los]]", "[[English|inglés]]", "[[study|estudiamos]]", "[[We|Nosotros]]"],
+      "explanation": "Uso de plural para días recurrentes."
+    },
+    "audioUrl": "audio/a1/unit-12/e33.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u12-e34",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Days of the Week",
+    "difficulty": "medium",
+    "transcript": "Is today Wednesday?",
+    "content": {
+      "title": "Pregunta de Día",
+      "instructions": "Completa la pregunta.",
+      "questions": [
+        {
+          "question": "[[Is|Es]] [[today|hoy]] (_____) ?",
+          "options": ["[[Wednesday|miércoles]]", "[[Wed|mie]]", "[[Week|semana]]"],
+          "correctAnswer": 0,
+          "explanation": "Wednesday se escribe así completo."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-12/e34.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u12-e35",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Directions",
-    "difficulty": "easy",
-    "transcript": "Go past the cinema.",
+    "topic": "Days of the Week",
+    "difficulty": "medium",
+    "transcript": "I visit my parents on Sunday morning.",
     "content": {
-      "title": "Pasando el cine",
-      "instructions": "Ordena la instrucción.",
-      "correctSentence": "[[Go|Pasa]] [[past|por delante de]] [[the|el]] [[cinema|cine]].",
-      "words": ["[[the|el]]", "[[cinema|cine]].", "[[Go|Ve]]", "[[past|por delante de]]"],
-      "explanation": "Go past significa seguir adelante después de un punto de referencia."
+      "title": "Visita Familiar",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[I|Yo]] [[visit|visito]] [[my|mis]] [[parents|padres]] [[on|el]] [[Sunday|domingo]] [[morning|por la mañana]].",
+      "words": ["[[morning|por la mañana]].", "[[Sunday|domingo]]", "[[on|el]]", "[[parents|padres]]", "[[my|mis]]", "[[visit|visito]]", "[[I|Yo]]"],
+      "explanation": "Posición de las partes del día con el nombre del día."
     },
     "audioUrl": "audio/a1/unit-12/e35.mp3",
     "topicName": "Grammar"
@@ -740,42 +701,37 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "id": "a1-u12-e36",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Places in the City",
-    "difficulty": "medium",
-    "transcript": "Is there a park near your house?",
+    "topic": "Days of the Week",
+    "difficulty": "easy",
+    "transcript": "Wednesday is in the middle of the week.",
     "content": {
-      "title": "Cerca de tu casa",
-      "instructions": "Completa la pregunta singular.",
+      "title": "Mitad de Semana",
+      "instructions": "Completa la frase.",
       "questions": [
         {
-          "question": "_______ [[a|un]] [[park|parque]] [[near|cerca de]] [[your|tu]] [[house|casa]]?",
-          "options": ["[[Is there|¿Hay?]]", "[[Are there|¿Hay? (plural)]]", "[[There is|Hay]]"],
+          "question": "[[Wednesday|Miércoles]] [[is|está]] [[in|en]] [[the|el]] (_____) [[of|de]] [[the|la]] [[week|semana]].",
+          "options": ["[[middle|medio]]", "[[end|fin]]", "[[start|inicio]]"],
           "correctAnswer": 0,
-          "explanation": "Is there es para preguntas sobre un solo objeto."
+          "explanation": "Middle significa medio."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-12/e36.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u12-e37",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Directions",
+    "topic": "Days of the Week",
     "difficulty": "medium",
-    "transcript": "The library is in front of the school.",
+    "transcript": "She works from Tuesday to Saturday.",
     "content": {
-      "title": "En frente de",
-      "instructions": "Elige la preposición correcta.",
-      "questions": [
-        {
-          "question": "[[The|La]] [[library|biblioteca]] [[is|está]] _______ [[the|la]] [[school|escuela]].",
-          "options": ["[[in front of|en frente de]]", "[[under|debajo]]", "[[next to|al lado]]"],
-          "correctAnswer": 0,
-          "explanation": "In front of indica una posición delantera."
-        }
-      ]
+      "title": "Días de Trabajo",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[She|Ella]] [[works|trabaja]] [[from|de]] [[Tuesday|martes]] [[to|a]] [[Saturday|sábado]].",
+      "words": ["[[Saturday|sábado]].", "[[to|a]]", "[[Tuesday|martes]]", "[[from|de]]", "[[works|trabaja]]", "[[She|Ella]]"],
+      "explanation": "Uso de from... to... para rangos de días."
     },
     "audioUrl": "audio/a1/unit-12/e37.mp3",
     "topicName": "Grammar"
@@ -784,18 +740,18 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "id": "a1-u12-e38",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Places in the City",
+    "topic": "Days of the Week",
     "difficulty": "easy",
-    "transcript": "I like to walk in the park.",
+    "transcript": "Today is Monday, tomorrow is Tuesday.",
     "content": {
-      "title": "Caminando en el Parque",
-      "instructions": "Elige el lugar correcto para la actividad.",
+      "title": "Secuencia Lógica",
+      "instructions": "Elige el día correcto.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[like|me gusta]] [[to|de]] [[walk|caminar]] [[in|en]] [[the|el]] _______.",
-          "options": ["[[park|parque]]", "[[bank|banco]]", "[[supermarket|supermercado]]"],
+          "question": "[[Today|Hoy]] [[is|es]] [[Monday|lunes]], [[tomorrow|mañana]] [[is|es]] (_____) .",
+          "options": ["[[Tuesday|martes]]", "[[Wednesday|miércoles]]", "[[Thursday|jueves]]"],
           "correctAnswer": 0,
-          "explanation": "Caminar es una actividad típica del parque."
+          "explanation": "El martes sigue al lunes."
         }
       ]
     },
@@ -806,174 +762,174 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "id": "a1-u12-e39",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Directions",
+    "topic": "Days of the Week",
     "difficulty": "medium",
-    "transcript": "The hospital is on the left.",
+    "transcript": "They go to the cinema on Friday night.",
     "content": {
-      "title": "A la izquierda",
+      "title": "Cine el Viernes",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[The|El]] [[hospital|hospital]] [[is|está]] [[on|en]] [[the|la]] [[left|izquierda]].",
-      "words": ["[[is|está]]", "[[the|la]]", "[[left|izquierda]].", "[[The|El]]", "[[hospital|hospital]]", "[[on|en]]"],
-      "explanation": "Expresión de ubicación lateral."
+      "correctSentence": "[[They|Ellos]] [[go|van]] [[to|a]] [[the|el]] [[cinema|cine]] [[on|el]] [[Friday|viernes]] [[night|por la noche]].",
+      "words": ["[[night|por la noche]].", "[[Friday|viernes]]", "[[on|el]]", "[[cinema|cine]]", "[[the|el]]", "[[to|a]]", "[[go|van]]", "[[They|Ellos]]"],
+      "explanation": "Friday night es la noche del viernes."
     },
     "audioUrl": "audio/a1/unit-12/e39.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u12-e40",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Places in the City",
-    "difficulty": "easy",
-    "transcript": "My house is small.",
+    "topic": "Days of the Week",
+    "difficulty": "medium",
+    "transcript": "Is Saturday a weekday?",
     "content": {
-      "title": "Mi Casa",
-      "instructions": "Ordena la oración descriptiva.",
-      "correctSentence": "[[My|Mi]] [[house|casa]] [[is|es]] [[small|pequeña]].",
-      "words": ["[[is|es]]", "[[small|pequeña]].", "[[house|casa]]", "[[My|Mi]]"],
-      "explanation": "Adjetivos después del verbo 'to be'."
+      "title": "¿Es día de semana?",
+      "instructions": "Responde la pregunta.",
+      "questions": [
+        {
+          "question": "[[Is|Es]] [[Saturday|sábado]] [[a|un]] [[weekday|día de semana]]?",
+          "options": ["[[No, it is part of the weekend|No, es parte del fin de semana]]", "[[Yes, it is|Sí, lo es]]", "[[I don't know|No lo sé]]"],
+          "correctAnswer": 0,
+          "explanation": "El sábado no es un weekday, es parte del weekend."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-12/e40.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u12-e41",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Places in the City",
-    "difficulty": "medium",
-    "transcript": "Are there many shops in this street?",
+    "topic": "Days of the Week",
+    "difficulty": "easy",
+    "transcript": "Monday. Tuesday. Wednesday. Thursday. Friday. Saturday. Sunday.",
     "content": {
-      "title": "Buscando Tiendas",
-      "instructions": "Elige el cuantificador para preguntas.",
+      "title": "Último Día",
+      "instructions": "¿Cuál es el último día de la semana?",
       "questions": [
         {
-          "question": "[[Are there|¿Hay?]] _______ [[shops|tiendas]] [[in|en]] [[this|esta]] [[street|calle]]?",
-          "options": ["[[many|muchas]]", "[[much|mucho]]", "[[very|muy]]"],
+          "question": "[[What|Cuál]] [[is|es]] [[the|el]] [[last|último]] [[day|día]] [[of|de]] [[the|la]] [[week|semana]]?",
+          "options": ["[[Sunday|domingo]]", "[[Saturday|sábado]]", "[[Friday|viernes]]"],
           "correctAnswer": 0,
-          "explanation": "Many se usa con sustantivos contables plurales."
+          "explanation": "En el calendario estándar, el domingo es el último día."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-12/e41.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u12-e42",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Directions",
+    "topic": "Days of the Week",
     "difficulty": "medium",
-    "transcript": "Go straight for two blocks.",
+    "transcript": "My mother works on Tuesdays.",
     "content": {
-      "title": "Contando Manzanas",
-      "instructions": "Elige la unidad de distancia en ciudad.",
-      "questions": [
-        {
-          "question": "[[Go|Ve]] [[straight|derecho]] [[for|durante]] [[two|dos]] _______.",
-          "options": ["[[blocks|manzanas]]", "[[streets|calles]]", "[[corners|esquinas]]"],
-          "correctAnswer": 0,
-          "explanation": "Blocks es la unidad típica para medir distancias cortas en una ciudad."
-        }
-      ]
+      "title": "Trabajo de Mamá",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[My|Mi]] [[mother|madre]] [[works|trabaja]] [[on|los]] [[Tuesdays|martes]].",
+      "words": ["[[Tuesdays|martes]].", "[[on|los]]", "[[works|trabaja]]", "[[mother|madre]]", "[[My|Mi]]"],
+      "explanation": "Uso de la tercera persona singular con días."
     },
     "audioUrl": "audio/a1/unit-12/e42.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u12-e43",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Places in the City",
-    "difficulty": "easy",
-    "transcript": "I watch movies at the cinema.",
+    "topic": "Days of the Week",
+    "difficulty": "medium",
+    "transcript": "When is your party? It is on Saturday.",
     "content": {
-      "title": "Cine y Películas",
-      "instructions": "Elige el lugar lógico.",
+      "title": "Cuándo es la Fiesta",
+      "instructions": "Responde la pregunta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[watch|veo]] [[movies|películas]] [[at|en]] [[the|el]] _______.",
-          "options": ["[[cinema|cine]]", "[[bank|banco]]", "[[hospital|hospital]]"],
+          "question": "[[When|Cuándo]] [[is|es]] [[your|tu]] [[party|fiesta]]?",
+          "options": ["[[It is on Saturday|Es el sábado]]", "[[It is at home|Es en casa]]", "[[It is big|Es grande]]"],
           "correctAnswer": 0,
-          "explanation": "Las películas se ven en el cine."
+          "explanation": "When pregunta por el momento o el día."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-12/e43.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u12-e44",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Directions",
+    "topic": "Days of the Week",
     "difficulty": "medium",
-    "transcript": "Turn left after the bridge.",
+    "transcript": "The library is closed on Monday.",
     "content": {
-      "title": "Después del Puente",
-      "instructions": "Ordena la instrucción.",
-      "correctSentence": "[[Turn|Gira]] [[left|a la izquierda]] [[after|después de]] [[the|el]] [[bridge|puente]].",
-      "words": ["[[left|a la izquierda]]", "[[after|después de]]", "[[the|el]]", "[[bridge|puente]].", "[[Turn|Gira]]"],
-      "explanation": "After indica una secuencia temporal o espacial."
+      "title": "Biblioteca Cerrada",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[The|La]] [[library|biblioteca]] [[is|está]] [[closed|cerrada]] [[on|el]] [[Monday|lunes]].",
+      "words": ["[[Monday|lunes]].", "[[on|el]]", "[[closed|cerrada]]", "[[is|está]]", "[[library|biblioteca]]", "[[The|La]]"],
+      "explanation": "Monday es lunes."
     },
     "audioUrl": "audio/a1/unit-12/e44.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u12-e45",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Places in the City",
+    "topic": "Days of the Week",
     "difficulty": "medium",
-    "transcript": "There is a small supermarket near here.",
+    "transcript": "Does he work on Wednesdays?",
     "content": {
-      "title": "Supermercado Cercano",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[There is|Hay]] [[a|un]] [[small|pequeño]] [[supermarket|supermercado]] [[near|cerca de]] [[here|aquí]].",
-      "words": ["[[small|pequeño]]", "[[supermarket|supermercado]]", "[[There is|Hay]]", "[[here|aquí]].", "[[near|cerca de]]", "[[a|un]]"],
-      "explanation": "Uso de There is con adjetivos."
+      "title": "Pregunta de Hábito",
+      "instructions": "Completa la pregunta con el auxiliar correcto.",
+      "questions": [
+        {
+          "question": "(_____) [[he|él]] [[work|trabaja]] [[on|los]] [[Wednesdays|miércoles]]?",
+          "options": ["[[Does|Aux]]", "[[Do|Aux]]", "[[Is|Es]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'Does' para he/she/it."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-12/e45.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u12-e46",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Places in the City",
-    "difficulty": "easy",
-    "transcript": "The bank is closed on Sundays.",
+    "topic": "Days of the Week",
+    "difficulty": "medium",
+    "transcript": "My favorite day is Friday because it is before the weekend.",
     "content": {
-      "title": "Cerrado",
-      "instructions": "Elige el estado del banco.",
-      "questions": [
-        {
-          "question": "[[The|El]] [[bank|banco]] [[is|está]] _______ [[on|los]] [[Sundays|domingos]].",
-          "options": ["[[closed|cerrado]]", "[[open|abierto]]", "[[big|grande]]"],
-          "correctAnswer": 0,
-          "explanation": "Los bancos suelen estar cerrados los domingos."
-        }
-      ]
+      "title": "Porque es Viernes",
+      "instructions": "Ordena la oración larga.",
+      "correctSentence": "[[My|Mi]] [[favorite|favorito]] [[day|día]] [[is|es]] [[Friday|viernes]] [[because|porque]] [[it|ello]] [[is|está]] [[before|antes de]] [[the|el]] [[weekend|fin de semana]].",
+      "words": ["[[weekend|fin de semana]].", "[[the|el]]", "[[before|antes de]]", "[[is|está]]", "[[it|ello]]", "[[because|porque]]", "[[Friday|viernes]]", "[[is|es]]", "[[day|día]]", "[[favorite|favorito]]", "[[My|Mi]]"],
+      "explanation": "Conectando ideas con 'because'."
     },
     "audioUrl": "audio/a1/unit-12/e46.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u12-e47",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Directions",
-    "difficulty": "medium",
-    "transcript": "Go to the supermarket and buy milk.",
+    "topic": "Days of the Week",
+    "difficulty": "easy",
+    "transcript": "Thursday is day number four.",
     "content": {
-      "title": "Recados",
-      "instructions": "Completa la acción combinada.",
+      "title": "Día Cuatro",
+      "instructions": "¿Qué día es el número 4?",
       "questions": [
         {
-          "question": "[[Go|Ve]] [[to|al]] [[supermarket|supermercado]] [[and|y]] _______ [[milk|leche]].",
-          "options": ["[[buy|compra]]", "[[study|estudia]]", "[[sleep|duerme]]"],
+          "question": "[[Day|Día]] [[number|número]] [[four|cuatro]] [[is|es]] (_____) .",
+          "options": ["[[Thursday|jueves]]", "[[Tuesday|martes]]", "[[Tuesday|martes]]"],
           "correctAnswer": 0,
-          "explanation": "Buy es la acción que se realiza en un supermercado."
+          "explanation": "Thursday es el cuarto día laborable."
         }
       ]
     },
@@ -982,56 +938,56 @@ export const UNIT_12_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u12-e48",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Places in the City",
+    "topic": "Days of the Week",
     "difficulty": "medium",
-    "transcript": "Where are the toilets?",
+    "transcript": "What are you doing on Saturday?",
     "content": {
-      "title": "Buscando Servicios",
-      "instructions": "Completa la pregunta plural.",
-      "questions": [
-        {
-          "question": "_______ [[are|están]] [[the|los]] [[toilets|servicios]]?",
-          "options": ["[[Where|Dónde]]", "[[What|Qué]]", "[[Who|Quién]]"],
-          "correctAnswer": 0,
-          "explanation": "Where se usa para preguntar por la ubicación."
-        }
-      ]
+      "title": "Planes de Sábado",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[What|Qué]] [[are|estás]] [[you|tú]] [[doing|haciendo]] [[on|el]] [[Saturday|sábado]]?",
+      "words": ["[[Saturday|sábado]]?", "[[on|el]]", "[[doing|haciendo]]", "[[you|tú]]", "[[are|estás]]", "[[What|Qué]]"],
+      "explanation": "Preguntando por planes futuros cercanos."
     },
     "audioUrl": "audio/a1/unit-12/e48.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u12-e49",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Directions",
+    "topic": "Days of the Week",
     "difficulty": "medium",
-    "transcript": "Turn right at the corner.",
+    "transcript": "Yesterday was Tuesday, so today is Wednesday.",
     "content": {
-      "title": "En la Esquina",
-      "instructions": "Ordena la instrucción.",
-      "correctSentence": "[[Turn|Gira]] [[right|a la derecha]] [[at|en]] [[the|la]] [[corner|esquina]].",
-      "words": ["[[right|a la derecha]]", "[[corner|esquina]].", "[[Turn|Gira]]", "[[the|la]]", "[[at|en]]"],
-      "explanation": "Instrucción de giro en un punto específico."
+      "title": "Lógica Temporal",
+      "instructions": "Elige el día hoy.",
+      "questions": [
+        {
+          "question": "[[Yesterday|Ayer]] [[was|fue]] [[Tuesday|martes]], [[so|así que]] [[today|hoy]] [[is|es]] (_____) .",
+          "options": ["[[Wednesday|miércoles]]", "[[Thursday|jueves]]", "[[Monday|lunes]]"],
+          "correctAnswer": 0,
+          "explanation": "Si ayer fue martes, hoy es miércoles."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-12/e49.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u12-e50",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Places in the City",
+    "topic": "Days of the Week",
     "difficulty": "medium",
-    "transcript": "My school is next to the park.",
+    "transcript": "The party is on Friday at eight PM.",
     "content": {
-      "title": "Ubicación de la Escuela",
+      "title": "Hora de la Fiesta",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[My|Mi]] [[school|escuela]] [[is|está]] [[next to|al lado de]] [[the|el]] [[park|parque]].",
-      "words": ["[[is|está]]", "[[park|parque]].", "[[school|escuela]]", "[[My|Mi]]", "[[next to|al lado de]]", "[[the|el]]"],
-      "explanation": "Descripción de ubicación usando preposiciones."
+      "correctSentence": "[[The|La]] [[party|fiesta]] [[is|es]] [[on|el]] [[Friday|viernes]] [[at|a las]] [[eight|ocho]] [[PM|PM]].",
+      "words": ["[[PM|PM]].", "[[eight|ocho]]", "[[at|a las]]", "[[Friday|viernes]]", "[[on|el]]", "[[is|es]]", "[[party|fiesta]]", "[[The|La]]"],
+      "explanation": "Combinando día y hora."
     },
     "audioUrl": "audio/a1/unit-12/e50.mp3",
     "topicName": "Grammar"
@@ -1042,16 +998,22 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "My City. Hi! I am David. I live in a big city. There is a beautiful park near my house. In the park, there is a big lake. Next to the park, there is a library. I go to the library on Saturdays. My favorite restaurant is across from the cinema. The cinema is on North Street. I love my city!",
+    "transcript": "My busy week. On Monday and Tuesday, I work in the office. On Wednesday, I study at the library. On Thursday, I have a meeting with my boss. On Friday, I finish early. I love the weekend! On Saturday, I go to the park, and on Sunday, I stay at home.",
     "content": {
-      "title": "Lectura: Mi Ciudad",
-      "instructions": "Lee el texto y responde.",
+      "title": "Mi Semana Ocupada",
+      "instructions": "Lee y responde sobre la semana.",
       "questions": [
         {
-          "question": "[[Where|Dónde]] [[does|hace]] [[David|David]] [[live|vive]]? *\"I live in a big city.\"*",
-          "options": ["[[In a big city|En una gran ciudad]]", "[[In a small town|En un pueblo pequeño]]", "[[Near a hospital|Cerca de un hospital]]"],
+          "question": "[[When|Cuándo]] [[does|hace]] [[the|la]] [[person|persona]] [[study|estudiar]]?",
+          "options": ["[[On Wednesday|El miércoles]]", "[[On Monday|El lunes]]", "[[On Friday|El viernes]]"],
           "correctAnswer": 0,
-          "explanation": "David vive en una gran ciudad según el texto."
+          "explanation": "El texto dice: 'On Wednesday, I study at the library'."
+        },
+        {
+          "question": "[[What|Qué]] [[does|hace]] [[he|él]] [[do|hace]] [[on|el]] [[Sunday|domingo]]?",
+          "options": ["[[Stay at home|Se queda en casa]]", "[[Go to the park|Va al parque]]", "[[Work in the office|Trabaja en la oficina]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'on Sunday, I stay at home'."
         }
       ]
     },
@@ -1064,16 +1026,22 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "My City. Hi! I am David. I live in a big city. There is a beautiful park near my house. In the park, there is a big lake. Next to the park, there is a library. I go to the library on Saturdays. My favorite restaurant is across from the cinema. The cinema is on North Street. I love my city!",
+    "transcript": "Hello! I am Maria. I am very happy today because it is Friday. I have no classes today. Tomorrow is Saturday and I have a party at my house. All my friends are coming. On Sunday, I sleep all day. Then, on Monday, school starts again.",
     "content": {
-      "title": "Lectura: Mi Ciudad",
-      "instructions": "Lee el texto y responde.",
+      "title": "Los Planes de Maria",
+      "instructions": "Lee y responde sobre Maria.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[is|está]] [[near|cerca de]] [[David's|de David]] [[house|casa]]? *\"There is a beautiful park near my house.\"*",
-          "options": ["[[A park|Un parque]]", "[[A bank|Un banco]]", "[[A school|Una escuela]]"],
+          "question": "[[Why|Por qué]] [[is|está]] [[Maria|Maria]] [[happy|feliz]] [[today|hoy]]?",
+          "options": ["[[Because it is Friday|Porque es viernes]]", "[[Because it is Sunday|Porque es domingo]]", "[[Because she is at school|Porque está en la escuela]]"],
           "correctAnswer": 0,
-          "explanation": "Hay un parque cerca de su casa."
+          "explanation": "El texto dice: 'I am very happy today because it is Friday'."
+        },
+        {
+          "question": "[[When|Cuándo]] [[is|es]] [[the|la]] [[party|fiesta]]?",
+          "options": ["[[On Saturday|El sábado]]", "[[On Friday|El viernes]]", "[[On Monday|El lunes]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'Tomorrow is Saturday and I have a party'."
         }
       ]
     },
@@ -1086,16 +1054,22 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "My City. Hi! I am David. I live in a big city. There is a beautiful park near my house. In the park, there is a big lake. Next to the park, there is a library. I go to the library on Saturdays. My favorite restaurant is across from the cinema. The cinema is on North Street. I love my city!",
+    "transcript": "John's work schedule. John is a doctor. He works from Monday to Thursday in a big hospital. He has Friday off. On Saturday morning, he goes to the gym. On Saturday evening, he visits his parents. Sunday is his favorite day for relaxing.",
     "content": {
-      "title": "Lectura: Mi Ciudad",
-      "instructions": "Lee el texto y responde.",
+      "title": "El Horario de John",
+      "instructions": "Lee sobre John y responde.",
       "questions": [
         {
-          "question": "[[When|Cuándo]] [[does|hace]] [[David|David]] [[go|va]] [[to|a]] [[the|la]] [[library|biblioteca]]? *\"I go to the library on Saturdays.\"*",
-          "options": ["[[On Saturdays|Los sábados]]", "[[On Mondays|Los lunes]]", "[[Every day|Cada día]]"],
+          "question": "[[What|Cuál]] [[is|es]] [[John's|de John]] [[day off|día libre]]?",
+          "options": ["[[Friday|Viernes]]", "[[Monday|Lunes]]", "[[Saturday|Sábado]]"],
           "correctAnswer": 0,
-          "explanation": "David va a la biblioteca los sábados."
+          "explanation": "El texto dice: 'He has Friday off'."
+        },
+        {
+          "question": "[[When|Cuándo]] [[does|hace]] [[he|él]] [[visit|visitar]] [[his|sus]] [[parents|padres]]?",
+          "options": ["[[On Saturday evening|El sábado por la noche]]", "[[On Sunday|El domingo]]", "[[On Thursday|El jueves]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'On Saturday evening, he visits his parents'."
         }
       ]
     },
@@ -1108,16 +1082,22 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "My City. Hi! I am David. I live in a big city. There is a beautiful park near my house. In the park, there is a big lake. Next to the park, there is a library. I go to the library on Saturdays. My favorite restaurant is across from the cinema. The cinema is on North Street. I love my city!",
+    "transcript": "Our restaurant is open six days a week. We are open from Tuesday to Sunday. We are closed on Monday. On Tuesday and Wednesday, we have a special price for lunch. Saturday is our busiest day. We hope to see you soon!",
     "content": {
-      "title": "Lectura: Mi Ciudad",
-      "instructions": "Lee el texto y responde.",
+      "title": "Horario del Restaurante",
+      "instructions": "Lee sobre el restaurante.",
       "questions": [
         {
-          "question": "[[Where|Dónde]] [[is|está]] [[the|el]] [[favorite|favorito]] [[restaurant|restaurante]]? *\"My favorite restaurant is across from the cinema.\"*",
-          "options": ["[[Across from the cinema|Frente al cine]]", "[[Behind the park|Detrás del parque]]", "[[On North Street|En la calle North]]"],
+          "question": "[[Which|Qué]] [[day|día]] [[is|está]] [[the|el]] [[restaurant|restaurante]] [[closed|cerrado]]?",
+          "options": ["[[Monday|Lunes]]", "[[Sunday|Domingo]]", "[[Tuesday|Martes]]"],
           "correctAnswer": 0,
-          "explanation": "El restaurante está frente al cine."
+          "explanation": "El texto dice: 'We are closed on Monday'."
+        },
+        {
+          "question": "[[When|Cuándo]] [[is|es]] [[the|el]] [[special|especial]] [[price|precio]]?",
+          "options": ["[[Tuesday and Wednesday|Martes y miércoles]]", "[[Saturday|Sábado]]", "[[Sunday|Domingo]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'On Tuesday and Wednesday, we have a special price'."
         }
       ]
     },
@@ -1130,16 +1110,22 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "My City. Hi! I am David. I live in a big city. There is a beautiful park near my house. In the park, there is a big lake. Next to the park, there is a library. I go to the library on Saturdays. My favorite restaurant is across from the cinema. The cinema is on North Street. I love my city!",
+    "transcript": "School starts at eight o'clock from Monday to Friday. My favorite subjects are English and Music. On Tuesday, I have English class. On Thursday, I have Music class. I don't have school on Saturday and Sunday. I like the weekend very much.",
     "content": {
-      "title": "Lectura: Mi Ciudad",
-      "instructions": "Lee el texto y responde.",
+      "title": "La Escuela",
+      "instructions": "Lee sobre la escuela y responde.",
       "questions": [
         {
-          "question": "[[Is|Está]] [[the|el]] [[cinema|cine]] [[on|en]] [[North|North]] [[Street|Calle]]? *\"The cinema is on North Street.\"*",
-          "options": ["[[Yes, it is|Sí]]", "[[No, it isn't|No]]", "[[It is in the park|Está en el parque]]"],
+          "question": "[[When|Cuándo]] [[does|tiene]] [[the|el]] [[student|estudiante]] [[have|tiene]] [[Music|música]] [[class|clase]]?",
+          "options": ["[[On Thursday|El jueves]]", "[[On Tuesday|El martes]]", "[[On Friday|El viernes]]"],
           "correctAnswer": 0,
-          "explanation": "Sí, el cine está en North Street."
+          "explanation": "El texto dice: 'On Thursday, I have Music class'."
+        },
+        {
+          "question": "[[Are|Hay]] [[there|allí]] [[classes|clases]] [[on|el]] [[Saturday|sábado]]?",
+          "options": ["[[No, there aren't|No, no las hay]]", "[[Yes, there are|Sí, las hay]]", "[[Only in the morning|Solo por la mañana]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'I don't have school on Saturday and Sunday'."
         }
       ]
     },
@@ -1152,16 +1138,22 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Directions to the Bank. Excuse me. How can I go to the bank? Walk straight for two blocks. Then, turn left on King's Road. Go past the supermarket. The bank is next to the library, across from the hospital. It is a big white building. Thank you!",
+    "transcript": "My gym routine. I go to the gym three times a week. I go on Monday, Wednesday, and Friday. On Monday, I run for thirty minutes. On Wednesday, I lift weights. On Friday, I swim in the pool. On the weekend, I relax and watch movies.",
     "content": {
-      "title": "Lectura: Direcciones",
-      "instructions": "Lee el texto y responde.",
+      "title": "Rutina de Gimnasio",
+      "instructions": "Lee sobre el gimnasio.",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[many|muchas]] [[blocks|manzanas]] [[should|debe]] [[I|yo]] [[walk|caminar]]? *\"Walk straight for two blocks.\"*",
-          "options": ["[[Two blocks|Dos manzanas]]", "[[One block|Una manzana]]", "[[Three blocks|Tres manzanas]]"],
+          "question": "[[How|Cuántas]] [[many|muchas]] [[times|veces]] [[a|a la]] [[week|semana]] [[does|hace]] [[he|él]] [[go|va]] [[to|a]] [[the|el]] [[gym|gimnasio]]?",
+          "options": ["[[Three times|Tres veces]]", "[[Five times|Cinco veces]]", "[[Every day|Cada día]]"],
           "correctAnswer": 0,
-          "explanation": "Debe caminar dos manzanas derecho."
+          "explanation": "El texto dice: 'I go to the gym three times a week'."
+        },
+        {
+          "question": "[[When|Cuándo]] [[does|hace]] [[he|él]] [[swim|nadar]]?",
+          "options": ["[[On Friday|El viernes]]", "[[On Monday|El lunes]]", "[[On Saturday|El sábado]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'On Friday, I swim in the pool'."
         }
       ]
     },
@@ -1174,16 +1166,22 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Directions to the Bank. Excuse me. How can I go to the bank? Walk straight for two blocks. Then, turn left on King's Road. Go past the supermarket. The bank is next to the library, across from the hospital. It is a big white building. Thank you!",
+    "transcript": "The bank schedule. The bank is open from Monday to Friday, from nine AM to five PM. On Saturday, it is open only from nine AM to twelve PM. It is closed on Sunday. I usually go to the bank on Wednesday morning.",
     "content": {
-      "title": "Lectura: Direcciones",
-      "instructions": "Lee el texto y responde.",
+      "title": "Horario del Banco",
+      "instructions": "Lee sobre el banco y responde.",
       "questions": [
         {
-          "question": "[[Where|Dónde]] [[should|debe]] [[I|yo]] [[turn|girar]] [[left|izquierda]]? *\"Then, turn left on King's Road.\"*",
-          "options": ["[[On King's Road|En King's Road]]", "[[At the bank|En el banco]]", "[[Near the park|Cerca del parque]]"],
+          "question": "[[What|A qué]] [[time|hora]] [[does|hace]] [[the|el]] [[bank|banco]] [[close|cerrar]] [[on|los]] [[Saturdays|sábados]]?",
+          "options": ["[[Twelve PM|12:00 PM]]", "[[Five PM|5:00 PM]]", "[[Nine AM|9:00 AM]]"],
           "correctAnswer": 0,
-          "explanation": "Debe girar a la izquierda en King's Road."
+          "explanation": "El texto dice: 'On Saturday, it is open only from nine AM to twelve PM'."
+        },
+        {
+          "question": "[[Is|Está]] [[the|el]] [[bank|banco]] [[open|abierto]] [[on|el]] [[Sunday|domingo]]?",
+          "options": ["[[No, it isn't|No, no lo está]]", "[[Yes, it is|Sí, lo está]]", "[[Only in the morning|Solo por la mañana]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'It is closed on Sunday'."
         }
       ]
     },
@@ -1196,16 +1194,22 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Directions to the Bank. Excuse me. How can I go to the bank? Walk straight for two blocks. Then, turn left on King's Road. Go past the supermarket. The bank is next to the library, across from the hospital. It is a big white building. Thank you!",
+    "transcript": "My favorite cafe. I love this cafe because it is very quiet. I go there every Tuesday and Thursday with my friend Sarah. We have coffee and cake. On Sunday afternoon, I go there alone to read a book. The cafe is very small but beautiful.",
     "content": {
-      "title": "Lectura: Direcciones",
-      "instructions": "Lee el texto y responde.",
+      "title": "Mi Cafetería Favorita",
+      "instructions": "Lee sobre la cafetería.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[building|edificio]] [[is|está]] [[near|cerca de]] [[the|el]] [[bank|banco]]? *\"The bank is next to the library.\"*",
-          "options": ["[[The library|La biblioteca]]", "[[The park|El parque]]", "[[The school|La escuela]]"],
+          "question": "[[Who|Con quién]] [[does|aux]] [[the|la]] [[person|persona]] [[go|va]] [[with|con]] [[on|los]] [[Tuesdays|martes]]?",
+          "options": ["[[With Sarah|Con Sarah]]", "[[Alone|Sola]]", "[[With his parents|Con sus padres]]"],
           "correctAnswer": 0,
-          "explanation": "El banco está al lado de la biblioteca."
+          "explanation": "El texto dice: 'I go there every Tuesday and Thursday with my friend Sarah'."
+        },
+        {
+          "question": "[[When|Cuándo]] [[does|hace]] [[he/she|él/ella]] [[go|ir]] [[alone|solo/a]]?",
+          "options": ["[[On Sunday afternoon|El domingo por la tarde]]", "[[On Thursday|El jueves]]", "[[Every day|Cada día]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'On Sunday afternoon, I go there alone'."
         }
       ]
     },
@@ -1218,16 +1222,22 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Directions to the Bank. Excuse me. How can I go to the bank? Walk straight for two blocks. Then, turn left on King's Road. Go past the supermarket. The bank is next to the library, across from the hospital. It is a big white building. Thank you!",
+    "transcript": "Today is Monday, September 1st. It is the first day of my new job. I am very nervous. I work from Monday to Friday, from eight-thirty AM to four-thirty PM. Next Saturday is my birthday, so I am very happy about the weekend!",
     "content": {
-      "title": "Lectura: Direcciones",
-      "instructions": "Lee el texto y responde.",
+      "title": "Nuevo Trabajo",
+      "instructions": "Lee sobre el primer día.",
       "questions": [
         {
-          "question": "[[Where|Dónde]] [[is|está]] [[the|el]] [[hospital|hospital]]? *\"across from the hospital\"*",
-          "options": ["[[Across from the bank|Frente al banco]]", "[[Next to the shop|Al lado de la tienda]]", "[[Behind the school|Detrás de la escuela]]"],
+          "question": "[[What|Qué]] [[day|día]] [[is|es]] [[today|hoy]]?",
+          "options": ["[[Monday|Lunes]]", "[[Saturday|Sábado]]", "[[Friday|Viernes]]"],
           "correctAnswer": 0,
-          "explanation": "El hospital está frente al banco."
+          "explanation": "El texto empieza diciendo: 'Today is Monday'."
+        },
+        {
+          "question": "[[When|Cuándo]] [[is|es]] [[the|el]] [[birthday|cumpleaños]]?",
+          "options": ["[[Next Saturday|El próximo sábado]]", "[[Today|Hoy]]", "[[Monday|Lunes]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'Next Saturday is my birthday'."
         }
       ]
     },
@@ -1240,16 +1250,22 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Directions to the Bank. Excuse me. How can I go to the bank? Walk straight for two blocks. Then, turn left on King's Road. Go past the supermarket. The bank is next to the library, across from the hospital. It is a big white building. Thank you!",
+    "transcript": "Cleaning day. In my house, Saturday is cleaning day. My wife cleans the kitchen and the living room. I clean the bedrooms and the bathroom. On Sunday, we don't clean anything. We just relax and visit our friends. It is a good routine.",
     "content": {
-      "title": "Lectura: Direcciones",
-      "instructions": "Lee el texto y responde.",
+      "title": "Día de Limpieza",
+      "instructions": "Lee sobre la rutina de limpieza.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[color|color]] [[is|es]] [[the|el]] [[bank|banco]] [[building|edificio]]? *\"It is a big white building.\"*",
-          "options": ["[[White|Blanco]]", "[[Red|Rojo]]", "[[Blue|Azul]]"],
+          "question": "[[What|Qué]] [[day|día]] [[is|es]] [[cleaning|de limpieza]] [[day|día]]?",
+          "options": ["[[Saturday|Sábado]]", "[[Sunday|Domingo]]", "[[Monday|Lunes]]"],
           "correctAnswer": 0,
-          "explanation": "El edificio del banco es blanco."
+          "explanation": "El texto dice: 'Saturday is cleaning day'."
+        },
+        {
+          "question": "[[Do|Hacen]] [[they|ellos]] [[clean|limpiar]] [[on|el]] [[Sunday|domingo]]?",
+          "options": ["[[No, they don't|No, no lo hacen]]", "[[Yes, they do|Sí, lo hacen]]", "[[Only the kitchen|Solo la cocina]]"],
+          "correctAnswer": 0,
+          "explanation": "Dice: 'On Sunday, we don't clean anything'."
         }
       ]
     },
