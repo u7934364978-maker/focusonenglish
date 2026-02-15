@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 3
+      "actualWorkers": 1
     },
     "preserveOutput": "always",
     "projects": [
@@ -20,7 +20,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 3
+          "actualWorkers": 1
         },
         "id": "chromium",
         "name": "chromium",
@@ -36,7 +36,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 3
+          "actualWorkers": 1
         },
         "id": "firefox",
         "name": "firefox",
@@ -52,7 +52,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 3
+          "actualWorkers": 1
         },
         "id": "webkit",
         "name": "webkit",
@@ -68,7 +68,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 3
+          "actualWorkers": 1
         },
         "id": "Mobile Chrome",
         "name": "Mobile Chrome",
@@ -84,7 +84,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 3
+          "actualWorkers": 1
         },
         "id": "Mobile Safari",
         "name": "Mobile Safari",
@@ -128,15 +128,15 @@
   },
   "suites": [
     {
-      "title": "unit-4-expansion.spec.ts",
-      "file": "unit-4-expansion.spec.ts",
+      "title": "unit-5-expansion.spec.ts",
+      "file": "unit-5-expansion.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
-          "title": "Unit 4 Expansion - Daily Life",
-          "file": "unit-4-expansion.spec.ts",
+          "title": "Unit 5 Expansion - My Home",
+          "file": "unit-5-expansion.spec.ts",
           "line": 3,
           "column": 6,
           "specs": [
@@ -156,12 +156,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 11510,
+                      "duration": 983,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T10:31:07.030Z",
+                      "startTime": "2026-02-15T10:42:22.215Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -169,77 +169,9 @@
                   "status": "expected"
                 }
               ],
-              "id": "ec75e8e5698d4808a5e4-6207c7352c32828ea59b",
-              "file": "unit-4-expansion.spec.ts",
+              "id": "813b7e500ab53394fbaa-67b769929da10439c1fc",
+              "file": "unit-5-expansion.spec.ts",
               "line": 9,
-              "column": 7
-            },
-            {
-              "title": "reading exercises should have routine texts",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 60000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
-                      "status": "passed",
-                      "duration": 12635,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-02-15T10:31:07.015Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "ec75e8e5698d4808a5e4-6ba4dc150a6fc29735c0",
-              "file": "unit-4-expansion.spec.ts",
-              "line": 19,
-              "column": 7
-            },
-            {
-              "title": "vocabulary should cover daily verbs and frequency adverbs",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 60000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
-                      "status": "passed",
-                      "duration": 11188,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-02-15T10:31:07.035Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "ec75e8e5698d4808a5e4-67d9f26bd2709d13fdcd",
-              "file": "unit-4-expansion.spec.ts",
-              "line": 31,
               "column": 7
             }
           ]
@@ -249,9 +181,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-02-15T10:31:06.194Z",
-    "duration": 14034.190999999999,
-    "expected": 3,
+    "startTime": "2026-02-15T10:42:21.487Z",
+    "duration": 1923.091,
+    "expected": 1,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

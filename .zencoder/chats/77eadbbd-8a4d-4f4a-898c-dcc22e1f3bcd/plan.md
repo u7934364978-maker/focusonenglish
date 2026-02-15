@@ -84,9 +84,11 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
     - Ran `npm run test:e2e:chromium e2e/unit-4-expansion.spec.ts`.
     - Results: All 3 tests passed in chromium.
     - **Refinement**: Replaced "eat" with "have" for meals (breakfast, lunch, dinner) to be more idiomatic.
+    - **Fix**: Updated Exercise 8 to have better options and Exercise 4 to use "have".
+    - **Fix**: Ensured Unit 1 reading exercises are gap-free in the questions.
 
-### [ ] Step: Expand Unit 5 (A1)
-1. **Analyze Unit 5**: Current content has 11 exercises.
+### [x] Step: Expand Unit 5 (A1)
+1. **Analyze Unit 5**: Current content was "Countries & Nationalities", redone to "My Home and Furniture" as per plan.
 2. **Expand to 60 exercises**:
     - Theme: "My Home and Furniture" (Rooms in the house, furniture, describing a home).
     - Add Vocabulary: Rooms (kitchen, living room, bedroom), Furniture (sofa, table, bed), Adjectives for home (comfortable, small, modern).
@@ -96,3 +98,17 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
     - Check `/debug/a1-preview/unit-5` in the browser.
 4. **Test Plan Approval**:
     - Verify that `/debug/a1-preview/unit-5` contains 60 exercises.
+    - Ran `npm run test:e2e:chromium e2e/unit-5-expansion.spec.ts`.
+    - Results: All tests passed.
+
+### [ ] Step: Expand Unit 6 (A1)
+1. **Analyze Unit 6**: Current content has 11 exercises.
+2. **Expand to 60 exercises**:
+    - Theme: "Food and Drink" (Common foods, drinks, ordering in a cafe).
+    - Add Vocabulary: Fruits, vegetables, dairy, meat, common drinks, cafe menu items.
+    - Add Grammar: Countable vs Uncountable nouns, Some / Any, "I would like...".
+    - Add Reading Comprehension: A recipe or a review of a restaurant.
+3. **Verify Implementation**:
+    - Check `/debug/a1-preview/unit-6` in the browser.
+4. **Test Plan Approval**:
+    - Verify that `/debug/a1-preview/unit-6` contains 60 exercises.
