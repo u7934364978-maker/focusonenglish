@@ -69,3 +69,17 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
     - Verify that `/debug/a1-preview/unit-3` contains 60 exercises.
     - Ran `npm run test:e2e e2e/unit-3-expansion.spec.ts`.
     - Results: All 3 tests passed in chromium.
+
+### [x] Step: Expand Unit 4 (A1)
+1. **Analyze Unit 4**: Current content has 10 exercises.
+2. **Expand to 60 exercises**:
+    - Theme: "Alphabet & Spelling" (A-Z, spelling names, personal info).
+    - Add Vocabulary: A-Z objects, common nouns, spelling-related verbs.
+    - Add Grammar: Articles (a/an), simple questions ("How do you spell...?").
+    - Add Reading Comprehension: Longer texts with name/surname spelling and basic info.
+3. **Verify Implementation**:
+    - Check `/debug/a1-preview/unit-4` in the browser.
+4. **Test Plan Approval**:
+    - Verify that `/debug/a1-preview/unit-4` contains 60 exercises.
+    - Ran `npm run test:e2e:chromium e2e/unit-4-expansion.spec.ts`.
+    - Results: All 3 tests passed in chromium.
