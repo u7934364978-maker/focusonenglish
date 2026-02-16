@@ -811,78 +811,84 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e41",
     "type": "reading",
     "level": "A1",
-    "topic": "Reading Phase",
-    "difficulty": "medium",
+    "topic": "Reading",
+    "difficulty": "hard",
     "transcript": "[[Welcome|Bienvenido]] [[to|a]] [[our|nuestra]] [[classroom|clase]]. [[In|En]] [[this|esta]] [[room|habitación]], [[there|allí]] [[are|hay]] [[ten|diez]] [[desks|escritorios]] [[and|y]] [[ten|diez]] [[chairs|sillas]]. [[My|Mi]] [[desk|escritorio]] [[is|está]] [[near|cerca de]] [[the|la]] [[window|ventana]]. [[I|Yo]] [[have|tengo]] [[a|una]] [[big|grande]] [[bag|mochila]] [[with|con]] [[three|tres]] [[books|libros]], [[two|dos]] [[notebooks|libretas]], [[and|y]] [[five|cinco]] [[pens|bolígrafos]].",
     "content": {
-      "title": "Lectura: Nuestra Clase",
-      "instructions": "Lee sobre el aula y los materiales escolares.",
-      "questions": []
+      "title": "[[Reading|Lectura]]: [[Our|Nuestra]] [[Classroom|Clase]]",
+      "instructions": "[[Read|Lee]] [[about|sobre]] [[the|el]] [[classroom|aula]] [[and|y]] [[supplies|materiales]].",
+      "questions": [
+        {
+          "question": "[[Welcome|Bienvenido]] [[to|a]] [[our|nuestra]] [[classroom|clase]]. [[In|En]] [[this|esta]] [[room|habitación]], [[there|allí]] [[are|hay]] [[ten|diez]] [[desks|escritorios]] [[and|y]] [[ten|diez]] [[chairs|sillas]]. [[My|Mi]] [[desk|escritorio]] [[is|está]] [[near|cerca de]] [[the|la]] [[window|ventana]]. [[I|Yo]] [[have|tengo]] [[a|una]] [[big|grande]] [[bag|mochila]] [[with|con]] [[three|tres]] [[books|libros]], [[two|dos]] [[notebooks|libretas]], [[and|y]] [[five|cinco]] [[pens|bolígrafos]].",
+          "options": ["[[I|Yo]] [[have|he]] [[read|leído]] [[the|el]] [[text|texto]]."],
+          "correctAnswer": 0,
+          "explanation": "[[Click|Haz clic]] [[to|para]] [[continue|continuar]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-4/e41.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u4-e42",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Question",
-    "difficulty": "medium",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[How|Cuántos]] [[many|muchos]] [[desks|escritorios]] [[are|hay]] [[in|en]] [[the|el]] [[room|habitación]]?",
     "content": {
-      "title": "Pregunta sobre la Clase",
-      "instructions": "Responde según la lectura.",
+      "title": "[[Comprehension|Comprensión]]: [[Desks|Escritorios]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
       "questions": [
         {
           "question": "[[How|Cuántos]] [[many|muchos]] [[desks|escritorios]] [[are|hay]] [[in|en]] [[the|el]] [[room|habitación]]?",
           "options": ["[[Five|Cinco]]", "[[Ten|Diez]]", "[[Three|Tres]]"],
           "correctAnswer": 1,
-          "explanation": "El texto dice: 'there are ten desks'."
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: \"[[there|hay]] [[are|son]] [[ten|diez]] [[desks|escritorios]]\"."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-4/e42.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u4-e43",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Question",
-    "difficulty": "medium",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[How|Cuántos]] [[many|muchos]] [[pens|bolígrafos]] [[does|hace]] [[the|la]] [[person|persona]] [[have|tener]]?",
     "content": {
-      "title": "Pregunta sobre la Clase",
-      "instructions": "Responde según la lectura.",
+      "title": "[[Comprehension|Comprensión]]: [[Supplies|Materiales]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
       "questions": [
         {
           "question": "[[How|Cuántos]] [[many|muchos]] [[pens|bolígrafos]] [[does|hace]] [[the|la]] [[person|persona]] [[have|tener]]?",
           "options": ["[[Five|Cinco]]", "[[Two|Dos]]", "[[Three|Tres]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'five pens'."
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: \"[[five|cinco]] [[pens|bolígrafos]]\"."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-4/e43.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u4-e44",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Question",
-    "difficulty": "medium",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[Where|Dónde]] [[is|está]] [[the|el]] [[desk|escritorio]]?",
     "content": {
-      "title": "Pregunta sobre la Clase",
-      "instructions": "Responde según la lectura.",
+      "title": "[[Comprehension|Comprensión]]: [[Location|Ubicación]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
       "questions": [
         {
           "question": "[[Where|Dónde]] [[is|está]] [[the|el]] [[desk|escritorio]]?",
-          "options": ["[[Near the door|Cerca de la puerta]]", "[[Near the chair|Cerca de la silla]]", "[[Near the window|Cerca de la ventana]]"],
-          "correctAnswer": 2,
-          "explanation": "El texto dice: 'desk is near the window'."
+          "options": ["[[Near the window|Cerca de la ventana]]", "[[Near the door|Cerca de la puerta]]", "[[Near the chair|Cerca de la silla]]"],
+          "correctAnswer": 0,
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: \"[[desk|escritorio]] [[is|está]] [[near|cerca de]] [[the|la]] [[window|ventana]]\"."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-4/e44.mp3",
     "topicName": "Reading"
   },
 
@@ -891,78 +897,84 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e45",
     "type": "reading",
     "level": "A1",
-    "topic": "Reading Phase",
-    "difficulty": "medium",
+    "topic": "Reading",
+    "difficulty": "hard",
     "transcript": "[[I|Yo]] [[am|estoy]] [[at|en]] [[the|la]] [[store|tienda]]. [[I|Yo]] [[need|necesito]] [[to|a]] [[buy|comprar]] [[things|cosas]] [[for|para]] [[school|la escuela]]. [[I|Yo]] [[want|quiero]] [[one|una]] [[ruler|regla]], [[four|cuatro]] [[pencils|lápices]], [[and|y]] [[six|seis]] [[notebooks|libretas]]. [[I|Yo]] [[also|también]] [[need|necesito]] [[an|una]] [[eraser|goma]] [[and|y]] [[a|una]] [[new|nueva]] [[bag|mochila]]. [[The|El]] [[total|total]] [[price|precio]] [[is|es]] [[nine|nueve]] [[dollars|dólares]].",
     "content": {
-      "title": "Lectura: Comprando Material",
-      "instructions": "Lee sobre la compra de materiales.",
-      "questions": []
+      "title": "[[Reading|Lectura]]: [[At|En]] [[the|la]] [[Store|Tienda]]",
+      "instructions": "[[Read|Lee]] [[about|sobre]] [[buying|comprar]] [[supplies|materiales]].",
+      "questions": [
+        {
+          "question": "[[I|Yo]] [[am|estoy]] [[at|en]] [[the|la]] [[store|tienda]]. [[I|Yo]] [[need|necesito]] [[to|a]] [[buy|comprar]] [[things|cosas]] [[for|para]] [[school|la escuela]]. [[I|Yo]] [[want|quiero]] [[one|una]] [[ruler|regla]], [[four|cuatro]] [[pencils|lápices]], [[and|y]] [[six|seis]] [[notebooks|libretas]]. [[I|Yo]] [[also|también]] [[need|necesito]] [[an|una]] [[eraser|goma]] [[and|y]] [[a|una]] [[new|nueva]] [[bag|mochila]]. [[The|El]] [[total|total]] [[price|precio]] [[is|es]] [[nine|nueve]] [[dollars|dólares]].",
+          "options": ["[[I|Yo]] [[have|he]] [[read|leído]] [[the|el]] [[text|texto]]."],
+          "correctAnswer": 0,
+          "explanation": "[[Click|Haz clic]] [[to|para]] [[continue|continuar]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-4/e45.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u4-e46",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Question",
-    "difficulty": "medium",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[How|Cuántos]] [[many|muchos]] [[pencils|lápices]] [[does|hace]] [[the|la]] [[person|persona]] [[want|querer]]?",
     "content": {
-      "title": "Pregunta de Compra",
-      "instructions": "Responde según la lectura.",
+      "title": "[[Comprehension|Comprensión]]: [[Pencils|Lápices]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
       "questions": [
         {
           "question": "[[How|Cuántos]] [[many|muchos]] [[pencils|lápices]] [[does|hace]] [[the|la]] [[person|persona]] [[want|querer]]?",
-          "options": ["[[Six|Seis]]", "[[Four|Cuatro]]", "[[One|Uno]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice: 'four pencils'."
+          "options": ["[[Six|Seis]]", "[[One|Uno]]", "[[Four|Cuatro]]"],
+          "correctAnswer": 2,
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: \"[[four|cuatro]] [[pencils|lápices]]\"."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-4/e46.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u4-e47",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Question",
-    "difficulty": "medium",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[How|Cuántas]] [[many|muchas]] [[notebooks|libretas]] [[does|hace]] [[the|la]] [[person|persona]] [[buy|comprar]]?",
     "content": {
-      "title": "Pregunta de Compra",
-      "instructions": "Responde según la lectura.",
+      "title": "[[Comprehension|Comprensión]]: [[Notebooks|Libretas]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
       "questions": [
         {
           "question": "[[How|Cuántas]] [[many|muchas]] [[notebooks|libretas]] [[does|hace]] [[the|la]] [[person|persona]] [[buy|comprar]]?",
           "options": ["[[Six|Seis]]", "[[Four|Cuatro]]", "[[Nine|Nueve]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'six notebooks'."
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: \"[[six|seis]] [[notebooks|libretas]]\"."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-4/e47.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u4-e48",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Question",
-    "difficulty": "medium",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[What|Cuál]] [[is|es]] [[the|el]] [[total|total]] [[price|precio]]?",
     "content": {
-      "title": "Pregunta de Compra",
-      "instructions": "Responde según la lectura.",
+      "title": "[[Comprehension|Comprensión]]: [[Price|Precio]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
       "questions": [
         {
           "question": "[[What|Cuál]] [[is|es]] [[the|el]] [[total|total]] [[price|precio]]?",
-          "options": ["[[Six dollars|Seis dólares]]", "[[Four dollars|Cuatro dólares]]", "[[Nine dollars|Nueve dólares]]"],
-          "correctAnswer": 2,
-          "explanation": "El texto dice: 'nine dollars'."
+          "options": ["[[Six dollars|Seis dólares]]", "[[Nine dollars|Nueve dólares]]", "[[Four dollars|Cuatro dólares]]"],
+          "correctAnswer": 1,
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: \"[[nine|nueve]] [[dollars|dólares]]\"."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-4/e48.mp3",
     "topicName": "Reading"
   },
 
@@ -971,78 +983,84 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e49",
     "type": "reading",
     "level": "A1",
-    "topic": "Reading Phase",
-    "difficulty": "medium",
+    "topic": "Reading",
+    "difficulty": "hard",
     "transcript": "[[Today|Hoy]] [[we|nosotros]] [[have|tenemos]] [[an|una]] [[art|arte]] [[class|clase]]. [[I|Yo]] [[need|necesito]] [[a|un]] [[big|grande]] [[piece|trozo]] [[of|de]] [[paper|papel]] [[and|y]] [[an|un]] [[orange|naranja]] [[pencil|lápiz]]. [[My|Mi]] [[friend|amigo]] [[has|tiene]] [[ten|diez]] [[colors|colores]]. [[We|Nosotros]] [[draw|dibujamos]] [[a|una]] [[big|grande]] [[house|casa]] [[with|con]] [[four|cuatro]] [[windows|ventanas]] [[and|y]] [[one|una]] [[door|puerta]].",
     "content": {
-      "title": "Lectura: Clase de Arte",
-      "instructions": "Lee sobre la clase de dibujo.",
-      "questions": []
+      "title": "[[Reading|Lectura]]: [[Art|Clase de]] [[Class|Arte]]",
+      "instructions": "[[Read|Lee]] [[about|sobre]] [[the|la]] [[drawing|de dibujo]] [[class|clase]].",
+      "questions": [
+        {
+          "question": "[[Today|Hoy]] [[we|nosotros]] [[have|tenemos]] [[an|una]] [[art|arte]] [[class|clase]]. [[I|Yo]] [[need|necesito]] [[a|un]] [[big|grande]] [[piece|trozo]] [[of|de]] [[paper|papel]] [[and|y]] [[an|un]] [[orange|naranja]] [[pencil|lápiz]]. [[My|Mi]] [[friend|amigo]] [[has|tiene]] [[ten|diez]] [[colors|colores]]. [[We|Nosotros]] [[draw|dibujamos]] [[a|una]] [[big|grande]] [[house|casa]] [[with|con]] [[four|cuatro]] [[windows|ventanas]] [[and|y]] [[one|una]] [[door|puerta]].",
+          "options": ["[[I|Yo]] [[have|he]] [[read|leído]] [[the|el]] [[text|texto]]."],
+          "correctAnswer": 0,
+          "explanation": "[[Click|Haz clic]] [[to|para]] [[continue|continuar]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-4/e49.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u4-e50",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Question",
-    "difficulty": "medium",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[What|Qué]] [[color|color]] [[pencil|lápiz]] [[does|hace]] [[the|la]] [[person|persona]] [[need|necesitar]]?",
     "content": {
-      "title": "Pregunta de Arte",
-      "instructions": "Responde según la lectura.",
+      "title": "[[Comprehension|Comprensión]]: [[Color|Color]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
       "questions": [
         {
           "question": "[[What|Qué]] [[color|color]] [[pencil|lápiz]] [[does|hace]] [[the|la]] [[person|persona]] [[need|necesitar]]?",
           "options": ["[[Orange|Naranja]]", "[[Red|Rojo]]", "[[Blue|Azul]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'an orange pencil'."
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: \"[[an|un]] [[orange|naranja]] [[pencil|lápiz]]\"."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-4/e50.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u4-e51",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Question",
-    "difficulty": "medium",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[How|Cuántas]] [[many|muchas]] [[windows|ventanas]] [[does|hace]] [[the|la]] [[house|casa]] [[have|tener]]?",
     "content": {
-      "title": "Pregunta de Arte",
-      "instructions": "Responde según la lectura.",
+      "title": "[[Comprehension|Comprensión]]: [[The|La]] [[House|Casa]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
       "questions": [
         {
           "question": "[[How|Cuántas]] [[many|muchas]] [[windows|ventanas]] [[does|hace]] [[the|la]] [[house|casa]] [[have|tener]]?",
           "options": ["[[One|Una]]", "[[Four|Cuatro]]", "[[Ten|Diez]]"],
           "correctAnswer": 1,
-          "explanation": "El texto dice: 'four windows'."
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: \"[[four|cuatro]] [[windows|ventanas]]\"."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-4/e51.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u4-e52",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Question",
-    "difficulty": "medium",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[How|Cuántos]] [[many|muchos]] [[colors|colores]] [[does|hace]] [[the|la]] [[friend|amigo]] [[have|tener]]?",
     "content": {
-      "title": "Pregunta de Arte",
-      "instructions": "Responde según la lectura.",
+      "title": "[[Comprehension|Comprensión]]: [[Friend|Amigo]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
       "questions": [
         {
           "question": "[[How|Cuántos]] [[many|muchos]] [[colors|colores]] [[does|hace]] [[the|la]] [[friend|amigo]] [[have|tener]]?",
           "options": ["[[Four|Cuatro]]", "[[One|Uno]]", "[[Ten|Diez]]"],
           "correctAnswer": 2,
-          "explanation": "El texto dice: 'friend has ten colors'."
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: \"[[friend|amigo]] [[has|tiene]] [[ten|diez]] [[colors|colores]]\"."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-4/e52.mp3",
     "topicName": "Reading"
   },
 
@@ -1051,78 +1069,84 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e53",
     "type": "reading",
     "level": "A1",
-    "topic": "Reading Phase",
-    "difficulty": "medium",
+    "topic": "Reading",
+    "difficulty": "hard",
     "transcript": "[[The|La]] [[teacher|profesora]] [[is|está]] [[in|en]] [[the|la]] [[room|habitación]]. [[She|Ella]] [[says|dice]]: '[[Please|Por favor]] [[open|abrid]] [[your|vuestros]] [[books|libros]] [[to|a]] [[page|página]] [[seven|siete]]. [[Take|Tomad]] [[a|un]] [[pen|bolígrafo]] [[and|y]] [[write|escribid]] [[your|vuestro]] [[name|nombre]].' [[There|Allí]] [[are|hay]] [[nine|nueve]] [[students|estudiantes]] [[in|en]] [[the|la]] [[class|clase]].",
     "content": {
-      "title": "Lectura: Instrucciones",
-      "instructions": "Lee lo que dice la profesora.",
-      "questions": []
+      "title": "[[Reading|Lectura]]: [[Teacher's|de la Profesora]] [[Instructions|Instrucciones]]",
+      "instructions": "[[Read|Lee]] [[what|lo que]] [[the|la]] [[teacher|profesora]] [[says|dice]].",
+      "questions": [
+        {
+          "question": "[[The|La]] [[teacher|profesora]] [[is|está]] [[in|en]] [[the|la]] [[room|habitación]]. [[She|Ella]] [[says|dice]]: '[[Please|Por favor]] [[open|abrid]] [[your|vuestros]] [[books|libros]] [[to|a]] [[page|página]] [[seven|siete]]. [[Take|Tomad]] [[a|un]] [[pen|bolígrafo]] [[and|y]] [[write|escribid]] [[your|vuestro]] [[name|nombre]].' [[There|Allí]] [[are|hay]] [[nine|nueve]] [[students|estudiantes]] [[in|en]] [[the|la]] [[class|clase]].",
+          "options": ["[[I|Yo]] [[have|he]] [[read|leído]] [[the|el]] [[text|texto]]."],
+          "correctAnswer": 0,
+          "explanation": "[[Click|Haz clic]] [[to|para]] [[continue|continuar]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-4/e53.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u4-e54",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Question",
-    "difficulty": "medium",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[What|Cuál]] [[page|página]] [[is|está]] [[the|la]] [[class|clase]] [[on|en]]?",
     "content": {
-      "title": "Pregunta de Clase",
-      "instructions": "Responde según la lectura.",
+      "title": "[[Comprehension|Comprensión]]: [[Page|Página]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
       "questions": [
         {
           "question": "[[What|Cuál]] [[page|página]] [[is|está]] [[the|la]] [[class|clase]] [[on|en]]?",
           "options": ["[[Seven|Siete]]", "[[Nine|Nueve]]", "[[Two|Dos]]"],
           "correctAnswer": 0,
-          "explanation": "La profesora dice: 'page seven'."
+          "explanation": "[[The|La]] [[teacher|profesora]] [[says|dice]]: \"[[page|página]] [[seven|siete]]\"."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-4/e54.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u4-e55",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Question",
-    "difficulty": "medium",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[How|Cuántos]] [[many|muchos]] [[students|estudiantes]] [[are|hay]] [[in|en]] [[the|la]] [[class|clase]]?",
     "content": {
-      "title": "Pregunta de Clase",
-      "instructions": "Responde según la lectura.",
+      "title": "[[Comprehension|Comprensión]]: [[Students|Estudiantes]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
       "questions": [
         {
           "question": "[[How|Cuántos]] [[many|muchos]] [[students|estudiantes]] [[are|hay]] [[in|en]] [[the|la]] [[class|clase]]?",
-          "options": ["[[Seven|Siete]]", "[[Nine|Nueve]]", "[[Ten|Diez]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice: 'nine students'."
+          "options": ["[[Seven|Siete]]", "[[Ten|Diez]]", "[[Nine|Nueve]]"],
+          "correctAnswer": 2,
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: \"[[nine|nueve]] [[students|estudiantes]]\"."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-4/e55.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u4-e56",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Question",
-    "difficulty": "medium",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[What|Qué]] [[do|aux]] [[the|los]] [[students|estudiantes]] [[need|necesitan]] [[to|para]] [[write|escribir]] [[their|su]] [[name|nombre]]?",
     "content": {
-      "title": "Pregunta de Clase",
-      "instructions": "Responde según la lectura.",
+      "title": "[[Comprehension|Comprensión]]: [[Action|Acción]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
       "questions": [
         {
           "question": "[[What|Qué]] [[do|aux]] [[the|los]] [[students|estudiantes]] [[need|necesitan]] [[to|para]] [[write|escribir]] [[their|su]] [[name|nombre]]?",
           "options": ["[[A ruler|Una regla]]", "[[An eraser|Una goma]]", "[[A pen|Un bolígrafo]]"],
           "correctAnswer": 2,
-          "explanation": "La profesora dice: 'Take a pen and write your name'."
+          "explanation": "[[The|La]] [[teacher|profesora]] [[says|dice]]: \"[[Take|Tomad]] [[a|un]] [[pen|bolígrafo]] [[and|y]] [[write|escribid]] [[your|vuestro]] [[name|nombre]]\"."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-4/e56.mp3",
     "topicName": "Reading"
   },
 
@@ -1131,78 +1155,84 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e57",
     "type": "reading",
     "level": "A1",
-    "topic": "Reading Phase",
-    "difficulty": "medium",
+    "topic": "Reading",
+    "difficulty": "hard",
     "transcript": "[[Look|Mira]] [[at|a]] [[this|esta]] [[table|mesa]]. [[There|Allí]] [[are|hay]] [[four|cuatro]] [[books|libros]] [[and|y]] [[one|una]] [[notebook|libreta]]. [[There|Allí]] [[is|hay]] [[also|también]] [[a|un]] [[pen|bolígrafo]] [[and|y]] [[a|un]] [[pencil|lápiz]]. [[I|Yo]] [[need|necesito]] [[an|una]] [[eraser|goma]] [[to|para]] [[clean|limpiar]] [[my|mis]] [[mistakes|errores]]. [[The|La]] [[table|mesa]] [[is|está]] [[in|en]] [[the|la]] [[library|biblioteca]]. [[It|Eso]] [[is|es]] [[number|número]] [[ten|diez]].",
     "content": {
-      "title": "Lectura: En la Biblioteca",
-      "instructions": "Lee sobre la mesa de la biblioteca.",
-      "questions": []
+      "title": "[[Reading|Lectura]]: [[In|En]] [[the|la]] [[Library|Biblioteca]]",
+      "instructions": "[[Read|Lee]] [[about|sobre]] [[the|la]] [[library|de la biblioteca]] [[table|mesa]].",
+      "questions": [
+        {
+          "question": "[[Look|Mira]] [[at|a]] [[this|esta]] [[table|mesa]]. [[There|Allí]] [[are|hay]] [[four|cuatro]] [[books|libros]] [[and|y]] [[one|una]] [[notebook|libreta]]. [[There|Allí]] [[is|hay]] [[also|también]] [[a|un]] [[pen|bolígrafo]] [[and|y]] [[a|un]] [[pencil|lápiz]]. [[I|Yo]] [[need|necesito]] [[an|una]] [[eraser|goma]] [[to|para]] [[clean|limpiar]] [[my|mis]] [[mistakes|errores]]. [[The|La]] [[table|mesa]] [[is|está]] [[in|en]] [[the|la]] [[library|biblioteca]]. [[It|Eso]] [[is|es]] [[number|número]] [[ten|diez]].",
+          "options": ["[[I|Yo]] [[have|he]] [[read|leído]] [[the|el]] [[text|texto]]."],
+          "correctAnswer": 0,
+          "explanation": "[[Click|Haz clic]] [[to|para]] [[continue|continuar]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-4/e57.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u4-e58",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Question",
-    "difficulty": "medium",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[How|Cuántos]] [[many|muchos]] [[books|libros]] [[are|hay]] [[on|en]] [[the|la]] [[table|mesa]]?",
     "content": {
-      "title": "Pregunta de Biblioteca",
-      "instructions": "Responde según la lectura.",
+      "title": "[[Comprehension|Comprensión]]: [[Books|Libros]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
       "questions": [
         {
           "question": "[[How|Cuántos]] [[many|muchos]] [[books|libros]] [[are|hay]] [[on|en]] [[the|la]] [[table|mesa]]?",
           "options": ["[[Four|Cuatro]]", "[[One|Uno]]", "[[Ten|Diez]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'four books'."
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: \"[[four|cuatro]] [[books|libros]]\"."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-4/e58.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u4-e59",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Question",
-    "difficulty": "medium",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[What|Cuál]] [[is|es]] [[the|el]] [[table|mesa]] [[number|número]]?",
     "content": {
-      "title": "Pregunta de Biblioteca",
-      "instructions": "Responde según la lectura.",
+      "title": "[[Comprehension|Comprensión]]: [[Table|Mesa]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
       "questions": [
         {
           "question": "[[What|Cuál]] [[is|es]] [[the|el]] [[table|mesa]] [[number|número]]?",
           "options": ["[[Four|Cuatro]]", "[[Ten|Diez]]", "[[One|Uno]]"],
           "correctAnswer": 1,
-          "explanation": "El texto dice: 'table is number ten'."
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: \"[[table|mesa]] [[is|está]] [[number|número]] [[ten|diez]]\"."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-4/e59.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u4-e60",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Question",
-    "difficulty": "medium",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[Where|Dónde]] [[is|está]] [[the|la]] [[table|mesa]]?",
     "content": {
-      "title": "Pregunta de Biblioteca",
-      "instructions": "Responde según la lectura.",
+      "title": "[[Comprehension|Comprensión]]: [[Library|Biblioteca]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
       "questions": [
         {
           "question": "[[Where|Dónde]] [[is|está]] [[the|la]] [[table|mesa]]?",
           "options": ["[[In the classroom|En la clase]]", "[[In the store|En la tienda]]", "[[In the library|En la biblioteca]]"],
           "correctAnswer": 2,
-          "explanation": "El texto dice: 'The table is in the library'."
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: \"[[The|La]] [[table|mesa]] [[is|está]] [[in|en]] [[the|la]] [[library|biblioteca]]\"."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-4/e60.mp3",
     "topicName": "Reading"
   }
 ];

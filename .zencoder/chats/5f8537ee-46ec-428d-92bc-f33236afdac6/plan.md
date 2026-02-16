@@ -34,14 +34,14 @@
 - **Reading UI**: Use the two-phase system (Text first, then questions).
 
 #### Module 1: Basics & Personal Info (Refactor Status)
-- [x] **Unit 1**: Greetings & Personal Info (Done)
+- [x] **Unit 1**: Greetings & Personal Info (Done - High Quality Refactor)
 - [x] **Unit 2**: Countries & Nationalities (Done)
 - [x] **Unit 3**: Emotions & States (Done)
 - [x] **Unit 4**: Numbers 1-10 & Classroom Objects (Done)
 - [x] **Unit 5**: Possessive 's & Family Members (Done)
 - [x] **Unit 6**: More Family & Adjectives (Done)
-- [x] **Unit 7**: Colors & Physical Descriptions (Done)
-- [x] **Unit 8**: Numbers 20-100, Prices & Ages (Done)
+- [x] **Unit 7**: Colors & Physical Descriptions (Done - High Quality Refactor)
+- [x] **Unit 8**: Numbers 20-100, Prices & Ages (Done - High Quality Refactor)
 - [x] **Unit 9**: Jobs & Occupations (Done)
 - [x] **Unit 10**: Module 1 Review & Assessment (Done)
 

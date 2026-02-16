@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef, useMemo } from 'react';
 import { CheckCircle, Check, Eye, RefreshCw } from 'lucide-react';
+import { TranslatedText } from '../course/exercises/TranslatedText';
 
 interface CrosswordItem {
   word: string;
@@ -413,7 +414,7 @@ export default function CrosswordExercise({ items, onComplete }: CrosswordProps)
                         {cellNumbers.get(`${item.row}-${item.col}`)}.
                       </span>
                       <p className={`font-medium text-xs leading-relaxed ${isActive ? 'text-slate-900 font-bold' : 'group-hover:text-slate-900'}`}>
-                        {item.clue}
+                        <TranslatedText text={item.clue} />
                       </p>
                     </div>
                   );
@@ -442,7 +443,7 @@ export default function CrosswordExercise({ items, onComplete }: CrosswordProps)
                         {items.indexOf(item) + 1}.
                       </span>
                       <p className={`font-medium text-xs leading-relaxed ${isActive ? 'text-slate-900 font-bold' : 'group-hover:text-slate-900'}`}>
-                        {item.clue}
+                        <TranslatedText text={item.clue} />
                       </p>
                     </div>
                   );

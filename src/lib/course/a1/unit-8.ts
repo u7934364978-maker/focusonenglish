@@ -171,7 +171,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Numbers 20-100",
     "difficulty": "easy",
-    "transcript": "[[There|Hay]] [[are|son]] [[one hundred|cien]] [[pages|páginas]] [[in|en]] [[the|el]] [[book|libro]].",
+    "transcript": "[[There are|Hay]] [[one hundred|cien]] [[pages|páginas]] [[in|en]] [[the|el]] [[book|libro]].",
     "content": {
       "title": "El número 100",
       "instructions": "Selecciona el número.",
@@ -335,7 +335,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Padres",
       "instructions": "Selecciona el verbo correcto para plural.",
-      "options": ["[[is|es]]", "[[am|soy]]", "[[are|tienen/son]]"],
+      "options": ["[[is|es]]", "[[am|soy]]", "[[are|tienen]]"],
       "correctAnswer": 2,
       "explanation": "Parents es plural, usamos 'are'."
     },
@@ -369,7 +369,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Prices",
     "difficulty": "easy",
-    "transcript": "[[How|Cuánto]] [[much|mucho]] [[is|es]] [[it|ello]]? [[It|Ello]] [[is|es]] [[twenty|veinte]] [[dollars|dólares]]. [[How|Cuánto]] [[much|mucho]] [[are|son]] [[the|las]] [[shoes|zapatos]]? [[They|Ellos]] [[are|son]] [[forty-five|cuarenta y cinco]] [[euros|euros]]. [[Pounds|Libras]]. [[Price|Precio]]. [[Cheap|Barato]]. [[Expensive|Caro]].",
+    "transcript": "[[How|Cuánto]] [[much|mucho]] [[is|es]] [[it|ello]]? [[It|Ello]] [[is|es]] [[twenty|veinte]] [[dollars|dólares]]. [[How|Cuánto]] [[much|mucho]] [[are|cuestan]] [[the|las]] [[shoes|zapatos]]? [[They|Ellos]] [[are|cuestan]] [[forty-five|cuarenta y cinco]] [[euros|euros]]. [[Pounds|Libras]]. [[Price|Precio]]. [[Cheap|Barato]]. [[Expensive|Caro]].",
     "content": {
       "title": "Vocabulario: Precios",
       "instructions": "Aprende a preguntar precios y monedas.",
@@ -411,7 +411,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Precio plural",
       "instructions": "Selecciona el verbo adecuado.",
-      "options": ["[[is|es]]", "[[am|soy]]", "[[are|son/cuestan]]"],
+      "options": ["[[is|es]]", "[[am|soy]]", "[[are|cuestan]]"],
       "correctAnswer": 2,
       "explanation": "Pants es plural, por lo que usamos 'are'."
     },
@@ -522,7 +522,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "title": "Pregunta de precio",
       "instructions": "Ordena la pregunta.",
       "correctSentence": "[[How|Cuánto]] [[much|mucho]] [[are|cuestan]] [[the|las]] [[tickets|entradas]]?",
-      "words": ["[[tickets|entradas]]?", "[[the|las]]", "[[are|son]]", "[[much|mucho]]", "[[How|Cuánto]]"],
+      "words": ["[[tickets|entradas]]?", "[[the|las]]", "[[are|cuestan]]", "[[much|mucho]]", "[[How|Cuánto]]"],
       "explanation": "Estructura: How + much + are + the + nombre."
     },
     "audioUrl": "audio/a1/unit-8/e29.mp3",
@@ -681,7 +681,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Phone Numbers",
     "difficulty": "medium",
-    "transcript": "[[Is|¿Es]] [[that|ese]] [[zero|cero]] [[or|o]] [[O|cero]]? [[Both|Ambos]] [[are|son]] [[correct|correctos]].",
+    "transcript": "[[Is|¿Es]] [[that|ese]] [[zero|cero]] [[or|o]] [[O|cero]]? [[Both|Ambos]] [[are|están]] [[correct|bien]].",
     "content": {
       "title": "Zero vs O",
       "instructions": "Elige la opción correcta sobre el cero.",
@@ -903,7 +903,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
 
   // ==========================================
   // READING COMPREHENSION (51-60)
-  // Two-phase structure: Text slide then Question slides
+  // Standard two-phase structure: Text slide then Question slides
   // ==========================================
 
   // TEXT 1: MARK'S OFFICE
@@ -911,67 +911,84 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "id": "a1-u8-e51",
     "type": "reading",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Reading",
     "difficulty": "medium",
     "transcript": "[[Hello|Hola]], [[my|mi]] [[name|nombre]] [[is|es]] [[Mark|Mark]]. [[I|Yo]] [[am|tengo]] [[thirty-seven|treinta y siete]] [[years|años]] [[old|de edad]]. [[I|Yo]] [[work|trabajo]] [[in|en]] [[a|un]] [[big|grande]] [[building|edificio]]. [[My|Mi]] [[office|oficina]] [[is|está]] [[on|en]] [[the|el]] [[eighty-second|octogésimo segundo]] [[floor|piso]]. [[The|El]] [[phone|teléfono]] [[number|número]] [[is|es]] [[five|cinco]] [[five|cinco]] [[five|cinco]], [[sixty-four|sesenta y cuatro]], [[twenty|veinte]]. [[There|Allí]] [[are|hay]] [[ninety|noventa]] [[people|personas]] [[in|en]] [[my|mi]] [[department|departamento]]. [[Every|Cada]] [[day|día]], [[I|yo]] [[receive|recibo]] [[eighty-six|ochenta y seis]] [[emails|correos electrónicos]]. [[I|Yo]] [[finish|termino]] [[my|mi]] [[work|trabajo]] [[at|a las]] [[six-thirty|seis y media]] [[PM|de la tarde]].",
     "content": {
-      "title": "Lectura: La Oficina de Mark",
-      "instructions": "Lee sobre Mark y su trabajo. Presta atención a los números.",
-      "text": "Hello, my name is Mark. I am thirty-seven years old. I work in a big building. My office is on the eighty-second floor. The phone number is five five five, sixty-four, twenty. There are ninety people in my department. Every day, I receive eighty-six emails. I finish my work at six-thirty PM.",
-      "questions": []
+      "title": "[[Reading|Lectura]]: [[Mark's|de Mark]] [[Office|Oficina]]",
+      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]] [[carefully|detenidamente]].",
+      "questions": [
+        {
+          "question": "[[Hello|Hola]], [[my|mi]] [[name|nombre]] [[is|es]] [[Mark|Mark]]. [[I|Yo]] [[am|tengo]] [[thirty-seven|treinta y siete]] [[years|años]] [[old|de edad]]. [[I|Yo]] [[work|trabajo]] [[in|en]] [[a|un]] [[big|grande]] [[building|edificio]]. [[My|Mi]] [[office|oficina]] [[is|está]] [[on|en]] [[the|el]] [[eighty-second|octogésimo segundo]] [[floor|piso]]. [[The|El]] [[phone|teléfono]] [[number|número]] [[is|es]] [[five|cinco]] [[five|cinco]] [[five|cinco]], [[sixty-four|sesenta y cuatro]], [[twenty|veinte]]. [[There|Allí]] [[are|hay]] [[ninety|noventa]] [[people|personas]] [[in|en]] [[my|mi]] [[department|departamento]]. [[Every|Cada]] [[day|día]], [[I|yo]] [[receive|recibo]] [[eighty-six|ochenta y seis]] [[emails|correos electrónicos]]. [[I|Yo]] [[finish|termino]] [[my|mi]] [[work|trabajo]] [[at|a las]] [[six-thirty|seis y media]] [[PM|de la tarde]].",
+          "options": ["[[I|Yo]] [[have|he]] [[read|leído]] [[the|el]] [[text|texto]]."],
+          "correctAnswer": 0,
+          "explanation": "[[Click|Haz clic]] [[to|para]] [[continue|continuar]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-8/e51.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u8-e52",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Comprehension",
     "difficulty": "medium",
     "transcript": "[[How|Qué]] [[old|tan viejo]] [[is|es]] [[Mark|Mark]]?",
     "content": {
-      "title": "Pregunta sobre Mark",
-      "instructions": "Basado en el texto anterior, responde:",
-      "options": ["[[Forty-seven|Cuarenta y siete]]", "[[Thirty-seven|Treinta y siete]]", "[[Twenty-seven|Veintisiete]]"],
-      "correctAnswer": 1,
-      "explanation": "El texto dice: 'I am thirty-seven years old'."
+      "title": "[[Comprehension|Comprensión]]: [[Mark's|de Mark]] [[Age|Edad]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]] [[based|basada]] [[on|en]] [[the|el]] [[text|texto]].",
+      "questions": [
+        {
+          "question": "[[How|Qué]] [[old|tan viejo]] [[is|es]] [[Mark|Mark]]?",
+          "options": ["[[Forty-seven|Cuarenta y siete]]", "[[Thirty-seven|Treinta y siete]]", "[[Twenty-seven|Veintisiete]]"],
+          "correctAnswer": 1,
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: \"[[I|Yo]] [[am|tengo]] [[thirty-seven|treinta y siete]] [[years|años]] [[old|de edad]]\"."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-8/e52.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u8-e53",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Comprehension",
     "difficulty": "medium",
     "transcript": "[[What|En qué]] [[floor|piso]] [[is|está]] [[his|su]] [[office|oficina]]?",
     "content": {
-      "title": "Pregunta sobre Mark",
-      "instructions": "Basado en el texto anterior, responde:",
-      "options": ["[[The eighty-second|El octogésimo segundo]]", "[[The ninety-second|El nonagésimo segundo]]", "[[The sixty-fourth|El sexagésimo cuarto]]"],
-      "correctAnswer": 0,
-      "explanation": "El texto dice: 'on the eighty-second floor'."
+      "title": "[[Comprehension|Comprensión]]: [[Floor|Piso]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "questions": [
+        {
+          "question": "[[Is|Está]] [[his|su]] [[office|oficina]] [[on|en]] [[the|el]] [[eightieth|octogésimo]] [[floor|piso]]?",
+          "options": ["[[No|No]], [[it|ella]] [[is|está]] [[on|en]] [[the|el]] [[82nd|82º]].", "[[Yes|Sí]], [[it|ella]] [[is|está]].", "[[No|No]], [[it|ella]] [[is|está]] [[on|en]] [[the|el]] [[90th|90º]]."],
+          "correctAnswer": 0,
+          "explanation": "[[The|El]] [[office|oficina]] [[is|está]] [[on|en]] [[the|el]] [[eighty-second|octogésimo segundo]] [[floor|piso]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-8/e53.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u8-e54",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Comprehension",
     "difficulty": "medium",
-    "transcript": "[[How|Cuántas]] [[many|muchas]] [[people|personas]] [[work|trabajan]] [[in|en]] [[the|el]] [[department|departamento]]?",
+    "transcript": "[[How|Cuántos]] [[many|muchos]] [[emails|correos electrónicos]] [[does|hace]] [[he|él]] [[receive|recibir]]?",
     "content": {
-      "title": "Pregunta sobre Mark",
-      "instructions": "Basado en el texto anterior, responde:",
-      "options": ["[[Eighty-six|Ochenta y seis]]", "[[Sixty-four|Sesenta y cuatro]]", "[[Ninety|Noventa]]"],
-      "correctAnswer": 2,
-      "explanation": "El texto dice: 'There are ninety people in my department'."
+      "title": "[[Comprehension|Comprensión]]: [[Emails|Correos]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "questions": [
+        {
+          "question": "[[How|Cuántos]] [[many|muchos]] [[emails|correos electrónicos]] [[does|hace]] [[he|él]] [[receive|recibir]]?",
+          "options": ["[[Ninety|Noventa]]", "[[Sixty-four|Sesenta y cuatro]]", "[[Eighty-six|Ochenta y seis]]"],
+          "correctAnswer": 2,
+          "explanation": "[[He|Él]] [[receives|recibe]] [[eighty-six|ochenta y seis]] [[emails|correos electrónicos]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-8/e54.mp3",
     "topicName": "Reading"
   },
 
@@ -980,50 +997,63 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "id": "a1-u8-e55",
     "type": "reading",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Reading",
     "difficulty": "medium",
     "transcript": "[[This|Esta]] [[new|nueva]] [[tablet|tableta]] [[is|es]] [[very|muy]] [[nice|agradable]]. [[The|El]] [[price|precio]] [[is|es]] [[two hundred|doscientos]] [[dollars|dólares]] [[in|en]] [[the|la]] [[big|grande]] [[store|tienda]]. [[But|Pero]] [[in|en]] [[the|la]] [[small|pequeña]] [[store|tienda]], [[it|ella]] [[is|cuesta]] [[one hundred|cien]] [[and|y]] [[sixty-nine|sesenta y nueve]] [[dollars|dólares]]. [[That|Eso]] [[is|es]] [[a|un]] [[good|buen]] [[price|precio]]. [[The|La]] [[tablet|tableta]] [[is|está]] [[available|disponible]] [[in|en]] [[three|tres]] [[colors|colores]]: [[black|negro]], [[silver|plateado]], [[and|y]] [[white|blanco]]. [[The|La]] [[silver|plateada]] [[one|una]] [[is|es]] [[my|mi]] [[favorite|favorita]].",
     "content": {
-      "title": "Lectura: La Nueva Tableta",
-      "instructions": "Lee sobre el precio de la tableta.",
-      "text": "This new tablet is very nice. The price is two hundred dollars in the big store. But in the small store, it is one hundred and sixty-nine dollars. That is a good price. The tablet is available in three colors: black, silver, and white. The silver one is my favorite.",
-      "questions": []
+      "title": "[[Reading|Lectura]]: [[The|La]] [[New|Nueva]] [[Tablet|Tableta]]",
+      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]] [[about|sobre]] [[the|el]] [[price|precio]].",
+      "questions": [
+        {
+          "question": "[[This|Esta]] [[new|nueva]] [[tablet|tableta]] [[is|es]] [[very|muy]] [[nice|agradable]]. [[The|El]] [[price|precio]] [[is|es]] [[two hundred|doscientos]] [[dollars|dólares]] [[in|en]] [[the|la]] [[big|grande]] [[store|tienda]]. [[But|Pero]] [[in|en]] [[the|la]] [[small|pequeña]] [[store|tienda]], [[it|ella]] [[is|cuesta]] [[one hundred|cien]] [[and|y]] [[sixty-nine|sesenta y nueve]] [[dollars|dólares]]. [[That|Eso]] [[is|es]] [[a|un]] [[good|buen]] [[price|precio]]. [[The|La]] [[tablet|tableta]] [[is|está]] [[available|disponible]] [[in|en]] [[three|tres]] [[colors|colores]]: [[black|negro]], [[silver|plateado]], [[and|y]] [[white|blanco]]. [[The|La]] [[silver|plateada]] [[one|una]] [[is|es]] [[my|mi]] [[favorite|favorita]].",
+          "options": ["[[I|Yo]] [[have|he]] [[read|leído]] [[the|el]] [[text|texto]]."],
+          "correctAnswer": 0,
+          "explanation": "[[Click|Haz clic]] [[to|para]] [[continue|continuar]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-8/e55.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u8-e56",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Comprehension",
     "difficulty": "medium",
     "transcript": "[[How|Cuánto]] [[much|mucho]] [[is|cuesta]] [[the|la]] [[tablet|tableta]] [[in|en]] [[the|la]] [[small|pequeña]] [[store|tienda]]?",
     "content": {
-      "title": "Pregunta de Comprensión",
-      "instructions": "Elige el precio correcto.",
-      "options": ["[[One hundred and sixty-nine dollars|169 dólares]]", "[[Two hundred dollars|200 dólares]]", "[[One hundred and ninety-six dollars|196 dólares]]"],
-      "correctAnswer": 0,
-      "explanation": "El texto dice: 'in the small store, it is one hundred and sixty-nine dollars'."
+      "title": "[[Comprehension|Comprensión]]: [[Price|Precio]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[price|precio]].",
+      "questions": [
+        {
+          "question": "[[How|Cuánto]] [[much|mucho]] [[is|cuesta]] [[the|la]] [[tablet|tableta]] [[in|en]] [[the|la]] [[small|pequeña]] [[store|tienda]]?",
+          "options": ["[[One hundred and ninety-six dollars|196 dólares]]", "[[Two hundred dollars|200 dólares]]", "[[One hundred and sixty-nine dollars|169 dólares]]"],
+          "correctAnswer": 2,
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: \"[[it|ella]] [[is|cuesta]] [[one hundred|cien]] [[and|y]] [[sixty-nine|sesenta y nueve]] [[dollars|dólares]]\"."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-8/e56.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u8-e57",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Comprehension",
     "difficulty": "medium",
-    "transcript": "[[How|Cuántos]] [[many|muchos]] [[colors|colores]] [[are|hay]] [[available|disponibles]]?",
+    "transcript": "[[Which|Cuál]] [[color|color]] [[is|es]] [[the|el]] [[favorite|favorito]]?",
     "content": {
-      "title": "Pregunta de Comprensión",
-      "instructions": "Elige el número de colores.",
-      "options": ["[[Two|Dos]]", "[[Three|Tres]]", "[[Four|Cuatro]]"],
-      "correctAnswer": 1,
-      "explanation": "El texto dice: 'The tablet is available in three colors'."
+      "title": "[[Comprehension|Comprensión]]: [[Favorite|Favorito]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "questions": [
+        {
+          "question": "[[Which|Cuál]] [[color|color]] [[is|es]] [[the|el]] [[favorite|favorito]]?",
+          "options": ["[[Black|Negro]]", "[[Silver|Plateado]]", "[[White|Blanco]]"],
+          "correctAnswer": 1,
+          "explanation": "[[The|El]] [[silver|plateada]] [[one|una]] [[is|es]] [[my|mi]] [[favorite|favorita]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-8/e57.mp3",
     "topicName": "Reading"
   },
 
@@ -1032,50 +1062,63 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "id": "a1-u8-e58",
     "type": "reading",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Reading",
     "difficulty": "medium",
     "transcript": "[[Today|Hoy]] [[is|es]] [[my|mi]] [[grandmother's|de mi abuela]] [[birthday|cumpleaños]]. [[She|Ella]] [[is|tiene]] [[eighty-five|ochenta y cinco]] [[years|años]] [[old|de edad]]. [[There|Allí]] [[are|hay]] [[forty|cuarenta]] [[people|personas]] [[at|en]] [[the|la]] [[party|fiesta]]. [[We|Nosotros]] [[have|tenemos]] [[sixty|sesenta]] [[cupcakes|magdalenas]] [[and|y]] [[one|un]] [[big|grande]] [[cake|pastel]]. [[The|El]] [[cake|pastel]] [[price|precio]] [[is|es]] [[forty-two|cuarenta y dos]] [[euros|euros]]. [[Everyone|Todos]] [[is|están]] [[happy|felices]].",
     "content": {
-      "title": "Lectura: El Cumpleaños",
-      "instructions": "Lee sobre la fiesta de cumpleaños.",
-      "text": "Today is my grandmother's birthday. She is eighty-five years old. There are forty people at the party. We have sixty cupcakes and one big cake. The cake price is forty-two euros. Everyone is happy.",
-      "questions": []
+      "title": "[[Reading|Lectura]]: [[The|La]] [[Birthday|Cumpleaños]] [[Party|Fiesta]]",
+      "instructions": "[[Read|Lee]] [[about|sobre]] [[the|la]] [[party|fiesta]].",
+      "questions": [
+        {
+          "question": "[[Today|Hoy]] [[is|es]] [[my|mi]] [[grandmother's|de mi abuela]] [[birthday|cumpleaños]]. [[She|Ella]] [[is|tiene]] [[eighty-five|ochenta y cinco]] [[years|años]] [[old|de edad]]. [[There|Allí]] [[are|hay]] [[forty|cuarenta]] [[people|personas]] [[at|en]] [[the|la]] [[party|fiesta]]. [[We|Nosotros]] [[have|tenemos]] [[sixty|sesenta]] [[cupcakes|magdalenas]] [[and|y]] [[one|un]] [[big|grande]] [[cake|pastel]]. [[The|El]] [[cake|pastel]] [[price|precio]] [[is|es]] [[forty-two|cuarenta y dos]] [[euros|euros]]. [[Everyone|Todos]] [[is|están]] [[happy|felices]].",
+          "options": ["[[I|Yo]] [[have|he]] [[read|leído]] [[the|el]] [[text|texto]]."],
+          "correctAnswer": 0,
+          "explanation": "[[Click|Haz clic]] [[to|para]] [[continue|continuar]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-8/e58.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u8-e59",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Comprehension",
     "difficulty": "medium",
     "transcript": "[[How|Qué]] [[old|tan viejo]] [[is|es]] [[the|la]] [[grandmother|abuela]]?",
     "content": {
-      "title": "Pregunta de Comprensión",
-      "instructions": "Elige la edad correcta.",
-      "options": ["[[Seventy-five|Setenta y cinco]]", "[[Eighty-five|Ochenta y cinco]]", "[[Eighty|Ochenta]]"],
-      "correctAnswer": 1,
-      "explanation": "El texto dice: 'She is eighty-five years old'."
+      "title": "[[Comprehension|Comprensión]]: [[Age|Edad]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "questions": [
+        {
+          "question": "[[Is|Tiene]] [[the|la]] [[grandmother|abuela]] [[eighty|ochenta]] [[years|años]] [[old|de edad]]?",
+          "options": ["[[Yes|Sí]], [[she|ella]] [[is|tiene]].", "[[No|No]], [[she|ella]] [[is|tiene]] [[85|85]].", "[[No|No]], [[she|ella]] [[is|tiene]] [[75|75]]."],
+          "correctAnswer": 1,
+          "explanation": "[[The|El]] [[grandmother|abuela]] [[is|tiene]] [[eighty-five|ochenta y cinco]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-8/e59.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u8-e60",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Comprehension",
     "difficulty": "medium",
-    "transcript": "[[How|Cuánto]] [[much|mucho]] [[is|cuesta]] [[the|el]] [[cake|pastel]]?",
+    "transcript": "[[How|Cuántas]] [[many|muchas]] [[people|personas]] [[are|hay]] [[at|en]] [[the|la]] [[party|fiesta]]?",
     "content": {
-      "title": "Pregunta de Comprensión",
-      "instructions": "Elige el precio del pastel.",
-      "options": ["[[Forty-two euros|42 euros]]", "[[Sixty euros|60 euros]]", "[[Twenty-four euros|24 euros]]"],
-      "correctAnswer": 0,
-      "explanation": "El texto dice: 'The cake price is forty-two euros'."
+      "title": "[[Comprehension|Comprensión]]: [[People|Personas]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "questions": [
+        {
+          "question": "[[How|Cuántas]] [[many|muchas]] [[people|personas]] [[are|hay]] [[at|en]] [[the|la]] [[party|fiesta]]?",
+          "options": ["[[Sixty|Sesenta]]", "[[Forty|Cuarenta]]", "[[Eighty-five|Ochenta y cinco]]"],
+          "correctAnswer": 1,
+          "explanation": "[[There|Allí]] [[are|hay]] [[forty|cuarenta]] [[people|personas]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-8/e60.mp3",
     "topicName": "Reading"
   }
 ];

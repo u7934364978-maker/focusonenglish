@@ -909,8 +909,8 @@ export const UNIT_10_EXERCISES: Exercise[] = [
   },
 
   // ==========================================
-  // READING COMPREHENSION: MODULE 1 REVIEW (51-60)
-  // Two-phase structure: Text slide + 3 Question slides
+  // READING COMPREHENSION (51-60)
+  // Standard two-phase structure: Text slide then Question slides
   // ==========================================
 
   // TEXT 1: MEETING THE NEIGHBORS
@@ -918,67 +918,84 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "id": "a1-u10-e51",
     "type": "reading",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Reading",
     "difficulty": "hard",
     "transcript": "[[Hello|Hola]]. [[We|Nosotros]] [[are|somos]] [[the|los]] [[Millers|Miller]]. [[We|Nosotros]] [[are|somos]] [[your|vuestros]] [[new|nuevos]] [[neighbors|vecinos]]. [[My|Mi]] [[name|nombre]] [[is|es]] [[George|George]]. [[I|Yo]] [[am|soy]] [[an|un]] [[engineer|ingeniero]]. [[This|Esta]] [[is|es]] [[my|mi]] [[wife|esposa]], [[Sarah|Sarah]]. [[She|Ella]] [[is|es]] [[a|una]] [[nurse|enfermera]]. [[We|Nosotros]] [[are|somos]] [[from|de]] [[Canada|Canadá]]. [[We|Nosotros]] [[have|tenemos]] [[two|dos]] [[children|hijos]], [[a|un]] [[son|hijo]] [[and|y]] [[a|una]] [[daughter|hija]]. [[Their|Sus]] [[names|nombres]] [[are|son]] [[Ben|Ben]] [[and|y]] [[Lucy|Lucy]]. [[Ben|Ben]] [[is|tiene]] [[ten|diez]] [[and|y]] [[Lucy|Lucy]] [[is|tiene]] [[eight|ocho]]. [[We|Nosotros]] [[are|estamos]] [[very|muy]] [[happy|felices]] [[to|de]] [[be|estar]] [[here|aquí]].",
     "content": {
-      "title": "Lectura: Los Nuevos Vecinos",
-      "instructions": "Lee sobre la familia Miller.",
-      "text": "Hello. We are the Millers. We are your new neighbors. My name is George. I am an engineer. This is my wife, Sarah. She is a nurse. We are from Canada. We have two children, a son and a daughter. Their names are Ben and Lucy. Ben is ten and Lucy is eight. We are very happy to be here.",
-      "questions": []
+      "title": "[[Reading|Lectura]]: [[The|Los]] [[New|Nuevos]] [[Neighbors|Vecinos]]",
+      "instructions": "[[Read|Lee]] [[about|sobre]] [[the|la]] [[Miller|Miller]] [[family|familia]].",
+      "questions": [
+        {
+          "question": "[[Hello|Hola]]. [[We|Nosotros]] [[are|somos]] [[the|los]] [[Millers|Miller]]. [[We|Nosotros]] [[are|somos]] [[your|vuestros]] [[new|nuevos]] [[neighbors|vecinos]]. [[My|Mi]] [[name|nombre]] [[is|es]] [[George|George]]. [[I|Yo]] [[am|soy]] [[an|un]] [[engineer|ingeniero]]. [[This|Esta]] [[is|es]] [[my|mi]] [[wife|esposa]], [[Sarah|Sarah]]. [[She|Ella]] [[is|es]] [[a|una]] [[nurse|enfermera]]. [[We|Nosotros]] [[are|somos]] [[from|de]] [[Canada|Canadá]]. [[We|Nosotros]] [[have|tenemos]] [[two|dos]] [[children|hijos]], [[a|un]] [[son|hijo]] [[and|y]] [[a|una]] [[daughter|hija]]. [[Their|Sus]] [[names|nombres]] [[are|son]] [[Ben|Ben]] [[and|y]] [[Lucy|Lucy]]. [[Ben|Ben]] [[is|tiene]] [[ten|diez]] [[and|y]] [[Lucy|Lucy]] [[is|tiene]] [[eight|ocho]]. [[We|Nosotros]] [[are|estamos]] [[very|muy]] [[happy|felices]] [[to|de]] [[be|estar]] [[here|aquí]].",
+          "options": ["[[I|Yo]] [[have|he]] [[read|leído]] [[the|el]] [[text|texto]]."],
+          "correctAnswer": 0,
+          "explanation": "[[Click|Haz clic]] [[to|para]] [[continue|continuar]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-10/e51.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u10-e52",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Comprehension",
     "difficulty": "hard",
     "transcript": "[[Where|De dónde]] [[is|es]] [[the|la]] [[Miller|Miller]] [[family|familia]] [[from|de]]?",
     "content": {
-      "title": "Pregunta 1",
-      "instructions": "Responde según el texto.",
-      "options": ["[[The USA|EE.UU.]]", "[[Canada|Canadá]]", "[[England|Inglaterra]]"],
-      "correctAnswer": 1,
-      "explanation": "El texto dice: 'We are from Canada'."
+      "title": "[[Comprehension|Comprensión]]: [[Origin|Origen]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "questions": [
+        {
+          "question": "[[Where|De dónde]] [[is|es]] [[the|la]] [[Miller|Miller]] [[family|familia]] [[from|de]]?",
+          "options": ["[[The USA|EE.UU.]]", "[[England|Inglaterra]]", "[[Canada|Canadá]]"],
+          "correctAnswer": 2,
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: \"[[We|Nosotros]] [[are|somos]] [[from|de]] [[Canada|Canadá]]\"."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-10/e52.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u10-e53",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Comprehension",
     "difficulty": "hard",
     "transcript": "[[What|Cuál]] [[is|es]] [[George's|de George]] [[job|trabajo]]?",
     "content": {
-      "title": "Pregunta 2",
-      "instructions": "Responde según el texto.",
-      "options": ["[[Doctor|Médico]]", "[[Nurse|Enfermero]]", "[[Engineer|Ingeniero]]"],
-      "correctAnswer": 2,
-      "explanation": "George dice: 'I am an engineer'."
+      "title": "[[Comprehension|Comprensión]]: [[Profession|Profesión]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "questions": [
+        {
+          "question": "[[What|Cuál]] [[is|es]] [[George's|de George]] [[job|trabajo]]?",
+          "options": ["[[He is an engineer|Es ingeniero]]", "[[He is a doctor|Es médico]]", "[[He is a nurse|Es enfermero]]"],
+          "correctAnswer": 0,
+          "explanation": "[[George|George]] [[says|dice]]: \"[[I|Yo]] [[am|soy]] [[an|un]] [[engineer|ingeniero]]\"."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-10/e53.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u10-e54",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Comprehension",
     "difficulty": "hard",
     "transcript": "[[How|Cuántos]] [[old|años]] [[is|tiene]] [[Lucy|Lucy]]?",
     "content": {
-      "title": "Pregunta 3",
-      "instructions": "Responde según el texto.",
-      "options": ["[[Ten|Diez]]", "[[Eight|Ocho]]", "[[Two|Dos]]"],
-      "correctAnswer": 1,
-      "explanation": "El texto dice: 'Ben is ten and Lucy is eight'."
+      "title": "[[Comprehension|Comprensión]]: [[Age|Edad]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "questions": [
+        {
+          "question": "[[How|Cuántos]] [[old|años]] [[is|tiene]] [[Lucy|Lucy]]?",
+          "options": ["[[Ten|Diez]]", "[[Two|Dos]]", "[[Eight|Ocho]]"],
+          "correctAnswer": 2,
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: \"[[Lucy|Lucy]] [[is|tiene]] [[eight|ocho]]\"."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-10/e54.mp3",
     "topicName": "Reading"
   },
 
@@ -987,67 +1004,84 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "id": "a1-u10-e55",
     "type": "reading",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Reading",
     "difficulty": "hard",
     "transcript": "[[Today|Hoy]] [[is|es]] [[Monday|lunes]]. [[The|La]] [[school|escuela]] [[is|está]] [[very|muy]] [[busy|concurrida]]. [[There|Hay]] [[are|hay]] [[forty-two|cuarenta y dos]] [[classrooms|aulas]] [[in|en]] [[this|este]] [[building|edificio]]. [[The|El]] [[principal's|del director]] [[office|oficina]] [[is|está]] [[on|en]] [[the|el]] [[second|segundo]] [[floor|piso]]. [[Mr.|Sr.]] [[White|White]] [[is|es]] [[the|el]] [[principal|director]]. [[He|Él]] [[is|es]] [[sixty-four|sesenta y cuatro]] [[years|años]] [[old|de edad]]. [[All|Todos]] [[the|los]] [[teachers|profesores]] [[are|están]] [[in|en]] [[their|sus]] [[rooms|habitaciones]]. [[The|Los]] [[students|estudiantes]] [[are|están]] [[happy|felices]] [[to|de]] [[learn|aprender]].",
     "content": {
-      "title": "Lectura: El Día Escolar",
-      "instructions": "Lee sobre la escuela.",
-      "text": "Today is Monday. The school is very busy. There are forty-two classrooms in this building. The principal's office is on the second floor. Mr. White is the principal. He is sixty-four years old. All the teachers are in their rooms. The students are happy to learn.",
-      "questions": []
+      "title": "[[Reading|Lectura]]: [[The|El]] [[School|Escolar]] [[Day|Día]]",
+      "instructions": "[[Read|Lee]] [[about|sobre]] [[the|la]] [[school|escuela]].",
+      "questions": [
+        {
+          "question": "[[Today|Hoy]] [[is|es]] [[Monday|lunes]]. [[The|La]] [[school|escuela]] [[is|está]] [[very|muy]] [[busy|concurrida]]. [[There|Hay]] [[are|hay]] [[forty-two|cuarenta y dos]] [[classrooms|aulas]] [[in|en]] [[this|este]] [[building|edificio]]. [[The|El]] [[principal's|del director]] [[office|oficina]] [[is|está]] [[on|en]] [[the|el]] [[second|segundo]] [[floor|piso]]. [[Mr.|Sr.]] [[White|White]] [[is|es]] [[the|el]] [[principal|director]]. [[He|Él]] [[is|es]] [[sixty-four|sesenta y cuatro]] [[years|años]] [[old|de edad]]. [[All|Todos]] [[the|los]] [[teachers|profesores]] [[are|están]] [[in|en]] [[their|sus]] [[rooms|habitaciones]]. [[The|Los]] [[students|estudiantes]] [[are|están]] [[happy|felices]] [[to|de]] [[learn|aprender]].",
+          "options": ["[[I|Yo]] [[have|he]] [[read|leído]] [[the|el]] [[text|texto]]."],
+          "correctAnswer": 0,
+          "explanation": "[[Click|Haz clic]] [[to|para]] [[continue|continuar]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-10/e55.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u10-e56",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Comprehension",
     "difficulty": "hard",
     "transcript": "[[How|Cuántas]] [[many|muchas]] [[classrooms|aulas]] [[are|hay]] [[there|allí]]?",
     "content": {
-      "title": "Pregunta 1",
-      "instructions": "Selecciona la respuesta correcta.",
-      "options": ["[[Twenty-four|24]]", "[[Forty-two|42]]", "[[Sixty-four|64]]"],
-      "correctAnswer": 1,
-      "explanation": "El texto dice: 'There are forty-two classrooms'."
+      "title": "[[Comprehension|Comprensión]]: [[Classrooms|Aulas]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "questions": [
+        {
+          "question": "[[How|Cuántas]] [[many|muchas]] [[classrooms|aulas]] [[are|hay]] [[there|allí]]?",
+          "options": ["[[Twenty-four|24]]", "[[Sixty-four|64]]", "[[Forty-two|42]]"],
+          "correctAnswer": 2,
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: \"[[There|Hay]] [[are|hay]] [[forty-two|cuarenta y dos]] [[classrooms|aulas]]\"."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-10/e56.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u10-e57",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Comprehension",
     "difficulty": "hard",
     "transcript": "[[Where|Dónde]] [[is|está]] [[the|la]] [[principal's|del director]] [[office|oficina]]?",
     "content": {
-      "title": "Pregunta 2",
-      "instructions": "Selecciona la respuesta correcta.",
-      "options": ["[[First floor|Primer piso]]", "[[Second floor|Segundo piso]]", "[[Third floor|Tercer piso]]"],
-      "correctAnswer": 1,
-      "explanation": "El texto menciona: 'on the second floor'."
+      "title": "[[Comprehension|Comprensión]]: [[Location|Ubicación]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "questions": [
+        {
+          "question": "[[Where|Dónde]] [[is|está]] [[the|la]] [[principal's|del director]] [[office|oficina]]?",
+          "options": ["[[Second floor|Segundo piso]]", "[[First floor|Primer piso]]", "[[Third floor|Tercer piso]]"],
+          "correctAnswer": 0,
+          "explanation": "[[The|El]] [[text|texto]] [[mentions|menciona]]: \"[[on|en]] [[the|el]] [[second|segundo]] [[floor|piso]]\"."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-10/e57.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u10-e58",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Comprehension",
     "difficulty": "hard",
     "transcript": "[[How|Qué edad]] [[old|tiene]] [[is|tiene]] [[Mr.|Sr.]] [[White|White]]?",
     "content": {
-      "title": "Pregunta 3",
-      "instructions": "Selecciona la respuesta correcta.",
-      "options": ["[[Sixty|60]]", "[[Sixty-four|64]]", "[[Forty-two|42]]"],
-      "correctAnswer": 1,
-      "explanation": "El texto dice: 'He is sixty-four years old'."
+      "title": "[[Comprehension|Comprensión]]: [[Principal's|del director]] [[Age|Edad]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "questions": [
+        {
+          "question": "[[How|Qué edad]] [[old|tiene]] [[is|tiene]] [[Mr.|Sr.]] [[White|White]]?",
+          "options": ["[[Sixty|60]]", "[[Forty-two|42]]", "[[Sixty-four|64]]"],
+          "correctAnswer": 2,
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: \"[[He|Él]] [[is|es]] [[sixty-four|sesenta y cuatro]] [[years|años]] [[old|de edad]]\"."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-10/e58.mp3",
     "topicName": "Reading"
   },
 
@@ -1056,33 +1090,42 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "id": "a1-u10-e59",
     "type": "reading",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Reading",
     "difficulty": "hard",
     "transcript": "[[My|Mi]] [[new|nuevo]] [[friend|amigo]] [[is|es]] [[Japanese|japonés]]. [[His|Su]] [[name|nombre]] [[is|es]] [[Kenji|Kenji]]. [[Kenji|Kenji]] [[is|es]] [[very|muy]] [[tall|alto]] [[and|y]] [[thin|delgado]]. [[He|Él]] [[is|tiene]] [[thirty-one|treinta y uno]] [[years|años]] [[old|de edad]]. [[He|Él]] [[is|es]] [[a|un]] [[police|policía]] [[officer|oficial]] [[in|en]] [[Tokyo|Tokio]]. [[His|Su]] [[favorite|favorito]] [[color|color]] [[is|es]] [[yellow|amarillo]]. [[We|Nosotros]] [[are|estamos]] [[very|muy]] [[good|buenos]] [[friends|amigos]].",
     "content": {
-      "title": "Lectura: Un Nuevo Amigo",
-      "instructions": "Lee sobre Kenji.",
-      "text": "My new friend is Japanese. His name is Kenji. Kenji is very tall and thin. He is thirty-one years old. He is a police officer in Tokyo. His favorite color is yellow. We are very good friends.",
-      "questions": []
+      "title": "[[Reading|Lectura]]: [[A|Un]] [[New|Nuevo]] [[Friend|Amigo]]",
+      "instructions": "[[Read|Lee]] [[about|sobre]] [[Kenji|Kenji]].",
+      "questions": [
+        {
+          "question": "[[My|Mi]] [[new|nuevo]] [[friend|amigo]] [[is|es]] [[Japanese|japonés]]. [[His|Su]] [[name|nombre]] [[is|es]] [[Kenji|Kenji]]. [[Kenji|Kenji]] [[is|es]] [[very|muy]] [[tall|alto]] [[and|y]] [[thin|delgado]]. [[He|Él]] [[is|tiene]] [[thirty-one|treinta y uno]] [[years|años]] [[old|de edad]]. [[He|Él]] [[is|es]] [[a|un]] [[police|policía]] [[officer|oficial]] [[in|en]] [[Tokyo|Tokio]]. [[His|Su]] [[favorite|favorito]] [[color|color]] [[is|es]] [[yellow|amarillo]]. [[We|Nosotros]] [[are|estamos]] [[very|muy]] [[good|buenos]] [[friends|amigos]].",
+          "options": ["[[I|Yo]] [[have|he]] [[read|leído]] [[the|el]] [[text|texto]]."],
+          "correctAnswer": 0,
+          "explanation": "[[Click|Haz clic]] [[to|para]] [[continue|continuar]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-10/e59.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u10-e60",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Comprehension",
     "difficulty": "hard",
     "transcript": "[[What|Cuál]] [[is|es]] [[Kenji's|de Kenji]] [[favorite|favorito]] [[color|color]]?",
     "content": {
-      "title": "Pregunta Final",
-      "instructions": "Responde según el texto.",
-      "options": ["[[Blue|Azul]]", "[[Yellow|Amarillo]]", "[[Green|Verde]]"],
-      "correctAnswer": 1,
-      "explanation": "El texto dice: 'His favorite color is yellow'."
+      "title": "[[Comprehension|Comprensión]]: [[Favorite|Favorito]] [[Color|Color]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "questions": [
+        {
+          "question": "[[What|Cuál]] [[is|es]] [[Kenji's|de Kenji]] [[favorite|favorito]] [[color|color]]?",
+          "options": ["[[Blue|Azul]]", "[[Green|Verde]]", "[[Yellow|Amarillo]]"],
+          "correctAnswer": 2,
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: \"[[His|Su]] [[favorite|favorito]] [[color|color]] [[is|es]] [[yellow|amarillo]]\"."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-10/e60.mp3",
     "topicName": "Reading"
   }
 ];

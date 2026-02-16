@@ -918,67 +918,84 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "id": "a1-u5-e51",
     "type": "reading",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Reading",
     "difficulty": "hard",
     "transcript": "[[This|Esta]] [[is|es]] [[a|una]] [[photo|foto]] [[of|de]] [[my|mi]] [[family|familia]]. [[My|Mi]] [[father's|del padre]] [[name|nombre]] [[is|es]] [[David|David]] [[and|y]] [[my|mi]] [[mother's|de la madre]] [[name|nombre]] [[is|es]] [[Maria|Maria]]. [[I|Yo]] [[have|tengo]] [[one|un]] [[brother|hermano]], [[his|su]] [[name|nombre]] [[is|es]] [[Paul|Paul]]. [[He|Él]] [[is|tiene]] [[twelve|doce]] [[years|años]] [[old|de edad]]. [[We|Nosotros]] [[live|vivimos]] [[in|en]] [[a|una]] [[small|pequeña]] [[house|casa]] [[in|en]] [[Madrid|Madrid]]. [[My|Mi]] [[parents|padres]] [[are|son]] [[very|muy]] [[nice|amables]]. [[My|Mi]] [[father|padre]] [[is|es]] [[a|un]] [[doctor|médico]] [[and|y]] [[my|mi]] [[mother|madre]] [[is|es]] [[an|una]] [[artist|artista]].",
     "content": {
-      "title": "Lectura: La Foto Familiar",
-      "instructions": "Lee sobre la familia de David y Maria.",
-      "text": "This is a photo of my family. My father's name is David and my mother's name is Maria. I have one brother, his name is Paul. He is twelve years old. We live in a small house in Madrid. My parents are very nice. My father is a doctor and my mother is an artist.",
-      "questions": []
+      "title": "[[Reading|Lectura]]: [[The|La]] [[Family|Foto]] [[Photo|Familiar]]",
+      "instructions": "[[Read|Lee]] [[about|sobre]] [[the|la]] [[family|familia]].",
+      "questions": [
+        {
+          "question": "[[This|Esta]] [[is|es]] [[a|una]] [[photo|foto]] [[of|de]] [[my|mi]] [[family|familia]]. [[My|Mi]] [[father's|del padre]] [[name|nombre]] [[is|es]] [[David|David]] [[and|y]] [[my|mi]] [[mother's|de la madre]] [[name|nombre]] [[is|es]] [[Maria|Maria]]. [[I|Yo]] [[have|tengo]] [[one|un]] [[brother|hermano]], [[his|su]] [[name|nombre]] [[is|es]] [[Paul|Paul]]. [[He|Él]] [[is|tiene]] [[twelve|doce]] [[years|años]] [[old|de edad]]. [[We|Nosotros]] [[live|vivimos]] [[in|en]] [[a|una]] [[small|pequeña]] [[house|casa]] [[in|en]] [[Madrid|Madrid]]. [[My|Mi]] [[parents|padres]] [[are|son]] [[very|muy]] [[nice|amables]]. [[My|Mi]] [[father|padre]] [[is|es]] [[a|un]] [[doctor|médico]] [[and|y]] [[my|mi]] [[mother|madre]] [[is|es]] [[an|una]] [[artist|artista]].",
+          "options": ["[[I|Yo]] [[have|he]] [[read|leído]] [[the|el]] [[text|texto]]."],
+          "correctAnswer": 0,
+          "explanation": "[[Click|Haz clic]] [[to|para]] [[continue|continuar]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-5/e51.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u5-e52",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Comprehension",
     "difficulty": "hard",
     "transcript": "[[What|Cuál]] [[is|es]] [[the|el]] [[father's|del padre]] [[name|nombre]]?",
     "content": {
-      "title": "Pregunta 1",
-      "instructions": "Responde según el texto.",
-      "options": ["[[Paul|Paul]]", "[[David|David]]", "[[Madrid|Madrid]]"],
-      "correctAnswer": 1,
-      "explanation": "El texto dice: 'My father's name is David'."
+      "title": "[[Comprehension|Comprensión]]: [[Names|Nombres]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "questions": [
+        {
+          "question": "[[What|Cuál]] [[is|es]] [[the|el]] [[father's|del padre]] [[name|nombre]]?",
+          "options": ["[[Paul|Paul]]", "[[Madrid|Madrid]]", "[[David|David]]"],
+          "correctAnswer": 2,
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: \"[[My|Mi]] [[father's|del padre]] [[name|nombre]] [[is|es]] [[David|David]]\"."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-5/e52.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u5-e53",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Comprehension",
     "difficulty": "hard",
     "transcript": "[[How|Qué edad]] [[old|tiene]] [[is|tiene]] [[Paul|Paul]]?",
     "content": {
-      "title": "Pregunta 2",
-      "instructions": "Responde según el texto.",
-      "options": ["[[Ten|Diez]]", "[[Twelve|Doce]]", "[[Fifteen|Quince]]"],
-      "correctAnswer": 1,
-      "explanation": "El texto menciona: 'He is twelve years old'."
+      "title": "[[Comprehension|Comprensión]]: [[Age|Edad]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "questions": [
+        {
+          "question": "[[How|Qué edad]] [[old|tiene]] [[is|tiene]] [[Paul|Paul]]?",
+          "options": ["[[Twelve|Doce]]", "[[Ten|Diez]]", "[[Fifteen|Quince]]"],
+          "correctAnswer": 0,
+          "explanation": "[[The|El]] [[text|texto]] [[mentions|menciona]]: \"[[He|Él]] [[is|tiene]] [[twelve|doce]] [[years|años]] [[old|de edad]]\"."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-5/e53.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u5-e54",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Comprehension",
     "difficulty": "hard",
     "transcript": "[[What|Cuál]] [[is|es]] [[Maria's|de Maria]] [[job|trabajo]]?",
     "content": {
-      "title": "Pregunta 3",
-      "instructions": "Responde según el texto.",
-      "options": ["[[Doctor|Médico]]", "[[Artist|Artista]]", "[[Teacher|Profesora]]"],
-      "correctAnswer": 1,
-      "explanation": "El texto dice: 'my mother is an artist'."
+      "title": "[[Comprehension|Comprensión]]: [[Jobs|Trabajos]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "questions": [
+        {
+          "question": "[[What|Cuál]] [[is|es]] [[Maria's|de Maria]] [[job|trabajo]]?",
+          "options": ["[[Doctor|Médico]]", "[[Artist|Artista]]", "[[Teacher|Profesora]]"],
+          "correctAnswer": 1,
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: \"[[my|mi]] [[mother|madre]] [[is|es]] [[an|una]] [[artist|artista]]\" ([[Maria]] [[is|es]] [[the|la]] [[mother|madre]])."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-5/e54.mp3",
     "topicName": "Reading"
   },
 
@@ -987,67 +1004,84 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "id": "a1-u5-e55",
     "type": "reading",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Reading",
     "difficulty": "hard",
     "transcript": "[[The|La]] [[Smith|Smith]] [[family's|de la familia]] [[house|casa]] [[is|está]] [[in|en]] [[New York|Nueva York]]. [[Mr.|Sr.]] [[Smith's|de Smith]] [[name|nombre]] [[is|es]] [[John|John]]. [[Mrs.|Sra.]] [[Smith's|de Smith]] [[name|nombre]] [[is|es]] [[Helen|Helen]]. [[They|Ellos]] [[have|tienen]] [[a|un]] [[son|hijo]] [[and|y]] [[a|una]] [[daughter|hija]]. [[Their|Su]] [[son's|de su hijo]] [[name|nombre]] [[is|es]] [[Toby|Toby]] [[and|y]] [[their|su]] [[daughter's|de su hija]] [[name|nombre]] [[is|es]] [[Sarah|Sarah]]. [[Toby|Toby]] [[is|tiene]] [[eight|ocho]] [[and|y]] [[Sarah|Sarah]] [[is|tiene]] [[five|cinco]]. [[They|Ellos]] [[have|tienen]] [[a|un]] [[big|grande]] [[garden|jardín]].",
     "content": {
-      "title": "Lectura: La Familia Smith",
-      "instructions": "Lee sobre la familia Smith.",
-      "text": "The Smith family's house is in New York. Mr. Smith's name is John. Mrs. Smith's name is Helen. They have a son and a daughter. Their son's name is Toby and their daughter's name is Sarah. Toby is eight and Sarah is five. They have a big garden.",
-      "questions": []
+      "title": "[[Reading|Lectura]]: [[The|La]] [[Smith|Familia]] [[Family|Smith]]",
+      "instructions": "[[Read|Lee]] [[about|sobre]] [[the|la]] [[Smith|Smith]] [[family|familia]].",
+      "questions": [
+        {
+          "question": "[[The|La]] [[Smith|Smith]] [[family's|de la familia]] [[house|casa]] [[is|está]] [[in|en]] [[New York|Nueva York]]. [[Mr.|Sr.]] [[Smith's|de Smith]] [[name|nombre]] [[is|es]] [[John|John]]. [[Mrs.|Sra.]] [[Smith's|de Smith]] [[name|nombre]] [[is|es]] [[Helen|Helen]]. [[They|Ellos]] [[have|tienen]] [[a|un]] [[son|hijo]] [[and|y]] [[a|una]] [[daughter|hija]]. [[Their|Su]] [[son's|de su hijo]] [[name|nombre]] [[is|es]] [[Toby|Toby]] [[and|y]] [[their|su]] [[daughter's|de su hija]] [[name|nombre]] [[is|es]] [[Sarah|Sarah]]. [[Toby|Toby]] [[is|tiene]] [[eight|ocho]] [[and|y]] [[Sarah|Sarah]] [[is|tiene]] [[five|cinco]]. [[They|Ellos]] [[have|tienen]] [[a|un]] [[big|grande]] [[garden|jardín]].",
+          "options": ["[[I|Yo]] [[have|he]] [[read|leído]] [[the|el]] [[text|texto]]."],
+          "correctAnswer": 0,
+          "explanation": "[[Click|Haz clic]] [[to|para]] [[continue|continuar]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-5/e55.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u5-e56",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Comprehension",
     "difficulty": "hard",
     "transcript": "[[Where|Dónde]] [[is|está]] [[the|la]] [[house|casa]]?",
     "content": {
-      "title": "Pregunta 1",
-      "instructions": "Selecciona la respuesta correcta.",
-      "options": ["[[London|Londres]]", "[[New York|Nueva York]]", "[[Paris|París]]"],
-      "correctAnswer": 1,
-      "explanation": "El texto indica que la casa está en Nueva York."
+      "title": "[[Comprehension|Comprensión]]: [[Location|Ubicación]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "questions": [
+        {
+          "question": "[[Where|Dónde]] [[is|está]] [[the|la]] [[house|casa]]?",
+          "options": ["[[London|Londres]]", "[[Paris|París]]", "[[New York|Nueva York]]"],
+          "correctAnswer": 2,
+          "explanation": "[[The|El]] [[text|texto]] [[indicates|indica]] [[that|que]] [[the|la]] [[house|casa]] [[is|está]] [[in|en]] [[New York|Nueva York]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-5/e56.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u5-e57",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Comprehension",
     "difficulty": "hard",
     "transcript": "[[How|Cuántos]] [[many|muchos]] [[children|hijos]] [[do|tienen]] [[John|John]] [[and|y]] [[Helen|Helen]] [[have|tener]]?",
     "content": {
-      "title": "Pregunta 2",
-      "instructions": "Selecciona la respuesta correcta.",
-      "options": ["[[One|Uno]]", "[[Two|Dos]]", "[[Three|Tres]]"],
-      "correctAnswer": 1,
-      "explanation": "Tienen un hijo (Toby) y una hija (Sarah)."
+      "title": "[[Comprehension|Comprensión]]: [[Children|Hijos]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "questions": [
+        {
+          "question": "[[How|Cuántos]] [[many|muchos]] [[children|hijos]] [[do|tienen]] [[John|John]] [[and|y]] [[Helen|Helen]] [[have|tener]]?",
+          "options": ["[[Two|Dos]]", "[[One|Uno]]", "[[Three|Tres]]"],
+          "correctAnswer": 0,
+          "explanation": "[[They|Ellos]] [[have|tienen]] [[a|un]] [[son|hijo]] ([[Toby|Toby]]) [[and|y]] [[a|una]] [[daughter|hija]] ([[Sarah|Sarah]])."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-5/e57.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u5-e58",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Comprehension",
     "difficulty": "hard",
     "transcript": "[[Who|Quién]] [[is|es]] [[the|la]] [[youngest|más joven]] [[child|hija]]?",
     "content": {
-      "title": "Pregunta 3",
-      "instructions": "Selecciona la respuesta correcta.",
-      "options": ["[[Toby|Toby]]", "[[Sarah|Sarah]]", "[[Helen|Helen]]"],
-      "correctAnswer": 1,
-      "explanation": "Sarah tiene 5 años y Toby tiene 8, por lo que Sarah es la menor."
+      "title": "[[Comprehension|Comprensión]]: [[Family|Familia]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "questions": [
+        {
+          "question": "[[Who|Quién]] [[is|es]] [[the|la]] [[youngest|más joven]] [[child|hija]]?",
+          "options": ["[[Toby|Toby]]", "[[Helen|Helen]]", "[[Sarah|Sarah]]"],
+          "correctAnswer": 2,
+          "explanation": "[[Sarah|Sarah]] [[is|tiene]] [[five|cinco]] [[and|y]] [[Toby|Toby]] [[is|tiene]] [[eight|ocho]], [[so|así que]] [[Sarah|Sarah]] [[is|es]] [[the|la]] [[youngest|más joven]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-5/e58.mp3",
     "topicName": "Reading"
   },
 
@@ -1056,33 +1090,42 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "id": "a1-u5-e59",
     "type": "reading",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Reading",
     "difficulty": "hard",
     "transcript": "[[My|Mi]] [[name|nombre]] [[is|es]] [[Laura|Laura]]. [[My|Mi]] [[brother's|de mi hermano]] [[name|nombre]] [[is|es]] [[Mike|Mike]]. [[Mike's|de Mike]] [[wife|esposa]] [[is|es]] [[called|llamada]] [[Linda|Linda]]. [[They|Ellos]] [[have|tienen]] [[a|una]] [[daughter|hija]], [[her|su]] [[name|nombre]] [[is|es]] [[Sophie|Sophie]]. [[Sophie|Sophie]] [[is|es]] [[my|mi]] [[niece|sobrina]]. [[I|Yo]] [[love|amo]] [[my|mi]] [[family|familia]] [[very|mucho]] [[much|mucho]].",
     "content": {
-      "title": "Lectura: El Hermano de Laura",
-      "instructions": "Lee el último texto.",
-      "text": "My name is Laura. My brother's name is Mike. Mike's wife is called Linda. They have a daughter, her name is Sophie. Sophie is my niece. I love my family very much.",
-      "questions": []
+      "title": "[[Reading|Lectura]]: [[Laura's|de Laura]] [[Brother|Hermano]]",
+      "instructions": "[[Read|Lee]] [[about|sobre]] [[Laura's|de Laura]] [[family|familia]].",
+      "questions": [
+        {
+          "question": "[[My|Mi]] [[name|nombre]] [[is|es]] [[Laura|Laura]]. [[My|Mi]] [[brother's|de mi hermano]] [[name|nombre]] [[is|es]] [[Mike|Mike]]. [[Mike's|de Mike]] [[wife|esposa]] [[is|es]] [[called|llamada]] [[Linda|Linda]]. [[They|Ellos]] [[have|tienen]] [[a|una]] [[daughter|hija]], [[her|su]] [[name|nombre]] [[is|es]] [[Sophie|Sophie]]. [[Sophie|Sophie]] [[is|es]] [[my|mi]] [[niece|sobrina]]. [[I|Yo]] [[love|amo]] [[my|mi]] [[family|familia]] [[very|mucho]] [[much|mucho]].",
+          "options": ["[[I|Yo]] [[have|he]] [[read|leído]] [[the|el]] [[text|texto]]."],
+          "correctAnswer": 0,
+          "explanation": "[[Click|Haz clic]] [[to|para]] [[continue|continuar]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-5/e59.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u5-e60",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Comprehension",
     "difficulty": "hard",
     "transcript": "[[What|Qué]] [[is|es]] [[the|la]] [[relationship|relación]] [[between|entre]] [[Laura|Laura]] [[and|y]] [[Sophie|Sophie]]?",
     "content": {
-      "title": "Pregunta Final",
-      "instructions": "Responde según el texto.",
-      "options": ["[[Sophie is Laura's daughter|Es su hija]]", "[[Sophie is Laura's niece|Es su sobrina]]", "[[Sophie is Laura's sister|Es su hermana]]"],
-      "correctAnswer": 1,
-      "explanation": "El texto dice: 'Sophie is my niece'."
+      "title": "[[Comprehension|Comprensión]]: [[Relationship|Relación]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "questions": [
+        {
+          "question": "[[What|Qué]] [[is|es]] [[the|la]] [[relationship|relación]] [[between|entre]] [[Laura|Laura]] [[and|y]] [[Sophie|Sophie]]?",
+          "options": ["[[Sophie is Laura's daughter|Es su hija]]", "[[Sophie is Laura's niece|Es su sobrina]]", "[[Sophie is Laura's sister|Es su hermana]]"],
+          "correctAnswer": 1,
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: \"[[Sophie|Sophie]] [[is|es]] [[my|mi]] [[niece|sobrina]]\"."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-5/e60.mp3",
     "topicName": "Reading"
   }
 ];

@@ -2,7 +2,7 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_3_EXERCISES: Exercise[] = [
   // ==========================================
-  // MODULE 1: EMOTIONS & STATES (1-10)
+  // VOCABULARY: EMOTIONS & STATES (1-10)
   // ==========================================
   {
     "id": "a1-u3-e1",
@@ -10,252 +10,209 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Emotions & States",
     "difficulty": "easy",
-    "transcript": "[[Happy|Feliz]]. [[Sad|Triste]]. [[Tired|Cansado]]. [[Hungry|Hambriento]]. [[Thirsty|Sediento]]. [[Angry|Enojado]]. [[Bored|Aburrido]]. [[Sick|Enfermo]]. [[Fine|Bien]]. [[Great|Genial]].",
+    "transcript": "[[Happy|Feliz]]. [[Sad|Triste]]. [[Tired|Cansado]]. [[Hungry|Hambriento]]. [[Thirsty|Sediento]]. [[Angry|Enojado]]. [[Bored|Aburrido]]. [[Sick|Enfermo]]. [[Fine|Bien]]. [[Great|Genial]]. [[Scared|Asustado]]. [[Surprised|Sorprendido]].",
     "content": {
-      "title": "Vocabulario: Emociones y Estados",
-      "instructions": "Aprende cómo expresar cómo te sientes.",
+      "title": "[[Vocabulary|Vocabulario]]: [[Emotions|Emociones]] [[and|y]] [[States|Estados]]",
+      "instructions": "[[Learn|Aprende]] [[how|cómo]] [[to|a]] [[express|expresar]] [[how|cómo]] [[you|te]] [[feel|sientes]].",
       "items": [
-        { "front": "[[Happy|Feliz]]", "back": "Feliz" },
-        { "front": "[[Sad|Triste]]", "back": "Triste" },
-        { "front": "[[Tired|Cansado]]", "back": "Cansado" },
-        { "front": "[[Hungry|Hambriento]]", "back": "Hambriento" },
-        { "front": "[[Thirsty|Sediento]]", "back": "Sediento" },
-        { "front": "[[Angry|Enojado]]", "back": "Enojado" },
-        { "front": "[[Bored|Aburrido]]", "back": "Aburrido" },
-        { "front": "[[Sick|Enfermo]]", "back": "Enfermo" },
-        { "front": "[[Fine|Bien]]", "back": "Bien" },
-        { "front": "[[Great|Genial]]", "back": "Genial" }
+        { "front": "[[Happy|Feliz]]", "back": "Happy" },
+        { "front": "[[Sad|Triste]]", "back": "Sad" },
+        { "front": "[[Tired|Cansado]]", "back": "Tired" },
+        { "front": "[[Hungry|Hambriento]]", "back": "Hungry" },
+        { "front": "[[Thirsty|Sediento]]", "back": "Thirsty" },
+        { "front": "[[Angry|Enojado]]", "back": "Angry" },
+        { "front": "[[Bored|Aburrido]]", "back": "Bored" },
+        { "front": "[[Sick|Enfermo]]", "back": "Sick" },
+        { "front": "[[Scared|Asustado]]", "back": "Scared" },
+        { "front": "[[Surprised|Sorprendido]]", "back": "Surprised" }
       ]
     },
-    "audioUrl": "audio/a1/unit-3/e1.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u3-e2",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "To Be: Negative",
+    "topic": "States",
     "difficulty": "easy",
-    "transcript": "[[I|Yo]] [[am|soy]] [[not|no]] [[sad|triste]].",
+    "transcript": "[[I|Yo]] [[need|necesito]] [[water|agua]] [[because|porque]] [[I|yo]] [[am|estoy]] [[thirsty|sediento]].",
     "content": {
-      "title": "Negación con 'I'",
-      "instructions": "Elige la forma negativa correcta para 'I'.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] (_____) [[sad|triste]].",
-          "options": ["[[isn't|no es]]", "[[am not|no soy]]", "[[aren't|no somos]]"],
-          "correctAnswer": 1,
-          "explanation": "Con 'I' usamos 'am not'."
-        }
-      ]
+      "title": "[[How|Cómo]] [[do|te]] [[you|sientes]] [[feel|]]?",
+      "instructions": "[[Select|Selecciona]] [[the|el]] [[correct|correcto]] [[state|estado]].",
+      "options": ["[[hungry|hambriento]]", "[[thirsty|sediento]]", "[[happy|feliz]]"],
+      "correctAnswer": 1,
+      "explanation": "[[If|Si]] [[you|tú]] [[need|necesitas]] [[water|agua]], [[you|tú]] [[are|estás]] [[thirsty|sediento]]."
     },
-    "audioUrl": "audio/a1/unit-3/e2.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u3-e3",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "To Be: Negative",
+    "topic": "States",
     "difficulty": "easy",
-    "transcript": "[[She|Ella]] [[isn't|no está]] [[tired|cansada]].",
+    "transcript": "[[It|Es]] [[is|es]] [[lunch|la hora de comer]] [[time|]] [[and|y]] [[I|yo]] [[am|tengo]] [[hungry|hambre]].",
     "content": {
-      "title": "Negación con 'She'",
-      "instructions": "Elige la forma negativa contraída para 'She'.",
-      "questions": [
-        {
-          "question": "[[She|Ella]] (_____) [[tired|cansada]].",
-          "options": ["[[aren't|no están]]", "[[am not|no soy]]", "[[isn't|no está]]"],
-          "correctAnswer": 2,
-          "explanation": "Con 'He/She/It' usamos 'isn't' (is not)."
-        }
-      ]
+      "title": "[[Meal|Comida]] [[Time|Tiempo]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[state|estado]].",
+      "options": ["[[hungry|hambre]]", "[[bored|aburrido]]", "[[sad|triste]]"],
+      "correctAnswer": 0,
+      "explanation": "[[At|A]] [[lunch|la comida]] [[time|hora]], [[you|tú]] [[feel|sientes]] [[hungry|hambre]]."
     },
-    "audioUrl": "audio/a1/unit-3/e3.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u3-e4",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "To Be: Negative",
+    "topic": "Emotions",
     "difficulty": "easy",
-    "transcript": "[[They|Ellos]] [[aren't|no están]] [[hungry|hambrientos]].",
+    "transcript": "[[Today|Hoy]] [[is|es]] [[my|mi]] [[birthday|cumpleaños]] [[and|y]] [[I|yo]] [[am|estoy]] [[very|muy]] [[happy|feliz]].",
     "content": {
-      "title": "Negación con 'They'",
-      "instructions": "Elige la forma negativa para 'They'.",
-      "questions": [
-        {
-          "question": "[[They|Ellos]] (_____) [[hungry|hambrientos]].",
-          "options": ["[[aren't|no están]]", "[[isn't|no está]]", "[[am not|no soy]]"],
-          "correctAnswer": 0,
-          "explanation": "Con 'You/We/They' usamos 'aren't' (are not)."
-        }
-      ]
+      "title": "[[Celebration|Celebración]]",
+      "instructions": "[[How|Cómo]] [[is|está]] [[the|la]] [[person|persona]]?",
+      "options": ["[[sad|triste]]", "[[angry|enojada]]", "[[happy|feliz]]"],
+      "correctAnswer": 2,
+      "explanation": "[[Birthdays|Cumpleaños]] [[usually|normalmente]] [[make|hacen]] [[people|personas]] [[happy|feliz]]."
     },
-    "audioUrl": "audio/a1/unit-3/e4.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u3-e5",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "To Be: Negative",
+    "topic": "States",
     "difficulty": "easy",
-    "transcript": "[[He|Él]] [[is|está]] [[not|no]] [[angry|enojado]].",
+    "transcript": "[[It|Es]] [[is|es]] [[midnight|medianoche]] [[and|y]] [[I|yo]] [[am|estoy]] [[tired|cansado]].",
     "content": {
-      "title": "Formando Negaciones",
-      "instructions": "Ordena las palabras para decir que él no está enojado.",
-      "correctSentence": "[[He|Él]] [[is|está]] [[not|no]] [[angry|enojado]].",
-      "words": ["[[angry|enojado]].", "[[not|no]]", "[[is|está]]", "[[He|Él]]"],
-      "explanation": "Estructura: Sujeto + am/is/are + not + adjetivo."
+      "title": "[[Night|Noche]]",
+      "instructions": "[[Identify|Identifica]] [[the|el]] [[state|estado]].",
+      "options": ["[[tired|cansado]]", "[[great|genial]]", "[[surprised|sorprendido]]"],
+      "correctAnswer": 0,
+      "explanation": "[[At|A]] [[midnight|medianoche]], [[you|tú]] [[are|estás]] [[tired|cansado]]."
     },
-    "audioUrl": "audio/a1/unit-3/e5.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u3-e6",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "To Be: Questions",
+    "topic": "States",
     "difficulty": "easy",
-    "transcript": "[[Are|Estás]] [[you|tú]] [[happy|feliz]]?",
+    "transcript": "[[I|Yo]] [[have|tengo]] [[the|la]] [[flu|gripe]] [[and|y]] [[I|yo]] [[am|estoy]] [[sick|enfermo]].",
     "content": {
-      "title": "Preguntas con 'You'",
-      "instructions": "Elige el verbo correcto para iniciar la pregunta.",
-      "questions": [
-        {
-          "question": "(_____) [[you|tú]] [[happy|feliz]]?",
-          "options": ["[[Is|Es]]", "[[Am|Soy]]", "[[Are|Estás]]"],
-          "correctAnswer": 2,
-          "explanation": "En preguntas, 'Are' precede a 'you'."
-        }
-      ]
+      "title": "[[Health|Salud]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]].",
+      "options": ["[[sick|enfermo]]", "[[fine|bien]]", "[[bored|aburrido]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Having|Teniendo]] [[the|la]] [[flu|gripe]] [[means|significa]] [[you|tú]] [[are|estás]] [[sick|enfermo]]."
     },
-    "audioUrl": "audio/a1/unit-3/e6.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u3-e7",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "To Be: Questions",
+    "topic": "Emotions",
     "difficulty": "easy",
-    "transcript": "[[Is|Está]] [[he|él]] [[sick|enfermo]]?",
+    "transcript": "[[The|La]] [[movie|película]] [[is|está]] [[not|no]] [[good|buena]] [[and|y]] [[I|yo]] [[am|estoy]] [[bored|aburrido]].",
     "content": {
-      "title": "Preguntas con 'He'",
-      "instructions": "Elige el verbo correcto para preguntar sobre él.",
-      "questions": [
-        {
-          "question": "(_____) [[he|él]] [[sick|enfermo]]?",
-          "options": ["[[Is|Está]]", "[[Are|Están]]", "[[Am|Soy]]"],
-          "correctAnswer": 0,
-          "explanation": "En preguntas, 'Is' precede a 'he/she/it'."
-        }
-      ]
+      "title": "[[Boredom|Aburrimiento]]",
+      "instructions": "[[How|Cómo]] [[does|se]] [[the|el]] [[viewer|espectador]] [[feel|siente]]?",
+      "options": ["[[excited|emocionado]]", "[[bored|aburrido]]", "[[angry|enojado]]"],
+      "correctAnswer": 1,
+      "explanation": "[[Bad|Malas]] [[movies|películas]] [[make|hacen]] [[us|nos]] [[bored|aburridos]]."
     },
-    "audioUrl": "audio/a1/unit-3/e7.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u3-e8",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "To Be: Questions",
+    "topic": "Emotions",
     "difficulty": "easy",
-    "transcript": "[[Are|Están]] [[they|ellos]] [[bored|aburridos]]?",
+    "transcript": "[[My|Mi]] [[toy|juguete]] [[is|está]] [[broken|roto]] [[and|y]] [[I|yo]] [[am|estoy]] [[sad|triste]].",
     "content": {
-      "title": "Formando Preguntas",
-      "instructions": "Ordena las palabras para preguntar si están aburridos.",
-      "correctSentence": "[[Are|Están]] [[they|ellos]] [[bored|aburridos]]?",
-      "words": ["[[bored|aburridos]]?", "[[they|ellos]]", "[[Are|Están]]"],
-      "explanation": "Para preguntar, invertimos el orden: Verbo + Sujeto."
+      "title": "[[Feelings|Sentimientos]]",
+      "instructions": "[[Select|Selecciona]] [[the|el]] [[feeling|sentimiento]].",
+      "options": ["[[happy|feliz]]", "[[sad|triste]]", "[[great|genial]]"],
+      "correctAnswer": 1,
+      "explanation": "[[A|Un]] [[broken|roto]] [[toy|juguete]] [[is|es]] [[sad|triste]]."
     },
-    "audioUrl": "audio/a1/unit-3/e8.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u3-e9",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Short Answers",
+    "topic": "Emotions",
     "difficulty": "easy",
-    "transcript": "[[Yes|Sí]], [[she|ella]] [[is|está]].",
+    "transcript": "[[A|Un]] [[big|grande]] [[dog|perro]] [[is|está]] [[barking|ladrando]] [[and|y]] [[I|yo]] [[am|estoy]] [[scared|asustado]].",
     "content": {
-      "title": "Respuestas Cortas Afirmativas",
-      "instructions": "Responde: Is she hungry?",
-      "questions": [
-        {
-          "question": "[[Is|Está]] [[she|ella]] [[hungry|hambrienta]]?",
-          "options": ["[[Yes, she am.|Sí.]]", "[[Yes, she is.|Sí, lo está.]]", "[[Yes, she are.|Sí.]]"],
-          "correctAnswer": 1,
-          "explanation": "La respuesta corta usa el mismo verbo que la pregunta: 'is'."
-        }
-      ]
+      "title": "[[Fear|Miedo]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[emotion|emoción]].",
+      "options": ["[[scared|asustado]]", "[[bored|aburrido]]", "[[happy|feliz]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Barking|Ladrido]] [[dogs|perros]] [[can|pueden]] [[be|ser]] [[scary|aterradores]]."
     },
-    "audioUrl": "audio/a1/unit-3/e9.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u3-e10",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Short Answers",
+    "topic": "Emotions",
     "difficulty": "easy",
-    "transcript": "[[No|No]], [[I|yo]] [[am|soy]] [[not|no]].",
+    "transcript": "[[I|Yo]] [[am|estoy]] [[angry|enojado]] [[because|porque]] [[the|el]] [[bus|autobús]] [[is|está]] [[late|tarde]].",
     "content": {
-      "title": "Respuestas Cortas Negativas",
-      "instructions": "Responde: Are you thirsty?",
-      "questions": [
-        {
-          "question": "[[Are|Tienes]] [[you|tú]] [[thirsty|sed]]?",
-          "options": ["[[No, I'm not.|No, no tengo.]]", "[[No, I isn't.|No.]]", "[[No, I aren't.|No.]]"],
-          "correctAnswer": 0,
-          "explanation": "Para 'you', respondes con 'I am not' (I'm not)."
-        }
-      ]
+      "title": "[[Frustration|Frustración]]",
+      "instructions": "[[How|Cómo]] [[does|se]] [[he|él]] [[feel|siente]]?",
+      "options": ["[[happy|feliz]]", "[[angry|enojado]]", "[[thirsty|sediento]]"],
+      "correctAnswer": 1,
+      "explanation": "[[Delays|Retrasos]] [[make|hacen]] [[people|personas]] [[angry|enojado]]."
     },
-    "audioUrl": "audio/a1/unit-3/e10.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
+  // ==========================================
+  // GRAMMAR: VERB TO BE - NEGATIVE (11-20)
+  // ==========================================
   {
     "id": "a1-u3-e11",
-    "type": "sentence-building",
+    "type": "flashcard",
     "level": "A1",
-    "topic": "Emotions & States",
+    "topic": "To Be: Negative",
     "difficulty": "easy",
-    "transcript": "[[I|Yo]] [[am|estoy]] [[very|muy]] [[happy|feliz]].",
+    "transcript": "[[I am not|Yo no soy/estoy]]. [[You are not / aren't|Tú no eres/estás]]. [[He is not / isn't|Él no es/está]]. [[She is not / isn't|Ella no es/está]]. [[It is not / isn't|Eso no es/está]]. [[We are not / aren't|Nosotros no somos/estamos]]. [[They are not / aren't|Ellos no son/están]].",
     "content": {
-      "title": "Estoy muy feliz",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[I|Yo]] [[am|estoy]] [[very|muy]] [[happy|feliz]].",
-      "words": ["[[happy|feliz]].", "[[very|muy]]", "[[am|estoy]]", "[[I|Yo]]"],
-      "explanation": "Very se coloca antes del adjetivo para enfatizar."
+      "title": "[[Grammar|Gramática]]: [[To|a]] [[Be|Ser/Estar]] [[Negative|Negativo]]",
+      "instructions": "[[Learn|Aprende]] [[the|la]] [[negative|negativa]] [[form|forma]] [[with|con]] [[contractions|contracciones]].",
+      "items": [
+        { "front": "[[I am not|Yo no soy]]", "back": "I'm not" },
+        { "front": "[[You aren't|Tú no eres]]", "back": "You aren't" },
+        { "front": "[[He isn't|Él no es]]", "back": "He isn't" },
+        { "front": "[[She isn't|Ella no es]]", "back": "She isn't" },
+        { "front": "[[It isn't|Eso no es]]", "back": "It isn't" },
+        { "front": "[[We aren't|Nosotros no somos]]", "back": "We aren't" },
+        { "front": "[[They aren't|Ellos no son]]", "back": "They aren't" }
+      ]
     },
-    "audioUrl": "audio/a1/unit-3/e11.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u3-e12",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Emotions & States",
+    "topic": "To Be: Negative",
     "difficulty": "easy",
-    "transcript": "[[He|Él]] [[needs|necesita]] [[water|agua]] [[because|porque]] [[he|él]] [[is|está]] [[thirsty|sediento]].",
+    "transcript": "[[I|Yo]] [[am|soy]] [[not|no]] [[tired|cansado]].",
     "content": {
-      "title": "Sediento",
-      "instructions": "Elige el estado lógico.",
-      "questions": [
-        {
-          "question": "[[He|Él]] [[needs|necesita]] [[water|agua]] [[because|porque]] [[he|él]] [[is|está]] (_____) .",
-          "options": ["[[hungry|hambriento]]", "[[thirsty|sediento]]", "[[bored|aburrido]]"],
-          "correctAnswer": 1,
-          "explanation": "Si necesitas agua, estás sediento (thirsty)."
-        }
-      ]
+      "title": "[[Negative|Negación]] [[with|con]] '[[I|Yo]]'",
+      "instructions": "[[Select|Selecciona]] [[the|la]] [[negative|negativa]] [[form|forma]].",
+      "options": ["[[isn't|no es]]", "[[aren't|no somos]]", "[[am not|no soy]]"],
+      "correctAnswer": 2,
+      "explanation": "[[With|Con]] '[[I|Yo]]' [[always|siempre]] [[use|usamos]] '[[am not|no soy]]'."
     },
-    "audioUrl": "audio/a1/unit-3/e12.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u3-e13",
@@ -263,198 +220,167 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "To Be: Negative",
     "difficulty": "easy",
-    "transcript": "[[We|Nosotros]] [[aren't|no estamos]] [[tired|cansados]] [[today|hoy]].",
+    "transcript": "[[He|Él]] [[isn't|no está]] [[sick|enfermo]].",
     "content": {
-      "title": "No estamos cansados",
-      "instructions": "Elige la forma negativa para 'We'.",
-      "questions": [
-        {
-          "question": "[[We|Nosotros]] (_____) [[tired|cansados]] [[today|hoy]].",
-          "options": ["[[isn't|no está]]", "[[am not|no soy]]", "[[aren't|no estamos]]"],
-          "correctAnswer": 2,
-          "explanation": "Con 'We' usamos 'aren't'."
-        }
-      ]
+      "title": "[[Negative|Negación]] [[with|con]] '[[He|Él]]'",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[contraction|contracción]].",
+      "options": ["[[isn't|no está]]", "[[aren't|no está]]", "[[am not|no está]]"],
+      "correctAnswer": 0,
+      "explanation": "'[[isn't|no está]]' [[is|es]] [[the|la]] [[contraction|contracción]] [[of|de]] '[[is not|no está]]'."
     },
-    "audioUrl": "audio/a1/unit-3/e13.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u3-e14",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "To Be: Questions",
+    "topic": "To Be: Negative",
     "difficulty": "easy",
-    "transcript": "[[Is|Está]] [[the|el]] [[baby|bebé]] [[sad|triste]]?",
+    "transcript": "[[We|Nosotros]] [[aren't|no estamos]] [[bored|aburridos]].",
     "content": {
-      "title": "¿Está el bebé triste?",
-      "instructions": "Ordena la pregunta sobre el bebé.",
-      "correctSentence": "[[Is|Está]] [[the|el]] [[baby|bebé]] [[sad|triste]]?",
-      "words": ["[[sad|triste]]?", "[[baby|bebé]]", "[[the|el]]", "[[Is|Está]]"],
-      "explanation": "The baby = it/he/she, usamos 'Is'."
+      "title": "[[Negative|Negación]] [[Plural|Plural]]",
+      "instructions": "[[Identify|Identifica]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+      "options": ["[[isn't|no estamos]]", "[[aren't|no estamos]]", "[[am not|no estoy]]"],
+      "correctAnswer": 1,
+      "explanation": "[[With|Con]] '[[We|Nosotros]]' [[use|usamos]] '[[aren't|no estamos]]'."
     },
-    "audioUrl": "audio/a1/unit-3/e14.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u3-e15",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Short Answers",
-    "difficulty": "easy",
-    "transcript": "[[No|No]], [[they|ellos]] [[aren't|no lo están]].",
+    "topic": "To Be: Negative",
+    "difficulty": "medium",
+    "transcript": "[[She|Ella]] [[is|está]] [[not|no]] [[sad|triste]].",
     "content": {
-      "title": "Respuesta Negativa: They",
-      "instructions": "Responde: Are they bored?",
-      "questions": [
-        {
-          "question": "[[Are|Están]] [[they|ellos]] [[bored|aburridos]]?",
-          "options": ["[[No, they isn't.|No.]]", "[[No, they aren't.|No, no lo están.]]", "[[No, they am not.|No.]]"],
-          "correctAnswer": 1,
-          "explanation": "La respuesta corta para 'they' es 'aren't'."
-        }
-      ]
+      "title": "[[Build|Construye]] [[the|la]] [[Sentence|Oración]]",
+      "instructions": "[[Order|Ordena]] [[to|para]] [[deny|negar]].",
+      "correctSentence": "[[She|Ella]] [[is|es/está]] [[not|no]] [[sad|triste]].",
+      "words": ["[[sad|triste]].", "[[not|no]]", "[[is|es/está]]", "[[She|Ella]]"],
+      "explanation": "[[Subject|Sujeto]] + [[Verb|Verbo]] + '[[not|no]]' + [[Adjective|Adjetivo]]."
     },
-    "audioUrl": "audio/a1/unit-3/e15.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u3-e16",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Emotions & States",
-    "difficulty": "easy",
-    "transcript": "[[I|Yo]] [[am|estoy]] [[sick|enfermo]]. [[I|Yo]] [[need|necesito]] [[a|un]] [[doctor|médico]].",
-    "content": {
-      "title": "Necesito un médico",
-      "instructions": "Elige el estado lógico.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] [[am|estoy]] (_____) . [[I|Yo]] [[need|necesito]] [[a|un]] [[doctor|médico]].",
-          "options": ["[[happy|feliz]]", "[[sick|enfermo]]", "[[great|genial]]"],
-          "correctAnswer": 1,
-          "explanation": "Si necesitas un médico, estás enfermo (sick)."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-3/e16.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u3-e17",
     "type": "sentence-building",
     "level": "A1",
     "topic": "To Be: Negative",
-    "difficulty": "easy",
-    "transcript": "[[You|Tú]] [[are|estás]] [[not|no]] [[bored|aburrido]].",
+    "difficulty": "medium",
+    "transcript": "[[They|Ellos]] [[are|están]] [[not|no]] [[hungry|hambrientos]].",
     "content": {
-      "title": "No estás aburrido",
-      "instructions": "Ordena la frase negativa.",
-      "correctSentence": "[[You|Tú]] [[are|estás]] [[not|no]] [[bored|aburrido]].",
-      "words": ["[[bored|aburrido]].", "[[not|no]]", "[[are|estás]]", "[[You|Tú]]"],
-      "explanation": "You + are + not."
+      "title": "[[Build|Construye]] [[the|la]] [[Sentence|Oración]]",
+      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]].",
+      "correctSentence": "[[They|Ellos/Ellas]] [[are|son/están]] [[not|no]] [[hungry|hambriento/s]].",
+      "words": ["[[hungry|hambriento/s]].", "[[not|no]]", "[[are|son/están]]", "[[They|Ellos/Ellas]]"],
+      "explanation": "[[Full|Completa]] [[negative|negativa]] [[form|forma]]."
     },
-    "audioUrl": "audio/a1/unit-3/e17.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u3-e17",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "To Be: Negative",
+    "difficulty": "medium",
+    "transcript": "[[It|Eso]] [[isn't|no es]] [[hot|caliente]].",
+    "content": {
+      "title": "[[Object|Objeto]] [[Negative|Negativo]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+      "options": ["[[isn't|no es]]", "[[aren't|no es]]", "[[am not|no es]]"],
+      "correctAnswer": 0,
+      "explanation": "[[With|Con]] '[[It|Eso]]' [[use|usamos]] '[[isn't|no es]]'."
+    },
     "topicName": "Grammar"
   },
   {
     "id": "a1-u3-e18",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "To Be: Questions",
-    "difficulty": "easy",
-    "transcript": "[[Am|Soy]] [[I|yo]] [[late|tarde]]?",
+    "topic": "To Be: Negative",
+    "difficulty": "medium",
+    "transcript": "[[You|Tú]] [[are|estás]] [[not|no]] [[late|tarde]].",
     "content": {
-      "title": "¿Llego tarde?",
-      "instructions": "Elige el verbo para preguntar sobre uno mismo.",
-      "questions": [
-        {
-          "question": "(_____) [[I|yo]] [[late|tarde]]?",
-          "options": ["[[Am|Soy]]", "[[Is|Es]]", "[[Are|Son]]"],
-          "correctAnswer": 0,
-          "explanation": "Con 'I' usamos 'Am'."
-        }
-      ]
+      "title": "[[Build|Construye]] [[the|la]] [[Sentence|Oración]]",
+      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]].",
+      "correctSentence": "[[You|Tú/Usted]] [[are|eres/estás]] [[not|no]] [[late|tarde]].",
+      "words": ["[[late|tarde]].", "[[not|no]]", "[[are|eres/estás]]", "[[You|Tú/Usted]]"],
+      "explanation": "[[You|Tú]] + [[are|estás]] + [[not|no]] + [[late|tarde]]."
     },
-    "audioUrl": "audio/a1/unit-3/e18.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u3-e19",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Short Answers",
-    "difficulty": "easy",
-    "transcript": "[[Yes|Sí]], [[he|él]] [[is|está]].",
+    "topic": "To Be: Negative",
+    "difficulty": "medium",
+    "transcript": "[[I|Yo]] [[am|soy]] [[not|no]] [[a|un]] [[doctor|médico]].",
     "content": {
-      "title": "Respuesta Afirmativa: He",
-      "instructions": "Responde: Is he tired?",
-      "questions": [
-        {
-          "question": "[[Is|Está]] [[he|él]] [[tired|cansado]]?",
-          "options": ["[[Yes, he is.|Sí, lo está.]]", "[[Yes, he are.|Sí.]]", "[[Yes, he am.|Sí.]]"],
-          "correctAnswer": 0,
-          "explanation": "Respuesta corta afirmativa para 'he' es 'is'."
-        }
-      ]
+      "title": "[[Identity|Identidad]]",
+      "instructions": "[[Select|Selecciona]] [[the|el]] [[verb|verbo]].",
+      "options": ["[[is not|no es]]", "[[am not|no soy]]", "[[are not|no somos]]"],
+      "correctAnswer": 1,
+      "explanation": "[[I am not|Yo no soy]]."
     },
-    "audioUrl": "audio/a1/unit-3/e19.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u3-e20",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Emotions & States",
-    "difficulty": "easy",
-    "transcript": "[[It|Eso]] [[is|está]] [[fine|bien]].",
+    "topic": "To Be: Negative",
+    "difficulty": "medium",
+    "transcript": "[[We|Nosotros]] [[are|estamos]] [[not|no]] [[surprised|sorprendidos]].",
     "content": {
-      "title": "Está bien",
-      "instructions": "Ordena la oración para decir que algo está bien.",
-      "correctSentence": "[[It|Eso]] [[is|está]] [[fine|bien]].",
-      "words": ["[[fine|bien]].", "[[is|está]]", "[[It|Eso]]"],
-      "explanation": "It + is + fine."
+      "title": "[[Build|Construye]] [[the|la]] [[Sentence|Oración]]",
+      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]].",
+      "correctSentence": "[[We|Nosotros/as]] [[are|somos/estamos]] [[not|no]] [[surprised|sorprendido/s]].",
+      "words": ["[[surprised|sorprendido/s]].", "[[not|no]]", "[[are|somos/estamos]]", "[[We|Nosotros/as]]"],
+      "explanation": "[[Plural|Plural]] [[negative|negativa]]."
     },
-    "audioUrl": "audio/a1/unit-3/e20.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
+  // ==========================================
+  // GRAMMAR: VERB TO BE - QUESTIONS (21-30)
+  // ==========================================
   {
     "id": "a1-u3-e21",
-    "type": "multiple-choice",
+    "type": "flashcard",
     "level": "A1",
-    "topic": "Emotions & States",
-    "difficulty": "medium",
-    "transcript": "[[She|Ella]] [[needs|necesita]] [[food|comida]] [[because|porque]] [[she|ella]] [[is|está]] [[hungry|hambrienta]].",
+    "topic": "To Be: Questions",
+    "difficulty": "easy",
+    "transcript": "[[Am I|¿Soy/estoy yo?]]. [[Are you|¿Eres/estás tú?]]. [[Is he|¿Es/está él?]]. [[Is she|¿Es/está ella?]]. [[Is it|¿Es/está eso?]]. [[Are we|¿Somos/estamos nosotros?]]. [[Are they|¿Son/están ellos?]].",
     "content": {
-      "title": "Hambrienta",
-      "instructions": "Elige el estado lógico.",
-      "questions": [
-        {
-          "question": "[[She|Ella]] [[needs|necesita]] [[food|comida]] [[because|porque]] [[she|ella]] [[is|está]] (_____) .",
-          "options": ["[[thirsty|sedienta]]", "[[bored|aburrida]]", "[[hungry|hambrienta]]"],
-          "correctAnswer": 2,
-          "explanation": "Si necesitas comida, estás hambriento (hungry)."
-        }
+      "title": "[[Grammar|Gramática]]: [[To|a]] [[Be|Ser/Estar]] [[Questions|Preguntas]]",
+      "instructions": "[[Learn|Aprende]] [[how|cómo]] [[to|a]] [[invert|invertir]] [[the|el]] [[verb|verbo]].",
+      "items": [
+        { "front": "[[Am I...?|¿Soy yo...?]]", "back": "Am I...?" },
+        { "front": "[[Are you...?|¿Eres tú...?]]", "back": "Are you...?" },
+        { "front": "[[Is he...?|¿Es él...?]]", "back": "Is he...?" },
+        { "front": "[[Is she...?|¿Es ella...?]]", "back": "Is she...?" },
+        { "front": "[[Is it...?|¿Es eso...?]]", "back": "Is it...?" },
+        { "front": "[[Are we...?|¿Somos nosotros...?]]", "back": "Are we...?" },
+        { "front": "[[Are they...?|¿Son ellos...?]]", "back": "Are they...?" }
       ]
     },
-    "audioUrl": "audio/a1/unit-3/e21.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u3-e22",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "To Be: Negative",
-    "difficulty": "medium",
-    "transcript": "[[The|El]] [[coffee|café]] [[isn't|no está]] [[hot|caliente]].",
+    "topic": "To Be: Questions",
+    "difficulty": "easy",
+    "transcript": "[[Are|¿Estás]] [[you|tú]] [[happy|feliz]]?",
     "content": {
-      "title": "Café no caliente",
-      "instructions": "Ordena la frase negativa.",
-      "correctSentence": "[[The|El]] [[coffee|café]] [[isn't|no está]] [[hot|caliente]].",
-      "words": ["[[hot|caliente]].", "[[isn't|no está]]", "[[coffee|café]]", "[[The|El]]"],
-      "explanation": "The coffee = it, usamos 'isn't'."
+      "title": "[[Asking|Preguntando]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[verb|verbo]] [[order|orden]].",
+      "options": ["[[You are|tú estás]]", "[[Is you|¿estás tú?]]", "[[Are you|¿estás tú?]]"],
+      "correctAnswer": 2,
+      "explanation": "[[In|En]] [[questions|preguntas]], [[the|el]] [[verb|verbo]] [[comes|viene]] [[first|primero]]."
     },
-    "audioUrl": "audio/a1/unit-3/e22.mp3",
     "topicName": "Grammar"
   },
   {
@@ -462,82 +388,63 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "To Be: Questions",
-    "difficulty": "medium",
-    "transcript": "[[How|Cómo]] [[are|estás]] [[you|tú]] [[today|hoy]]?",
+    "difficulty": "easy",
+    "transcript": "[[Is|¿Está]] [[he|él]] [[tired|cansado]]?",
     "content": {
-      "title": "¿Cómo estás hoy?",
-      "instructions": "Completa la pregunta típica.",
-      "questions": [
-        {
-          "question": "[[How|Cómo]] (_____) [[you|tú]] [[today|hoy]]?",
-          "options": ["[[is|está]]", "[[are|estás]]", "[[am|estoy]]"],
-          "correctAnswer": 1,
-          "explanation": "Pregunta de bienestar: How are you?"
-        }
-      ]
+      "title": "[[Asking|Preguntando]]",
+      "instructions": "[[Identify|Identifica]] [[the|la]] [[question|pregunta]].",
+      "options": ["[[Is he|¿Está él?]]", "[[Are he|¿Está él?]]", "[[Am he|¿Está él?]]"],
+      "correctAnswer": 0,
+      "explanation": "[[With|Con]] '[[he|él]]' [[use|usamos]] '[[Is|Está]]' [[at|al]] [[the|el]] [[beginning|principio]]."
     },
-    "audioUrl": "audio/a1/unit-3/e23.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u3-e24",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Short Answers",
-    "difficulty": "medium",
-    "transcript": "[[No|No]], [[we|nosotros]] [[aren't|no lo estamos]].",
+    "topic": "To Be: Questions",
+    "difficulty": "easy",
+    "transcript": "[[Are|¿Están]] [[they|ellos]] [[angry|enojados]]?",
     "content": {
-      "title": "Respuesta Negativa: We",
-      "instructions": "Responde: Are you and Peter sick?",
-      "questions": [
-        {
-          "question": "[[Are|Estáis]] [[you|tú]] [[and|y]] [[Peter|Peter]] [[sick|enfermos]]?",
-          "options": ["[[No, we isn't.|No.]]", "[[No, we aren't.|No, no lo estamos.]]", "[[No, we am not.|No.]]"],
-          "correctAnswer": 1,
-          "explanation": "You and Peter = We. La respuesta negativa es 'aren't'."
-        }
-      ]
+      "title": "[[Plural|Plural]] [[Question|Pregunta]]",
+      "instructions": "[[Select|Selecciona]] [[the|la]] [[correct|correcta]].",
+      "options": ["[[Is they|¿Están?]]", "[[Are they|¿Están?]]", "[[Am they|¿Están?]]"],
+      "correctAnswer": 1,
+      "explanation": "[[With|Con]] '[[they|ellos]]' [[use|usamos]] '[[Are|Están]]'."
     },
-    "audioUrl": "audio/a1/unit-3/e24.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u3-e25",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Emotions & States",
+    "topic": "To Be: Questions",
     "difficulty": "medium",
-    "transcript": "[[Why|Por qué]] [[is|está]] [[she|ella]] [[angry|enojada]]?",
+    "transcript": "[[Are|¿Estamos]] [[we|nosotros]] [[late|tarde]]?",
     "content": {
-      "title": "¿Por qué está enojada?",
-      "instructions": "Ordena la pregunta con 'Why'.",
-      "correctSentence": "[[Why|Por qué]] [[is|está]] [[she|ella]] [[angry|enojada]]?",
-      "words": ["[[angry|enojada]]?", "[[she|ella]]", "[[is|está]]", "[[Why|Por qué]]"],
-      "explanation": "Why + is + subject + adjective?"
+      "title": "[[Build|Construye]] [[the|la]] [[Question|Pregunta]]",
+      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]].",
+      "correctSentence": "[[Are|Somos/Estamos]] [[we|nosotros/as]] [[late|tarde]]?",
+      "words": ["[[late|tarde]]?", "[[we|nosotros/as]]", "[[Are|Somos/Estamos]]"],
+      "explanation": "[[Verb|Verbo]] + [[Subject|Sujeto]] + [[Complement|Complemento]]."
     },
-    "audioUrl": "audio/a1/unit-3/e25.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u3-e26",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "To Be: Negative",
+    "topic": "To Be: Questions",
     "difficulty": "medium",
-    "transcript": "[[I|Yo]] [[am|estoy]] [[happy|feliz]], [[but|pero]] [[he|él]] [[isn't|no lo está]].",
+    "transcript": "[[Is|¿Es]] [[she|ella]] [[your|tu]] [[sister|hermana]]?",
     "content": {
-      "title": "Pero él no",
-      "instructions": "Elige la forma correcta.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] [[am|estoy]] [[happy|feliz]], [[but|pero]] [[he|él]] (_____) .",
-          "options": ["[[am not|no soy]]", "[[isn't|no lo está]]", "[[aren't|no son]]"],
-          "correctAnswer": 1,
-          "explanation": "He + isn't."
-        }
-      ]
+      "title": "[[Build|Construye]] [[the|la]] [[Question|Pregunta]]",
+      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]].",
+      "correctSentence": "[[Is|Es/Está]] [[she|ella]] [[your|tu/su]] [[sister|hermana]]?",
+      "words": ["[[sister|hermana]]?", "[[your|tu/su]]", "[[she|ella]]", "[[Is|Es/Está]]"],
+      "explanation": "[[Is|Es]] [[she|ella]] [[your|tu]] [[sister|hermana]]?"
     },
-    "audioUrl": "audio/a1/unit-3/e26.mp3",
     "topicName": "Grammar"
   },
   {
@@ -546,676 +453,609 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "To Be: Questions",
     "difficulty": "medium",
-    "transcript": "[[Are|Están]] [[the|los]] [[children|niños]] [[tired|cansados]]?",
+    "transcript": "[[Is|¿Está]] [[it|esto]] [[cold|frío]]?",
     "content": {
-      "title": "Los niños cansados",
-      "instructions": "Elige el verbo para el plural 'children'.",
-      "questions": [
-        {
-          "question": "(_____) [[the|los]] [[children|niños]] [[tired|cansados]]?",
-          "options": ["[[Is|Está]]", "[[Are|Están]]", "[[Am|Soy]]"],
-          "correctAnswer": 1,
-          "explanation": "Children es plural (they), usamos 'Are'."
-        }
-      ]
+      "title": "[[Checking|Verificando]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[question|pregunta]] [[form|forma]].",
+      "options": ["[[Is it|¿Está esto?]]", "[[It is|esto está]]", "[[Are it|¿está esto?]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Invert|Invierte]] [[for|para]] [[the|la]] [[question|pregunta]]."
     },
-    "audioUrl": "audio/a1/unit-3/e27.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u3-e28",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Short Answers",
+    "topic": "To Be: Questions",
     "difficulty": "medium",
-    "transcript": "[[Yes|Sí]], [[we|nosotros]] [[are|lo estamos]].",
+    "transcript": "[[Am|¿Estoy]] [[I|yo]] [[in|en]] [[the|el]] [[list|lista]]?",
     "content": {
-      "title": "Formando Respuesta Corta",
-      "instructions": "Ordena la respuesta: Are you and Maria happy?",
-      "correctSentence": "[[Yes|Sí]], [[we|nosotros]] [[are|lo estamos]].",
-      "words": ["[[are|lo estamos]].", "[[we|nosotros]]", "[[Yes|Sí]],"],
-      "explanation": "Sujeto + verbo."
+      "title": "[[Build|Construye]] [[the|la]] [[Question|Pregunta]]",
+      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]].",
+      "correctSentence": "[[Am|Soy/Estoy]] [[I|yo]] [[in|en]] [[the|el/la]] [[list|lista]]?",
+      "words": ["[[list|lista]]?", "[[the|el/la]]", "[[in|en]]", "[[I|yo]]", "[[Am|Soy/Estoy]]"],
+      "explanation": "[[Am|Estoy]] [[I|yo]] [[in|en]] [[the|la]] [[list|lista]]?"
     },
-    "audioUrl": "audio/a1/unit-3/e28.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u3-e29",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Emotions & States",
+    "topic": "To Be: Questions",
     "difficulty": "medium",
-    "transcript": "[[This|Esta]] [[movie|película]] [[is|es]] [[long|larga]]. [[I|Yo]] [[am|estoy]] [[bored|aburrido]].",
+    "transcript": "[[Are|¿Estás]] [[you|tú]] [[ready|listo]]?",
     "content": {
-      "title": "Aburrido",
-      "instructions": "Elige el estado lógico.",
-      "questions": [
-        {
-          "question": "[[This|Esta]] [[movie|película]] [[is|es]] [[long|larga]]. [[I|Yo]] [[am|estoy]] (_____) .",
-          "options": ["[[great|genial]]", "[[angry|enojado]]", "[[bored|aburrido]]"],
-          "correctAnswer": 2,
-          "explanation": "Si algo es largo y pesado, puedes estar aburrido (bored)."
-        }
-      ]
+      "title": "[[Ready|Listo]]?",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[verb|verbo]].",
+      "options": ["[[Am|estoy]]", "[[Is|está]]", "[[Are|estás]]"],
+      "correctAnswer": 2,
+      "explanation": "[[Are|Estás]] [[you|tú]] [[ready|listo]]?"
     },
-    "audioUrl": "audio/a1/unit-3/e29.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u3-e30",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "To Be: Negative",
-    "difficulty": "medium",
-    "transcript": "[[My|Mi]] [[mother|madre]] [[is|está]] [[not|no]] [[thirsty|sedienta]].",
-    "content": {
-      "title": "Mi madre no tiene sed",
-      "instructions": "Ordena la frase negativa.",
-      "correctSentence": "[[My|Mi]] [[mother|madre]] [[is|está]] [[not|no]] [[thirsty|sedienta]].",
-      "words": ["[[thirsty|sedienta]].", "[[not|no]]", "[[is|está]]", "[[mother|madre]]", "[[My|Mi]]"],
-      "explanation": "Mother = she, usamos 'is not'."
-    },
-    "audioUrl": "audio/a1/unit-3/e30.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u3-e31",
-    "type": "multiple-choice",
-    "level": "A1",
     "topic": "To Be: Questions",
     "difficulty": "medium",
-    "transcript": "[[Where|Dónde]] [[is|está]] [[your|tu]] [[father|padre]]?",
+    "transcript": "[[Is|¿Está]] [[the|el]] [[food|comida]] [[hot|caliente]]?",
     "content": {
-      "title": "¿Dónde está tu padre?",
-      "instructions": "Completa la pregunta con 'Where'.",
-      "questions": [
-        {
-          "question": "[[Where|Dónde]] (_____) [[your|tu]] [[father|padre]]?",
-          "options": ["[[are|están]]", "[[is|está]]", "[[am|estoy]]"],
-          "correctAnswer": 1,
-          "explanation": "Father = he, usamos 'is'."
-        }
+      "title": "[[Build|Construye]] [[the|la]] [[Question|Pregunta]]",
+      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]].",
+      "correctSentence": "[[Is|Es/Está]] [[the|el/la]] [[food|comida]] [[hot|caliente]]?",
+      "words": ["[[hot|caliente]]?", "[[food|comida]]", "[[the|el/la]]", "[[Is|Es/Está]]"],
+      "explanation": "[[The|La]] [[food|comida]] = [[It|Eso]], [[so|así que]] [[use|usamos]] '[[Is|Está]]'."
+    },
+    "topicName": "Grammar"
+  },
+  // ==========================================
+  // GRAMMAR: SHORT ANSWERS (31-40)
+  // ==========================================
+  {
+    "id": "a1-u3-e31",
+    "type": "flashcard",
+    "level": "A1",
+    "topic": "Short Answers",
+    "difficulty": "easy",
+    "transcript": "[[Yes, I am|Sí, lo soy/estoy]]. [[No, I'm not|No, no lo soy/estoy]]. [[Yes, he is|Sí, lo es/está]]. [[No, he isn't|No, no lo es/está]]. [[Yes, we are|Sí, lo somos/estamos]]. [[No, we aren't|No, no lo somos/estamos]].",
+    "content": {
+      "title": "[[Grammar|Gramática]]: [[Short|Cortas]] [[Answers|Respuestas]]",
+      "instructions": "[[Learn|Aprende]] [[to|a]] [[answer|responder]] [[quickly|rápidamente]].",
+      "items": [
+        { "front": "[[Are you...?|¿Eres...?]]", "back": "[[Yes, I am / No, I'm not|Sí, soy / No, no soy]]" },
+        { "front": "[[Is he...?|¿Es él...?]]", "back": "[[Yes, he is / No, he isn't|Sí, es / No, no es]]" },
+        { "front": "[[Is she...?|¿Es ella...?]]", "back": "[[Yes, she is / No, she isn't|Sí, es / No, no es]]" },
+        { "front": "[[Is it...?|¿Es eso...?]]", "back": "[[Yes, it is / No, it isn't|Sí, es / No, no es]]" },
+        { "front": "[[Are we...?|¿Somos...?]]", "back": "[[Yes, we are / No, we aren't|Sí, somos / No, no somos]]" },
+        { "front": "[[Are they...?|¿Son ellos...?]]", "back": "[[Yes, they are / No, they aren't|Sí, son / No, no son]]" }
       ]
     },
-    "audioUrl": "audio/a1/unit-3/e31.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u3-e32",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
     "topic": "Short Answers",
-    "difficulty": "medium",
-    "transcript": "[[No|No]], [[it|eso]] [[isn't|no lo es]].",
+    "difficulty": "easy",
+    "transcript": "[[Are|¿Estás]] [[you|tú]] [[happy|feliz]]? [[Yes|Sí]], [[I|yo]] [[am|lo estoy]].",
     "content": {
-      "title": "Respuesta Negativa: It",
-      "instructions": "Ordena la respuesta: Is the water cold?",
-      "correctSentence": "[[No|No]], [[it|eso]] [[isn't|no lo es]].",
-      "words": ["[[isn't|no lo es]].", "[[it|eso]]", "[[No|No]],"],
-      "explanation": "It + isn't."
+      "title": "[[Answering|Respondiendo]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[answer|respuesta]].",
+      "options": ["[[Yes, I is|Sí.]]", "[[Yes, I am|Sí, lo estoy.]]", "[[Yes, I are|Sí.]]"],
+      "correctAnswer": 1,
+      "explanation": "[[When|Cuando]] [[asked|preguntan]] '[[you|tú]]', [[answer|responde]] [[with|con]] '[[I am|yo soy]]'."
     },
-    "audioUrl": "audio/a1/unit-3/e32.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u3-e33",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Emotions & States",
-    "difficulty": "medium",
-    "transcript": "[[I|Yo]] [[am|estoy]] [[tired|cansado]] [[after|después de]] [[work|el trabajo]].",
+    "topic": "Short Answers",
+    "difficulty": "easy",
+    "transcript": "[[Is|¿Está]] [[she|ella]] [[sick|enferma]]? [[No|No]], [[she|ella]] [[isn't|no lo está]].",
     "content": {
-      "title": "Cansado del trabajo",
-      "instructions": "Elige la palabra para 'cansado'.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] [[am|estoy]] (_____) [[after|después de]] [[work|el trabajo]].",
-          "options": ["[[tired|cansado]]", "[[happy|feliz]]", "[[sick|enfermo]]"],
-          "correctAnswer": 0,
-          "explanation": "Tired significa cansado."
-        }
-      ]
+      "title": "[[Answering|Respondiendo]]",
+      "instructions": "[[Select|Selecciona]] [[the|la]] [[negative|negativa]] [[form|forma]].",
+      "options": ["[[No, she isn't|No, no está.]]", "[[No, she aren't|No.]]", "[[No, she am not|No.]]"],
+      "correctAnswer": 0,
+      "explanation": "[[With|Con]] '[[she|ella]]' [[use|usamos]] '[[isn't|no está]]'."
     },
-    "audioUrl": "audio/a1/unit-3/e33.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u3-e34",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "To Be: Negative",
-    "difficulty": "medium",
-    "transcript": "[[We|Nosotros]] [[are|estamos]] [[not|no]] [[hungry|hambrientos]].",
+    "topic": "Short Answers",
+    "difficulty": "easy",
+    "transcript": "[[Are|¿Están]] [[they|ellos]] [[bored|aburridos]]? [[Yes|Sí]], [[they|ellos]] [[are|lo están]].",
     "content": {
-      "title": "No tenemos hambre",
-      "instructions": "Ordena la frase negativa completa.",
-      "correctSentence": "[[We|Nosotros]] [[are|estamos]] [[not|no]] [[hungry|hambrientos]].",
-      "words": ["[[hungry|hambrientos]].", "[[not|no]]", "[[are|estamos]]", "[[We|Nosotros]]"],
-      "explanation": "We + are + not."
+      "title": "[[Answering|Respondiendo]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[affirmative|afirmativa]].",
+      "options": ["[[Yes, they is|Sí.]]", "[[Yes, they are|Sí, lo están.]]", "[[Yes, they am|Sí.]]"],
+      "correctAnswer": 1,
+      "explanation": "[[Use|Usa]] '[[are|son]]' [[for|para]] '[[they|ellos]]'."
     },
-    "audioUrl": "audio/a1/unit-3/e34.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u3-e35",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "To Be: Questions",
+    "topic": "Short Answers",
     "difficulty": "medium",
-    "transcript": "[[Are|Son]] [[they|ellos]] [[your|tus]] [[friends|amigos]]?",
+    "transcript": "[[Is|¿Es]] [[it|esto]] [[new|nuevo]]? [[Yes|Sí]], [[it|esto]] [[is|lo es]].",
     "content": {
-      "title": "¿Son tus amigos?",
-      "instructions": "Elige el verbo para preguntar por 'friends'.",
-      "questions": [
-        {
-          "question": "(_____) [[they|ellos]] [[your|tus]] [[friends|amigos]]?",
-          "options": ["[[Are|Son]]", "[[Is|Es]]", "[[Am|Soy]]"],
-          "correctAnswer": 0,
-          "explanation": "They = plural, usamos 'Are'."
-        }
-      ]
+      "title": "[[Answering|Respondiendo]]",
+      "instructions": "[[How|Cómo]] [[do|se]] [[you|tú]] [[answer|respondes]] [[about|sobre]] [[an|un]] [[object|objeto]]?",
+      "options": ["[[Yes, it is|Sí, lo es.]]", "[[Yes, he is|Sí.]]", "[[Yes, it am|Sí.]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Use|Usa]] '[[it|esto]]' [[for|para]] [[objects|objetos]]."
     },
-    "audioUrl": "audio/a1/unit-3/e35.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u3-e36",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
     "topic": "Short Answers",
     "difficulty": "medium",
-    "transcript": "[[Yes|Sí]], [[I|yo]] [[am|lo soy]].",
+    "transcript": "[[Are|¿Estáis]] [[you|vosotros]] [[ready|listos]]? [[Yes|Sí]], [[we|nosotros]] [[are|lo estamos]].",
     "content": {
-      "title": "Respuesta Corta: I",
-      "instructions": "Ordena la respuesta: Are you a student?",
-      "correctSentence": "[[Yes|Sí]], [[I|yo]] [[am|lo soy]].",
-      "words": ["[[am|lo soy]].", "[[I|yo]]", "[[Yes|Sí]],"],
-      "explanation": "Nunca usamos contracción en respuestas cortas afirmativas (no 'Yes, I'm')."
+      "title": "[[Answering|Respondiendo]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[plural|plural]] [[answer|respuesta]].",
+      "options": ["[[Yes, we am|Sí.]]", "[[Yes, we is|Sí.]]", "[[Yes, we are|Sí, lo estamos.]]"],
+      "correctAnswer": 2,
+      "explanation": "'[[You|Vosotros]]' [[plural|plural]] [[is|se]] [[answered|responde]] [[with|con]] '[[we|nosotros]]'."
     },
-    "audioUrl": "audio/a1/unit-3/e36.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u3-e37",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Emotions & States",
+    "topic": "Short Answers",
     "difficulty": "medium",
-    "transcript": "[[She|Ella]] [[is|está]] [[angry|enojada]] [[with|con]] [[me|migo]].",
+    "transcript": "[[Is|¿Está]] [[Paul|Paul]] [[angry|enojado]]? [[No|No]], [[he|él]] [[isn't|no lo está]].",
     "content": {
-      "title": "Enojada",
-      "instructions": "Elige la palabra para 'enojada'.",
-      "questions": [
-        {
-          "question": "[[She|Ella]] [[is|está]] (_____) [[with|con]] [[me|migo]].",
-          "options": ["[[sad|triste]]", "[[angry|enojada]]", "[[bored|aburrida]]"],
-          "correctAnswer": 1,
-          "explanation": "Angry significa enojado o enfadado."
-        }
-      ]
+      "title": "[[Answering|Respondiendo]]",
+      "instructions": "[[Select|Selecciona]] [[the|la]] [[correct|correcta]] [[negation|negación]].",
+      "options": ["[[No, he am not|No.]]", "[[No, he isn't|No, no está.]]", "[[No, he aren't|No.]]"],
+      "correctAnswer": 1,
+      "explanation": "[[Paul|Paul]] = [[he|él]]."
     },
-    "audioUrl": "audio/a1/unit-3/e37.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u3-e38",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "To Be: Negative",
+    "topic": "Short Answers",
     "difficulty": "medium",
-    "transcript": "[[They|Ellos]] [[are|están]] [[not|no]] [[fine|bien]].",
+    "transcript": "[[Am|¿Estoy]] [[I|yo]] [[late|tarde]]? [[No|No]], [[you|tú]] [[aren't|no lo estás]].",
     "content": {
-      "title": "No están bien",
-      "instructions": "Ordena la frase negativa.",
-      "correctSentence": "[[They|Ellos]] [[are|están]] [[not|no]] [[fine|bien]].",
-      "words": ["[[fine|bien]].", "[[not|no]]", "[[are|estamos]]", "[[They|Ellos]]"],
-      "explanation": "They + are + not."
+      "title": "[[Answering|Respondiendo]]",
+      "instructions": "[[What|Qué]] [[is|es]] [[the|la]] [[answer|respuesta]] [[to|a]] '[[Am I...?|¿Soy yo...?]]'?",
+      "options": ["[[No, I'm not|No.]]", "[[No, you aren't|No, no lo estás.]]", "[[No, you isn't|No.]]"],
+      "correctAnswer": 1,
+      "explanation": "[[If|Si]] [[someone|alguien]] [[asks|pregunta]] '[[Am I...?|¿Soy yo...?]]', [[you|tú]] [[answer|respondes]] '[[You are...|Tú eres...]]'."
     },
-    "audioUrl": "audio/a1/unit-3/e38.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u3-e39",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "To Be: Questions",
+    "topic": "Short Answers",
     "difficulty": "medium",
-    "transcript": "[[Is|Está]] [[your|tu]] [[sister|hermana]] [[happy|feliz]]?",
+    "transcript": "[[Is|¿Es]] [[the|el]] [[exam|examen]] [[hard|difícil]]? [[No|No]], [[it|esto]] [[isn't|no lo es]].",
     "content": {
-      "title": "¿Está tu hermana feliz?",
-      "instructions": "Completa la pregunta.",
-      "questions": [
-        {
-          "question": "(_____) [[your|tu]] [[sister|hermana]] [[happy|feliz]]?",
-          "options": ["[[Is|Está]]", "[[Are|Están]]", "[[Am|Soy]]"],
-          "correctAnswer": 0,
-          "explanation": "Sister = she, usamos 'Is'."
-        }
-      ]
+      "title": "[[Answering|Respondiendo]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[negation|negación]].",
+      "options": ["[[No, it isn't|No, no lo es.]]", "[[No, he isn't|No.]]", "[[No, she isn't|No.]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The|El]] [[exam|examen]] = [[it|esto]]."
     },
-    "audioUrl": "audio/a1/unit-3/e39.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u3-e40",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Emotions & States",
+    "topic": "Short Answers",
     "difficulty": "medium",
-    "transcript": "[[I|Yo]] [[am|estoy]] [[sick|enfermo]] [[today|hoy]].",
+    "transcript": "[[Are|¿Están]] [[Paul|Paul]] [[and|y]] [[Sarah|Sarah]] [[here|aquí]]? [[Yes|Sí]], [[they|ellos]] [[are|lo están]].",
     "content": {
-      "title": "Hoy estoy enfermo",
-      "instructions": "Ordena la frase.",
-      "correctSentence": "[[I|Yo]] [[am|estoy]] [[sick|enfermo]] [[today|hoy]].",
-      "words": ["[[today|hoy]].", "[[sick|enfermo]]", "[[am|estoy]]", "[[I|Yo]]"],
-      "explanation": "Sujeto + verbo + adjetivo + tiempo."
+      "title": "[[Answering|Respondiendo]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[affirmative|afirmativa]].",
+      "options": ["[[Yes, they are|Sí, lo están.]]", "[[Yes, we are|Sí.]]", "[[Yes, they is|Sí.]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Two|Dos]] [[people|personas]] = [[they|ellos]]."
     },
-    "audioUrl": "audio/a1/unit-3/e40.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
-
   // ==========================================
-  // MODULE 1: READING COMPREHENSION (41-60)
-  // 5 Passages x (1 Text + 3 Questions) = 20 slides
+  // REVIEW & PRODUCTION (41-50)
   // ==========================================
-
-  // PASSAGE 1: HOW IS EVERYONE?
   {
     "id": "a1-u3-e41",
-    "type": "reading",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Phase",
+    "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[Hello|Hola]] [[Peter|Peter]]. [[How|Cómo]] [[are|estás]] [[you|tú]]? [[I|Yo]] [[am|estoy]] [[fine|bien]], [[thanks|gracias]]. [[But|Pero]] [[my|mi]] [[sister|hermana]], [[Anna|Anna]], [[is|está]] [[sick|enferma]]. [[She|Ella]] [[is|está]] [[at|en]] [[home|casa]]. [[My|Mis]] [[parents|padres]] [[aren't|no están]] [[happy|felices]] [[because|porque]] [[they|ellos]] [[are|están]] [[tired|cansados]]. [[It|Esto]] [[is|es]] [[a|un]] [[long|largo]] [[day|día]].",
+    "transcript": "[[I|Yo]] [[am|estoy]] [[tired|cansado]] [[but|pero]] [[I|yo]] [[am|estoy]] [[happy|feliz]].",
     "content": {
-      "title": "Lectura: ¿Cómo está todo el mundo?",
-      "instructions": "Lee sobre Peter y su familia.",
-      "questions": []
+      "title": "[[Review|Repaso]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[combination|combinación]].",
+      "options": ["[[tired / happy|cansado / feliz]]", "[[hungry / thirsty|hambriento / sediento]]", "[[sick / angry|enfermo / enojado]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Tired|Cansado]] [[and|y]] [[happy|feliz]]."
     },
-    "audioUrl": "audio/a1/unit-3/e41.mp3",
-    "topicName": "Reading"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u3-e42",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Reading Question",
+    "topic": "Review",
     "difficulty": "medium",
+    "transcript": "[[The|El]] [[opposite|opuesto]] [[of|de]] [[happy|feliz]] [[is|es]] [[sad|triste]].",
     "content": {
-      "title": "Pregunta de Lectura",
-      "instructions": "Responde según el texto.",
-      "questions": [
-        {
-          "question": "[[Is|Está]] [[Anna|Anna]] [[at|en]] [[the|el]] [[office|trabajo]]?",
-          "options": ["[[Yes, she is.|Sí.]]", "[[No, she isn't.|No, no lo está.]]", "[[Yes, she are.|Sí.]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice que está en casa (at home) porque está enferma."
-        }
-      ]
+      "title": "[[Opposites|Opuestos]]",
+      "instructions": "[[Type|Escribe]] [[the|el]] [[opposite|opuesto]] [[of|de]] '[[happy|feliz]]'.",
+      "text": "[[The|El]] [[opposite|opuesto]] [[of|de]] [[happy|feliz]] [[is|es]] (_____).",
+      "answers": ["sad"],
+      "explanation": "[[Sad|Triste]]."
     },
-    "audioUrl": "audio/a1/unit-3/e42.mp3",
-    "topicName": "Reading"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u3-e43",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Reading Question",
+    "topic": "Review",
     "difficulty": "medium",
+    "transcript": "[[She|Ella]] [[is|está]] [[not|no]] [[angry|enojada]].",
     "content": {
-      "title": "Pregunta de Lectura",
-      "instructions": "Responde según el texto.",
-      "questions": [
-        {
-          "question": "[[Are|Están]] [[the|los]] [[parents|padres]] [[happy|felices]]?",
-          "options": ["[[No, they aren't.|No, no lo están.]]", "[[Yes, they are.|Sí.]]", "[[No, they isn't.|No.]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice 'parents aren't happy'."
-        }
-      ]
+      "title": "[[Negative|Negación]]",
+      "instructions": "[[Type|Escribe]] [[the|la]] [[negation|negación]] [[contracted|contraída]].",
+      "text": "[[She|Ella]] (_____) [[angry|enojada]].",
+      "answers": ["isn't"],
+      "explanation": "[[Contraction|Contracción]] [[of|de]] '[[is not|no está]]'."
     },
-    "audioUrl": "audio/a1/unit-3/e43.mp3",
-    "topicName": "Reading"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u3-e44",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Reading Question",
+    "topic": "Review",
     "difficulty": "medium",
+    "transcript": "[[Are|¿Están]] [[they|ellos]] [[tired|cansados]]?",
     "content": {
-      "title": "Pregunta de Lectura",
-      "instructions": "Responde según el texto.",
-      "questions": [
-        {
-          "question": "[[Why|Por qué]] [[are|están]] [[they|ellos]] [[tired|cansados]]?",
-          "options": ["[[Because it is a long day.|Porque es un día largo.]]", "[[Because they are bored.|Porque están aburridos.]]", "[[Because they are sick.|Porque están enfermos.]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto menciona 'tired because it is a long day'."
-        }
-      ]
+      "title": "[[Question|Pregunta]]",
+      "instructions": "[[Type|Escribe]] [[the|el]] [[missing|faltante]] [[verb|verbo]].",
+      "text": "(_____) [[they|ellos]] [[tired|cansados]]?",
+      "answers": ["Are"],
+      "explanation": "[[Question|Pregunta]] [[form|forma]] [[for|para]] '[[they|ellos]]'."
     },
-    "audioUrl": "audio/a1/unit-3/e44.mp3",
-    "topicName": "Reading"
+    "topicName": "Grammar"
   },
-
-  // PASSAGE 2: LUNCH TIME
   {
     "id": "a1-u3-e45",
-    "type": "reading",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Reading Phase",
+    "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[It|Es]] [[is|es]] [[one|una]] [[o'clock|en punto]]. [[I|Yo]] [[am|estoy]] [[very|muy]] [[hungry|hambriento]]. [[But|Pero]] [[I|yo]] [[am|estoy]] [[not|no]] [[thirsty|sediento]]. [[My|Mi]] [[friend|amigo]] [[Tom|Tom]] [[is|está]] [[bored|aburrido]] [[because|porque]] [[the|la]] [[food|comida]] [[isn't|no está]] [[ready|lista]]. [[Are|Estás]] [[you|tú]] [[hungry|hambriento]] [[too|también]]?",
+    "transcript": "[[No|No]], [[I|yo]] [[am|soy]] [[not|no]].",
     "content": {
-      "title": "Lectura: Hora de comer",
-      "instructions": "Lee sobre el hambre y Tom.",
-      "questions": []
+      "title": "[[Short|Corta]] [[Answer|Respuesta]]",
+      "instructions": "[[Complete|Completa]] [[the|la]] [[answer|respuesta]].",
+      "text": "[[No|No]], [[I|yo]] (_____).",
+      "answers": ["am not", "'m not"],
+      "explanation": "[[Negative|Negativa]] [[short|corta]] [[answer|respuesta]] [[for|para]] '[[I|Yo]]'."
     },
-    "audioUrl": "audio/a1/unit-3/e45.mp3",
-    "topicName": "Reading"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u3-e46",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Reading Question",
+    "topic": "Review",
     "difficulty": "medium",
+    "transcript": "[[Yes|Sí]], [[we|nosotros]] [[are|lo somos]].",
     "content": {
-      "title": "Pregunta de Lectura",
-      "instructions": "Responde según el texto.",
-      "questions": [
-        {
-          "question": "[[Is|Está]] [[Tom|Tom]] [[happy|feliz]]?",
-          "options": ["[[Yes, he is.|Sí.]]", "[[No, he isn't.|No, no lo está.]]", "[[No, he aren't.|No.]]"],
-          "correctAnswer": 1,
-          "explanation": "Tom está aburrido (bored), no feliz."
-        }
-      ]
+      "title": "[[Short|Corta]] [[Answer|Respuesta]]",
+      "instructions": "[[Complete|Completa]] [[the|la]] [[answer|respuesta]].",
+      "text": "[[Yes|Sí]], [[we|nosotros]] (_____).",
+      "answers": ["are"],
+      "explanation": "[[Affirmative|Afirmativa]] [[short|corta]] [[answer|respuesta]] [[for|para]] '[[we|nosotros]]'."
     },
-    "audioUrl": "audio/a1/unit-3/e46.mp3",
-    "topicName": "Reading"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u3-e47",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Reading Question",
+    "topic": "Review",
     "difficulty": "medium",
+    "transcript": "[[I|Yo]] [[am|tengo]] [[hungry|hambre]]. [[I|Yo]] [[need|necesito]] [[food|comida]].",
     "content": {
-      "title": "Pregunta de Lectura",
-      "instructions": "Responde según el texto.",
-      "questions": [
-        {
-          "question": "[[Why|Por qué]] [[is|está]] [[Tom|Tom]] [[bored|aburrido]]?",
-          "options": ["[[Because the food is ready.|Porque la comida está lista.]]", "[[Because the food isn't ready.|Porque la comida no está lista.]]", "[[Because he is sick.|Porque está enfermo.]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice: 'Tom is bored because the food isn't ready'."
-        }
-      ]
+      "title": "[[States|Estados]]",
+      "instructions": "[[Type|Escribe]] [[the|el]] [[state|estado]].",
+      "text": "[[I|Yo]] [[need|necesito]] [[food|comida]] [[because|porque]] [[I|yo]] [[am|tengo]] (_____).",
+      "answers": ["hungry"],
+      "explanation": "[[Hungry|Hambriento]]."
     },
-    "audioUrl": "audio/a1/unit-3/e47.mp3",
-    "topicName": "Reading"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u3-e48",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Reading Question",
+    "topic": "Review",
     "difficulty": "medium",
+    "transcript": "[[She|Ella]] [[is|está]] [[sick|enferma]]. [[She|Ella]] [[is|está]] [[not|no]] [[fine|bien]].",
     "content": {
-      "title": "Pregunta de Lectura",
-      "instructions": "Responde según el texto.",
-      "questions": [
-        {
-          "question": "[[Is|Está]] [[the|la]] [[person|persona]] [[thirsty|sedienta]]?",
-          "options": ["[[No, I'm not.|No, no lo estoy.]]", "[[Yes, I am.|Sí.]]", "[[No, I isn't.|No.]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice: 'I am not thirsty'."
-        }
-      ]
+      "title": "[[Health|Salud]]",
+      "instructions": "[[Type|Escribe]] [[the|la]] [[negation|negación]].",
+      "text": "[[She|Ella]] [[is|está]] [[sick|enferma]]. [[She|Ella]] (_____) [[fine|bien]].",
+      "answers": ["isn't", "is not"],
+      "explanation": "[[She|Ella]] [[isn't|no está]] [[fine|bien]]."
     },
-    "audioUrl": "audio/a1/unit-3/e48.mp3",
-    "topicName": "Reading"
+    "topicName": "Grammar"
   },
-
-  // PASSAGE 3: AT THE DOCTOR
   {
     "id": "a1-u3-e49",
-    "type": "reading",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Reading Phase",
+    "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[The|El]] [[doctor|médico]] [[is|está]] [[here|aquí]]. [[He|Él]] [[is|está]] [[angry|enojado]] [[today|hoy]]. [[My|Mi]] [[mother|madre]] [[is|está]] [[sick|enferma]]. [[She|Ella]] [[isn't|no está]] [[fine|bien]]. [[Are|Están]] [[you|ustedes]] [[ok|bien]]? [[Yes|Sí]], [[we|nosotros]] [[are|estamos]] [[fine|bien]]. [[We|Nosotros]] [[aren't|no estamos]] [[sick|enfermos]].",
+    "transcript": "[[The|El]] [[opposite|opuesto]] [[of|de]] [[thirsty|sediento]] [[is|es]] [[satisfied|saciado]].",
     "content": {
-      "title": "Lectura: En el médico",
-      "instructions": "Lee sobre la madre y el médico.",
-      "questions": []
+      "title": "[[Vocabulary|Vocabulario]]",
+      "instructions": "[[Type|Escribe]] [[the|el]] [[word|palabra]].",
+      "text": "[[I|Yo]] [[need|necesito]] [[water|agua]] [[because|porque]] [[I|yo]] [[am|estoy]] (_____).",
+      "answers": ["thirsty"],
+      "explanation": "[[Thirsty|Sediento]]."
     },
-    "audioUrl": "audio/a1/unit-3/e49.mp3",
-    "topicName": "Reading"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u3-e50",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Reading Question",
+    "topic": "Review",
     "difficulty": "medium",
+    "transcript": "[[Is|¿Estás]] [[you|tú]] [[bored|aburrido]]?",
     "content": {
-      "title": "Pregunta de Lectura",
-      "instructions": "Responde según el texto.",
-      "questions": [
-        {
-          "question": "[[Is|Está]] [[the|el]] [[doctor|médico]] [[happy|feliz]]?",
-          "options": ["[[Yes, he is.|Sí.]]", "[[No, he isn't.|No, no lo está.]]", "[[No, he aren't.|No.]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice 'He is angry today'."
-        }
-      ]
+      "title": "[[Final|Final]] [[Question|Pregunta]]",
+      "instructions": "[[Type|Escribe]] [[the|el]] [[verb|verbo]].",
+      "text": "(_____) [[you|tú]] [[bored|aburrido]]?",
+      "answers": ["Are"],
+      "explanation": "[[Are|Estás]] [[you|tú]]?"
     },
-    "audioUrl": "audio/a1/unit-3/e50.mp3",
-    "topicName": "Reading"
+    "topicName": "Grammar"
   },
+  // ==========================================
+  // READING COMPREHENSION (51-60)
+  // ==========================================
+
+  // READING 1: SARAH'S DAY (51)
   {
     "id": "a1-u3-e51",
-    "type": "multiple-choice",
+    "type": "reading",
     "level": "A1",
-    "topic": "Reading Question",
-    "difficulty": "medium",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[Today|Hoy]] [[is|es]] [[Monday|lunes]]. [[Sarah|Sarah]] [[is|está]] [[at|en]] [[work|el trabajo]]. [[She|Ella]] [[is|está]] [[very|muy]] [[tired|cansada]] [[because|porque]] [[she|ella]] [[is|está]] [[busy|ocupada]]. [[She|Ella]] [[is|tiene]] [[not|no]] [[hungry|hambre]], [[but|pero]] [[she|ella]] [[is|tiene]] [[very|mucho]] [[thirsty|sed]]. [[She|Ella]] [[is|está]] [[not|no]] [[happy|feliz]] [[at|en]] [[the|la]] [[office|oficina]]. [[She|Ella]] [[wants|quiere]] [[to|a]] [[go|ir]] [[home|a casa]].",
     "content": {
-      "title": "Pregunta de Lectura",
-      "instructions": "Responde según el texto.",
+      "title": "[[Reading|Lectura]]: [[Sarah's|de Sarah]] [[Day|Día]]",
+      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+      "text": "Today is Monday. Sarah is at work. She is very tired because she is busy. She is not hungry, but she is very thirsty. She is not happy at the office. She wants to go home.",
       "questions": [
         {
-          "question": "[[Is|Está]] [[the|la]] [[mother|madre]] [[fine|bien]]?",
-          "options": ["[[No, she isn't.|No, no lo está.]]", "[[Yes, she is.|Sí.]]", "[[No, she aren't.|No.]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice 'She isn't fine'."
+          "question": "[[How|Cómo]] [[does|se]] [[Sarah|Sarah]] [[feel|siente]]?",
+          "options": ["[[Happy and excited|Feliz y emocionada]]", "[[Tired and busy|Cansada y ocupada]]", "[[Bored and sad|Aburrida y triste]]"],
+          "correctAnswer": 1,
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: '[[She|Ella]] [[is|está]] [[very|muy]] [[tired|cansada]] [[because|porque]] [[she|ella]] [[is|está]] [[busy|ocupada]]'."
+        },
+        {
+          "question": "[[Is|Tiene]] [[she|ella]] [[hungry|hambre]]?",
+          "options": ["[[Yes, she is.|Sí.]]", "[[No, she isn't.|No.]]", "[[Yes, she are.|Sí.]]"],
+          "correctAnswer": 1,
+          "explanation": "[[She|Ella]] [[is|tiene]] [[not|no]] [[hungry|hambre]]."
+        },
+        {
+          "question": "[[What|Qué]] [[does|quiere]] [[she|ella]] [[want|]]?",
+          "options": ["[[To eat|Comer]]", "[[To go home|Ir a casa]]", "[[To work|Trabajar]]"],
+          "correctAnswer": 1,
+          "explanation": "[[She|Ella]] [[wants|quiere]] [[to|a]] [[go|ir]] [[home|a casa]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-3/e51.mp3",
     "topicName": "Reading"
   },
+  // READING 2: THE NEW STUDENT (52)
   {
     "id": "a1-u3-e52",
-    "type": "multiple-choice",
+    "type": "reading",
     "level": "A1",
-    "topic": "Reading Question",
-    "difficulty": "medium",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[John|John]] [[is|es]] [[a|un]] [[new|nuevo]] [[student|estudiante]]. [[He|Él]] [[is|está]] [[at|en]] [[school|la escuela]]. [[He|Él]] [[is|está]] [[not|no]] [[scared|asustado]], [[but|pero]] [[he|él]] [[is|está]] [[surprised|sorprendido]]. [[The|La]] [[school|escuela]] [[is|es]] [[very|muy]] [[big|grande]]. [[His|Sus]] [[teachers|profesores]] [[are|son]] [[very|muy]] [[nice|amables]]. [[John|John]] [[is|está]] [[happy|feliz]] [[in|en]] [[his|su]] [[new|nueva]] [[class|clase]].",
     "content": {
-      "title": "Pregunta de Lectura",
-      "instructions": "Responde según el texto.",
+      "title": "[[Reading|Lectura]]: [[The|El]] [[New|Nuevo]] [[Student|Estudiante]]",
+      "instructions": "[[Read|Lee]] [[y|and]] [[answer|responde]].",
+      "text": "John is a new student. He is at school. He is not scared, but he is surprised. The school is very big. His teachers are very nice. John is happy in his new class.",
       "questions": [
         {
-          "question": "[[Are|Están]] [[they|ellos]] [[sick|enfermos]]?",
-          "options": ["[[Yes, they are.|Sí.]]", "[[No, they aren't.|No, no lo están.]]", "[[No, they isn't.|No.]]"],
+          "question": "[[Is|Está]] [[John|John]] [[scared|asustado]]?",
+          "options": ["[[Yes, he is.|Sí.]]", "[[No, he isn't.|No.]]", "[[No, he are not.|No.]]"],
           "correctAnswer": 1,
-          "explanation": "El texto dice 'We aren't sick'."
+          "explanation": "[[He|Él]] [[is|está]] [[not|no]] [[scared|asustado]]."
+        },
+        {
+          "question": "[[How|Cómo]] [[are|son]] [[the|los]] [[teachers|profesores]]?",
+          "options": ["[[Mean|Malos]]", "[[Nice|Amables]]", "[[Angry|Enojados]]"],
+          "correctAnswer": 1,
+          "explanation": "[[His|Sus]] [[teachers|profesores]] [[are|son]] [[very|muy]] [[nice|amables]]."
+        },
+        {
+          "question": "[[How|Cómo]] [[is|es]] [[the|la]] [[school|escuela]]?",
+          "options": ["[[Small|Pequeña]]", "[[Big|Grande]]", "[[Old|Vieja]]"],
+          "correctAnswer": 1,
+          "explanation": "[[The|La]] [[school|escuela]] [[is|es]] [[very|muy]] [[big|grande]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-3/e52.mp3",
     "topicName": "Reading"
   },
-
-  // PASSAGE 4: BORED AT HOME
+  // READING 3: A RAINY DAY (53)
   {
     "id": "a1-u3-e53",
     "type": "reading",
     "level": "A1",
-    "topic": "Reading Phase",
-    "difficulty": "medium",
-    "transcript": "[[It|Es]] [[is|es]] [[raining|lloviendo]]. [[I|Yo]] [[am|estoy]] [[bored|aburrido]] [[at|en]] [[home|casa]]. [[My|Mi]] [[brother|hermano]] [[isn't|no está]] [[bored|aburrido]]. [[He|Él]] [[is|está]] [[happy|feliz]] [[with|con]] [[his|su]] [[book|libro]]. [[Are|Estás]] [[you|tú]] [[bored|aburrido]] [[at|en]] [[home|casa]] [[too|también]]? [[No|No]], [[I|yo]] [[am|estoy]] [[fine|bien]].",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[It|Esto]] [[is|está]] [[raining|lloviendo]] [[outside|afuera]]. [[Tom|Tom]] [[and|y]] [[Lucy|Lucy]] [[are|están]] [[at|en]] [[home|casa]]. [[They|Ellos]] [[are|están]] [[bored|aburridos]]. [[They|Ellos]] [[want|quieren]] [[to|a]] [[play|jugar]] [[in|en]] [[the|el]] [[park|parque]], [[but|pero]] [[it|esto]] [[is|está]] [[wet|mojado]]. [[Tom|Tom]] [[is|está]] [[hungry|hambriento]] [[and|y]] [[Lucy|Lucy]] [[is|está]] [[thirsty|sedienta]]. [[They|Ellos]] [[are|están]] [[not|no]] [[happy|felices]].",
     "content": {
-      "title": "Lectura: Aburrido en casa",
-      "instructions": "Lee sobre el día de lluvia.",
-      "questions": []
+      "title": "[[Reading|Lectura]]: [[A|Un]] [[Rainy|Lluvioso]] [[Day|Día]]",
+      "instructions": "[[Read|Lee]] [[y|and]] [[answer|responde]].",
+      "text": "It is raining outside. Tom and Lucy are at home. They are bored. They want to play in the park, but it is wet. Tom is hungry and Lucy is thirsty. They are not happy.",
+      "questions": [
+        {
+          "question": "[[Where|Dónde]] [[are|están]] [[Tom|Tom]] [[and|y]] [[Lucy|Lucy]]?",
+          "options": ["[[In the park|En el parque]]", "[[At home|En casa]]", "[[At school|En la escuela]]"],
+          "correctAnswer": 1,
+          "explanation": "[[Tom|Tom]] [[and|y]] [[Lucy|Lucy]] [[are|están]] [[at|en]] [[home|casa]]."
+        },
+        {
+          "question": "[[Why|Por qué]] [[are|están]] [[they|ellos]] [[bored|aburridos]]?",
+          "options": ["[[Because it is raining|Porque está lloviendo]]", "[[Because they are tired|Porque están cansados]]", "[[Because they are sick|Porque están enfermos]]"],
+          "correctAnswer": 0,
+          "explanation": "[[They|Ellos]] [[are|están]] [[bored|aburridos]] [[because|porque]] [[it|esto]] [[is|está]] [[raining|lloviendo]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-3/e53.mp3",
     "topicName": "Reading"
   },
+  // --- NEW EXERCISES (54-60) to reach 60 ---
   {
     "id": "a1-u3-e54",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Question",
+    "topic": "Vocabulary",
     "difficulty": "medium",
+    "transcript": "[[She|Ella]] [[is|está]] [[not|no]] [[sad|triste]].",
     "content": {
-      "title": "Pregunta de Lectura",
-      "instructions": "Responde según el texto.",
-      "questions": [
-        {
-          "question": "[[Is|Está]] [[the|el]] [[brother|hermano]] [[bored|aburrido]]?",
-          "options": ["[[Yes, he is.|Sí.]]", "[[No, he isn't.|No, no lo está.]]", "[[No, he aren't.|No.]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice 'My brother isn't bored'."
-        }
-      ]
+      "title": "[[Opposites|Opuestos]]",
+      "instructions": "[[If|Si]] [[she|ella]] [[is|está]] [[not|no]] [[sad|triste]], [[she|ella]] [[is|está]]...",
+      "options": ["[[angry|enojada]]", "[[happy|feliz]]", "[[tired|cansada]]"],
+      "correctAnswer": 1,
+      "explanation": "[[Happy|Feliz]] [[is|es]] [[the|el]] [[opposite|opuesto]] [[of|de]] [[sad|triste]]."
     },
-    "audioUrl": "audio/a1/unit-3/e54.mp3",
-    "topicName": "Reading"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u3-e55",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Question",
+    "topic": "Grammar",
     "difficulty": "medium",
+    "transcript": "[[Are|¿Están]] [[the|los]] [[children|niños]] [[tired|cansados]]?",
     "content": {
-      "title": "Pregunta de Lectura",
-      "instructions": "Responde según el texto.",
-      "questions": [
-        {
-          "question": "[[Why|Por qué]] [[is|está]] [[the|el]] [[brother|hermano]] [[happy|feliz]]?",
-          "options": ["[[Because of his book.|Por su libro.]]", "[[Because of the rain.|Por la lluvia.]]", "[[Because he is tired.|Porque está cansado.]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice 'He is happy with his book'."
-        }
-      ]
+      "title": "[[Questions|Preguntas]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[short|corta]] [[answer|respuesta]].",
+      "options": ["[[Yes, they are|Sí, lo están.]]", "[[Yes, they is|Sí.]]", "[[Yes, they am|Sí.]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Children|Niños]] = [[they|ellos]]."
     },
-    "audioUrl": "audio/a1/unit-3/e55.mp3",
-    "topicName": "Reading"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u3-e56",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Reading Question",
+    "topic": "Grammar",
     "difficulty": "medium",
+    "transcript": "[[I|Yo]] [[am|estoy]] [[not|no]] [[very|muy]] [[thirsty|sediento]].",
     "content": {
-      "title": "Pregunta de Lectura",
-      "instructions": "Responde según el texto.",
-      "questions": [
-        {
-          "question": "[[Is|Está]] [[the|la]] [[other|otra]] [[person|persona]] [[bored|aburrida]]?",
-          "options": ["[[No, she isn't.|No, no lo está.]]", "[[Yes, she is.|Sí.]]", "[[No, she aren't.|No.]]"],
-          "correctAnswer": 0,
-          "explanation": "La otra persona responde: 'No, I am fine'."
-        }
-      ]
+      "title": "[[Build|Construye]]",
+      "instructions": "[[Order|Ordena]].",
+      "correctSentence": "[[I|Yo]] [[am|soy/estoy]] [[not|no]] [[very|muy]] [[thirsty|sediento]].",
+      "words": ["[[thirsty|sediento]].", "[[very|muy]]", "[[not|no]]", "[[am|soy/estoy]]", "[[I|Yo]]"],
+      "explanation": "[[Structure|Estructura]]: [[I|Yo]] + [[am|estoy]] + [[not|no]] + [[very|muy]] + [[Adjective|Adjetivo]]."
     },
-    "audioUrl": "audio/a1/unit-3/e56.mp3",
-    "topicName": "Reading"
+    "topicName": "Grammar"
   },
-
-  // PASSAGE 5: THE TEAM
   {
     "id": "a1-u3-e57",
-    "type": "reading",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Phase",
+    "topic": "Vocabulary",
     "difficulty": "medium",
-    "transcript": "[[We|Nosotros]] [[are|estamos]] [[in|en]] [[the|el]] [[team|equipo]]. [[We|Nosotros]] [[are|estamos]] [[great|genial]]. [[But|Pero]] [[the|el]] [[other|otro]] [[team|equipo]] [[isn't|no lo está]]. [[They|Ellos]] [[are|están]] [[angry|enojados]]. [[Are|Está]] [[their|su]] [[coach|entrenador]] [[sick|enfermo]]? [[No|No]], [[he|él]] [[isn't|no lo está]]. [[He|Él]] [[is|está]] [[just|solo]] [[tired|cansado]].",
+    "transcript": "[[Surprised|Sorprendido]] [[face|cara]].",
     "content": {
-      "title": "Lectura: El Equipo",
-      "instructions": "Lee sobre los equipos y el entrenador.",
-      "questions": []
+      "title": "[[Emotions|Emociones]]",
+      "instructions": "[[When|Cuando]] [[something|algo]] [[new|nuevo]] [[happens|pasa]], [[you|tú]] [[are|estás]]...",
+      "options": ["[[bored|aburrido]]", "[[surprised|sorprendido]]", "[[sick|enfermo]]"],
+      "correctAnswer": 1,
+      "explanation": "[[Surprised|Sorprendido]]."
     },
-    "audioUrl": "audio/a1/unit-3/e57.mp3",
-    "topicName": "Reading"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u3-e58",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Question",
+    "topic": "Grammar",
     "difficulty": "medium",
+    "transcript": "[[Is|¿Está]] [[the|el]] [[cat|gato]] [[hungry|hambriento]]?",
     "content": {
-      "title": "Pregunta de Lectura",
-      "instructions": "Responde según el texto.",
-      "questions": [
-        {
-          "question": "[[Is|Está]] [[the|el]] [[other|otro]] [[team|equipo]] [[great|genial]]?",
-          "options": ["[[No, it isn't.|No, no lo está.]]", "[[Yes, it is.|Sí.]]", "[[No, it aren't.|No.]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice 'the other team isn't (great)'."
-        }
-      ]
+      "title": "[[Animals|Animales]]",
+      "instructions": "[[Answer|Responde]].",
+      "options": ["[[No, it isn't|No, no lo está.]]", "[[No, they aren't|No.]]", "[[No, he am not|No.]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Use|Usa]] '[[it|esto]]' [[for|para]] [[the cat|el gato]]."
     },
-    "audioUrl": "audio/a1/unit-3/e58.mp3",
-    "topicName": "Reading"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u3-e59",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Reading Question",
+    "topic": "Grammar",
     "difficulty": "medium",
+    "transcript": "[[They|Ellos]] [[are|están]] [[very|muy]] [[angry|enojados]].",
     "content": {
-      "title": "Pregunta de Lectura",
-      "instructions": "Responde según el texto.",
-      "questions": [
-        {
-          "question": "[[How|Cómo]] [[is|está]] [[the|el]] [[other|otro]] [[team|equipo]]?",
-          "options": ["[[They are happy.|Están felices.]]", "[[They are bored.|Están aburridos.]]", "[[They are angry.|Están enojados.]]"],
-          "correctAnswer": 2,
-          "explanation": "El texto dice 'They are angry'."
-        }
-      ]
+      "title": "[[Emphasis|Énfasis]]",
+      "instructions": "[[Order|Ordena]].",
+      "correctSentence": "[[They|Ellos/Ellas]] [[are|son/están]] [[very|muy]] [[angry|enojado/s]].",
+      "words": ["[[angry|enojado/s]].", "[[very|muy]]", "[[are|son/están]]", "[[They|Ellos/Ellas]]"],
+      "explanation": "[[Subject|Sujeto]] + [[Verb|Verbo]] + [[Adverb|Adverbio]] + [[Adjective|Adjetivo]]."
     },
-    "audioUrl": "audio/a1/unit-3/e59.mp3",
-    "topicName": "Reading"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u3-e60",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Question",
+    "topic": "Review",
     "difficulty": "medium",
+    "transcript": "[[Are|¿Estás]] [[you|tú]] [[fine|bien]]?",
     "content": {
-      "title": "Pregunta de Lectura",
-      "instructions": "Responde según el texto.",
-      "questions": [
-        {
-          "question": "[[Is|Está]] [[the|el]] [[coach|entrenador]] [[sick|enfermo]]?",
-          "options": ["[[Yes, he is.|Sí.]]", "[[No, he isn't.|No, no lo está.]]", "[[Yes, he are.|Sí.]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice 'No, he isn't. He is just tired'."
-        }
-      ]
+      "title": "[[Review|Repaso]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[best|mejor]] [[answer|respuesta]].",
+      "options": ["[[Yes, I am|Sí, estoy bien.]]", "[[Yes, you are|Sí.]]", "[[Yes, it is|Sí.]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Yes, I am|Sí, estoy bien]]."
     },
-    "audioUrl": "audio/a1/unit-3/e60.mp3",
-    "topicName": "Reading"
+    "topicName": "Grammar"
   }
 ];

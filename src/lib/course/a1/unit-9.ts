@@ -912,7 +912,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
 
   // ==========================================
   // READING COMPREHENSION (51-60)
-  // Two-phase structure: Text slide + 3 Question slides
+  // Standard two-phase structure: Text slide then Question slides
   // ==========================================
 
   // TEXT 1: DR. SMITH'S WORK
@@ -920,67 +920,84 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "id": "a1-u9-e51",
     "type": "reading",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Reading",
     "difficulty": "hard",
-    "transcript": "[[Hello|Hola]], [[my|mi]] [[name|nombre]] [[is|es]] [[Dr. Smith|Dr. Smith]]. [[I|Yo]] [[am|soy]] [[a|un]] [[doctor|médico]]. [[I|Yo]] [[work|trabajo]] [[in|en]] [[a|un]] [[big|grande]] [[hospital|hospital]] [[in|en]] [[London|Londres]]. [[Every|Cada]] [[day|día]], [[I|yo]] [[help|ayudo]] [[many|muchas]] [[sick|enfermas]] [[people|personas]]. [[My|Mi]] [[work|trabajo]] [[is|es]] [[very|muy]] [[interesting|interesante]] [[but|pero]] [[busy|ocupado]]. [[I|Yo]] [[start|empiezo]] [[at|a las]] [[eight|ocho]] [[o'clock|en punto]] [[in|en]] [[the|la]] [[morning|mañana]]. [[I|Yo]] [[am|estoy]] [[very|muy]] [[happy|feliz]] [[with|con]] [[my|mi]] [[job|trabajo]].",
+    "transcript": "[[Hello|Hola]], [[my|mi]] [[name|nombre]] [[is|es]] [[Dr. Smith|Dr. Smith]]. [[I|Yo]] [[am|soy]] [[a|un]] [[doctor|médico]]. [[I|Yo]] [[work|trabajo]] [[in|en]] [[a|un]] [[big|grande]] [[hospital|hospital]] [[in|en]] [[London|Londres]]. [[Every|Cada]] [[day|día]], [[I|yo]] [[help|ayudo]] [[many|muchas]] [[sick|enfermas]] [[people|personas]]. [[My|Mi]] [[work|trabajo]] [[is|es]] [[very|muy]] [[interesting|interesante]] [[but|pero]] [[busy|estresante/ocupado]]. [[I|Yo]] [[start|empiezo]] [[at|a las]] [[eight|ocho]] [[o'clock|en punto]] [[in|en]] [[the|la]] [[morning|mañana]]. [[I|Yo]] [[am|estoy]] [[very|muy]] [[happy|feliz]] [[with|con]] [[my|mi]] [[job|empleo]].",
     "content": {
-      "title": "Lectura: El Trabajo del Dr. Smith",
-      "instructions": "Lee el texto y prepárate para las preguntas.",
-      "text": "Hello, my name is Dr. Smith. I am a doctor. I work in a big hospital in London. Every day, I help many sick people. My work is very interesting but busy. I start at eight o'clock in the morning. I am very happy with my job.",
-      "questions": []
+      "title": "[[Reading|Lectura]]: [[Dr. Smith's|del Dr. Smith]] [[Work|Trabajo]]",
+      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[prepare|prepárate]] [[for|para]] [[the|las]] [[questions|preguntas]].",
+      "questions": [
+        {
+          "question": "[[Hello|Hola]], [[my|mi]] [[name|nombre]] [[is|es]] [[Dr. Smith|Dr. Smith]]. [[I|Yo]] [[am|soy]] [[a|un]] [[doctor|médico]]. [[I|Yo]] [[work|trabajo]] [[in|en]] [[a|un]] [[big|grande]] [[hospital|hospital]] [[in|en]] [[London|Londres]]. [[Every|Cada]] [[day|día]], [[I|yo]] [[help|ayudo]] [[many|muchas]] [[sick|enfermas]] [[people|personas]]. [[My|Mi]] [[work|trabajo]] [[is|es]] [[very|muy]] [[interesting|interesante]] [[but|pero]] [[busy|estresante/ocupado]]. [[I|Yo]] [[start|empiezo]] [[at|a las]] [[eight|ocho]] [[o'clock|en punto]] [[in|en]] [[the|la]] [[morning|mañana]]. [[I|Yo]] [[am|estoy]] [[very|muy]] [[happy|feliz]] [[with|con]] [[my|mi]] [[job|empleo]].",
+          "options": ["[[I|Yo]] [[have|he]] [[read|leído]] [[the|el]] [[text|texto]]."],
+          "correctAnswer": 0,
+          "explanation": "[[Click|Haz clic]] [[to|para]] [[continue|continuar]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-9/e51.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u9-e52",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Comprehension",
     "difficulty": "hard",
     "transcript": "[[What|Cuál]] [[is|es]] [[his|su]] [[job|trabajo]]?",
     "content": {
-      "title": "Pregunta 1",
-      "instructions": "Basado en el texto anterior, responde:",
-      "options": ["[[He is a teacher|Es profesor]]", "[[He is a doctor|Es médico]]", "[[He is a driver|Es conductor]]"],
-      "correctAnswer": 1,
-      "explanation": "El texto dice: 'I am a doctor'."
+      "title": "[[Comprehension|Comprensión]]: [[Dr. Smith|Dr. Smith]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]] [[based|basada]] [[on|en]] [[the|el]] [[text|texto]].",
+      "questions": [
+        {
+          "question": "[[What|Cuál]] [[is|es]] [[his|su]] [[job|trabajo]]?",
+          "options": ["[[He is a teacher|Es profesor]]", "[[He is a driver|Es conductor]]", "[[He is a doctor|Es médico]]"],
+          "correctAnswer": 2,
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: \"[[I|Yo]] [[am|soy]] [[a|un]] [[doctor|médico]]\"."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-9/e52.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u9-e53",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Comprehension",
     "difficulty": "hard",
     "transcript": "[[Where|Dónde]] [[is|está]] [[the|el]] [[hospital|hospital]]?",
     "content": {
-      "title": "Pregunta 2",
-      "instructions": "Basado en el texto anterior, responde:",
-      "options": ["[[In Paris|En París]]", "[[In London|En Londres]]", "[[In Madrid|En Madrid]]"],
-      "correctAnswer": 1,
-      "explanation": "El texto dice: 'in a big hospital in London'."
+      "title": "[[Comprehension|Comprensión]]: [[Location|Ubicación]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "questions": [
+        {
+          "question": "[[Where|Dónde]] [[is|está]] [[the|el]] [[hospital|hospital]]?",
+          "options": ["[[In London|En Londres]]", "[[In Paris|En París]]", "[[In Madrid|En Madrid]]"],
+          "correctAnswer": 0,
+          "explanation": "[[The|El]] [[hospital|hospital]] [[is|está]] [[in|en]] [[London|Londres]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-9/e53.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u9-e54",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[What|A qué]] [[time|hora]] [[does|aux]] [[he|él]] [[start|empezar]]?",
+    "transcript": "[[How|Cómo]] [[is|es]] [[his|su]] [[work|trabajo]]?",
     "content": {
-      "title": "Pregunta 3",
-      "instructions": "Basado en el texto anterior, responde:",
-      "options": ["[[At seven o'clock|A las siete]]", "[[At eight o'clock|A las ocho]]", "[[At nine o'clock|A las nueve]]"],
-      "correctAnswer": 1,
-      "explanation": "El texto dice: 'I start at eight o'clock in the morning'."
+      "title": "[[Comprehension|Comprensión]]: [[Description|Descripción]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "questions": [
+        {
+          "question": "[[How|Cómo]] [[is|es]] [[his|su]] [[work|trabajo]] [[according|según]] [[to|a]] [[him|él]]?",
+          "options": ["[[Boring and easy|Aburrido y fácil]]", "[[Interesting but busy|Interesante pero ocupado]]", "[[Easy but boring|Fácil pero aburrido]]"],
+          "correctAnswer": 1,
+          "explanation": "[[He|Él]] [[says|dice]]: \"[[My|Mi]] [[work|trabajo]] [[is|es]] [[very|muy]] [[interesting|interesante]] [[but|pero]] [[busy|estresante/ocupado]]\"."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-9/e54.mp3",
     "topicName": "Reading"
   },
 
@@ -989,67 +1006,84 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "id": "a1-u9-e55",
     "type": "reading",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Reading",
     "difficulty": "hard",
     "transcript": "[[This|Esta]] [[is|es]] [[Anna|Anna]]. [[She|Ella]] [[is|es]] [[a|una]] [[famous|famosa]] [[chef|chef]]. [[She|Ella]] [[works|trabaja]] [[in|en]] [[an|un]] [[Italian|italiano]] [[restaurant|restaurante]]. [[Anna|Anna]] [[cooks|cocina]] [[delicious|deliciosa]] [[pasta|pasta]] [[and|y]] [[pizza|pizza]]. [[She|Ella]] [[has|tiene]] [[five|cinco]] [[assistants|asistentes]] [[in|en]] [[the|la]] [[kitchen|cocina]]. [[The|El]] [[restaurant|restaurante]] [[opens|abre]] [[at|a las]] [[twelve|doce]] [[noon|del mediodía]]. [[Many|Muchos]] [[people|personas]] [[visit|visitan]] [[the|el]] [[restaurant|restaurante]] [[every|cada]] [[weekend|fin de semana]].",
     "content": {
-      "title": "Lectura: Anna la Chef",
-      "instructions": "Lee el texto y prepárate para las preguntas.",
-      "text": "This is Anna. She is a famous chef. She works in an Italian restaurant. Anna cooks delicious pasta and pizza. She has five assistants in the kitchen. The restaurant opens at twelve noon. Many people visit the restaurant every weekend.",
-      "questions": []
+      "title": "[[Reading|Lectura]]: [[Anna|Anna]] [[the|la]] [[Chef|Chef]]",
+      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]] [[about|sobre]] [[Anna|Anna]].",
+      "questions": [
+        {
+          "question": "[[This|Esta]] [[is|es]] [[Anna|Anna]]. [[She|Ella]] [[is|es]] [[a|una]] [[famous|famosa]] [[chef|chef]]. [[She|Ella]] [[works|trabaja]] [[in|en]] [[an|un]] [[Italian|italiano]] [[restaurant|restaurante]]. [[Anna|Anna]] [[cooks|cocina]] [[delicious|deliciosa]] [[pasta|pasta]] [[and|y]] [[pizza|pizza]]. [[She|Ella]] [[has|tiene]] [[five|cinco]] [[assistants|asistentes]] [[in|en]] [[the|la]] [[kitchen|cocina]]. [[The|El]] [[restaurant|restaurante]] [[opens|abre]] [[at|a las]] [[twelve|doce]] [[noon|del mediodía]]. [[Many|Muchos]] [[people|personas]] [[visit|visitan]] [[the|el]] [[restaurant|restaurante]] [[every|cada]] [[weekend|fin de semana]].",
+          "options": ["[[I|Yo]] [[have|he]] [[read|leído]] [[the|el]] [[text|texto]]."],
+          "correctAnswer": 0,
+          "explanation": "[[Click|Haz clic]] [[to|para]] [[continue|continuar]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-9/e55.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u9-e56",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Comprehension",
     "difficulty": "hard",
     "transcript": "[[What|Qué]] [[does|aux]] [[Anna|Anna]] [[cook|cocinar]]?",
     "content": {
-      "title": "Pregunta 1",
-      "instructions": "Basado en el texto anterior, responde:",
-      "options": ["[[Burgers and fries|Hamburguesas y patatas]]", "[[Sushi and rice|Sushi y arroz]]", "[[Pasta and pizza|Pasta y pizza]]"],
-      "correctAnswer": 2,
-      "explanation": "El texto dice: 'Anna cooks delicious pasta and pizza'."
+      "title": "[[Comprehension|Comprensión]]: [[Anna's|de Anna]] [[Food|Comida]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "questions": [
+        {
+          "question": "[[What|Qué]] [[does|aux]] [[Anna|Anna]] [[cook|cocinar]]?",
+          "options": ["[[Burgers and fries|Hamburguesas y patatas]]", "[[Pasta and pizza|Pasta y pizza]]", "[[Sushi and rice|Sushi y arroz]]"],
+          "correctAnswer": 1,
+          "explanation": "[[She|Ella]] [[cooks|cocina]] [[delicious|deliciosa]] [[pasta|pasta]] [[and|y]] [[pizza|pizza]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-9/e56.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u9-e57",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Comprehension",
     "difficulty": "hard",
     "transcript": "[[How|Cuántos]] [[many|muchos]] [[assistants|asistentes]] [[does|aux]] [[she|ella]] [[have|tener]]?",
     "content": {
-      "title": "Pregunta 2",
-      "instructions": "Basado en el texto anterior, responde:",
-      "options": ["[[Three|Tres]]", "[[Five|Cinco]]", "[[Ten|Diez]]"],
-      "correctAnswer": 1,
-      "explanation": "El texto dice: 'She has five assistants in the kitchen'."
+      "title": "[[Comprehension|Comprensión]]: [[Assistants|Asistentes]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "questions": [
+        {
+          "question": "[[Does|Aux]] [[she|ella]] [[have|tiene]] [[three|tres]] [[assistants|asistentes]]?",
+          "options": ["[[No|No]], [[she|ella]] [[has|tiene]] [[five|cinco]].", "[[Yes|Sí]], [[she|ella]] [[has|tiene]].", "[[No|No]], [[she|ella]] [[has|tiene]] [[ten|diez]]."],
+          "correctAnswer": 0,
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: \"[[She|Ella]] [[has|tiene]] [[five|cinco]] [[assistants|asistentes]]\"."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-9/e57.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u9-e58",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Comprehension",
     "difficulty": "hard",
     "transcript": "[[When|Cuándo]] [[do|aux]] [[many|muchas]] [[people|personas]] [[visit|visitar]]?",
     "content": {
-      "title": "Pregunta 3",
-      "instructions": "Basado en el texto anterior, responde:",
-      "options": ["[[Every Monday|Cada lunes]]", "[[Every weekend|Cada fin de semana]]", "[[Every night|Cada noche]]"],
-      "correctAnswer": 1,
-      "explanation": "El texto dice: 'Many people visit the restaurant every weekend'."
+      "title": "[[Comprehension|Comprensión]]: [[Visits|Visitas]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "questions": [
+        {
+          "question": "[[When|Cuándo]] [[do|aux]] [[many|muchas]] [[people|personas]] [[visit|visitar]] [[the|el]] [[restaurant|restaurante]]?",
+          "options": ["[[Every Monday|Cada lunes]]", "[[Every night|Cada noche]]", "[[Every weekend|Cada fin de semana]]"],
+          "correctAnswer": 2,
+          "explanation": "[[Many|Muchos]] [[people|personas]] [[visit|visitan]] [[the|el]] [[restaurant|restaurante]] [[every|cada]] [[weekend|fin de semana]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-9/e58.mp3",
     "topicName": "Reading"
   },
 
@@ -1058,33 +1092,42 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "id": "a1-u9-e59",
     "type": "reading",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Reading",
     "difficulty": "hard",
     "transcript": "[[Tom|Tom]] [[is|es]] [[a|un]] [[police|policía]] [[officer|oficial]]. [[He|Él]] [[is|es]] [[strong|fuerte]] [[and|y]] [[brave|valiente]]. [[He|Él]] [[works|trabaja]] [[at|en]] [[the|la]] [[central|central]] [[police|policía]] [[station|estación]]. [[His|Su]] [[uniform|uniforme]] [[is|es]] [[dark|oscuro]] [[blue|azul]]. [[He|Él]] [[has|tiene]] [[a|un]] [[police|de policía]] [[car|coche]]. [[He|Él]] [[helps|ayuda]] [[people|personas]] [[in|en]] [[the|la]] [[city|ciudad]]. [[Tom|Tom]] [[loves|ama]] [[his|su]] [[job|trabajo]] [[because|porque]] [[it|esto]] [[is|es]] [[important|importante]].",
     "content": {
-      "title": "Lectura: El Oficial Tom",
-      "instructions": "Lee el texto final.",
-      "text": "Tom is a police officer. He is strong and brave. He works at the central police station. His uniform is dark blue. He has a police car. He helps people in the city. Tom loves his job because it is important.",
-      "questions": []
+      "title": "[[Reading|Lectura]]: [[The|El]] [[Police|Policía]] [[Officer|Oficial]]",
+      "instructions": "[[Read|Lee]] [[the|el]] [[last|último]] [[text|texto]].",
+      "questions": [
+        {
+          "question": "[[Tom|Tom]] [[is|es]] [[a|un]] [[police|policía]] [[officer|oficial]]. [[He|Él]] [[is|es]] [[strong|fuerte]] [[and|y]] [[brave|valiente]]. [[He|Él]] [[works|trabaja]] [[at|en]] [[the|la]] [[central|central]] [[police|policía]] [[station|estación]]. [[His|Su]] [[uniform|uniforme]] [[is|es]] [[dark|oscuro]] [[blue|azul]]. [[He|Él]] [[has|tiene]] [[a|un]] [[police|de policía]] [[car|coche]]. [[He|Él]] [[helps|ayuda]] [[people|personas]] [[in|en]] [[the|la]] [[city|ciudad]]. [[Tom|Tom]] [[loves|ama]] [[his|su]] [[job|trabajo]] [[because|porque]] [[it|esto]] [[is|es]] [[important|importante]].",
+          "options": ["[[I|Yo]] [[have|he]] [[read|leído]] [[the|el]] [[text|texto]]."],
+          "correctAnswer": 0,
+          "explanation": "[[Click|Haz clic]] [[to|para]] [[continue|continuar]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-9/e59.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u9-e60",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Comprehension",
     "difficulty": "hard",
     "transcript": "[[What|De qué]] [[color|color]] [[is|es]] [[his|su]] [[uniform|uniforme]]?",
     "content": {
-      "title": "Pregunta Final",
-      "instructions": "Basado en el texto anterior, responde:",
-      "options": ["[[Black|Negro]]", "[[Dark blue|Azul oscuro]]", "[[Green|Verde]]"],
-      "correctAnswer": 1,
-      "explanation": "El texto dice: 'His uniform is dark blue'."
+      "title": "[[Comprehension|Comprensión]]: [[Uniform|Uniforme]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]] [[based|basada]] [[on|en]] [[the|el]] [[text|texto]].",
+      "questions": [
+        {
+          "question": "[[What|De qué]] [[color|color]] [[is|es]] [[his|su]] [[uniform|uniforme]]?",
+          "options": ["[[Black|Negro]]", "[[Dark blue|Azul oscuro]]", "[[Green|Verde]]"],
+          "correctAnswer": 1,
+          "explanation": "[[His|Su]] [[uniform|uniforme]] [[is|es]] [[dark|oscuro]] [[blue|azul]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-9/e60.mp3",
     "topicName": "Reading"
   }
 ];

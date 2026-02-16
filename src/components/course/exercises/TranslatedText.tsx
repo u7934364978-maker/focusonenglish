@@ -101,14 +101,18 @@ interface TooltipProps {
 }
 
 const Tooltip: React.FC<TooltipProps> = ({ word, translation, useStrong }) => (
-  <span className="group relative inline-block border-b border-dotted border-slate-400 cursor-help mx-0.5">
-    <span className={useStrong ? "font-bold text-indigo-600" : "text-indigo-600"}>{word}</span>
-    <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-48 p-2 bg-slate-900 text-white text-[10px] rounded-lg opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-[100] shadow-xl border border-slate-700" aria-hidden="true">
-      <span className="block font-black text-indigo-400 mb-0.5 uppercase tracking-tighter text-[9px]">
+  <span className="group relative inline-block border-b-2 border-dotted border-indigo-300 hover:border-indigo-500 cursor-help mx-0.5 transition-colors">
+    <span className={useStrong ? "font-bold text-indigo-700 dark:text-indigo-400" : "text-indigo-600 dark:text-indigo-400 font-medium"}>
+      {word}
+    </span>
+    <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 w-max max-w-[200px] p-3 bg-slate-900 text-white text-xs rounded-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 pointer-events-none z-[100] shadow-2xl border border-slate-700 transform translate-y-1 group-hover:translate-y-0" aria-hidden="true">
+      <span className="block font-black text-indigo-400 mb-1 uppercase tracking-widest text-[10px]">
         {word}
       </span>
-      {translation}
-      <span className="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-slate-900"></span>
+      <span className="block text-slate-200 leading-snug">
+        {translation}
+      </span>
+      <span className="absolute top-full left-1/2 -translate-x-1/2 border-8 border-transparent border-t-slate-900"></span>
     </span>
   </span>
 );

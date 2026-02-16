@@ -12,8 +12,8 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[Red|Rojo]]. [[Blue|Azul]]. [[Green|Verde]]. [[Yellow|Amarillo]]. [[Black|Negro]]. [[White|Blanco]]. [[Orange|Naranja]]. [[Pink|Rosa]]. [[Purple|Morado]]. [[Brown|Marrón]]. [[Grey|Gris]]. [[Silver|Plateado]]. [[Gold|Dorado]].",
     "content": {
-      "title": "Vocabulario: Colores",
-      "instructions": "Aprende los nombres de los colores principales.",
+      "title": "[[Vocabulary|Vocabulario]]: [[Colors|Colores]]",
+      "instructions": "[[Learn|Aprende]] [[the|los]] [[names|nombres]] [[of|de]] [[the|los]] [[main|principales]] [[colors|colores]].",
       "items": [
         { "front": "[[Red|Rojo]]", "back": "Red" },
         { "front": "[[Blue|Azul]]", "back": "Blue" },
@@ -30,7 +30,6 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         { "front": "[[Gold|Dorado]]", "back": "Gold" }
       ]
     },
-    "audioUrl": "audio/a1/unit-7/e1.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -41,13 +40,12 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[The|El]] [[sky|cielo]] [[is|está]] [[clear|despejado]] [[and|y]] [[blue|azul]].",
     "content": {
-      "title": "El cielo",
-      "instructions": "Selecciona el color correcto para completar la oración.",
+      "title": "[[The|El]] [[Sky|Cielo]]",
+      "instructions": "[[Select|Selecciona]] [[the|el]] [[correct|correcto]] [[color|color]] [[to|para]] [[complete|completar]] [[the|la]] [[sentence|oración]].",
       "options": ["[[green|verde]]", "[[blue|azul]]", "[[red|rojo]]"],
       "correctAnswer": 1,
-      "explanation": "El cielo despejado se describe como azul (blue)."
+      "explanation": "[[The|El]] [[clear|despejado]] [[sky|cielo]] [[is|es]] [[blue|azul]]."
     },
-    "audioUrl": "audio/a1/unit-7/e2.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -58,13 +56,12 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[Fresh|Fresca]] [[grass|hierba]] [[is|es]] [[bright|brillante]] [[green|verde]].",
     "content": {
-      "title": "La naturaleza",
-      "instructions": "Elige el color adecuado.",
+      "title": "[[Nature|Naturaleza]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[appropriate|adecuado]] [[color|color]].",
       "options": ["[[green|verde]]", "[[yellow|amarillo]]", "[[purple|morado]]"],
       "correctAnswer": 0,
-      "explanation": "La hierba fresca es de color verde (green)."
+      "explanation": "[[Grass|Hierba]] [[is|es]] [[typically|típicamente]] [[green|verde]]."
     },
-    "audioUrl": "audio/a1/unit-7/e3.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -75,13 +72,12 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[A|Un]] [[ripe|maduro]] [[banana|plátano]] [[is|es]] [[yellow|amarillo]].",
     "content": {
-      "title": "Frutas",
-      "instructions": "Elige el color del plátano maduro.",
+      "title": "[[Fruits|Frutas]]",
+      "instructions": "[[Identify|Identifica]] [[the|el]] [[color|color]] [[of|de]] [[the|la]] [[banana|banana]].",
       "options": ["[[black|negro]]", "[[yellow|amarillo]]", "[[white|blanco]]"],
       "correctAnswer": 1,
-      "explanation": "Los plátanos maduros son amarillos."
+      "explanation": "[[Ripe|Maduro]] [[bananas|plátanos]] [[are|son]] [[yellow|amarillos]]."
     },
-    "audioUrl": "audio/a1/unit-7/e4.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -90,15 +86,14 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Colors",
     "difficulty": "easy",
-    "transcript": "[[Strawberries|Las fresas]] [[are|son]] [[bright|rojo]] [[red|brillante]].",
+    "transcript": "[[Strawberries|Las fresas]] [[are|son]] [[bright|brillante]] [[red|rojo]].",
     "content": {
-      "title": "Frutas",
-      "instructions": "Elige el color correcto.",
+      "title": "[[Fruits|Frutas]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[color|color]] [[for|para]] [[the|la]] [[berry|baya]].",
       "options": ["[[blue|azul]]", "[[red|rojo]]", "[[grey|gris]]"],
       "correctAnswer": 1,
-      "explanation": "Las fresas son de color rojo (red)."
+      "explanation": "[[Strawberries|Fresas]] [[are|son]] [[red|rojas]]."
     },
-    "audioUrl": "audio/a1/unit-7/e5.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -109,13 +104,12 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[Fresh|Fresca]] [[milk|leche]] [[is|es]] [[pure|puro]] [[white|blanca]].",
     "content": {
-      "title": "Bebidas",
-      "instructions": "Selecciona el color de la leche.",
+      "title": "[[Drinks|Bebidas]]",
+      "instructions": "[[Select|Selecciona]] [[the|el]] [[color|color]] [[of|de]] [[the|la]] [[milk|leche]].",
       "options": ["[[white|blanca]]", "[[pink|rosa]]", "[[brown|marrón]]"],
       "correctAnswer": 0,
-      "explanation": "La leche es blanca (white)."
+      "explanation": "[[Milk|Leche]] [[is|es]] [[white|blanca]]."
     },
-    "audioUrl": "audio/a1/unit-7/e6.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -126,13 +120,12 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[Night|La noche]] [[is|es]] [[dark|oscura]] [[and|y]] [[black|negra]].",
     "content": {
-      "title": "La noche",
-      "instructions": "Elige el color.",
+      "title": "[[The|La]] [[Night|Noche]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[darkest|más oscuro]] [[color|color]].",
       "options": ["[[yellow|amarillo]]", "[[black|negro]]", "[[orange|naranja]]"],
       "correctAnswer": 1,
-      "explanation": "La noche se asocia con el color negro (black)."
+      "explanation": "[[Black|Negro]] [[is|es]] [[the|el]] [[color|color]] [[of|de]] [[the|la]] [[dark|oscura]] [[night|noche]]."
     },
-    "audioUrl": "audio/a1/unit-7/e7.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -143,13 +136,12 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[Carrots|Las zanahorias]] [[are|son]] [[vibrant|vibrante]] [[orange|naranja]].",
     "content": {
-      "title": "Verduras",
-      "instructions": "Elige el color de la zanahoria.",
+      "title": "[[Vegetables|Verduras]]",
+      "instructions": "[[What|Qué]] [[color|color]] [[is|es]] [[this|esta]] [[vegetable|verdura]]?",
       "options": ["[[purple|morado]]", "[[green|verde]]", "[[orange|naranja]]"],
       "correctAnswer": 2,
-      "explanation": "Las zanahorias son naranjas."
+      "explanation": "[[Carrots|Zanahorias]] [[are|son]] [[orange|naranjas]]."
     },
-    "audioUrl": "audio/a1/unit-7/e8.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -160,13 +152,12 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[Flamingos|Los flamencos]] [[are|son]] [[pretty|bonito]] [[pink|rosas]].",
     "content": {
-      "title": "Animales",
-      "instructions": "Elige el color del animal.",
+      "title": "[[Animals|Animales]]",
+      "instructions": "[[Identify|Identifica]] [[the|el]] [[color|color]] [[of|de]] [[the|el]] [[bird|ave]].",
       "options": ["[[pink|rosa]]", "[[black|negro]]", "[[grey|gris]]"],
       "correctAnswer": 0,
-      "explanation": "Los flamencos son conocidos por ser rosas."
+      "explanation": "[[Flamingos|Flamencos]] [[are|son]] [[pink|rosas]]."
     },
-    "audioUrl": "audio/a1/unit-7/e9.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -177,16 +168,14 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[Coffee|El café]] [[without|sin]] [[milk|leche]] [[is|es]] [[dark|oscuro]] [[brown|marrón]].",
     "content": {
-      "title": "Bebidas",
-      "instructions": "Selecciona el color del café solo.",
+      "title": "[[Drinks|Bebidas]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[shade|tono]] [[for|para]] [[black|negro]] [[coffee|café]].",
       "options": ["[[brown|marrón]]", "[[silver|plateado]]", "[[white|blanco]]"],
       "correctAnswer": 0,
-      "explanation": "El café sin leche es marrón oscuro."
+      "explanation": "[[Pure|Puro]] [[coffee|café]] [[is|es]] [[dark|oscuro]] [[brown|marrón]]."
     },
-    "audioUrl": "audio/a1/unit-7/e10.mp3",
     "topicName": "Vocabulary"
   },
-
   // ==========================================
   // VOCABULARY: PHYSICAL TRAITS (11-20)
   // ==========================================
@@ -198,8 +187,8 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[Tall|Alto]]. [[Short|Bajo]]. [[Young|Joven]]. [[Old|Viejo]]. [[Thin|Delgado]]. [[Fat|Gordo]]. [[Strong|Fuerte]]. [[Weak|Débil]]. [[Beautiful|Hermoso]]. [[Ugly|Feo]].",
     "content": {
-      "title": "Vocabulario: Rasgos Físicos",
-      "instructions": "Aprende adjetivos para describir a las personas.",
+      "title": "[[Vocabulary|Vocabulario]]: [[Physical|Físicos]] [[Traits|Rasgos]]",
+      "instructions": "[[Learn|Aprende]] [[adjectives|adjetivos]] [[to|para]] [[describe|describir]] [[people|personas]].",
       "items": [
         { "front": "[[Tall|Alto]]", "back": "Tall" },
         { "front": "[[Short|Bajo]]", "back": "Short" },
@@ -213,7 +202,6 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         { "front": "[[Ugly|Feo]]", "back": "Ugly" }
       ]
     },
-    "audioUrl": "audio/a1/unit-7/e11.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -224,13 +212,12 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[My|Mi]] [[grandfather|abuelo]] [[is|es]] [[eighty-five|ochenta y cinco]] [[years|años]] [[old|de edad]]. [[He|Él]] [[is|es]] [[very|muy]] [[old|viejo]].",
     "content": {
-      "title": "La edad",
-      "instructions": "Elige el adjetivo lógico basado en la edad.",
+      "title": "[[Age|La Edad]]",
+      "instructions": "[[Identify|Identifica]] [[the|el]] [[adjective|adjetivo]] [[based|basado]] [[on|en]] [[age|la edad]].",
       "options": ["[[young|joven]]", "[[new|nuevo]]", "[[old|viejo/mayor]]"],
       "correctAnswer": 2,
-      "explanation": "Ochenta y cinco años indica una edad avanzada (old)."
+      "explanation": "85 [[years|años]] [[is|es]] [[considered|considerado]] [[old|viejo]]."
     },
-    "audioUrl": "audio/a1/unit-7/e12.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -241,13 +228,12 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[The|El]] [[baby|bebé]] [[is|tiene]] [[only|solo]] [[one|un]] [[week|semana]] [[old|de edad]]. [[He|Él]] [[is|es]] [[very|muy]] [[young|joven]].",
     "content": {
-      "title": "La edad",
-      "instructions": "Elige el adjetivo correcto para un recién nacido.",
+      "title": "[[Age|La Edad]]",
+      "instructions": "[[Which|Cuál]] [[adjective|adjetivo]] [[fits|encaja]] [[a|un]] [[newborn|recién nacido]]?",
       "options": ["[[young|joven]]", "[[old|viejo]]", "[[tall|alto]]"],
       "correctAnswer": 0,
-      "explanation": "Un bebé de una semana es muy joven (young)."
+      "explanation": "[[A|Un]] [[baby|bebé]] [[is|es]] [[very|muy]] [[young|joven]]."
     },
-    "audioUrl": "audio/a1/unit-7/e13.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -258,13 +244,12 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[The|El]] [[basketball|baloncesto]] [[player|jugador]] [[is|mide]] [[two|dos]] [[meters|metros]] [[ten|diez]]. [[He|Él]] [[is|es]] [[very|muy]] [[tall|alto]].",
     "content": {
-      "title": "Estatura",
-      "instructions": "Elige el adjetivo lógico para alguien de 2.10m.",
+      "title": "[[Height|Estatura]]",
+      "instructions": "[[Describe|Describe]] [[someone|a alguien]] [[who|que]] [[is|es]] 2.10m.",
       "options": ["[[short|bajo]]", "[[tall|alto]]", "[[thin|delgado]]"],
       "correctAnswer": 1,
-      "explanation": "Dos metros diez es una estatura muy alta (tall)."
+      "explanation": "2.10m [[is|es]] [[very|muy]] [[tall|alto]]."
     },
-    "audioUrl": "audio/a1/unit-7/e14.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -275,13 +260,12 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[The|El]] [[little|pequeño]] [[child|niño]] [[cannot|no puede]] [[reach|alcanzar]] [[the|la]] [[table|mesa]]. [[He|Él]] [[is|es]] [[too|demasiado]] [[short|bajo]].",
     "content": {
-      "title": "Estatura",
-      "instructions": "Elige el adjetivo lógico si no alcanza la mesa.",
+      "title": "[[Height|Estatura]]",
+      "instructions": "[[If|Si]] [[he|él]] [[cannot|no puede]] [[reach|alcanzar]] [[it|ello]], [[he|él]] [[is|es]]...",
       "options": ["[[tall|alto]]", "[[short|bajo]]", "[[strong|fuerte]]"],
       "correctAnswer": 1,
-      "explanation": "Si no alcanza la mesa, es porque es bajo (short)."
+      "explanation": "[[Short|Bajo]] [[means|significa]] [[not|no]] [[tall|alto]]."
     },
-    "audioUrl": "audio/a1/unit-7/e15.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -292,13 +276,12 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[He|Él]] [[exercises|entrena]] [[every|cada]] [[day|día]] [[and|y]] [[lifts|levanta]] [[weights|pesas]]. [[He|Él]] [[is|es]] [[very|muy]] [[strong|fuerte]].",
     "content": {
-      "title": "Condición física",
-      "instructions": "Elige el adjetivo lógico para alguien que levanta pesas.",
+      "title": "[[Condition|Condición]] [[Physical|Física]]",
+      "instructions": "[[Someone|Alguien]] [[who|que]] [[lifts|levanta]] [[weights|pesas]] [[is|es]]...",
       "options": ["[[weak|débil]]", "[[strong|fuerte]]", "[[fat|gordo]]"],
       "correctAnswer": 1,
-      "explanation": "Levantar pesas a diario te hace fuerte (strong)."
+      "explanation": "[[Lifting|Levantar]] [[weights|pesas]] [[makes|hace]] [[you|te]] [[strong|fuerte]]."
     },
-    "audioUrl": "audio/a1/unit-7/e16.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -309,13 +292,12 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[She|Ella]] [[is|está]] [[sick|enferma]] [[and|y]] [[cannot|no puede]] [[walk|caminar]]. [[She|Ella]] [[feels|se siente]] [[very|muy]] [[weak|débil]].",
     "content": {
-      "title": "Condición física",
-      "instructions": "Elige el adjetivo lógico si alguien está enfermo.",
+      "title": "[[Condition|Condición]] [[Physical|Física]]",
+      "instructions": "[[When|Cuando]] [[you|tú]] [[are|estás]] [[sick|enfermo]], [[you|tú]] [[feel|te sientes]]...",
       "options": ["[[strong|fuerte]]", "[[weak|débil]]", "[[beautiful|hermosa]]"],
       "correctAnswer": 1,
-      "explanation": "Estar enfermo a menudo te hace sentir débil (weak)."
+      "explanation": "[[Weak|Débil]] [[is|es]] [[the|el]] [[opposite|opuesto]] [[of|de]] [[strong|fuerte]]."
     },
-    "audioUrl": "audio/a1/unit-7/e17.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -326,13 +308,12 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[The|La]] [[movie|de cine]] [[star|estrella]] [[is|es]] [[very|muy]] [[beautiful|hermosa]].",
     "content": {
-      "title": "Apariencia",
-      "instructions": "Elige el adjetivo de belleza.",
+      "title": "[[Appearance|Apariencia]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[positive|positivo]] [[adjective|adjetivo]].",
       "options": ["[[ugly|feo]]", "[[weak|débil]]", "[[beautiful|hermosa]]"],
       "correctAnswer": 2,
-      "explanation": "Las estrellas de cine suelen ser hermosas (beautiful)."
+      "explanation": "[[Beautiful|Hermoso/a]] [[is|es]] [[attractive|atractivo/a]]."
     },
-    "audioUrl": "audio/a1/unit-7/e18.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -343,13 +324,12 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[That|Ese]] [[monster|monstruo]] [[in|en]] [[the|la]] [[book|libro]] [[is|es]] [[very|muy]] [[ugly|feo]].",
     "content": {
-      "title": "Apariencia",
-      "instructions": "Elige el adjetivo opuesto a hermoso.",
+      "title": "[[Appearance|Apariencia]]",
+      "instructions": "[[Describe|Describe]] [[the|el]] [[scary|aterrador]] [[monster|monstruo]].",
       "options": ["[[beautiful|hermoso]]", "[[ugly|feo]]", "[[young|joven]]"],
       "correctAnswer": 1,
-      "explanation": "Un monstruo suele describirse como feo (ugly)."
+      "explanation": "[[Ugly|Feo]] [[is|es]] [[the|el]] [[opposite|opuesto]] [[of|de]] [[beautiful|hermoso]]."
     },
-    "audioUrl": "audio/a1/unit-7/e19.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -360,16 +340,14 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[She|Ella]] [[eats|come]] [[healthy|saludable]] [[and|y]] [[is|está]] [[very|muy]] [[thin|delgada]].",
     "content": {
-      "title": "Complexión",
-      "instructions": "Elige el adjetivo de complexión.",
+      "title": "[[Build|Complexión]]",
+      "instructions": "[[Identify|Identifica]] [[the|el]] [[adjective|adjetivo]] [[for|para]] [[a|una]] [[slim|delgada]] [[person|persona]].",
       "options": ["[[thin|delgada]]", "[[tall|alta]]", "[[old|vieja]]"],
       "correctAnswer": 0,
-      "explanation": "Thin se refiere a ser delgado/a."
+      "explanation": "[[Thin|Delgado/a]] [[means|significa]] [[having|teniendo]] [[little|poca]] [[fat|grasa]]."
     },
-    "audioUrl": "audio/a1/unit-7/e20.mp3",
     "topicName": "Vocabulary"
   },
-
   // ==========================================
   // VOCABULARY: HAIR & EYES (21-30)
   // ==========================================
@@ -381,8 +359,8 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[Blonde|Rubio]]. [[Brunette|Castaño]]. [[Redhead|Pelirrojo]]. [[Straight|Liso]]. [[Curly|Rizado]]. [[Long|Largo]]. [[Short|Corto]]. [[Blue eyes|Ojos azules]]. [[Green eyes|Ojos verdes]]. [[Brown eyes|Ojos marrones]].",
     "content": {
-      "title": "Vocabulario: Pelo y Ojos",
-      "instructions": "Aprende a describir el cabello y los ojos.",
+      "title": "[[Vocabulary|Vocabulario]]: [[Hair|Pelo]] [[and|y]] [[Eyes|Ojos]]",
+      "instructions": "[[Learn|Aprende]] [[to|a]] [[describe|describir]] [[features|rasgos]].",
       "items": [
         { "front": "[[Blonde|Rubio]]", "back": "Blonde" },
         { "front": "[[Brunette|Castaño]]", "back": "Brunette" },
@@ -396,7 +374,6 @@ export const UNIT_7_EXERCISES: Exercise[] = [
         { "front": "[[Brown eyes|Ojos marrones]]", "back": "Brown eyes" }
       ]
     },
-    "audioUrl": "audio/a1/unit-7/e21.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -407,18 +384,12 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[She|Ella]] [[has|tiene]] [[very|muy]] [[long|largo]] [[hair|pelo]]; [[it|él]] [[reaches|llega]] [[to|a]] [[her|su]] [[waist|cintura]].",
     "content": {
-      "title": "[[Hair|Cabello]] [[length|longitud]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[adjective|adjetivo]] [[based|basado]] [[on|en]] [[the|la]] [[description|descripción]].",
-      "questions": [
-        {
-          "question": "[[She|Ella]] [[has|tiene]] (_____) [[hair|pelo]]; [[it|él]] [[reaches|llega]] [[to|a]] [[her|su]] [[waist|cintura]].",
-          "options": ["[[short|corto]]", "[[long|largo]]", "[[blue|azul]]"],
-          "correctAnswer": 1,
-          "explanation": "[[If|Si]] [[it|él]] [[reaches|llega]] [[to|a]] [[the|la]] [[waist|cintura]], [[it|él]] [[is|es]] [[long|largo]]."
-        }
-      ]
+      "title": "[[Hair|Cabello]] [[Length|Longitud]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[adjective|adjetivo]] [[based|basado]] [[on|en]] [[the|la]] [[context|contexto]].",
+      "options": ["[[short|corto]]", "[[long|largo]]", "[[blue|azul]]"],
+      "correctAnswer": 1,
+      "explanation": "[[If|Si]] [[it|él]] [[reaches|llega]] [[the|la]] [[waist|cintura]], [[it|él]] [[is|es]] [[long|largo]]."
     },
-    "audioUrl": "audio/a1/unit-7/e22.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -429,18 +400,12 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[He|Él]] [[has|tiene]] [[no|nada de]] [[hair|pelo]]. [[He|Él]] [[is|es]] [[bald|calvo]].",
     "content": {
-      "title": "[[No|Sin]] [[hair|pelo]]",
-      "instructions": "[[Identify|Identifica]] [[the|el]] [[term|término]] [[for|para]] [[someone|alguien]] [[without|sin]] [[hair|pelo]].",
-      "questions": [
-        {
-          "question": "[[He|Él]] [[has|tiene]] [[no|nada de]] [[hair|pelo]]. [[He|Él]] [[is|es]] (_____).",
-          "options": ["[[curly|rizado]]", "[[straight|liso]]", "[[bald|calvo]]"],
-          "correctAnswer": 2,
-          "explanation": "[[Someone|Alguien]] [[without|sin]] [[hair|pelo]] [[is|es]] [[bald|calvo]]."
-        }
-      ]
+      "title": "[[No|Sin]] [[Hair|Pelo]]",
+      "instructions": "[[What|Cómo]] [[do|se]] [[you|tú]] [[call|llamas]] [[someone|a alguien]] [[without|sin]] [[hair|pelo]]?",
+      "options": ["[[curly|rizado]]", "[[straight|liso]]", "[[bald|calvo]]"],
+      "correctAnswer": 2,
+      "explanation": "[[Bald|Calvo]] [[means|significa]] [[no|sin]] [[hair|pelo]]."
     },
-    "audioUrl": "audio/a1/unit-7/e23.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -451,18 +416,12 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[Your|Tus]] [[eyes|ojos]] [[are|son]] [[the|del]] [[color|color]] [[of|de]] [[the|el]] [[ocean|océano]]. [[They|Ellos]] [[are|son]] [[blue|azules]].",
     "content": {
-      "title": "[[Eye|Ojo]] [[color|color]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[color|color]] [[suggested|sugerido]].",
-      "questions": [
-        {
-          "question": "[[Your|Tus]] [[eyes|ojos]] [[are|son]] [[the|del]] [[color|color]] [[of|de]] [[the|el]] [[ocean|océano]]. [[They|Ellos]] [[are|son]] (_____).",
-          "options": ["[[brown|marrones]]", "[[blue|azules]]", "[[green|verdes]]"],
-          "correctAnswer": 1,
-          "explanation": "[[The|El]] [[ocean|océano]] [[is|es]] [[blue|azul]]."
-        }
-      ]
+      "title": "[[Eye|Ojo]] [[Color|Color]]",
+      "instructions": "[[Identify|Identifica]] [[the|el]] [[color|color]] [[suggested|sugerido]].",
+      "options": ["[[brown|marrones]]", "[[blue|azules]]", "[[green|verdes]]"],
+      "correctAnswer": 1,
+      "explanation": "[[The|El]] [[ocean|océano]] [[is|es]] [[blue|azul]]."
     },
-    "audioUrl": "audio/a1/unit-7/e24.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -473,18 +432,12 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[She|Ella]] [[is|es]] [[a|una]] [[redhead|pelirroja]]. [[Her|Su]] [[hair|pelo]] [[is|es]] [[orange|naranja]] [[and|y]] [[red|rojo]].",
     "content": {
-      "title": "[[Hair|Cabello]] [[type|tipo]]",
-      "instructions": "[[Identify|Identifica]] [[the|el]] [[person|persona]] [[by|por]] [[hair|pelo]] [[color|color]].",
-      "questions": [
-        {
-          "question": "[[Her|Su]] [[hair|pelo]] [[is|es]] [[orange|naranja]] [[and|y]] [[red|rojo]]. [[She|Ella]] [[is|es]] [[a|una]] (_____).",
-          "options": ["[[blonde|rubia]]", "[[brunette|castaña]]", "[[redhead|pelirroja]]"],
-          "correctAnswer": 2,
-          "explanation": "[[Orange/red|Naranja/rojo]] [[hair|pelo]] [[is|es]] [[for|para]] [[a|una]] [[redhead|pelirroja]]."
-        }
-      ]
+      "title": "[[Hair|Cabello]] [[Type|Tipo]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[term|término]] [[for|para]] [[orange/red|naranja/rojo]] [[hair|pelo]].",
+      "options": ["[[blonde|rubia]]", "[[brunette|castaña]]", "[[redhead|pelirroja]]"],
+      "correctAnswer": 2,
+      "explanation": "[[Redhead|Pelirroja]] [[has|tiene]] [[reddish|rojizo]] [[hair|pelo]]."
     },
-    "audioUrl": "audio/a1/unit-7/e25.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -495,18 +448,12 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[My|Mi]] [[hair|pelo]] [[is|es]] [[not|no]] [[curly|rizado]]. [[It|Él]] [[is|es]] [[perfectly|perfectamente]] [[straight|liso]].",
     "content": {
-      "title": "[[Hair|Cabello]] [[style|estilo]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[opposite|opuesto]] [[of|de]] [[curly|rizado]].",
-      "questions": [
-        {
-          "question": "[[My|Mi]] [[hair|pelo]] [[is|es]] [[not|no]] [[curly|rizado]]. [[It|Él]] [[is|es]] (_____).",
-          "options": ["[[curly|rizado]]", "[[straight|liso]]", "[[long|largo]]"],
-          "correctAnswer": 1,
-          "explanation": "[[The|El]] [[opposite|opuesto]] [[of|de]] [[curly|rizado]] [[is|es]] [[straight|liso]]."
-        }
-      ]
+      "title": "[[Hair|Cabello]] [[Style|Estilo]]",
+      "instructions": "[[What|Cuál]] [[is|es]] [[the|el]] [[opposite|opuesto]] [[of|de]] [[curly|rizado]]?",
+      "options": ["[[curly|rizado]]", "[[straight|liso]]", "[[long|largo]]"],
+      "correctAnswer": 1,
+      "explanation": "[[Straight|Liso]] [[means|significa]] [[no|sin]] [[curls|rizos]]."
     },
-    "audioUrl": "audio/a1/unit-7/e26.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -517,18 +464,12 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[The|El]] [[baby|bebé]] [[has|tiene]] [[very|muy]] [[little|poco]] [[hair|pelo]]. [[It|Él]] [[is|es]] [[very|muy]] [[short|corto]].",
     "content": {
-      "title": "[[Hair|Cabello]] [[length|longitud]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[adjective|adjetivo]] [[for|para]] [[little|poco]] [[hair|pelo]].",
-      "questions": [
-        {
-          "question": "[[The|El]] [[baby|bebé]] [[has|tiene]] [[very|muy]] [[little|poco]] [[hair|pelo]]. [[It|Él]] [[is|es]] (_____).",
-          "options": ["[[long|largo]]", "[[short|corto]]", "[[blue|azul]]"],
-          "correctAnswer": 1,
-          "explanation": "[[Little|Poco]] [[hair|pelo]] [[is|es]] [[short|corto]]."
-        }
-      ]
+      "title": "[[Hair|Cabello]] [[Length|Longitud]]",
+      "instructions": "[[Describe|Describe]] [[the|el]] [[baby's|del bebé]] [[hair|pelo]].",
+      "options": ["[[long|largo]]", "[[short|corto]]", "[[blue|azul]]"],
+      "correctAnswer": 1,
+      "explanation": "[[Little|Poco]] [[hair|pelo]] [[is|es]] [[usually|normalmente]] [[short|corto]]."
     },
-    "audioUrl": "audio/a1/unit-7/e27.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -539,18 +480,12 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[Her|Sus]] [[eyes|ojos]] [[are|son]] [[the|del]] [[color|color]] [[of|de]] [[chocolate|chocolate]]. [[They|Ellos]] [[are|son]] [[brown|marrones]].",
     "content": {
-      "title": "[[Eye|Ojo]] [[color|color]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[color|color]] [[based|basado]] [[on|en]] [[the|la]] [[comparison|comparación]].",
-      "questions": [
-        {
-          "question": "[[Her|Sus]] [[eyes|ojos]] [[are|son]] [[the|del]] [[color|color]] [[of|de]] [[chocolate|chocolate]]. [[They|Ellos]] [[are|son]] (_____).",
-          "options": ["[[blue|azules]]", "[[green|verdes]]", "[[brown|marrones]]"],
-          "correctAnswer": 2,
-          "explanation": "[[Chocolate|Chocolate]] [[is|es]] [[brown|marrón]]."
-        }
-      ]
+      "title": "[[Eye|Ojo]] [[Color|Color]]",
+      "instructions": "[[What|Qué]] [[color|color]] [[is|es]] [[chocolate|chocolate]]?",
+      "options": ["[[blue|azules]]", "[[green|verdes]]", "[[brown|marrones]]"],
+      "correctAnswer": 2,
+      "explanation": "[[Chocolate|Chocolate]] [[is|es]] [[brown|marrón]]."
     },
-    "audioUrl": "audio/a1/unit-7/e28.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -561,18 +496,12 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[That|Esa]] [[girl|chica]] [[has|tiene]] [[yellow|amarillo]] [[hair|pelo]]. [[She|Ella]] [[is|es]] [[blonde|rubia]].",
     "content": {
-      "title": "[[Hair|Cabello]] [[color|color]]",
-      "instructions": "[[Identify|Identifica]] [[the|el]] [[term|término]] [[for|para]] [[light/yellow|claro/amarillo]] [[hair|pelo]].",
-      "questions": [
-        {
-          "question": "[[That|Esa]] [[girl|chica]] [[has|tiene]] [[yellow|amarillo]] [[hair|pelo]]. [[She|Ella]] [[is|es]] (_____).",
-          "options": ["[[brunette|castaña]]", "[[redhead|pelirroja]]", "[[blonde|rubia]]"],
-          "correctAnswer": 2,
-          "explanation": "[[Yellow|Amarillo]] [[hair|pelo]] [[is|es]] [[blonde|rubia]]."
-        }
-      ]
+      "title": "[[Hair|Cabello]] [[Color|Color]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[term|término]] [[for|para]] [[light|claro]] [[hair|pelo]].",
+      "options": ["[[brunette|castaña]]", "[[redhead|pelirroja]]", "[[blonde|rubia]]"],
+      "correctAnswer": 2,
+      "explanation": "[[Blonde|Rubia]] [[is|es]] [[yellow|amarillo]] [[hair|pelo]]."
     },
-    "audioUrl": "audio/a1/unit-7/e29.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -581,219 +510,196 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Describing People",
     "difficulty": "medium",
-    "transcript": "[[Is|¿Es]] [[his|su]] [[hair|pelo]] [[wavy|ondulado]] [[or|o]] [[curly|rizado]]? [[It|Él]] [[has|tiene]] [[many|muchos]] [[circles|círculos]]. [[It|Él]] [[is|es]] [[curly|rizado]].",
+    "transcript": "[[It|Él]] [[has|tiene]] [[many|muchos]] [[circles|círculos]] [[or|o]] [[rings|anillos]]. [[It|Él]] [[is|es]] [[curly|rizado]].",
     "content": {
-      "title": "[[Hair|Cabello]] [[texture|textura]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[texture|textura]] [[based|basada]] [[on|en]] [[the|la]] [[description|descripción]].",
-      "questions": [
-        {
-          "question": "[[It|Él]] [[has|tiene]] [[many|muchos]] [[circles|círculos]]. [[It|Él]] [[is|es]] (_____).",
-          "options": ["[[straight|liso]]", "[[curly|rizado]]", "[[bald|calvo]]"],
-          "correctAnswer": 1,
-          "explanation": "[[Circles|Círculos]] [[means|significa]] [[curly|rizado]]."
-        }
-      ]
+      "title": "[[Hair|Cabello]] [[Texture|Textura]]",
+      "instructions": "[[Describe|Describe]] [[hair|pelo]] [[with|con]] [[loops|bucles]].",
+      "options": ["[[straight|liso]]", "[[curly|rizado]]", "[[bald|calvo]]"],
+      "correctAnswer": 1,
+      "explanation": "[[Curly|Rizado]] [[means|significa]] [[having|teniendo]] [[curls|rizos]]."
     },
-    "audioUrl": "audio/a1/unit-7/e30.mp3",
     "topicName": "Vocabulary"
   },
-
   // ==========================================
-  // GRAMMAR: ADJECTIVE POSITION & VERB TO BE (31-40)
+  // GRAMMAR: ADJECTIVE PLACEMENT (31-40)
   // ==========================================
   {
     "id": "a1-u7-e31",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Adjective Position",
+    "topic": "Grammar",
     "difficulty": "medium",
-    "transcript": "[[He|Él]] [[is|es]] [[a|un]] [[young|joven]] [[man|hombre]].",
+    "transcript": "[[She|Ella]] [[has|tiene]] [[blue|azules]] [[eyes|ojos]].",
     "content": {
-      "title": "Orden de palabras",
-      "instructions": "Elige el orden correcto: adjetivo antes que nombre.",
-      "options": ["[[a man young|un hombre joven]]", "[[a young man|un joven hombre]]", "[[young a man|joven un hombre]]"],
-      "correctAnswer": 1,
-      "explanation": "En inglés, el adjetivo va antes del sustantivo."
+      "title": "[[Word|Palabra]] [[Order|Orden]]",
+      "instructions": "[[Adjectives|Adjetivos]] [[come|vienen]] _______ [[the|el]] [[noun|sustantivo]] [[in|en]] [[English|inglés]].",
+      "options": ["[[before|antes de]]", "[[after|después de]]", "[[inside|dentro de]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Adjectives|Adjetivos]] [[go|van]] [[before|antes]] ([[e.g.|p.ej.]], [[blue|azules]] [[eyes|ojos]])."
     },
-    "audioUrl": "audio/a1/unit-7/e31.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u7-e32",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Verb To Be + Adjectives",
+    "topic": "Grammar",
     "difficulty": "medium",
-    "transcript": "[[The|Los]] [[new|nuevos]] [[cars|coches]] [[are|son]] [[very|muy]] [[fast|rápidos]].",
+    "transcript": "[[He|Él]] [[is|es]] [[a|un]] [[tall|alto]] [[man|hombre]].",
     "content": {
-      "title": "Concordancia",
-      "instructions": "Elige la forma correcta del verbo to be.",
-      "options": ["[[is|es]]", "[[am|soy]]", "[[are|son]]"],
-      "correctAnswer": 2,
-      "explanation": "Cars es plural, por lo que usamos are."
+      "title": "[[Sentence|Oración]] [[Structure|Estructura]]",
+      "instructions": "[[Put|Pon]] [[the|las]] [[words|palabras]] [[in|en]] [[order|orden]].",
+      "correctSentence": "[[He|Él]] [[is|es/está]] [[a|un/una]] [[tall|alto/a]] [[man|hombre]].",
+      "words": ["[[man|hombre]].", "[[tall|alto/a]]", "[[a|un/una]]", "[[is|es/está]]", "[[He|Él]]"],
+      "explanation": "[[Subject|Sujeto]] + [[Verb|Verbo]] + [[Adjective|Adjetivo]] + [[Noun|Sustantivo]]."
     },
-    "audioUrl": "audio/a1/unit-7/e32.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u7-e33",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Adjective Position",
+    "topic": "Grammar",
     "difficulty": "medium",
-    "transcript": "[[I|Yo]] [[see|veo]] [[a|un]] [[beautiful|hermoso]] [[red|rojo]] [[bird|pájaro]].",
+    "transcript": "[[I|Yo]] [[have|tengo]] [[black|negro]] [[hair|pelo]].",
     "content": {
-      "title": "Múltiples adjetivos",
-      "instructions": "Elige el orden correcto: Calidad + Color + Nombre.",
-      "options": ["[[a red beautiful bird|un rojo hermoso pájaro]]", "[[a beautiful red bird|un hermoso rojo pájaro]]", "[[a bird beautiful red|un pájaro hermoso rojo]]"],
+      "title": "[[Description|Descripción]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[sentence|oración]].",
+      "options": ["[[I|Yo]] [[have|tengo]] [[hair|pelo]] [[black|negro]]", "[[I|Yo]] [[have|tengo]] [[black|negro]] [[hair|pelo]]", "[[I|Yo]] [[black|negro]] [[have|tengo]] [[hair|pelo]]"],
       "correctAnswer": 1,
-      "explanation": "El orden suele ser opinión/calidad antes que color."
+      "explanation": "[[Color|Color]] [[goes|va]] [[before|antes]] [[of|de]] '[[hair|pelo]]'."
     },
-    "audioUrl": "audio/a1/unit-7/e33.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u7-e34",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Adjective Position",
+    "topic": "Grammar",
     "difficulty": "medium",
-    "transcript": "[[They|Ellos]] [[have|tienen]] [[short|corto]] [[hair|pelo]].",
+    "transcript": "[[They|Ellos]] [[have|tienen]] [[green|verdes]] [[eyes|ojos]].",
     "content": {
-      "title": "Adjetivos invariables",
-      "instructions": "Elige la opción gramaticalmente correcta.",
-      "options": ["[[short hair|pelo corto]]", "[[hair short|pelo corto]]", "[[shorts hair|pelos cortos]]"],
-      "correctAnswer": 0,
-      "explanation": "Los adjetivos no se pluralizan y van delante del nombre."
+      "title": "[[Description|Descripción]]",
+      "instructions": "[[Build|Construye]] [[the|la]] [[description|descripción]].",
+      "correctSentence": "[[They|Ellos/Ellas]] [[have|tienen]] [[green|verde/verdes]] [[eyes|ojos]].",
+      "words": ["[[eyes|ojos]].", "[[green|verde/verdes]]", "[[have|tienen]]", "[[They|Ellos/Ellas]]"],
+      "explanation": "[[Green|Verde]] [[adjective|adjetivo]] [[before|antes de]] [[eyes|ojos]] [[noun|sustantivo]]."
     },
-    "audioUrl": "audio/a1/unit-7/e34.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u7-e35",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Verb To Be + Adjectives",
+    "topic": "Grammar",
     "difficulty": "medium",
-    "transcript": "[[Is|¿Es]] [[this|este]] [[heavy|pesado]] [[book|libro]] [[new|nuevo]]?",
+    "transcript": "[[It|Eso]] [[is|es]] [[a|un]] [[red|rojo]] [[car|coche]].",
     "content": {
-      "title": "Preguntas con adjetivos",
-      "instructions": "Elige el orden correcto en una pregunta.",
-      "options": ["[[Is this new book heavy?|¿Es este libro nuevo pesado?]]", "[[Is this book new heavy?|Incorrecto]]", "[[Is new heavy this book?|Incorrecto]]"],
+      "title": "[[Objects|Objetos]]",
+      "instructions": "[[Select|Selecciona]] [[the|la]] [[natural|natural]] [[order|orden]].",
+      "options": ["[[A|Un]] [[red|rojo]] [[car|coche]]", "[[A|Un]] [[car|coche]] [[red|rojo]]", "[[Red|Rojo]] [[a|un]] [[car|coche]]"],
       "correctAnswer": 0,
-      "explanation": "Verbo + Sujeto + Adjetivo predicativo."
+      "explanation": "[[Adjective|Adjetivo]] [[always|siempre]] [[precedes|precede]] [[the|al]] [[noun|sustantivo]]."
     },
-    "audioUrl": "audio/a1/unit-7/e35.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u7-e36",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Adjective Position",
+    "topic": "Grammar",
     "difficulty": "medium",
-    "transcript": "[[She|Ella]] [[wears|lleva]] [[a|un]] [[long|largo]] [[blue|azul]] [[dress|vestido]].",
+    "transcript": "[[The|Las]] [[flowers|flores]] [[are|son]] [[yellow|amarillas]].",
     "content": {
-      "title": "Construcción de frases",
-      "instructions": "Ordena las palabras correctamente.",
-      "correctSentence": "[[She|Ella]] [[wears|lleva]] [[a|un]] [[long|largo]] [[blue|azul]] [[dress|vestido]].",
-      "words": ["[[dress|vestido]].", "[[blue|azul]]", "[[long|largo]]", "[[a|un]]", "[[wears|lleva]]", "[[She|Ella]]"],
-      "explanation": "Orden: Sujeto + Verbo + Artículo + Adjetivo 1 + Adjetivo 2 + Nombre."
+      "title": "[[Verb|Verbo]] [[to|a]] [[be|ser]]",
+      "instructions": "[[After|Después]] [[the|el]] [[verb|verbo]] '[[to be|ser/estar]]', [[adjectives|adjetivos]] _______ [[change|cambian]].",
+      "options": ["[[do not|no]]", "[[always|siempre]]", "[[sometimes|a veces]]"],
+      "correctAnswer": 0,
+      "explanation": "[[In|En]] [[English|inglés]], [[adjectives|adjetivos]] [[do not|no]] [[have|tienen]] [[plural|plural]] [[forms|formas]]."
     },
-    "audioUrl": "audio/a1/unit-7/e36.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u7-e37",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Verb To Be + Adjectives",
+    "topic": "Grammar",
     "difficulty": "medium",
-    "transcript": "[[My|Mis]] [[old|viejos]] [[shoes|zapatos]] [[are|son]] [[black|negros]].",
+    "transcript": "[[You|Tú]] [[are|eres]] [[a|un]] [[good|buen]] [[student|estudiante]].",
     "content": {
-      "title": "Construcción de frases",
-      "instructions": "Ordena la frase.",
-      "correctSentence": "[[My|Mis]] [[old|viejos]] [[shoes|zapatos]] [[are|son]] [[black|negros]].",
-      "words": ["[[black|negros]].", "[[are|son]]", "[[shoes|zapatos]]", "[[old|viejos]]", "[[My|Mis]]"],
-      "explanation": "Posesivo + Adjetivo + Nombre + Verbo + Color."
+      "title": "[[Compliments|Cumplidos]]",
+      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]].",
+      "correctSentence": "[[You|Tú/Usted]] [[are|eres/estás]] [[a|un/una]] [[good|buen/bueno/a]] [[student|estudiante]].",
+      "words": ["[[student|estudiante]].", "[[good|buen/bueno/a]]", "[[a|un/una]]", "[[are|eres/estás]]", "[[You|Tú/Usted]]"],
+      "explanation": "[[Adjective|Adjetivo]] '[[good|bueno]]' [[before|antes]] [[the|el]] [[noun|sustantivo]]."
     },
-    "audioUrl": "audio/a1/unit-7/e37.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u7-e38",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Adjective Position",
+    "topic": "Grammar",
     "difficulty": "medium",
-    "transcript": "[[This|Esta]] [[is|es]] [[a|una]] [[very|muy]] [[big|grande]] [[city|ciudad]].",
+    "transcript": "[[My|Mi]] [[new|nuevo]] [[friend|amigo]].",
     "content": {
-      "title": "Uso de 'very'",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[This|Esta]] [[is|es]] [[a|una]] [[very|muy]] [[big|grande]] [[city|ciudad]].",
-      "words": ["[[city|ciudad]].", "[[big|grande]]", "[[very|muy]]", "[[a|una]]", "[[is|es]]", "[[This|Esta]]"],
-      "explanation": "Very va antes del adjetivo."
+      "title": "[[Possessives|Posesivos]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[combination|combinación]].",
+      "options": ["[[My|Mi]] [[friend|amigo]] [[new|nuevo]]", "[[My|Mi]] [[new|nuevo]] [[friend|amigo]]", "[[New|Nuevo]] [[my|mi]] [[friend|amigo]]"],
+      "correctAnswer": 1,
+      "explanation": "[[Possessive|Posesivo]] + [[Adjective|Adjetivo]] + [[Noun|Sustantivo]]."
     },
-    "audioUrl": "audio/a1/unit-7/e38.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u7-e39",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Verb To Be + Adjectives",
+    "topic": "Grammar",
     "difficulty": "medium",
-    "transcript": "[[Is|¿Está]] [[the|el]] [[green|verde]] [[apple|manzana]] [[sweet|dulce]]?",
+    "transcript": "[[She|Ella]] [[is|es]] [[very|muy]] [[beautiful|hermosa]].",
     "content": {
-      "title": "Pregunta compuesta",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Is|¿Está]] [[the|el]] [[green|verde]] [[apple|manzana]] [[sweet|dulce]]?",
-      "words": ["[[sweet|dulce]]?", "[[apple|manzana]]", "[[green|verde]]", "[[the|la]]", "[[Is|¿Es]]"],
-      "explanation": "Verbo + Artículo + Adjetivo (atributo) + Nombre + Adjetivo (predicativo)."
+      "title": "[[Emphasis|Énfasis]]",
+      "instructions": "[[Put|Pon]] [[in|en]] [[order|orden]].",
+      "correctSentence": "[[She|Ella]] [[is|es/está]] [[very|muy]] [[beautiful|hermosa]].",
+      "words": ["[[beautiful|hermosa]].", "[[very|muy]]", "[[is|es/está]]", "[[She|Ella]]"],
+      "explanation": "[[Subject|Sujeto]] + [[Verb|Verbo]] + [[Adverb|Adverbio]] + [[Adjective|Adjetivo]]."
     },
-    "audioUrl": "audio/a1/unit-7/e39.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u7-e40",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar Review",
+    "topic": "Grammar",
     "difficulty": "medium",
-    "transcript": "[[We|Nosotros]] [[are|somos]] [[not|no]] [[ugly|feos]], [[we|nosotros]] [[are|somos]] [[beautiful|hermosos]].",
+    "transcript": "[[It|Eso]] [[is|es]] [[a|una]] [[big|grande]] [[box|caja]].",
     "content": {
-      "title": "Afirmación y negación",
-      "instructions": "Ordena la frase compleja.",
-      "correctSentence": "[[We|Nosotros]] [[are|somos]] [[not|no]] [[ugly|feos]], [[we|nosotros]] [[are|somos]] [[beautiful|hermosos]].",
-      "words": ["[[beautiful|hermosos]].", "[[are|somos]]", "[[we|nosotros]]", "[[ugly|feos]],", "[[not|no]]", "[[are|somos]]", "[[We|Nosotros]]"],
-      "explanation": "Combinando frases negativas y afirmativas."
+      "title": "[[Size|Tamaño]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]].",
+      "options": ["[[A|Una]] [[big|grande]] [[box|caja]]", "[[A|Una]] [[box|caja]] [[big|grande]]", "[[Big|Grande]] [[a|una]] [[box|caja]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Size|Tamaño]] [[adjectives|adjetivos]] [[also|también]] [[go|van]] [[before|antes]]."
     },
-    "audioUrl": "audio/a1/unit-7/e40.mp3",
     "topicName": "Grammar"
   },
-
   // ==========================================
-  // VOCABULARY REVIEW (41-50)
+  // REVIEW & PRODUCTION (41-50)
   // ==========================================
   {
     "id": "a1-u7-e41",
-    "type": "fill-blank",
+    "type": "multiple-choice",
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[A|Un]] [[tomato|tomate]] [[is|es]] [[red|rojo]].",
+    "transcript": "[[The|Las]] [[leaves|hojas]] [[in|en]] [[autumn|otoño]] [[are|son]] [[brown|marrones]].",
     "content": {
-      "title": "Colores",
-      "instructions": "Escribe el color del tomate en inglés.",
-      "questions": [
-        {
-          "question": "[[A|Un]] [[tomato|tomate]] [[is|es]] (_____).",
-          "correctAnswer": "red",
-          "explanation": "Red es rojo."
-        }
-      ]
+      "title": "[[Review|Repaso]]: [[Colors|Colores]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]].",
+      "options": ["[[brown|marrones]]", "[[blue|azules]]", "[[pink|rosas]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Autumn|Otoño]] [[leaves|hojas]] [[turn|se vuelven]] [[brown|marrones]]."
     },
-    "audioUrl": "audio/a1/unit-7/e41.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -804,17 +710,12 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[The|El]] [[sun|sol]] [[is|es]] [[yellow|amarillo]].",
     "content": {
-      "title": "Colores",
-      "instructions": "Escribe el color del sol en inglés.",
-      "questions": [
-        {
-          "question": "[[The|El]] [[sun|sol]] [[is|es]] (_____).",
-          "correctAnswer": "yellow",
-          "explanation": "Yellow es amarillo."
-        }
-      ]
+      "title": "[[Review|Repaso]]",
+      "instructions": "[[Type|Escribe]] [[the|el]] [[color|color]] [[of|de]] [[the|el]] [[sun|sol]].",
+      "text": "[[The|El]] [[sun|sol]] [[is|es]] (_____).",
+      "answers": ["yellow"],
+      "explanation": "[[Yellow|Amarillo]] [[is|es]] [[the|el]] [[standard|estándar]] [[color|color]]."
     },
-    "audioUrl": "audio/a1/unit-7/e42.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -825,17 +726,12 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[He|Él]] [[is|es]] [[one|un]] [[hundred|cien]] [[years|años]] [[old|de edad]]. [[He|Él]] [[is|es]] [[very|muy]] [[old|viejo]].",
     "content": {
-      "title": "Rasgos físicos",
-      "instructions": "Escribe el adjetivo opuesto a 'young'.",
-      "questions": [
-        {
-          "question": "[[He|Él]] [[is|es]] (_____).",
-          "correctAnswer": "old",
-          "explanation": "Old es viejo o mayor."
-        }
-      ]
+      "title": "[[Physical|Físico]] [[Traits|Rasgos]]",
+      "instructions": "[[Type|Escribe]] [[the|el]] [[opposite|opuesto]] [[of|de]] '[[young|joven]]'.",
+      "text": "[[He|Él]] [[is|es]] (_____).",
+      "answers": ["old"],
+      "explanation": "[[Old|Viejo]] [[is|es]] [[for|para]] [[advanced|avanzada]] [[age|edad]]."
     },
-    "audioUrl": "audio/a1/unit-7/e43.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -846,17 +742,12 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[She|Ella]] [[has|tiene]] [[gold|dorado]] [[hair|pelo]]. [[She|Ella]] [[is|es]] [[blonde|rubia]].",
     "content": {
-      "title": "Descripción",
-      "instructions": "Escribe el término para alguien con pelo rubio.",
-      "questions": [
-        {
-          "question": "[[She|Ella]] [[is|es]] (_____).",
-          "correctAnswer": "blonde",
-          "explanation": "Blonde es rubia."
-        }
-      ]
+      "title": "[[Description|Descripción]]",
+      "instructions": "[[Type|Escribe]] [[the|el]] [[term|término]] [[for|para]] [[yellow|amarillo]] [[hair|pelo]].",
+      "text": "[[She|Ella]] [[is|es]] (_____).",
+      "answers": ["blonde"],
+      "explanation": "[[Blonde|Rubia]]."
     },
-    "audioUrl": "audio/a1/unit-7/e44.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -867,17 +758,12 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[My|Mis]] [[eyes|ojos]] [[are|son]] [[the|del]] [[color|color]] [[of|de]] [[trees|árboles]]. [[They|Ellos]] [[are|son]] [[green|verdes]].",
     "content": {
-      "title": "Ojos",
-      "instructions": "Escribe el color de ojos en inglés.",
-      "questions": [
-        {
-          "question": "[[My|Mis]] [[eyes|ojos]] [[are|son]] (_____).",
-          "correctAnswer": "green",
-          "explanation": "Green es verde."
-        }
-      ]
+      "title": "[[Eyes|Ojos]]",
+      "instructions": "[[Type|Escribe]] [[the|el]] [[nature|naturaleza]] [[color|color]].",
+      "text": "[[My|Mis]] [[eyes|ojos]] [[are|son]] (_____).",
+      "answers": ["green"],
+      "explanation": "[[Trees|Árboles]] [[are|son]] [[green|verdes]]."
     },
-    "audioUrl": "audio/a1/unit-7/e45.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -888,17 +774,12 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[The|El]] [[opposite|opuesto]] [[of|de]] [[tall|alto]] [[is|es]] [[short|bajo]].",
     "content": {
-      "title": "Opuestos",
-      "instructions": "Escribe el opuesto de 'tall'.",
-      "questions": [
-        {
-          "question": "[[The|El]] [[opposite|opuesto]] [[of|de]] [[tall|alto]] [[is|es]] (_____).",
-          "correctAnswer": "short",
-          "explanation": "Short es bajo."
-        }
-      ]
+      "title": "[[Opposites|Opuestos]]",
+      "instructions": "[[Type|Escribe]] [[the|el]] [[opposite|opuesto]] [[of|de]] '[[tall|alto]]'.",
+      "text": "[[The|El]] [[opposite|opuesto]] [[of|de]] [[tall|alto]] [[is|es]] (_____).",
+      "answers": ["short"],
+      "explanation": "[[Short|Bajo]]."
     },
-    "audioUrl": "audio/a1/unit-7/e46.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -909,17 +790,12 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[The|El]] [[opposite|opuesto]] [[of|de]] [[thin|delgado]] [[is|es]] [[fat|gordo]].",
     "content": {
-      "title": "Opuestos",
-      "instructions": "Escribe el opuesto de 'thin'.",
-      "questions": [
-        {
-          "question": "[[The|El]] [[opposite|opuesto]] [[of|de]] [[thin|delgado]] [[is|es]] (_____).",
-          "correctAnswer": "fat",
-          "explanation": "Fat es gordo."
-        }
-      ]
+      "title": "[[Opposites|Opuestos]]",
+      "instructions": "[[Type|Escribe]] [[the|el]] [[opposite|opuesto]] [[of|de]] '[[thin|delgado]]'.",
+      "text": "[[The|El]] [[opposite|opuesto]] [[of|de]] [[thin|delgado]] [[is|es]] (_____).",
+      "answers": ["fat"],
+      "explanation": "[[Fat|Gordo]]."
     },
-    "audioUrl": "audio/a1/unit-7/e47.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -930,17 +806,12 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[The|El]] [[opposite|opuesto]] [[of|de]] [[strong|fuerte]] [[is|es]] [[weak|débil]].",
     "content": {
-      "title": "Opuestos",
-      "instructions": "Escribe el opuesto de 'strong'.",
-      "questions": [
-        {
-          "question": "[[The|El]] [[opposite|opuesto]] [[of|de]] [[strong|fuerte]] [[is|es]] (_____).",
-          "correctAnswer": "weak",
-          "explanation": "Weak es débil."
-        }
-      ]
+      "title": "[[Opposites|Opuestos]]",
+      "instructions": "[[Type|Escribe]] [[the|el]] [[opposite|opuesto]] [[of|de]] '[[strong|fuerte]]'.",
+      "text": "[[The|El]] [[opposite|opuesto]] [[of|de]] [[strong|fuerte]] [[is|es]] (_____).",
+      "answers": ["weak"],
+      "explanation": "[[Weak|Débil]]."
     },
-    "audioUrl": "audio/a1/unit-7/e48.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -951,17 +822,12 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[The|El]] [[opposite|opuesto]] [[of|de]] [[beautiful|hermoso]] [[is|es]] [[ugly|feo]].",
     "content": {
-      "title": "Opuestos",
-      "instructions": "Escribe el opuesto de 'beautiful'.",
-      "questions": [
-        {
-          "question": "[[The|El]] [[opposite|opuesto]] [[of|de]] [[beautiful|hermoso]] [[is|es]] (_____).",
-          "correctAnswer": "ugly",
-          "explanation": "Ugly es feo."
-        }
-      ]
+      "title": "[[Opposites|Opuestos]]",
+      "instructions": "[[Type|Escribe]] [[the|el]] [[opposite|opuesto]] [[of|de]] '[[beautiful|hermoso]]'.",
+      "text": "[[The|El]] [[opposite|opuesto]] [[of|de]] [[beautiful|hermoso]] [[is|es]] (_____).",
+      "answers": ["ugly"],
+      "explanation": "[[Ugly|Feo]]."
     },
-    "audioUrl": "audio/a1/unit-7/e49.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -972,26 +838,19 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[The|El]] [[color|color]] [[between|entre]] [[black|negro]] [[and|y]] [[white|blanco]] [[is|es]] [[grey|gris]].",
     "content": {
-      "title": "Colores",
-      "instructions": "Escribe el color mezcla de negro y blanco.",
-      "questions": [
-        {
-          "question": "[[The|El]] [[color|color]] [[is|es]] (_____).",
-          "correctAnswer": "grey",
-          "explanation": "Grey es gris."
-        }
-      ]
+      "title": "[[Colors|Colores]]",
+      "instructions": "[[Type|Escribe]] [[the|el]] [[middle|medio]] [[color|color]].",
+      "text": "[[The|El]] [[color|color]] [[is|es]] (_____).",
+      "answers": ["grey"],
+      "explanation": "[[Grey|Gris]]."
     },
-    "audioUrl": "audio/a1/unit-7/e50.mp3",
     "topicName": "Vocabulary"
   },
-
   // ==========================================
   // READING COMPREHENSION (51-60)
-  // Two-phase structure: Text slide + 3 Question slides
   // ==========================================
 
-  // TEXT 1: MY COUSIN MARK
+  // READING 1: MARK (51)
   {
     "id": "a1-u7-e51",
     "type": "reading",
@@ -1000,167 +859,207 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[My|Mi]] [[cousin|primo]] [[Mark|Mark]] [[is|es]] [[a|un]] [[very|muy]] [[special|especial]] [[person|persona]]. [[He|Él]] [[is|es]] [[very|muy]] [[tall|alto]] [[and|y]] [[strong|fuerte]]. [[He|Él]] [[has|tiene]] [[short|corto]] [[curly|rizado]] [[brown|marrón]] [[hair|pelo]]. [[His|Sus]] [[eyes|ojos]] [[are|son]] [[big|grandes]] [[and|y]] [[green|verdes]]. [[Today|Hoy]], [[Mark|Mark]] [[is|está]] [[wearing|llevando]] [[a|una]] [[new|nueva]] [[blue|azul]] [[jacket|chaqueta]] [[and|y]] [[black|negros]] [[pants|pantalones]]. [[He|Él]] [[looks|se ve]] [[very|muy]] [[handsome|guapo]].",
     "content": {
-      "title": "Lectura: Mi primo Mark",
-      "instructions": "Lee el texto y prepárate para las preguntas.",
+      "title": "[[Reading|Lectura]]: [[My|Mi]] [[Cousin|Primo]] [[Mark|Mark]]",
+      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
       "text": "My cousin Mark is a very special person. He is very tall and strong. He has short curly brown hair. His eyes are big and green. Today, Mark is wearing a new blue jacket and black pants. He looks very handsome.",
-      "questions": []
+      "questions": [
+        {
+          "question": "[[How|Cómo]] [[is|es]] [[Mark's|de Mark]] [[hair|pelo]]?",
+          "options": ["[[Long and straight|Largo y liso]]", "[[Short and curly|Corto y rizado]]", "[[Blonde and wavy|Rubio y ondulado]]"],
+          "correctAnswer": 1,
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: '[[He|Él]] [[has|tiene]] [[short|corto]] [[curly|rizado]] [[brown|marrón]] [[hair|pelo]]'."
+        },
+        {
+          "question": "[[What|De qué]] [[color|color]] [[are|son]] [[his|sus]] [[eyes|ojos]]?",
+          "options": ["[[Blue|Azules]]", "[[Brown|Marrones]]", "[[Green|Verdes]]"],
+          "correctAnswer": 2,
+          "explanation": "[[His|Sus]] [[eyes|ojos]] [[are|son]] [[big|grandes]] [[and|y]] [[green|verdes]]."
+        },
+        {
+          "question": "[[What|Qué]] [[is|está]] [[he|él]] [[wearing|llevando]] [[today|hoy]]?",
+          "options": ["[[A red shirt|Una camisa roja]]", "[[A blue jacket|Una chaqueta azul]]", "[[A white coat|Un abrigo blanco]]"],
+          "correctAnswer": 1,
+          "explanation": "[[Mark|Mark]] [[is|está]] [[wearing|llevando]] [[a|una]] [[new|nueva]] [[blue|azul]] [[jacket|chaqueta]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-7/e51.mp3",
     "topicName": "Reading"
   },
+  // READING 2: THE GARDEN (52)
   {
     "id": "a1-u7-e52",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "hard",
-    "transcript": "[[How|Cómo]] [[is|es]] [[Mark's|de Mark]] [[hair|el pelo]]?",
-    "content": {
-      "title": "Pregunta 1",
-      "instructions": "Basado en el texto anterior, elige la respuesta correcta.",
-      "options": ["[[Long and straight|Largo y liso]]", "[[Short and curly|Corto y rizado]]", "[[Blonde and wavy|Rubio y ondulado]]"],
-      "correctAnswer": 1,
-      "explanation": "El texto dice: 'He has short curly brown hair'."
-    },
-    "audioUrl": "audio/a1/unit-7/e52.mp3",
-    "topicName": "Reading"
-  },
-  {
-    "id": "a1-u7-e53",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "hard",
-    "transcript": "[[What|De qué]] [[color|color]] [[are|son]] [[his|sus]] [[eyes|ojos]]?",
-    "content": {
-      "title": "Pregunta 2",
-      "instructions": "Basado en el texto anterior, elige la respuesta correcta.",
-      "options": ["[[Blue|Azules]]", "[[Brown|Marrones]]", "[[Green|Verdes]]"],
-      "correctAnswer": 2,
-      "explanation": "El texto dice: 'His eyes are big and green'."
-    },
-    "audioUrl": "audio/a1/unit-7/e53.mp3",
-    "topicName": "Reading"
-  },
-  {
-    "id": "a1-u7-e54",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "hard",
-    "transcript": "[[What|Qué]] [[is|está]] [[he|él]] [[wearing|llevando]] [[today|hoy]]?",
-    "content": {
-      "title": "Pregunta 3",
-      "instructions": "Basado en el texto anterior, elige la respuesta correcta.",
-      "options": ["[[A red shirt|Una camisa roja]]", "[[A blue jacket|Una chaqueta azul]]", "[[A white coat|Un abrigo blanco]]"],
-      "correctAnswer": 1,
-      "explanation": "El texto dice: 'Mark is wearing a new blue jacket'."
-    },
-    "audioUrl": "audio/a1/unit-7/e54.mp3",
-    "topicName": "Reading"
-  },
-
-  // TEXT 2: THE FAMILY GARDEN
-  {
-    "id": "a1-u7-e55",
     "type": "reading",
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
     "transcript": "[[Our|Nuestro]] [[family|de la familia]] [[garden|jardín]] [[is|es]] [[very|muy]] [[beautiful|hermoso]] [[in|en]] [[spring|primavera]]. [[There|Hay]] [[are|son]] [[many|muchas]] [[flowers|flores]]. [[The|Las]] [[roses|rosas]] [[are|son]] [[red|rojas]] [[and|y]] [[pink|rosas]]. [[The|Las]] [[daisies|margaritas]] [[are|son]] [[white|blancas]] [[with|con]] [[yellow|amarillo]] [[centers|centros]]. [[We|Nosotros]] [[also|también]] [[have|tenemos]] [[a|un]] [[big|grande]] [[brown|marrón]] [[wooden|de madera]] [[bench|banco]]. [[The|La]] [[grass|hierba]] [[is|está]] [[always|siempre]] [[green|verde]] [[and|y]] [[soft|suave]].",
     "content": {
-      "title": "Lectura: El jardín familiar",
-      "instructions": "Lee el texto y prepárate para las preguntas.",
+      "title": "[[Reading|Lectura]]: [[The|El]] [[Family|Familiar]] [[Garden|Jardín]]",
+      "instructions": "[[Read|Lee]] [[y|and]] [[answer|responde]].",
       "text": "Our family garden is very beautiful in spring. There are many flowers. The roses are red and pink. The daisies are white with yellow centers. We also have a big brown wooden bench. The grass is always green and soft.",
-      "questions": []
+      "questions": [
+        {
+          "question": "[[What|De qué]] [[color|color]] [[are|son]] [[the|las]] [[roses|rosas]]?",
+          "options": ["[[Blue and purple|Azules y moradas]]", "[[Red and pink|Rojas y rosas]]", "[[Yellow and white|Amarillas y blancas]]"],
+          "correctAnswer": 1,
+          "explanation": "[[The|Las]] [[roses|rosas]] [[are|son]] [[red|rojas]] [[and|y]] [[pink|rosas]]."
+        },
+        {
+          "question": "[[How|Cómo]] [[is|es]] [[the|el]] [[bench|banco]]?",
+          "options": ["[[Small and black|Pequeño y negro]]", "[[Big and brown|Grande y marrón]]", "[[Old and grey|Viejo y gris]]"],
+          "correctAnswer": 1,
+          "explanation": "[[It|Él]] [[is|es]] [[a|un]] [[big|grande]] [[brown|marrón]] [[wooden|de madera]] [[bench|banco]]."
+        },
+        {
+          "question": "[[When|Cuándo]] [[is|es]] [[the|el]] [[garden|jardín]] [[very|muy]] [[beautiful|hermoso]]?",
+          "options": ["[[In spring|En primavera]]", "[[In winter|En invierno]]", "[[In autumn|En otoño]]"],
+          "correctAnswer": 0,
+          "explanation": "[[The|El]] [[garden|jardín]] [[is|es]] [[beautiful|hermoso]] [[in|en]] [[spring|primavera]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-7/e55.mp3",
     "topicName": "Reading"
   },
+  // READING 3: THE ROOM (53)
   {
-    "id": "a1-u7-e56",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "hard",
-    "transcript": "[[What|De qué]] [[color|color]] [[are|son]] [[the|las]] [[roses|rosas]]?",
-    "content": {
-      "title": "Pregunta 1",
-      "instructions": "Basado en el texto anterior, elige la respuesta correcta.",
-      "options": ["[[Blue and purple|Azules y moradas]]", "[[Red and pink|Rojas y rosas]]", "[[Yellow and white|Amarillas y blancas]]"],
-      "correctAnswer": 1,
-      "explanation": "El texto dice: 'The roses are red and pink'."
-    },
-    "audioUrl": "audio/a1/unit-7/e56.mp3",
-    "topicName": "Reading"
-  },
-  {
-    "id": "a1-u7-e57",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "hard",
-    "transcript": "[[How|Cómo]] [[is|es]] [[the|el]] [[bench|banco]]?",
-    "content": {
-      "title": "Pregunta 2",
-      "instructions": "Basado en el texto anterior, elige la respuesta correcta.",
-      "options": ["[[Small and black|Pequeño y negro]]", "[[Big and brown|Grande y marrón]]", "[[Old and grey|Viejo y gris]]"],
-      "correctAnswer": 1,
-      "explanation": "El texto dice: 'a big brown wooden bench'."
-    },
-    "audioUrl": "audio/a1/unit-7/e57.mp3",
-    "topicName": "Reading"
-  },
-  {
-    "id": "a1-u7-e58",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "hard",
-    "transcript": "[[When|Cuándo]] [[is|es]] [[the|el]] [[garden|jardín]] [[very|muy]] [[beautiful|hermoso]]?",
-    "content": {
-      "title": "Pregunta 3",
-      "instructions": "Basado en el texto anterior, elige la respuesta correcta.",
-      "options": ["[[In spring|En primavera]]", "[[In winter|En invierno]]", "[[In autumn|En otoño]]"],
-      "correctAnswer": 0,
-      "explanation": "El texto dice: 'Our family garden is very beautiful in spring'."
-    },
-    "audioUrl": "audio/a1/unit-7/e58.mp3",
-    "topicName": "Reading"
-  },
-
-  // TEXT 3: MY NEW ROOM
-  {
-    "id": "a1-u7-e59",
+    "id": "a1-u7-e53",
     "type": "reading",
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
     "transcript": "[[My|Mi]] [[new|nueva]] [[room|habitación]] [[is|es]] [[small|pequeña]] [[but|pero]] [[cosy|acogedora]]. [[The|Las]] [[walls|paredes]] [[are|son]] [[light|claro]] [[blue|azul]]. [[I|Yo]] [[have|tengo]] [[a|una]] [[white|blanca]] [[desk|mesa]] [[and|y]] [[a|una]] [[grey|gris]] [[chair|silla]]. [[On|En]] [[the|la]] [[bed|cama]], [[there|hay]] [[is|un]] [[a|un]] [[purple|morado]] [[blanket|manta]]. [[My|Mi]] [[curtains|cortinas]] [[are|son]] [[yellow|amarillas]] [[and|y]] [[long|largas]]. [[I|Yo]] [[love|amo]] [[my|mi]] [[room|habitación]] [[because|porque]] [[it|esto]] [[is|es]] [[very|muy]] [[bright|luminosa]].",
     "content": {
-      "title": "Lectura: Mi nueva habitación",
-      "instructions": "Lee el texto y prepárate para la pregunta final.",
+      "title": "[[Reading|Lectura]]: [[My|Mi]] [[New|Nueva]] [[Room|Habitación]]",
+      "instructions": "[[Read|Lee]] [[y|and]] [[answer|responde]].",
       "text": "My new room is small but cosy. The walls are light blue. I have a white desk and a grey chair. On the bed, there is a purple blanket. My curtains are yellow and long. I love my room because it is very bright.",
-      "questions": []
+      "questions": [
+        {
+          "question": "[[What|De qué]] [[color|color]] [[are|son]] [[the|las]] [[walls|paredes]]?",
+          "options": ["[[Light blue|Azul claro]]", "[[White|Blanco]]", "[[Purple|Morado]]"],
+          "correctAnswer": 0,
+          "explanation": "[[The|Las]] [[walls|paredes]] [[are|son]] [[light|claro]] [[blue|azul]]."
+        },
+        {
+          "question": "[[What|De qué]] [[color|color]] [[is|es]] [[the|la]] [[blanket|manta]]?",
+          "options": ["[[Blue|Azul]]", "[[Purple|Morada]]", "[[Yellow|Amarilla]]"],
+          "correctAnswer": 1,
+          "explanation": "[[On|En]] [[the|la]] [[bed|cama]] [[there|hay]] [[is|es]] [[a|una]] [[purple|morada]] [[blanket|manta]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-7/e59.mp3",
     "topicName": "Reading"
+  },
+  // --- NEW EXERCISES (54-60) to replace merged questions and reach 60 ---
+  {
+    "id": "a1-u7-e54",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Vocabulary",
+    "difficulty": "medium",
+    "transcript": "[[She|Ella]] [[has|tiene]] [[blonde|rubio]] [[hair|pelo]].",
+    "content": {
+      "title": "[[Descriptions|Descripciones]]",
+      "instructions": "[[What|Qué]] [[color|color]] [[is|es]] [[the|el]] [[hair|pelo]] [[of|de]] [[a|una]] [[blonde|rubia]]?",
+      "options": ["[[Black|Negro]]", "[[Brown|Marrón]]", "[[Yellow|Amarillo]]"],
+      "correctAnswer": 2,
+      "explanation": "[[Blonde|Rubio]] [[is|es]] [[light/yellow|claro/amarillo]]."
+    },
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u7-e55",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Vocabulary",
+    "difficulty": "medium",
+    "transcript": "[[My|Mi]] [[friend|amigo]] [[is|es]] [[strong|fuerte]].",
+    "content": {
+      "title": "[[Traits|Rasgos]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[opposite|opuesto]] [[of|de]] '[[strong|fuerte]]'.",
+      "options": ["[[Weak|Débil]]", "[[Tall|Alto]]", "[[Fat|Gordo]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Weak|Débil]] [[is|es]] [[the|el]] [[opposite|opuesto]]."
+    },
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u7-e56",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "transcript": "[[I|Yo]] [[see|veo]] [[red|rojas]] [[roses|rosas]].",
+    "content": {
+      "title": "[[Adjective|Adjetivo]] [[Order|Orden]]",
+      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]].",
+      "correctSentence": "[[I|Yo]] [[see|veo]] [[red|rojo/a/os/as]] [[roses|rosas]].",
+      "words": ["[[roses|rosas]].", "[[red|rojo/a/os/as]]", "[[see|veo]]", "[[I|Yo]]"],
+      "explanation": "[[Red|Roja]] [[adjective|adjetivo]] [[before|antes de]] [[roses|rosas]] [[noun|sustantivo]]."
+    },
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u7-e57",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Vocabulary",
+    "difficulty": "medium",
+    "transcript": "[[Orange|Naranja]] [[juice|zumo]].",
+    "content": {
+      "title": "[[Colors|Colores]]",
+      "instructions": "[[Which|Qué]] [[two|dos]] [[colors|colores]] [[make|hacen]] [[orange|naranja]]?",
+      "options": ["[[Red and yellow|Rojo y amarillo]]", "[[Blue and yellow|Azul y amarillo]]", "[[Red and blue|Rojo y azul]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Red|Rojo]] + [[Yellow|Amarillo]] = [[Orange|Naranja]]."
+    },
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u7-e58",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Vocabulary",
+    "difficulty": "medium",
+    "transcript": "[[Grey|Gris]] [[clouds|nubes]].",
+    "content": {
+      "title": "[[Colors|Colores]]",
+      "instructions": "[[When|Cuando]] [[it|esto]] [[is|está]] [[cloudy|nublado]], [[the|el]] [[sky|cielo]] [[is|es]]...",
+      "options": ["[[blue|azul]]", "[[grey|gris]]", "[[pink|rosa]]"],
+      "correctAnswer": 1,
+      "explanation": "[[Clouds|Nubes]] [[are|son]] [[grey|grises]]."
+    },
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u7-e59",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "transcript": "[[It|Eso]] [[is|es]] [[a|una]] [[pink|rosa]] [[flower|flor]].",
+    "content": {
+      "title": "[[Descriptions|Descripciones]]",
+      "instructions": "[[Order|Ordena]] [[to|para]] [[describe|describir]] [[the|la]] [[flower|flor]].",
+      "correctSentence": "[[It|Esto/Eso]] [[is|es/está]] [[a|un/una]] [[pink|rosa]] [[flower|flor]].",
+      "words": ["[[flower|flor]].", "[[pink|rosa]]", "[[a|un/una]]", "[[is|es/está]]", "[[It|Esto/Eso]]"],
+      "explanation": "[[Pink|Rosa]] [[adjective|adjetivo]] [[before|antes de]] [[flower|flor]]."
+    },
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u7-e60",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "hard",
-    "transcript": "[[What|De qué]] [[color|color]] [[is|es]] [[the|la]] [[blanket|manta]]?",
+    "topic": "Review",
+    "difficulty": "medium",
+    "transcript": "[[Is|¿Es]] [[he|él]] [[tall|alto]] [[or|o]] [[short|bajo]]?",
     "content": {
-      "title": "Pregunta Final",
-      "instructions": "Basado en el texto anterior, elige la respuesta correcta.",
-      "options": ["[[Blue|Azul]]", "[[Purple|Morada]]", "[[Yellow|Amarilla]]"],
-      "correctAnswer": 1,
-      "explanation": "El texto dice: 'there is a purple blanket'."
+      "title": "[[Final|Final]] [[Review|Repaso]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[logical|lógico]] [[opposite|opuesto]] [[of|de]] [[long|largo]].",
+      "options": ["[[short|corto]]", "[[thin|delgado]]", "[[beautiful|hermoso]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Short|Corto]] [[is|es]] [[the|el]] [[opposite|opuesto]] [[of|de]] [[long|largo]]."
     },
-    "audioUrl": "audio/a1/unit-7/e60.mp3",
-    "topicName": "Reading"
+    "topicName": "Vocabulary"
   }
 ];

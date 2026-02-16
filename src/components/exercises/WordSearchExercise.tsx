@@ -1,7 +1,8 @@
 'use client';
 
-import { useState, useEffect, useCallback, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { CheckCircle, HelpCircle } from 'lucide-react';
+import { TranslatedText } from '../course/exercises/TranslatedText';
 
 interface WordSearchProps {
   words: string[];
@@ -220,7 +221,7 @@ export default function WordSearchExercise({ words, gridSize, clues, onComplete 
                   <div className="group relative ml-auto">
                     <HelpCircle className="w-4 h-4 text-orange-300 cursor-help" />
                     <div className="absolute bottom-full right-0 mb-2 w-48 p-2 bg-slate-800 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-10">
-                      {clues[originalIdx].clue}
+                      <TranslatedText text={clues[originalIdx].clue} />
                     </div>
                   </div>
                 )}
