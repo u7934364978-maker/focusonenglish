@@ -16,87 +16,18 @@
 
  ✓ Starting...
  ⚠ Mismatching @next/swc version, detected: 15.5.7 while Next.js is on 15.5.11. Please ensure these match
- ✓ Ready in 2s
- ✓ Compiled /middleware in 268ms (164 modules)
+ ✓ Ready in 1656ms
+ ✓ Compiled /middleware in 166ms (164 modules)
  ○ Compiling /debug/a1-preview/[unitId] ...
- ✓ Compiled /debug/a1-preview/[unitId] in 7.3s (2341 modules)
+ ✓ Compiled /debug/a1-preview/[unitId] in 5.5s (2341 modules)
 Supabase Browser Client Initializing with URL: https://nprqtjljoekoirlrjxlh.supabase.co
- GET /debug/a1-preview/unit-15 200 in 8566ms
- GET /debug/a1-preview/unit-15 200 in 8570ms
- GET /debug/a1-preview/unit-15 200 in 297ms
- GET /debug/a1-preview/unit-15 200 in 300ms
- GET /debug/a1-preview/unit-15 200 in 278ms
- GET /debug/a1-preview/unit-15 200 in 282ms
- GET /debug/a1-preview/unit-15 200 in 281ms
- GET /debug/a1-preview/unit-15 200 in 283ms
- ✓ Compiled in 1356ms (2341 modules)
- ✓ Compiled in 1686ms (1090 modules)
-Supabase Browser Client Initializing with URL: https://nprqtjljoekoirlrjxlh.supabase.co
- GET /debug/a1-preview/unit-16 200 in 429ms
- GET /debug/a1-preview/unit-16 200 in 435ms
- ○ Compiling / ...
- ✓ Compiled / in 4.4s (2424 modules)
-Supabase Browser Client Initializing with URL: https://nprqtjljoekoirlrjxlh.supabase.co
- ⨯ Failed to generate static paths for /debug/a1-preview/[unitId]:
-[Error: Cannot find module './vendor-chunks/@supabase.js'
-Require stack:
-- /Users/lidia/Documents/focusonenglish/focusonenglish/.next/server/webpack-runtime.js
-- /Users/lidia/Documents/focusonenglish/focusonenglish/.next/server/app/debug/a1-preview/[unitId]/page.js
-- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/server/require.js
-- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/server/load-components.js
-- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/build/utils.js
-- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/server/dev/static-paths-worker.js
-- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/compiled/jest-worker/processChild.js] {
-  type: 'Error',
-  code: 'MODULE_NOT_FOUND',
-  requireStack: [Array]
-}
- ⨯ Failed to generate static paths for /debug/a1-preview/[unitId]:
-[Error: Cannot find module './vendor-chunks/@supabase.js'
-Require stack:
-- /Users/lidia/Documents/focusonenglish/focusonenglish/.next/server/webpack-runtime.js
-- /Users/lidia/Documents/focusonenglish/focusonenglish/.next/server/app/debug/a1-preview/[unitId]/page.js
-- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/server/require.js
-- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/server/load-components.js
-- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/build/utils.js
-- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/server/dev/static-paths-worker.js
-- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/compiled/jest-worker/processChild.js] {
-  type: 'Error',
-  code: 'MODULE_NOT_FOUND',
-  requireStack: [Array]
-}
- GET /debug/a1-preview/unit-16 200 in 2878ms
- GET /debug/a1-preview/unit-16 200 in 2959ms
- ⨯ [Error: Cannot find module './vendor-chunks/@supabase.js'
-Require stack:
-- /Users/lidia/Documents/focusonenglish/focusonenglish/.next/server/webpack-runtime.js
-- /Users/lidia/Documents/focusonenglish/focusonenglish/.next/server/app/debug/a1-preview/[unitId]/page.js
-- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/server/require.js
-- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/server/load-components.js
-- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/build/utils.js
-- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/server/dev/static-paths-worker.js
-- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/compiled/jest-worker/processChild.js] {
-  type: 'Error',
-  code: 'MODULE_NOT_FOUND',
-  requireStack: [Array],
-  page: '/debug/a1-preview/unit-16'
-}
- ⨯ [Error: Cannot find module './vendor-chunks/@supabase.js'
-Require stack:
-- /Users/lidia/Documents/focusonenglish/focusonenglish/.next/server/webpack-runtime.js
-- /Users/lidia/Documents/focusonenglish/focusonenglish/.next/server/app/debug/a1-preview/[unitId]/page.js
-- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/server/require.js
-- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/server/load-components.js
-- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/build/utils.js
-- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/server/dev/static-paths-worker.js
-- /Users/lidia/Documents/focusonenglish/node_modules/next/dist/compiled/jest-worker/processChild.js] {
-  type: 'Error',
-  code: 'MODULE_NOT_FOUND',
-  requireStack: [Array],
-  page: '/debug/a1-preview/unit-16'
-}
- ○ Compiling /_error ...
- ✓ Compiled /_error in 1410ms (2770 modules)
- GET /debug/a1-preview/unit-16 500 in 2409ms
- GET /debug/a1-preview/unit-16 500 in 2409ms
+ GET /debug/a1-preview/unit-1 200 in 7057ms
+ GET /debug/a1-preview/unit-2 200 in 7062ms
+ GET /debug/a1-preview/unit-1 200 in 7066ms
+ GET /debug/a1-preview/unit-2 200 in 340ms
+ GET /debug/a1-preview/unit-1 200 in 344ms
+ GET /debug/a1-preview/unit-1 200 in 346ms
+ GET /debug/a1-preview/unit-1 200 in 391ms
+ GET /debug/a1-preview/unit-1 200 in 393ms
+ GET /debug/a1-preview/unit-2 200 in 394ms
 [?25h

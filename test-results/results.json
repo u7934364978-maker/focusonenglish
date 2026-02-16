@@ -128,20 +128,20 @@
   },
   "suites": [
     {
-      "title": "unit-22-expansion.spec.ts",
-      "file": "unit-22-expansion.spec.ts",
+      "title": "unit-preview-verification.spec.ts",
+      "file": "unit-preview-verification.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
-          "title": "Unit 22 Expansion",
-          "file": "unit-22-expansion.spec.ts",
+          "title": "Unit Preview Verification",
+          "file": "unit-preview-verification.spec.ts",
           "line": 3,
           "column": 6,
           "specs": [
             {
-              "title": "should have 60 exercises in Unit 22",
+              "title": "should load Unit 1 exercises without crashing",
               "ok": true,
               "tags": [],
               "tests": [
@@ -156,12 +156,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 4068,
+                      "duration": 1454,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T14:40:24.184Z",
+                      "startTime": "2026-02-16T15:34:56.471Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -169,13 +169,13 @@
                   "status": "expected"
                 }
               ],
-              "id": "4ebd07335fdcccc0e04d-bf764263e2b3240ebdfc",
-              "file": "unit-22-expansion.spec.ts",
+              "id": "a22833f6c39c32e4beda-62ccbc841d2d15c6e98d",
+              "file": "unit-preview-verification.spec.ts",
               "line": 4,
               "column": 7
             },
             {
-              "title": "should verify demonstratives (Exercise 11)",
+              "title": "should load Unit 2 exercises without crashing",
               "ok": true,
               "tags": [],
               "tests": [
@@ -190,12 +190,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 4063,
+                      "duration": 1444,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T14:40:24.192Z",
+                      "startTime": "2026-02-16T15:34:56.463Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -203,13 +203,13 @@
                   "status": "expected"
                 }
               ],
-              "id": "4ebd07335fdcccc0e04d-b7a5c7b980dd04984d54",
-              "file": "unit-22-expansion.spec.ts",
-              "line": 10,
+              "id": "a22833f6c39c32e4beda-fd55290068bb4180471a",
+              "file": "unit-preview-verification.spec.ts",
+              "line": 23,
               "column": 7
             },
             {
-              "title": "should verify possessives (Exercise 15)",
+              "title": "should navigate between exercises in Unit 1",
               "ok": true,
               "tags": [],
               "tests": [
@@ -224,12 +224,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 4047,
+                      "duration": 1526,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T14:40:24.192Z",
+                      "startTime": "2026-02-16T15:34:56.462Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -237,9 +237,9 @@
                   "status": "expected"
                 }
               ],
-              "id": "4ebd07335fdcccc0e04d-38bb94d30b873917d305",
-              "file": "unit-22-expansion.spec.ts",
-              "line": 17,
+              "id": "a22833f6c39c32e4beda-3cffd4b84eb7adcd7710",
+              "file": "unit-preview-verification.spec.ts",
+              "line": 38,
               "column": 7
             }
           ]
@@ -249,8 +249,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-02-15T14:40:23.198Z",
-    "duration": 6169.556,
+    "startTime": "2026-02-16T15:34:55.800Z",
+    "duration": 2407.254,
     "expected": 3,
     "skipped": 0,
     "unexpected": 0,

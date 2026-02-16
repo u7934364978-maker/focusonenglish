@@ -78,11 +78,16 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/06
 
 #### 6. Pedagogical Restructuring: Unit 2
 - [x] Audit Unit 2 (`src/lib/course/a1/unit-2.ts`) for pedagogical flow.
-- [ ] Remove all `flashcard` exercises and replace with active recognition.
-- [ ] Implement bilingual `[[English|Spanish]]` format for all 60 exercises.
-- [ ] Ensure non-triviality and quality standards.
-- [ ] Verification: Count check (60).
+- [x] Remove all `flashcard` exercises and replace with active recognition.
+- [x] Implement bilingual `[[English|Spanish]]` format for all 60 exercises.
+- [x] Ensure non-triviality and quality standards.
+- [x] Verification: Count check (60).
 
-#### 7. Course Standardization (Ongoing)
+#### 7. Critical Bug Fix & UI Sync
+- [x] Fix client-side exception in `Markdown` and `TranslatedText` by adding `'use client'`.
+- [x] Resolve build cache corruption by deleting `.next`.
+- [x] Synchronize `ExerciseRenderer` to use `Markdown` for all pedagogical feedback.
+
+#### 8. Course Standardization (Ongoing)
 - [ ] Visual verification of Reading UI and Interactive Translations in browser.
 - [ ] Test Plan Approval & E2E Testing.

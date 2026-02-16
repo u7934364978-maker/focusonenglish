@@ -19,8 +19,16 @@ function UnitPreviewContent() {
       try {
         const unitNumber = unitId.replace('unit-', '');
         const module = await import(`../../../../lib/course/a1/unit-${unitNumber}`);
-        const unitExercises = module[`UNIT_${unitNumber}_EXERCISES`];
-        setExercises(unitExercises);
+        // Support both UNIT_1_EXERCISES and UNIT_unit-1_EXERCISES or similar
+        const exportName = `UNIT_${unitNumber.toUpperCase().replace('-', '_')}_EXERCISES`;
+        const unitExercises = module[exportName] || module[`UNIT_${unitNumber}_EXERCISES`];
+        
+        if (!unitExercises) {
+          console.error(`Could not find exercises in module with export name ${exportName}`);
+          setExercises([]);
+        } else {
+          setExercises(unitExercises);
+        }
         
         // Handle index from query param
         const indexParam = searchParams.get('index');
