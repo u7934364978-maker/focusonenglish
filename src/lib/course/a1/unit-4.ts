@@ -1,13 +1,16 @@
 import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_4_EXERCISES: Exercise[] = [
+  // ==========================================
+  // MODULE 1: NUMBERS & OBJECTS (1-10)
+  // ==========================================
   {
     "id": "a1-u4-e1",
     "type": "flashcard",
     "level": "A1",
     "topic": "Numbers 1-10",
     "difficulty": "easy",
-    "transcript": "One. Two. Three. Four. Five. Six. Seven. Eight. Nine. Ten.",
+    "transcript": "[[One|Uno]]. [[Two|Dos]]. [[Three|Tres]]. [[Four|Cuatro]]. [[Five|Cinco]]. [[Six|Seis]]. [[Seven|Siete]]. [[Eight|Ocho]]. [[Nine|Nueve]]. [[Ten|Diez]].",
     "content": {
       "title": "Vocabulario: Números 1-10",
       "instructions": "Aprende los números básicos en inglés.",
@@ -33,7 +36,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Classroom Objects",
     "difficulty": "easy",
-    "transcript": "Pen. Pencil. Book. Notebook. Eraser. Ruler. Sharpener. Desk. Chair. Bag.",
+    "transcript": "[[Pen|Bolígrafo]]. [[Pencil|Lápiz]]. [[Book|Libro]]. [[Notebook|Libreta]]. [[Eraser|Goma de borrar]]. [[Ruler|Regla]]. [[Desk|Escritorio]]. [[Bag|Mochila]].",
     "content": {
       "title": "Objetos de Clase",
       "instructions": "Aprende el nombre de objetos comunes en el aula.",
@@ -45,7 +48,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         { "front": "[[Eraser|Goma de borrar]]", "back": "Goma" },
         { "front": "[[Ruler|Regla]]", "back": "Regla" },
         { "front": "[[Desk|Escritorio]]", "back": "Escritorio" },
-        { "front": "[[Bag|Mochila/Bolso]]", "back": "Mochila" }
+        { "front": "[[Bag|Mochila]]", "back": "Mochila" }
       ]
     },
     "audioUrl": "audio/a1/unit-4/e2.mp3",
@@ -57,22 +60,16 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Articles: a/an",
     "difficulty": "easy",
-    "transcript": "A book. A pen. An eraser. An orange.",
+    "transcript": "[[A|Un]] [[book|libro]]. [[An|Una]] [[eraser|goma]].",
     "content": {
       "title": "Uso de 'a' y 'an'",
-      "instructions": "Elige el artículo correcto.",
+      "instructions": "Elige el artículo correcto según el sonido inicial.",
       "questions": [
         {
           "question": "_______ [[book|libro]]",
-          "options": ["[[a|un]]", "[[an|un]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'a' antes de sonidos de consonante."
-        },
-        {
-          "question": "_______ [[eraser|goma]]",
-          "options": ["[[a|una]]", "[[an|una]]"],
+          "options": ["[[an|un]]", "[[a|un]]"],
           "correctAnswer": 1,
-          "explanation": "Usamos 'an' antes de sonidos de vocal."
+          "explanation": "Book empieza con consonante, usamos 'a'."
         }
       ]
     },
@@ -85,16 +82,16 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Numbers 1-10",
     "difficulty": "easy",
-    "transcript": "How many books? Three books.",
+    "transcript": "[[I|Yo]] [[have|tengo]] [[three|tres]] [[books|libros]].",
     "content": {
       "title": "Contando Objetos",
-      "instructions": "¿Cuántos libros hay?",
+      "instructions": "Elige el número correcto para (3).",
       "questions": [
         {
           "question": "[[I|Yo]] [[have|tengo]] (3) _______ [[books|libros]].",
-          "options": ["[[three|tres]]", "[[two|dos]]", "[[four|cuatro]]"],
-          "correctAnswer": 0,
-          "explanation": "Three es el número 3."
+          "options": ["[[two|dos]]", "[[three|tres]]", "[[four|cuatro]]"],
+          "correctAnswer": 1,
+          "explanation": "3 se dice 'three' en inglés."
         }
       ]
     },
@@ -107,13 +104,13 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Classroom Objects",
     "difficulty": "easy",
-    "transcript": "This is a pencil.",
+    "transcript": "[[This|Esto]] [[is|es]] [[a|un]] [[pencil|lápiz]].",
     "content": {
       "title": "Identificando Objetos",
-      "instructions": "Ordena las palabras.",
+      "instructions": "Ordena las palabras para identificar el objeto.",
       "correctSentence": "[[This|Esto]] [[is|es]] [[a|un]] [[pencil|lápiz]].",
       "words": ["[[pencil|lápiz]].", "[[is|es]]", "[[a|un]]", "[[This|Esto]]"],
-      "explanation": "Estructura básica para identificar un objeto."
+      "explanation": "This + is + a/an + noun."
     },
     "audioUrl": "audio/a1/unit-4/e5.mp3",
     "topicName": "Grammar"
@@ -124,16 +121,16 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Articles: a/an",
     "difficulty": "easy",
-    "transcript": "It is an apple.",
+    "transcript": "[[It|Eso]] [[is|es]] [[an|una]] [[orange|naranja]].",
     "content": {
       "title": "Vocales y Artículos",
-      "instructions": "Elige el artículo para 'apple'.",
+      "instructions": "Elige el artículo para una palabra que empieza por vocal.",
       "questions": [
         {
-          "question": "[[It|Eso]] [[is|es]] (_____) [[apple|manzana]].",
+          "question": "[[It|Eso]] [[is|es]] (_____) [[orange|naranja]].",
           "options": ["[[an|una]]", "[[a|una]]"],
           "correctAnswer": 0,
-          "explanation": "'Apple' empieza con vocal (a), usamos 'an'."
+          "explanation": "'Orange' empieza por vocal, usamos 'an'."
         }
       ]
     },
@@ -146,13 +143,13 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Numbers 1-10",
     "difficulty": "easy",
-    "transcript": "I have seven pencils.",
+    "transcript": "[[I|Yo]] [[have|tengo]] [[seven|siete]] [[pencils|lápices]].",
     "content": {
       "title": "Cantidad",
-      "instructions": "Ordena la oración.",
+      "instructions": "Ordena la oración para indicar que tienes 7 lápices.",
       "correctSentence": "[[I|Yo]] [[have|tengo]] [[seven|siete]] [[pencils|lápices]].",
       "words": ["[[pencils|lápices]].", "[[seven|siete]]", "[[have|tengo]]", "[[I|Yo]]"],
-      "explanation": "Seven es el número 7."
+      "explanation": "Seven corresponde al número 7."
     },
     "audioUrl": "audio/a1/unit-4/e7.mp3",
     "topicName": "Vocabulary"
@@ -163,15 +160,15 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Classroom Objects",
     "difficulty": "easy",
-    "transcript": "Where is my notebook?",
+    "transcript": "[[Where|Dónde]] [[is|está]] [[my|mi]] [[notebook|libreta]]?",
     "content": {
       "title": "Buscando Objetos",
-      "instructions": "Elige la palabra para 'libreta'.",
+      "instructions": "Elige la palabra correcta para 'libreta'.",
       "questions": [
         {
           "question": "[[Where|Dónde]] [[is|está]] [[my|mi]] (_____) ?",
-          "options": ["[[notebook|libreta]]", "[[pen|bolígrafo]]", "[[ruler|regla]]"],
-          "correctAnswer": 0,
+          "options": ["[[pen|bolígrafo]]", "[[ruler|regla]]", "[[notebook|libreta]]"],
+          "correctAnswer": 2,
           "explanation": "Notebook significa libreta o cuaderno."
         }
       ]
@@ -185,13 +182,13 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Articles: a/an",
     "difficulty": "easy",
-    "transcript": "I need a notebook and an eraser.",
+    "transcript": "[[I|Yo]] [[need|necesito]] [[a|una]] [[notebook|libreta]] [[and|y]] [[an|una]] [[eraser|goma]].",
     "content": {
       "title": "Objetos y Artículos",
-      "instructions": "Ordena la oración.",
+      "instructions": "Ordena la oración usando 'a' y 'an' correctamente.",
       "correctSentence": "[[I|Yo]] [[need|necesito]] [[a|una]] [[notebook|libreta]] [[and|y]] [[an|una]] [[eraser|goma]].",
       "words": ["[[eraser|goma]].", "[[an|una]]", "[[and|y]]", "[[notebook|libreta]]", "[[a|una]]", "[[need|necesito]]", "[[I|Yo]]"],
-      "explanation": "Practicamos a vs an con objetos de clase."
+      "explanation": "A + notebook (consonante), An + eraser (vocal)."
     },
     "audioUrl": "audio/a1/unit-4/e9.mp3",
     "topicName": "Grammar"
@@ -202,16 +199,16 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Numbers 1-10",
     "difficulty": "easy",
-    "transcript": "One, two, three, four, five.",
+    "transcript": "[[One|Uno]], [[two|dos]], [[three|tres]], [[four|cuatro]], [[five|cinco]].",
     "content": {
       "title": "Secuencia Numérica",
-      "instructions": "¿Qué número sigue?",
+      "instructions": "¿Qué número sigue al cuatro (4)?",
       "questions": [
         {
           "question": "[[Four|Cuatro]], (_____).",
           "options": ["[[five|cinco]]", "[[six|seis]]", "[[three|tres]]"],
           "correctAnswer": 0,
-          "explanation": "Después del 4 (four) viene el 5 (five)."
+          "explanation": "La secuencia es 4, 5."
         }
       ]
     },
@@ -224,13 +221,13 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Classroom Objects",
     "difficulty": "easy",
-    "transcript": "The pen is on the desk.",
+    "transcript": "[[The|El]] [[pen|bolígrafo]] [[is|está]] [[on|en]] [[the|el]] [[desk|escritorio]].",
     "content": {
       "title": "Ubicación Básica",
-      "instructions": "Ordena las palabras.",
+      "instructions": "Ordena las palabras para situar el objeto.",
       "correctSentence": "[[The|El]] [[pen|bolígrafo]] [[is|está]] [[on|en]] [[the|el]] [[desk|escritorio]].",
       "words": ["[[desk|escritorio]].", "[[the|el]]", "[[on|en]]", "[[is|está]]", "[[pen|bolígrafo]]", "[[The|El]]"],
-      "explanation": "Estructura: El objeto + is + lugar."
+      "explanation": "Estructura: The + object + is + on + the + place."
     },
     "audioUrl": "audio/a1/unit-4/e11.mp3",
     "topicName": "Vocabulary"
@@ -241,16 +238,16 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Numbers 1-10",
     "difficulty": "easy",
-    "transcript": "I have eight apples.",
+    "transcript": "[[I|Yo]] [[have|tengo]] [[eight|ocho]] [[apples|manzanas]].",
     "content": {
       "title": "Contar Frutas",
-      "instructions": "Elige el número 8.",
+      "instructions": "Identifica el número 8 en letras.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[have|tengo]] (_____) [[apples|manzanas]].",
-          "options": ["[[eight|ocho]]", "[[nine|nueve]]", "[[seven|siete]]"],
-          "correctAnswer": 0,
-          "explanation": "Eight es el número 8."
+          "question": "[[I|Yo]] [[have|tengo]] (8) (_____) [[apples|manzanas]].",
+          "options": ["[[nine|nueve]]", "[[eight|ocho]]", "[[seven|siete]]"],
+          "correctAnswer": 1,
+          "explanation": "8 se dice 'eight'."
         }
       ]
     },
@@ -263,13 +260,13 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Classroom Objects",
     "difficulty": "easy",
-    "transcript": "Open your book, please.",
+    "transcript": "[[Open|Abre]] [[your|tu]] [[book|libro]], [[please|por favor]].",
     "content": {
       "title": "Instrucciones de Clase",
-      "instructions": "Ordena la orden del profesor.",
+      "instructions": "Ordena la instrucción del profesor.",
       "correctSentence": "[[Open|Abre]] [[your|tu]] [[book|libro]], [[please|por favor]].",
       "words": ["[[please|por favor]].", "[[book|libro]],", "[[your|tu]]", "[[Open|Abre]]"],
-      "explanation": "Imperativo simple para instrucciones."
+      "explanation": "Usamos el imperativo para instrucciones."
     },
     "audioUrl": "audio/a1/unit-4/e13.mp3",
     "topicName": "Vocabulary"
@@ -280,16 +277,16 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Articles: a/an",
     "difficulty": "easy",
-    "transcript": "It is a ruler.",
+    "transcript": "[[It|Eso]] [[is|es]] [[a|una]] [[ruler|regla]].",
     "content": {
       "title": "Artículos",
       "instructions": "Elige el artículo para 'ruler'.",
       "questions": [
         {
           "question": "[[It|Eso]] [[is|es]] (_____) [[ruler|regla]].",
-          "options": ["[[a|una]]", "[[an|una]]"],
-          "correctAnswer": 0,
-          "explanation": "'Ruler' empieza por consonante, usamos 'a'."
+          "options": ["[[an|una]]", "[[a|una]]"],
+          "correctAnswer": 1,
+          "explanation": "'Ruler' empieza con consonante, usamos 'a'."
         }
       ]
     },
@@ -302,13 +299,13 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Numbers 1-10",
     "difficulty": "easy",
-    "transcript": "There are ten students.",
+    "transcript": "[[There|Hay]] [[are|son]] [[ten|diez]] [[students|estudiantes]].",
     "content": {
       "title": "Hay diez estudiantes",
-      "instructions": "Ordena las palabras.",
+      "instructions": "Ordena la frase indicando la cantidad (10).",
       "correctSentence": "[[There|Hay]] [[are|son]] [[ten|diez]] [[students|estudiantes]].",
       "words": ["[[students|estudiantes]].", "[[ten|diez]]", "[[are|son]]", "[[There|Hay]]"],
-      "explanation": "Ten es el número 10."
+      "explanation": "Ten es 10."
     },
     "audioUrl": "audio/a1/unit-4/e15.mp3",
     "topicName": "Vocabulary"
@@ -319,16 +316,16 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Classroom Objects",
     "difficulty": "easy",
-    "transcript": "I sit on a chair.",
+    "transcript": "[[I|Yo]] [[sit|me siento]] [[on|en]] [[a|una]] [[chair|silla]].",
     "content": {
       "title": "Muebles de Clase",
-      "instructions": "¿Dónde te sientas?",
+      "instructions": "Elige el objeto donde te sientas.",
       "questions": [
         {
           "question": "[[I|Yo]] [[sit|me siento]] [[on|en]] [[a|una]] (_____) .",
           "options": ["[[chair|silla]]", "[[bag|mochila]]", "[[ruler|regla]]"],
           "correctAnswer": 0,
-          "explanation": "Chair significa silla."
+          "explanation": "Chair es silla."
         }
       ]
     },
@@ -341,13 +338,13 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Articles: a/an",
     "difficulty": "easy",
-    "transcript": "He has an office.",
+    "transcript": "[[He|Él]] [[has|tiene]] [[an|una]] [[office|oficina]].",
     "content": {
       "title": "Artículos y Lugares",
-      "instructions": "Ordena la oración.",
+      "instructions": "Ordena la oración usando el artículo para 'office'.",
       "correctSentence": "[[He|Él]] [[has|tiene]] [[an|una]] [[office|oficina]].",
       "words": ["[[office|oficina]].", "[[an|una]]", "[[has|tiene]]", "[[He|Él]]"],
-      "explanation": "Office empieza por vocal, usamos 'an'."
+      "explanation": "'An' antes de vocal."
     },
     "audioUrl": "audio/a1/unit-4/e17.mp3",
     "topicName": "Grammar"
@@ -358,15 +355,15 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Numbers 1-10",
     "difficulty": "easy",
-    "transcript": "Two plus two is four.",
+    "transcript": "[[Two|Dos]] [[plus|más]] [[two|dos]] [[is|es]] [[four|cuatro]].",
     "content": {
       "title": "Matemáticas Básicas",
-      "instructions": "Resuelve la suma.",
+      "instructions": "Resuelve la suma (2 + 2).",
       "questions": [
         {
           "question": "[[Two|Dos]] [[plus|más]] [[two|dos]] [[is|es]] (_____) .",
-          "options": ["[[four|cuatro]]", "[[three|tres]]", "[[five|cinco]]"],
-          "correctAnswer": 0,
+          "options": ["[[three|tres]]", "[[five|cinco]]", "[[four|cuatro]]"],
+          "correctAnswer": 2,
           "explanation": "2 + 2 = 4 (four)."
         }
       ]
@@ -380,10 +377,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Classroom Objects",
     "difficulty": "easy",
-    "transcript": "My bag is big.",
+    "transcript": "[[My|Mi]] [[bag|mochila]] [[is|es]] [[big|grande]].",
     "content": {
       "title": "Descripción",
-      "instructions": "Ordena la oración.",
+      "instructions": "Ordena la frase para describir tu mochila.",
       "correctSentence": "[[My|Mi]] [[bag|mochila]] [[is|es]] [[big|grande]].",
       "words": ["[[big|grande]].", "[[is|es]]", "[[bag|mochila]]", "[[My|Mi]]"],
       "explanation": "Bag significa mochila."
@@ -397,16 +394,16 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Numbers 1-10",
     "difficulty": "easy",
-    "transcript": "Six, seven, eight, nine, ten.",
+    "transcript": "[[Six|Seis]], [[seven|siete]], [[eight|ocho]], [[nine|nueve]], [[ten|diez]].",
     "content": {
-      "title": "Secuencias",
-      "instructions": "¿Qué número falta?",
+      "title": "La decena",
+      "instructions": "¿Qué número sigue al nueve (9)?",
       "questions": [
         {
-          "question": "[[Six|Seis]], [[seven|siete]], (_____), [[nine|nueve]].",
-          "options": ["[[eight|ocho]]", "[[ten|diez]]", "[[five|cinco]]"],
+          "question": "[[Nine|Nueve]], (_____) .",
+          "options": ["[[ten|diez]]", "[[eight|ocho]]", "[[one|uno]]"],
           "correctAnswer": 0,
-          "explanation": "El número entre el 7 y el 9 es el 8 (eight)."
+          "explanation": "Después del 9 viene el 10 (ten)."
         }
       ]
     },
@@ -417,18 +414,18 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e21",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Numbers 1-10",
-    "difficulty": "easy",
-    "transcript": "I have one brother.",
+    "topic": "Classroom Objects",
+    "difficulty": "medium",
+    "transcript": "[[The|El]] [[eraser|borrador]] [[is|es]] [[white|blanco]].",
     "content": {
-      "title": "Números",
-      "instructions": "Elige el número 1.",
+      "title": "Borrador Blanco",
+      "instructions": "Elige la palabra correcta para 'borrador'.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[have|tengo]] (_____) [[brother|hermano]].",
-          "options": ["[[one|uno]]", "[[ten|diez]]", "[[two|dos]]"],
+          "question": "[[The|El]] (_____) [[is|es]] [[white|blanco]].",
+          "options": ["[[eraser|borrador]]", "[[pencil|lápiz]]", "[[desk|escritorio]]"],
           "correctAnswer": 0,
-          "explanation": "One es el número 1."
+          "explanation": "Eraser significa borrador o goma."
         }
       ]
     },
@@ -437,100 +434,95 @@ export const UNIT_4_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u4-e22",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Classroom Objects",
-    "difficulty": "easy",
-    "transcript": "I write with a pencil.",
+    "topic": "Articles: a/an",
+    "difficulty": "medium",
+    "transcript": "[[I|Yo]] [[have|tengo]] [[a|un]] [[blue|azul]] [[notebook|cuaderno]].",
     "content": {
-      "title": "Escribir",
-      "instructions": "¿Con qué escribes?",
-      "questions": [
-        {
-          "question": "[[I|Yo]] [[write|escribo]] [[with|con]] [[a|un]] (_____) .",
-          "options": ["[[pencil|lápiz]]", "[[desk|escritorio]]", "[[eraser|goma]]"],
-          "correctAnswer": 0,
-          "explanation": "Pencil es la herramienta para escribir."
-        }
-      ]
+      "title": "Adjetivo y Artículo",
+      "instructions": "Ordena la frase: el adjetivo va antes del nombre.",
+      "correctSentence": "[[I|Yo]] [[have|tengo]] [[a|un]] [[blue|azul]] [[notebook|cuaderno]].",
+      "words": ["[[notebook|cuaderno]].", "[[blue|azul]]", "[[a|un]]", "[[have|tengo]]", "[[I|Yo]]"],
+      "explanation": "A + blue + notebook. El artículo depende del sonido de 'blue'."
     },
     "audioUrl": "audio/a1/unit-4/e22.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u4-e23",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Articles: a/an",
-    "difficulty": "easy",
-    "transcript": "She has an umbrella.",
+    "topic": "Numbers 1-10",
+    "difficulty": "medium",
+    "transcript": "[[There|Hay]] [[are|son]] [[six|seis]] [[chairs|sillas]] [[in|en]] [[the|la]] [[room|habitación]].",
     "content": {
-      "title": "Artículos",
-      "instructions": "Elige el artículo correcto.",
+      "title": "Sillas en el aula",
+      "instructions": "Identifica el número 6.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[has|tiene]] (_____) [[umbrella|paraguas]].",
-          "options": ["[[an|un]]", "[[a|un]]"],
-          "correctAnswer": 0,
-          "explanation": "Umbrella empieza por vocal, usamos 'an'."
+          "question": "[[There|Hay]] [[are|son]] (6) (_____) [[chairs|sillas]] [[in|en]] [[the|la]] [[room|habitación]].",
+          "options": ["[[seven|siete]]", "[[six|seis]]", "[[five|cinco]]"],
+          "correctAnswer": 1,
+          "explanation": "6 se dice 'six'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-4/e23.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u4-e24",
     "type": "sentence-building",
     "level": "A1",
     "topic": "Classroom Objects",
-    "difficulty": "easy",
-    "transcript": "Where is the ruler?",
+    "difficulty": "medium",
+    "transcript": "[[Where|Dónde]] [[is|está]] [[the|la]] [[red|roja]] [[pen|bolígrafo]]?",
     "content": {
-      "title": "La Regla",
+      "title": "Buscando el Boli",
       "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Where|Dónde]] [[is|está]] [[the|la]] [[ruler|regla]]?",
-      "words": ["[[ruler|regla]]?", "[[the|la]]", "[[is|está]]", "[[Where|Dónde]]"],
-      "explanation": "Pregunta por la ubicación de un objeto."
+      "correctSentence": "[[Where|Dónde]] [[is|está]] [[the|la]] [[red|roja]] [[pen|bolígrafo]]?",
+      "words": ["[[pen|bolígrafo]]?", "[[red|roja]]", "[[the|la]]", "[[is|está]]", "[[Where|Dónde]]"],
+      "explanation": "Where + is + the + adjective + noun?"
     },
     "audioUrl": "audio/a1/unit-4/e24.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u4-e25",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Numbers 1-10",
-    "difficulty": "easy",
-    "transcript": "Nine minus six is three.",
+    "topic": "Articles: a/an",
+    "difficulty": "medium",
+    "transcript": "[[She|Ella]] [[has|tiene]] [[an|una]] [[orange|naranja]] [[pencil|lápiz]].",
     "content": {
-      "title": "Restas",
-      "instructions": "Resuelve la operación.",
+      "title": "Color y Artículo",
+      "instructions": "Elige el artículo según el sonido de 'orange'.",
       "questions": [
         {
-          "question": "[[Nine|Nueve]] [[minus|menos]] [[six|seis]] [[is|es]] (_____) .",
-          "options": ["[[three|tres]]", "[[two|dos]]", "[[four|cuatro]]"],
+          "question": "[[She|Ella]] [[has|tiene]] (_____) [[orange|naranja]] [[pencil|lápiz]].",
+          "options": ["[[an|un]]", "[[a|un]]"],
           "correctAnswer": 0,
-          "explanation": "9 - 6 = 3 (three)."
+          "explanation": "'Orange' empieza con vocal, usamos 'an'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-4/e25.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u4-e26",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Classroom Objects",
-    "difficulty": "easy",
-    "transcript": "I have two sharpeners.",
+    "topic": "Numbers 1-10",
+    "difficulty": "medium",
+    "transcript": "[[He|Él]] [[buys|compra]] [[nine|nueve]] [[books|libros]].",
     "content": {
-      "title": "Sacapuntas",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[I|Yo]] [[have|tengo]] [[two|dos]] [[sharpeners|sacapuntas]].",
-      "words": ["[[sharpeners|sacapuntas]].", "[[two|dos]]", "[[have|tengo]]", "[[I|Yo]]"],
-      "explanation": "Sharpeners es el plural de sacapuntas."
+      "title": "Nueve libros",
+      "instructions": "Ordena la frase indicando la cantidad (9).",
+      "correctSentence": "[[He|Él]] [[buys|compra]] [[nine|nueve]] [[books|libros]].",
+      "words": ["[[books|libros]].", "[[nine|nueve]]", "[[buys|compra]]", "[[He|Él]]"],
+      "explanation": "Nine es 9."
     },
     "audioUrl": "audio/a1/unit-4/e26.mp3",
     "topicName": "Vocabulary"
@@ -539,81 +531,76 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e27",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Articles: a/an",
-    "difficulty": "easy",
-    "transcript": "He is an architect.",
+    "topic": "Classroom Objects",
+    "difficulty": "medium",
+    "transcript": "[[The|La]] [[ruler|regla]] [[is|es]] [[ten|diez]] [[centimeters|centímetros]].",
     "content": {
-      "title": "Artículos y Profesiones",
-      "instructions": "Elige el artículo correcto.",
+      "title": "La Regla",
+      "instructions": "Elige la palabra para 'regla'.",
       "questions": [
         {
-          "question": "[[He|Él]] [[is|es]] (_____) [[architect|arquitecto]].",
-          "options": ["[[an|un]]", "[[a|un]]"],
-          "correctAnswer": 0,
-          "explanation": "Architect empieza por vocal, usamos 'an'."
+          "question": "[[The|La]] (_____) [[is|es]] [[ten|diez]] [[centimeters|centímetros]].",
+          "options": ["[[eraser|goma]]", "[[desk|escritorio]]", "[[ruler|regla]]"],
+          "correctAnswer": 2,
+          "explanation": "Ruler significa regla."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-4/e27.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u4-e28",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Numbers 1-10",
-    "difficulty": "easy",
-    "transcript": "I am nine years old.",
-    "content": {
-      "title": "Edad",
-      "instructions": "Elige el número 9.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] [[am|tengo]] (_____) [[years|años]] [[old|de edad]].",
-          "options": ["[[nine|nueve]]", "[[eight|ocho]]", "[[ten|diez]]"],
-          "correctAnswer": 0,
-          "explanation": "Nine es el número 9."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-4/e28.mp3",
     "topicName": "Vocabulary"
   },
   {
-    "id": "a1-u4-e29",
+    "id": "a1-u4-e28",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Classroom Objects",
-    "difficulty": "easy",
-    "transcript": "Is this your bag?",
+    "topic": "Articles: a/an",
+    "difficulty": "medium",
+    "transcript": "[[I|Yo]] [[need|necesito]] [[an|un]] [[old|viejo]] [[notebook|cuaderno]].",
     "content": {
-      "title": "¿Es tu mochila?",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Is|¿Es]] [[this|esta]] [[your|tu]] [[bag|mochila]]?",
-      "words": ["[[bag|mochila]]?", "[[your|tu]]", "[[this|esta]]", "[[Is|¿Es]]"],
-      "explanation": "Preguntando por la propiedad de un objeto."
+      "title": "Libreta Vieja",
+      "instructions": "Ordena usando el artículo para 'old'.",
+      "correctSentence": "[[I|Yo]] [[need|necesito]] [[an|un]] [[old|viejo]] [[notebook|cuaderno]].",
+      "words": ["[[notebook|cuaderno]].", "[[old|viejo]]", "[[an|un]]", "[[need|necesito]]", "[[I|Yo]]"],
+      "explanation": "'Old' empieza con vocal, usamos 'an'."
     },
-    "audioUrl": "audio/a1/unit-4/e29.mp3",
+    "audioUrl": "audio/a1/unit-4/e28.mp3",
     "topicName": "Grammar"
   },
   {
-    "id": "a1-u4-e30",
+    "id": "a1-u4-e29",
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Numbers 1-10",
-    "difficulty": "easy",
-    "transcript": "Five plus one is six.",
+    "difficulty": "medium",
+    "transcript": "[[Five|Cinco]] [[and|y]] [[five|cinco]] [[is|es]] [[ten|diez]].",
     "content": {
-      "title": "Sumas",
-      "instructions": "Resuelve.",
+      "title": "Suma de cincos",
+      "instructions": "Resuelve la operación (5 + 5).",
       "questions": [
         {
-          "question": "[[Five|Cinco]] [[plus|más]] [[one|uno]] [[is|es]] (_____) .",
-          "options": ["[[six|seis]]", "[[seven|siete]]", "[[four|cuatro]]"],
+          "question": "[[Five|Cinco]] [[and|y]] [[five|cinco]] [[is|es]] (_____) .",
+          "options": ["[[ten|diez]]", "[[nine|nueve]]", "[[one|uno]]"],
           "correctAnswer": 0,
-          "explanation": "5 + 1 = 6 (six)."
+          "explanation": "5 + 5 = 10 (ten)."
         }
       ]
+    },
+    "audioUrl": "audio/a1/unit-4/e29.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u4-e30",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Classroom Objects",
+    "difficulty": "medium",
+    "transcript": "[[My|Mi]] [[teacher|profesor]] [[has|tiene]] [[a|un]] [[big|grande]] [[desk|escritorio]].",
+    "content": {
+      "title": "Escritorio del Profe",
+      "instructions": "Ordena la descripción.",
+      "correctSentence": "[[My|Mi]] [[teacher|profesor]] [[has|tiene]] [[a|un]] [[big|grande]] [[desk|escritorio]].",
+      "words": ["[[desk|escritorio]].", "[[big|grande]]", "[[a|un]]", "[[has|tiene]]", "[[teacher|profesor]]", "[[My|Mi]]"],
+      "explanation": "Adjective + noun."
     },
     "audioUrl": "audio/a1/unit-4/e30.mp3",
     "topicName": "Vocabulary"
@@ -622,57 +609,57 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e31",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Classroom Objects",
-    "difficulty": "easy",
-    "transcript": "The teacher has a whiteboard.",
+    "topic": "Articles: a/an",
+    "difficulty": "medium",
+    "transcript": "[[He|Él]] [[buys|compra]] [[a|un]] [[new|nuevo]] [[car|coche]].",
     "content": {
-      "title": "La Pizarra",
-      "instructions": "Elige la palabra para 'pizarra'.",
+      "title": "Coche Nuevo",
+      "instructions": "Elige el artículo para 'new'.",
       "questions": [
         {
-          "question": "[[The|El]] [[teacher|profesor]] [[has|tiene]] [[a|una]] (_____) .",
-          "options": ["[[whiteboard|pizarra]]", "[[chair|silla]]", "[[ruler|regla]]"],
+          "question": "[[He|Él]] [[buys|compra]] (_____) [[new|nuevo]] [[car|coche]].",
+          "options": ["[[a|un]]", "[[an|un]]"],
           "correctAnswer": 0,
-          "explanation": "Whiteboard es pizarra (normalmente blanca)."
+          "explanation": "'New' empieza con consonante, usamos 'a'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-4/e31.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u4-e32",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Articles: a/an",
-    "difficulty": "easy",
-    "transcript": "I have an idea.",
+    "topic": "Numbers 1-10",
+    "difficulty": "medium",
+    "transcript": "[[I|Yo]] [[read|leo]] [[four|cuatro]] [[pages|páginas]] [[today|hoy]].",
     "content": {
-      "title": "Tengo una idea",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[I|Yo]] [[have|tengo]] [[an|una]] [[idea|idea]].",
-      "words": ["[[idea|idea]].", "[[an|una]]", "[[have|tengo]]", "[[I|Yo]]"],
-      "explanation": "Idea empieza por vocal, usamos 'an'."
+      "title": "Leyendo páginas",
+      "instructions": "Ordena la frase indicando la cantidad (4).",
+      "correctSentence": "[[I|Yo]] [[read|leo]] [[four|cuatro]] [[pages|páginas]] [[today|hoy]].",
+      "words": ["[[today|hoy]].", "[[pages|páginas]]", "[[four|cuatro]]", "[[read|leo]]", "[[I|Yo]]"],
+      "explanation": "Four es 4."
     },
     "audioUrl": "audio/a1/unit-4/e32.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u4-e33",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Numbers 1-10",
-    "difficulty": "easy",
-    "transcript": "Seven, six, five, four.",
+    "topic": "Classroom Objects",
+    "difficulty": "medium",
+    "transcript": "[[The|La]] [[backpack|mochila]] [[is|es]] [[on|en]] [[the|la]] [[chair|silla]].",
     "content": {
-      "title": "Cuenta Atrás",
-      "instructions": "¿Qué número falta?",
+      "title": "Mochila y Silla",
+      "instructions": "Elige la palabra para 'mochila'.",
       "questions": [
         {
-          "question": "[[Seven|Siete]], (_____), [[five|cinco]], [[four|cuatro]].",
-          "options": ["[[six|seis]]", "[[eight|ocho]]", "[[three|tres]]"],
-          "correctAnswer": 0,
-          "explanation": "En cuenta regresiva, después del 7 viene el 6 (six)."
+          "question": "[[The|La]] (_____) [[is|es]] [[on|en]] [[the|la]] [[chair|silla]].",
+          "options": ["[[pencil|lápiz]]", "[[backpack|mochila]]", "[[eraser|goma]]"],
+          "correctAnswer": 1,
+          "explanation": "Backpack es otra forma de decir bag (mochila)."
         }
       ]
     },
@@ -683,15 +670,15 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e34",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Classroom Objects",
-    "difficulty": "easy",
-    "transcript": "Where are my books?",
+    "topic": "Articles: a/an",
+    "difficulty": "medium",
+    "transcript": "[[We|Nosotros]] [[see|vemos]] [[an|un]] [[airplane|avión]].",
     "content": {
-      "title": "Libros Perdidos",
-      "instructions": "Ordena la pregunta plural.",
-      "correctSentence": "[[Where|Dónde]] [[are|están]] [[my|mis]] [[books|libros]]?",
-      "words": ["[[books|libros]]?", "[[my|mis]]", "[[are|están]]", "[[Where|Dónde]]"],
-      "explanation": "Uso de 'are' para objetos en plural."
+      "title": "Avión y Artículo",
+      "instructions": "Ordena usando el artículo para 'airplane'.",
+      "correctSentence": "[[We|Nosotros]] [[see|vemos]] [[an|un]] [[airplane|avión]].",
+      "words": ["[[airplane|avión]].", "[[an|un]]", "[[see|vemos]]", "[[We|Nosotros]]"],
+      "explanation": "'Airplane' empieza con vocal, usamos 'an'."
     },
     "audioUrl": "audio/a1/unit-4/e34.mp3",
     "topicName": "Grammar"
@@ -700,37 +687,37 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e35",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Articles: a/an",
-    "difficulty": "easy",
-    "transcript": "It is an orange book.",
+    "topic": "Numbers 1-10",
+    "difficulty": "medium",
+    "transcript": "[[There|Hay]] [[are|son]] [[one|un]], [[two|dos]], [[three|tres]] [[apples|manzanas]].",
     "content": {
-      "title": "Adjetivos y Artículos",
-      "instructions": "Elige el artículo correcto.",
+      "title": "Conteo",
+      "instructions": "¿Cuántas manzanas hay si tienes 1, 2 y 3?",
       "questions": [
         {
-          "question": "[[It|Eso]] [[is|es]] (_____) [[orange|naranja]] [[book|libro]].",
-          "options": ["[[an|un]]", "[[a|un]]"],
-          "correctAnswer": 0,
-          "explanation": "'Orange' empieza por vocal, usamos 'an' aunque el sustantivo sea 'book'."
+          "question": "[[I|Yo]] [[have|tengo]] (_____) [[apples|manzanas]].",
+          "options": ["[[two|dos]]", "[[four|cuatro]]", "[[three|tres]]"],
+          "correctAnswer": 2,
+          "explanation": "El conteo termina en tres (three)."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-4/e35.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u4-e36",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Numbers 1-10",
-    "difficulty": "easy",
-    "transcript": "There are four chairs.",
+    "topic": "Classroom Objects",
+    "difficulty": "medium",
+    "transcript": "[[Take|Toma]] [[a|un]] [[pencil|lápiz]], [[please|por favor]].",
     "content": {
-      "title": "Sillas",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[There|Hay]] [[are|son]] [[four|cuatro]] [[chairs|sillas]].",
-      "words": ["[[chairs|sillas]].", "[[four|cuatro]]", "[[are|son]]", "[[There|Hay]]"],
-      "explanation": "Four es el número 4."
+      "title": "Toma un lápiz",
+      "instructions": "Ordena la instrucción.",
+      "correctSentence": "[[Take|Toma]] [[a|un]] [[pencil|lápiz]], [[please|por favor]].",
+      "words": ["[[please|por favor]].", "[[pencil|lápiz]],", "[[a|un]]", "[[Take|Toma]]"],
+      "explanation": "Instrucción simple."
     },
     "audioUrl": "audio/a1/unit-4/e36.mp3",
     "topicName": "Vocabulary"
@@ -739,307 +726,298 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e37",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Classroom Objects",
-    "difficulty": "easy",
-    "transcript": "I need a ruler.",
+    "topic": "Articles: a/an",
+    "difficulty": "medium",
+    "transcript": "[[It|Eso]] [[is|es]] [[an|una]] [[excellent|excelente]] [[ruler|regla]].",
     "content": {
-      "title": "Necesidades",
-      "instructions": "Elige la palabra para 'regla'.",
+      "title": "Excelente Regla",
+      "instructions": "Elige el artículo según el sonido de 'excellent'.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[need|necesito]] [[a|una]] (_____) .",
-          "options": ["[[ruler|regla]]", "[[pen|bolígrafo]]", "[[pencil|lápiz]]"],
+          "question": "[[It|Eso]] [[is|es]] (_____) [[excellent|excelente]] [[ruler|regla]].",
+          "options": ["[[an|una]]", "[[a|una]]"],
           "correctAnswer": 0,
-          "explanation": "Ruler es regla."
+          "explanation": "'Excellent' empieza con vocal, usamos 'an'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-4/e37.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u4-e38",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "Numbers 1-10",
-    "difficulty": "easy",
-    "transcript": "I have zero pencils. I have no pencils.",
+    "difficulty": "medium",
+    "transcript": "[[She|Ella]] [[has|tiene]] [[five|cinco]] [[red|rojos]] [[books|libros]].",
     "content": {
-      "title": "Cero",
-      "instructions": "Elige el número 0.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] [[have|tengo]] (_____) [[pencils|lápices]].",
-          "options": ["[[zero|cero]]", "[[one|uno]]", "[[ten|diez]]"],
-          "correctAnswer": 0,
-          "explanation": "Zero es el número 0."
-        }
-      ]
+      "title": "Cinco libros rojos",
+      "instructions": "Ordena: cantidad + adjetivo + nombre.",
+      "correctSentence": "[[She|Ella]] [[has|tiene]] [[five|cinco]] [[red|rojos]] [[books|libros]].",
+      "words": ["[[books|libros]].", "[[red|rojos]]", "[[five|cinco]]", "[[has|tiene]]", "[[She|Ella]]"],
+      "explanation": "Orden correcto: Five (número) + red (color) + books (nombre)."
     },
     "audioUrl": "audio/a1/unit-4/e38.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u4-e39",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Articles: a/an",
-    "difficulty": "easy",
-    "transcript": "Is it an old book?",
+    "topic": "Classroom Objects",
+    "difficulty": "medium",
+    "transcript": "[[I|Yo]] [[write|escribo]] [[with|con]] [[the|el]] [[pencil|lápiz]].",
     "content": {
-      "title": "Libro Viejo",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Is|¿Es]] [[it|ello]] [[an|un]] [[old|viejo]] [[book|libro]]?",
-      "words": ["[[book|libro]]?", "[[old|viejo]]", "[[an|un]]", "[[it|ello]]", "[[Is|¿Es]]"],
-      "explanation": "Usamos 'an' porque 'old' empieza por vocal."
+      "title": "Escribir",
+      "instructions": "Elige el objeto con el que escribes (no boli).",
+      "questions": [
+        {
+          "question": "[[I|Yo]] [[write|escribo]] [[with|con]] [[the|el]] (_____) .",
+          "options": ["[[ruler|regla]]", "[[pencil|lápiz]]", "[[eraser|goma]]"],
+          "correctAnswer": 1,
+          "explanation": "Pencil significa lápiz."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-4/e39.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u4-e40",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Classroom Objects",
-    "difficulty": "easy",
-    "transcript": "Close your notebook.",
+    "topic": "Articles: a/an",
+    "difficulty": "medium",
+    "transcript": "[[They|Ellos]] [[have|tienen]] [[a|una]] [[small|pequeña]] [[bag|mochila]].",
     "content": {
-      "title": "Cerrar",
-      "instructions": "Completa la orden.",
-      "questions": [
-        {
-          "question": "(_____) [[your|tu]] [[notebook|libreta]].",
-          "options": ["[[Close|Cierra]]", "[[Open|Abre]]", "[[Write|Escribe]]"],
-          "correctAnswer": 0,
-          "explanation": "Close significa cerrar."
-        }
-      ]
+      "title": "Mochila pequeña",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[They|Ellos]] [[have|tienen]] [[a|una]] [[small|pequeña]] [[bag|mochila]].",
+      "words": ["[[bag|mochila]].", "[[small|pequeña]]", "[[a|una]]", "[[have|tienen]]", "[[They|Ellos]]"],
+      "explanation": "'Small' empieza con consonante, usamos 'a'."
     },
     "audioUrl": "audio/a1/unit-4/e40.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
+
+  // ==========================================
+  // MODULE 1: READING COMPREHENSION (41-60)
+  // 5 Passages x (1 Text + 3 Questions) = 20 slides
+  // ==========================================
+
+  // PASSAGE 1: OUR CLASSROOM
   {
     "id": "a1-u4-e41",
-    "type": "multiple-choice",
+    "type": "reading",
     "level": "A1",
-    "topic": "Numbers 1-10",
+    "topic": "Reading Phase",
     "difficulty": "medium",
-    "transcript": "There are five people in the office.",
+    "transcript": "[[Welcome|Bienvenido]] [[to|a]] [[our|nuestra]] [[classroom|clase]]. [[In|En]] [[this|esta]] [[room|habitación]], [[there|allí]] [[are|hay]] [[ten|diez]] [[desks|escritorios]] [[and|y]] [[ten|diez]] [[chairs|sillas]]. [[My|Mi]] [[desk|escritorio]] [[is|está]] [[near|cerca de]] [[the|la]] [[window|ventana]]. [[I|Yo]] [[have|tengo]] [[a|una]] [[big|grande]] [[bag|mochila]] [[with|con]] [[three|tres]] [[books|libros]], [[two|dos]] [[notebooks|libretas]], [[and|y]] [[five|cinco]] [[pens|bolígrafos]].",
     "content": {
-      "title": "Personas",
-      "instructions": "Elige el número correcto.",
-      "questions": [
-        {
-          "question": "[[There|Hay]] [[are|son]] [[five|cinco]] (5) (_____) [[in|en]] [[the|la]] [[office|oficina]].",
-          "options": ["[[people|personas]]", "[[peoples|personas (incorrecto)]]", "[[person|persona]]"],
-          "correctAnswer": 0,
-          "explanation": "People es el plural de person."
-        }
-      ]
+      "title": "Lectura: Nuestra Clase",
+      "instructions": "Lee sobre el aula y los materiales escolares.",
+      "questions": []
     },
     "audioUrl": "audio/a1/unit-4/e41.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u4-e42",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Classroom Objects",
+    "topic": "Reading Question",
     "difficulty": "medium",
-    "transcript": "The teacher is at the whiteboard.",
     "content": {
-      "title": "El Profesor",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[The|El]] [[teacher|profesor]] [[is|está]] [[at|en]] [[the|la]] [[whiteboard|pizarra]].",
-      "words": ["[[whiteboard|pizarra]].", "[[the|la]]", "[[at|en]]", "[[is|está]]", "[[teacher|profesor]]", "[[The|El]]"],
-      "explanation": "Ubicación del profesor en el aula."
+      "title": "Pregunta sobre la Clase",
+      "instructions": "Responde según la lectura.",
+      "questions": [
+        {
+          "question": "[[How|Cuántos]] [[many|muchos]] [[desks|escritorios]] [[are|hay]] [[in|en]] [[the|el]] [[room|habitación]]?",
+          "options": ["[[Five|Cinco]]", "[[Ten|Diez]]", "[[Three|Tres]]"],
+          "correctAnswer": 1,
+          "explanation": "El texto dice: 'there are ten desks'."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-4/e42.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u4-e43",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Articles: a/an",
+    "topic": "Reading Question",
     "difficulty": "medium",
-    "transcript": "I have an expensive pen.",
     "content": {
-      "title": "Objetos Caros",
-      "instructions": "Elige el artículo correcto.",
+      "title": "Pregunta sobre la Clase",
+      "instructions": "Responde según la lectura.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[have|tengo]] (_____) [[expensive|caro]] [[pen|bolígrafo]].",
-          "options": ["[[an|un]]", "[[a|un]]"],
+          "question": "[[How|Cuántos]] [[many|muchos]] [[pens|bolígrafos]] [[does|hace]] [[the|la]] [[person|persona]] [[have|tener]]?",
+          "options": ["[[Five|Cinco]]", "[[Two|Dos]]", "[[Three|Tres]]"],
           "correctAnswer": 0,
-          "explanation": "Expensive empieza por vocal, usamos 'an'."
+          "explanation": "El texto dice: 'five pens'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-4/e43.mp3",
-    "topicName": "Grammar"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u4-e44",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Numbers 1-10",
+    "topic": "Reading Question",
     "difficulty": "medium",
-    "transcript": "How many chairs are in the classroom? Eight chairs.",
     "content": {
-      "title": "Preguntas de Cantidad",
-      "instructions": "Responde la pregunta.",
+      "title": "Pregunta sobre la Clase",
+      "instructions": "Responde según la lectura.",
       "questions": [
         {
-          "question": "[[How|Cuántas]] [[many|muchas]] [[chairs|sillas]] [[are|hay]]?",
-          "options": ["[[Eight|Ocho]]", "[[Ten|Diez]]", "[[Two|Dos]]"],
-          "correctAnswer": 0,
-          "explanation": "Eight es 8."
+          "question": "[[Where|Dónde]] [[is|está]] [[the|el]] [[desk|escritorio]]?",
+          "options": ["[[Near the door|Cerca de la puerta]]", "[[Near the chair|Cerca de la silla]]", "[[Near the window|Cerca de la ventana]]"],
+          "correctAnswer": 2,
+          "explanation": "El texto dice: 'desk is near the window'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-4/e44.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
+
+  // PASSAGE 2: AT THE STORE
   {
     "id": "a1-u4-e45",
-    "type": "sentence-building",
+    "type": "reading",
     "level": "A1",
-    "topic": "Classroom Objects",
+    "topic": "Reading Phase",
     "difficulty": "medium",
-    "transcript": "Please, take a seat.",
+    "transcript": "[[I|Yo]] [[am|estoy]] [[at|en]] [[the|la]] [[store|tienda]]. [[I|Yo]] [[need|necesito]] [[to|a]] [[buy|comprar]] [[things|cosas]] [[for|para]] [[school|la escuela]]. [[I|Yo]] [[want|quiero]] [[one|una]] [[ruler|regla]], [[four|cuatro]] [[pencils|lápices]], [[and|y]] [[six|seis]] [[notebooks|libretas]]. [[I|Yo]] [[also|también]] [[need|necesito]] [[an|una]] [[eraser|goma]] [[and|y]] [[a|una]] [[new|nueva]] [[bag|mochila]]. [[The|El]] [[total|total]] [[price|precio]] [[is|es]] [[nine|nueve]] [[dollars|dólares]].",
     "content": {
-      "title": "Toma Asiento",
-      "instructions": "Ordena la invitación.",
-      "correctSentence": "[[Please|Por favor]], [[take|toma]] [[a|un]] [[seat|asiento]].",
-      "words": ["[[seat|asiento]].", "[[a|un]]", "[[take|toma]]", "[[Please|Por favor]],"],
-      "explanation": "Expresión cortés para sentarse."
+      "title": "Lectura: Comprando Material",
+      "instructions": "Lee sobre la compra de materiales.",
+      "questions": []
     },
     "audioUrl": "audio/a1/unit-4/e45.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u4-e46",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Numbers 1-10",
-    "difficulty": "easy",
-    "transcript": "My phone number has a seven.",
+    "topic": "Reading Question",
+    "difficulty": "medium",
     "content": {
-      "title": "Dígitos",
-      "instructions": "Identifica el número 7.",
+      "title": "Pregunta de Compra",
+      "instructions": "Responde según la lectura.",
       "questions": [
         {
-          "question": "[[Number|Número]] (_____) [[is|es]] [[seven|siete]].",
-          "options": ["[[7|7]]", "[[6|6]]", "[[8|8]]"],
-          "correctAnswer": 0,
-          "explanation": "Seven es 7."
+          "question": "[[How|Cuántos]] [[many|muchos]] [[pencils|lápices]] [[does|hace]] [[the|la]] [[person|persona]] [[want|querer]]?",
+          "options": ["[[Six|Seis]]", "[[Four|Cuatro]]", "[[One|Uno]]"],
+          "correctAnswer": 1,
+          "explanation": "El texto dice: 'four pencils'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-4/e46.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u4-e47",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Articles: a/an",
+    "topic": "Reading Question",
     "difficulty": "medium",
-    "transcript": "Do you need a pencil?",
     "content": {
-      "title": "¿Necesitas un lápiz?",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Do|Aux]] [[you|tú]] [[need|necesitas]] [[a|un]] [[pencil|lápiz]]?",
-      "words": ["[[pencil|lápiz]]?", "[[a|un]]", "[[need|necesitas]]", "[[you|tú]]", "[[Do|Aux]]"],
-      "explanation": "Pregunta de necesidad simple."
+      "title": "Pregunta de Compra",
+      "instructions": "Responde según la lectura.",
+      "questions": [
+        {
+          "question": "[[How|Cuántas]] [[many|muchas]] [[notebooks|libretas]] [[does|hace]] [[the|la]] [[person|persona]] [[buy|comprar]]?",
+          "options": ["[[Six|Seis]]", "[[Four|Cuatro]]", "[[Nine|Nueve]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'six notebooks'."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-4/e47.mp3",
-    "topicName": "Grammar"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u4-e48",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Classroom Objects",
+    "topic": "Reading Question",
     "difficulty": "medium",
-    "transcript": "I don't have an eraser. Can I borrow one?",
     "content": {
-      "title": "Pedir Prestado",
-      "instructions": "Completa la negación.",
+      "title": "Pregunta de Compra",
+      "instructions": "Responde según la lectura.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[don't|no]] [[have|tengo]] (_____) [[eraser|goma]].",
-          "options": ["[[an|una]]", "[[a|una]]", "[[the|la]]"],
-          "correctAnswer": 0,
-          "explanation": "Eraser empieza por vocal, usamos 'an'."
+          "question": "[[What|Cuál]] [[is|es]] [[the|el]] [[total|total]] [[price|precio]]?",
+          "options": ["[[Six dollars|Seis dólares]]", "[[Four dollars|Cuatro dólares]]", "[[Nine dollars|Nueve dólares]]"],
+          "correctAnswer": 2,
+          "explanation": "El texto dice: 'nine dollars'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-4/e48.mp3",
-    "topicName": "Grammar"
+    "topicName": "Reading"
   },
+
+  // PASSAGE 3: THE ART CLASS
   {
     "id": "a1-u4-e49",
-    "type": "sentence-building",
+    "type": "reading",
     "level": "A1",
-    "topic": "Numbers 1-10",
+    "topic": "Reading Phase",
     "difficulty": "medium",
-    "transcript": "There are nine books on the table.",
+    "transcript": "[[Today|Hoy]] [[we|nosotros]] [[have|tenemos]] [[an|una]] [[art|arte]] [[class|clase]]. [[I|Yo]] [[need|necesito]] [[a|un]] [[big|grande]] [[piece|trozo]] [[of|de]] [[paper|papel]] [[and|y]] [[an|un]] [[orange|naranja]] [[pencil|lápiz]]. [[My|Mi]] [[friend|amigo]] [[has|tiene]] [[ten|diez]] [[colors|colores]]. [[We|Nosotros]] [[draw|dibujamos]] [[a|una]] [[big|grande]] [[house|casa]] [[with|con]] [[four|cuatro]] [[windows|ventanas]] [[and|y]] [[one|una]] [[door|puerta]].",
     "content": {
-      "title": "Libros en la Mesa",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[There|Hay]] [[are|allí (plural)]] [[nine|nueve]] [[books|libros]] [[on|en]] [[the|la]] [[table|mesa]].",
-      "words": ["[[table|mesa]].", "[[on|en]]", "[[books|libros]]", "[[nine|nueve]]", "[[are|allí (plural)]]", "[[There|Hay]]", "[[the|la]]"],
-      "explanation": "Combinando números y objetos."
+      "title": "Lectura: Clase de Arte",
+      "instructions": "Lee sobre la clase de dibujo.",
+      "questions": []
     },
     "audioUrl": "audio/a1/unit-4/e49.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u4-e50",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Classroom Objects",
+    "topic": "Reading Question",
     "difficulty": "medium",
-    "transcript": "Where is the ruler? It is in my bag.",
     "content": {
-      "title": "Ubicación",
-      "instructions": "Responde la pregunta.",
+      "title": "Pregunta de Arte",
+      "instructions": "Responde según la lectura.",
       "questions": [
         {
-          "question": "[[Where|Dónde]] [[is|está]] [[the|la]] [[ruler|regla]]?",
-          "options": ["[[It is in my bag|Está en mi mochila]]", "[[It is a pen|Es un bolígrafo]]", "[[I am a student|Soy estudiante]]"],
+          "question": "[[What|Qué]] [[color|color]] [[pencil|lápiz]] [[does|hace]] [[the|la]] [[person|persona]] [[need|necesitar]]?",
+          "options": ["[[Orange|Naranja]]", "[[Red|Rojo]]", "[[Blue|Azul]]"],
           "correctAnswer": 0,
-          "explanation": "Respuesta lógica sobre la ubicación de un objeto."
+          "explanation": "El texto dice: 'an orange pencil'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-4/e50.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u4-e51",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
+    "topic": "Reading Question",
     "difficulty": "medium",
-    "transcript": "Welcome to our classroom. In this room, there are ten desks and ten chairs. My desk is near the window. I have a big bag with three books, two notebooks, and five pens. My teacher has a large whiteboard and a computer on her desk. It is a very nice place to study.",
     "content": {
-      "title": "Nuestra Clase",
-      "instructions": "Lee el texto y responde las preguntas.",
+      "title": "Pregunta de Arte",
+      "instructions": "Responde según la lectura.",
       "questions": [
         {
-          "question": "[[How|Cuántos]] [[many|muchos]] [[desks|escritorios]] [[are|hay]] [[in|en]] [[the|la]] [[room|habitación]]?",
-          "options": ["[[Ten|Diez]]", "[[Five|Cinco]]", "[[Three|Tres]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice: 'there are ten desks'."
-        },
-        {
-          "question": "[[How|Cuántos]] [[many|muchos]] [[pens|bolígrafos]] [[does|hace]] [[the|la]] [[person|persona]] [[have|tener]]?",
-          "options": ["[[Five|Cinco]]", "[[Three|Tres]]", "[[Two|Dos]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice: 'five pens'."
+          "question": "[[How|Cuántas]] [[many|muchas]] [[windows|ventanas]] [[does|hace]] [[the|la]] [[house|casa]] [[have|tener]]?",
+          "options": ["[[One|Una]]", "[[Four|Cuatro]]", "[[Ten|Diez]]"],
+          "correctAnswer": 1,
+          "explanation": "El texto dice: 'four windows'."
         }
       ]
     },
@@ -1050,54 +1028,36 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e52",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
+    "topic": "Reading Question",
     "difficulty": "medium",
-    "transcript": "I am at the store. I need to buy things for school. I want one ruler, four pencils, and six notebooks. I also need an eraser and a new bag. The total price is nine dollars. I am happy with my new things.",
     "content": {
-      "title": "Comprando Material",
-      "instructions": "Lee sobre las compras y responde.",
+      "title": "Pregunta de Arte",
+      "instructions": "Responde según la lectura.",
       "questions": [
         {
-          "question": "[[How|Cuántos]] [[many|muchos]] [[pencils|lápices]] [[does|hace]] [[the|la]] [[person|persona]] [[want|querer]]?",
-          "options": ["[[Four|Cuatro]]", "[[Six|Seis]]", "[[One|Uno]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice: 'four pencils'."
-        },
-        {
-          "question": "[[How|Cuánto]] [[much|mucho]] [[is|es]] [[the|el]] [[total|total]] [[price|precio]]?",
-          "options": ["[[Nine dollars|Nueve dólares]]", "[[Four dollars|Cuatro dólares]]", "[[Six dollars|Seis dólares]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice: 'nine dollars'."
+          "question": "[[How|Cuántos]] [[many|muchos]] [[colors|colores]] [[does|hace]] [[the|la]] [[friend|amigo]] [[have|tener]]?",
+          "options": ["[[Four|Cuatro]]", "[[One|Uno]]", "[[Ten|Diez]]"],
+          "correctAnswer": 2,
+          "explanation": "El texto dice: 'friend has ten colors'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-4/e52.mp3",
     "topicName": "Reading"
   },
+
+  // PASSAGE 4: THE TEACHER'S INSTRUCTIONS
   {
     "id": "a1-u4-e53",
-    "type": "multiple-choice",
+    "type": "reading",
     "level": "A1",
-    "topic": "Reading",
+    "topic": "Reading Phase",
     "difficulty": "medium",
-    "transcript": "My bag is very heavy today. Inside the bag, I have eight books for my classes. I also have an apple for my lunch and an orange for a snack. I have one pen and one pencil. I don't have a notebook because it is at home.",
+    "transcript": "[[The|La]] [[teacher|profesora]] [[is|está]] [[in|en]] [[the|la]] [[room|habitación]]. [[She|Ella]] [[says|dice]]: '[[Please|Por favor]] [[open|abrid]] [[your|vuestros]] [[books|libros]] [[to|a]] [[page|página]] [[seven|siete]]. [[Take|Tomad]] [[a|un]] [[pen|bolígrafo]] [[and|y]] [[write|escribid]] [[your|vuestro]] [[name|nombre]].' [[There|Allí]] [[are|hay]] [[nine|nueve]] [[students|estudiantes]] [[in|en]] [[the|la]] [[class|clase]].",
     "content": {
-      "title": "Una Mochila Pesada",
-      "instructions": "Lee sobre la mochila y responde.",
-      "questions": [
-        {
-          "question": "[[How|Cuántos]] [[many|muchos]] [[books|libros]] [[are|están]] [[in|en]] [[the|la]] [[bag|mochila]]?",
-          "options": ["[[Eight|Ocho]]", "[[One|Uno]]", "[[Zero|Cero]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice: 'I have eight books'."
-        },
-        {
-          "question": "[[Does|Hacer]] [[the|la]] [[person|persona]] [[have|tener]] [[a|una]] [[notebook|libreta]]?",
-          "options": ["[[No, it is at home|No, está en casa]]", "[[Yes, one notebook|Sí, una libreta]]", "[[Yes, two notebooks|Sí, dos libretas]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice: 'I don't have a notebook because it is at home'."
-        }
-      ]
+      "title": "Lectura: Instrucciones",
+      "instructions": "Lee lo que dice la profesora.",
+      "questions": []
     },
     "audioUrl": "audio/a1/unit-4/e53.mp3",
     "topicName": "Reading"
@@ -1106,24 +1066,17 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e54",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
+    "topic": "Reading Question",
     "difficulty": "medium",
-    "transcript": "The teacher is in the room. She says: 'Please open your books to page seven. Take a pen and write your name.' There are nine students in the class. Two students don't have a pen, so the teacher gives them an extra one.",
     "content": {
-      "title": "Instrucciones del Profesor",
-      "instructions": "Lee y responde sobre la clase.",
+      "title": "Pregunta de Clase",
+      "instructions": "Responde según la lectura.",
       "questions": [
         {
           "question": "[[What|Cuál]] [[page|página]] [[is|está]] [[the|la]] [[class|clase]] [[on|en]]?",
           "options": ["[[Seven|Siete]]", "[[Nine|Nueve]]", "[[Two|Dos]]"],
           "correctAnswer": 0,
-          "explanation": "El profesor dice: 'page seven'."
-        },
-        {
-          "question": "[[How|Cuántos]] [[many|muchos]] [[students|estudiantes]] [[don't|no]] [[have|tienen]] [[a|un]] [[pen|bolígrafo]]?",
-          "options": ["[[Two|Dos]]", "[[Nine|Nueve]]", "[[Seven|Siete]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice: 'Two students don't have a pen'."
+          "explanation": "La profesora dice: 'page seven'."
         }
       ]
     },
@@ -1134,24 +1087,17 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e55",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
+    "topic": "Reading Question",
     "difficulty": "medium",
-    "transcript": "I have a small desk in my bedroom. On the desk, there is a lamp, a computer, and a notebook. I also have five pencils in a small box. I use an eraser when I make a mistake. It is a quiet place to work.",
     "content": {
-      "title": "Mi Escritorio",
-      "instructions": "Lee sobre el escritorio y responde.",
+      "title": "Pregunta de Clase",
+      "instructions": "Responde según la lectura.",
       "questions": [
         {
-          "question": "[[How|Cuántos]] [[many|muchos]] [[pencils|lápices]] [[are|hay]] [[on|en]] [[the|el]] [[desk|escritorio]]?",
-          "options": ["[[Five|Cinco]]", "[[One|Uno]]", "[[Zero|Cero]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice: 'five pencils'."
-        },
-        {
-          "question": "[[Where|Dónde]] [[is|está]] [[the|el]] [[desk|escritorio]]?",
-          "options": ["[[In the bedroom|En el dormitorio]]", "[[In the kitchen|En la cocina]]", "[[In the garden|En el jardín]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice: 'in my bedroom'."
+          "question": "[[How|Cuántos]] [[many|muchos]] [[students|estudiantes]] [[are|hay]] [[in|en]] [[the|la]] [[class|clase]]?",
+          "options": ["[[Seven|Siete]]", "[[Nine|Nueve]]", "[[Ten|Diez]]"],
+          "correctAnswer": 1,
+          "explanation": "El texto dice: 'nine students'."
         }
       ]
     },
@@ -1162,54 +1108,36 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e56",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
+    "topic": "Reading Question",
     "difficulty": "medium",
-    "transcript": "Today we have an art class. I need a big piece of paper and an orange pencil. My friend has ten colors. We draw a big house with four windows and one door. The teacher likes our drawings. It is a fun class.",
     "content": {
-      "title": "Clase de Arte",
-      "instructions": "Lee sobre la clase de arte y responde.",
+      "title": "Pregunta de Clase",
+      "instructions": "Responde según la lectura.",
       "questions": [
         {
-          "question": "[[How|Cuántas]] [[many|muchas]] [[windows|ventanas]] [[does|hace]] [[the|la]] [[house|casa]] [[have|tener]]?",
-          "options": ["[[Four|Cuatro]]", "[[Ten|Diez]]", "[[One|Una]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice: 'four windows'."
-        },
-        {
-          "question": "[[What|Qué]] [[color|color]] [[pencil|lápiz]] [[does|hace]] [[the|la]] [[person|persona]] [[need|necesitar]]?",
-          "options": ["[[Orange|Naranja]]", "[[Red|Rojo]]", "[[Blue|Azul]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice: 'an orange pencil'."
+          "question": "[[What|Qué]] [[do|aux]] [[the|los]] [[students|estudiantes]] [[need|necesitan]] [[to|para]] [[write|escribir]] [[their|su]] [[name|nombre]]?",
+          "options": ["[[A ruler|Una regla]]", "[[An eraser|Una goma]]", "[[A pen|Un bolígrafo]]"],
+          "correctAnswer": 2,
+          "explanation": "La profesora dice: 'Take a pen and write your name'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-4/e56.mp3",
     "topicName": "Reading"
   },
+
+  // PASSAGE 5: THE LIBRARY TABLE
   {
     "id": "a1-u4-e57",
-    "type": "multiple-choice",
+    "type": "reading",
     "level": "A1",
-    "topic": "Reading",
+    "topic": "Reading Phase",
     "difficulty": "medium",
-    "transcript": "In my office, there are eight people. Each person has a computer and a telephone. I have a comfortable chair and a large desk. I also have a pen and a notebook for my ideas. My office is number five on the first floor.",
+    "transcript": "[[Look|Mira]] [[at|a]] [[this|esta]] [[table|mesa]]. [[There|Allí]] [[are|hay]] [[four|cuatro]] [[books|libros]] [[and|y]] [[one|una]] [[notebook|libreta]]. [[There|Allí]] [[is|hay]] [[also|también]] [[a|un]] [[pen|bolígrafo]] [[and|y]] [[a|un]] [[pencil|lápiz]]. [[I|Yo]] [[need|necesito]] [[an|una]] [[eraser|goma]] [[to|para]] [[clean|limpiar]] [[my|mis]] [[mistakes|errores]]. [[The|La]] [[table|mesa]] [[is|está]] [[in|en]] [[the|la]] [[library|biblioteca]]. [[It|Eso]] [[is|es]] [[number|número]] [[ten|diez]].",
     "content": {
-      "title": "En la Oficina",
-      "instructions": "Lee sobre la oficina y responde.",
-      "questions": [
-        {
-          "question": "[[How|Cuántas]] [[many|muchas]] [[people|personas]] [[are|hay]] [[in|en]] [[the|la]] [[office|oficina]]?",
-          "options": ["[[Eight|Ocho]]", "[[Five|Cinco]]", "[[One|Una]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice: 'there are eight people'."
-        },
-        {
-          "question": "[[What|Cuál]] [[is|es]] [[the|el]] [[office|oficina]] [[number|número]]?",
-          "options": ["[[Five|Cinco]]", "[[Eight|Ocho]]", "[[One|Uno]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice: 'office is number five'."
-        }
-      ]
+      "title": "Lectura: En la Biblioteca",
+      "instructions": "Lee sobre la mesa de la biblioteca.",
+      "questions": []
     },
     "audioUrl": "audio/a1/unit-4/e57.mp3",
     "topicName": "Reading"
@@ -1218,24 +1146,17 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e58",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
+    "topic": "Reading Question",
     "difficulty": "medium",
-    "transcript": "I have a list for school. I need two pens, three pencils, and one ruler. I also need an eraser. The total number of things is seven. I have all my things in my bag. I am ready for class tomorrow.",
     "content": {
-      "title": "La Lista de Material",
-      "instructions": "Lee la lista y responde.",
+      "title": "Pregunta de Biblioteca",
+      "instructions": "Responde según la lectura.",
       "questions": [
         {
-          "question": "[[How|Cuántos]] [[many|muchos]] [[pencils|lápices]] [[does|hace]] [[the|la]] [[person|persona]] [[need|necesitar]]?",
-          "options": ["[[Three|Tres]]", "[[Two|Dos]]", "[[Seven|Siete]]"],
+          "question": "[[How|Cuántos]] [[many|muchos]] [[books|libros]] [[are|hay]] [[on|en]] [[the|la]] [[table|mesa]]?",
+          "options": ["[[Four|Cuatro]]", "[[One|Uno]]", "[[Ten|Diez]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'three pencils'."
-        },
-        {
-          "question": "[[How|Cuántas]] [[many|muchas]] [[things|cosas]] [[are|hay]] [[in|en]] [[total|total]]?",
-          "options": ["[[Seven|Siete]]", "[[Three|Tres]]", "[[Two|Dos]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice: 'total number of things is seven'."
+          "explanation": "El texto dice: 'four books'."
         }
       ]
     },
@@ -1246,24 +1167,17 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e59",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
+    "topic": "Reading Question",
     "difficulty": "medium",
-    "transcript": "My daughter is six years old. She goes to school every day. She has a pink bag with an eraser and a pencil. She also has a small book for her drawings. She likes her teacher very much. Her teacher's name is Mrs. White.",
     "content": {
-      "title": "La Mochila de mi Hija",
-      "instructions": "Lee sobre la hija y responde.",
+      "title": "Pregunta de Biblioteca",
+      "instructions": "Responde según la lectura.",
       "questions": [
         {
-          "question": "[[How|Qué]] [[old|vieja]] [[is|es]] [[the|la]] [[daughter|hija]]?",
-          "options": ["[[Six|Seis]]", "[[Five|Cinco]]", "[[White|Blanca]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice: 'is six years old'."
-        },
-        {
-          "question": "[[What|Qué]] [[color|color]] [[is|es]] [[her|su]] [[bag|mochila]]?",
-          "options": ["[[Pink|Rosa]]", "[[White|Blanca]]", "[[Orange|Naranja]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice: 'a pink bag'."
+          "question": "[[What|Cuál]] [[is|es]] [[the|el]] [[table|mesa]] [[number|número]]?",
+          "options": ["[[Four|Cuatro]]", "[[Ten|Diez]]", "[[One|Uno]]"],
+          "correctAnswer": 1,
+          "explanation": "El texto dice: 'table is number ten'."
         }
       ]
     },
@@ -1274,24 +1188,17 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e60",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
+    "topic": "Reading Question",
     "difficulty": "medium",
-    "transcript": "Look at this table. There are four books and one notebook. There is also a pen and a pencil. I need an eraser to clean my mistakes. The table is in the library. It is number ten. Many students use this table every day.",
     "content": {
-      "title": "En la Biblioteca",
-      "instructions": "Lee sobre la mesa de la biblioteca y responde.",
+      "title": "Pregunta de Biblioteca",
+      "instructions": "Responde según la lectura.",
       "questions": [
         {
-          "question": "[[How|Cuántos]] [[many|muchos]] [[books|libros]] [[are|hay]] [[on|en]] [[the|la]] [[table|mesa]]?",
-          "options": ["[[Four|Cuatro]]", "[[One|Uno]]", "[[Ten|Diez]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice: 'There are four books'."
-        },
-        {
-          "question": "[[What|Cuál]] [[is|es]] [[the|el]] [[table|mesa]] [[number|número]]?",
-          "options": ["[[Ten|Diez]]", "[[Four|Cuatro]]", "[[One|Uno]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice: 'table is number ten'."
+          "question": "[[Where|Dónde]] [[is|está]] [[the|la]] [[table|mesa]]?",
+          "options": ["[[In the classroom|En la clase]]", "[[In the store|En la tienda]]", "[[In the library|En la biblioteca]]"],
+          "correctAnswer": 2,
+          "explanation": "El texto dice: 'The table is in the library'."
         }
       ]
     },

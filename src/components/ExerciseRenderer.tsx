@@ -432,10 +432,18 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
             
             <div className="flex justify-center pt-4">
               <button
-                onClick={() => setShowReadingText(false)}
+                onClick={() => {
+                  if (!exercise.content.questions || exercise.content.questions.length === 0) {
+                    onComplete({ success: true, score: 100 });
+                  } else {
+                    setShowReadingText(false);
+                  }
+                }}
                 className="group bg-purple-600 text-white px-10 py-5 rounded-2xl font-black text-lg hover:bg-purple-700 transition-all shadow-xl hover:shadow-purple-200 flex items-center gap-3 transform hover:scale-105 active:scale-95"
               >
-                Comprender texto y responder
+                {!exercise.content.questions || exercise.content.questions.length === 0 
+                  ? "Entendido, ir a las preguntas" 
+                  : "Comprender texto y responder"}
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
               </button>
             </div>

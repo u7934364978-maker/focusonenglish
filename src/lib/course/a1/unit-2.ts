@@ -1,57 +1,25 @@
 import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_2_EXERCISES: Exercise[] = [
+  // ==========================================
+  // MODULE 1: COUNTRIES & NATIONALITIES (1-10)
+  // ==========================================
   {
     "id": "a1-u2-e1",
     "type": "flashcard",
     "level": "A1",
-    "topic": "Nice to meet you!",
+    "topic": "Countries & Nationalities",
     "difficulty": "easy",
-    "transcript": "Nice to meet you. Welcome. Friend. Classmate. Man. Woman. Boy. Girl. He. She",
+    "transcript": "[[Spain|España]]. [[Spanish|Español]]. [[England|Inglaterra]]. [[English|Inglés]]. [[The United States|Estados Unidos]]. [[American|Americano]]. [[Mexico|México]]. [[Mexican|Mexicano]]. [[France|Francia]]. [[French|Francés]].",
     "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
+      "title": "Vocabulario: Países y Nacionalidades",
+      "instructions": "Aprende nombres de países y cómo decir la nacionalidad.",
       "items": [
-        {
-          "front": "[[Nice to meet you|Mucho gusto]]",
-          "back": "Mucho gusto"
-        },
-        {
-          "front": "[[Welcome|Bienvenido]]",
-          "back": "Bienvenido"
-        },
-        {
-          "front": "[[Friend|Amigo/amiga]]",
-          "back": "Amigo/a"
-        },
-        {
-          "front": "[[Classmate|Compañero/a de clase]]",
-          "back": "Compañero/a de clase"
-        },
-        {
-          "front": "[[Man|Hombre]]",
-          "back": "Hombre"
-        },
-        {
-          "front": "[[Woman|Mujer]]",
-          "back": "Mujer"
-        },
-        {
-          "front": "[[Boy|Niño]]",
-          "back": "Niño"
-        },
-        {
-          "front": "[[Girl|Niña]]",
-          "back": "Niña"
-        },
-        {
-          "front": "[[He|Él]]",
-          "back": "Él"
-        },
-        {
-          "front": "[[She|Ella]]",
-          "back": "Ella"
-        }
+        { "front": "[[Spain|España]]", "back": "Spanish ([[Español|Español]])" },
+        { "front": "[[England|Inglaterra]]", "back": "English ([[Inglés|Inglés]])" },
+        { "front": "[[The United States|Estados Unidos]]", "back": "American ([[Americano|Americano]])" },
+        { "front": "[[Mexico|México]]", "back": "Mexican ([[Mexicano|Mexicano]])" },
+        { "front": "[[France|Francia]]", "back": "French ([[Francés|Francés]])" }
       ]
     },
     "audioUrl": "audio/a1/unit-2/e1.mp3",
@@ -61,22 +29,18 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "id": "a1-u2-e2",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Nice to meet you!",
+    "topic": "Subject Pronouns",
     "difficulty": "easy",
-    "transcript": "He is my friend.",
+    "transcript": "[[He|Él]] [[is|es]] [[from|de]] [[Spain|España]].",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
+      "title": "Pronombre: He",
+      "instructions": "Elige el pronombre correcto para un hombre.",
       "questions": [
         {
-          "question": "[[He|Él]] ([[be|ser/estar]]) _______ [[my|mi/mis]] [[friend|amigo/amiga]].",
-          "options": [
-            "[[is|es/está]]",
-            "[[am|soy/estoy]]",
-            "[[are|son/están]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Práctica de la estructura gramatical básica."
+          "question": "(_____) [[is|es]] [[from|de]] [[Spain|España]].",
+          "options": ["[[She|Ella]]", "[[He|Él]]", "[[It|Eso]]"],
+          "correctAnswer": 1,
+          "explanation": "Usamos 'He' para hombres."
         }
       ]
     },
@@ -87,22 +51,18 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "id": "a1-u2-e3",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Nice to meet you!",
+    "topic": "Subject Pronouns",
     "difficulty": "easy",
-    "transcript": "She is a doctor.",
+    "transcript": "[[She|Ella]] [[is|es]] [[American|americana]].",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
+      "title": "Pronombre: She",
+      "instructions": "Elige el pronombre correcto para una mujer.",
       "questions": [
         {
-          "question": "[[She|Ella]] ([[be|ser/estar]]) _______ [[a|un/una]] [[doctor|médico/a]].",
-          "options": [
-            "[[is|es/está]]",
-            "[[am|soy/estoy]]",
-            "[[are|son/están]]"
-          ],
+          "question": "(_____) [[is|es]] [[American|americana]].",
+          "options": ["[[She|Ella]]", "[[They|Ellos]]", "[[We|Nosotros]]"],
           "correctAnswer": 0,
-          "explanation": "Práctica de la estructura gramatical básica."
+          "explanation": "Usamos 'She' para mujeres."
         }
       ]
     },
@@ -113,22 +73,18 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "id": "a1-u2-e4",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Nice to meet you!",
+    "topic": "To Be: Affirmative",
     "difficulty": "easy",
-    "transcript": "We are happy.",
+    "transcript": "[[We|Nosotros]] [[are|somos]] [[from|de]] [[France|Francia]].",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
+      "title": "Verbo To Be: Plural",
+      "instructions": "Elige la forma correcta del verbo 'to be' para 'We'.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] ([[be|ser/estar]]) _______ [[happy|feliz]].",
-          "options": [
-            "[[is|es/está]]",
-            "[[are|son/están]]",
-            "[[am|soy/estoy]]"
-          ],
-          "correctAnswer": 1,
-          "explanation": "Práctica de la estructura gramatical básica."
+          "question": "[[We|Nosotros]] (_____) [[from|de]] [[France|Francia]].",
+          "options": ["[[is|es]]", "[[am|soy]]", "[[are|somos]]"],
+          "correctAnswer": 2,
+          "explanation": "Con 'We' usamos 'are'."
         }
       ]
     },
@@ -137,26 +93,17 @@ export const UNIT_2_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u2-e5",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Nice to meet you!",
+    "topic": "Subject Pronouns",
     "difficulty": "easy",
-    "transcript": "They are students.",
+    "transcript": "[[They|Ellos]] [[are|son]] [[Mexican|mexicanos]].",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
-      "questions": [
-        {
-          "question": "[[They|Ellos]] ([[be|ser/estar]]) _______ [[students|students]].",
-          "options": [
-            "[[are|son/están]]",
-            "[[is|es/está]]",
-            "[[am|soy/estoy]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Práctica de la estructura gramatical básica."
-        }
-      ]
+      "title": "Ellos son mexicanos",
+      "instructions": "Ordena las palabras para formar la frase.",
+      "correctSentence": "[[They|Ellos]] [[are|son]] [[Mexican|mexicanos]].",
+      "words": ["[[Mexican|mexicanos]].", "[[are|son]]", "[[They|Ellos]]"],
+      "explanation": "Sujeto (They) + Verbo (are) + Nacionalidad (Mexican)."
     },
     "audioUrl": "audio/a1/unit-2/e5.mp3",
     "topicName": "Grammar"
@@ -165,115 +112,103 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "id": "a1-u2-e6",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Nice to meet you!",
+    "topic": "Numbers 1-10",
     "difficulty": "easy",
-    "transcript": "Are you a student?",
+    "transcript": "[[Seven|Siete]] [[plus|más]] [[three|tres]] [[is|es]] [[ten|diez]].",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
+      "title": "Números 1-10",
+      "instructions": "¿Cuánto es 7 + 3?",
       "questions": [
         {
-          "question": "([[be|ser/estar]]) _______ [[you|tú/usted]] [[a|un/una]] [[student|estudiante]]?",
-          "options": [
-            "[[Is|Es/está]]",
-            "[[Are|Son/están]]",
-            "[[Am|Soy/estoy]]"
-          ],
-          "correctAnswer": 1,
-          "explanation": "Práctica de la estructura gramatical básica."
+          "question": "[[Seven|Siete]] [[plus|más]] [[three|tres]] [[is|es]] (_____) .",
+          "options": ["[[nine|nueve]]", "[[eight|ocho]]", "[[ten|diez]]"],
+          "correctAnswer": 2,
+          "explanation": "7 + 3 = 10 (ten)."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-2/e6.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u2-e7",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Nice to meet you!",
+    "topic": "To Be: Affirmative",
     "difficulty": "easy",
-    "transcript": "He is my best friend.",
+    "transcript": "[[It|Eso]] [[is|es]] [[from|de]] [[England|Inglaterra]].",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[is|es/está]] [[my|mi/mis]] [[best|mejor]] [[friend|amigo/amiga]].",
-      "words": [
-        "[[my|mi/mis]]",
-        "[[best|mejor]]",
-        "[[friend|amigo/amiga]].",
-        "[[He|Él]]",
-        "[[is|es/está]]"
-      ],
-      "explanation": "Practica el orden de las palabras en inglés."
+      "title": "Verbo To Be: It",
+      "instructions": "Elige la forma correcta para el pronombre neutro.",
+      "questions": [
+        {
+          "question": "[[It|Eso]] (_____) [[from|de]] [[England|Inglaterra]].",
+          "options": ["[[are|es]]", "[[is|es]]", "[[am|soy]]"],
+          "correctAnswer": 1,
+          "explanation": "Con 'It' usamos 'is'."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-2/e7.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u2-e8",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Nice to meet you!",
+    "topic": "Countries",
     "difficulty": "easy",
-    "transcript": "She is a very good girl.",
+    "transcript": "[[I|Yo]] [[am|soy]] [[from|de]] [[Mexico|México]].",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[is|es/está]] [[a|un/una]] [[very|muy]] [[good|bueno/buena]] [[girl|niña]].",
-      "words": [
-        "[[girl|niña]].",
-        "[[She|Ella]]",
-        "[[very|muy]]",
-        "[[is|es/está]]",
-        "[[a|un/una]]",
-        "[[good|bueno/buena]]"
-      ],
-      "explanation": "Practica el orden de las palabras en inglés."
+      "title": "Soy de México",
+      "instructions": "Ordena la frase indicando tu origen.",
+      "correctSentence": "[[I|Yo]] [[am|soy]] [[from|de]] [[Mexico|México]].",
+      "words": ["[[Mexico|México]].", "[[from|de]]", "[[am|soy]]", "[[I|Yo]]"],
+      "explanation": "I + am + from + Country."
     },
     "audioUrl": "audio/a1/unit-2/e8.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u2-e9",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Nice to meet you!",
+    "topic": "Nationalities",
     "difficulty": "easy",
-    "transcript": "They are from London.",
+    "transcript": "[[She|Ella]] [[is|es]] [[French|francesa]].",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[are|son/están]] [[from|de/desde]] [[London|Londres]].",
-      "words": [
-        "[[They|Ellos]]",
-        "[[are|son/están]]",
-        "[[London|Londres]].",
-        "[[from|de/desde]]"
-      ],
-      "explanation": "Practica el orden de las palabras en inglés."
+      "title": "Nacionalidad: Francesa",
+      "instructions": "Elige la nacionalidad correcta para alguien de Francia.",
+      "questions": [
+        {
+          "question": "[[She|Ella]] [[is|es]] [[from|de]] [[France|Francia]]. [[She|Ella]] [[is|es]] (_____) .",
+          "options": ["[[French|francesa]]", "[[France|Francia]]", "[[Spanish|española]]"],
+          "correctAnswer": 0,
+          "explanation": "De Francia (France) eres francés/francesa (French)."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-2/e9.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u2-e10",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Nice to meet you!",
+    "topic": "Numbers 1-10",
     "difficulty": "easy",
-    "transcript": "Welcome to our school.",
+    "transcript": "[[Two|Dos]], [[four|cuatro]], [[six|seis]], [[eight|ocho]].",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Welcome|Bienvenido]] [[to|a/para]] [[our|nuestro]] [[school|escuela]].",
-      "words": [
-        "[[school|escuela]].",
-        "[[Welcome|Bienvenido]]",
-        "[[our|nuestro]]",
-        "[[to|a/para]]"
-      ],
-      "explanation": "Practica el orden de las palabras en inglés."
+      "title": "Series Numéricas",
+      "instructions": "¿Qué número sigue en la serie: 2, 4, 6...?",
+      "questions": [
+        {
+          "question": "[[Two|Dos]], [[four|cuatro]], [[six|seis]], (_____) .",
+          "options": ["[[seven|siete]]", "[[eight|ocho]]", "[[nine|nueve]]"],
+          "correctAnswer": 1,
+          "explanation": "La serie va de dos en dos."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-2/e10.mp3",
     "topicName": "Vocabulary"
@@ -282,1002 +217,990 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "id": "a1-u2-e11",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Nice to meet you!",
+    "topic": "To Be: Affirmative",
     "difficulty": "easy",
-    "transcript": "Is she your classmate?",
+    "transcript": "[[He|Él]] [[is|es]] [[my|mi]] [[friend|amigo]].",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Is|Es/está]] [[she|ella]] [[your|tu/tus]] [[classmate|classmate]]?",
-      "words": [
-        "[[classmate|classmate]]?",
-        "[[your|tu/tus]]",
-        "[[Is|Es/está]]",
-        "[[she|ella]]"
-      ],
-      "explanation": "Practica el orden de las palabras en inglés."
+      "title": "Él es mi amigo",
+      "instructions": "Ordena la frase.",
+      "correctSentence": "[[He|Él]] [[is|es]] [[my|mi]] [[friend|amigo]].",
+      "words": ["[[friend|amigo]].", "[[my|mi]]", "[[is|es]]", "[[He|Él]]"],
+      "explanation": "Sujeto + Verbo + Complemento."
     },
     "audioUrl": "audio/a1/unit-2/e11.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
-  // --- NUEVOS EJERCICIOS (12-35) ---
   {
     "id": "a1-u2-e12",
-    "type": "flashcard",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Family & Relations",
+    "topic": "Countries",
     "difficulty": "easy",
-    "transcript": "Father. Mother. Brother. Sister. Son. Daughter. Parents. Husband. Wife.",
+    "transcript": "[[London|Londres]] [[is|está]] [[in|en]] [[England|Inglaterra]].",
     "content": {
-      "title": "La Familia",
-      "instructions": "Aprende los miembros de la familia.",
-      "items": [
-        { "front": "[[Father|Padre]]", "back": "Padre" },
-        { "front": "[[Mother|Madre]]", "back": "Madre" },
-        { "front": "[[Brother|Hermano]]", "back": "Hermano" },
-        { "front": "[[Sister|Hermana]]", "back": "Hermana" },
-        { "front": "[[Son|Hijo]]", "back": "Hijo" },
-        { "front": "[[Daughter|Hija]]", "back": "Hija" }
+      "title": "Geografía Básica",
+      "instructions": "¿Dónde está Londres?",
+      "questions": [
+        {
+          "question": "[[London|Londres]] [[is|está]] [[in|en]] (_____) .",
+          "options": ["[[Mexico|México]]", "[[Spain|España]]", "[[England|Inglaterra]]"],
+          "correctAnswer": 2,
+          "explanation": "London está en England."
+        }
       ]
     },
+    "audioUrl": "audio/a1/unit-2/e12.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u2-e13",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Family",
+    "topic": "Subject Pronouns",
     "difficulty": "easy",
-    "transcript": "He is my father.",
+    "transcript": "[[We|Nosotros]] [[are|somos]] [[Spanish|españoles]].",
     "content": {
-      "title": "Relaciones Familiares",
-      "instructions": "Completa.",
-      "questions": [
-        {
-          "question": "[[He|Él]] _______ [[my|mi/mis]] [[father|padre]].",
-          "options": ["[[is|es/está]]", "[[are|son/están]]", "[[am|soy/estoy]]"],
-          "correctAnswer": 0,
-          "explanation": "He + is."
-        }
-      ]
+      "title": "Somos españoles",
+      "instructions": "Ordena la frase.",
+      "correctSentence": "[[We|Nosotros]] [[are|somos]] [[Spanish|españoles]].",
+      "words": ["[[Spanish|españoles]].", "[[are|somos]]", "[[We|Nosotros]]"],
+      "explanation": "We + are + nationality."
     },
+    "audioUrl": "audio/a1/unit-2/e13.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u2-e14",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Family",
+    "topic": "To Be: Affirmative",
     "difficulty": "easy",
-    "transcript": "They are my parents.",
+    "transcript": "[[You|Tú]] [[are|eres]] [[American|americano]].",
     "content": {
-      "title": "Relaciones Familiares",
-      "instructions": "Completa.",
+      "title": "Verbo To Be: You",
+      "instructions": "Elige la forma correcta para 'You'.",
       "questions": [
         {
-          "question": "[[They|Ellos/ellas]] _______ [[my|mi/mis]] [[parents|padres]].",
-          "options": ["[[is|es/está]]", "[[are|son/están]]", "[[am|soy/estoy]]"],
-          "correctAnswer": 1,
-          "explanation": "They + are."
+          "question": "[[You|Tú]] (_____) [[American|americano]].",
+          "options": ["[[are|eres]]", "[[is|es]]", "[[am|soy]]"],
+          "correctAnswer": 0,
+          "explanation": "Con 'You' siempre usamos 'are'."
         }
       ]
     },
+    "audioUrl": "audio/a1/unit-2/e14.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u2-e15",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Family",
+    "topic": "Numbers 1-10",
     "difficulty": "easy",
-    "transcript": "She is my sister.",
+    "transcript": "[[I|Yo]] [[have|tengo]] [[five|cinco]] [[apples|manzanas]].",
     "content": {
-      "title": "Construcción",
-      "instructions": "Ordena.",
-      "correctSentence": "[[She|Ella]] [[is|es/está]] [[my|mi/mis]] [[sister|hermana]].",
-      "words": ["[[sister|hermana]].", "[[is|es/está]]", "[[my|mi/mis]]", "[[She|Ella]]"],
-      "explanation": "She + is + my sister."
+      "title": "Tengo cinco manzanas",
+      "instructions": "Ordena la frase.",
+      "correctSentence": "[[I|Yo]] [[have|tengo]] [[five|cinco]] [[apples|manzanas]].",
+      "words": ["[[apples|manzanas]].", "[[five|cinco]]", "[[have|tengo]]", "[[I|Yo]]"],
+      "explanation": "Five es el número 5."
     },
+    "audioUrl": "audio/a1/unit-2/e15.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u2-e16",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Relations",
-    "difficulty": "easy",
-    "transcript": "Neighbor. Boss. Colleague. Boyfriend. Girlfriend. Partner.",
-    "content": {
-      "title": "Otras Relaciones",
-      "instructions": "Aprende otras formas de relacionarse.",
-      "items": [
-        { "front": "[[Neighbor|Vecino/a]]", "back": "Vecino/a" },
-        { "front": "[[Boss|Jefe/a]]", "back": "Jefe/a" },
-        { "front": "[[Colleague|Colega/compañero/a de trabajo]]", "back": "Colega" },
-        { "front": "[[Boyfriend|Novio]]", "back": "Novio" },
-        { "front": "[[Girlfriend|Novia]]", "back": "Novia" }
-      ]
-    },
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u2-e17",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Relations",
+    "topic": "Subject Pronouns",
     "difficulty": "easy",
-    "transcript": "Is he your boss?",
+    "transcript": "[[They|Ellos]] [[are|son]] [[from|de]] [[France|Francia]].",
     "content": {
-      "title": "Preguntas",
-      "instructions": "Elige.",
+      "title": "Pronombre: They",
+      "instructions": "Elige el pronombre para un grupo de personas.",
       "questions": [
         {
-          "question": "_______ [[he|él]] [[your|tu/tus]] [[boss|jefe/a]]?",
-          "options": ["[[Are|Son/están]]", "[[Is|Es/está]]", "[[Am|Soy/estoy]]"],
-          "correctAnswer": 1,
-          "explanation": "Is + he...?"
+          "question": "(_____) [[are|son]] [[from|de]] [[France|Francia]].",
+          "options": ["[[We|Nosotros]]", "[[He|Él]]", "[[They|Ellos]]"],
+          "correctAnswer": 2,
+          "explanation": "Usamos 'They' para referirnos a otros en plural."
         }
       ]
     },
+    "audioUrl": "audio/a1/unit-2/e16.mp3",
     "topicName": "Grammar"
   },
   {
-    "id": "a1-u2-e18",
+    "id": "a1-u2-e17",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Relations",
+    "topic": "Nationalities",
     "difficulty": "easy",
-    "transcript": "They are my neighbors.",
+    "transcript": "[[She|Ella]] [[is|es]] [[Mexican|mexicana]].",
     "content": {
-      "title": "Orden de palabras",
-      "instructions": "Ordena.",
-      "correctSentence": "[[They|Ellos/ellas]] [[are|son/están]] [[my|mi/mis]] [[neighbors|vecinos/as]].",
-      "words": ["[[neighbors|vecinos/as]].", "[[my|mi/mis]]", "[[are|son/están]]", "[[They|Ellos/ellas]]"],
-      "explanation": "Sujeto + verbo + complemento."
+      "title": "Ella es mexicana",
+      "instructions": "Ordena la frase.",
+      "correctSentence": "[[She|Ella]] [[is|es]] [[Mexican|mexicana]].",
+      "words": ["[[Mexican|mexicana]].", "[[is|es]]", "[[She|Ella]]"],
+      "explanation": "She + is + nationality."
     },
+    "audioUrl": "audio/a1/unit-2/e17.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u2-e18",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Numbers 1-10",
+    "difficulty": "easy",
+    "transcript": "[[Nine|Nueve]] [[minus|menos]] [[five|cinco]] [[is|es]] [[four|cuatro]].",
+    "content": {
+      "title": "Matemáticas Simples",
+      "instructions": "¿Cuánto es 9 - 5?",
+      "questions": [
+        {
+          "question": "[[Nine|Nueve]] [[minus|menos]] [[five|cinco]] [[is|es]] (_____) .",
+          "options": ["[[four|cuatro]]", "[[three|tres]]", "[[five|cinco]]"],
+          "correctAnswer": 0,
+          "explanation": "9 - 5 = 4 (four)."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-2/e18.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u2-e19",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Relations",
+    "topic": "To Be: Affirmative",
     "difficulty": "easy",
-    "transcript": "She is my colleague.",
+    "transcript": "[[It|Eso]] [[is|es]] [[a|un]] [[new|nuevo]] [[car|coche]].",
     "content": {
-      "title": "Relaciones",
-      "instructions": "Completa.",
-      "questions": [
-        {
-          "question": "[[She|Ella]] [[is|es/está]] [[my|mi/mis]] _______.",
-          "options": ["[[colleague|colega/compañero/a de trabajo]]", "[[colleagues|colegas]]"],
-          "correctAnswer": 0,
-          "explanation": "She es singular."
-        }
-      ]
+      "title": "Es un coche nuevo",
+      "instructions": "Ordena la frase.",
+      "correctSentence": "[[It|Eso]] [[is|es]] [[a|un]] [[new|nuevo]] [[car|coche]].",
+      "words": ["[[car|coche]].", "[[new|nuevo]]", "[[a|un]]", "[[is|es]]", "[[It|Eso]]"],
+      "explanation": "It + is + complement."
     },
+    "audioUrl": "audio/a1/unit-2/e19.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u2-e20",
-    "type": "flashcard",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Possessive Adjectives",
+    "topic": "Countries",
     "difficulty": "easy",
-    "transcript": "My. Your. His. Her. Its. Our. Their.",
+    "transcript": "[[Is|Está]] [[Paris|París]] [[in|en]] [[France|Francia]]?",
     "content": {
-      "title": "Adjetivos Posesivos",
-      "instructions": "Aprende cómo indicar pertenencia.",
-      "items": [
-        { "front": "[[My|Mi/mis]]", "back": "Mi / Mis" },
-        { "front": "[[Your|Tu/tus]]", "back": "Tu / Tus / Su / Sus (de usted)" },
-        { "front": "[[His|Su (de él)]]", "back": "Su (de él)" },
-        { "front": "[[Her|Su (de ella)]]", "back": "Su (de ella)" },
-        { "front": "[[Our|Nuestro/a]]", "back": "Nuestro / Nuestra" },
-        { "front": "[[Their|Su (de ellos/ellas)]]", "back": "Su (de ellos/ellas)" }
+      "title": "París",
+      "instructions": "Completa la pregunta.",
+      "questions": [
+        {
+          "question": "[[Is|Está]] [[Paris|París]] [[in|en]] (_____) ?",
+          "options": ["[[France|Francia]]", "[[Spain|España]]", "[[Mexico|México]]"],
+          "correctAnswer": 0,
+          "explanation": "Paris está en France."
+        }
       ]
     },
+    "audioUrl": "audio/a1/unit-2/e20.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u2-e21",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Possessives",
-    "difficulty": "easy",
-    "transcript": "His name is Mark.",
+    "topic": "Subject Pronouns",
+    "difficulty": "medium",
+    "transcript": "[[Maria|María]] [[is|es]] [[Spanish|española]]. [[She|Ella]] [[is|es]] [[from|de]] [[Madrid|Madrid]].",
     "content": {
-      "title": "Posesivos: Él",
-      "instructions": "Completa.",
+      "title": "Sustituyendo Nombres",
+      "instructions": "Elige el pronombre que sustituye a 'Maria'.",
       "questions": [
         {
-          "question": "_______ [[name|nombre]] [[is|es/está]] [[Mark|Mark]].",
-          "options": ["[[Her|Su (de ella)]]", "[[His|Su (de él)]]", "[[Our|Nuestro/a]]"],
+          "question": "[[Maria|María]] [[is|es]] [[Spanish|española]]. (_____) [[is|es]] [[from|de]] [[Madrid|Madrid]].",
+          "options": ["[[He|Él]]", "[[She|Ella]]", "[[They|Ellos]]"],
           "correctAnswer": 1,
-          "explanation": "Usamos 'His' para un hombre (Mark)."
+          "explanation": "Maria es mujer, usamos 'She'."
         }
       ]
     },
+    "audioUrl": "audio/a1/unit-2/e21.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u2-e22",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Possessives",
-    "difficulty": "easy",
-    "transcript": "Her name is Sarah.",
+    "topic": "To Be: Affirmative",
+    "difficulty": "medium",
+    "transcript": "[[We|Nosotros]] [[are|somos]] [[American|americanos]] [[students|estudiantes]].",
     "content": {
-      "title": "Posesivos: Ella",
-      "instructions": "Completa.",
-      "questions": [
-        {
-          "question": "_______ [[name|nombre]] [[is|es/está]] [[Sarah|Sarah]].",
-          "options": ["[[His|Su (de él)]]", "[[Her|Su (de ella)]]", "[[Their|Su (de ellos/ellas)]]"],
-          "correctAnswer": 1,
-          "explanation": "Usamos 'Her' para una mujer (Sarah)."
-        }
-      ]
+      "title": "Estudiantes americanos",
+      "instructions": "Ordena la frase.",
+      "correctSentence": "[[We|Nosotros]] [[are|somos]] [[American|americanos]] [[students|estudiantes]].",
+      "words": ["[[students|estudiantes]].", "[[American|americanos]]", "[[are|somos]]", "[[We|Nosotros]]"],
+      "explanation": "We + are + adjective + noun."
     },
+    "audioUrl": "audio/a1/unit-2/e22.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u2-e23",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Possessives",
-    "difficulty": "easy",
-    "transcript": "This is our house.",
+    "topic": "Nationalities",
+    "difficulty": "medium",
+    "transcript": "[[John|John]] [[is|es]] [[American|americano]]. [[He|Él]] [[is|es]] [[from|de]] [[New York|Nueva York]].",
     "content": {
-      "title": "Posesivos: Nosotros",
-      "instructions": "Completa.",
+      "title": "Origen y Nacionalidad",
+      "instructions": "Elige la nacionalidad de alguien de Nueva York.",
       "questions": [
         {
-          "question": "[[This|Este/esta/esto]] [[is|es/está]] _______ [[house|casa]].",
-          "options": ["[[our|nuestro/a]]", "[[your|tu/tus]]", "[[their|su (de ellos/ellas)]]"],
-          "correctAnswer": 0,
-          "explanation": "Our = nuestro/a."
+          "question": "[[John|John]] [[is|es]] [[from|de]] [[New York|Nueva York]]. [[He|Él]] [[is|es]] (_____) .",
+          "options": ["[[English|inglés]]", "[[American|americano]]", "[[Mexican|mexicano]]"],
+          "correctAnswer": 1,
+          "explanation": "Nueva York está en EE.UU., John es American."
         }
       ]
     },
-    "topicName": "Grammar"
+    "audioUrl": "audio/a1/unit-2/e23.mp3",
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u2-e24",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Possessives",
-    "difficulty": "easy",
-    "transcript": "Their car is blue.",
+    "topic": "Numbers 1-10",
+    "difficulty": "medium",
+    "transcript": "[[There|Hay]] [[are|hay]] [[eight|ocho]] [[books|libros]] [[here|aquí]].",
     "content": {
-      "title": "Posesivos: Ellos",
-      "instructions": "Completa.",
-      "questions": [
-        {
-          "question": "_______ [[car|coche]] [[is|es/está]] [[blue|azul]].",
-          "options": ["[[Our|Nuestro/a]]", "[[Your|Tu/tus]]", "[[Their|Su (de ellos/ellas)]]"],
-          "correctAnswer": 2,
-          "explanation": "Their = su (de ellos)."
-        }
-      ]
+      "title": "Hay ocho libros",
+      "instructions": "Ordena la frase.",
+      "correctSentence": "[[There|Hay]] [[are|hay]] [[eight|ocho]] [[books|libros]] [[here|aquí]].",
+      "words": ["[[here|aquí]].", "[[books|libros]]", "[[eight|ocho]]", "[[are|hay]]", "[[There|Hay]]"],
+      "explanation": "Eight es 8."
     },
-    "topicName": "Grammar"
+    "audioUrl": "audio/a1/unit-2/e24.mp3",
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u2-e25",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Possessives",
-    "difficulty": "easy",
-    "transcript": "His brother is a teacher.",
+    "topic": "Subject Pronouns",
+    "difficulty": "medium",
+    "transcript": "[[Tom|Tom]] [[and|y]] [[I|yo]] [[are|estamos]] [[here|aquí]]. [[We|Nosotros]] [[are|estamos]] [[happy|felices]].",
     "content": {
-      "title": "Construcción",
-      "instructions": "Ordena.",
-      "correctSentence": "[[His|Su (de él)]] [[brother|hermano]] [[is|es/está]] [[a|un/una]] [[teacher|profesor/profesora]].",
-      "words": ["[[teacher|profesor/profesora]].", "[[is|es/está]]", "[[a|un/una]]", "[[brother|hermano]]", "[[His|Su (de él)]]"],
-      "explanation": "Posesivo + sustantivo + verbo + complemento."
+      "title": "Pronombre: We",
+      "instructions": "Elige el pronombre que incluye al hablante.",
+      "questions": [
+        {
+          "question": "[[Tom|Tom]] [[and|y]] [[I|yo]] [[are|estamos]] [[here|aquí]]. (_____) [[are|estamos]] [[happy|felices]].",
+          "options": ["[[They|Ellos]]", "[[We|Nosotros]]", "[[You|Vosotros]]"],
+          "correctAnswer": 1,
+          "explanation": "Tom + I = We (Nosotros)."
+        }
+      ]
     },
-    "topicName": "Vocabulary"
+    "audioUrl": "audio/a1/unit-2/e25.mp3",
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u2-e26",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Possessives",
-    "difficulty": "easy",
-    "transcript": "Her sister is very young.",
+    "topic": "Countries",
+    "difficulty": "medium",
+    "transcript": "[[Is|Está]] [[she|ella]] [[from|de]] [[France|Francia]]?",
     "content": {
-      "title": "Construcción",
-      "instructions": "Ordena.",
-      "correctSentence": "[[Her|Su (de ella)]] [[sister|hermana]] [[is|es/está]] [[very|muy]] [[young|joven]].",
-      "words": ["[[young|joven]].", "[[is|es/está]]", "[[very|muy]]", "[[sister|hermana]]", "[[Her|Su (de ella)]]"],
-      "explanation": "Her = su (de ella)."
+      "title": "¿Es ella de Francia?",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[Is|Está]] [[she|ella]] [[from|de]] [[France|Francia]]?",
+      "words": ["[[France|Francia]]?", "[[from|de]]", "[[she|ella]]", "[[Is|Está]]"],
+      "explanation": "Verbo (Is) + Sujeto (she) + Origen."
     },
+    "audioUrl": "audio/a1/unit-2/e26.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u2-e27",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Possessives",
-    "difficulty": "easy",
-    "transcript": "Is that your phone?",
+    "topic": "To Be: Affirmative",
+    "difficulty": "medium",
+    "transcript": "[[The|El]] [[dog|perro]] [[is|es]] [[black|negro]]. [[It|Eso]] [[is|es]] [[my|mi]] [[dog|perro]].",
     "content": {
-      "title": "Preguntas",
-      "instructions": "Elige.",
+      "title": "To Be con Animales",
+      "instructions": "Elige la forma correcta para 'The dog'.",
       "questions": [
         {
-          "question": "[[Is|Es/está]] [[that|ese/esa]] _______ [[phone|teléfono]]?",
-          "options": ["[[your|tu/tus]]", "[[my|mi/mis]]", "[[his|su (de él)]]"],
-          "correctAnswer": 0,
-          "explanation": "Preguntando a alguien directamente."
+          "question": "[[The|El]] [[dog|perro]] (_____) [[black|negro]].",
+          "options": ["[[are|es]]", "[[am|soy]]", "[[is|es]]"],
+          "correctAnswer": 2,
+          "explanation": "El perro es singular (it), usamos 'is'."
         }
       ]
     },
+    "audioUrl": "audio/a1/unit-2/e27.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u2-e28",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Possessives",
-    "difficulty": "easy",
-    "transcript": "What is his last name?",
+    "topic": "Nationalities",
+    "difficulty": "medium",
+    "transcript": "[[They|Ellos]] [[are|son]] [[not|no]] [[English|ingleses]].",
     "content": {
-      "title": "Preguntas wh-",
-      "instructions": "Elige.",
-      "questions": [
-        {
-          "question": "[[What|Qué]] [[is|es/está]] _______ [[last|último]] [[name|nombre]]?",
-          "options": ["[[his|su (de él)]]", "[[he|él]]", "[[him|él (objeto)]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos el adjetivo posesivo 'his' antes de 'last name'."
-        }
-      ]
+      "title": "Ellos no son ingleses",
+      "instructions": "Ordena la frase negativa.",
+      "correctSentence": "[[They|Ellos]] [[are|son]] [[not|no]] [[English|ingleses]].",
+      "words": ["[[English|ingleses]].", "[[not|no]]", "[[are|son]]", "[[They|Ellos]]"],
+      "explanation": "Sujeto + are + not + nationality."
     },
-    "topicName": "Grammar"
+    "audioUrl": "audio/a1/unit-2/e28.mp3",
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u2-e29",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Possessives",
-    "difficulty": "easy",
-    "transcript": "Our teacher is from Canada.",
+    "topic": "Numbers 1-10",
+    "difficulty": "medium",
+    "transcript": "[[I|Yo]] [[have|tengo]] [[one|un]] [[brother|hermano]] [[and|y]] [[two|dos]] [[sisters|hermanas]].",
     "content": {
-      "title": "Construcción",
-      "instructions": "Ordena.",
-      "correctSentence": "[[Our|Nuestro/a]] [[teacher|profesor/profesora]] [[is|es/está]] [[from|de/desde]] [[Canada|Canadá]].",
-      "words": ["[[Canada|Canadá]].", "[[from|de/desde]]", "[[is|es/está]]", "[[teacher|profesor/profesora]]", "[[Our|Nuestro/a]]"],
-      "explanation": "Our = nuestro/a."
+      "title": "Contando Hermanos",
+      "instructions": "¿Cuántas hermanas tiene?",
+      "questions": [
+        {
+          "question": "[[I|Yo]] [[have|tengo]] [[one|un]] [[brother|hermano]] [[and|y]] (2) (_____) [[sisters|hermanas]].",
+          "options": ["[[three|tres]]", "[[one|una]]", "[[two|dos]]"],
+          "correctAnswer": 2,
+          "explanation": "2 se dice 'two'."
+        }
+      ]
     },
+    "audioUrl": "audio/a1/unit-2/e29.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u2-e30",
-    "type": "flashcard",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Plurals",
-    "difficulty": "easy",
-    "transcript": "Book. Books. Friend. Friends. City. Cities. Child. Children. Person. People.",
+    "topic": "To Be: Affirmative",
+    "difficulty": "medium",
+    "transcript": "[[You|Tú]] [[and|y]] [[Peter|Peter]] [[are|sois]] [[French|franceses]].",
     "content": {
-      "title": "Plurales",
-      "instructions": "Aprende cómo formar el plural.",
-      "items": [
-        { "front": "[[Book|Libro]] -> [[Books|Libros]]", "back": "Libro -> Libros" },
-        { "front": "[[Friend|Amigo/amiga]] -> [[Friends|Amigos/as]]", "back": "Amigo/a -> Amigos/as" },
-        { "front": "[[City|Ciudad]] -> [[Cities|Ciudades]]", "back": "Ciudad -> Ciudades" },
-        { "front": "[[Child|Niño/a]] -> [[Children|Niños/as]]", "back": "Niño/a -> Niños/as (irregular)" },
-        { "front": "[[Person|Persona]] -> [[People|Gente/personas]]", "back": "Persona -> Personas (irregular)" }
-      ]
+      "title": "Tú y Peter",
+      "instructions": "Ordena la frase.",
+      "correctSentence": "[[You|Tú]] [[and|y]] [[Peter|Peter]] [[are|sois]] [[French|franceses]].",
+      "words": ["[[French|franceses]].", "[[are|sois]]", "[[Peter|Peter]]", "[[and|y]]", "[[You|Tú]]"],
+      "explanation": "You + Peter = You (plural/vosotros), usamos 'are'."
     },
-    "topicName": "Vocabulary"
+    "audioUrl": "audio/a1/unit-2/e30.mp3",
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u2-e31",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Plurals",
-    "difficulty": "easy",
-    "transcript": "They are my friends.",
+    "topic": "Countries",
+    "difficulty": "medium",
+    "transcript": "[[Where|De dónde]] [[are|eres]] [[you|tú]] [[from|]]?",
     "content": {
-      "title": "Plurales Regulares",
-      "instructions": "Completa.",
+      "title": "¿De dónde eres?",
+      "instructions": "Completa la pregunta de origen.",
       "questions": [
         {
-          "question": "[[They|Ellos/ellas]] [[are|son/están]] [[my|mi/mis]] _______.",
-          "options": ["[[friend|amigo/amiga]]", "[[friends|amigos/as]]"],
+          "question": "[[Where|De dónde]] (_____) [[you|tú]] [[from|]]?",
+          "options": ["[[is|es]]", "[[are|eres]]", "[[am|soy]]"],
           "correctAnswer": 1,
-          "explanation": "Con 'They are' usamos el plural."
+          "explanation": "Pregunta estándar: Where are you from?"
         }
       ]
     },
-    "topicName": "Grammar"
+    "audioUrl": "audio/a1/unit-2/e31.mp3",
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u2-e32",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Plurals",
-    "difficulty": "easy",
-    "transcript": "Two children are in the park.",
+    "topic": "Nationalities",
+    "difficulty": "medium",
+    "transcript": "[[He|Él]] [[is|es]] [[a|un]] [[Mexican|mexicano]] [[man|hombre]].",
     "content": {
-      "title": "Plurales Irregulares",
-      "instructions": "Completa.",
-      "questions": [
-        {
-          "question": "[[Two|Dos]] _______ [[are|son/están]] [[in|en]] [[the|el/la]] [[park|parque]].",
-          "options": ["[[child|niño/a]]", "[[children|niños/as]]"],
-          "correctAnswer": 1,
-          "explanation": "El plural de 'child' es 'children'."
-        }
-      ]
+      "title": "Hombre mexicano",
+      "instructions": "Ordena la frase.",
+      "correctSentence": "[[He|Él]] [[is|es]] [[a|un]] [[Mexican|mexicano]] [[man|hombre]].",
+      "words": ["[[man|hombre]].", "[[Mexican|mexicano]]", "[[a|un]]", "[[is|es]]", "[[He|Él]]"],
+      "explanation": "He + is + a + adjective + noun."
     },
-    "topicName": "Grammar"
+    "audioUrl": "audio/a1/unit-2/e32.mp3",
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u2-e33",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Plurals",
-    "difficulty": "easy",
-    "transcript": "There are many people here.",
+    "topic": "To Be: Affirmative",
+    "difficulty": "medium",
+    "transcript": "[[Madrid|Madrid]] [[is|es]] [[a|una]] [[big|grande]] [[city|ciudad]].",
     "content": {
-      "title": "Plurales Irregulares",
-      "instructions": "Completa.",
+      "title": "Ciudad Grande",
+      "instructions": "Elige el verbo correcto para 'Madrid'.",
       "questions": [
         {
-          "question": "[[There|Allí]] [[are|son/están]] [[many|muchos/as]] _______ [[here|aquí]].",
-          "options": ["[[person|persona]]", "[[people|gente/personas]]"],
+          "question": "[[Madrid|Madrid]] (_____) [[a|una]] [[big|grande]] [[city|ciudad]].",
+          "options": ["[[are|es]]", "[[is|es]]", "[[am|soy]]"],
           "correctAnswer": 1,
-          "explanation": "El plural de 'person' es 'people'."
+          "explanation": "Madrid es singular (it), usamos 'is'."
         }
       ]
     },
+    "audioUrl": "audio/a1/unit-2/e33.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u2-e34",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Plurals",
-    "difficulty": "easy",
-    "transcript": "We have three books.",
+    "topic": "Subject Pronouns",
+    "difficulty": "medium",
+    "transcript": "[[She|Ella]] [[is|es]] [[my|mi]] [[mother|madre]].",
     "content": {
-      "title": "Construcción",
-      "instructions": "Ordena.",
-      "correctSentence": "[[We|Nosotros/as]] [[have|tener/haber]] [[three|tres]] [[books|libros]].",
-      "words": ["[[books|libros]].", "[[three|tres]]", "[[have|tener/haber]]", "[[We|Nosotros/as]]"],
-      "explanation": "Número + sustantivo plural."
+      "title": "Ella es mi madre",
+      "instructions": "Ordena la frase.",
+      "correctSentence": "[[She|Ella]] [[is|es]] [[my|mi]] [[mother|madre]].",
+      "words": ["[[mother|madre]].", "[[my|mi]]", "[[is|es]]", "[[She|Ella]]"],
+      "explanation": "She + is + complement."
     },
-    "topicName": "Vocabulary"
+    "audioUrl": "audio/a1/unit-2/e34.mp3",
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u2-e35",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Plurals",
-    "difficulty": "easy",
-    "transcript": "The cities are big.",
+    "topic": "Numbers 1-10",
+    "difficulty": "medium",
+    "transcript": "[[I|Yo]] [[have|tengo]] [[four|cuatro]] [[blue|azules]] [[pens|bolígrafos]].",
     "content": {
-      "title": "Ortografía del Plural",
-      "instructions": "Elige.",
+      "title": "Bolis Azules",
+      "instructions": "¿Cuántos bolígrafos tiene?",
       "questions": [
         {
-          "question": "[[The|El/la]] _______ [[are|son/están]] [[big|grande]].",
-          "options": ["[[citys|ciudades (incorrecto)]]", "[[cities|ciudades]]"],
+          "question": "[[I|Yo]] [[have|tengo]] (4) (_____) [[blue|azules]] [[pens|bolígrafos]].",
+          "options": ["[[five|cinco]]", "[[four|cuatro]]", "[[six|seis]]"],
           "correctAnswer": 1,
-          "explanation": "Palabras que terminan en consonante + y cambian a -ies."
+          "explanation": "4 se dice 'four'."
         }
       ]
     },
-    "topicName": "Grammar"
+    "audioUrl": "audio/a1/unit-2/e35.mp3",
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u2-e36",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Grammar Reinforcement",
-    "difficulty": "easy",
-    "transcript": "Are these your glasses?",
+    "topic": "Countries",
+    "difficulty": "medium",
+    "transcript": "[[Are|Son]] [[they|ellos]] [[from|de]] [[The United States|Estados Unidos]]?",
     "content": {
-      "title": "Plurales y Posesivos",
-      "instructions": "Completa.",
-      "questions": [
-        {
-          "question": "[[Are|Son/están]] [[these|estos/estas]] _______ [[glasses|gafas]]?",
-          "options": ["[[your|tu/tus]]", "[[you|tú/usted]]", "[[yours|tuyo/a]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos el adjetivo posesivo 'your'."
-        }
-      ]
+      "title": "¿Son de EE.UU.?",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[Are|Son]] [[they|ellos]] [[from|de]] [[The United States|Estados Unidos]]?",
+      "words": ["[[States|Unidos]]?", "[[United|Estados]]", "[[The|]]", "[[from|de]]", "[[they|ellos]]", "[[Are|Son]]"],
+      "explanation": "Are + they + from + Country?"
     },
-    "topicName": "Grammar"
+    "audioUrl": "audio/a1/unit-2/e36.mp3",
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u2-e37",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar Reinforcement",
-    "difficulty": "easy",
-    "transcript": "They are not my keys.",
+    "topic": "Nationalities",
+    "difficulty": "medium",
+    "transcript": "[[They|Ellos]] [[are|son]] [[from|de]] [[Spain|España]]. [[They|Ellos]] [[are|son]] [[Spanish|españoles]].",
     "content": {
-      "title": "Negativo Plural",
-      "instructions": "Completa.",
+      "title": "Nacionalidad Plural",
+      "instructions": "Elige la nacionalidad correcta para 'they'.",
       "questions": [
         {
-          "question": "[[They|Ellos/ellas]] _______ [[not|no]] [[my|mi/mis]] [[keys|llaves]].",
-          "options": ["[[is|es/está]]", "[[are|son/están]]", "[[am|soy/estoy]]"],
+          "question": "[[They|Ellos]] [[are|son]] [[from|de]] [[Spain|España]]. [[They|Ellos]] [[are|son]] (_____) .",
+          "options": ["[[Spain|España]]", "[[Spanish|españoles]]", "[[English|ingleses]]"],
           "correctAnswer": 1,
-          "explanation": "They + are + not."
+          "explanation": "De España son Spanish."
         }
       ]
     },
-    "topicName": "Grammar"
+    "audioUrl": "audio/a1/unit-2/e37.mp3",
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u2-e38",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Grammar Reinforcement",
-    "difficulty": "easy",
-    "transcript": "Those people are very nice.",
+    "topic": "To Be: Affirmative",
+    "difficulty": "medium",
+    "transcript": "[[I|Yo]] [[am|soy]] [[a|un]] [[new|nuevo]] [[student|estudiante]].",
     "content": {
-      "title": "Construcción",
-      "instructions": "Ordena.",
-      "correctSentence": "[[Those|Esos/esas/aquellos/aquellas]] [[people|gente/personas]] [[are|son/están]] [[very|muy]] [[nice|agradable/simpático]].",
-      "words": ["[[nice|agradable/simpático]].", "[[very|muy]]", "[[are|son/están]]", "[[people|gente/personas]]", "[[Those|Esos/esas/aquellos/aquellas]]"],
-      "explanation": "People es plural, por eso usamos 'are'."
+      "title": "Nuevo estudiante",
+      "instructions": "Ordena la frase.",
+      "correctSentence": "[[I|Yo]] [[am|soy]] [[a|un]] [[new|nuevo]] [[student|estudiante]].",
+      "words": ["[[student|estudiante]].", "[[new|nuevo]]", "[[a|un]]", "[[am|soy]]", "[[I|Yo]]"],
+      "explanation": "I + am + a + adjective + noun."
     },
-    "topicName": "Vocabulary"
+    "audioUrl": "audio/a1/unit-2/e38.mp3",
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u2-e39",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar Reinforcement",
-    "difficulty": "easy",
-    "transcript": "Is our boss here?",
+    "topic": "Numbers 1-10",
+    "difficulty": "medium",
+    "transcript": "[[Three|Tres]], [[six|seis]], [[nine|nueve]].",
     "content": {
-      "title": "Posesivos en Preguntas",
-      "instructions": "Elige.",
+      "title": "Series de Tres",
+      "instructions": "¿Cuál sigue: 3, 6...?",
       "questions": [
         {
-          "question": "_______ [[our|nuestro/a]] [[boss|jefe/a]] [[here|aquí]]?",
-          "options": ["[[Are|Son/están]]", "[[Is|Es/está]]", "[[Am|Soy/estoy]]"],
-          "correctAnswer": 1,
-          "explanation": "Boss es singular."
+          "question": "[[Three|Tres]], [[six|seis]], (_____) .",
+          "options": ["[[nine|nueve]]", "[[seven|siete]]", "[[eight|ocho]]"],
+          "correctAnswer": 0,
+          "explanation": "La serie va de tres en tres."
         }
       ]
     },
-    "topicName": "Grammar"
+    "audioUrl": "audio/a1/unit-2/e39.mp3",
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u2-e40",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Grammar Reinforcement",
-    "difficulty": "easy",
-    "transcript": "Where are your children?",
+    "topic": "Subject Pronouns",
+    "difficulty": "medium",
+    "transcript": "[[He|Él]] [[and|y]] [[she|ella]] [[are|son]] [[friends|amigos]].",
     "content": {
-      "title": "Preguntas Wh- Plural",
-      "instructions": "Elige.",
-      "questions": [
-        {
-          "question": "[[Where|Dónde]] _______ [[your|tu/tus]] [[children|niños/as]]?",
-          "options": ["[[is|es/está]]", "[[are|son/están]]", "[[am|soy/estoy]]"],
-          "correctAnswer": 1,
-          "explanation": "Children es plural."
-        }
-      ]
+      "title": "Él y ella",
+      "instructions": "Ordena la frase.",
+      "correctSentence": "[[He|Él]] [[and|y]] [[she|ella]] [[are|son]] [[friends|amigos]].",
+      "words": ["[[friends|amigos]].", "[[are|son]]", "[[she|ella]]", "[[and|y]]", "[[He|Él]]"],
+      "explanation": "He + She = They, usamos 'are'."
     },
+    "audioUrl": "audio/a1/unit-2/e40.mp3",
     "topicName": "Grammar"
   },
-  // --- READING COMPREHENSION BLOCK (41-50) ---
+
+  // ==========================================
+  // MODULE 1: READING COMPREHENSION (41-60)
+  // 5 Passages x (1 Text + 3 Questions) = 20 slides
+  // ==========================================
+
+  // PASSAGE 1: INTERNATIONAL FRIENDS
   {
     "id": "a1-u2-e41",
-    "type": "multiple-choice",
+    "type": "reading",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "This is my family. My father is John. My mother is Sarah. I have two brothers, Tom and Mike.",
+    "topic": "Reading Phase",
+    "difficulty": "medium",
+    "transcript": "[[Hello|Hola]]. [[I|Yo]] [[am|soy]] [[David|David]]. [[I|Yo]] [[am|soy]] [[American|americano]] [[from|de]] [[New York|Nueva York]]. [[This|Este]] [[is|es]] [[my|mi]] [[friend|amigo]] [[Luis|Luis]]. [[He|Él]] [[is|es]] [[Spanish|español]] [[from|de]] [[Madrid|Madrid]]. [[We|Nosotros]] [[are|somos]] [[students|estudiantes]] [[in|en]] [[London|Londres]]. [[We|Nosotros]] [[are|estamos]] [[happy|felices]] [[here|aquí]].",
     "content": {
-      "title": "Lectura: Mi Familia",
-      "instructions": "Lee y responde.",
-      "questions": [
-        {
-          "question": "[[How|Cómo]] [[many|muchos/as]] [[brothers|hermanos]] [[does|hacer (auxiliar)]] [[the|el/la]] [[person|persona]] [[have|tener/haber]]?\n\n*\"I have two brothers, Tom and Mike.\"*",
-          "options": ["[[One|Uno]]", "[[Two|Dos]]", "[[Three|Tres]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice 'two brothers'."
-        }
-      ]
+      "title": "Lectura: Amigos Internacionales",
+      "instructions": "Lee sobre David y Luis.",
+      "questions": []
     },
+    "audioUrl": "audio/a1/unit-2/e41.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u2-e42",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "This is my family. My father is John. My mother is Sarah. I have two brothers, Tom and Mike.",
+    "topic": "Reading Question",
+    "difficulty": "medium",
     "content": {
-      "title": "Lectura: Mi Familia",
-      "instructions": "Lee y responde.",
+      "title": "Pregunta de Lectura",
+      "instructions": "Responde según el texto.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[is|es/está]] [[his|su (de él)]] [[mother|madre]]'s [[name|nombre]]?\n\n*\"My mother is Sarah.\"*",
-          "options": ["[[Anna|Anna]]", "[[Sarah|Sarah]]", "[[Maria|Maria]]"],
+          "question": "[[Where|De dónde]] [[is|es]] [[David|David]] [[from|]]?",
+          "options": ["[[Madrid|Madrid]]", "[[New York|Nueva York]]", "[[London|Londres]]"],
           "correctAnswer": 1,
-          "explanation": "Su madre se llama Sarah."
+          "explanation": "El texto dice 'American from New York'."
         }
       ]
     },
+    "audioUrl": "audio/a1/unit-2/e42.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u2-e43",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Welcome to our office. This is Mr. Brown. He is our boss. Mrs. Green is his secretary.",
+    "topic": "Reading Question",
+    "difficulty": "medium",
     "content": {
-      "title": "Lectura: En la Oficina",
-      "instructions": "Lee y responde.",
+      "title": "Pregunta de Lectura",
+      "instructions": "Responde según el texto.",
       "questions": [
         {
-          "question": "[[Who|Quién]] [[is|es/está]] [[the|el/la]] [[boss|jefe/a]]?\n\n*\"This is Mr. Brown. He is our boss.\"*",
-          "options": ["[[Mr. Brown|Sr. Brown]]", "[[Mrs. Green|Sra. Green]]", "[[Mike|Mike]]"],
+          "question": "[[What|Cuál]] [[is|es]] [[Luis's|la de Luis]] [[nationality|nacionalidad]]?",
+          "options": ["[[Spanish|Español]]", "[[American|Americano]]", "[[English|Inglés]]"],
           "correctAnswer": 0,
-          "explanation": "Mr. Brown es el jefe."
+          "explanation": "El texto dice 'He is Spanish from Madrid'."
         }
       ]
     },
+    "audioUrl": "audio/a1/unit-2/e43.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u2-e44",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Welcome to our office. This is Mr. Brown. He is our boss. Mrs. Green is his secretary.",
+    "topic": "Reading Question",
+    "difficulty": "medium",
     "content": {
-      "title": "Lectura: En la Oficina",
-      "instructions": "Lee y responde.",
+      "title": "Pregunta de Lectura",
+      "instructions": "Responde según el texto.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[is|es/está]] [[Mrs. Green|Mrs. Green]]'s [[job|trabajo]]?\n\n*\"Mrs. Green is his secretary.\"*",
-          "options": ["[[Boss|Jefe/a]]", "[[Secretary|Secretario/a]]", "[[Doctor|Médico/a]]"],
-          "correctAnswer": 1,
-          "explanation": "Mrs. Green es la secretaria."
+          "question": "[[Where|Dónde]] [[are|están]] [[David|David]] [[and|y]] [[Luis|Luis]] [[now|ahora]]?",
+          "options": ["[[In Madrid|En Madrid]]", "[[In New York|En Nueva York]]", "[[In London|En Londres]]"],
+          "correctAnswer": 2,
+          "explanation": "El texto dice 'We are students in London'."
         }
       ]
     },
+    "audioUrl": "audio/a1/unit-2/e44.mp3",
     "topicName": "Reading"
   },
+
+  // PASSAGE 2: THE FRENCH CLASS
   {
     "id": "a1-u2-e45",
-    "type": "multiple-choice",
+    "type": "reading",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "These are my classmates. Their names are Lucas and Elena. They are from Brazil.",
+    "topic": "Reading Phase",
+    "difficulty": "medium",
+    "transcript": "[[This|Esta]] [[is|es]] [[our|nuestra]] [[class|clase]]. [[There|Allí]] [[are|hay]] [[ten|diez]] [[students|estudiantes]]. [[Marie|Marie]] [[and|y]] [[Sophie|Sophie]] [[are|son]] [[from|de]] [[France|Francia]]. [[They|Ellas]] [[are|son]] [[French|francesas]]. [[They|Ellas]] [[are|están]] [[very|muy]] [[intelligent|inteligentes]]. [[The|El]] [[teacher|profesor]] [[is|es]] [[Spanish|español]]. [[He|Él]] [[is|es]] [[from|de]] [[Barcelona|Barcelona]].",
     "content": {
-      "title": "Lectura: Compañeros de Clase",
-      "instructions": "Lee y responde.",
-      "questions": [
-        {
-          "question": "[[Where|Dónde]] [[are|son/están]] [[they|ellos/ellas]] [[from|de/desde]]?\n\n*\"They are from Brazil.\"*",
-          "options": ["[[Spain|España]]", "[[Brazil|Brasil]]", "[[Italy|Italia]]"],
-          "correctAnswer": 1,
-          "explanation": "Son de Brasil."
-        }
-      ]
+      "title": "Lectura: La Clase de Francés",
+      "instructions": "Lee sobre los estudiantes y el profesor.",
+      "questions": []
     },
+    "audioUrl": "audio/a1/unit-2/e45.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u2-e46",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "These are my classmates. Their names are Lucas and Elena. They are from Brazil.",
+    "topic": "Reading Question",
+    "difficulty": "medium",
     "content": {
-      "title": "Lectura: Compañeros de Clase",
-      "instructions": "Lee y responde.",
+      "title": "Pregunta de Lectura",
+      "instructions": "Responde según el texto.",
       "questions": [
         {
-          "question": "[[Who|Quién]] [[is|es/está]] [[Lucas|Lucas]]?\n\n*\"These are my classmates. Their names are Lucas and Elena.\"*",
-          "options": ["[[A teacher|Un profesor]]", "[[A classmate|Un compañero de clase]]", "[[A boss|Un jefe]]"],
+          "question": "[[How|Cuántos]] [[many|muchos]] [[students|estudiantes]] [[are|hay]] [[in|en]] [[the|la]] [[class|clase]]?",
+          "options": ["[[Five|Cinco]]", "[[Ten|Diez]]", "[[Seven|Siete]]"],
           "correctAnswer": 1,
-          "explanation": "Lucas es un compañero de clase."
+          "explanation": "El texto dice 'There are ten students'."
         }
       ]
     },
+    "audioUrl": "audio/a1/unit-2/e46.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u2-e47",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "My neighbor has three cats. Their names are Fluffy, Snow, and Blackie. They are very cute.",
+    "topic": "Reading Question",
+    "difficulty": "medium",
     "content": {
-      "title": "Lectura: Los Gatos del Vecino",
-      "instructions": "Lee y responde.",
+      "title": "Pregunta de Lectura",
+      "instructions": "Responde según el texto.",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[many|muchos/as]] [[cats|gatos]] [[does|hacer (auxiliar)]] [[the|el/la]] [[neighbor|vecino/a]] [[have|tener/haber]]?\n\n*\"My neighbor has three cats.\"*",
-          "options": ["[[Two|Dos]]", "[[Three|Tres]]", "[[Four|Cuatro]]"],
+          "question": "[[Are|Son]] [[Marie|Marie]] [[and|y]] [[Sophie|Sophie]] [[Mexican|mexicanas]]?",
+          "options": ["[[Yes, they are.|Sí.]]", "[[No, they are French.|No, son francesas.]]", "[[No, they are American.|No.]]"],
           "correctAnswer": 1,
-          "explanation": "Tiene tres gatos."
+          "explanation": "El texto dice 'They are French'."
         }
       ]
     },
+    "audioUrl": "audio/a1/unit-2/e47.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u2-e48",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "My neighbor has three cats. Their names are Fluffy, Snow, and Blackie. They are very cute.",
+    "topic": "Reading Question",
+    "difficulty": "medium",
     "content": {
-      "title": "Lectura: Los Gatos del Vecino",
-      "instructions": "Lee y responde.",
+      "title": "Pregunta de Lectura",
+      "instructions": "Responde según el texto.",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[are|son/están]] [[the|el/la]] [[cats|gatos]]?\n\n*\"They are very cute.\"*",
-          "options": ["[[Big|Grande]]", "[[Cute|Lindo/a]]", "[[Angry|Enfadado/a]]"],
-          "correctAnswer": 1,
-          "explanation": "Son lindos (cute)."
+          "question": "[[Where|De dónde]] [[is|es]] [[the|el]] [[teacher|profesor]] [[from|]]?",
+          "options": ["[[France|Francia]]", "[[London|Londres]]", "[[Barcelona|Barcelona]]"],
+          "correctAnswer": 2,
+          "explanation": "El texto dice 'He is from Barcelona'."
         }
       ]
     },
+    "audioUrl": "audio/a1/unit-2/e48.mp3",
     "topicName": "Reading"
   },
+
+  // PASSAGE 3: THE NEW CAR
   {
     "id": "a1-u2-e49",
-    "type": "multiple-choice",
+    "type": "reading",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Hi, I am Paul. This is my girlfriend, Maria. We are at a party with our friends.",
+    "topic": "Reading Phase",
+    "difficulty": "medium",
+    "transcript": "[[Look|Mira]] [[at|a]] [[the|el]] [[car|coche]]. [[It|Eso]] [[is|es]] [[red|rojo]]. [[It|Eso]] [[is|es]] [[from|de]] [[England|Inglaterra]]. [[It|Eso]] [[is|es]] [[an|un]] [[English|inglés]] [[car|coche]]. [[The|El]] [[owner|dueño]] [[is|es]] [[Peter|Peter]]. [[He|Él]] [[is|es]] [[English|inglés]] [[too|también]]. [[He|Él]] [[is|es]] [[very|muy]] [[happy|feliz]].",
     "content": {
-      "title": "Lectura: En la Fiesta",
-      "instructions": "Lee y responde.",
-      "questions": [
-        {
-          "question": "[[Who|Quién]] [[is|es/está]] [[Maria|Maria]]?\n\n*\"This is my girlfriend, Maria.\"*",
-          "options": ["[[Paul's sister|La hermana de Paul]]", "[[Paul's girlfriend|La novia de Paul]]", "[[Paul's mother|La madre de Paul]]"],
-          "correctAnswer": 1,
-          "explanation": "Maria es la novia de Paul."
-        }
-      ]
+      "title": "Lectura: El Coche Nuevo",
+      "instructions": "Lee sobre el coche de Peter.",
+      "questions": []
     },
+    "audioUrl": "audio/a1/unit-2/e49.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u2-e50",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "easy",
-    "transcript": "Hi, I am Paul. This is my girlfriend, Maria. We are at a party with our friends.",
+    "topic": "Reading Question",
+    "difficulty": "medium",
     "content": {
-      "title": "Lectura: En la Fiesta",
-      "instructions": "Lee y responde.",
+      "title": "Pregunta de Lectura",
+      "instructions": "Responde según el texto.",
       "questions": [
         {
-          "question": "[[Where|Dónde]] [[are|son/están]] [[they|ellos/ellas]]?\n\n*\"We are at a party...\"*",
-          "options": ["[[At school|En la escuela]]", "[[At a party|En una fiesta]]", "[[At home|En casa]]"],
+          "question": "[[What|De qué]] [[color|color]] [[is|es]] [[the|el]] [[car|coche]]?",
+          "options": ["[[Blue|Azul]]", "[[Red|Rojo]]", "[[Black|Negro]]"],
           "correctAnswer": 1,
-          "explanation": "Están en una fiesta."
+          "explanation": "El texto dice 'It is red'."
         }
       ]
     },
+    "audioUrl": "audio/a1/unit-2/e50.mp3",
     "topicName": "Reading"
   },
-  // --- FINAL MIXED REVIEW (51-60) ---
   {
     "id": "a1-u2-e51",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Review",
-    "difficulty": "easy",
-    "transcript": "Is he your brother?",
+    "topic": "Reading Question",
+    "difficulty": "medium",
     "content": {
-      "title": "Repaso: Preguntas",
-      "instructions": "Elige.",
+      "title": "Pregunta de Lectura",
+      "instructions": "Responde según el texto.",
       "questions": [
         {
-          "question": "_______ [[he|él]] [[your|tu/tus]] [[brother|hermano]]?",
-          "options": ["[[Are|Son/están]]", "[[Is|Es/está]]", "[[Am|Soy/estoy]]"],
+          "question": "[[Is|Es]] [[the|el]] [[car|coche]] [[from|de]] [[Spain|España]]?",
+          "options": ["[[Yes, it is.|Sí.]]", "[[No, it is English.|No, es inglés.]]", "[[No, it is Mexican.|No.]]"],
           "correctAnswer": 1,
-          "explanation": "Is + he...?"
+          "explanation": "El texto dice 'It is from England'."
         }
       ]
     },
-    "topicName": "Grammar"
+    "audioUrl": "audio/a1/unit-2/e51.mp3",
+    "topicName": "Reading"
   },
   {
     "id": "a1-u2-e52",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Review",
-    "difficulty": "easy",
-    "transcript": "These are my parents.",
+    "topic": "Reading Question",
+    "difficulty": "medium",
     "content": {
-      "title": "Repaso: Plural",
-      "instructions": "Elige.",
+      "title": "Pregunta de Lectura",
+      "instructions": "Responde según el texto.",
       "questions": [
         {
-          "question": "[[These|Estos/estas]] _______ [[my|mi/mis]] [[parents|padres]].",
-          "options": ["[[is|es/está]]", "[[are|son/están]]", "[[am|soy/estoy]]"],
-          "correctAnswer": 1,
-          "explanation": "These + are."
+          "question": "[[Is|Está]] [[Peter|Peter]] [[happy|feliz]]?",
+          "options": ["[[Yes, he is.|Sí, lo está.]]", "[[No, he is sad.|No, está triste.]]", "[[No, he is tired.|No.]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice 'He is very happy'."
         }
       ]
     },
-    "topicName": "Grammar"
+    "audioUrl": "audio/a1/unit-2/e52.mp3",
+    "topicName": "Reading"
   },
+
+  // PASSAGE 4: MEXICO VACATION
   {
     "id": "a1-u2-e53",
-    "type": "sentence-building",
+    "type": "reading",
     "level": "A1",
-    "topic": "Review",
-    "difficulty": "easy",
-    "transcript": "Her name is very long.",
+    "topic": "Reading Phase",
+    "difficulty": "medium",
+    "transcript": "[[We|Nosotros]] [[are|estamos]] [[in|en]] [[Mexico|México]]. [[It|Eso]] [[is|es]] [[a|un]] [[beautiful|hermoso]] [[country|país]]. [[My|Mis]] [[parents|padres]] [[are|están]] [[with|con]] [[me|migo]]. [[They|Ellos]] [[are|están]] [[not|no]] [[Mexican|mexicanos]]. [[They|Ellos]] [[are|son]] [[American|americanos]]. [[There|Allí]] [[are|hay]] [[four|cuatro]] [[people|personas]] [[in|en]] [[my|mi]] [[family|familia]] [[here|aquí]].",
     "content": {
-      "title": "Repaso: Posesivo",
-      "instructions": "Ordena.",
-      "correctSentence": "[[Her|Su (de ella)]] [[name|nombre]] [[is|es/está]] [[very|muy]] [[long|largo]].",
-      "words": ["[[long|largo]].", "[[is|es/está]]", "[[very|muy]]", "[[name|nombre]]", "[[Her|Su (de ella)]]"],
-      "explanation": "Her name = su nombre (de ella)."
+      "title": "Lectura: Vacaciones en México",
+      "instructions": "Lee sobre el viaje familiar.",
+      "questions": []
     },
-    "topicName": "Vocabulary"
+    "audioUrl": "audio/a1/unit-2/e53.mp3",
+    "topicName": "Reading"
   },
   {
     "id": "a1-u2-e54",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Review",
-    "difficulty": "easy",
-    "transcript": "Our friends are happy.",
+    "topic": "Reading Question",
+    "difficulty": "medium",
     "content": {
-      "title": "Repaso: Mixto",
-      "instructions": "Elige.",
+      "title": "Pregunta de Lectura",
+      "instructions": "Responde según el texto.",
       "questions": [
         {
-          "question": "[[Our|Nuestro/a]] [[friends|amigos/as]] _______ [[happy|feliz]].",
-          "options": ["[[is|es/está]]", "[[are|son/están]]", "[[am|soy/estoy]]"],
+          "question": "[[Where|Dónde]] [[are|están]] [[they|ellos]]?",
+          "options": ["[[In Spain|En España]]", "[[In Mexico|En México]]", "[[In France|En Francia]]"],
           "correctAnswer": 1,
-          "explanation": "Friends es plural."
+          "explanation": "El texto empieza con 'We are in Mexico'."
         }
       ]
     },
-    "topicName": "Grammar"
+    "audioUrl": "audio/a1/unit-2/e54.mp3",
+    "topicName": "Reading"
   },
   {
     "id": "a1-u2-e55",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Review",
-    "difficulty": "easy",
-    "transcript": "What are their names?",
+    "topic": "Reading Question",
+    "difficulty": "medium",
     "content": {
-      "title": "Repaso: Preguntas Wh-",
-      "instructions": "Elige.",
+      "title": "Pregunta de Lectura",
+      "instructions": "Responde según el texto.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[are|son/están]] _______ [[names|nombres]]?",
-          "options": ["[[their|su (de ellos/ellas)]]", "[[they|ellos/ellas]]", "[[them|ellos/ellas (objeto)]]"],
-          "correctAnswer": 0,
-          "explanation": "Their names = sus nombres."
+          "question": "[[Are|Son]] [[the|los]] [[parents|padres]] [[Mexican|mexicanos]]?",
+          "options": ["[[Yes, they are.|Sí.]]", "[[No, they are American.|No, son americanos.]]", "[[No, they are Spanish.|No.]]"],
+          "correctAnswer": 1,
+          "explanation": "El texto dice 'They are not Mexican. They are American'."
         }
       ]
     },
-    "topicName": "Grammar"
+    "audioUrl": "audio/a1/unit-2/e55.mp3",
+    "topicName": "Reading"
   },
   {
     "id": "a1-u2-e56",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Review",
-    "difficulty": "easy",
-    "transcript": "We are students in this class.",
-    "content": {
-      "title": "Repaso: Construcción",
-      "instructions": "Ordena.",
-      "correctSentence": "[[We|Nosotros/as]] [[are|son/están]] [[students|students]] [[in|en]] [[this|este/esta/esto]] [[class|clase]].",
-      "words": ["[[class|clase]].", "[[this|este/esta/esto]]", "[[in|en]]", "[[students|students]]", "[[are|son/están]]", "[[We|Nosotros/as]]"],
-      "explanation": "Sujeto + verbo + complemento."
-    },
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u2-e57",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Review",
-    "difficulty": "easy",
-    "transcript": "How many people are there?",
+    "topic": "Reading Question",
+    "difficulty": "medium",
     "content": {
-      "title": "Repaso: Plural Irregular",
-      "instructions": "Elige.",
+      "title": "Pregunta de Lectura",
+      "instructions": "Responde según el texto.",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[many|muchos/as]] _______ [[are|son/están]] [[there|allí]]?",
-          "options": ["[[person|persona]]", "[[people|gente/personas]]"],
-          "correctAnswer": 1,
-          "explanation": "People es el plural de person."
+          "question": "[[How|Cuántas]] [[many|muchas]] [[people|personas]] [[are|hay]] [[in|en]] [[the|la]] [[family|familia]] [[here|aquí]]?",
+          "options": ["[[Two|Dos]]", "[[Three|Tres]]", "[[Four|Cuatro]]"],
+          "correctAnswer": 2,
+          "explanation": "El texto dice 'There are four people in my family here'."
         }
       ]
     },
-    "topicName": "Grammar"
+    "audioUrl": "audio/a1/unit-2/e56.mp3",
+    "topicName": "Reading"
+  },
+
+  // PASSAGE 5: NATIONALITIES GAME
+  {
+    "id": "a1-u2-e57",
+    "type": "reading",
+    "level": "A1",
+    "topic": "Reading Phase",
+    "difficulty": "medium",
+    "transcript": "[[Look|Mira]]. [[Number|Número]] [[one|uno]] [[is|es]] [[from|de]] [[France|Francia]]. [[Number|Número]] [[two|dos]] [[is|es]] [[from|de]] [[Spain|España]]. [[Number|Número]] [[three|tres]] [[is|es]] [[from|de]] [[The United States|Estados Unidos]]. [[Number|Número]] [[four|cuatro]] [[is|es]] [[from|de]] [[Mexico|México]]. [[They|Ellos]] [[are|son]] [[all|todos]] [[very|muy]] [[different|diferentes]] [[and|y]] [[good|buenos]] [[people|personas]].",
+    "content": {
+      "title": "Lectura: Juego de Nacionalidades",
+      "instructions": "Lee sobre los números y sus países.",
+      "questions": []
+    },
+    "audioUrl": "audio/a1/unit-2/e57.mp3",
+    "topicName": "Reading"
   },
   {
     "id": "a1-u2-e58",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Review",
-    "difficulty": "easy",
-    "transcript": "His sister is a nurse.",
+    "topic": "Reading Question",
+    "difficulty": "medium",
     "content": {
-      "title": "Repaso: Posesivos",
-      "instructions": "Elige.",
+      "title": "Pregunta de Lectura",
+      "instructions": "Responde según el texto.",
       "questions": [
         {
-          "question": "_______ [[sister|hermana]] [[is|es/está]] [[a|un/una]] [[nurse|enfermero/a]].",
-          "options": ["[[He|Él]]", "[[His|Su (de él)]]", "[[Him|Él (objeto)]]"],
+          "question": "[[Where|De dónde]] [[is|es]] [[number|número]] [[two|dos]] [[from|]]?",
+          "options": ["[[France|Francia]]", "[[Spain|España]]", "[[Mexico|México]]"],
           "correctAnswer": 1,
-          "explanation": "His sister = su hermana (de él)."
+          "explanation": "El texto dice 'Number two is from Spain'."
         }
       ]
     },
-    "topicName": "Grammar"
+    "audioUrl": "audio/a1/unit-2/e58.mp3",
+    "topicName": "Reading"
   },
   {
     "id": "a1-u2-e59",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Review",
-    "difficulty": "easy",
-    "transcript": "Are you ready to learn?",
+    "topic": "Reading Question",
+    "difficulty": "medium",
     "content": {
-      "title": "Repaso Final: Pregunta",
-      "instructions": "Ordena.",
-      "correctSentence": "[[Are|Son/están]] [[you|tú/usted]] [[ready|listo/a]] [[to|a/para]] [[learn|aprender]]?",
-      "words": ["[[learn|aprender]]?", "[[to|a/para]]", "[[ready|listo/a]]", "[[you|tú/usted]]", "[[Are|Son/están]]"],
-      "explanation": "Estructura de pregunta con 'be'."
+      "title": "Pregunta de Lectura",
+      "instructions": "Responde según el texto.",
+      "questions": [
+        {
+          "question": "[[What|Cuál]] [[is|es]] [[the|la]] [[nationality|nacionalidad]] [[of|de]] [[number|número]] [[four|cuatro]]?",
+          "options": ["[[French|Francés]]", "[[Spanish|Español]]", "[[Mexican|Mexicano]]"],
+          "correctAnswer": 2,
+          "explanation": "Number four is from Mexico, so he is Mexican."
+        }
+      ]
     },
-    "topicName": "Vocabulary"
+    "audioUrl": "audio/a1/unit-2/e59.mp3",
+    "topicName": "Reading"
   },
   {
     "id": "a1-u2-e60",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Review",
-    "difficulty": "easy",
-    "transcript": "They are happy to meet you.",
+    "topic": "Reading Question",
+    "difficulty": "medium",
     "content": {
-      "title": "Repaso Final",
-      "instructions": "Completa.",
+      "title": "Pregunta de Lectura",
+      "instructions": "Responde según el texto.",
       "questions": [
         {
-          "question": "[[They|Ellos/ellas]] _______ [[happy|feliz]] [[to|a/para]] [[meet|conocer/encontrar]] [[you|tú/usted]].",
-          "options": ["[[is|es/está]]", "[[are|son/están]]", "[[am|soy/estoy]]"],
-          "correctAnswer": 1,
-          "explanation": "They + are."
+          "question": "[[Where|De dónde]] [[is|es]] [[number|número]] [[three|tres]] [[from|]]?",
+          "options": ["[[The United States|Estados Unidos]]", "[[England|Inglaterra]]", "[[France|Francia]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice 'Number three is from The United States'."
         }
       ]
     },
-    "topicName": "Grammar"
+    "audioUrl": "audio/a1/unit-2/e60.mp3",
+    "topicName": "Reading"
   }
 ];

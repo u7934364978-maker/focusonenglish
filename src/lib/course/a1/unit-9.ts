@@ -1,53 +1,30 @@
 import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_9_EXERCISES: Exercise[] = [
+  // ==========================================
+  // VOCABULARY: JOBS & PROFESSIONS (1-10)
+  // ==========================================
   {
     "id": "a1-u9-e1",
     "type": "flashcard",
     "level": "A1",
-    "topic": "Jobs & Occupations",
+    "topic": "Jobs",
     "difficulty": "easy",
-    "transcript": "Doctor. Nurse. Engineer. Chef. Driver. Pilot. Police officer. Farmer. Office worker",
+    "transcript": "[[Teacher|Profesor]]. [[Doctor|Médico]]. [[Nurse|Enfermero]]. [[Engineer|Ingeniero]]. [[Student|Estudiante]]. [[Waiter|Camarero]]. [[Chef|Cocinero]]. [[Police officer|Oficial de policía]]. [[Driver|Conductor]]. [[Artist|Artista]].",
     "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
+      "title": "Vocabulario: Profesiones",
+      "instructions": "Aprende los nombres de las profesiones comunes.",
       "items": [
-        {
-          "front": "[[Doctor|Médico/a]]",
-          "back": "Doctor/a"
-        },
-        {
-          "front": "[[Nurse|Enfermero/a]]",
-          "back": "Enfermero/a"
-        },
-        {
-          "front": "[[Engineer|Ingeniero/a]]",
-          "back": "Ingeniero/a"
-        },
-        {
-          "front": "[[Chef|Cocinero/a]]",
-          "back": "Cocinero/a"
-        },
-        {
-          "front": "[[Driver|Conductor/a]]",
-          "back": "Conductor/a"
-        },
-        {
-          "front": "[[Pilot|Piloto]]",
-          "back": "Piloto"
-        },
-        {
-          "front": "[[Police officer|Oficial de policía]]",
-          "back": "Oficial de policía"
-        },
-        {
-          "front": "[[Farmer|Granjero/a]]",
-          "back": "Granjero/a"
-        },
-        {
-          "front": "[[Office worker|Oficinista]]",
-          "back": "Oficinista"
-        }
+        { "front": "[[Teacher|Profesor/a]]", "back": "Teacher" },
+        { "front": "[[Doctor|Médico/a]]", "back": "Doctor" },
+        { "front": "[[Nurse|Enfermero/a]]", "back": "Nurse" },
+        { "front": "[[Engineer|Ingeniero/a]]", "back": "Engineer" },
+        { "front": "[[Student|Estudiante]]", "back": "Student" },
+        { "front": "[[Waiter|Camarero/a]]", "back": "Waiter" },
+        { "front": "[[Chef|Chef/Cocinero]]", "back": "Chef" },
+        { "front": "[[Police officer|Policía]]", "back": "Police officer" },
+        { "front": "[[Driver|Conductor/a]]", "back": "Driver" },
+        { "front": "[[Artist|Artista]]", "back": "Artist" }
       ]
     },
     "audioUrl": "audio/a1/unit-9/e1.mp3",
@@ -57,318 +34,228 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "id": "a1-u9-e2",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Jobs & Occupations",
+    "topic": "Jobs",
     "difficulty": "easy",
-    "transcript": "I am a doctor.",
+    "transcript": "[[She|Ella]] [[works|trabaja]] [[in|en]] [[a|una]] [[school|escuela]]. [[She|Ella]] [[is|es]] [[a|una]] [[teacher|profesora]].",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] ([[be|ser/estar]]) _______ [[a|un/una]] [[doctor|médico/a]].",
-          "options": [
-            "[[is|es/está]]",
-            "[[am|soy/estoy]]",
-            "[[are|son/están]]"
-          ],
-          "correctAnswer": 1,
-          "explanation": "Con 'I' usamos 'am'."
-        }
-      ]
+      "title": "Identificar profesión",
+      "instructions": "Elige la profesión lógica.",
+      "options": ["[[doctor|médico]]", "[[teacher|profesora]]", "[[driver|conductora]]"],
+      "correctAnswer": 1,
+      "explanation": "Alguien que trabaja en una escuela suele ser profesor/a."
     },
     "audioUrl": "audio/a1/unit-9/e2.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u9-e3",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Jobs & Occupations",
+    "topic": "Jobs",
     "difficulty": "easy",
-    "transcript": "She works in a hospital.",
+    "transcript": "[[He|Él]] [[helps|ayuda]] [[sick|enfermas]] [[people|personas]]. [[He|Él]] [[is|es]] [[a|un]] [[doctor|médico]].",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
-      "questions": [
-        {
-          "question": "[[She|Ella]] ([[trabajar|trabajar]]) _______ [[in|en]] [[a|un/una]] [[hospital|hospital]].",
-          "options": [
-            "[[work|trabajar]]",
-            "[[works|trabaja]]",
-            "[[working|trabajando]]"
-          ],
-          "correctAnswer": 1,
-          "explanation": "En presente simple, añadimos -s para he/she/it."
-        }
-      ]
+      "title": "Identificar profesión",
+      "instructions": "Elige la profesión lógica.",
+      "options": ["[[doctor|médico]]", "[[artist|artista]]", "[[waiter|camarero]]"],
+      "correctAnswer": 0,
+      "explanation": "Los médicos ayudan a las personas enfermas."
     },
     "audioUrl": "audio/a1/unit-9/e3.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u9-e4",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Jobs & Occupations",
+    "topic": "Jobs",
     "difficulty": "easy",
-    "transcript": "He is a pilot.",
+    "transcript": "[[I|Yo]] [[bring|traigo]] [[food|comida]] [[to|a]] [[your|tu]] [[table|mesa]]. [[I|Yo]] [[am|soy]] [[a|un]] [[waiter|camarero]].",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
-      "questions": [
-        {
-          "question": "[[He|Él]] ([[be|ser/estar]]) _______ [[a|un/una]] [[pilot|piloto]].",
-          "options": [
-            "[[is|es/está]]",
-            "[[am|soy/estoy]]",
-            "[[are|son/están]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Con 'He' usamos 'is'."
-        }
-      ]
+      "title": "Identificar profesión",
+      "instructions": "Selecciona la profesión adecuada.",
+      "options": ["[[chef|cocinero]]", "[[engineer|ingeniero]]", "[[waiter|camarero]]"],
+      "correctAnswer": 2,
+      "explanation": "El camarero trae la comida a la mesa."
     },
     "audioUrl": "audio/a1/unit-9/e4.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u9-e5",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Jobs & Occupations",
+    "topic": "Jobs",
     "difficulty": "easy",
-    "transcript": "They are students.",
+    "transcript": "[[They|Ellos]] [[study|estudian]] [[at|en]] [[the|la]] [[university|universidad]]. [[They|Ellos]] [[are|son]] [[students|estudiantes]].",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
-      "questions": [
-        {
-          "question": "[[They|Ellos/as]] ([[be|ser/estar]]) _______ [[students|estudiantes]].",
-          "options": [
-            "[[are|son/están]]",
-            "[[is|es/está]]",
-            "[[am|soy/estoy]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Con 'They' usamos 'are'."
-        }
-      ]
+      "title": "Identificar profesión",
+      "instructions": "Elige la palabra correcta.",
+      "options": ["[[students|estudiantes]]", "[[nurses|enfermeros]]", "[[police|policías]]"],
+      "correctAnswer": 0,
+      "explanation": "Las personas que estudian en la universidad son estudiantes."
     },
     "audioUrl": "audio/a1/unit-9/e5.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u9-e6",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Jobs & Occupations",
+    "topic": "Jobs",
     "difficulty": "easy",
-    "transcript": "Are you a nurse?",
+    "transcript": "[[She|Ella]] [[cooks|cocina]] [[in|en]] [[a|un]] [[restaurant|restaurante]]. [[She|Ella]] [[is|es]] [[a|una]] [[chef|cocinera]].",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
-      "questions": [
-        {
-          "question": "_______ [[you|tú/usted]] [[a|un/una]] [[nurse|enfermero/a]]?",
-          "options": [
-            "[[Is|Es/está]]",
-            "[[Am|Soy/estoy]]",
-            "[[Are|Eres/estás]]"
-          ],
-          "correctAnswer": 2,
-          "explanation": "Para preguntas con 'you', usamos 'Are'."
-        }
-      ]
+      "title": "Identificar profesión",
+      "instructions": "Elige la profesión lógica.",
+      "options": ["[[nurse|enfermera]]", "[[chef|cocinera]]", "[[teacher|profesora]]"],
+      "correctAnswer": 1,
+      "explanation": "Alguien que cocina en un restaurante es chef o cocinero."
     },
     "audioUrl": "audio/a1/unit-9/e6.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u9-e7",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Jobs & Occupations",
+    "topic": "Jobs",
     "difficulty": "easy",
-    "transcript": "My father is an engineer.",
+    "transcript": "[[He|Él]] [[drives|conduce]] [[a|un]] [[bus|autobús]]. [[He|Él]] [[is|es]] [[a|un]] [[driver|conductor]].",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My|Mi]] [[father|padre]] [[is|es]] [[an|un]] [[engineer|ingeniero]].",
-      "words": [
-        "[[My|Mi]]",
-        "[[an|un]]",
-        "[[father|padre]]",
-        "[[is|es]]",
-        "[[engineer|ingeniero]]."
-      ],
-      "explanation": "Usamos 'an' antes de una vocal (engineer)."
+      "title": "Identificar profesión",
+      "instructions": "Selecciona la ocupación.",
+      "options": ["[[driver|conductor]]", "[[police|policía]]", "[[student|estudiante]]"],
+      "correctAnswer": 0,
+      "explanation": "Drives a bus indica que es conductor."
     },
     "audioUrl": "audio/a1/unit-9/e7.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u9-e8",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Jobs & Occupations",
+    "topic": "Jobs",
     "difficulty": "easy",
-    "transcript": "She works in a big office.",
+    "transcript": "[[She|Ella]] [[paints|pinta]] [[beautiful|hermosos]] [[pictures|cuadros]]. [[She|Ella]] [[is|es]] [[an|una]] [[artist|artista]].",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[works|trabaja]] [[in|en]] [[a|una]] [[big|grande]] [[office|oficina]].",
-      "words": [
-        "[[big|grande]]",
-        "[[a|una]]",
-        "[[She|Ella]]",
-        "[[works|trabaja]]",
-        "[[in|en]]",
-        "[[office|oficina]]."
-      ],
-      "explanation": "Sujeto + Verbo + Lugar."
+      "title": "Identificar profesión",
+      "instructions": "Elige la profesión lógica.",
+      "options": ["[[engineer|ingeniero]]", "[[artist|artista]]", "[[waiter|camarero]]"],
+      "correctAnswer": 1,
+      "explanation": "Paints pictures define a un artista."
     },
     "audioUrl": "audio/a1/unit-9/e8.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u9-e9",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Jobs & Occupations",
+    "topic": "Jobs",
     "difficulty": "easy",
-    "transcript": "He is a very good driver.",
+    "transcript": "[[He|Él]] [[builds|construye]] [[bridges|puentes]]. [[He|Él]] [[is|es]] [[an|un]] [[engineer|ingeniero]].",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[is|es]] [[a|un]] [[very|muy]] [[good|buen]] [[driver|conductor]].",
-      "words": [
-        "[[very|muy]]",
-        "[[He|Él]]",
-        "[[driver|conductor]].",
-        "[[good|buen]]",
-        "[[a|un]]",
-        "[[is|es]]"
-      ],
-      "explanation": "El adjetivo va antes del sustantivo (good driver)."
+      "title": "Identificar profesión",
+      "instructions": "Selecciona la profesión correcta.",
+      "options": ["[[chef|cocinero]]", "[[driver|conductor]]", "[[engineer|ingeniero]]"],
+      "correctAnswer": 2,
+      "explanation": "Construir puentes es tarea de un ingeniero."
     },
     "audioUrl": "audio/a1/unit-9/e9.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u9-e10",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Jobs & Occupations",
+    "topic": "Jobs",
     "difficulty": "easy",
-    "transcript": "Police officers help people.",
+    "transcript": "[[They|Ellos]] [[wear|llevan]] [[blue|azul]] [[uniforms|uniformes]] [[and|y]] [[help|ayudan]] [[people|personas]]. [[They|Ellos]] [[are|son]] [[police officers|policías]].",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Police|Policía]] [[officers|oficiales]] [[help|ayudan]] [[people|personas]].",
-      "words": [
-        "[[people|personas]].",
-        "[[help|ayudan]]",
-        "[[officers|oficiales]]",
-        "[[Police|Policía]]"
-      ],
-      "explanation": "Estructura simple: Sujeto + Verbo + Objeto."
+      "title": "Identificar profesión",
+      "instructions": "Elige la profesión.",
+      "options": ["[[police officers|policías]]", "[[doctors|médicos]]", "[[artists|artistas]]"],
+      "correctAnswer": 0,
+      "explanation": "Uniforme azul y ayuda suele referirse a policías."
     },
     "audioUrl": "audio/a1/unit-9/e10.mp3",
     "topicName": "Vocabulary"
   },
+
+  // ==========================================
+  // GRAMMAR: ARTICLES & PLACES (11-20)
+  // ==========================================
   {
     "id": "a1-u9-e11",
-    "type": "sentence-building",
+    "type": "flashcard",
     "level": "A1",
-    "topic": "Jobs & Occupations",
+    "topic": "Workplaces",
     "difficulty": "easy",
-    "transcript": "The chef is in the kitchen.",
+    "transcript": "[[In|En]] [[a|un]] [[hospital|hospital]]. [[At|En]] [[a|una]] [[school|escuela]]. [[In|En]] [[an|una]] [[office|oficina]]. [[At|En]] [[a|un]] [[restaurant|restaurante]]. [[On|En]] [[a|una]] [[farm|granja]]. [[At|En]] [[the|la]] [[police station|comisaría]].",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El]] [[chef|chef]] [[is|está]] [[in|en]] [[the|la]] [[kitchen|cocina]].",
-      "words": [
-        "[[is|está]]",
-        "[[chef|chef]]",
-        "[[kitchen|cocina]].",
-        "[[in|en]]",
-        "[[The|El]]",
-        "[[the|la]]"
-      ],
-      "explanation": "Uso de preposiciones de lugar (in the kitchen)."
+      "title": "Vocabulario: Lugares de Trabajo",
+      "instructions": "Aprende dónde trabajan estas profesiones.",
+      "items": [
+        { "front": "[[In a hospital|En un hospital]]", "back": "In a hospital" },
+        { "front": "[[At a school|En una escuela]]", "back": "At a school" },
+        { "front": "[[In an office|En una oficina]]", "back": "In an office" },
+        { "front": "[[At a restaurant|En un restaurante]]", "back": "At a restaurant" },
+        { "front": "[[On a farm|En una granja]]", "back": "On a farm" },
+        { "front": "[[At the police station|En la comisaría]]", "back": "At the police station" }
+      ]
     },
     "audioUrl": "audio/a1/unit-9/e11.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u9-e12",
-    "type": "flashcard",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Workplaces",
-    "difficulty": "easy",
-    "transcript": "Hospital. Office. School. Restaurant. Airport. Farm. Police station. Fire station. Shop.",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "transcript": "[[Where|Dónde]] [[does|aux]] [[he|él]] [[work|trabajar]]? [[He|Él]] [[works|trabaja]] [[at|en]] [[a|un]] [[restaurant|restaurante]].",
     "content": {
-      "title": "Lugares de Trabajo",
-      "instructions": "Aprende dónde trabajan estas personas.",
-      "items": [
-        { "front": "[[Hospital|Hospital]]", "back": "Hospital" },
-        { "front": "[[Office|Oficina]]", "back": "Oficina" },
-        { "front": "[[School|Escuela]]", "back": "Escuela" },
-        { "front": "[[Restaurant|Restaurante]]", "back": "Restaurante" },
-        { "front": "[[Airport|Aeropuerto]]", "back": "Aeropuerto" },
-        { "front": "[[Farm|Granja]]", "back": "Granja" },
-        { "front": "[[Police station|Comisaría]]", "back": "Comisaría" },
-        { "front": "[[Fire station|Estación de bomberos]]", "back": "Estación de bomberos" },
-        { "front": "[[Shop|Tienda]]", "back": "Tienda" }
-      ]
+      "title": "Preguntas de lugar",
+      "instructions": "Elige la pregunta correcta.",
+      "options": ["[[Where he work?|Incorrecto]]", "[[Where does he work?|¿Dónde trabaja él?]]", "[[Where do he work?|Incorrecto]]"],
+      "correctAnswer": 1,
+      "explanation": "En 3ª persona singular usamos 'does' en preguntas."
     },
     "audioUrl": "audio/a1/unit-9/e12.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u9-e13",
-    "type": "flashcard",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "More Jobs",
-    "difficulty": "easy",
-    "transcript": "Teacher. Artist. Waiter. Dentist. Architect. Scientist. Musician. Lawyer. Mechanic. Salesperson.",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "transcript": "[[I|Yo]] [[am|soy]] [[an|un]] [[engineer|ingeniero]].",
     "content": {
-      "title": "Más Profesiones",
-      "instructions": "Aprende más nombres de trabajos.",
-      "items": [
-        { "front": "[[Teacher|Profesor/a]]", "back": "Teacher" },
-        { "front": "[[Artist|Artista]]", "back": "Artist" },
-        { "front": "[[Waiter|Camarero/a]]", "back": "Waiter" },
-        { "front": "[[Dentist|Dentista]]", "back": "Dentist" },
-        { "front": "[[Architect|Arquitecto/a]]", "back": "Architect" },
-        { "front": "[[Scientist|Científico/a]]", "back": "Scientist" },
-        { "front": "[[Musician|Músico/a]]", "back": "Musician" },
-        { "front": "[[Lawyer|Abogado/a]]", "back": "Lawyer" },
-        { "front": "[[Mechanic|Mecánico/a]]", "back": "Mechanic" },
-        { "front": "[[Salesperson|Vendedor/a]]", "back": "Salesperson" }
-      ]
+      "title": "Artículos con profesiones",
+      "instructions": "Selecciona el artículo correcto.",
+      "options": ["[[a|un]]", "[[an|un]]", "[[the|el]]"],
+      "correctAnswer": 1,
+      "explanation": "Usamos 'an' antes de palabras que empiezan por vocal."
     },
     "audioUrl": "audio/a1/unit-9/e13.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u9-e14",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Articles: a/an",
-    "difficulty": "easy",
-    "transcript": "I am an artist.",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "transcript": "[[She|Ella]] [[is|es]] [[a|una]] [[nurse|enfermera]].",
     "content": {
-      "title": "Uso de a / an",
-      "instructions": "Elige el artículo correcto.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] [[am|soy]] _______ [[artist|artista]].",
-          "options": ["[[a|un/una]]", "[[an|un/una]]"],
-          "correctAnswer": 1,
-          "explanation": "Usamos 'an' porque 'artist' empieza por vocal."
-        }
-      ]
+      "title": "Artículos con profesiones",
+      "instructions": "Selecciona el artículo correcto.",
+      "options": ["[[a|una]]", "[[an|una]]", "[[one|una]]"],
+      "correctAnswer": 0,
+      "explanation": "Usamos 'a' antes de consonante."
     },
     "audioUrl": "audio/a1/unit-9/e14.mp3",
     "topicName": "Grammar"
@@ -377,152 +264,122 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "id": "a1-u9-e15",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Articles: a/an",
-    "difficulty": "easy",
-    "transcript": "He is a teacher.",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "transcript": "[[What|Qué]] [[do|aux]] [[you|tú]] [[do|hacer]]? [[I|Yo]] [[am|soy]] [[a|un]] [[doctor|médico]].",
     "content": {
-      "title": "Uso de a / an",
-      "instructions": "Elige el artículo correcto.",
-      "questions": [
-        {
-          "question": "[[He|Él]] [[is|es]] _______ [[teacher|profesor]].",
-          "options": ["[[a|un/una]]", "[[an|un/una]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'a' porque 'teacher' empieza por consonante."
-        }
-      ]
+      "title": "Preguntar ocupación",
+      "instructions": "Elige la pregunta estándar para preguntar qué hace alguien.",
+      "options": ["[[What are you?|Incorrecto]]", "[[What do you do?|¿A qué te dedicas?]]", "[[What is your work?|Incorrecto]]"],
+      "correctAnswer": 1,
+      "explanation": "What do you do? es la forma natural de preguntar la profesión."
     },
     "audioUrl": "audio/a1/unit-9/e15.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u9-e16",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Workplaces",
-    "difficulty": "easy",
-    "transcript": "A doctor works in a hospital.",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "transcript": "[[My|Mi]] [[father|padre]] [[works|trabaja]] [[on|en]] [[a|una]] [[farm|granja]].",
     "content": {
-      "title": "¿Dónde trabajan?",
-      "instructions": "Completa la oración.",
-      "questions": [
-        {
-          "question": "[[A|Un]] [[doctor|médico]] [[works|trabaja]] [[in|en]] [[a|un]] _______.",
-          "options": ["[[office|oficina]]", "[[hospital|hospital]]", "[[school|escuela]]"],
-          "correctAnswer": 1,
-          "explanation": "Los médicos trabajan en hospitales."
-        }
-      ]
+      "title": "Lugar de trabajo",
+      "instructions": "Ordena la frase.",
+      "correctSentence": "[[My|Mi]] [[father|padre]] [[works|trabaja]] [[on|en]] [[a|una]] [[farm|granja]].",
+      "words": ["[[farm|granja]].", "[[a|una]]", "[[on|en]]", "[[works|trabaja]]", "[[father|padre]]", "[[My|Mi]]"],
+      "explanation": "Con 'farm' usamos la preposición 'on'."
     },
     "audioUrl": "audio/a1/unit-9/e16.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u9-e17",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Workplaces",
-    "difficulty": "easy",
-    "transcript": "A teacher works in a school.",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "transcript": "[[Where|Dónde]] [[do|aux]] [[your|tus]] [[parents|padres]] [[work|trabajar]]?",
     "content": {
-      "title": "¿Dónde trabajan?",
-      "instructions": "Completa la oración.",
-      "questions": [
-        {
-          "question": "[[A|Un]] [[teacher|profesor]] [[works|trabaja]] [[in|en]] [[a|una]] _______.",
-          "options": ["[[farm|granja]]", "[[shop|tienda]]", "[[school|escuela]]"],
-          "correctAnswer": 2,
-          "explanation": "Los profesores trabajan en escuelas."
-        }
-      ]
+      "title": "Pregunta de plural",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[Where|Dónde]] [[do|aux]] [[your|tus]] [[parents|padres]] [[work|trabajar]]?",
+      "words": ["[[work|trabajar]]?", "[[parents|padres]]", "[[your|tus]]", "[[do|aux]]", "[[Where|Dónde]]"],
+      "explanation": "Con sujetos plurales usamos 'do'."
     },
     "audioUrl": "audio/a1/unit-9/e17.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u9-e18",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Workplaces",
-    "difficulty": "easy",
-    "transcript": "A chef works in a restaurant.",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "transcript": "[[Do|¿Aux]] [[you|tú]] [[work|trabajas]] [[in|en]] [[an|una]] [[office|oficina]]? [[Yes|Sí]], [[I|yo]] [[do|aux]].",
     "content": {
-      "title": "¿Dónde trabajan?",
-      "instructions": "Completa la oración.",
-      "questions": [
-        {
-          "question": "[[A|Un]] [[chef|chef]] [[works|trabaja]] [[in|en]] [[a|un]] _______.",
-          "options": ["[[restaurant|restaurante]]", "[[airport|aeropuerto]]", "[[bank|banco]]"],
-          "correctAnswer": 0,
-          "explanation": "Los chefs trabajan en restaurantes."
-        }
-      ]
+      "title": "Respuesta corta",
+      "instructions": "Elige la respuesta gramaticalmente correcta.",
+      "options": ["[[Yes, I work.|Incorrecto]]", "[[Yes, I do.|Sí.]]", "[[Yes, I am.|Incorrecto]]"],
+      "correctAnswer": 1,
+      "explanation": "En respuestas cortas usamos el auxiliar 'do'."
     },
     "audioUrl": "audio/a1/unit-9/e18.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u9-e19",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: works/work",
-    "difficulty": "easy",
-    "transcript": "My brothers work in an office.",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "transcript": "[[Does|¿Aux]] [[she|ella]] [[work|trabaja]] [[in|en]] [[the|el]] [[hospital|hospital]]? [[No|No]], [[she|ella]] [[doesn't|no]].",
     "content": {
-      "title": "Work o Works",
-      "instructions": "Elige la forma correcta del verbo.",
-      "questions": [
-        {
-          "question": "[[My|Mis]] [[brothers|hermanos]] _______ [[in|en]] [[an|una]] [[office|oficina]].",
-          "options": ["[[work|trabajan]]", "[[works|trabaja]]"],
-          "correctAnswer": 0,
-          "explanation": "Con sujetos en plural (brothers), usamos 'work'."
-        }
-      ]
+      "title": "Respuesta corta negativa",
+      "instructions": "Selecciona la respuesta negativa.",
+      "options": ["[[No, she don't.|Incorrecto]]", "[[No, she not work.|Incorrecto]]", "[[No, she doesn't.|No.]]"],
+      "correctAnswer": 2,
+      "explanation": "La negación de 'does' es 'doesn't'."
     },
     "audioUrl": "audio/a1/unit-9/e19.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u9-e20",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Grammar: works/work",
-    "difficulty": "easy",
-    "transcript": "My sister works in a bank.",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "transcript": "[[The|El]] [[artist|artista]] [[doesn't|no]] [[work|trabaja]] [[at|en]] [[the|la]] [[school|escuela]].",
     "content": {
-      "title": "Work o Works",
-      "instructions": "Elige la forma correcta del verbo.",
-      "questions": [
-        {
-          "question": "[[My|Mi]] [[sister|hermana]] _______ [[in|en]] [[a|un]] [[bank|banco]].",
-          "options": ["[[work|trabaja]]", "[[works|trabaja]]"],
-          "correctAnswer": 1,
-          "explanation": "Con he/she/it (sister), añadimos -s al verbo: 'works'."
-        }
-      ]
+      "title": "Frase negativa",
+      "instructions": "Ordena la frase negativa.",
+      "correctSentence": "[[The|El]] [[artist|artista]] [[doesn't|no]] [[work|trabaja]] [[at|en]] [[the|la]] [[school|escuela]].",
+      "words": ["[[school|escuela]].", "[[the|la]]", "[[at|en]]", "[[work|trabaja]]", "[[doesn't|no]]", "[[artist|artista]]", "[[The|El]]"],
+      "explanation": "Sujeto + doesn't + verbo infinitivo + lugar."
     },
     "audioUrl": "audio/a1/unit-9/e20.mp3",
     "topicName": "Grammar"
   },
+
+  // ==========================================
+  // REVIEW & REINFORCEMENT (21-50)
+  // ==========================================
+  // Exercises 21-50 should mix types and cover vocabulary/grammar
   {
     "id": "a1-u9-e21",
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Jobs",
-    "difficulty": "easy",
-    "transcript": "She is a nurse. She helps sick people.",
+    "difficulty": "medium",
+    "transcript": "[[A|Un]] [[nurse|enfermero]] [[works|trabaja]] [[with|con]] [[doctors|médicos]].",
     "content": {
-      "title": "Definiciones",
-      "instructions": "Elige el trabajo correcto.",
-      "questions": [
-        {
-          "question": "[[She|Ella]] [[is|es]] [[a|una]] _______ . [[She|Ella]] [[helps|ayuda]] [[sick|enfermas]] [[people|personas]].",
-          "options": ["[[pilot|piloto]]", "[[nurse|enfermera]]", "[[chef|cocinera]]"],
-          "correctAnswer": 1,
-          "explanation": "Las enfermeras ayudan a las personas enfermas."
-        }
-      ]
+      "title": "Vocabulario Hospital",
+      "instructions": "Elige la profesión.",
+      "options": ["[[chef|cocinero]]", "[[nurse|enfermero]]", "[[driver|conductor]]"],
+      "correctAnswer": 1,
+      "explanation": "Los enfermeros trabajan con los médicos."
     },
     "audioUrl": "audio/a1/unit-9/e21.mp3",
     "topicName": "Vocabulary"
@@ -532,61 +389,54 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Jobs",
-    "difficulty": "easy",
-    "transcript": "He is a pilot. He pilots planes.",
+    "difficulty": "medium",
+    "transcript": "[[My|Mi]] [[sister|hermana]] [[is|es]] [[a|una]] [[waitress|camarera]].",
     "content": {
-      "title": "Definiciones",
-      "instructions": "Elige el trabajo correcto.",
-      "questions": [
-        {
-          "question": "[[He|Él]] [[is|es]] [[a|un]] _______ . [[He|Él]] [[pilots|pilota]] [[planes|aviones]].",
-          "options": ["[[pilot|piloto]]", "[[farmer|granjero]]", "[[dentist|dentista]]"],
-          "correctAnswer": 0,
-          "explanation": "Los pilotos pilotan aviones."
-        }
-      ]
+      "title": "Profesión femenina",
+      "instructions": "Elige el término para una camarera.",
+      "options": ["[[waiter|camarero]]", "[[waitress|camarera]]", "[[waiters|camareros]]"],
+      "correctAnswer": 1,
+      "explanation": "Waitress es el femenino de waiter."
     },
     "audioUrl": "audio/a1/unit-9/e22.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u9-e23",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Jobs",
-    "difficulty": "easy",
-    "transcript": "I am a waiter. I work in a restaurant.",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "transcript": "[[She|Ella]] [[is|es]] [[a|una]] [[police|policía]] [[officer|oficial]].",
     "content": {
-      "title": "Definiciones",
-      "instructions": "Elige el trabajo correcto.",
+      "title": "Artículos",
+      "instructions": "Escribe el artículo correcto (a/an).",
       "questions": [
         {
-          "question": "[[I|Yo]] [[am|soy]] [[a|un]] _______ . [[I|Yo]] [[work|trabajo]] [[in|en]] [[a|un]] [[restaurant|restaurante]].",
-          "options": ["[[waiter|camarero]]", "[[artist|artista]]", "[[lawyer|abogado]]"],
-          "correctAnswer": 0,
-          "explanation": "Los camareros trabajan en restaurantes."
+          "question": "[[She|Ella]] [[is|es]] (_____) [[police|policía]] [[officer|oficial]].",
+          "correctAnswer": "a",
+          "explanation": "Police empieza por consonante."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-9/e23.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u9-e24",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Grammar: Negatives",
+    "topic": "Grammar",
     "difficulty": "medium",
-    "transcript": "I am not a doctor.",
+    "transcript": "[[He|Él]] [[is|es]] [[an|un]] [[engineer|ingeniero]].",
     "content": {
-      "title": "Oraciones Negativas",
-      "instructions": "Completa la negación.",
+      "title": "Artículos",
+      "instructions": "Escribe el artículo correcto (a/an).",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[a|un]] [[doctor|médico]].",
-          "options": ["[[am not|no soy]]", "[[is not|no es]]", "[[are not|no somos]]"],
-          "correctAnswer": 0,
-          "explanation": "Negativo de 'I am' es 'I am not'."
+          "question": "[[He|Él]] [[is|es]] (_____) [[engineer|ingeniero]].",
+          "correctAnswer": "an",
+          "explanation": "Engineer empieza por vocal."
         }
       ]
     },
@@ -597,42 +447,32 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "id": "a1-u9-e25",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Negatives",
+    "topic": "Workplaces",
     "difficulty": "medium",
-    "transcript": "She is not a nurse.",
+    "transcript": "[[Where|Dónde]] [[does|aux]] [[the|el]] [[chef|chef]] [[work|trabajar]]? [[At|En]] [[the|el]] [[restaurant|restaurante]].",
     "content": {
-      "title": "Oraciones Negativas",
-      "instructions": "Completa la negación.",
-      "questions": [
-        {
-          "question": "[[She|Ella]] _______ [[a|una]] [[nurse|enfermera]].",
-          "options": ["[[am not|no soy]]", "[[is not|no es]]", "[[are not|no son]]"],
-          "correctAnswer": 1,
-          "explanation": "Negativo de 'She is' es 'She is not' (o isn't)."
-        }
-      ]
+      "title": "Lugar de trabajo",
+      "instructions": "Elige el lugar correcto.",
+      "options": ["[[In an office|En una oficina]]", "[[At a school|En una escuela]]", "[[At a restaurant|En un restaurante]]"],
+      "correctAnswer": 2,
+      "explanation": "Los chefs trabajan en restaurantes."
     },
     "audioUrl": "audio/a1/unit-9/e25.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u9-e26",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Grammar: Questions",
+    "topic": "Grammar",
     "difficulty": "medium",
-    "transcript": "Where do you work?",
+    "transcript": "[[I|Yo]] [[am|soy]] [[not|no]] [[a|un]] [[student|estudiante]], [[I|yo]] [[am|soy]] [[a|un]] [[teacher|profesor]].",
     "content": {
-      "title": "Preguntas",
-      "instructions": "Elige la palabra de pregunta correcta.",
-      "questions": [
-        {
-          "question": "_______ [[do|aux]] [[you|tú]] [[work|trabajas]]? [[I|Yo]] [[work|trabajo]] [[in|en]] [[London|Londres]].",
-          "options": ["[[What|Qué]]", "[[Who|Quién]]", "[[Where|Dónde]]"],
-          "correctAnswer": 2,
-          "explanation": "Usamos 'Where' para preguntar por lugares."
-        }
-      ]
+      "title": "Corrección de ocupación",
+      "instructions": "Ordena la frase.",
+      "correctSentence": "[[I|Yo]] [[am|soy]] [[not|no]] [[a|un]] [[student|estudiante]], [[I|yo]] [[am|soy]] [[a|un]] [[teacher|profesor]].",
+      "words": ["[[teacher|profesor]].", "[[am|soy]]", "[[I|yo]]", "[[student|estudiante]],", "[[a|un]]", "[[not|no]]", "[[am|soy]]", "[[I|Yo]]"],
+      "explanation": "Combinando frases negativas y afirmativas."
     },
     "audioUrl": "audio/a1/unit-9/e26.mp3",
     "topicName": "Grammar"
@@ -641,40 +481,34 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "id": "a1-u9-e27",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Questions",
+    "topic": "Jobs",
     "difficulty": "medium",
-    "transcript": "What is your job?",
+    "transcript": "[[They|Ellos]] [[work|trabajan]] [[at|en]] [[the|la]] [[police|policía]] [[station|estación]].",
     "content": {
-      "title": "Preguntas",
-      "instructions": "Elige la palabra de pregunta correcta.",
-      "questions": [
-        {
-          "question": "_______ [[is|es]] [[your|tu]] [[job|trabajo]]? [[I|Yo]] [[am|soy]] [[a|un]] [[dentist|dentista]].",
-          "options": ["[[What|Qué]]", "[[Where|Dónde]]", "[[How|Cómo]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'What' para preguntar por la profesión."
-        }
-      ]
+      "title": "Identificar profesión",
+      "instructions": "Elige quién trabaja allí.",
+      "options": ["[[Police officers|Policías]]", "[[Farmers|Granjeros]]", "[[Engineers|Ingenieros]]"],
+      "correctAnswer": 0,
+      "explanation": "Los oficiales de policía trabajan en la estación de policía."
     },
     "audioUrl": "audio/a1/unit-9/e27.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u9-e28",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Prepositions: in/at",
+    "topic": "Grammar",
     "difficulty": "medium",
-    "transcript": "He works at home.",
+    "transcript": "[[What|Qué]] [[does|aux]] [[he|él]] [[do|hacer]]?",
     "content": {
-      "title": "Preposiciones",
-      "instructions": "Elige la preposición correcta.",
+      "title": "Preguntas",
+      "instructions": "Completa la pregunta con el auxiliar correcto.",
       "questions": [
         {
-          "question": "[[He|Él]] [[works|trabaja]] _______ [[home|casa]].",
-          "options": ["[[in|en]]", "[[at|en]]", "[[on|en]]"],
-          "correctAnswer": 1,
-          "explanation": "Decimos 'at home'."
+          "question": "[[What|Qué]] (_____) [[he|él]] [[do|hacer]]?",
+          "correctAnswer": "does",
+          "explanation": "Con 'he' usamos 'does'."
         }
       ]
     },
@@ -683,20 +517,19 @@ export const UNIT_9_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u9-e29",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Prepositions: in/at",
+    "topic": "Grammar",
     "difficulty": "medium",
-    "transcript": "She works in a hospital.",
+    "transcript": "[[What|Qué]] [[do|aux]] [[they|ellos]] [[do|hacer]]?",
     "content": {
-      "title": "Preposiciones",
-      "instructions": "Elige la preposición correcta.",
+      "title": "Preguntas",
+      "instructions": "Completa la pregunta con el auxiliar correcto.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[works|trabaja]] _______ [[a|un]] [[hospital|hospital]].",
-          "options": ["[[in|en]]", "[[at|en]]", "[[on|en]]"],
-          "correctAnswer": 0,
-          "explanation": "Decimos 'in a hospital'."
+          "question": "[[What|Qué]] (_____) [[they|ellos]] [[do|hacer]]?",
+          "correctAnswer": "do",
+          "explanation": "Con 'they' usamos 'do'."
         }
       ]
     },
@@ -707,20 +540,15 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "id": "a1-u9-e30",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Actions",
+    "topic": "Workplaces",
     "difficulty": "medium",
-    "transcript": "A dentist fixes teeth.",
+    "transcript": "[[The|El]] [[farmer|granjero]] [[works|trabaja]] [[on|en]] [[a|una]] [[farm|granja]].",
     "content": {
-      "title": "Acciones y Trabajos",
-      "instructions": "Completa la oración.",
-      "questions": [
-        {
-          "question": "[[A|Un]] [[dentist|dentista]] _______ [[teeth|dientes]].",
-          "options": ["[[fixes|arregla]]", "[[paints|pinta]]", "[[cooks|cocina]]"],
-          "correctAnswer": 0,
-          "explanation": "Los dentistas arreglan los dientes."
-        }
-      ]
+      "title": "Preposiciones de lugar",
+      "instructions": "Elige la preposición correcta.",
+      "options": ["[[in|en]]", "[[at|en]]", "[[on|en]]"],
+      "correctAnswer": 2,
+      "explanation": "Usamos 'on' con 'farm'."
     },
     "audioUrl": "audio/a1/unit-9/e30.mp3",
     "topicName": "Vocabulary"
@@ -729,64 +557,49 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "id": "a1-u9-e31",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Actions",
+    "topic": "Jobs",
     "difficulty": "medium",
-    "transcript": "An artist paints pictures.",
+    "transcript": "[[Is|¿Es]] [[she|ella]] [[an|una]] [[artist|artista]]? [[No|No]], [[she|ella]] [[is|es]] [[a|una]] [[doctor|médica]].",
     "content": {
-      "title": "Acciones y Trabajos",
-      "instructions": "Completa la oración.",
-      "questions": [
-        {
-          "question": "[[An|Un]] [[artist|artista]] _______ [[pictures|cuadros]].",
-          "options": ["[[sells|vende]]", "[[paints|pinta]]", "[[drives|conduce]]"],
-          "correctAnswer": 1,
-          "explanation": "Los artistas pintan cuadros."
-        }
-      ]
+      "title": "Artículos Review",
+      "instructions": "Elige la opción gramaticalmente perfecta.",
+      "options": ["[[a artist / a doctor|Incorrecto]]", "[[an artist / a doctor|Correcto]]", "[[an artist / an doctor|Incorrecto]]"],
+      "correctAnswer": 1,
+      "explanation": "An artist (vocal) / a doctor (consonante)."
     },
     "audioUrl": "audio/a1/unit-9/e31.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u9-e32",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Actions",
+    "topic": "Jobs",
     "difficulty": "medium",
-    "transcript": "A scientist works in a lab.",
+    "transcript": "[[We|Nosotros]] [[are|somos]] [[engineers|ingenieros]].",
     "content": {
-      "title": "Lugares",
-      "instructions": "Completa la oración.",
-      "questions": [
-        {
-          "question": "[[A|Un]] [[scientist|científico]] [[works|trabaja]] [[in|en]] [[a|un]] _______.",
-          "options": ["[[lab|laboratorio]]", "[[garage|garaje]]", "[[shop|tienda]]"],
-          "correctAnswer": 0,
-          "explanation": "Los científicos trabajan en laboratorios (labs)."
-        }
-      ]
+      "title": "Plurales",
+      "instructions": "Elige el plural correcto.",
+      "options": ["[[engineer|singular]]", "[[engineers|plural]]", "[[an engineers|incorrecto]]"],
+      "correctAnswer": 1,
+      "explanation": "No usamos artículos (a/an) con profesiones en plural."
     },
     "audioUrl": "audio/a1/unit-9/e32.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u9-e33",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Grammar: Subject Pronouns",
-    "difficulty": "easy",
-    "transcript": "He is a mechanic. He works in a garage.",
+    "topic": "Jobs",
+    "difficulty": "medium",
+    "transcript": "[[Are|¿Son]] [[you|vosotros]] [[students|estudiantes]] [[at|en]] [[the|la]] [[university|universidad]]?",
     "content": {
-      "title": "Pronombres",
-      "instructions": "Elige el pronombre correcto.",
-      "questions": [
-        {
-          "question": "[[Tom|Tom]] [[is|es]] [[a|un]] [[mechanic|mecánico]]. _______ [[works|trabaja]] [[in|en]] [[a|un]] [[garage|garaje]].",
-          "options": ["[[He|Él]]", "[[She|Ella]]", "[[It|Ello]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'He' para hombres."
-        }
-      ]
+      "title": "Pregunta de plural",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[Are|¿Son]] [[you|vosotros]] [[students|estudiantes]] [[at|en]] [[the|la]] [[university|universidad]]?",
+      "words": ["[[university|universidad]]?", "[[the|la]]", "[[at|en]]", "[[students|estudiantes]]", "[[you|vosotros]]", "[[Are|¿Son]]"],
+      "explanation": "Verbo + Sujeto + Profesión + Lugar."
     },
     "audioUrl": "audio/a1/unit-9/e33.mp3",
     "topicName": "Grammar"
@@ -795,62 +608,51 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "id": "a1-u9-e34",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Subject Pronouns",
-    "difficulty": "easy",
-    "transcript": "Sarah is an architect. She designs houses.",
+    "topic": "Jobs",
+    "difficulty": "medium",
+    "transcript": "[[My|Mi]] [[cousin|primo]] [[is|es]] [[a|un]] [[taxi|taxi]] [[driver|conductor]].",
     "content": {
-      "title": "Pronombres",
-      "instructions": "Elige el pronombre correcto.",
-      "questions": [
-        {
-          "question": "[[Sarah|Sarah]] [[is|es]] [[an|una]] [[architect|arquitecta]]. _______ [[designs|diseña]] [[houses|casas]].",
-          "options": ["[[He|Él]]", "[[She|Ella]]", "[[They|Ellos/as]]"],
-          "correctAnswer": 1,
-          "explanation": "Usamos 'She' para mujeres."
-        }
-      ]
+      "title": "Profesión compuesta",
+      "instructions": "Elige la ocupación.",
+      "options": ["[[bus driver|conductor de bus]]", "[[taxi driver|conductor de taxi]]", "[[train driver|conductor de tren]]"],
+      "correctAnswer": 1,
+      "explanation": "Taxi driver es conductor de taxi."
     },
     "audioUrl": "audio/a1/unit-9/e34.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u9-e35",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Questions",
+    "topic": "Jobs",
     "difficulty": "medium",
-    "transcript": "Does he work in an office? No, he doesn't.",
+    "transcript": "[[An|Un]] [[artist|artista]] [[works|trabaja]] [[in|en]] [[a|un]] [[studio|estudio]].",
     "content": {
-      "title": "Preguntas de Sí/No",
-      "instructions": "Completa la pregunta.",
-      "questions": [
-        {
-          "question": "_______ [[he|él]] [[work|trabaja]] [[in|en]] [[an|una]] [[office|oficina]]?",
-          "options": ["[[Do|Aux]]", "[[Does|Aux]]", "[[Is|Es]]"],
-          "correctAnswer": 1,
-          "explanation": "Usamos 'Does' para he/she/it."
-        }
-      ]
+      "title": "Lugar de trabajo",
+      "instructions": "Selecciona el lugar.",
+      "options": ["[[studio|estudio]]", "[[office|oficina]]", "[[farm|granja]]"],
+      "correctAnswer": 0,
+      "explanation": "Muchos artistas trabajan en estudios."
     },
     "audioUrl": "audio/a1/unit-9/e35.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u9-e36",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Grammar: Questions",
+    "topic": "Grammar",
     "difficulty": "medium",
-    "transcript": "Do they work on a farm? Yes, they do.",
+    "transcript": "[[I|Yo]] [[work|trabajo]] [[in|en]] (_____) [[office|oficina]].",
     "content": {
-      "title": "Preguntas de Sí/No",
-      "instructions": "Completa la pregunta.",
+      "title": "Artículos",
+      "instructions": "Completa con 'a' o 'an'.",
       "questions": [
         {
-          "question": "_______ [[they|ellos/as]] [[work|trabajan]] [[on|en]] [[a|una]] [[farm|granja]]?",
-          "options": ["[[Do|Aux]]", "[[Does|Aux]]", "[[Are|Son]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'Do' para I/you/we/they."
+          "question": "[[I|Yo]] [[work|trabajo]] [[in|en]] (_____) [[office|oficina]].",
+          "correctAnswer": "an",
+          "explanation": "An antes de vocal."
         }
       ]
     },
@@ -859,122 +661,106 @@ export const UNIT_9_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u9-e37",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Vocabulary: Plurals",
+    "topic": "Grammar",
     "difficulty": "medium",
-    "transcript": "There are three doctors in the room.",
+    "transcript": "[[He|Él]] [[works|trabaja]] [[in|en]] (_____) [[hospital|hospital]].",
     "content": {
-      "title": "Plurales",
-      "instructions": "Elige la forma plural correcta.",
+      "title": "Artículos",
+      "instructions": "Completa con 'a' o 'an'.",
       "questions": [
         {
-          "question": "[[There|Hay]] [[are|son]] [[three|tres]] _______ [[in|en]] [[the|la]] [[room|habitación]].",
-          "options": ["[[doctor|médico]]", "[[doctors|médicos]]"],
-          "correctAnswer": 1,
-          "explanation": "Añadimos -s para el plural."
+          "question": "[[He|Él]] [[works|trabaja]] [[in|en]] (_____) [[hospital|hospital]].",
+          "correctAnswer": "a",
+          "explanation": "A antes de consonante."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-9/e37.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u9-e38",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Vocabulary: Plurals",
+    "topic": "Grammar",
     "difficulty": "medium",
-    "transcript": "Waitresses work in restaurants.",
+    "transcript": "[[Does|¿Aux]] [[he|él]] [[work|trabaja]] [[at|en]] [[the|la]] [[university|universidad]]?",
     "content": {
-      "title": "Plurales",
-      "instructions": "Elige la forma plural correcta.",
-      "questions": [
-        {
-          "question": "_______ [[work|trabajan]] [[in|en]] [[restaurants|restaurantes]].",
-          "options": ["[[Waitress|Camarera]]", "[[Waitresses|Camareras]]"],
-          "correctAnswer": 1,
-          "explanation": "Palabras terminadas en -ss añaden -es: 'waitresses'."
-        }
-      ]
+      "title": "Pregunta 3ª persona",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[Does|¿Aux]] [[he|él]] [[work|trabaja]] [[at|en]] [[the|la]] [[university|universidad]]?",
+      "words": ["[[university|universidad]]?", "[[the|la]]", "[[at|en]]", "[[work|trabaja]]", "[[he|él]]", "[[Does|¿Aux]]"],
+      "explanation": "Estructura: Does + Sujeto + Verbo infinitivo + Lugar."
     },
     "audioUrl": "audio/a1/unit-9/e38.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u9-e39",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: be + job",
-    "difficulty": "easy",
-    "transcript": "We are musicians.",
+    "topic": "Jobs",
+    "difficulty": "medium",
+    "transcript": "[[My|Mi]] [[mother|madre]] [[is|es]] [[a|una]] [[dentist|dentista]].",
     "content": {
-      "title": "Ser Músico",
-      "instructions": "Completa la oración.",
-      "questions": [
-        {
-          "question": "[[We|Nosotros/as]] _______ [[musicians|músicos]].",
-          "options": ["[[is|es]]", "[[am|soy]]", "[[are|somos]]"],
-          "correctAnswer": 2,
-          "explanation": "Con 'We' usamos 'are'."
-        }
-      ]
+      "title": "Nueva profesión",
+      "instructions": "Elige la profesión.",
+      "options": ["[[dentist|dentista]]", "[[artist|artista]]", "[[waitress|camarera]]"],
+      "correctAnswer": 0,
+      "explanation": "Dentist es dentista."
     },
     "audioUrl": "audio/a1/unit-9/e39.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u9-e40",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: be + job",
-    "difficulty": "easy",
-    "transcript": "What are their jobs? They are lawyers.",
+    "topic": "Jobs",
+    "difficulty": "medium",
+    "transcript": "[[That|Ese]] [[man|hombre]] [[is|es]] [[a|un]] [[firefighter|bombero]].",
     "content": {
-      "title": "¿Cuáles son sus trabajos?",
-      "instructions": "Completa la respuesta.",
-      "questions": [
-        {
-          "question": "[[They|Ellos/as]] _______ [[lawyers|abogados]].",
-          "options": ["[[is|es]]", "[[am|soy]]", "[[are|son]]"],
-          "correctAnswer": 2,
-          "explanation": "Con 'They' usamos 'are'."
-        }
-      ]
+      "title": "Nueva profesión",
+      "instructions": "Selecciona la ocupación.",
+      "options": ["[[driver|conductor]]", "[[firefighter|bombero]]", "[[police|policía]]"],
+      "correctAnswer": 1,
+      "explanation": "Firefighter es bombero."
     },
     "audioUrl": "audio/a1/unit-9/e40.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u9-e41",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Sentence Structure",
+    "topic": "Jobs",
     "difficulty": "medium",
-    "transcript": "A scientist works in a laboratory.",
+    "transcript": "[[I|Yo]] [[am|soy]] [[a|un]] [[shop|de tienda]] [[assistant|asistente]].",
     "content": {
-      "title": "Construcción",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[A|Un]] [[scientist|científico]] [[works|trabaja]] [[in|en]] [[a|un]] [[laboratory|laboratorio]].",
-      "words": ["[[works|trabaja]]", "[[scientist|científico]]", "[[laboratory|laboratorio]].", "[[in|en]]", "[[a|un]]", "[[A|Un]]"],
-      "explanation": "Sujeto + Verbo + Preposición + Lugar."
+      "title": "Dependiente",
+      "instructions": "Elige el término para dependiente de tienda.",
+      "options": ["[[shop assistant|dependiente]]", "[[office worker|oficinista]]", "[[waiter|camarero]]"],
+      "correctAnswer": 0,
+      "explanation": "Shop assistant es la persona que ayuda en una tienda."
     },
     "audioUrl": "audio/a1/unit-9/e41.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u9-e42",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Sentence Structure",
+    "topic": "Jobs",
     "difficulty": "medium",
-    "transcript": "My mother is a very famous artist.",
+    "transcript": "[[He|Él]] [[is|es]] [[a|un]] [[pilot|piloto]]. [[He|Él]] [[works|trabaja]] [[at|en]] [[the|el]] [[airport|aeropuerto]].",
     "content": {
-      "title": "Construcción",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[My|Mi]] [[mother|madre]] [[is|es]] [[a|una]] [[very|muy]] [[famous|famosa]] [[artist|artista]].",
-      "words": ["[[artist|artista]].", "[[a|una]]", "[[famous|famosa]]", "[[is|es]]", "[[My|Mi]]", "[[mother|madre]]", "[[very|muy]]"],
-      "explanation": "Orden de adjetivos: adverbio + adjetivo + sustantivo."
+      "title": "Piloto",
+      "instructions": "Elige la profesión y el lugar.",
+      "options": ["[[driver / station|incorrecto]]", "[[pilot / airport|correcto]]", "[[doctor / hospital|incorrecto]]"],
+      "correctAnswer": 1,
+      "explanation": "Los pilotos trabajan en aeropuertos."
     },
     "audioUrl": "audio/a1/unit-9/e42.mp3",
     "topicName": "Vocabulary"
@@ -983,241 +769,251 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "id": "a1-u9-e43",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Sentence Structure",
+    "topic": "Grammar",
     "difficulty": "medium",
-    "transcript": "Dentists help us with our teeth.",
+    "transcript": "[[We|Nosotros]] [[don't|no]] [[work|trabajamos]] [[on|los]] [[Sundays|domingos]].",
     "content": {
-      "title": "Construcción",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Dentists|Dentistas]] [[help|ayudan]] [[us|a nosotros]] [[with|con]] [[our|nuestros]] [[teeth|dientes]].",
-      "words": ["[[help|ayudan]]", "[[teeth|dientes]].", "[[with|con]]", "[[Dentists|Dentistas]]", "[[us|a nosotros]]", "[[our|nuestros]]"],
-      "explanation": "Sujeto + Verbo + Objeto + Complemento."
+      "title": "Negación plural",
+      "instructions": "Ordena la frase.",
+      "correctSentence": "[[We|Nosotros]] [[don't|no]] [[work|trabajamos]] [[on|los]] [[Sundays|domingos]].",
+      "words": ["[[Sundays|domingos]].", "[[on|los]]", "[[work|trabajamos]]", "[[don't|no]]", "[[We|Nosotros]]"],
+      "explanation": "Sujeto + don't + verbo + tiempo."
     },
     "audioUrl": "audio/a1/unit-9/e43.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u9-e44",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Questions",
-    "difficulty": "hard",
-    "transcript": "Does your father work in a bank?",
+    "topic": "Jobs",
+    "difficulty": "medium",
+    "transcript": "[[Are|¿Son]] [[they|ellos]] [[farmers|granjeros]]? [[No|No]], [[they|ellos]] [[are|son]] [[drivers|conductores]].",
     "content": {
-      "title": "Formando Preguntas",
-      "instructions": "Ordena las palabras para formar una pregunta.",
-      "correctSentence": "[[Does|Aux]] [[your|tu]] [[father|padre]] [[work|trabaja]] [[in|en]] [[a|un]] [[bank|banco]]?",
-      "words": ["[[work|trabaja]]", "[[father|padre]]", "[[bank|banco]]?", "[[Does|Aux]]", "[[in|en]]", "[[your|tu]]", "[[a|un]]"],
-      "explanation": "Auxiliar 'Does' al principio para preguntas con he/she/it."
+      "title": "Repaso Plurales",
+      "instructions": "Elige la opción correcta.",
+      "options": ["[[farmer / driver|singular]]", "[[farmers / drivers|plural]]", "[[is farmers / are drivers|incorrecto]]"],
+      "correctAnswer": 1,
+      "explanation": "Usamos formas plurales."
     },
     "audioUrl": "audio/a1/unit-9/e44.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u9-e45",
-    "type": "sentence-building",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Questions",
-    "difficulty": "hard",
-    "transcript": "What does your sister do?",
+    "topic": "Jobs",
+    "difficulty": "medium",
+    "transcript": "[[A|Una]] [[nurse|enfermera]] [[works|trabaja]] [[at|en]] [[the|el]] [[hospital|hospital]].",
     "content": {
-      "title": "Formando Preguntas",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[What|Qué]] [[does|aux]] [[your|tu]] [[sister|hermana]] [[do|hace]]?",
-      "words": ["[[sister|hermana]]", "[[What|Qué]]", "[[do|hace]]?", "[[does|aux]]", "[[your|tu]]"],
-      "explanation": "¿Qué hace tu hermana? (A qué se dedica)."
+      "title": "Escribir profesión",
+      "instructions": "Escribe la profesión de enfermera en inglés.",
+      "questions": [
+        {
+          "question": "[[A|Una]] (_____) [[works|trabaja]] [[at|en]] [[the|el]] [[hospital|hospital]].",
+          "correctAnswer": "nurse",
+          "explanation": "Nurse es enfermero/a."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-9/e45.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u9-e46",
-    "type": "sentence-building",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Sentence Structure",
+    "topic": "Jobs",
     "difficulty": "medium",
-    "transcript": "The mechanic is fixing my car.",
+    "transcript": "[[My|Mi]] [[mother|madre]] [[is|es]] [[a|una]] [[teacher|profesora]].",
     "content": {
-      "title": "Construcción",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[The|El]] [[mechanic|mecánico]] [[is|está]] [[fixing|arreglando]] [[my|mi]] [[car|coche]].",
-      "words": ["[[fixing|arreglando]]", "[[car|coche]].", "[[is|está]]", "[[mechanic|mecánico]]", "[[my|mi]]", "[[The|El]]"],
-      "explanation": "Sujeto + be + verbo-ing (Present Continuous)."
+      "title": "Escribir profesión",
+      "instructions": "Escribe la profesión de profesora en inglés.",
+      "questions": [
+        {
+          "question": "[[My|Mi]] [[mother|madre]] [[is|es]] [[a|una]] (_____).",
+          "correctAnswer": "teacher",
+          "explanation": "Teacher es profesor/a."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-9/e46.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u9-e47",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Sentence Structure",
+    "topic": "Grammar",
     "difficulty": "medium",
-    "transcript": "I want to be a pilot.",
+    "transcript": "[[Who|Quién]] [[works|trabaja]] [[in|en]] [[an|una]] [[office|oficina]]? [[An|Un]] [[office|oficinista]] [[worker|oficinista]].",
     "content": {
-      "title": "Deseos",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[I|Yo]] [[want|quiero]] [[to|a]] [[be|ser]] [[a|un]] [[pilot|piloto]].",
-      "words": ["[[be|ser]]", "[[pilot|piloto]].", "[[want|quiero]]", "[[I|Yo]]", "[[to|a]]", "[[a|un]]"],
-      "explanation": "Uso de 'want to be' para profesiones futuras."
+      "title": "Oficina",
+      "instructions": "Elige la opción correcta.",
+      "options": ["[[A office worker|Incorrecto]]", "[[An office worker|Correcto]]", "[[The office worker|Incorrecto]]"],
+      "correctAnswer": 1,
+      "explanation": "An office worker es la forma correcta (vocal)."
     },
     "audioUrl": "audio/a1/unit-9/e47.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u9-e48",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Negatives",
+    "topic": "Jobs",
     "difficulty": "medium",
-    "transcript": "He doesn't work on weekends.",
+    "transcript": "[[The|El]] [[waiter|camarero]] [[works|trabaja]] [[at|en]] [[the|el]] [[restaurant|restaurante]].",
     "content": {
-      "title": "Negación",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[He|Él]] [[doesn't|no]] [[work|trabaja]] [[on|los]] [[weekends|fines de semana]].",
-      "words": ["[[work|trabaja]]", "[[weekends|fines de semana]].", "[[doesn't|no]]", "[[He|Él]]", "[[on|los]]"],
-      "explanation": "Negativo con 'doesn't' para he/she/it."
+      "title": "Construcción",
+      "instructions": "Ordena la frase.",
+      "correctSentence": "[[The|El]] [[waiter|camarero]] [[works|trabaja]] [[at|en]] [[the|el]] [[restaurant|restaurante]].",
+      "words": ["[[restaurant|restaurante]].", "[[the|el]]", "[[at|en]]", "[[works|trabaja]]", "[[waiter|camarero]]", "[[The|El]]"],
+      "explanation": "Sujeto + Verbo + Preposición + Lugar."
     },
     "audioUrl": "audio/a1/unit-9/e48.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u9-e49",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Sentence Structure",
+    "topic": "Jobs",
     "difficulty": "medium",
-    "transcript": "Waiters serve food in restaurants.",
+    "transcript": "[[Is|¿Es]] [[your|tu]] [[brother|hermano]] [[a|un]] [[police|policía]] [[officer|oficial]]? [[Yes|Sí]], [[he|él]] [[is|es]].",
     "content": {
-      "title": "Descripción",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Waiters|Camareros]] [[serve|sirven]] [[food|comida]] [[in|en]] [[restaurants|restaurantes]].",
-      "words": ["[[food|comida]]", "[[restaurants|restaurantes]].", "[[serve|sirven]]", "[[in|en]]", "[[Waiters|Camareros]]"],
-      "explanation": "Generalizaciones en plural."
+      "title": "Pregunta de Confirmación",
+      "instructions": "Elige la respuesta correcta.",
+      "options": ["[[Yes, he is.|Sí, lo es.]]", "[[Yes, he does.|Incorrecto]]", "[[Yes, he works.|Incorrecto]]"],
+      "correctAnswer": 0,
+      "explanation": "Si la pregunta empieza por 'Is', respondemos con 'is'."
     },
     "audioUrl": "audio/a1/unit-9/e49.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u9-e50",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Sentence Structure",
+    "topic": "Jobs",
     "difficulty": "medium",
-    "transcript": "They work in a very small shop.",
+    "transcript": "[[Where|Dónde]] [[do|aux]] [[you|tú]] [[work|trabajar]]? [[I|Yo]] [[work|trabajo]] [[at|en]] [[the|la]] [[university|universidad]].",
     "content": {
-      "title": "Descripción",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[They|Ellos/as]] [[work|trabajan]] [[in|en]] [[a|una]] [[very|muy]] [[small|pequeña]] [[shop|tienda]].",
-      "words": ["[[shop|tienda]].", "[[small|pequeña]]", "[[work|trabajan]]", "[[a|una]]", "[[in|en]]", "[[They|Ellos/as]]", "[[very|muy]]"],
-      "explanation": "Uso de adjetivos con 'very'."
+      "title": "Lugar de estudio/trabajo",
+      "instructions": "Selecciona la respuesta lógica.",
+      "options": ["[[At the farm|En la granja]]", "[[At the university|En la universidad]]", "[[At the airport|En el aeropuerto]]"],
+      "correctAnswer": 1,
+      "explanation": "Si eres estudiante o profesor universitario, trabajas en la universidad."
     },
     "audioUrl": "audio/a1/unit-9/e50.mp3",
     "topicName": "Vocabulary"
   },
+
+  // ==========================================
+  // READING COMPREHENSION (51-60)
+  // Two-phase structure: Text slide + 3 Question slides
+  // ==========================================
+
+  // TEXT 1: DR. SMITH'S WORK
   {
     "id": "a1-u9-e51",
-    "type": "sentence-building",
+    "type": "reading",
     "level": "A1",
-    "topic": "Sentence Structure",
-    "difficulty": "medium",
-    "transcript": "My brother and I are students.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[Hello|Hola]], [[my|mi]] [[name|nombre]] [[is|es]] [[Dr. Smith|Dr. Smith]]. [[I|Yo]] [[am|soy]] [[a|un]] [[doctor|médico]]. [[I|Yo]] [[work|trabajo]] [[in|en]] [[a|un]] [[big|grande]] [[hospital|hospital]] [[in|en]] [[London|Londres]]. [[Every|Cada]] [[day|día]], [[I|yo]] [[help|ayudo]] [[many|muchas]] [[sick|enfermas]] [[people|personas]]. [[My|Mi]] [[work|trabajo]] [[is|es]] [[very|muy]] [[interesting|interesante]] [[but|pero]] [[busy|ocupado]]. [[I|Yo]] [[start|empiezo]] [[at|a las]] [[eight|ocho]] [[o'clock|en punto]] [[in|en]] [[the|la]] [[morning|mañana]]. [[I|Yo]] [[am|estoy]] [[very|muy]] [[happy|feliz]] [[with|con]] [[my|mi]] [[job|trabajo]].",
     "content": {
-      "title": "Construcción",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[My|Mi]] [[brother|hermano]] [[and|y]] [[I|yo]] [[are|somos]] [[students|estudiantes]].",
-      "words": ["[[are|somos]]", "[[students|estudiantes]].", "[[I|yo]]", "[[My|Mi]]", "[[brother|hermano]]", "[[and|y]]"],
-      "explanation": "Sujeto compuesto (My brother and I)."
+      "title": "Lectura: El Trabajo del Dr. Smith",
+      "instructions": "Lee el texto y prepárate para las preguntas.",
+      "text": "Hello, my name is Dr. Smith. I am a doctor. I work in a big hospital in London. Every day, I help many sick people. My work is very interesting but busy. I start at eight o'clock in the morning. I am very happy with my job.",
+      "questions": []
     },
     "audioUrl": "audio/a1/unit-9/e51.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u9-e52",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Sentence Structure",
-    "difficulty": "medium",
-    "transcript": "A farmer works outside all day.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[What|Cuál]] [[is|es]] [[his|su]] [[job|trabajo]]?",
     "content": {
-      "title": "Construcción",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[A|Un]] [[farmer|granjero]] [[works|trabaja]] [[outside|afuera]] [[all|todo]] [[day|día]].",
-      "words": ["[[day|día]].", "[[works|trabaja]]", "[[A|Un]]", "[[outside|afuera]]", "[[all|todo]]", "[[farmer|granjero]]"],
-      "explanation": "Expresiones de tiempo (all day)."
+      "title": "Pregunta 1",
+      "instructions": "Basado en el texto anterior, responde:",
+      "options": ["[[He is a teacher|Es profesor]]", "[[He is a doctor|Es médico]]", "[[He is a driver|Es conductor]]"],
+      "correctAnswer": 1,
+      "explanation": "El texto dice: 'I am a doctor'."
     },
     "audioUrl": "audio/a1/unit-9/e52.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u9-e53",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Sentence Structure",
-    "difficulty": "medium",
-    "transcript": "The office is in the city center.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[Where|Dónde]] [[is|está]] [[the|el]] [[hospital|hospital]]?",
     "content": {
-      "title": "Construcción",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[The|La]] [[office|oficina]] [[is|está]] [[in|en]] [[the|el]] [[city|ciudad]] [[center|centro]].",
-      "words": ["[[center|centro]].", "[[city|ciudad]]", "[[office|oficina]]", "[[in|en]]", "[[is|está]]", "[[the|el]]", "[[The|La]]"],
-      "explanation": "Uso de 'in the city center'."
+      "title": "Pregunta 2",
+      "instructions": "Basado en el texto anterior, responde:",
+      "options": ["[[In Paris|En París]]", "[[In London|En Londres]]", "[[In Madrid|En Madrid]]"],
+      "correctAnswer": 1,
+      "explanation": "El texto dice: 'in a big hospital in London'."
     },
     "audioUrl": "audio/a1/unit-9/e53.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u9-e54",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Sentence Structure",
-    "difficulty": "medium",
-    "transcript": "Lawyers help people in court.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[What|A qué]] [[time|hora]] [[does|aux]] [[he|él]] [[start|empezar]]?",
     "content": {
-      "title": "Construcción",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Lawyers|Abogados]] [[help|ayudan]] [[people|personas]] [[in|en]] [[court|tribunal]].",
-      "words": ["[[people|personas]]", "[[court|tribunal]].", "[[in|en]]", "[[Lawyers|Abogados]]", "[[help|ayudan]]"],
-      "explanation": "Descripción de actividades profesionales."
+      "title": "Pregunta 3",
+      "instructions": "Basado en el texto anterior, responde:",
+      "options": ["[[At seven o'clock|A las siete]]", "[[At eight o'clock|A las ocho]]", "[[At nine o'clock|A las nueve]]"],
+      "correctAnswer": 1,
+      "explanation": "El texto dice: 'I start at eight o'clock in the morning'."
     },
     "audioUrl": "audio/a1/unit-9/e54.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
+
+  // TEXT 2: ANNA THE CHEF
   {
     "id": "a1-u9-e55",
-    "type": "sentence-building",
+    "type": "reading",
     "level": "A1",
-    "topic": "Sentence Structure",
-    "difficulty": "medium",
-    "transcript": "Do you work in a store?",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[This|Esta]] [[is|es]] [[Anna|Anna]]. [[She|Ella]] [[is|es]] [[a|una]] [[famous|famosa]] [[chef|chef]]. [[She|Ella]] [[works|trabaja]] [[in|en]] [[an|un]] [[Italian|italiano]] [[restaurant|restaurante]]. [[Anna|Anna]] [[cooks|cocina]] [[delicious|deliciosa]] [[pasta|pasta]] [[and|y]] [[pizza|pizza]]. [[She|Ella]] [[has|tiene]] [[five|cinco]] [[assistants|asistentes]] [[in|en]] [[the|la]] [[kitchen|cocina]]. [[The|El]] [[restaurant|restaurante]] [[opens|abre]] [[at|a las]] [[twelve|doce]] [[noon|del mediodía]]. [[Many|Muchos]] [[people|personas]] [[visit|visitan]] [[the|el]] [[restaurant|restaurante]] [[every|cada]] [[weekend|fin de semana]].",
     "content": {
-      "title": "Preguntas",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Do|Aux]] [[you|tú]] [[work|trabajas]] [[in|en]] [[a|una]] [[store|tienda]]?",
-      "words": ["[[work|trabajas]]", "[[store|tienda]]?", "[[Do|Aux]]", "[[in|en]]", "[[you|tú]]", "[[a|una]]"],
-      "explanation": "Pregunta directa en presente simple."
+      "title": "Lectura: Anna la Chef",
+      "instructions": "Lee el texto y prepárate para las preguntas.",
+      "text": "This is Anna. She is a famous chef. She works in an Italian restaurant. Anna cooks delicious pasta and pizza. She has five assistants in the kitchen. The restaurant opens at twelve noon. Many people visit the restaurant every weekend.",
+      "questions": []
     },
     "audioUrl": "audio/a1/unit-9/e55.mp3",
-    "topicName": "Grammar"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u9-e56",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "medium",
-    "transcript": "My name is John. I am a doctor. I work in a big hospital in New York. I love my job because I help people every day. I work from Monday to Friday.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[What|Qué]] [[does|aux]] [[Anna|Anna]] [[cook|cocinar]]?",
     "content": {
-      "title": "Lectura: El Trabajo de John",
-      "instructions": "Lee el texto y responde.",
-      "questions": [
-        {
-          "question": "[[What|Qué]] [[is|es]] [[John's|de John]] [[job|trabajo]]? *\"My name is John. I am a doctor. I work in a big hospital in New York. I love my job because I help people every day. I work from Monday to Friday.\"*",
-          "options": ["[[Teacher|Profesor]]", "[[Doctor|Médico]]", "[[Chef|Cocinero]]"],
-          "correctAnswer": 1,
-          "explanation": "John dice claramente: 'I am a doctor'."
-        }
-      ]
+      "title": "Pregunta 1",
+      "instructions": "Basado en el texto anterior, responde:",
+      "options": ["[[Burgers and fries|Hamburguesas y patatas]]", "[[Sushi and rice|Sushi y arroz]]", "[[Pasta and pizza|Pasta y pizza]]"],
+      "correctAnswer": 2,
+      "explanation": "El texto dice: 'Anna cooks delicious pasta and pizza'."
     },
     "audioUrl": "audio/a1/unit-9/e56.mp3",
     "topicName": "Reading"
@@ -1226,20 +1022,15 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "id": "a1-u9-e57",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "medium",
-    "transcript": "My name is John. I am a doctor. I work in a big hospital in New York. I love my job because I help people every day. I work from Monday to Friday.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[How|Cuántos]] [[many|muchos]] [[assistants|asistentes]] [[does|aux]] [[she|ella]] [[have|tener]]?",
     "content": {
-      "title": "Lectura: El Trabajo de John",
-      "instructions": "Lee el texto y responde.",
-      "questions": [
-        {
-          "question": "[[Where|Dónde]] [[does|aux]] [[he|él]] [[work|trabaja]]? *\"My name is John. I am a doctor. I work in a big hospital in New York. I love my job because I help people every day. I work from Monday to Friday.\"*",
-          "options": ["[[In a school|En una escuela]]", "[[In a hospital|En un hospital]]", "[[On a farm|En una granja]]"],
-          "correctAnswer": 1,
-          "explanation": "John dice: 'I work in a big hospital'."
-        }
-      ]
+      "title": "Pregunta 2",
+      "instructions": "Basado en el texto anterior, responde:",
+      "options": ["[[Three|Tres]]", "[[Five|Cinco]]", "[[Ten|Diez]]"],
+      "correctAnswer": 1,
+      "explanation": "El texto dice: 'She has five assistants in the kitchen'."
     },
     "audioUrl": "audio/a1/unit-9/e57.mp3",
     "topicName": "Reading"
@@ -1248,42 +1039,33 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "id": "a1-u9-e58",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "medium",
-    "transcript": "Maria is a teacher. She works in a small school in Spain. She has twenty students. She teaches English and Music. She is very happy.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[When|Cuándo]] [[do|aux]] [[many|muchas]] [[people|personas]] [[visit|visitar]]?",
     "content": {
-      "title": "Lectura: Maria la Profesora",
-      "instructions": "Lee el texto y responde.",
-      "questions": [
-        {
-          "question": "[[What|Qué]] [[does|aux]] [[Maria|Maria]] [[teach|enseña]]? *\"Maria is a teacher. She works in a small school in Spain. She has twenty students. She teaches English and Music. She is very happy.\"*",
-          "options": ["[[Spanish|Español]]", "[[English and Music|Inglés y Música]]", "[[Art|Arte]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice: 'She teaches English and Music'."
-        }
-      ]
+      "title": "Pregunta 3",
+      "instructions": "Basado en el texto anterior, responde:",
+      "options": ["[[Every Monday|Cada lunes]]", "[[Every weekend|Cada fin de semana]]", "[[Every night|Cada noche]]"],
+      "correctAnswer": 1,
+      "explanation": "El texto dice: 'Many people visit the restaurant every weekend'."
     },
     "audioUrl": "audio/a1/unit-9/e58.mp3",
     "topicName": "Reading"
   },
+
+  // TEXT 3: THE POLICE OFFICER
   {
     "id": "a1-u9-e59",
-    "type": "multiple-choice",
+    "type": "reading",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "medium",
-    "transcript": "Maria is a teacher. She works in a small school in Spain. She has twenty students. She teaches English and Music. She is very happy.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[Tom|Tom]] [[is|es]] [[a|un]] [[police|policía]] [[officer|oficial]]. [[He|Él]] [[is|es]] [[strong|fuerte]] [[and|y]] [[brave|valiente]]. [[He|Él]] [[works|trabaja]] [[at|en]] [[the|la]] [[central|central]] [[police|policía]] [[station|estación]]. [[His|Su]] [[uniform|uniforme]] [[is|es]] [[dark|oscuro]] [[blue|azul]]. [[He|Él]] [[has|tiene]] [[a|un]] [[police|de policía]] [[car|coche]]. [[He|Él]] [[helps|ayuda]] [[people|personas]] [[in|en]] [[the|la]] [[city|ciudad]]. [[Tom|Tom]] [[loves|ama]] [[his|su]] [[job|trabajo]] [[because|porque]] [[it|esto]] [[is|es]] [[important|importante]].",
     "content": {
-      "title": "Lectura: Maria la Profesora",
-      "instructions": "Lee el texto y responde.",
-      "questions": [
-        {
-          "question": "[[How|Cuántos]] [[many|muchos]] [[students|estudiantes]] [[does|aux]] [[she|ella]] [[have|tiene]]? *\"Maria is a teacher. She works in a small school in Spain. She has twenty students. She teaches English and Music. She is very happy.\"*",
-          "options": ["[[Ten|Diez]]", "[[Twenty|Veinte]]", "[[Thirty|Treinta]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice: 'She has twenty students'."
-        }
-      ]
+      "title": "Lectura: El Oficial Tom",
+      "instructions": "Lee el texto final.",
+      "text": "Tom is a police officer. He is strong and brave. He works at the central police station. His uniform is dark blue. He has a police car. He helps people in the city. Tom loves his job because it is important.",
+      "questions": []
     },
     "audioUrl": "audio/a1/unit-9/e59.mp3",
     "topicName": "Reading"
@@ -1292,20 +1074,15 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "id": "a1-u9-e60",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "medium",
-    "transcript": "My brother is a mechanic. He works in a garage. He is busy today. He is fixing a blue car. He likes cars very much.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[What|De qué]] [[color|color]] [[is|es]] [[his|su]] [[uniform|uniforme]]?",
     "content": {
-      "title": "Lectura: El Mecánico",
-      "instructions": "Lee el texto y responde.",
-      "questions": [
-        {
-          "question": "[[What|Qué]] [[is|está]] [[he|él]] [[doing|haciendo]] [[today|hoy]]? *\"My brother is a mechanic. He works in a garage. He is busy today. He is fixing a blue car. He likes cars very much.\"*",
-          "options": ["[[Driving a car|Conduciendo un coche]]", "[[Fixing a car|Arreglando un coche]]", "[[Washing a car|Lavando un coche]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice: 'He is fixing a blue car'."
-        }
-      ]
+      "title": "Pregunta Final",
+      "instructions": "Basado en el texto anterior, responde:",
+      "options": ["[[Black|Negro]]", "[[Dark blue|Azul oscuro]]", "[[Green|Verde]]"],
+      "correctAnswer": 1,
+      "explanation": "El texto dice: 'His uniform is dark blue'."
     },
     "audioUrl": "audio/a1/unit-9/e60.mp3",
     "topicName": "Reading"

@@ -15,16 +15,16 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "title": "Vocabulario: La Familia (Básico)",
       "instructions": "Aprende los miembros básicos de la familia.",
       "items": [
-        { "front": "[[Mother|Madre]]", "back": "Madre" },
-        { "front": "[[Father|Padre]]", "back": "Padre" },
-        { "front": "[[Parents|Padres]]", "back": "Padres" },
-        { "front": "[[Son|Hijo]]", "back": "Hijo" },
-        { "front": "[[Daughter|Hija]]", "back": "Hija" },
-        { "front": "[[Brother|Hermano]]", "back": "Hermano" },
-        { "front": "[[Sister|Hermana]]", "back": "Hermana" },
-        { "front": "[[Siblings|Hermanos (en general)]]", "back": "Hermanos (en general)" },
-        { "front": "[[Grandfather|Abuelo]]", "back": "Abuelo" },
-        { "front": "[[Grandmother|Abuela]]", "back": "Abuela" }
+        { "front": "[[Mother|Madre]]", "back": "Mother" },
+        { "front": "[[Father|Padre]]", "back": "Father" },
+        { "front": "[[Parents|Padres]]", "back": "Parents" },
+        { "front": "[[Son|Hijo]]", "back": "Son" },
+        { "front": "[[Daughter|Hija]]", "back": "Daughter" },
+        { "front": "[[Brother|Hermano]]", "back": "Brother" },
+        { "front": "[[Sister|Hermana]]", "back": "Sister" },
+        { "front": "[[Siblings|Hermanos]]", "back": "Siblings" },
+        { "front": "[[Grandfather|Abuelo]]", "back": "Grandfather" },
+        { "front": "[[Grandmother|Abuela]]", "back": "Grandmother" }
       ]
     },
     "audioUrl": "audio/a1/unit-6/e1.mp3",
@@ -40,14 +40,9 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Los Padres",
       "instructions": "Elige la palabra correcta.",
-      "questions": [
-        {
-          "question": "[[My|Mi]] [[mother|madre]] [[and|y]] [[my|mi]] [[father|padre]] [[are|son]] [[my|mis]] (_____).",
-          "options": ["[[grandparents|abuelos]]", "[[parents|padres]]", "[[siblings|hermanos]]"],
-          "correctAnswer": 1,
-          "explanation": "'Parents' se refiere específicamente al padre y la madre."
-        }
-      ]
+      "options": ["[[grandparents|abuelos]]", "[[parents|padres]]", "[[siblings|hermanos]]"],
+      "correctAnswer": 1,
+      "explanation": "'Parents' se refiere específicamente al padre y la madre."
     },
     "audioUrl": "audio/a1/unit-6/e2.mp3",
     "topicName": "Vocabulary"
@@ -62,14 +57,9 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Hermanos",
       "instructions": "Elige la palabra correcta.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] [[have|tengo]] [[one|un]] [[brother|hermano]] [[and|y]] [[two|dos]] [[sisters|hermanas]]. [[They|Ellos]] [[are|son]] [[my|mis]] (_____).",
-          "options": ["[[parents|padres]]", "[[cousins|primos]]", "[[siblings|hermanos]]"],
-          "correctAnswer": 2,
-          "explanation": "'Siblings' es la palabra general para referirse a hermanos y hermanas."
-        }
-      ]
+      "options": ["[[parents|padres]]", "[[cousins|primos]]", "[[siblings|hermanos]]"],
+      "correctAnswer": 2,
+      "explanation": "'Siblings' es la palabra general para referirse a hermanos y hermanas."
     },
     "audioUrl": "audio/a1/unit-6/e3.mp3",
     "topicName": "Vocabulary"
@@ -101,14 +91,9 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Tu hijo",
       "instructions": "Elige el posesivo correcto.",
-      "questions": [
-        {
-          "question": "[[Is|¿Es]] [[he|él]] (_____) [[son|hijo]]?",
-          "options": ["[[you|tú]]", "[[your|tu]]", "[[he|él]]"],
-          "correctAnswer": 1,
-          "explanation": "'Your' es el adjetivo posesivo para 'tú' (you)."
-        }
-      ]
+      "options": ["[[you|tú]]", "[[your|tu]]", "[[he|él]]"],
+      "correctAnswer": 1,
+      "explanation": "'Your' es el adjetivo posesivo para 'tú' (you)."
     },
     "audioUrl": "audio/a1/unit-6/e5.mp3",
     "topicName": "Grammar"
@@ -140,14 +125,9 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Vivir en Londres",
       "instructions": "Elige la palabra correcta.",
-      "questions": [
-        {
-          "question": "[[My|Mi]] (_____) [[lives|vive]] [[in|en]] [[London|Londres]].",
-          "options": ["[[grandparents|abuelos]]", "[[grandfather|abuelo]]", "[[grandmother|abuela]]"],
-          "correctAnswer": 2,
-          "explanation": "Como el verbo es 'lives' (singular), necesitamos un sujeto singular femenino: grandmother."
-        }
-      ]
+      "options": ["[[grandparents|abuelos]]", "[[grandfather|abuelo]]", "[[grandmother|abuela]]"],
+      "correctAnswer": 2,
+      "explanation": "Como el verbo es 'lives' (singular), necesitamos un sujeto singular femenino: grandmother."
     },
     "audioUrl": "audio/a1/unit-6/e7.mp3",
     "topicName": "Vocabulary"
@@ -179,14 +159,9 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Hijos e hijas",
       "instructions": "Elige la palabra correcta.",
-      "questions": [
-        {
-          "question": "[[A|Un]] [[son|hijo]] [[and|y]] [[a|una]] [[daughter|hija]] [[are|son]] (_____).",
-          "options": ["[[children|hijos]]", "[[parents|padres]]", "[[babies|bebés]]"],
-          "correctAnswer": 0,
-          "explanation": "'Children' se usa para referirse a los hijos de alguien, independientemente de su edad."
-        }
-      ]
+      "options": ["[[children|hijos]]", "[[parents|padres]]", "[[babies|bebés]]"],
+      "correctAnswer": 0,
+      "explanation": "'Children' se usa para referirse a los hijos de alguien, independientemente de su edad."
     },
     "audioUrl": "audio/a1/unit-6/e9.mp3",
     "topicName": "Vocabulary"
@@ -223,16 +198,16 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "title": "Vocabulario: Familia Extendida",
       "instructions": "Aprende otros parientes comunes.",
       "items": [
-        { "front": "[[Uncle|Tío]]", "back": "Tío" },
-        { "front": "[[Aunt|Tía]]", "back": "Tía" },
-        { "front": "[[Cousin|Primo/a]]", "back": "Primo/a" },
-        { "front": "[[Nephew|Sobrino]]", "back": "Sobrino" },
-        { "front": "[[Niece|Sobrina]]", "back": "Sobrina" },
-        { "front": "[[Husband|Esposo]]", "back": "Esposo" },
-        { "front": "[[Wife|Esposa]]", "back": "Esposa" },
-        { "front": "[[Father-in-law|Suegro]]", "back": "Suegro" },
-        { "front": "[[Mother-in-law|Suegra]]", "back": "Suegra" },
-        { "front": "[[Relatives|Parientes]]", "back": "Parientes" }
+        { "front": "[[Uncle|Tío]]", "back": "Uncle" },
+        { "front": "[[Aunt|Tía]]", "back": "Aunt" },
+        { "front": "[[Cousin|Primo/a]]", "back": "Cousin" },
+        { "front": "[[Nephew|Sobrino]]", "back": "Nephew" },
+        { "front": "[[Niece|Sobrina]]", "back": "Niece" },
+        { "front": "[[Husband|Esposo]]", "back": "Husband" },
+        { "front": "[[Wife|Esposa]]", "back": "Wife" },
+        { "front": "[[Father-in-law|Suegro]]", "back": "Father-in-law" },
+        { "front": "[[Mother-in-law|Suegra]]", "back": "Mother-in-law" },
+        { "front": "[[Relatives|Parientes]]", "back": "Relatives" }
       ]
     },
     "audioUrl": "audio/a1/unit-6/e11.mp3",
@@ -248,14 +223,9 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Su tío (de él)",
       "instructions": "Elige el posesivo correcto.",
-      "questions": [
-        {
-          "question": "(_____) [[uncle|tío]] [[is|es]] [[from|de]] [[Italy|Italia]].",
-          "options": ["[[Her|Su (de ella)]]", "[[He|Él]]", "[[His|Su (de él)]]"],
-          "correctAnswer": 2,
-          "explanation": "Usamos 'His' cuando el poseedor es masculino."
-        }
-      ]
+      "options": ["[[Her|Su (de ella)]]", "[[He|Él]]", "[[His|Su (de él)]]"],
+      "correctAnswer": 2,
+      "explanation": "Usamos 'His' cuando el poseedor es masculino."
     },
     "audioUrl": "audio/a1/unit-6/e12.mp3",
     "topicName": "Grammar"
@@ -270,14 +240,9 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Su tía (de ella)",
       "instructions": "Elige el posesivo correcto.",
-      "questions": [
-        {
-          "question": "(_____) [[aunt|tía]] [[is|es]] [[a|una]] [[doctor|doctora]].",
-          "options": ["[[Her|Su (de ella)]]", "[[His|Su (de él)]]", "[[She|Ella]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'Her' cuando el poseedor es femenino."
-        }
-      ]
+      "options": ["[[Her|Su (de ella)]]", "[[His|Su (de él)]]", "[[She|Ella]]"],
+      "correctAnswer": 0,
+      "explanation": "Usamos 'Her' cuando el poseedor es femenino."
     },
     "audioUrl": "audio/a1/unit-6/e13.mp3",
     "topicName": "Grammar"
@@ -309,14 +274,9 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "La esposa de Mark",
       "instructions": "Elige el posesivo correcto.",
-      "questions": [
-        {
-          "question": "[[Mark|Mark]] [[is|está]] [[married|casado]]. (_____) [[wife|esposa]] [[is|es]] [[Anna|Anna]].",
-          "options": ["[[He|Él]]", "[[His|Su (de él)]]", "[[Her|Su (de ella)]]"],
-          "correctAnswer": 1,
-          "explanation": "Como Mark es un hombre, usamos 'His'."
-        }
-      ]
+      "options": ["[[He|Él]]", "[[His|Su (de él)]]", "[[Her|Su (de ella)]]"],
+      "correctAnswer": 1,
+      "explanation": "Como Mark es un hombre, usamos 'His'."
     },
     "audioUrl": "audio/a1/unit-6/e15.mp3",
     "topicName": "Grammar"
@@ -348,14 +308,9 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Relaciones",
       "instructions": "Elige la palabra correcta.",
-      "questions": [
-        {
-          "question": "[[My|Mi]] [[mother's|de mi madre]] [[sister|hermana]] [[is|es]] [[my|mi]] (_____).",
-          "options": ["[[uncle|tío]]", "[[niece|sobrina]]", "[[aunt|tía]]"],
-          "correctAnswer": 2,
-          "explanation": "La hermana de tu madre es tu tía."
-        }
-      ]
+      "options": ["[[uncle|tío]]", "[[niece|sobrina]]", "[[aunt|tía]]"],
+      "correctAnswer": 2,
+      "explanation": "La hermana de tu madre es tu tía."
     },
     "audioUrl": "audio/a1/unit-6/e17.mp3",
     "topicName": "Vocabulary"
@@ -370,14 +325,9 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Relaciones",
       "instructions": "Elige la palabra correcta.",
-      "questions": [
-        {
-          "question": "[[My|Mi]] [[father's|de mi padre]] [[brother|hermano]] [[is|es]] [[my|mi]] (_____).",
-          "options": ["[[uncle|tío]]", "[[nephew|sobrino]]", "[[cousin|primo]]"],
-          "correctAnswer": 0,
-          "explanation": "El hermano de tu padre es tu tío."
-        }
-      ]
+      "options": ["[[uncle|tío]]", "[[nephew|sobrino]]", "[[cousin|primo]]"],
+      "correctAnswer": 0,
+      "explanation": "El hermano de tu padre es tu tío."
     },
     "audioUrl": "audio/a1/unit-6/e18.mp3",
     "topicName": "Vocabulary"
@@ -405,87 +355,72 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Family Members",
     "difficulty": "easy",
-    "transcript": "[[Their|Su]] [[son|hijo]] [[is|es]] [[very|muy]] [[young|joven]].",
+    "transcript": "[[My|Mi]] [[sister|hermana]] [[is|está]] [[not|no]] [[single|soltera]]. [[She|Ella]] [[is|está]] [[married|casada]].",
     "content": {
-      "title": "Su hijo (de ellos)",
-      "instructions": "Elige el posesivo correcto.",
-      "questions": [
-        {
-          "question": "(_____) [[son|hijo]] [[is|es]] [[very|muy]] [[young|joven]].",
-          "options": ["[[Their|Su (de ellos)]]", "[[They|Ellos]]", "[[There|Allí]]"],
-          "correctAnswer": 0,
-          "explanation": "'Their' es el posesivo para 'ellos' (they)."
-        }
-      ]
+      "title": "Estado civil",
+      "instructions": "Elige el adjetivo opuesto a 'single'.",
+      "options": ["[[single|soltera]]", "[[married|casada]]", "[[happy|feliz]]"],
+      "correctAnswer": 1,
+      "explanation": "'Married' significa casado/a."
     },
     "audioUrl": "audio/a1/unit-6/e20.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
 
   // ==========================================
-  // PERSONAL INFO (21-30)
+  // PRACTICE & REVIEW (21-50)
   // ==========================================
   {
     "id": "a1-u6-e21",
-    "type": "flashcard",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Personal Info",
-    "difficulty": "easy",
-    "transcript": "[[Name|Nombre]]. [[Surname|Apellido]]. [[Address|Dirección]]. [[Phone|Teléfono]]. [[Email|Correo]]. [[Age|Edad]]. [[Nationality|Nacionalidad]]. [[Job|Trabajo]]. [[Marital status|Estado civil]]. [[Gender|Género]].",
+    "topic": "Possessive 's",
+    "difficulty": "medium",
+    "transcript": "[[This|Este]] [[is|es]] [[my|mi]] [[brother's|de mi hermano]] [[car|coche]].",
     "content": {
-      "title": "Vocabulario: Información Personal",
-      "instructions": "Aprende palabras para dar información personal.",
-      "items": [
-        { "front": "[[Name|Nombre]]", "back": "Nombre" },
-        { "front": "[[Surname|Apellido]]", "back": "Apellido" },
-        { "front": "[[Address|Dirección]]", "back": "Dirección" },
-        { "front": "[[Phone number|Número de teléfono]]", "back": "Número de teléfono" },
-        { "front": "[[Email address|Dirección de correo]]", "back": "Dirección de correo" },
-        { "front": "[[Age|Edad]]", "back": "Edad" },
-        { "front": "[[Nationality|Nacionalidad]]", "back": "Nacionalidad" },
-        { "front": "[[Job / Occupation|Trabajo / Ocupación]]", "back": "Trabajo / Ocupación" },
-        { "front": "[[Marital status|Estado civil]]", "back": "Estado civil" },
-        { "front": "[[Gender|Género]]", "back": "Género" }
+      "title": "Genitivo Sajón",
+      "instructions": "Completa con el posesivo adecuado ('s).",
+      "questions": [
+        {
+          "question": "[[This|Este]] [[is|es]] [[my|mi]] [[brother|hermano]](_____) [[car|coche]].",
+          "correctAnswer": "'s",
+          "explanation": "Usamos 's para indicar que el coche pertenece al hermano."
+        }
       ]
     },
     "audioUrl": "audio/a1/unit-6/e21.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u6-e22",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Personal Info",
-    "difficulty": "easy",
-    "transcript": "[[What|Cuál]] [[is|es]] [[your|tu]] [[name|nombre]]?",
+    "topic": "Possessive Adjectives",
+    "difficulty": "medium",
+    "transcript": "[[They|Ellos]] [[live|viven]] [[with|con]] [[their|sus]] [[grandparents|abuelos]].",
     "content": {
-      "title": "Preguntar el nombre",
-      "instructions": "Elige la respuesta correcta.",
-      "questions": [
-        {
-          "question": "[[What|Cuál]] [[is|es]] [[your|tu]] [[name|nombre]]?",
-          "options": ["[[I am from Spain|Soy de España]]", "[[My name is John|Mi nombre es John]]", "[[I am 20 years old|Tengo 20 años]]"],
-          "correctAnswer": 1,
-          "explanation": "Cuando preguntan 'What is your name?', respondemos con nuestro nombre."
-        }
-      ]
+      "title": "Posesivo plural",
+      "instructions": "Selecciona el posesivo correcto para 'they'.",
+      "options": ["[[them|ellos]]", "[[their|sus]]", "[[they|ellos]]"],
+      "correctAnswer": 1,
+      "explanation": "'Their' es el adjetivo posesivo de 'they'."
     },
     "audioUrl": "audio/a1/unit-6/e22.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u6-e23",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Personal Info",
-    "difficulty": "easy",
-    "transcript": "[[My|Mi]] [[surname|apellido]] [[is|es]] [[Smith|Smith]].",
+    "topic": "Family Members",
+    "difficulty": "medium",
+    "transcript": "[[His|Sus]] [[siblings|hermanos]] [[are|son]] [[very|muy]] [[young|jóvenes]].",
     "content": {
-      "title": "El apellido",
+      "title": "Hermanos jóvenes",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[My|Mi]] [[surname|apellido]] [[is|es]] [[Smith|Smith]].",
-      "words": ["[[Smith|Smith]].", "[[is|es]]", "[[My|Mi]]", "[[surname|apellido]]"],
-      "explanation": "'Surname' o 'Last name' significan apellido."
+      "correctSentence": "[[His|Sus]] [[siblings|hermanos]] [[are|son]] [[very|muy]] [[young|jóvenes]].",
+      "words": ["[[young|jóvenes]].", "[[are|son]]", "[[siblings|hermanos]]", "[[very|muy]]", "[[His|Sus]]"],
+      "explanation": "Estructura: Posesivo + Sujeto + Verbo + Adjetivo."
     },
     "audioUrl": "audio/a1/unit-6/e23.mp3",
     "topicName": "Vocabulary"
@@ -494,163 +429,142 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "id": "a1-u6-e24",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Personal Info",
-    "difficulty": "easy",
-    "transcript": "[[How|Cuántos]] [[old|años]] [[are|tienes]] [[you|tú]]?",
+    "topic": "Possessive 's",
+    "difficulty": "medium",
+    "transcript": "[[Where|Dónde]] [[is|está]] [[Anna's|de Anna]] [[mother|madre]]?",
     "content": {
-      "title": "Preguntar la edad",
-      "instructions": "Elige la opción correcta.",
-      "questions": [
-        {
-          "question": "[[How|¿]] [[old|Cuántos años]] [[are|tienes]] [[you|tú]] [[?|?]]",
-          "options": ["[[I am 25 years old|Tengo 25 años]]", "[[I have 25 years old|Tengo 25 años]]", "[[My age is 25 years|Mi edad es 25 años]]"],
-          "correctAnswer": 0,
-          "explanation": "En inglés, la edad se dice con el verbo 'to be' (I am...)."
-        }
-      ]
+      "title": "Pregunta de posesión",
+      "instructions": "Elige la forma correcta.",
+      "options": ["[[Anna mother|incorrecto]]", "[[Anna's mother|la madre de Anna]]", "[[The Anna mother|incorrecto]]"],
+      "correctAnswer": 1,
+      "explanation": "Nombre + 's + Sustantivo."
     },
     "audioUrl": "audio/a1/unit-6/e24.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u6-e25",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Personal Info",
+    "topic": "Family Members",
     "difficulty": "medium",
-    "transcript": "[[What|Cuál]] [[is|es]] [[your|tu]] [[phone|teléfono]] [[number|número]]?",
+    "transcript": "[[My|Mi]] [[parents'|de mis padres]] [[car|coche]] [[is|es]] [[blue|azul]].",
     "content": {
-      "title": "Número de teléfono",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[What|Cuál]] [[is|es]] [[your|tu]] [[phone|teléfono]] [[number|número]]?",
-      "words": ["[[number|número]]?", "[[phone|teléfono]]", "[[What|Cuál]]", "[[is|es]]", "[[your|tu]]"],
-      "explanation": "Usamos 'What is...' para pedir información específica como un número."
+      "title": "Posesivo plural acabado en 's'",
+      "instructions": "Elige la opción correcta para 'los padres de mi'.",
+      "options": ["[[parent's|de un padre]]", "[[parents'|de los padres]]", "[[parents's|incorrecto]]"],
+      "correctAnswer": 1,
+      "explanation": "Cuando un plural acaba en 's', solo añadimos el apóstrofe."
     },
     "audioUrl": "audio/a1/unit-6/e25.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u6-e26",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Personal Info",
-    "difficulty": "easy",
-    "transcript": "[[Are|¿Estás]] [[you|tú]] [[single|soltero]] [[or|o]] [[married|casado]]?",
+    "topic": "Possessive Adjectives",
+    "difficulty": "medium",
+    "transcript": "[[We|Nosotros]] [[love|amamos]] [[our|nuestra]] [[family|familia]].",
     "content": {
-      "title": "Estado civil",
-      "instructions": "Elige la palabra que falta.",
+      "title": "Nuestro",
+      "instructions": "Completa con el posesivo de 'we'.",
       "questions": [
         {
-          "question": "[[Are|¿Estás]] [[you|tú]] [[single|soltero]] [[or|o]] (_____) [[?|?]]",
-          "options": ["[[happy|feliz]]", "[[married|casado]]", "[[student|estudiante]]"],
-          "correctAnswer": 1,
-          "explanation": "'Married' (casado) es lo opuesto a 'single' (soltero)."
+          "question": "[[We|Nosotros]] [[love|amamos]] (_____) [[family|familia]].",
+          "correctAnswer": "our",
+          "explanation": "'Our' es el posesivo de 'we'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-6/e26.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u6-e27",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Personal Info",
-    "difficulty": "easy",
-    "transcript": "[[I|Yo]] [[am|soy]] [[from|de]] [[Spain|España]].",
+    "topic": "Family Members",
+    "difficulty": "medium",
+    "transcript": "[[Your|Su]] [[wife's|de la esposa de él]] [[sister|hermana]] [[is|es]] [[his|su]] [[sister-in-law|cuñada]].",
     "content": {
-      "title": "Nacionalidad",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[I|Yo]] [[am|soy]] [[from|de]] [[Spain|España]].",
-      "words": ["[[Spain|España]].", "[[from|de]]", "[[I|Yo]]", "[[am|soy]]"],
-      "explanation": "Usamos 'from' para indicar origen o país."
+      "title": "Cuñada",
+      "instructions": "Elige el término para cuñada.",
+      "options": ["[[sister-in-law|cuñada]]", "[[daughter-in-law|nuera]]", "[[mother-in-law|suegra]]"],
+      "correctAnswer": 0,
+      "explanation": "Sister-in-law es cuñada."
     },
     "audioUrl": "audio/a1/unit-6/e27.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u6-e28",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Personal Info",
-    "difficulty": "easy",
-    "transcript": "[[What|Cuál]] [[is|es]] [[his|su]] [[job|trabajo]]?",
+    "topic": "Family Members",
+    "difficulty": "medium",
+    "transcript": "[[Whose|De quién]] [[is|es]] [[this|este]] [[photo|foto]]?",
     "content": {
-      "title": "Su trabajo (de él)",
-      "instructions": "Elige el posesivo correcto.",
-      "questions": [
-        {
-          "question": "[[What|Cuál]] [[is|es]] (_____) [[job|trabajo]] [[?|?]]",
-          "options": ["[[he|él]]", "[[him|él]]", "[[his|su]]"],
-          "correctAnswer": 2,
-          "explanation": "'His' es el posesivo masculino necesario para acompañar al sustantivo 'job'."
-        }
-      ]
+      "title": "Pregunta de quién",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[Whose|De quién]] [[is|es]] [[this|este]] [[photo|foto]]?",
+      "words": ["[[photo|foto]]?", "[[this|este]]", "[[is|es]]", "[[Whose|De quién]]"],
+      "explanation": "Whose se usa para preguntar de quién es algo."
     },
     "audioUrl": "audio/a1/unit-6/e28.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u6-e29",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Personal Info",
+    "topic": "Family Members",
     "difficulty": "medium",
-    "transcript": "[[Is|¿Es]] [[her|su]] [[address|dirección]] [[in|en]] [[London|Londres]]?",
+    "transcript": "[[It|Es]] [[is|es]] [[my|de mi]] [[father's|padre]].",
     "content": {
-      "title": "La dirección",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Is|¿Es]] [[her|su]] [[address|dirección]] [[in|en]] [[London|Londres]]?",
-      "words": ["[[London|Londres]]?", "[[address|dirección]]", "[[Is|¿Es]]", "[[in|en]]", "[[her|su]]"],
-      "explanation": "Estructura de pregunta con el verbo to be."
+      "title": "Respuesta de posesión",
+      "instructions": "Selecciona la respuesta correcta a 'Whose is this photo?'.",
+      "options": ["[[It is my father|Es mi padre]]", "[[It is my father's|Es de mi padre]]", "[[It is father|Es padre]]"],
+      "correctAnswer": 1,
+      "explanation": "Usamos el genitivo sajón para indicar pertenencia."
     },
     "audioUrl": "audio/a1/unit-6/e29.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u6-e30",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Personal Info",
-    "difficulty": "easy",
-    "transcript": "[[What|Cuál]] [[is|es]] [[her|su]] [[nationality|nacionalidad]]?",
+    "topic": "Family Members",
+    "difficulty": "medium",
+    "transcript": "[[He|Él]] [[has|tiene]] [[three|tres]] [[cousins|primos]].",
     "content": {
-      "title": "Su nacionalidad (de ella)",
-      "instructions": "Elige la respuesta correcta.",
+      "title": "Plural de primo",
+      "instructions": "Escribe el plural de 'cousin'.",
       "questions": [
         {
-          "question": "[[What|Cuál]] [[is|es]] [[her|su]] [[nationality|nacionalidad]]?",
-          "options": ["[[She is French|Ella es francesa]]", "[[He is French|Él es francés]]", "[[I am French|Soy francés]]"],
-          "correctAnswer": 0,
-          "explanation": "Si la pregunta usa 'her' (de ella), la respuesta debe usar 'she' (ella)."
+          "question": "[[He|Él]] [[has|tiene]] [[three|tres]] (_____).",
+          "correctAnswer": "cousins",
+          "explanation": "Añadimos 's' para formar el plural."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-6/e30.mp3",
     "topicName": "Vocabulary"
   },
-
-  // ==========================================
-  // GENITIVE 'S & POSSESSION (31-40)
-  // ==========================================
   {
     "id": "a1-u6-e31",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Genitive 's",
-    "difficulty": "easy",
-    "transcript": "[[John's|De John]] [[mother|madre]] [[is|es]] [[kind|amable]].",
+    "topic": "Family Members",
+    "difficulty": "medium",
+    "transcript": "[[Are|¿Están]] [[they|ellos]] [[single|solteros]] [[or|o]] [[married|casados]]?",
     "content": {
-      "title": "Genitivo Sajón",
-      "instructions": "Elige la opción correcta.",
-      "questions": [
-        {
-          "question": "(_____) [[mother|madre]] [[is|es]] [[kind|amable]].",
-          "options": ["[[The mother of John|La madre de John]]", "[[John's|De John]]", "[[Johns'|De John]]"],
-          "correctAnswer": 1,
-          "explanation": "Usamos el apóstrofo + s ('s) para indicar posesión."
-        }
-      ]
+      "title": "Pregunta de estado civil",
+      "instructions": "Elige la conjunción correcta.",
+      "options": ["[[and|y]]", "[[but|pero]]", "[[or|o]]"],
+      "correctAnswer": 2,
+      "explanation": "Usamos 'or' para ofrecer alternativas."
     },
     "audioUrl": "audio/a1/unit-6/e31.mp3",
     "topicName": "Grammar"
@@ -659,15 +573,15 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "id": "a1-u6-e32",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Genitive 's",
+    "topic": "Family Members",
     "difficulty": "medium",
-    "transcript": "[[My|Mi]] [[sister's|de mi hermana]] [[name|nombre]] [[is|es]] [[Maria|Maria]].",
+    "transcript": "[[My|Mi]] [[aunt|tía]] [[doesn't|no]] [[have|tiene]] [[any|ningún]] [[children|hijos]].",
     "content": {
-      "title": "El nombre de mi hermana",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[My|Mi]] [[sister's|de mi hermana]] [[name|nombre]] [[is|es]] [[Maria|Maria]].",
-      "words": ["[[Maria|Maria]].", "[[name|nombre]]", "[[sister's|de mi hermana]]", "[[is|es]]", "[[My|Mi]]"],
-      "explanation": "'sister's name' = el nombre de la hermana."
+      "title": "Negación",
+      "instructions": "Ordena la frase negativa.",
+      "correctSentence": "[[My|Mi]] [[aunt|tía]] [[doesn't|no]] [[have|tiene]] [[any|ningún]] [[children|hijos]].",
+      "words": ["[[children|hijos]].", "[[any|ningún]]", "[[have|tiene]]", "[[doesn't|no]]", "[[aunt|tía]]", "[[My|Mi]]"],
+      "explanation": "Doesn't have any + plural."
     },
     "audioUrl": "audio/a1/unit-6/e32.mp3",
     "topicName": "Grammar"
@@ -676,40 +590,34 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "id": "a1-u6-e33",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Genitive 's",
+    "topic": "Family Members",
     "difficulty": "medium",
-    "transcript": "[[Whose|De quién]] [[car|coche]] [[is|es]] [[this|este]]?",
+    "transcript": "[[The|El]] [[husband|esposo]] [[of|de]] [[my|mi]] [[sister|hermana]] [[is|es]] [[my|mi]] [[brother-in-law|cuñado]].",
     "content": {
-      "title": "Preguntar posesión",
-      "instructions": "Elige la palabra que falta.",
-      "questions": [
-        {
-          "question": "(_____) [[car|coche]] [[is|es]] [[this|este]] [[?|?]]",
-          "options": ["[[Whose|De quién]]", "[[Who|Quién]]", "[[What|Qué]]"],
-          "correctAnswer": 0,
-          "explanation": "'Whose' se usa para preguntar de quién es algo."
-        }
-      ]
+      "title": "Parentesco",
+      "instructions": "Identifica la relación.",
+      "options": ["[[nephew|sobrino]]", "[[brother-in-law|cuñado]]", "[[step-brother|hermanastro]]"],
+      "correctAnswer": 1,
+      "explanation": "El esposo de tu hermana es tu cuñado."
     },
     "audioUrl": "audio/a1/unit-6/e33.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u6-e34",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Genitive 's",
-    "difficulty": "easy",
-    "transcript": "[[It|Esto]] [[is|es]] [[my|mi]] [[parents'|de mis padres]] [[house|casa]].",
+    "topic": "Possessive Adjectives",
+    "difficulty": "medium",
+    "transcript": "[[Where|Dónde]] [[do|aux]] (_____) [[parents|padres]] [[live|viven]]? [[My|Mis]] [[parents|padres]] [[live|viven]] [[in|en]] [[Spain|España]].",
     "content": {
-      "title": "Posesión plural",
-      "instructions": "Elige la opción correcta.",
+      "title": "Tu posesivo",
+      "instructions": "Completa con el posesivo de 'you'.",
       "questions": [
         {
-          "question": "[[It|Esto]] [[is|es]] [[my|mi]] (_____) [[house|casa]].",
-          "options": ["[[parent's|del padre/madre]]", "[[parents's|de los padres]]", "[[parents'|de los padres]]"],
-          "correctAnswer": 2,
-          "explanation": "En plurales que terminan en -s, solo añadimos el apóstrofo."
+          "question": "[[Where|Dónde]] [[do|aux]] (_____) [[parents|padres]] [[live|viven]]?",
+          "correctAnswer": "your",
+          "explanation": "'Your' es tu/tus."
         }
       ]
     },
@@ -718,225 +626,195 @@ export const UNIT_6_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u6-e35",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Genitive 's",
+    "topic": "Family Members",
     "difficulty": "medium",
-    "transcript": "[[Is|¿Es]] [[this|este]] [[your|tu]] [[brother's|de tu hermano]] [[pen|bolígrafo]]?",
+    "transcript": "[[My|Mi]] [[cousin's|de mi primo]] [[name|nombre]] [[is|es]] [[Leo|Leo]].",
     "content": {
-      "title": "¿Es el bolígrafo de tu hermano?",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Is|¿Es]] [[this|este]] [[your|tu]] [[brother's|de tu hermano]] [[pen|bolígrafo]]?",
-      "words": ["[[pen|bolígrafo]]?", "[[brother's|de tu hermano]]", "[[Is|¿Es]]", "[[this|este]]", "[[your|tu]]"],
-      "explanation": "Combinamos adjetivo posesivo y genitivo sajón."
+      "title": "Uso de 's",
+      "instructions": "Elige la opción gramaticalmente correcta.",
+      "options": ["[[My cousin name|incorrecto]]", "[[My cousin's name|el nombre de mi primo]]", "[[The name my cousin|incorrecto]]"],
+      "correctAnswer": 1,
+      "explanation": "Estructura del genitivo sajón."
     },
     "audioUrl": "audio/a1/unit-6/e35.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u6-e36",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Genitive 's",
-    "difficulty": "easy",
-    "transcript": "[[Those|Esos]] [[are|son]] [[the|los]] [[children's|de los niños]] [[toys|juguetes]].",
+    "topic": "Family Members",
+    "difficulty": "medium",
+    "transcript": "[[How|Cuántos]] [[many|muchos]] [[nephews|sobrinos]] [[do|tienes]] [[you|tú]] [[have|tienes]]?",
     "content": {
-      "title": "Plurales irregulares",
-      "instructions": "Elige la forma correcta.",
-      "questions": [
-        {
-          "question": "[[Those|Esos]] [[are|son]] [[the|los]] (_____) [[toys|juguetes]].",
-          "options": ["[[childrens'|de los niños]]", "[[children's|de los niños]]", "[[childs|de los niños]]"],
-          "correctAnswer": 1,
-          "explanation": "Aunque 'children' es plural, no termina en -s, por lo que usamos 's."
-        }
-      ]
+      "title": "Pregunta de cantidad",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[How|Cuántos]] [[many|muchos]] [[nephews|sobrinos]] [[do|tienes]] [[you|tú]] [[have|tienes]]?",
+      "words": ["[[have|tienes]]?", "[[you|tú]]", "[[do|aux]]", "[[nephews|sobrinos]]", "[[many|muchos]]", "[[How|Cuántos]]"],
+      "explanation": "How many + plural + do + sujeto + have?"
     },
     "audioUrl": "audio/a1/unit-6/e36.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u6-e37",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Genitive 's",
+    "topic": "Family Members",
     "difficulty": "medium",
-    "transcript": "[[Peter|Peter]] [[is|es]] [[my|mi]] [[cousin's|de mi primo]] [[friend|amigo]].",
+    "transcript": "[[A|Un]] [[nephew|sobrino]] [[is|es]] [[a|un]] [[boy|niño]].",
     "content": {
-      "title": "El amigo de mi primo",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[Peter|Peter]] [[is|es]] [[my|mi]] [[cousin's|de mi primo]] [[friend|amigo]].",
-      "words": ["[[friend|amigo]].", "[[cous's|de mi primo]]", "[[is|es]]", "[[Peter|Peter]]", "[[my|mi]]"],
-      "explanation": "El poseedor ('cousin') va antes de lo poseído ('friend')."
+      "title": "Género",
+      "instructions": "Elige la opción correcta.",
+      "options": ["[[nephew / boy|sobrino / niño]]", "[[niece / boy|sobrina / niño]]", "[[nephew / girl|sobrino / niña]]"],
+      "correctAnswer": 0,
+      "explanation": "Nephew es masculino, niece es femenino."
     },
     "audioUrl": "audio/a1/unit-6/e37.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u6-e38",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Genitive 's",
-    "difficulty": "easy",
-    "transcript": "[[Where|Dónde]] [[is|está]] [[the|la]] [[teacher's|del profesor]] [[book|libro]]?",
+    "topic": "Family Members",
+    "difficulty": "medium",
+    "transcript": "[[I|Yo]] [[have|tengo]] [[two|dos]] (_____). [[One|Uno]] [[is|es]] [[Mark|Mark]] [[and|y]] [[one|otra]] [[is|es]] [[Jane|Jane]].",
     "content": {
-      "title": "El libro del profesor",
-      "instructions": "Elige la opción correcta.",
+      "title": "Hermanos (mixto)",
+      "instructions": "Escribe la palabra para hermanos (en general).",
       "questions": [
         {
-          "question": "[[Where|¿Dónde]] [[is|está]] [[the|el]] (_____) [[book|libro]] [[?|?]]",
-          "options": ["[[teacher's|del profesor]]", "[[teachers|profesores]]", "[[teacher|profesor]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 's para indicar que el libro pertenece al profesor."
+          "question": "[[I|Yo]] [[have|tengo]] [[two|dos]] (_____).",
+          "correctAnswer": "siblings",
+          "explanation": "Siblings engloba a hermanos y hermanas."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-6/e38.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u6-e39",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Genitive 's",
-    "difficulty": "hard",
-    "transcript": "[[This|Esta]] [[is|es]] [[my|mi]] [[uncle's|del tío]] [[wife's|de la esposa]] [[car|coche]].",
+    "topic": "Possessive Adjectives",
+    "difficulty": "medium",
+    "transcript": "[[Is|¿Es]] [[this|este]] [[your|vuestro]] [[house|casa]]?",
     "content": {
-      "title": "Doble posesión",
-      "instructions": "Ordena la oración (el coche de la esposa de mi tío).",
-      "correctSentence": "[[This|Esta]] [[is|es]] [[my|mi]] [[uncle's|de mi tío]] [[wife's|de su esposa]] [[car|coche]].",
-      "words": ["[[car|coche]].", "[[wife's|de su esposa]]", "[[uncle's|de mi tío]]", "[[is|es]]", "[[This|Esta]]", "[[my|mi]]"],
-      "explanation": "Podemos encadenar posesiones en inglés: A's B's C."
+      "title": "Vuestro",
+      "instructions": "Elige el posesivo para 'you' (plural).",
+      "options": ["[[yours|vuestro]]", "[[your|vuestro]]", "[[our|nuestro]]"],
+      "correctAnswer": 1,
+      "explanation": "'Your' se usa tanto para singular (tu) como para plural (vuestro)."
     },
     "audioUrl": "audio/a1/unit-6/e39.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u6-e40",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Genitive 's",
+    "topic": "Family Members",
     "difficulty": "medium",
-    "transcript": "[[Anna|Ana]] [[is|es]] [[Robert's|de Robert]] [[daughter|hija]].",
+    "transcript": "[[Their|Su]] [[grandmother|abuela]] [[is|es]] [[very|muy]] [[kind|amable]].",
     "content": {
-      "title": "Relaciones familiares",
-      "instructions": "Elige la opción correcta.",
-      "questions": [
-        {
-          "question": "[[Anna|Anna]] [[is|es]] (_____) [[daughter|hija]].",
-          "options": ["[[Robert|Robert]]", "[[Roberts|Robert]]", "[[Robert's|de Robert]]"],
-          "correctAnswer": 2,
-          "explanation": "Anna es la hija de Robert."
-        }
-      ]
+      "title": "Descripción",
+      "instructions": "Ordena la frase.",
+      "correctSentence": "[[Their|Su]] [[grandmother|abuela]] [[is|es]] [[very|muy]] [[kind|amable]].",
+      "words": ["[[kind|amable]].", "[[very|muy]]", "[[is|es]]", "[[grandmother|abuela]]", "[[Their|Su]]"],
+      "explanation": "Posesivo + Sujeto + Verbo + Adjetivo."
     },
     "audioUrl": "audio/a1/unit-6/e40.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
-
-  // ==========================================
-  // REVIEW & ADDITIONAL VOCAB (41-50)
-  // ==========================================
   {
     "id": "a1-u6-e41",
-    "type": "flashcard",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Extended Family",
+    "topic": "Possessive 's",
     "difficulty": "medium",
-    "transcript": "[[Stepmother|Madrastra]]. [[Stepfather|Padrastro]]. [[Stepsister|Hermastra]]. [[Stepbrother|Hermanastro]]. [[Godmother|Madrina]]. [[Godfather|Padrino]]. [[Grandson|Nieto]]. [[Granddaughter|Nieta]]. [[Grandparents|Abuelos]]. [[Grandchildren|Nietos]].",
+    "transcript": "[[It|Es]] [[is|es]] [[John|de John]] [[and|y]] [[Mary's|de Mary]] [[baby|bebé]].",
     "content": {
-      "title": "Vocabulario: Más Relaciones",
-      "instructions": "Aprende otros términos de familia.",
-      "items": [
-        { "front": "[[Stepmother|Madrastra]]", "back": "Madrastra" },
-        { "front": "[[Stepfather|Padrastro]]", "back": "Padrastro" },
-        { "front": "[[Stepsister|Hermastra]]", "back": "Hermastra" },
-        { "front": "[[Stepbrother|Hermanastro]]", "back": "Hermanastro" },
-        { "front": "[[Godmother|Madrina]]", "back": "Madrina" },
-        { "front": "[[Godfather|Padrino]]", "back": "Padrino" },
-        { "front": "[[Grandson|Nieto]]", "back": "Nieto" },
-        { "front": "[[Granddaughter|Nieta]]", "back": "Nieta" },
-        { "front": "[[Grandparents|Abuelos]]", "back": "Abuelos" },
-        { "front": "[[Grandchildren|Nietos/as]]", "back": "Nietos/as" }
-      ]
+      "title": "Posesión compartida",
+      "instructions": "Cuando algo pertenece a dos personas, ¿dónde ponemos el 's?",
+      "options": ["[[John's and Mary's|incorrecto]]", "[[John and Mary's|al final del segundo nombre]]", "[[John's and Mary|incorrecto]]"],
+      "correctAnswer": 1,
+      "explanation": "Para posesión compartida, el 's va solo en el último nombre."
     },
     "audioUrl": "audio/a1/unit-6/e41.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u6-e42",
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Family Members",
-    "difficulty": "easy",
-    "transcript": "[[My|Mi]] [[mother|madre]] [[and|y]] [[father|padre]] [[are|son]] [[my|mis]] [[parents|padres]].",
+    "difficulty": "medium",
+    "transcript": "[[My|Mi]] [[mother|madre]] [[is|es]] [[the|la]] [[wife|esposa]] [[of|de]] [[my|mi]] [[father|padre]].",
     "content": {
-      "title": "Repaso: Padres",
-      "instructions": "Elige la palabra correcta.",
-      "questions": [
-        {
-          "question": "[[My|Mi]] [[mother|madre]] [[and|y]] [[father|padre]] [[are|son]] [[my|mis]] (_____).",
-          "options": ["[[parents|padres]]", "[[siblings|hermanos]]", "[[grandparents|abuelos]]"],
-          "correctAnswer": 0,
-          "explanation": "'Parents' se refiere a padre y madre."
-        }
-      ]
+      "title": "Relaciones",
+      "instructions": "Completa la lógica.",
+      "options": ["[[sister|hermana]]", "[[wife|esposa]]", "[[aunt|tía]]"],
+      "correctAnswer": 1,
+      "explanation": "La madre es la esposa del padre."
     },
     "audioUrl": "audio/a1/unit-6/e42.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u6-e43",
-    "type": "sentence-building",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Personal Info",
+    "topic": "Possessive Adjectives",
     "difficulty": "medium",
-    "transcript": "[[What|Cuál]] [[is|es]] [[his|su]] [[email|correo]] [[address|dirección]]?",
+    "transcript": "[[She|Ella]] [[lives|vive]] [[with|con]] [[her|su]] [[parents|padres]].",
     "content": {
-      "title": "Repaso: Correo electrónico",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[What|Cuál]] [[is|es]] [[his|su]] [[email|correo]] [[address|dirección]]?",
-      "words": ["[[address|dirección]]?", "[[email|correo]]", "[[What|Cuál]]", "[[is|es]]", "[[his|su]]"],
-      "explanation": "Usamos 'What is...' para pedir una dirección de correo."
+      "title": "Su de ella",
+      "instructions": "Completa con el posesivo de 'she'.",
+      "questions": [
+        {
+          "question": "[[She|Ella]] [[lives|vive]] [[with|con]] (_____) [[parents|padres]].",
+          "correctAnswer": "her",
+          "explanation": "'Her' es el posesivo femenino."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-6/e43.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u6-e44",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Genitive 's",
+    "topic": "Family Members",
     "difficulty": "medium",
-    "transcript": "[[Whose|De quién]] [[book|libro]] [[is|es]] [[this|este]]?",
+    "transcript": "[[I|Yo]] [[am|soy]] [[married|casado]]. [[I|Yo]] [[have|tengo]] [[a|una]] [[wife|esposa]].",
     "content": {
-      "title": "Repaso: Whose",
-      "instructions": "Elige la respuesta correcta.",
-      "questions": [
-        {
-          "question": "[[Whose|De quién]] [[book|libro]] [[is|es]] [[this|este]] [[?|?]]",
-          "options": ["[[It is John's book|Es el libro de John]]", "[[It is a book|Es un libro]]", "[[Yes, it is|Sí, lo es]]"],
-          "correctAnswer": 0,
-          "explanation": "A una pregunta con 'Whose' respondemos indicando el poseedor."
-        }
-      ]
+      "title": "Estado civil",
+      "instructions": "Elige la palabra lógica.",
+      "options": ["[[sister|hermana]]", "[[wife|esposa]]", "[[mother|madre]]"],
+      "correctAnswer": 1,
+      "explanation": "Si un hombre está casado, tiene una esposa."
     },
     "audioUrl": "audio/a1/unit-6/e44.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u6-e45",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Family Members",
-    "difficulty": "easy",
-    "transcript": "[[I|Yo]] [[have|tengo]] [[three|tres]] [[cousins|primos]].",
+    "topic": "Possessive 's",
+    "difficulty": "medium",
+    "transcript": "[[Is|¿Es]] [[this|este]] [[your|tu]] [[father's|del padre]] [[watch|reloj]]?",
     "content": {
-      "title": "Tengo tres primos",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[I|Yo]] [[have|tengo]] [[three|tres]] [[cousins|primos]].",
-      "words": ["[[cousins|primos]].", "[[have|tengo]]", "[[I|Yo]]", "[[three|tres]]"],
-      "explanation": "Estructura: Sujeto + Verbo + Cantidad + Sustantivo."
+      "title": "Pregunta de posesión",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[Is|¿Es]] [[this|este]] [[your|tu]] [[father's|del padre]] [[watch|reloj]]?",
+      "words": ["[[watch|reloj]]?", "[[father's|del padre]]", "[[your|tu]]", "[[this|este]]", "[[Is|¿Es]]"],
+      "explanation": "Verbo + Sujeto + Posesivo + Objeto."
     },
     "audioUrl": "audio/a1/unit-6/e45.mp3",
     "topicName": "Grammar"
@@ -945,37 +823,36 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "id": "a1-u6-e46",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Personal Info",
-    "difficulty": "easy",
-    "transcript": "[[My|Mi]] [[phone|teléfono]] [[number|número]] [[is|es]] [[555-1234|555-1234]].",
+    "topic": "Family Members",
+    "difficulty": "medium",
+    "transcript": "[[He|Él]] [[is|es]] [[my|mi]] [[niece's|de mi sobrina]] [[brother|hermano]]. [[He|Él]] [[is|es]] [[my|mi]] [[nephew|sobrino]].",
     "content": {
-      "title": "Mi número",
-      "instructions": "Elige la palabra que falta.",
-      "questions": [
-        {
-          "question": "[[My|Mi]] [[phone|teléfono]] (_____) [[is|es]] [[555-1234|555-1234]].",
-          "options": ["[[address|dirección]]", "[[number|número]]", "[[surname|apellido]]"],
-          "correctAnswer": 1,
-          "explanation": "'Phone number' es la expresión correcta para número de teléfono."
-        }
-      ]
+      "title": "Parentesco complejo",
+      "instructions": "Si es el hermano de tu sobrina, es tu...",
+      "options": ["[[cousin|primo]]", "[[nephew|sobrino]]", "[[son|hijo]]"],
+      "correctAnswer": 1,
+      "explanation": "Los hijos de tus hermanos son tus sobrinos."
     },
     "audioUrl": "audio/a1/unit-6/e46.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u6-e47",
-    "type": "sentence-building",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Family Members",
+    "topic": "Possessive Adjectives",
     "difficulty": "medium",
-    "transcript": "[[She|Ella]] [[is|es]] [[my|mi]] [[brother's|de mi hermano]] [[wife|esposa]].",
+    "transcript": "[[The|Los]] [[children|niños]] [[are|están]] [[in|en]] [[their|su]] [[room|habitación]].",
     "content": {
-      "title": "La esposa de mi hermano",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[She|Ella]] [[is|es]] [[my|mi]] [[brother's|de mi hermano]] [[wife|esposa]].",
-      "words": ["[[wife|esposa]].", "[[brother's|de mi hermano]]", "[[is|es]]", "[[She|Ella]]", "[[my|mi]]"],
-      "explanation": "La esposa de tu hermano es tu cuñada (sister-in-law)."
+      "title": "Su de ellos",
+      "instructions": "Completa con el posesivo de 'they'.",
+      "questions": [
+        {
+          "question": "[[The|Los]] [[children|niños]] [[are|están]] [[in|en]] (_____) [[room|habitación]].",
+          "correctAnswer": "their",
+          "explanation": "'Their' se usa para referirse a la posesión de ellos/ellas."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-6/e47.mp3",
     "topicName": "Grammar"
@@ -985,84 +862,71 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Family Members",
-    "difficulty": "easy",
-    "transcript": "[[Are|¿Son]] [[they|ellos]] [[your|tus]] [[grandparents|abuelos]]?",
+    "difficulty": "medium",
+    "transcript": "[[A|Una]] [[niece|sobrina]] [[is|es]] [[the|la]] [[daughter|hija]] [[of|de]] [[your|tu]] [[brother|hermano]] [[or|o]] [[sister|hermana]].",
     "content": {
-      "title": "Tus abuelos",
+      "title": "Definición",
       "instructions": "Elige la palabra correcta.",
-      "questions": [
-        {
-          "question": "[[Are|¿Son]] [[they|ellos]] [[your|tus]] (_____)?",
-          "options": ["[[grandparents|abuelos]]", "[[parents|padres]]", "[[cousins|primos]]"],
-          "correctAnswer": 0,
-          "explanation": "'Grandparents' incluye al abuelo y la abuela."
-        }
-      ]
+      "options": ["[[son|hijo]]", "[[daughter|hija]]", "[[mother|madre]]"],
+      "correctAnswer": 1,
+      "explanation": "Niece es la sobrina (femenino)."
     },
     "audioUrl": "audio/a1/unit-6/e48.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u6-e49",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "Family Members",
     "difficulty": "medium",
-    "transcript": "[[She|Ella]] [[is|es]] [[my|mi]] [[granddaughter|nieta]].",
+    "transcript": "[[Are|¿Son]] [[you|vosotros]] [[cousins|primos]]?",
     "content": {
-      "title": "Nietos",
-      "instructions": "Elige la opción correcta.",
-      "questions": [
-        {
-          "question": "[[My|Mi]] [[daughter's|de mi hija]] [[daughter|hija]] [[is|es]] [[my|mi]] (_____).",
-          "options": ["[[niece|sobrina]]", "[[granddaughter|nieta]]", "[[grandson|nieto]]"],
-          "correctAnswer": 1,
-          "explanation": "La hija de tu hijo/a es tu nieta (granddaughter)."
-        }
-      ]
+      "title": "¿Sois primos?",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[Are|¿Son]] [[you|vosotros]] [[cousins|primos]]?",
+      "words": ["[[cousins|primos]]?", "[[you|vosotros]]", "[[Are|¿Son]]"],
+      "explanation": "Verbo + Sujeto + Sustantivo plural."
     },
     "audioUrl": "audio/a1/unit-6/e49.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u6-e50",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
     "topic": "Family Members",
     "difficulty": "medium",
-    "transcript": "[[Is|¿Tiene]] [[their|su]] [[daughter|hija]] [[seven|siete]] [[years|años]] [[old|de edad]]?",
+    "transcript": "[[I|Yo]] [[have|tengo]] [[many|muchos]] [[relatives|parientes]].",
     "content": {
-      "title": "¿Tiene su hija siete años?",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Is|¿Tiene]] [[their|su]] [[daughter|hija]] [[seven|siete]] [[years|años]] [[old|de edad]]?",
-      "words": ["[[old|de edad]]?", "[[daughter|hija]]", "[[Is|¿Tiene]]", "[[seven|siete]]", "[[their|su]]", "[[years|años]]"],
-      "explanation": "Pregunta sobre la edad de un familiar usando posesivos plurales."
+      "title": "Parientes",
+      "instructions": "Elige la palabra que significa 'miembros de la familia'.",
+      "options": ["[[friends|amigos]]", "[[relatives|parientes]]", "[[neighbors|vecinos]]"],
+      "correctAnswer": 1,
+      "explanation": "'Relatives' es el término general para los parientes."
     },
     "audioUrl": "audio/a1/unit-6/e50.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
 
   // ==========================================
   // READING COMPREHENSION (51-60)
+  // Two-phase structure: Text slide + 3 Question slides
   // ==========================================
+
+  // TEXT 1: PETER'S FAMILY
   {
     "id": "a1-u6-e51",
-    "type": "multiple-choice",
+    "type": "reading",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "medium",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
     "transcript": "[[Hello|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Peter|Peter]]. [[I|Yo]] [[want|quiero]] [[to|a]] [[tell|decir]] [[you|te]] [[about|sobre]] [[my|mi]] [[family|familia]]. [[My|Mi]] [[father's|del padre]] [[name|nombre]] [[is|es]] [[Robert|Robert]]. [[He|Él]] [[is|tiene]] [[55|55]] [[years|años]] [[old|de edad]] [[and|y]] [[he|él]] [[is|es]] [[an|un]] [[engineer|ingeniero]]. [[My|Mi]] [[mother's|de la madre]] [[name|nombre]] [[is|es]] [[Sarah|Sarah]]. [[She|Ella]] [[is|tiene]] [[52|52]] [[and|y]] [[she|ella]] [[is|es]] [[a|una]] [[nurse|enfermera]]. [[I|Yo]] [[have|tengo]] [[two|dos]] [[sisters|hermanas]], [[Anna|Anna]] [[and|y]] [[Mary|Mary]]. [[Anna|Anna]] [[is|tiene]] [[20|20]] [[and|y]] [[Mary|Mary]] [[is|tiene]] [[18|18]]. [[They|Ellas]] [[are|son]] [[students|estudiantes]]. [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[dog|perro]]. [[Its|Su]] [[name|nombre]] [[is|es]] [[Rex|Rex]]. [[We|Nosotros]] [[are|somos]] [[a|una]] [[very|muy]] [[happy|feliz]] [[family|familia]].",
     "content": {
       "title": "Lectura: La Familia de Peter",
-      "instructions": "Lee el texto atentamente en la pantalla anterior y responde.",
-      "questions": [
-        {
-          "question": "[[Who|Quién]] [[is|es]] [[the|la]] [[youngest|más joven]] [[person|persona]] [[mentioned|mencionada]] [[in|en]] [[the|la]] [[family|familia]]?",
-          "options": ["[[Anna|Anna]]", "[[Peter|Peter]]", "[[Mary|Mary]]"],
-          "correctAnswer": 2,
-          "explanation": "Mary tiene 18 años, mientras que Anna tiene 20. El texto no menciona la edad de Peter pero Mary es la menor de las hermanas."
-        }
-      ]
+      "instructions": "Lee el texto atentamente y prepárate para las preguntas.",
+      "text": "Hello! My name is Peter. I want to tell you about my family. My father's name is Robert. He is 55 years old and he is an engineer. My mother's name is Sarah. She is 52 and she is a nurse. I have two sisters, Anna and Mary. Anna is 20 and Mary is 18. They are students. We have a dog. Its name is Rex. We are a very happy family.",
+      "questions": []
     },
     "audioUrl": "audio/a1/unit-6/e51.mp3",
     "topicName": "Reading"
@@ -1071,20 +935,15 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "id": "a1-u6-e52",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "medium",
-    "transcript": "[[Hello|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Peter|Peter]]. [[I|Yo]] [[want|quiero]] [[to|a]] [[tell|decir]] [[you|te]] [[about|sobre]] [[my|mi]] [[family|familia]]. [[My|Mi]] [[father's|del padre]] [[name|nombre]] [[is|es]] [[Robert|Robert]]. [[He|Él]] [[is|tiene]] [[55|55]] [[years|años]] [[old|de edad]] [[and|y]] [[he|él]] [[is|es]] [[an|un]] [[engineer|ingeniero]]. [[My|Mi]] [[mother's|de la madre]] [[name|nombre]] [[is|es]] [[Sarah|Sarah]]. [[She|Ella]] [[is|tiene]] [[52|52]] [[and|y]] [[she|ella]] [[is|es]] [[a|una]] [[nurse|enfermera]]. [[I|Yo]] [[have|tengo]] [[two|dos]] [[sisters|hermanas]], [[Anna|Anna]] [[and|y]] [[Mary|Mary]]. [[Anna|Anna]] [[is|tiene]] [[20|20]] [[and|y]] [[Mary|Mary]] [[is|tiene]] [[18|18]]. [[They|Ellas]] [[are|son]] [[students|estudiantes]]. [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[dog|perro]]. [[Its|Su]] [[name|nombre]] [[is|es]] [[Rex|Rex]]. [[We|Nosotros]] [[are|somos]] [[a|una]] [[very|muy]] [[happy|feliz]] [[family|familia]].",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[How|Cuántas]] [[many|muchas]] [[sisters|hermanas]] [[does|tiene]] [[Peter|Peter]] [[have|tener]]?",
     "content": {
-      "title": "Lectura: La Familia de Peter",
-      "instructions": "Lee el texto atentamente en la pantalla anterior y responde.",
-      "questions": [
-        {
-          "question": "[[What|Cuál]] [[is|es]] [[the|la]] [[relationship|relación]] [[between|entre]] [[Anna|Anna]] [[and|y]] [[Mary|Mary]]?",
-          "options": ["[[They are friends|Son amigas]]", "[[They are sisters|Son hermanas]]", "[[They are mother and daughter|Son madre e hija]]"],
-          "correctAnswer": 1,
-          "explanation": "Peter dice: 'I have two sisters, Anna and Mary'."
-        }
-      ]
+      "title": "Pregunta 1",
+      "instructions": "Responde según el texto anterior.",
+      "options": ["[[One|Una]]", "[[Two|Dos]]", "[[Three|Tres]]"],
+      "correctAnswer": 1,
+      "explanation": "Peter dice: 'I have two sisters, Anna and Mary'."
     },
     "audioUrl": "audio/a1/unit-6/e52.mp3",
     "topicName": "Reading"
@@ -1093,20 +952,15 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "id": "a1-u6-e53",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "medium",
-    "transcript": "[[Hello|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Peter|Peter]]. [[I|Yo]] [[want|quiero]] [[to|a]] [[tell|decir]] [[you|te]] [[about|sobre]] [[my|mi]] [[family|familia]]. [[My|Mi]] [[father's|del padre]] [[name|nombre]] [[is|es]] [[Robert|Robert]]. [[He|Él]] [[is|tiene]] [[55|55]] [[years|años]] [[old|de edad]] [[and|y]] [[he|él]] [[is|es]] [[an|un]] [[engineer|ingeniero]]. [[My|Mi]] [[mother's|de la madre]] [[name|nombre]] [[is|es]] [[Sarah|Sarah]]. [[She|Ella]] [[is|tiene]] [[52|52]] [[and|y]] [[she|ella]] [[is|es]] [[a|una]] [[nurse|enfermera]]. [[I|Yo]] [[have|tengo]] [[two|dos]] [[sisters|hermanas]], [[Anna|Anna]] [[and|y]] [[Mary|Mary]]. [[Anna|Anna]] [[is|tiene]] [[20|20]] [[and|y]] [[Mary|Mary]] [[is|tiene]] [[18|18]]. [[They|Ellas]] [[are|son]] [[students|estudiantes]]. [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[dog|perro]]. [[Its|Su]] [[name|nombre]] [[is|es]] [[Rex|Rex]]. [[We|Nosotros]] [[are|somos]] [[a|una]] [[very|muy]] [[happy|feliz]] [[family|familia]].",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[What|Cuál]] [[is|es]] [[Robert's|de Robert]] [[job|trabajo]]?",
     "content": {
-      "title": "Lectura: La Familia de Peter",
-      "instructions": "Lee el texto atentamente en la pantalla anterior y responde.",
-      "questions": [
-        {
-          "question": "[[How|Cómo]] [[can|podemos]] [[we|nosotros]] [[describe|describir]] [[Peter's|la familia de Peter]] [[family|familia]]?",
-          "options": ["[[They are a small family|Son una familia pequeña]]", "[[They live in a big city|Viven en una gran ciudad]]", "[[They are happy|Son felices]]"],
-          "correctAnswer": 2,
-          "explanation": "Peter termina diciendo: 'We are a very happy family'."
-        }
-      ]
+      "title": "Pregunta 2",
+      "instructions": "Responde según el texto anterior.",
+      "options": ["[[Doctor|Médico]]", "[[Engineer|Ingeniero]]", "[[Teacher|Profesor]]"],
+      "correctAnswer": 1,
+      "explanation": "El texto menciona: 'he is an engineer'."
     },
     "audioUrl": "audio/a1/unit-6/e53.mp3",
     "topicName": "Reading"
@@ -1115,42 +969,33 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "id": "a1-u6-e54",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "medium",
-    "transcript": "[[Hello|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Peter|Peter]]. [[I|Yo]] [[want|quiero]] [[to|a]] [[tell|decir]] [[you|te]] [[about|sobre]] [[my|mi]] [[family|familia]]. [[My|Mi]] [[father's|del padre]] [[name|nombre]] [[is|es]] [[Robert|Robert]]. [[He|Él]] [[is|tiene]] [[55|55]] [[years|años]] [[old|de edad]] [[and|y]] [[he|él]] [[is|es]] [[an|un]] [[engineer|ingeniero]]. [[My|Mi]] [[mother's|de la madre]] [[name|nombre]] [[is|es]] [[Sarah|Sarah]]. [[She|Ella]] [[is|tiene]] [[52|52]] [[and|y]] [[she|ella]] [[is|es]] [[a|una]] [[nurse|enfermera]]. [[I|Yo]] [[have|tengo]] [[two|dos]] [[sisters|hermanas]], [[Anna|Anna]] [[and|y]] [[Mary|Mary]]. [[Anna|Anna]] [[is|tiene]] [[20|20]] [[and|y]] [[Mary|Mary]] [[is|tiene]] [[18|18]]. [[They|Ellas]] [[are|son]] [[students|estudiantes]]. [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[dog|perro]]. [[Its|Su]] [[name|nombre]] [[is|es]] [[Rex|Rex]]. [[We|Nosotros]] [[are|somos]] [[a|una]] [[very|muy]] [[happy|feliz]] [[family|familia]].",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[What|Cómo]] [[is|se llama]] [[the|el]] [[dog's|del perro]] [[name|nombre]]?",
     "content": {
-      "title": "Lectura: La Familia de Peter",
-      "instructions": "Lee el texto atentamente en la pantalla anterior y responde.",
-      "questions": [
-        {
-          "question": "[[Which|Cuál]] [[of|de]] [[these|estas]] [[statements|afirmaciones]] [[is|es]] [[true|verdadera]] [[about|sobre]] [[Robert|Robert]]?",
-          "options": ["[[He helps sick people in a hospital|Ayuda a personas enfermas (nurse)]]", "[[He works with machines or structures|Trabaja con máquinas o estructuras (engineer)]]", "[[He is a student|Es estudiante]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice que Robert es 'engineer' (ingeniero)."
-        }
-      ]
+      "title": "Pregunta 3",
+      "instructions": "Responde según el texto anterior.",
+      "options": ["[[Max|Max]]", "[[Rex|Rex]]", "[[Felix|Felix]]"],
+      "correctAnswer": 1,
+      "explanation": "El perro se llama Rex."
     },
     "audioUrl": "audio/a1/unit-6/e54.mp3",
     "topicName": "Reading"
   },
+
+  // TEXT 2: LINDA'S FAMILY
   {
     "id": "a1-u6-e55",
-    "type": "multiple-choice",
+    "type": "reading",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "medium",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
     "transcript": "[[Hi|Hola]], [[I'm|yo soy]] [[Linda|Linda]]. [[My|Mi]] [[family|familia]] [[is|es]] [[quite|bastante]] [[big|grande]]. [[I|Yo]] [[live|vivo]] [[with|con]] [[my|mis]] [[parents|padres]], [[my|mis]] [[two|dos]] [[brothers|hermanos]], [[and|y]] [[my|mi]] [[grandmother|abuela]]. [[My|Mis]] [[parents|padres]] [[are|son]] [[both|ambos]] [[teachers|profesores]] [[at|en]] [[a|una]] [[local|local]] [[school|escuela]]. [[My|Mi]] [[older|mayor]] [[brother|hermano]], [[Sam|Sam]], [[is|tiene]] [[25|25]] [[and|y]] [[he|él]] [[is|es]] [[a|un]] [[chef|cocinero]]. [[My|Mi]] [[younger|menor]] [[brother|hermano]], [[Tom|Tom]], [[is|tiene]] [[15|15]] [[and|y]] [[he|él]] [[is|es]] [[a|un]] [[student|estudiante]]. [[My|Mi]] [[grandmother|abuela]], [[Alice|Alice]], [[is|tiene]] [[80|80]] [[years|años]] [[old|de edad]]. [[She|Ella]] [[is|es]] [[very|muy]] [[active|activa]] [[and|y]] [[loves|ama]] [[gardening|la jardinería]]. [[We|Nosotros]] [[live|vivimos]] [[in|en]] [[a|una]] [[large|grande]] [[house|casa]] [[with|con]] [[a|un]] [[beautiful|hermoso]] [[garden|jardín]].",
     "content": {
       "title": "Lectura: La Familia de Linda",
-      "instructions": "Lee el texto atentamente en la pantalla anterior y responde.",
-      "questions": [
-        {
-          "question": "[[What|Cuál]] [[is|es]] [[Alice's|el hobby de Alice]] [[favorite|favorito]] [[activity|actividad]]?",
-          "options": ["[[Cooking for the family|Cocinar para la familia]]", "[[Teaching at school|Enseñar en la escuela]]", "[[Taking care of the garden|Cuidar el jardín]]"],
-          "correctAnswer": 2,
-          "explanation": "El texto dice: 'loves gardening' (le encanta la jardinería)."
-        }
-      ]
+      "instructions": "Lee sobre la familia de Linda.",
+      "text": "Hi, I'm Linda. My family is quite big. I live with my parents, my two brothers, and my grandmother. My parents are both teachers at a local school. My older brother, Sam, is 25 and he is a chef. My younger brother, Tom, is 15 and he is a student. My grandmother, Alice, is 80 years old. She is very active and loves gardening. We live in a large house with a beautiful garden.",
+      "questions": []
     },
     "audioUrl": "audio/a1/unit-6/e55.mp3",
     "topicName": "Reading"
@@ -1159,20 +1004,15 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "id": "a1-u6-e56",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "medium",
-    "transcript": "[[Hi|Hola]], [[I'm|yo soy]] [[Linda|Linda]]. [[My|Mi]] [[family|familia]] [[is|es]] [[quite|bastante]] [[big|grande]]. [[I|Yo]] [[live|vivo]] [[with|con]] [[my|mis]] [[parents|padres]], [[my|mis]] [[two|dos]] [[brothers|hermanos]], [[and|y]] [[my|mi]] [[grandmother|abuela]]. [[My|Mis]] [[parents|padres]] [[are|son]] [[both|ambos]] [[teachers|profesores]] [[at|en]] [[a|una]] [[local|local]] [[school|escuela]]. [[My|Mi]] [[older|mayor]] [[brother|hermano]], [[Sam|Sam]], [[is|tiene]] [[25|25]] [[and|y]] [[he|él]] [[is|es]] [[a|un]] [[chef|cocinero]]. [[My|Mi]] [[younger|menor]] [[brother|hermano]], [[Tom|Tom]], [[is|tiene]] [[15|15]] [[and|y]] [[he|él]] [[is|es]] [[a|un]] [[student|estudiante]]. [[My|Mi]] [[grandmother|abuela]], [[Alice|Alice]], [[is|tiene]] [[80|80]] [[years|años]] [[old|de edad]]. [[She|Ella]] [[is|es]] [[very|muy]] [[active|activa]] [[and|y]] [[loves|ama]] [[gardening|la jardinería]]. [[We|Nosotros]] [[live|vivimos]] [[in|en]] [[a|una]] [[large|grande]] [[house|casa]] [[with|con]] [[a|un]] [[beautiful|hermoso]] [[garden|jardín]].",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[Who|Con quién]] [[does|vive]] [[Linda|Linda]] [[live|vivir]] [[with|con]]?",
     "content": {
-      "title": "Lectura: La Familia de Linda",
-      "instructions": "Lee el texto atentamente en la pantalla anterior y responde.",
-      "questions": [
-        {
-          "question": "[[How|Cuántas]] [[many|muchas]] [[generations|generaciones]] [[live|viven]] [[together|juntas]] [[in|en]] [[Linda's|la casa de Linda]] [[house|casa]]?",
-          "options": ["[[Two generations|Dos generaciones]]", "[[Three generations|Tres generaciones]]", "[[One generation|Una generación]]"],
-          "correctAnswer": 1,
-          "explanation": "Viven Linda y sus hermanos (1), sus padres (2) y su abuela (3)."
-        }
-      ]
+      "title": "Pregunta 1",
+      "instructions": "Selecciona la respuesta correcta.",
+      "options": ["[[With her parents and brothers|Con sus padres y hermanos]]", "[[With her friends|Con sus amigos]]", "[[With her parents, brothers and grandmother|Con sus padres, hermanos y abuela]]"],
+      "correctAnswer": 2,
+      "explanation": "Linda menciona que vive con sus padres, dos hermanos y su abuela."
     },
     "audioUrl": "audio/a1/unit-6/e56.mp3",
     "topicName": "Reading"
@@ -1181,20 +1021,15 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "id": "a1-u6-e57",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "medium",
-    "transcript": "[[Hi|Hola]], [[I'm|yo soy]] [[Linda|Linda]]. [[My|Mi]] [[family|familia]] [[is|es]] [[quite|bastante]] [[big|grande]]. [[I|Yo]] [[live|vivo]] [[with|con]] [[my|mis]] [[parents|padres]], [[my|mis]] [[two|dos]] [[brothers|hermanos]], [[and|y]] [[my|mi]] [[grandmother|abuela]]. [[My|Mis]] [[parents|padres]] [[are|son]] [[both|ambos]] [[teachers|profesores]] [[at|en]] [[a|una]] [[local|local]] [[school|escuela]]. [[My|Mi]] [[older|mayor]] [[brother|hermano]], [[Sam|Sam]], [[is|tiene]] [[25|25]] [[and|y]] [[he|él]] [[is|es]] [[a|un]] [[chef|cocinero]]. [[My|Mi]] [[younger|menor]] [[brother|hermano]], [[Tom|Tom]], [[is|tiene]] [[15|15]] [[and|y]] [[he|él]] [[is|es]] [[a|un]] [[student|estudiante]]. [[My|Mi]] [[grandmother|abuela]], [[Alice|Alice]], [[is|tiene]] [[80|80]] [[years|años]] [[old|de edad]]. [[She|Ella]] [[is|es]] [[very|muy]] [[active|activa]] [[and|y]] [[loves|ama]] [[gardening|la jardinería]]. [[We|Nosotros]] [[live|vivimos]] [[in|en]] [[a|una]] [[large|grande]] [[house|casa]] [[with|con]] [[a|un]] [[beautiful|hermoso]] [[garden|jardín]].",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[What|Cuál]] [[is|es]] [[Sam's|el trabajo de Sam]] [[job|trabajo]]?",
     "content": {
-      "title": "Lectura: La Familia de Linda",
-      "instructions": "Lee el texto atentamente en la pantalla anterior y responde.",
-      "questions": [
-        {
-          "question": "[[Where|Dónde]] [[do|trabajan]] [[Linda's|los padres de Linda]] [[parents|padres]] [[work|trabajar]]?",
-          "options": ["[[At a local school|En una escuela local]]", "[[In a restaurant|En un restaurante]]", "[[In a garden|En un jardín]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice: 'My parents are both teachers at a local school'."
-        }
-      ]
+      "title": "Pregunta 2",
+      "instructions": "Selecciona la respuesta correcta.",
+      "options": ["[[He is a teacher|Es profesor]]", "[[He is a chef|Es cocinero]]", "[[He is a student|Es estudiante]]"],
+      "correctAnswer": 1,
+      "explanation": "El texto dice que Sam es chef."
     },
     "audioUrl": "audio/a1/unit-6/e57.mp3",
     "topicName": "Reading"
@@ -1203,42 +1038,33 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "id": "a1-u6-e58",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "medium",
-    "transcript": "[[Hi|Hola]], [[I'm|yo soy]] [[Linda|Linda]]. [[My|Mi]] [[family|familia]] [[is|es]] [[quite|bastante]] [[big|grande]]. [[I|Yo]] [[live|vivo]] [[with|con]] [[my|mis]] [[parents|padres]], [[my|mis]] [[two|dos]] [[brothers|hermanos]], [[and|y]] [[my|mi]] [[grandmother|abuela]]. [[My|Mis]] [[parents|padres]] [[are|son]] [[both|ambos]] [[teachers|profesores]] [[at|en]] [[a|una]] [[local|local]] [[school|escuela]]. [[My|Mi]] [[older|mayor]] [[brother|hermano]], [[Sam|Sam]], [[is|tiene]] [[25|25]] [[and|y]] [[he|él]] [[is|es]] [[a|un]] [[chef|cocinero]]. [[My|Mi]] [[younger|menor]] [[brother|hermano]], [[Tom|Tom]], [[is|tiene]] [[15|15]] [[and|y]] [[he|él]] [[is|es]] [[a|un]] [[student|estudiante]]. [[My|Mi]] [[grandmother|abuela]], [[Alice|Alice]], [[is|tiene]] [[80|80]] [[years|años]] [[old|de edad]]. [[She|Ella]] [[is|es]] [[very|muy]] [[active|activa]] [[and|y]] [[loves|ama]] [[gardening|la jardinería]]. [[We|Nosotros]] [[live|vivimos]] [[in|en]] [[a|una]] [[large|grande]] [[house|casa]] [[with|con]] [[a|un]] [[beautiful|hermoso]] [[garden|jardín]].",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[How|Qué edad]] [[old|tiene]] [[is|tiene]] [[Alice|Alice]]?",
     "content": {
-      "title": "Lectura: La Familia de Linda",
-      "instructions": "Lee el texto atentamente en la pantalla anterior y responde.",
-      "questions": [
-        {
-          "question": "[[What|Cuál]] [[is|es]] [[the|la]] [[age|edad]] [[difference|diferencia]] [[between|entre]] [[Sam|Sam]] [[and|y]] [[Tom|Tom]]?",
-          "options": ["[[5 years|5 años]]", "[[10 years|10 años]]", "[[15 years|15 años]]"],
-          "correctAnswer": 1,
-          "explanation": "Sam tiene 25 y Tom tiene 15. La diferencia es de 10 años."
-        }
-      ]
+      "title": "Pregunta 3",
+      "instructions": "Selecciona la respuesta correcta.",
+      "options": ["[[Seventy|Setenta]]", "[[Eighty|Ochenta]]", "[[Sixty|Sesenta]]"],
+      "correctAnswer": 1,
+      "explanation": "El texto indica que Alice tiene 80 años."
     },
     "audioUrl": "audio/a1/unit-6/e58.mp3",
     "topicName": "Reading"
   },
+
+  // TEXT 3: THE MILLER FAMILY
   {
     "id": "a1-u6-e59",
-    "type": "multiple-choice",
+    "type": "reading",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "medium",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
     "transcript": "[[The|La]] [[Miller|Miller]] [[family|familia]] [[lives|vive]] [[in|en]] [[New York|Nueva York]]. [[Mr.|Sr.]] [[Miller|Miller]] [[is|es]] [[a|un]] [[lawyer|abogado]] [[and|y]] [[Mrs.|Sra.]] [[Miller|Miller]] [[is|es]] [[an|una]] [[artist|artista]]. [[They|Ellos]] [[have|tienen]] [[one|un]] [[son|hijo]], [[Leo|Leo]], [[and|y]] [[one|una]] [[daughter|hija]], [[Mia|Mia]]. [[Leo|Leo]] [[is|tiene]] [[12|12]] [[and|y]] [[Mia|Mia]] [[is|tiene]] [[9|9]]. [[They|Ellos]] [[also|también]] [[have|tienen]] [[a|un]] [[cat|gato]] [[named|llamado]] [[Luna|Luna]]. [[Every|Cada]] [[Sunday|domingo]], [[the|la]] [[family|familia]] [[visits|visita]] [[the|a los]] [[grandparents|abuelos]] [[in|en]] [[the|el]] [[countryside|campo]]. [[They|Ellos]] [[love|aman]] [[spending|pasar]] [[time|tiempo]] [[together|juntos]] [[outdoors|al aire libre]].",
     "content": {
       "title": "Lectura: La Familia Miller",
-      "instructions": "Lee el texto atentamente en la pantalla anterior y responde.",
-      "questions": [
-        {
-          "question": "[[Where|Dónde]] [[do|viven]] [[the|los]] [[grandparents|abuelos]] [[live|vivir]]?",
-          "options": ["[[In New York|En Nueva York]]", "[[In a big house|En una casa grande]]", "[[In the countryside|En el campo]]"],
-          "correctAnswer": 2,
-          "explanation": "El texto dice: 'the family visits the grandparents in the countryside'."
-        }
-      ]
+      "instructions": "Lee el último texto.",
+      "text": "The Miller family lives in New York. Mr. Miller is a lawyer and Mrs. Miller is an artist. They have one son, Leo, and one daughter, Mia. Leo is 12 and Mia is 9. They also have a cat named Luna. Every Sunday, the family visits the grandparents in the countryside. They love spending time together outdoors.",
+      "questions": []
     },
     "audioUrl": "audio/a1/unit-6/e59.mp3",
     "topicName": "Reading"
@@ -1247,20 +1073,15 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "id": "a1-u6-e60",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "medium",
-    "transcript": "[[The|La]] [[Miller|Miller]] [[family|familia]] [[lives|vive]] [[in|en]] [[New York|Nueva York]]. [[Mr.|Sr.]] [[Miller|Miller]] [[is|es]] [[a|un]] [[lawyer|abogado]] [[and|y]] [[Mrs.|Sra.]] [[Miller|Miller]] [[is|es]] [[an|una]] [[artist|artista]]. [[They|Ellos]] [[have|tienen]] [[one|un]] [[son|hijo]], [[Leo|Leo]], [[and|y]] [[one|una]] [[daughter|hija]], [[Mia|Mia]]. [[Leo|Leo]] [[is|tiene]] [[12|12]] [[and|y]] [[Mia|Mia]] [[is|tiene]] [[9|9]]. [[They|Ellos]] [[also|también]] [[have|tienen]] [[a|un]] [[cat|gato]] [[named|llamado]] [[Luna|Luna]]. [[Every|Cada]] [[Sunday|domingo]], [[the|la]] [[family|familia]] [[visits|visita]] [[the|a los]] [[grandparents|abuelos]] [[in|en]] [[the|el]] [[countryside|campo]]. [[They|Ellos]] [[love|aman]] [[spending|pasar]] [[time|tiempo]] [[together|juntos]] [[outdoors|al aire libre]].",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[When|Cuándo]] [[do|aux]] [[they|ellos]] [[visit|visitan]] [[their|a sus]] [[grandparents|abuelos]]?",
     "content": {
-      "title": "Lectura: La Familia Miller",
-      "instructions": "Lee el texto atentamente en la pantalla anterior y responde.",
-      "questions": [
-        {
-          "question": "[[What|Qué]] [[does|hace]] [[Mrs. Miller|la Sra. Miller]] [[do|hacer]]?",
-          "options": ["[[She is a lawyer|Es abogada]]", "[[She is an artist|Es artista]]", "[[She is a student|Es estudiante]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto menciona: 'Mrs. Miller is an artist'."
-        }
-      ]
+      "title": "Pregunta Final",
+      "instructions": "Responde según el texto.",
+      "options": ["[[On Saturdays|Los sábados]]", "[[On Sundays|Los domingos]]", "[[Every day|Todos los días]]"],
+      "correctAnswer": 1,
+      "explanation": "El texto dice que visitan a los abuelos cada domingo."
     },
     "audioUrl": "audio/a1/unit-6/e60.mp3",
     "topicName": "Reading"

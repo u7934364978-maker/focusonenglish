@@ -7,626 +7,612 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Module 1 Review",
     "difficulty": "easy",
-    "transcript": "Hello. Goodbye. Name. Age. Student. Teacher.",
+    "transcript": "Student. Teacher. Spain. Spanish. Happy. Sad. Pen. Book. Father. Mother. Red. Blue. Doctor. Nurse.",
     "content": {
-      "title": "Repaso de Saludos y Datos",
-      "instructions": "Repasa el vocabulario básico de la Unidad 1.",
+      "title": "[[Module|Módulo]] 1 [[Review|Repaso]]",
+      "instructions": "[[Review|Repasa]] [[the|las]] [[most|más]] [[important|importantes]] [[words|palabras]] [[from|de]] [[Module|Módulo]] 1.",
       "items": [
-        { "front": "[[Hello|Hola]]", "back": "Hola" },
-        { "front": "[[Goodbye|Adiós]]", "back": "Adiós" },
-        { "front": "[[Name|Nombre]]", "back": "Nombre" },
-        { "front": "[[Age|Edad]]", "back": "Edad" },
-        { "front": "[[Student|Estudiante]]", "back": "Estudiante" },
-        { "front": "[[Teacher|Profesor/a]]", "back": "Profesor/a" }
+        { "front": "[[Student|Estudiante]] / [[Teacher|Profesor/a]]", "back": "Estudiante / Profesor" },
+        { "front": "[[Country|País]] / [[Nationality|Nacionalidad]]", "back": "País / Nacionalidad" },
+        { "front": "[[Happy|Feliz]] / [[Sad|Triste]]", "back": "Feliz / Triste" },
+        { "front": "[[Pen|Bolígrafo]] / [[Book|Libro]]", "back": "Bolígrafo / Libro" },
+        { "front": "[[Parents|Padres]] / [[Children|Hijos]]", "back": "Padres / Hijos" },
+        { "front": "[[Red|Rojo]] / [[Blue|Azul]]", "back": "Rojo / Azul" },
+        { "front": "[[Doctor|Médico]] / [[Nurse|Enfermero/a]]", "back": "Médico / Enfermero" }
       ]
     },
-    "audioUrl": "audio/a1/unit-10/e1.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u10-e2",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "To Be (Units 2 & 3)",
+    "topic": "Verb To Be",
     "difficulty": "easy",
-    "transcript": "I am not a doctor. I am a student.",
+    "transcript": "I am a student and she is a teacher.",
     "content": {
-      "title": "Verbo To Be: Afirmación y Negación",
-      "instructions": "Elige la forma correcta del verbo.",
+      "title": "[[Verb|Verbo]] '[[to be|ser/estar]]'",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[combination|combinación]].",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[not|no]] [[a|un]] [[doctor|médico]].",
-          "options": ["[[am|soy]]", "[[is|es]]", "[[are|eres]]"],
-          "correctAnswer": 0,
-          "explanation": "Con 'I' usamos 'am'."
-        },
-        {
-          "question": "[[She|Ella]] (_____) [[my|mi]] [[sister|hermana]].",
-          "options": ["[[is|es]]", "[[am|soy]]", "[[are|son]]"],
-          "correctAnswer": 0,
-          "explanation": "Con 'She' usamos 'is'."
+          "question": "[[I|Yo]] _______ [[a|un]] [[student|estudiante]] [[and|y]] [[she|ella]] _______ [[a|un/una]] [[teacher|profesor/a]].",
+          "options": ["[[am / are|soy / son]]", "[[am / is|soy / es]]", "[[is / am|es / soy]]"],
+          "correctAnswer": 1,
+          "explanation": "[[I|Yo]] [[am|soy]], [[She|Ella]] [[is|es]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-10/e2.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u10-e3",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Numbers & Objects (Unit 4)",
+    "topic": "Nationalities",
     "difficulty": "easy",
-    "transcript": "There are five pens on the desk.",
+    "transcript": "Are they from Mexico? No, they are Spanish.",
     "content": {
-      "title": "Números y Objetos",
-      "instructions": "¿Cuántos objetos hay?",
+      "title": "[[Nationalities|Nacionalidades]]",
+      "instructions": "[[Complete|Completa]] [[the|el]] [[dialogue|diálogo]].",
       "questions": [
         {
-          "question": "[[There|Hay]] [[are|son]] (5) (_____) [[on|en]] [[the|el]] [[desk|escritorio]].",
-          "options": ["[[five pens|cinco bolígrafos]]", "[[four pens|cuatro bolígrafos]]", "[[six pens|seis bolígrafos]]"],
-          "correctAnswer": 0,
-          "explanation": "Five es el número 5."
+          "question": "_______ [[they|ellos]] [[from|de]] [[Mexico|México]]?",
+          "options": ["[[Is|Es]]", "[[Are|Son]]", "[[Am|Soy]]"],
+          "correctAnswer": 1,
+          "explanation": "[[Are|Son]] [[they|ellos]]...?"
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-10/e3.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u10-e4",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Present Simple Actions (Unit 5)",
+    "topic": "Emotions",
     "difficulty": "easy",
-    "transcript": "We work in an office.",
+    "transcript": "We are very tired today.",
     "content": {
-      "title": "Acciones Cotidianas",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[We|Nosotros]] [[work|trabajamos]] [[in|en]] [[an|una]] [[office|oficina]].",
-      "words": ["[[office|oficina]].", "[[an|una]]", "[[in|en]]", "[[work|trabajamos]]", "[[We|Nosotros]]"],
-      "explanation": "Sujeto + Verbo + Lugar."
+      "title": "[[Emotions|Emociones]]",
+      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]].",
+      "correctSentence": "[[We|Nosotros]] [[are|estamos]] [[very|muy]] [[tired|cansados]] [[today|hoy]].",
+      "words": ["[[today|hoy]].", "[[tired|cansados]]", "[[very|muy]]", "[[are|estamos]]", "[[We|Nosotros]]"],
+      "explanation": "[[Subject|Sujeto]] + [[verb|verbo]] + [[adverb|adverbio]] + [[adjective|adjetivo]]."
     },
-    "audioUrl": "audio/a1/unit-10/e4.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u10-e5",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Family Members (Unit 6)",
+    "topic": "Articles",
     "difficulty": "easy",
-    "transcript": "This is my father. His name is Peter.",
+    "transcript": "This is an apple and that is a banana.",
     "content": {
-      "title": "Mi Familia",
-      "instructions": "Elige la relación correcta.",
+      "title": "[[Articles|Artículos]] [[A/An|A/An]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
       "questions": [
         {
-          "question": "[[My|Mi]] [[mother's|de mi madre]] [[husband|esposo]] [[is|es]] [[my|mi]] (_____) .",
-          "options": ["[[father|padre]]", "[[brother|hermano]]", "[[uncle|tío]]"],
-          "correctAnswer": 0,
-          "explanation": "El esposo de mi madre es mi padre."
+          "question": "[[This|Esto]] [[is|es]] _______ [[apple|manzana]].",
+          "options": ["[[a|una]]", "[[an|una]]", "[[the|la]]"],
+          "correctAnswer": 1,
+          "explanation": "[[Use|Usa]] '[[an|an]]' [[before|antes de]] [[vowels|vocales]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-10/e5.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u10-e6",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Colors & Descriptions (Unit 7)",
+    "topic": "Possessive 's",
     "difficulty": "easy",
-    "transcript": "I have a red car.",
+    "transcript": "Where is Peter's book?",
     "content": {
-      "title": "Colores",
-      "instructions": "Elige el adjetivo correcto.",
-      "questions": [
-        {
-          "question": "[[The|El]] [[apple|manzana]] [[is|es]] (_____) .",
-          "options": ["[[red|roja]]", "[[blue|azul]]", "[[black|negra]]"],
-          "correctAnswer": 0,
-          "explanation": "Las manzanas suelen ser rojas."
-        }
-      ]
+      "title": "[[Possessive|Posesivo]] 's",
+      "instructions": "[[Order|Ordena]] [[the|la]] [[question|pregunta]].",
+      "correctSentence": "[[Where|Dónde]] [[is|está]] [[Peter's|de Peter]] [[book|libro]]?",
+      "words": ["[[book|libro]]?", "[[Peter's|de Peter]]", "[[is|está]]", "[[Where|Dónde]]"],
+      "explanation": "[[Where|Dónde]] + [[is|está]] + [[object|objeto]] [[of|de]] [[Peter|Peter]]."
     },
-    "audioUrl": "audio/a1/unit-10/e6.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u10-e7",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Numbers 20-100 (Unit 8)",
+    "topic": "Colors",
     "difficulty": "easy",
-    "transcript": "He is twenty-five years old.",
+    "transcript": "My new car is blue.",
     "content": {
-      "title": "Números Grandes",
-      "instructions": "Identifica el número 25.",
+      "title": "[[Colors|Colores]]",
+      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|oración]].",
       "questions": [
         {
-          "question": "[[He|Él]] [[is|tiene]] (25) (_____) [[years|años]] [[old|de edad]].",
-          "options": ["[[twenty-five|veinticinco]]", "[[thirty-five|treinta y cinco]]", "[[fifteen|quince]]"],
+          "question": "[[My|Mi]] [[new|nuevo]] [[car|coche]] [[is|es]] _______.",
+          "options": ["[[blue|azul]]", "[[happy|feliz]]", "[[Spanish|español]]"],
           "correctAnswer": 0,
-          "explanation": "25 se dice 'twenty-five'."
+          "explanation": "[[Blue|Azul]] [[is|es]] [[a|un]] [[color|color]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-10/e7.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u10-e8",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Jobs (Unit 9)",
+    "topic": "Numbers",
     "difficulty": "easy",
-    "transcript": "She is an engineer.",
+    "transcript": "I am thirty years old.",
     "content": {
-      "title": "Profesiones",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[She|Ella]] [[is|es]] [[an|una]] [[engineer|ingeniera]].",
-      "words": ["[[engineer|ingeniera]].", "[[an|una]]", "[[is|es]]", "[[She|Ella]]"],
-      "explanation": "Usamos 'an' antes de vocal."
+      "title": "[[Ages|Edades]]",
+      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]].",
+      "correctSentence": "[[I|Yo]] [[am|tengo]] [[thirty|treinta]] [[years|años]] [[old|de edad]].",
+      "words": ["[[old|de edad]].", "[[years|años]]", "[[thirty|treinta]]", "[[am|tengo]]", "[[I|Yo]]"],
+      "explanation": "[[In|En]] [[English|inglés]], [[we|nosotros]] [[use|usamos]] '[[to be|ser/estar]]' [[for|para]] [[age|edad]]."
     },
-    "audioUrl": "audio/a1/unit-10/e8.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u10-e9",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "To Be Questions (Unit 3)",
+    "topic": "Jobs",
     "difficulty": "easy",
-    "transcript": "Are you from Mexico? Yes, I am.",
+    "transcript": "He works in a hospital. He is a doctor.",
     "content": {
-      "title": "Preguntas con To Be",
-      "instructions": "Responde la pregunta.",
+      "title": "[[Jobs|Trabajos]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[profession|profesión]].",
       "questions": [
         {
-          "question": "_______ [[you|tú]] [[from|de]] [[Mexico|México]]?",
-          "options": ["[[Are|¿Eres]]", "[[Is|¿Es]]", "[[Am|¿Soy]]"],
-          "correctAnswer": 0,
-          "explanation": "Para 'you' usamos el auxiliar 'Are'."
+          "question": "[[He|Él]] [[works|trabaja]] [[in|en]] [[a|un]] [[hospital|hospital]]. [[He|Él]] [[is|es]] [[a|un]] _______.",
+          "options": ["[[teacher|profesor]]", "[[doctor|médico]]", "[[pilot|piloto]]"],
+          "correctAnswer": 1,
+          "explanation": "[[Doctors|Médicos]] [[work|trabajan]] [[in|en]] [[hospitals|hospitales]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-10/e9.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u10-e10",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Everyday Actions (Unit 5)",
+    "topic": "Grammar",
     "difficulty": "easy",
-    "transcript": "They study English every morning.",
+    "transcript": "Whose bag is this? It's mine.",
     "content": {
-      "title": "Rutinas",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[They|Ellos]] [[study|estudian]] [[English|inglés]] [[every|cada]] [[morning|mañana]].",
-      "words": ["[[morning|mañana]].", "[[every|cada]]", "[[English|inglés]]", "[[study|estudian]]", "[[They|Ellos]]"],
-      "explanation": "Estructura de presente simple para hábitos."
+      "title": "[[Possession|Posesión]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[question|pregunta]] [[word|palabra]].",
+      "questions": [
+        {
+          "question": "_______ [[bag|bolso]] [[is|es]] [[this|este]]?",
+          "options": ["[[Who|Quién]]", "[[Whose|De quién]]", "[[What|Qué]]"],
+          "correctAnswer": 1,
+          "explanation": "[[Whose|De quién]] [[is|es]] [[for|para]] [[possession|posesión]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-10/e10.mp3",
     "topicName": "Grammar"
   },
+  // --- READING 1: INTRODUCING A FAMILY (11-14) ---
   {
     "id": "a1-u10-e11",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Family & Colors (Units 6 & 7)",
-    "difficulty": "medium",
-    "transcript": "My sister has blue eyes.",
+    "topic": "Reading",
+    "difficulty": "easy",
+    "transcript": "Hello, I am Mark. I am from the USA. This is my wife, Linda. She is a nurse. We have a son, Toby. Toby is six years old.",
     "content": {
-      "title": "Descripciones Familiares",
-      "instructions": "Combina familia y descripción.",
+      "title": "[[Reading|Lectura]]: [[The|La]] [[Family|Familia]]",
+      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]].",
       "questions": [
         {
-          "question": "[[My|Mi]] [[sister|hermana]] [[has|tiene]] (_____) [[eyes|ojos]].",
-          "options": ["[[blue|azules]]", "[[bigs|grandes (incorrecto)]]", "[[smalls|pequeños (incorrecto)]]"],
+          "question": "[[Hello|Hola]], [[I|Yo]] [[am|soy]] [[Mark|Mark]]. [[I|Yo]] [[am|soy]] [[from|de]] [[the|los]] [[USA|EE.UU]]. [[This|Esta]] [[is|es]] [[my|mi]] [[wife|esposa]], [[Linda|Linda]]. [[She|Ella]] [[is|es]] [[a|una]] [[nurse|enfermera]]. [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[son|hijo]], [[Toby|Toby]]. [[Toby|Toby]] [[is|tiene]] [[six|seis]] [[years|años]] [[old|de edad]].",
+          "options": ["[[I|Yo]] [[read|leo]] [[the|el]] [[text|texto]]."],
           "correctAnswer": 0,
-          "explanation": "Los adjetivos no se pluralizan en inglés."
+          "explanation": "[[Text|Texto]] [[only|solamente]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-10/e11.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u10-e12",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Numbers (Units 4 & 8)",
-    "difficulty": "medium",
-    "transcript": "Ten plus thirty is forty.",
+    "topic": "Reading",
+    "difficulty": "easy",
+    "transcript": "Hello, I am Mark. I am from the USA. This is my wife, Linda. She is a nurse. We have a son, Toby. Toby is six years old.",
     "content": {
-      "title": "Matemáticas de Repaso",
-      "instructions": "Resuelve la suma.",
+      "title": "[[Reading|Lectura]]: [[The|La]] [[Family|Familia]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
       "questions": [
         {
-          "question": "[[Ten|Diez]] (10) [[plus|más]] [[thirty|treinta]] (30) [[is|es]] (_____) .",
-          "options": ["[[forty|cuarenta]]", "[[fifty|cincuenta]]", "[[twenty|veinte]]"],
-          "correctAnswer": 0,
-          "explanation": "10 + 30 = 40 (forty)."
+          "question": "[[Where|De dónde]] [[is|es]] [[Mark|Mark]] [[from|de]]?",
+          "options": ["[[Spain|España]]", "[[The USA|EE.UU.]]", "[[The UK|Reino Unido]]"],
+          "correctAnswer": 1,
+          "explanation": "[[Mark|Mark]] [[says|dice]]: \"[[I|Yo]] [[am|soy]] [[from|de]] [[the|los]] [[USA|EE.UU.]]\"."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-10/e12.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u10-e13",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Jobs & Locations (Unit 9)",
-    "difficulty": "medium",
-    "transcript": "The nurse works in the hospital.",
+    "topic": "Reading",
+    "difficulty": "easy",
+    "transcript": "Hello, I am Mark. I am from the USA. This is my wife, Linda. She is a nurse. We have a son, Toby. Toby is six years old.",
     "content": {
-      "title": "Lugares de Trabajo",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[The|La]] [[nurse|enfermera]] [[works|trabaja]] [[in|en]] [[the|el]] [[hospital|hospital]].",
-      "words": ["[[hospital|hospital]].", "[[the|el]]", "[[in|en]]", "[[works|trabaja]]", "[[nurse|enfermera]]", "[[The|La]]"],
-      "explanation": "Relacionando trabajo y lugar."
+      "title": "[[Reading|Lectura]]: [[The|La]] [[Family|Familia]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "questions": [
+        {
+          "question": "[[What|Qué]] [[is|es]] [[Linda's|de Linda]] [[job|trabajo]]?",
+          "options": ["[[Teacher|Profesora]]", "[[Doctor|Médico]]", "[[Nurse|Enfermera]]"],
+          "correctAnswer": 2,
+          "explanation": "[[Linda|Linda]] [[is|es]] [[a|una]] [[nurse|enfermera]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-10/e13.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u10-e14",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "To Be Negatives (Unit 3)",
-    "difficulty": "medium",
-    "transcript": "We are not students. We are teachers.",
+    "topic": "Reading",
+    "difficulty": "easy",
+    "transcript": "Hello, I am Mark. I am from the USA. This is my wife, Linda. She is a nurse. We have a son, Toby. Toby is six years old.",
     "content": {
-      "title": "Negación con To Be",
-      "instructions": "Completa la negación.",
+      "title": "[[Reading|Lectura]]: [[The|La]] [[Family|Familia]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
       "questions": [
         {
-          "question": "[[We|Nosotros]] (_____) [[not|no]] [[students|estudiantes]].",
-          "options": ["[[are|somos]]", "[[is|es]]", "[[am|soy]]"],
+          "question": "[[How|Cuántos]] [[old|años]] [[is|tiene]] [[Toby|Toby]]?",
+          "options": ["[[Six|Seis]]", "[[Seven|Siete]]", "[[Five|Cinco]]"],
           "correctAnswer": 0,
-          "explanation": "Con 'We' usamos 'are'."
+          "explanation": "[[Toby|Toby]] [[is|tiene]] [[six|seis]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-10/e14.mp3",
-    "topicName": "Grammar"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u10-e15",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Descriptions (Unit 7)",
+    "topic": "Numbers",
     "difficulty": "medium",
-    "transcript": "This big house is yellow.",
+    "transcript": "Fifty plus twenty is seventy.",
     "content": {
-      "title": "Descripción de Objetos",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[This|Esta]] [[big|grande]] [[house|casa]] [[is|es]] [[yellow|amarilla]].",
-      "words": ["[[yellow|amarilla]].", "[[is|es]]", "[[house|casa]]", "[[big|grande]]", "[[This|Esta]]"],
-      "explanation": "Adjetivo (big) antes del sustantivo (house)."
+      "title": "[[Math|Matemáticas]] [[Review|Repaso]]",
+      "instructions": "[[Solve|Resuelve]] [[the|la]] [[sum|suma]].",
+      "questions": [
+        {
+          "question": "[[Fifty|Cincuenta]] + [[twenty|veinte]] = _______?",
+          "options": ["[[Sixty|Sesenta]]", "[[Seventy|Setenta]]", "[[Eighty|Ochenta]]"],
+          "correctAnswer": 1,
+          "explanation": "50 + 20 = 70 ([[seventy|setenta]])."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-10/e15.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u10-e16",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Present Simple Actions (Unit 5)",
+    "topic": "Descriptions",
     "difficulty": "medium",
-    "transcript": "Do they play soccer on Sundays?",
+    "transcript": "My mother has short grey hair.",
     "content": {
-      "title": "Preguntas de Rutina",
-      "instructions": "Completa la pregunta.",
-      "questions": [
-        {
-          "question": "[[Do|¿Aux]] [[they|ellos]] (_____) [[soccer|fútbol]] [[on|los]] [[Sundays|domingos]]?",
-          "options": ["[[play|juegan]]", "[[work|trabajan]]", "[[read|leen]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'play' para deportes."
-        }
-      ]
+      "title": "[[Descriptions|Descripciones]]",
+      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]].",
+      "correctSentence": "[[My|Mi]] [[mother|madre]] [[has|tiene]] [[short|corto]] [[grey|gris]] [[hair|pelo]].",
+      "words": ["[[hair|pelo]].", "[[grey|gris]]", "[[short|corto]]", "[[has|tiene]]", "[[mother|madre]]", "[[My|Mi]]"],
+      "explanation": "[[Adjectives|Adjetivos]] ([[short|corto]], [[grey|gris]]) [[before|antes de]] [[noun|sustantivo]] ([[hair|pelo]])."
     },
-    "audioUrl": "audio/a1/unit-10/e16.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u10-e17",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Numbers & Age (Units 4 & 8)",
+    "topic": "Grammar",
     "difficulty": "medium",
-    "transcript": "My grandfather is eighty years old.",
+    "transcript": "Whose children are they? They are the Smiths' children.",
     "content": {
-      "title": "Edad del Abuelo",
-      "instructions": "Identifica el número 80.",
+      "title": "[[Plural|Plural]] [[Possession|Posesión]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
       "questions": [
         {
-          "question": "[[My|Mi]] [[grandfather|abuelo]] [[is|tiene]] (80) (_____) [[years|años]] [[old|de edad]].",
-          "options": ["[[eighty|ochenta]]", "[[eighteen|dieciocho]]", "[[eight|ocho]]"],
-          "correctAnswer": 0,
-          "explanation": "80 se escribe 'eighty'."
+          "question": "[[They|Ellos]] [[are|son]] [[the|los]] _______ [[children|hijos]].",
+          "options": ["[[Smiths|Smiths]]", "[[Smiths'|Smiths]]", "[[Smith's|Smith]]"],
+          "correctAnswer": 1,
+          "explanation": "[[Plural|Plural]] [[ending|terminando]] [[in|en]] s [[only|solo]] [[needs|necesita]] [['|']]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-10/e17.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u10-e18",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Jobs (Unit 9)",
-    "difficulty": "medium",
-    "transcript": "The pilot works at the airport.",
-    "content": {
-      "title": "El Piloto",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[The|El]] [[pilot|piloto]] [[works|trabaja]] [[at|en]] [[the|el]] [[airport|aeropuerto]].",
-      "words": ["[[airport|aeropuerto]].", "[[the|el]]", "[[at|en]]", "[[works|trabaja]]", "[[pilot|piloto]]", "[[The|El]]"],
-      "explanation": "Lugar de trabajo del piloto."
-    },
-    "audioUrl": "audio/a1/unit-10/e18.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u10-e19",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Articles (Unit 4)",
+    "topic": "Grammar",
     "difficulty": "medium",
-    "transcript": "I have an orange and a banana.",
+    "transcript": "Is she bored? No, she is very busy.",
     "content": {
-      "title": "A vs AN",
-      "instructions": "Elige los artículos correctos.",
+      "title": "[[Emotions|Emociones]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
       "questions": [
         {
-          "question": "[[I|Yo]] [[have|tengo]] (_____) [[orange|naranja]] [[and|y]] (_____) [[banana|plátano]].",
-          "options": ["[[an / a|una / un]]", "[[a / an|una / un]]", "[[an / an|una / una]]"],
-          "correctAnswer": 0,
-          "explanation": "An antes de vocal (orange), a antes de consonante (banana)."
+          "question": "_______ [[she|ella]] [[bored|aburrida]]?",
+          "options": ["[[Are|Son/Están]]", "[[Is|Está]]", "[[Am|Soy]]"],
+          "correctAnswer": 1,
+          "explanation": "[[Is|Está]] [[she|ella]]...?"
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-10/e19.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u10-e19",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Vocabulary",
+    "difficulty": "medium",
+    "transcript": "The teacher's pen is red.",
+    "content": {
+      "title": "[[Possessive|Posesivo]] 's",
+      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]].",
+      "correctSentence": "[[The|El]] [[teacher's|del profesor]] [[pen|bolígrafo]] [[is|es]] [[red|rojo]].",
+      "words": ["[[red|rojo]].", "[[is|es]]", "[[pen|bolígrafo]]", "[[teacher's|del profesor]]", "[[The|El]]"],
+      "explanation": "[[The|El]] [[pen|bolígrafo]] [[of|de]] [[the|el]] [[teacher|profesor]]."
+    },
     "topicName": "Grammar"
   },
   {
     "id": "a1-u10-e20",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Family (Unit 6)",
-    "difficulty": "medium",
-    "transcript": "My brother and sister study English.",
-    "content": {
-      "title": "Hermanos",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[My|Mi]] [[brother|hermano]] [[and|y]] [[sister|hermana]] [[study|estudian]] [[English|inglés]].",
-      "words": ["[[English|inglés]].", "[[study|estudian]]", "[[sister|hermana]]", "[[and|y]]", "[[brother|hermano]]", "[[My|Mi]]"],
-      "explanation": "Sujeto compuesto."
-    },
-    "audioUrl": "audio/a1/unit-10/e20.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u10-e21",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 1 Review",
+    "topic": "Jobs",
     "difficulty": "medium",
-    "transcript": "How do you spell your name?",
+    "transcript": "What is your job? I am a pilot.",
     "content": {
-      "title": "Deletrear",
-      "instructions": "Completa la pregunta típica.",
+      "title": "[[Jobs|Trabajos]]",
+      "instructions": "[[Complete|Completa]] [[the|el]] [[dialogue|diálogo]].",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[do|aux]] [[you|tú]] (_____) [[your|tu]] [[name|nombre]]?",
-          "options": ["[[spell|deletreas]]", "[[speak|hablas]]", "[[read|lees]]"],
-          "correctAnswer": 0,
-          "explanation": "Spell significa deletrear."
+          "question": "[[What|Qué]] _______ [[your|tu]] [[job|trabajo]]?",
+          "options": ["[[are|es]]", "[[is|es]]", "[[am|soy]]"],
+          "correctAnswer": 1,
+          "explanation": "[[What|Qué]] [[is|es]] [[your|tu]] [[job|trabajo]]?"
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-10/e21.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u10-e22",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Present Simple Actions",
-    "difficulty": "medium",
-    "transcript": "I drink water every morning.",
-    "content": {
-      "title": "Bebidas",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[I|Yo]] [[drink|bebo]] [[water|agua]] [[every|cada]] [[morning|mañana]].",
-      "words": ["[[morning|mañana]].", "[[every|cada]]", "[[water|agua]]", "[[drink|bebo]]", "[[I|Yo]]"],
-      "explanation": "Rutina de salud."
-    },
-    "audioUrl": "audio/a1/unit-10/e22.mp3",
     "topicName": "Grammar"
   },
   {
-    "id": "a1-u10-e23",
+    "id": "a1-u10-e21",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "transcript": "They are not from France.",
+    "content": {
+      "title": "[[Negatives|Negativos]]",
+      "instructions": "[[Build|Construye]] [[the|la]] [[sentence|oración]].",
+      "correctSentence": "[[They|Ellos]] [[are|son]] [[not|no]] [[from|de]] [[France|Francia]].",
+      "words": ["[[France|Francia]].", "[[from|de]]", "[[not|no]]", "[[are|son]]", "[[They|Ellos]]"],
+      "explanation": "[[Subject|Sujeto]] + [[are|son]] + [[not|no]] + [[from|de]] + [[place|lugar]]."
+    },
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u10-e22",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Colors & Objects",
+    "topic": "Vocabulary",
     "difficulty": "medium",
-    "transcript": "The pencil is yellow and black.",
+    "transcript": "My son is seven and my daughter is ten.",
     "content": {
-      "title": "Lápiz de colores",
-      "instructions": "Describe el objeto.",
+      "title": "[[Family|Familia]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
       "questions": [
         {
-          "question": "[[The|El]] [[pencil|lápiz]] [[is|es]] (_____) [[and|y]] (_____) .",
-          "options": ["[[yellow / black|amarillo / negro]]", "[[red / blue|rojo / azul]]", "[[green / white|verde / blanco]]"],
+          "question": "[[My|Mi]] _______ [[is|tiene]] [[ten|diez]] [[years|años]] [[old|de edad]].",
+          "options": ["[[daughter|hija]]", "[[father|padre]]", "[[husband|esposo]]"],
           "correctAnswer": 0,
-          "explanation": "Combinando colores."
+          "explanation": "[[Daughter|Hija]] [[is|es]] [[for|para]] [[girls|niñas]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-10/e23.mp3",
     "topicName": "Vocabulary"
   },
   {
-    "id": "a1-u10-e24",
+    "id": "a1-u10-e23",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Numbers & Prices",
+    "topic": "Possessive",
     "difficulty": "medium",
-    "transcript": "The book is ninety dollars.",
+    "transcript": "Is that your brother's car?",
     "content": {
-      "title": "Precios",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[The|El]] [[book|libro]] [[is|cuesta]] [[ninety|noventa]] [[dollars|dólares]].",
-      "words": ["[[dollars|dólares]].", "[[ninety|noventa]]", "[[is|cuesta]]", "[[book|libro]]", "[[The|El]]"],
-      "explanation": "Ninety es 90."
+      "title": "[[Possessive|Posesivo]] 's",
+      "instructions": "[[Order|Ordena]] [[the|la]] [[question|pregunta]].",
+      "correctSentence": "[[Is|Es]] [[that|aquel]] [[your|tu]] [[brother's|de tu hermano]] [[car|coche]]?",
+      "words": ["[[car|coche]]?", "[[brother's|de tu hermano]]", "[[your|tu]]", "[[that|aquel]]", "[[Is|Es]]"],
+      "explanation": "[[Is|Es]] + [[that|aquel]] + [[owner|dueño]] [['s|'s]] + [[object|objeto]]."
     },
-    "audioUrl": "audio/a1/unit-10/e24.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
+  {
+    "id": "a1-u10-e24",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Vocabulary",
+    "difficulty": "medium",
+    "transcript": "I have an orange and a banana.",
+    "content": {
+      "title": "[[Articles|Artículos]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+      "questions": [
+        {
+          "question": "[[I|Yo]] [[have|tengo]] _______ [[orange|naranja]].",
+          "options": ["[[a|una]]", "[[an|una]]", "[[the|la]]"],
+          "correctAnswer": 1,
+          "explanation": "[[Use|Usa]] '[[an|an]]' [[before|antes de]] [[orange|naranja]]."
+        }
+      ]
+    },
+    "topicName": "Grammar"
+  },
+  // --- READING 2: THE CLASSROOM (25-28) ---
   {
     "id": "a1-u10-e25",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Jobs & Actions",
-    "difficulty": "medium",
-    "transcript": "Do chefs work in a kitchen?",
+    "topic": "Reading",
+    "difficulty": "easy",
+    "transcript": "This is our classroom. There is a big green desk for the teacher. There are twenty small blue desks for the students. We have ten books and five pens.",
     "content": {
-      "title": "Cocinando",
-      "instructions": "Completa la pregunta plural.",
+      "title": "[[Reading|Lectura]]: [[The|El]] [[Classroom|Aula]]",
+      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]].",
       "questions": [
         {
-          "question": "[[Do|¿Aux]] [[chefs|cocineros]] (_____) [[in|en]] [[a|una]] [[kitchen|cocina]]?",
-          "options": ["[[work|trabajan]]", "[[study|estudian]]", "[[play|juegan]]"],
+          "question": "[[This|Esta]] [[is|es]] [[our|nuestra]] [[classroom|aula]]. [[There|Allí]] [[is|hay]] [[a|un]] [[big|grande]] [[green|verde]] [[desk|escritorio]] [[for|para]] [[the|el]] [[teacher|profesor]]. [[There|Allí]] [[are|hay]] [[twenty|veinte]] [[small|pequeños]] [[blue|azules]] [[desks|escritorios]] [[for|para]] [[the|los]] [[students|estudiantes]]. [[We|Nosotros]] [[have|tenemos]] [[ten|diez]] [[books|libros]] [[and|y]] [[five|cinco]] [[pens|bolígrafos]].",
+          "options": ["[[I|Yo]] [[read|leo]] [[the|el]] [[text|texto]]."],
           "correctAnswer": 0,
-          "explanation": "Los chefs trabajan en la cocina."
+          "explanation": "[[Text|Texto]] [[only|solamente]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-10/e25.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u10-e26",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Descriptions",
-    "difficulty": "medium",
-    "transcript": "My new computer is very fast.",
+    "topic": "Reading",
+    "difficulty": "easy",
+    "transcript": "This is our classroom. There is a big green desk for the teacher. There are twenty small blue desks for the students. We have ten books and five pens.",
     "content": {
-      "title": "Mi ordenador",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[My|Mi]] [[new|nuevo]] [[computer|ordenador]] [[is|es]] [[very|muy]] [[fast|rápido]].",
-      "words": ["[[fast|rápido]].", "[[very|muy]]", "[[is|es]]", "[[computer|ordenador]]", "[[new|nuevo]]", "[[My|Mi]]"],
-      "explanation": "Combinando adjetivos."
+      "title": "[[Reading|Lectura]]: [[The|El]] [[Classroom|Aula]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "questions": [
+        {
+          "question": "[[What|De qué]] [[color|color]] [[is|es]] [[the|el]] [[teacher's|del profesor]] [[desk|escritorio]]?",
+          "options": ["[[Blue|Azul]]", "[[Green|Verde]]", "[[Red|Rojo]]"],
+          "correctAnswer": 1,
+          "explanation": "[[The|El]] [[desk|escritorio]] [[is|es]] [[green|verde]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-10/e26.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u10-e27",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Numbers",
-    "difficulty": "medium",
-    "transcript": "Sixty, seventy, eighty, ninety.",
+    "topic": "Reading",
+    "difficulty": "easy",
+    "transcript": "This is our classroom. There is a big green desk for the teacher. There are twenty small blue desks for the students. We have ten books and five pens.",
     "content": {
-      "title": "Serie Numérica",
-      "instructions": "¿Qué número falta?",
+      "title": "[[Reading|Lectura]]: [[The|El]] [[Classroom|Aula]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
       "questions": [
         {
-          "question": "[[Sixty|Sesenta]], (_____), [[eighty|ochenta]], [[ninety|noventa]].",
-          "options": ["[[seventy|setenta]]", "[[fifty|cincuenta]]", "[[one hundred|cien]]"],
-          "correctAnswer": 0,
-          "explanation": "Después del 60 viene el 70 (seventy)."
+          "question": "[[How|Cuántos]] [[many|muchos]] [[students'|de alumnos]] [[desks|escritorios]] [[are|hay]] [[there|allí]]?",
+          "options": ["[[Ten|Diez]]", "[[Five|Cinco]]", "[[Twenty|Veinte]]"],
+          "correctAnswer": 2,
+          "explanation": "[[There|Allí]] [[are|hay]] [[twenty|veinte]] [[desks|escritorios]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-10/e27.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u10-e28",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Family & Jobs",
-    "difficulty": "medium",
-    "transcript": "Is your uncle a doctor?",
+    "topic": "Reading",
+    "difficulty": "easy",
+    "transcript": "This is our classroom. There is a big green desk for the teacher. There are twenty small blue desks for the students. We have ten books and five pens.",
     "content": {
-      "title": "Pregunta Familiar",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Is|¿Es]] [[your|tu]] [[uncle|tío]] [[a|un]] [[doctor|médico]]?",
-      "words": ["[[doctor|médico]]?", "[[a|un]]", "[[uncle|tío]]", "[[your|tu]]", "[[Is|¿Es]]"],
-      "explanation": "Pregunta de profesión a un familiar."
+      "title": "[[Reading|Lectura]]: [[The|El]] [[Classroom|Aula]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "questions": [
+        {
+          "question": "[[How|Cuántos]] [[many|muchos]] [[books|libros]] [[do|aux]] [[they|ellos]] [[have|tienen]]?",
+          "options": ["[[Ten|Diez]]", "[[Five|Cinco]]", "[[Twenty|Veinte]]"],
+          "correctAnswer": 0,
+          "explanation": "[[They|Ellos]] [[have|tienen]] [[ten|diez]] [[books|libros]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-10/e28.mp3",
-    "topicName": "Grammar"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u10-e29",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Colors",
+    "topic": "Grammar",
     "difficulty": "medium",
-    "transcript": "The sky is blue.",
+    "transcript": "Is your sister happy? Yes, she is very happy.",
     "content": {
-      "title": "El cielo",
-      "instructions": "Completa la descripción.",
+      "title": "[[Questions|Preguntas]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
       "questions": [
         {
-          "question": "[[The|El]] [[sky|cielo]] (_____) [[blue|azul]].",
-          "options": ["[[is|es]]", "[[are|son]]", "[[am|soy]]"],
+          "question": "_______ [[your|tu]] [[sister|hermana]] [[happy|feliz]]?",
+          "options": ["[[Is|Es]]", "[[Are|Son]]", "[[Am|Soy]]"],
           "correctAnswer": 0,
-          "explanation": "Sky es singular, usamos 'is'."
+          "explanation": "[[Is|Está]] [[she|ella]]...?"
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-10/e29.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u10-e30",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Everyday Actions",
+    "topic": "Possessive",
     "difficulty": "medium",
-    "transcript": "We sleep at ten o'clock.",
+    "transcript": "Whose pens are these? They are my brother's.",
     "content": {
-      "title": "Hora de dormir",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[We|Nosotros]] [[sleep|dormimos]] [[at|a las]] [[ten|diez]] [[o'clock|en punto]].",
-      "words": ["[[o'clock|en punto]].", "[[ten|diez]]", "[[at|a las]]", "[[sleep|dormimos]]", "[[We|Nosotros]]"],
-      "explanation": "Acción habitual con hora."
+      "title": "[[Whose|De quién]]?",
+      "instructions": "[[Order|Ordena]] [[la|the]] [[question|pregunta]].",
+      "correctSentence": "[[Whose|De quién]] [[pens|bolígrafos]] [[are|son]] [[these|estos]]?",
+      "words": ["[[these|estos]]?", "[[are|son]]", "[[pens|bolígrafos]]", "[[Whose|De quién]]"],
+      "explanation": "[[Whose|De quién]] + [[plural|plural]] + [[are|son]] + [[these|estos]]."
     },
-    "audioUrl": "audio/a1/unit-10/e30.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u10-e31",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 1 Review",
+    "topic": "Numbers",
     "difficulty": "medium",
-    "transcript": "I am thirty-two. How old are you?",
+    "transcript": "Twenty plus eighty is one hundred.",
     "content": {
-      "title": "Pregunta de Edad",
-      "instructions": "Completa la pregunta.",
+      "title": "[[Numbers|Números]] [[1-100|1-100]]",
+      "instructions": "[[Solve|Resuelve]] [[the|la]] [[sum|suma]].",
       "questions": [
         {
-          "question": "[[How|Cómo]] (_____) [[are|eres]] [[you|tú]]?",
-          "options": ["[[old|viejo]]", "[[much|mucho]]", "[[many|muchos]]"],
+          "question": "[[Twenty|Veinte]] + [[eighty|ochenta]] = _______?",
+          "options": ["[[One hundred|Cien]]", "[[Ninety|Noventa]]", "[[Seventy|Setenta]]"],
           "correctAnswer": 0,
-          "explanation": "How old is the standard phrase for age."
+          "explanation": "20 + 80 = 100 ([[one hundred|cien]])."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-10/e31.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -635,450 +621,427 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Jobs",
     "difficulty": "medium",
-    "transcript": "They are police officers.",
+    "transcript": "My father is a clever engineer.",
     "content": {
-      "title": "Plurales",
-      "instructions": "Ordena la oración plural.",
-      "correctSentence": "[[They|Ellos]] [[are|son]] [[police|policía]] [[officers|oficiales]].",
-      "words": ["[[officers|oficiales]].", "[[police|policía]]", "[[are|son]]", "[[They|Ellos]]"],
-      "explanation": "Uso de 'are' y plural en profesiones."
+      "title": "[[Jobs|Trabajos]] [[and|y]] [[Adjectives|Adjetivos]]",
+      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]].",
+      "correctSentence": "[[My|Mi]] [[father|padre]] [[is|es]] [[a|un]] [[clever|listo]] [[engineer|ingeniero]].",
+      "words": ["[[engineer|ingeniero]].", "[[clever|listo]]", "[[a|un]]", "[[is|es]]", "[[father|padre]]", "[[My|Mi]]"],
+      "explanation": "[[Adjective|Adjetivo]] [[before|antes de]] [[noun|sustantivo]]."
     },
-    "audioUrl": "audio/a1/unit-10/e32.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u10-e33",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Everyday Verbs",
+    "topic": "Grammar",
     "difficulty": "medium",
-    "transcript": "Do they study every morning? No, they don't.",
+    "transcript": "Is this your car? Yes, it is.",
     "content": {
-      "title": "Respuestas Cortas",
-      "instructions": "Elige la respuesta correcta.",
+      "title": "[[Short|Cortas]] [[Answers|Respuestas]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[answer|respuesta]].",
       "questions": [
         {
-          "question": "[[Do|¿Aux]] [[they|ellos]] [[study|estudian]] [[every|cada]] [[morning|mañana]]?",
-          "options": ["[[No, they don't|No]]", "[[No, they aren't|No (incorrecto)]]", "[[No, they not|No (incorrecto)]]"],
+          "question": "[[Is|Es]] [[this|este]] [[your|tu]] [[car|coche]]?",
+          "options": ["[[Yes, it is.|Sí, lo es.]]", "[[Yes, I am.|Sí, lo soy.]]", "[[Yes, they are.|Sí, lo son.]]"],
           "correctAnswer": 0,
-          "explanation": "Usamos el auxiliar 'do' para responder."
+          "explanation": "[[Use|Usa]] '[[it|lo]]' [[for|para]] [[the|el]] [[car|coche]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-10/e33.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u10-e34",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Numbers & Items",
+    "topic": "Family",
     "difficulty": "medium",
-    "transcript": "I need fifty notebooks.",
+    "transcript": "She is my brother's daughter.",
     "content": {
-      "title": "Pedidos",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[I|Yo]] [[need|necesito]] [[fifty|cincuenta]] [[notebooks|libretas]].",
-      "words": ["[[notebooks|libretas]].", "[[fifty|cincuenta]]", "[[need|necesito]]", "[[I|Yo]]"],
-      "explanation": "Fifty es 50."
+      "title": "[[Relationships|Relaciones]]",
+      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]].",
+      "correctSentence": "[[She|Ella]] [[is|es]] [[my|mi]] [[brother's|de mi hermano]] [[daughter|hija]].",
+      "words": ["[[daughter|hija]].", "[[brother's|de mi hermano]]", "[[my|mi]]", "[[is|es]]", "[[She|Ella]]"],
+      "explanation": "[[The|La]] [[daughter|hija]] [[of|de]] [[my|mi]] [[brother|hermano]] [[is|es]] [[my|mi]] [[niece|sobrina]]."
     },
-    "audioUrl": "audio/a1/unit-10/e34.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u10-e35",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Descriptions",
+    "topic": "Prices",
     "difficulty": "medium",
-    "transcript": "Are your eyes brown? Yes, they are.",
+    "transcript": "How much is this book? It is fifteen euros.",
     "content": {
-      "title": "Ojos marrones",
-      "instructions": "Completa la pregunta sobre descripción física.",
+      "title": "[[Prices|Precios]]",
+      "instructions": "[[Complete|Completa]] [[the|el]] [[dialogue|diálogo]].",
       "questions": [
         {
-          "question": "_______ [[your|tus]] [[eyes|ojos]] [[brown|marrones]]?",
-          "options": ["[[Are|¿Son]]", "[[Is|¿Es]]", "[[Do|¿Hacen]]"],
-          "correctAnswer": 0,
-          "explanation": "Eyes es plural, usamos 'Are'."
+          "question": "[[How|Cuánto]] _______ [[is|es]] [[this|este]] [[book|libro]]?",
+          "options": ["[[many|muchos]]", "[[much|mucho]]", "[[old|viejo]]"],
+          "correctAnswer": 1,
+          "explanation": "[[How much|Cuánto]] [[is|es]] [[for|para]] [[prices|precios]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-10/e35.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u10-e36",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Jobs",
+    "topic": "Nationalities",
     "difficulty": "medium",
-    "transcript": "The teacher writes on the whiteboard.",
+    "transcript": "We are from Italy. We are Italian.",
     "content": {
-      "title": "Acción en Clase",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[The|El]] [[teacher|profesor]] [[writes|escribe]] [[on|en]] [[the|la]] [[whiteboard|pizarra]].",
-      "words": ["[[whiteboard|pizarra]].", "[[the|la]]", "[[on|en]]", "[[writes|escribe]]", "[[teacher|profesor]]", "[[The|El]]"],
-      "explanation": "Verbo de acción en el aula."
+      "title": "[[Nationalities|Nacionalidades]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[nationality|nacionalidad]].",
+      "questions": [
+        {
+          "question": "[[We|Nosotros]] [[are|somos]] [[from|de]] [[Italy|Italia]]. [[We|Nosotros]] [[are|somos]] _______.",
+          "options": ["[[Italian|italianos]]", "[[Italy|Italia]]", "[[French|franceses]]"],
+          "correctAnswer": 0,
+          "explanation": "[[People|Personas]] [[from|de]] [[Italy|Italia]] [[are|son]] [[Italian|italianos]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-10/e36.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u10-e37",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Present Simple Actions",
+    "topic": "Emotions",
     "difficulty": "medium",
-    "transcript": "We don't study on Saturdays.",
+    "transcript": "Why are you so sad today?",
     "content": {
-      "title": "Negación de Rutina",
-      "instructions": "Completa la negación.",
-      "questions": [
-        {
-          "question": "[[We|Nosotros]] (_____) [[study|estudiamos]] [[on|los]] [[Saturdays|sábados]].",
-          "options": ["[[don't|no]]", "[[not|no]]", "[[no|no]]"],
-          "correctAnswer": 0,
-          "explanation": "Don't es la contracción de 'do not'."
-        }
-      ]
+      "title": "[[Questions|Preguntas]]",
+      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]].",
+      "correctSentence": "[[Why|Por qué]] [[are|estás]] [[you|tú]] [[so|tan]] [[sad|triste]] [[today|hoy]]?",
+      "words": ["[[today|hoy]]?", "[[sad|triste]]", "[[so|tan]]", "[[you|tú]]", "[[are|estás]]", "[[Why|Por qué]]"],
+      "explanation": "[[Question|Pregunta]] [[word|palabra]] + [[verb|verbo]] + [[subject|sujeto]]."
     },
-    "audioUrl": "audio/a1/unit-10/e37.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u10-e38",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Family",
+    "topic": "Grammar",
     "difficulty": "medium",
-    "transcript": "My daughter is seven years old.",
+    "transcript": "Is that your mother's bag?",
     "content": {
-      "title": "Mi hija",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[My|Mi]] [[daughter|hija]] [[is|tiene]] [[seven|siete]] [[years|años]] [[old|de edad]].",
-      "words": ["[[old|de edad]].", "[[years|años]]", "[[seven|siete]]", "[[is|tiene]]", "[[daughter|hija]]", "[[My|Mi]]"],
-      "explanation": "Hablando de la edad de un familiar."
+      "title": "[[Possessive|Posesivo]] 's",
+      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|oración]].",
+      "questions": [
+        {
+          "question": "[[Is|Es]] [[that|aquella]] [[your|tu]] [[mother|madre]] _______ [[bag|bolso]]?",
+          "options": ["[['s|'s]]", "[[is|es]]", "[[s|s]]"],
+          "correctAnswer": 0,
+          "explanation": "[[Mother's|De la madre]] [[bag|bolso]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-10/e38.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
+  // --- READING 3: JOB DESCRIPTIONS (39-42) ---
   {
     "id": "a1-u10-e39",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Everyday Verbs",
-    "difficulty": "medium",
-    "transcript": "What do they eat for breakfast?",
+    "topic": "Reading",
+    "difficulty": "easy",
+    "transcript": "I am Carlos. I am a chef in a small Spanish restaurant. My wife, Elena, is a teacher. Elena's school is very big. She is happy at work.",
     "content": {
-      "title": "Desayuno",
-      "instructions": "Completa la pregunta con 'What'.",
+      "title": "[[Reading|Lectura]]: [[Jobs|Trabajos]]",
+      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]].",
       "questions": [
         {
-          "question": "[[What|Qué]] [[do|aux]] [[they|ellos]] (_____) [[for|para el]] [[breakfast|desayuno]]?",
-          "options": ["[[eat|comen]]", "[[play|juegan]]", "[[sleep|duermen]]"],
+          "question": "[[I|Yo]] [[am|soy]] [[Carlos|Carlos]]. [[I|Yo]] [[am|soy]] [[a|un]] [[chef|cocinero]] [[in|en]] [[a|un]] [[small|pequeño]] [[Spanish|español]] [[restaurant|restaurante]]. [[My|Mi]] [[wife|esposa]], [[Elena|Elena]], [[is|es]] [[a|una]] [[teacher|profesora]]. [[Elena's|De Elena]] [[school|escuela]] [[is|es]] [[very|muy]] [[big|grande]]. [[She|Ella]] [[is|está]] [[happy|feliz]] [[at|en]] [[work|el trabajo]].",
+          "options": ["[[I|Yo]] [[read|leo]] [[the|el]] [[text|texto]]."],
           "correctAnswer": 0,
-          "explanation": "Eat es el verbo para comida sólida."
+          "explanation": "[[Text|Texto]] [[only|solamente]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-10/e39.mp3",
-    "topicName": "Grammar"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u10-e40",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Descriptions",
-    "difficulty": "medium",
-    "transcript": "The small car is green.",
+    "topic": "Reading",
+    "difficulty": "easy",
+    "transcript": "I am Carlos. I am a chef in a small Spanish restaurant. My wife, Elena, is a teacher. Elena's school is very big. She is happy at work.",
     "content": {
-      "title": "Coche pequeño",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[The|El]] [[small|pequeño]] [[car|coche]] [[is|es]] [[green|verde]].",
-      "words": ["[[green|verde]].", "[[is|es]]", "[[car|coche]]", "[[small|pequeño]]", "[[The|El]]"],
-      "explanation": "Tamaño y color."
+      "title": "[[Reading|Lectura]]: [[Carlos|Carlos]] [[and|y]] [[Elena|Elena]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "questions": [
+        {
+          "question": "[[What|Qué]] [[is|es]] [[Carlos's|de Carlos]] [[job|trabajo]]?",
+          "options": ["[[Teacher|Profesor]]", "[[Chef|Cocinero]]", "[[Nurse|Enfermero]]"],
+          "correctAnswer": 1,
+          "explanation": "[[Carlos|Carlos]] [[is|es]] [[a|un]] [[chef|cocinero]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-10/e40.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u10-e41",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Module 1 Review",
-    "difficulty": "medium",
-    "transcript": "What is your father's job? He is a doctor.",
+    "topic": "Reading",
+    "difficulty": "easy",
+    "transcript": "I am Carlos. I am a chef in a small Spanish restaurant. My wife, Elena, is a teacher. Elena's school is very big. She is happy at work.",
     "content": {
-      "title": "Trabajo del Padre",
-      "instructions": "Responde a la pregunta de profesión.",
+      "title": "[[Reading|Lectura]]: [[Carlos|Carlos]] [[and|y]] [[Elena|Elena]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
       "questions": [
         {
-          "question": "[[What|Qué]] [[is|es]] [[your|tu]] [[father's|de tu padre]] [[job|trabajo]]?",
-          "options": ["[[He is a doctor|Él es médico]]", "[[He is Peter|Él es Peter]]", "[[He is fine|Él está bien]]"],
-          "correctAnswer": 0,
-          "explanation": "La pregunta pide el trabajo."
+          "question": "[[How|Cómo]] [[is|es]] [[Elena's|de Elena]] [[school|escuela]]?",
+          "options": ["[[Small|Pequeña]]", "[[Old|Vieja]]", "[[Big|Grande]]"],
+          "correctAnswer": 2,
+          "explanation": "[[The|La]] [[school|escuela]] [[is|es]] [[very|muy]] [[big|grande]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-10/e41.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u10-e42",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Present Simple Actions",
-    "difficulty": "medium",
-    "transcript": "You write stories every night.",
+    "topic": "Reading",
+    "difficulty": "easy",
+    "transcript": "I am Carlos. I am a chef in a small Spanish restaurant. My wife, Elena, is a teacher. Elena's school is very big. She is happy at work.",
     "content": {
-      "title": "Escribiendo historias",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[You|Tú]] [[write|escribes]] [[stories|historias]] [[every|cada]] [[night|noche]].",
-      "words": ["[[night|noche]].", "[[every|cada]]", "[[stories|historias]]", "[[write|escribes]]", "[[You|Tú]]"],
-      "explanation": "Acción creativa de rutina."
+      "title": "[[Reading|Lectura]]: [[Carlos|Carlos]] [[and|y]] [[Elena|Elena]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "questions": [
+        {
+          "question": "[[Is|Está]] [[Elena|Elena]] [[happy|feliz]]?",
+          "options": ["[[Yes, she is.|Sí, lo está.]]", "[[No, she isn't.|No, no lo está.]]", "[[We don't know.|No lo sabemos.]]"],
+          "correctAnswer": 0,
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: \"[[She|Ella]] [[is|está]] [[happy|feliz]] [[at|en]] [[work|el trabajo]]\"."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-10/e42.mp3",
-    "topicName": "Grammar"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u10-e43",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Family & Description",
+    "topic": "Grammar",
     "difficulty": "medium",
-    "transcript": "Is your brother tall or short?",
+    "transcript": "I am not Spanish. I am American.",
     "content": {
-      "title": "Altura",
-      "instructions": "Completa con adjetivos opuestos.",
+      "title": "[[Verb|Verbo]] '[[to be|ser/estar]]'",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[negation|negación]].",
       "questions": [
         {
-          "question": "[[Is|¿Es]] [[your|tu]] [[brother|hermano]] [[tall|alto]] [[or|o]] (_____) ?",
-          "options": ["[[short|bajo]]", "[[small|pequeño]]", "[[long|largo]]"],
-          "correctAnswer": 0,
-          "explanation": "Short es el opuesto de tall para personas."
+          "question": "[[I|Yo]] _______ [[not|no]] [[Spanish|español]].",
+          "options": ["[[is|es]]", "[[are|eres]]", "[[am|soy]]"],
+          "correctAnswer": 2,
+          "explanation": "[[I|Yo]] [[am|soy]] [[not|no]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-10/e43.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u10-e44",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Numbers & Items",
+    "topic": "Grammar",
     "difficulty": "medium",
-    "transcript": "There are one hundred students.",
+    "transcript": "What is his name?",
     "content": {
-      "title": "El número 100",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[There|Hay]] [[are|son]] [[one|un]] [[hundred|cien]] [[students|estudiantes]].",
-      "words": ["[[students|estudiantes]].", "[[hundred|cien]]", "[[one|un]]", "[[are|son]]", "[[There|Hay]]"],
-      "explanation": "One hundred es 100."
+      "title": "[[Questions|Preguntas]]",
+      "instructions": "[[Order|Ordena]] [[la|the]] [[pregunta|question]].",
+      "correctSentence": "[[What|Qué]] [[is|es]] [[his|su]] [[name|nombre]]?",
+      "words": ["[[name|nombre]]?", "[[his|su]]", "[[is|es]]", "[[What|Qué]]"],
+      "explanation": "[[What|Qué]] + [[is|es]] + [[possessive|posesivo]] + [[noun|sustantivo]]."
     },
-    "audioUrl": "audio/a1/unit-10/e44.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u10-e45",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Everyday Verbs",
+    "topic": "Vocabulary",
     "difficulty": "medium",
-    "transcript": "Do they play basketball in the park?",
+    "transcript": "Is it a long pen? No, it's very short.",
     "content": {
-      "title": "Deportes en el parque",
-      "instructions": "Completa la pregunta de lugar.",
+      "title": "[[Adjectives|Adjetivos]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[opposite|opuesto]].",
       "questions": [
         {
-          "question": "[[Do|¿Aux]] [[they|ellos]] [[play|juegan]] [[basketball|baloncesto]] (_____) [[the|el]] [[park|parque]]?",
-          "options": ["[[in|en]]", "[[on|en (superficie)]]", "[[at|en (punto)]]"],
+          "question": "[[The|El]] [[opposite|opuesto]] [[of|de]] '[[long|largo]]' [[is|es]] _______.",
+          "options": ["[[short|corto]]", "[[big|grande]]", "[[blue|azul]]"],
           "correctAnswer": 0,
-          "explanation": "In the park es la forma estándar."
+          "explanation": "[[Short|Corto]] [[is|es]] [[the|el]] [[opposite|opuesto]] [[of|de]] [[long|largo]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-10/e45.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u10-e46",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Jobs & Descriptions",
+    "topic": "Grammar",
     "difficulty": "medium",
-    "transcript": "The famous artist is very creative.",
+    "transcript": "You are my best friend.",
     "content": {
-      "title": "Artista creativo",
-      "instructions": "Ordena la oración compleja.",
-      "correctSentence": "[[The|El]] [[famous|famoso]] [[artist|artista]] [[is|es]] [[very|muy]] [[creative|creativo]].",
-      "words": ["[[creative|creativo]].", "[[very|muy]]", "[[is|es]]", "[[artist|artista]]", "[[famous|famoso]]", "[[The|El]]"],
-      "explanation": "Combinando profesión y adjetivos."
+      "title": "[[Possessives|Posesivos]]",
+      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]].",
+      "correctSentence": "[[You|Tú]] [[are|eres]] [[my|mi]] [[best|mejor]] [[friend|amigo/a]].",
+      "words": ["[[friend|amigo/a]].", "[[best|mejor]]", "[[my|mi]]", "[[are|eres]]", "[[You|Tú]]"],
+      "explanation": "[[You|Tú]] [[are|eres]] [[my|mi]] [[best|mejor]] [[friend|amigo]]."
     },
-    "audioUrl": "audio/a1/unit-10/e46.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u10-e47",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Numbers",
+    "topic": "Grammar",
     "difficulty": "medium",
-    "transcript": "I have thirty-three pencils.",
+    "transcript": "How are you? I am fine, thanks.",
     "content": {
-      "title": "Dígitos Compuestos",
-      "instructions": "Identifica el número 33.",
+      "title": "[[Greetings|Saludos]]",
+      "instructions": "[[Complete|Completa]] [[the|el]] [[dialogue|diálogo]].",
       "questions": [
         {
-          "question": "[[I|Yo]] [[have|tengo]] (33) (_____) [[pencils|lápices]].",
-          "options": ["[[thirty-three|treinta y tres]]", "[[thirteen|trece]]", "[[three|tres]]"],
-          "correctAnswer": 0,
-          "explanation": "33 se dice 'thirty-three'."
+          "question": "[[How|Cómo]] _______ [[you|tú]]?",
+          "options": ["[[am|soy]]", "[[is|es]]", "[[are|estás]]"],
+          "correctAnswer": 2,
+          "explanation": "[[How|Cómo]] [[are|estás]] [[you|tú]]?"
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-10/e47.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u10-e48",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "To Be Questions",
+    "topic": "Vocabulary",
     "difficulty": "medium",
-    "transcript": "Where are you from?",
+    "transcript": "The book is nineteen euros.",
     "content": {
-      "title": "Origen",
-      "instructions": "Ordena la pregunta fundamental.",
-      "correctSentence": "[[Where|De dónde]] [[are|eres]] [[you|tú]] [[from|de]]?",
-      "words": ["[[from|de]]?", "[[you|tú]]", "[[are|eres]]", "[[Where|De dónde]]"],
-      "explanation": "Pregunta de nacionalidad u origen."
+      "title": "[[Prices|Precios]]",
+      "instructions": "[[Order|Ordena]] [[the|las]] [[palabras|words]].",
+      "correctSentence": "[[The|El]] [[book|libro]] [[is|vale]] [[nineteen|diecinueve]] [[euros|euros]].",
+      "words": ["[[euros|euros]].", "[[nineteen|diecinueve]]", "[[is|vale]]", "[[book|libro]]", "[[The|El]]"],
+      "explanation": "[[Price|Precio]] [[structure|estructura]]."
     },
-    "audioUrl": "audio/a1/unit-10/e48.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u10-e49",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Articles",
+    "topic": "Grammar",
     "difficulty": "medium",
-    "transcript": "Is she a nurse or an architect?",
+    "transcript": "Are you a student? Yes, I am.",
     "content": {
-      "title": "Profesiones y Artículos",
-      "instructions": "Elige la opción con artículos correctos.",
+      "title": "[[Short|Cortas]] [[Answers|Respuestas]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[answer|respuesta]].",
       "questions": [
         {
-          "question": "[[Is|¿Es]] [[she|ella]] (_____) [[nurse|enfermera]] [[or|o]] (_____) [[architect|arquitecta]]?",
-          "options": ["[[a / an|una / una]]", "[[an / a|una / una]]", "[[a / a|una / una]]"],
+          "question": "[[Are|¿Eres]] [[you|tú]] [[a|un]] [[student|estudiante]]?",
+          "options": ["[[Yes, I am.|Sí, lo soy.]]", "[[Yes, you are.|Sí, lo eres.]]", "[[Yes, it is.|Sí, lo es.]]"],
           "correctAnswer": 0,
-          "explanation": "A antes de consonante (nurse), an antes de vocal (architect)."
+          "explanation": "[[Answer|Responde]] [[about|sobre]] [[yourself|ti mismo]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-10/e49.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u10-e50",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Present Simple Actions",
-    "difficulty": "medium",
-    "transcript": "We don't drink coffee at night.",
-    "content": {
-      "title": "Bebidas nocturnas",
-      "instructions": "Ordena la negación.",
-      "correctSentence": "[[We|Nosotros]] [[don't|no]] [[drink|bebemos]] [[coffee|café]] [[at|por la]] [[night|noche]].",
-      "words": ["[[night|noche]].", "[[at|por la]]", "[[coffee|café]]", "[[drink|bebemos]]", "[[don't|no]]", "[[We|Nosotros]]"],
-      "explanation": "Hábitos de salud."
-    },
-    "audioUrl": "audio/a1/unit-10/e50.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u10-e51",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
+    "topic": "Vocabulary",
     "difficulty": "medium",
-    "transcript": "My name is Peter. I am thirty years old. I am an engineer and I work in a big city. I have a small family: my wife and two daughters. My daughters are six and eight years old. We have a green house with a small garden. Every morning, I drink coffee and read the newspaper. I am very happy with my life.",
+    "transcript": "My grandfather is seventy years old.",
     "content": {
-      "title": "La Vida de Peter",
-      "instructions": "Lee sobre Peter y responde.",
+      "title": "[[Numbers|Números]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[number|número]].",
       "questions": [
         {
-          "question": "[[What|Cuál]] [[is|es]] [[Peter's|de Peter]] [[job|trabajo]]?",
-          "options": ["[[Engineer|Ingeniero]]", "[[Teacher|Profesor]]", "[[Doctor|Médico]]"],
+          "question": "[[Seventy|Setenta]] [[is|es]] _______.",
+          "options": ["[[70|70]]", "[[17|17]]", "[[60|60]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'I am an engineer'."
-        },
-        {
-          "question": "[[How|Cuántas]] [[many|muchas]] [[daughters|hijas]] [[does|hace]] [[he|él]] [[have|tener]]?",
-          "options": ["[[Two|Dos]]", "[[Six|Seis]]", "[[Eight|Ocho]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice: 'two daughters'."
+          "explanation": "[[Seventy|Setenta]] = 70."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-10/e51.mp3",
-    "topicName": "Reading"
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u10-e51",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Possessives",
+    "difficulty": "medium",
+    "transcript": "What is your father's job?",
+    "content": {
+      "title": "[[Questions|Preguntas]]",
+      "instructions": "[[Order|Ordena]] [[la|the]] [[pregunta|question]].",
+      "correctSentence": "[[What|Qué]] [[is|es]] [[your|tu]] [[father's|de tu padre]] [[job|trabajo]]?",
+      "words": ["[[job|trabajo]]?", "[[father's|de tu padre]]", "[[your|tu]]", "[[is|es]]", "[[What|Qué]]"],
+      "explanation": "[[What|Qué]] + [[is|es]] + [[owner|dueño]] [['s|'s]] + [[job|trabajo]]."
+    },
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u10-e52",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
+    "topic": "Vocabulary",
     "difficulty": "medium",
-    "transcript": "This is our classroom. There are fifteen students and one teacher. We have many books and notebooks. I have a red pen and my friend has a blue pencil. We study English from Monday to Friday. We like our school very much. It is big and white.",
+    "transcript": "She is from France. She is French.",
     "content": {
-      "title": "Nuestra Clase",
-      "instructions": "Lee sobre la clase y responde.",
+      "title": "[[Nationalities|Nacionalidades]]",
+      "instructions": "[[Complete|Completa]].",
       "questions": [
         {
-          "question": "[[How|Cuántos]] [[many|muchos]] [[students|estudiantes]] [[are|hay]] [[in|en]] [[the|la]] [[room|habitación]]?",
-          "options": ["[[Fifteen|Quince]]", "[[Ten|Diez]]", "[[Twenty|Veinte]]"],
+          "question": "[[She|Ella]] [[is|es]] [[from|de]] [[France|Francia]]. [[She|Ella]] [[is|es]] _______.",
+          "options": ["[[French|francesa]]", "[[France|Francia]]", "[[Spanish|española]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'There are fifteen students'."
-        },
-        {
-          "question": "[[What|De qué]] [[color|color]] [[is|es]] [[the|la]] [[school|escuela]]?",
-          "options": ["[[White|Blanca]]", "[[Red|Roja]]", "[[Blue|Azul]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice: 'It is big and white'."
+          "explanation": "[[French|Francesa]] [[is|es]] [[the|la]] [[nationality|nacionalidad]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-10/e52.mp3",
-    "topicName": "Reading"
+    "topicName": "Vocabulary"
   },
+  // --- READING 4: PHYSICAL DESCRIPTIONS (53-56) ---
   {
     "id": "a1-u10-e53",
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading",
-    "difficulty": "medium",
-    "transcript": "My mother is forty-five years old. She is a nurse and she works in a hospital. She is very tall and has brown hair. She likes to read books at night. She has a red car. My father is a chef. He works in a restaurant. We are a busy family.",
+    "difficulty": "easy",
+    "transcript": "My best friend is Paul. He is very tall and thin. He has big blue eyes and short brown hair. He is very happy today.",
     "content": {
-      "title": "Mi Madre",
-      "instructions": "Lee sobre la madre y responde.",
+      "title": "[[Reading|Lectura]]: [[Descriptions|Descripciones]]",
+      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]].",
       "questions": [
         {
-          "question": "[[What|Cuál]] [[is|es]] [[her|su]] [[job|trabajo]]?",
-          "options": ["[[Nurse|Enfermera]]", "[[Chef|Cocinera]]", "[[Teacher|Profesora]]"],
+          "question": "[[My|Mi]] [[best|mejor]] [[friend|amigo]] [[is|es]] [[Paul|Paul]]. [[He|Él]] [[is|es]] [[very|muy]] [[tall|alto]] [[and|y]] [[thin|delgado]]. [[He|Él]] [[has|tiene]] [[big|grandes]] [[blue|azules]] [[eyes|ojos]] [[and|y]] [[short|corto]] [[brown|marrón]] [[hair|pelo]]. [[He|Él]] [[is|está]] [[very|muy]] [[happy|feliz]] [[today|hoy]].",
+          "options": ["[[I|Yo]] [[read|leo]] [[the|el]] [[text|texto]]."],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'She is a nurse'."
-        },
-        {
-          "question": "[[Where|Dónde]] [[does|hace]] [[she|ella]] [[work|trabajar]]?",
-          "options": ["[[In a hospital|En un hospital]]", "[[In a restaurant|En un restaurante]]", "[[At home|En casa]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice: 'works in a hospital'."
+          "explanation": "[[Text|Texto]] [[only|solamente]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-10/e53.mp3",
     "topicName": "Reading"
   },
   {
@@ -1086,27 +1049,20 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading",
-    "difficulty": "medium",
-    "transcript": "Hello, my name is Anna. I am from Italy. I am twenty-two years old. I study art in a small school. I have five colors: red, blue, green, yellow, and black. I draw a big blue bird. My teacher likes my drawing. I love my classes.",
+    "difficulty": "easy",
+    "transcript": "My best friend is Paul. He is very tall and thin. He has big blue eyes and short brown hair. He is very happy today.",
     "content": {
-      "title": "El Dibujo de Anna",
-      "instructions": "Lee sobre Anna y responde.",
+      "title": "[[Reading|Lectura]]: [[Paul|Paul]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
       "questions": [
         {
-          "question": "[[Where|De dónde]] [[is|es]] [[Anna|Anna]] [[from|de]]?",
-          "options": ["[[Italy|Italia]]", "[[Spain|España]]", "[[Mexico|México]]"],
-          "correctAnswer": 0,
-          "explanation": "Anna dice: 'I am from Italy'."
-        },
-        {
-          "question": "[[What|Qué]] [[does|hace]] [[she|ella]] [[draw|dibujar]]?",
-          "options": ["[[A blue bird|Un pájaro azul]]", "[[A red house|Una casa roja]]", "[[A green tree|Un árbol verde]]"],
-          "correctAnswer": 0,
-          "explanation": "Anna dice: 'I draw a big blue bird'."
+          "question": "[[How|Cómo]] [[is|es]] [[Paul|Paul]]?",
+          "options": ["[[Short|Bajo]] [[and|y]] [[fat|gordo]]", "[[Tall|Alto]] [[and|y]] [[thin|delgado]]", "[[Old|Viejo]] [[and|y]] [[tired|cansado]]"],
+          "correctAnswer": 1,
+          "explanation": "[[Paul|Paul]] [[is|es]] [[tall|alto]] [[and|y]] [[thin|delgado]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-10/e54.mp3",
     "topicName": "Reading"
   },
   {
@@ -1114,27 +1070,20 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading",
-    "difficulty": "medium",
-    "transcript": "This is my brother, Tom. He is twenty-five. He is a police officer. He works at the police station. He is very strong and tall. He has a black uniform and a fast car. He works every day but not on Sundays. On Sundays, he sleeps a lot.",
+    "difficulty": "easy",
+    "transcript": "My best friend is Paul. He is very tall and thin. He has big blue eyes and short brown hair. He is very happy today.",
     "content": {
-      "title": "Mi Hermano Tom",
-      "instructions": "Lee sobre Tom y responde.",
+      "title": "[[Reading|Lectura]]: [[Paul|Paul]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
       "questions": [
         {
-          "question": "[[What|Cuál]] [[is|es]] [[Tom's|de Tom]] [[job|trabajo]]?",
-          "options": ["[[Police officer|Oficial de policía]]", "[[Driver|Conductor]]", "[[Doctor|Médico]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice: 'He is a police officer'."
-        },
-        {
-          "question": "[[When|Cuándo]] [[does|hace]] [[he|él]] [[sleep|dormir]] [[a|un]] [[lot|poco]]?",
-          "options": ["[[On Sundays|Los domingos]]", "[[Every day|Cada día]]", "[[On Mondays|Los lunes]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice: 'On Sundays, he sleeps a lot'."
+          "question": "[[What|De qué]] [[color|color]] [[are|son]] [[his|sus]] [[eyes|ojos]]?",
+          "options": ["[[Brown|Marrones]]", "[[Green|Verdes]]", "[[Blue|Azules]]"],
+          "correctAnswer": 2,
+          "explanation": "[[He|Él]] [[has|tiene]] [[blue|azules]] [[eyes|ojos]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-10/e55.mp3",
     "topicName": "Reading"
   },
   {
@@ -1142,55 +1091,42 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading",
-    "difficulty": "medium",
-    "transcript": "We have a big family dinner on Saturdays. My grandmother is seventy years old and she is a very good chef. She makes eighty small cakes for us. My grandfather is seventy-five and he drinks tea. We talk and play games. We don't use our phones. We are very happy.",
+    "difficulty": "easy",
+    "transcript": "My best friend is Paul. He is very tall and thin. He has big blue eyes and short brown hair. He is very happy today.",
     "content": {
-      "title": "Cena con los Abuelos",
-      "instructions": "Lee sobre la cena y responde.",
+      "title": "[[Reading|Lectura]]: [[Paul|Paul]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
       "questions": [
         {
-          "question": "[[How|Qué]] [[old|vieja]] [[is|es]] [[the|la]] [[grandmother|abuela]]?",
-          "options": ["[[Seventy|Setenta]]", "[[Eighty|Ochenta]]", "[[Seventy-five|Setenta y cinco]]"],
+          "question": "[[How|Cómo]] [[is|es]] [[his|su]] [[hair|pelo]]?",
+          "options": ["[[Short|Corto]] [[and|y]] [[brown|marrón]]", "[[Long|Largo]] [[and|y]] [[black|negro]]", "[[Short|Corto]] [[and|y]] [[grey|gris]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'My grandmother is seventy years old'."
-        },
-        {
-          "question": "[[How|Cuántos]] [[many|muchos]] [[cakes|pasteles]] [[does|hace]] [[she|ella]] [[make|hacer]]?",
-          "options": ["[[Eighty|Ochenta]]", "[[Seventy|Setenta]]", "[[Seventy-five|Setenta y cinco]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice: 'She makes eighty small cakes'."
+          "explanation": "[[He|Él]] [[has|tiene]] [[short|corto]] [[brown|marrón]] [[hair|pelo]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-10/e56.mp3",
     "topicName": "Reading"
   },
+  // --- READING 5: FINAL ASSESSMENT (57-60) ---
   {
     "id": "a1-u10-e57",
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading",
-    "difficulty": "medium",
-    "transcript": "Look at my desk. I have three blue pens, four pencils, and one big notebook. I also have an eraser and a ruler. My desk is small and brown. I study here every afternoon. Today I study English and math. I have a lot of work.",
+    "difficulty": "easy",
+    "transcript": "This is Julia. She is Spanish. She is a doctor. Julia's husband, Peter, is from the UK. He is an engineer. They are very happy in Spain.",
     "content": {
-      "title": "Mi Escritorio de Estudio",
-      "instructions": "Lee sobre el escritorio y responde.",
+      "title": "[[Reading|Lectura]]: [[Final|Final]] [[Assessment|Evaluación]]",
+      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]].",
       "questions": [
         {
-          "question": "[[How|Cuántos]] [[many|muchos]] [[pencils|lápices]] [[are|hay]] [[on|en]] [[the|el]] [[desk|escritorio]]?",
-          "options": ["[[Four|Cuatro]]", "[[Three|Tres]]", "[[One|Uno]]"],
+          "question": "[[This|Esta]] [[is|es]] [[Julia|Julia]]. [[She|Ella]] [[is|es]] [[Spanish|española]]. [[She|Ella]] [[is|es]] [[a|una]] [[doctor|médica]]. [[Julia's|De Julia]] [[husband|esposo]], [[Peter|Peter]], [[is|es]] [[from|de]] [[the|el]] [[UK|Reino Unido]]. [[He|Él]] [[is|es]] [[an|un]] [[engineer|ingeniero]]. [[They|Ellos]] [[are|están]] [[very|muy]] [[happy|felices]] [[in|en]] [[Spain|España]].",
+          "options": ["[[I|Yo]] [[read|leo]] [[the|el]] [[text|texto]]."],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'four pencils'."
-        },
-        {
-          "question": "[[When|Cuándo]] [[does|hace]] [[the|la]] [[person|persona]] [[study|estudiar]]?",
-          "options": ["[[Every afternoon|Cada tarde]]", "[[Every morning|Cada mañana]]", "[[On weekends|Fines de semana]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice: 'I study here every afternoon'."
+          "explanation": "[[Text|Texto]] [[only|solamente]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-10/e57.mp3",
     "topicName": "Reading"
   },
   {
@@ -1198,27 +1134,20 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading",
-    "difficulty": "medium",
-    "transcript": "There is a new shop in my street. It is very big and red. They have ninety different shirts and fifty pairs of shoes. The shop is open from nine to nine. I work there on Saturdays. I am a salesperson. I help many people every day.",
+    "difficulty": "easy",
+    "transcript": "This is Julia. She is Spanish. She is a doctor. Julia's husband, Peter, is from the UK. He is an engineer. They are very happy in Spain.",
     "content": {
-      "title": "La Nueva Tienda",
-      "instructions": "Lee sobre la tienda y responde.",
+      "title": "[[Reading|Lectura]]: [[Julia|Julia]] [[and|y]] [[Peter|Peter]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
       "questions": [
         {
-          "question": "[[How|Cuántas]] [[many|muchas]] [[shirts|camisas]] [[does|hace]] [[the|la]] [[shop|tienda]] [[have|tener]]?",
-          "options": ["[[Ninety|Noventa]]", "[[Fifty|Cincuenta]]", "[[Nine|Nueve]]"],
+          "question": "[[What|Qué]] [[is|es]] [[Julia's|de Julia]] [[job|trabajo]]?",
+          "options": ["[[Doctor|Médica]]", "[[Engineer|Ingeniero]]", "[[Nurse|Enfermera]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'ninety different shirts'."
-        },
-        {
-          "question": "[[What|Cuál]] [[is|es]] [[the|el]] [[person's|de la persona]] [[job|trabajo]]?",
-          "options": ["[[Salesperson|Vendedor]]", "[[Manager|Gerente]]", "[[Teacher|Profesor]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice: 'I am a salesperson'."
+          "explanation": "[[Julia|Julia]] [[is|es]] [[a|una]] [[doctor|médica]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-10/e58.mp3",
     "topicName": "Reading"
   },
   {
@@ -1226,27 +1155,20 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading",
-    "difficulty": "medium",
-    "transcript": "My best friend is Luis. He is from Spain. He is twenty-eight years old. He is a driver. He works in a big office. He drinks tea every morning and eats a sandwich for lunch. He has a black cat. Luis is very nice and happy.",
+    "difficulty": "easy",
+    "transcript": "This is Julia. She is Spanish. She is a doctor. Julia's husband, Peter, is from the UK. He is an engineer. They are very happy in Spain.",
     "content": {
-      "title": "Mi Amigo Luis",
-      "instructions": "Lee sobre Luis y responde.",
+      "title": "[[Reading|Lectura]]: [[Julia|Julia]] [[and|y]] [[Peter|Peter]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
       "questions": [
         {
-          "question": "[[Where|De dónde]] [[is|es]] [[Luis|Luis]] [[from|de]]?",
-          "options": ["[[Spain|España]]", "[[Italy|Italia]]", "[[Mexico|México]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice: 'He is from Spain'."
-        },
-        {
-          "question": "[[What|Qué]] [[does|hace]] [[he|él]] [[eat|comer]] [[for|para el]] [[lunch|almuerzo]]?",
-          "options": ["[[A sandwich|Un sándwich]]", "[[Pizza|Pizza]]", "[[Apple|Manzana]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice: 'eats a sandwich for lunch'."
+          "question": "[[Where|De dónde]] [[is|es]] [[Peter|Peter]] [[from|de]]?",
+          "options": ["[[Spain|España]]", "[[The USA|EE.UU.]]", "[[The UK|Reino Unido]]"],
+          "correctAnswer": 2,
+          "explanation": "[[Peter|Peter]] [[is|es]] [[from|de]] [[the|el]] [[UK|Reino Unido]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-10/e59.mp3",
     "topicName": "Reading"
   },
   {
@@ -1254,27 +1176,20 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading",
-    "difficulty": "medium",
-    "transcript": "Welcome to our farm! We have ten cows and sixty chickens. My father is a farmer and he works very hard. Every morning, we eat eggs and drink milk. We have a big white dog. It is very quiet here. We love our animals and our home.",
+    "difficulty": "easy",
+    "transcript": "This is Julia. She is Spanish. She is a doctor. Julia's husband, Peter, is from the UK. He is an engineer. They are very happy in Spain.",
     "content": {
-      "title": "En la Granja",
-      "instructions": "Lee sobre la granja y responde.",
+      "title": "[[Reading|Lectura]]: [[Julia|Julia]] [[and|y]] [[Peter|Peter]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
       "questions": [
         {
-          "question": "[[How|Cuántos]] [[many|muchos]] [[chickens|pollos]] [[are|hay]] [[on|en]] [[the|la]] [[farm|granja]]?",
-          "options": ["[[Sixty|Sesenta]]", "[[Ten|Diez]]", "[[One hundred|Cien]]"],
+          "question": "[[Where|Dónde]] [[are|están]] [[they|ellos]] [[now|ahora]]?",
+          "options": ["[[In Spain|En España]]", "[[In the UK|En el Reino Unido]]", "[[In the USA|En los EE.UU.]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'sixty chickens'."
-        },
-        {
-          "question": "[[What|Qué]] [[do|aux]] [[they|ellos]] [[drink|beber]] [[every|cada]] [[morning|mañana]]?",
-          "options": ["[[Milk|Leche]]", "[[Water|Agua]]", "[[Coffee|Café]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice: 'drink milk'."
+          "explanation": "[[They|Ellos]] [[are|están]] [[in|en]] [[Spain|España]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-10/e60.mp3",
     "topicName": "Reading"
   }
 ];
