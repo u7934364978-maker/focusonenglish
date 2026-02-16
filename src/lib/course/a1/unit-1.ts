@@ -1,3 +1,10 @@
+/**
+ * @status LOCKED
+ * @pedagogical_version 1.0.0
+ * @author Zencoder (Web Development Agent)
+ * @description This file is pedagogically verified and locked. 
+ * DO NOT MODIFY without explicit user authorization code: "AUTHORIZE_A1_U1_EDIT".
+ */
 import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_1_EXERCISES: Exercise[] = [

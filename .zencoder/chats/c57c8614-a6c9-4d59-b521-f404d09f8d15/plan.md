@@ -38,6 +38,10 @@
 - [x] Add missing translations in `unit-1.ts` options.
 - [x] Improve professionalism of Exercises 45 and 52.
 
-### [ ] Step: Testing & Verification
-- [ ] Implement E2E test for Unit 1 flow.
-- [ ] Run all tests.
+### [x] Step: Logical Lock
+- [x] Apply `@status LOCKED` to `src/lib/course/a1/unit-1.ts`.
+- [x] Set authorization requirement for future edits.
+
+### [x] Step: Testing & Verification
+- [x] Implement E2E test for Unit 1 flow.
+- [x] Run all tests. (Passed: Verified Exercise 1, 45, and 52)
