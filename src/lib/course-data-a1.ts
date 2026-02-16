@@ -4,9 +4,9 @@
 
 
 // Import detailed exercises
-import { UNIT_1_EXERCISES as A1_M1_L1_ALL_EXERCISES } from './course/a1/unit-1';
-import { UNIT_2_EXERCISES as A1_M1_L2_ALL_EXERCISES } from './course/a1/unit-2';
-import { UNIT_3_EXERCISES as A1_M1_L3_ALL_EXERCISES } from './course/a1/unit-3';
+import { A1_M1_L1_ALL_EXERCISES } from './a1-m1-l1-detailed';
+import { A1_M1_L2_ALL_EXERCISES } from './a1-m1-l2-detailed';
+import { A1_M1_L3_ALL_EXERCISES } from './a1-m1-l3-detailed';
 import { A1_M1_L4_ALL_EXERCISES } from './a1-m1-l4-detailed';
 import { A1_M1_L5_ALL_EXERCISES } from './a1-m1-l5-detailed';
 import { A1_M1_L6_ALL_EXERCISES } from './a1-m1-l6-detailed';
