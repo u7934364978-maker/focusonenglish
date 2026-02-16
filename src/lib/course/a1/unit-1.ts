@@ -6,17 +6,21 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Greetings",
-    "difficulty": "easy",
-    "transcript": "[[Hello|Hola]], [[how|cómo]] [[are|estás]] [[you|tú]]?",
+    "difficulty": "medium",
+    "transcript": "[[Hello|Hola]], [[how|cómo]] [[is|está]] [[it|ello]] [[going|yendo]]?",
     "content": {
-      "title": "[[Basic|Básico]] [[Greetings|Saludos]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[meaning|significado]] [[of|de]] '[[Hello|Hola]]'.",
+      "title": "[[Appropriate|Apropiado]] [[Greetings|Saludos]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[most|más]] [[natural|natural]] [[way|forma]] [[to|de]] [[respond|responder]] [[to|a]] [[a|un]] [[friend|amigo]].",
       "questions": [
         {
-          "question": "[[What|Qué]] [[does|hace]] '[[Hello|Hola]]' [[mean|significa]]?",
-          "options": ["[[Hola|Hello]]", "[[Adiós|Goodbye]]", "[[Gracias|Thank you]]"],
+          "question": "[[Your|Tu]] [[friend|amigo]] [[says|dice]]: '[[How|Cómo]] [[is|está]] [[it|ello]] [[going|yendo]]?'. [[How|Cómo]] [[do|haces]] [[you|tú]] [[respond|responder]]?",
+          "options": [
+            "[[It|Ello]] [[is|está]] [[going|yendo]] [[well|bien]], [[thanks|gracias]]!",
+            "[[My|Mi]] [[name|nombre]] [[is|es]] [[John|Juan]].",
+            "[[Good morning|Buenos días]], [[teacher|profesor]]."
+          ],
           "correctAnswer": 0,
-          "explanation": "'[[Hello|Hola]]' [[is|es]] [[the|el]] [[most|más]] [[common|común]] [[way|forma]] [[to|de]] [[start|empezar]] [[a|una]] [[conversation|conversación]]."
+          "explanation": "'[[How|Cómo]] [[is|está]] [[it|ello]] [[going|yendo]]?' [[is|es]] [[an|un]] [[informal|informal]] [[greeting|saludo]]. [[The|La]] [[response|respuesta]] [[should|debería]] [[match|coincidir]] [[the|el]] [[tone|tono]]."
         }
       ]
     },
@@ -26,41 +30,35 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "id": "a1-u1-e2",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Greetings",
-    "difficulty": "easy",
-    "transcript": "[[Good|Buenos]] [[morning|días]].",
+    "topic": "Verb To Be",
+    "difficulty": "hard",
+    "transcript": "[[She|Ella]] [[is|es]] [[the|la]] [[new|nueva]] [[teacher|profesora]] [[from|de]] [[London|Londres]].",
     "content": {
-      "title": "[[Time|Tiempo]] [[of|de]] [[day|día]] [[Greetings|Saludos]]",
-      "instructions": "[[Select|Selecciona]] [[the|el]] [[greeting|saludo]] [[for|para]] [[the|la]] [[morning|mañana]].",
+      "title": "[[Subject-Verb|Sujeto-Verbo]] [[Agreement|Concordancia]]",
+      "instructions": "[[Identify|Identifica]] [[the|la]] [[correct|correcta]] [[form|forma]] [[of|de]] [[the|el]] [[verb|verbo]] [[to|a]] [[be|ser/estar]] [[for|para]] [[the|la]] [[third|tercera]] [[person|persona]].",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[do|haces]] [[you|tú]] [[say|decir]] '[[Buenos días|Good morning]]' [[in|en]] [[English|Inglés]]?",
-          "options": ["[[Good morning|Buenos días]]", "[[Good afternoon|Buenas tardes]]", "[[Good night|Buenas noches]]"],
-          "correctAnswer": 0,
-          "explanation": "[[We|Nosotros]] [[use|usamos]] '[[Good morning|Buenos días]]' [[until|hasta]] [[noon|mediodía]]."
+          "question": "[[Miss|La Srta.]] [[Taylor|Taylor]] (_____) [[our|nuestra]] [[new|nueva]] [[teacher|profesora]].",
+          "options": ["[[am|soy/estoy]]", "[[is|es/está]]", "[[are|eres/estás]]"],
+          "correctAnswer": 1,
+          "explanation": "[[Use|Usa]] '[[is|es/está]]' [[for|para]] [[singular|singulares]] [[like|como]] '[[she|ella]]', '[[he|él]]', [[or|o]] [[proper|propios]] [[names|nombres]]."
         }
       ]
     },
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u1-e3",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Greetings",
-    "difficulty": "easy",
-    "transcript": "[[Good|Buenas]] [[afternoon|tardes]].",
+    "topic": "Personal Info",
+    "difficulty": "hard",
+    "transcript": "[[What|Cuál]] [[is|es]] [[your|tu]] [[full|completo]] [[name|nombre]]?",
     "content": {
-      "title": "[[Time|Tiempo]] [[of|de]] [[day|día]] [[Greetings|Saludos]]",
-      "instructions": "[[Select|Selecciona]] [[the|el]] [[greeting|saludo]] [[for|para]] [[the|la]] [[afternoon|tarde]].",
-      "questions": [
-        {
-          "question": "[[How|Cómo]] [[do|haces]] [[you|tú]] [[say|decir]] '[[Buenas tardes|Good afternoon]]' [[in|en]] [[English|Inglés]]?",
-          "options": ["[[Good morning|Buenos días]]", "[[Good afternoon|Buenas tardes]]", "[[Good night|Buenas noches]]"],
-          "correctAnswer": 1,
-          "explanation": "[[We|Nosotros]] [[use|usamos]] '[[Good afternoon|Buenas tardes]]' [[from|desde]] [[noon|mediodía]] [[until|hasta]] [[sunset|atardecer]]."
-        }
-      ]
+      "title": "[[Asking|Preguntando]] [[Formal|Formal]] [[Questions|Preguntas]]",
+      "instructions": "[[Build|Construye]] [[the|la]] [[question|pregunta]] [[to|para]] [[ask|preguntar]] [[for|por]] [[someone's|de alguien]] [[name|nombre]].",
+      "correctSentence": "[[What|Cuál]] [[is|es]] [[your|tu]] [[full|completo]] [[name|nombre]]?",
+      "words": ["[[is|es]]", "[[full|completo]]", "[[What|Cuál]]", "[[your|tu]]", "[[name|nombre]]?"]
     },
     "topicName": "Vocabulary"
   },
@@ -68,40 +66,38 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "id": "a1-u1-e4",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Farewells",
-    "difficulty": "easy",
-    "transcript": "[[Goodbye|Adiós]], [[see|nos]] [[you|vemos]] [[later|luego]].",
+    "topic": "Grammar",
+    "difficulty": "hard",
+    "transcript": "[[It|Eso]] [[is|es]] [[an|una]] [[interesting|interesante]] [[introduction|presentación]].",
     "content": {
-      "title": "[[Saying|Diciendo]] [[Goodbye|Adiós]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[way|forma]] [[to|de]] [[say|decir]] [[farewell|despedida]].",
+      "title": "[[Complex|Complejos]] [[Articles|Artículos]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[article|artículo]] [[based|basado]] [[on|en]] [[the|el]] [[adjective|adjetivo]].",
       "questions": [
         {
-          "question": "[[What|Qué]] [[is|es]] [[a|un]] [[synonym|sinónimo]] [[of|de]] '[[Goodbye|Adiós]]'?",
-          "options": ["[[Hello|Hola]]", "[[Hi|Hola]]", "[[Bye|Adiós]]"],
-          "correctAnswer": 2,
-          "explanation": "'[[Bye|Adiós]]' [[is|es]] [[the|la]] [[short|corta]] [[and|y]] [[informal|informal]] [[version|versión]] [[of|de]] '[[Goodbye|Adiós]]'."
+          "question": "[[That|Eso]] [[is|es]] (_____) [[excellent|excelente]] [[surname|apellido]].",
+          "options": ["[[a|un/una]]", "[[an|un/una]]", "[[the|el/la]]"],
+          "correctAnswer": 1,
+          "explanation": "[[Since|Ya que]] '[[excellent|excelente]]' [[starts|empieza]] [[with|con]] [[a|un]] [[vowel|vocal]] [[sound|sonido]], [[we|nosotros]] [[use|usamos]] '[[an|un/una]]'."
         }
       ]
     },
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u1-e5",
-    "type": "multiple-choice",
+    "type": "matching",
     "level": "A1",
     "topic": "Personal Info",
-    "difficulty": "easy",
-    "transcript": "[[My|Mi]] [[name|nombre]] [[is|es]] [[Alice|Alicia]].",
+    "difficulty": "hard",
+    "transcript": "[[Match|Empareja]] [[the|las]] [[questions|preguntas]] [[with|con]] [[the|las]] [[answers|respuestas]].",
     "content": {
-      "title": "[[Introducing|Presentando]] [[Yourself|a ti mismo]]",
-      "instructions": "[[Select|Selecciona]] [[the|la]] [[word|palabra]] [[for|para]] '[[nombre|name]]'.",
-      "questions": [
-        {
-          "question": "[[My|Mi]] (_____) [[is|es]] [[Alice|Alicia]].",
-          "options": ["[[Name|Nombre]]", "[[Surname|Apellido]]", "[[Teacher|Profesor/a]]"],
-          "correctAnswer": 0,
-          "explanation": "[[Use|Usa]] '[[Name|Nombre]]' [[to|para]] [[identify|identificar]] [[who|quién]] [[you|tú]] [[are|eres]]."
-        }
+      "title": "[[Contextual|Contextual]] [[Conversation|Conversación]]",
+      "instructions": "[[Match|Empareja]] [[each|cada]] [[question|pregunta]] [[with|con]] [[the|la]] [[most|más]] [[logical|lógica]] [[response|respuesta]].",
+      "pairs": [
+        { "left": "[[How|Cómo]] [[do|haces]] [[you|tú]] [[spell|deletrear]] [[it|ello]]?", "right": "[[S-M-I-T-H|S-M-I-T-H]]." },
+        { "left": "[[Where|De dónde]] [[are|eres]] [[you|tú]] [[from|de]]?", "right": "[[I|Yo]] [[am|soy]] [[from|de]] [[Rome|Roma]]." },
+        { "left": "[[What|Qué]] [[is|es]] [[your|tu]] [[job|trabajo]]?", "right": "[[I|Yo]] [[am|soy]] [[a|un]] [[manager|gerente]]." },
+        { "left": "[[Are|¿Eres]] [[you|tú]] [[ready|listo]]?", "right": "[[Yes|Sí]], [[I|yo]] [[am|estoy]]." }
       ]
     },
     "topicName": "Vocabulary"
@@ -110,39 +106,39 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "id": "a1-u1-e6",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Personal Info",
-    "difficulty": "easy",
-    "transcript": "[[My|Mi]] [[surname|apellido]] [[is|es]] [[Smith|Smith]].",
+    "topic": "Verb To Be",
+    "difficulty": "hard",
+    "transcript": "[[Are|¿Son]] [[you|tú]] [[and|y]] [[John|Juan]] [[students|estudiantes]]?",
     "content": {
-      "title": "[[Family|Familia]] [[Names|Nombres]]",
-      "instructions": "[[Identify|Identifica]] [[the|la]] [[word|palabra]] [[for|para]] '[[apellido|surname]]'.",
+      "title": "[[Plural|Plural]] [[Subjects|Sujetos]]",
+      "instructions": "[[Identify|Identifica]] [[the|el]] [[correct|correcto]] [[verb|verbo]] [[for|para]] [[combined|combinados]] [[subjects|sujetos]].",
       "questions": [
         {
-          "question": "[[Smith|Smith]] [[is|es]] [[my|mi]] (_____).",
-          "options": ["[[Name|Nombre]]", "[[Surname|Apellido]]", "[[Title|Título]]"],
-          "correctAnswer": 1,
-          "explanation": "[[In|En]] [[English|Inglés]], '[[surname|apellido]]' [[is|es]] [[also|también]] [[called|llamado]] '[[last|último]] [[name|nombre]]'."
+          "question": "[[You|Tú]] [[and|y]] [[Mary|María]] (_____) [[very|muy]] [[nice|amables]].",
+          "options": ["[[is|es/está]]", "[[am|soy/estoy]]", "[[are|son/están]]"],
+          "correctAnswer": 2,
+          "explanation": "'[[You|Tú]] [[and|y]] [[Mary|María]]' [[is|es]] [[equivalent|equivalente]] [[to|a]] '[[you|ustedes]]' ([[plural|plural]]), [[so|así que]] [[we|nosotros]] [[use|usamos]] '[[are|son/están]]'."
         }
       ]
     },
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u1-e7",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Verb To Be",
-    "difficulty": "easy",
-    "transcript": "[[I|Yo]] [[am|soy]] [[a|un/una]] [[student|estudiante]].",
+    "topic": "Possessive Adjectives",
+    "difficulty": "hard",
+    "transcript": "[[Is|¿Es]] [[this|este]] [[your|tu]] [[passport|pasaporte]] [[or|o]] [[my|mi]] [[passport|pasaporte]]?",
     "content": {
-      "title": "[[Verb|Verbo]] [[To|A]] [[Be|Ser/Estar]] (I)",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]] [[of|de]] [[the|el]] [[verb|verbo]] [[for|para]] '[[I|Yo]]'.",
+      "title": "[[Distinguishing|Distinguiendo]] [[Possessives|Posesivos]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[option|opción]] [[that|que]] [[correctly|correctamente]] [[shows|muestra]] [[possession|posesión]].",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[a|un/una]] [[student|estudiante]].",
-          "options": ["[[am|soy/estoy]]", "[[is|es/está]]", "[[are|eres/estás]]"],
-          "correctAnswer": 0,
-          "explanation": "[[We|Nosotros]] [[always|siempre]] [[use|usamos]] '[[am|soy/estoy]]' [[with|con]] '[[I|Yo]]'."
+          "question": "[[This|Este]] [[is|es]] [[my|mi]] [[friend|amigo]]. (_____) [[name|nombre]] [[is|es]] [[Paul|Pablo]].",
+          "options": ["[[He|Él]]", "[[His|Su (de él)]]", "[[Your|Tu]]"],
+          "correctAnswer": 1,
+          "explanation": "[[His|Su]] [[is|es]] [[the|el]] [[possessive|posesivo]] [[for|para]] [[a|un]] [[male|masculino]] [[person|persona]]."
         }
       ]
     },
@@ -152,41 +148,39 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "id": "a1-u1-e8",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Verb To Be",
-    "difficulty": "easy",
-    "transcript": "[[You|Tú]] [[are|eres]] [[from|de]] [[Spain|España]].",
+    "topic": "Personal Info",
+    "difficulty": "hard",
+    "transcript": "[[He|Él]] [[is|tiene]] [[thirteen|trece]] [[years|años]] [[old|de edad]].",
     "content": {
-      "title": "[[Verb|Verbo]] [[To|A]] [[Be|Ser/Estar]] (You)",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]] [[of|de]] [[the|el]] [[verb|verbo]] [[for|para]] '[[You|Tú]]'.",
+      "title": "[[Age|Edad]] [[Structure|Estructura]]",
+      "instructions": "[[Identify|Identifica]] [[the|el]] [[error|error]] [[common|común]] [[in|en]] [[talking|hablar]] [[about|sobre]] [[age|edad]].",
       "questions": [
         {
-          "question": "[[You|Tú]] (_____) [[from|de]] [[Spain|España]].",
-          "options": ["[[am|soy/estoy]]", "[[is|es/está]]", "[[are|eres/estás]]"],
-          "correctAnswer": 2,
-          "explanation": "[[We|Nosotros]] [[always|siempre]] [[use|usamos]] '[[are|eres/estás]]' [[with|con]] '[[You|Tú]]'."
+          "question": "[[Which|Cuál]] [[sentence|oración]] [[is|es]] [[correct|correcta]]?",
+          "options": [
+            "[[I|Yo]] [[have|tengo]] 15 [[years|años]].",
+            "[[I|Yo]] [[am|soy/tengo]] 15 [[years|años]] [[old|de edad]].",
+            "[[My|Mi]] [[age|edad]] [[is|es]] 15 [[years|años]] [[old|de edad]]."
+          ],
+          "correctAnswer": 1,
+          "explanation": "[[Always|Siempre]] [[use|usa]] '[[be|ser/estar]]' + [[number|número]] + '[[years|años]] [[old|de edad]]'."
         }
       ]
     },
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u1-e9",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Possessive Adjectives",
-    "difficulty": "easy",
-    "transcript": "[[This|Este]] [[is|es]] [[my|mi]] [[passport|pasaporte]].",
+    "topic": "Verb To Be",
+    "difficulty": "hard",
+    "transcript": "[[They|Ellos]] [[are|son]] [[not|no]] [[American|Americanos]], [[they|ellos]] [[are|son]] [[English|Ingleses]].",
     "content": {
-      "title": "[[Possessives|Posesivos]]: [[My|Mi]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|oración]].",
-      "questions": [
-        {
-          "question": "[[I|Yo]] [[am|soy]] [[John|Juan]]. (_____) [[name|nombre]] [[is|es]] [[John|Juan]].",
-          "options": ["[[My|Mi]]", "[[Your|Tu]]", "[[I|Yo]]"],
-          "correctAnswer": 0,
-          "explanation": "'[[My|Mi]]' [[is|es]] [[the|el]] [[possessive|posesivo]] [[adjective|adjetivo]] [[for|para]] '[[I|Yo]]'."
-        }
-      ]
+      "title": "[[Complex|Compleja]] [[Negative|Negativa]] [[Structure|Estructura]]",
+      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]] [[for|para]] [[a|una]] [[negative|negativa]] [[sentence|oración]].",
+      "correctSentence": "[[They|Ellos]] [[are|son]] [[not|no]] [[American|Americanos]].",
+      "words": ["[[American|Americanos]].", "[[are|son]]", "[[not|no]]", "[[They|Ellos]]"]
     },
     "topicName": "Grammar"
   },
@@ -194,54 +188,60 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "id": "a1-u1-e10",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Possessive Adjectives",
-    "difficulty": "easy",
-    "transcript": "[[What|Qué]] [[is|es]] [[your|tu]] [[name|nombre]]?",
+    "topic": "Greetings",
+    "difficulty": "hard",
+    "transcript": "[[It|Es]] [[is|un]] [[pleasure|placer]] [[to|de]] [[meet|conocerte]] [[you|a ti]].",
     "content": {
-      "title": "[[Possessives|Posesivos]]: [[Your|Tu]]",
-      "instructions": "[[Ask|Pregunta]] [[for|por]] [[someone|de alguien]] [[name|nombre]].",
+      "title": "[[Formal|Formal]] [[Introductions|Presentaciones]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[most|más]] [[formal|formal]] [[way|forma]] [[to|de]] [[greet|saludar]] [[someone|a alguien]].",
       "questions": [
         {
-          "question": "[[What|Qué]] [[is|es]] (_____) [[name|nombre]]?",
-          "options": ["[[my|mi]]", "[[your|tu]]", "[[you|tú]]"],
+          "question": "[[Which|Cuál]] [[is|es]] [[the|la]] [[most|más]] [[formal|formal]]?",
+          "options": [
+            "[[How|Cómo]] [[is|está]] [[it|ello]] [[going|yendo]]?",
+            "[[Hi|Hola]] [[there|ahí]]!",
+            "[[It|Es]] [[is|un]] [[pleasure|placer]] [[to|de]] [[meet|conocerte]] [[you|a ti]]."
+          ],
+          "correctAnswer": 2,
+          "explanation": "'[[It|Es]] [[is|un]] [[pleasure|placer]] [[to|de]] [[meet|conocerte]] [[you|a ti]]' [[is|es]] [[high|altamente]] [[formal|formal]]."
+        }
+      ]
+    },
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u1-e11",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Grammar",
+    "difficulty": "hard",
+    "transcript": "[[Who|Quién]] [[is|es]] [[the|el]] [[man|hombre]] [[over|allí]] [[there|mismo]]?",
+    "content": {
+      "title": "[[Question|Pregunta]] [[Word|Palabra]] [[Logic|Lógica]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[question|pregunta]] [[word|palabra]] [[based|basada]] [[on|en]] [[the|el]] [[context|contexto]].",
+      "questions": [
+        {
+          "question": "(_____) [[is|es]] [[that|ese]] [[woman|mujer]]? [[She|Ella]] [[is|es]] [[my|mi]] [[manager|gerente]].",
+          "options": ["[[What|Qué]]", "[[Who|Quién]]", "[[Where|Dónde]]"],
           "correctAnswer": 1,
-          "explanation": "'[[Your|Tu]]' [[is|es]] [[the|el]] [[possessive|posesivo]] [[adjective|adjetivo]] [[for|para]] '[[You|Tú]]'."
+          "explanation": "[[We|Nosotros]] [[use|usamos]] '[[Who|Quién]]' [[because|porque]] [[the|la]] [[answer|respuesta]] [[refers|se refiere]] [[to|a]] [[a|una]] [[person|persona]]."
         }
       ]
     },
     "topicName": "Grammar"
   },
   {
-    "id": "a1-u1-e11",
-    "type": "matching",
-    "level": "A1",
-    "topic": "Greetings",
-    "difficulty": "easy",
-    "transcript": "[[Match|Empareja]] [[the|los]] [[greetings|saludos]].",
-    "content": {
-      "title": "[[Greeting|Saludo]] [[Pairs|Parejas]]",
-      "instructions": "[[Match|Empareja]] [[the|el]] [[English|Inglés]] [[greeting|saludo]] [[with|con]] [[the|la]] [[Spanish|Español]] [[translation|traducción]].",
-      "pairs": [
-        { "left": "[[Hello|Hola]]", "right": "[[Hola|Hello]]" },
-        { "left": "[[Goodbye|Adiós]]", "right": "[[Adiós|Goodbye]]" },
-        { "left": "[[Morning|Mañana]]", "right": "[[Mañana|Morning]]" },
-        { "left": "[[Afternoon|Tarde]]", "right": "[[Tarde|Afternoon]]" }
-      ]
-    },
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u1-e12",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Greetings",
-    "difficulty": "easy",
-    "transcript": "[[Good|Buenos]] [[morning|días]].",
+    "topic": "Numbers",
+    "difficulty": "hard",
+    "transcript": "[[Seventeen|Diecisiete]] [[is|es]] [[my|mi]] [[favorite|favorito]] [[number|número]].",
     "content": {
-      "title": "[[Building|Construyendo]] [[Greetings|Saludos]]",
-      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]].",
-      "correctSentence": "[[Good|Buenos]] [[morning|días]].",
-      "words": ["[[morning|días]].", "[[Good|Buenos]]"]
+      "title": "[[Number|Número]] [[Spelling|Escritura]]",
+      "instructions": "[[Build|Construye]] [[the|la]] [[sentence|oración]] [[with|con]] [[the|el]] [[correct|correcto]] [[number|número]].",
+      "correctSentence": "[[Seventeen|Diecisiete]] [[is|es]] [[my|mi]] [[favorite|favorito]] [[number|número]].",
+      "words": ["[[is|es]]", "[[Seventeen|Diecisiete]]", "[[number|número]].", "[[favorite|favorito]]", "[[my|mi]]"]
     },
     "topicName": "Vocabulary"
   },
@@ -249,39 +249,39 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "id": "a1-u1-e13",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Verb To Be",
-    "difficulty": "medium",
-    "transcript": "[[He|Él]] [[is|es]] [[the|el]] [[manager|gerente]].",
+    "topic": "Alphabet",
+    "difficulty": "hard",
+    "transcript": "[[Can|¿Puedes]] [[you|tú]] [[repeat|repetir]] [[the|las]] [[last|últimas]] [[three|tres]] [[letters|letras]]?",
     "content": {
-      "title": "[[Verb|Verbo]] [[To|A]] [[Be|Ser/Estar]] (He/She)",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|oración]].",
+      "title": "[[Alphabetical|Alfabético]] [[Order|Orden]]",
+      "instructions": "[[Identify|Identifica]] [[the|la]] [[correct|correcta]] [[sequence|secuencia]].",
       "questions": [
         {
-          "question": "[[She|Ella]] (_____) [[a|una]] [[doctor|doctora]].",
-          "options": ["[[am|soy/estoy]]", "[[is|es/está]]", "[[are|eres/estás]]"],
-          "correctAnswer": 1,
-          "explanation": "[[We|Nosotros]] [[use|usamos]] '[[is|es/está]]' [[for|para]] '[[He|Él]]', '[[She|Ella]]', [[and|y]] '[[It|Eso]]'."
+          "question": "[[Which|Cuál]] [[sequence|secuencia]] [[is|es]] [[correct|correcta]]?",
+          "options": ["[[X, Y, Z|X, Y, Z]]", "[[L, M, P|L, M, P]]", "[[Q, S, R|Q, S, R]]"],
+          "correctAnswer": 0,
+          "explanation": "X, Y, Z [[are|son]] [[the|las]] [[final|finales]] [[letters|letras]] [[of|de]] [[the|el]] [[alphabet|alfabeto]]."
         }
       ]
     },
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u1-e14",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Verb To Be",
-    "difficulty": "medium",
-    "transcript": "[[We|Nosotros]] [[are|somos]] [[friends|amigos]].",
+    "topic": "Personal Info",
+    "difficulty": "hard",
+    "transcript": "[[What|Cuál]] [[is|es]] [[his|su (de él)]] [[email|correo]] [[address|dirección]]?",
     "content": {
-      "title": "[[Verb|Verbo]] [[To|A]] [[Be|Ser/Estar]] (Plural)",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+      "title": "[[Third-Person|Tercera persona]] [[Possession|Posesión]]",
+      "instructions": "[[Select|Selecciona]] [[the|la]] [[word|palabra]] [[correcta|correct]] [[to|para]] [[ask|preguntar]] [[about|sobre]] [[a|un]] [[man|hombre]].",
       "questions": [
         {
-          "question": "[[We|Nosotros]] (_____) [[happy|felices]].",
-          "options": ["[[am|soy/estoy]]", "[[is|es/está]]", "[[are|somos/estamos]]"],
-          "correctAnswer": 2,
-          "explanation": "[[Plural|Plural]] [[pronouns|pronombres]] ([[We|Nosotros]], [[You|Ustedes]], [[They|Ellos]]) [[always|siempre]] [[use|usan]] '[[are|somos/estamos]]'."
+          "question": "[[What|Cuál]] [[is|es]] (_____) [[phone|teléfono]] [[number|número]]? [[He|Él]] [[is|es]] [[my|mi]] [[doctor|doctor]].",
+          "options": ["[[her|su (de ella)]]", "[[his|su (de él)]]", "[[their|su (de ellos)]]"],
+          "correctAnswer": 1,
+          "explanation": "[[Use|Usa]] '[[his|su]]' [[when|cuando]] [[the|el]] [[possessor|poseedor]] [[is|es]] [[male|masculino]]."
         }
       ]
     },
@@ -289,64 +289,56 @@ export const UNIT_1_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u1-e15",
+    "type": "matching",
+    "level": "A1",
+    "topic": "Numbers",
+    "difficulty": "hard",
+    "transcript": "[[Match|Empareja]] [[the|los]] [[complex|complejos]] [[numbers|números]].",
+    "content": {
+      "title": "[[Advanced|Avanzados]] [[Numbers|Números]]",
+      "instructions": "[[Match|Empareja]] [[the|el]] [[number|número]] [[with|con]] [[its|su]] [[spelling|escritura]].",
+      "pairs": [
+        { "left": "[[Fifteen|Quince]]", "right": "15" },
+        { "left": "[[Fifty|Cincuenta]]", "right": "50" },
+        { "left": "[[Thirteen|Trece]]", "right": "13" },
+        { "left": "[[Thirty|Treinta]]", "right": "30" }
+      ]
+    },
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u1-e16",
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Verb To Be",
-    "difficulty": "medium",
-    "transcript": "[[They|Ellos]] [[are|están]] [[at|en]] [[home|casa]].",
+    "difficulty": "hard",
+    "transcript": "[[Am|¿Soy]] [[I|yo]] [[in|en]] [[the|la]] [[correct|correcta]] [[room|sala]]?",
     "content": {
-      "title": "[[Verb|Verbo]] [[To|A]] [[Be|Ser/Estar]] (They)",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|oración]].",
+      "title": "[[Self-Questioning|Auto-Pregunta]]",
+      "instructions": "[[Identify|Identifica]] [[the|la]] [[correct|correcta]] [[question|pregunta]] [[form|forma]] [[for|para]] '[[I|Yo]]'.",
       "questions": [
         {
-          "question": "[[They|Ellos]] (_____) [[at|en]] [[work|trabajo]].",
-          "options": ["[[am|soy/estoy]]", "[[is|es/está]]", "[[are|están]]"],
+          "question": "(_____) [[I|yo]] [[late|tarde]] [[for|para]] [[the|la]] [[meeting|reunión]]?",
+          "options": ["[[Are|Soy]]", "[[Is|Es]]", "[[Am|Soy]]"],
           "correctAnswer": 2,
-          "explanation": "'[[They|Ellos/Ellas]]' [[uses|usa]] '[[are|son/están]]'."
+          "explanation": "[[Questions|Preguntas]] [[with|con]] '[[I|Yo]]' [[must|deben]] [[start|empezar]] [[with|con]] '[[Am|Soy/Estoy]]'."
         }
       ]
     },
     "topicName": "Grammar"
   },
   {
-    "id": "a1-u1-e16",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Greetings",
-    "difficulty": "easy",
-    "transcript": "[[How|Cómo]] [[are|estás]] [[you|tú]]?",
-    "content": {
-      "title": "[[Asking|Preguntando]] '[[How|Cómo]] [[are|estás]] [[you|tú]]?'",
-      "instructions": "[[Select|Selecciona]] [[the|la]] [[correct|correcta]] [[response|respuesta]].",
-      "questions": [
-        {
-          "question": "[[How|Cómo]] [[are|estás]] [[you|tú]]?",
-          "options": ["[[I|Yo]] [[am|estoy]] [[fine|bien]]", "[[My|Mi]] [[name|nombre]] [[is|es]] [[John|Juan]]", "[[Goodbye|Adiós]]"],
-          "correctAnswer": 0,
-          "explanation": "[[When|Cuando]] [[someone|alguien]] [[asks|pregunta]] '[[how|cómo]] [[are|estás]] [[you|tú]]?', [[answer|responde]] [[about|sobre]] [[your|tu]] [[state|estado]]."
-        }
-      ]
-    },
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u1-e17",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "Greetings",
-    "difficulty": "easy",
-    "transcript": "[[Nice|Encantado]] [[to|de]] [[meet|conocerte]] [[you|a ti]].",
+    "difficulty": "hard",
+    "transcript": "[[It|Es]] [[is|un]] [[very|muy]] [[nice|agradable]] [[morning|mañana]], [[isn't|¿no]] [[it|es]]?",
     "content": {
-      "title": "[[Meeting|Conociendo]] [[Someone|a alguien]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[phrase|frase]].",
-      "questions": [
-        {
-          "question": "[[Nice|Encantado]] [[to|de]] (_____) [[you|a ti]].",
-          "options": ["[[meet|conocerte]]", "[[see|verte]]", "[[say|decirte]]"],
-          "correctAnswer": 0,
-          "explanation": "[[We|Nosotros]] [[say|decimos]] '[[Nice|Encantado]] [[to|de]] [[meet|conocerte]] [[you|a ti]]' [[the|la]] [[first|primera]] [[time|vez]] [[we|nosotros]] [[meet|conocemos]] [[someone|a alguien]]."
-        }
-      ]
+      "title": "[[Complex|Complejos]] [[Greetings|Saludos]]",
+      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]] [[for|para]] [[this|este]] [[extended|extendido]] [[greeting|saludo]].",
+      "correctSentence": "[[Good|Buenos]] [[morning|días]], [[how|cómo]] [[are|estás]] [[you|tú]]?",
+      "words": ["[[you|tú]]?", "[[morning|días]],", "[[are|estás]]", "[[how|cómo]]", "[[Good|Buenos]]"]
     },
     "topicName": "Vocabulary"
   },
@@ -355,59 +347,84 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Personal Info",
-    "difficulty": "medium",
-    "transcript": "[[Where|De dónde]] [[are|eres]] [[you|tú]] [[from|de]]?",
+    "difficulty": "hard",
+    "transcript": "[[Her|Su (de ella)]] [[surname|apellido]] [[is|es]] [[difficult|difícil]] [[to|de]] [[pronounce|pronunciar]].",
     "content": {
-      "title": "[[Origin|Origen]]",
-      "instructions": "[[Select|Selecciona]] [[the|la]] [[preposition|preposición]] [[correcta|correct]].",
+      "title": "[[Possessives|Posesivos]] [[in|en]] [[Action|Acción]]",
+      "instructions": "[[Select|Selecciona]] [[the|el]] [[possessive|posesivo]] [[for|para]] [[a|una]] [[female|femenina]] [[manager|gerente]].",
       "questions": [
         {
-          "question": "[[I|Yo]] [[am|soy]] (_____) [[Mexico|México]].",
-          "options": ["[[in|en]]", "[[at|en]]", "[[from|de]]"],
-          "correctAnswer": 2,
-          "explanation": "[[Use|Usa]] '[[from|de]]' [[to|para]] [[talk|hablar]] [[about|sobre]] [[origin|origen]]."
+          "question": "[[That|Esa]] [[is|es]] [[Mrs.|la Sra.]] [[Jones|Jones]]. (_____) [[office|oficina]] [[is|es]] [[here|aquí]].",
+          "options": ["[[His|Su (de él)]]", "[[Her|Su (de ella)]]", "[[Their|Su (de ellos)]]"],
+          "correctAnswer": 1,
+          "explanation": "[[Use|Usa]] '[[Her|Su]]' [[for|para]] [[singular|singular]] [[female|femenino]] [[possession|posesión]]."
         }
       ]
     },
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u1-e19",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Personal Info",
-    "difficulty": "medium",
-    "transcript": "[[I|Yo]] [[am|soy]] [[English|Inglés/Inglesa]].",
+    "topic": "Verb To Be",
+    "difficulty": "hard",
+    "transcript": "[[We|Nosotros]] [[are|estamos]] [[happy|felices]] [[to|de]] [[be|estar]] [[here|aquí]].",
     "content": {
-      "title": "[[Nationalities|Nacionalidades]]",
-      "instructions": "[[Identify|Identifica]] [[the|la]] [[nationality|nacionalidad]].",
+      "title": "[[State|Estado]] [[and|y]] [[Emotion|Emoción]]",
+      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|oración]] [[about|sobre]] [[a|un]] [[group|grupo]].",
       "questions": [
         {
-          "question": "[[I|Yo]] [[am|soy]] [[from|de]] [[England|Inglaterra]]. [[I|Yo]] [[am|soy]] (_____).",
-          "options": ["[[English|Inglés/Inglesa]]", "[[Spanish|Español/Española]]", "[[American|Americano/Americana]]"],
-          "correctAnswer": 0,
-          "explanation": "[[Nationalities|Nacionalidades]] [[in|en]] [[English|Inglés]] [[always|siempre]] [[start|empiezan]] [[with|con]] [[a|una]] [[capital|mayúscula]] [[letter|letra]]."
+          "question": "[[John|Juan]] [[and|y]] [[I|yo]] (_____) [[from|de]] [[the|el]] [[same|mismo]] [[city|ciudad]].",
+          "options": ["[[is|es]]", "[[am|soy]]", "[[are|somos]]"],
+          "correctAnswer": 2,
+          "explanation": "'[[John|Juan]] [[and|y]] [[I|yo]]' [[equals|equivale]] [[to|a]] '[[we|nosotros]]', [[so|así que]] [[we|nosotros]] [[use|usamos]] '[[are|somos/estamos]]'."
         }
       ]
     },
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u1-e20",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Personal Info",
+    "difficulty": "hard",
+    "transcript": "[[What|Cuál]] [[is|es]] [[their|su (de ellos)]] [[nationality|nacionalidad]]?",
+    "content": {
+      "title": "[[Group|Grupo]] [[Possession|Posesión]]",
+      "instructions": "[[Identify|Identifica]] [[the|el]] [[possessive|posesivo]] [[for|para]] [[a|un]] [[group|grupo]].",
+      "questions": [
+        {
+          "question": "[[Those|Esos]] [[are|son]] [[the|los]] [[students|estudiantes]]. (_____) [[teacher|profesor]] [[is|es]] [[Mr.|el Sr.]] [[Wilson|Wilson]].",
+          "options": ["[[His|Su]]", "[[Her|Su]]", "[[Their|Su (de ellos)]]"],
+          "correctAnswer": 2,
+          "explanation": "[[Use|Usa]] '[[Their|Su]]' [[when|cuando]] [[the|el]] [[possessor|poseedor]] [[is|es]] [[plural|plural]]."
+        }
+      ]
+    },
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u1-e21",
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Verb To Be",
-    "difficulty": "medium",
-    "transcript": "[[Are|¿Eres]] [[you|tú]] [[a|un/una]] [[student|estudiante]]?",
+    "difficulty": "hard",
+    "transcript": "[[Are|¿Están]] [[you|tú]] [[ready|listo]] [[for|para]] [[the|la]] [[exam|examen]]?",
     "content": {
-      "title": "[[Verb|Verbo]] [[To|A]] [[Be|Ser/Estar]]: [[Questions|Preguntas]]",
-      "instructions": "[[Identify|Identifica]] [[the|la]] [[correct|correcta]] [[question|pregunta]] [[form|forma]].",
+      "title": "[[Question|Pregunta]] [[and|y]] [[Negation|Negación]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[negative|negativa]] [[short|corta]] [[answer|respuesta]].",
       "questions": [
         {
-          "question": "(_____) [[you|tú]] [[from|de]] [[Spain|España]]?",
-          "options": ["[[Are|Eres/Estás]]", "[[Is|Es/Está]]", "[[Am|Soy/Estoy]]"],
-          "correctAnswer": 0,
-          "explanation": "[[To|Para]] [[make|hacer]] [[a|una]] [[question|pregunta]] [[with|con]] '[[be|ser/estar]]', [[put|pon]] [[the|el]] [[verb|verbo]] [[before|antes]] [[the|del]] [[subject|sujeto]]."
+          "question": "[[Are|¿Eres]] [[you|tú]] [[from|de]] [[France|Francia]]?",
+          "options": [
+            "[[No|No]], [[I|yo]] [[not|no]] [[am|soy]].",
+            "[[No|No]], [[I|yo]] [[am|soy]] [[not|no]].",
+            "[[No|No]], [[I|yo]] [[am|soy]] [[no|no]]."
+          ],
+          "correctAnswer": 1,
+          "explanation": "[[The|La]] [[short|corta]] [[negative|negativa]] [[is|es]] '[[No|No]], [[I|yo]] [[am|soy]] [[not|no]]'."
         }
       ]
     },
@@ -418,17 +435,17 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Verb To Be",
-    "difficulty": "medium",
-    "transcript": "[[Is|¿Es]] [[he|él]] [[the|el]] [[teacher|profesor]]?",
+    "difficulty": "hard",
+    "transcript": "[[Is|¿Es]] [[she|ella]] [[a|una]] [[doctor|doctora]] [[or|o]] [[a|una]] [[nurse|enfermera]]?",
     "content": {
-      "title": "[[Verb|Verbo]] [[To|A]] [[Be|Ser/Estar]]: [[Questions|Preguntas]] (He/She)",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[question|pregunta]] [[word|palabra]].",
+      "title": "[[Distinguishing|Distinguiendo]] [[Professions|Profesiones]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[article|artículo]] [[in|en]] [[a|una]] [[question|pregunta]].",
       "questions": [
         {
-          "question": "(_____) [[he|él]] [[the|el]] [[teacher|profesor]]?",
-          "options": ["[[Are|Eres/Estás]]", "[[Is|Es/Está]]", "[[Am|Soy/Estoy]]"],
+          "question": "[[Is|¿Es]] [[he|él]] (_____) [[engineer|ingeniero]]?",
+          "options": ["[[a|un]]", "[[an|un]]", "[[the|el]]"],
           "correctAnswer": 1,
-          "explanation": "[[Use|Usa]] '[[Is|Es/Está]]' [[at|al]] [[the|el]] [[beginning|comienzo]] [[for|para]] [[questions|preguntas]] [[about|sobre]] '[[he|él]]' [[or|o]] '[[she|ella]]'."
+          "explanation": "'[[Engineer|Ingeniero]]' [[starts|empieza]] [[with|con]] [[a|un]] [[vowel|vocal]], [[so|así que]] [[we|nosotros]] [[need|necesitamos]] '[[an|un]]'."
         }
       ]
     },
@@ -438,79 +455,73 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "id": "a1-u1-e23",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Verb To Be",
-    "difficulty": "medium",
-    "transcript": "[[No|No]], [[I|yo]] [[am|soy]] [[not|no]] [[a|un]] [[doctor|doctor]].",
+    "topic": "Personal Info",
+    "difficulty": "hard",
+    "transcript": "[[How|Cómo]] [[do|haces]] [[you|tú]] [[pronounce|pronunciar]] [[your|tu]] [[last|último]] [[name|nombre]]?",
     "content": {
-      "title": "[[Verb|Verbo]] [[To|A]] [[Be|Ser/Estar]]: [[Negatives|Negativos]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[negative|negativa]] [[sentence|oración]].",
+      "title": "[[Advanced|Avanzada]] [[Personal|Personal]] [[Information|Información]]",
+      "instructions": "[[Select|Selecciona]] [[the|la]] [[correct|correcta]] [[word|palabra]] [[for|para]] '[[apellido|surname]]'.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[am|soy]] (_____) [[tired|cansado]].",
-          "options": ["[[no|no]]", "[[not|no]]", "[[never|nunca]]"],
+          "question": "[[In|En]] [[the|el]] [[USA|EE.UU.]], '[[surname|apellido]]' [[is|es]] [[often|a menudo]] [[called|llamado]] (_____).",
+          "options": ["[[First|Primer]] [[name|nombre]]", "[[Last|Último]] [[name|nombre]]", "[[Middle|Medio]] [[name|nombre]]"],
           "correctAnswer": 1,
-          "explanation": "[[Add|Añade]] '[[not|no]]' [[after|después]] [[the|el]] [[verb|verbo]] '[[be|ser/estar]]' [[to|para]] [[make|hacer]] [[it|lo]] [[negative|negativo]]."
+          "explanation": "'[[Last|Último]] [[name|nombre]]' [[and|y]] '[[surname|apellido]]' [[mean|significan]] [[the|lo]] [[same|mismo]]."
         }
       ]
     },
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u1-e24",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Verb To Be",
-    "difficulty": "medium",
-    "transcript": "[[We|Nosotros]] [[are|somos]] [[not|no]] [[late|tarde]].",
+    "topic": "Personal Info",
+    "difficulty": "hard",
+    "transcript": "[[Can|¿Puedes]] [[you|tú]] [[give|dar]] [[me|me]] [[your|tu]] [[contact|contacto]] [[details|detalles]]?",
     "content": {
-      "title": "[[Verb|Verbo]] [[To|A]] [[Be|Ser/Estar]]: [[Negatives|Negativos]] (Plural)",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[negative|negativa]] [[sentence|oración]].",
-      "questions": [
-        {
-          "question": "[[We|Nosotros]] [[are|somos]] (_____) [[late|tarde]].",
-          "options": ["[[no|no]]", "[[not|no]]", "[[don't|no]]"],
-          "correctAnswer": 1,
-          "explanation": "[[The|La]] [[structure|estructura]] [[is|es]]: [[Subject|Sujeto]] + [[Are|Verbo]] + '[[not|no]]'."
-        }
-      ]
+      "title": "[[Requesting|Solicitando]] [[Info|Información]]",
+      "instructions": "[[Build|Construye]] [[the|la]] [[question|pregunta]] [[to|para]] [[ask|preguntar]] [[for|por]] [[an|un]] [[email|correo]].",
+      "correctSentence": "[[What|Cuál]] [[is|es]] [[your|tu]] [[email|correo]] [[address|dirección]]?",
+      "words": ["[[is|es]]", "[[your|tu]]", "[[What|Cuál]]", "[[address|dirección]]", "[[email|correo]]?"]
     },
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u1-e25",
     "type": "matching",
     "level": "A1",
-    "topic": "Verb To Be",
-    "difficulty": "medium",
-    "transcript": "[[Match|Empareja]] [[the|los]] [[pronouns|pronombres]].",
+    "topic": "Personal Info",
+    "difficulty": "hard",
+    "transcript": "[[Match|Empareja]] [[the|los]] [[titles|títulos]] [[correctly|correctamente]].",
     "content": {
-      "title": "[[Pronoun|Pronombre]] [[and|y]] [[Verb|Verbo]] [[Be|Be]]",
-      "instructions": "[[Match|Empareja]] [[each|cada]] [[pronoun|pronombre]] [[with|con]] [[its|su]] [[correct|correcta]] [[verb|verbo]] [[form|forma]].",
+      "title": "[[Formal|Formal]] [[Titles|Títulos]]",
+      "instructions": "[[Match|Empareja]] [[each|cada]] [[title|título]] [[with|con]] [[the|la]] [[correct|correcta]] [[use|uso]].",
       "pairs": [
-        { "left": "[[I|Yo]]", "right": "[[am|soy/estoy]]" },
-        { "left": "[[You|Tú]]", "right": "[[are|eres/estás]]" },
-        { "left": "[[He|Él]]", "right": "[[is|es/está]]" },
-        { "left": "[[They|Ellos]]", "right": "[[are|son/están]]" }
+        { "left": "[[Ms.|Ms.]]", "right": "[[Woman|Mujer]] ([[neutral|neutral]])" },
+        { "left": "[[Mrs.|Mrs.]]", "right": "[[Married|Casada]] [[woman|mujer]]" },
+        { "left": "[[Mr.|Mr.]]", "right": "[[Any|Cualquier]] [[man|hombre]]" },
+        { "left": "[[Miss|Miss]]", "right": "[[Unmarried|No casada]] [[woman|mujer]]" }
       ]
     },
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u1-e26",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Personal Info",
-    "difficulty": "easy",
-    "transcript": "[[I|Yo]] [[am|tengo]] [[twenty|veinte]] [[years|años]] [[old|de edad]].",
+    "topic": "Alphabet",
+    "difficulty": "hard",
+    "transcript": "[[The|La]] [[first|primera]] [[letter|letra]] [[of|de]] [[the|el]] [[alphabet|alfabeto]] [[is|es]] [[A|A]].",
     "content": {
-      "title": "[[Talking|Hablando]] [[About|Sobre]] [[Age|Edad]]",
-      "instructions": "[[Identify|Identifica]] [[the|la]] [[correct|correcta]] [[way|forma]] [[to|de]] [[say|decir]] [[age|edad]].",
+      "title": "[[Vowels|Vocales]] [[and|y]] [[Consonants|Consonantes]]",
+      "instructions": "[[Identify|Identifica]] [[the|la]] [[vowel|vocal]].",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[do|haces]] [[you|tú]] [[say|decir]] [[your|tu]] [[age|edad]] [[in|en]] [[English|Inglés]]?",
-          "options": ["[[I|Yo]] [[have|tengo]] 20 [[years|años]]", "[[I|Yo]] [[am|soy/estoy]] 20", "[[My|Mi]] [[age|edad]] [[have|tiene]] 20"],
+          "question": "[[Which|Cuál]] [[of|de]] [[these|estos]] [[is|es]] [[a|una]] [[vowel|vocal]]?",
+          "options": ["[[B|B]]", "[[E|E]]", "[[F|F]]"],
           "correctAnswer": 1,
-          "explanation": "[[In|En]] [[English|Inglés]], [[we|nosotros]] [[use|usamos]] [[the|el]] [[verb|verbo]] '[[be|ser/estar]]' [[to|para]] [[talk|hablar]] [[about|sobre]] [[age|edad]], [[not|no]] '[[have|tener]]'."
+          "explanation": "[[The|Las]] [[vowels|vocales]] [[are|son]] A, E, I, O, U."
         }
       ]
     },
@@ -520,18 +531,18 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "id": "a1-u1-e27",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Numbers",
-    "difficulty": "easy",
-    "transcript": "[[One|Uno]], [[two|dos]], [[three|tres]].",
+    "topic": "Alphabet",
+    "difficulty": "hard",
+    "transcript": "[[Is|¿Es]] '[[Y|Y]]' [[a|una]] [[vowel|vocal]] [[or|o]] [[a|una]] [[consonant|consonante]]?",
     "content": {
-      "title": "[[Numbers|Números]] 1-3",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[number|número]] '[[three|tres]]'.",
+      "title": "[[Consonants|Consonantes]]",
+      "instructions": "[[Identify|Identifica]] [[the|la]] [[consonant|consonante]].",
       "questions": [
         {
-          "question": "[[Which|Cuál]] [[is|es]] '[[3|3]]' [[in|en]] [[English|Inglés]]?",
-          "options": ["[[One|Uno]]", "[[Two|Dos]]", "[[Three|Tres]]"],
+          "question": "[[Which|Cuál]] [[of|de]] [[these|estos]] [[is|es]] [[a|una]] [[consonant|consonante]]?",
+          "options": ["[[A|A]]", "[[I|I]]", "[[G|G]]"],
           "correctAnswer": 2,
-          "explanation": "[[One|Uno]], [[Two|Dos]], [[Three|Tres]]."
+          "explanation": "[[G|G]] [[is|es]] [[a|una]] [[consonant|consonante]]."
         }
       ]
     },
@@ -542,17 +553,17 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Numbers",
-    "difficulty": "easy",
-    "transcript": "[[Four|Cuatro]], [[five|cinco]], [[six|seis]].",
+    "difficulty": "hard",
+    "transcript": "[[Eighteen|Dieciocho]], [[nineteen|diecinueve]], [[twenty|veinte]].",
     "content": {
-      "title": "[[Numbers|Números]] 4-6",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[number|número]] '[[five|cinco]]'.",
+      "title": "[[Numbers|Números]] [[Sequence|Secuencia]]",
+      "instructions": "[[Complete|Completa]] [[the|la]] [[sequence|secuencia]].",
       "questions": [
         {
-          "question": "[[Which|Cuál]] [[is|es]] '[[5|5]]' [[in|en]] [[English|Inglés]]?",
-          "options": ["[[Four|Cuatro]]", "[[Five|Cinco]]", "[[Six|Seis]]"],
-          "correctAnswer": 1,
-          "explanation": "[[Four|Cuatro]], [[Five|Cinco]], [[Six|Seis]]."
+          "question": "18, 19, (_____).",
+          "options": ["[[Twenty|Veinte]]", "[[Twelve|Doce]]", "[[Two|Dos]]"],
+          "correctAnswer": 0,
+          "explanation": "[[Twenty|Veinte]] [[comes|viene]] [[after|después]] [[of|de]] [[nineteen|diecinueve]]."
         }
       ]
     },
@@ -563,17 +574,17 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Numbers",
-    "difficulty": "easy",
-    "transcript": "[[Seven|Siete]], [[eight|ocho]], [[nine|nueve]], [[ten|diez]].",
+    "difficulty": "hard",
+    "transcript": "[[Twenty-five|Veinticinco]], [[thirty|treinta]].",
     "content": {
-      "title": "[[Numbers|Números]] 7-10",
-      "instructions": "[[Identify|Identifica]] [[the|el]] [[number|número]] '[[ten|diez]]'.",
+      "title": "[[Counting|Contando]] [[by|de]] [[Fives|cinco en cinco]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[next|siguiente]] [[number|número]].",
       "questions": [
         {
-          "question": "[[What|Qué]] [[is|es]] '[[10|10]]' [[in|en]] [[English|Inglés]]?",
-          "options": ["[[Seven|Siete]]", "[[Nine|Nueve]]", "[[Ten|Diez]]"],
-          "correctAnswer": 2,
-          "explanation": "[[Count|Cuenta]]: 7, 8, 9, 10."
+          "question": "5, 10, 15, 20, (_____).",
+          "options": ["[[Twenty-one|Veintiuno]]", "[[Twenty-five|Veinticinco]]", "[[Fifty|Cincuenta]]"],
+          "correctAnswer": 1,
+          "explanation": "[[Twenty-five|Veinticinco]] [[is|es]] 20 + 5."
         }
       ]
     },
@@ -584,17 +595,17 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Personal Info",
-    "difficulty": "medium",
-    "transcript": "[[What|Cuál]] [[is|es]] [[your|tu]] [[phone|teléfono]] [[number|número]]?",
+    "difficulty": "hard",
+    "transcript": "[[Are|¿Eres]] [[you|tú]] [[Spanish|Español]] [[or|o]] [[Italian|Italiano]]?",
     "content": {
-      "title": "[[Phone|Teléfono]] [[Numbers|Números]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[question|pregunta]].",
+      "title": "[[Nationalities|Nacionalidades]] [[and|y]] [[Origin|Origen]]",
+      "instructions": "[[Complete|Completa]] [[the|la]] [[logic|lógica]].",
       "questions": [
         {
-          "question": "[[What|Cuál]] [[is|es]] [[your|tu]] (_____) [[number|número]]?",
-          "options": ["[[phone|teléfono]]", "[[home|casa]]", "[[name|nombre]]"],
+          "question": "[[He|Él]] [[is|es]] [[from|de]] [[Japan|Japón]]. [[He|Él]] [[is|es]] (_____).",
+          "options": ["[[Japanese|Japonés]]", "[[Japan|Japón]]", "[[China|China]]"],
           "correctAnswer": 0,
-          "explanation": "[[Ask|Pregunta]] [[about|sobre]] '[[phone|teléfono]] [[number|número]]' [[to|para]] [[stay|mantenerte]] [[in|en]] [[contact|contacto]]."
+          "explanation": "'[[Japanese|Japonés]]' [[is|es]] [[the|la]] [[nationality|nacionalidad]] [[for|para]] [[Japan|Japón]]."
         }
       ]
     },
@@ -604,39 +615,43 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "id": "a1-u1-e31",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Personal Info",
-    "difficulty": "medium",
-    "transcript": "[[My|Mi]] [[email|correo]] [[address|dirección]] [[is|es]]...",
+    "topic": "Verb To Be",
+    "difficulty": "hard",
+    "transcript": "[[Are|¿Son]] [[you|tú]] [[and|y]] [[your|tu]] [[family|familia]] [[well|bien]]?",
     "content": {
-      "title": "[[Digital|Digital]] [[Information|Información]]",
-      "instructions": "[[Identify|Identifica]] [[the|la]] [[word|palabra]] [[for|para]] '[[correo electrónico|email]]'.",
+      "title": "[[Subject-Verb|Sujeto-Verbo]] [[Mix|Mezcla]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[verb|verbo]].",
       "questions": [
         {
-          "question": "[[What|Qué]] [[does|hace]] '[[email|correo]]' [[mean|significa]]?",
-          "options": ["[[Electronic|Electrónico]] [[mail|correo]]", "[[Phone|Teléfono]] [[call|llamada]]", "[[Home|Casa]] [[address|dirección]]"],
-          "correctAnswer": 0,
-          "explanation": "'[[Email|Email]]' [[is|es]] [[short|corto]] [[for|para]] '[[electronic|electrónico]] [[mail|correo]]'."
+          "question": "[[The|Los]] [[students|estudiantes]] (_____) [[in|en]] [[the|la]] [[classroom|clase]].",
+          "options": ["[[is|es]]", "[[are|están]]", "[[am|estoy]]"],
+          "correctAnswer": 1,
+          "explanation": "'[[The|Los]] [[students|estudiantes]]' [[is|es]] [[plural|plural]], [[so|así que]] [[use|usa]] '[[are|son/están]]'."
         }
       ]
     },
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u1-e32",
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Personal Info",
-    "difficulty": "medium",
-    "transcript": "[[How|Cómo]] [[do|haces]] [[you|tú]] [[spell|deletrear]] [[it|ello]]?",
+    "difficulty": "hard",
+    "transcript": "[[Where|Dónde]] [[is|está]] [[your|tu]] [[office|oficina]] [[located|ubicada]]?",
     "content": {
-      "title": "[[Spelling|Deletreo]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[verb|verbo]] [[to|para]] [[ask|preguntar]] [[about|sobre]] [[letters|letras]].",
+      "title": "[[Location|Ubicación]] [[Questions|Preguntas]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[best|mejor]] [[response|respuesta]].",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[do|haces]] [[you|tú]] (_____) [[your|tu]] [[name|nombre]]?",
-          "options": ["[[write|escribir]]", "[[spell|deletrear]]", "[[say|decir]]"],
-          "correctAnswer": 1,
-          "explanation": "[[Use|Usa]] '[[spell|deletrear]]' [[when|cuando]] [[you|tú]] [[want|quieres]] [[to|para]] [[know|saber]] [[the|las]] [[letters|letras]] [[of|de]] [[a|una]] [[word|palabra]]."
+          "question": "[[Where|Dónde]] [[is|está]] [[your|tu]] [[office|oficina]]?",
+          "options": [
+            "[[It|Ella]] [[is|está]] [[in|en]] [[London|Londres]].",
+            "[[I|Yo]] [[am|estoy]] [[in|en]] [[London|Londres]].",
+            "[[My|Mi]] [[name|nombre]] [[is|es]] [[London|Londres]]."
+          ],
+          "correctAnswer": 0,
+          "explanation": "[[Respond|Responde]] [[about|sobre]] [[the|la]] [[office|oficina]] [[using|usando]] '[[it|ello]]'."
         }
       ]
     },
@@ -644,41 +659,39 @@ export const UNIT_1_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u1-e33",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Alphabet",
-    "difficulty": "easy",
-    "transcript": "[[A|A]], [[B|B]], [[C|C]].",
+    "topic": "Verb To Be",
+    "difficulty": "hard",
+    "transcript": "[[Who|Quién]] [[is|es]] [[your|tu]] [[favorite|favorito]] [[actor|actor]]?",
     "content": {
-      "title": "[[Alphabet|Alfabeto]] (I)",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[letter|letra]] '[[B|B]]'.",
-      "questions": [
-        {
-          "question": "[[Which|Cuál]] [[is|es]] [[the|la]] [[second|segunda]] [[letter|letra]]?",
-          "options": ["[[A|A]]", "[[B|B]]", "[[C|C]]"],
-          "correctAnswer": 1,
-          "explanation": "A, B, C."
-        }
-      ]
+      "title": "[[Complex|Compleja]] [[Question|Pregunta]] [[Structure|Estructura]]",
+      "instructions": "[[Build|Construye]] [[the|la]] [[question|pregunta]].",
+      "correctSentence": "[[Who|Quién]] [[is|es]] [[your|tu]] [[favorite|favorito]] [[actor|actor]]?",
+      "words": ["[[is|es]]", "[[Who|Quién]]", "[[actor|actor]]?", "[[favorite|favorito]]", "[[your|tu]]"]
     },
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u1-e34",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Alphabet",
-    "difficulty": "easy",
-    "transcript": "[[D|D]], [[E|E]], [[F|F]], [[G|G]].",
+    "topic": "Greetings",
+    "difficulty": "hard",
+    "transcript": "[[It|Es]] [[is|un]] [[great|gran]] [[day|día]], [[isn't|¿verdad]] [[it|ello]]?",
     "content": {
-      "title": "[[Alphabet|Alfabeto]] (II)",
-      "instructions": "[[Identify|Identifica]] [[the|la]] [[letter|letra]] '[[G|G]]'.",
+      "title": "[[Extended|Extendidos]] [[Greetings|Saludos]]",
+      "instructions": "[[Identify|Identifica]] [[the|la]] [[best|mejor]] [[response|respuesta]].",
       "questions": [
         {
-          "question": "[[Which|Cuál]] [[comes|viene]] [[after|después]] [[of|de]] [[F|F]]?",
-          "options": ["[[E|E]]", "[[G|G]]", "[[D|D]]"],
-          "correctAnswer": 1,
-          "explanation": "D, E, F, G."
+          "question": "[[Good|Buenos]] [[morning|días]], [[how|cómo]] [[are|estás]] [[you|tú]] [[today|hoy]]?",
+          "options": [
+            "[[I|Yo]] [[am|estoy]] [[very|muy]] [[well|bien]], [[thank|gracias]] [[you|a ti]].",
+            "[[Nice|Encantado]] [[to|de]] [[meet|conocerte]] [[you|a ti]].",
+            "[[My|Mi]] [[name|nombre]] [[is|es]] [[John|Juan]]."
+          ],
+          "correctAnswer": 0,
+          "explanation": "[[Respond|Responde]] [[directly|directamente]] [[to|a]] [[the|la]] [[question|pregunta]] '[[how|cómo]] [[are|estás]] [[you|tú]]?'."
         }
       ]
     },
@@ -686,117 +699,140 @@ export const UNIT_1_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u1-e35",
-    "type": "matching",
+    "type": "multiple-choice",
     "level": "A1",
     "topic": "Numbers",
-    "difficulty": "medium",
-    "transcript": "[[Match|Empareja]] [[the|los]] [[numbers|números]].",
+    "difficulty": "hard",
+    "transcript": "[[Zero|Cero]], [[ten|diez]], [[twenty|veinte]], [[thirty|treinta]].",
     "content": {
-      "title": "[[Number|Número]] [[Matching|Emparejamiento]]",
-      "instructions": "[[Match|Empareja]] [[the|el]] [[word|palabra]] [[with|con]] [[the|el]] [[digit|dígito]].",
-      "pairs": [
-        { "left": "[[One|Uno]]", "right": "1" },
-        { "left": "[[Five|Cinco]]", "right": "5" },
-        { "left": "[[Eight|Ocho]]", "right": "8" },
-        { "left": "[[Ten|Diez]]", "right": "10" }
+      "title": "[[Tens|Decenas]]",
+      "instructions": "[[Complete|Completa]] [[the|la]] [[sequence|secuencia]].",
+      "questions": [
+        {
+          "question": "10, 20, 30, (_____).",
+          "options": ["[[Four|Cuatro]]", "[[Forty|Cuarenta]]", "[[Fourteen|Catorce]]"],
+          "correctAnswer": 1,
+          "explanation": "[[Forty|Cuarenta]] [[is|es]] 4 [[times|veces]] 10."
+        }
       ]
     },
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u1-e36",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Verb To Be",
-    "difficulty": "medium",
-    "transcript": "[[I|Yo]] [[am|soy]] [[not|no]] [[Spanish|Español]].",
+    "topic": "Numbers",
+    "difficulty": "hard",
+    "transcript": "[[Forty|Cuarenta]], [[fifty|cincuenta]].",
     "content": {
-      "title": "[[Negative|Negativa]] [[Structure|Estructura]]",
-      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]].",
-      "correctSentence": "[[I|Yo]] [[am|soy]] [[not|no]] [[Spanish|Español]].",
-      "words": ["[[not|no]]", "[[am|soy]]", "[[I|Yo]]", "[[Spanish|Español]]."]
+      "title": "[[Tens|Decenas]] (II)",
+      "instructions": "[[Choose|Elige]] '[[fifty|cincuenta]]'.",
+      "questions": [
+        {
+          "question": "[[Which|Cuál]] [[is|es]] '[[50|50]]'?",
+          "options": ["[[Fifteen|Quince]]", "[[Fifty|Cincuenta]]", "[[Five|Cinco]]"],
+          "correctAnswer": 1,
+          "explanation": "[[Fifty|Cincuenta]] [[is|es]] [[the|la]] [[number|número]] 50."
+        }
+      ]
     },
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u1-e37",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar",
-    "difficulty": "medium",
-    "transcript": "[[What|Qué]] [[is|es]] [[this|esto]]?",
+    "topic": "Alphabet",
+    "difficulty": "hard",
+    "transcript": "[[H|H]], [[I|I]], [[J|J]], [[K|K]], [[L|L]].",
     "content": {
-      "title": "[[Question|Pregunta]] [[Words|Palabras]]",
-      "instructions": "[[Identify|Identifica]] '[[What|Qué]]'.",
+      "title": "[[Middle|Medio]] [[Alphabet|Alfabeto]]",
+      "instructions": "[[Identify|Identifica]] [[the|la]] [[letter|letra]] [[that|que]] [[comes|viene]] [[after|después]] [[of|de]] '[[K|K]]'.",
       "questions": [
         {
-          "question": "(_____) [[is|es]] [[your|tu]] [[name|nombre]]?",
-          "options": ["[[Who|Quién]]", "[[What|Qué]]", "[[How|Cómo]]"],
+          "question": "[[Which|Cuál]] [[letter|letra]] [[is|es]] [[after|después]] [[K|K]]?",
+          "options": ["[[J|J]]", "[[L|L]]", "[[I|I]]"],
           "correctAnswer": 1,
-          "explanation": "[[Use|Usa]] '[[What|Qué]]' [[to|para]] [[ask|preguntar]] [[about|sobre]] [[things|cosas]] [[or|o]] [[information|información]]."
+          "explanation": "H, I, J, K, L."
         }
       ]
     },
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u1-e38",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar",
-    "difficulty": "medium",
-    "transcript": "[[Who|Quién]] [[is|es]] [[he|él]]?",
+    "topic": "Alphabet",
+    "difficulty": "hard",
+    "transcript": "[[M|M]], [[N|N]], [[O|O]], [[P|P]].",
     "content": {
-      "title": "[[Question|Pregunta]] [[Words|Palabras]] (Who)",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[question|pregunta]].",
+      "title": "[[Alphabetical|Alfabética]] [[Logic|Lógica]]",
+      "instructions": "[[Identify|Identifica]] [[the|la]] [[letter|letra]] [[missing|faltante]].",
       "questions": [
         {
-          "question": "(_____) [[is|es]] [[your|tu]] [[teacher|profesor/a]]?",
-          "options": ["[[What|Qué]]", "[[Who|Quién]]", "[[Where|Dónde]]"],
-          "correctAnswer": 1,
-          "explanation": "[[Use|Usa]] '[[Who|Quién]]' [[to|para]] [[ask|preguntar]] [[about|sobre]] [[people|personas]]."
+          "question": "[[M|M]], (_____), [[O|O]], [[P|P]].",
+          "options": ["[[N|N]]", "[[L|L]]", "[[Q|Q]]"],
+          "correctAnswer": 0,
+          "explanation": "[[N|N]] [[is|es]] [[between|entre]] [[M|M]] [[and|y]] [[O|O]]."
         }
       ]
     },
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u1-e39",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar",
-    "difficulty": "medium",
-    "transcript": "[[Where|Dónde]] [[are|estás]] [[you|tú]]?",
+    "topic": "Possessive Adjectives",
+    "difficulty": "hard",
+    "transcript": "[[It|Ello]] [[is|es]] [[not|no]] [[my|mi]] [[problem|problema]].",
     "content": {
-      "title": "[[Question|Pregunta]] [[Words|Palabras]] (Where)",
-      "instructions": "[[Select|Selecciona]] '[[Where|Dónde]]'.",
+      "title": "[[Possessives|Posesivos]] [[in|en]] [[Context|Contexto]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[possessive|posesivo]].",
       "questions": [
         {
-          "question": "(_____) [[are|estás]] [[you|tú]] [[from|de]]?",
-          "options": ["[[Who|Quién]]", "[[What|Qué]]", "[[Where|Dónde]]"],
-          "correctAnswer": 2,
-          "explanation": "[[Use|Usa]] '[[Where|Dónde]]' [[to|para]] [[ask|preguntar]] [[about|sobre]] [[places|lugares]]."
+          "question": "[[We|Nosotros]] [[are|estamos]] [[in|en]] (_____) [[classroom|clase]].",
+          "options": ["[[our|nuestra]]", "[[their|su]]", "[[my|mi]]"],
+          "correctAnswer": 0,
+          "explanation": "'[[Our|Nuestra]]' [[is|es]] [[the|el]] [[possessive|posesivo]] [[for|para]] '[[we|nosotros]]'."
         }
       ]
     },
     "topicName": "Grammar"
   },
   {
+    "id": "a1-u1-e40",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Personal Info",
+    "difficulty": "hard",
+    "transcript": "[[His|Su]] [[phone|teléfono]] [[number|número]] [[is|es]] [[complicated|complicado]].",
+    "content": {
+      "title": "[[Building|Construyendo]] [[Possessive|Posesivas]] [[Sentences|Frases]]",
+      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]].",
+      "correctSentence": "[[My|Mi]] [[phone|teléfono]] [[number|número]] [[is|es]] 555.",
+      "words": ["[[is|es]]", "[[My|Mi]]", "[[number|número]]", "555.", "[[phone|teléfono]]"]
+    },
+    "topicName": "Vocabulary"
+  },
+  {
     "id": "a1-u1-e41",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar",
-    "difficulty": "medium",
-    "transcript": "[[It|Eso]] [[is|es]] [[an|un]] [[apple|manzana]].",
+    "topic": "Verb To Be",
+    "difficulty": "hard",
+    "transcript": "[[Am|¿Soy]] [[I|yo]] [[the|el]] [[only|único]] [[one|uno]] [[here|aquí]]?",
     "content": {
-      "title": "[[Articles|Artículos]]: [[A|Un/Una]] vs [[An|Un/Una]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[article|artículo]].",
+      "title": "[[Singular|Singular]] [[vs|vs]] [[Plural|Plural]] [[Be|Be]]",
+      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|oración]].",
       "questions": [
         {
-          "question": "[[It|Eso]] [[is|es]] (_____) [[apple|manzana]].",
-          "options": ["[[a|un/una]]", "[[an|un/una]]", "[[the|el/la]]"],
-          "correctAnswer": 1,
-          "explanation": "[[Use|Usa]] '[[an|un/una]]' [[before|antes]] [[words|palabras]] [[that|que]] [[start|empiezan]] [[with|con]] [[a|un]] [[vowel|vocal]] [[sound|sonido]]."
+          "question": "[[Each|Cada]] [[student|estudiante]] (_____) [[important|importante]].",
+          "options": ["[[is|es]]", "[[are|son]]", "[[am|soy]]"],
+          "correctAnswer": 0,
+          "explanation": "'[[Each|Cada]] [[student|estudiante]]' [[is|es]] [[singular|singular]], [[so|así que]] [[we|nosotros]] [[use|usamos]] '[[is|es/está]]'."
         }
       ]
     },
@@ -806,18 +842,18 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "id": "a1-u1-e42",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar",
-    "difficulty": "medium",
-    "transcript": "[[It|Eso]] [[is|es]] [[a|un]] [[book|libro]].",
+    "topic": "Articles",
+    "difficulty": "hard",
+    "transcript": "[[It|Eso]] [[is|es]] [[a|un]] [[unique|único]] [[name|nombre]].",
     "content": {
-      "title": "[[Articles|Artículos]]: [[A|Un/Una]] vs [[An|Un/Una]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|oración]].",
+      "title": "[[Advanced|Avanzados]] [[Articles|Artículos]]",
+      "instructions": "[[Identify|Identifica]] [[the|la]] [[exception|excepción]] [[rule|regla]].",
       "questions": [
         {
-          "question": "[[It|Eso]] [[is|es]] (_____) [[book|libro]].",
-          "options": ["[[a|un/una]]", "[[an|un/una]]", "[[the|el/la]]"],
+          "question": "[[That|Eso]] [[is|es]] (_____) [[university|universidad]].",
+          "options": ["[[a|un]]", "[[an|un]]", "[[the|el]]"],
           "correctAnswer": 0,
-          "explanation": "[[Use|Usa]] '[[a|un/una]]' [[before|antes]] [[words|palabras]] [[that|que]] [[start|empiezan]] [[with|con]] [[a|una]] [[consonant|consonante]]."
+          "explanation": "[[Although|Aunque]] '[[university|universidad]]' [[starts|empieza]] [[with|con]] '[[u|u]]', [[the|el]] [[sound|sonido]] [[is|es]] '[[y|y]]' ([[consonant|consonante]]), [[so|así que]] [[we|nosotros]] [[use|usamos]] '[[a|un]]'."
         }
       ]
     },
@@ -829,16 +865,16 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Verb To Be",
     "difficulty": "hard",
-    "transcript": "[[Are|¿Están]] [[they|ellos]] [[at|en]] [[the|la]] [[office|oficina]]?",
+    "transcript": "[[Is|¿Está]] [[the|el]] [[manager|gerente]] [[in|en]] [[the|el]] [[meeting|reunión]]?",
     "content": {
-      "title": "[[Verb|Verbo]] [[To|A]] [[Be|Ser/Estar]]: [[Questions|Preguntas]] (They)",
-      "instructions": "[[Select|Selecciona]] [[the|la]] [[correct|correcta]] [[question|pregunta]].",
+      "title": "[[Workplace|Lugar de trabajo]] [[Questions|Preguntas]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[verb|verbo]].",
       "questions": [
         {
-          "question": "(_____) [[they|ellos]] [[from|de]] [[London|Londres]]?",
-          "options": ["[[Are|Son]]", "[[Is|Es]]", "[[Do|Hacen]]"],
-          "correctAnswer": 0,
-          "explanation": "[[Questions|Preguntas]] [[for|para]] '[[They|Ellos]]' [[start|empiezan]] [[with|con]] '[[Are|Son/Están]]'."
+          "question": "(_____) [[the|el]] [[new|nuevo]] [[manager|gerente]] [[here|aquí]]?",
+          "options": ["[[Are|Está]]", "[[Is|Está]]", "[[Am|Estoy]]"],
+          "correctAnswer": 1,
+          "explanation": "'[[The|El]] [[manager|gerente]]' [[is|es]] [[he|él]] [[or|o]] [[she|ella]], [[so|así que]] [[the|la]] [[question|pregunta]] [[starts|empieza]] [[with|con]] '[[Is|Está]]'."
         }
       ]
     },
@@ -848,58 +884,66 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "id": "a1-u1-e44",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Verb To Be",
+    "topic": "Personal Info",
     "difficulty": "hard",
-    "transcript": "[[Is|¿Es]] [[it|ello]] [[ready|listo]]?",
+    "transcript": "[[I|Yo]] [[am|soy]] [[English|Inglés]], [[but|pero]] [[she|ella]] [[is|es]] [[American|Americana]].",
     "content": {
-      "title": "[[Verb|Verbo]] [[To|A]] [[Be|Ser/Estar]]: [[Questions|Preguntas]] (It)",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[question|pregunta]].",
+      "title": "[[Contrasting|Contrastando]] [[Info|Información]]",
+      "instructions": "[[Select|Selecciona]] [[the|la]] [[correct|correcta]] [[combination|combinación]].",
       "questions": [
         {
-          "question": "(_____) [[it|ello]] [[your|tu]] [[car|coche]]?",
-          "options": ["[[Are|Es]]", "[[Is|Es]]", "[[Am|Soy]]"],
-          "correctAnswer": 1,
-          "explanation": "[[Use|Usa]] '[[Is|Es]]' [[for|para]] [[questions|preguntas]] [[about|sobre]] '[[it|ello]]'."
+          "question": "[[I|Yo]] (_____) [[a|un]] [[student|estudiante]], [[and|y]] [[he|él]] (_____) [[a|un]] [[teacher|profesor]].",
+          "options": [
+            "[[am|soy]] / [[is|es]]",
+            "[[is|es]] / [[am|soy]]",
+            "[[are|somos]] / [[is|es]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "[[Match|Combina]] [[the|el]] [[verb|verbo]] [[with|con]] [[each|cada]] [[subject|sujeto]]."
         }
-      ]
-    },
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u1-e45",
-    "type": "matching",
-    "level": "A1",
-    "topic": "Personal Info",
-    "difficulty": "medium",
-    "transcript": "[[Match|Empareja]] [[the|los]] [[titles|títulos]].",
-    "content": {
-      "title": "[[Social|Social]] [[Titles|Títulos]]",
-      "instructions": "[[Match|Empareja]] [[the|el]] [[abbreviation|abreviatura]] [[with|con]] [[the|la]] [[description|descripción]].",
-      "pairs": [
-        { "left": "[[Mr.|Sr.]]", "right": "[[Man|Hombre]]" },
-        { "left": "[[Mrs.|Sra.]]", "right": "[[Married|Casada]] [[woman|mujer]]" },
-        { "left": "[[Miss|Srta.]]", "right": "[[Single|Soltera]] [[woman|mujer]]" },
-        { "left": "[[Ms.|Sra.]]", "right": "[[Any|Cualquier]] [[woman|mujer]]" }
       ]
     },
     "topicName": "Vocabulary"
   },
   {
+    "id": "a1-u1-e45",
+    "type": "matching",
+    "level": "A1",
+    "topic": "Verb To Be",
+    "difficulty": "hard",
+    "transcript": "[[Match|Empareja]] [[the|los]] [[negatives|negativos]].",
+    "content": {
+      "title": "[[Negative|Negativas]] [[Contractions|Contracciones]]",
+      "instructions": "[[Match|Empareja]] [[the|la]] [[full|completa]] [[form|forma]] [[with|con]] [[the|la]] [[contraction|contracción]].",
+      "pairs": [
+        { "left": "[[I|Yo]] [[am|soy]] [[not|no]]", "right": "[[I'm|I'm]] [[not|not]]" },
+        { "left": "[[He|Él]] [[is|es]] [[not|no]]", "right": "[[He|He]] [[isn't|isn't]]" },
+        { "left": "[[You|Tú]] [[are|eres]] [[not|no]]", "right": "[[You|You]] [[aren't|aren't]]" },
+        { "left": "[[They|Ellos]] [[are|son]] [[not|no]]", "right": "[[They|They]] [[aren't|aren't]]" }
+      ]
+    },
+    "topicName": "Grammar"
+  },
+  {
     "id": "a1-u1-e46",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Personal Info",
-    "difficulty": "medium",
-    "transcript": "[[What|Cuál]] [[is|es]] [[your|tu]] [[job|trabajo]]?",
+    "topic": "Greetings",
+    "difficulty": "hard",
+    "transcript": "[[How|Cómo]] [[have|has]] [[you|tú]] [[been|estado]]?",
     "content": {
-      "title": "[[Talking|Hablando]] [[About|Sobre]] [[Jobs|Trabajos]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[pregunta|question]].",
+      "title": "[[Advanced|Avanzados]] [[Greetings|Saludos]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[best|mejor]] [[response|respuesta]] [[to|a]] [[this|este]] [[common|común]] [[greeting|saludo]].",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[do|haces]] [[you|tú]] [[ask|preguntar]] [[someone|a alguien]] [[about|sobre]] [[their|su]] [[profession|profesión]]?",
-          "options": ["[[What|Qué]] [[do|haces]] [[you|tú]] [[do|hacer]]?", "[[Who|Quién]] [[are|eres]] [[you|tú]]?", "[[Where|Dónde]] [[are|estás]] [[you|tú]]?"],
+          "question": "[[How|Cómo]] [[have|has]] [[you|tú]] [[been|estado]]?",
+          "options": [
+            "[[I|Yo]] [[have|he]] [[been|estado]] [[great|genial]], [[thanks|gracias]]!",
+            "[[My|Mi]] [[name|nombre]] [[is|es]] [[Paul|Pablo]].",
+            "[[I|Yo]] [[am|estoy]] [[from|de]] [[Spain|España]]."
+          ],
           "correctAnswer": 0,
-          "explanation": "'[[What|Qué]] [[do|haces]] [[you|tú]] [[do|hacer]]?' [[is|es]] [[the|la]] [[standard|estándar]] [[way|forma]] [[to|de]] [[ask|preguntar]] [[about|sobre]] [[jobs|trabajos]]."
+          "explanation": "'[[How|Cómo]] [[have|has]] [[you|tú]] [[been|estado]]?' [[asks|pregunta]] [[about|sobre]] [[the|el]] [[recent|reciente]] [[past|pasado]]."
         }
       ]
     },
@@ -907,54 +951,60 @@ export const UNIT_1_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u1-e47",
-    "type": "matching",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "Personal Info",
-    "difficulty": "medium",
-    "transcript": "[[Match|Empareja]] [[the|los]] [[jobs|trabajos]].",
+    "difficulty": "hard",
+    "transcript": "[[Excuse|Perdone]] [[me|me]], [[can|¿puede]] [[you|tú]] [[repeat|repetir]] [[your|tu]] [[name|nombre]]?",
     "content": {
-      "title": "[[Common|Comunes]] [[Jobs|Trabajos]]",
-      "instructions": "[[Match|Empareja]] [[the|el]] [[English|Inglés]] [[with|con]] [[the|el]] [[Spanish|Español]].",
-      "pairs": [
-        { "left": "[[Teacher|Profesor/a]]", "right": "[[Profesor/a|Teacher]]" },
-        { "left": "[[Doctor|Doctor/a]]", "right": "[[Doctor/a|Doctor]]" },
-        { "left": "[[Student|Estudiante]]", "right": "[[Estudiante|Student]]" },
-        { "left": "[[Manager|Gerente]]", "right": "[[Gerente|Manager]]" }
-      ]
+      "title": "[[Polite|Educada]] [[Request|Petición]]",
+      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]] [[to|para]] [[ask|preguntar]] [[politely|educadamente]].",
+      "correctSentence": "[[Can|¿Puedes]] [[you|tú]] [[repeat|repetir]] [[that|eso]], [[please|por favor]]?",
+      "words": ["[[repeat|repetir]]", "[[Can|¿Puedes]]", "[[you|tú]]", "[[please|por favor]]?", "[[that|eso]],"]
     },
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u1-e48",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Verb To Be",
+    "topic": "Personal Info",
     "difficulty": "hard",
-    "transcript": "[[Are|¿Estás]] [[you|tú]] [[a|un]] [[doctor|doctor]]?",
+    "transcript": "[[It|Ello]] [[is|es]] [[a|un]] [[very|muy]] [[unusual|inusual]] [[surname|apellido]].",
     "content": {
-      "title": "[[Question|Pregunta]] [[Order|Orden]]",
-      "instructions": "[[Build|Construye]] [[the|la]] [[question|pregunta]].",
-      "correctSentence": "[[Are|¿Eres]] [[you|tú]] [[a|un]] [[doctor|doctor]]?",
-      "words": ["[[you|tú]]", "[[a|un]]", "[[Are|¿Eres]]", "[[doctor|doctor]]?"]
+      "title": "[[Pronunciation|Pronunciación]] [[and|y]] [[Spelling|Deletreo]]",
+      "instructions": "[[Select|Selecciona]] [[the|la]] [[correct|correcta]] [[pregunta|question]] [[to|para]] [[ask|preguntar]] [[about|sobre]] [[spelling|deletreo]].",
+      "questions": [
+        {
+          "question": "[[How|Cómo]] [[do|haces]] [[you|tú]] [[spell|deletrear]] [[your|tu]] [[last|último]] [[name|nombre]]?",
+          "options": [
+            "[[H-E-R-R-E-R-A|H-E-R-R-E-R-A]]",
+            "[[My|Mi]] [[name|nombre]] [[is|es]] [[Herrera|Herrera]].",
+            "[[It|Ello]] [[is|es]] [[Herrera|Herrera]]."
+          ],
+          "correctAnswer": 0,
+          "explanation": "[[Spelling|Deletrear]] [[means|significa]] [[saying|decir]] [[the|las]] [[individual|individuales]] [[letters|letras]]."
+        }
+      ]
     },
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u1-e49",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Personal Info",
-    "difficulty": "medium",
-    "transcript": "[[How|Cómo]] [[old|viejo]] [[is|es]] [[he|él]]?",
+    "topic": "Numbers",
+    "difficulty": "hard",
+    "transcript": "[[One|Ciento]] [[hundred|cien]].",
     "content": {
-      "title": "[[Asking|Preguntando]] [[About|Sobre]] [[Age|Edad]]",
-      "instructions": "[[Identify|Identifica]] [[the|la]] [[question|pregunta]].",
+      "title": "[[Large|Grandes]] [[Numbers|Números]]",
+      "instructions": "[[Identify|Identifica]] [[the|el]] [[number|número]] '[[100|100]]'.",
       "questions": [
         {
-          "question": "[[How|Cómo]] (_____) [[is|es]] [[she|ella]]?",
-          "options": ["[[old|vieja]]", "[[age|edad]]", "[[years|años]]"],
-          "correctAnswer": 0,
-          "explanation": "[[We|Nosotros]] [[use|usamos]] '[[How|Cómo]] [[old|viejo]]' [[to|para]] [[ask|preguntar]] [[the|la]] [[age|edad]]."
+          "question": "[[What|Qué]] [[is|es]] '[[100|100]]' [[in|en]] [[English|Inglés]]?",
+          "options": ["[[One|Un]] [[thousand|mil]]", "[[One|Un]] [[hundred|cien]]", "[[Ten|Diez]]"],
+          "correctAnswer": 1,
+          "explanation": "100 [[is|es]] [[one|un]] [[hundred|cien]]."
         }
       ]
     },
@@ -964,18 +1014,18 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "id": "a1-u1-e50",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Greetings",
-    "difficulty": "medium",
-    "transcript": "[[Good|Buenas]] [[evening|noches]].",
+    "topic": "Numbers",
+    "difficulty": "hard",
+    "transcript": "[[One|Mil]] [[thousand|mil]].",
     "content": {
-      "title": "[[Evening|Tarde/Noche]] [[Greetings|Saludos]]",
-      "instructions": "[[Choose|Elige]] [[between|entre]] '[[Evening|Evening]]' [[and|y]] '[[Night|Night]]'.",
+      "title": "[[Large|Grandes]] [[Numbers|Números]] (II)",
+      "instructions": "[[Identify|Identifica]] [[the|el]] [[number|número]] '[[1000|1000]]'.",
       "questions": [
         {
-          "question": "[[Which|Cuál]] [[do|haces]] [[you|tú]] [[use|usar]] [[to|para]] [[say|decir]] '[[Hola|Hello]]' [[at|a]] 7 [[PM|PM]]?",
-          "options": ["[[Good evening|Buenas noches (saludo)]]", "[[Good night|Buenas noches (despedida)]]", "[[Good afternoon|Buenas tardes]]"],
-          "correctAnswer": 0,
-          "explanation": "'[[Good evening|Buenas noches]]' [[is|es]] [[a|un]] [[greeting|saludo]] [[for|para]] [[when|cuando]] [[you|tú]] [[arrive|llegas]] [[at|en]] [[night|la noche]]."
+          "question": "[[What|Qué]] [[is|es]] '[[1000|1000]]' [[in|en]] [[English|Inglés]]?",
+          "options": ["[[One|Un]] [[hundred|cien]]", "[[One|Un]] [[thousand|mil]]", "[[One|Un]] [[million|millón]]"],
+          "correctAnswer": 1,
+          "explanation": "1000 [[is|es]] [[one|un]] [[thousand|mil]]."
         }
       ]
     },
@@ -985,18 +1035,18 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "id": "a1-u1-e51",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Greetings",
-    "difficulty": "medium",
-    "transcript": "[[Good|Buenas]] [[night|noches]].",
+    "topic": "Personal Info",
+    "difficulty": "hard",
+    "transcript": "[[What|Cuál]] [[is|es]] [[your|tu]] [[favorite|favorita]] [[nationality|nacionalidad]]?",
     "content": {
-      "title": "[[Bedtime|Hora de dormir]] [[Greetings|Saludos]]",
-      "instructions": "[[Identify|Identifica]] [[the|la]] [[farewell|despedida]].",
+      "title": "[[Complex|Complejas]] [[Nationalities|Nacionalidades]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[nationality|nacionalidad]] [[for|para]] '[[Brazil|Brasil]]'.",
       "questions": [
         {
-          "question": "[[Which|Cuál]] [[do|haces]] [[you|tú]] [[use|usar]] [[to|para]] [[say|decir]] '[[Adiós|Goodbye]]' [[before|antes]] [[sleep|dormir]]?",
-          "options": ["[[Good evening|Buenas noches (saludo)]]", "[[Good night|Buenas noches (despedida)]]", "[[Good morning|Buenos días]]"],
-          "correctAnswer": 1,
-          "explanation": "'[[Good night|Buenas noches]]' [[is|es]] [[a|una]] [[farewell|despedida]] [[for|para]] [[the|la]] [[night|noche]] [[or|o]] [[before|antes]] [[bed|la cama]]."
+          "question": "[[She|Ella]] [[is|es]] [[from|de]] [[Brazil|Brasil]]. [[She|Ella]] [[is|es]] (_____).",
+          "options": ["[[Brazilian|Brasileña]]", "[[Brazil|Brasil]]", "[[Spanish|Española]]"],
+          "correctAnswer": 0,
+          "explanation": "'[[Brazilian|Brasileña]]' [[is|es]] [[the|la]] [[nationality|nacionalidad]] [[for|para]] [[Brazil|Brasil]]."
         }
       ]
     },
@@ -1006,18 +1056,18 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "id": "a1-u1-e52",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Numbers",
-    "difficulty": "medium",
-    "transcript": "[[Eleven|Once]], [[twelve|doce]], [[thirteen|trece]].",
+    "topic": "Alphabet",
+    "difficulty": "hard",
+    "transcript": "[[W|W]], [[X|X]], [[Y|Y]], [[Z|Z]].",
     "content": {
-      "title": "[[Numbers|Números]] 11-13",
-      "instructions": "[[Choose|Elige]] '[[twelve|doce]]'.",
+      "title": "[[Final|Finales]] [[Letters|Letras]]",
+      "instructions": "[[Identify|Identifica]] [[the|la]] [[letter|letra]] '[[W|W]]'.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[is|es]] '[[12|12]]' [[in|en]] [[English|Inglés]]?",
-          "options": ["[[Eleven|Once]]", "[[Twelve|Doce]]", "[[Thirteen|Trece]]"],
-          "correctAnswer": 1,
-          "explanation": "11 ([[eleven|once]]), 12 ([[twelve|doce]]), 13 ([[thirteen|trece]])."
+          "question": "[[Which|Cuál]] [[is|es]] '[[W|W]]'?",
+          "options": ["[[Double-U|Doble-U]]", "[[V|V]]", "[[M|M]]"],
+          "correctAnswer": 0,
+          "explanation": "[[The|La]] [[letter|letra]] '[[W|W]]' [[is|es]] [[pronounced|pronunciada]] '[[double-u|doble-u]]'."
         }
       ]
     },
@@ -1027,39 +1077,43 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "id": "a1-u1-e53",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Numbers",
-    "difficulty": "medium",
-    "transcript": "[[Fourteen|Catorce]], [[fifteen|quince]].",
+    "topic": "Verb To Be",
+    "difficulty": "hard",
+    "transcript": "[[The|El]] [[weather|tiempo]] [[is|es]] [[wonderful|maravilloso]] [[today|hoy]].",
     "content": {
-      "title": "[[Numbers|Números]] 14-15",
-      "instructions": "[[Identify|Identifica]] '[[fifteen|quince]]'.",
+      "title": "[[Abstract|Abstractos]] [[Subjects|Sujetos]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[verb|verbo]].",
       "questions": [
         {
-          "question": "[[What|Qué]] [[is|es]] '[[15|15]]' [[in|en]] [[English|Inglés]]?",
-          "options": ["[[Fourteen|Catorce]]", "[[Fifteen|Quince]]", "[[Fifty|Cincuenta]]"],
-          "correctAnswer": 1,
-          "explanation": "[[Fifteen|Quince]] [[ends|termina]] [[in|en]] '-[[teen|teen]]'. [[Don't|No]] [[confuse|confundas]] [[with|con]] [[Fifty|Cincuenta]]."
+          "question": "[[The|El]] [[weather|tiempo]] (_____) [[nice|agradable]] [[today|hoy]].",
+          "options": ["[[is|es]]", "[[are|son]]", "[[am|soy]]"],
+          "correctAnswer": 0,
+          "explanation": "'[[The|El]] [[weather|tiempo]]' [[is|es]] [[an|un]] [[uncountable|incontable]] [[singular|singular]] [[subject|sujeto]], [[so|así que]] [[use|usa]] '[[is|es/está]]'."
         }
       ]
     },
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u1-e54",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Numbers",
-    "difficulty": "medium",
-    "transcript": "[[Sixteen|Dieciséis]], [[seventeen|diecisiete]], [[eighteen|dieciocho]].",
+    "topic": "Greetings",
+    "difficulty": "hard",
+    "transcript": "[[I|Yo]] [[hope|espero]] [[you|tú]] [[have|tengas]] [[a|un]] [[great|gran]] [[weekend|fin de semana]].",
     "content": {
-      "title": "[[Numbers|Números]] 16-18",
-      "instructions": "[[Choose|Elige]] '[[eighteen|dieciocho]]'.",
+      "title": "[[Closing|Cierre]] [[Greetings|Saludos]]",
+      "instructions": "[[Identify|Identifica]] [[the|la]] [[best|mejor]] [[farewell|despedida]] [[for|para]] [[Friday|Viernes]].",
       "questions": [
         {
-          "question": "[[Which|Cuál]] [[is|es]] '[[18|18]]'?",
-          "options": ["[[Sixteen|Dieciséis]]", "[[Seventeen|Diecisiete]]", "[[Eighteen|Dieciocho]]"],
-          "correctAnswer": 2,
-          "explanation": "[[Eight|Ocho]] + [[teen|teen]] = [[Eighteen|Dieciocho]]."
+          "question": "[[It|Es]] [[is|es]] [[Friday|Viernes]] [[afternoon|tarde]]. [[How|Cómo]] [[do|haces]] [[you|tú]] [[say|decir]] [[goodbye|adiós]]?",
+          "options": [
+            "[[Have|Ten]] [[a|un]] [[nice|buen]] [[weekend|fin de semana]]!",
+            "[[Good morning|Buenos días]]!",
+            "[[Happy|Feliz]] [[Monday|Lunes]]!"
+          ],
+          "correctAnswer": 0,
+          "explanation": "[[We|Nosotros]] [[wish|deseamos]] [[a|un]] '[[nice|buen]] [[weekend|fin de semana]]' [[at|al]] [[the|el]] [[end|final]] [[of|de]] [[the|la]] [[week|semana]]."
         }
       ]
     },
@@ -1071,16 +1125,20 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "hard",
-    "transcript": "[[Hello|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Marco|Marco]]. [[I|Yo]] [[am|soy]] [[from|de]] [[Italy|Italia]]. [[I|Yo]] [[am|soy]] [[a|un]] [[student|estudiante]]. [[I|Yo]] [[am|tengo]] [[twenty-one|veintiún]] [[years|años]] [[old|de edad]].",
+    "transcript": "[[Welcome|Bienvenido]] [[to|a]] [[the|la]] [[team|equipo]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Sarah|Sara]] [[Miller|Miller]]. [[I|Yo]] [[am|soy]] [[the|la]] [[project|proyecto]] [[manager|gerente]]. [[This|Este]] [[is|es]] [[Mr.|el Sr.]] [[Davis|Davis]], [[our|nuestro]] [[senior|senior]] [[developer|desarrollador]]. [[He|Él]] [[is|es]] [[from|de]] [[Canada|Canadá]]. [[We|Nosotros]] [[are|estamos]] [[happy|felices]] [[to|de]] [[have|tenerte]] [[you|a ti]].",
     "content": {
-      "title": "[[Marco's|De Marco]] [[Profile|Perfil]]",
-      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+      "title": "[[Professional|Profesional]] [[Introduction|Presentación]]",
+      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]] [[carefully|cuidadosamente]] [[and|y]] [[answer|responde]].",
       "questions": [
         {
-          "question": "[[Where|De dónde]] [[is|es]] [[Marco|Marco]] [[from|de]]?",
-          "options": ["[[Spain|España]]", "[[Italy|Italia]]", "[[England|Inglaterra]]"],
-          "correctAnswer": 1,
-          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: '[[I|Yo]] [[am|soy]] [[from|de]] [[Italy|Italia]]'."
+          "question": "[[What|Cuál]] [[is|es]] [[Sarah's|de Sara]] [[job|trabajo]]?",
+          "options": [
+            "[[Project|Proyecto]] [[manager|gerente]]",
+            "[[Senior|Senior]] [[developer|desarrollador]]",
+            "[[Student|Estudiante]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "[[Sarah|Sara]] [[says|dice]]: '[[I|Yo]] [[am|soy]] [[the|la]] [[project|proyecto]] [[manager|gerente]]'."
         }
       ]
     },
@@ -1092,16 +1150,16 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "hard",
-    "transcript": "[[Hello|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Marco|Marco]]. [[I|Yo]] [[am|soy]] [[from|de]] [[Italy|Italia]]. [[I|Yo]] [[am|soy]] [[a|un]] [[student|estudiante]]. [[I|Yo]] [[am|tengo]] [[twenty-one|veintiún]] [[years|años]] [[old|de edad]].",
+    "transcript": "[[Welcome|Bienvenido]] [[to|a]] [[the|la]] [[team|equipo]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Sarah|Sara]] [[Miller|Miller]]. [[I|Yo]] [[am|soy]] [[the|la]] [[project|proyecto]] [[manager|gerente]]. [[This|Este]] [[is|es]] [[Mr.|el Sr.]] [[Davis|Davis]], [[our|nuestro]] [[senior|senior]] [[developer|desarrollador]]. [[He|Él]] [[is|es]] [[from|de]] [[Canada|Canadá]]. [[We|Nosotros]] [[are|estamos]] [[happy|felices]] [[to|de]] [[have|tenerte]] [[you|a ti]].",
     "content": {
-      "title": "[[Marco's|De Marco]] [[Job|Trabajo]]",
+      "title": "[[Team|Equipo]] [[Origin|Origen]]",
       "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
       "questions": [
         {
-          "question": "[[What|Qué]] [[is|es]] [[Marco's|de Marco]] [[job|trabajo]]?",
-          "options": ["[[Doctor|Doctor]]", "[[Teacher|Profesor]]", "[[Student|Estudiante]]"],
-          "correctAnswer": 2,
-          "explanation": "[[Marco|Marco]] [[says|dice]]: '[[I|Yo]] [[am|soy]] [[a|un]] [[student|estudiante]]'."
+          "question": "[[Where|De dónde]] [[is|es]] [[Mr.|el Sr.]] [[Davis|Davis]] [[from|de]]?",
+          "options": ["[[USA|EE.UU.]]", "[[Canada|Canadá]]", "[[England|Inglaterra]]"],
+          "correctAnswer": 1,
+          "explanation": "[[The|El]] [[text|texto]] [[states|afirma]]: '[[He|Él]] [[is|es]] [[from|de]] [[Canada|Canadá]]'."
         }
       ]
     },
@@ -1113,16 +1171,16 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "hard",
-    "transcript": "[[This|Esta]] [[is|es]] [[Mrs.|la Sra.]] [[Green|Verde]]. [[She|Ella]] [[is|es]] [[from|de]] [[the|los]] [[USA|EE.UU.]]. [[She|Ella]] [[is|es]] [[a|una]] [[manager|gerente]]. [[She|Ella]] [[is|es]] [[not|no]] [[a|una]] [[student|estudiante]].",
+    "transcript": "[[My|Mi]] [[office|oficina]] [[is|está]] [[in|en]] [[New|Nueva]] [[York|York]]. [[It|Ella]] [[is|es]] [[a|una]] [[very|muy]] [[big|grande]] [[building|edificio]]. [[My|Mi]] [[colleague|colega]], [[Elena|Elena]], [[is|es]] [[from|de]] [[Spain|España]]. [[She|Ella]] [[is|es]] [[thirty-two|treinta y dos]] [[years|años]] [[old|de edad]]. [[We|Nosotros]] [[are|estamos]] [[at|en]] [[work|el trabajo]] [[now|ahora]].",
     "content": {
-      "title": "[[Mrs.|La Sra.]] [[Green|Verde]]",
-      "instructions": "[[Read|Lee]] [[and|y]] [[answer|responde]].",
+      "title": "[[Office|Oficina]] [[Life|Vida]]",
+      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
       "questions": [
         {
-          "question": "[[Is|¿Es]] [[Mrs.|la Sra.]] [[Green|Verde]] [[a|una]] [[manager|gerente]]?",
-          "options": ["[[Yes|Sí]], [[she|ella]] [[is|es]]", "[[No|No]], [[she|ella]] [[is|es]] [[not|no]]", "[[I|Yo]] [[don't|no]] [[know|sé]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The|El]] [[text|texto]] [[confirms|confirma]]: '[[She|Ella]] [[is|es]] [[a|una]] [[manager|gerente]]'."
+          "question": "[[How|Cómo]] [[old|vieja]] [[is|es]] [[Elena|Elena]]?",
+          "options": ["22", "32", "42"],
+          "correctAnswer": 1,
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: '[[She|Ella]] [[is|es]] [[thirty-two|treinta y dos]] [[years|años]] [[old|de edad]]'."
         }
       ]
     },
@@ -1134,16 +1192,16 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "hard",
-    "transcript": "[[This|Esta]] [[is|es]] [[Mrs.|la Sra.]] [[Green|Verde]]. [[She|Ella]] [[is|es]] [[from|de]] [[the|los]] [[USA|EE.UU.]]. [[She|Ella]] [[is|es]] [[a|una]] [[manager|gerente]]. [[She|Ella]] [[is|es]] [[not|no]] [[a|una]] [[student|estudiante]].",
+    "transcript": "[[My|Mi]] [[office|oficina]] [[is|está]] [[in|en]] [[New|Nueva]] [[York|York]]. [[It|Ella]] [[is|es]] [[a|una]] [[very|muy]] [[big|grande]] [[building|edificio]]. [[My|Mi]] [[colleague|colega]], [[Elena|Elena]], [[is|es]] [[from|de]] [[Spain|España]]. [[She|Ella]] [[is|es]] [[thirty-two|treinta y dos]] [[years|años]] [[old|de edad]]. [[We|Nosotros]] [[are|estamos]] [[at|en]] [[work|el trabajo]] [[now|ahora]].",
     "content": {
-      "title": "[[Origin|Origen]] [[of|de]] [[Mrs.|la Sra.]] [[Green|Verde]]",
-      "instructions": "[[Read|Lee]] [[and|y]] [[answer|responde]].",
+      "title": "[[Office|Oficina]] [[Location|Ubicación]]",
+      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
       "questions": [
         {
-          "question": "[[Where|De dónde]] [[is|es]] [[she|ella]] [[from|de]]?",
-          "options": ["[[England|Inglaterra]]", "[[The|Los]] [[USA|EE.UU.]]", "[[Italy|Italia]]"],
-          "correctAnswer": 1,
-          "explanation": "[[She|Ella]] [[is|es]] [[from|de]] [[the|los]] [[USA|EE.UU.]]."
+          "question": "[[Where|Dónde]] [[is|está]] [[the|la]] [[office|oficina]]?",
+          "options": ["[[Madrid|Madrid]]", "[[London|Londres]]", "[[New|Nueva]] [[York|York]]"],
+          "correctAnswer": 2,
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: '[[My|Mi]] [[office|oficina]] [[is|está]] [[in|en]] [[New|Nueva]] [[York|York]]'."
         }
       ]
     },
@@ -1155,16 +1213,16 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "hard",
-    "transcript": "[[My|Mi]] [[teacher|profesor]] [[is|es]] [[Mr.|el Sr.]] [[Black|Negro]]. [[He|Él]] [[is|es]] [[from|de]] [[London|Londres]]. [[He|Él]] [[is|es]] [[thirty-five|treinta y cinco]] [[years|años]] [[old|de edad]]. [[He|Él]] [[is|es]] [[very|muy]] [[nice|amable]].",
+    "transcript": "[[Hello|Hola]]! [[I|Yo]] [[am|soy]] [[Paul|Pablo]]. [[I|Yo]] [[am|soy]] [[a|un]] [[doctor|doctor]] [[at|en]] [[St.|San]] [[Jude|Judas]] [[Hospital|Hospital]]. [[My|Mi]] [[phone|teléfono]] [[number|número]] [[is|es]] 987-654. [[This|Esta]] [[is|es]] [[my|mi]] [[assistant|asistente]], [[Lucia|Lucía]]. [[She|Ella]] [[is|es]] [[from|de]] [[Italy|Italia]]. [[She|Ella]] [[is|es]] [[very|muy]] [[professional|profesional]].",
     "content": {
-      "title": "[[The|El]] [[Teacher|Profesor]]",
-      "instructions": "[[Read|Lee]] [[and|y]] [[answer|responde]].",
+      "title": "[[Hospital|Hospital]] [[Staff|Personal]]",
+      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[old|viejo]] [[is|es]] [[Mr.|el Sr.]] [[Black|Negro]]?",
-          "options": ["25", "35", "45"],
-          "correctAnswer": 1,
-          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: '[[He|Él]] [[is|es]] [[thirty-five|treinta y cinco]] [[years|años]] [[old|de edad]]'."
+          "question": "[[What|Qué]] [[is|es]] [[Paul's|de Pablo]] [[job|trabajo]]?",
+          "options": ["[[Doctor|Doctor]]", "[[Assistant|Asistente]]", "[[Manager|Gerente]]"],
+          "correctAnswer": 0,
+          "explanation": "[[Paul|Pablo]] [[states|afirma]]: '[[I|Yo]] [[am|soy]] [[a|un]] [[doctor|doctor]]'."
         }
       ]
     },
@@ -1176,20 +1234,19 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "hard",
-    "transcript": "[[My|Mi]] [[teacher|profesor]] [[is|es]] [[Mr.|el Sr.]] [[Black|Negro]]. [[He|Él]] [[is|es]] [[from|de]] [[London|Londres]]. [[He|Él]] [[is|es]] [[thirty-five|treinta y cinco]] [[years|años]] [[old|de edad]]. [[He|Él]] [[is|es]] [[very|muy]] [[nice|amable]].",
+    "transcript": "[[Hello|Hola]]! [[I|Yo]] [[am|soy]] [[Paul|Pablo]]. [[I|Yo]] [[am|soy]] [[a|un]] [[doctor|doctor]] [[at|en]] [[St.|San]] [[Jude|Judas]] [[Hospital|Hospital]]. [[My|Mi]] [[phone|teléfono]] [[number|número]] [[is|es]] 987-654. [[This|Esta]] [[is|es]] [[my|mi]] [[assistant|asistente]], [[Lucia|Lucía]]. [[She|Ella]] [[is|es]] [[from|de]] [[Italy|Italia]]. [[She|Ella]] [[is|es]] [[very|muy]] [[professional|profesional]].",
     "content": {
-      "title": "[[Teacher's|Del profesor]] [[Origin|Origen]]",
-      "instructions": "[[Read|Lee]] [[and|y]] [[answer|responde]].",
+      "title": "[[Assistant's|De la asistente]] [[Details|Detalles]]",
+      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
       "questions": [
         {
-          "question": "[[Is|¿Es]] [[he|él]] [[from|de]] [[London|Londres]]?",
-          "options": ["[[Yes|Sí]], [[he|él]] [[is|es]]", "[[No|No]], [[he|él]] [[is|es]] [[not|no]]", "[[He|Él]] [[is|es]] [[from|de]] [[Italy|Italia]]"],
+          "question": "[[Is|¿Es]] [[Lucia|Lucía]] [[Italian|Italiana]]?",
+          "options": ["[[Yes|Sí]], [[she|ella]] [[is|es]]", "[[No|No]], [[she|ella]] [[is|es]] [[not|no]]", "[[She|Ella]] [[is|es]] [[American|Americana]]"],
           "correctAnswer": 0,
-          "explanation": "[[Yes|Sí]], [[he|él]] [[is|es]] [[from|de]] [[London|Londres]]."
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: '[[She|Ella]] [[is|es]] [[from|de]] [[Italy|Italia]]'."
         }
       ]
     },
     "topicName": "Reading"
   }
 ];
-
