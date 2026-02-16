@@ -699,7 +699,9 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                 )}
               </div>
               {exercise.content.explanation && (
-                <p className="text-gray-700">{exercise.content.explanation}</p>
+                <div className="text-gray-700">
+                  <Markdown content={exercise.content.explanation} vocabulary={vocabulary} />
+                </div>
               )}
               {exercise.content.correctAnswer && (
                 <p className="text-gray-700 mt-2">

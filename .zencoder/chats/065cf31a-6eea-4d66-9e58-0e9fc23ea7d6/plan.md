@@ -65,8 +65,24 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/06
 - [x] Protect `[[word|translation]]` tags from being broken by vocabulary matching in `Markdown`.
 - [x] Improve styling of tooltips and dotted underlines for a premium feel.
 - [x] Ensure `WordSearchExercise` and `CrosswordExercise` use `TranslatedText` for clues.
-- [ ] Verification: Manual verification of tooltip visibility and styling in Units 11, 12, 13.
+- [x] Non-Triviality Audit: Fix Units 11, 12, 13 to avoid "word matching word" or obvious translations in options.
+- [x] Verification: Manual verification of tooltip visibility and exercise quality in Units 11, 12, 13.
 
-#### 5. Final Verification
+#### 5. Pedagogical Restructuring: Unit 1 (Greetings & Introductions)
+- [x] Audit Unit 1 (`src/lib/course/a1/unit-1.ts`) for pedagogical flow.
+- [x] Remove all `flashcard` exercises and replace with active recognition (Multiple Choice/Matching).
+- [x] Ensure non-triviality: Options must be plausible distractors, not the target word itself.
+- [x] Implement bilingual `[[English|Spanish]]` format for all 60 exercises.
+- [x] Verify that all explanations use `Markdown` for correct tooltip rendering.
+- [x] Verification: Count check (60) and pedagogical flow audit.
+
+#### 6. Pedagogical Restructuring: Unit 2
+- [ ] Audit Unit 2 (`src/lib/course/a1/unit-2.ts`) for pedagogical flow.
+- [ ] Remove all `flashcard` exercises and replace with active recognition.
+- [ ] Implement bilingual `[[English|Spanish]]` format for all 60 exercises.
+- [ ] Ensure non-triviality and quality standards.
+- [ ] Verification: Count check (60).
+
+#### 7. Course Standardization (Ongoing)
 - [ ] Visual verification of Reading UI and Interactive Translations in browser.
 - [ ] Test Plan Approval & E2E Testing.
