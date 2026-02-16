@@ -1,6 +1,7 @@
-import { Exercise } from '@/lib/exercise-generator';
+import fs from 'fs';
 
-export const UNIT_2_EXERCISES: Exercise[] = [
+const exercises = [
+  // Numbers 1-10 (1-10)
   {
     "id": "a1-u2-e1",
     "type": "multiple-choice",
@@ -85,10 +86,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "3 = _______",
-          "options": [
-            "three",
-            "tree"
-          ],
+          "options": ["three", "tree"],
           "correctAnswer": "three",
           "explanation": "[[Three|Tres]] [[is|es]] 3."
         }
@@ -108,10 +106,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "4 = _______",
-          "options": [
-            "four",
-            "for"
-          ],
+          "options": ["four", "for"],
           "correctAnswer": "four",
           "explanation": "[[Four|Cuatro]] [[is|es]] 4."
         }
@@ -179,10 +174,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "10 = _______",
-          "options": [
-            "ten",
-            "tin"
-          ],
+          "options": ["ten", "tin"],
           "correctAnswer": "ten",
           "explanation": "[[Ten|Diez]] [[is|es]] 10."
         }
@@ -232,6 +224,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     },
     "topicName": "Vocabulary"
   },
+  // Countries & Nationalities (11-20)
   {
     "id": "a1-u2-e11",
     "type": "multiple-choice",
@@ -340,10 +333,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[New|Nueva]] [[York|York]] [[is|es]] [[in|en]] [[the|los]] ____.",
-          "options": [
-            "USA",
-            "USB"
-          ],
+          "options": ["USA", "USB"],
           "correctAnswer": "USA",
           "explanation": "[[USA|EE.UU.]] [[stands|significa]] [[for|por]] [[United|Estados]] [[States|Unidos]]."
         }
@@ -435,10 +425,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[Paris|París]] [[is|es]] [[in|en]] ______.",
-          "options": [
-            "France",
-            "French"
-          ],
+          "options": ["France", "French"],
           "correctAnswer": "France",
           "explanation": "[[Paris|París]] [[is|es]] [[the|la]] [[capital|capital]] [[of|de]] [[France|Francia]]."
         }
@@ -470,6 +457,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     },
     "topicName": "Vocabulary"
   },
+  // Grammar - Subject Pronouns (He, She, It, We, They) (21-30)
   {
     "id": "a1-u2-e21",
     "type": "multiple-choice",
@@ -602,10 +590,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[John|Juan]] [[is|es]] [[happy|feliz]]. ____ [[is|es]] [[tall|alto]].",
-          "options": [
-            "He",
-            "She"
-          ],
+          "options": ["He", "She"],
           "correctAnswer": "He",
           "explanation": "[[Refers|Se refiere]] [[to|a]] [[John|Juan]]."
         }
@@ -625,10 +610,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[Sara|Sara]] [[is|es]] [[from|de]] [[Spain|España]]. ____ [[is|es]] [[Spanish|española]].",
-          "options": [
-            "She",
-            "He"
-          ],
+          "options": ["She", "He"],
           "correctAnswer": "She",
           "explanation": "[[Refers|Se refiere]] [[to|a]] [[Sara|Sara]]."
         }
@@ -648,10 +630,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[The|El]] [[dog|perro]] [[is|es]] [[fast|rápido]]. ____ [[is|es]] [[big|grande]].",
-          "options": [
-            "It",
-            "They"
-          ],
+          "options": ["It", "They"],
           "correctAnswer": "It",
           "explanation": "[[Refers|Se refiere]] [[to|a]] [[the|el]] [[dog|perro]]."
         }
@@ -671,10 +650,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[Leo|Leo]] [[and|y]] [[I|yo]] [[are|somos]] [[friends|amigos]]. ____ [[are|somos]] [[happy|felices]].",
-          "options": [
-            "We",
-            "They"
-          ],
+          "options": ["We", "They"],
           "correctAnswer": "We",
           "explanation": "[[Refers|Se refiere]] [[to|a]] [[Leo|Leo]] [[and|y]] [[me|mí]]."
         }
@@ -694,10 +670,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[Anna|Ana]] [[and|y]] [[Kim|Kim]] [[are|están]] [[here|aquí]]. ____ [[are|son]] [[students|estudiantes]].",
-          "options": [
-            "They",
-            "We"
-          ],
+          "options": ["They", "We"],
           "correctAnswer": "They",
           "explanation": "[[Refers|Se refiere]] [[to|a]] [[Anna|Ana]] [[and|y]] [[Kim|Kim]]."
         }
@@ -705,6 +678,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     },
     "topicName": "Grammar"
   },
+  // Grammar - Verb 'to be' (He, She, It, We, They) (31-45)
   {
     "id": "a1-u2-e31",
     "type": "multiple-choice",
@@ -765,10 +739,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[She|Ella]] ____ [[Mexican|mexicana]].",
-          "options": [
-            "is",
-            "are"
-          ],
+          "options": ["is", "are"],
           "correctAnswer": "is",
           "explanation": "[[She|Ella]] [[takes|lleva]] '[[is|es]]'."
         }
@@ -788,10 +759,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[They|Ellos]] ____ [[English|ingleses]].",
-          "options": [
-            "are",
-            "is"
-          ],
+          "options": ["are", "is"],
           "correctAnswer": "are",
           "explanation": "[[They|Ellos]] [[takes|lleva]] '[[are|son]]'."
         }
@@ -922,10 +890,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[You|Tú]] [[and|y]] [[I|yo]] ____ [[happy|felices]].",
-          "options": [
-            "are",
-            "is"
-          ],
+          "options": ["are", "is"],
           "correctAnswer": "are",
           "explanation": "'[[You|Tú]] [[and|y]] [[I|yo]]' [[is|es]] '[[We|Nosotros]]'."
         }
@@ -993,10 +958,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[Is|¿Es]] [[he|él]] [[from|de]] [[Spain|España]]? [[Yes|Sí]], [[he|él]] ____.",
-          "options": [
-            "is",
-            "are"
-          ],
+          "options": ["is", "are"],
           "correctAnswer": "is",
           "explanation": "[[We|Nosotros]] [[use|usamos]] '[[is|es]]' [[for|para]] '[[he|él]]'."
         }
@@ -1016,10 +978,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[Are|¿Son]] [[they|ellos]] [[ready|listos]]? [[No|No]], [[they|ellos]] [[are|son]] ____.",
-          "options": [
-            "not",
-            "no"
-          ],
+          "options": ["not", "no"],
           "correctAnswer": "not",
           "explanation": "[[Negative|Negativo]] [[needs|necesita]] '[[not|no]]'."
         }
@@ -1045,6 +1004,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     },
     "topicName": "Grammar"
   },
+  // Reading (46-55)
   {
     "id": "a1-u2-e46",
     "type": "multiple-choice",
@@ -1295,6 +1255,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     },
     "topicName": "Reading"
   },
+  // Review / Mixed (56-60)
   {
     "id": "a1-u2-e56",
     "type": "multiple-choice",
@@ -1331,10 +1292,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[We|Nosotros]] ____ [[from|de]] [[Spain|España]].",
-          "options": [
-            "are",
-            "is"
-          ],
+          "options": ["are", "is"],
           "correctAnswer": "are",
           "explanation": "[[We|Nosotros]] [[takes|lleva]] '[[are|somos]]'."
         }
@@ -1399,10 +1357,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "____ [[is|es]] [[from|de]] [[France|Francia]].",
-          "options": [
-            "She",
-            "Her"
-          ],
+          "options": ["She", "Her"],
           "correctAnswer": "She",
           "explanation": "[[Female|Femenino]] [[pronoun|pronombre]]."
         }
@@ -1411,3 +1366,10 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topicName": "Grammar"
   }
 ];
+
+const content = `import { Exercise } from '@/lib/exercise-generator';
+
+export const UNIT_2_EXERCISES: Exercise[] = ${JSON.stringify(exercises, null, 2)};
+`;
+
+fs.writeFileSync('./src/lib/course/a1/unit-2.ts', content);
