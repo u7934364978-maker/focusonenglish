@@ -204,22 +204,16 @@ export const UNIT_1_EXERCISES: Exercise[] = [
   // --- READING 1: THE INTRODUCTION (11-14) ---
   {
     "id": "a1-u1-e11",
-    "type": "multiple-choice",
+    "type": "reading",
     "level": "A1",
     "topic": "Reading",
     "difficulty": "easy",
-    "transcript": "Hello! My name is Alex. I am a student. My surname is Brown.",
+    "transcript": "[[Hello|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Alex|Alex]]. [[I|Yo]] [[am|soy]] [[a|un]] [[student|estudiante]]. [[My|Mi]] [[surname|apellido]] [[is|es]] [[Brown|Brown]].",
     "content": {
       "title": "[[Reading|Lectura]]: [[The|La]] [[Introduction|Presentación]]",
-      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]].",
-      "questions": [
-        {
-          "question": "[[Hello|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es/está]] [[Alex|Alex]]. [[I|Yo]] [[am|soy/estoy]] [[a|un/una]] [[student|estudiante]]. [[My|Mi]] [[surname|apellido]] [[is|es/está]] [[Brown|Brown]].",
-          "options": ["[[I|Yo]] [[read|leo]] [[the|el]] [[text|texto]]."],
-          "correctAnswer": 0,
-          "explanation": "[[Text|Texto]] [[only|solamente]]."
-        }
-      ]
+      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[prepare|prepárate]] [[for|para]] [[the|las]] [[questions|preguntas]].",
+      "text": "Hello! My name is Alex. I am a student. My surname is Brown.",
+      "questions": []
     },
     "topicName": "Reading"
   },
@@ -229,14 +223,14 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "easy",
-    "transcript": "Hello! My name is Alex. I am a student. My surname is Brown.",
+    "transcript": "[[What|Qué]] [[is|es]] [[his|su]] [[name|nombre]]?",
     "content": {
       "title": "[[Reading|Lectura]]: [[Alex|Alex]]",
-      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]] [[based|basado]] [[on|en]] [[the|el]] [[text|texto]].",
       "questions": [
         {
           "question": "[[What|Qué]] [[is|es/está]] [[his|su]] [[name|nombre]]?",
-          "options": ["[[Alex|Alex]]", "[[Brown|Brown]]", "[[Teacher|Profesor/a]]"],
+          "options": ["[[Alex|Alex]]", "[[Brown|Brown]]", "[[Peter|Peter]]"],
           "correctAnswer": 0,
           "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: \"[[My|Mi]] [[name|nombre]] [[is|es]] [[Alex|Alex]]\"."
         }
@@ -250,7 +244,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "easy",
-    "transcript": "Hello! My name is Alex. I am a student. My surname is Brown.",
+    "transcript": "[[Is|Es]] [[Alex|Alex]] [[a|un]] [[teacher|profesor]]?",
     "content": {
       "title": "[[Reading|Lectura]]: [[Alex|Alex]]",
       "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
@@ -259,7 +253,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
           "question": "[[Is|Es/está]] [[Alex|Alex]] [[a|un/una]] [[teacher|profesor/a]]?",
           "options": ["[[Yes|Sí]]", "[[No|No]]"],
           "correctAnswer": 1,
-          "explanation": "[[Alex|Alex]] [[is|es]] [[a|un]] [[student|estudiante]]."
+          "explanation": "[[Alex|Alex]] [[is|es]] [[a|un]] [[student|estudiante]], [[not|no]] [[a|un]] [[teacher|profesor]]."
         }
       ]
     },
@@ -271,15 +265,15 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "easy",
-    "transcript": "Hello! My name is Alex. I am a student. My surname is Brown.",
+    "transcript": "[[What|Qué]] [[is|es]] [[his|su]] [[surname|apellido]]?",
     "content": {
       "title": "[[Reading|Lectura]]: [[Alex|Alex]]",
       "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
       "questions": [
         {
           "question": "[[What|Qué]] [[is|es/está]] [[his|su]] [[surname|apellido]]?",
-          "options": ["[[Student|Estudiante]]", "[[Alex|Alex]]", "[[Brown|Brown]]"],
-          "correctAnswer": 2,
+          "options": ["[[Student|Estudiante]]", "[[Brown|Brown]]", "[[Smith|Smith]]"],
+          "correctAnswer": 1,
           "explanation": "[[His|Su]] [[surname|apellido]] [[is|es]] [[Brown|Brown]]."
         }
       ]
@@ -484,22 +478,16 @@ export const UNIT_1_EXERCISES: Exercise[] = [
   // --- READING 2: SARAH'S PROFILE (25-28) ---
   {
     "id": "a1-u1-e25",
-    "type": "multiple-choice",
+    "type": "reading",
     "level": "A1",
     "topic": "Reading",
     "difficulty": "easy",
-    "transcript": "I am Sarah. I am from London. My surname is Miller. You are my new friend.",
+    "transcript": "[[I|Yo]] [[am|soy]] [[Sarah|Sarah]]. [[I|Yo]] [[am|soy]] [[from|de]] [[London|Londres]]. [[My|Mi]] [[surname|apellido]] [[is|es]] [[Miller|Miller]]. [[You|Tú]] [[are|eres]] [[my|mi]] [[new|nuevo]] [[friend|amigo]].",
     "content": {
       "title": "[[Reading|Lectura]]: [[Sarah|Sarah]]'s [[Profile|Perfil]]",
-      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]].",
-      "questions": [
-        {
-          "question": "[[I|Yo]] [[am|soy/estoy]] [[Sarah|Sarah]]. [[I|Yo]] [[am|soy/estoy]] [[from|de]] [[London|Londres]]. [[My|Mi]] [[surname|apellido]] [[is|es/está]] [[Miller|Miller]]. [[You|Tú/Usted]] [[are|eres/estás]] [[my|mi]] [[new|nuevo]] [[friend|amigo/a]].",
-          "options": ["[[I|Yo]] [[read|leo]] [[the|el]] [[text|texto]]."],
-          "correctAnswer": 0,
-          "explanation": "[[Text|Texto]] [[only|solamente]]."
-        }
-      ]
+      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[prepare|prepárate]] [[for|para]] [[the|las]] [[questions|preguntas]].",
+      "text": "I am Sarah. I am from London. My surname is Miller. You are my new friend.",
+      "questions": []
     },
     "topicName": "Reading"
   },
@@ -509,14 +497,14 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "easy",
-    "transcript": "I am Sarah. I am from London. My surname is Miller. You are my new friend.",
+    "transcript": "[[Where|De dónde]] [[is|es]] [[Sarah|Sarah]] [[from|de]]?",
     "content": {
       "title": "[[Reading|Lectura]]: [[Sarah|Sarah]]",
       "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
       "questions": [
         {
           "question": "[[Where|De dónde]] [[is|es]] [[Sarah|Sarah]] [[from|de]]?",
-          "options": ["[[London|Londres]]", "[[Miller|Miller]]", "[[Friend|Amigo/a]]"],
+          "options": ["[[London|Londres]]", "[[Miller|Miller]]", "[[New York|Nueva York]]"],
           "correctAnswer": 0,
           "explanation": "[[She|Ella]] [[is|es]] [[from|de]] [[London|Londres]]."
         }
@@ -530,14 +518,14 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "easy",
-    "transcript": "I am Sarah. I am from London. My surname is Miller. You are my new friend.",
+    "transcript": "[[What|Qué]] [[is|es]] [[her|su]] [[surname|apellido]]?",
     "content": {
       "title": "[[Reading|Lectura]]: [[Sarah|Sarah]]",
       "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
       "questions": [
         {
           "question": "[[What|Qué]] [[is|es/está]] [[her|su]] [[surname|apellido]]?",
-          "options": ["[[Sarah|Sarah]]", "[[Miller|Miller]]", "[[London|Londres]]"],
+          "options": ["[[Sarah|Sarah]]", "[[Miller|Miller]]", "[[Brown|Brown]]"],
           "correctAnswer": 1,
           "explanation": "[[Her|Su]] [[surname|apellido]] [[is|es]] [[Miller|Miller]]."
         }
@@ -551,7 +539,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "easy",
-    "transcript": "I am Sarah. I am from London. My surname is Miller. You are my new friend.",
+    "transcript": "[[Who|Quién]] [[is|es]] [[the|el]] [[new|nuevo]] [[friend|amigo]]?",
     "content": {
       "title": "[[Reading|Lectura]]: [[Sarah|Sarah]]",
       "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",

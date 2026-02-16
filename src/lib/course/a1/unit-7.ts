@@ -407,11 +407,16 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[She|Ella]] [[has|tiene]] [[very|muy]] [[long|largo]] [[hair|pelo]]; [[it|él]] [[reaches|llega]] [[to|a]] [[her|su]] [[waist|cintura]].",
     "content": {
-      "title": "Descripción del pelo",
-      "instructions": "Elige el adjetivo lógico basado en la descripción adicional.",
-      "options": ["[[short|corto]]", "[[long|largo]]", "[[blue|azul]]"],
-      "correctAnswer": 1,
-      "explanation": "Si el pelo llega a la cintura, es largo (long)."
+      "title": "[[Hair|Cabello]] [[length|longitud]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[adjective|adjetivo]] [[based|basado]] [[on|en]] [[the|la]] [[description|descripción]].",
+      "questions": [
+        {
+          "question": "[[She|Ella]] [[has|tiene]] (_____) [[hair|pelo]]; [[it|él]] [[reaches|llega]] [[to|a]] [[her|su]] [[waist|cintura]].",
+          "options": ["[[short|corto]]", "[[long|largo]]", "[[blue|azul]]"],
+          "correctAnswer": 1,
+          "explanation": "[[If|Si]] [[it|él]] [[reaches|llega]] [[to|a]] [[the|la]] [[waist|cintura]], [[it|él]] [[is|es]] [[long|largo]]."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-7/e22.mp3",
     "topicName": "Vocabulary"
@@ -424,11 +429,16 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[He|Él]] [[has|tiene]] [[no|nada de]] [[hair|pelo]]. [[He|Él]] [[is|es]] [[bald|calvo]].",
     "content": {
-      "title": "Sin pelo",
-      "instructions": "Elige el término para alguien sin cabello.",
-      "options": ["[[curly|rizado]]", "[[straight|liso]]", "[[bald|calvo]]"],
-      "correctAnswer": 2,
-      "explanation": "Alguien sin pelo es calvo (bald)."
+      "title": "[[No|Sin]] [[hair|pelo]]",
+      "instructions": "[[Identify|Identifica]] [[the|el]] [[term|término]] [[for|para]] [[someone|alguien]] [[without|sin]] [[hair|pelo]].",
+      "questions": [
+        {
+          "question": "[[He|Él]] [[has|tiene]] [[no|nada de]] [[hair|pelo]]. [[He|Él]] [[is|es]] (_____).",
+          "options": ["[[curly|rizado]]", "[[straight|liso]]", "[[bald|calvo]]"],
+          "correctAnswer": 2,
+          "explanation": "[[Someone|Alguien]] [[without|sin]] [[hair|pelo]] [[is|es]] [[bald|calvo]]."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-7/e23.mp3",
     "topicName": "Vocabulary"
@@ -441,11 +451,16 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[Your|Tus]] [[eyes|ojos]] [[are|son]] [[the|del]] [[color|color]] [[of|de]] [[the|el]] [[ocean|océano]]. [[They|Ellos]] [[are|son]] [[blue|azules]].",
     "content": {
-      "title": "Color de ojos",
-      "instructions": "Selecciona el color de ojos sugerido por la metáfora.",
-      "options": ["[[brown|marrones]]", "[[blue|azules]]", "[[green|verdes]]"],
-      "correctAnswer": 1,
-      "explanation": "El océano se asocia con el azul (blue)."
+      "title": "[[Eye|Ojo]] [[color|color]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[color|color]] [[suggested|sugerido]].",
+      "questions": [
+        {
+          "question": "[[Your|Tus]] [[eyes|ojos]] [[are|son]] [[the|del]] [[color|color]] [[of|de]] [[the|el]] [[ocean|océano]]. [[They|Ellos]] [[are|son]] (_____).",
+          "options": ["[[brown|marrones]]", "[[blue|azules]]", "[[green|verdes]]"],
+          "correctAnswer": 1,
+          "explanation": "[[The|El]] [[ocean|océano]] [[is|es]] [[blue|azul]]."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-7/e24.mp3",
     "topicName": "Vocabulary"
@@ -458,11 +473,16 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[She|Ella]] [[is|es]] [[a|una]] [[redhead|pelirroja]]. [[Her|Su]] [[hair|pelo]] [[is|es]] [[orange|naranja]] [[and|y]] [[red|rojo]].",
     "content": {
-      "title": "Pelirroja",
-      "instructions": "Identifica el tipo de persona por su color de pelo.",
-      "options": ["[[blonde|rubia]]", "[[brunette|castaña]]", "[[redhead|pelirroja]]"],
-      "correctAnswer": 2,
-      "explanation": "El pelo rojo u naranja define a una pelirroja (redhead)."
+      "title": "[[Hair|Cabello]] [[type|tipo]]",
+      "instructions": "[[Identify|Identifica]] [[the|el]] [[person|persona]] [[by|por]] [[hair|pelo]] [[color|color]].",
+      "questions": [
+        {
+          "question": "[[Her|Su]] [[hair|pelo]] [[is|es]] [[orange|naranja]] [[and|y]] [[red|rojo]]. [[She|Ella]] [[is|es]] [[a|una]] (_____).",
+          "options": ["[[blonde|rubia]]", "[[brunette|castaña]]", "[[redhead|pelirroja]]"],
+          "correctAnswer": 2,
+          "explanation": "[[Orange/red|Naranja/rojo]] [[hair|pelo]] [[is|es]] [[for|para]] [[a|una]] [[redhead|pelirroja]]."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-7/e25.mp3",
     "topicName": "Vocabulary"
@@ -475,11 +495,16 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[My|Mi]] [[hair|pelo]] [[is|es]] [[not|no]] [[curly|rizado]]. [[It|Él]] [[is|es]] [[perfectly|perfectamente]] [[straight|liso]].",
     "content": {
-      "title": "Tipo de pelo",
-      "instructions": "Elige el opuesto a rizado.",
-      "options": ["[[curly|rizado]]", "[[straight|liso]]", "[[long|largo]]"],
-      "correctAnswer": 1,
-      "explanation": "Straight es el término para pelo liso."
+      "title": "[[Hair|Cabello]] [[style|estilo]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[opposite|opuesto]] [[of|de]] [[curly|rizado]].",
+      "questions": [
+        {
+          "question": "[[My|Mi]] [[hair|pelo]] [[is|es]] [[not|no]] [[curly|rizado]]. [[It|Él]] [[is|es]] (_____).",
+          "options": ["[[curly|rizado]]", "[[straight|liso]]", "[[long|largo]]"],
+          "correctAnswer": 1,
+          "explanation": "[[The|El]] [[opposite|opuesto]] [[of|de]] [[curly|rizado]] [[is|es]] [[straight|liso]]."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-7/e26.mp3",
     "topicName": "Vocabulary"
@@ -492,11 +517,16 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[The|El]] [[baby|bebé]] [[has|tiene]] [[very|muy]] [[little|poco]] [[hair|pelo]]. [[It|Él]] [[is|es]] [[very|muy]] [[short|corto]].",
     "content": {
-      "title": "Longitud del pelo",
-      "instructions": "Elige el adjetivo lógico para poco pelo.",
-      "options": ["[[long|largo]]", "[[short|corto]]", "[[blue|azul]]"],
-      "correctAnswer": 1,
-      "explanation": "Poco pelo se describe como corto (short)."
+      "title": "[[Hair|Cabello]] [[length|longitud]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[adjective|adjetivo]] [[for|para]] [[little|poco]] [[hair|pelo]].",
+      "questions": [
+        {
+          "question": "[[The|El]] [[baby|bebé]] [[has|tiene]] [[very|muy]] [[little|poco]] [[hair|pelo]]. [[It|Él]] [[is|es]] (_____).",
+          "options": ["[[long|largo]]", "[[short|corto]]", "[[blue|azul]]"],
+          "correctAnswer": 1,
+          "explanation": "[[Little|Poco]] [[hair|pelo]] [[is|es]] [[short|corto]]."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-7/e27.mp3",
     "topicName": "Vocabulary"
@@ -509,11 +539,16 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[Her|Sus]] [[eyes|ojos]] [[are|son]] [[the|del]] [[color|color]] [[of|de]] [[chocolate|chocolate]]. [[They|Ellos]] [[are|son]] [[brown|marrones]].",
     "content": {
-      "title": "Color de ojos",
-      "instructions": "Elige el color de ojos basado en la comparación.",
-      "options": ["[[blue|azules]]", "[[green|verdes]]", "[[brown|marrones]]"],
-      "correctAnswer": 2,
-      "explanation": "El chocolate es marrón (brown)."
+      "title": "[[Eye|Ojo]] [[color|color]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[color|color]] [[based|basado]] [[on|en]] [[the|la]] [[comparison|comparación]].",
+      "questions": [
+        {
+          "question": "[[Her|Sus]] [[eyes|ojos]] [[are|son]] [[the|del]] [[color|color]] [[of|de]] [[chocolate|chocolate]]. [[They|Ellos]] [[are|son]] (_____).",
+          "options": ["[[blue|azules]]", "[[green|verdes]]", "[[brown|marrones]]"],
+          "correctAnswer": 2,
+          "explanation": "[[Chocolate|Chocolate]] [[is|es]] [[brown|marrón]]."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-7/e28.mp3",
     "topicName": "Vocabulary"
@@ -526,11 +561,16 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[That|Esa]] [[girl|chica]] [[has|tiene]] [[yellow|amarillo]] [[hair|pelo]]. [[She|Ella]] [[is|es]] [[blonde|rubia]].",
     "content": {
-      "title": "Rubia",
-      "instructions": "Elige el término para pelo amarillo/claro.",
-      "options": ["[[brunette|castaña]]", "[[redhead|pelirroja]]", "[[blonde|rubia]]"],
-      "correctAnswer": 2,
-      "explanation": "Pelo amarillo se llama rubio (blonde)."
+      "title": "[[Hair|Cabello]] [[color|color]]",
+      "instructions": "[[Identify|Identifica]] [[the|el]] [[term|término]] [[for|para]] [[light/yellow|claro/amarillo]] [[hair|pelo]].",
+      "questions": [
+        {
+          "question": "[[That|Esa]] [[girl|chica]] [[has|tiene]] [[yellow|amarillo]] [[hair|pelo]]. [[She|Ella]] [[is|es]] (_____).",
+          "options": ["[[brunette|castaña]]", "[[redhead|pelirroja]]", "[[blonde|rubia]]"],
+          "correctAnswer": 2,
+          "explanation": "[[Yellow|Amarillo]] [[hair|pelo]] [[is|es]] [[blonde|rubia]]."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-7/e29.mp3",
     "topicName": "Vocabulary"
@@ -543,11 +583,16 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[Is|¿Es]] [[his|su]] [[hair|pelo]] [[wavy|ondulado]] [[or|o]] [[curly|rizado]]? [[It|Él]] [[has|tiene]] [[many|muchos]] [[circles|círculos]]. [[It|Él]] [[is|es]] [[curly|rizado]].",
     "content": {
-      "title": "Textura del pelo",
-      "instructions": "Elige la textura basada en la descripción.",
-      "options": ["[[straight|liso]]", "[[curly|rizado]]", "[[bald|calvo]]"],
-      "correctAnswer": 1,
-      "explanation": "Si tiene forma de círculos, es rizado (curly)."
+      "title": "[[Hair|Cabello]] [[texture|textura]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[texture|textura]] [[based|basada]] [[on|en]] [[the|la]] [[description|descripción]].",
+      "questions": [
+        {
+          "question": "[[It|Él]] [[has|tiene]] [[many|muchos]] [[circles|círculos]]. [[It|Él]] [[is|es]] (_____).",
+          "options": ["[[straight|liso]]", "[[curly|rizado]]", "[[bald|calvo]]"],
+          "correctAnswer": 1,
+          "explanation": "[[Circles|Círculos]] [[means|significa]] [[curly|rizado]]."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-7/e30.mp3",
     "topicName": "Vocabulary"
