@@ -466,7 +466,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                   </div>
 
                   {/* Multiple choice options */}
-                  {q.options && Array.isArray(q.options) && (
+                  {q.options && Array.isArray(q.options) && exercise.type !== 'fill-blank' && (
                     <div className="space-y-3">
                       {q.options.map((option: any, optIndex: number) => {
                         const isUserAnswer = userAnswer?.questionIndex === qIndex && userAnswer?.answer === optIndex;
@@ -533,17 +533,40 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                   )}
 
                   {/* Fill-in-the-blank input */}
-                  {exercise.type === 'fill-blank' && !q.options && (
-                    <div className="relative">
-                      <input
-                        type="text"
-                        value={userAnswer?.questionIndex === qIndex ? userAnswer?.answer || '' : ''}
-                        onChange={(e) => setUserAnswer({ questionIndex: qIndex, answer: e.target.value })}
-                        onKeyDown={(e) => e.key === 'Enter' && !submitted && userAnswer?.answer && handleSubmit()}
-                        disabled={submitted}
-                        placeholder="Escribe tu respuesta aquí..."
-                        className="w-full p-5 border-2 border-gray-200 rounded-2xl focus:border-orange-500 focus:ring-4 focus:ring-orange-100 focus:outline-none disabled:bg-gray-50 disabled:cursor-not-allowed transition-all text-xl font-bold text-slate-800"
-                      />
+                  {exercise.type === 'fill-blank' && (
+                    <div className="space-y-4">
+                      <div className="relative">
+                        <input
+                          type="text"
+                          value={userAnswer?.questionIndex === qIndex ? userAnswer?.answer || '' : ''}
+                          onChange={(e) => setUserAnswer({ questionIndex: qIndex, answer: e.target.value })}
+                          onKeyDown={(e) => e.key === 'Enter' && !submitted && userAnswer?.answer && handleSubmit()}
+                          disabled={submitted}
+                          placeholder="Escribe tu respuesta aquí..."
+                          className="w-full p-5 border-2 border-gray-200 rounded-2xl focus:border-orange-500 focus:ring-4 focus:ring-orange-100 focus:outline-none disabled:bg-gray-50 disabled:cursor-not-allowed transition-all text-xl font-bold text-slate-800"
+                        />
+                      </div>
+
+                      {q.options && Array.isArray(q.options) && !submitted && (
+                        <div className="flex flex-wrap gap-2">
+                          {q.options.map((option: any, optIdx: number) => {
+                            const optionText = typeof option === 'string' ? option : option.text;
+                            // Helper to get clean text for the input
+                            const cleanText = optionText.replace(/\[\[(.*?)\|(.*?)\]\]/g, '$1');
+                            
+                            return (
+                              <button
+                                key={optIdx}
+                                type="button"
+                                onClick={() => setUserAnswer({ questionIndex: qIndex, answer: cleanText })}
+                                className="px-4 py-2 bg-white border-2 border-slate-200 rounded-xl hover:border-orange-500 hover:bg-orange-50 transition-all font-bold text-slate-700 shadow-sm flex items-center gap-2"
+                              >
+                                <TranslatedText text={optionText} />
+                              </button>
+                            );
+                          })}
+                        </div>
+                      )}
                     </div>
                   )}
 

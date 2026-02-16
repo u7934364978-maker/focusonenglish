@@ -133,6 +133,10 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "6 = ________",
           "correctAnswer": "six",
+          "options": [
+            "six",
+            "seven"
+          ],
           "explanation": "[[Check|Revisa]] [[the|la]] [[spelling|ortografía]] [[of|de]] [[six|seis]]."
         }
       ]
@@ -152,6 +156,10 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "7 = ________",
           "correctAnswer": "seven",
+          "options": [
+            "seven",
+            "eight"
+          ],
           "explanation": "[[Check|Revisa]] [[the|la]] [[spelling|ortografía]] [[of|de]] [[seven|siete]]."
         }
       ]
@@ -171,6 +179,10 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "8 = ________",
           "correctAnswer": "eight",
+          "options": [
+            "eight",
+            "nine"
+          ],
           "explanation": "[[Check|Revisa]] [[the|la]] [[spelling|ortografía]] [[of|de]] [[eight|ocho]]."
         }
       ]
@@ -190,6 +202,10 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "9 = ________",
           "correctAnswer": "nine",
+          "options": [
+            "nine",
+            "ten"
+          ],
           "explanation": "[[Check|Revisa]] [[the|la]] [[spelling|ortografía]] [[of|de]] [[nine|nueve]]."
         }
       ]
@@ -209,6 +225,10 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "10 = ________",
           "correctAnswer": "ten",
+          "options": [
+            "ten",
+            "one"
+          ],
           "explanation": "[[Check|Revisa]] [[the|la]] [[spelling|ortografía]] [[of|de]] [[ten|diez]]."
         }
       ]
@@ -348,6 +368,10 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] [[am|soy]] [[from|de]] [[Spain|España]]. [[I|Yo]] [[am|soy]] _________.",
           "correctAnswer": "Spanish",
+          "options": [
+            "Spanish",
+            "Mexican"
+          ],
           "explanation": "Vocabulary"
         }
       ]
@@ -367,6 +391,10 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] [[am|soy]] [[from|de]] [[Mexico|México]]. [[I|Yo]] [[am|soy]] _________.",
           "correctAnswer": "Mexican",
+          "options": [
+            "Mexican",
+            "French"
+          ],
           "explanation": "Vocabulary"
         }
       ]
@@ -386,6 +414,10 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] [[am|soy]] [[from|de]] [[France|Francia]]. [[I|Yo]] [[am|soy]] _________.",
           "correctAnswer": "French",
+          "options": [
+            "French",
+            "American"
+          ],
           "explanation": "Vocabulary"
         }
       ]
@@ -405,6 +437,10 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] [[am|soy]] [[from|de]] [[the USA|los EE.UU.]]. [[I|Yo]] [[am|soy]] _________.",
           "correctAnswer": "American",
+          "options": [
+            "American",
+            "English"
+          ],
           "explanation": "Vocabulary"
         }
       ]
@@ -424,6 +460,10 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] [[am|soy]] [[from|de]] [[England|Inglaterra]]. [[I|Yo]] [[am|soy]] _________.",
           "correctAnswer": "English",
+          "options": [
+            "English",
+            "Spanish"
+          ],
           "explanation": "Vocabulary"
         }
       ]
@@ -563,6 +603,10 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[A|Un]] [[man|hombre]] = ____",
           "correctAnswer": "He",
+          "options": [
+            "He",
+            "She"
+          ],
           "explanation": "Grammar"
         }
       ]
@@ -582,6 +626,10 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[A|Una]] [[woman|mujer]] = ____",
           "correctAnswer": "She",
+          "options": [
+            "She",
+            "It"
+          ],
           "explanation": "Grammar"
         }
       ]
@@ -601,6 +649,10 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[A|Un]] [[book|libro]] = ____",
           "correctAnswer": "It",
+          "options": [
+            "It",
+            "We"
+          ],
           "explanation": "Grammar"
         }
       ]
@@ -620,6 +672,10 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[You|Tú]] [[and|y]] [[I|yo]] = ____",
           "correctAnswer": "We",
+          "options": [
+            "We",
+            "They"
+          ],
           "explanation": "Grammar"
         }
       ]
@@ -639,6 +695,10 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[Tom|Tom]] [[and|y]] [[Alice|Alicia]] = ____",
           "correctAnswer": "They",
+          "options": [
+            "They",
+            "He"
+          ],
           "explanation": "Grammar"
         }
       ]
@@ -778,6 +838,10 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[They|Ellos]] ____ [[from|de]] [[France|Francia]].",
           "correctAnswer": "are",
+          "options": [
+            "is",
+            "are"
+          ],
           "explanation": "Grammar"
         }
       ]
@@ -797,6 +861,10 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[It|Esto]] ____ [[a|un]] [[pen|bolígrafo]].",
           "correctAnswer": "is",
+          "options": [
+            "is",
+            "are"
+          ],
           "explanation": "Grammar"
         }
       ]
@@ -816,6 +884,10 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[They|Ellos]] ____ [[from|de]] [[France|Francia]].",
           "correctAnswer": "are",
+          "options": [
+            "is",
+            "are"
+          ],
           "explanation": "Grammar"
         }
       ]
@@ -835,6 +907,10 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[It|Esto]] ____ [[a|un]] [[pen|bolígrafo]].",
           "correctAnswer": "is",
+          "options": [
+            "is",
+            "are"
+          ],
           "explanation": "Grammar"
         }
       ]
@@ -854,6 +930,10 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           "question": "[[They|Ellos]] ____ [[from|de]] [[France|Francia]].",
           "correctAnswer": "are",
+          "options": [
+            "is",
+            "are"
+          ],
           "explanation": "Grammar"
         }
       ]

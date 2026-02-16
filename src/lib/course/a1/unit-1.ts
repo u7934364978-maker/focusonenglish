@@ -109,11 +109,15 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           "question": "___, [[how|cómo]] [[are|estás]] [[you|tú]]?",
           "correctAnswer": "Hi",
+          "options": [
+            "Hi",
+            "Bye"
+          ],
           "explanation": " '[[Hi|Hola]]' [[is|es]] [[common|común]] [[between|entre]] [[friends|amigos]]."
         }
       ]
     },
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u1-e6",
@@ -128,11 +132,15 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           "question": "[[See|Ver]] [[you|a ti]] ______.",
           "correctAnswer": "later",
+          "options": [
+            "later",
+            "afternoon"
+          ],
           "explanation": " '[[See|Ver]] [[you|a ti]] [[later|luego]]' [[is|es]] [[very|muy]] [[common|común]]."
         }
       ]
     },
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u1-e7",
@@ -211,11 +219,15 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] [[am|estoy]] ____, [[thank|gracias]] [[you|ti]].",
           "correctAnswer": "fine",
+          "options": [
+            "fine",
+            "bad"
+          ],
           "explanation": "'[[Fine|Bien]]' [[is|es]] [[a|una]] [[standard|estándar]] [[response|respuesta]]."
         }
       ]
     },
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u1-e11",
@@ -254,11 +266,15 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           "question": "[[Your|Tu]] [[family|de familia]] [[name|nombre]] [[is|es]] [[your|tu]] ________.",
           "correctAnswer": "surname",
+          "options": [
+            "surname",
+            "nickname"
+          ],
           "explanation": "'[[Surname|Apellido]]' [[is|es]] [[more|más]] [[formal|formal]] [[than|que]] '[[last|último]] [[name|nombre]]'."
         }
       ]
     },
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u1-e13",
@@ -321,11 +337,15 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           "question": "____ [[name|nombre]] [[is|es]] [[Alice|Alicia]].",
           "correctAnswer": "My",
+          "options": [
+            "My",
+            "Your"
+          ],
           "explanation": "[[Possessive|Posesivo]] [[of|de]] '[[I|Yo]]'."
         }
       ]
     },
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u1-e16",
@@ -340,11 +360,15 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           "question": "[[What|Cuál]] [[is|es]] ____ [[surname|apellido]]?",
           "correctAnswer": "your",
+          "options": [
+            "your",
+            "my"
+          ],
           "explanation": "[[Possessive|Posesivo]] [[of|de]] '[[You|Tú]]'."
         }
       ]
     },
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u1-e17",
@@ -424,11 +448,15 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           "question": "____ [[Smith|Smith]] [[is|es]] [[here|aquí]].",
           "correctAnswer": "Mr.",
+          "options": [
+            "Mr.",
+            "Ms."
+          ],
           "explanation": "'[[Mr.|Sr.]]' [[is|es]] [[used|usado]] [[for|para]] [[men|hombres]]."
         }
       ]
     },
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u1-e21",
@@ -563,6 +591,10 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           "question": "[[You|Tú]] ____ [[my|mi]] [[friend|amigo]].",
           "correctAnswer": "are",
+          "options": [
+            "am",
+            "are"
+          ],
           "explanation": "Grammar"
         }
       ]
@@ -582,6 +614,10 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] ____ [[tired|cansado]].",
           "correctAnswer": "am",
+          "options": [
+            "am",
+            "are"
+          ],
           "explanation": "Grammar"
         }
       ]
@@ -601,6 +637,10 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           "question": "[[You|Tú]] ____ [[my|mi]] [[friend|amigo]].",
           "correctAnswer": "are",
+          "options": [
+            "am",
+            "are"
+          ],
           "explanation": "Grammar"
         }
       ]
@@ -620,6 +660,10 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] ____ [[tired|cansado]].",
           "correctAnswer": "am",
+          "options": [
+            "am",
+            "are"
+          ],
           "explanation": "Grammar"
         }
       ]
@@ -639,6 +683,10 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           "question": "[[You|Tú]] ____ [[my|mi]] [[friend|amigo]].",
           "correctAnswer": "are",
+          "options": [
+            "am",
+            "are"
+          ],
           "explanation": "Grammar"
         }
       ]
@@ -706,6 +754,10 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] [[am|soy]] = ____",
           "correctAnswer": "I'm",
+          "options": [
+            "I'm",
+            "Am"
+          ],
           "explanation": "Grammar"
         }
       ]
@@ -725,6 +777,10 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           "question": "[[You|Tú]] [[are|eres]] = ______",
           "correctAnswer": "You're",
+          "options": [
+            "You're",
+            "Are"
+          ],
           "explanation": "Grammar"
         }
       ]
@@ -744,6 +800,10 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           "question": "[[You|Tú]] ______ [[late|tarde]].",
           "correctAnswer": "aren't",
+          "options": [
+            "aren't",
+            "am not"
+          ],
           "explanation": "Grammar"
         }
       ]
@@ -851,6 +911,10 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           "question": "[[Yes|Sí]], [[I|yo]] ____.",
           "correctAnswer": "am",
+          "options": [
+            "am",
+            "are"
+          ],
           "explanation": "Grammar"
         }
       ]
@@ -894,6 +958,10 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           "question": "Good _____",
           "correctAnswer": "night",
+          "options": [
+            "night",
+            "evening"
+          ],
           "explanation": "Vocabulary"
         }
       ]
@@ -937,6 +1005,10 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           "question": "[[I|Yo]] [[am|soy]] ____ [[fine|bien]].",
           "correctAnswer": "not",
+          "options": [
+            "not",
+            "no"
+          ],
           "explanation": "Grammar"
         }
       ]
@@ -1001,7 +1073,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "your",
-          "correctAnswer": "Vocabulary"
+          "correctAnswer": [
+            "your",
+            "my"
+          ],
+          "options": "Vocabulary"
         }
       ]
     },
@@ -1064,6 +1140,10 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           "question": "____ [[not|no]] [[happy|feliz]].",
           "correctAnswer": "I'm",
+          "options": [
+            "I'm",
+            "Am"
+          ],
           "explanation": "Grammar"
         }
       ]
@@ -1232,6 +1312,10 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           "question": "[[Goodbye|Adiós]], ______ [[a|un]] [[nice|buen]] [[day|día]].",
           "correctAnswer": "have",
+          "options": [
+            "have",
+            "has"
+          ],
           "explanation": "Vocabulary"
         }
       ]
@@ -1296,6 +1380,10 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           "question": "[[Nice|Encantado]] [[to|de]] [[meet|conocerte]] ____.",
           "correctAnswer": "you",
+          "options": [
+            "you",
+            "your"
+          ],
           "explanation": "Vocabulary"
         }
       ]
