@@ -16,11 +16,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Countries",
     "difficulty": "easy",
     "content": {
-      "title": "[[Country|País]]: [[Spain|España]]",
-      "instructions": "[[Where|Dónde]] [[is|está]] [[Madrid|Madrid]]?",
+      "title": "Country: Spain",
+      "instructions": "Where is Madrid?",
       "questions": [
         {
-          "question": "[[Madrid|Madrid]] [[is|está]] [[in|en]]...",
+          "question": "[[Madrid|Madrid]] [[is|está]] [[in|en]]____",
           "options": [
             "[[Spain|España]]",
             "[[France|Francia]]",
@@ -40,11 +40,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Countries",
     "difficulty": "easy",
     "content": {
-      "title": "[[Country|País]]: [[Mexico|México]]",
-      "instructions": "[[Where|Dónde]] [[is|está]] [[Cancun|Cancún]]?",
+      "title": "Country: Mexico",
+      "instructions": "Where is Cancun?",
       "questions": [
         {
-          "question": "[[Cancun|Cancún]] [[is|está]] [[in|en]]...",
+          "question": "[[Cancun|Cancún]] [[is|está]] [[in|en]]____",
           "options": [
             "[[USA|EE.UU.]]",
             "[[Mexico|México]]",
@@ -64,11 +64,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Countries",
     "difficulty": "easy",
     "content": {
-      "title": "[[Country|País]]: [[USA|EE.UU.]]",
-      "instructions": "[[Where|Dónde]] [[is|está]] [[New York|Nueva York]]?",
+      "title": "Country: USA",
+      "instructions": "Where is New York?",
       "questions": [
         {
-          "question": "[[New York|Nueva York]] [[is|está]] [[in|en]] [[the|los]]...",
+          "question": "[[New York|Nueva York]] [[is|está]] [[in|en]] [[the|los]]____",
           "options": [
             "[[UK|Reino Unido]]",
             "[[USA|EE.UU.]]",
@@ -88,11 +88,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Countries",
     "difficulty": "easy",
     "content": {
-      "title": "[[Country|País]]: [[France|Francia]]",
-      "instructions": "[[Where|Dónde]] [[is|está]] [[Paris|París]]?",
+      "title": "Country: France",
+      "instructions": "Where is Paris?",
       "questions": [
         {
-          "question": "[[Paris|París]] [[is|está]] [[in|en]]...",
+          "question": "[[Paris|París]] [[is|está]] [[in|en]]____",
           "options": [
             "[[Germany|Alemania]]",
             "[[Italy|Italia]]",
@@ -112,11 +112,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Countries",
     "difficulty": "easy",
     "content": {
-      "title": "[[Country|País]]: [[UK|Reino Unido]]",
-      "instructions": "[[Where|Dónde]] [[is|está]] [[London|Londres]]?",
+      "title": "Country: UK",
+      "instructions": "Where is London?",
       "questions": [
         {
-          "question": "[[London|Londres]] [[is|está]] [[in|en]] [[the|el]]...",
+          "question": "[[London|Londres]] [[is|está]] [[in|en]] [[the|el]]____",
           "options": [
             "[[UK|Reino Unido]]",
             "[[USA|EE.UU.]]",
@@ -136,8 +136,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Nationalities",
     "difficulty": "easy",
     "content": {
-      "title": "[[Nationality|Nacionalidad]]: [[Spanish|Español]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+      "title": "Nationality: Spanish",
+      "instructions": "Complete the sentence.",
       "questions": [
         {
           "question": "[[I|Yo]] [[am|soy]] [[from|de]] [[Spain|España]]. [[I|Yo]] [[am|soy]] _______.",
@@ -156,8 +156,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Nationalities",
     "difficulty": "easy",
     "content": {
-      "title": "[[Nationality|Nacionalidad]]: [[Mexican|Mexicano]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+      "title": "Nationality: Mexican",
+      "instructions": "Complete the sentence.",
       "questions": [
         {
           "question": "[[Maria|María]] [[is|es]] [[from|de]] [[Mexico|México]]. [[She|Ella]] [[is|es]] _______.",
@@ -176,8 +176,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Nationalities",
     "difficulty": "easy",
     "content": {
-      "title": "[[Nationality|Nacionalidad]]: [[American|Americano]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+      "title": "Nationality: American",
+      "instructions": "Complete the sentence.",
       "questions": [
         {
           "question": "[[John|John]] [[is|es]] [[from|de]] [[the|los]] [[USA|EE.UU.]]. [[He|Él]] [[is|es]] _______.",
@@ -196,8 +196,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Nationalities",
     "difficulty": "easy",
     "content": {
-      "title": "[[Nationality|Nacionalidad]]: [[French|Francés]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+      "title": "Nationality: French",
+      "instructions": "Complete the sentence.",
       "questions": [
         {
           "question": "[[Pierre|Pierre]] [[is|es]] [[from|de]] [[France|Francia]]. [[He|Él]] [[is|es]] _______.",
@@ -216,8 +216,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Nationalities",
     "difficulty": "easy",
     "content": {
-      "title": "[[Nationality|Nacionalidad]]: [[British|Británico]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+      "title": "Nationality: British",
+      "instructions": "Complete the sentence.",
       "questions": [
         {
           "question": "[[Paul|Paul]] [[is|es]] [[from|de]] [[the|el]] [[UK|Reino Unido]]. [[He|Él]] [[is|es]] _______.",
@@ -236,8 +236,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Professions",
     "difficulty": "easy",
     "content": {
-      "title": "[[Job|Trabajo]]: [[Doctor|Médico]]",
-      "instructions": "[[Who|Quién]] [[works|trabaja]] [[in|en]] [[a|un]] [[hospital|hospital]]?",
+      "title": "Job: Doctor",
+      "instructions": "Who works in a hospital?",
       "questions": [
         {
           "question": "[[A|Un]] ________ [[works|trabaja]] [[in|en]] [[a|un]] [[hospital|hospital]].",
@@ -260,8 +260,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Professions",
     "difficulty": "easy",
     "content": {
-      "title": "[[Job|Trabajo]]: [[Teacher|Profesor]]",
-      "instructions": "[[Who|Quién]] [[works|trabaja]] [[in|en]] [[a|una]] [[school|escuela]]?",
+      "title": "Job: Teacher",
+      "instructions": "Who works in a school?",
       "questions": [
         {
           "question": "[[A|Un]] ________ [[works|trabaja]] [[in|en]] [[a|una]] [[school|escuela]].",
@@ -284,8 +284,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Professions",
     "difficulty": "easy",
     "content": {
-      "title": "[[Job|Trabajo]]: [[Waiter|Camarero]]",
-      "instructions": "[[Who|Quién]] [[works|trabaja]] [[in|en]] [[a|un]] [[restaurant|restaurante]]?",
+      "title": "Job: Waiter",
+      "instructions": "Who works in a restaurant?",
       "questions": [
         {
           "question": "[[A|Un]] ________ [[works|trabaja]] [[in|en]] [[a|un]] [[restaurant|restaurante]].",
@@ -308,8 +308,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Professions",
     "difficulty": "easy",
     "content": {
-      "title": "[[Job|Trabajo]]: [[Engineer|Ingeniero]]",
-      "instructions": "[[Who|Quién]] [[builds|construye]] [[bridges|puentes]]?",
+      "title": "Job: Engineer",
+      "instructions": "Who builds bridges?",
       "questions": [
         {
           "question": "[[An|Un]] ________ [[builds|construye]] [[bridges|puentes]].",
@@ -332,8 +332,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Professions",
     "difficulty": "easy",
     "content": {
-      "title": "[[Job|Trabajo]]: [[Student|Estudiante]]",
-      "instructions": "[[Who|Quién]] [[studies|estudia]] [[at|en]] [[university|la universidad]]?",
+      "title": "Job: Student",
+      "instructions": "Who studies at university?",
       "questions": [
         {
           "question": "[[A|Un]] ________ [[studies|estudia]] [[at|en]] [[university|la universidad]].",
@@ -356,8 +356,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Professions",
     "difficulty": "easy",
     "content": {
-      "title": "[[Profession|Profesión]]: [[Nurse|Enfermero]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[profession|profesión]].",
+      "title": "Profession: Nurse",
+      "instructions": "Complete the profession.",
       "questions": [
         {
           "question": "[[She|Ella]] [[works|trabaja]] [[with|con]] [[doctors|médicos]]. [[She|Ella]] [[is|es]] [[a|una]] _______.",
@@ -376,8 +376,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Professions",
     "difficulty": "easy",
     "content": {
-      "title": "[[Profession|Profesión]]: [[Pilot|Piloto]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[profession|profesión]].",
+      "title": "Profession: Pilot",
+      "instructions": "Complete the profession.",
       "questions": [
         {
           "question": "[[He|Él]] [[flies|vuela]] [[planes|aviones]]. [[He|Él]] [[is|es]] [[a|un]] _______.",
@@ -396,8 +396,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Professions",
     "difficulty": "easy",
     "content": {
-      "title": "[[Profession|Profesión]]: [[Chef|Cocinero]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[profession|profesión]].",
+      "title": "Profession: Chef",
+      "instructions": "Complete the profession.",
       "questions": [
         {
           "question": "[[He|Él]] [[cooks|cocina]] [[food|comida]]. [[He|Él]] [[is|es]] [[a|un]] _______.",
@@ -416,8 +416,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Professions",
     "difficulty": "easy",
     "content": {
-      "title": "[[Profession|Profesión]]: [[Manager|Gerente]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[profession|profesión]].",
+      "title": "Profession: Manager",
+      "instructions": "Complete the profession.",
       "questions": [
         {
           "question": "[[She|Ella]] [[runs|dirige]] [[the|la]] [[office|oficina]]. [[She|Ella]] [[is|es]] [[a|una]] _______.",
@@ -436,8 +436,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Professions",
     "difficulty": "easy",
     "content": {
-      "title": "[[Profession|Profesión]]: [[Artist|Artista]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[profession|profesión]].",
+      "title": "Profession: Artist",
+      "instructions": "Complete the profession.",
       "questions": [
         {
           "question": "[[He|Él]] [[paints|pinta]] [[pictures|cuadros]]. [[He|Él]] [[is|es]] [[an|un]] _______.",
@@ -458,8 +458,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Verb to be",
     "difficulty": "easy",
     "content": {
-      "title": "[[Verb|Verbo]] 'to be': [[He/She/It|Él/Ella/Ello]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[verb|verbo]].",
+      "title": "Verb 'to be': He/She/It",
+      "instructions": "Choose the correct verb.",
       "questions": [
         {
           "question": "[[She|Ella]] ________ [[a|una]] [[doctor|médica]].",
@@ -478,8 +478,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Verb to be",
     "difficulty": "easy",
     "content": {
-      "title": "[[Verb|Verbo]] 'to be': [[We/They|Nosotros/Ellos]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[verb|verbo]].",
+      "title": "Verb 'to be': We/They",
+      "instructions": "Choose the correct verb.",
       "questions": [
         {
           "question": "[[They|Ellos]] ________ [[from|de]] [[Spain|España]].",
@@ -498,8 +498,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Verb to be",
     "difficulty": "easy",
     "content": {
-      "title": "[[Verb|Verbo]] 'to be': [[It|Ello]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[verb|verbo]].",
+      "title": "Verb 'to be': It",
+      "instructions": "Choose the correct verb.",
       "questions": [
         {
           "question": "[[It|Ello]] ________ [[my|mi]] [[car|coche]].",
@@ -518,8 +518,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Verb to be",
     "difficulty": "easy",
     "content": {
-      "title": "[[Verb|Verbo]] 'to be': [[We|Nosotros]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[verb|verbo]].",
+      "title": "Verb 'to be': We",
+      "instructions": "Choose the correct verb.",
       "questions": [
         {
           "question": "[[We|Nosotros]] ________ [[students|estudiantes]].",
@@ -538,8 +538,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Verb to be",
     "difficulty": "easy",
     "content": {
-      "title": "[[Verb|Verbo]] 'to be': [[He|Él]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[verb|verbo]].",
+      "title": "Verb 'to be': He",
+      "instructions": "Choose the correct verb.",
       "questions": [
         {
           "question": "[[He|Él]] ________ [[an|un]] [[engineer|ingeniero]].",
@@ -558,8 +558,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Verb to be",
     "difficulty": "easy",
     "content": {
-      "title": "[[Is|Es]] [[or|o]] [[Are|Son]]?",
-      "instructions": "[[Complete|Completa]] [[with|con]] '[[is|es]]' [[or|o]] '[[are|son]]'.",
+      "title": "Is or Are?",
+      "instructions": "Complete with 'is' or 'are'.",
       "questions": [
         {
           "question": "[[John|John]] _______ [[a|un]] [[teacher|profesor]].",
@@ -578,8 +578,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Verb to be",
     "difficulty": "easy",
     "content": {
-      "title": "[[Is|Es]] [[or|o]] [[Are|Son]]?",
-      "instructions": "[[Complete|Completa]] [[with|con]] '[[is|es]]' [[or|o]] '[[are|son]]'.",
+      "title": "Is or Are?",
+      "instructions": "Complete with 'is' or 'are'.",
       "questions": [
         {
           "question": "[[Mary|Mary]] [[and|y]] [[Paul|Paul]] _______ [[friends|amigos]].",
@@ -598,8 +598,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Verb to be",
     "difficulty": "easy",
     "content": {
-      "title": "[[Is|Es]] [[or|o]] [[Are|Son]]?",
-      "instructions": "[[Complete|Completa]] [[with|con]] '[[is|es]]' [[or|o]] '[[are|son]]'.",
+      "title": "Is or Are?",
+      "instructions": "Complete with 'is' or 'are'.",
       "questions": [
         {
           "question": "[[The|El]] [[book|libro]] _______ [[on|sobre]] [[the|la]] [[table|mesa]].",
@@ -618,8 +618,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Verb to be",
     "difficulty": "easy",
     "content": {
-      "title": "[[Is|Es]] [[or|o]] [[Are|Son]]?",
-      "instructions": "[[Complete|Completa]] [[with|con]] '[[is|es]]' [[or|o]] '[[are|son]]'.",
+      "title": "Is or Are?",
+      "instructions": "Complete with 'is' or 'are'.",
       "questions": [
         {
           "question": "[[My|Mis]] [[parents|padres]] _______ [[at|en]] [[home|casa]].",
@@ -638,8 +638,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Verb to be",
     "difficulty": "easy",
     "content": {
-      "title": "[[Is|Es]] [[or|o]] [[Are|Son]]?",
-      "instructions": "[[Complete|Completa]] [[with|con]] '[[is|es]]' [[or|o]] '[[are|son]]'.",
+      "title": "Is or Are?",
+      "instructions": "Complete with 'is' or 'are'.",
       "questions": [
         {
           "question": "[[Barcelona|Barcelona]] _______ [[in|en]] [[Spain|España]].",
@@ -658,11 +658,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Pronouns",
     "difficulty": "medium",
     "content": {
-      "title": "[[Replacing|Reemplazando]] [[Names|Nombres]]",
-      "instructions": "[[Replace|Reemplaza]] [[the|los]] [[names|nombres]] [[with|con]] [[a|un]] [[pronoun|pronombre]].",
+      "title": "Replacing Names",
+      "instructions": "Replace the names with a pronoun.",
       "questions": [
         {
-          "question": "[[John|John]] [[and|y]] [[I|yo]]...",
+          "question": "[[John|John]] [[and|y]] [[I|yo]]____",
           "options": ["We", "They", "You"],
           "correctAnswer": 0,
           "explanation": "[[John|John]] [[and|y]] [[I|yo]] [[is|es]] [[we|nosotros]]."
@@ -678,11 +678,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Pronouns",
     "difficulty": "medium",
     "content": {
-      "title": "[[Replacing|Reemplazando]] [[Names|Nombres]]",
-      "instructions": "[[Replace|Reemplaza]] [[the|los]] [[names|nombres]] [[with|con]] [[a|un]] [[pronoun|pronombre]].",
+      "title": "Replacing Names",
+      "instructions": "Replace the names with a pronoun.",
       "questions": [
         {
-          "question": "[[Sarah|Sarah]] [[and|y]] [[Tom|Tom]]...",
+          "question": "[[Sarah|Sarah]] [[and|y]] [[Tom|Tom]]____",
           "options": ["We", "They", "You"],
           "correctAnswer": 1,
           "explanation": "[[Sarah|Sarah]] [[and|y]] [[Tom|Tom]] [[is|es]] [[they|ellos]]."
@@ -698,11 +698,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Pronouns",
     "difficulty": "medium",
     "content": {
-      "title": "[[Replacing|Reemplazando]] [[Names|Nombres]]",
-      "instructions": "[[Replace|Reemplaza]] [[the|los]] [[names|nombres]] [[with|con]] [[a|un]] [[pronoun|pronombre]].",
+      "title": "Replacing Names",
+      "instructions": "Replace the names with a pronoun.",
       "questions": [
         {
-          "question": "[[You|Tú]] [[and|y]] [[your|tu]] [[brother|hermano]]...",
+          "question": "[[You|Tú]] [[and|y]] [[your|tu]] [[brother|hermano]]____",
           "options": ["We", "They", "You"],
           "correctAnswer": 2,
           "explanation": "[[You|Tú]] [[and|y]] [[your|tu]] [[brother|hermano]] [[is|es]] [[you|ustedes]]."
@@ -718,11 +718,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Pronouns",
     "difficulty": "medium",
     "content": {
-      "title": "[[Replacing|Reemplazando]] [[Names|Nombres]]",
-      "instructions": "[[Replace|Reemplaza]] [[the|los]] [[names|nombres]] [[with|con]] [[a|un]] [[pronoun|pronombre]].",
+      "title": "Replacing Names",
+      "instructions": "Replace the names with a pronoun.",
       "questions": [
         {
-          "question": "[[The|Las]] [[cats|gatas]]...",
+          "question": "[[The|Las]] [[cats|gatas]]____",
           "options": ["It", "They", "He"],
           "correctAnswer": 1,
           "explanation": "[[Plural|Plural]] [[objects|objetos]] [[or|o]] [[animals|animales]] [[are|son]] [[they|ellos]]."
@@ -738,11 +738,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Pronouns",
     "difficulty": "medium",
     "content": {
-      "title": "[[Replacing|Reemplazando]] [[Names|Nombres]]",
-      "instructions": "[[Replace|Reemplaza]] [[the|los]] [[names|nombres]] [[with|con]] [[a|un]] [[pronoun|pronombre]].",
+      "title": "Replacing Names",
+      "instructions": "Replace the names with a pronoun.",
       "questions": [
         {
-          "question": "[[Mrs.|La Sra.]] [[Green|Green]]...",
+          "question": "[[Mrs.|La Sra.]] [[Green|Green]]____",
           "options": ["He", "She", "It"],
           "correctAnswer": 1,
           "explanation": "[[Mrs.|La Sra.]] [[Green|Green]] [[is|es]] [[she|ella]]."
@@ -758,8 +758,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Contractions",
     "difficulty": "easy",
     "content": {
-      "title": "[[Contractions|Contracciones]]",
-      "instructions": "[[Write|Escribe]] [[the|la]] [[contraction|contracción]].",
+      "title": "Contractions",
+      "instructions": "Write the contraction.",
       "questions": [
         {
           "question": "[[He|Él]] [[is|es]] -> _______",
@@ -778,8 +778,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Contractions",
     "difficulty": "easy",
     "content": {
-      "title": "[[Contractions|Contracciones]]",
-      "instructions": "[[Write|Escribe]] [[the|la]] [[contraction|contracción]].",
+      "title": "Contractions",
+      "instructions": "Write the contraction.",
       "questions": [
         {
           "question": "[[They|Ellos]] [[are|son]] -> _______",
@@ -798,8 +798,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Contractions",
     "difficulty": "easy",
     "content": {
-      "title": "[[Contractions|Contracciones]]",
-      "instructions": "[[Write|Escribe]] [[the|la]] [[contraction|contracción]].",
+      "title": "Contractions",
+      "instructions": "Write the contraction.",
       "questions": [
         {
           "question": "[[She|Ella]] [[is|es]] -> _______",
@@ -818,8 +818,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Contractions",
     "difficulty": "easy",
     "content": {
-      "title": "[[Contractions|Contracciones]]",
-      "instructions": "[[Write|Escribe]] [[the|la]] [[contraction|contracción]].",
+      "title": "Contractions",
+      "instructions": "Write the contraction.",
       "questions": [
         {
           "question": "[[We|Nosotros]] [[are|somos]] -> _______",
@@ -838,8 +838,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Contractions",
     "difficulty": "easy",
     "content": {
-      "title": "[[Contractions|Contracciones]]",
-      "instructions": "[[Write|Escribe]] [[the|la]] [[contraction|contracción]].",
+      "title": "Contractions",
+      "instructions": "Write the contraction.",
       "questions": [
         {
           "question": "[[It|Ello]] [[is|es]] -> _______",
@@ -860,8 +860,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Negative Forms",
     "difficulty": "easy",
     "content": {
-      "title": "[[Negative|Negativo]] 'to be': [[He/She|Él/Ella]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[negative|negativa]] [[form|forma]].",
+      "title": "Negative 'to be': He/She",
+      "instructions": "Choose the negative form.",
       "questions": [
         {
           "question": "[[He|Él]] ________ [[a|un]] [[pilot|piloto]].",
@@ -880,8 +880,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Negative Forms",
     "difficulty": "easy",
     "content": {
-      "title": "[[Negative|Negativo]] 'to be': [[They|Ellos]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[negative|negativa]] [[form|forma]].",
+      "title": "Negative 'to be': They",
+      "instructions": "Choose the negative form.",
       "questions": [
         {
           "question": "[[They|Ellos]] ________ [[Mexican|mexicanos]].",
@@ -900,8 +900,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Negative Forms",
     "difficulty": "medium",
     "content": {
-      "title": "[[Negative|Negativa]] [[Contraction|Contracción]]",
-      "instructions": "[[Complete|Completa]] [[with|con]] [[the|la]] [[contraction|contracción]].",
+      "title": "Negative Contraction",
+      "instructions": "Complete with the contraction.",
       "questions": [
         {
           "question": "[[She|Ella]] [[is not|no es]] [[Spanish|española]]. [[She|Ella]] _______ [[Spanish|española]].",
@@ -920,8 +920,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Negative Forms",
     "difficulty": "medium",
     "content": {
-      "title": "[[Negative|Negativa]] [[Contraction|Contracción]]",
-      "instructions": "[[Complete|Completa]] [[with|con]] [[the|la]] [[contraction|contracción]].",
+      "title": "Negative Contraction",
+      "instructions": "Complete with the contraction.",
       "questions": [
         {
           "question": "[[We|Nosotros]] [[are not|no somos]] [[students|estudiantes]]. [[We|Nosotros]] _______ [[students|estudiantes]].",
@@ -940,8 +940,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Negative Forms",
     "difficulty": "medium",
     "content": {
-      "title": "[[Negative|Negativa]] [[Contraction|Contracción]]",
-      "instructions": "[[Complete|Completa]] [[with|con]] [[the|la]] [[contraction|contracción]].",
+      "title": "Negative Contraction",
+      "instructions": "Complete with the contraction.",
       "questions": [
         {
           "question": "[[It|Ello]] [[is not|no es]] [[blue|azul]]. [[It|Ello]] _______ [[blue|azul]].",
@@ -960,8 +960,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Questions",
     "difficulty": "medium",
     "content": {
-      "title": "[[Questions|Preguntas]] [[with|con]] 'to be'",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[question|pregunta]].",
+      "title": "Questions with 'to be'",
+      "instructions": "Choose the correct question.",
       "questions": [
         {
           "question": "[[She|Ella]] [[is|es]] [[from|de]] [[France|Francia]]. -> ?",
@@ -984,8 +984,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Questions",
     "difficulty": "medium",
     "content": {
-      "title": "[[Questions|Preguntas]] [[with|con]] 'to be'",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[question|pregunta]].",
+      "title": "Questions with 'to be'",
+      "instructions": "Choose the correct question.",
       "questions": [
         {
           "question": "[[They|Ellos]] [[are|son]] [[teachers|profesores]]. -> ?",
@@ -1008,8 +1008,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Questions",
     "difficulty": "medium",
     "content": {
-      "title": "[[Short|Corta]] [[Answer|Respuesta]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[short|corta]] [[answer|respuesta]].",
+      "title": "Short Answer",
+      "instructions": "Complete the short answer.",
       "questions": [
         {
           "question": "[[Is|¿Es]] [[he|él]] [[a|un]] [[doctor|médico]]? [[Yes|Sí]], [[he|él]] _______.",
@@ -1028,8 +1028,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Questions",
     "difficulty": "medium",
     "content": {
-      "title": "[[Short|Corta]] [[Answer|Respuesta]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[short|corta]] [[answer|respuesta]].",
+      "title": "Short Answer",
+      "instructions": "Complete the short answer.",
       "questions": [
         {
           "question": "[[Are|¿Son]] [[they|ellos]] [[from|de]] [[the|los]] [[USA|EE.UU.]]? [[No|No]], [[they|ellos]] _______.",
@@ -1048,8 +1048,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Questions",
     "difficulty": "medium",
     "content": {
-      "title": "[[Short|Corta]] [[Answer|Respuesta]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[short|corta]] [[answer|respuesta]].",
+      "title": "Short Answer",
+      "instructions": "Complete the short answer.",
       "questions": [
         {
           "question": "[[Is|¿Está]] [[Barcelona|Barcelona]] [[in|en]] [[France|Francia]]? [[No|No]], [[it|ello]] _______.",
@@ -1068,8 +1068,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Reading Profiles",
     "difficulty": "medium",
     "content": {
-      "title": "[[Profile|Perfil]] 1: [[Carlos|Carlos]]",
-      "instructions": "[[Read|Lee]] [[and|y]] [[answer|responde]].",
+      "title": "Profile 1: Carlos",
+      "instructions": "Read and answer.",
       "questions": [
         {
           "question": "\"[[Hello|Hola]], [[I|yo]] [[am|soy]] [[Carlos|Carlos]]. [[I|Yo]] [[am|soy]] [[from|de]] [[Mexico|México]]. [[I|Yo]] [[am|soy]] [[a|un]] [[chef|chef]].\" [[Where|De dónde]] [[is|es]] [[Carlos|Carlos]]?",
@@ -1092,8 +1092,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Reading Profiles",
     "difficulty": "medium",
     "content": {
-      "title": "[[Profile|Perfil]] 1: [[Carlos|Carlos]]",
-      "instructions": "[[Read|Lee]] [[and|y]] [[answer|responde]].",
+      "title": "Profile 1: Carlos",
+      "instructions": "Read and answer.",
       "questions": [
         {
           "question": "\"[[Hello|Hola]], [[I|yo]] [[am|soy]] [[Carlos|Carlos]]. [[I|Yo]] [[am|soy]] [[from|de]] [[Mexico|México]]. [[I|Yo]] [[am|soy]] [[a|un]] [[chef|chef]].\" [[What|Cual]] [[is|es]] [[his|su]] [[job|trabajo]]?",
@@ -1116,8 +1116,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Reading Profiles",
     "difficulty": "medium",
     "content": {
-      "title": "[[Profile|Perfil]] 2: [[Sarah|Sarah]] [[and|y]] [[Tom|Tom]]",
-      "instructions": "[[Read|Lee]] [[and|y]] [[answer|responde]].",
+      "title": "Profile 2: Sarah and Tom",
+      "instructions": "Read and answer.",
       "questions": [
         {
           "question": "\"[[Sarah|Sarah]] [[and|y]] [[Tom|Tom]] [[are|son]] [[British|británicos]]. [[They|Ellos]] [[are|son]] [[teachers|profesores]]. [[They|Ellos]] [[aren't|no son]] [[students|estudiantes]].\" [[Are|¿Son]] [[they|ellos]] [[American|americanos]]?",
@@ -1139,8 +1139,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Reading Profiles",
     "difficulty": "medium",
     "content": {
-      "title": "[[Profile|Perfil]] 2: [[Sarah|Sarah]] [[and|y]] [[Tom|Tom]]",
-      "instructions": "[[Read|Lee]] [[and|y]] [[answer|responde]].",
+      "title": "Profile 2: Sarah and Tom",
+      "instructions": "Read and answer.",
       "questions": [
         {
           "question": "\"[[Sarah|Sarah]] [[and|y]] [[Tom|Tom]] [[are|son]] [[British|británicos]]. [[They|Ellos]] [[are|son]] [[teachers|profesores]]. [[They|Ellos]] [[aren't|no son]] [[students|estudiantes]].\" [[What|Cual]] [[is|es]] [[their|su]] [[job|trabajo]]?",
@@ -1163,8 +1163,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Reading Profiles",
     "difficulty": "medium",
     "content": {
-      "title": "[[Profile|Perfil]] 3: [[The|El]] [[Office|Oficina]]",
-      "instructions": "[[Read|Lee]] [[and|y]] [[answer|responde]].",
+      "title": "Profile 3: The Office",
+      "instructions": "Read and answer.",
       "questions": [
         {
           "question": "\"[[This|Esta]] [[is|es]] [[my|mi]] [[office|oficina]]. [[It|Ello]] [[is|es]] [[in|en]] [[London|Londres]]. [[Mrs.|La Sra.]] [[Miller|Miller]] [[is|es]] [[the|la]] [[manager|gerente]]. [[She|Ella]] [[isn't|no es]] [[Spanish|española]].\" [[Where|Dónde]] [[is|está]] [[the|la]] [[office|oficina]]?",
@@ -1187,8 +1187,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Unit Review",
     "difficulty": "medium",
     "content": {
-      "title": "[[Mixed|Mixto]] [[Review|Repaso]] 1",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+      "title": "Mixed Review 1",
+      "instructions": "Choose the correct option.",
       "questions": [
         {
           "question": "[[We|Nosotros]] ________ [[from|de]] [[France|Francia]]. [[We|Nosotros]] ________ [[French|franceses]].",
@@ -1211,8 +1211,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Unit Review",
     "difficulty": "medium",
     "content": {
-      "title": "[[Mixed|Mixto]] [[Review|Repaso]] 2",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+      "title": "Mixed Review 2",
+      "instructions": "Choose the correct option.",
       "questions": [
         {
           "question": "[[Is|¿Es]] [[he|él]] [[a|un]] [[manager|gerente]]? [[No|No]], [[he|él]] _______ [[a|un]] [[manager|gerente]]. [[He|Él]] ________ [[a|un]] [[pilot|piloto]].",
@@ -1235,8 +1235,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Unit Review",
     "difficulty": "medium",
     "content": {
-      "title": "[[Building|Construyendo]] [[Sentences|Frases]]",
-      "instructions": "[[Put|Pon]] [[in|en]] [[order|orden]].",
+      "title": "Building Sentences",
+      "instructions": "Put in order.",
       "correctSentence": "[[They|Ellos]] [[are|son]] [[from|de]] [[Spain|España]].",
       "words": [
         "[[from|de]]",
@@ -1254,8 +1254,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Unit Review",
     "difficulty": "medium",
     "content": {
-      "title": "[[Building|Construyendo]] [[Sentences|Frases]]",
-      "instructions": "[[Put|Pon]] [[in|en]] [[order|orden]].",
+      "title": "Building Sentences",
+      "instructions": "Put in order.",
       "correctSentence": "[[Is|¿Es]] [[she|ella]] [[a|una]] [[doctor|médica]]?",
       "words": [
         "[[she|ella]]",
@@ -1273,8 +1273,8 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "topic": "Unit Review",
     "difficulty": "hard",
     "content": {
-      "title": "[[Final|Final]] [[Challenge|Desafío]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[best|mejor]] [[option|opción]].",
+      "title": "Final Challenge",
+      "instructions": "Choose the best option.",
       "questions": [
         {
           "question": "[[Maria|María]] [[and|y]] [[I|yo]] ________ [[Mexican|mexicanos]]. [[We|Nosotros]] ________ [[in|en]] [[USA|EE.UU.]] [[now|ahora]].",

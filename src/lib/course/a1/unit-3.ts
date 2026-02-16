@@ -12,8 +12,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[Happy|Feliz]]. [[Sad|Triste]]. [[Tired|Cansado]]. [[Hungry|Hambriento]]. [[Thirsty|Sediento]]. [[Angry|Enojado]]. [[Bored|Aburrido]]. [[Sick|Enfermo]]. [[Fine|Bien]]. [[Great|Genial]]. [[Scared|Asustado]]. [[Surprised|Sorprendido]].",
     "content": {
-      "title": "[[Vocabulary|Vocabulario]]: [[Emotions|Emociones]] [[and|y]] [[States|Estados]]",
-      "instructions": "[[Learn|Aprende]] [[how|cómo]] [[to|a]] [[express|expresar]] [[how|cómo]] [[you|te]] [[feel|sientes]].",
+      "title": "Vocabulary: Emotions and States",
+      "instructions": "Learn how to express how you feel.",
       "items": [
         { "front": "[[Happy|Feliz]]", "back": "Happy" },
         { "front": "[[Sad|Triste]]", "back": "Sad" },
@@ -37,8 +37,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[I|Yo]] [[need|necesito]] [[water|agua]] [[because|porque]] [[I|yo]] [[am|estoy]] [[thirsty|sediento]].",
     "content": {
-      "title": "[[How|Cómo]] [[do|te]] [[you|sientes]] [[feel|]]?",
-      "instructions": "[[Select|Selecciona]] [[the|el]] [[correct|correcto]] [[state|estado]].",
+      "title": "How do you feel?",
+      "instructions": "Select the correct state.",
       "options": ["[[hungry|hambriento]]", "[[thirsty|sediento]]", "[[happy|feliz]]"],
       "correctAnswer": 1,
       "explanation": "[[If|Si]] [[you|tú]] [[need|necesitas]] [[water|agua]], [[you|tú]] [[are|estás]] [[thirsty|sediento]]."
@@ -53,8 +53,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[It|Es]] [[is|es]] [[lunch|la hora de comer]] [[time|]] [[and|y]] [[I|yo]] [[am|tengo]] [[hungry|hambre]].",
     "content": {
-      "title": "[[Meal|Comida]] [[Time|Tiempo]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[state|estado]].",
+      "title": "Meal Time",
+      "instructions": "Choose the correct state.",
       "options": ["[[hungry|hambre]]", "[[bored|aburrido]]", "[[sad|triste]]"],
       "correctAnswer": 0,
       "explanation": "[[At|A]] [[lunch|la comida]] [[time|hora]], [[you|tú]] [[feel|sientes]] [[hungry|hambre]]."
@@ -69,8 +69,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[Today|Hoy]] [[is|es]] [[my|mi]] [[birthday|cumpleaños]] [[and|y]] [[I|yo]] [[am|estoy]] [[very|muy]] [[happy|feliz]].",
     "content": {
-      "title": "[[Celebration|Celebración]]",
-      "instructions": "[[How|Cómo]] [[is|está]] [[the|la]] [[person|persona]]?",
+      "title": "Celebration",
+      "instructions": "How is the person?",
       "options": ["[[sad|triste]]", "[[angry|enojada]]", "[[happy|feliz]]"],
       "correctAnswer": 2,
       "explanation": "[[Birthdays|Cumpleaños]] [[usually|normalmente]] [[make|hacen]] [[people|personas]] [[happy|feliz]]."
@@ -85,8 +85,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[It|Es]] [[is|es]] [[midnight|medianoche]] [[and|y]] [[I|yo]] [[am|estoy]] [[tired|cansado]].",
     "content": {
-      "title": "[[Night|Noche]]",
-      "instructions": "[[Identify|Identifica]] [[the|el]] [[state|estado]].",
+      "title": "Night",
+      "instructions": "Identify the state.",
       "options": ["[[tired|cansado]]", "[[great|genial]]", "[[surprised|sorprendido]]"],
       "correctAnswer": 0,
       "explanation": "[[At|A]] [[midnight|medianoche]], [[you|tú]] [[are|estás]] [[tired|cansado]]."
@@ -101,8 +101,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[I|Yo]] [[have|tengo]] [[the|la]] [[flu|gripe]] [[and|y]] [[I|yo]] [[am|estoy]] [[sick|enfermo]].",
     "content": {
-      "title": "[[Health|Salud]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]].",
+      "title": "Health",
+      "instructions": "Choose the correct.",
       "options": ["[[sick|enfermo]]", "[[fine|bien]]", "[[bored|aburrido]]"],
       "correctAnswer": 0,
       "explanation": "[[Having|Teniendo]] [[the|la]] [[flu|gripe]] [[means|significa]] [[you|tú]] [[are|estás]] [[sick|enfermo]]."
@@ -117,8 +117,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[The|La]] [[movie|película]] [[is|está]] [[not|no]] [[good|buena]] [[and|y]] [[I|yo]] [[am|estoy]] [[bored|aburrido]].",
     "content": {
-      "title": "[[Boredom|Aburrimiento]]",
-      "instructions": "[[How|Cómo]] [[does|se]] [[the|el]] [[viewer|espectador]] [[feel|siente]]?",
+      "title": "Boredom",
+      "instructions": "How does the viewer feel?",
       "options": ["[[excited|emocionado]]", "[[bored|aburrido]]", "[[angry|enojado]]"],
       "correctAnswer": 1,
       "explanation": "[[Bad|Malas]] [[movies|películas]] [[make|hacen]] [[us|nos]] [[bored|aburridos]]."
@@ -133,8 +133,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[My|Mi]] [[toy|juguete]] [[is|está]] [[broken|roto]] [[and|y]] [[I|yo]] [[am|estoy]] [[sad|triste]].",
     "content": {
-      "title": "[[Feelings|Sentimientos]]",
-      "instructions": "[[Select|Selecciona]] [[the|el]] [[feeling|sentimiento]].",
+      "title": "Feelings",
+      "instructions": "Select the feeling.",
       "options": ["[[happy|feliz]]", "[[sad|triste]]", "[[great|genial]]"],
       "correctAnswer": 1,
       "explanation": "[[A|Un]] [[broken|roto]] [[toy|juguete]] [[is|es]] [[sad|triste]]."
@@ -149,8 +149,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[A|Un]] [[big|grande]] [[dog|perro]] [[is|está]] [[barking|ladrando]] [[and|y]] [[I|yo]] [[am|estoy]] [[scared|asustado]].",
     "content": {
-      "title": "[[Fear|Miedo]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[emotion|emoción]].",
+      "title": "Fear",
+      "instructions": "Choose the emotion.",
       "options": ["[[scared|asustado]]", "[[bored|aburrido]]", "[[happy|feliz]]"],
       "correctAnswer": 0,
       "explanation": "[[Barking|Ladrido]] [[dogs|perros]] [[can|pueden]] [[be|ser]] [[scary|aterradores]]."
@@ -165,8 +165,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[I|Yo]] [[am|estoy]] [[angry|enojado]] [[because|porque]] [[the|el]] [[bus|autobús]] [[is|está]] [[late|tarde]].",
     "content": {
-      "title": "[[Frustration|Frustración]]",
-      "instructions": "[[How|Cómo]] [[does|se]] [[he|él]] [[feel|siente]]?",
+      "title": "Frustration",
+      "instructions": "How does he feel?",
       "options": ["[[happy|feliz]]", "[[angry|enojado]]", "[[thirsty|sediento]]"],
       "correctAnswer": 1,
       "explanation": "[[Delays|Retrasos]] [[make|hacen]] [[people|personas]] [[angry|enojado]]."
@@ -184,8 +184,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[I am not|Yo no soy/estoy]]. [[You are not / aren't|Tú no eres/estás]]. [[He is not / isn't|Él no es/está]]. [[She is not / isn't|Ella no es/está]]. [[It is not / isn't|Eso no es/está]]. [[We are not / aren't|Nosotros no somos/estamos]]. [[They are not / aren't|Ellos no son/están]].",
     "content": {
-      "title": "[[Grammar|Gramática]]: [[To|a]] [[Be|Ser/Estar]] [[Negative|Negativo]]",
-      "instructions": "[[Learn|Aprende]] [[the|la]] [[negative|negativa]] [[form|forma]] [[with|con]] [[contractions|contracciones]].",
+      "title": "Grammar: To Be Negative",
+      "instructions": "Learn the negative form with contractions.",
       "items": [
         { "front": "[[I am not|Yo no soy]]", "back": "I'm not" },
         { "front": "[[You aren't|Tú no eres]]", "back": "You aren't" },
@@ -206,8 +206,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[I|Yo]] [[am|soy]] [[not|no]] [[tired|cansado]].",
     "content": {
-      "title": "[[Negative|Negación]] [[with|con]] '[[I|Yo]]'",
-      "instructions": "[[Select|Selecciona]] [[the|la]] [[negative|negativa]] [[form|forma]].",
+      "title": "Negative with 'I'",
+      "instructions": "Select the negative form.",
       "options": ["[[isn't|no es]]", "[[aren't|no somos]]", "[[am not|no soy]]"],
       "correctAnswer": 2,
       "explanation": "[[With|Con]] '[[I|Yo]]' [[always|siempre]] [[use|usamos]] '[[am not|no soy]]'."
@@ -222,8 +222,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[He|Él]] [[isn't|no está]] [[sick|enfermo]].",
     "content": {
-      "title": "[[Negative|Negación]] [[with|con]] '[[He|Él]]'",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[contraction|contracción]].",
+      "title": "Negative with 'He'",
+      "instructions": "Choose the contraction.",
       "options": ["[[isn't|no está]]", "[[aren't|no está]]", "[[am not|no está]]"],
       "correctAnswer": 0,
       "explanation": "'[[isn't|no está]]' [[is|es]] [[the|la]] [[contraction|contracción]] [[of|de]] '[[is not|no está]]'."
@@ -238,8 +238,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[We|Nosotros]] [[aren't|no estamos]] [[bored|aburridos]].",
     "content": {
-      "title": "[[Negative|Negación]] [[Plural|Plural]]",
-      "instructions": "[[Identify|Identifica]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+      "title": "Negative Plural",
+      "instructions": "Identify the correct form.",
       "options": ["[[isn't|no estamos]]", "[[aren't|no estamos]]", "[[am not|no estoy]]"],
       "correctAnswer": 1,
       "explanation": "[[With|Con]] '[[We|Nosotros]]' [[use|usamos]] '[[aren't|no estamos]]'."
@@ -254,8 +254,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[She|Ella]] [[is|está]] [[not|no]] [[sad|triste]].",
     "content": {
-      "title": "[[Build|Construye]] [[the|la]] [[Sentence|Oración]]",
-      "instructions": "[[Order|Ordena]] [[to|para]] [[deny|negar]].",
+      "title": "Build the Sentence",
+      "instructions": "Order to deny.",
       "correctSentence": "[[She|Ella]] [[is|es/está]] [[not|no]] [[sad|triste]].",
       "words": ["[[sad|triste]].", "[[not|no]]", "[[is|es/está]]", "[[She|Ella]]"],
       "explanation": "[[Subject|Sujeto]] + [[Verb|Verbo]] + '[[not|no]]' + [[Adjective|Adjetivo]]."
@@ -270,8 +270,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[They|Ellos]] [[are|están]] [[not|no]] [[hungry|hambrientos]].",
     "content": {
-      "title": "[[Build|Construye]] [[the|la]] [[Sentence|Oración]]",
-      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]].",
+      "title": "Build the Sentence",
+      "instructions": "Order the words.",
       "correctSentence": "[[They|Ellos/Ellas]] [[are|son/están]] [[not|no]] [[hungry|hambriento/s]].",
       "words": ["[[hungry|hambriento/s]].", "[[not|no]]", "[[are|son/están]]", "[[They|Ellos/Ellas]]"],
       "explanation": "[[Full|Completa]] [[negative|negativa]] [[form|forma]]."
@@ -286,8 +286,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[It|Eso]] [[isn't|no es]] [[hot|caliente]].",
     "content": {
-      "title": "[[Object|Objeto]] [[Negative|Negativo]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+      "title": "Object Negative",
+      "instructions": "Choose the correct form.",
       "options": ["[[isn't|no es]]", "[[aren't|no es]]", "[[am not|no es]]"],
       "correctAnswer": 0,
       "explanation": "[[With|Con]] '[[It|Eso]]' [[use|usamos]] '[[isn't|no es]]'."
@@ -302,8 +302,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[You|Tú]] [[are|estás]] [[not|no]] [[late|tarde]].",
     "content": {
-      "title": "[[Build|Construye]] [[the|la]] [[Sentence|Oración]]",
-      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]].",
+      "title": "Build the Sentence",
+      "instructions": "Order the words.",
       "correctSentence": "[[You|Tú/Usted]] [[are|eres/estás]] [[not|no]] [[late|tarde]].",
       "words": ["[[late|tarde]].", "[[not|no]]", "[[are|eres/estás]]", "[[You|Tú/Usted]]"],
       "explanation": "[[You|Tú]] + [[are|estás]] + [[not|no]] + [[late|tarde]]."
@@ -318,8 +318,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[I|Yo]] [[am|soy]] [[not|no]] [[a|un]] [[doctor|médico]].",
     "content": {
-      "title": "[[Identity|Identidad]]",
-      "instructions": "[[Select|Selecciona]] [[the|el]] [[verb|verbo]].",
+      "title": "Identity",
+      "instructions": "Select the verb.",
       "options": ["[[is not|no es]]", "[[am not|no soy]]", "[[are not|no somos]]"],
       "correctAnswer": 1,
       "explanation": "[[I am not|Yo no soy]]."
@@ -334,8 +334,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[We|Nosotros]] [[are|estamos]] [[not|no]] [[surprised|sorprendidos]].",
     "content": {
-      "title": "[[Build|Construye]] [[the|la]] [[Sentence|Oración]]",
-      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]].",
+      "title": "Build the Sentence",
+      "instructions": "Order the words.",
       "correctSentence": "[[We|Nosotros/as]] [[are|somos/estamos]] [[not|no]] [[surprised|sorprendido/s]].",
       "words": ["[[surprised|sorprendido/s]].", "[[not|no]]", "[[are|somos/estamos]]", "[[We|Nosotros/as]]"],
       "explanation": "[[Plural|Plural]] [[negative|negativa]]."
@@ -353,16 +353,16 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[Am I|¿Soy/estoy yo?]]. [[Are you|¿Eres/estás tú?]]. [[Is he|¿Es/está él?]]. [[Is she|¿Es/está ella?]]. [[Is it|¿Es/está eso?]]. [[Are we|¿Somos/estamos nosotros?]]. [[Are they|¿Son/están ellos?]].",
     "content": {
-      "title": "[[Grammar|Gramática]]: [[To|a]] [[Be|Ser/Estar]] [[Questions|Preguntas]]",
-      "instructions": "[[Learn|Aprende]] [[how|cómo]] [[to|a]] [[invert|invertir]] [[the|el]] [[verb|verbo]].",
+      "title": "Grammar: To Be Questions",
+      "instructions": "Learn how to invert the verb.",
       "items": [
-        { "front": "[[Am I...?|¿Soy yo...?]]", "back": "Am I...?" },
-        { "front": "[[Are you...?|¿Eres tú...?]]", "back": "Are you...?" },
-        { "front": "[[Is he...?|¿Es él...?]]", "back": "Is he...?" },
-        { "front": "[[Is she...?|¿Es ella...?]]", "back": "Is she...?" },
-        { "front": "[[Is it...?|¿Es eso...?]]", "back": "Is it...?" },
-        { "front": "[[Are we...?|¿Somos nosotros...?]]", "back": "Are we...?" },
-        { "front": "[[Are they...?|¿Son ellos...?]]", "back": "Are they...?" }
+        { "front": "[[Am I____?|¿Soy yo____?]]", "back": "Am I____?" },
+        { "front": "[[Are you____?|¿Eres tú____?]]", "back": "Are you____?" },
+        { "front": "[[Is he____?|¿Es él____?]]", "back": "Is he____?" },
+        { "front": "[[Is she____?|¿Es ella____?]]", "back": "Is she____?" },
+        { "front": "[[Is it____?|¿Es eso____?]]", "back": "Is it____?" },
+        { "front": "[[Are we____?|¿Somos nosotros____?]]", "back": "Are we____?" },
+        { "front": "[[Are they____?|¿Son ellos____?]]", "back": "Are they____?" }
       ]
     },
     "topicName": "Grammar"
@@ -375,8 +375,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[Are|¿Estás]] [[you|tú]] [[happy|feliz]]?",
     "content": {
-      "title": "[[Asking|Preguntando]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[verb|verbo]] [[order|orden]].",
+      "title": "Asking",
+      "instructions": "Choose the correct verb order.",
       "options": ["[[You are|tú estás]]", "[[Is you|¿estás tú?]]", "[[Are you|¿estás tú?]]"],
       "correctAnswer": 2,
       "explanation": "[[In|En]] [[questions|preguntas]], [[the|el]] [[verb|verbo]] [[comes|viene]] [[first|primero]]."
@@ -391,8 +391,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[Is|¿Está]] [[he|él]] [[tired|cansado]]?",
     "content": {
-      "title": "[[Asking|Preguntando]]",
-      "instructions": "[[Identify|Identifica]] [[the|la]] [[question|pregunta]].",
+      "title": "Asking",
+      "instructions": "Identify the question.",
       "options": ["[[Is he|¿Está él?]]", "[[Are he|¿Está él?]]", "[[Am he|¿Está él?]]"],
       "correctAnswer": 0,
       "explanation": "[[With|Con]] '[[he|él]]' [[use|usamos]] '[[Is|Está]]' [[at|al]] [[the|el]] [[beginning|principio]]."
@@ -407,8 +407,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[Are|¿Están]] [[they|ellos]] [[angry|enojados]]?",
     "content": {
-      "title": "[[Plural|Plural]] [[Question|Pregunta]]",
-      "instructions": "[[Select|Selecciona]] [[the|la]] [[correct|correcta]].",
+      "title": "Plural Question",
+      "instructions": "Select the correct.",
       "options": ["[[Is they|¿Están?]]", "[[Are they|¿Están?]]", "[[Am they|¿Están?]]"],
       "correctAnswer": 1,
       "explanation": "[[With|Con]] '[[they|ellos]]' [[use|usamos]] '[[Are|Están]]'."
@@ -423,8 +423,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[Are|¿Estamos]] [[we|nosotros]] [[late|tarde]]?",
     "content": {
-      "title": "[[Build|Construye]] [[the|la]] [[Question|Pregunta]]",
-      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]].",
+      "title": "Build the Question",
+      "instructions": "Order the words.",
       "correctSentence": "[[Are|Somos/Estamos]] [[we|nosotros/as]] [[late|tarde]]?",
       "words": ["[[late|tarde]]?", "[[we|nosotros/as]]", "[[Are|Somos/Estamos]]"],
       "explanation": "[[Verb|Verbo]] + [[Subject|Sujeto]] + [[Complement|Complemento]]."
@@ -439,8 +439,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[Is|¿Es]] [[she|ella]] [[your|tu]] [[sister|hermana]]?",
     "content": {
-      "title": "[[Build|Construye]] [[the|la]] [[Question|Pregunta]]",
-      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]].",
+      "title": "Build the Question",
+      "instructions": "Order the words.",
       "correctSentence": "[[Is|Es/Está]] [[she|ella]] [[your|tu/su]] [[sister|hermana]]?",
       "words": ["[[sister|hermana]]?", "[[your|tu/su]]", "[[she|ella]]", "[[Is|Es/Está]]"],
       "explanation": "[[Is|Es]] [[she|ella]] [[your|tu]] [[sister|hermana]]?"
@@ -455,8 +455,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[Is|¿Está]] [[it|esto]] [[cold|frío]]?",
     "content": {
-      "title": "[[Checking|Verificando]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[question|pregunta]] [[form|forma]].",
+      "title": "Checking",
+      "instructions": "Choose the question form.",
       "options": ["[[Is it|¿Está esto?]]", "[[It is|esto está]]", "[[Are it|¿está esto?]]"],
       "correctAnswer": 0,
       "explanation": "[[Invert|Invierte]] [[for|para]] [[the|la]] [[question|pregunta]]."
@@ -471,8 +471,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[Am|¿Estoy]] [[I|yo]] [[in|en]] [[the|el]] [[list|lista]]?",
     "content": {
-      "title": "[[Build|Construye]] [[the|la]] [[Question|Pregunta]]",
-      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]].",
+      "title": "Build the Question",
+      "instructions": "Order the words.",
       "correctSentence": "[[Am|Soy/Estoy]] [[I|yo]] [[in|en]] [[the|el/la]] [[list|lista]]?",
       "words": ["[[list|lista]]?", "[[the|el/la]]", "[[in|en]]", "[[I|yo]]", "[[Am|Soy/Estoy]]"],
       "explanation": "[[Am|Estoy]] [[I|yo]] [[in|en]] [[the|la]] [[list|lista]]?"
@@ -487,8 +487,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[Are|¿Estás]] [[you|tú]] [[ready|listo]]?",
     "content": {
-      "title": "[[Ready|Listo]]?",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[verb|verbo]].",
+      "title": "Ready?",
+      "instructions": "Choose the verb.",
       "options": ["[[Am|estoy]]", "[[Is|está]]", "[[Are|estás]]"],
       "correctAnswer": 2,
       "explanation": "[[Are|Estás]] [[you|tú]] [[ready|listo]]?"
@@ -503,8 +503,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[Is|¿Está]] [[the|el]] [[food|comida]] [[hot|caliente]]?",
     "content": {
-      "title": "[[Build|Construye]] [[the|la]] [[Question|Pregunta]]",
-      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]].",
+      "title": "Build the Question",
+      "instructions": "Order the words.",
       "correctSentence": "[[Is|Es/Está]] [[the|el/la]] [[food|comida]] [[hot|caliente]]?",
       "words": ["[[hot|caliente]]?", "[[food|comida]]", "[[the|el/la]]", "[[Is|Es/Está]]"],
       "explanation": "[[The|La]] [[food|comida]] = [[It|Eso]], [[so|así que]] [[use|usamos]] '[[Is|Está]]'."
@@ -522,15 +522,15 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[Yes, I am|Sí, lo soy/estoy]]. [[No, I'm not|No, no lo soy/estoy]]. [[Yes, he is|Sí, lo es/está]]. [[No, he isn't|No, no lo es/está]]. [[Yes, we are|Sí, lo somos/estamos]]. [[No, we aren't|No, no lo somos/estamos]].",
     "content": {
-      "title": "[[Grammar|Gramática]]: [[Short|Cortas]] [[Answers|Respuestas]]",
-      "instructions": "[[Learn|Aprende]] [[to|a]] [[answer|responder]] [[quickly|rápidamente]].",
+      "title": "Grammar: Short Answers",
+      "instructions": "Learn to answer quickly.",
       "items": [
-        { "front": "[[Are you...?|¿Eres...?]]", "back": "[[Yes, I am / No, I'm not|Sí, soy / No, no soy]]" },
-        { "front": "[[Is he...?|¿Es él...?]]", "back": "[[Yes, he is / No, he isn't|Sí, es / No, no es]]" },
-        { "front": "[[Is she...?|¿Es ella...?]]", "back": "[[Yes, she is / No, she isn't|Sí, es / No, no es]]" },
-        { "front": "[[Is it...?|¿Es eso...?]]", "back": "[[Yes, it is / No, it isn't|Sí, es / No, no es]]" },
-        { "front": "[[Are we...?|¿Somos...?]]", "back": "[[Yes, we are / No, we aren't|Sí, somos / No, no somos]]" },
-        { "front": "[[Are they...?|¿Son ellos...?]]", "back": "[[Yes, they are / No, they aren't|Sí, son / No, no son]]" }
+        { "front": "[[Are you____?|¿Eres____?]]", "back": "[[Yes, I am / No, I'm not|Sí, soy / No, no soy]]" },
+        { "front": "[[Is he____?|¿Es él____?]]", "back": "[[Yes, he is / No, he isn't|Sí, es / No, no es]]" },
+        { "front": "[[Is she____?|¿Es ella____?]]", "back": "[[Yes, she is / No, she isn't|Sí, es / No, no es]]" },
+        { "front": "[[Is it____?|¿Es eso____?]]", "back": "[[Yes, it is / No, it isn't|Sí, es / No, no es]]" },
+        { "front": "[[Are we____?|¿Somos____?]]", "back": "[[Yes, we are / No, we aren't|Sí, somos / No, no somos]]" },
+        { "front": "[[Are they____?|¿Son ellos____?]]", "back": "[[Yes, they are / No, they aren't|Sí, son / No, no son]]" }
       ]
     },
     "topicName": "Grammar"
@@ -543,8 +543,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[Are|¿Estás]] [[you|tú]] [[happy|feliz]]? [[Yes|Sí]], [[I|yo]] [[am|lo estoy]].",
     "content": {
-      "title": "[[Answering|Respondiendo]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[answer|respuesta]].",
+      "title": "Answering",
+      "instructions": "Choose the correct answer.",
       "options": ["[[Yes, I is|Sí.]]", "[[Yes, I am|Sí, lo estoy.]]", "[[Yes, I are|Sí.]]"],
       "correctAnswer": 1,
       "explanation": "[[When|Cuando]] [[asked|preguntan]] '[[you|tú]]', [[answer|responde]] [[with|con]] '[[I am|yo soy]]'."
@@ -559,8 +559,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[Is|¿Está]] [[she|ella]] [[sick|enferma]]? [[No|No]], [[she|ella]] [[isn't|no lo está]].",
     "content": {
-      "title": "[[Answering|Respondiendo]]",
-      "instructions": "[[Select|Selecciona]] [[the|la]] [[negative|negativa]] [[form|forma]].",
+      "title": "Answering",
+      "instructions": "Select the negative form.",
       "options": ["[[No, she isn't|No, no está.]]", "[[No, she aren't|No.]]", "[[No, she am not|No.]]"],
       "correctAnswer": 0,
       "explanation": "[[With|Con]] '[[she|ella]]' [[use|usamos]] '[[isn't|no está]]'."
@@ -575,8 +575,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[Are|¿Están]] [[they|ellos]] [[bored|aburridos]]? [[Yes|Sí]], [[they|ellos]] [[are|lo están]].",
     "content": {
-      "title": "[[Answering|Respondiendo]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[affirmative|afirmativa]].",
+      "title": "Answering",
+      "instructions": "Choose the affirmative.",
       "options": ["[[Yes, they is|Sí.]]", "[[Yes, they are|Sí, lo están.]]", "[[Yes, they am|Sí.]]"],
       "correctAnswer": 1,
       "explanation": "[[Use|Usa]] '[[are|son]]' [[for|para]] '[[they|ellos]]'."
@@ -591,8 +591,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[Is|¿Es]] [[it|esto]] [[new|nuevo]]? [[Yes|Sí]], [[it|esto]] [[is|lo es]].",
     "content": {
-      "title": "[[Answering|Respondiendo]]",
-      "instructions": "[[How|Cómo]] [[do|se]] [[you|tú]] [[answer|respondes]] [[about|sobre]] [[an|un]] [[object|objeto]]?",
+      "title": "Answering",
+      "instructions": "How do you answer about an object?",
       "options": ["[[Yes, it is|Sí, lo es.]]", "[[Yes, he is|Sí.]]", "[[Yes, it am|Sí.]]"],
       "correctAnswer": 0,
       "explanation": "[[Use|Usa]] '[[it|esto]]' [[for|para]] [[objects|objetos]]."
@@ -607,8 +607,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[Are|¿Estáis]] [[you|vosotros]] [[ready|listos]]? [[Yes|Sí]], [[we|nosotros]] [[are|lo estamos]].",
     "content": {
-      "title": "[[Answering|Respondiendo]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[plural|plural]] [[answer|respuesta]].",
+      "title": "Answering",
+      "instructions": "Choose the plural answer.",
       "options": ["[[Yes, we am|Sí.]]", "[[Yes, we is|Sí.]]", "[[Yes, we are|Sí, lo estamos.]]"],
       "correctAnswer": 2,
       "explanation": "'[[You|Vosotros]]' [[plural|plural]] [[is|se]] [[answered|responde]] [[with|con]] '[[we|nosotros]]'."
@@ -623,8 +623,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[Is|¿Está]] [[Paul|Paul]] [[angry|enojado]]? [[No|No]], [[he|él]] [[isn't|no lo está]].",
     "content": {
-      "title": "[[Answering|Respondiendo]]",
-      "instructions": "[[Select|Selecciona]] [[the|la]] [[correct|correcta]] [[negation|negación]].",
+      "title": "Answering",
+      "instructions": "Select the correct negation.",
       "options": ["[[No, he am not|No.]]", "[[No, he isn't|No, no está.]]", "[[No, he aren't|No.]]"],
       "correctAnswer": 1,
       "explanation": "[[Paul|Paul]] = [[he|él]]."
@@ -639,11 +639,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[Am|¿Estoy]] [[I|yo]] [[late|tarde]]? [[No|No]], [[you|tú]] [[aren't|no lo estás]].",
     "content": {
-      "title": "[[Answering|Respondiendo]]",
-      "instructions": "[[What|Qué]] [[is|es]] [[the|la]] [[answer|respuesta]] [[to|a]] '[[Am I...?|¿Soy yo...?]]'?",
+      "title": "Answering",
+      "instructions": "What is the answer to 'Am I____?'?",
       "options": ["[[No, I'm not|No.]]", "[[No, you aren't|No, no lo estás.]]", "[[No, you isn't|No.]]"],
       "correctAnswer": 1,
-      "explanation": "[[If|Si]] [[someone|alguien]] [[asks|pregunta]] '[[Am I...?|¿Soy yo...?]]', [[you|tú]] [[answer|respondes]] '[[You are...|Tú eres...]]'."
+      "explanation": "[[If|Si]] [[someone|alguien]] [[asks|pregunta]] '[[Am I____?|¿Soy yo____?]]', [[you|tú]] [[answer|respondes]] '[[You are____|Tú eres____]]'."
     },
     "topicName": "Grammar"
   },
@@ -655,8 +655,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[Is|¿Es]] [[the|el]] [[exam|examen]] [[hard|difícil]]? [[No|No]], [[it|esto]] [[isn't|no lo es]].",
     "content": {
-      "title": "[[Answering|Respondiendo]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[negation|negación]].",
+      "title": "Answering",
+      "instructions": "Choose the negation.",
       "options": ["[[No, it isn't|No, no lo es.]]", "[[No, he isn't|No.]]", "[[No, she isn't|No.]]"],
       "correctAnswer": 0,
       "explanation": "[[The|El]] [[exam|examen]] = [[it|esto]]."
@@ -671,8 +671,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[Are|¿Están]] [[Paul|Paul]] [[and|y]] [[Sarah|Sarah]] [[here|aquí]]? [[Yes|Sí]], [[they|ellos]] [[are|lo están]].",
     "content": {
-      "title": "[[Answering|Respondiendo]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[affirmative|afirmativa]].",
+      "title": "Answering",
+      "instructions": "Choose the affirmative.",
       "options": ["[[Yes, they are|Sí, lo están.]]", "[[Yes, we are|Sí.]]", "[[Yes, they is|Sí.]]"],
       "correctAnswer": 0,
       "explanation": "[[Two|Dos]] [[people|personas]] = [[they|ellos]]."
@@ -690,8 +690,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[I|Yo]] [[am|estoy]] [[tired|cansado]] [[but|pero]] [[I|yo]] [[am|estoy]] [[happy|feliz]].",
     "content": {
-      "title": "[[Review|Repaso]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[combination|combinación]].",
+      "title": "Review",
+      "instructions": "Choose the correct combination.",
       "options": ["[[tired / happy|cansado / feliz]]", "[[hungry / thirsty|hambriento / sediento]]", "[[sick / angry|enfermo / enojado]]"],
       "correctAnswer": 0,
       "explanation": "[[Tired|Cansado]] [[and|y]] [[happy|feliz]]."
@@ -706,8 +706,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[The|El]] [[opposite|opuesto]] [[of|de]] [[happy|feliz]] [[is|es]] [[sad|triste]].",
     "content": {
-      "title": "[[Opposites|Opuestos]]",
-      "instructions": "[[Type|Escribe]] [[the|el]] [[opposite|opuesto]] [[of|de]] '[[happy|feliz]]'.",
+      "title": "Opposites",
+      "instructions": "Type the opposite of 'happy'.",
       "text": "[[The|El]] [[opposite|opuesto]] [[of|de]] [[happy|feliz]] [[is|es]] (_____).",
       "answers": ["sad"],
       "explanation": "[[Sad|Triste]]."
@@ -722,8 +722,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[She|Ella]] [[is|está]] [[not|no]] [[angry|enojada]].",
     "content": {
-      "title": "[[Negative|Negación]]",
-      "instructions": "[[Type|Escribe]] [[the|la]] [[negation|negación]] [[contracted|contraída]].",
+      "title": "Negative",
+      "instructions": "Type the negation contracted.",
       "text": "[[She|Ella]] (_____) [[angry|enojada]].",
       "answers": ["isn't"],
       "explanation": "[[Contraction|Contracción]] [[of|de]] '[[is not|no está]]'."
@@ -738,8 +738,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[Are|¿Están]] [[they|ellos]] [[tired|cansados]]?",
     "content": {
-      "title": "[[Question|Pregunta]]",
-      "instructions": "[[Type|Escribe]] [[the|el]] [[missing|faltante]] [[verb|verbo]].",
+      "title": "Question",
+      "instructions": "Type the missing verb.",
       "text": "(_____) [[they|ellos]] [[tired|cansados]]?",
       "answers": ["Are"],
       "explanation": "[[Question|Pregunta]] [[form|forma]] [[for|para]] '[[they|ellos]]'."
@@ -754,8 +754,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[No|No]], [[I|yo]] [[am|soy]] [[not|no]].",
     "content": {
-      "title": "[[Short|Corta]] [[Answer|Respuesta]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[answer|respuesta]].",
+      "title": "Short Answer",
+      "instructions": "Complete the answer.",
       "text": "[[No|No]], [[I|yo]] (_____).",
       "answers": ["am not", "'m not"],
       "explanation": "[[Negative|Negativa]] [[short|corta]] [[answer|respuesta]] [[for|para]] '[[I|Yo]]'."
@@ -770,8 +770,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[Yes|Sí]], [[we|nosotros]] [[are|lo somos]].",
     "content": {
-      "title": "[[Short|Corta]] [[Answer|Respuesta]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[answer|respuesta]].",
+      "title": "Short Answer",
+      "instructions": "Complete the answer.",
       "text": "[[Yes|Sí]], [[we|nosotros]] (_____).",
       "answers": ["are"],
       "explanation": "[[Affirmative|Afirmativa]] [[short|corta]] [[answer|respuesta]] [[for|para]] '[[we|nosotros]]'."
@@ -786,8 +786,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[I|Yo]] [[am|tengo]] [[hungry|hambre]]. [[I|Yo]] [[need|necesito]] [[food|comida]].",
     "content": {
-      "title": "[[States|Estados]]",
-      "instructions": "[[Type|Escribe]] [[the|el]] [[state|estado]].",
+      "title": "States",
+      "instructions": "Type the state.",
       "text": "[[I|Yo]] [[need|necesito]] [[food|comida]] [[because|porque]] [[I|yo]] [[am|tengo]] (_____).",
       "answers": ["hungry"],
       "explanation": "[[Hungry|Hambriento]]."
@@ -802,8 +802,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[She|Ella]] [[is|está]] [[sick|enferma]]. [[She|Ella]] [[is|está]] [[not|no]] [[fine|bien]].",
     "content": {
-      "title": "[[Health|Salud]]",
-      "instructions": "[[Type|Escribe]] [[the|la]] [[negation|negación]].",
+      "title": "Health",
+      "instructions": "Type the negation.",
       "text": "[[She|Ella]] [[is|está]] [[sick|enferma]]. [[She|Ella]] (_____) [[fine|bien]].",
       "answers": ["isn't", "is not"],
       "explanation": "[[She|Ella]] [[isn't|no está]] [[fine|bien]]."
@@ -818,8 +818,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[The|El]] [[opposite|opuesto]] [[of|de]] [[thirsty|sediento]] [[is|es]] [[satisfied|saciado]].",
     "content": {
-      "title": "[[Vocabulary|Vocabulario]]",
-      "instructions": "[[Type|Escribe]] [[the|el]] [[word|palabra]].",
+      "title": "Vocabulary",
+      "instructions": "Type the word.",
       "text": "[[I|Yo]] [[need|necesito]] [[water|agua]] [[because|porque]] [[I|yo]] [[am|estoy]] (_____).",
       "answers": ["thirsty"],
       "explanation": "[[Thirsty|Sediento]]."
@@ -834,8 +834,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[Is|¿Estás]] [[you|tú]] [[bored|aburrido]]?",
     "content": {
-      "title": "[[Final|Final]] [[Question|Pregunta]]",
-      "instructions": "[[Type|Escribe]] [[the|el]] [[verb|verbo]].",
+      "title": "Final Question",
+      "instructions": "Type the verb.",
       "text": "(_____) [[you|tú]] [[bored|aburrido]]?",
       "answers": ["Are"],
       "explanation": "[[Are|Estás]] [[you|tú]]?"
@@ -855,8 +855,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[Today|Hoy]] [[is|es]] [[Monday|lunes]]. [[Sarah|Sarah]] [[is|está]] [[at|en]] [[work|el trabajo]]. [[She|Ella]] [[is|está]] [[very|muy]] [[tired|cansada]] [[because|porque]] [[she|ella]] [[is|está]] [[busy|ocupada]]. [[She|Ella]] [[is|tiene]] [[not|no]] [[hungry|hambre]], [[but|pero]] [[she|ella]] [[is|tiene]] [[very|mucho]] [[thirsty|sed]]. [[She|Ella]] [[is|está]] [[not|no]] [[happy|feliz]] [[at|en]] [[the|la]] [[office|oficina]]. [[She|Ella]] [[wants|quiere]] [[to|a]] [[go|ir]] [[home|a casa]].",
     "content": {
-      "title": "[[Reading|Lectura]]: [[Sarah's|de Sarah]] [[Day|Día]]",
-      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+      "title": "Reading: Sarah's Day",
+      "instructions": "Read the text and answer.",
       "text": "Today is Monday. Sarah is at work. She is very tired because she is busy. She is not hungry, but she is very thirsty. She is not happy at the office. She wants to go home.",
       "questions": [
         {
@@ -890,8 +890,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[John|John]] [[is|es]] [[a|un]] [[new|nuevo]] [[student|estudiante]]. [[He|Él]] [[is|está]] [[at|en]] [[school|la escuela]]. [[He|Él]] [[is|está]] [[not|no]] [[scared|asustado]], [[but|pero]] [[he|él]] [[is|está]] [[surprised|sorprendido]]. [[The|La]] [[school|escuela]] [[is|es]] [[very|muy]] [[big|grande]]. [[His|Sus]] [[teachers|profesores]] [[are|son]] [[very|muy]] [[nice|amables]]. [[John|John]] [[is|está]] [[happy|feliz]] [[in|en]] [[his|su]] [[new|nueva]] [[class|clase]].",
     "content": {
-      "title": "[[Reading|Lectura]]: [[The|El]] [[New|Nuevo]] [[Student|Estudiante]]",
-      "instructions": "[[Read|Lee]] [[y|and]] [[answer|responde]].",
+      "title": "Reading: The New Student",
+      "instructions": "Read y answer.",
       "text": "John is a new student. He is at school. He is not scared, but he is surprised. The school is very big. His teachers are very nice. John is happy in his new class.",
       "questions": [
         {
@@ -925,8 +925,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[It|Esto]] [[is|está]] [[raining|lloviendo]] [[outside|afuera]]. [[Tom|Tom]] [[and|y]] [[Lucy|Lucy]] [[are|están]] [[at|en]] [[home|casa]]. [[They|Ellos]] [[are|están]] [[bored|aburridos]]. [[They|Ellos]] [[want|quieren]] [[to|a]] [[play|jugar]] [[in|en]] [[the|el]] [[park|parque]], [[but|pero]] [[it|esto]] [[is|está]] [[wet|mojado]]. [[Tom|Tom]] [[is|está]] [[hungry|hambriento]] [[and|y]] [[Lucy|Lucy]] [[is|está]] [[thirsty|sedienta]]. [[They|Ellos]] [[are|están]] [[not|no]] [[happy|felices]].",
     "content": {
-      "title": "[[Reading|Lectura]]: [[A|Un]] [[Rainy|Lluvioso]] [[Day|Día]]",
-      "instructions": "[[Read|Lee]] [[y|and]] [[answer|responde]].",
+      "title": "Reading: A Rainy Day",
+      "instructions": "Read y answer.",
       "text": "It is raining outside. Tom and Lucy are at home. They are bored. They want to play in the park, but it is wet. Tom is hungry and Lucy is thirsty. They are not happy.",
       "questions": [
         {
@@ -954,8 +954,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[She|Ella]] [[is|está]] [[not|no]] [[sad|triste]].",
     "content": {
-      "title": "[[Opposites|Opuestos]]",
-      "instructions": "[[If|Si]] [[she|ella]] [[is|está]] [[not|no]] [[sad|triste]], [[she|ella]] [[is|está]]...",
+      "title": "Opposites",
+      "instructions": "If she is not sad, she is____",
       "options": ["[[angry|enojada]]", "[[happy|feliz]]", "[[tired|cansada]]"],
       "correctAnswer": 1,
       "explanation": "[[Happy|Feliz]] [[is|es]] [[the|el]] [[opposite|opuesto]] [[of|de]] [[sad|triste]]."
@@ -970,8 +970,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[Are|¿Están]] [[the|los]] [[children|niños]] [[tired|cansados]]?",
     "content": {
-      "title": "[[Questions|Preguntas]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[short|corta]] [[answer|respuesta]].",
+      "title": "Questions",
+      "instructions": "Choose the short answer.",
       "options": ["[[Yes, they are|Sí, lo están.]]", "[[Yes, they is|Sí.]]", "[[Yes, they am|Sí.]]"],
       "correctAnswer": 0,
       "explanation": "[[Children|Niños]] = [[they|ellos]]."
@@ -986,8 +986,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[I|Yo]] [[am|estoy]] [[not|no]] [[very|muy]] [[thirsty|sediento]].",
     "content": {
-      "title": "[[Build|Construye]]",
-      "instructions": "[[Order|Ordena]].",
+      "title": "Build",
+      "instructions": "Order.",
       "correctSentence": "[[I|Yo]] [[am|soy/estoy]] [[not|no]] [[very|muy]] [[thirsty|sediento]].",
       "words": ["[[thirsty|sediento]].", "[[very|muy]]", "[[not|no]]", "[[am|soy/estoy]]", "[[I|Yo]]"],
       "explanation": "[[Structure|Estructura]]: [[I|Yo]] + [[am|estoy]] + [[not|no]] + [[very|muy]] + [[Adjective|Adjetivo]]."
@@ -1002,8 +1002,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[Surprised|Sorprendido]] [[face|cara]].",
     "content": {
-      "title": "[[Emotions|Emociones]]",
-      "instructions": "[[When|Cuando]] [[something|algo]] [[new|nuevo]] [[happens|pasa]], [[you|tú]] [[are|estás]]...",
+      "title": "Emotions",
+      "instructions": "When something new happens, you are____",
       "options": ["[[bored|aburrido]]", "[[surprised|sorprendido]]", "[[sick|enfermo]]"],
       "correctAnswer": 1,
       "explanation": "[[Surprised|Sorprendido]]."
@@ -1018,8 +1018,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[Is|¿Está]] [[the|el]] [[cat|gato]] [[hungry|hambriento]]?",
     "content": {
-      "title": "[[Animals|Animales]]",
-      "instructions": "[[Answer|Responde]].",
+      "title": "Animals",
+      "instructions": "Answer.",
       "options": ["[[No, it isn't|No, no lo está.]]", "[[No, they aren't|No.]]", "[[No, he am not|No.]]"],
       "correctAnswer": 0,
       "explanation": "[[Use|Usa]] '[[it|esto]]' [[for|para]] [[the cat|el gato]]."
@@ -1034,8 +1034,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[They|Ellos]] [[are|están]] [[very|muy]] [[angry|enojados]].",
     "content": {
-      "title": "[[Emphasis|Énfasis]]",
-      "instructions": "[[Order|Ordena]].",
+      "title": "Emphasis",
+      "instructions": "Order.",
       "correctSentence": "[[They|Ellos/Ellas]] [[are|son/están]] [[very|muy]] [[angry|enojado/s]].",
       "words": ["[[angry|enojado/s]].", "[[very|muy]]", "[[are|son/están]]", "[[They|Ellos/Ellas]]"],
       "explanation": "[[Subject|Sujeto]] + [[Verb|Verbo]] + [[Adverb|Adverbio]] + [[Adjective|Adjetivo]]."
@@ -1050,8 +1050,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[Are|¿Estás]] [[you|tú]] [[fine|bien]]?",
     "content": {
-      "title": "[[Review|Repaso]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[best|mejor]] [[answer|respuesta]].",
+      "title": "Review",
+      "instructions": "Choose the best answer.",
       "options": ["[[Yes, I am|Sí, estoy bien.]]", "[[Yes, you are|Sí.]]", "[[Yes, it is|Sí.]]"],
       "correctAnswer": 0,
       "explanation": "[[Yes, I am|Sí, estoy bien]]."

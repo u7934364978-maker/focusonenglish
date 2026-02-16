@@ -16,8 +16,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Greetings",
     "difficulty": "easy",
     "content": {
-      "title": "[[Formal|Formal]] [[Morning|Mañana]] [[Greeting|Saludo]]",
-      "instructions": "[[Sarah|Sarah]] [[arrives|llega]] [[at|a]] [[the|la]] [[office|oficina]] [[at|a las]] 9:00 AM. [[She|Ella]] [[meets|conoce a]] [[Mr.|el Sr.]] [[Brown|Brown]], [[the|el]] [[manager|gerente]]. [[Choose|Elige]] [[the|el]] [[best|mejor]] [[greeting|saludo]].",
+      "title": "Formal Morning Greeting",
+      "instructions": "Sarah arrives at the office at 9:00 AM. She meets Mr. Brown, the manager. Choose the best greeting.",
       "questions": [
         {
           "question": "Sarah: \"________, Mr. Brown.\"",
@@ -40,8 +40,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Introductions",
     "difficulty": "easy",
     "content": {
-      "title": "[[Introducing|Presentándose]] [[Yourself|a uno mismo]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]] [[to|para]] [[introduce|presentar]] [[Sarah|a Sarah]].",
+      "title": "Introducing Yourself",
+      "instructions": "Complete the sentence to introduce Sarah.",
       "questions": [
         {
           "question": "Sarah: \"[[Hello|Hola]], [[I|yo]] ____ Sarah Miller.\"",
@@ -60,8 +60,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Introductions",
     "difficulty": "easy",
     "content": {
-      "title": "[[My|Mi]] [[Name|Nombre]]",
-      "instructions": "[[Put|Pon]] [[the|las]] [[words|palabras]] [[in|en]] [[order|orden]].",
+      "title": "My Name",
+      "instructions": "Put the words in order.",
       "correctSentence": "My name is Sarah Miller.",
       "words": ["Miller.", "name", "My", "is", "Sarah"]
     },
@@ -74,8 +74,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Greetings",
     "difficulty": "easy",
     "content": {
-      "title": "[[Nice|Mucho]] [[to|de]] [[Meet|conocerle]] [[You|a usted]]",
-      "instructions": "[[Mr.|El Sr.]] [[Brown|Brown]] [[responds|responde]] [[to|a]] [[Sarah|Sarah]]. [[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+      "title": "Nice to Meet You",
+      "instructions": "Mr. Brown responds to Sarah. Choose the correct option.",
       "questions": [
         {
           "question": "Mr. Brown: \"[[It|Ello]] [[is|es]] [[a|un]] ________ [[to|de]] [[meet|conocerle]] [[you|a usted]], Sarah.\"",
@@ -98,8 +98,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Verb To Be",
     "difficulty": "easy",
     "content": {
-      "title": "[[Who|Quién]] [[is|es]] [[he|él]]?",
-      "instructions": "[[Sarah|Sarah]] [[is|está]] [[talking|hablando]] [[about|sobre]] [[Mr.|el Sr.]] [[Brown|Brown]].",
+      "title": "Who is he?",
+      "instructions": "Sarah is talking about Mr. Brown.",
       "questions": [
         {
           "question": "Sarah: \"[[He|Él]] ____ [[the|el]] [[manager|gerente]].\"",
@@ -122,8 +122,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Greetings",
     "difficulty": "easy",
     "content": {
-      "title": "[[Informal|Informal]] [[Greeting|Saludo]]",
-      "instructions": "[[Sarah|Sarah]] [[meets|conoce a]] [[Alex|Alex]], [[a|un]] [[colleague|colega]]. [[Choose|Elige]] [[the|el]] [[best|mejor]] [[informal|informal]] [[greeting|saludo]].",
+      "title": "Informal Greeting",
+      "instructions": "Sarah meets Alex, a colleague. Choose the best informal greeting.",
       "questions": [
         {
           "question": "Alex: \"____, Sarah! [[I'm|Soy]] Alex.\"",
@@ -146,8 +146,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Greetings",
     "difficulty": "easy",
     "content": {
-      "title": "[[How|Cómo]] [[Are|estás]] [[You|tú]]?",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[question|pregunta]] [[from|de]] [[Alex|Alex]].",
+      "title": "How Are You?",
+      "instructions": "Complete the question from Alex.",
       "questions": [
         {
           "question": "Alex: \"[[How|Cómo]] ____ [[you|tú]]?\"",
@@ -166,8 +166,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Greetings",
     "difficulty": "easy",
     "content": {
-      "title": "[[Responding|Respondiendo]] [[to|a]] '[[How|Cómo]] [[are|estás]] [[you|tú]]?'",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[best|mejor]] [[response|respuesta]] [[for|para]] [[Sarah|Sarah]].",
+      "title": "Responding to 'How are you?'",
+      "instructions": "Choose the best response for Sarah.",
       "questions": [
         {
           "question": "Sarah: \"________, [[thanks|gracias]]. [[And|¿Y]] [[you|tú]]?\"",
@@ -190,8 +190,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Introductions",
     "difficulty": "easy",
     "content": {
-      "title": "[[Introducing|Presentando]] [[Others|a otros]]",
-      "instructions": "[[Mr.|El Sr.]] [[Brown|Brown]] [[introduces|presenta]] [[Alex|a Alex]] [[to|a]] [[Sarah|Sarah]].",
+      "title": "Introducing Others",
+      "instructions": "Mr. Brown introduces Alex to Sarah.",
       "correctSentence": "Sarah, this is Alex.",
       "words": ["is", "Alex.", "this", "Sarah,"]
     },
@@ -204,8 +204,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Farewells",
     "difficulty": "easy",
     "content": {
-      "title": "[[Formal|Formal]] [[Farewell|Despedida]]",
-      "instructions": "[[Sarah|Sarah]] [[leaves|se va]] [[the|la]] [[manager's|del gerente]] [[office|oficina]].",
+      "title": "Formal Farewell",
+      "instructions": "Sarah leaves the manager's office.",
       "questions": [
         {
           "question": "Sarah: \"________, Mr. Brown.\"",
@@ -228,8 +228,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Verb To Be",
     "difficulty": "easy",
     "content": {
-      "title": "[[Negative|Negativo]] '[[To|Ser/Estar]] [[Be|]]'",
-      "instructions": "[[Sarah|Sarah]] [[clarifies|aclara]] [[that|que]] [[she|ella]] [[is|es]] [[not|no]] [[the|la]] [[manager|gerente]].",
+      "title": "Negative 'To Be'",
+      "instructions": "Sarah clarifies that she is not the manager.",
       "questions": [
         {
           "question": "Sarah: \"[[I|Yo]] ____ [[not|no]] [[the|el]] [[manager|gerente]]. [[I|Yo]] [[am|soy]] [[a|una]] [[new|nueva]] [[employee|empleada]].\"",
@@ -248,8 +248,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Greetings",
     "difficulty": "medium",
     "content": {
-      "title": "[[Formal|Formal]] [[or|o]] [[Informal|Informal]]?",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[greeting|saludo]] [[for|para]] [[a|un]] [[new|nuevo]] [[client|cliente]].",
+      "title": "Formal or Informal?",
+      "instructions": "Choose the correct greeting for a new client.",
       "questions": [
         {
           "question": "Sarah: \"________, Mr. Smith. [[Welcome|Bienvenido]] [[to|a]] [[the|la]] [[office|oficina]].\"",
@@ -272,8 +272,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Verb To Be",
     "difficulty": "easy",
     "content": {
-      "title": "[[Negative|Negativo]] [[Sentence|Frase]]",
-      "instructions": "[[Sarah|Sarah]] [[is|está]] [[talking|hablando]] [[about|sobre]] [[Alex|Alex]].",
+      "title": "Negative Sentence",
+      "instructions": "Sarah is talking about Alex.",
       "correctSentence": "He is not my manager.",
       "words": ["manager.", "is", "not", "my", "He"]
     },
@@ -286,8 +286,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Verb To Be",
     "difficulty": "easy",
     "content": {
-      "title": "[[Asking|Preguntando]] [[Questions|Preguntas]]",
-      "instructions": "[[Alex|Alex]] [[is|está]] [[asking|preguntando]] [[Sarah|a Sarah]].",
+      "title": "Asking Questions",
+      "instructions": "Alex is asking Sarah.",
       "questions": [
         {
           "question": "Alex: \"____ [[you|usted]] Sarah Miller?\"",
@@ -306,8 +306,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Greetings",
     "difficulty": "easy",
     "content": {
-      "title": "[[Afternoon|Tarde]] [[Greeting|Saludo]]",
-      "instructions": "[[It|Eso]] [[is|es]] 3:00 PM. [[Sarah|Sarah]] [[sees|ve]] [[Alex|a Alex]] [[in|en]] [[the|el]] [[hallway|pasillo]].",
+      "title": "Afternoon Greeting",
+      "instructions": "It is 3:00 PM. Sarah sees Alex in the hallway.",
       "questions": [
         {
           "question": "Sarah: \"[[Good|Buenas]] ________, Alex.\"",
@@ -330,8 +330,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Greetings",
     "difficulty": "easy",
     "content": {
-      "title": "[[Evening|Tarde-noche]] [[Greeting|Saludo]]",
-      "instructions": "[[It|Eso]] [[is|es]] 7:00 PM. [[The|El]] [[security|de seguridad]] [[guard|guardia]] [[greets|saluda a]] [[Sarah|Sarah]].",
+      "title": "Evening Greeting",
+      "instructions": "It is 7:00 PM. The security guard greets Sarah.",
       "questions": [
         {
           "question": "Guard: \"[[Good|Buenas]] ________, Sarah.\"",
@@ -354,8 +354,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Greetings",
     "difficulty": "easy",
     "content": {
-      "title": "[[Nice|Mucho]] [[to|de]] [[Meet|conocerle]] [[You|a usted]] [[Too|también]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[response|respuesta]].",
+      "title": "Nice to Meet You Too",
+      "instructions": "Complete the response.",
       "correctSentence": "Nice to meet you too.",
       "words": ["too.", "meet", "you", "Nice", "to"]
     },
@@ -368,8 +368,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Farewells",
     "difficulty": "easy",
     "content": {
-      "title": "[[Informal|Informal]] [[Farewell|Despedida]]",
-      "instructions": "[[Alex|Alex]] [[is|se]] [[leaving|va]]. [[Choose|Elige]] [[the|el]] [[informal|informal]] [[farewell|despedida]].",
+      "title": "Informal Farewell",
+      "instructions": "Alex is leaving. Choose the informal farewell.",
       "questions": [
         {
           "question": "Alex: \"[[Bye|Adiós]], Sarah. ________!\"",
@@ -392,8 +392,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Verb To Be",
     "difficulty": "easy",
     "content": {
-      "title": "[[She|Ella]] [[Is|es]]",
-      "instructions": "[[Sarah|Sarah]] [[introduces|presenta]] [[another|otra]] [[person|persona]].",
+      "title": "She Is",
+      "instructions": "Sarah introduces another person.",
       "questions": [
         {
           "question": "Sarah: \"[[This|Esta]] [[is|es]] Maria. [[She|Ella]] ____ [[my|mi]] [[colleague|colega]].\"",
@@ -412,8 +412,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Farewells",
     "difficulty": "easy",
     "content": {
-      "title": "[[Night|Noche]] [[Farewell|Despedida]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[farewell|despedida]] [[at|a]] 10:00 PM.",
+      "title": "Night Farewell",
+      "instructions": "Choose the correct farewell at 10:00 PM.",
       "questions": [
         {
           "question": "Sarah: \"[[Good|Buenas]] ________, Mr. Brown.\"",
@@ -437,8 +437,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Wh-Questions",
     "difficulty": "easy",
     "content": {
-      "title": "[[Where|Dónde]] [[are|eres]] [[you|tú]] [[from|de]]?",
-      "instructions": "[[Alex|Alex]] [[wants|quiere]] [[to|al]] [[know|conocer]] [[Sarah's|el de Sarah]] [[origin|origen]].",
+      "title": "Where are you from?",
+      "instructions": "Alex wants to know Sarah's origin.",
       "questions": [
         {
           "question": "Alex: \"____ [[are|eres]] [[you|tú]] [[from|de]], Sarah?\"",
@@ -461,8 +461,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Personal Info",
     "difficulty": "easy",
     "content": {
-      "title": "[[I|Yo]] [[am|soy]] [[from|de]]...",
-      "instructions": "[[Sarah|Sarah]] [[is|es]] [[from|de]] [[London|Londres]].",
+      "title": "I am from____",
+      "instructions": "Sarah is from London.",
       "questions": [
         {
           "question": "Sarah: \"[[I|Yo]] [[am|soy]] ____ [[London|Londres]].\"",
@@ -481,8 +481,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Personal Info",
     "difficulty": "easy",
     "content": {
-      "title": "[[Origin|Origen]] [[Sentence|Frase]]",
-      "instructions": "[[Put|Pon]] [[the|las]] [[words|palabras]] [[in|en]] [[order|orden]].",
+      "title": "Origin Sentence",
+      "instructions": "Put the words in order.",
       "correctSentence": "Alex is from New York.",
       "words": ["York.", "from", "is", "New", "Alex"]
     },
@@ -495,8 +495,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Personal Info",
     "difficulty": "easy",
     "content": {
-      "title": "[[Nationality|Nacionalidad]]",
-      "instructions": "[[Sarah|Sarah]] [[asks|pregunta]] [[Alex|a Alex]] [[about|sobre]] [[his|su]] [[nationality|nacionalidad]].",
+      "title": "Nationality",
+      "instructions": "Sarah asks Alex about his nationality.",
       "questions": [
         {
           "question": "Sarah: \"[[What|Cuál]] [[is|es]] [[your|tu]] ________?\"",
@@ -519,8 +519,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Personal Info",
     "difficulty": "easy",
     "content": {
-      "title": "[[I|Yo]] [[am|soy]] [[British|británica]]",
-      "instructions": "[[Sarah|Sarah]] [[is|es]] [[British|británica]].",
+      "title": "I am British",
+      "instructions": "Sarah is British.",
       "questions": [
         {
           "question": "Sarah: \"[[I|Yo]] [[am|soy]] [[from|de]] [[the|el]] [[UK|Reino Unido]]. [[I|Yo]] [[am|soy]] _______.\"",
@@ -539,8 +539,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Personal Info",
     "difficulty": "easy",
     "content": {
-      "title": "[[American|Americano]]",
-      "instructions": "[[Alex|Alex]] [[is|es]] [[from|de]] [[the|los]] [[USA|EE.UU]].",
+      "title": "American",
+      "instructions": "Alex is from the USA.",
       "correctSentence": "He is American.",
       "words": ["American.", "is", "He"]
     },
@@ -553,8 +553,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Wh-Questions",
     "difficulty": "medium",
     "content": {
-      "title": "[[How|Cuántos]] [[years|años]] [[old|tienes]] [[are|]] [[you|tú]]?",
-      "instructions": "[[Ask|Pregunta]] [[about|sobre]] [[age|la edad]].",
+      "title": "How years old are you?",
+      "instructions": "Ask about age.",
       "questions": [
         {
           "question": "Alex: \"________ [[old|]] [[are|tienes]] [[you|tú]], Sarah?\"",
@@ -577,8 +577,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Numbers",
     "difficulty": "medium",
     "content": {
-      "title": "[[Numbers|Números]]",
-      "instructions": "[[Complete|Completa]] [[the|el]] [[number|número]].",
+      "title": "Numbers",
+      "instructions": "Complete the number.",
       "questions": [
         {
           "question": "Sarah: \"[[I|Yo]] [[am|tengo]] [[twenty-five|veinticinco]] [[years|años]] ____.\"",
@@ -597,8 +597,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Numbers",
     "difficulty": "medium",
     "content": {
-      "title": "[[Age|Edad]] [[Sentence|Frase]]",
-      "instructions": "[[Put|Pon]] [[the|las]] [[words|palabras]] [[in|en]] [[order|orden]].",
+      "title": "Age Sentence",
+      "instructions": "Put the words in order.",
       "correctSentence": "I am twenty-five years old.",
       "words": ["old.", "years", "twenty-five", "am", "I"]
     },
@@ -611,8 +611,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Possessive Adjectives",
     "difficulty": "easy",
     "content": {
-      "title": "[[My|Mi]] [[Last|Último]] [[Name|Nombre]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[possessive|posesivo]].",
+      "title": "My Last Name",
+      "instructions": "Choose the correct possessive.",
       "questions": [
         {
           "question": "Sarah: \"____ [[last|último]] [[name|nombre]] [[is|es]] Miller.\"",
@@ -635,8 +635,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Possessive Adjectives",
     "difficulty": "easy",
     "content": {
-      "title": "[[Your|Tu]] [[Phone|Teléfono]]",
-      "instructions": "[[Ask|Pregunta]] [[for|por]] [[a|un]] [[number|número]].",
+      "title": "Your Phone",
+      "instructions": "Ask for a number.",
       "questions": [
         {
           "question": "Alex: \"[[What|Cuál]] [[is|es]] ____ [[phone|de teléfono]] [[number|número]]?\"",
@@ -655,8 +655,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Possessive Adjectives",
     "difficulty": "easy",
     "content": {
-      "title": "[[His|Su]] [[Name|Nombre]]",
-      "instructions": "[[Alex|Alex]] [[is|está]] [[talking|hablando]] [[about|sobre]] [[a|un]] [[friend|amigo]].",
+      "title": "His Name",
+      "instructions": "Alex is talking about a friend.",
       "correctSentence": "His name is Marco.",
       "words": ["Marco.", "is", "name", "His"]
     },
@@ -669,8 +669,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Possessive Adjectives",
     "difficulty": "easy",
     "content": {
-      "title": "[[Her|Su]] [[Name|Nombre]]",
-      "instructions": "[[Marco|Marco]] [[is|está]] [[talking|hablando]] [[about|sobre]] [[Sarah|Sarah]].",
+      "title": "Her Name",
+      "instructions": "Marco is talking about Sarah.",
       "questions": [
         {
           "question": "Marco: \"____ [[name|nombre]] [[is|es]] Sarah Miller.\"",
@@ -693,8 +693,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Wh-Questions",
     "difficulty": "easy",
     "content": {
-      "title": "[[What|Qué]] [[vs|vs]] [[Where|Dónde]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[question|pregunta]] [[word|palabra]].",
+      "title": "What vs Where",
+      "instructions": "Choose the correct question word.",
       "questions": [
         {
           "question": "____ [[is|es]] [[your|tu]] [[job|trabajo]]?",
@@ -713,8 +713,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Jobs",
     "difficulty": "easy",
     "content": {
-      "title": "[[Office|Oficina]] [[Worker|Trabajador]]",
-      "instructions": "[[Sarah|Sarah]] [[is|está]] [[explaining|explicando]] [[her|su]] [[job|trabajo]].",
+      "title": "Office Worker",
+      "instructions": "Sarah is explaining her job.",
       "questions": [
         {
           "question": "Sarah: \"[[I|Yo]] [[am|soy]] [[an|una]] ________ [[worker|trabajadora]].\"",
@@ -737,8 +737,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Jobs",
     "difficulty": "easy",
     "content": {
-      "title": "[[A|Una]] [[Manager|Gerente]]",
-      "instructions": "[[Talk|Habla]] [[about|sobre]] [[Maria|Maria]].",
+      "title": "A Manager",
+      "instructions": "Talk about Maria.",
       "correctSentence": "She is a manager.",
       "words": ["manager.", "a", "is", "She"]
     },
@@ -751,8 +751,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Wh-Questions",
     "difficulty": "easy",
     "content": {
-      "title": "[[Who|Quién]]?",
-      "instructions": "[[Ask|Pregunta]] [[about|sobre]] [[a|una]] [[person|persona]].",
+      "title": "Who?",
+      "instructions": "Ask about a person.",
       "questions": [
         {
           "question": "Sarah: \"____ [[is|es]] [[that|ese]] [[man|hombre]]?\"",
@@ -775,8 +775,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Verb To Be",
     "difficulty": "medium",
     "content": {
-      "title": "[[Are|Son]] [[they|ellos]]?",
-      "instructions": "[[Sarah|Sarah]] [[is|está]] [[asking|preguntando]] [[about|sobre]] [[Marco|Marco]] [[and|y]] [[Maria|Maria]].",
+      "title": "Are they?",
+      "instructions": "Sarah is asking about Marco and Maria.",
       "questions": [
         {
           "question": "Sarah: \"____ [[they|ellos]] [[from|de]] [[Spain|España]]?\"",
@@ -795,8 +795,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Verb To Be",
     "difficulty": "easy",
     "content": {
-      "title": "[[Yes|Sí]], [[they|ellos]] [[are|son]]",
-      "instructions": "[[Alex|Alex]] [[answers|responde]].",
+      "title": "Yes, they are",
+      "instructions": "Alex answers.",
       "questions": [
         {
           "question": "Alex: \"[[Yes|Sí]], [[they|ellos]] ____.\"",
@@ -819,8 +819,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Personal Info",
     "difficulty": "easy",
     "content": {
-      "title": "[[We|Nosotros]] [[are|somos]] [[Colleagues|Colegas]]",
-      "instructions": "[[Put|Pon]] [[the|las]] [[words|palabras]] [[in|en]] [[order|orden]].",
+      "title": "We are Colleagues",
+      "instructions": "Put the words in order.",
       "correctSentence": "We are colleagues.",
       "words": ["colleagues.", "are", "We"]
     },
@@ -834,8 +834,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Alphabet",
     "difficulty": "medium",
     "content": {
-      "title": "[[Spelling|Deletrear]] [[Names|Nombres]]",
-      "instructions": "[[Sarah|Sarah]] [[is|está]] [[checking|revisando]] [[the|la]] [[guest|de invitados]] [[list|lista]].",
+      "title": "Spelling Names",
+      "instructions": "Sarah is checking the guest list.",
       "questions": [
         {
           "question": "Sarah: \"[[How|Cómo]] [[do|]] [[you|tú]] ________ [[your|tu]] [[name|nombre]], Alex?\"",
@@ -858,8 +858,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Alphabet",
     "difficulty": "medium",
     "content": {
-      "title": "[[Deletreando|Spelling]] '[[Sarah|Sarah]]'",
-      "instructions": "[[Complete|Completa]] [[the|el]] [[spelling|deletreo]].",
+      "title": "Deletreando 'Sarah'",
+      "instructions": "Complete the spelling.",
       "questions": [
         {
           "question": "Sarah: \"[[It's|Es]] S-A-R-A-__.\"",
@@ -878,8 +878,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Alphabet",
     "difficulty": "medium",
     "content": {
-      "title": "[[Spell|Deletrea]] [[Your|tu]] [[Last|último]] [[Name|Nombre]]",
-      "instructions": "[[Put|Pon]] [[the|las]] [[words|palabras]] [[in|en]] [[order|orden]].",
+      "title": "Spell Your Last Name",
+      "instructions": "Put the words in order.",
       "correctSentence": "Spell your last name, please.",
       "words": ["please.", "name,", "last", "your", "Spell"]
     },
@@ -892,8 +892,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Personal Info",
     "difficulty": "easy",
     "content": {
-      "title": "[[Email|Correo]] [[Address|Dirección]]",
-      "instructions": "[[Sarah|Sarah]] [[asks|pregunta]] [[Marco|a Marco]] [[for|por]] [[his|su]] [[email|correo]].",
+      "title": "Email Address",
+      "instructions": "Sarah asks Marco for his email.",
       "questions": [
         {
           "question": "Sarah: \"[[What|Cuál]] [[is|es]] [[your|tu]] ________ [[address|dirección]]?\"",
@@ -916,8 +916,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Alphabet",
     "difficulty": "medium",
     "content": {
-      "title": "[[Email|Correo]] [[Symbols|Símbolos]]",
-      "instructions": "[[How|Cómo]] [[do|]] [[you|tú]] [[say|dices]] '@' [[in|en]] [[English|inglés]]?",
+      "title": "Email Symbols",
+      "instructions": "How do you say '@' in English?",
       "questions": [
         {
           "question": "Marco: \"[[It|Ello]] [[is|es]] marco____office.com\"",
@@ -936,8 +936,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Personal Info",
     "difficulty": "medium",
     "content": {
-      "title": "[[My|Mi]] [[Email|Correo]]",
-      "instructions": "[[Put|Pon]] [[the|las]] [[words|palabras]] [[in|en]] [[order|orden]].",
+      "title": "My Email",
+      "instructions": "Put the words in order.",
       "correctSentence": "My email is sarah@office.com.",
       "words": ["sarah@office.com.", "is", "email", "My"]
     },
@@ -950,8 +950,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Personal Info",
     "difficulty": "easy",
     "content": {
-      "title": "[[Phone|Teléfono]] [[Number|Número]]",
-      "instructions": "[[Alex|Alex]] [[asks|pregunta]] [[for|por]] [[Sarah's|el de Sarah]] [[number|número]].",
+      "title": "Phone Number",
+      "instructions": "Alex asks for Sarah's number.",
       "questions": [
         {
           "question": "Alex: \"[[What's|Cuál es]] [[your|tu]] ________?\"",
@@ -974,8 +974,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Numbers",
     "difficulty": "medium",
     "content": {
-      "title": "[[Zero|Cero]]",
-      "instructions": "[[How|Cómo]] [[do|]] [[you|tú]] [[say|dices]] '0' [[in|en]] [[a|un]] [[phone|teléfono]] [[number|número]]?",
+      "title": "Zero",
+      "instructions": "How do you say '0' in a phone number?",
       "questions": [
         {
           "question": "Sarah: \"[[It's|Es]] [[five-five|cinco-cinco]]-____-[[one|uno]].\"",
@@ -994,8 +994,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Greetings",
     "difficulty": "medium",
     "content": {
-      "title": "[[Review|Revisión]]: [[Formal|Formal]] [[Greeting|Saludo]]",
-      "instructions": "[[Sarah|Sarah]] [[sees|ve]] [[the|al]] [[CEO|director ejecutivo]].",
+      "title": "Review: Formal Greeting",
+      "instructions": "Sarah sees the CEO.",
       "questions": [
         {
           "question": "Sarah: \"________, [[Mrs.|la Sra.]] Davis.\"",
@@ -1018,8 +1018,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Verb To Be",
     "difficulty": "medium",
     "content": {
-      "title": "[[Review|Revisión]]: [[Verb|Verbo]] [[To|Ser/Estar]] [[Be|]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]] [[about|sobre]] [[the|la]] [[party|fiesta]].",
+      "title": "Review: Verb To Be",
+      "instructions": "Complete the sentence about the party.",
       "questions": [
         {
           "question": "[[The|La]] [[party|fiesta]] ____ [[great|estupenda]]!",
@@ -1038,8 +1038,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Greetings",
     "difficulty": "medium",
     "content": {
-      "title": "[[Nice|Gusto]] [[to|en]] [[See|verte]] [[You|a ti]]",
-      "instructions": "[[Put|Pon]] [[the|las]] [[words|palabras]] [[in|en]] [[order|orden]].",
+      "title": "Nice to See You",
+      "instructions": "Put the words in order.",
       "correctSentence": "It's nice to see you.",
       "words": ["you.", "see", "to", "nice", "It's"]
     },
@@ -1052,8 +1052,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Greetings",
     "difficulty": "medium",
     "content": {
-      "title": "[[How|Cómo]] [[are|van]] [[things|las cosas]]?",
-      "instructions": "[[Identify|Identifica]] [[the|la]] [[correct|correcta]] [[expression|expresión]] [[for|para]] [[informal|informales]] [[situations|situaciones]].",
+      "title": "How are things?",
+      "instructions": "Identify the correct expression for informal situations.",
       "questions": [
         {
           "question": "Alex: \"[[How|Cómo]] [[are|están]] ________, Sarah?\"",
@@ -1076,8 +1076,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Greetings",
     "difficulty": "easy",
     "content": {
-      "title": "[[Everything|Todo]] [[is|está]] [[Great|genial]]",
-      "instructions": "[[Sarah|Sarah]] [[responds|responde]] [[to|a]] [[Alex|Alex]].",
+      "title": "Everything is Great",
+      "instructions": "Sarah responds to Alex.",
       "questions": [
         {
           "question": "Sarah: \"[[Everything|Todo]] ____ [[great|genial]], [[thanks|gracias]].\"",
@@ -1096,8 +1096,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Greetings",
     "difficulty": "medium",
     "content": {
-      "title": "[[Pleasure|Placer]] [[to|de]] [[Meet|conocerle]] [[You|a usted]]",
-      "instructions": "[[Review|Revisión]]: [[Meeting|Conocer]] [[the|al]] [[CEO|director ejecutivo]].",
+      "title": "Pleasure to Meet You",
+      "instructions": "Review: Meeting the CEO.",
       "questions": [
         {
           "question": "Sarah: \"[[It|Ello]] [[is|es]] [[a|un]] ________ [[to|de]] [[meet|conocerle]] [[you|a usted]], Mrs. Davis.\"",
@@ -1120,8 +1120,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Wh-Questions",
     "difficulty": "medium",
     "content": {
-      "title": "[[Where|Dónde]] [[is|está]] [[the|el]] [[Manager|Gerente]]?",
-      "instructions": "[[Sarah|Sarah]] [[is|está]] [[looking|buscando]] [[for|a]] [[Mr.|el Sr.]] [[Brown|Brown]].",
+      "title": "Where is the Manager?",
+      "instructions": "Sarah is looking for Mr. Brown.",
       "correctSentence": "Where is the manager?",
       "words": ["manager?", "the", "is", "Where"]
     },
@@ -1134,8 +1134,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Greetings",
     "difficulty": "easy",
     "content": {
-      "title": "[[Over|Por]] [[There|allí]]",
-      "instructions": "[[Alex|Alex]] [[points|señala]] [[to|a]] [[Mr.|el Sr.]] [[Brown|Brown]].",
+      "title": "Over There",
+      "instructions": "Alex points to Mr. Brown.",
       "questions": [
         {
           "question": "Alex: \"[[He|Él]] [[is|está]] [[over|por]] ________.\"",
@@ -1158,8 +1158,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Verb To Be",
     "difficulty": "medium",
     "content": {
-      "title": "[[Are|Eres]] [[you|tú]] [[too|también]]?",
-      "instructions": "[[Marco|Marco]] [[asks|pregunta]] [[Sarah|a Sarah]].",
+      "title": "Are you too?",
+      "instructions": "Marco asks Sarah.",
       "questions": [
         {
           "question": "Marco: \"____ [[you|tú]] [[from|de]] London [[too|también]]?\"",
@@ -1178,8 +1178,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Personal Info",
     "difficulty": "medium",
     "content": {
-      "title": "[[British|Británica]]",
-      "instructions": "[[Sarah|Sarah]] [[confirms|confirma]] [[her|su]] [[nationality|nacionalidad]].",
+      "title": "British",
+      "instructions": "Sarah confirms her nationality.",
       "correctSentence": "Yes, I am British.",
       "words": ["British.", "am", "I", "Yes,"]
     },
@@ -1192,8 +1192,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Farewells",
     "difficulty": "medium",
     "content": {
-      "title": "[[Good|Buena]] [[Night|Noche]]",
-      "instructions": "[[The|La]] [[party|fiesta]] [[is|está]] [[finishing|terminando]].",
+      "title": "Good Night",
+      "instructions": "The party is finishing.",
       "questions": [
         {
           "question": "Sarah: \"[[Have|Que]] [[a|tengas]] [[good|buena]] ________, [[everyone|todos]]!\"",
@@ -1216,8 +1216,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "topic": "Farewells",
     "difficulty": "easy",
     "content": {
-      "title": "[[See|Vemos]] [[You|te]] [[Tomorrow|mañana]]",
-      "instructions": "[[Last|Última]] [[farewell|despedida]] [[to|a]] [[Alex|Alex]].",
+      "title": "See You Tomorrow",
+      "instructions": "Last farewell to Alex.",
       "questions": [
         {
           "question": "Sarah: \"[[See|Vemos]] [[you|te]] ________, Alex!\"",

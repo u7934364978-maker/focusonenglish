@@ -92,11 +92,11 @@ function validateExerciseInContent(file, content) {
       }
     }
     
-    const questionPattern = /["']?question["']?:\s*['"]([^'"]*)['"]/gi;
+    const questionPattern = /["']?question["']?:\s*['"]((?:[^'"\\]|\\.)*)['"]/gi;
     const questions = [...exerciseBlock.matchAll(questionPattern)];
     
     questions.forEach((qMatch, idx) => {
-      const questionText = qMatch[1];
+      const questionText = qMatch[1].replace(/\\"/g, '"').replace(/\\'/g, "'");
       if (!questionText || questionText.trim() === '') {
         reportIssue(
           file,
@@ -161,6 +161,13 @@ async function main() {
   const filesToCheck = [
     'course-data-a1.ts',
     'course-data-b2.ts',
+    'a1-m1-l1-detailed.ts',
+    'a1-m1-l2-detailed.ts',
+    'a1-m1-l3-detailed.ts',
+    'a1-m1-l4-detailed.ts',
+    'a1-m1-l5-detailed.ts',
+    'a1-m1-l6-detailed.ts',
+    'a1-m1-l7-detailed.ts',
     'a1-expansion-content.ts',
     'b2-improvements-part1-open-cloze.ts',
     'b2-improvements-part2-gapped-text.ts',

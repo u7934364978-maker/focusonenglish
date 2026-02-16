@@ -4,9 +4,9 @@
 
 
 // Import detailed exercises
-import { A1_M1_L1_ALL_EXERCISES } from './a1-m1-l1-detailed';
-import { A1_M1_L2_ALL_EXERCISES } from './a1-m1-l2-detailed';
-import { A1_M1_L3_ALL_EXERCISES } from './a1-m1-l3-detailed';
+import { UNIT_1_EXERCISES as A1_M1_L1_ALL_EXERCISES } from './course/a1/unit-1';
+import { UNIT_2_EXERCISES as A1_M1_L2_ALL_EXERCISES } from './course/a1/unit-2';
+import { UNIT_3_EXERCISES as A1_M1_L3_ALL_EXERCISES } from './course/a1/unit-3';
 import { A1_M1_L4_ALL_EXERCISES } from './a1-m1-l4-detailed';
 import { A1_M1_L5_ALL_EXERCISES } from './a1-m1-l5-detailed';
 import { A1_M1_L6_ALL_EXERCISES } from './a1-m1-l6-detailed';
@@ -41,35 +41,34 @@ import type {
 export const MODULE_1_LESSONS: Lesson[] = [
   {
     id: 'a1-m1-l1',
-    title: 'Lección 1: Saludos y el Alfabeto',
-    description: 'Learn basic greetings and the English alphabet with active recall techniques',
+    title: 'Lección 1: Saludos e Información Personal',
+    description: 'Learn basic greetings and personal information with active recall techniques',
     duration: 90,
-    objectives: ['Learn basic greetings', 'Master the English alphabet'],
+    objectives: ['Learn basic greetings', 'Subject pronouns I and You', 'Verb to be am/are'],
     exercises: [
-      ...(A1_M1_L7_ALL_EXERCISES as Exercise[]),
+      ...(A1_M1_L1_ALL_EXERCISES as Exercise[]),
       ...A1_PDF_EXERCISES.filter(ex => ex.id.startsWith('a1-m1-l1-pdf'))
     ]
   },
   {
     id: 'a1-m1-l2',
-    title: 'Lección 2: El Verbo To Be y Pronombres',
+    title: 'Lección 2: Verbo "to be" y Pronombres',
     description: 'Master the verb "to be" and subject pronouns in present simple',
     duration: 90,
-    objectives: ['Master the verb "to be"', 'Learn subject pronouns'],
+    objectives: ['Master the verb "to be" (he, she, it, we, they)', 'Learn countries and professions'],
     exercises: [
-      ...(A1_M1_L1_ALL_EXERCISES as Exercise[]), 
       ...(A1_M1_L2_ALL_EXERCISES as Exercise[]),
       ...A1_PDF_EXERCISES.filter(ex => ex.id.startsWith('a1-m1-l2-pdf'))
     ]
   },
   {
     id: 'a1-m1-l3',
-    title: 'Lección 3: Números y Colores',
-    description: 'Learn cardinal numbers and common colors with gamified exercises',
+    title: 'Lección 3: "To be": Negativos y Preguntas',
+    description: 'Learn negative forms and Yes/No questions with the verb to be',
     duration: 90,
-    objectives: ['Learn cardinal numbers', 'Master common colors'],
+    objectives: ['Master negative forms', 'Learn Yes/No questions', 'Master mood adjectives'],
     exercises: [
-      ...(A1_M1_L4_ALL_EXERCISES as Exercise[]),
+      ...(A1_M1_L3_ALL_EXERCISES as Exercise[]),
       ...A1_PDF_EXERCISES.filter(ex => ex.id.startsWith('a1-m1-l3-pdf'))
     ]
   },
