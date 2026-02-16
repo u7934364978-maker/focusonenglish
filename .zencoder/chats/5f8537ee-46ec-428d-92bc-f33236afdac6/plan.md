@@ -43,7 +43,7 @@
 - [x] **Unit 7**: Colors & Physical Descriptions (Done)
 - [x] **Unit 8**: Numbers 20-100, Prices & Ages (Done)
 - [x] **Unit 9**: Jobs & Occupations (Done)
-- [ ] **Unit 10**: Module 1 Review & Assessment
+- [x] **Unit 10**: Module 1 Review & Assessment (Done)
 
 #### Module 2: Daily Life & Routines
 - [ ] **Unit 11**: Telling the Time
