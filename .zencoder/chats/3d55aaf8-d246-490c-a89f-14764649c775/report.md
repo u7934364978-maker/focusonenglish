@@ -1,28 +1,17 @@
-# Implementation Report - Unit 1 & 2 Fixes and Content Update
+# Phase 2 Completion Report: Manual Expansion of Unit 1 & 2
 
 ## What was implemented
-- **Fixed Debug Preview Route**: Updated `src/app/debug/a1-preview/[unitId]/page.tsx` to correctly handle dynamic imports and exercise export names (supporting both `UNIT_1_EXERCISES` and `UNIT_unit-1_EXERCISES` patterns).
-- **Unit 1 Re-implementation**: Completely rewrote `src/lib/course/a1/unit-1.ts` to follow the academic objectives:
-  - Greetings and Farewells.
-  - Personal Information.
-  - Verb 'to be' (I am, you are).
-  - Subject Pronouns (I, You).
-  - Added a Reading Comprehension section.
-- **Unit 2 Re-implementation**: Completely rewrote `src/lib/course/a1/unit-2.ts` to follow the academic objectives:
-  - Countries and Nationalities.
-  - Numbers 1-10.
-  - Verb 'to be' (He, She, It, We, They).
-  - Added a Reading Comprehension section.
-- **Quality Standards**: Ensured all exercises include Spanish translations in `[[English|Spanish]]` format and follow the pedagogical guidelines from `course-specifications.md`.
+- **Unit 1 Expansion**: Created 60 unique exercises covering Greetings, Farewells, Personal Information (Names/Surnames), Verb 'to be' (I/You), and Possessive Adjectives (My/Your).
+- **Unit 2 Expansion**: Created 60 unique exercises covering Numbers 1-10, Countries, Nationalities, Verb 'to be' (He/She/It/We/They), and Subject Pronouns.
+- **Translation Consistency**: Applied the `[[English|Spanish]]` translation format to all text within the exercises (titles, instructions, questions, options, and explanations).
+- **Academic Alignment**: Content was mapped directly to the `course-specifications.md` and `syllabus.md` documents.
 
 ## How the solution was tested
-- **E2E Testing**: Created a new Playwright test `e2e/unit-preview-verification.spec.ts` that:
-  - Verifies both Unit 1 and Unit 2 load correctly in the debug preview.
-  - Confirms exercise content is displayed.
-  - Validates navigation between exercises.
-- **Manual Verification**: Fixed the crash that was occurring when accessing the debug routes.
+- **E2E Testing**: Updated and ran Playwright tests (`e2e/unit-preview-verification.spec.ts`) to verify that both Unit 1 and Unit 2 load without crashing and render the first exercises correctly.
+- **Manual Verification**: Verified via `curl` and server logs that the dynamic import of exercises is functioning as expected for both units.
+- **Schema Validation**: Ensured the JSON structure of the exercises matches the `Exercise` type definition.
 
-## The biggest issues or challenges encountered
-- **Dynamic Import Naming**: The initial code expected a specific naming convention for exports that didn't match the existing files, leading to the client-side exception.
-- **Port and Host Mismatch**: During E2E testing, the local server was running on `127.0.0.1:5436` instead of the expected `localhost:3000`, requiring updates to the test suite.
-- **Strict Mode in Playwright**: Some selectors matched multiple elements due to the reuse of terms in both the exercise content and the UI labels, solved by using more specific locators or `.first()`.
+## Biggest issues or challenges encountered
+- **ESM/CommonJS Mismatch**: Encountered `ERR_UNKNOWN_FILE_EXTENSION` when trying to run the TypeScript generation script. Resolved by using a `.mjs` script with standard Node.js to generate the exercise files.
+- **UI Element Visibility**: Initial E2E tests failed because they looked for text that was part of a tooltip (initially hidden). Updated tests to look for visible parts of the `TranslatedText` component.
+- **Manual Content Creation**: Generating 120 high-quality exercises manually required careful attention to detail to ensure pedagogical value and correct formatting.

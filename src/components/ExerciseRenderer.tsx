@@ -75,10 +75,17 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
     content: exercise.content
   });
 
+  const stripTags = (s: string) => s.replace(/\[\[(.*?)\|(.*?)\]\]/g, '$1');
+
+  const normalize = (s: string) => stripTags(s)
+    .toLowerCase()
+    .trim()
+    .replace(/\s*[\/\\]\s*/g, ' / ') // Normalize / separator with standard spacing
+    .replace(/\s+/g, ' ');           // Collapse other whitespace
+
   const normalizeAnswer = (s: any) => {
     if (typeof s !== 'string') return s;
-    // Remove translation tags [[word|translation]] -> word
-    return s.replace(/\[\[(.*?)\|(.*?)\]\]/g, '$1').toLowerCase().trim();
+    return normalize(s);
   };
 
   const checkMultipleChoiceCorrect = (q: any, selectedIdx: number) => {
@@ -105,7 +112,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
       const selectedOption = q.options[selectedIdx];
       const selectedText = typeof selectedOption === 'string' ? selectedOption : selectedOption.text;
       
-      if (normalizeAnswer(answer) === normalizeAnswer(selectedText)) return true;
+      if (normalize(answer) === normalize(selectedText)) return true;
     }
     
     return false;
@@ -118,7 +125,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
     if (exercise.content.questions && Array.isArray(exercise.content.questions) && userAnswer?.questionIndex !== undefined) {
       const currentQuestion = exercise.content.questions[userAnswer.questionIndex];
       
-      if (currentQuestion.options && Array.isArray(currentQuestion.options)) {
+      if (currentQuestion.options && Array.isArray(currentQuestion.options) && exercise.type !== 'fill-blank') {
         // Multiple choice evaluation
         const correct = checkMultipleChoiceCorrect(currentQuestion, userAnswer.answer);
         setIsCorrect(correct);
@@ -137,29 +144,23 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
       } else {
         // Text answer for fill-in-the-blank
         const q = currentQuestion as any;
-        
-        // Normalize helper: collapse spaces and handle multi-gap separators (/)
-        const normalize = (s: string) => s
-          .toLowerCase()
-          .trim()
-          .replace(/\s*[\/\\]\s*/g, ' / ') // Normalize / separator with standard spacing
-          .replace(/\s+/g, ' ');           // Collapse other whitespace
-        
-        const userAnswerNormalized = normalize(userAnswer.answer || '');
+        const userAnswerText = typeof userAnswer.answer === 'string' ? userAnswer.answer : '';
+        const userAnswerNormalized = normalize(userAnswerText);
         
         const correctAnswers = [
           ...(Array.isArray(q.correctAnswer) ? q.correctAnswer : [q.correctAnswer]),
           ...(Array.isArray(q.acceptableAnswers) ? q.acceptableAnswers : (q.acceptableAnswers ? [q.acceptableAnswers] : [])),
           ...(Array.isArray(q.acceptableAlternatives) ? q.acceptableAlternatives : (q.acceptableAlternatives ? [q.acceptableAlternatives] : []))
-        ].filter(Boolean).map(a => normalize(a));
+        ].filter(Boolean).map(a => normalize(String(a)));
         
         const correct = correctAnswers.includes(userAnswerNormalized);
         setIsCorrect(correct);
         
+        const displayCorrectAnswer = Array.isArray(q.correctAnswer) ? q.correctAnswer[0] : q.correctAnswer;
         const evalResult = {
           isCorrect: correct,
           score: correct ? 100 : 0,
-          feedback: correct ? '¡Excelente! Respuesta correcta.' : `Respuesta incorrecta. La respuesta correcta era: ${Array.isArray(q.correctAnswer) ? q.correctAnswer[0] : q.correctAnswer}`,
+          feedback: correct ? '¡Excelente! Respuesta correcta.' : `Respuesta incorrecta. La respuesta correcta era: **${stripTags(String(displayCorrectAnswer))}**`,
         };
         setEvaluation(evalResult);
 

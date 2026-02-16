@@ -62,3 +62,23 @@ Implement the task according to the technical specification and general engineer
    - What was implemented
    - How the solution was tested
    - The biggest issues or challenges encountered
+
+---
+
+### [x] Phase 4: Enhance Fill-blank Exercises with Guidance Options
+
+1. [x] Modify `ExerciseRenderer.tsx` to support clickable options in `fill-blank` exercises.
+2. [x] Update Unit 1 exercises with at least two options for each `fill-blank` task.
+3. [x] Update Unit 2 exercises with at least two options for each `fill-blank` task.
+4. [x] Verify UI/UX behavior and push changes.
+
+---
+
+### [x] Phase 5: Exhaustive Audit and Pedagogical Refinement of Unit 1
+
+1. [x] Audit all 60 exercises in Unit 1 for pedagogical logic and progression.
+2. [x] Ensure all English text has its corresponding `[[English|Spanish]]` translation.
+3. [x] Verify that no exercises are repeated.
+4. [x] Replace generic explanations with specific, translated linguistic rules.
+5. [x] Verify implementation in the browser.
+6. [x] Push changes and provide commit hash. (Commit: 32be321a)

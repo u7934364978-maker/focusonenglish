@@ -16,8 +16,9 @@ test.describe('Unit Preview Verification', () => {
     const renderer = page.locator('main');
     await expect(renderer).toBeVisible();
     
-    // Check for the presence of the first exercise title (Greetings)
-    await expect(page.locator('text=Greetings').first()).toBeVisible();
+    // Check for the presence of the first exercise title
+    await expect(page.locator('text=Morning').first()).toBeVisible();
+    await expect(page.locator('text=Greeting').first()).toBeVisible();
   });
 
   test('should load Unit 2 exercises without crashing', async ({ page }) => {
@@ -32,7 +33,7 @@ test.describe('Unit Preview Verification', () => {
     await expect(header).toContainText('Ejercicio 1 de');
     
     // Check for the presence of the first exercise content
-    await expect(page.locator('text=nationality').first()).toBeVisible();
+    await expect(page.locator('text=Number').first()).toBeVisible();
   });
 
   test('should navigate between exercises in Unit 1', async ({ page }) => {

@@ -13,33 +13,43 @@ function UnitPreviewContent() {
   const [exercises, setExercises] = useState<any[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     async function loadUnit() {
+      console.log(`🔍 Loading unit: ${unitId}`);
       try {
         const unitNumber = unitId.replace('unit-', '');
+        const modulePath = `../../../../lib/course/a1/unit-${unitNumber}`;
+        console.log(`📂 Importing module from: ${modulePath}`);
+        
         const module = await import(`../../../../lib/course/a1/unit-${unitNumber}`);
         // Support both UNIT_1_EXERCISES and UNIT_unit-1_EXERCISES or similar
         const exportName = `UNIT_${unitNumber.toUpperCase().replace('-', '_')}_EXERCISES`;
-        const unitExercises = module[exportName] || module[`UNIT_${unitNumber}_EXERCISES`];
+        console.log(`Searching for export: ${exportName}`);
         
-        if (!unitExercises) {
-          console.error(`Could not find exercises in module with export name ${exportName}`);
+        const unitExercises = module[exportName] || module[`UNIT_${unitNumber}_EXERCISES`] || module.default;
+        
+        if (!unitExercises || !Array.isArray(unitExercises)) {
+          console.error(`❌ Could not find exercises in module. Export name: ${exportName}`);
+          setError(`No se encontraron ejercicios en el módulo unit-${unitNumber}`);
           setExercises([]);
         } else {
+          console.log(`✅ Loaded ${unitExercises.length} exercises for unit ${unitNumber}`);
           setExercises(unitExercises);
-        }
-        
-        // Handle index from query param
-        const indexParam = searchParams.get('index');
-        if (indexParam) {
-          const idx = parseInt(indexParam);
-          if (!isNaN(idx) && idx >= 0 && idx < unitExercises.length) {
-            setCurrentIndex(idx);
+          
+          // Handle index from query param
+          const indexParam = searchParams.get('index');
+          if (indexParam) {
+            const idx = parseInt(indexParam);
+            if (!isNaN(idx) && idx >= 0 && idx < unitExercises.length) {
+              setCurrentIndex(idx);
+            }
           }
         }
-      } catch (error) {
-        console.error('Error loading unit:', error);
+      } catch (err: any) {
+        console.error('❌ Error loading unit:', err);
+        setError(`Error al cargar la unidad: ${err.message}`);
       } finally {
         setLoading(false);
       }
@@ -47,8 +57,41 @@ function UnitPreviewContent() {
     loadUnit();
   }, [unitId, searchParams]);
 
-  if (loading) return <div className="p-8 text-center">Cargando Unidad {unitId}...</div>;
-  if (exercises.length === 0) return <div className="p-8 text-center text-red-500">No se encontraron ejercicios para la {unitId}</div>;
+  if (loading) return (
+    <div className="min-h-screen flex items-center justify-center bg-slate-50">
+      <div className="text-center">
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-coral-500 mx-auto mb-4"></div>
+        <p className="text-slate-600 font-medium">Cargando Unidad {unitId}...</p>
+      </div>
+    </div>
+  );
+
+  if (error) return (
+    <div className="min-h-screen flex items-center justify-center bg-slate-50">
+      <div className="max-w-md w-full p-8 bg-white rounded-2xl shadow-xl text-center">
+        <div className="w-16 h-16 bg-red-100 text-red-600 rounded-full flex items-center justify-center mx-auto mb-4">
+          <Home className="w-8 h-8" />
+        </div>
+        <h2 className="text-2xl font-black text-slate-800 mb-2">Error de Carga</h2>
+        <p className="text-slate-600 mb-6">{error}</p>
+        <Link 
+          href="/"
+          className="inline-block bg-slate-800 text-white px-8 py-3 rounded-xl font-bold hover:bg-slate-900 transition-all"
+        >
+          Volver al Inicio
+        </Link>
+      </div>
+    </div>
+  );
+
+  if (exercises.length === 0) return (
+    <div className="min-h-screen flex items-center justify-center bg-slate-50">
+      <div className="text-center">
+        <p className="text-red-500 font-bold text-xl mb-4">No se encontraron ejercicios</p>
+        <Link href="/" className="text-coral-500 underline">Volver al inicio</Link>
+      </div>
+    </div>
+  );
 
   const currentExercise = exercises[currentIndex];
 

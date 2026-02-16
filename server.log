@@ -16,18 +16,10 @@
 
  ✓ Starting...
  ⚠ Mismatching @next/swc version, detected: 15.5.7 while Next.js is on 15.5.11. Please ensure these match
- ✓ Ready in 1656ms
- ✓ Compiled /middleware in 166ms (164 modules)
+ ✓ Ready in 2.7s
+ ✓ Compiled /middleware in 259ms (164 modules)
  ○ Compiling /debug/a1-preview/[unitId] ...
- ✓ Compiled /debug/a1-preview/[unitId] in 5.5s (2341 modules)
+ ✓ Compiled /debug/a1-preview/[unitId] in 5.9s (2341 modules)
 Supabase Browser Client Initializing with URL: https://nprqtjljoekoirlrjxlh.supabase.co
- GET /debug/a1-preview/unit-1 200 in 7057ms
- GET /debug/a1-preview/unit-2 200 in 7062ms
- GET /debug/a1-preview/unit-1 200 in 7066ms
- GET /debug/a1-preview/unit-2 200 in 340ms
- GET /debug/a1-preview/unit-1 200 in 344ms
- GET /debug/a1-preview/unit-1 200 in 346ms
- GET /debug/a1-preview/unit-1 200 in 391ms
- GET /debug/a1-preview/unit-1 200 in 393ms
- GET /debug/a1-preview/unit-2 200 in 394ms
+ HEAD /debug/a1-preview/unit-1 200 in 6901ms
 [?25h
