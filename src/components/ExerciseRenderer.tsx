@@ -575,7 +575,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                         )}
                       </div>
                       <div className="font-medium text-lg">
-                        <TranslatedText text={evaluation.feedback} />
+                        <Markdown content={evaluation.feedback} vocabulary={vocabulary} />
                       </div>
                       
                       {q.explanation && (
@@ -584,7 +584,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                         }`}>
                           <p className="font-bold mb-1">💡 Explicación:</p>
                           <div className="text-sm">
-                            <TranslatedText text={q.explanation} />
+                            <Markdown content={q.explanation} vocabulary={vocabulary} />
                           </div>
                         </div>
                       )}

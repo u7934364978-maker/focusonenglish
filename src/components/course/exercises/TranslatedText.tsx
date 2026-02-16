@@ -1,4 +1,6 @@
-import React from 'react';
+'use client';
+
+import React, { useMemo } from 'react';
 import { GLOBAL_LEXICON } from '@/lib/course/engine/lexicon';
 
 interface TranslatedTextProps {
@@ -7,25 +9,40 @@ interface TranslatedTextProps {
   useStrong?: boolean;
 }
 
-// Pre-process lexicon for faster matching
-// We do this once at the module level
-const lexiconMap = new Map<string, string>();
-GLOBAL_LEXICON.forEach(item => {
-  lexiconMap.set(item.lemma.toLowerCase(), item.translation);
-  if (item.plural) {
-    lexiconMap.set(item.plural.toLowerCase(), item.translation);
+// Module-level cache for the regex and map to avoid recomputing if not needed
+let cachedLexiconMap: Map<string, string> | null = null;
+let cachedLexiconRegexPattern: string | null = null;
+
+function getLexiconData() {
+  if (cachedLexiconMap && cachedLexiconRegexPattern) {
+    return { lexiconMap: cachedLexiconMap, lexiconRegexPattern: cachedLexiconRegexPattern };
   }
-});
 
-// Sort by length descending to match longer phrases first (e.g., "orange juice" before "orange")
-const sortedLexiconWords = Array.from(lexiconMap.keys()).sort((a, b) => b.length - a.length);
+  const lexiconMap = new Map<string, string>();
+  if (GLOBAL_LEXICON) {
+    GLOBAL_LEXICON.forEach(item => {
+      lexiconMap.set(item.lemma.toLowerCase(), item.translation);
+      if (item.plural) {
+        lexiconMap.set(item.plural.toLowerCase(), item.translation);
+      }
+    });
+  }
 
-// Create the regex pattern string once
-const lexiconRegexPattern = sortedLexiconWords.length > 0 
-  ? `\\b(${sortedLexiconWords.map(w => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})\\b`
-  : null;
+  const sortedLexiconWords = Array.from(lexiconMap.keys()).sort((a, b) => b.length - a.length);
+  
+  const lexiconRegexPattern = sortedLexiconWords.length > 0 
+    ? `\\b(${sortedLexiconWords.map(w => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})\\b`
+    : null;
+
+  cachedLexiconMap = lexiconMap;
+  cachedLexiconRegexPattern = lexiconRegexPattern;
+
+  return { lexiconMap, lexiconRegexPattern };
+}
 
 export const TranslatedText: React.FC<TranslatedTextProps> = ({ text, className, useStrong = false }) => {
+  const { lexiconMap, lexiconRegexPattern } = useMemo(() => getLexiconData(), []);
+
   if (!text) return null;
 
   // 1. Handle explicit translations: [[word|translation]]

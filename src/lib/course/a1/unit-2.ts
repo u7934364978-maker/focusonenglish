@@ -2,44 +2,55 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_2_EXERCISES: Exercise[] = [
   // ==========================================
-  // VOCABULARY: COUNTRIES & NATIONALITIES (1-10)
+  // INTRODUCTION: THE MEETING (1-5)
   // ==========================================
   {
     "id": "a1-u2-e1",
-    "type": "flashcard",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Countries & Nationalities",
-    "difficulty": "easy",
-    "transcript": "[[Spain|España]]. [[Spanish|Español]]. [[England|Inglaterra]]. [[English|Inglés]]. [[The United States|Estados Unidos]]. [[American|Americano]]. [[Mexico|México]]. [[Mexican|Mexicano]]. [[France|Francia]]. [[French|Francés]]. [[Italy|Italia]]. [[Italian|Italiano]]. [[Germany|Alemania]]. [[German|Alemán]]. [[Japan|Japón]]. [[Japanese|Japonés]].",
+    "topic": "Dialogue Analysis",
+    "difficulty": "hard",
+    "transcript": "A: [[Hello|Hola]], [[I|yo]] [[am|soy]] [[John|John]]. [[Are|¿Eres]] [[you|tú]] [[from|de]] [[Spain|España]]?\nB: [[No|No]], [[I|yo]] [[am|soy]] [[not|no]]. [[I|Yo]] [[am|soy]] [[from|de]] [[Mexico|México]]. [[I|Yo]] [[am|soy]] [[Mexican|mexicano]].",
     "content": {
-      "title": "[[Vocabulary|Vocabulario]]: [[Countries|Países]] [[and|y]] [[Nationalities|Nacionalidades]]",
-      "instructions": "[[Learn|Aprende]] [[the|los]] [[names|nombres]] [[of|de]] [[countries|países]] [[and|y]] [[their|sus]] [[nationalities|nacionalidades]].",
-      "items": [
-        { "front": "[[Spain|España]]", "back": "Spanish" },
-        { "front": "[[England|Inglaterra]]", "back": "English" },
-        { "front": "[[The United States|Estados Unidos]]", "back": "American" },
-        { "front": "[[Mexico|México]]", "back": "Mexican" },
-        { "front": "[[France|Francia]]", "back": "French" },
-        { "front": "[[Italy|Italia]]", "back": "Italian" },
-        { "front": "[[Germany|Alemania]]", "back": "German" },
-        { "front": "[[Japan|Japón]]", "back": "Japanese" }
+      "title": "[[A|Un]] [[New|Nuevo]] [[Meeting|Encuentro]]",
+      "instructions": "[[Read|Lee]] [[the|el]] [[dialogue|diálogo]] [[and|y]] [[answer|responde]].",
+      "questions": [
+        {
+          "question": "[[Is|¿Es]] [[John|John]] [[talking|hablando]] [[to|con]] [[someone|alguien]] [[from|de]] [[Spain|España]]?",
+          "options": [
+            "[[Yes|Sí]], [[the|la]] [[person|persona]] [[is|es]] [[Spanish|española]].",
+            "[[No|No]], [[the|la]] [[person|persona]] [[is|es]] [[from|de]] [[Mexico|México]].",
+            "[[We|Nosotros]] [[don't|no]] [[know|sabemos]]."
+          ],
+          "correctAnswer": 1,
+          "explanation": "[[Person|La persona]] B [[says|dice]]: '[[I|Yo]] [[am|soy]] [[from|de]] [[Mexico|México]]'. [[So|Por lo tanto]], [[they|ellos/ella]] [[are|son]] [[not|no]] [[Spanish|españoles]]."
+        }
       ]
     },
-    "topicName": "Vocabulary"
+    "topicName": "Comprehension"
   },
   {
     "id": "a1-u2-e2",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Nationalities",
-    "difficulty": "easy",
-    "transcript": "[[He|Él]] [[is|es]] [[from|de]] [[Italy|Italia]]. [[He|Él]] [[is|es]] [[Italian|italiano]].",
+    "topic": "Verb To Be",
+    "difficulty": "hard",
+    "transcript": "[[I|Yo]] [[am|soy]] [[from|de]] [[London|Londres]], [[but|pero]] [[my|mis]] [[parents|padres]] [[are|son]] [[from|de]] [[France|Francia]].",
     "content": {
-      "title": "[[Origins|Orígenes]]",
-      "instructions": "[[Select|Selecciona]] [[the|la]] [[correct|correcta]] [[nationality|nacionalidad]].",
-      "options": ["[[Italy|Italia]]", "[[Italian|italiano]]", "[[Spanish|español]]"],
-      "correctAnswer": 1,
-      "explanation": "[[If|Si]] [[he|él]] [[is|es]] [[from|de]] [[Italy|Italia]], [[he|él]] [[is|es]] [[Italian|italiano]]."
+      "title": "[[Origins|Orígenes]] [[Mixed|Mixtos]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]] [[for|para]] [[the|los]] [[parents|padres]].",
+      "questions": [
+        {
+          "question": "[[The|Los]] [[parents|padres]] [[are|son]]...",
+          "options": [
+            "[[English|Ingleses]]",
+            "[[French|Franceses]]",
+            "[[American|Americanos]]"
+          ],
+          "correctAnswer": 1,
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]] '[[parents|padres]] [[are|son]] [[from|de]] [[France|Francia]]', [[so|así que]] [[they|ellos]] [[are|son]] [[French|franceses]]."
+        }
+      ]
     },
     "topicName": "Vocabulary"
   },
@@ -48,150 +59,207 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Nationalities",
-    "difficulty": "easy",
-    "transcript": "[[She|Ella]] [[is|es]] [[from|de]] [[Germany|Alemania]]. [[She|Ella]] [[is|es]] [[German|alemana]].",
+    "difficulty": "hard",
+    "transcript": "[[She|Ella]] [[is|es]] [[Italian|italiana]]. [[She|Ella]] [[is|es]] [[not|no]] [[from|de]] [[Germany|Alemania]].",
     "content": {
-      "title": "[[Origins|Orígenes]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[national|nacionalidad]] [[correct|correcta]].",
-      "options": ["[[German|alemana]]", "[[Germany|Alemania]]", "[[American|americana]]"],
-      "correctAnswer": 0,
-      "explanation": "[[German|Alemán/alemana]] [[is|es]] [[the|la]] [[nationality|nacionalidad]] [[of|de]] [[Germany|Alemania]]."
+      "title": "[[Negative|Negativo]] [[and|y]] [[Affirmative|Afirmativo]]",
+      "instructions": "[[Complete|Completa]] [[the|la]] [[logic|lógica]].",
+      "questions": [
+        {
+          "question": "[[If|Si]] [[she|ella]] [[is|es]] [[Italian|italiana]], [[she|ella]] [[is|es]] [[from|de]]...",
+          "options": [
+            "[[Germany|Alemania]]",
+            "[[Italy|Italia]]",
+            "[[France|Francia]]"
+          ],
+          "correctAnswer": 1,
+          "explanation": "[[Italian|Italiano/a]] [[is|es]] [[the|la]] [[nationality|nacionalidad]] [[for|para]] [[Italy|Italia]]."
+        }
+      ]
     },
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u2-e4",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Nationalities",
-    "difficulty": "easy",
-    "transcript": "[[They|Ellos]] [[are|son]] [[from|de]] [[Japan|Japón]]. [[They|Ellos]] [[are|son]] [[Japanese|japoneses]].",
+    "topic": "Verb To Be",
+    "difficulty": "hard",
     "content": {
-      "title": "[[Origins|Orígenes]]",
-      "instructions": "[[What|Cuál]] [[is|es]] [[their|su]] [[nationality|nacionalidad]]?",
-      "options": ["[[Japan|Japón]]", "[[Japanese|japoneses]]", "[[French|franceses]]"],
-      "correctAnswer": 1,
-      "explanation": "[[People|Personas]] [[from|de]] [[Japan|Japón]] [[are|son]] [[Japanese|japoneses]]."
+      "title": "[[Introducing|Presentando]] [[Friends|Amigos]]",
+      "instructions": "[[Complete|Completa]] [[with|con]] '[[am|soy]]', '[[is|es]]' [[or|o]] '[[are|son]]'.",
+      "questions": [
+        {
+          "question": "[[My|Mi]] [[friend|amigo]] [[David|David]] ____ [[from|de]] [[England|Inglaterra]].",
+          "correctAnswer": "is",
+          "explanation": "[[David|David]] [[is|es]] '[[he|él]]', [[so|así que]] [[we|nosotros]] [[use|usamos]] '[[is|es]]'."
+        },
+        {
+          "question": "[[We|Nosotros]] ____ [[students|estudiantes]] [[in|en]] [[Madrid|Madrid]].",
+          "correctAnswer": "are",
+          "explanation": "[[With|Con]] '[[we|nosotros]]', [[the|el]] [[verb|verbo]] [[is|es]] '[[are|somos]]'."
+        }
+      ]
     },
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u2-e5",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Countries",
-    "difficulty": "easy",
-    "transcript": "[[Madrid|Madrid]] [[is|está]] [[in|en]] [[Spain|España]].",
+    "topic": "Subject Pronouns",
+    "difficulty": "hard",
+    "transcript": "[[Maria|Maria]] [[and|y]] [[Elena|Elena]] [[are|están]] [[at|en]] [[home|casa]]. [[They|Ellas]] [[are|son]] [[sisters|hermanas]].",
     "content": {
-      "title": "[[Geography|Geografía]]",
-      "instructions": "[[Where|Dónde]] [[is|está]] [[Madrid|Madrid]]?",
-      "options": ["[[Mexico|México]]", "[[Spain|España]]", "[[England|Inglaterra]]"],
-      "correctAnswer": 1,
-      "explanation": "[[Madrid|Madrid]] [[is|es]] [[the|la]] [[capital|capital]] [[of|de]] [[Spain|España]]."
+      "title": "[[Replacing|Reemplazando]] [[Names|Nombres]]",
+      "instructions": "[[Replace|Reemplaza]] '[[Maria and Elena|Maria y Elena]]' [[with|con]] [[the|el]] [[correct|correcto]] [[pronoun|pronombre]].",
+      "questions": [
+        {
+          "question": "____ [[are|son]] [[sisters|hermanas]].",
+          "options": ["[[We|Nosotros]]", "[[They|Ellas]]", "[[She|Ella]]"],
+          "correctAnswer": 1,
+          "explanation": "'[[Maria and Elena|Maria y Elena]]' [[is|es]] [[third|tercera]] [[person|persona]] [[plural|plural]], [[so|así que]] [[we|nosotros]] [[use|usamos]] '[[They|Ellas]]'."
+        }
+      ]
     },
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
+
+  // ==========================================
+  // GRAMMAR: VERB TO BE NEGATIVE (6-15)
+  // ==========================================
   {
     "id": "a1-u2-e6",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Countries",
-    "difficulty": "easy",
-    "transcript": "[[London|Londres]] [[is|está]] [[in|en]] [[England|Inglaterra]].",
+    "topic": "Verb To Be: Negative",
+    "difficulty": "hard",
+    "transcript": "[[It|Eso]] [[is|es]] [[not|no]] [[a|un]] [[car|coche]]. [[It|Eso]] [[is|es]] [[a|una]] [[bike|bicicleta]].",
     "content": {
-      "title": "[[Geography|Geografía]]",
-      "instructions": "[[Where|Dónde]] [[is|está]] [[London|Londres]]?",
-      "options": ["[[France|Francia]]", "[[England|Inglaterra]]", "[[The United States|Estados Unidos]]"],
-      "correctAnswer": 1,
-      "explanation": "[[London|Londres]] [[is|está]] [[in|en]] [[England|Inglaterra]]."
+      "title": "[[Negative|Negativo]] [[Identification|Identificación]]",
+      "instructions": "[[Select|Selecciona]] [[the|la]] [[correct|correcta]] [[negative|negativa]] [[form|forma]].",
+      "questions": [
+        {
+          "question": "[[The|El]] [[object|objeto]] ____ [[a|un]] [[car|coche]].",
+          "options": ["[[am|soy]] [[not|no]]", "[[is|es]] [[not|no]]", "[[are|son]] [[not|no]]"],
+          "correctAnswer": 1,
+          "explanation": "'[[The object|El objeto]]' [[is|es]] '[[it|eso]]', [[so|así que]] [[the|el]] [[negative|negativo]] [[is|es]] '[[is not|no es]]'."
+        }
+      ]
     },
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u2-e7",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Countries",
-    "difficulty": "easy",
-    "transcript": "[[Paris|París]] [[is|está]] [[in|en]] [[France|Francia]].",
+    "topic": "Verb To Be: Negative",
+    "difficulty": "hard",
     "content": {
-      "title": "[[Geography|Geografía]]",
-      "instructions": "[[Identify|Identifica]] [[the|el]] [[country|país]].",
-      "options": ["[[France|Francia]]", "[[Italy|Italia]]", "[[Spain|España]]"],
-      "correctAnswer": 0,
-      "explanation": "[[Paris|París]] [[is|es]] [[the|la]] [[capital|capital]] [[of|de]] [[France|Francia]]."
+      "title": "[[False|Falsas]] [[Identities|Identidades]]",
+      "instructions": "[[Complete|Completa]] [[with|con]] '[[is not|no es]]' [[or|o]] '[[are not|no son]]'.",
+      "questions": [
+        {
+          "question": "[[I|Yo]] ____ [[from|de]] [[France|Francia]]. ([[I|Yo]] [[am|soy]] [[Spanish|español]])",
+          "correctAnswer": "am not",
+          "explanation": "[[With|Con]] '[[I|Yo]]', [[we|nosotros]] [[use|usamos]] '[[am not|no soy]]'."
+        },
+        {
+          "question": "[[They|Ellos]] ____ [[German|alemanes]]. ([[They|Ellos]] [[are|son]] [[Italian|italianos]])",
+          "correctAnswer": "are not",
+          "explanation": "[[With|Con]] '[[They|Ellos]]', [[we|nosotros]] [[use|usamos]] '[[are not|no son]]'."
+        }
+      ]
     },
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u2-e8",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Countries",
-    "difficulty": "easy",
-    "transcript": "[[Rome|Roma]] [[is|está]] [[in|en]] [[Italy|Italia]].",
+    "topic": "Verb To Be",
+    "difficulty": "hard",
+    "transcript": "[[Are|¿Eres]] [[you|tú]] [[a|un]] [[student|estudiante]]?\n[[No|No]], [[I|yo]] [[am|soy]] [[a|un]] [[teacher|profesor]].",
     "content": {
-      "title": "[[Geography|Geografía]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[country|país]].",
-      "options": ["[[Germany|Alemania]]", "[[Mexico|México]]", "[[Italy|Italia]]"],
-      "correctAnswer": 2,
-      "explanation": "[[Rome|Roma]] [[is|está]] [[in|en]] [[Italy|Italia]]."
+      "title": "[[Short|Corta]] [[Conversation|Conversación]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[role|rol]].",
+      "questions": [
+        {
+          "question": "[[The|La]] [[person|persona]] ____ [[a|un]] [[student|estudiante]].",
+          "options": ["[[is|es]]", "[[is not|no es]]", "[[am|soy]]"],
+          "correctAnswer": 1,
+          "explanation": "[[The|La]] [[person|persona]] [[says|dice]] '[[No|No]], [[I|yo]] [[am|soy]] [[a|un]] [[teacher|profesor]]', [[so|así que]] [[they|ellos]] [[are not|no son]] [[a|un]] [[student|estudiante]]."
+        }
+      ]
     },
-    "topicName": "Vocabulary"
+    "topicName": "Comprehension"
   },
   {
     "id": "a1-u2-e9",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Countries",
-    "difficulty": "easy",
-    "transcript": "[[Tokyo|Tokio]] [[is|está]] [[in|en]] [[Japan|Japón]].",
+    "topic": "Nationalities",
+    "difficulty": "hard",
+    "transcript": "[[Toyota|Toyota]] [[is|es]] [[a|una]] [[Japanese|japonesa]] [[company|compañía]]. [[It|Ella]] [[is|es]] [[not|no]] [[American|americana]].",
     "content": {
-      "title": "[[Geography|Geografía]]",
-      "instructions": "[[Where|Dónde]] [[is|está]] [[Tokyo|Tokio]]?",
-      "options": ["[[Japan|Japón]]", "[[Mexico|México]]", "[[England|Inglaterra]]"],
-      "correctAnswer": 0,
-      "explanation": "[[Tokyo|Tokio]] [[is|está]] [[en|in]] [[Japan|Japón]]."
+      "title": "[[Company|Compañía]] [[Origins|Orígenes]]",
+      "instructions": "[[Where|De dónde]] [[is|es]] [[the|la]] [[company|compañía]]?",
+      "questions": [
+        {
+          "question": "[[The|La]] [[company|compañía]] [[is|es]]...",
+          "options": ["[[American|Americana]]", "[[Japanese|Japonesa]]", "[[Mexican|Mexicana]]"],
+          "correctAnswer": 1,
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]] '[[It|Ella]] [[is|es]] [[a|una]] [[Japanese|japonesa]] [[company|compañía]]'."
+        }
+      ]
     },
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u2-e10",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Nationalities",
-    "difficulty": "easy",
-    "transcript": "[[New York|Nueva York]] [[is|está]] [[in|en]] [[the United States|Estados Unidos]]. [[It|Esto]] [[is|es]] [[American|americano]].",
+    "topic": "Verb To Be",
+    "difficulty": "hard",
     "content": {
-      "title": "[[Geography|Geografía]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[nationality|nacionalidad]] [[adjective|adjetivo]].",
-      "options": ["[[American|americano]]", "[[English|inglés]]", "[[Mexican|mexicano]]"],
-      "correctAnswer": 0,
-      "explanation": "[[New York|Nueva York]] [[is|está]] [[en|in]] [[the|los]] [[US|EEUU]]."
+      "title": "[[Personal|Personal]] [[Details|Detalles]]",
+      "instructions": "[[Fill|Rellena]] [[the|los]] [[blanks|huecos]].",
+      "questions": [
+        {
+          "question": "[[My|Mi]] [[name|nombre]] ____ [[Carlos|Carlos]].",
+          "correctAnswer": "is",
+          "explanation": "'[[My name|Mi nombre]]' [[is|es]] '[[it|eso]]', [[so|así que]] [[use|usa]] '[[is|es]]'."
+        },
+        {
+          "question": "[[I|Yo]] ____ [[from|de]] [[Mexico|México]].",
+          "correctAnswer": "am",
+          "explanation": "[[With|Con]] '[[I|Yo]]', [[use|usa]] '[[am|soy]]'."
+        }
+      ]
     },
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
+
   // ==========================================
-  // GRAMMAR: SUBJECT PRONOUNS (11-20)
+  // QUESTIONS & SHORT ANSWERS (11-20)
   // ==========================================
   {
     "id": "a1-u2-e11",
-    "type": "flashcard",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Subject Pronouns",
-    "difficulty": "easy",
-    "transcript": "[[I|Yo]]. [[You|Tú]]. [[He|Él]]. [[She|Ella]]. [[It|Eso (Cosa/Animal)]]. [[We|Nosotros]]. [[They|Ellos]].",
+    "topic": "Questions",
+    "difficulty": "hard",
+    "transcript": "[[Are|¿Son]] [[they|ellos]] [[English|ingleses]]?\n[[Yes|Sí]], [[they|ellos]] [[are|son]].",
     "content": {
-      "title": "[[Grammar|Gramática]]: [[Subject|Sujetos]] [[Pronouns|Pronombres]]",
-      "instructions": "[[Learn|Aprende]] [[the|los]] [[pronouns|pronombres]] [[in|en]] [[English|inglés]].",
-      "items": [
-        { "front": "[[I|Yo]]", "back": "I" },
-        { "front": "[[You|Tú/Usted]]", "back": "You" },
-        { "front": "[[He|Él]]", "back": "He" },
-        { "front": "[[She|Ella]]", "back": "She" },
-        { "front": "[[It|Eso]]", "back": "It" },
-        { "front": "[[We|Nosotros]]", "back": "We" },
-        { "front": "[[They|Ellos]]", "back": "They" }
+      "title": "[[Short|Corta]] [[Answer|Respuesta]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[short|corta]] [[answer|respuesta]].",
+      "questions": [
+        {
+          "question": "[[Are|¿Son]] [[Paul|Paul]] [[and|y]] [[Sarah|Sarah]] [[English|ingleses]]?",
+          "options": ["[[Yes|Sí]], [[he|él]] [[is|es]].", "[[Yes|Sí]], [[they|ellos]] [[are|son]].", "[[Yes|Sí]], [[we|nosotros]] [[are|somos]]."],
+          "correctAnswer": 1,
+          "explanation": "[[For|Para]] '[[Paul and Sarah|Paul y Sarah]]', [[we|nosotros]] [[use|usamos]] '[[they|ellos]]'."
+        }
       ]
     },
     "topicName": "Grammar"
@@ -200,31 +268,44 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "id": "a1-u2-e12",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Subject Pronouns",
-    "difficulty": "easy",
-    "transcript": "[[John|John]] [[is|es]] [[Spanish|español]]. [[He|Él]] [[is|es]] [[from|de]] [[Madrid|Madrid]].",
+    "topic": "Questions",
+    "difficulty": "hard",
+    "transcript": "[[Is|¿Es]] [[London|Londres]] [[in|en]] [[France|Francia]]?\n[[No|No]], [[it|eso]] [[isn't|no lo es]]. [[It|Eso]] [[is|es]] [[in|en]] [[England|Inglaterra]].",
     "content": {
-      "title": "[[Pronouns|Pronombres]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[pronoun|pronombre]] [[for|para]] '[[John|John]]'.",
-      "options": ["[[She|Ella]]", "[[He|Él]]", "[[It|Eso]]"],
-      "correctAnswer": 1,
-      "explanation": "[[John|John]] [[is|es]] [[a|un]] [[man|hombre]], [[so|así que]] [[we|nosotros]] [[use|usamos]] '[[He|Él]]'."
+      "title": "[[Negative|Negativa]] [[Short|Corta]] [[Answer|Respuesta]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[logic|lógica]].",
+      "questions": [
+        {
+          "question": "[[Is|¿Es]] [[London|Londres]] [[in|en]] [[France|Francia]]?",
+          "options": ["[[Yes|Sí]], [[it|eso]] [[is|es]].", "[[No|No]], [[it|eso]] [[isn't|no lo es]].", "[[No|No]], [[it|eso]] [[am|soy]] [[not|no]]."],
+          "correctAnswer": 1,
+          "explanation": "[[London|Londres]] [[is|es]] [[an|un]] [[object|objeto/lugar]], [[so|así que]] [[we|nosotros]] [[use|usamos]] '[[it|eso]]'."
+        }
+      ]
     },
     "topicName": "Grammar"
   },
   {
     "id": "a1-u2-e13",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Subject Pronouns",
-    "difficulty": "easy",
-    "transcript": "[[Maria|Maria]] [[is|es]] [[Mexican|mexicana]]. [[She|Ella]] [[is|es]] [[from|de]] [[Cancun|Cancún]].",
+    "topic": "Questions",
+    "difficulty": "hard",
     "content": {
-      "title": "[[Pronouns|Pronombres]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[pronoun|pronombre]] [[for|para]] '[[Maria|Maria]]'.",
-      "options": ["[[He|Él]]", "[[She|Ella]]", "[[We|Nosotros]]"],
-      "correctAnswer": 1,
-      "explanation": "[[Maria|Maria]] [[is|es]] [[a|una]] [[woman|mujer]], [[so|así que]] [[we|nosotros]] [[use|usamos]] '[[She|Ella]]'."
+      "title": "[[Forming|Formando]] [[Questions|Preguntas]]",
+      "instructions": "[[Complete|Completa]] [[the|la]] [[question|pregunta]].",
+      "questions": [
+        {
+          "question": "____ [[you|tú]] [[from|de]] [[Japan|Japón]]?",
+          "correctAnswer": "Are",
+          "explanation": "[[For|Para]] [[questions|preguntas]] [[with|con]] '[[you|tú]]', [[start|empieza]] [[with|con]] '[[Are|Eres]]'."
+        },
+        {
+          "question": "____ [[she|ella]] [[Mexican|mexicana]]?",
+          "correctAnswer": "Is",
+          "explanation": "[[For|Para]] [[questions|preguntas]] [[with|con]] '[[she|ella]]', [[start|empieza]] [[with|con]] '[[Is|Es]]'."
+        }
+      ]
     },
     "topicName": "Grammar"
   },
@@ -232,47 +313,66 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "id": "a1-u2-e14",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Subject Pronouns",
-    "difficulty": "easy",
-    "transcript": "[[The|El]] [[car|coche]] [[is|es]] [[blue|azul]]. [[It|Eso]] [[is|es]] [[new|nuevo]].",
+    "topic": "Verb To Be",
+    "difficulty": "hard",
+    "transcript": "[[Am|¿Soy]] [[I|yo]] [[late|tarde]]?\n[[No|No]], [[you|tú]] [[are|estás]] [[on|a]] [[time|tiempo]].",
     "content": {
-      "title": "[[Pronouns|Pronombres]]",
-      "instructions": "[[Identify|Identifica]] [[the|el]] [[pronoun|pronombre]] [[for|para]] '[[the car|el coche]]'.",
-      "options": ["[[He|Él]]", "[[She|Ella]]", "[[It|Eso]]"],
-      "correctAnswer": 2,
-      "explanation": "[[We|Nosotros]] [[use|usamos]] '[[It|Eso]]' [[for|para]] [[objects|objetos]]."
+      "title": "[[Late|Tarde]] [[or|o]] [[Early|Pronto]]",
+      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "questions": [
+        {
+          "question": "[[Is|¿Está]] [[the|la]] [[person|persona]] [[late|tarde]]?",
+          "options": ["[[Yes|Sí]], [[they|ellos]] [[are|están]].", "[[No|No]], [[they|ellos]] [[are|están]] [[on|a]] [[time|tiempo]].", "[[I|Yo]] [[don't|no]] [[know|sé]]."],
+          "correctAnswer": 1,
+          "explanation": "'[[On time|A tiempo]]' [[means|significa]] [[not|no]] [[late|tarde]]."
+        }
+      ]
     },
-    "topicName": "Grammar"
+    "topicName": "Comprehension"
   },
   {
     "id": "a1-u2-e15",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Subject Pronouns",
-    "difficulty": "easy",
-    "transcript": "[[Tom|Tom]] [[and|y]] [[I|yo]] [[are|somos]] [[friends|amigos]]. [[We|Nosotros]] [[are|somos]] [[from|de]] [[England|Inglaterra]].",
+    "topic": "Nationalities",
+    "difficulty": "hard",
+    "transcript": "[[Is|¿Es]] [[the|la]] [[Ferrari|Ferrari]] [[German|alemana]]?\n[[No|No]], [[it|ella]] [[is|es]] [[Italian|italiana]].",
     "content": {
-      "title": "[[Pronouns|Pronombres]]",
-      "instructions": "[[What|Cuál]] [[is|es]] [[the|el]] [[pronoun|pronombre]] [[for|para]] '[[Tom and I|Tom y yo]]'?",
-      "options": ["[[They|Ellos]]", "[[We|Nosotros]]", "[[You|Tú]]"],
-      "correctAnswer": 1,
-      "explanation": "'[[Tom and I|Tom y yo]]' [[means|significa]] '[[We|Nosotros]]'."
+      "title": "[[Car|Coche]] [[Brands|Marcas]]",
+      "instructions": "[[Identify|Identifica]] [[the|el]] [[origin|origen]].",
+      "questions": [
+        {
+          "question": "[[Where|De dónde]] [[is|es]] [[Ferrari|Ferrari]]?",
+          "options": ["[[Germany|Alemania]]", "[[Italy|Italia]]", "[[England|Inglaterra]]"],
+          "correctAnswer": 1,
+          "explanation": "[[Ferrari|Ferrari]] [[is|es]] [[Italian|italiana]]."
+        }
+      ]
     },
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
+
+  // ==========================================
+  // ADJECTIVES VS NOUNS (21-30)
+  // ==========================================
   {
     "id": "a1-u2-e16",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Subject Pronouns",
-    "difficulty": "easy",
-    "transcript": "[[Paul|Paul]] [[and|y]] [[Sarah|Sarah]] [[are|están]] [[in|en]] [[France|Francia]]. [[They|Ellos]] [[are|están]] [[on|de]] [[vacation|vacaciones]].",
+    "topic": "Nationalities",
+    "difficulty": "hard",
+    "transcript": "[[He|Él]] [[is|es]] [[Mexican|mexicano]]. [[He|Él]] [[is|es]] [[from|de]] [[Mexico|México]].",
     "content": {
-      "title": "[[Pronouns|Pronombres]]",
-      "instructions": "[[Choose|Elige]] [[for|para]] '[[Paul and Sarah|Paul y Sarah]]'.",
-      "options": ["[[We|Nosotros]]", "[[They|Ellos]]", "[[You|Vosotros]]"],
-      "correctAnswer": 1,
-      "explanation": "[[Plural|Plural]] [[others|otros]] [[is|es]] '[[They|Ellos]]'."
+      "title": "[[Adjective|Adjetivo]] [[vs|vs]] [[Noun|Nombre]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "questions": [
+        {
+          "question": "[[I|Yo]] [[am|soy]] ____.",
+          "options": ["[[Spain|España]]", "[[Spanish|Español]]", "[[The Spain|La España]]"],
+          "correctAnswer": 1,
+          "explanation": "[[After|Después]] [[of|de]] '[[am|soy]]', [[we|nosotros]] [[use|usamos]] [[the|la]] [[nationality|nacionalidad]] (adjetivo)."
+        }
+      ]
     },
     "topicName": "Grammar"
   },
@@ -280,31 +380,44 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "id": "a1-u2-e17",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Subject Pronouns",
-    "difficulty": "easy",
-    "transcript": "[[The|Los]] [[books|libros]] [[are|están]] [[here|aquí]]. [[They|Ellos]] [[are|son]] [[old|viejos]].",
+    "topic": "Countries",
+    "difficulty": "hard",
+    "transcript": "[[She|Ella]] [[is|es]] [[from|de]] [[England|Inglaterra]]. [[She|Ella]] [[is|es]] [[English|inglesa]].",
     "content": {
-      "title": "[[Pronouns|Pronombres]]",
-      "instructions": "[[Pronoun|Pronombre]] [[for|para]] [[plural|plural]] [[objects|objetos]]?",
-      "options": ["[[It|Eso]]", "[[They|Ellos]]", "[[We|Nosotros]]"],
-      "correctAnswer": 1,
-      "explanation": "[[They|Ellos]] [[is|es]] [[the|el]] [[plural|plural]] [[of|de]] [[It|Eso]]."
+      "title": "[[Origins|Orígenes]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "questions": [
+        {
+          "question": "[[She|Ella]] [[is|es]] [[from|de]] ____.",
+          "options": ["[[English|Inglés]]", "[[England|Inglaterra]]", "[[The English|El inglés]]"],
+          "correctAnswer": 1,
+          "explanation": "[[After|Después]] [[of|de]] '[[from|de]]', [[we|nosotros]] [[use|usamos]] [[the|el]] [[country|país]] (nombre)."
+        }
+      ]
     },
     "topicName": "Grammar"
   },
   {
     "id": "a1-u2-e18",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Subject Pronouns",
-    "difficulty": "easy",
-    "transcript": "[[Are|¿Están]] [[you|tú]] [[and|y]] [[your|tu]] [[sister|hermana]] [[English|inglesas]]?",
+    "topic": "Nationalities",
+    "difficulty": "hard",
     "content": {
-      "title": "[[Pronouns|Pronombres]]",
-      "instructions": "[[What|Cuál]] [[is|es]] [[the|el]] [[plural|plural]] [[of|de]] '[[You|Tú]]'?",
-      "options": ["[[We|Nosotros]]", "[[They|Ellos]]", "[[You|Vosotros]]"],
-      "correctAnswer": 2,
-      "explanation": "'[[You|Tú]]' [[is|es]] [[both|tanto]] [[singular|singular]] [[and|como]] [[plural|plural]]."
+      "title": "[[Grammar|Gramática]] [[Check|Control]]",
+      "instructions": "[[Fill|Rellena]] [[with|con]] [[the|el]] [[country|país]] [[or|o]] [[the|la]] [[nationality|nacionalidad]].",
+      "questions": [
+        {
+          "question": "[[I|Yo]] [[am|soy]] [[from|de]] ____. ([[Spain|España]])",
+          "correctAnswer": "Spain",
+          "explanation": "[[Use|Usa]] [[the|el]] [[country|país]] [[after|después]] [[of|de]] '[[from|de]]'."
+        },
+        {
+          "question": "[[I|Yo]] [[am|soy]] ____. ([[Spanish|Español]])",
+          "correctAnswer": "Spanish",
+          "explanation": "[[Use|Usa]] [[the|la]] [[nationality|nacionalidad]] [[without|sin]] '[[from|de]]'."
+        }
+      ]
     },
     "topicName": "Grammar"
   },
@@ -312,15 +425,20 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "id": "a1-u2-e19",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Subject Pronouns",
-    "difficulty": "easy",
-    "transcript": "[[The|El]] [[dog|perro]] [[is|es]] [[small|pequeño]]. [[It|Eso]] [[is|es]] [[black|negro]].",
+    "topic": "Verb To Be",
+    "difficulty": "hard",
+    "transcript": "[[My|Mi]] [[mobile|móvil]] [[is|es]] [[from|de]] [[Japan|Japón]]. [[It|Él]] [[is|es]] [[Japanese|japonés]].",
     "content": {
-      "title": "[[Pronouns|Pronombres]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[pronoun|pronombre]] [[for|para]] [[an|un]] [[animal|animal]].",
-      "options": ["[[He|Él]]", "[[It|Eso]]", "[[We|Nosotros]]"],
-      "correctAnswer": 1,
-      "explanation": "[[Animals|Animales]] [[usually|normalmente]] [[take|llevan]] '[[It|Eso]]'."
+      "title": "[[Object|Objeto]] [[Origin|Origen]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[verb|verbo]] [[and|y]] [[origin|origen]].",
+      "questions": [
+        {
+          "question": "[[The|El]] [[mobile|móvil]] ____ [[Japanese|japonés]].",
+          "options": ["[[are|son]]", "[[is|es]]", "[[am|soy]]"],
+          "correctAnswer": 1,
+          "explanation": "[[Mobile|Móvil]] [[is|es]] [[an|un]] [[object|objeto]] (it), [[so|así que]] [[it|él]] [[is|es]] '[[is|es]]'."
+        }
+      ]
     },
     "topicName": "Grammar"
   },
@@ -328,56 +446,54 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "id": "a1-u2-e20",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Subject Pronouns",
-    "difficulty": "easy",
-    "transcript": "[[I|Yo]] [[am|soy]] [[from|de]] [[Italy|Italia]].",
+    "topic": "Nationalities",
+    "difficulty": "hard",
+    "transcript": "[[The|La]] [[baguette|baguette]] [[is|es]] [[French|francesa]].",
     "content": {
-      "title": "[[Pronouns|Pronombres]]",
-      "instructions": "[[First|Primer]] [[person|persona]] [[singular|singular]]?",
-      "options": ["[[I|Yo]]", "[[Me|Mí]]", "[[My|Mi]]"],
-      "correctAnswer": 0,
-      "explanation": "'[[I|Yo]]' [[is|es]] [[the|el]] [[subject|sujeto]] [[pronoun|pronombre]]."
+      "title": "[[Food|Comida]] [[Origins|Orígenes]]",
+      "instructions": "[[Select|Selecciona]] [[the|el]] [[country|país]].",
+      "questions": [
+        {
+          "question": "[[Where|De dónde]] [[is|es]] [[the|la]] [[baguette|baguette]]?",
+          "options": ["[[Italy|Italia]]", "[[France|Francia]]", "[[England|Inglaterra]]"],
+          "correctAnswer": 1,
+          "explanation": "[[The|La]] [[baguette|baguette]] [[is|es]] [[French|francesa]], [[from|de]] [[France|Francia]]."
+        }
+      ]
     },
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
+
   // ==========================================
-  // GRAMMAR: VERB TO BE - AFFIRMATIVE (21-30)
+  // SENTENCE SCRAMBLE (31-40)
   // ==========================================
   {
     "id": "a1-u2-e21",
-    "type": "flashcard",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "To Be: Affirmative",
-    "difficulty": "easy",
-    "transcript": "[[I am|Yo soy/estoy]]. [[You are|Tú eres/estás]]. [[He is|Él es/está]]. [[She is|Ella es/está]]. [[It is|Eso es/está]]. [[We are|Nosotros somos/estamos]]. [[They are|Ellos son/están]].",
+    "topic": "Verb To Be",
+    "difficulty": "hard",
     "content": {
-      "title": "[[Grammar|Gramática]]: [[Verb|Verbo]] [[To|a]] [[Be|Ser/Estar]]",
-      "instructions": "[[Learn|Aprende]] [[the|la]] [[affirmative|afirmativa]] [[form|forma]].",
-      "items": [
-        { "front": "[[I am|Yo soy/estoy]]", "back": "I am" },
-        { "front": "[[You are|Tú eres/estás]]", "back": "You are" },
-        { "front": "[[He is|Él es/está]]", "back": "He is" },
-        { "front": "[[She is|Ella es/está]]", "back": "She is" },
-        { "front": "[[It is|Eso es/está]]", "back": "It is" },
-        { "front": "[[We are|Nosotros somos/estamos]]", "back": "We are" },
-        { "front": "[[They are|Ellos son/están]]", "back": "They are" }
-      ]
+      "title": "[[Build|Construye]] [[the|la]] [[Sentence|Frase]]",
+      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]] [[correctly|correctamente]].",
+      "words": ["[[is|es]]", "[[She|Ella]]", "[[not|no]]", "[[from|de]]", "[[Mexico|México]]", "."],
+      "correctOrder": ["She", "is", "not", "from", "Mexico", "."],
+      "explanation": "[[Subject|Sujeto]] (She) + [[Verb|Verbo]] (is) + [[Negative|Negativo]] (not) + [[Origin|Origen]] (from Mexico)."
     },
     "topicName": "Grammar"
   },
   {
     "id": "a1-u2-e22",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "To Be: Affirmative",
-    "difficulty": "easy",
-    "transcript": "[[I|Yo]] [[am|soy]] [[American|americano]].",
+    "topic": "Questions",
+    "difficulty": "hard",
     "content": {
-      "title": "[[Verb|Verbo]] [[To|a]] [[Be|Ser]]",
-      "instructions": "[[Complete|Completa]] [[with|con]] [[the|el]] [[correct|correcto]] [[verb|verbo]].",
-      "options": ["[[is|es]]", "[[are|eres]]", "[[am|soy]]"],
-      "correctAnswer": 2,
-      "explanation": "[[With|Con]] '[[I|Yo]]' [[always|siempre]] [[use|usamos]] '[[am|soy]]'."
+      "title": "[[Build|Construye]] [[the|la]] [[Question|Pregunta]]",
+      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]] [[for|para]] [[a|una]] [[question|pregunta]].",
+      "words": ["[[you|tú]]", "[[from|de]]", "[[Are|Eres]]", "[[Italy|Italia]]", "?"],
+      "correctOrder": ["Are", "you", "from", "Italy", "?"],
+      "explanation": "[[In|En]] [[questions|preguntas]], [[the|el]] [[verb|verbo]] (Are) [[comes|viene]] [[before|antes]] [[the|del]] [[subject|sujeto]] (you)."
     },
     "topicName": "Grammar"
   },
@@ -385,31 +501,44 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "id": "a1-u2-e23",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "To Be: Affirmative",
-    "difficulty": "easy",
-    "transcript": "[[You|Tú]] [[are|eres]] [[my|mi]] [[teacher|profesor]].",
+    "topic": "Verb To Be",
+    "difficulty": "hard",
+    "transcript": "[[We|Nosotros]] [[are|somos]] [[from|de]] [[Germany|Alemania]], [[but|pero]] [[they|ellos]] [[are|son]] [[from|de]] [[France|Francia]].",
     "content": {
-      "title": "[[Verb|Verbo]] [[To|a]] [[Be|Ser]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[form|forma]] [[for|para]] '[[You|Tú]]'.",
-      "options": ["[[are|eres]]", "[[is|es]]", "[[am|soy]]"],
-      "correctAnswer": 0,
-      "explanation": "[[With|Con]] '[[You|Tú]]' [[always|siempre]] [[use|usamos]] '[[are|eres]]'."
+      "title": "[[Contrast|Contraste]]",
+      "instructions": "[[Identify|Identifica]] [[the|la]] [[nationality|nacionalidad]] [[of|de]] '[[they|ellos]]'.",
+      "questions": [
+        {
+          "question": "[[They|Ellos]] [[are|son]]...",
+          "options": ["[[German|Alemanes]]", "[[French|Franceses]]", "[[American|Americanos]]"],
+          "correctAnswer": 1,
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]] '[[they|ellos]] [[are|son]] [[from|de]] [[France|Francia]]'."
+        }
+      ]
     },
-    "topicName": "Grammar"
+    "topicName": "Comprehension"
   },
   {
     "id": "a1-u2-e24",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "To Be: Affirmative",
-    "difficulty": "easy",
-    "transcript": "[[He|Él]] [[is|está]] [[in|en]] [[London|Londres]].",
+    "topic": "Verb To Be",
+    "difficulty": "hard",
     "content": {
-      "title": "[[Verb|Verbo]] [[To|a]] [[Be|Estar]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|oración]].",
-      "options": ["[[are|está]]", "[[is|está]]", "[[am|estoy]]"],
-      "correctAnswer": 1,
-      "explanation": "[[With|Con]] '[[He|Él]]' [[use|usamos]] '[[is|está]]'."
+      "title": "[[Short|Cortos]] [[Dialogues|Diálogos]]",
+      "instructions": "[[Complete|Completa]] [[the|el]] [[dialogue|diálogo]].",
+      "questions": [
+        {
+          "question": "A: [[Is|¿Es]] [[he|él]] [[from|de]] [[Japan|Japón]]? B: [[No|No]], [[he|él]] ____ [[not|no]].",
+          "correctAnswer": "is",
+          "explanation": "[[Short|Corta]] [[negative|negativa]] [[answer|respuesta]] [[uses|usa]] '[[is not|no es]]' (isn't)."
+        },
+        {
+          "question": "A: ____ [[they|ellos]] [[American|americanos]]? B: [[Yes|Sí]], [[they|ellos]] [[are|lo son]].",
+          "correctAnswer": "Are",
+          "explanation": "[[Start|Empieza]] [[the|la]] [[question|pregunta]] [[with|con]] '[[Are|Son]]' [[for|para]] '[[they|ellos]]'."
+        }
+      ]
     },
     "topicName": "Grammar"
   },
@@ -417,155 +546,196 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "id": "a1-u2-e25",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "To Be: Affirmative",
-    "difficulty": "easy",
-    "transcript": "[[We|Nosotros]] [[are|somos]] [[students|estudiantes]].",
+    "topic": "Nationalities",
+    "difficulty": "hard",
+    "transcript": "[[I|Yo]] [[am|soy]] [[English|inglés]]. [[I|Yo]] [[speak|hablo]] [[English|inglés]].",
     "content": {
-      "title": "[[Verb|Verbo]] [[To|a]] [[Be|Ser]]",
-      "instructions": "[[Select|Selecciona]] [[the|la]] [[form|forma]] [[plural|plural]].",
-      "options": ["[[is|somos]]", "[[are|somos]]", "[[am|soy]]"],
-      "correctAnswer": 1,
-      "explanation": "[[With|Con]] '[[We|Nosotros]]' [[use|usamos]] '[[are|somos]]'."
+      "title": "[[Language|Idioma]] [[and|y]] [[Nationality|Nacionalidad]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[word|palabra]] [[correct|correcta]].",
+      "questions": [
+        {
+          "question": "[[The|La]] [[nationality|nacionalidad]] [[of|de]] [[England|Inglaterra]] [[is|es]]...",
+          "options": ["[[English|Inglés]]", "[[England|Inglaterra]]", "[[London|Londres]]"],
+          "correctAnswer": 0,
+          "explanation": "[[English|Inglés]] [[is|es]] [[both|tanto]] [[the|el]] [[language|idioma]] [[as|como]] [[the|la]] [[nationality|nacionalidad]]."
+        }
+      ]
     },
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
+
+  // ==========================================
+  // READING COMPREHENSION (41-50)
+  // ==========================================
   {
     "id": "a1-u2-e26",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "To Be: Affirmative",
-    "difficulty": "medium",
-    "transcript": "[[They|Ellos]] [[are|son]] [[Japanese|japoneses]].",
+    "topic": "Reading",
+    "difficulty": "hard",
+    "transcript": "[[Meet|Conoce]] [[Ana|Ana]]. [[Ana|Ana]] [[is|es]] [[from|de]] [[Spain|España]]. [[She|Ella]] [[is|es]] [[20|20]] [[years|años]] [[old|de edad]]. [[She|Ella]] [[is|es]] [[a|una]] [[student|estudiante]] [[in|en]] [[Madrid|Madrid]]. [[Her|Su]] [[friend|amigo]] [[is|es]] [[David|David]]. [[David|David]] [[is|es]] [[from|de]] [[England|Inglaterra]].",
     "content": {
-      "title": "[[Build|Construye]] [[the|la]] [[Sentence|Oración]]",
-      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]].",
-      "correctSentence": "[[They|Ellos/Ellas]] [[are|son/están]] [[Japanese|japonés/japoneses]].",
-      "words": ["[[Japanese|japonés/japoneses]].", "[[are|son/están]]", "[[They|Ellos/Ellas]]"],
-      "explanation": "[[Subject|Sujeto]] + [[Verb|Verbo]] + [[Complement|Complemento]]."
+      "title": "[[Ana's|Ana]] [[Profile|Perfil]]",
+      "instructions": "[[Read|Lee]] [[and|y]] [[answer|responde]].",
+      "questions": [
+        {
+          "question": "[[Is|¿Es]] [[David|David]] [[Spanish|español]]?",
+          "options": ["[[Yes|Sí]], [[he|él]] [[is|es]].", "[[No|No]], [[he|él]] [[is|es]] [[English|inglés]].", "[[We|Nosotros]] [[don't|no]] [[know|sabemos]]."],
+          "correctAnswer": 1,
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]] '[[David|David]] [[is|es]] [[from|de]] [[England|Inglaterra]]'."
+        }
+      ]
     },
-    "topicName": "Grammar"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u2-e27",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "To Be: Affirmative",
-    "difficulty": "medium",
-    "transcript": "[[She|Ella]] [[is|es]] [[from|de]] [[France|Francia]].",
+    "topic": "Reading",
+    "difficulty": "hard",
+    "transcript": "[[Ana|Ana]] [[and|y]] [[David|David]] [[are|están]] [[in|en]] [[Madrid|Madrid]]. [[They|Ellos]] [[are|son]] [[friends|amigos]]. [[They|Ellos]] [[are|son]] [[not|no]] [[sisters|hermanos]].",
     "content": {
-      "title": "[[Build|Construye]] [[the|la]] [[Sentence|Oración]]",
-      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]].",
-      "correctSentence": "[[She|Ella]] [[is|es/está]] [[from|de]] [[France|Francia]].",
-      "words": ["[[France|Francia]].", "[[from|de]]", "[[is|es/está]]", "[[She|Ella]]"],
-      "explanation": "[[Structure|Estructura]]: [[Subject|Sujeto]] + '[[is|es]]' + '[[from|de]]' + [[Country|País]]."
+      "title": "[[Ana's|Ana]] [[Profile|Perfil]]",
+      "instructions": "[[Is|¿Es]] [[the|la]] [[sentence|frase]] [[True|Verdadera]] [[or|o]] [[False|Falsa]]?",
+      "questions": [
+        {
+          "question": "[[Ana|Ana]] [[and|y]] [[David|David]] [[are|son]] [[Spanish|españoles]].",
+          "options": ["[[True|Verdadera]]", "[[False|Falsa]]"],
+          "correctAnswer": 1,
+          "explanation": "[[Only|Solo]] [[Ana|Ana]] [[is|es]] [[Spanish|española]]. [[David|David]] [[is|es]] [[English|inglés]]."
+        }
+      ]
     },
-    "topicName": "Grammar"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u2-e28",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "To Be: Affirmative",
-    "difficulty": "medium",
-    "transcript": "[[It|Eso]] [[is|es]] [[a|un]] [[big|grande]] [[country|país]].",
+    "topic": "Reading",
+    "difficulty": "hard",
+    "transcript": "[[Madrid|Madrid]] [[is|es]] [[a|una]] [[city|ciudad]] [[in|en]] [[Spain|España]]. [[It|Ella]] [[is|es]] [[big|grande]].",
     "content": {
-      "title": "[[Build|Construye]] [[the|la]] [[Sentence|Oración]]",
-      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]].",
-      "correctSentence": "[[It|Esto/Eso]] [[is|es/está]] [[a|un/una]] [[big|grande]] [[country|país]].",
-      "words": ["[[country|país]].", "[[big|grande]]", "[[a|un/una]]", "[[is|es/está]]", "[[It|Esto/Eso]]"],
-      "explanation": "[[Adjectives|Adjetivos]] [[go|van]] [[before|antes de]] [[nouns|sustantivos]]."
+      "title": "[[Ana's|Ana]] [[Profile|Perfil]]",
+      "instructions": "[[What|Qué]] [[is|es]] '[[it|ella]]'?",
+      "questions": [
+        {
+          "question": "[[In|En]] [[the|la]] [[sentence|frase]] '[[It|Ella]] [[is|es]] [[big|grande]]', '[[It|Ella]]' [[is|es]]...",
+          "options": ["[[Ana|Ana]]", "[[Madrid|Madrid]]", "[[Spain|España]]"],
+          "correctAnswer": 1,
+          "explanation": "'[[It|Eso/Ella]]' [[replaces|reemplaza]] '[[Madrid|Madrid]]' [[in|en]] [[this|este]] [[context|contexto]]."
+        }
+      ]
     },
-    "topicName": "Grammar"
+    "topicName": "Reading"
   },
+
+  // ==========================================
+  // REVIEW MIX (51-60)
+  // ==========================================
   {
     "id": "a1-u2-e29",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "To Be: Affirmative",
-    "difficulty": "medium",
-    "transcript": "[[We|Nosotros]] [[are|estamos]] [[in|en]] [[Mexico|México]].",
+    "topic": "Grammar Mix",
+    "difficulty": "hard",
+    "transcript": "[[Where|¿De dónde]] [[are|son]] [[you|tú]] [[from|de]]?\n[[I|Yo]] ____ [[from|de]] [[France|Francia]].",
     "content": {
-      "title": "[[Build|Construye]] [[the|la]] [[Sentence|Oración]]",
-      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]].",
-      "correctSentence": "[[We|Nosotros/as]] [[are|somos/estamos]] [[in|en]] [[Mexico|México]].",
-      "words": ["[[Mexico|México]].", "[[in|en]]", "[[are|somos/estamos]]", "[[We|Nosotros/as]]"],
-      "explanation": "[[Location|Ubicación]] [[with|con]] '[[are|estamos]] [[in|en]]'."
+      "title": "[[Dialogue|Diálogo]] [[Review|Repaso]]",
+      "instructions": "[[Complete|Completa]] [[the|el]] [[verb|verbo]].",
+      "questions": [
+        {
+          "question": "[[Select|Selecciona]] [[the|el]] [[verb|verbo]] [[correct|correcto]].",
+          "options": ["[[is|es]]", "[[am|soy]]", "[[are|eres]]"],
+          "correctAnswer": 1,
+          "explanation": "[[I|Yo]] [[always|siempre]] [[takes|lleva]] '[[am|soy]]'."
+        }
+      ]
     },
     "topicName": "Grammar"
   },
   {
     "id": "a1-u2-e30",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "To Be: Affirmative",
-    "difficulty": "medium",
-    "transcript": "[[You|Tú]] [[are|estás]] [[my|mi]] [[friend|amigo]].",
+    "topic": "Vocabulary Mix",
+    "difficulty": "hard",
+    "transcript": "[[The|La]] [[Eiffel|Eiffel]] [[Tower|Torre]] [[is|está]] [[in|en]] [[Paris|París]].",
     "content": {
-      "title": "[[Build|Construye]] [[the|la]] [[Sentence|Oración]]",
-      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]].",
-      "correctSentence": "[[You|Tú/Usted]] [[are|eres/estás]] [[my|mi]] [[friend|amigo]].",
-      "words": ["[[friend|amigo]].", "[[my|mi]]", "[[are|eres/estás]]", "[[You|Tú/Usted]]"],
-      "explanation": "[[Simple|Simple]] [[affirmative|afirmativa]]."
-    },
-    "topicName": "Grammar"
-  },
-  // ==========================================
-  // VOCABULARY: NUMBERS 11-20 (31-40)
-  // ==========================================
-  {
-    "id": "a1-u2-e31",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Numbers 11-20",
-    "difficulty": "easy",
-    "transcript": "[[Eleven|Once]]. [[Twelve|Doce]]. [[Thirteen|Trece]]. [[Fourteen|Catorce]]. [[Fifteen|Quince]]. [[Sixteen|Dieciséis]]. [[Seventeen|Diecisiete]]. [[Eighteen|Dieciocho]]. [[Nineteen|Diecinueve]]. [[Twenty|Veinte]].",
-    "content": {
-      "title": "[[Vocabulary|Vocabulario]]: [[Numbers|Números]] 11-20",
-      "instructions": "[[Learn|Aprende]] [[the|los]] [[numbers|números]] [[from|del]] 11 [[to|al]] 20.",
-      "items": [
-        { "front": "11", "back": "[[Eleven|Once]]" },
-        { "front": "12", "back": "[[Twelve|Doce]]" },
-        { "front": "13", "back": "[[Thirteen|Trece]]" },
-        { "front": "14", "back": "[[Fourteen|Catorce]]" },
-        { "front": "15", "back": "[[Fifteen|Quince]]" },
-        { "front": "16", "back": "[[Sixteen|Dieciséis]]" },
-        { "front": "17", "back": "[[Seventeen|Diecisiete]]" },
-        { "front": "18", "back": "[[Eighteen|Dieciocho]]" },
-        { "front": "19", "back": "[[Nineteen|Diecinueve]]" },
-        { "front": "20", "back": "[[Twenty|Veinte]]" }
+      "title": "[[Landmarks|Lugares]] [[Famous|Famosos]]",
+      "instructions": "[[Identify|Identifica]] [[the|la]] [[nationality|nacionalidad]].",
+      "questions": [
+        {
+          "question": "[[The|La]] [[Eiffel|Eiffel]] [[Tower|Torre]] [[is|es]]...",
+          "options": ["[[Italian|Italiana]]", "[[French|Francesa]]", "[[German|Alemana]]"],
+          "correctAnswer": 1,
+          "explanation": "[[Paris|París]] [[is|está]] [[in|en]] [[France|Francia]], [[so|así que]] [[the|la]] [[tower|torre]] [[is|es]] [[French|francesa]]."
+        }
       ]
     },
     "topicName": "Vocabulary"
   },
   {
+    "id": "a1-u2-e31",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Subject Pronouns",
+    "difficulty": "hard",
+    "transcript": "[[The|El]] [[dog|perro]] [[and|y]] [[the|el]] [[cat|gato]] [[are|están]] [[happy|felices]].",
+    "content": {
+      "title": "[[Pronouns|Pronombres]] [[Plural|Plural]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[pronoun|pronombre]].",
+      "questions": [
+        {
+          "question": "____ [[are|están]] [[happy|felices]].",
+          "options": ["[[It|Eso]]", "[[They|Ellos]]", "[[We|Nosotros]]"],
+          "correctAnswer": 1,
+          "explanation": "[[Two|Dos]] [[animals|animales]] [[are|son]] '[[They|Ellos]]' (plural)."
+        }
+      ]
+    },
+    "topicName": "Grammar"
+  },
+  {
     "id": "a1-u2-e32",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Numbers 11-20",
-    "difficulty": "easy",
-    "transcript": "[[Ten|Diez]] [[plus|más]] [[five|cinco]] [[is|es]] [[fifteen|quince]].",
+    "topic": "Verb To Be",
+    "difficulty": "hard",
+    "transcript": "[[Are|¿Están]] [[you|vosotros]] [[ready|listos]]?\n[[Yes|Sí]], [[we|nosotros]] [[are|estamos]].",
     "content": {
-      "title": "[[Math|Mates]]",
-      "instructions": "[[Solve|Resuelve]] [[the|la]] [[sum|suma]].",
-      "options": ["[[Thirteen|trece]]", "[[Fifteen|quince]]", "[[Sixteen|dieciséis]]"],
-      "correctAnswer": 1,
-      "explanation": "10 + 5 = 15."
+      "title": "[[Short|Cortas]] [[Answers|Respuestas]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[response|respuesta]] [[correct|correcta]].",
+      "questions": [
+        {
+          "question": "[[Are|¿Están]] [[you|vosotros]] [[ready|listos]]?",
+          "options": ["[[Yes|Sí]], [[I|yo]] [[am|estoy]].", "[[Yes|Sí]], [[we|nosotros]] [[are|estamos]].", "[[Yes|Sí]], [[they|ellos]] [[are|están]]."],
+          "correctAnswer": 1,
+          "explanation": "[[When|Cuando]] [[someone|alguien]] [[asks|pregunta]] '[[you|vosotros]]', [[you|tú]] [[answer|respondes]] '[[we|nosotros]]'."
+        }
+      ]
     },
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u2-e33",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Numbers 11-20",
-    "difficulty": "easy",
-    "transcript": "[[Seven|Siete]] [[plus|más]] [[four|cuatro]] [[is|es]] [[eleven|once]].",
+    "topic": "Nationalities",
+    "difficulty": "hard",
+    "transcript": "[[He|Él]] [[is|es]] [[from|de]] [[Berlin|Berlín]].",
     "content": {
-      "title": "[[Math|Mates]]",
-      "instructions": "[[Solve|Resuelve]] [[the|la]] [[sum|suma]].",
-      "options": ["[[Eleven|once]]", "[[Twelve|doce]]", "[[Ten|diez]]"],
-      "correctAnswer": 0,
-      "explanation": "7 + 4 = 11."
+      "title": "[[City|Ciudad]] [[Origins|Orígenes]]",
+      "instructions": "[[What|Cuál]] [[is|es]] [[his|su]] [[nationality|nacionalidad]]?",
+      "questions": [
+        {
+          "question": "[[He|Él]] [[is|es]]...",
+          "options": ["[[French|Francés]]", "[[German|Alemán]]", "[[Italian|Italiano]]"],
+          "correctAnswer": 1,
+          "explanation": "[[Berlin|Berlín]] [[is|está]] [[in|en]] [[Germany|Alemania]]."
+        }
+      ]
     },
     "topicName": "Vocabulary"
   },
@@ -573,63 +743,86 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "id": "a1-u2-e34",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Numbers 11-20",
-    "difficulty": "easy",
-    "transcript": "[[Twenty|Veinte]] [[minus|menos]] [[two|dos]] [[is|es]] [[eighteen|dieciocho]].",
+    "topic": "Verb To Be",
+    "difficulty": "hard",
+    "transcript": "[[I|Yo]] [[am|soy]] [[not|no]] [[Mexican|mexicano]]. [[I|Yo]] ____ [[Spanish|español]].",
     "content": {
-      "title": "[[Math|Mates]]",
-      "instructions": "[[Solve|Resuelve]] [[the|la]] [[subtraction|resta]].",
-      "options": ["[[Seventeen|diecisiete]]", "[[Eighteen|dieciocho]]", "[[Nineteen|diecinueve]]"],
-      "correctAnswer": 1,
-      "explanation": "20 - 2 = 18."
+      "title": "[[Affirmative|Afirmativo]] [[vs|vs]] [[Negative|Negativo]]",
+      "instructions": "[[Complete|Completa]] [[the|el]] [[sentence|frase]].",
+      "questions": [
+        {
+          "question": "[[I|Yo]] ____ [[Spanish|español]].",
+          "options": ["[[am|soy]]", "[[is|es]]", "[[are|eres]]"],
+          "correctAnswer": 0,
+          "explanation": "[[I|Yo]] [[am|soy]]."
+        }
+      ]
     },
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u2-e35",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Numbers 11-20",
-    "difficulty": "easy",
-    "transcript": "[[Twelve|Doce]], [[fourteen|catorce]], [[sixteen|dieciséis]], [[eighteen|dieciocho]].",
+    "topic": "Grammar Mix",
+    "difficulty": "hard",
+    "transcript": "[[Is|¿Está]] [[the|la]] [[pizza|pizza]] [[good|buena]]?\n[[Yes|Sí]], [[it|ella]] [[is|está]] [[delicious|deliciosa]]!",
     "content": {
-      "title": "[[Series|Series]]",
-      "instructions": "[[What|Qué]] [[number|número]] [[is|es]] [[next|siguiente]]?",
-      "options": ["[[Eighteen|dieciocho]]", "[[Nineteen|diecinueve]]", "[[Seventeen|diecisiete]]"],
-      "correctAnswer": 0,
-      "explanation": "[[The|La]] [[series|serie]] [[is|es]] 12, 14, 16, 18."
+      "title": "[[Opinions|Opiniones]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[pronoun|pronombre]].",
+      "questions": [
+        {
+          "question": "____ [[is|está]] [[delicious|deliciosa]].",
+          "options": ["[[She|Ella]]", "[[It|Ella (cosa)]]", "[[He|Él]]"],
+          "correctAnswer": 1,
+          "explanation": "[[Pizza|Pizza]] [[is|es]] [[an|un]] [[object/food|objeto/comida]], [[so|así que]] [[use|usa]] '[[It|Ella]]'."
+        }
+      ]
     },
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u2-e36",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Numbers 11-20",
-    "difficulty": "easy",
-    "transcript": "[[Thirteen|Trece]] [[is|es]] [[my|mi]] [[lucky|de la suerte]] [[number|número]].",
+    "topic": "Verb To Be",
+    "difficulty": "hard",
     "content": {
-      "title": "[[Numbers|Números]]",
-      "instructions": "[[Which|Cuál]] [[is|es]] [[the|el]] [[number|número]] 13?",
-      "options": ["[[Twelve|doce]]", "[[Thirteen|trece]]", "[[Thirty|treinta]]"],
-      "correctAnswer": 1,
-      "explanation": "13 [[is|es]] '[[Thirteen|trece]]'."
+      "title": "[[Short|Corta]] [[Question|Pregunta]]",
+      "instructions": "[[Complete|Completa]] [[the|la]] [[question|pregunta]].",
+      "questions": [
+        {
+          "question": "____ [[it|eso]] [[from|de]] [[France|Francia]]?",
+          "correctAnswer": "Is",
+          "explanation": "[[For|Para]] '[[it|eso]]', [[use|usa]] '[[Is|Es]]'."
+        },
+        {
+          "question": "____ [[you|tú]] [[ready|listo]]?",
+          "correctAnswer": "Are",
+          "explanation": "[[For|Para]] '[[you|tú]]', [[use|usa]] '[[Are|Estás]]'."
+        }
+      ]
     },
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u2-e37",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Numbers 11-20",
-    "difficulty": "easy",
-    "transcript": "[[I|Yo]] [[have|tengo]] [[twelve|doce]] [[eggs|huevos]].",
+    "topic": "Nationalities",
+    "difficulty": "hard",
+    "transcript": "[[They|Ellos]] [[are|son]] [[American|americanos]]. [[They|Ellos]] [[are|son]] [[from|de]] [[New|Nueva]] [[York|York]].",
     "content": {
-      "title": "[[Quantities|Cantidades]]",
-      "instructions": "[[How|Cuántos]] [[many|muchos]] [[is|es]] [[a|una]] [[dozen|docena]]?",
-      "options": ["[[Ten|diez]]", "[[Eleven|once]]", "[[Twelve|doce]]"],
-      "correctAnswer": 2,
-      "explanation": "[[A|Una]] [[dozen|docena]] [[is|es]] 12."
+      "title": "[[US|EEUU]] [[Origins|Orígenes]]",
+      "instructions": "[[What|Cuál]] [[is|es]] [[their|su]] [[country|país]]?",
+      "questions": [
+        {
+          "question": "[[They|Ellos]] [[are|son]] [[from|de]]...",
+          "options": ["[[The United States|Estados Unidos]]", "[[England|Inglaterra]]", "[[Mexico|México]]"],
+          "correctAnswer": 0,
+          "explanation": "[[American|Americano]] [[means|significa]] [[from|de]] [[the|los]] [[United States|Estados Unidos]]."
+        }
+      ]
     },
     "topicName": "Vocabulary"
   },
@@ -637,98 +830,129 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "id": "a1-u2-e38",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Numbers 11-20",
-    "difficulty": "easy",
-    "transcript": "[[She|Ella]] [[is|tiene]] [[nineteen|diecinueve]] [[years|años]] [[old|de edad]].",
+    "topic": "Verb To Be",
+    "difficulty": "hard",
+    "transcript": "[[Am|¿Soy]] [[I|yo]] [[your|tu]] [[friend|amigo]]?\n[[Yes|Sí]], [[you|tú]] [[are|eres]].",
     "content": {
-      "title": "[[Age|Edad]]",
-      "instructions": "[[Identify|Identifica]] [[the|el]] [[number|número]] 19.",
-      "options": ["[[Nineteen|diecinueve]]", "[[Ninety|noventa]]", "[[Seventeen|diecisiete]]"],
-      "correctAnswer": 0,
-      "explanation": "19 [[is|es]] '[[Nineteen|diecinueve]]'."
+      "title": "[[Friendship|Amistad]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[response|respuesta]] [[correct|correcta]].",
+      "questions": [
+        {
+          "question": "[[Am|¿Soy]] [[I|yo]] [[your|tu]] [[friend|amigo]]?",
+          "options": ["[[Yes|Sí]], [[you|tú]] [[are|eres]].", "[[Yes|Sí]], [[I|yo]] [[am|soy]].", "[[Yes|Sí]], [[he|él]] [[is|es]]."],
+          "correctAnswer": 0,
+          "explanation": "[[When|Cuando]] [[I|yo]] [[ask|pregunto]], [[you|tú]] [[answer|respondes]]."
+        }
+      ]
     },
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u2-e39",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Numbers 11-20",
-    "difficulty": "easy",
-    "transcript": "[[Sixteen|Dieciséis]] [[candles|velas]].",
+    "topic": "Subject Pronouns",
+    "difficulty": "hard",
+    "transcript": "[[You|Tú]] [[and|y]] [[I|yo]] [[are|somos]] [[here|aquí]].",
     "content": {
-      "title": "[[Numbers|Números]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[number|número]].",
-      "options": ["[[Sixteen|dieciséis]]", "[[Sixty|sesenta]]", "[[Six|seis]]"],
-      "correctAnswer": 0,
-      "explanation": "16 [[is|es]] '[[Sixteen|dieciséis]]'."
+      "title": "[[Pronouns|Pronombres]] [[Group|Grupo]]",
+      "instructions": "[[Replace|Reemplaza]] [[the|el]] [[subject|sujeto]].",
+      "questions": [
+        {
+          "question": "____ [[are|estamos]] [[here|aquí]].",
+          "options": ["[[They|Ellos]]", "[[We|Nosotros]]", "[[You|Vosotros]]"],
+          "correctAnswer": 1,
+          "explanation": "'[[You and I|Tú y yo]]' [[is|es]] '[[We|Nosotros]]'."
+        }
+      ]
     },
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u2-e40",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Numbers 11-20",
-    "difficulty": "easy",
-    "transcript": "[[Fourteen|Catorce]] [[days|días]].",
+    "topic": "Verb To Be",
+    "difficulty": "hard",
+    "transcript": "[[Is|¿Es]] [[she|ella]] [[French|francesa]]?\n[[No|No]], [[she|ella]] [[is|es]] [[Italian|italiana]].",
     "content": {
-      "title": "[[Numbers|Números]]",
-      "instructions": "[[Identify|Identifica]] [[the|el]] [[number|número]] 14.",
-      "options": ["[[Forty|cuarenta]]", "[[Fourteen|catorce]]", "[[Four|cuatro]]"],
-      "correctAnswer": 1,
-      "explanation": "14 [[is|es]] '[[Fourteen|catorce]]'."
+      "title": "[[Final|Final]] [[Check|Control]]",
+      "instructions": "[[Is|¿Es]] [[she|ella]] [[from|de]] [[France|Francia]]?",
+      "questions": [
+        {
+          "question": "[[Is|¿Es]] [[she|ella]] [[from|de]] [[France|Francia]]?",
+          "options": ["[[Yes|Sí]].", "[[No|No]]."],
+          "correctAnswer": 1,
+          "explanation": "[[She|Ella]] [[is|es]] [[Italian|italiana]], [[so|así que]] [[she|ella]] [[is not|no es]] [[from|de]] [[France|Francia]]."
+        }
+      ]
     },
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
+
   // ==========================================
-  // REVIEW & REINFORCEMENT (41-50)
+  // MORE READING AND CONTEXTUAL GRAMMAR (41-50)
   // ==========================================
   {
     "id": "a1-u2-e41",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Review",
-    "difficulty": "medium",
-    "transcript": "[[He|Él]] [[is|es]] [[from|de]] [[Germany|Alemania]]. [[He|Él]] [[is|es]] [[German|alemán]].",
+    "topic": "Reading",
+    "difficulty": "hard",
+    "transcript": "[[Meet|Conoce]] [[Tom|Tom]]. [[He|Él]] [[is|es]] [[from|de]] [[London|Londres]]. [[He|Él]] [[is|es]] [[English|inglés]]. [[He|Él]] [[is|es]] [[30|30]] [[years|años]] [[old|de edad]]. [[He|Él]] [[is|es]] [[a|un]] [[doctor|médico]].",
     "content": {
-      "title": "[[Review|Repaso]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[sentence|oración]].",
-      "options": ["[[He|Él]] [[is|es]] [[German|alemán]]", "[[He|Él]] [[is|es]] [[Germany|Alemania]]", "[[He|Él]] [[is|es]] [[Spain|español]]"],
-      "correctAnswer": 0,
-      "explanation": "[[If|Si]] [[he|él]] [[is|es]] [[from|de]] [[Germany|Alemania]], [[he|él]] [[is|es]] [[German|alemán]]."
+      "title": "[[Tom's|Tom]] [[Profile|Perfil]]",
+      "instructions": "[[Identify|Identifica]] [[Tom's|Tom]] [[job|trabajo]].",
+      "questions": [
+        {
+          "question": "[[Is|¿Es]] [[Tom|Tom]] [[a|un]] [[student|estudiante]]?",
+          "options": ["[[Yes|Sí]], [[he|él]] [[is|es]].", "[[No|No]], [[he|él]] [[is|es]] [[a|un]] [[doctor|médico]]."],
+          "correctAnswer": 1,
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]] '[[He|Él]] [[is|es]] [[a|un]] [[doctor|médico]]'."
+        }
+      ]
     },
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u2-e42",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Review",
-    "difficulty": "medium",
-    "transcript": "[[We|Nosotros]] [[are|somos]] [[from|de]] [[Italy|Italia]]. [[We|Nosotros]] [[are|somos]] [[Italian|italianos]].",
+    "topic": "Verb To Be",
+    "difficulty": "hard",
+    "transcript": "[[Tom|Tom]] [[is|está]] [[at|en]] [[the|el]] [[hospital|hospital]]. [[He|Él]] [[is|está]] [[busy|ocupado]].",
     "content": {
-      "title": "[[Review|Repaso]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]].",
-      "options": ["[[We|Nosotros]] [[are|somos]] [[Italy|Italia]]", "[[We|Nosotros]] [[are|somos]] [[Italian|italianos]]", "[[We|Nosotros]] [[are|somos]] [[Japanese|japoneses]]"],
-      "correctAnswer": 1,
-      "explanation": "[[We|Nosotros]] [[are|somos]] [[Italian|italianos]]."
+      "title": "[[Tom's|Tom]] [[Profile|Perfil]]",
+      "instructions": "[[Is|¿Está]] [[Tom|Tom]] [[happy|feliz]] [[or|o]] [[busy|ocupado]]?",
+      "questions": [
+        {
+          "question": "[[Tom|Tom]] [[is|está]]...",
+          "options": ["[[Happy|Feliz]]", "[[Busy|Ocupado]]", "[[Sad|Triste]]"],
+          "correctAnswer": 1,
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]] '[[He|Él]] [[is|está]] [[busy|ocupado]]'."
+        }
+      ]
     },
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u2-e43",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Review",
-    "difficulty": "medium",
-    "transcript": "[[Is|¿Es]] [[Paris|París]] [[in|en]] [[England|Inglaterra]]? [[No|No]], [[it|eso]] [[is|está]] [[in|en]] [[France|Francia]].",
+    "topic": "Nationalities",
+    "difficulty": "hard",
+    "transcript": "[[Tom|Tom]] [[is|es]] [[from|de]] [[London|Londres]]. [[London|Londres]] [[is|está]] [[in|en]] [[England|Inglaterra]].",
     "content": {
-      "title": "[[Review|Repaso]]",
-      "instructions": "[[Correct|Corrige]] [[the|la]] [[geography|geografía]].",
-      "options": ["[[In France|En Francia]]", "[[In Mexico|En México]]", "[[In Italy|En Italia]]"],
-      "correctAnswer": 0,
-      "explanation": "[[Paris|París]] [[is|está]] [[in|en]] [[France|Francia]]."
+      "title": "[[Tom's|Tom]] [[Profile|Perfil]]",
+      "instructions": "[[Select|Selecciona]] [[the|el]] [[country|país]].",
+      "questions": [
+        {
+          "question": "[[Where|De dónde]] [[is|es]] [[Tom|Tom]]?",
+          "options": ["[[France|Francia]]", "[[England|Inglaterra]]", "[[Germany|Alemania]]"],
+          "correctAnswer": 1,
+          "explanation": "[[Tom|Tom]] [[is|es]] [[from|de]] [[London|Londres]], [[England|Inglaterra]]."
+        }
+      ]
     },
     "topicName": "Vocabulary"
   },
@@ -736,237 +960,229 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "id": "a1-u2-e44",
     "type": "fill-blank",
     "level": "A1",
-    "topic": "Review",
-    "difficulty": "medium",
-    "transcript": "[[Ten|Diez]] [[plus|más]] [[ten|diez]] [[is|es]] [[twenty|veinte]].",
+    "topic": "Verb To Be",
+    "difficulty": "hard",
     "content": {
-      "title": "[[Review|Repaso]]",
-      "instructions": "[[Type|Escribe]] [[the|el]] [[result|resultado]].",
-      "text": "10 + 10 = (_____).",
-      "answers": ["twenty"],
-      "explanation": "20 [[is|es]] '[[twenty|veinte]]'."
+      "title": "[[Tom's|Tom]] [[Story|Historia]]",
+      "instructions": "[[Complete|Completa]] [[the|la]] [[story|historia]] [[with|con]] '[[is|es/está]]' [[or|o]] '[[is not|no es/está]]'.",
+      "questions": [
+        {
+          "question": "[[Tom|Tom]] ____ [[from|de]] [[Spain|España]].",
+          "correctAnswer": "is not",
+          "explanation": "[[Tom|Tom]] [[is|es]] [[from|de]] [[England|Inglaterra]]."
+        },
+        {
+          "question": "[[He|Él]] ____ [[English|inglés]].",
+          "correctAnswer": "is",
+          "explanation": "[[He|Él]] [[is|es]] [[from|de]] [[London|Londres]]."
+        }
+      ]
     },
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u2-e45",
-    "type": "fill-blank",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Review",
-    "difficulty": "medium",
-    "transcript": "[[He|Él]] [[is|es]] [[from|de]] [[Mexico|México]]. [[He|Él]] [[is|es]] [[Mexican|mexicano]].",
+    "topic": "Subject Pronouns",
+    "difficulty": "hard",
+    "transcript": "[[Tom|Tom]] [[and|y]] [[Ana|Ana]] [[are|son]] [[friends|amigos]]. [[They|Ellos]] [[are|están]] [[in|en]] [[the|el]] [[park|parque]].",
     "content": {
-      "title": "[[Review|Repaso]]",
-      "instructions": "[[Type|Escribe]] [[the|la]] [[nationality|nacionalidad]].",
-      "text": "[[He|Él]] [[is|es]] (_____).",
-      "answers": ["Mexican"],
-      "explanation": "[[Mexican|Mexicano]]."
+      "title": "[[Tom and Ana|Tom y Ana]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[pronoun|pronombre]] [[correct|correcto]].",
+      "questions": [
+        {
+          "question": "____ [[are|están]] [[in|en]] [[the|el]] [[park|parque]].",
+          "options": ["[[We|Nosotros]]", "[[They|Ellos]]", "[[He|Él]]"],
+          "correctAnswer": 1,
+          "explanation": "'[[Tom and Ana|Tom y Ana]]' [[is|es]] '[[They|Ellos]]'."
+        }
+      ]
     },
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u2-e46",
-    "type": "fill-blank",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Review",
-    "difficulty": "medium",
-    "transcript": "[[She|Ella]] [[is|es]] [[from|de]] [[Japan|Japón]]. [[She|Ella]] [[is|es]] [[Japanese|japonesa]].",
+    "topic": "Verb To Be",
+    "difficulty": "hard",
+    "transcript": "[[Is|¿Está]] [[the|el]] [[park|parque]] [[big|grande]]?\n[[Yes|Sí]], [[it|él]] [[is|es]].",
     "content": {
-      "title": "[[Review|Repaso]]",
-      "instructions": "[[Type|Escribe]] [[the|la]] [[nationality|nacionalidad]].",
-      "text": "[[She|Ella]] [[is|es]] (_____).",
-      "answers": ["Japanese"],
-      "explanation": "[[Japanese|Japonesa]]."
+      "title": "[[In|En]] [[the|el]] [[Park|Parque]]",
+      "instructions": "[[Is|¿Es]] [[the|el]] [[park|parque]] [[small|pequeño]]?",
+      "questions": [
+        {
+          "question": "[[Is|¿Es]] [[the|el]] [[park|parque]] [[small|pequeño]]?",
+          "options": ["[[Yes|Sí]].", "[[No|No]], [[it|él]] [[is|es]] [[big|grande]]."],
+          "correctAnswer": 1,
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]] '[[It|Él]] [[is|es]] [[big|grande]]'."
+        }
+      ]
     },
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u2-e47",
-    "type": "fill-blank",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Review",
-    "difficulty": "medium",
-    "transcript": "[[Twelve|Doce]] [[is|es]] [[eleven|once]] [[plus|más]] [[one|uno]].",
+    "topic": "Questions",
+    "difficulty": "hard",
+    "transcript": "[[Are|¿Están]] [[they|ellos]] [[happy|felices]]?\n[[Yes|Sí]], [[they|ellos]] [[are|están]].",
     "content": {
-      "title": "[[Review|Repaso]]",
-      "instructions": "[[Type|Escribe]] [[the|el]] [[number|número]] 12.",
-      "text": "11 + 1 = (_____).",
-      "answers": ["twelve"],
-      "explanation": "12 [[is|es]] '[[twelve|doce]]'."
+      "title": "[[In|En]] [[the|el]] [[Park|Parque]]",
+      "instructions": "[[What|Cuál]] [[is|es]] [[the|la]] [[correct|correcta]] [[question|pregunta]]?",
+      "questions": [
+        {
+          "question": "____ [[they|ellos]] [[happy|felices]]?",
+          "options": ["[[Is|Es]]", "[[Are|Están]]", "[[Am|Soy]]"],
+          "correctAnswer": 1,
+          "explanation": "[[For|Para]] '[[they|ellos]]', [[use|usa]] '[[Are|Están]]'."
+        }
+      ]
     },
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u2-e48",
-    "type": "fill-blank",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Review",
-    "difficulty": "medium",
-    "transcript": "[[They|Ellos]] [[are|son]] [[from|de]] [[England|Inglaterra]]. [[They|Ellos]] [[are|son]] [[English|ingleses]].",
+    "topic": "Verb To Be",
+    "difficulty": "hard",
+    "transcript": "[[I|Yo]] [[am|estoy]] [[with|con]] [[Tom|Tom]]. [[We|Nosotros]] [[are|estamos]] [[in|en]] [[Madrid|Madrid]].",
     "content": {
-      "title": "[[Review|Repaso]]",
-      "instructions": "[[Type|Escribe]] [[the|la]] [[nationality|nacionalidad]].",
-      "text": "[[They|Ellos]] [[are|son]] (_____).",
-      "answers": ["English"],
-      "explanation": "[[English|Inglés]]."
+      "title": "[[Ana's|Ana]] [[Story|Historia]]",
+      "instructions": "[[Where|Dónde]] [[is|está]] [[Ana|Ana]]?",
+      "questions": [
+        {
+          "question": "[[Ana|Ana]] [[is|está]] [[in|en]]...",
+          "options": ["[[London|Londres]]", "[[Madrid|Madrid]]", "[[Paris|París]]"],
+          "correctAnswer": 1,
+          "explanation": "[[She|Ella]] [[says|dice]] '[[We|Nosotros]] [[are|estamos]] [[in|en]] [[Madrid|Madrid]]'."
+        }
+      ]
     },
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u2-e49",
-    "type": "fill-blank",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Review",
-    "difficulty": "medium",
-    "transcript": "[[I|Yo]] [[am|soy]] [[from|de]] [[Spain|España]]. [[I|Yo]] [[am|soy]] [[Spanish|español]].",
+    "topic": "Verb To Be",
+    "difficulty": "hard",
+    "transcript": "[[David|David]] [[is|está]] [[not|no]] [[in|en]] [[Madrid|Madrid]]. [[He|Él]] [[is|está]] [[in|en]] [[Barcelona|Barcelona]].",
     "content": {
-      "title": "[[Review|Repaso]]",
-      "instructions": "[[Type|Escribe]] [[the|la]] [[nationality|nacionalidad]].",
-      "text": "[[I|Yo]] [[am|soy]] (_____).",
-      "answers": ["Spanish"],
-      "explanation": "[[Spanish|Español]]."
+      "title": "[[David's|David]] [[Location|Ubicación]]",
+      "instructions": "[[Select|Selecciona]] [[the|la]] [[correct|correcta]] [[sentence|frase]].",
+      "questions": [
+        {
+          "question": "[[Where|Dónde]] [[is|está]] [[David|David]]?",
+          "options": [
+            "[[He|Él]] [[is|está]] [[in|en]] [[Madrid|Madrid]].",
+            "[[He|Él]] [[is|está]] [[in|en]] [[Barcelona|Barcelona]].",
+            "[[He|Él]] [[is|está]] [[at|en]] [[home|casa]]."
+          ],
+          "correctAnswer": 1,
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]] '[[He|Él]] [[is|está]] [[in|en]] [[Barcelona|Barcelona]]'."
+        }
+      ]
     },
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u2-e50",
-    "type": "fill-blank",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Review",
-    "difficulty": "medium",
-    "transcript": "[[The|La]] [[capital|capital]] [[of|de]] [[France|Francia]] [[is|es]] [[Paris|París]].",
+    "topic": "Questions",
+    "difficulty": "hard",
+    "transcript": "[[Is|¿Está]] [[David|David]] [[with|con]] [[Ana|Ana]]?\n[[No|No]], [[he|él]] [[isn't|no lo está]].",
     "content": {
-      "title": "[[Review|Repaso]]",
-      "instructions": "[[Type|Escribe]] [[the|el]] [[country|país]].",
-      "text": "[[Paris|París]] [[is|está]] [[in|en]] (_____).",
-      "answers": ["France"],
-      "explanation": "[[France|Francia]]."
+      "title": "[[Friendship|Amistad]]",
+      "instructions": "[[Is|¿Está]] [[David|David]] [[with|con]] [[Ana|Ana]]?",
+      "questions": [
+        {
+          "question": "[[Is|¿Está]] [[David|David]] [[with|con]] [[Ana|Ana]]?",
+          "options": ["[[Yes|Sí]], [[he|él]] [[is|está]].", "[[No|No]], [[he|él]] [[isn't|no lo está]]."],
+          "correctAnswer": 1,
+          "explanation": "[[Ana|Ana]] [[is|está]] [[in|en]] [[Madrid|Madrid]] [[and|y]] [[David|David]] [[is|está]] [[in|en]] [[Barcelona|Barcelona]]."
+        }
+      ]
     },
-    "topicName": "Vocabulary"
+    "topicName": "Comprehension"
   },
-  // ==========================================
-  // READING COMPREHENSION (51-60)
-  // ==========================================
 
-  // READING 1: PETER'S CAR (51)
+  // ==========================================
+  // ADVANCED SCRAMBLES AND CUMULATIVE REVIEW (51-60)
+  // ==========================================
   {
     "id": "a1-u2-e51",
-    "type": "reading",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Verb To Be",
     "difficulty": "hard",
-    "transcript": "[[Hello|Hola]]. [[My|Mi]] [[name|nombre]] [[is|es]] [[Peter|Peter]]. [[I|Yo]] [[am|soy]] [[from|de]] [[London|Londres]], [[England|Inglaterra]]. [[I|Yo]] [[have|tengo]] [[a|un]] [[new|nuevo]] [[car|coche]]. [[It|Eso]] [[is|es]] [[red|rojo]] [[and|y]] [[very|muy]] [[fast|rápido]]. [[The|El]] [[car|coche]] [[is|es]] [[from|de]] [[Germany|Alemania]]. [[I|Yo]] [[am|estoy]] [[very|muy]] [[happy|feliz]] [[with|con]] [[my|mi]] [[car|coche]].",
     "content": {
-      "title": "[[Reading|Lectura]]: [[Peter's|de Peter]] [[New|Nuevo]] [[Car|Coche]]",
-      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
-      "text": "Hello. My name is Peter. I am from London, England. I have a new car. It is red and very fast. The car is from Germany. I am very happy with my car.",
-      "questions": [
-        {
-          "question": "[[Where|De dónde]] [[is|es]] [[Peter|Peter]] [[from|]]?",
-          "options": ["[[Mexico|México]]", "[[England|Inglaterra]]", "[[Germany|Alemania]]"],
-          "correctAnswer": 1,
-          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: '[[I|Yo]] [[am|soy]] [[from|de]] [[London|Londres]], [[England|Inglaterra]]'."
-        },
-        {
-          "question": "[[What|De qué]] [[color|color]] [[is|es]] [[the|el]] [[car|coche]]?",
-          "options": ["[[Blue|Azul]]", "[[Black|Negro]]", "[[Red|Rojo]]"],
-          "correctAnswer": 2,
-          "explanation": "[[It|Eso]] [[is|es]] [[red|rojo]] [[and|y]] [[very|muy]] [[fast|rápido]]."
-        },
-        {
-          "question": "[[Where|De dónde]] [[is|es]] [[the|el]] [[car|coche]] [[from|]]?",
-          "options": ["[[England|Inglaterra]]", "[[Germany|Alemania]]", "[[France|Francia]]"],
-          "correctAnswer": 1,
-          "explanation": "[[The|El]] [[car|coche]] [[is|es]] [[from|de]] [[Germany|Alemania]]."
-        }
-      ]
+      "title": "[[Build|Construye]] [[the|la]] [[Sentence|Frase]]",
+      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]].",
+      "words": ["[[parents|padres]]", "[[My|Mis]]", "[[are|son]]", "[[not|no]]", "[[from|de]]", "[[Italy|Italia]]", "."],
+      "correctOrder": ["My", "parents", "are", "not", "from", "Italy", "."],
+      "explanation": "[[Subject|Sujeto]] (My parents) + [[Verb|Verbo]] (are) + [[Negative|Negativo]] (not) + [[Origin|Origen]] (from Italy)."
     },
-    "topicName": "Reading"
+    "topicName": "Grammar"
   },
-  // READING 2: MEXICO VACATION (52)
   {
     "id": "a1-u2-e52",
-    "type": "reading",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Questions",
     "difficulty": "hard",
-    "transcript": "[[We|Nosotros]] [[are|estamos]] [[in|en]] [[Mexico|México]] [[on|de]] [[vacation|vacaciones]]. [[It|Esto]] [[is|es]] [[a|un]] [[beautiful|hermoso]] [[country|país]]. [[My|Mis]] [[parents|padres]] [[are|están]] [[with|con]] [[me|migo]]. [[They|Ellos]] [[are|son]] [[not|no]] [[Mexican|mexicanos]]. [[They|Ellos]] [[are|son]] [[American|americanos]]. [[There|Hay]] [[are|hay]] [[fifteen|quince]] [[people|personas]] [[in|en]] [[our|nuestro]] [[group|grupo]].",
     "content": {
-      "title": "[[Reading|Lectura]]: [[Vacation|Vacaciones]] [[in|en]] [[Mexico|México]]",
-      "instructions": "[[Read|Lee]] [[y|and]] [[answer|responde]].",
-      "text": "We are in Mexico on vacation. It is a beautiful country. My parents are with me. They are not Mexican. They are American. There are fifteen people in our group.",
-      "questions": [
-        {
-          "question": "[[Where|Dónde]] [[are|están]] [[they|ellos]]?",
-          "options": ["[[In France|En Francia]]", "[[In Mexico|En México]]", "[[In England|En Inglaterra]]"],
-          "correctAnswer": 1,
-          "explanation": "[[We|Nosotros]] [[are|estamos]] [[in|en]] [[Mexico|México]]."
-        },
-        {
-          "question": "[[What|Cuál]] [[is|es]] [[the|la]] [[nationality|nacionalidad]] [[of|de]] [[the|los]] [[parents|padres]]?",
-          "options": ["[[Mexican|Mexicana]]", "[[Spanish|Española]]", "[[American|Americana]]"],
-          "correctAnswer": 2,
-          "explanation": "[[They|Ellos]] [[are|son]] [[American|americanos]]."
-        },
-        {
-          "question": "[[How|Cuántas]] [[many|muchas]] [[people|personas]] [[are|hay]] [[in|en]] [[the|el]] [[group|grupo]]?",
-          "options": ["[[Twelve|Doce]]", "[[Fifteen|Quince]]", "[[Fifty|Cincuenta]]"],
-          "correctAnswer": 1,
-          "explanation": "[[There|Hay]] [[are|hay]] [[fifteen|quince]] [[people|personas]]."
-        }
-      ]
+      "title": "[[Build|Construye]] [[the|la]] [[Question|Pregunta]]",
+      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]].",
+      "words": ["[[from|de]]", "[[Is|¿Es]]", "[[your|tu]]", "[[teacher|profesor]]", "[[England|Inglaterra]]", "?"],
+      "correctOrder": ["Is", "your", "teacher", "from", "England", "?"],
+      "explanation": "[[Verb|Verbo]] (Is) + [[Subject|Sujeto]] (your teacher) + [[Origin|Origen]] (from England)?"
     },
-    "topicName": "Reading"
+    "topicName": "Grammar"
   },
-  // READING 3: NATIONALITIES GAME (53)
   {
     "id": "a1-u2-e53",
-    "type": "reading",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Verb To Be",
     "difficulty": "hard",
-    "transcript": "[[Look|Mira]] [[at|a]] [[the|los]] [[numbers|números]]. [[Number|Número]] [[eleven|once]] [[is|es]] [[from|de]] [[France|Francia]]. [[Number|Número]] [[twelve|doce]] [[is|es]] [[from|de]] [[Spain|España]]. [[Number|Número]] [[thirteen|trece]] [[is|es]] [[from|de]] [[Japan|Japón]]. [[Number|Número]] [[fourteen|catorce]] [[is|es]] [[from|de]] [[Italy|Italia]]. [[They|Ellos]] [[are|son]] [[all|todos]] [[students|estudiantes]].",
+    "transcript": "[[I|Yo]] [[am|soy]] [[Spanish|español]], [[but|pero]] [[you|tú]] [[are|eres]] [[Mexican|mexicano]].",
     "content": {
-      "title": "[[Reading|Lectura]]: [[Nationalities|Nacionalidades]] [[Game|Juego]]",
-      "instructions": "[[Read|Lee]] [[y|and]] [[answer|responde]].",
-      "text": "Look at the numbers. Number eleven is from France. Number twelve is from Spain. Number thirteen is from Japan. Number fourteen is from Italy. They are all students.",
+      "title": "[[Nationalities|Nacionalidades]]",
+      "instructions": "[[Complete|Completa]] [[the|la]] [[comparison|comparación]].",
       "questions": [
         {
-          "question": "[[Where|De dónde]] [[is|es]] [[number|número]] [[twelve|doce]] [[from|]]?",
-          "options": ["[[France|Francia]]", "[[Spain|España]]", "[[Japan|Japón]]"],
+          "question": "[[You|Tú]] ____ [[Mexican|mexicano]].",
+          "options": ["[[is|es]]", "[[are|eres]]", "[[am|soy]]"],
           "correctAnswer": 1,
-          "explanation": "[[Number|Número]] [[twelve|doce]] [[is|es]] [[from|de]] [[Spain|España]]."
-        },
-        {
-          "question": "[[What|Cuál]] [[is|es]] [[the|la]] [[nationality|nacionalidad]] [[of|de]] [[number|número]] [[thirteen|trece]]?",
-          "options": ["[[French|Francesa]]", "[[Japanese|Japonesa]]", "[[Italian|Italiana]]"],
-          "correctAnswer": 1,
-          "explanation": "[[Number|Número]] [[thirteen|trece]] [[is|es]] [[from|de]] [[Japan|Japón]], [[so|así que]] [[is|es]] [[Japanese|japonesa]]."
-        },
-        {
-          "question": "[[Who|Quién]] [[is|es]] [[from|de]] [[Italy|Italia]]?",
-          "options": ["[[Number eleven|Número once]]", "[[Number fourteen|Número catorce]]", "[[Number twelve|Número doce]]"],
-          "correctAnswer": 1,
-          "explanation": "[[Number|Número]] [[fourteen|catorce]] [[is|es]] [[from|de]] [[Italy|Italia]]."
+          "explanation": "[[With|Con]] '[[you|tú]]', [[the|el]] [[verb|verbo]] [[is|es]] '[[are|eres]]'."
         }
       ]
     },
-    "topicName": "Reading"
+    "topicName": "Grammar"
   },
-  // --- NEW EXERCISES (54-60) to replace merged questions and reach 60 ---
   {
     "id": "a1-u2-e54",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary",
-    "difficulty": "medium",
-    "transcript": "[[She|Ella]] [[is|es]] [[Italian|italiana]].",
+    "topic": "Nationalities",
+    "difficulty": "hard",
+    "transcript": "[[The|El]] [[sushi|sushi]] [[is|es]] [[Japanese|japonés]]. [[The|El]] [[taco|taco]] [[is|es]] [[Mexican|mexicano]].",
     "content": {
-      "title": "[[Descriptions|Descripciones]]",
-      "instructions": "[[Where|De dónde]] [[is|es]] [[she|ella]] [[from|]]?",
-      "options": ["[[France|Francia]]", "[[Italy|Italia]]", "[[Spain|España]]"],
-      "correctAnswer": 1,
-      "explanation": "[[If|Si]] [[she|ella]] [[is|es]] [[Italian|italiana]], [[she|ella]] [[is|es]] [[from|de]] [[Italy|Italia]]."
+      "title": "[[Food|Comida]] [[Review|Repaso]]",
+      "instructions": "[[Which|Cuál]] [[is|es]] [[Japanese|japonés]]?",
+      "questions": [
+        {
+          "question": "[[Select|Selecciona]] [[the|el]] [[correct|correcto]].",
+          "options": ["[[The taco|El taco]]", "[[The sushi|El sushi]]", "[[The pizza|La pizza]]"],
+          "correctAnswer": 1,
+          "explanation": "[[The|El]] [[sushi|sushi]] [[is|es]] [[Japanese|japonés]]."
+        }
+      ]
     },
     "topicName": "Vocabulary"
   },
@@ -974,31 +1190,44 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "id": "a1-u2-e55",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary",
-    "difficulty": "medium",
-    "transcript": "[[They|Ellos]] [[are|son]] [[Mexican|mexicanos]].",
+    "topic": "Verb To Be",
+    "difficulty": "hard",
+    "transcript": "[[Are|¿Estás]] [[you|tú]] [[from|de]] [[France|Francia]]?\n[[No|No]], [[I|yo]] [[am|soy]] [[from|de]] [[Italy|Italia]].",
     "content": {
-      "title": "[[Traits|Rasgos]]",
-      "instructions": "[[Identify|Identifica]] [[the|el]] [[country|país]].",
-      "options": ["[[Spain|España]]", "[[Mexico|México]]", "[[Japan|Japón]]"],
-      "correctAnswer": 1,
-      "explanation": "[[Mexican|Mexicano]] [[people|gente]] [[are|son]] [[from|de]] [[Mexico|México]]."
+      "title": "[[Conversation|Conversación]] [[Mix|Mezcla]]",
+      "instructions": "[[Identify|Identifica]] [[the|la]] [[nationality|nacionalidad]].",
+      "questions": [
+        {
+          "question": "[[The|La]] [[person|persona]] [[is|es]]...",
+          "options": ["[[French|Francesa]]", "[[Italian|Italiana]]", "[[English|Inglesa]]"],
+          "correctAnswer": 1,
+          "explanation": "[[The|La]] [[person|persona]] [[is|es]] [[from|de]] [[Italy|Italia]], [[so|así que]] [[she|ella]] [[is|es]] [[Italian|italiana]]."
+        }
+      ]
     },
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u2-e56",
-    "type": "sentence-building",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Grammar",
-    "difficulty": "medium",
-    "transcript": "[[He|Él]] [[is|es]] [[from|de]] [[England|Inglaterra]].",
+    "topic": "Verb To Be",
+    "difficulty": "hard",
     "content": {
-      "title": "[[Build|Construye]]",
-      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]].",
-      "correctSentence": "[[He|Él]] [[is|es/está]] [[from|de]] [[England|Inglaterra]].",
-      "words": ["[[England|Inglaterra]].", "[[from|de]]", "[[is|es/está]]", "[[He|Él]]"],
-      "explanation": "[[Origin|Origen]] [[description|descripción]]."
+      "title": "[[Short|Cortas]] [[Forms|Formas]]",
+      "instructions": "[[Complete|Completa]] [[the|la]] [[question|pregunta]].",
+      "questions": [
+        {
+          "question": "____ [[your|tus]] [[friends|amigos]] [[German|alemanes]]?",
+          "correctAnswer": "Are",
+          "explanation": "[[Friends|Amigos]] [[is|es]] [[plural|plural]] (they), [[so|así que]] [[use|usa]] '[[Are|Son]]'."
+        },
+        {
+          "question": "____ [[this|esto]] [[a|un]] [[new|nuevo]] [[mobile|móvil]]?",
+          "correctAnswer": "Is",
+          "explanation": "[[This|Esto]] [[is|es]] [[singular|singular]] (it), [[so|así que]] [[use|usa]] '[[Is|Es]]'."
+        }
+      ]
     },
     "topicName": "Grammar"
   },
@@ -1006,64 +1235,85 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "id": "a1-u2-e57",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary",
-    "difficulty": "medium",
-    "transcript": "[[Seven|Siete]] [[plus|más]] [[six|seis]] [[is|es]] [[thirteen|trece]].",
+    "topic": "Subject Pronouns",
+    "difficulty": "hard",
+    "transcript": "[[The|La]] [[woman|mujer]] [[is|es]] [[French|francesa]].",
     "content": {
-      "title": "[[Math|Mates]]",
-      "instructions": "[[Calculate|Calcula]].",
-      "options": ["[[Twelve|doce]]", "[[Thirteen|trece]]", "[[Fourteen|catorce]]"],
-      "correctAnswer": 1,
-      "explanation": "7 + 6 = 13."
+      "title": "[[Pronoun|Pronombre]] [[Final|Final]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[pronoun|pronombre]].",
+      "questions": [
+        {
+          "question": "____ [[is|es]] [[French|francesa]].",
+          "options": ["[[He|Él]]", "[[She|Ella]]", "[[It|Eso]]"],
+          "correctAnswer": 1,
+          "explanation": "'[[The woman|La mujer]]' [[is|es]] '[[She|Ella]]'."
+        }
+      ]
     },
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u2-e58",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar",
-    "difficulty": "medium",
-    "transcript": "[[Berlin|Berlín]] [[is|está]] [[in|en]] [[Germany|Alemania]].",
+    "topic": "Verb To Be",
+    "difficulty": "hard",
+    "transcript": "[[Is|¿Es]] [[the|la]] [[car|coche]] [[red|rojo]]?\n[[No|No]], [[it|él]] ____ [[not|no]].",
     "content": {
-      "title": "[[Geography|Geografía]]",
-      "instructions": "[[Where|Dónde]] [[is|está]] [[Berlin|Berlín]]?",
-      "options": ["[[Germany|Alemania]]", "[[France|Francia]]", "[[Italy|Italia]]"],
-      "correctAnswer": 0,
-      "explanation": "[[Berlin|Berlín]] [[is|está]] [[in|en]] [[Germany|Alemania]]."
+      "title": "[[Car|Coche]] [[Color|Color]]",
+      "instructions": "[[Complete|Completa]] [[the|la]] [[short|corta]] [[answer|respuesta]].",
+      "questions": [
+        {
+          "question": "[[Select|Selecciona]] [[the|el]] [[verb|verbo]].",
+          "options": ["[[am|soy]]", "[[is|es]]", "[[are|eres]]"],
+          "correctAnswer": 1,
+          "explanation": "[[For|Para]] '[[it|él]]', [[use|usa]] '[[is|es]]'."
+        }
+      ]
     },
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u2-e59",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar",
-    "difficulty": "medium",
-    "transcript": "[[They|Ellos]] [[are|son]] [[my|mis]] [[parents|padres]].",
+    "topic": "Nationalities",
+    "difficulty": "hard",
+    "transcript": "[[Mercedes|Mercedes]] [[is|es]] [[a|una]] [[German|alemana]] [[brand|marca]].",
     "content": {
-      "title": "[[Family|Familia]]",
-      "instructions": "[[Order|Ordena]] [[the|las]] [[words|palabras]].",
-      "correctSentence": "[[They|Ellos/Ellas]] [[are|son/están]] [[my|mi/mis]] [[parents|padres]].",
-      "words": ["[[parents|padres]].", "[[my|mi/mis]]", "[[are|son/están]]", "[[They|Ellos/Ellas]]"],
-      "explanation": "[[Family|Familia]] [[description|descripción]]."
+      "title": "[[Brands|Marcas]] [[Review|Repaso]]",
+      "instructions": "[[Identify|Identifica]] [[the|el]] [[country|país]].",
+      "questions": [
+        {
+          "question": "[[Mercedes|Mercedes]] [[is|es]] [[from|de]]...",
+          "options": ["[[Italy|Italia]]", "[[Germany|Alemania]]", "[[France|Francia]]"],
+          "correctAnswer": 1,
+          "explanation": "[[Mercedes|Mercedes]] [[is|es]] [[German|alemana]] (from Germany)."
+        }
+      ]
     },
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u2-e60",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Review",
-    "difficulty": "medium",
-    "transcript": "[[It|Eso]] [[is|es]] [[from|de]] [[Japan|Japón]].",
+    "topic": "Cumulative",
+    "difficulty": "hard",
+    "transcript": "[[Are|¿Somos]] [[we|nosotros]] [[ready|listos]] [[for|para]] [[Unit|Unidad]] [[3|3]]?\n[[Yes|Sí]], [[we|nosotros]] [[are|estamos]]!",
     "content": {
-      "title": "[[Review|Repaso]]",
-      "instructions": "[[Pronoun|Pronombre]] [[for|para]] [[a|un]] [[product|producto]]?",
-      "options": ["[[He|Él]]", "[[She|Ella]]", "[[It|Eso]]"],
-      "correctAnswer": 2,
-      "explanation": "[[Use|Usa]] '[[It|Eso]]' [[for|para]] [[objects|objetos]]."
+      "title": "[[Final|Final]] [[Victory|Victoria]]",
+      "instructions": "[[Are|¿Estamos]] [[we|nosotros]] [[ready|listos]]?",
+      "questions": [
+        {
+          "question": "[[Are|¿Estamos]] [[we|nosotros]] [[ready|listos]]?",
+          "options": ["[[Yes|Sí]]!", "[[No|No]]."],
+          "correctAnswer": 0,
+          "explanation": "[[You|Tú]] [[are|estás]] [[ready|listo]] [[for|para]] [[the|el]] [[next|siguiente]] [[level|nivel]]!"
+        }
+      ]
     },
     "topicName": "Grammar"
   }
 ];
+

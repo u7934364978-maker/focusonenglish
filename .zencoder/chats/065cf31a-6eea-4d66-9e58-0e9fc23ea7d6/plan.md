@@ -77,7 +77,7 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/06
 - [x] Verification: Count check (60) and pedagogical flow audit.
 
 #### 6. Pedagogical Restructuring: Unit 2
-- [ ] Audit Unit 2 (`src/lib/course/a1/unit-2.ts`) for pedagogical flow.
+- [x] Audit Unit 2 (`src/lib/course/a1/unit-2.ts`) for pedagogical flow.
 - [ ] Remove all `flashcard` exercises and replace with active recognition.
 - [ ] Implement bilingual `[[English|Spanish]]` format for all 60 exercises.
 - [ ] Ensure non-triviality and quality standards.
