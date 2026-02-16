@@ -923,9 +923,9 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[Hello|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Peter|Peter]]. [[I|Yo]] [[want|quiero]] [[to|a]] [[tell|decir]] [[you|te]] [[about|sobre]] [[my|mi]] [[family|familia]]. [[My|Mi]] [[father's|del padre]] [[name|nombre]] [[is|es]] [[Robert|Robert]]. [[He|Él]] [[is|tiene]] [[55|55]] [[years|años]] [[old|de edad]] [[and|y]] [[he|él]] [[is|es]] [[an|un]] [[engineer|ingeniero]]. [[My|Mi]] [[mother's|de la madre]] [[name|nombre]] [[is|es]] [[Sarah|Sarah]]. [[She|Ella]] [[is|tiene]] [[52|52]] [[and|y]] [[she|ella]] [[is|es]] [[a|una]] [[nurse|enfermera]]. [[I|Yo]] [[have|tengo]] [[two|dos]] [[sisters|hermanas]], [[Anna|Anna]] [[and|y]] [[Mary|Mary]]. [[Anna|Anna]] [[is|tiene]] [[20|20]] [[and|y]] [[Mary|Mary]] [[is|tiene]] [[18|18]]. [[They|Ellas]] [[are|son]] [[students|estudiantes]]. [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[dog|perro]]. [[Its|Su]] [[name|nombre]] [[is|es]] [[Rex|Rex]]. [[We|Nosotros]] [[are|somos]] [[a|una]] [[very|muy]] [[happy|feliz]] [[family|familia]].",
     "content": {
-      "title": "Lectura: La Familia de Peter",
-      "instructions": "Lee el texto atentamente y prepárate para las preguntas.",
-      "text": "Hello! My name is Peter. I want to tell you about my family. My father's name is Robert. He is 55 years old and he is an engineer. My mother's name is Sarah. She is 52 and she is a nurse. I have two sisters, Anna and Mary. Anna is 20 and Mary is 18. They are students. We have a dog. Its name is Rex. We are a very happy family.",
+      "title": "[[Reading|Lectura]]: [[Peter's|de Peter]] [[Family|Familia]]",
+      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]] [[carefully|atentamente]].",
+      "text": "[[Hello|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Peter|Peter]]. [[I|Yo]] [[want|quiero]] [[to|a]] [[tell|decir]] [[you|te]] [[about|sobre]] [[my|mi]] [[family|familia]]. [[My|Mi]] [[father's|del padre]] [[name|nombre]] [[is|es]] [[Robert|Robert]]. [[He|Él]] [[is|tiene]] [[55|55]] [[years|años]] [[old|de edad]] [[and|y]] [[he|él]] [[is|es]] [[an|un]] [[engineer|ingeniero]]. [[My|Mi]] [[mother's|de la madre]] [[name|nombre]] [[is|es]] [[Sarah|Sarah]]. [[She|Ella]] [[is|tiene]] [[52|52]] [[and|y]] [[she|ella]] [[is|es]] [[a|una]] [[nurse|enfermera]]. [[I|Yo]] [[have|tengo]] [[two|dos]] [[sisters|hermanas]], [[Anna|Anna]] [[and|y]] [[Mary|Mary]]. [[Anna|Anna]] [[is|tiene]] [[20|20]] [[and|y]] [[Mary|Mary]] [[is|tiene]] [[18|18]]. [[They|Ellas]] [[are|son]] [[students|estudiantes]]. [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[dog|perro]]. [[Its|Su]] [[name|nombre]] [[is|es]] [[Rex|Rex]]. [[We|Nosotros]] [[are|somos]] [[a|una]] [[very|muy]] [[happy|feliz]] [[family|familia]].",
       "questions": []
     },
     "audioUrl": "audio/a1/unit-6/e51.mp3",
@@ -939,10 +939,10 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[How|Cuántas]] [[many|muchas]] [[sisters|hermanas]] [[does|tiene]] [[Peter|Peter]] [[have|tener]]?",
     "content": {
-      "title": "Pregunta 1",
-      "instructions": "Responde según el texto anterior.",
-      "options": ["[[One|Una]]", "[[Two|Dos]]", "[[Three|Tres]]"],
-      "correctAnswer": 1,
+      "title": "[[Question|Pregunta]] 1",
+      "instructions": "[[Answer|Responde]] [[according|según]] [[to|a]] [[the|el]] [[text|texto]].",
+      "options": ["[[One|Una]]", "[[Three|Tres]]", "[[Two|Dos]]"],
+      "correctAnswer": 2,
       "explanation": "Peter dice: 'I have two sisters, Anna and Mary'."
     },
     "audioUrl": "audio/a1/unit-6/e52.mp3",
@@ -956,10 +956,10 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[What|Cuál]] [[is|es]] [[Robert's|de Robert]] [[job|trabajo]]?",
     "content": {
-      "title": "Pregunta 2",
-      "instructions": "Responde según el texto anterior.",
-      "options": ["[[Doctor|Médico]]", "[[Engineer|Ingeniero]]", "[[Teacher|Profesor]]"],
-      "correctAnswer": 1,
+      "title": "[[Question|Pregunta]] 2",
+      "instructions": "[[Answer|Responde]] [[according|según]] [[to|a]] [[the|el]] [[text|texto]].",
+      "options": ["[[Engineer|Ingeniero]]", "[[Doctor|Médico]]", "[[Teacher|Profesor]]"],
+      "correctAnswer": 0,
       "explanation": "El texto menciona: 'he is an engineer'."
     },
     "audioUrl": "audio/a1/unit-6/e53.mp3",
@@ -973,10 +973,10 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[What|Cómo]] [[is|se llama]] [[the|el]] [[dog's|del perro]] [[name|nombre]]?",
     "content": {
-      "title": "Pregunta 3",
-      "instructions": "Responde según el texto anterior.",
-      "options": ["[[Max|Max]]", "[[Rex|Rex]]", "[[Felix|Felix]]"],
-      "correctAnswer": 1,
+      "title": "[[Question|Pregunta]] 3",
+      "instructions": "[[Answer|Responde]] [[according|según]] [[to|a]] [[the|el]] [[text|texto]].",
+      "options": ["[[Max|Max]]", "[[Felix|Felix]]", "[[Rex|Rex]]"],
+      "correctAnswer": 2,
       "explanation": "El perro se llama Rex."
     },
     "audioUrl": "audio/a1/unit-6/e54.mp3",
@@ -992,9 +992,9 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[Hi|Hola]], [[I'm|yo soy]] [[Linda|Linda]]. [[My|Mi]] [[family|familia]] [[is|es]] [[quite|bastante]] [[big|grande]]. [[I|Yo]] [[live|vivo]] [[with|con]] [[my|mis]] [[parents|padres]], [[my|mis]] [[two|dos]] [[brothers|hermanos]], [[and|y]] [[my|mi]] [[grandmother|abuela]]. [[My|Mis]] [[parents|padres]] [[are|son]] [[both|ambos]] [[teachers|profesores]] [[at|en]] [[a|una]] [[local|local]] [[school|escuela]]. [[My|Mi]] [[older|mayor]] [[brother|hermano]], [[Sam|Sam]], [[is|tiene]] [[25|25]] [[and|y]] [[he|él]] [[is|es]] [[a|un]] [[chef|cocinero]]. [[My|Mi]] [[younger|menor]] [[brother|hermano]], [[Tom|Tom]], [[is|tiene]] [[15|15]] [[and|y]] [[he|él]] [[is|es]] [[a|un]] [[student|estudiante]]. [[My|Mi]] [[grandmother|abuela]], [[Alice|Alice]], [[is|tiene]] [[80|80]] [[years|años]] [[old|de edad]]. [[She|Ella]] [[is|es]] [[very|muy]] [[active|activa]] [[and|y]] [[loves|ama]] [[gardening|la jardinería]]. [[We|Nosotros]] [[live|vivimos]] [[in|en]] [[a|una]] [[large|grande]] [[house|casa]] [[with|con]] [[a|un]] [[beautiful|hermoso]] [[garden|jardín]].",
     "content": {
-      "title": "Lectura: La Familia de Linda",
-      "instructions": "Lee sobre la familia de Linda.",
-      "text": "Hi, I'm Linda. My family is quite big. I live with my parents, my two brothers, and my grandmother. My parents are both teachers at a local school. My older brother, Sam, is 25 and he is a chef. My younger brother, Tom, is 15 and he is a student. My grandmother, Alice, is 80 years old. She is very active and loves gardening. We live in a large house with a beautiful garden.",
+      "title": "[[Reading|Lectura]]: [[Linda's|de Linda]] [[Family|Familia]]",
+      "instructions": "[[Read|Lee]] [[about|sobre]] [[Linda's|de Linda]] [[family|familia]].",
+      "text": "[[Hi|Hola]], [[I'm|yo soy]] [[Linda|Linda]]. [[My|Mi]] [[family|familia]] [[is|es]] [[quite|bastante]] [[big|grande]]. [[I|Yo]] [[live|vivo]] [[with|con]] [[my|mis]] [[parents|padres]], [[my|mis]] [[two|dos]] [[brothers|hermanos]], [[and|y]] [[my|mi]] [[grandmother|abuela]]. [[My|Mis]] [[parents|padres]] [[are|son]] [[both|ambos]] [[teachers|profesores]] [[at|en]] [[a|una]] [[local|local]] [[school|escuela]]. [[My|Mi]] [[older|mayor]] [[brother|hermano]], [[Sam|Sam]], [[is|tiene]] [[25|25]] [[and|y]] [[he|él]] [[is|es]] [[a|un]] [[chef|cocinero]]. [[My|Mi]] [[younger|menor]] [[brother|hermano]], [[Tom|Tom]], [[is|tiene]] [[15|15]] [[and|y]] [[he|él]] [[is|es]] [[a|un]] [[student|estudiante]]. [[My|Mi]] [[grandmother|abuela]], [[Alice|Alice]], [[is|tiene]] [[80|80]] [[years|años]] [[old|de edad]]. [[She|Ella]] [[is|es]] [[very|muy]] [[active|activa]] [[and|y]] [[loves|ama]] [[gardening|la jardinería]]. [[We|Nosotros]] [[live|vivimos]] [[in|en]] [[a|una]] [[large|grande]] [[house|casa]] [[with|con]] [[a|un]] [[beautiful|hermoso]] [[garden|jardín]].",
       "questions": []
     },
     "audioUrl": "audio/a1/unit-6/e55.mp3",
@@ -1008,10 +1008,10 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[Who|Con quién]] [[does|vive]] [[Linda|Linda]] [[live|vivir]] [[with|con]]?",
     "content": {
-      "title": "Pregunta 1",
-      "instructions": "Selecciona la respuesta correcta.",
-      "options": ["[[With her parents and brothers|Con sus padres y hermanos]]", "[[With her friends|Con sus amigos]]", "[[With her parents, brothers and grandmother|Con sus padres, hermanos y abuela]]"],
-      "correctAnswer": 2,
+      "title": "[[Question|Pregunta]] 1",
+      "instructions": "[[Select|Selecciona]] [[the|la]] [[correct|correcta]] [[answer|respuesta]].",
+      "options": ["[[With her parents and brothers|Con sus padres y hermanos]]", "[[With her parents, brothers and grandmother|Con sus padres, hermanos y abuela]]", "[[With her friends|Con sus amigos]]"],
+      "correctAnswer": 1,
       "explanation": "Linda menciona que vive con sus padres, dos hermanos y su abuela."
     },
     "audioUrl": "audio/a1/unit-6/e56.mp3",
@@ -1025,10 +1025,10 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[What|Cuál]] [[is|es]] [[Sam's|el trabajo de Sam]] [[job|trabajo]]?",
     "content": {
-      "title": "Pregunta 2",
-      "instructions": "Selecciona la respuesta correcta.",
-      "options": ["[[He is a teacher|Es profesor]]", "[[He is a chef|Es cocinero]]", "[[He is a student|Es estudiante]]"],
-      "correctAnswer": 1,
+      "title": "[[Question|Pregunta]] 2",
+      "instructions": "[[Select|Selecciona]] [[the|la]] [[correct|correcta]] [[answer|respuesta]].",
+      "options": ["[[He is a teacher|Es profesor]]", "[[He is a student|Es estudiante]]", "[[He is a chef|Es cocinero]]"],
+      "correctAnswer": 2,
       "explanation": "El texto dice que Sam es chef."
     },
     "audioUrl": "audio/a1/unit-6/e57.mp3",
@@ -1042,10 +1042,10 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[How|Qué edad]] [[old|tiene]] [[is|tiene]] [[Alice|Alice]]?",
     "content": {
-      "title": "Pregunta 3",
-      "instructions": "Selecciona la respuesta correcta.",
-      "options": ["[[Seventy|Setenta]]", "[[Eighty|Ochenta]]", "[[Sixty|Sesenta]]"],
-      "correctAnswer": 1,
+      "title": "[[Question|Pregunta]] 3",
+      "instructions": "[[Select|Selecciona]] [[the|la]] [[correct|correcta]] [[answer|respuesta]].",
+      "options": ["[[Eighty|Ochenta]]", "[[Seventy|Setenta]]", "[[Sixty|Sesenta]]"],
+      "correctAnswer": 0,
       "explanation": "El texto indica que Alice tiene 80 años."
     },
     "audioUrl": "audio/a1/unit-6/e58.mp3",
@@ -1061,9 +1061,9 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[The|La]] [[Miller|Miller]] [[family|familia]] [[lives|vive]] [[in|en]] [[New York|Nueva York]]. [[Mr.|Sr.]] [[Miller|Miller]] [[is|es]] [[a|un]] [[lawyer|abogado]] [[and|y]] [[Mrs.|Sra.]] [[Miller|Miller]] [[is|es]] [[an|una]] [[artist|artista]]. [[They|Ellos]] [[have|tienen]] [[one|un]] [[son|hijo]], [[Leo|Leo]], [[and|y]] [[one|una]] [[daughter|hija]], [[Mia|Mia]]. [[Leo|Leo]] [[is|tiene]] [[12|12]] [[and|y]] [[Mia|Mia]] [[is|tiene]] [[9|9]]. [[They|Ellos]] [[also|también]] [[have|tienen]] [[a|un]] [[cat|gato]] [[named|llamado]] [[Luna|Luna]]. [[Every|Cada]] [[Sunday|domingo]], [[the|la]] [[family|familia]] [[visits|visita]] [[the|a los]] [[grandparents|abuelos]] [[in|en]] [[the|el]] [[countryside|campo]]. [[They|Ellos]] [[love|aman]] [[spending|pasar]] [[time|tiempo]] [[together|juntos]] [[outdoors|al aire libre]].",
     "content": {
-      "title": "Lectura: La Familia Miller",
-      "instructions": "Lee el último texto.",
-      "text": "The Miller family lives in New York. Mr. Miller is a lawyer and Mrs. Miller is an artist. They have one son, Leo, and one daughter, Mia. Leo is 12 and Mia is 9. They also have a cat named Luna. Every Sunday, the family visits the grandparents in the countryside. They love spending time together outdoors.",
+      "title": "[[Reading|Lectura]]: [[The|La]] [[Miller|Miller]] [[Family|Familia]]",
+      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]].",
+      "text": "[[The|La]] [[Miller|Miller]] [[family|familia]] [[lives|vive]] [[in|en]] [[New York|Nueva York]]. [[Mr.|Sr.]] [[Miller|Miller]] [[is|es]] [[a|un]] [[lawyer|abogado]] [[and|y]] [[Mrs.|Sra.]] [[Miller|Miller]] [[is|es]] [[an|una]] [[artist|artista]]. [[They|Ellos]] [[have|tienen]] [[one|un]] [[son|hijo]], [[Leo|Leo]], [[and|y]] [[one|una]] [[daughter|hija]], [[Mia|Mia]]. [[Leo|Leo]] [[is|tiene]] [[12|12]] [[and|y]] [[Mia|Mia]] [[is|tiene]] [[9|9]]. [[They|Ellos]] [[also|también]] [[have|tienen]] [[a|un]] [[cat|gato]] [[named|llamado]] [[Luna|Luna]]. [[Every|Cada]] [[Sunday|domingo]], [[the|la]] [[family|familia]] [[visits|visita]] [[the|a los]] [[grandparents|abuelos]] [[in|en]] [[the|el]] [[countryside|campo]]. [[They|Ellos]] [[love|aman]] [[spending|pasar]] [[time|tiempo]] [[together|juntos]] [[outdoors|al aire libre]].",
       "questions": []
     },
     "audioUrl": "audio/a1/unit-6/e59.mp3",
@@ -1077,10 +1077,10 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[When|Cuándo]] [[do|aux]] [[they|ellos]] [[visit|visitan]] [[their|a sus]] [[grandparents|abuelos]]?",
     "content": {
-      "title": "Pregunta Final",
-      "instructions": "Responde según el texto.",
-      "options": ["[[On Saturdays|Los sábados]]", "[[On Sundays|Los domingos]]", "[[Every day|Todos los días]]"],
-      "correctAnswer": 1,
+      "title": "[[Final|Final]] [[Question|Pregunta]]",
+      "instructions": "[[Answer|Responde]] [[according|según]] [[to|a]] [[the|el]] [[text|texto]].",
+      "options": ["[[On Saturdays|Los sábados]]", "[[Every day|Todos los días]]", "[[On Sundays|Los domingos]]"],
+      "correctAnswer": 2,
       "explanation": "El texto dice que visitan a los abuelos cada domingo."
     },
     "audioUrl": "audio/a1/unit-6/e60.mp3",
