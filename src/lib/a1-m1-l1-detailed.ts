@@ -165,7 +165,7 @@ export const A1_M1_L1_GRAMMAR_1: Exercise = {
       id: 'a1-m1-l1-g1-q15',
       type: 'multiple-choice',
       question: 'Which is correct?',
-      options: ['[[i am happy.|yo estoy feliz (incorrecto)]]', '[[I am happy.|Yo estoy feliz.]]', '[[me am happy.|mí estoy feliz (incorrecto)]]', '[[Am I happy?|¿Estoy yo feliz?]]'],
+      options: ['[[i am happy.|yo estoy feliz]]', '[[I am happy.|Yo estoy feliz.]]', '[[me am happy.|mí estoy feliz]]', '[[Am I happy?|¿Estoy yo feliz?]]'],
       correctAnswer: 'I am happy.',
       explanation: '"I" must be capitalized, and it is the subject of the sentence.',
       points: 1
@@ -294,7 +294,7 @@ export const A1_M1_L1_GRAMMAR_2: Exercise = {
       id: 'a1-m1-l1-g2-q6',
       type: 'multiple-choice',
       question: 'Select the correct contraction for "I am":',
-      options: ['[[I\'is|yo\'es (incorrecto)]]', '[[I\'re|yo\'eres (incorrecto)]]', '[[I\'m|yo soy]]', '[[Im|yo soy (sin apóstrofe)]]'],
+      options: ['[[I\'is|yo\'es]]', '[[I\'re|yo\'eres]]', '[[I\'m|yo soy]]', '[[Im|yo soy]]'],
       correctAnswer: "I'm",
       explanation: '"I\'m" is the only correct contraction for "I am".',
       points: 1
@@ -303,7 +303,7 @@ export const A1_M1_L1_GRAMMAR_2: Exercise = {
       id: 'a1-m1-l1-g2-q7',
       type: 'multiple-choice',
       question: 'Select the correct contraction for "You are":',
-      options: ['[[You\'m|tú\'soy (incorrecto)]]', '[[You\'s|tú\'es (incorrecto)]]', '[[You\'re|tú eres]]', '[[Youre|tú eres (sin apóstrofe)]]'],
+      options: ['[[You\'m|tú\'soy]]', '[[You\'s|tú\'es]]', '[[You\'re|tú eres]]', '[[Youre|tú eres]]'],
       correctAnswer: "You're",
       explanation: '"You\'re" is the correct contraction for "You are".',
       points: 1

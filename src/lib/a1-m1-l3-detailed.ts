@@ -39,7 +39,7 @@ export const A1_M1_L3_GRAMMAR_1: Exercise = {
       id: 'a1-m1-l3-g1-q1',
       type: 'multiple-choice',
       question: 'I ___ sad. I am happy!',
-      options: ['[[am not|no soy/estoy]]', '[[is not|no es/está]]', '[[are not|no eres/estás]]', '[[no am|no soy (incorrecto)]]'],
+      options: ['[[am not|no soy/estoy]]', '[[is not|no es/está]]', '[[are not|no eres/estás]]', '[[no am|no soy]]'],
       correctAnswer: 'am not',
       explanation: 'We use "am not" with "I".',
       points: 1
@@ -48,7 +48,7 @@ export const A1_M1_L3_GRAMMAR_1: Exercise = {
       id: 'a1-m1-l3-g1-q2',
       type: 'multiple-choice',
       question: 'He ___ from France. He is from Spain.',
-      options: ['[[am not|no soy/estoy]]', '[[isn\'t|no es/está]]', '[[aren\'t|no son/están]]', '[[not is|no es (incorrecto)]]'],
+      options: ['[[am not|no soy/estoy]]', '[[isn\'t|no es/está]]', '[[aren\'t|no son/están]]', '[[not is|no es]]'],
       correctAnswer: 'isn\'t',
       explanation: 'We use "isn\'t" (contraction of is not) with "he".',
       points: 1
@@ -57,7 +57,7 @@ export const A1_M1_L3_GRAMMAR_1: Exercise = {
       id: 'a1-m1-l3-g1-q3',
       type: 'multiple-choice',
       question: 'They ___ at school today.',
-      options: ['[[am not|no soy/estoy]]', '[[isn\'t|no es/está]]', '[[aren\'t|no son/están]]', '[[no are|no son (incorrecto)]]'],
+      options: ['[[am not|no soy/estoy]]', '[[isn\'t|no es/está]]', '[[aren\'t|no son/están]]', '[[no are|no son]]'],
       correctAnswer: 'aren\'t',
       explanation: 'We use "aren\'t" (contraction of are not) with "they".',
       points: 1
@@ -84,7 +84,7 @@ export const A1_M1_L3_GRAMMAR_1: Exercise = {
       id: 'a1-m1-l3-g1-q6',
       type: 'multiple-choice',
       question: 'Which contraction is correct for "It is not"?',
-      options: ['[[It\'isnt|ello\'no (incorrecto)]]', '[[It isn\'t|Ello no es]]', '[[It\'s not|Ello no es]]', '[[Both 2 and 3|Ambos 2 y 3]]'],
+      options: ['[[It\'isnt|ello\'no]]', '[[It isn\'t|Ello no es]]', '[[It\'s not|Ello no es]]', '[[Both 2 and 3|Ambos 2 y 3]]'],
       correctAnswer: 'Both 2 and 3',
       explanation: 'Both "It isn\'t" and "It\'s not" are correct contractions.',
       points: 1
@@ -154,7 +154,7 @@ export const A1_M1_L3_GRAMMAR_1: Exercise = {
       id: 'a1-m1-l3-g1-q14',
       type: 'multiple-choice',
       question: 'Which one is correct?',
-      options: ['[[You no are a student.|tú no eres estudiante (incorrecto)]]', '[[You are not a student.|Tú no eres estudiante.]]', '[[You not is a student.|tú no es estudiante (incorrecto)]]', '[[You am not a student.|tú soy no estudiante (incorrecto)]]'],
+      options: ['[[You no are a student.|tú no eres estudiante]]', '[[You are not a student.|Tú no eres estudiante.]]', '[[You not is a student.|tú no es estudiante]]', '[[You am not a student.|tú soy no estudiante]]'],
       correctAnswer: 'You are not a student.',
       explanation: '"You are not" is the correct negative form.',
       points: 1
@@ -286,7 +286,7 @@ export const A1_M1_L3_GRAMMAR_2: Exercise = {
       id: 'a1-m1-l3-g2-q5',
       type: 'multiple-choice',
       question: 'Is it cold today? - No, it ___.',
-      options: ['[[am not|no soy/estoy]]', '[[isn\'t|no es/está]]', '[[aren\'t|no son/están]]', '[[no is|no es (incorrecto)]]'],
+      options: ['[[am not|no soy/estoy]]', '[[isn\'t|no es/está]]', '[[aren\'t|no son/están]]', '[[no is|no es]]'],
       correctAnswer: 'isn\'t',
       explanation: 'Short answer negative for it.',
       points: 1
@@ -312,7 +312,7 @@ export const A1_M1_L3_GRAMMAR_2: Exercise = {
       id: 'a1-m1-l3-g2-q8',
       type: 'multiple-choice',
       question: 'Am I late? - No, you ___.',
-      options: ['[[am not|no soy/estoy]]', '[[aren\'t|no eres/estás]]', '[[isn\'t|no es/está]]', '[[not are|no eres (incorrecto)]]'],
+      options: ['[[am not|no soy/estoy]]', '[[aren\'t|no eres/estás]]', '[[isn\'t|no es/está]]', '[[not are|no eres]]'],
       correctAnswer: 'aren\'t',
       explanation: 'If the question is "Am I...?", the answer is "No, you aren\'t".',
       points: 1

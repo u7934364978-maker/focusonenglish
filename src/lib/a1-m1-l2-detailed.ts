@@ -306,7 +306,7 @@ export const A1_M1_L2_GRAMMAR_2: Exercise = {
       id: 'a1-m1-l2-g2-q7',
       type: 'multiple-choice',
       question: 'Which contraction is correct for "He is"?',
-      options: ['[[Hes|Él es (sin apóstrofe)]]', '[[He\'s|Él es]]', '[[He\'is|él\'es (incorrecto)]]', '[[H\'is|h\'es (incorrecto)]]'],
+      options: ['[[Hes|Él es]]', '[[He\'s|Él es]]', '[[He\'is|él\'es]]', '[[H\'is|h\'es]]'],
       correctAnswer: "He's",
       explanation: '"He\'s" is the standard contraction.',
       points: 1
@@ -315,7 +315,7 @@ export const A1_M1_L2_GRAMMAR_2: Exercise = {
       id: 'a1-m1-l2-g2-q8',
       type: 'multiple-choice',
       question: 'Which contraction is correct for "They are"?',
-      options: ['[[Theyr|ellos son (sin apóstrofe)]]', '[[Theyre|ellos son (incorrecto)]]', '[[They\'re|Ellos son]]', '[[They\'ar|ellos\'son (incorrecto)]]'],
+      options: ['[[Theyr|ellos son]]', '[[Theyre|ellos son]]', '[[They\'re|Ellos son]]', '[[They\'ar|ellos\'son]]'],
       correctAnswer: "They're",
       explanation: '"They\'re" is the standard contraction.',
       points: 1
