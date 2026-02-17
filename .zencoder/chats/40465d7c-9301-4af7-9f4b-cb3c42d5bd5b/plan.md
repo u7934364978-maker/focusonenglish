@@ -67,8 +67,8 @@ Mandatory approval before writing E2E tests.
 ### [ ] Phase 5: Refinements & Quality Control (Ongoing)
 - [x] **Pedagogical Refinement**: Remove meta-hints like "(incorrecto)" or "(falta 's)" from translations across Units 1, 2, 3, and 5.
 - [x] **Logic Fixes (Unit 5)**: Update Exercise 35 (and Exercise 21) instructions to provide necessary context for relationships.
-- [x] **Logic Fixes (Unit 6)**: Update Exercise 31 and 33 to provide necessary context/prompts for students.
+- [x] **Logic Fixes (Unit 6)**: Update Exercise 31, 33, 17, and 18 to provide necessary context/prompts for students.
 - [x] **Clean Translations (Unit 6)**: Remove meta-hints like "(incorrecto)" from Unit 6 exercises (e.g., Exercise 35, 24, 25, 41).
 - [x] **Tooltip Consistency**: Ensure all multiple-choice options have `[[text|translation]]` format.
-- [ ] **Deployment**: Push and verify latest commit hash.
+- [x] **Deployment**: Push and verify latest commit hash. (0192ee45)
 - [ ] **Acknowledge Completion**: Request user confirmation for the completed phases.

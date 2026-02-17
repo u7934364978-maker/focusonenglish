@@ -308,6 +308,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Relaciones",
       "instructions": "Elige la palabra correcta.",
+      "question": "[[My|Mi]] [[mother's|de la madre]] [[sister|hermana]] [[is|es]] [[my|mi]]...",
       "options": ["[[uncle|tío]]", "[[niece|sobrina]]", "[[aunt|tía]]"],
       "correctAnswer": 2,
       "explanation": "La hermana de tu madre es tu tía."
@@ -325,6 +326,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Relaciones",
       "instructions": "Elige la palabra correcta.",
+      "question": "[[My|Mi]] [[father's|del padre]] [[brother|hermano]] [[is|es]] [[my|mi]]...",
       "options": ["[[uncle|tío]]", "[[nephew|sobrino]]", "[[cousin|primo]]"],
       "correctAnswer": 0,
       "explanation": "El hermano de tu padre es tu tío."
