@@ -197,7 +197,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Posesivo 's",
       "instructions": "Elige la forma correcta para indicar posesión.",
-      "options": ["[[John car|incorrecto]]", "[[John's car|el coche de John]]", "[[John is car|incorrecto]]"],
+      "options": ["[[John car|John coche (falta 's)]]", "[[John's car|el coche de John]]", "[[John is car|John es coche (incorrecto)]]"],
       "correctAnswer": 1,
       "explanation": "Añadimos 's al poseedor para indicar que algo le pertenece."
     },
@@ -214,7 +214,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "El libro de mi hermana",
       "instructions": "Selecciona la opción gramaticalmente correcta.",
-      "options": ["[[sister book|incorrecto]]", "[[sister's book|libro de la hermana]]", "[[sisters book|incorrecto]]"],
+      "options": ["[[sister book|hermana libro (falta 's)]]", "[[sister's book|libro de la hermana]]", "[[sisters book|hermanas libro (incorrecto)]]"],
       "correctAnswer": 1,
       "explanation": "Sister's indica 'de mi hermana'."
     },
@@ -269,7 +269,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Nombre del perro",
       "instructions": "Elige la opción correcta.",
-      "options": ["[[The dogs name|incorrecto]]", "[[The dog's name|el nombre del perro]]", "[[The name dog|incorrecto]]"],
+      "options": ["[[The dogs name|El nombre los perros (incorrecto)]]", "[[The dog's name|el nombre del perro]]", "[[The name dog|El nombre perro (incorrecto)]]"],
       "correctAnswer": 1,
       "explanation": "Incluso con animales usamos 's para posesión."
     },
@@ -320,7 +320,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Posesivo plural",
       "instructions": "Cuando el plural acaba en 's', ¿cómo es el posesivo?",
-      "options": ["[[parent's|de un padre]]", "[[parents's|incorrecto]]", "[[parents'|de los padres]]"],
+      "options": ["[[parent's|de un padre]]", "[[parents's|padres's (incorrecto)]]", "[[parents'|de los padres]]"],
       "correctAnswer": 2,
       "explanation": "Si la palabra ya termina en 's' por ser plural, solo añadimos el apóstrofe."
     },
@@ -413,7 +413,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Posesivo de irregular",
       "instructions": "Elige la forma correcta para 'children'.",
-      "options": ["[[childrens'|incorrecto]]", "[[children's|de los niños]]", "[[childrens|incorrecto]]"],
+      "options": ["[[childrens'|niños' (incorrecto)]]", "[[children's|de los niños]]", "[[childrens|niños (incorrecto)]]"],
       "correctAnswer": 1,
       "explanation": "Aunque 'children' es plural, no termina en 's', por lo que añadimos 's."
     },
@@ -845,7 +845,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Identificar",
       "instructions": "Elige la opción correcta.",
-      "options": ["[[Maria husband|incorrecto]]", "[[Maria's husband|marido de Maria]]", "[[Husband Maria|incorrecto]]"],
+      "options": ["[[Maria husband|Maria marido (incorrecto)]]", "[[Maria's husband|marido de Maria]]", "[[Husband Maria|marido Maria (incorrecto)]]"],
       "correctAnswer": 1,
       "explanation": "Estructura del genitivo sajón."
     },
