@@ -420,6 +420,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Eye|Ojo]] [[Color|Color]]",
       "instructions": "[[Identify|Identifica]] [[the|el]] [[color|color]] [[suggested|sugerido]].",
+      "question": "[[Your|Tus]] [[eyes|ojos]] [[are|son]] [[the|del]] [[color|color]] [[of|de]] [[the|el]] [[ocean|océano]]. [[They|Ellos]] [[are|son]]...",
       "options": ["[[brown|marrones]]", "[[blue|azules]]", "[[green|verdes]]"],
       "correctAnswer": 1,
       "explanation": "[[The|El]] [[ocean|océano]] [[is|es]] [[blue|azul]]."
