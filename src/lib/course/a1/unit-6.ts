@@ -761,6 +761,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Relaciones",
       "instructions": "Completa la lógica.",
+      "question": "[[My|Mi]] [[mother|madre]] [[is|es]] [[the|la]] (_____) [[of|de]] [[my|mi]] [[father|padre]].",
       "options": ["[[sister|hermana]]", "[[wife|esposa]]", "[[aunt|tía]]"],
       "correctAnswer": 1,
       "explanation": "La madre es la esposa del padre."
@@ -799,6 +800,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Estado civil",
       "instructions": "Elige la palabra lógica.",
+      "question": "[[I|Yo]] [[am|soy]] [[married|casado]]. [[I|Yo]] [[have|tengo]] [[a|una]]...",
       "options": ["[[sister|hermana]]", "[[wife|esposa]]", "[[mother|madre]]"],
       "correctAnswer": 1,
       "explanation": "Si un hombre está casado, tiene una esposa."
@@ -871,6 +873,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Definición",
       "instructions": "Elige la palabra correcta.",
+      "question": "[[A|Una]] [[niece|sobrina]] [[is|es]] [[the|la]] (_____) [[of|de]] [[your|tu]] [[brother|hermano]] [[or|o]] [[sister|hermana]].",
       "options": ["[[son|hijo]]", "[[daughter|hija]]", "[[mother|madre]]"],
       "correctAnswer": 1,
       "explanation": "Niece es la sobrina (femenino)."
