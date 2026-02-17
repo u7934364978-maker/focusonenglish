@@ -215,6 +215,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Age|La Edad]]",
       "instructions": "[[Identify|Identifica]] [[the|el]] [[adjective|adjetivo]] [[based|basado]] [[on|en]] [[age|la edad]].",
+      "question": "[[My|Mi]] [[grandfather|abuelo]] [[is|tiene]] [[eighty-five|85]] [[years|años]]. [[He|Él]] [[is|es]]...",
       "options": ["[[young|joven]]", "[[new|nuevo]]", "[[old|viejo/mayor]]"],
       "correctAnswer": 2,
       "explanation": "85 [[years|años]] [[is|es]] [[considered|considerado]] [[old|viejo]]."

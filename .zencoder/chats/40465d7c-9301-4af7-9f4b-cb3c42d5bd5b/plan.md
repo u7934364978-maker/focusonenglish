@@ -68,8 +68,8 @@ Mandatory approval before writing E2E tests.
 - [x] **Pedagogical Refinement**: Remove meta-hints like "(incorrecto)" or "(falta 's)" from translations across Units 1, 2, 3, and 5.
 - [x] **Logic Fixes (Unit 5)**: Update Exercise 35 (and Exercise 21) instructions to provide necessary context for relationships.
 - [x] **Logic Fixes (Unit 6)**: Update Exercise 31, 33, 17, 18, 42, 44, and 48 to provide necessary context/prompts for students.
-- [ ] **Logic Fixes (Unit 7)**: Update Exercise 9 to provide necessary context about Flamingos.
+- [x] **Logic Fixes (Unit 7)**: Update Exercise 9 and 12 to provide necessary context about Flamingos and Age.
 - [x] **Clean Translations (Unit 6)**: Remove meta-hints like "(incorrecto)" from Unit 6 exercises (e.g., Exercise 35, 24, 25, 41).
 - [x] **Tooltip Consistency**: Ensure all multiple-choice options have `[[text|translation]]` format.
-- [x] **Deployment**: Push and verify latest commit hash. (e45a4847)
+- [x] **Deployment**: Push and verify latest commit hash. (7a2cda4f)
 - [ ] **Acknowledge Completion**: Request user confirmation for the completed phases.
