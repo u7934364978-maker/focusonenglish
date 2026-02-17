@@ -40,6 +40,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Los Padres",
       "instructions": "Elige el término colectivo correcto.",
+      "question": "[[He|Él]] [[is|es]] [[my|mi]] [[father|padre]]. [[She|Ella]] [[is|es]] [[my|mi]] [[mother|madre]]. [[They|Ellos]] [[are|son]] [[my|mis]] (____).",
       "options": ["[[uncles|tíos]]", "[[parents|padres]]", "[[siblings|hermanos]]"],
       "correctAnswer": 1,
       "explanation": "Padre y madre se llaman 'parents'."
@@ -57,6 +58,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Hijos",
       "instructions": "Selecciona la palabra adecuada.",
+      "question": "[[My|Mi]] [[son|hijo]] [[and|y]] [[my|mi]] [[daughter|hija]] [[are|son]] [[my|mis]] (____).",
       "options": ["[[children|hijos]]", "[[parents|padres]]", "[[friends|amigos]]"],
       "correctAnswer": 0,
       "explanation": "El hijo y la hija son tus 'children'."
@@ -74,6 +76,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Esposa",
       "instructions": "Elige la profesión o relación lógica.",
+      "question": "[[I|Yo]] [[am|estoy]] [[married|casado]]. [[This|Esta]] [[is|es]] [[my|mi]] (____).",
       "options": ["[[sister|hermana]]", "[[daughter|hija]]", "[[wife|esposa]]"],
       "correctAnswer": 2,
       "explanation": "Si un hombre está casado, presenta a su 'wife'."
@@ -91,6 +94,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Hermana",
       "instructions": "Identifica la relación.",
+      "question": "[[Peter|Peter]] [[has|tiene]] [[a|una]] (____). [[Her|Su]] [[name|nombre]] [[is|es]] [[Mary|Mary]].",
       "options": ["[[brother|hermano]]", "[[sister|hermana]]", "[[mother|madre]]"],
       "correctAnswer": 1,
       "explanation": "Mary es un nombre femenino, por lo tanto es 'sister'."
@@ -142,6 +146,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pregunta de familia",
       "instructions": "Elige la palabra correcta.",
+      "question": "[[Are|¿Son]] [[they|ellos]] [[your|tus]] (____)?",
       "options": ["[[children|hijos]]", "[[parents|padres]]", "[[husband|esposo]]"],
       "correctAnswer": 1,
       "explanation": "Se refiere a la pareja de padre y madre."
@@ -159,6 +164,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mi padre",
       "instructions": "Elige el miembro masculino de la pareja de padres.",
+      "question": "[[My|Mi]] (____) [[is|es]] [[a|un]] [[doctor|médico]].",
       "options": ["[[mother|madre]]", "[[father|padre]]", "[[sister|hermana]]"],
       "correctAnswer": 1,
       "explanation": "Father es el término masculino."
@@ -176,6 +182,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Relación",
       "instructions": "Elige el término para el hombre en el matrimonio.",
+      "question": "[[My|Mi]] (____) [[is|es]] [[tall|alto]].",
       "options": ["[[wife|esposa]]", "[[husband|esposo]]", "[[daughter|hija]]"],
       "correctAnswer": 1,
       "explanation": "Husband es esposo."
@@ -197,6 +204,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Posesivo 's",
       "instructions": "Elige la forma correcta para indicar posesión.",
+      "question": "[[This|Este]] [[is|es]] (____) [[car|coche]].",
       "options": ["[[John car|John coche]]", "[[John's car|el coche de John]]", "[[John is car|John es coche]]"],
       "correctAnswer": 1,
       "explanation": "Añadimos 's al poseedor para indicar que algo le pertenece."
@@ -214,6 +222,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "El libro de mi hermana",
       "instructions": "Selecciona la opción gramaticalmente correcta.",
+      "question": "[[Where|Dónde]] [[is|está]] [[my|de mi]] (____) [[book|libro]]?",
       "options": ["[[sister book|hermana libro]]", "[[sister's book|libro de la hermana]]", "[[sisters book|hermanas libro]]"],
       "correctAnswer": 1,
       "explanation": "Sister's indica 'de mi hermana'."
@@ -269,6 +278,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Nombre del perro",
       "instructions": "Elige la opción correcta.",
+      "question": "(____) [[is|es]] [[Rex|Rex]].",
       "options": ["[[The dogs name|El nombre los perros]]", "[[The dog's name|el nombre del perro]]", "[[The name dog|El nombre perro]]"],
       "correctAnswer": 1,
       "explanation": "Incluso con animales usamos 's para posesión."
@@ -286,6 +296,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Preguntar de quién",
       "instructions": "Selecciona la palabra interrogativa para posesión.",
+      "question": "(____) [[car|coche]] [[is|es]] [[this|este]]?",
       "options": ["[[Who|Quién]]", "[[What|Qué]]", "[[Whose|De quién]]"],
       "correctAnswer": 2,
       "explanation": "Whose se usa exclusivamente para preguntar por el dueño de algo."
@@ -320,6 +331,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Posesivo plural",
       "instructions": "Cuando el plural acaba en 's', ¿cómo es el posesivo?",
+      "question": "[[My|Mis]] (____) [[house|casa]] [[is|es]] [[big|grande]].",
       "options": ["[[parent's|de un padre]]", "[[parents's|padres's]]", "[[parents'|de los padres]]"],
       "correctAnswer": 2,
       "explanation": "Si la palabra ya termina en 's' por ser plural, solo añadimos el apóstrofe."
@@ -357,7 +369,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "transcript": "[[My|Mi]] [[mother's|de mi madre]] [[sister|hermana]] [[is|es]] [[my|mi]] [[aunt|tía]].",
     "content": {
       "title": "Relaciones familiares",
-      "instructions": "[[My|Mi]] [[mother's|de mi madre]] [[sister|hermana]] [[is|es]] [[my|mi]]...",
+      "instructions": "Completa la relación lógica.",
+      "question": "[[My|Mi]] [[mother's|de mi madre]] [[sister|hermana]] [[is|es]] [[my|mi]] (____).",
       "options": ["[[grandmother|abuela]]", "[[aunt|tía]]", "[[cousin|prima]]"],
       "correctAnswer": 1,
       "explanation": "La hermana de tu madre es tu tía."
@@ -413,6 +426,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Posesivo de irregular",
       "instructions": "Elige la forma correcta para 'children'.",
+      "question": "[[Their|Su]] (____) [[names|nombres]] [[are|son]] [[Ben|Ben]] [[and|y]] [[Lucy|Lucy]].",
       "options": ["[[childrens'|niños']]", "[[children's|de los niños]]", "[[childrens|niños]]"],
       "correctAnswer": 1,
       "explanation": "Aunque 'children' es plural, no termina en 's', por lo que añadimos 's."
@@ -472,6 +486,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pregunta plural",
       "instructions": "Elige la palabra interrogativa.",
+      "question": "(____) [[keys|llaves]] [[are|son]] [[these|estas]]?",
       "options": ["[[Whose|De quién]]", "[[Who|Quién]]", "[[Which|Cuál]]"],
       "correctAnswer": 0,
       "explanation": "Whose se usa para plural y singular."
@@ -506,6 +521,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Abuelo",
       "instructions": "Completa la relación.",
+      "question": "[[Your|Tu]] [[mother's|de tu madre]] [[father|padre]] [[is|es]] [[your|tu]] (____).",
       "options": ["[[uncle|tío]]", "[[grandfather|abuelo]]", "[[brother|hermano]]"],
       "correctAnswer": 1,
       "explanation": "El padre de tu madre es tu abuelo."
@@ -523,6 +539,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Abuela",
       "instructions": "Completa la relación.",
+      "question": "[[Your|Tu]] [[father's|de tu padre]] [[mother|madre]] [[is|es]] [[your|tu]] (____).",
       "options": ["[[aunt|tía]]", "[[grandmother|abuela]]", "[[sister|hermana]]"],
       "correctAnswer": 1,
       "explanation": "La madre de tu padre es tu abuela."
@@ -561,6 +578,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Vocabulario: Estado Civil",
       "instructions": "Elige el adjetivo correcto.",
+      "question": "[[My|Mi]] [[sister|hermana]] [[is|es]] [[not|no]] [[single|soltera]]. [[She|Ella]] [[is|está]] (____).",
       "options": ["[[single|soltera]]", "[[married|casada]]", "[[young|joven]]"],
       "correctAnswer": 1,
       "explanation": "Married significa casada."
@@ -595,6 +613,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Primo",
       "instructions": "Elige el pariente correcto.",
+      "question": "[[Is|¿Es]] [[he|él]] [[your|tu]] [[brother|hermano]]? [[No|No]], [[he|él]] [[is|es]] [[my|mi]] (____).",
       "options": ["[[brother|hermano]]", "[[cousin|primo]]", "[[father|padre]]"],
       "correctAnswer": 1,
       "explanation": "El hijo de tu tío es tu cousin."
@@ -632,7 +651,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "transcript": "[[My|Mi]] [[mother's|de mi madre]] [[mother|madre]] [[is|es]] [[my|mi]] [[grandmother|abuela]].",
     "content": {
       "title": "Relación",
-      "instructions": "[[My|Mi]] [[mother's|de mi madre]] [[mother|madre]] [[is|es]] [[my|mi]]...",
+      "instructions": "Completa la lógica.",
+      "question": "[[My|Mi]] [[mother's|de mi madre]] [[mother|madre]] [[is|es]] [[my|mi]] (____).",
       "options": ["[[aunt|tía]]", "[[grandmother|abuela]]", "[[sister|hermana]]"],
       "correctAnswer": 1,
       "explanation": "Tu abuela es la madre de tu madre."
@@ -667,6 +687,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Sobrino",
       "instructions": "Identifica al niño.",
+      "question": "[[My|Mi]] [[brother|hermano]] [[has|tiene]] [[a|un]] [[son|hijo]]. [[He|Él]] [[is|es]] [[my|mi]] (____).",
       "options": ["[[nephew|sobrino]]", "[[niece|sobrina]]", "[[son|hijo]]"],
       "correctAnswer": 0,
       "explanation": "El hijo de tu hermano es tu nephew."
@@ -684,6 +705,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Sobrina",
       "instructions": "Identifica a la niña.",
+      "question": "[[My|Mi]] [[sister|hermana]] [[has|tiene]] [[a|una]] [[daughter|hija]]. [[She|Ella]] [[is|es]] [[my|mi]] (____).",
       "options": ["[[nephew|sobrino]]", "[[niece|sobrina]]", "[[daughter|hija]]"],
       "correctAnswer": 1,
       "explanation": "La hija de tu hermana es tu niece."
@@ -722,6 +744,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Sinónimo",
       "instructions": "Elige la palabra general para hermanos.",
+      "question": "[[John|John]] [[and|y]] [[Mary|Mary]] [[are|son]] [[brother|hermano]] [[and|y]] [[sister|hermana]]. [[They|Ellos]] [[are|son]] (____).",
       "options": ["[[parents|padres]]", "[[siblings|hermanos]]", "[[cousins|primos]]"],
       "correctAnswer": 1,
       "explanation": "Siblings incluye tanto hermanos como hermanas."
@@ -756,6 +779,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Cuñado",
       "instructions": "Identifica la relación.",
+      "question": "[[The|El]] [[brother|hermano]] [[of|de]] [[my|mi]] [[wife|esposa]] [[is|es]] [[my|mi]] (____).",
       "options": ["[[father-in-law|suegro]]", "[[brother-in-law|cuñado]]", "[[son-in-law|yerno]]"],
       "correctAnswer": 1,
       "explanation": "El hermano de tu esposa es tu brother-in-law."
@@ -773,6 +797,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Cuñada",
       "instructions": "Identifica la relación.",
+      "question": "[[The|La]] [[sister|hermana]] [[of|de]] [[my|mi]] [[husband|esposo]] [[is|es]] [[my|mi]] (____).",
       "options": ["[[mother-in-law|suegra]]", "[[sister-in-law|cuñada]]", "[[daughter-in-law|nuera]]"],
       "correctAnswer": 1,
       "explanation": "La hermana de tu esposo es tu sister-in-law."
@@ -811,6 +836,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Adjetivo",
       "instructions": "Elige el adjetivo lógico.",
+      "question": "[[My|Mi]] [[parents|padres]] [[are|son]] [[very|muy]] [[happy|felices]] [[together|juntos]]. [[They|Ellos]] [[are|están]] (____).",
       "options": ["[[sad|tristes]]", "[[happy|felices]]", "[[angry|enfadados]]"],
       "correctAnswer": 1,
       "explanation": "Generalmente describimos familias de forma positiva: happy."
@@ -845,6 +871,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Identificar",
       "instructions": "Elige la opción correcta.",
+      "question": "[[Who|¿Quién]] [[is|es]] [[David|David]]? [[He|Él]] [[is|es]] (____).",
       "options": ["[[Maria husband|Maria marido]]", "[[Maria's husband|marido de Maria]]", "[[Husband Maria|marido Maria]]"],
       "correctAnswer": 1,
       "explanation": "Estructura del genitivo sajón."
@@ -883,6 +910,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pregunta general",
       "instructions": "Selecciona la conjunción.",
+      "question": "[[Do|¿Tienes]] [[you|tú]] [[have|tienes]] [[any|algún]] [[brother|hermano]] (____) [[sister|hermana]]?",
       "options": ["[[and|y]]", "[[but|pero]]", "[[or|o]]"],
       "correctAnswer": 2,
       "explanation": "Usamos 'or' para preguntar entre alternativas."

@@ -38,11 +38,12 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[She|Ella]] [[works|trabaja]] [[in|en]] [[a|una]] [[school|escuela]]. [[She|Ella]] [[is|es]] [[a|una]] [[teacher|profesora]].",
     "content": {
-      "title": "Identificar profesión",
-      "instructions": "Elige la profesión lógica.",
+      "title": "[[Identify|Identificar]] [[Profession|Profesión]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[logical|lógica]] [[profession|profesión]].",
+      "question": "[[She|Ella]] [[works|trabaja]] [[in|en]] [[a|una]] [[school|escuela]]. [[She|Ella]] [[is|es]] [[a|una]] (____).",
       "options": ["[[doctor|médico]]", "[[teacher|profesora]]", "[[driver|conductora]]"],
       "correctAnswer": 1,
-      "explanation": "Alguien que trabaja en una escuela suele ser profesor/a."
+      "explanation": "[[Someone|Alguien]] [[who|que]] [[works|trabaja]] [[in|en]] [[a|una]] [[school|escuela]] [[is|es]] [[a|una]] [[teacher|profesora]]."
     },
     "audioUrl": "audio/a1/unit-9/e2.mp3",
     "topicName": "Vocabulary"
@@ -55,11 +56,12 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[He|Él]] [[helps|ayuda]] [[sick|enfermas]] [[people|personas]]. [[He|Él]] [[is|es]] [[a|un]] [[doctor|médico]].",
     "content": {
-      "title": "Identificar profesión",
-      "instructions": "Elige la profesión lógica.",
+      "title": "[[Identify|Identificar]] [[Profession|Profesión]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[logical|lógica]] [[profession|profesión]].",
+      "question": "[[He|Él]] [[helps|ayuda]] [[sick|enfermas]] [[people|personas]]. [[He|Él]] [[is|es]] [[a|un]] (____).",
       "options": ["[[doctor|médico]]", "[[artist|artista]]", "[[waiter|camarero]]"],
       "correctAnswer": 0,
-      "explanation": "Los médicos ayudan a las personas enfermas."
+      "explanation": "[[Doctors|Médicos]] [[help|ayudan]] [[sick|enfermas]] [[people|personas]]."
     },
     "audioUrl": "audio/a1/unit-9/e3.mp3",
     "topicName": "Vocabulary"
@@ -219,7 +221,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "Preguntas de lugar",
       "instructions": "Elige la pregunta correcta.",
-      "options": ["[[Where he work?|Incorrecto]]", "[[Where does he work?|¿Dónde trabaja él?]]", "[[Where do he work?|Incorrecto]]"],
+      "options": ["[[Where he work?|¿Dónde él trabajar?]]", "[[Where does he work?|¿Dónde trabaja él?]]", "[[Where do he work?|¿Dónde él trabaja?]]"],
       "correctAnswer": 1,
       "explanation": "En 3ª persona singular usamos 'does' en preguntas."
     },
@@ -270,7 +272,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "Preguntar ocupación",
       "instructions": "Elige la pregunta estándar para preguntar qué hace alguien.",
-      "options": ["[[What are you?|Incorrecto]]", "[[What do you do?|¿A qué te dedicas?]]", "[[What is your work?|Incorrecto]]"],
+      "options": ["[[What are you?|¿Qué eres tú?]]", "[[What do you do?|¿A qué te dedicas?]]", "[[What is your work?|¿Cuál es tu trabajo?]]"],
       "correctAnswer": 1,
       "explanation": "What do you do? es la forma natural de preguntar la profesión."
     },
@@ -321,7 +323,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "Respuesta corta",
       "instructions": "Elige la respuesta gramaticalmente correcta.",
-      "options": ["[[Yes, I work.|Incorrecto]]", "[[Yes, I do.|Sí.]]", "[[Yes, I am.|Incorrecto]]"],
+      "options": ["[[Yes, I work.|Sí, yo trabajo.]]", "[[Yes, I do.|Sí.]]", "[[Yes, I am.|Sí, yo soy.]]"],
       "correctAnswer": 1,
       "explanation": "En respuestas cortas usamos el auxiliar 'do'."
     },
@@ -338,7 +340,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "Respuesta corta negativa",
       "instructions": "Selecciona la respuesta negativa.",
-      "options": ["[[No, she don't.|Incorrecto]]", "[[No, she not work.|Incorrecto]]", "[[No, she doesn't.|No.]]"],
+      "options": ["[[No, she don't.|No, ella no.]]", "[[No, she not work.|No, ella no trabaja.]]", "[[No, she doesn't.|No.]]"],
       "correctAnswer": 2,
       "explanation": "La negación de 'does' es 'doesn't'."
     },
@@ -563,7 +565,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "Artículos Review",
       "instructions": "Elige la opción gramaticalmente perfecta.",
-      "options": ["[[a artist / a doctor|Incorrecto]]", "[[an artist / a doctor|Correcto]]", "[[an artist / an doctor|Incorrecto]]"],
+      "options": ["[[a artist / a doctor|un artista / un médico]]", "[[an artist / a doctor|un artista / un médico]]", "[[an artist / an doctor|un artista / un médico]]"],
       "correctAnswer": 1,
       "explanation": "An artist (vocal) / a doctor (consonante)."
     },
@@ -851,7 +853,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "Oficina",
       "instructions": "Elige la opción correcta.",
-      "options": ["[[A office worker|Incorrecto]]", "[[An office worker|Correcto]]", "[[The office worker|Incorrecto]]"],
+      "options": ["[[A office worker|Un oficinista]]", "[[An office worker|Un oficinista]]", "[[The office worker|El oficinista]]"],
       "correctAnswer": 1,
       "explanation": "An office worker es la forma correcta (vocal)."
     },
@@ -885,7 +887,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pregunta de Confirmación",
       "instructions": "Elige la respuesta correcta.",
-      "options": ["[[Yes, he is.|Sí, lo es.]]", "[[Yes, he does.|Incorrecto]]", "[[Yes, he works.|Incorrecto]]"],
+      "options": ["[[Yes, he is.|Sí, lo es.]]", "[[Yes, he does.|Sí, él lo hace.]]", "[[Yes, he works.|Sí, él trabaja.]]"],
       "correctAnswer": 0,
       "explanation": "Si la pregunta empieza por 'Is', respondemos con 'is'."
     },

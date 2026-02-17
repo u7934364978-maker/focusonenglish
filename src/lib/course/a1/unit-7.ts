@@ -42,6 +42,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[The|El]] [[Sky|Cielo]]",
       "instructions": "[[Select|Selecciona]] [[the|el]] [[correct|correcto]] [[color|color]] [[to|para]] [[complete|completar]] [[the|la]] [[sentence|oración]].",
+      "question": "[[The|El]] [[sky|cielo]] [[is|está]] (____).",
       "options": ["[[green|verde]]", "[[blue|azul]]", "[[red|rojo]]"],
       "correctAnswer": 1,
       "explanation": "[[The|El]] [[clear|despejado]] [[sky|cielo]] [[is|es]] [[blue|azul]]."
@@ -58,6 +59,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Nature|Naturaleza]]",
       "instructions": "[[Choose|Elige]] [[the|el]] [[appropriate|adecuado]] [[color|color]].",
+      "question": "[[The|La]] [[grass|hierba]] [[is|es]] (____).",
       "options": ["[[green|verde]]", "[[yellow|amarillo]]", "[[purple|morado]]"],
       "correctAnswer": 0,
       "explanation": "[[Grass|Hierba]] [[is|es]] [[typically|típicamente]] [[green|verde]]."
@@ -74,6 +76,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Fruits|Frutas]]",
       "instructions": "[[Identify|Identifica]] [[the|el]] [[color|color]] [[of|de]] [[the|la]] [[banana|banana]].",
+      "question": "[[A|Un]] [[banana|plátano]] [[is|es]] (____).",
       "options": ["[[black|negro]]", "[[yellow|amarillo]]", "[[white|blanco]]"],
       "correctAnswer": 1,
       "explanation": "[[Ripe|Maduro]] [[bananas|plátanos]] [[are|son]] [[yellow|amarillos]]."
@@ -90,6 +93,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Fruits|Frutas]]",
       "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[color|color]] [[for|para]] [[the|la]] [[berry|baya]].",
+      "question": "[[Strawberries|Las fresas]] [[are|son]] (____).",
       "options": ["[[blue|azul]]", "[[red|rojo]]", "[[grey|gris]]"],
       "correctAnswer": 1,
       "explanation": "[[Strawberries|Fresas]] [[are|son]] [[red|rojas]]."
@@ -106,6 +110,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Drinks|Bebidas]]",
       "instructions": "[[Select|Selecciona]] [[the|el]] [[color|color]] [[of|de]] [[the|la]] [[milk|leche]].",
+      "question": "[[The|La]] [[milk|leche]] [[is|es]] (____).",
       "options": ["[[white|blanca]]", "[[pink|rosa]]", "[[brown|marrón]]"],
       "correctAnswer": 0,
       "explanation": "[[Milk|Leche]] [[is|es]] [[white|blanca]]."
@@ -122,6 +127,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[The|La]] [[Night|Noche]]",
       "instructions": "[[Choose|Elige]] [[the|el]] [[darkest|más oscuro]] [[color|color]].",
+      "question": "[[The|La]] [[night|noche]] [[is|es]] (____).",
       "options": ["[[yellow|amarillo]]", "[[black|negro]]", "[[orange|naranja]]"],
       "correctAnswer": 1,
       "explanation": "[[Black|Negro]] [[is|es]] [[the|el]] [[color|color]] [[of|de]] [[the|la]] [[dark|oscura]] [[night|noche]]."
@@ -138,6 +144,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Vegetables|Verduras]]",
       "instructions": "[[What|Qué]] [[color|color]] [[is|es]] [[this|esta]] [[vegetable|verdura]]?",
+      "question": "[[Carrots|Las zanahorias]] [[are|son]] (____).",
       "options": ["[[purple|morado]]", "[[green|verde]]", "[[orange|naranja]]"],
       "correctAnswer": 2,
       "explanation": "[[Carrots|Zanahorias]] [[are|son]] [[orange|naranjas]]."
@@ -171,6 +178,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Drinks|Bebidas]]",
       "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[shade|tono]] [[for|para]] [[black|negro]] [[coffee|café]].",
+      "question": "[[Black|Negro]] [[coffee|café]] [[is|es]] (____).",
       "options": ["[[brown|marrón]]", "[[silver|plateado]]", "[[white|blanco]]"],
       "correctAnswer": 0,
       "explanation": "[[Pure|Puro]] [[coffee|café]] [[is|es]] [[dark|oscuro]] [[brown|marrón]]."
@@ -232,6 +240,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Age|La Edad]]",
       "instructions": "[[Which|Cuál]] [[adjective|adjetivo]] [[fits|encaja]] [[a|un]] [[newborn|recién nacido]]?",
+      "question": "[[The|El]] [[baby|bebé]] [[is|tiene]] [[one|una]] [[week|semana]]. [[He|Él]] [[is|es]] (____).",
       "options": ["[[young|joven]]", "[[old|viejo]]", "[[tall|alto]]"],
       "correctAnswer": 0,
       "explanation": "[[A|Un]] [[baby|bebé]] [[is|es]] [[very|muy]] [[young|joven]]."
@@ -248,6 +257,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Height|Estatura]]",
       "instructions": "[[Describe|Describe]] [[someone|a alguien]] [[who|que]] [[is|es]] 2.10m.",
+      "question": "[[The|El]] [[basketball|baloncesto]] [[player|jugador]] [[is|mide]] [[two|dos]] [[meters|metros]] [[ten|diez]]. [[He|Él]] [[is|es]] (____).",
       "options": ["[[short|bajo]]", "[[tall|alto]]", "[[thin|delgado]]"],
       "correctAnswer": 1,
       "explanation": "2.10m [[is|es]] [[very|muy]] [[tall|alto]]."
@@ -264,6 +274,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Height|Estatura]]",
       "instructions": "[[If|Si]] [[he|él]] [[cannot|no puede]] [[reach|alcanzar]] [[it|ello]], [[he|él]] [[is|es]]...",
+      "question": "[[The|El]] [[little|pequeño]] [[child|niño]] [[cannot|no puede]] [[reach|alcanzar]] [[the|la]] [[table|mesa]]. [[He|Él]] [[is|es]] (____).",
       "options": ["[[tall|alto]]", "[[short|bajo]]", "[[strong|fuerte]]"],
       "correctAnswer": 1,
       "explanation": "[[Short|Bajo]] [[means|significa]] [[not|no]] [[tall|alto]]."
@@ -280,6 +291,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Condition|Condición]] [[Physical|Física]]",
       "instructions": "[[Someone|Alguien]] [[who|que]] [[lifts|levanta]] [[weights|pesas]] [[is|es]]...",
+      "question": "[[He|Él]] [[lifts|levanta]] [[weights|pesas]]. [[He|Él]] [[is|es]] (____).",
       "options": ["[[weak|débil]]", "[[strong|fuerte]]", "[[fat|gordo]]"],
       "correctAnswer": 1,
       "explanation": "[[Lifting|Levantar]] [[weights|pesas]] [[makes|hace]] [[you|te]] [[strong|fuerte]]."
@@ -296,6 +308,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Condition|Condición]] [[Physical|Física]]",
       "instructions": "[[When|Cuando]] [[you|tú]] [[are|estás]] [[sick|enfermo]], [[you|tú]] [[feel|te sientes]]...",
+      "question": "[[She|Ella]] [[is|está]] [[sick|enferma]]. [[She|Ella]] [[feels|se siente]] (____).",
       "options": ["[[strong|fuerte]]", "[[weak|débil]]", "[[beautiful|hermosa]]"],
       "correctAnswer": 1,
       "explanation": "[[Weak|Débil]] [[is|es]] [[the|el]] [[opposite|opuesto]] [[of|de]] [[strong|fuerte]]."
@@ -312,6 +325,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Appearance|Apariencia]]",
       "instructions": "[[Choose|Elige]] [[the|el]] [[positive|positivo]] [[adjective|adjetivo]].",
+      "question": "[[The|La]] [[movie|de cine]] [[star|estrella]] [[is|es]] [[very|muy]] (____).",
       "options": ["[[ugly|feo]]", "[[weak|débil]]", "[[beautiful|hermosa]]"],
       "correctAnswer": 2,
       "explanation": "[[Beautiful|Hermoso/a]] [[is|es]] [[attractive|atractivo/a]]."
@@ -328,6 +342,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Appearance|Apariencia]]",
       "instructions": "[[Describe|Describe]] [[the|el]] [[scary|aterrador]] [[monster|monstruo]].",
+      "question": "[[The|El]] [[monster|monstruo]] [[is|es]] [[very|muy]] (____).",
       "options": ["[[beautiful|hermoso]]", "[[ugly|feo]]", "[[young|joven]]"],
       "correctAnswer": 1,
       "explanation": "[[Ugly|Feo]] [[is|es]] [[the|el]] [[opposite|opuesto]] [[of|de]] [[beautiful|hermoso]]."
@@ -344,6 +359,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Build|Complexión]]",
       "instructions": "[[Identify|Identifica]] [[the|el]] [[adjective|adjetivo]] [[for|para]] [[a|una]] [[slim|delgada]] [[person|persona]].",
+      "question": "[[She|Ella]] [[is|está]] [[very|muy]] (____).",
       "options": ["[[thin|delgada]]", "[[tall|alta]]", "[[old|vieja]]"],
       "correctAnswer": 0,
       "explanation": "[[Thin|Delgado/a]] [[means|significa]] [[having|teniendo]] [[little|poca]] [[fat|grasa]]."
@@ -388,6 +404,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Hair|Cabello]] [[Length|Longitud]]",
       "instructions": "[[Choose|Elige]] [[the|el]] [[adjective|adjetivo]] [[based|basado]] [[on|en]] [[the|la]] [[context|contexto]].",
+      "question": "[[Her|Su]] [[hair|pelo]] [[reaches|llega]] [[to|a]] [[her|su]] [[waist|cintura]]. [[It|Él]] [[is|es]] (____).",
       "options": ["[[short|corto]]", "[[long|largo]]", "[[blue|azul]]"],
       "correctAnswer": 1,
       "explanation": "[[If|Si]] [[it|él]] [[reaches|llega]] [[the|la]] [[waist|cintura]], [[it|él]] [[is|es]] [[long|largo]]."
@@ -404,6 +421,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[No|Sin]] [[Hair|Pelo]]",
       "instructions": "[[What|Cómo]] [[do|se]] [[you|tú]] [[call|llamas]] [[someone|a alguien]] [[without|sin]] [[hair|pelo]]?",
+      "question": "[[He|Él]] [[has|tiene]] [[no|nada de]] [[hair|pelo]]. [[He|Él]] [[is|es]] (____).",
       "options": ["[[curly|rizado]]", "[[straight|liso]]", "[[bald|calvo]]"],
       "correctAnswer": 2,
       "explanation": "[[Bald|Calvo]] [[means|significa]] [[no|sin]] [[hair|pelo]]."
@@ -420,7 +438,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Eye|Ojo]] [[Color|Color]]",
       "instructions": "[[Identify|Identifica]] [[the|el]] [[color|color]] [[suggested|sugerido]].",
-      "question": "[[Your|Tus]] [[eyes|ojos]] [[are|son]] [[the|del]] [[color|color]] [[of|de]] [[the|el]] [[ocean|océano]]. [[They|Ellos]] [[are|son]]...",
+      "question": "[[Your|Tus]] [[eyes|ojos]] [[are|son]] [[the|del]] [[color|color]] [[of|de]] [[the|el]] [[ocean|océano]]. [[They|Ellos]] [[are|son]] (____).",
       "options": ["[[brown|marrones]]", "[[blue|azules]]", "[[green|verdes]]"],
       "correctAnswer": 1,
       "explanation": "[[The|El]] [[ocean|océano]] [[is|es]] [[blue|azul]]."
@@ -437,6 +455,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Hair|Cabello]] [[Type|Tipo]]",
       "instructions": "[[Choose|Elige]] [[the|el]] [[term|término]] [[for|para]] [[orange/red|naranja/rojo]] [[hair|pelo]].",
+      "question": "[[She|Ella]] [[has|tiene]] [[red|rojo]] [[hair|pelo]]. [[She|Ella]] [[is|es]] [[a|una]] (____).",
       "options": ["[[blonde|rubia]]", "[[brunette|castaña]]", "[[redhead|pelirroja]]"],
       "correctAnswer": 2,
       "explanation": "[[Redhead|Pelirroja]] [[has|tiene]] [[reddish|rojizo]] [[hair|pelo]]."
@@ -453,6 +472,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Hair|Cabello]] [[Style|Estilo]]",
       "instructions": "[[What|Cuál]] [[is|es]] [[the|el]] [[opposite|opuesto]] [[of|de]] [[curly|rizado]]?",
+      "question": "[[My|Mi]] [[hair|pelo]] [[is|es]] [[not|no]] [[curly|rizado]]. [[It|Él]] [[is|es]] (____).",
       "options": ["[[curly|rizado]]", "[[straight|liso]]", "[[long|largo]]"],
       "correctAnswer": 1,
       "explanation": "[[Straight|Liso]] [[means|significa]] [[no|sin]] [[curls|rizos]]."
@@ -469,6 +489,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Hair|Cabello]] [[Length|Longitud]]",
       "instructions": "[[Describe|Describe]] [[the|el]] [[baby's|del bebé]] [[hair|pelo]].",
+      "question": "[[The|El]] [[baby|bebé]] [[has|tiene]] [[very|muy]] [[little|poco]] [[hair|pelo]]. [[It|Él]] [[is|es]] (____).",
       "options": ["[[long|largo]]", "[[short|corto]]", "[[blue|azul]]"],
       "correctAnswer": 1,
       "explanation": "[[Little|Poco]] [[hair|pelo]] [[is|es]] [[usually|normalmente]] [[short|corto]]."
@@ -485,6 +506,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Eye|Ojo]] [[Color|Color]]",
       "instructions": "[[What|Qué]] [[color|color]] [[is|es]] [[chocolate|chocolate]]?",
+      "question": "[[Her|Sus]] [[eyes|ojos]] [[are|son]] [[the|del]] [[color|color]] [[of|de]] [[chocolate|chocolate]]. [[They|Ellos]] [[are|son]] (____).",
       "options": ["[[blue|azules]]", "[[green|verdes]]", "[[brown|marrones]]"],
       "correctAnswer": 2,
       "explanation": "[[Chocolate|Chocolate]] [[is|es]] [[brown|marrón]]."
@@ -501,6 +523,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Hair|Cabello]] [[Color|Color]]",
       "instructions": "[[Choose|Elige]] [[the|el]] [[term|término]] [[for|para]] [[light|claro]] [[hair|pelo]].",
+      "question": "[[That|Esa]] [[girl|chica]] [[has|tiene]] [[yellow|amarillo]] [[hair|pelo]]. [[She|Ella]] [[is|es]] (____).",
       "options": ["[[brunette|castaña]]", "[[redhead|pelirroja]]", "[[blonde|rubia]]"],
       "correctAnswer": 2,
       "explanation": "[[Blonde|Rubia]] [[is|es]] [[yellow|amarillo]] [[hair|pelo]]."
@@ -517,6 +540,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Hair|Cabello]] [[Texture|Textura]]",
       "instructions": "[[Describe|Describe]] [[hair|pelo]] [[with|con]] [[loops|bucles]].",
+      "question": "[[His|Su]] [[hair|pelo]] [[has|tiene]] [[loops|bucles]]. [[It|Él]] [[is|es]] (____).",
       "options": ["[[straight|liso]]", "[[curly|rizado]]", "[[bald|calvo]]"],
       "correctAnswer": 1,
       "explanation": "[[Curly|Rizado]] [[means|significa]] [[having|teniendo]] [[curls|rizos]]."
@@ -535,7 +559,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "transcript": "[[She|Ella]] [[has|tiene]] [[blue|azules]] [[eyes|ojos]].",
     "content": {
       "title": "[[Word|Palabra]] [[Order|Orden]]",
-      "instructions": "[[Adjectives|Adjetivos]] [[come|vienen]] _______ [[the|el]] [[noun|sustantivo]] [[in|en]] [[English|inglés]].",
+      "instructions": "[[Adjectives|Adjetivos]] [[come|vienen]] (____) [[the|el]] [[noun|sustantivo]] [[in|en]] [[English|inglés]].",
       "options": ["[[before|antes de]]", "[[after|después de]]", "[[inside|dentro de]]"],
       "correctAnswer": 0,
       "explanation": "[[Adjectives|Adjetivos]] [[go|van]] [[before|antes]] ([[e.g.|p.ej.]], [[blue|azules]] [[eyes|ojos]])."
@@ -568,7 +592,8 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Description|Descripción]]",
       "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[sentence|oración]].",
-      "options": ["[[I|Yo]] [[have|tengo]] [[hair|pelo]] [[black|negro]]", "[[I|Yo]] [[have|tengo]] [[black|negro]] [[hair|pelo]]", "[[I|Yo]] [[black|negro]] [[have|tengo]] [[hair|pelo]]"],
+      "question": "[[How|¿Cómo]] [[do|se]] [[you|tú]] [[say|dices]] '[[Tengo|Tengo]] [[pelo|pelo]] [[negro|negro]]'?",
+      "options": ["[[I have hair black|Tengo pelo negro]]", "[[I have black hair|Tengo pelo negro]]", "[[I black hair have|Tengo negro pelo]]"],
       "correctAnswer": 1,
       "explanation": "[[Color|Color]] [[goes|va]] [[before|antes]] [[of|de]] '[[hair|pelo]]'."
     },
@@ -600,7 +625,8 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Objects|Objetos]]",
       "instructions": "[[Select|Selecciona]] [[the|la]] [[natural|natural]] [[order|orden]].",
-      "options": ["[[A|Un]] [[red|rojo]] [[car|coche]]", "[[A|Un]] [[car|coche]] [[red|rojo]]", "[[Red|Rojo]] [[a|un]] [[car|coche]]"],
+      "question": "[[It|Eso]] [[is|es]] (____).",
+      "options": ["[[a red car|un coche rojo]]", "[[a car red|un coche rojo]]", "[[red a car|rojo un coche]]"],
       "correctAnswer": 0,
       "explanation": "[[Adjective|Adjetivo]] [[always|siempre]] [[precedes|precede]] [[the|al]] [[noun|sustantivo]]."
     },
@@ -615,7 +641,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "transcript": "[[The|Las]] [[flowers|flores]] [[are|son]] [[yellow|amarillas]].",
     "content": {
       "title": "[[Verb|Verbo]] [[to|a]] [[be|ser]]",
-      "instructions": "[[After|Después]] [[the|el]] [[verb|verbo]] '[[to be|ser/estar]]', [[adjectives|adjetivos]] _______ [[change|cambian]].",
+      "instructions": "[[Adjectives|Adjetivos]] (____) [[change|cambian]] [[in|en]] [[plural|plural]].",
       "options": ["[[do not|no]]", "[[always|siempre]]", "[[sometimes|a veces]]"],
       "correctAnswer": 0,
       "explanation": "[[In|En]] [[English|inglés]], [[adjectives|adjetivos]] [[do not|no]] [[have|tienen]] [[plural|plural]] [[forms|formas]]."
@@ -648,8 +674,9 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Possessives|Posesivos]]",
       "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[combination|combinación]].",
-      "options": ["[[My|Mi]] [[friend|amigo]] [[new|nuevo]]", "[[My|Mi]] [[new|nuevo]] [[friend|amigo]]", "[[New|Nuevo]] [[my|mi]] [[friend|amigo]]"],
-      "correctAnswer": 1,
+      "question": "[[My|Mi]] (____) [[friend|amigo]].",
+      "options": ["[[new|nuevo]]", "[[blue|azul]]", "[[sad|triste]]"],
+      "correctAnswer": 0,
       "explanation": "[[Possessive|Posesivo]] + [[Adjective|Adjetivo]] + [[Noun|Sustantivo]]."
     },
     "topicName": "Grammar"
@@ -680,7 +707,8 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Size|Tamaño]]",
       "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]].",
-      "options": ["[[A|Una]] [[big|grande]] [[box|caja]]", "[[A|Una]] [[box|caja]] [[big|grande]]", "[[Big|Grande]] [[a|una]] [[box|caja]]"],
+      "question": "[[It|Eso]] [[is|es]] (____).",
+      "options": ["[[a big box|una caja grande]]", "[[a box big|una caja grande]]", "[[big box a|grande caja una]]"],
       "correctAnswer": 0,
       "explanation": "[[Size|Tamaño]] [[adjectives|adjetivos]] [[also|también]] [[go|van]] [[before|antes]]."
     },

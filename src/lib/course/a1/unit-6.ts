@@ -40,6 +40,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Los Padres",
       "instructions": "Elige la palabra correcta.",
+      "question": "[[My|Mi]] [[mother|madre]] [[and|y]] [[my|mi]] [[father|padre]] [[are|son]] [[my|mis]] (____).",
       "options": ["[[grandparents|abuelos]]", "[[parents|padres]]", "[[siblings|hermanos]]"],
       "correctAnswer": 1,
       "explanation": "'Parents' se refiere específicamente al padre y la madre."
@@ -57,6 +58,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Hermanos",
       "instructions": "Elige la palabra correcta.",
+      "question": "[[I|Yo]] [[have|tengo]] [[one|un]] [[brother|hermano]] [[and|y]] [[two|dos]] [[sisters|hermanas]]. [[They|Ellos]] [[are|son]] [[my|mis]] (____).",
       "options": ["[[parents|padres]]", "[[cousins|primos]]", "[[siblings|hermanos]]"],
       "correctAnswer": 2,
       "explanation": "'Siblings' es la palabra general para referirse a hermanos y hermanas."
@@ -91,6 +93,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Tu hijo",
       "instructions": "Elige el posesivo correcto.",
+      "question": "[[Is|¿Es]] [[he|él]] (_____) [[son|hijo]]?",
       "options": ["[[you|tú]]", "[[your|tu]]", "[[he|él]]"],
       "correctAnswer": 1,
       "explanation": "'Your' es el adjetivo posesivo para 'tú' (you)."
@@ -125,6 +128,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Vivir en Londres",
       "instructions": "Elige la palabra correcta.",
+      "question": "[[My|Mi]] (_____) [[lives|vive]] [[in|en]] [[London|Londres]].",
       "options": ["[[grandparents|abuelos]]", "[[grandfather|abuelo]]", "[[grandmother|abuela]]"],
       "correctAnswer": 2,
       "explanation": "Como el verbo es 'lives' (singular), necesitamos un sujeto singular femenino: grandmother."
@@ -159,6 +163,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Hijos e hijas",
       "instructions": "Elige la palabra correcta.",
+      "question": "[[A|Un]] [[son|hijo]] [[and|y]] [[a|una]] [[daughter|hija]] [[are|son]] (____).",
       "options": ["[[children|hijos]]", "[[parents|padres]]", "[[babies|bebés]]"],
       "correctAnswer": 0,
       "explanation": "'Children' se usa para referirse a los hijos de alguien, independientemente de su edad."
@@ -223,6 +228,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Su tío (de él)",
       "instructions": "Elige el posesivo correcto.",
+      "question": "(_____) [[uncle|tío]] [[is|es]] [[from|de]] [[Italy|Italia]].",
       "options": ["[[Her|Su (de ella)]]", "[[He|Él]]", "[[His|Su (de él)]]"],
       "correctAnswer": 2,
       "explanation": "Usamos 'His' cuando el poseedor es masculino."
@@ -240,6 +246,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Su tía (de ella)",
       "instructions": "Elige el posesivo correcto.",
+      "question": "(_____) [[aunt|tía]] [[is|es]] [[a|una]] [[doctor|doctora]].",
       "options": ["[[Her|Su (de ella)]]", "[[His|Su (de él)]]", "[[She|Ella]]"],
       "correctAnswer": 0,
       "explanation": "Usamos 'Her' cuando el poseedor es femenino."
@@ -274,6 +281,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "La esposa de Mark",
       "instructions": "Elige el posesivo correcto.",
+      "question": "[[Mark|Mark]] [[is|está]] [[married|casado]]. (_____) [[wife|esposa]] [[is|es]] [[Anna|Anna]].",
       "options": ["[[He|Él]]", "[[His|Su (de él)]]", "[[Her|Su (de ella)]]"],
       "correctAnswer": 1,
       "explanation": "Como Mark es un hombre, usamos 'His'."
@@ -403,6 +411,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Posesivo plural",
       "instructions": "Selecciona el posesivo correcto para 'they'.",
+      "question": "[[They|Ellos]] [[live|viven]] [[with|con]] (_____) [[grandparents|abuelos]].",
       "options": ["[[them|ellos]]", "[[their|sus]]", "[[they|ellos]]"],
       "correctAnswer": 1,
       "explanation": "'Their' es el adjetivo posesivo de 'they'."
@@ -437,6 +446,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pregunta de posesión",
       "instructions": "Elige la forma correcta.",
+      "question": "[[Where|¿Dónde]] [[is|está]] (____)?",
       "options": ["[[Anna mother|madre Anna]]", "[[Anna's mother|la madre de Anna]]", "[[The Anna mother|la madre Anna]]"],
       "correctAnswer": 1,
       "explanation": "Nombre + 's + Sustantivo."
@@ -454,6 +464,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Posesivo plural acabado en 's'",
       "instructions": "Elige la opción correcta para 'los padres de mi'.",
+      "question": "[[My|Mi]] (_____) [[car|coche]] [[is|es]] [[blue|azul]].",
       "options": ["[[parent's|de un padre]]", "[[parents'|de los padres]]", "[[parents's|de los padres]]"],
       "correctAnswer": 1,
       "explanation": "Cuando un plural acaba en 's', solo añadimos el apóstrofe."
@@ -492,6 +503,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Cuñada",
       "instructions": "Elige el término para cuñada.",
+      "question": "[[The|La]] [[sister|hermana]] [[of|de]] [[his|su]] [[wife|esposa]] [[is|es]] [[his|su]] (____).",
       "options": ["[[sister-in-law|cuñada]]", "[[daughter-in-law|nuera]]", "[[mother-in-law|suegra]]"],
       "correctAnswer": 0,
       "explanation": "Sister-in-law es cuñada."
@@ -526,6 +538,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Respuesta de posesión",
       "instructions": "Selecciona la respuesta correcta a 'Whose is this photo?'.",
+      "question": "[[Whose|De quién]] [[is|es]] [[this|esta]] [[photo|foto]]?",
       "options": ["[[It is my father|Es mi padre]]", "[[It is my father's|Es de mi padre]]", "[[It is father|Es padre]]"],
       "correctAnswer": 1,
       "explanation": "Usamos el genitivo sajón para indicar pertenencia."
@@ -638,6 +651,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Uso de 's",
       "instructions": "Elige la opción gramaticalmente correcta.",
+      "question": "[[What|¿Cuál]] [[is|es]] (____)?",
       "options": ["[[My cousin name|nombre mi primo]]", "[[My cousin's name|el nombre de mi primo]]", "[[The name my cousin|el nombre mi primo]]"],
       "correctAnswer": 1,
       "explanation": "Estructura del genitivo sajón."
@@ -672,6 +686,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Género",
       "instructions": "Elige la opción correcta.",
+      "question": "[[A|Un]] [[nephew|sobrino]] [[is|es]] [[a|un]] (____).",
       "options": ["[[nephew / boy|sobrino / niño]]", "[[niece / boy|sobrina / niño]]", "[[nephew / girl|sobrino / niña]]"],
       "correctAnswer": 0,
       "explanation": "Nephew es masculino, niece es femenino."
@@ -710,6 +725,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Vuestro",
       "instructions": "Elige el posesivo para 'you' (plural).",
+      "question": "[[Is|¿Es]] [[this|esta]] (_____) [[house|casa]]?",
       "options": ["[[yours|vuestro]]", "[[your|vuestro]]", "[[our|nuestro]]"],
       "correctAnswer": 1,
       "explanation": "'Your' se usa tanto para singular (tu) como para plural (vuestro)."
@@ -744,6 +760,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Posesión compartida",
       "instructions": "Cuando algo pertenece a dos personas, ¿dónde ponemos el 's?",
+      "question": "[[It|Es]] [[is|es]] (_____) [[baby|bebé]].",
       "options": ["[[John's and Mary's|de John y de Mary]]", "[[John and Mary's|de John y Mary]]", "[[John's and Mary|de John y Mary]]"],
       "correctAnswer": 1,
       "explanation": "Para posesión compartida, el 's va solo en el último nombre."
@@ -800,7 +817,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Estado civil",
       "instructions": "Elige la palabra lógica.",
-      "question": "[[I|Yo]] [[am|soy]] [[married|casado]]. [[I|Yo]] [[have|tengo]] [[a|una]]...",
+      "question": "[[I|Yo]] [[am|soy]] [[married|casado]]. [[I|Yo]] [[have|tengo]] [[a|una]] (____).",
       "options": ["[[sister|hermana]]", "[[wife|esposa]]", "[[mother|madre]]"],
       "correctAnswer": 1,
       "explanation": "Si un hombre está casado, tiene una esposa."
@@ -835,6 +852,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Parentesco complejo",
       "instructions": "Si es el hermano de tu sobrina, es tu...",
+      "question": "[[He|Él]] [[is|es]] [[the|el]] [[brother|hermano]] [[of|de]] [[my|mi]] [[niece|sobrina]]. [[He|Él]] [[is|es]] [[my|mi]] (____).",
       "options": ["[[cousin|primo]]", "[[nephew|sobrino]]", "[[son|hijo]]"],
       "correctAnswer": 1,
       "explanation": "Los hijos de tus hermanos son tus sobrinos."
@@ -908,6 +926,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Parientes",
       "instructions": "Elige la palabra que significa 'miembros de la familia'.",
+      "question": "[[I|Yo]] [[have|tengo]] [[many|muchos]] [[family|familia]] [[members|miembros]]. [[They|Ellos]] [[are|son]] [[my|mis]] (____).",
       "options": ["[[friends|amigos]]", "[[relatives|parientes]]", "[[neighbors|vecinos]]"],
       "correctAnswer": 1,
       "explanation": "'Relatives' es el término general para los parientes."
