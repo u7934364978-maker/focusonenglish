@@ -357,7 +357,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "transcript": "[[My|Mi]] [[mother's|de mi madre]] [[sister|hermana]] [[is|es]] [[my|mi]] [[aunt|tía]].",
     "content": {
       "title": "Relaciones familiares",
-      "instructions": "Completa la lógica familiar.",
+      "instructions": "[[My|Mi]] [[mother's|de mi madre]] [[sister|hermana]] [[is|es]] [[my|mi]]...",
       "options": ["[[grandmother|abuela]]", "[[aunt|tía]]", "[[cousin|prima]]"],
       "correctAnswer": 1,
       "explanation": "La hermana de tu madre es tu tía."
@@ -378,7 +378,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "transcript": "[[My|Mi]] [[father's|de mi padre]] [[brother|hermano]] [[is|es]] [[my|mi]] [[uncle|tío]].",
     "content": {
       "title": "Relaciones",
-      "instructions": "Identifica al pariente.",
+      "instructions": "[[My|Mi]] [[father's|de mi padre]] [[brother|hermano]] [[is|es]] [[my|mi]]...",
       "options": ["[[uncle|tío]]", "[[grandfather|abuelo]]", "[[son|hijo]]"],
       "correctAnswer": 0,
       "explanation": "El hermano de tu padre es tu tío."
@@ -632,7 +632,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "transcript": "[[My|Mi]] [[mother's|de mi madre]] [[mother|madre]] [[is|es]] [[my|mi]] [[grandmother|abuela]].",
     "content": {
       "title": "Relación",
-      "instructions": "Completa la lógica.",
+      "instructions": "[[My|Mi]] [[mother's|de mi madre]] [[mother|madre]] [[is|es]] [[my|mi]]...",
       "options": ["[[aunt|tía]]", "[[grandmother|abuela]]", "[[sister|hermana]]"],
       "correctAnswer": 1,
       "explanation": "Tu abuela es la madre de tu madre."

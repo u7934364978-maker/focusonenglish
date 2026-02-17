@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 4
+      "actualWorkers": 3
     },
     "preserveOutput": "always",
     "projects": [
@@ -20,7 +20,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 4
+          "actualWorkers": 3
         },
         "id": "chromium",
         "name": "chromium",
@@ -36,7 +36,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 4
+          "actualWorkers": 3
         },
         "id": "firefox",
         "name": "firefox",
@@ -52,7 +52,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 4
+          "actualWorkers": 3
         },
         "id": "webkit",
         "name": "webkit",
@@ -68,7 +68,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 4
+          "actualWorkers": 3
         },
         "id": "Mobile Chrome",
         "name": "Mobile Chrome",
@@ -84,7 +84,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 4
+          "actualWorkers": 3
         },
         "id": "Mobile Safari",
         "name": "Mobile Safari",
@@ -128,20 +128,20 @@
   },
   "suites": [
     {
-      "title": "a1-unit-2-remake.spec.ts",
-      "file": "a1-unit-2-remake.spec.ts",
+      "title": "a1-units-preview.spec.ts",
+      "file": "a1-units-preview.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
-          "title": "A1 Unit 2 Remake - Pedagogical Verification",
-          "file": "a1-unit-2-remake.spec.ts",
+          "title": "A1 Units Preview",
+          "file": "a1-units-preview.spec.ts",
           "line": 3,
           "column": 6,
           "specs": [
             {
-              "title": "should have exactly 60 exercises",
+              "title": "should load Unit 1 preview",
               "ok": true,
               "tags": [],
               "tests": [
@@ -156,12 +156,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2215,
+                      "duration": 1643,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-16T18:23:46.059Z",
+                      "startTime": "2026-02-16T18:48:58.262Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -169,13 +169,13 @@
                   "status": "expected"
                 }
               ],
-              "id": "a1604a46f1744493148e-c56288c756ccb6d8e0ff",
-              "file": "a1-unit-2-remake.spec.ts",
-              "line": 9,
-              "column": 7
+              "id": "c30113fb372b91dd066c-23bee2bf70f6c5d3e62f",
+              "file": "a1-units-preview.spec.ts",
+              "line": 7,
+              "column": 9
             },
             {
-              "title": "should verify Phase 1: Vocabulary (Countries & Professions)",
+              "title": "should load Unit 2 preview",
               "ok": true,
               "tags": [],
               "tests": [
@@ -190,12 +190,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 3188,
+                      "duration": 1651,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-16T18:23:46.034Z",
+                      "startTime": "2026-02-16T18:48:58.260Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -203,13 +203,13 @@
                   "status": "expected"
                 }
               ],
-              "id": "a1604a46f1744493148e-bfbe6bcc7fbf275bea33",
-              "file": "a1-unit-2-remake.spec.ts",
-              "line": 15,
-              "column": 7
+              "id": "c30113fb372b91dd066c-9efcee8d5b305dac8f61",
+              "file": "a1-units-preview.spec.ts",
+              "line": 7,
+              "column": 9
             },
             {
-              "title": "should verify Phase 2: Grammar (Verb to be - Plurals)",
+              "title": "should load Unit 3 preview",
               "ok": true,
               "tags": [],
               "tests": [
@@ -224,12 +224,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 3883,
+                      "duration": 1699,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-16T18:23:46.042Z",
+                      "startTime": "2026-02-16T18:48:58.264Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -237,44 +237,10 @@
                   "status": "expected"
                 }
               ],
-              "id": "a1604a46f1744493148e-4d1c8eaf884e2e53b2c7",
-              "file": "a1-unit-2-remake.spec.ts",
-              "line": 32,
-              "column": 7
-            },
-            {
-              "title": "should verify Phase 3: Reading & Integration",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 120000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
-                      "status": "passed",
-                      "duration": 5032,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-02-16T18:23:46.053Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "a1604a46f1744493148e-dbc8d9a0790720cb0fcf",
-              "file": "a1-unit-2-remake.spec.ts",
-              "line": 48,
-              "column": 7
+              "id": "c30113fb372b91dd066c-4d89fd8a53c992a92a36",
+              "file": "a1-units-preview.spec.ts",
+              "line": 7,
+              "column": 9
             }
           ]
         }
@@ -283,9 +249,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-02-16T18:23:45.283Z",
-    "duration": 6306.709,
-    "expected": 4,
+    "startTime": "2026-02-16T18:48:57.540Z",
+    "duration": 2655.298,
+    "expected": 3,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
