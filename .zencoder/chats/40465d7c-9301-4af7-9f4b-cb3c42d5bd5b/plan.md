@@ -70,6 +70,7 @@ Mandatory approval before writing E2E tests.
 - [x] **Logic Fixes (Unit 6)**: Update Exercise 31, 33, 17, 18, 42, 44, and 48 to provide necessary context/prompts for students.
 - [x] **Logic Fixes (Unit 7)**: Update Exercise 9, 12, 24, and 41 to provide necessary context.
 - [x] **Logic Fixes (Unit 8)**: Added context/prompts to exercises 2-7 and 22-50.
+- [x] **Logic Fixes (Unit 9)**: Audited all 60 exercises, added logic/questions to multiple-choice, translated instructions/explanations to English with tooltips, and removed meta-hints.
 - [x] **Clean Translations (Unit 6, 8)**: Remove meta-hints like "(incorrecto)" from Unit 6 and 8 exercises.
 - [x] **Tooltip Consistency**: Ensure all multiple-choice options have `[[text|translation]]` format.
 - [x] **Deployment**: Push and verify latest commit hash. (bb940620)
