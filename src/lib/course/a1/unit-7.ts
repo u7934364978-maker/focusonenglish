@@ -154,6 +154,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Animals|Animales]]",
       "instructions": "[[Identify|Identifica]] [[the|el]] [[color|color]] [[of|de]] [[the|el]] [[bird|ave]].",
+      "question": "[[What|Qué]] [[color|color]] [[are|son]] [[flamingos|flamencos]]?",
       "options": ["[[pink|rosa]]", "[[black|negro]]", "[[grey|gris]]"],
       "correctAnswer": 0,
       "explanation": "[[Flamingos|Flamencos]] [[are|son]] [[pink|rosas]]."
