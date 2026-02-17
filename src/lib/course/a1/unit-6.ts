@@ -435,7 +435,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pregunta de posesión",
       "instructions": "Elige la forma correcta.",
-      "options": ["[[Anna mother|incorrecto]]", "[[Anna's mother|la madre de Anna]]", "[[The Anna mother|incorrecto]]"],
+      "options": ["[[Anna mother|madre Anna]]", "[[Anna's mother|la madre de Anna]]", "[[The Anna mother|la madre Anna]]"],
       "correctAnswer": 1,
       "explanation": "Nombre + 's + Sustantivo."
     },
@@ -452,7 +452,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Posesivo plural acabado en 's'",
       "instructions": "Elige la opción correcta para 'los padres de mi'.",
-      "options": ["[[parent's|de un padre]]", "[[parents'|de los padres]]", "[[parents's|incorrecto]]"],
+      "options": ["[[parent's|de un padre]]", "[[parents'|de los padres]]", "[[parents's|de los padres]]"],
       "correctAnswer": 1,
       "explanation": "Cuando un plural acaba en 's', solo añadimos el apóstrofe."
     },
@@ -562,6 +562,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pregunta de estado civil",
       "instructions": "Elige la conjunción correcta.",
+      "question": "[[Are|¿Están]] [[they|ellos]] [[single|solteros]] (_____) [[married|casados]]?",
       "options": ["[[and|y]]", "[[but|pero]]", "[[or|o]]"],
       "correctAnswer": 2,
       "explanation": "Usamos 'or' para ofrecer alternativas."
@@ -596,6 +597,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Parentesco",
       "instructions": "Identifica la relación.",
+      "question": "[[The|El]] [[husband|esposo]] [[of|de]] [[my|mi]] [[sister|hermana]] [[is|es]] [[my|mi]]...",
       "options": ["[[nephew|sobrino]]", "[[brother-in-law|cuñado]]", "[[step-brother|hermanastro]]"],
       "correctAnswer": 1,
       "explanation": "El esposo de tu hermana es tu cuñado."
@@ -634,7 +636,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Uso de 's",
       "instructions": "Elige la opción gramaticalmente correcta.",
-      "options": ["[[My cousin name|incorrecto]]", "[[My cousin's name|el nombre de mi primo]]", "[[The name my cousin|incorrecto]]"],
+      "options": ["[[My cousin name|nombre mi primo]]", "[[My cousin's name|el nombre de mi primo]]", "[[The name my cousin|el nombre mi primo]]"],
       "correctAnswer": 1,
       "explanation": "Estructura del genitivo sajón."
     },
@@ -740,7 +742,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Posesión compartida",
       "instructions": "Cuando algo pertenece a dos personas, ¿dónde ponemos el 's?",
-      "options": ["[[John's and Mary's|incorrecto]]", "[[John and Mary's|al final del segundo nombre]]", "[[John's and Mary|incorrecto]]"],
+      "options": ["[[John's and Mary's|de John y de Mary]]", "[[John and Mary's|de John y Mary]]", "[[John's and Mary|de John y Mary]]"],
       "correctAnswer": 1,
       "explanation": "Para posesión compartida, el 's va solo en el último nombre."
     },
