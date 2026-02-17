@@ -9,7 +9,7 @@ test.describe('Unit 1 Preview Rendering', () => {
       }
     });
 
-    await page.goto('http://127.0.0.1:5436/debug/a1-preview/unit-1');
+    await page.goto('http://127.0.0.1:3001/debug/a1-preview/unit-1');
     
     // Wait for the main content to load
     await expect(page.getByText('Cargando Unidad')).not.toBeVisible({ timeout: 10000 });
@@ -18,7 +18,7 @@ test.describe('Unit 1 Preview Rendering', () => {
     await expect(page.getByText('Review: Unidad 1')).toBeVisible();
     
     // Check for exercise renderer content
-    await expect(page.locator('main')).toContainText('Hello World!');
+    await expect(page.locator('main')).toContainText('Greetings & Basic Identity');
     
     // Verify no hydration errors
     const hydrationErrors = logs.filter(log => log.includes('Hydration') || log.includes('descendant') || log.includes('contain a nested'));
@@ -26,11 +26,11 @@ test.describe('Unit 1 Preview Rendering', () => {
   });
 
   test('should allow interaction with multiple choice exercise', async ({ page }) => {
-    await page.goto('http://127.0.0.1:5436/debug/a1-preview/unit-1');
+    await page.goto('http://127.0.0.1:3001/debug/a1-preview/unit-1');
     await expect(page.getByText('Cargando Unidad')).not.toBeVisible();
     
     // Find an option and click it
-    const option = page.locator('button').filter({ hasText: 'Good morning' }).first();
+    const option = page.locator('button').filter({ hasText: 'morning' }).first();
     await option.click();
     
     // Check if it's selected (it should have orange border/bg classes)

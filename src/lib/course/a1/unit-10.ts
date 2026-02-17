@@ -197,7 +197,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Verbo To Be",
       "instructions": "Elige la respuesta corta correcta.",
-      "options": ["[[Yes, I'm|incorrecto]]", "[[Yes, I is|incorrecto]]", "[[Yes, I am|sí, lo estoy]]"],
+      "options": ["[[Yes, I'm|sí, soy]]", "[[Yes, I is|sí, es]]", "[[Yes, I am|sí, lo estoy]]"],
       "correctAnswer": 2,
       "explanation": "En respuestas cortas afirmativas, no se usa contracción."
     },
@@ -286,7 +286,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Plurales",
       "instructions": "Elige la forma plural correcta.",
-      "options": ["[[watchs|incorrecto]]", "[[watches|relojes]]", "[[watch|reloj]]"],
+      "options": ["[[watchs|incorrecta]]", "[[watches|relojes]]", "[[watch|reloj]]"],
       "correctAnswer": 1,
       "explanation": "Las palabras terminadas en 'ch' añaden 'es' para el plural."
     },
@@ -358,7 +358,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Orden de adjetivos",
       "instructions": "Elige la posición correcta del adjetivo.",
-      "options": ["[[car red|incorrecto]]", "[[red car|coche rojo]]", "[[a red|incorrecto]]"],
+      "options": ["[[car red|incorrecta]]", "[[red car|coche rojo]]", "[[a red|incorrecta]]"],
       "correctAnswer": 1,
       "explanation": "En inglés, el adjetivo siempre va antes del sustantivo."
     },
@@ -379,7 +379,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Repaso: Origen",
       "instructions": "Elige la respuesta correcta.",
-      "options": ["[[He is from London|Es de Londres]]", "[[He am from London|incorrecto]]", "[[He is London|incorrecto]]"],
+      "options": ["[[He is from London|Es de Londres]]", "[[He am from London|incorrecta]]", "[[He is London|incorrecta]]"],
       "correctAnswer": 0,
       "explanation": "Sujeto + is + from + Lugar."
     },
@@ -523,7 +523,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Repaso: Posesivo",
       "instructions": "Elige la forma posesiva correcta.",
-      "options": ["[[teachers|plural]]", "[[teacher's|del profesor]]", "[[teacher is|incorrecto]]"],
+      "options": ["[[teachers|plural]]", "[[teacher's|del profesor]]", "[[teacher is|incorrecta]]"],
       "correctAnswer": 1,
       "explanation": "Usamos 's para indicar posesión singular."
     },
@@ -701,7 +701,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Repaso: Respuestas cortas",
       "instructions": "Elige la respuesta negativa corta.",
-      "options": ["[[No, they no|incorrecto]]", "[[No, they are not|correcto]]", "[[No, they aren't|correcto (más común)]]"],
+      "options": ["[[No, they no|incorrecta]]", "[[No, they are not|correcto]]", "[[No, they aren't|correcto (más común)]]"],
       "correctAnswer": 2,
       "explanation": "Aren't es la contracción estándar de 'are not'."
     },

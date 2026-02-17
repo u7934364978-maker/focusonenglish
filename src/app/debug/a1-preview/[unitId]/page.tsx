@@ -20,15 +20,23 @@ function UnitPreviewContent() {
       console.log(`🔍 Loading unit: ${unitId}`);
       try {
         const unitNumber = unitId.replace('unit-', '');
-        const modulePath = `../../../../lib/course/a1/unit-${unitNumber}`;
-        console.log(`📂 Importing module from: ${modulePath}`);
+        console.log(`📂 Importing module for unit: ${unitNumber}`);
         
-        const module = await import(`../../../../lib/course/a1/unit-${unitNumber}`);
+        // Try absolute path with @ alias first
+        let module;
+        try {
+          module = await import(`@/lib/course/a1/unit-${unitNumber}`);
+          console.log(`✅ Imported module with @ alias`);
+        } catch (e) {
+          console.log(`⚠️ Failed to import with @ alias, trying relative path`);
+          module = await import(`../../../../lib/course/a1/unit-${unitNumber}`);
+        }
+        
         // Support both UNIT_1_EXERCISES and UNIT_unit-1_EXERCISES or similar
         const exportName = `UNIT_${unitNumber.toUpperCase().replace('-', '_')}_EXERCISES`;
-        console.log(`Searching for export: ${exportName}`);
+        console.log(`🔍 Searching for export: ${exportName} in module keys:`, Object.keys(module || {}));
         
-        const unitExercises = module[exportName] || module[`UNIT_${unitNumber}_EXERCISES`] || module.default;
+        const unitExercises = module[exportName] || module[`UNIT_${unitNumber}_EXERCISES`] || module.default || module.UNIT_1_EXERCISES;
         
         if (!unitExercises || !Array.isArray(unitExercises)) {
           console.error(`❌ Could not find exercises in module. Export name: ${exportName}`);

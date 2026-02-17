@@ -595,7 +595,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "title": "[[Plurals|Plurales]]",
       "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[plural|plural]].",
       "question": "[[We|Nosotros]] [[are|somos]] (____).",
-      "options": ["[[engineer|singular]]", "[[engineers|plural]]", "[[an engineers|incorrecto]]"],
+      "options": ["[[engineer|singular]]", "[[engineers|plural]]", "[[an engineers|incorrecta]]"],
       "correctAnswer": 1,
       "explanation": "[[We|Nosotros]] [[do|no]] [[not|no]] [[use|usamos]] [[articles|artículos]] (a/an) [[with|con]] [[plural|plural]] [[jobs|profesiones]]."
     },
@@ -814,7 +814,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "title": "[[Plurals|Plurales]] [[Review|Repaso]]",
       "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
       "question": "[[They|Ellos]] [[are|son]] (____).",
-      "options": ["[[farmer / driver|singular]]", "[[farmers / drivers|plural]]", "[[is farmers / are drivers|incorrecto]]"],
+      "options": ["[[farmer / driver|singular]]", "[[farmers / drivers|plural]]", "[[is farmers / are drivers|incorrecta]]"],
       "correctAnswer": 1,
       "explanation": "[[We|Nosotros]] [[use|usamos]] [[plural|plural]] [[forms|formas]] [[for|para]] '[[they|ellos]]'."
     },

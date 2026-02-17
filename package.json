@@ -4,7 +4,7 @@
   "description": "Focus English - Cursos de Inglés Especializados para Trabajo, Viajes y Exámenes",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 5436 -H 127.0.0.1",
+    "dev": "next dev -p 3001 -H 127.0.0.1",
     "build": "next build",
     "start": "next start -p ${PORT:-3000}",
     "lint": "next lint",

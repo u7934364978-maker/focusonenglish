@@ -43,6 +43,9 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
   const [mounted, setMounted] = useState(false);
 
   // Determine if it's a reading exercise
+  const exerciseContent = exercise.content || exercise;
+  const questions = exerciseContent.questions || [];
+  
   const isReadingExercise = (
     exercise.topicName?.toLowerCase().includes('reading') || 
     exercise.topic?.toLowerCase().includes('reading') || 
@@ -71,8 +74,8 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
   // Debug: Log exercise content
   console.log('📝 Exercise content:', {
     type: exercise.type,
-    contentKeys: Object.keys(exercise.content || {}),
-    content: exercise.content
+    contentKeys: Object.keys(exerciseContent || {}),
+    content: exerciseContent
   });
 
   const stripTags = (s: string) => s.replace(/\[\[(.*?)\|(.*?)\]\]/g, '$1');
@@ -122,8 +125,8 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
     setSubmitted(true);
     
     // For exercises with multiple questions array
-    if (exercise.content.questions && Array.isArray(exercise.content.questions) && userAnswer?.questionIndex !== undefined) {
-      const currentQuestion = exercise.content.questions[userAnswer.questionIndex];
+    if (exerciseContent.questions && Array.isArray(exerciseContent.questions) && userAnswer?.questionIndex !== undefined) {
+      const currentQuestion = exerciseContent.questions[userAnswer.questionIndex];
       
       if (currentQuestion.options && Array.isArray(currentQuestion.options) && exercise.type !== 'fill-blank') {
         // Multiple choice evaluation
@@ -173,9 +176,9 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
       // Legacy single question format or other types
       let correct = false;
       
-      if (exercise.content.options && Array.isArray(exercise.content.options) && userAnswer !== null) {
+      if (exerciseContent.options && Array.isArray(exerciseContent.options) && userAnswer !== null) {
         // Single multiple choice
-        correct = checkMultipleChoiceCorrect(exercise.content, userAnswer);
+        correct = checkMultipleChoiceCorrect(exerciseContent, userAnswer);
       } else {
         // Other types
         correct = userAnswer !== null && userAnswer !== '';
@@ -195,8 +198,8 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
 
   const renderExerciseContent = () => {
     // Speaking exercises use dedicated component
-    if (exercise.type === 'speaking-analysis' && exercise.content.questions && Array.isArray(exercise.content.questions)) {
-      const question = exercise.content.questions[0]; // Use first question for now
+    if (exercise.type === 'speaking-analysis' && exerciseContent.questions && Array.isArray(exerciseContent.questions)) {
+      const question = exerciseContent.questions[0]; // Use first question for now
       return (
         <div className="space-y-6">
           <SpeakingExercise
@@ -231,13 +234,13 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
           isAnimating ? 'opacity-0 translate-y-4' : 'opacity-100 translate-y-0'
         }`}>
           <div className="mb-6">
-            <h2 className="text-2xl font-black text-gray-900">{exercise.content.title || 'Sopa de Letras'}</h2>
-            <p className="text-gray-600 mt-2">{exercise.content.instructions || 'Encuentra las palabras ocultas en la cuadrícula.'}</p>
+            <h2 className="text-2xl font-black text-gray-900">{exerciseContent.title || 'Sopa de Letras'}</h2>
+            <p className="text-gray-600 mt-2">{exerciseContent.instructions || 'Encuentra las palabras ocultas en la cuadrícula.'}</p>
           </div>
           <WordSearchExercise 
-            words={exercise.content.words} 
-            gridSize={exercise.content.gridSize || 10} 
-            clues={exercise.content.clues}
+            words={exerciseContent.words} 
+            gridSize={exerciseContent.gridSize || 10} 
+            clues={exerciseContent.clues}
             onComplete={() => {
               setShowConfetti(true);
               completeExercise(exercise.id, 1, 1);
@@ -267,11 +270,11 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
           isAnimating ? 'opacity-0 translate-y-4' : 'opacity-100 translate-y-0'
         }`}>
           <div className="mb-6">
-            <h2 className="text-2xl font-black text-gray-900">{exercise.content.title || 'Crucigrama'}</h2>
-            <p className="text-gray-600 mt-2">{exercise.content.instructions || 'Completa el crucigrama usando las pistas.'}</p>
+            <h2 className="text-2xl font-black text-gray-900">{exerciseContent.title || 'Crucigrama'}</h2>
+            <p className="text-gray-600 mt-2">{exerciseContent.instructions || 'Completa el crucigrama usando las pistas.'}</p>
           </div>
           <CrosswordExercise 
-            items={exercise.content.items} 
+            items={exerciseContent.items} 
             onComplete={() => {
               setShowConfetti(true);
               completeExercise(exercise.id, 1, 1);
@@ -301,7 +304,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
           isAnimating ? 'opacity-0 translate-y-4' : 'opacity-100 translate-y-0'
         }`}>
           <FlashcardExercise 
-            content={exercise.content as any} 
+            content={exerciseContent as any} 
             vocabulary={vocabulary}
             onComplete={async (quality) => {
               if (quality >= 4) setShowConfetti(true);
@@ -310,7 +313,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
               await updateSRSItem(
                 exercise.id, 
                 'vocabulary', 
-                exercise.content, 
+                exerciseContent, 
                 quality
               );
 
@@ -341,7 +344,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
           isAnimating ? 'opacity-0 translate-y-4' : 'opacity-100 translate-y-0'
         }`}>
           <DragDropExercise 
-            content={exercise.content as any} 
+            content={exerciseContent as any} 
             vocabulary={vocabulary}
             onComplete={(isCorrect) => {
               if (isCorrect) {
@@ -362,7 +365,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
           isAnimating ? 'opacity-0 translate-y-4' : 'opacity-100 translate-y-0'
         }`}>
           <MatchingExercise 
-            content={exercise.content as any} 
+            content={exerciseContent as any} 
             vocabulary={vocabulary}
             onComplete={(isCorrect) => {
               if (isCorrect) {
@@ -383,7 +386,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
           isAnimating ? 'opacity-0 translate-y-4' : 'opacity-100 translate-y-0'
         }`}>
           <InteractiveDialogueExercise 
-            content={exercise.content as any} 
+            content={exerciseContent as any} 
             vocabulary={vocabulary}
             onComplete={(success) => {
               if (success) {
@@ -415,11 +418,11 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
             </span>
           </div>
           <h2 className="text-2xl font-black text-gray-900">
-            <TranslatedText text={exercise.content.title || 'Exercise'} />
+            <TranslatedText text={exerciseContent.title || 'Exercise'} />
           </h2>
-          {exercise.content.instructions && (
+          {exerciseContent.instructions && (
             <div className="text-gray-600 mt-2 whitespace-pre-wrap">
-              <Markdown content={exercise.content.instructions} vocabulary={vocabulary} />
+              <Markdown content={exerciseContent.instructions} vocabulary={vocabulary} />
             </div>
           )}
         </div>
@@ -434,7 +437,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
             <div className="flex justify-center pt-4">
               <button
                 onClick={() => {
-                  if (!exercise.content.questions || exercise.content.questions.length === 0) {
+                  if (!exerciseContent.questions || exerciseContent.questions.length === 0) {
                     onComplete({ success: true, score: 100 });
                   } else {
                     setShowReadingText(false);
@@ -442,7 +445,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                 }}
                 className="group bg-purple-600 text-white px-10 py-5 rounded-2xl font-black text-lg hover:bg-purple-700 transition-all shadow-xl hover:shadow-purple-200 flex items-center gap-3 transform hover:scale-105 active:scale-95"
               >
-                {!exercise.content.questions || exercise.content.questions.length === 0 
+                {!exerciseContent.questions || exerciseContent.questions.length === 0 
                   ? "Entendido, ir a las preguntas" 
                   : "Comprender texto y responder"}
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
@@ -453,9 +456,9 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
           /* Question Phase: Show questions */
           <div className="space-y-4 animate-in fade-in duration-300">
             {/* Questions array - for exercises with multiple questions */}
-            {exercise.content.questions && Array.isArray(exercise.content.questions) && (
+            {exerciseContent.questions && Array.isArray(exerciseContent.questions) && (
               <div className="space-y-6">
-                {exercise.content.questions.map((q: any, qIndex: number) => (
+                {exerciseContent.questions.map((q: any, qIndex: number) => (
                 <div key={qIndex} className="bg-gray-50 rounded-lg p-4 sm:p-6 border border-gray-200 transition-all hover:shadow-md">
                   <div className="mb-4">
                     <span className="inline-block bg-orange-500 text-white px-3 py-1 rounded-full text-sm font-bold mb-3">
@@ -630,16 +633,16 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
           )}
 
           {/* Single question/prompt */}
-          {exercise.content.question && !exercise.content.questions && (
+          {exerciseContent.question && !exerciseContent.questions && (
             <div className="bg-gray-50 rounded-lg p-4 border border-gray-200">
-              <TranslatedText text={exercise.content.question} className="text-lg text-gray-800" />
+              <TranslatedText text={exerciseContent.question} className="text-lg text-gray-800" />
             </div>
           )}
 
           {/* Options for single multiple choice (legacy) */}
-          {exercise.content.options && Array.isArray(exercise.content.options) && !exercise.content.questions && (
+          {exerciseContent.options && Array.isArray(exerciseContent.options) && !exerciseContent.questions && (
             <div className="space-y-2">
-              {exercise.content.options.map((option: any, index: number) => (
+              {exerciseContent.options.map((option: any, index: number) => (
                 <button
                   key={index}
                   onClick={() => !submitted && setUserAnswer(index)}
@@ -649,11 +652,11 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                       ? 'border-orange-500 bg-orange-50 shadow-md'
                       : 'border-gray-200 hover:border-gray-300 bg-white hover:shadow-sm'
                   } ${
-                    submitted && checkMultipleChoiceCorrect(exercise.content, index)
+                    submitted && checkMultipleChoiceCorrect(exerciseContent, index)
                       ? 'border-green-500 bg-green-50 shadow-md'
                       : ''
                   } ${
-                    submitted && userAnswer === index && !checkMultipleChoiceCorrect(exercise.content, index)
+                    submitted && userAnswer === index && !checkMultipleChoiceCorrect(exerciseContent, index)
                       ? 'border-red-500 bg-red-50 shadow-md'
                       : ''
                   } disabled:cursor-not-allowed disabled:transform-none`}
@@ -670,7 +673,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
           )}
 
           {/* Text input for fill-in-the-blank (single question legacy) */}
-          {exercise.type === 'fill-blank' && !exercise.content.questions && !exercise.content.options && (
+          {exercise.type === 'fill-blank' && !exerciseContent.questions && !exerciseContent.options && (
             <input
               type="text"
               value={userAnswer || ''}
