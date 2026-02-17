@@ -39,7 +39,7 @@ export const A1_M1_L2_GRAMMAR_1: Exercise = {
       id: 'a1-m1-l2-g1-q1',
       type: 'multiple-choice',
       question: 'Peter is from England. ___ is English.',
-      options: ['He', 'She', 'It', 'They'],
+      options: ['[[He|Él]]', '[[She|Ella]]', '[[It|Eso/Ello]]', '[[They|Ellos]]'],
       correctAnswer: 'He',
       explanation: 'Peter is a man, so we use "He".',
       points: 1
@@ -48,7 +48,7 @@ export const A1_M1_L2_GRAMMAR_1: Exercise = {
       id: 'a1-m1-l2-g1-q2',
       type: 'multiple-choice',
       question: 'Anna is a nurse. ___ is 24 years old.',
-      options: ['He', 'She', 'It', 'We'],
+      options: ['[[He|Él]]', '[[She|Ella]]', '[[It|Eso/Ello]]', '[[We|Nosotros]]'],
       correctAnswer: 'She',
       explanation: 'Anna is a woman, so we use "She".',
       points: 1
@@ -57,7 +57,7 @@ export const A1_M1_L2_GRAMMAR_1: Exercise = {
       id: 'a1-m1-l2-g1-q3',
       type: 'multiple-choice',
       question: 'The house is very big. ___ is white.',
-      options: ['He', 'She', 'It', 'They'],
+      options: ['[[He|Él]]', '[[She|Ella]]', '[[It|Eso/Ello]]', '[[They|Ellos]]'],
       correctAnswer: 'It',
       explanation: 'The house is a thing, so we use "It".',
       points: 1
@@ -66,7 +66,7 @@ export const A1_M1_L2_GRAMMAR_1: Exercise = {
       id: 'a1-m1-l2-g1-q4',
       type: 'multiple-choice',
       question: 'My brother and I are students. ___ are in class.',
-      options: ['We', 'They', 'You', 'I'],
+      options: ['[[We|Nosotros]]', '[[They|Ellos]]', '[[You|Tú/Ustedes]]', '[[I|Yo]]'],
       correctAnswer: 'We',
       explanation: '"My brother and I" includes yourself, so we use "We".',
       points: 1
@@ -75,7 +75,7 @@ export const A1_M1_L2_GRAMMAR_1: Exercise = {
       id: 'a1-m1-l2-g1-q5',
       type: 'multiple-choice',
       question: 'Mark and Lisa are married. ___ are from Canada.',
-      options: ['We', 'You', 'They', 'He'],
+      options: ['[[We|Nosotros]]', '[[You|Tú/Ustedes]]', '[[They|Ellos]]', '[[He|Él]]'],
       correctAnswer: 'They',
       explanation: 'Mark and Lisa are two people (plural), so we use "They".',
       points: 1
@@ -110,7 +110,7 @@ export const A1_M1_L2_GRAMMAR_1: Exercise = {
       id: 'a1-m1-l2-g1-q9',
       type: 'multiple-choice',
       question: 'The Eiffel Tower is in Paris. ___ is famous.',
-      options: ['He', 'She', 'It', 'They'],
+      options: ['[[He|Él]]', '[[She|Ella]]', '[[It|Eso/Ello]]', '[[They|Ellos]]'],
       correctAnswer: 'It',
       explanation: 'The Eiffel Tower is a thing/monument.',
       points: 1
@@ -119,7 +119,7 @@ export const A1_M1_L2_GRAMMAR_1: Exercise = {
       id: 'a1-m1-l2-g1-q10',
       type: 'multiple-choice',
       question: 'Sam and David are brothers. ___ are tall.',
-      options: ['He', 'They', 'We', 'It'],
+      options: ['[[He|Él]]', '[[They|Ellos]]', '[[We|Nosotros]]', '[[It|Eso/Ello]]'],
       correctAnswer: 'They',
       explanation: 'Plural subject (two people).',
       points: 1
@@ -145,7 +145,7 @@ export const A1_M1_L2_GRAMMAR_1: Exercise = {
       id: 'a1-m1-l2-g1-q13',
       type: 'multiple-choice',
       question: 'The books are on the table. ___ are new.',
-      options: ['It', 'He', 'They', 'We'],
+      options: ['[[It|Eso/Ello]]', '[[He|Él]]', '[[They|Ellos]]', '[[We|Nosotros]]'],
       correctAnswer: 'They',
       explanation: 'Books (plural) = They.',
       points: 1
@@ -163,7 +163,7 @@ export const A1_M1_L2_GRAMMAR_1: Exercise = {
       id: 'a1-m1-l2-g1-q15',
       type: 'multiple-choice',
       question: 'The car is fast. ___ is a Ferrari.',
-      options: ['He', 'She', 'It', 'They'],
+      options: ['[[He|Él]]', '[[She|Ella]]', '[[It|Eso/Ello]]', '[[They|Ellos]]'],
       correctAnswer: 'It',
       explanation: 'Car is an object.',
       points: 1
@@ -181,7 +181,7 @@ export const A1_M1_L2_GRAMMAR_1: Exercise = {
       id: 'a1-m1-l2-g1-q17',
       type: 'multiple-choice',
       question: 'The cat is on the sofa. ___ is sleeping.',
-      options: ['He', 'She', 'It', 'They'],
+      options: ['[[He|Él]]', '[[She|Ella]]', '[[It|Eso/Ello]]', '[[They|Ellos]]'],
       correctAnswer: 'It',
       explanation: 'Usually "It" for animals.',
       points: 1
@@ -252,7 +252,7 @@ export const A1_M1_L2_GRAMMAR_2: Exercise = {
       id: 'a1-m1-l2-g2-q1',
       type: 'multiple-choice',
       question: 'He ___ a teacher.',
-      options: ['am', 'is', 'are', 'be'],
+      options: ['[[am|soy/estoy]]', '[[is|es/está]]', '[[are|eres/estás]]', '[[be|ser/estar]]'],
       correctAnswer: 'is',
       explanation: 'We use "is" with "he".',
       points: 1
@@ -261,7 +261,7 @@ export const A1_M1_L2_GRAMMAR_2: Exercise = {
       id: 'a1-m1-l2-g2-q2',
       type: 'multiple-choice',
       question: 'They ___ from Japan.',
-      options: ['am', 'is', 'are', 'be'],
+      options: ['[[am|soy/estoy]]', '[[is|es/está]]', '[[are|son/están]]', '[[be|ser/estar]]'],
       correctAnswer: 'are',
       explanation: 'We use "are" with "they".',
       points: 1
@@ -270,7 +270,7 @@ export const A1_M1_L2_GRAMMAR_2: Exercise = {
       id: 'a1-m1-l2-g2-q3',
       type: 'multiple-choice',
       question: 'She ___ my sister.',
-      options: ['am', 'is', 'are', 'be'],
+      options: ['[[am|soy/estoy]]', '[[is|es/está]]', '[[are|eres/estás]]', '[[be|ser/estar]]'],
       correctAnswer: 'is',
       explanation: 'We use "is" with "she".',
       points: 1
@@ -279,7 +279,7 @@ export const A1_M1_L2_GRAMMAR_2: Exercise = {
       id: 'a1-m1-l2-g2-q4',
       type: 'multiple-choice',
       question: 'We ___ happy.',
-      options: ['am', 'is', 'are', 'be'],
+      options: ['[[am|soy/estoy]]', '[[is|es/está]]', '[[are|somos/estamos]]', '[[be|ser/estar]]'],
       correctAnswer: 'are',
       explanation: 'We use "are" with "we".',
       points: 1
@@ -306,7 +306,7 @@ export const A1_M1_L2_GRAMMAR_2: Exercise = {
       id: 'a1-m1-l2-g2-q7',
       type: 'multiple-choice',
       question: 'Which contraction is correct for "He is"?',
-      options: ["Hes", "He's", "He'is", "H'is"],
+      options: ['[[Hes|Él es (sin apóstrofe)]]', '[[He\'s|Él es]]', '[[He\'is|él\'es (incorrecto)]]', '[[H\'is|h\'es (incorrecto)]]'],
       correctAnswer: "He's",
       explanation: '"He\'s" is the standard contraction.',
       points: 1
@@ -315,7 +315,7 @@ export const A1_M1_L2_GRAMMAR_2: Exercise = {
       id: 'a1-m1-l2-g2-q8',
       type: 'multiple-choice',
       question: 'Which contraction is correct for "They are"?',
-      options: ["Theyr", "Theyre", "They're", "They'ar"],
+      options: ['[[Theyr|ellos son (sin apóstrofe)]]', '[[Theyre|ellos son (incorrecto)]]', '[[They\'re|Ellos son]]', '[[They\'ar|ellos\'son (incorrecto)]]'],
       correctAnswer: "They're",
       explanation: '"They\'re" is the standard contraction.',
       points: 1
@@ -457,7 +457,7 @@ The club is a great place to meet people. It is open every day.
       id: 'a1-m1-l2-r-q1',
       type: 'multiple-choice',
       question: 'Where is Mario from?',
-      options: ['Spain', 'Japan', 'Italy', 'England'],
+      options: ['[[Spain|España]]', '[[Japan|Japón]]', '[[Italy|Italia]]', '[[England|Inglaterra]]'],
       correctAnswer: 'Italy',
       explanation: 'The text says "He is from Italy".',
       points: 1
@@ -466,7 +466,7 @@ The club is a great place to meet people. It is open every day.
       id: 'a1-m1-l2-r-q2',
       type: 'multiple-choice',
       question: 'What is Yuki studying?',
-      options: ['Architecture', 'Business', 'Medicine', 'Art'],
+      options: ['[[Architecture|Arquitectura]]', '[[Business|Negocios]]', '[[Medicine|Medicina]]', '[[Art|Arte]]'],
       correctAnswer: 'Medicine',
       explanation: 'Yuki is a "student of Medicine".',
       points: 1
@@ -475,7 +475,7 @@ The club is a great place to meet people. It is open every day.
       id: 'a1-m1-l2-r-q3',
       type: 'multiple-choice',
       question: 'Where are Carlos and Elena from?',
-      options: ['Italy', 'Japan', 'Spain', 'Mexico'],
+      options: ['[[Italy|Italia]]', '[[Japan|Japón]]', '[[Spain|España]]', '[[Mexico|México]]'],
       correctAnswer: 'Spain',
       explanation: 'They are from Spain.',
       points: 1
@@ -492,7 +492,7 @@ The club is a great place to meet people. It is open every day.
       id: 'a1-m1-l2-r-q5',
       type: 'multiple-choice',
       question: 'How old is Yuki?',
-      options: ['21', '22', '23', '24'],
+      options: ['[[21|21]]', '[[22|22]]', '[[23|23]]', '[[24|24]]'],
       correctAnswer: '23',
       explanation: 'She is 23 years old.',
       points: 1
@@ -534,7 +534,7 @@ export const A1_M1_L2_LISTENING: Exercise = {
       id: 'a1-m1-l2-l-q1',
       type: 'multiple-choice',
       question: 'What is Julia\'s job?',
-      options: ['Doctor', 'Nurse', 'Teacher', 'Manager'],
+      options: ['[[Doctor|Doctor/a]]', '[[Nurse|Enfermero/a]]', '[[Teacher|Profesor/a]]', '[[Manager|Gerente]]'],
       correctAnswer: 'Nurse',
       explanation: 'She says "I am a nurse".',
       points: 1
@@ -543,7 +543,7 @@ export const A1_M1_L2_LISTENING: Exercise = {
       id: 'a1-m1-l2-l-q2',
       type: 'multiple-choice',
       question: 'Where is Julia from?',
-      options: ['England', 'Spain', 'Germany', 'USA'],
+      options: ['[[England|Inglaterra]]', '[[Spain|España]]', '[[Germany|Alemania]]', '[[USA|EE.UU.]]'],
       correctAnswer: 'Germany',
       explanation: 'She says "I am from Germany".',
       points: 1
@@ -561,7 +561,7 @@ export const A1_M1_L2_LISTENING: Exercise = {
       id: 'a1-m1-l2-l-q4',
       type: 'multiple-choice',
       question: 'What city are Julia and Hans from?',
-      options: ['Berlin', 'Munich', 'Hamburg', 'Frankfurt'],
+      options: ['[[Berlin|Berlín]]', '[[Munich|Múnich]]', '[[Hamburg|Hamburgo]]', '[[Frankfurt|Fráncfort]]'],
       correctAnswer: 'Munich',
       explanation: 'She says "No, we are from Munich".',
       points: 1
@@ -578,7 +578,7 @@ export const A1_M1_L2_LISTENING: Exercise = {
       id: 'a1-m1-l2-l-q6',
       type: 'multiple-choice',
       question: 'What is the job of the colleagues?',
-      options: ['Nurses', 'Doctors', 'Teachers', 'Pilots'],
+      options: ['[[Nurses|Enfermeros/as]]', '[[Doctors|Doctores/as]]', '[[Teachers|Profesores/as]]', '[[Pilots|Pilotos]]'],
       correctAnswer: 'Teachers',
       explanation: 'She says "They are teachers".',
       points: 1

@@ -41,7 +41,7 @@ export const A1_M1_L1_GRAMMAR_1: Exercise = {
       id: 'a1-m1-l1-g1-q1',
       type: 'multiple-choice',
       question: '___ am Sarah. Nice to meet you.',
-      options: ['You', 'I', 'Me', 'He'],
+      options: ['[[You|Tú/Usted]]', '[[I|Yo]]', '[[Me|Mí/Me]]', '[[He|Él]]'],
       correctAnswer: 'I',
       explanation: 'We use "I" to talk about ourselves. It is always capitalized.',
       points: 1
@@ -50,7 +50,7 @@ export const A1_M1_L1_GRAMMAR_1: Exercise = {
       id: 'a1-m1-l1-g1-q2',
       type: 'multiple-choice',
       question: 'Hello! How are ___?',
-      options: ['I', 'you', 'me', 'your'],
+      options: ['[[I|Yo]]', '[[you|tú/usted]]', '[[me|mí/me]]', '[[your|tu/su]]'],
       correctAnswer: 'you',
       explanation: 'We use "you" when speaking directly to another person.',
       points: 1
@@ -59,7 +59,7 @@ export const A1_M1_L1_GRAMMAR_1: Exercise = {
       id: 'a1-m1-l1-g1-q3',
       type: 'multiple-choice',
       question: 'It is 9:00 AM. You say: "Good ___!"',
-      options: ['afternoon', 'evening', 'night', 'morning'],
+      options: ['[[afternoon|tarde]]', '[[evening|noche (saludo)]]', '[[night|noche (despedida)]]', '[[morning|mañana]]'],
       correctAnswer: 'morning',
       explanation: 'We use "Good morning" before 12:00 PM.',
       points: 1
@@ -85,7 +85,7 @@ export const A1_M1_L1_GRAMMAR_1: Exercise = {
       id: 'a1-m1-l1-g1-q6',
       type: 'multiple-choice',
       question: 'It is 3:00 PM. You say: "Good ___!"',
-      options: ['morning', 'afternoon', 'evening', 'night'],
+      options: ['[[morning|mañana]]', '[[afternoon|tarde]]', '[[evening|noche (saludo)]]', '[[night|noche (despedida)]]'],
       correctAnswer: 'afternoon',
       explanation: 'We use "Good afternoon" between 12:00 PM and 6:00 PM.',
       points: 1
@@ -103,7 +103,7 @@ export const A1_M1_L1_GRAMMAR_1: Exercise = {
       id: 'a1-m1-l1-g1-q8',
       type: 'multiple-choice',
       question: 'When you leave, you say: "___!"',
-      options: ['Hello', 'Hi', 'Goodbye', 'Good morning'],
+      options: ['[[Hello|Hola]]', '[[Hi|Hola (informal)]]', '[[Goodbye|Adiós]]', '[[Good morning|Buenos días]]'],
       correctAnswer: 'Goodbye',
       explanation: '"Goodbye" is used when leaving or finishing a conversation.',
       points: 1
@@ -112,7 +112,7 @@ export const A1_M1_L1_GRAMMAR_1: Exercise = {
       id: 'a1-m1-l1-g1-q9',
       type: 'multiple-choice',
       question: 'It is 8:00 PM. You arrive at a restaurant. You say: "Good ___!"',
-      options: ['morning', 'afternoon', 'evening', 'night'],
+      options: ['[[morning|mañana]]', '[[afternoon|tarde]]', '[[evening|noche (saludo)]]', '[[night|noche (despedida)]]'],
       correctAnswer: 'evening',
       explanation: 'We use "Good evening" as a greeting after 6:00 PM. "Good night" is for leaving.',
       points: 1
@@ -130,7 +130,7 @@ export const A1_M1_L1_GRAMMAR_1: Exercise = {
       id: 'a1-m1-l1-g1-q11',
       type: 'multiple-choice',
       question: 'Informal way to say "Hello":',
-      options: ['Good morning', 'Hi', 'Goodbye', 'Good evening'],
+      options: ['[[Good morning|Buenos días]]', '[[Hi|Hola (informal)]]', '[[Goodbye|Adiós]]', '[[Good evening|Buenas noches (saludo)]]'],
       correctAnswer: 'Hi',
       explanation: '"Hi" is a very common informal greeting.',
       points: 1
@@ -147,7 +147,7 @@ export const A1_M1_L1_GRAMMAR_1: Exercise = {
       id: 'a1-m1-l1-g1-q13',
       type: 'multiple-choice',
       question: 'I ___ a student. Are ___ a student too?',
-      options: ['is / you', 'am / you', 'are / I', 'am / I'],
+      options: ['[[is / you|es / tú]]', '[[am / you|soy / tú]]', '[[are / I|estás / yo]]', '[[am / I|soy / yo]]'],
       correctAnswer: 'am / you',
       explanation: 'We use "am" with "I" and "are" with "you".',
       points: 1
@@ -165,7 +165,7 @@ export const A1_M1_L1_GRAMMAR_1: Exercise = {
       id: 'a1-m1-l1-g1-q15',
       type: 'multiple-choice',
       question: 'Which is correct?',
-      options: ['i am happy.', 'I am happy.', 'me am happy.', 'Am I happy?'],
+      options: ['[[i am happy.|yo estoy feliz (incorrecto)]]', '[[I am happy.|Yo estoy feliz.]]', '[[me am happy.|mí estoy feliz (incorrecto)]]', '[[Am I happy?|¿Estoy yo feliz?]]'],
       correctAnswer: 'I am happy.',
       explanation: '"I" must be capitalized, and it is the subject of the sentence.',
       points: 1
@@ -183,7 +183,7 @@ export const A1_M1_L1_GRAMMAR_1: Exercise = {
       id: 'a1-m1-l1-g1-q17',
       type: 'multiple-choice',
       question: 'When you meet someone for the first time, you say:',
-      options: ['Goodbye', 'Nice to meet you', 'How are you', 'Hi'],
+      options: ['[[Goodbye|Adiós]]', '[[Nice to meet you|Encantado de conocerte]]', '[[How are you|¿Cómo estás?]]', '[[Hi|Hola]]'],
       correctAnswer: 'Nice to meet you',
       explanation: '"Nice to meet you" is the standard polite phrase for first-time introductions.',
       points: 1
@@ -209,7 +209,7 @@ export const A1_M1_L1_GRAMMAR_1: Exercise = {
       id: 'a1-m1-l1-g1-q20',
       type: 'multiple-choice',
       question: 'Which greeting is formal?',
-      options: ['Hi', 'Hello', 'Good morning', 'Hey'],
+      options: ['[[Hi|Hola]]', '[[Hello|Hola]]', '[[Good morning|Buenos días]]', '[[Hey|Hola (muy informal)]]'],
       correctAnswer: 'Good morning',
       explanation: 'Time-based greetings like "Good morning" are more formal than "Hi" or "Hey".',
       points: 1
@@ -250,7 +250,7 @@ export const A1_M1_L1_GRAMMAR_2: Exercise = {
       id: 'a1-m1-l1-g2-q1',
       type: 'multiple-choice',
       question: 'I ___ a student.',
-      options: ['am', 'are', 'is', 'be'],
+      options: ['[[am|soy/estoy]]', '[[are|eres/estás]]', '[[is|es/está]]', '[[be|ser/estar]]'],
       correctAnswer: 'am',
       explanation: 'We always use "am" with the first person "I".',
       points: 1
@@ -259,7 +259,7 @@ export const A1_M1_L1_GRAMMAR_2: Exercise = {
       id: 'a1-m1-l1-g2-q2',
       type: 'multiple-choice',
       question: 'You ___ my friend.',
-      options: ['am', 'are', 'is', 'be'],
+      options: ['[[am|soy/estoy]]', '[[are|eres/estás]]', '[[is|es/está]]', '[[be|ser/estar]]'],
       correctAnswer: 'are',
       explanation: 'We use "are" with the pronoun "you".',
       points: 1
@@ -294,7 +294,7 @@ export const A1_M1_L1_GRAMMAR_2: Exercise = {
       id: 'a1-m1-l1-g2-q6',
       type: 'multiple-choice',
       question: 'Select the correct contraction for "I am":',
-      options: ["I'is", "I're", "I'm", "Im"],
+      options: ['[[I\'is|yo\'es (incorrecto)]]', '[[I\'re|yo\'eres (incorrecto)]]', '[[I\'m|yo soy]]', '[[Im|yo soy (sin apóstrofe)]]'],
       correctAnswer: "I'm",
       explanation: '"I\'m" is the only correct contraction for "I am".',
       points: 1
@@ -303,7 +303,7 @@ export const A1_M1_L1_GRAMMAR_2: Exercise = {
       id: 'a1-m1-l1-g2-q7',
       type: 'multiple-choice',
       question: 'Select the correct contraction for "You are":',
-      options: ["You'm", "You's", "You're", "Youre"],
+      options: ['[[You\'m|tú\'soy (incorrecto)]]', '[[You\'s|tú\'es (incorrecto)]]', '[[You\'re|tú eres]]', '[[Youre|tú eres (sin apóstrofe)]]'],
       correctAnswer: "You're",
       explanation: '"You\'re" is the correct contraction for "You are".',
       points: 1
@@ -321,7 +321,7 @@ export const A1_M1_L1_GRAMMAR_2: Exercise = {
       id: 'a1-m1-l1-g2-q9',
       type: 'multiple-choice',
       question: 'You ___ very kind.',
-      options: ['am', 'are', 'is', 'be'],
+      options: ['[[am|soy/estoy]]', '[[are|eres/estás]]', '[[is|es/está]]', '[[be|ser/estar]]'],
       correctAnswer: 'are',
       explanation: '"You are" is used to describe qualities of a person.',
       points: 1
@@ -347,7 +347,7 @@ export const A1_M1_L1_GRAMMAR_2: Exercise = {
       id: 'a1-m1-l1-g2-q12',
       type: 'multiple-choice',
       question: 'Which one is NOT a contraction?',
-      options: ["I'm", "You're", "I am", "They're"],
+      options: ['[[I\'m|yo soy (contracción)]]', '[[You\'re|tú eres (contracción)]]', '[[I am|yo soy (forma completa)]]', '[[They\'re|ellos son (contracción)]]'],
       correctAnswer: "I am",
       explanation: '"I am" is the full form, not a contraction.',
       points: 1
@@ -365,7 +365,7 @@ export const A1_M1_L1_GRAMMAR_2: Exercise = {
       id: 'a1-m1-l1-g2-q14',
       type: 'multiple-choice',
       question: 'You ___ in room 5.',
-      options: ['am', 'are', 'is', 'be'],
+      options: ['[[am|soy/estoy]]', '[[are|eres/estás]]', '[[is|es/está]]', '[[be|ser/estar]]'],
       correctAnswer: 'are',
       explanation: 'Use "are" to indicate location for "you".',
       points: 1
@@ -391,7 +391,7 @@ export const A1_M1_L1_GRAMMAR_2: Exercise = {
       id: 'a1-m1-l1-g2-q17',
       type: 'multiple-choice',
       question: 'You ___ a pilot.',
-      options: ['am', 'are', 'is', 'be'],
+      options: ['[[am|soy/estoy]]', '[[are|eres/estás]]', '[[is|es/está]]', '[[be|ser/estar]]'],
       correctAnswer: 'are',
       explanation: 'Use "are" for professions with "you".',
       points: 1
@@ -455,7 +455,7 @@ export const A1_M1_L1_READING: Exercise = {
       id: 'a1-m1-l1-r-q1',
       type: 'multiple-choice',
       question: 'What is the woman\'s name?',
-      options: ['Maria Miller', 'Sarah Miller', 'Sarah Paul', 'Paula Miller'],
+      options: ['[[Maria Miller|Maria Miller]]', '[[Sarah Miller|Sarah Miller]]', '[[Sarah Paul|Sarah Paul]]', '[[Paula Miller|Paula Miller]]'],
       correctAnswer: 'Sarah Miller',
       explanation: 'She says "I am Sarah Miller".',
       points: 1
@@ -464,7 +464,7 @@ export const A1_M1_L1_READING: Exercise = {
       id: 'a1-m1-l1-r-q2',
       type: 'multiple-choice',
       question: 'What is Paul\'s job?',
-      options: ['Teacher', 'Doctor', 'Driver', 'Pilot'],
+      options: ['[[Teacher|Profesor]]', '[[Doctor|Doctor]]', '[[Driver|Conductor]]', '[[Pilot|Piloto]]'],
       correctAnswer: 'Driver',
       explanation: 'Paul says "I am your driver".',
       points: 1
@@ -473,7 +473,7 @@ export const A1_M1_L1_READING: Exercise = {
       id: 'a1-m1-l1-r-q3',
       type: 'multiple-choice',
       question: 'Where are they?',
-      options: ['At a school', 'At a hospital', 'At the airport', 'At a restaurant'],
+      options: ['[[At a school|En una escuela]]', '[[At a hospital|En un hospital]]', '[[At the airport|En el aeropuerto]]', '[[At a restaurant|En un restaurante]]'],
       correctAnswer: 'At the airport',
       explanation: 'The title and the context of a driver meeting someone indicate they are at the airport.',
       points: 1
@@ -490,7 +490,7 @@ export const A1_M1_L1_READING: Exercise = {
       id: 'a1-m1-l1-r-q5',
       type: 'multiple-choice',
       question: 'How does Sarah feel?',
-      options: ['Sad', 'Happy', 'Tired', 'Angry'],
+      options: ['[[Sad|Triste]]', '[[Happy|Feliz]]', '[[Tired|Cansado]]', '[[Angry|Enojado]]'],
       correctAnswer: 'Happy',
       explanation: 'Sarah says "I am very happy to be here".',
       points: 1
@@ -532,7 +532,7 @@ export const A1_M1_L1_LISTENING: Exercise = {
       id: 'a1-m1-l1-l-q1',
       type: 'multiple-choice',
       question: 'What time of day is it?',
-      options: ['Morning', 'Afternoon', 'Evening', 'Night'],
+      options: ['[[Morning|Mañana]]', '[[Afternoon|Tarde]]', '[[Evening|Tarde-noche]]', '[[Night|Noche]]'],
       correctAnswer: 'Afternoon',
       explanation: 'The officer starts with "Good afternoon".',
       points: 1
@@ -541,7 +541,7 @@ export const A1_M1_L1_LISTENING: Exercise = {
       id: 'a1-m1-l1-l-q2',
       type: 'multiple-choice',
       question: 'What is the student\'s first name?',
-      options: ['Luis', 'Lucas', 'Louis', 'Luigi'],
+      options: ['[[Luis|Luis]]', '[[Lucas|Lucas]]', '[[Louis|Louis]]', '[[Luigi|Luigi]]'],
       correctAnswer: 'Luis',
       explanation: 'He says his name is Luis Garcia.',
       points: 1
@@ -559,7 +559,7 @@ export const A1_M1_L1_LISTENING: Exercise = {
       id: 'a1-m1-l1-l-q4',
       type: 'multiple-choice',
       question: 'What is his city?',
-      options: ['Barcelona', 'Valencia', 'Madrid', 'Seville'],
+      options: ['[[Barcelona|Barcelona]]', '[[Valencia|Valencia]]', '[[Madrid|Madrid]]', '[[Seville|Sevilla]]'],
       correctAnswer: 'Madrid',
       explanation: 'He says "I am from Madrid".',
       points: 1
@@ -576,7 +576,7 @@ export const A1_M1_L1_LISTENING: Exercise = {
       id: 'a1-m1-l1-l-q6',
       type: 'multiple-choice',
       question: 'What does the officer say at the end?',
-      options: ['Hello', 'Good morning', 'Goodbye', 'Hi'],
+      options: ['[[Hello|Hola]]', '[[Good morning|Buenos días]]', '[[Goodbye|Adiós]]', '[[Hi|Hola]]'],
       correctAnswer: 'Goodbye',
       explanation: 'The officer says "Goodbye!" at the end of the conversation.',
       points: 1

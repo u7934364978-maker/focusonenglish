@@ -39,7 +39,7 @@ export const A1_M1_L3_GRAMMAR_1: Exercise = {
       id: 'a1-m1-l3-g1-q1',
       type: 'multiple-choice',
       question: 'I ___ sad. I am happy!',
-      options: ['am not', 'is not', 'are not', 'no am'],
+      options: ['[[am not|no soy/estoy]]', '[[is not|no es/está]]', '[[are not|no eres/estás]]', '[[no am|no soy (incorrecto)]]'],
       correctAnswer: 'am not',
       explanation: 'We use "am not" with "I".',
       points: 1
@@ -48,7 +48,7 @@ export const A1_M1_L3_GRAMMAR_1: Exercise = {
       id: 'a1-m1-l3-g1-q2',
       type: 'multiple-choice',
       question: 'He ___ from France. He is from Spain.',
-      options: ['am not', 'isn\'t', 'aren\'t', 'not is'],
+      options: ['[[am not|no soy/estoy]]', '[[isn\'t|no es/está]]', '[[aren\'t|no son/están]]', '[[not is|no es (incorrecto)]]'],
       correctAnswer: 'isn\'t',
       explanation: 'We use "isn\'t" (contraction of is not) with "he".',
       points: 1
@@ -57,7 +57,7 @@ export const A1_M1_L3_GRAMMAR_1: Exercise = {
       id: 'a1-m1-l3-g1-q3',
       type: 'multiple-choice',
       question: 'They ___ at school today.',
-      options: ['am not', 'isn\'t', 'aren\'t', 'no are'],
+      options: ['[[am not|no soy/estoy]]', '[[isn\'t|no es/está]]', '[[aren\'t|no son/están]]', '[[no are|no son (incorrecto)]]'],
       correctAnswer: 'aren\'t',
       explanation: 'We use "aren\'t" (contraction of are not) with "they".',
       points: 1
@@ -84,7 +84,7 @@ export const A1_M1_L3_GRAMMAR_1: Exercise = {
       id: 'a1-m1-l3-g1-q6',
       type: 'multiple-choice',
       question: 'Which contraction is correct for "It is not"?',
-      options: ["It'isnt", "It isn't", "It's not", "Both 2 and 3"],
+      options: ['[[It\'isnt|ello\'no (incorrecto)]]', '[[It isn\'t|Ello no es]]', '[[It\'s not|Ello no es]]', '[[Both 2 and 3|Ambos 2 y 3]]'],
       correctAnswer: 'Both 2 and 3',
       explanation: 'Both "It isn\'t" and "It\'s not" are correct contractions.',
       points: 1
@@ -110,7 +110,7 @@ export const A1_M1_L3_GRAMMAR_1: Exercise = {
       id: 'a1-m1-l3-g1-q9',
       type: 'multiple-choice',
       question: 'The car ___ new. It is old.',
-      options: ['am not', 'isn\'t', 'aren\'t', 'no'],
+      options: ['[[am not|no soy/estoy]]', '[[isn\'t|no es/está]]', '[[aren\'t|no son/están]]', '[[no|no]]'],
       correctAnswer: 'isn\'t',
       explanation: 'The car = it, so use "isn\'t".',
       points: 1
@@ -136,7 +136,7 @@ export const A1_M1_L3_GRAMMAR_1: Exercise = {
       id: 'a1-m1-l3-g1-q12',
       type: 'multiple-choice',
       question: 'My parents ___ here.',
-      options: ['am not', 'isn\'t', 'aren\'t', 'not'],
+      options: ['[[am not|no soy/estoy]]', '[[isn\'t|no es/está]]', '[[aren\'t|no son/están]]', '[[not|no]]'],
       correctAnswer: 'aren\'t',
       explanation: '"My parents" (they) = aren\'t.',
       points: 1
@@ -154,7 +154,7 @@ export const A1_M1_L3_GRAMMAR_1: Exercise = {
       id: 'a1-m1-l3-g1-q14',
       type: 'multiple-choice',
       question: 'Which one is correct?',
-      options: ["You no are a student.", "You are not a student.", "You not is a student.", "You am not a student."],
+      options: ['[[You no are a student.|tú no eres estudiante (incorrecto)]]', '[[You are not a student.|Tú no eres estudiante.]]', '[[You not is a student.|tú no es estudiante (incorrecto)]]', '[[You am not a student.|tú soy no estudiante (incorrecto)]]'],
       correctAnswer: 'You are not a student.',
       explanation: '"You are not" is the correct negative form.',
       points: 1
@@ -180,7 +180,7 @@ export const A1_M1_L3_GRAMMAR_1: Exercise = {
       id: 'a1-m1-l3-g1-q17',
       type: 'multiple-choice',
       question: 'We ___ tired.',
-      options: ['am not', 'isn\'t', 'aren\'t', 'no'],
+      options: ['[[am not|no soy/estoy]]', '[[isn\'t|no es/está]]', '[[aren\'t|no somos/estamos]]', '[[no|no]]'],
       correctAnswer: 'aren\'t',
       explanation: 'We = aren\'t.',
       points: 1
@@ -250,7 +250,7 @@ export const A1_M1_L3_GRAMMAR_2: Exercise = {
       id: 'a1-m1-l3-g2-q1',
       type: 'multiple-choice',
       question: '___ you from Spain?',
-      options: ['Am', 'Is', 'Are', 'Be'],
+      options: ['[[Am|¿Soy/Estoy?]]', '[[Is|¿Es/Está?]]', '[[Are|¿Eres/Estás?]]', '[[Be|¿Ser/Estar?]]'],
       correctAnswer: 'Are',
       explanation: 'We use "Are" for questions with "you".',
       points: 1
@@ -259,7 +259,7 @@ export const A1_M1_L3_GRAMMAR_2: Exercise = {
       id: 'a1-m1-l3-g2-q2',
       type: 'multiple-choice',
       question: '___ he a doctor?',
-      options: ['Am', 'Is', 'Are', 'Be'],
+      options: ['[[Am|¿Soy/Estoy?]]', '[[Is|¿Es/Está?]]', '[[Are|¿Eres/Estás?]]', '[[Be|¿Ser/Estar?]]'],
       correctAnswer: 'Is',
       explanation: 'We use "Is" for questions with "he".',
       points: 1
@@ -277,7 +277,7 @@ export const A1_M1_L3_GRAMMAR_2: Exercise = {
       id: 'a1-m1-l3-g2-q4',
       type: 'multiple-choice',
       question: 'Are they happy? - Yes, they ___.',
-      options: ['am', 'is', 'are', 'be'],
+      options: ['[[am|soy/estoy]]', '[[is|es/está]]', '[[are|son/están]]', '[[be|ser/estar]]'],
       correctAnswer: 'are',
       explanation: 'Short answer affirmative for they.',
       points: 1
@@ -286,7 +286,7 @@ export const A1_M1_L3_GRAMMAR_2: Exercise = {
       id: 'a1-m1-l3-g2-q5',
       type: 'multiple-choice',
       question: 'Is it cold today? - No, it ___.',
-      options: ['am not', 'isn\'t', 'aren\'t', 'no is'],
+      options: ['[[am not|no soy/estoy]]', '[[isn\'t|no es/está]]', '[[aren\'t|no son/están]]', '[[no is|no es (incorrecto)]]'],
       correctAnswer: 'isn\'t',
       explanation: 'Short answer negative for it.',
       points: 1
@@ -312,7 +312,7 @@ export const A1_M1_L3_GRAMMAR_2: Exercise = {
       id: 'a1-m1-l3-g2-q8',
       type: 'multiple-choice',
       question: 'Am I late? - No, you ___.',
-      options: ['am not', 'aren\'t', 'isn\'t', 'not are'],
+      options: ['[[am not|no soy/estoy]]', '[[aren\'t|no eres/estás]]', '[[isn\'t|no es/está]]', '[[not are|no eres (incorrecto)]]'],
       correctAnswer: 'aren\'t',
       explanation: 'If the question is "Am I...?", the answer is "No, you aren\'t".',
       points: 1
@@ -338,7 +338,7 @@ export const A1_M1_L3_GRAMMAR_2: Exercise = {
       id: 'a1-m1-l3-g2-q11',
       type: 'multiple-choice',
       question: '___ the students ready?',
-      options: ['Am', 'Is', 'Are', 'Be'],
+      options: ['[[Am|¿Soy/Estoy?]]', '[[Is|¿Es/Está?]]', '[[Are|¿Son/Están?]]', '[[Be|¿Ser/Estar?]]'],
       correctAnswer: 'Are',
       explanation: '"Students" (plural) = are.',
       points: 1
@@ -453,7 +453,7 @@ export const A1_M1_L3_READING: Exercise = {
       id: 'a1-m1-l3-r-q1',
       type: 'multiple-choice',
       question: 'How is Ben today?',
-      options: ['He is sick', 'He is tired', 'He is happy', 'He is angry'],
+      options: ['[[He is sick|Él está enfermo]]', '[[He is tired|Él está cansado]]', '[[He is happy|Él está feliz]]', '[[He is angry|Él está enojado]]'],
       correctAnswer: 'He is tired',
       explanation: 'Ben says "I\'m very tired".',
       points: 1
@@ -470,7 +470,7 @@ export const A1_M1_L3_READING: Exercise = {
       id: 'a1-m1-l3-r-q3',
       type: 'multiple-choice',
       question: 'How is Ben\'s sister?',
-      options: ['She is tired', 'She is sad', 'She is happy', 'She is angry'],
+      options: ['[[She is tired|Ella está cansada]]', '[[She is sad|Ella está triste]]', '[[She is happy|Ella está feliz]]', '[[She is angry|Ella está enojada]]'],
       correctAnswer: 'She is happy',
       explanation: 'Ben says "She\'s very happy and excited".',
       points: 1
@@ -479,7 +479,7 @@ export const A1_M1_L3_READING: Exercise = {
       id: 'a1-m1-l3-r-q4',
       type: 'multiple-choice',
       question: 'Why are the parents angry?',
-      options: ['They are sick', 'The train is late', 'Work is busy', 'It is Friday'],
+      options: ['[[They are sick|Ellos están enfermos]]', '[[The train is late|El tren está retrasado]]', '[[Work is busy|El trabajo está ocupado]]', '[[It is Friday|Es viernes]]'],
       correctAnswer: 'The train is late',
       explanation: 'Ben says "They are angry because the train is late!".',
       points: 1
@@ -496,7 +496,7 @@ export const A1_M1_L3_READING: Exercise = {
       id: 'a1-m1-l3-r-q6',
       type: 'multiple-choice',
       question: 'What day is it?',
-      options: ['Monday', 'Wednesday', 'Friday', 'Sunday'],
+      options: ['[[Monday|Lunes]]', '[[Wednesday|Miércoles]]', '[[Friday|Viernes]]', '[[Sunday|Domingo]]'],
       correctAnswer: 'Friday',
       explanation: 'Emma mentions it is Friday.',
       points: 1
@@ -529,7 +529,7 @@ export const A1_M1_L3_LISTENING: Exercise = {
       id: 'a1-m1-l3-l-q1',
       type: 'multiple-choice',
       question: 'Who is the woman?',
-      options: ['A teacher', 'A journalist', 'A doctor', 'A student'],
+      options: ['[[A teacher|Una profesora]]', '[[A journalist|Una periodista]]', '[[A doctor|Una doctora]]', '[[A student|Un/a estudiante]]'],
       correctAnswer: 'A journalist',
       explanation: 'She says "I am from City News".',
       points: 1
@@ -546,7 +546,7 @@ export const A1_M1_L3_LISTENING: Exercise = {
       id: 'a1-m1-l3-l-q3',
       type: 'multiple-choice',
       question: 'Where is the man from?',
-      options: ['England', 'USA', 'Australia', 'Canada'],
+      options: ['[[England|Inglaterra]]', '[[USA|EE.UU.]]', '[[Australia|Australia]]', '[[Canada|Canadá]]'],
       correctAnswer: 'Australia',
       explanation: 'He says "I\'m from Australia".',
       points: 1
@@ -555,7 +555,7 @@ export const A1_M1_L3_LISTENING: Exercise = {
       id: 'a1-m1-l3-l-q4',
       type: 'multiple-choice',
       question: 'Who is the second man?',
-      options: ['The first man\'s friend', 'The first man\'s brother', 'A manager', 'A driver'],
+      options: ['[[The first man\'s friend|El amigo del primer hombre]]', '[[The first man\'s brother|El hermano del primer hombre]]', '[[A manager|Un gerente]]', '[[A driver|Un conductor]]'],
       correctAnswer: 'The first man\'s brother',
       explanation: 'The man says "This is my brother, actually".',
       points: 1
