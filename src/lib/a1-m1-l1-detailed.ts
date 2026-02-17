@@ -4,565 +4,204 @@
 
 import { Exercise } from './exercise-types';
 
-// ============================================
-// SET 1: RECOGNITION & FOUNDATION (15 Questions)
-// ============================================
-export const A1_M1_L1_SET_1: Exercise = {
-  id: 'a1-m1-l1-set-1',
-  type: 'grammar',
+// Helper to create a simple exercise from a question
+const createExercise = (id: string, q: any, topic: string): Exercise => ({
+  id,
+  type: q.type || 'grammar',
   level: 'A1',
-  topicName: 'Greetings',
+  topicName: topic,
   content: {
-    title: 'Greetings & Basic Identity',
-    instructions: 'Choose the correct greeting or form of the verb "to be".',
-    grammarPoint: 'Greetings and Verb To Be (Singular)',
-    explanation: `
-    **Greetings:**
-    - Hello / Hi (Informal)
-    - Good morning (Until 12:00 PM)
-    - Good afternoon (12:00 PM to 6:00 PM)
-    - Good night (When leaving or going to sleep)
-    
-    **Verb 'To Be' (Singular):**
-    - **I am** (I'm)
-    - **You are** (You're)
-    - **He is** (He's)
-    - **She is** (She's)
-    - **It is** (It's)
-    `,
-    questions: [
-      {
-        id: 'a1-m1-l1-q1',
-        type: 'multiple-choice',
-        question: 'It is 8:00 AM. You say: "Good ___!"',
-        options: ['[[morning|mañana]]', '[[afternoon|tarde]]', '[[evening|noche (saludo)]]', '[[night|noche (despedida)]]'],
-        correctAnswer: 'morning',
-        explanation: 'We use "Good morning" before 12:00 PM.',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q2',
-        type: 'multiple-choice',
-        question: 'It is 3:00 PM. You say: "Good ___!"',
-        options: ['[[morning|mañana]]', '[[afternoon|tarde]]', '[[evening|noche (saludo)]]', '[[night|noche (despedida)]]'],
-        correctAnswer: 'afternoon',
-        explanation: 'We use "Good afternoon" between 12:00 PM and 6:00 PM.',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q3',
-        type: 'multiple-choice',
-        question: 'When you go to sleep, you say: "Good ___!"',
-        options: ['[[morning|mañana]]', '[[afternoon|tarde]]', '[[evening|noche (saludo)]]', '[[night|noche (despedida)]]'],
-        correctAnswer: 'night',
-        explanation: 'We use "Good night" when leaving or going to sleep.',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q4',
-        type: 'true-false',
-        question: '"Hi" is more formal than "Hello".',
-        correctAnswer: 'False',
-        explanation: '"Hi" is informal. "Hello" is more neutral/formal.',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q5',
-        type: 'multiple-choice',
-        question: 'I ___ a student.',
-        options: ['[[am|soy/estoy]]', '[[is|es/está]]', '[[are|eres/estás]]'],
-        correctAnswer: 'am',
-        explanation: 'We always use "am" with "I".',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q6',
-        type: 'multiple-choice',
-        question: 'You ___ my friend.',
-        options: ['[[am|soy/estoy]]', '[[is|es/está]]', '[[are|eres/estás]]'],
-        correctAnswer: 'are',
-        explanation: 'We use "are" with "you".',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q7',
-        type: 'multiple-choice',
-        question: 'He ___ a doctor.',
-        options: ['[[am|soy/estoy]]', '[[is|es/está]]', '[[are|eres/estás]]'],
-        correctAnswer: 'is',
-        explanation: 'We use "is" with "he", "she", and "it".',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q8',
-        type: 'multiple-choice',
-        question: 'Which word matches the image of a moon? (Visual match)',
-        options: ['[[Sun|Sol]]', '[[Morning|Mañana]]', '[[Night|Noche]]'],
-        correctAnswer: 'Night',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q9',
-        type: 'fill-blank',
-        question: 'Hello, I ___ Sarah.',
-        correctAnswer: 'am',
-        acceptableAnswers: ['am', "'m"],
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q10',
-        type: 'multiple-choice',
-        question: 'Match "Hola" to English:',
-        options: ['[[Bye|Adiós]]', '[[Hello|Hola]]', '[[Thanks|Gracias]]'],
-        correctAnswer: 'Hello',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q11',
-        type: 'multiple-choice',
-        question: 'She ___ happy.',
-        options: ['[[am|soy/estoy]]', '[[is|es/está]]', '[[are|eres/estás]]'],
-        correctAnswer: 'is',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q12',
-        type: 'true-false',
-        question: 'We can use "Good morning" at 11:00 AM.',
-        correctAnswer: 'True',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q13',
-        type: 'multiple-choice',
-        question: 'It ___ a pen.',
-        options: ['[[am|soy/estoy]]', '[[is|es/está]]', '[[are|eres/estás]]'],
-        correctAnswer: 'is',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q14',
-        type: 'fill-blank',
-        question: 'How ___ you?',
-        correctAnswer: 'are',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q15',
-        type: 'multiple-choice',
-        question: '___ am from Spain.',
-        options: ['[[You|Tú]]', '[[I|Yo]]', '[[He|Él]]'],
-        correctAnswer: 'I',
-        points: 1
-      }
-    ]
+    title: topic,
+    instructions: q.type === 'fill-blank' ? 'Escribe la palabra correcta.' : 'Elige la respuesta correcta.',
+    questions: [q]
   }
-};
+});
 
-// ============================================
-// SET 2: CONCEPT ACQUISITION (15 Questions)
-// ============================================
-export const A1_M1_L1_SET_2: Exercise = {
-  id: 'a1-m1-l1-set-2',
-  type: 'grammar',
-  level: 'A1',
-  topicName: 'Pronouns',
-  content: {
-    title: 'Identity and Contractions',
-    instructions: 'Identify the correct pronoun or contraction.',
-    grammarPoint: 'Subject Pronouns and Contractions',
-    questions: [
-      {
-        id: 'a1-m1-l1-q16',
-        type: 'multiple-choice',
-        question: 'Select the contraction for "I am":',
-        options: ["[[I'm|soy]]", "[[I's|soy]]", "[[I're|soy]]"],
-        correctAnswer: "I'm",
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q17',
-        type: 'multiple-choice',
-        question: 'Select the contraction for "You are":',
-        options: ["[[You'm|eres]]", "[[You's|eres]]", "[[You're|eres]]"],
-        correctAnswer: "You're",
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q18',
-        type: 'multiple-choice',
-        question: 'Select the contraction for "He is":',
-        options: ["[[He's|él es]]", "[[He're|él es]]", "[[He'm|él es]]"],
-        correctAnswer: "He's",
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q19',
-        type: 'multiple-choice',
-        question: 'Identify the pronoun for a girl:',
-        options: ['[[He|Él]]', '[[She|Ella]]', '[[It|Eso]]'],
-        correctAnswer: 'She',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q20',
-        type: 'multiple-choice',
-        question: 'Identify the pronoun for a boy:',
-        options: ['[[He|Él]]', '[[She|Ella]]', '[[It|Eso]]'],
-        correctAnswer: 'He',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q21',
-        type: 'multiple-choice',
-        question: 'Identify the pronoun for a book:',
-        options: ['[[He|Él]]', '[[She|Ella]]', '[[It|Eso]]'],
-        correctAnswer: 'It',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q22',
-        type: 'fill-blank',
-        question: "I ___ fine, thanks.",
-        correctAnswer: "am",
-        acceptableAnswers: ["am", "'m"],
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q23',
-        type: 'multiple-choice',
-        question: 'Nice to ___ you.',
-        options: ['[[see|ver]]', '[[meet|conocer]]', '[[look|mirar]]'],
-        correctAnswer: 'meet',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q24',
-        type: 'true-false',
-        question: 'We use "It is" for animals and objects.',
-        correctAnswer: 'True',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q25',
-        type: 'multiple-choice',
-        question: 'Choose the correct formal greeting:',
-        options: ['[[Hi!|¡Hola!]]', '[[Hey!|¡Hola!]]', '[[Good afternoon.|Buenas tardes.]]'],
-        correctAnswer: 'Good afternoon.',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q26',
-        type: 'fill-blank',
-        question: "It ___ a beautiful day.",
-        correctAnswer: "is",
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q27',
-        type: 'multiple-choice',
-        question: 'What is the subject pronoun for "Yo"?',
-        options: ['[[You|Tú]]', '[[I|Yo]]', '[[Me|Mí]]'],
-        correctAnswer: 'I',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q28',
-        type: 'multiple-choice',
-        question: 'Complete: ___ is my teacher.',
-        options: ['[[I|Yo]]', '[[He|Él]]', '[[You|Tú]]'],
-        correctAnswer: 'He',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q29',
-        type: 'true-false',
-        question: 'The contraction for "She is" is "She\'s".',
-        correctAnswer: 'True',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q30',
-        type: 'fill-blank',
-        question: "They ___ students.",
-        correctAnswer: "are",
-        points: 1
-      }
-    ]
+const GRAMMAR_QUESTIONS = [
+  // Recognition (1-15)
+  { id: 'q1', type: 'multiple-choice', question: 'It is 8:00 AM. You say: "Good ___!"', options: ['[[morning|mañana]]', '[[afternoon|tarde]]', '[[evening|noche]]'], correctAnswer: 'morning' },
+  { id: 'q2', type: 'multiple-choice', question: 'It is 3:00 PM. You say: "Good ___!"', options: ['[[morning|mañana]]', '[[afternoon|tarde]]', '[[evening|noche]]'], correctAnswer: 'afternoon' },
+  { id: 'q3', type: 'multiple-choice', question: 'When you go to sleep, you say: "Good ___!"', options: ['[[morning|mañana]]', '[[afternoon|tarde]]', '[[night|noche]]'], correctAnswer: 'night' },
+  { id: 'q4', type: 'true-false', question: '"Hi" is more formal than "Hello".', correctAnswer: 'False' },
+  { id: 'q5', type: 'multiple-choice', question: 'I ___ a student.', options: ['[[am|soy]]', '[[is|es]]', '[[are|eres]]'], correctAnswer: 'am' },
+  { id: 'q6', type: 'multiple-choice', question: 'You ___ my friend.', options: ['[[am|soy]]', '[[is|es]]', '[[are|eres]]'], correctAnswer: 'are' },
+  { id: 'q7', type: 'multiple-choice', question: 'He ___ a doctor.', options: ['[[am|soy]]', '[[is|es]]', '[[are|eres]]'], correctAnswer: 'is' },
+  { id: 'q8', type: 'multiple-choice', question: 'Which word matches the image of a moon?', options: ['[[Sun|Sol]]', '[[Morning|Mañana]]', '[[Night|Noche]]'], correctAnswer: 'Night' },
+  { id: 'q9', type: 'fill-blank', question: 'Hello, I ___ Sarah.', correctAnswer: 'am' },
+  { id: 'q10', type: 'multiple-choice', question: 'Match "Hola" to English:', options: ['[[Bye|Adiós]]', '[[Hello|Hola]]', '[[Thanks|Gracias]]'], correctAnswer: 'Hello' },
+  { id: 'q11', type: 'multiple-choice', question: 'She ___ happy.', options: ['[[am|soy]]', '[[is|es]]', '[[are|eres]]'], correctAnswer: 'is' },
+  { id: 'q12', type: 'true-false', question: 'We can use "Good morning" at 11:00 AM.', correctAnswer: 'True' },
+  { id: 'q13', type: 'multiple-choice', question: 'It ___ a pen.', options: ['[[am|soy]]', '[[is|es]]', '[[are|eres]]'], correctAnswer: 'is' },
+  { id: 'q14', type: 'fill-blank', question: 'How ___ you?', correctAnswer: 'are' },
+  { id: 'q15', type: 'multiple-choice', question: '___ am from Spain.', options: ['[[You|Tú]]', '[[I|Yo]]', '[[He|Él]]'], correctAnswer: 'I' },
+
+  // Concept Acquisition (16-30)
+  { id: 'q16', type: 'multiple-choice', question: 'Select the contraction for "I am":', options: ["[[I'm|soy]]", "[[I's|soy]]", "[[I're|soy]]"], correctAnswer: "I'm" },
+  { id: 'q17', type: 'multiple-choice', question: 'Select the contraction for "You are":', options: ["[[You'm|eres]]", "[[You's|eres]]", "[[You're|eres]]"], correctAnswer: "You're" },
+  { id: 'q18', type: 'multiple-choice', question: 'Select the contraction for "He is":', options: ["[[He's|él es]]", "[[He're|él es]]", "[[He'm|él es]]"], correctAnswer: "He's" },
+  { id: 'q19', type: 'multiple-choice', question: 'Identify the pronoun for a girl:', options: ['[[He|Él]]', '[[She|Ella]]', '[[It|Eso]]'], correctAnswer: 'She' },
+  { id: 'q20', type: 'multiple-choice', question: 'Identify the pronoun for a boy:', options: ['[[He|Él]]', '[[She|Ella]]', '[[It|Eso]]'], correctAnswer: 'He' },
+  { id: 'q21', type: 'multiple-choice', question: 'Identify the pronoun for a book:', options: ['[[He|Él]]', '[[She|Ella]]', '[[It|Eso]]'], correctAnswer: 'It' },
+  { id: 'q22', type: 'fill-blank', question: "I ___ fine, thanks.", correctAnswer: "am" },
+  { id: 'q23', type: 'multiple-choice', question: 'Nice to ___ you.', options: ['[[see|ver]]', '[[meet|conocer]]', '[[look|mirar]]'], correctAnswer: 'meet' },
+  { id: 'q24', type: 'true-false', question: 'We use "It is" for animals and objects.', correctAnswer: 'True' },
+  { id: 'q25', type: 'multiple-choice', question: 'Choose the correct formal greeting:', options: ['[[Hi!|¡Hola!]]', '[[Hey!|¡Hola!]]', '[[Good afternoon.|Buenas tardes.]]'], correctAnswer: 'Good afternoon.' },
+  { id: 'q26', type: 'fill-blank', question: "It ___ a beautiful day.", correctAnswer: "is" },
+  { id: 'q27', type: 'multiple-choice', question: 'What is the subject pronoun for "Yo"?', options: ['[[You|Tú]]', '[[I|Yo]]', '[[Me|Mí]]'], correctAnswer: 'I' },
+  { id: 'q28', type: 'multiple-choice', question: 'Complete: ___ is my teacher.', options: ['[[I|Yo]]', '[[He|Él]]', '[[You|Tú]]'], correctAnswer: 'He' },
+  { id: 'q29', type: 'true-false', question: 'The contraction for "She is" is "She\'s".', correctAnswer: 'True' },
+  { id: 'q30', type: 'fill-blank', question: "They ___ students.", correctAnswer: "are" },
+
+  // Practice (31-50)
+  { id: 'q31', type: 'multiple-choice', question: 'Select the correct sentence:', options: ['[[I am happy.|Yo soy feliz.]]', '[[Am I happy.|¿Soy yo feliz?]]', '[[I happy am.|Yo feliz soy.]]'], correctAnswer: 'I am happy.' },
+  { id: 'q32', type: 'multiple-choice', question: 'Select the correct sentence:', options: ['[[You are tall.|Tú eres alto.]]', '[[Are you tall.|¿Eres tú alto?]]', '[[You tall are.|Tú alto eres.]]'], correctAnswer: 'You are tall.' },
+  { id: 'q33', type: 'fill-blank', question: "___ is a cat.", correctAnswer: "It" },
+  { id: 'q34', type: 'multiple-choice', question: 'Goodbye, see ___ later!', options: ['[[me|me]]', '[[you|te]]', '[[it|lo]]'], correctAnswer: 'you' },
+  { id: 'q35', type: 'fill-blank', question: "He ___ from Mexico.", correctAnswer: "is" },
+  { id: 'q36', type: 'multiple-choice', question: 'Which is correct?', options: ["[[I'm fine.|Estoy bien.]]", "[[I is fine.|Estoy bien.]]", "[[I are fine.|Estoy bien.]]"], correctAnswer: "I'm fine." },
+  { id: 'q37', type: 'fill-blank', question: "___ are welcome.", correctAnswer: "You" },
+  { id: 'q38', type: 'multiple-choice', question: 'It is 7:00 PM. You arrive. You say:', options: ['[[Good morning.|Buenos días.]]', '[[Good afternoon.|Buenas tardes.]]', '[[Good evening.|Buenas noches.]]'], correctAnswer: 'Good evening.' },
+  { id: 'q39', type: 'multiple-choice', question: 'It is 11:00 PM. You leave. You say:', options: ['[[Good night.|Buenas noches.]]', '[[Good evening.|Buenas noches.]]', '[[Good afternoon.|Buenas tardes.]]'], correctAnswer: 'Good night.' },
+  { id: 'q40', type: 'fill-blank', question: "She ___ a student.", correctAnswer: "is" },
+  { id: 'q41', type: 'multiple-choice', question: 'Order the words: [am / I / Italian / .]', options: ['[[Italian I am.|Italiano yo soy.]]', '[[I Italian am.|Yo italiano soy.]]', '[[I am Italian.|Yo soy italiano.]]'], correctAnswer: 'I am Italian.' },
+  { id: 'q42', type: 'multiple-choice', question: 'Order the words: [is / He / cool / .]', options: ['[[He is cool.|Él es genial.]]', '[[Is he cool.|¿Es él genial?]]', '[[Cool he is.|Genial él es.]]'], correctAnswer: 'He is cool.' },
+  { id: 'q43', type: 'fill-blank', question: "___ name is John.", correctAnswer: "My" },
+  { id: 'q44', type: 'multiple-choice', question: 'What is the opposite of "Hello"?', options: ['[[Hi|Hola]]', '[[Goodbye|Adiós]]', '[[Good morning|Buenos días]]'], correctAnswer: 'Goodbye' },
+  { id: 'q45', type: 'true-false', question: '"I" is always capitalized in English.', correctAnswer: 'True' },
+  { id: 'q46', type: 'multiple-choice', question: 'A: "How are you?" B: "___"', options: ['[[I am fine, thanks.|Estoy bien, gracias.]]', '[[I am John.|Yo soy John.]]', '[[Good night.|Buenas noches.]]'], correctAnswer: 'I am fine, thanks.' },
+  { id: 'q47', type: 'multiple-choice', question: 'A: "What is your name?" B: "___"', options: ['[[I am Maria.|Yo soy Maria.]]', '[[I am fine.|Estoy bien.]]', '[[See you!|¡Nos vemos!]]'], correctAnswer: 'I am Maria.' },
+  { id: 'q48', type: 'multiple-choice', question: 'A: "Nice to meet you." B: "___"', options: ['[[Nice to meet you too.|Encantado de conocerte también.]]', '[[Hello.|Hola.]]', '[[Good morning.|Buenos días.]]'], correctAnswer: 'Nice to meet you too.' },
+  { id: 'q49', type: 'fill-blank', question: "See you ___.", correctAnswer: "later" },
+  { id: 'q50', type: 'multiple-choice', question: 'Choose the best greeting for a job interview:', options: ['[[Hey!|¡Hola!]]', '[[Hello, good morning.|Hola, buenos días.]]', '[[Sup?|¿Qué pasa?]]'], correctAnswer: 'Hello, good morning.' },
+
+  // More practice to reach 55
+  { id: 'q51', type: 'fill-blank', question: "I ___ a student at Focus English.", correctAnswer: "am" },
+  { id: 'q52', type: 'multiple-choice', question: 'Translate: "Ella es mi amiga."', options: ['[[She is my friend.|Ella es mi amiga.]]', '[[He is my friend.|Él es mi amigo.]]', '[[It is my friend.|Eso es mi amigo.]]'], correctAnswer: 'She is my friend.' },
+  { id: 'q53', type: 'multiple-choice', question: 'Translate: "¿Cómo estás?"', options: ['[[How are you?|¿Cómo estás?]]', '[[Who are you?|¿Quién eres?]]', '[[Where are you?|¿Dónde estás?]]'], correctAnswer: 'How are you?' },
+  { id: 'q54', type: 'fill-blank', question: "___ are my friend.", correctAnswer: "You" },
+  { id: 'q55', type: 'multiple-choice', question: 'Find the error: "I are happy."', options: ['[[I are|yo son]]', '[[I am|yo soy]]', '[[I is|yo es]]'], correctAnswer: 'I am' },
+];
+
+// Reading Exercises (56-60)
+const READING_EXERCISES: Exercise[] = [
+  {
+    id: 'a1-m1-l1-reading-1',
+    type: 'reading-comprehension',
+    level: 'A1',
+    topicName: 'Reading',
+    transcript: 'Hello! My name is Alex. I am from London. I am a student. Today is a good day. I am happy.',
+    content: {
+      title: 'Reading: Meet Alex',
+      instructions: 'Read the text and answer the questions.',
+      questions: [
+        {
+          id: 'q56',
+          type: 'multiple-choice',
+          question: 'What is his name?',
+          options: ['[[Alex|Alex]]', '[[John|John]]', '[[London|Londres]]'],
+          correctAnswer: 'Alex',
+          explanation: 'The text says "My name is Alex".'
+        },
+        {
+          id: 'q57',
+          type: 'multiple-choice',
+          question: 'Where is he from?',
+          options: ['[[Spain|España]]', '[[London|Londres]]', '[[New York|Nueva York]]'],
+          correctAnswer: 'London',
+          explanation: 'The text says "I am from London".'
+        }
+      ]
+    }
+  },
+  {
+    id: 'a1-m1-l1-reading-2',
+    type: 'reading-comprehension',
+    level: 'A1',
+    topicName: 'Reading',
+    transcript: 'This is my friend, Sarah. She is a teacher. She is very nice. We are in the classroom now. It is 9:00 AM.',
+    content: {
+      title: 'Reading: My Friend Sarah',
+      instructions: 'Read the text and answer the questions.',
+      questions: [
+        {
+          id: 'q58',
+          type: 'multiple-choice',
+          question: 'What is Sarah\'s job?',
+          options: ['[[Student|Estudiante]]', '[[Teacher|Profesora]]', '[[Doctor|Doctora]]'],
+          correctAnswer: 'Teacher',
+          explanation: 'The text says "She is a teacher".'
+        },
+        {
+          id: 'q59',
+          type: 'multiple-choice',
+          question: 'Where are they?',
+          options: ['[[At home|En casa]]', '[[In the classroom|En el salón]]', '[[At the park|En el parque]]'],
+          correctAnswer: 'In the classroom',
+          explanation: 'The text says "We are in the classroom".'
+        },
+        {
+          id: 'q60',
+          type: 'multiple-choice',
+          question: 'What time is it?',
+          options: ['[[9:00 AM|9:00 AM]]', '[[3:00 PM|3:00 PM]]', '[[12:00 PM|12:00 PM]]'],
+          correctAnswer: '9:00 AM',
+          explanation: 'The text says "It is 9:00 AM".'
+        }
+      ]
+    }
   }
-};
+];
 
-// ============================================
-// SET 3: CONTROLLED PRACTICE (15 Questions)
-// ============================================
-export const A1_M1_L1_SET_3: Exercise = {
-  id: 'a1-m1-l1-set-3',
-  type: 'grammar',
-  level: 'A1',
-  topicName: 'Sentence Structure',
-  content: {
-    title: 'Sentence Structure & Practice',
-    instructions: 'Reorder the words or fill in the blanks to form correct sentences.',
-    grammarPoint: 'Word Order and Verb To Be',
-    questions: [
-      {
-        id: 'a1-m1-l1-q31',
-        type: 'multiple-choice',
-        question: 'Select the correct sentence:',
-        options: ['[[I am happy.|Yo soy feliz.]]', '[[Am I happy.|¿Soy yo feliz?]]', '[[I happy am.|Yo feliz soy.]]'],
-        correctAnswer: 'I am happy.',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q32',
-        type: 'multiple-choice',
-        question: 'Select the correct sentence:',
-        options: ['[[You are tall.|Tú eres alto.]]', '[[Are you tall.|¿Eres tú alto?]]', '[[You tall are.|Tú alto eres.]]'],
-        correctAnswer: 'You are tall.',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q33',
-        type: 'fill-blank',
-        question: "___ is a cat.",
-        correctAnswer: "It",
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q34',
-        type: 'multiple-choice',
-        question: 'Goodbye, see ___ later!',
-        options: ['[[me|me]]', '[[you|te]]', '[[it|lo]]'],
-        correctAnswer: 'you',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q35',
-        type: 'fill-blank',
-        question: "He ___ (is) from Mexico.",
-        correctAnswer: "is",
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q36',
-        type: 'multiple-choice',
-        question: 'Which is correct?',
-        options: ["[[I'm fine.|Estoy bien.]]", "[[I is fine.|Estoy bien.]]", "[[I are fine.|Estoy bien.]]"],
-        correctAnswer: "I'm fine.",
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q37',
-        type: 'fill-blank',
-        question: "___ are welcome.",
-        correctAnswer: "You",
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q38',
-        type: 'multiple-choice',
-        question: 'It is 7:00 PM. You arrive. You say:',
-        options: ['[[Good morning.|Buenos días.]]', '[[Good afternoon.|Buenas tardes.]]', '[[Good evening.|Buenas noches.]]'],
-        correctAnswer: 'Good evening.',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q39',
-        type: 'multiple-choice',
-        question: 'It is 11:00 PM. You leave. You say:',
-        options: ['[[Good night.|Buenas noches.]]', '[[Good evening.|Buenas noches.]]', '[[Good afternoon.|Buenas tardes.]]'],
-        correctAnswer: 'Good night.',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q40',
-        type: 'fill-blank',
-        question: "She ___ (is) a student.",
-        correctAnswer: "is",
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q41',
-        type: 'multiple-choice',
-        question: 'Order the words: [am / I / Italian / .]',
-        options: ['[[Italian I am.|Italiano yo soy.]]', '[[I Italian am.|Yo italiano soy.]]', '[[I am Italian.|Yo soy italiano.]]'],
-        correctAnswer: 'I am Italian.',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q42',
-        type: 'multiple-choice',
-        question: 'Order the words: [is / He / cool / .]',
-        options: ['[[He is cool.|Él es genial.]]', '[[Is he cool.|¿Es él genial?]]', '[[Cool he is.|Genial él es.]]'],
-        correctAnswer: 'He is cool.',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q43',
-        type: 'fill-blank',
-        question: "___ name is John.",
-        correctAnswer: "My",
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q44',
-        type: 'multiple-choice',
-        question: 'What is the opposite of "Hello"?',
-        options: ['[[Hi|Hola]]', '[[Goodbye|Adiós]]', '[[Good morning|Buenos días]]'],
-        correctAnswer: 'Goodbye',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q45',
-        type: 'true-false',
-        question: '"I" is always capitalized in English.',
-        correctAnswer: 'True',
-        points: 1
-      }
-    ]
+// Flatten grammar questions into individual exercises
+const INDIVIDUAL_GRAMMAR_EXERCISES = GRAMMAR_QUESTIONS.map(q => createExercise(q.id, q, 'Greetings & Verb To Be'));
+
+// Combine to get exactly 60 exercises in the main array if possible, 
+// but since readings have multiple questions, we can adjust.
+// The user expects "Ejercicio X de 60". 
+// To get 60 items in the array, we have 55 grammar + 5 reading exercises.
+// I'll add 3 more reading exercises to reach 60 items in the array.
+
+const ADDITIONAL_READINGS: Exercise[] = [
+  {
+    id: 'a1-m1-l1-reading-3',
+    type: 'reading-comprehension',
+    level: 'A1',
+    topicName: 'Reading',
+    transcript: 'Good morning! I am Maria. This is my dog, Max. Max is brown. He is a good dog.',
+    content: {
+      title: 'Reading: Maria and Max',
+      instructions: 'Read and answer.',
+      questions: [{ id: 'q-r3-1', type: 'multiple-choice', question: 'What color is Max?', options: ['[[Black|Negro]]', '[[Brown|Marrón]]', '[[White|Blanco]]'], correctAnswer: 'Brown' }]
+    }
+  },
+  {
+    id: 'a1-m1-l1-reading-4',
+    type: 'reading-comprehension',
+    level: 'A1',
+    topicName: 'Reading',
+    transcript: 'Hi, I am Tom. I am 20 years old. I am from Canada. Nice to meet you!',
+    content: {
+      title: 'Reading: Tom from Canada',
+      instructions: 'Read and answer.',
+      questions: [{ id: 'q-r4-1', type: 'multiple-choice', question: 'Where is Tom from?', options: ['[[Canada|Canadá]]', '[[USA|EEUU]]', '[[UK|Reino Unido]]'], correctAnswer: 'Canada' }]
+    }
+  },
+  {
+    id: 'a1-m1-l1-reading-5',
+    type: 'reading-comprehension',
+    level: 'A1',
+    topicName: 'Reading',
+    transcript: 'It is 6:00 PM. Good evening! We are at the restaurant. The food is good. We are happy.',
+    content: {
+      title: 'Reading: At the Restaurant',
+      instructions: 'Read and answer.',
+      questions: [{ id: 'q-r5-1', type: 'multiple-choice', question: 'What time is it?', options: ['[[6:00 AM|6:00 AM]]', '[[6:00 PM|6:00 PM]]', '[[8:00 PM|8:00 PM]]'], correctAnswer: '6:00 PM' }]
+    }
   }
-};
+];
 
-// ============================================
-// SET 4: COMMUNICATION & MASTERY (15 Questions)
-// ============================================
-export const A1_M1_L1_SET_4: Exercise = {
-  id: 'a1-m1-l1-set-4',
-  type: 'grammar',
-  level: 'A1',
-  topicName: 'Mastery',
-  content: {
-    title: 'Social Interaction & Mastery',
-    instructions: 'Apply your knowledge in social situations.',
-    grammarPoint: 'Common Phrases and Integration',
-    questions: [
-      {
-        id: 'a1-m1-l1-q46',
-        type: 'multiple-choice',
-        question: 'A: "How are you?" B: "___"',
-        options: ['[[I am fine, thanks.|Estoy bien, gracias.]]', '[[I am John.|Yo soy John.]]', '[[Good night.|Buenas noches.]]'],
-        correctAnswer: 'I am fine, thanks.',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q47',
-        type: 'multiple-choice',
-        question: 'A: "What is your name?" B: "___"',
-        options: ['[[I am Maria.|Yo soy Maria.]]', '[[I am fine.|Estoy bien.]]', '[[See you!|¡Nos vemos!]]'],
-        correctAnswer: 'I am Maria.',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q48',
-        type: 'multiple-choice',
-        question: 'A: "Nice to meet you." B: "___"',
-        options: ['[[Nice to meet you too.|Encantado de conocerte también.]]', '[[Hello.|Hola.]]', '[[Good morning.|Buenos días.]]'],
-        correctAnswer: 'Nice to meet you too.',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q49',
-        type: 'fill-blank',
-        question: "See you ___ (later).",
-        correctAnswer: "later",
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q50',
-        type: 'multiple-choice',
-        question: 'Choose the best greeting for a job interview:',
-        options: ['[[Hey!|¡Hola! (informal)]]', '[[Hello, good morning.|Hola, buenos días.]]', '[[Sup?|¿Qué pasa? (muy informal)]]'],
-        correctAnswer: 'Hello, good morning.',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q51',
-        type: 'fill-blank',
-        question: "I ___ (am) a student at Focus English.",
-        correctAnswer: "am",
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q52',
-        type: 'multiple-choice',
-        question: 'Translate: "Ella es mi amiga."',
-        options: ['[[She is my friend.|Ella es mi amiga.]]', '[[He is my friend.|Él es mi amigo.]]', '[[It is my friend.|Eso es mi amigo.]]'],
-        correctAnswer: 'She is my friend.',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q53',
-        type: 'multiple-choice',
-        question: 'Translate: "¿Cómo estás?"',
-        options: ['[[How are you?|¿Cómo estás?]]', '[[Who are you?|¿Quién eres?]]', '[[Where are you?|¿Dónde estás?]]'],
-        correctAnswer: 'How are you?',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q54',
-        type: 'fill-blank',
-        question: "___ are my friend.",
-        correctAnswer: "You",
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q55',
-        type: 'multiple-choice',
-        question: 'Find the error: "I are happy."',
-        options: ['[[I are|yo son]]', '[[I am|yo soy]]', '[[I is|yo es]]'],
-        correctAnswer: 'I am',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q56',
-        type: 'multiple-choice',
-        question: 'Find the error: "He am tall."',
-        options: ['[[He am|él soy]]', '[[He is|él es]]', '[[He are|él eres]]'],
-        correctAnswer: 'He is',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q57',
-        type: 'true-false',
-        question: 'In English, we say "I have 20 years" for age.',
-        correctAnswer: 'False',
-        explanation: 'No, we say "I am 20 years old".',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q58',
-        type: 'multiple-choice',
-        question: 'Complete the dialogue: A: "Goodbye!" B: "___"',
-        options: ['[[Bye! See you!|¡Adiós! ¡Nos vemos!]]', '[[Hello!|¡Hola!]]', '[[Good morning!|¡Buenos días!]]'],
-        correctAnswer: 'Bye! See you!',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q59',
-        type: 'multiple-choice',
-        question: 'Which is an object?',
-        options: ['[[It|Eso]]', '[[He|Él]]', '[[She|Ella]]'],
-        correctAnswer: 'It',
-        points: 1
-      },
-      {
-        id: 'a1-m1-l1-q60',
-        type: 'multiple-choice',
-        question: 'Final test: "I ___ John and you ___ Maria."',
-        options: ['[[am / are|soy / eres]]', '[[is / are|es / eres]]', '[[am / is|soy / es]]'],
-        correctAnswer: 'am / are',
-        points: 1
-      }
-    ]
-  }
-};
-
-// ============================================
-// CONSOLIDATED EXERCISES
-// ============================================
 export const A1_M1_L1_ALL_EXERCISES: Exercise[] = [
-  A1_M1_L1_SET_1,
-  A1_M1_L1_SET_2,
-  A1_M1_L1_SET_3,
-  A1_M1_L1_SET_4
+  ...INDIVIDUAL_GRAMMAR_EXERCISES,
+  ...READING_EXERCISES,
+  ...ADDITIONAL_READINGS
 ];
