@@ -699,6 +699,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Review|Repaso]]: [[Colors|Colores]]",
       "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]].",
+      "question": "[[The|Las]] [[leaves|hojas]] [[in|en]] [[autumn|otoño]] [[are|son]]...",
       "options": ["[[brown|marrones]]", "[[blue|azules]]", "[[pink|rosas]]"],
       "correctAnswer": 0,
       "explanation": "[[Autumn|Otoño]] [[leaves|hojas]] [[turn|se vuelven]] [[brown|marrones]]."
