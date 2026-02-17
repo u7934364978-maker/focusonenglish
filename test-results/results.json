@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 2
+      "actualWorkers": 4
     },
     "preserveOutput": "always",
     "projects": [
@@ -20,7 +20,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 2
+          "actualWorkers": 4
         },
         "id": "chromium",
         "name": "chromium",
@@ -36,7 +36,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 2
+          "actualWorkers": 4
         },
         "id": "firefox",
         "name": "firefox",
@@ -52,7 +52,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 2
+          "actualWorkers": 4
         },
         "id": "webkit",
         "name": "webkit",
@@ -68,7 +68,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 2
+          "actualWorkers": 4
         },
         "id": "Mobile Chrome",
         "name": "Mobile Chrome",
@@ -84,7 +84,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 2
+          "actualWorkers": 4
         },
         "id": "Mobile Safari",
         "name": "Mobile Safari",
@@ -142,7 +142,7 @@
           "specs": [
             {
               "title": "should render unit 1 preview without hydration errors",
-              "ok": true,
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -155,18 +155,53 @@
                     {
                       "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 8147,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 437,
+                      "error": {
+                        "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:5436/debug/a1-preview/unit-1\nCall log:\n\u001b[2m  - navigating to \"http://localhost:5436/debug/a1-preview/unit-1\", waiting until \"load\"\u001b[22m\n",
+                        "stack": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:5436/debug/a1-preview/unit-1\nCall log:\n\u001b[2m  - navigating to \"http://localhost:5436/debug/a1-preview/unit-1\", waiting until \"load\"\u001b[22m\n\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/unit-preview-fix.spec.ts:12:16",
+                        "location": {
+                          "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/unit-preview-fix.spec.ts",
+                          "column": 16,
+                          "line": 12
+                        },
+                        "snippet": "  10 |     });\n  11 |\n> 12 |     await page.goto('/debug/a1-preview/unit-1');\n     |                ^\n  13 |     \n  14 |     // Wait for the main content to load\n  15 |     await expect(page.getByText('Cargando Unidad')).not.toBeVisible({ timeout: 10000 });"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/unit-preview-fix.spec.ts",
+                            "column": 16,
+                            "line": 12
+                          },
+                          "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:5436/debug/a1-preview/unit-1\nCall log:\n\u001b[2m  - navigating to \"http://localhost:5436/debug/a1-preview/unit-1\", waiting until \"load\"\u001b[22m\n\n\n  10 |     });\n  11 |\n> 12 |     await page.goto('/debug/a1-preview/unit-1');\n     |                ^\n  13 |     \n  14 |     // Wait for the main content to load\n  15 |     await expect(page.getByText('Cargando Unidad')).not.toBeVisible({ timeout: 10000 });\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/unit-preview-fix.spec.ts:12:16"
+                        }
+                      ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-17T18:45:55.158Z",
+                      "startTime": "2026-02-17T19:18:17.235Z",
                       "annotations": [],
-                      "attachments": []
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/unit-preview-fix-Unit-1-Pr-c9adf-ew-without-hydration-errors-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/unit-preview-fix-Unit-1-Pr-c9adf-ew-without-hydration-errors-chromium/video.webm"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/unit-preview-fix.spec.ts",
+                        "column": 16,
+                        "line": 12
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
               "id": "4c15706ef920bedb7b25-3c0049cc39460efeb7bd",
@@ -176,7 +211,7 @@
             },
             {
               "title": "should allow interaction with multiple choice exercise",
-              "ok": true,
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -189,21 +224,446 @@
                     {
                       "workerIndex": 1,
                       "parallelIndex": 1,
-                      "status": "passed",
-                      "duration": 8253,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 444,
+                      "error": {
+                        "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:5436/debug/a1-preview/unit-1\nCall log:\n\u001b[2m  - navigating to \"http://localhost:5436/debug/a1-preview/unit-1\", waiting until \"load\"\u001b[22m\n",
+                        "stack": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:5436/debug/a1-preview/unit-1\nCall log:\n\u001b[2m  - navigating to \"http://localhost:5436/debug/a1-preview/unit-1\", waiting until \"load\"\u001b[22m\n\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/unit-preview-fix.spec.ts:29:16",
+                        "location": {
+                          "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/unit-preview-fix.spec.ts",
+                          "column": 16,
+                          "line": 29
+                        },
+                        "snippet": "  27 |\n  28 |   test('should allow interaction with multiple choice exercise', async ({ page }) => {\n> 29 |     await page.goto('/debug/a1-preview/unit-1');\n     |                ^\n  30 |     await expect(page.getByText('Cargando Unidad')).not.toBeVisible();\n  31 |     \n  32 |     // Find an option and click it"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/unit-preview-fix.spec.ts",
+                            "column": 16,
+                            "line": 29
+                          },
+                          "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:5436/debug/a1-preview/unit-1\nCall log:\n\u001b[2m  - navigating to \"http://localhost:5436/debug/a1-preview/unit-1\", waiting until \"load\"\u001b[22m\n\n\n  27 |\n  28 |   test('should allow interaction with multiple choice exercise', async ({ page }) => {\n> 29 |     await page.goto('/debug/a1-preview/unit-1');\n     |                ^\n  30 |     await expect(page.getByText('Cargando Unidad')).not.toBeVisible();\n  31 |     \n  32 |     // Find an option and click it\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/unit-preview-fix.spec.ts:29:16"
+                        }
+                      ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-17T18:45:55.155Z",
+                      "startTime": "2026-02-17T19:18:17.226Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/unit-preview-fix-Unit-1-Pr-063ec-th-multiple-choice-exercise-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/unit-preview-fix-Unit-1-Pr-063ec-th-multiple-choice-exercise-chromium/video.webm"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/unit-preview-fix.spec.ts",
+                        "column": 16,
+                        "line": 29
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "4c15706ef920bedb7b25-963552d2e50ead88ae1b",
+              "file": "unit-preview-fix.spec.ts",
+              "line": 28,
+              "column": 7
+            },
+            {
+              "title": "should render unit 1 preview without hydration errors",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "failed",
+                      "duration": 1,
+                      "error": {
+                        "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/firefox-1509/firefox/Nightly.app/Contents/MacOS/firefox\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+                        "stack": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/firefox-1509/firefox/Nightly.app/Contents/MacOS/firefox\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/firefox-1509/firefox/Nightly.app/Contents/MacOS/firefox\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-17T19:18:17.201Z",
                       "annotations": [],
                       "attachments": []
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
-              "id": "4c15706ef920bedb7b25-963552d2e50ead88ae1b",
+              "id": "4c15706ef920bedb7b25-8c6c863e68d2f008d5d8",
+              "file": "unit-preview-fix.spec.ts",
+              "line": 4,
+              "column": 7
+            },
+            {
+              "title": "should allow interaction with multiple choice exercise",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 2,
+                      "error": {
+                        "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/firefox-1509/firefox/Nightly.app/Contents/MacOS/firefox\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+                        "stack": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/firefox-1509/firefox/Nightly.app/Contents/MacOS/firefox\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/firefox-1509/firefox/Nightly.app/Contents/MacOS/firefox\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-17T19:18:17.211Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "4c15706ef920bedb7b25-f8ac4ab837ff6d288179",
+              "file": "unit-preview-fix.spec.ts",
+              "line": 28,
+              "column": 7
+            },
+            {
+              "title": "should render unit 1 preview without hydration errors",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 2,
+                      "status": "failed",
+                      "duration": 2,
+                      "error": {
+                        "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+                        "stack": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-17T19:18:18.156Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "4c15706ef920bedb7b25-61afca43ae393cbae3a0",
+              "file": "unit-preview-fix.spec.ts",
+              "line": 4,
+              "column": 7
+            },
+            {
+              "title": "should allow interaction with multiple choice exercise",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 2,
+                      "error": {
+                        "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+                        "stack": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-17T19:18:18.178Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "4c15706ef920bedb7b25-c5ae10ecfebd899539d1",
+              "file": "unit-preview-fix.spec.ts",
+              "line": 28,
+              "column": 7
+            },
+            {
+              "title": "should render unit 1 preview without hydration errors",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 271,
+                      "error": {
+                        "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:5436/debug/a1-preview/unit-1\nCall log:\n\u001b[2m  - navigating to \"http://localhost:5436/debug/a1-preview/unit-1\", waiting until \"load\"\u001b[22m\n",
+                        "stack": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:5436/debug/a1-preview/unit-1\nCall log:\n\u001b[2m  - navigating to \"http://localhost:5436/debug/a1-preview/unit-1\", waiting until \"load\"\u001b[22m\n\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/unit-preview-fix.spec.ts:12:16",
+                        "location": {
+                          "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/unit-preview-fix.spec.ts",
+                          "column": 16,
+                          "line": 12
+                        },
+                        "snippet": "  10 |     });\n  11 |\n> 12 |     await page.goto('/debug/a1-preview/unit-1');\n     |                ^\n  13 |     \n  14 |     // Wait for the main content to load\n  15 |     await expect(page.getByText('Cargando Unidad')).not.toBeVisible({ timeout: 10000 });"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/unit-preview-fix.spec.ts",
+                            "column": 16,
+                            "line": 12
+                          },
+                          "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:5436/debug/a1-preview/unit-1\nCall log:\n\u001b[2m  - navigating to \"http://localhost:5436/debug/a1-preview/unit-1\", waiting until \"load\"\u001b[22m\n\n\n  10 |     });\n  11 |\n> 12 |     await page.goto('/debug/a1-preview/unit-1');\n     |                ^\n  13 |     \n  14 |     // Wait for the main content to load\n  15 |     await expect(page.getByText('Cargando Unidad')).not.toBeVisible({ timeout: 10000 });\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/unit-preview-fix.spec.ts:12:16"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-17T19:18:18.790Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/unit-preview-fix-Unit-1-Pr-c9adf-ew-without-hydration-errors-Mobile-Chrome/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/unit-preview-fix-Unit-1-Pr-c9adf-ew-without-hydration-errors-Mobile-Chrome/video.webm"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/unit-preview-fix.spec.ts",
+                        "column": 16,
+                        "line": 12
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "4c15706ef920bedb7b25-95c567ec519a7689732d",
+              "file": "unit-preview-fix.spec.ts",
+              "line": 4,
+              "column": 7
+            },
+            {
+              "title": "should allow interaction with multiple choice exercise",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 288,
+                      "error": {
+                        "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:5436/debug/a1-preview/unit-1\nCall log:\n\u001b[2m  - navigating to \"http://localhost:5436/debug/a1-preview/unit-1\", waiting until \"load\"\u001b[22m\n",
+                        "stack": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:5436/debug/a1-preview/unit-1\nCall log:\n\u001b[2m  - navigating to \"http://localhost:5436/debug/a1-preview/unit-1\", waiting until \"load\"\u001b[22m\n\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/unit-preview-fix.spec.ts:29:16",
+                        "location": {
+                          "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/unit-preview-fix.spec.ts",
+                          "column": 16,
+                          "line": 29
+                        },
+                        "snippet": "  27 |\n  28 |   test('should allow interaction with multiple choice exercise', async ({ page }) => {\n> 29 |     await page.goto('/debug/a1-preview/unit-1');\n     |                ^\n  30 |     await expect(page.getByText('Cargando Unidad')).not.toBeVisible();\n  31 |     \n  32 |     // Find an option and click it"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/unit-preview-fix.spec.ts",
+                            "column": 16,
+                            "line": 29
+                          },
+                          "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:5436/debug/a1-preview/unit-1\nCall log:\n\u001b[2m  - navigating to \"http://localhost:5436/debug/a1-preview/unit-1\", waiting until \"load\"\u001b[22m\n\n\n  27 |\n  28 |   test('should allow interaction with multiple choice exercise', async ({ page }) => {\n> 29 |     await page.goto('/debug/a1-preview/unit-1');\n     |                ^\n  30 |     await expect(page.getByText('Cargando Unidad')).not.toBeVisible();\n  31 |     \n  32 |     // Find an option and click it\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/unit-preview-fix.spec.ts:29:16"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-17T19:18:18.810Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/unit-preview-fix-Unit-1-Pr-063ec-th-multiple-choice-exercise-Mobile-Chrome/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/unit-preview-fix-Unit-1-Pr-063ec-th-multiple-choice-exercise-Mobile-Chrome/video.webm"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/unit-preview-fix.spec.ts",
+                        "column": 16,
+                        "line": 29
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "4c15706ef920bedb7b25-1b566e3b80b941a2f643",
+              "file": "unit-preview-fix.spec.ts",
+              "line": 28,
+              "column": 7
+            },
+            {
+              "title": "should render unit 1 preview without hydration errors",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 2,
+                      "status": "failed",
+                      "duration": 7,
+                      "error": {
+                        "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+                        "stack": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-17T19:18:18.928Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "4c15706ef920bedb7b25-8d5d663c08d43aef02bb",
+              "file": "unit-preview-fix.spec.ts",
+              "line": 4,
+              "column": 7
+            },
+            {
+              "title": "should allow interaction with multiple choice exercise",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 3,
+                      "error": {
+                        "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+                        "stack": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-17T19:18:19.023Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "4c15706ef920bedb7b25-0c9365a12d6b5931fb4e",
               "file": "unit-preview-fix.spec.ts",
               "line": 28,
               "column": 7
@@ -215,11 +675,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-02-17T18:45:54.560Z",
-    "duration": 9293.869999999999,
-    "expected": 2,
+    "startTime": "2026-02-17T19:18:16.444Z",
+    "duration": 2840.714,
+    "expected": 0,
     "skipped": 0,
-    "unexpected": 0,
+    "unexpected": 10,
     "flaky": 0
   }
 }
