@@ -41,6 +41,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
   } | null>(null);
 
   const [mounted, setMounted] = useState(false);
+  const [currentQuestionIdx, setCurrentQuestionIdx] = useState(0);
 
   // Determine if it's a reading exercise
   const exerciseContent = exercise.content || exercise;
@@ -66,6 +67,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
     setEvaluation(null);
     setIsAnimating(true);
     setShowReadingText(true);
+    setCurrentQuestionIdx(0);
     
     const timer = setTimeout(() => setIsAnimating(false), 300);
     return () => clearTimeout(timer);
@@ -125,12 +127,12 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
     setSubmitted(true);
     
     // For exercises with multiple questions array
-    if (exerciseContent.questions && Array.isArray(exerciseContent.questions) && userAnswer?.questionIndex !== undefined) {
-      const currentQuestion = exerciseContent.questions[userAnswer.questionIndex];
+    if (questions && Array.isArray(questions) && questions.length > 0) {
+      const currentQuestion = questions[currentQuestionIdx];
       
       if (currentQuestion.options && Array.isArray(currentQuestion.options) && exercise.type !== 'fill-blank') {
         // Multiple choice evaluation
-        const correct = checkMultipleChoiceCorrect(currentQuestion, userAnswer.answer);
+        const correct = checkMultipleChoiceCorrect(currentQuestion, userAnswer);
         setIsCorrect(correct);
         
         const evalResult = {
@@ -142,12 +144,11 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
 
         if (correct) {
           setShowConfetti(true);
-          completeExercise(exercise.id, 1, 1);
         }
       } else {
         // Text answer for fill-in-the-blank
         const q = currentQuestion as any;
-        const userAnswerText = typeof userAnswer.answer === 'string' ? userAnswer.answer : '';
+        const userAnswerText = typeof userAnswer === 'string' ? userAnswer : '';
         const userAnswerNormalized = normalize(userAnswerText);
         
         const correctAnswers = [
@@ -169,7 +170,6 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
 
         if (correct) {
           setShowConfetti(true);
-          completeExercise(exercise.id, 1, 1);
         }
       }
     } else {
@@ -189,6 +189,22 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
         setShowConfetti(true);
         completeExercise(exercise.id, 1, 1);
       }
+    }
+  };
+
+  const handleNextQuestion = () => {
+    if (questions && currentQuestionIdx < questions.length - 1) {
+      // Move to next question in the same exercise
+      setCurrentQuestionIdx(prev => prev + 1);
+      setUserAnswer(null);
+      setSubmitted(false);
+      setEvaluation(null);
+      setShowConfetti(false);
+      setIsCorrect(false);
+    } else {
+      // All questions in this exercise finished
+      completeExercise(exercise.id, 1, 1);
+      onComplete({ success: true, score: 100 });
     }
   };
 
@@ -456,181 +472,156 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
           /* Question Phase: Show questions */
           <div className="space-y-4 animate-in fade-in duration-300">
             {/* Questions array - for exercises with multiple questions */}
-            {exerciseContent.questions && Array.isArray(exerciseContent.questions) && (
+            {questions && Array.isArray(questions) && questions.length > 0 && (
               <div className="space-y-6">
-                {exerciseContent.questions.map((q: any, qIndex: number) => (
-                <div key={qIndex} className="bg-gray-50 rounded-lg p-4 sm:p-6 border border-gray-200 transition-all hover:shadow-md">
-                  <div className="mb-4">
-                    <span className="inline-block bg-orange-500 text-white px-3 py-1 rounded-full text-sm font-bold mb-3">
-                      Pregunta {qIndex + 1}
-                    </span>
-                    <div className="text-xl text-gray-900 font-bold">
-                      <TranslatedText text={q.question || q.text || q.prompt} />
-                    </div>
-                  </div>
-
-                  {/* Multiple choice options */}
-                  {q.options && Array.isArray(q.options) && exercise.type !== 'fill-blank' && (
-                    <div className="space-y-3">
-                      {q.options.map((option: any, optIndex: number) => {
-                        const isUserAnswer = userAnswer?.questionIndex === qIndex && userAnswer?.answer === optIndex;
-                        const isCorrectAnswer = checkMultipleChoiceCorrect(q, optIndex);
-                        const showAsCorrect = submitted && isCorrectAnswer;
-                        const showAsIncorrect = submitted && isUserAnswer && !isCorrectAnswer;
-                        
-                        return (
-                          <button
-                            key={optIndex}
-                            onClick={() => !submitted && setUserAnswer({ questionIndex: qIndex, answer: optIndex })}
-                            disabled={submitted}
-                            className={`w-full text-left p-5 rounded-2xl border-2 transition-all duration-200 transform hover:scale-[1.01] active:scale-[0.99] ${
-                              isUserAnswer && !submitted
-                                ? 'border-orange-500 bg-orange-50 shadow-md ring-2 ring-orange-200'
-                                : 'border-gray-200 hover:border-gray-300 bg-white hover:shadow-sm'
-                            } ${
-                              showAsCorrect
-                                ? 'border-green-500 bg-green-50 shadow-md ring-2 ring-green-100'
-                                : ''
-                            } ${
-                              showAsIncorrect
-                                ? 'border-red-500 bg-red-50 shadow-md ring-2 ring-red-100'
-                                : ''
-                            } disabled:cursor-not-allowed disabled:transform-none`}
-                          >
-                            <div className="flex items-center gap-4">
-                              <div className={`w-10 h-10 rounded-xl flex items-center justify-center font-black text-lg ${
-                                showAsCorrect ? 'bg-green-500 text-white' : showAsIncorrect ? 'bg-red-500 text-white' : isUserAnswer && !submitted ? 'bg-orange-500 text-white' : 'bg-slate-100 text-slate-500'
-                              }`}>
-                                {String.fromCharCode(65 + optIndex)}
-                              </div>
-                              <div className="text-lg font-bold text-gray-800 flex-1">
-                                <TranslatedText text={typeof option === 'string' ? option : option.text} />
-                              </div>
-                              {typeof option === 'object' && option.audio && (
-                                <div
-                                  role="button"
-                                  tabIndex={0}
-                                  onClick={(e) => {
-                                    e.stopPropagation();
-                                    const audio = new Audio(option.audio);
-                                    audio.play().catch(err => console.error('Error playing audio:', err));
-                                  }}
-                                  onKeyDown={(e) => {
-                                    if (e.key === 'Enter' || e.key === ' ') {
-                                      e.stopPropagation();
-                                      const audio = new Audio(option.audio);
-                                      audio.play().catch(err => console.error('Error playing audio:', err));
-                                    }
-                                  }}
-                                  className="p-2 bg-orange-100 text-orange-600 rounded-full hover:bg-orange-200 transition-all transform hover:scale-110 active:scale-95 cursor-pointer"
-                                >
-                                  <Volume2 className="w-4 h-4" />
-                                </div>
-                              )}
-                              {showAsCorrect && <CheckCircle className="ml-2 w-6 h-6 text-green-500 flex-shrink-0" />}
-                              {showAsIncorrect && <XCircle className="ml-2 w-6 h-6 text-red-500 flex-shrink-0" />}
-                            </div>
-                          </button>
-                        );
-                      })}
-                    </div>
-                  )}
-
-                  {/* Fill-in-the-blank input */}
-                  {exercise.type === 'fill-blank' && (
-                    <div className="space-y-4">
-                      <div className="relative">
-                        <input
-                          type="text"
-                          value={userAnswer?.questionIndex === qIndex ? userAnswer?.answer || '' : ''}
-                          onChange={(e) => setUserAnswer({ questionIndex: qIndex, answer: e.target.value })}
-                          onKeyDown={(e) => e.key === 'Enter' && !submitted && userAnswer?.answer && handleSubmit()}
-                          disabled={submitted}
-                          placeholder="Escribe tu respuesta aquí..."
-                          className="w-full p-5 border-2 border-gray-200 rounded-2xl focus:border-orange-500 focus:ring-4 focus:ring-orange-100 focus:outline-none disabled:bg-gray-50 disabled:cursor-not-allowed transition-all text-xl font-bold text-slate-800"
-                        />
+                {(() => {
+                  const q = questions[currentQuestionIdx];
+                  const qIndex = currentQuestionIdx;
+                  return (
+                    <div key={qIndex} className="bg-gray-50 rounded-lg p-4 sm:p-6 border border-gray-200 transition-all hover:shadow-md">
+                      <div className="mb-4">
+                        <div className="flex justify-between items-center mb-3">
+                          <span className="inline-block bg-orange-500 text-white px-3 py-1 rounded-full text-sm font-bold">
+                            Pregunta {qIndex + 1} de {questions.length}
+                          </span>
+                        </div>
+                        <div className="text-xl text-gray-900 font-bold">
+                          <TranslatedText text={q.question || q.text || q.prompt} />
+                        </div>
                       </div>
 
-                      {q.options && Array.isArray(q.options) && !submitted && (
-                        <div className="flex flex-wrap gap-2">
-                          {q.options.map((option: any, optIdx: number) => {
-                            const optionText = typeof option === 'string' ? option : option.text;
-                            // Helper to get clean text for the input
-                            const cleanText = optionText.replace(/\[\[(.*?)\|(.*?)\]\]/g, '$1');
+                      {/* Multiple choice options */}
+                      {q.options && Array.isArray(q.options) && exercise.type !== 'fill-blank' && (
+                        <div className="space-y-3">
+                          {q.options.map((option: any, optIndex: number) => {
+                            const isUserAnswer = userAnswer === optIndex;
+                            const isCorrectAnswer = checkMultipleChoiceCorrect(q, optIndex);
+                            const showAsCorrect = submitted && isCorrectAnswer;
+                            const showAsIncorrect = submitted && isUserAnswer && !isCorrectAnswer;
                             
                             return (
                               <button
-                                key={optIdx}
-                                type="button"
-                                onClick={() => setUserAnswer({ questionIndex: qIndex, answer: cleanText })}
-                                className="px-4 py-2 bg-white border-2 border-slate-200 rounded-xl hover:border-orange-500 hover:bg-orange-50 transition-all font-bold text-slate-700 shadow-sm flex items-center gap-2"
+                                key={optIndex}
+                                onClick={() => !submitted && setUserAnswer(optIndex)}
+                                disabled={submitted}
+                                className={`w-full text-left p-5 rounded-2xl border-2 transition-all duration-200 transform hover:scale-[1.01] active:scale-[0.99] ${
+                                  isUserAnswer && !submitted
+                                    ? 'border-orange-500 bg-orange-50 shadow-md ring-2 ring-orange-200'
+                                    : 'border-gray-200 hover:border-gray-300 bg-white hover:shadow-sm'
+                                } ${
+                                  showAsCorrect
+                                    ? 'border-green-500 bg-green-50 shadow-md ring-2 ring-green-100'
+                                    : ''
+                                } ${
+                                  showAsIncorrect
+                                    ? 'border-red-500 bg-red-50 shadow-md ring-2 ring-red-100'
+                                    : ''
+                                } disabled:cursor-not-allowed disabled:transform-none`}
                               >
-                                <TranslatedText text={optionText} />
+                                <div className="flex items-center gap-4">
+                                  <div className={`w-10 h-10 rounded-xl flex items-center justify-center font-black text-lg ${
+                                    showAsCorrect ? 'bg-green-500 text-white' : showAsIncorrect ? 'bg-red-500 text-white' : isUserAnswer && !submitted ? 'bg-orange-500 text-white' : 'bg-slate-100 text-slate-500'
+                                  }`}>
+                                    {String.fromCharCode(65 + optIndex)}
+                                  </div>
+                                  <div className="text-lg font-bold text-gray-800 flex-1">
+                                    <TranslatedText text={typeof option === 'string' ? option : option.text} />
+                                  </div>
+                                  {typeof option === 'object' && option.audio && (
+                                    <div
+                                      role="button"
+                                      tabIndex={0}
+                                      onClick={(e) => {
+                                        e.stopPropagation();
+                                        const audio = new Audio(option.audio);
+                                        audio.play().catch(err => console.error('Error playing audio:', err));
+                                      }}
+                                      className="p-2 bg-orange-100 text-orange-600 rounded-full hover:bg-orange-200 transition-all transform hover:scale-110 active:scale-95 cursor-pointer"
+                                    >
+                                      <Volume2 className="w-4 h-4" />
+                                    </div>
+                                  )}
+                                  {showAsCorrect && <CheckCircle className="ml-2 w-6 h-6 text-green-500 flex-shrink-0" />}
+                                  {showAsIncorrect && <XCircle className="ml-2 w-6 h-6 text-red-500 flex-shrink-0" />}
+                                </div>
                               </button>
                             );
                           })}
                         </div>
                       )}
-                    </div>
-                  )}
 
-                  {/* Evaluation for this specific question */}
-                  {submitted && userAnswer?.questionIndex === qIndex && evaluation && (
-                    <div className={`mt-6 p-6 rounded-2xl animate-slide-in border-2 ${
-                      evaluation.isCorrect ? 'bg-green-50 border-green-200 text-green-800' : 'bg-red-50 border-red-200 text-red-800'
-                    }`}>
-                      <div className="flex items-center gap-3 mb-2">
-                        {evaluation.isCorrect ? (
-                          <CheckCircle className="w-6 h-6 text-green-600" />
-                        ) : (
-                          <XCircle className="w-6 h-6 text-red-600" />
-                        )}
-                        <span className="text-xl font-black">
-                          {evaluation.isCorrect ? '¡Excelente!' : 'Casi...'}
-                        </span>
-                        {q.audio && (
-                          <button
-                            onClick={() => {
-                              const audio = new Audio(q.audio);
-                              audio.play().catch(err => console.error('Error playing audio:', err));
-                            }}
-                            className="ml-auto p-2 bg-white/50 text-current rounded-full hover:bg-white/80 transition-all shadow-sm"
-                            title="Escuchar respuesta"
-                          >
-                            <Volume2 className="w-5 h-5" />
-                          </button>
-                        )}
-                      </div>
-                      <div className="font-medium text-lg">
-                        <Markdown content={evaluation.feedback} vocabulary={vocabulary} />
-                      </div>
-                      
-                      {q.explanation && (
-                        <div className={`mt-4 p-4 bg-white/50 rounded-xl text-sm border ${
-                          evaluation.isCorrect ? 'border-green-100' : 'border-red-100'
-                        }`}>
-                          <p className="font-bold mb-1">💡 Explicación:</p>
-                          <div className="text-sm">
-                            <Markdown content={q.explanation} vocabulary={vocabulary} />
+                      {/* Fill-in-the-blank input */}
+                      {exercise.type === 'fill-blank' && (
+                        <div className="space-y-4">
+                          <div className="relative">
+                            <input
+                              type="text"
+                              value={userAnswer || ''}
+                              onChange={(e) => setUserAnswer(e.target.value)}
+                              onKeyDown={(e) => e.key === 'Enter' && !submitted && userAnswer && handleSubmit()}
+                              disabled={submitted}
+                              placeholder="Escribe tu respuesta aquí..."
+                              className="w-full p-5 border-2 border-gray-200 rounded-2xl focus:border-orange-500 focus:ring-4 focus:ring-orange-100 focus:outline-none disabled:bg-gray-50 disabled:cursor-not-allowed transition-all text-xl font-bold text-slate-800"
+                            />
                           </div>
                         </div>
                       )}
-                    </div>
-                  )}
-                  
-                  {/* Show basic explanation if no evaluation data */}
-                  {submitted && userAnswer?.questionIndex === qIndex && !isEvaluating && !evaluation && q.explanation && (
-                    <div className="mt-4 p-4 bg-blue-50 border border-blue-200 rounded-lg animate-slide-in">
-                      <p className="text-sm font-semibold text-blue-900 mb-1">💡 Explanation:</p>
-                      <div className="text-sm text-blue-800">
-                        <Markdown content={q.explanation} />
+
+                      {/* Single Action Button (Confirm or Next) */}
+                      <div className="mt-8 flex justify-center">
+                        {!submitted ? (
+                          <button
+                            onClick={handleSubmit}
+                            disabled={userAnswer === null || userAnswer === ''}
+                            className="bg-orange-600 text-white px-12 py-4 rounded-2xl font-black text-lg hover:bg-orange-700 transition-all shadow-lg hover:shadow-orange-100 disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2 transform active:scale-95"
+                          >
+                            <Zap className="w-6 h-6" />
+                            Confirmar Respuesta
+                          </button>
+                        ) : (
+                          <button
+                            onClick={handleNextQuestion}
+                            className="bg-green-600 text-white px-12 py-4 rounded-2xl font-black text-lg hover:bg-green-700 transition-all shadow-lg hover:shadow-green-100 flex items-center gap-2 transform active:scale-95 animate-in fade-in zoom-in duration-300"
+                          >
+                            {currentQuestionIdx < questions.length - 1 ? 'Siguiente Pregunta' : 'Finalizar Ejercicio'}
+                            <ArrowRight className="w-6 h-6" />
+                          </button>
+                        )}
                       </div>
+
+                      {/* Evaluation Feedback */}
+                      {submitted && evaluation && (
+                        <div className={`mt-6 p-6 rounded-2xl animate-slide-in border-2 ${
+                          evaluation.isCorrect ? 'bg-green-50 border-green-200 text-green-800' : 'bg-red-50 border-red-200 text-red-800'
+                        }`}>
+                          <div className="flex items-center gap-3 mb-2">
+                            {evaluation.isCorrect ? (
+                              <CheckCircle className="w-6 h-6 text-green-600" />
+                            ) : (
+                              <XCircle className="w-6 h-6 text-red-600" />
+                            )}
+                            <span className="text-xl font-black">
+                              {evaluation.isCorrect ? '¡Excelente!' : 'Casi...'}
+                            </span>
+                          </div>
+                          <div className="font-medium text-lg">
+                            <Markdown content={evaluation.feedback} vocabulary={vocabulary} />
+                          </div>
+                          {q.explanation && (
+                            <div className="mt-4 p-4 bg-white/50 rounded-xl text-sm border border-current/10">
+                              <p className="font-bold mb-1">💡 Explicación:</p>
+                              <div className="text-sm">
+                                <Markdown content={q.explanation} vocabulary={vocabulary} />
+                              </div>
+                            </div>
+                          )}
+                        </div>
+                      )}
                     </div>
-                  )}
-                </div>
-              ))}
-            </div>
-          )}
+                  );
+                })()}
+              </div>
+            )}
 
           {/* Single question/prompt */}
           {exerciseContent.question && !exerciseContent.questions && (

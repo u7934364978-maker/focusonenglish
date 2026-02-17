@@ -36,11 +36,15 @@ test.describe('Unit 1 Preview Rendering', () => {
     // Check if it's selected (it should have orange border/bg classes)
     await expect(option).toHaveClass(/border-orange-500|bg-orange-50/);
     
-    // Click verify
-    const verifyButton = page.getByRole('button', { name: /Verificar Respuesta/i });
-    await verifyButton.click();
+    // Click confirm
+    const confirmButton = page.getByRole('button', { name: /Confirmar Respuesta/i });
+    await confirmButton.click();
     
-    // Check for feedback (using first() to avoid strict mode violation if multiple elements match)
+    // Check for feedback
     await expect(page.getByText(/¡Excelente!|Respuesta correcta/i).first()).toBeVisible();
+    
+    // Check for "Siguiente Pregunta" button
+    const nextButton = page.getByRole('button', { name: /Siguiente Pregunta/i });
+    await expect(nextButton).toBeVisible();
   });
 });
