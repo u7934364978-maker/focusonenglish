@@ -3,6 +3,7 @@
 import React from 'react';
 import PremiumCourseSession from '@/components/course/exercises/PremiumSession';
 import { UnitData } from '@/types/premium-course';
+import { useSearchParams } from 'next/navigation';
 
 interface Props {
   unitData: UnitData;
@@ -11,6 +12,9 @@ interface Props {
 }
 
 export default function PreviewClient({ unitData, courseId, unitId }: Props) {
+  const searchParams = useSearchParams();
+  const initialIndex = parseInt(searchParams.get('index') || '0', 10);
+
   return (
     <div className="min-h-screen bg-slate-50 pt-10">
       <div className="max-w-4xl mx-auto p-4 mb-8">
@@ -19,7 +23,9 @@ export default function PreviewClient({ unitData, courseId, unitId }: Props) {
         </div>
       </div>
       <PremiumCourseSession 
+        key={`${courseId}-${unitId}-${initialIndex}`}
         unitData={unitData} 
+        initialIndex={initialIndex}
         onComplete={() => console.log('Preview Complete')}
         onExit={() => window.history.back()}
       />
