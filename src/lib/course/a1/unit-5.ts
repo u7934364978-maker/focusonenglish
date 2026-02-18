@@ -391,7 +391,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "transcript": "[[My|Mi]] [[father's|de mi padre]] [[brother|hermano]] [[is|es]] [[my|mi]] [[uncle|tío]].",
     "content": {
       "title": "Relaciones",
-      "instructions": "[[My|Mi]] [[father's|de mi padre]] [[brother|hermano]] [[is|es]] [[my|mi]]...",
+      "instructions": "Completa la relación lógica.",
+      "question": "[[My|Mi]] [[father's|de mi padre]] [[brother|hermano]] [[is|es]] [[my|mi]] (____).",
       "options": ["[[uncle|tío]]", "[[grandfather|abuelo]]", "[[son|hijo]]"],
       "correctAnswer": 0,
       "explanation": "El hermano de tu padre es tu tío."
