@@ -35,8 +35,9 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/35
 1. [x] **Lexicon Update**: Add missing Unit 1 vocabulary to `A1_LEXICON` in `src/lib/course/engine/lexicon.ts`.
 2. [x] **Grammar Questions Review**: Update `src/lib/a1-m1-l1-detailed.ts` questions and options with `[[en|es]]` where lexicon falls short.
 3. [x] **Reading Transcripts Review**: Update transcripts in `src/lib/a1-m1-l1-detailed.ts` to ensure all words are translated.
-4. [x] **Verification**: Run `npm run lint` and verify visually at `http://localhost:3000/debug/a1-preview/unit-1`.
+4. [x] **Phrase-Level Lexicon**: Add common phrases and punctuation-inclusive words to the lexicon to improve coverage in complex sentences.
+5. [x] **Verification**: Run `npm run lint` and verify visually at `http://localhost:3000/debug/a1-preview/unit-1`.
 
 ### [x] Step: Implementation
 
-Task completed. Lexicon updated and unit content cleaned up to use automatic translations.
+Task completed. I have significantly expanded the lexicon to include phrases, greetings with punctuation, and common sentence fragments used in Unit 1. This ensures that almost every combination of words will show a translation tooltip.

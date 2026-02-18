@@ -1,0 +1,73 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic: © 2026 Focus English
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=e6]
+        - 'heading "Review: Unidad 1Ejercicio 56 de 60" [level=1] [ref=e9]':
+          - text: "Review: Unidad 1"
+          - generic [ref=e10]: Ejercicio 56 de 60
+      - generic [ref=e11]:
+        - button [ref=e12] [cursor=pointer]:
+          - img [ref=e13]
+        - button [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+    - main [ref=e18]:
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - generic [ref=e24]:
+              - generic [ref=e25]: A1
+              - generic [ref=e26]: reading-comprehension
+              - generic [ref=e27]: Reading
+            - 'heading "Reading: Meet Alex" [level=2] [ref=e28]':
+              - generic [ref=e29]:
+                - text: "Reading:"
+                - generic [ref=e30]: Meet Alex
+            - paragraph [ref=e33]:
+              - generic [ref=e34]:
+                - generic [ref=e35]: Read the text
+                - generic [ref=e36]: and
+                - generic [ref=e37]: answer the questions
+                - text: .
+          - generic [ref=e39]:
+            - paragraph [ref=e42]:
+              - generic [ref=e43]:
+                - generic [ref=e44]: Hello
+                - text: "!"
+                - generic [ref=e45]: My name
+                - generic [ref=e46]: is
+                - generic [ref=e47]: Alex
+                - text: .
+                - generic [ref=e48]: I am
+                - generic [ref=e49]: from
+                - generic [ref=e50]: London
+                - text: .
+                - generic [ref=e51]: I am
+                - generic [ref=e52]: a
+                - generic [ref=e53]: student
+                - text: .
+                - generic [ref=e54]: Today
+                - generic [ref=e55]: is a
+                - generic [ref=e56]: good day
+                - text: .
+                - generic [ref=e57]: I am
+                - generic [ref=e58]: happy
+                - text: .
+            - button "Comprender texto y responder" [ref=e60] [cursor=pointer]:
+              - text: Comprender texto y responder
+              - img [ref=e61]
+        - generic [ref=e63]:
+          - generic [ref=e64]: "⏱️ Tiempo estimado: 5 min"
+          - generic [ref=e65]: 📅 2/18/2026
+  - button "Open Next.js Dev Tools" [ref=e71] [cursor=pointer]:
+    - img [ref=e72]
+  - alert [ref=e75]
+  - iframe [ref=e76]:
+    
+```

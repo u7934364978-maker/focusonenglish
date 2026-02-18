@@ -1,0 +1,10 @@
+
+> focus-english@1.0.0 test:e2e
+> playwright test e2e/a1-unit-1-translations.spec.ts --workers=1
+
+
+Running 40 tests using 1 worker
+
+  ✘   1 [chromium] › e2e/a1-unit-1-translations.spec.ts:11:7 › A1 Unit 1 - Word-Level Translations with Hover Tooltips › 1. Reading page loads without errors (1.6s)
+  ✘   2 [chromium] › e2e/a1-unit-1-translations.spec.ts:39:7 › A1 Unit 1 - Word-Level Translations with Hover Tooltips › 2. Dotted underlines visible on vocabulary words in reading text (1.0m)
+  ✘   3 [chromium] › e2e/a1-unit-1-translations.spec.ts:81:7 › A1 Unit 1 - Word-Level Translations with Hover Tooltips › 3. Tooltip appears on word hover (1.0m)

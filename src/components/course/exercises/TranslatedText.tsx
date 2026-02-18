@@ -43,7 +43,7 @@ function getLexiconData() {
 export const TranslatedText: React.FC<TranslatedTextProps> = ({ text, className, useStrong = false }) => {
   const { lexiconMap, lexiconRegexPattern } = useMemo(() => getLexiconData(), []);
 
-  if (!text) return null;
+  if (!text || typeof text !== 'string') return text;
 
   // 1. Handle explicit translations: [[word|translation]]
   const explicitRegex = /\[\[(.*?)\|(.*?)\]\]/g;
