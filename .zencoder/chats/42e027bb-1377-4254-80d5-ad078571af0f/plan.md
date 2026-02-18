@@ -177,11 +177,30 @@ Created detailed implementation plan based on spec.md. See Implementation tasks 
 | Task | Effort | Impact | Status |
 |------|--------|--------|--------|
 | 1. Verify Feature | 15 min | Confirms feature already works | [x] ✅ PASS |
-| 2. Debug & Fix | 30 min | Only if needed | [x] SKIPPED (not needed) |
+| 2. Debug & Fix (Lexicon Expansion) | 30 min | Fixes missing word tooltips | [x] ✅ DONE |
 | 3. E2E Tests | 45 min | Ensures reliability | [x] ✅ PASS (12/12 unit tests) |
 | 4. Final Verification | 15 min | Prevents regressions | [x] ✅ PASS |
 
 **Total Expected Time**: ~75 minutes (including test writing and debugging time)
+
+---
+
+## TASK 2 Results (Lexicon Expansion)
+
+**Date**: 2026-02-18  
+**Status**: ✅ DONE
+
+**Changes**:
+1. **Lexicon Audit**: Extracted missing words from Unit 1 exercises (`a1-m1-l1-detailed.ts`).
+2. **Lexicon Update**: Added 17 new entries to `src/lib/course/engine/lexicon.ts`:
+   - `verb`, `to be`, `be`, `use` (fixes missing underlines in headings/questions)
+   - `true`, `false`, `question`, `answer` (exercise meta-terms)
+   - `greetings`, `goodbyes` (plural forms)
+   - `i`, `you`, `he`, `she`, `it`, `we`, `they` (standalone pronouns)
+
+**Verification**:
+- Verified the `TranslatedText` component correctly matches these new terms.
+- Verified priority by placing new terms at the top of the `A1_LEXICON` array.
 
 ---
 
@@ -331,7 +350,8 @@ When students navigate to `/debug/a1-preview/unit-1`, reading comprehension exer
 4. `/spec.md` - Technical specification
 5. `/plan.md` - This implementation plan
 
-**Files Modified**: None (feature was already complete)
+**Files Modified**: 
+- `src/lib/course/engine/lexicon.ts` (Expanded Unit 1 vocabulary)
 
 **Ready for Production**: ✅ YES
 - All tests pass

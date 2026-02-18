@@ -14,6 +14,25 @@ export interface LexicalItem {
 }
 
 export const A1_LEXICON: LexicalItem[] = [
+  // Grammar & Meta (Unit 1)
+  { lemma: 'verb', pos: 'noun', translation: 'verbo', gender_es: 'm', tags: ['grammar', 'A1'], unit: 1 },
+  { lemma: 'to be', pos: 'verb', translation: 'ser o estar', tags: ['grammar', 'A1'], unit: 1 },
+  { lemma: 'be', pos: 'verb', translation: 'ser/estar', tags: ['grammar', 'A1'], unit: 1 },
+  { lemma: 'use', pos: 'verb', translation: 'usar / utiliza', tags: ['action', 'A1'], unit: 1 },
+  { lemma: 'true', pos: 'adjective', translation: 'verdadero', tags: ['meta', 'A1'], unit: 1 },
+  { lemma: 'false', pos: 'adjective', translation: 'falso', tags: ['meta', 'A1'], unit: 1 },
+  { lemma: 'question', pos: 'noun', translation: 'pregunta', gender_es: 'f', tags: ['meta', 'A1'], unit: 1 },
+  { lemma: 'answer', pos: 'noun', translation: 'respuesta', gender_es: 'f', tags: ['meta', 'A1'], unit: 1 },
+  { lemma: 'greetings', pos: 'noun', translation: 'saludos', tags: ['greeting', 'A1'], unit: 1 },
+  { lemma: 'goodbyes', pos: 'noun', translation: 'despedidas', tags: ['greeting', 'A1'], unit: 1 },
+  { lemma: 'i', pos: 'noun', translation: 'yo', tags: ['pronoun', 'A1'], unit: 1 },
+  { lemma: 'you', pos: 'noun', translation: 'tú / usted', tags: ['pronoun', 'A1'], unit: 1 },
+  { lemma: 'he', pos: 'noun', translation: 'él', tags: ['pronoun', 'A1'], unit: 1 },
+  { lemma: 'she', pos: 'noun', translation: 'ella', tags: ['pronoun', 'A1'], unit: 1 },
+  { lemma: 'it', pos: 'noun', translation: 'ello (objeto/animal)', tags: ['pronoun', 'A1'], unit: 1 },
+  { lemma: 'we', pos: 'noun', translation: 'nosotros/as', tags: ['pronoun', 'A1'], unit: 1 },
+  { lemma: 'they', pos: 'noun', translation: 'ellos/as', tags: ['pronoun', 'A1'], unit: 1 },
+
   // Greetings (Unit 1)
   { lemma: 'hello', pos: 'noun', translation: 'hola (formal)', tags: ['greeting', 'formal', 'A1'], unit: 1 },
   { lemma: 'hi', pos: 'noun', translation: 'hola (informal)', tags: ['greeting', 'informal', 'A1'], unit: 1 },
