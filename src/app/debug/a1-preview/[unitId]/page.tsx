@@ -3,8 +3,10 @@
 import { useParams, useSearchParams } from 'next/navigation';
 import { useEffect, useState, Suspense } from 'react';
 import ExerciseRenderer from '@/components/ExerciseRenderer';
-import { ArrowLeft, ArrowRight, Home } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Home, CheckCircle, Sparkles } from 'lucide-react';
 import Link from 'next/link';
+
+const CHUNK_SIZE = 15;
 
 function UnitPreviewContent() {
   const params = useParams();
@@ -14,6 +16,9 @@ function UnitPreviewContent() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [showLessonComplete, setShowLessonComplete] = useState(false);
+  const [showUnitSummary, setShowUnitSummary] = useState(false);
+  const [startTime] = useState(Date.now());
 
   useEffect(() => {
     async function loadUnit() {
@@ -102,6 +107,82 @@ function UnitPreviewContent() {
   );
 
   const currentExercise = exercises[currentIndex];
+  const lessonNumber = Math.floor(currentIndex / CHUNK_SIZE) + 1;
+  const totalLessons = Math.ceil(exercises.length / CHUNK_SIZE);
+  const exerciseInLesson = (currentIndex % CHUNK_SIZE) + 1;
+  const exercisesInThisLesson = Math.min(CHUNK_SIZE, exercises.length - (lessonNumber - 1) * CHUNK_SIZE);
+
+  if (showUnitSummary) {
+    const durationMinutes = Math.round((Date.now() - startTime) / 60000);
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-slate-50 p-4">
+        <div className="max-w-xl w-full bg-white rounded-[2rem] shadow-2xl p-12 text-center animate-in zoom-in duration-700">
+          <div className="w-32 h-32 bg-yellow-100 text-yellow-600 rounded-full flex items-center justify-center mx-auto mb-8 relative">
+            <Sparkles className="w-16 h-16" />
+            <div className="absolute -top-2 -right-2 bg-coral-500 text-white p-3 rounded-full shadow-lg">
+              <CheckCircle className="w-6 h-6" />
+            </div>
+          </div>
+          <h2 className="text-4xl font-black text-slate-900 mb-4 italic tracking-tight">
+            ¡UNIDAD COMPLETADA!
+          </h2>
+          <p className="text-slate-500 mb-10 text-xl font-medium">
+            Has finalizado todos los ejercicios de la Unidad {unitId.replace('unit-', '')}.
+          </p>
+          
+          <div className="grid grid-cols-2 gap-6 mb-10 text-left">
+            <div className="bg-slate-50 p-6 rounded-3xl border border-slate-100">
+              <p className="text-slate-400 text-sm font-bold uppercase mb-1">Total Ejercicios</p>
+              <p className="text-3xl font-black text-slate-800">{exercises.length}</p>
+            </div>
+            <div className="bg-slate-50 p-6 rounded-3xl border border-slate-100">
+              <p className="text-slate-400 text-sm font-bold uppercase mb-1">Tiempo Total</p>
+              <p className="text-3xl font-black text-slate-800">{durationMinutes} min</p>
+            </div>
+          </div>
+
+          <Link 
+            href="/"
+            className="w-full bg-slate-900 text-white py-6 rounded-2xl font-black text-xl hover:bg-slate-800 transition-all shadow-xl flex items-center justify-center gap-3 transform hover:scale-[1.02] active:scale-95"
+          >
+            Volver al listado de unidades
+          </Link>
+        </div>
+      </div>
+    );
+  }
+
+  if (showLessonComplete) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-slate-50 p-4">
+        <div className="max-w-md w-full bg-white rounded-3xl shadow-2xl p-10 text-center animate-in zoom-in duration-500">
+          <div className="w-24 h-24 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-6">
+            <CheckCircle className="w-12 h-12" />
+          </div>
+          <h2 className="text-3xl font-black text-slate-800 mb-2 italic flex items-center justify-center gap-2">
+            <Sparkles className="text-yellow-400" />
+            ¡Lección {lessonNumber} Completada!
+            <Sparkles className="text-yellow-400" />
+          </h2>
+          <p className="text-slate-600 mb-8 text-lg">
+            Has completado {exercisesInThisLesson} ejercicios con éxito. ¡Sigue así!
+          </p>
+          <button 
+            onClick={() => {
+              if (currentIndex < exercises.length - 1) {
+                setCurrentIndex(prev => prev + 1);
+                setShowLessonComplete(false);
+              }
+            }}
+            className="w-full bg-coral-500 text-white py-5 rounded-2xl font-black text-xl hover:bg-coral-600 transition-all shadow-xl shadow-coral-100 flex items-center justify-center gap-3 transform hover:scale-105"
+          >
+            Continuar a la siguiente lección
+            <ArrowRight className="w-6 h-6" />
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-slate-50">
@@ -113,7 +194,7 @@ function UnitPreviewContent() {
           <h1 className="font-black text-xl text-slate-800 uppercase tracking-tight">
             Review: Unidad {unitId.replace('unit-', '')} 
             <span className="ml-4 text-slate-400 font-medium text-sm">
-              Ejercicio {currentIndex + 1} de {exercises.length}
+              Lección {lessonNumber} de {totalLessons} • Ejercicio {exerciseInLesson} de {exercisesInThisLesson}
             </span>
           </h1>
         </div>
@@ -140,7 +221,7 @@ function UnitPreviewContent() {
         <div className="mb-8 h-2 bg-slate-200 rounded-full overflow-hidden">
           <div 
             className="h-full bg-coral-500 transition-all duration-500 ease-out"
-            style={{ width: `${((currentIndex + 1) / exercises.length) * 100}%` }}
+            style={{ width: `${((exerciseInLesson) / exercisesInThisLesson) * 100}%` }}
           />
         </div>
 
@@ -148,7 +229,11 @@ function UnitPreviewContent() {
           key={currentExercise.id}
           exercise={currentExercise}
           onComplete={() => {
-            if (currentIndex < exercises.length - 1) {
+            if (currentIndex === exercises.length - 1) {
+              setShowUnitSummary(true);
+            } else if ((currentIndex + 1) % CHUNK_SIZE === 0) {
+              setShowLessonComplete(true);
+            } else {
               setCurrentIndex(prev => prev + 1);
             }
           }}

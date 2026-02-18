@@ -32,6 +32,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
   const [finishScore, setFinishScore] = useState(0);
   const [showReadingText, setShowReadingText] = useState(true);
   const [currentQuestionIdx, setCurrentQuestionIdx] = useState(0);
+  const [audioLoading, setAudioLoading] = useState(false);
   const [evaluation, setEvaluation] = useState<{
     isCorrect: boolean;
     score: number;
@@ -62,10 +63,18 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
     setIsAnimating(true);
     setShowReadingText(true);
     setCurrentQuestionIdx(0);
+    setAudioLoading(false);
     
     const timer = setTimeout(() => setIsAnimating(false), 300);
     return () => clearTimeout(timer);
   }, [exercise.id]);
+
+  const playAudio = (url?: string) => {
+    if (!url) return;
+    setAudioLoading(true);
+    const audio = new Audio(url);
+    audio.play().finally(() => setAudioLoading(false));
+  };
 
   const stripTags = (s: string) => s.replace(/\[\[(.*?)\|(.*?)\]\]/g, '$1');
 
@@ -180,8 +189,33 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
               <TranslatedText text={`[[Question|Pregunta]] ${qIndex + 1} [[of|de]] ${questions.length}`} />
             </span>
           </div>
-          <div className="text-2xl text-gray-900 font-black leading-tight">
+
+          {q.imageUrl && (
+            <div className="mb-6 rounded-2xl overflow-hidden border-4 border-white shadow-lg bg-gray-100 flex justify-center items-center" data-testid="exercise-image-container">
+              <img 
+                src={q.imageUrl} 
+                alt="Exercise visual aid" 
+                className="max-h-[300px] object-contain w-full block"
+                onError={(e) => {
+                  console.error('Image load error:', q.imageUrl);
+                  // (e.target as HTMLImageElement).style.display = 'none';
+                }}
+              />
+            </div>
+          )}
+
+          <div className="text-2xl text-gray-900 font-black leading-tight flex items-center justify-between gap-4">
             <TranslatedText text={q.question || q.text || q.prompt} />
+            {q.audioUrl && (
+              <button
+                onClick={() => playAudio(q.audioUrl)}
+                disabled={audioLoading}
+                className="flex-shrink-0 p-3 bg-orange-100 text-orange-600 rounded-full hover:bg-orange-200 transition-all active:scale-90"
+                title="Escuchar pregunta"
+              >
+                <Volume2 className={`w-6 h-6 ${audioLoading ? 'animate-pulse' : ''}`} />
+              </button>
+            )}
           </div>
         </div>
 
@@ -281,6 +315,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
             <button
               onClick={handleSubmit}
               disabled={userAnswer === null || userAnswer === ''}
+              data-testid="confirm-button"
               className="group bg-orange-600 text-white px-12 py-5 rounded-3xl font-black text-xl hover:bg-orange-700 transition-all shadow-xl hover:shadow-orange-200 disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-3 transform hover:scale-105 active:scale-95"
             >
               <Zap className="w-7 h-7 group-hover:animate-pulse" />
@@ -289,6 +324,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
           ) : (
             <button
               onClick={handleNextQuestion}
+              data-testid="next-button"
               className="group bg-green-600 text-white px-12 py-5 rounded-3xl font-black text-xl hover:bg-green-700 transition-all shadow-xl hover:shadow-green-200 flex items-center gap-3 transform hover:scale-105 active:scale-95 animate-in fade-in zoom-in duration-300"
             >
               {currentQuestionIdx < questions.length - 1 ? (
@@ -394,8 +430,18 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
         <div className="p-8">
           {isReadingExercise && showReadingText ? (
             <div className="space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500">
-              <div className="p-10 bg-white border-l-8 border-purple-500 rounded-r-3xl shadow-inner text-slate-800 text-2xl leading-relaxed font-medium italic relative">
+              <div className="p-10 bg-white border-l-8 border-purple-500 rounded-r-3xl shadow-inner text-slate-800 text-2xl leading-relaxed font-medium italic relative group">
                 <Markdown content={exercise.transcript!} />
+                {exercise.audioUrl && (
+                  <button
+                    onClick={() => playAudio(exercise.audioUrl)}
+                    disabled={audioLoading}
+                    className="absolute top-4 right-4 p-4 bg-purple-100 text-purple-600 rounded-full opacity-0 group-hover:opacity-100 transition-all hover:bg-purple-200 shadow-md active:scale-90"
+                    title="Escuchar texto"
+                  >
+                    <Volume2 className={`w-8 h-8 ${audioLoading ? 'animate-pulse' : ''}`} />
+                  </button>
+                )}
               </div>
               <div className="flex justify-center">
                 <button onClick={() => setShowReadingText(false)} className="bg-purple-600 text-white px-12 py-6 rounded-3xl font-black text-xl hover:bg-purple-700 shadow-2xl flex items-center gap-3 transform hover:scale-105 active:scale-95">
