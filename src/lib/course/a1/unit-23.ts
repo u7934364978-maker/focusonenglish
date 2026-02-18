@@ -1,8 +1,6 @@
 import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_23_EXERCISES: Exercise[] = [
-  // FLASHCARDS (1-10)
-
   // MULTIPLE CHOICE (11-40)
   {
     "id": "a1-u23-e11",

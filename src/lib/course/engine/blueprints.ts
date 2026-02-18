@@ -737,18 +737,6 @@ export const A1_BLUEPRINTS: Blueprint[] = [
   },
   // --- Unit 1: Greetings Discovery ---
   {
-    id: 'BP-GREET-DISC-01',
-    skillId: 'A1-GREET-01',
-    type: 'flashcard',
-    title: 'Nuevas Palabras: Saludos',
-    instruction: 'Aprende estos saludos:',
-    template: '{word}',
-    slots: {
-      word: { pos: 'noun', tags: ['greeting'] }
-    },
-    translationTemplate: '{word_es}'
-  },
-  {
     id: 'BP-GREET-MATCH-01',
     skillId: 'A1-GREET-01',
     type: 'matching',
@@ -761,18 +749,6 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     translationTemplate: '{word_es}'
   },
   // --- Unit 2: Drinks Discovery ---
-  {
-    id: 'BP-DRINK-DISC-01',
-    skillId: 'A1-WANT-01',
-    type: 'flashcard',
-    title: 'Nuevas Palabras: Bebidas',
-    instruction: 'Aprende estas bebidas:',
-    template: '{word}',
-    slots: {
-      word: { pos: 'noun', tags: ['drink'] }
-    },
-    translationTemplate: '{word_es}'
-  },
   {
     id: 'BP-DRINK-MATCH-01',
     skillId: 'A1-WANT-01',
@@ -800,26 +776,12 @@ export const A1_BLUEPRINTS: Blueprint[] = [
   },
   // --- Universal Discovery Blueprints ---
   {
-    id: 'BP-DISC-FLASH-UNIV',
-    skillId: 'A1-UNIVERSAL',
-    type: 'flashcard',
-    title: 'Nueva Palabra',
-    instruction: 'Descubre este concepto:',
-    template: '{word}',
-    correctSlot: 'word',
-    slots: {
-      word: { pos: 'noun' }
-    },
-    translationTemplate: '{word_es}'
-  },
-  {
     id: 'BP-DISC-MATCH-UNIV',
     skillId: 'A1-UNIVERSAL',
     type: 'matching',
     title: 'Vocabulario',
     instruction: 'Relaciona las palabras con su traducción:',
     template: '{word}',
-    correctSlot: 'word',
     slots: {
       word: { pos: 'noun' }
     },

@@ -97,7 +97,7 @@ export const A1_KIDS_EXERCISES = [
     instructions: 'Actividades rápidas para despertar tu inglés.',
     category: 'warmup',
     questions: [
-      // 1.1. Flashcards inteligentes / Escucha y elige
+      // 1.1. Escucha y elige
       {
         interaction_id: 'q1-listen-color',
         type: 'touch_word_audio' as const,
@@ -215,16 +215,6 @@ export const A1_KIDS_EXERCISES = [
         stimulus_en: 'Hello. I am [your name]. I am from [your country].',
         explanation: '¡Excelente! Has practicado tu primera nota de voz en inglés.',
         mastery_tag: 'speaking/introduction',
-      },
-      // 3.2. Role-play con tarjetas (Flashcards interactivas)
-      {
-        interaction_id: 's3-roleplay-cafe',
-        type: 'flashcard' as const,
-        prompt_es: 'Role-play: Estás en un café. Pide una bebida.',
-        flashcards: [
-          { front: 'Order 1 drink', back: 'I would like a coffee, please.', pronunciation: 'Aɪ wʊd laɪk ə ˈkɔːfi pliːz' }
-        ],
-        mastery_tag: 'speaking/ordering',
       }
     ],
   },
