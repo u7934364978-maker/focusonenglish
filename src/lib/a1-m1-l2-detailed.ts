@@ -63,21 +63,21 @@ const GRAMMAR_QUESTIONS = [
   { id: 'a1-m1-l2-q40', type: 'fill-blank', question: 'The sky ___ blue today.', correctAnswer: 'is' },
 
   // Practice & Vocabulary (41-55)
-  { id: 'a1-m1-l2-q41', type: 'multiple-choice', question: 'He is from Mexico. He is ___.', options: ['[[Mexican|Mexicano]]', '[[Mexico|México]]', '[[Mexicans|Mexicanos]]'], correctAnswer: 'Mexican' },
-  { id: 'a1-m1-l2-q42', type: 'multiple-choice', question: 'She is from France. She is ___.', options: ['[[France|Francia]]', '[[French|Francesa]]', '[[Frenches|Francesas]]'], correctAnswer: 'French' },
-  { id: 'a1-m1-l2-q43', type: 'fill-blank', question: 'They are from Brazil. They are ___.', correctAnswer: 'Brazilian' },
-  { id: 'a1-m1-l2-q44', type: 'multiple-choice', question: 'I am a ___. I work in a hospital.', options: ['[[Teacher|Profesor]]', '[[Doctor|Doctor]]', '[[Actor|Actor]]'], correctAnswer: 'Doctor' },
-  { id: 'a1-m1-l2-q45', type: 'multiple-choice', question: 'She works in a school. She is a ___.', options: ['[[Nurse|Enfermera]]', '[[Teacher|Profesora]]', '[[Pilot|Piloto]]'], correctAnswer: 'Teacher' },
-  { id: 'a1-m1-l2-q46', type: 'true-false', question: 'A "pilot" flies a plane.', correctAnswer: 'True' },
-  { id: 'a1-m1-l2-q47', type: 'fill-blank', question: 'He is from the USA. He is ___.', correctAnswer: 'American' },
-  { id: 'a1-m1-l2-q48', type: 'multiple-choice', question: 'They work in a restaurant. They are ___.', options: ['[[Waiters|Camareros]]', '[[Drivers|Conductores]]', '[[Engineers|Ingenieros]]'], correctAnswer: 'Waiters' },
-  { id: 'a1-m1-l2-q49', type: 'fill-blank', question: 'I am from Spain. I am ___.', correctAnswer: 'Spanish' },
-  { id: 'a1-m1-l2-q50', type: 'multiple-choice', question: 'She is a ___. She helps sick people.', options: ['[[Chef|Chef]]', '[[Nurse|Enfermera]]', '[[Artist|Artista]]'], correctAnswer: 'Nurse' },
-  { id: 'a1-m1-l2-q51', type: 'true-false', question: 'Italy is a nationality.', correctAnswer: 'False' },
-  { id: 'a1-m1-l2-q52', type: 'multiple-choice', question: 'Which is a profession?', options: ['[[Canada|Canadá]]', '[[London|Londres]]', '[[Engineer|Ingeniero]]'], correctAnswer: 'Engineer' },
-  { id: 'a1-m1-l2-q53', type: 'fill-blank', question: 'He is from Japan. He is ___.', correctAnswer: 'Japanese' },
-  { id: 'a1-m1-l2-q54', type: 'multiple-choice', question: 'You are from the UK. You are ___.', options: ['[[British|Británico]]', '[[England|Inglaterra]]', '[[UKish|UKish]]'], correctAnswer: 'British' },
-  { id: 'a1-m1-l2-q55', type: 'true-false', question: '"Student" is a job/occupation.', correctAnswer: 'True' },
+  { id: 'a1-m1-l2-q41', type: 'multiple-choice', question: '[[He is from Mexico. He is ___.|Él es de México. Él es ___.]]', options: ['[[Mexican|Mexicano]]', '[[Mexico|México]]', '[[Mexicans|Mexicanos]]'], correctAnswer: 'Mexican' },
+  { id: 'a1-m1-l2-q42', type: 'multiple-choice', question: '[[She is from France. She is ___.|Ella es de Francia. Ella es ___.]]', options: ['[[France|Francia]]', '[[French|Francesa]]', '[[Frenches|Francesas]]'], correctAnswer: 'French' },
+  { id: 'a1-m1-l2-q43', type: 'fill-blank', question: '[[They are from Brazil. They are ___.|Ellos son de Brasil. Ellos son ___.]]', correctAnswer: 'Brazilian' },
+  { id: 'a1-m1-l2-q44', type: 'multiple-choice', question: '[[I am a ___. I work in a hospital.|Soy un ___. Trabajo en un hospital.]]', options: ['[[Teacher|Profesor]]', '[[Doctor|Doctor]]', '[[Actor|Actor]]'], correctAnswer: 'Doctor' },
+  { id: 'a1-m1-l2-q45', type: 'multiple-choice', question: '[[She works in a school. She is a ___.|Ella trabaja en una escuela. Ella es ___.]]', options: ['[[Nurse|Enfermera]]', '[[Teacher|Profesora]]', '[[Pilot|Piloto]]'], correctAnswer: 'Teacher' },
+  { id: 'a1-m1-l2-q46', type: 'true-false', question: '[[A "pilot" flies a plane.|Un "piloto" vuela un avión.]]', correctAnswer: 'True' },
+  { id: 'a1-m1-l2-q47', type: 'fill-blank', question: '[[He is from the USA. He is ___.|Él es de los Estados Unidos. Él es ___.]]', correctAnswer: 'American' },
+  { id: 'a1-m1-l2-q48', type: 'multiple-choice', question: '[[They work in a restaurant. They are ___.|Ellos trabajan en un restaurante. Ellos son ___.]]', options: ['[[Waiters|Camareros]]', '[[Drivers|Conductores]]', '[[Engineers|Ingenieros]]'], correctAnswer: 'Waiters' },
+  { id: 'a1-m1-l2-q49', type: 'fill-blank', question: '[[I am from Spain. I am ___.|Soy de España. Soy ___.]]', correctAnswer: 'Spanish' },
+  { id: 'a1-m1-l2-q50', type: 'multiple-choice', question: '[[She is a ___. She helps sick people.|Ella es ___. Ella ayuda a personas enfermas.]]', options: ['[[Chef|Chef]]', '[[Nurse|Enfermera]]', '[[Artist|Artista]]'], correctAnswer: 'Nurse' },
+  { id: 'a1-m1-l2-q51', type: 'true-false', question: '[[Italy is a nationality.|Italia es una nacionalidad.]]', correctAnswer: 'False' },
+  { id: 'a1-m1-l2-q52', type: 'multiple-choice', question: '[[Which is a profession?|¿Cuál es una profesión?]]', options: ['[[Canada|Canadá]]', '[[London|Londres]]', '[[Engineer|Ingeniero]]'], correctAnswer: 'Engineer' },
+  { id: 'a1-m1-l2-q53', type: 'fill-blank', question: '[[He is from Japan. He is ___.|Él es de Japón. Él es ___.]]', correctAnswer: 'Japanese' },
+  { id: 'a1-m1-l2-q54', type: 'multiple-choice', question: '[[You are from the UK. You are ___.|Tú eres del Reino Unido. Tú eres ___.]]', options: ['[[British|Británico]]', '[[England|Inglaterra]]', '[[UKish|UKish]]'], correctAnswer: 'British' },
+  { id: 'a1-m1-l2-q55', type: 'true-false', question: '[[ "Student" is a job/occupation.|"Estudiante" es un trabajo/ocupación.]]', correctAnswer: 'True' },
 ];
 
 // Reading Exercises (56-60)
@@ -87,11 +87,11 @@ const READING_EXERCISES: Exercise[] = [
     type: 'reading-comprehension',
     level: 'A1',
     topicName: 'Reading',
-    transcript: 'Meet Mario. He is from Italy. He is 21 years old. He is a student of Architecture. He is very friendly.',
+    transcript: '[[Meet Mario. He is from Italy. He is 21 years old. He is a student of Architecture. He is very friendly.|Conoce a Mario. Él es de Italia. Tiene 21 años. Es estudiante de arquitectura. Es muy amable.]]',
     content: {
-      title: 'Reading: Mario from Italy',
-      instructions: 'Read and answer.',
-      questions: [{ id: 'a1-m1-l2-q56', type: 'multiple-choice', question: 'Where is Mario from?', options: ['[[Spain|España]]', '[[Italy|Italia]]', '[[Japan|Japón]]'], correctAnswer: 'Italy' }]
+      title: '[[Reading: Mario from Italy|Lectura: Mario de Italia]]',
+      instructions: '[[Read and answer.|Lee y responde.]]',
+      questions: [{ id: 'a1-m1-l2-q56', type: 'multiple-choice', question: '[[Where is Mario from?|¿De dónde es Mario?]]', options: ['[[Spain|España]]', '[[Italy|Italia]]', '[[Japan|Japón]]'], correctAnswer: 'Italy' }]
     }
   },
   {
@@ -99,11 +99,11 @@ const READING_EXERCISES: Exercise[] = [
     type: 'reading-comprehension',
     level: 'A1',
     topicName: 'Reading',
-    transcript: 'Meet Yuki. She is from Japan. She is 23 years old. She is a student of Medicine. She is very intelligent.',
+    transcript: '[[Meet Yuki. She is from Japan. She is 23 years old. She is a student of Medicine. She is very intelligent.|Conoce a Yuki. Ella es de Japón. Tiene 23 años. Es estudiante de Medicina. Es muy inteligente.]]',
     content: {
-      title: 'Reading: Yuki from Japan',
-      instructions: 'Read and answer.',
-      questions: [{ id: 'a1-m1-l2-q57', type: 'multiple-choice', question: 'What is Yuki studying?', options: ['[[Architecture|Arquitectura]]', '[[Medicine|Medicina]]', '[[Business|Negocios]]'], correctAnswer: 'Medicine' }]
+      title: '[[Reading: Yuki from Japan|Lectura: Yuki de Japón]]',
+      instructions: '[[Read and answer.|Lee y responde.]]',
+      questions: [{ id: 'a1-m1-l2-q57', type: 'multiple-choice', question: '[[What is Yuki studying?|¿Qué está estudiando Yuki?]]', options: ['[[Architecture|Arquitectura]]', '[[Medicine|Medicina]]', '[[Business|Negocios]]'], correctAnswer: 'Medicine' }]
     }
   },
   {
@@ -111,11 +111,11 @@ const READING_EXERCISES: Exercise[] = [
     type: 'reading-comprehension',
     level: 'A1',
     topicName: 'Reading',
-    transcript: 'Carlos and Elena are from Spain. They are 22 years old. They are students of Business. They are very happy here.',
+    transcript: '[[Carlos and Elena are from Spain. They are 22 years old. They are students of Business. They are very happy here.|Carlos y Elena son de España. Tienen 22 años. Son estudiantes de Negocios. Están muy felices aquí.]]',
     content: {
-      title: 'Reading: Carlos and Elena',
-      instructions: 'Read and answer.',
-      questions: [{ id: 'a1-m1-l2-q58', type: 'multiple-choice', question: 'Are Carlos and Elena from Mexico?', options: ['[[Yes|Sí]]', '[[No|No]]'], correctAnswer: 'No' }]
+      title: '[[Reading: Carlos and Elena|Lectura: Carlos y Elena]]',
+      instructions: '[[Read and answer.|Lee y responde.]]',
+      questions: [{ id: 'a1-m1-l2-q58', type: 'multiple-choice', question: '[[Are Carlos and Elena from Mexico?|¿Son Carlos y Elena de México?]]', options: ['[[Yes|Sí]]', '[[No|No]]'], correctAnswer: 'No' }]
     }
   },
   {
@@ -123,11 +123,11 @@ const READING_EXERCISES: Exercise[] = [
     type: 'reading-comprehension',
     level: 'A1',
     topicName: 'Reading',
-    transcript: 'Julia is from Germany. She is a nurse. Her friend Hans is a doctor. They are from Munich.',
+    transcript: '[[Julia is from Germany. She is a nurse. Her friend Hans is a doctor. They are from Munich.|Julia es de Alemania. Es enfermera. Su amigo Hans es doctor. Son de Múnich.]]',
     content: {
-      title: 'Reading: Julia and Hans',
-      instructions: 'Read and answer.',
-      questions: [{ id: 'a1-m1-l2-q59', type: 'multiple-choice', question: 'What is Hans\'s job?', options: ['[[Nurse|Enfermero]]', '[[Doctor|Doctor]]', '[[Teacher|Profesor]]'], correctAnswer: 'Doctor' }]
+      title: '[[Reading: Julia and Hans|Lectura: Julia y Hans]]',
+      instructions: '[[Read and answer.|Lee y responde.]]',
+      questions: [{ id: 'a1-m1-l2-q59', type: 'multiple-choice', question: '[[What is Hans\'s job?|¿Cuál es el trabajo de Hans?]]', options: ['[[Nurse|Enfermero]]', '[[Doctor|Doctor]]', '[[Teacher|Profesor]]'], correctAnswer: 'Doctor' }]
     }
   },
   {
@@ -135,11 +135,11 @@ const READING_EXERCISES: Exercise[] = [
     type: 'reading-comprehension',
     level: 'A1',
     topicName: 'Reading',
-    transcript: 'The International Students Club is open every day. It is a great place to meet people from many countries.',
+    transcript: '[[The International Students Club is open every day. It is a great place to meet people from many countries.|El Club de Estudiantes Internacionales está abierto todos los días. Es un gran lugar para conocer gente de muchos países.]]',
     content: {
-      title: 'Reading: The Club',
-      instructions: 'Read and answer.',
-      questions: [{ id: 'a1-m1-l2-q60', type: 'true-false', question: 'The club is open on Sundays.', correctAnswer: 'True' }]
+      title: '[[Reading: The Club|Lectura: El Club]]',
+      instructions: '[[Read and answer.|Lee y responde.]]',
+      questions: [{ id: 'a1-m1-l2-q60', type: 'true-false', question: '[[The club is open on Sundays.|El club abre los domingos.]]', correctAnswer: 'True' }]
     }
   }
 ];

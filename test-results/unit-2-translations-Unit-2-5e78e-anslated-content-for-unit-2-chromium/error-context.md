@@ -1,0 +1,44 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic: © 2026 Focus English
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=e6]
+        - 'heading "Review: Unidad 2Ejercicio 56 de 60" [level=1] [ref=e9]':
+          - text: "Review: Unidad 2"
+          - generic [ref=e10]: Ejercicio 56 de 60
+      - generic [ref=e11]:
+        - button [ref=e12] [cursor=pointer]:
+          - img [ref=e13]
+        - button [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+    - main [ref=e18]:
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - generic [ref=e24]:
+              - generic [ref=e25]: A1
+              - generic [ref=e26]: reading-comprehension
+              - generic [ref=e27]: Reading
+            - 'heading "Reading: Mario from Italy" [level=2] [ref=e28]':
+              - generic [ref=e30]: "Reading: Mario from Italy"
+            - paragraph [ref=e33]:
+              - generic [ref=e35]: Read and answer.
+          - generic [ref=e37]:
+            - paragraph [ref=e40]:
+              - generic [ref=e42]: Meet Mario. He is from Italy. He is 21 years old. He is a student of Architecture. He is very friendly.
+            - button "Comprender texto y responder" [ref=e44] [cursor=pointer]:
+              - text: Comprender texto y responder
+              - img [ref=e45]
+        - generic [ref=e47]:
+          - generic [ref=e48]: "⏱️ Tiempo estimado: 5 min"
+          - generic [ref=e49]: 📅 2/18/2026
+  - button "Open Next.js Dev Tools" [ref=e55] [cursor=pointer]:
+    - img [ref=e56]
+  - alert [ref=e59]
+```
