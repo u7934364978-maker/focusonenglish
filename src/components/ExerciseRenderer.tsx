@@ -130,7 +130,9 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
       setEvaluation({
         isCorrect: correct,
         score: correct ? 100 : 0,
-        feedback: correct ? '¡Excelente! Respuesta correcta.' : `Respuesta incorrecta. La respuesta correcta era: **${stripTags(String(displayCorrectAnswer))}**`,
+        feedback: correct 
+          ? '[[Excellent! Correct answer.|¡Excelente! Respuesta correcta.]]' 
+          : `[[Incorrect. The correct answer was:|Respuesta incorrecta. La respuesta correcta era:]] **${stripTags(String(displayCorrectAnswer))}**`,
       });
 
       if (correct) setShowConfetti(true);
@@ -175,7 +177,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
         <div className="mb-6">
           <div className="flex justify-between items-center mb-4">
             <span className="inline-block bg-orange-500 text-white px-4 py-1.5 rounded-full text-sm font-black uppercase tracking-wider">
-              Pregunta {qIndex + 1} de {questions.length}
+              <TranslatedText text={`[[Question|Pregunta]] ${qIndex + 1} [[of|de]] ${questions.length}`} />
             </span>
           </div>
           <div className="text-2xl text-gray-900 font-black leading-tight">
@@ -210,7 +212,9 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                     } disabled:cursor-not-allowed`}
                   >
                     <div className="flex flex-col items-center gap-3">
-                      <span>{option === 'True' ? 'Verdadero' : 'Falso'}</span>
+                      <span>
+                        <TranslatedText text={option === 'True' ? '[[True|Verdadero]]' : '[[False|Falso]]'} />
+                      </span>
                       {showAsCorrect && <CheckCircle className="w-8 h-8 text-green-500" />}
                       {showAsIncorrect && <XCircle className="w-8 h-8 text-red-500" />}
                     </div>
@@ -265,7 +269,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
               value={userAnswer || ''}
               onChange={(e) => setUserAnswer(e.target.value)}
               disabled={submitted}
-              placeholder="Escribe tu respuesta..."
+              placeholder="Write your answer..."
               className="w-full p-6 border-4 border-gray-200 rounded-3xl focus:border-orange-500 focus:outline-none text-2xl font-bold"
             />
           )}
@@ -280,14 +284,18 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
               className="group bg-orange-600 text-white px-12 py-5 rounded-3xl font-black text-xl hover:bg-orange-700 transition-all shadow-xl hover:shadow-orange-200 disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-3 transform hover:scale-105 active:scale-95"
             >
               <Zap className="w-7 h-7 group-hover:animate-pulse" />
-              Confirmar Respuesta
+              <TranslatedText text="[[Confirm Answer|Confirmar Respuesta]]" />
             </button>
           ) : (
             <button
               onClick={handleNextQuestion}
               className="group bg-green-600 text-white px-12 py-5 rounded-3xl font-black text-xl hover:bg-green-700 transition-all shadow-xl hover:shadow-green-200 flex items-center gap-3 transform hover:scale-105 active:scale-95 animate-in fade-in zoom-in duration-300"
             >
-              {currentQuestionIdx < questions.length - 1 ? 'Siguiente Pregunta' : 'Finalizar Ejercicio'}
+              {currentQuestionIdx < questions.length - 1 ? (
+                <TranslatedText text="[[Next Question|Siguiente Pregunta]]" />
+              ) : (
+                <TranslatedText text="[[Finish Exercise|Finalizar Ejercicio]]" />
+              )}
               <ArrowRight className="w-7 h-7 group-hover:translate-x-1 transition-transform" />
             </button>
           )}
@@ -300,14 +308,22 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
           }`}>
             <div className="flex items-center gap-4 mb-3">
               {evaluation.isCorrect ? <CheckCircle className="w-8 h-8" /> : <XCircle className="w-8 h-8" />}
-              <span className="text-2xl font-black">{evaluation.isCorrect ? '¡Excelente!' : 'Casi...'}</span>
+              <span className="text-2xl font-black">
+                {evaluation.isCorrect ? (
+                  <TranslatedText text="[[Excellent!|¡Excelente!]]" />
+                ) : (
+                  <TranslatedText text="[[Almost...|Casi...]]" />
+                )}
+              </span>
             </div>
             <div className="text-xl font-bold opacity-90">
               <Markdown content={evaluation.feedback} vocabulary={vocabulary} />
             </div>
             {q.explanation && (
               <div className="mt-6 p-5 bg-white/50 rounded-2xl text-lg border border-current/10">
-                <p className="font-black mb-2 flex items-center gap-2">💡 Explicación:</p>
+                <p className="font-black mb-2 flex items-center gap-2">
+                  💡 <TranslatedText text="[[Explanation:|Explicación:]]" />
+                </p>
                 <Markdown content={q.explanation} vocabulary={vocabulary} />
               </div>
             )}

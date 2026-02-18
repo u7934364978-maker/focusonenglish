@@ -16,38 +16,89 @@
 
  ✓ Starting...
  ⚠ Mismatching @next/swc version, detected: 15.5.7 while Next.js is on 15.5.11. Please ensure these match
- ✓ Ready in 1717ms
- ✓ Compiled /middleware in 236ms (164 modules)
+ ✓ Ready in 1482ms
+ ✓ Compiled /middleware in 188ms (164 modules)
  ○ Compiling /debug/a1-preview/[unitId] ...
- ✓ Compiled /debug/a1-preview/[unitId] in 5.8s (2343 modules)
+ ✓ Compiled /debug/a1-preview/[unitId] in 1709ms (2329 modules)
 Supabase Browser Client Initializing with URL: https://nprqtjljoekoirlrjxlh.supabase.co
- GET /debug/a1-preview/unit-2 200 in 6532ms
- GET /debug/a1-preview/unit-2 200 in 6537ms
- GET /debug/a1-preview/unit-2 200 in 7566ms
- GET /debug/a1-preview/unit-2 200 in 7571ms
- GET /debug/a1-preview/unit-2 200 in 260ms
- GET /debug/a1-preview/unit-2 200 in 264ms
- GET /debug/a1-preview/unit-2 200 in 205ms
- GET /debug/a1-preview/unit-2 200 in 208ms
- GET /debug/a1-preview/unit-2 200 in 260ms
- GET /debug/a1-preview/unit-2 200 in 262ms
- GET /debug/a1-preview/unit-2 200 in 230ms
- GET /debug/a1-preview/unit-2 200 in 266ms
- GET /debug/a1-preview/unit-2 200 in 310ms
- GET /debug/a1-preview/unit-2 200 in 316ms
- GET /debug/a1-preview/unit-2 200 in 215ms
- GET /debug/a1-preview/unit-2 200 in 215ms
- GET /debug/a1-preview/unit-2 200 in 302ms
- GET /debug/a1-preview/unit-2 200 in 307ms
- GET /debug/a1-preview/unit-2 200 in 229ms
- GET /debug/a1-preview/unit-2 200 in 231ms
- ✓ Compiled in 1222ms (2343 modules)
-Supabase Browser Client Initializing with URL: https://nprqtjljoekoirlrjxlh.supabase.co
- GET /debug/a1-preview/unit-3 200 in 721ms
- GET /debug/a1-preview/unit-3 200 in 725ms
- ✓ Compiled in 1112ms (2343 modules)
- ✓ Compiled in 646ms (2343 modules)
- ✓ Compiled in 821ms (2343 modules)
- ✓ Compiled in 1108ms (2343 modules)
- ✓ Compiled in 926ms (2343 modules)
+ GET /debug/a1-preview/unit-2 200 in 3215ms
+ GET /debug/a1-preview/unit-2 200 in 3217ms
+ GET /debug/a1-preview/unit-2 200 in 3218ms
+ GET /debug/a1-preview/unit-2 200 in 3220ms
+ GET /debug/a1-preview/unit-2?index=7 200 in 137ms
+ GET /debug/a1-preview/unit-2 200 in 490ms
+ GET /debug/a1-preview/unit-2 200 in 498ms
+ GET /debug/a1-preview/unit-2 200 in 499ms
+ GET /debug/a1-preview/unit-2 200 in 515ms
+ GET /debug/a1-preview/unit-2?index=7 200 in 157ms
+ GET /debug/a1-preview/unit-2 200 in 616ms
+ GET /debug/a1-preview/unit-2 200 in 618ms
+ GET /debug/a1-preview/unit-2 200 in 621ms
+ GET /debug/a1-preview/unit-2 200 in 625ms
+ GET /debug/a1-preview/unit-2?index=7 200 in 198ms
+ GET /debug/a1-preview/unit-2 200 in 566ms
+ GET /debug/a1-preview/unit-2 200 in 569ms
+ GET /debug/a1-preview/unit-2 200 in 570ms
+ GET /debug/a1-preview/unit-2 200 in 571ms
+ GET /debug/a1-preview/unit-2?index=7 200 in 310ms
+ GET /debug/a1-preview/unit-2 200 in 619ms
+ GET /debug/a1-preview/unit-2 200 in 621ms
+ GET /debug/a1-preview/unit-2 200 in 622ms
+ GET /debug/a1-preview/unit-2 200 in 624ms
+ GET /debug/a1-preview/unit-2?index=7 200 in 186ms
+ GET /debug/a1-preview/unit-2 200 in 547ms
+ GET /debug/a1-preview/unit-2 200 in 554ms
+ GET /debug/a1-preview/unit-2 200 in 555ms
+ GET /debug/a1-preview/unit-2 200 in 556ms
+ GET /debug/a1-preview/unit-2?index=7 200 in 165ms
+ GET /debug/a1-preview/unit-2 200 in 639ms
+ GET /debug/a1-preview/unit-2 200 in 645ms
+ GET /debug/a1-preview/unit-2 200 in 646ms
+ GET /debug/a1-preview/unit-2 200 in 652ms
+ GET /debug/a1-preview/unit-2?index=7 200 in 157ms
+ GET /debug/a1-preview/unit-2 200 in 583ms
+ GET /debug/a1-preview/unit-2 200 in 584ms
+ GET /debug/a1-preview/unit-2 200 in 585ms
+ GET /debug/a1-preview/unit-2 200 in 595ms
+ GET /debug/a1-preview/unit-2?index=7 200 in 176ms
+ GET /debug/a1-preview/unit-2 200 in 498ms
+ GET /debug/a1-preview/unit-2 200 in 502ms
+ GET /debug/a1-preview/unit-2 200 in 504ms
+ GET /debug/a1-preview/unit-2 200 in 505ms
+ GET /debug/a1-preview/unit-2?index=7 200 in 122ms
+ GET /debug/a1-preview/unit-2 200 in 534ms
+ GET /debug/a1-preview/unit-2 200 in 540ms
+ GET /debug/a1-preview/unit-2 200 in 524ms
+ GET /debug/a1-preview/unit-2 200 in 540ms
+ GET /debug/a1-preview/unit-2?index=7 200 in 148ms
+ GET /debug/a1-preview/unit-2 200 in 523ms
+ GET /debug/a1-preview/unit-2 200 in 526ms
+ GET /debug/a1-preview/unit-2 200 in 527ms
+ GET /debug/a1-preview/unit-2 200 in 527ms
+ GET /debug/a1-preview/unit-2?index=7 200 in 167ms
+ GET /debug/a1-preview/unit-2 200 in 542ms
+ GET /debug/a1-preview/unit-2 200 in 542ms
+ GET /debug/a1-preview/unit-2 200 in 543ms
+ GET /debug/a1-preview/unit-2 200 in 563ms
+ GET /debug/a1-preview/unit-2?index=7 200 in 207ms
+ GET /debug/a1-preview/unit-2 200 in 612ms
+ GET /debug/a1-preview/unit-2 200 in 622ms
+ GET /debug/a1-preview/unit-2 200 in 643ms
+ GET /debug/a1-preview/unit-2 200 in 646ms
+ GET /debug/a1-preview/unit-2?index=7 200 in 170ms
+ GET /debug/a1-preview/unit-2 200 in 550ms
+ GET /debug/a1-preview/unit-2 200 in 551ms
+ GET /debug/a1-preview/unit-2 200 in 553ms
+ GET /debug/a1-preview/unit-2 200 in 558ms
+ GET /debug/a1-preview/unit-2?index=7 200 in 201ms
+ GET /debug/a1-preview/unit-2 200 in 514ms
+ GET /debug/a1-preview/unit-2 200 in 517ms
+ GET /debug/a1-preview/unit-2 200 in 519ms
+ GET /debug/a1-preview/unit-2 200 in 692ms
+ GET /debug/a1-preview/unit-2?index=7 200 in 366ms
+ GET /debug/a1-preview/unit-2 200 in 476ms
+ GET /debug/a1-preview/unit-2 200 in 479ms
+ GET /debug/a1-preview/unit-2 200 in 490ms
+ GET /debug/a1-preview/unit-2 200 in 491ms
+ GET /debug/a1-preview/unit-2?index=7 200 in 178ms
 [?25h
